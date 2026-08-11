@@ -1,0 +1,812 @@
+{
+  "category": "Admitting, denying, and revealing",
+  "slug": "04-admit-deny",
+  "entries": [
+    {
+      "term": "accept",
+      "ipa": "/əkˈsɛpt/",
+      "respell": "uhk-SEPT",
+      "type": "reporting verb — concession",
+      "register": "neutral",
+      "patterns": "accept + that-clause / accept + noun phrase / accept + noun phrase + as + noun phrase or adjective / passive it is accepted that",
+      "never": "accept to do something; accept me that",
+      "meaning": "Coming around to a proposition you had been resisting, usually after evidence or argument; weaker than concede, which needs a specific point surrendered in a dispute, and carrying none of the fault that admit does.",
+      "transform": "\"All right, the numbers are what they are,\" he said. -> He accepted that the numbers were what they were.",
+      "examples": [
+        "The board finally accepted that the launch date had to move.",
+        "She accepts that nothing she says is going to change his mind.",
+        "Even his critics accept the basic finding.",
+        "I'll accept that I was wrong about the route, but not about the time.",
+        "The court accepted her account as accurate.",
+        "Nobody in the room accepted that the outage had lasted only six hours."
+      ],
+      "related": ["acknowledge", "concede", "grant", "agree"]
+    },
+    {
+      "term": "acknowledge",
+      "ipa": "/ækˈnɑlɪdʒ/",
+      "respell": "ak-NAH-lij",
+      "type": "reporting verb — admission",
+      "register": "neutral to formal",
+      "patterns": "acknowledge + that-clause / acknowledge + -ing / acknowledge + noun phrase / acknowledge + noun phrase + as / to be / acknowledge + wh-clause / acknowledge + to sb + that-clause / passive it is acknowledged that",
+      "never": "acknowledge to do something; acknowledge me that",
+      "meaning": "A formal admission that something is so — the lightest verb in the family, since admit presupposes fault and confess presupposes guilt, but you can acknowledge a debt, a favor, or an email with nothing at stake.",
+      "transform": "\"Yes, we were late filing,\" the company said. -> The company acknowledged that it had been late filing.",
+      "examples": [
+        "The mayor acknowledged that the city had missed the deadline.",
+        "She acknowledged receiving the letter but said she never opened it.",
+        "He acknowledged the mistake without apologizing for it.",
+        "The study acknowledges what the earlier work got right.",
+        "It is widely acknowledged that the original estimate was too low.",
+        "He acknowledged to the committee that no one had read the contract."
+      ],
+      "related": ["accept", "admit", "concede", "grant"]
+    },
+    {
+      "term": "admit",
+      "ipa": "/ədˈmɪt/",
+      "respell": "uhd-MIT",
+      "type": "reporting verb — admission",
+      "register": "neutral",
+      "patterns": "admit + that-clause / admit + -ing / admit + to + -ing / admit + noun phrase / admit + to + noun phrase / admit + to sb + that-clause / admit + wh-clause / passive it is admitted that / (unrelated senses: admit + sb + to + noun phrase, meaning let in; admit + of + noun phrase, meaning leave room for)",
+      "never": "admit to do something; admit to have done something; admit me that",
+      "meaning": "Conceding something that counts against you; the fault is presupposed rather than asserted, which is why admitted is unfair attribution for a fact the speaker volunteered freely.",
+      "transform": "\"Okay, I took the money,\" he said. -> He admitted taking the money. / He admitted that he had taken the money.",
+      "examples": [
+        "She admitted that she had never read the contract.",
+        "He admitted to me that the whole story was secondhand.",
+        "The airline admitted overbooking the flight.",
+        "Two of them admitted to falsifying the timesheets.",
+        "I'll admit it — I forgot the appointment completely.",
+        "He would never admit how much the repair actually cost.",
+        "Nobody admitted to being in the building after six."
+      ],
+      "related": ["acknowledge", "concede", "confess", "own up to", "deny"]
+    },
+    {
+      "term": "allow",
+      "ipa": "/əˈlaʊ/",
+      "respell": "uh-LOW (rhymes with now)",
+      "type": "reporting verb — concession",
+      "register": "formal and somewhat dated in this sense; the everyday allow is the permission verb",
+      "patterns": "allow + that-clause / allow + of + noun phrase / (unrelated permission sense: allow + sb + to-infinitive, allow + -ing, allow + noun phrase)",
+      "never": "allow to do (in the concession sense); allow -ing (in the concession sense); allow me that",
+      "meaning": "Granting a point, in a register that now sounds bookish; like concede it presupposes resistance, since nothing gets allowed that was not first in doubt, and the that-clause is the reliable signal that separates this verb from the permission verb spelled the same way.",
+      "transform": "\"Fine — the argument has something to it,\" she said. -> She allowed that the argument had something to it.",
+      "examples": [
+        "The historian allows that the letter may be a forgery.",
+        "I'll allow that the price was fair, given the market.",
+        "He allowed that he had been unfair to her.",
+        "Even the dissent allows that the statute is ambiguous.",
+        "She allowed as how the drive would take most of a day.",
+        "Critics generally allow that the early novels are the stronger ones."
+      ],
+      "related": ["concede", "grant", "accept", "acknowledge"]
+    },
+    {
+      "term": "announce",
+      "ipa": "/əˈnaʊns/",
+      "respell": "uh-NOWNSS",
+      "type": "reporting verb — public statement, often a revelation",
+      "register": "neutral",
+      "patterns": "announce + that-clause / announce + noun phrase / announce + wh-clause / announce + noun phrase + to sb / announce + to sb + that-clause / passive it was announced that",
+      "never": "announce me the news; announce me that; announce to do",
+      "meaning": "Making something public and official; where reveal presupposes concealment and leak presupposes that the release was unauthorized, announce presupposes only that the speaker had the standing to say it.",
+      "transform": "\"We're closing the Denver office,\" the CEO said. -> The CEO announced that the company was closing the Denver office.",
+      "examples": [
+        "She announced that she was leaving at the end of the month.",
+        "The district announced the closure by text at six in the morning.",
+        "He announced to the whole table that he had gotten the job.",
+        "They still haven't announced who won.",
+        "It was announced on Friday that the merger had fallen through.",
+        "My brother announced his engagement on a group call."
+      ],
+      "related": ["reveal", "disclose", "unveil", "leak"]
+    },
+    {
+      "term": "betray",
+      "ipa": "/bɪˈtreɪ/",
+      "respell": "bih-TRAY",
+      "type": "reporting verb — unintentional revelation",
+      "register": "neutral to literary",
+      "patterns": "betray + noun phrase / betray + the fact that / betray + wh-clause / betray + no / little + noun phrase / betray + oneself",
+      "never": "betray that he was nervous (bare that-clause dispreferred); betray to do; betray -ing; betray me that",
+      "meaning": "Letting something show without meaning to, usually through a sign rather than a statement; the overlap with the other betray is why it always suggests the revealer was on the wrong side of the secret.",
+      "transform": "\"I'm fine, really,\" she said. -> Her voice betrayed how little she meant it.",
+      "examples": [
+        "His accent betrayed him within about five words.",
+        "Her expression betrayed nothing at all.",
+        "The letter betrays the fact that he already knew about the sale.",
+        "He betrayed no surprise when the verdict was read out.",
+        "A pause on the line betrayed how bad the news was going to be.",
+        "She betrayed herself by asking about a detail nobody had told her."
+      ],
+      "related": ["give away", "let slip", "let on", "reveal"]
+    },
+    {
+      "term": "blurt out",
+      "ipa": "/ˈblɜrt ˈaʊt/",
+      "respell": "BLURT OWT",
+      "type": "reporting verb — unintentional revelation",
+      "register": "neutral, leaning informal",
+      "patterns": "blurt out + that-clause / blurt out + noun phrase / blurt + noun phrase + out / blurt out + wh-clause / blurt out + direct quotation",
+      "never": "blurt out to do; blurt out -ing; blurt me out that; blurted out it (a pronoun must precede the particle)",
+      "meaning": "Saying something suddenly and without thinking, usually something the speaker meant to hold back.",
+      "transform": "\"She's pregnant!\" he said before he could stop himself. -> He blurted out that she was pregnant.",
+      "examples": [
+        "He blurted out that he had already accepted another offer.",
+        "She blurted the whole thing out before anyone could stop her.",
+        "Don't blurt out the ending — half of them haven't seen it.",
+        "I blurted out the first number that came into my head.",
+        "Someone in the back blurted out what everyone was thinking.",
+        "He blurted it out and then spent an hour apologizing for it.",
+        "\"It wasn't me,\" he blurted out before anyone had even asked."
+      ],
+      "related": ["let slip", "spill", "give away"]
+    },
+    {
+      "term": "come clean",
+      "ipa": "/kʌm ˈklin/",
+      "respell": "kum KLEEN",
+      "type": "reporting verb — admission",
+      "register": "informal",
+      "patterns": "come clean (no complement) / come clean + about + noun phrase / come clean + about + -ing / come clean + with sb / come clean + to sb + about",
+      "never": "come clean that he had lied; come clean to do; come clean the truth",
+      "meaning": "Finally telling the truth after a stretch of concealment; it presupposes a prior lie or cover-up more strongly than admit does.",
+      "transform": "\"All right — I've been out of work since March,\" he said. -> He finally came clean about having been out of work since March.",
+      "examples": [
+        "He came clean about the credit card debt.",
+        "She decided to come clean with her parents over dinner.",
+        "It took him a year to come clean about missing the deadline.",
+        "If you come clean now, this stays between us.",
+        "The company never came clean about how long the data had been exposed.",
+        "I'd rather come clean than keep patching the story."
+      ],
+      "related": ["own up to", "fess up", "confess", "admit"]
+    },
+    {
+      "term": "concede",
+      "ipa": "/kənˈsid/",
+      "respell": "kuhn-SEED",
+      "type": "reporting verb — concession",
+      "register": "neutral to formal",
+      "patterns": "concede + that-clause / concede + noun phrase / concede + noun phrase + to sb / concede + to sb + that-clause / passive it is conceded that",
+      "never": "concede to do; concede me that (the listener needs to: conceded to reporters that); conceded making a mistake (the bare -ing is unnatural); concede + wh-clause (shaky — use admit)",
+      "meaning": "Giving up a point under pressure in an argument or a contest; what it presupposes is not fault but resistance, so in journalism it is as loaded as admitted.",
+      "transform": "\"All right, your figures are better than mine,\" she said. -> She conceded that my figures were better than hers.",
+      "examples": [
+        "He conceded that the first draft had been rushed.",
+        "She conceded the point but not the argument.",
+        "The senator conceded the race a little after midnight.",
+        "Even the study's authors concede that the sample was small.",
+        "She would not concede that any part of it had been her idea.",
+        "The company conceded two of the five claims and fought the rest.",
+        "He conceded to reporters that the campaign had run out of money."
+      ],
+      "related": ["accept", "acknowledge", "grant", "admit", "dispute"]
+    },
+    {
+      "term": "confess",
+      "ipa": "/kənˈfɛs/",
+      "respell": "kuhn-FESS",
+      "type": "reporting verb — admission of guilt",
+      "register": "neutral to formal",
+      "patterns": "confess + that-clause / confess + to + -ing / confess + to + noun phrase / confess + noun phrase / confess + noun phrase + to sb / confess + to sb / confess + to sb + that-clause / confess (no complement)",
+      "never": "confess to do; confess me that; confess -ing without to (dispreferred)",
+      "meaning": "Admitting to something you can be blamed or punished for — stronger than admit by exactly the distance between fault and guilt, and still carrying its religious and legal residue; the to can introduce either the offense (confessed to the burglary) or the audience (confessed to the detective).",
+      "transform": "\"It was me. I broke it,\" he said. -> He confessed to breaking it. / He confessed that he had broken it.",
+      "examples": [
+        "He confessed to taking the cash out of the register.",
+        "She confessed that she had known about it for months.",
+        "Two suspects confessed within the first day.",
+        "I'll confess I've never actually finished the book.",
+        "He confessed his part in it to the auditors.",
+        "After six hours she still hadn't confessed."
+      ],
+      "related": ["admit", "own up to", "come clean", "acknowledge"]
+    },
+    {
+      "term": "confide",
+      "ipa": "/kənˈfaɪd/",
+      "respell": "kuhn-FYDE",
+      "type": "reporting verb — private revelation",
+      "register": "neutral",
+      "patterns": "confide + that-clause / confide + in sb / confide + in sb + that-clause / confide + in sb + about + noun phrase / confide + noun phrase + to sb / confide + to sb + that-clause",
+      "never": "confide me that; confide me the news; confide to do; confide -ing",
+      "meaning": "Telling something private on the understanding that it stays private; the secrecy is presupposed and the fault is not.",
+      "transform": "\"Don't tell anyone, but I'm quitting,\" she said. -> She confided that she was quitting.",
+      "examples": [
+        "He confided that the marriage had been over for years.",
+        "She confided in her roommate and in nobody else.",
+        "He confided his doubts to a colleague over lunch.",
+        "She confided to me that she had turned the offer down.",
+        "He has never confided in anyone about the diagnosis.",
+        "They confided in each other for thirty years."
+      ],
+      "related": ["reveal", "disclose", "let on", "divulge", "volunteer"]
+    },
+    {
+      "term": "contradict",
+      "ipa": "/ˌkɑntrəˈdɪkt/",
+      "respell": "kahn-truh-DIKT",
+      "type": "reporting verb — denial of someone else's statement",
+      "register": "neutral",
+      "patterns": "contradict + sb / contradict + noun phrase / contradict + oneself / passive be contradicted by",
+      "never": "contradict that (no that-clause at all); contradict to do; contradict -ing; contradict me that",
+      "meaning": "Saying that what someone else said is untrue; alone among the denial verbs it takes a person as its object, and it needs a prior statement to work on.",
+      "transform": "\"That's not what happened at all,\" he told her. -> He contradicted her flatly.",
+      "examples": [
+        "Nobody at the table dared contradict him.",
+        "The second witness contradicted the first on every detail.",
+        "He contradicted himself twice in the same paragraph.",
+        "The lab results contradict the company's timeline.",
+        "She contradicted the official account within an hour of reading it.",
+        "I'm not trying to contradict you — I just remember it differently."
+      ],
+      "related": ["deny", "dispute", "rebut", "refute"]
+    },
+    {
+      "term": "deny",
+      "ipa": "/dɪˈnaɪ/",
+      "respell": "dih-NY",
+      "type": "reporting verb — denial",
+      "register": "neutral",
+      "patterns": "deny + that-clause / deny + -ing / deny + having + past participle / deny + noun phrase / deny + it / passive it is denied that",
+      "never": "deny to do something; denied to taking it; deny me that he was there",
+      "meaning": "Asserting that a claim about you is false — the mirror image of admit, presupposing that an accusation is already on the table; the separate frame deny + sb + noun phrase means refuse to give and reports no speech.",
+      "transform": "\"I never touched it,\" he said. -> He denied touching it. / He denied that he had touched it.",
+      "examples": [
+        "She denied any knowledge of the payments.",
+        "He denied knowing the other driver.",
+        "The department denies that the recording was edited.",
+        "Ask him directly and he'll deny it.",
+        "Both companies denied having been contacted by regulators.",
+        "He never denied being at the party — only that he had stayed late."
+      ],
+      "related": ["dispute", "disclaim", "contradict", "admit", "refuse"]
+    },
+    {
+      "term": "disavow",
+      "ipa": "/ˌdɪsəˈvaʊ/",
+      "respell": "diss-uh-VOW",
+      "type": "reporting verb — denial of connection",
+      "register": "formal",
+      "patterns": "disavow + noun phrase / disavow + any / all + noun phrase / disavow + noun phrase + as + noun phrase or adjective / passive be disavowed by",
+      "never": "disavow that; disavow -ing; disavow to do; disavow me sth",
+      "meaning": "Publicly cutting yourself off from something you are being associated with; where deny says the fact is untrue, disavow usually concedes the fact and rejects the connection.",
+      "transform": "\"That group does not speak for me,\" the senator said. -> The senator disavowed the group.",
+      "examples": [
+        "The campaign disavowed the ad within hours.",
+        "He disavowed any connection to the earlier filings.",
+        "The agency disavowed the report as unauthorized.",
+        "She has never disavowed the essay, even under pressure.",
+        "The party quietly disavowed its own platform from four years earlier.",
+        "Both founders disavowed the decision once it went public."
+      ],
+      "related": ["disclaim", "deny", "retract", "recant"]
+    },
+    {
+      "term": "disclaim",
+      "ipa": "/dɪsˈkleɪm/",
+      "respell": "diss-KLAYM",
+      "type": "reporting verb — denial of responsibility",
+      "register": "formal, especially legal",
+      "patterns": "disclaim + noun phrase / disclaim + all / any + noun phrase / passive be disclaimed",
+      "never": "disclaim that; disclaim -ing; disclaim to do; disclaim me sth",
+      "meaning": "Formally refusing responsibility, ownership, or credit; narrower than deny, since you deny a fact but disclaim a liability, a warranty, an interest, or a connection.",
+      "transform": "\"The manufacturer takes no responsibility for this,\" the notice said. -> The notice disclaimed all responsibility.",
+      "examples": [
+        "The seller disclaims any warranty beyond thirty days.",
+        "She disclaimed all credit for the idea.",
+        "The estate disclaimed an interest in the property.",
+        "He disclaimed responsibility for the numbers in the appendix.",
+        "The label disclaims liability for damage in transit.",
+        "Both parties disclaimed knowledge of the third contract."
+      ],
+      "related": ["disavow", "deny", "dispute"]
+    },
+    {
+      "term": "disclose",
+      "ipa": "/dɪsˈkloʊz/",
+      "respell": "diss-KLOHZ",
+      "type": "reporting verb — revelation",
+      "register": "formal, especially legal and financial",
+      "patterns": "disclose + that-clause / disclose + noun phrase / disclose + wh-clause / disclose + noun phrase + to sb / disclose + to sb + that-clause / passive it was disclosed that",
+      "never": "disclose me the terms; disclose to do; disclose -ing; disclose me that",
+      "meaning": "Making known something you had a duty or an option to keep quiet about — the same act as reveal, in the register of contracts and regulators, and adding an obligation that reveal does not carry.",
+      "transform": "\"We hold shares in the supplier,\" the director said. -> The director disclosed that the board held shares in the supplier.",
+      "examples": [
+        "The company disclosed that two executives had sold stock in March.",
+        "He failed to disclose the payments on his ethics form.",
+        "She would not disclose how much the settlement was worth.",
+        "The filing discloses a second lawsuit in Ohio.",
+        "Nothing was disclosed to shareholders until after the vote.",
+        "Doctors must disclose any financial ties to the manufacturer.",
+        "The bank disclosed to regulators that the account had been open for years."
+      ],
+      "related": ["reveal", "divulge", "announce", "leak"]
+    },
+    {
+      "term": "dispute",
+      "ipa": "/dɪˈspjut/",
+      "respell": "dih-SPYOOT",
+      "type": "reporting verb — denial",
+      "register": "neutral to formal",
+      "patterns": "dispute + that-clause / dispute + noun phrase / dispute + wh-clause / dispute + whether-clause / passive be disputed",
+      "never": "dispute to do; dispute -ing; dispute me that",
+      "meaning": "Challenging a claim as wrong without necessarily denying it outright — deny says it is false, dispute says it is contestable, which is how one fact can be disputed by both sides at once.",
+      "transform": "\"Those figures are not correct,\" the auditor said. -> The auditor disputed that the figures were correct.",
+      "examples": [
+        "She disputes the charge on principle, not on the amount.",
+        "Nobody disputes that the building needs a new roof.",
+        "The union disputed the company's account of the meeting.",
+        "Historians still dispute whether the letter is genuine.",
+        "He disputed every line of the invoice.",
+        "The finding has been disputed by two other labs."
+      ],
+      "related": ["deny", "contradict", "rebut", "concede"]
+    },
+    {
+      "term": "divulge",
+      "ipa": "/dɪˈvʌldʒ/",
+      "respell": "dih-VULJ",
+      "type": "reporting verb — revelation",
+      "register": "formal, faintly literary",
+      "patterns": "divulge + noun phrase / divulge + that-clause / divulge + wh-clause / divulge + noun phrase + to sb / divulge + to sb + that-clause / passive be divulged",
+      "never": "divulge me the details; divulge me that; divulge to do; divulge -ing",
+      "meaning": "Giving out information that was supposed to stay in — the most secretive of the revealing verbs, and the one that most clearly presupposes a confidence being broken.",
+      "transform": "\"I can't tell you what he paid,\" she said. -> She refused to divulge what he had paid.",
+      "examples": [
+        "He would not divulge the source of the recording.",
+        "The office declined to divulge how many people had applied.",
+        "She divulged the terms to a reporter that evening.",
+        "Nothing was divulged before the embargo lifted.",
+        "Employees agree not to divulge anything covered by the contract.",
+        "He divulged that the buyer was a competitor.",
+        "She divulged to a colleague that the audit had already started."
+      ],
+      "related": ["disclose", "reveal", "leak", "confide"]
+    },
+    {
+      "term": "expose",
+      "ipa": "/ɪkˈspoʊz/",
+      "respell": "ik-SPOHZ",
+      "type": "reporting verb — hostile revelation",
+      "register": "neutral, journalistic",
+      "patterns": "expose + noun phrase / expose + noun phrase + as + noun phrase or adjective / expose + the fact that / expose + wh-clause / passive be exposed as",
+      "never": "expose that the reports were falsified (bare that-clause dispreferred); expose to do; expose -ing; expose me that",
+      "meaning": "Revealing something the subject was actively hiding, and revealing it against them; reveal is neutral about whose interest is served, but expose always serves the reader against the person exposed.",
+      "transform": "\"These credentials are fake,\" the reporter wrote. -> The reporter exposed the credentials as forgeries.",
+      "examples": [
+        "The investigation exposed a decade of falsified inspections.",
+        "He was exposed as the author of the anonymous memo.",
+        "The audit exposed the fact that nobody had signed off on the payments.",
+        "Her testimony exposed how the contracts were awarded.",
+        "A single email exposed the whole arrangement.",
+        "The documentary exposed conditions the company had denied for years."
+      ],
+      "related": ["reveal", "leak", "betray", "disclose"]
+    },
+    {
+      "term": "fess up",
+      "ipa": "/ˈfɛs ˈʌp/",
+      "respell": "FESS UP",
+      "type": "reporting verb — admission",
+      "register": "informal, American",
+      "patterns": "fess up (no complement) / fess up + to + noun phrase / fess up + to + -ing / fess up + about + noun phrase / fess up + to sb",
+      "never": "fess up that he took it; fess up to do; fess up the truth",
+      "meaning": "Owning up to something minor, with none of the gravity of confess; a clipped American reshaping of that verb, and out of place in anything formal.",
+      "transform": "\"Fine, it was me who ate it,\" he said. -> He fessed up to eating it.",
+      "examples": [
+        "Somebody needs to fess up about the dent in the door.",
+        "She fessed up to forgetting the appointment entirely.",
+        "He fessed up the second his mother asked.",
+        "Just fess up — everybody already knows.",
+        "Nobody fessed up to sending the email.",
+        "He fessed up to me about it a week later."
+      ],
+      "related": ["own up to", "come clean", "admit", "confess"]
+    },
+    {
+      "term": "give away",
+      "ipa": "/ˌɡɪv əˈweɪ/",
+      "respell": "giv uh-WAY",
+      "type": "reporting verb — unintentional revelation",
+      "register": "neutral, leaning informal",
+      "patterns": "give away + noun phrase / give + noun phrase + away / give + oneself + away / give away + the fact that / give away + wh-clause",
+      "never": "gave away it (a pronoun must precede the particle); His face gave away that he knew (bare that-clause dispreferred); give away to do; give away -ing",
+      "meaning": "Letting a secret out by accident, usually through a sign rather than a statement; close to betray but plainer, and the ordinary verb for spoiling a plot.",
+      "transform": "\"I don't know anything about a party,\" she said, smiling. -> Her smile gave her away.",
+      "examples": [
+        "Don't give away the ending.",
+        "His accent gave him away before he finished the sentence.",
+        "She gave away the surprise a week early.",
+        "One glance at the schedule gave away what they were planning.",
+        "He gave the whole thing away by congratulating her too soon.",
+        "Nothing in the report gives away who wrote it."
+      ],
+      "related": ["betray", "let slip", "blurt out", "spill"]
+    },
+    {
+      "term": "grant",
+      "ipa": "/ɡrænt/",
+      "respell": "GRANT",
+      "type": "reporting verb — concession",
+      "register": "neutral, mostly in fixed frames",
+      "patterns": "grant + that-clause / grant + sb + that-clause / grant + noun phrase / grant + sb + noun phrase (I'll grant you that much) / granted (that) as a concessive opener / granting that in a participial phrase",
+      "never": "grant to do; grant -ing; and grant + sb + noun phrase is this verb only with a concessive object (I'll grant you that much, I'll grant you the point) — with a thing handed over it is the other grant, as in the court granted him bail, which reports no speech",
+      "meaning": "Conceding a point graciously and usually in passing, on the way to disagreeing about something larger — almost always a step toward a but.",
+      "transform": "\"Yes, all right, the price is fair,\" he said. -> He granted that the price was fair.",
+      "examples": [
+        "I'll grant that the timing was unlucky.",
+        "She grants the point and moves straight past it.",
+        "Granted, nobody expected the road to be closed.",
+        "I'll grant you that much and no more.",
+        "He granted that the earlier version had been clearer.",
+        "Even granting that the data are old, the trend is hard to miss."
+      ],
+      "related": ["concede", "allow", "accept", "acknowledge"]
+    },
+    {
+      "term": "hint",
+      "ipa": "/hɪnt/",
+      "respell": "HINT",
+      "type": "reporting verb — indirect statement",
+      "register": "neutral",
+      "patterns": "hint + that-clause / hint + at + noun phrase / hint + at + -ing / hint + about + noun phrase / hint + to sb + that-clause / hint + broadly / heavily",
+      "never": "hint his resignation (no direct object; use hint at); hint me that; hint to do",
+      "meaning": "Pointing at something without saying it and leaving the hearer to finish the job; neutral about motive, which is what separates it from insinuate — a hint can be kind, an insinuation cannot.",
+      "transform": "\"I wouldn't make any plans for Friday if I were you,\" she said. -> She hinted that something was happening on Friday.",
+      "examples": [
+        "He hinted that there might be an opening on his team.",
+        "She hinted at a change in the schedule but wouldn't say more.",
+        "The manager hinted to us that the branch was closing.",
+        "He hinted heavily about what he wanted for his birthday.",
+        "Nothing in the memo even hints at a delay.",
+        "She hinted at leaving the firm and then said nothing for a year."
+      ],
+      "related": ["imply", "insinuate", "intimate", "suggest"]
+    },
+    {
+      "term": "imply",
+      "ipa": "/ɪmˈplaɪ/",
+      "respell": "im-PLY",
+      "type": "reporting verb — indirect statement",
+      "register": "neutral",
+      "patterns": "imply + that-clause / imply + noun phrase / passive it is implied that",
+      "never": "imply me that; imply to do; imply -ing",
+      "meaning": "Conveying something without stating it, so that the speaker can disown it later; unlike hint it need not be deliberate, and unlike infer it is what the speaker does, not the listener.",
+      "transform": "\"I'd hate to see anything happen to that contract,\" he said. -> He implied that the contract was at risk.",
+      "examples": [
+        "She implied that the decision had already been made.",
+        "Nothing in the email implies any criticism of your team.",
+        "Are you implying that I made it up?",
+        "The policy implies a level of oversight that nobody actually provides.",
+        "He implied as much without ever quite saying it.",
+        "The wording implies that the deadline is negotiable."
+      ],
+      "related": ["hint", "insinuate", "intimate", "suggest", "indicate"]
+    },
+    {
+      "term": "indicate",
+      "ipa": "/ˈɪndɪˌkeɪt/",
+      "respell": "IN-dih-kayt",
+      "type": "reporting verb — evidential statement",
+      "register": "neutral to formal",
+      "patterns": "indicate + that-clause / indicate + noun phrase / indicate + wh-clause / indicate + to sb + that-clause / passive it is indicated that",
+      "never": "indicate me that; indicate to do; indicate -ing",
+      "meaning": "Pointing toward a conclusion; with a non-human subject it reports evidence, and with a human subject it is a bureaucratic hedge that reports speech while declining to quote it.",
+      "transform": "\"The numbers are trending down,\" the analyst said. -> The analyst indicated that the numbers were trending down.",
+      "examples": [
+        "Early results indicate that turnout was higher than expected.",
+        "He indicated to the board that he would step down in June.",
+        "The report does not indicate who authorized the transfer.",
+        "Her silence indicated the answer well enough.",
+        "Nothing in the file indicates a second payment.",
+        "The witness indicated that she had seen the car twice."
+      ],
+      "related": ["imply", "suggest", "reveal", "disclose"]
+    },
+    {
+      "term": "insinuate",
+      "ipa": "/ɪnˈsɪnjuˌeɪt/",
+      "respell": "in-SIN-yoo-ayt",
+      "type": "reporting verb — hostile implication",
+      "register": "neutral to formal",
+      "patterns": "insinuate + that-clause / insinuate + noun phrase (rare) / insinuate + to sb + that-clause / (unrelated sense: insinuate oneself into)",
+      "never": "insinuate me that; insinuate to do; insinuate -ing",
+      "meaning": "Implying something damaging while keeping it deniable; the judgment is baked in and cannot be switched off, which is why the verb almost never appears in the first person.",
+      "transform": "\"Funny how the money went missing the week you started,\" he said. -> He insinuated that she had taken it.",
+      "examples": [
+        "He insinuated that the reference letter had been written by a friend.",
+        "Nobody said it outright, but the piece insinuates a cover-up.",
+        "She insinuated to the committee that the data had been chosen after the fact.",
+        "What exactly are you insinuating?",
+        "The article insinuates far more than it can prove.",
+        "He spent an hour insinuating that the deal had been arranged in advance."
+      ],
+      "related": ["imply", "hint", "intimate"]
+    },
+    {
+      "term": "intimate",
+      "ipa": "/ˈɪntɪˌmeɪt/",
+      "respell": "IN-tih-mayt",
+      "type": "reporting verb — indirect statement",
+      "register": "formal, literary",
+      "patterns": "intimate + that-clause / intimate + noun phrase (rare) / intimate + to sb + that-clause",
+      "never": "intimate me that; intimate to do; intimate -ing",
+      "meaning": "Hinting, one register above hint and without the malice of insinuate; it lives in written English and reported diplomacy, and the adjective intimate is a different word with a different pronunciation.",
+      "transform": "\"It may not be possible for me to continue,\" he said. -> He intimated that he might not continue.",
+      "examples": [
+        "The ambassador intimated that the deadline could move.",
+        "She intimated to her editor that a second book was under way.",
+        "He intimated as much in his letter of resignation.",
+        "The chairman intimated that the vote would not be close.",
+        "Nothing was said directly, but the reply intimated a refusal.",
+        "He intimated that his support came with conditions."
+      ],
+      "related": ["hint", "imply", "insinuate", "suggest"]
+    },
+    {
+      "term": "leak",
+      "ipa": "/lik/",
+      "respell": "LEEK",
+      "type": "reporting verb — unauthorized revelation",
+      "register": "neutral, journalistic",
+      "patterns": "leak + noun phrase / leak + noun phrase + to sb / leak + that-clause / passive be leaked to",
+      "never": "leak the reporter the memo; leak to do; leak -ing",
+      "meaning": "Releasing information deliberately and without authorization, usually to the press; the unauthorized part is the whole meaning, since what an official body puts out is announced or disclosed, never leaked.",
+      "transform": "\"Here — the draft you've been asking about,\" the aide told the reporter. -> The aide leaked the draft to the reporter.",
+      "examples": [
+        "Someone leaked the draft budget two days before the vote.",
+        "The memo was leaked to three outlets at once.",
+        "He leaked that the plant would close by summer.",
+        "Nobody has figured out who leaked it.",
+        "The findings were leaked before the study had been peer-reviewed.",
+        "She leaked the roster to a rival team's staff."
+      ],
+      "related": ["disclose", "reveal", "divulge", "expose"]
+    },
+    {
+      "term": "let on",
+      "ipa": "/ˌlɛt ˈɑn/",
+      "respell": "let AHN",
+      "type": "reporting verb — revelation, usually under negation",
+      "register": "informal",
+      "patterns": "let on + that-clause / let on + wh-clause / let on (no complement) / let on + about + noun phrase / let on + to sb + that-clause",
+      "never": "let on sb that; let on to do; let on -ing; He let on the secret (no direct object)",
+      "meaning": "Allowing someone to find out what you know or feel, usually by failing to hide it; it lives under negation, and it leaks a state of mind where let slip leaks a fact.",
+      "transform": "\"I have no idea what you're talking about,\" he said, though he did. -> He never let on that he knew.",
+      "examples": [
+        "She knew for weeks and never let on.",
+        "Don't let on that I told you.",
+        "He didn't let on how much the treatment had cost.",
+        "If she was disappointed, she didn't let on.",
+        "He let on to a couple of people that he was interviewing elsewhere.",
+        "Whatever you do, don't let on to your sister.",
+        "He never let on about the second interview."
+      ],
+      "related": ["let slip", "give away", "confide", "betray"]
+    },
+    {
+      "term": "let slip",
+      "ipa": "/ˌlɛt ˈslɪp/",
+      "respell": "let SLIP",
+      "type": "reporting verb — accidental revelation",
+      "register": "neutral",
+      "patterns": "let slip + that-clause / let slip + noun phrase / let + noun phrase + slip / let + it + slip + that-clause / let slip + to sb + that-clause",
+      "never": "let slip to do; let slip -ing; let slip me that; let slip it (a pronoun must precede slip)",
+      "meaning": "Revealing something by accident in the course of saying something else; where blurt out is sudden and loud, let slip is quiet, and the speaker often does not notice.",
+      "transform": "\"…anyway, after the layoffs — oh,\" he said. -> He let slip that there had been layoffs.",
+      "examples": [
+        "He let slip that the offer had already been accepted.",
+        "She let it slip to a coworker and it was everywhere by noon.",
+        "Somebody let slip the date of the announcement.",
+        "He let slip a detail that only three people knew.",
+        "Try not to let anything slip before Friday.",
+        "She let slip to her brother that the house was going on the market."
+      ],
+      "related": ["blurt out", "give away", "let on", "betray"]
+    },
+    {
+      "term": "own up to",
+      "ipa": "/ˈoʊn ˈʌp tə/",
+      "respell": "OHN UP tuh",
+      "type": "reporting verb — admission",
+      "register": "informal to neutral",
+      "patterns": "own up (no complement) / own up + to + noun phrase / own up + to + -ing / own up + to sb / (literary, without the particle: own + that-clause)",
+      "never": "own up to do; own up that he had lied",
+      "meaning": "Admitting fault after having tried not to; the evasion is presupposed, since nobody owns up to something they were never hiding.",
+      "transform": "\"All right — I'm the one who broke it,\" she said. -> She owned up to breaking it.",
+      "examples": [
+        "He finally owned up to sending the email.",
+        "Nobody owned up, so the whole class stayed late.",
+        "She owned up to her share of the mistake and no more.",
+        "It took him three days to own up to his father.",
+        "If you own up now, the fine is smaller.",
+        "He has never owned up to any part of it."
+      ],
+      "related": ["admit", "confess", "come clean", "fess up"]
+    },
+    {
+      "term": "rebut",
+      "ipa": "/rɪˈbʌt/",
+      "respell": "rih-BUT",
+      "type": "reporting verb — denial with argument",
+      "register": "formal, especially legal and academic",
+      "patterns": "rebut + noun phrase / rebut + the claim / charge / argument that / rebut (no complement, in debate) / passive be rebutted",
+      "never": "rebut that he was involved; rebut to do; rebut -ing; rebut me that",
+      "meaning": "Answering a charge with a counterargument; where deny simply says no, rebut presupposes that reasons were given, and unlike refute it makes no claim that the reasons worked.",
+      "transform": "\"That figure ignores three years of maintenance,\" the engineer said. -> The engineer rebutted the figure.",
+      "examples": [
+        "She rebutted the charge point by point.",
+        "The defense had thirty minutes to rebut.",
+        "His letter rebuts the claim that the study was funded by the industry.",
+        "The presumption can be rebutted by documentary evidence.",
+        "Nobody at the hearing seriously rebutted the numbers.",
+        "The paper rebuts an argument that nobody had actually made."
+      ],
+      "related": ["refute", "dispute", "contradict", "deny"]
+    },
+    {
+      "term": "recant",
+      "ipa": "/rɪˈkænt/",
+      "respell": "rih-KANT",
+      "type": "reporting verb — withdrawal of a statement",
+      "register": "formal",
+      "patterns": "recant + noun phrase / recant (no complement) / passive be recanted",
+      "never": "recant that; recant -ing; recant to do; recant me sth",
+      "meaning": "Publicly taking back something you had professed, usually under pressure and usually a belief, a confession, or testimony; heavier than retract, and it keeps the weight of heresy trials and witness stands.",
+      "transform": "\"What I said in that statement wasn't true,\" the witness said. -> The witness recanted her statement.",
+      "examples": [
+        "The witness recanted on the second day of the trial.",
+        "He recanted his confession as soon as he had a lawyer.",
+        "She refused to recant anything she had written.",
+        "Two of the three signers later recanted.",
+        "The scientist was pressed to recant and would not.",
+        "Her earlier testimony was recanted but never struck from the record."
+      ],
+      "related": ["retract", "disavow", "deny"]
+    },
+    {
+      "term": "refute",
+      "ipa": "/rɪˈfjut/",
+      "respell": "rih-FYOOT",
+      "type": "reporting verb — disproof",
+      "register": "formal",
+      "patterns": "refute + noun phrase / refute + the claim / allegation that / passive be refuted",
+      "never": "refute that he was involved; refute to do; refute -ing; refute me that",
+      "meaning": "Proving a claim wrong; in careful American usage it means disprove rather than deny, and using it for a simple denial announces that the charge is false rather than that the speaker said so.",
+      "transform": "\"Here are the records showing I was in Denver that week,\" he said. -> The records refuted the allegation.",
+      "examples": [
+        "The paper refutes the earlier finding with a much larger sample.",
+        "Nothing in the file refutes her account.",
+        "He believes he has refuted the objection; his critics disagree.",
+        "The claim was refuted within a day by the agency's own data.",
+        "She set out to refute the standard explanation and ended up confirming it.",
+        "A single receipt refuted the whole timeline."
+      ],
+      "related": ["rebut", "deny", "dispute", "contradict"]
+    },
+    {
+      "term": "retract",
+      "ipa": "/rɪˈtrækt/",
+      "respell": "rih-TRAKT",
+      "type": "reporting verb — withdrawal of a statement",
+      "register": "neutral to formal",
+      "patterns": "retract + noun phrase / passive be retracted",
+      "never": "retract that; retract -ing; retract to do; retract me sth",
+      "meaning": "Formally taking back something said or published; lighter and more procedural than recant, and implying no change of heart.",
+      "transform": "\"I shouldn't have said that, and I take it back,\" he said. -> He retracted the remark.",
+      "examples": [
+        "The magazine retracted the story a week later.",
+        "He retracted the comment but not the sentiment behind it.",
+        "Two of her statements were retracted before the hearing.",
+        "The journal retracted the paper after the images were questioned.",
+        "She refused to retract a single word.",
+        "He retracted the accusation in open court."
+      ],
+      "related": ["recant", "disavow", "deny", "disclaim"]
+    },
+    {
+      "term": "reveal",
+      "ipa": "/rɪˈvil/",
+      "respell": "rih-VEEL",
+      "type": "reporting verb — revelation",
+      "register": "neutral",
+      "patterns": "reveal + that-clause / reveal + noun phrase / reveal + wh-clause / reveal + noun phrase + to sb / reveal + to sb + that-clause / reveal + oneself + as / to be / passive it was revealed that",
+      "never": "reveal me the truth; reveal to do; reveal -ing",
+      "meaning": "Making known something that had been hidden; the concealment is presupposed, which is why revealed is unfair for a fact that was simply announced.",
+      "transform": "\"There's a second version of the contract,\" she said. -> She revealed that there was a second version of the contract.",
+      "examples": [
+        "The interview revealed that she had been offered the job twice.",
+        "He never revealed who had told him.",
+        "The X-ray revealed a second fracture.",
+        "She revealed the plan to her staff an hour before the press got it.",
+        "It emerged later that the emails had been deleted — a detail no one had revealed at the time.",
+        "The documents reveal how the account was set up."
+      ],
+      "related": ["disclose", "divulge", "announce", "expose", "leak"]
+    },
+    {
+      "term": "spill",
+      "ipa": "/spɪl/",
+      "respell": "SPIL",
+      "type": "reporting verb — revelation",
+      "register": "informal",
+      "patterns": "spill + noun phrase (the beans, the details, it, everything) / spill (no complement, as an invitation) / spill + noun phrase + to sb / spill + noun phrase + about + noun phrase (spill the beans about the party)",
+      "never": "spill that she was leaving; spill to do; spill -ing; spill me the details",
+      "meaning": "Telling a secret readily, usually to someone who asked; no fault is presupposed, only a confidence broken, and the register is conversational throughout.",
+      "transform": "\"Okay, fine — they're getting married in June,\" she said. -> She spilled the whole thing.",
+      "examples": [
+        "He spilled the details before I even asked.",
+        "Come on — spill.",
+        "She spilled the beans about the surprise party.",
+        "Somebody spilled everything to a reporter.",
+        "Two drinks in and he spilled the whole story.",
+        "Don't spill it before the announcement goes out."
+      ],
+      "related": ["blurt out", "give away", "let slip", "leak"]
+    },
+    {
+      "term": "suggest",
+      "ipa": "/səɡˈdʒɛst/",
+      "respell": "suhg-JEST",
+      "type": "reporting verb — implication (the evidential sense)",
+      "register": "neutral",
+      "patterns": "suggest + that-clause / suggest + noun phrase / suggest + wh-clause / suggest + to sb + that-clause / passive it is suggested that",
+      "never": "suggest someone to do something (She suggested me to go); suggest someone that; suggest me that",
+      "meaning": "Evidence or wording pointing toward a conclusion without asserting it; softer than imply, and told apart from the proposal sense by mood — the indicative reports a fact, the bare subjunctive proposes an action.",
+      "transform": "\"The pattern here looks deliberate to me,\" the analyst said. -> The analyst suggested that the pattern was deliberate.",
+      "examples": [
+        "The timing suggests that somebody was warned in advance.",
+        "Are you suggesting that the numbers were changed?",
+        "Everything about the room suggested a hasty exit.",
+        "The evidence suggests he had been there before.",
+        "Her tone suggested that the conversation was over.",
+        "Nothing in the file suggests who approved the payment."
+      ],
+      "related": ["imply", "indicate", "hint", "intimate", "suggest (proposal)"]
+    },
+    {
+      "term": "unveil",
+      "ipa": "/ʌnˈveɪl/",
+      "respell": "un-VAYL",
+      "type": "reporting verb — public revelation",
+      "register": "neutral; journalistic and promotional",
+      "patterns": "unveil + noun phrase / unveil + noun phrase + at / on / in / unveil + noun phrase + to sb / passive be unveiled",
+      "never": "unveil that; unveil -ing; unveil to do; unveil sb sth",
+      "meaning": "Showing something publicly for the first time; it takes a thing rather than a proposition, which is why no clause can follow it, and announce is usually the plainer and more accurate verb.",
+      "transform": "\"Here it is — the new model,\" the CEO said. -> The CEO unveiled the new model.",
+      "examples": [
+        "The city unveiled its budget proposal on Tuesday.",
+        "They unveiled the memorial on the anniversary.",
+        "The company unveils a new phone every September.",
+        "The plan was unveiled at a press conference in Chicago.",
+        "She unveiled the design to a room of skeptical engineers.",
+        "Two agencies unveiled competing proposals in the same week."
+      ],
+      "related": ["announce", "reveal", "disclose"]
+    },
+    {
+      "term": "volunteer",
+      "ipa": "/ˌvɑlənˈtɪr/",
+      "respell": "vah-luhn-TEER",
+      "type": "reporting verb — unprompted statement",
+      "register": "neutral",
+      "patterns": "volunteer + that-clause / volunteer + noun phrase / volunteer + noun phrase + to sb / volunteer + to sb + that-clause / (a different sense: volunteer + to-infinitive)",
+      "never": "volunteer me that; volunteer -ing; volunteer sb sth",
+      "meaning": "Giving information that was not requested; the absence of a question is the whole meaning, since you cannot volunteer an answer to something you were asked.",
+      "transform": "\"Nobody's asked, but I was there that night,\" he said. -> He volunteered that he had been there that night.",
+      "examples": [
+        "She volunteered that she had seen the car twice that week.",
+        "He volunteered the information before anyone thought to ask for it.",
+        "Nobody volunteered anything useful about the schedule.",
+        "The witness volunteered that she had known the family for years.",
+        "He volunteered to me that the numbers had already been revised.",
+        "She volunteered nothing and answered only what she was asked."
+      ],
+      "related": ["confide", "reveal", "disclose", "let slip"]
+    }
+  ]
+}

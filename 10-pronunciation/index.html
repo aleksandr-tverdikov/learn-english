@@ -1,0 +1,791 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>American English Pronunciation — Complete Sound Reference</title>
+<style>
+  :root {
+    --bg: #fbfaf8;
+    --surface: #ffffff;
+    --surface-2: #f4f2ee;
+    --border: #e3dfd8;
+    --text: #1c1a17;
+    --text-dim: #6b6459;
+    --accent: #b4552a;
+    --accent-soft: #fdf0e8;
+    --voiced: #2f6f57;
+    --voiced-soft: #e8f3ee;
+    --shadow: 0 1px 2px rgba(28,26,23,.06), 0 4px 12px rgba(28,26,23,.04);
+    --radius: 10px;
+  }
+  @media (prefers-color-scheme: dark) {
+    :root {
+      --bg: #16150f;
+      --surface: #1f1e18;
+      --surface-2: #262419;
+      --border: #35322a;
+      --text: #efeae0;
+      --text-dim: #a49c8d;
+      --accent: #e8935f;
+      --accent-soft: #33241a;
+      --voiced: #7cc9a4;
+      --voiced-soft: #1c2c25;
+      --shadow: 0 1px 2px rgba(0,0,0,.3), 0 4px 12px rgba(0,0,0,.2);
+    }
+  }
+  :root[data-theme="dark"] {
+    --bg: #16150f; --surface: #1f1e18; --surface-2: #262419; --border: #35322a;
+    --text: #efeae0; --text-dim: #a49c8d; --accent: #e8935f; --accent-soft: #33241a;
+    --voiced: #7cc9a4; --voiced-soft: #1c2c25;
+    --shadow: 0 1px 2px rgba(0,0,0,.3), 0 4px 12px rgba(0,0,0,.2);
+  }
+  :root[data-theme="light"] {
+    --bg: #fbfaf8; --surface: #ffffff; --surface-2: #f4f2ee; --border: #e3dfd8;
+    --text: #1c1a17; --text-dim: #6b6459; --accent: #b4552a; --accent-soft: #fdf0e8;
+    --voiced: #2f6f57; --voiced-soft: #e8f3ee;
+    --shadow: 0 1px 2px rgba(28,26,23,.06), 0 4px 12px rgba(28,26,23,.04);
+  }
+
+  * { box-sizing: border-box; }
+  html { scroll-behavior: smooth; scroll-padding-top: 72px; }
+  body {
+    margin: 0;
+    background: var(--bg);
+    color: var(--text);
+    font: 16px/1.65 -apple-system, BlinkMacSystemFont, "Segoe UI", Inter, Roboto, "Helvetica Neue", sans-serif;
+    -webkit-font-smoothing: antialiased;
+  }
+  .ipa {
+    font-family: "Charis SIL", "Doulos SIL", "Gentium Plus", "Lucida Grande", "Segoe UI", "DejaVu Sans", serif;
+    font-feature-settings: "liga" 0;
+  }
+
+  /* ---------- layout ---------- */
+  .wrap { max-width: 1080px; margin: 0 auto; padding: 0 20px; }
+  header.hero {
+    padding: 56px 0 32px;
+    border-bottom: 1px solid var(--border);
+    background: linear-gradient(180deg, var(--accent-soft), transparent);
+  }
+  .eyebrow {
+    font-size: 12px; letter-spacing: .14em; text-transform: uppercase;
+    color: var(--accent); font-weight: 700; margin: 0 0 10px;
+  }
+  h1 { font-size: clamp(28px, 5vw, 44px); line-height: 1.12; margin: 0 0 14px; letter-spacing: -.02em; }
+  .lede { font-size: 18px; color: var(--text-dim); max-width: 62ch; margin: 0 0 22px; }
+
+  nav.toc {
+    position: sticky; top: 0; z-index: 50;
+    background: color-mix(in srgb, var(--bg) 92%, transparent);
+    backdrop-filter: blur(10px);
+    border-bottom: 1px solid var(--border);
+  }
+  .toc-inner { display: flex; gap: 4px; overflow-x: auto; padding: 8px 20px; max-width: 1080px; margin: 0 auto; scrollbar-width: thin; }
+  .toc a {
+    flex: 0 0 auto; padding: 6px 11px; border-radius: 99px; font-size: 13px;
+    color: var(--text-dim); text-decoration: none; white-space: nowrap; font-weight: 500;
+  }
+  .toc a:hover { background: var(--surface-2); color: var(--text); }
+
+  section { padding: 48px 0 8px; }
+  h2 {
+    font-size: 26px; margin: 0 0 6px; letter-spacing: -.01em;
+    display: flex; align-items: baseline; gap: 12px;
+  }
+  h2 .num { font-size: 13px; color: var(--accent); font-weight: 700; letter-spacing: .08em; }
+  .sub { color: var(--text-dim); margin: 0 0 24px; max-width: 68ch; }
+  h3 { font-size: 15px; text-transform: uppercase; letter-spacing: .08em; color: var(--text-dim); margin: 30px 0 12px; font-weight: 700; }
+
+  /* ---------- sound cards ---------- */
+  .grid { display: grid; grid-template-columns: repeat(auto-fill, minmax(210px, 1fr)); gap: 12px; }
+  .card {
+    background: var(--surface); border: 1px solid var(--border); border-radius: var(--radius);
+    padding: 14px; box-shadow: var(--shadow); transition: transform .12s ease, border-color .12s ease;
+  }
+  .card:hover { transform: translateY(-2px); border-color: var(--accent); }
+  .card-top { display: flex; align-items: center; gap: 10px; margin-bottom: 8px; }
+  .sym {
+    font-size: 26px; font-weight: 600; color: var(--accent);
+    min-width: 2.2em; letter-spacing: .02em;
+  }
+  .tag {
+    font-size: 10px; text-transform: uppercase; letter-spacing: .07em; font-weight: 700;
+    padding: 3px 7px; border-radius: 5px; background: var(--surface-2); color: var(--text-dim);
+  }
+  .tag.v { background: var(--voiced-soft); color: var(--voiced); }
+  .words { display: flex; flex-wrap: wrap; gap: 6px; margin-bottom: 8px; }
+  .w {
+    font: inherit; font-size: 14px; cursor: pointer;
+    background: var(--surface-2); border: 1px solid transparent; border-radius: 6px;
+    padding: 3px 9px; color: var(--text); transition: all .12s ease;
+  }
+  .w:hover { background: var(--accent); color: #fff; }
+  .w:active { transform: scale(.95); }
+  .w.speaking { background: var(--accent); color: #fff; }
+  .w b { color: inherit; text-decoration: underline; text-underline-offset: 2px; }
+  .meta { font-size: 12px; color: var(--text-dim); line-height: 1.5; }
+  .meta .lab { font-weight: 600; color: var(--text); }
+
+  /* ---------- tables ---------- */
+  .scroll { overflow-x: auto; -webkit-overflow-scrolling: touch; margin: 0 0 18px; }
+  table { border-collapse: collapse; width: 100%; min-width: 520px; font-size: 14px; background: var(--surface); border-radius: var(--radius); overflow: hidden; box-shadow: var(--shadow); }
+  th, td { text-align: left; padding: 10px 13px; border-bottom: 1px solid var(--border); vertical-align: top; }
+  th { background: var(--surface-2); font-size: 12px; text-transform: uppercase; letter-spacing: .06em; color: var(--text-dim); }
+  tbody tr:last-child td { border-bottom: none; }
+  td code, .mono { font-family: ui-monospace, SFMono-Regular, Menlo, Consolas, monospace; font-size: 13px; }
+
+  /* ---------- feature blocks ---------- */
+  .feat {
+    background: var(--surface); border: 1px solid var(--border); border-left: 3px solid var(--accent);
+    border-radius: var(--radius); padding: 16px 18px; margin-bottom: 12px; box-shadow: var(--shadow);
+  }
+  .feat h4 { margin: 0 0 6px; font-size: 16px; }
+  .feat p { margin: 0 0 10px; font-size: 14.5px; color: var(--text-dim); }
+  .feat p:last-child { margin-bottom: 0; }
+  .vs { display: flex; flex-wrap: wrap; gap: 8px; align-items: center; font-size: 14px; }
+  .vs .lbl { font-size: 11px; text-transform: uppercase; letter-spacing: .06em; color: var(--text-dim); font-weight: 700; }
+
+  /* ---------- quiz ---------- */
+  .quiz { background: var(--surface); border: 1px solid var(--border); border-radius: var(--radius); padding: 22px; box-shadow: var(--shadow); }
+  .quiz-row { display: flex; flex-wrap: wrap; gap: 10px; align-items: center; margin-bottom: 14px; }
+  .btn {
+    font: inherit; font-size: 14px; font-weight: 600; cursor: pointer;
+    background: var(--accent); color: #fff; border: none; border-radius: 8px; padding: 9px 16px;
+  }
+  .btn:hover { filter: brightness(1.08); }
+  .btn.ghost { background: var(--surface-2); color: var(--text); border: 1px solid var(--border); }
+  .choice {
+    font: inherit; font-size: 17px; cursor: pointer; flex: 1 1 130px;
+    background: var(--surface-2); border: 1px solid var(--border); border-radius: 8px; padding: 14px; color: var(--text);
+  }
+  .choice:hover { border-color: var(--accent); }
+  .choice.right { background: var(--voiced-soft); border-color: var(--voiced); color: var(--voiced); font-weight: 700; }
+  .choice.wrong { background: var(--accent-soft); border-color: var(--accent); color: var(--accent); }
+  .score { font-size: 14px; color: var(--text-dim); }
+
+  /* ---------- misc ---------- */
+  .note {
+    background: var(--surface-2); border: 1px solid var(--border); border-radius: var(--radius);
+    padding: 14px 16px; font-size: 14.5px; color: var(--text-dim); margin: 0 0 20px;
+  }
+  .note strong { color: var(--text); }
+  .controls { display: flex; flex-wrap: wrap; gap: 12px; align-items: center; font-size: 13px; color: var(--text-dim); }
+  .controls select, .controls input[type=range] { font: inherit; font-size: 13px; }
+  .controls select { background: var(--surface); color: var(--text); border: 1px solid var(--border); border-radius: 6px; padding: 5px 8px; max-width: 230px; }
+  .theme-btn { position: fixed; right: 16px; bottom: 16px; z-index: 60; border-radius: 99px; padding: 9px 14px; }
+  footer { margin-top: 56px; padding: 28px 0 60px; border-top: 1px solid var(--border); color: var(--text-dim); font-size: 14px; }
+  footer a { color: var(--accent); }
+  .pairlist { display: grid; grid-template-columns: repeat(auto-fill, minmax(240px, 1fr)); gap: 10px; }
+  .pair { background: var(--surface); border: 1px solid var(--border); border-radius: var(--radius); padding: 12px 14px; box-shadow: var(--shadow); }
+  .pair .contrast { font-size: 13px; color: var(--text-dim); margin-bottom: 8px; }
+  @media (max-width: 560px) { .grid { grid-template-columns: 1fr 1fr; } .sym { font-size: 22px; } }
+  @media (max-width: 400px) { .grid { grid-template-columns: 1fr; } }
+</style>
+</head>
+<body>
+
+<header class="hero">
+  <div class="wrap">
+    <p class="eyebrow">Learn English &middot; 10 &middot; Pronunciation</p>
+    <h1>American English Pronunciation</h1>
+    <p class="lede">Every sound in General American — 24 consonants, 15 vowels and diphthongs, 7 r-colored vowels — with the spellings that produce them, the rules that govern stress and reduction, and the features that make an American accent American. <strong>Click any word to hear it.</strong></p>
+    <div class="controls">
+      <label>Voice
+        <select id="voice"></select>
+      </label>
+      <label>Speed
+        <input type="range" id="rate" min="0.5" max="1.2" step="0.05" value="0.85">
+        <span id="rateVal" class="mono">0.85&times;</span>
+      </label>
+      <span id="ttsWarn" style="display:none;color:var(--accent)">No speech voices found in this browser.</span>
+    </div>
+  </div>
+</header>
+
+<nav class="toc">
+  <div class="toc-inner">
+    <a href="#how">How to use</a>
+    <a href="#consonants">Consonants</a>
+    <a href="#vowels">Vowels</a>
+    <a href="#diphthongs">Diphthongs</a>
+    <a href="#rvowels">R-colored</a>
+    <a href="#american">What makes it American</a>
+    <a href="#stress">Stress</a>
+    <a href="#reduction">Reduction &amp; linking</a>
+    <a href="#endings">-ed &amp; -s endings</a>
+    <a href="#spelling">Spelling &rarr; sound</a>
+    <a href="#pairs">Minimal pairs</a>
+    <a href="#quiz">Ear training</a>
+    <a href="#chart">Full chart</a>
+  </div>
+</nav>
+
+<div class="wrap">
+
+<section id="how">
+  <h2><span class="num">00</span> How to use this page</h2>
+  <p class="sub">This page describes <strong>General American</strong> (GA) — the accent used in national broadcasting and treated as the reference for American English teaching. It is not the only American accent; regional varieties differ, and the notes point out where.</p>
+  <div class="note">
+    <strong>The symbols are IPA</strong> (International Phonetic Alphabet). Slashes mark phonemes — meaningful sound units: <span class="ipa">/kæt/</span>. Square brackets mark actual pronunciation detail: <span class="ipa">[ˈwɑɾɚ]</span> for <em>water</em>. A raised <span class="ipa">ˈ</span> goes before the stressed syllable: <span class="ipa">/əˈbaʊt/</span>.
+  </div>
+  <div class="note">
+    <strong>Audio</strong> uses your browser's built-in text-to-speech, so nothing is downloaded. Pick a US English voice above for the most accurate model. Synthetic speech is a good guide but not a perfect one — trust a native speaker over the slider.
+  </div>
+</section>
+
+<section id="consonants">
+  <h2><span class="num">01</span> Consonants</h2>
+  <p class="sub">Twenty-four consonant phonemes. Most pair up as voiceless/voiced with the same mouth position — the only difference is whether the vocal cords vibrate. Put a finger on your throat and say <em>sss</em> then <em>zzz</em>: same tongue, different buzz.</p>
+  <div id="consonantGroups"></div>
+</section>
+
+<section id="vowels">
+  <h2><span class="num">02</span> Simple vowels</h2>
+  <p class="sub">Vowels are where accents live, and where learners lose the most intelligibility. English spelling hides them badly — the letter <em>a</em> alone writes six different vowels. Learn each vowel by its keyword, not by its letter.</p>
+  <div class="note"><strong>Length marks.</strong> Some dictionaries write <span class="ipa">/iː/ /uː/ /ɔː/ /ɑː/</span> with a colon for length. American dictionaries usually drop it, because in GA the quality of the vowel does the work, not its duration. This page writes them without the colon.</div>
+  <div class="grid" id="vowelGrid"></div>
+</section>
+
+<section id="diphthongs">
+  <h2><span class="num">03</span> Diphthongs</h2>
+  <p class="sub">A diphthong is one vowel that glides into another inside a single syllable. Your tongue must actually move — holding a steady vowel is the single most common giveaway of a non-native accent in <em>go</em> and <em>day</em>.</p>
+  <div class="grid" id="diphGrid"></div>
+</section>
+
+<section id="rvowels">
+  <h2><span class="num">04</span> R-colored vowels</h2>
+  <p class="sub">This is the most distinctly American part of the sound system. In GA the <em>r</em> is pronounced everywhere it is written, and it fuses with the vowel before it rather than following as a separate sound. British RP drops all of these r's.</p>
+  <div class="grid" id="rGrid"></div>
+  <div class="note"><strong>How to make it.</strong> Either curl the tongue tip up and back (retroflex) or bunch the middle of the tongue up toward the roof of the mouth (bunched). Both produce an identical sound and both are used by native speakers — use whichever you can hold comfortably. Crucially, the lips round slightly and the tongue tip never touches anything.</div>
+</section>
+
+<section id="american">
+  <h2><span class="num">05</span> What makes it sound American</h2>
+  <p class="sub">Eleven features that separate General American from British RP and from careful "textbook" English. Getting these right does more for an American accent than perfecting individual vowels.</p>
+  <div id="features"></div>
+</section>
+
+<section id="stress">
+  <h2><span class="num">06</span> Stress</h2>
+  <p class="sub">English is a stress-timed language. Stressed syllables are longer, louder, higher in pitch, and have full vowels; everything else compresses toward schwa. Put the stress on the wrong syllable and a word can become unrecognizable even when every sound is correct.</p>
+
+  <h3>Noun / verb pairs</h3>
+  <p class="sub">Same spelling, stress moves. Nouns take first-syllable stress, verbs take second.</p>
+  <div class="scroll"><table id="nvTable"></table></div>
+
+  <h3>Compound nouns vs. adjective + noun</h3>
+  <p class="sub">A compound noun stresses the first element; a descriptive phrase stresses the second. This is a meaning difference, not a style choice.</p>
+  <div class="scroll"><table id="compTable"></table></div>
+
+  <h3>Suffixes that fix the stress</h3>
+  <div class="scroll"><table id="sufTable"></table></div>
+</section>
+
+<section id="reduction">
+  <h2><span class="num">07</span> Reduction, weak forms, and linking</h2>
+  <p class="sub">Native speakers do not pronounce every word fully. Content words (nouns, main verbs, adjectives, adverbs, question words) keep their full vowels; function words (articles, prepositions, auxiliaries, pronouns, conjunctions) collapse to schwa. Learning to <em>hear</em> weak forms matters even more than producing them.</p>
+
+  <h3>Weak forms of common function words</h3>
+  <div class="scroll"><table id="weakTable"></table></div>
+
+  <h3>Connected speech</h3>
+  <div id="linking"></div>
+
+  <h3>Casual contractions</h3>
+  <p class="sub">Standard in speech at every level of formality, and normal in informal writing. Avoid writing them in academic or business prose.</p>
+  <div class="scroll"><table id="casualTable"></table></div>
+</section>
+
+<section id="endings">
+  <h2><span class="num">08</span> The <span class="ipa">-ed</span> and <span class="ipa">-s</span> endings</h2>
+  <p class="sub">Two spellings, three pronunciations each, and the choice is fully automatic — it depends only on the sound immediately before the ending. Learn the rule once and every regular verb and plural is solved.</p>
+
+  <h3>Past tense and past participle <span class="ipa">-ed</span></h3>
+  <div class="scroll"><table id="edTable"></table></div>
+
+  <h3>Plural, possessive, and third-person <span class="ipa">-s</span></h3>
+  <div class="scroll"><table id="sTable"></table></div>
+
+  <div class="note"><strong>Watch out.</strong> A handful of adjectives keep the old <span class="ipa">/ɪd/</span> where the verb does not: <em>a learned professor</em> <span class="ipa">/ˈlɝnɪd/</span> but <em>I learned it</em> <span class="ipa">/lɝnd/</span>. Also <em>aged, blessed, beloved, wicked, naked, rugged, crooked</em>.</div>
+</section>
+
+<section id="spelling">
+  <h2><span class="num">09</span> Spelling to sound</h2>
+  <p class="sub">English spelling is irregular but not random. These are the patterns that carry the most weight, plus the traps that catch every learner.</p>
+
+  <h3>Silent letters</h3>
+  <div class="scroll"><table id="silentTable"></table></div>
+
+  <h3>The <span class="mono">-ough</span> problem</h3>
+  <p class="sub">Seven pronunciations, no rule. These have to be memorized individually.</p>
+  <div class="grid" id="oughGrid"></div>
+
+  <h3>Words commonly mispronounced</h3>
+  <div class="scroll"><table id="trapTable"></table></div>
+</section>
+
+<section id="pairs">
+  <h2><span class="num">10</span> Minimal pairs</h2>
+  <p class="sub">Two words that differ by exactly one sound. If you can hear and produce the difference, you own the contrast. Grouped by the first language that most often struggles with each.</p>
+  <div class="pairlist" id="pairGrid"></div>
+</section>
+
+<section id="quiz">
+  <h2><span class="num">11</span> Ear training</h2>
+  <p class="sub">One word from a minimal pair is spoken at random. Pick the one you heard.</p>
+  <div class="quiz">
+    <div class="quiz-row">
+      <button class="btn" id="playBtn">Play a word</button>
+      <button class="btn ghost" id="repeatBtn">Repeat</button>
+      <span class="score" id="score">Score: 0 / 0</span>
+    </div>
+    <div class="quiz-row" id="choices"></div>
+    <p class="meta" id="feedback">&nbsp;</p>
+  </div>
+</section>
+
+<section id="chart">
+  <h2><span class="num">12</span> Full phoneme chart</h2>
+  <p class="sub">Every General American phoneme on one screen — the page in scannable form.</p>
+  <div class="scroll"><table id="chartTable"></table></div>
+</section>
+
+<footer>
+  <p>Part of the <a href="../README.md">Learn English</a> reference library. See also the word-class folders: <a href="../parts-of-speech/01-nouns/README.md">Nouns</a>, <a href="../parts-of-speech/03-verbs/README.md">Verbs</a>, <a href="../parts-of-speech/05-adverbs/README.md">Adverbs</a>.</p>
+  <p>Transcriptions follow General American conventions (Merriam-Webster / Wells lexical sets, rendered in IPA). Audio is generated by your browser's speech engine; no data leaves this page.</p>
+</footer>
+</div>
+
+<button class="btn ghost theme-btn" id="themeBtn">Dark</button>
+
+<script>
+/* ============================== speech ============================== */
+const synth = window.speechSynthesis;
+let voices = [], chosen = null;
+const voiceSel = document.getElementById('voice');
+const rateInput = document.getElementById('rate');
+const rateVal = document.getElementById('rateVal');
+
+function loadVoices() {
+  voices = (synth ? synth.getVoices() : []).filter(v => /^en([-_]|$)/i.test(v.lang));
+  if (!voices.length) { document.getElementById('ttsWarn').style.display = 'inline'; return; }
+  const us = voices.filter(v => /en[-_]US/i.test(v.lang));
+  const list = us.length ? us.concat(voices.filter(v => !us.includes(v))) : voices;
+  voiceSel.innerHTML = '';
+  list.forEach((v, i) => {
+    const o = document.createElement('option');
+    o.value = voices.indexOf(v);
+    o.textContent = v.name + ' (' + v.lang + ')';
+    voiceSel.appendChild(o);
+    if (i === 0) chosen = v;
+  });
+  voiceSel.onchange = () => { chosen = voices[+voiceSel.value]; };
+}
+if (synth) { loadVoices(); synth.onvoiceschanged = loadVoices; }
+rateInput.oninput = () => { rateVal.textContent = (+rateInput.value).toFixed(2) + '×'; };
+
+let lastSpoken = '';
+function speak(text, el) {
+  if (!synth) return;
+  lastSpoken = text;
+  synth.cancel();
+  const u = new SpeechSynthesisUtterance(text);
+  u.lang = 'en-US';
+  if (chosen) u.voice = chosen;
+  u.rate = +rateInput.value;
+  if (el) {
+    el.classList.add('speaking');
+    u.onend = u.onerror = () => el.classList.remove('speaking');
+  }
+  synth.speak(u);
+}
+document.addEventListener('click', e => {
+  const t = e.target.closest('[data-say]');
+  if (t) speak(t.dataset.say, t.classList.contains('w') ? t : null);
+});
+
+/* helper: build a clickable word chip. `word` may contain <b> to highlight the sound. */
+function chip(word) {
+  const plain = word.replace(/<\/?b>/g, '');
+  return '<button class="w" data-say="' + plain.replace(/"/g, '&quot;') + '">' + word + '</button>';
+}
+function chips(arr) { return '<div class="words">' + arr.map(chip).join('') + '</div>'; }
+function ipa(s) { return '<span class="ipa">' + s + '</span>'; }
+
+/* ============================== consonants ============================== */
+const CONSONANTS = [
+  { group: 'Stops (plosives)', blurb: 'Air is blocked completely, then released. The voiceless ones are aspirated — a puff of air — at the start of a stressed syllable, but not after /s/. Hold a sheet of paper in front of your mouth: <em>pin</em> moves it, <em>spin</em> does not.', items: [
+    { s: 'p', v: 0, name: 'voiceless bilabial stop', sp: 'p, pp', w: ['<b>p</b>en', 'ha<b>pp</b>y', 'sto<b>p</b>'] },
+    { s: 'b', v: 1, name: 'voiced bilabial stop',    sp: 'b, bb', w: ['<b>b</b>ig', 'ru<b>bb</b>er', 'jo<b>b</b>'] },
+    { s: 't', v: 0, name: 'voiceless alveolar stop', sp: 't, tt, ed', w: ['<b>t</b>op', 'be<b>tt</b>er', 'wai<b>t</b>'] },
+    { s: 'd', v: 1, name: 'voiced alveolar stop',    sp: 'd, dd, ed', w: ['<b>d</b>og', 'la<b>dd</b>er', 'ba<b>d</b>'] },
+    { s: 'k', v: 0, name: 'voiceless velar stop',    sp: 'k, c, ck, ch, qu', w: ['<b>c</b>at', 'ba<b>ck</b>', 's<b>ch</b>ool'] },
+    { s: 'ɡ', v: 1, name: 'voiced velar stop',       sp: 'g, gg, gu', w: ['<b>g</b>o', 'bi<b>gg</b>er', 'ba<b>g</b>'] },
+  ]},
+  { group: 'Fricatives', blurb: 'Air is squeezed through a narrow gap and hisses. English has nine — more than most languages, which is why /θ/ and /ð/ give so much trouble.', items: [
+    { s: 'f', v: 0, name: 'voiceless labiodental', sp: 'f, ff, ph, gh', w: ['<b>f</b>ish', 'o<b>ff</b>er', 'lau<b>gh</b>'] },
+    { s: 'v', v: 1, name: 'voiced labiodental',    sp: 'v, ve, f (of)', w: ['<b>v</b>an', 'ne<b>v</b>er', 'lo<b>v</b>e'] },
+    { s: 'θ', v: 0, name: 'voiceless dental',      sp: 'th', w: ['<b>th</b>ink', 'no<b>th</b>ing', 'ba<b>th</b>'] },
+    { s: 'ð', v: 1, name: 'voiced dental',         sp: 'th', w: ['<b>th</b>is', 'mo<b>th</b>er', 'brea<b>th</b>e'] },
+    { s: 's', v: 0, name: 'voiceless alveolar',    sp: 's, ss, c, sc', w: ['<b>s</b>ee', 'mi<b>ss</b>', '<b>c</b>ity'] },
+    { s: 'z', v: 1, name: 'voiced alveolar',       sp: 'z, zz, s', w: ['<b>z</b>oo', 'bu<b>zz</b>', 'ha<b>s</b>'] },
+    { s: 'ʃ', v: 0, name: 'voiceless postalveolar',sp: 'sh, ti, ci, ss, ch', w: ['<b>sh</b>e', 'na<b>ti</b>on', 'ma<b>ch</b>ine'] },
+    { s: 'ʒ', v: 1, name: 'voiced postalveolar',   sp: 'si, s, g, ge', w: ['mea<b>s</b>ure', 'vi<b>si</b>on', 'gara<b>ge</b>'] },
+    { s: 'h', v: 0, name: 'voiceless glottal',     sp: 'h, wh', w: ['<b>h</b>at', 'be<b>h</b>ind', '<b>wh</b>o'] },
+  ]},
+  { group: 'Affricates', blurb: 'A stop released into a fricative, counted as one sound. Do not split them into two.', items: [
+    { s: 'tʃ', v: 0, name: 'voiceless postalveolar affricate', sp: 'ch, tch, t (+ure)', w: ['<b>ch</b>urch', 'wa<b>tch</b>', 'na<b>t</b>ure'] },
+    { s: 'dʒ', v: 1, name: 'voiced postalveolar affricate',    sp: 'j, g, dge, d (+ual)', w: ['<b>j</b>udge', '<b>g</b>iant', 'bri<b>dge</b>'] },
+  ]},
+  { group: 'Nasals', blurb: 'The mouth is blocked and air escapes through the nose. All three are voiced.', items: [
+    { s: 'm', v: 1, name: 'bilabial nasal', sp: 'm, mm, mb', w: ['<b>m</b>an', 'su<b>mm</b>er', 'clim<b>b</b>'] },
+    { s: 'n', v: 1, name: 'alveolar nasal', sp: 'n, nn, kn, gn', w: ['<b>n</b>o', 'ru<b>nn</b>ing', '<b>kn</b>ow'] },
+    { s: 'ŋ', v: 1, name: 'velar nasal',    sp: 'ng, n (before k/g)', w: ['si<b>ng</b>', 'thi<b>n</b>k', 'lo<b>ng</b>er'] },
+  ]},
+  { group: 'Approximants &amp; glides', blurb: 'The narrowest constrictions in the system — barely more closed than a vowel. All voiced.', items: [
+    { s: 'l', v: 1, name: 'lateral approximant', sp: 'l, ll', w: ['<b>l</b>ove', 'fo<b>ll</b>ow', 'fee<b>l</b>'] },
+    { s: 'ɹ', v: 1, name: 'alveolar approximant (written /r/)', sp: 'r, rr, wr', w: ['<b>r</b>ed', 'so<b>rr</b>y', '<b>wr</b>ite'] },
+    { s: 'j', v: 1, name: 'palatal glide',  sp: 'y, i, u (few)', w: ['<b>y</b>es', 'on<b>i</b>on', 'm<b>u</b>sic'] },
+    { s: 'w', v: 1, name: 'labiovelar glide',sp: 'w, wh, u (qu)', w: ['<b>w</b>e', '<b>wh</b>at', 'q<b>u</b>ick'] },
+  ]},
+];
+
+document.getElementById('consonantGroups').innerHTML = CONSONANTS.map(g =>
+  '<h3>' + g.group + '</h3>' +
+  '<p class="sub">' + g.blurb + '</p>' +
+  '<div class="grid">' + g.items.map(c =>
+    '<div class="card">' +
+      '<div class="card-top"><span class="sym ipa">/' + c.s + '/</span>' +
+      '<span class="tag ' + (c.v ? 'v' : '') + '">' + (c.v ? 'voiced' : 'voiceless') + '</span></div>' +
+      chips(c.w) +
+      '<p class="meta"><span class="lab">' + c.name + '</span><br>Spelled: ' + c.sp + '</p>' +
+    '</div>'
+  ).join('') + '</div>'
+).join('');
+
+/* ============================== vowels ============================== */
+const VOWELS = [
+  { s: 'i',  key: 'FLEECE', sp: 'ee, ea, e, ie, ey, i', w: ['s<b>ee</b>', 'b<b>ea</b>t', 'k<b>ey</b>'], note: 'Tense and high. Spread the lips into a smile; the tongue is high and forward.' },
+  { s: 'ɪ',  key: 'KIT',    sp: 'i, y, e, ui', w: ['s<b>i</b>t', 'g<b>y</b>m', 'b<b>u</b>sy'], note: 'Lax, shorter, and lower than /i/ — not simply a short version of it. sheep vs. ship.' },
+  { s: 'ɛ',  key: 'DRESS',  sp: 'e, ea, ai, a', w: ['b<b>e</b>d', 'h<b>ea</b>d', 's<b>ai</b>d'], note: 'Mid front. Jaw slightly more open than /ɪ/. Also written /e/ in some dictionaries.' },
+  { s: 'æ',  key: 'TRAP',   sp: 'a', w: ['c<b>a</b>t', 'h<b>a</b>nd', 'l<b>au</b>gh'], note: 'Low front, jaw wide open. In GA it is long and often diphthongized before nasals: man sounds like /mɛən/.' },
+  { s: 'ɑ',  key: 'LOT / PALM', sp: 'o, a, ah', w: ['h<b>o</b>t', 'f<b>a</b>ther', 'c<b>a</b>lm'], note: 'Low back, unrounded, jaw dropped. This is the "doctor says ahh" vowel.' },
+  { s: 'ɔ',  key: 'THOUGHT', sp: 'aw, au, ough, al', w: ['c<b>augh</b>t', 'l<b>aw</b>', 't<b>al</b>k'], note: 'Low back with slight lip rounding. Merged with /ɑ/ for a majority of Americans — see the cot–caught merger below.' },
+  { s: 'ʊ',  key: 'FOOT',   sp: 'oo, u, ou', w: ['b<b>oo</b>k', 'p<b>u</b>t', 'c<b>ou</b>ld'], note: 'Lax high back, lips only slightly rounded. Short and relaxed — full vs. fool.' },
+  { s: 'u',  key: 'GOOSE',  sp: 'oo, u, ew, ue, o', w: ['f<b>oo</b>d', 'bl<b>ue</b>', 'n<b>ew</b>'], note: 'Tense high back with firm lip rounding. GA speakers often front it toward /ʉ/.' },
+  { s: 'ʌ',  key: 'STRUT',  sp: 'u, o, ou, oo', w: ['c<b>u</b>p', 'l<b>o</b>ve', 'c<b>ou</b>ntry'], note: 'Mid central, always in a stressed syllable. Relax completely — no lip rounding at all.' },
+  { s: 'ə',  key: 'schwa',  sp: 'any vowel letter', w: ['<b>a</b>bout', 'sof<b>a</b>', 'penc<b>i</b>l'], note: 'The most frequent vowel in English. Only ever appears in unstressed syllables. Total muscular relaxation.' },
+];
+
+const VDIPH = [
+  { s: 'eɪ', key: 'FACE',   sp: 'a_e, ai, ay, ea, ei', w: ['d<b>ay</b>', 'n<b>a</b>m<b>e</b>', 'br<b>ea</b>k'], note: 'Starts at /ɛ/ and glides up to /ɪ/. Never a flat "eh" — the tongue must rise.' },
+  { s: 'aɪ', key: 'PRICE',  sp: 'i_e, y, igh, ie', w: ['t<b>i</b>m<b>e</b>', 'm<b>y</b>', 'h<b>igh</b>'], note: 'Starts low and central, glides to /ɪ/. The widest jaw movement of any English vowel.' },
+  { s: 'ɔɪ', key: 'CHOICE', sp: 'oi, oy', w: ['b<b>oy</b>', 'c<b>oi</b>n', 'v<b>oi</b>ce'], note: 'Rounded back start, gliding forward and up. Lips go from rounded to spread.' },
+  { s: 'oʊ', key: 'GOAT',   sp: 'o_e, oa, ow, oe', w: ['g<b>o</b>', 'b<b>oa</b>t', 'kn<b>ow</b>'], note: 'Starts mid back, glides to /ʊ/ with increasing lip rounding. A flat "o" is the clearest foreign-accent marker in this vowel.' },
+  { s: 'aʊ', key: 'MOUTH',  sp: 'ou, ow', w: ['n<b>ow</b>', 'h<b>ou</b>se', 'l<b>ou</b>d'], note: 'Low front start gliding to /ʊ/. Jaw drops, then lips round.' },
+];
+
+const RVOWELS = [
+  { s: 'ɝ', key: 'NURSE (stressed)', sp: 'er, ir, ur, or, ear', w: ['b<b>ir</b>d', 'n<b>ur</b>se', 'w<b>or</b>d'], note: 'A vowel that is r all the way through. Also written /ɜr/. The single most American sound there is.' },
+  { s: 'ɚ', key: 'letteR (unstressed)', sp: 'er, or, ar, ure', w: ['teach<b>er</b>', 'doct<b>or</b>', 'meas<b>ure</b>'], note: 'The unstressed twin of /ɝ/ — schwa plus r-coloring. Also written /ər/.' },
+  { s: 'ɑr', key: 'START', sp: 'ar, ear', w: ['c<b>ar</b>', 'h<b>ar</b>d', 'h<b>ear</b>t'], note: 'Open back vowel into r. Do not drop the r.' },
+  { s: 'ɔr', key: 'NORTH / FORCE', sp: 'or, our, oar, ore', w: ['m<b>ore</b>', 'f<b>our</b>', 'b<b>oar</b>d'], note: 'Rounded back vowel into r. North and force are merged in GA — for and four are identical.' },
+  { s: 'ɪr', key: 'NEAR', sp: 'ear, eer, ere, ier', w: ['h<b>ere</b>', 'b<b>eer</b>', 'n<b>ear</b>'], note: 'Also transcribed /ir/. High front vowel into r.' },
+  { s: 'ɛr', key: 'SQUARE', sp: 'are, air, ear, ere', w: ['h<b>air</b>', 'th<b>ere</b>', 'c<b>are</b>'], note: 'Also transcribed /er/. For most Americans Mary, marry, and merry all land here — see the merger below.' },
+  { s: 'ʊr', key: 'CURE', sp: 'ure, oor, our', w: ['t<b>our</b>', 'p<b>oor</b>', 'c<b>ure</b>'], note: 'The least stable one. Many GA speakers merge it into /ɔr/, making poor and pour identical.' },
+];
+
+function vcard(v) {
+  return '<div class="card">' +
+    '<div class="card-top"><span class="sym ipa">/' + v.s + '/</span><span class="tag">' + v.key + '</span></div>' +
+    chips(v.w) +
+    '<p class="meta">' + v.note + '<br><span class="lab">Spelled:</span> ' + v.sp + '</p>' +
+  '</div>';
+}
+document.getElementById('vowelGrid').innerHTML = VOWELS.map(vcard).join('');
+document.getElementById('diphGrid').innerHTML = VDIPH.map(vcard).join('');
+document.getElementById('rGrid').innerHTML = RVOWELS.map(vcard).join('');
+
+/* ============================== american features ============================== */
+const FEATURES = [
+  { t: '1. Rhoticity — every <em>r</em> is pronounced',
+    p: 'GA pronounces /r/ wherever the spelling has one: at the end of a word, before a consonant, everywhere. British RP drops it unless a vowel follows. This is the single biggest structural difference between the two accents.',
+    ex: [['car', 'card', 'farther', 'sooner', 'worker']] },
+  { t: '2. T-flapping — <em>t</em> becomes a quick <em>d</em>',
+    p: 'Between two vowels, when the second syllable is unstressed, /t/ becomes a flap <span class="ipa">[ɾ]</span> — the tongue taps the ridge once, very fast. It sounds like a <em>d</em> to non-native ears. This also happens across word boundaries: <em>get it</em>, <em>a lot of</em>. Because /d/ flaps too, <em>latter</em> and <em>ladder</em> become identical.',
+    ex: [['water', 'better', 'city', 'butter', 'little', 'thirty', 'party'], ['get it', 'a lot of it', 'put it on']] },
+  { t: '3. The cot–caught merger',
+    p: 'A majority of Americans no longer distinguish /ɑ/ from /ɔ/, so <em>cot</em> and <em>caught</em>, <em>Don</em> and <em>dawn</em>, <em>stock</em> and <em>stalk</em> are homophones. The distinction survives in parts of the Northeast, the South, and around the Great Lakes. If you merge them, nobody will notice; if you distinguish them, nobody will notice either.',
+    ex: [['cot, caught', 'Don, dawn', 'stock, stalk']] },
+  { t: '4. Yod-dropping — no <em>y</em> after <em>t, d, n, s, l</em>',
+    p: 'Where British English inserts a /j/ glide, GA drops it. <em>New</em> is <span class="ipa">/nu/</span>, not <span class="ipa">/nju/</span>. It is kept after other consonants: <em>music, few, cute, human</em>.',
+    ex: [['new', 'tune', 'duty', 'student', 'news', 'assume'], ['music', 'few', 'cute', 'human']] },
+  { t: '5. The <em>bath</em> vowel is /æ/',
+    p: 'Words in the BATH set take /æ/ in GA where RP takes /ɑː/. This affects a large everyday vocabulary.',
+    ex: [['bath', 'ask', 'dance', 'chance', 'can\'t', 'after', 'class', 'half']] },
+  { t: '6. Dark L everywhere',
+    p: 'American /l/ is velarized — the back of the tongue lifts toward the soft palate, giving a hollow, "swallowed" quality. RP uses a light /l/ before vowels and a dark one only at the end. In GA it is dark in most positions, and strongest at the end of a syllable.',
+    ex: [['feel', 'milk', 'call', 'help', 'ball', 'cold']] },
+  { t: '7. Glottal stop before syllabic <em>n</em>',
+    p: 'In <em>-tn</em> words the /t/ becomes a glottal stop <span class="ipa">[ʔ]</span> — the throat closes and the <em>n</em> is released through the nose with no vowel at all. <em>Button</em> is <span class="ipa">[ˈbʌʔn̩]</span>, two syllables with nothing between the catch and the n.',
+    ex: [['button', 'mountain', 'kitten', 'written', 'certain', 'important']] },
+  { t: '8. T-deletion after <em>n</em>',
+    p: 'In casual speech the /t/ after /n/ simply disappears, making <em>winter</em> sound like <em>winner</em>. This is informal but extremely common. It is normal in conversation and best avoided in careful or formal speech.',
+    ex: [['winter', 'internet', 'twenty', 'interview', 'center']] },
+  { t: '9. The Mary–marry–merry merger',
+    p: 'Most Americans pronounce all three identically as <span class="ipa">/ˈmɛri/</span>. Speakers in the Northeast, especially around New York and Philadelphia, keep two or three distinct vowels.',
+    ex: [['Mary, marry, merry', 'Barry, berry']] },
+  { t: '10. Different word stress',
+    p: 'A set of common words simply carries stress on a different syllable than in British English.',
+    ex: [['address', 'garage', 'ballet', 'adult', 'cigarette', 'magazine', 'laboratory', 'advertisement']] },
+  { t: '11. Vowel before <em>r</em> is not reduced away',
+    p: 'GA keeps a full syllable where RP compresses or drops one — notably in <em>-ary, -ery, -ory</em> endings, which Americans pronounce in full.',
+    ex: [['secretary', 'necessary', 'territory', 'military', 'cemetery']] },
+];
+document.getElementById('features').innerHTML = FEATURES.map(f =>
+  '<div class="feat"><h4>' + f.t + '</h4><p>' + f.p + '</p>' +
+  f.ex.map(row => '<div class="words">' + row.map(chip).join('') + '</div>').join('') +
+  '</div>'
+).join('');
+
+/* ============================== tables ============================== */
+function table(el, headers, rows) {
+  document.getElementById(el).innerHTML =
+    '<thead><tr>' + headers.map(h => '<th>' + h + '</th>').join('') + '</tr></thead>' +
+    '<tbody>' + rows.map(r => '<tr>' + r.map(c => '<td>' + c + '</td>').join('') + '</tr>').join('') + '</tbody>';
+}
+
+table('nvTable', ['Word', 'Noun — stress 1st', 'Verb — stress 2nd'], [
+  ['record',  ipa('/ˈrɛkɚd/') + ' ' + chip('a record'),     ipa('/rɪˈkɔrd/') + ' ' + chip('to record')],
+  ['present', ipa('/ˈprɛzənt/') + ' ' + chip('a present'),  ipa('/prɪˈzɛnt/') + ' ' + chip('to present')],
+  ['object',  ipa('/ˈɑbdʒɪkt/') + ' ' + chip('an object'),  ipa('/əbˈdʒɛkt/') + ' ' + chip('to object')],
+  ['contract',ipa('/ˈkɑntrækt/') + ' ' + chip('a contract'),ipa('/kənˈtrækt/') + ' ' + chip('to contract')],
+  ['permit',  ipa('/ˈpɝmɪt/') + ' ' + chip('a permit'),     ipa('/pɚˈmɪt/') + ' ' + chip('to permit')],
+  ['increase',ipa('/ˈɪnkris/') + ' ' + chip('an increase'), ipa('/ɪnˈkris/') + ' ' + chip('to increase')],
+  ['conflict',ipa('/ˈkɑnflɪkt/') + ' ' + chip('a conflict'),ipa('/kənˈflɪkt/') + ' ' + chip('to conflict')],
+  ['produce', ipa('/ˈproʊdus/') + ' ' + chip('fresh produce'), ipa('/prəˈdus/') + ' ' + chip('to produce')],
+]);
+
+table('compTable', ['Compound noun — stress 1st', 'Meaning', 'Phrase — stress 2nd', 'Meaning'], [
+  [chip('a GREENhouse'), 'a glass building for plants', chip('a green HOUSE'), 'a house painted green'],
+  [chip('the WHITE House'), 'the president’s residence', chip('a white HOUSE'), 'any house that is white'],
+  [chip('a BLACKboard'), 'a board for writing on', chip('a black BOARD'), 'a board that is black'],
+  [chip('a DARKroom'), 'a room for developing photos', chip('a dark ROOM'), 'a room with no light'],
+  [chip('an ENGlish teacher'), 'someone who teaches English', chip('an English TEACHer'), 'a teacher from England'],
+]);
+
+table('sufTable', ['Suffix', 'Rule', 'Examples'], [
+  ['-tion, -sion, -cian', 'Stress the syllable immediately before it', chips(['information', 'decision', 'musician'])],
+  ['-ity, -ety', 'Stress the syllable immediately before it', chips(['ability', 'variety', 'society'])],
+  ['-ic, -ical', 'Stress the syllable immediately before it', chips(['specific', 'historic', 'economical'])],
+  ['-graphy, -logy, -ometry', 'Stress the syllable immediately before it', chips(['photography', 'biology', 'geometry'])],
+  ['-ee, -eer, -ese, -ette', 'Stress falls on the suffix itself', chips(['employee', 'engineer', 'Japanese', 'cassette'])],
+  ['-ize, -ate, -ary, -ory', 'Usually no stress change from the root; often third-from-last syllable', chips(['organize', 'graduate', 'necessary'])],
+  ['-able, -ous, -al, -ly, -ment, -ness, -ful', 'Neutral — stress stays where the root had it', chips(['comfort / comfortable', 'danger / dangerous', 'govern / government'])],
+]);
+
+table('weakTable', ['Word', 'Strong form', 'Weak form', 'In a sentence'], [
+  ['a',    ipa('/eɪ/'),  ipa('/ə/'),   chip('a book')],
+  ['the',  ipa('/ði/'),  ipa('/ðə/'),  chip('the book') + ' vs. ' + chip('the apple')],
+  ['to',   ipa('/tu/'),  ipa('/tə/'),  chip('I want to go')],
+  ['of',   ipa('/ʌv/'),  ipa('/əv/, /ə/'), chip('a cup of coffee')],
+  ['for',  ipa('/fɔr/'), ipa('/fɚ/'),  chip('It’s for you')],
+  ['and',  ipa('/ænd/'), ipa('/ən/, /n/'), chip('bread and butter')],
+  ['can',  ipa('/kæn/'), ipa('/kən/'), chip('I can swim') + ' vs. ' + chip('Yes, I can')],
+  ['at',   ipa('/æt/'),  ipa('/ət/'),  chip('at home')],
+  ['from', ipa('/frʌm/'),ipa('/frəm/'),chip('from work')],
+  ['have', ipa('/hæv/'), ipa('/əv/'),  chip('I should have known')],
+  ['you',  ipa('/ju/'),  ipa('/jə/'),  chip('What do you think?')],
+  ['your', ipa('/jɔr/'), ipa('/jɚ/'),  chip('your turn')],
+  ['was',  ipa('/wʌz/'), ipa('/wəz/'), chip('He was late')],
+  ['are',  ipa('/ɑr/'),  ipa('/ɚ/'),   chip('They are ready')],
+  ['that (conj.)', ipa('/ðæt/'), ipa('/ðət/'), chip('I know that it’s true')],
+]);
+
+const LINKING = [
+  { t: 'Consonant to vowel', p: 'A final consonant attaches to the next word’s initial vowel. This is why running speech is so hard to segment — the word boundaries stop being audible.',
+    ex: ['an apple', 'turn it off', 'pick it up', 'far away'] },
+  { t: 'Intrusive /w/ and /j/', p: 'A glide appears between two vowels to bridge them. After a rounded vowel you get /w/; after a front vowel you get /j/.',
+    ex: ['go on', 'do it', 'I am', 'she asked'] },
+  { t: 'Geminate simplification', p: 'When the same consonant ends one word and starts the next, it is held once, not said twice.',
+    ex: ['bus stop', 'big game', 'black cat', 'hot tea'] },
+  { t: 'Assimilation', p: 'A sound shifts to match its neighbor. /d/ + /j/ becomes /dʒ/, /t/ + /j/ becomes /tʃ/, and /n/ before /k/ or /ɡ/ becomes /ŋ/.',
+    ex: ['did you', 'don\'t you', 'would you', 'in case'] },
+  { t: 'Elision', p: 'A consonant in a cluster drops out entirely, especially /t/ and /d/ between two other consonants.',
+    ex: ['next day', 'friendship', 'sandwich', 'must be'] },
+];
+document.getElementById('linking').innerHTML = LINKING.map(l =>
+  '<div class="feat"><h4>' + l.t + '</h4><p>' + l.p + '</p><div class="words">' + l.ex.map(chip).join('') + '</div></div>'
+).join('');
+
+table('casualTable', ['Written', 'Spoken', 'Example'], [
+  ['going to (future)', ipa('/ˈɡʌnə/') + ' gonna', chip('I’m going to call you')],
+  ['want to',  ipa('/ˈwɑnə/') + ' wanna', chip('Do you want to leave?')],
+  ['got to',   ipa('/ˈɡɑɾə/') + ' gotta', chip('I’ve got to go')],
+  ['have to',  ipa('/ˈhæftə/') + ' hafta', chip('I have to work')],
+  ['has to',   ipa('/ˈhæstə/') + ' hasta', chip('She has to leave')],
+  ['ought to', ipa('/ˈɔɾə/') + ' oughta', chip('You ought to know')],
+  ['kind of',  ipa('/ˈkaɪndə/') + ' kinda', chip('It’s kind of cold')],
+  ['let me',   ipa('/ˈlɛmi/') + ' lemme', chip('Let me see')],
+  ['give me',  ipa('/ˈɡɪmi/') + ' gimme', chip('Give me a minute')],
+  ['what are you', ipa('/wʌˈtʃɚjə/') + ' whatcha', chip('What are you doing?')],
+  ['did you',  ipa('/ˈdɪdʒə/') + ' didja', chip('Did you see it?')],
+  ['a lot of', ipa('/əˈlɑɾə/') + ' a lotta', chip('a lot of people')],
+]);
+
+table('edTable', ['Ending', 'When', 'Sounds before it', 'Examples'], [
+  [ipa('/t/'), 'After a voiceless sound', ipa('p, k, f, s, ʃ, tʃ, θ'), chips(['stopped', 'walked', 'laughed', 'missed', 'washed', 'watched'])],
+  [ipa('/d/'), 'After a voiced sound (including all vowels)', ipa('b, ɡ, v, z, ʒ, dʒ, m, n, ŋ, l, r') + ' + vowels', chips(['played', 'robbed', 'called', 'lived', 'used', 'changed', 'cleaned'])],
+  [ipa('/ɪd/'), 'After /t/ or /d/ only — this adds a syllable', ipa('t, d'), chips(['wanted', 'needed', 'started', 'decided', 'waited', 'ended'])],
+]);
+
+table('sTable', ['Ending', 'When', 'Sounds before it', 'Examples'], [
+  [ipa('/s/'), 'After a voiceless sound', ipa('p, t, k, f, θ'), chips(['cats', 'books', 'stops', 'laughs', 'months'])],
+  [ipa('/z/'), 'After a voiced sound (including all vowels)', ipa('b, d, ɡ, v, ð, m, n, ŋ, l, r') + ' + vowels', chips(['dogs', 'plays', 'runs', 'lives', 'trees', 'girls'])],
+  [ipa('/ɪz/'), 'After a sibilant — this adds a syllable', ipa('s, z, ʃ, ʒ, tʃ, dʒ'), chips(['buses', 'boxes', 'watches', 'judges', 'washes', 'roses'])],
+]);
+
+table('silentTable', ['Letter', 'Silent when', 'Examples'], [
+  ['b', 'after m, or before t', chips(['climb', 'thumb', 'doubt', 'debt', 'subtle'])],
+  ['c', 'in -scle, and in some -sc-', chips(['muscle', 'scissors', 'science'])],
+  ['d', 'in a few common words', chips(['Wednesday', 'handsome', 'handkerchief'])],
+  ['g', 'before n', chips(['sign', 'foreign', 'design', 'gnome'])],
+  ['gh', 'before t, and word-finally in many words', chips(['light', 'though', 'daughter', 'weigh'])],
+  ['h', 'after w or in some initial positions', chips(['what', 'hour', 'honest', 'ghost', 'rhythm'])],
+  ['k', 'before n', chips(['know', 'knife', 'knee', 'knock'])],
+  ['l', 'before f, k, m, d', chips(['half', 'talk', 'calm', 'should', 'salmon'])],
+  ['n', 'after m', chips(['autumn', 'column', 'hymn'])],
+  ['p', 'before n, s, t at word start', chips(['psychology', 'pneumonia', 'receipt'])],
+  ['s', 'in a few French borrowings', chips(['island', 'aisle', 'debris'])],
+  ['t', 'in -sten, -stle, and French borrowings', chips(['listen', 'castle', 'often', 'ballet'])],
+  ['u', 'after g before a vowel', chips(['guess', 'guitar', 'guard', 'tongue'])],
+  ['w', 'before r, and in some -wo-', chips(['write', 'wrong', 'two', 'sword', 'answer'])],
+]);
+
+const OUGH = [
+  { s: 'ʌf', w: ['r<b>ough</b>', 't<b>ough</b>', 'en<b>ough</b>'], key: 'like "uff"' },
+  { s: 'ɔf', w: ['c<b>ough</b>', 'tr<b>ough</b>'], key: 'like "off"' },
+  { s: 'oʊ', w: ['th<b>ough</b>', 'd<b>ough</b>', 'alth<b>ough</b>'], key: 'like "oh"' },
+  { s: 'u',  w: ['thr<b>ough</b>'], key: 'like "oo"' },
+  { s: 'ɔ',  w: ['th<b>ough</b>t', 'b<b>ough</b>t', 'br<b>ough</b>t'], key: 'like "aw"' },
+  { s: 'aʊ', w: ['b<b>ough</b>', 'dr<b>ough</b>t', 'pl<b>ough</b>'], key: 'like "ow"' },
+  { s: 'ə',  w: ['thor<b>ough</b>', 'bor<b>ough</b>'], key: 'unstressed, "-uh"' },
+];
+document.getElementById('oughGrid').innerHTML = OUGH.map(o =>
+  '<div class="card"><div class="card-top"><span class="sym ipa">/' + o.s + '/</span><span class="tag">' + o.key + '</span></div>' + chips(o.w) + '</div>'
+).join('');
+
+table('trapTable', ['Word', 'Correct', 'The trap'], [
+  ['comfortable', ipa('/ˈkʌmftɚbəl/'), 'Three syllables in speech, not four. The <em>or</em> collapses.'],
+  ['vegetable',   ipa('/ˈvɛdʒtəbəl/'), 'Three syllables. The second <em>e</em> disappears.'],
+  ['chocolate',   ipa('/ˈtʃɑklət/'),   'Two syllables. Not choc-o-late.'],
+  ['Wednesday',   ipa('/ˈwɛnzdeɪ/'),   'Two syllables. The first <em>d</em> is silent.'],
+  ['clothes',     ipa('/kloʊz/'),      'Identical to <em>close</em> (the verb). No separate /ð/.'],
+  ['iron',        ipa('/ˈaɪɚn/'),      'Sounds like "eye-urn." The r moves before the vowel.'],
+  ['colonel',     ipa('/ˈkɝnəl/'),     'Identical to <em>kernel</em>. There is no l sound at all in the first syllable.'],
+  ['recipe',      ipa('/ˈrɛsəpi/'),    'Three syllables, final <em>e</em> is pronounced.'],
+  ['salmon',      ipa('/ˈsæmən/'),     'The l is silent.'],
+  ['determine',   ipa('/dɪˈtɝmɪn/'),   'Rhymes with <em>vermin</em>, not with <em>mine</em>.'],
+  ['suite',       ipa('/swit/'),       'Identical to <em>sweet</em>.'],
+  ['debt',        ipa('/dɛt/'),        'The b is silent.'],
+  ['subtle',      ipa('/ˈsʌɾəl/'),     'The b is silent; the t flaps.'],
+  ['sixth',       ipa('/sɪksθ/'),      'Three consonants in a row at the end. Do not add a vowel.'],
+  ['months',      ipa('/mʌnθs/'),      'Same problem. Many Americans simplify to /mʌns/.'],
+  ['almond',      ipa('/ˈɑmənd/'),     'The l is usually silent in GA.'],
+]);
+
+/* ============================== minimal pairs ============================== */
+const PAIRS = [
+  { c: '/i/ vs /ɪ/', for: 'Spanish, Italian, Arabic, Slavic', p: [['sheep','ship'],['eat','it'],['feel','fill'],['leave','live'],['seat','sit']] },
+  { c: '/æ/ vs /ɛ/', for: 'Most learners', p: [['bad','bed'],['man','men'],['sat','set'],['had','head'],['pan','pen']] },
+  { c: '/æ/ vs /ʌ/', for: 'Spanish, Portuguese, Japanese', p: [['cat','cut'],['bat','but'],['ran','run'],['match','much'],['hat','hut']] },
+  { c: '/ɑ/ vs /ʌ/', for: 'Slavic, Korean', p: [['not','nut'],['cop','cup'],['lock','luck'],['done','dawn'],['shot','shut']] },
+  { c: '/u/ vs /ʊ/', for: 'Spanish, Japanese, Slavic', p: [['fool','full'],['pool','pull'],['Luke','look'],['suit','soot']] },
+  { c: '/θ/ vs /s/', for: 'French, German, Japanese', p: [['think','sink'],['thick','sick'],['mouth','mouse'],['path','pass'],['thing','sing']] },
+  { c: '/θ/ vs /t/', for: 'Hindi, Russian, Thai', p: [['three','tree'],['thin','tin'],['both','boat'],['thank','tank']] },
+  { c: '/ð/ vs /d/', for: 'Many learners', p: [['they','day'],['then','den'],['breathe','breed'],['other','udder']] },
+  { c: '/v/ vs /w/', for: 'German, Hindi, Chinese', p: [['vine','wine'],['vest','west'],['veil','whale'],['very','wary']] },
+  { c: '/v/ vs /b/', for: 'Spanish, Korean', p: [['vote','boat'],['very','berry'],['vase','base'],['curve','curb']] },
+  { c: '/l/ vs /ɹ/', for: 'Japanese, Korean, Chinese', p: [['light','right'],['lice','rice'],['collect','correct'],['glass','grass'],['play','pray']] },
+  { c: '/ʃ/ vs /tʃ/', for: 'French, Portuguese', p: [['shoe','chew'],['ship','chip'],['wash','watch'],['sheep','cheap']] },
+  { c: '/s/ vs /ʃ/', for: 'Greek, Japanese', p: [['sea','she'],['sell','shell'],['sock','shock'],['mass','mash']] },
+  { c: '/n/ vs /ŋ/', for: 'Spanish, Italian, Arabic', p: [['sin','sing'],['thin','thing'],['ban','bang'],['ton','tongue']] },
+  { c: '/eɪ/ vs /ɛ/', for: 'Spanish, French', p: [['late','let'],['taste','test'],['pain','pen'],['sale','sell']] },
+  { c: '/oʊ/ vs /ɔ/', for: 'Slavic, Portuguese', p: [['coat','caught'],['boat','bought'],['low','law'],['so','saw']] },
+  { c: '/b/ vs /p/', for: 'Arabic, Chinese', p: [['big','pig'],['bath','path'],['cab','cap'],['rib','rip']] },
+  { c: '/f/ vs /p/', for: 'Korean, Arabic', p: [['fine','pine'],['fool','pool'],['leaf','leap'],['coffee','copy']] },
+];
+document.getElementById('pairGrid').innerHTML = PAIRS.map(g =>
+  '<div class="pair"><div class="contrast"><span class="ipa" style="color:var(--accent);font-weight:600">' + g.c + '</span> &middot; ' + g.for + '</div>' +
+  '<div class="words">' + g.p.map(pr => chip(pr[0]) + chip(pr[1])).join('') + '</div></div>'
+).join('');
+
+/* ============================== quiz ============================== */
+const FLAT = PAIRS.flatMap(g => g.p.map(p => ({ pair: p, contrast: g.c })));
+let current = null, right = 0, total = 0;
+const choicesEl = document.getElementById('choices');
+const fbEl = document.getElementById('feedback');
+const scoreEl = document.getElementById('score');
+
+function newRound() {
+  const item = FLAT[Math.floor(Math.random() * FLAT.length)];
+  const idx = Math.floor(Math.random() * 2);
+  current = { item, answer: item.pair[idx], answered: false };
+  choicesEl.innerHTML = item.pair.map(w =>
+    '<button class="choice" data-w="' + w + '">' + w + '</button>'
+  ).join('');
+  fbEl.innerHTML = 'Contrast: <span class="ipa">' + item.contrast + '</span>';
+  speak(current.answer);
+}
+document.getElementById('playBtn').onclick = newRound;
+document.getElementById('repeatBtn').onclick = () => { if (current) speak(current.answer); else newRound(); };
+choicesEl.addEventListener('click', e => {
+  const b = e.target.closest('.choice');
+  if (!b || !current || current.answered) return;
+  current.answered = true;
+  total++;
+  const correct = b.dataset.w === current.answer;
+  if (correct) right++;
+  [...choicesEl.children].forEach(c => {
+    if (c.dataset.w === current.answer) c.classList.add('right');
+    else if (c === b) c.classList.add('wrong');
+  });
+  fbEl.innerHTML = (correct ? 'Correct — ' : 'It was ') + '<strong>' + current.answer + '</strong>. Contrast: <span class="ipa">' + current.item.contrast + '</span>';
+  scoreEl.textContent = 'Score: ' + right + ' / ' + total;
+});
+
+/* ============================== full chart ============================== */
+const CHART = [
+  ['Stops', CONSONANTS[0].items],
+  ['Fricatives', CONSONANTS[1].items],
+  ['Affricates', CONSONANTS[2].items],
+  ['Nasals', CONSONANTS[3].items],
+  ['Approximants', CONSONANTS[4].items],
+];
+const chartRows = CHART.map(([g, items]) => [
+  g,
+  items.map(i => '<span class="ipa" style="color:var(--accent);font-weight:600">/' + i.s + '/</span> ' + i.w[0].replace(/<\/?b>/g, '')).join(' &middot; ')
+]).concat([
+  ['Simple vowels', VOWELS.map(v => '<span class="ipa" style="color:var(--accent);font-weight:600">/' + v.s + '/</span> ' + v.w[0].replace(/<\/?b>/g, '')).join(' &middot; ')],
+  ['Diphthongs', VDIPH.map(v => '<span class="ipa" style="color:var(--accent);font-weight:600">/' + v.s + '/</span> ' + v.w[0].replace(/<\/?b>/g, '')).join(' &middot; ')],
+  ['R-colored', RVOWELS.map(v => '<span class="ipa" style="color:var(--accent);font-weight:600">/' + v.s + '/</span> ' + v.w[0].replace(/<\/?b>/g, '')).join(' &middot; ')],
+]);
+table('chartTable', ['Category', 'Phonemes'], chartRows);
+
+/* ============================== theme ============================== */
+const tb = document.getElementById('themeBtn');
+function setTheme(t) {
+  document.documentElement.dataset.theme = t;
+  tb.textContent = t === 'dark' ? 'Light' : 'Dark';
+  try { localStorage.setItem('pron-theme', t); } catch (e) {}
+}
+tb.onclick = () => setTheme(document.documentElement.dataset.theme === 'dark' ? 'light' : 'dark');
+try {
+  const saved = localStorage.getItem('pron-theme');
+  if (saved) setTheme(saved);
+  else setTheme(matchMedia('(prefers-color-scheme: dark)').matches ? 'dark' : 'light');
+} catch (e) {}
+</script>
+</body>
+</html>

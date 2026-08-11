@@ -1,0 +1,706 @@
+<!DOCTYPE html>
+<html lang="en"><head>
+<meta charset="utf-8"><meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Attention, silencing, and directives</title>
+<style>
+:root{--bg:#faf9f7;--surface:#fff;--surface2:#f2f0ec;--border:#e2ded6;--text:#1a1815;
+--dim:#5f594f;--faint:#8a8377;--accent:#b4552a;--measure:72ch}
+@media(prefers-color-scheme:dark){:root{--bg:#14140f;--surface:#1d1d17;--surface2:#25251d;
+--border:#33332a;--text:#eeeae1;--dim:#a8a293;--faint:#7d776b;--accent:#e8935f}}
+:root[data-theme=dark]{--bg:#14140f;--surface:#1d1d17;--surface2:#25251d;--border:#33332a;
+--text:#eeeae1;--dim:#a8a293;--faint:#7d776b;--accent:#e8935f}
+:root[data-theme=light]{--bg:#faf9f7;--surface:#fff;--surface2:#f2f0ec;--border:#e2ded6;
+--text:#1a1815;--dim:#5f594f;--faint:#8a8377;--accent:#b4552a}
+*{box-sizing:border-box}
+body{margin:0;background:var(--bg);color:var(--text);
+font:17px/1.72 ui-serif,Georgia,"Iowan Old Style",Palatino,serif;-webkit-font-smoothing:antialiased}
+.ui{font-family:-apple-system,BlinkMacSystemFont,"Segoe UI",Inter,Roboto,sans-serif}
+.wrap{max-width:min(var(--measure),100%);margin:0 auto;padding:0 22px}
+nav.crumb{border-bottom:1px solid var(--border);padding:13px 0;font-size:13.5px;
+font-family:-apple-system,sans-serif;position:sticky;top:0;background:var(--bg);z-index:20}
+nav.crumb .wrap{max-width:none;display:flex;gap:9px;align-items:center;flex-wrap:wrap}
+nav.crumb a{color:var(--dim);text-decoration:none}
+nav.crumb a:hover{color:var(--accent)}
+nav.crumb .sep{color:var(--faint)}
+main{padding:8px 0 80px}
+h1{font-size:clamp(28px,5vw,38px);line-height:1.15;letter-spacing:-.015em;margin:34px 0 18px}
+h2{font-size:25px;margin:46px 0 14px;letter-spacing:-.01em;padding-bottom:7px;border-bottom:1px solid var(--border)}
+h3{font-size:19px;margin:34px 0 10px;color:var(--accent)}
+h4{font-size:16px;margin:24px 0 8px;font-family:-apple-system,sans-serif}
+p{margin:0 0 16px}
+a{color:var(--accent)}
+.hash{opacity:0;margin-left:8px;font-weight:400;font-size:.65em;text-decoration:none;color:var(--faint)}
+h2:hover .hash,h3:hover .hash{opacity:1}
+blockquote{margin:0 0 20px;padding:14px 18px;background:var(--surface2);
+border-left:3px solid var(--accent);border-radius:0 8px 8px 0}
+blockquote p:last-child{margin-bottom:0}
+ol,ul{margin:0 0 18px;padding-left:26px}
+li{margin-bottom:8px}
+li>ul,li>ol{margin:8px 0 0}
+code{font-family:ui-monospace,SFMono-Regular,Menlo,Consolas,monospace;font-size:.87em;
+background:var(--surface2);padding:1px 5px;border-radius:4px}
+pre{background:var(--surface2);border:1px solid var(--border);border-radius:9px;
+padding:15px 17px;overflow-x:auto;margin:0 0 20px}
+pre code{background:none;padding:0;font-size:13px;line-height:1.6}
+.tw{overflow-x:auto;margin:0 0 22px;border:1px solid var(--border);border-radius:9px}
+table{border-collapse:collapse;width:100%;font-size:15px;
+font-family:-apple-system,BlinkMacSystemFont,"Segoe UI",sans-serif}
+th,td{padding:10px 14px;border-bottom:1px solid var(--border);vertical-align:top}
+th{background:var(--surface2);font-size:12px;text-transform:uppercase;
+letter-spacing:.06em;color:var(--dim);font-weight:700;white-space:nowrap}
+tbody tr:last-child td{border-bottom:none}
+hr{border:none;border-top:1px solid var(--border);margin:38px 0}
+details{background:var(--surface2);border:1px solid var(--border);border-radius:9px;
+padding:13px 17px;margin:0 0 20px}
+summary{cursor:pointer;font-weight:600;font-family:-apple-system,sans-serif;font-size:15px}
+details[open] summary{margin-bottom:12px}
+del{color:var(--faint)}
+.toc{background:var(--surface2);border:1px solid var(--border);border-radius:10px;
+padding:16px 20px;margin:26px 0 34px;font-family:-apple-system,sans-serif;font-size:14px}
+.toc b{display:block;font-size:11px;letter-spacing:.12em;text-transform:uppercase;
+color:var(--faint);margin-bottom:9px}
+.toc a{display:block;padding:3px 0;color:var(--dim);text-decoration:none}
+.toc a:hover{color:var(--accent)}
+.toc a.l3{padding-left:16px;font-size:13.5px}
+.themebtn{position:fixed;right:18px;bottom:18px;z-index:60;font-family:-apple-system,sans-serif;
+font-size:12.5px;font-weight:600;cursor:pointer;background:var(--surface);border:1px solid var(--border);
+border-radius:99px;padding:9px 16px;color:var(--text)}
+@media(max-width:600px){body{font-size:16px}.wrap{padding:0 17px}}
+</style></head><body>
+<nav class="crumb"><div class="wrap"><a href="../../../index.html">Learn English</a><span class="sep">/</span><a href="../../README.html">Parts of speech</a><span class="sep">/</span><a href="../README.html">08-interjections</a><span class="sep">/</span><span>catalog</span></div></nav>
+<main><div class="wrap"><div class="toc"><b>On this page</b><a class="l2" href="#getting-someones-attention">Getting someone&#x27;s attention</a><a class="l2" href="#flagging-what-comes-next">Flagging what comes next</a><a class="l2" href="#calling-for-silence">Calling for silence</a><a class="l2" href="#stopping-waiting-and-holding-off">Stopping, waiting, and holding off</a><a class="l2" href="#calming-people-down-and-breaking-things-up">Calming people down and breaking things up</a><a class="l2" href="#moving-people-along-and-clearing-the-way">Moving people along and clearing the way</a><a class="l2" href="#hurrying-somebody-along">Hurrying somebody along</a><a class="l2" href="#yielding-inviting-and-giving-permission">Yielding, inviting, and giving permission</a></div><h1 id="attention-silencing-and-directives">Attention, silencing, and directives<a class="hash" href="#attention-silencing-and-directives" aria-label="link">#</a></h1>
+<blockquote><p>The interjections that act on the listener: they point a head in your direction, shut a room up, stop something mid-motion, clear a path, or hand somebody the floor.</p></blockquote>
+<p><a href="../README.html">← Back to the interjections index</a> &middot; <a href="README.html">All categories</a></p>
+<p>Everything in this file is <strong>volitive</strong>: it is aimed outward at another person and asks them to do something — look, listen, be quiet, stop, move, or go ahead. That makes register the whole ballgame. <em>Excuse me</em> and <em>knock it off</em> both mean "stop that," but one is what you say to a stranger on a train and the other is what you say to your kid; <em>zip it</em> and <em>shut up</em> will end a conversation with a coworker permanently. Most of these words are shouted or snapped, so they take exclamation points far more often than periods, and two of them — <em>shh</em> and <em>psst</em> — are not spellings of words at all but written-down noises, which is why their pronunciations are described rather than transcribed. <em>Ahem</em> sits in between: spelled out and read aloud it really is /əˈhɛm/, but what a speaker actually produces is a deliberate cough.</p>
+<h2 id="getting-someones-attention">Getting someone's attention<a class="hash" href="#getting-someones-attention" aria-label="link">#</a></h2>
+<h3 id="ahem">ahem<a class="hash" href="#ahem" aria-label="link">#</a></h3>
+<p><strong>Pronunciation:</strong> /əˈhɛm/ &middot; <em>uh-HEM</em> <strong>Type:</strong> primary &middot; <strong>Register:</strong> neutral <strong>Variants:</strong> <em>ahem-ahem</em></p>
+<p>A deliberate throat-clearing used as a signal rather than a real cough. It asks for attention, marks that you are about to speak, or delivers a discreet correction or disapproval without saying anything explicit.</p>
+<ol><li>"<em>Ahem.</em> I believe you're sitting in my seat."</li><li><em>Ahem</em> — if anyone's interested, I finished the report an hour ago.</li><li>She gave a small <em>ahem</em> and the room went quiet.</li><li>"<em>Ahem!</em>" The teacher didn't have to say anything else.</li><li><em>Ahem.</em> Some of us have been waiting in line for twenty minutes.</li></ol>
+<p><strong>See also:</strong> <a href="#psst">psst</a>, <a href="#hey">hey</a>, <a href="#excuse-me">excuse me</a></p>
+<h3 id="attention">attention<a class="hash" href="#attention" aria-label="link">#</a></h3>
+<p><strong>Pronunciation:</strong> /əˈtɛnʃən/ &middot; <em>uh-TEN-shun</em> <strong>Type:</strong> secondary &middot; <strong>Register:</strong> formal <strong>Variants:</strong> <em>attention please</em>, <em>may I have your attention</em></p>
+<p>A formal call for a whole group to stop what they are doing and listen. It is the standard opener for public-address announcements, and barked as a single word it is the military command to stand up straight.</p>
+<ol><li>"<em>Attention</em>, passengers: the six-fifteen to Boston is now boarding on track nine."</li><li>"<em>Attention</em>, shoppers — the store closes in fifteen minutes."</li><li>May I have your <em>attention</em>, please? We're about to get started.</li><li>"<em>Attention</em>, everyone," the coordinator called over the noise. "We're starting in two minutes."</li><li>The sergeant barked "<em>Attention</em>!" and forty recruits snapped upright.</li></ol>
+<p><strong>See also:</strong> <a href="#listen-up">listen up</a>, <a href="#hear-ye">hear ye</a>, <a href="#order">order</a>, <a href="#quiet">quiet</a></p>
+<h3 id="behold">behold<a class="hash" href="#behold" aria-label="link">#</a></h3>
+<p><strong>Pronunciation:</strong> /bɪˈhoʊld/ &middot; <em>bih-HOHLD</em> <strong>Type:</strong> secondary &middot; <strong>Register:</strong> dated</p>
+<p>An archaic command to look. It survives in scripture, ceremony, and — far more often today — in deliberate self-mockery when someone unveils something unimpressive.</p>
+<ol><li>"<em>Behold</em>!" he said, pulling the sheet off the finished table.</li><li>And <em>behold</em>, a star appeared in the east.</li><li>She opened the fridge, waved a hand, and said, "<em>Behold</em> — dinner."</li><li><em>Behold</em>, the mighty three-page report I spent all weekend on.</li><li>The magician raised both arms and shouted, "<em>Behold</em>!"</li></ol>
+<p><strong>See also:</strong> <a href="#lo-and-behold">lo and behold</a>, <a href="#look">look</a>, <a href="#check-it-out">check it out</a>, <a href="#hark">hark</a></p>
+<h3 id="excuse-me">excuse me<a class="hash" href="#excuse-me" aria-label="link">#</a></h3>
+<p><strong>Pronunciation:</strong> /ɪkˈskjuz ˌmi/ &middot; <em>ik-SKYOOZ mee</em> <strong>Type:</strong> phrase &middot; <strong>Register:</strong> neutral <strong>Variants:</strong> <em>'scuse me</em>, <em>excuse me?</em></p>
+<p>The all-purpose American politeness formula, doing four jobs at once: getting a stranger's attention, asking someone to let you pass, apologizing for a small offense such as a bump or a burp, and — with a sharp rise at the end — signaling that you did not hear something or cannot believe what you just heard.</p>
+<ol><li>"<em>Excuse me</em>, do you know if this bus goes downtown?"</li><li><em>Excuse me</em> — could I squeeze past? My stop is next.</li><li>He bumped her cart and said, "Oh, <em>excuse me</em>."</li><li>"<em>Excuse me</em>?" she said, leaning in. "Would you mind repeating that?"</li><li><em>Excuse me</em>, but I was in line before you were.</li><li>"<em>Excuse me</em>! I don't remember asking for your opinion."</li></ol>
+<p><strong>See also:</strong> <a href="#pardon-me">pardon me</a>, <a href="#coming-through">coming through</a>, <a href="#ahem">ahem</a>, <a href="#hey">hey</a></p>
+<h3 id="hark">hark<a class="hash" href="#hark" aria-label="link">#</a></h3>
+<p><strong>Pronunciation:</strong> /hɑrk/ &middot; <em>HARK</em> <strong>Type:</strong> secondary &middot; <strong>Register:</strong> dated <strong>Variants:</strong> <em>hearken</em></p>
+<p>An archaic "listen!" No American says it straight anymore outside of hymns and old poetry; it survives as a joke, delivered with mock solemnity and usually a hand cupped to the ear.</p>
+<ol><li><em>Hark</em>! The herald angels sing.</li><li>"<em>Hark</em>," he said, cupping a hand to his ear. "Is that the pizza guy?"</li><li><em>Hark</em>, I hear the sweet sound of the coffee maker finishing.</li><li>The narrator began, "<em>Hark</em>, travelers, and hear my tale."</li><li>"<em>Hark</em>! Who goes there?" the kid yelled down from the treehouse.</li></ol>
+<p><strong>See also:</strong> <a href="#listen">listen</a>, <a href="#behold">behold</a>, <a href="#hear-ye">hear ye</a>, <a href="#lo-and-behold">lo and behold</a></p>
+<h3 id="hear-ye">hear ye<a class="hash" href="#hear-ye" aria-label="link">#</a></h3>
+<p><strong>Pronunciation:</strong> /ˈhɪr ˌji/ &middot; <em>HEER yee</em> <strong>Type:</strong> phrase &middot; <strong>Register:</strong> dated <strong>Variants:</strong> <em>hear ye, hear ye</em>, <em>hear this</em></p>
+<p>The town crier's opener, almost always doubled: "Hear ye, hear ye!" Modern Americans use it only in period settings, in courtrooms, or when clowning around before an announcement at home.</p>
+<ol><li>"<em>Hear ye, hear ye</em>! The court is now in session."</li><li><em>Hear ye, hear ye</em> — the annual bake sale begins at noon!</li><li>He stood on a chair, banged a spoon against a glass, and said, "<em>Hear ye, hear ye</em>."</li><li>The crier's voice carried down the street: "<em>Hear ye</em>! A royal proclamation!"</li><li>"<em>Hear ye, hear ye</em>, the kitchen is officially closed," my dad announced at nine.</li></ol>
+<p><strong>See also:</strong> <a href="#oyez">oyez</a>, <a href="#attention">attention</a>, <a href="#order">order</a>, <a href="#hark">hark</a></p>
+<h3 id="hello">hello?<a class="hash" href="#hello" aria-label="link">#</a></h3>
+<p><strong>Pronunciation:</strong> /həˈloʊ/ &middot; <em>huh-LOH (also /hɛˈloʊ/, heh-LOH)</em> <strong>Type:</strong> secondary &middot; <strong>Register:</strong> informal <strong>Variants:</strong> <em>hellooo</em>, <em>helloooo</em></p>
+<p>Not the greeting. With a rising, drawn-out contour, "Hello?" means "is anyone there?" — into a phone, an empty house, or at a person who has clearly stopped listening. Said flat and clipped, it means "isn't this completely obvious?"</p>
+<ol><li>"<em>Hello</em>? Is anybody home?" she called through the screen door.</li><li><em>Hello</em>? Can you hear me? I think the call is breaking up.</li><li>I waved a hand in front of his face. "<em>Hello</em>? Earth to Jason."</li><li>"<em>Hello</em>? You're the one who said you didn't want it," she snapped.</li><li>He knocked twice and pushed the door open. "<em>Hello</em>? Dr. Reyes?"</li></ol>
+<p><strong>See also:</strong> <a href="#hey">hey</a>, <a href="#yoo-hoo">yoo-hoo</a>, <a href="#look-alive">look alive</a>, <a href="#psst">psst</a></p>
+<h3 id="hey">hey<a class="hash" href="#hey" aria-label="link">#</a></h3>
+<p><strong>Pronunciation:</strong> /heɪ/ &middot; <em>HAY</em> <strong>Type:</strong> primary &middot; <strong>Register:</strong> informal <strong>Variants:</strong> <em>heyyy</em>, <em>hey there</em>, <em>ay</em></p>
+<p>The default American attention-getter, and a casual greeting besides. Said sharply it is a protest — "Hey! That's mine" — and drawn out it is warm and friendly. It is fine with friends, coworkers, and strangers on the street, but it is too casual for addressing a stranger in a formal setting, where <em>excuse me</em> is the safe choice.</p>
+<ol><li>"<em>Hey</em>, do you have a second?"</li><li><em>Hey</em>! That's my parking spot — I was waiting for it.</li><li>"<em>Hey</em>, over here!" she yelled, waving both arms.</li><li><em>Hey</em>, thanks for covering my shift last night.</li><li>He tapped on the driver's window. "<em>Hey</em>, your lights are still on."</li></ol>
+<p><strong>See also:</strong> <a href="#yo">yo</a>, <a href="#psst">psst</a>, <a href="#look">look</a>, <a href="#excuse-me">excuse me</a>, <a href="#hello">hello?</a></p>
+<h3 id="listen">listen<a class="hash" href="#listen" aria-label="link">#</a></h3>
+<p><strong>Pronunciation:</strong> /ˈlɪsən/ &middot; <em>LIS-uhn</em> <strong>Type:</strong> secondary &middot; <strong>Register:</strong> neutral <strong>Variants:</strong> <em>listen here</em>, <em>now listen</em></p>
+<p>A verb used as a conversational flag: what follows is important, or blunt, or both. It often carries a note of "stop arguing and take this in," and it is the softest way in English to announce that you are about to be direct.</p>
+<ol><li>"<em>Listen</em>, I'm going to be straight with you: we can't afford it."</li><li><em>Listen</em>, if you need to leave early, just say so.</li><li>"<em>Listen</em> to me. You did nothing wrong."</li><li><em>Listen</em>, I know you're upset, but yelling isn't going to help.</li><li>"Okay, <em>listen</em>," the coach said. "Here's the plan for the second half."</li></ol>
+<p><strong>See also:</strong> <a href="#look">look</a>, <a href="#listen-up">listen up</a>, <a href="#look-here">look here</a>, <a href="#hey">hey</a></p>
+<h3 id="listen-up">listen up<a class="hash" href="#listen-up" aria-label="link">#</a></h3>
+<p><strong>Pronunciation:</strong> /ˌlɪsən ˈʌp/ &middot; <em>lis-uhn UP</em> <strong>Type:</strong> phrase &middot; <strong>Register:</strong> informal <strong>Variants:</strong> <em>listen up, everybody</em></p>
+<p>A command to a whole group to stop talking and pay attention. Coaches, sergeants, and shift managers use it constantly; from a peer with no authority it sounds bossy.</p>
+<ol><li>"<em>Listen up</em>, everybody — the bus leaves at seven sharp."</li><li><em>Listen up</em>! I'm only going to explain this once.</li><li>The coach clapped twice. "<em>Listen up</em>. We're changing the lineup."</li><li>"All right, <em>listen up</em>," the nurse said to the room. "Visiting hours end at eight."</li><li><em>Listen up</em>, folks, because this part is going to be on the test.</li></ol>
+<p><strong>See also:</strong> <a href="#listen">listen</a>, <a href="#attention">attention</a>, <a href="#pay-attention">pay attention</a>, <a href="#heads-up">heads up</a>, <a href="#quiet">quiet</a></p>
+<h3 id="lo-and-behold">lo and behold<a class="hash" href="#lo-and-behold" aria-label="link">#</a></h3>
+<p><strong>Pronunciation:</strong> /ˌloʊ ən bɪˈhoʊld/ &middot; <em>loh-uhn-bih-HOHLD</em> <strong>Type:</strong> phrase &middot; <strong>Register:</strong> informal <strong>Variants:</strong> <em>lo</em></p>
+<p>A set phrase, always at least slightly tongue-in-cheek, introducing a result that was predictable, ironic, or suspiciously convenient. The bare <em>lo</em> survives only in scripture and in parody of it.</p>
+<ol><li>I checked the fridge again and, <em>lo and behold</em>, the leftovers were gone.</li><li>He swore he'd never come back, and then, <em>lo and behold</em>, there he was.</li><li>We unplugged the router, plugged it back in, and <em>lo and behold</em>, the internet worked.</li><li><em>Lo and behold</em>, the one day I forget my umbrella is the day it pours.</li><li>She dug through the couch cushions and — <em>lo and behold</em> — there were her keys.</li></ol>
+<p><strong>See also:</strong> <a href="#behold">behold</a>, <a href="#get-this">get this</a>, <a href="#guess-what">guess what</a>, <a href="#hark">hark</a></p>
+<h3 id="look">look<a class="hash" href="#look" aria-label="link">#</a></h3>
+<p><strong>Pronunciation:</strong> /lʊk/ &middot; <em>LUUK</em> <strong>Type:</strong> secondary &middot; <strong>Register:</strong> neutral <strong>Variants:</strong> <em>look now</em>, <em>lookit</em></p>
+<p>Like <em>listen</em>, a verb repurposed as a flag before a blunt or final statement. It usually carries a trace of impatience: the speaker is done going in circles and is about to say the plain thing.</p>
+<ol><li>"<em>Look</em>, I don't have time to argue about this."</li><li><em>Look</em>, if it doesn't work out, we'll figure something else out.</li><li>"<em>Look</em>, I'm sorry. I should have called."</li><li><em>Look</em>, all I'm saying is that we should read the contract first.</li><li>"<em>Look</em>, either you want the job or you don't."</li></ol>
+<p><strong>See also:</strong> <a href="#listen">listen</a>, <a href="#look-here">look here</a>, <a href="#now-see-here">now see here</a>, <a href="#check-it-out">check it out</a></p>
+<h3 id="look-alive">look alive<a class="hash" href="#look-alive" aria-label="link">#</a></h3>
+<p><strong>Pronunciation:</strong> /ˌlʊk əˈlaɪv/ &middot; <em>luuk uh-LYV</em> <strong>Type:</strong> phrase &middot; <strong>Register:</strong> informal <strong>Variants:</strong> <em>look sharp</em></p>
+<p>A shout telling someone to snap out of a daze and get ready, usually because something is about to come at them. It lives on ball fields, loading docks, and busy restaurant lines.</p>
+<ol><li>"<em>Look alive</em>, Martinez!" the coach yelled as the ball came off the bat.</li><li><em>Look alive</em>, people — the health inspector just pulled into the lot.</li><li>He snapped his fingers. "<em>Look alive</em>. Customers."</li><li>"<em>Look alive</em> up there!" the foreman called to the crew on the scaffolding.</li><li>"<em>Look alive</em>," the lifeguard said to the guard on the next chair. "Kid in the deep end."</li></ol>
+<p><strong>See also:</strong> <a href="#heads-up">heads up</a>, <a href="#hello">hello?</a>, <a href="#listen-up">listen up</a>, <a href="#chop-chop">chop chop</a></p>
+<h3 id="look-here">look here<a class="hash" href="#look-here" aria-label="link">#</a></h3>
+<p><strong>Pronunciation:</strong> /ˌlʊk ˈhɪr/ &middot; <em>luuk HEER</em> <strong>Type:</strong> phrase &middot; <strong>Register:</strong> dated <strong>Variants:</strong> <em>see here</em>, <em>look-a-here</em></p>
+<p>An old-fashioned opener for a scolding or a challenge. It is confrontational, and to modern ears it sounds like a man in a black-and-white movie about to lose his temper.</p>
+<ol><li>"<em>Look here</em>, young man, that is no way to speak to your mother."</li><li><em>Look here</em> — I've been a customer for twenty years and I expect better.</li><li>"Now <em>look here</em>, nobody said anything about paying extra."</li><li>He jabbed a finger at the survey stake. "<em>Look here</em>, that fence is six feet onto my property."</li><li>"<em>Look here</em>," the old man said, "you'll do it my way or not at all."</li></ol>
+<p><strong>See also:</strong> <a href="#now-see-here">now see here</a>, <a href="#look">look</a>, <a href="#listen">listen</a></p>
+<h3 id="now-see-here">now see here<a class="hash" href="#now-see-here" aria-label="link">#</a></h3>
+<p><strong>Pronunciation:</strong> /ˌnaʊ ˌsi ˈhɪr/ &middot; <em>now see HEER</em> <strong>Type:</strong> phrase &middot; <strong>Register:</strong> dated <strong>Variants:</strong> <em>see here</em></p>
+<p>The same indignant opener as <em>look here</em>, one degree stuffier. It announces that the speaker is about to lay down the law, and in current American speech it is almost always a parody of an outraged older man.</p>
+<ol><li>"<em>Now see here</em>, I will not be spoken to that way."</li><li><em>Now see here</em>, sir — this is a private club.</li><li>"<em>Now see here</em>, young lady, you are not going out dressed like that."</li><li>He stood up, red-faced. "<em>Now see here</em>! That's my chair."</li><li>"<em>Now see here</em>," the principal said, "we take these things very seriously."</li></ol>
+<p><strong>See also:</strong> <a href="#look-here">look here</a>, <a href="#look">look</a>, <a href="#listen">listen</a></p>
+<h3 id="oyez">oyez<a class="hash" href="#oyez" aria-label="link">#</a></h3>
+<p><strong>Pronunciation:</strong> /oʊˈjeɪ/ &middot; <em>oh-YAY (also /oʊˈji/, oh-YEE, and /oʊˈjɛz/, oh-YEZ)</em> <strong>Type:</strong> primary &middot; <strong>Register:</strong> formal <strong>Variants:</strong> <em>oyes</em></p>
+<p>The bailiff's ceremonial cry that opens a court session, from Anglo-French for "hear!" In American life it appears almost only at the opening of the Supreme Court and at Renaissance fairs, and it is traditionally called three times.</p>
+<ol><li>"<em>Oyez</em>! <em>Oyez</em>! <em>Oyez</em>! All persons having business before the Honorable Court are admonished to draw near."</li><li>The marshal's <em>oyez</em> is nearly word for word the one used two hundred years ago.</li><li>"<em>Oyez</em>, <em>oyez</em>!" the costumed crier called across the fairgrounds.</li><li>Court opened with the traditional <em>oyez</em> and everyone rose.</li><li>The fourth graders opened their mock trial with a shaky "<em>Oyez</em>, <em>oyez</em>."</li></ol>
+<p><strong>See also:</strong> <a href="#hear-ye">hear ye</a>, <a href="#order">order</a>, <a href="#silence">silence</a>, <a href="#attention">attention</a></p>
+<h3 id="pardon-me">pardon me<a class="hash" href="#pardon-me" aria-label="link">#</a></h3>
+<p><strong>Pronunciation:</strong> /ˈpɑrdən ˌmi/ &middot; <em>PAR-duhn mee</em> <strong>Type:</strong> phrase &middot; <strong>Register:</strong> formal <strong>Variants:</strong> <em>pardon</em>, <em>pardon?</em>, <em>I beg your pardon</em></p>
+<p>A more formal cousin of <em>excuse me</em>: it apologizes for a small intrusion, asks permission to squeeze past, or — as a bare "Pardon?" — asks someone to repeat what they said. "I beg your pardon," delivered with a falling, icy stress, is not an apology at all but a rebuke.</p>
+<ol><li>"<em>Pardon me</em>, is this seat taken?"</li><li><em>Pardon me</em> — I need to get to the aisle.</li><li>"<em>Pardon</em>?" she said, leaning in. "The music's too loud."</li><li>He stepped on my foot and murmured, "<em>Pardon me</em>."</li><li>"I beg your <em>pardon</em>," my grandmother said icily. "I was speaking."</li><li><em>Pardon me</em> for asking, but how much did that thing cost?</li></ol>
+<p><strong>See also:</strong> <a href="#excuse-me">excuse me</a>, <a href="#coming-through">coming through</a>, <a href="#after-you">after you</a>, <a href="#one-moment">one moment</a></p>
+<h3 id="pay-attention">pay attention<a class="hash" href="#pay-attention" aria-label="link">#</a></h3>
+<p><strong>Pronunciation:</strong> /ˌpeɪ əˈtɛnʃən/ &middot; <em>pay uh-TEN-shun</em> <strong>Type:</strong> phrase &middot; <strong>Register:</strong> neutral <strong>Variants:</strong> <em>pay attention now</em></p>
+<p>A direct order to focus, aimed at somebody whose mind has visibly wandered. Teachers, coaches, and driving instructors say it a hundred times a day; between adult peers it is condescending, because it announces out loud that you think the other person was not listening.</p>
+<ol><li>"<em>Pay attention</em>. This part is going to be on the test."</li><li><em>Pay attention</em> — our exit is right after the second light.</li><li>"Eyes up here, <em>pay attention</em>," the instructor said, tapping the whiteboard.</li><li>She snapped her fingers in front of the screen. "<em>Pay attention</em>."</li><li><em>Pay attention</em> to how she does it, because you're up next.</li></ol>
+<p><strong>See also:</strong> <a href="#listen">listen</a>, <a href="#listen-up">listen up</a>, <a href="#look-alive">look alive</a>, <a href="#hey">hey</a></p>
+<h3 id="psst">psst<a class="hash" href="#psst" aria-label="link">#</a></h3>
+<p><strong>Pronunciation:</strong> /pst/ &middot; <em>pssst — no vowel at all, just p-s-s-t hissed through the teeth</em> <strong>Type:</strong> primary &middot; <strong>Register:</strong> informal <strong>Variants:</strong> <em>pst</em>, <em>psssst</em></p>
+<p>A low hiss aimed at exactly one person so that nobody else notices. It always carries a whiff of secrecy: come here, look at this, or you have spinach in your teeth.</p>
+<ol><li>"<em>Psst</em>! Over here — I saved you a seat."</li><li><em>Psst</em> — your fly is down.</li><li>She leaned across the aisle. "<em>Psst</em>, what page are we on?"</li><li>"<em>Psst</em>!" he whispered from the doorway. "Is she gone yet?"</li><li><em>Psst</em>, don't tell anybody, but there's cake in the break room.</li></ol>
+<p><strong>See also:</strong> <a href="#ahem">ahem</a>, <a href="#hey">hey</a>, <a href="#yoo-hoo">yoo-hoo</a>, <a href="#shh">shh</a></p>
+<h3 id="say">say<a class="hash" href="#say" aria-label="link">#</a></h3>
+<p><strong>Pronunciation:</strong> /seɪ/ &middot; <em>SAY</em> <strong>Type:</strong> secondary &middot; <strong>Register:</strong> dated <strong>Variants:</strong> <em>say there</em>, <em>I say</em></p>
+<p>A mid-century opener that flags down a stranger or floats a thought that just occurred to you: "Say, don't I know you from somewhere?" Nobody under sixty uses it straight anymore, so from a younger speaker it reads as a period impression. <em>I say</em> is the British cousin and sounds it.</p>
+<ol><li>"<em>Say</em>, aren't you Marjorie's brother?"</li><li><em>Say</em>, that reminds me — did you ever hear back about the house?</li><li>"<em>Say</em>, buddy, you dropped your glove."</li><li>He looked up from the paper. "<em>Say</em>, what time does the game start?"</li><li><em>Say</em>, that's a good-looking bike.</li></ol>
+<p><strong>See also:</strong> <a href="#hey">hey</a>, <a href="#excuse-me">excuse me</a>, <a href="#hark">hark</a>, <a href="#now-see-here">now see here</a></p>
+<h3 id="yo">yo<a class="hash" href="#yo" aria-label="link">#</a></h3>
+<p><strong>Pronunciation:</strong> /joʊ/ &middot; <em>YOH</em> <strong>Type:</strong> primary &middot; <strong>Register:</strong> very informal <strong>Variants:</strong> <em>ayo</em>, <em>yo yo</em></p>
+<p>A blunt call for attention and a casual greeting, strongly associated with urban American speech, hip-hop, and young men. It is friendly among peers and abrasive aimed at a stranger, a customer, or a boss.</p>
+<ol><li>"<em>Yo</em>! Wait up!"</li><li><em>Yo</em>, is this your backpack?</li><li>He stuck his head in the door. "<em>Yo</em>, we're leaving in five."</li><li>"<em>Yo</em>, Marcus — check your phone."</li><li><em>Yo</em>, that was the best game I've seen all season.</li></ol>
+<p><strong>See also:</strong> <a href="#hey">hey</a>, <a href="#psst">psst</a>, <a href="#hello">hello?</a></p>
+<h3 id="yoo-hoo">yoo-hoo<a class="hash" href="#yoo-hoo" aria-label="link">#</a></h3>
+<p><strong>Pronunciation:</strong> /ˈju ˌhu/ &middot; <em>YOO-hoo</em> <strong>Type:</strong> primary &middot; <strong>Register:</strong> informal <strong>Variants:</strong> <em>yoohoo</em>, <em>yoo hoo</em></p>
+<p>A sing-song, two-note call used to reach someone at a distance or to snap someone out of a daydream. It sounds friendly and a little old-fashioned; aimed at an adult who is ignoring you, it is openly mocking.</p>
+<ol><li>"<em>Yoo-hoo</em>! Over here, honey!" she called across the parking lot.</li><li><em>Yoo-hoo</em> — anybody home?</li><li>"<em>Yoo-hoo</em>, up here!" she called down from the second-floor window.</li><li>"<em>Yoo-hoo</em>, Mrs. Petrelli!" the neighbor called over the fence.</li><li>He knocked on the open door. "<em>Yoo-hoo</em>. Room service."</li></ol>
+<p><strong>See also:</strong> <a href="#hello">hello?</a>, <a href="#psst">psst</a>, <a href="#hey">hey</a></p>
+<h2 id="flagging-what-comes-next">Flagging what comes next<a class="hash" href="#flagging-what-comes-next" aria-label="link">#</a></h2>
+<h3 id="check-it-out">check it out<a class="hash" href="#check-it-out" aria-label="link">#</a></h3>
+<p><strong>Pronunciation:</strong> /ˌtʃɛk ɪt ˈaʊt/ &middot; <em>chek it OWT</em> <strong>Type:</strong> phrase &middot; <strong>Register:</strong> informal <strong>Variants:</strong> <em>check this out</em>, <em>check that out</em></p>
+<p>An invitation to look at or try something the speaker thinks is genuinely cool. It points at a thing you can see or hold, not at an idea.</p>
+<ol><li>"<em>Check it out</em> — I found this record at a garage sale for a dollar."</li><li><em>Check it out</em>, they finally opened that taco place on Fifth.</li><li>"<em>Check this out</em>," he said, holding up his phone.</li><li><em>Check it out</em>: the whole thing folds down into a backpack.</li><li>She spun around in the dress. "<em>Check it out</em>. Twelve bucks."</li></ol>
+<p><strong>See also:</strong> <a href="#get-a-load-of-this">get a load of this</a>, <a href="#get-this">get this</a>, <a href="#look">look</a>, <a href="#behold">behold</a></p>
+<h3 id="get-a-load-of-this">get a load of this<a class="hash" href="#get-a-load-of-this" aria-label="link">#</a></h3>
+<p><strong>Pronunciation:</strong> /ˌɡɛt ə ˈloʊd əv ˌðɪs/ &middot; <em>get uh LOHD uhv this</em> <strong>Type:</strong> phrase &middot; <strong>Register:</strong> informal <strong>Variants:</strong> <em>get a load of that</em>, <em>get a load of this guy</em></p>
+<p>A nudge to look at something ridiculous, outrageous, or hard to believe. Unlike <em>check it out</em>, it almost always carries mockery or indignation.</p>
+<ol><li>"<em>Get a load of this</em> — they're charging nine dollars for a cup of coffee."</li><li><em>Get a load of this guy</em>, parked across two spaces.</li><li>He waved the letter. "<em>Get a load of this</em>. They denied the claim again."</li><li><em>Get a load of that</em> sunset.</li><li>"<em>Get a load of this</em>," she said, reading the email out loud in a fake executive voice.</li></ol>
+<p><strong>See also:</strong> <a href="#check-it-out">check it out</a>, <a href="#get-this">get this</a>, <a href="#guess-what">guess what</a></p>
+<h3 id="get-this">get this<a class="hash" href="#get-this" aria-label="link">#</a></h3>
+<p><strong>Pronunciation:</strong> /ˈɡɛt ðɪs/ &middot; <em>GET this</em> <strong>Type:</strong> phrase &middot; <strong>Register:</strong> informal <strong>Variants:</strong> <em>and get this</em></p>
+<p>A storyteller's flag dropped into the middle of an anecdote, right before the surprising part. It means "wait until you hear what comes next."</p>
+<ol><li>So I called the bank, and — <em>get this</em> — they'd closed the wrong account.</li><li>"He showed up two hours late, and <em>get this</em>, he asked me to pay for parking."</li><li><em>Get this</em>: the flight was delayed, rebooked, and then delayed again.</li><li>They fixed the whole thing in one day, and <em>get this</em>, they didn't charge us.</li><li>And <em>get this</em> — she'd known the entire time and never said a word.</li></ol>
+<p><strong>See also:</strong> <a href="#guess-what">guess what</a>, <a href="#get-a-load-of-this">get a load of this</a>, <a href="#lo-and-behold">lo and behold</a></p>
+<h3 id="guess-what">guess what<a class="hash" href="#guess-what" aria-label="link">#</a></h3>
+<p><strong>Pronunciation:</strong> /ˌɡɛs ˈwʌt/ &middot; <em>ges WUT</em> <strong>Type:</strong> phrase &middot; <strong>Register:</strong> informal <strong>Variants:</strong> <em>guess what?</em>, <em>you'll never guess</em></p>
+<p>An opener designed to make the listener say "what?" before you deliver your news. Children use it literally; adults use it as a wind-up, and sometimes sarcastically, right before an "I told you so."</p>
+<ol><li>"<em>Guess what</em>! I got the apartment!"</li><li><em>Guess what</em> — we're going to Chicago for Thanksgiving.</li><li>"Mom, <em>guess what</em>, I lost a tooth!"</li><li>You told him not to touch it, and <em>guess what</em>, he touched it.</li><li><em>Guess what</em>? The dryer broke again.</li></ol>
+<p><strong>See also:</strong> <a href="#get-this">get this</a>, <a href="#get-a-load-of-this">get a load of this</a>, <a href="#heads-up">heads up</a></p>
+<h3 id="heads-up">heads up<a class="hash" href="#heads-up" aria-label="link">#</a></h3>
+<p><strong>Pronunciation:</strong> /ˌhɛdz ˈʌp/ &middot; <em>hedz UP</em> <strong>Type:</strong> phrase &middot; <strong>Register:</strong> neutral <strong>Variants:</strong> <em>heads-up</em>, <em>head's up</em></p>
+<p>Two jobs. Shouted, it warns that something is flying at you and you should look now. In conversation and email it means advance notice — flagging something before it lands on someone.</p>
+<ol><li>"<em>Heads up</em>!" someone yelled, and a foul ball landed two rows behind us.</li><li>Just a <em>heads up</em> — the meeting moved to two o'clock.</li><li>"<em>Heads up</em>, the boss is walking this way."</li><li><em>Heads up</em>, everybody, there's construction on Route 9 this morning.</li><li>Thanks for the <em>heads up</em> about the parking situation.</li></ol>
+<p><strong>See also:</strong> <a href="#look-alive">look alive</a>, <a href="#listen-up">listen up</a>, <a href="#gangway">gangway</a>, <a href="#guess-what">guess what</a></p>
+<h3 id="wait-for-it">wait for it<a class="hash" href="#wait-for-it" aria-label="link">#</a></h3>
+<p><strong>Pronunciation:</strong> /ˌweɪt fər ˈɪt/ &middot; <em>wayt fer IT</em> <strong>Type:</strong> phrase &middot; <strong>Register:</strong> informal</p>
+<p>A comic's setup line, dropped in one beat before the punchline or the reveal so the listener holds still for it. It is deliberately theatrical, and it only works if the payoff actually lands.</p>
+<ol><li>"They fixed it in an hour and charged us — <em>wait for it</em> — nine hundred dollars."</li><li><em>Wait for it</em>. Any second now the dog is going to notice the cat.</li><li>"And the winner is — <em>wait for it</em> — the intern."</li><li>He held up one finger. "<em>Wait for it</em>."</li><li>She got the job, the apartment, and, <em>wait for it</em>, a company car.</li></ol>
+<p><strong>See also:</strong> <a href="#get-this">get this</a>, <a href="#get-a-load-of-this">get a load of this</a>, <a href="#guess-what">guess what</a>, <a href="#check-it-out">check it out</a></p>
+<h3 id="watch-this">watch this<a class="hash" href="#watch-this" aria-label="link">#</a></h3>
+<p><strong>Pronunciation:</strong> /ˌwɑtʃ ˈðɪs/ &middot; <em>wotch THIS</em> <strong>Type:</strong> phrase &middot; <strong>Register:</strong> informal <strong>Variants:</strong> <em>watch</em>, <em>watch me</em></p>
+<p>The announcement before a stunt, a trick, or a demonstration — the speaker is about to do something and wants an audience for it. Coming from a kid on a diving board or a cousin holding a lighter, it is famously the last thing said before something goes wrong.</p>
+<ol><li>"<em>Watch this</em>!" he yelled from the end of the diving board.</li><li><em>Watch this</em> — if you hold the button down, the whole thing resets.</li><li>She lined up the shot. "<em>Watch this</em>."</li><li>"<em>Watch this</em>," my nephew said, and rode straight into the hedge.</li><li><em>Watch this</em>, and then tell me you can't hear the difference.</li></ol>
+<p><strong>See also:</strong> <a href="#check-it-out">check it out</a>, <a href="#get-a-load-of-this">get a load of this</a>, <a href="#look">look</a>, <a href="#behold">behold</a></p>
+<h2 id="calling-for-silence">Calling for silence<a class="hash" href="#calling-for-silence" aria-label="link">#</a></h2>
+<h3 id="button-it">button it<a class="hash" href="#button-it" aria-label="link">#</a></h3>
+<p><strong>Pronunciation:</strong> /ˈbʌtən ɪt/ &middot; <em>BUT-uhn it</em> <strong>Type:</strong> phrase &middot; <strong>Register:</strong> very informal <strong>Variants:</strong> <em>button your lip</em>, <em>button up</em></p>
+<p>A rude order to stop talking — milder and more old-fashioned than <em>shut up</em>, but still an insult unless you are clearly joking with someone you know well.</p>
+<ol><li>"<em>Button it</em>, both of you. I'm trying to drive."</li><li><em>Button it</em> — here she comes.</li><li>"You want to keep this job? <em>Button it</em>."</li><li>I opened my mouth and my sister mouthed "<em>button it</em>" from across the table.</li><li>"<em>Button your lip</em>," his brother hissed, "or Dad's going to hear."</li></ol>
+<p><strong>See also:</strong> <a href="#zip-it">zip it</a>, <a href="#can-it">can it</a>, <a href="#put-a-sock-in-it">put a sock in it</a>, <a href="#shut-up">shut up</a></p>
+<h3 id="can-it">can it<a class="hash" href="#can-it" aria-label="link">#</a></h3>
+<p><strong>Pronunciation:</strong> /ˈkæn ɪt/ &middot; <em>KAN it</em> <strong>Type:</strong> phrase &middot; <strong>Register:</strong> very informal</p>
+<p>A brusque "stop talking" or "stop doing that," with the flavor of an old movie or an irritated uncle. It is dismissive, and it stings coming from anyone who outranks you.</p>
+<ol><li>"<em>Can it</em>, Wilson. Nobody asked."</li><li><em>Can it</em>, you two — I can hear you from the kitchen.</li><li>"<em>Can it</em> with the sound effects," she said.</li><li>"<em>Can it</em> and eat," my father said, and that was the end of the discussion.</li><li>"<em>Can it</em>!" he snapped, and the laughing stopped.</li></ol>
+<p><strong>See also:</strong> <a href="#button-it">button it</a>, <a href="#zip-it">zip it</a>, <a href="#knock-it-off">knock it off</a>, <a href="#pipe-down">pipe down</a></p>
+<h3 id="hold-your-tongue">hold your tongue<a class="hash" href="#hold-your-tongue" aria-label="link">#</a></h3>
+<p><strong>Pronunciation:</strong> /ˌhoʊld jər ˈtʌŋ/ &middot; <em>hohld yer TUNG</em> <strong>Type:</strong> phrase &middot; <strong>Register:</strong> dated <strong>Variants:</strong> <em>watch your tongue</em>, <em>hold your peace</em></p>
+<p>A stern, old-fashioned order to stop speaking, with real authority behind it — a parent, a judge, a commanding officer. Said today it lands as either genuinely severe or costume-drama, with very little in between. Do not confuse it with <em>bite your tongue</em>, which means "don't jinx it."</p>
+<ol><li>"<em>Hold your tongue</em> until you're spoken to."</li><li><em>Hold your tongue</em>, sir. You are addressing the court.</li><li>She wanted to argue the point, but she held her tongue.</li><li>"You will <em>hold your tongue</em> in this house," his father said.</li><li>I held my tongue for about four seconds and then said it anyway.</li></ol>
+<p><strong>See also:</strong> <a href="#not-a-word">not a word</a>, <a href="#quiet">quiet</a>, <a href="#silence">silence</a>, <a href="#save-it">save it</a></p>
+<h3 id="hush">hush<a class="hash" href="#hush" aria-label="link">#</a></h3>
+<p><strong>Pronunciation:</strong> /hʌʃ/ &middot; <em>HUSH</em> <strong>Type:</strong> primary &middot; <strong>Register:</strong> informal <strong>Variants:</strong> <em>hush up</em>, <em>hush now</em>, <em>hushabye</em></p>
+<p>A gentle "be quiet," used with children, with someone who is crying, or when you need to hear something. <em>Hush up</em> is the sharper, Southern-flavored version and is a genuine reprimand.</p>
+<ol><li>"<em>Hush</em>, baby, it's just thunder."</li><li><em>Hush</em> now and let Grandpa finish his story.</li><li>"<em>Hush</em>!" she whispered. "Somebody's in the hallway."</li><li>He took her hand. "<em>Hush</em>. You don't have to explain anything."</li><li>"You <em>hush up</em> and eat your dinner," Grandma said.</li></ol>
+<p><strong>See also:</strong> <a href="#shh">shh</a>, <a href="#shush">shush</a>, <a href="#quiet">quiet</a>, <a href="#keep-it-down">keep it down</a></p>
+<h3 id="keep-it-down">keep it down<a class="hash" href="#keep-it-down" aria-label="link">#</a></h3>
+<p><strong>Pronunciation:</strong> /ˌkip ɪt ˈdaʊn/ &middot; <em>keep it DOWN</em> <strong>Type:</strong> phrase &middot; <strong>Register:</strong> informal <strong>Variants:</strong> <em>keep the noise down</em></p>
+<p>Not "be silent" but "be quieter." It is what you say through a wall, in a movie theater, or to kids who are supposed to be asleep.</p>
+<ol><li>"Hey, <em>keep it down</em> in there! Some of us are trying to sleep."</li><li>Could you guys <em>keep it down</em>? I'm on a call.</li><li>"<em>Keep it down</em>," the librarian said without looking up.</li><li><em>Keep it down</em> — the baby just went down for a nap.</li><li>He banged on the ceiling with a broom handle to tell them to <em>keep it down</em>.</li></ol>
+<p><strong>See also:</strong> <a href="#quiet">quiet</a>, <a href="#pipe-down">pipe down</a>, <a href="#shh">shh</a>, <a href="#hush">hush</a></p>
+<h3 id="mums-the-word">mum's the word<a class="hash" href="#mums-the-word" aria-label="link">#</a></h3>
+<p><strong>Pronunciation:</strong> /ˌmʌmz ðə ˈwɜrd/ &middot; <em>mumz thuh WURD</em> <strong>Type:</strong> phrase &middot; <strong>Register:</strong> informal <strong>Variants:</strong> <em>mum</em></p>
+<p>A promise — or a request — that something stays secret. It is most often the reply when someone has just told you not to tell anybody.</p>
+<ol><li>"Don't say anything to Dana about the party." — "<em>Mum's the word</em>."</li><li><em>Mum's the word</em> on the promotion until it's official.</li><li>He winked. "<em>Mum's the word</em>, boss."</li><li>We're telling the family on Sunday, so until then, <em>mum's the word</em>.</li><li>"<em>Mum's the word</em>," she said, miming a zipper across her lips.</li></ol>
+<p><strong>See also:</strong> <a href="#not-a-word">not a word</a>, <a href="#zip-it">zip it</a>, <a href="#shh">shh</a></p>
+<h3 id="not-a-word">not a word<a class="hash" href="#not-a-word" aria-label="link">#</a></h3>
+<p><strong>Pronunciation:</strong> /ˌnɑt ə ˈwɜrd/ &middot; <em>not uh WURD</em> <strong>Type:</strong> phrase &middot; <strong>Register:</strong> neutral <strong>Variants:</strong> <em>not one word</em>, <em>not another word</em></p>
+<p>An order to say nothing at all — either right this second, or to anyone, ever. Said quietly it is far more menacing than shouting.</p>
+<ol><li>"<em>Not a word</em> to your mother about this, understand?"</li><li><em>Not a word</em> — just let him finish.</li><li>She held up one finger. "<em>Not a word</em>."</li><li>"<em>Not a word</em> of this leaves the room," the lawyer said.</li><li><em>Not a word</em> out of either of you until we get home.</li></ol>
+<p><strong>See also:</strong> <a href="#mums-the-word">mum's the word</a>, <a href="#zip-it">zip it</a>, <a href="#quiet">quiet</a>, <a href="#hush">hush</a></p>
+<h3 id="order">order<a class="hash" href="#order" aria-label="link">#</a></h3>
+<p><strong>Pronunciation:</strong> /ˈɔrdər/ &middot; <em>OR-der</em> <strong>Type:</strong> secondary &middot; <strong>Register:</strong> formal <strong>Variants:</strong> <em>order in the court</em>, <em>order, please</em></p>
+<p>The presiding officer's call for a noisy room to fall silent and get back to business. Outside courtrooms and formal meetings, Americans use it only as a joke about a chaotic dinner table.</p>
+<ol><li>"<em>Order</em>! <em>Order</em> in the court!" the judge said, banging the gavel.</li><li>The chair rapped the table. "<em>Order</em>, please. We have a motion on the floor."</li><li>"<em>Order</em>!" she called over the noise. "One person at a time."</li><li><em>Order</em>, everyone — we have twenty minutes and six items to get through.</li><li>My mother tapped her glass and said, "<em>Order</em>, please," and five kids kept yelling anyway.</li></ol>
+<p><strong>See also:</strong> <a href="#silence">silence</a>, <a href="#quiet">quiet</a>, <a href="#attention">attention</a>, <a href="#hear-ye">hear ye</a></p>
+<h3 id="pipe-down">pipe down<a class="hash" href="#pipe-down" aria-label="link">#</a></h3>
+<p><strong>Pronunciation:</strong> /ˌpaɪp ˈdaʊn/ &middot; <em>pyp DOWN</em> <strong>Type:</strong> phrase &middot; <strong>Register:</strong> informal</p>
+<p>Tells a noisy person or group to quiet down, in a cranky, old-school tone. It is what an adult says to rowdy kids, or a coach to a loud bench — never what you say to your boss.</p>
+<ol><li>"<em>Pipe down</em> back there! I can't hear the radio."</li><li><em>Pipe down</em>, everybody, she's about to make a toast.</li><li>"You two <em>pipe down</em> and go to sleep."</li><li>The bus driver told the whole back row to <em>pipe down</em>.</li><li><em>Pipe down</em> — this is a library, not a cafeteria.</li></ol>
+<p><strong>See also:</strong> <a href="#keep-it-down">keep it down</a>, <a href="#quiet">quiet</a>, <a href="#settle-down">settle down</a>, <a href="#hush">hush</a></p>
+<h3 id="put-a-sock-in-it">put a sock in it<a class="hash" href="#put-a-sock-in-it" aria-label="link">#</a></h3>
+<p><strong>Pronunciation:</strong> /ˌpʊt ə ˈsɑk ɪn ɪt/ &middot; <em>puut uh SOK in it</em> <strong>Type:</strong> phrase &middot; <strong>Register:</strong> very informal</p>
+<p>A jokey but genuinely rude way to tell someone to shut up. It works between friends and lands badly everywhere else.</p>
+<ol><li>"<em>Put a sock in it</em>, Kevin. Nobody thinks you're funny."</li><li><em>Put a sock in it</em> and let the man finish a sentence.</li><li>"Would you two <em>put a sock in it</em> for five minutes?"</li><li>Three innings of his opinions on the bullpen and I finally told him to <em>put a sock in it</em>.</li><li>"<em>Put a sock in it</em>!" somebody shouted from the back of the theater.</li></ol>
+<p><strong>See also:</strong> <a href="#zip-it">zip it</a>, <a href="#shut-up">shut up</a>, <a href="#can-it">can it</a>, <a href="#button-it">button it</a></p>
+<h3 id="quiet">quiet<a class="hash" href="#quiet" aria-label="link">#</a></h3>
+<p><strong>Pronunciation:</strong> /ˈkwaɪət/ &middot; <em>KWY-uht</em> <strong>Type:</strong> secondary &middot; <strong>Register:</strong> neutral <strong>Variants:</strong> <em>quiet down</em>, <em>quiet please</em>, <em>be quiet</em></p>
+<p>The plain command for silence. On its own it is sharp; softened with <em>please</em> or <em>down</em> it becomes the everyday version that teachers, ushers, and parents use all day long.</p>
+<ol><li>"<em>Quiet</em>, please. The test starts now."</li><li><em>Quiet</em> down, everybody — he's on the phone.</li><li>"<em>Quiet</em>!" the director shouted. "We're rolling."</li><li>Be <em>quiet</em> for one second and listen to me.</li><li>"<em>Quiet</em>," the guide whispered, "or you'll scare off every bird in the marsh."</li></ol>
+<p><strong>See also:</strong> <a href="#silence">silence</a>, <a href="#shh">shh</a>, <a href="#keep-it-down">keep it down</a>, <a href="#pipe-down">pipe down</a>, <a href="#settle-down">settle down</a></p>
+<h3 id="save-it">save it<a class="hash" href="#save-it" aria-label="link">#</a></h3>
+<p><strong>Pronunciation:</strong> /ˈseɪv ɪt/ &middot; <em>SAVE it</em> <strong>Type:</strong> phrase &middot; <strong>Register:</strong> informal <strong>Variants:</strong> <em>save your breath</em>, <em>save it for someone who cares</em></p>
+<p>Stop talking, because whatever is coming — an excuse, an apology, a sales pitch — is not going to work on me. It is dismissive by design and it stings, but it contains nothing profane, which is why it survives in offices where <em>shut up</em> would end a career.</p>
+<ol><li>"<em>Save it</em>. I already talked to your sister."</li><li><em>Save it</em> — I've heard this story twice this week.</li><li>He started to explain and she just said, "<em>Save it</em>."</li><li>"<em>Save your breath</em>. The decision came down this morning."</li><li><em>Save it</em> for the judge.</li></ol>
+<p><strong>See also:</strong> <a href="#not-a-word">not a word</a>, <a href="#drop-it">drop it</a>, <a href="#enough">enough</a>, <a href="#shut-up">shut up</a></p>
+<h3 id="shh">shh<a class="hash" href="#shh" aria-label="link">#</a></h3>
+<p><strong>Pronunciation:</strong> /ʃː/ &middot; <em>shhh — a long "sh" with no vowel in it</em> <strong>Type:</strong> primary &middot; <strong>Register:</strong> neutral <strong>Variants:</strong> <em>sh</em>, <em>shhh</em>, <em>ssh</em></p>
+<p>The universal hush sound, usually delivered with a finger against the lips. It asks for silence, and said softly and repeatedly it also comforts someone who is upset.</p>
+<ol><li>"<em>Shh</em>, they can hear us through the wall."</li><li><em>Shh</em> — the movie's starting.</li><li>She put a finger to her lips. "<em>Shh</em>."</li><li>"<em>Shhh</em>, it's okay, you're safe," he said, rocking the baby.</li><li>Somebody in the back row went "<em>shh</em>" and the whole theater quieted down.</li></ol>
+<p><strong>See also:</strong> <a href="#shush">shush</a>, <a href="#hush">hush</a>, <a href="#quiet">quiet</a>, <a href="#psst">psst</a></p>
+<h3 id="shush">shush<a class="hash" href="#shush" aria-label="link">#</a></h3>
+<p><strong>Pronunciation:</strong> /ʃʌʃ/ &middot; <em>SHUSH (also /ʃʊʃ/, SHUUSH)</em> <strong>Type:</strong> primary &middot; <strong>Register:</strong> informal <strong>Variants:</strong> <em>shush up</em></p>
+<p>A word-shaped version of <em>shh</em>, used both as the command and as a regular verb ("she shushed him"). It sounds softer and more familiar than a bare <em>shh</em>, and between friends it can be almost affectionate.</p>
+<ol><li>"<em>Shush</em>, I'm trying to hear the announcement."</li><li><em>Shush</em> — you'll wake your sister.</li><li>"Oh, <em>shush</em>," she laughed. "You love it."</li><li>Every time he started to explain, somebody <em>shushed</em> him.</li><li>"<em>Shush</em> now," the nurse said kindly. "Save your voice."</li></ol>
+<p><strong>See also:</strong> <a href="#shh">shh</a>, <a href="#hush">hush</a>, <a href="#quiet">quiet</a></p>
+<h3 id="shut-up">shut up<a class="hash" href="#shut-up" aria-label="link">#</a></h3>
+<p><strong>Pronunciation:</strong> /ˌʃʌt ˈʌp/ &middot; <em>shut UP</em> <strong>Type:</strong> phrase &middot; <strong>Register:</strong> very informal <strong>Variants:</strong> <em>shut it</em>, <em>shut your mouth</em>, <em>shaddap</em></p>
+<p>The blunt, hostile order to stop talking. It is genuinely offensive from a stranger and enough to start a fight; learners should treat it as off-limits at work. Among close friends it has a second, harmless life as an expression of delighted disbelief, roughly "no way!"</p>
+<ol><li>"<em>Shut up</em> and let her talk."</li><li>"You got engaged? <em>Shut up</em>! When?"</li><li>He told me to <em>shut up</em>, so I walked out.</li><li>"<em>Shut up</em>, I hear a car in the driveway."</li><li>"<em>Shut your mouth</em>," she said, and she was not joking.</li></ol>
+<p><strong>See also:</strong> <a href="#zip-it">zip it</a>, <a href="#put-a-sock-in-it">put a sock in it</a>, <a href="#can-it">can it</a>, <a href="#button-it">button it</a>, <a href="#save-it">save it</a></p>
+<h3 id="silence">silence<a class="hash" href="#silence" aria-label="link">#</a></h3>
+<p><strong>Pronunciation:</strong> /ˈsaɪləns/ &middot; <em>SY-luhns</em> <strong>Type:</strong> secondary &middot; <strong>Register:</strong> formal <strong>Variants:</strong> <em>silence, please</em></p>
+<p>A one-word command with institutional authority behind it — courtroom, church, concert hall, parade ground. From a peer it sounds theatrical, and that is usually the joke.</p>
+<ol><li>"<em>Silence</em> in the courtroom!"</li><li><em>Silence</em>, please. The ceremony is about to begin.</li><li>"<em>Silence</em>!" the conductor said, and the orchestra stopped mid-phrase.</li><li>"<em>Silence</em>, all of you," the abbot said quietly, and the hall went still.</li><li>The proctor didn't look up. "<em>Silence</em>. You have ninety minutes."</li></ol>
+<p><strong>See also:</strong> <a href="#quiet">quiet</a>, <a href="#order">order</a>, <a href="#shh">shh</a>, <a href="#hush">hush</a></p>
+<h3 id="zip-it">zip it<a class="hash" href="#zip-it" aria-label="link">#</a></h3>
+<p><strong>Pronunciation:</strong> /ˈzɪp ɪt/ &middot; <em>ZIP it</em> <strong>Type:</strong> phrase &middot; <strong>Register:</strong> very informal <strong>Variants:</strong> <em>zip your lip</em>, <em>zip it up</em></p>
+<p>A curt "stop talking," often paired with a zipping motion across the lips. Playful with kids and close friends; hostile with anyone else.</p>
+<ol><li>"<em>Zip it</em>. I don't want to hear another word about it."</li><li><em>Zip it</em>, both of you — here comes the teacher.</li><li>She drew a finger across her mouth. "<em>Zip it</em>."</li><li>"<em>Zip it</em>," the coach said, "and let the ref make the call."</li><li><em>Zip it</em> for two minutes and let me concentrate.</li></ol>
+<p><strong>See also:</strong> <a href="#button-it">button it</a>, <a href="#can-it">can it</a>, <a href="#put-a-sock-in-it">put a sock in it</a>, <a href="#shut-up">shut up</a>, <a href="#mums-the-word">mum's the word</a></p>
+<h2 id="stopping-waiting-and-holding-off">Stopping, waiting, and holding off<a class="hash" href="#stopping-waiting-and-holding-off" aria-label="link">#</a></h2>
+<h3 id="back-off">back off<a class="hash" href="#back-off" aria-label="link">#</a></h3>
+<p><strong>Pronunciation:</strong> /ˌbæk ˈɔf/ &middot; <em>bak AWF</em> <strong>Type:</strong> phrase &middot; <strong>Register:</strong> informal <strong>Variants:</strong> <em>back up</em>, <em>back away</em></p>
+<p>Tells someone to move away physically, or to stop pressuring you. Both senses are confrontational, and the physical one is a warning that something is about to happen.</p>
+<ol><li>"<em>Back off</em>! I'm warning you."</li><li><em>Back off</em>, man, I'm not looking for trouble.</li><li>"Tell your lawyer to <em>back off</em>," she said.</li><li><em>Back off</em> — he's had a rough week and doesn't need a lecture.</li><li>He put both hands up. "<em>Back off</em>, I'm going."</li></ol>
+<p><strong>See also:</strong> <a href="#lay-off">lay off</a>, <a href="#give-it-a-rest">give it a rest</a>, <a href="#easy">easy</a>, <a href="#step-aside">step aside</a></p>
+<h3 id="cut-it-out">cut it out<a class="hash" href="#cut-it-out" aria-label="link">#</a></h3>
+<p><strong>Pronunciation:</strong> /ˌkʌt ɪt ˈaʊt/ &middot; <em>kut it OWT</em> <strong>Type:</strong> phrase &middot; <strong>Register:</strong> informal <strong>Variants:</strong> <em>cut that out</em>, <em>cut it</em></p>
+<p>Tells somebody to stop doing something annoying. It is a shade more familiar than <em>knock it off</em> and is the standard American parent-to-kid line at the dinner table.</p>
+<ol><li>"<em>Cut it out</em>! That hurts."</li><li><em>Cut it out</em>, you two, or we're turning this car around.</li><li>"<em>Cut that out</em>," she said, pulling the cat off the counter.</li><li>He kept poking me until I told him to <em>cut it out</em>.</li><li>"<em>Cut it out</em> — I'm being serious."</li></ol>
+<p><strong>See also:</strong> <a href="#knock-it-off">knock it off</a>, <a href="#quit-it">quit it</a>, <a href="#stop">stop</a>, <a href="#enough">enough</a></p>
+<h3 id="drop-it">drop it<a class="hash" href="#drop-it" aria-label="link">#</a></h3>
+<p><strong>Pronunciation:</strong> /ˈdrɑp ɪt/ &middot; <em>DROP it</em> <strong>Type:</strong> phrase &middot; <strong>Register:</strong> informal <strong>Variants:</strong> <em>let it drop</em>, <em>drop the subject</em></p>
+<p>Stop bringing this subject up. With a hard edge it means the conversation is over and pushing further will start a fight. It is also, literally, what you say to a dog with your shoe in its mouth.</p>
+<ol><li>"<em>Drop it</em>, Ellen. I don't want to talk about it."</li><li>Just <em>drop it</em> — you're not going to change his mind.</li><li>"<em>Drop it</em>!" she yelled at the dog, who had one of my slippers.</li><li>I brought it up one more time and he said, "<em>Drop it</em>."</li><li>Can we <em>drop it</em> and just enjoy dinner?</li></ol>
+<p><strong>See also:</strong> <a href="#give-it-a-rest">give it a rest</a>, <a href="#enough">enough</a>, <a href="#lay-off">lay off</a>, <a href="#thatll-do">that'll do</a></p>
+<h3 id="enough">enough<a class="hash" href="#enough" aria-label="link">#</a></h3>
+<p><strong>Pronunciation:</strong> /ɪˈnʌf/ &middot; <em>ih-NUF</em> <strong>Type:</strong> secondary &middot; <strong>Register:</strong> neutral <strong>Variants:</strong> <em>that's enough</em>, <em>enough already</em>, <em>enough is enough</em></p>
+<p>Calls a halt because a limit has been reached. Snapped by a parent, teacher, or manager it ends the behavior on the spot; <em>enough already</em> is the exasperated, New York-flavored version.</p>
+<ol><li>"<em>Enough</em>! Both of you, go to your rooms."</li><li><em>That's enough</em> — I've heard everything I need to hear.</li><li>"<em>Enough already</em> with the complaining."</li><li><em>Enough</em>. We are not doing this again tonight.</li><li>"That's <em>enough</em>, thank you," the judge told the witness.</li></ol>
+<p><strong>See also:</strong> <a href="#thatll-do">that'll do</a>, <a href="#stop">stop</a>, <a href="#cut-it-out">cut it out</a>, <a href="#knock-it-off">knock it off</a>, <a href="#give-it-a-rest">give it a rest</a></p>
+<h3 id="freeze">freeze<a class="hash" href="#freeze" aria-label="link">#</a></h3>
+<p><strong>Pronunciation:</strong> /friz/ &middot; <em>FREEZ</em> <strong>Type:</strong> secondary &middot; <strong>Register:</strong> neutral <strong>Variants:</strong> <em>freeze right there</em></p>
+<p>Stop moving this instant. It is the police command of a thousand American movies, and it is equally at home in a game of tag or aimed at a kid about to step on broken glass.</p>
+<ol><li>"<em>Freeze</em>! Police! Hands where I can see them."</li><li>"<em>Freeze</em>," I said. "There's glass all over the floor."</li><li>The kids played freeze tag, shrieking "<em>Freeze</em>!" every few seconds.</li><li><em>Freeze</em> — don't move, there's a wasp on your shoulder.</li><li>"<em>Freeze</em> right there," the guard said, stepping out of the booth.</li></ol>
+<p><strong>See also:</strong> <a href="#halt">halt</a>, <a href="#hold-it">hold it</a>, <a href="#stop">stop</a>, <a href="#hold-up">hold up</a></p>
+<h3 id="give-it-a-rest">give it a rest<a class="hash" href="#give-it-a-rest" aria-label="link">#</a></h3>
+<p><strong>Pronunciation:</strong> /ˌɡɪv ɪt ə ˈrɛst/ &middot; <em>giv it uh REST</em> <strong>Type:</strong> phrase &middot; <strong>Register:</strong> very informal <strong>Variants:</strong> <em>give it a break</em></p>
+<p>An exasperated "stop going on about it." It says the topic, the joke, or the nagging has thoroughly worn out its welcome.</p>
+<ol><li>"<em>Give it a rest</em>, would you? We've been over this twice."</li><li><em>Give it a rest</em> — nobody cares about your fantasy team.</li><li>"Oh, <em>give it a rest</em>," he muttered.</li><li>She's been complaining since Tuesday and she will not <em>give it a rest</em>.</li><li><em>Give it a rest</em>, Dad. I'll do it after dinner.</li></ol>
+<p><strong>See also:</strong> <a href="#drop-it">drop it</a>, <a href="#enough">enough</a>, <a href="#lay-off">lay off</a>, <a href="#knock-it-off">knock it off</a></p>
+<h3 id="halt">halt<a class="hash" href="#halt" aria-label="link">#</a></h3>
+<p><strong>Pronunciation:</strong> /hɔlt/ &middot; <em>HAWLT</em> <strong>Type:</strong> secondary &middot; <strong>Register:</strong> formal <strong>Variants:</strong> <em>halt right there</em></p>
+<p>A formal command to stop moving, at home in the military, at a checkpoint, and in the old sentry's challenge "Halt! Who goes there?" Civilians use it only for comic effect.</p>
+<ol><li>"<em>Halt</em>! Who goes there?"</li><li>The guard raised a hand. "<em>Halt</em>. Identification, please."</li><li>"Company, <em>halt</em>!" the drill sergeant barked.</li><li><em>Halt</em> — this is a restricted area.</li><li>He stuck out an arm like a crossing guard and said, "<em>Halt</em>."</li></ol>
+<p><strong>See also:</strong> <a href="#freeze">freeze</a>, <a href="#stop">stop</a>, <a href="#hold-it">hold it</a></p>
+<h3 id="hands-off">hands off<a class="hash" href="#hands-off" aria-label="link">#</a></h3>
+<p><strong>Pronunciation:</strong> /ˌhændz ˈɔf/ &middot; <em>handz AWF</em> <strong>Type:</strong> phrase &middot; <strong>Register:</strong> informal <strong>Variants:</strong> <em>hands off it</em>, <em>hands to yourself</em></p>
+<p>Don't touch that. It guards an object — a dessert, a tool, somebody else's phone — rather than a person's space, which is what separates it from <em>back off</em>. Snapped at an adult it stops being a request.</p>
+<ol><li>"<em>Hands off</em>! That's for the party."</li><li><em>Hands off</em> the thermostat, please.</li><li>She swatted his wrist away from the tray. "<em>Hands off</em>."</li><li>"<em>Hands off</em>, both of you, until everybody's at the table."</li><li><em>Hands off</em> — the paint is still wet.</li></ol>
+<p><strong>See also:</strong> <a href="#back-off">back off</a>, <a href="#freeze">freeze</a>, <a href="#cut-it-out">cut it out</a>, <a href="#easy">easy</a></p>
+<h3 id="hang-on">hang on<a class="hash" href="#hang-on" aria-label="link">#</a></h3>
+<p><strong>Pronunciation:</strong> /ˌhæŋ ˈɑn/ &middot; <em>hang ON</em> <strong>Type:</strong> phrase &middot; <strong>Register:</strong> informal <strong>Variants:</strong> <em>hang on a sec</em>, <em>hang on a minute</em></p>
+<p>Wait a moment — the everyday version of <em>hold on</em>, used for short delays and also for "wait, that doesn't add up."</p>
+<ol><li>"<em>Hang on</em>, I'm almost ready."</li><li><em>Hang on</em> a sec — I have to grab my charger.</li><li>"<em>Hang on</em>. You said the meeting was Thursday."</li><li><em>Hang on</em>, let me put you on speaker.</li><li>"<em>Hang on</em> a minute," she said, digging through her purse.</li></ol>
+<p><strong>See also:</strong> <a href="#hold-on">hold on</a>, <a href="#hold-up">hold up</a>, <a href="#just-a-sec">just a sec</a>, <a href="#wait">wait</a></p>
+<h3 id="hold-it">hold it<a class="hash" href="#hold-it" aria-label="link">#</a></h3>
+<p><strong>Pronunciation:</strong> /ˈhoʊld ɪt/ &middot; <em>HOHLD it</em> <strong>Type:</strong> phrase &middot; <strong>Register:</strong> informal <strong>Variants:</strong> <em>hold it right there</em></p>
+<p>Stop right where you are — a sharper, more physical <em>wait</em>. Photographers also use it to freeze a pose while they get the shot.</p>
+<ol><li>"<em>Hold it</em> right there. Where do you think you're going?"</li><li><em>Hold it</em> — that box goes on the other truck.</li><li>"<em>Hold it</em>, <em>hold it</em>," the photographer said. "Everybody look at me."</li><li>"<em>Hold it</em>!" he called as the elevator doors started to close.</li><li><em>Hold it</em> a second, I think we took a wrong turn.</li></ol>
+<p><strong>See also:</strong> <a href="#hold-on">hold on</a>, <a href="#hold-up">hold up</a>, <a href="#freeze">freeze</a>, <a href="#wait">wait</a></p>
+<h3 id="hold-on">hold on<a class="hash" href="#hold-on" aria-label="link">#</a></h3>
+<p><strong>Pronunciation:</strong> /ˌhoʊld ˈɑn/ &middot; <em>hohld ON</em> <strong>Type:</strong> phrase &middot; <strong>Register:</strong> neutral <strong>Variants:</strong> <em>hold on a second</em>, <em>hold on a minute</em></p>
+<p>Wait — the most common way an American asks for a pause: on the phone, at a door, or mid-conversation when something needs a second look.</p>
+<ol><li>"<em>Hold on</em>, I'll transfer you."</li><li><em>Hold on</em> a second, somebody's at the door.</li><li>"<em>Hold on</em>. You're telling me he quit?"</li><li><em>Hold on</em>, let me write that down.</li><li>"Can you <em>hold on</em>? My other line is ringing."</li></ol>
+<p><strong>See also:</strong> <a href="#hang-on">hang on</a>, <a href="#hold-up">hold up</a>, <a href="#just-a-sec">just a sec</a>, <a href="#one-moment">one moment</a>, <a href="#wait">wait</a></p>
+<h3 id="hold-the-phone">hold the phone<a class="hash" href="#hold-the-phone" aria-label="link">#</a></h3>
+<p><strong>Pronunciation:</strong> /ˌhoʊld ðə ˈfoʊn/ &middot; <em>hohld thuh FOHN</em> <strong>Type:</strong> phrase &middot; <strong>Register:</strong> informal <strong>Variants:</strong> <em>hold the presses</em>, <em>stop the presses</em></p>
+<p>A jokey "wait a second" used when something surprising has just been said and needs re-examining. Nobody is holding an actual phone.</p>
+<ol><li>"<em>Hold the phone</em> — you two are dating?"</li><li><em>Hold the phone</em>. Did she just say the deposit is nonrefundable?</li><li>"<em>Hold the phone</em>, I thought you hated camping."</li><li>Wait, <em>hold the phone</em>, when did we agree to that?</li><li>"<em>Hold the phone</em>," he said, setting down his fork. "Say that again."</li></ol>
+<p><strong>See also:</strong> <a href="#hold-up">hold up</a>, <a href="#hold-on">hold on</a>, <a href="#hold-your-horses">hold your horses</a>, <a href="#wait">wait</a></p>
+<h3 id="hold-up">hold up<a class="hash" href="#hold-up" aria-label="link">#</a></h3>
+<p><strong>Pronunciation:</strong> /ˌhoʊld ˈʌp/ &middot; <em>hohld UP</em> <strong>Type:</strong> phrase &middot; <strong>Register:</strong> informal <strong>Variants:</strong> <em>hold up a sec</em></p>
+<p>Wait — usually with a note of objection, as in "back up, something here is wrong." It also works literally: stop walking so I can catch you.</p>
+<ol><li>"<em>Hold up</em>, I'm coming with you!"</li><li><em>Hold up</em> — you paid how much?</li><li>"<em>Hold up</em>, <em>hold up</em>. Let him finish."</li><li><em>Hold up</em> a sec, my shoe's untied.</li><li>"<em>Hold up</em>," he said, "that's not what the email said."</li></ol>
+<p><strong>See also:</strong> <a href="#hold-on">hold on</a>, <a href="#hang-on">hang on</a>, <a href="#wait-up">wait up</a>, <a href="#hold-the-phone">hold the phone</a></p>
+<h3 id="hold-your-horses">hold your horses<a class="hash" href="#hold-your-horses" aria-label="link">#</a></h3>
+<p><strong>Pronunciation:</strong> /ˌhoʊld jər ˈhɔrsɪz/ &middot; <em>hohld yer HOR-siz</em> <strong>Type:</strong> phrase &middot; <strong>Register:</strong> informal <strong>Variants:</strong> <em>hold your water</em></p>
+<p>A folksy "be patient," said to someone who is rushing you. It is mild and a little teasing, and it comes most naturally from parents and older speakers.</p>
+<ol><li>"<em>Hold your horses</em> — I only have two hands."</li><li><em>Hold your horses</em>, the game doesn't start for another hour.</li><li>"<em>Hold your horses</em>," Dad said. "Nobody opens presents until Grandma gets here."</li><li><em>Hold your horses</em>, I'm still on the first page.</li><li>She honked twice and I yelled, "<em>Hold your horses</em>!"</li></ol>
+<p><strong>See also:</strong> <a href="#hold-on">hold on</a>, <a href="#hang-on">hang on</a>, <a href="#easy">easy</a>, <a href="#wait">wait</a>, <a href="#simmer-down">simmer down</a></p>
+<h3 id="just-a-sec">just a sec<a class="hash" href="#just-a-sec" aria-label="link">#</a></h3>
+<p><strong>Pronunciation:</strong> /ˌdʒʌst ə ˈsɛk/ &middot; <em>just uh SEK</em> <strong>Type:</strong> phrase &middot; <strong>Register:</strong> informal <strong>Variants:</strong> <em>one sec</em>, <em>just a second</em>, <em>sec</em></p>
+<p>A casual request for a very short delay. Breezier than <em>one moment</em>, and used with friends, family, and coworkers rather than customers.</p>
+<ol><li>"<em>Just a sec</em>, I'm putting my shoes on."</li><li><em>Just a sec</em> — let me find the file.</li><li>"Be right there, <em>just a sec</em>!" she called from the bathroom.</li><li><em>One sec</em>, my hands are covered in flour.</li><li>"<em>Just a second</em>," he said, holding up a finger while he finished the text.</li></ol>
+<p><strong>See also:</strong> <a href="#one-moment">one moment</a>, <a href="#hang-on">hang on</a>, <a href="#hold-on">hold on</a>, <a href="#wait">wait</a></p>
+<h3 id="knock-it-off">knock it off<a class="hash" href="#knock-it-off" aria-label="link">#</a></h3>
+<p><strong>Pronunciation:</strong> /ˌnɑk ɪt ˈɔf/ &middot; <em>nok it AWF</em> <strong>Type:</strong> phrase &middot; <strong>Register:</strong> informal <strong>Variants:</strong> <em>knock that off</em></p>
+<p>A firm "stop that," aimed at behavior that is annoying or about to get someone hurt. It is the classic American parent-to-kid and coach-to-player line, and it carries real irritation.</p>
+<ol><li>"<em>Knock it off</em> or we're going home."</li><li><em>Knock it off</em>, guys, somebody's going to get hurt.</li><li>"Hey! <em>Knock it off</em> with the horn," the neighbor shouted.</li><li>He wouldn't <em>knock it off</em> until the teacher stood up.</li><li>"<em>Knock it off</em>," she said flatly. "I'm not in the mood."</li></ol>
+<p><strong>See also:</strong> <a href="#cut-it-out">cut it out</a>, <a href="#quit-it">quit it</a>, <a href="#enough">enough</a>, <a href="#break-it-up">break it up</a></p>
+<h3 id="lay-off">lay off<a class="hash" href="#lay-off" aria-label="link">#</a></h3>
+<p><strong>Pronunciation:</strong> /ˌleɪ ˈɔf/ &middot; <em>lay AWF</em> <strong>Type:</strong> phrase &middot; <strong>Register:</strong> informal <strong>Variants:</strong> <em>lay off it</em>, <em>lay off him</em></p>
+<p>Stop picking on someone, or stop pushing something. It takes an object as easily as it stands alone: <em>lay off the kid</em>, <em>lay off the caffeine</em>.</p>
+<ol><li>"<em>Lay off</em>, he's doing the best he can."</li><li><em>Lay off</em> — I already said I'd fix it.</li><li>"You need to <em>lay off</em> the energy drinks."</li><li>She told her brother to <em>lay off</em> and he kept right on going.</li><li>"<em>Lay off</em> the kid, will you? It was an accident."</li></ol>
+<p><strong>See also:</strong> <a href="#back-off">back off</a>, <a href="#give-it-a-rest">give it a rest</a>, <a href="#drop-it">drop it</a>, <a href="#easy">easy</a></p>
+<h3 id="not-so-fast">not so fast<a class="hash" href="#not-so-fast" aria-label="link">#</a></h3>
+<p><strong>Pronunciation:</strong> /ˌnɑt soʊ ˈfæst/ &middot; <em>not soh FAST</em> <strong>Type:</strong> phrase &middot; <strong>Register:</strong> informal</p>
+<p>Hold on — you are not getting away with that. It is aimed at somebody who is leaving, claiming a win, or trying to slip one past you, and it almost always comes with a raised eyebrow rather than a raised voice.</p>
+<ol><li>"<em>Not so fast</em>. You still owe me twenty bucks."</li><li><em>Not so fast</em> — I never agreed to any of that.</li><li>"<em>Not so fast</em>, mister. Homework first."</li><li>He was halfway to the door when she said, "<em>Not so fast</em>."</li><li>Everyone assumed the deal was done, but <em>not so fast</em>: the board hadn't voted yet.</li></ol>
+<p><strong>See also:</strong> <a href="#hold-it">hold it</a>, <a href="#hold-up">hold up</a>, <a href="#wait">wait</a>, <a href="#hold-your-horses">hold your horses</a></p>
+<h3 id="one-moment">one moment<a class="hash" href="#one-moment" aria-label="link">#</a></h3>
+<p><strong>Pronunciation:</strong> /ˌwʌn ˈmoʊmənt/ &middot; <em>wun MOH-muhnt</em> <strong>Type:</strong> phrase &middot; <strong>Register:</strong> formal <strong>Variants:</strong> <em>one moment please</em>, <em>just a moment</em></p>
+<p>The polite, service-industry way to ask someone to wait. Receptionists, hosts, and phone agents say it all day; friends say <em>just a sec</em> instead.</p>
+<ol><li>"<em>One moment</em>, please. I'll see if she's available."</li><li><em>One moment</em>, sir — your table is almost ready.</li><li>"<em>Just a moment</em>," the clerk said, typing. "I'm pulling up your account."</li><li><em>One moment</em> while I connect you.</li><li>"If you'll give me <em>one moment</em>, I'll get the manager."</li></ol>
+<p><strong>See also:</strong> <a href="#just-a-sec">just a sec</a>, <a href="#hold-on">hold on</a>, <a href="#pardon-me">pardon me</a></p>
+<h3 id="quit-it">quit it<a class="hash" href="#quit-it" aria-label="link">#</a></h3>
+<p><strong>Pronunciation:</strong> /ˈkwɪt ɪt/ &middot; <em>KWIT it</em> <strong>Type:</strong> phrase &middot; <strong>Register:</strong> informal <strong>Variants:</strong> <em>quit that</em></p>
+<p>Stop that — the playground classic, whined or snapped at somebody who keeps poking, teasing, or repeating the same noise.</p>
+<ol><li>"<em>Quit it</em>! I'm telling Mom."</li><li><em>Quit it</em>, that's my elbow.</li><li>"<em>Quit it</em> with the noises, please."</li><li>He kicked the back of my seat the whole flight, and asking him to <em>quit it</em> did nothing.</li><li>"<em>Quit it</em>, both of you," she said without turning around.</li></ol>
+<p><strong>See also:</strong> <a href="#cut-it-out">cut it out</a>, <a href="#knock-it-off">knock it off</a>, <a href="#stop">stop</a>, <a href="#enough">enough</a></p>
+<h3 id="sit-tight">sit tight<a class="hash" href="#sit-tight" aria-label="link">#</a></h3>
+<p><strong>Pronunciation:</strong> /ˌsɪt ˈtaɪt/ &middot; <em>sit TYT</em> <strong>Type:</strong> phrase &middot; <strong>Register:</strong> informal</p>
+<p>Stay where you are and wait — usually with an implied promise that somebody else is handling it. That reassurance is what separates it from <em>stay put</em>, which is a flat order.</p>
+<ol><li>"<em>Sit tight</em>. I'll be back with your paperwork in five minutes."</li><li><em>Sit tight</em> — the tow truck is about twenty minutes out.</li><li>"Everybody <em>sit tight</em>," the flight attendant said. "We're still waiting on a gate."</li><li>We sat tight for an hour before anyone told us anything.</li><li><em>Sit tight</em>, don't sign anything, and let me call the lawyer.</li></ol>
+<p><strong>See also:</strong> <a href="#stay-put">stay put</a>, <a href="#hold-on">hold on</a>, <a href="#hang-on">hang on</a>, <a href="#one-moment">one moment</a></p>
+<h3 id="stay-put">stay put<a class="hash" href="#stay-put" aria-label="link">#</a></h3>
+<p><strong>Pronunciation:</strong> /ˌsteɪ ˈpʊt/ &middot; <em>stay PUUT</em> <strong>Type:</strong> phrase &middot; <strong>Register:</strong> informal</p>
+<p>Do not move from that spot. It is what you tell a kid in a crowded store, a hiker who called in lost, or a rug that keeps sliding — flat, practical, and not up for discussion.</p>
+<ol><li>"<em>Stay put</em>. I'm coming to get you."</li><li><em>Stay put</em> right here by the register and don't move.</li><li>"Tell them to <em>stay put</em> until the deputies get there."</li><li>The tape wouldn't <em>stay put</em> no matter how hard I pressed it down.</li><li><em>Stay put</em>, buddy — I can see you from here.</li></ol>
+<p><strong>See also:</strong> <a href="#sit-tight">sit tight</a>, <a href="#freeze">freeze</a>, <a href="#hold-it">hold it</a>, <a href="#wait">wait</a></p>
+<h3 id="stop">stop<a class="hash" href="#stop" aria-label="link">#</a></h3>
+<p><strong>Pronunciation:</strong> /stɑp/ &middot; <em>STOP</em> <strong>Type:</strong> secondary &middot; <strong>Register:</strong> neutral <strong>Variants:</strong> <em>stop it</em>, <em>stop that</em>, <em>stop right there</em></p>
+<p>The plainest command in the group, and the one that always works. Alone and loud it means immediately; with <em>it</em> or <em>that</em> it targets a specific behavior.</p>
+<ol><li>"<em>Stop</em>! There's a car coming."</li><li><em>Stop it</em> — you're going to break it.</li><li>"<em>Stop right there</em>," the security guard said.</li><li>"<em>Stop</em>, please," she said quietly, and he finally set the phone down.</li><li>"<em>Stop that</em>," she told the dog, who had started digging again.</li></ol>
+<p><strong>See also:</strong> <a href="#halt">halt</a>, <a href="#freeze">freeze</a>, <a href="#hold-it">hold it</a>, <a href="#quit-it">quit it</a>, <a href="#enough">enough</a></p>
+<h3 id="thatll-do">that'll do<a class="hash" href="#thatll-do" aria-label="link">#</a></h3>
+<p><strong>Pronunciation:</strong> /ˈðætəl ˌdu/ &middot; <em>THAT-uhl doo</em> <strong>Type:</strong> phrase &middot; <strong>Register:</strong> informal <strong>Variants:</strong> <em>that will do</em>, <em>that'll do it</em></p>
+<p>A calm "that's enough" — you can stop now, either because the job is finished or because the joking has gone about one step too far.</p>
+<ol><li>"<em>That'll do</em>, thanks. I've got it from here."</li><li><em>That'll do</em> — any more salt and it's ruined.</li><li>"<em>That'll do</em>, Wesley," she said, and he stopped mid-sentence.</li><li>He kept pouring until I said, "<em>That'll do</em>."</li><li><em>That'll do</em>, boys. Go wash up for dinner.</li></ol>
+<p><strong>See also:</strong> <a href="#enough">enough</a>, <a href="#stop">stop</a>, <a href="#cut-it-out">cut it out</a></p>
+<h3 id="time-out">time out<a class="hash" href="#time-out" aria-label="link">#</a></h3>
+<p><strong>Pronunciation:</strong> /ˈtaɪm ˌaʊt/ &middot; <em>TYM owt</em> <strong>Type:</strong> phrase &middot; <strong>Register:</strong> informal <strong>Variants:</strong> <em>time-out</em>, <em>timeout</em>, <em>T.O.</em></p>
+<p>Borrowed from sports: a request to pause everything for a second because something needs sorting out. It is usually made with the hands in a T shape, and in a family it is also what a misbehaving child gets sent to.</p>
+<ol><li>"<em>Time out</em> — are we even talking about the same thing?"</li><li><em>Time out</em>, everybody. Let's start over.</li><li>He made a T with his hands. "<em>Time out</em>. I need coffee."</li><li>"<em>Time out</em>!" the coach yelled, waving at the ref.</li><li><em>Time out</em> — before we go any further, does everyone have the new numbers?</li></ol>
+<p><strong>See also:</strong> <a href="#hold-up">hold up</a>, <a href="#hold-on">hold on</a>, <a href="#break-it-up">break it up</a>, <a href="#wait">wait</a></p>
+<h3 id="wait">wait<a class="hash" href="#wait" aria-label="link">#</a></h3>
+<p><strong>Pronunciation:</strong> /weɪt/ &middot; <em>WAYT</em> <strong>Type:</strong> secondary &middot; <strong>Register:</strong> neutral <strong>Variants:</strong> <em>wait a minute</em>, <em>wait a second</em>, <em>wait, wait, wait</em></p>
+<p>The basic pause command. Tripled — "wait, wait, wait" — it means something has gone off the rails; "wait a minute" often introduces a realization that has just landed.</p>
+<ol><li>"<em>Wait</em>! You forgot your keys."</li><li><em>Wait</em>, I thought the deadline was Friday.</li><li>"<em>Wait a minute</em> — that's my car."</li><li><em>Wait</em>, <em>wait</em>, <em>wait</em>. Say that one more time.</li><li>"<em>Wait</em> here. I'll be right back."</li></ol>
+<p><strong>See also:</strong> <a href="#hold-on">hold on</a>, <a href="#hang-on">hang on</a>, <a href="#hold-up">hold up</a>, <a href="#wait-up">wait up</a>, <a href="#just-a-sec">just a sec</a></p>
+<h3 id="wait-up">wait up<a class="hash" href="#wait-up" aria-label="link">#</a></h3>
+<p><strong>Pronunciation:</strong> /ˌweɪt ˈʌp/ &middot; <em>wayt UP</em> <strong>Type:</strong> phrase &middot; <strong>Register:</strong> informal <strong>Variants:</strong> <em>wait up a sec</em></p>
+<p>Specifically: stop walking so I can catch up to you. It is almost always shouted at somebody's back.</p>
+<ol><li>"<em>Wait up</em>! My bag is falling apart."</li><li><em>Wait up</em>, guys, I still have to lock my bike.</li><li>"Hey, <em>wait up</em>!" she called down the hallway.</li><li><em>Wait up</em> a second, I want to ask you something.</li><li>"<em>Wait up</em> for your sister," their mother called from the porch.</li></ol>
+<p><strong>See also:</strong> <a href="#hold-up">hold up</a>, <a href="#wait">wait</a>, <a href="#hang-on">hang on</a></p>
+<h2 id="calming-people-down-and-breaking-things-up">Calming people down and breaking things up<a class="hash" href="#calming-people-down-and-breaking-things-up" aria-label="link">#</a></h2>
+<h3 id="break-it-up">break it up<a class="hash" href="#break-it-up" aria-label="link">#</a></h3>
+<p><strong>Pronunciation:</strong> /ˌbreɪk ɪt ˈʌp/ &middot; <em>brayk it UP</em> <strong>Type:</strong> phrase &middot; <strong>Register:</strong> informal <strong>Variants:</strong> <em>break it up, you two</em></p>
+<p>What you shout at people who are fighting or arguing, telling them to separate. It is standard from police officers, teachers, coaches, and bartenders, and it assumes you have the standing to say it.</p>
+<ol><li>"<em>Break it up</em>, you two!" the teacher shouted across the cafeteria.</li><li>Two bouncers came over to <em>break it up</em>.</li><li>"All right, <em>break it up</em>. Nothing to see here."</li><li><em>Break it up</em>, guys — save it for the game.</li><li>The ref stepped in to <em>break it up</em> before it turned into a brawl.</li></ol>
+<p><strong>See also:</strong> <a href="#knock-it-off">knock it off</a>, <a href="#cool-it">cool it</a>, <a href="#easy">easy</a>, <a href="#settle-down">settle down</a></p>
+<h3 id="calm-down">calm down<a class="hash" href="#calm-down" aria-label="link">#</a></h3>
+<p><strong>Pronunciation:</strong> /ˌkɑm ˈdaʊn/ &middot; <em>kahm DOWN</em> <strong>Type:</strong> phrase &middot; <strong>Register:</strong> neutral <strong>Variants:</strong> <em>just calm down</em>, <em>calm down now</em></p>
+<p>The plainest way to tell an upset person to get hold of themselves. It is also famously counterproductive: aimed at somebody who is genuinely angry or frightened, it reads as an accusation of overreacting and reliably makes things worse.</p>
+<ol><li>"<em>Calm down</em>. Start at the beginning and tell me what happened."</li><li><em>Calm down</em> — nobody is getting fired over a spreadsheet.</li><li>"Don't tell me to <em>calm down</em>," she said, which is the whole problem with telling people to calm down.</li><li>He walked a lap around the parking lot to <em>calm down</em> before going back in.</li><li>"Everybody <em>calm down</em>. The alarm was a test."</li></ol>
+<p><strong>See also:</strong> <a href="#settle-down">settle down</a>, <a href="#relax">relax</a>, <a href="#easy">easy</a>, <a href="#chill">chill</a>, <a href="#simmer-down">simmer down</a></p>
+<h3 id="chill">chill<a class="hash" href="#chill" aria-label="link">#</a></h3>
+<p><strong>Pronunciation:</strong> /tʃɪl/ &middot; <em>CHIL</em> <strong>Type:</strong> secondary &middot; <strong>Register:</strong> informal <strong>Variants:</strong> <em>chill out</em>, <em>chillax</em></p>
+<p>Tells an agitated person to calm down. It is friendly enough among peers, and infuriating when the other person is genuinely upset — telling someone to chill is often what escalates the argument.</p>
+<ol><li>"<em>Chill</em>, dude. It's not that big a deal."</li><li><em>Chill out</em> — we still have an hour before the movie.</li><li>"Would you please just <em>chill</em>? You're making me nervous."</li><li>He told her to <em>chill</em> and she got twice as angry.</li><li><em>Chill</em>, I already paid the bill.</li></ol>
+<p><strong>See also:</strong> <a href="#cool-it">cool it</a>, <a href="#easy">easy</a>, <a href="#settle-down">settle down</a>, <a href="#simmer-down">simmer down</a>, <a href="#relax">relax</a></p>
+<h3 id="cool-it">cool it<a class="hash" href="#cool-it" aria-label="link">#</a></h3>
+<p><strong>Pronunciation:</strong> /ˈkul ɪt/ &middot; <em>KOOL it</em> <strong>Type:</strong> phrase &middot; <strong>Register:</strong> informal <strong>Variants:</strong> <em>cool your jets</em></p>
+<p>Stop what you are doing and calm down, said to somebody who is getting loud, angry, or carried away. <em>Cool your jets</em> is the teasing version.</p>
+<ol><li>"<em>Cool it</em>, you two, before somebody gets hurt."</li><li><em>Cool it</em> with the jokes — his mother is standing right there.</li><li>"You need to <em>cool it</em>," the coach said. "One more foul and you're out."</li><li><em>Cool it</em>, I was only asking.</li><li>She told them to <em>cool it</em>, and to my surprise they actually did.</li></ol>
+<p><strong>See also:</strong> <a href="#chill">chill</a>, <a href="#easy">easy</a>, <a href="#simmer-down">simmer down</a>, <a href="#knock-it-off">knock it off</a></p>
+<h3 id="easy">easy<a class="hash" href="#easy" aria-label="link">#</a></h3>
+<p><strong>Pronunciation:</strong> /ˈizi/ &middot; <em>EE-zee</em> <strong>Type:</strong> secondary &middot; <strong>Register:</strong> informal <strong>Variants:</strong> <em>easy there</em>, <em>easy now</em>, <em>easy does it</em>, <em>take it easy</em></p>
+<p>A soothing "slow down" — used with a spooked animal, an angry friend, or somebody carrying something heavy and breakable. The tone is calm and low, never sharp.</p>
+<ol><li>"<em>Easy</em>, boy," he said, patting the horse's neck.</li><li><em>Easy</em> — that box has glassware in it.</li><li>"<em>Easy</em> there, tiger. It's only Tuesday."</li><li><em>Easy does it</em>. Lift with your legs, not your back.</li><li>"<em>Easy</em>, <em>easy</em>," the paramedic said. "Don't try to sit up."</li></ol>
+<p><strong>See also:</strong> <a href="#chill">chill</a>, <a href="#cool-it">cool it</a>, <a href="#hold-your-horses">hold your horses</a>, <a href="#simmer-down">simmer down</a>, <a href="#calm-down">calm down</a></p>
+<h3 id="now-now">now now<a class="hash" href="#now-now" aria-label="link">#</a></h3>
+<p><strong>Pronunciation:</strong> /ˌnaʊ ˈnaʊ/ &middot; <em>now NOW</em> <strong>Type:</strong> phrase &middot; <strong>Register:</strong> informal <strong>Variants:</strong> <em>now, now</em></p>
+<p>A soothing two-beat used to head off tears or a squabble before it grows. It is gentle, but because it is fundamentally what adults say to small children, aimed at a grown-up it can land as deeply patronizing.</p>
+<ol><li>"<em>Now now</em>, there's no need for any of that."</li><li><em>Now, now</em> — everybody gets a turn.</li><li>She patted his arm. "<em>Now now</em>. It'll keep till Monday."</li><li>"<em>Now now</em>, let's not say anything we can't take back."</li><li><em>Now, now</em>, don't cry. We'll find another one.</li></ol>
+<p><strong>See also:</strong> <a href="#easy">easy</a>, <a href="#settle-down">settle down</a>, <a href="#calm-down">calm down</a>, <a href="#hush">hush</a></p>
+<h3 id="relax">relax<a class="hash" href="#relax" aria-label="link">#</a></h3>
+<p><strong>Pronunciation:</strong> /rɪˈlæks/ &middot; <em>rih-LAKS</em> <strong>Type:</strong> secondary &middot; <strong>Register:</strong> informal <strong>Variants:</strong> <em>just relax</em>, <em>relax, relax</em></p>
+<p>Ease up — you are more wound up than the situation calls for. Between friends it is reassuring; aimed at somebody who is genuinely upset it is dismissive, and it earns exactly the same glare as <em>calm down</em>.</p>
+<ol><li>"<em>Relax</em>, I already sent it."</li><li><em>Relax</em> — we've got a full hour before we have to leave.</li><li>"Would you <em>relax</em>? You're going to wear a hole in the carpet."</li><li>He told me to <em>relax</em>, which used up the last of my patience.</li><li>"<em>Relax</em>, <em>relax</em>, he does that to everybody."</li></ol>
+<p><strong>See also:</strong> <a href="#calm-down">calm down</a>, <a href="#chill">chill</a>, <a href="#easy">easy</a>, <a href="#cool-it">cool it</a></p>
+<h3 id="settle-down">settle down<a class="hash" href="#settle-down" aria-label="link">#</a></h3>
+<p><strong>Pronunciation:</strong> /ˌsɛtəl ˈdaʊn/ &middot; <em>set-uhl DOWN</em> <strong>Type:</strong> phrase &middot; <strong>Register:</strong> neutral <strong>Variants:</strong> <em>settle</em></p>
+<p>Calm down and get quiet — the standard teacher's phrase for a restless room and a parent's for an over-excited kid. It is firm without being rude.</p>
+<ol><li>"All right, everyone, <em>settle down</em> and take your seats."</li><li>He got so wound up about the puppy that it took ten minutes to <em>settle down</em>.</li><li>"<em>Settle down</em>, buddy. Nobody's taking your toy."</li><li>The substitute could not get the class to <em>settle down</em>.</li><li><em>Settle down</em>, I'm getting to the good part.</li></ol>
+<p><strong>See also:</strong> <a href="#simmer-down">simmer down</a>, <a href="#quiet">quiet</a>, <a href="#pipe-down">pipe down</a>, <a href="#cool-it">cool it</a>, <a href="#calm-down">calm down</a></p>
+<h3 id="simmer-down">simmer down<a class="hash" href="#simmer-down" aria-label="link">#</a></h3>
+<p><strong>Pronunciation:</strong> /ˌsɪmər ˈdaʊn/ &middot; <em>sim-er DOWN</em> <strong>Type:</strong> phrase &middot; <strong>Register:</strong> informal</p>
+<p>Calm down, said to somebody who is worked up. It is folksier and more teasing than <em>settle down</em>, and it can come across as condescending.</p>
+<ol><li>"<em>Simmer down</em>, nobody's accusing you of anything."</li><li><em>Simmer down</em> back there or we're pulling over.</li><li>"Oh, <em>simmer down</em>," she said. "I was joking."</li><li>It took him a good ten minutes to <em>simmer down</em> after that call.</li><li><em>Simmer down</em>, folks, there's plenty of food for everybody.</li></ol>
+<p><strong>See also:</strong> <a href="#settle-down">settle down</a>, <a href="#cool-it">cool it</a>, <a href="#chill">chill</a>, <a href="#easy">easy</a></p>
+<h2 id="moving-people-along-and-clearing-the-way">Moving people along and clearing the way<a class="hash" href="#moving-people-along-and-clearing-the-way" aria-label="link">#</a></h2>
+<h3 id="beat-it">beat it<a class="hash" href="#beat-it" aria-label="link">#</a></h3>
+<p><strong>Pronunciation:</strong> /ˈbit ɪt/ &middot; <em>BEET it</em> <strong>Type:</strong> phrase &middot; <strong>Register:</strong> very informal</p>
+<p>Go away, and go now. It is hostile — the line a shopkeeper yells at kids loitering out front — though among friends it can be mock-hostile.</p>
+<ol><li>"<em>Beat it</em>, kid. This is private property."</li><li><em>Beat it</em> before I call the cops.</li><li>"You two, <em>beat it</em>," the bouncer said, jerking a thumb at the door.</li><li>He told the reporters to <em>beat it</em>.</li><li>"<em>Beat it</em>!" she yelled at the raccoon on the porch.</li></ol>
+<p><strong>See also:</strong> <a href="#scram">scram</a>, <a href="#get-lost">get lost</a>, <a href="#take-a-hike">take a hike</a>, <a href="#buzz-off">buzz off</a></p>
+<h3 id="buzz-off">buzz off<a class="hash" href="#buzz-off" aria-label="link">#</a></h3>
+<p><strong>Pronunciation:</strong> /ˌbʌz ˈɔf/ &middot; <em>buz AWF</em> <strong>Type:</strong> phrase &middot; <strong>Register:</strong> very informal</p>
+<p>Go away and stop bothering me. It is a little softer and more childish than <em>get lost</em>, but it is still rude.</p>
+<ol><li>"<em>Buzz off</em>, I'm working."</li><li><em>Buzz off</em> — nobody invited you.</li><li>I finally told the third telemarketer of the morning to <em>buzz off</em>.</li><li>Her little brother would not <em>buzz off</em> no matter what we tried.</li><li>"<em>Buzz off</em>!" he shouted at the wasp, flailing his arms.</li></ol>
+<p><strong>See also:</strong> <a href="#get-lost">get lost</a>, <a href="#beat-it">beat it</a>, <a href="#take-a-hike">take a hike</a>, <a href="#scram">scram</a></p>
+<h3 id="clear-out">clear out<a class="hash" href="#clear-out" aria-label="link">#</a></h3>
+<p><strong>Pronunciation:</strong> /ˌklɪr ˈaʊt/ &middot; <em>kleer OWT</em> <strong>Type:</strong> phrase &middot; <strong>Register:</strong> informal <strong>Variants:</strong> <em>clear the area</em>, <em>clear the room</em></p>
+<p>Everybody leave this space — said when a room, a building, or a beach has to be emptied. It is procedural rather than personal, which is why fire marshals and stage managers use it and nobody takes offense.</p>
+<ol><li>"<em>Clear out</em>, folks. The kitchen closes at ten."</li><li><em>Clear out</em> — they need the room for the next class.</li><li>"Everybody <em>clear out</em> of the pool. We've got lightning."</li><li>The bar cleared out fast once the game ended.</li><li>"<em>Clear the area</em>," the deputy said. "Nobody past the tape."</li></ol>
+<p><strong>See also:</strong> <a href="#out">out</a>, <a href="#make-way">make way</a>, <a href="#step-aside">step aside</a>, <a href="#beat-it">beat it</a></p>
+<h3 id="coming-through">coming through<a class="hash" href="#coming-through" aria-label="link">#</a></h3>
+<p><strong>Pronunciation:</strong> /ˌkʌmɪŋ ˈθru/ &middot; <em>kum-ing THROO</em> <strong>Type:</strong> phrase &middot; <strong>Register:</strong> neutral <strong>Variants:</strong> <em>comin' through</em></p>
+<p>Announced rather than requested: you are moving through a crowd and people need to make room. Standard for servers, movers, and anybody carrying something hot or bulky.</p>
+<ol><li>"<em>Coming through</em>! Hot plates!"</li><li><em>Coming through</em> — watch your feet, please.</li><li>He hoisted the ladder over his head. "<em>Coming through</em>, folks."</li><li>"Excuse me, <em>coming through</em>," she said, edging down the packed aisle.</li><li><em>Coming through</em> with the cake — somebody clear a path!</li></ol>
+<p><strong>See also:</strong> <a href="#gangway">gangway</a>, <a href="#make-way">make way</a>, <a href="#excuse-me">excuse me</a>, <a href="#heads-up">heads up</a></p>
+<h3 id="gangway">gangway<a class="hash" href="#gangway" aria-label="link">#</a></h3>
+<p><strong>Pronunciation:</strong> /ˈɡæŋweɪ/ &middot; <em>GANG-way</em> <strong>Type:</strong> secondary &middot; <strong>Register:</strong> informal</p>
+<p>Clear a path, from the old nautical call for the ship's passageway. Today it sounds either shipboard, cartoonish, or like something shouted in a 1940s newsroom — which is usually the point.</p>
+<ol><li>"<em>Gangway</em>!" the busser called, backing out of the kitchen with a full tray.</li><li><em>Gangway</em>, everybody — she's carrying the baby.</li><li>"<em>Gangway</em>!" he shouted, sprinting down the hall with the paperwork.</li><li>The kid on the skateboard yelled "<em>Gangway</em>!" and the crowd split.</li><li><em>Gangway</em> — stretcher coming out.</li></ol>
+<p><strong>See also:</strong> <a href="#make-way">make way</a>, <a href="#coming-through">coming through</a>, <a href="#move">move</a>, <a href="#heads-up">heads up</a></p>
+<h3 id="get-lost">get lost<a class="hash" href="#get-lost" aria-label="link">#</a></h3>
+<p><strong>Pronunciation:</strong> /ˌɡɛt ˈlɔst/ &middot; <em>get LAWST</em> <strong>Type:</strong> phrase &middot; <strong>Register:</strong> very informal</p>
+<p>Go away — sharper than <em>beat it</em> and unmistakably an insult. It is also how you refuse an offer or a person outright.</p>
+<ol><li>"<em>Get lost</em>, we're not interested."</li><li><em>Get lost</em> before I stop being polite about it.</li><li>"He asked me out again and I told him to <em>get lost</em>."</li><li>"<em>Get lost</em>!" the older kids yelled at us.</li><li>She read their offer, laughed, and said, "<em>Get lost</em>."</li></ol>
+<p><strong>See also:</strong> <a href="#beat-it">beat it</a>, <a href="#scram">scram</a>, <a href="#take-a-hike">take a hike</a>, <a href="#buzz-off">buzz off</a></p>
+<h3 id="get-out">get out<a class="hash" href="#get-out" aria-label="link">#</a></h3>
+<p><strong>Pronunciation:</strong> /ˌɡɛt ˈaʊt/ &middot; <em>get OWT</em> <strong>Type:</strong> phrase &middot; <strong>Register:</strong> very informal <strong>Variants:</strong> <em>get out of here</em>, <em>get outta here</em></p>
+<p>Two very different things. Said hard, it is a furious order to leave the room right now. Said with a laugh, "get out of here" is playful disbelief — roughly "no way, you're kidding me."</p>
+<ol><li>"<em>Get out</em>. Now. And don't come back."</li><li>"<em>Get out of here</em>! You did not meet Beyoncé."</li><li><em>Get out</em> of my kitchen — you're getting flour everywhere.</li><li>"<em>Get outta here</em>," he laughed. "Twenty bucks for that?"</li><li>"<em>Get out</em>," she said, and never once raised her voice.</li></ol>
+<p><strong>See also:</strong> <a href="#out">out</a>, <a href="#beat-it">beat it</a>, <a href="#scram">scram</a>, <a href="#get-lost">get lost</a></p>
+<h3 id="hit-the-road">hit the road<a class="hash" href="#hit-the-road" aria-label="link">#</a></h3>
+<p><strong>Pronunciation:</strong> /ˌhɪt ðə ˈroʊd/ &middot; <em>hit thuh ROHD</em> <strong>Type:</strong> phrase &middot; <strong>Register:</strong> informal <strong>Variants:</strong> <em>hit the bricks</em></p>
+<p>As a directive, "leave — you're not welcome here." As a plain statement about yourself or a group, it just means "get going, start the trip." Tone and context tell you which one you are hearing.</p>
+<ol><li>"<em>Hit the road</em>, pal. The bar's closed."</li><li>We should <em>hit the road</em> if we want to beat the traffic.</li><li>"<em>Hit the road</em>, and take your sign with you."</li><li>All right, folks, time to <em>hit the road</em> — we've got six hours ahead of us.</li><li>He told the salesman to <em>hit the road</em> and shut the door.</li></ol>
+<p><strong>See also:</strong> <a href="#get-lost">get lost</a>, <a href="#beat-it">beat it</a>, <a href="#take-a-hike">take a hike</a>, <a href="#move">move</a></p>
+<h3 id="make-way">make way<a class="hash" href="#make-way" aria-label="link">#</a></h3>
+<p><strong>Pronunciation:</strong> /ˌmeɪk ˈweɪ/ &middot; <em>mayk WAY</em> <strong>Type:</strong> phrase &middot; <strong>Register:</strong> formal <strong>Variants:</strong> <em>make way for</em></p>
+<p>A formal or theatrical call to clear a path — for a procession, a stretcher, or somebody making a grand entrance. Used sincerely by ushers and paramedics, and sarcastically by everyone else.</p>
+<ol><li>"<em>Make way</em>! <em>Make way</em> for the paramedics!"</li><li><em>Make way</em> for the bride and groom!</li><li>"<em>Make way</em>, please," the usher said, guiding the family down the aisle.</li><li>The crowd parted as the guards shouted, "<em>Make way</em>!"</li><li><em>Make way</em>, peasants — the pizza has arrived.</li></ol>
+<p><strong>See also:</strong> <a href="#gangway">gangway</a>, <a href="#coming-through">coming through</a>, <a href="#step-aside">step aside</a>, <a href="#out">out</a></p>
+<h3 id="move">move<a class="hash" href="#move" aria-label="link">#</a></h3>
+<p><strong>Pronunciation:</strong> /muv/ &middot; <em>MOOV</em> <strong>Type:</strong> secondary &middot; <strong>Register:</strong> informal <strong>Variants:</strong> <em>move it</em>, <em>move along</em>, <em>get moving</em></p>
+<p>A one-word order to get out of the way or get going. It is blunt to the point of rudeness unless there is a real emergency, in which case nobody minds.</p>
+<ol><li>"<em>Move</em>, <em>move</em>, <em>move</em>!" the firefighter shouted, herding everyone toward the stairwell.</li><li><em>Move it</em>, we're going to miss the train.</li><li>"<em>Move</em>, please, you're blocking the doorway."</li><li>The officer waved us on. "<em>Move along</em>, nothing to see here."</li><li>"<em>Move</em>," he said, and I moved.</li></ol>
+<p><strong>See also:</strong> <a href="#out">out</a>, <a href="#step-aside">step aside</a>, <a href="#gangway">gangway</a>, <a href="#chop-chop">chop chop</a></p>
+<h3 id="out">out<a class="hash" href="#out" aria-label="link">#</a></h3>
+<p><strong>Pronunciation:</strong> /aʊt/ &middot; <em>OWT</em> <strong>Type:</strong> secondary &middot; <strong>Register:</strong> neutral <strong>Variants:</strong> <em>everybody out</em>, <em>out you go</em></p>
+<p>One syllable, usually with a finger pointed at the door: leave this room or this vehicle immediately. It is what an ejection sounds like, and there is no arguing with it.</p>
+<ol><li>"<em>Out</em>! Everybody <em>out</em> of the pool!"</li><li>"<em>Out</em>," the teacher said, pointing at the hallway.</li><li><em>Out</em> of the car, please, sir.</li><li>"Everybody <em>out</em>, we're closing," the bartender called.</li><li>She held the door open and said one word: "<em>Out</em>."</li></ol>
+<p><strong>See also:</strong> <a href="#get-out">get out</a>, <a href="#move">move</a>, <a href="#beat-it">beat it</a>, <a href="#scram">scram</a></p>
+<h3 id="scat">scat<a class="hash" href="#scat" aria-label="link">#</a></h3>
+<p><strong>Pronunciation:</strong> /skæt/ &middot; <em>SKAT</em> <strong>Type:</strong> primary &middot; <strong>Register:</strong> informal</p>
+<p>A short, hissed shoo aimed almost entirely at animals — a cat on the counter, a dog under the table, chickens in the driveway. Turned on a person it is playful and faintly insulting, since it treats them like a stray.</p>
+<ol><li>"<em>Scat</em>! Off the counter."</li><li><em>Scat</em>, before I get the hose.</li><li>She clapped once at the dog. "<em>Scat</em>."</li><li>"<em>Scat</em>, you two, the grown-ups are talking," Grandpa said, not meaning a word of it.</li><li>He waved his hat at the chickens. "<em>Scat</em>. Go on, now."</li></ol>
+<p><strong>See also:</strong> <a href="#shoo">shoo</a>, <a href="#scram">scram</a>, <a href="#beat-it">beat it</a>, <a href="#out">out</a></p>
+<h3 id="scram">scram<a class="hash" href="#scram" aria-label="link">#</a></h3>
+<p><strong>Pronunciation:</strong> /skræm/ &middot; <em>SKRAM</em> <strong>Type:</strong> secondary &middot; <strong>Register:</strong> informal</p>
+<p>Go away — an old-fashioned, slightly cartoonish shooing-off, clipped from <em>scramble</em>. It sounds like 1940s New York, and today it lands as playful more often than genuinely hostile.</p>
+<ol><li>"<em>Scram</em>, kid, you bother me."</li><li><em>Scram</em> before the owner sees you.</li><li>"All right, you two, <em>scram</em>. I need this booth for paying customers."</li><li>He yelled "<em>Scram</em>!" and the pigeons scattered.</li><li>"<em>Scram</em>," the janitor said, not unkindly. "I've got a floor to wax."</li></ol>
+<p><strong>See also:</strong> <a href="#beat-it">beat it</a>, <a href="#shoo">shoo</a>, <a href="#scat">scat</a>, <a href="#get-lost">get lost</a>, <a href="#vamoose">vamoose</a></p>
+<h3 id="shoo">shoo<a class="hash" href="#shoo" aria-label="link">#</a></h3>
+<p><strong>Pronunciation:</strong> /ʃu/ &middot; <em>SHOO</em> <strong>Type:</strong> primary &middot; <strong>Register:</strong> informal <strong>Variants:</strong> <em>shoo shoo</em></p>
+<p>The sound you make to drive an animal away, and — playfully — people you want out of a room. It comes with a flapping hand almost every time.</p>
+<ol><li>"<em>Shoo</em>! Get off the table," she said to the cat.</li><li><em>Shoo</em>, birds, go find somebody else's fries.</li><li>"<em>Shoo</em>, <em>shoo</em>," Grandma said, waving us out of the kitchen.</li><li>He flapped a dish towel at the fly. "<em>Shoo</em>!"</li><li><em>Shoo</em> — this is a surprise and you're not supposed to see it yet.</li></ol>
+<p><strong>See also:</strong> <a href="#scat">scat</a>, <a href="#scram">scram</a>, <a href="#beat-it">beat it</a>, <a href="#out">out</a></p>
+<h3 id="shove-off">shove off<a class="hash" href="#shove-off" aria-label="link">#</a></h3>
+<p><strong>Pronunciation:</strong> /ˌʃʌv ˈɔf/ &middot; <em>shuv AWF</em> <strong>Type:</strong> phrase &middot; <strong>Register:</strong> very informal</p>
+<p>Go away — rude, and meant to be. It comes from pushing a boat off the dock and still carries that flavor, which is why the same words are also a perfectly neutral "we're heading out" when you say them about yourself. As a dismissal it is less common in American speech than <em>get lost</em> and sounds faintly vintage.</p>
+<ol><li>"<em>Shove off</em>, we don't want any."</li><li><em>Shove off</em> — I'm not lending you another dime.</li><li>Two guys tried to sell us a timeshare and my wife told them to <em>shove off</em>.</li><li>"<em>Shove off</em>, kid," the old fisherman grumbled.</li><li>We're going to <em>shove off</em> around six if you want a ride.</li></ol>
+<p><strong>See also:</strong> <a href="#get-lost">get lost</a>, <a href="#beat-it">beat it</a>, <a href="#buzz-off">buzz off</a>, <a href="#hit-the-road">hit the road</a></p>
+<h3 id="skedaddle">skedaddle<a class="hash" href="#skedaddle" aria-label="link">#</a></h3>
+<p><strong>Pronunciation:</strong> /skɪˈdædəl/ &middot; <em>skih-DAD-uhl</em> <strong>Type:</strong> secondary &middot; <strong>Register:</strong> informal <strong>Variants:</strong> <em>skidaddle</em></p>
+<p>Get going, clear out — Civil War-era slang that survives as a fond, folksy word. It is almost always light-hearted, and just as often used about yourself: "we'd better skedaddle."</p>
+<ol><li>"All right, kids, <em>skedaddle</em>. It's bedtime."</li><li>We'd better <em>skedaddle</em> before the rain starts.</li><li>"<em>Skedaddle</em>!" she said, laughing, and pushed him out the door.</li><li>The second the bell rang, the whole class <em>skedaddled</em>.</li><li><em>Skedaddle</em>, you two, I need this room for a meeting.</li></ol>
+<p><strong>See also:</strong> <a href="#vamoose">vamoose</a>, <a href="#scram">scram</a>, <a href="#shoo">shoo</a>, <a href="#hit-the-road">hit the road</a></p>
+<h3 id="stand-back">stand back<a class="hash" href="#stand-back" aria-label="link">#</a></h3>
+<p><strong>Pronunciation:</strong> /ˌstænd ˈbæk/ &middot; <em>stand BAK</em> <strong>Type:</strong> phrase &middot; <strong>Register:</strong> neutral <strong>Variants:</strong> <em>stand clear</em>, <em>stand well back</em></p>
+<p>Move away from this and give it room — a fire, a downed line, a door that is about to swing open. It is a safety instruction rather than a dismissal, which makes it one of the few things in this section you can shout at strangers without offending anybody.</p>
+<ol><li>"<em>Stand back</em>! The whole thing is coming down."</li><li><em>Stand back</em> from the edge of the platform, please.</li><li>"Everybody <em>stand back</em> and give her some air."</li><li>The crew yelled "<em>Stand back</em>!" and dropped the beam.</li><li><em>Stand clear</em> of the doors — they close on their own.</li></ol>
+<p><strong>See also:</strong> <a href="#step-aside">step aside</a>, <a href="#back-off">back off</a>, <a href="#make-way">make way</a>, <a href="#heads-up">heads up</a></p>
+<h3 id="step-aside">step aside<a class="hash" href="#step-aside" aria-label="link">#</a></h3>
+<p><strong>Pronunciation:</strong> /ˌstɛp əˈsaɪd/ &middot; <em>step uh-SYD</em> <strong>Type:</strong> phrase &middot; <strong>Register:</strong> neutral <strong>Variants:</strong> <em>step back</em>, <em>stand aside</em></p>
+<p>A neutral, official-sounding request to move out of the way. Security guards, medics, and ushers use it, and its flatness is exactly what makes it sound like an order.</p>
+<ol><li>"<em>Step aside</em>, please. Let them through."</li><li><em>Step aside</em>, sir. We need to check your bag.</li><li>"Everybody <em>step aside</em> — ambulance coming."</li><li>She asked the crowd to <em>step aside</em> so the family could pass.</li><li>"<em>Step aside</em>," the officer repeated, more firmly this time.</li></ol>
+<p><strong>See also:</strong> <a href="#make-way">make way</a>, <a href="#move">move</a>, <a href="#coming-through">coming through</a>, <a href="#stand-back">stand back</a>, <a href="#after-you">after you</a></p>
+<h3 id="take-a-hike">take a hike<a class="hash" href="#take-a-hike" aria-label="link">#</a></h3>
+<p><strong>Pronunciation:</strong> /ˌteɪk ə ˈhaɪk/ &middot; <em>tayk uh HYK</em> <strong>Type:</strong> phrase &middot; <strong>Register:</strong> very informal <strong>Variants:</strong> <em>take a walk</em></p>
+<p>Go away — a dismissive, half-joking brush-off that is nonetheless an insult. It also works for rejecting an offer flat out.</p>
+<ol><li>"<em>Take a hike</em>, we're not buying anything."</li><li><em>Take a hike</em> — this is a members-only lot.</li><li>"I told him to <em>take a hike</em> and he finally left."</li><li>"<em>Take a hike</em>, pal," the bartender said, pointing at the door.</li><li>"<em>Take a hike</em>," I said, and closed the door on both of them.</li></ol>
+<p><strong>See also:</strong> <a href="#get-lost">get lost</a>, <a href="#beat-it">beat it</a>, <a href="#buzz-off">buzz off</a>, <a href="#scram">scram</a></p>
+<h3 id="vamoose">vamoose<a class="hash" href="#vamoose" aria-label="link">#</a></h3>
+<p><strong>Pronunciation:</strong> /væˈmus/ &middot; <em>va-MOOS (also /vəˈmus/, vuh-MOOS)</em> <strong>Type:</strong> secondary &middot; <strong>Register:</strong> informal <strong>Variants:</strong> <em>vamos</em></p>
+<p>Get out of here, from Spanish <em>vamos</em>. It is Old West-flavored and almost always used lightly, with a grin behind it.</p>
+<ol><li>"<em>Vamoose</em>, before I change my mind."</li><li>Let's <em>vamoose</em> — this place is dead.</li><li>"<em>Vamoose</em>, you varmints!" he said in his best cowboy voice.</li><li>By the time I found my coat, everybody else had already <em>vamoosed</em>.</li><li><em>Vamoose</em>, kid. The grown-ups are talking.</li></ol>
+<p><strong>See also:</strong> <a href="#skedaddle">skedaddle</a>, <a href="#scram">scram</a>, <a href="#beat-it">beat it</a>, <a href="#hit-the-road">hit the road</a></p>
+<h2 id="hurrying-somebody-along">Hurrying somebody along<a class="hash" href="#hurrying-somebody-along" aria-label="link">#</a></h2>
+<h3 id="chop-chop">chop chop<a class="hash" href="#chop-chop" aria-label="link">#</a></h3>
+<p><strong>Pronunciation:</strong> /ˌtʃɑp ˈtʃɑp/ &middot; <em>chop CHOP</em> <strong>Type:</strong> phrase &middot; <strong>Register:</strong> informal <strong>Variants:</strong> <em>chop-chop</em></p>
+<p>Hurry up, usually delivered with two sharp claps. It is bossy by design: playful from a parent, condescending from a boss, and best avoided with anyone who outranks you.</p>
+<ol><li>"<em>Chop chop</em>, we're leaving in five minutes!"</li><li><em>Chop chop</em> — those dishes aren't going to wash themselves.</li><li>She clapped twice. "<em>Chop chop</em>, everybody."</li><li>"Shoes on, coats on, <em>chop chop</em>."</li><li><em>Chop chop</em>, the reservation is at seven.</li></ol>
+<p><strong>See also:</strong> <a href="#hurry-up">hurry up</a>, <a href="#shake-a-leg">shake a leg</a>, <a href="#step-on-it">step on it</a>, <a href="#move">move</a>, <a href="#look-alive">look alive</a></p>
+<h3 id="get-a-move-on">get a move on<a class="hash" href="#get-a-move-on" aria-label="link">#</a></h3>
+<p><strong>Pronunciation:</strong> /ˌɡɛt ə ˈmuv ɑn/ &middot; <em>get uh MOOV on</em> <strong>Type:</strong> phrase &middot; <strong>Register:</strong> informal <strong>Variants:</strong> <em>get moving</em>, <em>get a move on it</em></p>
+<p>Start moving and go faster — an everyday prod that assumes the other person is dawdling. It sits between the clap-along <em>chop chop</em> and a genuine bark, and it works up and down a family but not up a chain of command.</p>
+<ol><li>"<em>Get a move on</em>, the movie starts at seven."</li><li><em>Get a move on</em> — that line is only getting longer.</li><li>He was still eating breakfast at eight fifteen. "<em>Get a move on</em>."</li><li>If we don't <em>get a move on</em>, we're going to hit rush hour.</li><li>"<em>Get a move on</em>, Sanchez!" the coach hollered from the sideline.</li></ol>
+<p><strong>See also:</strong> <a href="#hurry-up">hurry up</a>, <a href="#chop-chop">chop chop</a>, <a href="#shake-a-leg">shake a leg</a>, <a href="#move">move</a></p>
+<h3 id="hurry-up">hurry up<a class="hash" href="#hurry-up" aria-label="link">#</a></h3>
+<p><strong>Pronunciation:</strong> /ˌhɜri ˈʌp/ &middot; <em>hur-ee UP</em> <strong>Type:</strong> phrase &middot; <strong>Register:</strong> neutral <strong>Variants:</strong> <em>hurry</em>, <em>hurry it up</em>, <em>hurry along</em></p>
+<p>The plainest member of this group: go faster. It is neutral enough for strangers, children, and coworkers alike, though repeated it turns naggy fast, and <em>hurry it up</em> is noticeably sharper than a bare <em>hurry up</em>.</p>
+<ol><li>"<em>Hurry up</em>, the bus is already at the corner."</li><li><em>Hurry up</em> and pick one — there are people behind us.</li><li>"Can you <em>hurry up</em> in there? I need the bathroom too."</li><li>He kept telling everyone to <em>hurry up</em> and then spent twenty minutes finding his keys.</li><li>"<em>Hurry it up</em>, folks. We're closing in ten."</li></ol>
+<p><strong>See also:</strong> <a href="#chop-chop">chop chop</a>, <a href="#get-a-move-on">get a move on</a>, <a href="#shake-a-leg">shake a leg</a>, <a href="#step-on-it">step on it</a></p>
+<h3 id="make-it-snappy">make it snappy<a class="hash" href="#make-it-snappy" aria-label="link">#</a></h3>
+<p><strong>Pronunciation:</strong> /ˌmeɪk ɪt ˈsnæpi/ &middot; <em>mayk it SNAP-ee</em> <strong>Type:</strong> phrase &middot; <strong>Register:</strong> informal</p>
+<p>Be quick about it — a wisecracking order straight out of a 1940s detective picture. Nine times out of ten a modern American says it with a wink, because said flat it sounds like a caricature of a boss.</p>
+<ol><li>"Two coffees, and <em>make it snappy</em>."</li><li><em>Make it snappy</em> — I've got a meeting in four minutes.</li><li>"You get one question. <em>Make it snappy</em>."</li><li>He said he needed a favor, so I told him to <em>make it snappy</em>.</li><li>"<em>Make it snappy</em>, kid," she said, doing her worst Bogart.</li></ol>
+<p><strong>See also:</strong> <a href="#step-on-it">step on it</a>, <a href="#chop-chop">chop chop</a>, <a href="#hurry-up">hurry up</a>, <a href="#on-the-double">on the double</a></p>
+<h3 id="on-the-double">on the double<a class="hash" href="#on-the-double" aria-label="link">#</a></h3>
+<p><strong>Pronunciation:</strong> /ˌɑn ðə ˈdʌbəl/ &middot; <em>on thuh DUB-uhl</em> <strong>Type:</strong> phrase &middot; <strong>Register:</strong> informal</p>
+<p>Immediately, at a run — from the military <em>double time</em>. Out of uniform it is deliberately jokey-officious, the tone of a parent doing a drill-sergeant voice about the laundry.</p>
+<ol><li>"Get me that file, <em>on the double</em>."</li><li><em>On the double</em>, gentlemen. We're already behind.</li><li>"Upstairs, teeth brushed, <em>on the double</em>," my mother said.</li><li>The medic was there <em>on the double</em>.</li><li>"<em>On the double</em>!" he barked, and then ruined it by laughing.</li></ol>
+<p><strong>See also:</strong> <a href="#chop-chop">chop chop</a>, <a href="#hurry-up">hurry up</a>, <a href="#step-on-it">step on it</a>, <a href="#look-alive">look alive</a></p>
+<h3 id="shake-a-leg">shake a leg<a class="hash" href="#shake-a-leg" aria-label="link">#</a></h3>
+<p><strong>Pronunciation:</strong> /ˌʃeɪk ə ˈlɛɡ/ &middot; <em>shayk uh LEG</em> <strong>Type:</strong> phrase &middot; <strong>Register:</strong> informal</p>
+<p>Hurry up. Folksy and a little old-fashioned — the kind of thing a parent yells up the stairs at somebody who is still not dressed.</p>
+<ol><li>"<em>Shake a leg</em>! The bus is at the corner."</li><li><em>Shake a leg</em>, we're already running late.</li><li>"Come on, <em>shake a leg</em> — the game starts in ten minutes."</li><li>She banged on the bathroom door. "<em>Shake a leg</em> in there!"</li><li><em>Shake a leg</em> — Grandma's been sitting out in the car for ten minutes.</li></ol>
+<p><strong>See also:</strong> <a href="#chop-chop">chop chop</a>, <a href="#hurry-up">hurry up</a>, <a href="#step-on-it">step on it</a>, <a href="#move">move</a>, <a href="#look-alive">look alive</a></p>
+<h3 id="snap-to-it">snap to it<a class="hash" href="#snap-to-it" aria-label="link">#</a></h3>
+<p><strong>Pronunciation:</strong> /ˌsnæp ˈtu ɪt/ &middot; <em>snap TOO it</em> <strong>Type:</strong> phrase &middot; <strong>Register:</strong> informal</p>
+<p>Get on it right now — a brisk, faintly military prod that normally comes from somebody who outranks you and knows it. It is bossier than <em>hurry up</em> and lands badly among peers.</p>
+<ol><li>"Boxes on the truck by noon. <em>Snap to it</em>."</li><li><em>Snap to it</em> — the truck is here and nothing's loaded.</li><li>"Yes, sir," he said, and snapped to it.</li><li>She pointed at the sink full of dishes. "<em>Snap to it</em>."</li><li><em>Snap to it</em>, people. The bus leaves whether you're on it or not.</li></ol>
+<p><strong>See also:</strong> <a href="#chop-chop">chop chop</a>, <a href="#hurry-up">hurry up</a>, <a href="#look-alive">look alive</a>, <a href="#move">move</a></p>
+<h3 id="step-on-it">step on it<a class="hash" href="#step-on-it" aria-label="link">#</a></h3>
+<p><strong>Pronunciation:</strong> /ˈstɛp ɑn ɪt/ &middot; <em>STEP on it</em> <strong>Type:</strong> phrase &middot; <strong>Register:</strong> informal <strong>Variants:</strong> <em>step on the gas</em>, <em>put your foot down</em></p>
+<p>Drive faster — literally, step on the gas pedal. It stretches beyond cars to mean "hurry up," and it always sounds a little like a line from a movie.</p>
+<ol><li>"<em>Step on it</em>! We've got twelve minutes."</li><li><em>Step on it</em>, the flight boards at four.</li><li>"Airport, and <em>step on it</em>," he told the driver.</li><li>If we want to catch the last ferry, you'd better <em>step on it</em>.</li><li>"<em>Step on it</em>," she said, "before that light changes."</li></ol>
+<p><strong>See also:</strong> <a href="#chop-chop">chop chop</a>, <a href="#shake-a-leg">shake a leg</a>, <a href="#hurry-up">hurry up</a>, <a href="#make-it-snappy">make it snappy</a>, <a href="#move">move</a></p>
+<h2 id="yielding-inviting-and-giving-permission">Yielding, inviting, and giving permission<a class="hash" href="#yielding-inviting-and-giving-permission" aria-label="link">#</a></h2>
+<h3 id="after-you">after you<a class="hash" href="#after-you" aria-label="link">#</a></h3>
+<p><strong>Pronunciation:</strong> /ˈæftər ju/ &middot; <em>AF-ter yoo</em> <strong>Type:</strong> phrase &middot; <strong>Register:</strong> formal <strong>Variants:</strong> <em>after you, sir</em>, <em>you first</em></p>
+<p>A polite yielding of the right of way at a door, an elevator, or a buffet line, almost always with a small hand gesture. It is one of the few interjections in this category that makes you sound more courteous, not less.</p>
+<ol><li>"<em>After you</em>," he said, holding the door.</li><li><em>After you</em> — I'm in no hurry.</li><li>She stepped back from the elevator. "<em>After you</em>."</li><li>"No, no, <em>after you</em>. Please."</li><li><em>After you</em>, ma'am. I'll catch the next one.</li></ol>
+<p><strong>See also:</strong> <a href="#go-ahead">go ahead</a>, <a href="#be-my-guest">be my guest</a>, <a href="#pardon-me">pardon me</a>, <a href="#step-aside">step aside</a></p>
+<h3 id="be-my-guest">be my guest<a class="hash" href="#be-my-guest" aria-label="link">#</a></h3>
+<p><strong>Pronunciation:</strong> /ˌbi maɪ ˈɡɛst/ &middot; <em>bee my GEST</em> <strong>Type:</strong> phrase &middot; <strong>Register:</strong> neutral</p>
+<p>Permission with a shrug: go right ahead, help yourself. Warm hospitality in one tone of voice and a dry "suit yourself, it won't help" in another.</p>
+<ol><li>"Mind if I take the last slice?" — "<em>Be my guest</em>."</li><li><em>Be my guest</em> — the coffee's fresh.</li><li>"You want to try explaining it to him? <em>Be my guest</em>."</li><li>If you think you can fix it, <em>be my guest</em>.</li><li>"Can I borrow your desk for an hour?" — "<em>Be my guest</em>."</li></ol>
+<p><strong>See also:</strong> <a href="#go-ahead">go ahead</a>, <a href="#help-yourself">help yourself</a>, <a href="#knock-yourself-out">knock yourself out</a>, <a href="#have-at-it">have at it</a></p>
+<h3 id="by-all-means">by all means<a class="hash" href="#by-all-means" aria-label="link">#</a></h3>
+<p><strong>Pronunciation:</strong> /baɪ ˌɔl ˈminz/ &middot; <em>by awl MEENZ</em> <strong>Type:</strong> phrase &middot; <strong>Register:</strong> formal</p>
+<p>An emphatic, courteous "yes, of course — go ahead." It grants permission with a touch of ceremony, and delivered flatly it curdles into sarcasm.</p>
+<ol><li>"May I ask a question?" — "<em>By all means</em>."</li><li><em>By all means</em>, take as much time as you need.</li><li>"<em>By all means</em>, sit down. Can I get you anything?"</li><li>If you'd like to see the contract, <em>by all means</em>.</li><li>"<em>By all means</em>," he said, "tell us what you would have done differently."</li></ol>
+<p><strong>See also:</strong> <a href="#go-ahead">go ahead</a>, <a href="#be-my-guest">be my guest</a>, <a href="#help-yourself">help yourself</a>, <a href="#fire-away">fire away</a></p>
+<h3 id="carry-on">carry on<a class="hash" href="#carry-on" aria-label="link">#</a></h3>
+<p><strong>Pronunciation:</strong> /ˌkæri ˈɑn/ &middot; <em>ka-ree ON</em> <strong>Type:</strong> phrase &middot; <strong>Register:</strong> neutral <strong>Variants:</strong> <em>carry on then</em>, <em>as you were</em></p>
+<p>Go back to what you were doing — the standard release after an interruption, from an officer walking a room or a manager who stuck their head in and saw nothing wrong. Delivered dryly to friends caught mid-nonsense, it is a small joke.</p>
+<ol><li>"Don't mind me. <em>Carry on</em>."</li><li><em>Carry on</em> — I was only looking for a stapler.</li><li>The colonel returned the salute. "<em>Carry on</em>."</li><li>She walked in on the two of them arguing about pizza toppings, said "<em>Carry on</em>," and walked back out.</li><li>"<em>Carry on</em>, everybody. False alarm."</li></ol>
+<p><strong>See also:</strong> <a href="#go-ahead">go ahead</a>, <a href="#by-all-means">by all means</a>, <a href="#be-my-guest">be my guest</a>, <a href="#have-at-it">have at it</a></p>
+<h3 id="feel-free">feel free<a class="hash" href="#feel-free" aria-label="link">#</a></h3>
+<p><strong>Pronunciation:</strong> /ˌfil ˈfri/ &middot; <em>feel FREE</em> <strong>Type:</strong> phrase &middot; <strong>Register:</strong> neutral <strong>Variants:</strong> <em>feel free to</em></p>
+<p>Permission granted in advance: nobody will mind if you do this. It is the office and hospitality standard, warm without gushing, and flattened out it carries a shrug — <em>feel free, but I wouldn't</em>.</p>
+<ol><li>"Can I move this chair?" — "<em>Feel free</em>."</li><li><em>Feel free</em> to grab a coffee while you wait.</li><li>"<em>Feel free</em> to email me if anything else comes up."</li><li>If you want to try it your way, <em>feel free</em>.</li><li>She left the pen on the counter and said, "<em>Feel free</em>."</li></ol>
+<p><strong>See also:</strong> <a href="#be-my-guest">be my guest</a>, <a href="#help-yourself">help yourself</a>, <a href="#go-ahead">go ahead</a>, <a href="#by-all-means">by all means</a></p>
+<h3 id="fire-away">fire away<a class="hash" href="#fire-away" aria-label="link">#</a></h3>
+<p><strong>Pronunciation:</strong> /ˌfaɪər əˈweɪ/ &middot; <em>fyr uh-WAY</em> <strong>Type:</strong> phrase &middot; <strong>Register:</strong> informal</p>
+<p>Go ahead and ask — the standard invitation when somebody says they have questions for you.</p>
+<ol><li>"Can I ask you something?" — "<em>Fire away</em>."</li><li><em>Fire away</em> — I've got about ten minutes before my next call.</li><li>"You said you had a list of questions. <em>Fire away</em>."</li><li>He put down his pen. "All right, <em>fire away</em>."</li><li>"<em>Fire away</em>, but I may not know the answer."</li></ol>
+<p><strong>See also:</strong> <a href="#shoot">shoot</a>, <a href="#go-ahead">go ahead</a>, <a href="#by-all-means">by all means</a>, <a href="#have-at-it">have at it</a></p>
+<h3 id="go-ahead">go ahead<a class="hash" href="#go-ahead" aria-label="link">#</a></h3>
+<p><strong>Pronunciation:</strong> /ˌɡoʊ əˈhɛd/ &middot; <em>goh uh-HED</em> <strong>Type:</strong> phrase &middot; <strong>Register:</strong> neutral <strong>Variants:</strong> <em>go on</em>, <em>go right ahead</em></p>
+<p>Permission to proceed — start talking, start eating, take the parking spot. Said with a hard edge and a stare, the same words become a dare: "go ahead, try it."</p>
+<ol><li>"<em>Go ahead</em>, I'm listening."</li><li><em>Go ahead</em> and start without me — I'll be twenty minutes late.</li><li>"Is this seat free?" — "<em>Go right ahead</em>."</li><li><em>Go ahead</em>, take the last one. I've already had three.</li><li>"<em>Go ahead</em>," he said. "Say it one more time and see what happens."</li></ol>
+<p><strong>See also:</strong> <a href="#be-my-guest">be my guest</a>, <a href="#by-all-means">by all means</a>, <a href="#after-you">after you</a>, <a href="#shoot">shoot</a></p>
+<h3 id="go-for-it">go for it<a class="hash" href="#go-for-it" aria-label="link">#</a></h3>
+<p><strong>Pronunciation:</strong> /ˌɡoʊ fər ˈɪt/ &middot; <em>goh fer IT</em> <strong>Type:</strong> phrase &middot; <strong>Register:</strong> informal</p>
+<p>Encouraging permission: do it, take the shot, don't hesitate. It is a green light with enthusiasm attached, which is what separates it from a flat <em>go ahead</em>.</p>
+<ol><li>"Should I apply?" — "<em>Go for it</em>!"</li><li><em>Go for it</em> — the worst they can say is no.</li><li>"Mind if I try?" — "<em>Go for it</em>."</li><li>She's been talking about that trip for years, so I told her to <em>go for it</em>.</li><li>"<em>Go for it</em>, man. You've got nothing to lose."</li></ol>
+<p><strong>See also:</strong> <a href="#have-at-it">have at it</a>, <a href="#knock-yourself-out">knock yourself out</a>, <a href="#be-my-guest">be my guest</a>, <a href="#go-ahead">go ahead</a></p>
+<h3 id="have-at-it">have at it<a class="hash" href="#have-at-it" aria-label="link">#</a></h3>
+<p><strong>Pronunciation:</strong> /ˌhæv ˈæt ɪt/ &middot; <em>hav AT it</em> <strong>Type:</strong> phrase &middot; <strong>Register:</strong> informal <strong>Variants:</strong> <em>have at</em></p>
+<p>Go ahead and dig in, take over, or take your best shot. It usually comes with a handoff — of a plate, a tool, or a problem you are tired of.</p>
+<ol><li>"There's pizza in the kitchen — <em>have at it</em>."</li><li><em>Have at it</em>. I've been staring at this code for six hours and I'm done.</li><li>"You think you can do better? <em>Have at it</em>."</li><li>He handed me the wrench. "<em>Have at it</em>."</li><li>The kids saw the presents and we said, "<em>Have at it</em>."</li></ol>
+<p><strong>See also:</strong> <a href="#go-for-it">go for it</a>, <a href="#be-my-guest">be my guest</a>, <a href="#help-yourself">help yourself</a>, <a href="#knock-yourself-out">knock yourself out</a></p>
+<h3 id="help-yourself">help yourself<a class="hash" href="#help-yourself" aria-label="link">#</a></h3>
+<p><strong>Pronunciation:</strong> /ˌhɛlp jərˈsɛlf/ &middot; <em>help yer-SELF</em> <strong>Type:</strong> phrase &middot; <strong>Register:</strong> neutral <strong>Variants:</strong> <em>help yourselves</em></p>
+<p>Take what you want without asking first — the host's standard line about food, drinks, and supplies.</p>
+<ol><li>"<em>Help yourself</em>, there's plenty."</li><li><em>Help yourself</em> to anything in the fridge.</li><li>"Coffee's over there — <em>help yourselves</em>."</li><li>"Can I grab a pen?" — "<em>Help yourself</em>."</li><li><em>Help yourself</em> to the leftovers; otherwise they're going in the trash.</li></ol>
+<p><strong>See also:</strong> <a href="#be-my-guest">be my guest</a>, <a href="#have-at-it">have at it</a>, <a href="#go-ahead">go ahead</a></p>
+<h3 id="knock-yourself-out">knock yourself out<a class="hash" href="#knock-yourself-out" aria-label="link">#</a></h3>
+<p><strong>Pronunciation:</strong> /ˌnɑk jərˈsɛlf ˌaʊt/ &middot; <em>nok yer-SELF owt</em> <strong>Type:</strong> phrase &middot; <strong>Register:</strong> informal</p>
+<p>Go right ahead — usually with a shrug that means "it's your time to waste" or "I'm not going to stop you." It is rarely warm, and it is never something to say to a customer.</p>
+<ol><li>"Can I reorganize the whole spreadsheet?" — "<em>Knock yourself out</em>."</li><li><em>Knock yourself out</em> — I already tried it and it didn't work.</li><li>"You want to argue with him about it? <em>Knock yourself out</em>."</li><li>"<em>Knock yourself out</em>," he said, sliding the whole box of files across the desk.</li><li>If you want to stand in that line for three hours, <em>knock yourself out</em>.</li></ol>
+<p><strong>See also:</strong> <a href="#be-my-guest">be my guest</a>, <a href="#have-at-it">have at it</a>, <a href="#go-for-it">go for it</a></p>
+<h3 id="shoot">shoot<a class="hash" href="#shoot" aria-label="link">#</a></h3>
+<p><strong>Pronunciation:</strong> /ʃut/ &middot; <em>SHOOT</em> <strong>Type:</strong> secondary &middot; <strong>Register:</strong> informal</p>
+<p>In this use, "go ahead and ask" — a casual green light for somebody's question. The identical word is also a mild substitute swear for frustration, which is a completely separate use.</p>
+<ol><li>"You got a minute? I need your read on something." — "<em>Shoot</em>."</li><li><em>Shoot</em>. What's on your mind?</li><li>He leaned back in his chair. "All right, <em>shoot</em>."</li><li>"I have two questions for you." — "<em>Shoot</em>."</li><li><em>Shoot</em> — but keep it short, I've got a call in five minutes.</li></ol>
+<p><strong>See also:</strong> <a href="#fire-away">fire away</a>, <a href="#go-ahead">go ahead</a>, <a href="#by-all-means">by all means</a></p>
+<h3 id="take-five">take five<a class="hash" href="#take-five" aria-label="link">#</a></h3>
+<p><strong>Pronunciation:</strong> /ˌteɪk ˈfaɪv/ &middot; <em>tayk FYV</em> <strong>Type:</strong> phrase &middot; <strong>Register:</strong> informal <strong>Variants:</strong> <em>take ten</em>, <em>take a breather</em></p>
+<p>Stop and rest for a few minutes — from the five-minute break called on film sets, in rehearsal rooms, and on job sites. It grants a pause rather than permission to act, which is what separates it from <em>go ahead</em>.</p>
+<ol><li>"All right, everybody, <em>take five</em>."</li><li><em>Take five</em> and we'll run it again from the top.</li><li>The foreman waved at the crew. "<em>Take ten</em>. It's too hot for this."</li><li>We took five on the tailgate and split a bag of chips.</li><li>"<em>Take five</em>," she said. "You've been staring at that screen since seven."</li></ol>
+<p><strong>See also:</strong> <a href="#time-out">time out</a>, <a href="#one-moment">one moment</a>, <a href="#hold-on">hold on</a>, <a href="#go-ahead">go ahead</a></p></div></main>
+<button class="themebtn" id="themeBtn">Dark</button>
+<script>
+const tb=document.getElementById('themeBtn');
+function setTheme(x){document.documentElement.dataset.theme=x;tb.textContent=x==='dark'?'Light':'Dark';
+ try{localStorage.setItem('site-theme',x)}catch(e){}}
+tb.onclick=()=>setTheme(document.documentElement.dataset.theme==='dark'?'light':'dark');
+try{const s=localStorage.getItem('site-theme');
+ setTheme(s||(matchMedia('(prefers-color-scheme: dark)').matches?'dark':'light'))}catch(e){setTheme('light')}
+</script></body></html>

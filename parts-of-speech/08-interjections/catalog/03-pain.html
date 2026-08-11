@@ -1,0 +1,336 @@
+<!DOCTYPE html>
+<html lang="en"><head>
+<meta charset="utf-8"><meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Pain, effort, and physical sensation</title>
+<style>
+:root{--bg:#faf9f7;--surface:#fff;--surface2:#f2f0ec;--border:#e2ded6;--text:#1a1815;
+--dim:#5f594f;--faint:#8a8377;--accent:#b4552a;--measure:72ch}
+@media(prefers-color-scheme:dark){:root{--bg:#14140f;--surface:#1d1d17;--surface2:#25251d;
+--border:#33332a;--text:#eeeae1;--dim:#a8a293;--faint:#7d776b;--accent:#e8935f}}
+:root[data-theme=dark]{--bg:#14140f;--surface:#1d1d17;--surface2:#25251d;--border:#33332a;
+--text:#eeeae1;--dim:#a8a293;--faint:#7d776b;--accent:#e8935f}
+:root[data-theme=light]{--bg:#faf9f7;--surface:#fff;--surface2:#f2f0ec;--border:#e2ded6;
+--text:#1a1815;--dim:#5f594f;--faint:#8a8377;--accent:#b4552a}
+*{box-sizing:border-box}
+body{margin:0;background:var(--bg);color:var(--text);
+font:17px/1.72 ui-serif,Georgia,"Iowan Old Style",Palatino,serif;-webkit-font-smoothing:antialiased}
+.ui{font-family:-apple-system,BlinkMacSystemFont,"Segoe UI",Inter,Roboto,sans-serif}
+.wrap{max-width:min(var(--measure),100%);margin:0 auto;padding:0 22px}
+nav.crumb{border-bottom:1px solid var(--border);padding:13px 0;font-size:13.5px;
+font-family:-apple-system,sans-serif;position:sticky;top:0;background:var(--bg);z-index:20}
+nav.crumb .wrap{max-width:none;display:flex;gap:9px;align-items:center;flex-wrap:wrap}
+nav.crumb a{color:var(--dim);text-decoration:none}
+nav.crumb a:hover{color:var(--accent)}
+nav.crumb .sep{color:var(--faint)}
+main{padding:8px 0 80px}
+h1{font-size:clamp(28px,5vw,38px);line-height:1.15;letter-spacing:-.015em;margin:34px 0 18px}
+h2{font-size:25px;margin:46px 0 14px;letter-spacing:-.01em;padding-bottom:7px;border-bottom:1px solid var(--border)}
+h3{font-size:19px;margin:34px 0 10px;color:var(--accent)}
+h4{font-size:16px;margin:24px 0 8px;font-family:-apple-system,sans-serif}
+p{margin:0 0 16px}
+a{color:var(--accent)}
+.hash{opacity:0;margin-left:8px;font-weight:400;font-size:.65em;text-decoration:none;color:var(--faint)}
+h2:hover .hash,h3:hover .hash{opacity:1}
+blockquote{margin:0 0 20px;padding:14px 18px;background:var(--surface2);
+border-left:3px solid var(--accent);border-radius:0 8px 8px 0}
+blockquote p:last-child{margin-bottom:0}
+ol,ul{margin:0 0 18px;padding-left:26px}
+li{margin-bottom:8px}
+li>ul,li>ol{margin:8px 0 0}
+code{font-family:ui-monospace,SFMono-Regular,Menlo,Consolas,monospace;font-size:.87em;
+background:var(--surface2);padding:1px 5px;border-radius:4px}
+pre{background:var(--surface2);border:1px solid var(--border);border-radius:9px;
+padding:15px 17px;overflow-x:auto;margin:0 0 20px}
+pre code{background:none;padding:0;font-size:13px;line-height:1.6}
+.tw{overflow-x:auto;margin:0 0 22px;border:1px solid var(--border);border-radius:9px}
+table{border-collapse:collapse;width:100%;font-size:15px;
+font-family:-apple-system,BlinkMacSystemFont,"Segoe UI",sans-serif}
+th,td{padding:10px 14px;border-bottom:1px solid var(--border);vertical-align:top}
+th{background:var(--surface2);font-size:12px;text-transform:uppercase;
+letter-spacing:.06em;color:var(--dim);font-weight:700;white-space:nowrap}
+tbody tr:last-child td{border-bottom:none}
+hr{border:none;border-top:1px solid var(--border);margin:38px 0}
+details{background:var(--surface2);border:1px solid var(--border);border-radius:9px;
+padding:13px 17px;margin:0 0 20px}
+summary{cursor:pointer;font-weight:600;font-family:-apple-system,sans-serif;font-size:15px}
+details[open] summary{margin-bottom:12px}
+del{color:var(--faint)}
+.toc{background:var(--surface2);border:1px solid var(--border);border-radius:10px;
+padding:16px 20px;margin:26px 0 34px;font-family:-apple-system,sans-serif;font-size:14px}
+.toc b{display:block;font-size:11px;letter-spacing:.12em;text-transform:uppercase;
+color:var(--faint);margin-bottom:9px}
+.toc a{display:block;padding:3px 0;color:var(--dim);text-decoration:none}
+.toc a:hover{color:var(--accent)}
+.toc a.l3{padding-left:16px;font-size:13.5px}
+.themebtn{position:fixed;right:18px;bottom:18px;z-index:60;font-family:-apple-system,sans-serif;
+font-size:12.5px;font-weight:600;cursor:pointer;background:var(--surface);border:1px solid var(--border);
+border-radius:99px;padding:9px 16px;color:var(--text)}
+@media(max-width:600px){body{font-size:16px}.wrap{padding:0 17px}}
+</style></head><body>
+<nav class="crumb"><div class="wrap"><a href="../../../index.html">Learn English</a><span class="sep">/</span><a href="../../README.html">Parts of speech</a><span class="sep">/</span><a href="../README.html">08-interjections</a><span class="sep">/</span><span>catalog</span></div></nav>
+<main><div class="wrap"><div class="toc"><b>On this page</b><a class="l2" href="#sudden-pain-and-injury">Sudden pain and injury</a><a class="l2" href="#effort-exertion-and-strain">Effort, exertion, and strain</a><a class="l2" href="#temperature-relief-and-physical-pleasure">Temperature, relief, and physical pleasure</a><a class="l2" href="#involuntary-body-sounds">Involuntary body sounds</a></div><h1 id="pain-effort-and-physical-sensation">Pain, effort, and physical sensation<a class="hash" href="#pain-effort-and-physical-sensation" aria-label="link">#</a></h1>
+<blockquote><p>The interjections Americans use when the body speaks first — when something hurts, when something is heavy, when something is too hot, too cold, too delicious, or about to come out of the nose.</p></blockquote>
+<p><a href="../README.html">← Back to the interjections index</a> &middot; <a href="README.html">All categories</a></p>
+<p>What unites this group is that the speaker is reporting a body, not an opinion. Some of these words are conventional cries every American learns as a child (<em>ouch, ow, brr, phew</em>); others are attempts to spell a noise that has no letters — a grunt, a hiss through the teeth, a hum of pleasure — which is why so many of them have four or five accepted spellings and no settled pronunciation. Length is the volume dial here: <em>ah</em> is a small comfortable breath, <em>ahhhhh</em> is a long one, and <em>ow ow ow</em> means the pain has not stopped. Most take an exclamation point at the moment of the sensation and a period when the speaker is commenting on it afterward.</p>
+<h2 id="sudden-pain-and-injury">Sudden pain and injury<a class="hash" href="#sudden-pain-and-injury" aria-label="link">#</a></h2>
+<p>These are the reflexes — the sounds that come out before the sentence does, plus the ones used to wince at someone else's injury.</p>
+<h3 id="argh">argh<a class="hash" href="#argh" aria-label="link">#</a></h3>
+<p><strong>Pronunciation:</strong> /ɑrɡ/ (also /ɑr/, with the <em>g</em> swallowed) &middot; <em>ARG</em> <strong>Type:</strong> primary &middot; <strong>Register:</strong> informal <strong>Variants:</strong> <em>aargh</em>, <em>aaargh</em>, <em>agh</em>, <em>augh</em>, <em>arrgh</em></p>
+<p>A growled cry of pain, frustration, or exasperation, held as long as the feeling lasts. In speech it is a real groan from the throat; in writing, the number of <em>a</em>'s and <em>h</em>'s works as a rough volume dial.</p>
+<ol><li>"<em>Argh!</em> I stubbed my toe on that table leg again."</li><li><em>Aargh</em> — my back went out just picking up the laundry basket.</li><li>He hit the ground, grabbed his ankle, and let out an <em>argh</em> you could hear from the parking lot.</li><li>"<em>Arrrgh</em>, I've been on hold with the insurance company for forty-five minutes."</li><li><em>Argh.</em> I hate scrubbing this shower.</li><li>She typed "<em>aaargh</em>" in the group chat when the flight got pushed back a third time.</li></ol>
+<p><strong>See also:</strong> <a href="#ow">ow</a>, <a href="#ugh">ugh</a>, <a href="#oof">oof</a>, <a href="#yowch">yowch</a></p>
+<h3 id="eee">eee<a class="hash" href="#eee" aria-label="link">#</a></h3>
+<p><strong>Pronunciation:</strong> /i/ &middot; <em>EE</em> <strong>Type:</strong> primary &middot; <strong>Register:</strong> very informal <strong>Variants:</strong> <em>eeee</em>, <em>eeeee</em>, <em>ee</em></p>
+<p>A high, thin squeal pushed out through clenched teeth — a small sharp pain, a wince, or a shiver. The same sound also expresses barely contained excitement, so context and the speaker's face do the work of telling the two apart.</p>
+<ol><li>"<em>Eee!</em> Cold hands — do not touch me with those."</li><li>She let out a tiny <em>eee</em> when the nurse slid the needle in.</li><li><em>Eeee</em>, that splinter is way deeper than I thought.</li><li>"<em>Eee</em>, stop — I cannot handle anybody touching my feet."</li><li>He made a small <em>eee</em> sound and yanked his hand back from the pan.</li><li><em>Eee</em> — the hot sauce took about ten seconds to hit.</li></ol>
+<p><strong>See also:</strong> <a href="#ow">ow</a>, <a href="#ouch">ouch</a>, <a href="#sss">sss</a>, <a href="#yow">yow</a></p>
+<h3 id="oof">oof<a class="hash" href="#oof" aria-label="link">#</a></h3>
+<p><strong>Pronunciation:</strong> /ʊf/ (also /uf/) &middot; <em>OOF</em> — with the vowel of <em>book</em> <strong>Type:</strong> onomatopoeic &middot; <strong>Register:</strong> informal <strong>Variants:</strong> <em>ooof</em>, <em>whoof</em>, <em>oofff</em></p>
+<p>The sound of air being knocked out of you — used for a blow to the body, for the strain of lifting something heavy, and, by extension, for wincing sympathetically at someone else's bad news. It is the most common way an American reacts to something that merely <em>looked</em> like it hurt.</p>
+<ol><li>"<em>Oof!</em>" He caught the medicine ball right in the stomach.</li><li><em>Oof</em> — this box is a lot heavier than it looks.</li><li>"Three root canals in one week?" "<em>Oof.</em>"</li><li>She dropped onto the couch with an <em>oof</em> and pulled off her boots.</li><li><em>Oof</em>, my knees do not love these stairs anymore.</li><li>"<em>Oof</em>, that's a rough number," he said, reading the repair estimate.</li></ol>
+<p><strong>See also:</strong> <a href="#uff-da">uff da</a>, <a href="#ow">ow</a>, <a href="#ungh">ungh</a>, <a href="#ugh">ugh</a></p>
+<h3 id="ouch">ouch<a class="hash" href="#ouch" aria-label="link">#</a></h3>
+<p><strong>Pronunciation:</strong> /aʊtʃ/ &middot; <em>OWCH</em> <strong>Type:</strong> primary &middot; <strong>Register:</strong> neutral</p>
+<p>The standard American cry for sudden, sharp pain — a burn, a pinch, a needle, a stubbed toe. It is equally common one step removed, as a comment on a remark or a price that stings, where it means "that's harsh" or "that's expensive."</p>
+<ol><li>"<em>Ouch!</em>" she said, jerking her hand back from the burner.</li><li><em>Ouch</em> — careful, that stapler bites.</li><li>"Four hundred dollars just for the part?" "<em>Ouch.</em>"</li><li>He said <em>ouch</em> before the doctor had even touched him.</li><li><em>Ouch.</em> You didn't have to tell her the sweater was ugly.</li><li>Every time I turn my head — <em>ouch</em>, right at the base of my neck.</li></ol>
+<p><strong>See also:</strong> <a href="#ow">ow</a>, <a href="#owie">owie</a>, <a href="#oof">oof</a>, <a href="#yowch">yowch</a></p>
+<h3 id="ow">ow<a class="hash" href="#ow" aria-label="link">#</a></h3>
+<p><strong>Pronunciation:</strong> /aʊ/ &middot; <em>OW</em> <strong>Type:</strong> primary &middot; <strong>Register:</strong> neutral <strong>Variants:</strong> <em>oww</em>, <em>owww</em>, <em>ow ow ow</em></p>
+<p>The shortest and most reflexive cry of pain in American English, usually out of your mouth before you know what hurt. Repeated as <em>ow ow ow</em>, it means the pain is ongoing rather than a single jolt. Compared with <em>ouch</em>, it is more often the involuntary yelp at the moment of injury and less often a figurative comment.</p>
+<ol><li>"<em>Ow!</em> You're standing on my foot."</li><li><em>Ow, ow, ow</em> — hot plate, hot plate, put it down.</li><li>She caught her finger in the drawer and said <em>ow</em> about six times in a row.</li><li>"<em>Ow.</em> My arm is still sore from the flu shot."</li><li><em>Owww</em>, don't pull so hard when you brush it.</li><li>Every step on that ankle came with a quiet <em>ow</em>.</li></ol>
+<p><strong>See also:</strong> <a href="#ouch">ouch</a>, <a href="#owie">owie</a>, <a href="#argh">argh</a>, <a href="#yow">yow</a></p>
+<h3 id="owie">owie<a class="hash" href="#owie" aria-label="link">#</a></h3>
+<p><strong>Pronunciation:</strong> /ˈaʊi/ &middot; <em>OW-ee</em> <strong>Type:</strong> primary &middot; <strong>Register:</strong> childish <strong>Variants:</strong> <em>ouchie</em>, <em>owwie</em>, <em>ouchy</em></p>
+<p>A small child's cry for a minor injury — and the word for the injury itself: a scrape, a bumped knee, a paper cut. Adults use it playfully, or to gently mock how small the injury really is.</p>
+<ol><li>"<em>Owie!</em>" the toddler wailed, holding up a barely scratched knee.</li><li>Do you want a Band-Aid for that <em>owie</em>?</li><li>"<em>Ouchie</em>, that's a big one," she said, blowing on his elbow.</li><li>He cut his finger on an envelope and announced, "I have an <em>owie</em>."</li><li>Careful on the driveway, buddy — no <em>owies</em> today.</li><li>"<em>Owie</em>," my roommate said flatly after burning her tongue on the coffee.</li></ol>
+<p><strong>See also:</strong> <a href="#ouch">ouch</a>, <a href="#ow">ow</a>, <a href="#eee">eee</a></p>
+<h3 id="oy">oy<a class="hash" href="#oy" aria-label="link">#</a></h3>
+<p><strong>Pronunciation:</strong> /ɔɪ/ &middot; <em>OY</em> <strong>Type:</strong> primary &middot; <strong>Register:</strong> informal (regional — Yiddish-American, strongly associated with New York, but widely understood) <strong>Variants:</strong> <em>oi</em>, <em>oy vey</em>, <em>oy vey iz mir</em>, <em>oy gevalt</em></p>
+<p>A Yiddish-derived groan of weariness, aches, and general woe, now widespread in American English and especially at home in and around New York. It covers the body complaining and the spirit complaining in the same breath. Note that British <em>oi!</em> is a completely different word meaning "hey, you."</p>
+<ol><li>"<em>Oy</em>, my back," he said, lowering himself into the chair.</li><li><em>Oy vey</em>, three flights of stairs with all these groceries.</li><li>She stood up too fast, grabbed the counter, and muttered <em>oy</em>.</li><li>"<em>Oy</em>, these shoes are killing me."</li><li><em>Oy</em> — don't get old, kid.</li><li>He read the dentist's bill and said, "<em>Oy vey iz mir</em>."</li></ol>
+<p><strong>See also:</strong> <a href="#ugh">ugh</a>, <a href="#argh">argh</a>, <a href="#uff-da">uff da</a></p>
+<h3 id="sss">sss<a class="hash" href="#sss" aria-label="link">#</a></h3>
+<p><strong>Pronunciation:</strong> /sː/ (no settled pronunciation — a sustained hiss with no vowel, sometimes drawn in rather than pushed out) &middot; <em>SSSS</em> <strong>Type:</strong> onomatopoeic &middot; <strong>Register:</strong> informal <strong>Variants:</strong> <em>ss</em>, <em>ssss</em>, <em>tss</em>, <em>hsss</em></p>
+<p>The sharp hiss of breath through clenched teeth that Americans make when something hurts, or when they watch something that must have hurt. It is made far more often than it is written, and the spelling is unstable because there is no vowel in it.</p>
+<ol><li>"<em>Ssss</em> — that water is way too hot."</li><li>He looked at the scrape on my elbow and went <em>sss</em> through his teeth.</li><li><em>Sss</em>, careful, the handle is still hot.</li><li>She hissed a quiet <em>sss</em> as the nurse peeled the tape off.</li><li>"<em>Ssss.</em> Yeah, that is going to bruise."</li><li>The whole gym went <em>sss</em> when he landed on his shoulder.</li></ol>
+<p><strong>See also:</strong> <a href="#ouch">ouch</a>, <a href="#oof">oof</a>, <a href="#eee">eee</a>, <a href="#ow">ow</a></p>
+<h3 id="uff-da">uff da<a class="hash" href="#uff-da" aria-label="link">#</a></h3>
+<p><strong>Pronunciation:</strong> /ˈʊf dɑ/ &middot; <em>OOF-dah</em> <strong>Type:</strong> phrase &middot; <strong>Register:</strong> regional (Upper Midwest) <strong>Variants:</strong> <em>oofta</em>, <em>uff-da</em>, <em>uf da</em>, <em>ufda</em></p>
+<p>An Upper Midwestern expression borrowed from Norwegian, used for physical strain, exhaustion, or being generally overwhelmed — the noise you make hauling something heavy, or hearing about someone's rough week. Outside Minnesota, the Dakotas, and Wisconsin it will sound like a deliberate quotation of that region.</p>
+<ol><li>"<em>Uff da</em>, this snow is heavy this morning."</li><li>He hoisted the cooler into the truck bed with an <em>uff da</em>.</li><li><em>Uff da</em> — I have not walked that far in years.</li><li>"Twelve hours in the car with three kids?" "<em>Uff da.</em>"</li><li>Grandma said <em>uff da</em> every single time she got out of a chair.</li><li><em>Oofta</em>, I ate way too much at that potluck.</li></ol>
+<p><strong>See also:</strong> <a href="#oof">oof</a>, <a href="#ugh">ugh</a>, <a href="#oy">oy</a></p>
+<h3 id="yow">yow<a class="hash" href="#yow" aria-label="link">#</a></h3>
+<p><strong>Pronunciation:</strong> /jaʊ/ &middot; <em>YOW</em> <strong>Type:</strong> primary &middot; <strong>Register:</strong> informal <strong>Variants:</strong> <em>yeow</em>, <em>yeeow</em>, <em>yowie</em></p>
+<p>A yelped cry of sudden pain or shock, louder and more startled than <em>ow</em> — the sound of jumping as well as hurting. It also serves for heat, cold, spice, or anything else that hits the body all at once.</p>
+<ol><li>"<em>Yow!</em> That is not warm water, that is scalding."</li><li><em>Yeow</em> — the fence was electric after all.</li><li>He grabbed the muffler and let out a <em>yow</em> that woke the dog.</li><li>"<em>Yow</em>, this salsa is a lot hotter than advertised."</li><li><em>Yow</em>, that wind off the lake goes straight through you.</li><li>She stepped into the pool and went, "<em>Yeow!</em>"</li></ol>
+<p><strong>See also:</strong> <a href="#yowch">yowch</a>, <a href="#ow">ow</a>, <a href="#ouch">ouch</a>, <a href="#eee">eee</a></p>
+<h3 id="yowch">yowch<a class="hash" href="#yowch" aria-label="link">#</a></h3>
+<p><strong>Pronunciation:</strong> /jaʊtʃ/ &middot; <em>YOWCH</em> <strong>Type:</strong> primary &middot; <strong>Register:</strong> informal <strong>Variants:</strong> <em>yeowch</em>, <em>yeeowch</em>, <em>yowtch</em></p>
+<p>A blend of <em>yow</em> and <em>ouch</em>, used for big, showy pain — real or sympathetic. It is mildly theatrical, so it often comes from the person who is <em>not</em> actually hurt.</p>
+<ol><li>"<em>Yowch!</em> Paper cut, right in the crease of my finger."</li><li><em>Yeowch</em> — I forgot that handle sits directly over the burner.</li><li>"The whole bill came to nine hundred dollars." "<em>Yowch.</em>"</li><li>He landed flat on his back and the whole crowd went <em>yowch</em>.</li><li><em>Yowch</em>, my shoulder is going to feel that tomorrow.</li><li>"<em>Yowch</em>, that is a sunburn and a half," she said, looking at my neck.</li></ol>
+<p><strong>See also:</strong> <a href="#ouch">ouch</a>, <a href="#yow">yow</a>, <a href="#oof">oof</a>, <a href="#ow">ow</a></p>
+<h2 id="effort-exertion-and-strain">Effort, exertion, and strain<a class="hash" href="#effort-exertion-and-strain" aria-label="link">#</a></h2>
+<p>Grunts made while lifting, pushing, or running out of breath — plus the calls used to time a lift so two people pull at once.</p>
+<h3 id="alley-oop">alley-oop<a class="hash" href="#alley-oop" aria-label="link">#</a></h3>
+<p><strong>Pronunciation:</strong> /ˌæli ˈup/ &middot; <em>al-ee-OOP</em> <strong>Type:</strong> phrase &middot; <strong>Register:</strong> informal <strong>Variants:</strong> <em>allez-oop</em>, <em>alley oop</em>, <em>alle-oop</em></p>
+<p>A call made at the moment of a lift, a throw, or a jump — from French <em>allez, hop!</em> — used to time the effort or to make a game of hoisting someone. In basketball it also names a specific pass-and-dunk play, which is now its most widely known use.</p>
+<ol><li>"<em>Alley-oop!</em>" he said, swinging his daughter onto his shoulders.</li><li>On three — one, two, <em>alley-oop</em>.</li><li>She tossed the bag of mulch over the fence with an <em>alley-oop</em>.</li><li><em>Alley-oop</em>, up you go, into the car seat.</li><li>He lobbed it toward the rim and, <em>alley-oop</em>, the dunk brought the gym to its feet.</li><li>"<em>Alley-oop</em>," the movers grunted, and the couch cleared the doorframe.</li></ol>
+<p><strong>See also:</strong> <a href="#heave-ho">heave-ho</a>, <a href="#hup">hup</a>, <a href="#upsy-daisy">upsy-daisy</a></p>
+<h3 id="grunt">grunt<a class="hash" href="#grunt" aria-label="link">#</a></h3>
+<p><strong>Pronunciation:</strong> /ɡrʌnt/ &middot; <em>GRUNT</em> <strong>Type:</strong> secondary &middot; <strong>Register:</strong> informal (chiefly written) <strong>Variants:</strong> <em>grunt grunt</em>, <em>grunnt</em></p>
+<p>The name of the noise standing in for the noise itself, the same way <em>huff</em> and <em>wheeze</em> do — typed between asterisks or said out loud, deadpan, so that nobody has to hear the real thing. It covers physical effort and it covers answering a question without bothering to use words.</p>
+<ol><li>"<em>Grunt.</em> Fine, I'll carry the big one."</li><li>He answered every question that morning with a <em>grunt</em> and a nod.</li><li><em>Grunt</em> — that dresser is not going another inch tonight.</li><li>She typed "<em>grunt</em>" and sent a photo of the treadmill.</li><li>The only sound in the weight room was one long <em>grunt</em> and the bar hitting the floor.</li><li>"Can you get the other end?" "<em>Grunt.</em>"</li></ol>
+<p><strong>See also:</strong> <a href="#ungh">ungh</a>, <a href="#hnngh">hnngh</a>, <a href="#huff">huff</a>, <a href="#oof">oof</a></p>
+<h3 id="heave-ho">heave-ho<a class="hash" href="#heave-ho" aria-label="link">#</a></h3>
+<p><strong>Pronunciation:</strong> /ˌhiv ˈhoʊ/ &middot; <em>heev-HOH</em> <strong>Type:</strong> phrase &middot; <strong>Register:</strong> informal <strong>Variants:</strong> <em>yo-heave-ho</em>, <em>heave ho</em></p>
+<p>A sailors' hauling call, now used half-jokingly by anybody pulling or lifting something heavy in a group. Do not confuse the interjection with the noun <em>the heave-ho</em>, which means being thrown out or fired and is far more common.</p>
+<ol><li>"<em>Heave-ho!</em>" they shouted, dragging the canoe up the bank.</li><li>One more <em>heave-ho</em> and the stump came out of the ground.</li><li><em>Heave-ho</em> — everybody lift on my count.</li><li>He gave the stuck window a <em>heave-ho</em> and it finally slid open.</li><li>"<em>Yo-heave-ho</em>," my dad sang, hauling the tree up the porch steps.</li><li><em>Heave-ho</em>, boys — this piano is not getting upstairs by itself.</li></ol>
+<p><strong>See also:</strong> <a href="#alley-oop">alley-oop</a>, <a href="#hup">hup</a>, <a href="#oomph">oomph</a>, <a href="#ungh">ungh</a></p>
+<h3 id="hnngh">hnngh<a class="hash" href="#hnngh" aria-label="link">#</a></h3>
+<p><strong>Pronunciation:</strong> /hŋ̍/ (no settled pronunciation — not really a word but a strained hum forced out through the nose with the teeth clenched, so there is no vowel to transcribe) &middot; <em>a teeth-clenched strain grunt</em> <strong>Type:</strong> primary &middot; <strong>Register:</strong> internet/text <strong>Variants:</strong> <em>hnng</em>, <em>nngh</em>, <em>hnnng</em>, <em>hngh</em></p>
+<p>The written form of a teeth-clenched strain: pushing, lifting, holding something in, or reacting to something almost unbearably cute or frustrating. It is far more often typed than spoken, and the spelling has no vowel because the sound does not either.</p>
+<ol><li>"<em>Hnngh</em> — okay, this jar is not opening."</li><li>He braced against the dresser and let out a low <em>hnngh</em>.</li><li><em>Hnngh</em>, one more rep, come on.</li><li>She texted "<em>hnnngh</em>" under a picture of the world's fluffiest puppy.</li><li><em>Nngh.</em> I do not want to get out of this bed.</li><li>The whole squat was silent except for one <em>hnngh</em> at the top.</li></ol>
+<p><strong>See also:</strong> <a href="#ungh">ungh</a>, <a href="#grunt">grunt</a>, <a href="#mmph">mmph</a>, <a href="#oomph">oomph</a></p>
+<h3 id="huff">huff<a class="hash" href="#huff" aria-label="link">#</a></h3>
+<p><strong>Pronunciation:</strong> /hʌf/ &middot; <em>HUF</em> <strong>Type:</strong> secondary &middot; <strong>Register:</strong> informal (chiefly written) <strong>Variants:</strong> <em>huff huff</em>, <em>huff and puff</em></p>
+<p>A hard, audible breath out, from exertion or from irritation. As an interjection it lives mostly in writing — often between asterisks — to stage a sigh of annoyance; in speech, Americans describe it (<em>he huffed</em>) rather than say the word.</p>
+<ol><li>"<em>Huff.</em> Fine, I'll do the dishes."</li><li><em>Huff, huff</em> — hold on, let me catch my breath.</li><li>She got to the top of the hill going <em>huff, huff, huff</em>.</li><li>He wrote back "<em>huff</em>" and then agreed to come anyway.</li><li><em>Huff</em> — I mopped this floor an hour ago.</li><li>The dog flopped onto the porch with a satisfied <em>huff</em>.</li></ol>
+<p><strong>See also:</strong> <a href="#puff">puff</a>, <a href="#wheeze">wheeze</a>, <a href="#ugh">ugh</a>, <a href="#whew">whew</a></p>
+<h3 id="hup">hup<a class="hash" href="#hup" aria-label="link">#</a></h3>
+<p><strong>Pronunciation:</strong> /hʌp/ &middot; <em>HUP</em> <strong>Type:</strong> primary &middot; <strong>Register:</strong> informal <strong>Variants:</strong> <em>hup-hup</em>, <em>hup two</em>, <em>hep</em></p>
+<p>A short bark used to time a jump, a lift, or a step, borrowed from military drill calls and from handlers moving animals. Doubled as <em>hup, hup</em>, it means "hurry up, keep moving."</p>
+<ol><li>"<em>Hup!</em>" he said, and boosted the kid over the wall.</li><li><em>Hup, hup</em> — let's go, the bus leaves in two minutes.</li><li>The sergeant counted us off: "<em>Hup</em>, two, three, four."</li><li>She patted the tailgate, said "<em>Hup</em>," and the dog jumped in.</li><li><em>Hup</em> — and the barbell was over his head.</li><li>"<em>Hup-hup-hup</em>," the coach clapped, moving us down the field.</li></ol>
+<p><strong>See also:</strong> <a href="#alley-oop">alley-oop</a>, <a href="#heave-ho">heave-ho</a>, <a href="#upsy-daisy">upsy-daisy</a></p>
+<h3 id="mmph">mmph<a class="hash" href="#mmph" aria-label="link">#</a></h3>
+<p><strong>Pronunciation:</strong> /m̩f/ (no vowel — a hum released through the lips) &middot; <em>MMF, mouth closed</em> <strong>Type:</strong> primary &middot; <strong>Register:</strong> informal <strong>Variants:</strong> <em>mmf</em>, <em>mph</em>, <em>mmmph</em></p>
+<p>A sound made with the mouth shut: effort, a muffled attempt to speak, or a small noise of pleasure or protest. Written down, it almost always signals that the speaker's mouth is full, covered, or clenched.</p>
+<ol><li>"<em>Mmph!</em>" she managed around a mouthful of sandwich.</li><li>He gave one <em>mmph</em> of effort and the lid finally came loose.</li><li><em>Mmph</em> — hold on, let me swallow.</li><li>She kissed him on the cheek and he made a small, pleased <em>mmph</em>.</li><li>"<em>Mmph</em>," came the answer from under the pillow.</li><li>The dentist asked me a question and I answered with an <em>mmph</em>.</li></ol>
+<p><strong>See also:</strong> <a href="#hnngh">hnngh</a>, <a href="#ungh">ungh</a>, <a href="#mmm">mmm</a></p>
+<h3 id="oomph">oomph<a class="hash" href="#oomph" aria-label="link">#</a></h3>
+<p><strong>Pronunciation:</strong> /ʊmf/ (also /umf/) &middot; <em>OOMF</em> <strong>Type:</strong> onomatopoeic &middot; <strong>Register:</strong> informal <strong>Variants:</strong> <em>umph</em>, <em>oompf</em>, <em>ummph</em></p>
+<p>The grunt of putting your whole body into something, landing at the exact moment of the push, shove, or swing. It doubles as a noun for the force itself, as in <em>give it some oomph</em>.</p>
+<ol><li>"<em>Oomph!</em>" She threw her shoulder against the stuck door.</li><li>Give it a little more <em>oomph</em> — that lid is on there tight.</li><li><em>Oomph</em> — okay, this suitcase is definitely over fifty pounds.</li><li>He swung the axe with an audible <em>oomph</em>.</li><li><em>Oomph</em>, getting up off this floor is a whole project now.</li><li>"One good <em>oomph</em> and it'll pop right out," the mechanic said.</li></ol>
+<p><strong>See also:</strong> <a href="#oof">oof</a>, <a href="#ungh">ungh</a>, <a href="#heave-ho">heave-ho</a>, <a href="#hnngh">hnngh</a></p>
+<h3 id="puff">puff<a class="hash" href="#puff" aria-label="link">#</a></h3>
+<p><strong>Pronunciation:</strong> /pʌf/ &middot; <em>PUF</em> <strong>Type:</strong> secondary &middot; <strong>Register:</strong> informal (chiefly written) <strong>Variants:</strong> <em>puff puff</em>, <em>pant pant</em>, <em>huff and puff</em></p>
+<p>A written stand-in for the short, hard breaths of someone out of breath, almost always doubled. Like <em>huff</em>, it belongs to comics, children's books, and playful texting rather than to ordinary speech.</p>
+<ol><li>"<em>Puff, puff</em> — how many more flights are there?"</li><li>He came through the door going <em>puff, puff, puff</em> after chasing the bus.</li><li>The whole comic panel was one dog running uphill with a little <em>puff, puff</em> over its head.</li><li>She captioned the summit photo "made it to the top <em>puff puff</em>."</li><li>The old dog followed us up the trail, <em>puff, puff</em>, but he made it.</li><li>"<em>Puff, puff</em>," my son panted dramatically after one lap.</li></ol>
+<p><strong>See also:</strong> <a href="#huff">huff</a>, <a href="#wheeze">wheeze</a>, <a href="#whew">whew</a>, <a href="#hnngh">hnngh</a></p>
+<h3 id="ugh">ugh<a class="hash" href="#ugh" aria-label="link">#</a></h3>
+<p><strong>Pronunciation:</strong> /ʌɡ/ (also /ʌx/, with a throaty final consonant) &middot; <em>UG, or a throaty UKH</em> <strong>Type:</strong> primary &middot; <strong>Register:</strong> informal <strong>Variants:</strong> <em>ughh</em>, <em>uggh</em>, <em>ugghhh</em></p>
+<p>A groan of effort, weariness, or physical misery — the sound of hauling yourself up off the floor, of aching, of feeling generally awful. The same word also carries disgust and annoyance, which is by far its most common use online.</p>
+<ol><li>"<em>Ugh</em>, my whole body hurts from that hike."</li><li><em>Ugh</em> — I think I'm running a fever.</li><li>He rolled out of bed with an <em>ugh</em> and went looking for coffee.</li><li>"<em>Ugh.</em> Why did I agree to help someone move in August?"</li><li><em>Ugh</em>, I stood up too fast and now the room is spinning.</li><li>She typed "<em>ughhh</em>, my head is pounding" and put her phone face down.</li></ol>
+<p><strong>See also:</strong> <a href="#oof">oof</a>, <a href="#argh">argh</a>, <a href="#oy">oy</a>, <a href="#ungh">ungh</a></p>
+<h3 id="ungh">ungh<a class="hash" href="#ungh" aria-label="link">#</a></h3>
+<p><strong>Pronunciation:</strong> /ʌŋ/ &middot; <em>UNG</em> <strong>Type:</strong> primary &middot; <strong>Register:</strong> informal <strong>Variants:</strong> <em>unh</em>, <em>unnh</em>, <em>uhn</em></p>
+<p>A short, open grunt — the involuntary noise of lifting, of taking a hit, or of answering somebody when you cannot be bothered to use words. Unlike <em>hnngh</em>, the mouth is open, so it carries across a room.</p>
+<ol><li>"<em>Ungh.</em>" He got the tailgate up on the second try.</li><li><em>Unh</em> — that is as far as my hamstrings go.</li><li>She landed hard on the mat with an <em>ungh</em>.</li><li>"Did you finish the report?" "<em>Unh</em>," he said, not looking up.</li><li><em>Ungh</em>, this couch is not going through that doorway.</li><li>He shifted the beam onto his shoulder with a low <em>ungh</em>.</li></ol>
+<p><strong>See also:</strong> <a href="#hnngh">hnngh</a>, <a href="#grunt">grunt</a>, <a href="#oof">oof</a>, <a href="#oomph">oomph</a></p>
+<h3 id="upsy-daisy">upsy-daisy<a class="hash" href="#upsy-daisy" aria-label="link">#</a></h3>
+<p><strong>Pronunciation:</strong> /ˌʌpsi ˈdeɪzi/ &middot; <em>up-see-DAY-zee</em> <strong>Type:</strong> phrase &middot; <strong>Register:</strong> childish <strong>Variants:</strong> <em>upsa-daisy</em>, <em>ups-a-daisy</em>, <em>upsy daisy</em></p>
+<p>The sing-song thing you say while lifting a small child, or while helping anyone up off the floor. Said to another adult it is affectionate at best and patronizing at worst, so it is safest with toddlers and with people you know well.</p>
+<ol><li>"<em>Upsy-daisy!</em>" she said, swinging the baby out of the crib.</li><li><em>Ups-a-daisy</em> — up we go, one more step.</li><li>He held out both hands to his grandmother and said, "<em>Upsy-daisy</em>."</li><li>The toddler fell over, got up, and announced "<em>Upsy-daisy</em>" to nobody in particular.</li><li><em>Upsy-daisy</em>, into the high chair you go.</li><li>"<em>Upsy-daisy</em>," the nurse said, easing him off the exam table.</li></ol>
+<p><strong>See also:</strong> <a href="#alley-oop">alley-oop</a>, <a href="#hup">hup</a>, <a href="#heave-ho">heave-ho</a></p>
+<h3 id="whew">whew<a class="hash" href="#whew" aria-label="link">#</a></h3>
+<p><strong>Pronunciation:</strong> /hwju/ (also /fju/, /hju/) &middot; <em>HWYOO, or FYOO</em> <strong>Type:</strong> primary &middot; <strong>Register:</strong> neutral <strong>Variants:</strong> <em>phew</em>, <em>whewww</em>, <em>whew-ee</em></p>
+<p>An audible breath pushed out through pursed lips, usually with a whistle in it, used for heat, hard work, or the moment a strain is finally over. Americans swap it with <em>phew</em> without thinking, though <em>whew</em> leans toward exertion and heat while <em>phew</em> leans toward relief and bad smells.</p>
+<ol><li>"<em>Whew!</em> That was the last box."</li><li><em>Whew</em>, it has to be a hundred degrees out there.</li><li>He set the toolbox down and said <em>whew</em> before he said anything else.</li><li>"<em>Whew</em>, I need a minute," she said, hands on her knees.</li><li><em>Whew</em> — those stairs get me every single time.</li><li>"<em>Whew</em>, that was close," he said, watching the ladder settle against the wall.</li></ol>
+<p><strong>See also:</strong> <a href="#phew">phew</a>, <a href="#whoo">whoo</a>, <a href="#puff">puff</a>, <a href="#huff">huff</a></p>
+<h2 id="temperature-relief-and-physical-pleasure">Temperature, relief, and physical pleasure<a class="hash" href="#temperature-relief-and-physical-pleasure" aria-label="link">#</a></h2>
+<p>The pleasant end of the category — warmth, cold, taste, smell, and the long breath out when a strain is over.</p>
+<h3 id="ah">ah<a class="hash" href="#ah" aria-label="link">#</a></h3>
+<p><strong>Pronunciation:</strong> /ɑ/ &middot; <em>AH</em> <strong>Type:</strong> primary &middot; <strong>Register:</strong> neutral <strong>Variants:</strong> <em>aah</em>, <em>ahh</em>, <em>ahhh</em>, <em>aaah</em></p>
+<p>A long, released breath of relief, comfort, or physical satisfaction — the first sip of coffee, the hot shower, the chair after a long day. Written with extra letters and an exclamation point in fiction (<em>aaah!</em>), the same spelling can instead represent a scream, and only the sentence around it tells you which. A separate, unrelated use of <em>ah</em> means "now I understand."</p>
+<ol><li>"<em>Ah</em>, that's better," he said, easing into the recliner.</li><li><em>Ahhh</em> — hot water on a cold morning is the whole point of being alive.</li><li>She took one sip and said, "<em>Ah.</em> Perfect."</li><li><em>Ah</em> — sun on my face for the first time since February.</li><li>He stretched until his back popped and let out a long <em>ahhh</em>.</li><li>"<em>Ah</em>," the whole table said when the air conditioning finally kicked on.</li></ol>
+<p><strong>See also:</strong> <a href="#mmm">mmm</a>, <a href="#ooh">ooh</a>, <a href="#phew">phew</a>, <a href="#whoo">whoo</a></p>
+<h3 id="brr">brr<a class="hash" href="#brr" aria-label="link">#</a></h3>
+<p><strong>Pronunciation:</strong> [ʙ̩ː] (not ordinary speech sounds — a voiced bilabial trill: the lips flap together on a hum, the way a shiver actually comes out; read off the page instead of performed, it flattens to /br/) &middot; <em>BRRR — vibrating lips, not an</em> r <em>sound</em> <strong>Type:</strong> primary &middot; <strong>Register:</strong> informal <strong>Variants:</strong> <em>brrr</em>, <em>br-r-r</em>, <em>brrrr</em></p>
+<p>The sound of shivering, used to say "it is cold in here" without saying it — often as a hint aimed at whoever controls the thermostat. It also works figuratively for anything that gives you a chill: an eerie story, an icy remark.</p>
+<ol><li>"<em>Brr!</em> Somebody has this office set to arctic."</li><li><em>Brrr</em> — I'm going back inside for a real coat.</li><li>She came in stamping snow off her boots, going <em>brr, brr, brr</em>.</li><li>"<em>Brr</em>, this water is freezing," he said, one foot in the lake.</li><li><em>Brr.</em> The way he said "we'll talk later" gave me chills.</li><li>He rubbed his arms and said <em>brr</em> loudly enough for me to take the hint.</li></ol>
+<p><strong>See also:</strong> <a href="#yow">yow</a>, <a href="#ooh">ooh</a>, <a href="#ah">ah</a>, <a href="#ugh">ugh</a></p>
+<h3 id="mmm">mmm<a class="hash" href="#mmm" aria-label="link">#</a></h3>
+<p><strong>Pronunciation:</strong> /m̩ː/ (a hum — no vowel, lips closed) &middot; <em>MMM</em> <strong>Type:</strong> primary &middot; <strong>Register:</strong> informal <strong>Variants:</strong> <em>mm</em>, <em>mmmm</em>, <em>mm-mm</em>, <em>mmmmm</em></p>
+<p>A closed-mouth hum of physical pleasure, usually about taste or smell and sometimes about warmth or comfort. The longer you hold it, the greater the pleasure — but keep it short in professional settings, where a drawn-out <em>mmm</em> can read as suggestive.</p>
+<ol><li>"<em>Mmm.</em> What is in this sauce?"</li><li><em>Mmm</em>, it smells like somebody is baking down the hall.</li><li>She closed her eyes at the first bite and went <em>mmmm</em>.</li><li>"<em>Mmm</em>, that's a good shoulder rub — right there."</li><li><em>Mm</em>, warm towels straight out of the dryer.</li><li>He tried the soup, said <em>mmm</em>, and went back for a second bowl.</li></ol>
+<p><strong>See also:</strong> <a href="#yum">yum</a>, <a href="#ah">ah</a>, <a href="#ooh">ooh</a>, <a href="#mmph">mmph</a></p>
+<h3 id="nom-nom">nom nom<a class="hash" href="#nom-nom" aria-label="link">#</a></h3>
+<p><strong>Pronunciation:</strong> /ˌnɑm ˈnɑm/ &middot; <em>nahm-NAHM</em> <strong>Type:</strong> onomatopoeic &middot; <strong>Register:</strong> internet/text (informal) <strong>Variants:</strong> <em>nom</em>, <em>om nom nom</em>, <em>nom nom nom</em>, <em>noms</em></p>
+<p>The sound of enthusiastic chewing, spelled the way Cookie Monster eats and carried out of the internet into everyday texting around 2009. It is not a verdict on the food the way <em>yum</em> is — it is the eating itself, which is why it comes in twos and threes and usually rides along with a picture.</p>
+<ol><li>She posted the ribs with one caption: "<em>nom nom nom</em>."</li><li>"<em>Nom nom.</em>" He was already three bites into my fries.</li><li><em>Om nom nom</em> — I have no regrets about this entire pizza.</li><li>The baby went <em>nom nom nom</em> at the puffs and then banged the tray for more.</li><li>"How's the cake?" "<em>Nom.</em>"</li><li>My daughter narrates her own snacks out loud — <em>nom nom nom</em>, every single time.</li></ol>
+<p><strong>See also:</strong> <a href="#yum">yum</a>, <a href="#mmm">mmm</a>, <a href="#slurp">slurp</a>, <a href="#ah">ah</a></p>
+<h3 id="ooh">ooh<a class="hash" href="#ooh" aria-label="link">#</a></h3>
+<p><strong>Pronunciation:</strong> /u/ &middot; <em>OO</em> <strong>Type:</strong> primary &middot; <strong>Register:</strong> informal <strong>Variants:</strong> <em>oooh</em>, <em>ooo</em>, <em>ooooh</em></p>
+<p>A rounded-lip noise with two bodily jobs: a wince of sympathy at somebody else's injury, and a small sound of pleasure at a good sensation. Pitch decides which — rising means delight, falling means "that looked painful."</p>
+<ol><li>"<em>Ooh</em>, that had to hurt," he said as the replay showed the collision.</li><li><em>Ooh</em>, careful — the plate is hotter than the food.</li><li>She sank into the bath and said, "<em>Oooh</em>, yes."</li><li>"<em>Ooh</em>," the crowd went, all at once, when he landed wrong.</li><li><em>Ooh</em>, do that again — my neck has been killing me all week.</li><li>He pressed on the bruise and I said <em>ooh</em> before I could stop myself.</li></ol>
+<p><strong>See also:</strong> <a href="#ah">ah</a>, <a href="#mmm">mmm</a>, <a href="#sss">sss</a>, <a href="#oof">oof</a></p>
+<h3 id="pee-yew">pee-yew<a class="hash" href="#pee-yew" aria-label="link">#</a></h3>
+<p><strong>Pronunciation:</strong> /ˌpi ˈju/ &middot; <em>pee-YOO</em> <strong>Type:</strong> primary &middot; <strong>Register:</strong> informal <strong>Variants:</strong> <em>P.U.</em>, <em>pee-yoo</em>, <em>peeyew</em>, <em>pyoo</em></p>
+<p>A childhood-flavored exclamation meaning "that stinks," said with the nose wrinkled and often a hand waved in front of the face. It is playful and blunt, so Americans use it about diapers, gym bags, and garbage rather than about anything requiring tact.</p>
+<ol><li>"<em>Pee-yew!</em> Somebody needs a diaper change."</li><li><em>P.U.</em> — what is living in this gym bag?</li><li>He opened the container, said <em>pee-yew</em>, and dropped the whole thing in the trash.</li><li>"<em>Pee-yew</em>, that's the worst part of hockey season," she said, holding the pads at arm's length.</li><li><em>Pee-yew</em>, did a skunk get under the porch again?</li><li>The kids all yelled "<em>P.U.!</em>" when we drove past the feedlot.</li></ol>
+<p><strong>See also:</strong> <a href="#phew">phew</a>, <a href="#blegh">blegh</a>, <a href="#ptooey">ptooey</a></p>
+<h3 id="phew">phew<a class="hash" href="#phew" aria-label="link">#</a></h3>
+<p><strong>Pronunciation:</strong> /fju/ (also /pfju/) &middot; <em>FYOO</em> <strong>Type:</strong> primary &middot; <strong>Register:</strong> neutral <strong>Variants:</strong> <em>whew</em>, <em>pheww</em>, <em>phew-ee</em></p>
+<p>A breath let out through pursed lips, used for relief that something is over or turned out fine — and, with the nose wrinkled, for a bad smell. It is the same physical gesture as <em>whew</em>, and Americans switch between the two spellings without noticing.</p>
+<ol><li>"<em>Phew.</em> The X-ray came back clean."</li><li><em>Phew</em> — I thought I had left my wallet at the restaurant.</li><li>He wiped his forehead and said <em>phew</em> as the last guest finally left.</li><li>"<em>Phew</em>, what died in this refrigerator?"</li><li><em>Phew</em>, that hill nearly finished me.</li><li>She let out a <em>phew</em> when the plane finally touched down.</li></ol>
+<p><strong>See also:</strong> <a href="#whew">whew</a>, <a href="#ah">ah</a>, <a href="#pee-yew">pee-yew</a></p>
+<h3 id="whoo">whoo<a class="hash" href="#whoo" aria-label="link">#</a></h3>
+<p><strong>Pronunciation:</strong> /wu/ (also /hu/) &middot; <em>WOO</em> <strong>Type:</strong> primary &middot; <strong>Register:</strong> informal <strong>Variants:</strong> <em>woo</em>, <em>whooo</em>, <em>whoo-ee</em></p>
+<p>A blown-out breath used for heat, spice, or the buzz right after hard exertion — the sound of fanning your mouth after hot wings. The same spelling is also a cheer, and only pitch and situation separate the two.</p>
+<ol><li>"<em>Whoo!</em> That salsa has a kick."</li><li><em>Whoo</em> — I have not run that hard since high school.</li><li>He fanned his mouth and went <em>whoo, whoo, whoo</em>.</li><li>"<em>Whoo</em>, it is muggy out there," she said, peeling off her jacket.</li><li><em>Whoo</em>, that sauna about finished me.</li><li>She racked the weights, sat down, and let out a <em>whoo</em>.</li></ol>
+<p><strong>See also:</strong> <a href="#whew">whew</a>, <a href="#phew">phew</a>, <a href="#ah">ah</a>, <a href="#brr">brr</a></p>
+<h3 id="yum">yum<a class="hash" href="#yum" aria-label="link">#</a></h3>
+<p><strong>Pronunciation:</strong> /jʌm/ &middot; <em>YUM</em> <strong>Type:</strong> primary &middot; <strong>Register:</strong> informal <strong>Variants:</strong> <em>yum yum</em>, <em>yummy</em>, <em>yum-yum</em>, <em>yumm</em></p>
+<p>The standard American verdict on something that tastes or smells good, said before the first bite as easily as after it. Adults use it freely, though it never quite loses its nursery edge — <em>yummy</em> especially, which is mostly what you say to a two-year-old about broccoli. Its exact opposite number is <em>yuck</em>.</p>
+<ol><li>"<em>Yum.</em> What did you put in this marinade?"</li><li><em>Yum</em> — somebody two doors down is grilling.</li><li>She read the dessert menu out loud and said <em>yum</em> after every single line.</li><li>"Pot roast tonight." "<em>Yum yum.</em>"</li><li><em>Yum</em>, and I say that as a person who does not even like beets.</li><li>He took the bowl, said "<em>yum</em>," and did not speak again until it was empty.</li></ol>
+<p><strong>See also:</strong> <a href="#mmm">mmm</a>, <a href="#nom-nom">nom nom</a>, <a href="#ooh">ooh</a>, <a href="#ah">ah</a></p>
+<h2 id="involuntary-body-sounds">Involuntary body sounds<a class="hash" href="#involuntary-body-sounds" aria-label="link">#</a></h2>
+<p>Sneezes, hiccups, gasps, throat-clearings, and swallows — noises the body makes on its own, which English has agreed to spell a particular way. Several of them are now used deliberately, as signals, which is what makes them interjections rather than just noises.</p>
+<h3 id="achoo">achoo<a class="hash" href="#achoo" aria-label="link">#</a></h3>
+<p><strong>Pronunciation:</strong> /əˈtʃu/ &middot; <em>uh-CHOO</em> <strong>Type:</strong> onomatopoeic &middot; <strong>Register:</strong> neutral <strong>Variants:</strong> <em>ah-choo</em>, <em>atchoo</em>, <em>kerchoo</em>, <em>ka-choo</em>, <em>hachoo</em></p>
+<p>The conventional written spelling of a sneeze. Americans also say it out loud — as a stand-in for a sneeze they are describing, or as a fake sneeze meaning "I'm allergic to this." The standard response from anyone nearby is <em>bless you</em>.</p>
+<ol><li>"<em>Achoo!</em>" "Bless you."</li><li>Around here it's <em>ah-choo</em> from April straight through June.</li><li>He turned away from the table and went <em>achoo</em> into his elbow.</li><li>She faked an <em>achoo</em> every time her brother mentioned getting a cat.</li><li>"<em>Ah-choo!</em>" The whole classroom said "bless you" at once.</li><li><em>Achoo</em> — sorry, that pepper got me.</li></ol>
+<p><strong>See also:</strong> <a href="#sniff">sniff</a>, <a href="#cough">cough</a>, <a href="#ahem">ahem</a></p>
+<h3 id="ahem">ahem<a class="hash" href="#ahem" aria-label="link">#</a></h3>
+<p><strong>Pronunciation:</strong> /əˈhɛm/ &middot; <em>uh-HEM</em> <strong>Type:</strong> primary &middot; <strong>Register:</strong> neutral <strong>Variants:</strong> <em>ahem-ahem</em>, <em>hem</em></p>
+<p>A deliberate throat-clearing used as a signal rather than a real cough. It asks for attention, marks that you are about to speak, or delivers a discreet correction or disapproval without saying anything explicit.</p>
+<ol><li>"<em>Ahem.</em> I believe you're sitting in my seat."</li><li><em>Ahem</em> — if anyone's interested, I finished the report an hour ago.</li><li>She gave a small <em>ahem</em> and the room went quiet.</li><li>"<em>Ahem!</em>" The teacher didn't have to say anything else.</li><li><em>Ahem.</em> Some of us have been waiting in line for twenty minutes.</li><li>He cleared his throat — "<em>ahem</em>" — and the best man finally put his phone away.</li></ol>
+<p><strong>See also:</strong> <a href="#cough">cough</a>, <a href="#harrumph">harrumph</a>, <a href="#gasp">gasp</a></p>
+<h3 id="blegh">blegh<a class="hash" href="#blegh" aria-label="link">#</a></h3>
+<p><strong>Pronunciation:</strong> /blɛx/ (also /blɛk/, /blɛ/) &middot; <em>BLEKH</em> <strong>Type:</strong> onomatopoeic &middot; <strong>Register:</strong> informal <strong>Variants:</strong> <em>bleh</em>, <em>blech</em>, <em>bleah</em>, <em>blergh</em></p>
+<p>The sound of gagging, used for a bad taste or smell and for feeling generally sick or run-down. Note that the flat spelling <em>bleh</em> has drifted away from the body and now mostly means "unimpressed."</p>
+<ol><li>"<em>Blegh.</em> This milk has definitely turned."</li><li><em>Blech</em> — cough syrup has not improved since I was eight.</li><li>He took one bite of the leftovers and said <em>blegh</em>.</li><li>"<em>Blegh</em>, I think that shrimp was a mistake," she said, holding her stomach.</li><li><em>Blegh.</em> Everything tastes like metal when I have a cold.</li><li>She stuck her tongue out and went "<em>bleah</em>" at the kale smoothie.</li></ol>
+<p><strong>See also:</strong> <a href="#ptooey">ptooey</a>, <a href="#pee-yew">pee-yew</a>, <a href="#ugh">ugh</a>, <a href="#gulp">gulp</a></p>
+<h3 id="burp">burp<a class="hash" href="#burp" aria-label="link">#</a></h3>
+<p><strong>Pronunciation:</strong> /bɝp/ &middot; <em>BURP</em> <strong>Type:</strong> secondary &middot; <strong>Register:</strong> informal <strong>Variants:</strong> <em>urp</em>, <em>brrp</em></p>
+<p>Usually the name of the sound rather than the sound itself, but Americans do say it out loud — as a comic stand-in for the real thing, or as a mock apology right after one. Typed between asterisks, it stages the belch in writing.</p>
+<ol><li>"Excuse me. <em>Burp</em>," he said, patting his chest.</li><li><em>Burp</em> — sorry, that soda was a mistake.</li><li>The baby let out a <em>burp</em> that impressed everyone at the table.</li><li>He said "<em>burp</em>" out loud instead of actually burping, which was somehow worse.</li><li><em>Urp.</em> I should not have had that second chili dog.</li><li>"<em>Burp</em>," my nephew announced, extremely proud of himself.</li></ol>
+<p><strong>See also:</strong> <a href="#hic">hic</a>, <a href="#gulp">gulp</a>, <a href="#slurp">slurp</a>, <a href="#blegh">blegh</a></p>
+<h3 id="cough">cough<a class="hash" href="#cough" aria-label="link">#</a></h3>
+<p><strong>Pronunciation:</strong> /kɔf/ (also /kɑf/) &middot; <em>KAWF</em> <strong>Type:</strong> secondary &middot; <strong>Register:</strong> informal <strong>Variants:</strong> <em>cough cough</em>, <em>coughcough</em></p>
+<p>Said out loud — or typed between asterisks — as a fake cough that half-hides a comment you are pretending not to make. A real cough does not get announced; as an interjection, <em>cough</em> is always a wink at somebody.</p>
+<ol><li>"Somebody — <em>cough</em> — left their dishes in the sink again."</li><li><em>Cough cough.</em> Not naming names, but that report was due Friday.</li><li>He said "the most qualified candidate, <em>cough</em>," and everyone looked at Dave.</li><li>She typed "great meeting <em>cough</em> forty-five minutes of nothing <em>cough</em>" in the chat.</li><li>"<em>Cough</em>," he said pointedly, tapping the sign that read NO PARKING.</li><li><em>Cough</em> — it might help if certain people read the email.</li></ol>
+<p><strong>See also:</strong> <a href="#ahem">ahem</a>, <a href="#harrumph">harrumph</a>, <a href="#achoo">achoo</a></p>
+<h3 id="gasp">gasp<a class="hash" href="#gasp" aria-label="link">#</a></h3>
+<p><strong>Pronunciation:</strong> /ɡæsp/ &middot; <em>GASP</em> <strong>Type:</strong> secondary &middot; <strong>Register:</strong> informal (chiefly written) <strong>Variants:</strong> <em>gasp gasp</em>, <em>gaaasp</em>, <em>gaspp</em></p>
+<p>A sharp pull of air into the lungs — shock, cold water, or the end of a long run underwater. As an interjection it is nearly always staged: typed between asterisks, or said out loud in a flat voice, in which case it means mock scandal rather than real surprise.</p>
+<ol><li>"You've never seen <em>Jaws</em>? <em>Gasp.</em>"</li><li><em>Gasp</em> — he loaded the dishwasher without being asked.</li><li>She hit the cold lake and came up with a <em>gasp</em> that echoed off the rocks.</li><li>He read the last line of the group text and said "<em>gasp</em>," completely deadpan.</li><li><em>Gasp</em>, hold on, give me a second — I ran up all four flights.</li><li>There was one long <em>gasp</em> from the back row when the lights came up.</li></ol>
+<p><strong>See also:</strong> <a href="#gulp">gulp</a>, <a href="#wheeze">wheeze</a>, <a href="#ooh">ooh</a>, <a href="#ahem">ahem</a></p>
+<h3 id="gulp">gulp<a class="hash" href="#gulp" aria-label="link">#</a></h3>
+<p><strong>Pronunciation:</strong> /ɡʌlp/ &middot; <em>GULP</em> <strong>Type:</strong> secondary &middot; <strong>Register:</strong> informal (chiefly written) <strong>Variants:</strong> <em>gulp gulp</em></p>
+<p>The sound of a hard, nervous swallow, used as an interjection to signal dread — the comic-strip way of saying "I am suddenly very worried." It also gets used literally about drinking fast.</p>
+<ol><li>"The dentist wants to look at those X-rays again." "<em>Gulp.</em>"</li><li><em>Gulp</em> — I just realized the presentation is tomorrow, not next week.</li><li>He looked down from the high dive and audibly went <em>gulp</em>.</li><li>She read the total on the estimate and texted her husband "<em>gulp</em>."</li><li><em>Gulp.</em> That is a much bigger dog than the photo suggested.</li><li><em>Gulp</em>, okay, I guess it's my turn to speak.</li></ol>
+<p><strong>See also:</strong> <a href="#gasp">gasp</a>, <a href="#hic">hic</a>, <a href="#burp">burp</a>, <a href="#slurp">slurp</a></p>
+<h3 id="harrumph">harrumph<a class="hash" href="#harrumph" aria-label="link">#</a></h3>
+<p><strong>Pronunciation:</strong> /həˈrʌmf/ &middot; <em>huh-RUMF</em> <strong>Type:</strong> onomatopoeic &middot; <strong>Register:</strong> informal <strong>Variants:</strong> <em>harumph</em>, <em>hrrmph</em>, <em>harrumphh</em></p>
+<p>A pompous throat-clearing grunt of disapproval — the noise of somebody who wants you to know they object but will not come out and say so. It is faintly comic, and it paints whoever makes it as stuffy.</p>
+<ol><li>"<em>Harrumph.</em> In my day we wrote thank-you notes."</li><li>He gave a loud <em>harrumph</em> and turned the page of his newspaper.</li><li><em>Harrumph</em> — I see the parking committee has ignored my letter again.</li><li>She answered the suggestion with a <em>harrumph</em> and no words at all.</li><li>"<em>Harumph</em>," said my father-in-law, which is how he says no.</li><li>There was a <em>harrumph</em> from the back of the room before anyone else spoke.</li></ol>
+<p><strong>See also:</strong> <a href="#ahem">ahem</a>, <a href="#cough">cough</a>, <a href="#ugh">ugh</a></p>
+<h3 id="hic">hic<a class="hash" href="#hic" aria-label="link">#</a></h3>
+<p><strong>Pronunciation:</strong> /hɪk/ &middot; <em>HIK</em> <strong>Type:</strong> onomatopoeic &middot; <strong>Register:</strong> informal <strong>Variants:</strong> <em>hiccup</em>, <em>hicc</em>, <em>hic-hic</em></p>
+<p>The written spelling of a hiccup, used in comics and texting and said out loud as a joke — including the old shorthand for a drunk character. The bodily event is a <em>hiccup</em>; <em>hic</em> is how you write the noise it makes.</p>
+<ol><li>"I'm fine — <em>hic</em> — completely fine."</li><li><em>Hic.</em> Sorry, I drank that water way too fast.</li><li>She got the hiccups during the ceremony, and <em>hic</em>, <em>hic</em>, <em>hic</em> went the microphone.</li><li>He texted "still awake <em>hic</em>" at two in the morning.</li><li><em>Hic</em> — every ten seconds for a solid hour, no exaggeration.</li><li>The cartoon drunk staggered off with a <em>hic</em> and his hat over his eyes.</li></ol>
+<p><strong>See also:</strong> <a href="#burp">burp</a>, <a href="#gulp">gulp</a>, <a href="#achoo">achoo</a></p>
+<h3 id="ptooey">ptooey<a class="hash" href="#ptooey" aria-label="link">#</a></h3>
+<p><strong>Pronunciation:</strong> /ˈtui/ (also /pəˈtui/) &middot; <em>TOO-ee, or puh-TOO-ee</em> <strong>Type:</strong> onomatopoeic &middot; <strong>Register:</strong> informal <strong>Variants:</strong> <em>ptui</em>, <em>ptooie</em>, <em>phtooey</em>, <em>patooie</em></p>
+<p>The sound of spitting something out, real or theatrical — a bad taste, a bug, a sunflower seed shell. It is broad and cartoonish, so it is playground and comic-strip territory more than adult conversation.</p>
+<ol><li>"<em>Ptooey!</em> There is a bug in my drink."</li><li>He took one gulp of ocean water and went <em>ptooey</em>.</li><li><em>Ptui</em> — that toothpaste is way too strong.</li><li>She spit the seed into her hand instead of doing the whole <em>ptooey</em> thing.</li><li>"<em>Ptooey</em>, that's soap, not sugar," he sputtered over the sink.</li><li><em>Ptooey.</em> Never trust gas station coffee.</li></ol>
+<p><strong>See also:</strong> <a href="#blegh">blegh</a>, <a href="#pee-yew">pee-yew</a>, <a href="#ugh">ugh</a></p>
+<h3 id="slurp">slurp<a class="hash" href="#slurp" aria-label="link">#</a></h3>
+<p><strong>Pronunciation:</strong> /slɝp/ &middot; <em>SLURP</em> <strong>Type:</strong> secondary &middot; <strong>Register:</strong> informal <strong>Variants:</strong> <em>slurp slurp</em>, <em>sluuurp</em>, <em>slorp</em></p>
+<p>The wet noise of drinking or eating something loose — soup, noodles, the last inch of a milkshake through a straw. Written between asterisks it stages the sound; said out loud it is either a joke about how good something is or a complaint about how somebody else eats.</p>
+<ol><li>"<em>Slurp.</em> Sorry. This is a very good bowl of ramen."</li><li><em>Slurp</em> — and that is the end of the milkshake.</li><li>He drinks his coffee with a <em>slurp</em> you can hear across the whole office.</li><li>She captioned the noodle video "<em>slurp slurp</em>" and left it at that.</li><li><em>Slurp.</em> My brother has eaten cereal that way for thirty years.</li><li>The kids went <em>slurp, slurp, slurp</em> straight down to the bottom of the cups.</li></ol>
+<p><strong>See also:</strong> <a href="#gulp">gulp</a>, <a href="#nom-nom">nom nom</a>, <a href="#mmm">mmm</a>, <a href="#burp">burp</a></p>
+<h3 id="sniff">sniff<a class="hash" href="#sniff" aria-label="link">#</a></h3>
+<p><strong>Pronunciation:</strong> /snɪf/ &middot; <em>SNIF</em> <strong>Type:</strong> secondary &middot; <strong>Register:</strong> informal <strong>Variants:</strong> <em>sniff sniff</em>, <em>snf</em>, <em>sniffle</em></p>
+<p>The written sound of a runny nose or of holding back tears; in texting it usually stages mock sadness or fishes for sympathy. Doubled as <em>sniff sniff</em>, it means something entirely different — "what is that smell?"</p>
+<ol><li>"<em>Sniff.</em> I'm not crying, it's allergies."</li><li><em>Sniff, sniff</em> — is something burning?</li><li>He answered with a wet <em>sniff</em> and reached for the tissues.</li><li>She texted "my show got canceled <em>sniff</em>" at midnight.</li><li><em>Sniff</em> — three days into this cold and my nose has not stopped.</li><li>"<em>Sniff sniff</em>. Somebody made popcorn and did not share."</li></ol>
+<p><strong>See also:</strong> <a href="#achoo">achoo</a>, <a href="#cough">cough</a>, <a href="#yawn">yawn</a></p>
+<h3 id="snore">snore<a class="hash" href="#snore" aria-label="link">#</a></h3>
+<p><strong>Pronunciation:</strong> /snɔr/ &middot; <em>SNOR</em> <strong>Type:</strong> secondary &middot; <strong>Register:</strong> informal (chiefly written) <strong>Variants:</strong> <em>snore snore</em>, <em>snoooore</em></p>
+<p>Written as an interjection, <em>snore</em> almost never reports actual sleeping — it is the flattest way in English to call something boring, and it lands a little harder than <em>yawn</em> because it claims the thing already put you under. The real bodily noise gets described (<em>he snores</em>) rather than spelled out.</p>
+<ol><li>"Another quarterly update. <em>Snore.</em>"</li><li><em>Snore</em> — I made it eleven minutes into that documentary.</li><li>He gave the season finale one word in the group chat: "<em>snore</em>."</li><li>"<em>Snore, snore</em>," my sister said, walking out in the middle of my golf story.</li><li><em>Snore.</em> Wake me up when somebody says something new.</li><li>Two rows over, somebody was genuinely asleep — head back, full <em>snore</em>, the whole thing.</li></ol>
+<p><strong>See also:</strong> <a href="#yawn">yawn</a>, <a href="#zzz">zzz</a>, <a href="#wheeze">wheeze</a></p>
+<h3 id="wheeze">wheeze<a class="hash" href="#wheeze" aria-label="link">#</a></h3>
+<p><strong>Pronunciation:</strong> /wiz/ (also /hwiz/) &middot; <em>WEEZ</em> <strong>Type:</strong> secondary &middot; <strong>Register:</strong> informal (chiefly written) <strong>Variants:</strong> <em>wheez</em>, <em>wheeeze</em></p>
+<p>Two uses: the labored whistle of somebody who cannot get enough air, staged in writing as an interjection; and, online, a marker that you are laughing so hard you cannot breathe. The second sense now dominates in text.</p>
+<ol><li>"<em>Wheeze</em> — hold on, I have to sit down."</li><li>He reached the top of the stairs and answered me with a <em>wheeze</em>.</li><li><em>Wheeze.</em> Remind me why I signed up for this class.</li><li>She replied to the video with nothing but "<em>wheeze</em>."</li><li><em>Wheeze</em>, my lungs were not built for this altitude.</li><li>"That caption killed me. <em>Wheeze.</em>"</li></ol>
+<p><strong>See also:</strong> <a href="#puff">puff</a>, <a href="#huff">huff</a>, <a href="#whew">whew</a></p>
+<h3 id="yawn">yawn<a class="hash" href="#yawn" aria-label="link">#</a></h3>
+<p><strong>Pronunciation:</strong> /jɔn/ (also /jɑn/) &middot; <em>YAWN</em> <strong>Type:</strong> secondary &middot; <strong>Register:</strong> informal <strong>Variants:</strong> <em>yaaawn</em>, <em>yawwn</em></p>
+<p>Written as an interjection, <em>yawn</em> almost always means "this is boring" rather than "I am sleepy" — it stages the yawn to make a point. Said out loud with a real yawn behind it, it just means you are tired.</p>
+<ol><li>"<em>Yawn.</em> Another meeting that could have been an email."</li><li><em>Yawn</em> — it is barely nine and I am done for the day.</li><li>He read the sequel's plot summary and typed "<em>yawn</em>."</li><li>"<em>Yaaawn</em>," she said, stretching until her shoulders cracked.</li><li><em>Yawn.</em> Wake me up when the third quarter starts.</li><li><em>Yawn</em>, I need coffee before I am any use to anybody.</li></ol>
+<p><strong>See also:</strong> <a href="#zzz">zzz</a>, <a href="#snore">snore</a>, <a href="#sniff">sniff</a></p>
+<h3 id="zzz">zzz<a class="hash" href="#zzz" aria-label="link">#</a></h3>
+<p><strong>Pronunciation:</strong> /zː/ (no settled pronunciation — a sustained buzz, or simply said as the letter name, <em>zees</em>) &middot; <em>ZZZ</em> <strong>Type:</strong> onomatopoeic &middot; <strong>Register:</strong> internet/text <strong>Variants:</strong> <em>zzzz</em>, <em>zzzzz</em>, <em>z z z</em></p>
+<p>The comic-strip spelling of sleep, used in text to mean "I'm asleep," "I'm falling asleep," or "this bores me to death." It is a written symbol before it is a word, which is why it has no fixed pronunciation.</p>
+<ol><li>"<em>Zzz.</em> Talk to you in the morning."</li><li>His entire review of the movie was "<em>zzzzz</em>."</li><li><em>Zzz</em> — I have been up since four.</li><li>She sent "<em>zzz</em>" and went offline.</li><li>He drew little <em>zzz</em>s over the cat in the margin of his notes.</li><li>"<em>Zzz</em>," he wrote under the fourth policy update of the week.</li></ol>
+<p><strong>See also:</strong> <a href="#yawn">yawn</a>, <a href="#snore">snore</a>, <a href="#ah">ah</a></p></div></main>
+<button class="themebtn" id="themeBtn">Dark</button>
+<script>
+const tb=document.getElementById('themeBtn');
+function setTheme(x){document.documentElement.dataset.theme=x;tb.textContent=x==='dark'?'Light':'Dark';
+ try{localStorage.setItem('site-theme',x)}catch(e){}}
+tb.onclick=()=>setTheme(document.documentElement.dataset.theme==='dark'?'light':'dark');
+try{const s=localStorage.getItem('site-theme');
+ setTheme(s||(matchMedia('(prefers-color-scheme: dark)').matches?'dark':'light'))}catch(e){setTheme('light')}
+</script></body></html>

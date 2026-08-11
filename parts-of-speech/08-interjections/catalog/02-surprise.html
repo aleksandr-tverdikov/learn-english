@@ -1,0 +1,531 @@
+<!DOCTYPE html>
+<html lang="en"><head>
+<meta charset="utf-8"><meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Surprise, astonishment, and disbelief</title>
+<style>
+:root{--bg:#faf9f7;--surface:#fff;--surface2:#f2f0ec;--border:#e2ded6;--text:#1a1815;
+--dim:#5f594f;--faint:#8a8377;--accent:#b4552a;--measure:72ch}
+@media(prefers-color-scheme:dark){:root{--bg:#14140f;--surface:#1d1d17;--surface2:#25251d;
+--border:#33332a;--text:#eeeae1;--dim:#a8a293;--faint:#7d776b;--accent:#e8935f}}
+:root[data-theme=dark]{--bg:#14140f;--surface:#1d1d17;--surface2:#25251d;--border:#33332a;
+--text:#eeeae1;--dim:#a8a293;--faint:#7d776b;--accent:#e8935f}
+:root[data-theme=light]{--bg:#faf9f7;--surface:#fff;--surface2:#f2f0ec;--border:#e2ded6;
+--text:#1a1815;--dim:#5f594f;--faint:#8a8377;--accent:#b4552a}
+*{box-sizing:border-box}
+body{margin:0;background:var(--bg);color:var(--text);
+font:17px/1.72 ui-serif,Georgia,"Iowan Old Style",Palatino,serif;-webkit-font-smoothing:antialiased}
+.ui{font-family:-apple-system,BlinkMacSystemFont,"Segoe UI",Inter,Roboto,sans-serif}
+.wrap{max-width:min(var(--measure),100%);margin:0 auto;padding:0 22px}
+nav.crumb{border-bottom:1px solid var(--border);padding:13px 0;font-size:13.5px;
+font-family:-apple-system,sans-serif;position:sticky;top:0;background:var(--bg);z-index:20}
+nav.crumb .wrap{max-width:none;display:flex;gap:9px;align-items:center;flex-wrap:wrap}
+nav.crumb a{color:var(--dim);text-decoration:none}
+nav.crumb a:hover{color:var(--accent)}
+nav.crumb .sep{color:var(--faint)}
+main{padding:8px 0 80px}
+h1{font-size:clamp(28px,5vw,38px);line-height:1.15;letter-spacing:-.015em;margin:34px 0 18px}
+h2{font-size:25px;margin:46px 0 14px;letter-spacing:-.01em;padding-bottom:7px;border-bottom:1px solid var(--border)}
+h3{font-size:19px;margin:34px 0 10px;color:var(--accent)}
+h4{font-size:16px;margin:24px 0 8px;font-family:-apple-system,sans-serif}
+p{margin:0 0 16px}
+a{color:var(--accent)}
+.hash{opacity:0;margin-left:8px;font-weight:400;font-size:.65em;text-decoration:none;color:var(--faint)}
+h2:hover .hash,h3:hover .hash{opacity:1}
+blockquote{margin:0 0 20px;padding:14px 18px;background:var(--surface2);
+border-left:3px solid var(--accent);border-radius:0 8px 8px 0}
+blockquote p:last-child{margin-bottom:0}
+ol,ul{margin:0 0 18px;padding-left:26px}
+li{margin-bottom:8px}
+li>ul,li>ol{margin:8px 0 0}
+code{font-family:ui-monospace,SFMono-Regular,Menlo,Consolas,monospace;font-size:.87em;
+background:var(--surface2);padding:1px 5px;border-radius:4px}
+pre{background:var(--surface2);border:1px solid var(--border);border-radius:9px;
+padding:15px 17px;overflow-x:auto;margin:0 0 20px}
+pre code{background:none;padding:0;font-size:13px;line-height:1.6}
+.tw{overflow-x:auto;margin:0 0 22px;border:1px solid var(--border);border-radius:9px}
+table{border-collapse:collapse;width:100%;font-size:15px;
+font-family:-apple-system,BlinkMacSystemFont,"Segoe UI",sans-serif}
+th,td{padding:10px 14px;border-bottom:1px solid var(--border);vertical-align:top}
+th{background:var(--surface2);font-size:12px;text-transform:uppercase;
+letter-spacing:.06em;color:var(--dim);font-weight:700;white-space:nowrap}
+tbody tr:last-child td{border-bottom:none}
+hr{border:none;border-top:1px solid var(--border);margin:38px 0}
+details{background:var(--surface2);border:1px solid var(--border);border-radius:9px;
+padding:13px 17px;margin:0 0 20px}
+summary{cursor:pointer;font-weight:600;font-family:-apple-system,sans-serif;font-size:15px}
+details[open] summary{margin-bottom:12px}
+del{color:var(--faint)}
+.toc{background:var(--surface2);border:1px solid var(--border);border-radius:10px;
+padding:16px 20px;margin:26px 0 34px;font-family:-apple-system,sans-serif;font-size:14px}
+.toc b{display:block;font-size:11px;letter-spacing:.12em;text-transform:uppercase;
+color:var(--faint);margin-bottom:9px}
+.toc a{display:block;padding:3px 0;color:var(--dim);text-decoration:none}
+.toc a:hover{color:var(--accent)}
+.toc a.l3{padding-left:16px;font-size:13.5px}
+.themebtn{position:fixed;right:18px;bottom:18px;z-index:60;font-family:-apple-system,sans-serif;
+font-size:12.5px;font-weight:600;cursor:pointer;background:var(--surface);border:1px solid var(--border);
+border-radius:99px;padding:9px 16px;color:var(--text)}
+@media(max-width:600px){body{font-size:16px}.wrap{padding:0 17px}}
+</style></head><body>
+<nav class="crumb"><div class="wrap"><a href="../../../index.html">Learn English</a><span class="sep">/</span><a href="../../README.html">Parts of speech</a><span class="sep">/</span><a href="../README.html">08-interjections</a><span class="sep">/</span><span>catalog</span></div></nav>
+<main><div class="wrap"><div class="toc"><b>On this page</b><a class="l2" href="#core-exclamations-of-surprise">Core exclamations of surprise</a><a class="l2" href="#goodness-heavens-and-the-religious-exclamations">Goodness, heavens, and the religious exclamations</a><a class="l2" href="#the-holy--family">The holy  family</a><a class="l2" href="#minced-oaths-and-old-fashioned-exclamations">Minced oaths and old-fashioned exclamations</a><a class="l2" href="#disbelief-and-skepticism">Disbelief and skepticism</a><a class="l2" href="#reacting-to-the-unexpected">Reacting to the unexpected</a></div><h1 id="surprise-astonishment-and-disbelief">Surprise, astonishment, and disbelief<a class="hash" href="#surprise-astonishment-and-disbelief" aria-label="link">#</a></h1>
+<blockquote><p>The words Americans reach for in the first half-second after something unexpected lands — from a quiet <em>huh</em> to a full <em>oh my God</em>.</p></blockquote>
+<p><a href="../README.html">← Back to the interjections index</a> &middot; <a href="README.html">All categories</a></p>
+<p>This is the largest family of interjections in English, and the one where register matters most. The group runs from perfectly safe (<em>wow</em>, <em>gosh</em>, <em>holy cow</em>) through the religious (<em>oh my God</em>, <em>Jesus</em>) to the frankly vulgar (<em>holy crap</em>, <em>holy shit</em>), and a huge share of it consists of <strong>minced oaths</strong> — softened swaps for <em>God</em>, <em>Jesus</em>, and <em>Christ</em> invented so people could exclaim without swearing, which is why <em>gosh</em>, <em>golly</em>, <em>jeez</em>, <em>criminy</em>, <em>cripes</em>, <em>jiminy</em>, and <em>sheesh</em> all still echo the words they replaced. Many of these words stretch for emphasis in writing (<em>whoaaa</em>, <em>sheeesh</em>, <em>nooo way</em>) and take an exclamation point far more often than a period. Almost all of them sit at the very front of the sentence, set off by a comma, and the whole sentence after them is optional — <em>Wow.</em> on its own is a complete turn in a conversation.</p>
+<h2 id="core-exclamations-of-surprise">Core exclamations of surprise<a class="hash" href="#core-exclamations-of-surprise" aria-label="link">#</a></h2>
+<h3 id="boy-oh-boy">boy oh boy<a class="hash" href="#boy-oh-boy" aria-label="link">#</a></h3>
+<p><strong>Pronunciation:</strong> /ˌbɔɪ oʊ ˈbɔɪ/ &middot; <em>BOY oh BOY</em> <strong>Type:</strong> phrase &middot; <strong>Register:</strong> dated <strong>Variants:</strong> <em>boy-oh-boy</em>, <em>boy howdy</em></p>
+<p>An old-fashioned, good-natured exclamation of amazement at something big, unexpected, or about to cause trouble. It sounds folksy and a little theatrical, and it works for good news and bad news alike.</p>
+<ol><li><em>Boy oh boy</em>, that was a long flight.</li><li><em>Boy oh boy</em>, wait until you see the size of their new dog.</li><li>She opened the electric bill and said, "<em>Boy oh boy</em>."</li><li><em>Boy oh boy</em>, is your mother going to have something to say about this.</li><li>We finally got the roof fixed, and <em>boy oh boy</em>, was it expensive.</li></ol>
+<p><strong>See also:</strong> <a href="#oh-boy">oh boy</a>, <a href="#hoo-boy">hoo boy</a>, <a href="#man">man</a></p>
+<h3 id="dude">dude<a class="hash" href="#dude" aria-label="link">#</a></h3>
+<p><strong>Pronunciation:</strong> /dud/, drawn out /duːd/ &middot; <em>DOOD, drawn out DOOOOD</em> <strong>Type:</strong> secondary &middot; <strong>Register:</strong> very informal <strong>Variants:</strong> <em>duuude</em>, <em>dude!</em>, <em>dude.</em></p>
+<p>An address term that stopped addressing anybody decades ago and now works as a complete reaction on its own. Said flat with a period after it, <em>dude.</em> is deadpan disbelief; stretched into <em>duuude</em> it flips to awe. It started as California surfer and stoner slang and is now nationwide, and Americans use it to and about people of any gender.</p>
+<ol><li><em>Dude</em>. You drove all the way there and forgot the tickets?</li><li><em>Duuude</em>, look at that sunset.</li><li><em>Dude</em>, I've been calling you for two hours.</li><li>He read the whole group thread and wrote back one word: <em>dude</em>.</li><li><em>Dude</em> — that's my car she just backed into.</li></ol>
+<p><strong>See also:</strong> <a href="#bruh">bruh</a>, <a href="#man">man</a>, <a href="#whoa">whoa</a></p>
+<h3 id="gasp">gasp<a class="hash" href="#gasp" aria-label="link">#</a></h3>
+<p><strong>Pronunciation:</strong> not a word — a fast, sharp intake of breath through an open mouth, the involuntary sound of shock; only when Americans say the spelling out loud as a joke does it become /ɡæsp/ &middot; <em>GASP</em> <strong>Type:</strong> onomatopoeic &middot; <strong>Register:</strong> informal (chiefly written) <strong>Variants:</strong> <em>gaaasp</em>, <em>gasp!</em></p>
+<p>Strictly speaking this is a breath, not a word: the real thing is an audible inhalation, and the spelling is a stage direction that lets writers put that breath on the page. Americans do also pronounce the four letters aloud, but only as a joke, to mark mock scandal at something they are not actually shocked by.</p>
+<ol><li>She reached the last line of the letter and there was an audible <em>gasp</em> from the back of the room.</li><li><em>Gasp</em> — you mean he knew the whole time?</li><li>The lights came up and the whole theater let out one <em>gasp</em>.</li><li>Her text was just <em>gasp</em> and a string of question marks.</li><li><em>Gasp</em>. A politician who kept a promise.</li></ol>
+<p><strong>See also:</strong> <a href="#whoa">whoa</a>, <a href="#oh-my-god">oh my God</a>, <a href="#wow">wow</a></p>
+<h3 id="hoo-boy">hoo boy<a class="hash" href="#hoo-boy" aria-label="link">#</a></h3>
+<p><strong>Pronunciation:</strong> /ˌhu ˈbɔɪ/ &middot; <em>hoo-BOY</em> <strong>Type:</strong> phrase &middot; <strong>Register:</strong> informal <strong>Variants:</strong> <em>hoo-boy</em>, <em>hoo boy oh boy</em></p>
+<p>A drawn-out exclamation that braces the listener for something big, messy, or hard to explain. It signals that what follows is going to be a lot: bad news, a long story, or a complication nobody wants.</p>
+<ol><li><em>Hoo boy</em>, you're not going to believe what happened at the meeting.</li><li>I looked at the repair estimate and thought, <em>hoo boy</em>.</li><li><em>Hoo boy</em>, they want all of this filled out before Friday?</li><li><em>Hoo boy</em>, the line at the DMV goes out the door and around the corner.</li><li>When she mentioned her ex, my brother just said, "<em>Hoo boy</em>."</li></ol>
+<p><strong>See also:</strong> <a href="#oh-boy">oh boy</a>, <a href="#boy-oh-boy">boy oh boy</a>, <a href="#man">man</a></p>
+<h3 id="huh">huh<a class="hash" href="#huh" aria-label="link">#</a></h3>
+<p><strong>Pronunciation:</strong> /hʌ/, usually nasalized /hʌ̃/ &middot; <em>HUH</em> <strong>Type:</strong> primary &middot; <strong>Register:</strong> informal <strong>Variants:</strong> <em>hunh</em>, <em>huh?</em></p>
+<p>A short, often nasalized grunt of mild surprise or puzzlement, used when something does not match what you expected. Said flat and short it simply registers a small new fact; said with a rising tone it asks the speaker to confirm what you just heard.</p>
+<ol><li><em>Huh</em>. I could have sworn I locked the door.</li><li><em>Huh</em>, the hardware store is closed on Mondays now.</li><li><em>Huh</em>? You already finished the whole season?</li><li>She read the label and said, "<em>Huh</em>, it's actually made in Ohio."</li><li><em>Huh</em>, that's not what the map showed at all.</li></ol>
+<p><strong>See also:</strong> <a href="#oh">oh</a>, <a href="#really">really</a>, <a href="#what">what</a></p>
+<h3 id="man">man<a class="hash" href="#man" aria-label="link">#</a></h3>
+<p><strong>Pronunciation:</strong> /mæn/ &middot; <em>MAN</em> <strong>Type:</strong> secondary &middot; <strong>Register:</strong> informal <strong>Variants:</strong> <em>oh man</em>, <em>man oh man</em>, <em>aw man</em></p>
+<p>A general-purpose exclamation of strong feeling that, in this category, marks something as impressive, shocking, or hard to take in. It sits at the front of the sentence far more often than anywhere else, and Americans use it to and about people of any gender.</p>
+<ol><li><em>Man</em>, that storm came out of nowhere.</li><li><em>Man</em>, I didn't expect the tickets to sell out in four minutes.</li><li><em>Oh man</em>, look at that view.</li><li>He caught it one-handed. <em>Man</em>.</li><li><em>Man</em>, you scared me. I thought the house was empty.</li></ol>
+<p><strong>See also:</strong> <a href="#dude">dude</a>, <a href="#oh-boy">oh boy</a>, <a href="#boy-oh-boy">boy oh boy</a>, <a href="#wow">wow</a></p>
+<h3 id="my">my<a class="hash" href="#my" aria-label="link">#</a></h3>
+<p><strong>Pronunciation:</strong> /maɪ/ &middot; <em>MY</em> <strong>Type:</strong> secondary &middot; <strong>Register:</strong> dated <strong>Variants:</strong> <em>my my</em>, <em>my, my</em>, <em>my oh my</em></p>
+<p>A gentle, old-fashioned exclamation of surprise, most often doubled as my, my. It sounds polite and slightly grandmotherly, and it can carry a hint of amused disapproval underneath the good manners.</p>
+<ol><li><em>My, my</em>, look who finally showed up.</li><li><em>My</em>, you've grown a foot since Christmas.</li><li><em>My, my</em>. Somebody has been busy.</li><li><em>My</em>, what a beautiful garden you have back here.</li><li><em>My oh my</em>, aren't we fancy tonight.</li></ol>
+<p><strong>See also:</strong> <a href="#oh-my">oh my</a>, <a href="#my-goodness">my goodness</a>, <a href="#my-word">my word</a></p>
+<h3 id="oh">oh<a class="hash" href="#oh" aria-label="link">#</a></h3>
+<p><strong>Pronunciation:</strong> /oʊ/ &middot; <em>OH</em> <strong>Type:</strong> primary &middot; <strong>Register:</strong> neutral <strong>Variants:</strong> <em>ohh</em>, <em>ohhh</em>, <em>o</em></p>
+<p>The most basic surprise marker in English: a single vowel signaling that new information has just arrived. On its own it registers mild surprise; stretched out or combined with another word it scales all the way up to real astonishment.</p>
+<ol><li><em>Oh</em>! I didn't hear you come in.</li><li><em>Oh</em>, you're already here. I thought traffic would hold you up.</li><li>Wait — <em>oh</em>, that's not my suitcase.</li><li><em>Oh</em>. So you two already know each other.</li><li><em>Oh</em>, wow, they repainted the entire lobby.</li></ol>
+<p><strong>See also:</strong> <a href="#oh-my">oh my</a>, <a href="#oh-my-god">oh my God</a>, <a href="#wow">wow</a>, <a href="#huh">huh</a></p>
+<h3 id="oh-boy">oh boy<a class="hash" href="#oh-boy" aria-label="link">#</a></h3>
+<p><strong>Pronunciation:</strong> /ˌoʊ ˈbɔɪ/ &middot; <em>oh-BOY</em> <strong>Type:</strong> phrase &middot; <strong>Register:</strong> informal <strong>Variants:</strong> <em>oh boy oh boy</em></p>
+<p>An exclamation that greets something unexpected with a mix of surprise and bracing. Tone does all the work: bright and rising it means delight, flat and falling it means here we go again.</p>
+<ol><li><em>Oh boy</em>, they're giving out free samples at the entrance.</li><li><em>Oh boy</em>. The check engine light just came on again.</li><li><em>Oh boy</em>, is this going to be a long week.</li><li>The kids saw the pool and yelled, "<em>Oh boy</em>!"</li><li><em>Oh boy</em>, I didn't think that door would come off in my hand.</li></ol>
+<p><strong>See also:</strong> <a href="#boy-oh-boy">boy oh boy</a>, <a href="#hoo-boy">hoo boy</a>, <a href="#man">man</a></p>
+<h3 id="oh-my">oh my<a class="hash" href="#oh-my" aria-label="link">#</a></h3>
+<p><strong>Pronunciation:</strong> /ˌoʊ ˈmaɪ/ &middot; <em>oh-MY</em> <strong>Type:</strong> phrase &middot; <strong>Register:</strong> neutral <strong>Variants:</strong> <em>oh my oh my</em>, <em>oh my, oh my</em></p>
+<p>A soft, slightly formal exclamation of surprise at something startling, sweet, or overwhelming. It is the polite alternative to oh my God and reads as gentle rather than dramatic.</p>
+<ol><li><em>Oh my</em>, there's enough food here for a dozen people.</li><li><em>Oh my</em>, did you make this yourself?</li><li>She opened the door, saw the flowers, and said, "<em>Oh my</em>."</li><li><em>Oh my</em>, look how much snow came down overnight.</li><li><em>Oh my</em>, I had no idea it was already midnight.</li></ol>
+<p><strong>See also:</strong> <a href="#my">my</a>, <a href="#oh-my-god">oh my God</a>, <a href="#oh-my-gosh">oh my gosh</a>, <a href="#my-goodness">my goodness</a></p>
+<h3 id="oh-snap">oh snap<a class="hash" href="#oh-snap" aria-label="link">#</a></h3>
+<p><strong>Pronunciation:</strong> /ˌoʊ ˈsnæp/ &middot; <em>oh-SNAP</em> <strong>Type:</strong> phrase &middot; <strong>Register:</strong> informal <strong>Variants:</strong> <em>oh snaps</em>, <em>snap</em></p>
+<p>A delighted reaction to a sudden turn: a comeback that landed, a twist nobody saw coming, or a small disaster you are enjoying from a safe distance. It came into general slang out of Black English in the 1990s. It is completely clean, which is a large part of why it traveled so far.</p>
+<ol><li><em>Oh snap</em>, she said that to his face?</li><li><em>Oh snap</em> — I left my badge in the car.</li><li>"And then he read the whole email out loud." "<em>Oh snap</em>."</li><li><em>Oh snap</em>, the sequel comes out this Friday?</li><li>He watched the replay twice and said, "<em>Oh snap</em>."</li></ol>
+<p><strong>See also:</strong> <a href="#whoa">whoa</a>, <a href="#no-way">no way</a>, <a href="#wow">wow</a>, <a href="#bruh">bruh</a></p>
+<h3 id="ope">ope<a class="hash" href="#ope" aria-label="link">#</a></h3>
+<p><strong>Pronunciation:</strong> /oʊp/ &middot; <em>OHP</em> <strong>Type:</strong> primary &middot; <strong>Register:</strong> regional (Midwestern) <strong>Variants:</strong> <em>ope!</em>, <em>oop</em></p>
+<p>A tiny, clipped exclamation of surprise used when you bump into someone, drop something, or catch a small mistake. It is strongly associated with the Midwest, where it usually runs straight into an apology or a request to squeeze past.</p>
+<ol><li><em>Ope</em>, sorry, I didn't see you there.</li><li><em>Ope</em>, let me just squeeze past you real quick.</li><li><em>Ope</em>, that's my phone.</li><li><em>Ope</em>, I almost knocked the whole stack over.</li><li><em>Ope</em>, wrong turn. I'll flip around at the light.</li></ol>
+<p><strong>See also:</strong> <a href="#oh">oh</a>, <a href="#whoa">whoa</a>, <a href="#huh">huh</a></p>
+<h3 id="whoa">whoa<a class="hash" href="#whoa" aria-label="link">#</a></h3>
+<p><strong>Pronunciation:</strong> /woʊ/, also /hwoʊ/ &middot; <em>WOH, also HWOH</em> <strong>Type:</strong> primary &middot; <strong>Register:</strong> informal <strong>Variants:</strong> <em>woah</em>, <em>whoah</em>, <em>whooaa</em></p>
+<p>A sharp exclamation of astonishment at something big, sudden, or impressive. The same word also means slow down or hold on, and the surprise use keeps a trace of that: whoa marks the thing that stopped you in your tracks. Note that woah is a very common misspelling.</p>
+<ol><li><em>Whoa</em>, that's a huge bill for one month of electricity.</li><li><em>Whoa</em> — did you see how fast that car went by?</li><li><em>Whoa</em>, you cut your hair!</li><li>He opened the box and just said, "<em>Whoa</em>."</li><li><em>Whoa</em>, back up a second. She said what?</li></ol>
+<p><strong>See also:</strong> <a href="#wow">wow</a>, <a href="#holy-cow">holy cow</a>, <a href="#oh-snap">oh snap</a>, <a href="#wait-what">wait, what</a></p>
+<h3 id="wow">wow<a class="hash" href="#wow" aria-label="link">#</a></h3>
+<p><strong>Pronunciation:</strong> /waʊ/ &middot; <em>WOW</em> <strong>Type:</strong> primary &middot; <strong>Register:</strong> neutral <strong>Variants:</strong> <em>oh wow</em>, <em>woww</em>, <em>wowww</em></p>
+<p>The default American expression of amazement, good or bad. It covers genuine awe, polite admiration, and, said flat with a pause in front of it, stunned disapproval.</p>
+<ol><li><em>Wow</em>, this view is unbelievable.</li><li><em>Wow</em>, you finished the whole thing in one night?</li><li><em>Wow</em>. That's a really rude thing to say to someone.</li><li>I actually said <em>wow</em> out loud when I saw the price.</li><li><em>Wow</em>, they have completely redone the lobby since I was here.</li></ol>
+<p><strong>See also:</strong> <a href="#whoa">whoa</a>, <a href="#holy-cow">holy cow</a>, <a href="#oh-my-god">oh my God</a></p>
+<h3 id="wowzers">wowzers<a class="hash" href="#wowzers" aria-label="link">#</a></h3>
+<p><strong>Pronunciation:</strong> /ˈwaʊzɚz/ &middot; <em>WOW-zurz</em> <strong>Type:</strong> primary &middot; <strong>Register:</strong> informal <strong>Variants:</strong> <em>wowza</em>, <em>wowzer</em>, <em>wowie zowie</em></p>
+<p>A playful, cartoonish intensifier of wow, used when you want to sound amazed without sounding serious. The goofiness is the point.</p>
+<ol><li><em>Wowzers</em>, there's a solid pound of cheese on that pizza.</li><li><em>Wowzers</em>, three job offers in one week?</li><li>She looked at the price tag and said, "<em>Wowzers</em>."</li><li><em>Wowzers</em>, the whole backyard is full of fireflies.</li><li>I got my results back and, <em>wowzers</em>, they were better than I hoped.</li></ol>
+<p><strong>See also:</strong> <a href="#wow">wow</a>, <a href="#yowza">yowza</a>, <a href="#holy-moly">holy moly</a></p>
+<h3 id="yowza">yowza<a class="hash" href="#yowza" aria-label="link">#</a></h3>
+<p><strong>Pronunciation:</strong> /ˈjaʊzə/ &middot; <em>YOW-zuh</em> <strong>Type:</strong> primary &middot; <strong>Register:</strong> informal (somewhat dated) <strong>Variants:</strong> <em>yowzah</em>, <em>yowza yowza yowza</em></p>
+<p>An exclamation of amazement, usually at something impressive, expensive, or good-looking. It comes out of mid-century show business, so it always sounds a little like a bandleader is saying it.</p>
+<ol><li><em>Yowza</em>, look at the size of that steak.</li><li>Three hundred dollars for one night in a motel? <em>Yowza</em>.</li><li><em>Yowza</em>, that band can play.</li><li><em>Yowza</em>, that thing goes zero to sixty in three seconds.</li><li>He whistled and said, "<em>Yowza</em>."</li></ol>
+<p><strong>See also:</strong> <a href="#wowzers">wowzers</a>, <a href="#wow">wow</a>, <a href="#holy-cow">holy cow</a></p>
+<h2 id="goodness-heavens-and-the-religious-exclamations">Goodness, heavens, and the religious exclamations<a class="hash" href="#goodness-heavens-and-the-religious-exclamations" aria-label="link">#</a></h2>
+<h3 id="good-grief">good grief<a class="hash" href="#good-grief" aria-label="link">#</a></h3>
+<p><strong>Pronunciation:</strong> /ˌɡʊd ˈɡrif/ &middot; <em>good GREEF</em> <strong>Type:</strong> phrase &middot; <strong>Register:</strong> informal <strong>Variants:</strong> <em>good grief!</em>, <em>oh good grief</em></p>
+<p>A softened <em>good God</em>: surprise shading into weariness at something excessive, absurd, or one thing too many. Charlie Brown made it a fixture of American speech and it still carries his particular blend of patience and despair. It is completely safe in any company.</p>
+<ol><li><em>Good grief</em>, how long has that been in the refrigerator?</li><li><em>Good grief</em> — they've raised the parking rate again.</li><li>"He's rewriting the whole thing from scratch." "<em>Good grief</em>."</li><li><em>Good grief</em>, it's only Tuesday.</li><li>She looked at the twelve-page form and said, "<em>Good grief</em>."</li></ol>
+<p><strong>See also:</strong> <a href="#good-heavens">good heavens</a>, <a href="#my-goodness">my goodness</a>, <a href="#gosh">gosh</a>, <a href="#sheesh">sheesh</a></p>
+<h3 id="good-heavens">good heavens<a class="hash" href="#good-heavens" aria-label="link">#</a></h3>
+<p><strong>Pronunciation:</strong> /ɡʊd ˈhɛvənz/ &middot; <em>good HEV-uhnz</em> <strong>Type:</strong> phrase &middot; <strong>Register:</strong> dated <strong>Variants:</strong> <em>heavens</em>, <em>heavens above</em>, <em>good heavens above</em></p>
+<p>A mild, old-fashioned exclamation of surprise or dismay. It sounds proper and slightly theatrical, and today it turns up more in writing and from older speakers than in everyday conversation.</p>
+<ol><li><em>Good heavens</em>, is that the time already?</li><li><em>Good heavens</em>, what happened to your arm?</li><li><em>Good heavens</em> — I had no idea the ceiling was leaking.</li><li>She read the letter twice and said, "<em>Good heavens</em>."</li><li><em>Good heavens</em>, there must be two hundred people out there.</li></ol>
+<p><strong>See also:</strong> <a href="#good-grief">good grief</a>, <a href="#my-goodness">my goodness</a>, <a href="#goodness-gracious">goodness gracious</a>, <a href="#my-word">my word</a>, <a href="#heavens-to-betsy">heavens to Betsy</a></p>
+<h3 id="goodness-gracious">goodness gracious<a class="hash" href="#goodness-gracious" aria-label="link">#</a></h3>
+<p><strong>Pronunciation:</strong> /ˌɡʊdnəs ˈɡreɪʃəs/ &middot; <em>GOOD-nis GRAY-shuhs</em> <strong>Type:</strong> phrase &middot; <strong>Register:</strong> informal (somewhat dated) <strong>Variants:</strong> <em>gracious</em>, <em>gracious me</em>, <em>goodness gracious me</em></p>
+<p>A soft, wholesome exclamation of surprise, and one of the safest in the whole family: nobody is offended by it. It usually introduces a comment on something excessive or unexpected.</p>
+<ol><li><em>Goodness gracious</em>, look at all this mail.</li><li><em>Goodness gracious</em>, you scared me half to death.</li><li><em>Goodness gracious</em>, that child can run.</li><li><em>Goodness gracious</em>, it's cold out there this morning.</li><li>Grandma looked at the pile of gifts and said, "<em>Goodness gracious</em>."</li></ol>
+<p><strong>See also:</strong> <a href="#my-goodness">my goodness</a>, <a href="#good-heavens">good heavens</a>, <a href="#gosh">gosh</a></p>
+<h3 id="jesus">Jesus<a class="hash" href="#jesus" aria-label="link">#</a></h3>
+<p><strong>Pronunciation:</strong> /ˈdʒizəs/ &middot; <em>JEE-zuhs</em> <strong>Type:</strong> secondary &middot; <strong>Register:</strong> vulgar <strong>Variants:</strong> <em>Jesus Christ</em>, <em>sweet Jesus</em>, <em>Jesus H. Christ</em></p>
+<p>The strongest word in this file after <em>holy shit</em>, and the one most likely to cost you something. Plenty of Americans use it as an all-purpose reaction to shock; to observant Christians it is blasphemy — taking the Lord's name in vain — and they hear it that way whether or not you meant it. This is swearing, not emphasis. Keep it out of work, school, church, and any company you do not already know well.</p>
+<ol><li><em>Jesus</em>, that car came out of nowhere.</li><li><em>Jesus Christ</em>, look at this traffic.</li><li><em>Jesus</em>, are you okay? I heard the crash from inside the house.</li><li>He saw the damage to the fender and muttered, "<em>Jesus</em>."</li><li><em>Jesus</em>, I had no idea it was that serious.</li></ol>
+<p><strong>See also:</strong> <a href="#jeez">jeez</a>, <a href="#oh-my-god">oh my God</a>, <a href="#holy-shit">holy shit</a>, <a href="#holy-crap">holy crap</a></p>
+<h3 id="lordy">lordy<a class="hash" href="#lordy" aria-label="link">#</a></h3>
+<p><strong>Pronunciation:</strong> /ˈlɔrdi/ &middot; <em>LOR-dee</em> <strong>Type:</strong> secondary &middot; <strong>Register:</strong> regional (Southern) <strong>Variants:</strong> <em>lawdy</em>, <em>lawd</em>, <em>lordy lordy</em>, <em>Lord have mercy</em></p>
+<p>A drawled exclamation of surprise or amazement with a strong Southern flavor, often doubled. Depending on the tone it can be warm, weary, or scandalized.</p>
+<ol><li><em>Lordy</em>, it's hot out there today.</li><li><em>Lordy, lordy</em>, look who's forty.</li><li><em>Lordy</em>, that boy has grown since summer.</li><li>She fanned herself and said, "<em>Lordy</em>, what a day."</li><li><em>Lordy</em>, I've never seen so many cars at one funeral.</li></ol>
+<p><strong>See also:</strong> <a href="#mercy">mercy</a>, <a href="#land-sakes">land sakes</a>, <a href="#my-stars">my stars</a></p>
+<h3 id="mercy">mercy<a class="hash" href="#mercy" aria-label="link">#</a></h3>
+<p><strong>Pronunciation:</strong> /ˈmɝsi/ &middot; <em>MUR-see</em> <strong>Type:</strong> secondary &middot; <strong>Register:</strong> regional (Southern) <strong>Variants:</strong> <em>mercy me</em>, <em>have mercy</em>, <em>mercy sakes</em>, <em>Lord have mercy</em></p>
+<p>An exclamation of surprise at something extreme, striking, or overwhelming. It is old-fashioned and warm, and it survives best in Southern and rural speech, often expanded to mercy me.</p>
+<ol><li><em>Mercy</em>, it's really coming down out there.</li><li><em>Mercy me</em>, you gave me a fright.</li><li><em>Mercy</em>, those steps are steeper than they look.</li><li><em>Mercy</em>, what a beautiful baby.</li><li>He tasted the chili, wiped his forehead, and said, "<em>Mercy</em>."</li></ol>
+<p><strong>See also:</strong> <a href="#lordy">lordy</a>, <a href="#land-sakes">land sakes</a>, <a href="#goodness-gracious">goodness gracious</a></p>
+<h3 id="mother-of-god">mother of God<a class="hash" href="#mother-of-god" aria-label="link">#</a></h3>
+<p><strong>Pronunciation:</strong> /ˌmʌðɚ əv ˈɡɑd/ &middot; <em>MUTH-ur uhv GOD</em> <strong>Type:</strong> phrase &middot; <strong>Register:</strong> very informal <strong>Variants:</strong> <em>sweet mother of God</em>, <em>holy mother of God</em>, <em>mother of mercy</em></p>
+<p>A heavy exclamation of shock lifted out of Catholic prayer and now used well outside it. It sits a step above <em>oh my God</em> and lands closest to real horror or real awe — nobody says it about a parking space. Devout listeners, Catholics in particular, may hear it as irreverent, so it is a poor choice in mixed company.</p>
+<ol><li><em>Mother of God</em>, look at the size of that wave.</li><li>He came around the corner, saw the wreck, and said, "<em>Mother of God</em>."</li><li><em>Sweet mother of God</em>, it's cold.</li><li><em>Mother of God</em> — how fast was he going?</li><li><em>Mother of God</em>, they want forty thousand dollars to fix it.</li></ol>
+<p><strong>See also:</strong> <a href="#oh-my-god">oh my God</a>, <a href="#jesus">Jesus</a>, <a href="#holy-shit">holy shit</a>, <a href="#good-heavens">good heavens</a></p>
+<h3 id="my-goodness">my goodness<a class="hash" href="#my-goodness" aria-label="link">#</a></h3>
+<p><strong>Pronunciation:</strong> /maɪ ˈɡʊdnəs/ &middot; <em>my GOOD-nis</em> <strong>Type:</strong> phrase &middot; <strong>Register:</strong> neutral <strong>Variants:</strong> <em>goodness</em>, <em>goodness me</em>, <em>oh my goodness</em></p>
+<p>A gentle exclamation of surprise that nobody could object to. It suits polite company, older listeners, and any moment where you want to register astonishment without swearing.</p>
+<ol><li><em>My goodness</em>, that's a big dog.</li><li><em>My goodness</em>, you've done all this since this morning?</li><li><em>My goodness</em>, I didn't recognize you with the beard.</li><li><em>My goodness</em>, the prices in this neighborhood have gone crazy.</li><li>"<em>My goodness</em>," she said, "you two look exactly alike."</li></ol>
+<p><strong>See also:</strong> <a href="#goodness-gracious">goodness gracious</a>, <a href="#my-word">my word</a>, <a href="#good-heavens">good heavens</a>, <a href="#oh-my-gosh">oh my gosh</a></p>
+<h3 id="my-word">my word<a class="hash" href="#my-word" aria-label="link">#</a></h3>
+<p><strong>Pronunciation:</strong> /maɪ ˈwɝd/ &middot; <em>my WURD</em> <strong>Type:</strong> phrase &middot; <strong>Register:</strong> dated <strong>Variants:</strong> <em>upon my word</em>, <em>my word!</em></p>
+<p>A restrained, slightly formal exclamation of surprise. It sounds bookish and old-fashioned, the sort of thing a professor or a grandparent says when something impresses them.</p>
+<ol><li><em>My word</em>, this house is enormous.</li><li><em>My word</em>, I haven't seen you in twenty years.</li><li><em>My word</em>, that's a great deal of luggage for one weekend.</li><li>He looked at the final score and said, "<em>My word</em>."</li><li><em>My word</em>, the garden has really taken off this summer.</li></ol>
+<p><strong>See also:</strong> <a href="#my-goodness">my goodness</a>, <a href="#good-heavens">good heavens</a>, <a href="#well-i-never">well, I never</a></p>
+<h3 id="oh-my-god">oh my God<a class="hash" href="#oh-my-god" aria-label="link">#</a></h3>
+<p><strong>Pronunciation:</strong> /ˌoʊ maɪ ˈɡɑd/ &middot; <em>oh my GOD</em> <strong>Type:</strong> phrase &middot; <strong>Register:</strong> informal <strong>Variants:</strong> <em>omigod</em>, <em>ohmigod</em>, <em>oh God</em>, <em>oh my Lord</em></p>
+<p>The strongest and most common all-purpose expression of shock in American English, used for horror, delight, and everything in between. It is everywhere in casual speech, but religious listeners may hear it as disrespectful and it is out of place in formal settings.</p>
+<ol><li><em>Oh my God</em>, you're engaged!</li><li><em>Oh my God</em>, I completely forgot about the meeting.</li><li><em>Oh my God</em> — is everyone okay?</li><li>She opened the door and screamed, "<em>Oh my God</em>!"</li><li><em>Oh my God</em>, this is the best cake I've ever had.</li></ol>
+<p><strong>See also:</strong> <a href="#omg">OMG</a>, <a href="#oh-my-gosh">oh my gosh</a>, <a href="#jesus">Jesus</a>, <a href="#mother-of-god">mother of God</a>, <a href="#holy-shit">holy shit</a></p>
+<h3 id="oh-my-gosh">oh my gosh<a class="hash" href="#oh-my-gosh" aria-label="link">#</a></h3>
+<p><strong>Pronunciation:</strong> /ˌoʊ maɪ ˈɡɑʃ/ &middot; <em>oh my GOSH</em> <strong>Type:</strong> phrase &middot; <strong>Register:</strong> informal <strong>Variants:</strong> <em>omigosh</em>, <em>ohmigosh</em></p>
+<p>The polite substitute for oh my God, and nearly as common. It carries the same shock with none of the religious risk, which makes it the safe choice at work, at school, and around children.</p>
+<ol><li><em>Oh my gosh</em>, look how much he has grown!</li><li><em>Oh my gosh</em>, I'm so sorry — I thought the meeting was at three.</li><li><em>Oh my gosh</em>, that puppy is tiny.</li><li><em>Oh my gosh</em> — you got the job?</li><li>"<em>Oh my gosh</em>," he said, "I've been looking for this for a year."</li></ol>
+<p><strong>See also:</strong> <a href="#oh-my-god">oh my God</a>, <a href="#gosh">gosh</a>, <a href="#my-goodness">my goodness</a>, <a href="#omg">OMG</a></p>
+<h3 id="omg">OMG<a class="hash" href="#omg" aria-label="link">#</a></h3>
+<p><strong>Pronunciation:</strong> /ˌoʊ ɛm ˈdʒi/ &middot; <em>oh-em-JEE</em> <strong>Type:</strong> phrase &middot; <strong>Register:</strong> internet/text <strong>Variants:</strong> <em>omg</em>, <em>oh em gee</em></p>
+<p>The written short form of oh my God, born in text messages and now also said out loud as three letters. Spoken, it is lighter and jokier than the full phrase; written, it is ordinary casual register and completely wrong in anything formal.</p>
+<ol><li><em>OMG</em>, they announced a reunion tour.</li><li>She texted me <em>OMG</em> and nothing else, so I called her.</li><li><em>OMG</em>, I just realized I've been spelling your name wrong for a year.</li><li><em>OMG</em>, this line isn't moving at all.</li><li><em>OMG</em>, you have to see the photos from last night.</li></ol>
+<p><strong>See also:</strong> <a href="#oh-my-god">oh my God</a>, <a href="#oh-my-gosh">oh my gosh</a>, <a href="#for-real">for real</a></p>
+<h2 id="the-holy--family">The holy ___ family<a class="hash" href="#the-holy--family" aria-label="link">#</a></h2>
+<h3 id="holy-cow">holy cow<a class="hash" href="#holy-cow" aria-label="link">#</a></h3>
+<p><strong>Pronunciation:</strong> /ˌhoʊli ˈkaʊ/ &middot; <em>HOH-lee KOW</em> <strong>Type:</strong> phrase &middot; <strong>Register:</strong> informal <strong>Variants:</strong> <em>holy cow!</em></p>
+<p>A wholesome exclamation of astonishment, strongly associated with baseball broadcasting. It is safe in almost any company, including at work and around children.</p>
+<ol><li><em>Holy cow</em>, that ball is out of here!</li><li><em>Holy cow</em>, you drove all the way from Denver in one day?</li><li><em>Holy cow</em>, look at the size of that crowd.</li><li>I opened the electric bill and said, "<em>Holy cow</em>."</li><li><em>Holy cow</em>, it's already November.</li></ol>
+<p><strong>See also:</strong> <a href="#holy-smokes">holy smokes</a>, <a href="#holy-moly">holy moly</a>, <a href="#wow">wow</a></p>
+<h3 id="holy-crap">holy crap<a class="hash" href="#holy-crap" aria-label="link">#</a></h3>
+<p><strong>Pronunciation:</strong> /ˌhoʊli ˈkræp/ &middot; <em>HOH-lee KRAP</em> <strong>Type:</strong> phrase &middot; <strong>Register:</strong> very informal <strong>Variants:</strong> <em>holy hell</em>, <em>holy cannoli</em></p>
+<p>A blunt exclamation of shock, and the mildest of the genuinely crude versions — but still crude: fine with friends, risky at work, wrong with strangers. It is the substitute people reach for when <em>holy shit</em> would cost too much, and the listener usually hears the missing word anyway.</p>
+<ol><li><em>Holy crap</em>, did you see that lightning?</li><li><em>Holy crap</em>, this room is a disaster.</li><li><em>Holy crap</em> — my flight leaves in forty minutes.</li><li><em>Holy crap</em>, the whole block just went dark.</li><li>He looked at the dent in the door and said, "<em>Holy crap</em>."</li></ol>
+<p><strong>See also:</strong> <a href="#holy-shit">holy shit</a>, <a href="#holy-smokes">holy smokes</a>, <a href="#oh-my-god">oh my God</a>, <a href="#what-the">what the</a></p>
+<h3 id="holy-mackerel">holy mackerel<a class="hash" href="#holy-mackerel" aria-label="link">#</a></h3>
+<p><strong>Pronunciation:</strong> /ˌhoʊli ˈmækərəl/ &middot; <em>HOH-lee MACK-uh-ruhl</em> <strong>Type:</strong> phrase &middot; <strong>Register:</strong> dated <strong>Variants:</strong> <em>holy mackerel!</em></p>
+<p>A quaint, deliberately harmless exclamation of surprise. It sounds like something out of a 1940s radio show, which is exactly why people still enjoy saying it.</p>
+<ol><li><em>Holy mackerel</em>, look at the size of that fish.</li><li><em>Holy mackerel</em>, they want how much for parking?</li><li><em>Holy mackerel</em>, I haven't seen one of those since I was a kid.</li><li><em>Holy mackerel</em>, that was close.</li><li>"<em>Holy mackerel</em>," Dad said, "the whole street is flooded."</li></ol>
+<p><strong>See also:</strong> <a href="#holy-cow">holy cow</a>, <a href="#holy-toledo">holy Toledo</a>, <a href="#holy-smokes">holy smokes</a></p>
+<h3 id="holy-moly">holy moly<a class="hash" href="#holy-moly" aria-label="link">#</a></h3>
+<p><strong>Pronunciation:</strong> /ˌhoʊli ˈmoʊli/ &middot; <em>HOH-lee MOH-lee</em> <strong>Type:</strong> phrase &middot; <strong>Register:</strong> informal <strong>Variants:</strong> <em>holy moley</em>, <em>holy moly guacamole</em></p>
+<p>A light, playful exclamation of astonishment. It is completely inoffensive and usually said half-jokingly.</p>
+<ol><li><em>Holy moly</em>, that's a lot of homework for one night.</li><li><em>Holy moly</em>, you were not kidding about the hills here.</li><li><em>Holy moly</em>, the whole thing sold out in an hour.</li><li><em>Holy moly</em>, this coffee is strong.</li><li>She counted the drawer twice and said, "<em>Holy moly</em>, we're actually short."</li></ol>
+<p><strong>See also:</strong> <a href="#holy-cow">holy cow</a>, <a href="#wowzers">wowzers</a>, <a href="#holy-smokes">holy smokes</a></p>
+<h3 id="holy-shit">holy shit<a class="hash" href="#holy-shit" aria-label="link">#</a></h3>
+<p><strong>Pronunciation:</strong> /ˌhoʊli ˈʃɪt/ &middot; <em>HOH-lee SHIT</em> <strong>Type:</strong> phrase &middot; <strong>Register:</strong> vulgar <strong>Variants:</strong> <em>holy shit!</em>, <em>holy shitballs</em></p>
+<p>The most common member of this whole family and the loudest thing most Americans say short of <em>fuck</em> — the default reaction to a near miss, an impossible number, or something you did not think could happen. Be honest about what it costs: it is genuinely vulgar, it gets noticed in a workplace, and it is out of bounds around children, clients, and strangers. Every other <em>holy</em> ___ in this section exists to fill this slot without the consequences.</p>
+<ol><li><em>Holy shit</em>, that truck missed us by a foot.</li><li><em>Holy shit</em> — did you see the final score?</li><li>He opened the estimate and just said, "<em>Holy shit</em>."</li><li><em>Holy shit</em>, she actually went through with it.</li><li><em>Holy shit</em>, there's water coming through the ceiling.</li></ol>
+<p><strong>See also:</strong> <a href="#holy-crap">holy crap</a>, <a href="#oh-my-god">oh my God</a>, <a href="#mother-of-god">mother of God</a>, <a href="#what-the">what the</a></p>
+<h3 id="holy-smokes">holy smokes<a class="hash" href="#holy-smokes" aria-label="link">#</a></h3>
+<p><strong>Pronunciation:</strong> /ˌhoʊli ˈsmoʊks/ &middot; <em>HOH-lee SMOHKS</em> <strong>Type:</strong> phrase &middot; <strong>Register:</strong> informal <strong>Variants:</strong> <em>holy smoke</em></p>
+<p>A mild exclamation of shock, safe for work and safe around kids. It works equally well for something impressive and something alarming.</p>
+<ol><li><em>Holy smokes</em>, that's a steep driveway.</li><li><em>Holy smokes</em>, the game went to triple overtime?</li><li><em>Holy smokes</em> — where did all these people come from?</li><li><em>Holy smokes</em>, I've never seen the river that high.</li><li>He hit the brakes and said, "<em>Holy smokes</em>, that deer came out of nowhere."</li></ol>
+<p><strong>See also:</strong> <a href="#holy-cow">holy cow</a>, <a href="#holy-crap">holy crap</a>, <a href="#holy-mackerel">holy mackerel</a></p>
+<h3 id="holy-toledo">holy Toledo<a class="hash" href="#holy-toledo" aria-label="link">#</a></h3>
+<p><strong>Pronunciation:</strong> /ˌhoʊli təˈlidoʊ/ &middot; <em>HOH-lee tuh-LEE-doh</em> <strong>Type:</strong> phrase &middot; <strong>Register:</strong> dated <strong>Variants:</strong> <em>holy Toledo!</em></p>
+<p>A jokey exclamation of amazement built on the name of the Ohio city and made famous by sports announcers. It is dated and regional, but every American reads it instantly as friendly astonishment.</p>
+<ol><li><em>Holy Toledo</em>, what a catch!</li><li><em>Holy Toledo</em>, that's the biggest tomato I've ever seen.</li><li><em>Holy Toledo</em> — you fixed it yourself?</li><li><em>Holy Toledo</em>, it took us six hours just to get through Chicago.</li><li>"<em>Holy Toledo</em>," the announcer shouted, "he has done it again!"</li></ol>
+<p><strong>See also:</strong> <a href="#holy-cow">holy cow</a>, <a href="#holy-mackerel">holy mackerel</a>, <a href="#great-scott">great Scott</a></p>
+<h2 id="minced-oaths-and-old-fashioned-exclamations">Minced oaths and old-fashioned exclamations<a class="hash" href="#minced-oaths-and-old-fashioned-exclamations" aria-label="link">#</a></h2>
+<h3 id="blimey">blimey<a class="hash" href="#blimey" aria-label="link">#</a></h3>
+<p><strong>Pronunciation:</strong> /ˈblaɪmi/ &middot; <em>BLY-mee</em> <strong>Type:</strong> primary &middot; <strong>Register:</strong> regional (British) <strong>Variants:</strong> <em>cor blimey</em>, <em>gorblimey</em></p>
+<p>A British exclamation of surprise that virtually every American recognizes but almost none use straight. In an American mouth it is nearly always playful, borrowed along with a bit of a British accent.</p>
+<ol><li><em>Blimey</em>, that's a long line for a museum.</li><li><em>Blimey</em>, I didn't expect the rain to come at us sideways.</li><li>He put on his best accent and said, "<em>Blimey</em>, what a mess."</li><li><em>Blimey</em>, these portions are enormous.</li><li><em>Cor blimey</em>, look at the state of this kitchen.</li></ol>
+<p><strong>See also:</strong> <a href="#great-scott">great Scott</a>, <a href="#by-george">by George</a>, <a href="#my-word">my word</a></p>
+<h3 id="by-george">by George<a class="hash" href="#by-george" aria-label="link">#</a></h3>
+<p><strong>Pronunciation:</strong> /baɪ ˈdʒɔrdʒ/ &middot; <em>by JORJ</em> <strong>Type:</strong> phrase &middot; <strong>Register:</strong> dated <strong>Variants:</strong> <em>by Jove</em></p>
+<p>A dated, mild exclamation of surprise or sudden realization, used most often when something turns out to be true. It sounds like an old professor having a breakthrough.</p>
+<ol><li><em>By George</em>, I think you've got it.</li><li><em>By George</em>, the old lawnmower actually started.</li><li><em>By George</em>, that's the answer we've been looking for all week.</li><li><em>By George</em>, she was right about the shortcut after all.</li><li>"<em>By George</em>," he said, "it fits."</li></ol>
+<p><strong>See also:</strong> <a href="#great-scott">great Scott</a>, <a href="#well-ill-be">well, I'll be</a>, <a href="#what-do-you-know">what do you know</a></p>
+<h3 id="criminy">criminy<a class="hash" href="#criminy" aria-label="link">#</a></h3>
+<p><strong>Pronunciation:</strong> /ˈkrɪməni/ &middot; <em>KRIM-uh-nee</em> <strong>Type:</strong> primary &middot; <strong>Register:</strong> dated <strong>Variants:</strong> <em>crimeny</em>, <em>jiminy criminy</em></p>
+<p>A quaint minced oath, a softened stand-in for Christ, expressing surprise or mild exasperation. It is old-fashioned and completely harmless.</p>
+<ol><li><em>Criminy</em>, it's freezing in here.</li><li><em>Criminy</em>, that's the fourth time the dog's gotten out this week.</li><li><em>Criminy</em>, how much did they charge you for that?</li><li><em>Criminy</em>, you scared the life out of me.</li><li><em>Criminy</em>, I've never seen this store so busy.</li></ol>
+<p><strong>See also:</strong> <a href="#cripes">cripes</a>, <a href="#jiminy">jiminy</a>, <a href="#jeez">jeez</a></p>
+<h3 id="cripes">cripes<a class="hash" href="#cripes" aria-label="link">#</a></h3>
+<p><strong>Pronunciation:</strong> /kraɪps/ &middot; <em>KRYPS</em> <strong>Type:</strong> primary &middot; <strong>Register:</strong> dated <strong>Variants:</strong> <em>for cripes' sake</em></p>
+<p>A softened stand-in for Christ, used for surprise or annoyance. It is dated and harmless, and you hear it mostly from older speakers.</p>
+<ol><li><em>Cripes</em>, three flights and no elevator?</li><li><em>For cripes' sake</em>, look at this mess.</li><li><em>Cripes</em>, I nearly walked straight into the door.</li><li><em>Cripes</em>, the whole shelf just came off the wall.</li><li><em>Cripes</em>, it's colder today than it was in January.</li></ol>
+<p><strong>See also:</strong> <a href="#criminy">criminy</a>, <a href="#jeez">jeez</a>, <a href="#gee-whiz">gee whiz</a></p>
+<h3 id="egad">egad<a class="hash" href="#egad" aria-label="link">#</a></h3>
+<p><strong>Pronunciation:</strong> /iˈɡæd/, also /ɪˈɡæd/ &middot; <em>ee-GAD, also ih-GAD</em> <strong>Type:</strong> primary &middot; <strong>Register:</strong> dated <strong>Variants:</strong> <em>egads</em>, <em>'egad</em></p>
+<p>An archaic exclamation of surprise, softened from ah God. Nobody says it seriously anymore; it survives as period flavor or as a deliberate joke.</p>
+<ol><li><em>Egad</em>, that's a terrible haircut.</li><li><em>Egad</em>, the coffee maker has erupted again.</li><li><em>Egads</em>, is it Monday already?</li><li>He read the price and cried, "<em>Egad</em>!"</li><li><em>Egad</em>, man, you can't wear that to a wedding.</li></ol>
+<p><strong>See also:</strong> <a href="#gadzooks">gadzooks</a>, <a href="#zounds">zounds</a>, <a href="#great-scott">great Scott</a></p>
+<h3 id="gadzooks">gadzooks<a class="hash" href="#gadzooks" aria-label="link">#</a></h3>
+<p><strong>Pronunciation:</strong> /ɡædˈzuks/ &middot; <em>gad-ZOOKS</em> <strong>Type:</strong> primary &middot; <strong>Register:</strong> dated <strong>Variants:</strong> <em>gadzooks!</em></p>
+<p>A theatrical, archaic oath of astonishment. Modern Americans use it only for comic effect, usually while pretending to be from another century.</p>
+<ol><li><em>Gadzooks</em>, the printer is out of toner again.</li><li><em>Gadzooks</em>, this recipe calls for eleven eggs.</li><li>He threw up his hands and shouted, "<em>Gadzooks</em>!"</li><li><em>Gadzooks</em>, the glitter has gotten into the carpet.</li><li><em>Gadzooks</em>, we have been on hold for a solid hour.</li></ol>
+<p><strong>See also:</strong> <a href="#zounds">zounds</a>, <a href="#egad">egad</a>, <a href="#by-george">by George</a></p>
+<h3 id="gee">gee<a class="hash" href="#gee" aria-label="link">#</a></h3>
+<p><strong>Pronunciation:</strong> /dʒi/ &middot; <em>JEE</em> <strong>Type:</strong> primary &middot; <strong>Register:</strong> dated <strong>Variants:</strong> <em>gee!</em>, <em>aw gee</em></p>
+<p>A soft expression of surprise or mild dismay, the shortest of the minced forms of Jesus. It reads as innocent and a little childlike, and it often introduces a polite objection.</p>
+<ol><li><em>Gee</em>, I didn't know it was such a big deal.</li><li><em>Gee</em>, thanks for telling me after the fact.</li><li><em>Gee</em>, that's a long drive for one meeting.</li><li><em>Gee</em>, I wasn't expecting all of you at once.</li><li>"<em>Gee</em>," he said, "I really thought I had locked it."</li></ol>
+<p><strong>See also:</strong> <a href="#gee-whiz">gee whiz</a>, <a href="#gosh">gosh</a>, <a href="#golly">golly</a></p>
+<h3 id="gee-whiz">gee whiz<a class="hash" href="#gee-whiz" aria-label="link">#</a></h3>
+<p><strong>Pronunciation:</strong> /dʒi ˈwɪz/ &middot; <em>jee-WIZ</em> <strong>Type:</strong> phrase &middot; <strong>Register:</strong> dated <strong>Variants:</strong> <em>gee whillikers</em>, <em>gee willikers</em></p>
+<p>An old-fashioned, wide-eyed expression of amazement. It now carries a whiff of parody, since saying it straight makes you sound like a kid from 1955, and it is often used sarcastically.</p>
+<ol><li><em>Gee whiz</em>, that's the fanciest car I've ever been in.</li><li><em>Gee whiz</em>, you would think they could answer one email.</li><li><em>Gee whiz</em>, the whole team showed up.</li><li><em>Gee whiz</em>, Mom, I said I'd do it after dinner.</li><li>"<em>Gee whiz</em>," she said, "that's an awful lot of trouble for a picnic."</li></ol>
+<p><strong>See also:</strong> <a href="#gee">gee</a>, <a href="#golly">golly</a>, <a href="#jeepers">jeepers</a></p>
+<h3 id="golly">golly<a class="hash" href="#golly" aria-label="link">#</a></h3>
+<p><strong>Pronunciation:</strong> /ˈɡɑli/ &middot; <em>GAH-lee</em> <strong>Type:</strong> primary &middot; <strong>Register:</strong> dated <strong>Variants:</strong> <em>by golly</em>, <em>good golly</em>, <em>golly gee</em></p>
+<p>A gentle minced form of God, used for wholesome surprise. It sounds rural, old-fashioned, and utterly harmless.</p>
+<ol><li><em>Golly</em>, that's a big pumpkin.</li><li><em>Golly</em>, I had no idea you played the fiddle.</li><li><em>By golly</em>, he actually did it.</li><li><em>Golly</em>, has it really been ten years?</li><li><em>Good golly</em>, that band is loud.</li></ol>
+<p><strong>See also:</strong> <a href="#gosh">gosh</a>, <a href="#gee">gee</a>, <a href="#gee-whiz">gee whiz</a></p>
+<h3 id="gosh">gosh<a class="hash" href="#gosh" aria-label="link">#</a></h3>
+<p><strong>Pronunciation:</strong> /ɡɑʃ/ &middot; <em>GAHSH</em> <strong>Type:</strong> primary &middot; <strong>Register:</strong> informal <strong>Variants:</strong> <em>by gosh</em>, <em>gosh darn</em></p>
+<p>A softened stand-in for God and one of the most useful mild surprise words in American English. It is safe everywhere, from the office to church to the classroom, and it stretches from small astonishment to real dismay.</p>
+<ol><li><em>Gosh</em>, I didn't realize it was so late.</li><li><em>Gosh</em>, that's a lot of money for a used car.</li><li><em>Gosh</em>, I'm so sorry — I had no idea.</li><li><em>Gosh</em>, these tomatoes are good.</li><li>"<em>Gosh</em>," she said, "you really did the whole thing yourself."</li></ol>
+<p><strong>See also:</strong> <a href="#oh-my-gosh">oh my gosh</a>, <a href="#golly">golly</a>, <a href="#good-grief">good grief</a>, <a href="#my-goodness">my goodness</a></p>
+<h3 id="great-scott">great Scott<a class="hash" href="#great-scott" aria-label="link">#</a></h3>
+<p><strong>Pronunciation:</strong> /ɡreɪt ˈskɑt/ &middot; <em>grayt SKAHT</em> <strong>Type:</strong> phrase &middot; <strong>Register:</strong> dated <strong>Variants:</strong> <em>great Scott!</em></p>
+<p>A dated exclamation of astonishment, best known now from old movies and from Back to the Future. Americans still say it, but almost always with a wink.</p>
+<ol><li><em>Great Scott</em>, look at the time!</li><li><em>Great Scott</em>, the numbers are off by a factor of ten.</li><li><em>Great Scott</em>, the whole shipment went to the wrong address.</li><li>He stared at the screen and said, "<em>Great Scott</em>."</li><li><em>Great Scott</em>, you mean they knew the whole time?</li></ol>
+<p><strong>See also:</strong> <a href="#egad">egad</a>, <a href="#by-george">by George</a>, <a href="#holy-toledo">holy Toledo</a></p>
+<h3 id="heavens-to-betsy">heavens to Betsy<a class="hash" href="#heavens-to-betsy" aria-label="link">#</a></h3>
+<p><strong>Pronunciation:</strong> /ˌhɛvənz tə ˈbɛtsi/ &middot; <em>HEV-uhnz tuh BET-see</em> <strong>Type:</strong> phrase &middot; <strong>Register:</strong> dated <strong>Variants:</strong> <em>heavens to Betsy!</em></p>
+<p>A quaint, thoroughly old-fashioned exclamation of surprise. Nobody knows who Betsy was; the phrase survives as a harmless piece of Americana.</p>
+<ol><li><em>Heavens to Betsy</em>, that dog is enormous.</li><li><em>Heavens to Betsy</em>, look what the wind did to the fence.</li><li><em>Heavens to Betsy</em>, you gave me a start.</li><li><em>Heavens to Betsy</em>, I haven't heard that song in fifty years.</li><li>"<em>Heavens to Betsy</em>," Grandma said, "you've cut off all your hair."</li></ol>
+<p><strong>See also:</strong> <a href="#good-heavens">good heavens</a>, <a href="#land-sakes">land sakes</a>, <a href="#my-stars">my stars</a></p>
+<h3 id="jeepers">jeepers<a class="hash" href="#jeepers" aria-label="link">#</a></h3>
+<p><strong>Pronunciation:</strong> /ˈdʒipɚz/ &middot; <em>JEE-purz</em> <strong>Type:</strong> primary &middot; <strong>Register:</strong> dated <strong>Variants:</strong> <em>jeepers creepers</em></p>
+<p>A wholesome exclamation of surprise or alarm, softened from Jesus. It is mild enough for small children and now sounds charmingly dated.</p>
+<ol><li><em>Jeepers</em>, that was a loud crash.</li><li><em>Jeepers</em>, you two scared me.</li><li><em>Jeepers creepers</em>, where did you get that hat?</li><li><em>Jeepers</em>, I didn't think anyone still had a fax machine.</li><li><em>Jeepers</em>, it's dark out here.</li></ol>
+<p><strong>See also:</strong> <a href="#jiminy">jiminy</a>, <a href="#gee-whiz">gee whiz</a>, <a href="#gosh">gosh</a></p>
+<h3 id="jeez">jeez<a class="hash" href="#jeez" aria-label="link">#</a></h3>
+<p><strong>Pronunciation:</strong> /dʒiz/ &middot; <em>JEEZ</em> <strong>Type:</strong> primary &middot; <strong>Register:</strong> informal <strong>Variants:</strong> <em>geez</em>, <em>geeze</em>, <em>jeeze</em>, <em>jeez Louise</em></p>
+<p>An everyday exclamation of surprise, exasperation, or disbelief, clipped from Jesus. Most Americans treat it as mild, but a few still hear the original inside it, so it is safer with friends than in a job interview.</p>
+<ol><li><em>Jeez</em>, that's a steep price for a sandwich.</li><li><em>Jeez</em>, take it easy — I was two minutes late.</li><li><em>Geez</em>, I had no idea the test was today.</li><li><em>Jeez</em>, they really don't make it easy to cancel.</li><li>"<em>Jeez</em>," he said, "how long has this been sitting here?"</li></ol>
+<p><strong>See also:</strong> <a href="#sheesh">sheesh</a>, <a href="#jesus">Jesus</a>, <a href="#gosh">gosh</a></p>
+<h3 id="jiminy">jiminy<a class="hash" href="#jiminy" aria-label="link">#</a></h3>
+<p><strong>Pronunciation:</strong> /ˈdʒɪməni/ &middot; <em>JIM-uh-nee</em> <strong>Type:</strong> primary &middot; <strong>Register:</strong> dated <strong>Variants:</strong> <em>jiminy Christmas</em>, <em>jiminy cricket</em>, <em>jiminy crickets</em></p>
+<p>A quaint minced oath for Jesus, most often extended to jiminy Christmas or jiminy cricket. It is old-fashioned, harmless, and slightly comic.</p>
+<ol><li><em>Jiminy</em>, that water is cold.</li><li><em>Jiminy Christmas</em>, would you look at that line.</li><li><em>Jiminy cricket</em>, you gave me a scare.</li><li><em>Jiminy</em> — how did the cat get all the way up there?</li><li>"<em>Jiminy Christmas</em>," he muttered, "not again."</li></ol>
+<p><strong>See also:</strong> <a href="#criminy">criminy</a>, <a href="#jeepers">jeepers</a>, <a href="#gee-whiz">gee whiz</a></p>
+<h3 id="land-sakes">land sakes<a class="hash" href="#land-sakes" aria-label="link">#</a></h3>
+<p><strong>Pronunciation:</strong> /ˈlænd ˌseɪks/ &middot; <em>LAND sayks</em> <strong>Type:</strong> phrase &middot; <strong>Register:</strong> regional (Southern and Midwestern) <strong>Variants:</strong> <em>land's sakes</em>, <em>sakes alive</em>, <em>my land</em>, <em>land o' Goshen</em></p>
+<p>A rural, old-fashioned exclamation of surprise, still heard in Southern and Midwestern speech and usually from older speakers. It softens for the Lord's sake into something completely inoffensive.</p>
+<ol><li><em>Land sakes</em>, child, where have you been?</li><li><em>Land sakes</em>, that garden has gotten away from you.</li><li><em>Sakes alive</em>, the creek is over the road.</li><li><em>Land sakes</em>, I haven't seen you since the wedding.</li><li>"<em>Land's sakes</em>," she said, "I plumb forgot what day it was."</li></ol>
+<p><strong>See also:</strong> <a href="#mercy">mercy</a>, <a href="#lordy">lordy</a>, <a href="#my-stars">my stars</a></p>
+<h3 id="my-stars">my stars<a class="hash" href="#my-stars" aria-label="link">#</a></h3>
+<p><strong>Pronunciation:</strong> /maɪ ˈstɑrz/ &middot; <em>my STARZ</em> <strong>Type:</strong> phrase &middot; <strong>Register:</strong> dated <strong>Variants:</strong> <em>my stars and garters</em>, <em>stars above</em></p>
+<p>A gentle, antique exclamation of surprise, roughly equal to my goodness. It shows up mostly in older Southern speech and in period dialogue.</p>
+<ol><li><em>My stars</em>, look at this kitchen.</li><li><em>My stars</em>, you frightened me half to death.</li><li><em>My stars and garters</em>, that's a beautiful quilt.</li><li><em>My stars</em> — the whole family came?</li><li>"<em>My stars</em>," she said, "I never thought I'd see the day."</li></ol>
+<p><strong>See also:</strong> <a href="#my-goodness">my goodness</a>, <a href="#land-sakes">land sakes</a>, <a href="#heavens-to-betsy">heavens to Betsy</a></p>
+<h3 id="sheesh">sheesh<a class="hash" href="#sheesh" aria-label="link">#</a></h3>
+<p><strong>Pronunciation:</strong> /ʃiʃ/ &middot; <em>SHEESH</em> <strong>Type:</strong> primary &middot; <strong>Register:</strong> informal <strong>Variants:</strong> <em>sheeesh</em>, <em>sheeeesh</em></p>
+<p>A drawn-out exclamation of surprise mixed with exasperation, softened from Jesus. It reacts to something excessive: too expensive, too loud, too much.</p>
+<ol><li><em>Sheesh</em>, that's an expensive cup of coffee.</li><li><em>Sheesh</em>, you didn't have to bite my head off.</li><li><em>Sheesh</em>, how many boxes did you order?</li><li><em>Sheesh</em>, it's loud in here.</li><li>"<em>Sheesh</em>," he said, "I was only asking."</li></ol>
+<p><strong>See also:</strong> <a href="#jeez">jeez</a>, <a href="#man">man</a>, <a href="#good-grief">good grief</a></p>
+<h3 id="zounds">zounds<a class="hash" href="#zounds" aria-label="link">#</a></h3>
+<p><strong>Pronunciation:</strong> /zaʊndz/, historically /zundz/ &middot; <em>ZOWNDZ, historically ZOONDZ</em> <strong>Type:</strong> primary &middot; <strong>Register:</strong> dated <strong>Variants:</strong> <em>'zounds</em></p>
+<p>An archaic oath of astonishment, originally a contraction of God's wounds. It is dead in real speech and lives on only in historical writing and in jokes.</p>
+<ol><li><em>Zounds</em>, the horse has gotten loose again.</li><li><em>Zounds</em>, what manner of sandwich is this?</li><li>He read the bill and cried, "<em>Zounds</em>!"</li><li><em>Zounds</em>, that is a fearsome amount of paperwork.</li><li><em>Zounds</em>, we are surrounded!</li></ol>
+<p><strong>See also:</strong> <a href="#gadzooks">gadzooks</a>, <a href="#egad">egad</a>, <a href="#great-scott">great Scott</a></p>
+<h2 id="disbelief-and-skepticism">Disbelief and skepticism<a class="hash" href="#disbelief-and-skepticism" aria-label="link">#</a></h2>
+<h3 id="as-if">as if<a class="hash" href="#as-if" aria-label="link">#</a></h3>
+<p><strong>Pronunciation:</strong> /æz ˈɪf/ &middot; <em>az IF</em> <strong>Type:</strong> phrase &middot; <strong>Register:</strong> informal (somewhat dated) <strong>Variants:</strong> <em>as if!</em></p>
+<p>A flat dismissal of something as impossible or ridiculous, meaning I do not believe that will ever happen. It carries a 1990s Valley-girl flavor that most speakers now use knowingly.</p>
+<ol><li>He said he would pay me back by Friday. <em>As if</em>.</li><li><em>As if</em> they're going to approve that budget.</li><li><em>As if</em>! I'm not driving four hours for a two-hour party.</li><li>She told me the flight was on time. <em>As if</em>.</li><li><em>As if</em> I'd forget my own sister's birthday.</li></ol>
+<p><strong>See also:</strong> <a href="#yeah-right">yeah right</a>, <a href="#no-way">no way</a>, <a href="#get-out">get out</a></p>
+<h3 id="bruh">bruh<a class="hash" href="#bruh" aria-label="link">#</a></h3>
+<p><strong>Pronunciation:</strong> /brʌ/ &middot; <em>BRUH</em> <strong>Type:</strong> secondary &middot; <strong>Register:</strong> very informal (spoken as much as written) <strong>Variants:</strong> <em>bruuuh</em>, <em>bro</em></p>
+<p>A one-syllable expression of disbelief or secondhand embarrassment, from brother by way of bro. It is young and very casual, it came into general American slang out of Black English, and it is said out loud at least as often as it is typed — though in a text thread it will happily stand alone as the entire message.</p>
+<ol><li><em>Bruh</em>. You forgot the tickets?</li><li><em>Bruh</em>, they charged me twice for the same order.</li><li>I texted him the final score and he wrote back one word: <em>bruh</em>.</li><li><em>Bruh</em>, it's four in the morning.</li><li><em>Bruh</em> — you can't show up to an interview in flip-flops.</li></ol>
+<p><strong>See also:</strong> <a href="#dude">dude</a>, <a href="#for-real">for real</a>, <a href="#shut-up">shut up</a>, <a href="#seriously">seriously</a></p>
+<h3 id="do-tell">do tell<a class="hash" href="#do-tell" aria-label="link">#</a></h3>
+<p><strong>Pronunciation:</strong> /ˌdu ˈtɛl/ &middot; <em>doo TELL</em> <strong>Type:</strong> phrase &middot; <strong>Register:</strong> informal (somewhat dated) <strong>Variants:</strong> <em>do tell!</em>, <em>well, do tell</em></p>
+<p>An invitation to keep talking, delivered with the eyebrows up. Warm, it means <em>go on, I want all of this</em>; flat, it is dry sarcasm and does the same job as <em>you don't say</em>. It sounds a little arch either way, which is the fun of it.</p>
+<ol><li>"There's a reason she left the party early." "<em>Do tell</em>."</li><li><em>Do tell</em> — I want every single detail.</li><li>He caught the words "at the wedding" and said, "<em>Do tell</em>."</li><li>So the two of them have been talking all summer. <em>Do tell</em>.</li><li>"I have some news." "<em>Well, do tell</em>."</li></ol>
+<p><strong>See also:</strong> <a href="#you-dont-say">you don't say</a>, <a href="#no-kidding">no kidding</a>, <a href="#really">really</a></p>
+<h3 id="for-real">for real<a class="hash" href="#for-real" aria-label="link">#</a></h3>
+<p><strong>Pronunciation:</strong> /fɚ ˈril/ &middot; <em>fer REEL</em> <strong>Type:</strong> phrase &middot; <strong>Register:</strong> informal <strong>Variants:</strong> <em>fr</em>, <em>frfr</em>, <em>for realsies</em></p>
+<p>A short demand for confirmation: is that actually true? Said with a rising tone it asks; said flat it agrees emphatically with what someone else just said.</p>
+<ol><li><em>For real</em>? They canceled the whole season?</li><li>Wait, <em>for real</em>, you're moving to Portland?</li><li>She got the promotion? <em>For real</em>?</li><li><em>For real</em>, that's the best sandwich in the city.</li><li>"I quit today." "<em>For real</em>?"</li></ol>
+<p><strong>See also:</strong> <a href="#seriously">seriously</a>, <a href="#no-kidding">no kidding</a>, <a href="#really">really</a>, <a href="#youre-kidding">you're kidding</a></p>
+<h3 id="get-out">get out<a class="hash" href="#get-out" aria-label="link">#</a></h3>
+<p><strong>Pronunciation:</strong> /ɡɛt ˈaʊt/ &middot; <em>get OWT</em> <strong>Type:</strong> phrase &middot; <strong>Register:</strong> very informal <strong>Variants:</strong> <em>get outta here</em>, <em>get out of here</em>, <em>get outta town</em></p>
+<p>A disbelieving reaction to surprising news, meaning you cannot be serious rather than leave the room. It is friendly and casual, and the tone makes the difference obvious.</p>
+<ol><li><em>Get out</em> — you two are related?</li><li>She won the raffle twice? <em>Get out</em>.</li><li><em>Get outta here</em>, that's my old high school teacher.</li><li>"I met him once, years ago." "<em>Get out</em>!"</li><li><em>Get out of here</em>, that hat looks great on you.</li></ol>
+<p><strong>See also:</strong> <a href="#shut-up">shut up</a>, <a href="#no-way">no way</a>, <a href="#youre-kidding">you're kidding</a></p>
+<h3 id="no-kidding">no kidding<a class="hash" href="#no-kidding" aria-label="link">#</a></h3>
+<p><strong>Pronunciation:</strong> /noʊ ˈkɪdɪŋ/ &middot; <em>noh KID-ing</em> <strong>Type:</strong> phrase &middot; <strong>Register:</strong> informal <strong>Variants:</strong> <em>no kiddin'</em></p>
+<p>Either a genuine expression of surprise, meaning really, I had no idea, or a dry confirmation that something painfully obvious is true. Tone and context tell you which one you are hearing.</p>
+<ol><li><em>No kidding</em>, she has been working here twelve years?</li><li><em>No kidding</em>, the store gave me a full refund with no receipt.</li><li>"It's cold out." "<em>No kidding</em>."</li><li>He fixed the whole thing himself? <em>No kidding</em>.</li><li><em>No kidding</em>, that's exactly what happened to me last year.</li></ol>
+<p><strong>See also:</strong> <a href="#seriously">seriously</a>, <a href="#for-real">for real</a>, <a href="#you-dont-say">you don't say</a>, <a href="#really">really</a></p>
+<h3 id="no-shot">no shot<a class="hash" href="#no-shot" aria-label="link">#</a></h3>
+<p><strong>Pronunciation:</strong> /ˌnoʊ ˈʃɑt/ &middot; <em>noh SHOT</em> <strong>Type:</strong> phrase &middot; <strong>Register:</strong> very informal <strong>Variants:</strong> <em>no shot!</em>, <em>there's no shot</em></p>
+<p>The current young way of saying <em>no way</em> — flat disbelief that something happened or ever could. It is roughly a decade old in wide use and strongly marked for age: under thirty it is ordinary, and over forty it sounds like a costume.</p>
+<ol><li><em>No shot</em> — he made that from half court?</li><li>"They gave everybody the day off." "<em>No shot</em>."</li><li><em>No shot</em> you finished the whole series in one sitting.</li><li><em>No shot</em>, the tickets can't be gone already.</li><li>She said <em>no shot</em> about four times before she believed me.</li></ol>
+<p><strong>See also:</strong> <a href="#no-way">no way</a>, <a href="#as-if">as if</a>, <a href="#get-out">get out</a>, <a href="#bruh">bruh</a></p>
+<h3 id="no-way">no way<a class="hash" href="#no-way" aria-label="link">#</a></h3>
+<p><strong>Pronunciation:</strong> /ˌnoʊ ˈweɪ/ &middot; <em>noh WAY</em> <strong>Type:</strong> phrase &middot; <strong>Register:</strong> informal <strong>Variants:</strong> <em>no way!</em>, <em>no freaking way</em>, <em>no way, José</em></p>
+<p>A flat statement of disbelief: that cannot possibly be true. The same phrase also works as a hard refusal, but in surprise use it comes with wide eyes and a rising pitch.</p>
+<ol><li><em>No way</em> — you got front-row seats?</li><li><em>No way</em>, I just saw him an hour ago.</li><li><em>No way</em>! They're finally opening the bridge?</li><li>"The whole thing was free." "<em>No way</em>."</li><li><em>No way</em> that fit in the overhead bin.</li></ol>
+<p><strong>See also:</strong> <a href="#get-out">get out</a>, <a href="#no-shot">no shot</a>, <a href="#shut-up">shut up</a>, <a href="#youre-kidding">you're kidding</a>, <a href="#as-if">as if</a></p>
+<h3 id="really">really<a class="hash" href="#really" aria-label="link">#</a></h3>
+<p><strong>Pronunciation:</strong> /ˈrili/, also /ˈrɪli/ &middot; <em>REE-lee, also RIL-ee</em> <strong>Type:</strong> secondary &middot; <strong>Register:</strong> neutral <strong>Variants:</strong> <em>oh really</em>, <em>rly</em></p>
+<p>A one-word check on something surprising: is that true? With a rising tone it is genuine surprise; flat and drawn out it turns into skepticism or open disapproval.</p>
+<ol><li><em>Really</em>? I thought the meeting was canceled.</li><li>She said that to your face? <em>Really</em>?</li><li><em>Really</em>. You're going to leave the dishes there all night.</li><li>"He's already back from Europe." "<em>Really</em>?"</li><li><em>Oh really</em>, and when exactly were you planning to tell me?</li></ol>
+<p><strong>See also:</strong> <a href="#seriously">seriously</a>, <a href="#for-real">for real</a>, <a href="#no-kidding">no kidding</a>, <a href="#huh">huh</a></p>
+<h3 id="say-what">say what<a class="hash" href="#say-what" aria-label="link">#</a></h3>
+<p><strong>Pronunciation:</strong> /seɪ ˈwʌt/ &middot; <em>say WUT</em> <strong>Type:</strong> phrase &middot; <strong>Register:</strong> very informal <strong>Variants:</strong> <em>say what now</em>, <em>say whaaat</em></p>
+<p>A casual, playful demand that someone repeat something surprising. It is relaxed and a little comic, and it works only among people who are already comfortable with each other.</p>
+<ol><li><em>Say what</em>? You're the one who wrote that?</li><li><em>Say what</em>? They're giving everyone Friday off?</li><li>"I sold the truck." "<em>Say what</em>?"</li><li><em>Say what now</em>? Run that by me one more time.</li><li><em>Say what</em>, you actually met her in person?</li></ol>
+<p><strong>See also:</strong> <a href="#wait-what">wait, what</a>, <a href="#what">what</a>, <a href="#huh">huh</a></p>
+<h3 id="seriously">seriously<a class="hash" href="#seriously" aria-label="link">#</a></h3>
+<p><strong>Pronunciation:</strong> /ˈsɪriəsli/ &middot; <em>SEER-ee-uhs-lee</em> <strong>Type:</strong> secondary &middot; <strong>Register:</strong> informal <strong>Variants:</strong> <em>srsly</em>, <em>for serious</em>, <em>are you serious</em></p>
+<p>A demand that the speaker confirm something surprising, or an exclamation at something outrageous. It is one of the most common modern reactions to unexpected news.</p>
+<ol><li><em>Seriously</em>? They lost the reservation again?</li><li>Wait, <em>seriously</em>, you've never seen the ocean?</li><li><em>Seriously</em>, that's the third time this week.</li><li>"I ran a marathon last month." "<em>Seriously</em>?"</li><li><em>Seriously</em>? You're wearing that to the wedding?</li></ol>
+<p><strong>See also:</strong> <a href="#for-real">for real</a>, <a href="#really">really</a>, <a href="#youre-kidding">you're kidding</a>, <a href="#no-way">no way</a></p>
+<h3 id="shut-up">shut up<a class="hash" href="#shut-up" aria-label="link">#</a></h3>
+<p><strong>Pronunciation:</strong> /ʃʌt ˈʌp/ &middot; <em>shut UP</em> <strong>Type:</strong> phrase &middot; <strong>Register:</strong> very informal <strong>Variants:</strong> <em>shut up!</em>, <em>shut the front door</em>, <em>shut your mouth</em></p>
+<p>Here shut up does not mean be quiet: it means I cannot believe that, said with delight. Tone carries everything, and a listener who does not know the idiom can badly misread it, so save it for friends.</p>
+<ol><li><em>Shut up</em>! You're pregnant?</li><li><em>Shut up</em>, that didn't happen.</li><li>"I got us upgraded to first class." "<em>Shut up</em>!"</li><li><em>Shut the front door</em>, they're getting back together?</li><li><em>Shut up</em>, you didn't actually meet him in person.</li></ol>
+<p><strong>See also:</strong> <a href="#get-out">get out</a>, <a href="#no-way">no way</a>, <a href="#youre-kidding">you're kidding</a></p>
+<h3 id="since-when">since when<a class="hash" href="#since-when" aria-label="link">#</a></h3>
+<p><strong>Pronunciation:</strong> /ˌsɪns ˈwɛn/ &middot; <em>sins WEN</em> <strong>Type:</strong> phrase &middot; <strong>Register:</strong> informal <strong>Variants:</strong> <em>since when?!</em>, <em>oh, since when</em></p>
+<p>A challenge wearing the clothes of a question. It registers surprise at a fact by implying that the speaker ought to have known about it already, and it almost never wants an actual date in reply. Tone runs from friendly astonishment to open suspicion.</p>
+<ol><li><em>Since when</em> do you drink your coffee black?</li><li><em>Since when</em>? Nobody told me the deadline moved.</li><li>"I run in the mornings now." "<em>Since when</em>?"</li><li><em>Since when</em> is the library closed on Saturdays?</li><li>He plays banjo? <em>Since when</em>.</li></ol>
+<p><strong>See also:</strong> <a href="#really">really</a>, <a href="#seriously">seriously</a>, <a href="#wait-what">wait, what</a>, <a href="#what">what</a></p>
+<h3 id="wait-what">wait, what<a class="hash" href="#wait-what" aria-label="link">#</a></h3>
+<p><strong>Pronunciation:</strong> /ˌweɪt ˈwʌt/ &middot; <em>wayt WUT</em> <strong>Type:</strong> phrase &middot; <strong>Register:</strong> informal <strong>Variants:</strong> <em>wait what</em>, <em>wait, what?!</em></p>
+<p>A two-part reaction showing that a fact has just failed to fit. Wait stops the conversation and what asks for it again; together they are the standard modern signal of a small mental collision.</p>
+<ol><li><em>Wait, what</em>? You already left?</li><li>He mentioned it in passing and I just went, <em>wait, what</em>.</li><li>She told me she was quitting, and I said, "<em>Wait, what</em>?"</li><li><em>Wait, what</em> — there's a test today?</li><li><em>Wait, what</em>? Say that part about the refund again.</li></ol>
+<p><strong>See also:</strong> <a href="#say-what">say what</a>, <a href="#since-when">since when</a>, <a href="#what">what</a>, <a href="#huh">huh</a>, <a href="#whoa">whoa</a></p>
+<h3 id="what">what<a class="hash" href="#what" aria-label="link">#</a></h3>
+<p><strong>Pronunciation:</strong> /wʌt/, also /hwʌt/ &middot; <em>WUT, also HWUT</em> <strong>Type:</strong> secondary &middot; <strong>Register:</strong> neutral <strong>Variants:</strong> <em>whaaat</em>, <em>whut</em>, <em>wut</em></p>
+<p>A one-word cry of disbelief, usually stretched out and rising. Standing alone as a reaction it means I cannot believe what I just heard, which is different from the ordinary question word.</p>
+<ol><li><em>What</em>?! He's leaving in the middle of the season?</li><li><em>What</em>, you drove all night?</li><li>Hold on, they sold the house? <em>What</em>?</li><li>"We're out of coffee." "<em>What</em>?"</li><li><em>What</em>? I never agreed to any of that.</li></ol>
+<p><strong>See also:</strong> <a href="#wait-what">wait, what</a>, <a href="#say-what">say what</a>, <a href="#huh">huh</a>, <a href="#what-the">what the</a></p>
+<h3 id="what-the">what the<a class="hash" href="#what-the" aria-label="link">#</a></h3>
+<p><strong>Pronunciation:</strong> /ˈwʌt ðə/ &middot; <em>WUT thuh</em> <strong>Type:</strong> phrase &middot; <strong>Register:</strong> informal <strong>Variants:</strong> <em>what the heck</em>, <em>what the hell</em>, <em>what the...</em></p>
+<p>A truncated exclamation of bewilderment in which the speaker stops just before the word that would finish it. Left hanging it is safe in most company; completed with heck it stays mild, and with stronger words it gets progressively cruder.</p>
+<ol><li><em>What the</em> — who parked in my spot?</li><li><em>What the heck</em> is that noise coming from the basement?</li><li>I opened the fridge and just said, "<em>What the</em>..."</li><li><em>What the</em> — did the whole file just disappear?</li><li><em>What the heck</em>, it's snowing in April.</li></ol>
+<p><strong>See also:</strong> <a href="#what-in-the-world">what in the world</a>, <a href="#what">what</a>, <a href="#huh">huh</a>, <a href="#holy-crap">holy crap</a></p>
+<h3 id="yeah-right">yeah right<a class="hash" href="#yeah-right" aria-label="link">#</a></h3>
+<p><strong>Pronunciation:</strong> /ˌjɛə ˈraɪt/ &middot; <em>yeh-RITE</em> <strong>Type:</strong> phrase &middot; <strong>Register:</strong> informal <strong>Variants:</strong> <em>yeah, right</em>, <em>yeah sure</em></p>
+<p>A sarcastic rejection of what you have just been told. The words say yes twice; the tone says absolutely not.</p>
+<ol><li><em>Yeah right</em>, he's going to be on time for once.</li><li>She says the check is in the mail. <em>Yeah, right</em>.</li><li><em>Yeah right</em>, that's the same excuse he gave last week.</li><li>"I'll have it done by noon." "<em>Yeah, right</em>."</li><li><em>Yeah right</em>, and I'm the Queen of England.</li></ol>
+<p><strong>See also:</strong> <a href="#as-if">as if</a>, <a href="#no-way">no way</a>, <a href="#you-dont-say">you don't say</a></p>
+<h3 id="you-dont-say">you don't say<a class="hash" href="#you-dont-say" aria-label="link">#</a></h3>
+<p><strong>Pronunciation:</strong> /ju doʊnt ˈseɪ/ &middot; <em>yoo dohnt SAY</em> <strong>Type:</strong> phrase &middot; <strong>Register:</strong> informal <strong>Variants:</strong> <em>you don't say so</em></p>
+<p>A response to surprising news that ranges from genuine interest to flat sarcasm. Said warmly it invites the speaker to go on; said dryly it means that was completely obvious.</p>
+<ol><li><em>You don't say</em>. He actually apologized?</li><li>"It turns out the road is closed." "<em>You don't say</em>."</li><li><em>You don't say</em>, she has been there since the very beginning?</li><li>The mechanic told me it needs a new transmission. <em>You don't say</em>.</li><li><em>You don't say</em>! I had no idea you two were neighbors.</li></ol>
+<p><strong>See also:</strong> <a href="#no-kidding">no kidding</a>, <a href="#do-tell">do tell</a>, <a href="#imagine-that">imagine that</a>, <a href="#really">really</a></p>
+<h3 id="youre-kidding">you're kidding<a class="hash" href="#youre-kidding" aria-label="link">#</a></h3>
+<p><strong>Pronunciation:</strong> /jɚ ˈkɪdɪŋ/, carefully /jʊr ˈkɪdɪŋ/ &middot; <em>yer KID-ing</em> <strong>Type:</strong> phrase &middot; <strong>Register:</strong> informal <strong>Variants:</strong> <em>you're kidding me</em>, <em>you've got to be kidding me</em>, <em>you gotta be kidding</em></p>
+<p>A direct challenge to something that sounds too surprising to be true. It is friendly rather than hostile: the speaker usually does believe it and is simply registering shock.</p>
+<ol><li><em>You're kidding</em> — they gave you the whole week off?</li><li><em>You're kidding me</em>. I just talked to her yesterday.</li><li>"The concert has been moved to Tuesday." "<em>You're kidding</em>."</li><li><em>You've got to be kidding me</em>, the line goes around the block.</li><li><em>You're kidding</em>, right? Please tell me you're kidding.</li></ol>
+<p><strong>See also:</strong> <a href="#no-kidding">no kidding</a>, <a href="#no-way">no way</a>, <a href="#seriously">seriously</a>, <a href="#shut-up">shut up</a></p>
+<h2 id="reacting-to-the-unexpected">Reacting to the unexpected<a class="hash" href="#reacting-to-the-unexpected" aria-label="link">#</a></h2>
+<h3 id="go-figure">go figure<a class="hash" href="#go-figure" aria-label="link">#</a></h3>
+<p><strong>Pronunciation:</strong> /ˌɡoʊ ˈfɪɡjɚ/ &middot; <em>goh FIG-yur</em> <strong>Type:</strong> phrase &middot; <strong>Register:</strong> informal <strong>Variants:</strong> <em>go figure that</em>, <em>figure that</em></p>
+<p>A wry comment on something that turned out contrary to expectation. It shrugs at the world's inconsistency instead of expressing real shock, and it almost always comes at the end of the story.</p>
+<ol><li>I studied all week and got a B; he crammed for an hour and aced it. <em>Go figure</em>.</li><li>The cheap tires lasted longer than the expensive ones. <em>Go figure</em>.</li><li><em>Go figure</em> — the one day I bring an umbrella, it's sunny.</li><li>She hated that job and stayed nine years. <em>Go figure</em>.</li><li>We drove two hours for the restaurant and it was closed. <em>Go figure</em>.</li></ol>
+<p><strong>See also:</strong> <a href="#who-knew">who knew</a>, <a href="#wouldnt-you-know-it">wouldn't you know it</a>, <a href="#imagine-that">imagine that</a>, <a href="#will-wonders-never-cease">will wonders never cease</a></p>
+<h3 id="how-about-that">how about that<a class="hash" href="#how-about-that" aria-label="link">#</a></h3>
+<p><strong>Pronunciation:</strong> /ˌhaʊ əˌbaʊt ˈðæt/ &middot; <em>how uh-bowt THAT</em> <strong>Type:</strong> phrase &middot; <strong>Register:</strong> informal <strong>Variants:</strong> <em>how 'bout that</em>, <em>how do you like that</em></p>
+<p>A mild exclamation of pleased surprise, said after the fact rather than in the first shocked second. It usually invites the listener to be impressed too.</p>
+<ol><li>They named a scholarship after her. <em>How about that</em>.</li><li><em>How about that</em>, the old radio still works.</li><li>We got the last two seats on the flight. <em>How about that</em>!</li><li><em>How about that</em>, the package actually arrived on time.</li><li>"He finished the whole marathon." "Well, <em>how about that</em>."</li></ol>
+<p><strong>See also:</strong> <a href="#what-do-you-know">what do you know</a>, <a href="#would-you-look-at-that">would you look at that</a>, <a href="#imagine-that">imagine that</a>, <a href="#who-knew">who knew</a></p>
+<h3 id="ill-be-darned">I'll be darned<a class="hash" href="#ill-be-darned" aria-label="link">#</a></h3>
+<p><strong>Pronunciation:</strong> /aɪl bi ˈdɑrnd/ &middot; <em>ile bee DARND</em> <strong>Type:</strong> phrase &middot; <strong>Register:</strong> dated <strong>Variants:</strong> <em>I'll be damned</em>, <em>well I'll be darned</em>, <em>I'll be dogged</em></p>
+<p>A folksy expression of amazement that something turned out to be true. Darned is the polite swap for damned, which is what older or saltier speakers actually say.</p>
+<ol><li><em>Well, I'll be darned</em>, it started on the first try.</li><li><em>I'll be darned</em> if that isn't my old bicycle.</li><li><em>I'll be darned</em>, you were right about the shortcut.</li><li>He looked at the photo a long time and said, "<em>I'll be darned</em>."</li><li><em>I'll be darned</em>, they kept the place exactly the same.</li></ol>
+<p><strong>See also:</strong> <a href="#well-ill-be">well, I'll be</a>, <a href="#son-of-a-gun">son of a gun</a>, <a href="#what-do-you-know">what do you know</a></p>
+<h3 id="imagine-that">imagine that<a class="hash" href="#imagine-that" aria-label="link">#</a></h3>
+<p><strong>Pronunciation:</strong> /ɪˈmædʒən ˌðæt/ &middot; <em>ih-MAJ-in that</em> <strong>Type:</strong> phrase &middot; <strong>Register:</strong> informal <strong>Variants:</strong> <em>just imagine that</em>, <em>imagine</em></p>
+<p>A dry or gently amused response to something surprising, or to something that was entirely predictable. Tone decides whether it means how remarkable or of course it did.</p>
+<ol><li>They found the missing keys in the couch. <em>Imagine that</em>.</li><li><em>Imagine that</em>, a politician changing his mind.</li><li>She has been playing since she was four years old. <em>Imagine that</em>.</li><li>The store was out of the one thing I came in for. <em>Imagine that</em>.</li><li><em>Imagine that</em>, the two of them ended up at the same college.</li></ol>
+<p><strong>See also:</strong> <a href="#how-about-that">how about that</a>, <a href="#go-figure">go figure</a>, <a href="#you-dont-say">you don't say</a></p>
+<h3 id="lo-and-behold">lo and behold<a class="hash" href="#lo-and-behold" aria-label="link">#</a></h3>
+<p><strong>Pronunciation:</strong> /ˌloʊ ən bɪˈhoʊld/ &middot; <em>loh uhn bih-HOHLD</em> <strong>Type:</strong> phrase &middot; <strong>Register:</strong> neutral <strong>Variants:</strong> <em>lo and behold!</em></p>
+<p>A set phrase that introduces the surprising turn in a story, meaning and then, sure enough. It is a little literary and is usually delivered with a touch of humor.</p>
+<ol><li>I checked the garage one more time and, <em>lo and behold</em>, there was the wallet.</li><li>We gave up looking, and <em>lo and behold</em>, the cat strolled in at midnight.</li><li><em>Lo and behold</em>, the store had exactly one left in my size.</li><li>She swore she would never fly again, and <em>lo and behold</em>, she booked a ticket in June.</li><li>I opened the drawer and, <em>lo and behold</em>, every single battery was dead.</li></ol>
+<p><strong>See also:</strong> <a href="#what-do-you-know">what do you know</a>, <a href="#will-wonders-never-cease">will wonders never cease</a>, <a href="#imagine-that">imagine that</a></p>
+<h3 id="son-of-a-gun">son of a gun<a class="hash" href="#son-of-a-gun" aria-label="link">#</a></h3>
+<p><strong>Pronunciation:</strong> /ˌsʌn əv ə ˈɡʌn/ &middot; <em>sun uhv uh GUN</em> <strong>Type:</strong> phrase &middot; <strong>Register:</strong> dated <strong>Variants:</strong> <em>sonofagun</em>, <em>son of a biscuit</em></p>
+<p>A mild exclamation of surprise at something unexpected, especially something that finally worked. It is dated and friendly, and far softer than the phrase it replaced.</p>
+<ol><li>Well, <em>son of a gun</em>, the engine turned over.</li><li><em>Son of a gun</em>, I found the receipt after all.</li><li>He hit the shot from half court. <em>Son of a gun</em>.</li><li><em>Son of a gun</em>, that's the same model my dad had.</li><li>"I passed." "<em>Son of a gun</em>, good for you."</li></ol>
+<p><strong>See also:</strong> <a href="#ill-be-darned">I'll be darned</a>, <a href="#well-ill-be">well, I'll be</a>, <a href="#what-do-you-know">what do you know</a></p>
+<h3 id="speak-of-the-devil">speak of the devil<a class="hash" href="#speak-of-the-devil" aria-label="link">#</a></h3>
+<p><strong>Pronunciation:</strong> /ˌspik əv ðə ˈdɛvəl/ &middot; <em>speek uhv thuh DEV-uhl</em> <strong>Type:</strong> phrase &middot; <strong>Register:</strong> informal <strong>Variants:</strong> <em>speak of the devil and he shall appear</em>, <em>well, speak of the devil</em></p>
+<p>Said the moment the person you were just discussing walks in. It is friendly, not an accusation — the <em>devil</em> is a fossil from a much older superstition and no American hears it as an insult now. It has to land on the arrival; said thirty seconds later it falls flat.</p>
+<ol><li><em>Speak of the devil</em> — we were just talking about you.</li><li>The door opened and my sister said, "<em>Speak of the devil</em>."</li><li><em>Speak of the devil</em>, here comes the man with the keys.</li><li>We had just gotten to the part about her promotion when — <em>speak of the devil</em> — she walked in.</li><li>"<em>Speak of the devil</em>," he said. "Your ears must have been burning."</li></ol>
+<p><strong>See also:</strong> <a href="#what-do-you-know">what do you know</a>, <a href="#lo-and-behold">lo and behold</a>, <a href="#how-about-that">how about that</a></p>
+<h3 id="well-ill-be">well, I'll be<a class="hash" href="#well-ill-be" aria-label="link">#</a></h3>
+<p><strong>Pronunciation:</strong> /ˌwɛl aɪl ˈbi/ &middot; <em>wel ile BEE</em> <strong>Type:</strong> phrase &middot; <strong>Register:</strong> regional (rural) <strong>Variants:</strong> <em>well I'll be</em>, <em>well I'll be a monkey's uncle</em>, <em>well I'll be danged</em></p>
+<p>A trailing-off expression of astonishment in which the speaker leaves the rest of the oath unsaid. It sounds rural, warm, and pleasantly old-fashioned.</p>
+<ol><li><em>Well, I'll be</em>. Look who just walked through the door.</li><li><em>Well, I'll be</em>, the check actually cleared.</li><li>She fixed the whole thing with a paperclip. <em>Well, I'll be</em>.</li><li><em>Well, I'll be a monkey's uncle</em>, it worked.</li><li>"Same last name, same hometown." "<em>Well, I'll be</em>."</li></ol>
+<p><strong>See also:</strong> <a href="#ill-be-darned">I'll be darned</a>, <a href="#son-of-a-gun">son of a gun</a>, <a href="#well-i-never">well, I never</a></p>
+<h3 id="well-i-never">well, I never<a class="hash" href="#well-i-never" aria-label="link">#</a></h3>
+<p><strong>Pronunciation:</strong> /ˌwɛl aɪ ˈnɛvɚ/ &middot; <em>wel eye NEV-ur</em> <strong>Type:</strong> phrase &middot; <strong>Register:</strong> dated <strong>Variants:</strong> <em>well I never did</em>, <em>I never</em></p>
+<p>An indignant, old-fashioned exclamation of shock, almost always at bad manners. The unspoken ending is I never heard of such a thing in all my life.</p>
+<ol><li><em>Well, I never</em>, he took the last piece without asking anyone.</li><li>She hung up on me. <em>Well, I never</em>.</li><li>"<em>Well, I never</em>," my aunt said, "in all my born days."</li><li>"They charged us for the tap water." "<em>Well, I never</em>."</li><li><em>Well, I never</em>, and in front of her own mother, too.</li></ol>
+<p><strong>See also:</strong> <a href="#my-word">my word</a>, <a href="#good-heavens">good heavens</a>, <a href="#well-ill-be">well, I'll be</a></p>
+<h3 id="what-do-you-know">what do you know<a class="hash" href="#what-do-you-know" aria-label="link">#</a></h3>
+<p><strong>Pronunciation:</strong> /ˌwʌt də jə ˈnoʊ/ &middot; <em>wut duh yuh NOH</em> <strong>Type:</strong> phrase &middot; <strong>Register:</strong> informal <strong>Variants:</strong> <em>whaddya know</em>, <em>what d'you know</em>, <em>well what do you know</em></p>
+<p>A pleased, slightly surprised remark that something turned out well or turned out to be true. It comes after the discovery, not during it, and it is not a real question.</p>
+<ol><li><em>What do you know</em>, the printer is working again.</li><li>I looked in the last box and, <em>what do you know</em>, there was the charger.</li><li><em>Well, what do you know</em>. She showed up after all.</li><li><em>What do you know</em>, the shortcut actually saved us time.</li><li>"It fits." "<em>Whaddya know</em>."</li></ol>
+<p><strong>See also:</strong> <a href="#how-about-that">how about that</a>, <a href="#speak-of-the-devil">speak of the devil</a>, <a href="#lo-and-behold">lo and behold</a>, <a href="#son-of-a-gun">son of a gun</a></p>
+<h3 id="what-in-the-world">what in the world<a class="hash" href="#what-in-the-world" aria-label="link">#</a></h3>
+<p><strong>Pronunciation:</strong> /ˌwʌt ɪn ðə ˈwɝld/ &middot; <em>wut in thuh WURLD</em> <strong>Type:</strong> phrase &middot; <strong>Register:</strong> informal <strong>Variants:</strong> <em>what on earth</em>, <em>what in the heck</em>, <em>what in tarnation</em>, <em>what in blazes</em></p>
+<p>A bewildered question-exclamation aimed at something that makes no sense at all. In the world is the harmless intensifier; on earth, in the heck, and blunter options swap in as the feeling gets stronger.</p>
+<ol><li><em>What in the world</em> is that smell?</li><li><em>What in the world</em> happened to the front door?</li><li><em>What on earth</em> were you thinking?</li><li><em>What in the world</em> — who left the freezer open all night?</li><li><em>What in the world</em> is she wearing to a job interview?</li></ol>
+<p><strong>See also:</strong> <a href="#what-the">what the</a>, <a href="#what">what</a>, <a href="#huh">huh</a></p>
+<h3 id="who-knew">who knew<a class="hash" href="#who-knew" aria-label="link">#</a></h3>
+<p><strong>Pronunciation:</strong> /ˌhu ˈnu/ &middot; <em>hoo NOO</em> <strong>Type:</strong> phrase &middot; <strong>Register:</strong> informal <strong>Variants:</strong> <em>who knew?</em>, <em>who would have thought</em></p>
+<p>A light exclamation that something turned out to be true against all expectation. It is a shrug of pleasant surprise, and it usually lands at the end of the sentence.</p>
+<ol><li>Turns out he can cook. <em>Who knew</em>.</li><li><em>Who knew</em> a folded paper towel could fix a wobbly table?</li><li>The cheap seats had the best view in the house. <em>Who knew</em>.</li><li><em>Who knew</em>, the library has a whole recording studio in the basement.</li><li>She's fluent in Portuguese. <em>Who knew</em>?</li></ol>
+<p><strong>See also:</strong> <a href="#go-figure">go figure</a>, <a href="#imagine-that">imagine that</a>, <a href="#how-about-that">how about that</a></p>
+<h3 id="will-wonders-never-cease">will wonders never cease<a class="hash" href="#will-wonders-never-cease" aria-label="link">#</a></h3>
+<p><strong>Pronunciation:</strong> /wɪl ˌwʌndɚz ˌnɛvɚ ˈsis/ &middot; <em>wil WUN-durz nev-ur SEES</em> <strong>Type:</strong> phrase &middot; <strong>Register:</strong> informal <strong>Variants:</strong> <em>wonders never cease</em></p>
+<p>A wry exclamation at something you had long since given up expecting. It is almost always a little sarcastic, even when the surprise is genuinely welcome.</p>
+<ol><li>He did the dishes without being asked. <em>Will wonders never cease</em>.</li><li><em>Will wonders never cease</em>, the train is actually on time.</li><li>The city finally filled the pothole. <em>Will wonders never cease</em>.</li><li><em>Will wonders never cease</em>, she answered on the first ring.</li><li>"He apologized." "<em>Will wonders never cease</em>."</li></ol>
+<p><strong>See also:</strong> <a href="#go-figure">go figure</a>, <a href="#who-knew">who knew</a>, <a href="#how-about-that">how about that</a></p>
+<h3 id="wouldnt-you-know-it">wouldn't you know it<a class="hash" href="#wouldnt-you-know-it" aria-label="link">#</a></h3>
+<p><strong>Pronunciation:</strong> /ˌwʊdənt jə ˈnoʊ ɪt/ &middot; <em>WOOD-nt yuh NOH it</em> <strong>Type:</strong> phrase &middot; <strong>Register:</strong> informal <strong>Variants:</strong> <em>wouldn't you know</em>, <em>and wouldn't you know it</em></p>
+<p>The marker for a twist you should have seen coming, and it is nearly always the unlucky one. It sets up the punchline of a small misfortune and asks the listener to agree that this is simply how the world operates.</p>
+<ol><li>I finally got the car washed and, <em>wouldn't you know it</em>, it rained that afternoon.</li><li><em>Wouldn't you know it</em>, the one meeting I skip is the one where they take attendance.</li><li>We waited all week for the delivery and, <em>wouldn't you know</em>, it came while we were out.</li><li><em>Wouldn't you know it</em> — the spare was flat too.</li><li>She got to the front of the line and, <em>wouldn't you know it</em>, they'd just closed.</li></ol>
+<p><strong>See also:</strong> <a href="#go-figure">go figure</a>, <a href="#lo-and-behold">lo and behold</a>, <a href="#will-wonders-never-cease">will wonders never cease</a></p>
+<h3 id="would-you-look-at-that">would you look at that<a class="hash" href="#would-you-look-at-that" aria-label="link">#</a></h3>
+<p><strong>Pronunciation:</strong> /ˌwʊdʒə ˈlʊk ət ˌðæt/ &middot; <em>WOOD-juh LOOK uht that</em> <strong>Type:</strong> phrase &middot; <strong>Register:</strong> informal <strong>Variants:</strong> <em>well, would you look at that</em>, <em>look at that</em>, <em>would you look at this</em></p>
+<p>An invitation to share your surprise at something that is right there in front of both of you. It is warm and unhurried, it usually comes with a nod toward whatever it is, and it is not a real question — nobody answers it.</p>
+<ol><li><em>Would you look at that</em>, the tomatoes finally came in.</li><li>Well, <em>would you look at that</em> — somebody swept the whole porch.</li><li>He held up the old photograph. "<em>Would you look at that</em>."</li><li><em>Would you look at that</em>, there's a hawk sitting on the mailbox.</li><li>She turned the corner, saw the line down the block, and said, "<em>Would you look at that</em>."</li></ol>
+<p><strong>See also:</strong> <a href="#how-about-that">how about that</a>, <a href="#what-do-you-know">what do you know</a>, <a href="#lo-and-behold">lo and behold</a></p>
+<hr>
+<p><a href="../README.html">← Back to the interjections index</a> &middot; <a href="README.html">All categories</a></p></div></main>
+<button class="themebtn" id="themeBtn">Dark</button>
+<script>
+const tb=document.getElementById('themeBtn');
+function setTheme(x){document.documentElement.dataset.theme=x;tb.textContent=x==='dark'?'Light':'Dark';
+ try{localStorage.setItem('site-theme',x)}catch(e){}}
+tb.onclick=()=>setTheme(document.documentElement.dataset.theme==='dark'?'light':'dark');
+try{const s=localStorage.getItem('site-theme');
+ setTheme(s||(matchMedia('(prefers-color-scheme: dark)').matches?'dark':'light'))}catch(e){setTheme('light')}
+</script></body></html>

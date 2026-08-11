@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html lang="en"><head>
+<meta charset="utf-8"><meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Reported Speech</title>
+<style>
+:root{--bg:#faf9f7;--surface:#fff;--surface2:#f2f0ec;--border:#e2ded6;--text:#1a1815;
+--dim:#5f594f;--faint:#8a8377;--accent:#8a5a3b;--measure:72ch}
+@media(prefers-color-scheme:dark){:root{--bg:#14140f;--surface:#1d1d17;--surface2:#25251d;
+--border:#33332a;--text:#eeeae1;--dim:#a8a293;--faint:#7d776b;--accent:#d09b72}}
+:root[data-theme=dark]{--bg:#14140f;--surface:#1d1d17;--surface2:#25251d;--border:#33332a;
+--text:#eeeae1;--dim:#a8a293;--faint:#7d776b;--accent:#d09b72}
+:root[data-theme=light]{--bg:#faf9f7;--surface:#fff;--surface2:#f2f0ec;--border:#e2ded6;
+--text:#1a1815;--dim:#5f594f;--faint:#8a8377;--accent:#8a5a3b}
+*{box-sizing:border-box}
+body{margin:0;background:var(--bg);color:var(--text);
+font:17px/1.72 ui-serif,Georgia,"Iowan Old Style",Palatino,serif;-webkit-font-smoothing:antialiased}
+.ui{font-family:-apple-system,BlinkMacSystemFont,"Segoe UI",Inter,Roboto,sans-serif}
+.wrap{max-width:min(var(--measure),100%);margin:0 auto;padding:0 22px}
+nav.crumb{border-bottom:1px solid var(--border);padding:13px 0;font-size:13.5px;
+font-family:-apple-system,sans-serif;position:sticky;top:0;background:var(--bg);z-index:20}
+nav.crumb .wrap{max-width:none;display:flex;gap:9px;align-items:center;flex-wrap:wrap}
+nav.crumb a{color:var(--dim);text-decoration:none}
+nav.crumb a:hover{color:var(--accent)}
+nav.crumb .sep{color:var(--faint)}
+main{padding:8px 0 80px}
+h1{font-size:clamp(28px,5vw,38px);line-height:1.15;letter-spacing:-.015em;margin:34px 0 18px}
+h2{font-size:25px;margin:46px 0 14px;letter-spacing:-.01em;padding-bottom:7px;border-bottom:1px solid var(--border)}
+h3{font-size:19px;margin:34px 0 10px;color:var(--accent)}
+h4{font-size:16px;margin:24px 0 8px;font-family:-apple-system,sans-serif}
+p{margin:0 0 16px}
+a{color:var(--accent)}
+.hash{opacity:0;margin-left:8px;font-weight:400;font-size:.65em;text-decoration:none;color:var(--faint)}
+h2:hover .hash,h3:hover .hash{opacity:1}
+blockquote{margin:0 0 20px;padding:14px 18px;background:var(--surface2);
+border-left:3px solid var(--accent);border-radius:0 8px 8px 0}
+blockquote p:last-child{margin-bottom:0}
+ol,ul{margin:0 0 18px;padding-left:26px}
+li{margin-bottom:8px}
+li>ul,li>ol{margin:8px 0 0}
+code{font-family:ui-monospace,SFMono-Regular,Menlo,Consolas,monospace;font-size:.87em;
+background:var(--surface2);padding:1px 5px;border-radius:4px}
+pre{background:var(--surface2);border:1px solid var(--border);border-radius:9px;
+padding:15px 17px;overflow-x:auto;margin:0 0 20px}
+pre code{background:none;padding:0;font-size:13px;line-height:1.6}
+.tw{overflow-x:auto;margin:0 0 22px;border:1px solid var(--border);border-radius:9px}
+table{border-collapse:collapse;width:100%;font-size:15px;
+font-family:-apple-system,BlinkMacSystemFont,"Segoe UI",sans-serif}
+th,td{padding:10px 14px;border-bottom:1px solid var(--border);vertical-align:top}
+th{background:var(--surface2);font-size:12px;text-transform:uppercase;
+letter-spacing:.06em;color:var(--dim);font-weight:700;white-space:nowrap}
+tbody tr:last-child td{border-bottom:none}
+hr{border:none;border-top:1px solid var(--border);margin:38px 0}
+details{background:var(--surface2);border:1px solid var(--border);border-radius:9px;
+padding:13px 17px;margin:0 0 20px}
+summary{cursor:pointer;font-weight:600;font-family:-apple-system,sans-serif;font-size:15px}
+details[open] summary{margin-bottom:12px}
+del{color:var(--faint)}
+.toc{background:var(--surface2);border:1px solid var(--border);border-radius:10px;
+padding:16px 20px;margin:26px 0 34px;font-family:-apple-system,sans-serif;font-size:14px}
+.toc b{display:block;font-size:11px;letter-spacing:.12em;text-transform:uppercase;
+color:var(--faint);margin-bottom:9px}
+.toc a{display:block;padding:3px 0;color:var(--dim);text-decoration:none}
+.toc a:hover{color:var(--accent)}
+.toc a.l3{padding-left:16px;font-size:13.5px}
+.themebtn{position:fixed;right:18px;bottom:18px;z-index:60;font-family:-apple-system,sans-serif;
+font-size:12.5px;font-weight:600;cursor:pointer;background:var(--surface);border:1px solid var(--border);
+border-radius:99px;padding:9px 16px;color:var(--text)}
+@media(max-width:600px){body{font-size:16px}.wrap{padding:0 17px}}
+</style></head><body>
+<nav class="crumb"><div class="wrap"><a href="../../index.html">Learn English</a></div></nav>
+<main><div class="wrap"><h1 id="reported-speech">Reported Speech<a class="hash" href="#reported-speech" aria-label="link">#</a></h1>
+<blockquote><p>Everything about reporting what someone said — the tense changes, the pronoun and time shifts, questions, commands, modals, and the 313 verbs you can report with.</p></blockquote>
+<p><a href="../README.html">← All grammar topics</a> &middot; <a href="../../README.html">Library home</a></p>
+<p>Reported speech (also called <em>indirect speech</em>) is how you say what someone else said without quoting them. English handles it with a system of coordinated changes: the tense moves back, the pronouns re-point at whoever is talking now, and the words for <em>here</em> and <em>now</em> re-anchor to wherever the reporting is happening.</p>
+<pre><code>"I'll call you tomorrow," she said.        ← direct speech
+She said she would call me the next day.   ← reported speech</code></pre>
+<p>Three things changed at once — <code>will → would</code>, <code>you → me</code>, <code>tomorrow → the next day</code> — and that coordination is what makes the topic harder than any single rule in it.</p>
+<h2 id="the-sections">The sections<a class="hash" href="#the-sections" aria-label="link">#</a></h2>
+<div class="tw"><table><thead><tr><th style="text-align:left">#</th><th style="text-align:left">Section</th><th style="text-align:left">What it covers</th></tr></thead><tbody><tr><td style="text-align:left">1</td><td style="text-align:left"><a href="01-basics.html">The basics</a></td><td style="text-align:left">Direct vs. indirect, the punctuation of quotations, <em>say</em> vs. <em>tell</em> vs. <em>ask</em>, and when <em>that</em> can be dropped</td></tr><tr><td style="text-align:left">2</td><td style="text-align:left"><a href="02-backshift.html">Backshift</a></td><td style="text-align:left">The complete tense-change table, with the "one step back" logic so you can derive it rather than memorize it</td></tr><tr><td style="text-align:left">3</td><td style="text-align:left"><a href="03-no-backshift.html">When not to backshift</a></td><td style="text-align:left">The many cases where the tense does <strong>not</strong> move — the rule learners most often over-apply</td></tr><tr><td style="text-align:left">4</td><td style="text-align:left"><a href="04-pronouns-time-place.html">Pronouns, time, and place</a></td><td style="text-align:left">Who becomes who, <em>tomorrow → the next day</em>, <em>here → there</em> — and when these shifts do not happen at all</td></tr><tr><td style="text-align:left">5</td><td style="text-align:left"><a href="05-questions.html">Reported questions</a></td><td style="text-align:left"><em>if</em> vs. <em>whether</em>, and the two things everyone forgets: statement word order and no <em>do</em>-support</td></tr><tr><td style="text-align:left">6</td><td style="text-align:left"><a href="06-commands-requests.html">Commands and requests</a></td><td style="text-align:left">Imperatives become the to-infinitive, and which verbs can and cannot take a personal object</td></tr><tr><td style="text-align:left">7</td><td style="text-align:left"><a href="07-modals.html">Modals</a></td><td style="text-align:left">Which modals change, which cannot, and why <em>must</em> splits two ways</td></tr><tr><td style="text-align:left">8</td><td style="text-align:left"><a href="08-special-cases.html">Special cases and mistakes</a></td><td style="text-align:left">Conditionals, wishes, free indirect speech, news and academic attribution, plus common errors and practice</td></tr></tbody></table></div>
+<h2 id="the-reporting-verb-dictionary">The reporting-verb dictionary<a class="hash" href="#the-reporting-verb-dictionary" aria-label="link">#</a></h2>
+<p><strong><a href="catalog/README.html">313 reporting verbs</a></strong> &middot; <strong><a href="catalog/browse.html">audio browser</a></strong></p>
+<p>Choosing the verb is half of reported speech, and it is the half most references skim. Each entry gives every grammatical frame the verb takes, the frames it refuses, and the judgment it quietly carries.</p>
+<div class="tw"><table><thead><tr><th style="text-align:left">Group</th><th style="text-align:left">Verbs</th><th style="text-align:left"></th></tr></thead><tbody><tr><td style="text-align:left"><a href="catalog/01-neutral.html">Neutral</a></td><td style="text-align:left"><em>say, tell, state, report, mention, note</em></td><td style="text-align:left">the workhorses, plus the full <em>say</em>/<em>tell</em> contrast</td></tr><tr><td style="text-align:left"><a href="catalog/02-assert.html">Asserting</a></td><td style="text-align:left"><em>claim, insist, maintain, allege, argue</em></td><td style="text-align:left">and the doubt they signal</td></tr><tr><td style="text-align:left"><a href="catalog/03-agree-refuse.html">Agreeing &amp; refusing</a></td><td style="text-align:left"><em>agree, promise, offer, refuse, threaten</em></td><td style="text-align:left">mostly to-infinitive verbs</td></tr><tr><td style="text-align:left"><a href="catalog/04-admit-deny.html">Admitting &amp; denying</a></td><td style="text-align:left"><em>admit, confess, deny, reveal, concede</em></td><td style="text-align:left">mostly <em>-ing</em> verbs</td></tr><tr><td style="text-align:left"><a href="catalog/05-advise-suggest.html">Advising &amp; suggesting</a></td><td style="text-align:left"><em>advise, suggest, recommend, urge, warn</em></td><td style="text-align:left">where ✗<em>suggested me to go</em> lives</td></tr><tr><td style="text-align:left"><a href="catalog/06-order-request.html">Ordering &amp; requesting</a></td><td style="text-align:left"><em>order, tell, ask, beg, forbid, remind</em></td><td style="text-align:left">object + to-infinitive</td></tr><tr><td style="text-align:left"><a href="catalog/07-emotion.html">With attitude</a></td><td style="text-align:left"><em>complain, boast, apologize, accuse, blame</em></td><td style="text-align:left">the prepositional patterns</td></tr><tr><td style="text-align:left"><a href="catalog/08-ask-explain.html">Asking &amp; explaining</a></td><td style="text-align:left"><em>ask, wonder, explain, point out, conclude</em></td><td style="text-align:left">wh-clauses, and ✗<em>explain me</em></td></tr></tbody></table></div>
+<h2 id="start-here-if-you-are-in-a-hurry">Start here if you are in a hurry<a class="hash" href="#start-here-if-you-are-in-a-hurry" aria-label="link">#</a></h2>
+<p>Three rules cause most of the errors:</p>
+<ol><li><strong>In a reported question, the word order goes back to normal.</strong> <em>She asked where I was</em>, never ✗<em>where was I</em>. And no <em>do</em>: <em>He asked what I wanted</em>, never ✗<em>what did I want</em>. → <a href="05-questions.html">Questions</a></li><li><strong>Some verbs cannot take a person before their complement.</strong> ✗<em>suggested me to leave</em>, ✗<em>explain me the rule</em>, ✗<em>said me</em>. The repairs are <em>suggested that I leave</em>, <em>explain the rule to me</em>, <em>told me</em>. → <a href="catalog/05-advise-suggest.html">Advising</a></li><li><strong>Backshift is not automatic.</strong> If the statement is still true, Americans routinely leave the tense alone: <em>She said she lives in Boston</em> is perfectly normal. → <a href="03-no-backshift.html">When not to backshift</a></li></ol>
+<h2 id="see-also">See also<a class="hash" href="#see-also" aria-label="link">#</a></h2>
+<ul><li><a href="../../parts-of-speech/03-verbs/README.html">Verbs</a> — tense, aspect, and the modal system that backshift operates on</li><li><a href="../../parts-of-speech/02-pronouns/README.html">Pronouns</a> — the case and antecedent rules behind the pronoun shifts</li><li><a href="../../parts-of-speech/07-conjunctions/README.html">Conjunctions</a> — <em>that</em>, <em>if</em>, and <em>whether</em> as complementizers</li><li><a href="../../parts-of-speech/07-conjunctions/catalog/10-complementizers.html">The conjunction dictionary</a> — the complementizers in full</li></ul></div></main>
+<button class="themebtn" id="themeBtn">Dark</button>
+<script>
+const tb=document.getElementById('themeBtn');
+function setTheme(x){document.documentElement.dataset.theme=x;tb.textContent=x==='dark'?'Light':'Dark';
+ try{localStorage.setItem('site-theme',x)}catch(e){}}
+tb.onclick=()=>setTheme(document.documentElement.dataset.theme==='dark'?'light':'dark');
+try{const s=localStorage.getItem('site-theme');
+ setTheme(s||(matchMedia('(prefers-color-scheme: dark)').matches?'dark':'light'))}catch(e){setTheme('light')}
+</script></body></html>

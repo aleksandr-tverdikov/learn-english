@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html lang="en"><head>
+<meta charset="utf-8"><meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Parts of Speech</title>
+<style>
+:root{--bg:#faf9f7;--surface:#fff;--surface2:#f2f0ec;--border:#e2ded6;--text:#1a1815;
+--dim:#5f594f;--faint:#8a8377;--accent:#8a5a3b;--measure:72ch}
+@media(prefers-color-scheme:dark){:root{--bg:#14140f;--surface:#1d1d17;--surface2:#25251d;
+--border:#33332a;--text:#eeeae1;--dim:#a8a293;--faint:#7d776b;--accent:#d09b72}}
+:root[data-theme=dark]{--bg:#14140f;--surface:#1d1d17;--surface2:#25251d;--border:#33332a;
+--text:#eeeae1;--dim:#a8a293;--faint:#7d776b;--accent:#d09b72}
+:root[data-theme=light]{--bg:#faf9f7;--surface:#fff;--surface2:#f2f0ec;--border:#e2ded6;
+--text:#1a1815;--dim:#5f594f;--faint:#8a8377;--accent:#8a5a3b}
+*{box-sizing:border-box}
+body{margin:0;background:var(--bg);color:var(--text);
+font:17px/1.72 ui-serif,Georgia,"Iowan Old Style",Palatino,serif;-webkit-font-smoothing:antialiased}
+.ui{font-family:-apple-system,BlinkMacSystemFont,"Segoe UI",Inter,Roboto,sans-serif}
+.wrap{max-width:min(var(--measure),100%);margin:0 auto;padding:0 22px}
+nav.crumb{border-bottom:1px solid var(--border);padding:13px 0;font-size:13.5px;
+font-family:-apple-system,sans-serif;position:sticky;top:0;background:var(--bg);z-index:20}
+nav.crumb .wrap{max-width:none;display:flex;gap:9px;align-items:center;flex-wrap:wrap}
+nav.crumb a{color:var(--dim);text-decoration:none}
+nav.crumb a:hover{color:var(--accent)}
+nav.crumb .sep{color:var(--faint)}
+main{padding:8px 0 80px}
+h1{font-size:clamp(28px,5vw,38px);line-height:1.15;letter-spacing:-.015em;margin:34px 0 18px}
+h2{font-size:25px;margin:46px 0 14px;letter-spacing:-.01em;padding-bottom:7px;border-bottom:1px solid var(--border)}
+h3{font-size:19px;margin:34px 0 10px;color:var(--accent)}
+h4{font-size:16px;margin:24px 0 8px;font-family:-apple-system,sans-serif}
+p{margin:0 0 16px}
+a{color:var(--accent)}
+.hash{opacity:0;margin-left:8px;font-weight:400;font-size:.65em;text-decoration:none;color:var(--faint)}
+h2:hover .hash,h3:hover .hash{opacity:1}
+blockquote{margin:0 0 20px;padding:14px 18px;background:var(--surface2);
+border-left:3px solid var(--accent);border-radius:0 8px 8px 0}
+blockquote p:last-child{margin-bottom:0}
+ol,ul{margin:0 0 18px;padding-left:26px}
+li{margin-bottom:8px}
+li>ul,li>ol{margin:8px 0 0}
+code{font-family:ui-monospace,SFMono-Regular,Menlo,Consolas,monospace;font-size:.87em;
+background:var(--surface2);padding:1px 5px;border-radius:4px}
+pre{background:var(--surface2);border:1px solid var(--border);border-radius:9px;
+padding:15px 17px;overflow-x:auto;margin:0 0 20px}
+pre code{background:none;padding:0;font-size:13px;line-height:1.6}
+.tw{overflow-x:auto;margin:0 0 22px;border:1px solid var(--border);border-radius:9px}
+table{border-collapse:collapse;width:100%;font-size:15px;
+font-family:-apple-system,BlinkMacSystemFont,"Segoe UI",sans-serif}
+th,td{padding:10px 14px;border-bottom:1px solid var(--border);vertical-align:top}
+th{background:var(--surface2);font-size:12px;text-transform:uppercase;
+letter-spacing:.06em;color:var(--dim);font-weight:700;white-space:nowrap}
+tbody tr:last-child td{border-bottom:none}
+hr{border:none;border-top:1px solid var(--border);margin:38px 0}
+details{background:var(--surface2);border:1px solid var(--border);border-radius:9px;
+padding:13px 17px;margin:0 0 20px}
+summary{cursor:pointer;font-weight:600;font-family:-apple-system,sans-serif;font-size:15px}
+details[open] summary{margin-bottom:12px}
+del{color:var(--faint)}
+.toc{background:var(--surface2);border:1px solid var(--border);border-radius:10px;
+padding:16px 20px;margin:26px 0 34px;font-family:-apple-system,sans-serif;font-size:14px}
+.toc b{display:block;font-size:11px;letter-spacing:.12em;text-transform:uppercase;
+color:var(--faint);margin-bottom:9px}
+.toc a{display:block;padding:3px 0;color:var(--dim);text-decoration:none}
+.toc a:hover{color:var(--accent)}
+.toc a.l3{padding-left:16px;font-size:13.5px}
+.themebtn{position:fixed;right:18px;bottom:18px;z-index:60;font-family:-apple-system,sans-serif;
+font-size:12.5px;font-weight:600;cursor:pointer;background:var(--surface);border:1px solid var(--border);
+border-radius:99px;padding:9px 16px;color:var(--text)}
+@media(max-width:600px){body{font-size:16px}.wrap{padding:0 17px}}
+</style></head><body>
+<nav class="crumb"><div class="wrap"><a href="../index.html">Learn English</a><span class="sep">/</span><span>Parts of speech</span></div></nav>
+<main><div class="wrap"><h1 id="parts-of-speech">Parts of Speech<a class="hash" href="#parts-of-speech" aria-label="link">#</a></h1>
+<p>The nine word classes of American English, one folder each. Every folder holds a grammar reference; four of them also hold a full dictionary of the words in that class.</p>
+<p><a href="../README.html">← Back to the library</a> &middot; <a href="../10-pronunciation/README.html">Pronunciation guide</a></p>
+<h2 id="the-nine-classes">The nine classes<a class="hash" href="#the-nine-classes" aria-label="link">#</a></h2>
+<div class="tw"><table><thead><tr><th style="text-align:left">#</th><th style="text-align:left">Class</th><th style="text-align:left">Grammar reference</th><th style="text-align:left">Dictionary</th></tr></thead><tbody><tr><td style="text-align:left">1</td><td style="text-align:left">Nouns</td><td style="text-align:left"><a href="01-nouns/README.html">01-nouns</a></td><td style="text-align:left">—</td></tr><tr><td style="text-align:left">2</td><td style="text-align:left">Pronouns</td><td style="text-align:left"><a href="02-pronouns/README.html">02-pronouns</a></td><td style="text-align:left">—</td></tr><tr><td style="text-align:left">3</td><td style="text-align:left">Verbs</td><td style="text-align:left"><a href="03-verbs/README.html">03-verbs</a></td><td style="text-align:left">—</td></tr><tr><td style="text-align:left">4</td><td style="text-align:left">Adjectives</td><td style="text-align:left"><a href="04-adjectives/README.html">04-adjectives</a></td><td style="text-align:left">—</td></tr><tr><td style="text-align:left">5</td><td style="text-align:left">Adverbs</td><td style="text-align:left"><a href="05-adverbs/README.html">05-adverbs</a></td><td style="text-align:left">—</td></tr><tr><td style="text-align:left">6</td><td style="text-align:left">Prepositions</td><td style="text-align:left"><a href="06-prepositions/README.html">06-prepositions</a></td><td style="text-align:left"><strong><a href="06-prepositions/catalog/README.html">584 entries</a></strong> &middot; <a href="06-prepositions/catalog/browse.html">browse</a></td></tr><tr><td style="text-align:left">7</td><td style="text-align:left">Conjunctions</td><td style="text-align:left"><a href="07-conjunctions/README.html">07-conjunctions</a></td><td style="text-align:left"><strong><a href="07-conjunctions/catalog/README.html">816 entries</a></strong> &middot; <a href="07-conjunctions/catalog/browse.html">browse</a></td></tr><tr><td style="text-align:left">8</td><td style="text-align:left">Interjections</td><td style="text-align:left"><a href="08-interjections/README.html">08-interjections</a></td><td style="text-align:left"><strong><a href="08-interjections/catalog/README.html">1,602 entries</a></strong> &middot; <a href="08-interjections/catalog/browse.html">browse</a></td></tr><tr><td style="text-align:left">9</td><td style="text-align:left">Determiners</td><td style="text-align:left"><a href="09-determiners/README.html">09-determiners</a></td><td style="text-align:left"><strong><a href="09-determiners/catalog/README.html">415 entries</a></strong> &middot; <a href="09-determiners/catalog/browse.html">browse</a></td></tr></tbody></table></div>
+<p>Traditional grammar counts eight parts of speech and files <em>the</em>, <em>my</em>, <em>some</em>, and <em>three</em> under adjectives. Modern descriptive grammars split those out as <strong>determiners</strong>, because they do not describe a noun — they anchor it, and they follow their own ordering rules. That gives nine.</p>
+<h2 id="whats-in-a-folder">What's in a folder<a class="hash" href="#whats-in-a-folder" aria-label="link">#</a></h2>
+<p>Every folder has a <code>README.md</code> covering the same ten sections: what the class does, its types, forms and inflection, position and word order, rules and patterns, common mistakes, American English notes, tricky cases, a quick reference, and practice exercises with answers.</p>
+<p>Four folders also have a <code>catalog/</code> subfolder — the <strong>lexicon</strong> rather than the grammar. These are the four <strong>closed classes</strong>, where the full list of words is finite and can actually be written down:</p>
+<pre><code>07-conjunctions/
+  README.md          the grammar: punctuation, parallel structure, clause types
+  catalog/
+    README.md        A–Z index of all 816 headwords
+    browse.html      searchable, click any word to hear it
+    01-coordinating.md … 12-formal-archaic.md
+    data/            the same entries as JSON</code></pre>
+<p>Nouns, verbs, adjectives, and adverbs get no dictionary because they are <strong>open classes</strong> — new ones enter the language constantly, so no list could ever be complete. Pronouns are closed but small enough that the grammar reference covers them in full.</p>
+<h2 id="suggested-reading-order">Suggested reading order<a class="hash" href="#suggested-reading-order" aria-label="link">#</a></h2>
+<p>The numbered order is the traditional one and is fine for browsing. To read straight through, this order builds each class on the one before it:</p>
+<ol><li><strong><a href="01-nouns/README.html">Nouns</a></strong> — the anchor class; almost every other class is defined by its relationship to nouns</li><li><strong><a href="09-determiners/README.html">Determiners</a></strong> — read straight after nouns, since most singular countable nouns require one</li><li><strong><a href="02-pronouns/README.html">Pronouns</a></strong> — they replace whole noun phrases, so you need to recognize one first</li><li><strong><a href="03-verbs/README.html">Verbs</a></strong> — the largest chapter; with noun phrases available, verb types become easy to see</li><li><strong><a href="04-adjectives/README.html">Adjectives</a></strong> — the modifiers inside the noun phrase</li><li><strong><a href="05-adverbs/README.html">Adverbs</a></strong> — best read right after adjectives, since the two are constantly confused</li><li><strong><a href="06-prepositions/README.html">Prepositions</a></strong> — they take a noun phrase as their object, so this needs 1–3 in place</li><li><strong><a href="07-conjunctions/README.html">Conjunctions</a></strong> — joins finished clauses, so it comes after you can build one</li><li><strong><a href="08-interjections/README.html">Interjections</a></strong> — grammatically independent of everything above; read last, or any time</li></ol>
+<h2 id="class-is-a-job-not-a-label">Class is a job, not a label<a class="hash" href="#class-is-a-job-not-a-label" aria-label="link">#</a></h2>
+<p>A word does not own a class. It is decided by what the word is doing in a particular sentence:</p>
+<ul><li><strong>book</strong> — <em>I finished the <strong>book</strong></em> (noun) / <em>Please <strong>book</strong> a table</em> (verb) / <em>a <strong>book</strong> club</em> (attributive noun)</li><li><strong>fast</strong> — <em>a <strong>fast</strong> car</em> (adjective) / <em>He drives <strong>fast</strong></em> (adverb) / <em>They <strong>fast</strong> until sundown</em> (verb)</li><li><strong>that</strong> — <em><strong>That</strong> book is mine</em> (determiner) / <em><strong>That</strong> is mine</em> (pronoun) / <em>the car <strong>that</strong> broke down</em> (relative pronoun) / <em>She said <strong>that</strong> she would come</em> (subordinating conjunction)</li></ul>
+<p>The practical test is substitution, not translation. If <em>the</em> or <em>my</em> fits the slot, it is a determiner slot. If <em>it</em> can replace the whole chunk, that chunk is a noun phrase. If <em>very</em> can go in front, you probably have a gradable adjective or adverb.</p></div></main>
+<button class="themebtn" id="themeBtn">Dark</button>
+<script>
+const tb=document.getElementById('themeBtn');
+function setTheme(x){document.documentElement.dataset.theme=x;tb.textContent=x==='dark'?'Light':'Dark';
+ try{localStorage.setItem('site-theme',x)}catch(e){}}
+tb.onclick=()=>setTheme(document.documentElement.dataset.theme==='dark'?'light':'dark');
+try{const s=localStorage.getItem('site-theme');
+ setTheme(s||(matchMedia('(prefers-color-scheme: dark)').matches?'dark':'light'))}catch(e){setTheme('light')}
+</script></body></html>

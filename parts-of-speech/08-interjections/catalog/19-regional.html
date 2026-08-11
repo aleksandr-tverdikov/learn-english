@@ -1,0 +1,485 @@
+<!DOCTYPE html>
+<html lang="en"><head>
+<meta charset="utf-8"><meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Regional, dated, and folksy Americanisms</title>
+<style>
+:root{--bg:#faf9f7;--surface:#fff;--surface2:#f2f0ec;--border:#e2ded6;--text:#1a1815;
+--dim:#5f594f;--faint:#8a8377;--accent:#b4552a;--measure:72ch}
+@media(prefers-color-scheme:dark){:root{--bg:#14140f;--surface:#1d1d17;--surface2:#25251d;
+--border:#33332a;--text:#eeeae1;--dim:#a8a293;--faint:#7d776b;--accent:#e8935f}}
+:root[data-theme=dark]{--bg:#14140f;--surface:#1d1d17;--surface2:#25251d;--border:#33332a;
+--text:#eeeae1;--dim:#a8a293;--faint:#7d776b;--accent:#e8935f}
+:root[data-theme=light]{--bg:#faf9f7;--surface:#fff;--surface2:#f2f0ec;--border:#e2ded6;
+--text:#1a1815;--dim:#5f594f;--faint:#8a8377;--accent:#b4552a}
+*{box-sizing:border-box}
+body{margin:0;background:var(--bg);color:var(--text);
+font:17px/1.72 ui-serif,Georgia,"Iowan Old Style",Palatino,serif;-webkit-font-smoothing:antialiased}
+.ui{font-family:-apple-system,BlinkMacSystemFont,"Segoe UI",Inter,Roboto,sans-serif}
+.wrap{max-width:min(var(--measure),100%);margin:0 auto;padding:0 22px}
+nav.crumb{border-bottom:1px solid var(--border);padding:13px 0;font-size:13.5px;
+font-family:-apple-system,sans-serif;position:sticky;top:0;background:var(--bg);z-index:20}
+nav.crumb .wrap{max-width:none;display:flex;gap:9px;align-items:center;flex-wrap:wrap}
+nav.crumb a{color:var(--dim);text-decoration:none}
+nav.crumb a:hover{color:var(--accent)}
+nav.crumb .sep{color:var(--faint)}
+main{padding:8px 0 80px}
+h1{font-size:clamp(28px,5vw,38px);line-height:1.15;letter-spacing:-.015em;margin:34px 0 18px}
+h2{font-size:25px;margin:46px 0 14px;letter-spacing:-.01em;padding-bottom:7px;border-bottom:1px solid var(--border)}
+h3{font-size:19px;margin:34px 0 10px;color:var(--accent)}
+h4{font-size:16px;margin:24px 0 8px;font-family:-apple-system,sans-serif}
+p{margin:0 0 16px}
+a{color:var(--accent)}
+.hash{opacity:0;margin-left:8px;font-weight:400;font-size:.65em;text-decoration:none;color:var(--faint)}
+h2:hover .hash,h3:hover .hash{opacity:1}
+blockquote{margin:0 0 20px;padding:14px 18px;background:var(--surface2);
+border-left:3px solid var(--accent);border-radius:0 8px 8px 0}
+blockquote p:last-child{margin-bottom:0}
+ol,ul{margin:0 0 18px;padding-left:26px}
+li{margin-bottom:8px}
+li>ul,li>ol{margin:8px 0 0}
+code{font-family:ui-monospace,SFMono-Regular,Menlo,Consolas,monospace;font-size:.87em;
+background:var(--surface2);padding:1px 5px;border-radius:4px}
+pre{background:var(--surface2);border:1px solid var(--border);border-radius:9px;
+padding:15px 17px;overflow-x:auto;margin:0 0 20px}
+pre code{background:none;padding:0;font-size:13px;line-height:1.6}
+.tw{overflow-x:auto;margin:0 0 22px;border:1px solid var(--border);border-radius:9px}
+table{border-collapse:collapse;width:100%;font-size:15px;
+font-family:-apple-system,BlinkMacSystemFont,"Segoe UI",sans-serif}
+th,td{padding:10px 14px;border-bottom:1px solid var(--border);vertical-align:top}
+th{background:var(--surface2);font-size:12px;text-transform:uppercase;
+letter-spacing:.06em;color:var(--dim);font-weight:700;white-space:nowrap}
+tbody tr:last-child td{border-bottom:none}
+hr{border:none;border-top:1px solid var(--border);margin:38px 0}
+details{background:var(--surface2);border:1px solid var(--border);border-radius:9px;
+padding:13px 17px;margin:0 0 20px}
+summary{cursor:pointer;font-weight:600;font-family:-apple-system,sans-serif;font-size:15px}
+details[open] summary{margin-bottom:12px}
+del{color:var(--faint)}
+.toc{background:var(--surface2);border:1px solid var(--border);border-radius:10px;
+padding:16px 20px;margin:26px 0 34px;font-family:-apple-system,sans-serif;font-size:14px}
+.toc b{display:block;font-size:11px;letter-spacing:.12em;text-transform:uppercase;
+color:var(--faint);margin-bottom:9px}
+.toc a{display:block;padding:3px 0;color:var(--dim);text-decoration:none}
+.toc a:hover{color:var(--accent)}
+.toc a.l3{padding-left:16px;font-size:13.5px}
+.themebtn{position:fixed;right:18px;bottom:18px;z-index:60;font-family:-apple-system,sans-serif;
+font-size:12.5px;font-weight:600;cursor:pointer;background:var(--surface);border:1px solid var(--border);
+border-radius:99px;padding:9px 16px;color:var(--text)}
+@media(max-width:600px){body{font-size:16px}.wrap{padding:0 17px}}
+</style></head><body>
+<nav class="crumb"><div class="wrap"><a href="../../../index.html">Learn English</a><span class="sep">/</span><a href="../../README.html">Parts of speech</a><span class="sep">/</span><a href="../README.html">08-interjections</a><span class="sep">/</span><span>catalog</span></div></nav>
+<main><div class="wrap"><div class="toc"><b>On this page</b><a class="l2" href="#southern-and-country-talk">Southern and country talk</a><a class="l2" href="#old-fashioned-exclamations-and-minced-oaths">Old-fashioned exclamations and minced oaths</a><a class="l2" href="#archaic-and-mock-antique">Archaic and mock-antique</a><a class="l2" href="#trail-barnyard-and-salt-water-calls">Trail, barnyard, and salt-water calls</a><a class="l2" href="#mid-century-slang-of-approval">Mid-century slang of approval</a><a class="l2" href="#local-badges-words-that-place-you-on-the-map">Local badges: words that place you on the map</a><a class="l2" href="#yiddish-american">Yiddish-American</a></div><h1 id="regional-dated-and-folksy-americanisms">Regional, dated, and folksy Americanisms<a class="hash" href="#regional-dated-and-folksy-americanisms" aria-label="link">#</a></h1>
+<blockquote><p>The exclamations that come with a place, a decade, or a grandparent attached — words that tell you where a speaker is from or which era they are borrowing from.</p></blockquote>
+<p><a href="../README.html">← Back to the interjections index</a> &middot; <a href="README.html">All categories</a></p>
+<p>What unites this category is that none of these words are neutral: every one of them carries a postmark. Some are geographic (<em>uff da</em> in Minnesota, <em>wicked</em> in Boston, <em>hella</em> in Northern California, <em>y'all</em> below the Mason-Dixon line), some are historical (<em>swell</em>, <em>the cat's pajamas</em>, <em>twenty-three skidoo</em>), and a large share are the polite nineteenth-century substitutes for swearing that hid <em>God</em>, <em>Jesus</em>, and <em>damn</em> inside <em>golly</em>, <em>jiminy</em>, and <em>dagnabbit</em>. Two habits run through the whole list: heavy use of the apostrophe for dropped sounds (<em>jumpin'</em>, <em>land o' Goshen</em>, <em>outta</em>), and a fondness for the exclamation point, since nearly everything here is said with force. Learners should know that most Americans today reach for these knowingly — with a wink, a drawl, or a cartoon voice — so using one flatly and sincerely is itself a strong stylistic choice.</p>
+<h2 id="southern-and-country-talk">Southern and country talk<a class="hash" href="#southern-and-country-talk" aria-label="link">#</a></h2>
+<h3 id="consarn-it">consarn it<a class="hash" href="#consarn-it" aria-label="link">#</a></h3>
+<p><strong>Pronunciation:</strong> /kənˈsɑrn ɪt/ &middot; <em>kun-SARN-it</em> <strong>Type:</strong> phrase &middot; <strong>Register:</strong> dated <strong>Variants:</strong> <em>consarnit</em>, <em>consarn</em>, <em>consarned</em></p>
+<p>A nineteenth-century rural minced oath for <em>confound it</em> or <em>damn it</em>, now almost entirely a costume word. Americans hear it from prospectors, farmers, and cartoon codgers, and use it themselves only for comic effect.</p>
+<ol><li>"<em>Consarn it</em>, boy, shut the gate before the whole herd gets out!"</li><li><em>Consarn it</em>, I've lost my reading glasses again.</li><li>He kicked the tire and muttered a <em>consarn it</em> under his breath.</li><li>"<em>Consarnit</em>, Martha, we talked about this," Grandpa said, mostly to the radio.</li><li>Every time the printer jams my dad yells <em>consarn it</em> like he's in a western.</li></ol>
+<p><strong>See also:</strong> <a href="#dagnabbit">dagnabbit</a>, <a href="#tarnation">tarnation</a>, <a href="#dadgum">dadgum</a></p>
+<h3 id="dadgum">dadgum<a class="hash" href="#dadgum" aria-label="link">#</a></h3>
+<p><strong>Pronunciation:</strong> /ˈdædɡʌm/ &middot; <em>DAD-gum</em> <strong>Type:</strong> secondary &middot; <strong>Register:</strong> regional <strong>Variants:</strong> <em>dadgummit</em>, <em>dadgum it</em>, <em>dad-gum it</em>, <em>dadblame</em>, <em>dadblasted</em></p>
+<p>A Southern softening of <em>goddamn</em>, used both as an exclamation and as an adjective planted in front of the offending noun. It is mild enough for a church parking lot, which is exactly why it survives.</p>
+<ol><li><em>Dadgum it</em>, I left the cooler sitting on the kitchen counter.</li><li>That <em>dadgum</em> dog dug up my tomatoes again.</li><li>"<em>Dadgum</em>," he said, looking at the price of gas.</li><li>She hit her thumb with the hammer and hollered <em>dadgummit</em> loud enough for the neighbors.</li><li>I can't get this <em>dadgum</em> thing to start in the cold.</li></ol>
+<p><strong>See also:</strong> <a href="#dagnabbit">dagnabbit</a>, <a href="#doggone">doggone</a>, <a href="#consarn-it">consarn it</a></p>
+<h3 id="dagnabbit">dagnabbit<a class="hash" href="#dagnabbit" aria-label="link">#</a></h3>
+<p><strong>Pronunciation:</strong> /dæɡˈnæbɪt/ &middot; <em>dag-NAB-it</em> <strong>Type:</strong> phrase &middot; <strong>Register:</strong> dated <strong>Variants:</strong> <em>dagnab it</em>, <em>dad-nab it</em>, <em>dagnabbed</em>, <em>dagnabbit all</em></p>
+<p>Another scrambling of <em>goddamn it</em>, this one so thoroughly attached to cartoon old-timers that it is now used almost exclusively as a joke. It expresses frustration at something small that has gone wrong.</p>
+<ol><li>"<em>Dagnabbit!</em>" he shouted as the ladder slipped sideways.</li><li><em>Dagnabbit</em>, these kids and their music.</li><li>I dropped my phone in the sink — <em>dagnabbit</em>.</li><li>She shook her fist at the sky like Yosemite Sam. "<em>Dagnabbit</em>, rain again!"</li><li><em>Dagnab it</em>, that's the third time I've had to reset the router.</li></ol>
+<p><strong>See also:</strong> <a href="#dadgum">dadgum</a>, <a href="#consarn-it">consarn it</a>, <a href="#tarnation">tarnation</a></p>
+<h3 id="doggone">doggone<a class="hash" href="#doggone" aria-label="link">#</a></h3>
+<p><strong>Pronunciation:</strong> /ˌdɔɡˈɔn/ or /ˈdɔɡɔn/ &middot; <em>dawg-GAWN</em> or <em>DAWG-gawn</em> <strong>Type:</strong> secondary &middot; <strong>Register:</strong> informal <strong>Variants:</strong> <em>doggone it</em>, <em>doggonit</em>, <em>doggoned</em>, <em>dad-gone</em></p>
+<p>A gentle old stand-in for <em>goddamn</em>, alive both as a standalone gripe (<em>doggone it</em>) and as an all-purpose adjective (<em>that doggone cat</em>). It runs warmer and more rueful than angry, and it is the swear of choice for people who do not swear.</p>
+<ol><li><em>Doggone it</em>, the game's been rained out.</li><li>That <em>doggone</em> screen door slams every single time.</li><li>"Well, <em>doggone</em>," she said when the pie came out perfect.</li><li>I <em>doggone</em> near drove past the exit.</li><li>He was a <em>doggone</em> good coach, whatever else you say about him.</li></ol>
+<p><strong>See also:</strong> <a href="#dadgum">dadgum</a>, <a href="#dagnabbit">dagnabbit</a>, <a href="#shucks">shucks</a></p>
+<h3 id="great-day-in-the-morning">great day in the morning<a class="hash" href="#great-day-in-the-morning" aria-label="link">#</a></h3>
+<p><strong>Pronunciation:</strong> /ˌɡreɪt ˌdeɪ ɪn ðə ˈmɔrnɪŋ/ &middot; <em>grayt-DAY-in-thuh-MOR-ning</em> <strong>Type:</strong> phrase &middot; <strong>Register:</strong> dated <strong>Variants:</strong> <em>great day</em>, <em>great day in the mornin'</em></p>
+<p>A Southern exclamation of astonishment with a churchy ring to it, said over something startling, oversized, or outrageous. It belongs to grandmothers and preachers more than to anyone under fifty.</p>
+<ol><li>"<em>Great day in the morning</em>, how much did they charge you for that?"</li><li><em>Great day in the morning</em> — look at the size of that watermelon.</li><li>She opened the closet, saw the mess, and said, "<em>Great day in the mornin'</em>."</li><li><em>Great day</em>, I haven't seen you since you were knee-high.</li><li>"<em>Great day in the morning!</em>" Aunt Ruby said when the twins walked in.</li></ol>
+<p><strong>See also:</strong> <a href="#my-stars">my stars</a>, <a href="#land-sakes">land sakes</a>, <a href="#mercy-me">mercy me</a></p>
+<h3 id="howdy">howdy<a class="hash" href="#howdy" aria-label="link">#</a></h3>
+<p><strong>Pronunciation:</strong> /ˈhaʊdi/ &middot; <em>HOW-dee</em> <strong>Type:</strong> secondary &middot; <strong>Register:</strong> regional <strong>Variants:</strong> <em>howdy do</em>, <em>howdy-doody</em>, <em>howdy y'all</em>, <em>how do</em></p>
+<p>A friendly Western and Southern hello, worn down from <em>how do you do</em>. Outside Texas and the rural West most Americans use it playfully, and it comes with an imaginary hat brim to tip.</p>
+<ol><li>"<em>Howdy</em>, neighbor. Can I give you a hand with that?"</li><li><em>Howdy!</em> Long time no see.</li><li>He walked into the office in boots and said <em>howdy</em> to everyone.</li><li>"<em>Howdy</em> y'all," the driver called through the window.</li><li>She answered the phone with a cheerful <em>howdy</em> that gave her away as a Texan.</li></ol>
+<p><strong>See also:</strong> <a href="#yall">y'all</a>, <a href="#yee-haw">yee-haw</a>, <a href="17-ritual.html#much-obliged">much obliged</a></p>
+<h3 id="i-do-declare">I do declare<a class="hash" href="#i-do-declare" aria-label="link">#</a></h3>
+<p><strong>Pronunciation:</strong> /ˌaɪ du dɪˈklɛr/ &middot; <em>eye-doo-dih-KLAIR</em> <strong>Type:</strong> phrase &middot; <strong>Register:</strong> dated <strong>Variants:</strong> <em>well I declare</em>, <em>I declare</em>, <em>do declare</em>, <em>well, I do declare</em></p>
+<p>A genteel Southern expression of mild astonishment, roughly <em>well, would you look at that</em>. It is used today almost entirely with an arched eyebrow, often by someone doing an impression of a nineteenth-century belle.</p>
+<ol><li>"<em>Well I declare</em>, you've grown a foot since Christmas."</li><li><em>I do declare</em>, that is the ugliest lamp I have ever seen.</li><li>She fanned herself and said, "<em>I declare</em>, it is hot out."</li><li><em>Well, I do declare</em> — he actually did the dishes.</li><li>"<em>I do declare</em>," my grandmother said, reading the letter twice.</li></ol>
+<p><strong>See also:</strong> <a href="#my-stars">my stars</a>, <a href="#i-swanee">I swanee</a>, <a href="#well-shut-my-mouth">well, shut my mouth</a></p>
+<h3 id="i-swanee">I swanee<a class="hash" href="#i-swanee" aria-label="link">#</a></h3>
+<p><strong>Pronunciation:</strong> /aɪ ˈswɑni/ &middot; <em>eye-SWAH-nee</em> <strong>Type:</strong> phrase &middot; <strong>Register:</strong> dated <strong>Variants:</strong> <em>I swan</em>, <em>I swannee</em>, <em>well I swan</em>, <em>I swanny</em></p>
+<p>A rural minced oath standing in for <em>I swear</em>, common in the South and in older New England speech. Speakers who thought swearing sinful used it to register surprise or exasperation without actually taking an oath.</p>
+<ol><li>"<em>I swanee</em>, that child never stops talking."</li><li><em>I swan</em>, I don't know where the time went.</li><li>He looked at the bill and said, "<em>I swanee</em>, they've doubled it."</li><li><em>Well I swan</em> — you're the spitting image of your mother.</li><li>"<em>I swanee</em> to goodness, if it isn't one thing it's another."</li></ol>
+<p><strong>See also:</strong> <a href="#i-do-declare">I do declare</a>, <a href="#my-stars">my stars</a>, <a href="#land-sakes">land sakes</a></p>
+<h3 id="land-o-goshen">land o' Goshen<a class="hash" href="#land-o-goshen" aria-label="link">#</a></h3>
+<p><strong>Pronunciation:</strong> /ˌlænd ə ˈɡoʊʃən/ &middot; <em>land-uh-GOH-shun</em> <strong>Type:</strong> phrase &middot; <strong>Register:</strong> dated <strong>Variants:</strong> <em>land of Goshen</em>, <em>lands o' Goshen</em></p>
+<p>An old exclamation of surprise borrowed from the Book of Exodus, where Goshen is the good land given to the Israelites. It survives mainly in the rural South and Midwest and in the speech of church-raised grandparents.</p>
+<ol><li>"<em>Land o' Goshen</em>, what happened to your knees?"</li><li><em>Land o' Goshen</em>, I've never seen so much snow in October.</li><li>She came around the corner, saw the puppy on the couch, and said, "<em>Land of Goshen</em>."</li><li><em>Land o' Goshen</em>, child, put on a coat.</li><li>"<em>Lands o' Goshen</em>, they want four dollars for a doughnut."</li></ol>
+<p><strong>See also:</strong> <a href="#land-sakes">land sakes</a>, <a href="#heavens-to-betsy">heavens to Betsy</a>, <a href="#mercy-me">mercy me</a></p>
+<h3 id="land-sakes">land sakes<a class="hash" href="#land-sakes" aria-label="link">#</a></h3>
+<p><strong>Pronunciation:</strong> /ˌlænd ˈseɪks/ &middot; <em>land-SAYKS</em> <strong>Type:</strong> phrase &middot; <strong>Register:</strong> dated <strong>Variants:</strong> <em>land sakes alive</em>, <em>sakes alive</em>, <em>my land</em>, <em>my lands</em>, <em>good land</em>, <em>land's sakes</em></p>
+<p>A worn-down version of <em>for the Lord's sake</em> that dodges the Lord entirely. It marks surprise, mild alarm, or fond exasperation, and today it reads as unmistakably old-fashioned and rural.</p>
+<ol><li>"<em>Land sakes</em>, you scared me half to death!"</li><li><em>My lands</em>, look how tall he's gotten.</li><li>She counted the receipts twice. "<em>Land sakes alive</em>, that can't be right."</li><li><em>Sakes alive</em>, it's cold in this house.</li><li>"<em>Good land</em>, honey, there's mud all the way up the stairs."</li></ol>
+<p><strong>See also:</strong> <a href="#land-o-goshen">land o' Goshen</a>, <a href="#mercy-me">mercy me</a>, <a href="#my-stars">my stars</a></p>
+<h3 id="lordy">lordy<a class="hash" href="#lordy" aria-label="link">#</a></h3>
+<p><strong>Pronunciation:</strong> /ˈlɔrdi/ &middot; <em>LOR-dee</em> <strong>Type:</strong> secondary &middot; <strong>Register:</strong> informal <strong>Variants:</strong> <em>lawdy</em>, <em>lordy lordy</em>, <em>lordy be</em>, <em>lawd</em>, <em>lord have mercy</em></p>
+<p>A drawled, softened <em>Lord</em> used for weariness, wonder, or half-scandalized amusement. Doubling it (<em>lordy lordy</em>) adds a shake of the head, and <em>lordy be</em> adds a Southern flourish.</p>
+<ol><li>"<em>Lordy</em>, it's been a long week."</li><li><em>Lordy lordy</em>, look who's forty.</li><li>She saw the credit card statement and said, "<em>Lawdy</em>."</li><li><em>Lordy be</em>, that boy can eat.</li><li>"<em>Lordy</em>, don't get him started on the highway project."</li></ol>
+<p><strong>See also:</strong> <a href="#mercy-me">mercy me</a>, <a href="#good-gravy">good gravy</a>, <a href="#great-day-in-the-morning">great day in the morning</a></p>
+<h3 id="mercy-me">mercy me<a class="hash" href="#mercy-me" aria-label="link">#</a></h3>
+<p><strong>Pronunciation:</strong> /ˌmɜrsi ˈmi/ &middot; <em>mur-see-MEE</em> <strong>Type:</strong> phrase &middot; <strong>Register:</strong> dated <strong>Variants:</strong> <em>mercy</em>, <em>mercy sakes</em>, <em>mercy sakes alive</em>, <em>have mercy</em>, <em>land of mercy</em></p>
+<p>A soft, churchy exclamation of surprise or sympathy, most at home in the mouth of an older Southern woman. It can react to bad news, to a mess, or simply to something too much to take in.</p>
+<ol><li>"<em>Mercy me</em>, that's a lot of stairs."</li><li><em>Mercy sakes</em>, honey, you're soaked through.</li><li>She read the obituary and murmured, "<em>Mercy</em>."</li><li><em>Have mercy</em> — did you make all of this yourself?</li><li>"<em>Mercy me</em>, I forgot the pie in the oven."</li></ol>
+<p><strong>See also:</strong> <a href="#lordy">lordy</a>, <a href="#land-sakes">land sakes</a>, <a href="#heavens-to-betsy">heavens to Betsy</a></p>
+<h3 id="my-stars">my stars<a class="hash" href="#my-stars" aria-label="link">#</a></h3>
+<p><strong>Pronunciation:</strong> /maɪ ˈstɑrz/ &middot; <em>my-STARZ</em> <strong>Type:</strong> phrase &middot; <strong>Register:</strong> dated <strong>Variants:</strong> <em>my stars and garters</em>, <em>stars above</em>, <em>oh my stars</em></p>
+<p>A quaint exclamation of astonishment, the polite cousin of <em>my God</em>. It sounds Victorian, and it is used today mostly by the elderly or by anyone deliberately sounding elderly.</p>
+<ol><li>"<em>My stars</em>, you've redone the whole kitchen!"</li><li><em>My stars and garters</em>, I have never heard such nonsense.</li><li>She put her hand to her chest. "<em>Oh my stars.</em>"</li><li><em>My stars</em>, it's nearly midnight already.</li><li>"<em>My stars</em>, if it isn't the prodigal son," Aunt Fern said from the porch.</li></ol>
+<p><strong>See also:</strong> <a href="#heavens-to-betsy">heavens to Betsy</a>, <a href="#i-do-declare">I do declare</a>, <a href="#land-sakes">land sakes</a></p>
+<h3 id="shucks">shucks<a class="hash" href="#shucks" aria-label="link">#</a></h3>
+<p><strong>Pronunciation:</strong> /ʃʌks/ &middot; <em>SHUKS</em> <strong>Type:</strong> secondary &middot; <strong>Register:</strong> informal <strong>Variants:</strong> <em>aw shucks</em>, <em>ah shucks</em>, <em>shucks now</em></p>
+<p>Originally the worthless husks of corn, now a country-flavored word for two feelings: bashful modesty when you are praised, and mild disappointment when something falls through. <em>Aw shucks</em> is so tied to the first sense that it doubles as an adjective for anyone who plays humble.</p>
+<ol><li>"<em>Shucks</em>, it was nothing. Anybody would have done it."</li><li><em>Aw shucks</em>, you didn't have to get me anything.</li><li><em>Shucks</em>, I was hoping they'd still have tickets.</li><li>He gave the crowd an <em>aw-shucks</em> grin and stepped up to the mic.</li><li>"<em>Shucks now</em>, don't go making a fuss over me."</li></ol>
+<p><strong>See also:</strong> <a href="#by-golly">by golly</a>, <a href="#gee-whiz">gee whiz</a>, <a href="#doggone">doggone</a></p>
+<h3 id="tarnation">tarnation<a class="hash" href="#tarnation" aria-label="link">#</a></h3>
+<p><strong>Pronunciation:</strong> /tɑrˈneɪʃən/ &middot; <em>tar-NAY-shun</em> <strong>Type:</strong> secondary &middot; <strong>Register:</strong> dated <strong>Variants:</strong> <em>what in tarnation</em>, <em>in tarnation</em>, <em>who in tarnation</em>, <em>consarned tarnation</em></p>
+<p>A blend of <em>eternal</em> and <em>damnation</em> that lets a speaker demand an explanation without swearing. It nearly always sits inside a question — <em>what in tarnation</em>, <em>where in tarnation</em> — filling the slot a stronger word would take.</p>
+<ol><li>"<em>What in tarnation</em> is going on out here?"</li><li><em>Tarnation!</em> That was my last clean shirt.</li><li>Where in <em>tarnation</em> did I put those keys?</li><li>"Who in <em>tarnation</em> parked across two spaces?"</li><li>He stared at the assembly instructions. "How in <em>tarnation</em> does this go together?"</li></ol>
+<p><strong>See also:</strong> <a href="#consarn-it">consarn it</a>, <a href="#what-in-sam-hill">what in Sam Hill</a>, <a href="#dagnabbit">dagnabbit</a></p>
+<h3 id="well-shut-my-mouth">well, shut my mouth<a class="hash" href="#well-shut-my-mouth" aria-label="link">#</a></h3>
+<p><strong>Pronunciation:</strong> /ˌwɛl ʃʌt maɪ ˈmaʊθ/ &middot; <em>wel-shut-my-MOWTH</em> <strong>Type:</strong> phrase &middot; <strong>Register:</strong> dated <strong>Variants:</strong> <em>shut my mouth</em>, <em>well shut my mouth wide open</em></p>
+<p>A Southern expression of amazement meaning roughly <em>I stand corrected</em> or <em>I never would have believed it</em>. It is theatrical by nature and is nearly always said with a smile.</p>
+<ol><li>"<em>Well, shut my mouth</em>, you were right all along."</li><li>He won the whole thing? <em>Shut my mouth.</em></li><li><em>Well, shut my mouth</em> — she drove all the way from Atlanta just for supper.</li><li>"<em>Shut my mouth</em>, if that isn't the fanciest truck in the county."</li><li><em>Well, shut my mouth wide open</em>, they finally paved the road.</li></ol>
+<p><strong>See also:</strong> <a href="#i-do-declare">I do declare</a>, <a href="#my-stars">my stars</a>, <a href="#great-day-in-the-morning">great day in the morning</a></p>
+<h3 id="whoo-wee">whoo-wee<a class="hash" href="#whoo-wee" aria-label="link">#</a></h3>
+<p><strong>Pronunciation:</strong> /ˌwuˈwi/ &middot; <em>woo-WEE</em> <strong>Type:</strong> primary &middot; <strong>Register:</strong> informal <strong>Variants:</strong> <em>hoo-wee</em>, <em>woo-wee</em>, <em>whoo-eee</em></p>
+<p>A long, whistling country exclamation for anything extreme — heat, spice, price, or distance. It sounds admiring and a little overwhelmed at the same time.</p>
+<ol><li>"<em>Whoo-wee</em>, that chili will take the roof off your mouth."</li><li><em>Hoo-wee</em>, it must be a hundred degrees out here.</li><li>He looked at the estimate and said, "<em>Whoo-wee</em>, that's steep."</li><li><em>Whoo-wee!</em> Did you see how far he hit that ball?</li><li>"<em>Woo-wee</em>, boys, we are a long way from home."</li></ol>
+<p><strong>See also:</strong> <a href="#hot-dog">hot dog</a>, <a href="#yee-haw">yee-haw</a>, <a href="02-surprise.html#wow">wow</a></p>
+<h3 id="yall">y'all<a class="hash" href="#yall" aria-label="link">#</a></h3>
+<p><strong>Pronunciation:</strong> /jɔl/ or /jɑl/ &middot; <em>YAWL</em> <strong>Type:</strong> secondary &middot; <strong>Register:</strong> regional <strong>Variants:</strong> <em>all y'all</em>, <em>y'all listen up</em>, <em>hey y'all</em>, <em>yall</em></p>
+<p>A Southern plural <em>you</em> that doubles as a call to a room — set in front of an announcement (<em>y'all, listen up</em>) or tacked onto a greeting or goodbye (<em>hey y'all</em>, <em>bye y'all</em>) purely to signal warmth and shared ground. Its spelling starts arguments: the apostrophe replaces the missing <em>ou</em> of <em>you</em>, so <em>y'all</em> is right and <em>ya'll</em> is not.</p>
+<ol><li>"<em>Y'all</em>, listen up — the bus leaves in ten minutes."</li><li>Hey <em>y'all</em>, come on in, food's on the table.</li><li><em>Y'all!</em> You are not going to believe who I just saw.</li><li>Thanks for coming out, <em>y'all</em>. Drive safe.</li><li><em>All y'all</em> need to be in the van by six.</li></ol>
+<p><strong>See also:</strong> <a href="#howdy">howdy</a>, <a href="#you-betcha">you betcha</a>, <a href="10-attention.html#hey">hey</a></p>
+<h3 id="yessiree">yessiree<a class="hash" href="#yessiree" aria-label="link">#</a></h3>
+<p><strong>Pronunciation:</strong> /ˌjɛsəˈri/ &middot; <em>yes-suh-REE</em> <strong>Type:</strong> phrase &middot; <strong>Register:</strong> dated <strong>Variants:</strong> <em>yes siree</em>, <em>yessiree bob</em>, <em>yes sirree Bob</em>, <em>yessir</em></p>
+<p>An emphatic country <em>yes</em>, built from <em>yes, sir</em> and then decorated. <em>Yessiree bob</em> is the fullest form, and the Bob is nobody in particular. It confirms something with cheerful finality, often about a fact the speaker is proud of.</p>
+<ol><li>"Did you catch anything?" "<em>Yessiree</em>, four of them."</li><li><em>Yessiree bob</em>, that's my grandson on the poster.</li><li>He nodded slowly. "<em>Yes siree</em>, she built that porch herself."</li><li><em>Yessiree</em>, thirty-two years at the same plant.</li><li>"Is this the last one?" "<em>Yessiree bob</em>, we're done."</li></ol>
+<p><strong>See also:</strong> <a href="#you-betcha">you betcha</a>, <a href="#by-golly">by golly</a>, <a href="#howdy">howdy</a></p>
+<h2 id="old-fashioned-exclamations-and-minced-oaths">Old-fashioned exclamations and minced oaths<a class="hash" href="#old-fashioned-exclamations-and-minced-oaths" aria-label="link">#</a></h2>
+<h3 id="by-cracky">by cracky<a class="hash" href="#by-cracky" aria-label="link">#</a></h3>
+<p><strong>Pronunciation:</strong> /baɪ ˈkræki/ &middot; <em>by-KRAK-ee</em> <strong>Type:</strong> phrase &middot; <strong>Register:</strong> dated <strong>Variants:</strong> <em>by crackey</em>, <em>by cracky now</em></p>
+<p>A rural New England and Midwestern oath from the 1800s, built on the same pattern as <em>by golly</em> and <em>by gum</em>. It emphasizes a statement the speaker is sure of, and today it survives mostly in period fiction and in deliberate hayseed imitations.</p>
+<ol><li>"<em>By cracky</em>, that's the biggest pumpkin I've ever seen."</li><li>We'll get this barn up by Sunday, <em>by cracky</em>, if I have to nail it myself.</li><li><em>By cracky</em>, the old truck started on the first try.</li><li>"You're right, <em>by cracky</em>," the old man said, slapping the counter.</li><li>He tasted the cider and declared, "<em>By cracky</em>, that's the good stuff."</li></ol>
+<p><strong>See also:</strong> <a href="#by-golly">by golly</a>, <a href="#by-gum">by gum</a>, <a href="#by-jingo">by jingo</a></p>
+<h3 id="by-golly">by golly<a class="hash" href="#by-golly" aria-label="link">#</a></h3>
+<p><strong>Pronunciation:</strong> /baɪ ˈɡɑli/ &middot; <em>by-GAH-lee</em> <strong>Type:</strong> phrase &middot; <strong>Register:</strong> dated <strong>Variants:</strong> <em>golly</em>, <em>golly gee</em>, <em>gollee</em>, <em>by golly gee</em>, <em>golly gee whiz</em></p>
+<p><em>Golly</em> is a nineteenth-century dodge around saying <em>God</em>, and <em>by golly</em> is the emphatic frame built from it. Alone, <em>golly</em> registers innocent surprise; with <em>by</em>, it insists that something is true or that you really will do it.</p>
+<ol><li>"<em>By golly</em>, you did it!"</li><li><em>Golly</em>, that's a lot of stairs for one building.</li><li>If they won't fix it, <em>by golly</em>, I'll fix it myself.</li><li>"<em>Golly gee</em>, mister, thanks!" the kid said, sounding like a 1950s TV show.</li><li>He counted the change twice and said, "<em>By golly</em>, she was right."</li></ol>
+<p><strong>See also:</strong> <a href="#by-gum">by gum</a>, <a href="#gee-whiz">gee whiz</a>, <a href="02-surprise.html#gosh">gosh</a></p>
+<h3 id="by-gum">by gum<a class="hash" href="#by-gum" aria-label="link">#</a></h3>
+<p><strong>Pronunciation:</strong> /baɪ ˈɡʌm/ &middot; <em>by-GUM</em> <strong>Type:</strong> phrase &middot; <strong>Register:</strong> dated <strong>Variants:</strong> <em>by gum it</em>, <em>I'll be gum-swizzled</em></p>
+<p>Another swap for <em>by God</em>, this one associated with old farmers, Yorkshire transplants, and Midwestern stubbornness. It punctuates a determined statement or a satisfying discovery.</p>
+<ol><li>"<em>By gum</em>, I think you've got it."</li><li>We'll finish this fence today, <em>by gum</em>.</li><li><em>By gum</em>, if that isn't the same car he drove in high school.</li><li>She tightened the last bolt. "<em>By gum</em>, that ought to hold."</li><li>"<em>By gum</em>, they don't make them like that anymore."</li></ol>
+<p><strong>See also:</strong> <a href="#by-golly">by golly</a>, <a href="#by-cracky">by cracky</a>, <a href="#doggone">doggone</a></p>
+<h3 id="by-jingo">by jingo<a class="hash" href="#by-jingo" aria-label="link">#</a></h3>
+<p><strong>Pronunciation:</strong> /baɪ ˈdʒɪŋɡoʊ/ &middot; <em>by-JING-goh</em> <strong>Type:</strong> phrase &middot; <strong>Register:</strong> dated <strong>Variants:</strong> <em>by jingoes</em>, <em>by the living jingo</em></p>
+<p>A Victorian-era oath of emphasis, famous enough that a bellicose 1870s song gave English the word <em>jingoism</em>. As an interjection it now sounds thoroughly antique and is used with a grin.</p>
+<ol><li>"<em>By jingo</em>, we'll be there by nightfall."</li><li><em>By jingo</em>, that's the fastest I've ever seen him move.</li><li>He read the telegram twice. "<em>By jingo</em>, they've done it."</li><li>We're going to win this thing, <em>by jingo</em>, or die trying.</li><li>"<em>By the living jingo</em>, you've outdone yourself, Mrs. Petrie."</li></ol>
+<p><strong>See also:</strong> <a href="#by-golly">by golly</a>, <a href="#by-gum">by gum</a>, <a href="#egad">egad</a></p>
+<h3 id="gee-whiz">gee whiz<a class="hash" href="#gee-whiz" aria-label="link">#</a></h3>
+<p><strong>Pronunciation:</strong> /ˌdʒi ˈwɪz/ &middot; <em>jee-WIZ</em> <strong>Type:</strong> phrase &middot; <strong>Register:</strong> dated <strong>Variants:</strong> <em>geez whiz</em>, <em>gee whizz</em>, <em>gee</em></p>
+<p>A wide-eyed exclamation of surprise or mild complaint, and originally a way to start saying <em>Jesus</em> and stop in time. It reads as boyish and innocent, which is why <em>gee-whiz</em> has also become an adjective for anything flashily impressive.</p>
+<ol><li>"<em>Gee whiz</em>, do we have to do this again?"</li><li><em>Gee whiz</em>, that's a beautiful piece of work.</li><li>The presentation was all <em>gee-whiz</em> graphics and no actual numbers.</li><li>"<em>Gee whiz</em>, Mom, I was just asking."</li><li><em>Gee whiz</em> — I had no idea it cost that much.</li></ol>
+<p><strong>See also:</strong> <a href="#gee-willikers">gee willikers</a>, <a href="#jeepers">jeepers</a>, <a href="#by-golly">by golly</a></p>
+<h3 id="gee-willikers">gee willikers<a class="hash" href="#gee-willikers" aria-label="link">#</a></h3>
+<p><strong>Pronunciation:</strong> /ˌdʒi ˈwɪlɪkərz/ &middot; <em>jee-WIL-ih-kurz</em> <strong>Type:</strong> phrase &middot; <strong>Register:</strong> dated <strong>Variants:</strong> <em>gee whillikers</em>, <em>gee willikins</em>, <em>golly willikers</em>, <em>gee willikers wow</em></p>
+<p>An elaborated <em>gee whiz</em> from the mid-1800s, now pure cartoon boy-detective. It expresses amazement, and any American over ten who says it is doing a bit.</p>
+<ol><li>"<em>Gee willikers</em>, that thing can really fly!"</li><li><em>Gee willikers</em>, look at all these presents.</li><li>He whistled at the scoreboard. "<em>Gee whillikers.</em>"</li><li><em>Gee willikers</em>, Batman, how did you figure it out?</li><li>"<em>Gee willikers</em>," she deadpanned, "what an absolutely thrilling meeting."</li></ol>
+<p><strong>See also:</strong> <a href="#gee-whiz">gee whiz</a>, <a href="#jiminy-cricket">jiminy cricket</a>, <a href="#jeepers">jeepers</a></p>
+<h3 id="good-gravy">good gravy<a class="hash" href="#good-gravy" aria-label="link">#</a></h3>
+<p><strong>Pronunciation:</strong> /ˌɡʊd ˈɡreɪvi/ &middot; <em>good-GRAY-vee</em> <strong>Type:</strong> phrase &middot; <strong>Register:</strong> informal <strong>Variants:</strong> <em>good gravy alive</em>, <em>great gravy</em>, <em>good gravy Marie</em></p>
+<p>A clean substitute for <em>good God</em>, built on the same <em>good</em> + harmless noun pattern as <em>good grief</em> and <em>good night</em>. It expresses exasperated disbelief at something excessive.</p>
+<ol><li>"<em>Good gravy</em>, how much did you buy?"</li><li><em>Good gravy</em>, it's freezing in here.</li><li>He looked at the line out the door. "<em>Good gravy</em>, we'll be here all night."</li><li><em>Good gravy alive</em>, would you two stop arguing?</li><li>"<em>Good gravy</em>, that's the fourth email he's sent this morning."</li></ol>
+<p><strong>See also:</strong> <a href="#good-grief">good grief</a>, <a href="#good-night-nurse">good night nurse</a>, <a href="#lordy">lordy</a></p>
+<h3 id="good-grief">good grief<a class="hash" href="#good-grief" aria-label="link">#</a></h3>
+<p><strong>Pronunciation:</strong> /ˌɡʊd ˈɡrif/ &middot; <em>good-GREEF</em> <strong>Type:</strong> phrase &middot; <strong>Register:</strong> informal <strong>Variants:</strong> <em>oh good grief</em>, <em>good grief Charlie Brown</em></p>
+<p>A mild, weary expression of dismay, dodging <em>good God</em> the same way <em>good gravy</em> does. Charlie Brown made it a national catchphrase, so it carries a faint comic-strip sigh no matter who says it.</p>
+<ol><li>"<em>Good grief</em>, not another meeting."</li><li><em>Good grief</em>, look at this traffic.</li><li>She opened the bill and said, "Oh <em>good grief</em>."</li><li><em>Good grief</em>, you two, it was a joke.</li><li>"<em>Good grief</em>," he sighed, picking the toys up off the floor again.</li></ol>
+<p><strong>See also:</strong> <a href="#good-gravy">good gravy</a>, <a href="#good-night-nurse">good night nurse</a>, <a href="07-anger.html#good-grief">good grief</a></p>
+<h3 id="good-night-nurse">good night nurse<a class="hash" href="#good-night-nurse" aria-label="link">#</a></h3>
+<p><strong>Pronunciation:</strong> /ˌɡʊd naɪt ˈnɜrs/ &middot; <em>good-nyte-NURSE</em> <strong>Type:</strong> phrase &middot; <strong>Register:</strong> dated <strong>Variants:</strong> <em>good night</em>, <em>good night alive</em>, <em>good grief nurse</em></p>
+<p>A 1920s exclamation of astonishment or dismay meaning roughly <em>that's the end of that</em> or <em>would you look at this</em>. It is very dated and now shows up mainly in the Mountain West, in Utah, and from people who learned it from a grandparent.</p>
+<ol><li>"<em>Good night nurse</em>, how did the kitchen get like this?"</li><li><em>Good night</em>, that's a steep hill.</li><li>He fumbled the pass at the goal line. "<em>Good night nurse.</em>"</li><li><em>Good night nurse</em>, they've raised the rent again.</li><li>"<em>Good night alive</em>, you nearly gave me a heart attack."</li></ol>
+<p><strong>See also:</strong> <a href="#good-grief">good grief</a>, <a href="#good-gravy">good gravy</a>, <a href="#great-scott">great Scott</a></p>
+<h3 id="great-caesars-ghost">great Caesar's ghost<a class="hash" href="#great-caesars-ghost" aria-label="link">#</a></h3>
+<p><strong>Pronunciation:</strong> /ˌɡreɪt ˌsizərz ˈɡoʊst/ &middot; <em>grayt-SEE-zurz-GOHST</em> <strong>Type:</strong> phrase &middot; <strong>Register:</strong> dated <strong>Variants:</strong> <em>great Caesar</em>, <em>great Caesar's ghost alive</em></p>
+<p>A florid oath of astonishment, permanently attached to Perry White, the shouting newspaper editor of the Superman stories. Anyone using it now is being deliberately grandiose.</p>
+<ol><li>"<em>Great Caesar's ghost</em>, who let this go to print?"</li><li><em>Great Caesar's ghost</em>, that's a lot of money for a sandwich.</li><li>He threw open the door. "<em>Great Caesar's ghost</em>, what happened in here?"</li><li><em>Great Caesar</em>, man, you scared the daylights out of me.</li><li>"<em>Great Caesar's ghost</em>," the coach yelled, "block somebody!"</li></ol>
+<p><strong>See also:</strong> <a href="#great-scott">great Scott</a>, <a href="#jumpin-jehoshaphat">jumpin' Jehoshaphat</a>, <a href="#zounds">zounds</a></p>
+<h3 id="great-scott">great Scott<a class="hash" href="#great-scott" aria-label="link">#</a></h3>
+<p><strong>Pronunciation:</strong> /ˌɡreɪt ˈskɑt/ &middot; <em>grayt-SKAHT</em> <strong>Type:</strong> phrase &middot; <strong>Register:</strong> dated <strong>Variants:</strong> <em>great Scott alive</em>, <em>great Scot</em></p>
+<p>A nineteenth-century American oath of alarm or astonishment, probably softened from <em>great God</em> and possibly nodding at General Winfield Scott. It got a second life from Doc Brown in <em>Back to the Future</em>, so younger Americans hear it as a mad-scientist word.</p>
+<ol><li>"<em>Great Scott</em>, we're going to be late!"</li><li><em>Great Scott</em>, look at the size of that hailstone.</li><li>He checked the meter and said, "<em>Great Scott</em>, the power's still on."</li><li><em>Great Scott</em>, man, you can't just walk in there.</li><li>"<em>Great Scott!</em>" she said, in her best Doc Brown voice. "The car's out of gas."</li></ol>
+<p><strong>See also:</strong> <a href="#great-caesars-ghost">great Caesar's ghost</a>, <a href="#good-night-nurse">good night nurse</a>, <a href="#egad">egad</a></p>
+<h3 id="heavens-to-betsy">heavens to Betsy<a class="hash" href="#heavens-to-betsy" aria-label="link">#</a></h3>
+<p><strong>Pronunciation:</strong> /ˌhɛvənz tə ˈbɛtsi/ &middot; <em>HEV-unz-tuh-BET-see</em> <strong>Type:</strong> phrase &middot; <strong>Register:</strong> dated <strong>Variants:</strong> <em>heavens to Murgatroyd</em>, <em>heavens above</em>, <em>heavens</em></p>
+<p>An exclamation of surprise or shock whose Betsy nobody has ever been able to identify. It sounds like a maiden aunt and is used today with affection, irony, or both; the Hanna-Barbera variant <em>heavens to Murgatroyd</em> is even more of a joke.</p>
+<ol><li>"<em>Heavens to Betsy</em>, look what the wind did to the porch."</li><li><em>Heavens to Betsy</em>, child, where are your shoes?</li><li>She read the headline and said, "Well, <em>heavens to Betsy</em>."</li><li><em>Heavens to Murgatroyd</em>, they've changed the recipe.</li><li>"<em>Heavens to Betsy</em>, I nearly walked right past you."</li></ol>
+<p><strong>See also:</strong> <a href="#my-stars">my stars</a>, <a href="#land-sakes">land sakes</a>, <a href="02-surprise.html#heavens-to-betsy">heavens to Betsy</a></p>
+<h3 id="hot-dog">hot dog<a class="hash" href="#hot-dog" aria-label="link">#</a></h3>
+<p><strong>Pronunciation:</strong> /ˌhɑt ˈdɔɡ/ &middot; <em>hot-DAWG</em> <strong>Type:</strong> phrase &middot; <strong>Register:</strong> dated <strong>Variants:</strong> <em>hot diggity dog</em>, <em>hot diggity</em>, <em>hot ziggity</em>, <em>hot dog almighty</em></p>
+<p>An old-fashioned yelp of delight, dating to the 1890s and peaking with the crooners of the 1940s. It celebrates good news you have just heard, and the fuller <em>hot diggity dog</em> is even bouncier.</p>
+<ol><li>"<em>Hot dog!</em> Payday came early."</li><li><em>Hot diggity dog</em>, we got the house.</li><li>He opened the box, saw the fishing reel, and said, "<em>Hot dog.</em>"</li><li><em>Hot diggity</em>, look at that spread — is that all homemade?</li><li>"<em>Hot dog</em>," Grandpa said, "the Cubs actually won one."</li></ol>
+<p><strong>See also:</strong> <a href="#whoo-wee">whoo-wee</a>, <a href="#yee-haw">yee-haw</a>, <a href="01-joy.html#hot-dog">hot dog</a></p>
+<h3 id="jeepers">jeepers<a class="hash" href="#jeepers" aria-label="link">#</a></h3>
+<p><strong>Pronunciation:</strong> /ˈdʒipərz/ &middot; <em>JEE-purz</em> <strong>Type:</strong> primary &middot; <strong>Register:</strong> dated <strong>Variants:</strong> <em>jeepers creepers</em>, <em>jeeps</em>, <em>jeez</em></p>
+<p>A soft-pedaled <em>Jesus</em>, expressing surprise, worry, or gentle protest. <em>Jeepers creepers</em> is the sing-song extension, borrowed from the 1938 song and now with a horror-movie shadow on it.</p>
+<ol><li>"<em>Jeepers</em>, you scared me."</li><li><em>Jeepers creepers</em>, where'd you get those peepers?</li><li><em>Jeepers</em>, that's a long drive for one meeting.</li><li>"<em>Jeepers</em>, Dad, I said I was sorry."</li><li>She looked over the cliff edge and said, "<em>Jeepers</em>, that's high."</li></ol>
+<p><strong>See also:</strong> <a href="#jiminy-cricket">jiminy cricket</a>, <a href="#gee-whiz">gee whiz</a>, <a href="02-surprise.html#jeepers">jeepers</a></p>
+<h3 id="jiminy-cricket">jiminy cricket<a class="hash" href="#jiminy-cricket" aria-label="link">#</a></h3>
+<p><strong>Pronunciation:</strong> /ˌdʒɪməni ˈkrɪkɪt/ &middot; <em>JIM-uh-nee-KRIK-it</em> <strong>Type:</strong> phrase &middot; <strong>Register:</strong> dated <strong>Variants:</strong> <em>jiminy crickets</em>, <em>jiminy Christmas</em>, <em>jiminy</em>, <em>jimmity Christmas</em></p>
+<p>A minced <em>Jesus Christ</em> that has been in American mouths since the 1800s and got a friendly face from Disney's <em>Pinocchio</em> in 1940. It marks startled surprise or exasperation and is completely safe in front of children.</p>
+<ol><li>"<em>Jiminy cricket</em>, that door is loud."</li><li><em>Jiminy Christmas</em>, how many boxes did you order?</li><li>He hit his head on the cabinet. "<em>Jiminy crickets!</em>"</li><li><em>Jiminy cricket</em>, it's already dark out.</li><li>"<em>Jiminy</em>, would you look at that sunset."</li></ol>
+<p><strong>See also:</strong> <a href="#jeepers">jeepers</a>, <a href="#gee-willikers">gee willikers</a>, <a href="07-anger.html#jiminy-christmas">jiminy Christmas</a></p>
+<h3 id="jumpin-jehoshaphat">jumpin' Jehoshaphat<a class="hash" href="#jumpin-jehoshaphat" aria-label="link">#</a></h3>
+<p><strong>Pronunciation:</strong> /ˌdʒʌmpɪn dʒəˈhɑʃəfæt/ &middot; <em>JUM-pin juh-HOSH-uh-fat</em> <strong>Type:</strong> phrase &middot; <strong>Register:</strong> dated <strong>Variants:</strong> <em>jumping Jehoshaphat</em>, <em>great Jehoshaphat</em>, <em>by Jehoshaphat</em></p>
+<p>A wonderfully overblown oath naming a king of Judah instead of the Lord. It expresses astonishment, usually at something sudden or enormous, and it is now performed rather than merely said.</p>
+<ol><li>"<em>Jumpin' Jehoshaphat</em>, that thing came out of nowhere!"</li><li><em>Jumping Jehoshaphat</em>, look at the price of beef.</li><li>He opened the water bill. "<em>Great Jehoshaphat.</em>"</li><li><em>Jumpin' Jehoshaphat</em>, you two are loud this morning.</li><li>"<em>Jumpin' Jehoshaphat</em>," the sheriff said, "who taught you to drive?"</li></ol>
+<p><strong>See also:</strong> <a href="#great-caesars-ghost">great Caesar's ghost</a>, <a href="#great-scott">great Scott</a>, <a href="#what-in-sam-hill">what in Sam Hill</a></p>
+<h3 id="what-in-sam-hill">what in Sam Hill<a class="hash" href="#what-in-sam-hill" aria-label="link">#</a></h3>
+<p><strong>Pronunciation:</strong> /ˌwʌt ɪn ˌsæm ˈhɪl/ &middot; <em>wut-in-sam-HIL</em> <strong>Type:</strong> phrase &middot; <strong>Register:</strong> dated <strong>Variants:</strong> <em>Sam Hill</em>, <em>who in Sam Hill</em>, <em>where in Sam Hill</em>, <em>what the Sam Hill</em></p>
+<p><em>Sam Hill</em> is a nineteenth-century stand-in for <em>hell</em>, so the phrase is a clean way to demand what the hell is going on. Like <em>tarnation</em>, it lives almost entirely inside questions.</p>
+<ol><li>"<em>What in Sam Hill</em> do you think you're doing?"</li><li>Where in <em>Sam Hill</em> did that dog get to?</li><li><em>What the Sam Hill</em> is that noise coming from the basement?</li><li>"Who in <em>Sam Hill</em> signed off on this?" the foreman asked.</li><li>How in <em>Sam Hill</em> am I supposed to get there by six?</li></ol>
+<p><strong>See also:</strong> <a href="#tarnation">tarnation</a>, <a href="#consarn-it">consarn it</a>, <a href="#jumpin-jehoshaphat">jumpin' Jehoshaphat</a></p>
+<h2 id="archaic-and-mock-antique">Archaic and mock-antique<a class="hash" href="#archaic-and-mock-antique" aria-label="link">#</a></h2>
+<h3 id="alack">alack<a class="hash" href="#alack" aria-label="link">#</a></h3>
+<p><strong>Pronunciation:</strong> /əˈlæk/ &middot; <em>uh-LAK</em> <strong>Type:</strong> primary &middot; <strong>Register:</strong> dated <strong>Variants:</strong> <em>alack the day</em>, <em>alas and alack</em>, <em>alack-a-day</em></p>
+<p>A Middle English cry of sorrow, dead in ordinary speech for centuries and alive today only as costume. Americans use it in the fixed pair <em>alas and alack</em> to make a mock-tragic show of a small misfortune.</p>
+<ol><li>"<em>Alas and alack</em>, the coffee machine is broken again."</li><li><em>Alack</em>, the last slice of pizza is gone.</li><li>He clapped a hand to his forehead. "<em>Alack the day!</em>"</li><li><em>Alas and alack</em> — no tickets left for the early show.</li><li>"<em>Alack</em>," she said, entirely without sincerity, "the meeting has been canceled."</li></ol>
+<p><strong>See also:</strong> <a href="#forsooth">forsooth</a>, <a href="#egad">egad</a>, <a href="06-sadness.html#alack">alack</a></p>
+<h3 id="egad">egad<a class="hash" href="#egad" aria-label="link">#</a></h3>
+<p><strong>Pronunciation:</strong> /ɪˈɡæd/ or /iˈɡæd/ &middot; <em>ih-GAD</em> or <em>ee-GAD</em> <strong>Type:</strong> primary &middot; <strong>Register:</strong> dated <strong>Variants:</strong> <em>egads</em>, <em>'egad</em>, <em>ye gods</em></p>
+<p>A seventeenth-century softening of <em>ah God</em>, now the standard interjection for anyone imitating a fussy Victorian gentleman. It marks surprise, dismay, or theatrical alarm.</p>
+<ol><li>"<em>Egad</em>, man, put some clothes on!"</li><li><em>Egad</em>, this coffee is strong.</li><li>He opened the ledger and muttered, "<em>Egad</em>, we're in trouble."</li><li><em>Egads</em>, is that the time?</li><li>"<em>Egad</em>," said the professor, peering into the microscope, "it's moving."</li></ol>
+<p><strong>See also:</strong> <a href="#zounds">zounds</a>, <a href="#gadzooks">gadzooks</a>, <a href="#great-scott">great Scott</a></p>
+<h3 id="fie">fie<a class="hash" href="#fie" aria-label="link">#</a></h3>
+<p><strong>Pronunciation:</strong> /faɪ/ &middot; <em>FYE</em> <strong>Type:</strong> primary &middot; <strong>Register:</strong> dated <strong>Variants:</strong> <em>fie on you</em>, <em>fie upon it</em>, <em>fie fie</em></p>
+<p>A medieval expression of disgust or reproach — the Elizabethan <em>shame on you</em>. It is entirely archaic in America and surfaces only in Shakespeare, in fantasy games, and in jokes.</p>
+<ol><li>"<em>Fie</em> on you and your terrible puns."</li><li><em>Fie!</em> I'll not stand for such treachery.</li><li>He pushed the plate away. "<em>Fie</em>, this soup is cold."</li><li><em>Fie upon it</em> — the wifi is out again.</li><li>"<em>Fie</em>, sir," she said, mock-offended, "you've taken my parking spot."</li></ol>
+<p><strong>See also:</strong> <a href="#forsooth">forsooth</a>, <a href="#alack">alack</a>, <a href="#zounds">zounds</a></p>
+<h3 id="forsooth">forsooth<a class="hash" href="#forsooth" aria-label="link">#</a></h3>
+<p><strong>Pronunciation:</strong> /fərˈsuθ/ &middot; <em>fur-SOOTH</em> <strong>Type:</strong> secondary &middot; <strong>Register:</strong> dated <strong>Variants:</strong> <em>forsooth, good sir</em>, <em>in sooth</em></p>
+<p>An archaic <em>indeed</em> or <em>truly</em>, used to affirm something. No modern American says it sincerely; it functions as a signal that the speaker is putting on a Renaissance-fair voice.</p>
+<ol><li>"<em>Forsooth</em>, the printer hath jammed once more."</li><li>Is the meeting canceled? <em>Forsooth</em>, it is.</li><li><em>Forsooth</em>, good sir, thy parking is atrocious.</li><li>He raised his plastic goblet. "<em>Forsooth</em>, this mead is decent."</li><li>"<em>Forsooth</em>," she typed in the group chat, "the deploy hath failed."</li></ol>
+<p><strong>See also:</strong> <a href="#prithee">prithee</a>, <a href="#hark">hark</a>, <a href="#fie">fie</a></p>
+<h3 id="gadzooks">gadzooks<a class="hash" href="#gadzooks" aria-label="link">#</a></h3>
+<p><strong>Pronunciation:</strong> /ɡædˈzuks/ &middot; <em>gad-ZOOKS</em> <strong>Type:</strong> primary &middot; <strong>Register:</strong> dated <strong>Variants:</strong> <em>gadzooks alive</em>, <em>odzooks</em></p>
+<p>Another chopped-up oath on God — probably <em>God's hooks</em>, meaning the nails of the crucifixion — from the same seventeenth-century family as <em>zounds</em>. It expresses startled amazement and is used now only in jest.</p>
+<ol><li>"<em>Gadzooks!</em> Where did all these emails come from?"</li><li><em>Gadzooks</em>, that dog is enormous.</li><li>He lifted the tarp off the engine. "<em>Gadzooks</em>, what a mess."</li><li><em>Gadzooks</em> — I've locked myself out again.</li><li>"<em>Gadzooks</em>, milady," he said, holding the door with a flourish.</li></ol>
+<p><strong>See also:</strong> <a href="#zounds">zounds</a>, <a href="#egad">egad</a>, <a href="#forsooth">forsooth</a></p>
+<h3 id="hark">hark<a class="hash" href="#hark" aria-label="link">#</a></h3>
+<p><strong>Pronunciation:</strong> /hɑrk/ &middot; <em>HARK</em> <strong>Type:</strong> secondary &middot; <strong>Register:</strong> dated <strong>Variants:</strong> <em>hark ye</em>, <em>hark now</em>, <em>hearken</em></p>
+<p>An old command meaning <em>listen</em> — the word that opens the Christmas carol and every mock-medieval announcement. Modern Americans use it to make a joke of an entrance or an interruption.</p>
+<ol><li>"<em>Hark!</em> I hear the ice cream truck."</li><li><em>Hark</em>, the sound of the boss's footsteps.</li><li>He held up a hand. "<em>Hark</em> — is that thunder?"</li><li><em>Hark ye</em>, citizens: the elevator is fixed.</li><li>"<em>Hark</em>," she announced from the doorway, "I have brought doughnuts."</li></ol>
+<p><strong>See also:</strong> <a href="#prithee">prithee</a>, <a href="#forsooth">forsooth</a>, <a href="10-attention.html#hark">hark</a></p>
+<h3 id="prithee">prithee<a class="hash" href="#prithee" aria-label="link">#</a></h3>
+<p><strong>Pronunciation:</strong> /ˈprɪði/ &middot; <em>PRITH-ee</em> <strong>Type:</strong> phrase &middot; <strong>Register:</strong> dated <strong>Variants:</strong> <em>pray thee</em>, <em>pray tell</em>, <em>I prithee</em></p>
+<p>A contraction of <em>I pray thee</em>, meaning <em>please</em>, worn to a nub by the 1600s and gone from real American speech since. Today it appears only in period writing and in playful mock-formality, often alongside <em>pray tell</em>.</p>
+<ol><li>"<em>Prithee</em>, good sir, pass the salt."</li><li><em>Prithee</em>, tell me you saved the file.</li><li>He bowed slightly. "<em>Prithee</em>, after you."</li><li><em>Pray tell</em>, how did you talk your way out of that one?</li><li>"<em>I prithee</em>, no more of your dad jokes tonight."</li></ol>
+<p><strong>See also:</strong> <a href="#forsooth">forsooth</a>, <a href="#hark">hark</a>, <a href="#fie">fie</a></p>
+<h3 id="zounds">zounds<a class="hash" href="#zounds" aria-label="link">#</a></h3>
+<p><strong>Pronunciation:</strong> /zaʊndz/ or /zundz/ &middot; <em>ZOWNDZ</em> or <em>ZOONDZ</em> <strong>Type:</strong> primary &middot; <strong>Register:</strong> dated <strong>Variants:</strong> <em>'zounds</em>, <em>zoonds</em></p>
+<p>A crushed form of <em>God's wounds</em>, once shocking enough to count as real blasphemy and now the most quaintly harmless word in English. The spelling pronunciation <em>ZOWNDZ</em> is what Americans use; the older <em>ZOONDZ</em> survives only among Shakespeareans.</p>
+<ol><li>"<em>Zounds!</em> That is a large spider."</li><li><em>Zounds</em>, the rent is due again already.</li><li>He drew his foam sword. "<em>Zounds</em>, villain, have at thee!"</li><li><em>Zounds</em> — I completely forgot about the dentist.</li><li>"<em>Zounds</em>," he said, reading the group chat, "you people never sleep."</li></ol>
+<p><strong>See also:</strong> <a href="#egad">egad</a>, <a href="#fie">fie</a>, <a href="02-surprise.html#zounds">zounds</a></p>
+<h2 id="trail-barnyard-and-salt-water-calls">Trail, barnyard, and salt-water calls<a class="hash" href="#trail-barnyard-and-salt-water-calls" aria-label="link">#</a></h2>
+<h3 id="ahoy">ahoy<a class="hash" href="#ahoy" aria-label="link">#</a></h3>
+<p><strong>Pronunciation:</strong> /əˈhɔɪ/ &middot; <em>uh-HOY</em> <strong>Type:</strong> primary &middot; <strong>Register:</strong> dated <strong>Variants:</strong> <em>ahoy there</em>, <em>ship ahoy</em>, <em>land ho</em>, <em>ahoy-hoy</em></p>
+<p>The sailor's hail, shouted across water to get another vessel's attention. On land it is pure play — a jokey hello, sometimes with a nod to Alexander Graham Bell, who wanted <em>ahoy-hoy</em> to be the standard telephone greeting.</p>
+<ol><li>"<em>Ahoy</em> there! Can you throw us a line?"</li><li><em>Ship ahoy</em> — two points off the starboard bow.</li><li>He stuck his head into the kitchen. "<em>Ahoy</em>, anybody making coffee?"</li><li><em>Ahoy-hoy</em>, this is Dave, leave a message.</li><li>"<em>Land ho!</em>" the lookout called, and everyone crowded to the rail.</li></ol>
+<p><strong>See also:</strong> <a href="#avast">avast</a>, <a href="#arr">arr</a>, <a href="09-greetings.html#ahoy">ahoy</a></p>
+<h3 id="arr">arr<a class="hash" href="#arr" aria-label="link">#</a></h3>
+<p><strong>Pronunciation:</strong> /ɑr/ &middot; <em>AR</em> <strong>Type:</strong> primary &middot; <strong>Register:</strong> informal <strong>Variants:</strong> <em>arrr</em>, <em>yarr</em>, <em>yarrr</em>, <em>arrgh</em></p>
+<p>The all-purpose pirate noise, a growled agreement, threat, or general seafaring punctuation. It is not historical sailor speech at all — it comes from Robert Newton's West Country accent in the 1950 film <em>Treasure Island</em> — and Americans use it only in costume, especially on Talk Like a Pirate Day.</p>
+<ol><li>"<em>Arr</em>, there be treasure in that spreadsheet."</li><li><em>Yarr</em>, ye scurvy dogs, back to work.</li><li>He put on the eye patch and growled, "<em>Arrr</em>."</li><li><em>Arr</em> — I'll take the last slice, matey.</li><li>"Did you finish the report?" "<em>Arr</em>, captain."</li></ol>
+<p><strong>See also:</strong> <a href="#avast">avast</a>, <a href="#ahoy">ahoy</a>, <a href="#yee-haw">yee-haw</a></p>
+<h3 id="avast">avast<a class="hash" href="#avast" aria-label="link">#</a></h3>
+<p><strong>Pronunciation:</strong> /əˈvæst/ &middot; <em>uh-VAST</em> <strong>Type:</strong> primary &middot; <strong>Register:</strong> dated <strong>Variants:</strong> <em>avast there</em>, <em>avast ye</em>, <em>avast, me hearties</em></p>
+<p>A genuine old sea command meaning <em>stop</em> or <em>hold fast</em>, from Dutch <em>houd vast</em>. Ashore it lives only in pirate imitation, where it usually opens a mock-order.</p>
+<ol><li>"<em>Avast</em>, ye landlubbers! Nobody touches the cake."</li><li><em>Avast</em> — belay that line before it runs out.</li><li>He held up a spatula. "<em>Avast there</em>, that's my grill."</li><li><em>Avast, me hearties</em>, the movie's starting.</li><li>"<em>Avast ye</em>," the tour guide said, entirely in character.</li></ol>
+<p><strong>See also:</strong> <a href="#ahoy">ahoy</a>, <a href="#arr">arr</a>, <a href="#whoa">whoa</a></p>
+<h3 id="gee">gee<a class="hash" href="#gee" aria-label="link">#</a></h3>
+<p><strong>Pronunciation:</strong> /dʒi/ &middot; <em>JEE</em> <strong>Type:</strong> primary &middot; <strong>Register:</strong> regional <strong>Variants:</strong> <em>gee up</em>, <em>gee haw</em>, <em>gee over</em></p>
+<p>The driver's command telling a horse, mule, or sled dog team to turn right. It pairs with <em>haw</em> for left, and the two survive in the country saying that someone <em>doesn't know gee from haw</em> — meaning they know nothing at all. This is a separate word from the mild exclamation <em>gee</em>, which is a shortened <em>Jesus</em>.</p>
+<ol><li>"<em>Gee!</em>" the teamster called, and the mules swung right.</li><li><em>Gee</em> — take the fork by the creek.</li><li>He whistled once and shouted <em>gee</em>, and the lead dog turned.</li><li>Old Bess knows <em>gee</em> and <em>haw</em> better than most drivers know their turn signals.</li><li>"That boy doesn't know <em>gee</em> from <em>haw</em>," Grandpa said, not unkindly.</li></ol>
+<p><strong>See also:</strong> <a href="#haw">haw</a>, <a href="#giddyup">giddyup</a>, <a href="#mush">mush</a></p>
+<h3 id="giddyup">giddyup<a class="hash" href="#giddyup" aria-label="link">#</a></h3>
+<p><strong>Pronunciation:</strong> /ˈɡɪdiˌʌp/ &middot; <em>GID-ee-up</em> <strong>Type:</strong> phrase &middot; <strong>Register:</strong> informal <strong>Variants:</strong> <em>giddy-up</em>, <em>giddyap</em>, <em>git up</em>, <em>hyah</em>, <em>giddyup now</em></p>
+<p><em>Get up</em>, worn smooth, said to a horse to make it start moving. Off the trail it has become a cheerful <em>let's get going</em>, sometimes with a slap on the table or a hand-slap on an imaginary flank.</p>
+<ol><li>"<em>Giddyup!</em>" she said, and the pony started down the path.</li><li>All right, team — coats on, shoes on, <em>giddyup</em>.</li><li>He finished his coffee, stood, and said, "<em>Giddyup</em>, we're burning daylight."</li><li><em>Giddyap</em>, boy, we've got ten miles to cover before dark.</li><li>The kid bounced on the couch cushion yelling <em>giddyup</em> at nobody in particular.</li></ol>
+<p><strong>See also:</strong> <a href="#gee">gee</a>, <a href="#whoa">whoa</a>, <a href="15-encouragement.html#giddyup">giddyup</a></p>
+<h3 id="haw">haw<a class="hash" href="#haw" aria-label="link">#</a></h3>
+<p><strong>Pronunciation:</strong> /hɔ/ &middot; <em>HAW</em> <strong>Type:</strong> primary &middot; <strong>Register:</strong> regional <strong>Variants:</strong> <em>haw now</em>, <em>gee haw</em>, <em>haw over</em></p>
+<p>The command for a left turn, the partner of <em>gee</em>. It belongs to plow horses, ox teams, and dogsleds, and outside farming and mushing communities most Americans know it only from the phrase <em>gee and haw</em>.</p>
+<ol><li>"<em>Haw!</em>" he called, and the team leaned into the turn.</li><li><em>Haw</em> — bring them around toward the barn.</li><li>The musher shouted <em>haw</em> and the sled swung left onto the river trail.</li><li>My grandfather could plow a straight row on nothing but <em>gee</em> and <em>haw</em>.</li><li>"<em>Haw</em>, now, easy," she said, steadying the plow handles.</li></ol>
+<p><strong>See also:</strong> <a href="#gee">gee</a>, <a href="#mush">mush</a>, <a href="#giddyup">giddyup</a></p>
+<h3 id="here-piggy">here piggy<a class="hash" href="#here-piggy" aria-label="link">#</a></h3>
+<p><strong>Pronunciation:</strong> /ˌhɪr ˈpɪɡi/ &middot; <em>heer-PIG-ee</em> <strong>Type:</strong> phrase &middot; <strong>Register:</strong> informal <strong>Variants:</strong> <em>here piggy piggy</em>, <em>here pig pig</em>, <em>sooey pig</em></p>
+<p>The sing-song call used to bring hogs to the trough, built on the same pattern as <em>here kitty kitty</em>. Americans mostly use it jokingly now — at a buffet, at a slow-moving friend, or at their own dog.</p>
+<ol><li>"<em>Here piggy piggy!</em>" the farmer called, banging the feed bucket.</li><li><em>Here piggy</em>, come on, breakfast.</li><li>He waved a doughnut at his brother. "<em>Here piggy piggy.</em>"</li><li><em>Here pig pig</em> — she's got apples for you.</li><li>"<em>Here piggy piggy</em>," my uncle sang as he carried the slop bucket to the pen.</li></ol>
+<p><strong>See also:</strong> <a href="#sooey">sooey</a>, <a href="#giddyup">giddyup</a>, <a href="#gee">gee</a></p>
+<h3 id="mush">mush<a class="hash" href="#mush" aria-label="link">#</a></h3>
+<p><strong>Pronunciation:</strong> /mʌʃ/ &middot; <em>MUSH</em> <strong>Type:</strong> primary &middot; <strong>Register:</strong> regional <strong>Variants:</strong> <em>mush on</em>, <em>mush, you huskies</em>, <em>hike</em></p>
+<p>The storybook command to start a dog team, probably worn down from French Canadian <em>marche</em>. Real Alaskan mushers usually shout <em>hike</em> or <em>all right</em> instead, so <em>mush</em> is best understood as the popular, literary version — and as a joke Americans make when they want someone to hurry.</p>
+<ol><li>"<em>Mush!</em>" he shouted, and the team leaned into the traces.</li><li><em>Mush on</em>, boys, we've got twenty miles to the checkpoint.</li><li>She grabbed the sled rope and yelled <em>mush</em> at her laughing kids.</li><li><em>Mush</em>, you huskies — it's a line from every dogsled movie ever made.</li><li>"Come on, <em>mush</em>," he told the dog, who did not move.</li></ol>
+<p><strong>See also:</strong> <a href="#gee">gee</a>, <a href="#haw">haw</a>, <a href="#giddyup">giddyup</a></p>
+<h3 id="sooey">sooey<a class="hash" href="#sooey" aria-label="link">#</a></h3>
+<p><strong>Pronunciation:</strong> /ˈsui/ &middot; <em>SOO-ee</em> <strong>Type:</strong> primary &middot; <strong>Register:</strong> regional <strong>Variants:</strong> <em>soo-ey</em>, <em>soo-ee</em>, <em>pig sooey</em>, <em>woo pig sooie</em></p>
+<p>The traditional hog call, hollered across a field to bring the pigs in. Its most famous outing is the Arkansas Razorback cheer <em>Woo Pig Sooie</em>, which is why the word now means football to as many Americans as it means livestock.</p>
+<ol><li>"<em>Sooey!</em> Come on now, <em>sooey</em>!"</li><li>He cupped his hands and let out a <em>sooey</em> you could hear two farms over.</li><li><em>Woo pig sooie</em> — the whole stadium calls it together.</li><li>Grandma could call the hogs with one <em>soo-ey</em> and a bucket.</li><li>"<em>Pig sooey</em>," the kid yelled, mostly to see how loud he could be.</li></ol>
+<p><strong>See also:</strong> <a href="#here-piggy">here piggy</a>, <a href="#yee-haw">yee-haw</a>, <a href="#whoo-wee">whoo-wee</a></p>
+<h3 id="whoa">whoa<a class="hash" href="#whoa" aria-label="link">#</a></h3>
+<p><strong>Pronunciation:</strong> /woʊ/ &middot; <em>WOH</em> <strong>Type:</strong> primary &middot; <strong>Register:</strong> informal <strong>Variants:</strong> <em>whoa there</em>, <em>whoa now</em>, <em>whoa Nelly</em>, <em>woah</em></p>
+<p>The command to stop a horse, and by extension the word Americans use to slow anybody down — a driver, a talker, or a plan getting ahead of itself. The horse sense is the folksy one; the same syllable also works as plain surprise, which is a separate use covered elsewhere. Note the spelling: <em>whoa</em> is standard and <em>woah</em> is a common misspelling.</p>
+<ol><li>"<em>Whoa</em>, girl," he said, easing back on the reins.</li><li><em>Whoa there</em> — nobody said anything about spending money.</li><li><em>Whoa Nelly</em>, that's a lot of paperwork for one permit.</li><li>He put a hand out. "<em>Whoa</em>, back up. Who told you that?"</li><li>"<em>Whoa now</em>," the farrier murmured, running a hand down the horse's leg.</li></ol>
+<p><strong>See also:</strong> <a href="#giddyup">giddyup</a>, <a href="#gee">gee</a>, <a href="02-surprise.html#whoa">whoa</a></p>
+<h3 id="yee-haw">yee-haw<a class="hash" href="#yee-haw" aria-label="link">#</a></h3>
+<p><strong>Pronunciation:</strong> /ˈjiˌhɔ/ &middot; <em>YEE-haw</em> <strong>Type:</strong> primary &middot; <strong>Register:</strong> informal <strong>Variants:</strong> <em>yeehaw</em>, <em>yee-hah</em>, <em>yee-hoo</em>, <em>ya-hoo</em></p>
+<p>The cowboy whoop of exhilaration, let out at rodeos, on dance floors, and any time a pickup truck goes over a hill too fast. Outside the West it is often used with a knowing grin, and <em>yee-haw</em> has become shorthand for country culture generally.</p>
+<ol><li>"<em>Yee-haw!</em>" he hollered as the truck bounced through the field.</li><li><em>Yee-haw</em>, school's out for the summer.</li><li>The band started up and half the room answered with a <em>yee-haw</em>.</li><li>She got the promotion and texted back a single <em>yeehaw</em>.</li><li>"<em>Yee-hah!</em>" the kid yelled, hanging onto the pony for dear life.</li></ol>
+<p><strong>See also:</strong> <a href="#whoo-wee">whoo-wee</a>, <a href="#hot-dog">hot dog</a>, <a href="01-joy.html#yee-haw">yee-haw</a></p>
+<h2 id="mid-century-slang-of-approval">Mid-century slang of approval<a class="hash" href="#mid-century-slang-of-approval" aria-label="link">#</a></h2>
+<h3 id="bees-knees">bee's knees<a class="hash" href="#bees-knees" aria-label="link">#</a></h3>
+<p><strong>Pronunciation:</strong> /ˌbiz ˈniz/ &middot; <em>beez-NEEZ</em> <strong>Type:</strong> phrase &middot; <strong>Register:</strong> dated <strong>Variants:</strong> <em>the bee's knees</em>, <em>the bees knees</em></p>
+<p>A 1920s verdict meaning <em>the very best</em>, from a fad for nonsense superlatives built out of animal parts. It is used as a one-phrase exclamation of approval, always with <em>the</em>, and always with a whiff of flapper costume.</p>
+<ol><li>"That new bakery? <em>The bee's knees.</em>"</li><li>She thinks her grandson is <em>the bee's knees</em>.</li><li><em>The bee's knees</em> — that's what my grandmother called anything she loved.</li><li>He tried the coffee, closed his eyes, and said, "<em>Bee's knees</em>."</li><li>Two dollars for a haircut and a shave? <em>The bee's knees.</em></li></ol>
+<p><strong>See also:</strong> <a href="#cats-pajamas">cat's pajamas</a>, <a href="#swell">swell</a>, <a href="#twenty-three-skidoo">twenty-three skidoo</a></p>
+<h3 id="cats-pajamas">cat's pajamas<a class="hash" href="#cats-pajamas" aria-label="link">#</a></h3>
+<p><strong>Pronunciation:</strong> /ˌkæts pəˈdʒɑməz/ or /ˌkæts pəˈdʒæməz/ &middot; <em>kats-puh-JAH-muz</em> or <em>kats-puh-JAM-uz</em> <strong>Type:</strong> phrase &middot; <strong>Register:</strong> dated <strong>Variants:</strong> <em>the cat's pajamas</em>, <em>the cat's meow</em>, <em>the cat's whiskers</em>, <em>cat's pyjamas</em></p>
+<p>The twin of <em>the bee's knees</em>, from the same 1920s craze, meaning something outstanding. <em>The cat's meow</em> is the equally common variant, and both are now used with deliberate old-timey charm.</p>
+<ol><li>"This milkshake is <em>the cat's pajamas</em>."</li><li>He thought that car was <em>the cat's meow</em>.</li><li><em>The cat's pajamas</em> — I've never heard anyone under seventy say it seriously.</li><li>"Oh, she's <em>the cat's whiskers</em>, that one," Grandpa said fondly.</li><li>New porch, new grill, new chairs — <em>the cat's pajamas</em>.</li></ol>
+<p><strong>See also:</strong> <a href="#bees-knees">bee's knees</a>, <a href="#swell">swell</a>, <a href="#peachy-keen">peachy keen</a></p>
+<h3 id="cool-beans">cool beans<a class="hash" href="#cool-beans" aria-label="link">#</a></h3>
+<p><strong>Pronunciation:</strong> /ˌkul ˈbinz/ &middot; <em>kool-BEENZ</em> <strong>Type:</strong> phrase &middot; <strong>Register:</strong> informal <strong>Variants:</strong> <em>cool beans, man</em>, <em>coolbeans</em></p>
+<p>A goofy, harmless <em>that's great</em>, popular from the late 1970s through the 1990s and now a mild dad-joke of a phrase. It answers good but low-stakes news.</p>
+<ol><li>"I got us a table at seven." "<em>Cool beans.</em>"</li><li><em>Cool beans</em>, I'll see you there.</li><li>She shrugged. "Free parking? <em>Cool beans</em>."</li><li>"<em>Cool beans</em>," he said, and everyone groaned at how dated he sounded.</li><li>The download finished early — <em>cool beans</em>.</li></ol>
+<p><strong>See also:</strong> <a href="#neato">neato</a>, <a href="#right-on">right on</a>, <a href="#swell">swell</a></p>
+<h3 id="far-out">far out<a class="hash" href="#far-out" aria-label="link">#</a></h3>
+<p><strong>Pronunciation:</strong> /ˌfɑr ˈaʊt/ &middot; <em>far-OWT</em> <strong>Type:</strong> phrase &middot; <strong>Register:</strong> dated <strong>Variants:</strong> <em>faaar out</em>, <em>way out</em>, <em>far-out</em></p>
+<p>Counterculture approval from the late 1960s, meaning wonderfully strange or just wonderful. It is drawn out when spoken, and using it today marks you as either very old or very ironic.</p>
+<ol><li>"They're playing the whole album live?" "<em>Far out.</em>"</li><li><em>Far out</em>, man, I had no idea you played bass.</li><li>He looked at the mural for a long moment. "<em>Faaar out.</em>"</li><li><em>Far out</em> — she biked across the entire state.</li><li>The whole festival was a <em>far-out</em> scene, top to bottom.</li></ol>
+<p><strong>See also:</strong> <a href="#groovy">groovy</a>, <a href="#outta-sight">outta sight</a>, <a href="#right-on">right on</a></p>
+<h3 id="groovy">groovy<a class="hash" href="#groovy" aria-label="link">#</a></h3>
+<p><strong>Pronunciation:</strong> /ˈɡruvi/ &middot; <em>GROO-vee</em> <strong>Type:</strong> secondary &middot; <strong>Register:</strong> dated <strong>Variants:</strong> <em>groovy baby</em>, <em>real groovy</em></p>
+<p>The definitive 1960s word for excellent, from jazz musicians playing <em>in the groove</em>. Nobody says it straight anymore; it now signals either nostalgia or a joke about hippies.</p>
+<ol><li>"Dinner at seven?" "<em>Groovy.</em>"</li><li><em>Groovy</em>, I'll bring the record player.</li><li>She'd painted the whole van orange. "<em>Groovy</em>," he said, meaning it.</li><li><em>Groovy</em> — we've got the place to ourselves all weekend.</li><li>"That is one <em>groovy</em> shirt, Dad."</li></ol>
+<p><strong>See also:</strong> <a href="#far-out">far out</a>, <a href="#outta-sight">outta sight</a>, <a href="01-joy.html#groovy">groovy</a></p>
+<h3 id="hubba-hubba">hubba hubba<a class="hash" href="#hubba-hubba" aria-label="link">#</a></h3>
+<p><strong>Pronunciation:</strong> /ˈhʌbə ˈhʌbə/ &middot; <em>HUB-uh-HUB-uh</em> <strong>Type:</strong> primary &middot; <strong>Register:</strong> dated <strong>Variants:</strong> <em>hubba-hubba</em>, <em>hubba</em></p>
+<p>A World War II-era noise of open admiration, originally hollered by soldiers at a passing woman. It is now used almost entirely as a joke — often about food or a nice suit — because the leering original is genuinely unwelcome; do not aim it at a stranger.</p>
+<ol><li>"<em>Hubba hubba</em>, look at that pie."</li><li>He came downstairs in the tuxedo and his wife said, "<em>Hubba hubba</em>."</li><li><em>Hubba hubba</em> — somebody bought a new truck.</li><li>She modeled the dress for her friends, who all went <em>hubba hubba</em>.</li><li>"<em>Hubba hubba</em>," the old sailor said, and immediately apologized for it.</li></ol>
+<p><strong>See also:</strong> <a href="#whoo-wee">whoo-wee</a>, <a href="#hot-dog">hot dog</a>, <a href="#swell">swell</a></p>
+<h3 id="neato">neato<a class="hash" href="#neato" aria-label="link">#</a></h3>
+<p><strong>Pronunciation:</strong> /ˈnitoʊ/ &middot; <em>NEE-toh</em> <strong>Type:</strong> secondary &middot; <strong>Register:</strong> dated <strong>Variants:</strong> <em>neat-o</em>, <em>neato burrito</em>, <em>neat-o keen</em>, <em>neat</em></p>
+<p>A 1950s and 60s children's word for <em>cool</em>, still spoken by adults who want to sound cheerfully square. The rhyming extension <em>neato burrito</em> is playground-grade silly.</p>
+<ol><li>"<em>Neato</em>, a whole box of comics."</li><li><em>Neato burrito</em>, they've got waffle fries.</li><li>He watched the drone lift off. "<em>Neato</em>."</li><li><em>Neato</em> — I didn't know the library did that.</li><li>"Look, the fish are blue." "<em>Neat-o.</em>"</li></ol>
+<p><strong>See also:</strong> <a href="#cool-beans">cool beans</a>, <a href="#peachy-keen">peachy keen</a>, <a href="#swell">swell</a></p>
+<h3 id="outta-sight">outta sight<a class="hash" href="#outta-sight" aria-label="link">#</a></h3>
+<p><strong>Pronunciation:</strong> /ˌaʊtə ˈsaɪt/ &middot; <em>OW-tuh-SYTE</em> <strong>Type:</strong> phrase &middot; <strong>Register:</strong> dated <strong>Variants:</strong> <em>out of sight</em>, <em>outasight</em></p>
+<p>Late-1960s and 70s praise meaning so good it is beyond looking at. It belongs to the same soul-and-hippie vocabulary as <em>far out</em> and <em>right on</em>, and it is said with a rising, delighted tone.</p>
+<ol><li>"The band was <em>outta sight</em>."</li><li><em>Out of sight</em> — you got front-row seats?</li><li>He tasted the sauce and said, "<em>Outta sight</em>, man."</li><li><em>Outta sight</em>, they're paying for the whole trip.</li><li>"Your new place is <em>out of sight</em>," she said, spinning around the living room.</li></ol>
+<p><strong>See also:</strong> <a href="#far-out">far out</a>, <a href="#groovy">groovy</a>, <a href="#right-on">right on</a></p>
+<h3 id="peachy-keen">peachy keen<a class="hash" href="#peachy-keen" aria-label="link">#</a></h3>
+<p><strong>Pronunciation:</strong> /ˌpitʃi ˈkin/ &middot; <em>pee-chee-KEEN</em> <strong>Type:</strong> phrase &middot; <strong>Register:</strong> dated <strong>Variants:</strong> <em>peachy</em>, <em>keen</em>, <em>just peachy</em>, <em>peachy keen jelly bean</em></p>
+<p>A 1950s way of saying <em>wonderful</em>, wholesome enough for a soda fountain. Watch the tone: <em>just peachy</em> is almost always sarcastic in modern American speech, meaning things are going badly.</p>
+<ol><li>"How was the interview?" "<em>Peachy keen.</em>"</li><li><em>Keen!</em> A new bike for my birthday!</li><li>Everything's <em>just peachy</em> — the car won't start and it's raining.</li><li>She said the arrangement was <em>peachy keen</em> with her.</li><li>"<em>Peachy keen, jelly bean</em>," my aunt says whenever anything works out.</li></ol>
+<p><strong>See also:</strong> <a href="#swell">swell</a>, <a href="#neato">neato</a>, <a href="#cool-beans">cool beans</a></p>
+<h3 id="right-on">right on<a class="hash" href="#right-on" aria-label="link">#</a></h3>
+<p><strong>Pronunciation:</strong> /ˌraɪt ˈɔn/ &middot; <em>rite-AWN</em> <strong>Type:</strong> phrase &middot; <strong>Register:</strong> informal <strong>Variants:</strong> <em>right on, man</em>, <em>right on right on</em></p>
+<p>Emphatic agreement and solidarity, out of Black American speech and into the counterculture of the late 1960s. It says <em>yes, exactly, I'm with you</em>, and it often comes with a raised fist or a nod.</p>
+<ol><li>"We're not paying for parking twice." "<em>Right on.</em>"</li><li><em>Right on</em>, man, that's what I've been saying all along.</li><li>He heard the plan and just said, "<em>Right on</em>."</li><li><em>Right on</em> — glad somebody finally said it out loud.</li><li>"You quit? <em>Right on</em>," she said, high-fiving him.</li></ol>
+<p><strong>See also:</strong> <a href="#far-out">far out</a>, <a href="#outta-sight">outta sight</a>, <a href="11-agreement.html#right-on">right on</a></p>
+<h3 id="swell">swell<a class="hash" href="#swell" aria-label="link">#</a></h3>
+<p><strong>Pronunciation:</strong> /swɛl/ &middot; <em>SWEL</em> <strong>Type:</strong> secondary &middot; <strong>Register:</strong> dated <strong>Variants:</strong> <em>just swell</em>, <em>swell guy</em>, <em>oh swell</em></p>
+<p>The all-American word for <em>great</em> from roughly 1900 to 1955, still instantly readable and still faintly black-and-white. Modern speakers use it either fondly or, very often, sarcastically: <em>oh, that's just swell</em> means the opposite of swell.</p>
+<ol><li>"<em>Swell!</em> I'll pick you up at six."</li><li>That's a <em>swell</em> idea — let's do it.</li><li>Flat tire in the rain. "Oh, <em>swell</em>."</li><li>He's a <em>swell</em> guy once you get to know him.</li><li>"How's the new job?" "<em>Just swell</em>," she said flatly, and changed the subject.</li></ol>
+<p><strong>See also:</strong> <a href="#peachy-keen">peachy keen</a>, <a href="#bees-knees">bee's knees</a>, <a href="#neato">neato</a></p>
+<h3 id="twenty-three-skidoo">twenty-three skidoo<a class="hash" href="#twenty-three-skidoo" aria-label="link">#</a></h3>
+<p><strong>Pronunciation:</strong> /ˌtwɛnti θri skɪˈdu/ &middot; <em>twen-tee-three-skih-DOO</em> <strong>Type:</strong> phrase &middot; <strong>Register:</strong> dated <strong>Variants:</strong> <em>23 skidoo</em>, <em>skidoo</em>, <em>skiddoo</em></p>
+<p>A 1920s catchphrase meaning <em>let's get out of here</em> or <em>scram</em>, often told as a story about wind and short skirts at the Flatiron Building. It is now the single most museum-piece phrase in American slang, understood by everyone and used sincerely by no one.</p>
+<ol><li>"Cops are coming — <em>twenty-three skidoo</em>!"</li><li><em>23 skidoo</em>, we're not sticking around for the speeches.</li><li>He grabbed his hat. "<em>Skidoo</em>, boys."</li><li><em>Twenty-three skidoo</em> — that's my entire impression of the 1920s.</li><li>"<em>Skiddoo</em>," the bartender said, jerking a thumb toward the door.</li></ol>
+<p><strong>See also:</strong> <a href="#bees-knees">bee's knees</a>, <a href="#cats-pajamas">cat's pajamas</a>, <a href="10-attention.html#vamoose">vamoose</a></p>
+<h2 id="local-badges-words-that-place-you-on-the-map">Local badges: words that place you on the map<a class="hash" href="#local-badges-words-that-place-you-on-the-map" aria-label="link">#</a></h2>
+<h3 id="hella">hella<a class="hash" href="#hella" aria-label="link">#</a></h3>
+<p><strong>Pronunciation:</strong> /ˈhɛlə/ &middot; <em>HEL-uh</em> <strong>Type:</strong> secondary &middot; <strong>Register:</strong> regional <strong>Variants:</strong> <em>hecka</em>, <em>hella good</em>, <em>hells of</em></p>
+<p>Northern California's homegrown intensifier, from <em>hell of a</em>, meaning <em>very</em> or <em>a lot of</em>. It works mostly in front of another word (<em>hella good</em>, <em>hella people</em>), but Bay Area speakers also fire it off alone as a one-word <em>absolutely</em>. The clean version <em>hecka</em> is what kids say in front of teachers.</p>
+<ol><li>"Was the line long?" "<em>Hella.</em>"</li><li>That burrito was <em>hella</em> good.</li><li>There were <em>hella</em> people at the beach on Saturday.</li><li><em>Hella</em> — I've been saying that since middle school and I'm not stopping.</li><li>"It's <em>hecka</em> cold in here," she said, borrowing his jacket.</li></ol>
+<p><strong>See also:</strong> <a href="#wicked">wicked</a>, <a href="#you-betcha">you betcha</a>, <a href="#right-on">right on</a></p>
+<h3 id="jeet">jeet<a class="hash" href="#jeet" aria-label="link">#</a></h3>
+<p><strong>Pronunciation:</strong> /dʒit/ &middot; <em>JEET</em> <strong>Type:</strong> phrase &middot; <strong>Register:</strong> regional <strong>Variants:</strong> <em>jeet yet</em>, <em>jeetjet</em>, <em>djeet</em></p>
+<p><em>Did you eat?</em>, run together until it is a single syllable — a conversational opener in Pittsburgh, Philadelphia, and across the South and Midwest. The traditional reply compresses the same way: <em>no, joo?</em> for <em>did you?</em> Write it out only when you are transcribing dialect on purpose.</p>
+<ol><li>"<em>Jeet</em> yet?" "Naw, joo?"</li><li>He walked in the door and the first thing his mother said was "<em>Jeet</em>?"</li><li><em>Jeet</em> already, or should I put a plate together?</li><li>"<em>Jeetjet</em>?" is a whole Pittsburgh greeting in one syllable.</li><li>My grandfather's version of hello was "<em>Jeet</em>, hon?"</li></ol>
+<p><strong>See also:</strong> <a href="#yall">y'all</a>, <a href="#ope">ope</a>, <a href="#howdy">howdy</a></p>
+<h3 id="ope">ope<a class="hash" href="#ope" aria-label="link">#</a></h3>
+<p><strong>Pronunciation:</strong> /oʊp/ &middot; <em>OHP</em> <strong>Type:</strong> primary &middot; <strong>Register:</strong> regional <strong>Variants:</strong> <em>ope, sorry</em>, <em>ope, lemme just squeeze past ya</em></p>
+<p>A clipped, swallowed <em>oh</em> that Midwesterners emit on any small collision with the world — bumping a cart, dropping a fork, or needing to get past someone. It is an apology, a startle, and a social lubricant all at once, and it is the single most reliable Midwestern tell.</p>
+<ol><li>"<em>Ope</em>, sorry, didn't see you there."</li><li><em>Ope</em> — let me just sneak right past ya.</li><li>He knocked the pen off the counter. "<em>Ope.</em>"</li><li><em>Ope</em>, that's my phone ringing.</li><li>"<em>Ope</em>, I think I took your coffee," she said, swapping the cups back.</li></ol>
+<p><strong>See also:</strong> <a href="#uff-da">uff da</a>, <a href="#you-betcha">you betcha</a>, <a href="02-surprise.html#ope">ope</a></p>
+<h3 id="uff-da">uff da<a class="hash" href="#uff-da" aria-label="link">#</a></h3>
+<p><strong>Pronunciation:</strong> /ˈʊf dɑ/ &middot; <em>UUF-dah</em> <strong>Type:</strong> primary &middot; <strong>Register:</strong> regional <strong>Variants:</strong> <em>uffda</em>, <em>uff-da</em>, <em>oofta</em>, <em>oofda</em></p>
+<p>A Norwegian import that settled in Minnesota, the Dakotas, and Wisconsin, covering everything a sigh covers: fatigue, sympathy, mild disgust, and being overwhelmed. The first vowel is the short one in <em>book</em>, not the one in <em>cuff</em>. It is the Upper Midwest's all-purpose release valve, printed on more bumper stickers than any other word in the region.</p>
+<ol><li>"<em>Uff da</em>, that was a long drive."</li><li>Forty below with the wind chill? <em>Uff da</em>.</li><li>She lifted the casserole dish out of the oven. "<em>Uff da</em>, that's heavy."</li><li><em>Uff da</em> — I ate way too much lefse.</li><li>"He backed into the mailbox again?" "<em>Oofta</em>."</li></ol>
+<p><strong>See also:</strong> <a href="#ope">ope</a>, <a href="#you-betcha">you betcha</a>, <a href="03-pain.html#uff-da">uff da</a></p>
+<h3 id="wicked">wicked<a class="hash" href="#wicked" aria-label="link">#</a></h3>
+<p><strong>Pronunciation:</strong> /ˈwɪkɪd/ &middot; <em>WIK-id</em> <strong>Type:</strong> secondary &middot; <strong>Register:</strong> regional <strong>Variants:</strong> <em>wicked good</em>, <em>wicked pissah</em>, <em>wicked awesome</em></p>
+<p>New England's intensifier, meaning <em>very</em> — <em>wicked good</em>, <em>wicked cold</em>, <em>wicked far</em>. Boston and Maine speakers also use it alone as a shout of approval, roughly <em>awesome</em>. Note that in the intensifier use it does not mean evil at all, and it stays an adverb: <em>wicked good</em>, never <em>wicked well</em>.</p>
+<ol><li>"They won in overtime." "<em>Wicked.</em>"</li><li>That chowder is <em>wicked</em> good.</li><li>It's <em>wicked</em> cold out on the water this morning.</li><li><em>Wicked</em> — my cousin got us into the game for free.</li><li>"The new bridge is <em>wicked</em> pissah," he said, which is about as Boston as a sentence gets.</li></ol>
+<p><strong>See also:</strong> <a href="#hella">hella</a>, <a href="#cool-beans">cool beans</a>, <a href="#right-on">right on</a></p>
+<h3 id="you-betcha">you betcha<a class="hash" href="#you-betcha" aria-label="link">#</a></h3>
+<p><strong>Pronunciation:</strong> /ˌju ˈbɛtʃə/ &middot; <em>yoo-BETCH-uh</em> <strong>Type:</strong> phrase &middot; <strong>Register:</strong> regional <strong>Variants:</strong> <em>ya betcha</em>, <em>you betcha by golly</em>, <em>oh you betcha</em></p>
+<p>Hearty Upper Midwestern agreement, meaning <em>yes, absolutely</em> and also serving as a cheerful <em>you're welcome</em>. Fargo and a generation of Minnesota politicians have made it the region's signature phrase, so outside the Midwest it often comes with an accent attached.</p>
+<ol><li>"Can you have it done by Friday?" "<em>You betcha.</em>"</li><li>Thanks for the ride. "<em>Oh, you betcha</em>, anytime."</li><li><em>Ya betcha</em> we're going to the lake this weekend.</li><li>"Cold enough for ya?" "<em>You betcha</em> it is."</li><li>She answered every request with a <em>you betcha</em> and a smile.</li></ol>
+<p><strong>See also:</strong> <a href="#uff-da">uff da</a>, <a href="#ope">ope</a>, <a href="11-agreement.html#you-bet">you bet</a></p>
+<h2 id="yiddish-american">Yiddish-American<a class="hash" href="#yiddish-american" aria-label="link">#</a></h2>
+<h3 id="bubkes">bubkes<a class="hash" href="#bubkes" aria-label="link">#</a></h3>
+<p><strong>Pronunciation:</strong> /ˈbʌpkəs/ &middot; <em>BUP-kus</em> <strong>Type:</strong> secondary &middot; <strong>Register:</strong> informal <strong>Variants:</strong> <em>bupkis</em>, <em>bupkes</em>, <em>bubkis</em>, <em>bopkes</em></p>
+<p>Yiddish for <em>nothing at all</em>, literally goat droppings, used as a scornful one-word verdict on a payout, an effort, or a result. It carries a shrug and a sneer, and it is understood far beyond New York.</p>
+<ol><li>"What did you get out of the settlement?" "<em>Bubkes.</em>"</li><li>We searched all afternoon and found <em>bupkis</em>.</li><li>He worked there twelve years and they gave him <em>bubkes</em>.</li><li><em>Bupkis</em> — that's what her research turned up.</li><li>"Any news?" "<em>Bubkes</em>. Not a word."</li></ol>
+<p><strong>See also:</strong> <a href="#feh">feh</a>, <a href="#oy-vey">oy vey</a>, <a href="#nu">nu</a></p>
+<h3 id="feh">feh<a class="hash" href="#feh" aria-label="link">#</a></h3>
+<p><strong>Pronunciation:</strong> /fɛ/ &middot; <em>FEH</em> <strong>Type:</strong> primary &middot; <strong>Register:</strong> informal <strong>Variants:</strong> <em>feh!</em>, <em>fe</em></p>
+<p>A short Yiddish puff of contempt, aimed at something distasteful, cheap, or beneath comment. It is smaller and drier than <em>ugh</em> — a dismissal rather than a reaction.</p>
+<ol><li>"<em>Feh.</em> I wouldn't eat that on a dare."</li><li>Reality television? <em>Feh</em>.</li><li>She looked at the price tag and said, "<em>Feh</em>, for this?"</li><li><em>Feh</em> — he's been telling that same story for thirty years.</li><li>"How was the movie?" "<em>Feh.</em>"</li></ol>
+<p><strong>See also:</strong> <a href="#bubkes">bubkes</a>, <a href="#nu">nu</a>, <a href="04-disgust.html#feh">feh</a></p>
+<h3 id="nu">nu<a class="hash" href="#nu" aria-label="link">#</a></h3>
+<p><strong>Pronunciation:</strong> /nu/ &middot; <em>NOO</em> <strong>Type:</strong> primary &middot; <strong>Register:</strong> informal <strong>Variants:</strong> <em>nu?</em>, <em>nu nu</em>, <em>so nu</em></p>
+<p>A Yiddish prod meaning <em>well?</em>, <em>so?</em>, or <em>and then what?</em> Said with a rising tone, it asks someone to get on with the story or to justify themselves; said flat, it is a resigned <em>so it goes</em>.</p>
+<ol><li>"<em>Nu?</em> What did the doctor say?"</li><li><em>Nu</em>, are we ordering or are we just going to read the menu all night?</li><li>He stood in the doorway with his hands up. "<em>Nu?</em>"</li><li>So the car broke down, <em>nu</em>, these things happen.</li><li>"<em>Nu</em>, so tell me already — did she say yes?"</li></ol>
+<p><strong>See also:</strong> <a href="#oy">oy</a>, <a href="#feh">feh</a>, <a href="#bubkes">bubkes</a></p>
+<h3 id="oy">oy<a class="hash" href="#oy" aria-label="link">#</a></h3>
+<p><strong>Pronunciation:</strong> /ɔɪ/ &middot; <em>OY</em> <strong>Type:</strong> primary &middot; <strong>Register:</strong> informal <strong>Variants:</strong> <em>oy oy oy</em>, <em>oy yoy yoy</em>, <em>oy, oy</em></p>
+<p>The basic Yiddish groan, carried into general American English through New York. It handles weariness, mild pain, worry, and comic despair, and stretching it out (<em>oy yoy yoy</em>) stretches the feeling to match.</p>
+<ol><li>"<em>Oy</em>, my back."</li><li><em>Oy</em>, three more forms to fill out.</li><li>She looked at the pile of dishes and said, "<em>Oy oy oy</em>."</li><li><em>Oy</em> — don't remind me about the tax deadline.</li><li>"<em>Oy yoy yoy</em>, what a day," he said, dropping into the chair.</li></ol>
+<p><strong>See also:</strong> <a href="#oy-vey">oy vey</a>, <a href="#oy-gevalt">oy gevalt</a>, <a href="03-pain.html#oy">oy</a></p>
+<h3 id="oy-gevalt">oy gevalt<a class="hash" href="#oy-gevalt" aria-label="link">#</a></h3>
+<p><strong>Pronunciation:</strong> /ˌɔɪ ɡəˈvɑlt/ &middot; <em>oy-guh-VAHLT</em> <strong>Type:</strong> phrase &middot; <strong>Register:</strong> informal <strong>Variants:</strong> <em>gevalt</em>, <em>oy gevald</em>, <em>gevalt geshrign</em></p>
+<p>The alarmed cousin of <em>oy vey</em>: <em>gevalt</em> is Yiddish for force or violence, and the phrase amounts to a cry for help. It marks genuine shock or a disaster in progress, not just weariness.</p>
+<ol><li>"<em>Oy gevalt</em>, the basement is flooding!"</li><li><em>Gevalt</em> — he told them what?</li><li>She saw the dented fender and said, "<em>Oy gevalt</em>, my father is going to kill me."</li><li><em>Oy gevalt</em>, they've canceled the flight and the next one's tomorrow.</li><li>"<em>Oy gevalt</em>," the rabbi said, "who scheduled two weddings on the same afternoon?"</li></ol>
+<p><strong>See also:</strong> <a href="#oy-vey">oy vey</a>, <a href="#oy">oy</a>, <a href="#bubkes">bubkes</a></p>
+<h3 id="oy-vey">oy vey<a class="hash" href="#oy-vey" aria-label="link">#</a></h3>
+<p><strong>Pronunciation:</strong> /ˌɔɪ ˈveɪ/ &middot; <em>oy-VAY</em> <strong>Type:</strong> phrase &middot; <strong>Register:</strong> informal <strong>Variants:</strong> <em>oy vey iz mir</em>, <em>oi vey</em>, <em>oy veh</em>, <em>oy vay</em></p>
+<p><em>Oh, woe</em> — the full form of the groan, used for troubles large and small. The extended <em>oy vey iz mir</em> (<em>oh, woe is me</em>) turns up the drama, usually with humor attached, and the whole family of phrases now belongs to American English generally, not only to Jewish speakers.</p>
+<ol><li>"<em>Oy vey</em>, another meeting about the meeting."</li><li><em>Oy vey iz mir</em>, the car won't start again.</li><li>He read the group chat and muttered, "<em>Oy vey</em>."</li><li><em>Oy vey</em> — she invited all four of her ex-husbands to the party.</li><li>"Traffic on the bridge, construction on the tunnel. <em>Oy vey</em>."</li></ol>
+<p><strong>See also:</strong> <a href="#oy">oy</a>, <a href="#oy-gevalt">oy gevalt</a>, <a href="06-sadness.html#oy-vey">oy vey</a></p></div></main>
+<button class="themebtn" id="themeBtn">Dark</button>
+<script>
+const tb=document.getElementById('themeBtn');
+function setTheme(x){document.documentElement.dataset.theme=x;tb.textContent=x==='dark'?'Light':'Dark';
+ try{localStorage.setItem('site-theme',x)}catch(e){}}
+tb.onclick=()=>setTheme(document.documentElement.dataset.theme==='dark'?'light':'dark');
+try{const s=localStorage.getItem('site-theme');
+ setTheme(s||(matchMedia('(prefers-color-scheme: dark)').matches?'dark':'light'))}catch(e){setTheme('light')}
+</script></body></html>

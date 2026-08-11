@@ -1,0 +1,512 @@
+<!DOCTYPE html>
+<html lang="en"><head>
+<meta charset="utf-8"><meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Onomatopoeia and sound effects used as interjections</title>
+<style>
+:root{--bg:#faf9f7;--surface:#fff;--surface2:#f2f0ec;--border:#e2ded6;--text:#1a1815;
+--dim:#5f594f;--faint:#8a8377;--accent:#b4552a;--measure:72ch}
+@media(prefers-color-scheme:dark){:root{--bg:#14140f;--surface:#1d1d17;--surface2:#25251d;
+--border:#33332a;--text:#eeeae1;--dim:#a8a293;--faint:#7d776b;--accent:#e8935f}}
+:root[data-theme=dark]{--bg:#14140f;--surface:#1d1d17;--surface2:#25251d;--border:#33332a;
+--text:#eeeae1;--dim:#a8a293;--faint:#7d776b;--accent:#e8935f}
+:root[data-theme=light]{--bg:#faf9f7;--surface:#fff;--surface2:#f2f0ec;--border:#e2ded6;
+--text:#1a1815;--dim:#5f594f;--faint:#8a8377;--accent:#b4552a}
+*{box-sizing:border-box}
+body{margin:0;background:var(--bg);color:var(--text);
+font:17px/1.72 ui-serif,Georgia,"Iowan Old Style",Palatino,serif;-webkit-font-smoothing:antialiased}
+.ui{font-family:-apple-system,BlinkMacSystemFont,"Segoe UI",Inter,Roboto,sans-serif}
+.wrap{max-width:min(var(--measure),100%);margin:0 auto;padding:0 22px}
+nav.crumb{border-bottom:1px solid var(--border);padding:13px 0;font-size:13.5px;
+font-family:-apple-system,sans-serif;position:sticky;top:0;background:var(--bg);z-index:20}
+nav.crumb .wrap{max-width:none;display:flex;gap:9px;align-items:center;flex-wrap:wrap}
+nav.crumb a{color:var(--dim);text-decoration:none}
+nav.crumb a:hover{color:var(--accent)}
+nav.crumb .sep{color:var(--faint)}
+main{padding:8px 0 80px}
+h1{font-size:clamp(28px,5vw,38px);line-height:1.15;letter-spacing:-.015em;margin:34px 0 18px}
+h2{font-size:25px;margin:46px 0 14px;letter-spacing:-.01em;padding-bottom:7px;border-bottom:1px solid var(--border)}
+h3{font-size:19px;margin:34px 0 10px;color:var(--accent)}
+h4{font-size:16px;margin:24px 0 8px;font-family:-apple-system,sans-serif}
+p{margin:0 0 16px}
+a{color:var(--accent)}
+.hash{opacity:0;margin-left:8px;font-weight:400;font-size:.65em;text-decoration:none;color:var(--faint)}
+h2:hover .hash,h3:hover .hash{opacity:1}
+blockquote{margin:0 0 20px;padding:14px 18px;background:var(--surface2);
+border-left:3px solid var(--accent);border-radius:0 8px 8px 0}
+blockquote p:last-child{margin-bottom:0}
+ol,ul{margin:0 0 18px;padding-left:26px}
+li{margin-bottom:8px}
+li>ul,li>ol{margin:8px 0 0}
+code{font-family:ui-monospace,SFMono-Regular,Menlo,Consolas,monospace;font-size:.87em;
+background:var(--surface2);padding:1px 5px;border-radius:4px}
+pre{background:var(--surface2);border:1px solid var(--border);border-radius:9px;
+padding:15px 17px;overflow-x:auto;margin:0 0 20px}
+pre code{background:none;padding:0;font-size:13px;line-height:1.6}
+.tw{overflow-x:auto;margin:0 0 22px;border:1px solid var(--border);border-radius:9px}
+table{border-collapse:collapse;width:100%;font-size:15px;
+font-family:-apple-system,BlinkMacSystemFont,"Segoe UI",sans-serif}
+th,td{padding:10px 14px;border-bottom:1px solid var(--border);vertical-align:top}
+th{background:var(--surface2);font-size:12px;text-transform:uppercase;
+letter-spacing:.06em;color:var(--dim);font-weight:700;white-space:nowrap}
+tbody tr:last-child td{border-bottom:none}
+hr{border:none;border-top:1px solid var(--border);margin:38px 0}
+details{background:var(--surface2);border:1px solid var(--border);border-radius:9px;
+padding:13px 17px;margin:0 0 20px}
+summary{cursor:pointer;font-weight:600;font-family:-apple-system,sans-serif;font-size:15px}
+details[open] summary{margin-bottom:12px}
+del{color:var(--faint)}
+.toc{background:var(--surface2);border:1px solid var(--border);border-radius:10px;
+padding:16px 20px;margin:26px 0 34px;font-family:-apple-system,sans-serif;font-size:14px}
+.toc b{display:block;font-size:11px;letter-spacing:.12em;text-transform:uppercase;
+color:var(--faint);margin-bottom:9px}
+.toc a{display:block;padding:3px 0;color:var(--dim);text-decoration:none}
+.toc a:hover{color:var(--accent)}
+.toc a.l3{padding-left:16px;font-size:13.5px}
+.themebtn{position:fixed;right:18px;bottom:18px;z-index:60;font-family:-apple-system,sans-serif;
+font-size:12.5px;font-weight:600;cursor:pointer;background:var(--surface);border:1px solid var(--border);
+border-radius:99px;padding:9px 16px;color:var(--text)}
+@media(max-width:600px){body{font-size:16px}.wrap{padding:0 17px}}
+</style></head><body>
+<nav class="crumb"><div class="wrap"><a href="../../../index.html">Learn English</a><span class="sep">/</span><a href="../../README.html">Parts of speech</a><span class="sep">/</span><a href="../README.html">08-interjections</a><span class="sep">/</span><span>catalog</span></div></nav>
+<main><div class="wrap"><div class="toc"><b>On this page</b><a class="l2" href="#impacts-hits-and-crashes">Impacts, hits, and crashes</a><a class="l2" href="#water-liquid-and-cooking">Water, liquid, and cooking</a><a class="l2" href="#eating-drinking-and-mouth-sounds">Eating, drinking, and mouth sounds</a><a class="l2" href="#involuntary-body-sounds">Involuntary body sounds</a><a class="l2" href="#laughs-and-kisses">Laughs and kisses</a><a class="l2" href="#machines-alarms-and-everyday-noises">Machines, alarms, and everyday noises</a><a class="l2" href="#speed-motion-and-energy">Speed, motion, and energy</a><a class="l2" href="#musical-stings-and-comic-timing">Musical stings and comic timing</a><a class="l2" href="#animal-noises">Animal noises</a></div><h1 id="onomatopoeia-and-sound-effects-used-as-interjections">Onomatopoeia and sound effects used as interjections<a class="hash" href="#onomatopoeia-and-sound-effects-used-as-interjections" aria-label="link">#</a></h1>
+<blockquote><p>The words that <em>are</em> the noise — bang, splash, meow — dropped into a sentence to play a sound back instead of describing it.</p></blockquote>
+<p><a href="../README.html">← Back to the interjections index</a> &middot; <a href="README.html">All categories</a></p>
+<p>What unites this group is that the word does not name a sound so much as perform one, which is why a speaker can drop it into a story with no verb, no article, and no apology. Because they are imitations, their spelling is elastic: vowels stretch to show how long the noise lasted (<em>vroooom</em>), the whole thing repeats to show it happened more than once (<em>beep beep beep</em>), and many take a comic <em>ka-</em> or <em>ker-</em> prefix that packs the fall or the blast into the word itself (<em>kaboom</em>, <em>kerplop</em>). Most of them work three ways at once — as a bare sound effect, as a stage direction dropped into a story, and as narration of what your own body or face is doing (<em>gulp</em>, <em>snort</em>, <em>mmm</em>). Punctuation follows the noise rather than the grammar: an exclamation point for impact, periods or ellipses for something slow or fading, and commas only where a speaker would really pause.</p>
+<h2 id="impacts-hits-and-crashes">Impacts, hits, and crashes<a class="hash" href="#impacts-hits-and-crashes" aria-label="link">#</a></h2>
+<h3 id="bang">bang<a class="hash" href="#bang" aria-label="link">#</a></h3>
+<p><strong>Pronunciation:</strong> /bæŋ/ &middot; <em>BANG</em> <strong>Type:</strong> onomatopoeic &middot; <strong>Register:</strong> informal <strong>Variants:</strong> <em>bang bang</em>, <em>baaang</em>, <em>ka-bang</em></p>
+<p>The sound of a gunshot, a slammed door, or anything hard meeting anything hard. As an interjection it is almost always narration — you say it to replay the moment for your listener — and doubled up it is how Americans of every age imitate gunfire.</p>
+<ol><li>He came around the corner and — <em>bang</em> — right into a parked car.</li><li>"<em>Bang bang</em>," the kid said, pointing two fingers at his brother.</li><li>I heard a <em>bang</em> from the garage and my heart stopped.</li><li>You slam that trunk, <em>bang</em>, and the alarm goes off every time.</li><li><em>Bang!</em> The screen door shut behind her before I could answer.</li></ol>
+<p><strong>See also:</strong> <a href="#boom">boom</a>, <a href="#crash">crash</a>, <a href="#pow">pow</a></p>
+<h3 id="bonk">bonk<a class="hash" href="#bonk" aria-label="link">#</a></h3>
+<p><strong>Pronunciation:</strong> /bɑŋk/ &middot; <em>BONK</em> <strong>Type:</strong> onomatopoeic &middot; <strong>Register:</strong> informal <strong>Variants:</strong> <em>bonk bonk</em>, <em>bonk!</em>, <em>bop</em></p>
+<p>A light, hollow knock, usually on somebody's head. It is inherently comic: a bonk never really hurts and never breaks anything, so the word carries a little affection with it.</p>
+<ol><li>He stood up too fast and — <em>bonk</em> — right into the cabinet door.</li><li><em>Bonk.</em> She tapped him on the head with the rolled-up newspaper.</li><li>The ball went <em>bonk</em> off the rim and out of bounds.</li><li>I go <em>bonk</em> into that low doorway about twice a week.</li><li>"<em>Bonk</em>," my daughter said, knocking gently on my forehead. "Anybody home?"</li></ol>
+<p><strong>See also:</strong> <a href="#bang">bang</a>, <a href="#thud">thud</a>, <a href="#whack">whack</a></p>
+<h3 id="boom">boom<a class="hash" href="#boom" aria-label="link">#</a></h3>
+<p><strong>Pronunciation:</strong> /bum/ &middot; <em>BOOM</em> <strong>Type:</strong> onomatopoeic &middot; <strong>Register:</strong> informal <strong>Variants:</strong> <em>kaboom</em>, <em>ka-boom</em>, <em>boom boom</em>, <em>badaboom</em></p>
+<p>A deep explosion or a rolling, distant crash — thunder, fireworks, a demolition. It is also the all-purpose sound effect for something landing with finality, which is why people say it the moment a thing is finished or proven.</p>
+<ol><li>There was a <em>boom</em>, and then every car alarm on the block went off.</li><li>You mix it, you pour it, <em>boom</em> — dinner's done.</li><li><em>Boom!</em> The whole sky lit up green over the lake.</li><li>The transformer blew with a <em>boom</em> we felt through the floor.</li><li>He circled the total on the whiteboard. "And <em>boom</em>, there's your answer."</li></ol>
+<p><strong>See also:</strong> <a href="#bang">bang</a>, <a href="#crash">crash</a>, <a href="01-joy.html#boom">boom</a></p>
+<h3 id="clang">clang<a class="hash" href="#clang" aria-label="link">#</a></h3>
+<p><strong>Pronunciation:</strong> /klæŋ/ &middot; <em>CLANG</em> <strong>Type:</strong> onomatopoeic &middot; <strong>Register:</strong> informal <strong>Variants:</strong> <em>clang clang</em>, <em>clank</em>, <em>clunk</em>, <em>clangity-clang</em></p>
+<p>Metal hitting metal — a dropped wrench, a cell door, a bell. The three forms are not interchangeable: a clang rings, a clank rattles, and a clunk just stops dead.</p>
+<ol><li>The gate shut behind us with a <em>clang</em>.</li><li><em>Clang!</em> He dropped an entire tray of pans.</li><li>Something went <em>clunk</em> under the hood and the car died.</li><li>You hear that <em>clank</em> every time the radiator kicks on.</li><li>The bell went <em>clang clang clang</em> and we all filed back inside.</li></ol>
+<p><strong>See also:</strong> <a href="#crash">crash</a>, <a href="#ding">ding</a>, <a href="#click">click</a></p>
+<h3 id="crash">crash<a class="hash" href="#crash" aria-label="link">#</a></h3>
+<p><strong>Pronunciation:</strong> /kræʃ/ &middot; <em>KRASH</em> <strong>Type:</strong> onomatopoeic &middot; <strong>Register:</strong> informal <strong>Variants:</strong> <em>craaash</em>, <em>crash bang</em>, <em>crashhh</em></p>
+<p>Something big breaking or falling all at once — dishes, a shelf, two cars. Dropped into a story it replays the exact instant of impact, and it is usually followed by the silence that comes right after.</p>
+<ol><li>There was a <em>crash</em> in the kitchen and then total silence.</li><li>He tipped the ladder and — <em>crash</em> — down came the whole display.</li><li><em>Crash!</em> The wind took the patio umbrella straight into the glass door.</li><li>I heard a <em>crash</em>, then footsteps, then nothing at all.</li><li>Every time the cat gets on the counter it's <em>crash</em>, <em>crash</em>, <em>crash</em> until morning.</li></ol>
+<p><strong>See also:</strong> <a href="#bang">bang</a>, <a href="#boom">boom</a>, <a href="#clang">clang</a></p>
+<h3 id="knock-knock">knock knock<a class="hash" href="#knock-knock" aria-label="link">#</a></h3>
+<p><strong>Pronunciation:</strong> /ˈnɑk ˌnɑk/ &middot; <em>NOK-nok</em> <strong>Type:</strong> onomatopoeic &middot; <strong>Register:</strong> informal <strong>Variants:</strong> <em>knock-knock</em>, <em>knock knock knock</em></p>
+<p>The sound of rapping on a door, said out loud instead of actually knocking — usually because the door is open or there is no door at all. It is also the fixed opening of the knock-knock joke, where it obliges the listener to answer "Who's there?"</p>
+<ol><li>"<em>Knock knock</em>," he said, leaning into the doorway. "Got a second?"</li><li><em>Knock knock!</em> Anybody home?</li><li>She tapped the edge of the cubicle. "<em>Knock knock</em> — sorry to interrupt."</li><li>"<em>Knock knock</em>." "Who's there?" "Boo." "Boo who?" "Don't cry, it's just a joke."</li><li><em>Knock knock knock</em> on the window, and the dog lost his mind.</li></ol>
+<p><strong>See also:</strong> <a href="#tap-tap">tap tap</a>, <a href="#ding-dong">ding-dong</a>, <a href="10-attention.html#psst">psst</a></p>
+<h3 id="pow">pow<a class="hash" href="#pow" aria-label="link">#</a></h3>
+<p><strong>Pronunciation:</strong> /paʊ/ &middot; <em>POW</em> <strong>Type:</strong> onomatopoeic &middot; <strong>Register:</strong> informal <strong>Variants:</strong> <em>kapow</em>, <em>ka-pow</em>, <em>blam</em>, <em>ka-blam</em>, <em>powie</em></p>
+<p>A comic-book punch — the sound of a fist landing, printed in big letters. Americans use it for any sudden forceful hit and, by extension, for anything that arrives with a jolt.</p>
+<ol><li>He swung and — <em>pow</em> — right in the jaw.</li><li>You're driving along, and <em>pow</em>, a deer comes out of nowhere.</li><li><em>Kapow!</em> That's exactly the reaction she was going for.</li><li>One punch, <em>pow</em>, and the whole fight was over.</li><li>She hit the last note and <em>pow</em>, the entire room stood up.</li></ol>
+<p><strong>See also:</strong> <a href="#bang">bang</a>, <a href="#smack">smack</a>, <a href="#wham">wham</a></p>
+<h3 id="smack">smack<a class="hash" href="#smack" aria-label="link">#</a></h3>
+<p><strong>Pronunciation:</strong> /smæk/ &middot; <em>SMAK</em> <strong>Type:</strong> onomatopoeic &middot; <strong>Register:</strong> informal <strong>Variants:</strong> <em>smack smack</em>, <em>smaack</em></p>
+<p>A flat, open-handed slap — or the wet sound of lips, whether kissing or chewing. Context settles which one you mean, and it always does.</p>
+<ol><li><em>Smack!</em> She got the mosquito on the first try.</li><li>The book landed on the desk with a <em>smack</em>.</li><li>He kissed her on the cheek — <em>smack</em> — and ran for the bus.</li><li>Please quit going <em>smack smack</em> with that gum.</li><li>The ball hit the wall with a <em>smack</em> and came right back at me.</li></ol>
+<p><strong>See also:</strong> <a href="#whack">whack</a>, <a href="#mwah">mwah</a>, <a href="#thud">thud</a></p>
+<h3 id="splat">splat<a class="hash" href="#splat" aria-label="link">#</a></h3>
+<p><strong>Pronunciation:</strong> /splæt/ &middot; <em>SPLAT</em> <strong>Type:</strong> onomatopoeic &middot; <strong>Register:</strong> informal <strong>Variants:</strong> <em>splatt</em>, <em>ker-splat</em>, <em>splat!</em></p>
+<p>Something soft and wet hitting a flat surface — a dropped tomato, a bug on the windshield, a snowball on a wall. It is the messy cousin of <em>thud</em>.</p>
+<ol><li>The egg hit the floor with a <em>splat</em>.</li><li><em>Splat!</em> Right on the windshield, of course.</li><li>He dropped the whole scoop of ice cream — <em>splat</em> — on his own shoe.</li><li>The paintball caught him in the chest, <em>splat</em>, and the game was over.</li><li>She threw the wet towel at the wall and it landed with a <em>splat</em>.</li></ol>
+<p><strong>See also:</strong> <a href="#splash">splash</a>, <a href="#plop">plop</a>, <a href="#thud">thud</a></p>
+<h3 id="tap-tap">tap tap<a class="hash" href="#tap-tap" aria-label="link">#</a></h3>
+<p><strong>Pronunciation:</strong> /ˈtæp ˌtæp/ &middot; <em>TAP-tap</em> <strong>Type:</strong> onomatopoeic &middot; <strong>Register:</strong> neutral <strong>Variants:</strong> <em>tap-tap</em>, <em>tap tap tap</em>, <em>rap rap</em>, <em>rat-a-tat</em>, <em>rat-a-tat-tat</em></p>
+<p>A light, quick knocking — on a door, a shoulder, a microphone. Said out loud, it warns someone gently that you are about to interrupt them.</p>
+<ol><li><em>Tap tap.</em> "Is this thing on?"</li><li>She went <em>tap tap</em> on my shoulder and I nearly came out of my chair.</li><li>"<em>Tap tap</em> — mind if I steal you for a minute?"</li><li>There was a <em>rat-a-tat</em> on the door at six in the morning.</li><li>He kept up a steady <em>tap tap tap</em> with his pen until I said something.</li></ol>
+<p><strong>See also:</strong> <a href="#knock-knock">knock knock</a>, <a href="#click">click</a>, <a href="#ahem">ahem</a></p>
+<h3 id="thud">thud<a class="hash" href="#thud" aria-label="link">#</a></h3>
+<p><strong>Pronunciation:</strong> /θʌd/ &middot; <em>THUD</em> <strong>Type:</strong> onomatopoeic &middot; <strong>Register:</strong> informal <strong>Variants:</strong> <em>thump</em>, <em>thud thud</em>, <em>whump</em>, <em>ker-thud</em></p>
+<p>A heavy, dull impact with no ring to it — a body hitting the floor, a book dropped flat, a bass drum. <em>Thump</em> is the same sound with a little more bounce, and it is the standard word for a heartbeat.</p>
+<ol><li>Something hit the roof with a <em>thud</em>.</li><li>He fell out of the top bunk — <em>thud</em> — and got right back up.</li><li>I could hear my own heart going <em>thump thump thump</em>.</li><li>The suitcase came off the belt and landed with a <em>thud</em>.</li><li><em>Thud.</em> The dog jumped off the couch and the whole house shook.</li></ol>
+<p><strong>See also:</strong> <a href="#bonk">bonk</a>, <a href="#boom">boom</a>, <a href="#whomp">whomp</a></p>
+<h3 id="whack">whack<a class="hash" href="#whack" aria-label="link">#</a></h3>
+<p><strong>Pronunciation:</strong> /wæk/ &middot; <em>WAK</em> <strong>Type:</strong> onomatopoeic &middot; <strong>Register:</strong> informal <strong>Variants:</strong> <em>thwack</em>, <em>whap</em>, <em>whop</em>, <em>whack!</em></p>
+<p>A hard swat with something long or flat — a bat, a stick, a rolled-up magazine. <em>Thwack</em> adds a little sting and a little comedy; <em>whap</em> is the same hit landing on something softer.</p>
+<ol><li><em>Whack!</em> He caught the ball right on the sweet spot.</li><li>She hit the branch — <em>thwack</em> — and the snow came down on both of us.</li><li>The screen door swung back and got me, <em>whap</em>, right in the shoulder.</li><li>He gave the vending machine a <em>whack</em> and the chips came loose.</li><li><em>Thwack.</em> The arrow was dead center.</li></ol>
+<p><strong>See also:</strong> <a href="#smack">smack</a>, <a href="#wham">wham</a>, <a href="#pow">pow</a></p>
+<h3 id="wham">wham<a class="hash" href="#wham" aria-label="link">#</a></h3>
+<p><strong>Pronunciation:</strong> /wæm/ &middot; <em>WAM</em> <strong>Type:</strong> onomatopoeic &middot; <strong>Register:</strong> informal <strong>Variants:</strong> <em>whammo</em>, <em>wham-o</em>, <em>whamm</em></p>
+<p>A sudden violent collision, almost always one nobody saw coming. It is the favorite word for telling car-accident stories and for turns of events that hit just as hard.</p>
+<ol><li>I was stopped at the light and — <em>wham</em> — somebody rear-ended me.</li><li><em>Wham!</em> The wind slammed the door so hard the pictures came off the wall.</li><li>Everything's fine for a year, and then <em>wham</em>, the rent goes up four hundred dollars.</li><li>He never even braked. Just <em>wham</em>, straight into the guardrail.</li><li>You take one bite and <em>whammo</em>, the heat hits you.</li></ol>
+<p><strong>See also:</strong> <a href="#bang">bang</a>, <a href="#pow">pow</a>, <a href="#whack">whack</a></p>
+<h3 id="whomp">whomp<a class="hash" href="#whomp" aria-label="link">#</a></h3>
+<p><strong>Pronunciation:</strong> /wɑmp/ or /wʌmp/ &middot; <em>WAHMP</em> or <em>WUHMP</em> <strong>Type:</strong> onomatopoeic &middot; <strong>Register:</strong> informal <strong>Variants:</strong> <em>whump</em>, <em>ka-whomp</em>, <em>whomp!</em></p>
+<p>A big, soft-edged impact with real weight behind it — a mattress dropped, a rotor blade, a wave against a hull. Do not confuse it with <em>womp womp</em>, which is a sad trombone rather than a hit.</p>
+<ol><li>The snow slid off the roof and landed with a <em>whomp</em>.</li><li><em>Whomp!</em> He belly-flopped straight into the deep end.</li><li>You could feel each <em>whomp</em> of the rotors before the helicopter cleared the trees.</li><li>She dropped the duffel bag on the bed — <em>whomp</em> — and started unpacking.</li><li>The waves hit the side of the boat with a slow <em>whomp</em>, <em>whomp</em>, <em>whomp</em>.</li></ol>
+<p><strong>See also:</strong> <a href="#thud">thud</a>, <a href="#boom">boom</a>, <a href="#womp-womp">womp womp</a></p>
+<h2 id="water-liquid-and-cooking">Water, liquid, and cooking<a class="hash" href="#water-liquid-and-cooking" aria-label="link">#</a></h2>
+<h3 id="drip">drip<a class="hash" href="#drip" aria-label="link">#</a></h3>
+<p><strong>Pronunciation:</strong> /drɪp/ &middot; <em>DRIP</em> <strong>Type:</strong> onomatopoeic &middot; <strong>Register:</strong> neutral <strong>Variants:</strong> <em>drip drip</em>, <em>drip-drip-drip</em>, <em>drip, drip</em></p>
+<p>Water falling one drop at a time. Repeated, it is the sound of a leak you cannot ignore, and it doubles as a figure of speech for anything that arrives slowly and maddeningly.</p>
+<ol><li><em>Drip. Drip. Drip.</em> I could not sleep through it.</li><li>The faucet went <em>drip drip</em> all night long.</li><li>There's a <em>drip</em> somewhere behind that wall and I can't find it.</li><li>It wasn't a flood — it was <em>drip, drip, drip</em> until the ceiling gave.</li><li>The story came out <em>drip</em>, <em>drip</em>, one email at a time.</li></ol>
+<p><strong>See also:</strong> <a href="#plop">plop</a>, <a href="#splash">splash</a>, <a href="#plink">plink</a></p>
+<h3 id="fizz">fizz<a class="hash" href="#fizz" aria-label="link">#</a></h3>
+<p><strong>Pronunciation:</strong> /fɪz/ &middot; <em>FIZ</em> <strong>Type:</strong> onomatopoeic &middot; <strong>Register:</strong> informal <strong>Variants:</strong> <em>fizzz</em>, <em>fsss</em>, <em>fizzle</em></p>
+<p>The hiss of carbonation — a can opening, soda over ice, a tablet dissolving. <em>Fizzle</em> is the same sound running out of energy, which is why it also names a disappointing ending.</p>
+<ol><li>He cracked the can and it went <em>fizz</em> all over the counter.</li><li><em>Fizzz</em> — that first pour over ice is the best sound in the world.</li><li>The tablet hit the water with a <em>fizz</em> and disappeared.</li><li>You could hear the <em>fizz</em> die down as it went flat.</li><li>The big finale went <em>fizzle</em> instead, and everybody just went home.</li></ol>
+<p><strong>See also:</strong> <a href="#hiss">hiss</a>, <a href="#sizzle">sizzle</a>, <a href="#pop">pop</a></p>
+<h3 id="glug">glug<a class="hash" href="#glug" aria-label="link">#</a></h3>
+<p><strong>Pronunciation:</strong> /ɡlʌɡ/ &middot; <em>GLUG</em> <strong>Type:</strong> onomatopoeic &middot; <strong>Register:</strong> informal <strong>Variants:</strong> <em>glug glug</em>, <em>glug-glug-glug</em>, <em>gluglug</em></p>
+<p>Liquid coming out of a narrow opening in gulps — a jug emptying, a bottle being chugged. Said out loud it usually means somebody is drinking fast and you are teasing them about it.</p>
+<ol><li>He tipped the jug back — <em>glug glug glug</em>.</li><li>The bottle emptied into the sink with a slow <em>glug</em>.</li><li>"<em>Glug glug</em>," she said, miming a beer. "That's his entire weekend."</li><li>You hear that <em>glug</em> every time the water cooler refills.</li><li>He poured the milk too fast and it came out in one long <em>glug</em>.</li></ol>
+<p><strong>See also:</strong> <a href="#gulp">gulp</a>, <a href="#slurp">slurp</a>, <a href="#drip">drip</a></p>
+<h3 id="plop">plop<a class="hash" href="#plop" aria-label="link">#</a></h3>
+<p><strong>Pronunciation:</strong> /plɑp/ &middot; <em>PLOP</em> <strong>Type:</strong> onomatopoeic &middot; <strong>Register:</strong> informal <strong>Variants:</strong> <em>kerplop</em>, <em>kerplunk</em>, <em>plop plop</em>, <em>ploop</em></p>
+<p>A small round thing dropping into liquid, or, more loosely, anything landing without ceremony. The <em>ker-</em> forms are longer and funnier and put the whole fall into the word.</p>
+<ol><li>The ice cube went <em>plop</em> into the glass.</li><li>He dropped his keys off the dock — <em>kerplunk</em> — and just stared at the water.</li><li><em>Plop.</em> The frog was off the rock before anyone got a picture.</li><li>One raindrop, <em>plop</em>, right on the back of my neck.</li><li>The dumplings go in the pot — <em>plop</em>, <em>plop</em>, <em>plop</em> — and you're done.</li></ol>
+<p><strong>See also:</strong> <a href="#splash">splash</a>, <a href="#splat">splat</a>, <a href="#drip">drip</a></p>
+<h3 id="sizzle">sizzle<a class="hash" href="#sizzle" aria-label="link">#</a></h3>
+<p><strong>Pronunciation:</strong> /ˈsɪzəl/ &middot; <em>SIZ-uhl</em> <strong>Type:</strong> onomatopoeic &middot; <strong>Register:</strong> informal <strong>Variants:</strong> <em>sizzzle</em>, <em>tssss</em>, <em>ssss</em></p>
+<p>Fat hitting a hot pan. It is the sound of cooking going right, and Americans borrow it for anything with heat behind it.</p>
+<ol><li>Butter in the pan — <em>sizzle</em> — and the whole house smells like Sunday.</li><li><em>Sssss.</em> The steak hit the grill and nobody said another word.</li><li>You want that <em>sizzle</em> before you add the onions.</li><li>The rain hit the hot pavement with a <em>sizzle</em> and came right back up as steam.</li><li>He touched the iron and it went <em>sizzle</em>, and yes, it was as bad as it sounds.</li></ol>
+<p><strong>See also:</strong> <a href="#fizz">fizz</a>, <a href="#hiss">hiss</a>, <a href="#crunch">crunch</a></p>
+<h3 id="splash">splash<a class="hash" href="#splash" aria-label="link">#</a></h3>
+<p><strong>Pronunciation:</strong> /splæʃ/ &middot; <em>SPLASH</em> <strong>Type:</strong> onomatopoeic &middot; <strong>Register:</strong> informal <strong>Variants:</strong> <em>sploosh</em>, <em>kersplash</em>, <em>splish-splash</em>, <em>splish splash</em></p>
+<p>Something hitting water hard enough to throw it. <em>Sploosh</em> is bigger and sillier, and <em>splish-splash</em> is the light repeated version you use with a kid in a bathtub.</p>
+<ol><li><em>Splash!</em> He jumped in with all his clothes on.</li><li>The bucket went over the side with a <em>sploosh</em>.</li><li>You hear a <em>splash</em> out on the lake and you know somebody caught something.</li><li><em>Splish-splash</em> — she smacked the bathwater with both hands.</li><li>A truck went by and — <em>splash</em> — I was soaked to the knees.</li></ol>
+<p><strong>See also:</strong> <a href="#splat">splat</a>, <a href="#plop">plop</a>, <a href="#glug">glug</a></p>
+<h2 id="eating-drinking-and-mouth-sounds">Eating, drinking, and mouth sounds<a class="hash" href="#eating-drinking-and-mouth-sounds" aria-label="link">#</a></h2>
+<h3 id="chomp">chomp<a class="hash" href="#chomp" aria-label="link">#</a></h3>
+<p><strong>Pronunciation:</strong> /tʃɑmp/ &middot; <em>CHOMP</em> <strong>Type:</strong> onomatopoeic &middot; <strong>Register:</strong> informal <strong>Variants:</strong> <em>chomp chomp</em>, <em>chomp-chomp</em>, <em>chompchomp</em></p>
+<p>A big, deliberate bite with the jaw closing hard. It is the sound of cartoon eating and of a dog taking food straight out of your hand.</p>
+<ol><li><em>Chomp!</em> The dog took the whole hot dog in one bite.</li><li>He held it up to his mouth and went "<em>chomp chomp</em>" like a shark.</li><li>The horse leaned over the fence and — <em>chomp</em> — there went my sandwich.</li><li>She took one <em>chomp</em> out of the apple and handed it back.</li><li><em>Chomp chomp chomp.</em> That's the sound of a toddler discovering crackers.</li></ol>
+<p><strong>See also:</strong> <a href="#crunch">crunch</a>, <a href="#munch">munch</a>, <a href="#nom">nom</a></p>
+<h3 id="crunch">crunch<a class="hash" href="#crunch" aria-label="link">#</a></h3>
+<p><strong>Pronunciation:</strong> /krʌntʃ/ &middot; <em>KRUNCH</em> <strong>Type:</strong> onomatopoeic &middot; <strong>Register:</strong> informal <strong>Variants:</strong> <em>crunch crunch</em>, <em>kruntch</em>, <em>scrunch</em></p>
+<p>The sound of something brittle giving way — chips, gravel underfoot, frozen snow, a fender.</p>
+<ol><li><em>Crunch.</em> You could hear him eating chips over the phone.</li><li>Every step on the frozen driveway went <em>crunch</em>.</li><li>The bumper hit the pole with a <em>crunch</em> I'm still hearing.</li><li>She bit into the celery — <em>crunch</em> — right in the middle of the meeting.</li><li><em>Crunch crunch crunch</em> through the leaves the whole way home.</li></ol>
+<p><strong>See also:</strong> <a href="#chomp">chomp</a>, <a href="#munch">munch</a>, <a href="#crash">crash</a></p>
+<h3 id="gulp">gulp<a class="hash" href="#gulp" aria-label="link">#</a></h3>
+<p><strong>Pronunciation:</strong> /ɡʌlp/ &middot; <em>GULP</em> <strong>Type:</strong> onomatopoeic &middot; <strong>Register:</strong> informal <strong>Variants:</strong> <em>gulp gulp</em>, <em>gullp</em>, <em>gulp!</em></p>
+<p>Swallowing hard — either a big drink or the dry swallow of somebody who has just realized they are in trouble. Standing alone in writing, a single <em>gulp</em> almost always means fear.</p>
+<ol><li><em>Gulp.</em> I hadn't read a single page of the assignment.</li><li>"Your mother's on the phone." "<em>Gulp</em>."</li><li>She looked up at the top of the ladder and said, "<em>Gulp</em>."</li><li><em>Gulp gulp gulp</em> — he finished the whole bottle without breathing.</li><li>He saw the bill, <em>gulp</em>, and reached for his card anyway.</li></ol>
+<p><strong>See also:</strong> <a href="#glug">glug</a>, <a href="#slurp">slurp</a>, <a href="05-fear.html#gulp">gulp</a></p>
+<h3 id="mmm">mmm<a class="hash" href="#mmm" aria-label="link">#</a></h3>
+<p><strong>Pronunciation:</strong> /m̩ː/ (a long hum with the lips closed — no vowel in it) &middot; <em>MMM</em> <strong>Type:</strong> onomatopoeic &middot; <strong>Register:</strong> neutral <strong>Variants:</strong> <em>mmmm</em>, <em>mm</em>, <em>mmmmm</em>, <em>mm-mmm</em></p>
+<p>A closed-lip hum of pleasure, nearly always about taste or smell. Stretched out, it is a compliment to whoever cooked; the whole meaning rides on the length and the falling pitch, since there is no vowel to carry it.</p>
+<ol><li><em>Mmm.</em> That's the best thing I've eaten all year.</li><li>She took one bite and went, "<em>Mmmmm</em>."</li><li><em>Mmm</em> — smell that. Somebody down the street is grilling.</li><li>"How is it?" "<em>Mmm</em>," he said with his mouth full, and gave a thumbs up.</li><li><em>Mmm</em>, this coffee is exactly what I needed.</li></ol>
+<p><strong>See also:</strong> <a href="#yum">yum</a>, <a href="#nom">nom</a>, <a href="03-pain.html#mmm">mmm</a></p>
+<h3 id="munch">munch<a class="hash" href="#munch" aria-label="link">#</a></h3>
+<p><strong>Pronunciation:</strong> /mʌntʃ/ &middot; <em>MUNCH</em> <strong>Type:</strong> onomatopoeic &middot; <strong>Register:</strong> informal <strong>Variants:</strong> <em>munch munch</em>, <em>munch-munch</em>, <em>munchmunch</em></p>
+<p>Steady, unhurried chewing — snacking rather than eating a meal. Doubled, it is what people caption a picture of themselves with a bowl of something.</p>
+<ol><li><em>Munch munch.</em> Don't mind me, I found the pretzels.</li><li>He sat there going <em>munch, munch</em> through an entire bag of carrots.</li><li>"<em>Munch</em>," she texted, with a picture of the popcorn.</li><li>The rabbit worked through the lettuce — <em>munch munch munch</em> — without ever looking up.</li><li>I could hear you <em>munch</em> through that entire phone call.</li></ol>
+<p><strong>See also:</strong> <a href="#chomp">chomp</a>, <a href="#crunch">crunch</a>, <a href="#nom">nom</a></p>
+<h3 id="nom">nom<a class="hash" href="#nom" aria-label="link">#</a></h3>
+<p><strong>Pronunciation:</strong> /nɑm/ &middot; <em>NOM</em> <strong>Type:</strong> onomatopoeic &middot; <strong>Register:</strong> internet/text <strong>Variants:</strong> <em>nom nom</em>, <em>nom nom nom</em>, <em>om nom nom</em>, <em>omnomnom</em></p>
+<p>Happy, greedy eating, borrowed from Cookie Monster and now standard online. It is playful and a little childish on purpose: adults use it about food they are enjoying too much to be dignified about.</p>
+<ol><li><em>Om nom nom.</em> This pizza is unbelievable.</li><li>She captioned the picture of the cake "<em>nom nom nom</em>."</li><li>"How's the sandwich?" "<em>Nom</em>."</li><li>Leftover birthday cake for breakfast — <em>nom</em>.</li><li><em>Nom nom</em> — I regret nothing.</li></ol>
+<p><strong>See also:</strong> <a href="#yum">yum</a>, <a href="#mmm">mmm</a>, <a href="#munch">munch</a></p>
+<h3 id="slurp">slurp<a class="hash" href="#slurp" aria-label="link">#</a></h3>
+<p><strong>Pronunciation:</strong> /slɝp/ &middot; <em>SLURP</em> <strong>Type:</strong> onomatopoeic &middot; <strong>Register:</strong> informal <strong>Variants:</strong> <em>slurp slurp</em>, <em>slurrrp</em>, <em>sluuurp</em></p>
+<p>Drinking or eating noisily through pursed lips — soup, noodles, the last inch of a milkshake through a straw. At an American table it reads as bad manners, which is exactly why the word is funny everywhere else.</p>
+<ol><li><em>Slurp.</em> He got the last of it out of the straw and the whole table looked over.</li><li>She ate the ramen the right way — <em>slurrrp</em> — and I was jealous.</li><li>That <em>slurp</em> at the bottom of a milkshake is the best part of the milkshake.</li><li>The dog drank out of the toilet again — <em>slurp slurp slurp</em>.</li><li><em>Sluuurp</em>, and the noodles were gone in about nine seconds.</li></ol>
+<p><strong>See also:</strong> <a href="#glug">glug</a>, <a href="#gulp">gulp</a>, <a href="#smack">smack</a></p>
+<h3 id="yum">yum<a class="hash" href="#yum" aria-label="link">#</a></h3>
+<p><strong>Pronunciation:</strong> /jʌm/ &middot; <em>YUM</em> <strong>Type:</strong> onomatopoeic &middot; <strong>Register:</strong> informal <strong>Variants:</strong> <em>yum yum</em>, <em>yummy</em>, <em>yum-yum</em>, <em>yummers</em></p>
+<p>Said about food that looks or tastes good — before the first bite as often as after it. <em>Yummy</em> is the adjective form and sounds noticeably more childish coming out of an adult.</p>
+<ol><li><em>Yum.</em> Is that garlic bread?</li><li>"Chocolate chip." "<em>Yum yum.</em>"</li><li>She looked at the menu and said, "<em>Yum</em>, they still have the short rib."</li><li><em>Yum</em> — save me a piece of that.</li><li>"Try it." "<em>Yummy</em>," he said, in a voice that meant the opposite.</li></ol>
+<p><strong>See also:</strong> <a href="#mmm">mmm</a>, <a href="#nom">nom</a>, <a href="04-disgust.html#ew">ew</a></p>
+<h2 id="involuntary-body-sounds">Involuntary body sounds<a class="hash" href="#involuntary-body-sounds" aria-label="link">#</a></h2>
+<h3 id="achoo">achoo<a class="hash" href="#achoo" aria-label="link">#</a></h3>
+<p><strong>Pronunciation:</strong> /əˈtʃu/ &middot; <em>uh-CHOO</em> <strong>Type:</strong> onomatopoeic &middot; <strong>Register:</strong> neutral <strong>Variants:</strong> <em>ah-choo</em>, <em>atchoo</em>, <em>kerchoo</em>, <em>hachoo</em></p>
+<p>A sneeze, written down — and also the word Americans say out loud to imitate one. A real sneeze in earshot obliges everyone present to answer with <em>bless you</em>.</p>
+<ol><li><em>Achoo!</em> "Bless you." "Thanks — allergies."</li><li>He went <em>ah-choo</em> three times in a row and gave up on the meeting.</li><li>Every spring it's <em>achoo, achoo, achoo</em> from March to June.</li><li>The cat sneezed — one tiny <em>kerchoo</em> — and looked personally offended.</li><li>She turned away from the table. "<em>Achoo.</em> Sorry, don't shake my hand."</li></ol>
+<p><strong>See also:</strong> <a href="#cough">cough</a>, <a href="03-pain.html#sniff">sniff</a>, <a href="17-ritual.html#bless-you">bless you</a></p>
+<h3 id="ahem">ahem<a class="hash" href="#ahem" aria-label="link">#</a></h3>
+<p><strong>Pronunciation:</strong> /əˈhɛm/ &middot; <em>uh-HEM</em> <strong>Type:</strong> onomatopoeic &middot; <strong>Register:</strong> neutral <strong>Variants:</strong> <em>a-hem</em>, <em>ahem-ahem</em>, <em>hem</em>, <em>hem-hem</em></p>
+<p>A deliberate throat-clearing used as a signal rather than a real cough. It asks for attention, marks that you are about to speak, or delivers a discreet correction without anyone having to say the rude part out loud.</p>
+<ol><li>"<em>Ahem.</em> I believe you're in my seat."</li><li><em>Ahem</em> — if anyone's counting, I finished the report an hour ago.</li><li>She gave a small <em>ahem</em> and the room went quiet.</li><li>"<em>Ahem!</em>" The teacher didn't have to say anything else.</li><li><em>Ahem.</em> Some of us have been standing in this line for twenty minutes.</li></ol>
+<p><strong>See also:</strong> <a href="#cough">cough</a>, <a href="10-attention.html#psst">psst</a>, <a href="10-attention.html#ahem">ahem</a></p>
+<h3 id="burp">burp<a class="hash" href="#burp" aria-label="link">#</a></h3>
+<p><strong>Pronunciation:</strong> /bɝp/ &middot; <em>BURP</em> <strong>Type:</strong> onomatopoeic &middot; <strong>Register:</strong> informal <strong>Variants:</strong> <em>urp</em>, <em>buuurp</em>, <em>berp</em>, <em>belch</em></p>
+<p>The word said in place of the noise, usually by or about the person who just made it. Doing the real thing in public is rude in the United States; saying the word about it is a joke.</p>
+<ol><li><em>Burp.</em> "Excuse me."</li><li>He drank the whole soda and let out a <em>burp</em> you could hear in the parking lot.</li><li>"<em>Burp</em>," she said flatly, patting the baby's back. "There it is."</li><li>One sip of seltzer and it's <em>urp</em> for the next ten minutes.</li><li><em>Burp</em> — sorry, that's just the carbonation talking.</li></ol>
+<p><strong>See also:</strong> <a href="#hiccup">hiccup</a>, <a href="#gulp">gulp</a>, <a href="#achoo">achoo</a></p>
+<h3 id="cough">cough<a class="hash" href="#cough" aria-label="link">#</a></h3>
+<p><strong>Pronunciation:</strong> /kɔf/ or /kɑf/ &middot; <em>KAWF</em> or <em>KOFF</em> <strong>Type:</strong> onomatopoeic &middot; <strong>Register:</strong> informal <strong>Variants:</strong> <em>cough cough</em>, <em>koff koff</em>, <em>ahem</em></p>
+<p>A fake cough that badly and deliberately hides a word you are pretending not to say. Written between asterisks online, it is one of the most reliable ways to be sarcastic in text; spoken, it comes out as a stage cough that fools nobody.</p>
+<ol><li>Somebody around here — <em>cough</em> — never returns the stapler.</li><li>"It was a group project." "<em>Cough cough.</em>"</li><li>He said the project was right on schedule. <em>Cough.</em></li><li>The best team in the division — <em>cough</em>, not this year — plays Sunday.</li><li><em>Cough.</em> I believe the word you're looking for is "sorry."</li></ol>
+<p><strong>See also:</strong> <a href="#ahem">ahem</a>, <a href="#snort">snort</a>, <a href="#heh">heh</a></p>
+<h3 id="hiccup">hiccup<a class="hash" href="#hiccup" aria-label="link">#</a></h3>
+<p><strong>Pronunciation:</strong> /ˈhɪkʌp/ or /ˈhɪkəp/ &middot; <em>HIK-up</em> <strong>Type:</strong> onomatopoeic &middot; <strong>Register:</strong> informal <strong>Variants:</strong> <em>hic</em>, <em>hiccough</em>, <em>hic!</em>, <em>hiccup hiccup</em></p>
+<p>The word for the spasm, said out loud in place of it. The short form <em>hic</em> is the standard way American comedy shows that a character has had too much to drink.</p>
+<ol><li><em>Hic.</em> "Excuse me." <em>Hic.</em> "This happens every time I eat too fast."</li><li>He wobbled in, went "<em>hic</em>," and everybody knew exactly where he'd been.</li><li><em>Hiccup.</em> Try holding your breath and counting to ten.</li><li>"<em>Hic</em> — sorry, I can't stop." "Drink it upside down."</li><li>Every few seconds, <em>hic</em>, right in the middle of her toast.</li></ol>
+<p><strong>See also:</strong> <a href="#burp">burp</a>, <a href="#gulp">gulp</a>, <a href="03-pain.html#hic">hic</a></p>
+<h3 id="snort">snort<a class="hash" href="#snort" aria-label="link">#</a></h3>
+<p><strong>Pronunciation:</strong> /snɔrt/ &middot; <em>SNORT</em> <strong>Type:</strong> onomatopoeic &middot; <strong>Register:</strong> informal <strong>Variants:</strong> <em>snrk</em>, <em>snerk</em>, <em>snort laugh</em></p>
+<p>A sharp laugh out through the nose, written as a stage direction. It signals amused contempt — the thing was funny and dumb at the same time — and online it has largely taken over the job <em>lol</em> used to do for that reaction.</p>
+<ol><li><em>Snort.</em> Sure he did.</li><li>She read his excuse and let out a <em>snort</em>.</li><li>"He told them he's 'basically a doctor.'" "<em>Snort.</em>"</li><li><em>Snrk</em> — I'm sorry, I shouldn't laugh at that.</li><li>He tried to keep a straight face and it came out as a <em>snort</em>.</li></ol>
+<p><strong>See also:</strong> <a href="#heh">heh</a>, <a href="#har-har">har har</a>, <a href="18-internet.html#lmao">lmao</a></p>
+<h2 id="laughs-and-kisses">Laughs and kisses<a class="hash" href="#laughs-and-kisses" aria-label="link">#</a></h2>
+<h3 id="bwahaha">bwahaha<a class="hash" href="#bwahaha" aria-label="link">#</a></h3>
+<p><strong>Pronunciation:</strong> /bwɑhɑˈhɑ/ &middot; <em>bwah-hah-HAH</em> <strong>Type:</strong> onomatopoeic &middot; <strong>Register:</strong> informal <strong>Variants:</strong> <em>mwahaha</em>, <em>muahaha</em>, <em>bwahahaha</em>, <em>mwah-ha-ha</em></p>
+<p>The villain laugh — big, theatrical, and always at least partly a joke about being evil. Nobody has ever laughed this way by accident.</p>
+<ol><li>"I scheduled the meeting for 4:55 on a Friday. <em>Bwahaha</em>."</li><li><em>Mwahaha!</em> My plan is working perfectly.</li><li>He rubbed his hands together and went "<em>bwahahaha</em>" like a cartoon.</li><li>I ate the last of the good ice cream. <em>Bwahaha.</em></li><li>"<em>Muahaha</em>," she typed, right after taking the last open parking spot.</li></ol>
+<p><strong>See also:</strong> <a href="#haha">haha</a>, <a href="#heh">heh</a>, <a href="18-internet.html#bwahaha">bwahaha</a></p>
+<h3 id="ha">ha<a class="hash" href="#ha" aria-label="link">#</a></h3>
+<p><strong>Pronunciation:</strong> /hɑ/ &middot; <em>HAH</em> <strong>Type:</strong> onomatopoeic &middot; <strong>Register:</strong> informal <strong>Variants:</strong> <em>hah</em>, <em>ha!</em></p>
+<p>A single hard laugh — which, on its own, rarely means something was funny. Depending on the tone it means "I was right," "I caught you," or "that is absurd."</p>
+<ol><li><em>Ha!</em> I knew you'd say that.</li><li>"<em>Ha.</em> Very funny." She wasn't smiling.</li><li><em>Ha</em> — you actually found it.</li><li>He read the note and just said, "<em>Ha</em>."</li><li>"You'll get used to it." "<em>Ha!</em> We'll see."</li></ol>
+<p><strong>See also:</strong> <a href="#haha">haha</a>, <a href="#har-har">har har</a>, <a href="#heh">heh</a></p>
+<h3 id="haha">haha<a class="hash" href="#haha" aria-label="link">#</a></h3>
+<p><strong>Pronunciation:</strong> /ˈhɑhɑ/ &middot; <em>HAH-hah</em> <strong>Type:</strong> onomatopoeic &middot; <strong>Register:</strong> informal <strong>Variants:</strong> <em>ha ha</em>, <em>hahaha</em>, <em>ha-ha</em>, <em>hahahaha</em></p>
+<p>Written laughter, where the length is the message: <em>haha</em> is polite acknowledgment, <em>hahahaha</em> is the real thing, and a flat <em>ha ha</em> with a space in the middle usually reads as sarcasm.</p>
+<ol><li><em>Haha</em>, that's a good one.</li><li>"<em>Hahaha</em> — okay, you got me."</li><li>She wrote back "<em>ha ha</em>" and I could feel the eye roll from here.</li><li>He was laughing so hard it was just <em>ha ha ha ha</em> into the phone.</li><li><em>Haha</em>, no. Absolutely not.</li></ol>
+<p><strong>See also:</strong> <a href="#heh">heh</a>, <a href="#hee-hee">hee-hee</a>, <a href="18-internet.html#lol">lol</a></p>
+<h3 id="har-har">har har<a class="hash" href="#har-har" aria-label="link">#</a></h3>
+<p><strong>Pronunciation:</strong> /ˈhɑr ˌhɑr/ &middot; <em>HAR-har</em> <strong>Type:</strong> onomatopoeic &middot; <strong>Register:</strong> informal <strong>Variants:</strong> <em>har-har</em>, <em>har har har</em>, <em>har de har har</em></p>
+<p>A fake, flat laugh that means the joke was not funny. It is always sarcastic — no one has ever genuinely laughed like this.</p>
+<ol><li>"<em>Har har.</em> Very original."</li><li>He made the same short joke about my height again. <em>Har har.</em></li><li><em>Har de har har.</em> You should take that act on the road.</li><li>"Get it? Because you're always late." "<em>Har har har</em>."</li><li>She typed "<em>har har</em>" and then, a second later, "seriously though."</li></ol>
+<p><strong>See also:</strong> <a href="#ha">ha</a>, <a href="#haha">haha</a>, <a href="#heh">heh</a></p>
+<h3 id="hee-hee">hee-hee<a class="hash" href="#hee-hee" aria-label="link">#</a></h3>
+<p><strong>Pronunciation:</strong> /ˈhihi/ &middot; <em>HEE-hee</em> <strong>Type:</strong> onomatopoeic &middot; <strong>Register:</strong> informal <strong>Variants:</strong> <em>heehee</em>, <em>hee hee</em>, <em>tee-hee</em>, <em>teehee</em></p>
+<p>A high, giggly laugh — mischief rather than comedy. <em>Tee-hee</em> is the same laugh with more self-awareness, usually written by an adult being deliberately cute about something small and bad.</p>
+<ol><li><em>Hee-hee.</em> I put the whole thing on his card.</li><li>She covered her mouth. "<em>Tee-hee</em>, sorry, I shouldn't laugh."</li><li>The kids went <em>hee hee hee</em> behind the couch until we found them.</li><li>"<em>Teehee</em>," he wrote, which is a lot coming from a grown man.</li><li><em>Hee-hee</em> — wait until she sees what we did to his desk.</li></ol>
+<p><strong>See also:</strong> <a href="#haha">haha</a>, <a href="#heh">heh</a>, <a href="18-internet.html#teehee">teehee</a></p>
+<h3 id="heh">heh<a class="hash" href="#heh" aria-label="link">#</a></h3>
+<p><strong>Pronunciation:</strong> /hɛ/ &middot; <em>HEH</em> <strong>Type:</strong> onomatopoeic &middot; <strong>Register:</strong> informal <strong>Variants:</strong> <em>heh heh</em>, <em>hehe</em>, <em>hehehe</em>, <em>heh.</em></p>
+<p>A small, low, one-breath laugh. It means mild amusement at most, and it is very often the sound of somebody laughing at their own joke.</p>
+<ol><li><em>Heh.</em> That's actually not bad.</li><li>"<em>Heh heh</em> — I've done that more times than I'll admit."</li><li>He read it, said "<em>heh</em>," and kept scrolling.</li><li><em>Hehe</em>, okay, that's funnier than it has any right to be.</li><li>"<em>Heh.</em>" That was the entire review.</li></ol>
+<p><strong>See also:</strong> <a href="#haha">haha</a>, <a href="#snort">snort</a>, <a href="18-internet.html#hehe">hehe</a></p>
+<h3 id="ho-ho-ho">ho ho ho<a class="hash" href="#ho-ho-ho" aria-label="link">#</a></h3>
+<p><strong>Pronunciation:</strong> /ˈhoʊ hoʊ ˌhoʊ/ &middot; <em>HOH-hoh-hoh</em> <strong>Type:</strong> onomatopoeic &middot; <strong>Register:</strong> informal <strong>Variants:</strong> <em>ho ho</em>, <em>ho-ho-ho</em>, <em>hohoho</em></p>
+<p>The deep belly laugh, now almost entirely the property of Santa Claus. Any other time of year it reads as a deliberately hammy, old-fashioned chuckle.</p>
+<ol><li>"<em>Ho ho ho!</em> Merry Christmas!"</li><li>He put on the red suit and practiced his <em>ho ho ho</em> in the mirror.</li><li><em>Ho ho</em> — and what do we have here?</li><li>The mall Santa's <em>ho ho ho</em> carried all the way to the food court.</li><li>"<em>Ho ho ho</em>," my uncle said, handing out presents in his regular clothes.</li></ol>
+<p><strong>See also:</strong> <a href="#ha">ha</a>, <a href="#haha">haha</a>, <a href="#bwahaha">bwahaha</a></p>
+<h3 id="mwah">mwah<a class="hash" href="#mwah" aria-label="link">#</a></h3>
+<p><strong>Pronunciation:</strong> /mwɑ/ &middot; <em>MWAH</em> <strong>Type:</strong> onomatopoeic &middot; <strong>Register:</strong> informal <strong>Variants:</strong> <em>muah</em>, <em>mwuah</em>, <em>mwah mwah</em>, <em>muah!</em></p>
+<p>The sound of a kiss, usually one blown rather than given. It ends phone calls between family and close friends, and at the end of a text it does the work a kiss on the cheek does at the end of a visit.</p>
+<ol><li>"Love you, honey. <em>Mwah</em>."</li><li>She kissed her fingers and threw it toward the stage. "<em>Mwah!</em>"</li><li>Thank you for the birthday flowers — <em>mwah</em>.</li><li><em>Mwah mwah</em> — one on each cheek, and then she was gone.</li><li>"Drive safe. <em>Muah</em>."</li></ol>
+<p><strong>See also:</strong> <a href="#smooch">smooch</a>, <a href="#smack">smack</a>, <a href="#mmm">mmm</a></p>
+<h3 id="smooch">smooch<a class="hash" href="#smooch" aria-label="link">#</a></h3>
+<p><strong>Pronunciation:</strong> /smutʃ/ &middot; <em>SMOOCH</em> <strong>Type:</strong> onomatopoeic &middot; <strong>Register:</strong> informal <strong>Variants:</strong> <em>smooch smooch</em>, <em>smoochies</em>, <em>smoocharoo</em></p>
+<p>A loud, playful kiss — the word said instead of the kiss, or written where the kiss would go. It is warmer and sillier than <em>mwah</em>, and it stays inside the family and the friend group.</p>
+<ol><li>"<em>Smooch!</em>" she said, and kissed the top of his head.</li><li>Thanks again for everything — <em>smooch</em>.</li><li>He leaned in for a <em>smooch</em> and the dog got there first.</li><li><em>Smooch smooch.</em> Goodnight, sweetie.</li><li>"Give Grandma a <em>smooch</em> before we go."</li></ol>
+<p><strong>See also:</strong> <a href="#mwah">mwah</a>, <a href="#smack">smack</a>, <a href="#hee-hee">hee-hee</a></p>
+<h2 id="machines-alarms-and-everyday-noises">Machines, alarms, and everyday noises<a class="hash" href="#machines-alarms-and-everyday-noises" aria-label="link">#</a></h2>
+<h3 id="beep">beep<a class="hash" href="#beep" aria-label="link">#</a></h3>
+<p><strong>Pronunciation:</strong> /bip/ &middot; <em>BEEP</em> <strong>Type:</strong> onomatopoeic &middot; <strong>Register:</strong> neutral <strong>Variants:</strong> <em>beep beep</em>, <em>beeep</em>, <em>bip</em>, <em>beep boop</em></p>
+<p>A short electronic tone — a microwave, a truck backing up, a car horn. Doubled, it is also how you say "move, please" from behind a steering wheel, and <em>beep boop</em> is the standard joke sound for a robot.</p>
+<ol><li>The microwave went <em>beep</em> and nobody moved.</li><li><em>Beep beep!</em> Coming through with hot coffee.</li><li>Leave a message after the <em>beep</em>.</li><li>The truck backed up — <em>beep, beep, beep</em> — for a solid two minutes.</li><li>"<em>Beep boop</em>, I am a robot," he said in the flattest voice he had.</li></ol>
+<p><strong>See also:</strong> <a href="#honk">honk</a>, <a href="#ding">ding</a>, <a href="#buzz">buzz</a></p>
+<h3 id="buzz">buzz<a class="hash" href="#buzz" aria-label="link">#</a></h3>
+<p><strong>Pronunciation:</strong> /bʌz/ &middot; <em>BUZ</em> <strong>Type:</strong> onomatopoeic &middot; <strong>Register:</strong> neutral <strong>Variants:</strong> <em>bzzz</em>, <em>bzzt</em>, <em>buzz buzz</em>, <em>bzz</em></p>
+<p>A low vibrating hum — a bee, a phone face-down on a table, a bad fluorescent light — or the harsh <em>bzzt</em> of a wrong-answer buzzer.</p>
+<ol><li>My phone went <em>buzz</em> in the middle of the ceremony.</li><li><em>Bzzz.</em> There is a bee in this car. There is a bee in this car.</li><li>"The capital of Australia is Sydney." "<em>Bzzt.</em> Canberra."</li><li>The light over the sink has a <em>buzz</em> I cannot get rid of.</li><li><em>Buzz buzz</em> — that's the third text in under a minute.</li></ol>
+<p><strong>See also:</strong> <a href="#beep">beep</a>, <a href="#hiss">hiss</a>, <a href="#zap">zap</a></p>
+<h3 id="click">click<a class="hash" href="#click" aria-label="link">#</a></h3>
+<p><strong>Pronunciation:</strong> /klɪk/ &middot; <em>KLIK</em> <strong>Type:</strong> onomatopoeic &middot; <strong>Register:</strong> neutral <strong>Variants:</strong> <em>click click</em>, <em>clack</em>, <em>clickety-clack</em>, <em>click-click</em></p>
+<p>The small hard snap of a mechanism — a latch, a pen, a mouse button, a seatbelt. <em>Clack</em> is the harder, flatter version, and <em>clickety-clack</em> is a train on rails or long fingernails on a keyboard.</p>
+<ol><li><em>Click.</em> The door locked behind me and my keys were on the counter.</li><li>You'll hear a <em>click</em> when the car seat is in right.</li><li>He kept going <em>click click click</em> with that pen until somebody said something.</li><li><em>Clickety-clack</em> down the hall — you could hear her heels coming.</li><li>The seatbelt went <em>clack</em> against the door frame.</li></ol>
+<p><strong>See also:</strong> <a href="#tick-tock">tick-tock</a>, <a href="#snap">snap</a>, <a href="#tap-tap">tap tap</a></p>
+<h3 id="creak">creak<a class="hash" href="#creak" aria-label="link">#</a></h3>
+<p><strong>Pronunciation:</strong> /krik/ &middot; <em>KREEK</em> <strong>Type:</strong> onomatopoeic &middot; <strong>Register:</strong> informal <strong>Variants:</strong> <em>creeeak</em>, <em>creak creak</em>, <em>crrreak</em></p>
+<p>The long dry complaint of old wood or an unoiled hinge. It is the standard sound effect of a haunted house, and people apply it cheerfully to their own knees.</p>
+<ol><li>The stairs went <em>creak</em> and we both froze.</li><li><em>Creeeak.</em> The door opened by itself, which was the last thing I needed.</li><li>Every board on that porch has its own <em>creak</em>.</li><li>He got up off the floor — <em>creak</em>, <em>creak</em> — and made a joke about turning forty.</li><li>There's a <em>creak</em> in the hallway right where the cat likes to sleep.</li></ol>
+<p><strong>See also:</strong> <a href="#squeak">squeak</a>, <a href="#click">click</a>, <a href="#thud">thud</a></p>
+<h3 id="ding">ding<a class="hash" href="#ding" aria-label="link">#</a></h3>
+<p><strong>Pronunciation:</strong> /dɪŋ/ &middot; <em>DING</em> <strong>Type:</strong> onomatopoeic &middot; <strong>Register:</strong> neutral <strong>Variants:</strong> <em>ding ding</em>, <em>ding ding ding</em>, <em>ting</em>, <em>diiing</em></p>
+<p>A single clear bell tone — an elevator, a kitchen timer, a notification. Three of them in a row means somebody has just given the right answer.</p>
+<ol><li><em>Ding.</em> The elevator opened on the wrong floor.</li><li>The oven went <em>ding</em> and the whole house came running.</li><li>"<em>Ding ding ding</em> — we have a winner."</li><li>Every time an email lands, <em>ding</em>, and there goes my train of thought.</li><li>The bell over the shop door went <em>ting</em> as she walked out.</li></ol>
+<p><strong>See also:</strong> <a href="#ding-dong">ding-dong</a>, <a href="#ring">ring</a>, <a href="14-realization.html#ding-ding-ding">ding ding ding</a></p>
+<h3 id="ding-dong">ding-dong<a class="hash" href="#ding-dong" aria-label="link">#</a></h3>
+<p><strong>Pronunciation:</strong> /ˈdɪŋ ˌdɔŋ/ &middot; <em>DING-dawng</em> <strong>Type:</strong> onomatopoeic &middot; <strong>Register:</strong> informal <strong>Variants:</strong> <em>ding dong</em>, <em>dingdong</em>, <em>ding-dong ding-dong</em></p>
+<p>A doorbell, in its two tones. Said out loud it means "someone is at the door," or it announces that the someone is you.</p>
+<ol><li><em>Ding-dong.</em> "I'll get it."</li><li>"<em>Ding dong!</em> Pizza's here."</li><li>The bell went <em>ding-dong</em> twice and the dog lost his mind.</li><li>She knocked and then said "<em>ding-dong</em>" out loud, since the bell was broken.</li><li><em>Ding-dong</em> — and of course there was nobody there.</li></ol>
+<p><strong>See also:</strong> <a href="#ding">ding</a>, <a href="#knock-knock">knock knock</a>, <a href="#ring">ring</a></p>
+<h3 id="hiss">hiss<a class="hash" href="#hiss" aria-label="link">#</a></h3>
+<p><strong>Pronunciation:</strong> /hɪs/ &middot; <em>HISS</em> <strong>Type:</strong> onomatopoeic &middot; <strong>Register:</strong> informal <strong>Variants:</strong> <em>hissss</em>, <em>ssss</em>, <em>sss</em></p>
+<p>A long <em>s</em> — a snake, a leaking tire, a radiator, or a cat that has had enough. A crowd can hiss too, which is a public and old-fashioned way of booing.</p>
+<ol><li><em>Hisssss.</em> The tire was flat before we got to the highway.</li><li>The cat gave one warning <em>hiss</em> and left the room.</li><li>You could hear the radiator <em>hiss</em> all night long.</li><li><em>Ssss</em> — careful, that pan is still hot.</li><li>The crowd let out a <em>hiss</em> when the ref made the call.</li></ol>
+<p><strong>See also:</strong> <a href="#sizzle">sizzle</a>, <a href="#fizz">fizz</a>, <a href="04-disgust.html#hiss">hiss</a></p>
+<h3 id="honk">honk<a class="hash" href="#honk" aria-label="link">#</a></h3>
+<p><strong>Pronunciation:</strong> /hɑŋk/ &middot; <em>HONK</em> <strong>Type:</strong> onomatopoeic &middot; <strong>Register:</strong> informal <strong>Variants:</strong> <em>honk honk</em>, <em>hooonk</em>, <em>hoooonk</em></p>
+<p>A car horn — and also a goose. Said out loud, it usually reports that somebody honked at you, or that you would very much like to honk at somebody.</p>
+<ol><li><em>Honk!</em> The guy behind me had been waiting a full half second.</li><li><em>Honk honk</em> — that's your ride out front.</li><li>The geese went over the field, <em>honk</em>, <em>honk</em>, all morning.</li><li>He gave one friendly little <em>honk</em> and waved.</li><li>One more <em>honk</em> out of that guy and I'm getting out of the car.</li></ol>
+<p><strong>See also:</strong> <a href="#beep">beep</a>, <a href="#vroom">vroom</a>, <a href="#quack">quack</a></p>
+<h3 id="ka-ching">ka-ching<a class="hash" href="#ka-ching" aria-label="link">#</a></h3>
+<p><strong>Pronunciation:</strong> /kəˈtʃɪŋ/ &middot; <em>kuh-CHING</em> <strong>Type:</strong> onomatopoeic &middot; <strong>Register:</strong> informal <strong>Variants:</strong> <em>cha-ching</em>, <em>ker-ching</em>, <em>ka-ching ka-ching</em></p>
+<p>An old cash register drawer flying open — the sound of money being made. Nobody uses that machine anymore, but everyone still says the sound when a deal closes or a payday lands.</p>
+<ol><li>He signed the contract and I heard <em>ka-ching</em> in my head.</li><li>Two hundred a ticket, six hundred seats — <em>cha-ching</em>.</li><li><em>Ka-ching!</em> The deposit finally cleared.</li><li>Every time they add another fee, <em>ka-ching</em>, straight to the bottom line.</li><li>She sold the entire set in one afternoon. <em>Cha-ching.</em></li></ol>
+<p><strong>See also:</strong> <a href="#ding">ding</a>, <a href="#ta-da">ta-da</a>, <a href="01-joy.html#cha-ching">cha-ching</a></p>
+<h3 id="plink">plink<a class="hash" href="#plink" aria-label="link">#</a></h3>
+<p><strong>Pronunciation:</strong> /plɪŋk/ &middot; <em>PLINK</em> <strong>Type:</strong> onomatopoeic &middot; <strong>Register:</strong> informal <strong>Variants:</strong> <em>plunk</em>, <em>plink plink</em>, <em>plinka-plink</em></p>
+<p>A small, thin, high sound — one piano key, a pebble on a windshield, a drop landing in an empty sink. <em>Plunk</em> is the same noise a size heavier.</p>
+<ol><li><em>Plink.</em> A single drop hit the bottom of the empty sink.</li><li>He sat at the piano going <em>plink, plink</em> with one finger.</li><li>The hail started with a <em>plink</em> on the roof of the car.</li><li>She dropped a quarter in the jar — <em>plunk</em> — and walked off.</li><li><em>Plink plink plink</em> — the sleet was coming down on the skylight.</li></ol>
+<p><strong>See also:</strong> <a href="#drip">drip</a>, <a href="#ding">ding</a>, <a href="#twang">twang</a></p>
+<h3 id="pop">pop<a class="hash" href="#pop" aria-label="link">#</a></h3>
+<p><strong>Pronunciation:</strong> /pɑp/ &middot; <em>POP</em> <strong>Type:</strong> onomatopoeic &middot; <strong>Register:</strong> neutral <strong>Variants:</strong> <em>pop pop</em>, <em>pop!</em>, <em>popopop</em>, <em>poppop</em></p>
+<p>A small sharp burst — a balloon, a cork, a knuckle, a bubble. Repeated fast, it is how Americans describe gunfire heard from a distance.</p>
+<ol><li><em>Pop!</em> The cork hit the ceiling.</li><li>The balloon went <em>pop</em> and the baby burst into tears.</li><li>We heard three <em>pops</em> and everybody hit the ground.</li><li>My knee goes <em>pop</em> every single time I stand up.</li><li><em>Pop, pop, pop</em> — the popcorn finally got going.</li></ol>
+<p><strong>See also:</strong> <a href="#snap">snap</a>, <a href="#bang">bang</a>, <a href="#poof">poof</a></p>
+<h3 id="ring">ring<a class="hash" href="#ring" aria-label="link">#</a></h3>
+<p><strong>Pronunciation:</strong> /rɪŋ/ &middot; <em>RING</em> <strong>Type:</strong> onomatopoeic &middot; <strong>Register:</strong> neutral <strong>Variants:</strong> <em>ring ring</em>, <em>riiing</em>, <em>brring</em>, <em>ring-a-ling</em></p>
+<p>A telephone or a hand bell, said out loud where the sound would go. <em>Ring ring</em> is now faintly retro, since hardly anybody's phone actually rings anymore.</p>
+<ol><li><em>Ring ring.</em> "That's probably them now."</li><li>She held her hand up to her ear. "<em>Ring ring</em> — hello, reality calling."</li><li>The old rotary phone in the hall had a <em>ring</em> you could hear from the yard.</li><li><em>Brring!</em> Nobody has ever picked up a phone faster.</li><li>Two <em>rings</em> and it went to voicemail, which means he declined it.</li></ol>
+<p><strong>See also:</strong> <a href="#ding">ding</a>, <a href="#ding-dong">ding-dong</a>, <a href="#buzz">buzz</a></p>
+<h3 id="snap">snap<a class="hash" href="#snap" aria-label="link">#</a></h3>
+<p><strong>Pronunciation:</strong> /snæp/ &middot; <em>SNAP</em> <strong>Type:</strong> onomatopoeic &middot; <strong>Register:</strong> neutral <strong>Variants:</strong> <em>snap snap</em>, <em>snapp</em>, <em>snap!</em></p>
+<p>A quick clean break, or a snap of the fingers. As a sound effect it marks the exact instant something gave way; as <em>snap snap</em> with the fingers it means "hurry up, look alive."</p>
+<ol><li><em>Snap.</em> The pencil broke right in half.</li><li>He went <em>snap snap</em> with his fingers and the dog sat down.</li><li>The branch went <em>snap</em> under my foot and every deer in the county left.</li><li>One <em>snap</em> of the reins and the horse took off.</li><li><em>Snap</em> — that is the sound of a phone screen you cannot afford to replace.</li></ol>
+<p><strong>See also:</strong> <a href="#pop">pop</a>, <a href="#click">click</a>, <a href="#crunch">crunch</a></p>
+<h3 id="squeak">squeak<a class="hash" href="#squeak" aria-label="link">#</a></h3>
+<p><strong>Pronunciation:</strong> /skwik/ &middot; <em>SKWEEK</em> <strong>Type:</strong> onomatopoeic &middot; <strong>Register:</strong> informal <strong>Variants:</strong> <em>squeek</em>, <em>squeak squeak</em>, <em>skweek</em></p>
+<p>A high thin noise out of something small or unlubricated — a mouse, a sneaker on a gym floor, a hinge, a dog toy.</p>
+<ol><li>The floorboard let out a <em>squeak</em> and the baby woke up.</li><li><em>Squeak, squeak, squeak</em> — I got the shopping cart with the bad wheel, naturally.</li><li>Somebody's sneakers went <em>squeak</em> the entire second half.</li><li><em>Squeak!</em> The mouse was more startled than I was.</li><li>The dog squeezed that toy — <em>squeak squeak squeak</em> — for forty-five minutes.</li></ol>
+<p><strong>See also:</strong> <a href="#creak">creak</a>, <a href="#chirp">chirp</a>, <a href="#plink">plink</a></p>
+<h3 id="tick-tock">tick-tock<a class="hash" href="#tick-tock" aria-label="link">#</a></h3>
+<p><strong>Pronunciation:</strong> /ˈtɪk ˌtɑk/ &middot; <em>TIK-tok</em> <strong>Type:</strong> onomatopoeic &middot; <strong>Register:</strong> informal <strong>Variants:</strong> <em>tick tock</em>, <em>tick-tock tick-tock</em>, <em>tick tick tick</em></p>
+<p>A clock. Said out loud it almost never describes an actual sound — it is a way of telling somebody that time is running out on them.</p>
+<ol><li><em>Tick-tock.</em> The offer expires at midnight.</li><li>You could hear the kitchen clock going <em>tick-tock</em> in all that silence.</li><li>"<em>Tick tock</em>, people. The bus leaves in five."</li><li><em>Tick, tick, tick</em> — that's the sound of your deadline.</li><li>He tapped his wrist. "<em>Tick-tock</em>."</li></ol>
+<p><strong>See also:</strong> <a href="#ding">ding</a>, <a href="#click">click</a>, <a href="#beep">beep</a></p>
+<h3 id="twang">twang<a class="hash" href="#twang" aria-label="link">#</a></h3>
+<p><strong>Pronunciation:</strong> /twæŋ/ &middot; <em>TWANG</em> <strong>Type:</strong> onomatopoeic &middot; <strong>Register:</strong> informal <strong>Variants:</strong> <em>twaaang</em>, <em>twang twang</em>, <em>twanggg</em></p>
+<p>A plucked string letting go — a guitar, a rubber band, a bowstring. The same word names the nasal edge in a Southern or country accent.</p>
+<ol><li><em>Twang.</em> He snapped the rubber band clear across the room.</li><li>The low string went <em>twang</em> and the whole song fell apart.</li><li>She let the arrow go — <em>twang</em> — and hit the target dead center.</li><li>There's a <em>twang</em> in that old screen door spring every time it shuts.</li><li><em>Twang, twang</em> — somebody was tuning a banjo two campsites over.</li></ol>
+<p><strong>See also:</strong> <a href="#plink">plink</a>, <a href="#boing">boing</a>, <a href="#snap">snap</a></p>
+<h2 id="speed-motion-and-energy">Speed, motion, and energy<a class="hash" href="#speed-motion-and-energy" aria-label="link">#</a></h2>
+<h3 id="boing">boing<a class="hash" href="#boing" aria-label="link">#</a></h3>
+<p><strong>Pronunciation:</strong> /bɔɪŋ/ &middot; <em>BOYNG</em> <strong>Type:</strong> onomatopoeic &middot; <strong>Register:</strong> informal <strong>Variants:</strong> <em>sproing</em>, <em>boing boing</em>, <em>boink</em>, <em>boi-oi-oing</em></p>
+<p>A spring, or something bouncing off one — a mattress, a diving board, a coiled toy. It is a cartoon sound before it is a real one, so it always brings a little comedy with it.</p>
+<ol><li><em>Boing!</em> He hit the trampoline and went straight over the fence.</li><li>The screen door spring went <em>sproing</em> and came off in my hand.</li><li><em>Boing boing boing</em> — the kids found the air mattress.</li><li>Her curls came loose — <em>boing</em> — the second she took the hat off.</li><li>The mousetrap went <em>boing</em> and launched itself across the counter.</li></ol>
+<p><strong>See also:</strong> <a href="#twang">twang</a>, <a href="#pop">pop</a>, <a href="#whoosh">whoosh</a></p>
+<h3 id="poof">poof<a class="hash" href="#poof" aria-label="link">#</a></h3>
+<p><strong>Pronunciation:</strong> /pʊf/ or /puf/ &middot; <em>PUUF</em> or <em>POOF</em> <strong>Type:</strong> onomatopoeic &middot; <strong>Register:</strong> informal <strong>Variants:</strong> <em>poof!</em>, <em>pouf</em>, <em>puff</em></p>
+<p>The sound of something vanishing in a small cloud — a magic trick, a struck match, a plan. In most real uses nothing makes any noise at all: <em>poof</em> is the sound of the disappearance itself.</p>
+<ol><li><em>Poof.</em> Gone. Thirty years of savings.</li><li>He snapped his fingers. "<em>Poof</em> — you're free to go."</li><li>The magician lifted the cloth and — <em>poof</em> — the bird was gone.</li><li>One rainstorm and <em>poof</em>, there went the entire weekend.</li><li>She said the money would just go <em>poof</em>, and she was right.</li></ol>
+<p><strong>See also:</strong> <a href="#pop">pop</a>, <a href="03-pain.html#puff">puff</a>, <a href="01-joy.html#presto">presto</a></p>
+<h3 id="vroom">vroom<a class="hash" href="#vroom" aria-label="link">#</a></h3>
+<p><strong>Pronunciation:</strong> /vrum/ &middot; <em>VROOM</em> <strong>Type:</strong> onomatopoeic &middot; <strong>Register:</strong> informal <strong>Variants:</strong> <em>vroom vroom</em>, <em>vrooom</em>, <em>brrm</em>, <em>brum brum</em>, <em>vroom-vroom</em></p>
+<p>An engine revving. Children say it while pushing a toy car; adults say it about anything moving fast, and <em>vroom vroom</em> is the standard tease for somebody showing off a loud vehicle.</p>
+<ol><li><em>Vroom vroom</em> — my son has been driving that couch cushion for an hour.</li><li>He revved it at the light. <em>Vroom.</em> Real impressive.</li><li>The bikes went by, <em>vroooom</em>, and set off every car alarm on the street.</li><li>"<em>Brrm brrm</em>," she said, running the little truck up my arm.</li><li>New exhaust, huh? <em>Vroom vroom.</em></li></ol>
+<p><strong>See also:</strong> <a href="#whoosh">whoosh</a>, <a href="#whiz">whiz</a>, <a href="#honk">honk</a></p>
+<h3 id="whiz">whiz<a class="hash" href="#whiz" aria-label="link">#</a></h3>
+<p><strong>Pronunciation:</strong> /wɪz/ &middot; <em>WIZ</em> <strong>Type:</strong> onomatopoeic &middot; <strong>Register:</strong> informal <strong>Variants:</strong> <em>whizz</em>, <em>whizzz</em>, <em>whiz-bang</em></p>
+<p>Something small going past fast enough to be heard and not seen — an arrow, a bullet, a bike on the sidewalk.</p>
+<ol><li>The ball went <em>whiz</em> past my ear.</li><li><em>Whizzz</em> — a cyclist came out of nowhere and I nearly wore him.</li><li>You can hear them <em>whiz</em> by on the highway all night.</li><li>A wasp went <em>whiz</em> right between us and we both ducked.</li><li><em>Whiz</em>, and the frisbee was in the neighbor's yard.</li></ol>
+<p><strong>See also:</strong> <a href="#whoosh">whoosh</a>, <a href="#zing">zing</a>, <a href="#vroom">vroom</a></p>
+<h3 id="whoosh">whoosh<a class="hash" href="#whoosh" aria-label="link">#</a></h3>
+<p><strong>Pronunciation:</strong> /wʊʃ/ or /wuʃ/ &middot; <em>WUUSH</em> or <em>WOOSH</em> <strong>Type:</strong> onomatopoeic &middot; <strong>Register:</strong> informal <strong>Variants:</strong> <em>woosh</em>, <em>whooosh</em>, <em>swoosh</em>, <em>swish</em></p>
+<p>A rush of air or a fast pass — a door opening, a bus going by, a basketball dropping through the net. <em>Swoosh</em> and <em>swish</em> are the softer, cloth-and-net versions of the same sound.</p>
+<ol><li>The subway doors closed and — <em>whoosh</em> — off it went.</li><li><em>Whoosh!</em> Nothing but net.</li><li>A gust came around the corner, <em>whoosh</em>, and took my hat with it.</li><li>He pulled the curtain back — <em>swish</em> — and the sun blinded everybody.</li><li>The whole afternoon just went <em>whoosh</em>, and now it's dark out.</li></ol>
+<p><strong>See also:</strong> <a href="#whiz">whiz</a>, <a href="#vroom">vroom</a>, <a href="#zing">zing</a></p>
+<h3 id="zap">zap<a class="hash" href="#zap" aria-label="link">#</a></h3>
+<p><strong>Pronunciation:</strong> /zæp/ &middot; <em>ZAP</em> <strong>Type:</strong> onomatopoeic &middot; <strong>Register:</strong> informal <strong>Variants:</strong> <em>zzap</em>, <em>zap zap</em>, <em>zzzap</em></p>
+<p>Electricity — a shock off a doorknob, a laser, a bug light. It also covers anything a machine does instantly, which is why Americans <em>zap</em> leftovers in the microwave.</p>
+<ol><li>I touched the doorknob and — <em>zap</em>.</li><li><em>Zap!</em> The bug light on the porch went off all night.</li><li>The fence gave the dog one little <em>zap</em> and he never went near it again.</li><li>Just <em>zap</em> it for thirty seconds and it's fine.</li><li><em>Zap, zap, zap</em> — the whole laser tag arena sounded like a bad sci-fi movie.</li></ol>
+<p><strong>See also:</strong> <a href="#buzz">buzz</a>, <a href="#zing">zing</a>, <a href="#pop">pop</a></p>
+<h3 id="zing">zing<a class="hash" href="#zing" aria-label="link">#</a></h3>
+<p><strong>Pronunciation:</strong> /zɪŋ/ &middot; <em>ZING</em> <strong>Type:</strong> onomatopoeic &middot; <strong>Register:</strong> informal <strong>Variants:</strong> <em>zinnng</em>, <em>zing!</em>, <em>zing zing</em></p>
+<p>A bright singing sound — something small flying past, a struck wire — and, far more often these days, the tag somebody puts on a perfectly landed insult.</p>
+<ol><li>"You look great. Did you finally get some sleep?" "<em>Zing.</em>"</li><li>The arrow went <em>zing</em> off the metal post.</li><li><em>Zing!</em> In front of his whole team, too.</li><li>She fired one right back at him and the table went, "Ooh, <em>zing</em>."</li><li>There was a <em>zing</em> in the wire every time the wind picked up.</li></ol>
+<p><strong>See also:</strong> <a href="#whiz">whiz</a>, <a href="#zap">zap</a>, <a href="#ba-dum-tss">ba-dum-tss</a></p>
+<h2 id="musical-stings-and-comic-timing">Musical stings and comic timing<a class="hash" href="#musical-stings-and-comic-timing" aria-label="link">#</a></h2>
+<h3 id="ba-dum-tss">ba-dum-tss<a class="hash" href="#ba-dum-tss" aria-label="link">#</a></h3>
+<p><strong>Pronunciation:</strong> /ˌbɑ dəm ˈts/ &middot; <em>bah-dum-TSS</em> (the last beat is a hissed cymbal, not a real syllable) <strong>Type:</strong> onomatopoeic &middot; <strong>Register:</strong> informal <strong>Variants:</strong> <em>ba-dum-tish</em>, <em>badum-tss</em>, <em>ba-dum-ching</em>, <em>ba dum tss</em></p>
+<p>The drum rimshot that lands after a bad pun. It is said or typed either by the person who made the joke or by somebody else pointing out how corny it was.</p>
+<ol><li>"I used to be a banker, but I lost interest. <em>Ba-dum-tss</em>."</li><li>He delivered the pun, waited a beat, and added, "<em>Ba-dum-ching</em>."</li><li>Somebody in the back said "<em>ba-dum-tss</em>" and the whole room groaned.</li><li><em>Badum-tss.</em> I'll be here all week, folks.</li><li>She answered his dad joke with nothing but "<em>ba dum tss</em>."</li></ol>
+<p><strong>See also:</strong> <a href="#dun-dun-dun">dun dun dun</a>, <a href="#womp-womp">womp womp</a>, <a href="#zing">zing</a></p>
+<h3 id="dun-dun-dun">dun dun dun<a class="hash" href="#dun-dun-dun" aria-label="link">#</a></h3>
+<p><strong>Pronunciation:</strong> /ˌdʌn dʌn ˈdʌn/ &middot; <em>dun-dun-DUN</em> <strong>Type:</strong> onomatopoeic &middot; <strong>Register:</strong> informal <strong>Variants:</strong> <em>dun dun duuun</em>, <em>duhn duhn duhn</em>, <em>dun dun DUNNN</em>, <em>dun-dun-dun</em></p>
+<p>The three dramatic orchestra hits that follow a shocking revelation. It is nearly always ironic: you attach it to ordinary news to make it sound like a soap opera cliffhanger.</p>
+<ol><li>"And guess who was already there? <em>Dun dun dunnn</em>."</li><li>It turned out the charge came from her own account. <em>Dun dun dun.</em></li><li>He opened the envelope and somebody at the table went, "<em>Dun dun duuun</em>."</li><li><em>Dun dun dun</em> — the printer had been unplugged the entire time.</li><li>She ended the story with "<em>duhn duhn duhn</em>" and everybody lost it.</li></ol>
+<p><strong>See also:</strong> <a href="#ba-dum-tss">ba-dum-tss</a>, <a href="#ta-da">ta-da</a>, <a href="#womp-womp">womp womp</a></p>
+<h3 id="ta-da">ta-da<a class="hash" href="#ta-da" aria-label="link">#</a></h3>
+<p><strong>Pronunciation:</strong> /tɑˈdɑ/ &middot; <em>tah-DAH</em> <strong>Type:</strong> onomatopoeic &middot; <strong>Register:</strong> informal <strong>Variants:</strong> <em>tada</em>, <em>ta-daa</em>, <em>ta-dah</em>, <em>ta-daaa</em></p>
+<p>The little fanfare you sing when you reveal something you are proud of. It can be perfectly sincere or completely deadpan, and the deadpan version is funnier.</p>
+<ol><li>She pulled the cake out of the box. "<em>Ta-da!</em>"</li><li><em>Ta-da.</em> Two hours of work and it still looks like a pancake.</li><li>He fixed the sink, wiped his hands, and said, "<em>Ta-daa</em>."</li><li><em>Ta-da</em> — one working printer, exactly as promised.</li><li>"Close your eyes. Okay, open them. <em>Ta-da!</em>"</li></ol>
+<p><strong>See also:</strong> <a href="#ka-ching">ka-ching</a>, <a href="#dun-dun-dun">dun dun dun</a>, <a href="01-joy.html#ta-da">ta-da</a></p>
+<h3 id="womp-womp">womp womp<a class="hash" href="#womp-womp" aria-label="link">#</a></h3>
+<p><strong>Pronunciation:</strong> /ˈwɑmp ˌwɑmp/ &middot; <em>WOMP-womp</em> <strong>Type:</strong> onomatopoeic &middot; <strong>Register:</strong> informal <strong>Variants:</strong> <em>wah-wah</em>, <em>wah wah waaah</em>, <em>wamp wamp</em>, <em>whomp whomp</em></p>
+<p>The sad trombone — the sound of failure, played over somebody's disappointment. Aimed at yourself it is self-deprecating; aimed at someone else it is a small and very cheerful cruelty.</p>
+<ol><li>"They gave the promotion to Dave." "<em>Womp womp</em>."</li><li>Sold out. <em>Wah-wah.</em></li><li>I drove all the way out there and they'd closed at four. <em>Womp womp.</em></li><li>He missed the shot and the whole bench went "<em>wah wah waaah</em>."</li><li>"<em>Womp womp</em>," she said, and somehow I felt worse.</li></ol>
+<p><strong>See also:</strong> <a href="#dun-dun-dun">dun dun dun</a>, <a href="#ba-dum-tss">ba-dum-tss</a>, <a href="06-sadness.html#womp-womp">womp womp</a></p>
+<h2 id="animal-noises">Animal noises<a class="hash" href="#animal-noises" aria-label="link">#</a></h2>
+<h3 id="baa">baa<a class="hash" href="#baa" aria-label="link">#</a></h3>
+<p><strong>Pronunciation:</strong> /bɑ/ or /bæ/ &middot; <em>BAH</em> or <em>BA</em> <strong>Type:</strong> onomatopoeic &middot; <strong>Register:</strong> childish <strong>Variants:</strong> <em>baaa</em>, <em>ba-a-a</em>, <em>bah</em></p>
+<p>A sheep. It lives in picture books and petting zoos, and it gets borrowed for people who follow the crowd without thinking about it.</p>
+<ol><li>"What does the sheep say?" "<em>Baa!</em>"</li><li>The lambs went <em>baa</em> every time we walked past the fence.</li><li><em>Baaa</em> — one of them answered him right back.</li><li>He held up the toy sheep and said, "<em>Baa</em>, baa, black sheep."</li><li>Everybody just repeats whatever the boss said. <em>Baa.</em></li></ol>
+<p><strong>See also:</strong> <a href="#moo">moo</a>, <a href="#neigh">neigh</a>, <a href="#oink">oink</a></p>
+<h3 id="chirp">chirp<a class="hash" href="#chirp" aria-label="link">#</a></h3>
+<p><strong>Pronunciation:</strong> /tʃɝp/ &middot; <em>CHURP</em> <strong>Type:</strong> onomatopoeic &middot; <strong>Register:</strong> neutral <strong>Variants:</strong> <em>tweet</em>, <em>cheep</em>, <em>chirp chirp</em>, <em>tweet tweet</em>, <em>chirp-chirp</em></p>
+<p>A small bird, a cricket, or a smoke detector with a dying battery. Said into a silence after your own joke, <em>chirp chirp</em> is the cricket gag: nobody laughed and you know it.</p>
+<ol><li><em>Chirp, chirp</em> — the birds started before the sun did.</li><li>I made the joke and the room went dead quiet. <em>Chirp. Chirp.</em></li><li>The smoke alarm gave one <em>chirp</em> every ninety seconds all night.</li><li>"What does the bird say?" "<em>Tweet tweet!</em>"</li><li>Out past the porch light it was nothing but <em>cheep, cheep, cheep</em>.</li></ol>
+<p><strong>See also:</strong> <a href="#squeak">squeak</a>, <a href="#hoot">hoot</a>, <a href="#beep">beep</a></p>
+<h3 id="cock-a-doodle-doo">cock-a-doodle-doo<a class="hash" href="#cock-a-doodle-doo" aria-label="link">#</a></h3>
+<p><strong>Pronunciation:</strong> /ˌkɑk ə ˌdudəl ˈdu/ &middot; <em>kok-uh-DOO-dul-DOO</em> <strong>Type:</strong> onomatopoeic &middot; <strong>Register:</strong> childish <strong>Variants:</strong> <em>cockadoodledoo</em>, <em>cock a doodle doo</em>, <em>cock-a-doodle-dooo</em></p>
+<p>A rooster. It is the standard American version of the crow, learned in early childhood, and adults use it to mean "it is unreasonably early" or "get up."</p>
+<ol><li>"And what does the rooster say?" "<em>Cock-a-doodle-doo!</em>"</li><li><em>Cock-a-doodle-doo!</em> Everybody up — we leave in ten minutes.</li><li>The rooster next door starts his <em>cock-a-doodle-doo</em> at 4:45 sharp.</li><li>He threw open the curtains and yelled "<em>cockadoodledoo</em>" at his sleeping teenager.</li><li><em>Cock-a-doodle-doo</em> — out there, that's the only alarm clock anybody has.</li></ol>
+<p><strong>See also:</strong> <a href="#hoot">hoot</a>, <a href="#quack">quack</a>, <a href="#moo">moo</a></p>
+<h3 id="grr">grr<a class="hash" href="#grr" aria-label="link">#</a></h3>
+<p><strong>Pronunciation:</strong> /ɡr̩/ (a growled <em>r</em> with no vowel in it) &middot; <em>GRR</em> <strong>Type:</strong> onomatopoeic &middot; <strong>Register:</strong> informal <strong>Variants:</strong> <em>grrr</em>, <em>grrrr</em>, <em>grrrrrr</em></p>
+<p>A growl. Out of a dog it is a warning; out of a person it is a small, half-joking noise of frustration, and it is much milder than actually saying you are angry.</p>
+<ol><li><em>Grrr.</em> The website logged me out again.</li><li>The dog gave a low <em>grr</em> and I put the treat back in the bag.</li><li>"How'd the meeting go?" "<em>Grr</em>."</li><li><em>Grr</em> — I missed that train by about ten seconds.</li><li>She typed "<em>grrrr</em>" and then, a second later, "okay, I'm over it."</li></ol>
+<p><strong>See also:</strong> <a href="#rawr">rawr</a>, <a href="#woof">woof</a>, <a href="07-anger.html#grr">grr</a></p>
+<h3 id="hoot">hoot<a class="hash" href="#hoot" aria-label="link">#</a></h3>
+<p><strong>Pronunciation:</strong> /hut/ &middot; <em>HOOT</em> <strong>Type:</strong> onomatopoeic &middot; <strong>Register:</strong> informal <strong>Variants:</strong> <em>hoo</em>, <em>hoo-hoo</em>, <em>who-who</em>, <em>hoot hoot</em></p>
+<p>An owl. American children learn it as <em>hoo, hoo</em>, and the sound is shorthand for night, woods, and everything being very quiet.</p>
+<ol><li><em>Hoo, hoo.</em> There's an owl in that tree every single night.</li><li>"What does the owl say?" "<em>Hoot hoot!</em>"</li><li>We heard one long <em>hoot</em> and then nothing for an hour.</li><li><em>Who-who</em> — he did the owl call and one actually answered him.</li><li>The barn owl's <em>hoot</em> carried all the way across the field.</li></ol>
+<p><strong>See also:</strong> <a href="#chirp">chirp</a>, <a href="#cock-a-doodle-doo">cock-a-doodle-doo</a>, <a href="#ribbit">ribbit</a></p>
+<h3 id="meow">meow<a class="hash" href="#meow" aria-label="link">#</a></h3>
+<p><strong>Pronunciation:</strong> /miˈaʊ/ &middot; <em>mee-OW</em> <strong>Type:</strong> onomatopoeic &middot; <strong>Register:</strong> informal <strong>Variants:</strong> <em>mew</em>, <em>miaow</em>, <em>meow meow</em>, <em>mrow</em></p>
+<p>A cat. Said by one person about another, it flags that somebody just made a catty, claws-out remark.</p>
+<ol><li>The cat sat by the empty bowl going <em>meow, meow, meow</em>.</li><li>"She called his new place 'charming for the price.'" "<em>Meow.</em>"</li><li><em>Meow!</em> Somebody's in a mood this morning.</li><li>"What does the kitty say?" "<em>Meow!</em>"</li><li>A tiny <em>mew</em> came from under the porch, and that is how we got Charlie.</li></ol>
+<p><strong>See also:</strong> <a href="#purr">purr</a>, <a href="#hiss">hiss</a>, <a href="#woof">woof</a></p>
+<h3 id="moo">moo<a class="hash" href="#moo" aria-label="link">#</a></h3>
+<p><strong>Pronunciation:</strong> /mu/ &middot; <em>MOO</em> <strong>Type:</strong> onomatopoeic &middot; <strong>Register:</strong> childish <strong>Variants:</strong> <em>mooo</em>, <em>moo moo</em>, <em>mooooo</em></p>
+<p>A cow. It is a barnyard-and-toddler word through and through, and one of the first sounds American children are taught to make.</p>
+<ol><li>"What does the cow say?" "<em>Moo!</em>"</li><li>One <em>moo</em> from the far end of the field and the whole herd answered.</li><li><em>Mooooo</em> — he did the cow voice and the baby laughed for ten minutes.</li><li>We drove past the dairy and the kids yelled "<em>moo</em>" out the window.</li><li><em>Moo, moo.</em> The toy makes the sound every time you tip it over.</li></ol>
+<p><strong>See also:</strong> <a href="#baa">baa</a>, <a href="#oink">oink</a>, <a href="#neigh">neigh</a></p>
+<h3 id="neigh">neigh<a class="hash" href="#neigh" aria-label="link">#</a></h3>
+<p><strong>Pronunciation:</strong> /neɪ/ &middot; <em>NAY</em> <strong>Type:</strong> onomatopoeic &middot; <strong>Register:</strong> childish <strong>Variants:</strong> <em>neighhh</em>, <em>neigh neigh</em>, <em>nay</em></p>
+<p>A horse. Children say it; adults imitating a horse usually skip the word and do the whinny instead.</p>
+<ol><li>"What does the horse say?" "<em>Neigh!</em>"</li><li>She galloped around the yard going "<em>neigh, neigh</em>."</li><li><em>Neighhh</em> — he did the horse voice and the pony ignored him completely.</li><li>The horse let out a long <em>neigh</em> the second the feed bucket came out.</li><li>Every toy in that barn set goes <em>neigh</em> when you press it.</li></ol>
+<p><strong>See also:</strong> <a href="#moo">moo</a>, <a href="#baa">baa</a>, <a href="#oink">oink</a></p>
+<h3 id="oink">oink<a class="hash" href="#oink" aria-label="link">#</a></h3>
+<p><strong>Pronunciation:</strong> /ɔɪŋk/ &middot; <em>OYNK</em> <strong>Type:</strong> onomatopoeic &middot; <strong>Register:</strong> childish <strong>Variants:</strong> <em>oink oink</em>, <em>oinkoink</em></p>
+<p>A pig. Outside the barnyard, saying <em>oink oink</em> at somebody is a small insult about greed or table manners.</p>
+<ol><li>"What does the pig say?" "<em>Oink oink!</em>"</li><li>The pigs at the fair went <em>oink</em> the second they saw the bucket.</li><li>He took the last three slices. "<em>Oink.</em>"</li><li><em>Oink oink</em> — that's the sound of a man double-dipping.</li><li>She squeezed the toy pig and it went <em>oink</em> about four hundred times.</li></ol>
+<p><strong>See also:</strong> <a href="#moo">moo</a>, <a href="#baa">baa</a>, <a href="#chomp">chomp</a></p>
+<h3 id="purr">purr<a class="hash" href="#purr" aria-label="link">#</a></h3>
+<p><strong>Pronunciation:</strong> /pɝ/ &middot; <em>PUR</em> <strong>Type:</strong> onomatopoeic &middot; <strong>Register:</strong> informal <strong>Variants:</strong> <em>purrr</em>, <em>prrr</em>, <em>purr purr</em></p>
+<p>The rumble of a contented cat. Said of an engine it means the thing is running beautifully; said of a person it means they are being openly pleased with themselves.</p>
+<ol><li>One scratch behind the ears and it was <em>purrrr</em> for the rest of the movie.</li><li><em>Purrr.</em> That is the sound of a cat who got exactly what she wanted.</li><li>New timing belt, and now the engine just goes <em>purr</em>.</li><li>"<em>Purr</em>," he said, admiring his own parking job.</li><li>You can feel the <em>purr</em> before you can hear it.</li></ol>
+<p><strong>See also:</strong> <a href="#meow">meow</a>, <a href="#mmm">mmm</a>, <a href="#vroom">vroom</a></p>
+<h3 id="quack">quack<a class="hash" href="#quack" aria-label="link">#</a></h3>
+<p><strong>Pronunciation:</strong> /kwæk/ &middot; <em>KWAK</em> <strong>Type:</strong> onomatopoeic &middot; <strong>Register:</strong> childish <strong>Variants:</strong> <em>quack quack</em>, <em>quackquack</em></p>
+<p>A duck. It mostly stays at the pond and in picture books, though <em>quack quack</em> also does duty for somebody talking on and on about nothing.</p>
+<ol><li>"What does the duck say?" "<em>Quack quack!</em>"</li><li>The ducks came right up to the bench — <em>quack, quack, quack</em> — expecting bread.</li><li><em>Quack!</em> His duck call sounded almost real.</li><li>He held up the rubber duck and made it go <em>quack</em>.</li><li>Twenty minutes of <em>quack quack quack</em> and he still hadn't gotten to the point.</li></ol>
+<p><strong>See also:</strong> <a href="#honk">honk</a>, <a href="#chirp">chirp</a>, <a href="#moo">moo</a></p>
+<h3 id="rawr">rawr<a class="hash" href="#rawr" aria-label="link">#</a></h3>
+<p><strong>Pronunciation:</strong> /rɔr/ &middot; <em>RAWR</em> <strong>Type:</strong> onomatopoeic &middot; <strong>Register:</strong> informal <strong>Variants:</strong> <em>roar</em>, <em>rawrr</em>, <em>raar</em>, <em>rawr!</em></p>
+<p>A big animal roaring — a lion, a dinosaur, a monster in a game of pretend. Spelled <em>rawr</em> it is playful and slightly flirty; spelled <em>roar</em> it is the actual animal.</p>
+<ol><li><em>Rawr!</em> He came around the corner as a dinosaur and the toddler screamed with joy.</li><li>"What does the lion say?" "<em>Roar!</em>"</li><li>She sent back a "<em>rawr</em>" and I still don't know how to read it.</li><li><em>Rawr</em> — that's my monster voice and it is terrifying.</li><li>The crowd let out a <em>roar</em> when he came out of the tunnel.</li></ol>
+<p><strong>See also:</strong> <a href="#grr">grr</a>, <a href="#meow">meow</a>, <a href="#woof">woof</a></p>
+<h3 id="ribbit">ribbit<a class="hash" href="#ribbit" aria-label="link">#</a></h3>
+<p><strong>Pronunciation:</strong> /ˈrɪbɪt/ &middot; <em>RIB-it</em> <strong>Type:</strong> onomatopoeic &middot; <strong>Register:</strong> childish <strong>Variants:</strong> <em>ribbit ribbit</em>, <em>ribbet</em>, <em>rivet</em></p>
+<p>A frog. It is the standard American frog sound, even though only some frogs actually make anything like it.</p>
+<ol><li>"What does the frog say?" "<em>Ribbit!</em>"</li><li><em>Ribbit, ribbit</em> — the pond behind the house is loud all summer.</li><li>He hopped across the room going "<em>ribbit</em>" and the kids followed him.</li><li>One <em>ribbit</em> out of the reeds and then total silence.</li><li><em>Ribbit ribbit.</em> The sound machine has an entire swamp setting.</li></ol>
+<p><strong>See also:</strong> <a href="#hoot">hoot</a>, <a href="#chirp">chirp</a>, <a href="#quack">quack</a></p>
+<h3 id="woof">woof<a class="hash" href="#woof" aria-label="link">#</a></h3>
+<p><strong>Pronunciation:</strong> /wʊf/ &middot; <em>WUUF</em> <strong>Type:</strong> onomatopoeic &middot; <strong>Register:</strong> informal <strong>Variants:</strong> <em>arf</em>, <em>bow-wow</em>, <em>ruff</em>, <em>woof woof</em></p>
+<p>A dog. <em>Woof</em> is the deep bark, <em>arf</em> and <em>ruff</em> are the small ones, and <em>bow-wow</em> is the storybook version children meet first.</p>
+<ol><li>"What does the doggy say?" "<em>Woof woof!</em>"</li><li><em>Arf!</em> The little one barks at absolutely everything.</li><li>He knocked on the door and got exactly one <em>woof</em> in reply.</li><li><em>Bow-wow</em> — that's the entire first page of the book.</li><li>She barked back at him. "<em>Ruff</em>." The dog was not impressed.</li></ol>
+<p><strong>See also:</strong> <a href="#grr">grr</a>, <a href="#meow">meow</a>, <a href="#rawr">rawr</a></p></div></main>
+<button class="themebtn" id="themeBtn">Dark</button>
+<script>
+const tb=document.getElementById('themeBtn');
+function setTheme(x){document.documentElement.dataset.theme=x;tb.textContent=x==='dark'?'Light':'Dark';
+ try{localStorage.setItem('site-theme',x)}catch(e){}}
+tb.onclick=()=>setTheme(document.documentElement.dataset.theme==='dark'?'light':'dark');
+try{const s=localStorage.getItem('site-theme');
+ setTheme(s||(matchMedia('(prefers-color-scheme: dark)').matches?'dark':'light'))}catch(e){setTheme('light')}
+</script></body></html>

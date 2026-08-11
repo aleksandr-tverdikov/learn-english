@@ -1,0 +1,781 @@
+{
+  "category": "Advising, suggesting, and warning",
+  "slug": "05-advise-suggest",
+  "entries": [
+    {
+      "term": "admonish",
+      "ipa": "/ədˈmɑnɪʃ/",
+      "respell": "ad-MAH-nish",
+      "type": "reporting verb — warning with reproof",
+      "register": "formal",
+      "patterns": "admonish + sb + to-infinitive / admonish + sb + that-clause / admonish + sb + for + -ing / admonish + sb + against + -ing / admonish + sb (bare object)",
+      "never": "admonish to do something (no object); admonish someone from doing something; admonish that + subjunctive (no mandative clause); admonish + -ing",
+      "meaning": "A warning delivered from a position of authority, mixed with mild reproach — unlike caution, which implies no fault, admonish says the hearer has already gone wrong or is about to.",
+      "transform": "\"Counselor, do not interrupt the witness again.\" -> The judge admonished him not to interrupt the witness again.",
+      "examples": [
+        "The judge admonished the jury to disregard the remark.",
+        "Her editor admonished her for missing a second deadline.",
+        "We were admonished against discussing the case outside the room.",
+        "He admonished the team that another lapse would mean suspension.",
+        "The coach admonished the players to stop arguing with the referee.",
+        "She admonished me gently, and I took the point."
+      ],
+      "related": ["caution", "warn", "counsel", "urge"]
+    },
+    {
+      "term": "advise",
+      "ipa": "/ədˈvaɪz/",
+      "respell": "ad-VYZE",
+      "type": "reporting verb — advice",
+      "register": "neutral, tilting formal",
+      "patterns": "advise + sb + to-infinitive / advise + that-clause (subjunctive) / advise + sb + that-clause / advise + -ing / advise + sb + against + -ing / advise + (sb) + wh-clause / advise + noun phrase / advise + sb + of + noun phrase",
+      "never": "advise to do something with no object (not I advise to book early, but I advise booking early or I advise you to book early); advise someone from doing something (it is against); the noun spelling adviced; advize (advise is -ise in American English too)",
+      "meaning": "The general-purpose advice verb, and the only common one that works in all three frames — object plus infinitive, gerund, and subjunctive clause. Weaker than urge, more authoritative than suggest. The advise someone of something pattern is a separate, bureaucratic sense meaning formally inform.",
+      "transform": "\"You should see a doctor about that,\" she said. -> She advised me to see a doctor about it.",
+      "examples": [
+        "Her lawyer advised her to say nothing until the hearing.",
+        "I'd advise waiting until the prices come down.",
+        "The doctor advised that he stay off the ankle for two weeks.",
+        "We advise against booking through a third party.",
+        "The manual advises what to do if the light stays red.",
+        "Please advise us of any change in your billing address.",
+        "She advised me that the deadline had already passed.",
+        "Her agent advised her what to say if anyone asked about the delay."
+      ],
+      "related": ["counsel", "recommend", "suggest", "urge", "caution"]
+    },
+    {
+      "term": "advocate",
+      "ipa": "/ˈædvəkeɪt/",
+      "respell": "AD-vuh-kayt",
+      "type": "reporting verb — public recommendation",
+      "register": "formal",
+      "patterns": "advocate + noun phrase / advocate + -ing / advocate + that-clause (subjunctive) / advocate for + noun phrase or -ing / advocate against + noun phrase or -ing",
+      "never": "advocate someone to do something; advocate to do something (the verb takes no infinitive at all, with or without an object)",
+      "meaning": "Open, public support for a policy or course of action — a recommendation made to an audience rather than an individual. Unlike suggest, it implies the speaker has taken a side and will defend it. Advocate for, once condemned as redundant, is now standard American English when the object is a person or cause.",
+      "transform": "\"The city needs to build more housing, and I'll keep saying so.\" -> She advocated building more housing.",
+      "examples": [
+        "The report advocates a phased rollout rather than a single launch.",
+        "He has advocated for years that the deposit be refundable.",
+        "Nobody at the meeting advocated cutting the program entirely.",
+        "She advocates for families going through the appeals process.",
+        "The senator advocated an immediate freeze on new permits.",
+        "They advocate replacing the whole system, which strikes me as expensive.",
+        "Two members advocated against holding the vote before the audit."
+      ],
+      "related": ["endorse", "propose", "recommend", "push"]
+    },
+    {
+      "term": "alert",
+      "ipa": "/əˈlɜrt/",
+      "respell": "uh-LURT",
+      "type": "reporting verb — warning, notification",
+      "register": "neutral",
+      "patterns": "alert + sb + to + noun phrase / alert + sb + to the fact + that-clause / alert + sb + that-clause / alert + noun phrase",
+      "never": "alert someone to do something (there is no infinitive frame); alert that (with no object); alert that + subjunctive (the that-clause states a fact)",
+      "meaning": "Giving someone notice of something they need to know now, usually a risk or anomaly. Neutral about blame and silent about what to do next — you alert someone to a fact, you warn them about a consequence.",
+      "transform": "\"Heads up — two of the servers are down.\" -> He alerted us that two of the servers were down.",
+      "examples": [
+        "A neighbor alerted the fire department.",
+        "She alerted me to a typo on the first page.",
+        "The bank alerted him that his card had been used overseas.",
+        "Nobody alerted the night shift to the change in procedure.",
+        "The app alerts you when your balance drops below fifty dollars.",
+        "We should alert legal before this goes any further."
+      ],
+      "related": ["tip off", "warn", "forewarn", "flag"]
+    },
+    {
+      "term": "caution",
+      "ipa": "/ˈkɔʃən/",
+      "respell": "KAW-shun",
+      "type": "reporting verb — warning",
+      "register": "formal, common in journalism",
+      "patterns": "caution + sb + to-infinitive / caution + sb + against + -ing / caution + sb + that-clause / caution + that-clause / caution + sb + about + noun phrase or -ing",
+      "never": "caution someone from doing something (it is against); caution that + subjunctive — caution is not a mandative trigger, and its that-clause is an ordinary indicative statement",
+      "meaning": "A measured, unalarmed warning — the register of press releases and analysts. Warn says danger; caution says be careful. The objectless caution that is common in reporting, where warn that would sound more dire.",
+      "transform": "\"Don't read too much into one quarter,\" the analyst said. -> She cautioned investors against reading too much into one quarter.",
+      "examples": [
+        "The mayor cautioned residents to stay off the roads until morning.",
+        "Economists cautioned that the drop might be seasonal.",
+        "He cautioned me against making an offer on the first day.",
+        "The label cautions users about mixing the two solutions.",
+        "She cautioned that the numbers had not been audited.",
+        "I'd caution you to get that in writing."
+      ],
+      "related": ["warn", "admonish", "advise", "alert"]
+    },
+    {
+      "term": "convince",
+      "ipa": "/kənˈvɪns/",
+      "respell": "kuhn-VINSS",
+      "type": "reporting verb — persuasion (belief)",
+      "register": "neutral",
+      "patterns": "convince + sb + that-clause / convince + sb + of + noun phrase / convince + sb + to-infinitive",
+      "never": "convince that (with no object); convince someone into doing something",
+      "meaning": "A change of belief that actually took hold — a success verb, unlike urge or press, which report only the attempt. The traditional ban on convince someone to do something no longer holds in American English, where it is fully standard; the belief/action split between convince and persuade still does real work in the other direction.",
+      "transform": "\"Look at the numbers — this can work.\" -> She convinced me that it could work.",
+      "examples": [
+        "It took an hour, but she convinced the committee to reconsider.",
+        "Nothing I said convinced him that the check had cleared.",
+        "The evidence convinced the jury of his innocence.",
+        "I'm not convinced the second option is any cheaper.",
+        "He convinced his parents to let him take a year off.",
+        "She convinced herself that nobody had noticed."
+      ],
+      "related": ["persuade", "talk into", "win over", "prevail on"]
+    },
+    {
+      "term": "counsel",
+      "ipa": "/ˈkaʊnsəl/",
+      "respell": "KOWN-suhl",
+      "type": "reporting verb — advice",
+      "register": "formal, professional",
+      "patterns": "counsel + sb + to-infinitive / counsel + sb + against + -ing / counsel + that-clause (subjunctive) / counsel + noun phrase / counsel + sb + on/about + noun phrase",
+      "never": "counsel someone from doing something; counseled that he should be removed (American practice takes the bare subjunctive); counsel + -ing (prefer the noun: counsel delay, not counsel delaying)",
+      "meaning": "Advice given in a professional or pastoral capacity, or advice with unusual gravity. Counsel patience, counsel restraint, and counsel delay are the set collocations of this verb, the formal counterpart of advise caution. British spelling doubles the l: counselled, counselling, counsellor.",
+      "transform": "\"I'd wait before you respond to any of this.\" -> Her attorney counseled her to wait before responding.",
+      "examples": [
+        "His advisor counseled him to defer the semester rather than withdraw.",
+        "The elders counseled patience.",
+        "We were counseled against putting anything in writing.",
+        "She counsels students on financial aid appeals.",
+        "The report counsels that the review be conducted by an outside firm.",
+        "He counseled restraint, and for once everyone listened."
+      ],
+      "related": ["advise", "admonish", "recommend", "urge"]
+    },
+    {
+      "term": "deter",
+      "ipa": "/dɪˈtɜr/",
+      "respell": "dih-TUR",
+      "type": "reporting verb — discouragement (result)",
+      "register": "formal",
+      "patterns": "deter + sb + from + -ing / deter + sb + from + noun phrase / deter + noun phrase (a person or an activity: deter casual thieves, deter theft)",
+      "never": "deter someone to do something; deter someone doing something; deter someone against doing something; deter + that-clause",
+      "meaning": "The effect rather than the words — that something stopped a person from acting, whether or not anyone spoke. Its subject is more often a circumstance than a person, which separates it from dissuade, where somebody argued you out of it.",
+      "transform": "\"The permits alone will cost you six thousand dollars.\" -> The cost deterred us from applying.",
+      "examples": [
+        "The fine is too small to deter anyone.",
+        "Bad reviews deterred her from booking the same hotel again.",
+        "Nothing we said deterred him from going.",
+        "Higher premiums have deterred younger drivers from buying coverage.",
+        "The lock is mostly there to deter casual thieves.",
+        "She was not deterred by the first rejection.",
+        "The new fee has deterred a number of families from the program."
+      ],
+      "related": ["dissuade", "discourage", "talk out of", "warn"]
+    },
+    {
+      "term": "discourage",
+      "ipa": "/dɪsˈkɜrɪdʒ/",
+      "respell": "dis-KUR-ij",
+      "type": "reporting verb — discouragement",
+      "register": "neutral",
+      "patterns": "discourage + sb + from + -ing / discourage + sb + from + noun phrase / discourage + -ing / discourage + noun phrase",
+      "never": "discourage someone to do something; discourage someone against doing something; discourage + that-clause. Note the asymmetry with encourage, which does take an object plus an infinitive: encouraged me to apply but discouraged me from applying.",
+      "meaning": "The exact opposite number of encourage, and the mildest of the from + -ing group — advice or policy that pushes against an action without forbidding it. The bare gerund frame states a blanket policy.",
+      "transform": "\"I really wouldn't apply for that one,\" she said. -> She discouraged me from applying.",
+      "examples": [
+        "The building discourages deliveries after nine.",
+        "My advisor discouraged me from taking two labs in the same term.",
+        "Rain discouraged most of the crowd.",
+        "The policy is meant to discourage speculative bidding.",
+        "Nothing anybody said discouraged her from trying again.",
+        "We discourage photography in the reading room.",
+        "The forecast discouraged half the group from the longer route."
+      ],
+      "related": ["dissuade", "deter", "encourage", "talk out of"]
+    },
+    {
+      "term": "dissuade",
+      "ipa": "/dɪˈsweɪd/",
+      "respell": "dih-SWAYD",
+      "type": "reporting verb — persuasion away from an action",
+      "register": "formal",
+      "patterns": "dissuade + sb + from + -ing / dissuade + sb + from + noun phrase / dissuade + sb (+ from it)",
+      "never": "dissuade someone to do something; dissuade someone of doing something; dissuade someone against doing something",
+      "meaning": "Successful argument against a course of action — the person had intended to do it and, after the conversation, did not. That success condition separates it from discourage. The everyday equivalent is talk out of.",
+      "transform": "\"Please don't quit over this,\" we said. -> We dissuaded her from quitting.",
+      "examples": [
+        "His friends dissuaded him from posting the whole thread.",
+        "I tried to dissuade her from driving through the pass at night.",
+        "Nothing could dissuade them from selling the house.",
+        "She was easily dissuaded.",
+        "The realtor dissuaded us from bidding above asking.",
+        "He talked for an hour and dissuaded nobody.",
+        "Her family dissuaded her from the whole scheme in a single evening."
+      ],
+      "related": ["talk out of", "deter", "discourage", "persuade"]
+    },
+    {
+      "term": "egg on",
+      "ipa": "/ˌɛɡ ˈɔn/",
+      "respell": "eg-AWN",
+      "type": "reporting verb — encouragement toward something unwise",
+      "register": "informal",
+      "patterns": "egg + sb + on / egg + sb + on + to-infinitive (less common)",
+      "never": "egg on him — a pronoun object must sit between the two words (egged him on); a full noun phrase may go either side; egg + that-clause; egg + -ing",
+      "meaning": "Urging someone toward behavior the reporter considers reckless or ill-advised. The judgment is built in: nobody is ever egged on to do something sensible.",
+      "transform": "\"Go on, do it — everyone's watching!\" -> His friends egged him on.",
+      "examples": [
+        "The crowd egged him on until he climbed the fence.",
+        "Don't egg her on; she'll actually do it.",
+        "They egged each other on all afternoon.",
+        "He needed no egging on.",
+        "Two of them egged the argument on from the sidelines.",
+        "She egged me on to send the email, and I have regretted it since."
+      ],
+      "related": ["encourage", "talk into", "nudge", "push"]
+    },
+    {
+      "term": "encourage",
+      "ipa": "/ɪnˈkɜrɪdʒ/",
+      "respell": "in-KUR-ij",
+      "type": "reporting verb — encouragement",
+      "register": "neutral",
+      "patterns": "encourage + sb + to-infinitive / encourage + -ing / encourage + noun phrase / encourage + sb + in + noun phrase",
+      "never": "encourage that (with a subjunctive clause); encourage someone that; encourage to do something with no object (the policy encourages recycling / encourages residents to recycle)",
+      "meaning": "Positive pressure toward an action the speaker considers good for the hearer. Softer than urge, warmer than advise, and unlike either it says nothing about the speaker's expertise — you encourage a friend, you advise a client.",
+      "transform": "\"You should really apply — you'd be great at it.\" -> She encouraged me to apply.",
+      "examples": [
+        "His teacher encouraged him to submit the story to a magazine.",
+        "The program encourages composting.",
+        "She encouraged us to ask questions at any point.",
+        "Low rates have encouraged borrowing.",
+        "Nobody encouraged her; she just did it.",
+        "I was encouraged to hear the schedule had not slipped."
+      ],
+      "related": ["urge", "nudge", "push", "egg on", "discourage"]
+    },
+    {
+      "term": "endorse",
+      "ipa": "/ɛnˈdɔrs/",
+      "respell": "en-DORSS",
+      "type": "reporting verb — public approval",
+      "register": "formal",
+      "patterns": "endorse + noun phrase / endorse + sb + for + noun phrase / endorse the idea/view + of + -ing",
+      "never": "endorse someone to do something; endorse to do something; endorse that the plan go forward; endorse + that-clause of any kind (attach it to a noun: endorsed the view that ...)",
+      "meaning": "Putting one's name behind a proposal, candidate, or product. Weaker as a speech act than advocate — endorsing is a single public act of approval, advocating is a sustained campaign.",
+      "transform": "\"The board has my full support on this,\" she said. -> She endorsed the board's proposal.",
+      "examples": [
+        "Two former governors endorsed the measure.",
+        "The union declined to endorse either candidate.",
+        "She endorsed the report without reservation.",
+        "The committee endorsed a phased rollout.",
+        "He endorsed her for the vacancy.",
+        "Nobody outside the department endorsed the plan."
+      ],
+      "related": ["advocate", "recommend", "propose", "put forward"]
+    },
+    {
+      "term": "enjoin",
+      "ipa": "/ɛnˈdʒɔɪn/",
+      "respell": "en-JOYN",
+      "type": "reporting verb — solemn urging, or legal prohibition",
+      "register": "formal, literary or legal",
+      "patterns": "enjoin + sb + to-infinitive / enjoin + that-clause (subjunctive) / enjoin + sb + from + -ing / enjoin + sb + to + noun phrase (enjoined us to silence) / enjoin + noun phrase (enjoin silence)",
+      "never": "enjoin someone against doing something (the legal preposition is from)",
+      "meaning": "Two opposite senses distinguished only by frame: with a to-infinitive it urges (enjoined us to be patient), with from + -ing it forbids by court order (enjoined the company from selling the data). Both are markedly formal.",
+      "transform": "\"You must all be patient with one another.\" -> He enjoined them to be patient with one another.",
+      "examples": [
+        "The letter enjoins members to attend in person.",
+        "A federal judge enjoined the state from enforcing the rule.",
+        "She enjoined us to silence about what we had seen.",
+        "The order enjoined that the records be preserved.",
+        "Scripture enjoins charity toward strangers.",
+        "The court enjoined further construction pending review."
+      ],
+      "related": ["exhort", "urge", "admonish", "counsel"]
+    },
+    {
+      "term": "exhort",
+      "ipa": "/ɪɡˈzɔrt/",
+      "respell": "ig-ZORT",
+      "type": "reporting verb — earnest urging",
+      "register": "formal, literary",
+      "patterns": "exhort + sb + to-infinitive / exhort + sb + to + noun phrase / exhort + that-clause (subjunctive — archaic, biblical)",
+      "never": "exhort to do something (no object); exhort someone doing something",
+      "meaning": "Urging with emotional heat and usually in public — a speech to a crowd rather than a word to a friend. Stronger and more sermon-like than urge; nobody exhorts you to try the fish.",
+      "transform": "\"Hold the line, all of you — don't give an inch!\" -> He exhorted them to hold the line.",
+      "examples": [
+        "The captain exhorted the crew to keep bailing.",
+        "She exhorted her students to read outside the syllabus.",
+        "The editorial exhorts voters to turn out in November.",
+        "He exhorted the congregation to generosity.",
+        "Coaches exhorted the players to one more effort.",
+        "The pamphlet exhorts readers to write their representatives."
+      ],
+      "related": ["urge", "enjoin", "press", "admonish"]
+    },
+    {
+      "term": "flag",
+      "ipa": "/flæɡ/",
+      "respell": "FLAG",
+      "type": "reporting verb — raising something for attention",
+      "register": "informal to neutral; standard workplace English",
+      "patterns": "flag + noun phrase / flag + that-clause / flag + noun phrase + for/to + sb / flag + wh-clause / flag + noun phrase + as + noun phrase",
+      "never": "flag someone to do something; flag someone that (the person takes a preposition: flag to me that)",
+      "meaning": "Calling attention to a problem, usually early and usually without claiming it is serious — the office cousin of alert. Fully standard in workplace writing, still too casual for formal prose, where note or point out is safer.",
+      "transform": "\"Just so everyone knows, the vendor contract expires in March.\" -> She flagged that the vendor contract expired in March.",
+      "examples": [
+        "He flagged two errors in the appendix.",
+        "I flagged the invoice for review.",
+        "She flagged that the numbers hadn't been reconciled yet.",
+        "The system flags any transaction over ten thousand dollars.",
+        "Legal flagged the indemnity clause as a problem.",
+        "Nobody flagged what the delay would do to the launch date."
+      ],
+      "related": ["alert", "tip off", "caution", "warn"]
+    },
+    {
+      "term": "float",
+      "ipa": "/floʊt/",
+      "respell": "FLOHT",
+      "type": "reporting verb — tentative suggestion",
+      "register": "informal to neutral",
+      "patterns": "float + noun phrase (float an idea) / float the idea/possibility of + -ing / float + noun phrase + to/past + sb / float + that-clause (informal, journalistic) / float + -ing (rare: floated postponing the vote)",
+      "never": "float someone to do something; float to do something; float that + subjunctive (the that-clause is indicative: floated that we might postpone)",
+      "meaning": "Putting a suggestion out deliberately unfinished, to see how people react before committing. Weaker than propose and even than suggest — floating an idea is explicitly reversible, which is the point of choosing the word.",
+      "transform": "\"What if we just pushed the whole thing to April? Just thinking out loud.\" -> He floated the idea of pushing the whole thing to April.",
+      "examples": [
+        "She floated the idea of a four-day week.",
+        "Somebody floated a merger, and the room went quiet.",
+        "He floated the plan past his manager before writing it up.",
+        "The mayor has floated several sites for the new depot.",
+        "They floated the possibility of doing it remotely.",
+        "I floated it in the meeting and got nowhere.",
+        "He floated moving the deadline, and nobody objected."
+      ],
+      "related": ["suggest", "propose", "put forward", "advocate"]
+    },
+    {
+      "term": "forewarn",
+      "ipa": "/fɔrˈwɔrn/",
+      "respell": "for-WORN",
+      "type": "reporting verb — advance warning",
+      "register": "formal",
+      "patterns": "forewarn + sb + that-clause / forewarn + sb + of/about + noun phrase / forewarn + sb + to-infinitive (uncommon)",
+      "never": "forewarn that (with no object); forewarn someone from doing something",
+      "meaning": "The same act as warn with the timing made explicit — the warning came in time for the hearer to prepare. It appears most often in the passive and in the proverb forewarned is forearmed; in the active, plain warn usually does the job.",
+      "transform": "\"I should tell you now — the drive is four hours in traffic.\" -> She forewarned me that the drive would take four hours.",
+      "examples": [
+        "We had been forewarned about the noise from the construction site.",
+        "Nobody forewarned him that the interview would run three hours.",
+        "She forewarned us of the cost before we signed anything.",
+        "Forewarned is forearmed.",
+        "The letter forewarned residents of the road closure.",
+        "I wish somebody had forewarned me."
+      ],
+      "related": ["warn", "alert", "caution", "tip off"]
+    },
+    {
+      "term": "invite",
+      "ipa": "/ɪnˈvaɪt/",
+      "respell": "in-VYTE",
+      "type": "reporting verb — invitation",
+      "register": "neutral",
+      "patterns": "invite + sb + to-infinitive / invite + sb + to + noun phrase / invite + sb + for + noun phrase / invite + noun phrase / invite + sb + over/in/along",
+      "never": "invite someone that; invite that; invite someone come; invite to do something (no object)",
+      "meaning": "A request framed as an offer — the hearer gains something by complying, which separates it from every other verb in this file. Note that invite someone to do is often a polite institutional command in disguise.",
+      "transform": "\"Come sit with us,\" she said. -> She invited me to sit with them.",
+      "examples": [
+        "They invited us to stay for dinner.",
+        "The chair invited comment from the floor.",
+        "She invited him over for coffee after the meeting.",
+        "Candidates are invited to submit a portfolio.",
+        "He invited me along without asking the others.",
+        "The design invites comparison with the older model."
+      ],
+      "related": ["encourage", "urge", "suggest", "press"]
+    },
+    {
+      "term": "move",
+      "ipa": "/muv/",
+      "respell": "MOOV",
+      "type": "reporting verb — formal proposal to a meeting",
+      "register": "formal, parliamentary",
+      "patterns": "move + that-clause (subjunctive) / move + to-infinitive / move + noun phrase / move for + noun phrase",
+      "never": "move someone to do something (in the proposal sense); move that the meeting is adjourned (the clause verb must be the bare base form)",
+      "meaning": "A proposal formally put before a deliberative body for a vote — a technical use of propose with a procedural consequence, and the most reliable mandative-subjunctive trigger in the language. Out of place outside meetings and courtrooms.",
+      "transform": "\"I propose that we approve the minutes as written.\" -> She moved that the minutes be approved as written.",
+      "examples": [
+        "He moved that the meeting be adjourned.",
+        "The defense moved to dismiss the case.",
+        "She moved an amendment striking the second clause.",
+        "A member moved that the vote be taken by ballot.",
+        "Counsel moved for a continuance.",
+        "Nobody moved that the item be reconsidered."
+      ],
+      "related": ["propose", "put forward", "recommend", "advocate"]
+    },
+    {
+      "term": "nudge",
+      "ipa": "/nʌdʒ/",
+      "respell": "NUJ",
+      "type": "reporting verb — gentle encouragement",
+      "register": "informal",
+      "patterns": "nudge + sb + to-infinitive / nudge + sb + toward/into + noun phrase or -ing / nudge + sb + about + noun phrase (the reminder sense) / nudge + sb (bare object)",
+      "never": "nudge someone that; nudge that",
+      "meaning": "Low-pressure encouragement, repeated if necessary — the word is chosen precisely to disclaim force. A second workplace sense is closer to remind: I nudged him about the invoice means a follow-up message.",
+      "transform": "\"Have you thought any more about applying? No pressure.\" -> She nudged me to apply.",
+      "examples": [
+        "His sister nudged him to call their mother.",
+        "The default setting nudges users toward the annual plan.",
+        "I nudged her about the reimbursement form again.",
+        "A well-placed question nudged the conversation back on topic.",
+        "They nudged us into signing before the deadline.",
+        "Nobody nudged him; he volunteered."
+      ],
+      "related": ["encourage", "prompt", "press", "steer"]
+    },
+    {
+      "term": "persuade",
+      "ipa": "/pərˈsweɪd/",
+      "respell": "per-SWAYD",
+      "type": "reporting verb — persuasion (action)",
+      "register": "neutral",
+      "patterns": "persuade + sb + to-infinitive / persuade + sb + that-clause / persuade + sb + of + noun phrase / persuade + sb + into + -ing / persuade + sb + out of + -ing",
+      "never": "persuade to do something (no object); persuade that (no object); persuade someone doing something",
+      "meaning": "Successful urging that produced an action — a success verb. If the person did not budge you did not persuade them, you urged or pressed them. Contrast convince, which changes belief rather than behavior.",
+      "transform": "\"Come on, stay one more night — the roads will be clear tomorrow.\" -> They persuaded me to stay one more night.",
+      "examples": [
+        "She persuaded the landlord to waive the fee.",
+        "It took three phone calls to persuade him.",
+        "He persuaded us that the detour would be faster, and he was wrong.",
+        "They persuaded her into buying the extended warranty.",
+        "I couldn't persuade anyone to come with me.",
+        "The evidence persuaded the judge of his good faith."
+      ],
+      "related": ["convince", "talk into", "prevail on", "win over", "dissuade"]
+    },
+    {
+      "term": "prescribe",
+      "ipa": "/prɪˈskraɪb/",
+      "respell": "prih-SKRYBE",
+      "type": "reporting verb — authoritative recommendation",
+      "register": "formal, medical or legal",
+      "patterns": "prescribe + noun phrase / prescribe + noun phrase + for + sb / prescribe + that-clause (subjunctive)",
+      "never": "prescribe someone to do something; prescribe someone something (as a double object)",
+      "meaning": "A recommendation carrying institutional authority — a doctor's order, a statute's requirement. Where recommend leaves the choice open, prescribe does not. Do not confuse it with proscribe, which means forbid.",
+      "transform": "\"Take one of these twice a day for ten days.\" -> The doctor prescribed a ten-day course of antibiotics.",
+      "examples": [
+        "Her doctor prescribed a lower dose.",
+        "The statute prescribes a thirty-day notice period.",
+        "He prescribed rest and a great deal of water.",
+        "Nothing in the bylaws prescribes how the chair is chosen.",
+        "The regulation prescribes that each unit be inspected annually.",
+        "She was prescribed physical therapy instead of surgery."
+      ],
+      "related": ["recommend", "advise", "counsel", "propose"]
+    },
+    {
+      "term": "press",
+      "ipa": "/prɛs/",
+      "respell": "PRESS",
+      "type": "reporting verb — insistent urging",
+      "register": "neutral",
+      "patterns": "press + sb + to-infinitive / press + sb + for + noun phrase / press + sb + on/about + noun phrase / press for + noun phrase / press + sb + into + -ing (usually passive: was pressed into helping) / press + noun phrase (press the point)",
+      "never": "press someone that (no that-clause, no subjunctive); press someone into to do something — after into comes a gerund or a noun, never an infinitive",
+      "meaning": "Urging kept up past the point of comfort. It reports repetition and pressure, not success — you can press someone all week and get nowhere, which separates it from persuade.",
+      "transform": "\"I need an answer today. Today. Can you give me one?\" -> She pressed me to give her an answer that day.",
+      "examples": [
+        "Reporters pressed the governor for a timeline.",
+        "He pressed her to reconsider, and she refused.",
+        "They pressed him on what he had known and when.",
+        "The union is pressing for a shorter workweek.",
+        "She didn't press the point.",
+        "I was pressed to explain where the money had gone.",
+        "He was pressed into chairing the session when the moderator canceled."
+      ],
+      "related": ["urge", "push", "persuade", "exhort"]
+    },
+    {
+      "term": "prevail on",
+      "ipa": "/prɪˈveɪl ɑn/",
+      "respell": "prih-VAYL-on",
+      "type": "reporting verb — successful persuasion",
+      "register": "formal",
+      "patterns": "prevail on/upon + sb + to-infinitive",
+      "never": "prevail someone to do something (the preposition is obligatory); prevail on someone that; prevail on someone into doing something",
+      "meaning": "Persuading a reluctant person to do something, usually as a favor and usually after effort. A success verb like persuade, but it adds that the person had to be brought around. Distinctly formal — in speech, talked her into it.",
+      "transform": "\"Please, would you consider chairing the committee this year?\" -> They prevailed on her to chair the committee.",
+      "examples": [
+        "We finally prevailed on him to take a few days off.",
+        "She was prevailed upon to say a few words.",
+        "They prevailed on the landlord to extend the lease by a month.",
+        "I could not prevail on anyone to trade shifts.",
+        "His colleagues prevailed upon him to withdraw the letter.",
+        "The board prevailed on the founder to stay through the transition."
+      ],
+      "related": ["persuade", "talk into", "win over", "press"]
+    },
+    {
+      "term": "prompt",
+      "ipa": "/prɑmpt/",
+      "respell": "PRAHMPT",
+      "type": "reporting verb — causing someone to act or speak",
+      "register": "neutral",
+      "patterns": "prompt + sb + to-infinitive / prompt + noun phrase / prompt + sb + for + noun phrase / prompt + sb + with + noun phrase",
+      "never": "prompt someone that; prompt that",
+      "meaning": "Supplying the trigger for an action, often with no advice given at all — the subject is more often an event than a person. With a personal subject it means a small verbal push or a supplied cue.",
+      "transform": "\"You know, you might want to check the warranty on that.\" -> His remark prompted me to check the warranty.",
+      "examples": [
+        "The audit prompted a full review of the vendor list.",
+        "She prompted him with the first two words and he took it from there.",
+        "What prompted you to call?",
+        "The system prompts you for a second password.",
+        "Complaints prompted the store to change its return policy.",
+        "A single question prompted an hour of explanation."
+      ],
+      "related": ["nudge", "encourage", "press", "push"]
+    },
+    {
+      "term": "propose",
+      "ipa": "/prəˈpoʊz/",
+      "respell": "pruh-POHZ",
+      "type": "reporting verb — formal proposal",
+      "register": "neutral to formal",
+      "patterns": "propose + that-clause (subjunctive) / propose + -ing / propose + to-infinitive (= intend) / propose + noun phrase / propose + noun phrase + to + sb / propose + sb + for/as + noun phrase (nominate)",
+      "never": "propose someone to do something; propose to someone to do something. A person may follow propose only in the nominating sense, where the person is the thing proposed: proposed him as treasurer, still not proposed him to serve as treasurer.",
+      "meaning": "A suggestion put forward formally enough to be acted on — more procedural than suggest, less binding than move. Note the frame split: propose to do means the subject intends it, propose doing means the subject recommends it.",
+      "transform": "\"I think we should extend the deadline by a week,\" she said. -> She proposed that the deadline be extended by a week.",
+      "examples": [
+        "The committee proposed a two-year pilot.",
+        "He proposed meeting halfway, in Denver.",
+        "She proposed that the fee be waived for first-time applicants.",
+        "What do you propose we do about it?",
+        "The city proposes to widen the intersection next spring.",
+        "Nobody proposed an alternative.",
+        "The department proposed her as interim chair."
+      ],
+      "related": ["suggest", "recommend", "move", "put forward", "float"]
+    },
+    {
+      "term": "push",
+      "ipa": "/pʊʃ/",
+      "respell": "PUUSH",
+      "type": "reporting verb — forceful urging",
+      "register": "informal to neutral",
+      "patterns": "push + sb + to-infinitive / push for + noun phrase / push + sb + into + -ing / push + noun phrase",
+      "never": "push someone that; push someone to doing something",
+      "meaning": "Sustained pressure toward an action, with a hint that the person being pushed would rather not. Push for reports campaigning for an outcome rather than pressuring a person, and is the neutral option in news writing.",
+      "transform": "\"You need to ask for a raise. This week. I mean it.\" -> She pushed me to ask for a raise.",
+      "examples": [
+        "His parents pushed him to apply to law school.",
+        "Advocates are pushing for stricter labeling rules.",
+        "Don't let anyone push you into signing today.",
+        "She pushed the proposal through in two meetings.",
+        "The board pushed management to cut costs before the quarter closed.",
+        "I'm not going to push it."
+      ],
+      "related": ["press", "urge", "nudge", "advocate"]
+    },
+    {
+      "term": "put forward",
+      "ipa": "/ˌpʊt ˈfɔrwərd/",
+      "respell": "puut-FOR-werd",
+      "type": "reporting verb — offering a proposal or view",
+      "register": "neutral to formal",
+      "patterns": "put forward + noun phrase / put + noun phrase + forward / put forward the idea/view/argument + that-clause / put + sb + forward",
+      "never": "put forward someone to do something; put forward to do something; put forward it (with a pronoun the particle must follow the object)",
+      "meaning": "Offering something for consideration — a name, a theory, a plan. More tentative than propose and much more tentative than move; it says the idea is on the table, not that the speaker is fighting for it.",
+      "transform": "\"Here's one option: we could run the pilot in two cities instead of five.\" -> She put forward a two-city pilot.",
+      "examples": [
+        "He put forward three names for the vacancy.",
+        "The paper puts forward a theory nobody had considered.",
+        "She put the amendment forward on the last day of the session.",
+        "The idea was put forward years ago and quietly dropped.",
+        "They put him forward as a compromise candidate.",
+        "Nobody put forward a serious objection."
+      ],
+      "related": ["propose", "float", "suggest", "move", "advocate"]
+    },
+    {
+      "term": "recommend",
+      "ipa": "/ˌrɛkəˈmɛnd/",
+      "respell": "rek-uh-MEND",
+      "type": "reporting verb — recommendation",
+      "register": "neutral",
+      "patterns": "recommend + that-clause (subjunctive) / recommend + -ing / recommend + noun phrase / recommend + noun phrase + to + sb / recommend + sb + for/as + noun phrase / recommend against + -ing / recommend + wh-clause",
+      "never": "recommend someone to do something; recommend someone something. A person may follow recommend only when the person is what is being recommended (recommended her for the job), never when the person is the one being advised.",
+      "meaning": "Advice offered as the speaker's considered opinion, usually with some claim to knowledge behind it — stronger than suggest, less personal than advise, and unlike prescribe it leaves the decision with the hearer. Recommend someone to do survives in older British writing but is simply wrong in American English.",
+      "transform": "\"You really should try the branzino,\" he said. -> He recommended trying the branzino. / He recommended that I try the branzino.",
+      "examples": [
+        "She recommended a mechanic on Third Street.",
+        "The panel recommended that the policy be rewritten from scratch.",
+        "I'd recommend getting there half an hour early.",
+        "He recommended the book to everyone he met that summer.",
+        "The report recommends against expanding the program.",
+        "Can you recommend somewhere quiet to work?",
+        "Her advisor recommended what to take in the spring.",
+        "Two of her professors recommended her for the fellowship."
+      ],
+      "related": ["suggest", "advise", "propose", "prescribe", "endorse"]
+    },
+    {
+      "term": "steer",
+      "ipa": "/stɪr/",
+      "respell": "STEER",
+      "type": "reporting verb — guidance toward or away from",
+      "register": "informal to neutral",
+      "patterns": "steer + sb + toward/to + noun phrase or -ing / steer + sb + away from + noun phrase or -ing / steer + sb + through + noun phrase / steer clear of + noun phrase or -ing",
+      "never": "steer someone to do something; steer someone that (no infinitive and no clause of any kind)",
+      "meaning": "Guiding someone's choice without stating the advice outright — the word implies indirection, which is why it suits a salesperson or a diplomat. Steer clear of is a fixed idiom meaning avoid entirely.",
+      "transform": "\"You might be happier with the smaller model, honestly.\" -> He steered me toward the smaller model.",
+      "examples": [
+        "The agent steered us toward properties well above our budget.",
+        "She steered the conversation away from politics.",
+        "He steered me away from taking the night shift.",
+        "A good editor steers a writer without rewriting them.",
+        "They steered the company through two recessions.",
+        "I'd steer clear of that intersection at rush hour.",
+        "Her advisor steered her toward applying a year early."
+      ],
+      "related": ["nudge", "discourage", "encourage", "talk out of"]
+    },
+    {
+      "term": "suggest",
+      "ipa": "/səɡˈdʒɛst/",
+      "respell": "suhg-JEST",
+      "type": "reporting verb — suggestion",
+      "register": "neutral",
+      "patterns": "suggest + that-clause (subjunctive) / suggest + -ing / suggest + wh-clause / suggest + noun phrase / suggest + noun phrase + to + sb / suggest to + sb + that-clause",
+      "never": "suggest someone to do something; suggest to someone to do something; suggest someone leave; suggest someone something",
+      "meaning": "A proposal or recommendation offered without the authority implied by tell or the urgency of urge. It takes no personal object at all before its complement — the single most common structural error in reported speech. A second, evidential sense reports what facts imply, and that is the only context where the indicative after suggest is correct.",
+      "transform": "\"Why don't we meet on Thursday?\" she said. -> She suggested that we meet on Thursday.",
+      "examples": [
+        "She suggested that we split the check.",
+        "He suggested meeting at the office instead.",
+        "The report suggests a link between the two events.",
+        "Can I suggest something?",
+        "Nobody suggested that the delay was deliberate.",
+        "I'd suggest leaving early if you want a seat.",
+        "She suggested to the committee that the vote be postponed.",
+        "He suggested where we might look next."
+      ],
+      "related": ["recommend", "propose", "advise", "float", "put forward"]
+    },
+    {
+      "term": "talk into",
+      "ipa": "/ˌtɔk ˈɪntu/",
+      "respell": "tawk-IN-too",
+      "type": "reporting verb — successful persuasion",
+      "register": "informal",
+      "patterns": "talk + sb + into + -ing / talk + sb + into + noun phrase / talk + oneself + into + -ing",
+      "never": "talk someone into to do something; talk someone to do something; talked into it me",
+      "meaning": "Persuasion that worked, in the register of ordinary speech, usually with a shade of regret or amusement — he talked me into it rarely introduces a decision the speaker is proud of. The formal equivalents are persuade and prevail on.",
+      "transform": "\"Come on, one more round — it's early.\" -> They talked me into staying for one more round.",
+      "examples": [
+        "She talked me into buying the extended warranty.",
+        "He talked himself into believing the flight would be on time.",
+        "Don't let them talk you into anything you'll regret.",
+        "Somehow they talked the landlord into letting them paint.",
+        "I got talked into running the meeting.",
+        "Nobody talked her into it; it was her idea from the start."
+      ],
+      "related": ["talk out of", "persuade", "convince", "prevail on", "egg on"]
+    },
+    {
+      "term": "talk out of",
+      "ipa": "/ˌtɔk ˈaʊt əv/",
+      "respell": "tawk-OWT-uv",
+      "type": "reporting verb — successful dissuasion",
+      "register": "informal",
+      "patterns": "talk + sb + out of + -ing / talk + sb + out of + noun phrase / talk + oneself + out of + -ing",
+      "never": "talk someone out of to do something; talk someone from doing something; talk someone out to do",
+      "meaning": "The everyday counterpart of dissuade — an argument that stopped somebody from doing what they had planned. Like dissuade, it is a success verb: the plan was abandoned.",
+      "transform": "\"Don't quit over one bad week. Sleep on it.\" -> We talked her out of quitting.",
+      "examples": [
+        "His brother talked him out of selling the truck.",
+        "I talked myself out of calling her back.",
+        "She talked the crew out of walking off the job.",
+        "They tried to talk us out of the corner unit, which made us want it more.",
+        "He got talked out of it by someone who had done the drive before.",
+        "Nobody could talk her out of going."
+      ],
+      "related": ["talk into", "dissuade", "discourage", "deter"]
+    },
+    {
+      "term": "tip off",
+      "ipa": "/ˌtɪp ˈɔf/",
+      "respell": "tip-AWF",
+      "type": "reporting verb — confidential warning",
+      "register": "informal",
+      "patterns": "tip + sb + off / tip + sb + off + that-clause / tip + sb + off + about/to + noun phrase / tip off + noun phrase (unsplit, with a full noun object)",
+      "never": "tip off him — a pronoun object must sit inside the phrasal verb (tipped him off); tip off someone to do something (no infinitive frame, and no subjunctive)",
+      "meaning": "Passing on information privately, usually about something the hearer was not supposed to know or something illicit. It carries a whiff of the informant and presupposes the information turned out to be worth having.",
+      "transform": "\"Between us — they're announcing layoffs Tuesday.\" -> Someone tipped her off that layoffs were coming Tuesday.",
+      "examples": [
+        "An employee tipped off investigators about the missing inventory.",
+        "She tipped me off that the position was about to be posted.",
+        "Somebody must have tipped them off.",
+        "He was tipped off to the raid an hour beforehand.",
+        "A neighbor tipped off the reporter, and the story ran that week.",
+        "The accent tipped me off that she wasn't from around there."
+      ],
+      "related": ["alert", "warn", "flag", "forewarn"]
+    },
+    {
+      "term": "urge",
+      "ipa": "/ɜrdʒ/",
+      "respell": "URJ",
+      "type": "reporting verb — strong recommendation",
+      "register": "neutral to formal",
+      "patterns": "urge + sb + to-infinitive / urge + that-clause (subjunctive) / urge + noun phrase / urge + sb + on / urge + noun phrase + on/upon + sb",
+      "never": "urge someone doing something; urge someone from doing something; urged that he should be (British, not American)",
+      "meaning": "Recommending with pressure and often urgency, saying nothing about whether it worked. The standard verb of press releases and official statements, which is why it reads as slightly formal in conversation.",
+      "transform": "\"Please, you have to leave now — the road will close within the hour.\" -> They urged us to leave immediately.",
+      "examples": [
+        "Officials urged residents along the coast to evacuate.",
+        "She urged me not to sign anything before Monday.",
+        "The letter urges that the hearing be rescheduled.",
+        "Her doctor urged caution about the dosage.",
+        "He kept urging the horse on.",
+        "I'd urge you to read the whole thing before deciding."
+      ],
+      "related": ["press", "exhort", "advise", "encourage", "warn"]
+    },
+    {
+      "term": "warn",
+      "ipa": "/wɔrn/",
+      "respell": "WORN",
+      "type": "reporting verb — warning",
+      "register": "neutral",
+      "patterns": "warn + sb + to-infinitive / warn + sb + not to-infinitive / warn + sb + that-clause / warn + that-clause / warn + sb + of/about + noun phrase or -ing / warn + (sb) + against + -ing / warn + sb + off",
+      "never": "warn someone from doing something (it is against); warn someone to not do something (the negative goes before to); warn + that + subjunctive (warned him to be careful, not warned that he be careful)",
+      "meaning": "Notice of a danger or bad consequence, with the implication that the hearer can still avoid it. Stronger and more alarmed than caution, more consequential than alert — you alert someone to a fact, you warn them what the fact will cost.",
+      "transform": "\"Don't sign anything until a lawyer has seen it,\" she said. -> She warned me not to sign anything until a lawyer had seen it.",
+      "examples": [
+        "The ranger warned us about the ice on the upper trail.",
+        "Forecasters warned that the storm could stall over the valley.",
+        "He warned her that the offer would expire at midnight.",
+        "Signs warn swimmers against going out past the buoys.",
+        "The guidebook warns against hiking the ridge after noon.",
+        "She warned me off the seafood, and she was right.",
+        "I warned him, and he did it anyway."
+      ],
+      "related": ["caution", "alert", "forewarn", "admonish", "tip off"]
+    },
+    {
+      "term": "win over",
+      "ipa": "/ˌwɪn ˈoʊvər/",
+      "respell": "win-OH-ver",
+      "type": "reporting verb — successful persuasion of an opponent",
+      "register": "neutral to informal",
+      "patterns": "win + sb + over / win over + noun phrase / win + sb + over to + noun phrase",
+      "never": "win someone over to do something; win someone over that; won over her (a pronoun object precedes the particle)",
+      "meaning": "Turning a skeptic or opponent into a supporter. It says nothing about method and everything about the starting point — you can only win over somebody who was against you, which distinguishes it from persuade.",
+      "transform": "\"All right. I still have doubts, but I'm with you.\" -> She won him over.",
+      "examples": [
+        "Her presentation won over the two holdouts on the board.",
+        "It took a year to win the neighborhood over.",
+        "He won me over with the second draft.",
+        "The candidate is trying to win over voters who backed her opponent.",
+        "Nobody was won over by the apology.",
+        "She won them over to the idea of a shorter season."
+      ],
+      "related": ["persuade", "convince", "prevail on", "talk into"]
+    }
+  ]
+}

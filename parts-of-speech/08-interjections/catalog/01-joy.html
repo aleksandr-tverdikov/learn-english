@@ -1,0 +1,431 @@
+<!DOCTYPE html>
+<html lang="en"><head>
+<meta charset="utf-8"><meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Joy, triumph, and enthusiasm</title>
+<style>
+:root{--bg:#faf9f7;--surface:#fff;--surface2:#f2f0ec;--border:#e2ded6;--text:#1a1815;
+--dim:#5f594f;--faint:#8a8377;--accent:#b4552a;--measure:72ch}
+@media(prefers-color-scheme:dark){:root{--bg:#14140f;--surface:#1d1d17;--surface2:#25251d;
+--border:#33332a;--text:#eeeae1;--dim:#a8a293;--faint:#7d776b;--accent:#e8935f}}
+:root[data-theme=dark]{--bg:#14140f;--surface:#1d1d17;--surface2:#25251d;--border:#33332a;
+--text:#eeeae1;--dim:#a8a293;--faint:#7d776b;--accent:#e8935f}
+:root[data-theme=light]{--bg:#faf9f7;--surface:#fff;--surface2:#f2f0ec;--border:#e2ded6;
+--text:#1a1815;--dim:#5f594f;--faint:#8a8377;--accent:#b4552a}
+*{box-sizing:border-box}
+body{margin:0;background:var(--bg);color:var(--text);
+font:17px/1.72 ui-serif,Georgia,"Iowan Old Style",Palatino,serif;-webkit-font-smoothing:antialiased}
+.ui{font-family:-apple-system,BlinkMacSystemFont,"Segoe UI",Inter,Roboto,sans-serif}
+.wrap{max-width:min(var(--measure),100%);margin:0 auto;padding:0 22px}
+nav.crumb{border-bottom:1px solid var(--border);padding:13px 0;font-size:13.5px;
+font-family:-apple-system,sans-serif;position:sticky;top:0;background:var(--bg);z-index:20}
+nav.crumb .wrap{max-width:none;display:flex;gap:9px;align-items:center;flex-wrap:wrap}
+nav.crumb a{color:var(--dim);text-decoration:none}
+nav.crumb a:hover{color:var(--accent)}
+nav.crumb .sep{color:var(--faint)}
+main{padding:8px 0 80px}
+h1{font-size:clamp(28px,5vw,38px);line-height:1.15;letter-spacing:-.015em;margin:34px 0 18px}
+h2{font-size:25px;margin:46px 0 14px;letter-spacing:-.01em;padding-bottom:7px;border-bottom:1px solid var(--border)}
+h3{font-size:19px;margin:34px 0 10px;color:var(--accent)}
+h4{font-size:16px;margin:24px 0 8px;font-family:-apple-system,sans-serif}
+p{margin:0 0 16px}
+a{color:var(--accent)}
+.hash{opacity:0;margin-left:8px;font-weight:400;font-size:.65em;text-decoration:none;color:var(--faint)}
+h2:hover .hash,h3:hover .hash{opacity:1}
+blockquote{margin:0 0 20px;padding:14px 18px;background:var(--surface2);
+border-left:3px solid var(--accent);border-radius:0 8px 8px 0}
+blockquote p:last-child{margin-bottom:0}
+ol,ul{margin:0 0 18px;padding-left:26px}
+li{margin-bottom:8px}
+li>ul,li>ol{margin:8px 0 0}
+code{font-family:ui-monospace,SFMono-Regular,Menlo,Consolas,monospace;font-size:.87em;
+background:var(--surface2);padding:1px 5px;border-radius:4px}
+pre{background:var(--surface2);border:1px solid var(--border);border-radius:9px;
+padding:15px 17px;overflow-x:auto;margin:0 0 20px}
+pre code{background:none;padding:0;font-size:13px;line-height:1.6}
+.tw{overflow-x:auto;margin:0 0 22px;border:1px solid var(--border);border-radius:9px}
+table{border-collapse:collapse;width:100%;font-size:15px;
+font-family:-apple-system,BlinkMacSystemFont,"Segoe UI",sans-serif}
+th,td{padding:10px 14px;border-bottom:1px solid var(--border);vertical-align:top}
+th{background:var(--surface2);font-size:12px;text-transform:uppercase;
+letter-spacing:.06em;color:var(--dim);font-weight:700;white-space:nowrap}
+tbody tr:last-child td{border-bottom:none}
+hr{border:none;border-top:1px solid var(--border);margin:38px 0}
+details{background:var(--surface2);border:1px solid var(--border);border-radius:9px;
+padding:13px 17px;margin:0 0 20px}
+summary{cursor:pointer;font-weight:600;font-family:-apple-system,sans-serif;font-size:15px}
+details[open] summary{margin-bottom:12px}
+del{color:var(--faint)}
+.toc{background:var(--surface2);border:1px solid var(--border);border-radius:10px;
+padding:16px 20px;margin:26px 0 34px;font-family:-apple-system,sans-serif;font-size:14px}
+.toc b{display:block;font-size:11px;letter-spacing:.12em;text-transform:uppercase;
+color:var(--faint);margin-bottom:9px}
+.toc a{display:block;padding:3px 0;color:var(--dim);text-decoration:none}
+.toc a:hover{color:var(--accent)}
+.toc a.l3{padding-left:16px;font-size:13.5px}
+.themebtn{position:fixed;right:18px;bottom:18px;z-index:60;font-family:-apple-system,sans-serif;
+font-size:12.5px;font-weight:600;cursor:pointer;background:var(--surface);border:1px solid var(--border);
+border-radius:99px;padding:9px 16px;color:var(--text)}
+@media(max-width:600px){body{font-size:16px}.wrap{padding:0 17px}}
+</style></head><body>
+<nav class="crumb"><div class="wrap"><a href="../../../index.html">Learn English</a><span class="sep">/</span><a href="../../README.html">Parts of speech</a><span class="sep">/</span><a href="../README.html">08-interjections</a><span class="sep">/</span><span>catalog</span></div></nav>
+<main><div class="wrap"><div class="toc"><b>On this page</b><a class="l2" href="#cheers-and-shouts-of-delight">Cheers and shouts of delight</a><a class="l2" href="#triumph-victory-and-gloating">Triumph, victory, and gloating</a><a class="l2" href="#discovery-and-figuring-it-out">Discovery and figuring it out</a><a class="l2" href="#approval-and-enthusiasm">Approval and enthusiasm</a><a class="l2" href="#flourishes-and-leaps">Flourishes and leaps</a><a class="l2" href="#relief-gratitude-and-vindication">Relief, gratitude, and vindication</a></div><h1 id="joy-triumph-and-enthusiasm">Joy, triumph, and enthusiasm<a class="hash" href="#joy-triumph-and-enthusiasm" aria-label="link">#</a></h1>
+<blockquote><p>The interjections Americans reach for when something goes right — from a quiet <em>nice</em> to a full-throated <em>woo-hoo</em>.</p></blockquote>
+<p><a href="../README.html">← Back to the interjections index</a> &middot; <a href="README.html">All categories</a></p>
+<p>What unites this group is direction: these interjections point outward. They are meant to be heard, they are usually louder and longer than the rest of the class, and almost all of them take an exclamation point in writing. Two families sit side by side here — pure cheers that mean nothing else in the language (<em>yay, woo-hoo, yippee, huzzah</em>) and ordinary praise words pressed into service as interjections (<em>sweet, perfect, nice, excellent</em>), which is where the register risk lives: <em>excellent</em> is safe in a client meeting, <em>boo-yah</em> is not, and <em>hell yeah</em> — which has a mild profanity in it — is further out still.</p>
+<p>Two quirks run through the whole category. First, <strong>lengthening is meaningful</strong>: <em>yesss</em>, <em>sweeet</em>, <em>niiice</em>, and <em>woohooo</em> are not typos but the standard American way of writing an extended, intensified shout — natural in texts and chat, never in edited prose. Second, <strong>almost every entry here has a sarcastic twin</strong>. Said flat, low, and slow, <em>great</em>, <em>terrific</em>, <em>whoopee</em>, <em>hooray</em>, and <em>wonderful</em> all mean the opposite of what they say, and only tone tells you which one you are hearing.</p>
+<h2 id="cheers-and-shouts-of-delight">Cheers and shouts of delight<a class="hash" href="#cheers-and-shouts-of-delight" aria-label="link">#</a></h2>
+<p>The core yells — plus the one hum that does the same job with the mouth shut: primary interjections whose only job is to sound happy.</p>
+<h3 id="hooray">hooray<a class="hash" href="#hooray" aria-label="link">#</a></h3>
+<p><strong>Pronunciation:</strong> /hʊˈreɪ/, /həˈrɑ/ &middot; <em>hoo-RAY, huh-RAH</em> <strong>Type:</strong> primary &middot; <strong>Register:</strong> neutral <strong>Variants:</strong> <em>hurray</em>, <em>hurrah</em>, <em>hoorah</em>, <em>hooray for</em></p>
+<p>The classic English cheer of celebration; the <em>-ay</em> spellings take the <em>hoo-RAY</em> pronunciation and the <em>-ah</em> spellings take <em>huh-RAH</em>. Sincere shouts of <em>hooray</em> now come mostly from children, from crowds, and from the fixed chant <em>hip hip hooray</em>, and adults use it just as often flat and ironic.</p>
+<ol><li>"<em>Hooray!</em>" the kids yelled when the substitute announced a movie day.</li><li>My uncle stood up at the end of the table: "Hip hip—" and the whole room answered, "<em>Hooray!</em>"</li><li>Oh, <em>hooray</em>, another mandatory training video.</li><li><em>Hurrah!</em> The plumber finally called back.</li><li>The last box went into the truck and my mother said, "<em>Hurray</em>, we're done."</li><li><em>Hooray</em> for weekends with nothing on the calendar.</li></ol>
+<p><strong>See also:</strong> <a href="#huzzah">huzzah</a>, <a href="#yay">yay</a>, <a href="#woo-hoo">woo-hoo</a></p>
+<h3 id="hot-dog">hot dog<a class="hash" href="#hot-dog" aria-label="link">#</a></h3>
+<p><strong>Pronunciation:</strong> /ˈhɑt ˌdɔɡ/ &middot; <em>HOT-dawg</em> <strong>Type:</strong> secondary &middot; <strong>Register:</strong> dated <strong>Variants:</strong> <em>hot diggity</em>, <em>hot diggity dog</em>, <em>hot ziggity</em></p>
+<p>An old-fashioned shout of delight at good news, heard mostly from older speakers, in period dialogue, and from younger people doing a deliberate bit. <em>Hot diggity</em> and <em>hot diggity dog</em> are the extended, even more emphatic forms.</p>
+<ol><li>"<em>Hot dog!</em>" Grandpa said when the Tigers turned a double play.</li><li><em>Hot dog</em> — the tickets came through after all.</li><li>She opened the envelope, saw the number, and yelled, "<em>Hot diggity!</em>"</li><li><em>Hot diggity dog</em>, look who finally showed up.</li><li>We got the corner unit? <em>Hot dog!</em></li></ol>
+<p><strong>See also:</strong> <a href="#hooray">hooray</a>, <a href="#huzzah">huzzah</a>, <a href="#oh-boy">oh boy</a>, <a href="#whoopee">whoopee</a></p>
+<h3 id="huzzah">huzzah<a class="hash" href="#huzzah" aria-label="link">#</a></h3>
+<p><strong>Pronunciation:</strong> /həˈzɑ/ &middot; <em>huh-ZAH</em> <strong>Type:</strong> primary &middot; <strong>Register:</strong> dated <strong>Variants:</strong> <em>huzza</em>, <em>huzzah!</em></p>
+<p>An archaic cheer that survives at Renaissance fairs, in historical writing, and — most commonly now — as a deliberately theatrical, tongue-in-cheek substitute for <em>yay</em> in chat and email. Saying it sincerely in modern conversation is a joke in itself.</p>
+<ol><li>The crowd at the joust raised their cups and shouted, "<em>Huzzah!</em>"</li><li>My vacation request went through. <em>Huzzah.</em></li><li><em>Huzzah!</em> The coffee maker lives again.</li><li>"Three cheers for the captain — <em>huzzah, huzzah, huzzah!</em>"</li><li>She announced the news in the group chat with a single word: <em>huzzah</em>.</li></ol>
+<p><strong>See also:</strong> <a href="#hooray">hooray</a>, <a href="#bravo">bravo</a>, <a href="#yay">yay</a></p>
+<h3 id="mmm">mmm<a class="hash" href="#mmm" aria-label="link">#</a></h3>
+<p><strong>Pronunciation:</strong> /m̩ː/ &middot; <em>MMM</em> — a hum rather than ordinary speech sounds: the lips stay shut and the voice holds one note, usually starting high and sliding down, so any respelling is an approximation <strong>Type:</strong> primary &middot; <strong>Register:</strong> informal <strong>Variants:</strong> <em>mmmm</em>, <em>mm</em>, <em>mmmmm</em></p>
+<p>The closed-mouth hum of physical pleasure — lips shut, one hummed note, no vowel in it anywhere — and the standard American response to good food. Length is the volume knob: a short <em>mm</em> is polite, a long <em>mmmmm</em> is a rave. Keep it apart from the flat, clipped <em>mm</em> that only means "I'm listening" and from the falling <em>mm-mm</em> that means no.</p>
+<ol><li>"<em>Mmm.</em> Okay, what's in this?"</li><li>She took the first sip of her coffee with her eyes closed. "<em>Mmmm.</em>"</li><li>He opened the front door, smelled the bread, and went, "<em>Mmm.</em>"</li><li><em>Mmm</em> — first hot meal I've had in three days.</li><li>"How's the soup?" She held up one finger, still chewing. "<em>Mmm.</em>"</li></ol>
+<p><strong>See also:</strong> <a href="#aw-yeah">aw yeah</a>, <a href="#chefs-kiss">chef's kiss</a>, <a href="#oh-boy">oh boy</a></p>
+<h3 id="whee">whee<a class="hash" href="#whee" aria-label="link">#</a></h3>
+<p><strong>Pronunciation:</strong> /wi/ &middot; <em>WEE</em> <strong>Type:</strong> primary &middot; <strong>Register:</strong> childish <strong>Variants:</strong> <em>wheee</em>, <em>wheeee</em></p>
+<p>The sound of pure physical delight — the noise you make going down a slide, over a hill, or around a fast curve. From an adult it is either play with a child or flat, mock-excitement.</p>
+<ol><li>"<em>Wheee!</em>" she yelled all the way down the water slide.</li><li>The car crested the hill and both kids went, "<em>Whee!</em>"</li><li><em>Whee</em>, another Saturday reorganizing the garage.</li><li>He spun his daughter around the kitchen while she shouted <em>whee</em>.</li><li>He pushed off in the desk chair and rolled the whole length of the hallway going, "<em>Wheee.</em>"</li></ol>
+<p><strong>See also:</strong> <a href="#yippee">yippee</a>, <a href="#woo-hoo">woo-hoo</a>, <a href="#yay">yay</a></p>
+<h3 id="whoopee">whoopee<a class="hash" href="#whoopee" aria-label="link">#</a></h3>
+<p><strong>Pronunciation:</strong> /ˈwupi/, /wʊˈpi/ &middot; <em>WOO-pee, woo-PEE</em> <strong>Type:</strong> primary &middot; <strong>Register:</strong> dated <strong>Variants:</strong> <em>whoopie</em>, <em>whoop-de-doo</em></p>
+<p>A cheer of delight that has drifted almost entirely into sarcasm — a sincere <em>whoopee</em> today sounds like a cartoon. The stretched form <em>whoop-de-doo</em> is sarcastic essentially always. Learners should also know the dated slang phrase <em>make whoopee</em>, which is not about cheering.</p>
+<ol><li><em>Whoopee!</em> Two extra days off.</li><li>"We're getting a new copier." "<em>Whoopee.</em>"</li><li>You can hear my grandfather yell "<em>Whoopee!</em>" on the old home movies every time the sled takes off.</li><li>Oh, <em>whoop-de-doo</em> — he remembered my birthday a week late.</li><li><em>Whoopee</em>, I get to spend my vacation in a dentist's chair.</li></ol>
+<p><strong>See also:</strong> <a href="#yippee">yippee</a>, <a href="#hot-dog">hot dog</a>, <a href="#yay">yay</a></p>
+<h3 id="woo-hoo">woo-hoo<a class="hash" href="#woo-hoo" aria-label="link">#</a></h3>
+<p><strong>Pronunciation:</strong> /ˌwuˈhu/ &middot; <em>woo-HOO</em> <strong>Type:</strong> primary &middot; <strong>Register:</strong> informal <strong>Variants:</strong> <em>woohoo</em>, <em>whoo-hoo</em>, <em>woo</em>, <em>whoo</em>, <em>woohooo</em></p>
+<p>The standard modern American cheer, at home both out loud and in writing, where it does the work of an exclamation point. The clipped form <em>woo!</em> is what people shout from an audience.</p>
+<ol><li>"<em>Woo-hoo!</em>" the whole office yelled when the deal closed.</li><li>Flight's on time — <em>woo-hoo!</em></li><li>She texted back one word: <em>woohoo</em>.</li><li><em>Woo!</em> Somebody in the back was clearly enjoying the show.</li><li>We're done with finals, <em>woo-hoo</em>, time to sleep for a week.</li></ol>
+<p><strong>See also:</strong> <a href="#yay">yay</a>, <a href="#yee-haw">yee-haw</a>, <a href="#yahoo">yahoo</a>, <a href="#whee">whee</a></p>
+<h3 id="woot">woot<a class="hash" href="#woot" aria-label="link">#</a></h3>
+<p><strong>Pronunciation:</strong> /wut/ &middot; <em>WOOT</em> <strong>Type:</strong> primary &middot; <strong>Register:</strong> internet/text <strong>Variants:</strong> <em>w00t</em>, <em>woot woot</em>, <em>w00t w00t</em></p>
+<p>The gamer and message-board spelling of the cheer, classically written with zeros for the o's. It peaked in the 2000s, so it now reads as either nostalgic or deliberately dorky; say it out loud only as a joke.</p>
+<ol><li>Patch notes say they fixed the bug — <em>w00t</em>.</li><li><em>Woot woot!</em> Payday.</li><li>He ended the message with "<em>woot</em>" and a string of exclamation points.</li><li>Got the last two tickets. <em>Woot.</em></li><li><em>W00t</em>, my guild finally cleared the raid.</li></ol>
+<p><strong>See also:</strong> <a href="#woo-hoo">woo-hoo</a>, <a href="#boo-yah">boo-yah</a>, <a href="#yes">yes</a></p>
+<h3 id="yahoo">yahoo<a class="hash" href="#yahoo" aria-label="link">#</a></h3>
+<p><strong>Pronunciation:</strong> /jɑˈhu/, /jəˈhu/ &middot; <em>yah-HOO, yuh-HOO</em> <strong>Type:</strong> primary &middot; <strong>Register:</strong> informal <strong>Variants:</strong> <em>wahoo</em> (/wɑˈhu/), <em>yahooey</em></p>
+<p>A whooping cheer with a country, wide-open-spaces flavor. Note that the noun <em>yahoo</em> meaning a loud, crude person is a different word with the stress on the first syllable (/ˈjɑhu/), and the interjection puts the stress on the second.</p>
+<ol><li>"<em>Yahoo!</em>" he shouted, waving his hat as the truck pulled away.</li><li><em>Wahoo!</em> First powder day of the season.</li><li>Somebody up in the balcony let out a <em>yahoo</em> when the band came back for the encore.</li><li>Two weeks off starting Friday — <em>wahoo!</em></li><li><em>Yahoo</em>, we finally paid off the car.</li></ol>
+<p><strong>See also:</strong> <a href="#yee-haw">yee-haw</a>, <a href="#woo-hoo">woo-hoo</a>, <a href="#whoopee">whoopee</a></p>
+<h3 id="yay">yay<a class="hash" href="#yay" aria-label="link">#</a></h3>
+<p><strong>Pronunciation:</strong> /jeɪ/ &middot; <em>YAY</em> <strong>Type:</strong> primary &middot; <strong>Register:</strong> informal <strong>Variants:</strong> <em>yaay</em>, <em>yayyy</em>, <em>yayyyy</em></p>
+<p>The everyday cheer of small, warm happiness — softer and friendlier than <em>woo-hoo</em>, and by far the most common written cheer in American texting. Do not confuse it with <em>yea</em>, the archaic <em>yes</em> and vote in favor, which sounds identical but means something else entirely.</p>
+<ol><li><em>Yay!</em> You made it.</li><li>She's coming to the wedding after all — <em>yay</em>.</li><li>"Pizza's here." "<em>Yayyy.</em>"</li><li><em>Yay</em>, no more waking up at five.</li><li>He gave a little <em>yay</em> and a fist pump when the printer finally worked.</li><li>Oh <em>yay</em>, another meeting that could have been an email.</li></ol>
+<p><strong>See also:</strong> <a href="#woo-hoo">woo-hoo</a>, <a href="#yippee">yippee</a>, <a href="#nice">nice</a>, <a href="#hooray">hooray</a></p>
+<h3 id="yee-haw">yee-haw<a class="hash" href="#yee-haw" aria-label="link">#</a></h3>
+<p><strong>Pronunciation:</strong> /ˈjiˌhɔ/, /ˌjiˈhɔ/ &middot; <em>YEE-haw, yee-HAW</em> <strong>Type:</strong> primary &middot; <strong>Register:</strong> informal (Western and Southern flavor, used nationwide) <strong>Variants:</strong> <em>yeehaw</em>, <em>yee-hah</em>, <em>yeeeehaw</em></p>
+<p>The cowboy whoop, Western and Southern in origin and used all over the country as a playful, rodeo-flavored cheer. Both stress patterns are current — <em>YEE-haw</em> clipped, <em>yee-HAW</em> stretched into a real holler. It is sincere at a rodeo or a country concert and mostly costume everywhere else.</p>
+<ol><li>The bull rider stayed on for eight seconds and the arena erupted — <em>yee-haw!</em></li><li><em>Yee-haw</em>, boys, the rain finally quit.</li><li>She put on her boots, looked in the mirror, and said, "<em>Yeehaw</em>."</li><li>The band started the line dance and half the wedding hollered <em>yee-haw</em>.</li><li>He rode the mechanical bull for four seconds, yelled <em>yee-haw</em>, and hit the mat.</li></ol>
+<p><strong>See also:</strong> <a href="#yahoo">yahoo</a>, <a href="#cowabunga">cowabunga</a>, <a href="#woo-hoo">woo-hoo</a></p>
+<h3 id="yippee">yippee<a class="hash" href="#yippee" aria-label="link">#</a></h3>
+<p><strong>Pronunciation:</strong> /ˈjɪpi/, /jɪˈpi/ &middot; <em>YIP-ee, yip-EE</em> <strong>Type:</strong> primary &middot; <strong>Register:</strong> childish <strong>Variants:</strong> <em>yippie</em>, <em>yipee</em>, <em>yippee-ki-yay</em></p>
+<p>A bouncy cheer strongly associated with children. From an adult it carries either affection or sarcasm, and the movie-quotable extension <em>yippee-ki-yay</em> is its own small joke — though the full <em>Die Hard</em> line ends in a strong profanity, so quoting all of it is not a workplace move.</p>
+<ol><li>"<em>Yippee!</em>" the kids shouted when they saw the pool.</li><li><em>Yippee</em>, three hours of traffic to see my in-laws.</li><li>Snow day! <em>Yippee!</em></li><li>He came out of the exam grinning and said a quiet <em>yippee</em>.</li><li><em>Yippee-ki-yay</em> — we finally sold the house.</li></ol>
+<p><strong>See also:</strong> <a href="#whee">whee</a>, <a href="#yay">yay</a>, <a href="#whoopee">whoopee</a></p>
+<h2 id="triumph-victory-and-gloating">Triumph, victory, and gloating<a class="hash" href="#triumph-victory-and-gloating" aria-label="link">#</a></h2>
+<p>Shouted at the moment of winning. Several of these are aimed at a loser, which makes them friendly among friends and rude everywhere else.</p>
+<h3 id="aw-yeah">aw yeah<a class="hash" href="#aw-yeah" aria-label="link">#</a></h3>
+<p><strong>Pronunciation:</strong> /ˌɔ ˈjɛə/ &middot; <em>aw-YEAH</em> <strong>Type:</strong> phrase &middot; <strong>Register:</strong> very informal <strong>Variants:</strong> <em>aww yeah</em>, <em>awww yeah</em>, <em>aw yiss</em></p>
+<p>A drawn-out sound of relish and anticipation, used when something you have been looking forward to is finally in front of you — very often food, music, or a favorite thing. It savors; the closely related <em>oh yeah</em> celebrates.</p>
+<ol><li><em>Aw yeah</em>, they still have the peach pie.</li><li>He heard the first two notes of the song and went, "<em>Aww yeah</em>."</li><li>New season drops Friday. <em>Aw yeah.</em></li><li><em>Aw yeah</em> — three-day weekend, and I'm not doing a thing.</li><li>He dropped onto the hotel bed after nine hours of driving. "<em>Awww yeah.</em>"</li></ol>
+<p><strong>See also:</strong> <a href="#oh-yeah">oh yeah</a>, <a href="#sweet">sweet</a>, <a href="#boom">boom</a></p>
+<h3 id="bam">bam<a class="hash" href="#bam" aria-label="link">#</a></h3>
+<p><strong>Pronunciation:</strong> /bæm/ &middot; <em>BAM</em> <strong>Type:</strong> onomatopoeic &middot; <strong>Register:</strong> informal <strong>Variants:</strong> <em>ba-bam</em>, <em>bammo</em>, <em>bam!</em></p>
+<p>A verbal drumbeat marking the instant something lands — a last step completed, a point proven, a flourish at the end of a demonstration. It borrows the sound of an impact to say "there it is," and it is strongly associated with the chef Emeril Lagasse.</p>
+<ol><li>You hit save, refresh the page, and <em>bam</em> — the whole thing works.</li><li>Two tablespoons of the good stuff and <em>bam!</em> Dinner is done.</li><li>He pulled the receipt out of his wallet — <em>bam</em> — and the argument was over.</li><li><em>Ba-bam!</em> Groceries, laundry, and the oil change, all before noon.</li><li>She lined up the putt, tapped it, and <em>bam</em>, right in the cup.</li></ol>
+<p><strong>See also:</strong> <a href="#boom">boom</a>, <a href="#kapow">kapow</a>, <a href="#ta-da">ta-da</a>, <a href="#nailed-it">nailed it</a></p>
+<h3 id="boo-yah">boo-yah<a class="hash" href="#boo-yah" aria-label="link">#</a></h3>
+<p><strong>Pronunciation:</strong> /ˈbuˌjɑ/, /buˈjɑ/ &middot; <em>BOO-yah, boo-YAH</em> <strong>Type:</strong> primary &middot; <strong>Register:</strong> very informal <strong>Variants:</strong> <em>booyah</em>, <em>boo-ya</em>, <em>boo-yeah</em></p>
+<p>A loud victory shout with a taunt built into it, popularized by the ESPN anchor Stuart Scott. It is peak-1990s slang that Americans still use, usually half-jokingly, at the moment a shot goes in or a job gets crushed.</p>
+<ol><li>Nothing but net. <em>Boo-yah!</em></li><li><em>Booyah</em> — inbox at zero for the first time in a month.</li><li>He slapped the table and yelled, "<em>Boo-yah!</em>" when his team scored.</li><li>I found the receipt. <em>Boo-ya.</em> You owe me twenty bucks.</li><li>His fantasy team beat mine by half a point and I had to hear <em>booyah</em> all week.</li></ol>
+<p><strong>See also:</strong> <a href="#in-your-face">in your face</a>, <a href="#take-that">take that</a>, <a href="#oh-yeah">oh yeah</a>, <a href="#score">score</a></p>
+<h3 id="boom">boom<a class="hash" href="#boom" aria-label="link">#</a></h3>
+<p><strong>Pronunciation:</strong> /bum/ &middot; <em>BOOM</em> <strong>Type:</strong> onomatopoeic &middot; <strong>Register:</strong> informal <strong>Variants:</strong> <em>ka-boom</em>, <em>boom!</em>, <em>boom goes the dynamite</em></p>
+<p>Said at the instant something is finished, proven, or delivered, usually with a hand gesture to match. It also punctuates the steps of a demonstration, standing in for "and there you have it."</p>
+<ol><li>Sign here, initial there, and <em>boom</em> — you're a homeowner.</li><li><em>Boom!</em> Called it three weeks ago.</li><li>You just drag the file into the folder and <em>boom</em>, it syncs.</li><li>He hit the last free throw and the whole bench went, "<em>Boom!</em>"</li><li>Two hours of work, and <em>boom</em>, the deck was done.</li></ol>
+<p><strong>See also:</strong> <a href="#bam">bam</a>, <a href="#kapow">kapow</a>, <a href="#nailed-it">nailed it</a></p>
+<h3 id="cha-ching">cha-ching<a class="hash" href="#cha-ching" aria-label="link">#</a></h3>
+<p><strong>Pronunciation:</strong> /tʃəˈtʃɪŋ/ &middot; <em>chuh-CHING</em> <strong>Type:</strong> onomatopoeic &middot; <strong>Register:</strong> informal <strong>Variants:</strong> <em>ka-ching</em>, <em>cha-ching!</em></p>
+<p>An imitation of an old cash register drawer, said when money comes in or a deal pays off. It is equally common as a dry comment on somebody else's profit.</p>
+<ol><li>The client signed the bigger contract — <em>cha-ching!</em></li><li>Every time he says "small consulting fee," I hear <em>ka-ching</em>.</li><li>She sold three paintings on opening night. <em>Cha-ching.</em></li><li><em>Cha-ching!</em> The tax refund just hit the account.</li><li>Add a service charge to every ticket and, <em>ka-ching</em>, there's their whole margin.</li></ol>
+<p><strong>See also:</strong> <a href="#score">score</a>, <a href="#boom">boom</a>, <a href="#sweet">sweet</a></p>
+<h3 id="gotcha">gotcha<a class="hash" href="#gotcha" aria-label="link">#</a></h3>
+<p><strong>Pronunciation:</strong> /ˈɡɑtʃə/ &middot; <em>GOTCH-uh</em> <strong>Type:</strong> secondary &middot; <strong>Register:</strong> informal <strong>Variants:</strong> <em>got you</em>, <em>gotchya</em>, <em>gotcha!</em></p>
+<p>In this category, the shout of a catch made or a trick landed: you caught someone, you fooled them, or you finally found the thing you were hunting for. The same word said quietly means "I understand," which is a separate and much more common use.</p>
+<ol><li>He grabbed the back of her jacket at the last second. "<em>Gotcha!</em>"</li><li><em>Gotcha!</em> Your face when you opened that box was worth it.</li><li>I checked the log twice, and there it was on line 400 — <em>gotcha</em>.</li><li>She pulled up the timestamp on the photo. "So you were at the game. <em>Gotcha.</em>"</li><li>The cat bolted for the door and my brother scooped him up. "<em>Gotcha</em>, buddy."</li></ol>
+<p><strong>See also:</strong> <a href="#aha">aha</a>, <a href="#bingo">bingo</a>, <a href="#take-that">take that</a>, <a href="#in-your-face">in your face</a></p>
+<h3 id="hell-yeah">hell yeah<a class="hash" href="#hell-yeah" aria-label="link">#</a></h3>
+<p><strong>Pronunciation:</strong> /ˌhɛl ˈjɛə/ &middot; <em>hel-YEAH</em> <strong>Type:</strong> phrase &middot; <strong>Register:</strong> very informal (contains a mild profanity) <strong>Variants:</strong> <em>hell yes</em>, <em>aw hell yeah</em>, <em>hell to the yes</em>, <em>heck yeah</em> (the clean substitute)</p>
+<p>Emphatic, delighted triumph with a swear word riding on it. <em>Hell</em> sits at the mild end of American profanity, but it is still profanity: it costs you nothing among friends and it can cost you a job interview. <em>Heck yeah</em> is the drop-in replacement, and it is safe everywhere the real thing is not.</p>
+<ol><li>The last out landed in the glove and half the bleachers yelled, "<em>Hell yeah!</em>"</li><li>We got the same beach house as last year? <em>Hell yes.</em></li><li>"Did you get it?" "<em>Hell yeah</em> I got it. Signed this morning."</li><li><em>Heck yeah</em> — I've been waiting all season for this.</li><li>He looked at the final score, nodded once, and said a quiet "<em>hell yeah</em>."</li></ol>
+<p><strong>See also:</strong> <a href="#oh-yeah">oh yeah</a>, <a href="#aw-yeah">aw yeah</a>, <a href="#yes">yes</a>, <a href="#boo-yah">boo-yah</a></p>
+<h3 id="in-your-face">in your face<a class="hash" href="#in-your-face" aria-label="link">#</a></h3>
+<p><strong>Pronunciation:</strong> /ˌɪn jɚ ˈfeɪs/ &middot; <em>in-yer-FACE</em> <strong>Type:</strong> phrase &middot; <strong>Register:</strong> very informal (a taunt — genuinely rude outside close friendship) <strong>Variants:</strong> <em>in yo face</em>, <em>in your face!</em></p>
+<p>A pure gloat, shouted at the person you just beat. It is friendly between friends and openly rude to anyone else — never at work, never to a stranger, and never to someone who is actually upset about losing.</p>
+<ol><li><em>In your face!</em> I told you I could beat you at pool.</li><li>He sank the shot, turned to the bench, and yelled, "<em>In your face!</em>"</li><li>She got the promotion he swore she'd never get. <em>In your face.</em></li><li>"<em>In yo face</em>," my little brother said, holding up the winning card.</li><li>We took the last three games. <em>In your face</em>, and I want that twenty in cash.</li></ol>
+<p><strong>See also:</strong> <a href="#take-that">take that</a>, <a href="#boo-yah">boo-yah</a>, <a href="#oh-yeah">oh yeah</a>, <a href="#gotcha">gotcha</a></p>
+<h3 id="kapow">kapow<a class="hash" href="#kapow" aria-label="link">#</a></h3>
+<p><strong>Pronunciation:</strong> /kəˈpaʊ/ &middot; <em>kuh-POW</em> <strong>Type:</strong> onomatopoeic &middot; <strong>Register:</strong> informal <strong>Variants:</strong> <em>ka-pow</em>, <em>pow</em>, <em>kapow!</em></p>
+<p>A comic-book punch sound borrowed as a celebration flourish: the effect lands, the trick works, the problem gets knocked out. It is more cartoonish and less common than <em>bam</em> or <em>boom</em>.</p>
+<ol><li>One coat of primer, one coat of paint, and <em>kapow</em> — brand new room.</li><li><em>Kapow!</em> That's how you end a presentation.</li><li>He hit the last chord and the lights dropped. <em>Ka-pow.</em></li><li>Add a little lemon zest at the end and <em>pow</em>, the whole dish wakes up.</li><li>She laid the winning card down on the table — <em>kapow</em>.</li></ol>
+<p><strong>See also:</strong> <a href="#bam">bam</a>, <a href="#boom">boom</a>, <a href="#ta-da">ta-da</a></p>
+<h3 id="lets-go">let's go<a class="hash" href="#lets-go" aria-label="link">#</a></h3>
+<p><strong>Pronunciation:</strong> /ˌlɛts ˈɡoʊ/ &middot; <em>lets-GO</em> <strong>Type:</strong> phrase &middot; <strong>Register:</strong> very informal <strong>Variants:</strong> <em>let's gooo</em>, <em>let's goooo</em>, <em>LET'S GO</em>, <em>let's freaking go</em></p>
+<p>The current American hype shout, yelled at any moment that is going your way — a made shot, a signed offer, good news landing in a group chat. Stretched spellings like <em>let's gooo</em> carry the length of the yell in writing. The literal "we should leave now" sense is the same two words said flat, and only the pitch keeps them apart.</p>
+<ol><li>"<em>Let's go!</em>" he yelled at the television with both arms over his head.</li><li>Interview's Tuesday. <em>Let's gooo.</em></li><li>She hit send on the last application and said, "<em>Let's go.</em>"</li><li>The group chat was twelve people typing <em>LET'S GO</em> in a row.</li><li>Two more wins and we're in. <em>Let's freaking go.</em></li></ol>
+<p><strong>See also:</strong> <a href="#oh-yeah">oh yeah</a>, <a href="#woo-hoo">woo-hoo</a>, <a href="#yes">yes</a>, <a href="#hell-yeah">hell yeah</a></p>
+<h3 id="nailed-it">nailed it<a class="hash" href="#nailed-it" aria-label="link">#</a></h3>
+<p><strong>Pronunciation:</strong> /ˈneɪld ɪt/ &middot; <em>NAILED-it</em> <strong>Type:</strong> phrase &middot; <strong>Register:</strong> informal <strong>Variants:</strong> <em>totally nailed it</em>, <em>nailed it!</em></p>
+<p>A self-congratulation said the moment you do something exactly right. Americans use it just as often in reverse — deadpan, immediately after a spectacular failure — and that ironic use is now at least as common as the sincere one.</p>
+<ol><li>Landed the parallel park on the first try. <em>Nailed it.</em></li><li>"<em>Nailed it!</em>" she said, pulling a perfect cake out of the pan.</li><li>He hit every note in the audition — <em>nailed it</em>.</li><li>The frosting slid off, the layers collapsed, and my son said, "<em>Nailed it</em>."</li><li><em>Nailed it.</em> Three questions, three right answers, no notes.</li></ol>
+<p><strong>See also:</strong> <a href="#score">score</a>, <a href="#boom">boom</a>, <a href="#bam">bam</a>, <a href="#perfect">perfect</a></p>
+<h3 id="oh-yeah">oh yeah<a class="hash" href="#oh-yeah" aria-label="link">#</a></h3>
+<p><strong>Pronunciation:</strong> /ˌoʊ ˈjɛə/ &middot; <em>oh-YEAH</em> <strong>Type:</strong> phrase &middot; <strong>Register:</strong> very informal <strong>Variants:</strong> <em>ohhh yeah</em>, <em>oh yeahhh</em>, <em>oh yeah!</em></p>
+<p>A shout of triumph or vindication at the moment something goes your way. Two related uses share the spelling: said flat and low it means "I remember now," and said with a rising question it is a challenge — <em>Oh yeah? Prove it.</em></p>
+<ol><li><em>Oh yeah!</em> That's what I'm talking about.</li><li>The ball went in off the backboard and he screamed, "<em>Ohhh yeah!</em>"</li><li>We got the apartment. <em>Oh yeah.</em></li><li><em>Oh yeah</em>, baby — first place, two years running.</li><li>She read the email, jumped up, and let out a long <em>oh yeahhh</em>.</li></ol>
+<p><strong>See also:</strong> <a href="#aw-yeah">aw yeah</a>, <a href="#yes">yes</a>, <a href="#boo-yah">boo-yah</a>, <a href="#in-your-face">in your face</a></p>
+<h3 id="score">score<a class="hash" href="#score" aria-label="link">#</a></h3>
+<p><strong>Pronunciation:</strong> /skɔr/ &middot; <em>SCORE</em> <strong>Type:</strong> secondary &middot; <strong>Register:</strong> informal <strong>Variants:</strong> <em>score!</em>, <em>big score</em></p>
+<p>Said when you get something good — cheaply, luckily, or for free. Unlike most of this section it is about acquisition rather than beating anybody: a find, a deal, a lucky break.</p>
+<ol><li>Somebody left a whole box of donuts in the break room. <em>Score!</em></li><li><em>Score</em> — front row parking on a Saturday.</li><li>She found the jacket she wanted at half price. "<em>Score.</em>"</li><li>Two free upgrades and a lounge pass? <em>Score!</em></li><li>They're giving away the extra tickets. <em>Score</em>, I'm in.</li></ol>
+<p><strong>See also:</strong> <a href="#sweet">sweet</a>, <a href="#nice">nice</a>, <a href="#cha-ching">cha-ching</a>, <a href="#boo-yah">boo-yah</a></p>
+<h3 id="take-that">take that<a class="hash" href="#take-that" aria-label="link">#</a></h3>
+<p><strong>Pronunciation:</strong> /ˌteɪk ˈðæt/ &middot; <em>take-THAT</em> <strong>Type:</strong> phrase &middot; <strong>Register:</strong> very informal <strong>Variants:</strong> <em>and take that</em>, <em>take that!</em></p>
+<p>A gloat aimed at a beaten opponent, or — more safely — at an object, a machine, or the universe. Aimed at a person you are not close to, it is a genuine insult.</p>
+<ol><li><em>Take that!</em> Fifteen points in one word.</li><li>He finally got the lid off the jar and said, "<em>Take that</em>."</li><li>She beat her own record by four seconds. <em>Take that</em>, everybody who said she couldn't.</li><li><em>Take that</em>, Monday. Coffee wins again.</li><li>Their star player fouled out and the crowd roared. "<em>Take that!</em>"</li></ol>
+<p><strong>See also:</strong> <a href="#in-your-face">in your face</a>, <a href="#boo-yah">boo-yah</a>, <a href="#gotcha">gotcha</a>, <a href="#oh-yeah">oh yeah</a></p>
+<h3 id="yes">yes<a class="hash" href="#yes" aria-label="link">#</a></h3>
+<p><strong>Pronunciation:</strong> /jɛs/ &middot; <em>YES</em> <strong>Type:</strong> secondary &middot; <strong>Register:</strong> informal <strong>Variants:</strong> <em>yess</em>, <em>yesss</em>, <em>yessss</em>, <em>yes!</em></p>
+<p>The ordinary word <em>yes</em>, shouted with a fist pump and no question anywhere in sight, is one of the most common American victory cries. In writing, the extra s's carry the length of the shout: <em>yesss</em> is not a typo but the standard way to show a drawn-out celebration.</p>
+<ol><li><em>Yes!</em> We got the grant.</li><li>He watched the ball drop through the hoop and yelled "<em>Yes!</em>" at the television.</li><li>"The test came back clean." "<em>Yesss.</em>"</li><li><em>Yes yes yes</em> — that's exactly the color I wanted.</li><li>She read the last line of the email and whispered, "<em>Yes</em>."</li></ol>
+<p><strong>See also:</strong> <a href="#oh-yeah">oh yeah</a>, <a href="#boom">boom</a>, <a href="#all-right">all right</a>, <a href="#woo-hoo">woo-hoo</a></p>
+<h2 id="discovery-and-figuring-it-out">Discovery and figuring it out<a class="hash" href="#discovery-and-figuring-it-out" aria-label="link">#</a></h2>
+<p>The small triumph of a piece clicking into place: you found it, you solved it, you were right.</p>
+<h3 id="aha">aha<a class="hash" href="#aha" aria-label="link">#</a></h3>
+<p><strong>Pronunciation:</strong> /ɑˈhɑ/ &middot; <em>ah-HAH</em> <strong>Type:</strong> primary &middot; <strong>Register:</strong> neutral <strong>Variants:</strong> <em>a-ha</em>, <em>ah-ha</em>, <em>ahaa</em></p>
+<p>The sound of something clicking into place — you have solved it, spotted it, or caught someone out. Loud, it is a small triumph; quiet, it is just the sound of understanding. English has even named the experience: an <em>aha moment</em>.</p>
+<ol><li><em>Aha!</em> The wire was loose the whole time.</li><li>She read the second page and went, "<em>Aha</em> — that's where the money went."</li><li><em>Aha</em>, so you're the one who's been taking my chargers.</li><li>He tapped the map. "<em>Aha.</em> We've been reading it upside down."</li><li>That was my <em>aha</em> moment: the two files had the same name.</li></ol>
+<p><strong>See also:</strong> <a href="#bingo">bingo</a>, <a href="#eureka">eureka</a>, <a href="#gotcha">gotcha</a></p>
+<h3 id="bingo">bingo<a class="hash" href="#bingo" aria-label="link">#</a></h3>
+<p><strong>Pronunciation:</strong> /ˈbɪŋɡoʊ/ &middot; <em>BING-oh</em> <strong>Type:</strong> secondary &middot; <strong>Register:</strong> informal <strong>Variants:</strong> <em>bingo!</em></p>
+<p>From the game, where it is the shout that ends the round: it means "that is exactly it." Americans say it when a guess lands, a search succeeds, or somebody else says precisely the right thing.</p>
+<ol><li>"So the charge was on the second card?" "<em>Bingo.</em>"</li><li>He tried the third key and — <em>bingo</em> — the door opened.</li><li><em>Bingo!</em> That's the name I've been trying to remember all day.</li><li>I checked the spare room, and <em>bingo</em>, there was the missing remote.</li><li>"You think they raised the rate without telling us?" "<em>Bingo.</em> Page four."</li></ol>
+<p><strong>See also:</strong> <a href="#aha">aha</a>, <a href="#eureka">eureka</a>, <a href="#gotcha">gotcha</a>, <a href="#nailed-it">nailed it</a></p>
+<h3 id="eureka">eureka<a class="hash" href="#eureka" aria-label="link">#</a></h3>
+<p><strong>Pronunciation:</strong> /jʊˈrikə/ &middot; <em>yoo-REE-kuh</em> <strong>Type:</strong> secondary &middot; <strong>Register:</strong> informal <strong>Variants:</strong> <em>eureka!</em></p>
+<p>Borrowed from Greek — "I have found it" — and attributed to Archimedes in the bath. Americans almost never shout it sincerely; it marks a breakthrough with a wink, and it survives in the fixed phrase <em>eureka moment</em>. It is also the state motto of California.</p>
+<ol><li><em>Eureka!</em> I finally know why the numbers didn't add up.</li><li>Three weeks of testing, and then one Tuesday morning, <em>eureka</em>.</li><li>He came out of the lab waving a printout and yelling, "<em>Eureka!</em>"</li><li><em>Eureka</em> — the missing sock was inside the duvet cover the whole time.</li><li>She had a <em>eureka</em> moment in the shower and wrote the whole chapter that night.</li></ol>
+<p><strong>See also:</strong> <a href="#aha">aha</a>, <a href="#bingo">bingo</a>, <a href="#voilà">voilà</a></p>
+<h3 id="jackpot">jackpot<a class="hash" href="#jackpot" aria-label="link">#</a></h3>
+<p><strong>Pronunciation:</strong> /ˈdʒækˌpɑt/ &middot; <em>JAK-pot</em> <strong>Type:</strong> secondary &middot; <strong>Register:</strong> informal <strong>Variants:</strong> <em>jackpot!</em>, <em>hit the jackpot</em></p>
+<p>Out of slot machines and poker: the shout for a search that turns up far more than you were hoping for. It is <em>bingo</em> with luck attached — you did not just find the thing, you found all of it at once.</p>
+<ol><li>He opened the drawer, saw the whole stack of batteries, and said, "<em>Jackpot.</em>"</li><li><em>Jackpot!</em> Somebody left three good chairs and a lamp out on the curb.</li><li>She checked the coat pocket one more time — <em>jackpot</em>, there was the twenty.</li><li>Two pages into the contract I found the clause they'd buried. <em>Jackpot.</em></li><li>Free parking <em>and</em> a spot in the shade. <em>Jackpot.</em></li></ol>
+<p><strong>See also:</strong> <a href="#bingo">bingo</a>, <a href="#eureka">eureka</a>, <a href="#aha">aha</a>, <a href="#score">score</a></p>
+<h2 id="approval-and-enthusiasm">Approval and enthusiasm<a class="hash" href="#approval-and-enthusiasm" aria-label="link">#</a></h2>
+<p>Mostly secondary interjections — ordinary adjectives shouted on their own. This is where register matters most: <em>excellent</em> belongs in a client meeting, <em>sick</em> does not.</p>
+<h3 id="all-right">all right<a class="hash" href="#all-right" aria-label="link">#</a></h3>
+<p><strong>Pronunciation:</strong> /ˌɔlˈraɪt/ &middot; <em>awl-RITE</em> <strong>Type:</strong> phrase &middot; <strong>Register:</strong> informal <strong>Variants:</strong> <em>alright</em>, <em>awright</em>, <em>aight</em>, <em>all riiight</em></p>
+<p>With the stress thrown onto the second word and the pitch rising, it is a cheer of approval and encouragement: "yes, good, keep going." Said level and flat, the same two words mean "okay," which is an entirely different use. The one-word spelling <em>alright</em> is common but still nonstandard in edited prose.</p>
+<ol><li><em>All right!</em> Now we're getting somewhere.</li><li>He hit the high note and somebody in the back yelled, "<em>All riiight!</em>"</li><li><em>Alright</em>, first place — I knew you had it in you.</li><li>"I got the job." "<em>All right!</em> Congratulations."</li><li><em>All right</em>, that's three in a row. Keep it going.</li></ol>
+<p><strong>See also:</strong> <a href="#yes">yes</a>, <a href="#nice">nice</a>, <a href="#great">great</a>, <a href="#attaboy">attaboy</a></p>
+<h3 id="amazing">amazing<a class="hash" href="#amazing" aria-label="link">#</a></h3>
+<p><strong>Pronunciation:</strong> /əˈmeɪzɪŋ/ &middot; <em>uh-MAY-zing</em> <strong>Type:</strong> secondary &middot; <strong>Register:</strong> neutral <strong>Variants:</strong> <em>that's amazing</em>, <em>aMAZing</em>, <em>amazing!</em></p>
+<p>One of the most common American approval words of the last twenty years, stretched to cover everything from a real feat to a coworker sending a file on time. The inflation is complete — nobody saying it is actually amazed — and like the rest of the safe praise words, said flat it turns into sarcasm.</p>
+<ol><li>"<em>Amazing.</em> Thank you for turning that around so fast."</li><li>She came out of the water at the end of the swim and nobody could say anything but "<em>amazing</em>."</li><li><em>Amazing</em> — you found it in five minutes and I looked for an hour.</li><li>"They comped the entire meal." "<em>That's amazing.</em>"</li><li>Third cancellation this week. <em>Amazing.</em></li></ol>
+<p><strong>See also:</strong> <a href="#awesome">awesome</a>, <a href="#fantastic">fantastic</a>, <a href="#great">great</a>, <a href="#beautiful">beautiful</a></p>
+<h3 id="attaboy">attaboy<a class="hash" href="#attaboy" aria-label="link">#</a></h3>
+<p><strong>Pronunciation:</strong> /ˈætəˌbɔɪ/ &middot; <em>AT-uh-boy</em> <strong>Type:</strong> phrase &middot; <strong>Register:</strong> informal <strong>Variants:</strong> <em>attagirl</em>, <em>atta boy</em>, <em>attaway</em></p>
+<p>A shout of encouragement and praise aimed at somebody else — standard from coaches, parents, and dog owners. Between adults at work it can sound condescending, and <em>attagirl</em> said by a man to a woman colleague often lands badly.</p>
+<ol><li>"<em>Attaboy!</em>" the coach shouted as the kid rounded third.</li><li>She stuck the landing and her dad yelled, "<em>Attagirl!</em>"</li><li><em>Attaboy</em>, Cooper — good dog.</li><li>He finished the whole set without stopping. <em>Attaboy.</em></li><li>"<em>Attaway</em>, keep that pace," her running partner called from behind her.</li></ol>
+<p><strong>See also:</strong> <a href="#bravo">bravo</a>, <a href="#all-right">all right</a>, <a href="#nice">nice</a>, <a href="#great">great</a></p>
+<h3 id="awesome">awesome<a class="hash" href="#awesome" aria-label="link">#</a></h3>
+<p><strong>Pronunciation:</strong> /ˈɔsəm/ &middot; <em>AW-sum</em> <strong>Type:</strong> secondary &middot; <strong>Register:</strong> informal <strong>Variants:</strong> <em>totally awesome</em>, <em>awesomesauce</em>, <em>awesome!</em></p>
+<p>The all-purpose American approval word. Despite the <em>awe</em> inside it, it means "great" and nothing grander, and as a bare interjection it doubles as a friendly acknowledgment — "Awesome, thanks" simply means "got it."</p>
+<ol><li>"I can pick you up at seven." "<em>Awesome.</em>"</li><li><em>Awesome!</em> You finished the whole thing already?</li><li>They upgraded us to a suite. <em>Awesome.</em></li><li><em>Awesome</em> — send me the file and I'll take a look tonight.</li><li>He tried the first bite and said, "Okay, that's <em>awesome</em>."</li></ol>
+<p><strong>See also:</strong> <a href="#sweet">sweet</a>, <a href="#cool">cool</a>, <a href="#nice">nice</a>, <a href="#great">great</a></p>
+<h3 id="beautiful">beautiful<a class="hash" href="#beautiful" aria-label="link">#</a></h3>
+<p><strong>Pronunciation:</strong> /ˈbjutəfəl/ &middot; <em>BYOO-tuh-full</em> <strong>Type:</strong> secondary &middot; <strong>Register:</strong> informal <strong>Variants:</strong> <em>byoo-tee-full</em>, <em>beautiful!</em></p>
+<p>As an interjection it means "perfectly done" and has nothing to do with looks — it is what a coach, a contractor, or a photographer says when something comes out exactly right. Said flat after something goes wrong, it is standard sarcasm.</p>
+<ol><li>Hold it right there — <em>beautiful</em>. Got the shot.</li><li><em>Beautiful!</em> That's the cleanest job we've had all week.</li><li>He backed the trailer in on the first try. "<em>Beautiful.</em>"</li><li>Two coats and it's done. <em>Beautiful.</em></li><li>The power went out halfway through. "<em>Beautiful</em>," she said.</li></ol>
+<p><strong>See also:</strong> <a href="#perfect">perfect</a>, <a href="#nice">nice</a>, <a href="#great">great</a>, <a href="#bravo">bravo</a></p>
+<h3 id="bravo">bravo<a class="hash" href="#bravo" aria-label="link">#</a></h3>
+<p><strong>Pronunciation:</strong> /ˈbrɑvoʊ/, /brɑˈvoʊ/ &middot; <em>BRAH-voh, brah-VOH</em> <strong>Type:</strong> secondary &middot; <strong>Register:</strong> neutral <strong>Variants:</strong> <em>brava</em>, <em>bravi</em>, <em>bravo!</em></p>
+<p>Shouted at performers at the end of a performance, and used more broadly as a compliment for something skillfully done. What sounds formal about it is the concert hall, not the word — it is just as ordinary said across a kitchen table. Italian gives it three forms — <em>bravo</em> to a man, <em>brava</em> to a woman, <em>bravi</em> to a group — though most Americans use <em>bravo</em> for everyone. Outside a theater it often carries a note of irony.</p>
+<ol><li>The soprano finished and half the hall was on its feet shouting, "<em>Bravo!</em>"</li><li><em>Bravo</em> — that was the best closing argument I've heard in years.</li><li>"<em>Brava!</em>" someone called from the balcony.</li><li>You fixed it yourself, without calling anyone? <em>Bravo.</em></li><li>He read the last line, closed the book, and said quietly, "<em>Bravo</em>."</li></ol>
+<p><strong>See also:</strong> <a href="#attaboy">attaboy</a>, <a href="#huzzah">huzzah</a>, <a href="#beautiful">beautiful</a>, <a href="#excellent">excellent</a></p>
+<h3 id="chefs-kiss">chef's kiss<a class="hash" href="#chefs-kiss" aria-label="link">#</a></h3>
+<p><strong>Pronunciation:</strong> /ˌʃɛfs ˈkɪs/ &middot; <em>shefs-KISS</em> <strong>Type:</strong> phrase &middot; <strong>Register:</strong> informal (also internet/text) <strong>Variants:</strong> <em>chefs kiss</em>, <em>mwah</em></p>
+<p>Names the Italian gesture — fingertips kissed and flicked open — as a way of saying "perfect, flawless, exactly right." It began as a written stage direction between asterisks and is now said out loud as well.</p>
+<ol><li>That last episode? <em>Chef's kiss.</em></li><li>The timing of that comeback was <em>chef's kiss</em>.</li><li>She posted a picture of the pie with two words: <em>chef's kiss</em>.</li><li><em>Chef's kiss</em> to whoever wrote that headline.</li><li>Crispy on the outside, soft in the middle — <em>chef's kiss</em>.</li></ol>
+<p><strong>See also:</strong> <a href="#perfect">perfect</a>, <a href="#beautiful">beautiful</a>, <a href="#sick">sick</a></p>
+<h3 id="cool">cool<a class="hash" href="#cool" aria-label="link">#</a></h3>
+<p><strong>Pronunciation:</strong> /kul/ &middot; <em>KOOL</em> <strong>Type:</strong> secondary &middot; <strong>Register:</strong> informal <strong>Variants:</strong> <em>coool</em>, <em>cool beans</em>, <em>way cool</em>, <em>cool!</em></p>
+<p>A mild, easy approval that means both "good" and "fine, that works for me." The low temperature is the point: <em>cool</em> is enthusiasm with the volume turned down, which is exactly why it also serves as a plain acknowledgment.</p>
+<ol><li>"The meeting moved to three." "<em>Cool.</em>"</li><li><em>Cool!</em> I didn't know you could do that.</li><li>They let us keep the extra tickets. <em>Cool beans.</em></li><li><em>Cool</em>, I'll see you there at eight.</li><li>He looked at the finished deck and said, "Very <em>cool</em>."</li></ol>
+<p><strong>See also:</strong> <a href="#sweet">sweet</a>, <a href="#nice">nice</a>, <a href="#awesome">awesome</a>, <a href="#all-right">all right</a></p>
+<h3 id="dope">dope<a class="hash" href="#dope" aria-label="link">#</a></h3>
+<p><strong>Pronunciation:</strong> /doʊp/ &middot; <em>DOHP</em> <strong>Type:</strong> secondary &middot; <strong>Register:</strong> very informal <strong>Variants:</strong> <em>that's dope</em>, <em>so dope</em>, <em>dope!</em></p>
+<p>Slang approval meaning "excellent," out of hip-hop and skate culture and now general young-American slang. Two unrelated everyday senses of the same word — <em>dope</em> the drug and <em>dope</em> the idiot — are still live, so an older listener may hear something very different from what you meant.</p>
+<ol><li>"They're doing the whole album front to back." "<em>Dope.</em>"</li><li>That mural on the side of the hardware store is <em>dope</em>.</li><li><em>Dope</em> — I didn't know they made them in green.</li><li>He showed me the setup in his garage. "Okay, that's <em>dope</em>."</li><li>She got the internship and the housing stipend. So <em>dope</em>.</li></ol>
+<p><strong>See also:</strong> <a href="#sick">sick</a>, <a href="#rad">rad</a>, <a href="#awesome">awesome</a>, <a href="#sweet">sweet</a></p>
+<h3 id="excellent">excellent<a class="hash" href="#excellent" aria-label="link">#</a></h3>
+<p><strong>Pronunciation:</strong> /ˈɛksələnt/ &middot; <em>EK-suh-lunt</em> <strong>Type:</strong> secondary &middot; <strong>Register:</strong> neutral <strong>Variants:</strong> <em>ex-cellent</em>, <em>excellent!</em></p>
+<p>A crisp approval that is safe in email, in front of clients, and in a job interview — one of the few entries in this category that is. Drawn out slowly with the fingertips pressed together, it is a well-known cartoon-villain joke.</p>
+<ol><li><em>Excellent.</em> Let's move forward with that plan.</li><li>"Everyone's confirmed for Thursday." "<em>Excellent.</em>"</li><li><em>Excellent!</em> This is exactly what I was hoping for.</li><li>She skimmed the report and said, "<em>Excellent</em> work, all of you."</li><li>He steepled his fingers and said, "<em>Ex-cellent</em>," in his best villain voice.</li></ol>
+<p><strong>See also:</strong> <a href="#perfect">perfect</a>, <a href="#great">great</a>, <a href="#wonderful">wonderful</a>, <a href="#terrific">terrific</a></p>
+<h3 id="fantastic">fantastic<a class="hash" href="#fantastic" aria-label="link">#</a></h3>
+<p><strong>Pronunciation:</strong> /fænˈtæstɪk/ &middot; <em>fan-TAS-tik</em> <strong>Type:</strong> secondary &middot; <strong>Register:</strong> neutral <strong>Variants:</strong> <em>fantastic!</em></p>
+<p>A warmer, slightly stronger <em>great</em>, safe at work and with strangers. Delivered flat it becomes sarcasm, so tone is doing all the work.</p>
+<ol><li><em>Fantastic!</em> That's better news than I expected.</li><li>"The results came back normal." "<em>Fantastic.</em>"</li><li><em>Fantastic</em> — I'll let the team know right away.</li><li>She tasted the sauce and said, "<em>Fantastic.</em> Don't change a thing."</li><li>Rained out again. <em>Fantastic.</em></li></ol>
+<p><strong>See also:</strong> <a href="#great">great</a>, <a href="#terrific">terrific</a>, <a href="#wonderful">wonderful</a>, <a href="#excellent">excellent</a></p>
+<h3 id="far-out">far out<a class="hash" href="#far-out" aria-label="link">#</a></h3>
+<p><strong>Pronunciation:</strong> /ˌfɑrˈaʊt/ &middot; <em>far-OUT</em> <strong>Type:</strong> phrase &middot; <strong>Register:</strong> dated <strong>Variants:</strong> <em>far-out</em>, <em>faaar out</em></p>
+<p>Counterculture slang of the 1960s and 70s for "amazing." Anyone under sixty who says it today is usually doing a bit, though it survives sincerely among older speakers and in surf and music scenes.</p>
+<ol><li>"They're playing the whole album live." "<em>Far out.</em>"</li><li><em>Far out</em>, man. I had no idea you knew him.</li><li>He looked at the mural for a long minute and said, "<em>Far out</em>."</li><li>Three days off the grid, no phones? <em>Far out.</em></li><li><em>Far out</em> — my dad still has the original poster in the garage.</li></ol>
+<p><strong>See also:</strong> <a href="#groovy">groovy</a>, <a href="#cool">cool</a>, <a href="#sweet">sweet</a></p>
+<h3 id="great">great<a class="hash" href="#great" aria-label="link">#</a></h3>
+<p><strong>Pronunciation:</strong> /ɡreɪt/ &middot; <em>GRAYT</em> <strong>Type:</strong> secondary &middot; <strong>Register:</strong> neutral <strong>Variants:</strong> <em>just great</em>, <em>great!</em></p>
+<p>The default American approval word, usable in an interview, an email, or a bar. Watch the flat, falling version and the phrase <em>just great</em>, which almost always mean the opposite.</p>
+<ol><li><em>Great!</em> Then we're all set for Friday.</li><li>"I finished the slides." "<em>Great</em>, thank you."</li><li><em>Great</em> — that saves us a whole week.</li><li>He heard the price and said, "<em>Great</em>, let's do it."</li><li>Flat tire on the highway. <em>Just great.</em></li></ol>
+<p><strong>See also:</strong> <a href="#excellent">excellent</a>, <a href="#fantastic">fantastic</a>, <a href="#wonderful">wonderful</a>, <a href="#perfect">perfect</a></p>
+<h3 id="groovy">groovy<a class="hash" href="#groovy" aria-label="link">#</a></h3>
+<p><strong>Pronunciation:</strong> /ˈɡruvi/ &middot; <em>GROO-vee</em> <strong>Type:</strong> secondary &middot; <strong>Register:</strong> dated <strong>Variants:</strong> <em>groovy!</em></p>
+<p>Slang of the 1960s for "excellent," now used almost entirely with a wink. Like <em>far out</em>, it dates the speaker instantly, which is usually the joke.</p>
+<ol><li>"We're all meeting at the beach at six." "<em>Groovy.</em>"</li><li><em>Groovy</em> — I'll bring the record player.</li><li>She showed up in bell-bottoms and everybody said, "<em>Groovy</em>."</li><li>Free parking all weekend? <em>Groovy.</em></li><li>My dad still says <em>groovy</em> with a completely straight face.</li></ol>
+<p><strong>See also:</strong> <a href="#far-out">far out</a>, <a href="#cool">cool</a>, <a href="#sweet">sweet</a></p>
+<h3 id="neat">neat<a class="hash" href="#neat" aria-label="link">#</a></h3>
+<p><strong>Pronunciation:</strong> /nit/ &middot; <em>NEET</em> <strong>Type:</strong> secondary &middot; <strong>Register:</strong> informal (mild, and a little old-fashioned) <strong>Variants:</strong> <em>that's neat</em>, <em>neato</em>, <em>neat!</em></p>
+<p>A mild, wholesome approval — pleased interest rather than excitement. It is the safest word in this section around children and grandparents, and its low wattage is exactly why a teenager who says it is usually being dry. <em>Neato</em> is always a joke.</p>
+<ol><li>"The whole thing folds up into the bench." "<em>Neat.</em>"</li><li><em>Neat</em> — I've never seen one of those in person.</li><li>He watched the machine fold the box in one motion. "Huh. <em>Neat.</em>"</li><li>They put every volunteer's name in the program? That's <em>neat</em>.</li><li>"<em>Neato</em>," she said, in the flattest voice she could manage.</li></ol>
+<p><strong>See also:</strong> <a href="#cool">cool</a>, <a href="#nice">nice</a>, <a href="#super">super</a>, <a href="#groovy">groovy</a></p>
+<h3 id="nice">nice<a class="hash" href="#nice" aria-label="link">#</a></h3>
+<p><strong>Pronunciation:</strong> /naɪs/ &middot; <em>NICE</em> <strong>Type:</strong> secondary &middot; <strong>Register:</strong> informal <strong>Variants:</strong> <em>niiice</em>, <em>ni-ice</em>, <em>nice one</em>, <em>nice!</em></p>
+<p>A short, satisfied approval of what somebody just did or got — the everyday response to a good shot, a good deal, or a good line. Drawn out as <em>niiice</em>, it adds real admiration.</p>
+<ol><li>"I got us seats behind the dugout." "<em>Nice.</em>"</li><li><em>Nice!</em> That's a great parking spot.</li><li>He read the punch line and said, "<em>Niiice</em>."</li><li>Two for one on the tickets — <em>nice</em>.</li><li><em>Nice one</em>, Dana. That's exactly the phrasing we needed.</li></ol>
+<p><strong>See also:</strong> <a href="#sweet">sweet</a>, <a href="#cool">cool</a>, <a href="#score">score</a>, <a href="#awesome">awesome</a></p>
+<h3 id="perfect">perfect<a class="hash" href="#perfect" aria-label="link">#</a></h3>
+<p><strong>Pronunciation:</strong> /ˈpɜrfɪkt/ &middot; <em>PUR-fikt</em> <strong>Type:</strong> secondary &middot; <strong>Register:</strong> neutral <strong>Variants:</strong> <em>perfect!</em></p>
+<p>A confirming approval meaning "that is exactly what I needed." It is the standard polite yes at a front desk, on a phone call, and in email, and it almost never claims literal perfection.</p>
+<ol><li>"Would two o'clock work?" "<em>Perfect.</em>"</li><li><em>Perfect</em> — I'll send the invoice this afternoon.</li><li>She looked at the seating chart and said, "<em>Perfect.</em> Leave it."</li><li><em>Perfect!</em> That's the last piece we were waiting on.</li><li>He set the table down, stepped back, and said, "<em>Perfect</em>."</li></ol>
+<p><strong>See also:</strong> <a href="#great">great</a>, <a href="#excellent">excellent</a>, <a href="#beautiful">beautiful</a>, <a href="#chefs-kiss">chef's kiss</a></p>
+<h3 id="rad">rad<a class="hash" href="#rad" aria-label="link">#</a></h3>
+<p><strong>Pronunciation:</strong> /ræd/ &middot; <em>RAD</em> <strong>Type:</strong> secondary &middot; <strong>Register:</strong> informal (dated — 1980s surf and skate slang) <strong>Variants:</strong> <em>radical</em>, <em>totally rad</em>, <em>rad!</em></p>
+<p>Clipped from <em>radical</em>, the surf and skate approval word of the 1980s. It never entirely died in board culture, and everywhere else it comes with invisible quotation marks around it: the speaker knows exactly how 1987 it sounds.</p>
+<ol><li>"We're taking the van all the way down the coast." "<em>Rad.</em>"</li><li>That is a <em>rad</em> paint job.</li><li><em>Rad</em> — send pictures when you get there.</li><li>He landed it, flipped the board up into his hand, and somebody on the ramp yelled, "<em>Radical!</em>"</li><li>My mother called the whole trip "<em>totally rad</em>," which ended the conversation.</li></ol>
+<p><strong>See also:</strong> <a href="#groovy">groovy</a>, <a href="#far-out">far out</a>, <a href="#sick">sick</a>, <a href="#dope">dope</a></p>
+<h3 id="sick">sick<a class="hash" href="#sick" aria-label="link">#</a></h3>
+<p><strong>Pronunciation:</strong> /sɪk/ &middot; <em>SIK</em> <strong>Type:</strong> secondary &middot; <strong>Register:</strong> very informal <strong>Variants:</strong> <em>siiick</em>, <em>sick!</em></p>
+<p>Slang approval meaning "amazing," common in skate, snowboard, gaming, and music circles and mostly among younger speakers. It is the exact opposite of the literal word, so tone and context are the only clues — and older listeners may genuinely hear the literal meaning.</p>
+<ol><li>He landed it clean on the first try. "<em>Sick!</em>"</li><li>That guitar solo was <em>sick</em>.</li><li><em>Siiick</em> — where'd you get those shoes?</li><li>"They're opening for the headliner." "<em>Sick.</em>"</li><li>She showed him the finished tattoo and he just said, "<em>Sick</em>."</li></ol>
+<p><strong>See also:</strong> <a href="#awesome">awesome</a>, <a href="#chefs-kiss">chef's kiss</a>, <a href="#sweet">sweet</a>, <a href="#cool">cool</a></p>
+<h3 id="super">super<a class="hash" href="#super" aria-label="link">#</a></h3>
+<p><strong>Pronunciation:</strong> /ˈsupər/ &middot; <em>SOO-per</em> <strong>Type:</strong> secondary &middot; <strong>Register:</strong> informal <strong>Variants:</strong> <em>super-duper</em>, <em>just super</em>, <em>super!</em></p>
+<p>A bright, slightly perky "great," most at home in customer service, in teaching, and in any voice pitched to be encouraging. The same word is also the country's favorite intensifier — <em>super tired</em>, <em>super close</em> — which is a different job entirely. Said flat, <em>just super</em> is easy sarcasm.</p>
+<ol><li>"I'll have the paperwork ready when you get here." "<em>Super.</em>"</li><li><em>Super</em> — then we're all set for Tuesday.</li><li>She looked at the drawing for a second and said, "Oh, that's <em>super</em>."</li><li>"<em>Super-duper</em>," my daughter said, completely seriously.</li><li>Two hours in line and the machine is down. <em>Just super.</em></li></ol>
+<p><strong>See also:</strong> <a href="#great">great</a>, <a href="#terrific">terrific</a>, <a href="#neat">neat</a>, <a href="#awesome">awesome</a></p>
+<h3 id="sweet">sweet<a class="hash" href="#sweet" aria-label="link">#</a></h3>
+<p><strong>Pronunciation:</strong> /swit/ &middot; <em>SWEET</em> <strong>Type:</strong> secondary &middot; <strong>Register:</strong> informal <strong>Variants:</strong> <em>sweeet</em>, <em>sweet deal</em>, <em>sweet!</em></p>
+<p>An easy, pleased "excellent," used especially about something that worked out in your favor. It is extremely common in casual American speech and carries no trace of the taste word.</p>
+<ol><li>"Shipping's free until midnight." "<em>Sweet.</em>"</li><li><em>Sweet!</em> They put us in the same group.</li><li>He heard he could work from home on Fridays and said, "<em>Sweeet</em>."</li><li>New bike, no payments until spring — <em>sweet</em>.</li><li><em>Sweet</em>, I've been trying to get that table for a month.</li></ol>
+<p><strong>See also:</strong> <a href="#nice">nice</a>, <a href="#cool">cool</a>, <a href="#score">score</a>, <a href="#awesome">awesome</a></p>
+<h3 id="terrific">terrific<a class="hash" href="#terrific" aria-label="link">#</a></h3>
+<p><strong>Pronunciation:</strong> /təˈrɪfɪk/ &middot; <em>tuh-RIF-ik</em> <strong>Type:</strong> secondary &middot; <strong>Register:</strong> neutral <strong>Variants:</strong> <em>terrific!</em></p>
+<p>A warm American "great," heard most often from older speakers and in polite professional settings. Like <em>great</em>, its flat version is standard sarcasm.</p>
+<ol><li><em>Terrific!</em> I'm glad it worked out.</li><li>"She's agreed to speak at the opening." "<em>Terrific.</em>"</li><li>That's a <em>terrific</em> idea — write it down before you forget.</li><li>"I can have it to you by Thursday." "<em>Terrific.</em> That gives us the whole weekend."</li><li>Another delay. <em>Terrific.</em></li></ol>
+<p><strong>See also:</strong> <a href="#great">great</a>, <a href="#fantastic">fantastic</a>, <a href="#wonderful">wonderful</a>, <a href="#excellent">excellent</a></p>
+<h3 id="wonderful">wonderful<a class="hash" href="#wonderful" aria-label="link">#</a></h3>
+<p><strong>Pronunciation:</strong> /ˈwʌndərfəl/ &middot; <em>WUN-der-full</em> <strong>Type:</strong> secondary &middot; <strong>Register:</strong> neutral <strong>Variants:</strong> <em>just wonderful</em>, <em>wonderful!</em></p>
+<p>A gracious approval that fits hosting, hospitality, and good news about people, and the most old-fashioned-sounding of the safe praise words. It is not a formal word — it is an ordinary one that skews warm and older, and it turns up as often in a kitchen as at a reception. Said flat, <em>just wonderful</em> is sarcasm like the rest of them.</p>
+<ol><li>"The whole family is coming." "<em>Wonderful.</em>"</li><li><em>Wonderful!</em> We're so glad you could make it.</li><li>She heard the news and clasped her hands. "Oh, <em>wonderful</em>."</li><li><em>Wonderful</em> — then we'll see you both on Sunday.</li><li>"They gave her the scholarship." "That's <em>wonderful</em>."</li><li>The heat went out on the coldest night of the year. <em>Just wonderful.</em></li></ol>
+<p><strong>See also:</strong> <a href="#fantastic">fantastic</a>, <a href="#terrific">terrific</a>, <a href="#great">great</a>, <a href="#excellent">excellent</a></p>
+<h2 id="flourishes-and-leaps">Flourishes and leaps<a class="hash" href="#flourishes-and-leaps" aria-label="link">#</a></h2>
+<p>Said at the moment of a reveal or a jump — these mark an action rather than a feeling.</p>
+<h3 id="cowabunga">cowabunga<a class="hash" href="#cowabunga" aria-label="link">#</a></h3>
+<p><strong>Pronunciation:</strong> /ˌkaʊəˈbʌŋɡə/ &middot; <em>kow-uh-BUNG-guh</em> <strong>Type:</strong> primary &middot; <strong>Register:</strong> informal, dated (cartoon flavor) <strong>Variants:</strong> <em>kowabunga</em>, <em>cowabunga, dude!</em></p>
+<p>A whoop shouted while launching into something, usually water. It came from a 1950s children's television show, was adopted by surfers, and was cemented by the Teenage Mutant Ninja Turtles, so it now sounds cheerfully dated and is nearly always playful.</p>
+<ol><li>He ran off the end of the dock yelling, "<em>Cowabunga!</em>"</li><li><em>Cowabunga</em> — first cannonball of the summer.</li><li>She grabbed the sled, shouted <em>cowabunga</em>, and went straight down the hill.</li><li>"Pizza's here." "<em>Cowabunga, dude.</em>"</li><li><em>Cowabunga!</em> Somebody's about to get soaked.</li></ol>
+<p><strong>See also:</strong> <a href="#geronimo">geronimo</a>, <a href="#yee-haw">yee-haw</a>, <a href="#woo-hoo">woo-hoo</a></p>
+<h3 id="geronimo">geronimo<a class="hash" href="#geronimo" aria-label="link">#</a></h3>
+<p><strong>Pronunciation:</strong> /dʒəˈrɑnəmoʊ/ &middot; <em>juh-RON-uh-moh</em> <strong>Type:</strong> secondary &middot; <strong>Register:</strong> informal <strong>Variants:</strong> <em>geronimo!</em></p>
+<p>Shouted at the instant of jumping. American paratroopers in World War II adopted the name of the Apache leader Geronimo as a jump call, and it now covers any leap, literal or figurative. Worth knowing before you use it: turning a real Apache leader's name into a whoop is something plenty of Native people find disrespectful, and the word carries that history whether or not the speaker knows it.</p>
+<ol><li>He stood on the high dive for a full minute, then yelled "<em>Geronimo!</em>" and jumped.</li><li><em>Geronimo</em> — I'm hitting send on the application.</li><li>The kids counted to three and shouted <em>geronimo</em> off the rope swing.</li><li>She pulled the ripcord and screamed, "<em>Geronimo!</em>"</li><li>Okay, no more overthinking it. <em>Geronimo.</em></li></ol>
+<p><strong>See also:</strong> <a href="#cowabunga">cowabunga</a>, <a href="#yee-haw">yee-haw</a>, <a href="#whee">whee</a></p>
+<h3 id="presto">presto<a class="hash" href="#presto" aria-label="link">#</a></h3>
+<p><strong>Pronunciation:</strong> /ˈprɛstoʊ/ &middot; <em>PRES-toh</em> <strong>Type:</strong> secondary &middot; <strong>Register:</strong> informal <strong>Variants:</strong> <em>hey presto</em>, <em>presto chango</em></p>
+<p>A magician's word, Italian for "quickly," borrowed to mark a sudden and easy transformation — "and just like that." It suits results that look like a trick.</p>
+<ol><li>You soak it overnight and <em>presto</em> — the stain is gone.</li><li><em>Presto!</em> One folding table becomes a desk.</li><li>He waved his hand over the hat. "<em>Presto chango.</em>"</li><li>Two clicks and, <em>presto</em>, the whole spreadsheet is formatted.</li><li>She swapped the batteries and, <em>hey presto</em>, the remote worked again.</li></ol>
+<p><strong>See also:</strong> <a href="#voilà">voilà</a>, <a href="#ta-da">ta-da</a>, <a href="#bam">bam</a></p>
+<h3 id="ta-da">ta-da<a class="hash" href="#ta-da" aria-label="link">#</a></h3>
+<p><strong>Pronunciation:</strong> /tɑˈdɑ/ &middot; <em>tah-DAH</em> <strong>Type:</strong> onomatopoeic &middot; <strong>Register:</strong> informal <strong>Variants:</strong> <em>ta-daa</em>, <em>tada</em>, <em>tah-dah</em>, <em>ta-dah</em></p>
+<p>The spoken version of the two-note trumpet fanfare that accompanies a reveal. You say it while showing the finished thing: the cake, the haircut, the room you finally cleaned.</p>
+<ol><li>She pulled off the sheet. "<em>Ta-da!</em>"</li><li><em>Ta-da</em> — one fully assembled bookshelf, only two screws left over.</li><li>He opened the box, held it up, and sang, "<em>Ta-daaa</em>."</li><li>Three hours of scrubbing and, <em>ta-da</em>, you can see the counter again.</li><li><em>Ta-da!</em> Dinner is served.</li></ol>
+<p><strong>See also:</strong> <a href="#voilà">voilà</a>, <a href="#presto">presto</a>, <a href="#bam">bam</a></p>
+<h3 id="voilà">voilà<a class="hash" href="#voilà" aria-label="link">#</a></h3>
+<p><strong>Pronunciation:</strong> /vwɑˈlɑ/ &middot; <em>vwah-LAH</em> <strong>Type:</strong> secondary &middot; <strong>Register:</strong> neutral <strong>Variants:</strong> <em>voila</em>, <em>viola</em> (a misspelling), <em>wallah</em> (a misspelling)</p>
+<p>Borrowed from French — literally "see there" — to present a finished result: the last recipe step, the completed repair, the reveal. It is fully naturalized in American English, though it still sounds a little theatrical. The accent is optional in American writing; spelling it <em>viola</em> or <em>wallah</em> is a common mistake.</p>
+<ol><li>Fold the edges under, bake for twenty minutes, and <em>voilà</em>.</li><li><em>Voilà!</em> One working dishwasher.</li><li>He turned the canvas around. "<em>Voilà.</em>"</li><li>Add a little water, stir, and <em>voila</em> — soup.</li><li><em>Voilà</em>, the guest room is finally a guest room again.</li></ol>
+<p><strong>See also:</strong> <a href="#ta-da">ta-da</a>, <a href="#presto">presto</a>, <a href="#eureka">eureka</a></p>
+<h2 id="relief-gratitude-and-vindication">Relief, gratitude, and vindication<a class="hash" href="#relief-gratitude-and-vindication" aria-label="link">#</a></h2>
+<p>Joy with a wait behind it — what Americans say when something good finally, at last, happens.</p>
+<h3 id="about-time">about time<a class="hash" href="#about-time" aria-label="link">#</a></h3>
+<p><strong>Pronunciation:</strong> /əˌbaʊt ˈtaɪm/ &middot; <em>uh-bout-TIME</em> <strong>Type:</strong> phrase &middot; <strong>Register:</strong> informal <strong>Variants:</strong> <em>it's about time</em>, <em>well, it's about time</em>, <em>about damn time</em></p>
+<p>Relief with a complaint stapled to it: the good thing happened, and it should have happened a long time ago. Between friends it lands warmly; said to the person who caused the delay, it is a real jab. <em>About damn time</em> adds a mild profanity and a good deal of heat.</p>
+<ol><li>"The check finally cleared." "<em>About time.</em>"</li><li><em>About time</em> they fixed that light — somebody was going to get hurt out there.</li><li>He came in an hour late and his sister said, "Well, <em>it's about time</em>."</li><li>They're paying the interns now? <em>About damn time.</em></li><li>Nine months of scaffolding, and this morning the sidewalk was open. <em>About time.</em></li></ol>
+<p><strong>See also:</strong> <a href="#at-last">at last</a>, <a href="#finally">finally</a>, <a href="#thank-god">thank God</a></p>
+<h3 id="at-last">at last<a class="hash" href="#at-last" aria-label="link">#</a></h3>
+<p><strong>Pronunciation:</strong> /ˌæt ˈlæst/ &middot; <em>at-LAST</em> <strong>Type:</strong> phrase &middot; <strong>Register:</strong> neutral <strong>Variants:</strong> <em>at long last</em>, <em>at last!</em></p>
+<p>Marks the end of a long wait with relief and pleasure. It is slightly more formal and more literary than <em>finally</em>, and it carries less complaint.</p>
+<ol><li><em>At last!</em> I've been trying to reach you for three days.</li><li>The rain stopped, and <em>at last</em> we could get the car unloaded.</li><li><em>At long last</em>, the bridge is open again.</li><li>"The permits came through." "<em>At last.</em>"</li><li>She held the diploma up over her head and said, "<em>At last</em>."</li></ol>
+<p><strong>See also:</strong> <a href="#finally">finally</a>, <a href="#about-time">about time</a>, <a href="#thank-god">thank God</a>, <a href="#hallelujah">hallelujah</a></p>
+<h3 id="finally">finally<a class="hash" href="#finally" aria-label="link">#</a></h3>
+<p><strong>Pronunciation:</strong> /ˈfaɪnəli/ &middot; <em>FY-nuh-lee</em> <strong>Type:</strong> secondary &middot; <strong>Register:</strong> informal <strong>Variants:</strong> <em>fiiinally</em>, <em>finally!</em></p>
+<p>The everyday cry at the end of a long wait — happy, impatient, or both at once. Said to the person who kept you waiting, it contains an audible complaint, so it is friendlier about things than about people.</p>
+<ol><li><em>Finally!</em> I ordered that thing six weeks ago.</li><li>He walked in twenty minutes late and everyone said, "<em>Finally</em>."</li><li><em>Finally</em> — a Saturday with nothing on the calendar.</li><li>"They approved the budget." "<em>Finally.</em>"</li><li>The elevator doors opened and she muttered, "<em>Fiiinally</em>."</li></ol>
+<p><strong>See also:</strong> <a href="#at-last">at last</a>, <a href="#about-time">about time</a>, <a href="#thank-god">thank God</a>, <a href="#hallelujah">hallelujah</a></p>
+<h3 id="hallelujah">hallelujah<a class="hash" href="#hallelujah" aria-label="link">#</a></h3>
+<p><strong>Pronunciation:</strong> /ˌhæləˈlujə/ &middot; <em>hal-uh-LOO-yuh</em> <strong>Type:</strong> secondary &middot; <strong>Register:</strong> informal in everyday use; neutral in religious settings <strong>Variants:</strong> <em>halleluiah</em>, <em>alleluia</em>, <em>hallelujah!</em></p>
+<p>Hebrew for "praise Yah" — praise the Lord — and completely at home in secular American speech: people say it when a long-running problem finally ends. In church it is sincere praise; in an office it is closer to "thank goodness."</p>
+<ol><li><em>Hallelujah!</em> The air conditioning is back on.</li><li>The pastor said the scans came back clear and half the congregation answered, "<em>Hallelujah!</em>"</li><li>"He agreed to sign." "<em>Hallelujah.</em>"</li><li><em>Hallelujah</em>, somebody finally fixed that pothole.</li><li>She got the last spot on the list and threw up her hands. "<em>Hallelujah.</em>"</li></ol>
+<p><strong>See also:</strong> <a href="#praise-the-lord">praise the Lord</a>, <a href="#thank-god">thank God</a>, <a href="#finally">finally</a></p>
+<h3 id="oh-boy">oh boy<a class="hash" href="#oh-boy" aria-label="link">#</a></h3>
+<p><strong>Pronunciation:</strong> /ˌoʊ ˈbɔɪ/ &middot; <em>oh-BOY</em> <strong>Type:</strong> phrase &middot; <strong>Register:</strong> informal <strong>Variants:</strong> <em>boy</em>, <em>boy oh boy</em>, <em>ohhh boy</em></p>
+<p>Excited anticipation — the sound of a kid seeing dessert. Be careful with the tone: said falling and sighing, the identical phrase means dread, as in <em>Oh boy, here we go</em>, so intonation carries the entire meaning.</p>
+<ol><li><em>Oh boy</em>, pancakes!</li><li>"We're going to the game on Sunday." "<em>Oh boy!</em>"</li><li><em>Boy oh boy</em>, have I got a story for you.</li><li>He opened the garage and saw the new bike. "<em>Oh boy.</em>"</li><li><em>Boy</em>, that was a good sandwich.</li></ol>
+<p><strong>See also:</strong> <a href="#hot-dog">hot dog</a>, <a href="#oh-happy-day">oh happy day</a>, <a href="#yay">yay</a>, <a href="#aw-yeah">aw yeah</a></p>
+<h3 id="oh-happy-day">oh happy day<a class="hash" href="#oh-happy-day" aria-label="link">#</a></h3>
+<p><strong>Pronunciation:</strong> /oʊ ˌhæpi ˈdeɪ/ &middot; <em>oh-hap-ee-DAY</em> <strong>Type:</strong> phrase &middot; <strong>Register:</strong> dated <strong>Variants:</strong> <em>oh, happy day</em>, <em>happy day</em></p>
+<p>A theatrical announcement of good fortune, out of an old hymn and a famous gospel recording. Americans say it with a smile — sometimes sincerely, more often to poke fun at how small the good news actually is.</p>
+<ol><li><em>Oh happy day</em> — the coffee machine is fixed.</li><li>She waved the acceptance letter over her head. "<em>Oh happy day!</em>"</li><li>"They canceled the seven a.m. meeting." "<em>Oh, happy day.</em>"</li><li><em>Oh happy day</em>, my brother is moving back home.</li><li>The check cleared and, <em>oh happy day</em>, we could finally pay the deposit.</li></ol>
+<p><strong>See also:</strong> <a href="#hallelujah">hallelujah</a>, <a href="#praise-the-lord">praise the Lord</a>, <a href="#hooray">hooray</a></p>
+<h3 id="praise-the-lord">praise the Lord<a class="hash" href="#praise-the-lord" aria-label="link">#</a></h3>
+<p><strong>Pronunciation:</strong> /ˌpreɪz ðə ˈlɔrd/ &middot; <em>prayz-thuh-LORD</em> <strong>Type:</strong> phrase &middot; <strong>Register:</strong> neutral in religious settings; elsewhere informal and strongly marked <strong>Variants:</strong> <em>praise God</em>, <em>praise Jesus</em>, <em>praise be</em></p>
+<p>A sincere expression of joy and gratitude to God, and, outside religious settings, a strong secular "thank goodness." It is a marked phrase — common in the South and in Black church tradition, and elsewhere it signals either a churchgoing background or a deliberately big reaction.</p>
+<ol><li>"The surgery went perfectly." "<em>Praise the Lord.</em>"</li><li><em>Praise the Lord</em>, that boy got home safe.</li><li>She raised both hands and said, "<em>Praise God</em>."</li><li>The rain finally came at the end of August. <em>Praise the Lord.</em></li><li>"<em>Praise Jesus</em>," my grandmother said when the test results came back.</li></ol>
+<p><strong>See also:</strong> <a href="#hallelujah">hallelujah</a>, <a href="#thank-god">thank God</a>, <a href="#oh-happy-day">oh happy day</a></p>
+<h3 id="thank-god">thank God<a class="hash" href="#thank-god" aria-label="link">#</a></h3>
+<p><strong>Pronunciation:</strong> /ˌθæŋk ˈɡɑd/ &middot; <em>thank-GOD</em> <strong>Type:</strong> phrase &middot; <strong>Register:</strong> informal <strong>Variants:</strong> <em>thank goodness</em>, <em>thank heavens</em>, <em>thank the Lord</em>, <em>thank God!</em></p>
+<p>Relief and gladness that something turned out all right, used constantly by religious and non-religious Americans alike. Some listeners hear <em>thank God</em> as taking the Lord's name lightly, so <em>thank goodness</em> and <em>thank heavens</em> are the safe substitutes at work and around strangers.</p>
+<ol><li><em>Thank God</em> you're okay.</li><li>"The dog turned up two blocks away." "<em>Thank goodness.</em>"</li><li><em>Thank God</em> it's Friday.</li><li>She found her passport in the side pocket. "<em>Thank heavens.</em>"</li><li>The flight was delayed an hour — <em>thank God</em>, because we were running late anyway.</li></ol>
+<p><strong>See also:</strong> <a href="#hallelujah">hallelujah</a>, <a href="#praise-the-lord">praise the Lord</a>, <a href="#at-last">at last</a>, <a href="#finally">finally</a></p></div></main>
+<button class="themebtn" id="themeBtn">Dark</button>
+<script>
+const tb=document.getElementById('themeBtn');
+function setTheme(x){document.documentElement.dataset.theme=x;tb.textContent=x==='dark'?'Light':'Dark';
+ try{localStorage.setItem('site-theme',x)}catch(e){}}
+tb.onclick=()=>setTheme(document.documentElement.dataset.theme==='dark'?'light':'dark');
+try{const s=localStorage.getItem('site-theme');
+ setTheme(s||(matchMedia('(prefers-color-scheme: dark)').matches?'dark':'light'))}catch(e){setTheme('light')}
+</script></body></html>

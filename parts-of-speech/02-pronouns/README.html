@@ -1,0 +1,417 @@
+<!DOCTYPE html>
+<html lang="en"><head>
+<meta charset="utf-8"><meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Pronouns</title>
+<style>
+:root{--bg:#faf9f7;--surface:#fff;--surface2:#f2f0ec;--border:#e2ded6;--text:#1a1815;
+--dim:#5f594f;--faint:#8a8377;--accent:#8a5a3b;--measure:72ch}
+@media(prefers-color-scheme:dark){:root{--bg:#14140f;--surface:#1d1d17;--surface2:#25251d;
+--border:#33332a;--text:#eeeae1;--dim:#a8a293;--faint:#7d776b;--accent:#d09b72}}
+:root[data-theme=dark]{--bg:#14140f;--surface:#1d1d17;--surface2:#25251d;--border:#33332a;
+--text:#eeeae1;--dim:#a8a293;--faint:#7d776b;--accent:#d09b72}
+:root[data-theme=light]{--bg:#faf9f7;--surface:#fff;--surface2:#f2f0ec;--border:#e2ded6;
+--text:#1a1815;--dim:#5f594f;--faint:#8a8377;--accent:#8a5a3b}
+*{box-sizing:border-box}
+body{margin:0;background:var(--bg);color:var(--text);
+font:17px/1.72 ui-serif,Georgia,"Iowan Old Style",Palatino,serif;-webkit-font-smoothing:antialiased}
+.ui{font-family:-apple-system,BlinkMacSystemFont,"Segoe UI",Inter,Roboto,sans-serif}
+.wrap{max-width:min(var(--measure),100%);margin:0 auto;padding:0 22px}
+nav.crumb{border-bottom:1px solid var(--border);padding:13px 0;font-size:13.5px;
+font-family:-apple-system,sans-serif;position:sticky;top:0;background:var(--bg);z-index:20}
+nav.crumb .wrap{max-width:none;display:flex;gap:9px;align-items:center;flex-wrap:wrap}
+nav.crumb a{color:var(--dim);text-decoration:none}
+nav.crumb a:hover{color:var(--accent)}
+nav.crumb .sep{color:var(--faint)}
+main{padding:8px 0 80px}
+h1{font-size:clamp(28px,5vw,38px);line-height:1.15;letter-spacing:-.015em;margin:34px 0 18px}
+h2{font-size:25px;margin:46px 0 14px;letter-spacing:-.01em;padding-bottom:7px;border-bottom:1px solid var(--border)}
+h3{font-size:19px;margin:34px 0 10px;color:var(--accent)}
+h4{font-size:16px;margin:24px 0 8px;font-family:-apple-system,sans-serif}
+p{margin:0 0 16px}
+a{color:var(--accent)}
+.hash{opacity:0;margin-left:8px;font-weight:400;font-size:.65em;text-decoration:none;color:var(--faint)}
+h2:hover .hash,h3:hover .hash{opacity:1}
+blockquote{margin:0 0 20px;padding:14px 18px;background:var(--surface2);
+border-left:3px solid var(--accent);border-radius:0 8px 8px 0}
+blockquote p:last-child{margin-bottom:0}
+ol,ul{margin:0 0 18px;padding-left:26px}
+li{margin-bottom:8px}
+li>ul,li>ol{margin:8px 0 0}
+code{font-family:ui-monospace,SFMono-Regular,Menlo,Consolas,monospace;font-size:.87em;
+background:var(--surface2);padding:1px 5px;border-radius:4px}
+pre{background:var(--surface2);border:1px solid var(--border);border-radius:9px;
+padding:15px 17px;overflow-x:auto;margin:0 0 20px}
+pre code{background:none;padding:0;font-size:13px;line-height:1.6}
+.tw{overflow-x:auto;margin:0 0 22px;border:1px solid var(--border);border-radius:9px}
+table{border-collapse:collapse;width:100%;font-size:15px;
+font-family:-apple-system,BlinkMacSystemFont,"Segoe UI",sans-serif}
+th,td{padding:10px 14px;border-bottom:1px solid var(--border);vertical-align:top}
+th{background:var(--surface2);font-size:12px;text-transform:uppercase;
+letter-spacing:.06em;color:var(--dim);font-weight:700;white-space:nowrap}
+tbody tr:last-child td{border-bottom:none}
+hr{border:none;border-top:1px solid var(--border);margin:38px 0}
+details{background:var(--surface2);border:1px solid var(--border);border-radius:9px;
+padding:13px 17px;margin:0 0 20px}
+summary{cursor:pointer;font-weight:600;font-family:-apple-system,sans-serif;font-size:15px}
+details[open] summary{margin-bottom:12px}
+del{color:var(--faint)}
+.toc{background:var(--surface2);border:1px solid var(--border);border-radius:10px;
+padding:16px 20px;margin:26px 0 34px;font-family:-apple-system,sans-serif;font-size:14px}
+.toc b{display:block;font-size:11px;letter-spacing:.12em;text-transform:uppercase;
+color:var(--faint);margin-bottom:9px}
+.toc a{display:block;padding:3px 0;color:var(--dim);text-decoration:none}
+.toc a:hover{color:var(--accent)}
+.toc a.l3{padding-left:16px;font-size:13.5px}
+.themebtn{position:fixed;right:18px;bottom:18px;z-index:60;font-family:-apple-system,sans-serif;
+font-size:12.5px;font-weight:600;cursor:pointer;background:var(--surface);border:1px solid var(--border);
+border-radius:99px;padding:9px 16px;color:var(--text)}
+@media(max-width:600px){body{font-size:16px}.wrap{padding:0 17px}}
+</style></head><body>
+<nav class="crumb"><div class="wrap"><a href="../../index.html">Learn English</a><span class="sep">/</span><a href="../README.html">Parts of speech</a><span class="sep">/</span><span>02-pronouns</span></div></nav>
+<main><div class="wrap"><div class="toc"><b>On this page</b><a class="l2" href="#1-what-it-does">1. What it does</a><a class="l2" href="#2-types">2. Types</a><a class="l2" href="#3-forms-and-inflection">3. Forms and inflection</a><a class="l2" href="#4-position-and-word-order">4. Position and word order</a><a class="l2" href="#5-rules-and-patterns">5. Rules and patterns</a><a class="l2" href="#6-common-mistakes">6. Common mistakes</a><a class="l2" href="#7-american-english-notes">7. American English notes</a><a class="l2" href="#8-tricky-cases">8. Tricky cases</a><a class="l2" href="#9-quick-reference">9. Quick reference</a><a class="l2" href="#10-practice">10. Practice</a><a class="l2" href="#see-also">See also</a></div><h1 id="pronouns">Pronouns<a class="hash" href="#pronouns" aria-label="link">#</a></h1>
+<blockquote><p>A pronoun is a word that stands in for a noun phrase, so you can refer to someone or something again without repeating its full name.</p></blockquote>
+<h2 id="1-what-it-does">1. What it does<a class="hash" href="#1-what-it-does" aria-label="link">#</a></h2>
+<p>A pronoun's job is <strong>substitution</strong>. Instead of naming the same person or thing over and over, you name it once and then point back at it. The full noun phrase that a pronoun points back to is called its <strong>antecedent</strong>.</p>
+<blockquote><p><strong>Maria</strong> left the office at six. <strong>She</strong> had forgotten <strong>her</strong> keys, so <strong>she</strong> went back for <strong>them</strong>.</p></blockquote>
+<p>Here <em>Maria</em> is the antecedent. <strong>She</strong> replaces <em>Maria</em>, <strong>her</strong> signals possession, and <strong>them</strong> replaces <em>her keys</em>. Without pronouns the sentence would read: <em>Maria left the office at six. Maria had forgotten Maria's keys, so Maria went back for the keys.</em> Grammatical, but unbearable.</p>
+<p>Because a pronoun replaces a whole noun phrase — not just a noun — it takes the same jobs in a sentence that a noun phrase takes: subject, direct object, indirect object, object of a preposition, subject complement, and possessor.</p>
+<blockquote><p><strong>The tall man in the gray coat</strong> waved at <strong>my sister and me</strong>. <strong>He</strong> waved at <strong>us</strong>.</p></blockquote>
+<p>Notice that <em>he</em> replaces the entire phrase <em>the tall man in the gray coat</em>, and <em>us</em> replaces <em>my sister and me</em>. You cannot say <em>the tall he in the gray coat</em> — that is exactly what separates a pronoun from a noun.</p>
+<p>Some pronouns do not point back at anything at all. In <em>It is raining</em> and <em>There are three reasons</em>, the words <strong>it</strong> and <strong>there</strong> fill the subject slot that English grammar requires but carry no meaning. These are called dummy or expletive pronouns, and they are covered in section 2.</p>
+<p>Pronouns also connect clauses. In <em>the woman <strong>who</strong> called me</em>, the relative pronoun <strong>who</strong> simultaneously refers back to <em>the woman</em> and links the clause to it — doing two jobs at once.</p>
+<hr>
+<h2 id="2-types">2. Types<a class="hash" href="#2-types" aria-label="link">#</a></h2>
+<h3 id="personal-pronouns--subject-case">Personal pronouns — subject case<a class="hash" href="#personal-pronouns--subject-case" aria-label="link">#</a></h3>
+<p>Personal pronouns refer to people or things by grammatical person (first, second, third), number, and — in the third-person singular — gender. The subject case (also called nominative) is used when the pronoun is the subject of a verb.</p>
+<p><strong>Members:</strong> I, you, he, she, it, we, they (and singular <em>they</em>)</p>
+<blockquote><p><strong>I</strong> disagree with the report's conclusion. <strong>They</strong> arrive on Thursday morning. <strong>He</strong> and <strong>I</strong> grew up in the same neighborhood.</p></blockquote>
+<h3 id="personal-pronouns--object-case">Personal pronouns — object case<a class="hash" href="#personal-pronouns--object-case" aria-label="link">#</a></h3>
+<p>The object case (also called accusative or oblique) is used for direct objects, indirect objects, and objects of prepositions.</p>
+<p><strong>Members:</strong> me, you, him, her, it, us, them</p>
+<blockquote><p>The manager called <strong>me</strong> into her office. Give <strong>him</strong> the receipt. This package is for <strong>you</strong> and <strong>her</strong>.</p></blockquote>
+<h3 id="possessive-determiners">Possessive determiners<a class="hash" href="#possessive-determiners" aria-label="link">#</a></h3>
+<p>Possessive determiners (traditionally called possessive adjectives) mark ownership and sit <strong>before a noun</strong>. Strictly speaking they are determiners, not pronouns, but they belong to the same paradigm and are almost always taught with pronouns.</p>
+<p><strong>Members:</strong> my, your, his, her, its, our, their</p>
+<blockquote><p><strong>My</strong> apartment is on the fourth floor. The company changed <strong>its</strong> logo last spring. <strong>Their</strong> flight was delayed six hours.</p></blockquote>
+<h3 id="possessive-pronouns">Possessive pronouns<a class="hash" href="#possessive-pronouns" aria-label="link">#</a></h3>
+<p>Possessive pronouns stand alone — they replace an entire possessive noun phrase and are never followed by a noun.</p>
+<p><strong>Members:</strong> mine, yours, his, hers, its (rare), ours, theirs</p>
+<blockquote><p>That coat is <strong>mine</strong>. Our schedule is tighter than <strong>theirs</strong>. Her explanation was clear; <strong>his</strong> was confusing.</p></blockquote>
+<h3 id="reflexive-pronouns">Reflexive pronouns<a class="hash" href="#reflexive-pronouns" aria-label="link">#</a></h3>
+<p>A reflexive pronoun is used when the object of a verb or preposition refers to the same entity as the subject of the same clause.</p>
+<p><strong>Members:</strong> myself, yourself, himself, herself, itself, oneself, ourselves, yourselves, themselves (and <em>themself</em> for singular <em>they</em>)</p>
+<blockquote><p>She taught <strong>herself</strong> Portuguese in eighteen months. Be careful — you'll hurt <strong>yourself</strong>. The system reset <strong>itself</strong> overnight.</p></blockquote>
+<h3 id="intensive-emphatic-pronouns">Intensive (emphatic) pronouns<a class="hash" href="#intensive-emphatic-pronouns" aria-label="link">#</a></h3>
+<p>Intensive pronouns have exactly the same forms as reflexives, but a different job: they emphasize a noun or pronoun already in the sentence. They can be deleted without breaking the sentence.</p>
+<p><strong>Members:</strong> same list as reflexives</p>
+<blockquote><p>The senator <strong>herself</strong> answered the phone. I fixed the leak <strong>myself</strong>. They built the deck <strong>themselves</strong>.</p></blockquote>
+<p>Remove the intensive pronoun and the sentence still works with the same meaning (<em>The senator answered the phone</em>). Remove a reflexive and the sentence either collapses (<em>He cut shaving</em>) or changes meaning entirely (<em>She taught Portuguese</em> — to a class, not to herself).</p>
+<h3 id="demonstrative-pronouns">Demonstrative pronouns<a class="hash" href="#demonstrative-pronouns" aria-label="link">#</a></h3>
+<p>Demonstrative pronouns point to something in the physical world or in the surrounding discourse, distinguishing near from far and singular from plural.</p>
+<p><strong>Members:</strong> this, that, these, those</p>
+<blockquote><p><strong>This</strong> is the best coffee in the neighborhood. <strong>Those</strong> are the files you requested. The budget was cut again. <strong>That</strong> explains the hiring freeze.</p></blockquote>
+<p><em>Those</em> also functions as a substitute meaning "the ones":</p>
+<blockquote><p>The results are similar to <strong>those</strong> reported last year. <strong>Those</strong> who registered early get priority seating.</p></blockquote>
+<p>Note the difference between a demonstrative <strong>pronoun</strong> (stands alone) and a demonstrative <strong>determiner</strong> (precedes a noun): <em>This is expensive</em> (pronoun) vs. <em>This laptop is expensive</em> (determiner).</p>
+<h3 id="relative-pronouns">Relative pronouns<a class="hash" href="#relative-pronouns" aria-label="link">#</a></h3>
+<p>Relative pronouns introduce a relative clause and refer back to a noun in the main clause. They do double duty: they link the clause and they fill a grammatical slot inside it.</p>
+<p><strong>Members:</strong> who, whom, whose, which, that; also the zero relative (omitted pronoun)</p>
+<blockquote><p>The engineer <strong>who</strong> designed the bridge retired last year. The report <strong>that</strong> you sent arrived too late. A city <strong>whose</strong> subway runs all night is a city that never sleeps. Her proposal, <strong>which</strong> the board rejected, is being revived.</p></blockquote>
+<h3 id="fused-relative-pronouns-nominal-relatives">Fused relative pronouns (nominal relatives)<a class="hash" href="#fused-relative-pronouns-nominal-relatives" aria-label="link">#</a></h3>
+<p>These contain their own antecedent — they mean roughly "the person who," "the thing that," "any amount that."</p>
+<p><strong>Members:</strong> what, whoever, whomever, whatever, whichever</p>
+<blockquote><p><strong>What</strong> you said surprised everyone. (= the thing that you said) <strong>Whoever</strong> finishes first should start the next batch. Take <strong>whichever</strong> you prefer.</p></blockquote>
+<h3 id="interrogative-pronouns">Interrogative pronouns<a class="hash" href="#interrogative-pronouns" aria-label="link">#</a></h3>
+<p>Interrogative pronouns ask questions. They stand in for the unknown answer.</p>
+<p><strong>Members:</strong> who, whom, whose, what, which (plus emphatic <em>whoever</em>, <em>whatever</em>)</p>
+<blockquote><p><strong>Who</strong> left this message? <strong>Whom</strong> did you consult? (formal) <strong>Whose</strong> is this jacket? <strong>What</strong> happened at the meeting? <strong>Which</strong> of these do you recommend?</p></blockquote>
+<p>They also introduce indirect questions, where normal statement word order returns and the auxiliary does not invert:</p>
+<blockquote><p>I asked <strong>what</strong> she said. (not <em>I asked what did she say</em>) Nobody knows <strong>which</strong> of the files he opened. (not <em>which did he open</em>)</p></blockquote>
+<h3 id="indefinite-pronouns">Indefinite pronouns<a class="hash" href="#indefinite-pronouns" aria-label="link">#</a></h3>
+<p>Indefinite pronouns refer to people or things without specifying exactly which ones. This is a large, partly open class.</p>
+<p><strong>Singular members:</strong> anybody, anyone, anything, another, each, either, everybody, everyone, everything, much, neither, nobody, no one, nothing, one, other, somebody, someone, something <strong>Plural members:</strong> both, few, fewer, many, others, several <strong>Variable (singular or plural depending on the referent):</strong> all, any, more, most, none, some, such</p>
+<blockquote><p><strong>Everyone</strong> was told to bring identification. <strong>Several</strong> have already responded. <strong>Most</strong> of the milk is gone. / <strong>Most</strong> of the students are gone.</p></blockquote>
+<h3 id="distributive-pronouns">Distributive pronouns<a class="hash" href="#distributive-pronouns" aria-label="link">#</a></h3>
+<p>Distributive pronouns single out members of a group one at a time. Many grammars fold these into the indefinite pronouns; they are listed separately here because their agreement behavior is distinctive.</p>
+<p><strong>Members:</strong> each, either, neither, every one</p>
+<p>They are consistently singular, which is what sets them apart from indefinites like <em>all</em> and <em>none</em>.</p>
+<blockquote><p><strong>Each</strong> of the applicants was interviewed twice. <strong>Neither</strong> of the proposals addresses the cost. <strong>Either</strong> works for me.</p></blockquote>
+<h3 id="reciprocal-pronouns">Reciprocal pronouns<a class="hash" href="#reciprocal-pronouns" aria-label="link">#</a></h3>
+<p>Reciprocal pronouns express a mutual relationship among the members of a plural antecedent: each member both acts and is acted on.</p>
+<p><strong>Members:</strong> each other, one another (and the possessives <em>each other's</em>, <em>one another's</em>)</p>
+<blockquote><p>The twins finish <strong>each other's</strong> sentences. The volunteers helped <strong>one another</strong> load the truck. We haven't seen <strong>each other</strong> since college.</p></blockquote>
+<p>A traditional rule reserves <em>each other</em> for exactly two and <em>one another</em> for three or more. It has never matched actual usage, and no current American style guide enforces it — treat the two as interchangeable.</p>
+<h3 id="dummy-expletive-pronouns">Dummy (expletive) pronouns<a class="hash" href="#dummy-expletive-pronouns" aria-label="link">#</a></h3>
+<p>Dummy pronouns occupy the subject position that English syntax requires, without referring to anything. English does not allow subjectless declarative sentences, so a placeholder is needed.</p>
+<p><strong>Members:</strong> it, there</p>
+<p><strong>Dummy <em>it</em></strong> covers weather, time, distance, ambient conditions, extraposed clauses, and cleft sentences:</p>
+<blockquote><p><strong>It</strong> is snowing in Denver. <strong>It</strong> is almost midnight. <strong>It</strong> is three miles to the trailhead. <strong>It</strong> is obvious <strong>that</strong> she was right. (extraposition) <strong>It</strong> was Daniel who signed the lease. (cleft)</p></blockquote>
+<p><strong>Existential <em>there</em></strong> introduces the existence of something; the real subject follows the verb:</p>
+<blockquote><p><strong>There</strong> is a problem with the invoice. <strong>There</strong> were sixteen people in the elevator. <strong>There</strong> seems to be no record of the payment.</p></blockquote>
+<p>A note on classification: existential <em>there</em> began as the locative adverb <em>there</em> and some grammars still analyze it as an adverb rather than a pronoun. It is grouped here because it behaves like a subject — it inverts in questions (<em>Is there a problem?</em>) and appears in tag questions (<em>There's a problem, isn't there?</em>), which adverbs do not do.</p>
+<h3 id="generic--impersonal-pronouns">Generic / impersonal pronouns<a class="hash" href="#generic--impersonal-pronouns" aria-label="link">#</a></h3>
+<p>These refer to people in general rather than to anyone specific.</p>
+<p><strong>Members:</strong> one, you (generic), they (generic), we (generic)</p>
+<blockquote><p><strong>One</strong> should read the contract before signing it. (formal) <strong>You</strong> never know what the market will do. (informal, = anyone) <strong>They</strong> say the winter will be mild. (unspecified people) <strong>We</strong> still don't know what causes most migraines. (humanity in general)</p></blockquote>
+<h3 id="singular-they">Singular <em>they</em><a class="hash" href="#singular-they" aria-label="link">#</a></h3>
+<p><em>They</em> used with a singular referent — either a person of unknown or unspecified gender, or a specific person whose pronouns are <em>they</em>. Singular <em>they</em> is attested from the late 1300s and is now accepted by the major American style guides, including the <em>AP Stylebook</em>, the <em>Chicago Manual of Style</em>, the <em>MLA Handbook</em>, and the APA <em>Publication Manual</em>.</p>
+<blockquote><p>If a <strong>customer</strong> complains, ask <strong>them</strong> to fill out a form. <strong>Somebody</strong> left <strong>their</strong> umbrella in the lobby. <strong>Alex</strong> said <strong>they</strong> would email the draft tonight.</p></blockquote>
+<p>Singular <em>they</em> takes plural verb agreement (<em>they were</em>, never <em>they was</em>), and its reflexive is <em>themselves</em> or, increasingly, <em>themself</em> when the referent is clearly one person.</p>
+<h3 id="the-prop-word-one--ones">The prop-word <em>one</em> / <em>ones</em><a class="hash" href="#the-prop-word-one--ones" aria-label="link">#</a></h3>
+<p><em>One</em> substitutes for a countable noun already established, so you can add a modifier without repeating the noun. It is a pro-noun rather than a pro-noun-phrase, and unlike other pronouns it can take a determiner and adjectives.</p>
+<blockquote><p>I don't want the blue shirt; I want the red <strong>one</strong>. These cookies are stale. Do we have fresh <strong>ones</strong>? Which <strong>one</strong> did she pick?</p></blockquote>
+<p><em>One</em> cannot substitute for a mass (uncountable) noun: say <em>I need some rice</em> → <em>I need some</em>, not <em>I need one</em>.</p>
+<h3 id="archaic-and-dialectal-pronouns">Archaic and dialectal pronouns<a class="hash" href="#archaic-and-dialectal-pronouns" aria-label="link">#</a></h3>
+<p>Learners encounter these in older texts, hymns, legal boilerplate, and regional American speech. They are not part of standard modern usage but are worth recognizing.</p>
+<div class="tw"><table><thead><tr><th style="text-align:left">Form</th><th style="text-align:left">Meaning</th><th style="text-align:left">Example</th></tr></thead><tbody><tr><td style="text-align:left">thou / thee / thy / thine / thyself</td><td style="text-align:left">archaic singular <em>you</em></td><td style="text-align:left"><em>Thou art late.</em></td></tr><tr><td style="text-align:left">ye</td><td style="text-align:left">archaic plural subject <em>you</em></td><td style="text-align:left"><em>Gather ye rosebuds.</em></td></tr><tr><td style="text-align:left">y'all, yall</td><td style="text-align:left">Southern/AAVE plural <em>you</em></td><td style="text-align:left"><em>Y'all coming to dinner?</em></td></tr><tr><td style="text-align:left">you guys, you all</td><td style="text-align:left">informal American plural <em>you</em></td><td style="text-align:left"><em>Are you guys ready?</em></td></tr><tr><td style="text-align:left">yous, youse</td><td style="text-align:left">some Northeastern/urban dialects</td><td style="text-align:left"><em>Yous better hurry.</em></td></tr><tr><td style="text-align:left">hisself, theirselves</td><td style="text-align:left">nonstandard reflexives</td><td style="text-align:left">(avoid in writing)</td></tr></tbody></table></div>
+<hr>
+<h2 id="3-forms-and-inflection">3. Forms and inflection<a class="hash" href="#3-forms-and-inflection" aria-label="link">#</a></h2>
+<p>Pronouns are the only word class in modern English that still inflects for <strong>case</strong> in a systematic way. Nouns have lost their case system except for the possessive <code>'s</code>, but pronouns preserve three distinct cases plus separate reflexive forms.</p>
+<h3 id="the-full-personal-pronoun-paradigm">The full personal pronoun paradigm<a class="hash" href="#the-full-personal-pronoun-paradigm" aria-label="link">#</a></h3>
+<div class="tw"><table><thead><tr><th style="text-align:left">Person / Number</th><th style="text-align:left">Subject</th><th style="text-align:left">Object</th><th style="text-align:left">Possessive determiner</th><th style="text-align:left">Possessive pronoun</th><th style="text-align:left">Reflexive</th></tr></thead><tbody><tr><td style="text-align:left">1st sing.</td><td style="text-align:left">I</td><td style="text-align:left">me</td><td style="text-align:left">my</td><td style="text-align:left">mine</td><td style="text-align:left">myself</td></tr><tr><td style="text-align:left">2nd sing.</td><td style="text-align:left">you</td><td style="text-align:left">you</td><td style="text-align:left">your</td><td style="text-align:left">yours</td><td style="text-align:left">yourself</td></tr><tr><td style="text-align:left">3rd sing. masc.</td><td style="text-align:left">he</td><td style="text-align:left">him</td><td style="text-align:left">his</td><td style="text-align:left">his</td><td style="text-align:left">himself</td></tr><tr><td style="text-align:left">3rd sing. fem.</td><td style="text-align:left">she</td><td style="text-align:left">her</td><td style="text-align:left">her</td><td style="text-align:left">hers</td><td style="text-align:left">herself</td></tr><tr><td style="text-align:left">3rd sing. neuter</td><td style="text-align:left">it</td><td style="text-align:left">it</td><td style="text-align:left">its</td><td style="text-align:left">its (rare)</td><td style="text-align:left">itself</td></tr><tr><td style="text-align:left">3rd sing. epicene</td><td style="text-align:left">they</td><td style="text-align:left">them</td><td style="text-align:left">their</td><td style="text-align:left">theirs</td><td style="text-align:left">themselves / themself</td></tr><tr><td style="text-align:left">1st plural</td><td style="text-align:left">we</td><td style="text-align:left">us</td><td style="text-align:left">our</td><td style="text-align:left">ours</td><td style="text-align:left">ourselves</td></tr><tr><td style="text-align:left">2nd plural</td><td style="text-align:left">you</td><td style="text-align:left">you</td><td style="text-align:left">your</td><td style="text-align:left">yours</td><td style="text-align:left">yourselves</td></tr><tr><td style="text-align:left">3rd plural</td><td style="text-align:left">they</td><td style="text-align:left">them</td><td style="text-align:left">their</td><td style="text-align:left">theirs</td><td style="text-align:left">themselves</td></tr><tr><td style="text-align:left">generic</td><td style="text-align:left">one</td><td style="text-align:left">one</td><td style="text-align:left">one's</td><td style="text-align:left">—</td><td style="text-align:left">oneself</td></tr></tbody></table></div>
+<p>Notes on the table:</p>
+<ul><li><strong>You</strong> is identical in the subject and object cases, and identical in singular and plural. Only the reflexive distinguishes number: <em>yourself</em> (one person) vs. <em>yourselves</em> (more than one).</li><li><strong>It</strong> is identical in subject and object.</li><li><strong>His</strong> serves as both determiner and standalone pronoun: <em>his car</em> (determiner), <em>That car is his</em> (pronoun).</li><li><strong>Her</strong> is a determiner (<em>her car</em>); the standalone pronoun is <strong>hers</strong> (<em>That car is hers</em>).</li><li><strong>Its</strong> as a standalone possessive pronoun is grammatically possible but almost never used: <em>The dog found its bone; the cat couldn't find its</em> sounds odd. Rewrite instead.</li></ul>
+<h3 id="reflexive-formation">Reflexive formation<a class="hash" href="#reflexive-formation" aria-label="link">#</a></h3>
+<p>Reflexives are built by adding <em>-self</em> (singular) or <em>-selves</em> (plural), but the base differs by person:</p>
+<div class="tw"><table><thead><tr><th style="text-align:left">Rule</th><th style="text-align:left">Persons</th><th style="text-align:left">Forms</th></tr></thead><tbody><tr><td style="text-align:left">possessive determiner + self/selves</td><td style="text-align:left">1st, 2nd</td><td style="text-align:left">myself, yourself, ourselves, yourselves</td></tr><tr><td style="text-align:left">object pronoun + self/selves</td><td style="text-align:left">3rd</td><td style="text-align:left">himself, herself, itself, themselves</td></tr></tbody></table></div>
+<p>This inconsistency is why learners produce <em>hisself</em> and <em>theirselves</em> by analogy with <em>myself</em>. Those forms follow the logic but are nonstandard — use <strong>himself</strong> and <strong>themselves</strong>.</p>
+<h3 id="relative-and-interrogative-wh--forms">Relative and interrogative <em>wh-</em> forms<a class="hash" href="#relative-and-interrogative-wh--forms" aria-label="link">#</a></h3>
+<div class="tw"><table><thead><tr><th style="text-align:left">Function</th><th style="text-align:left">Person</th><th style="text-align:left">Thing</th><th style="text-align:left">Either</th></tr></thead><tbody><tr><td style="text-align:left">subject</td><td style="text-align:left">who</td><td style="text-align:left">which</td><td style="text-align:left">that</td></tr><tr><td style="text-align:left">object</td><td style="text-align:left">whom (formal) / who (informal)</td><td style="text-align:left">which</td><td style="text-align:left">that / —</td></tr><tr><td style="text-align:left">possessive</td><td style="text-align:left">whose</td><td style="text-align:left">whose / of which</td><td style="text-align:left">—</td></tr></tbody></table></div>
+<p><em>Whose</em> is the only possessive form and it works for both people and things: <em>the author whose book won</em>, <em>a building whose roof leaks</em>.</p>
+<h3 id="case-marking-what-actually-changes">Case marking: what actually changes<a class="hash" href="#case-marking-what-actually-changes" aria-label="link">#</a></h3>
+<div class="tw"><table><thead><tr><th style="text-align:left">Case</th><th style="text-align:left">Also called</th><th style="text-align:left">Used for</th><th style="text-align:left">Example</th></tr></thead><tbody><tr><td style="text-align:left">Subject</td><td style="text-align:left">nominative</td><td style="text-align:left">subject of a verb; traditionally, subject complement</td><td style="text-align:left"><strong>She</strong> called. / It was <strong>she</strong>.</td></tr><tr><td style="text-align:left">Object</td><td style="text-align:left">accusative, oblique</td><td style="text-align:left">direct object, indirect object, object of preposition</td><td style="text-align:left">Call <strong>her</strong>. / Give it to <strong>her</strong>.</td></tr><tr><td style="text-align:left">Possessive (dependent)</td><td style="text-align:left">genitive</td><td style="text-align:left">before a noun</td><td style="text-align:left"><strong>her</strong> phone</td></tr><tr><td style="text-align:left">Possessive (independent)</td><td style="text-align:left">genitive</td><td style="text-align:left">standing alone</td><td style="text-align:left">The phone is <strong>hers</strong>.</td></tr></tbody></table></div>
+<h3 id="what-pronouns-do-not-inflect-for">What pronouns do <em>not</em> inflect for<a class="hash" href="#what-pronouns-do-not-inflect-for" aria-label="link">#</a></h3>
+<p>Pronouns do not take plural <code>-s</code> the way nouns do — the plural forms are suppletive (<em>I</em> → <em>we</em>, not <em>I-s</em>). They do not take comparative or superlative endings. Demonstratives inflect only for number (<em>this</em>/<em>these</em>, <em>that</em>/<em>those</em>). Relative, interrogative, reciprocal, and most indefinite pronouns do not inflect at all, with these exceptions:</p>
+<div class="tw"><table><thead><tr><th style="text-align:left">Class</th><th style="text-align:left">Inflects?</th><th style="text-align:left">Detail</th></tr></thead><tbody><tr><td style="text-align:left">relative</td><td style="text-align:left">partly</td><td style="text-align:left"><em>who / whom / whose</em></td></tr><tr><td style="text-align:left">interrogative</td><td style="text-align:left">partly</td><td style="text-align:left"><em>who / whom / whose</em></td></tr><tr><td style="text-align:left">indefinite</td><td style="text-align:left">possessive only</td><td style="text-align:left"><em>someone's</em>, <em>everybody's</em>, <em>no one's</em></td></tr><tr><td style="text-align:left">reciprocal</td><td style="text-align:left">possessive only</td><td style="text-align:left"><em>each other's</em>, <em>one another's</em></td></tr><tr><td style="text-align:left">demonstrative</td><td style="text-align:left">number only</td><td style="text-align:left"><em>this / these</em>, <em>that / those</em></td></tr><tr><td style="text-align:left">prop-word <em>one</em></td><td style="text-align:left">number only</td><td style="text-align:left"><em>one / ones</em></td></tr></tbody></table></div>
+<p>Indefinite pronouns and reciprocals form their possessive with <code>'s</code>, exactly like nouns: <em>That is <strong>somebody's</strong> coat.</em> / <em>They wore <strong>each other's</strong> jackets.</em></p>
+<h3 id="the-apostrophe-rule">The apostrophe rule<a class="hash" href="#the-apostrophe-rule" aria-label="link">#</a></h3>
+<p>Personal possessive pronouns <strong>never</strong> take an apostrophe. This is the single most common punctuation error in English:</p>
+<div class="tw"><table><thead><tr><th style="text-align:left">Correct possessive</th><th style="text-align:left">Confusable contraction</th></tr></thead><tbody><tr><td style="text-align:left">its (<em>the dog and its bone</em>)</td><td style="text-align:left">it's (<em>it is / it has</em>)</td></tr><tr><td style="text-align:left">yours</td><td style="text-align:left">you're (<em>you are</em>)</td></tr><tr><td style="text-align:left">theirs</td><td style="text-align:left">they're (<em>they are</em>)</td></tr><tr><td style="text-align:left">whose</td><td style="text-align:left">who's (<em>who is / who has</em>)</td></tr><tr><td style="text-align:left">ours, hers, his</td><td style="text-align:left">—</td></tr></tbody></table></div>
+<hr>
+<h2 id="4-position-and-word-order">4. Position and word order<a class="hash" href="#4-position-and-word-order" aria-label="link">#</a></h2>
+<h3 id="subject-and-object-positions">Subject and object positions<a class="hash" href="#subject-and-object-positions" aria-label="link">#</a></h3>
+<p>Pronouns occupy the same slots as the noun phrases they replace, and English word order is fixed: <strong>Subject – Verb – Object</strong>.</p>
+<blockquote><p><strong>She</strong> emailed <strong>him</strong> <strong>the contract</strong>. subject — verb — indirect object — direct object</p></blockquote>
+<p>With a two-object verb you have two orderings. When the direct object is itself a pronoun, American English strongly prefers the prepositional pattern:</p>
+<blockquote><p>Give <strong>her</strong> <strong>the book</strong>. (indirect object + direct object) Give <strong>it</strong> to <strong>her</strong>. (direct object + prepositional phrase — the normal pattern when the direct object is a pronoun) Not: <em>Give her it.</em> (used in some British regional dialects, very unusual in American English)</p></blockquote>
+<h3 id="order-inside-coordinated-pronouns">Order inside coordinated pronouns<a class="hash" href="#order-inside-coordinated-pronouns" aria-label="link">#</a></h3>
+<p>Convention places the first-person pronoun <strong>last</strong> in a coordinated phrase. This is politeness, not grammar, but it is expected in careful writing:</p>
+<blockquote><p><strong>My brother and I</strong> drove to Chicago. (preferred over <em>I and my brother</em>) The award went to <strong>her and me</strong>. (preferred over <em>me and her</em>)</p></blockquote>
+<p>Second person conventionally comes first, then third, then first:</p>
+<blockquote><p><strong>You, Marcus, and I</strong> are on the same team.</p></blockquote>
+<h3 id="possessive-determiner-position">Possessive determiner position<a class="hash" href="#possessive-determiner-position" aria-label="link">#</a></h3>
+<p>A possessive determiner comes first in the noun phrase, before any adjectives, and cannot co-occur with articles or demonstratives:</p>
+<blockquote><p><strong>my</strong> three old wooden chairs Not: <em>the my chair</em>, <em>this my chair</em></p></blockquote>
+<p>To express both, use the "double genitive": <em>a friend <strong>of mine</strong></em>, <em>that book <strong>of hers</strong></em>.</p>
+<h3 id="intensive-pronoun-position">Intensive pronoun position<a class="hash" href="#intensive-pronoun-position" aria-label="link">#</a></h3>
+<p>An intensive pronoun goes either directly after the noun it emphasizes, or at the end of the clause. Both are correct; the meaning shifts slightly.</p>
+<blockquote><p>The <strong>director himself</strong> approved it. (immediately after — emphasizes who) The director approved it <strong>himself</strong>. (clause-final — emphasizes that he did it personally)</p></blockquote>
+<h3 id="relative-pronoun-position">Relative pronoun position<a class="hash" href="#relative-pronoun-position" aria-label="link">#</a></h3>
+<p>A relative pronoun opens its clause and the clause follows the noun it modifies as closely as possible:</p>
+<blockquote><p>The email <strong>that I sent yesterday</strong> bounced. Not: <em>The email bounced that I sent yesterday.</em></p></blockquote>
+<p>When the relative pronoun is the object of a preposition, the preposition either moves with it (pied-piping, formal) or stays behind (stranding, normal in American English):</p>
+<blockquote><p>The colleague <strong>with whom</strong> I traveled has since retired. (formal, pied-piped) The colleague <strong>who</strong> I traveled <strong>with</strong> has since retired. (normal, stranded) The colleague I traveled <strong>with</strong> has since retired. (zero relative, most natural in speech)</p></blockquote>
+<h3 id="interrogative-pronoun-position">Interrogative pronoun position<a class="hash" href="#interrogative-pronoun-position" aria-label="link">#</a></h3>
+<p>An interrogative pronoun moves to the front of the question. If it is the <strong>subject</strong>, no auxiliary inversion occurs; if it is anything else, inversion applies:</p>
+<blockquote><p><strong>Who</strong> broke the window? (subject — no <em>did</em>) <strong>What</strong> did she say? (object — inversion with <em>did</em>) <strong>Which</strong> of these did you order? (object — inversion)</p></blockquote>
+<h3 id="dummy-pronoun-position">Dummy pronoun position<a class="hash" href="#dummy-pronoun-position" aria-label="link">#</a></h3>
+<p>Dummy <em>it</em> and existential <em>there</em> always occupy the subject slot and invert like any subject:</p>
+<blockquote><p><strong>There</strong> is a delay. → <strong>Is there</strong> a delay? <strong>It</strong> is late. → <strong>Is it</strong> late?</p></blockquote>
+<h3 id="reflexive-vs-intensive-placement">Reflexive vs. intensive placement<a class="hash" href="#reflexive-vs-intensive-placement" aria-label="link">#</a></h3>
+<p>A reflexive object is locked into the ordinary object slot; an intensive can float:</p>
+<blockquote><p>She blamed <strong>herself</strong>. (reflexive — sits where any direct object sits) Not: <em>She herself blamed.</em></p></blockquote>
+<blockquote><p>I <strong>myself</strong> have never tried it. (intensive — after the subject) I have never tried it <strong>myself</strong>. (intensive — clause-final)</p></blockquote>
+<hr>
+<h2 id="5-rules-and-patterns">5. Rules and patterns<a class="hash" href="#5-rules-and-patterns" aria-label="link">#</a></h2>
+<h3 id="rule-1-case-follows-function-not-proximity">Rule 1: Case follows function, not proximity<a class="hash" href="#rule-1-case-follows-function-not-proximity" aria-label="link">#</a></h3>
+<p>Use the subject form for subjects and the object form for objects, even inside a compound. The trick is to test each part separately.</p>
+<blockquote><p><strong>He and I</strong> finalized the budget. (test: <em>He finalized</em>, <em>I finalized</em>) The client thanked <strong>Priya and me</strong>. (test: <em>thanked me</em>, not <em>thanked I</em>)</p></blockquote>
+<h3 id="rule-2-after-a-preposition-always-the-object-case">Rule 2: After a preposition, always the object case<a class="hash" href="#rule-2-after-a-preposition-always-the-object-case" aria-label="link">#</a></h3>
+<blockquote><p>between you and <strong>me</strong> for my wife and <strong>me</strong> among <strong>us</strong> according to <strong>them</strong></p></blockquote>
+<p>One real exception: when the object of the preposition is a whole clause, the pronoun takes the case its job <em>inside that clause</em> requires, not the case the preposition would assign.</p>
+<blockquote><p>Give the file to <strong>whoever</strong> asks for it. (<em>whoever</em> is the subject of <em>asks</em>, so subject case wins) Give the file to <strong>whomever</strong> you trust. (<em>whomever</em> is the object of <em>trust</em>)</p></blockquote>
+<h3 id="rule-3-a-pronoun-must-agree-with-its-antecedent-in-number-person-and-gender">Rule 3: A pronoun must agree with its antecedent in number, person, and gender<a class="hash" href="#rule-3-a-pronoun-must-agree-with-its-antecedent-in-number-person-and-gender" aria-label="link">#</a></h3>
+<blockquote><p>The <strong>teachers</strong> submitted <strong>their</strong> grades. (plural → plural) <strong>Each employee</strong> must sign <strong>their</strong> form. (singular → singular <em>they</em>) The <strong>committee</strong> released <strong>its</strong> findings. (American English treats collectives as singular)</p></blockquote>
+<h3 id="rule-4-the-antecedent-must-be-unambiguous">Rule 4: The antecedent must be unambiguous<a class="hash" href="#rule-4-the-antecedent-must-be-unambiguous" aria-label="link">#</a></h3>
+<p>If a reader can reasonably attach the pronoun to two different nouns, rewrite.</p>
+<blockquote><p>Ambiguous: <em>When Dana met Rachel, <strong>she</strong> was nervous.</em> Clear: <em>Dana was nervous when she met Rachel.</em></p></blockquote>
+<h3 id="rule-5-the-antecedent-must-actually-exist-in-the-text">Rule 5: The antecedent must actually exist in the text<a class="hash" href="#rule-5-the-antecedent-must-actually-exist-in-the-text" aria-label="link">#</a></h3>
+<p>Avoid pronouns whose referent is only implied.</p>
+<blockquote><p>Weak: <em>In the article, <strong>it</strong> says the deadline moved.</em> Better: <em>The article says the deadline moved.</em></p></blockquote>
+<h3 id="rule-6-use-a-reflexive-when-subject-and-object-are-the-same-in-the-same-clause">Rule 6: Use a reflexive when subject and object are the same in the same clause<a class="hash" href="#rule-6-use-a-reflexive-when-subject-and-object-are-the-same-in-the-same-clause" aria-label="link">#</a></h3>
+<blockquote><p>She poured <strong>herself</strong> a coffee. But: She poured <strong>her</strong> a coffee. (someone else)</p></blockquote>
+<p>Across clause boundaries, use the ordinary object pronoun:</p>
+<blockquote><p>Marco said the manager would call <strong>him</strong>. (not <em>himself</em> — different clauses)</p></blockquote>
+<h3 id="rule-7-do-not-use-a-reflexive-as-a-plain-subject-or-object-substitute">Rule 7: Do not use a reflexive as a plain subject or object substitute<a class="hash" href="#rule-7-do-not-use-a-reflexive-as-a-plain-subject-or-object-substitute" aria-label="link">#</a></h3>
+<p>Reflexives are not fancier versions of <em>me</em> and <em>I</em>.</p>
+<blockquote><p>✗ <em>Please contact Sara or myself.</em> → ✓ <em>Please contact Sara or me.</em></p></blockquote>
+<h3 id="rule-8-location-prepositions-take-ordinary-pronouns-not-reflexives">Rule 8: Location prepositions take ordinary pronouns, not reflexives<a class="hash" href="#rule-8-location-prepositions-take-ordinary-pronouns-not-reflexives" aria-label="link">#</a></h3>
+<p>When the preposition expresses place and the coreference is obvious, English uses the plain object form:</p>
+<blockquote><p>He shut the door behind <strong>him</strong>. She had her passport with <strong>her</strong>. He looked around <strong>him</strong>.</p></blockquote>
+<h3 id="rule-9-indefinite-pronoun-agreement">Rule 9: Indefinite pronoun agreement<a class="hash" href="#rule-9-indefinite-pronoun-agreement" aria-label="link">#</a></h3>
+<p>Singular indefinites take singular verbs, even when a plural noun sits in between:</p>
+<blockquote><p><strong>Each</strong> of the reports <strong>is</strong> overdue. <strong>Neither</strong> of the answers <strong>was</strong> correct. <strong>Everybody</strong> in the seminars <strong>needs</strong> a badge.</p></blockquote>
+<p><em>None</em> may be singular or plural. Singular when it means "not one," plural when it means "not any of them":</p>
+<blockquote><p><strong>None</strong> of the milk <strong>was</strong> spoiled. <strong>None</strong> of the applicants <strong>were</strong> qualified.</p></blockquote>
+<p>Variable indefinites (<em>all, any, more, most, some</em>) agree with the noun in the <em>of</em>-phrase:</p>
+<blockquote><p><strong>Some</strong> of the water <strong>is</strong> gone. / <strong>Some</strong> of the bottles <strong>are</strong> gone.</p></blockquote>
+<h3 id="rule-10-relative-pronoun-choice">Rule 10: Relative pronoun choice<a class="hash" href="#rule-10-relative-pronoun-choice" aria-label="link">#</a></h3>
+<div class="tw"><table><thead><tr><th style="text-align:left">Antecedent</th><th style="text-align:left">Restrictive clause</th><th style="text-align:left">Nonrestrictive clause</th></tr></thead><tbody><tr><td style="text-align:left">person</td><td style="text-align:left">who / that / whom</td><td style="text-align:left">who / whom (never <em>that</em>)</td></tr><tr><td style="text-align:left">thing or animal</td><td style="text-align:left">that / which</td><td style="text-align:left">which (never <em>that</em>)</td></tr><tr><td style="text-align:left">possessor</td><td style="text-align:left">whose</td><td style="text-align:left">whose</td></tr></tbody></table></div>
+<blockquote><p>The car <strong>that</strong> needs repairs is in the lot. (restrictive, no commas) My car, <strong>which</strong> needs repairs, is in the lot. (nonrestrictive, commas)</p></blockquote>
+<h3 id="rule-11-you-may-omit-a-relative-pronoun-only-when-it-is-the-object-of-its-clause">Rule 11: You may omit a relative pronoun only when it is the object of its clause<a class="hash" href="#rule-11-you-may-omit-a-relative-pronoun-only-when-it-is-the-object-of-its-clause" aria-label="link">#</a></h3>
+<blockquote><p>The book <strong>[that]</strong> I read was excellent. (object — omission fine) The book <strong>that</strong> changed my mind was excellent. (subject — omission impossible) ✗ <em>The book changed my mind was excellent.</em></p></blockquote>
+<p>Never omit the relative pronoun in a nonrestrictive clause.</p>
+<h3 id="rule-12-who-vs-whom">Rule 12: <em>Who</em> vs. <em>whom</em><a class="hash" href="#rule-12-who-vs-whom" aria-label="link">#</a></h3>
+<p>Substitute <em>he/she</em> and <em>him/her</em> into the clause. If <em>he</em> fits, use <em>who</em>; if <em>him</em> fits, use <em>whom</em>.</p>
+<blockquote><p><strong>Who</strong> called? (<em>He</em> called → <em>who</em>) <strong>Whom</strong> did you call? (You called <em>him</em> → <em>whom</em>) The agent <strong>who</strong> handled the sale has retired. (<em>He</em> handled → <em>who</em>) The agent <strong>whom</strong> we hired last spring has retired. (We hired <em>him</em> → <em>whom</em>)</p></blockquote>
+<p>Do not let an intervening clause fool you:</p>
+<blockquote><p>The candidate <strong>who</strong> we thought would win lost. (<em>He would win</em> → <em>who</em>, despite <em>we thought</em>)</p></blockquote>
+<h3 id="rule-13-existential-there-agrees-with-the-following-noun">Rule 13: Existential <em>there</em> agrees with the following noun<a class="hash" href="#rule-13-existential-there-agrees-with-the-following-noun" aria-label="link">#</a></h3>
+<blockquote><p><strong>There is</strong> one exception. <strong>There are</strong> several exceptions.</p></blockquote>
+<p>In casual speech, <em>there's</em> is routinely used with plurals (<em>there's two people waiting</em>). This is very common but is still edited out of formal writing.</p>
+<h3 id="rule-14-reciprocals-require-a-plural-subject">Rule 14: Reciprocals require a plural subject<a class="hash" href="#rule-14-reciprocals-require-a-plural-subject" aria-label="link">#</a></h3>
+<blockquote><p>The two departments blamed <strong>each other</strong>. ✗ <em>The department blamed each other.</em></p></blockquote>
+<h3 id="rule-15-pronouns-before-gerunds">Rule 15: Pronouns before gerunds<a class="hash" href="#rule-15-pronouns-before-gerunds" aria-label="link">#</a></h3>
+<p>Formal writing prefers the possessive; the object case is common and accepted in speech and informal writing.</p>
+<blockquote><p>Formal: <em>I appreciate <strong>your</strong> taking the time.</em> Informal: <em>I appreciate <strong>you</strong> taking the time.</em></p></blockquote>
+<h3 id="rule-16-consistency-of-person">Rule 16: Consistency of person<a class="hash" href="#rule-16-consistency-of-person" aria-label="link">#</a></h3>
+<p>Do not drift between <em>one</em>, <em>you</em>, and <em>we</em> within a passage.</p>
+<blockquote><p>✗ <em>If <strong>one</strong> wants to succeed, <strong>you</strong> must plan ahead.</em> ✓ <em>If <strong>you</strong> want to succeed, <strong>you</strong> must plan ahead.</em></p></blockquote>
+<h3 id="rule-17-appositive-pronouns-take-the-case-of-the-noun-they-attach-to">Rule 17: Appositive pronouns take the case of the noun they attach to<a class="hash" href="#rule-17-appositive-pronouns-take-the-case-of-the-noun-they-attach-to" aria-label="link">#</a></h3>
+<blockquote><p><strong>We</strong> editors work late. (subject → <em>we</em>) They gave <strong>us</strong> editors a deadline. (object → <em>us</em>)</p></blockquote>
+<h3 id="rule-18-reflexive-scope--a-reflexive-needs-an-antecedent-in-its-own-clause">Rule 18: Reflexive scope — a reflexive needs an antecedent in its own clause<a class="hash" href="#rule-18-reflexive-scope--a-reflexive-needs-an-antecedent-in-its-own-clause" aria-label="link">#</a></h3>
+<blockquote><p>✓ <em>The board defended <strong>itself</strong>.</em> ✗ <em>The board said the CEO would defend <strong>itself</strong>.</em> → <em>…would defend <strong>it</strong></em>.</p></blockquote>
+<h3 id="rule-19-compound-antecedents">Rule 19: Compound antecedents<a class="hash" href="#rule-19-compound-antecedents" aria-label="link">#</a></h3>
+<p>Two or more antecedents joined by <em>and</em> are plural. Antecedents joined by <em>or</em> or <em>nor</em> are not added together — the pronoun agrees with the <strong>nearer</strong> one.</p>
+<blockquote><p><strong>The director and the producer</strong> brought <strong>their</strong> own notes. (<em>and</em> → plural) Either <strong>the interns</strong> or <strong>the manager</strong> will bring <strong>his or her</strong> badge. → more naturally: <em>…will bring <strong>their</strong> badge.</em> Neither <strong>the manager</strong> nor <strong>the interns</strong> brought <strong>their</strong> badges. (nearer antecedent is plural)</p></blockquote>
+<p>When the proximity rule produces something awkward, put the plural element second or rewrite the sentence.</p>
+<h3 id="rule-20-keep-one-antecedent-agreement-strategy-per-passage">Rule 20: Keep one antecedent-agreement strategy per passage<a class="hash" href="#rule-20-keep-one-antecedent-agreement-strategy-per-passage" aria-label="link">#</a></h3>
+<p>Once you have chosen how to refer back to a singular indefinite, stay with it. Mixing strategies inside one passage reads as an error even when each choice is individually defensible.</p>
+<blockquote><p>✗ <em>Every user sets <strong>his or her</strong> password, and then <strong>they</strong> confirm it.</em> ✓ <em>Every user sets <strong>their</strong> password, and then <strong>they</strong> confirm it.</em> ✓ <em>All users set <strong>their</strong> passwords, and then <strong>they</strong> confirm them.</em> (plural rewrite — often the cleanest fix)</p></blockquote>
+<hr>
+<h2 id="6-common-mistakes">6. Common mistakes<a class="hash" href="#6-common-mistakes" aria-label="link">#</a></h2>
+<ul><li>✗ <em>Between you and I, the deal is dead.</em> → ✓ <em>Between you and <strong>me</strong>, the deal is dead.</em> — <em>Between</em> is a preposition, so it takes the object case; <em>I</em> is subject-only.</li></ul>
+<ul><li>✗ <em>Please send the invoice to Karen and I.</em> → ✓ <em>Please send the invoice to Karen and <strong>me</strong>.</em> — Drop the other name and the error is audible: <em>send it to I</em> is impossible.</li></ul>
+<ul><li>✗ <em>Its a good idea to check the manual.</em> → ✓ <em><strong>It's</strong> a good idea to check the manual.</em> — <em>It's</em> is the contraction of <em>it is</em>; the possessive <em>its</em> never takes an apostrophe.</li></ul>
+<ul><li>✗ <em>The dog wagged it's tail.</em> → ✓ <em>The dog wagged <strong>its</strong> tail.</em> — Same rule in the other direction: possessive <em>its</em> is apostrophe-free.</li></ul>
+<ul><li>✗ <em>Him and me went to the concert.</em> → ✓ <em><strong>He</strong> and <strong>I</strong> went to the concert.</em> — Subjects take the subject case; test each pronoun alone.</li></ul>
+<ul><li>✗ <em>Contact myself if you have questions.</em> → ✓ <em>Contact <strong>me</strong> if you have questions.</em> — A reflexive needs a matching subject in the same clause; <em>myself</em> is not a polite form of <em>me</em>.</li></ul>
+<ul><li>✗ <em>He did it hisself.</em> → ✓ <em>He did it <strong>himself</strong>.</em> — Third-person reflexives are built on the object pronoun (<em>him</em>, <em>them</em>), not the possessive.</li></ul>
+<ul><li>✗ <em>They finished the job theirselves.</em> → ✓ <em>They finished the job <strong>themselves</strong>.</em> — Same rule; <em>theirselves</em> is nonstandard everywhere in edited English.</li></ul>
+<ul><li>✗ <em>Each of the students have a locker.</em> → ✓ <em>Each of the students <strong>has</strong> a locker.</em> — <em>Each</em> is the singular subject; <em>of the students</em> is a modifier and cannot control the verb.</li></ul>
+<ul><li>✗ <em>Who did you give the keys to?</em> (formal writing) → ✓ <em><strong>Whom</strong> did you give the keys to?</em> — In the clause you gave the keys to <em>him</em>, so the object form is required. Acceptable in speech, flagged in formal prose.</li></ul>
+<ul><li>✗ <em>The company announced their new policy.</em> → ✓ <em>The company announced <strong>its</strong> new policy.</em> — American English treats collective nouns as singular unless the members are acting individually.</li></ul>
+<ul><li>✗ <em>Me and my friend are studying together.</em> → ✓ <em>My friend and <strong>I</strong> are studying together.</em> — Subject case, and convention puts <em>I</em> last.</li></ul>
+<ul><li>✗ <em>There's three messages waiting.</em> → ✓ <em>There <strong>are</strong> three messages waiting.</em> — Existential <em>there</em> agrees with the noun that follows, which here is plural.</li></ul>
+<ul><li>✗ <em>The report which I filed on Monday is missing.</em> (American editing) → ✓ <em>The report <strong>that</strong> I filed on Monday is missing.</em> — American style reserves <em>which</em> for nonrestrictive clauses set off by commas.</li></ul>
+<ul><li>✗ <em>The manager, that hired me, has left.</em> → ✓ <em>The manager, <strong>who</strong> hired me, has left.</em> — <em>That</em> cannot introduce a nonrestrictive clause, and <em>who</em> is preferred for people.</li></ul>
+<ul><li>✗ <em>Sara told Rebecca that she had been promoted.</em> → ✓ <em>Sara told Rebecca, "<strong>You've</strong> been promoted."</em> — The original is ambiguous; rewrite rather than leave two possible antecedents.</li></ul>
+<ul><li>✗ <em>Everyone should bring his or her own laptop, and they should charge it.</em> → ✓ <em>Everyone should bring <strong>their</strong> own laptop, and <strong>they</strong> should charge it.</em> — Keep one strategy; do not mix <em>his or her</em> with <em>they</em> for the same antecedent.</li></ul>
+<ul><li>✗ <em>The three of them helped themself.</em> → ✓ <em>The three of them helped <strong>themselves</strong>.</em> — <em>Themself</em> is reserved for a singular referent; a plural subject requires <em>themselves</em>.</li></ul>
+<hr>
+<h2 id="7-american-english-notes">7. American English notes<a class="hash" href="#7-american-english-notes" aria-label="link">#</a></h2>
+<p>Pronoun <em>forms</em> are essentially identical in American and British English. The genuine differences are in agreement conventions, style-guide preferences, and informal vocabulary.</p>
+<p><strong>Collective noun agreement — the biggest real difference.</strong> American English treats collective nouns as singular and refers back with <em>it</em>; British English commonly treats them as plural and uses <em>they</em>.</p>
+<blockquote><p>American: <em>The team <strong>is</strong> playing well. <strong>It</strong> has won five straight.</em> British: <em>The team <strong>are</strong> playing well. <strong>They</strong> have won five straight.</em></p></blockquote>
+<p>This applies to <em>team, band, government, staff, committee, family, company, jury, audience</em>. American writers switch to plural only when the individual members are clearly acting separately: <em>The jury <strong>were</strong> divided in <strong>their</strong> opinions.</em></p>
+<p><strong>Restrictive <em>that</em> vs. <em>which</em>.</strong> American style guides (Chicago, AP, Garner) enforce <em>that</em> for restrictive clauses and <em>which</em> — with commas — for nonrestrictive ones. British usage allows restrictive <em>which</em> far more freely and most British house styles do not object to it.</p>
+<blockquote><p>American: <em>The proposal <strong>that</strong> passed will take effect in June.</em> British (also acceptable there): <em>The proposal <strong>which</strong> passed will take effect in June.</em></p></blockquote>
+<p><strong>Plural <em>you</em>.</strong> Standard English has no distinct plural <em>you</em>, and American English has developed several informal fillers: <em>you guys</em> (nationwide, and now often gender-neutral), <em>y'all</em> (Southern, spreading, and standard in African American English), <em>you all</em>, and regionally <em>yous/youse</em> and <em>you'uns/yinz</em> (western Pennsylvania). British English uses <em>you lot</em>. None belong in formal writing.</p>
+<p><strong>Singular <em>they</em>.</strong> Both varieties accept it, but American style guides have moved fast and explicitly. Merriam-Webster entered the singular-person sense in 2019; the <em>Chicago Manual of Style</em> and the <em>AP Stylebook</em> both accept <em>they</em> for a person who uses it and for a person of unspecified gender, with AP still nudging writers toward a rewrite when one is easy. The older American workaround <em>he or she</em> now reads as clunky, and generic <em>he</em> is considered outdated in both varieties.</p>
+<p><strong>Generic <em>one</em>.</strong> In British English, once you start with <em>one</em>, you keep it: <em>One must do one's best.</em> American English tends to find sustained <em>one</em> stilted and either switches to <em>he/she/they</em> or avoids the construction: <em>One must do his best</em> is the traditional American pattern, though many American writers now simply rewrite with <em>you</em>.</p>
+<p><strong>Reflexives for <em>me</em>.</strong> Using <em>myself</em> in place of <em>me</em> (<em>Please email John or myself</em>) is a feature of business and bureaucratic register, not of a national variety. It is equally common in American offices and British ones, and editors on both sides flag it. This is <strong>not</strong> a transatlantic difference — do not learn it as one.</p>
+<p><strong>Spelling.</strong> No American/British spelling differences exist in the pronoun system — pronouns are all short, ancient, closed-class words. Any spelling variation you see (<em>yall</em> vs. <em>y'all</em>) is informal typing, not a transatlantic convention.</p>
+<p><strong>What is <em>not</em> different.</strong> <em>Whom</em> is declining in both varieties at roughly the same rate. <em>It's me</em> rather than <em>It is I</em> is the norm in both. <em>Each other</em> and <em>one another</em> are used interchangeably in both. Do not expect a British/American split where none exists.</p>
+<hr>
+<h2 id="8-tricky-cases">8. Tricky cases<a class="hash" href="#8-tricky-cases" aria-label="link">#</a></h2>
+<h3 id="words-that-belong-to-more-than-one-class">Words that belong to more than one class<a class="hash" href="#words-that-belong-to-more-than-one-class" aria-label="link">#</a></h3>
+<p>Many pronoun forms are pronouns only in some sentences. The test is whether the word stands alone (pronoun) or modifies a noun (determiner).</p>
+<div class="tw"><table><thead><tr><th style="text-align:left">Word</th><th style="text-align:left">As pronoun</th><th style="text-align:left">As determiner</th></tr></thead><tbody><tr><td style="text-align:left">this</td><td style="text-align:left"><strong>This</strong> is broken.</td><td style="text-align:left"><strong>This</strong> chair is broken.</td></tr><tr><td style="text-align:left">that</td><td style="text-align:left">I saw <strong>that</strong>.</td><td style="text-align:left">I saw <strong>that</strong> movie.</td></tr><tr><td style="text-align:left">which</td><td style="text-align:left"><strong>Which</strong> did you choose?</td><td style="text-align:left"><strong>Which</strong> color did you choose?</td></tr><tr><td style="text-align:left">some</td><td style="text-align:left"><strong>Some</strong> disagreed.</td><td style="text-align:left"><strong>Some</strong> people disagreed.</td></tr><tr><td style="text-align:left">all</td><td style="text-align:left"><strong>All</strong> are welcome.</td><td style="text-align:left"><strong>All</strong> guests are welcome.</td></tr><tr><td style="text-align:left">her</td><td style="text-align:left">I called <strong>her</strong>.</td><td style="text-align:left">I called <strong>her</strong> office.</td></tr><tr><td style="text-align:left">one</td><td style="text-align:left">I'll take the red <strong>one</strong>.</td><td style="text-align:left"><strong>One</strong> attempt is enough. (numeral)</td></tr></tbody></table></div>
+<p><em>That</em> has a third job entirely — it is also a subordinating conjunction with no pronoun function at all: <em>She said <strong>that</strong> she was tired.</em> Here <em>that</em> replaces nothing and can usually be deleted.</p>
+<h3 id="reflexive-or-intensive">Reflexive or intensive?<a class="hash" href="#reflexive-or-intensive" aria-label="link">#</a></h3>
+<p>Same form, different job. Delete the word: if the sentence still means the same thing, it was intensive; if the sentence breaks, it was reflexive.</p>
+<blockquote><p>He cut <strong>himself</strong> shaving. (delete → <em>He cut shaving</em> — broken, so reflexive) He <strong>himself</strong> cut the ribbon. (delete → <em>He cut the ribbon</em> — fine, so intensive)</p></blockquote>
+<h3 id="it-with-four-different-jobs"><em>It</em> with four different jobs<a class="hash" href="#it-with-four-different-jobs" aria-label="link">#</a></h3>
+<blockquote><p>The package arrived. <strong>It</strong> was damaged. (referential — refers to the package) <strong>It</strong> is freezing outside. (dummy — weather) <strong>It</strong> is unfortunate that she resigned. (anticipatory — points forward to the <em>that</em>-clause) <strong>It</strong> was in Miami that they met. (cleft — focuses <em>in Miami</em>)</p></blockquote>
+<h3 id="there-adverb-or-dummy"><em>There</em>: adverb or dummy?<a class="hash" href="#there-adverb-or-dummy" aria-label="link">#</a></h3>
+<blockquote><p>Put the box <strong>there</strong>. (adverb of place — stressed, replaceable with <em>over there</em>) <strong>There</strong> is a box in the hall. (dummy subject — unstressed, not replaceable)</p></blockquote>
+<h3 id="one-has-three-lives"><em>One</em> has three lives<a class="hash" href="#one-has-three-lives" aria-label="link">#</a></h3>
+<blockquote><p><strong>One</strong> should never assume. (impersonal pronoun) I want the blue <strong>one</strong>. (prop-word substituting for a noun) <strong>One</strong> ticket, please. (numeral determiner)</p></blockquote>
+<h3 id="subject-complement-case-it-is-i-vs-its-me">Subject complement case: <em>It is I</em> vs. <em>It's me</em><a class="hash" href="#subject-complement-case-it-is-i-vs-its-me" aria-label="link">#</a></h3>
+<p>Traditional grammar requires the subject case after a linking verb (<em>It is <strong>I</strong></em>, <em>This is <strong>she</strong></em>). Modern American usage overwhelmingly prefers the object case (<em>It's <strong>me</strong></em>, <em>That's <strong>him</strong></em>). Both are defensible; <em>It's me</em> is normal, <em>It is I</em> is formal to the point of sounding stiff outside of set phrases like <em>This is she</em> when answering a phone.</p>
+<h3 id="case-after-than-and-as">Case after <em>than</em> and <em>as</em><a class="hash" href="#case-after-than-and-as" aria-label="link">#</a></h3>
+<p>The choice depends on whether you treat <em>than</em> as a conjunction (introducing a reduced clause) or a preposition.</p>
+<blockquote><p>She is taller than <strong>I</strong> [am]. (conjunction reading — formal) She is taller than <strong>me</strong>. (preposition reading — normal in speech)</p></blockquote>
+<p>Sometimes the two readings mean genuinely different things, and the case is not optional:</p>
+<blockquote><p>He likes pizza more than <strong>I</strong> [do]. (I like pizza less than he does.) He likes pizza more than <strong>me</strong>. (He likes pizza more than he likes me.)</p></blockquote>
+<h3 id="whose-with-inanimate-antecedents"><em>Whose</em> with inanimate antecedents<a class="hash" href="#whose-with-inanimate-antecedents" aria-label="link">#</a></h3>
+<p>Some learners are told <em>whose</em> only works for people. It does not — <em>whose</em> is the only possessive relative English has, and it works for anything.</p>
+<blockquote><p>A theory <strong>whose</strong> predictions fail is not a good theory. The alternative <em>of which</em> is heavier: <em>A theory the predictions <strong>of which</strong> fail…</em></p></blockquote>
+<h3 id="each-others-apostrophe-placement"><em>Each other's</em> apostrophe placement<a class="hash" href="#each-others-apostrophe-placement" aria-label="link">#</a></h3>
+<p>The apostrophe goes on <em>other</em>, never on both words and never after the <em>s</em>:</p>
+<blockquote><p>✓ <em>They wore <strong>each other's</strong> coats.</em> ✗ <em>each others' coats</em>, ✗ <em>each others coats</em></p></blockquote>
+<p>The same goes for <em>one another's</em>: <em>They finished <strong>one another's</strong> sentences.</em></p>
+<h3 id="vague-this-that-which-and-it">Vague <em>this</em>, <em>that</em>, <em>which</em>, and <em>it</em><a class="hash" href="#vague-this-that-which-and-it" aria-label="link">#</a></h3>
+<p>A demonstrative or relative that points back at an entire clause rather than a noun is a common source of vagueness. Add a summary noun.</p>
+<blockquote><p>Vague: <em>The vendor missed three deadlines, <strong>which</strong> upset everyone.</em> Clear: <em>The vendor missed three deadlines, <strong>a pattern that</strong> upset everyone.</em></p></blockquote>
+<h3 id="everyone-is-grammatically-singular-but-notionally-plural"><em>Everyone</em> is grammatically singular but notionally plural<a class="hash" href="#everyone-is-grammatically-singular-but-notionally-plural" aria-label="link">#</a></h3>
+<p>The verb stays singular; the pronoun that refers back can be <em>they</em>.</p>
+<blockquote><p><strong>Everyone</strong> <strong>has</strong> their badge. (singular verb <em>has</em>, plural-form pronoun <em>their</em>)</p></blockquote>
+<p>This looks inconsistent but is standard modern English and appears in all major style guides.</p>
+<h3 id="who-after-prepositions-in-speech"><em>Who</em> after prepositions in speech<a class="hash" href="#who-after-prepositions-in-speech" aria-label="link">#</a></h3>
+<p><em>Whom</em> is required immediately after a preposition; if you strand the preposition, <em>who</em> becomes acceptable.</p>
+<blockquote><p>✓ <em>To <strong>whom</strong> should I address this?</em> ✓ <em>Who should I address this to?</em> ✗ <em>To <strong>who</strong> should I address this?</em></p></blockquote>
+<h3 id="themself-vs-themselves"><em>Themself</em> vs. <em>themselves</em><a class="hash" href="#themself-vs-themselves" aria-label="link">#</a></h3>
+<p><em>Themself</em> is a newer form used with singular <em>they</em>. It appears in Merriam-Webster and is increasingly accepted, but <em>themselves</em> remains safe for both singular and plural. Never use <em>themself</em> with a plural referent.</p>
+<h3 id="possessive-antecedents">Possessive antecedents<a class="hash" href="#possessive-antecedents" aria-label="link">#</a></h3>
+<p>A pronoun should not take its antecedent from inside a possessive, in careful writing.</p>
+<blockquote><p>Weak: <em>In <strong>Melville's</strong> novel, <strong>he</strong> describes a whaling voyage.</em> Better: <em>In his novel, <strong>Melville</strong> describes a whaling voyage.</em></p></blockquote>
+<h3 id="one-of-those-who-takes-a-plural-verb"><em>One of those who</em> takes a plural verb<a class="hash" href="#one-of-those-who-takes-a-plural-verb" aria-label="link">#</a></h3>
+<p>The relative pronoun's antecedent is the plural noun, not <em>one</em>, so the verb inside the relative clause is plural.</p>
+<blockquote><p>✓ <em>She is one of those managers <strong>who insist</strong> on a written agenda.</em> (the managers insist) ✗ <em>…one of those managers who insists…</em></p></blockquote>
+<p>Adding <em>the only</em> flips it, because then the antecedent really is <em>one</em>:</p>
+<blockquote><p><em>She is <strong>the only one</strong> of those managers <strong>who insists</strong> on a written agenda.</em></p></blockquote>
+<h3 id="by--reflexive-two-readings"><em>By</em> + reflexive: two readings<a class="hash" href="#by--reflexive-two-readings" aria-label="link">#</a></h3>
+<blockquote><p>He fixed the sink <strong>by himself</strong>. (without help) He was sitting <strong>by himself</strong> in the back. (alone)</p></blockquote>
+<p>Both are standard and context disambiguates them. Either way the reflexive still has to match its subject: <em>They went by <strong>themselves</strong></em>, never <em>by themself</em> with a plural subject.</p>
+<hr>
+<h2 id="9-quick-reference">9. Quick reference<a class="hash" href="#9-quick-reference" aria-label="link">#</a></h2>
+<div class="tw"><table><thead><tr><th style="text-align:left">Type</th><th style="text-align:left">Members</th><th style="text-align:left">Example</th></tr></thead><tbody><tr><td style="text-align:left">Personal — subject</td><td style="text-align:left">I, you, he, she, it, we, they</td><td style="text-align:left"><strong>They</strong> left early.</td></tr><tr><td style="text-align:left">Personal — object</td><td style="text-align:left">me, you, him, her, it, us, them</td><td style="text-align:left">Call <strong>us</strong> tomorrow.</td></tr><tr><td style="text-align:left">Possessive determiner</td><td style="text-align:left">my, your, his, her, its, our, their</td><td style="text-align:left"><strong>Their</strong> car broke down.</td></tr><tr><td style="text-align:left">Possessive pronoun</td><td style="text-align:left">mine, yours, his, hers, ours, theirs</td><td style="text-align:left">The blue one is <strong>hers</strong>.</td></tr><tr><td style="text-align:left">Reflexive</td><td style="text-align:left">myself … themselves</td><td style="text-align:left">She hurt <strong>herself</strong>.</td></tr><tr><td style="text-align:left">Intensive</td><td style="text-align:left">myself … themselves</td><td style="text-align:left">I built it <strong>myself</strong>.</td></tr><tr><td style="text-align:left">Demonstrative</td><td style="text-align:left">this, that, these, those</td><td style="text-align:left"><strong>These</strong> are on sale.</td></tr><tr><td style="text-align:left">Relative</td><td style="text-align:left">who, whom, whose, which, that</td><td style="text-align:left">The man <strong>who</strong> called.</td></tr><tr><td style="text-align:left">Fused relative</td><td style="text-align:left">what, whoever, whatever, whichever</td><td style="text-align:left"><strong>What</strong> matters is speed.</td></tr><tr><td style="text-align:left">Interrogative</td><td style="text-align:left">who, whom, whose, what, which</td><td style="text-align:left"><strong>Which</strong> do you want?</td></tr><tr><td style="text-align:left">Indefinite</td><td style="text-align:left">everyone, somebody, nothing, few, all, none…</td><td style="text-align:left"><strong>Someone</strong> knocked.</td></tr><tr><td style="text-align:left">Distributive</td><td style="text-align:left">each, either, neither</td><td style="text-align:left"><strong>Neither</strong> applies.</td></tr><tr><td style="text-align:left">Reciprocal</td><td style="text-align:left">each other, one another</td><td style="text-align:left">They emailed <strong>each other</strong>.</td></tr><tr><td style="text-align:left">Dummy <em>it</em></td><td style="text-align:left">it</td><td style="text-align:left"><strong>It</strong> is raining.</td></tr><tr><td style="text-align:left">Existential <em>there</em></td><td style="text-align:left">there</td><td style="text-align:left"><strong>There</strong> are two options.</td></tr><tr><td style="text-align:left">Generic / impersonal</td><td style="text-align:left">one, you, they, we</td><td style="text-align:left"><strong>One</strong> never knows.</td></tr><tr><td style="text-align:left">Singular <em>they</em></td><td style="text-align:left">they, them, their, themself</td><td style="text-align:left">Ask <strong>them</strong> to sign.</td></tr><tr><td style="text-align:left">Prop-word</td><td style="text-align:left">one, ones</td><td style="text-align:left">I'll take the small <strong>ones</strong>.</td></tr></tbody></table></div>
+<p><strong>Case cheat line:</strong> subject → <strong>I, he, she, we, they, who</strong> · object → <strong>me, him, her, us, them, whom</strong> · possessive → <strong>my/mine, his, her/hers, our/ours, their/theirs, whose</strong></p>
+<p><strong>No apostrophes:</strong> its, yours, hers, ours, theirs, whose</p>
+<hr>
+<h2 id="10-practice">10. Practice<a class="hash" href="#10-practice" aria-label="link">#</a></h2>
+<p><strong>A. Fill in the blank with the correct pronoun.</strong></p>
+<ol><li>The invitation was addressed to my husband and ______ .</li><li>Neither of the two candidates ______ (<em>has</em> / <em>have</em>) withdrawn from the race.</li><li>The committee published ______ report in March.</li><li>______ are three unopened boxes in the storage room.</li><li>The consultant ______ we hired last quarter has resigned.</li></ol>
+<p><strong>B. Identify the type of the bolded pronoun.</strong></p>
+<ol start="6"><li>The architect <strong>herself</strong> reviewed the blueprints.</li><li><strong>It</strong> was clear that the flight would be canceled.</li><li>The neighbors help <strong>one another</strong> with yard work.</li></ol>
+<p><strong>C. Correct the error.</strong></p>
+<ol start="9"><li>Every applicant must submit their fingerprints, and they should do it hisself.</li><li>The proposal, that the board approved last night, effects everyone — its going to change how we work.</li></ol>
+<p><strong>D. Mixed review.</strong></p>
+<ol start="11"><li>My badge is still on my desk, but ______ (<em>her</em> / <em>hers</em> / <em>her's</em>) is already in the drawer.</li><li>Correct the error: <em>The team announced their decision, and each of the players were asked to sign it theirselves.</em></li></ol>
+<details><summary>Answers</summary>
+<ol><li><strong>me</strong> — <em>to</em> is a preposition, so the object case is required. Test by dropping the other person: <em>addressed to me</em>.</li></ol>
+<ol start="2"><li><strong>has</strong> — <em>neither</em> is the subject and is grammatically singular, so it takes a singular verb. The intervening <em>of the two candidates</em> is a modifier and cannot control agreement. <em>Neither of the two candidates have</em> is common in speech but is corrected in edited American prose.</li></ol>
+<ol start="3"><li><strong>its</strong> — American English treats <em>committee</em> as a singular collective, so the singular possessive determiner <em>its</em> is correct. No apostrophe.</li></ol>
+<ol start="4"><li><strong>There</strong> — existential <em>there</em> fills the subject slot, and it agrees with the noun that follows: <em>boxes</em> is plural, so <em>are</em> is right.</li></ol>
+<ol start="5"><li><strong>whom</strong> (formal) or <strong>who</strong> / <strong>that</strong> / omitted (informal) — the pronoun is the object of <em>hired</em> (<em>we hired him</em>), so <em>whom</em> is the strictly correct form. In everyday American writing, <em>The consultant we hired</em> is perfectly acceptable.</li></ol>
+<ol start="6"><li><strong>Intensive pronoun</strong> — it emphasizes <em>the architect</em> and can be deleted without changing the core meaning (<em>The architect reviewed the blueprints</em>).</li></ol>
+<ol start="7"><li><strong>Dummy (anticipatory) <em>it</em></strong> — it does not refer back to anything; it holds the subject position for the extraposed clause <em>that the flight would be canceled</em>.</li></ol>
+<ol start="8"><li><strong>Reciprocal pronoun</strong> — <em>one another</em> expresses a mutual relationship between the members of the plural subject <em>the neighbors</em>.</li></ol>
+<ol start="9"><li><strong>Every applicant must submit their fingerprints, and they should do it themselves.</strong> — Singular <em>they</em> is fine after <em>every applicant</em>. The emphatic <em>-self</em> form must match that subject: <em>hisself</em> is nonstandard in any variety, and because the subject is <em>they</em>, the form is <em>themselves</em> (or <em>themself</em>, if you want to keep the singular reference explicit).</li></ol>
+<ol start="10"><li><strong>The proposal, which the board approved last night, affects everyone — it's going to change how we work.</strong> — Three fixes: <em>that</em> cannot introduce a nonrestrictive clause set off by commas, so use <em>which</em>; <em>effects</em> should be the verb <em>affects</em>; <em>its</em> should be the contraction <em>it's</em> (= <em>it is</em>). Nothing else in the sentence needs changing.</li></ol>
+<ol start="11"><li><strong>hers</strong> — the blank stands alone with no noun after it, so it needs the independent possessive pronoun <em>hers</em>, not the determiner <em>her</em>. And no apostrophe: <em>her's</em> is never a word.</li></ol>
+<ol start="12"><li><strong>The team announced its decision, and each of the players was asked to sign it.</strong> — Three fixes: American English treats <em>team</em> as a singular collective, so <em>their</em> → <em>its</em>; <em>each</em> is singular, so <em>were</em> → <em>was</em>; and <em>theirselves</em> is not a word in any variety. No <em>-self</em> form is needed here at all, since the players are not acting on themselves. If you want to keep the emphasis, <em>…was asked to sign it themselves</em> is fine — <em>theirselves</em> never is.</li></ol>
+</details>
+<hr>
+<h2 id="see-also">See also<a class="hash" href="#see-also" aria-label="link">#</a></h2>
+<ul><li><a href="../01-nouns/README.html">Nouns</a> — what pronouns replace; antecedents are noun phrases</li><li><a href="../09-determiners/README.html">Determiners</a> — possessive determiners and demonstrative determiners overlap with this class</li><li><a href="../03-verbs/README.html">Verbs</a> — subject-verb agreement is driven by the pronoun subject</li><li><a href="../04-adjectives/README.html">Adjectives</a> — why "possessive adjective" is a misleading traditional label</li><li><a href="../06-prepositions/README.html">Prepositions</a> — prepositions govern the object case, and the one exception to that</li><li><a href="../07-conjunctions/README.html">Conjunctions</a> — relative pronouns vs. the subordinator <em>that</em></li><li><a href="../05-adverbs/README.html">Adverbs</a> — locative <em>there</em> vs. the existential dummy subject <em>there</em></li></ul></div></main>
+<button class="themebtn" id="themeBtn">Dark</button>
+<script>
+const tb=document.getElementById('themeBtn');
+function setTheme(x){document.documentElement.dataset.theme=x;tb.textContent=x==='dark'?'Light':'Dark';
+ try{localStorage.setItem('site-theme',x)}catch(e){}}
+tb.onclick=()=>setTheme(document.documentElement.dataset.theme==='dark'?'light':'dark');
+try{const s=localStorage.getItem('site-theme');
+ setTheme(s||(matchMedia('(prefers-color-scheme: dark)').matches?'dark':'light'))}catch(e){setTheme('light')}
+</script></body></html>
