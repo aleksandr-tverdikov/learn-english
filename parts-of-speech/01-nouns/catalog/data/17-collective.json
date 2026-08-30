@@ -743,7 +743,8 @@
           "n": "2",
           "head": "A crowd of people",
           "body": [
-            "Figurative. (толпа)"
+            "Figurative. (толпа)",
+            "---"
           ],
           "examples": [
             "A swarm of reporters met him at the airport."
@@ -757,6 +758,563 @@
       "type": "collective",
       "contrast": "Used of insects, and figuratively of any fast-moving mass of people.",
       "see also": "herd · flock"
+    },
+    {
+      "term": "band",
+      "ipa": "/bænd/",
+      "respell": "band",
+      "meaning": "A group of musicians; also any organized group.",
+      "examples": [
+        "The band is on tour until October.",
+        "Three bands played that night.",
+        "She joined the band in high school.",
+        "A small band of volunteers ran the whole thing.",
+        "Both bands of rebels surrendered."
+      ],
+      "senses": [
+        {
+          "n": "1",
+          "head": "A musical group",
+          "body": [
+            "(группа)"
+          ],
+          "examples": [
+            "The band is on tour until October.",
+            "Three bands played that night.",
+            "She joined the band in high school."
+          ]
+        },
+        {
+          "n": "2",
+          "head": "Any organized group",
+          "body": [
+            "(отряд, группа)",
+            "---"
+          ],
+          "examples": [
+            "A small band of volunteers ran the whole thing.",
+            "Both bands of rebels surrendered."
+          ]
+        }
+      ],
+      "русский": "группа, оркестр",
+      "countability": "countable",
+      "agreement": "singular in American English — the band is on tour",
+      "type": "collective",
+      "contrast": "The band is touring is American; the band are touring is British. British music journalism uses the plural almost exclusively.",
+      "see also": "orchestra · crew"
+    },
+    {
+      "term": "orchestra",
+      "ipa": "/ˈɔːrkɪstrə/",
+      "respell": "OR-kih-struh",
+      "meaning": "A large group of instrumental musicians.",
+      "examples": [
+        "The orchestra is rehearsing all afternoon.",
+        "Both orchestras play the same program.",
+        "She has played in three professional orchestras.",
+        "We sat in the orchestra, not the balcony.",
+        "Orchestra seats cost twice as much."
+      ],
+      "senses": [
+        {
+          "n": "1",
+          "head": "The musical group",
+          "body": [
+            "(оркестр)"
+          ],
+          "examples": [
+            "The orchestra is rehearsing all afternoon.",
+            "Both orchestras play the same program.",
+            "She has played in three professional orchestras."
+          ]
+        },
+        {
+          "n": "2",
+          "head": "The ground-floor seats",
+          "body": [
+            "American theater. (партер)",
+            "---"
+          ],
+          "examples": [
+            "We sat in the orchestra, not the balcony.",
+            "Orchestra seats cost twice as much."
+          ]
+        }
+      ],
+      "русский": "оркестр",
+      "countability": "countable",
+      "agreement": "singular in American English — the orchestra is rehearsing",
+      "type": "collective",
+      "contrast": "In an American theater the orchestra also means the ground-floor seating, which is uncountable in that sense.",
+      "see also": "band · choir"
+    },
+    {
+      "term": "choir",
+      "ipa": "/ˈkwaɪər/",
+      "respell": "KWY-ur",
+      "meaning": "A group of singers.",
+      "examples": [
+        "The choir is singing at both services.",
+        "Both choirs rehearse on Wednesdays.",
+        "She has sung in the choir for thirty years.",
+        "Four choirs combined for the finale.",
+        "The choir was founded in 1890."
+      ],
+      "senses": [
+        {
+          "n": "1",
+          "head": "The singing group",
+          "body": [
+            "(хор)",
+            "---"
+          ],
+          "examples": [
+            "The choir is singing at both services.",
+            "Both choirs rehearse on Wednesdays.",
+            "She has sung in the choir for thirty years.",
+            "Four choirs combined for the finale.",
+            "The choir was founded in 1890."
+          ]
+        }
+      ],
+      "русский": "хор",
+      "countability": "countable",
+      "agreement": "singular in American English — the choir is singing",
+      "type": "collective",
+      "contrast": "The spelling is wildly irregular — choir is pronounced exactly like quire. From Latin chorus.",
+      "see also": "orchestra"
+    },
+    {
+      "term": "crew",
+      "ipa": "/kruː/",
+      "respell": "kroo",
+      "meaning": "The people operating a ship, aircraft, or production.",
+      "examples": [
+        "The crew is ready for departure.",
+        "Both crews worked twelve-hour shifts.",
+        "The film crew arrived at dawn.",
+        "A skeleton crew kept the plant running.",
+        "He rowed crew all four years of college."
+      ],
+      "senses": [
+        {
+          "n": "1",
+          "head": "The operating team",
+          "body": [
+            "(экипаж, бригада)"
+          ],
+          "examples": [
+            "The crew is ready for departure.",
+            "Both crews worked twelve-hour shifts.",
+            "The film crew arrived at dawn.",
+            "A skeleton crew kept the plant running."
+          ]
+        },
+        {
+          "n": "2",
+          "head": "The sport of rowing",
+          "body": [
+            "American. (академическая гребля)",
+            "---"
+          ],
+          "examples": [
+            "He rowed crew all four years of college."
+          ]
+        }
+      ],
+      "русский": "экипаж, бригада",
+      "countability": "countable",
+      "agreement": "singular in American English — the crew is ready",
+      "type": "collective",
+      "contrast": "Also used for one person's team informally, and as a rowing term where crew is the sport itself: he rows crew.",
+      "see also": "team · staff"
+    },
+    {
+      "term": "cast",
+      "ipa": "/kæst/",
+      "respell": "kast",
+      "meaning": "The actors in a production.",
+      "examples": [
+        "The cast is rehearsing on the main stage.",
+        "Both casts alternate performances.",
+        "The entire cast was replaced.",
+        "He wore a cast for six weeks.",
+        "Two casts were removed the same day."
+      ],
+      "senses": [
+        {
+          "n": "1",
+          "head": "The performers",
+          "body": [
+            "(актёрский состав)"
+          ],
+          "examples": [
+            "The cast is rehearsing on the main stage.",
+            "Both casts alternate performances.",
+            "The entire cast was replaced."
+          ]
+        },
+        {
+          "n": "2",
+          "head": "A plaster support",
+          "body": [
+            "Countable. (гипс)",
+            "---"
+          ],
+          "examples": [
+            "He wore a cast for six weeks.",
+            "Two casts were removed the same day."
+          ]
+        }
+      ],
+      "русский": "актёрский состав",
+      "countability": "countable",
+      "agreement": "singular in American English — the cast is rehearsing",
+      "type": "collective",
+      "contrast": "Also a countable noun meaning a plaster support for a broken bone, and the verb cast is irregular: cast, cast, cast — see the irregular verbs.",
+      "see also": "crew · company"
+    },
+    {
+      "term": "company",
+      "ipa": "/ˈkʌmpəni/",
+      "respell": "KUM-puh-nee",
+      "meaning": "A business; a theatrical troupe; also companionship.",
+      "examples": [
+        "The company is hiring aggressively.",
+        "Both companies filed the same quarter.",
+        "The dance company tours every spring.",
+        "We have company coming at seven.",
+        "I enjoy her company more than anyone's."
+      ],
+      "senses": [
+        {
+          "n": "1",
+          "head": "A business",
+          "body": [
+            "(компания)"
+          ],
+          "examples": [
+            "The company is hiring aggressively.",
+            "Both companies filed the same quarter."
+          ]
+        },
+        {
+          "n": "2",
+          "head": "A troupe",
+          "body": [
+            "(труппа)"
+          ],
+          "examples": [
+            "The dance company tours every spring."
+          ]
+        },
+        {
+          "n": "3",
+          "head": "Companionship or guests",
+          "body": [
+            "Uncountable. (общество, гости)",
+            "---"
+          ],
+          "examples": [
+            "We have company coming at seven.",
+            "I enjoy her company more than anyone's."
+          ]
+        }
+      ],
+      "русский": "компания; труппа; рота",
+      "countability": "countable; uncountable meaning companionship",
+      "agreement": "singular in American English — the company is hiring",
+      "type": "collective",
+      "contrast": "Three senses. A business and a theatrical troupe are countable collectives; company meaning companionship or guests is uncountable: we have company.",
+      "see also": "cast · staff"
+    },
+    {
+      "term": "faculty",
+      "ipa": "/ˈfækəlti/",
+      "respell": "FAK-uhl-tee",
+      "meaning": "The teaching staff; also a mental ability.",
+      "examples": [
+        "The faculty is meeting Thursday.",
+        "The faculty are divided over the proposal.",
+        "She joined the faculty in 2011.",
+        "He retained all his faculties into his nineties.",
+        "Her critical faculties are formidable."
+      ],
+      "senses": [
+        {
+          "n": "1",
+          "head": "The teaching staff",
+          "body": [
+            "American. (преподавательский состав)"
+          ],
+          "examples": [
+            "The faculty is meeting Thursday.",
+            "The faculty are divided over the proposal.",
+            "She joined the faculty in 2011."
+          ]
+        },
+        {
+          "n": "2",
+          "head": "A mental ability",
+          "body": [
+            "Countable. (способность)",
+            "---"
+          ],
+          "examples": [
+            "He retained all his faculties into his nineties.",
+            "Her critical faculties are formidable."
+          ]
+        }
+      ],
+      "русский": "преподавательский состав; способность",
+      "countability": "countable",
+      "agreement": "either — the faculty is meeting / the faculty are divided",
+      "type": "collective",
+      "contrast": "In American English the faculty means the teaching staff of a whole institution; in British English a faculty is a division, like the Faculty of Law. A separate sense means a mental ability, and that one is fully countable: her critical faculties.",
+      "see also": "staff · board"
+    },
+    {
+      "term": "board",
+      "ipa": "/bɔːrd/",
+      "respell": "bord",
+      "meaning": "A governing committee; also a plank, or provided meals.",
+      "examples": [
+        "The board has approved the merger.",
+        "Both boards meet quarterly.",
+        "She sits on three boards.",
+        "Two boards were rotted through.",
+        "The job includes room and board."
+      ],
+      "senses": [
+        {
+          "n": "1",
+          "head": "A governing body",
+          "body": [
+            "(правление)"
+          ],
+          "examples": [
+            "The board has approved the merger.",
+            "Both boards meet quarterly.",
+            "She sits on three boards."
+          ]
+        },
+        {
+          "n": "2",
+          "head": "A plank",
+          "body": [
+            "Countable. (доска)"
+          ],
+          "examples": [
+            "Two boards were rotted through."
+          ]
+        },
+        {
+          "n": "3",
+          "head": "Meals provided",
+          "body": [
+            "Uncountable. (питание)",
+            "---"
+          ],
+          "examples": [
+            "The job includes room and board."
+          ]
+        }
+      ],
+      "русский": "совет директоров, правление",
+      "countability": "countable",
+      "agreement": "singular in American English — the board has approved it",
+      "type": "collective",
+      "contrast": "Also a plank of wood, and board meaning meals provided — as in room and board — which is uncountable.",
+      "see also": "committee · faculty"
+    },
+    {
+      "term": "panel",
+      "ipa": "/ˈpænəl/",
+      "respell": "PAN-uhl",
+      "meaning": "A group convened to discuss or judge; also a flat section.",
+      "examples": [
+        "The panel is still deliberating.",
+        "Both panels reached the same conclusion.",
+        "She sat on a panel about housing policy.",
+        "Two solar panels were damaged.",
+        "The panel had to be replaced entirely."
+      ],
+      "senses": [
+        {
+          "n": "1",
+          "head": "A group of experts or judges",
+          "body": [
+            "(комиссия, жюри)"
+          ],
+          "examples": [
+            "The panel is still deliberating.",
+            "Both panels reached the same conclusion.",
+            "She sat on a panel about housing policy."
+          ]
+        },
+        {
+          "n": "2",
+          "head": "A flat section",
+          "body": [
+            "(панель)",
+            "---"
+          ],
+          "examples": [
+            "Two solar panels were damaged.",
+            "The panel had to be replaced entirely."
+          ]
+        }
+      ],
+      "русский": "комиссия, панель",
+      "countability": "countable",
+      "agreement": "singular in American English — the panel is deliberating",
+      "type": "collective",
+      "contrast": "Also a flat section of a wall or door, fully countable in that ordinary sense.",
+      "see also": "committee · jury"
+    },
+    {
+      "term": "class",
+      "ipa": "/klæs/",
+      "respell": "klas",
+      "meaning": "A group of students; a course; a social stratum; a category.",
+      "examples": [
+        "The class is taking a test right now.",
+        "Both classes meet in the same room.",
+        "She teaches four classes a semester.",
+        "The professional class voted differently.",
+        "Several classes of drug are affected."
+      ],
+      "senses": [
+        {
+          "n": "1",
+          "head": "A group of students",
+          "body": [
+            "(класс, группа)"
+          ],
+          "examples": [
+            "The class is taking a test right now.",
+            "Both classes meet in the same room."
+          ]
+        },
+        {
+          "n": "2",
+          "head": "A course",
+          "body": [
+            "(учебный курс)"
+          ],
+          "examples": [
+            "She teaches four classes a semester."
+          ]
+        },
+        {
+          "n": "3",
+          "head": "A social stratum",
+          "body": [
+            "(класс общества)"
+          ],
+          "examples": [
+            "The professional class voted differently."
+          ]
+        },
+        {
+          "n": "4",
+          "head": "A category",
+          "body": [
+            "(класс, категория)",
+            "---"
+          ],
+          "examples": [
+            "Several classes of drug are affected."
+          ]
+        }
+      ],
+      "русский": "класс, группа",
+      "countability": "countable",
+      "agreement": "singular in American English — the class is taking a test",
+      "type": "collective",
+      "contrast": "Several senses: a group of students, a course, a social stratum, and a category. All are countable; all take a singular verb in American usage.",
+      "see also": "faculty"
+    },
+    {
+      "term": "tribe",
+      "ipa": "/traɪb/",
+      "respell": "tryb",
+      "meaning": "A social group sharing ancestry and culture.",
+      "examples": [
+        "The tribe is federally recognized.",
+        "Several tribes signed the same treaty.",
+        "The tribe operates its own court system.",
+        "Both tribes speak related languages.",
+        "She was elected to the tribe's council."
+      ],
+      "senses": [
+        {
+          "n": "1",
+          "head": "The social group",
+          "body": [
+            "(племя)",
+            "---"
+          ],
+          "examples": [
+            "The tribe is federally recognized.",
+            "Several tribes signed the same treaty.",
+            "The tribe operates its own court system.",
+            "Both tribes speak related languages.",
+            "She was elected to the tribe's council."
+          ]
+        }
+      ],
+      "русский": "племя",
+      "countability": "countable",
+      "agreement": "singular in American English — the tribe is federally recognized",
+      "type": "collective",
+      "contrast": "In American usage referring to Native nations, nation is often preferred to tribe, though tribe remains standard in law and in many nations' own names.",
+      "see also": "family"
+    },
+    {
+      "term": "gang",
+      "ipa": "/ɡæŋ/",
+      "respell": "gang",
+      "meaning": "An organized group of criminals; also a work crew.",
+      "examples": [
+        "The gang was broken up by federal agents.",
+        "Two rival gangs controlled the district.",
+        "He left the gang at nineteen.",
+        "A track gang replaced the rails overnight.",
+        "Both gangs worked the same shift."
+      ],
+      "senses": [
+        {
+          "n": "1",
+          "head": "A criminal group",
+          "body": [
+            "(банда)"
+          ],
+          "examples": [
+            "The gang was broken up by federal agents.",
+            "Two rival gangs controlled the district.",
+            "He left the gang at nineteen."
+          ]
+        },
+        {
+          "n": "2",
+          "head": "A work crew",
+          "body": [
+            "Neutral. (бригада)"
+          ],
+          "examples": [
+            "A track gang replaced the rails overnight.",
+            "Both gangs worked the same shift."
+          ]
+        }
+      ],
+      "русский": "банда; бригада",
+      "countability": "countable",
+      "agreement": "singular in American English — the gang was broken up",
+      "type": "collective",
+      "contrast": "Usually negative, but a work gang or track gang is a neutral term for a crew of laborers.",
+      "see also": "crowd · crew"
     }
   ]
 }

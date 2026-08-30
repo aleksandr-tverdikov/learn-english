@@ -643,7 +643,8 @@
           "n": "1",
           "head": "The institution",
           "body": [
-            "(музей)"
+            "(музей)",
+            "---"
           ],
           "examples": [
             "The museum opens at ten.",
@@ -663,6 +664,685 @@
       "type": "concrete",
       "contrast": "✗ Musea is never used. Note the stress: myoo-ZEE-uhm, on the second syllable, not ✗ MYOO-zee-uhm.",
       "see also": "stadium · forum"
+    },
+    {
+      "term": "agenda",
+      "ipa": "/əˈdʒɛndə/",
+      "respell": "uh-JEN-duh",
+      "meaning": "A list of items to be discussed; also an underlying purpose.",
+      "examples": [
+        "The agenda is short today.",
+        "Both agendas were circulated in advance.",
+        "That item is not on the agenda.",
+        "He clearly has his own agenda.",
+        "Competing agendas stalled the whole process."
+      ],
+      "senses": [
+        {
+          "n": "1",
+          "head": "A list of items",
+          "body": [
+            "(повестка дня)"
+          ],
+          "examples": [
+            "The agenda is short today.",
+            "Both agendas were circulated in advance.",
+            "That item is not on the agenda."
+          ]
+        },
+        {
+          "n": "2",
+          "head": "An underlying purpose",
+          "body": [
+            "(скрытые намерения)",
+            "---"
+          ],
+          "examples": [
+            "He clearly has his own agenda.",
+            "Competing agendas stalled the whole process."
+          ]
+        }
+      ],
+      "русский": "повестка дня",
+      "plural": "agendas — regular",
+      "countability": "countable",
+      "agreement": "singular verb — the agenda is short",
+      "group": "8",
+      "pattern": "a Latin plural that became an English singular",
+      "type": "abstract",
+      "variants": "the Latin singular agendum has vanished from ordinary English",
+      "contrast": "This is the pattern completed. Agenda was the Latin plural of agendum; English reinterpreted it as a singular and built the regular plural agendas on top. Nobody now says ✗ the agenda are. Data and media are partway along the same road.",
+      "see also": "datum · medium"
+    },
+    {
+      "term": "spectrum",
+      "ipa": "/ˈspɛktrəm/",
+      "respell": "SPEK-truhm",
+      "meaning": "A band of wavelengths; also a range of positions or conditions.",
+      "examples": [
+        "The spectrum shows three absorption lines.",
+        "Both spectra were recorded the same day.",
+        "Stellar spectra reveal composition.",
+        "Opinions across the political spectrum agreed.",
+        "The condition covers a wide spectrum."
+      ],
+      "senses": [
+        {
+          "n": "1",
+          "head": "In physics",
+          "body": [
+            "(спектр)"
+          ],
+          "examples": [
+            "The spectrum shows three absorption lines.",
+            "Both spectra were recorded the same day.",
+            "Stellar spectra reveal composition."
+          ]
+        },
+        {
+          "n": "2",
+          "head": "A range of opinion or condition",
+          "body": [
+            "(спектр мнений)",
+            "---"
+          ],
+          "examples": [
+            "Opinions across the political spectrum agreed.",
+            "The condition covers a wide spectrum."
+          ]
+        }
+      ],
+      "русский": "спектр",
+      "plural": "spectra /ˈspɛktrə/ · spectrums — both correct",
+      "countability": "countable",
+      "agreement": "plural verb — the spectra were compared",
+      "group": "8",
+      "pattern": "Latin -um → -a",
+      "type": "abstract and concrete",
+      "variants": "spectra in physics and chemistry; spectrums in general use",
+      "see also": "quantum · continuum"
+    },
+    {
+      "term": "quantum",
+      "ipa": "/ˈkwɑːntəm/",
+      "respell": "KWAHN-tuhm",
+      "meaning": "The smallest discrete quantity of a physical property.",
+      "examples": [
+        "Energy is absorbed one quantum at a time.",
+        "The quanta are discrete, not continuous.",
+        "A single quantum of light is a photon.",
+        "Quantum mechanics describes this behavior.",
+        "Both quanta carried the same energy."
+      ],
+      "senses": [
+        {
+          "n": "1",
+          "head": "The unit",
+          "body": [
+            "(квант)",
+            "---"
+          ],
+          "examples": [
+            "Energy is absorbed one quantum at a time.",
+            "The quanta are discrete, not continuous.",
+            "A single quantum of light is a photon.",
+            "Quantum mechanics describes this behavior.",
+            "Both quanta carried the same energy."
+          ]
+        }
+      ],
+      "русский": "квант",
+      "plural": "quanta /ˈkwɑːntə/",
+      "countability": "countable",
+      "agreement": "plural verb — the quanta are discrete",
+      "group": "8",
+      "pattern": "Latin -um → -a",
+      "type": "abstract",
+      "variants": "✗ quantums is rare and best avoided",
+      "contrast": "Note that the popular phrase a quantum leap means a large change, which reverses the physics — a quantum is the smallest possible unit.",
+      "see also": "spectrum"
+    },
+    {
+      "term": "maximum",
+      "ipa": "/ˈmæksɪməm/",
+      "respell": "MAK-sih-muhm",
+      "meaning": "The greatest possible or recorded amount.",
+      "examples": [
+        "The maximum is forty passengers.",
+        "Both maximums were exceeded that summer.",
+        "The function has two local maxima.",
+        "Daily maximums are logged automatically.",
+        "That is the absolute maximum we can pay."
+      ],
+      "senses": [
+        {
+          "n": "1",
+          "head": "The greatest amount",
+          "body": [
+            "(максимум)",
+            "---"
+          ],
+          "examples": [
+            "The maximum is forty passengers.",
+            "Both maximums were exceeded that summer.",
+            "The function has two local maxima.",
+            "Daily maximums are logged automatically.",
+            "That is the absolute maximum we can pay."
+          ]
+        }
+      ],
+      "русский": "максимум",
+      "plural": "maximums — usual · maxima /ˈmæksɪmə/",
+      "countability": "countable",
+      "agreement": "plural verb — the maxima were recorded",
+      "group": "8",
+      "pattern": "Latin -um → -a",
+      "type": "abstract",
+      "variants": "maxima in mathematics and science; maximums in general use",
+      "see also": "minimum · optimum"
+    },
+    {
+      "term": "minimum",
+      "ipa": "/ˈmɪnɪməm/",
+      "respell": "MIN-ih-muhm",
+      "meaning": "The least possible or recorded amount.",
+      "examples": [
+        "The minimum is four hours a week.",
+        "Both minimums were raised in January.",
+        "The curve has a single minimum.",
+        "Overnight minima fell below freezing.",
+        "Keep disruption to a minimum."
+      ],
+      "senses": [
+        {
+          "n": "1",
+          "head": "The least amount",
+          "body": [
+            "(минимум)",
+            "---"
+          ],
+          "examples": [
+            "The minimum is four hours a week.",
+            "Both minimums were raised in January.",
+            "The curve has a single minimum.",
+            "Overnight minima fell below freezing.",
+            "Keep disruption to a minimum."
+          ]
+        }
+      ],
+      "русский": "минимум",
+      "plural": "minimums — usual · minima /ˈmɪnɪmə/",
+      "countability": "countable",
+      "agreement": "plural verb — the minima were unusually low",
+      "group": "8",
+      "pattern": "Latin -um → -a",
+      "type": "abstract",
+      "variants": "minima in mathematics and science; minimums in general use",
+      "see also": "maximum"
+    },
+    {
+      "term": "optimum",
+      "ipa": "/ˈɑːptɪməm/",
+      "respell": "AHP-tih-muhm",
+      "meaning": "The most favorable condition or amount.",
+      "examples": [
+        "The optimum lies somewhere in between.",
+        "Thermal optima differ by species.",
+        "Both optimums were determined experimentally.",
+        "The system runs at its optimum around noon.",
+        "Finding the optimum took months of testing."
+      ],
+      "senses": [
+        {
+          "n": "1",
+          "head": "The best point",
+          "body": [
+            "(оптимум)",
+            "---"
+          ],
+          "examples": [
+            "The optimum lies somewhere in between.",
+            "Thermal optima differ by species.",
+            "Both optimums were determined experimentally.",
+            "The system runs at its optimum around noon.",
+            "Finding the optimum took months of testing."
+          ]
+        }
+      ],
+      "русский": "оптимум",
+      "plural": "optima /ˈɑːptɪmə/ · optimums — both correct",
+      "countability": "countable",
+      "agreement": "plural verb — the optima differ by species",
+      "group": "8",
+      "pattern": "Latin -um → -a",
+      "type": "abstract",
+      "contrast": "Note the adjective optimum and the adjective optimal mean the same thing; optimum doubles as both noun and adjective.",
+      "see also": "maximum · minimum"
+    },
+    {
+      "term": "continuum",
+      "ipa": "/kənˈtɪnjuəm/",
+      "respell": "kuhn-TIN-yoo-uhm",
+      "meaning": "An unbroken sequence with no clear divisions.",
+      "examples": [
+        "Gender is better described as a continuum.",
+        "Both continua were modeled separately.",
+        "The dialects form a single continuum.",
+        "Space and time make one continuum.",
+        "Several overlapping continuums were identified."
+      ],
+      "senses": [
+        {
+          "n": "1",
+          "head": "An unbroken range",
+          "body": [
+            "(континуум)",
+            "---"
+          ],
+          "examples": [
+            "Gender is better described as a continuum.",
+            "Both continua were modeled separately.",
+            "The dialects form a single continuum.",
+            "Space and time make one continuum.",
+            "Several overlapping continuums were identified."
+          ]
+        }
+      ],
+      "русский": "континуум",
+      "plural": "continua /kənˈtɪnjuə/ · continuums — both correct",
+      "countability": "countable",
+      "agreement": "plural verb — the continua overlap",
+      "group": "8",
+      "pattern": "Latin -um → -a",
+      "type": "abstract",
+      "see also": "spectrum"
+    },
+    {
+      "term": "podium",
+      "ipa": "/ˈpoʊdiəm/",
+      "respell": "POH-dee-uhm",
+      "meaning": "A raised platform for a speaker or conductor.",
+      "examples": [
+        "She stepped up to the podium.",
+        "Both podiums were removed after the ceremony.",
+        "The conductor's podium is unusually high.",
+        "Three podia were set up on the stage.",
+        "He gripped the podium with both hands."
+      ],
+      "senses": [
+        {
+          "n": "1",
+          "head": "The platform",
+          "body": [
+            "(подиум, трибуна)",
+            "---"
+          ],
+          "examples": [
+            "She stepped up to the podium.",
+            "Both podiums were removed after the ceremony.",
+            "The conductor's podium is unusually high.",
+            "Three podia were set up on the stage.",
+            "He gripped the podium with both hands."
+          ]
+        }
+      ],
+      "русский": "подиум, трибуна",
+      "plural": "podiums — usual · podia /ˈpoʊdiə/",
+      "countability": "countable",
+      "agreement": "plural verb — both podiums were removed",
+      "group": "8",
+      "pattern": "Latin -um → -a",
+      "type": "concrete",
+      "contrast": "Careful writers distinguish a podium, which you stand on, from a lectern, which you stand behind. In ordinary American usage the two have merged.",
+      "see also": "stadium"
+    },
+    {
+      "term": "aquarium",
+      "ipa": "/əˈkwɛriəm/",
+      "respell": "uh-KWAIR-ee-uhm",
+      "meaning": "A tank or building for keeping fish.",
+      "examples": [
+        "Both aquariums are heated and filtered.",
+        "The city aquarium opens at ten.",
+        "He keeps a saltwater aquarium.",
+        "Several public aquaria participate in the program.",
+        "The aquarium holds four thousand gallons."
+      ],
+      "senses": [
+        {
+          "n": "1",
+          "head": "The tank or institution",
+          "body": [
+            "(аквариум)",
+            "---"
+          ],
+          "examples": [
+            "Both aquariums are heated and filtered.",
+            "The city aquarium opens at ten.",
+            "He keeps a saltwater aquarium.",
+            "Several public aquaria participate in the program.",
+            "The aquarium holds four thousand gallons."
+          ]
+        }
+      ],
+      "русский": "аквариум",
+      "plural": "aquariums — usual · aquaria /əˈkwɛriə/",
+      "countability": "countable",
+      "agreement": "plural verb — both aquariums are heated",
+      "group": "8",
+      "pattern": "Latin -um → -a",
+      "type": "concrete",
+      "variants": "aquariums is standard in American English",
+      "see also": "stadium · museum"
+    },
+    {
+      "term": "ultimatum",
+      "ipa": "/ˌʌltɪˈmeɪtəm/",
+      "respell": "ul-tih-MAY-tuhm",
+      "meaning": "A final demand carrying a threat.",
+      "examples": [
+        "She gave him an ultimatum.",
+        "Both ultimatums expired without a reply.",
+        "The ultimatum ran out at midnight.",
+        "Governments exchanged ultimatums for a week.",
+        "It was less a request than an ultimatum."
+      ],
+      "senses": [
+        {
+          "n": "1",
+          "head": "The final demand",
+          "body": [
+            "(ультиматум)",
+            "---"
+          ],
+          "examples": [
+            "She gave him an ultimatum.",
+            "Both ultimatums expired without a reply.",
+            "The ultimatum ran out at midnight.",
+            "Governments exchanged ultimatums for a week.",
+            "It was less a request than an ultimatum."
+          ]
+        }
+      ],
+      "русский": "ультиматум",
+      "plural": "ultimatums — usual · ultimata /ˌʌltɪˈmeɪtə/",
+      "countability": "countable",
+      "agreement": "plural verb — both ultimatums expired",
+      "group": "8",
+      "pattern": "Latin -um → -a",
+      "type": "abstract",
+      "variants": "ultimatums is far commoner",
+      "see also": "referendum"
+    },
+    {
+      "term": "dictum",
+      "ipa": "/ˈdɪktəm/",
+      "respell": "DIK-tuhm",
+      "meaning": "A formal pronouncement or a well-known saying.",
+      "examples": [
+        "The judge's dictum has been quoted ever since.",
+        "Both dicta were technically non-binding.",
+        "He lived by a single dictum.",
+        "Several dictums were struck from the opinion.",
+        "The old dictum about brevity still holds."
+      ],
+      "senses": [
+        {
+          "n": "1",
+          "head": "A pronouncement",
+          "body": [
+            "(изречение)",
+            "---"
+          ],
+          "examples": [
+            "The judge's dictum has been quoted ever since.",
+            "Both dicta were technically non-binding.",
+            "He lived by a single dictum.",
+            "Several dictums were struck from the opinion.",
+            "The old dictum about brevity still holds."
+          ]
+        }
+      ],
+      "русский": "изречение, сентенция",
+      "plural": "dicta /ˈdɪktə/ · dictums — both correct",
+      "countability": "countable",
+      "agreement": "plural verb — the dicta are often quoted",
+      "group": "8",
+      "pattern": "Latin -um → -a",
+      "type": "abstract",
+      "variants": "dicta in legal writing; dictums elsewhere",
+      "see also": "erratum"
+    },
+    {
+      "term": "vacuum",
+      "ipa": "/ˈvækjuːm/",
+      "respell": "VAK-yoom",
+      "meaning": "Space empty of matter; also the cleaning appliance.",
+      "examples": [
+        "Sound cannot travel through a vacuum.",
+        "Perfect vacua do not exist in nature.",
+        "His resignation left a power vacuum.",
+        "Both vacuums broke in the same month.",
+        "Run the vacuum before they arrive."
+      ],
+      "senses": [
+        {
+          "n": "1",
+          "head": "Empty space",
+          "body": [
+            "(вакуум)"
+          ],
+          "examples": [
+            "Sound cannot travel through a vacuum.",
+            "Perfect vacua do not exist in nature."
+          ]
+        },
+        {
+          "n": "2",
+          "head": "A gap left by something's absence",
+          "body": [
+            "Figurative. (вакуум власти)"
+          ],
+          "examples": [
+            "His resignation left a power vacuum."
+          ]
+        },
+        {
+          "n": "3",
+          "head": "The appliance",
+          "body": [
+            "(пылесос)",
+            "---"
+          ],
+          "examples": [
+            "Both vacuums broke in the same month.",
+            "Run the vacuum before they arrive."
+          ]
+        }
+      ],
+      "русский": "вакуум; пылесос",
+      "plural": "vacuums — usual · vacua /ˈvækjuə/ in physics",
+      "countability": "countable",
+      "agreement": "plural verb — both vacuums broke",
+      "group": "8",
+      "pattern": "Latin -um → -a",
+      "type": "concrete and abstract",
+      "contrast": "The spelling has two u's in a row — one of very few English words that does. The appliance is always vacuums.",
+      "see also": "spectrum"
+    },
+    {
+      "term": "serum",
+      "ipa": "/ˈsɪrəm/",
+      "respell": "SEER-uhm",
+      "meaning": "The clear fluid part of blood; also a preparation made from it.",
+      "examples": [
+        "The serum was frozen for later testing.",
+        "All the sera were screened for antibodies.",
+        "Antivenom serum saved his life.",
+        "Both serums claim to reduce wrinkles.",
+        "She uses a vitamin C serum every morning."
+      ],
+      "senses": [
+        {
+          "n": "1",
+          "head": "Blood fluid or a medical preparation",
+          "body": [
+            "(сыворотка)"
+          ],
+          "examples": [
+            "The serum was frozen for later testing.",
+            "All the sera were screened for antibodies.",
+            "Antivenom serum saved his life."
+          ]
+        },
+        {
+          "n": "2",
+          "head": "A cosmetic preparation",
+          "body": [
+            "(сыворотка косметическая)",
+            "---"
+          ],
+          "examples": [
+            "Both serums claim to reduce wrinkles.",
+            "She uses a vitamin C serum every morning."
+          ]
+        }
+      ],
+      "русский": "сыворотка",
+      "plural": "serums — usual · sera /ˈsɪrə/ in medicine",
+      "countability": "countable, and uncountable as a substance",
+      "agreement": "plural verb — the sera were tested",
+      "group": "8",
+      "pattern": "Latin -um → -a",
+      "type": "concrete",
+      "variants": "sera in laboratory writing; serums in general and cosmetic use",
+      "see also": "bacterium"
+    },
+    {
+      "term": "ovum",
+      "ipa": "/ˈoʊvəm/",
+      "respell": "OH-vuhm",
+      "meaning": "The female reproductive cell.",
+      "examples": [
+        "A single ovum is released each cycle.",
+        "Twelve ova were harvested.",
+        "The ovum is the largest cell in the body.",
+        "Both ova were successfully fertilized.",
+        "Ova can be frozen for years."
+      ],
+      "senses": [
+        {
+          "n": "1",
+          "head": "The cell",
+          "body": [
+            "(яйцеклетка)",
+            "---"
+          ],
+          "examples": [
+            "A single ovum is released each cycle.",
+            "Twelve ova were harvested.",
+            "The ovum is the largest cell in the body.",
+            "Both ova were successfully fertilized.",
+            "Ova can be frozen for years."
+          ]
+        }
+      ],
+      "русский": "яйцеклетка",
+      "plural": "ova /ˈoʊvə/",
+      "countability": "countable",
+      "agreement": "plural verb — the ova were harvested",
+      "group": "8",
+      "pattern": "Latin -um → -a",
+      "type": "concrete",
+      "variants": "✗ ovums is not used",
+      "contrast": "The everyday word is egg; ovum is strictly medical. Compare sperm, which is uncountable as a mass and countable as spermatozoa.",
+      "see also": "bacterium"
+    },
+    {
+      "term": "sternum",
+      "ipa": "/ˈstɜːrnəm/",
+      "respell": "STUR-nuhm",
+      "meaning": "The breastbone.",
+      "examples": [
+        "The sternum is cut during open-heart surgery.",
+        "Both sternums healed without complication.",
+        "Compressions are applied over the sternum.",
+        "Several sterna showed old fractures.",
+        "He bruised his sternum against the wheel."
+      ],
+      "senses": [
+        {
+          "n": "1",
+          "head": "The bone",
+          "body": [
+            "(грудина)",
+            "---"
+          ],
+          "examples": [
+            "The sternum is cut during open-heart surgery.",
+            "Both sternums healed without complication.",
+            "Compressions are applied over the sternum.",
+            "Several sterna showed old fractures.",
+            "He bruised his sternum against the wheel."
+          ]
+        }
+      ],
+      "русский": "грудина",
+      "plural": "sterna /ˈstɜːrnə/ · sternums — both correct",
+      "countability": "countable",
+      "agreement": "plural verb — the sterna were measured",
+      "group": "8",
+      "pattern": "Latin -um → -a",
+      "type": "concrete",
+      "variants": "the everyday word is breastbone",
+      "see also": "scapula"
+    },
+    {
+      "term": "album",
+      "ipa": "/ˈælbəm/",
+      "respell": "AL-buhm",
+      "meaning": "A book for photographs or a collection of recordings.",
+      "examples": [
+        "Both albums went platinum.",
+        "The album was recorded in nine days.",
+        "She has released seven albums.",
+        "He kept every ticket in an album.",
+        "The family albums were lost in the flood."
+      ],
+      "senses": [
+        {
+          "n": "1",
+          "head": "A collection of recordings",
+          "body": [
+            "(альбом)"
+          ],
+          "examples": [
+            "Both albums went platinum.",
+            "The album was recorded in nine days.",
+            "She has released seven albums."
+          ]
+        },
+        {
+          "n": "2",
+          "head": "A book for photographs or stamps",
+          "body": [
+            "(альбом)"
+          ],
+          "examples": [
+            "He kept every ticket in an album.",
+            "The family albums were lost in the flood."
+          ]
+        }
+      ],
+      "русский": "альбом",
+      "plural": "albums /ˈælbəmz/ — regular",
+      "countability": "countable",
+      "agreement": "plural verb — both albums went platinum",
+      "group": "8 (trap)",
+      "pattern": "regular -s despite the Latin origin",
+      "type": "concrete",
+      "contrast": "✗ Alba is wrong. Like forum, stadium, and museum, this Latin word takes an entirely regular English plural. From Latin albus, 'white' — originally a blank white tablet.",
+      "see also": "forum · museum"
     }
   ]
 }

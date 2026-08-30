@@ -358,7 +358,8 @@
           "n": "1",
           "head": "The manuscript",
           "body": [
-            "(кодекс, древняя книга)"
+            "(кодекс, древняя книга)",
+            "---"
           ],
           "examples": [
             "The library holds a fourth-century codex.",
@@ -379,6 +380,284 @@
       "variants": "codices is standard in scholarship",
       "contrast": "A codex is a book with pages, as opposed to a scroll — the format that replaced the scroll in late antiquity.",
       "see also": "matrix"
+    },
+    {
+      "term": "cortex",
+      "ipa": "/ˈkɔːrtɛks/",
+      "respell": "KOR-teks",
+      "meaning": "The outer layer of an organ, especially the brain.",
+      "examples": [
+        "The cerebral cortex is only a few millimeters thick.",
+        "Both cortices were imaged.",
+        "The visual cortex sits at the back of the head.",
+        "Adrenal cortices produce several hormones.",
+        "Damage to the cortex affects planning."
+      ],
+      "senses": [
+        {
+          "n": "1",
+          "head": "The outer layer",
+          "body": [
+            "(кора)",
+            "---"
+          ],
+          "examples": [
+            "The cerebral cortex is only a few millimeters thick.",
+            "Both cortices were imaged.",
+            "The visual cortex sits at the back of the head.",
+            "Adrenal cortices produce several hormones.",
+            "Damage to the cortex affects planning."
+          ]
+        }
+      ],
+      "русский": "кора (головного мозга)",
+      "plural": "cortices /ˈkɔːrtɪsiːz/ · cortexes — both correct",
+      "countability": "countable",
+      "agreement": "plural verb — the cortices differ in thickness",
+      "group": "11",
+      "pattern": "Latin -ex → -ices",
+      "type": "concrete",
+      "variants": "cortices is standard in anatomy",
+      "contrast": "The adjective cortical is far commoner than the plural noun.",
+      "see also": "helix · matrix"
+    },
+    {
+      "term": "helix",
+      "ipa": "/ˈhiːlɪks/",
+      "respell": "HEE-liks",
+      "meaning": "A spiral three-dimensional curve.",
+      "examples": [
+        "DNA forms a double helix.",
+        "The two helices run in opposite directions.",
+        "A protein may contain several alpha helices.",
+        "Both helixes were modeled in software.",
+        "The staircase is a perfect helix."
+      ],
+      "senses": [
+        {
+          "n": "1",
+          "head": "The spiral form",
+          "body": [
+            "(спираль)",
+            "---"
+          ],
+          "examples": [
+            "DNA forms a double helix.",
+            "The two helices run in opposite directions.",
+            "A protein may contain several alpha helices.",
+            "Both helixes were modeled in software.",
+            "The staircase is a perfect helix."
+          ]
+        }
+      ],
+      "русский": "спираль",
+      "plural": "helices /ˈhɛlɪsiːz/ · helixes — both correct",
+      "countability": "countable",
+      "agreement": "plural verb — the helices are intertwined",
+      "group": "11",
+      "pattern": "Latin -ix → -ices",
+      "type": "abstract and concrete",
+      "variants": "helices is standard in science",
+      "contrast": "Note the vowel shift: singular HEE-liks, plural HEL-uh-seez.",
+      "see also": "cortex · vortex"
+    },
+    {
+      "term": "cervix",
+      "ipa": "/ˈsɜːrvɪks/",
+      "respell": "SUR-viks",
+      "meaning": "The narrow lower part of the uterus; also the neck region.",
+      "examples": [
+        "The cervix dilates during labor.",
+        "Both cervices appeared normal.",
+        "Screening detects changes in the cervix.",
+        "Several cervixes were biopsied.",
+        "The cervix softens in the final weeks."
+      ],
+      "senses": [
+        {
+          "n": "1",
+          "head": "The anatomical structure",
+          "body": [
+            "(шейка матки)",
+            "---"
+          ],
+          "examples": [
+            "The cervix dilates during labor.",
+            "Both cervices appeared normal.",
+            "Screening detects changes in the cervix.",
+            "Several cervixes were biopsied.",
+            "The cervix softens in the final weeks."
+          ]
+        }
+      ],
+      "русский": "шейка матки",
+      "plural": "cervices /ˈsɜːrvɪsiːz/ · cervixes — both correct",
+      "countability": "countable",
+      "agreement": "plural verb — the cervices were examined",
+      "group": "11",
+      "pattern": "Latin -ix → -ices",
+      "type": "concrete",
+      "variants": "cervixes is commoner in general medical speech",
+      "contrast": "The adjective is cervical, which also refers to the neck vertebrae — the Latin word simply means 'neck'.",
+      "see also": "uterus · cortex"
+    },
+    {
+      "term": "crux",
+      "ipa": "/krʌks/",
+      "respell": "kruks",
+      "meaning": "The decisive or most difficult point.",
+      "examples": [
+        "That is the crux of the whole argument.",
+        "Both cruxes were left unresolved.",
+        "The crux of the matter is money.",
+        "Editors marked several cruces in the manuscript.",
+        "The crux of the climb is the last twenty feet."
+      ],
+      "senses": [
+        {
+          "n": "1",
+          "head": "The decisive point",
+          "body": [
+            "(суть)",
+            "---"
+          ],
+          "examples": [
+            "That is the crux of the whole argument.",
+            "Both cruxes were left unresolved.",
+            "The crux of the matter is money.",
+            "Editors marked several cruces in the manuscript.",
+            "The crux of the climb is the last twenty feet."
+          ]
+        }
+      ],
+      "русский": "суть, ключевой момент",
+      "plural": "cruxes — usual · cruces /ˈkruːsiːz/",
+      "countability": "countable",
+      "agreement": "plural verb — the cruxes were never resolved",
+      "group": "11",
+      "pattern": "Latin -ux → -uces",
+      "type": "abstract",
+      "variants": "cruxes is standard; cruces appears in textual scholarship",
+      "contrast": "From Latin crux, 'cross' — the same root as crucial and crucify. Almost always in the phrase the crux of the matter.",
+      "see also": "apex"
+    },
+    {
+      "term": "ibex",
+      "ipa": "/ˈaɪbɛks/",
+      "respell": "EYE-beks",
+      "meaning": "The wild mountain goat with long curved horns.",
+      "examples": [
+        "An ibex stood on an almost vertical face.",
+        "Two ibexes grazed above the tree line.",
+        "Ibex were reintroduced to the range in the 1970s.",
+        "The ibex's horns can reach four feet.",
+        "Several ibices were counted from the ridge."
+      ],
+      "senses": [
+        {
+          "n": "1",
+          "head": "The animal",
+          "body": [
+            "(горный козёл)",
+            "---"
+          ],
+          "examples": [
+            "An ibex stood on an almost vertical face.",
+            "Two ibexes grazed above the tree line.",
+            "Ibex were reintroduced to the range in the 1970s.",
+            "The ibex's horns can reach four feet.",
+            "Several ibices were counted from the ridge."
+          ]
+        }
+      ],
+      "русский": "горный козёл",
+      "plural": "ibexes — usual · ibices /ˈɪbɪsiːz/ · ibex unchanged",
+      "countability": "countable",
+      "agreement": "plural verb — the ibexes are surefooted",
+      "group": "11",
+      "pattern": "Latin -ex → -ices",
+      "type": "concrete",
+      "variants": "three plurals are attested; ibexes is the safe choice",
+      "see also": "apex"
+    },
+    {
+      "term": "executrix",
+      "ipa": "/ɪɡˈzɛkjətrɪks/",
+      "respell": "ig-ZEK-yuh-triks",
+      "meaning": "A woman appointed to carry out a will.",
+      "examples": [
+        "She was named executrix of the estate.",
+        "Both executrices signed the inventory.",
+        "The executrix filed the will for probate.",
+        "Two executrixes were appointed jointly.",
+        "Modern wills usually say executor instead."
+      ],
+      "senses": [
+        {
+          "n": "1",
+          "head": "The legal role",
+          "body": [
+            "(душеприказчица)",
+            "---"
+          ],
+          "examples": [
+            "She was named executrix of the estate.",
+            "Both executrices signed the inventory.",
+            "The executrix filed the will for probate.",
+            "Two executrixes were appointed jointly.",
+            "Modern wills usually say executor instead."
+          ]
+        }
+      ],
+      "русский": "душеприказчица",
+      "plural": "executrices /ɪɡˈzɛkjətrɪsiːz/ · executrixes",
+      "countability": "countable",
+      "agreement": "plural verb — the executrices signed jointly",
+      "group": "11",
+      "pattern": "Latin -ix → -ices",
+      "type": "concrete",
+      "variants": "modern legal practice increasingly uses executor for any sex",
+      "contrast": "One of the surviving Latin feminine agent nouns in -trix, alongside aviatrix and testatrix. All are now dated; the neutral executor is standard.",
+      "see also": "aviatrix · matrix"
+    },
+    {
+      "term": "aviatrix",
+      "ipa": "/ˌeɪviˈeɪtrɪks/",
+      "respell": "ay-vee-AY-triks",
+      "meaning": "A woman pilot. Historical.",
+      "examples": [
+        "She was the most famous aviatrix of her generation.",
+        "Several aviatrices set distance records in the 1930s.",
+        "Both aviatrixes flew the same route.",
+        "The museum honors three early aviatrices.",
+        "Today she would simply be called a pilot."
+      ],
+      "senses": [
+        {
+          "n": "1",
+          "head": "The historical term",
+          "body": [
+            "(лётчица)"
+          ],
+          "examples": [
+            "She was the most famous aviatrix of her generation.",
+            "Several aviatrices set distance records in the 1930s.",
+            "Both aviatrixes flew the same route.",
+            "The museum honors three early aviatrices.",
+            "Today she would simply be called a pilot."
+          ]
+        }
+      ],
+      "русский": "авиатриса, лётчица",
+      "plural": "aviatrices /ˌeɪviˈeɪtrɪsiːz/ · aviatrixes",
+      "countability": "countable",
+      "agreement": "plural verb — the aviatrices set several records",
+      "group": "11",
+      "pattern": "Latin -ix → -ices",
+      "type": "concrete",
+      "variants": "now historical; the neutral word is pilot",
+      "contrast": "Strongly associated with the 1920s and 1930s. Today pilot covers everyone, and aviatrix survives only in historical writing.",
+      "see also": "executrix"
     }
   ]
 }

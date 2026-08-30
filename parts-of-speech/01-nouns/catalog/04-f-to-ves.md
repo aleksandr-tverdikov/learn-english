@@ -685,3 +685,397 @@ A small square of cloth for wiping the nose or face.
 5. The magician pulled four *handkerchiefs* from his fist.
 
 **See also:** [chief](#chief) &middot; [scarf](#scarf)
+
+---
+
+### gulf
+
+**Pronunciation:** /ɡʌlf/ &middot; *gulf*
+**Русский:** залив; пропасть
+**Plural:** *gulfs* /ɡʌlfs/ — regular
+**Countability:** countable
+**Agreement:** plural verb — *the gulfs are shallow*
+**Pattern:** regular *-s* despite the *-lf* ending &middot; **Group:** 4 (trap)
+**Type:** concrete and abstract
+**Contrast:** ✗ *Gulves* is wrong. Compare *half → halves* and *calf → calves*, which share the *-lf* ending and do change. There is no rule; the list must be memorized.
+
+A large bay; also a wide gap between things.
+
+**1. A large bay.** (залив)
+
+1. The *Gulf* of Mexico borders five states.
+2. Both *gulfs* are shallow near the shore.
+3. A storm formed over the *gulf*.
+
+**2. A wide difference.** Figurative. (пропасть)
+
+4. There is a *gulf* between what they say and what they do.
+5. Economic *gulfs* have widened in the last decade.
+
+**See also:** [half](#half) &middot; [cliff](#cliff)
+
+---
+
+### cliff
+
+**Pronunciation:** /klɪf/ &middot; *klif*
+**Русский:** утёс, скала
+**Plural:** *cliffs* /klɪfs/ — regular
+**Countability:** countable
+**Agreement:** plural verb — *the cliffs are crumbling*
+**Pattern:** regular *-s* &middot; **Group:** 4 (trap)
+**Type:** concrete
+**Contrast:** ✗ *Clives* is wrong. Words ending in double *-ff* are always regular: *cliffs*, *bluffs*, *cuffs*, *staffs* (in the personnel sense).
+
+A steep rock face.
+
+**1. The landform.** (утёс)
+
+1. The *cliffs* are crumbling into the sea.
+2. A narrow path runs along the *cliff*.
+3. Both *cliffs* face directly into the wind.
+4. She photographed the chalk *cliffs* at dawn.
+5. He fell from a low *cliff* and broke an arm.
+
+**See also:** [gulf](#gulf) &middot; [reef](#reef)
+
+---
+
+### reef
+
+**Pronunciation:** /riːf/ &middot; *reef*
+**Русский:** риф
+**Plural:** *reefs* /riːfs/ — regular
+**Countability:** countable
+**Agreement:** plural verb — *the reefs are bleaching*
+**Pattern:** regular *-s* &middot; **Group:** 4 (trap)
+**Type:** concrete
+**Contrast:** ✗ *Reeves* is wrong as the plural — though *Reeves* exists as a surname, and *a reeve* was a medieval official.
+
+A ridge of rock or coral near the surface of the sea.
+
+**1. The formation.** (риф)
+
+1. The *reefs* are bleaching faster every year.
+2. A coral *reef* runs the length of the coast.
+3. Both *reefs* are protected areas now.
+4. The ship struck a *reef* in the dark.
+5. Divers surveyed three *reefs* that week.
+
+**See also:** [cliff](#cliff)
+
+---
+
+### chef
+
+**Pronunciation:** /ʃɛf/ &middot; *shef* — the *ch* is /ʃ/
+**Русский:** шеф-повар
+**Plural:** *chefs* /ʃɛfs/ — regular
+**Countability:** countable
+**Agreement:** plural verb — *the chefs are arguing*
+**Pattern:** regular *-s* &middot; **Group:** 4 (trap)
+**Type:** concrete
+**Contrast:** ✗ *Cheves* is wrong. The *ch* is /ʃ/ as in *machine*, not /tʃ/ as in *church* — the word is French. A *chef* runs a kitchen; a *cook* simply cooks.
+
+The head cook of a restaurant.
+
+**1. The professional cook.** (шеф-повар)
+
+1. The *chef* came out to greet the table.
+2. Three *chefs* worked the same station.
+3. She trained as a pastry *chef* in Lyon.
+4. Both *chefs* left to open their own places.
+5. The *chef*'s tasting menu takes three hours.
+
+**See also:** [thief](#thief)
+
+---
+
+### serf
+
+**Pronunciation:** /sɜːrf/ &middot; *surf*
+**Русский:** крепостной
+**Plural:** *serfs* /sɜːrfs/ — regular
+**Countability:** countable
+**Agreement:** plural verb — *the serfs were bound to the land*
+**Pattern:** regular *-s* &middot; **Group:** 4 (trap)
+**Type:** concrete
+**Contrast:** ✗ *Serves* is wrong — that is the verb *serve*. A homophone of *surf*, the sea foam, which is uncountable.
+
+A laborer bound to the land under feudalism.
+
+**1. The historical figure.** (крепостной)
+
+1. *Serfs* were bound to the estate, not owned outright.
+2. A *serf* could not leave without permission.
+3. Both *serfs* and free tenants worked the same fields.
+4. Emancipation freed millions of *serfs* in 1861.
+5. The *serf* owed labor rather than rent.
+
+**See also:** [thief](#thief)
+
+---
+
+### motif
+
+**Pronunciation:** /moʊˈtiːf/ &middot; *moh-TEEF*
+**Русский:** мотив, лейтмотив
+**Plural:** *motifs* /moʊˈtiːfs/ — regular
+**Countability:** countable
+**Agreement:** plural verb — *the motifs recur*
+**Pattern:** regular *-s* &middot; **Group:** 4 (trap)
+**Type:** abstract
+**Contrast:** ✗ *Motives* is a different word — a *motive* is a reason for acting, a *motif* is a recurring pattern in art or music. Both exist; they are not plurals of each other.
+
+A recurring element in art, music, or literature.
+
+**1. A recurring element.** (мотив)
+
+1. The same *motif* runs through all four movements.
+2. Floral *motifs* cover the entire border.
+3. Both *motifs* appear in the earliest version.
+4. Water is a persistent *motif* in her poetry.
+5. The architect repeated the arch *motif* throughout.
+
+**See also:** [belief](#belief)
+
+---
+
+### giraffe
+
+**Pronunciation:** /dʒəˈræf/ &middot; *juh-RAF*
+**Русский:** жираф
+**Plural:** *giraffes* /dʒəˈræfs/ — regular
+**Countability:** countable
+**Agreement:** plural verb — *the giraffes are feeding*
+**Pattern:** regular *-s* despite the *-ffe* ending &middot; **Group:** 4 (trap)
+**Type:** concrete
+**Contrast:** ✗ *Giraves* is wrong. Compare *wife → wives* and *knife → knives*, which end in *-fe* and do change. *Giraffe*, *safe*, and *café* do not.
+
+The long-necked African mammal.
+
+**1. The animal.** (жираф)
+
+1. Two *giraffes* stood at the far fence.
+2. A *giraffe*'s neck has the same number of vertebrae as ours.
+3. The zoo's *giraffes* were moved indoors.
+4. A young *giraffe* can stand within an hour of birth.
+5. *Giraffes* sleep very little.
+
+**See also:** [safe](#safe) &middot; [wife](#wife)
+
+---
+
+### safe
+
+**Pronunciation:** /seɪf/ &middot; *sayf*
+**Русский:** сейф
+**Plural:** *safes* /seɪfs/ — regular
+**Countability:** countable
+**Agreement:** plural verb — *both safes were emptied*
+**Pattern:** regular *-s* despite the *-fe* ending &middot; **Group:** 4 (trap)
+**Type:** concrete
+**Contrast:** ✗ *Saves* is the verb, not the noun plural. This is the sharpest trap in the group: *knife*, *wife*, and *life* all end in *-fe* and become *-ves*; *safe* ends in *-fe* and does not.
+
+The strong lockable box.
+
+**1. The container.** (сейф)
+
+1. The cash is in the *safe*.
+2. Both *safes* were emptied overnight.
+3. Every room has a small *safe*.
+4. He couldn't remember the *safe* combination.
+5. Two *safes* were recovered from the wreck.
+
+**See also:** [knife](#knife) &middot; [giraffe](#giraffe)
+
+---
+
+### sheriff
+
+**Pronunciation:** /ˈʃɛrɪf/ &middot; *SHER-if*
+**Русский:** шериф
+**Plural:** *sheriffs* /ˈʃɛrɪfs/ — regular
+**Countability:** countable
+**Agreement:** plural verb — *the sheriffs met in the capital*
+**Pattern:** regular *-s* &middot; **Group:** 4 (trap)
+**Type:** concrete
+**Contrast:** ✗ *Sherives* is wrong. In the United States a sheriff is an elected county law officer, unlike the appointed police chief of a city.
+
+The elected county law-enforcement officer.
+
+**1. The official.** (шериф)
+
+1. The *sheriff* was reelected without opposition.
+2. County *sheriffs* met in the state capital.
+3. Both *sheriffs* declined to enforce the order.
+4. She served as *sheriff* for twelve years.
+5. The *sheriff*'s department handles the rural areas.
+
+**See also:** [plaintiff](#plaintiff) &middot; [chief](#chief)
+
+---
+
+### plaintiff
+
+**Pronunciation:** /ˈpleɪntɪf/ &middot; *PLAYN-tif*
+**Русский:** истец
+**Plural:** *plaintiffs* /ˈpleɪntɪfs/ — regular
+**Countability:** countable
+**Agreement:** plural verb — *the plaintiffs filed jointly*
+**Pattern:** regular *-s* &middot; **Group:** 4 (trap)
+**Type:** concrete
+**Contrast:** ✗ *Plaintives* is wrong, and *plaintive* is an unrelated adjective meaning sad-sounding. The plaintiff sues; the *defendant* is sued.
+
+The party who brings a lawsuit.
+
+**1. The legal party.** (истец)
+
+1. The *plaintiff* is seeking damages.
+2. Four *plaintiffs* filed a joint complaint.
+3. Both *plaintiffs* dropped their claims.
+4. The *plaintiff*'s attorney objected.
+5. *Plaintiffs* must prove actual harm.
+
+**See also:** [sheriff](#sheriff)
+
+---
+
+### tariff
+
+**Pronunciation:** /ˈtærɪf/ &middot; *TAR-if*
+**Русский:** тариф, пошлина
+**Plural:** *tariffs* /ˈtærɪfs/ — regular
+**Countability:** countable
+**Agreement:** plural verb — *the tariffs take effect Monday*
+**Pattern:** regular *-s* &middot; **Group:** 4 (trap)
+**Type:** abstract
+**Contrast:** ✗ *Tarives* is wrong. Double-*ff* words never take *-ves*.
+
+A tax on imported goods.
+
+**1. The import tax.** (пошлина)
+
+1. New *tariffs* take effect on Monday.
+2. The *tariff* on steel was doubled.
+3. Both *tariffs* were later withdrawn.
+4. Retaliatory *tariffs* followed within a week.
+5. A ten percent *tariff* applies to all of it.
+
+**See also:** [plaintiff](#plaintiff)
+
+---
+
+### grief
+
+**Pronunciation:** /ɡriːf/ &middot; *greef*
+**Русский:** горе, скорбь
+**Plural:** *griefs* — regular, but the word is usually uncountable
+**Countability:** uncountable in the main sense
+**Agreement:** singular verb — *her grief was overwhelming*
+**Pattern:** regular *-s* despite the *-ief* ending &middot; **Group:** 4 (trap)
+**Type:** abstract
+**Contrast:** ✗ *Grieves* is the verb — *she grieves for him* — not the noun plural. Compare *thief → thieves*, which rhymes and does change. The verb is *grieve*, with a /v/.
+
+Deep sorrow, especially at a death.
+
+**1. Deep sorrow.** Uncountable. (горе)
+
+1. Her *grief* was still raw a year later.
+2. He could not speak for *grief*.
+3. *Grief* takes its own time.
+
+**2. Trouble or annoyance.** Informal, uncountable. (неприятности)
+
+4. The new system has caused nothing but *grief*.
+5. Don't give me any *grief* about it.
+
+**See also:** [belief](#belief) &middot; [mischief](#mischief)
+
+---
+
+### mischief
+
+**Pronunciation:** /ˈmɪstʃɪf/ &middot; *MIS-chif*
+**Русский:** озорство, шалости
+**Plural:** *mischiefs* — regular, but the word is usually uncountable
+**Countability:** uncountable in ordinary use
+**Agreement:** singular verb — *mischief was clearly intended*
+**Pattern:** regular *-s* despite the *-ief* ending &middot; **Group:** 4 (trap)
+**Type:** abstract
+**Contrast:** ✗ *Mischieves* is wrong. Note the stress on the first syllable — *MIS-chif*, not ✗ *mis-CHEEF*.
+
+Playful misbehavior; also harm caused deliberately.
+
+**1. Playful troublemaking.** Uncountable. (озорство)
+
+1. The children were up to some *mischief* in the yard.
+2. There was *mischief* in her expression.
+3. He got into a great deal of *mischief* at that age.
+
+**2. Deliberate harm.** Formal and legal. (вред, ущерб)
+
+4. The statute covers criminal *mischief*.
+5. Considerable *mischief* was done before anyone noticed.
+
+**See also:** [grief](#grief) &middot; [belief](#belief)
+
+---
+
+### brief
+
+**Pronunciation:** /briːf/ &middot; *breef*
+**Русский:** сводка; записка по делу
+**Plural:** *briefs* /briːfs/ — regular
+**Countability:** countable
+**Agreement:** plural verb — *the briefs were filed*
+**Pattern:** regular *-s* despite the *-ief* ending &middot; **Group:** 4 (trap)
+**Type:** concrete and abstract
+**Contrast:** ✗ *Brieves* is wrong. The plural *briefs* also means underwear, which is a [plural-only noun](15-plural-only.md) in that sense.
+
+A summary or legal document; also, in the plural, underwear.
+
+**1. A legal document.** (записка по делу)
+
+1. Both *briefs* were filed the same afternoon.
+2. The *brief* runs to ninety pages.
+3. She wrote the appellate *brief* herself.
+
+**2. A set of instructions or a summary.** (задание, сводка)
+
+4. The design *brief* was three sentences long.
+
+**3. Underwear.** Plural only. (трусы)
+
+5. He packed three pairs of *briefs*.
+
+**See also:** [chief](#chief) &middot; [belief](#belief)
+
+---
+
+### turf
+
+**Pronunciation:** /tɜːrf/ &middot; *turf*
+**Русский:** дёрн; территория
+**Plural:** *turfs* — usual &middot; *turves* archaic
+**Countability:** uncountable as a material; countable as pieces
+**Agreement:** singular verb — *the turf is damaged*
+**Pattern:** regular *-s*, with an archaic *-ves* &middot; **Group:** 4
+**Type:** concrete and abstract
+**Variants:** *turves* survives only in dialect and older writing
+**Contrast:** This is the one word in the group where the *-ves* form is genuinely archaic rather than simply wrong. Write *turfs*.
+
+Grass and its surface soil; also someone's territory.
+
+**1. Grass surface.** Uncountable. (дёрн, газон)
+
+1. The *turf* is damaged near both goals.
+2. They laid new *turf* over the whole field.
+
+**2. Someone's territory.** Figurative. (территория, вотчина)
+
+3. You're on his *turf* now.
+4. The dispute was pure *turf* warfare.
+5. Both departments defended their *turf*.
+
+**See also:** [hoof](#hoof) &middot; [scarf](#scarf)

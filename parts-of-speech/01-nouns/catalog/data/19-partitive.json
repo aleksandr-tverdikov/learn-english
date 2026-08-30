@@ -867,7 +867,8 @@
           "n": "3",
           "head": "A trophy",
           "body": [
-            "(кубок)"
+            "(кубок)",
+            "---"
           ],
           "examples": [
             "They lifted the cup for the third year running."
@@ -880,6 +881,563 @@
       "type": "concrete",
       "contrast": "In American recipes a cup is a fixed measure — eight fluid ounces — not just a drinking vessel. This is why American recipes measure flour and sugar by volume where European ones use weight.",
       "see also": "bottle · spoonful"
+    },
+    {
+      "term": "bowl",
+      "ipa": "/boʊl/",
+      "respell": "bohl",
+      "meaning": "The round deep dish, and the amount it holds.",
+      "examples": [
+        "He ate two bowls of cereal.",
+        "A bowl of soup comes with the sandwich.",
+        "She had a bowl of rice and nothing else.",
+        "All the bowls are in the dishwasher.",
+        "He dropped a bowl on the tile floor."
+      ],
+      "senses": [
+        {
+          "n": "1",
+          "head": "The amount a bowl holds",
+          "body": [
+            "(миска чего-либо)"
+          ],
+          "examples": [
+            "He ate two bowls of cereal.",
+            "A bowl of soup comes with the sandwich.",
+            "She had a bowl of rice and nothing else."
+          ]
+        },
+        {
+          "n": "2",
+          "head": "The dish itself",
+          "body": [
+            "(миска)",
+            "---"
+          ],
+          "examples": [
+            "All the bowls are in the dishwasher.",
+            "He dropped a bowl on the tile floor."
+          ]
+        }
+      ],
+      "русский": "миска, тарелка (как мера)",
+      "countability": "countable",
+      "agreement": "follows the partitive — a bowl is / two bowls are",
+      "type": "concrete",
+      "contrast": "Collocates with soup, cereal, rice, and soup-like foods: a bowl of soup, a bowl of cereal. Not used for solids you would slice.",
+      "see also": "cup · plate"
+    },
+    {
+      "term": "plate",
+      "ipa": "/pleɪt/",
+      "respell": "playt",
+      "meaning": "The flat dish, and the amount it holds.",
+      "examples": [
+        "She brought out a plate of cookies.",
+        "Two plates of pasta arrived at once.",
+        "He filled his plate twice.",
+        "All the plates match except one.",
+        "Stack the plates by the sink."
+      ],
+      "senses": [
+        {
+          "n": "1",
+          "head": "The amount a plate holds",
+          "body": [
+            "(тарелка чего-либо)"
+          ],
+          "examples": [
+            "She brought out a plate of cookies.",
+            "Two plates of pasta arrived at once.",
+            "He filled his plate twice."
+          ]
+        },
+        {
+          "n": "2",
+          "head": "The dish itself",
+          "body": [
+            "(тарелка)",
+            "---"
+          ],
+          "examples": [
+            "All the plates match except one.",
+            "Stack the plates by the sink."
+          ]
+        }
+      ],
+      "русский": "тарелка",
+      "countability": "countable",
+      "agreement": "follows the partitive — a plate is / two plates are",
+      "type": "concrete",
+      "contrast": "A plate of implies a flat serving: a plate of pasta, a plate of cookies. Liquids take a bowl or a cup.",
+      "see also": "bowl"
+    },
+    {
+      "term": "bag",
+      "ipa": "/bæɡ/",
+      "respell": "bag",
+      "meaning": "The flexible container, and the amount it holds.",
+      "examples": [
+        "Buy a bag of flour.",
+        "Two bags of ice should be enough.",
+        "He carried three bags of groceries.",
+        "A bag of chips costs almost nothing.",
+        "She left her bag on the train."
+      ],
+      "senses": [
+        {
+          "n": "1",
+          "head": "The amount a bag holds",
+          "body": [
+            "(пакет чего-либо)"
+          ],
+          "examples": [
+            "Buy a bag of flour.",
+            "Two bags of ice should be enough.",
+            "He carried three bags of groceries.",
+            "A bag of chips costs almost nothing."
+          ]
+        },
+        {
+          "n": "2",
+          "head": "The container itself",
+          "body": [
+            "(сумка, пакет)",
+            "---"
+          ],
+          "examples": [
+            "She left her bag on the train."
+          ]
+        }
+      ],
+      "русский": "пакет, мешок",
+      "countability": "countable",
+      "agreement": "follows the partitive — a bag is / two bags are",
+      "type": "concrete",
+      "contrast": "The default container partitive for loose dry goods: a bag of flour, a bag of rice, a bag of chips, a bag of groceries.",
+      "see also": "box · carton"
+    },
+    {
+      "term": "box",
+      "ipa": "/bɑːks/",
+      "respell": "bahks",
+      "meaning": "The rigid container, and the amount it holds.",
+      "examples": [
+        "Buy a box of cereal.",
+        "Two boxes of tissues went in a week.",
+        "He gave her a box of chocolates.",
+        "All the boxes are still in the garage.",
+        "Break the boxes down before recycling."
+      ],
+      "senses": [
+        {
+          "n": "1",
+          "head": "The amount a box holds",
+          "body": [
+            "(коробка чего-либо)"
+          ],
+          "examples": [
+            "Buy a box of cereal.",
+            "Two boxes of tissues went in a week.",
+            "He gave her a box of chocolates."
+          ]
+        },
+        {
+          "n": "2",
+          "head": "The container itself",
+          "body": [
+            "(коробка)",
+            "---"
+          ],
+          "examples": [
+            "All the boxes are still in the garage.",
+            "Break the boxes down before recycling."
+          ]
+        }
+      ],
+      "русский": "коробка",
+      "countability": "countable",
+      "agreement": "follows the partitive — a box is / two boxes are",
+      "type": "concrete",
+      "contrast": "Note the plural takes -es because of the final x: boxes, not ✗ boxs. Collocates with cereal, tissues, matches, chocolates.",
+      "see also": "bag · carton"
+    },
+    {
+      "term": "tube",
+      "ipa": "/tuːb/",
+      "respell": "toob",
+      "meaning": "The cylindrical squeeze container, and the amount it holds.",
+      "examples": [
+        "We need a new tube of toothpaste.",
+        "Two tubes of glue were used up.",
+        "She squeezed the last of the tube onto the brush.",
+        "A tube of oil paint lasts a long time.",
+        "Both tubes had split at the seam."
+      ],
+      "senses": [
+        {
+          "n": "1",
+          "head": "The amount a tube holds",
+          "body": [
+            "(тюбик чего-либо)"
+          ],
+          "examples": [
+            "We need a new tube of toothpaste.",
+            "Two tubes of glue were used up.",
+            "She squeezed the last of the tube onto the brush.",
+            "A tube of oil paint lasts a long time."
+          ]
+        },
+        {
+          "n": "2",
+          "head": "The container itself",
+          "body": [
+            "(тюбик)",
+            "---"
+          ],
+          "examples": [
+            "Both tubes had split at the seam."
+          ]
+        }
+      ],
+      "русский": "тюбик",
+      "countability": "countable",
+      "agreement": "follows the partitive — a tube is / two tubes are",
+      "type": "concrete",
+      "contrast": "The obligatory partitive for paste products: a tube of toothpaste, a tube of glue, a tube of paint. ✗ A bottle of toothpaste is wrong.",
+      "see also": "bottle · jar"
+    },
+    {
+      "term": "roll",
+      "ipa": "/roʊl/",
+      "respell": "rohl",
+      "meaning": "The wound cylinder, and the amount it holds.",
+      "examples": [
+        "Buy two rolls of paper towels.",
+        "A roll of tape costs a dollar.",
+        "He used up an entire roll of film.",
+        "Three rolls of quarters were in the drawer.",
+        "The soup comes with a roll."
+      ],
+      "senses": [
+        {
+          "n": "1",
+          "head": "The amount a roll holds",
+          "body": [
+            "(рулон чего-либо)"
+          ],
+          "examples": [
+            "Buy two rolls of paper towels.",
+            "A roll of tape costs a dollar.",
+            "He used up an entire roll of film.",
+            "Three rolls of quarters were in the drawer."
+          ]
+        },
+        {
+          "n": "2",
+          "head": "A small round loaf",
+          "body": [
+            "(булочка)",
+            "---"
+          ],
+          "examples": [
+            "The soup comes with a roll."
+          ]
+        }
+      ],
+      "русский": "рулон",
+      "countability": "countable",
+      "agreement": "follows the partitive — a roll is / two rolls are",
+      "type": "concrete",
+      "contrast": "For anything wound around a core: a roll of paper towels, a roll of tape, a roll of film, a roll of coins.",
+      "see also": "sheet · bar"
+    },
+    {
+      "term": "stick",
+      "ipa": "/stɪk/",
+      "respell": "stik",
+      "meaning": "The elongated piece, and the amount it holds.",
+      "examples": [
+        "Add one stick of butter.",
+        "Two sticks of gum were left in the pack.",
+        "She chopped three sticks of celery.",
+        "A stick of butter is half a cup.",
+        "He threw a stick for the dog."
+      ],
+      "senses": [
+        {
+          "n": "1",
+          "head": "A measured piece",
+          "body": [
+            "(палочка, брусок)"
+          ],
+          "examples": [
+            "Add one stick of butter.",
+            "Two sticks of gum were left in the pack.",
+            "She chopped three sticks of celery.",
+            "A stick of butter is half a cup."
+          ]
+        },
+        {
+          "n": "2",
+          "head": "A thin piece of wood",
+          "body": [
+            "(палка)",
+            "---"
+          ],
+          "examples": [
+            "He threw a stick for the dog."
+          ]
+        }
+      ],
+      "русский": "палочка, брусок",
+      "countability": "countable",
+      "agreement": "follows the partitive — a stick is / two sticks are",
+      "type": "concrete",
+      "contrast": "In American cooking a stick of butter is a standard unit — half a cup, four ounces — and recipes assume it. Also a stick of gum, a stick of celery.",
+      "see also": "bar · clove"
+    },
+    {
+      "term": "clove",
+      "ipa": "/kloʊv/",
+      "respell": "klohv",
+      "meaning": "One segment of a garlic bulb; also the spice.",
+      "examples": [
+        "Crush two cloves of garlic.",
+        "A single clove is plenty for this.",
+        "The recipe calls for six cloves.",
+        "Add a few whole cloves to the pot.",
+        "Clove is the dominant flavor here."
+      ],
+      "senses": [
+        {
+          "n": "1",
+          "head": "A garlic segment",
+          "body": [
+            "(зубчик чеснока)"
+          ],
+          "examples": [
+            "Crush two cloves of garlic.",
+            "A single clove is plenty for this.",
+            "The recipe calls for six cloves."
+          ]
+        },
+        {
+          "n": "2",
+          "head": "The spice",
+          "body": [
+            "Uncountable or countable. (гвоздика)",
+            "---"
+          ],
+          "examples": [
+            "Add a few whole cloves to the pot.",
+            "Clove is the dominant flavor here."
+          ]
+        }
+      ],
+      "русский": "зубчик (чеснока)",
+      "countability": "countable",
+      "agreement": "follows the partitive — a clove is / two cloves are",
+      "type": "concrete",
+      "contrast": "A clove of garlic is one segment; the whole thing is a head or a bulb of garlic. Confusingly, cloves is also an unrelated spice.",
+      "see also": "head · pinch"
+    },
+    {
+      "term": "head",
+      "ipa": "/hɛd/",
+      "respell": "hed",
+      "meaning": "The compact rounded mass of a vegetable.",
+      "examples": [
+        "Buy a head of lettuce.",
+        "Two heads of garlic will last a month.",
+        "She chopped a whole head of cabbage.",
+        "Both heads of broccoli had gone yellow.",
+        "A head of cauliflower feeds four."
+      ],
+      "senses": [
+        {
+          "n": "1",
+          "head": "A rounded vegetable",
+          "body": [
+            "(кочан, головка)",
+            "---"
+          ],
+          "examples": [
+            "Buy a head of lettuce.",
+            "Two heads of garlic will last a month.",
+            "She chopped a whole head of cabbage.",
+            "Both heads of broccoli had gone yellow.",
+            "A head of cauliflower feeds four."
+          ]
+        }
+      ],
+      "русский": "кочан, головка",
+      "countability": "countable",
+      "agreement": "follows the partitive — a head is / two heads are",
+      "type": "concrete",
+      "contrast": "As a food partitive, head takes a regular plural: two heads of lettuce. That is different from the livestock-counting sense, where it stays unchanged: fifty head of cattle.",
+      "see also": "clove · bunch"
+    },
+    {
+      "term": "dash",
+      "ipa": "/dæʃ/",
+      "respell": "dash",
+      "meaning": "A very small quantity added to something.",
+      "examples": [
+        "Add a dash of hot sauce.",
+        "Two dashes of bitters go in the glass.",
+        "She takes her coffee with a dash of cream.",
+        "A dash of salt brings out the sweetness.",
+        "The speech had a dash of real feeling in it."
+      ],
+      "senses": [
+        {
+          "n": "1",
+          "head": "A small quantity",
+          "body": [
+            "(капелька, щепотка)"
+          ],
+          "examples": [
+            "Add a dash of hot sauce.",
+            "Two dashes of bitters go in the glass.",
+            "She takes her coffee with a dash of cream.",
+            "A dash of salt brings out the sweetness."
+          ]
+        },
+        {
+          "n": "2",
+          "head": "A small amount of a quality",
+          "body": [
+            "Figurative. (нотка)",
+            "---"
+          ],
+          "examples": [
+            "The speech had a dash of real feeling in it."
+          ]
+        }
+      ],
+      "русский": "капелька, щепотка",
+      "countability": "countable",
+      "agreement": "follows the partitive — a dash is / two dashes are",
+      "type": "concrete",
+      "contrast": "Smaller and more casual than a measured amount, and used mainly of liquids and strong seasonings: a dash of salt, a dash of bitters, a dash of milk.",
+      "see also": "pinch · splash"
+    },
+    {
+      "term": "splash",
+      "ipa": "/splæʃ/",
+      "respell": "splash",
+      "meaning": "A small quantity of liquid poured in.",
+      "examples": [
+        "Add a splash of white wine to the pan.",
+        "Just a splash of milk, thanks.",
+        "Two splashes of vinegar finish the sauce.",
+        "She poured a splash of oil into the skillet.",
+        "A splash of soda water lightens it."
+      ],
+      "senses": [
+        {
+          "n": "1",
+          "head": "A small quantity of liquid",
+          "body": [
+            "(немного жидкости)",
+            "---"
+          ],
+          "examples": [
+            "Add a splash of white wine to the pan.",
+            "Just a splash of milk, thanks.",
+            "Two splashes of vinegar finish the sauce.",
+            "She poured a splash of oil into the skillet.",
+            "A splash of soda water lightens it."
+          ]
+        }
+      ],
+      "русский": "немного (жидкости)",
+      "countability": "countable",
+      "agreement": "follows the partitive — a splash is / two splashes are",
+      "type": "concrete",
+      "contrast": "Used only of liquids, and slightly larger than a dash: a splash of wine, a splash of milk.",
+      "see also": "dash · drop"
+    },
+    {
+      "term": "pile",
+      "ipa": "/paɪl/",
+      "respell": "pyle",
+      "meaning": "A heap of things.",
+      "examples": [
+        "There's a pile of laundry on the bed.",
+        "Two piles of books blocked the door.",
+        "He has a pile of work to get through.",
+        "She sorted everything into three piles.",
+        "They made a pile of money on that deal."
+      ],
+      "senses": [
+        {
+          "n": "1",
+          "head": "A heap",
+          "body": [
+            "(куча)"
+          ],
+          "examples": [
+            "There's a pile of laundry on the bed.",
+            "Two piles of books blocked the door.",
+            "He has a pile of work to get through.",
+            "She sorted everything into three piles."
+          ]
+        },
+        {
+          "n": "2",
+          "head": "A large amount",
+          "body": [
+            "Informal. (куча денег)",
+            "---"
+          ],
+          "examples": [
+            "They made a pile of money on that deal."
+          ]
+        }
+      ],
+      "русский": "куча, стопка",
+      "countability": "countable",
+      "agreement": "follows the partitive — a pile is / two piles are",
+      "type": "concrete",
+      "contrast": "A pile of is informal and works with almost anything, countable or not — a pile of laundry, a pile of books, a pile of work. Compare a stack, which implies neat ordering.",
+      "see also": "stack · bunch"
+    },
+    {
+      "term": "stack",
+      "ipa": "/stæk/",
+      "respell": "stak",
+      "meaning": "A neat ordered heap.",
+      "examples": [
+        "A stack of plates sat by the sink.",
+        "Two stacks of paper filled the tray.",
+        "He carried a stack of books to the counter.",
+        "She ordered a stack of pancakes.",
+        "Both stacks were exactly the same height."
+      ],
+      "senses": [
+        {
+          "n": "1",
+          "head": "An ordered heap",
+          "body": [
+            "(стопка)"
+          ],
+          "examples": [
+            "A stack of plates sat by the sink.",
+            "Two stacks of paper filled the tray.",
+            "He carried a stack of books to the counter.",
+            "She ordered a stack of pancakes.",
+            "Both stacks were exactly the same height."
+          ]
+        }
+      ],
+      "русский": "стопка",
+      "countability": "countable",
+      "agreement": "follows the partitive — a stack is / two stacks are",
+      "type": "concrete",
+      "contrast": "A stack is neatly ordered; a pile is not. A stack of plates is stable; a pile of plates sounds precarious.",
+      "see also": "pile · sheet"
     }
   ]
 }

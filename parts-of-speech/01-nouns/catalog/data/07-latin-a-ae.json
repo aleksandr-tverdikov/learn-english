@@ -347,7 +347,8 @@
           "n": "1",
           "head": "A female graduate",
           "body": [
-            "(выпускница)"
+            "(выпускница)",
+            "---"
           ],
           "examples": [
             "She is an alumna of the same college.",
@@ -368,6 +369,558 @@
       "variants": "the informal sex-neutral alum / alums is now very common in American usage",
       "contrast": "Four forms to keep straight, and the two plurals differ by a single sound: alumni /-naɪ/ for men or a mixed group, alumnae /-niː/ for women only. Mixed groups always take alumni.",
       "see also": "alumnus"
+    },
+    {
+      "term": "retina",
+      "ipa": "/ˈrɛtɪnə/",
+      "respell": "RET-ih-nuh",
+      "meaning": "The light-sensitive layer at the back of the eye.",
+      "examples": [
+        "The retina was detached in one eye.",
+        "Both retinas showed early damage.",
+        "Light falls on the retina upside down.",
+        "Laser surgery reattached the retina.",
+        "Several retinae were examined post mortem."
+      ],
+      "senses": [
+        {
+          "n": "1",
+          "head": "The eye structure",
+          "body": [
+            "(сетчатка)",
+            "---"
+          ],
+          "examples": [
+            "The retina was detached in one eye.",
+            "Both retinas showed early damage.",
+            "Light falls on the retina upside down.",
+            "Laser surgery reattached the retina.",
+            "Several retinae were examined post mortem."
+          ]
+        }
+      ],
+      "русский": "сетчатка",
+      "plural": "retinas — usual · retinae /ˈrɛtɪniː/",
+      "countability": "countable",
+      "agreement": "plural verb — both retinas were damaged",
+      "group": "7",
+      "pattern": "Latin -a → -ae",
+      "type": "concrete",
+      "variants": "retinas dominates even in medical writing",
+      "see also": "cornea · vertebra"
+    },
+    {
+      "term": "cornea",
+      "ipa": "/ˈkɔːrniə/",
+      "respell": "KOR-nee-uh",
+      "meaning": "The transparent front layer of the eye.",
+      "examples": [
+        "The cornea heals surprisingly fast.",
+        "Both corneas were transplanted successfully.",
+        "A scratched cornea is extremely painful.",
+        "Corneas can be donated after death.",
+        "Laser surgery reshapes the cornea."
+      ],
+      "senses": [
+        {
+          "n": "1",
+          "head": "The eye structure",
+          "body": [
+            "(роговица)",
+            "---"
+          ],
+          "examples": [
+            "The cornea heals surprisingly fast.",
+            "Both corneas were transplanted successfully.",
+            "A scratched cornea is extremely painful.",
+            "Corneas can be donated after death.",
+            "Laser surgery reshapes the cornea."
+          ]
+        }
+      ],
+      "русский": "роговица",
+      "plural": "corneas — usual · corneae /ˈkɔːrniiː/",
+      "countability": "countable",
+      "agreement": "plural verb — the corneas were transplanted",
+      "group": "7",
+      "pattern": "Latin -a → -ae",
+      "type": "concrete",
+      "see also": "retina"
+    },
+    {
+      "term": "tibia",
+      "ipa": "/ˈtɪbiə/",
+      "respell": "TIB-ee-uh",
+      "meaning": "The larger bone of the lower leg.",
+      "examples": [
+        "He fractured his tibia in two places.",
+        "Both tibiae showed old stress fractures.",
+        "The tibia bears almost all the weight.",
+        "Surgeons pinned the tibia the same night.",
+        "Several tibias were recovered at the site."
+      ],
+      "senses": [
+        {
+          "n": "1",
+          "head": "The bone",
+          "body": [
+            "(большеберцовая кость)",
+            "---"
+          ],
+          "examples": [
+            "He fractured his tibia in two places.",
+            "Both tibiae showed old stress fractures.",
+            "The tibia bears almost all the weight.",
+            "Surgeons pinned the tibia the same night.",
+            "Several tibias were recovered at the site."
+          ]
+        }
+      ],
+      "русский": "большеберцовая кость",
+      "plural": "tibiae /ˈtɪbii/ · tibias — both correct",
+      "countability": "countable",
+      "agreement": "plural verb — both tibiae were fractured",
+      "group": "7",
+      "pattern": "Latin -a → -ae",
+      "type": "concrete",
+      "contrast": "The tibia is the shinbone; the thinner bone beside it is the fibula, plural fibulae.",
+      "see also": "scapula · ulna"
+    },
+    {
+      "term": "ulna",
+      "ipa": "/ˈʌlnə/",
+      "respell": "UL-nuh",
+      "meaning": "The inner bone of the forearm.",
+      "examples": [
+        "The ulna runs from elbow to wrist.",
+        "Both ulnae were intact.",
+        "She broke her ulna falling off a ladder.",
+        "The ulna and the radius rotate around each other.",
+        "Several ulnas were measured for the study."
+      ],
+      "senses": [
+        {
+          "n": "1",
+          "head": "The bone",
+          "body": [
+            "(локтевая кость)",
+            "---"
+          ],
+          "examples": [
+            "The ulna runs from elbow to wrist.",
+            "Both ulnae were intact.",
+            "She broke her ulna falling off a ladder.",
+            "The ulna and the radius rotate around each other.",
+            "Several ulnas were measured for the study."
+          ]
+        }
+      ],
+      "русский": "локтевая кость",
+      "plural": "ulnae /ˈʌlniː/ · ulnas — both correct",
+      "countability": "countable",
+      "agreement": "plural verb — both ulnae were intact",
+      "group": "7",
+      "pattern": "Latin -a → -ae",
+      "type": "concrete",
+      "contrast": "The ulna pairs with the radius in the forearm — see radius, which takes the -us → -i pattern instead.",
+      "see also": "tibia · radius"
+    },
+    {
+      "term": "scapula",
+      "ipa": "/ˈskæpjələ/",
+      "respell": "SKAP-yuh-luh",
+      "meaning": "The shoulder blade.",
+      "examples": [
+        "The scapula is held in place by muscle alone.",
+        "Both scapulae move freely.",
+        "He fractured his scapula in the crash.",
+        "The scapulas were unusually broad.",
+        "Muscles anchor the scapula to the ribs."
+      ],
+      "senses": [
+        {
+          "n": "1",
+          "head": "The bone",
+          "body": [
+            "(лопатка)",
+            "---"
+          ],
+          "examples": [
+            "The scapula is held in place by muscle alone.",
+            "Both scapulae move freely.",
+            "He fractured his scapula in the crash.",
+            "The scapulas were unusually broad.",
+            "Muscles anchor the scapula to the ribs."
+          ]
+        }
+      ],
+      "русский": "лопатка",
+      "plural": "scapulae /ˈskæpjəliː/ · scapulas — both correct",
+      "countability": "countable",
+      "agreement": "plural verb — the scapulae move freely",
+      "group": "7",
+      "pattern": "Latin -a → -ae",
+      "type": "concrete",
+      "variants": "the everyday word is shoulder blade",
+      "see also": "tibia · patella"
+    },
+    {
+      "term": "patella",
+      "ipa": "/pəˈtɛlə/",
+      "respell": "puh-TEL-uh",
+      "meaning": "The kneecap.",
+      "examples": [
+        "He dislocated his patella playing soccer.",
+        "Both patellae track poorly.",
+        "The patella protects the knee joint.",
+        "Several patellas were replaced in the study group.",
+        "A fractured patella takes months to heal."
+      ],
+      "senses": [
+        {
+          "n": "1",
+          "head": "The bone",
+          "body": [
+            "(коленная чашечка)",
+            "---"
+          ],
+          "examples": [
+            "He dislocated his patella playing soccer.",
+            "Both patellae track poorly.",
+            "The patella protects the knee joint.",
+            "Several patellas were replaced in the study group.",
+            "A fractured patella takes months to heal."
+          ]
+        }
+      ],
+      "русский": "надколенник, коленная чашечка",
+      "plural": "patellae /pəˈtɛliː/ · patellas — both correct",
+      "countability": "countable",
+      "agreement": "plural verb — both patellae were dislocated",
+      "group": "7",
+      "pattern": "Latin -a → -ae",
+      "type": "concrete",
+      "variants": "the everyday word is kneecap",
+      "see also": "scapula"
+    },
+    {
+      "term": "aorta",
+      "ipa": "/eɪˈɔːrtə/",
+      "respell": "ay-OR-tuh",
+      "meaning": "The main artery leaving the heart.",
+      "examples": [
+        "The aorta carries blood from the heart.",
+        "An aneurysm had weakened the aorta.",
+        "Both aortas were within normal range.",
+        "The aorta is the largest artery in the body.",
+        "Surgeons repaired the aorta the same night."
+      ],
+      "senses": [
+        {
+          "n": "1",
+          "head": "The artery",
+          "body": [
+            "(аорта)",
+            "---"
+          ],
+          "examples": [
+            "The aorta carries blood from the heart.",
+            "An aneurysm had weakened the aorta.",
+            "Both aortas were within normal range.",
+            "The aorta is the largest artery in the body.",
+            "Surgeons repaired the aorta the same night."
+          ]
+        }
+      ],
+      "русский": "аорта",
+      "plural": "aortas — usual · aortae /eɪˈɔːrtiː/",
+      "countability": "countable",
+      "agreement": "plural verb — the aortas were compared",
+      "group": "7",
+      "pattern": "Latin -a → -ae",
+      "type": "concrete",
+      "see also": "trachea"
+    },
+    {
+      "term": "trachea",
+      "ipa": "/ˈtreɪkiə/",
+      "respell": "TRAY-kee-uh",
+      "meaning": "The windpipe.",
+      "examples": [
+        "The trachea was blocked by swelling.",
+        "Both tracheas were clear on the scan.",
+        "A tube was inserted into the trachea.",
+        "Insects breathe through branching tracheae.",
+        "The trachea divides into two bronchi."
+      ],
+      "senses": [
+        {
+          "n": "1",
+          "head": "The airway",
+          "body": [
+            "(трахея)",
+            "---"
+          ],
+          "examples": [
+            "The trachea was blocked by swelling.",
+            "Both tracheas were clear on the scan.",
+            "A tube was inserted into the trachea.",
+            "Insects breathe through branching tracheae.",
+            "The trachea divides into two bronchi."
+          ]
+        }
+      ],
+      "русский": "трахея",
+      "plural": "tracheae /ˈtreɪkiiː/ · tracheas — both correct",
+      "countability": "countable",
+      "agreement": "plural verb — the tracheae were clear",
+      "group": "7",
+      "pattern": "Latin -a → -ae",
+      "type": "concrete",
+      "variants": "the everyday word is windpipe",
+      "see also": "aorta · esophagus"
+    },
+    {
+      "term": "fauna",
+      "ipa": "/ˈfɔːnə/",
+      "respell": "FAW-nuh",
+      "meaning": "The animal life of a region or period.",
+      "examples": [
+        "The island's fauna is found nowhere else.",
+        "Cave fauna has adapted to total darkness.",
+        "The two faunas diverged millions of years ago.",
+        "He catalogued the fauna of the whole basin.",
+        "Both faunae include the same predator."
+      ],
+      "senses": [
+        {
+          "n": "1",
+          "head": "Animal life",
+          "body": [
+            "(фауна)",
+            "---"
+          ],
+          "examples": [
+            "The island's fauna is found nowhere else.",
+            "Cave fauna has adapted to total darkness.",
+            "The two faunas diverged millions of years ago.",
+            "He catalogued the fauna of the whole basin.",
+            "Both faunae include the same predator."
+          ]
+        }
+      ],
+      "русский": "фауна",
+      "plural": "faunas — usual · faunae /ˈfɔːniː/",
+      "countability": "uncountable in ordinary use; countable for distinct regional sets",
+      "agreement": "singular verb — the fauna is unique to the island",
+      "group": "7",
+      "pattern": "Latin -a → -ae",
+      "type": "abstract",
+      "contrast": "Pairs with flora, the plant life. Both are collective and usually take a singular verb: the fauna is remarkable.",
+      "see also": "flora"
+    },
+    {
+      "term": "flora",
+      "ipa": "/ˈflɔːrə/",
+      "respell": "FLOR-uh",
+      "meaning": "The plant life of a region or period; also the microbes of the body.",
+      "examples": [
+        "The alpine flora is protected by law.",
+        "Both floras share a common ancestor.",
+        "She wrote a flora of the whole county.",
+        "Antibiotics disrupt the gut flora.",
+        "Intestinal flora varies enormously between people."
+      ],
+      "senses": [
+        {
+          "n": "1",
+          "head": "Plant life",
+          "body": [
+            "(флора)"
+          ],
+          "examples": [
+            "The alpine flora is protected by law.",
+            "Both floras share a common ancestor.",
+            "She wrote a flora of the whole county."
+          ]
+        },
+        {
+          "n": "2",
+          "head": "The body's microbes",
+          "body": [
+            "(микрофлора)",
+            "---"
+          ],
+          "examples": [
+            "Antibiotics disrupt the gut flora.",
+            "Intestinal flora varies enormously between people."
+          ]
+        }
+      ],
+      "русский": "флора",
+      "plural": "floras — usual · florae /ˈflɔːriː/",
+      "countability": "uncountable in ordinary use; countable for distinct regional sets",
+      "agreement": "singular verb — the flora is protected",
+      "group": "7",
+      "pattern": "Latin -a → -ae",
+      "type": "abstract",
+      "contrast": "Also used of bacteria — gut flora — where the word is firmly uncountable.",
+      "see also": "fauna · bacterium"
+    },
+    {
+      "term": "pupa",
+      "ipa": "/ˈpjuːpə/",
+      "respell": "PYOO-puh",
+      "meaning": "The inactive stage between larva and adult insect.",
+      "examples": [
+        "The pupa is completely motionless.",
+        "Hundreds of pupae hung under the leaf.",
+        "Both pupas failed to hatch.",
+        "The pupae overwinter in the soil.",
+        "A single pupa takes two weeks to develop."
+      ],
+      "senses": [
+        {
+          "n": "1",
+          "head": "The life stage",
+          "body": [
+            "(куколка)",
+            "---"
+          ],
+          "examples": [
+            "The pupa is completely motionless.",
+            "Hundreds of pupae hung under the leaf.",
+            "Both pupas failed to hatch.",
+            "The pupae overwinter in the soil.",
+            "A single pupa takes two weeks to develop."
+          ]
+        }
+      ],
+      "русский": "куколка (насекомого)",
+      "plural": "pupae /ˈpjuːpiː/ · pupas — both correct",
+      "countability": "countable",
+      "agreement": "plural verb — the pupae are dormant",
+      "group": "7",
+      "pattern": "Latin -a → -ae",
+      "type": "concrete",
+      "contrast": "The stage between larva and adult. The three-stage vocabulary — larva, pupa, imago — all takes Latin plurals.",
+      "see also": "larva"
+    },
+    {
+      "term": "persona",
+      "ipa": "/pərˈsoʊnə/",
+      "respell": "pur-SOH-nuh",
+      "meaning": "A public image or assumed character.",
+      "examples": [
+        "His stage persona is nothing like him.",
+        "The team built six user personas.",
+        "Both personas tested badly.",
+        "She adopted a colder persona at work.",
+        "The dramatis personae is printed at the front."
+      ],
+      "senses": [
+        {
+          "n": "1",
+          "head": "A public image",
+          "body": [
+            "(образ)",
+            "---"
+          ],
+          "examples": [
+            "His stage persona is nothing like him.",
+            "The team built six user personas.",
+            "Both personas tested badly.",
+            "She adopted a colder persona at work.",
+            "The dramatis personae is printed at the front."
+          ]
+        }
+      ],
+      "русский": "образ, персона",
+      "plural": "personas — usual · personae /pərˈsoʊniː/",
+      "countability": "countable",
+      "agreement": "plural verb — the personas were tested",
+      "group": "7",
+      "pattern": "Latin -a → -ae",
+      "type": "abstract",
+      "variants": "personas in design and psychology; personae in the fixed phrase dramatis personae",
+      "contrast": "The Latin plural survives mainly in dramatis personae, the cast list of a play. Everywhere else write personas.",
+      "see also": "formula"
+    },
+    {
+      "term": "lacuna",
+      "ipa": "/ləˈkuːnə/",
+      "respell": "luh-KOO-nuh",
+      "meaning": "A gap, especially in a manuscript or an argument.",
+      "examples": [
+        "There is a serious lacuna in the evidence.",
+        "Several lacunae interrupt the manuscript.",
+        "Both lacunas were filled by later scholars.",
+        "The law has an obvious lacuna.",
+        "The lacunae in the text are marked with brackets."
+      ],
+      "senses": [
+        {
+          "n": "1",
+          "head": "A gap",
+          "body": [
+            "(пробел, лакуна)",
+            "---"
+          ],
+          "examples": [
+            "There is a serious lacuna in the evidence.",
+            "Several lacunae interrupt the manuscript.",
+            "Both lacunas were filled by later scholars.",
+            "The law has an obvious lacuna.",
+            "The lacunae in the text are marked with brackets."
+          ]
+        }
+      ],
+      "русский": "лакуна, пробел",
+      "plural": "lacunae /ləˈkuːniː/ · lacunas — both correct",
+      "countability": "countable",
+      "agreement": "plural verb — the lacunae are significant",
+      "group": "7",
+      "pattern": "Latin -a → -ae",
+      "type": "abstract",
+      "see also": "minutia"
+    },
+    {
+      "term": "minutia",
+      "ipa": "/mɪˈnuːʃiə/",
+      "respell": "mih-NOO-shee-uh",
+      "meaning": "Small, precise, trivial details.",
+      "examples": [
+        "He gets lost in the minutiae of every contract.",
+        "The minutiae are exhausting to review.",
+        "Spare me the minutiae.",
+        "She has an extraordinary memory for minutiae.",
+        "A single minutia derailed the whole negotiation."
+      ],
+      "senses": [
+        {
+          "n": "1",
+          "head": "Trivial details",
+          "body": [
+            "(мелочи)"
+          ],
+          "examples": [
+            "He gets lost in the minutiae of every contract.",
+            "The minutiae are exhausting to review.",
+            "Spare me the minutiae.",
+            "She has an extraordinary memory for minutiae.",
+            "A single minutia derailed the whole negotiation."
+          ]
+        }
+      ],
+      "русский": "мелочь, деталь",
+      "plural": "minutiae /mɪˈnuːʃiiː/ · mih-NOO-shee-ee",
+      "countability": "countable, almost always plural",
+      "agreement": "plural verb — the minutiae are exhausting",
+      "group": "7",
+      "pattern": "Latin -a → -ae",
+      "type": "abstract",
+      "contrast": "In practice the word appears only in the plural. ✗ A minutia is grammatical but almost never said.",
+      "see also": "lacuna"
     }
   ]
 }

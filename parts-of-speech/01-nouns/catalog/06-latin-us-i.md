@@ -423,3 +423,501 @@ A rank in biological classification, above species and below family.
 5. He named a new *genus* after his teacher.
 
 **See also:** [corpus](#corpus) &middot; [species](03-unchanged.md#species)
+
+---
+
+### calculus
+
+**Pronunciation:** /ˈkælkjələs/ &middot; *KAL-kyuh-luhs*
+**Русский:** математический анализ; камень (мед.)
+**Plural:** *calculi* /ˈkælkjəlaɪ/ (medical) &middot; *calculuses* rarely
+**Countability:** uncountable as the branch of mathematics; countable in medicine
+**Agreement:** singular verb — *calculus is required*
+**Pattern:** Latin *-us* → *-i* &middot; **Group:** 6
+**Type:** abstract and concrete
+**Contrast:** The mathematics sense has no plural at all — ✗ *two calculi* of mathematics is wrong. The medical sense, meaning a stone in the body, does: *renal calculi*. Latin *calculus* meant a pebble used for counting.
+
+The branch of mathematics dealing with rates of change; in medicine, a stone.
+
+**1. The mathematics.** Uncountable. (математический анализ)
+
+1. *Calculus* is required for every engineering major.
+2. He teaches introductory *calculus*.
+3. The whole model rests on basic *calculus*.
+
+**2. A stone in the body.** Countable. (камень)
+
+4. Renal *calculi* were visible on the scan.
+5. A single *calculus* was blocking the duct.
+
+**See also:** [locus](#locus) &middot; [radius](#radius)
+
+---
+
+### locus
+
+**Pronunciation:** /ˈloʊkəs/ &middot; *LOH-kuhs*
+**Русский:** место, локус
+**Plural:** *loci* /ˈloʊsaɪ/ &middot; *LOH-sy*
+**Countability:** countable
+**Agreement:** plural verb — *the loci are mapped*
+**Pattern:** Latin *-us* → *-i* &middot; **Group:** 6
+**Type:** abstract
+**Variants:** ✗ *locuses* is not used
+**Contrast:** Note the *c* is /s/ in the plural, as in *foci*. The fixed phrase *locus of control* is standard in psychology.
+
+A particular position or place; in genetics, a gene's position on a chromosome.
+
+**1. A center or position.** (средоточие, место)
+
+1. The court is the *locus* of the dispute.
+2. Several *loci* of resistance emerged.
+3. The city was the *locus* of the whole movement.
+
+**2. A gene's position.** Genetics. (локус)
+
+4. Both *loci* are on the same chromosome.
+5. The *locus* was mapped in 1998.
+
+**See also:** [focus](#focus) &middot; [calculus](#calculus)
+
+---
+
+### thesaurus
+
+**Pronunciation:** /θɪˈsɔːrəs/ &middot; *thih-SOR-uhs*
+**Русский:** тезаурус, словарь синонимов
+**Plural:** *thesauri* /θɪˈsɔːraɪ/ &middot; *thesauruses* — both correct
+**Countability:** countable
+**Agreement:** plural verb — *both thesauri are outdated*
+**Pattern:** Latin *-us* → *-i* &middot; **Group:** 6
+**Type:** concrete
+**Variants:** *thesauruses* is commoner in everyday American use
+**Contrast:** From Greek by way of Latin, meaning 'treasure house' — the same root as *treasure*.
+
+A book of words grouped by meaning.
+
+**1. The reference book.** (словарь синонимов)
+
+1. Look it up in a *thesaurus*.
+2. Both *thesauri* give the same synonyms.
+3. He keeps three *thesauruses* on the shelf.
+4. A good *thesaurus* is not a list of equivalents.
+5. The online *thesaurus* is far easier to search.
+
+**See also:** [syllabus](#syllabus)
+
+---
+
+### stylus
+
+**Pronunciation:** /ˈstaɪləs/ &middot; *STY-luhs*
+**Русский:** стилус; игла звукоснимателя
+**Plural:** *styli* /ˈstaɪlaɪ/ &middot; *styluses* — both correct
+**Countability:** countable
+**Agreement:** plural verb — *the styluses are magnetic*
+**Pattern:** Latin *-us* → *-i* &middot; **Group:** 6
+**Type:** concrete
+**Variants:** *styluses* is commoner in technology writing
+
+A pointed instrument for writing or for playing records.
+
+**1. The pointed instrument.** (стилус)
+
+1. The tablet comes with a *stylus*.
+2. Both *styluses* were lost within a month.
+3. Ancient scribes used a *stylus* on wax.
+4. The turntable needs a new *stylus*.
+5. Several *styli* were found at the site.
+
+**See also:** [papyrus](#papyrus)
+
+---
+
+### papyrus
+
+**Pronunciation:** /pəˈpaɪrəs/ &middot; *puh-PY-ruhs*
+**Русский:** папирус
+**Plural:** *papyri* /pəˈpaɪraɪ/ &middot; *papyruses* — both correct
+**Countability:** countable, and uncountable as a material
+**Agreement:** plural verb — *the papyri are fragile*
+**Pattern:** Latin *-us* → *-i* &middot; **Group:** 6
+**Type:** concrete
+**Variants:** *papyri* is standard in scholarship
+
+The reed-based writing material of antiquity, and documents written on it.
+
+**1. The material.** Uncountable. (папирус как материал)
+
+1. The text was written on *papyrus*.
+2. *Papyrus* survives only in dry conditions.
+
+**2. A document.** Countable. (папирусный свиток)
+
+3. The museum holds four hundred *papyri*.
+4. A single *papyrus* names the whole family.
+5. Both *papyruses* were badly damaged.
+
+**See also:** [stylus](#stylus) &middot; [codex](11-ex-ix-ices.md#codex)
+
+---
+
+### terminus
+
+**Pronunciation:** /ˈtɜːrmɪnəs/ &middot; *TUR-mih-nuhs*
+**Русский:** конечная станция
+**Plural:** *termini* /ˈtɜːrmɪnaɪ/ &middot; *terminuses* — both correct
+**Countability:** countable
+**Agreement:** plural verb — *both termini are downtown*
+**Pattern:** Latin *-us* → *-i* &middot; **Group:** 6
+**Type:** concrete
+
+The end point of a route or line.
+
+**1. The end of a route.** (конечная станция)
+
+1. The line's northern *terminus* is here.
+2. Both *termini* are downtown.
+3. The bus *terminus* was rebuilt last year.
+4. Several *terminuses* were closed for repair.
+5. The pipeline's *terminus* is on the coast.
+
+**See also:** [radius](#radius)
+
+---
+
+### hippopotamus
+
+**Pronunciation:** /ˌhɪpəˈpɑːtəməs/ &middot; *hip-uh-PAH-tuh-muhs*
+**Русский:** бегемот, гиппопотам
+**Plural:** *hippopotamuses* — usual &middot; *hippopotami* /-maɪ/
+**Countability:** countable
+**Agreement:** plural verb — *the hippopotamuses are submerged*
+**Pattern:** Greek, so the Latin *-i* has no basis &middot; **Group:** 6 (trap)
+**Type:** concrete
+**Variants:** shortened to *hippo* / *hippos* in ordinary speech
+**Contrast:** Like [octopus](#octopus), this is **Greek**, not Latin — *hippopotami* is a jocular formation, not a historical plural. Say *hippopotamuses*, or just *hippos*.
+
+The large African river mammal.
+
+**1. The animal.** (бегемот)
+
+1. Two *hippopotamuses* surfaced near the boat.
+2. *Hippos* kill more people than lions do.
+3. A single *hippopotamus* can weigh three tons.
+4. The zoo's *hippos* share one pool.
+5. *Hippopotami* is a joke, not a plural.
+
+**See also:** [octopus](#octopus) &middot; [platypus](#platypus)
+
+---
+
+### platypus
+
+**Pronunciation:** /ˈplætɪpəs/ &middot; *PLAT-ih-puhs*
+**Русский:** утконос
+**Plural:** *platypuses* — usual &middot; *platypodes* in strict Greek
+**Countability:** countable
+**Agreement:** plural verb — *the platypuses are nocturnal*
+**Pattern:** Greek, so the Latin *-i* has no basis &middot; **Group:** 6 (trap)
+**Type:** concrete
+**Contrast:** ✗ *Platypi* is wrong for the same reason as ✗ *octopi* — the word is Greek. Write *platypuses*.
+
+The egg-laying Australian mammal with a duck-like bill.
+
+**1. The animal.** (утконос)
+
+1. Two *platypuses* live in the creek.
+2. The *platypus* is one of only five egg-laying mammals.
+3. *Platypuses* hunt with their eyes closed.
+4. A male *platypus* has a venomous spur.
+5. ✗ *Platypi* has no historical basis at all.
+
+**See also:** [octopus](#octopus) &middot; [hippopotamus](#hippopotamus)
+
+---
+
+### apparatus
+
+**Pronunciation:** /ˌæpəˈrætəs/ &middot; *ap-uh-RAT-uhs*
+**Русский:** аппарат, оборудование
+**Plural:** *apparatuses* — usual &middot; *apparatus* unchanged
+**Countability:** countable, and often uncountable
+**Agreement:** either — *the apparatus is* / *the apparatuses are*
+**Pattern:** Latin fourth declension — never *-i* &middot; **Group:** 6 (trap)
+**Type:** concrete and abstract
+**Contrast:** ✗ *Apparati* is wrong. This is a fourth-declension Latin noun whose plural was identical to its singular, so English uses either the unchanged form or a regular *-es*.
+
+Equipment for a particular purpose; also an organizational structure.
+
+**1. Equipment.** (аппаратура)
+
+1. The lab's *apparatus* is forty years old.
+2. Several *apparatuses* failed the inspection.
+3. Breathing *apparatus* is mandatory below deck.
+
+**2. An organizational structure.** Figurative. (аппарат, механизм)
+
+4. The whole party *apparatus* backed him.
+5. The security *apparatus* answers to no one.
+
+**See also:** [status](#status) &middot; [census](#census)
+
+---
+
+### status
+
+**Pronunciation:** /ˈsteɪtəs/ &middot; *STAY-tuhs* — also /ˈstætəs/
+**Русский:** статус, положение
+**Plural:** *statuses* /ˈsteɪtəsɪz/ — regular
+**Countability:** countable, and often uncountable
+**Agreement:** singular verb — *her status is unchanged*
+**Pattern:** Latin fourth declension — regular *-es* &middot; **Group:** 6 (trap)
+**Type:** abstract
+**Contrast:** ✗ *Stati* is wrong and sounds like a joke. Both American pronunciations are accepted.
+
+Someone's position or rank; the current state of something.
+
+**1. Position or rank.** (статус)
+
+1. Her *status* in the firm is unchanged.
+2. Marital *status* is not a permitted question.
+3. Social *status* mattered enormously there.
+
+**2. Current state.** (состояние)
+
+4. Check the *status* of your application.
+5. All three *statuses* were listed as pending.
+
+**See also:** [apparatus](#apparatus) &middot; [census](#census)
+
+---
+
+### census
+
+**Pronunciation:** /ˈsɛnsəs/ &middot; *SEN-suhs*
+**Русский:** перепись населения
+**Plural:** *censuses* /ˈsɛnsəsɪz/ — regular
+**Countability:** countable
+**Agreement:** plural verb — *both censuses undercounted*
+**Pattern:** Latin fourth declension — regular *-es* &middot; **Group:** 6 (trap)
+**Type:** abstract
+**Contrast:** ✗ *Censi* is wrong. Do not confuse with *censor* (one who suppresses) or *sensor* (a detecting device).
+
+An official count of a population.
+
+**1. The population count.** (перепись)
+
+1. The *census* is taken every ten years.
+2. Both *censuses* undercounted rural areas.
+3. *Census* data determines representation.
+4. She worked as a *census* taker one summer.
+5. Three *censuses* have been held since then.
+
+**See also:** [status](#status) &middot; [consensus](#consensus)
+
+---
+
+### consensus
+
+**Pronunciation:** /kənˈsɛnsəs/ &middot; *kuhn-SEN-suhs*
+**Русский:** консенсус, согласие
+**Plural:** *consensuses* — rare; the word is usually uncountable
+**Countability:** uncountable in ordinary use
+**Agreement:** singular verb — *the consensus is clear*
+**Pattern:** Latin fourth declension — regular *-es* &middot; **Group:** 6 (trap)
+**Type:** abstract
+**Contrast:** ✗ *Consensi* is wrong. Note also the redundant phrase *general consensus of opinion* — *consensus* already means agreement of opinion.
+
+General agreement.
+
+**1. General agreement.** (консенсус)
+
+1. The *consensus* is that it will not pass.
+2. There is no *consensus* among the experts.
+3. They reached a *consensus* after six hours.
+4. Scientific *consensus* has shifted on this.
+5. The committee governs by *consensus*.
+
+**See also:** [census](#census) &middot; [status](#status)
+
+---
+
+### genius
+
+**Pronunciation:** /ˈdʒiːniəs/ &middot; *JEE-nee-uhs*
+**Русский:** гений; гениальность
+**Plural:** *geniuses* — for people &middot; *genii* /ˈdʒiːniaɪ/ for spirits
+**Countability:** countable as a person; uncountable as the quality
+**Agreement:** plural verb — *the geniuses disagreed*
+**Pattern:** regular *-es* for people &middot; **Group:** 6 (trap)
+**Type:** concrete and abstract
+**Variants:** *genii* survives only for guardian spirits and the genie of folklore
+**Contrast:** ✗ *Genii* for clever people is wrong. Brilliant people are *geniuses*; the plural *genii* belongs to mythology.
+
+An exceptionally intelligent person; also exceptional ability.
+
+**1. A brilliant person.** Countable. (гений)
+
+1. She is a genuine mathematical *genius*.
+2. The room was full of *geniuses* and none of them agreed.
+3. Two *geniuses* worked on the same problem separately.
+
+**2. Exceptional ability.** Uncountable. (гениальность)
+
+4. There is real *genius* in that design.
+5. His *genius* was for organization, not invention.
+
+**See also:** [status](#status)
+
+---
+
+### opus
+
+**Pronunciation:** /ˈoʊpəs/ &middot; *OH-puhs*
+**Русский:** опус, произведение
+**Plural:** *opera* /ˈɑːpərə/ &middot; *opuses* — both correct
+**Countability:** countable
+**Agreement:** plural verb — *the opuses were catalogued*
+**Pattern:** Latin third declension → *-era* &middot; **Group:** 6
+**Type:** abstract
+**Variants:** *opuses* is commoner; *opera* in this sense is rare and confusing
+**Contrast:** The Latin plural *opera* is the same word as the musical form *opera*, which entered English separately and has its own regular plural *operas*. Because of that collision, most writers use *opuses*. Compare *corpus → corpora*, *genus → genera*.
+
+A musical or artistic work, especially one in a numbered sequence.
+
+**1. A numbered work.** (опус)
+
+1. The sonata is his *Opus* 27.
+2. Both *opuses* date from the same year.
+3. Her magnum *opus* took eleven years.
+4. The catalogue lists all the *opera* in order. *(rare)*
+5. Several late *opuses* were never performed.
+
+**See also:** [corpus](#corpus) &middot; [genus](#genus)
+
+---
+
+### crocus
+
+**Pronunciation:** /ˈkroʊkəs/ &middot; *KROH-kuhs*
+**Русский:** крокус
+**Plural:** *crocuses* — usual &middot; *croci* /ˈkroʊsaɪ/
+**Countability:** countable
+**Agreement:** plural verb — *the crocuses are up*
+**Pattern:** Latin *-us* → *-i*, but the regular form dominates &middot; **Group:** 6
+**Type:** concrete
+**Variants:** *crocuses* is standard in gardening; *croci* is pedantic
+
+The small early-spring flower.
+
+**1. The flower.** (крокус)
+
+1. The *crocuses* are up already.
+2. She planted two hundred *crocuses* along the path.
+3. A single *crocus* pushed through the snow.
+4. Purple *crocuses* come first, then the yellow.
+5. Saffron comes from a particular *crocus*.
+
+**See also:** [cactus](#cactus) &middot; [narcissus](#narcissus)
+
+---
+
+### narcissus
+
+**Pronunciation:** /nɑːrˈsɪsəs/ &middot; *nar-SIS-uhs*
+**Русский:** нарцисс
+**Plural:** *narcissi* /nɑːrˈsɪsaɪ/ &middot; *narcissuses* — both correct
+**Countability:** countable
+**Agreement:** plural verb — *the narcissi are blooming*
+**Pattern:** Latin *-us* → *-i* &middot; **Group:** 6
+**Type:** concrete
+**Contrast:** Named for the Greek youth who fell in love with his reflection — the same source as *narcissism*.
+
+The spring flower of the daffodil family.
+
+**1. The flower.** (нарцисс)
+
+1. The *narcissi* bloom before the tulips.
+2. She planted *narcissuses* under the apple tree.
+3. A single white *narcissus* stood in a vase.
+4. Both *narcissi* came from the same bulb.
+5. Paperwhite *narcissi* can be forced indoors.
+
+**See also:** [crocus](#crocus)
+
+---
+
+### sarcophagus
+
+**Pronunciation:** /sɑːrˈkɑːfəɡəs/ &middot; *sar-KAH-fuh-guhs*
+**Русский:** саркофаг
+**Plural:** *sarcophagi* /sɑːrˈkɑːfəɡaɪ/ &middot; *sarcophaguses* — both correct
+**Countability:** countable
+**Agreement:** plural verb — *the sarcophagi are on display*
+**Pattern:** Greek via Latin *-us* → *-i* &middot; **Group:** 6
+**Type:** concrete
+**Variants:** *sarcophagi* is standard in archaeology
+**Contrast:** Literally 'flesh-eating' in Greek, from the limestone believed to consume bodies.
+
+A stone coffin.
+
+**1. The stone coffin.** (саркофаг)
+
+1. The *sarcophagus* was carved from a single block.
+2. Three *sarcophagi* stood along the wall.
+3. Both *sarcophaguses* were empty.
+4. The museum's Egyptian *sarcophagi* draw the crowds.
+5. A painted *sarcophagus* was found intact.
+
+**See also:** [papyrus](#papyrus)
+
+---
+
+### esophagus
+
+**Pronunciation:** /ɪˈsɑːfəɡəs/ &middot; *ih-SAH-fuh-guhs*
+**Русский:** пищевод
+**Plural:** *esophagi* /ɪˈsɑːfəɡaɪ/ &middot; *esophaguses* — both correct
+**Countability:** countable
+**Agreement:** plural verb — *the esophagi were examined*
+**Pattern:** Greek via Latin *-us* → *-i* &middot; **Group:** 6
+**Type:** concrete
+**Variants:** the British spelling is *oesophagus*
+
+The tube connecting the throat to the stomach.
+
+**1. The organ.** (пищевод)
+
+1. The *esophagus* is about ten inches long.
+2. Both *esophagi* showed the same damage.
+3. Acid reflux irritates the *esophagus*.
+4. The scope passes down the *esophagus*.
+5. Several *esophaguses* were examined in the study.
+
+**See also:** [uterus](#uterus)
+
+---
+
+### uterus
+
+**Pronunciation:** /ˈjuːtərəs/ &middot; *YOO-tur-uhs*
+**Русский:** матка
+**Plural:** *uteri* /ˈjuːtəraɪ/ &middot; *uteruses* — both correct
+**Countability:** countable
+**Agreement:** plural verb — *the uteri were measured*
+**Pattern:** Latin *-us* → *-i* &middot; **Group:** 6
+**Type:** concrete
+**Variants:** *uteruses* is commoner outside medical writing
+
+The female reproductive organ.
+
+**1. The organ.** (матка)
+
+1. The *uterus* doubles in size during pregnancy.
+2. Both *uteri* were normal on the scan.
+3. The lining of the *uterus* sheds monthly.
+4. Several *uteruses* were studied in the trial.
+5. The muscle of the *uterus* is exceptionally strong.
+
+**See also:** [esophagus](#esophagus)

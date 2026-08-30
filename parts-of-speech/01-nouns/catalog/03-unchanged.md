@@ -809,3 +809,538 @@ The number 100.
 7. The odds were a *hundred* to one.
 
 **See also:** [dozen](#dozen)
+
+---
+
+### haddock
+
+**Pronunciation:** /ˈhædək/ &middot; *HAD-uhk*
+**Русский:** пикша
+**Plural:** *haddock* — unchanged
+**Countability:** countable, and uncountable as food
+**Agreement:** depends on meaning — *the haddock is* / *the haddock are*
+**Pattern:** zero plural &middot; **Group:** 3
+**Type:** concrete
+**Contrast:** Like nearly every food fish: *cod*, *haddock*, *herring*, *mackerel*, *pollock*, *whiting*. The pattern is so strong that a new food fish entering English joins it automatically.
+
+The North Atlantic food fish, related to cod.
+
+**1. The fish.** (пикша)
+
+1. The boat landed two tons of *haddock*.
+2. A single *haddock* can weigh five pounds.
+3. *Haddock* are smaller than cod.
+4. Smoked *haddock* is the local specialty.
+5. She ordered the *haddock* and chips.
+
+**See also:** [cod](#cod) &middot; [herring](#herring)
+
+---
+
+### herring
+
+**Pronunciation:** /ˈhɛrɪŋ/ &middot; *HER-ing*
+**Русский:** сельдь, селёдка
+**Plural:** *herring* — unchanged &middot; *herrings* for species
+**Countability:** countable, and uncountable as food
+**Agreement:** depends on meaning — *the herring is* / *the herring are*
+**Pattern:** zero plural &middot; **Group:** 3
+**Type:** concrete
+**Contrast:** Famous chiefly through the idiom *a red herring* — a misleading clue — which takes a regular plural: *red herrings*.
+
+The small oily food fish.
+
+**1. The fish.** (сельдь)
+
+1. The nets came up full of *herring*.
+2. *Herring* were once the backbone of this economy.
+3. Pickled *herring* is served at every holiday.
+4. A single *herring* is barely a mouthful.
+
+**2. In fixed expressions.** (в устойчивых выражениях)
+
+5. That whole subplot is a red *herring*.
+
+**See also:** [haddock](#haddock) &middot; [mackerel](#mackerel)
+
+---
+
+### mackerel
+
+**Pronunciation:** /ˈmækərəl/ &middot; *MAK-ur-uhl*
+**Русский:** скумбрия
+**Plural:** *mackerel* — unchanged
+**Countability:** countable, and uncountable as food
+**Agreement:** depends on meaning — *the mackerel is* / *the mackerel are*
+**Pattern:** zero plural &middot; **Group:** 3
+**Type:** concrete
+**Contrast:** ✗ *Mackerels* is rare enough to sound wrong. A *mackerel sky* is one patterned with rows of small clouds.
+
+The oily striped food fish.
+
+**1. The fish.** (скумбрия)
+
+1. They caught forty *mackerel* in an hour.
+2. *Mackerel* run close to shore in summer.
+3. Grilled *mackerel* is cheap and excellent.
+4. A single *mackerel* fed all three of us.
+5. The *mackerel* were running early.
+
+**See also:** [herring](#herring) &middot; [tuna](#tuna)
+
+---
+
+### tuna
+
+**Pronunciation:** /ˈtuːnə/ &middot; *TOO-nuh*
+**Русский:** тунец
+**Plural:** *tuna* — unchanged &middot; *tunas* for species
+**Countability:** countable, and uncountable as food
+**Agreement:** depends on meaning — *the tuna is* / *the tuna are*
+**Pattern:** zero plural &middot; **Group:** 3
+**Type:** concrete
+**Contrast:** As food it is uncountable — *a can of tuna*, never ✗ *a tuna* unless you mean the whole fish. Biologists write *tunas* for the several species.
+
+The large ocean fish.
+
+**1. The fish.** (тунец)
+
+1. A school of *tuna* passed under the boat.
+2. Bluefin *tuna* sell for extraordinary prices.
+3. Several *tunas* are now endangered species.
+
+**2. As food.** Uncountable. (тунец как еда)
+
+4. Open a can of *tuna*.
+5. She made *tuna* sandwiches for the trip.
+
+**See also:** [salmon](#salmon) &middot; [mackerel](#mackerel)
+
+---
+
+### bass
+
+**Pronunciation:** /bæs/ &middot; *bas* — the fish; the musical sense is /beɪs/ *bayss*
+**Русский:** окунь
+**Plural:** *bass* — unchanged
+**Countability:** countable, and uncountable as food
+**Agreement:** depends on meaning — *the bass is* / *the bass are*
+**Pattern:** zero plural &middot; **Group:** 3
+**Type:** concrete
+**Contrast:** Two unrelated words spelled identically. The fish is /bæs/, rhyming with *pass*. The low musical range and the instrument are /beɪs/, rhyming with *face*, and take a regular plural: *two bass guitars*, *the basses in the choir*.
+
+The freshwater and sea game fish.
+
+**1. The fish.** (окунь)
+
+1. He caught three *bass* before breakfast.
+2. Largemouth *bass* were stocked in the lake.
+3. A single *bass* took the lure twice.
+4. *Bass* feed heavily at dusk.
+5. The *bass* here run larger than upriver.
+
+**See also:** [trout](#trout) &middot; [perch](#perch)
+
+---
+
+### perch
+
+**Pronunciation:** /pɜːrtʃ/ &middot; *purch*
+**Русский:** окунь
+**Plural:** *perch* — unchanged &middot; *perches* for species
+**Countability:** countable, and uncountable as food
+**Agreement:** depends on meaning — *the perch is* / *the perch are*
+**Pattern:** zero plural &middot; **Group:** 3
+**Type:** concrete
+**Contrast:** The unrelated noun *a perch* meaning a bird's resting place is fully countable: *the birds returned to their perches*. Only the fish takes the zero plural.
+
+The freshwater food fish.
+
+**1. The fish.** (окунь)
+
+1. We caught a dozen *perch* off the dock.
+2. Yellow *perch* are common throughout the lake.
+3. Fried *perch* is on every menu here.
+4. A single *perch* is hardly worth cleaning.
+
+**2. A resting place for a bird.** Countable. (насест)
+
+5. The parrots returned to their *perches*.
+
+**See also:** [bass](#bass) &middot; [pike](#pike)
+
+---
+
+### pike
+
+**Pronunciation:** /paɪk/ &middot; *pyke*
+**Русский:** щука
+**Plural:** *pike* — unchanged
+**Countability:** countable, and uncountable as food
+**Agreement:** depends on meaning — *the pike is* / *the pike are*
+**Pattern:** zero plural &middot; **Group:** 3
+**Type:** concrete
+**Contrast:** Also a medieval weapon and a turnpike road, both of which take a regular *-s*.
+
+The predatory freshwater fish.
+
+**1. The fish.** (щука)
+
+1. A *pike* took the lure and snapped the line.
+2. *Pike* hunt in the shallows at dawn.
+3. Northern *pike* grow to enormous size here.
+4. He landed two *pike* that afternoon.
+5. The *pike* in this lake are all stocked.
+
+**See also:** [bass](#bass) &middot; [carp](#carp)
+
+---
+
+### carp
+
+**Pronunciation:** /kɑːrp/ &middot; *karp*
+**Русский:** карп
+**Plural:** *carp* — unchanged
+**Countability:** countable, and uncountable as food
+**Agreement:** depends on meaning — *the carp is* / *the carp are*
+**Pattern:** zero plural &middot; **Group:** 3
+**Type:** concrete
+**Contrast:** The unrelated verb *carp* meaning to complain is regular: *he carps about everything*.
+
+The freshwater fish.
+
+**1. The fish.** (карп)
+
+1. Asian *carp* have overrun the river system.
+2. A single *carp* can live for decades.
+3. They netted two hundred *carp*.
+4. *Carp* stir up the bottom and cloud the water.
+
+**2. As a verb — to complain.** Regular. (придираться)
+
+5. He *carps* about the food every single time.
+
+**See also:** [pike](#pike) &middot; [trout](#trout)
+
+---
+
+### swordfish
+
+**Pronunciation:** /ˈsɔːrdfɪʃ/ &middot; *SORD-fish* — the *w* is silent
+**Русский:** меч-рыба
+**Plural:** *swordfish* — unchanged
+**Countability:** countable, and uncountable as food
+**Agreement:** depends on meaning — *the swordfish is* / *the swordfish are*
+**Pattern:** zero plural &middot; **Group:** 3
+**Type:** concrete
+**Contrast:** The *w* is silent, as in *sword* and *answer*. Every *-fish* compound inherits the zero plural: *catfish*, *jellyfish*, *starfish*, *swordfish*, *shellfish*.
+
+The large ocean fish with a long flat bill.
+
+**1. The fish.** (меч-рыба)
+
+1. A *swordfish* broke the surface beside the boat.
+2. *Swordfish* migrate enormous distances.
+3. Grilled *swordfish* was the special.
+4. Two *swordfish* were landed that week.
+5. A single *swordfish* can weigh a thousand pounds.
+
+**See also:** [tuna](#tuna) &middot; [fish](#fish)
+
+---
+
+### caribou
+
+**Pronunciation:** /ˈkɛrəbuː/ &middot; *KER-uh-boo*
+**Русский:** карибу, северный олень
+**Plural:** *caribou* — unchanged &middot; *caribous* rarely
+**Countability:** countable
+**Agreement:** depends on meaning — *the caribou is* / *the caribou are*
+**Pattern:** zero plural &middot; **Group:** 3
+**Type:** concrete
+**Contrast:** The North American name for the animal Europeans call *reindeer*, which is also unchanged in the plural.
+
+The migratory northern deer.
+
+**1. The animal.** (карибу)
+
+1. The herd's *caribou* migrate hundreds of miles.
+2. A single *caribou* crossed the tundra ahead of us.
+3. *Caribou* have declined sharply in this range.
+4. They counted four thousand *caribou* from the air.
+5. The village depends on *caribou* for meat.
+
+**See also:** [reindeer](#reindeer) &middot; [moose](#moose)
+
+---
+
+### reindeer
+
+**Pronunciation:** /ˈreɪndɪr/ &middot; *RAYN-deer*
+**Русский:** северный олень
+**Plural:** *reindeer* — unchanged
+**Countability:** countable
+**Agreement:** depends on meaning — *the reindeer is* / *the reindeer are*
+**Pattern:** zero plural &middot; **Group:** 3
+**Type:** concrete
+**Contrast:** ✗ *Reindeers* is wrong — it inherits the zero plural from [deer](#deer). The first element has nothing to do with *rein*; it comes from Old Norse *hreinn*, the animal's own name.
+
+The domesticated northern deer.
+
+**1. The animal.** (северный олень)
+
+1. A *reindeer* stood in the middle of the road.
+2. The Sámi have herded *reindeer* for centuries.
+3. Eight *reindeer* pull the sleigh in the story.
+4. *Reindeer* eat lichen through the winter.
+5. Both *reindeer* were tagged and released.
+
+**See also:** [deer](#deer) &middot; [caribou](#caribou)
+
+---
+
+### antelope
+
+**Pronunciation:** /ˈæntəloʊp/ &middot; *AN-tuh-lohp*
+**Русский:** антилопа
+**Plural:** *antelope* — unchanged &middot; *antelopes* also correct
+**Countability:** countable
+**Agreement:** depends on meaning — *the antelope is* / *the antelope are*
+**Pattern:** zero plural, with a regular alternative &middot; **Group:** 3
+**Type:** concrete
+**Variants:** *antelope* is usual for a group; *antelopes* for several species
+
+The fast-running horned grazing animal.
+
+**1. The animal.** (антилопа)
+
+1. A herd of *antelope* crossed the plain.
+2. Two *antelope* broke away from the group.
+3. Several *antelopes* of different species share the range.
+4. *Antelope* can outrun almost any predator here.
+5. The park protects both *antelope* and zebra.
+
+**See also:** [deer](#deer) &middot; [bison](#bison)
+
+---
+
+### boar
+
+**Pronunciation:** /bɔːr/ &middot; *bor*
+**Русский:** кабан
+**Plural:** *boar* — unchanged &middot; *boars* also correct
+**Countability:** countable
+**Agreement:** depends on meaning — *the boar is* / *the boar are*
+**Pattern:** zero plural, with a regular alternative &middot; **Group:** 3
+**Type:** concrete
+**Contrast:** A homophone of *bore* (to drill, or a dull person) and *boor* for some speakers. The animal is a wild pig; the male domestic pig is also a *boar*.
+
+The wild pig.
+
+**1. The animal.** (кабан)
+
+1. Wild *boar* have spread across the county.
+2. A single *boar* can destroy a field overnight.
+3. They hunted *boar* in these woods for centuries.
+4. Two *boars* were caught on the camera trap.
+5. Roast *boar* was the centerpiece of the meal.
+
+**See also:** [swine](#swine) &middot; [deer](#deer)
+
+---
+
+### pheasant
+
+**Pronunciation:** /ˈfɛzənt/ &middot; *FEZ-uhnt*
+**Русский:** фазан
+**Plural:** *pheasant* — unchanged &middot; *pheasants* also correct
+**Countability:** countable
+**Agreement:** depends on meaning — *the pheasant is* / *the pheasant are*
+**Pattern:** zero plural, with a regular alternative &middot; **Group:** 3
+**Type:** concrete
+**Variants:** hunters say *pheasant*; ordinary use often *pheasants*
+**Contrast:** The *ph* is /f/ and the first vowel is short: *FEZ-uhnt*, not ✗ *FEE-zuhnt*.
+
+The long-tailed game bird.
+
+**1. The bird.** (фазан)
+
+1. They shot six *pheasant* that morning.
+2. A *pheasant* burst out of the hedge.
+3. *Pheasants* are released here every autumn.
+4. Roast *pheasant* takes careful timing.
+5. Two *pheasant* were still in the cooler.
+
+**See also:** [grouse](#grouse) &middot; [quail](#quail)
+
+---
+
+### partridge
+
+**Pronunciation:** /ˈpɑːrtrɪdʒ/ &middot; *PAR-trij*
+**Русский:** куропатка
+**Plural:** *partridge* — unchanged &middot; *partridges* also correct
+**Countability:** countable
+**Agreement:** depends on meaning — *the partridge is* / *the partridge are*
+**Pattern:** zero plural, with a regular alternative &middot; **Group:** 3
+**Type:** concrete
+**Contrast:** Best known from the carol line *a partridge in a pear tree*, which fixes the singular in most people's memory.
+
+The plump game bird.
+
+**1. The bird.** (куропатка)
+
+1. A *partridge* flushed from the stubble.
+2. They took four *partridge* between them.
+3. *Partridges* nest on open ground.
+4. The estate raises *partridge* for the season.
+5. Two *partridge* hung in the larder.
+
+**See also:** [pheasant](#pheasant) &middot; [quail](#quail)
+
+---
+
+### head
+
+**Pronunciation:** /hɛd/ &middot; *hed*
+**Русский:** голова; голов (скота)
+**Plural:** *head* — unchanged when counting livestock
+**Countability:** countable
+**Agreement:** plural verb — *fifty head of cattle were sold*
+**Pattern:** zero plural in the livestock sense &middot; **Group:** 3
+**Type:** concrete
+**Contrast:** This zero plural applies **only** to counting livestock: *fifty head of cattle*, never ✗ *fifty heads of cattle*. In every other sense *head* is perfectly regular: *two heads are better than one*.
+
+A unit for counting livestock; also the body part.
+
+**1. Counting livestock.** Unchanged. (голов скота)
+
+1. He runs about two hundred *head* of cattle.
+2. Fifty *head* were sold at auction.
+3. The ranch lost thirty *head* to the drought.
+
+**2. The body part.** Regular plural. (голова)
+
+4. Two *heads* are better than one.
+5. She hit her *head* on the doorframe.
+
+**See also:** [sheep](#sheep) &middot; [dozen](#dozen)
+
+---
+
+### gallows
+
+**Pronunciation:** /ˈɡæloʊz/ &middot; *GAL-ohz*
+**Русский:** виселица
+**Plural:** *gallows* — unchanged
+**Countability:** countable
+**Agreement:** usually singular — *the gallows was built overnight*
+**Pattern:** invariable, always written with *-s* &middot; **Group:** 3
+**Type:** concrete
+**Contrast:** ✗ *A gallow* does not exist. One structure is *a gallows*; several are *gallows*. The fixed phrase *gallows humor* means grim joking about something terrible.
+
+The wooden frame used for hanging.
+
+**1. The structure.** (виселица)
+
+1. The *gallows* was built in a single night.
+2. Two *gallows* stood in the prison yard.
+3. He was led to the *gallows* at dawn.
+4. The *gallows* were dismantled after the last execution.
+
+**2. In fixed expressions.** (в устойчивых выражениях)
+
+5. Surgeons develop a certain *gallows* humor.
+
+**See also:** [barracks](#barracks) &middot; [headquarters](#headquarters)
+
+---
+
+### works
+
+**Pronunciation:** /wɜːrks/ &middot; *wurks*
+**Русский:** завод, предприятие
+**Plural:** *works* — unchanged
+**Countability:** countable
+**Agreement:** either — *the works is closed* / *are closed*
+**Pattern:** invariable, always written with *-s* &middot; **Group:** 3
+**Type:** concrete
+**Contrast:** ✗ *A work* meaning a factory is wrong; the industrial sense is always *works*, even for one site. Distinguish from the countable *works* meaning artistic creations — see [work](14-dual-category.md#work).
+
+An industrial site; also the moving parts of a machine.
+
+**1. A factory or plant.** (завод)
+
+1. The steel *works* closed in 1982.
+2. Both *works* were sold to the same buyer.
+3. He worked at the gas *works* for forty years.
+
+**2. The internal mechanism.** (механизм)
+
+4. The *works* of the clock are exposed.
+
+**3. In fixed expressions.** (в устойчивых выражениях)
+
+5. Somebody threw a wrench into the *works*.
+
+**See also:** [work](14-dual-category.md#work) &middot; [barracks](#barracks)
+
+---
+
+### thousand
+
+**Pronunciation:** /ˈθaʊzənd/ &middot; *THOW-zuhnd*
+**Русский:** тысяча
+**Plural:** *thousand* after a number &middot; *thousands* when vague
+**Countability:** countable
+**Agreement:** plural verb — *two thousand people were there*
+**Pattern:** zero plural after a numeral &middot; **Group:** 3
+**Type:** abstract
+**Contrast:** Exactly like *dozen* and *hundred*: ✗ *three thousands people* and ✗ *thousand of people* are both wrong. Say *three thousand people* or *thousands of people*.
+
+The number 1,000.
+
+**1. After a specific number — unchanged.** (тысяча)
+
+1. Two *thousand* people attended.
+2. The car cost eight *thousand* dollars.
+3. It's about three *thousand* miles.
+
+**2. Without a number — plural, with *of*.** (тысячи)
+
+4. *Thousands* of letters arrived that week.
+5. She has read *thousands* of applications.
+
+**See also:** [hundred](#hundred) &middot; [million](#million)
+
+---
+
+### million
+
+**Pronunciation:** /ˈmɪljən/ &middot; *MIL-yuhn*
+**Русский:** миллион
+**Plural:** *million* after a number &middot; *millions* when vague
+**Countability:** countable
+**Agreement:** plural verb — *two million people live there*
+**Pattern:** zero plural after a numeral &middot; **Group:** 3
+**Type:** abstract
+**Contrast:** Same rule as *dozen*, *hundred*, and *thousand*. Note the hyperbolic idiom *thanks a million*, which is fixed.
+
+The number 1,000,000.
+
+**1. After a specific number — unchanged.** (миллион)
+
+1. Six *million* people live in the metro area.
+2. The film cost forty *million* dollars.
+3. Two *million* copies sold in a year.
+
+**2. Without a number — plural, with *of*.** (миллионы)
+
+4. *Millions* of birds pass through each spring.
+5. He made *millions* on that one deal.
+
+**3. In fixed expressions.** (в устойчивых выражениях)
+
+6. Thanks a *million*.
+
+**See also:** [thousand](#thousand) &middot; [hundred](#hundred)

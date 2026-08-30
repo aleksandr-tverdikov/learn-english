@@ -498,3 +498,636 @@ An expression of praise for an achievement.
 5. She accepted the *congratulations* graciously.
 
 **See also:** [thanks](#thanks)
+
+---
+
+### trousers
+
+**Pronunciation:** /ˈtraʊzərz/ &middot; *TROW-zurz*
+**Русский:** брюки
+**Countability:** plural only — no singular
+**Agreement:** plural verb — *the trousers are pressed*
+**Counted with:** *a pair of trousers*
+**Type:** concrete
+**Variants:** British English's usual word for American [pants](#pants)
+**Contrast:** ✗ *A trouser* appears only in the clothing trade — *trouser leg*, *trouser press*. In American English *pants* is the ordinary word.
+
+The garment covering the legs.
+
+**1. The garment.** (брюки)
+
+1. His *trousers* were badly creased.
+2. She bought two pairs of *trousers*.
+3. These *trousers* need taking up.
+4. The *trousers* are in the closet.
+5. He tore his *trousers* climbing the fence.
+
+**See also:** [pants](#pants) &middot; [jeans](#jeans)
+
+---
+
+### pajamas
+
+**Pronunciation:** /pəˈdʒɑːməz/ &middot; *puh-JAH-muhz*
+**Русский:** пижама
+**Countability:** plural only — no singular
+**Agreement:** plural verb — *my pajamas are in the wash*
+**Counted with:** *a pair of pajamas*
+**Type:** concrete
+**Variants:** the British spelling is *pyjamas*
+**Contrast:** ✗ *A pajama* is wrong — say *a pair of pajamas*. The word came into English from Hindi and Urdu.
+
+Loose clothing worn for sleeping.
+
+**1. The garment.** (пижама)
+
+1. He was still in his *pajamas* at noon.
+2. She packed two pairs of *pajamas*.
+3. These *pajamas* are too warm for summer.
+4. The children's *pajamas* are flame-resistant.
+5. My *pajamas* are still in the wash.
+
+**See also:** [pants](#pants)
+
+---
+
+### overalls
+
+**Pronunciation:** /ˈoʊvərɔːlz/ &middot; *OH-vur-awlz*
+**Русский:** комбинезон
+**Countability:** plural only — no singular
+**Agreement:** plural verb — *the overalls were covered in paint*
+**Counted with:** *a pair of overalls*
+**Type:** concrete
+**Contrast:** ✗ *An overall* as a garment is wrong in American English, though *overall* exists as an adjective and adverb: *the overall result*.
+
+The one-piece work garment with a bib and straps.
+
+**1. The garment.** (комбинезон)
+
+1. His *overalls* were covered in paint.
+2. She keeps a spare pair of *overalls* in the truck.
+3. These *overalls* have a hole in the knee.
+4. Farmers here still wear denim *overalls*.
+5. Both pairs of *overalls* went through the wash.
+
+**See also:** [pants](#pants) &middot; [suspenders](#suspenders)
+
+---
+
+### suspenders
+
+**Pronunciation:** /səˈspɛndərz/ &middot; *suh-SPEN-durz*
+**Русский:** подтяжки
+**Countability:** plural only — no singular
+**Agreement:** plural verb — *his suspenders were bright red*
+**Counted with:** *a pair of suspenders*
+**Type:** concrete
+**Variants:** British English calls these *braces*; British *suspenders* means garters
+**Contrast:** A real transatlantic trap. American *suspenders* hold up trousers; British *suspenders* hold up stockings.
+
+The straps worn over the shoulders to hold up trousers.
+
+**1. The straps.** (подтяжки)
+
+1. His *suspenders* were bright red.
+2. He wore a belt and *suspenders* both.
+3. Two pairs of *suspenders* hung in the closet.
+4. These *suspenders* have lost their stretch.
+5. The British call them *braces*.
+
+**See also:** [overalls](#overalls)
+
+---
+
+### tights
+
+**Pronunciation:** /taɪts/ &middot; *tytes*
+**Русский:** колготки, трико
+**Countability:** plural only — no singular
+**Agreement:** plural verb — *the tights are torn*
+**Counted with:** *a pair of tights*
+**Type:** concrete
+**Contrast:** ✗ *A tight* is wrong. In American English *pantyhose* is the commoner word for the sheer version; *tights* are thicker.
+
+The close-fitting garment covering legs and hips.
+
+**1. The garment.** (колготки)
+
+1. Her *tights* were torn at the knee.
+2. She bought three pairs of black *tights*.
+3. These *tights* are too thin for January.
+4. Dancers wear *tights* in every class.
+5. Both pairs of *tights* had runs in them.
+
+**See also:** [leggings](#leggings)
+
+---
+
+### leggings
+
+**Pronunciation:** /ˈlɛɡɪŋz/ &middot; *LEG-ingz*
+**Русский:** леггинсы
+**Countability:** plural only — no singular
+**Agreement:** plural verb — *the leggings are stretchy*
+**Counted with:** *a pair of leggings*
+**Type:** concrete
+**Contrast:** ✗ *A legging* appears in retail listings but sounds wrong in speech.
+
+Tight stretchy trousers.
+
+**1. The garment.** (леггинсы)
+
+1. Her *leggings* are more comfortable than jeans.
+2. She owns six pairs of *leggings*.
+3. These *leggings* have gone see-through.
+4. Black *leggings* go with everything.
+5. Both pairs of *leggings* were on sale.
+
+**See also:** [tights](#tights)
+
+---
+
+### goggles
+
+**Pronunciation:** /ˈɡɑːɡəlz/ &middot; *GAH-guhlz*
+**Русский:** защитные очки
+**Countability:** plural only — no singular
+**Agreement:** plural verb — *the goggles were fogged*
+**Counted with:** *a pair of goggles*
+**Type:** concrete
+**Contrast:** ✗ *A goggle* is wrong as a noun; *goggle* exists only as a verb meaning to stare.
+
+Close-fitting protective eyewear.
+
+**1. The eyewear.** (защитные очки)
+
+1. His *goggles* were completely fogged.
+2. Wear a pair of *goggles* in the shop.
+3. These *goggles* leak at the edges.
+4. Swimming *goggles* cost almost nothing.
+5. Both pairs of *goggles* were cracked.
+
+**See also:** [glasses](#glasses) &middot; [binoculars](#binoculars)
+
+---
+
+### sunglasses
+
+**Pronunciation:** /ˈsʌnɡlæsɪz/ &middot; *SUN-glas-iz*
+**Русский:** солнцезащитные очки
+**Countability:** plural only — no singular
+**Agreement:** plural verb — *my sunglasses are in the car*
+**Counted with:** *a pair of sunglasses*
+**Type:** concrete
+**Contrast:** ✗ *A sunglass* is wrong. Informally Americans say *shades*, also plural only.
+
+Tinted glasses worn against bright light.
+
+**1. The eyewear.** (солнцезащитные очки)
+
+1. My *sunglasses* are in the car.
+2. She loses a pair of *sunglasses* every summer.
+3. These *sunglasses* are prescription.
+4. Both pairs of *sunglasses* were scratched.
+5. He wore *sunglasses* indoors, which annoyed everyone.
+
+**See also:** [glasses](#glasses) &middot; [goggles](#goggles)
+
+---
+
+### headphones
+
+**Pronunciation:** /ˈhɛdfoʊnz/ &middot; *HED-fohnz*
+**Русский:** наушники
+**Countability:** plural only — no singular
+**Agreement:** plural verb — *the headphones are charging*
+**Counted with:** *a pair of headphones*, *a set of headphones*
+**Type:** concrete
+**Contrast:** ✗ *A headphone* is wrong. Note that *earbuds* is also plural, but there you can say *an earbud* for one of them.
+
+The pair of speakers worn over the ears.
+
+**1. The device.** (наушники)
+
+1. My *headphones* are charging.
+2. He bought an expensive pair of *headphones*.
+3. These *headphones* cancel noise well.
+4. Both pairs of *headphones* stopped working.
+5. She wears *headphones* through the entire commute.
+
+**See also:** [glasses](#glasses)
+
+---
+
+### handcuffs
+
+**Pronunciation:** /ˈhændkʌfs/ &middot; *HAND-kufs*
+**Русский:** наручники
+**Countability:** plural only — no singular
+**Agreement:** plural verb — *the handcuffs were too tight*
+**Counted with:** *a pair of handcuffs*, *a set of handcuffs*
+**Type:** concrete
+**Contrast:** ✗ *A handcuff* is wrong. As a verb it is regular: *he was handcuffed*.
+
+The linked metal rings used to restrain the wrists.
+
+**1. The restraints.** (наручники)
+
+1. The *handcuffs* were far too tight.
+2. Officers carry two pairs of *handcuffs*.
+3. These *handcuffs* need a key, not a code.
+4. Both sets of *handcuffs* were logged as evidence.
+5. He was led out in *handcuffs*.
+
+**See also:** [pliers](#pliers)
+
+---
+
+### shears
+
+**Pronunciation:** /ʃɪrz/ &middot; *sheerz*
+**Русский:** ножницы (садовые), секатор
+**Countability:** plural only — no singular
+**Agreement:** plural verb — *the shears are dull*
+**Counted with:** *a pair of shears*
+**Type:** concrete
+**Contrast:** ✗ *A shear* is wrong as a tool, though *shear* exists as a physics term meaning a sideways stress.
+
+Large scissors for cutting cloth, metal, or plants.
+
+**1. The tool.** (садовые ножницы)
+
+1. The hedge *shears* are dull.
+2. Buy a decent pair of *shears*.
+3. These *shears* will not cut wet grass.
+4. Both pairs of *shears* needed sharpening.
+5. Sheep are clipped with electric *shears*.
+
+**See also:** [scissors](#scissors) &middot; [pliers](#pliers)
+
+---
+
+### tongs
+
+**Pronunciation:** /tɔːŋz/ &middot; *tawngz*
+**Русский:** щипцы
+**Countability:** plural only — no singular
+**Agreement:** plural verb — *the tongs are in the drawer*
+**Counted with:** *a pair of tongs*
+**Type:** concrete
+**Contrast:** ✗ *A tong* is wrong.
+
+The two-armed gripping tool.
+
+**1. The tool.** (щипцы)
+
+1. The *tongs* are in the drawer by the stove.
+2. Use a pair of *tongs* to turn the steaks.
+3. These *tongs* lock shut for storage.
+4. Both pairs of *tongs* went in the dishwasher.
+5. Ice *tongs* are almost obsolete now.
+
+**See also:** [pliers](#pliers) &middot; [tweezers](#tweezers)
+
+---
+
+### arms
+
+**Pronunciation:** /ɑːrmz/ &middot; *armz*
+**Русский:** оружие; герб
+**Countability:** plural only in the 'weapons' sense
+**Agreement:** plural verb — *arms were smuggled across the border*
+**Counted with:** *a weapon*
+**Type:** concrete
+**Contrast:** In the weapons sense, ✗ *an arm* is wrong — say *a weapon*. The body part *arm* is of course perfectly countable. A coat of *arms* is heraldry, also always plural.
+
+Weapons; also heraldic insignia.
+
+**1. Weapons.** (оружие)
+
+1. *Arms* were smuggled across the border.
+2. The treaty limits strategic *arms*.
+3. Both sides agreed to lay down their *arms*.
+
+**2. Heraldic insignia.** (герб)
+
+4. The family *arms* include three lions.
+
+**3. In fixed expressions.** (в устойчивых выражениях)
+
+5. The whole town was up in *arms* about it.
+
+**See also:** [goods](#goods)
+
+---
+
+### ashes
+
+**Pronunciation:** /ˈæʃɪz/ &middot; *ASH-iz*
+**Русский:** пепел; прах
+**Countability:** plural in most uses; *ash* is uncountable
+**Agreement:** plural verb — *the ashes were scattered*
+**Counted with:** — use *ash* for the substance
+**Type:** concrete
+**Contrast:** The substance is uncountable *ash* — *volcanic ash covered the town*. Someone's cremated remains are always *ashes*, plural.
+
+The powdery residue of burning; cremated remains.
+
+**1. Cremated remains.** (прах)
+
+1. His *ashes* were scattered at sea.
+2. The *ashes* are in an urn on the shelf.
+
+**2. Burnt residue.** (пепел)
+
+3. Only *ashes* were left of the barn.
+4. She raked the cold *ashes* out of the grate.
+
+**3. In fixed expressions.** (в устойчивых выражениях)
+
+5. The company rose from the *ashes*.
+
+**See also:** [remains](#remains)
+
+---
+
+### odds
+
+**Pronunciation:** /ɑːdz/ &middot; *ahdz*
+**Русский:** шансы, вероятность
+**Countability:** plural only — no singular
+**Agreement:** plural verb — *the odds are against us*
+**Counted with:** — use *a chance*, *a probability*
+**Type:** abstract
+**Contrast:** ✗ *An odd* is wrong as a noun. Note the fixed phrase *odds and ends*, meaning miscellaneous items, and *at odds*, meaning in conflict.
+
+The probability of something happening.
+
+**1. Probability.** (шансы)
+
+1. The *odds* are against us.
+2. What are the *odds* of that happening twice?
+3. The *odds* were four to one.
+4. She beat impossible *odds*.
+
+**2. In fixed expressions.** (в устойчивых выражениях)
+
+5. The two departments have been at *odds* for years.
+
+**See also:** [means](03-unchanged.md#means)
+
+---
+
+### wages
+
+**Pronunciation:** /ˈweɪdʒɪz/ &middot; *WAY-jiz*
+**Русский:** заработная плата
+**Countability:** usually plural
+**Agreement:** plural verb — *wages have stagnated*
+**Counted with:** *a wage* for a rate
+**Type:** abstract
+**Contrast:** *A wage* exists for a rate of pay — *a living wage*, *the minimum wage* — but the money actually received is *wages*, plural. Compare *salary*, which is fully countable and singular.
+
+Payment for work, usually hourly.
+
+**1. Payment for labor.** (заработок)
+
+1. *Wages* have stagnated for two decades.
+2. Their *wages* are paid weekly.
+3. He spent his entire *wages* on rent.
+
+**2. A rate of pay.** Singular. (ставка)
+
+4. The minimum *wage* rose in January.
+5. She earns a decent hourly *wage*.
+
+**See also:** [earnings](#earnings) &middot; [savings](#savings)
+
+---
+
+### earnings
+
+**Pronunciation:** /ˈɜːrnɪŋz/ &middot; *UR-ningz*
+**Русский:** доход, прибыль
+**Countability:** plural only — no singular
+**Agreement:** plural verb — *earnings were up*
+**Counted with:** — use *income*, *profit*
+**Type:** abstract
+**Contrast:** ✗ *An earning* is wrong. In business the word usually means company profits: *quarterly earnings*.
+
+Money earned by a person or company.
+
+**1. Money earned.** (доход)
+
+1. Quarterly *earnings* were up eight percent.
+2. Her *earnings* doubled after the promotion.
+3. The company reports *earnings* on Thursday.
+4. Lifetime *earnings* depend heavily on education.
+5. *Earnings* per share missed the forecast.
+
+**See also:** [wages](#wages) &middot; [proceeds](#proceeds)
+
+---
+
+### proceeds
+
+**Pronunciation:** /ˈproʊsiːdz/ &middot; *PROH-seedz* — noun; the verb is /prəˈsiːdz/
+**Русский:** выручка, вырученные средства
+**Countability:** plural only — no singular
+**Agreement:** plural verb — *the proceeds go to charity*
+**Counted with:** — use *the revenue*, *the total*
+**Type:** abstract
+**Contrast:** Note the stress shift between noun and verb: *PROH-seedz* the noun, *pruh-SEEDZ* the verb. ✗ *A proceed* is wrong.
+
+Money obtained from an event or sale.
+
+**1. Money raised.** (выручка)
+
+1. All *proceeds* go to the local food bank.
+2. The *proceeds* from the sale paid off the loan.
+3. *Proceeds* were split evenly among the four.
+4. Net *proceeds* came to about nine thousand.
+5. She donated the *proceeds* of the auction.
+
+**See also:** [earnings](#earnings)
+
+---
+
+### groceries
+
+**Pronunciation:** /ˈɡroʊsəriz/ &middot; *GROH-suh-reez*
+**Русский:** продукты
+**Countability:** plural in this sense
+**Agreement:** plural verb — *the groceries are in the trunk*
+**Counted with:** *a bag of groceries*
+**Type:** concrete
+**Contrast:** ✗ *A grocery* meaning one food item is wrong; *a grocery* or *a grocery store* is the shop. The food itself is *groceries*.
+
+Food and household supplies bought at a store.
+
+**1. The purchases.** (продукты)
+
+1. The *groceries* are still in the trunk.
+2. She carried three bags of *groceries* upstairs.
+3. *Groceries* cost more than they did last year.
+4. He picks up *groceries* on Saturdays.
+5. Put the *groceries* away before they spoil.
+
+**See also:** [goods](#goods)
+
+---
+
+### valuables
+
+**Pronunciation:** /ˈvæljuəbəlz/ &middot; *VAL-yoo-uh-buhlz*
+**Русский:** ценные вещи
+**Countability:** plural only — no singular
+**Agreement:** plural verb — *the valuables were locked away*
+**Counted with:** — use *an item*, *a valuable item*
+**Type:** concrete
+**Contrast:** ✗ *A valuable* is an adjective, not a noun. Say *a valuable item*.
+
+Possessions worth a lot of money.
+
+**1. Precious possessions.** (ценные вещи)
+
+1. Leave your *valuables* in the safe.
+2. All the *valuables* were locked away.
+3. The *valuables* were never recovered.
+4. Do not leave *valuables* in the car.
+5. Her *valuables* fit in one small box.
+
+**See also:** [belongings](#belongings)
+
+---
+
+### manners
+
+**Pronunciation:** /ˈmænərz/ &middot; *MAN-urz*
+**Русский:** манеры, воспитание
+**Countability:** plural in this sense
+**Agreement:** plural verb — *his manners are impeccable*
+**Counted with:** — use *a point of etiquette*
+**Type:** abstract
+**Contrast:** The plural means politeness; the singular *a manner* means a way of doing something. *He has no manners* and *he has an odd manner* say completely different things.
+
+Polite social behavior.
+
+**1. Politeness.** Plural. (манеры)
+
+1. His table *manners* are impeccable.
+2. Where are your *manners*?
+3. It is bad *manners* to interrupt.
+
+**2. A way of doing something.** Singular. (манера)
+
+4. She has a brisk *manner* with patients.
+5. He answered in a *manner* that ended the conversation.
+
+**See also:** [morals](#morals)
+
+---
+
+### morals
+
+**Pronunciation:** /ˈmɔːrəlz/ &middot; *MOR-uhlz*
+**Русский:** нравственность, мораль
+**Countability:** plural as principles; *a moral* is the lesson of a story
+**Agreement:** plural verb — *his morals are questionable*
+**Counted with:** — use *a principle*
+**Type:** abstract
+**Contrast:** The plural means someone's ethical standards; the singular *a moral* means the lesson a story teaches. *The moral of the story* is fixed and always singular.
+
+Standards of right behavior; also the lesson of a story.
+
+**1. Ethical standards.** Plural. (нравственность)
+
+1. His *morals* are frankly questionable.
+2. Public *morals* were the stated concern.
+3. She has no *morals* where money is involved.
+
+**2. The lesson of a story.** Singular. (мораль)
+
+4. The *moral* of the story is not to lend money to relatives.
+5. Both fables have the same *moral*.
+
+**See also:** [manners](#manners) &middot; [ethics](16-singular-with-s.md#ethics)
+
+---
+
+### whereabouts
+
+**Pronunciation:** /ˈwɛrəbaʊts/ &middot; *WAIR-uh-bowts*
+**Русский:** местонахождение
+**Countability:** plural only — no singular
+**Agreement:** either — *his whereabouts is unknown* / *are unknown*
+**Counted with:** — use *a location*
+**Type:** abstract
+**Contrast:** ✗ *A whereabout* is wrong. Unusually, both verbs are accepted: *his whereabouts **is** unknown* and ***are** unknown* both appear in edited prose.
+
+The place where someone or something is.
+
+**1. Someone's location.** (местонахождение)
+
+1. His *whereabouts* are still unknown.
+2. Her *whereabouts* is a matter for the police.
+3. Nobody would reveal the *whereabouts* of the documents.
+4. The *whereabouts* of the painting remain a mystery.
+5. He kept his *whereabouts* secret for a month.
+
+**See also:** [outskirts](#outskirts)
+
+---
+
+### wits
+
+**Pronunciation:** /wɪts/ &middot; *wits*
+**Русский:** ум, сообразительность
+**Countability:** plural in this sense
+**Agreement:** plural verb — *his wits were sharp*
+**Counted with:** — use *intelligence*
+**Type:** abstract
+**Contrast:** The plural means mental sharpness; the singular *a wit* means a witty person, and *wit* uncountable means humor. Three distinct uses.
+
+Mental sharpness; also a clever person, or humor.
+
+**1. Mental sharpness.** Plural. (ум, смекалка)
+
+1. He kept his *wits* about him.
+2. She lives by her *wits*.
+3. The noise drove me out of my *wits*.
+
+**2. Humor.** Uncountable. (остроумие)
+
+4. The essay is full of dry *wit*.
+
+**3. A witty person.** Countable. (остряк)
+
+5. He was the great *wit* of his generation.
+
+**See also:** [manners](#manners)
+
+---
+
+### refreshments
+
+**Pronunciation:** /rɪˈfrɛʃmənts/ &middot; *rih-FRESH-muhnts*
+**Русский:** закуски и напитки
+**Countability:** plural in this sense
+**Agreement:** plural verb — *refreshments were served*
+**Counted with:** — use *a snack*, *a drink*
+**Type:** concrete
+**Contrast:** ✗ *A refreshment* is odd in modern use. The uncountable *refreshment* means the act of refreshing: *a moment of refreshment*.
+
+Light food and drink served at an event.
+
+**1. Food and drink.** (закуски и напитки)
+
+1. *Refreshments* will be served in the lobby.
+2. Light *refreshments* are provided.
+3. The *refreshments* ran out within an hour.
+4. Bring your own *refreshments*.
+5. *Refreshments* are included in the ticket price.
+
+**See also:** [groceries](#groceries)

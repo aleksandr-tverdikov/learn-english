@@ -24,11 +24,12 @@ Each class folder is a self-contained README with the same ten sections: what th
 
 ## The Noun Dictionary
 
-**[01-nouns/catalog/](parts-of-speech/01-nouns/catalog/README.md)** — **308 nouns** in 20 groups. Nouns are an open class, so this is deliberately *not* a list of nouns: it is a list of the nouns that **do not behave**, which is the part you actually have to learn. Three systems, grouped by what goes wrong:
+**[01-nouns/catalog/](parts-of-speech/01-nouns/catalog/README.md)** — **694 nouns** in 23 groups. Nouns are an open class, so this is deliberately *not* a list of nouns: it is a list of the nouns that **do not behave**, which is the part you actually have to learn. Three systems, grouped by what goes wrong:
 
 - **Irregular plurals** (groups 1–12), organized by how the form changes rather than alphabetically — the seven vowel-change plurals (*foot/feet*), the *-en* survivors (*child/children*), the zero plurals (*sheep*, *deer*, *series*), *-f → -ves* with its traps (*thief/thieves* but *chief/chiefs*), the *-o* rule, and the borrowed Latin, Greek, Italian, Hebrew, and French plurals
 - **Countability** (groups 13–16) — the uncountables that break learners (✗ *an information*, ✗ *two advices*), the nouns that are both with **different meanings** (*a hair* vs *hair*), the plural-only nouns (*scissors*, *jeans*), and the *-s* nouns that take a singular verb (*the news **is***, *physics **is***)
 - **Agreement and counting** (groups 17–20) — collective nouns and the American/British split (*the team **is*** vs *the team **are***), compound plurals (*mothers-in-law*), the partitives that let you count the uncountable (*a piece of advice*, *a pinch of salt*), and nationality nouns (*two Japanese*, but *two Spaniards*)
+- **Naming and marking** (groups 21–23) — the collective nouns for animals (*a pride of lions*, *a murder of crows*), the gender pairs and which of them are dying (*actor* has swallowed *actress*; *firefighter* has replaced *fireman*), and proper nouns and brand names, where the capital letter is the whole grammar (*aspirin* lost its trademark; *Kleenex* has not)
 
 Every entry carries General American pronunciation for **both** forms, since the plural is often where the sound changes: *woman* /ˈwʊmən/ → *women* /ˈwɪmɪn/, *analysis* → *analyses* /-siːz/, *corpus* → *corpora*. Traps are called out explicitly — ✗ *octopi*, ✗ *rooves*, ✗ *criterias*, ✗ *a phenomena*, ✗ *mongeese*.
 

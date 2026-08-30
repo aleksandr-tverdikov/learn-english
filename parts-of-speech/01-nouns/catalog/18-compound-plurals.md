@@ -330,3 +330,311 @@ The amount a hand will hold; a small number; a difficult person.
 5. That child is a real *handful*.
 
 **See also:** [spoonful](#spoonful)
+
+---
+
+### father-in-law
+
+**Pronunciation:** /ˈfɑːðər ɪn lɔː/ &middot; *FAH-thur-in-law*
+**Русский:** тесть, свёкор
+**Plural:** *fathers-in-law* — pluralize *father*
+**Countability:** countable
+**Agreement:** plural verb — *both fathers-in-law were present*
+**Pattern:** noun + preposition phrase &middot; **Group:** 18
+**Type:** concrete
+**Contrast:** ✗ *Father-in-laws* is wrong. The possessive goes at the end: *my father-in-law's car*.
+
+The father of one's spouse.
+
+**1. The relative.** (тесть, свёкор)
+
+1. My *father-in-law* built the deck himself.
+2. Both *fathers-in-law* gave speeches.
+3. She calls her *father-in-law* by his first name.
+4. The two *fathers-in-law* had never met.
+5. He borrowed his *father-in-law*'s tools.
+
+**See also:** [mother-in-law](#mother-in-law) &middot; [son-in-law](#son-in-law)
+
+---
+
+### sister-in-law
+
+**Pronunciation:** /ˈsɪstər ɪn lɔː/ &middot; *SIS-tur-in-law*
+**Русский:** золовка, невестка, свояченица
+**Plural:** *sisters-in-law* — pluralize *sister*
+**Countability:** countable
+**Agreement:** plural verb — *her sisters-in-law arrived together*
+**Pattern:** noun + preposition phrase &middot; **Group:** 18
+**Type:** concrete
+**Contrast:** ✗ *Sister-in-laws* is wrong. English uses one term where Russian has three distinct words.
+
+The sister of one's spouse, or the wife of one's sibling.
+
+**1. The relative.** (золовка, невестка)
+
+1. My *sister-in-law* teaches at the same school.
+2. Both *sisters-in-law* arrived together.
+3. She gets along with all three *sisters-in-law*.
+4. His *sister-in-law* organized the whole party.
+5. The *sisters-in-law* run the business together.
+
+**See also:** [brother-in-law](#brother-in-law) &middot; [mother-in-law](#mother-in-law)
+
+---
+
+### son-in-law
+
+**Pronunciation:** /ˈsʌn ɪn lɔː/ &middot; *SUN-in-law*
+**Русский:** зять
+**Plural:** *sons-in-law* — pluralize *son*
+**Countability:** countable
+**Agreement:** plural verb — *both sons-in-law helped with the move*
+**Pattern:** noun + preposition phrase &middot; **Group:** 18
+**Type:** concrete
+**Contrast:** ✗ *Son-in-laws* is wrong.
+
+The husband of one's daughter.
+
+**1. The relative.** (зять)
+
+1. Her *son-in-law* runs a construction company.
+2. Both *sons-in-law* helped with the move.
+3. He treats his *son-in-law* like a second son.
+4. The two *sons-in-law* get along well.
+5. My *son-in-law*'s family lives abroad.
+
+**See also:** [daughter-in-law](#daughter-in-law) &middot; [father-in-law](#father-in-law)
+
+---
+
+### daughter-in-law
+
+**Pronunciation:** /ˈdɔːtər ɪn lɔː/ &middot; *DAW-tur-in-law*
+**Русский:** невестка, сноха
+**Plural:** *daughters-in-law* — pluralize *daughter*
+**Countability:** countable
+**Agreement:** plural verb — *both daughters-in-law were invited*
+**Pattern:** noun + preposition phrase &middot; **Group:** 18
+**Type:** concrete
+**Contrast:** ✗ *Daughter-in-laws* is wrong.
+
+The wife of one's son.
+
+**1. The relative.** (невестка)
+
+1. His *daughter-in-law* is a physician.
+2. Both *daughters-in-law* were invited.
+3. She adores her *daughter-in-law*.
+4. The two *daughters-in-law* share the cooking.
+5. My *daughter-in-law*'s parents are visiting.
+
+**See also:** [son-in-law](#son-in-law) &middot; [mother-in-law](#mother-in-law)
+
+---
+
+### commander-in-chief
+
+**Pronunciation:** /kəˌmændər ɪn ˈtʃiːf/ &middot; *kuh-MAN-dur-in-CHEEF*
+**Русский:** главнокомандующий
+**Plural:** *commanders-in-chief* — pluralize *commander*
+**Countability:** countable
+**Agreement:** plural verb — *the commanders-in-chief conferred*
+**Pattern:** noun + preposition phrase &middot; **Group:** 18
+**Type:** concrete
+**Contrast:** ✗ *Commander-in-chiefs* is wrong. In the United States the President is constitutionally the commander-in-chief.
+
+The supreme commander of armed forces.
+
+**1. The office.** (главнокомандующий)
+
+1. The President is *commander-in-chief*.
+2. Allied *commanders-in-chief* met in secret.
+3. Both *commanders-in-chief* signed the order.
+4. She addressed him as *commander-in-chief*.
+5. The *commander-in-chief*'s authority is constitutional.
+
+**See also:** [editor-in-chief](#editor-in-chief) &middot; [chief of staff](#chief-of-staff)
+
+---
+
+### poet laureate
+
+**Pronunciation:** /ˌpoʊɪt ˈlɔːriət/ &middot; *POH-it LOR-ee-uht*
+**Русский:** поэт-лауреат
+**Plural:** *poets laureate* — traditional &middot; *poet laureates* — also used
+**Countability:** countable
+**Agreement:** plural verb — *the poets laureate were honored*
+**Pattern:** noun + postposed adjective &middot; **Group:** 18
+**Type:** concrete
+**Variants:** both plurals appear in edited American prose
+**Contrast:** *Laureate* is the adjective, following the noun as in French and Latin word order — so the traditional plural puts the *-s* on *poet*.
+
+A poet officially appointed to a national or state post.
+
+**1. The office holder.** (поэт-лауреат)
+
+1. She was named *poet laureate* in 2019.
+2. Three *poets laureate* read at the ceremony.
+3. Both *poet laureates* served two-year terms.
+4. The *poet laureate*'s duties are largely ceremonial.
+5. Several state *poets laureate* attended.
+
+**See also:** [attorney general](#attorney-general) &middot; [notary public](#notary-public)
+
+---
+
+### secretary-general
+
+**Pronunciation:** /ˌsɛkrətɛri ˈdʒɛnərəl/ &middot; *SEK-ruh-ter-ee JEN-ur-uhl*
+**Русский:** генеральный секретарь
+**Plural:** *secretaries-general* — traditional &middot; *secretary-generals* — also used
+**Countability:** countable
+**Agreement:** plural verb — *the secretaries-general were all diplomats*
+**Pattern:** noun + postposed adjective &middot; **Group:** 18
+**Type:** concrete
+**Variants:** *secretaries-general* is preferred in diplomatic writing
+
+The chief administrative officer of an international body.
+
+**1. The office holder.** (генеральный секретарь)
+
+1. The *secretary-general* addressed the assembly.
+2. Nine *secretaries-general* have held the post.
+3. Both *secretary-generals* came from small countries.
+4. The *secretary-general*'s term runs five years.
+5. Former *secretaries-general* attended the ceremony.
+
+**See also:** [attorney general](#attorney-general)
+
+---
+
+### man-of-war
+
+**Pronunciation:** /ˌmæn əv ˈwɔːr/ &middot; *man-uhv-WOR*
+**Русский:** военный корабль; физалия
+**Plural:** *men-of-war* — pluralize *man*
+**Countability:** countable
+**Agreement:** plural verb — *the men-of-war were anchored*
+**Pattern:** noun + preposition phrase &middot; **Group:** 18
+**Type:** concrete
+**Contrast:** ✗ *Man-of-wars* is wrong. Note that the mutation plural of [man](01-vowel-change.md#man) applies inside the compound: *men-of-war*. Also the name of a stinging marine animal, the Portuguese man-of-war.
+
+An armed sailing warship; also a stinging marine animal.
+
+**1. The warship.** Historical. (военный корабль)
+
+1. Three *men-of-war* were anchored in the bay.
+2. The *man-of-war* carried seventy guns.
+3. Both *men-of-war* were lost in the storm.
+
+**2. The marine animal.** (физалия)
+
+4. A Portuguese *man-of-war* washed up on the beach.
+5. Several *men-of-war* closed the swimming area.
+
+**See also:** [man](01-vowel-change.md#man) &middot; [court-martial](#court-martial)
+
+---
+
+### lady-in-waiting
+
+**Pronunciation:** /ˌleɪdi ɪn ˈweɪtɪŋ/ &middot; *LAY-dee-in-WAY-ting*
+**Русский:** фрейлина
+**Plural:** *ladies-in-waiting* — pluralize *lady*
+**Countability:** countable
+**Agreement:** plural verb — *the ladies-in-waiting withdrew*
+**Pattern:** noun + preposition phrase &middot; **Group:** 18
+**Type:** concrete
+**Contrast:** ✗ *Lady-in-waitings* is wrong. Note the *-y → -ies* change applies to *lady* inside the compound.
+
+A woman attending a queen or princess.
+
+**1. The court position.** (фрейлина)
+
+1. The *lady-in-waiting* announced the visitors.
+2. Four *ladies-in-waiting* accompanied the queen.
+3. Both *ladies-in-waiting* had served for decades.
+4. She was appointed *lady-in-waiting* at nineteen.
+5. The *ladies-in-waiting* withdrew from the room.
+
+**See also:** [mother-in-law](#mother-in-law)
+
+---
+
+### cupful
+
+**Pronunciation:** /ˈkʌpfʊl/ &middot; *KUP-fuul*
+**Русский:** чашка (как мера)
+**Plural:** *cupfuls* — pluralize the end
+**Countability:** countable
+**Agreement:** plural verb — *two cupfuls are enough*
+**Pattern:** solid compound → regular *-s* &middot; **Group:** 18
+**Type:** abstract
+**Variants:** *cupsful* is an older form, now rare
+**Contrast:** *Two cupfuls* means two cup-loads from one cup. *Two cups full* means two separate cups, each full.
+
+The amount a cup will hold.
+
+**1. The measure.** (чашка чего-либо)
+
+1. Add two *cupfuls* of flour.
+2. One *cupful* is about eight ounces.
+3. She measured out three *cupfuls*.
+4. Both *cupfuls* went into the same bowl.
+5. A single *cupful* of rice feeds two people.
+
+**See also:** [spoonful](#spoonful) &middot; [handful](#handful)
+
+---
+
+### mouthful
+
+**Pronunciation:** /ˈmaʊθfʊl/ &middot; *MOWTH-fuul*
+**Русский:** глоток, кусок; труднопроизносимое слово
+**Plural:** *mouthfuls* — pluralize the end
+**Countability:** countable
+**Agreement:** plural verb — *two mouthfuls were enough*
+**Pattern:** solid compound → regular *-s* &middot; **Group:** 18
+**Type:** abstract
+**Contrast:** Also a very common figurative use: a long or hard-to-say name is *a mouthful*.
+
+The amount taken into the mouth at once; also a hard-to-say phrase.
+
+**1. An amount of food or drink.** (глоток, кусок)
+
+1. He took one *mouthful* and stopped.
+2. Two *mouthfuls* were enough to know it had turned.
+3. She swallowed a *mouthful* of seawater.
+
+**2. A hard-to-say name.** Informal. (труднопроизносимое)
+
+4. His full title is quite a *mouthful*.
+5. Both names are real *mouthfuls*.
+
+**See also:** [handful](#handful) &middot; [spoonful](#spoonful)
+
+---
+
+### armful
+
+**Pronunciation:** /ˈɑːrmfʊl/ &middot; *ARM-fuul*
+**Русский:** охапка
+**Plural:** *armfuls* — pluralize the end
+**Countability:** countable
+**Agreement:** plural verb — *three armfuls were needed*
+**Pattern:** solid compound → regular *-s* &middot; **Group:** 18
+**Type:** abstract
+**Variants:** *armsful* is archaic
+
+As much as one arm or both arms can hold.
+
+**1. The quantity.** (охапка)
+
+1. She carried an *armful* of firewood.
+2. Three *armfuls* were needed to clear the table.
+3. He came in with an *armful* of mail.
+4. Both *armfuls* went straight into the truck.
+5. An *armful* of flowers filled the whole vase.
+
+**See also:** [handful](#handful) &middot; [cupful](#cupful)

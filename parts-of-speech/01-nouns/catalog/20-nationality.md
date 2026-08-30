@@ -440,3 +440,428 @@ The language; the people of Turkey; also the adjective.
 5. She's a *Turk* born in Germany.
 
 **See also:** [Danish](#danish) &middot; [Polish](#polish)
+
+---
+
+### Italian
+
+**Pronunciation:** /ɪˈtæljən/ &middot; *ih-TAL-yuhn*
+**Русский:** итальянец, итальянка
+**Plural:** *Italians* — regular
+**Countability:** countable
+**Agreement:** plural verb — *Italians eat late*
+**Pattern:** *-an* → fully countable &middot; **Group:** 20
+**Type:** concrete
+**Contrast:** Note the single *t* and the stress on the second syllable. Always capitalized.
+
+A person from Italy; the language; also the adjective.
+
+**1. A person from Italy.** (итальянец)
+
+1. Two *Italians* joined the team.
+2. She married an *Italian* from Naples.
+3. The *Italians* at the table ordered last.
+
+**2. The language.** Uncountable. (итальянский язык)
+
+4. He speaks *Italian* fluently.
+5. *Italian* has seven vowel sounds.
+
+**See also:** [American](#american) &middot; [Spanish](#spanish)
+
+---
+
+### Mexican
+
+**Pronunciation:** /ˈmɛksɪkən/ &middot; *MEK-sih-kuhn*
+**Русский:** мексиканец, мексиканка
+**Plural:** *Mexicans* — regular
+**Countability:** countable
+**Agreement:** plural verb — *Mexicans celebrate it differently*
+**Pattern:** *-an* → fully countable &middot; **Group:** 20
+**Type:** concrete
+**Contrast:** *Mexican* names nationality; *Hispanic* and *Latino* are broader categories covering many countries, and none of the three is a synonym for the others.
+
+A person from Mexico; also the adjective.
+
+**1. A person from Mexico.** (мексиканец)
+
+1. Three *Mexicans* were on the crew.
+2. She is a *Mexican* citizen living in Texas.
+3. *Mexicans* celebrate the holiday quite differently.
+4. He's a *Mexican* from Oaxaca.
+
+**2. As an adjective.** (мексиканский)
+
+5. *Mexican* Spanish differs from the Castilian variety.
+
+**See also:** [American](#american) &middot; [Spanish](#spanish)
+
+---
+
+### Canadian
+
+**Pronunciation:** /kəˈneɪdiən/ &middot; *kuh-NAY-dee-uhn*
+**Русский:** канадец, канадка
+**Plural:** *Canadians* — regular
+**Countability:** countable
+**Agreement:** plural verb — *Canadians apologize constantly*
+**Pattern:** *-an* → fully countable &middot; **Group:** 20
+**Type:** concrete
+**Contrast:** Canada has two official languages, so *Canadian* is a nationality but not a language — ✗ *she speaks Canadian* is wrong.
+
+A person from Canada; also the adjective.
+
+**1. A person from Canada.** (канадец)
+
+1. Two *Canadians* won medals that day.
+2. He's a *Canadian* living in Seattle.
+3. *Canadians* spell it the British way.
+4. Both *Canadians* spoke French at home.
+
+**2. As an adjective.** (канадский)
+
+5. *Canadian* English sits between British and American.
+
+**See also:** [American](#american) &middot; [Australian](#australian)
+
+---
+
+### Australian
+
+**Pronunciation:** /ɔːˈstreɪliən/ &middot; *aw-STRAY-lee-uhn*
+**Русский:** австралиец, австралийка
+**Plural:** *Australians* — regular
+**Countability:** countable
+**Agreement:** plural verb — *Australians shorten every word*
+**Pattern:** *-an* → fully countable &middot; **Group:** 20
+**Type:** concrete
+**Contrast:** Do not confuse *Australia* with *Austria*, whose people are *Austrians* — a confusion common enough that Australian shops sell shirts about it.
+
+A person from Australia; also the adjective.
+
+**1. A person from Australia.** (австралиец)
+
+1. Four *Australians* reached the semifinal.
+2. She married an *Australian* she met traveling.
+3. *Australians* shorten almost every word.
+4. Both *Australians* had lived abroad for years.
+
+**2. As an adjective.** (австралийский)
+
+5. *Australian* English has its own strong accent.
+
+**See also:** [Canadian](#canadian) &middot; [American](#american)
+
+---
+
+### Korean
+
+**Pronunciation:** /kəˈriːən/ &middot; *kuh-REE-uhn*
+**Русский:** кореец, кореянка
+**Plural:** *Koreans* — regular
+**Countability:** countable
+**Agreement:** plural verb — *Koreans use two age systems*
+**Pattern:** *-an* → fully countable &middot; **Group:** 20
+**Type:** concrete
+**Contrast:** Note that *Korean* takes the regular *-an* pattern, unlike its neighbors *Japanese* and *Chinese*, which are invariable.
+
+A person from Korea; the language; also the adjective.
+
+**1. A person from Korea.** (кореец)
+
+1. Two *Koreans* joined the research group.
+2. She is a *Korean* who studied in Boston.
+3. *Koreans* have traditionally counted age differently.
+
+**2. The language.** Uncountable. (корейский язык)
+
+4. *Korean* is written in an alphabet, not characters.
+5. He's been studying *Korean* for two years.
+
+**See also:** [Japanese](#japanese) &middot; [Chinese](#chinese)
+
+---
+
+### Norwegian
+
+**Pronunciation:** /nɔːrˈwiːdʒən/ &middot; *nor-WEE-juhn*
+**Русский:** норвежец, норвежка
+**Plural:** *Norwegians* — regular
+**Countability:** countable
+**Agreement:** plural verb — *Norwegians ski before they walk*
+**Pattern:** *-an* → fully countable &middot; **Group:** 20
+**Type:** concrete
+**Contrast:** Unlike its Scandinavian neighbors *Swedish → a Swede* and *Danish → a Dane*, Norwegian takes the regular *-an* pattern: *a Norwegian*.
+
+A person from Norway; the language; also the adjective.
+
+**1. A person from Norway.** (норвежец)
+
+1. Three *Norwegians* finished in the top ten.
+2. He married a *Norwegian* from Bergen.
+3. *Norwegians* take their outdoor life seriously.
+
+**2. The language.** Uncountable. (норвежский язык)
+
+4. *Norwegian* has two official written forms.
+5. She reads *Norwegian* but does not speak it.
+
+**See also:** [Danish](#danish) &middot; [Swedish](#swedish)
+
+---
+
+### Swedish
+
+**Pronunciation:** /ˈswiːdɪʃ/ &middot; *SWEE-dish*
+**Русский:** шведский; швед
+**Plural:** *the Swedes* (collective) &middot; for individuals: *a Swede*, *a Swedish person*
+**Countability:** the adjective is not a countable noun for a person
+**Agreement:** plural verb — *the Swedes are famously private*
+**Pattern:** *-ish* → adjective, with a separate noun &middot; **Group:** 20
+**Type:** concrete and abstract
+**Contrast:** ✗ *A Swedish* is wrong for a person — the noun is *a Swede*. Note that *a swede* lowercase is also a root vegetable in British English, called a *rutabaga* in America.
+
+The language; the people of Sweden; also the adjective.
+
+**1. The language.** Uncountable. (шведский язык)
+
+1. *Swedish* is mutually intelligible with Norwegian.
+2. She learned *Swedish* in six months.
+
+**2. The people of Sweden.** (шведы)
+
+3. The *Swedes* are famously private.
+4. Two *Swedes* shared the prize.
+5. He's a *Swede* who has lived here for years.
+
+**See also:** [Danish](#danish) &middot; [Finnish](#finnish)
+
+---
+
+### Finnish
+
+**Pronunciation:** /ˈfɪnɪʃ/ &middot; *FIN-ish*
+**Русский:** финский; финн
+**Plural:** *the Finns* (collective) &middot; for individuals: *a Finn*, *a Finnish person*
+**Countability:** the adjective is not a countable noun for a person
+**Agreement:** plural verb — *the Finns invented the sauna culture*
+**Pattern:** *-ish* → adjective, with a separate noun &middot; **Group:** 20
+**Type:** concrete and abstract
+**Contrast:** ✗ *A Finnish* is wrong; the noun is *a Finn*. The word is a homophone of *finish*, which causes constant confusion in speech. Finnish is not related to Swedish or Norwegian at all.
+
+The language; the people of Finland; also the adjective.
+
+**1. The language.** Uncountable. (финский язык)
+
+1. *Finnish* has fifteen grammatical cases.
+2. *Finnish* is unrelated to the Scandinavian languages.
+
+**2. The people of Finland.** (финны)
+
+3. The *Finns* take saunas extremely seriously.
+4. Two *Finns* were on the expedition.
+5. She's a *Finn* from Tampere.
+
+**See also:** [Swedish](#swedish) &middot; [Danish](#danish)
+
+---
+
+### Irish
+
+**Pronunciation:** /ˈaɪrɪʃ/ &middot; *EYE-rish*
+**Русский:** ирландский; ирландец
+**Plural:** *the Irish* (collective) &middot; for individuals: *an Irishman*, *an Irish person*
+**Countability:** the adjective is not a countable noun for a person
+**Agreement:** plural verb — *the Irish emigrated in enormous numbers*
+**Pattern:** *-ish* → adjective, with a separate noun &middot; **Group:** 20
+**Type:** concrete and abstract
+**Contrast:** ✗ *An Irish* is wrong. Say *an Irishman*, *an Irishwoman*, or *an Irish person*. Note that *Irish* the language is also called *Gaelic* or *Irish Gaelic*.
+
+The language; the people of Ireland; also the adjective.
+
+**1. The language.** Uncountable. (ирландский язык)
+
+1. *Irish* is taught in every school there.
+2. Road signs appear in *Irish* and English.
+
+**2. The people of Ireland.** (ирландцы)
+
+3. The *Irish* emigrated in enormous numbers.
+4. Two *Irish* students shared the apartment.
+5. He's an *Irishman* from Cork.
+
+**See also:** [English](#english) &middot; [Scottish](#scottish)
+
+---
+
+### Scottish
+
+**Pronunciation:** /ˈskɑːtɪʃ/ &middot; *SKAH-tish*
+**Русский:** шотландский; шотландец
+**Plural:** *the Scots* (collective) &middot; for individuals: *a Scot*, *a Scotsman*
+**Countability:** the adjective is not a countable noun for a person
+**Agreement:** plural verb — *the Scots voted to remain*
+**Pattern:** *-ish* → adjective, with a separate noun &middot; **Group:** 20
+**Type:** concrete and abstract
+**Contrast:** Three related words with different jobs: *Scottish* is the adjective, *a Scot* the person, and *Scotch* refers to the whisky and a few foods. Calling a person ✗ *a Scotch* is an old error that Scots dislike.
+
+The people of Scotland; also the adjective.
+
+**1. The people of Scotland.** (шотландцы)
+
+1. The *Scots* voted narrowly to remain.
+2. Two *Scots* were on the climbing team.
+3. She's a *Scot* from Aberdeen.
+
+**2. As an adjective.** (шотландский)
+
+4. *Scottish* law differs from English law.
+5. He has a strong *Scottish* accent.
+
+**See also:** [Irish](#irish) &middot; [Welsh](#welsh)
+
+---
+
+### Welsh
+
+**Pronunciation:** /wɛlʃ/ &middot; *welsh*
+**Русский:** валлийский; валлиец
+**Plural:** *the Welsh* (collective) &middot; for individuals: *a Welshman*, *a Welsh person*
+**Countability:** the adjective is not a countable noun for a person
+**Agreement:** plural verb — *the Welsh have their own language*
+**Pattern:** *-sh* → adjective, with a separate noun &middot; **Group:** 20
+**Type:** concrete and abstract
+**Contrast:** ✗ *A Welsh* is wrong; say *a Welshman* or *a Welsh person*. The lowercase verb *welsh*, meaning to break a promise, is considered offensive by many and is best avoided.
+
+The language; the people of Wales; also the adjective.
+
+**1. The language.** Uncountable. (валлийский язык)
+
+1. *Welsh* is a living Celtic language.
+2. Signs are bilingual in *Welsh* and English.
+
+**2. The people of Wales.** (валлийцы)
+
+3. The *Welsh* have kept their language alive.
+4. Two *Welsh* singers won the competition.
+5. He's a *Welshman* from Swansea.
+
+**See also:** [Scottish](#scottish) &middot; [English](#english)
+
+---
+
+### British
+
+**Pronunciation:** /ˈbrɪtɪʃ/ &middot; *BRIT-ish*
+**Русский:** британский; британец
+**Plural:** *the British* (collective) &middot; for individuals: *a Briton*, *a British person*, informally *a Brit*
+**Countability:** the adjective is not a countable noun for a person
+**Agreement:** plural verb — *the British drive on the left*
+**Pattern:** *-ish* → adjective, with a separate noun &middot; **Group:** 20
+**Type:** concrete and abstract
+**Contrast:** ✗ *A British* is wrong. *British* covers the whole United Kingdom — England, Scotland, Wales, and Northern Ireland — so it is **not** a synonym for *English*. Calling a Scot *English* causes genuine offense.
+
+The people of the United Kingdom; also the adjective.
+
+**1. The people of the UK.** (британцы)
+
+1. The *British* drive on the left.
+2. Two *Britons* were among the survivors.
+3. She's a *Brit* who moved here at twelve.
+
+**2. As an adjective.** (британский)
+
+4. *British* spelling keeps the *u* in *colour*.
+5. Both *British* newspapers ran the story.
+
+**See also:** [English](#english) &middot; [Scottish](#scottish)
+
+---
+
+### Greek
+
+**Pronunciation:** /ɡriːk/ &middot; *greek*
+**Русский:** греческий; грек
+**Plural:** *Greeks* — regular
+**Countability:** countable
+**Agreement:** plural verb — *the Greeks invented the form*
+**Pattern:** regular countable noun &middot; **Group:** 20
+**Type:** concrete and abstract
+**Contrast:** Unlike the *-ish* words, *Greek* works as both adjective and countable noun: *a Greek*, *two Greeks*. Note the idiom *it's all Greek to me*, meaning incomprehensible.
+
+A person from Greece; the language; also the adjective.
+
+**1. A person from Greece.** (грек)
+
+1. Two *Greeks* founded the restaurant.
+2. The ancient *Greeks* invented the form.
+3. She's a *Greek* from Thessaloniki.
+
+**2. The language.** Uncountable. (греческий язык)
+
+4. He reads classical *Greek*.
+5. Modern *Greek* differs considerably from ancient.
+
+**3. In fixed expressions.** (в устойчивых выражениях)
+
+6. The contract is all *Greek* to me.
+
+**See also:** [Italian](#italian) &middot; [Turkish](#turkish)
+
+---
+
+### Vietnamese
+
+**Pronunciation:** /ˌviːɛtnəˈmiːz/ &middot; *vee-et-nuh-MEEZ*
+**Русский:** вьетнамец, вьетнамка
+**Plural:** *Vietnamese* — unchanged
+**Countability:** countable but invariable
+**Agreement:** plural verb — *the Vietnamese rebuilt quickly*
+**Pattern:** *-ese* → invariable &middot; **Group:** 20
+**Type:** concrete
+**Variants:** *a Vietnamese person* is preferred over the bare noun
+**Contrast:** ✗ *Vietnameses* is wrong, like all the *-ese* words.
+
+A person from Vietnam; the language; also the adjective.
+
+**1. A person from Vietnam.** Invariable. (вьетнамец)
+
+1. Three *Vietnamese* were in the delegation.
+2. She's a *Vietnamese* student on exchange.
+3. The *Vietnamese* rebuilt the city quickly.
+
+**2. The language.** Uncountable. (вьетнамский язык)
+
+4. *Vietnamese* is a tonal language.
+5. He picked up *Vietnamese* while working there.
+
+**See also:** [Japanese](#japanese) &middot; [Chinese](#chinese)
+
+---
+
+### Pakistani
+
+**Pronunciation:** /ˌpækɪˈstɑːni/ &middot; *pak-ih-STAH-nee*
+**Русский:** пакистанец, пакистанка
+**Plural:** *Pakistanis* — regular
+**Countability:** countable
+**Agreement:** plural verb — *Pakistanis follow cricket closely*
+**Pattern:** *-i* → fully countable &middot; **Group:** 20
+**Type:** concrete
+**Contrast:** The *-i* nationality words all take a plain *-s*: *Pakistanis*, *Israelis*, *Iraqis*, *Saudis*, *Yemenis*, *Bangladeshis*.
+
+A person from Pakistan; also the adjective.
+
+**1. A person from Pakistan.** (пакистанец)
+
+1. Two *Pakistanis* were on the flight.
+2. She's a *Pakistani* doctor working in Chicago.
+3. *Pakistanis* follow cricket very closely.
+4. Both *Pakistanis* spoke Urdu at home.
+
+**2. As an adjective.** (пакистанский)
+
+5. *Pakistani* cuisine varies enormously by region.
+
+**See also:** [Israeli](#israeli)

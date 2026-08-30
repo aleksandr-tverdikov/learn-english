@@ -447,3 +447,321 @@ A large group of insects moving together.
 5. A *swarm* of reporters met him at the airport.
 
 **See also:** [herd](#herd) &middot; [flock](#flock)
+
+---
+
+### band
+
+**Pronunciation:** /bænd/ &middot; *band*
+**Русский:** группа, оркестр
+**Countability:** countable
+**Agreement:** singular in American English — *the band is on tour*
+**Type:** collective
+**Contrast:** *The band **is** touring* is American; *the band **are** touring* is British. British music journalism uses the plural almost exclusively.
+
+A group of musicians; also any organized group.
+
+**1. A musical group.** (группа)
+
+1. The *band* is on tour until October.
+2. Three *bands* played that night.
+3. She joined the *band* in high school.
+
+**2. Any organized group.** (отряд, группа)
+
+4. A small *band* of volunteers ran the whole thing.
+5. Both *bands* of rebels surrendered.
+
+**See also:** [orchestra](#orchestra) &middot; [crew](#crew)
+
+---
+
+### orchestra
+
+**Pronunciation:** /ˈɔːrkɪstrə/ &middot; *OR-kih-struh*
+**Русский:** оркестр
+**Countability:** countable
+**Agreement:** singular in American English — *the orchestra is rehearsing*
+**Type:** collective
+**Contrast:** In an American theater *the orchestra* also means the ground-floor seating, which is uncountable in that sense.
+
+A large group of instrumental musicians.
+
+**1. The musical group.** (оркестр)
+
+1. The *orchestra* is rehearsing all afternoon.
+2. Both *orchestras* play the same program.
+3. She has played in three professional *orchestras*.
+
+**2. The ground-floor seats.** American theater. (партер)
+
+4. We sat in the *orchestra*, not the balcony.
+5. *Orchestra* seats cost twice as much.
+
+**See also:** [band](#band) &middot; [choir](#choir)
+
+---
+
+### choir
+
+**Pronunciation:** /ˈkwaɪər/ &middot; *KWY-ur*
+**Русский:** хор
+**Countability:** countable
+**Agreement:** singular in American English — *the choir is singing*
+**Type:** collective
+**Contrast:** The spelling is wildly irregular — *choir* is pronounced exactly like *quire*. From Latin *chorus*.
+
+A group of singers.
+
+**1. The singing group.** (хор)
+
+1. The *choir* is singing at both services.
+2. Both *choirs* rehearse on Wednesdays.
+3. She has sung in the *choir* for thirty years.
+4. Four *choirs* combined for the finale.
+5. The *choir* was founded in 1890.
+
+**See also:** [orchestra](#orchestra)
+
+---
+
+### crew
+
+**Pronunciation:** /kruː/ &middot; *kroo*
+**Русский:** экипаж, бригада
+**Countability:** countable
+**Agreement:** singular in American English — *the crew is ready*
+**Type:** collective
+**Contrast:** Also used for one person's team informally, and as a rowing term where *crew* is the sport itself: *he rows crew*.
+
+The people operating a ship, aircraft, or production.
+
+**1. The operating team.** (экипаж, бригада)
+
+1. The *crew* is ready for departure.
+2. Both *crews* worked twelve-hour shifts.
+3. The film *crew* arrived at dawn.
+4. A skeleton *crew* kept the plant running.
+
+**2. The sport of rowing.** American. (академическая гребля)
+
+5. He rowed *crew* all four years of college.
+
+**See also:** [team](#team) &middot; [staff](04-f-to-ves.md#staff)
+
+---
+
+### cast
+
+**Pronunciation:** /kæst/ &middot; *kast*
+**Русский:** актёрский состав
+**Countability:** countable
+**Agreement:** singular in American English — *the cast is rehearsing*
+**Type:** collective
+**Contrast:** Also a countable noun meaning a plaster support for a broken bone, and the verb *cast* is irregular: *cast, cast, cast* — see the [irregular verbs](../../03-verbs/catalog/01-all-three-same.md).
+
+The actors in a production.
+
+**1. The performers.** (актёрский состав)
+
+1. The *cast* is rehearsing on the main stage.
+2. Both *casts* alternate performances.
+3. The entire *cast* was replaced.
+
+**2. A plaster support.** Countable. (гипс)
+
+4. He wore a *cast* for six weeks.
+5. Two *casts* were removed the same day.
+
+**See also:** [crew](#crew) &middot; [company](#company)
+
+---
+
+### company
+
+**Pronunciation:** /ˈkʌmpəni/ &middot; *KUM-puh-nee*
+**Русский:** компания; труппа; рота
+**Countability:** countable; uncountable meaning companionship
+**Agreement:** singular in American English — *the company is hiring*
+**Type:** collective
+**Contrast:** Three senses. A business and a theatrical troupe are countable collectives; *company* meaning companionship or guests is uncountable: *we have company*.
+
+A business; a theatrical troupe; also companionship.
+
+**1. A business.** (компания)
+
+1. The *company* is hiring aggressively.
+2. Both *companies* filed the same quarter.
+
+**2. A troupe.** (труппа)
+
+3. The dance *company* tours every spring.
+
+**3. Companionship or guests.** Uncountable. (общество, гости)
+
+4. We have *company* coming at seven.
+5. I enjoy her *company* more than anyone's.
+
+**See also:** [cast](#cast) &middot; [staff](04-f-to-ves.md#staff)
+
+---
+
+### faculty
+
+**Pronunciation:** /ˈfækəlti/ &middot; *FAK-uhl-tee*
+**Русский:** преподавательский состав; способность
+**Countability:** countable
+**Agreement:** either — *the faculty is meeting* / *the faculty are divided*
+**Type:** collective
+**Contrast:** In American English *the faculty* means the teaching staff of a whole institution; in British English a *faculty* is a division, like the Faculty of Law. A separate sense means a mental ability, and that one is fully countable: *her critical faculties*.
+
+The teaching staff; also a mental ability.
+
+**1. The teaching staff.** American. (преподавательский состав)
+
+1. The *faculty* is meeting Thursday.
+2. The *faculty* are divided over the proposal.
+3. She joined the *faculty* in 2011.
+
+**2. A mental ability.** Countable. (способность)
+
+4. He retained all his *faculties* into his nineties.
+5. Her critical *faculties* are formidable.
+
+**See also:** [staff](04-f-to-ves.md#staff) &middot; [board](#board)
+
+---
+
+### board
+
+**Pronunciation:** /bɔːrd/ &middot; *bord*
+**Русский:** совет директоров, правление
+**Countability:** countable
+**Agreement:** singular in American English — *the board has approved it*
+**Type:** collective
+**Contrast:** Also a plank of wood, and *board* meaning meals provided — as in *room and board* — which is uncountable.
+
+A governing committee; also a plank, or provided meals.
+
+**1. A governing body.** (правление)
+
+1. The *board* has approved the merger.
+2. Both *boards* meet quarterly.
+3. She sits on three *boards*.
+
+**2. A plank.** Countable. (доска)
+
+4. Two *boards* were rotted through.
+
+**3. Meals provided.** Uncountable. (питание)
+
+5. The job includes room and *board*.
+
+**See also:** [committee](#committee) &middot; [faculty](#faculty)
+
+---
+
+### panel
+
+**Pronunciation:** /ˈpænəl/ &middot; *PAN-uhl*
+**Русский:** комиссия, панель
+**Countability:** countable
+**Agreement:** singular in American English — *the panel is deliberating*
+**Type:** collective
+**Contrast:** Also a flat section of a wall or door, fully countable in that ordinary sense.
+
+A group convened to discuss or judge; also a flat section.
+
+**1. A group of experts or judges.** (комиссия, жюри)
+
+1. The *panel* is still deliberating.
+2. Both *panels* reached the same conclusion.
+3. She sat on a *panel* about housing policy.
+
+**2. A flat section.** (панель)
+
+4. Two solar *panels* were damaged.
+5. The *panel* had to be replaced entirely.
+
+**See also:** [committee](#committee) &middot; [jury](#jury)
+
+---
+
+### class
+
+**Pronunciation:** /klæs/ &middot; *klas*
+**Русский:** класс, группа
+**Countability:** countable
+**Agreement:** singular in American English — *the class is taking a test*
+**Type:** collective
+**Contrast:** Several senses: a group of students, a course, a social stratum, and a category. All are countable; all take a singular verb in American usage.
+
+A group of students; a course; a social stratum; a category.
+
+**1. A group of students.** (класс, группа)
+
+1. The *class* is taking a test right now.
+2. Both *classes* meet in the same room.
+
+**2. A course.** (учебный курс)
+
+3. She teaches four *classes* a semester.
+
+**3. A social stratum.** (класс общества)
+
+4. The professional *class* voted differently.
+
+**4. A category.** (класс, категория)
+
+5. Several *classes* of drug are affected.
+
+**See also:** [faculty](#faculty)
+
+---
+
+### tribe
+
+**Pronunciation:** /traɪb/ &middot; *tryb*
+**Русский:** племя
+**Countability:** countable
+**Agreement:** singular in American English — *the tribe is federally recognized*
+**Type:** collective
+**Contrast:** In American usage referring to Native nations, *nation* is often preferred to *tribe*, though *tribe* remains standard in law and in many nations' own names.
+
+A social group sharing ancestry and culture.
+
+**1. The social group.** (племя)
+
+1. The *tribe* is federally recognized.
+2. Several *tribes* signed the same treaty.
+3. The *tribe* operates its own court system.
+4. Both *tribes* speak related languages.
+5. She was elected to the *tribe*'s council.
+
+**See also:** [family](#family)
+
+---
+
+### gang
+
+**Pronunciation:** /ɡæŋ/ &middot; *gang*
+**Русский:** банда; бригада
+**Countability:** countable
+**Agreement:** singular in American English — *the gang was broken up*
+**Type:** collective
+**Contrast:** Usually negative, but a *work gang* or *track gang* is a neutral term for a crew of laborers.
+
+An organized group of criminals; also a work crew.
+
+**1. A criminal group.** (банда)
+
+1. The *gang* was broken up by federal agents.
+2. Two rival *gangs* controlled the district.
+3. He left the *gang* at nineteen.
+
+**2. A work crew.** Neutral. (бригада)
+
+4. A track *gang* replaced the rails overnight.
+5. Both *gangs* worked the same shift.
+
+**See also:** [crowd](#crowd) &middot; [crew](#crew)

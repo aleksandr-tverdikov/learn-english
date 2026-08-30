@@ -438,3 +438,315 @@ The board game played with flat round pieces.
 5. The red *checkers* were made of plastic.
 
 **See also:** [darts](#darts) &middot; [billiards](#billiards)
+
+---
+
+### linguistics
+
+**Pronunciation:** /lɪŋˈɡwɪstɪks/ &middot; *ling-GWIS-tiks*
+**Русский:** лингвистика
+**Countability:** uncountable, singular only
+**Agreement:** singular verb — *linguistics is a science*
+**Counted with:** *a branch of linguistics*
+**Type:** abstract
+**Contrast:** ✗ *Linguistics are* is wrong. Unlike *politics* and *statistics*, this has no plural sense.
+
+The scientific study of language.
+
+**1. The academic field.** (лингвистика)
+
+1. *Linguistics* is a science, not a set of rules.
+2. She studied *linguistics* at Michigan.
+3. Historical *linguistics* traces sound change.
+4. Applied *linguistics* deals with teaching.
+5. *Linguistics* describes rather than prescribes.
+
+**See also:** [phonetics](#phonetics) &middot; [mathematics](#mathematics)
+
+---
+
+### phonetics
+
+**Pronunciation:** /fəˈnɛtɪks/ &middot; *fuh-NET-iks*
+**Русский:** фонетика
+**Countability:** uncountable, singular only
+**Agreement:** singular verb — *phonetics is essential*
+**Counted with:** *a branch of phonetics*
+**Type:** abstract
+**Contrast:** ✗ *Phonetics are* is wrong. Distinguish from *phonology*, which studies how sounds function in a particular language.
+
+The study of speech sounds.
+
+**1. The academic field.** (фонетика)
+
+1. *Phonetics* is essential for anyone teaching pronunciation.
+2. He took a course in acoustic *phonetics*.
+3. *Phonetics* describes how sounds are physically made.
+4. Articulatory *phonetics* maps the vocal tract.
+5. She applies *phonetics* to accent training.
+
+**See also:** [linguistics](#linguistics) &middot; [acoustics](#acoustics)
+
+---
+
+### acoustics
+
+**Pronunciation:** /əˈkuːstɪks/ &middot; *uh-KOO-stiks*
+**Русский:** акустика
+**Countability:** singular as the science; plural as the sound qualities of a room
+**Agreement:** singular for the science — *acoustics is a branch of physics*; plural for a room — *the acoustics are terrible*
+**Counted with:** *a branch of acoustics*
+**Type:** abstract
+**Contrast:** A clean split. The science is singular; the sound properties of a particular space are plural: *the acoustics in this hall **are** superb*.
+
+The science of sound; also the sound qualities of a space.
+
+**1. The science.** Singular. (акустика как наука)
+
+1. *Acoustics* is a branch of physics.
+2. He studied architectural *acoustics*.
+
+**2. The sound qualities of a room.** Plural. (акустика помещения)
+
+3. The *acoustics* in this hall are superb.
+4. Both rooms' *acoustics* were tested.
+5. The *acoustics* are terrible under the balcony.
+
+**See also:** [phonetics](#phonetics) &middot; [optics](#optics)
+
+---
+
+### optics
+
+**Pronunciation:** /ˈɑːptɪks/ &middot; *AHP-tiks*
+**Русский:** оптика; внешнее восприятие
+**Countability:** singular as the science; plural in the political sense
+**Agreement:** singular for the science — *optics is well understood*; plural for appearances — *the optics are bad*
+**Counted with:** *a branch of optics*
+**Type:** abstract
+**Contrast:** The political sense — how something looks to the public — is recent, always plural, and now extremely common in American journalism: *the optics **are** terrible*.
+
+The science of light; also how something appears publicly.
+
+**1. The science.** Singular. (оптика)
+
+1. *Optics* is one of the oldest branches of physics.
+2. Fiber *optics* transformed communications.
+
+**2. Public appearances.** Plural, recent. (внешнее восприятие)
+
+3. The *optics* of the trip were terrible.
+4. Nobody thought about the *optics* of the photograph.
+5. Both decisions had bad *optics*.
+
+**See also:** [acoustics](#acoustics)
+
+---
+
+### genetics
+
+**Pronunciation:** /dʒəˈnɛtɪks/ &middot; *juh-NET-iks*
+**Русский:** генетика
+**Countability:** singular as the science; plural as someone's genetic makeup
+**Agreement:** singular for the science — *genetics is advancing fast*; plural for makeup — *his genetics are unusual*
+**Counted with:** *a branch of genetics*
+**Type:** abstract
+**Contrast:** The second sense is informal but widespread: *her genetics **are** good* meaning her inherited constitution.
+
+The study of heredity; also someone's inherited makeup.
+
+**1. The science.** Singular. (генетика)
+
+1. *Genetics* is advancing faster than the law.
+2. Population *genetics* uses heavy statistics.
+
+**2. Someone's inherited makeup.** Plural, informal. (генетика человека)
+
+3. His *genetics* are unusual in several ways.
+4. Their *genetics* predisposed them to it.
+5. Athletic *genetics* only explain part of it.
+
+**See also:** [linguistics](#linguistics)
+
+---
+
+### logistics
+
+**Pronunciation:** /ləˈdʒɪstɪks/ &middot; *luh-JIS-tiks*
+**Русский:** логистика
+**Countability:** singular as the field; plural as practical arrangements
+**Agreement:** singular for the field — *logistics is a discipline*; plural for arrangements — *the logistics are complicated*
+**Counted with:** *a logistical problem*
+**Type:** abstract
+**Contrast:** The everyday sense — practical arrangements — is plural and much commoner: *the logistics **are** a nightmare*.
+
+The management of supply and movement; also practical arrangements.
+
+**1. The field.** Singular. (логистика)
+
+1. *Logistics* is now a degree program.
+2. Military *logistics* decides most campaigns.
+
+**2. Practical arrangements.** Plural. (организационные вопросы)
+
+3. The *logistics* of the move are complicated.
+4. Both sets of *logistics* were handled by one person.
+5. The *logistics* were the hardest part.
+
+**See also:** [tactics](#tactics)
+
+---
+
+### tactics
+
+**Pronunciation:** /ˈtæktɪks/ &middot; *TAK-tiks*
+**Русский:** тактика
+**Countability:** singular as the discipline; plural as particular methods
+**Agreement:** singular for the discipline — *tactics is taught separately from strategy*; plural for methods — *their tactics were crude*
+**Counted with:** *a tactic*
+**Type:** abstract
+**Contrast:** Unlike most words in this group, this one has a fully countable singular *a tactic*, meaning one method. *Tactics* as a discipline is singular; particular methods are plural.
+
+The art of arranging forces; also particular methods used.
+
+**1. The discipline.** Singular. (тактика как дисциплина)
+
+1. *Tactics* is taught separately from strategy.
+
+**2. Particular methods.** Plural. (тактические приёмы)
+
+2. Their *tactics* were crude but effective.
+3. Both *tactics* failed within a week.
+4. She changed *tactics* halfway through.
+5. That is a well-known negotiating *tactic*.
+
+**See also:** [logistics](#logistics) &middot; [politics](#politics)
+
+---
+
+### aesthetics
+
+**Pronunciation:** /ɛsˈθɛtɪks/ &middot; *es-THET-iks*
+**Русский:** эстетика
+**Countability:** singular as the branch of philosophy; plural as principles of taste
+**Agreement:** singular for the field — *aesthetics is a branch of philosophy*; plural for principles — *his aesthetics are austere*
+**Counted with:** *a principle of aesthetics*
+**Type:** abstract
+**Variants:** the British spelling is *aesthetics*; American writing also uses *esthetics*
+
+The philosophy of beauty; also someone's principles of taste.
+
+**1. The philosophical field.** Singular. (эстетика)
+
+1. *Aesthetics* is a branch of philosophy.
+2. She teaches *aesthetics* and ethics together.
+
+**2. Principles of taste.** Plural. (эстетические принципы)
+
+3. His *aesthetics* are deliberately austere.
+4. Both designers' *aesthetics* clashed badly.
+5. The building's *aesthetics* were widely criticized.
+
+**See also:** [ethics](#ethics)
+
+---
+
+### aerobics
+
+**Pronunciation:** /ɛˈroʊbɪks/ &middot; *air-OH-biks*
+**Русский:** аэробика
+**Countability:** singular as an activity
+**Agreement:** singular verb — *aerobics is good for the heart*
+**Counted with:** *an aerobics class*
+**Type:** abstract
+**Contrast:** ✗ *Aerobics are* is wrong when naming the activity, exactly like *gymnastics* and *athletics*.
+
+The form of exercise done to music.
+
+**1. The activity.** (аэробика)
+
+1. *Aerobics* is good for cardiovascular health.
+2. She teaches *aerobics* three mornings a week.
+3. Water *aerobics* is easier on the joints.
+4. *Aerobics* was everywhere in the 1980s.
+5. He goes to *aerobics* with his neighbor.
+
+**See also:** [gymnastics](#gymnastics) &middot; [athletics](#athletics)
+
+---
+
+### shingles
+
+**Pronunciation:** /ˈʃɪŋɡəlz/ &middot; *SHING-guhlz*
+**Русский:** опоясывающий лишай
+**Countability:** uncountable, singular only in the disease sense
+**Agreement:** singular verb — *shingles is extremely painful*
+**Counted with:** *a case of shingles*
+**Type:** abstract
+**Contrast:** The disease takes a singular verb; roof *shingles* are a perfectly ordinary countable plural. ✗ *Shingles are painful* would be about the roof.
+
+The painful viral rash caused by the chickenpox virus.
+
+**1. The disease.** Singular. (опоясывающий лишай)
+
+1. *Shingles* is extremely painful.
+2. She came down with *shingles* last spring.
+3. The *shingles* vaccine is recommended after fifty.
+
+**2. Roof tiles.** Countable plural. (кровельная дранка)
+
+4. Several *shingles* blew off in the storm.
+5. Both roofs need new *shingles*.
+
+**See also:** [measles](#measles) &middot; [herpes](#herpes)
+
+---
+
+### herpes
+
+**Pronunciation:** /ˈhɜːrpiːz/ &middot; *HUR-peez*
+**Русский:** герпес
+**Countability:** uncountable, singular only
+**Agreement:** singular verb — *herpes is very common*
+**Counted with:** *a case of herpes*
+**Type:** abstract
+**Contrast:** ✗ *Herpes are* is wrong. The *-es* is part of the Greek stem, not a plural, exactly as in [rabies](#rabies).
+
+The viral infection causing sores.
+
+**1. The disease.** (герпес)
+
+1. *Herpes* is far more common than people assume.
+2. Oral *herpes* affects most of the population.
+3. *Herpes* remains dormant between outbreaks.
+4. The *herpes* virus never leaves the body.
+5. Two types of *herpes* are routinely distinguished.
+
+**See also:** [rabies](#rabies) &middot; [shingles](#shingles)
+
+---
+
+### cards
+
+**Pronunciation:** /kɑːrdz/ &middot; *kardz*
+**Русский:** карты (игра)
+**Countability:** singular as a game; plural as the objects
+**Agreement:** singular for the game — *cards is his only vice*; plural for objects — *the cards are shuffled*
+**Counted with:** *a game of cards*; one object is *a card*
+**Type:** abstract and concrete
+**Contrast:** Same game/equipment split as [darts](#darts) and [checkers](#checkers). *Cards **is** a good way to pass an evening* names the activity; *the cards **are** on the table* names the objects.
+
+The card-playing game; also the objects themselves.
+
+**1. The game.** Singular. (карточная игра)
+
+1. *Cards* is the only game he'll play.
+2. They played *cards* until two in the morning.
+
+**2. The objects.** Plural. (карты)
+
+3. The *cards* are already shuffled.
+4. Two *cards* were missing from the deck.
+5. She laid her *cards* face up.
+
+**See also:** [darts](#darts) &middot; [checkers](#checkers)

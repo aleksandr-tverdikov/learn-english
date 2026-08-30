@@ -319,3 +319,369 @@ An outline, plan, or underlying structure.
 5. The *schemata* proposed by Kant are not empirical.
 
 **See also:** [matrix](11-ex-ix-ices.md#matrix)
+
+---
+
+### concerto
+
+**Pronunciation:** /kənˈtʃɛrtoʊ/ &middot; *kuhn-CHER-toh*
+**Русский:** концерт (муз. произведение)
+**Plural:** *concertos* — usual &middot; *concerti* /kənˈtʃɛrti/
+**Countability:** countable
+**Agreement:** plural verb — *both concertos are in D*
+**Pattern:** Italian *-o* → *-i* &middot; **Group:** 12
+**Type:** abstract
+**Variants:** *concertos* in general use; *concerti* among classical musicians
+**Contrast:** Do not confuse a *concerto* — a work for soloist and orchestra — with a *concert*, the event where it is played.
+
+A composition for solo instrument and orchestra.
+
+**1. The musical form.** (концерт)
+
+1. She recorded all five piano *concertos*.
+2. Both *concertos* are in the same key.
+3. The violin *concerto* runs forty minutes.
+4. He has performed the *concerti* of Vivaldi.
+5. A *concerto* needs a soloist; a symphony does not.
+
+**See also:** [libretto](#libretto) &middot; [tempo](#tempo)
+
+---
+
+### libretto
+
+**Pronunciation:** /lɪˈbrɛtoʊ/ &middot; *lih-BRET-oh*
+**Русский:** либретто
+**Plural:** *librettos* — usual &middot; *libretti* /lɪˈbrɛti/
+**Countability:** countable
+**Agreement:** plural verb — *both librettos were rewritten*
+**Pattern:** Italian *-o* → *-i* &middot; **Group:** 12
+**Type:** concrete
+**Variants:** both plurals are standard in music writing
+**Contrast:** Italian for 'little book'. The *libretto* is the text; the *score* is the music.
+
+The text of an opera or musical.
+
+**1. The text.** (либретто)
+
+1. The *libretto* was rewritten twice.
+2. Both *librettos* are printed in the program.
+3. He wrote the *libretto* but not the music.
+4. Several *libretti* survive without their scores.
+5. A weak *libretto* can sink a fine score.
+
+**See also:** [concerto](#concerto) &middot; [maestro](#maestro)
+
+---
+
+### maestro
+
+**Pronunciation:** /ˈmaɪstroʊ/ &middot; *MY-stroh*
+**Русский:** маэстро
+**Plural:** *maestros* — usual &middot; *maestri* /ˈmaɪstri/
+**Countability:** countable
+**Agreement:** plural verb — *the maestros disagreed*
+**Pattern:** Italian *-o* → *-i* &middot; **Group:** 12
+**Type:** concrete
+**Variants:** *maestros* in general use
+
+A distinguished conductor or musician; a master of any craft.
+
+**1. A distinguished musician.** (маэстро)
+
+1. The *maestro* took three curtain calls.
+2. Both *maestros* refused to share the podium.
+3. Several *maestri* studied under the same teacher.
+
+**2. A master of any craft.** Often admiring or joking. (мастер)
+
+4. He is the *maestro* of the backhand volley.
+5. The pastry *maestros* worked through the night.
+
+**See also:** [virtuoso](#virtuoso) &middot; [libretto](#libretto)
+
+---
+
+### zucchini
+
+**Pronunciation:** /zuˈkiːni/ &middot; *zoo-KEE-nee*
+**Русский:** кабачок, цукини
+**Plural:** *zucchini* — unchanged &middot; *zucchinis* also used
+**Countability:** countable, and uncountable as food
+**Agreement:** plural verb — *the zucchini are enormous*
+**Pattern:** Italian plural reanalyzed as a singular &middot; **Group:** 12
+**Type:** concrete
+**Variants:** American *zucchini*; British *courgette*
+**Contrast:** In Italian *zucchini* is already plural — the singular is *zucchino*. English borrowed the plural, treats it as a singular, and then optionally adds *-s*. The same happened to *panini*, *biscotti*, and *ravioli*.
+
+The green summer squash.
+
+**1. The vegetable.** (кабачок)
+
+1. The *zucchini* in the garden are enormous.
+2. Slice one *zucchini* lengthwise.
+3. She grows more *zucchinis* than anyone can eat.
+4. Grilled *zucchini* goes with everything.
+5. Both *zucchini* had gone soft.
+
+**See also:** [panini](#panini) &middot; [graffito](#graffito)
+
+---
+
+### panini
+
+**Pronunciation:** /pəˈniːni/ &middot; *puh-NEE-nee*
+**Русский:** панини (сэндвич)
+**Plural:** *paninis* — usual in American English
+**Countability:** countable
+**Agreement:** plural verb — *the paninis are pressed to order*
+**Pattern:** Italian plural reanalyzed as a singular &middot; **Group:** 12
+**Type:** concrete
+**Contrast:** In Italian *panini* is the plural of *panino*, 'small bread roll'. American English treats *panini* as a singular and forms *paninis*, which is technically a double plural and completely standard.
+
+A pressed grilled sandwich.
+
+**1. The sandwich.** (панини)
+
+1. He ordered a chicken *panini*.
+2. Both *paninis* were burned on one side.
+3. The café presses every *panini* to order.
+4. Three *paninis* and two coffees, please.
+5. In Italian, one of them is a *panino*.
+
+**See also:** [zucchini](#zucchini) &middot; [biscotti](#biscotti)
+
+---
+
+### biscotti
+
+**Pronunciation:** /bɪˈskɑːti/ &middot; *bih-SKAH-tee*
+**Русский:** бискотти
+**Plural:** *biscotti* — unchanged &middot; *biscottis* informally
+**Countability:** countable
+**Agreement:** plural verb — *the biscotti are twice-baked*
+**Pattern:** Italian plural reanalyzed as a singular &middot; **Group:** 12
+**Type:** concrete
+**Contrast:** The Italian singular is *biscotto*. English speakers use *biscotti* for both numbers, exactly as with *zucchini* and *panini*.
+
+The hard twice-baked Italian cookie.
+
+**1. The cookie.** (бискотти)
+
+1. The *biscotti* are meant for dipping.
+2. She ate one *biscotti* with her coffee.
+3. Both *biscotti* were almond.
+4. He bakes *biscotti* every December.
+5. In Italian, one of them is a *biscotto*.
+
+**See also:** [panini](#panini) &middot; [zucchini](#zucchini)
+
+---
+
+### beau
+
+**Pronunciation:** /boʊ/ &middot; *boh*
+**Русский:** ухажёр, кавалер
+**Plural:** *beaus* — usual in American English &middot; *beaux* /boʊz/
+**Countability:** countable
+**Agreement:** plural verb — *her beaux were all forgotten*
+**Pattern:** French *-x* &middot; **Group:** 12
+**Type:** concrete
+**Variants:** *beaus* is the American spelling; *beaux* is the French one
+**Contrast:** Both plurals are pronounced identically, /boʊz/ — the difference exists only on the page. The word is dated; modern American English says *boyfriend*.
+
+A woman's male admirer. Dated.
+
+**1. The admirer.** (кавалер)
+
+1. She arrived with her latest *beau*.
+2. All her former *beaux* were at the funeral.
+3. Two *beaus* competed for her attention.
+4. The word *beau* now sounds distinctly old-fashioned.
+5. He was the most persistent of her *beaux*.
+
+**See also:** [bureau](#bureau) &middot; [chateau](#chateau)
+
+---
+
+### chateau
+
+**Pronunciation:** /ʃæˈtoʊ/ &middot; *sha-TOH*
+**Русский:** замок, шато
+**Plural:** *chateaus* &middot; *chateaux* /ʃæˈtoʊz/ — both correct
+**Countability:** countable
+**Agreement:** plural verb — *the chateaux are open to visitors*
+**Pattern:** French *-x* &middot; **Group:** 12
+**Type:** concrete
+**Variants:** also written *château* with the circumflex
+**Contrast:** Identical in sound, different on the page — same as *bureaus/bureaux*. On wine labels *Château* names the estate.
+
+A French castle or large country house.
+
+**1. The building.** (замок)
+
+1. The *chateau* dates from the sixteenth century.
+2. Several *chateaux* along the river are open to visitors.
+3. Both *chateaus* were converted into hotels.
+4. They were married at a small *chateau*.
+5. The wine is named for the *château* that makes it.
+
+**See also:** [bureau](#bureau) &middot; [plateau](#plateau)
+
+---
+
+### milieu
+
+**Pronunciation:** /miːlˈjɜː/ &middot; *meel-YUH*
+**Русский:** среда, окружение
+**Plural:** *milieus* &middot; *milieux* /miːlˈjɜːz/ — both correct
+**Countability:** countable
+**Agreement:** plural verb — *the two milieus never mixed*
+**Pattern:** French *-x* &middot; **Group:** 12
+**Type:** abstract
+**Variants:** *milieus* is commoner in American writing
+
+A social environment.
+
+**1. The social setting.** (среда)
+
+1. He was never comfortable in that *milieu*.
+2. The two *milieus* almost never mixed.
+3. She writes about the artistic *milieu* of the 1920s.
+4. Both *milieux* produced remarkable work.
+5. The novel captures a vanished *milieu*.
+
+**See also:** [chateau](#chateau)
+
+---
+
+### portmanteau
+
+**Pronunciation:** /pɔːrtˈmæntoʊ/ &middot; *port-MAN-toh*
+**Русский:** саквояж; слово-гибрид
+**Plural:** *portmanteaus* &middot; *portmanteaux* — both correct
+**Countability:** countable
+**Agreement:** plural verb — *the portmanteaus were monogrammed*
+**Pattern:** French *-x* &middot; **Group:** 12
+**Type:** concrete and abstract
+**Contrast:** Best known now in *portmanteau word* — a word blended from two others, like *brunch* or *smog* — a use coined by Lewis Carroll.
+
+A large traveling bag; also a word blended from two others.
+
+**1. The traveling bag.** Dated. (саквояж)
+
+1. He arrived with a battered leather *portmanteau*.
+2. Both *portmanteaus* were monogrammed.
+
+**2. A blended word.** (слово-гибрид)
+
+3. *Brunch* is a *portmanteau* of breakfast and lunch.
+4. The language is full of *portmanteaux*.
+5. Several *portmanteau* words entered the dictionary that year.
+
+**See also:** [tableau](#tableau) &middot; [chateau](#chateau)
+
+---
+
+### rendezvous
+
+**Pronunciation:** /ˈrɑːndeɪvuː/ &middot; *RAHN-day-voo* — the *z* and final *s* are silent
+**Русский:** встреча, рандеву
+**Plural:** *rendezvous* /ˈrɑːndeɪvuːz/ — spelled the same, pronounced with a /z/
+**Countability:** countable
+**Agreement:** plural verb — *the rendezvous were arranged in advance*
+**Pattern:** French — invariable in spelling &middot; **Group:** 12
+**Type:** abstract
+**Contrast:** Exactly like [corps](03-unchanged.md#corps): the plural is distinguished only in sound. Singular ends in /uː/, plural in /uːz/.
+
+An arranged meeting.
+
+**1. The meeting.** (встреча)
+
+1. They arranged a *rendezvous* for midnight.
+2. Both *rendezvous* were canceled.
+3. The *rendezvous* point was a parking garage.
+4. Several *rendezvous* took place that week.
+5. The spacecraft completed its *rendezvous* with the station.
+
+**See also:** [corps](03-unchanged.md#corps) &middot; [chassis](#chassis)
+
+---
+
+### chassis
+
+**Pronunciation:** /ˈʃæsi/ &middot; *SHAS-ee* — the final *s* is silent
+**Русский:** шасси, рама
+**Plural:** *chassis* /ˈʃæsiz/ — spelled the same, pronounced with a /z/
+**Countability:** countable
+**Agreement:** plural verb — *the chassis were welded*
+**Pattern:** French — invariable in spelling &middot; **Group:** 12
+**Type:** concrete
+**Contrast:** Same shape as *rendezvous* and *corps*: singular /ˈʃæsi/, plural /ˈʃæsiz/, spelled identically.
+
+The frame of a vehicle or piece of equipment.
+
+**1. The frame.** (шасси)
+
+1. The *chassis* is welded, not bolted.
+2. Both *chassis* came from the same plant.
+3. A cracked *chassis* is not repairable.
+4. Several *chassis* were waiting on the line.
+5. The server *chassis* holds eight drives.
+
+**See also:** [rendezvous](#rendezvous) &middot; [corps](03-unchanged.md#corps)
+
+---
+
+### tsunami
+
+**Pronunciation:** /tsuˈnɑːmi/ &middot; *tsoo-NAH-mee* — often simplified to *soo-NAH-mee*
+**Русский:** цунами
+**Plural:** *tsunamis* — usual &middot; *tsunami* unchanged
+**Countability:** countable
+**Agreement:** plural verb — *the tsunamis struck within minutes*
+**Pattern:** Japanese — no plural marking in the source language &middot; **Group:** 12
+**Type:** concrete
+**Variants:** English adds a regular *-s*; Japanese marks no plural at all
+**Contrast:** Japanese loanwords take an English plural or none: *tsunamis*, *samurai*, *ninja*, *sushi*. The initial /ts/ cluster is hard for English speakers, who usually say *soo-NAH-mee*.
+
+A very large ocean wave caused by an earthquake.
+
+**1. The wave.** (цунами)
+
+1. The *tsunami* reached the coast in twenty minutes.
+2. Two *tsunamis* struck the same shoreline.
+3. *Tsunami* warnings were issued across the Pacific.
+4. A *tsunami* is not a tidal wave.
+
+**2. An overwhelming surge.** Figurative. (волна, лавина)
+
+5. A *tsunami* of complaints followed the announcement.
+
+**See also:** [samurai](#samurai)
+
+---
+
+### samurai
+
+**Pronunciation:** /ˈsæmʊraɪ/ &middot; *SAM-uu-ry*
+**Русский:** самурай
+**Plural:** *samurai* — unchanged &middot; *samurais* occasionally
+**Countability:** countable
+**Agreement:** plural verb — *the samurai were a hereditary class*
+**Pattern:** Japanese — invariable &middot; **Group:** 12
+**Type:** concrete
+**Variants:** *samurai* is strongly preferred for the plural
+**Contrast:** Like *ninja*, *sushi*, and *manga*, this stays unchanged. ✗ *Samurais* is not wrong but sounds naive.
+
+A member of the Japanese warrior class.
+
+**1. The warrior.** (самурай)
+
+1. The *samurai* were a hereditary class.
+2. A single *samurai* guarded the gate.
+3. Two *samurai* faced each other in the courtyard.
+4. *Samurai* served a lord rather than a state.
+5. The film follows seven *samurai*.
+
+**See also:** [tsunami](#tsunami) &middot; [kibbutz](#kibbutz)

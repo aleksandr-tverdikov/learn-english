@@ -746,3 +746,472 @@ A recording of moving images.
 6. They joined by *video* call from three countries.
 
 **See also:** [radio](#radio) &middot; [studio](#studio)
+
+---
+
+### domino
+
+**Pronunciation:** /ˈdɑːmɪnoʊ/ &middot; *DAH-mih-noh*
+**Русский:** домино (костяшка)
+**Plural:** *dominoes* &middot; *dominos* — both correct
+**Countability:** countable
+**Agreement:** plural verb — *the dominoes are set up*
+**Pattern:** consonant + o → either &middot; **Group:** 5
+**Type:** concrete
+**Contrast:** The game is singular — *dominoes **is** a good game* — while the pieces are plural. Same split as [darts](16-singular-with-s.md#darts).
+
+One of the flat rectangular pieces used in the game.
+
+**1. The piece.** (костяшка домино)
+
+1. Set the *dominoes* up in a long line.
+2. One *domino* was missing from the set.
+3. He knocked over four thousand *dominos*.
+4. The *dominoes* fell in sequence.
+
+**2. In fixed expressions.** (в устойчивых выражениях)
+
+5. One bank failed and the rest went down like *dominoes*.
+
+**See also:** [tornado](#tornado) &middot; [checkers](16-singular-with-s.md#checkers)
+
+---
+
+### manifesto
+
+**Pronunciation:** /ˌmænɪˈfɛstoʊ/ &middot; *man-ih-FES-toh*
+**Русский:** манифест
+**Plural:** *manifestos* &middot; *manifestoes* — both correct
+**Countability:** countable
+**Agreement:** plural verb — *both manifestos were published*
+**Pattern:** consonant + o → either &middot; **Group:** 5
+**Type:** abstract
+**Variants:** *manifestos* is somewhat commoner in American writing
+
+A public declaration of policy or intent.
+
+**1. The declaration.** (манифест)
+
+1. The party published its *manifesto* in March.
+2. Both *manifestos* promised the same reforms.
+3. He wrote a short artistic *manifesto*.
+4. Several *manifestoes* appeared that decade.
+5. The *manifesto* runs to forty pages.
+
+**See also:** [motto](#motto)
+
+---
+
+### innuendo
+
+**Pronunciation:** /ˌɪnjuˈɛndoʊ/ &middot; *in-yoo-EN-doh*
+**Русский:** намёк, инсинуация
+**Plural:** *innuendos* &middot; *innuendoes* — both correct
+**Countability:** countable, and often uncountable
+**Agreement:** plural verb — *the innuendos were constant*
+**Pattern:** consonant + o → either &middot; **Group:** 5
+**Type:** abstract
+
+An indirect and usually unpleasant suggestion.
+
+**1. An indirect suggestion.** (намёк)
+
+1. The article is full of *innuendo*.
+2. She ignored the *innuendos* entirely.
+3. His speech was one long *innuendo*.
+4. Several *innuendoes* were struck from the record.
+5. He made an *innuendo* about her promotion.
+
+**See also:** [veto](#veto)
+
+---
+
+### memento
+
+**Pronunciation:** /məˈmɛntoʊ/ &middot; *muh-MEN-toh*
+**Русский:** сувенир, память
+**Plural:** *mementos* &middot; *mementoes* — both correct
+**Countability:** countable
+**Agreement:** plural verb — *the mementos are in a box*
+**Pattern:** consonant + o → either &middot; **Group:** 5
+**Type:** concrete
+**Contrast:** The spelling is *me-*, not ✗ *momento* — a very common misspelling influenced by *moment*. From Latin *memento*, 'remember'.
+
+An object kept as a reminder.
+
+**1. A keepsake.** (сувенир на память)
+
+1. She kept the ticket as a *memento*.
+2. All his *mementos* are in one box.
+3. Both *mementoes* came from the same trip.
+4. It was a *memento* of a happier time.
+5. The room was full of *mementos*.
+
+**See also:** [halo](#halo)
+
+---
+
+### banjo
+
+**Pronunciation:** /ˈbændʒoʊ/ &middot; *BAN-joh*
+**Русский:** банджо
+**Plural:** *banjos* — usual &middot; *banjoes* rarely
+**Countability:** countable
+**Agreement:** plural verb — *the banjos need tuning*
+**Pattern:** musical instrument → *-s* &middot; **Group:** 5
+**Type:** concrete
+**Contrast:** Like other instruments, it takes *-s*: *pianos*, *cellos*, *banjos*, *piccolos*.
+
+The stringed instrument with a drum-like body.
+
+**1. The instrument.** (банджо)
+
+1. He plays *banjo* in a bluegrass band.
+2. Two *banjos* hung on the wall.
+3. The *banjo* came to America from West Africa.
+4. She bought a secondhand *banjo*.
+5. Both *banjos* were badly out of tune.
+
+**See also:** [piano](#piano) &middot; [cello](#cello)
+
+---
+
+### flamingo
+
+**Pronunciation:** /fləˈmɪŋɡoʊ/ &middot; *fluh-MING-goh*
+**Русский:** фламинго
+**Plural:** *flamingos* &middot; *flamingoes* — both correct
+**Countability:** countable
+**Agreement:** plural verb — *the flamingos are feeding*
+**Pattern:** consonant + o → either &middot; **Group:** 5
+**Type:** concrete
+
+The tall pink wading bird.
+
+**1. The bird.** (фламинго)
+
+1. Thousands of *flamingos* covered the lake.
+2. A single *flamingo* stood on one leg.
+3. Both *flamingoes* were hatched here.
+4. *Flamingos* get their color from their diet.
+5. The plastic *flamingo* is an American lawn tradition.
+
+**See also:** [mosquito](#mosquito)
+
+---
+
+### ghetto
+
+**Pronunciation:** /ˈɡɛtoʊ/ &middot; *GET-oh*
+**Русский:** гетто
+**Plural:** *ghettos* &middot; *ghettoes* — both correct
+**Countability:** countable
+**Agreement:** plural verb — *the ghettos were cleared*
+**Pattern:** consonant + o → either &middot; **Group:** 5
+**Type:** concrete
+**Variants:** *ghettos* is commoner in American writing
+
+A part of a city occupied by a minority group, historically by compulsion.
+
+**1. The district.** (гетто)
+
+1. The Warsaw *ghetto* was sealed in 1940.
+2. Both *ghettos* were cleared within a year.
+3. Urban *ghettos* formed through housing policy.
+4. He grew up in the *ghetto* and never forgot it.
+5. Several European *ghettoes* date to the sixteenth century.
+
+**See also:** [volcano](#volcano)
+
+---
+
+### silo
+
+**Pronunciation:** /ˈsaɪloʊ/ &middot; *SY-loh*
+**Русский:** силос; шахта
+**Plural:** *silos* /ˈsaɪloʊz/ — always *-s*
+**Countability:** countable
+**Agreement:** plural verb — *the silos are empty*
+**Pattern:** consonant + o → *-s* &middot; **Group:** 5
+**Type:** concrete and abstract
+**Contrast:** ✗ *Siloes* is wrong. Very common now in the figurative business sense: departments that do not communicate work *in silos*.
+
+A tower for storing grain; also an underground missile chamber, or an isolated department.
+
+**1. A grain tower.** (силосная башня)
+
+1. Both *silos* are empty by March.
+2. The farm has three concrete *silos*.
+
+**2. A missile chamber.** (пусковая шахта)
+
+3. The missile *silos* were decommissioned.
+
+**3. An isolated department.** Figurative. (обособленное подразделение)
+
+4. The company is full of *silos* that never talk.
+5. We need to break down the *silos* between teams.
+
+**See also:** [cargo](#cargo)
+
+---
+
+### tobacco
+
+**Pronunciation:** /təˈbækoʊ/ &middot; *tuh-BAK-oh*
+**Русский:** табак
+**Plural:** *tobaccos* &middot; *tobaccoes* — both correct, but the word is usually uncountable
+**Countability:** uncountable as a substance; countable as varieties
+**Agreement:** singular verb — *tobacco is still grown here*
+**Pattern:** consonant + o → either &middot; **Group:** 5
+**Type:** concrete
+
+The dried leaves smoked or chewed.
+
+**1. The substance.** Uncountable. (табак)
+
+1. *Tobacco* is still grown across the state.
+2. He gave up *tobacco* at forty.
+3. The smell of *tobacco* was everywhere.
+
+**2. Varieties.** Countable. (сорта табака)
+
+4. The shop stocks a dozen *tobaccos*.
+5. Both *tobaccos* are cured the same way.
+
+**See also:** [potato](#potato)
+
+---
+
+### portfolio
+
+**Pronunciation:** /pɔːrtˈfoʊlioʊ/ &middot; *port-FOH-lee-oh*
+**Русский:** портфолио; портфель (ценных бумаг)
+**Plural:** *portfolios* /pɔːrtˈfoʊlioʊz/ — always *-s*
+**Countability:** countable
+**Agreement:** plural verb — *the portfolios were reviewed*
+**Pattern:** vowel + o → *-s* &middot; **Group:** 5
+**Type:** concrete and abstract
+**Contrast:** ✗ *Portfolioes* is wrong. Any *-o* after a vowel takes plain *-s*.
+
+A case of work samples; a set of investments; a minister's area of responsibility.
+
+**1. A collection of work.** (портфолио)
+
+1. Bring your *portfolio* to the interview.
+2. All the *portfolios* were reviewed anonymously.
+
+**2. A set of investments.** (инвестиционный портфель)
+
+3. Her *portfolio* is heavily weighted toward bonds.
+4. Both *portfolios* lost value that quarter.
+
+**3. A government responsibility.** (министерский портфель)
+
+5. He held the defense *portfolio* for six years.
+
+**See also:** [studio](#studio) &middot; [ratio](#ratio)
+
+---
+
+### ratio
+
+**Pronunciation:** /ˈreɪʃioʊ/ &middot; *RAY-shee-oh*
+**Русский:** соотношение
+**Plural:** *ratios* /ˈreɪʃioʊz/ — always *-s*
+**Countability:** countable
+**Agreement:** plural verb — *the ratios are comparable*
+**Pattern:** vowel + o → *-s* &middot; **Group:** 5
+**Type:** abstract
+**Contrast:** ✗ *Ratioes* is wrong.
+
+The quantitative relation between two amounts.
+
+**1. The relation.** (соотношение)
+
+1. The student-to-teacher *ratio* is twelve to one.
+2. Both *ratios* have improved since last year.
+3. Mix it in a *ratio* of three to one.
+4. The debt-to-income *ratio* disqualified them.
+5. Compare the *ratios* across all four sites.
+
+**See also:** [portfolio](#portfolio)
+
+---
+
+### patio
+
+**Pronunciation:** /ˈpætioʊ/ &middot; *PAT-ee-oh*
+**Русский:** патио, внутренний дворик
+**Plural:** *patios* /ˈpætioʊz/ — always *-s*
+**Countability:** countable
+**Agreement:** plural verb — *the patios face south*
+**Pattern:** vowel + o → *-s* &middot; **Group:** 5
+**Type:** concrete
+**Contrast:** ✗ *Patioes* is wrong. From Spanish, where it means an inner courtyard.
+
+A paved outdoor area beside a house.
+
+**1. The outdoor area.** (патио)
+
+1. We ate dinner on the *patio*.
+2. Both *patios* face south.
+3. They poured a concrete *patio* last summer.
+4. The restaurant's *patio* seats forty.
+5. All the *patios* have the same view.
+
+**See also:** [studio](#studio)
+
+---
+
+### rodeo
+
+**Pronunciation:** /ˈroʊdioʊ/ &middot; *ROH-dee-oh* — also /roʊˈdeɪoʊ/
+**Русский:** родео
+**Plural:** *rodeos* /ˈroʊdioʊz/ — always *-s*
+**Countability:** countable
+**Agreement:** plural verb — *the rodeos draw big crowds*
+**Pattern:** vowel + o → *-s* &middot; **Group:** 5
+**Type:** concrete
+**Contrast:** Two accepted pronunciations in American English. The Los Angeles street is *Rodeo Drive*, pronounced *roh-DAY-oh*.
+
+The competitive display of cowboy skills.
+
+**1. The event.** (родео)
+
+1. The *rodeo* comes to town every August.
+2. Both *rodeos* were rained out.
+3. He rode in *rodeos* for fifteen years.
+4. Small-town *rodeos* still draw big crowds.
+5. This isn't my first *rodeo*.
+
+**See also:** [patio](#patio)
+
+---
+
+### scenario
+
+**Pronunciation:** /səˈnærioʊ/ &middot; *suh-NAR-ee-oh*
+**Русский:** сценарий, вариант развития
+**Plural:** *scenarios* /səˈnærioʊz/ — always *-s*
+**Countability:** countable
+**Agreement:** plural verb — *both scenarios are plausible*
+**Pattern:** vowel + o → *-s* &middot; **Group:** 5
+**Type:** abstract
+**Contrast:** ✗ *Scenarioes* is wrong. In English this means a hypothetical situation; in several European languages the cognate means a film script, which in English is a *screenplay*.
+
+A possible sequence of events.
+
+**1. A possible situation.** (сценарий развития)
+
+1. The worst-case *scenario* is a total shutdown.
+2. Both *scenarios* are plausible.
+3. Planners modeled six *scenarios*.
+4. In that *scenario*, nobody wins.
+5. Several *scenarios* were ruled out immediately.
+
+**See also:** [portfolio](#portfolio)
+
+---
+
+### trio
+
+**Pronunciation:** /ˈtriːoʊ/ &middot; *TREE-oh*
+**Русский:** трио
+**Plural:** *trios* /ˈtriːoʊz/ — always *-s*
+**Countability:** countable
+**Agreement:** singular as a group in American English — *the trio is touring*
+**Pattern:** vowel + o → *-s* &middot; **Group:** 5
+**Type:** concrete
+**Contrast:** ✗ *Trioes* is wrong. Also a collective noun, so it follows the American singular-verb rule: *the trio **is** playing tonight*.
+
+A group of three, especially of musicians.
+
+**1. A group of three.** (трио)
+
+1. The *trio* is touring through the spring.
+2. Both *trios* played the same program.
+3. A jazz *trio* was set up in the corner.
+4. The *trio* of investigators worked for months.
+5. Several string *trios* were commissioned.
+
+**See also:** [duo](#duo) &middot; [solo](#solo)
+
+---
+
+### duo
+
+**Pronunciation:** /ˈduːoʊ/ &middot; *DOO-oh*
+**Русский:** дуэт
+**Plural:** *duos* /ˈduːoʊz/ — always *-s*
+**Countability:** countable
+**Agreement:** singular as a group in American English — *the duo is recording*
+**Pattern:** vowel + o → *-s* &middot; **Group:** 5
+**Type:** concrete
+
+A pair, especially of performers.
+
+**1. A pair.** (дуэт, дуэт исполнителей)
+
+1. The *duo* is recording a second album.
+2. Both *duos* auditioned the same evening.
+3. They performed as a *duo* for twenty years.
+4. Comedy *duos* were the staple of that era.
+5. The *duo* of writers shared every credit.
+
+**See also:** [trio](#trio)
+
+---
+
+### zoo
+
+**Pronunciation:** /zuː/ &middot; *zoo*
+**Русский:** зоопарк
+**Plural:** *zoos* /zuːz/ — always *-s*
+**Countability:** countable
+**Agreement:** plural verb — *both zoos are accredited*
+**Pattern:** vowel + o → *-s* &middot; **Group:** 5
+**Type:** concrete
+**Contrast:** ✗ *Zooes* is wrong. Short for *zoological garden*.
+
+A place where animals are kept and displayed.
+
+**1. The institution.** (зоопарк)
+
+1. Both *zoos* are accredited.
+2. The *zoo* opens at nine.
+3. She worked at three different *zoos*.
+4. City *zoos* have changed enormously.
+
+**2. A chaotic place.** Figurative, informal. (сумасшедший дом)
+
+5. The office was a complete *zoo* all week.
+
+**See also:** [patio](#patio)
+
+---
+
+### cameo
+
+**Pronunciation:** /ˈkæmioʊ/ &middot; *KAM-ee-oh*
+**Русский:** камея; эпизодическая роль
+**Plural:** *cameos* /ˈkæmioʊz/ — always *-s*
+**Countability:** countable
+**Agreement:** plural verb — *the cameos were uncredited*
+**Pattern:** vowel + o → *-s* &middot; **Group:** 5
+**Type:** concrete and abstract
+
+A carved gem; also a brief appearance by a well-known person.
+
+**1. A brief appearance.** (эпизодическая роль)
+
+1. He makes a *cameo* in the last episode.
+2. Both *cameos* were uncredited.
+3. The film is full of *cameos*.
+
+**2. A carved relief gem.** (камея)
+
+4. She wore a *cameo* on a black ribbon.
+5. The museum holds several Roman *cameos*.
+
+**See also:** [portfolio](#portfolio)

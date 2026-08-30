@@ -692,7 +692,8 @@
           "n": "1",
           "head": "The taxonomic rank",
           "body": [
-            "(род)"
+            "(род)",
+            "---"
           ],
           "examples": [
             "All these plants belong to the same genus.",
@@ -712,6 +713,806 @@
       "type": "abstract",
       "contrast": "Note the vowel shift: singular JEE-nuhs, plural JEN-ur-uh. Not ✗ genuses in scientific writing, and never ✗ geni. In classification a genus sits above a species.",
       "see also": "corpus · species"
+    },
+    {
+      "term": "calculus",
+      "ipa": "/ˈkælkjələs/",
+      "respell": "KAL-kyuh-luhs",
+      "meaning": "The branch of mathematics dealing with rates of change; in medicine, a stone.",
+      "examples": [
+        "Calculus is required for every engineering major.",
+        "He teaches introductory calculus.",
+        "The whole model rests on basic calculus.",
+        "Renal calculi were visible on the scan.",
+        "A single calculus was blocking the duct."
+      ],
+      "senses": [
+        {
+          "n": "1",
+          "head": "The mathematics",
+          "body": [
+            "Uncountable. (математический анализ)"
+          ],
+          "examples": [
+            "Calculus is required for every engineering major.",
+            "He teaches introductory calculus.",
+            "The whole model rests on basic calculus."
+          ]
+        },
+        {
+          "n": "2",
+          "head": "A stone in the body",
+          "body": [
+            "Countable. (камень)",
+            "---"
+          ],
+          "examples": [
+            "Renal calculi were visible on the scan.",
+            "A single calculus was blocking the duct."
+          ]
+        }
+      ],
+      "русский": "математический анализ; камень (мед.)",
+      "plural": "calculi /ˈkælkjəlaɪ/ (medical) · calculuses rarely",
+      "countability": "uncountable as the branch of mathematics; countable in medicine",
+      "agreement": "singular verb — calculus is required",
+      "group": "6",
+      "pattern": "Latin -us → -i",
+      "type": "abstract and concrete",
+      "contrast": "The mathematics sense has no plural at all — ✗ two calculi of mathematics is wrong. The medical sense, meaning a stone in the body, does: renal calculi. Latin calculus meant a pebble used for counting.",
+      "see also": "locus · radius"
+    },
+    {
+      "term": "locus",
+      "ipa": "/ˈloʊkəs/",
+      "respell": "LOH-kuhs",
+      "meaning": "A particular position or place; in genetics, a gene's position on a chromosome.",
+      "examples": [
+        "The court is the locus of the dispute.",
+        "Several loci of resistance emerged.",
+        "The city was the locus of the whole movement.",
+        "Both loci are on the same chromosome.",
+        "The locus was mapped in 1998."
+      ],
+      "senses": [
+        {
+          "n": "1",
+          "head": "A center or position",
+          "body": [
+            "(средоточие, место)"
+          ],
+          "examples": [
+            "The court is the locus of the dispute.",
+            "Several loci of resistance emerged.",
+            "The city was the locus of the whole movement."
+          ]
+        },
+        {
+          "n": "2",
+          "head": "A gene's position",
+          "body": [
+            "Genetics. (локус)",
+            "---"
+          ],
+          "examples": [
+            "Both loci are on the same chromosome.",
+            "The locus was mapped in 1998."
+          ]
+        }
+      ],
+      "русский": "место, локус",
+      "plural": "loci /ˈloʊsaɪ/ · LOH-sy",
+      "countability": "countable",
+      "agreement": "plural verb — the loci are mapped",
+      "group": "6",
+      "pattern": "Latin -us → -i",
+      "type": "abstract",
+      "variants": "✗ locuses is not used",
+      "contrast": "Note the c is /s/ in the plural, as in foci. The fixed phrase locus of control is standard in psychology.",
+      "see also": "focus · calculus"
+    },
+    {
+      "term": "thesaurus",
+      "ipa": "/θɪˈsɔːrəs/",
+      "respell": "thih-SOR-uhs",
+      "meaning": "A book of words grouped by meaning.",
+      "examples": [
+        "Look it up in a thesaurus.",
+        "Both thesauri give the same synonyms.",
+        "He keeps three thesauruses on the shelf.",
+        "A good thesaurus is not a list of equivalents.",
+        "The online thesaurus is far easier to search."
+      ],
+      "senses": [
+        {
+          "n": "1",
+          "head": "The reference book",
+          "body": [
+            "(словарь синонимов)",
+            "---"
+          ],
+          "examples": [
+            "Look it up in a thesaurus.",
+            "Both thesauri give the same synonyms.",
+            "He keeps three thesauruses on the shelf.",
+            "A good thesaurus is not a list of equivalents.",
+            "The online thesaurus is far easier to search."
+          ]
+        }
+      ],
+      "русский": "тезаурус, словарь синонимов",
+      "plural": "thesauri /θɪˈsɔːraɪ/ · thesauruses — both correct",
+      "countability": "countable",
+      "agreement": "plural verb — both thesauri are outdated",
+      "group": "6",
+      "pattern": "Latin -us → -i",
+      "type": "concrete",
+      "variants": "thesauruses is commoner in everyday American use",
+      "contrast": "From Greek by way of Latin, meaning 'treasure house' — the same root as treasure.",
+      "see also": "syllabus"
+    },
+    {
+      "term": "stylus",
+      "ipa": "/ˈstaɪləs/",
+      "respell": "STY-luhs",
+      "meaning": "A pointed instrument for writing or for playing records.",
+      "examples": [
+        "The tablet comes with a stylus.",
+        "Both styluses were lost within a month.",
+        "Ancient scribes used a stylus on wax.",
+        "The turntable needs a new stylus.",
+        "Several styli were found at the site."
+      ],
+      "senses": [
+        {
+          "n": "1",
+          "head": "The pointed instrument",
+          "body": [
+            "(стилус)",
+            "---"
+          ],
+          "examples": [
+            "The tablet comes with a stylus.",
+            "Both styluses were lost within a month.",
+            "Ancient scribes used a stylus on wax.",
+            "The turntable needs a new stylus.",
+            "Several styli were found at the site."
+          ]
+        }
+      ],
+      "русский": "стилус; игла звукоснимателя",
+      "plural": "styli /ˈstaɪlaɪ/ · styluses — both correct",
+      "countability": "countable",
+      "agreement": "plural verb — the styluses are magnetic",
+      "group": "6",
+      "pattern": "Latin -us → -i",
+      "type": "concrete",
+      "variants": "styluses is commoner in technology writing",
+      "see also": "papyrus"
+    },
+    {
+      "term": "papyrus",
+      "ipa": "/pəˈpaɪrəs/",
+      "respell": "puh-PY-ruhs",
+      "meaning": "The reed-based writing material of antiquity, and documents written on it.",
+      "examples": [
+        "The text was written on papyrus.",
+        "Papyrus survives only in dry conditions.",
+        "The museum holds four hundred papyri.",
+        "A single papyrus names the whole family.",
+        "Both papyruses were badly damaged."
+      ],
+      "senses": [
+        {
+          "n": "1",
+          "head": "The material",
+          "body": [
+            "Uncountable. (папирус как материал)"
+          ],
+          "examples": [
+            "The text was written on papyrus.",
+            "Papyrus survives only in dry conditions."
+          ]
+        },
+        {
+          "n": "2",
+          "head": "A document",
+          "body": [
+            "Countable. (папирусный свиток)",
+            "---"
+          ],
+          "examples": [
+            "The museum holds four hundred papyri.",
+            "A single papyrus names the whole family.",
+            "Both papyruses were badly damaged."
+          ]
+        }
+      ],
+      "русский": "папирус",
+      "plural": "papyri /pəˈpaɪraɪ/ · papyruses — both correct",
+      "countability": "countable, and uncountable as a material",
+      "agreement": "plural verb — the papyri are fragile",
+      "group": "6",
+      "pattern": "Latin -us → -i",
+      "type": "concrete",
+      "variants": "papyri is standard in scholarship",
+      "see also": "stylus · codex"
+    },
+    {
+      "term": "terminus",
+      "ipa": "/ˈtɜːrmɪnəs/",
+      "respell": "TUR-mih-nuhs",
+      "meaning": "The end point of a route or line.",
+      "examples": [
+        "The line's northern terminus is here.",
+        "Both termini are downtown.",
+        "The bus terminus was rebuilt last year.",
+        "Several terminuses were closed for repair.",
+        "The pipeline's terminus is on the coast."
+      ],
+      "senses": [
+        {
+          "n": "1",
+          "head": "The end of a route",
+          "body": [
+            "(конечная станция)",
+            "---"
+          ],
+          "examples": [
+            "The line's northern terminus is here.",
+            "Both termini are downtown.",
+            "The bus terminus was rebuilt last year.",
+            "Several terminuses were closed for repair.",
+            "The pipeline's terminus is on the coast."
+          ]
+        }
+      ],
+      "русский": "конечная станция",
+      "plural": "termini /ˈtɜːrmɪnaɪ/ · terminuses — both correct",
+      "countability": "countable",
+      "agreement": "plural verb — both termini are downtown",
+      "group": "6",
+      "pattern": "Latin -us → -i",
+      "type": "concrete",
+      "see also": "radius"
+    },
+    {
+      "term": "hippopotamus",
+      "ipa": "/ˌhɪpəˈpɑːtəməs/",
+      "respell": "hip-uh-PAH-tuh-muhs",
+      "meaning": "The large African river mammal.",
+      "examples": [
+        "Two hippopotamuses surfaced near the boat.",
+        "Hippos kill more people than lions do.",
+        "A single hippopotamus can weigh three tons.",
+        "The zoo's hippos share one pool.",
+        "Hippopotami is a joke, not a plural."
+      ],
+      "senses": [
+        {
+          "n": "1",
+          "head": "The animal",
+          "body": [
+            "(бегемот)",
+            "---"
+          ],
+          "examples": [
+            "Two hippopotamuses surfaced near the boat.",
+            "Hippos kill more people than lions do.",
+            "A single hippopotamus can weigh three tons.",
+            "The zoo's hippos share one pool.",
+            "Hippopotami is a joke, not a plural."
+          ]
+        }
+      ],
+      "русский": "бегемот, гиппопотам",
+      "plural": "hippopotamuses — usual · hippopotami /-maɪ/",
+      "countability": "countable",
+      "agreement": "plural verb — the hippopotamuses are submerged",
+      "group": "6 (trap)",
+      "pattern": "Greek, so the Latin -i has no basis",
+      "type": "concrete",
+      "variants": "shortened to hippo / hippos in ordinary speech",
+      "contrast": "Like octopus, this is Greek, not Latin — hippopotami is a jocular formation, not a historical plural. Say hippopotamuses, or just hippos.",
+      "see also": "octopus · platypus"
+    },
+    {
+      "term": "platypus",
+      "ipa": "/ˈplætɪpəs/",
+      "respell": "PLAT-ih-puhs",
+      "meaning": "The egg-laying Australian mammal with a duck-like bill.",
+      "examples": [
+        "Two platypuses live in the creek.",
+        "The platypus is one of only five egg-laying mammals.",
+        "Platypuses hunt with their eyes closed.",
+        "A male platypus has a venomous spur.",
+        "✗ Platypi has no historical basis at all."
+      ],
+      "senses": [
+        {
+          "n": "1",
+          "head": "The animal",
+          "body": [
+            "(утконос)",
+            "---"
+          ],
+          "examples": [
+            "Two platypuses live in the creek.",
+            "The platypus is one of only five egg-laying mammals.",
+            "Platypuses hunt with their eyes closed.",
+            "A male platypus has a venomous spur.",
+            "✗ Platypi has no historical basis at all."
+          ]
+        }
+      ],
+      "русский": "утконос",
+      "plural": "platypuses — usual · platypodes in strict Greek",
+      "countability": "countable",
+      "agreement": "plural verb — the platypuses are nocturnal",
+      "group": "6 (trap)",
+      "pattern": "Greek, so the Latin -i has no basis",
+      "type": "concrete",
+      "contrast": "✗ Platypi is wrong for the same reason as ✗ octopi — the word is Greek. Write platypuses.",
+      "see also": "octopus · hippopotamus"
+    },
+    {
+      "term": "apparatus",
+      "ipa": "/ˌæpəˈrætəs/",
+      "respell": "ap-uh-RAT-uhs",
+      "meaning": "Equipment for a particular purpose; also an organizational structure.",
+      "examples": [
+        "The lab's apparatus is forty years old.",
+        "Several apparatuses failed the inspection.",
+        "Breathing apparatus is mandatory below deck.",
+        "The whole party apparatus backed him.",
+        "The security apparatus answers to no one."
+      ],
+      "senses": [
+        {
+          "n": "1",
+          "head": "Equipment",
+          "body": [
+            "(аппаратура)"
+          ],
+          "examples": [
+            "The lab's apparatus is forty years old.",
+            "Several apparatuses failed the inspection.",
+            "Breathing apparatus is mandatory below deck."
+          ]
+        },
+        {
+          "n": "2",
+          "head": "An organizational structure",
+          "body": [
+            "Figurative. (аппарат, механизм)",
+            "---"
+          ],
+          "examples": [
+            "The whole party apparatus backed him.",
+            "The security apparatus answers to no one."
+          ]
+        }
+      ],
+      "русский": "аппарат, оборудование",
+      "plural": "apparatuses — usual · apparatus unchanged",
+      "countability": "countable, and often uncountable",
+      "agreement": "either — the apparatus is / the apparatuses are",
+      "group": "6 (trap)",
+      "pattern": "Latin fourth declension — never -i",
+      "type": "concrete and abstract",
+      "contrast": "✗ Apparati is wrong. This is a fourth-declension Latin noun whose plural was identical to its singular, so English uses either the unchanged form or a regular -es.",
+      "see also": "status · census"
+    },
+    {
+      "term": "status",
+      "ipa": "/ˈsteɪtəs/",
+      "respell": "STAY-tuhs",
+      "meaning": "Someone's position or rank; the current state of something.",
+      "examples": [
+        "Her status in the firm is unchanged.",
+        "Marital status is not a permitted question.",
+        "Social status mattered enormously there.",
+        "Check the status of your application.",
+        "All three statuses were listed as pending."
+      ],
+      "senses": [
+        {
+          "n": "1",
+          "head": "Position or rank",
+          "body": [
+            "(статус)"
+          ],
+          "examples": [
+            "Her status in the firm is unchanged.",
+            "Marital status is not a permitted question.",
+            "Social status mattered enormously there."
+          ]
+        },
+        {
+          "n": "2",
+          "head": "Current state",
+          "body": [
+            "(состояние)",
+            "---"
+          ],
+          "examples": [
+            "Check the status of your application.",
+            "All three statuses were listed as pending."
+          ]
+        }
+      ],
+      "pronunciation note": "also /ˈstætəs/",
+      "русский": "статус, положение",
+      "plural": "statuses /ˈsteɪtəsɪz/ — regular",
+      "countability": "countable, and often uncountable",
+      "agreement": "singular verb — her status is unchanged",
+      "group": "6 (trap)",
+      "pattern": "Latin fourth declension — regular -es",
+      "type": "abstract",
+      "contrast": "✗ Stati is wrong and sounds like a joke. Both American pronunciations are accepted.",
+      "see also": "apparatus · census"
+    },
+    {
+      "term": "census",
+      "ipa": "/ˈsɛnsəs/",
+      "respell": "SEN-suhs",
+      "meaning": "An official count of a population.",
+      "examples": [
+        "The census is taken every ten years.",
+        "Both censuses undercounted rural areas.",
+        "Census data determines representation.",
+        "She worked as a census taker one summer.",
+        "Three censuses have been held since then."
+      ],
+      "senses": [
+        {
+          "n": "1",
+          "head": "The population count",
+          "body": [
+            "(перепись)",
+            "---"
+          ],
+          "examples": [
+            "The census is taken every ten years.",
+            "Both censuses undercounted rural areas.",
+            "Census data determines representation.",
+            "She worked as a census taker one summer.",
+            "Three censuses have been held since then."
+          ]
+        }
+      ],
+      "русский": "перепись населения",
+      "plural": "censuses /ˈsɛnsəsɪz/ — regular",
+      "countability": "countable",
+      "agreement": "plural verb — both censuses undercounted",
+      "group": "6 (trap)",
+      "pattern": "Latin fourth declension — regular -es",
+      "type": "abstract",
+      "contrast": "✗ Censi is wrong. Do not confuse with censor (one who suppresses) or sensor (a detecting device).",
+      "see also": "status · consensus"
+    },
+    {
+      "term": "consensus",
+      "ipa": "/kənˈsɛnsəs/",
+      "respell": "kuhn-SEN-suhs",
+      "meaning": "General agreement.",
+      "examples": [
+        "The consensus is that it will not pass.",
+        "There is no consensus among the experts.",
+        "They reached a consensus after six hours.",
+        "Scientific consensus has shifted on this.",
+        "The committee governs by consensus."
+      ],
+      "senses": [
+        {
+          "n": "1",
+          "head": "General agreement",
+          "body": [
+            "(консенсус)",
+            "---"
+          ],
+          "examples": [
+            "The consensus is that it will not pass.",
+            "There is no consensus among the experts.",
+            "They reached a consensus after six hours.",
+            "Scientific consensus has shifted on this.",
+            "The committee governs by consensus."
+          ]
+        }
+      ],
+      "русский": "консенсус, согласие",
+      "plural": "consensuses — rare; the word is usually uncountable",
+      "countability": "uncountable in ordinary use",
+      "agreement": "singular verb — the consensus is clear",
+      "group": "6 (trap)",
+      "pattern": "Latin fourth declension — regular -es",
+      "type": "abstract",
+      "contrast": "✗ Consensi is wrong. Note also the redundant phrase general consensus of opinion — consensus already means agreement of opinion.",
+      "see also": "census · status"
+    },
+    {
+      "term": "genius",
+      "ipa": "/ˈdʒiːniəs/",
+      "respell": "JEE-nee-uhs",
+      "meaning": "An exceptionally intelligent person; also exceptional ability.",
+      "examples": [
+        "She is a genuine mathematical genius.",
+        "The room was full of geniuses and none of them agreed.",
+        "Two geniuses worked on the same problem separately.",
+        "There is real genius in that design.",
+        "His genius was for organization, not invention."
+      ],
+      "senses": [
+        {
+          "n": "1",
+          "head": "A brilliant person",
+          "body": [
+            "Countable. (гений)"
+          ],
+          "examples": [
+            "She is a genuine mathematical genius.",
+            "The room was full of geniuses and none of them agreed.",
+            "Two geniuses worked on the same problem separately."
+          ]
+        },
+        {
+          "n": "2",
+          "head": "Exceptional ability",
+          "body": [
+            "Uncountable. (гениальность)",
+            "---"
+          ],
+          "examples": [
+            "There is real genius in that design.",
+            "His genius was for organization, not invention."
+          ]
+        }
+      ],
+      "русский": "гений; гениальность",
+      "plural": "geniuses — for people · genii /ˈdʒiːniaɪ/ for spirits",
+      "countability": "countable as a person; uncountable as the quality",
+      "agreement": "plural verb — the geniuses disagreed",
+      "group": "6 (trap)",
+      "pattern": "regular -es for people",
+      "type": "concrete and abstract",
+      "variants": "genii survives only for guardian spirits and the genie of folklore",
+      "contrast": "✗ Genii for clever people is wrong. Brilliant people are geniuses; the plural genii belongs to mythology.",
+      "see also": "status"
+    },
+    {
+      "term": "opus",
+      "ipa": "/ˈoʊpəs/",
+      "respell": "OH-puhs",
+      "meaning": "A musical or artistic work, especially one in a numbered sequence.",
+      "examples": [
+        "The sonata is his Opus 27.",
+        "Both opuses date from the same year.",
+        "Her magnum opus took eleven years.",
+        "The catalogue lists all the opera in order. (rare)",
+        "Several late opuses were never performed."
+      ],
+      "senses": [
+        {
+          "n": "1",
+          "head": "A numbered work",
+          "body": [
+            "(опус)",
+            "---"
+          ],
+          "examples": [
+            "The sonata is his Opus 27.",
+            "Both opuses date from the same year.",
+            "Her magnum opus took eleven years.",
+            "The catalogue lists all the opera in order. (rare)",
+            "Several late opuses were never performed."
+          ]
+        }
+      ],
+      "русский": "опус, произведение",
+      "plural": "opera /ˈɑːpərə/ · opuses — both correct",
+      "countability": "countable",
+      "agreement": "plural verb — the opuses were catalogued",
+      "group": "6",
+      "pattern": "Latin third declension → -era",
+      "type": "abstract",
+      "variants": "opuses is commoner; opera in this sense is rare and confusing",
+      "contrast": "The Latin plural opera is the same word as the musical form opera, which entered English separately and has its own regular plural operas. Because of that collision, most writers use opuses. Compare corpus → corpora, genus → genera.",
+      "see also": "corpus · genus"
+    },
+    {
+      "term": "crocus",
+      "ipa": "/ˈkroʊkəs/",
+      "respell": "KROH-kuhs",
+      "meaning": "The small early-spring flower.",
+      "examples": [
+        "The crocuses are up already.",
+        "She planted two hundred crocuses along the path.",
+        "A single crocus pushed through the snow.",
+        "Purple crocuses come first, then the yellow.",
+        "Saffron comes from a particular crocus."
+      ],
+      "senses": [
+        {
+          "n": "1",
+          "head": "The flower",
+          "body": [
+            "(крокус)",
+            "---"
+          ],
+          "examples": [
+            "The crocuses are up already.",
+            "She planted two hundred crocuses along the path.",
+            "A single crocus pushed through the snow.",
+            "Purple crocuses come first, then the yellow.",
+            "Saffron comes from a particular crocus."
+          ]
+        }
+      ],
+      "русский": "крокус",
+      "plural": "crocuses — usual · croci /ˈkroʊsaɪ/",
+      "countability": "countable",
+      "agreement": "plural verb — the crocuses are up",
+      "group": "6",
+      "pattern": "Latin -us → -i, but the regular form dominates",
+      "type": "concrete",
+      "variants": "crocuses is standard in gardening; croci is pedantic",
+      "see also": "cactus · narcissus"
+    },
+    {
+      "term": "narcissus",
+      "ipa": "/nɑːrˈsɪsəs/",
+      "respell": "nar-SIS-uhs",
+      "meaning": "The spring flower of the daffodil family.",
+      "examples": [
+        "The narcissi bloom before the tulips.",
+        "She planted narcissuses under the apple tree.",
+        "A single white narcissus stood in a vase.",
+        "Both narcissi came from the same bulb.",
+        "Paperwhite narcissi can be forced indoors."
+      ],
+      "senses": [
+        {
+          "n": "1",
+          "head": "The flower",
+          "body": [
+            "(нарцисс)",
+            "---"
+          ],
+          "examples": [
+            "The narcissi bloom before the tulips.",
+            "She planted narcissuses under the apple tree.",
+            "A single white narcissus stood in a vase.",
+            "Both narcissi came from the same bulb.",
+            "Paperwhite narcissi can be forced indoors."
+          ]
+        }
+      ],
+      "русский": "нарцисс",
+      "plural": "narcissi /nɑːrˈsɪsaɪ/ · narcissuses — both correct",
+      "countability": "countable",
+      "agreement": "plural verb — the narcissi are blooming",
+      "group": "6",
+      "pattern": "Latin -us → -i",
+      "type": "concrete",
+      "contrast": "Named for the Greek youth who fell in love with his reflection — the same source as narcissism.",
+      "see also": "crocus"
+    },
+    {
+      "term": "sarcophagus",
+      "ipa": "/sɑːrˈkɑːfəɡəs/",
+      "respell": "sar-KAH-fuh-guhs",
+      "meaning": "A stone coffin.",
+      "examples": [
+        "The sarcophagus was carved from a single block.",
+        "Three sarcophagi stood along the wall.",
+        "Both sarcophaguses were empty.",
+        "The museum's Egyptian sarcophagi draw the crowds.",
+        "A painted sarcophagus was found intact."
+      ],
+      "senses": [
+        {
+          "n": "1",
+          "head": "The stone coffin",
+          "body": [
+            "(саркофаг)",
+            "---"
+          ],
+          "examples": [
+            "The sarcophagus was carved from a single block.",
+            "Three sarcophagi stood along the wall.",
+            "Both sarcophaguses were empty.",
+            "The museum's Egyptian sarcophagi draw the crowds.",
+            "A painted sarcophagus was found intact."
+          ]
+        }
+      ],
+      "русский": "саркофаг",
+      "plural": "sarcophagi /sɑːrˈkɑːfəɡaɪ/ · sarcophaguses — both correct",
+      "countability": "countable",
+      "agreement": "plural verb — the sarcophagi are on display",
+      "group": "6",
+      "pattern": "Greek via Latin -us → -i",
+      "type": "concrete",
+      "variants": "sarcophagi is standard in archaeology",
+      "contrast": "Literally 'flesh-eating' in Greek, from the limestone believed to consume bodies.",
+      "see also": "papyrus"
+    },
+    {
+      "term": "esophagus",
+      "ipa": "/ɪˈsɑːfəɡəs/",
+      "respell": "ih-SAH-fuh-guhs",
+      "meaning": "The tube connecting the throat to the stomach.",
+      "examples": [
+        "The esophagus is about ten inches long.",
+        "Both esophagi showed the same damage.",
+        "Acid reflux irritates the esophagus.",
+        "The scope passes down the esophagus.",
+        "Several esophaguses were examined in the study."
+      ],
+      "senses": [
+        {
+          "n": "1",
+          "head": "The organ",
+          "body": [
+            "(пищевод)",
+            "---"
+          ],
+          "examples": [
+            "The esophagus is about ten inches long.",
+            "Both esophagi showed the same damage.",
+            "Acid reflux irritates the esophagus.",
+            "The scope passes down the esophagus.",
+            "Several esophaguses were examined in the study."
+          ]
+        }
+      ],
+      "русский": "пищевод",
+      "plural": "esophagi /ɪˈsɑːfəɡaɪ/ · esophaguses — both correct",
+      "countability": "countable",
+      "agreement": "plural verb — the esophagi were examined",
+      "group": "6",
+      "pattern": "Greek via Latin -us → -i",
+      "type": "concrete",
+      "variants": "the British spelling is oesophagus",
+      "see also": "uterus"
+    },
+    {
+      "term": "uterus",
+      "ipa": "/ˈjuːtərəs/",
+      "respell": "YOO-tur-uhs",
+      "meaning": "The female reproductive organ.",
+      "examples": [
+        "The uterus doubles in size during pregnancy.",
+        "Both uteri were normal on the scan.",
+        "The lining of the uterus sheds monthly.",
+        "Several uteruses were studied in the trial.",
+        "The muscle of the uterus is exceptionally strong."
+      ],
+      "senses": [
+        {
+          "n": "1",
+          "head": "The organ",
+          "body": [
+            "(матка)"
+          ],
+          "examples": [
+            "The uterus doubles in size during pregnancy.",
+            "Both uteri were normal on the scan.",
+            "The lining of the uterus sheds monthly.",
+            "Several uteruses were studied in the trial.",
+            "The muscle of the uterus is exceptionally strong."
+          ]
+        }
+      ],
+      "русский": "матка",
+      "plural": "uteri /ˈjuːtəraɪ/ · uteruses — both correct",
+      "countability": "countable",
+      "agreement": "plural verb — the uteri were measured",
+      "group": "6",
+      "pattern": "Latin -us → -i",
+      "type": "concrete",
+      "variants": "uteruses is commoner outside medical writing",
+      "see also": "esophagus"
     }
   ]
 }

@@ -478,3 +478,344 @@ A complete change of form; in biology, the transformation of a larva into an adu
 5. Her *metamorphosis* from intern to editor took four years.
 
 **See also:** [crisis](#crisis)
+
+---
+
+### antithesis
+
+**Pronunciation:** /ænˈtɪθəsɪs/ &middot; *an-TITH-uh-sis*
+**Русский:** антитеза, противоположность
+**Plural:** *antitheses* /ænˈtɪθəsiːz/ &middot; *an-TITH-uh-seez*
+**Countability:** countable
+**Agreement:** plural verb — *the antitheses are deliberate*
+**Pattern:** Greek *-sis* → *-ses* &middot; **Group:** 9
+**Type:** abstract
+**Contrast:** Note the stress moves to the second syllable, unlike *thesis*. Very commonly used in the phrase *the antithesis of*, meaning the exact opposite.
+
+The direct opposite; a contrast of ideas.
+
+**1. The direct opposite.** (противоположность)
+
+1. He is the *antithesis* of everything she admires.
+2. The two proposals are perfect *antitheses*.
+3. Her style is the *antithesis* of his.
+
+**2. A rhetorical contrast.** (антитеза)
+
+4. The speech is built on a series of *antitheses*.
+5. That line is a textbook *antithesis*.
+
+**See also:** [thesis](#thesis) &middot; [synthesis](#synthesis)
+
+---
+
+### genesis
+
+**Pronunciation:** /ˈdʒɛnəsɪs/ &middot; *JEN-uh-sis*
+**Русский:** зарождение, генезис
+**Plural:** *geneses* /ˈdʒɛnəsiːz/ &middot; *JEN-uh-seez*
+**Countability:** countable, usually singular
+**Agreement:** singular verb — *the genesis of the idea is unclear*
+**Pattern:** Greek *-sis* → *-ses* &middot; **Group:** 9
+**Type:** abstract
+**Contrast:** Capitalized, *Genesis* is the first book of the Bible. Lowercase, it means the origin of anything.
+
+The origin or beginning of something.
+
+**1. The origin.** (зарождение)
+
+1. The *genesis* of the project was a single conversation.
+2. Both *geneses* are described in the appendix.
+3. Nobody agrees on the *genesis* of the conflict.
+4. The book traces the *genesis* of the theory.
+5. Its *genesis* lies in nineteenth-century philosophy.
+
+**See also:** [metamorphosis](#metamorphosis)
+
+---
+
+### nemesis
+
+**Pronunciation:** /ˈnɛməsɪs/ &middot; *NEM-uh-sis*
+**Русский:** заклятый враг; возмездие
+**Plural:** *nemeses* /ˈnɛməsiːz/ &middot; *NEM-uh-seez*
+**Countability:** countable
+**Agreement:** plural verb — *his nemeses were all former allies*
+**Pattern:** Greek *-sis* → *-ses* &middot; **Group:** 9
+**Type:** abstract and concrete
+**Contrast:** Originally the Greek goddess of retribution. Modern use has drifted toward 'archenemy', which purists resist but which is now standard.
+
+A long-standing rival; also inescapable retribution.
+
+**1. A persistent rival.** (заклятый враг)
+
+1. He finally faced his old *nemesis*.
+2. Her *nemeses* were all former colleagues.
+3. Math was my *nemesis* all through school.
+
+**2. Retribution.** (возмездие)
+
+4. *Nemesis* caught up with him eventually.
+5. Both *nemeses* arrived in the same year.
+
+**See also:** [crisis](#crisis)
+
+---
+
+### paralysis
+
+**Pronunciation:** /pəˈræləsɪs/ &middot; *puh-RAL-uh-sis*
+**Русский:** паралич
+**Plural:** *paralyses* /pəˈræləsiːz/ &middot; *puh-RAL-uh-seez*
+**Countability:** countable, and often uncountable
+**Agreement:** singular verb — *the paralysis is temporary*
+**Pattern:** Greek *-sis* → *-ses* &middot; **Group:** 9
+**Type:** abstract
+**Contrast:** The verb is *paralyze* in American English, *paralyse* in British.
+
+Loss of the ability to move; also complete inaction.
+
+**1. Loss of movement.** (паралич)
+
+1. The *paralysis* is expected to be temporary.
+2. Both *paralyses* resulted from the same virus.
+3. *Paralysis* set in below the waist.
+
+**2. Total inaction.** Figurative. (паралич деятельности)
+
+4. Budget *paralysis* shut the agency down.
+5. Analysis leads to *paralysis*, as the saying goes.
+
+**See also:** [diagnosis](#diagnosis) &middot; [neurosis](#neurosis)
+
+---
+
+### catharsis
+
+**Pronunciation:** /kəˈθɑːrsɪs/ &middot; *kuh-THAR-sis*
+**Русский:** катарсис
+**Plural:** *catharses* /kəˈθɑːrsiːz/
+**Countability:** countable, and often uncountable
+**Agreement:** singular verb — *the catharsis was complete*
+**Pattern:** Greek *-sis* → *-ses* &middot; **Group:** 9
+**Type:** abstract
+**Contrast:** The adjective is *cathartic*, which is far commoner than the noun.
+
+The release of strong emotion, producing relief.
+
+**1. Emotional release.** (катарсис)
+
+1. Writing it down was a real *catharsis*.
+2. The play offers no *catharsis* at all.
+3. Both *catharses* came too late in the drama.
+4. Aristotle described tragedy as producing *catharsis*.
+5. She needed *catharsis*, not advice.
+
+**See also:** [crisis](#crisis)
+
+---
+
+### symbiosis
+
+**Pronunciation:** /ˌsɪmbiˈoʊsɪs/ &middot; *sim-bee-OH-sis*
+**Русский:** симбиоз
+**Plural:** *symbioses* /ˌsɪmbiˈoʊsiːz/
+**Countability:** countable, and often uncountable
+**Agreement:** singular verb — *the symbiosis is obligate*
+**Pattern:** Greek *-sis* → *-ses* &middot; **Group:** 9
+**Type:** abstract
+**Contrast:** The adjective *symbiotic* is much commoner in general use.
+
+A close and usually mutually beneficial relationship.
+
+**1. A close biological relationship.** (симбиоз)
+
+1. The fungus and the alga live in *symbiosis*.
+2. Several *symbioses* were described in the paper.
+3. The *symbiosis* is obligate for both organisms.
+
+**2. A mutually beneficial partnership.** Figurative. (симбиоз, взаимовыгодная связь)
+
+4. There is a strange *symbiosis* between the two industries.
+5. Both *symbioses* broke down under pressure.
+
+**See also:** [metamorphosis](#metamorphosis)
+
+---
+
+### osmosis
+
+**Pronunciation:** /ɑːzˈmoʊsɪs/ &middot; *ahz-MOH-sis*
+**Русский:** осмос
+**Plural:** *osmoses* /ɑːzˈmoʊsiːz/ — rare
+**Countability:** uncountable in ordinary use
+**Agreement:** singular verb — *osmosis is a passive process*
+**Pattern:** Greek *-sis* → *-ses* &middot; **Group:** 9
+**Type:** abstract
+**Contrast:** Very commonly used figuratively — *he learned it by osmosis* — meaning without deliberate effort.
+
+The passage of fluid through a membrane; figuratively, gradual absorption.
+
+**1. The physical process.** (осмос)
+
+1. *Osmosis* moves water across the membrane.
+2. Reverse *osmosis* is used to desalinate seawater.
+3. The cell swells through *osmosis*.
+
+**2. Absorbing something without effort.** Figurative. (незаметное усвоение)
+
+4. He picked up the accent by *osmosis*.
+5. Children learn grammar largely by *osmosis*.
+
+**See also:** [mitosis](#mitosis)
+
+---
+
+### mitosis
+
+**Pronunciation:** /maɪˈtoʊsɪs/ &middot; *my-TOH-sis*
+**Русский:** митоз
+**Plural:** *mitoses* /maɪˈtoʊsiːz/
+**Countability:** uncountable in ordinary use
+**Agreement:** singular verb — *mitosis produces identical cells*
+**Pattern:** Greek *-sis* → *-ses* &middot; **Group:** 9
+**Type:** abstract
+**Contrast:** Distinguish from *meiosis* /maɪˈoʊsɪs/, the division that produces sex cells. The two are constantly confused in exams.
+
+Cell division producing two identical cells.
+
+**1. The process.** (митоз)
+
+1. *Mitosis* produces two genetically identical cells.
+2. Several *mitoses* were visible in the sample.
+3. The cell enters *mitosis* after replication.
+4. *Mitosis* has four recognized phases.
+5. Both *mitoses* were photographed under the scope.
+
+**See also:** [osmosis](#osmosis) &middot; [metamorphosis](#metamorphosis)
+
+---
+
+### prosthesis
+
+**Pronunciation:** /prɑːsˈθiːsɪs/ &middot; *prahs-THEE-sis*
+**Русский:** протез
+**Plural:** *prostheses* /prɑːsˈθiːsiːz/
+**Countability:** countable
+**Agreement:** plural verb — *the prostheses were fitted*
+**Pattern:** Greek *-sis* → *-ses* &middot; **Group:** 9
+**Type:** concrete
+**Contrast:** ✗ *Prosthesises* is wrong. The adjective is *prosthetic*, and *prosthetics* is used both for the field and, loosely, for the devices themselves.
+
+An artificial body part.
+
+**1. The artificial part.** (протез)
+
+1. The *prosthesis* was fitted six weeks later.
+2. Modern *prostheses* respond to nerve signals.
+3. Both *prostheses* had to be replaced.
+4. She runs on a carbon-fiber *prosthesis*.
+5. The clinic makes *prostheses* on site.
+
+**See also:** [diagnosis](#diagnosis)
+
+---
+
+### psychosis
+
+**Pronunciation:** /saɪˈkoʊsɪs/ &middot; *sy-KOH-sis*
+**Русский:** психоз
+**Plural:** *psychoses* /saɪˈkoʊsiːz/
+**Countability:** countable
+**Agreement:** plural verb — *the psychoses were drug-induced*
+**Pattern:** Greek *-sis* → *-ses* &middot; **Group:** 9
+**Type:** abstract
+**Contrast:** Unlike [neurosis](#neurosis), this remains a current clinical term. The *p* is silent, as in *psychology* and *pneumonia*.
+
+A severe mental condition involving loss of contact with reality.
+
+**1. The condition.** (психоз)
+
+1. The *psychosis* was drug-induced.
+2. Both *psychoses* responded to treatment.
+3. *Psychosis* is not the same as violence.
+4. He experienced a brief *psychosis* after the surgery.
+5. Several *psychoses* share the same early symptoms.
+
+**See also:** [neurosis](#neurosis) &middot; [diagnosis](#diagnosis)
+
+---
+
+### chrysalis
+
+**Pronunciation:** /ˈkrɪsəlɪs/ &middot; *KRIS-uh-lis*
+**Русский:** куколка (бабочки)
+**Plural:** *chrysalises* — usual &middot; *chrysalides* /krɪˈsæləddiːz/
+**Countability:** countable
+**Agreement:** plural verb — *the chrysalises are hanging*
+**Pattern:** Greek *-is* → *-ides* &middot; **Group:** 9
+**Type:** concrete
+**Variants:** *chrysalises* is standard in American English
+**Contrast:** Unlike the *-sis → -ses* words, this one takes *-ides* in its classical plural. The everyday word is *cocoon*, though strictly a cocoon is silk and a chrysalis is the hardened pupa itself.
+
+The hardened case of a pupating butterfly.
+
+**1. The pupal case.** (куколка)
+
+1. The *chrysalis* hangs from a single thread.
+2. Six *chrysalises* were attached to the branch.
+3. The butterfly emerged from its *chrysalis* at dawn.
+4. Both *chrysalides* were collected for study.
+5. A green *chrysalis* is almost invisible on a leaf.
+
+**See also:** [pupa](07-latin-a-ae.md#pupa) &middot; [metamorphosis](#metamorphosis)
+
+---
+
+### testis
+
+**Pronunciation:** /ˈtɛstɪs/ &middot; *TES-tis*
+**Русский:** яичко
+**Plural:** *testes* /ˈtɛstiːz/ &middot; *TES-teez*
+**Countability:** countable
+**Agreement:** plural verb — *the testes descend before birth*
+**Pattern:** Greek/Latin *-is* → *-es* &middot; **Group:** 9
+**Type:** concrete
+**Variants:** the everyday word is *testicle*, plural *testicles*
+**Contrast:** The Latin word also means 'witness' — the same root that gives *testify* and *testimony*.
+
+The male reproductive gland.
+
+**1. The organ.** (яичко)
+
+1. The *testes* normally descend before birth.
+2. A single undescended *testis* requires surgery.
+3. Both *testes* were examined.
+4. The *testes* produce testosterone.
+5. Temperature affects how the *testis* functions.
+
+**See also:** [ovum](08-latin-um-a.md#ovum)
+
+---
+
+### stasis
+
+**Pronunciation:** /ˈsteɪsɪs/ &middot; *STAY-sis*
+**Русский:** застой, стазис
+**Plural:** *stases* /ˈsteɪsiːz/
+**Countability:** uncountable in ordinary use
+**Agreement:** singular verb — *the stasis is deceptive*
+**Pattern:** Greek *-sis* → *-ses* &middot; **Group:** 9
+**Type:** abstract
+
+A state of inactivity or unchanging balance.
+
+**1. Unchanging state.** (застой)
+
+1. The negotiations have reached complete *stasis*.
+2. The apparent *stasis* hides real movement.
+3. Both *stases* lasted several years.
+4. The species remained in evolutionary *stasis*.
+5. Venous *stasis* increases clot risk.
+
+**See also:** [crisis](#crisis) &middot; [synthesis](#synthesis)

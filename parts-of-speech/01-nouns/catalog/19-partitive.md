@@ -506,3 +506,332 @@ The drinking vessel, and the amount it holds; in cooking, a fixed measure.
 6. They lifted the *cup* for the third year running.
 
 **See also:** [bottle](#bottle) &middot; [spoonful](18-compound-plurals.md#spoonful)
+
+---
+
+### bowl
+
+**Pronunciation:** /boʊl/ &middot; *bohl*
+**Русский:** миска, тарелка (как мера)
+**Countability:** countable
+**Agreement:** follows the partitive — *a bowl is* / *two bowls are*
+**Type:** concrete
+**Contrast:** Collocates with soup, cereal, rice, and soup-like foods: *a bowl of soup*, *a bowl of cereal*. Not used for solids you would slice.
+
+The round deep dish, and the amount it holds.
+
+**1. The amount a bowl holds.** (миска чего-либо)
+
+1. He ate two *bowls* of cereal.
+2. A *bowl* of soup comes with the sandwich.
+3. She had a *bowl* of rice and nothing else.
+
+**2. The dish itself.** (миска)
+
+4. All the *bowls* are in the dishwasher.
+5. He dropped a *bowl* on the tile floor.
+
+**See also:** [cup](#cup) &middot; [plate](#plate)
+
+---
+
+### plate
+
+**Pronunciation:** /pleɪt/ &middot; *playt*
+**Русский:** тарелка
+**Countability:** countable
+**Agreement:** follows the partitive — *a plate is* / *two plates are*
+**Type:** concrete
+**Contrast:** *A plate of* implies a flat serving: *a plate of pasta*, *a plate of cookies*. Liquids take *a bowl* or *a cup*.
+
+The flat dish, and the amount it holds.
+
+**1. The amount a plate holds.** (тарелка чего-либо)
+
+1. She brought out a *plate* of cookies.
+2. Two *plates* of pasta arrived at once.
+3. He filled his *plate* twice.
+
+**2. The dish itself.** (тарелка)
+
+4. All the *plates* match except one.
+5. Stack the *plates* by the sink.
+
+**See also:** [bowl](#bowl)
+
+---
+
+### bag
+
+**Pronunciation:** /bæɡ/ &middot; *bag*
+**Русский:** пакет, мешок
+**Countability:** countable
+**Agreement:** follows the partitive — *a bag is* / *two bags are*
+**Type:** concrete
+**Contrast:** The default container partitive for loose dry goods: *a bag of flour*, *a bag of rice*, *a bag of chips*, *a bag of groceries*.
+
+The flexible container, and the amount it holds.
+
+**1. The amount a bag holds.** (пакет чего-либо)
+
+1. Buy a *bag* of flour.
+2. Two *bags* of ice should be enough.
+3. He carried three *bags* of groceries.
+4. A *bag* of chips costs almost nothing.
+
+**2. The container itself.** (сумка, пакет)
+
+5. She left her *bag* on the train.
+
+**See also:** [box](#box) &middot; [carton](#carton)
+
+---
+
+### box
+
+**Pronunciation:** /bɑːks/ &middot; *bahks*
+**Русский:** коробка
+**Countability:** countable
+**Agreement:** follows the partitive — *a box is* / *two boxes are*
+**Type:** concrete
+**Contrast:** Note the plural takes *-es* because of the final *x*: *boxes*, not ✗ *boxs*. Collocates with cereal, tissues, matches, chocolates.
+
+The rigid container, and the amount it holds.
+
+**1. The amount a box holds.** (коробка чего-либо)
+
+1. Buy a *box* of cereal.
+2. Two *boxes* of tissues went in a week.
+3. He gave her a *box* of chocolates.
+
+**2. The container itself.** (коробка)
+
+4. All the *boxes* are still in the garage.
+5. Break the *boxes* down before recycling.
+
+**See also:** [bag](#bag) &middot; [carton](#carton)
+
+---
+
+### tube
+
+**Pronunciation:** /tuːb/ &middot; *toob*
+**Русский:** тюбик
+**Countability:** countable
+**Agreement:** follows the partitive — *a tube is* / *two tubes are*
+**Type:** concrete
+**Contrast:** The obligatory partitive for paste products: *a tube of toothpaste*, *a tube of glue*, *a tube of paint*. ✗ *A bottle of toothpaste* is wrong.
+
+The cylindrical squeeze container, and the amount it holds.
+
+**1. The amount a tube holds.** (тюбик чего-либо)
+
+1. We need a new *tube* of toothpaste.
+2. Two *tubes* of glue were used up.
+3. She squeezed the last of the *tube* onto the brush.
+4. A *tube* of oil paint lasts a long time.
+
+**2. The container itself.** (тюбик)
+
+5. Both *tubes* had split at the seam.
+
+**See also:** [bottle](#bottle) &middot; [jar](#jar)
+
+---
+
+### roll
+
+**Pronunciation:** /roʊl/ &middot; *rohl*
+**Русский:** рулон
+**Countability:** countable
+**Agreement:** follows the partitive — *a roll is* / *two rolls are*
+**Type:** concrete
+**Contrast:** For anything wound around a core: *a roll of paper towels*, *a roll of tape*, *a roll of film*, *a roll of coins*.
+
+The wound cylinder, and the amount it holds.
+
+**1. The amount a roll holds.** (рулон чего-либо)
+
+1. Buy two *rolls* of paper towels.
+2. A *roll* of tape costs a dollar.
+3. He used up an entire *roll* of film.
+4. Three *rolls* of quarters were in the drawer.
+
+**2. A small round loaf.** (булочка)
+
+5. The soup comes with a *roll*.
+
+**See also:** [sheet](#sheet) &middot; [bar](#bar)
+
+---
+
+### stick
+
+**Pronunciation:** /stɪk/ &middot; *stik*
+**Русский:** палочка, брусок
+**Countability:** countable
+**Agreement:** follows the partitive — *a stick is* / *two sticks are*
+**Type:** concrete
+**Contrast:** In American cooking *a stick of butter* is a standard unit — half a cup, four ounces — and recipes assume it. Also *a stick of gum*, *a stick of celery*.
+
+The elongated piece, and the amount it holds.
+
+**1. A measured piece.** (палочка, брусок)
+
+1. Add one *stick* of butter.
+2. Two *sticks* of gum were left in the pack.
+3. She chopped three *sticks* of celery.
+4. A *stick* of butter is half a cup.
+
+**2. A thin piece of wood.** (палка)
+
+5. He threw a *stick* for the dog.
+
+**See also:** [bar](#bar) &middot; [clove](#clove)
+
+---
+
+### clove
+
+**Pronunciation:** /kloʊv/ &middot; *klohv*
+**Русский:** зубчик (чеснока)
+**Countability:** countable
+**Agreement:** follows the partitive — *a clove is* / *two cloves are*
+**Type:** concrete
+**Contrast:** A *clove of garlic* is one segment; the whole thing is *a head* or *a bulb of garlic*. Confusingly, *cloves* is also an unrelated spice.
+
+One segment of a garlic bulb; also the spice.
+
+**1. A garlic segment.** (зубчик чеснока)
+
+1. Crush two *cloves* of garlic.
+2. A single *clove* is plenty for this.
+3. The recipe calls for six *cloves*.
+
+**2. The spice.** Uncountable or countable. (гвоздика)
+
+4. Add a few whole *cloves* to the pot.
+5. *Clove* is the dominant flavor here.
+
+**See also:** [head](#head) &middot; [pinch](#pinch)
+
+---
+
+### head
+
+**Pronunciation:** /hɛd/ &middot; *hed*
+**Русский:** кочан, головка
+**Countability:** countable
+**Agreement:** follows the partitive — *a head is* / *two heads are*
+**Type:** concrete
+**Contrast:** As a food partitive, *head* takes a regular plural: *two heads of lettuce*. That is different from the [livestock-counting sense](03-unchanged.md#head), where it stays unchanged: *fifty head of cattle*.
+
+The compact rounded mass of a vegetable.
+
+**1. A rounded vegetable.** (кочан, головка)
+
+1. Buy a *head* of lettuce.
+2. Two *heads* of garlic will last a month.
+3. She chopped a whole *head* of cabbage.
+4. Both *heads* of broccoli had gone yellow.
+5. A *head* of cauliflower feeds four.
+
+**See also:** [clove](#clove) &middot; [bunch](#bunch)
+
+---
+
+### dash
+
+**Pronunciation:** /dæʃ/ &middot; *dash*
+**Русский:** капелька, щепотка
+**Countability:** countable
+**Agreement:** follows the partitive — *a dash is* / *two dashes are*
+**Type:** concrete
+**Contrast:** Smaller and more casual than a measured amount, and used mainly of liquids and strong seasonings: *a dash of salt*, *a dash of bitters*, *a dash of milk*.
+
+A very small quantity added to something.
+
+**1. A small quantity.** (капелька, щепотка)
+
+1. Add a *dash* of hot sauce.
+2. Two *dashes* of bitters go in the glass.
+3. She takes her coffee with a *dash* of cream.
+4. A *dash* of salt brings out the sweetness.
+
+**2. A small amount of a quality.** Figurative. (нотка)
+
+5. The speech had a *dash* of real feeling in it.
+
+**See also:** [pinch](#pinch) &middot; [splash](#splash)
+
+---
+
+### splash
+
+**Pronunciation:** /splæʃ/ &middot; *splash*
+**Русский:** немного (жидкости)
+**Countability:** countable
+**Agreement:** follows the partitive — *a splash is* / *two splashes are*
+**Type:** concrete
+**Contrast:** Used only of liquids, and slightly larger than *a dash*: *a splash of wine*, *a splash of milk*.
+
+A small quantity of liquid poured in.
+
+**1. A small quantity of liquid.** (немного жидкости)
+
+1. Add a *splash* of white wine to the pan.
+2. Just a *splash* of milk, thanks.
+3. Two *splashes* of vinegar finish the sauce.
+4. She poured a *splash* of oil into the skillet.
+5. A *splash* of soda water lightens it.
+
+**See also:** [dash](#dash) &middot; [drop](#drop)
+
+---
+
+### pile
+
+**Pronunciation:** /paɪl/ &middot; *pyle*
+**Русский:** куча, стопка
+**Countability:** countable
+**Agreement:** follows the partitive — *a pile is* / *two piles are*
+**Type:** concrete
+**Contrast:** *A pile of* is informal and works with almost anything, countable or not — *a pile of laundry*, *a pile of books*, *a pile of work*. Compare *a stack*, which implies neat ordering.
+
+A heap of things.
+
+**1. A heap.** (куча)
+
+1. There's a *pile* of laundry on the bed.
+2. Two *piles* of books blocked the door.
+3. He has a *pile* of work to get through.
+4. She sorted everything into three *piles*.
+
+**2. A large amount.** Informal. (куча денег)
+
+5. They made a *pile* of money on that deal.
+
+**See also:** [stack](#stack) &middot; [bunch](#bunch)
+
+---
+
+### stack
+
+**Pronunciation:** /stæk/ &middot; *stak*
+**Русский:** стопка
+**Countability:** countable
+**Agreement:** follows the partitive — *a stack is* / *two stacks are*
+**Type:** concrete
+**Contrast:** A *stack* is neatly ordered; a [pile](#pile) is not. *A stack of plates* is stable; *a pile of plates* sounds precarious.
+
+A neat ordered heap.
+
+**1. An ordered heap.** (стопка)
+
+1. A *stack* of plates sat by the sink.
+2. Two *stacks* of paper filled the tray.
+3. He carried a *stack* of books to the counter.
+4. She ordered a *stack* of pancakes.
+5. Both *stacks* were exactly the same height.
+
+**See also:** [pile](#pile) &middot; [sheet](#sheet)

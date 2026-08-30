@@ -407,3 +407,423 @@ A building where objects of interest are displayed.
 5. The painting moved to a private *museum*.
 
 **See also:** [stadium](#stadium) &middot; [forum](#forum)
+
+---
+
+### agenda
+
+**Pronunciation:** /əˈdʒɛndə/ &middot; *uh-JEN-duh*
+**Русский:** повестка дня
+**Plural:** *agendas* — regular
+**Countability:** countable
+**Agreement:** singular verb — *the agenda is short*
+**Pattern:** a Latin plural that became an English singular &middot; **Group:** 8
+**Type:** abstract
+**Variants:** the Latin singular *agendum* has vanished from ordinary English
+**Contrast:** This is the pattern completed. *Agenda* was the Latin plural of *agendum*; English reinterpreted it as a singular and built the regular plural *agendas* on top. Nobody now says ✗ *the agenda are*. [Data](#datum) and [media](#medium) are partway along the same road.
+
+A list of items to be discussed; also an underlying purpose.
+
+**1. A list of items.** (повестка дня)
+
+1. The *agenda* is short today.
+2. Both *agendas* were circulated in advance.
+3. That item is not on the *agenda*.
+
+**2. An underlying purpose.** (скрытые намерения)
+
+4. He clearly has his own *agenda*.
+5. Competing *agendas* stalled the whole process.
+
+**See also:** [datum](#datum) &middot; [medium](#medium)
+
+---
+
+### spectrum
+
+**Pronunciation:** /ˈspɛktrəm/ &middot; *SPEK-truhm*
+**Русский:** спектр
+**Plural:** *spectra* /ˈspɛktrə/ &middot; *spectrums* — both correct
+**Countability:** countable
+**Agreement:** plural verb — *the spectra were compared*
+**Pattern:** Latin *-um* → *-a* &middot; **Group:** 8
+**Type:** abstract and concrete
+**Variants:** *spectra* in physics and chemistry; *spectrums* in general use
+
+A band of wavelengths; also a range of positions or conditions.
+
+**1. In physics.** (спектр)
+
+1. The *spectrum* shows three absorption lines.
+2. Both *spectra* were recorded the same day.
+3. Stellar *spectra* reveal composition.
+
+**2. A range of opinion or condition.** (спектр мнений)
+
+4. Opinions across the political *spectrum* agreed.
+5. The condition covers a wide *spectrum*.
+
+**See also:** [quantum](#quantum) &middot; [continuum](#continuum)
+
+---
+
+### quantum
+
+**Pronunciation:** /ˈkwɑːntəm/ &middot; *KWAHN-tuhm*
+**Русский:** квант
+**Plural:** *quanta* /ˈkwɑːntə/
+**Countability:** countable
+**Agreement:** plural verb — *the quanta are discrete*
+**Pattern:** Latin *-um* → *-a* &middot; **Group:** 8
+**Type:** abstract
+**Variants:** ✗ *quantums* is rare and best avoided
+**Contrast:** Note that the popular phrase *a quantum leap* means a large change, which reverses the physics — a quantum is the **smallest** possible unit.
+
+The smallest discrete quantity of a physical property.
+
+**1. The unit.** (квант)
+
+1. Energy is absorbed one *quantum* at a time.
+2. The *quanta* are discrete, not continuous.
+3. A single *quantum* of light is a photon.
+4. *Quantum* mechanics describes this behavior.
+5. Both *quanta* carried the same energy.
+
+**See also:** [spectrum](#spectrum)
+
+---
+
+### maximum
+
+**Pronunciation:** /ˈmæksɪməm/ &middot; *MAK-sih-muhm*
+**Русский:** максимум
+**Plural:** *maximums* — usual &middot; *maxima* /ˈmæksɪmə/
+**Countability:** countable
+**Agreement:** plural verb — *the maxima were recorded*
+**Pattern:** Latin *-um* → *-a* &middot; **Group:** 8
+**Type:** abstract
+**Variants:** *maxima* in mathematics and science; *maximums* in general use
+
+The greatest possible or recorded amount.
+
+**1. The greatest amount.** (максимум)
+
+1. The *maximum* is forty passengers.
+2. Both *maximums* were exceeded that summer.
+3. The function has two local *maxima*.
+4. Daily *maximums* are logged automatically.
+5. That is the absolute *maximum* we can pay.
+
+**See also:** [minimum](#minimum) &middot; [optimum](#optimum)
+
+---
+
+### minimum
+
+**Pronunciation:** /ˈmɪnɪməm/ &middot; *MIN-ih-muhm*
+**Русский:** минимум
+**Plural:** *minimums* — usual &middot; *minima* /ˈmɪnɪmə/
+**Countability:** countable
+**Agreement:** plural verb — *the minima were unusually low*
+**Pattern:** Latin *-um* → *-a* &middot; **Group:** 8
+**Type:** abstract
+**Variants:** *minima* in mathematics and science; *minimums* in general use
+
+The least possible or recorded amount.
+
+**1. The least amount.** (минимум)
+
+1. The *minimum* is four hours a week.
+2. Both *minimums* were raised in January.
+3. The curve has a single *minimum*.
+4. Overnight *minima* fell below freezing.
+5. Keep disruption to a *minimum*.
+
+**See also:** [maximum](#maximum)
+
+---
+
+### optimum
+
+**Pronunciation:** /ˈɑːptɪməm/ &middot; *AHP-tih-muhm*
+**Русский:** оптимум
+**Plural:** *optima* /ˈɑːptɪmə/ &middot; *optimums* — both correct
+**Countability:** countable
+**Agreement:** plural verb — *the optima differ by species*
+**Pattern:** Latin *-um* → *-a* &middot; **Group:** 8
+**Type:** abstract
+**Contrast:** Note the adjective *optimum* and the adjective *optimal* mean the same thing; *optimum* doubles as both noun and adjective.
+
+The most favorable condition or amount.
+
+**1. The best point.** (оптимум)
+
+1. The *optimum* lies somewhere in between.
+2. Thermal *optima* differ by species.
+3. Both *optimums* were determined experimentally.
+4. The system runs at its *optimum* around noon.
+5. Finding the *optimum* took months of testing.
+
+**See also:** [maximum](#maximum) &middot; [minimum](#minimum)
+
+---
+
+### continuum
+
+**Pronunciation:** /kənˈtɪnjuəm/ &middot; *kuhn-TIN-yoo-uhm*
+**Русский:** континуум
+**Plural:** *continua* /kənˈtɪnjuə/ &middot; *continuums* — both correct
+**Countability:** countable
+**Agreement:** plural verb — *the continua overlap*
+**Pattern:** Latin *-um* → *-a* &middot; **Group:** 8
+**Type:** abstract
+
+An unbroken sequence with no clear divisions.
+
+**1. An unbroken range.** (континуум)
+
+1. Gender is better described as a *continuum*.
+2. Both *continua* were modeled separately.
+3. The dialects form a single *continuum*.
+4. Space and time make one *continuum*.
+5. Several overlapping *continuums* were identified.
+
+**See also:** [spectrum](#spectrum)
+
+---
+
+### podium
+
+**Pronunciation:** /ˈpoʊdiəm/ &middot; *POH-dee-uhm*
+**Русский:** подиум, трибуна
+**Plural:** *podiums* — usual &middot; *podia* /ˈpoʊdiə/
+**Countability:** countable
+**Agreement:** plural verb — *both podiums were removed*
+**Pattern:** Latin *-um* → *-a* &middot; **Group:** 8
+**Type:** concrete
+**Contrast:** Careful writers distinguish a *podium*, which you stand **on**, from a *lectern*, which you stand **behind**. In ordinary American usage the two have merged.
+
+A raised platform for a speaker or conductor.
+
+**1. The platform.** (подиум, трибуна)
+
+1. She stepped up to the *podium*.
+2. Both *podiums* were removed after the ceremony.
+3. The conductor's *podium* is unusually high.
+4. Three *podia* were set up on the stage.
+5. He gripped the *podium* with both hands.
+
+**See also:** [stadium](#stadium)
+
+---
+
+### aquarium
+
+**Pronunciation:** /əˈkwɛriəm/ &middot; *uh-KWAIR-ee-uhm*
+**Русский:** аквариум
+**Plural:** *aquariums* — usual &middot; *aquaria* /əˈkwɛriə/
+**Countability:** countable
+**Agreement:** plural verb — *both aquariums are heated*
+**Pattern:** Latin *-um* → *-a* &middot; **Group:** 8
+**Type:** concrete
+**Variants:** *aquariums* is standard in American English
+
+A tank or building for keeping fish.
+
+**1. The tank or institution.** (аквариум)
+
+1. Both *aquariums* are heated and filtered.
+2. The city *aquarium* opens at ten.
+3. He keeps a saltwater *aquarium*.
+4. Several public *aquaria* participate in the program.
+5. The *aquarium* holds four thousand gallons.
+
+**See also:** [stadium](#stadium) &middot; [museum](#museum)
+
+---
+
+### ultimatum
+
+**Pronunciation:** /ˌʌltɪˈmeɪtəm/ &middot; *ul-tih-MAY-tuhm*
+**Русский:** ультиматум
+**Plural:** *ultimatums* — usual &middot; *ultimata* /ˌʌltɪˈmeɪtə/
+**Countability:** countable
+**Agreement:** plural verb — *both ultimatums expired*
+**Pattern:** Latin *-um* → *-a* &middot; **Group:** 8
+**Type:** abstract
+**Variants:** *ultimatums* is far commoner
+
+A final demand carrying a threat.
+
+**1. The final demand.** (ультиматум)
+
+1. She gave him an *ultimatum*.
+2. Both *ultimatums* expired without a reply.
+3. The *ultimatum* ran out at midnight.
+4. Governments exchanged *ultimatums* for a week.
+5. It was less a request than an *ultimatum*.
+
+**See also:** [referendum](#referendum)
+
+---
+
+### dictum
+
+**Pronunciation:** /ˈdɪktəm/ &middot; *DIK-tuhm*
+**Русский:** изречение, сентенция
+**Plural:** *dicta* /ˈdɪktə/ &middot; *dictums* — both correct
+**Countability:** countable
+**Agreement:** plural verb — *the dicta are often quoted*
+**Pattern:** Latin *-um* → *-a* &middot; **Group:** 8
+**Type:** abstract
+**Variants:** *dicta* in legal writing; *dictums* elsewhere
+
+A formal pronouncement or a well-known saying.
+
+**1. A pronouncement.** (изречение)
+
+1. The judge's *dictum* has been quoted ever since.
+2. Both *dicta* were technically non-binding.
+3. He lived by a single *dictum*.
+4. Several *dictums* were struck from the opinion.
+5. The old *dictum* about brevity still holds.
+
+**See also:** [erratum](#erratum)
+
+---
+
+### vacuum
+
+**Pronunciation:** /ˈvækjuːm/ &middot; *VAK-yoom*
+**Русский:** вакуум; пылесос
+**Plural:** *vacuums* — usual &middot; *vacua* /ˈvækjuə/ in physics
+**Countability:** countable
+**Agreement:** plural verb — *both vacuums broke*
+**Pattern:** Latin *-um* → *-a* &middot; **Group:** 8
+**Type:** concrete and abstract
+**Contrast:** The spelling has two *u*'s in a row — one of very few English words that does. The appliance is always *vacuums*.
+
+Space empty of matter; also the cleaning appliance.
+
+**1. Empty space.** (вакуум)
+
+1. Sound cannot travel through a *vacuum*.
+2. Perfect *vacua* do not exist in nature.
+
+**2. A gap left by something's absence.** Figurative. (вакуум власти)
+
+3. His resignation left a power *vacuum*.
+
+**3. The appliance.** (пылесос)
+
+4. Both *vacuums* broke in the same month.
+5. Run the *vacuum* before they arrive.
+
+**See also:** [spectrum](#spectrum)
+
+---
+
+### serum
+
+**Pronunciation:** /ˈsɪrəm/ &middot; *SEER-uhm*
+**Русский:** сыворотка
+**Plural:** *serums* — usual &middot; *sera* /ˈsɪrə/ in medicine
+**Countability:** countable, and uncountable as a substance
+**Agreement:** plural verb — *the sera were tested*
+**Pattern:** Latin *-um* → *-a* &middot; **Group:** 8
+**Type:** concrete
+**Variants:** *sera* in laboratory writing; *serums* in general and cosmetic use
+
+The clear fluid part of blood; also a preparation made from it.
+
+**1. Blood fluid or a medical preparation.** (сыворотка)
+
+1. The *serum* was frozen for later testing.
+2. All the *sera* were screened for antibodies.
+3. Antivenom *serum* saved his life.
+
+**2. A cosmetic preparation.** (сыворотка косметическая)
+
+4. Both *serums* claim to reduce wrinkles.
+5. She uses a vitamin C *serum* every morning.
+
+**See also:** [bacterium](#bacterium)
+
+---
+
+### ovum
+
+**Pronunciation:** /ˈoʊvəm/ &middot; *OH-vuhm*
+**Русский:** яйцеклетка
+**Plural:** *ova* /ˈoʊvə/
+**Countability:** countable
+**Agreement:** plural verb — *the ova were harvested*
+**Pattern:** Latin *-um* → *-a* &middot; **Group:** 8
+**Type:** concrete
+**Variants:** ✗ *ovums* is not used
+**Contrast:** The everyday word is *egg*; *ovum* is strictly medical. Compare *sperm*, which is uncountable as a mass and countable as *spermatozoa*.
+
+The female reproductive cell.
+
+**1. The cell.** (яйцеклетка)
+
+1. A single *ovum* is released each cycle.
+2. Twelve *ova* were harvested.
+3. The *ovum* is the largest cell in the body.
+4. Both *ova* were successfully fertilized.
+5. *Ova* can be frozen for years.
+
+**See also:** [bacterium](#bacterium)
+
+---
+
+### sternum
+
+**Pronunciation:** /ˈstɜːrnəm/ &middot; *STUR-nuhm*
+**Русский:** грудина
+**Plural:** *sterna* /ˈstɜːrnə/ &middot; *sternums* — both correct
+**Countability:** countable
+**Agreement:** plural verb — *the sterna were measured*
+**Pattern:** Latin *-um* → *-a* &middot; **Group:** 8
+**Type:** concrete
+**Variants:** the everyday word is *breastbone*
+
+The breastbone.
+
+**1. The bone.** (грудина)
+
+1. The *sternum* is cut during open-heart surgery.
+2. Both *sternums* healed without complication.
+3. Compressions are applied over the *sternum*.
+4. Several *sterna* showed old fractures.
+5. He bruised his *sternum* against the wheel.
+
+**See also:** [scapula](07-latin-a-ae.md#scapula)
+
+---
+
+### album
+
+**Pronunciation:** /ˈælbəm/ &middot; *AL-buhm*
+**Русский:** альбом
+**Plural:** *albums* /ˈælbəmz/ — regular
+**Countability:** countable
+**Agreement:** plural verb — *both albums went platinum*
+**Pattern:** regular *-s* despite the Latin origin &middot; **Group:** 8 (trap)
+**Type:** concrete
+**Contrast:** ✗ *Alba* is wrong. Like *forum*, *stadium*, and *museum*, this Latin word takes an entirely regular English plural. From Latin *albus*, 'white' — originally a blank white tablet.
+
+A book for photographs or a collection of recordings.
+
+**1. A collection of recordings.** (альбом)
+
+1. Both *albums* went platinum.
+2. The *album* was recorded in nine days.
+3. She has released seven *albums*.
+
+**2. A book for photographs or stamps.** (альбом)
+
+4. He kept every ticket in an *album*.
+5. The family *albums* were lost in the flood.
+
+**See also:** [forum](#forum) &middot; [museum](#museum)

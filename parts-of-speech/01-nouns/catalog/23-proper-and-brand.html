@@ -1,0 +1,263 @@
+<!DOCTYPE html>
+<html lang="en"><head>
+<meta charset="utf-8"><meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Proper nouns, brand names, and words that lost their capital</title>
+<style>
+:root{--bg:#faf9f7;--surface:#fff;--surface2:#f2f0ec;--border:#e2ded6;--text:#1a1815;
+--dim:#5f594f;--faint:#8a8377;--accent:#8a5a3b;--measure:72ch}
+@media(prefers-color-scheme:dark){:root{--bg:#14140f;--surface:#1d1d17;--surface2:#25251d;
+--border:#33332a;--text:#eeeae1;--dim:#a8a293;--faint:#7d776b;--accent:#d09b72}}
+:root[data-theme=dark]{--bg:#14140f;--surface:#1d1d17;--surface2:#25251d;--border:#33332a;
+--text:#eeeae1;--dim:#a8a293;--faint:#7d776b;--accent:#d09b72}
+:root[data-theme=light]{--bg:#faf9f7;--surface:#fff;--surface2:#f2f0ec;--border:#e2ded6;
+--text:#1a1815;--dim:#5f594f;--faint:#8a8377;--accent:#8a5a3b}
+*{box-sizing:border-box}
+body{margin:0;background:var(--bg);color:var(--text);
+font:17px/1.72 ui-serif,Georgia,"Iowan Old Style",Palatino,serif;-webkit-font-smoothing:antialiased}
+.wrap{max-width:min(var(--measure),100%);margin:0 auto;padding:0 22px}
+nav.crumb{border-bottom:1px solid var(--border);padding:13px 0;font-size:13.5px;
+font-family:-apple-system,BlinkMacSystemFont,"Segoe UI",sans-serif;position:sticky;top:0;background:var(--bg);z-index:20}
+nav.crumb .wrap{max-width:none;display:flex;gap:9px;align-items:center;flex-wrap:wrap}
+nav.crumb a{color:var(--dim);text-decoration:none}
+nav.crumb a:hover{color:var(--accent)}
+nav.crumb .sep{color:var(--faint)}
+main{padding:8px 0 80px}
+h1{font-size:clamp(28px,5vw,38px);line-height:1.15;letter-spacing:-.015em;margin:34px 0 18px}
+h2{font-size:25px;margin:46px 0 14px;letter-spacing:-.01em;padding-bottom:7px;border-bottom:1px solid var(--border)}
+h3{font-size:19px;margin:34px 0 10px;color:var(--accent)}
+h4{font-size:16px;margin:24px 0 8px;font-family:-apple-system,sans-serif}
+p{margin:0 0 16px}
+a{color:var(--accent)}
+.hash{opacity:0;margin-left:8px;font-weight:400;font-size:.65em;text-decoration:none;color:var(--faint)}
+h2:hover .hash,h3:hover .hash{opacity:1}
+blockquote{margin:0 0 20px;padding:14px 18px;background:var(--surface2);
+border-left:3px solid var(--accent);border-radius:0 8px 8px 0}
+blockquote p:last-child{margin-bottom:0}
+ol,ul{margin:0 0 18px;padding-left:26px}
+li{margin-bottom:8px}
+li>ul,li>ol{margin:8px 0 0}
+code{font-family:ui-monospace,SFMono-Regular,Menlo,Consolas,monospace;font-size:.87em;
+background:var(--surface2);padding:1px 5px;border-radius:4px}
+pre{background:var(--surface2);border:1px solid var(--border);border-radius:9px;
+padding:15px 17px;overflow-x:auto;margin:0 0 20px}
+pre code{background:none;padding:0;font-size:13px;line-height:1.6}
+.tw{overflow-x:auto;margin:0 0 22px;border:1px solid var(--border);border-radius:9px}
+table{border-collapse:collapse;width:100%;font-size:15px;
+font-family:-apple-system,BlinkMacSystemFont,"Segoe UI",sans-serif}
+th,td{padding:10px 14px;border-bottom:1px solid var(--border);vertical-align:top}
+th{background:var(--surface2);font-size:12px;text-transform:uppercase;
+letter-spacing:.06em;color:var(--dim);font-weight:700;white-space:nowrap}
+tbody tr:last-child td{border-bottom:none}
+hr{border:none;border-top:1px solid var(--border);margin:38px 0}
+details{background:var(--surface2);border:1px solid var(--border);border-radius:9px;
+padding:13px 17px;margin:0 0 20px}
+summary{cursor:pointer;font-weight:600;font-family:-apple-system,sans-serif;font-size:15px}
+details[open] summary{margin-bottom:12px}
+del{color:var(--faint)}
+dl.fields{margin:0 0 20px;padding:0}
+dl.fields dt{font-family:-apple-system,BlinkMacSystemFont,"Segoe UI",sans-serif;
+font-size:11px;letter-spacing:.11em;text-transform:uppercase;color:var(--faint);
+font-weight:700;margin:14px 0 4px}
+dl.fields dt:first-child{margin-top:0}
+dl.fields dd{margin:0;font-size:16px;color:var(--dim);line-height:1.62}
+dl.fields dd em{color:var(--text)}
+dl.fields dt.ru{color:var(--accent)}
+dl.fields dd strong{color:var(--text)}
+.toc{background:var(--surface2);border:1px solid var(--border);border-radius:10px;
+padding:16px 20px;margin:26px 0 34px;font-family:-apple-system,sans-serif;font-size:14px}
+.toc b{display:block;font-size:11px;letter-spacing:.12em;text-transform:uppercase;
+color:var(--faint);margin-bottom:9px}
+.toc a{display:block;padding:3px 0;color:var(--dim);text-decoration:none}
+.toc a:hover{color:var(--accent)}
+.themebtn{position:fixed;right:18px;bottom:18px;z-index:60;font-family:-apple-system,sans-serif;
+font-size:12.5px;font-weight:600;cursor:pointer;background:var(--surface);border:1px solid var(--border);
+border-radius:99px;padding:9px 16px;color:var(--text)}
+@media(max-width:600px){body{font-size:16px}.wrap{padding:0 17px}}
+</style></head><body>
+<nav class="crumb"><div class="wrap"><a href="../../../index.html">Learn English</a><span class="sep">/</span><a href="../../README.html">Parts of speech</a><span class="sep">/</span><a href="../README.html">01-nouns</a><span class="sep">/</span><span>catalog</span></div></nav>
+<main><div class="wrap"><h1 id="proper-nouns-brand-names-and-words-that-lost-their-capital">Proper nouns, brand names, and words that lost their capital<a class="hash" href="#proper-nouns-brand-names-and-words-that-lost-their-capital" aria-label="link">#</a></h1>
+<blockquote><p><em>Aspirin</em>, <em>escalator</em>, and <em>zipper</em> were once trademarks. <em>Kleenex</em> and <em>Xerox</em> still are. The capital letter is the whole grammar here.</p></blockquote>
+<p><a href="../README.html">← The grammar of nouns</a> &middot; <a href="README.html">All groups</a></p>
+<p>A <strong>proper noun</strong> names one specific thing — <em>Chicago</em>, <em>Tuesday</em>, <em>Shakespeare</em> — and in English it is <strong>always capitalized</strong>. This is worth stating plainly because most European languages capitalize far less: Russian, French, and Spanish all write days, months, and nationalities in lowercase, and their speakers routinely undercapitalize in English. In English, capitalize days, months, nationalities, languages, religions, holidays, and brand names. Do <strong>not</strong> capitalize seasons — <em>spring</em>, <em>summer</em> — which is the trap in the other direction.</p>
+<p>Proper nouns also behave differently grammatically: most take no article and no plural. <em>I live in Chicago</em>, never ✗ <em>the Chicago</em>, never ✗ <em>two Chicagos</em> — unless you deliberately make it a common noun: <em>there are three Springfields in this state</em>.</p>
+<p>The interesting part of this group is the <strong>middle ground</strong>: words that began as registered trademarks and became ordinary nouns. This is called <strong>genericization</strong>, and it is a company's nightmare — a brand that becomes the word for the product loses its trademark. <em>Aspirin</em>, <em>escalator</em>, <em>zipper</em>, <em>heroin</em>, <em>thermos</em>, <em>granola</em>, and <em>laundromat</em> all lost their protection and are now written lowercase. <em>Kleenex</em>, <em>Xerox</em>, <em>Band-Aid</em>, <em>Velcro</em>, and <em>Google</em> are still protected: legally they should be capitalized and used as adjectives — <em>a Kleenex tissue</em> — though almost nobody does this in speech.</p>
+<p>For a learner the practical rule is simple: the words below marked <strong>generic</strong> are ordinary lowercase nouns you can use freely. The ones marked <strong>still a trademark</strong> are capitalized in careful writing, and have a neutral equivalent you can use instead.</p>
+<hr>
+<h3 id="aspirin">aspirin<a class="hash" href="#aspirin" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/ˈæspərɪn/ &middot; <em>AS-pur-in</em></dd><dt>Русский</dt><dd>аспирин</dd><dt>Plural</dt><dd><em>aspirins</em> — for tablets</dd><dt>Countability</dt><dd>uncountable as a drug; countable as tablets</dd><dt>Agreement</dt><dd>singular verb — <em>aspirin is a blood thinner</em></dd><dt>Type</dt><dd>concrete</dd><dt>Variants</dt><dd><strong>generic</strong> in the United States; still a Bayer trademark in some countries</dd><dt>Contrast</dt><dd>Bayer lost the American trademark after the First World War, so <em>aspirin</em> is lowercase here. In Canada and Germany it is still <em>Aspirin</em>, capitalized. The generic chemical name is <em>acetylsalicylic acid</em>.</dd></dl>
+<p>The common pain-relieving drug.</p>
+<p><strong>1. The drug.</strong> Uncountable. (аспирин)</p>
+<ol><li><em>Aspirin</em> is also used as a blood thinner.</li><li>She takes low-dose <em>aspirin</em> daily.</li><li><em>Aspirin</em> is not recommended for children.</li></ol>
+<p><strong>2. Tablets.</strong> Countable. (таблетки аспирина)</p>
+<ol start="4"><li>Take two <em>aspirins</em> and lie down.</li><li>Both <em>aspirins</em> had dissolved by then.</li></ol>
+<dl class="fields"><dt>See also</dt><dd><a href="#heroin">heroin</a> &middot; <a href="#escalator">escalator</a></dd></dl>
+<hr>
+<h3 id="escalator">escalator<a class="hash" href="#escalator" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/ˈɛskəleɪtər/ &middot; <em>ES-kuh-lay-tur</em></dd><dt>Русский</dt><dd>эскалатор</dd><dt>Plural</dt><dd><em>escalators</em> — regular</dd><dt>Countability</dt><dd>countable</dd><dt>Agreement</dt><dd>plural verb — <em>both escalators were out of order</em></dd><dt>Type</dt><dd>concrete</dd><dt>Variants</dt><dd><strong>generic</strong> — the trademark was cancelled in 1950</dd><dt>Contrast</dt><dd>Otis lost the trademark precisely because the company's own advertising used the word generically. A textbook case of how genericization happens.</dd></dl>
+<p>The moving staircase.</p>
+<p><strong>1. The machine.</strong> (эскалатор)</p>
+<ol><li>Both <em>escalators</em> were out of order.</li><li>Take the <em>escalator</em> to the third floor.</li><li>The mall's <em>escalators</em> run all day.</li><li>She fell on an <em>escalator</em> and broke her wrist.</li><li>The word was a trademark until 1950.</li></ol>
+<dl class="fields"><dt>See also</dt><dd><a href="#zipper">zipper</a> &middot; <a href="#aspirin">aspirin</a></dd></dl>
+<hr>
+<h3 id="zipper">zipper<a class="hash" href="#zipper" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/ˈzɪpər/ &middot; <em>ZIP-ur</em></dd><dt>Русский</dt><dd>молния (застёжка)</dd><dt>Plural</dt><dd><em>zippers</em> — regular</dd><dt>Countability</dt><dd>countable</dd><dt>Agreement</dt><dd>plural verb — <em>the zippers keep jamming</em></dd><dt>Type</dt><dd>concrete</dd><dt>Variants</dt><dd><strong>generic</strong>; British English says <em>zip</em></dd><dt>Contrast</dt><dd>Originally a B.F. Goodrich trademark for a boot that closed with the fastener. The name transferred to the fastener itself and lost protection.</dd></dl>
+<p>The interlocking fastener.</p>
+<p><strong>1. The fastener.</strong> (молния)</p>
+<ol><li>The <em>zipper</em> on my jacket keeps jamming.</li><li>Both <em>zippers</em> broke within a month.</li><li>He replaced the <em>zipper</em> himself.</li><li>Cheap <em>zippers</em> fail first.</li><li>The British call it a <em>zip</em>.</li></ol>
+<dl class="fields"><dt>See also</dt><dd><a href="#escalator">escalator</a> &middot; <a href="#velcro">velcro</a></dd></dl>
+<hr>
+<h3 id="thermos">thermos<a class="hash" href="#thermos" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/ˈθɜːrməs/ &middot; <em>THUR-muhs</em></dd><dt>Русский</dt><dd>термос</dd><dt>Plural</dt><dd><em>thermoses</em> — regular</dd><dt>Countability</dt><dd>countable</dd><dt>Agreement</dt><dd>plural verb — <em>both thermoses leaked</em></dd><dt>Type</dt><dd>concrete</dd><dt>Variants</dt><dd><strong>generic</strong> in the United States since 1963; the neutral term is <em>vacuum flask</em></dd><dt>Contrast</dt><dd>An American court ruled the word generic because the public used it as the name of the product rather than the brand. Elsewhere <em>Thermos</em> remains a trademark.</dd></dl>
+<p>The insulated container for hot or cold drinks.</p>
+<p><strong>1. The container.</strong> (термос)</p>
+<ol><li>He filled a <em>thermos</em> with coffee.</li><li>Both <em>thermoses</em> leaked in the backpack.</li><li>A good <em>thermos</em> keeps soup hot all day.</li><li>She packed two <em>thermoses</em> for the drive.</li><li>The neutral term is <em>vacuum flask</em>.</li></ol>
+<dl class="fields"><dt>See also</dt><dd><a href="#aspirin">aspirin</a></dd></dl>
+<hr>
+<h3 id="heroin">heroin<a class="hash" href="#heroin" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/ˈhɛroʊɪn/ &middot; <em>HER-oh-in</em></dd><dt>Русский</dt><dd>героин</dd><dt>Plural</dt><dd>— uncountable</dd><dt>Countability</dt><dd>uncountable — no plural, no <em>a</em></dd><dt>Agreement</dt><dd>singular verb — <em>heroin is highly addictive</em></dd><dt>Type</dt><dd>concrete</dd><dt>Variants</dt><dd><strong>generic</strong> — originally a Bayer trademark, like <a href="#aspirin">aspirin</a></dd><dt>Contrast</dt><dd>A homophone of <em>heroine</em>, the female hero — see <a href="22-gender-pairs.html#hero">hero</a>. Bayer trademarked both <em>Heroin</em> and <em>Aspirin</em>, and lost both.</dd></dl>
+<p>The addictive opioid drug.</p>
+<p><strong>1. The drug.</strong> (героин)</p>
+<ol><li><em>Heroin</em> is highly addictive.</li><li>The city's <em>heroin</em> problem worsened that decade.</li><li><em>Heroin</em> was originally sold as a cough remedy.</li><li>Both seizures involved <em>heroin</em> and fentanyl.</li><li>The word was a Bayer trademark until 1919.</li></ol>
+<dl class="fields"><dt>See also</dt><dd><a href="#aspirin">aspirin</a></dd></dl>
+<hr>
+<h3 id="granola">granola<a class="hash" href="#granola" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/ɡrəˈnoʊlə/ &middot; <em>gruh-NOH-luh</em></dd><dt>Русский</dt><dd>гранола, мюсли</dd><dt>Plural</dt><dd><em>granolas</em> — for varieties</dd><dt>Countability</dt><dd>uncountable as food; countable as varieties</dd><dt>Agreement</dt><dd>singular verb — <em>the granola is homemade</em></dd><dt>Type</dt><dd>concrete</dd><dt>Variants</dt><dd><strong>generic</strong> since the nineteenth century</dd><dt>Contrast</dt><dd>Also an American adjective meaning earnestly natural or hippie-ish: <em>a very granola neighborhood</em>.</dd></dl>
+<p>The baked oat-and-nut cereal.</p>
+<p><strong>1. The food.</strong> Uncountable. (гранола)</p>
+<ol><li>The <em>granola</em> is homemade.</li><li>She puts <em>granola</em> on yogurt every morning.</li><li>Store-bought <em>granola</em> is mostly sugar.</li></ol>
+<p><strong>2. Earnestly natural.</strong> Adjective, informal. (эко-, «натуральный»)</p>
+<ol start="4"><li>It's a very <em>granola</em> part of town.</li><li>Both <em>granolas</em> on the shelf were organic.</li></ol>
+<dl class="fields"><dt>See also</dt><dd><a href="#laundromat">laundromat</a></dd></dl>
+<hr>
+<h3 id="laundromat">laundromat<a class="hash" href="#laundromat" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/ˈlɔːndrəmæt/ &middot; <em>LAWN-druh-mat</em></dd><dt>Русский</dt><dd>прачечная самообслуживания</dd><dt>Plural</dt><dd><em>laundromats</em> — regular</dd><dt>Countability</dt><dd>countable</dd><dt>Agreement</dt><dd>plural verb — <em>both laundromats are open late</em></dd><dt>Type</dt><dd>concrete</dd><dt>Variants</dt><dd><strong>generic</strong> in the United States; British English says <em>launderette</em></dd><dt>Contrast</dt><dd>Originally a Westinghouse trademark. Note the American/British split: <em>laundromat</em> versus <em>launderette</em>.</dd></dl>
+<p>A coin-operated self-service laundry.</p>
+<p><strong>1. The business.</strong> (прачечная самообслуживания)</p>
+<ol><li>Both <em>laundromats</em> are open until midnight.</li><li>There's a <em>laundromat</em> on the corner.</li><li>She does her washing at the <em>laundromat</em>.</li><li>The building has no <em>laundromat</em> nearby.</li><li>The British word is <em>launderette</em>.</li></ol>
+<dl class="fields"><dt>See also</dt><dd><a href="13-uncountable.html#laundry">laundry</a> &middot; <a href="#granola">granola</a></dd></dl>
+<hr>
+<h3 id="dumpster">dumpster<a class="hash" href="#dumpster" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/ˈdʌmpstər/ &middot; <em>DUMP-stur</em></dd><dt>Русский</dt><dd>мусорный контейнер</dd><dt>Plural</dt><dd><em>dumpsters</em> — regular</dd><dt>Countability</dt><dd>countable</dd><dt>Agreement</dt><dd>plural verb — <em>the dumpsters were overflowing</em></dd><dt>Type</dt><dd>concrete</dd><dt>Variants</dt><dd><strong>largely generic</strong> in American use; originally the Dempster Brothers' <em>Dumpster</em></dd><dt>Contrast</dt><dd>Now overwhelmingly lowercase in American writing. Note the extremely common figurative phrase <em>a dumpster fire</em>, meaning a chaotic disaster.</dd></dl>
+<p>The large metal trash container.</p>
+<p><strong>1. The container.</strong> (мусорный контейнер)</p>
+<ol><li>The <em>dumpsters</em> behind the store were overflowing.</li><li>He threw the whole box in the <em>dumpster</em>.</li><li>Both <em>dumpsters</em> are emptied on Fridays.</li></ol>
+<p><strong>2. In fixed expressions.</strong> Informal. (полный провал)</p>
+<ol start="4"><li>The whole launch was a <em>dumpster</em> fire.</li><li>That meeting was an absolute <em>dumpster</em> fire.</li></ol>
+<dl class="fields"><dt>See also</dt><dd><a href="13-uncountable.html#garbage">garbage</a></dd></dl>
+<hr>
+<h3 id="popsicle">popsicle<a class="hash" href="#popsicle" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/ˈpɑːpsɪkəl/ &middot; <em>PAHP-sih-kuhl</em></dd><dt>Русский</dt><dd>фруктовый лёд на палочке</dd><dt>Plural</dt><dd><em>popsicles</em> — regular</dd><dt>Countability</dt><dd>countable</dd><dt>Agreement</dt><dd>plural verb — <em>the popsicles melted</em></dd><dt>Type</dt><dd>concrete</dd><dt>Variants</dt><dd><strong>still a trademark</strong> (Popsicle), though used generically; the neutral term is <em>ice pop</em> or <em>freezer pop</em></dd><dt>Contrast</dt><dd>Legally still owned by Unilever, so careful commercial writing says <em>ice pop</em>. In ordinary American speech everyone says <em>popsicle</em>, lowercase.</dd></dl>
+<p>The frozen flavored ice on a stick.</p>
+<p><strong>1. The frozen treat.</strong> (фруктовый лёд)</p>
+<ol><li>The <em>popsicles</em> melted before we got home.</li><li>She had a grape <em>popsicle</em>.</li><li>Both <em>popsicles</em> broke off the stick.</li><li><em>Popsicles</em> are the only thing he'll eat when sick.</li><li>The neutral term is <em>ice pop</em>.</li></ol>
+<dl class="fields"><dt>See also</dt><dd><a href="#frisbee">frisbee</a></dd></dl>
+<hr>
+<h3 id="frisbee">frisbee<a class="hash" href="#frisbee" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/ˈfrɪzbi/ &middot; <em>FRIZ-bee</em></dd><dt>Русский</dt><dd>фрисби, летающая тарелка</dd><dt>Plural</dt><dd><em>frisbees</em> — regular</dd><dt>Countability</dt><dd>countable</dd><dt>Agreement</dt><dd>plural verb — <em>the frisbees ended up on the roof</em></dd><dt>Type</dt><dd>concrete</dd><dt>Variants</dt><dd><strong>still a trademark</strong> (Frisbee, owned by Wham-O); the neutral term is <em>flying disc</em></dd><dt>Contrast</dt><dd>The sport is officially <em>ultimate</em>, not ✗ <em>ultimate frisbee</em>, precisely because of the trademark. Competitive players say <em>disc</em>.</dd></dl>
+<p>The flat plastic disc thrown as a toy.</p>
+<p><strong>1. The disc.</strong> (фрисби)</p>
+<ol><li>Both <em>frisbees</em> ended up on the roof.</li><li>He threw the <em>frisbee</em> for the dog.</li><li>She brought a <em>frisbee</em> to the beach.</li><li>The sport's official name is <em>ultimate</em>.</li><li>Competitive players say <em>disc</em>, not <em>frisbee</em>.</li></ol>
+<dl class="fields"><dt>See also</dt><dd><a href="#popsicle">popsicle</a></dd></dl>
+<hr>
+<h3 id="kleenex">kleenex<a class="hash" href="#kleenex" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/ˈkliːnɛks/ &middot; <em>KLEE-neks</em></dd><dt>Русский</dt><dd>бумажный платок</dd><dt>Plural</dt><dd><em>kleenexes</em> — regular</dd><dt>Countability</dt><dd>countable</dd><dt>Agreement</dt><dd>plural verb — <em>the kleenexes were all used up</em></dd><dt>Type</dt><dd>concrete</dd><dt>Variants</dt><dd><strong>still a trademark</strong> (Kleenex); the neutral term is <em>tissue</em> or <em>facial tissue</em></dd><dt>Contrast</dt><dd>Kimberly-Clark actively defends this mark, so published writing says <em>tissue</em>. In American speech <em>kleenex</em> is the ordinary word for any brand, usually lowercase.</dd></dl>
+<p>A disposable paper tissue.</p>
+<p><strong>1. The tissue.</strong> (бумажный платок)</p>
+<ol><li>Do you have a <em>kleenex</em>?</li><li>The <em>kleenexes</em> were all used up.</li><li>She went through half a box of <em>kleenex</em>.</li><li>He kept a packet of <em>kleenex</em> in the car.</li><li>The neutral word is <em>tissue</em>.</li></ol>
+<dl class="fields"><dt>See also</dt><dd><a href="#band-aid">band-aid</a> &middot; <a href="#xerox">xerox</a></dd></dl>
+<hr>
+<h3 id="band-aid">band-aid<a class="hash" href="#band-aid" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/ˈbændeɪd/ &middot; <em>BAND-ayd</em></dd><dt>Русский</dt><dd>пластырь</dd><dt>Plural</dt><dd><em>band-aids</em> — regular</dd><dt>Countability</dt><dd>countable</dd><dt>Agreement</dt><dd>plural verb — <em>the band-aids kept falling off</em></dd><dt>Type</dt><dd>concrete</dd><dt>Variants</dt><dd><strong>still a trademark</strong> (Band-Aid, Johnson &amp; Johnson); the neutral term is <em>adhesive bandage</em></dd><dt>Contrast</dt><dd>Extremely common figuratively: <em>a band-aid solution</em> means an inadequate temporary fix. That figurative use is always lowercase.</dd></dl>
+<p>A small adhesive bandage.</p>
+<p><strong>1. The bandage.</strong> (пластырь)</p>
+<ol><li>Put a <em>band-aid</em> on it.</li><li>The <em>band-aids</em> kept falling off in the water.</li><li>She keeps <em>band-aids</em> in her desk.</li></ol>
+<p><strong>2. An inadequate temporary fix.</strong> Figurative. (полумера)</p>
+<ol start="4"><li>The funding is a <em>band-aid</em>, not a solution.</li><li>Both proposals were <em>band-aid</em> fixes.</li></ol>
+<dl class="fields"><dt>See also</dt><dd><a href="#kleenex">kleenex</a></dd></dl>
+<hr>
+<h3 id="xerox">xerox<a class="hash" href="#xerox" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/ˈzɪrɑːks/ &middot; <em>ZEER-ahks</em> — the <em>x</em> is /z/</dd><dt>Русский</dt><dd>ксерокс, копия</dd><dt>Plural</dt><dd><em>xeroxes</em> — regular</dd><dt>Countability</dt><dd>countable</dd><dt>Agreement</dt><dd>plural verb — <em>the xeroxes were unreadable</em></dd><dt>Type</dt><dd>concrete</dd><dt>Variants</dt><dd><strong>still a trademark</strong> (Xerox); the neutral terms are <em>photocopy</em> and <em>copy</em></dd><dt>Contrast</dt><dd>Xerox campaigned publicly against using its name as a verb. Note the initial <em>x</em> is pronounced /z/, as in <em>xylophone</em>.</dd></dl>
+<p>A photocopy; also to photocopy.</p>
+<p><strong>1. A photocopy.</strong> (ксерокопия)</p>
+<ol><li>Make three <em>xeroxes</em> of this page.</li><li>The <em>xeroxes</em> were completely unreadable.</li><li>She kept a <em>xerox</em> of every receipt.</li></ol>
+<p><strong>2. As a verb.</strong> (сделать копию)</p>
+<ol start="4"><li>Could you <em>xerox</em> this for me?</li><li>The neutral verb is <em>photocopy</em>.</li></ol>
+<dl class="fields"><dt>See also</dt><dd><a href="#kleenex">kleenex</a> &middot; <a href="#google">google</a></dd></dl>
+<hr>
+<h3 id="google">google<a class="hash" href="#google" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/ˈɡuːɡəl/ &middot; <em>GOO-guhl</em></dd><dt>Русский</dt><dd>гугл; гуглить</dd><dt>Plural</dt><dd><em>googles</em> — rare as a noun</dd><dt>Countability</dt><dd>countable as a search; usually a verb</dd><dt>Agreement</dt><dd>singular verb — <em>a quick google is enough</em></dd><dt>Type</dt><dd>abstract</dd><dt>Variants</dt><dd><strong>still a trademark</strong> (Google); the neutral terms are <em>search</em> and <em>web search</em></dd><dt>Contrast</dt><dd>The most recent major genericization in English. The verb entered dictionaries in 2006, and Google has fought to keep it capitalized as a noun while the lowercase verb <em>to google</em> is now completely standard.</dd></dl>
+<p>To search the internet; also a search.</p>
+<p><strong>1. As a verb.</strong> (гуглить)</p>
+<ol><li>Just <em>google</em> it.</li><li>She <em>googled</em> him before the interview.</li><li>I <em>googled</em> the symptoms and regretted it.</li></ol>
+<p><strong>2. As a noun.</strong> Informal. (поиск в гугле)</p>
+<ol start="4"><li>A quick <em>google</em> would have answered that.</li><li>Two <em>googles</em> later he had the address.</li></ol>
+<dl class="fields"><dt>See also</dt><dd><a href="#xerox">xerox</a></dd></dl>
+<hr>
+<h3 id="velcro">velcro<a class="hash" href="#velcro" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/ˈvɛlkroʊ/ &middot; <em>VEL-kroh</em></dd><dt>Русский</dt><dd>липучка</dd><dt>Plural</dt><dd>— uncountable</dd><dt>Countability</dt><dd>uncountable</dd><dt>Agreement</dt><dd>singular verb — <em>the velcro has worn out</em></dd><dt>Type</dt><dd>concrete</dd><dt>Variants</dt><dd><strong>still a trademark</strong> (Velcro); the neutral term is <em>hook-and-loop fastener</em></dd><dt>Contrast</dt><dd>The company ran a widely shared video begging people to say <em>hook and loop</em>. Almost nobody does. The name is a blend of French <em>velours</em> and <em>crochet</em>.</dd></dl>
+<p>The fabric fastener of hooks and loops.</p>
+<p><strong>1. The fastener.</strong> (липучка)</p>
+<ol><li>The <em>velcro</em> on his shoes has worn out.</li><li>The strap closes with <em>velcro</em>.</li><li><em>Velcro</em> loses its grip when it fills with lint.</li><li>Children's shoes often use <em>velcro</em> instead of laces.</li><li>The neutral term is <em>hook-and-loop fastener</em>.</li></ol>
+<dl class="fields"><dt>See also</dt><dd><a href="#zipper">zipper</a></dd></dl>
+<hr>
+<h3 id="jacuzzi">jacuzzi<a class="hash" href="#jacuzzi" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/dʒəˈkuːzi/ &middot; <em>juh-KOO-zee</em></dd><dt>Русский</dt><dd>джакузи</dd><dt>Plural</dt><dd><em>jacuzzis</em> — regular</dd><dt>Countability</dt><dd>countable</dd><dt>Agreement</dt><dd>plural verb — <em>both jacuzzis were closed</em></dd><dt>Type</dt><dd>concrete</dd><dt>Variants</dt><dd><strong>still a trademark</strong> (Jacuzzi); the neutral terms are <em>hot tub</em> and <em>whirlpool bath</em></dd><dt>Contrast</dt><dd>Named for the Jacuzzi brothers, Italian immigrants to California. <em>Hot tub</em> is the ordinary American word.</dd></dl>
+<p>A bath or pool with underwater jets.</p>
+<p><strong>1. The tub.</strong> (джакузи)</p>
+<ol><li>Both <em>jacuzzis</em> were closed for maintenance.</li><li>The room has a <em>jacuzzi</em> on the balcony.</li><li>They sat in the <em>jacuzzi</em> until midnight.</li><li>Several <em>jacuzzis</em> line the pool deck.</li><li>Most Americans just say <em>hot tub</em>.</li></ol>
+<dl class="fields"><dt>See also</dt><dd><a href="#velcro">velcro</a></dd></dl>
+<hr>
+<h3 id="sharpie">sharpie<a class="hash" href="#sharpie" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/ˈʃɑːrpi/ &middot; <em>SHAR-pee</em></dd><dt>Русский</dt><dd>маркер</dd><dt>Plural</dt><dd><em>sharpies</em> — regular</dd><dt>Countability</dt><dd>countable</dd><dt>Agreement</dt><dd>plural verb — <em>the sharpies dried out</em></dd><dt>Type</dt><dd>concrete</dd><dt>Variants</dt><dd><strong>still a trademark</strong> (Sharpie); the neutral term is <em>permanent marker</em></dd><dt>Contrast</dt><dd>Thoroughly genericized in American speech, where <em>a sharpie</em> means any permanent marker regardless of brand.</dd></dl>
+<p>A permanent felt-tip marker.</p>
+<p><strong>1. The marker.</strong> (перманентный маркер)</p>
+<ol><li>Hand me a <em>sharpie</em>.</li><li>All the <em>sharpies</em> had dried out.</li><li>She labeled every box with a <em>sharpie</em>.</li><li>Both <em>sharpies</em> bled through the paper.</li><li>The neutral term is <em>permanent marker</em>.</li></ol>
+<dl class="fields"><dt>See also</dt><dd><a href="#post-it">post-it</a></dd></dl>
+<hr>
+<h3 id="post-it">post-it<a class="hash" href="#post-it" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/ˈpoʊstɪt/ &middot; <em>POHST-it</em></dd><dt>Русский</dt><dd>стикер, самоклеящийся листок</dd><dt>Plural</dt><dd><em>post-its</em> — regular</dd><dt>Countability</dt><dd>countable</dd><dt>Agreement</dt><dd>plural verb — <em>the post-its fell off the wall</em></dd><dt>Type</dt><dd>concrete</dd><dt>Variants</dt><dd><strong>still a trademark</strong> (Post-it, 3M); the neutral term is <em>sticky note</em></dd><dt>Contrast</dt><dd><em>Sticky note</em> is the neutral term and is genuinely common, unlike some of the others in this group.</dd></dl>
+<p>A small self-adhesive note.</p>
+<p><strong>1. The note.</strong> (стикер)</p>
+<ol><li>She left a <em>post-it</em> on my monitor.</li><li>All the <em>post-its</em> fell off the wall overnight.</li><li>His desk is covered in <em>post-its</em>.</li><li>Both <em>post-its</em> had the same phone number.</li><li>The neutral term is <em>sticky note</em>.</li></ol>
+<dl class="fields"><dt>See also</dt><dd><a href="#sharpie">sharpie</a></dd></dl>
+<hr>
+<h3 id="q-tip">q-tip<a class="hash" href="#q-tip" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/ˈkjuːtɪp/ &middot; <em>KYOO-tip</em></dd><dt>Русский</dt><dd>ватная палочка</dd><dt>Plural</dt><dd><em>q-tips</em> — regular</dd><dt>Countability</dt><dd>countable</dd><dt>Agreement</dt><dd>plural verb — <em>the q-tips are in the cabinet</em></dd><dt>Type</dt><dd>concrete</dd><dt>Variants</dt><dd><strong>still a trademark</strong> (Q-tips); the neutral term is <em>cotton swab</em></dd><dt>Contrast</dt><dd>In American English <em>q-tip</em> is simply the word for the object. The British say <em>cotton bud</em>.</dd></dl>
+<p>A small cotton-tipped stick.</p>
+<p><strong>1. The swab.</strong> (ватная палочка)</p>
+<ol><li>The <em>q-tips</em> are in the medicine cabinet.</li><li>Use a <em>q-tip</em> to clean the lens.</li><li>Both <em>q-tips</em> came apart.</li><li>Doctors say not to put <em>q-tips</em> in your ears.</li><li>The neutral term is <em>cotton swab</em>.</li></ol>
+<dl class="fields"><dt>See also</dt><dd><a href="#band-aid">band-aid</a></dd></dl>
+<hr>
+<h3 id="styrofoam">styrofoam<a class="hash" href="#styrofoam" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/ˈstaɪrəfoʊm/ &middot; <em>STY-ruh-fohm</em></dd><dt>Русский</dt><dd>пенопласт</dd><dt>Plural</dt><dd>— uncountable</dd><dt>Countability</dt><dd>uncountable</dd><dt>Agreement</dt><dd>singular verb — <em>the styrofoam is not recyclable</em></dd><dt>Type</dt><dd>concrete</dd><dt>Variants</dt><dd><strong>still a trademark</strong> (Styrofoam, Dow); the neutral term is <em>expanded polystyrene</em> or <em>foam</em></dd><dt>Contrast</dt><dd>Strictly, the trademarked product is a rigid blue building insulation, not the white foam cups everyone calls Styrofoam. The everyday use is doubly generic.</dd></dl>
+<p>The rigid white plastic foam.</p>
+<p><strong>1. The material.</strong> (пенопласт)</p>
+<ol><li>The <em>styrofoam</em> is not recyclable here.</li><li>The cups are <em>styrofoam</em>, unfortunately.</li><li>Packing <em>styrofoam</em> filled the whole box.</li><li>Several cities have banned <em>styrofoam</em> containers.</li><li>The neutral term is <em>expanded polystyrene</em>.</li></ol>
+<dl class="fields"><dt>See also</dt><dd><a href="#velcro">velcro</a></dd></dl>
+<hr>
+<h3 id="tuesday">Tuesday<a class="hash" href="#tuesday" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/ˈtuːzdeɪ/ &middot; <em>TOOZ-day</em></dd><dt>Русский</dt><dd>вторник</dd><dt>Plural</dt><dd><em>Tuesdays</em> — regular</dd><dt>Countability</dt><dd>countable</dd><dt>Agreement</dt><dd>plural verb — <em>Tuesdays are always busy</em></dd><dt>Type</dt><dd>concrete</dd><dt>Contrast</dt><dd>Days and months are <strong>always capitalized</strong> in English, unlike in Russian, French, or Spanish. ✗ <em>tuesday</em> and ✗ <em>january</em> are errors. But seasons are <strong>not</strong> capitalized: <em>spring</em>, <em>summer</em>, <em>fall</em>, <em>winter</em>.</dd></dl>
+<p>The third day of the week.</p>
+<p><strong>1. The day.</strong> (вторник)</p>
+<ol><li>The meeting is on <em>Tuesday</em>.</li><li><em>Tuesdays</em> are always the busiest.</li><li>We close early on <em>Tuesdays</em>.</li><li>Both <em>Tuesdays</em> in April are holidays.</li></ol>
+<p><strong>2. Capitalization contrast.</strong> (правило заглавных букв)</p>
+<ol start="5"><li>Write <em>Tuesday in March</em>, but <em>spring</em> with a small letter.</li></ol>
+<dl class="fields"><dt>See also</dt><dd><a href="#january">January</a></dd></dl>
+<hr>
+<h3 id="january">January<a class="hash" href="#january" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/ˈdʒænjuɛri/ &middot; <em>JAN-yoo-er-ee</em></dd><dt>Русский</dt><dd>январь</dd><dt>Plural</dt><dd><em>Januaries</em> — regular</dd><dt>Countability</dt><dd>countable</dd><dt>Agreement</dt><dd>plural verb — <em>recent Januaries have been mild</em></dd><dt>Type</dt><dd>concrete</dd><dt>Contrast</dt><dd>Capitalized, like all months and days. Note the plural takes <em>-ies</em>, since the word ends in a consonant plus <em>y</em>. Named for the Roman god Janus.</dd></dl>
+<p>The first month of the year.</p>
+<p><strong>1. The month.</strong> (январь)</p>
+<ol><li>The contract starts in <em>January</em>.</li><li>Recent <em>Januaries</em> have been unusually mild.</li><li>Both <em>Januaries</em> set cold records.</li><li>She was born in <em>January</em> of 1998.</li></ol>
+<p><strong>2. Capitalization contrast.</strong> (правило заглавных букв)</p>
+<ol start="5"><li>Capitalize <em>January</em>, but not <em>winter</em>.</li></ol>
+<dl class="fields"><dt>See also</dt><dd><a href="#tuesday">Tuesday</a></dd></dl></div></main>
+<button class="themebtn" id="themeBtn">Dark</button>
+<script>
+const tb=document.getElementById('themeBtn');
+function setTheme(x){document.documentElement.dataset.theme=x;tb.textContent=x==='dark'?'Light':'Dark';
+ try{localStorage.setItem('site-theme',x)}catch(e){}}
+tb.onclick=()=>setTheme(document.documentElement.dataset.theme==='dark'?'light':'dark');
+try{const s=localStorage.getItem('site-theme');
+ setTheme(s||(matchMedia('(prefers-color-scheme: dark)').matches?'dark':'light'))}catch(e){setTheme('light')}
+</script></body></html>

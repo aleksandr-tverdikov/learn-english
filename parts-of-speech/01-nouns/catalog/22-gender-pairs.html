@@ -1,0 +1,275 @@
+<!DOCTYPE html>
+<html lang="en"><head>
+<meta charset="utf-8"><meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Nouns that come in gender pairs</title>
+<style>
+:root{--bg:#faf9f7;--surface:#fff;--surface2:#f2f0ec;--border:#e2ded6;--text:#1a1815;
+--dim:#5f594f;--faint:#8a8377;--accent:#8a5a3b;--measure:72ch}
+@media(prefers-color-scheme:dark){:root{--bg:#14140f;--surface:#1d1d17;--surface2:#25251d;
+--border:#33332a;--text:#eeeae1;--dim:#a8a293;--faint:#7d776b;--accent:#d09b72}}
+:root[data-theme=dark]{--bg:#14140f;--surface:#1d1d17;--surface2:#25251d;--border:#33332a;
+--text:#eeeae1;--dim:#a8a293;--faint:#7d776b;--accent:#d09b72}
+:root[data-theme=light]{--bg:#faf9f7;--surface:#fff;--surface2:#f2f0ec;--border:#e2ded6;
+--text:#1a1815;--dim:#5f594f;--faint:#8a8377;--accent:#8a5a3b}
+*{box-sizing:border-box}
+body{margin:0;background:var(--bg);color:var(--text);
+font:17px/1.72 ui-serif,Georgia,"Iowan Old Style",Palatino,serif;-webkit-font-smoothing:antialiased}
+.wrap{max-width:min(var(--measure),100%);margin:0 auto;padding:0 22px}
+nav.crumb{border-bottom:1px solid var(--border);padding:13px 0;font-size:13.5px;
+font-family:-apple-system,BlinkMacSystemFont,"Segoe UI",sans-serif;position:sticky;top:0;background:var(--bg);z-index:20}
+nav.crumb .wrap{max-width:none;display:flex;gap:9px;align-items:center;flex-wrap:wrap}
+nav.crumb a{color:var(--dim);text-decoration:none}
+nav.crumb a:hover{color:var(--accent)}
+nav.crumb .sep{color:var(--faint)}
+main{padding:8px 0 80px}
+h1{font-size:clamp(28px,5vw,38px);line-height:1.15;letter-spacing:-.015em;margin:34px 0 18px}
+h2{font-size:25px;margin:46px 0 14px;letter-spacing:-.01em;padding-bottom:7px;border-bottom:1px solid var(--border)}
+h3{font-size:19px;margin:34px 0 10px;color:var(--accent)}
+h4{font-size:16px;margin:24px 0 8px;font-family:-apple-system,sans-serif}
+p{margin:0 0 16px}
+a{color:var(--accent)}
+.hash{opacity:0;margin-left:8px;font-weight:400;font-size:.65em;text-decoration:none;color:var(--faint)}
+h2:hover .hash,h3:hover .hash{opacity:1}
+blockquote{margin:0 0 20px;padding:14px 18px;background:var(--surface2);
+border-left:3px solid var(--accent);border-radius:0 8px 8px 0}
+blockquote p:last-child{margin-bottom:0}
+ol,ul{margin:0 0 18px;padding-left:26px}
+li{margin-bottom:8px}
+li>ul,li>ol{margin:8px 0 0}
+code{font-family:ui-monospace,SFMono-Regular,Menlo,Consolas,monospace;font-size:.87em;
+background:var(--surface2);padding:1px 5px;border-radius:4px}
+pre{background:var(--surface2);border:1px solid var(--border);border-radius:9px;
+padding:15px 17px;overflow-x:auto;margin:0 0 20px}
+pre code{background:none;padding:0;font-size:13px;line-height:1.6}
+.tw{overflow-x:auto;margin:0 0 22px;border:1px solid var(--border);border-radius:9px}
+table{border-collapse:collapse;width:100%;font-size:15px;
+font-family:-apple-system,BlinkMacSystemFont,"Segoe UI",sans-serif}
+th,td{padding:10px 14px;border-bottom:1px solid var(--border);vertical-align:top}
+th{background:var(--surface2);font-size:12px;text-transform:uppercase;
+letter-spacing:.06em;color:var(--dim);font-weight:700;white-space:nowrap}
+tbody tr:last-child td{border-bottom:none}
+hr{border:none;border-top:1px solid var(--border);margin:38px 0}
+details{background:var(--surface2);border:1px solid var(--border);border-radius:9px;
+padding:13px 17px;margin:0 0 20px}
+summary{cursor:pointer;font-weight:600;font-family:-apple-system,sans-serif;font-size:15px}
+details[open] summary{margin-bottom:12px}
+del{color:var(--faint)}
+dl.fields{margin:0 0 20px;padding:0}
+dl.fields dt{font-family:-apple-system,BlinkMacSystemFont,"Segoe UI",sans-serif;
+font-size:11px;letter-spacing:.11em;text-transform:uppercase;color:var(--faint);
+font-weight:700;margin:14px 0 4px}
+dl.fields dt:first-child{margin-top:0}
+dl.fields dd{margin:0;font-size:16px;color:var(--dim);line-height:1.62}
+dl.fields dd em{color:var(--text)}
+dl.fields dt.ru{color:var(--accent)}
+dl.fields dd strong{color:var(--text)}
+.toc{background:var(--surface2);border:1px solid var(--border);border-radius:10px;
+padding:16px 20px;margin:26px 0 34px;font-family:-apple-system,sans-serif;font-size:14px}
+.toc b{display:block;font-size:11px;letter-spacing:.12em;text-transform:uppercase;
+color:var(--faint);margin-bottom:9px}
+.toc a{display:block;padding:3px 0;color:var(--dim);text-decoration:none}
+.toc a:hover{color:var(--accent)}
+.themebtn{position:fixed;right:18px;bottom:18px;z-index:60;font-family:-apple-system,sans-serif;
+font-size:12.5px;font-weight:600;cursor:pointer;background:var(--surface);border:1px solid var(--border);
+border-radius:99px;padding:9px 16px;color:var(--text)}
+@media(max-width:600px){body{font-size:16px}.wrap{padding:0 17px}}
+</style></head><body>
+<nav class="crumb"><div class="wrap"><a href="../../../index.html">Learn English</a><span class="sep">/</span><a href="../../README.html">Parts of speech</a><span class="sep">/</span><a href="../README.html">01-nouns</a><span class="sep">/</span><span>catalog</span></div></nav>
+<main><div class="wrap"><h1 id="nouns-that-come-in-gender-pairs">Nouns that come in gender pairs<a class="hash" href="#nouns-that-come-in-gender-pairs" aria-label="link">#</a></h1>
+<blockquote><p><em>Actor/actress</em>, <em>waiter/waitress</em>, <em>widow/widower</em>. Some pairs are alive, some are dying, and using a dying one marks you as out of date.</p></blockquote>
+<p><a href="../README.html">← The grammar of nouns</a> &middot; <a href="README.html">All groups</a></p>
+<p>English does not have grammatical gender the way Russian, German, or Spanish do — an English noun is not masculine or feminine, and no article or adjective agrees with it. What English has instead is a set of <strong>lexical pairs</strong>: separate words for a male and a female person in the same role.</p>
+<p>The interesting fact about this group is that <strong>it is shrinking, and fast.</strong> Three things are happening at once:</p>
+<p><strong>Pairs that survive</strong> name relationships and titles where sex is the point: <em>husband/wife</em>, <em>son/daughter</em>, <em>king/queen</em>, <em>uncle/aunt</em>, <em>widow/widower</em>. Nobody objects to these and nobody is replacing them.</p>
+<p><strong>Pairs that are collapsing</strong> name jobs. The <em>-ess</em> form is dropping out and the unmarked form is taking over for everyone: <em>actor</em> now covers all actors, <em>server</em> has largely replaced <em>waiter/waitress</em>, <em>flight attendant</em> has completely replaced <em>steward/stewardess</em>, and <em>poetess</em> and <em>authoress</em> are dead. A woman in these jobs is normally called by the plain form.</p>
+<p><strong>Compounds in <em>-man</em> that are being replaced</strong> by neutral coinages: <em>chairman → chair</em> or <em>chairperson</em>, <em>spokesman → spokesperson</em>, <em>policeman → police officer</em>, <em>fireman → firefighter</em>, <em>salesman → salesperson</em>, <em>mailman → mail carrier</em>. In American professional writing the neutral form is now the default, and the <em>-man</em> form reads as dated or as deliberately excluding.</p>
+<p>The practical rule for a learner: <strong>when in doubt, use the unmarked form for anyone.</strong> <em>Actor</em>, <em>server</em>, <em>chair</em>, <em>police officer</em> are safe for any person. The <em>-ess</em> forms below are given so you can recognize them, with a note on whether they are still usable.</p>
+<hr>
+<h3 id="actor">actor<a class="hash" href="#actor" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/ˈæktər/ &middot; <em>AK-tur</em></dd><dt>Русский</dt><dd>актёр, актриса</dd><dt>Plural</dt><dd><em>actors</em> — regular</dd><dt>Countability</dt><dd>countable</dd><dt>Agreement</dt><dd>plural verb — <em>the actors were rehearsing</em></dd><dt>Type</dt><dd>concrete</dd><dt>Variants</dt><dd><em>actress</em> /ˈæktrɪs/ is still used, especially in award categories</dd><dt>Contrast</dt><dd><em>Actor</em> now covers performers of any sex, and most performers prefer it. <em>Actress</em> survives mainly because award shows keep separate categories. Neither is wrong, but <em>actor</em> is the safe default.</dd></dl>
+<p>Someone who performs in plays or films.</p>
+<p><strong>1. A performer of any sex.</strong> (актёр, актриса)</p>
+<ol><li>She is one of the finest <em>actors</em> of her generation.</li><li>Both <em>actors</em> trained at the same school.</li><li>The <em>actors</em> were still rehearsing at midnight.</li></ol>
+<p><strong>2. The marked feminine form.</strong> (актриса)</p>
+<ol start="4"><li>She won Best <em>Actress</em> that year.</li><li>Many <em>actresses</em> now ask to be called actors.</li></ol>
+<dl class="fields"><dt>See also</dt><dd><a href="#waiter">waiter</a> &middot; <a href="#host">host</a></dd></dl>
+<hr>
+<h3 id="waiter">waiter<a class="hash" href="#waiter" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/ˈweɪtər/ &middot; <em>WAY-tur</em></dd><dt>Русский</dt><dd>официант, официантка</dd><dt>Plural</dt><dd><em>waiters</em> — regular</dd><dt>Countability</dt><dd>countable</dd><dt>Agreement</dt><dd>plural verb — <em>the waiters were overwhelmed</em></dd><dt>Type</dt><dd>concrete</dd><dt>Variants</dt><dd><em>waitress</em> /ˈweɪtrɪs/ is still common; <em>server</em> is the neutral American term</dd><dt>Contrast</dt><dd>In American restaurants <em>server</em> has largely replaced both. <em>Waitress</em> is not offensive and is still widely used, but <em>server</em> is what most restaurants say now.</dd></dl>
+<p>Someone who serves food in a restaurant.</p>
+<p><strong>1. The neutral or male form.</strong> (официант)</p>
+<ol><li>Ask the <em>waiter</em> for the check.</li><li>Both <em>waiters</em> were run off their feet.</li><li>The <em>servers</em> here work for tips. <em>(neutral)</em></li></ol>
+<p><strong>2. The marked feminine form.</strong> (официантка)</p>
+<ol start="4"><li>Our <em>waitress</em> recommended the special.</li><li>Two <em>waitresses</em> covered the whole patio.</li></ol>
+<dl class="fields"><dt>See also</dt><dd><a href="#actor">actor</a> &middot; <a href="#host">host</a></dd></dl>
+<hr>
+<h3 id="host">host<a class="hash" href="#host" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/hoʊst/ &middot; <em>hohst</em></dd><dt>Русский</dt><dd>хозяин, хозяйка; ведущий</dd><dt>Plural</dt><dd><em>hosts</em> — regular</dd><dt>Countability</dt><dd>countable</dd><dt>Agreement</dt><dd>plural verb — <em>the hosts greeted everyone</em></dd><dt>Type</dt><dd>concrete</dd><dt>Variants</dt><dd><em>hostess</em> /ˈhoʊstɪs/ survives in restaurants and on airlines</dd><dt>Contrast</dt><dd><em>Host</em> is neutral and covers everyone. <em>Hostess</em> is still used for the person who seats guests in a restaurant, and in <em>air hostess</em>, which is itself being replaced by <em>flight attendant</em>.</dd></dl>
+<p>Someone who receives guests, or presents a program.</p>
+<p><strong>1. The neutral form.</strong> (хозяин; ведущий)</p>
+<ol><li>Our <em>host</em> met us at the door.</li><li>Both <em>hosts</em> of the show were replaced.</li><li>The <em>hosts</em> had prepared far too much food.</li></ol>
+<p><strong>2. The marked feminine form.</strong> (хозяйка; хостес)</p>
+<ol start="4"><li>The <em>hostess</em> showed us to a table.</li><li>Two <em>hostesses</em> worked the front of house.</li></ol>
+<dl class="fields"><dt>See also</dt><dd><a href="#waiter">waiter</a> &middot; <a href="#steward">steward</a></dd></dl>
+<hr>
+<h3 id="steward">steward<a class="hash" href="#steward" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/ˈstuːərd/ &middot; <em>STOO-urd</em></dd><dt>Русский</dt><dd>стюард, стюардесса</dd><dt>Plural</dt><dd><em>stewards</em> — regular</dd><dt>Countability</dt><dd>countable</dd><dt>Agreement</dt><dd>plural verb — <em>the stewards were trained in first aid</em></dd><dt>Type</dt><dd>concrete</dd><dt>Variants</dt><dd><em>stewardess</em> /ˈstuːərdɪs/ is now dated; <em>flight attendant</em> has replaced both</dd><dt>Contrast</dt><dd>This pair has been almost completely replaced in aviation by <strong>flight attendant</strong>, which is the term airlines and staff use. <em>Stewardess</em> now sounds distinctly mid-century.</dd></dl>
+<p>Someone who looks after passengers; also a manager of property.</p>
+<p><strong>1. The aviation sense.</strong> Now replaced. (стюард)</p>
+<ol><li>The <em>flight attendants</em> prepared the cabin. <em>(current term)</em></li><li>Airlines stopped saying <em>stewardess</em> decades ago.</li><li>My grandmother was a <em>stewardess</em> in the 1960s.</li></ol>
+<p><strong>2. A manager or caretaker.</strong> Still current. (управляющий, распорядитель)</p>
+<ol start="4"><li>He is a careful <em>steward</em> of the endowment.</li><li>Union <em>stewards</em> handle member complaints.</li></ol>
+<dl class="fields"><dt>See also</dt><dd><a href="#host">host</a> &middot; <a href="#waiter">waiter</a></dd></dl>
+<hr>
+<h3 id="widow">widow<a class="hash" href="#widow" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/ˈwɪdoʊ/ &middot; <em>WID-oh</em></dd><dt>Русский</dt><dd>вдова</dd><dt>Plural</dt><dd><em>widows</em> — regular</dd><dt>Countability</dt><dd>countable</dd><dt>Agreement</dt><dd>plural verb — <em>the widows received pensions</em></dd><dt>Type</dt><dd>concrete</dd><dt>Variants</dt><dd>the male counterpart is <em>widower</em> /ˈwɪdoʊər/</dd><dt>Contrast</dt><dd>This pair is fully alive and unmarked in either direction. Unusually, the <strong>male</strong> form is the derived one: <em>widower</em> is built from <em>widow</em>, not the other way around.</dd></dl>
+<p>A woman whose spouse has died.</p>
+<p><strong>1. The bereaved woman.</strong> (вдова)</p>
+<ol><li>She was left a <em>widow</em> at thirty-four.</li><li>Both <em>widows</em> received the same pension.</li><li>War <em>widows</em> were granted special status.</li></ol>
+<p><strong>2. The male counterpart.</strong> (вдовец)</p>
+<ol start="4"><li>He has been a <em>widower</em> for six years.</li><li>Two <em>widowers</em> in the building married each other's neighbors.</li></ol>
+<dl class="fields"><dt>See also</dt><dd><a href="#bride">bride</a></dd></dl>
+<hr>
+<h3 id="bride">bride<a class="hash" href="#bride" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/braɪd/ &middot; <em>bryd</em></dd><dt>Русский</dt><dd>невеста</dd><dt>Plural</dt><dd><em>brides</em> — regular</dd><dt>Countability</dt><dd>countable</dd><dt>Agreement</dt><dd>plural verb — <em>the brides posed together</em></dd><dt>Type</dt><dd>concrete</dd><dt>Variants</dt><dd>the male counterpart is <em>groom</em> or <em>bridegroom</em></dd><dt>Contrast</dt><dd>Fully alive. Note that <em>groom</em> is a shortening of <em>bridegroom</em>, which is itself built on <em>bride</em> — the same asymmetry as <em>widow/widower</em>. <em>Groom</em> also separately means someone who cares for horses.</dd></dl>
+<p>A woman on her wedding day.</p>
+<p><strong>1. The woman marrying.</strong> (невеста)</p>
+<ol><li>The <em>bride</em> arrived twenty minutes late.</li><li>Both <em>brides</em> wore their mothers' dresses.</li><li>The <em>brides</em> posed together for a photograph.</li></ol>
+<p><strong>2. The male counterpart.</strong> (жених)</p>
+<ol start="4"><li>The <em>groom</em> forgot the rings.</li><li>Both <em>bridegrooms</em> gave short speeches.</li></ol>
+<dl class="fields"><dt>See also</dt><dd><a href="#widow">widow</a> &middot; <a href="#husband">husband</a></dd></dl>
+<hr>
+<h3 id="husband">husband<a class="hash" href="#husband" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/ˈhʌzbənd/ &middot; <em>HUZ-buhnd</em></dd><dt>Русский</dt><dd>муж</dd><dt>Plural</dt><dd><em>husbands</em> — regular</dd><dt>Countability</dt><dd>countable</dd><dt>Agreement</dt><dd>plural verb — <em>their husbands stayed home</em></dd><dt>Type</dt><dd>concrete</dd><dt>Variants</dt><dd>the female counterpart is <em>wife</em>, plural <em>wives</em> — see <a href="04-f-to-ves.html#wife">wife</a></dd><dt>Contrast</dt><dd>Fully alive, and the neutral cover term is <em>spouse</em> or <em>partner</em>, which many couples now prefer. Note the irregular plural on the other half of the pair: <em>wife → wives</em>.</dd></dl>
+<p>A married man, considered in relation to his spouse.</p>
+<p><strong>1. The married man.</strong> (муж)</p>
+<ol><li>Her <em>husband</em> teaches at the college.</li><li>Both <em>husbands</em> stayed home with the children.</li><li>He has been a good <em>husband</em> to her.</li></ol>
+<p><strong>2. The neutral cover term.</strong> (супруг, партнёр)</p>
+<ol start="4"><li>Each employee may add one <em>spouse</em> to the plan.</li><li>Both <em>partners</em> signed the lease.</li></ol>
+<dl class="fields"><dt>See also</dt><dd><a href="04-f-to-ves.html#wife">wife</a> &middot; <a href="#bride">bride</a></dd></dl>
+<hr>
+<h3 id="king">king<a class="hash" href="#king" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/kɪŋ/ &middot; <em>king</em></dd><dt>Русский</dt><dd>король</dd><dt>Plural</dt><dd><em>kings</em> — regular</dd><dt>Countability</dt><dd>countable</dd><dt>Agreement</dt><dd>plural verb — <em>the kings met at the border</em></dd><dt>Type</dt><dd>concrete</dd><dt>Variants</dt><dd>the female counterpart is <em>queen</em></dd><dt>Contrast</dt><dd>Fully alive. Note the asymmetry in meaning: a <em>queen</em> may be a ruler in her own right <strong>or</strong> a king's wife, while a <em>king</em> is always a ruler. The wife of a reigning queen is a <em>prince consort</em>, not a king.</dd></dl>
+<p>A male monarch.</p>
+<p><strong>1. The monarch.</strong> (король)</p>
+<ol><li>The <em>king</em> abdicated in 1936.</li><li>Both <em>kings</em> claimed the same territory.</li><li>Three <em>kings</em> ruled in a single decade.</li></ol>
+<p><strong>2. The female counterpart.</strong> (королева)</p>
+<ol start="4"><li>The <em>queen</em> reigned for seventy years.</li><li>Two <em>queens</em> ruled in their own right.</li></ol>
+<dl class="fields"><dt>See also</dt><dd><a href="#prince">prince</a> &middot; <a href="#emperor">emperor</a></dd></dl>
+<hr>
+<h3 id="prince">prince<a class="hash" href="#prince" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/prɪns/ &middot; <em>prins</em></dd><dt>Русский</dt><dd>принц</dd><dt>Plural</dt><dd><em>princes</em> — regular</dd><dt>Countability</dt><dd>countable</dd><dt>Agreement</dt><dd>plural verb — <em>the princes were educated abroad</em></dd><dt>Type</dt><dd>concrete</dd><dt>Variants</dt><dd>the female counterpart is <em>princess</em> /ˈprɪnsɛs/</dd><dt>Contrast</dt><dd>A live pair, since it names a hereditary title where sex is part of the definition. Unlike <em>actress</em>, <em>princess</em> is not going anywhere.</dd></dl>
+<p>The son of a monarch, or a ruler of a small state.</p>
+<p><strong>1. The male title.</strong> (принц)</p>
+<ol><li>The <em>prince</em> was educated abroad.</li><li>Both <em>princes</em> renounced their claims.</li><li>Three <em>princes</em> attended the funeral.</li></ol>
+<p><strong>2. The female counterpart.</strong> (принцесса)</p>
+<ol start="4"><li>The <em>princess</em> opened the new hospital.</li><li>Both <em>princesses</em> married commoners.</li></ol>
+<dl class="fields"><dt>See also</dt><dd><a href="#king">king</a> &middot; <a href="#duke">duke</a></dd></dl>
+<hr>
+<h3 id="duke">duke<a class="hash" href="#duke" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/duːk/ &middot; <em>dook</em></dd><dt>Русский</dt><dd>герцог</dd><dt>Plural</dt><dd><em>dukes</em> — regular</dd><dt>Countability</dt><dd>countable</dd><dt>Agreement</dt><dd>plural verb — <em>the dukes held vast estates</em></dd><dt>Type</dt><dd>concrete</dd><dt>Variants</dt><dd>the female counterpart is <em>duchess</em> /ˈdʌtʃɪs/</dd><dt>Contrast</dt><dd>Note that the feminine form changes the stem, not just the ending: <em>duke → duchess</em>, not ✗ <em>dukess</em>. A <em>duchess</em> may hold the title herself or be a duke's wife.</dd></dl>
+<p>A nobleman of the highest rank below a monarch.</p>
+<p><strong>1. The male title.</strong> (герцог)</p>
+<ol><li>The <em>duke</em> held estates in three counties.</li><li>Both <em>dukes</em> sat in the House of Lords.</li><li>Several <em>dukes</em> were created that year.</li></ol>
+<p><strong>2. The female counterpart.</strong> (герцогиня)</p>
+<ol start="4"><li>The <em>duchess</em> opened the gardens to visitors.</li><li>Two <em>duchesses</em> attended the ceremony.</li></ol>
+<dl class="fields"><dt>See also</dt><dd><a href="#prince">prince</a> &middot; <a href="#emperor">emperor</a></dd></dl>
+<hr>
+<h3 id="emperor">emperor<a class="hash" href="#emperor" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/ˈɛmpərər/ &middot; <em>EM-pur-ur</em></dd><dt>Русский</dt><dd>император</dd><dt>Plural</dt><dd><em>emperors</em> — regular</dd><dt>Countability</dt><dd>countable</dd><dt>Agreement</dt><dd>plural verb — <em>the emperors were deified</em></dd><dt>Type</dt><dd>concrete</dd><dt>Variants</dt><dd>the female counterpart is <em>empress</em> /ˈɛmprɪs/</dd><dt>Contrast</dt><dd>Like <em>duke/duchess</em>, the feminine form contracts the stem: <em>emperor → empress</em>, not ✗ <em>emperoress</em>.</dd></dl>
+<p>The ruler of an empire.</p>
+<p><strong>1. The male title.</strong> (император)</p>
+<ol><li>The <em>emperor</em> ruled for forty-one years.</li><li>Both <em>emperors</em> were deified after death.</li><li>Several <em>emperors</em> reigned within a single year.</li></ol>
+<p><strong>2. The female counterpart.</strong> (императрица)</p>
+<ol start="4"><li>The <em>empress</em> governed in his absence.</li><li>Two <em>empresses</em> ruled in their own right.</li></ol>
+<dl class="fields"><dt>See also</dt><dd><a href="#king">king</a> &middot; <a href="#duke">duke</a></dd></dl>
+<hr>
+<h3 id="hero">hero<a class="hash" href="#hero" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/ˈhɪroʊ/ &middot; <em>HEER-oh</em></dd><dt>Русский</dt><dd>герой</dd><dt>Plural</dt><dd><em>heroes</em> — always <em>-es</em></dd><dt>Countability</dt><dd>countable</dd><dt>Agreement</dt><dd>plural verb — <em>the heroes were honored</em></dd><dt>Type</dt><dd>concrete</dd><dt>Variants</dt><dd>the female counterpart is <em>heroine</em> /ˈhɛroʊɪn/</dd><dt>Contrast</dt><dd><em>Hero</em> now covers everyone, and a brave woman is normally called <em>a hero</em>. <em>Heroine</em> survives mainly in literary criticism, meaning the main female character. Note the pronunciation trap: <em>heroine</em> /ˈhɛroʊɪn/ is spelled almost identically to <em>heroin</em>, the drug, and they sound the same.</dd></dl>
+<p>Someone admired for courage; the main character of a story.</p>
+<p><strong>1. The neutral form.</strong> (герой)</p>
+<ol><li>The firefighters were treated as <em>heroes</em>.</li><li>She's a <em>hero</em> to everyone in that department.</li><li>Both <em>heroes</em> refused any recognition.</li></ol>
+<p><strong>2. The literary feminine form.</strong> (героиня)</p>
+<ol start="4"><li>The novel's <em>heroine</em> narrates the whole story.</li><li>Both <em>heroines</em> end up disillusioned.</li></ol>
+<dl class="fields"><dt>See also</dt><dd><a href="#actor">actor</a> &middot; <a href="05-o-plurals.html#hero">hero</a></dd></dl>
+<hr>
+<h3 id="chairman">chairman<a class="hash" href="#chairman" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/ˈtʃɛrmən/ &middot; <em>CHAIR-muhn</em></dd><dt>Русский</dt><dd>председатель</dd><dt>Plural</dt><dd><em>chairmen</em> /ˈtʃɛrmɛn/ — the mutation plural</dd><dt>Countability</dt><dd>countable</dd><dt>Agreement</dt><dd>plural verb — <em>the chairmen met privately</em></dd><dt>Type</dt><dd>concrete</dd><dt>Variants</dt><dd>neutral forms are <em>chair</em>, <em>chairperson</em>, and for a woman <em>chairwoman</em></dd><dt>Contrast</dt><dd>In American professional usage <strong>chair</strong> is now the default: <em>she chairs the committee</em>, <em>the chair recognized the senator</em>. <em>Chairman</em> is still correct but reads as traditional or male-specific. Note the plural takes the <a href="01-vowel-change.html#man">mutation plural</a> of <em>man</em>: <em>chairmen</em>, not ✗ <em>chairmans</em>.</dd></dl>
+<p>The person who leads a meeting or organization.</p>
+<p><strong>1. The traditional male form.</strong> (председатель)</p>
+<ol><li>The <em>chairman</em> called the meeting to order.</li><li>Both <em>chairmen</em> resigned the same week.</li></ol>
+<p><strong>2. The neutral forms.</strong> (председатель, нейтрально)</p>
+<ol start="3"><li>She has been <em>chair</em> of the department since 2020.</li><li>Both <em>chairpersons</em> signed the report.</li><li>The <em>chairwoman</em> set a three-minute limit on questions.</li></ol>
+<dl class="fields"><dt>See also</dt><dd><a href="#spokesman">spokesman</a> &middot; <a href="01-vowel-change.html#man">man</a></dd></dl>
+<hr>
+<h3 id="spokesman">spokesman<a class="hash" href="#spokesman" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/ˈspoʊksmən/ &middot; <em>SPOHKS-muhn</em></dd><dt>Русский</dt><dd>представитель, пресс-секретарь</dd><dt>Plural</dt><dd><em>spokesmen</em> /ˈspoʊksmɛn/ — the mutation plural</dd><dt>Countability</dt><dd>countable</dd><dt>Agreement</dt><dd>plural verb — <em>the spokesmen gave identical statements</em></dd><dt>Type</dt><dd>concrete</dd><dt>Variants</dt><dd>neutral form <em>spokesperson</em>; feminine <em>spokeswoman</em></dd><dt>Contrast</dt><dd><em>Spokesperson</em> is now standard in American journalism, and news organizations use it by default unless the person's sex is relevant and known.</dd></dl>
+<p>Someone who speaks on behalf of an organization.</p>
+<p><strong>1. The traditional male form.</strong> (представитель)</p>
+<ol><li>A company <em>spokesman</em> denied the report.</li><li>Both <em>spokesmen</em> gave identical statements.</li></ol>
+<p><strong>2. The neutral and feminine forms.</strong> (пресс-секретарь)</p>
+<ol start="3"><li>A <em>spokesperson</em> confirmed the layoffs.</li><li>The <em>spokeswoman</em> refused to take questions.</li><li>Both <em>spokespersons</em> were quoted anonymously.</li></ol>
+<dl class="fields"><dt>See also</dt><dd><a href="#chairman">chairman</a> &middot; <a href="#salesman">salesman</a></dd></dl>
+<hr>
+<h3 id="salesman">salesman<a class="hash" href="#salesman" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/ˈseɪlzmən/ &middot; <em>SAYLZ-muhn</em></dd><dt>Русский</dt><dd>продавец, торговый представитель</dd><dt>Plural</dt><dd><em>salesmen</em> /ˈseɪlzmɛn/ — the mutation plural</dd><dt>Countability</dt><dd>countable</dd><dt>Agreement</dt><dd>plural verb — <em>the salesmen worked on commission</em></dd><dt>Type</dt><dd>concrete</dd><dt>Variants</dt><dd>neutral forms <em>salesperson</em>, <em>sales representative</em>, <em>sales rep</em>; feminine <em>saleswoman</em></dd><dt>Contrast</dt><dd><em>Salesperson</em> and <em>sales rep</em> are the normal terms in American business now. <em>Salesman</em> survives in the title of the play <em>Death of a Salesman</em> and in casual speech.</dd></dl>
+<p>Someone whose job is selling.</p>
+<p><strong>1. The traditional male form.</strong> (продавец)</p>
+<ol><li>A car <em>salesman</em> called three times.</li><li>Both <em>salesmen</em> worked entirely on commission.</li></ol>
+<p><strong>2. The neutral and feminine forms.</strong> (продавец, нейтрально)</p>
+<ol start="3"><li>Every <em>salesperson</em> met quota this quarter.</li><li>The <em>saleswoman</em> knew the product cold.</li><li>Two <em>sales reps</em> cover the whole territory.</li></ol>
+<dl class="fields"><dt>See also</dt><dd><a href="#spokesman">spokesman</a> &middot; <a href="#policeman">policeman</a></dd></dl>
+<hr>
+<h3 id="policeman">policeman<a class="hash" href="#policeman" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/pəˈliːsmən/ &middot; <em>puh-LEES-muhn</em></dd><dt>Русский</dt><dd>полицейский</dd><dt>Plural</dt><dd><em>policemen</em> /pəˈliːsmɛn/ — the mutation plural</dd><dt>Countability</dt><dd>countable</dd><dt>Agreement</dt><dd>plural verb — <em>the policemen were first on the scene</em></dd><dt>Type</dt><dd>concrete</dd><dt>Variants</dt><dd>neutral form <em>police officer</em>; feminine <em>policewoman</em></dd><dt>Contrast</dt><dd><strong>Police officer</strong> is the standard American term and what departments themselves use. Note also that <a href="17-collective.html#police">police</a> as a collective is always plural: <em>the police <strong>are</strong> investigating</em>.</dd></dl>
+<p>A member of a police force.</p>
+<p><strong>1. The traditional male form.</strong> (полицейский)</p>
+<ol><li>A <em>policeman</em> took the statement.</li><li>Both <em>policemen</em> were first on the scene.</li></ol>
+<p><strong>2. The neutral and feminine forms.</strong> (сотрудник полиции)</p>
+<ol start="3"><li>Two <em>police officers</em> responded to the call.</li><li>The <em>policewoman</em> who arrested him testified.</li><li>Every <em>police officer</em> wears a body camera now.</li></ol>
+<dl class="fields"><dt>See also</dt><dd><a href="#firefighter">firefighter</a> &middot; <a href="17-collective.html#police">police</a></dd></dl>
+<hr>
+<h3 id="firefighter">firefighter<a class="hash" href="#firefighter" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/ˈfaɪrfaɪtər/ &middot; <em>FYR-fy-tur</em></dd><dt>Русский</dt><dd>пожарный</dd><dt>Plural</dt><dd><em>firefighters</em> — regular</dd><dt>Countability</dt><dd>countable</dd><dt>Agreement</dt><dd>plural verb — <em>the firefighters worked through the night</em></dd><dt>Type</dt><dd>concrete</dd><dt>Variants</dt><dd>the older term is <em>fireman</em>, plural <em>firemen</em></dd><dt>Contrast</dt><dd>This replacement is essentially complete in American English: departments, news reports, and firefighters themselves say <strong>firefighter</strong>. <em>Fireman</em> now sounds like a children's book. Note that the replacement is a regular noun, so it escapes the <em>-man → -men</em> mutation plural.</dd></dl>
+<p>Someone whose job is putting out fires.</p>
+<p><strong>1. The neutral form.</strong> (пожарный)</p>
+<ol><li><em>Firefighters</em> worked through the night.</li><li>Both <em>firefighters</em> were treated for smoke inhalation.</li><li>She has been a <em>firefighter</em> for eleven years.</li></ol>
+<p><strong>2. The older form.</strong> (пожарный, устар.)</p>
+<ol start="4"><li>Two <em>firemen</em> carried the ladder between them.</li><li>Most departments stopped saying <em>fireman</em> long ago.</li></ol>
+<dl class="fields"><dt>See also</dt><dd><a href="#policeman">policeman</a> &middot; <a href="#salesman">salesman</a></dd></dl>
+<hr>
+<h3 id="nun">nun<a class="hash" href="#nun" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/nʌn/ &middot; <em>nun</em></dd><dt>Русский</dt><dd>монахиня</dd><dt>Plural</dt><dd><em>nuns</em> — regular</dd><dt>Countability</dt><dd>countable</dd><dt>Agreement</dt><dd>plural verb — <em>the nuns ran the school</em></dd><dt>Type</dt><dd>concrete</dd><dt>Variants</dt><dd>the male counterpart is <em>monk</em>, not ✗ <em>nunner</em></dd><dt>Contrast</dt><dd>A suppletive pair — the two words are unrelated in form, like <em>king/queen</em> and <em>boy/girl</em>. There is no shared stem.</dd></dl>
+<p>A woman in a religious order.</p>
+<p><strong>1. The religious woman.</strong> (монахиня)</p>
+<ol><li>The <em>nuns</em> ran the school for eighty years.</li><li>Both <em>nuns</em> took vows the same year.</li><li>She became a <em>nun</em> at twenty-three.</li></ol>
+<p><strong>2. The male counterpart.</strong> (монах)</p>
+<ol start="4"><li>The <em>monks</em> keep silence until noon.</li><li>Two <em>monks</em> tend the entire garden.</li></ol>
+<dl class="fields"><dt>See also</dt><dd><a href="#king">king</a></dd></dl>
+<hr>
+<h3 id="niece">niece<a class="hash" href="#niece" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/niːs/ &middot; <em>nees</em></dd><dt>Русский</dt><dd>племянница</dd><dt>Plural</dt><dd><em>nieces</em> — regular</dd><dt>Countability</dt><dd>countable</dd><dt>Agreement</dt><dd>plural verb — <em>his nieces visit every summer</em></dd><dt>Type</dt><dd>concrete</dd><dt>Variants</dt><dd>the male counterpart is <em>nephew</em> /ˈnɛfjuː/</dd><dt>Contrast</dt><dd>Another suppletive pair with no shared stem. Note the spelling follows the <em>i-before-e</em> rule, and the pronunciation is /niːs/, a homophone of <em>Nice</em> the French city.</dd></dl>
+<p>The daughter of one's sibling.</p>
+<p><strong>1. The relative.</strong> (племянница)</p>
+<ol><li>His <em>nieces</em> visit every summer.</li><li>Both <em>nieces</em> were named after their grandmother.</li><li>She left everything to her <em>niece</em>.</li></ol>
+<p><strong>2. The male counterpart.</strong> (племянник)</p>
+<ol start="4"><li>Two <em>nephews</em> inherited the farm.</li><li>Her <em>nephew</em> is starting college.</li></ol>
+<dl class="fields"><dt>See also</dt><dd><a href="#nun">nun</a> &middot; <a href="#husband">husband</a></dd></dl>
+<hr>
+<h3 id="fiancé">fiancé<a class="hash" href="#fiancé" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/ˌfiːɑːnˈseɪ/ &middot; <em>fee-ahn-SAY</em></dd><dt>Русский</dt><dd>жених</dd><dt>Plural</dt><dd><em>fiancés</em> — regular</dd><dt>Countability</dt><dd>countable</dd><dt>Agreement</dt><dd>plural verb — <em>their fiancés met at the party</em></dd><dt>Type</dt><dd>concrete</dd><dt>Variants</dt><dd>the female counterpart is <em>fiancée</em>, spelled with two <em>e</em>'s</dd><dt>Contrast</dt><dd>The rare English pair distinguished <strong>only in spelling</strong> — <em>fiancé</em> and <em>fiancée</em> are pronounced identically. One <em>e</em> for a man, two for a woman, following French. Many American writers drop the accents entirely.</dd></dl>
+<p>A man engaged to be married.</p>
+<p><strong>1. The engaged man.</strong> (жених)</p>
+<ol><li>Her <em>fiancé</em> proposed in October.</li><li>Both <em>fiancés</em> were introduced that evening.</li><li>She brought her <em>fiancé</em> to the reunion.</li></ol>
+<p><strong>2. The female counterpart.</strong> (невеста)</p>
+<ol start="4"><li>His <em>fiancée</em> is finishing law school.</li><li>Both <em>fiancées</em> chose the same venue.</li></ol>
+<dl class="fields"><dt>See also</dt><dd><a href="#bride">bride</a> &middot; <a href="#husband">husband</a></dd></dl></div></main>
+<button class="themebtn" id="themeBtn">Dark</button>
+<script>
+const tb=document.getElementById('themeBtn');
+function setTheme(x){document.documentElement.dataset.theme=x;tb.textContent=x==='dark'?'Light':'Dark';
+ try{localStorage.setItem('site-theme',x)}catch(e){}}
+tb.onclick=()=>setTheme(document.documentElement.dataset.theme==='dark'?'light':'dark');
+try{const s=localStorage.getItem('site-theme');
+ setTheme(s||(matchMedia('(prefers-color-scheme: dark)').matches?'dark':'light'))}catch(e){setTheme('light')}
+</script></body></html>

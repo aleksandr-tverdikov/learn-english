@@ -231,3 +231,354 @@ A woman who is a former student of a school or college.
 5. Both *alumnae* spoke at the ceremony.
 
 **See also:** [alumnus](06-latin-us-i.md#alumnus)
+
+---
+
+### retina
+
+**Pronunciation:** /ˈrɛtɪnə/ &middot; *RET-ih-nuh*
+**Русский:** сетчатка
+**Plural:** *retinas* — usual &middot; *retinae* /ˈrɛtɪniː/
+**Countability:** countable
+**Agreement:** plural verb — *both retinas were damaged*
+**Pattern:** Latin *-a* → *-ae* &middot; **Group:** 7
+**Type:** concrete
+**Variants:** *retinas* dominates even in medical writing
+
+The light-sensitive layer at the back of the eye.
+
+**1. The eye structure.** (сетчатка)
+
+1. The *retina* was detached in one eye.
+2. Both *retinas* showed early damage.
+3. Light falls on the *retina* upside down.
+4. Laser surgery reattached the *retina*.
+5. Several *retinae* were examined post mortem.
+
+**See also:** [cornea](#cornea) &middot; [vertebra](#vertebra)
+
+---
+
+### cornea
+
+**Pronunciation:** /ˈkɔːrniə/ &middot; *KOR-nee-uh*
+**Русский:** роговица
+**Plural:** *corneas* — usual &middot; *corneae* /ˈkɔːrniiː/
+**Countability:** countable
+**Agreement:** plural verb — *the corneas were transplanted*
+**Pattern:** Latin *-a* → *-ae* &middot; **Group:** 7
+**Type:** concrete
+
+The transparent front layer of the eye.
+
+**1. The eye structure.** (роговица)
+
+1. The *cornea* heals surprisingly fast.
+2. Both *corneas* were transplanted successfully.
+3. A scratched *cornea* is extremely painful.
+4. *Corneas* can be donated after death.
+5. Laser surgery reshapes the *cornea*.
+
+**See also:** [retina](#retina)
+
+---
+
+### tibia
+
+**Pronunciation:** /ˈtɪbiə/ &middot; *TIB-ee-uh*
+**Русский:** большеберцовая кость
+**Plural:** *tibiae* /ˈtɪbii/ &middot; *tibias* — both correct
+**Countability:** countable
+**Agreement:** plural verb — *both tibiae were fractured*
+**Pattern:** Latin *-a* → *-ae* &middot; **Group:** 7
+**Type:** concrete
+**Contrast:** The *tibia* is the shinbone; the thinner bone beside it is the *fibula*, plural *fibulae*.
+
+The larger bone of the lower leg.
+
+**1. The bone.** (большеберцовая кость)
+
+1. He fractured his *tibia* in two places.
+2. Both *tibiae* showed old stress fractures.
+3. The *tibia* bears almost all the weight.
+4. Surgeons pinned the *tibia* the same night.
+5. Several *tibias* were recovered at the site.
+
+**See also:** [scapula](#scapula) &middot; [ulna](#ulna)
+
+---
+
+### ulna
+
+**Pronunciation:** /ˈʌlnə/ &middot; *UL-nuh*
+**Русский:** локтевая кость
+**Plural:** *ulnae* /ˈʌlniː/ &middot; *ulnas* — both correct
+**Countability:** countable
+**Agreement:** plural verb — *both ulnae were intact*
+**Pattern:** Latin *-a* → *-ae* &middot; **Group:** 7
+**Type:** concrete
+**Contrast:** The *ulna* pairs with the *radius* in the forearm — see [radius](06-latin-us-i.md#radius), which takes the *-us → -i* pattern instead.
+
+The inner bone of the forearm.
+
+**1. The bone.** (локтевая кость)
+
+1. The *ulna* runs from elbow to wrist.
+2. Both *ulnae* were intact.
+3. She broke her *ulna* falling off a ladder.
+4. The *ulna* and the radius rotate around each other.
+5. Several *ulnas* were measured for the study.
+
+**See also:** [tibia](#tibia) &middot; [radius](06-latin-us-i.md#radius)
+
+---
+
+### scapula
+
+**Pronunciation:** /ˈskæpjələ/ &middot; *SKAP-yuh-luh*
+**Русский:** лопатка
+**Plural:** *scapulae* /ˈskæpjəliː/ &middot; *scapulas* — both correct
+**Countability:** countable
+**Agreement:** plural verb — *the scapulae move freely*
+**Pattern:** Latin *-a* → *-ae* &middot; **Group:** 7
+**Type:** concrete
+**Variants:** the everyday word is *shoulder blade*
+
+The shoulder blade.
+
+**1. The bone.** (лопатка)
+
+1. The *scapula* is held in place by muscle alone.
+2. Both *scapulae* move freely.
+3. He fractured his *scapula* in the crash.
+4. The *scapulas* were unusually broad.
+5. Muscles anchor the *scapula* to the ribs.
+
+**See also:** [tibia](#tibia) &middot; [patella](#patella)
+
+---
+
+### patella
+
+**Pronunciation:** /pəˈtɛlə/ &middot; *puh-TEL-uh*
+**Русский:** надколенник, коленная чашечка
+**Plural:** *patellae* /pəˈtɛliː/ &middot; *patellas* — both correct
+**Countability:** countable
+**Agreement:** plural verb — *both patellae were dislocated*
+**Pattern:** Latin *-a* → *-ae* &middot; **Group:** 7
+**Type:** concrete
+**Variants:** the everyday word is *kneecap*
+
+The kneecap.
+
+**1. The bone.** (коленная чашечка)
+
+1. He dislocated his *patella* playing soccer.
+2. Both *patellae* track poorly.
+3. The *patella* protects the knee joint.
+4. Several *patellas* were replaced in the study group.
+5. A fractured *patella* takes months to heal.
+
+**See also:** [scapula](#scapula)
+
+---
+
+### aorta
+
+**Pronunciation:** /eɪˈɔːrtə/ &middot; *ay-OR-tuh*
+**Русский:** аорта
+**Plural:** *aortas* — usual &middot; *aortae* /eɪˈɔːrtiː/
+**Countability:** countable
+**Agreement:** plural verb — *the aortas were compared*
+**Pattern:** Latin *-a* → *-ae* &middot; **Group:** 7
+**Type:** concrete
+
+The main artery leaving the heart.
+
+**1. The artery.** (аорта)
+
+1. The *aorta* carries blood from the heart.
+2. An aneurysm had weakened the *aorta*.
+3. Both *aortas* were within normal range.
+4. The *aorta* is the largest artery in the body.
+5. Surgeons repaired the *aorta* the same night.
+
+**See also:** [trachea](#trachea)
+
+---
+
+### trachea
+
+**Pronunciation:** /ˈtreɪkiə/ &middot; *TRAY-kee-uh*
+**Русский:** трахея
+**Plural:** *tracheae* /ˈtreɪkiiː/ &middot; *tracheas* — both correct
+**Countability:** countable
+**Agreement:** plural verb — *the tracheae were clear*
+**Pattern:** Latin *-a* → *-ae* &middot; **Group:** 7
+**Type:** concrete
+**Variants:** the everyday word is *windpipe*
+
+The windpipe.
+
+**1. The airway.** (трахея)
+
+1. The *trachea* was blocked by swelling.
+2. Both *tracheas* were clear on the scan.
+3. A tube was inserted into the *trachea*.
+4. Insects breathe through branching *tracheae*.
+5. The *trachea* divides into two bronchi.
+
+**See also:** [aorta](#aorta) &middot; [esophagus](06-latin-us-i.md#esophagus)
+
+---
+
+### fauna
+
+**Pronunciation:** /ˈfɔːnə/ &middot; *FAW-nuh*
+**Русский:** фауна
+**Plural:** *faunas* — usual &middot; *faunae* /ˈfɔːniː/
+**Countability:** uncountable in ordinary use; countable for distinct regional sets
+**Agreement:** singular verb — *the fauna is unique to the island*
+**Pattern:** Latin *-a* → *-ae* &middot; **Group:** 7
+**Type:** abstract
+**Contrast:** Pairs with *flora*, the plant life. Both are collective and usually take a singular verb: *the fauna **is** remarkable*.
+
+The animal life of a region or period.
+
+**1. Animal life.** (фауна)
+
+1. The island's *fauna* is found nowhere else.
+2. Cave *fauna* has adapted to total darkness.
+3. The two *faunas* diverged millions of years ago.
+4. He catalogued the *fauna* of the whole basin.
+5. Both *faunae* include the same predator.
+
+**See also:** [flora](#flora)
+
+---
+
+### flora
+
+**Pronunciation:** /ˈflɔːrə/ &middot; *FLOR-uh*
+**Русский:** флора
+**Plural:** *floras* — usual &middot; *florae* /ˈflɔːriː/
+**Countability:** uncountable in ordinary use; countable for distinct regional sets
+**Agreement:** singular verb — *the flora is protected*
+**Pattern:** Latin *-a* → *-ae* &middot; **Group:** 7
+**Type:** abstract
+**Contrast:** Also used of bacteria — *gut flora* — where the word is firmly uncountable.
+
+The plant life of a region or period; also the microbes of the body.
+
+**1. Plant life.** (флора)
+
+1. The alpine *flora* is protected by law.
+2. Both *floras* share a common ancestor.
+3. She wrote a *flora* of the whole county.
+
+**2. The body's microbes.** (микрофлора)
+
+4. Antibiotics disrupt the gut *flora*.
+5. Intestinal *flora* varies enormously between people.
+
+**See also:** [fauna](#fauna) &middot; [bacterium](08-latin-um-a.md#bacterium)
+
+---
+
+### pupa
+
+**Pronunciation:** /ˈpjuːpə/ &middot; *PYOO-puh*
+**Русский:** куколка (насекомого)
+**Plural:** *pupae* /ˈpjuːpiː/ &middot; *pupas* — both correct
+**Countability:** countable
+**Agreement:** plural verb — *the pupae are dormant*
+**Pattern:** Latin *-a* → *-ae* &middot; **Group:** 7
+**Type:** concrete
+**Contrast:** The stage between [larva](#larva) and adult. The three-stage vocabulary — *larva*, *pupa*, *imago* — all takes Latin plurals.
+
+The inactive stage between larva and adult insect.
+
+**1. The life stage.** (куколка)
+
+1. The *pupa* is completely motionless.
+2. Hundreds of *pupae* hung under the leaf.
+3. Both *pupas* failed to hatch.
+4. The *pupae* overwinter in the soil.
+5. A single *pupa* takes two weeks to develop.
+
+**See also:** [larva](#larva)
+
+---
+
+### persona
+
+**Pronunciation:** /pərˈsoʊnə/ &middot; *pur-SOH-nuh*
+**Русский:** образ, персона
+**Plural:** *personas* — usual &middot; *personae* /pərˈsoʊniː/
+**Countability:** countable
+**Agreement:** plural verb — *the personas were tested*
+**Pattern:** Latin *-a* → *-ae* &middot; **Group:** 7
+**Type:** abstract
+**Variants:** *personas* in design and psychology; *personae* in the fixed phrase *dramatis personae*
+**Contrast:** The Latin plural survives mainly in *dramatis personae*, the cast list of a play. Everywhere else write *personas*.
+
+A public image or assumed character.
+
+**1. A public image.** (образ)
+
+1. His stage *persona* is nothing like him.
+2. The team built six user *personas*.
+3. Both *personas* tested badly.
+4. She adopted a colder *persona* at work.
+5. The *dramatis personae* is printed at the front.
+
+**See also:** [formula](#formula)
+
+---
+
+### lacuna
+
+**Pronunciation:** /ləˈkuːnə/ &middot; *luh-KOO-nuh*
+**Русский:** лакуна, пробел
+**Plural:** *lacunae* /ləˈkuːniː/ &middot; *lacunas* — both correct
+**Countability:** countable
+**Agreement:** plural verb — *the lacunae are significant*
+**Pattern:** Latin *-a* → *-ae* &middot; **Group:** 7
+**Type:** abstract
+
+A gap, especially in a manuscript or an argument.
+
+**1. A gap.** (пробел, лакуна)
+
+1. There is a serious *lacuna* in the evidence.
+2. Several *lacunae* interrupt the manuscript.
+3. Both *lacunas* were filled by later scholars.
+4. The law has an obvious *lacuna*.
+5. The *lacunae* in the text are marked with brackets.
+
+**See also:** [minutia](#minutia)
+
+---
+
+### minutia
+
+**Pronunciation:** /mɪˈnuːʃiə/ &middot; *mih-NOO-shee-uh*
+**Русский:** мелочь, деталь
+**Plural:** *minutiae* /mɪˈnuːʃiiː/ &middot; *mih-NOO-shee-ee*
+**Countability:** countable, almost always plural
+**Agreement:** plural verb — *the minutiae are exhausting*
+**Pattern:** Latin *-a* → *-ae* &middot; **Group:** 7
+**Type:** abstract
+**Contrast:** In practice the word appears only in the plural. ✗ *A minutia* is grammatical but almost never said.
+
+Small, precise, trivial details.
+
+**1. Trivial details.** (мелочи)
+
+1. He gets lost in the *minutiae* of every contract.
+2. The *minutiae* are exhausting to review.
+3. Spare me the *minutiae*.
+4. She has an extraordinary memory for *minutiae*.
+5. A single *minutia* derailed the whole negotiation.
+
+**See also:** [lacuna](#lacuna)
