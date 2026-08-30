@@ -61,6 +61,7 @@ The last row is the one to memorize. *Advise* looks like an exception — *advis
 ### add
 
 **Pronunciation:** /æd/ &middot; *AD*
+**Русский:** добавить — сказать ещё что-то к только что сказанному тем же говорящим
 **Type:** reporting verb — a further statement &middot; **Register:** neutral
 **Patterns:** *add* + **that**-clause &middot; *add* + direct quotation &middot; *add* + noun phrase &middot; *add* + noun phrase + **to** + noun phrase &middot; impersonal *it should be added that*
 **Never:** ***add me that*** / ***add someone something*** — *add* takes no personal object at all, and unlike [explain](#explain) or [announce](#announce) it cannot rescue one with a preposition either: ***added to me that*** is not the repair. The *to* after *add* names what the thing was added **to**, never who heard it. Repairs: *added that the lot was full*, *added it to the list*, *added, turning to me, that she was leaving*.
@@ -81,6 +82,7 @@ The last row is the one to memorize. *Advise* looks like an exception — *advis
 ### advise
 
 **Pronunciation:** /ədˈvaɪz/ &middot; *uhd-VYZE*
+**Русский:** уведомить, известить — офиц.; здесь не «советовать», а формально сообщить
 **Type:** reporting verb — statement (the *inform* sense) &middot; **Register:** formal — business, legal, and administrative writing
 **Patterns:** *advise* + **sb** + **that**-clause &middot; *advise* + **sb** + **of** + noun phrase &middot; *advise* + **sb** + **wh**-clause &middot; *advise* + **that**-clause (impersonal, no listener named) &middot; passive *be advised that* / *be advised of* &middot; *Please advise.* (fixed, standing alone)
 **Never:** ***advise me the total*** — no double object. The message attaches with *of*: *advise me **of** the total*. Also never ***advise to me*** — like *tell*, this verb takes the person bare. And an infinitive after it silently switches verbs on you: *advised me **that** the road was closed* is information, *advised me **to take** the freeway* is a recommendation.
@@ -101,6 +103,7 @@ The last row is the one to memorize. *Advise* looks like an exception — *advis
 ### announce
 
 **Pronunciation:** /əˈnaʊns/ &middot; *uh-NOWNSS*
+**Русский:** объявить, огласить — публично или для группы, не одному слушателю
 **Type:** reporting verb — public statement &middot; **Register:** neutral, tilting formal
 **Patterns:** *announce* + **that**-clause &middot; *announce* + noun phrase &middot; *announce* + **wh**-clause &middot; *announce* + direct quotation &middot; *announce* + **to** + sb + **that**-clause &middot; *announce* + noun phrase + **to** + sb &middot; passive *it was announced that*
 **Never:** ***announce me that*** / ***announce us the results*** — no personal object without *to*. Also ***announce about the merger*** — the topic attaches directly or goes in a clause, never behind *about*. Repairs: *announced the results to us*, *announced to us that the merger was off*, *announced the merger*.
@@ -121,6 +124,7 @@ The last row is the one to memorize. *Advise* looks like an exception — *advis
 ### comment
 
 **Pronunciation:** /ˈkɑmɛnt/ &middot; *KAH-ment*
+**Русский:** высказаться, отозваться (о чём-л.) — краткое замечание с оттенком оценки
 **Type:** reporting verb — a brief remark, often evaluative &middot; **Register:** neutral, common in journalism
 **Patterns:** *comment* + **that**-clause &middot; *comment* + **on** / **upon** + noun phrase &middot; *comment* + **on** + **wh**-clause &middot; *comment* + direct quotation &middot; *comment* + **to** + sb + **that**-clause &middot; *No comment.* (fixed noun use)
 **Never:** ***comment the change*** — the topic attaches with *on*: *commented **on** the change*. Also never ***comment me that***; the listener, if you need one, goes behind *to*: *commented to reporters that…*
@@ -140,6 +144,7 @@ The last row is the one to memorize. *Advise* looks like an exception — *advis
 ### communicate
 
 **Pronunciation:** /kəˈmjunəˌkeɪt/ &middot; *kuh-MYOO-nuh-kayt*
+**Русский:** передать, донести (сообщение) — книжн.; communicate with — общаться, быть на связи
 **Type:** reporting verb — transmission of a message &middot; **Register:** formal
 **Patterns:** *communicate* + **that**-clause &middot; *communicate* + noun phrase &middot; *communicate* + noun phrase + **to** + sb &middot; *communicate* + **to** + sb + **that**-clause &middot; *communicate* + **wh**-clause &middot; *communicate* + **with** + sb (intransitive — "be in contact") &middot; passive *be communicated to sb*
 **Never:** ***communicate me the results*** — no double object. Repair: *communicate the results **to** me*. Note that *communicate **with** me* is fine but means something else: it is contact, not content.
@@ -159,6 +164,7 @@ The last row is the one to memorize. *Advise* looks like an exception — *advis
 ### continue
 
 **Pronunciation:** /kənˈtɪnju/ &middot; *kuhn-TIN-yoo*
+**Русский:** продолжить (речь) — заговорить снова после паузы или перерыва
 **Type:** reporting verb — resumption after a pause &middot; **Register:** neutral, mostly written narrative
 **Patterns:** *continue* + direct quotation (usually as an inverted tag) &middot; *continue* + **that**-clause (journalistic) &middot; *continue* + noun phrase &middot; *continue* + **to**-infinitive &middot; *continue* + **-ing**
 **Never:** ***continue me that*** — no personal object. And take care with the last two patterns: *continued to speak* and *continued speaking* report that the talking went on, not what was said. Only the first two patterns report a message.
@@ -178,6 +184,7 @@ The last row is the one to memorize. *Advise* looks like an exception — *advis
 ### convey
 
 **Pronunciation:** /kənˈveɪ/ &middot; *kuhn-VAY*
+**Русский:** передать, донести (мысль, чувство) — книжн.; важно, что дошло, а не какими словами
 **Type:** reporting verb — transmission of content or feeling &middot; **Register:** formal
 **Patterns:** *convey* + **that**-clause &middot; *convey* + noun phrase &middot; *convey* + noun phrase + **to** + sb &middot; *convey* + **to** + sb + **that**-clause &middot; *convey* + **wh**-clause
 **Never:** ***convey me the message*** / ***convey me that*** — no personal object of any kind without *to*. Repairs: *convey the message **to** me*, *conveyed **to** me that…*
@@ -198,6 +205,7 @@ The last row is the one to memorize. *Advise* looks like an exception — *advis
 ### describe
 
 **Pronunciation:** /dɪˈskraɪb/ &middot; *dih-SKRYBE*
+**Русский:** описать, обрисовать — дать словесную картину; describe as — охарактеризовать как
 **Type:** reporting verb — an account of something &middot; **Register:** neutral
 **Patterns:** *describe* + noun phrase &middot; *describe* + **wh**-clause &middot; *describe* + **how**-clause &middot; *describe* + noun phrase + **to** + sb &middot; *describe* + **to** + sb + **how** / **wh**-clause &middot; *describe* + noun phrase + **as** + adjective / noun phrase / **-ing**
 **Never:** ***describe me the room*** — the listener attaches with *to*: *describe the room **to** me*. And ***describe that the room was dark*** — *describe* takes no **that**-clause at all. And ***describe about the room*** — the object attaches directly, with no preposition. Repairs: *described the room as dark*, *described how dark the room was*, *described the darkness*.
@@ -217,6 +225,7 @@ The last row is the one to memorize. *Advise* looks like an exception — *advis
 ### discuss
 
 **Pronunciation:** /dɪˈskʌs/ &middot; *dih-SKUSS*
+**Русский:** обсуждать (что-л., без предлога) — называет тему разговора, но не его содержание
 **Type:** verb of talk — names the topic, not the message &middot; **Register:** neutral
 **Patterns:** *discuss* + noun phrase &middot; *discuss* + **wh**-clause &middot; *discuss* + **-ing** &middot; *discuss* + noun phrase + **with** + sb &middot; passive *be discussed*
 **Never:** ***discuss about the budget*** — the topic attaches with no preposition at all: *discuss the budget*. This is the most persistent preposition error in English and it survives well into advanced writing, because *talk about*, *argue about*, and *complain about* all take one. Also ***discuss that the budget was tight*** — *discuss* takes no **that**-clause, no **to**-infinitive, and no direct quotation. And ***discuss me the budget*** / ***discuss the budget to me*** — the other person attaches with *with*: *discuss it with me*.
@@ -237,6 +246,7 @@ The last row is the one to memorize. *Advise* looks like an exception — *advis
 ### explain
 
 **Pronunciation:** /ɪkˈspleɪn/ &middot; *ik-SPLAYN*
+**Русский:** объяснить, растолковать — предполагает, что что-то было неясно
 **Type:** reporting verb — statement that makes something understood &middot; **Register:** neutral
 **Patterns:** *explain* + **that**-clause &middot; *explain* + **wh**-clause &middot; *explain* + **how**/**why**-clause &middot; *explain* + noun phrase &middot; *explain* + **to** + sb + **that**-clause &middot; *explain* + **to** + sb + **wh**-clause &middot; *explain* + noun phrase + **to** + sb &middot; *explain* (intransitive) &middot; passive *it was explained that*
 **Never:** ***explain me something*** / ***explain me that*** / ***explain me how*** — one of the three or four most common errors in English. *Explain* never takes a bare personal object. Nor does it take a person plus an infinitive: ***explained me to wait*** is impossible in every register, because that frame belongs to [tell](#tell). Repairs: *explain it **to** me*, *explain **to** me why*, *explained **to** the class that…*, and for the infinitive, *told me to wait*.
@@ -257,6 +267,7 @@ The last row is the one to memorize. *Advise* looks like an exception — *advis
 ### go on
 
 **Pronunciation:** /ˌɡoʊ ˈɑn/ &middot; *goh-ON*
+**Русский:** продолжить, перейти к следующему — разг. соответствие continue
 **Type:** reporting verb — resumption &middot; **Register:** neutral, conversational
 **Patterns:** *go on* + **to say / to explain / to add / to argue** + **that**-clause &middot; *go on* + direct quotation &middot; *go on* + **-ing** &middot; *go on* + **about** + noun phrase &middot; *go on* + **with** + noun phrase
 **Never:** ***go on me*** — no personal object. And *go on* + a bare **that**-clause (*He went on that the budget was fixed*) is marginal at best in American English; edited prose writes *went on **to say** that*.
@@ -284,6 +295,7 @@ The last row is the one to memorize. *Advise* looks like an exception — *advis
 ### if you ask me
 
 **Pronunciation:** /ɪf jə ˈæsk mi/ &middot; *if yuh ASK mee*
+**Русский:** по-моему, если хотите знать моё мнение — разг., маркер собственного мнения
 **Type:** fixed phrase — opinion marker, not a reporting verb &middot; **Register:** informal, spoken
 **Patterns:** *If you ask me*, + clause &middot; clause + , *if you ask me* &middot; parenthetical inside the clause (*The whole thing was, if you ask me, a waste*)
 **Never:** ***if you ask to me*** / ***if you ask me that*** — the phrase is frozen. It takes no preposition, no complement, and no tense change; *if you asked me* is a real conditional and a different sentence.
@@ -305,6 +317,7 @@ The last row is the one to memorize. *Advise* looks like an exception — *advis
 ### indicate
 
 **Pronunciation:** /ˈɪndəˌkeɪt/ &middot; *IN-duh-kayt*
+**Русский:** дать понять, указать; свидетельствовать о — книжн., осторожнее, чем «заявить»
 **Type:** reporting verb — an indirect or evidential statement &middot; **Register:** formal — academic, journalistic, corporate
 **Patterns:** *indicate* + **that**-clause &middot; *indicate* + **wh**-clause &middot; *indicate* + noun phrase &middot; *indicate* + **to** + sb + **that**-clause
 **Never:** ***indicate me that*** — the listener attaches with *to*: *indicated **to** us that…* And ***indicated to step down*** — *indicate* takes no infinitive complement; the plan goes in a **that**-clause: *indicated that he would step down*.
@@ -326,6 +339,7 @@ The last row is the one to memorize. *Advise* looks like an exception — *advis
 ### inform
 
 **Pronunciation:** /ɪnˈfɔrm/ &middot; *in-FORM*
+**Русский:** известить, поставить в известность — офиц.; обязателен адресат: inform me of
 **Type:** reporting verb — statement delivered to a named listener &middot; **Register:** formal
 **Patterns:** *inform* + **sb** &middot; *inform* + **sb** + **that**-clause &middot; *inform* + **sb** + **of** / **about** + noun phrase &middot; *inform* + **sb** + **wh**-clause &middot; passive *be informed that* / *be informed of*
 **Never:** ***inform that the meeting was canceled*** — like *tell*, this verb requires its person. Also ***inform me the change*** — no double object; the message attaches with *of*: *inform me **of** the change*. And never ***inform to me***.
@@ -346,6 +360,7 @@ The last row is the one to memorize. *Advise* looks like an exception — *advis
 ### let me tell you
 
 **Pronunciation:** /lɛt mi ˈtɛl ju/ &middot; *let mee TELL yoo* — usually reduced to *LEM-ee tell yuh*
+**Русский:** уж поверьте, вот что я скажу — разг. усилитель, а не просьба разрешить
 **Type:** fixed phrase — emphasis marker &middot; **Register:** informal, spoken
 **Patterns:** *Let me tell you*, + clause &middot; clause + , *let me tell you* &middot; *let me tell you* + **something** &middot; *let me tell you* + **about** + noun phrase &middot; *let me tell you* + **wh**-clause
 **Never:** ***let me to tell you*** — *let* takes a bare infinitive, never *to*. Also ***let me tell to you*** — *tell* takes its person bare, which is the same rule as in the [tell](#tell) entry.
@@ -367,6 +382,7 @@ The last row is the one to memorize. *Advise* looks like an exception — *advis
 ### mention
 
 **Pronunciation:** /ˈmɛnʃən/ &middot; *MEN-shuhn*
+**Русский:** упомянуть — сказать вскользь, мимоходом, без нажима
 **Type:** reporting verb — a passing statement &middot; **Register:** neutral
 **Patterns:** *mention* + **that**-clause &middot; *mention* + noun phrase &middot; *mention* + **sb** (as a topic, never as a listener) &middot; *mention* + **wh**-clause &middot; *mention* + **-ing** &middot; *mention* + noun phrase + **to** + sb &middot; *mention* + **to** + sb + **that**-clause &middot; impersonal *it is worth mentioning that*
 **Never:** ***mention about the meeting*** — *mention* takes its object directly, with no preposition: *mentioned the meeting*. This is a stubborn error, probably by analogy with *talk about* and *tell someone about*. Also ***mention me that*** — repair with *mention it to me*, or *mentioned to me that…* Note the trap in the bare-object frame: *He mentioned you* means you were the subject of the remark, not the person who heard it.
@@ -386,6 +402,7 @@ The last row is the one to memorize. *Advise* looks like an exception — *advis
 ### note
 
 **Pronunciation:** /noʊt/ &middot; *NOHT*
+**Русский:** отметить, обратить внимание — книжн.; подаёт сказанное как установленный факт
 **Type:** reporting verb — a statement of a fact taken as given &middot; **Register:** formal, mostly written
 **Patterns:** *note* + **that**-clause &middot; *note* + noun phrase &middot; *note* + **wh**-clause &middot; *note* + direct quotation (as a tag) &middot; passive *it should be noted that* / *it is worth noting that*
 **Never:** ***note me that*** — no bare personal object. The *to*-form (*noted **to** reporters that…*) does turn up in journalism, but it is far rarer than with [remark](#remark) or [comment](#comment); in most writing *note* assumes a reader rather than addressing one.
@@ -406,6 +423,7 @@ The last row is the one to memorize. *Advise* looks like an exception — *advis
 ### notify
 
 **Pronunciation:** /ˈnoʊtəˌfaɪ/ &middot; *NOH-tuh-fye*
+**Русский:** уведомить — офиц., юр.: официальное извещение, положенное по правилам или договору
 **Type:** reporting verb — formal notification &middot; **Register:** formal — administrative, legal
 **Patterns:** *notify* + **sb** &middot; *notify* + **sb** + **that**-clause &middot; *notify* + **sb** + **of** + noun phrase &middot; *notify* + **sb** + **of** + **wh**-clause &middot; passive *be notified that* / *be notified of*
 **Never:** ***notify that the class was canceled*** — the person is required. And ***notify us the date*** — no double object; repair with *notify us **of** the date*. Also ***notify to me***: like *tell*, this verb takes its person bare. One more line separates it from [inform](#inform) — *notify* will not take a bare **wh**-clause: ~~*notify us what you decide*~~ → *notify us **of** what you decide*, where *inform us what you decide* is perfectly good. (A *when*-clause after *notify* is a time adverbial, not the message: *notifies you when a payment fails* says when the notice arrives, not what it says.)
@@ -425,6 +443,7 @@ The last row is the one to memorize. *Advise* looks like an exception — *advis
 ### observe
 
 **Pronunciation:** /əbˈzɚv/ &middot; *uhb-ZURV*
+**Русский:** заметить (вслух) — книжн., замечание как итог наблюдения; в другой рамке — наблюдать
 **Type:** reporting verb — a considered remark &middot; **Register:** formal, literary
 **Patterns:** *observe* + **that**-clause &middot; *observe* + direct quotation &middot; *observe* + noun phrase &middot; *observe* + **wh**-clause &middot; *observe* + **to** + sb + **that**-clause (literary) &middot; *observe* + **sb** + **-ing** / bare infinitive (the *watch* sense) &middot; passive *it has often been observed that*
 **Never:** ***observe me that*** — no bare personal object in the speech sense. The literary *to*-form is available — *observed **to** her sister that…* — but the bare object never is.
@@ -445,6 +464,7 @@ The last row is the one to memorize. *Advise* looks like an exception — *advis
 ### put it
 
 **Pronunciation:** /ˈpʊt ɪt/ &middot; *PUUT it*
+**Русский:** выразиться, сформулировать — as he put it «как он выразился»: о словах, а не о факте
 **Type:** reporting verb — attribution of wording &middot; **Register:** neutral
 **Patterns:** *as* + sb + *put(s) it* &middot; *to put it* + adverb (*bluntly, mildly, simply, another way*) &middot; *put it* + *this way / like this / another way* &middot; *put it* + **that**-clause (formal and rare) &middot; *put it* + **to** + sb + **that**-clause (chiefly British, in questioning)
 **Never:** ***as she put*** — the *it* is not optional and never changes: not *as she put them*, not *as she put the matter*. The whole expression is frozen around that one pronoun.
@@ -464,6 +484,7 @@ The last row is the one to memorize. *Advise* looks like an exception — *advis
 ### quote
 
 **Pronunciation:** /kwoʊt/ &middot; *KWOHT*
+**Русский:** цитировать, приводить дословно — единственный здесь глагол, обещающий точность слов
 **Type:** reporting verb — verbatim attribution &middot; **Register:** neutral, journalistic
 **Patterns:** *quote* + **sb** &middot; *quote* + noun phrase &middot; *quote* + direct quotation &middot; *quote* + **from** + noun phrase &middot; *quote* + **sb** + **as saying** / **as calling** / **as describing** &middot; *quote* + **sb** + **on** + topic &middot; passive *be quoted as saying that…*
 **Never:** ***quote that the deal was dead*** — *quote* takes no **that**-clause on its own, and no personal object plus a clause either: ***quoted me that the deal was dead***. Repairs: *quoted him **as saying** that the deal was dead*, *quoted him: "The deal is dead."*
@@ -485,6 +506,7 @@ The last row is the one to memorize. *Advise* looks like an exception — *advis
 ### recount
 
 **Pronunciation:** /rɪˈkaʊnt/ &middot; *rih-KOWNT*
+**Русский:** подробно рассказать, изложить по порядку — книжн., о череде событий
 **Type:** reporting verb — extended narrative &middot; **Register:** formal, literary
 **Patterns:** *recount* + noun phrase &middot; *recount* + **how**-clause &middot; *recount* + **wh**-clause &middot; *recount* + noun phrase + **to** + sb &middot; *recount* + **to** + sb + **how**-clause
 **Never:** ***recount me the story*** — the listener attaches with *to*: *recounted the story **to** me*. And *recount* + a plain **that**-clause (*He recounted that he had been fired*) is stiff and rare; native writers use a **how**-clause or a noun phrase instead: *recounted **how** he had been fired*.
@@ -505,6 +527,7 @@ The last row is the one to memorize. *Advise* looks like an exception — *advis
 ### relate
 
 **Pronunciation:** /rɪˈleɪt/ &middot; *rih-LAYT*
+**Русский:** поведать, изложить — книжн., устаревающее; ср. relate to — относиться к, сопереживать
 **Type:** reporting verb — orderly telling &middot; **Register:** formal, literary
 **Patterns:** *relate* + noun phrase &middot; *relate* + **that**-clause &middot; *relate* + **how** / **wh**-clause &middot; *relate* + noun phrase + **to** + sb
 **Never:** ***relate me the story*** — no double object; repair with *relate the story **to** me*.
@@ -525,6 +548,7 @@ The last row is the one to memorize. *Advise* looks like an exception — *advis
 ### remark
 
 **Pronunciation:** /rɪˈmɑrk/ &middot; *rih-MARK*
+**Русский:** заметить, обронить — короткое замечание вслух; тему вводит предлог on
 **Type:** reporting verb — a brief spoken observation &middot; **Register:** neutral, tilting literary
 **Patterns:** *remark* + **that**-clause &middot; *remark* + direct quotation &middot; *remark* + **on** / **upon** + noun phrase &middot; *remark* + **on** + **wh**-clause &middot; *remark* + **to** + sb + **that**-clause
 **Never:** ***he remarked the change*** — the topic takes *on*: *remarked **on** the change*. (The bare-object use survives only in the archaic sense "notice," as in *a change no one remarked*.) Also ***remark me that***.
@@ -544,6 +568,7 @@ The last row is the one to memorize. *Advise* looks like an exception — *advis
 ### repeat
 
 **Pronunciation:** /rɪˈpit/ &middot; *rih-PEET*
+**Русский:** повторить — сказать во второй раз, часто с оттенком настойчивости
 **Type:** reporting verb — restatement &middot; **Register:** neutral
 **Patterns:** *repeat* + **that**-clause &middot; *repeat* + noun phrase &middot; *repeat* + direct quotation &middot; *repeat* + **wh**-clause &middot; *repeat* + noun phrase + **to** / **for** + sb &middot; *repeat* + **oneself**
 **Never:** ***repeat me the question*** — no double object. Repairs: *repeat the question **for** me*, *Could you repeat that?* The bare *Repeat that, please* is the ordinary spoken form.
@@ -564,6 +589,7 @@ The last row is the one to memorize. *Advise* looks like an exception — *advis
 ### report
 
 **Pronunciation:** /rɪˈpɔrt/ &middot; *rih-PORT*
+**Русский:** сообщить, доложить — нейтральная передача сведений: журн. и офиц. основной глагол
 **Type:** reporting verb — an account given to someone entitled to it &middot; **Register:** neutral, journalistic and institutional
 **Patterns:** *report* + **that**-clause &middot; *report* + noun phrase &middot; *report* + **-ing** &middot; *report* + **wh**-clause &middot; *report* + **to** + sb + **that**-clause &middot; *report* + **sb** + **as** + **-ing** / adjective &middot; *report* + **on** + noun phrase &middot; *report* + **sb** + **to** + sb (denunciation — see below) &middot; passive *it was reported that* / *sb is reported to have*
 **Never:** ***report me that*** — the listener attaches with *to*: *reported **to** the board that…* And ***report about the findings*** — the topic takes *on*: *reported **on** the findings*.
@@ -584,6 +610,7 @@ The last row is the one to memorize. *Advise* looks like an exception — *advis
 ### say
 
 **Pronunciation:** /seɪ/ &middot; *SAY* — past and participle **said** /sɛd/ &middot; *SED*, third person **says** /sɛz/ &middot; *SEZ*
+**Русский:** сказать — нейтральный глагол речи; адресат только через to, «say me» невозможно
 **Type:** reporting verb — statement (the default) &middot; **Register:** neutral
 **Patterns:** *say* + **that**-clause &middot; *say* + direct quotation &middot; *say* + noun phrase (short fixed list) &middot; *say* + **to** + sb (+ **that**-clause) &middot; *say* + **wh**-clause (mostly under negation or a modal: *I couldn't say what he meant*) &middot; *say* + **to**-infinitive with no object (spoken American English only — see the footnote below)
 **Never:** ***say me*** / ***say someone something*** / ***say me that you're sorry*** — *say* takes **no personal object**, ever, in any register. Repairs: *say **to** me*, or switch verbs to *tell me*. This and its mirror image under [tell](#tell) are the two errors an American reader notices instantly.
@@ -609,6 +636,7 @@ The last row is the one to memorize. *Advise* looks like an exception — *advis
 ### share
 
 **Pronunciation:** /ʃɛr/ &middot; *SHAIR*
+**Русский:** поделиться (новостью, информацией) — адресат через with, не to; корпоративный оттенок
 **Type:** reporting verb — statement offered to a group &middot; **Register:** neutral, with a workplace and therapeutic flavor
 **Patterns:** *share* + **that**-clause &middot; *share* + noun phrase &middot; *share* + noun phrase + **with** + sb &middot; *share* + **with** + sb + **that**-clause &middot; *share* + **wh**-clause &middot; *share* (intransitive — *Would anyone like to share?*)
 **Never:** ***share me the news*** — no double object. And ***share the news to me*** — this verb takes **with**, not *to*: *share the news **with** me*. The *to* version is spreading in some varieties of English and in social-media usage (*share it to your story*), but American edited prose still requires *with* for a listener.
@@ -629,6 +657,7 @@ The last row is the one to memorize. *Advise* looks like an exception — *advis
 ### state
 
 **Pronunciation:** /steɪt/ &middot; *STAYT*
+**Русский:** заявить, констатировать — офиц., «под запись»; в отличие от claim, нейтрально к истине
 **Type:** reporting verb — a deliberate, on-the-record statement &middot; **Register:** formal
 **Patterns:** *state* + **that**-clause &middot; *state* + noun phrase &middot; *state* + **wh**-clause &middot; *state* + direct quotation &middot; *state* + **to** + sb + **that**-clause &middot; passive *it is stated that*
 **Never:** ***state me that*** — no personal object; use *state **to** the court that…* Also ***state about the delay*** — *state* takes its object directly or takes a clause, never *about*.
@@ -649,6 +678,7 @@ The last row is the one to memorize. *Advise* looks like an exception — *advis
 ### tell
 
 **Pronunciation:** /tɛl/ &middot; *TELL* — past and participle **told** /toʊld/ &middot; *TOHLD*
+**Русский:** сказать, рассказать кому-л. — требует адресата без предлога: tell me, не «tell to me»
 **Type:** reporting verb — statement, command, or information delivered to a named listener &middot; **Register:** neutral
 **Patterns:** *tell* + **sb** + **that**-clause &middot; *tell* + **sb** + noun phrase (double object) &middot; *tell* + **sb** + **to**-infinitive &middot; *tell* + **sb** + **wh**-clause &middot; *tell* + **sb** + **about** + noun phrase &middot; *tell* + **sb** + **of** + noun phrase (formal) &middot; *tell* + **sb** + direct quotation (as a tag) &middot; *tell* + noun phrase (fixed objects only — see below) &middot; passive *be told that* / *be told to*
 **Never:** ***tell that the road was closed*** — the person is required; repair with *tell **me** that the road was closed*. And ***tell to me*** — the person attaches bare, with no preposition. A direct quotation cannot rescue it either: ~~*"I'm late," he told.*~~ → *"I'm late," he told **me***.
@@ -687,6 +717,7 @@ The last row is the one to memorize. *Advise* looks like an exception — *advis
 ### write
 
 **Pronunciation:** /raɪt/ &middot; *RYTE* — past **wrote** /roʊt/ &middot; *ROHT*, participle **written** /ˈrɪtən/ &middot; *RIT-n*
+**Русский:** написать, сообщить письменно — в амер. англ. допустимо write me без предлога to
 **Type:** reporting verb — statement made in writing &middot; **Register:** neutral
 **Patterns:** *write* + **that**-clause &middot; *write* + noun phrase &middot; *write* + direct quotation &middot; *write* + **sb** + **that**-clause (American English) &middot; *write* + **to** + sb &middot; *write* + **about** + noun phrase &middot; *write* + **wh**-clause &middot; *write* + noun phrase + **to** + sb &middot; *write* + **saying that**…
 **American/British split — and here American English is the looser one:**

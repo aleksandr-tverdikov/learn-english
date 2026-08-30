@@ -2,6 +2,8 @@
 
 > A pronoun is a word that stands in for a noun phrase, so you can refer to someone or something again without repeating its full name.
 
+> **📖 Looking for a specific pronoun?** This file covers the *grammar*. The *lexicon* — **[512 entries](catalog/README.md)** across 10 categories, each with its **case**, what it can **refer to**, and the **verb agreement** it forces, plus IPA with the weak form and five or more examples — lives in the **[Pronoun Dictionary](catalog/README.md)**. There is also an **[audio browser](catalog/browse.html)** you can search and listen to.
+
 ## 1. What it does
 
 A pronoun's job is **substitution**. Instead of naming the same person or thing over and over, you name it once and then point back at it. The full noun phrase that a pronoun points back to is called its **antecedent**.

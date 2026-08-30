@@ -6,18 +6,7 @@
       "term": "these",
       "ipa": "/ðiz/",
       "respell": "THEEZ",
-      "type": "demonstrative (also a demonstrative pronoun: these are mine)",
-      "position": "central",
-      "register": "neutral",
-      "goesWith": "plural countable nouns only — these chairs, these people, these two weeks. Never a singular countable noun (✗ these chair) and never an uncountable noun (✗ these furniture, ✗ these information, ✗ these advice); for an uncountable, use this (this furniture) or a counter (these pieces of furniture). These wines, these cheeses, these coffees are fine only because the noun has been recounted as \"kinds of\" or \"servings of.\"",
-      "ofRule": "None as a determiner — ✗ these of the books. A partitive has to get its of from a quantifier standing in front: both of these books, several of these, two of these. Nor does the pronoun take one: the idiom is those of us / those of you, never ✗ these of us.",
-      "pattern": "these [plural countable noun] · these [number] [plural noun] (these three files) · [predeterminer] these [plural noun] (all these years, both these windows) · these [plural noun] of [possessive pronoun] (these shoes of mine) · these standing alone as a pronoun (I'll take these)",
-      "contrast": "Two axes cross here. Number: these is the plural of this, so this handles singular countables and uncountables while these handles plural countables and nothing else. Distance: these points at what is near the speaker in space, in the present stretch of time, or in the part of the talk currently in hand (these days, these numbers), where those points at what is away, past, or finished (those days). Determiner vs pronoun: the determiner leans on a noun (these seats are taken), the pronoun stands alone and is itself the whole noun phrase (these are taken, I'll take these, with these). In dialect speech these is also replaced by them (them apples), which is nonstandard.",
-      "variants": [
-        "these here (nonstandard emphatic)",
-        "them (nonstandard, for both these and those)"
-      ],
-      "meaning": "Points at more than one thing near the speaker — in the room, in the present stretch of time, or in the part of the discussion currently in hand. 1. In space. The things pointed at are close to the speaker, or closer than a contrasting set: these seats, not those. 2. In time. These days, these last few months, these next two weeks — a plural period that contains, or is about to contain, the present moment. 3. In discourse. Refers to plural items just mentioned, or about to be listed: these three problems, these figures. 4. Narrative these (informal). The plural of the storytelling this, introducing participants the hearer has never heard of, where the grammar calls for a bare plural: So these two guys knock on my door at midnight.",
+      "meaning": "Points at more than one thing near the speaker — in the room, in the present stretch of time, or in the part of the discussion currently in hand.",
       "examples": [
         "These shoes are killing me.",
         "Are these seats taken?",
@@ -27,30 +16,64 @@
         "These wines all come from the same vineyard.",
         "So these two guys knock on my door at midnight asking about the car."
       ],
-      "related": [
-        "this",
-        "those",
-        "these kinds of",
-        "these here",
-        "many"
-      ]
+      "senses": [
+        {
+          "n": "1",
+          "head": "In space",
+          "body": [
+            "The things pointed at are close to the speaker, or closer than a contrasting set: these seats, not those."
+          ],
+          "examples": []
+        },
+        {
+          "n": "2",
+          "head": "In time",
+          "body": [
+            "These days, these last few months, these next two weeks — a plural period that contains, or is about to contain, the present moment."
+          ],
+          "examples": []
+        },
+        {
+          "n": "3",
+          "head": "In discourse",
+          "body": [
+            "Refers to plural items just mentioned, or about to be listed: these three problems, these figures."
+          ],
+          "examples": []
+        },
+        {
+          "n": "4",
+          "head": "Narrative these (informal)",
+          "body": [
+            "The plural of the storytelling this, introducing participants the hearer has never heard of, where the grammar calls for a bare plural: So these two guys knock on my door at midnight."
+          ],
+          "examples": [
+            "These shoes are killing me.",
+            "Are these seats taken?",
+            "These days I'm up before five.",
+            "I don't recognize these charges on my statement.",
+            "These two chapters are the hardest in the book.",
+            "These wines all come from the same vineyard.",
+            "So these two guys knock on my door at midnight asking about the car."
+          ]
+        }
+      ],
+      "русский": "эти — ближний указательный определитель, только перед мн. числом (✗ these furniture)",
+      "position": "central",
+      "register": "neutral",
+      "type": "demonstrative (also a demonstrative pronoun: these are mine)",
+      "goes with": "plural countable nouns only — these chairs, these people, these two weeks. Never a singular countable noun (✗ these chair) and never an uncountable noun (✗ these furniture, ✗ these information, ✗ these advice); for an uncountable, use this (this furniture) or a counter (these pieces of furniture). These wines, these cheeses, these coffees are fine only because the noun has been recounted as \"kinds of\" or \"servings of.\"",
+      "with of": "None as a determiner — ✗ these of the books. A partitive has to get its of from a quantifier standing in front: both of these books, several of these, two of these. Nor does the pronoun take one: the idiom is those of us / those of you, never ✗ these of us.",
+      "pattern": "these [plural countable noun] · these [number] [plural noun] (these three files) · [predeterminer] these [plural noun] (all these years, both these windows) · these [plural noun] of [possessive pronoun] (these shoes of mine) · these standing alone as a pronoun (I'll take these)",
+      "contrast": "Two axes cross here. Number: these is the plural of this, so this handles singular countables and uncountables while these handles plural countables and nothing else. Distance: these points at what is near the speaker in space, in the present stretch of time, or in the part of the talk currently in hand (these days, these numbers), where those points at what is away, past, or finished (those days). Determiner vs pronoun: the determiner leans on a noun (these seats are taken), the pronoun stands alone and is itself the whole noun phrase (these are taken, I'll take these, with these). In dialect speech these is also replaced by them (them apples), which is nonstandard.",
+      "variants": "these here (nonstandard emphatic), them (nonstandard, for both these and those)",
+      "see also": "this, those, these kinds of, these here, many"
     },
     {
       "term": "this",
       "ipa": "/ðɪs/, casual /ðəs/ before a stressed noun",
       "respell": "THIS",
-      "type": "demonstrative (also a demonstrative pronoun: this is mine)",
-      "position": "central",
-      "register": "neutral",
-      "goesWith": "singular countable nouns (this chair) and uncountable nouns (this water, this advice, this furniture). Never a plural countable noun: ✗ this books, ✗ this shoes → these books, these shoes. Two apparent exceptions are worth knowing, and neither breaks the rule. The degree phrase this many (this many people) has this modifying the quantifier many, not the noun. And a plural measure phrase counted as a single block takes this and a singular verb — This five dollars is all I have, This last three weeks has been brutal — the same singular-unit logic that gives Ten dollars is a lot. Outside those two, a plural noun after this is an error.",
-      "ofRule": "None — ✗ this of the wine. And because this is a central determiner it cannot stack with an article or a possessive (✗ the this book, ✗ this my car), so possession is added behind the noun instead, in the double genitive: this friend of mine, this car of yours.",
-      "pattern": "this [singular countable noun] · this [uncountable noun] · this [time noun] (this morning, this Friday, this past week, this coming spring) · [predeterminer] this [noun] (all this trouble, half this amount) · this [noun] of [possessive pronoun] · this much [uncountable] / this many [plural countable] · this [adjective/adverb] (degree: this big, this late)",
-      "contrast": "this vs that is proximity: this is near the speaker in space, in time, or in attention; that is away, finished, or belongs to the hearer's side of the conversation. this vs these is number, and it is the commonest demonstrative error there is — this takes singular countables and uncountables, these takes plural countables only. Determiner vs pronoun: the determiner leans on a noun (this report is late), the pronoun stands alone (this is late).",
-      "variants": [
-        "this here (nonstandard emphatic)",
-        "this'n (dialectal pronoun, = this one)"
-      ],
-      "meaning": "Points at a single thing — or at a mass of something — that is near the speaker: near in the room, near in time, or near in the flow of the conversation. 1. In space. Nearer to the speaker than the alternative: this chair, the one I am touching, against that chair across the room. 2. In time. The period containing the present moment: this morning, this week, this year. American English sharpens it two ways: this past Tuesday is the one most recently gone by, this coming Tuesday the one ahead. Bare this Tuesday is genuinely ambiguous, which is why speakers repair it so often. 3. In discourse. This points forward to what the speaker is about to say (Listen to this:) and back to whatever is still live in the conversation (This is why I called.). Careful writers avoid a bare this whose antecedent is a whole clause and hang a noun on it instead: not This surprised everyone but This decision surprised everyone. 4. Narrative this (informal). In spoken storytelling, this introduces a brand-new participant the listener has never heard of, in the slot where the grammar calls for a: So this guy walks up to me… Ordinary in casual speech, out of place in formal writing. 5. As a degree word (informal to neutral). In front of an adjective or adverb, this means \"to the degree I am showing or describing\": I didn't know it was this bad. Hold your hands this far apart.",
+      "meaning": "Points at a single thing — or at a mass of something — that is near the speaker: near in the room, near in time, or near in the flow of the conversation.",
       "examples": [
         "This seat is taken, but the one behind it is free.",
         "This coffee has been on the burner all morning.",
@@ -64,33 +87,76 @@
         "So this guy walks up to me and asks to see my badge.",
         "I didn't know the drive was going to be this long."
       ],
-      "related": [
-        "these",
-        "that",
-        "this much",
-        "this many",
-        "this kind of",
-        "this here",
-        "a / an"
-      ]
+      "senses": [
+        {
+          "n": "1",
+          "head": "In space",
+          "body": [
+            "Nearer to the speaker than the alternative: this chair, the one I am touching, against that chair across the room."
+          ],
+          "examples": []
+        },
+        {
+          "n": "2",
+          "head": "In time",
+          "body": [
+            "The period containing the present moment: this morning, this week, this year. American English sharpens it two ways: this past Tuesday is the one most recently gone by, this coming Tuesday the one ahead. Bare this Tuesday is genuinely ambiguous, which is why speakers repair it so often."
+          ],
+          "examples": []
+        },
+        {
+          "n": "3",
+          "head": "In discourse",
+          "body": [
+            "This points forward to what the speaker is about to say (Listen to this:) and back to whatever is still live in the conversation (This is why I called.). Careful writers avoid a bare this whose antecedent is a whole clause and hang a noun on it instead: not This surprised everyone but This decision surprised everyone."
+          ],
+          "examples": []
+        },
+        {
+          "n": "4",
+          "head": "Narrative this (informal)",
+          "body": [
+            "In spoken storytelling, this introduces a brand-new participant the listener has never heard of, in the slot where the grammar calls for a: So this guy walks up to me… Ordinary in casual speech, out of place in formal writing."
+          ],
+          "examples": []
+        },
+        {
+          "n": "5",
+          "head": "As a degree word (informal to neutral)",
+          "body": [
+            "In front of an adjective or adverb, this means \"to the degree I am showing or describing\": I didn't know it was this bad. Hold your hands this far apart."
+          ],
+          "examples": [
+            "This seat is taken, but the one behind it is free.",
+            "This coffee has been on the burner all morning.",
+            "Is this water safe to drink?",
+            "I'll call you this afternoon.",
+            "This advice came straight from our attorney.",
+            "I don't need this aggravation on a Monday.",
+            "Read this paragraph again before you sign anything.",
+            "This past Tuesday we lost power for six hours.",
+            "This five dollars is all I have until payday.",
+            "So this guy walks up to me and asks to see my badge.",
+            "I didn't know the drive was going to be this long."
+          ]
+        }
+      ],
+      "русский": "этот, эта, это — ближний указательный определитель: ед. ч. и неисчисляемые",
+      "position": "central",
+      "register": "neutral",
+      "type": "demonstrative (also a demonstrative pronoun: this is mine)",
+      "goes with": "singular countable nouns (this chair) and uncountable nouns (this water, this advice, this furniture). Never a plural countable noun: ✗ this books, ✗ this shoes → these books, these shoes. Two apparent exceptions are worth knowing, and neither breaks the rule. The degree phrase this many (this many people) has this modifying the quantifier many, not the noun. And a plural measure phrase counted as a single block takes this and a singular verb — This five dollars is all I have, This last three weeks has been brutal — the same singular-unit logic that gives Ten dollars is a lot. Outside those two, a plural noun after this is an error.",
+      "with of": "None — ✗ this of the wine. And because this is a central determiner it cannot stack with an article or a possessive (✗ the this book, ✗ this my car), so possession is added behind the noun instead, in the double genitive: this friend of mine, this car of yours.",
+      "pattern": "this [singular countable noun] · this [uncountable noun] · this [time noun] (this morning, this Friday, this past week, this coming spring) · [predeterminer] this [noun] (all this trouble, half this amount) · this [noun] of [possessive pronoun] · this much [uncountable] / this many [plural countable] · this [adjective/adverb] (degree: this big, this late)",
+      "contrast": "this vs that is proximity: this is near the speaker in space, in time, or in attention; that is away, finished, or belongs to the hearer's side of the conversation. this vs these is number, and it is the commonest demonstrative error there is — this takes singular countables and uncountables, these takes plural countables only. Determiner vs pronoun: the determiner leans on a noun (this report is late), the pronoun stands alone (this is late).",
+      "variants": "this here (nonstandard emphatic), this'n (dialectal pronoun, = this one)",
+      "see also": "these, that, this much, this many, this kind of, this here, a / an"
     },
     {
       "term": "that",
       "ipa": "/ðæt/ (never reduced as a demonstrative)",
       "respell": "THAT",
-      "type": "demonstrative (also a demonstrative pronoun, that is mine — and a wholly separate word as the relative and complementizer that, as in the car that broke down, I know that she left)",
-      "position": "central",
-      "register": "neutral",
-      "goesWith": "singular countable nouns (that box) and uncountable nouns (that noise, that money, that information). Never a plural countable noun: ✗ that boxes → those boxes. The apparent exception, that many people, has that modifying the quantifier many.",
-      "ofRule": "None as a determiner — ✗ that of the money. The pro-form that of is a different construction and is fully standard in comparisons, where that replaces a noun already named: The climate of Houston is milder than that of Chicago (= than the climate of Chicago). Possession goes behind the noun in the double genitive: that dog of yours.",
-      "pattern": "that [singular countable noun] · that [uncountable noun] · that [time noun] (that summer, that year) · [predeterminer] that [noun] (all that noise, half that amount) · that [noun] of [possessive pronoun] · that much [uncountable] / that many [plural countable] · not … that [adjective] (degree: not that expensive) · that same [noun]",
-      "contrast": "that vs this is distance — away versus near, in space, in time, or in the speaker's attention. that vs those is number: singular countable and uncountable versus plural countable. Determiner vs demonstrative pronoun: the determiner needs a noun to lean on (that answer was wrong), while the pronoun stands alone and can take a whole preceding clause as its antecedent (He resigned by text. That was a mistake.). The harder split is that the determiner against that the relative pronoun and complementizer, which are different words wearing the same spelling: the determiner keeps a full vowel /ðæt/, carries stress, and can be swapped for this (that book → this book); the relative and the complementizer reduce to /ðət/ and can usually just be deleted (I know (that) she left, the car (that) I bought).",
-      "variants": [
-        "that there (nonstandard emphatic)",
-        "that same (with anaphoric same)",
-        "yon, yonder (archaic/regional, for what is far from both speakers)"
-      ],
-      "meaning": "Points at a single thing, or at a mass, that is away from the speaker — across the room, back in the past, or already dealt with in the conversation. 1. In space. Farther from the speaker, or nearer the hearer: Hand me that wrench. A gesture or a glance normally goes with it. 2. In time. A stretch of time cut off from now: that summer, that winter, that year we lived in Denver. 3. In discourse (anaphoric). Refers back to something already said and treated as closed: He resigned by text. That decision followed him for years. Standing alone as a pronoun, that can take a whole preceding clause as its antecedent — He resigned by text. That was a mistake. 4. Shared knowledge, and attitude. That marks a referent the speaker assumes the hearer can already call to mind: You know that guy from accounting? Combined with a possessive it usually carries a judgment: that dog of yours. 5. As a degree word (informal to neutral). In front of an adjective, an adverb, or much/many, that means \"to the degree just mentioned\": It's not that expensive. I didn't know she was that young. It lives mainly in negatives and questions; the affirmative It was that bad is informal.",
+      "meaning": "Points at a single thing, or at a mass, that is away from the speaker — across the room, back in the past, or already dealt with in the conversation.",
       "examples": [
         "That building on the corner used to be a bank.",
         "Hand me that wrench, would you?",
@@ -103,34 +169,75 @@
         "It's not that expensive — about forty dollars.",
         "We ran into her again that same afternoon."
       ],
-      "related": [
-        "this",
-        "those",
-        "that much",
-        "that many",
-        "that which",
-        "that there",
-        "self",
-        "selfsame",
-        "the"
-      ]
+      "senses": [
+        {
+          "n": "1",
+          "head": "In space",
+          "body": [
+            "Farther from the speaker, or nearer the hearer: Hand me that wrench. A gesture or a glance normally goes with it."
+          ],
+          "examples": []
+        },
+        {
+          "n": "2",
+          "head": "In time",
+          "body": [
+            "A stretch of time cut off from now: that summer, that winter, that year we lived in Denver."
+          ],
+          "examples": []
+        },
+        {
+          "n": "3",
+          "head": "In discourse (anaphoric)",
+          "body": [
+            "Refers back to something already said and treated as closed: He resigned by text. That decision followed him for years. Standing alone as a pronoun, that can take a whole preceding clause as its antecedent — He resigned by text. That was a mistake."
+          ],
+          "examples": []
+        },
+        {
+          "n": "4",
+          "head": "Shared knowledge, and attitude",
+          "body": [
+            "That marks a referent the speaker assumes the hearer can already call to mind: You know that guy from accounting? Combined with a possessive it usually carries a judgment: that dog of yours."
+          ],
+          "examples": []
+        },
+        {
+          "n": "5",
+          "head": "As a degree word (informal to neutral)",
+          "body": [
+            "In front of an adjective, an adverb, or much/many, that means \"to the degree just mentioned\": It's not that expensive. I didn't know she was that young. It lives mainly in negatives and questions; the affirmative It was that bad is informal."
+          ],
+          "examples": [
+            "That building on the corner used to be a bank.",
+            "Hand me that wrench, would you?",
+            "Is that information still accurate?",
+            "I've never forgotten that summer.",
+            "That decision cost the company millions.",
+            "Who made all that noise last night?",
+            "I don't want that responsibility.",
+            "That dog of yours dug up my tulips again.",
+            "It's not that expensive — about forty dollars.",
+            "We ran into her again that same afternoon."
+          ]
+        }
+      ],
+      "русский": "тот, та, то — дальний указательный определитель: ед. ч. и неисчисляемые",
+      "position": "central",
+      "register": "neutral",
+      "type": "demonstrative (also a demonstrative pronoun, that is mine — and a wholly separate word as the relative and complementizer that, as in the car that broke down, I know that she left)",
+      "goes with": "singular countable nouns (that box) and uncountable nouns (that noise, that money, that information). Never a plural countable noun: ✗ that boxes → those boxes. The apparent exception, that many people, has that modifying the quantifier many.",
+      "with of": "None as a determiner — ✗ that of the money. The pro-form that of is a different construction and is fully standard in comparisons, where that replaces a noun already named: The climate of Houston is milder than that of Chicago (= than the climate of Chicago). Possession goes behind the noun in the double genitive: that dog of yours.",
+      "pattern": "that [singular countable noun] · that [uncountable noun] · that [time noun] (that summer, that year) · [predeterminer] that [noun] (all that noise, half that amount) · that [noun] of [possessive pronoun] · that much [uncountable] / that many [plural countable] · not … that [adjective] (degree: not that expensive) · that same [noun]",
+      "contrast": "that vs this is distance — away versus near, in space, in time, or in the speaker's attention. that vs those is number: singular countable and uncountable versus plural countable. Determiner vs demonstrative pronoun: the determiner needs a noun to lean on (that answer was wrong), while the pronoun stands alone and can take a whole preceding clause as its antecedent (He resigned by text. That was a mistake.). The harder split is that the determiner against that the relative pronoun and complementizer, which are different words wearing the same spelling: the determiner keeps a full vowel /ðæt/, carries stress, and can be swapped for this (that book → this book); the relative and the complementizer reduce to /ðət/ and can usually just be deleted (I know (that) she left, the car (that) I bought).",
+      "variants": "that there (nonstandard emphatic), that same (with anaphoric same), yon, yonder (archaic/regional, for what is far from both speakers)",
+      "see also": "this, those, that much, that many, that which, that there, self, selfsame, the"
     },
     {
       "term": "those",
       "ipa": "/ðoʊz/",
       "respell": "THOHZ",
-      "type": "demonstrative (also a demonstrative pronoun: those are mine)",
-      "position": "central",
-      "register": "neutral",
-      "goesWith": "plural countable nouns only — those boxes, those people, those three years. Never a singular countable noun (✗ those box) and never an uncountable noun (✗ those furniture, ✗ those luggage, ✗ those homework). Those can also head a noun phrase with no noun in it at all, and two different things go on when it does. As a plain demonstrative pronoun it points at something already identifiable in the situation and needs nothing after it: Those are mine. I'll take those. In the generic sense \"the ones\" or \"the people,\" a relative clause is obligatory: those who wait, those we lost — never a bare ✗ Those are rewarded meaning \"people are rewarded.\"",
-      "ofRule": "None as a determiner — ✗ those of the boxes meaning \"those boxes.\" As a pronoun, though, those of is standard in two patterns: the partitive those of us / those of you / those of the applicants who…, and the comparative pro-form Prices are higher than those of last year (those = the prices).",
-      "pattern": "those [plural countable noun] · those [number] [plural noun] (those first two days) · [predeterminer] those [plural noun] (all those years, both those windows) · those [plural noun] of [possessive pronoun] (those shoes of hers) · those who/that/which [relative clause] · those of [us/you/them/the + noun]",
-      "contrast": "those is the plural of that and the far counterpart of these: these files are the ones here and now, those files the ones over there or back then. Because it is plural-only, it cannot cover an uncountable the way that can — that furniture, never ✗ those furniture. Determiner vs pronoun: the determiner sits on a noun (those boxes are heavy), the pronoun replaces the noun phrase outright (those are heavy). And those is the standard form where dialect speech uses them: them apples is nonstandard for those apples.",
-      "variants": [
-        "those there (nonstandard emphatic)",
-        "them, them there (nonstandard)"
-      ],
-      "meaning": "Points at more than one thing away from the speaker — across the room, back in the past, or already settled in the conversation. 1. In space. Farther from the speaker than a contrasting set, or simply out of reach: Those boxes go in the garage. 2. In time. A plural period cut off from now: back in those days, those years after the mill closed. 3. In discourse (anaphoric). Refers to plural items already mentioned: The 2019 numbers were wrong, and those figures are still on the website. 4. As a bare head with a relative clause. Those alone means \"the people\" or \"the ones,\" and requires the relative clause to complete it: those who arrived early, those that still work. 5. As a pro-form after a comparison. Standing in for a repeated noun: Our margins are thinner than those of our competitors.",
+      "meaning": "Points at more than one thing away from the speaker — across the room, back in the past, or already settled in the conversation.",
       "examples": [
         "Those boxes go in the garage.",
         "Back in those days, gas was under a dollar.",
@@ -140,31 +247,71 @@
         "Those people you met at the wedding are my cousins.",
         "Today's prices are nearly double those of ten years ago."
       ],
-      "related": [
-        "that",
-        "these",
-        "those who",
-        "those which",
-        "them",
-        "them there"
-      ]
+      "senses": [
+        {
+          "n": "1",
+          "head": "In space",
+          "body": [
+            "Farther from the speaker than a contrasting set, or simply out of reach: Those boxes go in the garage."
+          ],
+          "examples": []
+        },
+        {
+          "n": "2",
+          "head": "In time",
+          "body": [
+            "A plural period cut off from now: back in those days, those years after the mill closed."
+          ],
+          "examples": []
+        },
+        {
+          "n": "3",
+          "head": "In discourse (anaphoric)",
+          "body": [
+            "Refers to plural items already mentioned: The 2019 numbers were wrong, and those figures are still on the website."
+          ],
+          "examples": []
+        },
+        {
+          "n": "4",
+          "head": "As a bare head with a relative clause",
+          "body": [
+            "Those alone means \"the people\" or \"the ones,\" and requires the relative clause to complete it: those who arrived early, those that still work."
+          ],
+          "examples": []
+        },
+        {
+          "n": "5",
+          "head": "As a pro-form after a comparison",
+          "body": [
+            "Standing in for a repeated noun: Our margins are thinner than those of our competitors."
+          ],
+          "examples": [
+            "Those boxes go in the garage.",
+            "Back in those days, gas was under a dollar.",
+            "I can't read those road signs from here.",
+            "Are those your keys on the counter?",
+            "All those years of practice finally paid off.",
+            "Those people you met at the wedding are my cousins.",
+            "Today's prices are nearly double those of ten years ago."
+          ]
+        }
+      ],
+      "русский": "те — дальний указательный определитель, только перед мн. числом",
+      "position": "central",
+      "register": "neutral",
+      "type": "demonstrative (also a demonstrative pronoun: those are mine)",
+      "goes with": "plural countable nouns only — those boxes, those people, those three years. Never a singular countable noun (✗ those box) and never an uncountable noun (✗ those furniture, ✗ those luggage, ✗ those homework). Those can also head a noun phrase with no noun in it at all, and two different things go on when it does. As a plain demonstrative pronoun it points at something already identifiable in the situation and needs nothing after it: Those are mine. I'll take those. In the generic sense \"the ones\" or \"the people,\" a relative clause is obligatory: those who wait, those we lost — never a bare ✗ Those are rewarded meaning \"people are rewarded.\"",
+      "with of": "None as a determiner — ✗ those of the boxes meaning \"those boxes.\" As a pronoun, though, those of is standard in two patterns: the partitive those of us / those of you / those of the applicants who…, and the comparative pro-form Prices are higher than those of last year (those = the prices).",
+      "pattern": "those [plural countable noun] · those [number] [plural noun] (those first two days) · [predeterminer] those [plural noun] (all those years, both those windows) · those [plural noun] of [possessive pronoun] (those shoes of hers) · those who/that/which [relative clause] · those of [us/you/them/the + noun]",
+      "contrast": "those is the plural of that and the far counterpart of these: these files are the ones here and now, those files the ones over there or back then. Because it is plural-only, it cannot cover an uncountable the way that can — that furniture, never ✗ those furniture. Determiner vs pronoun: the determiner sits on a noun (those boxes are heavy), the pronoun replaces the noun phrase outright (those are heavy). And those is the standard form where dialect speech uses them: them apples is nonstandard for those apples.",
+      "variants": "those there (nonstandard emphatic), them, them there (nonstandard)",
+      "see also": "that, these, those who, those which, them, them there"
     },
     {
       "term": "that many",
       "ipa": "/ˈðæt ˌmɛni/",
       "respell": "THAT-men-ee",
-      "type": "demonstrative degree word + quantifier",
-      "position": "central (the quantifier many fills the slot; that is a degree modifier in front of it)",
-      "register": "neutral",
-      "goesWith": "plural countable nouns only — that many people, that many copies. Never an uncountable noun: ✗ that many money, ✗ that many time → that much money, that much time. It also stands alone as a pronoun (I didn't think there were that many).",
-      "ofRule": "that many of the / of my / of these + plural noun, and that many of them with a pronoun, where of is required: We don't need that many of them. Before a bare plural noun there is no of: that many chairs, not ✗ that many of chairs.",
-      "pattern": "that many [plural countable noun] · that many of [the/my/these + plural noun] · that many of [them/us/you] · not / never … that many [plural noun] · that many standing alone (half that many)",
-      "contrast": "that many is to plural countables what that much is to uncountables — the same split as many/much. Against this many: this many shows the amount, usually with a gesture or with the amount in plain sight, while that many points back at a figure already named or already in the hearer's mind. Like the bare degree word that, it prefers negatives and questions; the affirmative There were that many is informal.",
-      "variants": [
-        "not that many",
-        "half that many",
-        "twice that many"
-      ],
       "meaning": "Names a number by pointing at one already mentioned or already known — \"as many as that.\" Most at home under a negative or in a question, where it denies or queries a number the other person has implied.",
       "examples": [
         "I didn't invite that many people — maybe twelve.",
@@ -174,30 +321,22 @@
         "I had never seen that many deer in one field.",
         "Only about half that many showed up."
       ],
-      "related": [
-        "that much",
-        "this many",
-        "that",
-        "many"
-      ]
+      "senses": [],
+      "русский": "столько (штук) — «так много, как названо»; чаще в отрицаниях и вопросах",
+      "position": "central (the quantifier many fills the slot; that is a degree modifier in front of it)",
+      "register": "neutral",
+      "type": "demonstrative degree word + quantifier",
+      "goes with": "plural countable nouns only — that many people, that many copies. Never an uncountable noun: ✗ that many money, ✗ that many time → that much money, that much time. It also stands alone as a pronoun (I didn't think there were that many).",
+      "with of": "that many of the / of my / of these + plural noun, and that many of them with a pronoun, where of is required: We don't need that many of them. Before a bare plural noun there is no of: that many chairs, not ✗ that many of chairs.",
+      "pattern": "that many [plural countable noun] · that many of [the/my/these + plural noun] · that many of [them/us/you] · not / never … that many [plural noun] · that many standing alone (half that many)",
+      "contrast": "that many is to plural countables what that much is to uncountables — the same split as many/much. Against this many: this many shows the amount, usually with a gesture or with the amount in plain sight, while that many points back at a figure already named or already in the hearer's mind. Like the bare degree word that, it prefers negatives and questions; the affirmative There were that many is informal.",
+      "variants": "not that many, half that many, twice that many",
+      "see also": "that much, this many, that, many"
     },
     {
       "term": "that much",
       "ipa": "/ˈðæt ˌmʌtʃ/",
       "respell": "THAT-much",
-      "type": "demonstrative degree word + quantifier",
-      "position": "central (the quantifier much fills the slot; that is a degree modifier in front of it)",
-      "register": "neutral",
-      "goesWith": "uncountable nouns only — that much time, that much salt, that much trouble. Never a plural countable noun: ✗ that much people → that many people. It also stands alone as a pronoun (It didn't cost that much) and modifies a comparative adjective or adverb (that much better, that much sooner).",
-      "ofRule": "that much of the / of my / of this + noun, and that much of it with a pronoun, where of is required: I wouldn't spend that much of it on one repair. Before a bare uncountable noun there is no of: that much flour, not ✗ that much of flour.",
-      "pattern": "that much [uncountable noun] · that much of [the/my/this + noun] · that much of [it/them] · not … that much [uncountable] · that much [comparative] (that much harder) · that much standing alone",
-      "contrast": "that much takes uncountables, that many takes plural countables — the much/many line, unchanged. Against this much: this much displays the amount (\"about this much\"), that much refers back to an amount already stated. Bare that much also has an idiomatic concessive use meaning \"at least that part\": That much I understood.",
-      "variants": [
-        "not that much",
-        "half that much",
-        "twice that much",
-        "that much more/better/harder"
-      ],
       "meaning": "Names an amount of something uncountable by pointing at one already mentioned or already known — \"as much as that.\" Like the degree word that, it lives mainly in negatives and questions, and in front of a comparative it means \"by that margin\": the new tires made the ride that much smoother.",
       "examples": [
         "It doesn't cost that much — I checked this morning.",
@@ -207,28 +346,22 @@
         "If you cut the budget that much, we'll lose the program.",
         "New tires made the ride that much smoother."
       ],
-      "related": [
-        "that many",
-        "this much",
-        "that",
-        "much"
-      ]
+      "senses": [],
+      "русский": "столько (о неисчисляемом) — «так много, как названо»; чаще в отрицаниях и вопросах",
+      "position": "central (the quantifier much fills the slot; that is a degree modifier in front of it)",
+      "register": "neutral",
+      "type": "demonstrative degree word + quantifier",
+      "goes with": "uncountable nouns only — that much time, that much salt, that much trouble. Never a plural countable noun: ✗ that much people → that many people. It also stands alone as a pronoun (It didn't cost that much) and modifies a comparative adjective or adverb (that much better, that much sooner).",
+      "with of": "that much of the / of my / of this + noun, and that much of it with a pronoun, where of is required: I wouldn't spend that much of it on one repair. Before a bare uncountable noun there is no of: that much flour, not ✗ that much of flour.",
+      "pattern": "that much [uncountable noun] · that much of [the/my/this + noun] · that much of [it/them] · not … that much [uncountable] · that much [comparative] (that much harder) · that much standing alone",
+      "contrast": "that much takes uncountables, that many takes plural countables — the much/many line, unchanged. Against this much: this much displays the amount (\"about this much\"), that much refers back to an amount already stated. Bare that much also has an idiomatic concessive use meaning \"at least that part\": That much I understood.",
+      "variants": "not that much, half that much, twice that much, that much more/better/harder",
+      "see also": "that many, this much, that, much"
     },
     {
       "term": "this many",
       "ipa": "/ˈðɪs ˌmɛni/",
       "respell": "THIS-men-ee",
-      "type": "demonstrative degree word + quantifier",
-      "position": "central (the quantifier many fills the slot; this is a degree modifier in front of it)",
-      "register": "neutral",
-      "goesWith": "plural countable nouns only — this many people, this many boxes. Never an uncountable noun: ✗ this many traffic, ✗ this many information → this much traffic, this much information. It also stands alone as a pronoun (I've never seen this many).",
-      "ofRule": "this many of the / of my / of these + plural noun, and this many of them with a pronoun, where of is required: Do we really need this many of them? Before a bare plural noun there is no of: this many chairs.",
-      "pattern": "this many [plural countable noun] · this many of [the/my/these + plural noun] · this many of [them/us] · never … this many [plural noun] · this many standing alone",
-      "contrast": "this many counts, this much measures — the plain many/much split carried up into the demonstrative. Against that many: this many presents a number that is visible, present, or being demonstrated right now, while that many points back to a number already named. It is the main environment in which this legally stands in front of a plural noun, and even there this is modifying many, not the noun; the only other one is a plural measure counted as a single block (this five dollars, with a singular verb).",
-      "variants": [
-        "about this many",
-        "twice this many"
-      ],
       "meaning": "Names a number by showing it rather than stating it — the number in front of us, or the one the speaker is indicating with a gesture. It is most natural in exclamations, questions, and negatives, where the speaker is reacting to a count that turned out larger than expected.",
       "examples": [
         "I've never seen this many people at a school board meeting.",
@@ -238,28 +371,22 @@
         "Do we really need this many of the small screws?",
         "I can carry about this many books before my arm gives out."
       ],
-      "related": [
-        "this much",
-        "that many",
-        "this",
-        "many"
-      ]
+      "senses": [],
+      "русский": "вот столько (штук) — количество, которое видно или показывают жестом",
+      "position": "central (the quantifier many fills the slot; this is a degree modifier in front of it)",
+      "register": "neutral",
+      "type": "demonstrative degree word + quantifier",
+      "goes with": "plural countable nouns only — this many people, this many boxes. Never an uncountable noun: ✗ this many traffic, ✗ this many information → this much traffic, this much information. It also stands alone as a pronoun (I've never seen this many).",
+      "with of": "this many of the / of my / of these + plural noun, and this many of them with a pronoun, where of is required: Do we really need this many of them? Before a bare plural noun there is no of: this many chairs.",
+      "pattern": "this many [plural countable noun] · this many of [the/my/these + plural noun] · this many of [them/us] · never … this many [plural noun] · this many standing alone",
+      "contrast": "this many counts, this much measures — the plain many/much split carried up into the demonstrative. Against that many: this many presents a number that is visible, present, or being demonstrated right now, while that many points back to a number already named. It is the main environment in which this legally stands in front of a plural noun, and even there this is modifying many, not the noun; the only other one is a plural measure counted as a single block (this five dollars, with a singular verb).",
+      "variants": "about this many, twice this many",
+      "see also": "this much, that many, this, many"
     },
     {
       "term": "this much",
       "ipa": "/ˈðɪs ˌmʌtʃ/",
       "respell": "THIS-much",
-      "type": "demonstrative degree word + quantifier",
-      "position": "central (the quantifier much fills the slot; this is a degree modifier in front of it)",
-      "register": "neutral",
-      "goesWith": "uncountable nouns only — this much time, this much flour, this much money. Never a plural countable noun: ✗ this much people → this many people. It also stands alone as a pronoun (I've only got this much) and heads the fixed opener This much is clear:",
-      "ofRule": "this much of the / of my / of this + noun, and this much of it with a pronoun, where of is required: I've read this much of the report. Before a bare uncountable noun there is no of: this much flour, not ✗ this much of flour.",
-      "pattern": "this much [uncountable noun] · this much of [the/my/this + noun] · this much of [it/them] · this much standing alone (that's all I need — this much) · This much is clear/certain: [clause]",
-      "contrast": "this much measures, this many counts. Against that much: this much shows the amount — fingers apart, a line on a glass, a stack on the desk — while that much refers back to an amount already named. Note the fixed discourse formula This much is clear:, where this much means \"this part of the matter, at least.\"",
-      "variants": [
-        "about this much",
-        "This much is clear/certain (fixed opener)"
-      ],
       "meaning": "Names an amount of something uncountable by showing it rather than stating it — the amount indicated by a gesture, or the amount visibly on hand.",
       "examples": [
         "I've only got this much time before my next call.",
@@ -269,31 +396,22 @@
         "You can pour this much and no more.",
         "This much is clear: nobody read the contract."
       ],
-      "related": [
-        "this many",
-        "that much",
-        "this",
-        "much",
-        "little"
-      ]
+      "senses": [],
+      "русский": "вот столько (о неисчисляемом) — количество, которое показывают жестом",
+      "position": "central (the quantifier much fills the slot; this is a degree modifier in front of it)",
+      "register": "neutral",
+      "type": "demonstrative degree word + quantifier",
+      "goes with": "uncountable nouns only — this much time, this much flour, this much money. Never a plural countable noun: ✗ this much people → this many people. It also stands alone as a pronoun (I've only got this much) and heads the fixed opener This much is clear:",
+      "with of": "this much of the / of my / of this + noun, and this much of it with a pronoun, where of is required: I've read this much of the report. Before a bare uncountable noun there is no of: this much flour, not ✗ this much of flour.",
+      "pattern": "this much [uncountable noun] · this much of [the/my/this + noun] · this much of [it/them] · this much standing alone (that's all I need — this much) · This much is clear/certain: [clause]",
+      "contrast": "this much measures, this many counts. Against that much: this much shows the amount — fingers apart, a line on a glass, a stack on the desk — while that much refers back to an amount already named. Note the fixed discourse formula This much is clear:, where this much means \"this part of the matter, at least.\"",
+      "variants": "about this much, This much is clear/certain (fixed opener)",
+      "see also": "this many, that much, this, much, little"
     },
     {
       "term": "that kind of",
       "ipa": "/ðæt ˈkaɪnd əv/",
       "respell": "that-KYND-uv",
-      "type": "demonstrative + classifier noun (partitive frame)",
-      "position": "central — that determines the head noun kind, and the of-phrase carries the noun being classified",
-      "register": "neutral, but frequently evaluative",
-      "goesWith": "after of, a bare singular countable noun (that kind of engine) or an uncountable noun (that kind of behavior, that kind of weather). A plural after the singular frame — that kind of engines — is dispreferred in edited American English; keep everything singular (that kind of engine) or pluralize the whole frame (those kinds of engines). The verb agrees with the singular head kind: that kind of mistake is expensive.",
-      "ofRule": "of is obligatory: ✗ that kind car → that kind of car. The article in that kind of a car is informal and regional and is edited out of American writing. Putting the after of (that kind of the problem) makes the phrase specific and defeats the classifying sense. The reduced kinda is speech only.",
-      "pattern": "that kind of [singular countable noun] · that kind of [uncountable noun] · that sort of / that type of [noun] · [subject] that kind of [noun] + singular verb · that kind of thing (fixed, summarizing)",
-      "contrast": "Against this kind of: the same frame at the other end of the deictic scale — this kind of names the category in front of us, that kind of one already introduced or held at arm's length, and the distancing is what gives that kind of its habitual note of disapproval (that kind of language, that kind of person). Against those kinds of: number, and the frame has to move as a unit — that kind of problem or those kinds of problems, never the mixed ✗ those kind of problems. Against plain that: that problem points at one particular problem, that kind of problem at the whole category it belongs to.",
-      "variants": [
-        "that sort of",
-        "that type of",
-        "that kind of a (informal/regional)",
-        "that kinda (speech only)"
-      ],
       "meaning": "Classifies a thing by the category it belongs to rather than pointing at the individual, with the category set at a distance — already named, already known to the hearer, or deliberately held away from the speaker. In American speech that distancing is very often a judgment.",
       "examples": [
         "We don't tolerate that kind of behavior here.",
@@ -304,32 +422,22 @@
         "He isn't that kind of person, whatever the neighbors say.",
         "That type of loan carries a prepayment penalty."
       ],
-      "related": [
-        "this kind of",
-        "those kinds of",
-        "these kinds of",
-        "that"
-      ]
+      "senses": [],
+      "русский": "такого рода, такой — о категории уже названной; часто с оттенком осуждения",
+      "position": "central — that determines the head noun kind, and the of-phrase carries the noun being classified",
+      "register": "neutral, but frequently evaluative",
+      "type": "demonstrative + classifier noun (partitive frame)",
+      "goes with": "after of, a bare singular countable noun (that kind of engine) or an uncountable noun (that kind of behavior, that kind of weather). A plural after the singular frame — that kind of engines — is dispreferred in edited American English; keep everything singular (that kind of engine) or pluralize the whole frame (those kinds of engines). The verb agrees with the singular head kind: that kind of mistake is expensive.",
+      "with of": "of is obligatory: ✗ that kind car → that kind of car. The article in that kind of a car is informal and regional and is edited out of American writing. Putting the after of (that kind of the problem) makes the phrase specific and defeats the classifying sense. The reduced kinda is speech only.",
+      "pattern": "that kind of [singular countable noun] · that kind of [uncountable noun] · that sort of / that type of [noun] · [subject] that kind of [noun] + singular verb · that kind of thing (fixed, summarizing)",
+      "contrast": "Against this kind of: the same frame at the other end of the deictic scale — this kind of names the category in front of us, that kind of one already introduced or held at arm's length, and the distancing is what gives that kind of its habitual note of disapproval (that kind of language, that kind of person). Against those kinds of: number, and the frame has to move as a unit — that kind of problem or those kinds of problems, never the mixed ✗ those kind of problems. Against plain that: that problem points at one particular problem, that kind of problem at the whole category it belongs to.",
+      "variants": "that sort of, that type of, that kind of a (informal/regional), that kinda (speech only)",
+      "see also": "this kind of, those kinds of, these kinds of, that"
     },
     {
       "term": "these kinds of",
       "ipa": "/ðiz ˈkaɪndz əv/",
       "respell": "theez-KYNDZ-uv",
-      "type": "demonstrative + classifier noun (partitive frame)",
-      "position": "central — these determines the head noun kinds, and the of-phrase carries the noun being classified",
-      "register": "neutral",
-      "goesWith": "a plural countable noun after of — these kinds of injuries, those kinds of delays. An uncountable after of is possible but rare and usually rewritten with the singular frame (this kind of weather, not these kinds of weather). Everything in the phrase agrees as a plural: these kinds of errors are common, with a plural verb.",
-      "ofRule": "of is obligatory: ✗ these kinds problems → these kinds of problems. Adding an article after of (these kinds of the problems) makes the phrase specific and is usually wrong for the classifying sense.",
-      "pattern": "these/those kinds of [plural countable noun] · these/those sorts of [plural noun] · these/those types of [plural noun] · [subject] these kinds of [plural noun] + plural verb",
-      "contrast": "The number agreement is the whole point: this kind of problem (all singular) and these kinds of problems (all plural) are the two clean patterns. The mixed these kind of problems — plural demonstrative, singular kind — has been in the language since Shakespeare and is still ordinary in speech, but American editors treat it as an error; fix it by making everything singular or everything plural. Type is the most technical of the three nouns, sort the most British-sounding, kind the everyday American choice.",
-      "variants": [
-        "these sorts of",
-        "these types of",
-        "those kinds of",
-        "those sorts of",
-        "those types of",
-        "these kind of (nonstandard/disputed)"
-      ],
       "meaning": "Classifies plural things by category rather than pointing at individuals: not these particular injuries but injuries of the sort just indicated. The demonstrative locates the category in the discussion — these for the type under discussion now, those for a type already dealt with or held at a distance.",
       "examples": [
         "These kinds of injuries take months to heal.",
@@ -340,33 +448,22 @@
         "Contractors don't warranty these kinds of materials.",
         "These kinds of repairs are never cheap."
       ],
-      "related": [
-        "this kind of",
-        "those kinds of",
-        "that kind of",
-        "these",
-        "those"
-      ]
+      "senses": [],
+      "русский": "такого рода (мн. ч.) — о категориях, о которых идёт речь сейчас",
+      "position": "central — these determines the head noun kinds, and the of-phrase carries the noun being classified",
+      "register": "neutral",
+      "type": "demonstrative + classifier noun (partitive frame)",
+      "goes with": "a plural countable noun after of — these kinds of injuries, those kinds of delays. An uncountable after of is possible but rare and usually rewritten with the singular frame (this kind of weather, not these kinds of weather). Everything in the phrase agrees as a plural: these kinds of errors are common, with a plural verb.",
+      "with of": "of is obligatory: ✗ these kinds problems → these kinds of problems. Adding an article after of (these kinds of the problems) makes the phrase specific and is usually wrong for the classifying sense.",
+      "pattern": "these/those kinds of [plural countable noun] · these/those sorts of [plural noun] · these/those types of [plural noun] · [subject] these kinds of [plural noun] + plural verb",
+      "contrast": "The number agreement is the whole point: this kind of problem (all singular) and these kinds of problems (all plural) are the two clean patterns. The mixed these kind of problems — plural demonstrative, singular kind — has been in the language since Shakespeare and is still ordinary in speech, but American editors treat it as an error; fix it by making everything singular or everything plural. Type is the most technical of the three nouns, sort the most British-sounding, kind the everyday American choice.",
+      "variants": "these sorts of, these types of, those kinds of, those sorts of, those types of, these kind of (nonstandard/disputed)",
+      "see also": "this kind of, those kinds of, that kind of, these, those"
     },
     {
       "term": "this kind of",
       "ipa": "/ðɪs ˈkaɪnd əv/",
       "respell": "this-KYND-uv",
-      "type": "demonstrative + classifier noun (partitive frame)",
-      "position": "central — this determines the head noun kind, and the of-phrase carries the noun being classified",
-      "register": "neutral",
-      "goesWith": "after of, a bare singular countable noun (this kind of engine) or an uncountable noun (this kind of weather, this kind of behavior). A plural after the singular frame — this kind of engines — is dispreferred in edited American English; either drop to the singular (this kind of engine) or pluralize the whole frame (these kinds of engines).",
-      "ofRule": "of is obligatory: ✗ this kind car → this kind of car. Inserting an article after of (this kind of a car) is informal and regional, and is edited out of American writing. The reduced kinda is speech only.",
-      "pattern": "this/that kind of [singular countable noun] · this/that kind of [uncountable noun] · this/that sort of [noun] · this/that type of [noun] · [subject] this kind of [noun] + singular verb",
-      "contrast": "Keep the number consistent across the frame: this kind of problem or these kinds of problems, never the mixed ✗ these kind of problems. Against a plain demonstrative: this problem points at one particular problem, this kind of problem points at the whole category it belongs to. Against that kind of: the same frame at a distance, and usually with a note of dismissal (We don't tolerate that kind of behavior).",
-      "variants": [
-        "this sort of",
-        "this type of",
-        "that kind of",
-        "that sort of",
-        "that type of",
-        "this kind of a (informal/regional)"
-      ],
       "meaning": "Classifies a thing by category instead of pointing at the individual: not this engine but an engine of the sort indicated. The demonstrative says which category — this for the one at hand, that for one already named, frequently with a note of disapproval.",
       "examples": [
         "This kind of weather always knocks out the power.",
@@ -377,30 +474,22 @@
         "This type of account earns almost no interest.",
         "We don't see this kind of wear on a newer machine."
       ],
-      "related": [
-        "these kinds of",
-        "that kind of",
-        "those kinds of",
-        "this",
-        "that"
-      ]
+      "senses": [],
+      "русский": "такой, такого рода — классифицирует по виду, а не указывает на предмет",
+      "position": "central — this determines the head noun kind, and the of-phrase carries the noun being classified",
+      "register": "neutral",
+      "type": "demonstrative + classifier noun (partitive frame)",
+      "goes with": "after of, a bare singular countable noun (this kind of engine) or an uncountable noun (this kind of weather, this kind of behavior). A plural after the singular frame — this kind of engines — is dispreferred in edited American English; either drop to the singular (this kind of engine) or pluralize the whole frame (these kinds of engines).",
+      "with of": "of is obligatory: ✗ this kind car → this kind of car. Inserting an article after of (this kind of a car) is informal and regional, and is edited out of American writing. The reduced kinda is speech only.",
+      "pattern": "this/that kind of [singular countable noun] · this/that kind of [uncountable noun] · this/that sort of [noun] · this/that type of [noun] · [subject] this kind of [noun] + singular verb",
+      "contrast": "Keep the number consistent across the frame: this kind of problem or these kinds of problems, never the mixed ✗ these kind of problems. Against a plain demonstrative: this problem points at one particular problem, this kind of problem points at the whole category it belongs to. Against that kind of: the same frame at a distance, and usually with a note of dismissal (We don't tolerate that kind of behavior).",
+      "variants": "this sort of, this type of, that kind of, that sort of, that type of, this kind of a (informal/regional)",
+      "see also": "these kinds of, that kind of, those kinds of, this, that"
     },
     {
       "term": "those kinds of",
       "ipa": "/ðoʊz ˈkaɪndz əv/",
       "respell": "thohz-KYNDZ-uv",
-      "type": "demonstrative + classifier noun (partitive frame)",
-      "position": "central — those determines the head noun kinds, and the of-phrase carries the noun being classified",
-      "register": "neutral, but frequently evaluative",
-      "goesWith": "a plural countable noun after of — those kinds of delays, those kinds of arguments. An uncountable after of is possible but rare and is normally rewritten with the singular frame (that kind of weather, not those kinds of weather). Everything in the phrase agrees as a plural, the verb included: those kinds of errors are common.",
-      "ofRule": "of is obligatory: ✗ those kinds problems → those kinds of problems. Adding an article after of (those kinds of the problems) makes the phrase specific and kills the classifying sense.",
-      "pattern": "those kinds of [plural countable noun] · those sorts of [plural noun] · those types of [plural noun] · [subject] those kinds of [plural noun] + plural verb",
-      "contrast": "Against these kinds of: distance rather than number — these kinds of for the categories under discussion now, those kinds of for ones already dealt with or held away, which is why those kinds of so readily carries dismissal (those kinds of people). Against that kind of: number, and the frame moves as a unit — that kind of delay or those kinds of delays, never the mixed ✗ those kind of delays, which is ordinary in speech but is treated as an error in American editing. Against plain those: those delays points at particular delays, those kinds of delays at the categories they belong to.",
-      "variants": [
-        "those sorts of",
-        "those types of",
-        "those kind of (nonstandard/disputed)"
-      ],
       "meaning": "Classifies plural things by the categories they belong to rather than pointing at individuals, with the category set at a distance — already named, already known, or deliberately held away from the speaker.",
       "examples": [
         "Those kinds of delays cost us contracts.",
@@ -411,29 +500,22 @@
         "Those types of engines were phased out in the nineties.",
         "Those kinds of mistakes are why we have a checklist."
       ],
-      "related": [
-        "these kinds of",
-        "that kind of",
-        "this kind of",
-        "those"
-      ]
+      "senses": [],
+      "русский": "такого рода (мн. ч.) — о категориях уже названных или отдалённых",
+      "position": "central — those determines the head noun kinds, and the of-phrase carries the noun being classified",
+      "register": "neutral, but frequently evaluative",
+      "type": "demonstrative + classifier noun (partitive frame)",
+      "goes with": "a plural countable noun after of — those kinds of delays, those kinds of arguments. An uncountable after of is possible but rare and is normally rewritten with the singular frame (that kind of weather, not those kinds of weather). Everything in the phrase agrees as a plural, the verb included: those kinds of errors are common.",
+      "with of": "of is obligatory: ✗ those kinds problems → those kinds of problems. Adding an article after of (those kinds of the problems) makes the phrase specific and kills the classifying sense.",
+      "pattern": "those kinds of [plural countable noun] · those sorts of [plural noun] · those types of [plural noun] · [subject] those kinds of [plural noun] + plural verb",
+      "contrast": "Against these kinds of: distance rather than number — these kinds of for the categories under discussion now, those kinds of for ones already dealt with or held away, which is why those kinds of so readily carries dismissal (those kinds of people). Against that kind of: number, and the frame moves as a unit — that kind of delay or those kinds of delays, never the mixed ✗ those kind of delays, which is ordinary in speech but is treated as an error in American editing. Against plain those: those delays points at particular delays, those kinds of delays at the categories they belong to.",
+      "variants": "those sorts of, those types of, those kind of (nonstandard/disputed)",
+      "see also": "these kinds of, that kind of, this kind of, those"
     },
     {
       "term": "that which",
       "ipa": "/ðæt ˈwɪtʃ/",
       "respell": "that-WICH",
-      "type": "fused relative — demonstrative pronoun that + relative which",
-      "position": "not a determiner: that is the head of the noun phrase here, not a modifier of a following noun",
-      "register": "formal, literary; slightly archaic",
-      "goesWith": "no noun at all — that which takes no head noun and cannot be followed by one (✗ that which book). What follows is a relative clause. It refers to things and abstractions, never to people; for people the fused form is those who (or he who in older prose). The verb agreeing with it is singular: that which remains is ours.",
-      "ofRule": "None. The look-alike that of is a different construction, in which that is a pro-form standing in for a noun already named: a climate like that of Florida.",
-      "pattern": "that which [relative clause] · [verb] that which [relative clause] · that which [relative clause] + singular verb · all that which (rare, emphatic)",
-      "contrast": "Modern American English says what: that which cannot be measured = what cannot be measured. Choose that which only for deliberate formality or aphorism. Against those who: that which is singular and refers to things, those who is plural and refers to people. Against the ordinary determiner that: the determiner needs a noun after it (that book), while that which stands on its own as a whole noun phrase.",
-      "variants": [
-        "what (the ordinary modern equivalent)",
-        "those which (plural)",
-        "he who / they that (archaic, of persons)"
-      ],
       "meaning": "Means \"the thing that\" — a formal, written equivalent of what, used when a writer wants the weight of the demonstrative behind an abstraction.",
       "examples": [
         "That which does not kill us makes us stronger.",
@@ -443,28 +525,22 @@
         "We are judged by that which we leave behind.",
         "That which the committee approved bears no resemblance to the draft."
       ],
-      "related": [
-        "those who",
-        "those which",
-        "that"
-      ]
+      "senses": [],
+      "русский": "то, что — книжн., формальный эквивалент what",
+      "position": "not a determiner: that is the head of the noun phrase here, not a modifier of a following noun",
+      "register": "formal, literary; slightly archaic",
+      "type": "fused relative — demonstrative pronoun that + relative which",
+      "goes with": "no noun at all — that which takes no head noun and cannot be followed by one (✗ that which book). What follows is a relative clause. It refers to things and abstractions, never to people; for people the fused form is those who (or he who in older prose). The verb agreeing with it is singular: that which remains is ours.",
+      "with of": "None. The look-alike that of is a different construction, in which that is a pro-form standing in for a noun already named: a climate like that of Florida.",
+      "pattern": "that which [relative clause] · [verb] that which [relative clause] · that which [relative clause] + singular verb · all that which (rare, emphatic)",
+      "contrast": "Modern American English says what: that which cannot be measured = what cannot be measured. Choose that which only for deliberate formality or aphorism. Against those who: that which is singular and refers to things, those who is plural and refers to people. Against the ordinary determiner that: the determiner needs a noun after it (that book), while that which stands on its own as a whole noun phrase.",
+      "variants": "what (the ordinary modern equivalent), those which (plural), he who / they that (archaic, of persons)",
+      "see also": "those who, those which, that"
     },
     {
       "term": "those which",
       "ipa": "/ðoʊz ˈwɪtʃ/",
       "respell": "thohz-WICH",
-      "type": "fused relative — demonstrative pronoun those + relative which (or that)",
-      "position": "not a determiner: those is the head of the noun phrase, not a modifier of a following noun",
-      "register": "formal (those which); neutral (those that)",
-      "goesWith": "no noun — a relative clause follows instead (✗ those which boxes). It refers to things; those that can stretch to people in careful prose, but those who is the normal choice there. The verb is plural: those that remain are damaged.",
-      "ofRule": "None in this construction. The partitive those of the applicants that… inserts of before a noun phrase and is a different pattern.",
-      "pattern": "those which [relative clause] · those that [relative clause] · [preposition] those which [relative clause] · only those that [relative clause] · those [relative clause with the relative omitted] (those we lost)",
-      "contrast": "those which is the plural of that which, and those that is its everyday American equivalent — which sounds legal or literary here, that sounds normal. Against those who: which/that for things, who for people. The relative may be dropped when it is the object of its clause (those we lost), but not when it is the subject (✗ those remain are damaged).",
-      "variants": [
-        "those that",
-        "the ones that (informal)",
-        "that which (singular)"
-      ],
       "meaning": "Means \"the ones that\" — picks out a subset of things already under discussion and defines it by the relative clause that follows.",
       "examples": [
         "Of all the proposals, we funded only those which had community support.",
@@ -474,29 +550,22 @@
         "Species like those which live in caves tend to lose their pigment.",
         "Only those that pass inspection get a sticker."
       ],
-      "related": [
-        "that which",
-        "those who",
-        "those"
-      ]
+      "senses": [],
+      "русский": "те, которые — выделяет подмножество из уже названного",
+      "position": "not a determiner: those is the head of the noun phrase, not a modifier of a following noun",
+      "register": "formal (those which); neutral (those that)",
+      "type": "fused relative — demonstrative pronoun those + relative which (or that)",
+      "goes with": "no noun — a relative clause follows instead (✗ those which boxes). It refers to things; those that can stretch to people in careful prose, but those who is the normal choice there. The verb is plural: those that remain are damaged.",
+      "with of": "None in this construction. The partitive those of the applicants that… inserts of before a noun phrase and is a different pattern.",
+      "pattern": "those which [relative clause] · those that [relative clause] · [preposition] those which [relative clause] · only those that [relative clause] · those [relative clause with the relative omitted] (those we lost)",
+      "contrast": "those which is the plural of that which, and those that is its everyday American equivalent — which sounds legal or literary here, that sounds normal. Against those who: which/that for things, who for people. The relative may be dropped when it is the object of its clause (those we lost), but not when it is the subject (✗ those remain are damaged).",
+      "variants": "those that, the ones that (informal), that which (singular)",
+      "see also": "that which, those who, those"
     },
     {
       "term": "those who",
       "ipa": "/ðoʊz ˈhu/",
       "respell": "thohz-HOO",
-      "type": "fused relative — demonstrative pronoun those + relative who",
-      "position": "not a determiner: those heads the noun phrase and takes no noun after it",
-      "register": "neutral to formal",
-      "goesWith": "no noun — ✗ those who people. It refers to people, always plural, and the relative clause is obligatory: those who arrive late is complete, while bare those meaning \"people\" is not. The verb inside the relative clause is plural (those who were waiting), and so is the verb of the main clause (those who wait are rewarded).",
-      "ofRule": "of appears in the partitive expansions those of us who, those of you who, those of them who, where of is required before a pronoun: Those of us who commute know the 8:10 is always late. The verb still agrees with those, so it stays plural.",
-      "pattern": "those who [relative clause] + plural verb · those of us/you/them who [relative clause] · [preposition] those who [relative clause] · one of those [plural noun] who [plural verb] · those [reduced relative] (those left behind)",
-      "contrast": "those who is for people, those which / those that for things, and that which is the singular of both in formal prose. Against the determiner those: the determiner sits on a noun (those people), the fused form replaces the noun entirely. One agreement trap comes with it: in one of those people who…, the relative clause describes people, so the verb is plural — He's one of those people who always show up early, not ✗ who always shows up early.",
-      "variants": [
-        "those that (of people, less common)",
-        "people who (plainer)",
-        "he who / they who (archaic)",
-        "those of us who"
-      ],
       "meaning": "Means \"the people who\" — names a group not by who they are but by what is true of them, which is why it turns up in rules, proverbs, and announcements.",
       "examples": [
         "Those who arrive after seven will be seated at intermission.",
@@ -506,27 +575,22 @@
         "He's one of those people who never answer email.",
         "Those who disagreed said nothing at the meeting."
       ],
-      "related": [
-        "those",
-        "those which",
-        "that which"
-      ]
+      "senses": [],
+      "русский": "те, кто — называет людей по признаку, а не по имени",
+      "position": "not a determiner: those heads the noun phrase and takes no noun after it",
+      "register": "neutral to formal",
+      "type": "fused relative — demonstrative pronoun those + relative who",
+      "goes with": "no noun — ✗ those who people. It refers to people, always plural, and the relative clause is obligatory: those who arrive late is complete, while bare those meaning \"people\" is not. The verb inside the relative clause is plural (those who were waiting), and so is the verb of the main clause (those who wait are rewarded).",
+      "with of": "of appears in the partitive expansions those of us who, those of you who, those of them who, where of is required before a pronoun: Those of us who commute know the 8:10 is always late. The verb still agrees with those, so it stays plural.",
+      "pattern": "those who [relative clause] + plural verb · those of us/you/them who [relative clause] · [preposition] those who [relative clause] · one of those [plural noun] who [plural verb] · those [reduced relative] (those left behind)",
+      "contrast": "those who is for people, those which / those that for things, and that which is the singular of both in formal prose. Against the determiner those: the determiner sits on a noun (those people), the fused form replaces the noun entirely. One agreement trap comes with it: in one of those people who…, the relative clause describes people, so the verb is plural — He's one of those people who always show up early, not ✗ who always shows up early.",
+      "variants": "those that (of people, less common), people who (plainer), he who / they who (archaic), those of us who",
+      "see also": "those, those which, that which"
     },
     {
       "term": "that there",
       "ipa": "/ˌðæt ˈðɛr/",
       "respell": "that-THAIR",
-      "type": "demonstrative + reinforcing adverb (nonstandard emphatic)",
-      "position": "central — that there fills a single central-determiner slot",
-      "register": "nonstandard; rural and Southern American speech, dialect writing, and jocular imitation",
-      "goesWith": "the same nouns as plain that: singular countable nouns (that there truck) and uncountable nouns (that there coffee). Never a plural countable noun — the plural forms are the equally nonstandard those there and them there.",
-      "ofRule": "None, exactly as with that.",
-      "pattern": "that there [singular countable noun] · that there [uncountable noun] · that there standing alone as a pronoun (that there's the problem) — all nonstandard",
-      "contrast": "Standard English says the same thing with the adverb behind the noun: that truck there, that book there. Moving there in front of the noun is what makes the phrase nonstandard, so that there truck is dialect while that truck there is ordinary English. The near counterpart is this here. Learners should recognize the form — it is everywhere in fiction, country lyrics, and comedy — and not produce it.",
-      "variants": [
-        "that'ere, 'at there (eye-dialect spellings)",
-        "those there / them there (plural)"
-      ],
       "meaning": "A dialect intensifier of that: the pointing is reinforced by tucking the adverb there between the determiner and the noun. It adds emphasis and a strong regional flavor, nothing more — the meaning is exactly that of that.",
       "examples": [
         "That there wrench is the only one that fits. (nonstandard)",
@@ -536,28 +600,22 @@
         "I bought that there rifle at an estate sale. (nonstandard)",
         "That there's the man I told you about. (nonstandard, pronoun use)"
       ],
-      "related": [
-        "this here",
-        "those there",
-        "them there",
-        "that"
-      ]
+      "senses": [],
+      "русский": "вон тот, этот вот — прост./диал. усиление that; значение то же самое",
+      "position": "central — that there fills a single central-determiner slot",
+      "register": "nonstandard; rural and Southern American speech, dialect writing, and jocular imitation",
+      "type": "demonstrative + reinforcing adverb (nonstandard emphatic)",
+      "goes with": "the same nouns as plain that: singular countable nouns (that there truck) and uncountable nouns (that there coffee). Never a plural countable noun — the plural forms are the equally nonstandard those there and them there.",
+      "with of": "None, exactly as with that.",
+      "pattern": "that there [singular countable noun] · that there [uncountable noun] · that there standing alone as a pronoun (that there's the problem) — all nonstandard",
+      "contrast": "Standard English says the same thing with the adverb behind the noun: that truck there, that book there. Moving there in front of the noun is what makes the phrase nonstandard, so that there truck is dialect while that truck there is ordinary English. The near counterpart is this here. Learners should recognize the form — it is everywhere in fiction, country lyrics, and comedy — and not produce it.",
+      "variants": "that'ere, 'at there (eye-dialect spellings), those there / them there (plural)",
+      "see also": "this here, those there, them there, that"
     },
     {
       "term": "them",
       "ipa": "/ðɛm/, weak /ðəm/ before the noun",
       "respell": "THEM, weak thuhm",
-      "type": "demonstrative (nonstandard); in standard English them is only the object form of the pronoun they",
-      "position": "central",
-      "register": "nonstandard; widespread in rural, Southern, Appalachian, and working-class American speech, and in dialect writing",
-      "goesWith": "plural countable nouns only — them apples, them boys, them tools. Never a singular countable noun (✗ them apple) and never an uncountable noun; it stands in for both those and these, so it carries no near/far contrast of its own.",
-      "ofRule": "None as a determiner. In standard English of them is the pronoun (two of them, all of them), which is a different thing entirely and perfectly correct.",
-      "pattern": "them [plural countable noun] · them there [plural noun] (doubly emphatic) · [verb] them [plural noun] — all nonstandard",
-      "contrast": "The standard equivalent is those (or these): those apples, not ✗ them apples. The distinction to hold onto is that them before a noun is nonstandard, while them after a verb or preposition is the ordinary object pronoun and completely standard — I ate them is correct English, I ate them apples is not. The form is old rather than careless. The and those come down from the Old English demonstrative sē / þæt / þā, while they, them, their were borrowed from Old Norse þeir, þeim — but the Norse words grew from the same Germanic demonstrative root, so them in front of a noun is a demonstrative going back to demonstrative work, not a random slip.",
-      "variants": [
-        "them there (intensified)",
-        "them's (dialect, = those are)"
-      ],
       "meaning": "The nonstandard plural demonstrative determiner: it does the job of those (and sometimes these) in front of a plural noun. Learners need to recognize it, because it is one of the most frequent markers of dialect speech in American fiction, film, and song — but it should never be produced in writing or in careful speech.",
       "examples": [
         "Hand me them pliers. (nonstandard)",
@@ -567,28 +625,22 @@
         "We put them tomatoes up in jars every August. (nonstandard)",
         "I haven't seen them people since the reunion. (nonstandard)"
       ],
-      "related": [
-        "those",
-        "these",
-        "them there",
-        "those there"
-      ]
+      "senses": [],
+      "русский": "те, эти — прост./диал. вместо those; в норме them — объектная форма they",
+      "position": "central",
+      "register": "nonstandard; widespread in rural, Southern, Appalachian, and working-class American speech, and in dialect writing",
+      "type": "demonstrative (nonstandard); in standard English them is only the object form of the pronoun they",
+      "goes with": "plural countable nouns only — them apples, them boys, them tools. Never a singular countable noun (✗ them apple) and never an uncountable noun; it stands in for both those and these, so it carries no near/far contrast of its own.",
+      "with of": "None as a determiner. In standard English of them is the pronoun (two of them, all of them), which is a different thing entirely and perfectly correct.",
+      "pattern": "them [plural countable noun] · them there [plural noun] (doubly emphatic) · [verb] them [plural noun] — all nonstandard",
+      "contrast": "The standard equivalent is those (or these): those apples, not ✗ them apples. The distinction to hold onto is that them before a noun is nonstandard, while them after a verb or preposition is the ordinary object pronoun and completely standard — I ate them is correct English, I ate them apples is not. The form is old rather than careless. The and those come down from the Old English demonstrative sē / þæt / þā, while they, them, their were borrowed from Old Norse þeir, þeim — but the Norse words grew from the same Germanic demonstrative root, so them in front of a noun is a demonstrative going back to demonstrative work, not a random slip.",
+      "variants": "them there (intensified), them's (dialect, = those are)",
+      "see also": "those, these, them there, those there"
     },
     {
       "term": "them there",
       "ipa": "/ˌðɛm ˈðɛr/",
       "respell": "them-THAIR",
-      "type": "nonstandard demonstrative + reinforcing adverb",
-      "position": "central",
-      "register": "nonstandard; strongly marked rural and Southern American speech, and the stock phrase of dialect comedy",
-      "goesWith": "plural countable nouns only — them there hills, them there apples. Never a singular countable noun (✗ them there hill) and never an uncountable noun.",
-      "ofRule": "None.",
-      "pattern": "them there [plural countable noun] — nonstandard throughout",
-      "contrast": "It doubles two nonstandard features at once: them in place of those, and there wedged in front of the noun instead of behind it. The standard rendering keeps the adverb after the noun: those hills over there. Compare the singular that there, and the these-based these here.",
-      "variants": [
-        "them thar (eye-dialect: them thar hills)",
-        "that there (singular)"
-      ],
       "meaning": "The most heavily marked demonstrative in American English: nonstandard them reinforced by a preposed there. It is almost never used neutrally — in print it signals dialect, in speech it is often deliberate humor.",
       "examples": [
         "Them there apples are ready to pick. (nonstandard)",
@@ -598,27 +650,22 @@
         "I keep them there tools in the shed. (nonstandard)",
         "You can't drive over them there tracks in a low car. (nonstandard)"
       ],
-      "related": [
-        "them",
-        "that there",
-        "those there",
-        "those"
-      ]
+      "senses": [],
+      "русский": "вон те — резко сниженное прост./диал.; по значению просто those",
+      "position": "central",
+      "register": "nonstandard; strongly marked rural and Southern American speech, and the stock phrase of dialect comedy",
+      "type": "nonstandard demonstrative + reinforcing adverb",
+      "goes with": "plural countable nouns only — them there hills, them there apples. Never a singular countable noun (✗ them there hill) and never an uncountable noun.",
+      "with of": "None.",
+      "pattern": "them there [plural countable noun] — nonstandard throughout",
+      "contrast": "It doubles two nonstandard features at once: them in place of those, and there wedged in front of the noun instead of behind it. The standard rendering keeps the adverb after the noun: those hills over there. Compare the singular that there, and the these-based these here.",
+      "variants": "them thar (eye-dialect: them thar hills), that there (singular)",
+      "see also": "them, that there, those there, those"
     },
     {
       "term": "these here",
       "ipa": "/ˌðiz ˈhɪr/",
       "respell": "theez-HEER",
-      "type": "demonstrative + reinforcing adverb (nonstandard emphatic)",
-      "position": "central",
-      "register": "nonstandard; rural, Southern, and Appalachian American speech, and dialect writing",
-      "goesWith": "plural countable nouns only, exactly like plain these — these here boots. Never a singular countable noun (✗ these here boot) and never an uncountable noun (✗ these here water).",
-      "ofRule": "None.",
-      "pattern": "these here [plural countable noun] · these here standing alone as a pronoun (these here are mine) — nonstandard",
-      "contrast": "Standard English puts the adverb after the noun: these boots here. The singular counterpart is this here; the far counterparts are those there and them there. Recognize it, do not write it.",
-      "variants": [
-        "these'ere (eye-dialect spelling)"
-      ],
       "meaning": "A dialect intensifier of these, with the adverb here moved in front of the noun to reinforce the pointing. The meaning is identical to plain these; only the register changes.",
       "examples": [
         "These here tomatoes came out of my own garden. (nonstandard)",
@@ -628,27 +675,22 @@
         "I got these here nails at the feed store. (nonstandard)",
         "These here are the papers you wanted. (nonstandard, pronoun use)"
       ],
-      "related": [
-        "this here",
-        "those there",
-        "these"
-      ]
+      "senses": [],
+      "русский": "вот эти — прост./диал. усиление these; меняется только регистр",
+      "position": "central",
+      "register": "nonstandard; rural, Southern, and Appalachian American speech, and dialect writing",
+      "type": "demonstrative + reinforcing adverb (nonstandard emphatic)",
+      "goes with": "plural countable nouns only, exactly like plain these — these here boots. Never a singular countable noun (✗ these here boot) and never an uncountable noun (✗ these here water).",
+      "with of": "None.",
+      "pattern": "these here [plural countable noun] · these here standing alone as a pronoun (these here are mine) — nonstandard",
+      "contrast": "Standard English puts the adverb after the noun: these boots here. The singular counterpart is this here; the far counterparts are those there and them there. Recognize it, do not write it.",
+      "variants": "these'ere (eye-dialect spelling)",
+      "see also": "this here, those there, these"
     },
     {
       "term": "this here",
       "ipa": "/ˌðɪs ˈhɪr/",
       "respell": "this-HEER",
-      "type": "demonstrative + reinforcing adverb (nonstandard emphatic)",
-      "position": "central",
-      "register": "nonstandard; rural, Southern, and Appalachian American speech, dialect writing, and joking imitation",
-      "goesWith": "the same nouns as plain this: singular countable nouns (this here wrench) and uncountable nouns (this here coffee). Never a plural countable noun — the plural is the equally nonstandard these here.",
-      "ofRule": "None.",
-      "pattern": "this here [singular countable noun] · this here [uncountable noun] · this here standing alone as a pronoun (this here's my brother) — nonstandard",
-      "contrast": "The standard version of the same emphasis puts here behind the noun: this wrench here, this book here. That postnominal here is ordinary English; the preposed one is not. The far counterpart is that there, the plural is these here.",
-      "variants": [
-        "this'ere (eye-dialect spelling)",
-        "this here now (intensified, rare)"
-      ],
       "meaning": "A dialect intensifier of this: the adverb here is squeezed in between the determiner and the noun to sharpen the pointing. It means nothing more than this, but it marks the speaker's variety unmistakably.",
       "examples": [
         "This here wrench is the only one that fits. (nonstandard)",
@@ -658,26 +700,22 @@
         "This here coffee's been on the burner since dawn. (nonstandard)",
         "This here's my brother's place. (nonstandard, pronoun use)"
       ],
-      "related": [
-        "that there",
-        "these here",
-        "this"
-      ]
+      "senses": [],
+      "русский": "вот этот — прост./диал. усиление this; значение то же, что у this",
+      "position": "central",
+      "register": "nonstandard; rural, Southern, and Appalachian American speech, dialect writing, and joking imitation",
+      "type": "demonstrative + reinforcing adverb (nonstandard emphatic)",
+      "goes with": "the same nouns as plain this: singular countable nouns (this here wrench) and uncountable nouns (this here coffee). Never a plural countable noun — the plural is the equally nonstandard these here.",
+      "with of": "None.",
+      "pattern": "this here [singular countable noun] · this here [uncountable noun] · this here standing alone as a pronoun (this here's my brother) — nonstandard",
+      "contrast": "The standard version of the same emphasis puts here behind the noun: this wrench here, this book here. That postnominal here is ordinary English; the preposed one is not. The far counterpart is that there, the plural is these here.",
+      "variants": "this'ere (eye-dialect spelling), this here now (intensified, rare)",
+      "see also": "that there, these here, this"
     },
     {
       "term": "those there",
       "ipa": "/ˌðoʊz ˈðɛr/",
       "respell": "thohz-THAIR",
-      "type": "demonstrative + reinforcing adverb (nonstandard emphatic)",
-      "position": "central",
-      "register": "nonstandard; rural and Southern American speech and dialect writing",
-      "goesWith": "plural countable nouns only, like plain those — those there hills. Never a singular countable noun (✗ those there hill) and never an uncountable noun.",
-      "ofRule": "None.",
-      "pattern": "those there [plural countable noun] · those there standing alone as a pronoun — nonstandard",
-      "contrast": "Standard English keeps the adverb behind the noun: those hills over there. Those there is less common than them there in dialect speech, because speakers who preposition there usually use them for the determiner as well. The near counterpart is these here, the singular is that there.",
-      "variants": [
-        "them there (more frequent in the same dialects)"
-      ],
       "meaning": "A dialect intensifier of those, with there moved forward in front of the noun. Same meaning as those, different register entirely.",
       "examples": [
         "Those there hills were all farmland once. (nonstandard)",
@@ -687,28 +725,22 @@
         "Those there windows leak every winter. (nonstandard)",
         "We store those there jars down in the cellar. (nonstandard)"
       ],
-      "related": [
-        "them there",
-        "these here",
-        "that there",
-        "those"
-      ]
+      "senses": [],
+      "русский": "вон те — прост./диал. усиление those; значение то же",
+      "position": "central",
+      "register": "nonstandard; rural and Southern American speech and dialect writing",
+      "type": "demonstrative + reinforcing adverb (nonstandard emphatic)",
+      "goes with": "plural countable nouns only, like plain those — those there hills. Never a singular countable noun (✗ those there hill) and never an uncountable noun.",
+      "with of": "None.",
+      "pattern": "those there [plural countable noun] · those there standing alone as a pronoun — nonstandard",
+      "contrast": "Standard English keeps the adverb behind the noun: those hills over there. Those there is less common than them there in dialect speech, because speakers who preposition there usually use them for the determiner as well. The near counterpart is these here, the singular is that there.",
+      "variants": "them there (more frequent in the same dialects)",
+      "see also": "them there, these here, that there, those"
     },
     {
       "term": "yon",
       "ipa": "/jɑn/",
       "respell": "YAHN",
-      "type": "demonstrative (distal, third-degree — neither near the speaker nor near the hearer)",
-      "position": "central",
-      "register": "archaic; alive in poetry, hymns, historical fiction, and some Appalachian and Ozark speech",
-      "goesWith": "singular or plural countable nouns without any change of form — yon hill, yon hills. This is its most striking feature: unlike this/these and that/those, it does not inflect for number. Uncountables are possible but rare (yon water).",
-      "ofRule": "None.",
-      "pattern": "yon [singular countable noun] · yon [plural countable noun] · [preposition] yon [noun] (past yon barn) · yon standing alone as a pronoun (archaic)",
-      "contrast": "yon is the survivor of an older three-way system — this (by me), that (by you), yon (over there, away from us both) — of the kind Spanish still keeps in este/ese/aquel. Modern standard English has collapsed it into two, so that now covers everything yon once did. Against yonder: the two are interchangeable as determiners, but only yonder is still used as an adverb (over yonder), which is why yonder survives in speech and yon mostly does not.",
-      "variants": [
-        "yond (Shakespearean)",
-        "yonder (the living form)"
-      ],
       "meaning": "Points at something visible but distant from both speaker and hearer — the third term of a deictic system English has otherwise lost. In current American English it is a period marker: it makes a line sound old, rustic, or biblical.",
       "examples": [
         "Yon ridge marks the county line.",
@@ -718,28 +750,22 @@
         "Yon stranger has been watching the road all morning.",
         "Take the path past yon barn and turn left at the creek."
       ],
-      "related": [
-        "yonder",
-        "yond",
-        "that",
-        "those"
-      ]
+      "senses": [],
+      "русский": "вон тот (вдали) — устар./книжн.; третья, дальняя ступень указания",
+      "position": "central",
+      "register": "archaic; alive in poetry, hymns, historical fiction, and some Appalachian and Ozark speech",
+      "type": "demonstrative (distal, third-degree — neither near the speaker nor near the hearer)",
+      "goes with": "singular or plural countable nouns without any change of form — yon hill, yon hills. This is its most striking feature: unlike this/these and that/those, it does not inflect for number. Uncountables are possible but rare (yon water).",
+      "with of": "None.",
+      "pattern": "yon [singular countable noun] · yon [plural countable noun] · [preposition] yon [noun] (past yon barn) · yon standing alone as a pronoun (archaic)",
+      "contrast": "yon is the survivor of an older three-way system — this (by me), that (by you), yon (over there, away from us both) — of the kind Spanish still keeps in este/ese/aquel. Modern standard English has collapsed it into two, so that now covers everything yon once did. Against yonder: the two are interchangeable as determiners, but only yonder is still used as an adverb (over yonder), which is why yonder survives in speech and yon mostly does not.",
+      "variants": "yond (Shakespearean), yonder (the living form)",
+      "see also": "yonder, yond, that, those"
     },
     {
       "term": "yond",
       "ipa": "/jɑnd/",
       "respell": "YAHND",
-      "type": "demonstrative (distal, third-degree)",
-      "position": "central",
-      "register": "archaic and literary; effectively confined to Shakespeare and to writing that imitates him",
-      "goesWith": "singular or plural countable nouns, with no change of form — yond star, yond hills. Like yon, it does not inflect for number.",
-      "ofRule": "None.",
-      "pattern": "yond [noun] · yond same [noun] (a Shakespearean favorite) · [preposition] yond [noun]",
-      "contrast": "yond, yon, and yonder are three forms of one word, and all three mean \"that, over there.\" yonder is the only one an American might still say; yon survives in verse and regional speech; yond is a quotation, not a usable word. A learner needs it for reading, not for writing.",
-      "variants": [
-        "yon",
-        "yonder"
-      ],
       "meaning": "The oldest-sounding of the three distal demonstratives, meaning \"that … over there.\" Encountered almost exclusively in Elizabethan text.",
       "examples": [
         "Yond Cassius has a lean and hungry look. (Shakespeare, Julius Caesar)",
@@ -749,29 +775,22 @@
         "Yond ship flies no colors.",
         "We shall meet again beneath yond oak."
       ],
-      "related": [
-        "yon",
-        "yonder",
-        "that"
-      ]
+      "senses": [],
+      "русский": "вон тот — устар., шекспировское; то же, что yon",
+      "position": "central",
+      "register": "archaic and literary; effectively confined to Shakespeare and to writing that imitates him",
+      "type": "demonstrative (distal, third-degree)",
+      "goes with": "singular or plural countable nouns, with no change of form — yond star, yond hills. Like yon, it does not inflect for number.",
+      "with of": "None.",
+      "pattern": "yond [noun] · yond same [noun] (a Shakespearean favorite) · [preposition] yond [noun]",
+      "contrast": "yond, yon, and yonder are three forms of one word, and all three mean \"that, over there.\" yonder is the only one an American might still say; yon survives in verse and regional speech; yond is a quotation, not a usable word. A learner needs it for reading, not for writing.",
+      "variants": "yon, yonder",
+      "see also": "yon, yonder, that"
     },
     {
       "term": "yonder",
       "ipa": "/ˈjɑndɚ/",
       "respell": "YAHN-der",
-      "type": "demonstrative determiner; also, and far more commonly, an adverb of place",
-      "position": "central",
-      "register": "archaic as a determiner; regional (Southern, Appalachian, Ozark, and rural Midwestern) as an adverb, where it is thoroughly alive",
-      "goesWith": "singular or plural countable nouns with no change of form — yonder hill, yonder hills. It does not inflect for number, which sets it apart from every other demonstrative in the language except yon and yond.",
-      "ofRule": "None.",
-      "pattern": "yonder [singular or plural noun] · over yonder (adverb) · out/up/down yonder (adverb) · the wild blue yonder (fixed noun phrase)",
-      "contrast": "As a determiner it is interchangeable with yon and yond and equally archaic; as an adverb it is ordinary regional American speech, and that is the use a learner will actually meet — He's out yonder, the cabin over yonder. Against that: that is simply \"not here,\" while yonder adds \"and you can see it from here,\" a distance judged by eye rather than by ownership or topic.",
-      "variants": [
-        "yon",
-        "yond",
-        "over yonder (adverb)",
-        "the wild blue yonder (noun)"
-      ],
       "meaning": "Points at something at a middle-to-far distance that is nonetheless in view. As a determiner it belongs to older and regional English; as an adverb of place it is current, informal American usage.",
       "examples": [
         "Yonder field flooded again last spring.",
@@ -781,31 +800,22 @@
         "Go on down yonder road about two miles. (regional)",
         "They lit out for the wild blue yonder. (fixed noun phrase)"
       ],
-      "related": [
-        "yon",
-        "yond",
-        "that",
-        "those"
-      ]
+      "senses": [],
+      "русский": "вон тот, вон там — устар. как определитель, диал. (юг США) как наречие места",
+      "position": "central",
+      "register": "archaic as a determiner; regional (Southern, Appalachian, Ozark, and rural Midwestern) as an adverb, where it is thoroughly alive",
+      "type": "demonstrative determiner; also, and far more commonly, an adverb of place",
+      "goes with": "singular or plural countable nouns with no change of form — yonder hill, yonder hills. It does not inflect for number, which sets it apart from every other demonstrative in the language except yon and yond.",
+      "with of": "None.",
+      "pattern": "yonder [singular or plural noun] · over yonder (adverb) · out/up/down yonder (adverb) · the wild blue yonder (fixed noun phrase)",
+      "contrast": "As a determiner it is interchangeable with yon and yond and equally archaic; as an adverb it is ordinary regional American speech, and that is the use a learner will actually meet — He's out yonder, the cabin over yonder. Against that: that is simply \"not here,\" while yonder adds \"and you can see it from here,\" a distance judged by eye rather than by ownership or topic.",
+      "variants": "yon, yond, over yonder (adverb), the wild blue yonder (noun)",
+      "see also": "yon, yond, that, those"
     },
     {
       "term": "self",
       "ipa": "/sɛlf/, with no weak form — self is an identifying word, it carries stress, and it keeps its full vowel wherever it stands; the only reduction it ever undergoes is inside the fused compound, where the second element gives up its stress and self same /ˌsɛlf ˈseɪm/ becomes selfsame /ˈsɛlfˌseɪm/",
       "respell": "SELF",
-      "type": "identity determiner (demonstrative in function — it marks a noun as the very one already named), archaic; elsewhere the ordinary noun self (a sense of self) and the bound second element of the reflexive pronouns (myself, herself)",
-      "position": "postdeterminer — it follows the, a demonstrative, or one, and can never fill the central slot itself (✗ self hour was appointed, ✗ a self day)",
-      "register": "archaic, and as a free word effectively obsolete. It belongs to Early Modern English — Shakespeare, Spenser, Milton, the King James translators — and to modern writing that quotes or imitates them. An American meets bare self in a literature class, in an old hymn, or in an editor's footnote, and nowhere else; what survives in living prose is the fused selfsame.",
-      "goesWith": "singular countable nouns overwhelmingly — that self hour, the self place, that self mould, one self king. Plural countables turn up in older verse but are rare (the self words), and an abstract uncountable is possible in the same register (that self blood). Because it asserts identity with a referent the text has already fixed, it requires a definite word in front of it: the, a demonstrative, or the numeral one. Never a/an — ✗ a self day — since identity presupposes something the reader can already find; never bare — ✗ Self hour was appointed; never a proper noun — ✗ that self London, where the noun has to be a common one (that self town); and never a pronoun — ✗ the self it. Like aforesaid and the subject, it cannot introduce a referent, only re-identify one.",
-      "ofRule": "None — ✗ the self of hours. Two look-alikes do take of, and neither of them is this word: the noun self takes of-phrases and possessives freely (a sense of self, his better self, the death of the self), and the prefix self- builds compounds meaning \"by or to itself\" (self-evident, self-employed, self-defense), which is a different sense altogether.",
-      "pattern": "[the / this / that / one] self [singular countable noun] · [the / that] self [abstract noun] · [preposition] [the / that] self [noun] (in that self hour, at the self moment) · that self same [noun] (the older spaced writing) · selfsame [noun] (the fused modern survival)",
-      "contrast": "Against same, the word that replaced it: the self hour is the same hour, and outside a pastiche no American writes the first. Against selfsame: one word at two ages — the free self is dead, the fusion is alive as a literary flourish, which is why the selfsame bench reads as ornate English while ✗ the self bench reads as a typo. Against very (that very day): the same identifying job, still current, and older writing stacked the two (that very self same day). Against the noun and the prefix: the determiner takes a noun after it and a determiner before it (that self hour), the noun heads a phrase of its own and takes its own determiner (a sense of self, his former self), and the prefix is bound, hyphenated, and means \"by itself\" rather than \"the same\" — self-taught is not \"the same taught.\" Against the reflexive: -self is bound into a pronoun and takes the stress (herself /hɚˈsɛlf/), and is not a determiner at all. One note on sense: self claimed only numerical identity, one and the same thing, never \"of the same kind\" — the second reading that modern the same car can carry was never available to it.",
-      "variants": [
-        "selfsame",
-        "self-same (the fused compound — the only living form)",
-        "that self same (older spaced writing)",
-        "the same",
-        "the very same (the modern equivalents)"
-      ],
       "meaning": "Marks a noun as the identical one already named — \"that very same.\" It is the free-standing ancestor of selfsame, and it does the work modern English hands to same: not sameness of kind but sameness of identity, the claim that two mentions have landed on one and the same thing.",
       "examples": [
         "That self hour the bell in the chapel began to toll. (period narrative)",
@@ -815,33 +825,22 @@
         "Upon the self day appointed, the fleet weighed anchor and stood out to sea. (imitation of a sixteenth-century chronicle)",
         "And in that self same hour the fever left him. (biblical cadence; the King James translators write it fused, selfsame)"
       ],
-      "related": [
-        "selfsame",
-        "same",
-        "very",
-        "that",
-        "aforesaid"
-      ]
+      "senses": [],
+      "русский": "тот самый — устар.; тождество, а не сходство; предок живого selfsame",
+      "position": "postdeterminer — it follows the, a demonstrative, or one, and can never fill the central slot itself (✗ self hour was appointed, ✗ a self day)",
+      "register": "archaic, and as a free word effectively obsolete. It belongs to Early Modern English — Shakespeare, Spenser, Milton, the King James translators — and to modern writing that quotes or imitates them. An American meets bare self in a literature class, in an old hymn, or in an editor's footnote, and nowhere else; what survives in living prose is the fused selfsame.",
+      "type": "identity determiner (demonstrative in function — it marks a noun as the very one already named), archaic; elsewhere the ordinary noun self (a sense of self) and the bound second element of the reflexive pronouns (myself, herself)",
+      "goes with": "singular countable nouns overwhelmingly — that self hour, the self place, that self mould, one self king. Plural countables turn up in older verse but are rare (the self words), and an abstract uncountable is possible in the same register (that self blood). Because it asserts identity with a referent the text has already fixed, it requires a definite word in front of it: the, a demonstrative, or the numeral one. Never a/an — ✗ a self day — since identity presupposes something the reader can already find; never bare — ✗ Self hour was appointed; never a proper noun — ✗ that self London, where the noun has to be a common one (that self town); and never a pronoun — ✗ the self it. Like aforesaid and the subject, it cannot introduce a referent, only re-identify one.",
+      "with of": "None — ✗ the self of hours. Two look-alikes do take of, and neither of them is this word: the noun self takes of-phrases and possessives freely (a sense of self, his better self, the death of the self), and the prefix self- builds compounds meaning \"by or to itself\" (self-evident, self-employed, self-defense), which is a different sense altogether.",
+      "pattern": "[the / this / that / one] self [singular countable noun] · [the / that] self [abstract noun] · [preposition] [the / that] self [noun] (in that self hour, at the self moment) · that self same [noun] (the older spaced writing) · selfsame [noun] (the fused modern survival)",
+      "contrast": "Against same, the word that replaced it: the self hour is the same hour, and outside a pastiche no American writes the first. Against selfsame: one word at two ages — the free self is dead, the fusion is alive as a literary flourish, which is why the selfsame bench reads as ornate English while ✗ the self bench reads as a typo. Against very (that very day): the same identifying job, still current, and older writing stacked the two (that very self same day). Against the noun and the prefix: the determiner takes a noun after it and a determiner before it (that self hour), the noun heads a phrase of its own and takes its own determiner (a sense of self, his former self), and the prefix is bound, hyphenated, and means \"by itself\" rather than \"the same\" — self-taught is not \"the same taught.\" Against the reflexive: -self is bound into a pronoun and takes the stress (herself /hɚˈsɛlf/), and is not a determiner at all. One note on sense: self claimed only numerical identity, one and the same thing, never \"of the same kind\" — the second reading that modern the same car can carry was never available to it.",
+      "variants": "selfsame, self-same (the fused compound — the only living form), that self same (older spaced writing), the same, the very same (the modern equivalents)",
+      "see also": "selfsame, same, very, that, aforesaid"
     },
     {
       "term": "aforementioned",
       "ipa": "/əˈfɔrˌmɛnʃənd/",
       "respell": "uh-FOR-men-shund",
-      "type": "anaphoric determiner-adjective (demonstrative in function — it points backward into the text)",
-      "position": "postdeterminer — it normally follows the (the aforementioned report) rather than filling the central slot itself",
-      "register": "formal, legal, bureaucratic; stiff in ordinary prose",
-      "goesWith": "any noun already named earlier in the same document — singular countable (the aforementioned clause), plural countable (the aforementioned witnesses), or uncountable (the aforementioned evidence). It cannot introduce anything new: if the noun has not been mentioned before, the word is simply false.",
-      "ofRule": "None of its own. Partitives come from a quantifier in front: each of the aforementioned factors, none of the aforementioned parties.",
-      "pattern": "the aforementioned [noun] · the aforementioned standing alone as a pronoun (the aforementioned is incorporated by reference) · [noun] aforementioned (postposed, in older drafting) · the above-mentioned [noun]",
-      "contrast": "Against said and aforesaid: all three point back to an earlier mention, but said usually stands without an article (said vehicle) while aforementioned and aforesaid usually follow the. Against a plain demonstrative: that report and the aforementioned report do identical work, and outside a contract the demonstrative is better English. American style guides recommend replacing all of them with the or this/that.",
-      "variants": [
-        "above-mentioned",
-        "abovementioned",
-        "above-named",
-        "the foregoing",
-        "aforesaid",
-        "said"
-      ],
       "meaning": "Marks a noun as one already introduced earlier in the same text — a demonstrative that points at a place on the page instead of a place in the room. It belongs to legal and administrative drafting and reads as padding anywhere else.",
       "examples": [
         "The aforementioned report was never released to the public.",
@@ -851,31 +850,22 @@
         "The aforementioned is incorporated herein by reference.",
         "For the reasons aforementioned, the motion is denied."
       ],
-      "related": [
-        "aforesaid",
-        "said",
-        "the present",
-        "that",
-        "the"
-      ]
+      "senses": [],
+      "русский": "вышеупомянутый — юр./канц., отсылка к названному ранее в тексте",
+      "position": "postdeterminer — it normally follows the (the aforementioned report) rather than filling the central slot itself",
+      "register": "formal, legal, bureaucratic; stiff in ordinary prose",
+      "type": "anaphoric determiner-adjective (demonstrative in function — it points backward into the text)",
+      "goes with": "any noun already named earlier in the same document — singular countable (the aforementioned clause), plural countable (the aforementioned witnesses), or uncountable (the aforementioned evidence). It cannot introduce anything new: if the noun has not been mentioned before, the word is simply false.",
+      "with of": "None of its own. Partitives come from a quantifier in front: each of the aforementioned factors, none of the aforementioned parties.",
+      "pattern": "the aforementioned [noun] · the aforementioned standing alone as a pronoun (the aforementioned is incorporated by reference) · [noun] aforementioned (postposed, in older drafting) · the above-mentioned [noun]",
+      "contrast": "Against said and aforesaid: all three point back to an earlier mention, but said usually stands without an article (said vehicle) while aforementioned and aforesaid usually follow the. Against a plain demonstrative: that report and the aforementioned report do identical work, and outside a contract the demonstrative is better English. American style guides recommend replacing all of them with the or this/that.",
+      "variants": "above-mentioned, abovementioned, above-named, the foregoing, aforesaid, said",
+      "see also": "aforesaid, said, the present, that, the"
     },
     {
       "term": "aforesaid",
       "ipa": "/əˈfɔrˌsɛd/",
       "respell": "uh-FOR-sed",
-      "type": "anaphoric determiner-adjective (demonstrative in function)",
-      "position": "postdeterminer after the (the aforesaid agreement); bare, article-less use (aforesaid parties) survives in older drafting",
-      "register": "legal, archaic; unusable in ordinary writing",
-      "goesWith": "any noun already named in the document — singular countable (the aforesaid agreement), plural countable (the aforesaid parties), uncountable (the aforesaid property). Like all anaphoric determiners it requires an earlier mention to point back to.",
-      "ofRule": "None of its own; a quantifier supplies it (any of the aforesaid conditions).",
-      "pattern": "the aforesaid [noun] · aforesaid [noun] (bare, older style) · as aforesaid (fixed adverbial: as aforesaid, the tenant shall…) · [noun] aforesaid (postposed)",
-      "contrast": "aforesaid is the older and more legalistic of the pair aforesaid / aforementioned; said is the shortest and the most common in American drafting. The fixed adverbial as aforesaid has no counterpart in the other two. In every case a demonstrative or a plain article does the same work more clearly.",
-      "variants": [
-        "aforementioned",
-        "said",
-        "as aforesaid (adverbial)",
-        "the foregoing"
-      ],
       "meaning": "Identifies a noun as the one already specified earlier in the same instrument. Its whole function is anaphoric: it substitutes for a demonstrative and buys the drafter a claim of precision.",
       "examples": [
         "The aforesaid agreement shall govern any dispute between the parties.",
@@ -885,29 +875,22 @@
         "The aforesaid premises were inspected on June 1.",
         "Subject to the conditions aforesaid, the permit is granted."
       ],
-      "related": [
-        "aforementioned",
-        "said",
-        "the present",
-        "that"
-      ]
+      "senses": [],
+      "русский": "вышеназванный, вышеозначенный — юр., устар.; вне документов не употребляется",
+      "position": "postdeterminer after the (the aforesaid agreement); bare, article-less use (aforesaid parties) survives in older drafting",
+      "register": "legal, archaic; unusable in ordinary writing",
+      "type": "anaphoric determiner-adjective (demonstrative in function)",
+      "goes with": "any noun already named in the document — singular countable (the aforesaid agreement), plural countable (the aforesaid parties), uncountable (the aforesaid property). Like all anaphoric determiners it requires an earlier mention to point back to.",
+      "with of": "None of its own; a quantifier supplies it (any of the aforesaid conditions).",
+      "pattern": "the aforesaid [noun] · aforesaid [noun] (bare, older style) · as aforesaid (fixed adverbial: as aforesaid, the tenant shall…) · [noun] aforesaid (postposed)",
+      "contrast": "aforesaid is the older and more legalistic of the pair aforesaid / aforementioned; said is the shortest and the most common in American drafting. The fixed adverbial as aforesaid has no counterpart in the other two. In every case a demonstrative or a plain article does the same work more clearly.",
+      "variants": "aforementioned, said, as aforesaid (adverbial), the foregoing",
+      "see also": "aforementioned, said, the present, that"
     },
     {
       "term": "said",
       "ipa": "/sɛd/",
       "respell": "SED",
-      "type": "anaphoric determiner (demonstrative in function); elsewhere the past tense of say",
-      "position": "central determiner when it stands bare (said vehicle, where no article is possible); postdeterminer in the older the said vehicle",
-      "register": "legal and bureaucratic; jocular in general speech (I returned said sandwich)",
-      "goesWith": "any noun already introduced in the same document — singular countable (said defendant), plural countable (said documents), uncountable (said property, said equipment). It never introduces a new referent, and it takes no article when used bare, because it is itself occupying the determiner slot.",
-      "ofRule": "None of its own. Of arrives only with a quantifier in front: any of said documents, none of said parties.",
-      "pattern": "said [singular countable noun] · said [plural countable noun] · said [uncountable noun] · the said [noun] (older style) · [quantifier] of said [noun]",
-      "contrast": "Against that/those: identical in meaning — said vehicle is that vehicle — but restricted to legal register, and criticized even there; American style authorities recommend replacing it with the. Against aforesaid and aforementioned: said is the bare, article-free form, the other two normally follow the. And against the verb: said the determiner sits in front of a noun (said report), while said the verb takes a subject (she said).",
-      "variants": [
-        "the said",
-        "aforesaid",
-        "aforementioned"
-      ],
       "meaning": "Marks a noun as the one already named in the document — the legal draftsman's demonstrative. Outside contracts and pleadings it survives mainly as a joke, where the mock-legal tone is the point.",
       "examples": [
         "Said vehicle was recovered in Tulsa on March 3.",
@@ -917,31 +900,22 @@
         "The court found that said defendant had waived the argument.",
         "All rights in said property pass to the buyer at closing."
       ],
-      "related": [
-        "aforesaid",
-        "aforementioned",
-        "the present",
-        "that",
-        "the"
-      ]
+      "senses": [],
+      "русский": "означенный, упомянутый — юр./канц.; в обиходной речи шутливо",
+      "position": "central determiner when it stands bare (said vehicle, where no article is possible); postdeterminer in the older the said vehicle",
+      "register": "legal and bureaucratic; jocular in general speech (I returned said sandwich)",
+      "type": "anaphoric determiner (demonstrative in function); elsewhere the past tense of say",
+      "goes with": "any noun already introduced in the same document — singular countable (said defendant), plural countable (said documents), uncountable (said property, said equipment). It never introduces a new referent, and it takes no article when used bare, because it is itself occupying the determiner slot.",
+      "with of": "None of its own. Of arrives only with a quantifier in front: any of said documents, none of said parties.",
+      "pattern": "said [singular countable noun] · said [plural countable noun] · said [uncountable noun] · the said [noun] (older style) · [quantifier] of said [noun]",
+      "contrast": "Against that/those: identical in meaning — said vehicle is that vehicle — but restricted to legal register, and criticized even there; American style authorities recommend replacing it with the. Against aforesaid and aforementioned: said is the bare, article-free form, the other two normally follow the. And against the verb: said the determiner sits in front of a noun (said report), while said the verb takes a subject (she said).",
+      "variants": "the said, aforesaid, aforementioned",
+      "see also": "aforesaid, aforementioned, the present, that, the"
     },
     {
       "term": "the present",
       "ipa": "/ðə ˈprɛzənt/",
       "respell": "thuh-PREZ-uhnt",
-      "type": "anaphoric determiner-adjective (demonstrative in function — it points at the document, case, or occasion in hand)",
-      "position": "postdeterminer — it follows the and cannot fill the central slot on its own (✗ present case is distinguishable)",
-      "register": "formal: legal, academic, and administrative writing",
-      "goesWith": "any noun naming the text, proceeding, or occasion at hand — singular countable (the present case, the present agreement), plural countable (the present proceedings, the present regulations), or uncountable (the present litigation, the present research). Because it means \"this one, the one we are inside of,\" it is odd with a noun that has nothing to do with the document: the present weather is just this weather, badly dressed.",
-      "ofRule": "None of its own; a quantifier in front supplies it (each of the present exhibits, none of the present parties). The look-alikes at present and for the present are fixed adverbials, not determiner uses.",
-      "pattern": "the present [singular countable noun] · the present [plural countable noun] · the present [uncountable noun] · in the present case / instance (fixed) · the present writer / author (formal self-reference) · the instant [noun] (American legal variant)",
-      "contrast": "Against aforementioned, aforesaid, and said: those three point backward to a noun already named, while the present points at the here-and-now of the document — it is the proximal member of the set, the formal register's this. Against plain this: the present case and this case say the same thing, and outside a brief or a journal article this is the better English. Against the instant: interchangeable in American court writing (the instant case, the instant motion), with instant the more strictly legal of the two. And against the verb present /prɪˈzɛnt/: the determiner-adjective takes first-syllable stress, /ˈprɛzənt/.",
-      "variants": [
-        "the instant (legal: the instant case)",
-        "the current",
-        "the present-day",
-        "this (the plain equivalent)"
-      ],
       "meaning": "Marks a noun as the one belonging to the text, case, or occasion in hand — the proximal counterpart of aforesaid, and a formal-register substitute for this.",
       "examples": [
         "The present case is distinguishable on its facts.",
@@ -952,32 +926,22 @@
         "The present research does not address long-term outcomes.",
         "The instant motion was filed one day out of time. (legal variant)"
       ],
-      "related": [
-        "aforementioned",
-        "aforesaid",
-        "said",
-        "this",
-        "the"
-      ]
+      "senses": [],
+      "русский": "настоящий (документ, дело) — книжн./юр. замена this: the present case",
+      "position": "postdeterminer — it follows the and cannot fill the central slot on its own (✗ present case is distinguishable)",
+      "register": "formal: legal, academic, and administrative writing",
+      "type": "anaphoric determiner-adjective (demonstrative in function — it points at the document, case, or occasion in hand)",
+      "goes with": "any noun naming the text, proceeding, or occasion at hand — singular countable (the present case, the present agreement), plural countable (the present proceedings, the present regulations), or uncountable (the present litigation, the present research). Because it means \"this one, the one we are inside of,\" it is odd with a noun that has nothing to do with the document: the present weather is just this weather, badly dressed.",
+      "with of": "None of its own; a quantifier in front supplies it (each of the present exhibits, none of the present parties). The look-alikes at present and for the present are fixed adverbials, not determiner uses.",
+      "pattern": "the present [singular countable noun] · the present [plural countable noun] · the present [uncountable noun] · in the present case / instance (fixed) · the present writer / author (formal self-reference) · the instant [noun] (American legal variant)",
+      "contrast": "Against aforementioned, aforesaid, and said: those three point backward to a noun already named, while the present points at the here-and-now of the document — it is the proximal member of the set, the formal register's this. Against plain this: the present case and this case say the same thing, and outside a brief or a journal article this is the better English. Against the instant: interchangeable in American court writing (the instant case, the instant motion), with instant the more strictly legal of the two. And against the verb present /prɪˈzɛnt/: the determiner-adjective takes first-syllable stress, /ˈprɛzənt/.",
+      "variants": "the instant (legal: the instant case), the current, the present-day, this (the plain equivalent)",
+      "see also": "aforementioned, aforesaid, said, this, the"
     },
     {
       "term": "the subject",
       "ipa": "/ðə ˈsʌbdʒɪkt/, with the in its weak form /ðə/ and the unstressed second syllable reduced to /dʒəkt/ in ordinary speech",
       "respell": "thuh-SUB-jikt",
-      "type": "anaphoric determiner-adjective (demonstrative in function — it points at the one thing the document exists to deal with)",
-      "position": "postdeterminer — it follows the and cannot fill the central slot on its own in running prose (✗ Subject property was appraised in May), though headings, captions, and exhibit labels drop the article (Subject Property: 412 Elm Street)",
-      "register": "formal; the house style of appraisals, insurance claims, inspection reports, real-estate contracts, police reports, and litigation",
-      "goesWith": "any noun naming the thing the file is about — singular countable (the subject property, the subject vehicle, the subject loan, the subject patent), plural countable (the subject properties, the subject employees), a plural-only noun (the subject premises), or uncountable (the subject land, the subject equipment). It cannot precede a proper noun (✗ the subject Elm Street → the subject property at 412 Elm Street), a pronoun (✗ the subject it), or a noun with no stake in the document — the subject weather is nonsense unless the weather is what is being adjudicated. And like every anaphoric determiner it needs a referent the document has already fixed; it cannot introduce one.",
-      "ofRule": "None of its own. A partitive comes from a quantifier in front: each of the subject properties, none of the subject vehicles. Do not confuse the frame with the subject of (the subject of the appraisal, the subject of the sentence), where subject is the head noun and the of-phrase belongs to it — the determiner use takes no complement at all.",
-      "pattern": "the subject [singular countable noun] · the subject [plural countable noun] · the subject [uncountable noun] · the subject property / vehicle / premises (the three fixed collocations) · Subject [noun] (bare, in headings, captions, and exhibit labels) · [quantifier] of the subject [plural noun]",
-      "contrast": "Against the present: both are proximal, but they aim at different things — the present agreement is the paper in your hand, the subject property is the house that paper is about. Against said, aforesaid, and aforementioned: those three mark a noun as one already named earlier on the page, while the subject marks it as the one the whole file concerns, which is exactly why an appraisal calls the house being valued the subject property and the houses it is measured against the comparables. Against a plain demonstrative: this property and the subject property do identical work, and outside a report this is the better English. Against the unrelated adjective in subject to: that one is predicative and takes a complement (the property is subject to a lien), while this one never appears after a verb (✗ the property is subject) and never takes a complement. And against the verb subject /səbˈdʒɛkt/ (to subject a sample to testing): the determiner-adjective takes first-syllable stress, /ˈsʌbdʒɪkt/, exactly as the present does against present.",
-      "variants": [
-        "subject (bare, in headings and captions: Subject Vehicle)",
-        "the subject premises (fixed, plural-only noun)",
-        "the instant (legal near-equivalent)",
-        "the said (older drafting)",
-        "this (the plain equivalent)"
-      ],
       "meaning": "Marks a noun as the one thing the document exists to deal with — the house being appraised, the car being adjusted, the building being inspected. It is a demonstrative in a business suit: the subject property is this property, written by someone who is writing for a file rather than for a reader.",
       "examples": [
         "The subject property sold twice in the last decade, most recently in 2019. (appraisal)",
@@ -988,34 +952,22 @@
         "The subject loan closed two weeks before the rule took effect. (lending compliance)",
         "Subject Property: 412 Elm Street, photographed on the morning of the inspection. (bare, in a caption)"
       ],
-      "related": [
-        "the present",
-        "said",
-        "aforementioned",
-        "the within",
-        "that",
-        "the"
-      ]
+      "senses": [],
+      "русский": "данный, рассматриваемый — офиц.: the subject property = «рассматриваемый объект»",
+      "position": "postdeterminer — it follows the and cannot fill the central slot on its own in running prose (✗ Subject property was appraised in May), though headings, captions, and exhibit labels drop the article (Subject Property: 412 Elm Street)",
+      "register": "formal; the house style of appraisals, insurance claims, inspection reports, real-estate contracts, police reports, and litigation",
+      "type": "anaphoric determiner-adjective (demonstrative in function — it points at the one thing the document exists to deal with)",
+      "goes with": "any noun naming the thing the file is about — singular countable (the subject property, the subject vehicle, the subject loan, the subject patent), plural countable (the subject properties, the subject employees), a plural-only noun (the subject premises), or uncountable (the subject land, the subject equipment). It cannot precede a proper noun (✗ the subject Elm Street → the subject property at 412 Elm Street), a pronoun (✗ the subject it), or a noun with no stake in the document — the subject weather is nonsense unless the weather is what is being adjudicated. And like every anaphoric determiner it needs a referent the document has already fixed; it cannot introduce one.",
+      "with of": "None of its own. A partitive comes from a quantifier in front: each of the subject properties, none of the subject vehicles. Do not confuse the frame with the subject of (the subject of the appraisal, the subject of the sentence), where subject is the head noun and the of-phrase belongs to it — the determiner use takes no complement at all.",
+      "pattern": "the subject [singular countable noun] · the subject [plural countable noun] · the subject [uncountable noun] · the subject property / vehicle / premises (the three fixed collocations) · Subject [noun] (bare, in headings, captions, and exhibit labels) · [quantifier] of the subject [plural noun]",
+      "contrast": "Against the present: both are proximal, but they aim at different things — the present agreement is the paper in your hand, the subject property is the house that paper is about. Against said, aforesaid, and aforementioned: those three mark a noun as one already named earlier on the page, while the subject marks it as the one the whole file concerns, which is exactly why an appraisal calls the house being valued the subject property and the houses it is measured against the comparables. Against a plain demonstrative: this property and the subject property do identical work, and outside a report this is the better English. Against the unrelated adjective in subject to: that one is predicative and takes a complement (the property is subject to a lien), while this one never appears after a verb (✗ the property is subject) and never takes a complement. And against the verb subject /səbˈdʒɛkt/ (to subject a sample to testing): the determiner-adjective takes first-syllable stress, /ˈsʌbdʒɪkt/, exactly as the present does against present.",
+      "variants": "subject (bare, in headings and captions: Subject Vehicle), the subject premises (fixed, plural-only noun), the instant (legal near-equivalent), the said (older drafting), this (the plain equivalent)",
+      "see also": "the present, said, aforementioned, the within, that, the"
     },
     {
       "term": "the within",
       "ipa": "/ðə wɪˈðɪn/, weak /ðə wəˈðɪn/ with the unstressed first syllable reduced; /ðə wɪˌðɪn ˈneɪmd/ in the compound the within-named, where the main stress moves onto named",
       "respell": "thuh-wih-THIN",
-      "type": "anaphoric determiner-adjective (demonstrative in function — it points at the document the words are written on)",
-      "position": "postdeterminer — it follows the (the within action) and cannot open the phrase in modern use; it also fuses into a compound modifier (the within-named defendant) and heads a bare noun phrase in endorsements (a true copy of the within)",
-      "register": "legal and archaic. It survives in New York court practice (the within motion), on the backs of folded pleadings and subpoenas, and on old deeds and promissory notes. An American who is not a lawyer meets it about once — on the reverse of a legal paper somebody has just handed them.",
-      "goesWith": "nouns naming the instrument or the proceeding that the paper itself contains — singular countable (the within action, the within motion, the within instrument, the within affidavit), plural countable (the within proceedings, the within exhibits), and, inside the compound, a noun naming a person (the within-named defendant, the within-named parties). It will not stand in front of an ordinary object noun — ✗ the within truck, ✗ the within house — because the word means \"contained in this document,\" not \"over here\": there has to be a document for the noun to be inside of.",
-      "ofRule": "None of its own — ✗ the within of the motion. A quantifier in front supplies any partitive: each of the within exhibits, any of the within-named parties. The trap is the ordinary preposition within, which does take an object and is many times commoner (within thirty days, within the meaning of section 4); that within is not a determiner at all.",
-      "pattern": "the within [document or proceeding noun] · the within-named [person noun] · the within standing alone as a noun phrase (a true copy of the within) · within [noun] (bare, in older drafting) · [quantifier] of the within [plural noun] · the within-written / the within-mentioned (older compounds)",
-      "contrast": "Against the present: near-synonyms — the present motion and the within motion both mean \"this one\" — but the present is the neutral formal choice while the within is a courthouse habit that survived in New York and in fossils elsewhere. Against aforementioned, aforesaid, and said: those point backward to a noun already named on the page, while the within points inward at the paper as a physical object, which puts it with the present on the proximal side. Against the preposition within: the preposition takes an object (within ten days), the determiner modifies a following noun (the within action), and the test is whether this can be swapped in — the within action → this action, yes; within ten days → ✗ this ten days, no.",
-      "variants": [
-        "the within-named",
-        "the within-mentioned",
-        "the within-written (older)",
-        "within (bare, in older drafting)",
-        "the annexed (the sibling endorsement word, for what is stapled to the paper)",
-        "this (the plain equivalent)"
-      ],
       "meaning": "Means \"this — the one written on the paper you are holding.\" Its deixis points neither at the room nor backward up the page but at the document as an object, which is why it lives on endorsements: the drafter is writing on the outside of a folded paper and needs a word for what is on the inside.",
       "examples": [
         "The within motion is denied without prejudice. (New York practice)",
@@ -1026,13 +978,17 @@
         "All rights and remedies under the within instrument pass to the assignee. (older conveyancing)",
         "Payment of the within note was duly demanded and refused. (nineteenth-century promissory note)"
       ],
-      "related": [
-        "the present",
-        "aforesaid",
-        "said",
-        "the subject",
-        "this"
-      ]
+      "senses": [],
+      "русский": "настоящий (документ) — юр., устар.: «то, что написано на этой бумаге»",
+      "position": "postdeterminer — it follows the (the within action) and cannot open the phrase in modern use; it also fuses into a compound modifier (the within-named defendant) and heads a bare noun phrase in endorsements (a true copy of the within)",
+      "register": "legal and archaic. It survives in New York court practice (the within motion), on the backs of folded pleadings and subpoenas, and on old deeds and promissory notes. An American who is not a lawyer meets it about once — on the reverse of a legal paper somebody has just handed them.",
+      "type": "anaphoric determiner-adjective (demonstrative in function — it points at the document the words are written on)",
+      "goes with": "nouns naming the instrument or the proceeding that the paper itself contains — singular countable (the within action, the within motion, the within instrument, the within affidavit), plural countable (the within proceedings, the within exhibits), and, inside the compound, a noun naming a person (the within-named defendant, the within-named parties). It will not stand in front of an ordinary object noun — ✗ the within truck, ✗ the within house — because the word means \"contained in this document,\" not \"over here\": there has to be a document for the noun to be inside of.",
+      "with of": "None of its own — ✗ the within of the motion. A quantifier in front supplies any partitive: each of the within exhibits, any of the within-named parties. The trap is the ordinary preposition within, which does take an object and is many times commoner (within thirty days, within the meaning of section 4); that within is not a determiner at all.",
+      "pattern": "the within [document or proceeding noun] · the within-named [person noun] · the within standing alone as a noun phrase (a true copy of the within) · within [noun] (bare, in older drafting) · [quantifier] of the within [plural noun] · the within-written / the within-mentioned (older compounds)",
+      "contrast": "Against the present: near-synonyms — the present motion and the within motion both mean \"this one\" — but the present is the neutral formal choice while the within is a courthouse habit that survived in New York and in fossils elsewhere. Against aforementioned, aforesaid, and said: those point backward to a noun already named on the page, while the within points inward at the paper as a physical object, which puts it with the present on the proximal side. Against the preposition within: the preposition takes an object (within ten days), the determiner modifies a following noun (the within action), and the test is whether this can be swapped in — the within action → this action, yes; within ten days → ✗ this ten days, no.",
+      "variants": "the within-named, the within-mentioned, the within-written (older), within (bare, in older drafting), the annexed (the sibling endorsement word, for what is stapled to the paper), this (the plain equivalent)",
+      "see also": "the present, aforesaid, said, the subject, this"
     }
   ]
 }

@@ -1,0 +1,734 @@
+{
+  "category": "Participle = base, past changes vowel",
+  "slug": "09-participle-equals-base",
+  "entries": [
+    {
+      "term": "become",
+      "ipa": "/bɪˈkʌm/",
+      "respell": "bih-KUM",
+      "meaning": "To grow or turn into something, to come to be a certain way; in formal use, also to suit or be fitting for someone.",
+      "examples": [
+        "Kids become teenagers faster than their parents expect.",
+        "She became a US citizen last spring.",
+        "The neighborhood has become much quieter since the highway opened.",
+        "By 1995 the store had become the busiest one in town.",
+        "Whatever became of the family that lived next door?",
+        "No one knows what has become of the original blueprints.",
+        "What will become of the shop once she retires?",
+        "That deep green becomes you.",
+        "The short haircut became her more than the long one ever did.",
+        "No hat she owned had ever become her so well.",
+        "He answered with a patience that became a man of his rank.",
+        "Such language hardly becomes a judge.",
+        "Her silence had become her better than any excuse would have."
+      ],
+      "senses": [
+        {
+          "n": "1",
+          "head": "Turn into, come to be",
+          "body": [
+            "The core sense, used with a noun or an adjective. It works as a linking verb, so what follows describes the subject rather than receiving an action. (становиться, делаться, превращаться)"
+          ],
+          "examples": [
+            "Kids become teenagers faster than their parents expect.",
+            "She became a US citizen last spring.",
+            "The neighborhood has become much quieter since the highway opened.",
+            "By 1995 the store had become the busiest one in town."
+          ]
+        },
+        {
+          "n": "2",
+          "head": "Become of — happen to",
+          "body": [
+            "A fixed pattern, almost always in a question with what or whatever, asking about somebody's or something's fate. It never takes an ordinary subject. (статься с, случиться с)"
+          ],
+          "examples": [
+            "Whatever became of the family that lived next door?",
+            "No one knows what has become of the original blueprints.",
+            "What will become of the shop once she retires?"
+          ]
+        },
+        {
+          "n": "3",
+          "head": "Suit, look good on",
+          "body": [
+            "Formal and slightly old-fashioned; you will meet it in writing far more than in speech. The everyday American equivalent is look good on. (быть к лицу, идти (об одежде, цвете))"
+          ],
+          "examples": [
+            "That deep green becomes you.",
+            "The short haircut became her more than the long one ever did.",
+            "No hat she owned had ever become her so well."
+          ]
+        },
+        {
+          "n": "4",
+          "head": "Befit, be proper for",
+          "body": [
+            "Formal, and most often met in the participle becoming or its negative in conduct unbecoming an officer. It says an action suits somebody's position, not their looks. (подобать, приличествовать)"
+          ],
+          "examples": [
+            "He answered with a patience that became a man of his rank.",
+            "Such language hardly becomes a judge.",
+            "Her silence had become her better than any excuse would have."
+          ]
+        }
+      ],
+      "русский": "становиться, делаться, превращаться",
+      "forms": "become /bɪˈkʌm/ · became /bɪˈkeɪm/ · become /bɪˈkʌm/",
+      "register": "everyday — one of the verbs an American uses without thinking",
+      "group": "9",
+      "pattern": "o — a — o (ʌ — eɪ — ʌ)",
+      "third person": "becomes · -ing form: becoming (the silent e drops)",
+      "contrast": "Become changes exactly like come, its base verb. The trap is the past form after have: ✗ He has became a citizen. The participle is the bare base — He has become a citizen.",
+      "verb type": "linking (copular) in the main sense — it joins the subject to a noun or adjective rather than acting on anything (she became a citizen, the neighborhood became quieter), and it is dynamic, so the progressive is fine: he is becoming impatient. The formal suit / befit senses (that green becomes you, such language hardly becomes a judge) are stative and reject the progressive: ✗ that green is becoming you.",
+      "transitivity": "Linking in senses 1–2 — what follows is a subject complement, not an object, and become of is a fixed intransitive pattern used almost only with what/whatever (whatever became of the family next door?). Senses 3–4 are transitive with a person as object, and that object is obligatory: ✗ the short haircut became.",
+      "passive": "no. A subject complement can never move to subject position: ✗ a citizen was become by her. The transitive suit/befit senses are stative and refuse it too: ✗ you are become by that deep green, ✗ a judge is hardly become by such language.",
+      "phrasal verbs": "become of",
+      "see also": "come, overcome"
+    },
+    {
+      "term": "come",
+      "ipa": "/kʌm/",
+      "respell": "KUM",
+      "meaning": "To move toward the speaker or arrive; by extension, to reach a place, a time, a state, or a total, and the base of a large family of everyday phrasal verbs.",
+      "examples": [
+        "My parents come over for dinner most Sundays.",
+        "The package came two days early.",
+        "She has not come back from lunch yet.",
+        "We had come a long way for a game that got rained out.",
+        "Spring has come late this year.",
+        "The rains came three weeks after the planting.",
+        "Payday comes on the fifteenth.",
+        "Both of her grandparents come from Ohio.",
+        "The money came from a small family trust.",
+        "Most of our produce has come from the same two farms for years.",
+        "The screws on the handle came loose after one winter.",
+        "Everything she predicted has come true.",
+        "Wishes like that rarely come true.",
+        "The jacket comes in four colors.",
+        "That model came in a diesel version until 2014.",
+        "The tables have always come in two heights.",
+        "The bill came to forty-two dollars with tip.",
+        "Repairs have come to more than the car is worth.",
+        "Their savings come to about six months of rent.",
+        "He came to on the sidewalk with a crowd around him.",
+        "She had not come to by the time the ambulance arrived.",
+        "Most patients come to within a few minutes.",
+        "I came across her old letters while cleaning the attic.",
+        "We have come across this bug twice this month.",
+        "You sometimes come across real bargains at that store.",
+        "He comes across as arrogant, but he is just shy.",
+        "Her email came across as far colder than she meant it.",
+        "The witness has come across as credible so far.",
+        "We need to come up with a better name.",
+        "She came up with the whole plan in one afternoon.",
+        "They had come up with the deposit by Friday.",
+        "The album came out in March.",
+        "The truth about the contract has come out.",
+        "New models come out every fall.",
+        "Half the office came down with the flu.",
+        "He has come down with something and is staying home.",
+        "Kids come down with everything their first year of school."
+      ],
+      "senses": [
+        {
+          "n": "1",
+          "head": "Arrive, move toward the speaker",
+          "body": [
+            "The core sense. Come points toward the speaker or toward the place being talked about, where go points away from it. (приходить, приезжать, подходить)"
+          ],
+          "examples": [
+            "My parents come over for dinner most Sundays.",
+            "The package came two days early.",
+            "She has not come back from lunch yet.",
+            "We had come a long way for a game that got rained out."
+          ]
+        },
+        {
+          "n": "2",
+          "head": "Happen, arrive (of a time or event)",
+          "body": [
+            "Used of seasons, dates, and events that arrive on their own schedule. Common in the set phrase when the time comes. (наступать, приходить (о времени, событии))"
+          ],
+          "examples": [
+            "Spring has come late this year.",
+            "The rains came three weeks after the planting.",
+            "Payday comes on the fifteenth."
+          ]
+        },
+        {
+          "n": "3",
+          "head": "Come from — originate, be from",
+          "body": [
+            "Used both for a person's hometown or background and for the source of a thing. With people it stays in the simple present even about the distant past. (быть родом из, происходить из)"
+          ],
+          "examples": [
+            "Both of her grandparents come from Ohio.",
+            "The money came from a small family trust.",
+            "Most of our produce has come from the same two farms for years."
+          ]
+        },
+        {
+          "n": "4",
+          "head": "Come + adjective — reach a state",
+          "body": [
+            "A linking use limited to a short fixed list: come true, come loose, come undone, come clean, come free. It is not productive — you cannot say a person comes tired. (становиться, оказываться (в каком-либо состоянии))"
+          ],
+          "examples": [
+            "The screws on the handle came loose after one winter.",
+            "Everything she predicted has come true.",
+            "Wishes like that rarely come true."
+          ]
+        },
+        {
+          "n": "5",
+          "head": "Come in — be available in (sizes, colors)",
+          "body": [
+            "Used of products and options, with the thing sold as the subject and in introducing the range. (выпускаться, поставляться (в размерах, цветах))"
+          ],
+          "examples": [
+            "The jacket comes in four colors.",
+            "That model came in a diesel version until 2014.",
+            "The tables have always come in two heights."
+          ]
+        },
+        {
+          "n": "6",
+          "head": "Come to — add up to, total",
+          "body": [
+            "Used for bills, totals, and sums. In the negative it often carries the idea of amounting to nothing — the whole plan came to nothing. (составлять, обходиться в (сумму))"
+          ],
+          "examples": [
+            "The bill came to forty-two dollars with tip.",
+            "Repairs have come to more than the car is worth.",
+            "Their savings come to about six months of rent."
+          ]
+        },
+        {
+          "n": "7",
+          "head": "Come to — regain consciousness",
+          "body": [
+            "An idiom with no object, used of someone waking from a faint or from anesthesia. Here to is stressed and said in full, not reduced. (приходить в себя, очнуться)"
+          ],
+          "examples": [
+            "He came to on the sidewalk with a crowd around him.",
+            "She had not come to by the time the ambulance arrived.",
+            "Most patients come to within a few minutes."
+          ]
+        },
+        {
+          "n": "8",
+          "head": "Come across — find by chance",
+          "body": [
+            "Always accidental: you cannot come across something you were deliberately searching for. (натыкаться, случайно находить)"
+          ],
+          "examples": [
+            "I came across her old letters while cleaning the attic.",
+            "We have come across this bug twice this month.",
+            "You sometimes come across real bargains at that store."
+          ]
+        },
+        {
+          "n": "9",
+          "head": "Come across as — give an impression",
+          "body": [
+            "About how a person is perceived, usually unintentionally and often wrongly. It takes an adjective or a noun phrase after as. (производить впечатление, казаться)"
+          ],
+          "examples": [
+            "He comes across as arrogant, but he is just shy.",
+            "Her email came across as far colder than she meant it.",
+            "The witness has come across as credible so far."
+          ]
+        },
+        {
+          "n": "10",
+          "head": "Come up with — think of, produce",
+          "body": [
+            "Used of ideas, plans, names, and excuses, and also of money found on short notice. (придумать, найти (решение, идею, деньги))"
+          ],
+          "examples": [
+            "We need to come up with a better name.",
+            "She came up with the whole plan in one afternoon.",
+            "They had come up with the deposit by Friday."
+          ]
+        },
+        {
+          "n": "11",
+          "head": "Come out — be released, become known",
+          "body": [
+            "Used of books, films, and records being published, and of facts becoming public. With no object it also means to say publicly that one is gay. (выходить (в свет), выясняться, обнаруживаться)"
+          ],
+          "examples": [
+            "The album came out in March.",
+            "The truth about the contract has come out.",
+            "New models come out every fall."
+          ]
+        },
+        {
+          "n": "12",
+          "head": "Come down with — fall ill",
+          "body": [
+            "Only for minor catchable illnesses — a cold, the flu, a stomach bug. You do not come down with a broken leg. (заболеть, слечь (с чем-либо))"
+          ],
+          "examples": [
+            "Half the office came down with the flu.",
+            "He has come down with something and is staying home.",
+            "Kids come down with everything their first year of school."
+          ]
+        }
+      ],
+      "русский": "приходить",
+      "forms": "come /kʌm/ · came /keɪm/ · come /kʌm/",
+      "register": "everyday — one of the verbs an American uses without thinking",
+      "group": "9",
+      "pattern": "o — a — o (ʌ — eɪ — ʌ)",
+      "third person": "comes · -ing form: coming (the silent e drops)",
+      "contrast": "Came and come get swapped in both directions: ✗ They have came already and ✗ He come home late last night. Use came on its own for the past, and come only after have/has/had or be. Note also that the o here is said /ʌ/, not /oʊ/ — come rhymes with some, not with home.",
+      "verb type": "action — dynamic verb of motion and arrival (my parents come over on Sundays, spring has come late). Also linking in a short fixed list only — come true, come loose, come undone, come clean, come free — which is not productive: ✗ she came tired.",
+      "transitivity": "intransitive in every documented sense. Anything that looks like an object arrives through a preposition: come from Ohio, come to forty-two dollars, come across her old letters, come up with a name, come down with the flu. ✗ she came the station is impossible.",
+      "passive": "no — an intransitive verb has no passive: ✗ the package was come two days early. The prepositional idioms resist the prepositional passive as well: ✗ her old letters were come across, ✗ the flu was come down with.",
+      "phrasal verbs": "come about · come across · come after · come along · come apart · come around · come at · come away · come back · come between · come by · come down · come down on · come down to · come down with · come forward · come from · come in · come in for · come into · come off · come on · come on to · come out · come out with · come over · come round · come through · come to · come together · come under · come up · come up against · come up with · come upon",
+      "see also": "become, overcome"
+    },
+    {
+      "term": "outrun",
+      "ipa": "/aʊtˈrʌn/",
+      "respell": "owt-RUN",
+      "meaning": "To run faster than someone or something, and by extension to outpace or get ahead of it.",
+      "examples": [
+        "A healthy deer can easily outrun a coyote.",
+        "She outran every other sprinter at the district meet.",
+        "Nobody has outrun a storm like that on foot.",
+        "Costs have outrun the budget three quarters in a row.",
+        "The rumor outran the official announcement by a full day.",
+        "Demand tends to outrun supply in the first month."
+      ],
+      "senses": [
+        {
+          "n": "1",
+          "head": "Run faster than, escape by running",
+          "body": [
+            "The literal sense, about speed on foot or on wheels. Common with animals, runners, and vehicles. (обогнать, убежать от)"
+          ],
+          "examples": [
+            "A healthy deer can easily outrun a coyote.",
+            "She outran every other sprinter at the district meet.",
+            "Nobody has outrun a storm like that on foot."
+          ]
+        },
+        {
+          "n": "2",
+          "head": "Outpace, exceed, get ahead of",
+          "body": [
+            "The figurative sense: demand outruns supply, costs outrun a budget, a rumor outruns the announcement. Also in outrun its usefulness, meaning to last past the point of being useful. (опережать, превышать)"
+          ],
+          "examples": [
+            "Costs have outrun the budget three quarters in a row.",
+            "The rumor outran the official announcement by a full day.",
+            "Demand tends to outrun supply in the first month."
+          ]
+        }
+      ],
+      "русский": "перегонять; опережать",
+      "forms": "outrun /aʊtˈrʌn/ · outran /aʊtˈræn/ · outrun /aʊtˈrʌn/",
+      "register": "neutral — understood by everyone but produced far less often than plain run; mostly sports talk and the you can't outrun it idiom",
+      "group": "9",
+      "pattern": "u — a — u (ʌ — æ — ʌ)",
+      "third person": "outruns · -ing form: outrunning (the n doubles)",
+      "contrast": "Outrun copies run and adds nothing: past outran, participle outrun. ✗ Demand has outran supply — it is has outrun.",
+      "verb type": "action — dynamic in both senses, the literal speed one (a deer can outrun a coyote) and the figurative outpacing one (costs have outrun the budget). No linking or stative use.",
+      "transitivity": "transitive only, and the object is obligatory: she outran every other sprinter, demand tends to outrun supply. ✗ the deer outran is incomplete — compare plain run, which is happy with no object.",
+      "passive": "yes, though the active is far more common: the coyote was easily outrun, supply has been outrun by demand for three quarters.",
+      "see also": "run, overrun, rerun"
+    },
+    {
+      "term": "overcome",
+      "ipa": "/ˌoʊvɚˈkʌm/",
+      "respell": "oh-vur-KUM",
+      "meaning": "To get the better of a difficulty or an opponent; in the passive, to be completely overwhelmed by a feeling or a physical force.",
+      "examples": [
+        "Good training helps recruits overcome their fear of heights.",
+        "She overcame a serious injury to make the team.",
+        "The company has overcome worse setbacks than this one.",
+        "Two firefighters were overcome by smoke before the roof gave way.",
+        "Grief had overcome her before she finished the first sentence.",
+        "He was overcome with relief when the call finally came.",
+        "The visitors overcame a twelve-point deficit in the fourth quarter.",
+        "No challenger has overcome him in three years.",
+        "A smaller army can overcome a larger one on the right ground."
+      ],
+      "senses": [
+        {
+          "n": "1",
+          "head": "Get past, conquer (a difficulty)",
+          "body": [
+            "The main sense, used of fears, obstacles, addictions, and setbacks. The object is the problem itself, not a person. (преодолеть, побороть, справиться с)"
+          ],
+          "examples": [
+            "Good training helps recruits overcome their fear of heights.",
+            "She overcame a serious injury to make the team.",
+            "The company has overcome worse setbacks than this one."
+          ]
+        },
+        {
+          "n": "2",
+          "head": "Be overcome by/with — be overwhelmed",
+          "body": [
+            "Passive or near-passive only, with emotions (grief, emotion, relief) or with smoke and fumes. The form after be is the participle overcome, never overcame. (быть охваченным, сражённым (чувством, дымом))"
+          ],
+          "examples": [
+            "Two firefighters were overcome by smoke before the roof gave way.",
+            "Grief had overcome her before she finished the first sentence.",
+            "He was overcome with relief when the call finally came."
+          ]
+        },
+        {
+          "n": "3",
+          "head": "Defeat (an opponent)",
+          "body": [
+            "Formal or literary where ordinary speech says beat. It is standard in sports writing about a comeback — overcame a twelve-point deficit. (одолеть, победить)"
+          ],
+          "examples": [
+            "The visitors overcame a twelve-point deficit in the fourth quarter.",
+            "No challenger has overcome him in three years.",
+            "A smaller army can overcome a larger one on the right ground."
+          ]
+        }
+      ],
+      "русский": "побороть, победить, преодолеть",
+      "forms": "overcome /ˌoʊvɚˈkʌm/ · overcame /ˌoʊvɚˈkeɪm/ · overcome /ˌoʊvɚˈkʌm/",
+      "register": "everyday — ordinary in talk about difficulties and emotions: overcame her fear, overcome by smoke",
+      "group": "9",
+      "pattern": "o — a — o (ʌ — eɪ — ʌ)",
+      "third person": "overcomes · -ing form: overcoming (the silent e drops)",
+      "contrast": "Built on come and changing in the same spot, so ✗ has overcame is the mistake to watch. Overcome is also common in the passive — overcome with grief, overcome by smoke — and that is the participle, never the past.",
+      "verb type": "action — dynamic: getting past a difficulty (she overcame a serious injury) or defeating an opponent (the visitors overcame a twelve-point deficit). After be, the participle in overcome with grief shades into an adjective describing a state.",
+      "transitivity": "transitive in every sense, with an obligatory object — a problem, a feeling, or an opponent: ✗ recruits overcome on its own. The object is the difficulty itself, not the person who has it: overcome their fear of heights, not ✗ overcome the recruit of his fear.",
+      "passive": "yes, and very common — a twelve-point deficit was overcome in the fourth quarter. Sense 2 is passive-only in practice: two firefighters were overcome by smoke, he was overcome with relief. The form after be is always the participle: ✗ he was overcame.",
+      "see also": "come, become"
+    },
+    {
+      "term": "overrun",
+      "ipa": "/ˌoʊvɚˈrʌn/",
+      "respell": "oh-vur-RUN",
+      "meaning": "To spread over something and take it over, or to go past a set limit of time, money, or distance.",
+      "examples": [
+        "Weeds overrun that empty lot every summer.",
+        "Ants have overrun the pantry again.",
+        "Deer overran the orchard as soon as the fruit started dropping.",
+        "By August the vegetable garden had been completely overrun.",
+        "The meeting overran its slot by twenty minutes.",
+        "The project has overrun its schedule twice.",
+        "Long agendas always overrun.",
+        "The jet overran the runway in the rain.",
+        "Two freight trains have overrun that signal this year.",
+        "A wet runway makes it easy to overrun the stopping point."
+      ],
+      "senses": [
+        {
+          "n": "1",
+          "head": "Infest, swarm, take over",
+          "body": [
+            "Used of weeds, insects, tourists, and invading troops. Very often passive — the place is overrun with tourists — where with introduces whatever has taken over. (наводнять, заполонять, кишеть)"
+          ],
+          "examples": [
+            "Weeds overrun that empty lot every summer.",
+            "Ants have overrun the pantry again.",
+            "Deer overran the orchard as soon as the fruit started dropping.",
+            "By August the vegetable garden had been completely overrun."
+          ]
+        },
+        {
+          "n": "2",
+          "head": "Exceed a limit (time, budget)",
+          "body": [
+            "Used of meetings, projects, and costs going past what was planned. The related noun in a cost overrun is stressed on the first syllable. (превышать (срок, бюджет), выходить за рамки)"
+          ],
+          "examples": [
+            "The meeting overran its slot by twenty minutes.",
+            "The project has overrun its schedule twice.",
+            "Long agendas always overrun."
+          ]
+        },
+        {
+          "n": "3",
+          "head": "Run past a stopping point",
+          "body": [
+            "Technical, mostly aviation and rail: an aircraft going off the end of a runway, or a train passing a signal it should have stopped at. (проскочить, выкатиться за пределы)"
+          ],
+          "examples": [
+            "The jet overran the runway in the rain.",
+            "Two freight trains have overrun that signal this year.",
+            "A wet runway makes it easy to overrun the stopping point."
+          ]
+        }
+      ],
+      "русский": "переливаться через край, наводнять",
+      "forms": "overrun /ˌoʊvɚˈrʌn/ · overran /ˌoʊvɚˈræn/ · overrun /ˌoʊvɚˈrʌn/",
+      "register": "neutral — usually met in the passive overrun with or the noun cost overrun; the plain active verb is uncommon in speech",
+      "group": "9",
+      "pattern": "u — a — u (ʌ — æ — ʌ)",
+      "third person": "overruns · -ing form: overrunning (the n doubles)",
+      "contrast": "Follows run, so ✗ weeds have overran the yard is wrong — the participle is overrun. Stress moves with the part of speech: the verb is oh-vur-RUN /ˌoʊvɚˈrʌn/, while the noun in a cost overrun is OH-vur-run /ˈoʊvɚˌrʌn/.",
+      "verb type": "action — dynamic throughout: spreading over something (weeds overrun that lot every summer), going past a limit (the meeting overran its slot), or rolling past a stopping point (the jet overran the runway).",
+      "transitivity": "both — transitive with an object in most uses (ants have overrun the pantry, the project has overrun its schedule), but intransitive when the limit is left unsaid: long agendas always overrun.",
+      "passive": "yes, and the infest sense is most often met in the passive: by August the garden had been completely overrun, the place is overrun with tourists. No passive of the intransitive use: ✗ the slot was overrun by the meeting in the sense of the meeting overran.",
+      "see also": "run, outrun, rerun"
+    },
+    {
+      "term": "rerun",
+      "ipa": "/ˌriˈrʌn/",
+      "respell": "ree-RUN",
+      "meaning": "To broadcast something a second time, or to carry out a process again from the start.",
+      "examples": [
+        "The station reruns the pilot every holiday weekend.",
+        "Cable channels rerun old sitcoms all summer.",
+        "They have rerun that episode a dozen times.",
+        "We reran the numbers and got the same answer.",
+        "The lab has rerun the sample twice.",
+        "The court ordered the election to be rerun in three counties.",
+        "Let's rerun the test with a clean database."
+      ],
+      "senses": [
+        {
+          "n": "1",
+          "head": "Broadcast again (TV, radio)",
+          "body": [
+            "The most common American use, though the noun a rerun is heard even more than the verb. The noun is stressed on the first syllable, the verb on the second. (показывать повторно, пускать в повтор)"
+          ],
+          "examples": [
+            "The station reruns the pilot every holiday weekend.",
+            "Cable channels rerun old sitcoms all summer.",
+            "They have rerun that episode a dozen times."
+          ]
+        },
+        {
+          "n": "2",
+          "head": "Carry out again (a test, a program, a vote)",
+          "body": [
+            "Used of experiments, computer jobs, calculations, and elections that have to be held over. Frequently passive — the election was rerun. (повторно проводить, прогнать заново)"
+          ],
+          "examples": [
+            "We reran the numbers and got the same answer.",
+            "The lab has rerun the sample twice.",
+            "The court ordered the election to be rerun in three counties.",
+            "Let's rerun the test with a clean database."
+          ]
+        }
+      ],
+      "русский": "показывать повторно",
+      "forms": "rerun /ˌriˈrʌn/ · reran /ˌriˈræn/ · rerun /ˌriˈrʌn/",
+      "register": "neutral — everyday as a noun (TV reruns); the verb belongs mostly to work and lab talk, rerun the numbers",
+      "group": "9",
+      "pattern": "u — a — u (ʌ — æ — ʌ)",
+      "third person": "reruns · -ing form: rerunning (the n doubles)",
+      "contrast": "Follows run: ✗ They have reran the test should be have rerun. Stress also splits by part of speech — the verb is ree-RUN /ˌriˈrʌn/, but the noun in a rerun of the finale is REE-run /ˈriˌrʌn/, and in everyday American speech the noun is the form you hear most.",
+      "verb type": "action — dynamic: broadcasting something a second time (the station reruns the pilot every holiday weekend) or carrying a process out again (we reran the numbers).",
+      "transitivity": "transitive only, with an obligatory object — an episode, a test, a program, a vote: ✗ the lab has rerun is incomplete.",
+      "passive": "yes, and it is the ordinary way to say it in official and lab contexts: the court ordered the election to be rerun in three counties, that episode has been rerun a dozen times.",
+      "see also": "run, outrun, overrun"
+    },
+    {
+      "term": "run",
+      "ipa": "/rʌn/",
+      "respell": "RUN",
+      "meaning": "To move fast on foot; also to flow, to operate or manage something, to extend in a direction, and the base of a wide family of everyday idioms.",
+      "examples": [
+        "I run two miles before work most days.",
+        "He ran the whole way to the station and still missed the train.",
+        "She has run three marathons this year.",
+        "She has run that bakery for twelve years.",
+        "He runs the warehouse on the night shift.",
+        "They ran the whole festival on volunteers.",
+        "The faucet had run all night before anyone noticed.",
+        "Tears ran down his face during the whole speech.",
+        "Wash it cold or the red runs.",
+        "The generator runs on propane.",
+        "The lab ran the sample twice.",
+        "We have run the numbers and the deal still works.",
+        "The bus runs every fifteen minutes until midnight.",
+        "That ferry ran only in summer back then.",
+        "Trains have run on this line since 1904.",
+        "A stone wall runs the length of the property.",
+        "The crack ran from the ceiling to the baseboard.",
+        "Cables have run under this street since the sixties.",
+        "The show ran for six seasons.",
+        "The exhibit runs through Labor Day.",
+        "Our lease has run month to month since January.",
+        "He plans to run for mayor next spring.",
+        "She ran for city council twice and lost both times.",
+        "No incumbent has run unopposed in this district in years.",
+        "Supplies run low by the end of the month.",
+        "Tempers ran high at the meeting.",
+        "The well has run dry twice this decade.",
+        "I ran into my old roommate at the airport.",
+        "The truck ran into a guardrail.",
+        "We have run into the same problem every quarter.",
+        "We ran out of milk before breakfast.",
+        "Batteries run out fast in the cold.",
+        "He had run out of excuses by the third week.",
+        "A car ran over the mailbox during the storm.",
+        "The meeting has run over by twenty minutes.",
+        "Let's run over the agenda one more time."
+      ],
+      "senses": [
+        {
+          "n": "1",
+          "head": "Move fast on foot",
+          "body": [
+            "The core sense, for people and animals, and the ordinary word for the sport — run a marathon, run track. (бежать, бегать)"
+          ],
+          "examples": [
+            "I run two miles before work most days.",
+            "He ran the whole way to the station and still missed the train.",
+            "She has run three marathons this year."
+          ]
+        },
+        {
+          "n": "2",
+          "head": "Manage, operate (a business, an event)",
+          "body": [
+            "Used of businesses, departments, meetings, and programs. Completely neutral in register and extremely common in American English. (управлять, руководить, вести (дело))"
+          ],
+          "examples": [
+            "She has run that bakery for twelve years.",
+            "He runs the warehouse on the night shift.",
+            "They ran the whole festival on volunteers."
+          ]
+        },
+        {
+          "n": "3",
+          "head": "Flow, leak; bleed (of dye)",
+          "body": [
+            "Used of water, tears, and anything liquid, and of a color bleeding in the wash. A nose that will not stop is also said to run. (течь, литься; линять (о краске))"
+          ],
+          "examples": [
+            "The faucet had run all night before anyone noticed.",
+            "Tears ran down his face during the whole speech.",
+            "Wash it cold or the red runs."
+          ]
+        },
+        {
+          "n": "4",
+          "head": "Operate, execute (a machine, a program, a test)",
+          "body": [
+            "Intransitive for a machine that is working, transitive for a program, a test, or a report that somebody starts. The transitive use is the ordinary word in computing and in labs. (работать (о механизме); запускать, прогонять (программу, тест))"
+          ],
+          "examples": [
+            "The generator runs on propane.",
+            "The lab ran the sample twice.",
+            "We have run the numbers and the deal still works."
+          ]
+        },
+        {
+          "n": "5",
+          "head": "Go on a route or schedule",
+          "body": [
+            "Used of buses, trains, ferries, and shuttles. The subject is the service itself, not the driver. (ходить, курсировать (о транспорте))"
+          ],
+          "examples": [
+            "The bus runs every fifteen minutes until midnight.",
+            "That ferry ran only in summer back then.",
+            "Trains have run on this line since 1904."
+          ]
+        },
+        {
+          "n": "6",
+          "head": "Extend, stretch, go along",
+          "body": [
+            "Used of roads, fences, wires, cracks, and borders. Nothing actually moves; the subject simply occupies a line. (тянуться, проходить, идти (о линии, границе))"
+          ],
+          "examples": [
+            "A stone wall runs the length of the property.",
+            "The crack ran from the ceiling to the baseboard.",
+            "Cables have run under this street since the sixties."
+          ]
+        },
+        {
+          "n": "7",
+          "head": "Continue for a period (a show, a lease)",
+          "body": [
+            "Used of plays, exhibits, series, leases, and offers, usually with for plus a length of time or through plus an end date. (идти, длиться (о спектакле, договоре))"
+          ],
+          "examples": [
+            "The show ran for six seasons.",
+            "The exhibit runs through Labor Day.",
+            "Our lease has run month to month since January."
+          ]
+        },
+        {
+          "n": "8",
+          "head": "Run for — be a candidate",
+          "body": [
+            "Standard American political usage; British English says stand for instead. The office follows for. (баллотироваться, выдвигать свою кандидатуру)"
+          ],
+          "examples": [
+            "He plans to run for mayor next spring.",
+            "She ran for city council twice and lost both times.",
+            "No incumbent has run unopposed in this district in years."
+          ]
+        },
+        {
+          "n": "9",
+          "head": "Run + adjective — be or become (low, late, high)",
+          "body": [
+            "A linking use with a fixed short list: run low, run late, run high, run deep, run dry. It reports a level or a tendency rather than any movement. (быть на исходе, идти с опозданием, накаляться)"
+          ],
+          "examples": [
+            "Supplies run low by the end of the month.",
+            "Tempers ran high at the meeting.",
+            "The well has run dry twice this decade."
+          ]
+        },
+        {
+          "n": "10",
+          "head": "Run into — meet by chance; collide with",
+          "body": [
+            "With a person it is an unplanned meeting; with an object or a problem it is hitting it. With a number it means reaching that amount — costs ran into the millions. (случайно встретить; врезаться, наткнуться на)"
+          ],
+          "examples": [
+            "I ran into my old roommate at the airport.",
+            "The truck ran into a guardrail.",
+            "We have run into the same problem every quarter."
+          ]
+        },
+        {
+          "n": "11",
+          "head": "Run out of — use up, be exhausted",
+          "body": [
+            "Two shapes: the supply runs out, or a person runs out of it. Also used with time, patience, and excuses. (заканчиваться, иссякать; исчерпать запас)"
+          ],
+          "examples": [
+            "We ran out of milk before breakfast.",
+            "Batteries run out fast in the cold.",
+            "He had run out of excuses by the third week."
+          ]
+        },
+        {
+          "n": "12",
+          "head": "Run over — hit with a vehicle; go past a limit",
+          "body": [
+            "One phrasal with two everyday uses: striking something with a car, and a meeting going past its allotted time. A third, run over a document, means to review it quickly. (переехать (машиной); затянуться, выйти за рамки времени)"
+          ],
+          "examples": [
+            "A car ran over the mailbox during the storm.",
+            "The meeting has run over by twenty minutes.",
+            "Let's run over the agenda one more time."
+          ]
+        }
+      ],
+      "русский": "бежать; течь",
+      "forms": "run /rʌn/ · ran /ræn/ · run /rʌn/",
+      "register": "everyday — one of the verbs an American uses without thinking",
+      "group": "9",
+      "pattern": "u — a — u (ʌ — æ — ʌ)",
+      "third person": "runs · -ing form: running (the n doubles)",
+      "contrast": "✗ I have ran three miles is one of the most common slips in American speech; after have/has/had the form is run — I have run three miles. The mistake also goes the other way: plain past needs ran, so ✗ He run to the store yesterday.",
+      "verb type": "action — dynamic; also linking in the fixed run low / run late / run high / run deep / run dry (supplies run low, the well has run dry), which reports a level rather than any movement.",
+      "transitivity": "both — intransitive in the movement, flow, route, and extent senses (she runs two miles, the faucet ran all night, the bus runs every fifteen minutes), transitive in the management and operation senses (run a bakery, run the sample, run the numbers).",
+      "passive": "yes in the transitive senses — the store is run by her sister, the sample was run twice. No passive of the intransitive ones: ✗ two miles were run by her in the ordinary sense, ✗ low was run by supplies.",
+      "phrasal verbs": "run across · run after · run along · run around · run away · run away with · run by · run down · run for · run in · run into · run off · run off with · run on · run out · run out of · run out on · run over · run through · run up · run up against · run with",
+      "see also": "outrun, overrun, rerun"
+    }
+  ]
+}

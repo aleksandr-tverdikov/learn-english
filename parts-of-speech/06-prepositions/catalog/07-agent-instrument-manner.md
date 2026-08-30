@@ -24,15 +24,16 @@ Everything below is a word this file owns outright, or a word whose measure-and-
 
 ## Agent — who or what did it
 
-Plain *by* is the default agent marker in English and covers nearly every case. The four phrases here are the specialists: one for agents of harm, one for the party who ordered the thing done, one for agents who supplied something, and one for pinning behavior on an institution.
+Plain *by* is the default agent marker in English and covers nearly every case. The phrases here are the specialists. Four of them grade the pressure behind an act — *at the request of* asked, *at the behest of* pressed, *at the direction of* ordered, and *at the instance of* moved a court to it — while *at the discretion of* names nobody who acted at all, only the party who gets to decide. The rest divide up the remaining jobs: one for agents of harm, one for the human instrument an older register put an act through, one for agents who supplied something, one for a benefactor whose favor rather than whose work produced the result, one for the institution that lent its standing, and one for pinning behavior on a doer.
 
 ### at the behest of
 
 **Pronunciation:** /æt ðə bɪˈhɛst ʌv/ &middot; *at thuh bih-HEST uhv*; weak /ət ðə bəˈhɛst əv/, and in running speech the *of* goes down to bare /ə/ — /ət ðə bəˈhɛst ə/
+**Русский:** по настоянию, по требованию — называет того, чья воля вызвала действие
 **Type:** complex &middot; **Register:** formal to neutral; standard in journalism, history, and legal writing
 **Complement:** noun phrase or objective-case pronoun, and like the other agent phrases the complement must be **animate or institutional** — a person, an office, an agency. Never a gerund, never a finite clause. It does not strand. With a pronoun, the possessive construction is commoner: *at his behest* rather than *at the behest of him*.
 **Pattern:** [passive clause] *at the behest of* [instigator] &middot; *At the behest of* [instigator], [clause] &middot; [clause] *at* [possessive] *behest*
-**Variants:** *at the request of* is the neutral everyday form and *at the urging of* and *at the insistence of* grade the pressure upward; *at the instigation of* is the most accusatory and the rarest. *At the direction of* is the civilian softening of military *by direction of*, both of which are sketched at [by order of](13-formal-latin-archaic.md#by-order-of).
+**Variants:** [at the request of](#at-the-request-of) is the neutral everyday form, [at the direction of](#at-the-direction-of) makes it an order, and [at the instance of](#at-the-instance-of) is the courtroom formula; each has its own entry. *At the urging of* and *at the insistence of* grade the pressure upward without changing the construction, and *at the instigation of* is the most accusatory and the rarest.
 **Contrast:** The one phrase in this section that names **who ordered it rather than who did it**. Plain [by](02-core-relational.md#by) marks the hand; *at the behest of* marks the voice behind the hand, which is why *the memo was written by a staffer at the behest of the governor* can put two different agents in one sentence and no other construction can. Against [on the part of](#on-the-part-of): that phrase hangs an abstract noun on its doer, this one hangs a completed act on its instigator. *Behest* is a fossil noun exactly like *dint* in [by dint of](#by-dint-of) — it survives only inside this phrase, so it takes no plural and no modifier: ✗ *a strong behest*, ✗ *at several behests*.
 
 Names the party whose request or order set the action going. It leaves the doer in place and adds a second, superior agent above them, which is why it is the standard phrase for reporting influence, pressure, and chains of command.
@@ -44,11 +45,53 @@ Names the party whose request or order set the action going. It leaves the doer 
 5. The audit was commissioned *at his behest* and delivered to him alone.
 6. The park was renamed *at the urging of* a neighborhood association that had been asking for nine years.
 
-**See also:** [by](02-core-relational.md#by), [on the part of](#on-the-part-of), [at the hands of](#at-the-hands-of), [courtesy of](#courtesy-of), [by order of](13-formal-latin-archaic.md#by-order-of)
+**See also:** [by](02-core-relational.md#by), [at the direction of](#at-the-direction-of), [at the request of](#at-the-request-of), [on the part of](#on-the-part-of), [at the hands of](#at-the-hands-of), [by order of](13-formal-latin-archaic.md#by-order-of)
+
+### at the direction of
+
+**Pronunciation:** /æt ðə dəˈrɛkʃən ʌv/ &middot; *at thuh duh-REK-shun uhv*; weak /ət ðə dəˈrɛkʃn əv/, casually /ət ðə dəˈrɛkʃn ə/ — the first vowel of *direction* is /ə/ for some American speakers and /aɪ/ for others, and both are standard
+**Русский:** по указанию, по распоряжению — приказ, которого нельзя было ослушаться
+**Type:** complex &middot; **Register:** formal to neutral; legal, corporate, military, and journalistic — an American meets it in a deposition, an internal investigation report, and any news story about who told whom to do what
+**Complement:** noun phrase or objective-case pronoun, and the complement must be **animate or institutional** — a person, an office, a court, counsel, a board. Never a gerund (✗ *at the direction of closing the file*), never a finite clause. It does not strand. With a pronoun the possessive is the normal shape: *at his direction*, *at the court's direction*.
+**Pattern:** [passive clause] *at the direction of* [authority] &middot; *At the direction of* [authority], [clause] &middot; [clause] *at* [possessive] *direction*
+**Variants:** *by direction of* is the military and official form and survives in signature blocks — *By direction of the Commanding Officer*, or simply *By direction* — and is written up with the official formulas at [by order of](13-formal-latin-archaic.md#by-order-of). **Do not swap it for *under the direction of*,** which names continuous supervision (*an orchestra under the direction of Marin Alsop*) where this phrase names one order that produced one act.
+**Contrast:** The mandatory member of the instigation family. [At the request of](#at-the-request-of) leaves the doer free to decline, [at the behest of](#at-the-behest-of) applies pressure, and *at the direction of* removes the choice — which is why it is the one that carries legal weight. Whether a contractor acted *at the direction of* the company decides who answers for what he did, and whether a memo was prepared *at the direction of counsel* decides whether it is privileged. Against [on behalf of](11-complex-multiword.md#on-behalf-of): acting for somebody is not the same as acting on their orders. Against [at the discretion of](#at-the-discretion-of): an order already given, against a power that may never be exercised.
+
+Names the person or body whose order produced the act, while leaving the doer in the sentence. It is the strongest of the phrases that separate the hand from the voice behind it, and it is reached for exactly when responsibility rather than authorship is the question.
+
+1. The files were destroyed *at the direction of* a supervisor who has since left the company.
+2. *At the direction of* the court, the parties filed a joint status report on Friday.
+3. The analysis was prepared *at the direction of* outside counsel and is being withheld as privileged.
+4. Two of the payments were made *at his direction*, and about the third he says he knew nothing.
+5. Troops were pulled back from the northern posts *at the direction of* the department, over the objection of the local commander.
+6. The clinic began screening every patient *at the direction of* the state health office.
+
+**See also:** [at the behest of](#at-the-behest-of), [at the request of](#at-the-request-of), [at the discretion of](#at-the-discretion-of), [by order of](13-formal-latin-archaic.md#by-order-of), [on behalf of](11-complex-multiword.md#on-behalf-of)
+
+### at the discretion of
+
+**Pronunciation:** /æt ðə dɪˈskrɛʃən ʌv/ &middot; *at thuh dih-SKRESH-un uhv*; weak /ət ðə dəˈskrɛʃn əv/, casually /ət ðə dəˈskrɛʃn ə/ — four unstressed syllables around *-skresh-*
+**Русский:** на усмотрение кого-л. — называет того, кто вправе решать, а не того, кто действовал
+**Type:** complex &middot; **Register:** formal; contracts, statutes, and policies — an American meets it in a lease, an employee handbook, a syllabus, and the fine print of a refund policy
+**Complement:** noun phrase naming the party who gets to decide — a person, an officer, a board, a court, a company — or a fused relative standing in for one (*at the discretion of whoever is on duty*). Never a gerund, never a finite clause. With a pronoun or a name the possessive is normal: *at his discretion*, *at the landlord's discretion*. The intensified forms are fixed and come from drafting: *at the sole discretion of*, *at the absolute discretion of*, *at its sole and absolute discretion*.
+**Pattern:** [may] [verb] *at the discretion of* [decider] &middot; [noun phrase] *at the sole discretion of* [decider] &middot; [clause] *at* [possessive] *discretion*
+**Contrast:** Alone in this section it names nobody who acted. It names who holds the power to decide whether anything happens at all, which is why it attaches to *may* and *will* far more often than to a plain past tense: *refunds may be issued at the discretion of the manager* is the natural shape. In drafting it is the switch that turns a duty into an option, and *sole* and *absolute* get bolted on to keep a court from reading a reasonableness requirement into the power. Against [subject to](11-complex-multiword.md#subject-to): *subject to the approval of the board* means somebody has to say yes; *at the discretion of the board* means somebody may say no and owes no reason. Against [at the mercy of](11-complex-multiword.md#at-the-mercy-of): the same imbalance of power, seen from underneath and with feeling.
+
+Assigns the power of decision to a named party without obliging them to use it. Everything the phrase governs is optional by construction, and the reason for writing it into a document is to keep the decision from being second-guessed.
+
+1. Late fees may be waived *at the discretion of* the property manager.
+2. Bonuses are awarded *at the sole discretion of* the compensation committee.
+3. Sentencing within that range is *at the discretion of* the trial judge.
+4. The course may be repeated once *at the discretion of* the department chair.
+5. Shifts get assigned *at the discretion of* whoever is building the schedule that month.
+6. The policy may be canceled *at the company's discretion* on thirty days' notice.
+
+**See also:** [at the direction of](#at-the-direction-of), [subject to](11-complex-multiword.md#subject-to), [at the mercy of](11-complex-multiword.md#at-the-mercy-of), [at](01-core-in-on-at.md#at), [under the auspices of](#under-the-auspices-of)
 
 ### at the hands of
 
 **Pronunciation:** /æt ðə ˈhændz ʌv/ &middot; *at thuh HANDZ uhv*; weak /ət ðə ˈhændz əv/, and in running speech the *of* goes all the way down to bare /ə/ — /ət ðə ˈhændz ə/
+**Русский:** от рук кого-л. — только о причинённом зле, гибели или поражении
 **Type:** complex &middot; **Register:** neutral to formal; heavy in journalism and history writing
 **Complement:** noun phrase or objective-case pronoun, and the complement must be **animate or institutional** — a person, a group, a government, a team. Never a gerund, never a finite clause. It does not strand.
 **Pattern:** [noun of suffering] *at the hands of* [agent] &middot; [passive verb of suffering] *at the hands of* [agent]
@@ -68,11 +111,101 @@ Attributes harm to a responsible party. The phrase is doing rhetorical work that
 5. The bill died *at the hands of* a committee that never scheduled a hearing on it.
 6. Her first campaign ended *at the hands of* an incumbent nobody thought was vulnerable.
 
-**See also:** [by](02-core-relational.md#by), [courtesy of](#courtesy-of), [on the part of](#on-the-part-of), [through](#through)
+**See also:** [by](02-core-relational.md#by), [by the hand of](#by-the-hand-of), [courtesy of](#courtesy-of), [on the part of](#on-the-part-of), [through](#through)
+
+### at the instance of
+
+**Pronunciation:** /æt ði ˈɪnstəns ʌv/ &middot; *at thee IN-stunss uhv*; weak /ət ði ˈɪnstəns əv/, casually /ət ði ˈɪnstəns ə/
+**Русский:** по ходатайству, по заявлению — устар., юр.; о стороне, по чьему обращению начато дело
+**Type:** complex &middot; **Register:** formal and legal, with an archaic flavor; an American meets it in nineteenth-century opinions, in histories that quote them, and in Scottish, Indian, and other Commonwealth legal writing, where it is still live. **It is not current American prose** — a modern American brief writes *on the motion of* or *at the request of*.
+**Complement:** noun phrase or objective-case pronoun naming a party — a litigant, a prosecutor, a creditor, a government office. Never a gerund, never a finite clause. It does not strand.
+**Pattern:** [proceeding] [brought / commenced] *at the instance of* [party] &middot; [passive clause] *at the instance of* [party]
+**Variants:** *at the suit of* is the older English formula for the same relation; *on the motion of* and [at the request of](#at-the-request-of) are the modern American replacements.
+**Contrast:** **Watch the noun.** *Instance* here is the old legal word for the urging or the application of a party — Latin *instantia*, "a pressing" — and not the ordinary modern noun meaning *an example*, which is why *at the instance of the plaintiff* means *on the plaintiff's application* and why a reader who knows only the modern noun hears the phrase as a mistake. It is the courtroom sibling of [at the behest of](#at-the-behest-of) and [at the request of](#at-the-request-of): the same relation between a party who asked and an act that followed, in a much narrower habitat. Do not confuse it with *in the first instance* or *court of first instance*, where *instance* means a stage of proceeding and no agent is named at all.
+
+Names the party at whose urging or on whose application something was done. In American writing it now reads either as a quotation from an old record or as a deliberate archaism; in Scots law it remains the standard way to name the party who moved.
+
+1. The receiver was appointed *at the instance of* two of the bondholders.
+2. The prosecution was brought *at the instance of* the collector of customs.
+3. *At the instance of* the family, the coroner reopened the file.
+4. The commission was created in 1887 *at the instance of* the grain shippers, who had been petitioning for a decade.
+5. The action proceeds *at the instance of* the Lord Advocate, which is the Scottish formula word for word.
+6. The clause was struck *at the instance of* a single creditor who had read it more carefully than anyone else.
+
+**See also:** [at the behest of](#at-the-behest-of), [at the request of](#at-the-request-of), [at the direction of](#at-the-direction-of), [ex parte](13-formal-latin-archaic.md#ex-parte), [by order of](13-formal-latin-archaic.md#by-order-of)
+
+### at the request of
+
+**Pronunciation:** /æt ðə rɪˈkwɛst ʌv/ &middot; *at thuh rih-KWEST uhv*; weak /ət ðə rəˈkwɛst əv/, casually /ət ðə rəˈkwɛst ə/
+**Русский:** по просьбе — нейтральное указание на того, кто попросил
+**Type:** complex &middot; **Register:** neutral; the everyday member of the family, equally at home in journalism, business correspondence, and official prose
+**Complement:** noun phrase or objective-case pronoun, **animate or institutional**, or a fused relative (*at the request of whoever filed the complaint*). **Never a gerund** — ✗ *at the request of leaving early* — and never a finite clause: ✗ *at the request of she asked for it*. It does not strand. With a pronoun the possessive is the normal form: *at her request*, *at the family's request*.
+**Pattern:** [passive clause] *at the request of* [asker] &middot; *At the request of* [asker], [clause] &middot; [clause] *at* [possessive] *request*
+**Variants:** *by request* and *on request* look like clipped versions of this phrase but are separate items with **no complement at all** — *an encore by request*, *available on request* — which makes them adverbials rather than prepositions. *At your request* is the correspondence form and *at the request of counsel* the standard legal one.
+**Contrast:** The neutral center of the instigation family and the phrase to reach for when you are claiming nothing about pressure: [at the behest of](#at-the-behest-of) implies a superior pressing, *at the urging of* implies persuasion, [at the direction of](#at-the-direction-of) implies an order that could not be refused, and [at the instance of](#at-the-instance-of) moves the whole thing into a courtroom. Journalists use *at the request of* for exactly that neutrality — *the name was withheld at the request of the family* reports a fact and assigns no blame. Against [courtesy of](#courtesy-of): the requester asked for an act, the supplier provided a thing.
+
+Names the party who asked for what was then done. Asking is not ordering, so the doer's agency stays intact — which is why this is the safest of the agent-of-instigation phrases and, by a wide margin, the most common.
+
+1. The meeting was closed to the public *at the request of* two board members.
+2. *At the request of* the university, the department released the raw scores.
+3. The song was added to the program *at the request of* the family.
+4. The records were sealed *at her request* and stayed sealed for thirty years.
+5. The inspection was moved up *at the request of* the tenants' association.
+6. He resigned from the committee *at the request of* the chairman, which everyone understood to mean something a good deal stronger.
+
+**See also:** [at the behest of](#at-the-behest-of), [at the direction of](#at-the-direction-of), [at the instance of](#at-the-instance-of), [courtesy of](#courtesy-of), [on behalf of](11-complex-multiword.md#on-behalf-of)
+
+### by the grace of
+
+**Pronunciation:** /baɪ ðə ˈɡreɪs ʌv/ &middot; *by thuh GRAYSS uhv*; weak /baɪ ðə ˈɡreɪs əv/, casually /baɪ ðə ˈɡreɪs ə/ &middot; *by* keeps its full /aɪ/ and has no weak form of its own
+**Русский:** милостью, по милости — божьей; в разг. речи иронично о везении или чужой помощи
+**Type:** complex &middot; **Register:** religious and formal in the literal sense; formulaic in royal and ecclesiastical styles; **ironic or self-deprecating in ordinary modern American speech**, which is where most Americans actually use it
+**Complement:** noun phrase naming a benefactor — overwhelmingly *God*, and in the ironic use anybody credited with help the speaker does not think was earned (*by the grace of a good mechanic*, *by the grace of whoever propped the door open*). Never a gerund, never a finite clause. It does not strand.
+**Pattern:** *By the grace of God*, [clause] &middot; [name], *by the Grace of God*, [office] (the formula) &middot; [clause] *by the grace of* [benefactor]
+**Variants:** *by the grace of God* is the phrase for practical purposes. Latin *Dei gratia*, abbreviated *D.G.*, is the same formula in royal styles and on coinage — which is where an American meets it, on Canadian coins reading *D.G. Regina*. The proverb *there but for the grace of God go I* is a separate idiom built on [but for](08-accompaniment-exception.md#but-for).
+**Contrast:** It credits a benefactor's favor rather than anybody's labor, which is what separates it from plain [by](02-core-relational.md#by) and from [at the hands of](#at-the-hands-of). In the formulaic use it is a claim about where authority comes from: *Charles III, by the Grace of God, King of the United Kingdom* asserts that the crown was granted by no earthly body, and the phrase survives in that job on seals, coins, and episcopal signatures. In modern speech the same words nearly always do something lighter — crediting luck. Do not confuse it with *with good grace* (= gracefully, without complaint), which is a manner adverbial and a different phrase entirely.
+
+Credits an outcome to a benefactor's favor rather than to anybody's effort. In the formal use the benefactor is God and the claim is meant seriously; in modern American speech the same words are nearly always a wry admission that luck, or somebody else's kindness, did the work the speaker is being congratulated for.
+
+**1. Through divine favor.** The literal and oldest sense.
+
+1. *By the grace of* God the herd came through the winter intact.
+2. The cornerstone reads "Founded 1791, *by the grace of* Almighty God."
+3. Charles III, *by the Grace of God*, King of the United Kingdom — a style whose wording has barely moved in five centuries.
+
+**2. Thanks to somebody's undeserved help — light, often ironic.**
+
+4. *By the grace of* a sympathetic dispatcher, we got the last truck out of the yard.
+5. He passed the class *by the grace of* a curve nobody has ever explained.
+6. We had heat that week only *by the grace of* a neighbor with a generator and no sense of self-preservation.
+
+**See also:** [by](02-core-relational.md#by), [courtesy of](#courtesy-of), [thanks to](11-complex-multiword.md#thanks-to), [by virtue of](11-complex-multiword.md#by-virtue-of), [under the auspices of](#under-the-auspices-of)
+
+### by the hand of
+
+**Pronunciation:** /baɪ ðə ˈhænd ʌv/ &middot; *by thuh HAND uhv*; weak /baɪ ðə ˈhænd əv/, casually /baɪ ðə ˈhænd ə/
+**Русский:** рукой кого-л., через кого-л. — устар., книжн.; об исполнителе как орудии
+**Type:** complex &middot; **Register:** archaic and literary — the King James Bible and prose written in its shadow, and historical narrative; still live as a term of art in connoisseurship and manuscript cataloguing. **Not ordinary modern usage**, and a reader will hear any use of it as a deliberate borrowing.
+**Complement:** noun phrase naming a person or a divine agent, or, in art and manuscript writing, an artist or a scribe. Never a gerund, never a finite clause. It does not strand.
+**Pattern:** [passive clause] *by the hand of* [human instrument] &middot; [message] [sent / delivered] *by the hand of* [messenger] &middot; [work] *by the hand of* [artist]
+**Variants:** *at the hand of*, singular, is the older biblical form for suffering received, and **the living modern phrase is [at the hands of](#at-the-hands-of)** — use that one. *In the hand of* is a different item and still current: it names the handwriting (*a letter in the hand of Jefferson*). Bare *by hand*, with no article and no complement, is a manner adverbial meaning *not by machine* and belongs to [by](02-core-relational.md#by).
+**Contrast:** In the King James Bible the phrase marks the human instrument through whom a greater agent acted — *the word of the Lord by the hand of Moses* — and that flavor has never left it: the person named is a channel as much as an originator. Against [at the hands of](#at-the-hands-of): the modern phrase attributes harm and assigns blame, this one attributes an act and does not, so *he died at the hands of his brother* accuses where *he died by the hand of his brother* narrates. Against plain [by](02-core-relational.md#by) in art writing: *a drawing by Rembrandt* is an ordinary attribution, while *by the hand of Rembrandt* is a specific claim about who physically executed it, and it belongs with the graded cataloguing terms set out at [after the manner of](#after-the-manner-of).
+
+Attributes an act to the person who physically carried it out, usually as the instrument of somebody else. It survives in three narrow places: scripture and prose that echoes it, historical narrative about messengers and executioners, and the vocabulary of specialists arguing about which hand painted which sleeve.
+
+1. The law was given *by the hand of* Moses, in the formula the King James Bible uses a dozen times over.
+2. The dispatch was sent *by the hand of* a courier who rode through the night.
+3. The panel is now accepted as being *by the hand of* the master rather than the workshop.
+4. He died *by the hand of* a man he had pardoned twice.
+5. The marginal notes are *by the hand of* a later reader, probably a century after the text was copied.
+6. The treaty reached the governor *by the hand of* his own son.
+
+**See also:** [at the hands of](#at-the-hands-of), [by](02-core-relational.md#by), [through](#through), [after the manner of](#after-the-manner-of), [by and through](13-formal-latin-archaic.md#by-and-through)
 
 ### courtesy of
 
 **Pronunciation:** /ˈkɚtəsi ʌv/ &middot; *KUR-tuh-see uhv*; weak /ˈkɚtəsi əv/, casually /ˈkɚtəsi ə/ — which is one reason the bare credit-line form *courtesy the Newberry Library* got written down in the first place
+**Русский:** с любезного разрешения, предоставлено кем-л.; иронично — «по милости» кого-л.
 **Type:** complex &middot; **Register:** neutral; standard in captions, credits, and journalism
 **Complement:** noun phrase or objective-case pronoun naming a person, institution, or source. Never a gerund, never a finite clause. It frequently appears with no verb at all, as a freestanding credit line.
 **Pattern:** [clause] *courtesy of* [source] &middot; [noun phrase], *courtesy of* [source] &middot; *Courtesy of* [source] (caption)
@@ -98,6 +231,7 @@ Credits the party that supplied, permitted, or provided the thing. Its native ha
 ### on the part of
 
 **Pronunciation:** /ɑn ðə ˈpɑrt ʌv/ &middot; *on thuh PART uhv*; weak /ən ðə ˈpɑrt əv/, casually /ən ðə ˈpɑrt ə/
+**Русский:** со стороны кого-л. — приписывает отглагольному существительному его деятеля
 **Type:** complex &middot; **Register:** formal; legal, academic, and bureaucratic prose
 **Complement:** noun phrase or objective-case pronoun, always **animate or institutional**. Never a gerund, never a finite clause. With a pronoun, most writers switch to the possessive construction instead: *on his part*, *for my part*.
 **Pattern:** [abstract noun of behavior] *on the part of* [agent] &middot; *On the part of* [agent], [clause]
@@ -112,7 +246,28 @@ Assigns the doer of an abstract action to the noun that names it. Whenever a nom
 5. An error *on the part of* the pilot does not by itself establish negligence.
 6. The delay reflected a genuine failure of nerve *on the part of* the leadership.
 
-**See also:** [by](02-core-relational.md#by), [on behalf of](11-complex-multiword.md#on-behalf-of), [at the hands of](#at-the-hands-of)
+**See also:** [by](02-core-relational.md#by), [on behalf of](11-complex-multiword.md#on-behalf-of), [at the hands of](#at-the-hands-of), [under the auspices of](#under-the-auspices-of)
+
+### under the auspices of
+
+**Pronunciation:** /ˈʌndɚ ði ˈɔspəsɪz ʌv/ &middot; *UHN-der thee AW-spuh-siz uhv*; weak /ˈʌndɚ ði ˈɔspəsəz əv/, casually /ˈʌndɚ ði ˈɔspəsəz ə/ &middot; some American speakers have /ˈɑspəsɪz/ in the first syllable, and **the noun is fixed in the plural** here — singular *auspice* is a dictionary word almost nobody uses
+**Русский:** под эгидой, под покровительством — кто поручился, а не кто выполнил работу
+**Type:** complex (Latin *auspicium*, "the watching of birds," the taking of omens before a public act) &middot; **Register:** formal; institutional, academic, diplomatic, and nonprofit prose — an American meets it in a press release, a conference program, a museum wall text, and a grant report
+**Complement:** noun phrase naming an **institution or a body**, or a person acting in an institutional capacity — a university, an agency, a foundation, the United Nations. Never a gerund (✗ *under the auspices of funding the work*), never a finite clause. It does not strand.
+**Pattern:** [event or work] [held / conducted / published] *under the auspices of* [sponsor] &middot; *Under the auspices of* [sponsor], [clause]
+**Variants:** *under the aegis of* — the same relation in Greek dress, after the shield of Athena, and a shade more literary. *Under the umbrella of* is the plain modern equivalent, *under the banner of* names a cause rather than a sponsor, and *sponsored by* is what a press release should usually say instead.
+**Contrast:** It names the body whose sponsorship, protection, or formal authority the work was done under — and pointedly **not** the body that did the work. A survey conducted *under the auspices of* the National Academies tells you who vouched for it, not who wrote the questionnaire, and institutions like the phrase for exactly that reason. Against [on behalf of](11-complex-multiword.md#on-behalf-of): representing somebody is not the same as being backed by them. Against [at the behest of](#at-the-behest-of): who ordered the work, against who lent it standing. Against plain [by](02-core-relational.md#by): *by* would claim the authorship this phrase is carefully not claiming. Against [under color of](10-topic-reference-role.md#under-color-of): real authority against pretended authority.
+
+Puts an institution's name and protection behind an activity without saying that the institution performed it. The Roman augurs took the auspices before any public act, and the modern phrase keeps that structure exactly: somebody senior has looked the thing over and blessed it.
+
+1. The talks were held in Vienna *under the auspices of* the United Nations.
+2. The dig has run every summer since 1974 *under the auspices of* the university's classics department.
+3. The report was published *under the auspices of* a foundation that had funded none of the underlying research.
+4. Vaccination clinics operated *under the auspices of* the county health department in four school gyms.
+5. *Under the auspices of* the trade commission, the two sides met for the first time in a decade.
+6. The exhibition traveled to six cities *under the aegis of* the Smithsonian.
+
+**See also:** [at the behest of](#at-the-behest-of), [on behalf of](11-complex-multiword.md#on-behalf-of), [courtesy of](#courtesy-of), [under color of](10-topic-reference-role.md#under-color-of), [by](02-core-relational.md#by)
 
 ## Instrument and means — what it was done with
 
@@ -121,6 +276,7 @@ Instrumental *with* and method-marking *by* handle almost all of this in speech.
 ### by dint of
 
 **Pronunciation:** /baɪ ˈdɪnt ʌv/ &middot; *by DINT uhv*; weak /baɪ ˈdɪnt əv/, casually /baɪ ˈdɪnt ə/ &middot; *by* itself has no weak form and keeps its full /aɪ/
+**Русский:** благодаря, ценой (усилий) — книжн.; о достигнутом упорством, а не инструментом
 **Type:** complex &middot; **Register:** formal, literary; faintly bookish
 **Complement:** noun phrase — characteristically abstract (*effort*, *persistence*, *sheer luck*, *brute force*) — or a gerund (*by dint of working nights*). Never a finite clause, never a to-infinitive.
 **Pattern:** [clause] *by dint of* [noun phrase / verb-ing] &middot; *By dint of* [noun phrase], [clause]
@@ -140,6 +296,7 @@ Attributes an achievement to effort or to a quality rather than to a tool. It al
 ### by means of
 
 **Pronunciation:** /baɪ ˈminz ʌv/ &middot; *by MEENZ uhv*; weak /baɪ ˈminz əv/, casually /baɪ ˈminz ə/
+**Русский:** посредством, при помощи — офиц. и техн. указание на орудие или способ
 **Type:** complex &middot; **Register:** formal; technical, scientific, and legal writing
 **Complement:** noun phrase or gerund (*by means of dissolving the residue in acetone*). Never a finite clause. It does not strand.
 **Pattern:** [clause] *by means of* [noun phrase / verb-ing] &middot; *By means of* [noun phrase], [clause]
@@ -159,6 +316,7 @@ Names the instrument, mechanism, or procedure that produced the result. Its whol
 ### by way of
 
 **Pronunciation:** /baɪ ˈweɪ ʌv/ &middot; *by WAY uhv*; weak /baɪ ˈweɪ əv/, casually /baɪ ˈweɪ ə/
+**Русский:** через (транзитом); в качестве (извинения, примера); посредством чего-л.
 **Type:** complex &middot; **Register:** neutral to formal
 **Complement:** noun phrase; a gerund (*by way of explaining himself*); or — in the manner sense only — a **bare article-less abstract noun**: *by way of apology*, *by way of introduction*, *by way of illustration*. Never a finite clause of any kind, and never a to-infinitive: ✗ *by way of to explain*.
 **Pattern:** [clause] *by way of* [place] (route) &middot; [clause] *by way of* [bare abstract noun] (purpose) &middot; [clause] *by way of* [noun phrase] (means)
@@ -187,6 +345,7 @@ Names the instrument, mechanism, or procedure that produced the result. Its whol
 ### out of
 
 **Pronunciation:** /aʊt ʌv/ &middot; *OWT uhv*; weak /ˈaʊt əv/ and, at any ordinary speed, the two words run together as /ˈaʊtə/ &middot; *OW-tuh* — which is what the eye-spelling *outta* is transcribing, and the reason learners write ✗ *out a curiosity*
+**Русский:** из (материала); из (общего числа): nine out of ten; за счёт (средств, фонда)
 **Type:** complex &middot; **Register:** neutral; one of the highest-frequency prepositions in the language
 **Complement:** noun phrase, objective-case pronoun, or a **fused relative** (*built out of what was left in the barn*). A **gerund** occurs only in the motive sense treated elsewhere (*out of not wanting to embarrass her*), and even there it grates. **Never a finite clause and never a *that*-clause** — ✗ *out of that he was tired*. **It strands as a unit**, both words together: *What is it made out of?*, *the fund the raise came* **out of** — but the *of* can never be dropped and never left behind: ✗ *what is it made out?*
 **Pattern:** [verb of making] *out of* [material] &middot; [number] *out of* [number] &middot; [cost or payment] *out of* [fund or source]
@@ -215,6 +374,7 @@ Names the instrument, mechanism, or procedure that produced the result. Its whol
 ### through
 
 **Pronunciation:** /θru/ &middot; *THROO* — no true weak form; in rapid speech the vowel shortens toward /θrʊ/ and, before a consonant, as far as /θrə/ (*through the door* /θrə ðə ˈdɔr/). The spelling *thru* is signage and shorthand, not standard prose.
+**Русский:** благодаря, посредством; через посредника; из-за (оплошности, недосмотра)
 **Type:** simple &middot; **Register:** neutral
 **Complement:** noun phrase, objective-case pronoun, or **gerund** (*through working weekends for two years*). Never a finite clause. **It strands freely**: *the agency I found it* **through**, *Who did you hear it* **through**?
 **Pattern:** [clause] *through* [noun phrase / verb-ing] &middot; *Through* [noun phrase], [clause] &middot; stranded: *the program I got the job* **through**
@@ -243,6 +403,7 @@ Names the instrument, mechanism, or procedure that produced the result. Its whol
 ### using
 
 **Pronunciation:** /ˈjuzɪŋ/ &middot; *YOO-zing*; casually /ˈjuzɪn/ &middot; no weak form — it keeps its own stress, which is one sign it is still half a verb
+**Русский:** используя, с помощью — называет инструмент; деепричастие, ставшее предлогом
 **Type:** marginal/participial &middot; **Register:** neutral; the default in technical writing and instructions
 **Complement:** noun phrase or objective-case pronoun. Never a finite clause, and — unlike a true preposition — **it does not take a gerund**: ✗ *using boiling the water*. It does not strand.
 **Pattern:** [clause] *using* [noun phrase] &middot; *Using* [noun phrase], [clause]
@@ -262,10 +423,11 @@ Names the tool, material, or resource an agent employed. It is the plainest inst
 ### via
 
 **Pronunciation:** /ˈvaɪə/ &middot; *VY-uh*; also /ˈviə/ &middot; *VEE-uh* — the second is commoner in British English and in Latin tags. No weak form: it carries a stress of its own, which is part of why it feels crisper than *by way of*.
+**Русский:** через, посредством — о канале передачи или о посреднике
 **Type:** simple (Latin *via*, the ablative of *via* "road") &middot; **Register:** neutral to formal; very common in technical and business prose
 **Complement:** noun phrase or objective-case pronoun. **Never a gerund and never a finite clause** — ✗ *via sending an email*, ✗ *via he told me*. It does not strand.
 **Pattern:** [clause] *via* [noun phrase] &middot; [destination] *via* [waypoint] &middot; [noun phrase] *via* [medium]
-**Contrast:** The travel-route sense is at [via](04-movement-direction.md#via); this entry is the **medium and intermediary** sense. Against [by](02-core-relational.md#by) for media: both work, but *by* wants a bare article-less noun (*by email*, *by phone*, ✗ *by the app*) while *via* takes either (*via email*, *via the app*). Against [through](#through): identical in meaning for intermediaries, but *through* takes gerunds and strands and *via* does neither — **the single commonest error with this word is putting an *-ing* form after it.** Against [by means of](#by-means-of): *via* is the compact modern equivalent and has almost displaced it outside legal drafting.
+**Contrast:** The travel-route sense is at [via](04-movement-direction.md#via); this entry is the **medium and intermediary** sense. Against [by](02-core-relational.md#by) for media: both work, but *by* wants a bare article-less noun (*by email*, *by phone*, **by the app*) while *via* takes either (*via email*, *via the app*). Against [through](#through): identical in meaning for intermediaries, but *through* takes gerunds and strands and *via* does neither — ✗ *the single commonest error with this word is putting an *-ing* form after it.** Against [by means of](#by-means-of): *via* is the compact modern equivalent and has almost displaced it outside legal drafting.
 
 **1. By way of a medium or channel of transmission.**
 
@@ -284,6 +446,7 @@ Names the tool, material, or resource an agent employed. It is the plainest inst
 ### with the aid of
 
 **Pronunciation:** /wɪð ði ˈeɪd ʌv/ &middot; *with thee AYD uhv*; weak /wəθ ði ˈeɪd əv/, casually /wəθ ði ˈeɪd ə/ — *with* reduces to /wəθ/ and the *of* to bare /ə/, so the whole phrase can come out as three unstressed syllables around *aid*
+**Русский:** с помощью, при помощи — книжн.; подразумевает преодолённую трудность
 **Type:** complex &middot; **Register:** formal
 **Complement:** noun phrase — an instrument or a person. A gerund is possible but rare and clumsy. Never a finite clause.
 **Pattern:** [clause] *with the aid of* [noun phrase] &middot; *With the aid of* [noun phrase], [clause]
@@ -308,6 +471,7 @@ Manner is where *like* and *as* fight their famous fight, and where American Eng
 ### à la
 
 **Pronunciation:** /ˌɑ ˈlɑ/ &middot; *ah-LAH*; commonly reduced to /ə ˈlɑ/
+**Русский:** в стиле, на манер кого-л. — с оттенком подражания, оммажа или пародии
 **Type:** complex (French *à la manière de*, clipped) &middot; **Register:** neutral to journalistic; knowing in tone
 **Complement:** noun phrase, characteristically a **proper name** — a person, a work, a brand, a place, an era. Never a gerund, never a finite clause. It does not strand.
 **Pattern:** [clause] *à la* [proper name] &middot; [noun phrase] *à la* [proper name]
@@ -328,6 +492,7 @@ Says that something is done in the recognizable style of a named model. The name
 ### according to
 
 **Pronunciation:** /əˈkɔrdɪŋ tu/ &middot; *uh-KOR-ding too*; weak /əˈkɔrdɪŋ tə/
+**Русский:** по словам кого-л. (со ссылкой на источник); согласно чему-л.; в зависимости от
 **Type:** complex (participial in origin, from the verb *accord*) &middot; **Register:** neutral
 **Complement:** noun phrase, objective-case pronoun, or a ***wh*-nominal** — either a **fused relative** (*according to what the manual says*, *according to whoever answered the phone*) or an **embedded interrogative** (*according to how much water you use*, *according to which shift you are on*). **Never a *that*-clause, never any other finite clause, and never a gerund** — ✗ *according to he said*, ✗ *according to that the manual says*, ✗ *according to reading the file*. The *to* here is a preposition and not the infinitive marker, so a bare infinitive is impossible too: ✗ *according to conserve water*. It does not strand.
 **Pattern:** *According to* [source], [clause] &middot; [clause], *according to* [source] &middot; [clause] *according to* [standard or plan]
@@ -356,6 +521,7 @@ Says that something is done in the recognizable style of a named model. The name
 ### after the manner of
 
 **Pronunciation:** /ˈæftɚ ðə ˈmænɚ ʌv/ &middot; *AF-ter thuh MAN-er uhv*; weak /ˈæftɚ ðə ˈmænɚ əv/, casually /ˈæftɚ ðə ˈmænɚ ə/ — five syllables of which only two are stressed, which is most of why the phrase feels heavy
+**Русский:** в манере, по образцу — книжн., искусствовед.; об осознанном подражании
 **Type:** complex &middot; **Register:** formal, literary; standard in art criticism and museum cataloguing
 **Complement:** noun phrase, typically a proper name, a named school, or a period. Never a gerund, never a finite clause.
 **Pattern:** [clause] *after the manner of* [model] &middot; [noun phrase] *after the manner of* [model]
@@ -376,6 +542,7 @@ Says that the thing was made or done in conscious imitation of a named model's m
 ### as per
 
 **Pronunciation:** /æz ˈpɚ/ &middot; *az PUR*; weak /əz pɚ/
+**Русский:** согласно, в соответствии с — канцелярит; as per usual — шутл. «как водится»
 **Type:** complex &middot; **Register:** business and bureaucratic; disliked by every usage authority that mentions it
 **Complement:** noun phrase only — almost always a document, an instruction, or a prior communication (*as per your email*, *as per the contract*). Never a gerund, never a *wh*-nominal, never a finite clause: ✗ *as per you asked* → *as per your request*, or better still *as you asked*.
 **Pattern:** *As per* [noun phrase], [clause] &middot; [clause] *as per* [noun phrase] &middot; fixed: *as per usual*
@@ -395,10 +562,11 @@ States that something conforms to an instruction, a document, or an established 
 ### like
 
 **Pronunciation:** /laɪk/ &middot; *LYK* — a full lexical word with no reduced form, though it is routinely unstressed
+**Русский:** как, подобно — сравнение; свойственно кому-л.; например; разг. «примерно»
 **Type:** simple &middot; **Register:** neutral as a preposition; the conjunction use (*like I said*) is informal, and the approximative use is informal
 **Complement:** noun phrase, **objective-case pronoun** (*like me*, *like her and me* — ✗ *like I*, ✗ *like she*), a gerund (*It's like flying*), or a **fused relative** (*like what happened in 2019*, *like whoever ran it last year*). **As a preposition it cannot take a finite clause, and never a that-clause.** *Like I said* and *like he does* are the **conjunction** *like*, which is standard in American speech and casual writing and is still edited out of formal prose in favor of *as*. It strands only in the fixed interrogative *What is she like?*
 **Pattern:** [verb] *like* [noun phrase] &middot; [be] *like* [noun phrase] &middot; *like* [verb-ing] &middot; *Like* [noun phrase], [clause] &middot; fixed: *What is X* **like**?
-**Contrast:** **Against *as*, the classic split.** *Like* takes a noun and asserts resemblance; *as* takes a clause, or a role actually held — *She works like a lawyer* means she resembles one, *She works as a lawyer* means she is one; see [as](10-topic-reference-role.md#as). The three-way ladder is worth memorizing: *Do it like me* (imitate my example, everywhere), *Do it as I do* (formal writing), *Do it like I do* (standard American speech, flagged in formal writing). For introducing examples, *such as* is the conservative choice in edited prose because *like* can be read as *resembling* — *poets like Frost* may or may not include Frost — though the distinction is not observed in general American usage, where *like* introduces examples freely. **Also a verb (*I like it*), a noun (*and the like*), an adjective (*of like mind*), an adverb, a conjunction (*like I said*), a suffix (*childlike*), a quotative (*he was like, no way*), and a discourse particle** — the preposition is the one with a noun-phrase object and no clause after it. The comparison entry, with the case and parallelism rules in full, is at [like](09-comparison-opposition.md#like).
+**Contrast:** ✗ *Against *as*, the classic split.** *Like* takes a noun and asserts resemblance; *as* takes a clause, or a role actually held — *She works like a lawyer* means she resembles one, *She works as a lawyer* means she is one; see [as](10-topic-reference-role.md#as). The three-way ladder is worth memorizing: *Do it like me* (imitate my example, everywhere), *Do it as I do* (formal writing), *Do it like I do* (standard American speech, flagged in formal writing). For introducing examples, *such as* is the conservative choice in edited prose because *like* can be read as *resembling* — *poets like Frost* may or may not include Frost — though the distinction is not observed in general American usage, where *like* introduces examples freely. ✗ *Also a verb (*I like it*), a noun (*and the like*), an adjective (*of like mind*), an adverb, a conjunction (*like I said*), a suffix (*childlike*), a quotative (*he was like, no way*), and a discourse particle** — the preposition is the one with a noun-phrase object and no clause after it. The comparison entry, with the case and parallelism rules in full, is at [like](09-comparison-opposition.md#like).
 
 **1. Resembling; in the manner of.** The core sense.
 
@@ -436,9 +604,36 @@ States that something conforms to an instruction, a document, or an established 
 
 **See also:** [as](10-topic-reference-role.md#as), [unlike](#unlike), [à la](#à-la), [after the manner of](#after-the-manner-of), [with](02-core-relational.md#with), [like (comparison)](09-comparison-opposition.md#like), [such as](11-complex-multiword.md#such-as)
 
+### under cover of
+
+**Pronunciation:** /ˈʌndɚ ˈkʌvɚ ʌv/ &middot; *UHN-der KUV-er uhv*; weak /ˈʌndɚ ˈkʌvɚ əv/, casually /ˈʌndɚ ˈkʌvɚ ə/ &middot; neither *under* nor *cover* reduces, so the whole weakening falls on the *of*, which is why the phrase is so often heard as *under cover-uh darkness*
+**Русский:** под покровом (темноты), под прикрытием — о том, что скрыло действие
+**Type:** complex &middot; **Register:** neutral to formal; military history, journalism, and narrative prose. The collocation *under cover of darkness* is all but fixed and is the form most readers have met.
+**Complement:** noun phrase naming whatever supplies the concealment or the pretext — *darkness*, *night*, *fog*, *a barrage*, *anonymity*, *a reorganization*. **Normally with no article**: *under cover of darkness*, not ✗ *under cover of the darkness*. Never a gerund (✗ *under cover of getting dark*), never a finite clause. It does not strand.
+**Pattern:** [clause] *under cover of* [concealment] &middot; *Under cover of* [concealment], [clause]
+**Variants:** *under the cover of* is attested and reads a shade more literal; American editors keep the article-less form in the fixed phrase. **Written solid, *undercover* is an adjective and an adverb** (*an undercover officer*, *she worked undercover*) and takes no object at all — which is the test that separates it from this preposition.
+**Contrast:** Against [under color of](10-topic-reference-role.md#under-color-of), the phrase it is constantly confused with: *under color of* is legal and means *under the pretended authority of* — *acting under color of state law* is the operative language in federal civil rights suits — while *under cover of* means hidden behind something. Against [during](05-time.md#during): *during the night* names when it happened, *under cover of night* names the night as the thing being used to hide, so only the second implies a purpose. Against [in the guise of](10-topic-reference-role.md#in-the-guise-of): a guise is an appearance put on, a cover is a screen hidden behind. Against [on the pretext of](06-cause-purpose.md#on-the-pretext-of): the pretext is the stated reason, the cover is the concealment it buys.
+
+Names the thing that hid the act. Whatever follows it is doing double duty: it is both the circumstance the act took place in and the screen that kept the act from being seen — which is why the phrase always implies that somebody meant not to be noticed.
+
+**1. Concealed or screened by.** The literal sense, usually physical.
+
+1. The battalion crossed the river *under cover of* darkness and a heavy river fog.
+2. They moved the equipment out *under cover of* night, two trucks at a time.
+3. The engineers repaired the bridge *under cover of* an artillery barrage.
+
+**2. Using something as a screen or a pretext.**
+
+4. The transfers were made *under cover of* a routine reorganization.
+5. *Under cover of* anonymity, half the department said what it actually thought.
+6. He solicited the donations *under cover of* a charity that had stopped operating years before.
+
+**See also:** [under color of](10-topic-reference-role.md#under-color-of), [in the guise of](10-topic-reference-role.md#in-the-guise-of), [on the pretext of](06-cause-purpose.md#on-the-pretext-of), [during](05-time.md#during), [under](04-movement-direction.md#under)
+
 ### unlike
 
 **Pronunciation:** /ʌnˈlaɪk/ &middot; *un-LYK* — stressed on the second syllable, and no weak form
+**Русский:** в отличие от — противопоставление; предикативно — «не похоже на кого-л.», «не в его духе»
 **Type:** compound (*un-* + *like*, no longer analyzed as two pieces) — **also an adjective** (*two unlike quantities*, *unlike poles attract*), where it takes no object &middot; **Register:** neutral
 **Complement:** noun phrase, objective-case pronoun (*unlike me*), a gerund (*Unlike renting, buying builds equity*), or a **fused relative** (*unlike what I said last week*). **Never a finite clause** — ✗ *unlike I said*; the repairs are *unlike what I said* or a contrastive conjunction such as *whereas*. It does not strand.
 **Pattern:** *Unlike* [noun phrase], [clause] &middot; [clause], *unlike* [noun phrase] &middot; [be] *unlike* [noun phrase]
@@ -460,11 +655,12 @@ States that something conforms to an instruction, a document, or an established 
 
 ## Rate, ratio, and distribution
 
-The distributive constructions — *twice a day*, *sixty miles an hour*, *five dollars per pound*, *by the dozen* — are where English keeps three interchangeable markers in circulation at three different registers. The *by the* pattern belongs to [by](02-core-relational.md#by): *sold by the pound*, *paid by the hour*, *bought by the dozen*, *rented by the week*, always with *the* and always with a bare singular unit.
+The distributive constructions — *twice a day*, *sixty miles an hour*, *five dollars per pound*, *by the dozen* — are where English keeps three interchangeable markers in circulation at three different registers. The *by the* pattern belongs to [by](02-core-relational.md#by): *sold by the pound*, *paid by the hour*, *bought by the dozen*, *rented by the week*, always with *the* and always with a bare singular unit. The arithmetic operators live in this section too — [times](#times), [by a factor of](#by-a-factor-of), [to the power of](#to-the-power-of), and [modulo](#modulo) — since a multiplier, an exponent, and a remainder are all ratios with the unit left off. [As a function of](#as-a-function-of) is the odd one out: it is how the sciences say that one quantity moves with another without committing to the shape of the movement.
 
 ### a
 
 **Pronunciation:** /eɪ/ &middot; *AY* (stressed, citation form); weak /ə/ &middot; *uh* — **the weak form is the normal one here**
+**Русский:** распределительное «в», «за»: twice a day — дважды в день; это не артикль, а значение «per»
 **Type:** simple &middot; **Register:** neutral; the everyday spoken form
 **Complement:** a **bare singular count noun of time, quantity, or measure**: *a day*, *a week*, *a head*, *a pound*, *a gallon*, *a person*, *a mile*. Never a plural (✗ *twice a days*), never a gerund, never a clause. It does not strand.
 **Pattern:** [frequency] *a* [unit] &middot; [price] *a* [unit] &middot; [quantity] *a* [unit]
@@ -482,9 +678,31 @@ Distributes a quantity over a unit. It is the most frequent rate marker in spoke
 
 **See also:** [per](#per), [by](02-core-relational.md#by), [at](01-core-in-on-at.md#at), [at the rate of](#at-the-rate-of)
 
+### as a function of
+
+**Pronunciation:** /æz ə ˈfʌŋkʃən ʌv/ &middot; *az uh FUNK-shun uhv*; weak /əz ə ˈfʌŋkʃən əv/, casually /əz ə ˈfʌŋkʃn ə/ — five syllables carrying one real stress, on *funk-*
+**Русский:** в зависимости от — научн.; одна величина определяется другой
+**Type:** complex &middot; **Register:** formal; the standard phrasing in mathematics, the sciences, engineering, and economics, and a vogue phrase everywhere else
+**Complement:** noun phrase naming a **variable — something that can take different values** (*temperature*, *dose*, *income*, *distance*, *time*) — or a *wh*-nominal standing in for one (*as a function of how far you live from the plant*, *as a function of what the market did that week*). **Never a gerund**: ✗ *as a function of raising the dose* → *as a function of dose*. When an *-ing* word does turn up it is an adjective on the variable (*as a function of increasing temperature*), not a complement of the preposition. Never a finite clause: ✗ *as a function of the temperature rose*. It does not strand.
+**Pattern:** [quantity] *varies as a function of* [variable] &middot; plot [y] *as a function of* [x] &middot; [clause] *as a function of* [variable]
+**Variants:** predicative *a function of* with no *as* — *the delay is a function of two things* — is the same metaphor used as a noun phrase after *be*, and it is the commoner shape in business prose.
+**Contrast:** In its home fields it claims a real dependence, y = f(x), and it also fixes the axes: *plot pressure as a function of volume* puts volume along the bottom and pressure up the side. In general prose it has thinned into a dressed-up *because of* — *the decision was made as a function of politics* is *made for political reasons* — and that is the use to cut. Against [in proportion to](09-comparison-opposition.md#in-proportion-to): proportionality is one particular function, a straight line through the origin, so *pay rises in proportion to hours* is a far stronger claim than *pay rises as a function of hours*. Against [according to](#according-to) sense 3 and [depending on](11-complex-multiword.md#depending-on): the ordinary-language equivalents, and the right choice when no mathematics is involved.
+
+Says that one quantity is determined by another and moves with it. The claim is about dependence only — not about direction, not about shape, and not about cause — which is exactly why the sciences want it and why it goes slack when it is borrowed for prose that means *because of*.
+
+1. Plot the reaction rate *as a function of* temperature and the curve will make the argument for you.
+2. Fuel burn rises steeply *as a function of* speed above about forty knots.
+3. The model estimates dropout *as a function of* class size, commute time, and hours worked.
+4. Premiums are set *as a function of* age, zip code, and claims history.
+5. Signal loss increases *as a function of* the square of the distance.
+6. Turnout in these precincts moves almost entirely *as a function of* how close the race looks in the last week.
+
+**See also:** [in proportion to](09-comparison-opposition.md#in-proportion-to), [according to](#according-to), [by a factor of](#by-a-factor-of), [depending on](11-complex-multiword.md#depending-on), [per](#per)
+
 ### at the rate of
 
 **Pronunciation:** /æt ðə ˈreɪt ʌv/ &middot; *at thuh RAYT uhv*; weak /ət ðə ˈreɪt əv/, casually /ət ðə ˈreɪt ə/
+**Русский:** из расчёта, по ставке — офиц.; вводит явное соотношение количества к единице
 **Type:** complex &middot; **Register:** formal; standard in finance, contracts, and technical reporting
 **Complement:** noun phrase naming a quantity — a number, a sum, a percentage, or a whole ratio phrase. Never a gerund, never a finite clause.
 **Pattern:** [clause] *at the rate of* [quantity] *per* [unit] &middot; [clause] *at a rate of* [percentage]
@@ -502,9 +720,57 @@ Introduces an explicit ratio of quantity to unit. It is the register-marked vers
 
 **See also:** [per](#per), [a](#a), [at](01-core-in-on-at.md#at), [by](02-core-relational.md#by)
 
+### by a factor of
+
+**Pronunciation:** /baɪ ə ˈfæktɚ ʌv/ &middot; *by uh FAK-ter uhv*; weak /baɪ ə ˈfæktɚ əv/, casually /baɪ ə ˈfæktɚ ə/ &middot; *by* keeps its full /aɪ/ and takes no weak form
+**Русский:** в … раз — во сколько раз что-то выросло или уменьшилось
+**Type:** complex &middot; **Register:** neutral to formal; scientific, technical, financial, and journalistic
+**Complement:** a **number or a numeric expression** — *two*, *ten*, *a thousand*, *2.5*, *three or four*. Never a gerund, never a finite clause, and never a bare noun of quantity: ✗ *by a factor of the population*, ✗ *by a factor of money*. It does not strand.
+**Pattern:** [verb of increase or decrease] *by a factor of* [number] &middot; [comparative] *by a factor of* [number] &middot; *off by a factor of* [number]
+**Contrast:** The multiplicative twin of additive [by](02-core-relational.md#by): *the budget went up by two million* adds, *the budget went up by a factor of two* doubles. Two errors are worth learning around. **Downward**: *reduced by a factor of ten* means divided by ten, down to a tenth — and *reduced by ten times*, which is what people reach for instead, is not English arithmetic. **Percentages**: *increased by a factor of two* is an increase of a hundred percent, so ✗ *increased by a factor of 50 percent* is a category error, and any change smaller than a doubling wants a percentage instead. Against [times](#times): *times* multiplies two named numbers (*seven times eight*), *by a factor of* names the multiplier of a change. Against [to the power of](#to-the-power-of): multiplying against exponentiating.
+
+States how many times larger or smaller something got. It is the compact way to report a change whose size is better described as a multiple than as a difference, which is most changes that run over an order of magnitude.
+
+1. Processing time dropped *by a factor of* four once the job moved off the old server.
+2. The new assay is more sensitive *by a factor of* about a thousand.
+3. Demand rose *by a factor of* three in the two weeks after the recall.
+4. The first estimate was off *by a factor of* ten, and nobody caught it until the model was rerun.
+5. Adding the second filter cut particulate counts *by a factor of* six.
+6. Legal costs have grown *by a factor of* five since the first suit was filed.
+
+**See also:** [times](#times), [to the power of](#to-the-power-of), [by](02-core-relational.md#by), [at the rate of](#at-the-rate-of), [as a function of](#as-a-function-of)
+
+### modulo
+
+**Pronunciation:** /ˈmɑdʒəˌloʊ/ &middot; *MAH-juh-loh*; also /ˈmɑdjəloʊ/ &middot; *MAH-dyuh-loh*. **No weak form** — it keeps its own stress. The clipped form *mod* is /mɑd/ &middot; *MAHD*, and it is what almost everyone actually says.
+**Русский:** по модулю (остаток от деления); жарг. — «не считая», «если отбросить»
+**Type:** simple (Latin, the ablative of *modulus*, "a small measure") &middot; **Register:** technical and neutral inside mathematics and computing; academic and programmer jargon in the extended sense, where outside a seminar room or an engineering channel it reads as showing off. **Not general American English.**
+**Complement:** in the arithmetic sense a **number or numeric expression** (*17 modulo 5*, *mod 2π*, *mod n*); in the extended sense a noun phrase naming what is being set aside (*modulo a few typos*) or a **gerund** (*modulo fixing the tests first*). Never a finite clause. It does not strand.
+**Pattern:** [number] *modulo* [number] &middot; [number] and [number] are congruent (*mod* [modulus]) &middot; [claim] *modulo* [caveat]
+**Variants:** clipped *mod* is the normal form in speech, in writing, and in code, and the parenthetical *(mod n)* is the standard notation in a congruence. The operator is written `%` in C, Java, Python, and JavaScript, `mod` in Pascal and SQL, and `%%` in R.
+**Contrast:** Sense 1 discards the quotient and keeps the remainder, which is what makes it the clock-and-calendar operator: hours run modulo 12, weekdays modulo 7. Sense 2 is the extension mathematicians made and programmers borrowed — *modulo the caveats above, the result holds* means *setting those aside* — which puts it in the family of [except for](08-accompaniment-exception.md#except-for), [apart from](08-accompaniment-exception.md#apart-from), and [leaving aside](08-accompaniment-exception.md#leaving-aside), only in a much narrower register. Against [per](#per): both are Latin and both divide, but *per* distributes a quantity over a unit while *modulo* throws the quotient away. One trap worth knowing if you write code: the mathematician's *mod* is never negative, but the `%` operator in C and Java is — `-7 % 3` is `-1` there and `2` in Python.
+
+Divides and keeps only what is left over. The arithmetic sense is the operation every clock, calendar, and check digit runs on; the extended sense borrows the same move for an argument, sweeping a remainder of small problems aside so that the main claim can go through.
+
+**1. In modular arithmetic: with the remainder after division by.**
+
+1. Seventeen *modulo* five is two.
+2. Hours on a clock are counted *mod* twelve, which is why four hours after ten is two.
+3. The check digit is the running total *modulo* eleven.
+4. Two integers are congruent *mod* nine when they leave the same remainder.
+
+**2. Except for; setting aside.** The academic and programmer extension.
+
+5. *Modulo* a few typos, the proof goes through exactly as written.
+6. The design is finished *modulo* deciding what to do about the cache.
+7. Their numbers agree with ours *modulo* the difference in sample frames.
+
+**See also:** [per](#per), [times](#times), [over](#over), [except for](08-accompaniment-exception.md#except-for), [apart from](08-accompaniment-exception.md#apart-from)
+
 ### per
 
 **Pronunciation:** /pɝ/ &middot; *PUR* (stressed, citation form); **weak /pɚ/** &middot; *pur* — **the weak form is the normal one**, and the vowel is r-colored either way, so the unstressed form rhymes with the second syllable of *water*: *sixty miles per hour* is /ˈsɪksti ˈmaɪlz pɚ ˈaʊɚ/
+**Русский:** за, на (единицу): per hour; согласно (документу) — деловой стиль; устар. посредством
 **Type:** simple (Latin *per* "through") &middot; **Register:** formal, technical, and commercial in the rate sense; the *according to* sense is business jargon
 **Complement:** in the rate sense, a **bare singular noun with no determiner**: *per hour*, *per person*, *per capita*, *per unit* — ✗ *per an hour*, ✗ *per the hour*. In the *according to* sense it does take a determiner (*per our agreement*, *per the memo*). Never a gerund, never a finite clause. It can stand postpositively with the unit understood: *forty dollars per*.
 **Pattern:** [quantity] *per* [bare unit] &middot; [quantity] *per* (unit understood) &middot; *Per* [document], [clause]
@@ -535,10 +801,11 @@ Introduces an explicit ratio of quantity to unit. It is the register-marked vers
 ### times
 
 **Pronunciation:** /taɪmz/ &middot; *TYMZ* — a full lexical word with **no weak form**; it keeps its own stress even between two stressed numerals (*seven TIMES eight*)
+**Русский:** умножить на; во столько-то раз: seven times eight — семью восемь
 **Type:** simple (a plural noun reanalyzed as a preposition) — **also the ordinary plural noun** (*three times a week*, *at times*, *the good times*), which takes no complement &middot; **Register:** neutral
 **Complement:** noun phrase — a number, a quantity, a measure noun, or a fused relative (*three times what they paid*). Never a gerund, never a finite clause. It does not strand.
 **Pattern:** [number] *times* [number] &middot; [number] *times* [the] [noun phrase] &middot; [number] *times* [comparative adjective] &middot; [number] *times* *as* [adjective] *as* [noun phrase]
-**Contrast:** As a preposition it is the spoken form of the multiplication sign, and **the phrase it heads is singular**: *Six times four is twenty-four*, not ✗ *are*. Against [by](02-core-relational.md#by): dimensions take *by* (*a three by five card*, *eight by ten glossies*), multiplication takes *times*. Against the *-fold* suffix: *threefold* attaches to the number, *three times* is a phrase. **The classic ambiguity: *three times more than* and *three times as much as* are used interchangeably in American English, but strictly the first means 4× and the second 3×** — in careful writing use *as much as*, or give both numbers. Note that *times* in *three times a week* and *at times* is the ordinary plural noun, not this preposition.
+**Contrast:** As a preposition it is the spoken form of the multiplication sign, and **the phrase it heads is singular**: *Six times four is twenty-four*, not **are*. Against [by](02-core-relational.md#by): dimensions take *by* (*a three by five card*, *eight by ten glossies*), multiplication takes *times*. Against the *-fold* suffix: *threefold* attaches to the number, *three times* is a phrase. ✗ *The classic ambiguity: *three times more than* and *three times as much as* are used interchangeably in American English, but strictly the first means 4× and the second 3×** — in careful writing use *as much as*, or give both numbers. Note that *times* in *three times a week* and *at times* is the ordinary plural noun, not this preposition.
 
 **1. Multiplied by — arithmetic.**
 
@@ -553,15 +820,37 @@ Introduces an explicit ratio of quantity to unit. It is the register-marked vers
 6. She earns ten *times* as much as she did at her first job.
 7. The new chip is roughly twenty *times* faster at the same power draw.
 
-**See also:** [by](02-core-relational.md#by), [minus](#minus), [plus](#plus), [over](#over), [to](02-core-relational.md#to)
+**See also:** [by](02-core-relational.md#by), [minus](#minus), [plus](#plus), [over](#over), [to the power of](#to-the-power-of), [to](02-core-relational.md#to)
+
+### to the power of
+
+**Pronunciation:** /tu ðə ˈpaʊɚ ʌv/ &middot; *tuh thuh POW-er uhv*; weak /tə ðə ˈpaʊɚ əv/, casually /tə ðə ˈpaʊɚ ə/ — only *pow-* carries stress, and everything on either side of it reduces
+**Русский:** в степени: two to the power of ten — два в десятой степени
+**Type:** complex &middot; **Register:** neutral; the spoken form of an exponent, standard in teaching and in reading a formula aloud
+**Complement:** a number or numeric expression, including a negative, a fraction, or a variable — *four*, *minus two*, *one half*, *n*. Never a gerund, never a finite clause. It does not strand.
+**Pattern:** [base] *to the power of* [exponent] &middot; [base] *to the* [ordinal] *power* &middot; [base] *to the* [ordinal] (clipped) &middot; [base] *to the* [variable]
+**Variants:** American speech prefers the shorter shapes — *ten to the fourth power*, *ten to the fourth*, *two to the n* — and a scientist says *ten to the ninth* where a British textbook writes *ten to the power of nine*. **At exponents two and three the phrase disappears** in favor of *squared* and *cubed*. On the page it is a superscript, a caret (*10^9*), or e-notation (*1e9*).
+**Contrast:** Against [times](#times) and [by a factor of](#by-a-factor-of): *ten times three* is thirty, *ten to the power of three* is a thousand — multiplication repeats addition, exponentiation repeats multiplication, and the gap between them opens fast. Against [over](#over), which reads the fraction bar rather than the exponent. The figurative use — *bureaucracy to the power of ten* — is a joke on the arithmetic, takes whatever number sounds worst, and does not survive into edited prose.
+
+Reads an exponent aloud. It is the one operator in this section that most Americans learned to say years before they learned to write it, which is why its clipped variants have largely taken the spoken form over.
+
+1. Two *to the power of* ten is one thousand twenty-four.
+2. The population grows roughly as e *to the power of* the growth rate times time.
+3. A byte holds two *to the eighth* distinct values.
+4. Sound intensity falls off as distance *to the power of* minus two.
+5. Ten *to the power of* six is a million, which is the conversion everybody memorizes and nobody quite trusts.
+6. In the spreadsheet the formula reads A1^3, which you say aloud as *A1 to the third power*.
+
+**See also:** [times](#times), [by a factor of](#by-a-factor-of), [over](#over), [minus](#minus), [per](#per)
 
 ## Measure, quantity, and price
 
-Every entry in this section is a way of saying *more than*, *less than*, *about*, or *for* — and in every case the plain word is shorter and usually better. What the long forms buy is precision under adversarial reading (*in excess of the deductible*), a documented sum (*in the amount of $500*), or a deliberate editorial tone (*to the tune of three hundred million*). Choose accordingly. The hedges sort themselves by how much slack they claim: *about* and *around* say **close to the number**, [close to](11-complex-multiword.md#close-to) says the same thing from below, [in the neighborhood of](#in-the-neighborhood-of) says **the right range**, [on the order of](#on-the-order-of) says **the right power of ten**, and [upward of](#upward-of) says something else again and should usually be rewritten. Two more say something about the *size* of the number rather than its accuracy: [a matter of](#a-matter-of) insists it is small, and [the better part of](#the-better-part-of) insists it is most of a larger one.
+Every entry in this section is a way of saying *more than*, *less than*, *about*, or *for* — and in every case the plain word is shorter and usually better. What the long forms buy is precision under adversarial reading (*in excess of the deductible*), a documented sum (*in the amount of $500*), or a deliberate editorial tone (*to the tune of three hundred million*). Choose accordingly. The hedges sort themselves by how much slack they claim: *about* and *around* say **close to the number**, [close to](11-complex-multiword.md#close-to) says the same thing from below, [in the neighborhood of](#in-the-neighborhood-of) says **the right range**, [on the order of](#on-the-order-of) says **the right power of ten**, and [upward of](#upward-of) says something else again and should usually be rewritten. Two more say something about the *size* of the number rather than its accuracy: [a matter of](#a-matter-of) insists it is small, and [the better part of](#the-better-part-of) insists it is most of a larger one. One does no hedging at all: [net of](#net-of) reports a figure that has already had something taken out of it, and getting it backwards changes the number on the page.
 
 ### a matter of
 
 **Pronunciation:** /ə ˈmætɚ ʌv/ &middot; *uh MAT-er uhv*; weak /ə ˈmædɚ əv/ — the *t* is a flap, so it sounds like *madder* — casually /ə ˈmædɚ ə/
+**Русский:** всего-навсего, каких-нибудь — подчёркивает, что величина мала
 **Type:** complex &middot; **Register:** neutral
 **Complement:** noun phrase naming a **small** quantity, characteristically a stretch of time (*a matter of minutes*, *a matter of a few dollars*, *a matter of inches*). Never a gerund, never a finite clause in this sense. It does not strand.
 **Pattern:** [clause] *in a matter of* [small quantity] &middot; [be] *a matter of* [small quantity] &middot; *only a matter of* [quantity]
@@ -582,6 +871,7 @@ Puts a small number on something in order to say how little of it there was. The
 ### about
 
 **Pronunciation:** /əˈbaʊt/ &middot; *uh-BOWT* — the first syllable is a bare schwa, and the whole word clips to /baʊt/ in casual speech: *'bout a hundred people*
+**Русский:** около, примерно — нейтральное приближение, близко к названному числу
 **Type:** simple &middot; **Register:** neutral; the default hedge in both speech and writing
 **Complement:** a noun phrase naming a quantity — a number, a sum, a measure, an age, a proportion. Never a gerund and never a finite clause in this sense. It does not strand. **Also an adverb of degree** (*about right*, *about finished*, *just about done*), where it has no object at all, and that is the test. *About to leave* is a near-future construction, not a prepositional phrase; *a book about running* is the topic word, treated at [about](10-topic-reference-role.md#about).
 **Pattern:** *about* [number] &middot; *about* [sum] &middot; *about* [measure] &middot; *about as* [adjective] *as* [noun phrase]
@@ -603,6 +893,7 @@ Hedges a quantity by a small margin. It is the most frequent approximator in Ame
 ### around
 
 **Pronunciation:** /əˈraʊnd/ &middot; *uh-ROWND* — clipped to /raʊnd/ in casual speech: *'round fifty bucks*
+**Русский:** около, примерно — то же, что about, но разговорнее
 **Type:** simple &middot; **Register:** neutral to informal; a shade more casual than *about*
 **Complement:** a noun phrase naming a quantity, a sum, or a measure. Never a gerund, never a finite clause. It does not strand in this sense. **Also an adverb and a verb particle** (*stick around*, *turn it around*, *the other way around*), where it has no object — that is the test.
 **Pattern:** *around* [number] &middot; *around* [sum] &middot; *somewhere around* [quantity]
@@ -623,6 +914,7 @@ Hedges a quantity, informally. It is the spoken default — in conversation Amer
 ### at the expense of
 
 **Pronunciation:** /æt ði ɪkˈspɛns ʌv/ &middot; *at thee ik-SPENSS uhv*; weak /ət ði ɪkˈspɛns əv/, casually /ət ði ɪkˈspɛns ə/
+**Русский:** в ущерб чему-л.; за чей-л. счёт (об оплате); на чей-л. счёт (о насмешке)
 **Type:** complex &middot; **Register:** neutral to formal
 **Complement:** noun phrase or gerund (*at the expense of getting any sleep*). Never a finite clause. In the payment sense a possessive replaces the *of*: *at the taxpayers' expense*, *at his own expense*.
 **Pattern:** [clause] *at the expense of* [noun phrase / verb-ing] &middot; [clause] *at* [possessive] *expense*
@@ -653,6 +945,7 @@ Hedges a quantity, informally. It is the spoken default — in conversation Amer
 ### in excess of
 
 **Pronunciation:** /ɪn ɪkˈsɛs ʌv/ &middot; *in ik-SESS uhv*; weak /ɪn ɪkˈsɛs əv/, casually /ɪn ɪkˈsɛs ə/
+**Русский:** свыше, более — офиц., юр.; твёрдая нижняя граница, а не оценка
 **Type:** complex &middot; **Register:** formal; legal, financial, and technical
 **Complement:** noun phrase, essentially always a quantity or a named threshold. Never a gerund, never a finite clause.
 **Pattern:** [quantity] *in excess of* [threshold] &middot; [clause] *in excess of* [quantity]
@@ -672,6 +965,7 @@ Marks a quantity as exceeding a stated threshold, with the threshold treated as 
 ### in the amount of
 
 **Pronunciation:** /ɪn ði əˈmaʊnt ʌv/ &middot; *in thee uh-MOWNT uhv*; weak /ɪn ði əˈmaʊnt əv/, casually /ɪn ði əˈmaʊnt ə/
+**Русский:** на сумму — канцеляр., юр.: чек, счёт, решение суда на такую-то сумму
 **Type:** complex &middot; **Register:** legal and commercial; distinctly American bureaucratic English
 **Complement:** a noun phrase naming a sum of money — figures or words. Never a gerund, never a finite clause.
 **Pattern:** [check / judgment / invoice / refund / bond] *in the amount of* [sum]
@@ -692,6 +986,7 @@ Attaches an exact sum to a financial instrument or an obligation. It states the 
 ### in the neighborhood of
 
 **Pronunciation:** /ɪn ðə ˈneɪbɚˌhʊd ʌv/ &middot; *in thuh NAY-ber-hood uhv*; weak /ɪn ðə ˈneɪbɚhʊd əv/, casually /ɪn ðə ˈneɪbɚhʊd ə/
+**Русский:** где-то около, примерно — разг.-амер.; допуск шире, чем у about
 **Type:** complex &middot; **Register:** informal to neutral; distinctly American
 **Complement:** a noun phrase naming a quantity or a sum, or a **fused relative** standing in for one (*in the neighborhood of what the appraiser said*). Never a gerund, never a finite clause.
 **Pattern:** [clause] *in the neighborhood of* [quantity] &middot; *somewhere in the neighborhood of* [quantity]
@@ -712,6 +1007,7 @@ Gives an approximate quantity while explicitly declining to be precise. The meta
 ### minus
 
 **Pronunciation:** /ˈmaɪnəs/ &middot; *MY-nuhs* — **no weak form**; the second syllable is already a schwa and the first keeps its stress
+**Русский:** минус — вычитание; ниже нуля (о температуре); разг. «без чего-л., лишившись чего-л.»
 **Type:** simple (Latin, the neuter of *minor*) — **also a noun** (*a minus*, *the minuses outweigh the pluses*) and **an adjective** (*a minus sign*, *a B-minus*), neither of which takes an object &middot; **Register:** neutral in arithmetic; informal in the *lacking* sense
 **Complement:** noun phrase or numeral. Never a gerund, never a clause. It does not strand. **In the temperature and negative-number use it is not really a preposition at all** but part of the numeral, and there it takes no preceding quantity: *minus forty*, *a minus sign*.
 **Pattern:** [number] *minus* [number] &middot; [noun phrase] *minus* [noun phrase] &middot; *minus* [number] (temperature)
@@ -737,9 +1033,31 @@ Gives an approximate quantity while explicitly declining to be precise. The meta
 
 **See also:** [plus](#plus), [times](#times), [over](#over), [minus](08-accompaniment-exception.md#minus), [less](08-accompaniment-exception.md#less), [without](08-accompaniment-exception.md#without)
 
+### net of
+
+**Pronunciation:** /ˈnɛt ʌv/ &middot; *NET uhv*; weak /ˈnɛt əv/, and at any speed the *t* flaps and the two words run together as /ˈnɛdə/ &middot; *NED-uh* — *net of taxes* comes out *NED-uh taxes*, which is why the phrase is so easy to miss in a spoken briefing
+**Русский:** за вычетом — о цифре, из которой названное уже вычтено (не «включая»)
+**Type:** complex (adjective + fixed *of*) — **bare *net* is also an adjective** (*net income*, *net weight*), a noun, an adverb (*it comes to four hundred net*), and a verb (*the sale netted him twelve thousand*), none of which takes a prepositional object &middot; **Register:** formal; accounting, finance, tax, and contract drafting — an American meets it on a closing statement, in a fund prospectus, on a pay stub, and in a commercial lease
+**Complement:** noun phrase naming what has been subtracted — a tax, a fee, a cost, a discount, a reserve, an allowance. **Never a gerund**: ✗ *net of paying the commissions* → *net of commissions*. Never a finite clause. It does not strand.
+**Pattern:** [figure] *net of* [deduction] &middot; [verb of reporting] [figure] *net of* [deduction] &middot; [proceeds / return / income] *net of* [deduction]
+**Variants:** *after* is the plain-English equivalent and what a prospectus writes for a lay reader (*returns after fees*); *less* is the older commercial subtractor (*gross pay less withholding*); *gross of* is the opposite number and lives almost entirely in investment reporting.
+**Contrast:** It reports a subtraction that has **already happened**, which is the whole difference between it and [minus](#minus) or [less](08-accompaniment-exception.md#less) — those perform one in front of you. The expensive misreading is taking it for *including*: a fund returning *seven percent net of fees* has already paid itself, so seven is what the investor keeps, while *seven percent gross of fees* is the number before the cut, and the gap between the two is the fee. Against [exclusive of](08-accompaniment-exception.md#exclusive-of): that says an item was never in the figure at all; *net of* says it was in and has been taken out. Against [after](05-time.md#after): *after* is chronological in ordinary English and only borrows this arithmetic sense inside a small set of financial phrases.
+
+Reports a figure from which a named item has already been deducted. It is the word in a financial sentence that tells you whether you are looking at what was earned or at what is left, and misplacing it moves real money.
+
+1. The fund returned just over six percent last year, *net of* fees.
+2. Proceeds *net of* closing costs came to a hundred and forty thousand.
+3. The district's obligation is stated *net of* the state reimbursement.
+4. Rent is nine hundred a month *net of* utilities, which the tenant pays directly.
+5. *Net of* the one-time charge, operating income was actually up for the quarter.
+6. Report the figure *net of* returns and allowances, not gross sales.
+
+**See also:** [minus](#minus), [less](08-accompaniment-exception.md#less), [exclusive of](08-accompaniment-exception.md#exclusive-of), [in excess of](#in-excess-of), [at the expense of](#at-the-expense-of)
+
 ### north of
 
 **Pronunciation:** /ˈnɔrθ ʌv/ &middot; *NORTH uhv*; weak /ˈnɔrθ əv/, casually /ˈnɔrθ ə/
+**Русский:** больше чем, за отметку — разг.-журн., с оттенком «внушительно много»; south of — меньше
 **Type:** complex — **bare *north* is a noun, an adjective, and an adverb** (*due north*, *the north side*, *drive north*), none of which takes an object; only *north of* is the preposition &middot; **Register:** informal; journalistic, especially in business and sports writing; American
 **Complement:** a noun phrase naming a quantity — a sum, a number, an age, a speed — or a **fused relative** standing in for one (*south of what the campaign was promising*). Never a gerund, never a finite clause.
 **Pattern:** [clause] *north of* [quantity] &middot; [noun phrase] *north of* [quantity]
@@ -760,6 +1078,7 @@ Puts a quantity above a stated number, informally and with a note of relish. The
 ### on the order of
 
 **Pronunciation:** /ɑn ði ˈɔrdɚ ʌv/ &middot; *on thee OR-der uhv*; weak /ən ði ˈɔrdɚ əv/, casually /ən ði ˈɔrdɚ ə/
+**Русский:** порядка (величины) — научн.; также «вроде, наподобие» чего-л.
 **Type:** complex &middot; **Register:** formal; scientific and technical
 **Complement:** a noun phrase naming a quantity, usually a round number or a power of ten; in the second sense, a noun phrase naming a kind of thing. Never a gerund, never a finite clause.
 **Pattern:** [clause] *on the order of* [quantity] &middot; [noun phrase] *on the order of* [noun phrase]
@@ -784,6 +1103,7 @@ Puts a quantity above a stated number, informally and with a note of relish. The
 ### over
 
 **Pronunciation:** /ˈoʊvɚ/ &middot; *OH-ver* — no weak form; the second syllable is a syllabic /ɚ/, and the flapped *over a* runs together as /ˈoʊvɚɹə/
+**Русский:** свыше, больше; сверх (бюджета, лимита); дробное «делить на»; по (телефону, почте)
 **Type:** simple &middot; **Register:** neutral
 **Complement:** noun phrase, objective-case pronoun, or a numeral; in the medium sense, a channel noun that normally keeps its article (*over the phone*, *over the air*, *over a secure line*). **Never a gerund in any of the senses below and never a finite clause** — the gerund-taking sense (*sued over failing to disclose the defect*) is the cause preposition at [over](06-cause-purpose.md#over). It strands (*the number we came in* **over**, *what did you hear it* **over**?), and **it is also an adverb and a particle** (*Come over*, *It's over*, *turn it over*), where it has no object — that is the test.
 **Pattern:** [verb] *over* [quantity] &middot; [be] *over* [budget / limit] &middot; [number] *over* [number] (a fraction) &middot; [verb of communication] *over* [the channel]
@@ -817,6 +1137,7 @@ Puts a quantity above a stated number, informally and with a note of relish. The
 ### plus
 
 **Pronunciation:** /plʌs/ &middot; *PLUHS* — **no weak form**; it is stressed even in *four plus four*, which is what keeps it audible in dictation
+**Русский:** плюс — сложение; плюс к тому (цена плюс налог); постпозитивно «с лишним»
 **Type:** simple (Latin, "more") — **also a noun** (*a real plus*, *the pluses outweigh the minuses*), **an adjective** (*a plus sign*, *a B-plus*), and **a coordinating conjunction** (*Plus, it's cheaper*), none of which takes a prepositional object &middot; **Register:** neutral in arithmetic and pricing; informal as a sentence connector
 **Complement:** noun phrase or numeral. Never a gerund in the arithmetic sense. **The informal *Plus, it's cheaper* takes a whole clause, but that is a coordinating conjunction, not this preposition.** It does not strand. Postpositively it attaches to a number with no complement at all: *fifty-plus*, *a B-plus*, *thirty years plus*.
 **Pattern:** [number] *plus* [number] &middot; [noun phrase] *plus* [noun phrase] &middot; [number]-*plus* (postpositive) &middot; *Plus*, [clause] (informal conjunction)
@@ -842,6 +1163,7 @@ Puts a quantity above a stated number, informally and with a note of relish. The
 ### shy of
 
 **Pronunciation:** /ˈʃaɪ ʌv/ &middot; *SHY uhv*; weak /ˈʃaɪ əv/, casually /ˈʃaɪ ə/
+**Русский:** не доходя до, чуть меньше: just shy of — «чуть-чуть не дотянув до»
 **Type:** complex (adjective + fixed *of*) — **bare *shy* is an ordinary adjective** (*a shy child*, *don't be shy*) and takes no object &middot; **Register:** informal to neutral; American
 **Complement:** a noun phrase naming a quantity, an age, or a point in time, or a **fused relative** standing in for one (*just shy of what the board had authorized*). Never a gerund, never a finite clause. It is nearly always preceded by a measure of the shortfall or by *just*.
 **Pattern:** [size of shortfall] *shy of* [target] &middot; *just shy of* [quantity]
@@ -861,6 +1183,7 @@ Places a quantity just below a target, with the implication that the target was 
 ### the better part of
 
 **Pronunciation:** /ðə ˈbɛtɚ ˈpɑrt ʌv/ &middot; *thuh BET-er PART uhv*; weak /ðə ˈbɛdɚ pɑrt əv/ — the *t* of *better* flaps — casually /ðə ˈbɛdɚ pɑrt ə/
+**Русский:** бо́льшая часть, почти весь — здесь better значит «бо́льший», а не «лучший»
 **Type:** complex &middot; **Register:** neutral; faintly literary
 **Complement:** noun phrase naming a **divisible** quantity — a stretch of time, a sum, a distance, a countable population. Never a gerund, never a finite clause. It does not strand.
 **Pattern:** [verb of spending or lasting] *the better part of* [quantity] &middot; *for the better part of* [stretch of time]
@@ -881,6 +1204,7 @@ Names most of a quantity while conceding it was not all of it. Whoever writes *t
 ### to the extent of
 
 **Pronunciation:** /tu ði ɪkˈstɛnt ʌv/ &middot; *tuh thee ik-STENT uhv*; weak /tə ði ɪkˈstɛnt əv/, casually /tə ði ɪkˈstɛnt ə/ — both the *to* and the *of* reduce, and only *-tent-* carries stress
+**Русский:** в пределах, в размере (верхний предел); вплоть до того, что
 **Type:** complex &middot; **Register:** formal; legal and insurance drafting
 **Complement:** noun phrase or gerund (*to the extent of resigning*). **Never a finite clause** — with a clause the phrase changes shape to *to the extent that*, which is a subordinating conjunction and a different item.
 **Pattern:** [clause] *to the extent of* [quantity / noun phrase / verb-ing] &middot; compare the conjunction: *to the extent that* [clause]
@@ -903,6 +1227,7 @@ Names most of a quantity while conceding it was not all of it. Whoever writes *t
 ### to the tune of
 
 **Pronunciation:** /tu ðə ˈtun ʌv/ &middot; *tuh thuh TOON uhv*; weak /tə ðə ˈtun əv/, casually /tə ðə ˈtun ə/
+**Русский:** на кругленькую сумму в… — журн.; всегда с оттенком осуждения или изумления
 **Type:** complex &middot; **Register:** informal to neutral; journalistic
 **Complement:** a noun phrase naming a sum of money, characteristically a large one. Never a gerund, never a finite clause.
 **Pattern:** [clause] *to the tune of* [sum]
@@ -922,6 +1247,7 @@ Attaches a large sum to an action while signaling disapproval or astonishment. T
 ### to within
 
 **Pronunciation:** /tu wɪˈðɪn/ &middot; *tuh with-IN*; weak /tə wɪˈðɪn/
+**Русский:** с точностью до — насколько близко измерение или движение подошло к цели
 **Type:** complex (a preposition stacked on a preposition) &middot; **Register:** neutral to formal; technical
 **Complement:** noun phrase naming a tolerance — a distance, a margin, a percentage. Never a gerund, never a finite clause. A trailing *of* + target is usually obligatory.
 **Pattern:** [verb of measuring or approaching] *to within* [tolerance] *of* [target]
@@ -941,6 +1267,7 @@ Marks how close a process or measurement came to a target. The *to* supplies the
 ### under
 
 **Pronunciation:** /ˈʌndɚ/ &middot; *UHN-der* — **no weak form**; before a vowel the *r* links and the *d* flaps, so *under an hour* comes out /ˈʌndɚɹən ˈaʊɚ/
+**Русский:** меньше, менее; в пределах (бюджета, нормы); младше (столько-то лет)
 **Type:** simple &middot; **Register:** neutral
 **Complement:** noun phrase, objective-case pronoun, or a numeral. Never a gerund in this sense, never a finite clause. It strands marginally (*the figure we came in* **under**) and **is also an adverb** (*The whole block went under*), where it has no object.
 **Pattern:** [verb] *under* [quantity] &middot; [be / come in] *under* [budget / limit] &middot; *under* [age]
@@ -966,6 +1293,7 @@ Marks how close a process or measurement came to a target. The *to* supplies the
 ### upward of
 
 **Pronunciation:** /ˈʌpwɚd ʌv/ &middot; *UHP-werd uhv*; weak /ˈʌpwɚd əv/, casually /ˈʌpwɚd ə/ — which is why the *-s* of *upwards* is so easy to lose in speech and so audible on the page
+**Русский:** свыше; или почти, до — двусмысленно: два прочтения указывают в разные стороны
 **Type:** complex &middot; **Register:** neutral
 **Complement:** a noun phrase naming a quantity. Never a gerund, never a finite clause.
 **Pattern:** [clause] *upward of* [quantity] &middot; [noun phrase] *upward of* [quantity]
@@ -986,6 +1314,7 @@ Places a quantity at or approaching a stated number. It is the most ambiguous of
 ### within
 
 **Pronunciation:** /wɪˈðɪn/ &middot; *with-IN*; also /wɪˈθɪn/ for some American speakers. **No weak form** — the stress is on the second syllable, and the *with*- inside it does **not** reduce to /wəθ/ the way free-standing [with](02-core-relational.md#with) does
+**Русский:** в пределах, не выходя за (допуск, бюджет, право); в радиусе (расстояния)
 **Type:** compound (Old English *wiðinnan*) &middot; **Register:** neutral to formal
 **Complement:** noun phrase or objective-case pronoun. **Never a gerund and never a finite clause** — ✗ *within finishing the job*, ✗ *within we agreed*. It does not strand. It is also an adverb in legal and literary English (*see within*, *the terms set out within*), where it has no object.
 **Pattern:** [be / fall] *within* [tolerance or limit] &middot; [verb] *within* [margin] *of* [target] &middot; *within* [budget / reason / reach / one's rights]

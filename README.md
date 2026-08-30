@@ -6,7 +6,7 @@ Traditional grammar counts **eight parts of speech**: nouns, pronouns, verbs, ad
 
 The nine word-class folders live under **[parts-of-speech/](parts-of-speech/README.md)**; the [pronunciation guide](10-pronunciation/README.md) sits alongside them, since how English sounds is not a word class.
 
-Each class folder is a self-contained README with the same ten sections: what the class does, its types, forms and inflection, position and word order, rules and patterns, common mistakes, American English notes, tricky cases, a quick reference, and practice. The four **closed classes** — prepositions, conjunctions, interjections, determiners — additionally have a `catalog/` holding a complete dictionary of that class.
+Each class folder is a self-contained README with the same ten sections: what the class does, its types, forms and inflection, position and word order, rules and patterns, common mistakes, American English notes, tricky cases, a quick reference, and practice. The five **closed classes** — pronouns, prepositions, conjunctions, interjections, determiners — additionally have a `catalog/` holding a complete dictionary of that class.
 
 ## The nine classes
 
@@ -21,6 +21,35 @@ Each class folder is a self-contained README with the same ten sections: what th
 | 7 | Conjunctions | Joins words, phrases, and clauses and marks the logical relationship between them | *and, but, or, because, although, if, either…or, that* | [Conjunctions](parts-of-speech/07-conjunctions/README.md) |
 | 8 | Interjections | Stands outside the sentence structure to express emotion, reaction, or contact | *ouch, wow, huh, uh-huh, um, yikes, oh my god* | [Interjections](parts-of-speech/08-interjections/README.md) |
 | 9 | Determiners | Opens a noun phrase and answers "which one?" or "how much / how many?" | *the, a, this, my, some, every, three, which, all* | [Determiners](parts-of-speech/09-determiners/README.md) |
+
+## Irregular & Phrasal Verbs
+
+**[03-verbs/catalog/](parts-of-speech/03-verbs/catalog/README.md)** — **366 irregular verbs**, **696 phrasal verbs** built on them, and **229 verb + preposition patterns**, built from a Russian-authored spreadsheet and grouped by **how the three forms change** rather than alphabetically: identical forms, the *i—a—u* shift (*sing/sang/sung*), past = participle with one vowel change, *-d* becoming *-t*, participle = base + *-n*, and so on. Learning the pattern beats memorizing 366 rows.
+
+- **Forms** — all three with General American pronunciation. The source spreadsheet's IPA was British RP and missing the participle for 230 verbs, so it was retranscribed
+- **Русский** — the translation from the original spreadsheet, kept verbatim
+- **Separable** — on every phrasal verb:  whether the object can split it (*turn it off*, never ✗ *turn off it*) or not (*look after it*, never ✗ *look it after*)
+- **Examples** — five or more per verb, and between them they use the base, the past, **and** the participle with *have/has/had*, because that is the form learners get wrong
+
+Traps are called out where they exist: ✗ *I begun*, ✗ *I have went*, ✗ *I seen it*; *lie/lay/lain* vs *lay/laid/laid*; *hang/hung* (objects) vs *hang/hanged* (people); *read* spelled the same but /rɛd/ in the past; and the American/British splits — *gotten*, *dreamed*, *learned*, *proved*.
+
+The verb + preposition patterns (*depend on*, *abide by*, *account for*) moved here from the preposition catalog — they are verbs, and this is where you look them up.
+
+**[Open the audio browser](parts-of-speech/03-verbs/catalog/browse.html)** — all 1,291, searchable, click any verb to hear it.
+
+## The Pronoun Dictionary
+
+**[02-pronouns/catalog/](parts-of-speech/02-pronouns/catalog/README.md)** — **512 pronouns** in 10 categories: personal, possessive, reflexive and reciprocal, demonstrative, relative, interrogative, indefinite, quantifying, fused and generic, and the archaic and dialectal forms. The class where case errors are most visible, in both directions — ✗ *Me and him went* and the hypercorrection ✗ *between you and I*.
+
+Three fields specific to this class:
+
+- **Case** — subject, object, possessive, or reflexive, with the deletion test for coordinated phrases (*He gave it to Bob and me* — try it without Bob)
+- **Refers to** — a person, a thing, or a whole preceding clause. This is what separates *who* from *which*
+- **Agreement** — the verb form it forces: *everyone **is***, *neither **is***, *both **are***
+
+It is also honest about usage rather than teaching zombie rules: *It's me* is standard, *whom* survives mainly after a preposition, and singular *they* is standard American English including in edited prose.
+
+**[Open the audio browser](parts-of-speech/02-pronouns/catalog/browse.html)** — all 448, searchable, click any entry to hear it.
 
 ## The Determiner Dictionary
 
@@ -42,13 +71,13 @@ Three fields specific to this class:
 
 ## The Preposition Dictionary
 
-**[06-prepositions/catalog/](parts-of-speech/06-prepositions/catalog/README.md)** — **583 prepositions** in 13 categories: simple, compound, multi-word, and participial. The most **polysemous** class in English, so entries number their senses rather than collapsing them into one gloss.
+**[06-prepositions/catalog/](parts-of-speech/06-prepositions/catalog/README.md)** — **1,297 prepositions** in 13 categories: simple, compound, multi-word, and participial. The most **polysemous** class in English, so entries number their senses rather than collapsing them into one gloss.
 
 - **Complement** — what may and may not follow. The line that stops *despite he was late* and *look forward to go*
 - **Reduced forms** — *of* /əv/ → /ə/, *to* /tə/, *for* /fɚ/. Prepositions reduce harder than any other class, so the weak form is what you actually hear
 - **in/on/at** and **of/to/for/from/by/with** get dedicated files, since those nine carry most of the difficulty
 
-**[Open the audio browser](parts-of-speech/06-prepositions/catalog/browse.html)** — all 583, filtered by type, register, and category.
+**[Open the audio browser](parts-of-speech/06-prepositions/catalog/browse.html)** — all 584, filtered by type, register, and category.
 
 ## Grammar topics
 

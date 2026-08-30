@@ -13,6 +13,7 @@ Two more facts run through all three entries. First, **these are the most heavil
 ### at
 
 **Pronunciation:** /æt/ &middot; *AT*; weak /ət/ &middot; *uht*
+**Русский:** у, в, на — предлог точки: точка на карте, точный момент, цель, ставка; русский предлог зависит от существительного
 The weak form is the normal one — *at* takes full stress only under contrast (*I said AT the store, not IN it*). Between vowels the /t/ flaps to /ɾ/ — an American quick *d*, not an *r* — which is what makes it so hard to hear: *at all* comes out "uh-DAWL," *at eight* "uh-DATE," *at a time* "uh-duh-TIME." Before a consonant the /t/ is unreleased or gone altogether, so *at school* is "uh-SKOOL" and *at that point* is "uh-THAT point." The one thing that never happens is loss of the whole word: *at* reduces to a schwa but does not delete, which is why *Where are you at?* still has an audible tail.
 **Type:** simple &middot; **Register:** neutral
 **Complement:** noun phrase &middot; pronoun in the objective case (*at him*, *at us*, *at whom*) &middot; gerund (*good at cooking*, *no good at explaining things*) &middot; *wh*-clause (*shocked at what it cost*, *good at what she does*) &middot; a bare article-less noun in frozen idiom only (*at work*, *at school*, *at home*, *at night*, *at war*, *at sea*). **Never a bare infinitive** (*good at to swim*) and **never a finite that-clause** — *surprised at that he left* is impossible; you must write *surprised that he left* or *surprised at the fact that he left*. The gerund may carry its own subject (*surprised at his leaving so early*, *annoyed at the neighbors parking there*), and a *wh*-word is fine (*at what point*, *at whatever price*) while *whether* is not — *it depends at whether* is impossible, because that frame belongs to [on](#on). With the reaction adjectives the three patterns divide cleanly: *shocked at the price* takes a noun phrase, *shocked that the price had doubled* takes the bare *that*-clause with no preposition at all, and *shocked by* is the ordinary passive-agent alternative. Unlike *in* and *on*, *at* has **no adverb use whatsoever**: it always has an object, even when that object has moved away.
@@ -103,6 +104,7 @@ The preposition of the point. Whatever it governs is treated as dimensionless �
 ### in
 
 **Pronunciation:** /ɪn/ &middot; *IN*; weak /ən/, frequently reduced to a syllabic /n̩/ &middot; *uhn*
+**Русский:** в — предлог вместилища: внутри, в городе, в месяце, в состоянии; о будущем сроке — «через» (через час)
 Before /p, b, m/ it assimilates: *in place* is "im-place," *in bed* "im-bed." The vowel stays full only when *in* is the adverb (*Come IN*) or under contrast.
 **Type:** simple &middot; **Register:** neutral
 **Complement:** noun phrase &middot; pronoun in the objective case (*in it*, *in them*) &middot; gerund (*interested in going*, *succeeded in getting the permit*) &middot; *wh*-clause (*a difference in what they charge*, *no say in who gets hired*) &middot; a bare noun or adjective in frozen idiom only (*in short, in general, in full, in private, in public*). **Never a bare infinitive** (*interested in to go*) and **never a finite that-clause**. The sequence *in that* + clause does exist (*It's unusual in that it has no engine*), but that is a fixed two-word subordinator meaning "insofar as" — a conjunction, not this preposition taking a clause.
@@ -213,6 +215,7 @@ The preposition of the container. Its object is a bounded space you are inside �
 ### on
 
 **Pronunciation:** /ɑn/ &middot; *AHN* — /ɔn/ &middot; *AWN* for the many American speakers who keep the *cot / caught* distinction; weak /ən/ &middot; *uhn*
+**Русский:** на — предлог поверхности и линии; с днями недели — «в», с темой — «о, по», со СМИ — «по» (по телевизору)
 *On* resists reduction slightly more than *in* and *at*, because it so often carries contrastive stress (*ON the table, not under it*), but in ordinary running speech *on the* is simply /ənðə/.
 **Type:** simple &middot; **Register:** neutral
 **Complement:** noun phrase &middot; pronoun in the objective case (*on it*, *on them*) &middot; gerund (*insist on paying*, *on arriving*) &middot; *wh*-clause (*it depends on what she says*, *a guide on how to file*). **Never a bare infinitive** (*insist on to pay*) and **never a finite that-clause** — *depends on that he comes* is impossible. Use *whether* (*depends on whether he comes*) or insert a noun: *on the grounds that*, *on the assumption that*, *on the condition that*.
@@ -397,6 +400,7 @@ Three prepositions in this class are *in* and *on* with a second word welded on:
 ### into
 
 **Pronunciation:** /ˈɪn.tu/ &middot; *IN-too*; weak /ˈɪn.tə/ &middot; *IN-tuh*; casual /ˈɪn.ə/ &middot; *IN-uh*
+**Русский:** в, внутрь — вход с пересечением границы, в отличие от статичного in; также превращение во что-то
 Stress sits on the first syllable and only the *to* reduces; the /t/ flaps or drops between vowels, so *into it* comes out "IN-uh-wit" and *get into a fight* is "geh-DIN-uh-fight." Spoken *into* and spoken *in to* are near-identical in running speech, which is why the one-word / two-word choice has to be settled by the grammar and never by the ear.
 **Type:** compound (*in* + *to*, fused) &middot; **Register:** neutral
 **Complement:** noun phrase &middot; pronoun in the objective case (*into it*, *into them*) &middot; gerund (*talked her into staying*, *got into arguing about money*, *ran into trouble finding parking*) &middot; *wh*-clause, chiefly in the inquiry sense (*an investigation into what went wrong*, *I'll look into how that happened*, *no insight into why she left*). **Never a bare infinitive** — *talked her into to stay* is impossible — and **never a finite that-clause**: *an inquiry into that the money vanished* has to become *an inquiry into the fact that the money vanished* or simply *an inquiry into the missing money*. *Into* has **no adverb use at all**; like *at*, it always has an object, even a stranded one.
@@ -462,6 +466,7 @@ The general preposition of entry: motion from outside to inside, with the bounda
 ### onto
 
 **Pronunciation:** /ˈɑn.tu/ &middot; *AHN-too*; also /ˈɔn.tu/ &middot; *AWN-too* for speakers who keep the *cot / caught* distinction; weak /ˈɑn.tə/ &middot; *AHN-tuh*
+**Русский:** на — движение на поверхность, а не положение на ней (в отличие от on); разг. be onto — «раскусить»
 As with *into*, stress stays on the first syllable and only the *to* reduces, so *onto* and *on to* are distinguishable in careful speech and usually not in fast speech — which is why the spelling has to be decided by the grammar, not by the ear.
 **Type:** compound (*on* + *to*, fused) &middot; **Register:** neutral
 **Complement:** noun phrase &middot; pronoun in the objective case (*onto it*, *onto them*) &middot; *wh*-clause in the informal "aware of" sense only (*they're onto what he's been doing*, *she's onto how the scheme works*) — everywhere else a clause is impossible. **Gerunds are marginal at best** — *onto winning* is not idiomatic, and where a gerund is wanted writers use the two-word *on to* instead (*moved on to fixing the roof*). This is the one clear complement difference between *onto* and [into](#into), which takes gerunds readily. **Never a bare infinitive** and **never a finite that-clause**: *onto that he was lying* is impossible, and the repair is *onto the fact that he was lying*. *Onto* has **no adverb use**: it always has an object.
@@ -507,6 +512,7 @@ The surface counterpart of [into](#into): motion that ends with the moving thing
 ### upon
 
 **Pronunciation:** /əˈpɑn/ &middot; *uh-PAHN*; also /əˈpɔn/ &middot; *uh-PAWN*; the first syllable is always a schwa and never takes stress
+**Русский:** книжн. на — формальный двойник on: то же значение при более высоком регистре; upon + герундий — «по»
 **Type:** compound (*up* + *on*, fused) &middot; **Register:** formal, literary, or fixed-phrase — in plain modern American prose [on](#on) is the default and *upon* is the marked choice
 **Complement:** noun phrase &middot; pronoun in the objective case (*upon it*, *upon them*) &middot; **gerund** (*upon signing the contract*, *upon arriving at the site*) — this is the one place *upon* genuinely beats *on* in modern writing &middot; *wh*-clause, exactly as with *on* (*it depends upon what the auditor finds*, *acted upon what he had been told*, *seized upon whichever number helped*). **Never a bare infinitive** (*upon to sign*) and **never a finite that-clause**: *upon that he arrived* is impossible, and the clause version is *when he arrived* or *once he had arrived*. *Upon* has **no adverb use**; the objectless *on* in *later on* can never be *later upon*.
 **Pattern:** [verb] *upon* [noun phrase] &middot; *Upon* [noun phrase / verb-ing], [main clause] &middot; [noun] *upon* [the same noun] (*row upon row*) &middot; stranded only marginally: *the fate they had stumbled* **upon**

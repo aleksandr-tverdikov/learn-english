@@ -2,6 +2,8 @@
 
 > A verb is the word that says what the subject does, experiences, or is — the engine that turns a group of words into a sentence.
 
+> **📖 Irregular or phrasal verbs?** This file covers the *grammar* of verbs. The **[verb catalog](catalog/README.md)** holds **366 irregular verbs** — grouped by how their three forms change, each with General American pronunciation for all three, a Russian translation, and its full sense inventory — plus **696 phrasal verbs** and **229 verb + preposition patterns** built on them, each saying whether it separates (*turn it off*) or not (*look after it*). There is also an **[audio browser](catalog/browse.html)**.
+
 ## 1. What it does
 
 The verb is the only word class that every complete English sentence must have. It carries the action or state, and it also carries the *time* information (tense), the *view of the action* (aspect), the *speaker's attitude* (mood and modality), and the *direction of the action* (voice). Nouns name things; verbs make things happen.

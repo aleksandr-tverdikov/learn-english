@@ -17,6 +17,7 @@ These four carry most of the work of the category, and between them they cover t
 ### a few
 
 **Pronunciation:** /ə ˈfju/ &middot; *uh FYOO*
+**Русский:** несколько — небольшое, но достаточное число исчисляемых; в отличие от few звучит позитивно
 **Type:** quantifier &middot; **Position:** central &middot; **Register:** neutral
 **Goes with:** plural countable nouns only — *a few chairs*, *a few minutes*, *a few people*. Never an uncountable noun (✗ *a few water*, ✗ *a few advice*) and never a singular countable noun (✗ *a few chair*).
 **With *of*:** *of* is **required** before another determiner or a pronoun — *a few of the students*, *a few of my friends*, *a few of them*. Never ✗ *a few the students*. Before a bare plural noun there is no *of*: *a few students*.
@@ -38,6 +39,7 @@ Marks a small but sufficient number — "some, and enough for the purpose." The 
 ### a little
 
 **Pronunciation:** /ə ˈlɪɾl̩/, carefully /ə ˈlɪtl̩/ &middot; *uh LIT-l*
+**Русский:** немного — небольшой, но достаточный объём неисчисляемого; позитивно, в отличие от little
 **Type:** quantifier &middot; **Position:** central &middot; **Register:** neutral
 **Goes with:** uncountable nouns only — *a little sugar*, *a little patience*, *a little time*. Never a plural countable noun (✗ *a little chairs*). It looks as if it takes singular countables in *a little dog*, but that is a different word: there *little* is the **adjective** meaning "small" and *a* is the ordinary article, which is why *a little dog* pluralizes to *two little dogs* while the quantifier cannot (✗ *two a little sugars*).
 **With *of*:** *of* is **required** before another determiner or a pronoun — *a little of the milk*, *a little of my time*, *a little of it*. No *of* before a bare noun: *a little milk*.
@@ -59,6 +61,7 @@ Marks a small but sufficient amount of something uncountable — "some, and enou
 ### few
 
 **Pronunciation:** /fju/ &middot; *FYOO*
+**Русский:** мало, немногие — только с исчисляемыми; отрицательный оттенок «меньше, чем хотелось бы»
 **Type:** quantifier &middot; **Position:** central when it opens the noun phrase (*few people*); postdeterminer after a central determiner (*the few people*, *her few friends*, *these few days*) &middot; **Register:** neutral to formal — in speech Americans usually say *not many* or *hardly any*
 **Goes with:** plural countable nouns only — *few people*, *few options*. Never an uncountable noun (✗ *few time*, ✗ *few money* — use *little* there) and never a singular countable noun (✗ *few option*).
 **With *of*:** *of* is **required** before another determiner or a pronoun — *few of the applicants*, *few of my colleagues*, *few of them*. Never ✗ *few the applicants*. No *of* before a bare plural: *few applicants*.
@@ -80,6 +83,7 @@ Marks a small but sufficient amount of something uncountable — "some, and enou
 ### little
 
 **Pronunciation:** /ˈlɪɾl̩/, carefully /ˈlɪtl̩/ &middot; *LIT-l*
+**Русский:** мало — только с неисчисляемыми; отрицательный оттенок «недостаточно»
 **Type:** quantifier &middot; **Position:** central when it opens the noun phrase (*little time*); postdeterminer after a central determiner (*the little time we had*) &middot; **Register:** neutral to formal; in speech Americans usually say *not much* or *hardly any*
 **Goes with:** uncountable nouns only — *little time*, *little evidence*, *little hope*. Never a plural countable noun (✗ *little options* — use *few*) and never a singular countable noun in the quantity sense. The adjective *little* meaning "small" is a different word and does take countable nouns (*a little house*, *those little birds*); the giveaway is that the adjective can be graded and compared (*littler*, *the littlest*) while the quantifier cannot.
 **With *of*:** *of* is **required** before another determiner or a pronoun — *little of the report*, *little of my time*, *little of it*. No *of* before a bare noun: *little time*.
@@ -105,6 +109,7 @@ The small quantifiers have **suppletive** comparatives: *few → fewer → fewes
 ### fewer
 
 **Pronunciation:** /ˈfjuɚ/ &middot; *FYOO-er*
+**Русский:** меньше (по числу) — сравнительная степень few, только с исчисляемыми
 **Type:** quantifier, comparative &middot; **Position:** central — *fewer* fills the central determiner slot itself and does not stack under another one: ✗ *the fewer errors*, ✗ *my fewer options*, ✗ *these fewer meetings*. The *the* of *the fewer options we have, the better* looks like a counterexample and is not: that *the* is the adverbial correlative *the*, not a determiner, which is why the frame needs its second clause to be grammatical at all. &middot; **Register:** neutral; the form careful writing requires
 **Goes with:** plural countable nouns only — *fewer errors*, *fewer cars*. Never an uncountable noun (✗ *fewer money*, ✗ *fewer information*, ✗ *fewer traffic*) and never a singular countable noun. This is the one direction of the *fewer/less* question with no usage debate: *fewer* simply cannot take a mass noun.
 **With *of*:** *of* is **required** before another determiner or a pronoun — *fewer of the errors*, *fewer of them*. No *of* before a bare plural: *fewer errors*.
@@ -126,6 +131,7 @@ Names a smaller number than some other number, stated or implied. As a pronoun i
 ### fewest
 
 **Pronunciation:** /ˈfjuɪst/ &middot; *FYOO-ist*
+**Русский:** наименьшее число — превосходная степень few, только с исчисляемыми
 **Type:** quantifier, superlative &middot; **Position:** postdeterminer — it normally follows *the* or a possessive (*the fewest complaints*, *our fewest injuries in years*); bare *fewest* occurs mainly in comparative frames (*whoever has fewest points*) &middot; **Register:** neutral, slightly formal; *the least number of* and *the smallest number of* are commoner in speech
 **Goes with:** plural countable nouns only — *the fewest errors*, *the fewest votes*. Never an uncountable noun (✗ *the fewest money*) and never a singular countable noun.
 **With *of*:** *of* is possible but heavy — *the fewest of the complaints* is grammatical and rarely said; the natural form attaches *fewest* directly to a bare plural. *Of* is required in the partitive pronoun use: *the fewest of them*.
@@ -147,6 +153,7 @@ Names the smallest number in a compared set — the superlative of *few* and *fe
 ### least
 
 **Pronunciation:** /list/ &middot; *LEEST*
+**Русский:** наименьшее количество — превосходная степень little, с неисчисляемыми
 **Type:** quantifier, superlative &middot; **Position:** postdeterminer — it normally follows *the* (*the least trouble*); bare *least* survives in fixed phrases (*the path of least resistance*, *least said, soonest mended*) &middot; **Register:** neutral
 **Goes with:** uncountable nouns only in the quantity sense — *the least trouble*, *the least effort*, *the least resistance*. Never a plural countable noun (✗ *the least errors* — use *the fewest*) and never a singular countable noun.
 **With *of*:** *of* is **required** before another determiner or a pronoun — *the least of the damage*, *the least of my worries*, *the least of them*. Most of these are pronoun uses with no following noun.
@@ -168,6 +175,7 @@ Names the smallest amount in a compared set — the superlative of *little* and 
 ### less
 
 **Pronunciation:** /lɛs/ &middot; *LESS*
+**Русский:** меньше (по количеству) — сравнительная степень little, с неисчисляемыми
 **Type:** quantifier, comparative &middot; **Position:** central — *less* fills the central determiner slot itself and does not stack under another one: ✗ *the less noise*, ✗ *my less time*. In *the less attention it gets, the better*, the *the* is the adverbial correlative *the*, not a determiner, so that frame is no exception either. &middot; **Register:** neutral
 **Goes with:** uncountable nouns — *less water*, *less noise*, *less enthusiasm*. It also goes, in fully standard usage, with **plural measures of distance, time, money, weight, and percentage** treated as one amount: *less than three miles*, *less than five years*, *less than $50*, *less than ten pounds*. With ordinary plural countable nouns (*less people*, *less options*) it is common in American speech and signage but is corrected to *fewer* in edited prose. It never takes a singular countable noun.
 **With *of*:** *of* is **required** before another determiner or a pronoun — *less of the cake*, *less of my time*, *less of it*. No *of* before a bare noun: *less cake*.
@@ -193,6 +201,7 @@ Almost everything in this section counts: these take plural countable nouns and 
 ### a couple of
 
 **Pronunciation:** /ə ˈkʌpl̩ əv/ &middot; *uh KUP-l uhv*; in ordinary speech *of* reduces to /ə/ and the phrase comes out *uh KUP-luh*
+**Русский:** пара, парочка — два, а нестрого два-три; самое обиходное малое число
 **Type:** quantifier (partitive phrase) &middot; **Position:** central — the phrase as a whole fills the central determiner slot &middot; **Register:** neutral; the *of*-less form is informal spoken American
 **Goes with:** plural countable nouns only — *a couple of days*, *a couple of people*. Never an uncountable noun (✗ *a couple of water*, ✗ *a couple of advice*) and never a singular countable noun.
 **With *of*:** *of* is part of the phrase and is **required** in writing — *a couple of days*, *a couple of the students*, *a couple of them*. In casual American speech *of* is routinely dropped before a bare noun (*a couple days*, *a couple times*, *a couple hundred bucks*); this is very common and still nonstandard in edited prose. It is never dropped before a pronoun: ✗ *a couple them*.
@@ -214,6 +223,7 @@ Names two, or loosely two or three, of something counted. It is the most everyda
 ### a handful of
 
 **Pronunciation:** /ə ˈhændfʊl əv/ &middot; *uh HAND-full uhv*
+**Русский:** горстка — небольшое число, примерно пять
 **Type:** quantifier (partitive phrase) &middot; **Position:** central &middot; **Register:** neutral
 **Goes with:** plural countable nouns in the quantifying sense — *a handful of people*, *a handful of complaints*. It also takes uncountable nouns in the literal sense of what fits in a hand — *a handful of sand*, *a handful of rice*. Never a singular countable noun.
 **With *of*:** obligatory — *of* is part of the phrase. Before another determiner or pronoun it stays: *a handful of the survivors*, *a handful of them*.
@@ -235,6 +245,7 @@ Names a small number, around five, of counted things — or literally as much as
 ### a matter of
 
 **Pronunciation:** /ə ˈmæɾɚ əv/ &middot; *uh MAT-er uhv*
+**Русский:** всего каких-нибудь — о поразительно малом сроке, расстоянии или сумме
 **Type:** quantifier (partitive phrase) &middot; **Position:** central &middot; **Register:** neutral
 **Goes with:** plural countable nouns, and almost only **units of time, distance, or money** — *a matter of days*, *a matter of inches*, *a matter of dollars*, *a matter of degrees*. It does not take ordinary plural nouns (✗ *a matter of students*), does not take an uncountable noun in this sense, and takes a singular countable noun only in the unrelated topic sense (*a matter of principle*).
 **With *of*:** obligatory and structural — *of* is part of the phrase.
@@ -256,6 +267,7 @@ Names a strikingly small span of time, distance, or money — "only this much, a
 ### a number of
 
 **Pronunciation:** /ə ˈnʌmbɚ əv/ &middot; *uh NUM-ber uhv*
+**Русский:** ряд, некоторое количество — неопределённое умеренное число исчисляемых
 **Type:** quantifier (partitive phrase) &middot; **Position:** central &middot; **Register:** neutral, faintly formal — common in reports and journalism
 **Goes with:** plural countable nouns only — *a number of issues*, *a number of the delegates*. Never an uncountable noun (✗ *a number of information* — use *an amount of*) and never a singular countable noun.
 **With *of*:** obligatory and structural — *of* is part of the phrase, and it stays before another determiner or a pronoun: *a number of the students*, *a number of them*.
@@ -277,6 +289,7 @@ Names a vague, moderate quantity of counted things — more than a couple, not e
 ### a sample of
 
 **Pronunciation:** /ə ˈsæmpl̩ əv/ &middot; *uh SAM-pl uhv* — the *of* reduces to /ə/ in ordinary speech, giving *uh SAM-pluh*
+**Русский:** выборка, образец — малая часть, взятая как представитель целого
 **Type:** quantifier (partitive phrase) &middot; **Position:** central &middot; **Register:** neutral, leaning technical — the ordinary word of survey research, market research, quality control, and the laboratory
 **Goes with:** plural countable nouns (*a sample of voters*, *a sample of 400 households*) and uncountable nouns in the literal, physical sense (*a sample of blood*, *a sample of the soil*, *a sample of the fabric*). Never a singular countable noun in the quantity sense (✗ *a sample of respondent*). It wants a **specified** whole behind it: *a sample of the population* is natural, bare ✗ *a sample of population* is not.
 **With *of*:** obligatory and structural — *of* is part of the phrase and stays before another determiner or a pronoun: *a sample of the students*, *a sample of them*. When the whole is already understood the phrase drops to the bare noun *a sample* (*we took a sample*), and that is a noun, not this quantifier.
@@ -298,6 +311,7 @@ Names a small part drawn from a larger whole and treated as standing for it — 
 ### a smattering of
 
 **Pronunciation:** /ə ˈsmæɾərɪŋ əv/ &middot; *uh SMAT-er-ing uhv*
+**Русский:** крупицы, разрозненные немногие — мало и вразброс, а не в куче
 **Type:** quantifier (partitive phrase) &middot; **Position:** central &middot; **Register:** neutral to literary
 **Goes with:** both plural countable nouns (*a smattering of tourists*, *a smattering of gray hairs*, *a smattering of complaints*) and uncountable nouns — mass nouns such as *snow*, *rain*, and *applause*, and especially the names of languages and fields of knowledge (*a smattering of Spanish*, *a smattering of physics*). Never a singular countable noun. Note which side *applause* falls on: it is uncountable, so *a smattering of applause* is an uncountable use, and ✗ *a smattering of applauses* is impossible.
 **With *of*:** obligatory and structural.
@@ -319,6 +333,7 @@ Names a small number or amount thinly distributed — few, and scattered rather 
 ### a subset of
 
 **Pronunciation:** /ə ˈsʌbˌsɛt əv/ &middot; *uh SUB-set uhv* — main stress on *SUB*; the *of* reduces to /ə/, giving *uh SUB-set uh*
+**Русский:** подмножество, часть — термин: группа внутри большей, названной группы
 **Type:** quantifier (partitive phrase) &middot; **Position:** central &middot; **Register:** technical — mathematics, statistics, computing, and medicine, plus the corporate prose that borrowed the word from them. It is not a word of ordinary conversation, and *some of* usually says the same thing more plainly.
 **Goes with:** plural countable nouns (*a subset of users*, *a subset of the patients*) and the mass-like collective nouns of data work (*a subset of the data*, *a subset of the population*, *a subset of the code*). Never a singular countable noun (✗ *a subset of user*). Like *a sample of* it wants a **specified** whole behind it: *a subset of the records* rather than bare *a subset of records*.
 **With *of*:** obligatory and structural, and it takes a **definite** complement far more often than the other partitives in this file — *a subset of the responses*, *a subset of them*.
@@ -340,6 +355,7 @@ Names a group whose members all belong to some larger, specified group — the t
 ### one or two
 
 **Pronunciation:** /ˌwʌn ɚ ˈtu/ &middot; *wun er TOO*
+**Русский:** один-два — очень малое число, намеренно неточное
 **Type:** quantifier (coordinated numeral phrase) &middot; **Position:** central &middot; **Register:** neutral, conversational
 **Goes with:** plural countable nouns only — *one or two things*, *one or two people*. Never an uncountable noun (✗ *one or two water*) and never a singular countable noun, despite the *one* — the noun is plural because the phrase as a whole is: *One or two things are missing*, not ✗ *is missing*.
 **With *of*:** *of* is **required** before another determiner or a pronoun — *one or two of the chapters*, *one or two of them*. No *of* before a bare plural: *one or two chapters*.
@@ -361,6 +377,7 @@ Names a very small number of counted things, with the vagueness built in on purp
 ### several
 
 **Pronunciation:** /ˈsɛvrəl/, also /ˈsɛvərəl/ &middot; *SEV-ruhl*
+**Русский:** несколько — больше двух, но не много; нарочито неопределённо
 **Type:** quantifier &middot; **Position:** central when it opens the noun phrase (*several people*); postdeterminer after a central determiner in formal use (*her several attempts*, *the several states*) &middot; **Register:** neutral
 **Goes with:** plural countable nouns only — *several emails*, *several weeks*. Never an uncountable noun (✗ *several information*, ✗ *several furniture*) and never a singular countable noun (✗ *several email*).
 **With *of*:** *of* is **required** before another determiner or a pronoun — *several of the students*, *several of my colleagues*, *several of them*. Never ✗ *several the students*. No *of* before a bare plural: *several students*.
@@ -382,6 +399,7 @@ Names a number that is more than two and fewer than many, left deliberately impr
 ### some
 
 **Pronunciation:** /səm/, stressed /sʌm/ &middot; *suhm* (weak) / *SUM* (strong) &middot; the weak /səm/ is the ordinary determiner and is what learners actually hear — *some milk* comes out [sm̩ ˈmɪlk]; the strong /sʌm/ appears only in the "a certain" and admiring senses below
+**Русский:** немного, несколько — неопределённая часть; под ударением перед ед. ч. «какой-то, некий»
 **Type:** quantifier (general/indefinite) &middot; **Position:** central &middot; **Register:** neutral
 **Goes with:** plural countable nouns (*some chairs*) and uncountable nouns (*some water*) in the quantity sense — this is one of the few quantifiers that takes both. It also takes a **singular countable** noun, but only in the separate "a certain, unidentified" sense (*some guy called*); ✗ *some chair* is impossible as a statement of quantity.
 **With *of*:** *of* is **required** before another determiner or a pronoun — *some of the milk*, *some of my friends*, *some of them*. Never ✗ *some the milk*, never ✗ *some them*. No *of* before a bare noun: *some milk*, not ✗ *some of milk*.
@@ -404,6 +422,7 @@ Names a number that is more than two and fewer than many, left deliberately impr
 ### the occasional
 
 **Pronunciation:** /ði əˈkeɪʒənl̩/ &middot; *thee uh-KAY-zhuh-nl* — *the* takes its pre-vowel form /ði/ here, because *occasional* begins with the vowel /ə/
+**Русский:** редкий, изредка попадающийся — мало по частоте, а не по счёту
 **Type:** quantifier (fixed frame: *the* + *occasional*) &middot; **Position:** *the* fills the central determiner slot and *occasional* behaves as a postdeterminer inside the frame &middot; **Register:** neutral — the plain American equivalent of British-flavored *the odd*, and the form to reach for in American writing and speech alike
 **Goes with:** singular countable nouns in this frame — *the occasional mistake*, *the occasional email*, *the occasional late night*. Never an uncountable noun in the quantity sense (✗ *the occasional traffic*). It does combine with plural countable nouns (*occasional showers*, *occasional delays*), but that is the plain adjective of frequency doing ordinary adjective work, not this determiner frame, and there it usually appears without *the*.
 **With *of*:** Not used — the frame takes no *of*-phrase. ✗ *the occasional of them* is impossible; the partitive is built on *one*: *the occasional one of them*.
@@ -425,6 +444,7 @@ Names something that turns up now and then, at irregular intervals — small in 
 ### the odd
 
 **Pronunciation:** /ði ˈɑd/ &middot; *thee AHD* — *the* takes its pre-vowel form /ði/ here
+**Русский:** редкий, время от времени попадающийся — брит. оттенок; амер. эквивалент the occasional
 **Type:** quantifier (fixed frame: *the* + *odd*) &middot; **Position:** *the* fills the central determiner slot and *odd* behaves as a postdeterminer inside the frame &middot; **Register:** neutral but distinctly British-flavored; understood everywhere in American English and used mainly in writing with a dry tone. The plain American equivalent is *the occasional*.
 **Goes with:** singular countable nouns only — *the odd mistake*, *the odd typo*, *the odd rainy day*. Along with *the occasional* it is one of only two quantifiers in this file that requires a **singular** noun. Never a plural countable noun (✗ *the odd mistakes*) and never an uncountable noun (✗ *the odd traffic*).
 **With *of*:** Not used — this word takes no *of*-phrase. ✗ *the odd of them* is impossible; the partitive is built on *one*: *the odd one of them*.
@@ -450,6 +470,7 @@ These are partitive phrases — [*a* + measure noun + *of*], or [*an* + measure 
 ### a bit of
 
 **Pronunciation:** /ə ˈbɪt əv/ &middot; *uh BIT uhv*
+**Русский:** немного, чуть-чуть — малое количество неисчисляемого
 **Type:** quantifier (partitive phrase) &middot; **Position:** central &middot; **Register:** neutral to informal
 **Goes with:** uncountable nouns — *a bit of luck*, *a bit of trouble*, *a bit of advice*. It reaches singular countable nouns only through the doubled frame *a bit of a* + noun (*a bit of a problem*, *a bit of a mess*), where the second *a* is obligatory: ✗ *a bit of problem*. Never a plural countable noun (✗ *a bit of chairs*).
 **With *of*:** obligatory and structural — *of* is part of the phrase and cannot be dropped: *a bit of sugar*, *a bit of the cake*, *a bit of it*.
@@ -471,6 +492,7 @@ Names a small amount of something uncountable, or with the *of a* frame, a mild 
 ### a dab of
 
 **Pronunciation:** /ə ˈdæb əv/ &middot; *uh DAB uhv* — the *of* reduces to /ə/, giving *uh DAB uh*
+**Русский:** капелька, мазок — совсем чуть-чуть мягкого или намазывающегося
 **Type:** quantifier (partitive phrase) &middot; **Position:** central &middot; **Register:** neutral, leaning informal; a domestic, hands-on word at home in kitchens, bathrooms, and workshops
 **Goes with:** uncountable nouns naming soft or spreadable substances — *a dab of butter*, *a dab of glue*, *a dab of paint*, *a dab of toothpaste*, *a dab of ointment*. Figurative use is rare and stays close to the literal (*a dab of color*). Never a plural countable noun (✗ *a dab of crumbs*) and never a singular countable noun.
 **With *of*:** obligatory and structural — ✗ *a dab butter*.
@@ -492,6 +514,7 @@ Names a very small quantity of something soft or spreadable — the amount you w
 ### a dash of
 
 **Pronunciation:** /ə ˈdæʃ əv/ &middot; *uh DASH uhv*
+**Русский:** щепотка, капля — чуть-чуть добавленного, в кулинарии и переносно
 **Type:** quantifier (partitive phrase) &middot; **Position:** central &middot; **Register:** neutral; at home in recipes and in descriptive writing
 **Goes with:** uncountable nouns — seasonings and liquids literally (*a dash of salt*, *a dash of bitters*), and by extension qualities and abstractions (*a dash of humor*, *a dash of color*, *a dash of skepticism*). Never a plural countable noun and never a singular countable noun.
 **With *of*:** obligatory and structural.
@@ -513,6 +536,7 @@ Names a very small quantity added to something else — literally in cooking, fi
 ### a dollop of
 
 **Pronunciation:** /ə ˈdɑləp əv/ &middot; *uh DAHL-up uhv* — the *of* reduces to /ə/, giving *uh DAHL-up uh*
+**Русский:** ложка, шматок — мягкая округлая порция; самая щедрая из «малых» мер
 **Type:** quantifier (partitive phrase) &middot; **Position:** central &middot; **Register:** neutral; culinary first, and mildly playful when it goes figurative
 **Goes with:** uncountable nouns naming soft, semi-solid foods above all — *a dollop of sour cream*, *a dollop of whipped cream*, *a dollop of jam*, *a dollop of mashed potatoes* — and by extension abstract nouns, usually with a humorous tilt (*a dollop of nostalgia*, *a dollop of self-pity*). Never a plural countable noun and never a singular countable noun.
 **With *of*:** obligatory and structural.
@@ -534,6 +558,7 @@ Names a soft, rounded spoonful of something — small, but the most generous of 
 ### a drop of
 
 **Pronunciation:** /ə ˈdrɑp əv/ &middot; *uh DRAHP uhv*
+**Русский:** капля — мельчайшее количество жидкости; при отрицании «ни капли»
 **Type:** quantifier (partitive phrase) &middot; **Position:** central &middot; **Register:** neutral
 **Goes with:** uncountable nouns, chiefly liquids (*a drop of water*, *a drop of blood*, *a drop of rain*) and, under negation, abstract qualities (*not a drop of sympathy*). Never a plural countable noun and never a singular countable noun.
 **With *of*:** obligatory and structural.
@@ -555,6 +580,7 @@ Names the smallest visible quantity of a liquid, and by extension, under negatio
 ### a glimmer of
 
 **Pronunciation:** /ə ˈglɪmɚ əv/ &middot; *uh GLIM-er uhv* — the *of* reduces to /ə/, giving *uh GLIM-er uh*
+**Русский:** проблеск — слабый, но различимый след (надежды, интереса)
 **Type:** quantifier (partitive phrase) &middot; **Position:** central &middot; **Register:** neutral to literary; common in journalism and in ordinary speech about difficult situations
 **Goes with:** uncountable **abstract** nouns, and a short list of them at that — *hope* above all, then *light*, *recognition*, *interest*, *understanding*, *doubt*, *humor*. *A glimmer of hope* accounts for most uses of the phrase in American English. It reaches a singular countable noun only where that noun names an expression or a quality (*a glimmer of a smile*), and the second article is then required. Never a plural countable noun (✗ *a glimmer of options*) and never a concrete substance (✗ *a glimmer of flour*).
 **With *of*:** obligatory and structural. The literal noun behind the quantifier is an ordinary countable one (*a glimmer on the water*, *the first glimmers of dawn*), and that noun takes no *of*-phrase.
@@ -576,6 +602,7 @@ Names a small, faint, but unmistakable amount of an abstract quality — enough 
 ### a hint of
 
 **Pronunciation:** /ə ˈhɪnt əv/ &middot; *uh HINT uhv*
+**Русский:** намёк, лёгкий оттенок — едва уловимое количество
 **Type:** quantifier (partitive phrase) &middot; **Position:** central &middot; **Register:** neutral to literary
 **Goes with:** uncountable nouns, especially perceptions and qualities registered at the edge of noticing — flavors, smells, sounds, colors, accents, and emotions: *a hint of lemon*, *a hint of an accent*, *a hint of sarcasm*. Never a plural countable noun. It reaches a singular countable noun only where that noun names a quality or feature (*a hint of a smile*, *a hint of an accent*), and there the second article is required.
 **With *of*:** obligatory and structural.
@@ -597,6 +624,7 @@ Names a barely perceptible amount — enough to notice, not enough to name.
 ### a little bit of
 
 **Pronunciation:** /ə ˌlɪɾl̩ ˈbɪt əv/ &middot; *uh LIT-l BIT uhv*
+**Русский:** чуть-чуть, самая малость — разг., с подчёркнутой малостью
 **Type:** quantifier (partitive phrase) &middot; **Position:** central &middot; **Register:** informal to neutral; conversational
 **Goes with:** uncountable nouns — *a little bit of sugar*, *a little bit of help*, *a little bit of trouble*. Like *a bit of*, it reaches singular countable nouns only through *a little bit of a* + noun (*a little bit of a problem*). Never a plural countable noun.
 **With *of*:** obligatory and structural — *of* cannot be dropped.
@@ -618,6 +646,7 @@ Names a small amount of something uncountable, with the smallness underlined —
 ### a mite of
 
 **Pronunciation:** /ə ˈmaɪt əv/ &middot; *uh MYTE uhv* — the *of* reduces to /ə/, giving *uh MYTE uh*
+**Русский:** капелька, самая малость — устар. и диал. (южные штаты); наречное a mite живо
 **Type:** quantifier (partitive phrase) &middot; **Position:** central &middot; **Register:** **old-fashioned and rural-flavored.** Before a noun (*a mite of trouble*) it now belongs to older Southern and Midland speech and to fiction reproducing it. What survives nationally is the **adverbial** *a mite* — *a mite tired*, *a mite early* — which every American recognizes as folksy but current. Read this one; do not write it.
 **Goes with:** uncountable nouns, usually abstract and usually naming mild trouble or mild comfort — *a mite of trouble*, *a mite of sense*, *a mite of comfort*, *a mite of luck*. Never a plural countable noun and never a singular countable noun.
 **With *of*:** obligatory in the determiner use — ✗ *a mite trouble*. The *of* is exactly what separates the determiner from the surviving adverb: *a mite of trouble* is a quantity, *a mite tired* is a degree.
@@ -639,6 +668,7 @@ Names a very small amount of something uncountable — an older, countrified way
 ### a modicum of
 
 **Pronunciation:** /ə ˈmɑdɪkəm əv/ &middot; *uh MAH-dih-kum uhv*
+**Русский:** толика, хоть сколько-нибудь — книжн.: минимум приличного количества
 **Type:** quantifier (partitive phrase) &middot; **Position:** central &middot; **Register:** formal, often faintly reproachful
 **Goes with:** uncountable **abstract** nouns only — *a modicum of respect*, *a modicum of decency*, *a modicum of success*, *a modicum of privacy*, *a modicum of common sense*. It does not take concrete substances (✗ *a modicum of water*, ✗ *a modicum of flour*), does not take a plural countable noun, and does not take a singular countable noun. This abstract-only restriction is tighter than that of any other entry in the section.
 **With *of*:** obligatory and structural.
@@ -660,6 +690,7 @@ Names the minimum decent or acceptable amount of an abstract quality — small, 
 ### a pinch of
 
 **Pronunciation:** /ə ˈpɪntʃ əv/ &middot; *uh PINCH uhv*; in ordinary speech the *of* reduces to /ə/ — *uh PINCH uh salt*
+**Русский:** щепотка — кулинарная мера сыпучего, и переносно совсем чуть-чуть
 **Type:** quantifier (partitive phrase) &middot; **Position:** central &middot; **Register:** neutral; the standard small measure of American recipes
 **Goes with:** uncountable nouns — dry, granular seasonings literally (*a pinch of salt*, *a pinch of saffron*, *a pinch of cinnamon*), and by extension abstract qualities (*a pinch of luck*, *a pinch of skepticism*). Never a plural countable noun (✗ *a pinch of raisins*) and never a singular countable noun (✗ *a pinch of onion* in the quantity sense).
 **With *of*:** obligatory and structural — *of* is part of the phrase and cannot be dropped: *a pinch of salt*, *a pinch of the spice mix*, *a pinch of it*.
@@ -681,6 +712,7 @@ Names the smallest cooking measure of a dry ingredient — as much as two finger
 ### a shade of
 
 **Pronunciation:** /ə ˈʃeɪd əv/ &middot; *uh SHAYD uhv*
+**Русский:** тень, оттенок — малейшая степень качества, чаще при отрицании; неск. устар.
 **Type:** quantifier (partitive phrase) &middot; **Position:** central &middot; **Register:** literary and slightly dated as a determiner; the adverbial *a shade* is the living form
 **Goes with:** uncountable abstract nouns naming degrees and qualities — *a shade of doubt*, *a shade of irony*, *not a shade of difference*. It does not take a plural countable noun and does not take a concrete substance. In the very common sense "a variety of color," *shade of* is an ordinary countable noun rather than a quantifier (*a shade of blue*, *three shades of gray*), and that use pluralizes freely — which the quantifier does not.
 **With *of*:** obligatory and structural.
@@ -702,6 +734,7 @@ Names the very slightest degree of a quality, most naturally in a negative sente
 ### a skosh of
 
 **Pronunciation:** /ə ˈskoʊʃ əv/ &middot; *uh SKOHSH uhv* — the vowel is the one in *go*; the *of* reduces to /ə/, giving *uh SKOHSH uh*
+**Русский:** чуточку, самую малость — амер. сленг, из японского sukoshi
 **Type:** quantifier (partitive phrase) &middot; **Position:** central &middot; **Register:** **American slang, informal only.** It is a borrowing of Japanese *sukoshi* "a little," carried home by American servicemen stationed in Japan and Korea in the late 1940s and 1950s, and it spread from military slang into general casual speech. Americans meet it in conversation, in cooking talk, and in advertising copy — Levi's sold jeans with "a skosh more room" for years. It does not appear in formal writing.
 **Goes with:** uncountable nouns — *a skosh of milk*, *a skosh of salt*, *a skosh of patience*. Never a plural countable noun and never a singular countable noun. Like *a tad*, it is used at least as often with no noun at all, as an adverb of degree (*a skosh more*, *a skosh too salty*).
 **With *of*:** obligatory when a noun follows — ✗ *a skosh milk*. Without *of* the word is an adverb or a pronoun, not a determiner: *a skosh too salty*, *just a skosh*.
@@ -723,6 +756,7 @@ Names a very small amount of something uncountable — the slangiest of the casu
 ### a sliver of
 
 **Pronunciation:** /ə ˈslɪvɚ əv/ &middot; *uh SLIV-er uhv* — the *of* reduces to /ə/, giving *uh SLIV-er uh*
+**Русский:** тонкий ломтик, щепка — узкий кусочек, отделённый от большего
 **Type:** quantifier (partitive phrase) &middot; **Position:** central &middot; **Register:** neutral; at home in food writing, journalism, and physical description
 **Goes with:** uncountable nouns for things that can be cut or split thin — *a sliver of cheese*, *a sliver of glass*, *a sliver of light*, *a sliver of moon* — and abstract nouns in the figurative sense (*a sliver of hope*, *a sliver of doubt*, *a sliver of the market*). With a singular countable noun the second article is required: *a sliver of a chance*. Never a plural countable noun (✗ *a sliver of crackers*).
 **With *of*:** obligatory and structural.
@@ -744,6 +778,7 @@ Names a thin, narrow piece cut or broken from something larger — small in a wa
 ### a speck of
 
 **Pronunciation:** /ə ˈspɛk əv/ &middot; *uh SPEK uhv* — the *of* reduces to /ə/, giving *uh SPEK uh*
+**Русский:** крупица, пылинка — мельчайшая частица; почти всегда при отрицании «ни крупицы»
 **Type:** quantifier (partitive phrase) &middot; **Position:** central &middot; **Register:** neutral; the negative frame *not a speck of* is much the commonest use in speech
 **Goes with:** uncountable nouns naming fine, granular, or particulate matter — *a speck of dust*, *a speck of dirt*, *a speck of blood*, *a speck of paint* — and, under negation, abstract nouns (*not a speck of evidence*, *not a speck of sympathy*). Never a plural countable noun and never a singular countable noun.
 **With *of*:** obligatory and structural in the quantifier use. The bare countable noun *a speck* meaning a tiny dot is a different word and takes no *of*-phrase: *a speck on the horizon*.
@@ -765,6 +800,7 @@ Names the smallest visible piece of a fine or granular substance — and by exte
 ### a spot of
 
 **Pronunciation:** /ə ˈspɑt əv/ &middot; *uh SPAHT uhv*
+**Русский:** немножко — брит.: a spot of tea, a spot of trouble; в амер. англ. шутливо
 **Type:** quantifier (partitive phrase) &middot; **Position:** central &middot; **Register:** **chiefly British.** In American English it survives in a narrow band of set phrases — *a spot of trouble*, *a spot of bother*, *a spot of tea*, *a spot of lunch* — and almost always with a deliberately arch or jocular British flavor. It is not neutral American usage, and a learner should recognize it rather than reach for it.
 **Goes with:** uncountable nouns — *a spot of trouble*, *a spot of rain*, *a spot of tea*. Never a plural countable noun and never a singular countable noun.
 **With *of*:** obligatory and structural.
@@ -786,6 +822,7 @@ Names a small amount of something uncountable — a British quantifier that Amer
 ### a tad of
 
 **Pronunciation:** /ə ˈtæd əv/ &middot; *uh TAD uhv* — the *of* reduces to /ə/, giving *uh TAD uh*
+**Русский:** чуточку — разг. амер., часто как преуменьшение
 **Type:** quantifier (partitive phrase) &middot; **Position:** central &middot; **Register:** informal, thoroughly American and thoroughly current in speech; rare in edited writing, which trades it for *a little* or *slightly*
 **Goes with:** uncountable nouns — *a tad of salt*, *a tad of luck*, *a tad of patience*. Never a plural countable noun and never a singular countable noun. Note that the *of*-less uses are far commoner than this determiner one: *a tad* is heard mostly as an adverb of degree (*a tad late*, *a tad expensive*, *a tad too sweet*) or as a bare pronoun (*just a tad*).
 **With *of*:** **obligatory whenever a noun follows** — ✗ *a tad salt*. Drop the *of* and the word stops being a determiner: *a tad of sugar* is a quantity, *a tad sweet* is a degree, and only the first belongs in this file.
@@ -807,6 +844,7 @@ Names a very small amount of something uncountable — the plainest of the casua
 ### a touch of
 
 **Pronunciation:** /ə ˈtʌtʃ əv/ &middot; *uh TUCH uhv*
+**Русский:** нотка, лёгкая примесь — немного, но достаточно, чтобы изменить оттенок целого
 **Type:** quantifier (partitive phrase) &middot; **Position:** central &middot; **Register:** neutral; thoroughly at home in American English
 **Goes with:** uncountable nouns — flavors, colors, qualities, and mild illnesses: *a touch of garlic*, *a touch of gray*, *a touch of class*, *a touch of frost*. Never a plural countable noun and never a singular countable noun in the quantity sense. With illnesses it takes an idiosyncratic definite article: *a touch of the flu*, *a touch of the blues* — an unusual double determiner licensed only by this frame.
 **With *of*:** obligatory and structural.
@@ -828,6 +866,7 @@ Names a small amount added to or present in something — enough to change the c
 ### a trace of
 
 **Pronunciation:** /ə ˈtreɪs əv/ &middot; *uh TRAYSS uhv*
+**Русский:** след, следы — мельчайшее обнаружимое количество; тех. и криминалистическое
 **Type:** quantifier (partitive phrase) &middot; **Position:** central &middot; **Register:** neutral, leaning technical and forensic
 **Goes with:** uncountable nouns — substances detected in tiny quantities (*a trace of arsenic*, *a trace of moisture*) and abstract qualities (*a trace of an accent*, *a trace of bitterness*). Never a plural countable noun. It reaches a singular countable noun only where that noun names a quality or a residue (*a trace of a smile*, *a trace of an accent*), and the second article is then required.
 **With *of*:** obligatory and structural. Note the article-less attributive form *trace amounts of*, *trace elements*, *trace minerals*, where *trace* has become an adjective.
@@ -849,6 +888,7 @@ Names the smallest detectable amount of something — the amount an instrument, 
 ### a trickle of
 
 **Pronunciation:** /ə ˈtrɪkl̩ əv/ &middot; *uh TRIK-l uhv*
+**Русский:** тонкая струйка — мало по темпу поступления, а не по объёму
 **Type:** quantifier (partitive phrase) &middot; **Position:** central &middot; **Register:** neutral; common in journalism
 **Goes with:** uncountable nouns literally (*a trickle of water*, *a trickle of blood*) and, figuratively, plural countable nouns regarded as a slow stream (*a trickle of applicants*, *a trickle of visitors*) and abstract mass nouns (*a trickle of information*, *a trickle of funding*). Never a singular countable noun.
 **With *of*:** obligatory and structural.
@@ -870,6 +910,7 @@ Names a small quantity arriving or moving slowly and continuously — small in r
 ### an element of
 
 **Pronunciation:** /ən ˈɛləmənt əv/ &middot; *uhn EL-uh-munt uhv* — the article is the weak /ən/, never /æn/, and the *of* reduces to /ə/, giving *uhn EL-uh-munt uh*
+**Русский:** доля, элемент — некоторая, намеренно не уточняемая примесь качества
 **Type:** quantifier (partitive phrase) &middot; **Position:** central &middot; **Register:** neutral to formal — common in journalism, analysis, legal writing, and careful speech
 **Goes with:** uncountable **abstract** nouns — *an element of truth*, *an element of risk*, *an element of surprise*, *an element of doubt*, *an element of luck*, *an element of danger*. Never a plural countable noun, and never a concrete substance in the quantity sense (✗ *an element of water* — that is the chemistry noun). It reaches a singular countable noun only where the noun is itself abstract (*an element of a defense*), and the second article is then required.
 **With *of*:** obligatory and structural. Note that the article is *an* rather than *a* because *element* begins with a vowel — the same adjustment [an inkling of](#an-inkling-of) and [an iota of](#an-iota-of) make.
@@ -891,6 +932,7 @@ Names an unspecified but real amount of an abstract quality present in a situati
 ### an inkling of
 
 **Pronunciation:** /ən ˈɪŋklɪŋ əv/ &middot; *uhn INK-ling uhv* — the article is the weak /ən/; the *of* reduces to /ə/, giving *uhn INK-ling uh*
+**Русский:** смутная догадка, малейшее подозрение — едва-едва осознавать, что что-то есть
 **Type:** quantifier (partitive phrase) &middot; **Position:** central &middot; **Register:** neutral, slightly literary; commonest in narrative and in reports of what somebody did or did not know
 **Goes with:** uncountable **abstract** nouns of knowledge and awareness, and a narrow set at that — *an inkling of trouble*, *an inkling of the truth*, *an inkling of suspicion*. Very often it takes a **clause** instead of a noun: *an inkling of what he meant*, *an inkling of how bad it was*. Never a plural countable noun and never a concrete substance.
 **With *of*:** obligatory before a noun or a *wh*-clause. With a *that*-clause the *of* disappears: *I had an inkling that she'd say no*, never ✗ *an inkling of that she'd say no*. The bare noun also stands alone: *I hadn't the faintest inkling.*
@@ -918,6 +960,7 @@ This is also where the file's register spread is widest, and the labels matter m
 ### a dearth of
 
 **Pronunciation:** /ə ˈdɚθ əv/ &middot; *uh DURTH uhv* — the vowel is the one in *bird*, not the one in *dear*; the *of* reduces to /ə/, giving *uh DURTH uh*
+**Русский:** нехватка, дефицит — книжн.: меньше, чем требуется, с оттенком осуждения
 **Type:** quantifier (partitive phrase), negative in sense &middot; **Position:** central &middot; **Register:** formal to journalistic — a leader-column word. Its close synonym *a paucity of* is a step more formal again and belongs to academic and technical prose (*a paucity of data*, *a paucity of evidence*), where *a dearth of* is what an editorial writer reaches for.
 **Goes with:** uncountable nouns (*a dearth of information*, *a dearth of evidence*, *a dearth of talent*, *a dearth of funding*) and plural countable nouns (*a dearth of options*, *a dearth of qualified applicants*). It is one of the few phrases in this file that takes **both** noun types with no change of meaning. Never a singular countable noun.
 **With *of*:** obligatory and structural — *of* is part of the phrase and stays before another determiner (*a dearth of the skills we need*), though pronoun complements are rare and awkward.
@@ -939,6 +982,7 @@ Names an amount or number that falls short of what the situation requires — a 
 ### a jot of
 
 **Pronunciation:** /ə ˈdʒɑt əv/ &middot; *uh JAHT uhv* — the *of* reduces to /ə/, giving *uh JAHT uh*
+**Русский:** ни на йоту — устар., библейск.: мельчайшая доля, только при отрицании
 **Type:** quantifier (partitive phrase), negative-polarity &middot; **Position:** central &middot; **Register:** **archaic and literary.** The word is *iota*, the smallest letter of the Greek alphabet, worn down in transmission, and it entered English on the King James rendering of Matthew 5:18 — "one jot or one tittle shall in no wise pass from the law." An American meets it in scripture, in nineteenth-century prose, and in writing deliberately reaching for that sound. Nobody says it at the lunch counter. The everyday verb *jot down* is a different word entirely in feel.
 **Goes with:** uncountable **abstract** nouns — *a jot of evidence*, *a jot of sense*, *a jot of difference*, *a jot of sympathy*. Never a plural countable noun and never a concrete substance. It is used at least as often with no *of*-phrase at all: *not a jot*, *not one jot*.
 **With *of*:** required when a noun follows (✗ *a jot evidence*), but the phrase very often stops at the bare noun and works adverbially — *it does not matter a jot*.
@@ -960,6 +1004,7 @@ Names the smallest imaginable amount of an abstract quality, used only to deny t
 ### a lack of
 
 **Pronunciation:** /ə ˈlæk əv/ &middot; *uh LAK uhv* — the *of* reduces to /ə/, giving *uh LAK uh*
+**Русский:** отсутствие, нехватка — обычный, нейтральный способ сказать «недостаточно»
 **Type:** quantifier (partitive phrase), negative in sense &middot; **Position:** central &middot; **Register:** neutral — much the commonest of the shortage phrases, and equally at home in speech, journalism, and formal writing
 **Goes with:** uncountable nouns (*a lack of evidence*, *a lack of sleep*, *a lack of interest*, *a lack of funding*) and plural countable nouns (*a lack of options*, *a lack of qualified teachers*). It also takes a singular countable noun where that noun is abstract enough to be treated as a quality — *a lack of a plan*, *a lack of a clear answer* — and there the second article is required.
 **With *of*:** obligatory and structural. Note the article-free frame *for lack of* (*for lack of a better word*, *dismissed for lack of evidence*), which is fixed and very common, and the article-free *lack of* of headlines and captions.
@@ -981,6 +1026,7 @@ Names the absence of something, or an amount of it too small to serve — the or
 ### a scintilla of
 
 **Pronunciation:** /ə sɪnˈtɪlə əv/ &middot; *uh sin-TIL-uh uhv* — stress on the second syllable; the *of* reduces to /ə/, giving *uh sin-TIL-uh uh*
+**Русский:** юр.: мельчайшая доля, «искра» — о минимуме доказательств; вне суда не употребляется
 **Type:** quantifier (partitive phrase), negative-polarity &middot; **Position:** central &middot; **Register:** **legal.** Latin *scintilla* means "spark." In American law the phrase is a term of art: the **scintilla rule** and the "more than a scintilla of evidence" threshold recur constantly in summary-judgment and directed-verdict opinions, where a party opposing judgment must produce more than a scintilla of evidence to reach a jury. Outside a courtroom, a brief, or a law review an American meets it only when a writer is borrowing the courtroom's voice on purpose. It is not ordinary English and should not be written as though it were.
 **Goes with:** uncountable **abstract** nouns, and a very short list of them — *evidence* above all, then *proof*, *support*, *doubt*, *merit*. Never a plural countable noun, never a singular countable noun, and never a concrete substance (✗ *a scintilla of water*).
 **With *of*:** obligatory and structural.
@@ -1002,6 +1048,7 @@ Names the smallest conceivable amount of evidence or support — a spark of it �
 ### a shred of
 
 **Pronunciation:** /ə ˈʃrɛd əv/ &middot; *uh SHRED uhv*
+**Русский:** ни капли, ни грамма — мельчайшая доля качества, почти всегда при отрицании
 **Type:** quantifier (partitive phrase), negative-polarity &middot; **Position:** central &middot; **Register:** neutral to formal; emphatic
 **Goes with:** uncountable **abstract** nouns only — *evidence*, *proof*, *doubt*, *dignity*, *decency*, *remorse*, *self-respect*, *credibility*. Never a plural countable noun, never a singular countable noun, and not a concrete substance in this sense (*a shred of paper* is the literal noun, not the quantifier).
 **With *of*:** obligatory and structural.
@@ -1023,6 +1070,7 @@ Names the smallest conceivable amount of an abstract quality, used almost always
 ### a want of
 
 **Pronunciation:** /ə ˈwɑnt əv/, also /ə ˈwɔnt əv/ &middot; *uh WAHNT uhv* — the *of* reduces to /ə/, giving *uh WAHNT uh*
+**Русский:** нехватка, отсутствие — устар. и юр.; современный вариант — a lack of
 **Type:** quantifier (partitive phrase), negative in sense &middot; **Position:** central &middot; **Register:** **archaic and formal.** In current American English it survives almost entirely inside fixed frames — *for want of a better word*, *for want of anything better to do*, and the proverb *for want of a nail the shoe was lost* — plus legal boilerplate, where *dismissed for want of prosecution* and *for want of jurisdiction* are live phrases on court dockets today. Free use before an ordinary noun (*a want of evidence*) reads as nineteenth-century prose. The modern everyday form is [a lack of](#a-lack-of).
 **Goes with:** uncountable abstract nouns (*a want of evidence*, *a want of sense*, *a want of charity*, *a want of prosecution*) and, in older prose, plural countable nouns (*a want of hands*, *a want of provisions*). Never a singular countable noun except inside the *for want of a* frame, where the second article is required: *for want of a nail*.
 **With *of*:** obligatory and structural. The dominant surviving form drops the article altogether: *for want of* [noun], not ✗ *for a want of* [noun].
@@ -1044,6 +1092,7 @@ Names an absence or insufficiency of something — the older word that [a lack o
 ### a whit of
 
 **Pronunciation:** /ə ˈwɪt əv/, with the older *wh*- kept in some regional speech /ə ˈʍɪt əv/ &middot; *uh WIT uhv* — a homophone of *wit* for most Americans; the *of* reduces to /ə/, giving *uh WIT uh*
+**Русский:** ни на йоту, ни капли — устар., книжн., только при отрицании
 **Type:** quantifier (partitive phrase), negative-polarity &middot; **Position:** central &middot; **Register:** **archaic and literary.** From Old English *wiht*, "creature, thing." It belongs to older prose and to modern writing imitating it, and its commonest surviving shape is the bare adverbial *not a whit*, meaning "not at all" — *he cared not a whit*. Americans read this phrase; they do not say it.
 **Goes with:** uncountable **abstract** nouns — *a whit of evidence*, *a whit of sense*, *a whit of difference*, *a whit of sympathy*. Never a plural countable noun and never a concrete substance.
 **With *of*:** required when a noun follows, but the phrase very often stops at the bare noun and works adverbially: *not a whit*, *never a whit*, *cared not a whit*.
@@ -1065,6 +1114,7 @@ Names the smallest conceivable amount of an abstract quality, used only to deny 
 ### an iota of
 
 **Pronunciation:** /ən aɪˈoʊɾə əv/, carefully /ən aɪˈoʊtə əv/ &middot; *uhn eye-OH-tuh uhv* — the article is the weak /ən/; the *of* reduces to /ə/, giving *uhn eye-OH-tuh uh*
+**Русский:** ни капли, ни на йоту — мельчайшая доля; живой эмфатический оборот
 **Type:** quantifier (partitive phrase), negative-polarity &middot; **Position:** central &middot; **Register:** neutral to formal, emphatic — a live American phrase. It is named for iota, the smallest letter of the Greek alphabet, but the etymology is invisible in use, and it should not be confused on that account with [a jot of](#a-jot-of), which descends from the same Greek word and is archaic. Its rarer partner *a particle of* does identical work with a bookish air.
 **Goes with:** uncountable **abstract** nouns — *evidence*, *proof*, *doubt*, *sense*, *sympathy*, *credibility*, *difference*, *remorse*. Never a plural countable noun, never a singular countable noun, and never a concrete substance (✗ *an iota of sugar*).
 **With *of*:** obligatory when a noun follows. The bare noun also stands alone adverbially: *it doesn't matter an iota*, *not one iota*.
@@ -1086,6 +1136,7 @@ Names the smallest conceivable amount of an abstract quality, used almost always
 ### barely any
 
 **Pronunciation:** /ˈbɛrli ˌɛni/ &middot; *BAIR-lee EN-ee*
+**Русский:** почти нисколько — количество на грани нуля, но не совсем ноль (разг.)
 **Type:** quantifier (adverb + determiner), negative-polarity &middot; **Position:** *barely* modifies the central determiner *any*, which fills the central slot &middot; **Register:** neutral to informal — the most colloquial of the three *any* phrases
 **Goes with:** plural countable nouns (*barely any people*) and uncountable nouns (*barely any time*). Never a singular countable noun (✗ *barely any chair*).
 **With *of*:** *of* is **required** before another determiner or a pronoun — *barely any of the seats*, *barely any of it*. No *of* before a bare noun: *barely any seats*.
@@ -1107,6 +1158,7 @@ Names a quantity so small it is on the edge of nothing — "almost none, but not
 ### few if any
 
 **Pronunciation:** /ˈfju ɪf ˈɛni/ &middot; *FYOO if EN-ee*
+**Русский:** мало, если вообще есть — оговорка, которая усиливает, а не смягчает
 **Type:** quantifier (coordinated frame), emphatic &middot; **Position:** central &middot; **Register:** formal to neutral; common in journalism, academic prose, and argument
 **Goes with:** plural countable nouns only — *few if any survivors*, *few if any of the proposals*. Never an uncountable noun — the uncountable partner is *little if any* (*little if any evidence*). Never a singular countable noun.
 **With *of*:** *of* is **required** before another determiner or a pronoun — *few if any of the applicants*, *few if any of them*. No *of* before a bare plural: *few if any applicants*.
@@ -1128,6 +1180,7 @@ Names a number that is small and may in fact be zero — a hedge that intensifie
 ### hardly any
 
 **Pronunciation:** /ˈhɑrdli ˌɛni/ &middot; *HARD-lee EN-ee*
+**Русский:** почти нисколько, почти никаких — обиходная разговорная замена few и little
 **Type:** quantifier (adverb + determiner), negative-polarity &middot; **Position:** *hardly* modifies the central determiner *any*, which fills the central slot &middot; **Register:** neutral — the everyday American default
 **Goes with:** plural countable nouns (*hardly any people*) and uncountable nouns (*hardly any money*). Never a singular countable noun (✗ *hardly any chair*), except in the separate frame *hardly a* + singular noun (*hardly a day goes by*).
 **With *of*:** *of* is **required** before another determiner or a pronoun — *hardly any of the students*, *hardly any of it*. No *of* before a bare noun: *hardly any students*.
@@ -1149,6 +1202,7 @@ Names a quantity or number so small as to be nearly none — the ordinary spoken
 ### next to no
 
 **Pronunciation:** /ˌnɛks tə ˈnoʊ/, carefully /ˌnɛkst tu ˈnoʊ/ &middot; *neks tuh NO*
+**Русский:** почти никакого — практически ноль
 **Type:** quantifier (degree phrase + negative determiner) &middot; **Position:** central — *next to* modifies the central determiner *no* &middot; **Register:** neutral to informal
 **Goes with:** uncountable nouns (*next to no time*, *next to no warning*) and plural countable nouns (*next to no options*, *next to no results*). Singular countable nouns are possible but awkward and rare (*next to no chance* works because *chance* is on the mass side of the line).
 **With *of*:** it does not take an *of*-phrase; the pronoun form is *next to nothing* (*we got next to nothing out of them*), and *next to none* covers the countable pronoun (*next to none of them*).
@@ -1171,6 +1225,7 @@ Names a quantity that is as close to zero as it can be without being zero.
 ### not many
 
 **Pronunciation:** /nɑt ˈmɛni/ &middot; *not MEN-ee*
+**Русский:** немного, немногие — разг. замена few, с исчисляемыми
 **Type:** quantifier (negated central determiner) &middot; **Position:** *not* negates the central determiner *many*, which fills the central slot &middot; **Register:** neutral, conversational
 **Goes with:** plural countable nouns only — *not many people*, *not many options*. Never an uncountable noun (✗ *not many time* — use *not much*) and never a singular countable noun.
 **With *of*:** *of* is **required** before another determiner or a pronoun — *not many of the applicants*, *not many of them*. No *of* before a bare plural: *not many applicants*.
@@ -1192,6 +1247,7 @@ The ordinary conversational way of saying *few* — a small number, with the sma
 ### not much
 
 **Pronunciation:** /nɑt ˈmʌtʃ/ &middot; *not MUCH*
+**Русский:** немного, мало — разг. замена little, с неисчисляемыми
 **Type:** quantifier (negated central determiner) &middot; **Position:** *not* negates the central determiner *much*, which fills the central slot &middot; **Register:** neutral, conversational
 **Goes with:** uncountable nouns only — *not much time*, *not much money*. Never a plural countable noun (✗ *not much people* — use *not many*) and never a singular countable noun, except through the separate frame *not much of a* + singular noun (*not much of a cook*).
 **With *of*:** *of* is **required** before another determiner or a pronoun — *not much of the report*, *not much of it*. No *of* before a bare noun: *not much time*. The frame *not much of a* + singular countable noun is a distinct construction meaning "a poor example of" (*not much of a view*, *not much of a plan*).
@@ -1213,6 +1269,7 @@ The ordinary conversational way of saying *little* — a small amount, stated as
 ### precious few / precious little
 
 **Pronunciation:** /ˌprɛʃəs ˈfju/, /ˌprɛʃəs ˈlɪɾl̩/ &middot; *PRESH-us FYOO*, *PRESH-us LIT-l*
+**Русский:** до обидного мало — эмфатическое, с ноткой возмущения
 **Type:** quantifier (intensifier + quantifier), emphatic &middot; **Position:** central — *precious* intensifies the quantifier, which fills the central slot &middot; **Register:** neutral to journalistic; rhetorical, faintly indignant
 **Goes with:** *precious few* takes plural countable nouns only (*precious few options*); *precious little* takes uncountable nouns only (*precious little evidence*). The countability split is the same as for bare *few* and *little*, and crossing it is the same error: ✗ *precious little options*, ✗ *precious few evidence*.
 **With *of*:** *of* is **required** before another determiner or a pronoun — *precious few of the survivors*, *precious little of the money*, *precious little of it*. No *of* before a bare noun.
@@ -1234,6 +1291,7 @@ Names a quantity that is small and ought not to be — the emphatic, aggrieved f
 ### scarcely any
 
 **Pronunciation:** /ˈskɛrsli ˌɛni/ &middot; *SKAIRSS-lee EN-ee*
+**Русский:** едва ли сколько-нибудь — книжн. вариант hardly any
 **Type:** quantifier (adverb + determiner), negative-polarity &middot; **Position:** *scarcely* modifies the central determiner *any*, which fills the central slot &middot; **Register:** formal — the bookish member of the *hardly / barely / scarcely* trio
 **Goes with:** plural countable nouns (*scarcely any visitors*) and uncountable nouns (*scarcely any rain*). Never a singular countable noun, except in the separate frame *scarcely a* + singular noun (*scarcely a sound*).
 **With *of*:** *of* is **required** before another determiner or a pronoun — *scarcely any of the delegates*, *scarcely any of it*. No *of* before a bare noun.
@@ -1255,6 +1313,7 @@ Names a quantity so small as to be nearly none — the formal register's version
 ### the least bit of
 
 **Pronunciation:** /ðə ˈlist ˈbɪt əv/ &middot; *thuh LEEST BIT uhv* — *the* keeps its weak pre-consonant form /ðə/, never /ði/; the *of* reduces to /ə/, giving *thuh LEEST BIT uh*
+**Русский:** ни малейшей доли — в отрицании: «ни капельки не было»
 **Type:** quantifier (superlative + partitive phrase), negative-polarity &middot; **Position:** central — the whole phrase fills the central determiner slot &middot; **Register:** neutral, conversational
 **Goes with:** uncountable nouns — *the least bit of trouble*, *the least bit of sense*, *the least bit of evidence*, *the least bit of privacy*. Never a plural countable noun (✗ *the least bit of options*) and never a singular countable noun. Note that *the least bit* without *of* is an **adverb** of degree and is far commoner: *not the least bit sorry*, *not the least bit surprised*.
 **With *of*:** required when a noun follows — ✗ *the least bit trouble*. Drop the *of* and the phrase becomes the adverbial *not the least bit* + adjective, which is not a determiner at all.
@@ -1282,6 +1341,7 @@ The same test disqualifies a longer list of words that are often mistaken for qu
 ### de minimis
 
 **Pronunciation:** /deɪ ˈmɪnɪmɪs/, also /di ˈmɪnɪmɪs/ &middot; *day MIN-ih-miss*, also *dee MIN-ih-miss* — both are current in American courtrooms and neither is corrected; the stress falls on *MIN*
+**Русский:** юр.: ничтожно малый — такой, которым закон пренебрегает
 **Type:** Latin adjective phrase with quantifying force — not a true determiner &middot; **Position:** attributive. It stands where a determiner would (*de minimis risk*), but it can also follow one — *a de minimis amount*, *the de minimis exception*, *this de minimis error* — which is the proof that it is an adjective. It is also used predicatively: *the harm was de minimis*. &middot; **Register:** **legal and technical only.** It is the head of the maxim *de minimis non curat lex*, "the law does not concern itself with trifles." An American meets it in tax rules (the de minimis fringe benefit, the de minimis safe harbor), in wage-and-hour and employment cases, in copyright and environmental law, and in the compliance memos that quote them. It is never neutral English, and outside that world it reads as showing off.
 **Goes with:** uncountable nouns (*de minimis risk*, *de minimis harm*, *de minimis use*) and plural countable nouns (*de minimis amounts*, *de minimis quantities*, *de minimis errors*). With a singular countable noun it needs an article, exactly as an adjective does: *a de minimis amount*, never ✗ *de minimis amount*.
 **With *of*:** Not used — the phrase takes no *of*-phrase of its own. The partitive work is done by the noun it modifies: *a de minimis amount of lead*, *a de minimis quantity of the compound*.
@@ -1303,6 +1363,7 @@ Describes a quantity so small that the law or the rule declines to take notice o
 ### minimal
 
 **Pronunciation:** /ˈmɪnəməl/ &middot; *MIN-uh-mul*
+**Русский:** минимальный — сведённый к наименьшему рабочему количеству, намеренно
 **Type:** adjective with quantifying force — not a true determiner &middot; **Position:** it stands where a determiner would, but it can also follow one (*the minimal disruption we caused*), which proves it is an adjective &middot; **Register:** neutral, leaning technical and corporate
 **Goes with:** uncountable nouns (*minimal effort*, *minimal risk*, *minimal damage*) and plural countable nouns (*minimal changes*, *minimal side effects*). With a singular countable noun it needs an article, exactly as an adjective does: *a minimal fee*, not ✗ *minimal fee*.
 **With *of*:** Not used — this word takes no *of*-phrase. The nominal *a minimum of* does that work instead: *a minimum of three days*.
@@ -1324,6 +1385,7 @@ Describes a quantity reduced to the smallest workable amount — small by design
 ### scant
 
 **Pronunciation:** /skænt/ &middot; *SKANT*
+**Русский:** скудный, едва достаточный — книжн.; сочетается и с исчисляемыми, и с неисчисляемыми
 **Type:** adjective with quantifying force — not a true determiner &middot; **Position:** attributive. It stands where a determiner would (*scant evidence*), but it can also follow one — *the scant evidence we have*, *his scant regard for the rules* — which is the proof that it is an adjective and not a central determiner. Unlike *minimal* and *sparse* it resists the predicative slot: *The evidence is scant* occurs but sounds stiff next to *The evidence is thin*. &middot; **Register:** formal to journalistic
 **Goes with:** uncountable nouns (*scant evidence*, *scant attention*, *scant comfort*, *scant regard*) and plural countable nouns (*scant resources*, *scant details*). With a singular countable noun it needs an article, exactly as an adjective does, and it shifts meaning to "barely a full one": *a scant teaspoon*, *a scant hour*, *a scant two miles*. Never ✗ *scant teaspoon* with no article.
 **With *of*:** Not used — this word takes no *of*-phrase.
@@ -1345,6 +1407,7 @@ Describes a quantity that falls short of what is needed or expected — the form
 ### slight
 
 **Pronunciation:** /slaɪt/ &middot; *SLYTE*
+**Русский:** незначительный, лёгкий — малая степень или мера чего-либо
 **Type:** adjective with quantifying force — not a true determiner &middot; **Position:** attributive after a determiner (*a slight delay*, *the slightest chance*) or predicative (*the difference was slight*) &middot; **Register:** neutral
 **Goes with:** uncountable nouns without an article (*slight improvement*, *slight discomfort*) and singular countable nouns **with** an article (*a slight delay*, *a slight chance*). With plural countable nouns it is possible but uncommon (*slight variations*). Because it is an adjective, it cannot replace the article the way a determiner can: ✗ *slight delay held us up* → ✓ *a slight delay held us up*.
 **With *of*:** Not used — this word takes no *of*-phrase.
@@ -1367,6 +1430,7 @@ Describes a small degree or extent of something — faint, mild, or barely appre
 ### sparse
 
 **Pronunciation:** /spɑrs/ &middot; *SPARSS*
+**Русский:** редкий, разреженный — малочисленный и разбросанный по площади
 **Type:** adjective with quantifying force — not a true determiner &middot; **Position:** attributive (*sparse vegetation*, *the sparse crowd*) or predicative (*the data are sparse*) &middot; **Register:** neutral, leaning descriptive and technical
 **Goes with:** uncountable nouns (*sparse vegetation*, *sparse data*, *sparse attendance*) and plural countable nouns (*sparse crowds*, *sparse trees*). With a singular countable noun it needs an article: *a sparse crowd*.
 **With *of*:** Not used — this word takes no *of*-phrase.

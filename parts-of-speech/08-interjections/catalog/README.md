@@ -1,10 +1,8 @@
-# The American English Interjection Dictionary
+# The Interjection Dictionary
 
-> Every interjection in American English — **1602 entries** across 20 categories.
+> **1602 entries** across 20 categories.
 
-Each entry carries an IPA pronunciation and a stress-marked respelling, a type and register label, a plain-language description, **at least five example sentences** in different situations, and links to related entries.
-
-**[Open the audio browser](browse.html)** to search all 1602 entries and hear any of them spoken aloud.
+**[Open the audio browser](browse.html)** to search all 1602 and hear any of them spoken.
 
 ---
 
@@ -34,47 +32,19 @@ Each entry carries an IPA pronunciation and a stress-marked respelling, a type a
 | 20 | [Animal-directed, child-directed, and work calls](20-directed.md) | The words Americans shout at creatures and crews — animals, babies, and whole rooms full of people who need to move at the same instant. | 80 |
 | | **Total** | | **1602** |
 
-## How to read an entry
+## Fields in each entry
 
-```
-### ahem
-
-**Pronunciation:** /əˈhɛm/ · *uh-HEM*      ← IPA, then a respelling with STRESS in caps
-**Type:** primary · **Register:** neutral   ← where it comes from, and who can say it where
-**Variants:** *ahem-ahem*                   ← spelling and lengthened forms
-
-A deliberate throat-clearing used as a signal rather than a real cough...
-
-1.–5.  five example sentences in genuinely different situations
-
-**See also:** related entries
-```
-
-**Type** — `primary` (exists only as an interjection), `secondary` (a word borrowed from another class), `phrase` (multi-word), or `onomatopoeic` (imitates a sound).
-
-**Register** — how safe the word is, and where:
-
-| Label | What it means in practice |
+| Field | What it tells you |
 |---|---|
-| `formal` | Safe in writing, ceremony, and professional settings. |
-| `neutral` | Safe almost anywhere, including at work. |
-| `informal` | Fine with friends, coworkers you know, and family. Not in formal writing. |
-| `very informal` | Close friends and peers only. Will sound out of place at work or with strangers. |
-| `dated` | Understood by everyone but marks you as older — or as joking. |
-| `regional` | Tied to a particular part of the country or a particular community. |
-| `childish` | Said to children, or by them. An adult using it seriously sounds odd. |
-| `internet/text` | Native to writing online. Some have crossed into speech; most have not. |
-| `vulgar` | Profane. See the register warning at the top of the profanity file before using any of these. |
-
-## The grammar side
-
-This dictionary is the **lexicon** — what each interjection means and how it is said. The **grammar** of interjections — punctuation, capitalization, where they sit in a sentence, the primary/secondary distinction, and how they differ from discourse markers — is covered in [the main interjections reference](../README.md).
+| Pronunciation | IPA, a stress-marked respelling, and the weak form where one exists |
+| Type | |
+| Variants | |
 
 ---
 
 ## A–Z index
 
-All 1602 headwords. A term appearing in more than one category is listed once per category.
+All 1602 headwords.
 
 ### A
 

@@ -11,6 +11,7 @@ This category runs from a bare grunt (*uh-uh*) through the polite decline (*no t
 ### hardly
 
 **Pronunciation:** /ˈhɑrdli/ &middot; *HARD-lee*
+**Русский:** отнюдь / куда там — «вовсе нет», сухое возражение на явное преувеличение
 **Type:** secondary &middot; **Register:** neutral
 **Variants:** *oh, hardly*
 
@@ -27,6 +28,7 @@ Standing alone, *hardly* rejects a claim as far off the mark — it means "not r
 ### I don't think so
 
 **Pronunciation:** /ˌaɪ doʊnt ˈθɪŋk soʊ/ &middot; *eye dohnt THINGK soh*
+**Русский:** вряд ли / не думаю — мягкое «нет»; сказанное веско — твёрдый отказ с предупреждением
 **Type:** phrase &middot; **Register:** neutral
 **Variants:** *I think not*, *I really don't think so*, *uh, I don't think so*
 
@@ -43,6 +45,7 @@ Two different jobs depending on delivery. Said lightly it is a hedged *no* — p
 ### I'm good
 
 **Pronunciation:** /aɪm ˈɡʊd/ &middot; *eyem GUUD*
+**Русский:** мне не надо, спасибо — мягкий отказ от предложенного: «у меня всё есть»
 **Type:** phrase &middot; **Register:** informal
 **Variants:** *nah, I'm good*, *I'm all set*, *I'm fine*
 
@@ -59,6 +62,7 @@ A soft, friendly refusal of something offered — food, a drink, a ride, help wi
 ### mm-mm
 
 **Pronunciation:** no settled IPA — a two-beat hum with the lips closed and a glottal catch between the beats, roughly /ˈm̩ʔm̩/, pitch falling from high to low &middot; *MM-mm*
+**Русский:** м-м / не-а — «нет» с закрытым ртом; тон высокий-низкий (низкий-высокий mm-hmm = «да»)
 **Type:** primary &middot; **Register:** informal
 **Variants:** *mm-mmm*, *m-m*, *hm-mm*
 
@@ -75,6 +79,7 @@ The closed-mouth version of *uh-uh*: a nasal grunt that means no. The pitch patt
 ### nah
 
 **Pronunciation:** /næ/ or /nɑ/ &middot; *NA* (rhyming with *cat*) or *NAH*; the spelling *naw* is /nɔ/, *NAW*
+**Русский:** не-а / да не — расслабленное разговорное «нет», мягче и менее окончательное, чем no
 **Type:** primary &middot; **Register:** informal
 **Variants:** *naw*, *nahh*, *nahhh*
 
@@ -91,6 +96,7 @@ A relaxed, casual *no* — the everyday spoken negative among friends. It is sof
 ### nay
 
 **Pronunciation:** /neɪ/ &middot; *NAY*
+**Русский:** нет (устар.) — живо только в голосовании («голоса против») и в шутливой стилизации под старину
 **Type:** primary &middot; **Register:** dated (neutral in a roll-call vote)
 **Variants:** *the nays*, *nay, verily*
 
@@ -107,6 +113,7 @@ The Old English *no*, alive today in exactly two places: the recorded vote (*the
 ### negative
 
 **Pronunciation:** /ˈnɛɡətɪv/ &middot; *NEG-uh-tiv*
+**Русский:** никак нет / отрицательно — радиообменное «нет»; вне службы — деланно сухая шутка
 **Type:** secondary &middot; **Register:** neutral (radio, aviation, military, and dispatch procedure); informal and jocular everywhere else
 **Variants:** *that's a negative*, *negatory*
 
@@ -123,6 +130,7 @@ The radio-procedure word for *no*, used where clarity matters more than tone: av
 ### never
 
 **Pronunciation:** /ˈnɛvɚ/ &middot; *NEV-er*
+**Русский:** никогда / ни за что — отказ навсегда, а не только на сейчас
 **Type:** secondary &middot; **Register:** neutral
 **Variants:** *never ever*, *never again*
 
@@ -139,6 +147,7 @@ As a one-word answer, *never* refuses for all time rather than just for now. It 
 ### no
 
 **Pronunciation:** /noʊ/ &middot; *NOH*
+**Русский:** нет — базовое отрицание; no no no — тревожное «стой-стой»; nooo — «не-ет» с досадой
 **Type:** primary &middot; **Register:** neutral
 **Variants:** *nooo*, *no no no*, *NO*
 
@@ -155,6 +164,7 @@ The base negative of English and the plainest refusal available in any register.
 ### no thanks
 
 **Pronunciation:** /ˌnoʊ ˈθæŋks/ &middot; *noh THANKS*
+**Русский:** нет, спасибо — стандартный вежливый отказ от предложения (no thank you — полнее и официальнее)
 **Type:** phrase &middot; **Register:** neutral
 **Variants:** *no thank you*, *no thanks, I'm good*
 
@@ -171,6 +181,7 @@ The standard polite refusal of an offer. *No thank you* is the fuller and more f
 ### nope
 
 **Pronunciation:** /noʊp/ &middot; *NOHP*
+**Русский:** не-а — короткое бодрое разговорное «нет» с чётким финальным «п»
 **Type:** primary &middot; **Register:** informal
 **Variants:** *nope nope nope*, *nopity nope*
 
@@ -187,6 +198,7 @@ A crisp, casual *no*, closed off with a /p/ that makes it sound final and a litt
 ### not really
 
 **Pronunciation:** /ˌnɑt ˈriəli/, often /ˌnɑt ˈrɪli/ &middot; *not REE-uh-lee*
+**Русский:** да не особо / не совсем — самое мягкое несогласие; вежливый способ сказать «не понравилось»
 **Type:** phrase &middot; **Register:** neutral
 **Variants:** *nah, not really*, *not really, no*, *no, not really*
 
@@ -203,6 +215,7 @@ The softest disagreement in ordinary American use. It answers in the negative wh
 ### nuh-uh
 
 **Pronunciation:** /ˈnʌʔʌ/ &middot; *NUH-uh* (first syllable stressed, pitch falling; the catch in the middle is the glottal stop of *uh-oh*)
+**Русский:** не-а, неправда — детское возражение на только что сказанное; у взрослых — в шутку
 **Type:** primary &middot; **Register:** childish
 **Variants:** *nuh-unh*, *nunh-uh*
 
@@ -219,6 +232,7 @@ The playground contradiction: "that is not true." Where *uh-uh* simply answers n
 ### pass
 
 **Pronunciation:** /pæs/ &middot; *PASS*
+**Русский:** пас / воздержусь — отказ от предложения или очереди; hard pass — «категорически нет»
 **Type:** secondary &middot; **Register:** informal
 **Variants:** *hard pass*, *I'll pass*, *gonna pass on that*
 
@@ -235,6 +249,7 @@ Borrowed from card games and quiz shows, *pass* declines a turn, an invitation, 
 ### uh-uh
 
 **Pronunciation:** /ˈʌʔʌ/ &middot; *UH-uh* (first syllable stressed, pitch falling)
+**Русский:** не-а / а-а — гортанное «нет», тон высокий-низкий (uh-huh «да» — низкий-высокий)
 **Type:** primary &middot; **Register:** informal
 **Variants:** *uh uh*, *unh-uh*
 
@@ -253,6 +268,7 @@ The grunted *no*: two vowels with a catch in the throat between them, said high-
 ### absolutely not
 
 **Pronunciation:** /ˌæbsəˈlutli ˈnɑt/ &middot; *ab-suh-LOOT-lee NOT*
+**Русский:** категорически нет / ни в коем случае — сильнейший отказ, всё ещё уместный на работе
 **Type:** phrase &middot; **Register:** neutral
 **Variants:** *certainly not*, *definitely not*, *most certainly not*
 
@@ -269,6 +285,7 @@ The strongest refusal that is still safe in a meeting or an email. It closes the
 ### don't hold your breath
 
 **Pronunciation:** /ˌdoʊnt ˌhoʊld jɚ ˈbrɛθ/ &middot; *dohnt hohld yer BRETH*
+**Русский:** не жди / держи карман шире — язвительное «этого не будет, во всяком случае не скоро»
 **Type:** phrase &middot; **Register:** informal
 **Variants:** *I wouldn't hold my breath*
 
@@ -285,6 +302,7 @@ A sardonic warning that the thing being hoped for is not going to happen, or at 
 ### dream on
 
 **Pronunciation:** /ˈdrim ˌɑn/ &middot; *DREEM on*
+**Русский:** мечтай / размечтался — насмешка над чужим ожиданием как над чистой фантазией
 **Type:** phrase &middot; **Register:** informal
 **Variants:** *keep dreaming*
 
@@ -301,6 +319,7 @@ Said to somebody whose expectation you consider pure fantasy. Between friends it
 ### fat chance
 
 **Pronunciation:** /ˌfæt ˈtʃæns/ &middot; *fat CHANSS*
+**Русский:** как же / держи карман шире — «никаких шансов»; ирония встроена в саму фразу
 **Type:** phrase &middot; **Register:** informal
 
 Means the opposite of what it looks like: a *fat chance* is no chance at all. The sarcasm is baked into the phrase itself, so it does not need any special tone of voice to be understood.
@@ -316,6 +335,7 @@ Means the opposite of what it looks like: a *fat chance* is no chance at all. Th
 ### forget it
 
 **Pronunciation:** /fɚˈɡɛt ɪt/ &middot; *fer-GET it*
+**Русский:** забудь / и не думай — резкий отказ; также «неважно, проехали»
 **Type:** phrase &middot; **Register:** informal
 **Variants:** *forget about it*, *fuhgeddaboudit*, *forget that*
 
@@ -332,6 +352,7 @@ Two jobs, both dismissive: it refuses a proposal flatly ("that is never happenin
 ### good luck with that
 
 **Pronunciation:** /ˌɡʊd ˈlʌk wɪð ˌðæt/ &middot; *guud LUK with that*
+**Русский:** ну удачи — саркастическое пожелание: план провалится, и помогать я не собираюсь
 **Type:** phrase &middot; **Register:** informal
 **Variants:** *good luck*, *yeah, good luck*, *good luck with all that*
 
@@ -348,6 +369,7 @@ Sarcastic well-wishing. The speaker expects the plan to fail and is announcing, 
 ### hell no
 
 **Pronunciation:** /ˌhɛl ˈnoʊ/ &middot; *hel NOH*
+**Русский:** чёрта с два / да ни за что — грубоватый резкий отказ (heck no — цензурная замена)
 **Type:** phrase &middot; **Register:** very informal
 **Variants:** *hell to the no*, *aw hell no*, *heck no*
 
@@ -364,6 +386,7 @@ A blunt, emphatic refusal carrying mild profanity. It is completely normal among
 ### in your dreams
 
 **Pronunciation:** /ɪn jɚ ˈdrimz/ &middot; *in yer DREEMZ*
+**Русский:** и не мечтай / во сне разве что — отказ с издёвкой над самой надеждой
 **Type:** phrase &middot; **Register:** informal
 
 Refuses a request while mocking the asker for having hoped at all. It is a taunt as much as a refusal, so it presumes enough closeness to tease.
@@ -379,6 +402,7 @@ Refuses a request while mocking the asker for having hoped at all. It is a taunt
 ### no can do
 
 **Pronunciation:** /ˌnoʊ kən ˈdu/ &middot; *noh kn DOO*
+**Русский:** не выйдет / никак — отказ по невозможности или по правилам, а не по нежеланию
 **Type:** phrase &middot; **Register:** informal
 
 A breezy "I can't do that," refusing on grounds of ability or rules rather than willingness. The clipped grammar is deliberate and frozen — it is never *no can does* and never takes a subject.
@@ -394,6 +418,7 @@ A breezy "I can't do that," refusing on grounds of ability or rules rather than 
 ### no chance
 
 **Pronunciation:** /ˌnoʊ ˈtʃæns/ &middot; *noh CHANSS*
+**Русский:** без шансов / ни малейшего шанса (not a chance in hell — грубее и резче)
 **Type:** phrase &middot; **Register:** informal
 **Variants:** *not a chance*, *not a chance in hell*, *no chance in hell*
 
@@ -410,6 +435,7 @@ A flat statement that the odds are zero. *Not a chance* is the more common conve
 ### no dice
 
 **Pronunciation:** /ˌnoʊ ˈdaɪs/ &middot; *noh DYCE*
+**Русский:** не выгорело / номер не пройдёт — отказ или сообщение о неудаче, слегка старомодно и с юморком
 **Type:** phrase &middot; **Register:** informal
 
 From gambling: the roll doesn't count. It refuses a request outright, or reports that an attempt failed, and it carries a friendly, wisecracking, slightly old-fashioned tone.
@@ -425,6 +451,7 @@ From gambling: the roll doesn't count. It refuses a request outright, or reports
 ### no siree
 
 **Pronunciation:** /ˌnoʊ sɚˈi/ &middot; *noh sur-EE*
+**Русский:** нет уж, увольте — эмфатическое простецкое «нет» (устар.), теперь только ради комизма
 **Type:** phrase &middot; **Register:** dated
 **Variants:** *no sirree*, *no siree Bob*, *no sir*
 
@@ -441,6 +468,7 @@ An emphatic, folksy *no* with an old-fashioned American twang. Nobody says it ne
 ### no way
 
 **Pronunciation:** /ˌnoʊ ˈweɪ/ &middot; *noh WAY*
+**Русский:** ни за что / да ладно! — сильный отказ; с быстрым восходящим тоном — «не может быть»
 **Type:** phrase &middot; **Register:** informal
 **Variants:** *no way José*, *no way in hell*, *no freaking way*
 
@@ -457,6 +485,7 @@ The workhorse emphatic refusal. It also does double duty as an expression of dis
 ### not on your life
 
 **Pronunciation:** /ˌnɑt ɑn jɚ ˈlaɪf/ &middot; *not on yer LIFE*
+**Русский:** ни за что на свете / ни за какие коврижки — театральный, слегка устаревший абсолютный отказ
 **Type:** phrase &middot; **Register:** informal
 **Variants:** *not in a million years*, *not for anything*
 
@@ -473,6 +502,7 @@ An absolute refusal, staked on the other person's life for emphasis. It is a lit
 ### nothing doing
 
 **Pronunciation:** /ˌnʌθɪŋ ˈduɪŋ/ &middot; *NUTH-ing DOO-ing*
+**Русский:** и не подумаю / ничего не выйдет (устар.) — «этому не бывать», с флёром 1940-х
 **Type:** phrase &middot; **Register:** dated
 **Variants:** *nothin' doin'*, *no soap*
 
@@ -489,6 +519,7 @@ An old-fashioned refusal meaning "that is not going to happen." It has a 1940s n
 ### out of the question
 
 **Pronunciation:** /ˌaʊt əv ðə ˈkwɛstʃən/ &middot; *owt uv thuh KWES-chun*
+**Русский:** об этом не может быть и речи (книжн.) — тема закрыта, обсуждению не подлежит
 **Type:** phrase &middot; **Register:** formal
 **Variants:** *that's out of the question*, *completely out of the question*
 
@@ -505,6 +536,7 @@ A refusal that declares the proposal not even eligible for discussion. It is the
 ### over my dead body
 
 **Pronunciation:** /ˌoʊvɚ maɪ ˌdɛd ˈbɑdi/ &middot; *oh-ver my ded BOD-ee*
+**Русский:** только через мой труп — самый театральный отказ, почти всегда гипербола
 **Type:** phrase &middot; **Register:** informal
 
 The most theatrical refusal in ordinary use: the thing can only happen once the speaker is dead. It is almost always hyperbole, and it usually defends something the speaker feels protective of.
@@ -520,6 +552,7 @@ The most theatrical refusal in ordinary use: the thing can only happen once the 
 ### that'll be the day
 
 **Pronunciation:** /ˌðætəl bi ðə ˈdeɪ/ &middot; *THAT-l bee thuh DAY*
+**Русский:** как же, дождёшься — «этому не бывать», с наигранным предвкушением
 **Type:** phrase &middot; **Register:** informal (slightly dated)
 **Variants:** *that will be the day*, *that'd be the day*
 
@@ -536,6 +569,7 @@ Says the day in question is never coming. It answers a prediction or a promise b
 ### when pigs fly
 
 **Pronunciation:** /wɛn ˈpɪɡz ˌflaɪ/ &middot; *when PIGZ fly*
+**Русский:** когда рак на горе свистнет — невозможный срок, то есть никогда
 **Type:** phrase &middot; **Register:** informal
 **Variants:** *when hell freezes over*, *when pigs have wings*
 
@@ -552,6 +586,7 @@ Answers "when?" with an impossible date, meaning never. It is the standard Ameri
 ### you wish
 
 **Pronunciation:** /ˌju ˈwɪʃ/ &middot; *yoo WISH*
+**Русский:** размечтался / щас — насмешливый отказ: «тебе бы этого хотелось, да?»
 **Type:** phrase &middot; **Register:** informal
 **Variants:** *oh, you wish*, *don't you wish*
 
@@ -570,6 +605,7 @@ A taunting refusal aimed at the wanting rather than at the request: not merely n
 ### as if
 
 **Pronunciation:** /ˌæz ˈɪf/ &middot; *az IF*
+**Русский:** ага, конечно / щас прям — «как будто такое возможно», с привкусом 1990-х
 **Type:** phrase &middot; **Register:** informal (1990s flavor; now almost always knowing or ironic)
 **Variants:** *as iiif*
 
@@ -586,6 +622,7 @@ Rejects a suggestion as laughably unlikely — it is short for "as if that would
 ### likely story
 
 **Pronunciation:** /ˌlaɪkli ˈstɔri/ &middot; *like-lee STOR-ee*
+**Русский:** так я и поверил / складно врёшь — саркастическое принятие объяснения, которому не верят
 **Type:** phrase &middot; **Register:** informal
 **Variants:** *a likely story*
 
@@ -602,6 +639,7 @@ Sarcastic acceptance of an explanation the speaker does not believe for a second
 ### nice try
 
 **Pronunciation:** /ˌnaɪs ˈtraɪ/ &middot; *nice TRY*
+**Русский:** хорошая попытка / не прокатит — насмешливая похвала неудавшейся уловке или отговорке
 **Type:** phrase &middot; **Register:** informal
 **Variants:** *good try*, *good one*, *nice try, buddy*
 
@@ -618,6 +656,7 @@ Mock praise for an attempt that did not work — a lie you saw through, an excus
 ### oh please
 
 **Pronunciation:** /oʊ ˈpliz/ &middot; *oh PLEEZ*
+**Русский:** ой, да ладно / да брось — пренебрежительное «не смеши, это несерьёзно»
 **Type:** phrase &middot; **Register:** informal
 **Variants:** *please*, *oh, please*, *puh-leeze*
 
@@ -634,6 +673,7 @@ Scoffing dismissal of a claim, an excuse, or a bit of theater: "you cannot expec
 ### okay
 
 **Pronunciation:** /ˌoʊˈkeɪ/ &middot; *oh-KAY*
+**Русский:** ну ладно / ага, конечно — саркастическое согласие: не верю ни слову и делать ничего не буду
 **Type:** secondary &middot; **Register:** informal
 **Variants:** *ok*, *okayyy*, *k*, *kk*
 
@@ -650,6 +690,7 @@ Sarcastic *okay* pretends to accept what was just said while signaling that the 
 ### right
 
 **Pronunciation:** /raɪt/ &middot; *RITE*
+**Русский:** ну да, конечно / ага — растянутое riiight означает «не верю ни единому слову»
 **Type:** secondary &middot; **Register:** informal
 **Variants:** *riiight*, *riiiight*, *oh, right*
 
@@ -666,6 +707,7 @@ Drawn out and falling in pitch, *right* means the speaker does not believe you a
 ### says who
 
 **Pronunciation:** /ˌsɛz ˈhu/ &middot; *sez HOO*
+**Русский:** кто сказал? / это кто решил? — вызов: назови источник или отступи
 **Type:** phrase &middot; **Register:** informal
 **Variants:** *sez who*, *who says*
 
@@ -682,6 +724,7 @@ A challenge to the authority behind a claim: "who exactly decided that?" It is c
 ### sure
 
 **Pronunciation:** /ʃʊr/, also /ʃɝ/ &middot; *SHOOR* or *SHUR*
+**Русский:** ну конечно / ага, как же — недоверие в маске согласия, произносится ровно или врастяжку
 **Type:** secondary &middot; **Register:** informal
 **Variants:** *suuure*, *sure, sure*, *yeah, sure*
 
@@ -698,6 +741,7 @@ Said flat or drawn out, *sure* is disbelief wearing the costume of agreement. Th
 ### sure, Jan
 
 **Pronunciation:** /ˌʃʊr ˈdʒæn/ &middot; *shoor JAN*
+**Русский:** ну конечно, конечно — интернет-мем: снисходительное «верим-верим» очевидному вранью
 **Type:** phrase &middot; **Register:** internet/text (very informal; now also spoken, and openly mocking)
 **Variants:** *sure Jan*, *ok Jan*
 
@@ -714,6 +758,7 @@ An internet-born way of humoring somebody whose claim is obviously untrue, from 
 ### uh-huh
 
 **Pronunciation:** /ʌˈhʌ/ &middot; *uh-HUH* (the sarcastic version is flat and level, *UH-huh*)
+**Русский:** ага / угу — здесь саркастическое: «слушаю и не верю ни слову»
 **Type:** primary &middot; **Register:** informal
 **Variants:** *uh huh*, *mm-hmm*
 
@@ -730,6 +775,7 @@ An internet-born way of humoring somebody whose claim is obviously untrue, from 
 ### yeah right
 
 **Pronunciation:** /ˌjɛə ˈraɪt/ &middot; *yeh RITE*
+**Русский:** ага, конечно / ну да, как же — стандартное американское саркастическое «не верю»
 **Type:** phrase &middot; **Register:** informal
 **Variants:** *yeah, right*, *yeah sure*, *yeah okay*
 
@@ -748,6 +794,7 @@ The standard American sarcastic dismissal: two words of agreement that together 
 ### applesauce
 
 **Pronunciation:** /ˈæpəlˌsɔs/ &middot; *AP-l-sawss*
+**Русский:** чепуха / вздор (устар., слэнг 1920-х) — особенно о лести; сейчас только стилизация под эпоху
 **Type:** secondary &middot; **Register:** dated (1920s slang; now purely a period costume)
 **Variants:** *pure applesauce*
 
@@ -764,6 +811,7 @@ Jazz-age slang for nonsense, and especially for flattery — from the boardingho
 ### balderdash
 
 **Pronunciation:** /ˈbɔldɚˌdæʃ/ &middot; *BAWL-der-dash*
+**Русский:** вздор! / чушь! (устар., книжн.) — нарочито старомодное негодующее восклицание
 **Type:** secondary &middot; **Register:** dated
 
 "That is complete nonsense," delivered in a deliberately old-fashioned voice. Almost no American under sixty says it straight; it survives as a comic, blustery exclamation and as the name of a party word game.
@@ -779,6 +827,7 @@ Jazz-age slang for nonsense, and especially for flattery — from the boardingho
 ### baloney
 
 **Pronunciation:** /bəˈloʊni/ &middot; *buh-LOH-nee*
+**Русский:** чепуха / ерунда — беззлобное «неправда» без единого грубого слова, годится и для эфира
 **Type:** secondary &middot; **Register:** informal
 **Variants:** *boloney*, *full of baloney*
 
@@ -795,6 +844,7 @@ The friendly American word for nonsense, spelled off the sausage. It calls a cla
 ### bosh
 
 **Pronunciation:** /bɑʃ/ &middot; *BAHSH*
+**Русский:** вздор! (устар., книжн.) — викторианское восклицание, в американской речи практически вымерло
 **Type:** secondary &middot; **Register:** dated
 
 A clipped Victorian exclamation meaning nonsense, borrowed from Turkish *boş*, "empty." It is essentially extinct in American speech and lives on in old novels and period dialogue.
@@ -810,6 +860,7 @@ A clipped Victorian exclamation meaning nonsense, borrowed from Turkish *boş*, 
 ### bull
 
 **Pronunciation:** /bʊl/ &middot; *BUUL*
+**Русский:** враньё / брехня (грубовато) — усечённое bullshit: цензурно, но не нейтрально
 **Type:** secondary &middot; **Register:** informal (mildly coarse — it is an audible amputation of *bullshit*, and stricter listeners hear the whole word)
 **Variants:** *B.S.*, *bullcrap*, *bull hockey*, *a bunch of bull*
 
@@ -826,6 +877,7 @@ The clipped, sayable-in-company form of *bullshit*: it flatly calls a statement 
 ### bullshit
 
 **Pronunciation:** /ˈbʊlˌʃɪt/ &middot; *BUUL-shit*
+**Русский:** херня / полная брехня (груб.) — «враньё»; второе значение — «это несправедливо»
 **Type:** secondary &middot; **Register:** vulgar
 **Variants:** *that's bullshit*, *complete bullshit*
 
@@ -842,6 +894,7 @@ The strongest common way to call something a lie or a sham. This is genuine prof
 ### bunk
 
 **Pronunciation:** /bʌŋk/ &middot; *BUNK*
+**Русский:** туфта / пустая болтовня, выдаваемая за факты (отсюда debunk «разоблачать»)
 **Type:** secondary &middot; **Register:** informal
 **Variants:** *bunkum*, *buncombe*, *a load of bunk*
 
@@ -858,6 +911,7 @@ Nonsense, especially empty talk dressed up as fact. It shortens *buncombe*, name
 ### cap
 
 **Pronunciation:** /kæp/ &middot; *KAP*
+**Русский:** гонишь / врёшь (молодёжн., из афроамериканского английского) — «это ложь»
 **Type:** secondary &middot; **Register:** very informal (from African American English; spoken and internet/text)
 **Variants:** *that's cap*, *capping*, *stop capping*, *no cap* (the opposite — "I'm not lying")
 
@@ -874,6 +928,7 @@ The one young, living member of the nonsense family. *Cap* is a lie, and calling
 ### claptrap
 
 **Pronunciation:** /ˈklæpˌtræp/ &middot; *KLAP-trap*
+**Русский:** трескотня / пустозвонство (книжн.) — эффектные пустые слова ради реакции публики
 **Type:** secondary &middot; **Register:** neutral (bookish, and somewhat dated)
 **Variants:** *utter claptrap*, *sentimental claptrap*
 
@@ -890,6 +945,7 @@ Showy, empty talk designed to draw a reaction — the word began as theater slan
 ### crap
 
 **Pronunciation:** /kræp/ &middot; *KRAP*
+**Русский:** фигня / брехня (грубовато) — средняя ступень между bull и bullshit
 **Type:** secondary &middot; **Register:** very informal (mildly vulgar)
 **Variants:** *that's crap*, *a load of crap*, *a bunch of crap*, *total crap*
 
@@ -906,6 +962,7 @@ The middle rung between *bull* and *bullshit*: it calls a claim a lie or a piece
 ### crock
 
 **Pronunciation:** /krɑk/ &middot; *KROK*
+**Русский:** туфта / полная лажа — усечённое a crock of shit, почти всегда с артиклем a
 **Type:** secondary &middot; **Register:** informal (the full form *a crock of shit* is vulgar)
 **Variants:** *what a crock*, *that's a crock*, *a crock of shit*
 
@@ -922,6 +979,7 @@ Almost always used with *a*: *a crock* is a claim with nothing in it. It is the 
 ### fiddlesticks
 
 **Pronunciation:** /ˈfɪdəlˌstɪks/ &middot; *FID-l-stiks*
+**Русский:** вздор! / вот незадача! (устар., «бабушкино») — и «чепуха», и мягкая замена ругательству
 **Type:** secondary &middot; **Register:** dated
 **Variants:** *fiddle-faddle*, *fiddle-dee-dee*
 
@@ -938,6 +996,7 @@ A gentle, old-fashioned exclamation that does two jobs: it dismisses a claim as 
 ### flapdoodle
 
 **Pronunciation:** /ˈflæpˌdudəl/ &middot; *FLAP-doo-dl*
+**Русский:** чепуха / галиматья (устар.) — держится в языке только за счёт смешного звучания
 **Type:** secondary &middot; **Register:** dated
 **Variants:** *pure flapdoodle*
 
@@ -954,6 +1013,7 @@ Nineteenth-century American nonsense, and one of the silliest-sounding words in 
 ### hogwash
 
 **Pronunciation:** /ˈhɔɡˌwɑʃ/ &middot; *HAWG-wahsh*
+**Русский:** чушь собачья — резче и презрительнее, чем baloney, но вполне цензурно
 **Type:** secondary &middot; **Register:** informal
 **Variants:** *pure hogwash*, *a bunch of hogwash*
 
@@ -970,6 +1030,7 @@ Nonsense, named for the slop fed to pigs. It is stronger and more contemptuous t
 ### hokum
 
 **Pronunciation:** /ˈhoʊkəm/ &middot; *HOH-kum*
+**Русский:** дешёвая показуха / слащавая чушь (устар.) — красивые пустые слова из мира эстрады
 **Type:** secondary &middot; **Register:** dated
 
 Nonsense of the crowd-pleasing kind — showy, sentimental claims that sound wonderful and mean nothing. It started as show-business slang for cheap emotional tricks and still carries a whiff of the carnival tent.
@@ -985,6 +1046,7 @@ Nonsense of the crowd-pleasing kind — showy, sentimental claims that sound won
 ### hooey
 
 **Pronunciation:** /ˈhui/ &middot; *HOO-ee*
+**Русский:** ерунда / чепуха — мягкое и добродушно-старомодное, обычно с a bunch of
 **Type:** secondary &middot; **Register:** informal
 **Variants:** *a bunch of hooey*, *pure hooey*
 
@@ -1001,6 +1063,7 @@ Nonsense — an American coinage from the 1920s that still sounds cheerfully old
 ### horsefeathers
 
 **Pronunciation:** /ˈhɔrsˌfɛðɚz/ &middot; *HORSS-feth-erz*
+**Русский:** чушь собачья (устар.) — эвфемизм 1920-х вместо скабрёзности, сейчас комическая стилизация
 **Type:** secondary &middot; **Register:** dated
 **Variants:** *horse feathers*, *horse hockey*, *horsepucky*
 
@@ -1017,6 +1080,7 @@ A 1920s minced substitute for a barnyard vulgarity, meaning nonsense. It survive
 ### humbug
 
 **Pronunciation:** /ˈhʌmˌbʌɡ/ &middot; *HUM-bug*
+**Русский:** надувательство / вздор! — для американцев неотделимо от скруджевского «Bah, humbug!»
 **Type:** secondary &middot; **Register:** dated
 **Variants:** *bah, humbug*
 
@@ -1033,6 +1097,7 @@ A fraud or a piece of empty pretense, and as an exclamation a scornful "nonsense
 ### malarkey
 
 **Pronunciation:** /məˈlɑrki/ &middot; *muh-LAR-kee*
+**Русский:** болтовня / брехня — беззлобно-простецкое «враньё», давний фаворит американской политики
 **Type:** secondary &middot; **Register:** informal
 **Variants:** *malarky*, *a bunch of malarkey*, *pure malarkey*
 
@@ -1049,6 +1114,7 @@ Insincere talk, exaggeration, nonsense. It is warm and folksy rather than harsh,
 ### my eye
 
 **Pronunciation:** /maɪ ˈaɪ/ &middot; *my EYE*
+**Русский:** как же! / так я и поверил (устар.) — довесок к процитированным чужим словам
 **Type:** phrase &middot; **Register:** dated
 **Variants:** *in a pig's eye*
 
@@ -1065,6 +1131,7 @@ A tag hung on the end of somebody else's words to throw them back as nonsense: r
 ### my foot
 
 **Pronunciation:** /maɪ ˈfʊt/ &middot; *my FUUT*
+**Русский:** как же! / ага, конечно — приставляется к чужим словам и объявляет их чушью; цензурный вариант
 **Type:** phrase &middot; **Register:** informal
 **Variants:** *my Aunt Fanny*, *my hat*
 
@@ -1081,6 +1148,7 @@ Tacked onto the end of a phrase you are quoting back, *my foot* rejects it as no
 ### nonsense
 
 **Pronunciation:** /ˈnɑnˌsɛns/ &middot; *NON-senss*
+**Русский:** чепуха / глупости — универсальное «неправда» в любом стиле; также тёплое «да бросьте!»
 **Type:** secondary &middot; **Register:** neutral
 **Variants:** *utter nonsense*, *complete nonsense*, *what nonsense*
 
@@ -1097,6 +1165,7 @@ The plain, all-purpose word for "that is not true," usable in any register from 
 ### phooey
 
 **Pronunciation:** /ˈfui/ &middot; *FOO-ee*
+**Русский:** фу / тьфу — и «чепуха», и лёгкое отвращение или досада; из идиша и немецкого pfui
 **Type:** primary &middot; **Register:** dated, but still in live use as a deliberately mild exclamation
 **Variants:** *pfui*, *phooey on that*
 
@@ -1113,6 +1182,7 @@ Two jobs: a scornful "nonsense," and a mild expression of disgust or disappointm
 ### piffle
 
 **Pronunciation:** /ˈpɪfəl/ &middot; *PIF-l*
+**Русский:** чепуха / пустяки (устар., книжн.) — не опасная ложь, а пустая болтовня; почти всегда в шутку
 **Type:** secondary &middot; **Register:** dated
 **Variants:** *what piffle*
 
@@ -1129,6 +1199,7 @@ Trivial nonsense — not a dangerous lie, just empty, silly talk. It is prim and
 ### poppycock
 
 **Pronunciation:** /ˈpɑpiˌkɑk/ &middot; *POP-ee-kok*
+**Русский:** чушь! / вздор! (устар.) — напыщенно-комичное возмущение
 **Type:** secondary &middot; **Register:** dated
 **Variants:** *pure poppycock*, *what poppycock*
 
@@ -1145,6 +1216,7 @@ A blustery "nonsense," from a Dutch dialect phrase considerably less polite than
 ### rubbish
 
 **Pronunciation:** /ˈrʌbɪʃ/ &middot; *RUB-ish*
+**Русский:** чушь / ерунда — брит.; в устах американца всегда стилистический выбор, книжность или шутка
 **Type:** secondary &middot; **Register:** neutral, but chiefly British — in an American mouth it is always a style choice
 **Variants:** *utter rubbish*, *what rubbish*, *codswallop* (British)
 
@@ -1161,6 +1233,7 @@ A blustery "nonsense," from a Dutch dialect phrase considerably less polite than
 ### tommyrot
 
 **Pronunciation:** /ˈtɑmiˌrɑt/ &middot; *TOM-ee-rot*
+**Русский:** полная чушь (устар.) — из британского школьного слэнга, сейчас нарочитый архаизм
 **Type:** secondary &middot; **Register:** dated
 **Variants:** *tommy rot*
 
@@ -1177,6 +1250,7 @@ Utter nonsense, from British schoolboy slang in which *tommy* meant foolish. It 
 ### twaddle
 
 **Pronunciation:** /ˈtwɑdəl/ &middot; *TWOD-l*
+**Русский:** пустословие / болтовня (книжн., устар.) — скорее нудная пустота, чем прямая ложь
 **Type:** secondary &middot; **Register:** dated
 **Variants:** *utter twaddle*, *sentimental twaddle*
 
@@ -1195,6 +1269,7 @@ Silly, empty talk — nonsense that is more tiresome than dishonest. It is booki
 ### bah
 
 **Pronunciation:** /bɑ/ &middot; *BAH*
+**Русский:** тьфу / ба! (устар.) — брюзгливое пренебрежение; у американцев прежде всего «Bah, humbug!»
 **Type:** primary &middot; **Register:** dated
 **Variants:** *bah, humbug*
 
@@ -1211,6 +1286,7 @@ A grumpy grunt of dismissal — contempt for an idea, an offer, or the general s
 ### come off it
 
 **Pronunciation:** /ˌkʌm ˈɔf ɪt/ &middot; *kum AWF it*
+**Русский:** да брось / кончай придуриваться — обвинение в притворстве, не просто в ошибке
 **Type:** phrase &middot; **Register:** informal
 **Variants:** *oh, come off it*
 
@@ -1227,6 +1303,7 @@ Tells somebody to drop a pretense: stop exaggerating, stop pretending, stop the 
 ### come on
 
 **Pronunciation:** /kəˈmɑn/ &middot; *kuh-MON*
+**Русский:** да ладно / да брось — протест: «не может быть», «это несерьёзно»
 **Type:** phrase &middot; **Register:** informal
 **Variants:** *c'mon*, *oh, come on*, *aw, come on*
 
@@ -1243,6 +1320,7 @@ Protests something as unreasonable or unbelievable: "you cannot be serious." *Co
 ### doubtful
 
 **Pronunciation:** /ˈdaʊtfəl/ &middot; *DOWT-ful*
+**Русский:** сомнительно / вряд ли — спокойный однословный вердикт, годится и в переписке, и на работе
 **Type:** secondary &middot; **Register:** neutral
 **Variants:** *highly doubtful*, *very doubtful*
 
@@ -1259,6 +1337,7 @@ A one-word verdict that something probably will not happen or probably is not tr
 ### far from it
 
 **Pronunciation:** /ˈfɑr frəm ɪt/ &middot; *FAR frum it*
+**Русский:** отнюдь / совсем наоборот — не просто «нет», а «нет, и скорее наоборот»
 **Type:** phrase &middot; **Register:** neutral
 **Variants:** *far from it, actually*, *quite the opposite*
 
@@ -1275,6 +1354,7 @@ Corrects a wrong impression by putting the truth at the other end of the scale: 
 ### give me a break
 
 **Pronunciation:** /ˌɡɪv mi ə ˈbreɪk/ &middot; *giv mee uh BRAKE*
+**Русский:** да ладно тебе / хватит уже — раздражённое отвержение отговорки; также «отстань от меня»
 **Type:** phrase &middot; **Register:** informal
 **Variants:** *gimme a break*, *oh, give me a break*
 
@@ -1291,6 +1371,7 @@ Exasperated rejection of a claim, an excuse, or an unreasonable demand. Dependin
 ### I beg to differ
 
 **Pronunciation:** /ˌaɪ ˌbɛɡ tə ˈdɪfɚ/ &middot; *eye beg tuh DIF-er*
+**Русский:** позвольте с вами не согласиться (книжн., устар.) — сейчас чаще шутливо-чопорно
 **Type:** phrase &middot; **Register:** formal — but so old-fashioned that most Americans now use it jokingly
 **Variants:** *beg to differ*, *I'd beg to differ*, *I respectfully disagree*
 
@@ -1307,6 +1388,7 @@ A stiffly courteous way to contradict somebody. The politeness is genuine and so
 ### I doubt it
 
 **Pronunciation:** /aɪ ˈdaʊt ɪt/ &middot; *eye DOWT it*
+**Русский:** сомневаюсь / вряд ли — самый безопасный способ выразить недоверие, без сарказма и слэнга
 **Type:** phrase &middot; **Register:** neutral
 **Variants:** *I doubt that*, *I seriously doubt it*, *I highly doubt it*
 
@@ -1323,6 +1405,7 @@ A plain, polite way to say you do not believe something will happen or is true. 
 ### like hell
 
 **Pronunciation:** /ˌlaɪk ˈhɛl/ &middot; *like HEL*
+**Русский:** чёрта с два / как бы не так (грубовато) — резкое опровержение или отказ подчиниться приказу
 **Type:** phrase &middot; **Register:** very informal
 **Variants:** *like hell I will*, *like heck*
 
@@ -1339,6 +1422,7 @@ Contradicts a statement with force: "that is absolutely not so." It usually echo
 ### my ass
 
 **Pronunciation:** /maɪ ˈæs/ &middot; *my ASS*
+**Русский:** чёрта с два / хрена с два (груб.) — вульгарный собрат my foot и my eye
 **Type:** phrase &middot; **Register:** vulgar
 **Variants:** *my sweet ass*
 
@@ -1355,6 +1439,7 @@ The vulgar member of the *my foot* / *my eye* family: repeat the claim, add *my 
 ### on the contrary
 
 **Pronunciation:** /ˌɑn ðə ˈkɑnˌtrɛri/ &middot; *on thuh KON-trer-ee*
+**Русский:** напротив / наоборот (книжн.) — отвергает утверждение и сразу ставит на его место обратное
 **Type:** phrase &middot; **Register:** formal
 **Variants:** *quite the contrary*, *on the contrary, though*
 
@@ -1371,6 +1456,7 @@ Rejects a statement and installs its opposite in one move. It belongs to written
 ### pfft
 
 **Pronunciation:** not a speech sound and it has no real IPA — a short puff of air pushed out through slack, nearly closed lips, sometimes with a *t*-like cutoff at the end; written roughly /pfː(t)/, with no vowel anywhere in it &middot; *pfft*
+**Русский:** пф / пфф — пренебрежительный выдох: «не стоит внимания»
 **Type:** onomatopoeic &middot; **Register:** informal
 **Variants:** *pff*, *pft*, *phhht*
 
@@ -1387,6 +1473,7 @@ The written form of a dismissive puff of air — not a true raspberry, which is 
 ### psh
 
 **Pronunciation:** no settled IPA, because there is no vowel in it — a lip release running straight into a long *sh*, roughly /pʃː/, held as long as the scorn requires &middot; *psh*. The spelled-out older form *pshaw* is an ordinary word with an ordinary vowel: /ʃɔ/, *SHAW*
+**Русский:** пф / ой, да ну — презрительное шипение, резче pfft и чаще в адрес человека
 **Type:** onomatopoeic &middot; **Register:** informal
 **Variants:** *pssh*, *pshh*, *psshh*, *pshaw*
 
@@ -1403,6 +1490,7 @@ A scoffing hiss of dismissal, close to *pfft* but a shade more contemptuous and 
 ### since when
 
 **Pronunciation:** /ˌsɪns ˈwɛn/ &middot; *sinss WEN*
+**Русский:** это с каких пор? — вызов: кто и когда решил, что это правило
 **Type:** phrase &middot; **Register:** informal (confrontational)
 **Variants:** *since when?*, *oh, since when*
 

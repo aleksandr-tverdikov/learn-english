@@ -1,0 +1,666 @@
+{
+ "slug": "03-past-equals-participle-vowel",
+ "title": "Past = participle, one vowel changed",
+ "ru_title": "2-я и 3-я одинаковы, от 1-й отличаются сменой одного звука",
+ "blurb": "The past and participle are identical, differing from the base by a single vowel change.",
+ "source_note": "Группа №3. Вторая и третья формы одинаковы, от первой отличаются сменой одного звука.",
+ "verbs": [
+  {
+   "ru": "сражаться",
+   "base": "fight",
+   "base_ipa": "[fˈaɪt]",
+   "past": "fought",
+   "past_ipa": "[fˈɔːt]",
+   "pp": "fought",
+   "pp_ipa": ""
+  },
+  {
+   "ru": "побеждать (в бою)",
+   "base": "outfight",
+   "base_ipa": "[aʊːtfˈaɪt]",
+   "past": "outfought",
+   "past_ipa": "[aʊːtfˈɔːt]",
+   "pp": "outfought",
+   "pp_ipa": ""
+  },
+  {
+   "ru": "находить",
+   "base": "find",
+   "base_ipa": "[fˈaɪnd]",
+   "past": "found",
+   "past_ipa": "[fˈaʊːnd]",
+   "pp": "found",
+   "pp_ipa": ""
+  },
+  {
+   "ru": "связать, завязать",
+   "base": "bind",
+   "base_ipa": "[bˈaɪnd]",
+   "past": "bound",
+   "past_ipa": "[bˈaʊːnd]",
+   "pp": "bound",
+   "pp_ipa": ""
+  },
+  {
+   "ru": "развязывать",
+   "base": "unbind",
+   "base_ipa": "[ʌnbˈaɪnd]",
+   "past": "unbound",
+   "past_ipa": "[ʌnˈbaʊnd]",
+   "pp": "unbound",
+   "pp_ipa": ""
+  },
+  {
+   "ru": "молоть",
+   "base": "grind",
+   "base_ipa": "[grˈaɪnd]",
+   "past": "ground",
+   "past_ipa": "[grˈaʊːnd]",
+   "pp": "ground",
+   "pp_ipa": ""
+  },
+  {
+   "ru": "развертывать; разматывать, раскручивать",
+   "base": "unwind",
+   "base_ipa": "[ʌnwˈaɪnd]",
+   "past": "unwound",
+   "past_ipa": "[ʌnˈwaʊnd]",
+   "pp": "unwound",
+   "pp_ipa": ""
+  },
+  {
+   "ru": "перематывать",
+   "base": "rewind",
+   "base_ipa": "[riwˈaɪnd]",
+   "past": "rewound",
+   "past_ipa": "[ˌriːˈwaʊnd]",
+   "pp": "rewound",
+   "pp_ipa": ""
+  },
+  {
+   "ru": "выжидать (благоприятного момента)",
+   "base": "bide",
+   "base_ipa": "[baɪd]",
+   "past": "bode",
+   "past_ipa": "[boud]",
+   "pp": "bode",
+   "pp_ipa": ""
+  },
+  {
+   "ru": "вытерпеть; обитать, оставаться верным",
+   "base": "abide",
+   "base_ipa": "[əbˈaɪd]",
+   "past": "abode",
+   "past_ipa": "[əboud]",
+   "pp": "abode",
+   "pp_ipa": ""
+  },
+  {
+   "ru": "светить; сиять",
+   "base": "shine",
+   "base_ipa": "[ʃˈaɪn]",
+   "past": "shone",
+   "past_ipa": "[ʃˈɒn]",
+   "pp": "shone",
+   "pp_ipa": ""
+  },
+  {
+   "ru": "затмить; превзойти",
+   "base": "outshine",
+   "base_ipa": "[aʊːtʃˈaɪn]",
+   "past": "outshone",
+   "past_ipa": "[aʊːtʃˈɒn]",
+   "pp": "outshone",
+   "pp_ipa": ""
+  },
+  {
+   "ru": "карабкаться; взбираться",
+   "base": "climb",
+   "base_ipa": "[klaɪm]",
+   "past": "clumb",
+   "past_ipa": "[klˈʌm]",
+   "pp": "clumb",
+   "pp_ipa": ""
+  },
+  {
+   "ru": "ударить; бить; бастовать",
+   "base": "strike",
+   "base_ipa": "[strˈaɪk]",
+   "past": "struck",
+   "past_ipa": "[strˈʌk]",
+   "pp": "struck",
+   "pp_ipa": ""
+  },
+  {
+   "ru": "зажигать; освещать",
+   "base": "light",
+   "base_ipa": "[lˈaɪt]",
+   "past": "lit",
+   "past_ipa": "[lˈɪt]",
+   "pp": "lit",
+   "pp_ipa": ""
+  },
+  {
+   "ru": "осветить прожектором; сделать центром внимания",
+   "base": "spotlight",
+   "base_ipa": "[ˈspɒtlaɪt]",
+   "past": "spotlit",
+   "past_ipa": "[spˈɒtlɪt]",
+   "pp": "spotlit",
+   "pp_ipa": ""
+  },
+  {
+   "ru": "спускаться, приземляться, сходить (из автобуса)",
+   "base": "alight",
+   "base_ipa": "[əˈlaɪt]",
+   "past": "alit",
+   "past_ipa": "[əˈlɪt]",
+   "pp": "alit",
+   "pp_ipa": ""
+  },
+  {
+   "ru": "освещать прожектором",
+   "base": "floodlight",
+   "base_ipa": "[ˈflʌdlaɪt]",
+   "past": "floodlit",
+   "past_ipa": "[flˈʌdlɪt]",
+   "pp": "floodlit",
+   "pp_ipa": ""
+  },
+  {
+   "ru": "подсвечивать",
+   "base": "backlight",
+   "base_ipa": "[bˈæklaɪt]",
+   "past": "backlit",
+   "past_ipa": "[bˈæklɪt]",
+   "pp": "backlit",
+   "pp_ipa": ""
+  },
+  {
+   "ru": "скользить",
+   "base": "slide",
+   "base_ipa": "[slˈaɪd]",
+   "past": "slid",
+   "past_ipa": "[slˈɪd]",
+   "pp": "slid",
+   "pp_ipa": ""
+  },
+  {
+   "ru": "отпадать; отступаться от веры",
+   "base": "backslide",
+   "base_ipa": "[ˌbækˈslaɪd]",
+   "past": "backslid",
+   "past_ipa": "[bækslˈɪd]",
+   "pp": "backslid",
+   "pp_ipa": ""
+  },
+  {
+   "ru": "бранить",
+   "base": "chide",
+   "base_ipa": "[tʃˈaɪd]",
+   "past": "chid",
+   "past_ipa": "[tʃˈɪd]",
+   "pp": "chid",
+   "pp_ipa": ""
+  },
+  {
+   "ru": "постигать; случаться",
+   "base": "betide",
+   "base_ipa": "[bɪˈtaɪd]",
+   "past": "betid",
+   "past_ipa": "[bɪtɪd]",
+   "pp": "betid",
+   "pp_ipa": ""
+  },
+  {
+   "ru": "стрелять",
+   "base": "shoot",
+   "base_ipa": "[ʃˈuːt]",
+   "past": "shot",
+   "past_ipa": "[ʃˈɒt]",
+   "pp": "shot",
+   "pp_ipa": ""
+  },
+  {
+   "ru": "искать неисправности; разрешать проблемы",
+   "base": "troubleshoot",
+   "base_ipa": "[trˈʌblʃuːt]",
+   "past": "troubleshot",
+   "past_ipa": "[trˈʌblʃɒt]",
+   "pp": "troubleshot",
+   "pp_ipa": ""
+  },
+  {
+   "ru": "промахнуться",
+   "base": "overshoot",
+   "base_ipa": "[ouːvəʃˈuːt]",
+   "past": "overshot",
+   "past_ipa": "[ˌouvəˈʃɒt]",
+   "pp": "overshot",
+   "pp_ipa": ""
+  },
+  {
+   "ru": "повторно фотографировать",
+   "base": "reshoot",
+   "base_ipa": "[rˈiːʃuːt]",
+   "past": "reshot",
+   "past_ipa": "[ˌriːˈʃɒt]",
+   "pp": "reshot",
+   "pp_ipa": ""
+  },
+  {
+   "ru": "стоять",
+   "base": "stand",
+   "base_ipa": "[stˈænd]",
+   "past": "stood",
+   "past_ipa": "[stuːd]",
+   "pp": "stood",
+   "pp_ipa": ""
+  },
+  {
+   "ru": "понимать",
+   "base": "understand",
+   "base_ipa": "[ʌndəstˈænd]",
+   "past": "understood",
+   "past_ipa": "[ˌʌndəˈstʊd]",
+   "pp": "understood",
+   "pp_ipa": ""
+  },
+  {
+   "ru": "неправильно понимать",
+   "base": "misunderstand",
+   "base_ipa": "[mɪsʌndəstˈænd]",
+   "past": "misunderstood",
+   "past_ipa": "[ˌmɪsʌndəˈstʊd]",
+   "pp": "misunderstood",
+   "pp_ipa": ""
+  },
+  {
+   "ru": "противиться; устоять, выстоять; выдержать",
+   "base": "withstand",
+   "base_ipa": "[wɪðstˈænd]",
+   "past": "withstood",
+   "past_ipa": "[wɪðˈstʊd]",
+   "pp": "withstood",
+   "pp_ipa": ""
+  },
+  {
+   "ru": "вешать; висеть",
+   "base": "hang",
+   "base_ipa": "[hˈæŋ]",
+   "past": "hung",
+   "past_ipa": "[hˈʌŋ]",
+   "pp": "hung",
+   "pp_ipa": ""
+  },
+  {
+   "ru": "выступать над (чем-л.); свешиваться; нависать",
+   "base": "overhang",
+   "base_ipa": "[ouvəhæŋ]",
+   "past": "overhung",
+   "past_ipa": "[ouːvəhˈʌŋ]",
+   "pp": "overhung",
+   "pp_ipa": ""
+  },
+  {
+   "ru": "проламывать; разби(ва)ть",
+   "base": "stave",
+   "base_ipa": "[stˈeɪːv]",
+   "past": "stove",
+   "past_ipa": "[stəuv]",
+   "pp": "stove",
+   "pp_ipa": ""
+  },
+  {
+   "ru": "получать; становиться; добираться",
+   "base": "get",
+   "base_ipa": "[gˈet]",
+   "past": "got",
+   "past_ipa": "[gˈɒt]",
+   "pp": "got",
+   "pp_ipa": ""
+  },
+  {
+   "ru": "порождать",
+   "base": "beget",
+   "base_ipa": "[bɪˈget]",
+   "past": "begot",
+   "past_ipa": "[bɪˈgɒt]",
+   "pp": "begot",
+   "pp_ipa": ""
+  },
+  {
+   "ru": "ступать, шагать",
+   "base": "tread",
+   "base_ipa": "[trˈed]",
+   "past": "trod",
+   "past_ipa": "[trˈɒd]",
+   "pp": "trod",
+   "pp_ipa": ""
+  },
+  {
+   "ru": "выиграть; победить",
+   "base": "win",
+   "base_ipa": "[wˈɪn]",
+   "past": "won",
+   "past_ipa": "[wˈʌn]",
+   "pp": "won",
+   "pp_ipa": ""
+  },
+  {
+   "ru": "прясть; крутить, вертеть",
+   "base": "spin",
+   "base_ipa": "[spˈɪn]",
+   "past": "spun",
+   "past_ipa": "[spˈʌn]",
+   "pp": "spun",
+   "pp_ipa": ""
+  },
+  {
+   "ru": "втыкать; укалывать; приклеивать",
+   "base": "stick",
+   "base_ipa": "[stˈɪk]",
+   "past": "stuck",
+   "past_ipa": "[stˈʌk]",
+   "pp": "stuck",
+   "pp_ipa": ""
+  },
+  {
+   "ru": "красться",
+   "base": "sneak",
+   "base_ipa": "[sniːk]",
+   "past": "snuck",
+   "past_ipa": "[snˈʌk]",
+   "pp": "snuck",
+   "pp_ipa": ""
+  },
+  {
+   "ru": "красться; ходить раскачивая бёдрами",
+   "base": "slink",
+   "base_ipa": "[slˈɪŋk]",
+   "past": "slunk",
+   "past_ipa": "[slˈʌŋk]",
+   "pp": "slunk",
+   "pp_ipa": ""
+  },
+  {
+   "ru": "качать, колебать; раскачивать",
+   "base": "swing",
+   "base_ipa": "[swˈɪŋ]",
+   "past": "swung",
+   "past_ipa": "[swˈʌŋ]",
+   "pp": "swung",
+   "pp_ipa": ""
+  },
+  {
+   "ru": "копать, рыть",
+   "base": "dig",
+   "base_ipa": "[dˈɪg]",
+   "past": "dug",
+   "past_ipa": "[dˈʌg]",
+   "pp": "dug",
+   "pp_ipa": ""
+  },
+  {
+   "ru": "нанизать; натягивать (струну, тетиву и т. п.)",
+   "base": "string",
+   "base_ipa": "[strˈɪŋ]",
+   "past": "strung",
+   "past_ipa": "[strˈʌŋ]",
+   "pp": "strung",
+   "pp_ipa": ""
+  },
+  {
+   "ru": "цепляться; льнуть; прилипать; держаться",
+   "base": "cling",
+   "base_ipa": "[klˈɪŋ]",
+   "past": "clung",
+   "past_ipa": "[klˈʌŋ]",
+   "pp": "clung",
+   "pp_ipa": ""
+  },
+  {
+   "ru": "бросать, швырять, метать",
+   "base": "fling",
+   "base_ipa": "[flˈɪŋ]",
+   "past": "flung",
+   "past_ipa": "[flˈʌŋ]",
+   "pp": "flung",
+   "pp_ipa": ""
+  },
+  {
+   "ru": "швырять; подвешивать",
+   "base": "sling",
+   "base_ipa": "[slˈɪŋ]",
+   "past": "slung",
+   "past_ipa": "[slˈʌŋ]",
+   "pp": "slung",
+   "pp_ipa": ""
+  },
+  {
+   "ru": "жалить, жечь",
+   "base": "sting",
+   "base_ipa": "[stˈɪŋ]",
+   "past": "stung",
+   "past_ipa": "[stˈʌŋ]",
+   "pp": "stung",
+   "pp_ipa": ""
+  },
+  {
+   "ru": "скручивать; сжимать",
+   "base": "wring",
+   "base_ipa": "[rˈɪŋ]",
+   "past": "wrung",
+   "past_ipa": "[rˈʌŋ]",
+   "pp": "wrung",
+   "pp_ipa": ""
+  },
+  {
+   "ru": "звенеть (подобно колоколу, металлу)",
+   "base": "ding",
+   "base_ipa": "[dɪŋ]",
+   "past": "dung",
+   "past_ipa": "[dʌŋ]",
+   "pp": "dung",
+   "pp_ipa": ""
+  },
+  {
+   "ru": "заводить (механизм); трубить; извиваться",
+   "base": "wind",
+   "base_ipa": "[wˈɪnd]",
+   "past": "wound",
+   "past_ipa": "[wˈaʊːnd]",
+   "pp": "wound",
+   "pp_ipa": ""
+  },
+  {
+   "ru": "подымать",
+   "base": "heave",
+   "base_ipa": "[hˈiːv]",
+   "past": "hove",
+   "past_ipa": "[houv]",
+   "pp": "hove",
+   "pp_ipa": ""
+  },
+  {
+   "ru": "сидеть",
+   "base": "sit",
+   "base_ipa": "[sˈɪt]",
+   "past": "sat",
+   "past_ipa": "[sˈæt]",
+   "pp": "sat",
+   "pp_ipa": ""
+  },
+  {
+   "ru": "работать няней, присматривать за детьми",
+   "base": "baby-sit",
+   "base_ipa": "[ˈbeɪbi sɪt]",
+   "past": "baby-sat",
+   "past_ipa": "[bˈeɪːbi sˈæt]",
+   "pp": "baby-sat",
+   "pp_ipa": ""
+  },
+  {
+   "ru": "плевать",
+   "base": "spit",
+   "base_ipa": "[spˈɪt]",
+   "past": "spat",
+   "past_ipa": "[spˈæt]",
+   "pp": "spat",
+   "pp_ipa": ""
+  },
+  {
+   "ru": "встречать",
+   "base": "meet",
+   "base_ipa": "[mˈiːt]",
+   "past": "met",
+   "past_ipa": "[mˈet]",
+   "pp": "met",
+   "pp_ipa": ""
+  },
+  {
+   "ru": "вести",
+   "base": "lead",
+   "base_ipa": "[liːd]",
+   "past": "led",
+   "past_ipa": "[lˈed]",
+   "pp": "led",
+   "pp_ipa": ""
+  },
+  {
+   "ru": "ввести в заблуждение",
+   "base": "mislead",
+   "base_ipa": "[mɪsˈliːd]",
+   "past": "misled",
+   "past_ipa": "[mɪsˈled]",
+   "pp": "misled",
+   "pp_ipa": ""
+  },
+  {
+   "ru": "кормить",
+   "base": "feed",
+   "base_ipa": "[fˈiːd]",
+   "past": "fed",
+   "past_ipa": "[fˈed]",
+   "pp": "fed",
+   "pp_ipa": ""
+  },
+  {
+   "ru": "кормить грудью",
+   "base": "breastfeed",
+   "base_ipa": "[brˈestfid]",
+   "past": "breastfed",
+   "past_ipa": "[brˈestfed]",
+   "pp": "breastfed",
+   "pp_ipa": ""
+  },
+  {
+   "ru": "кормить насильно",
+   "base": "force-feed",
+   "base_ipa": "[fɔːs fiːd]",
+   "past": "force-fed",
+   "past_ipa": "[fɔːs fed]",
+   "pp": "force-fed",
+   "pp_ipa": ""
+  },
+  {
+   "ru": "перекармливать",
+   "base": "overfeed",
+   "base_ipa": "[ˌouvəˈfiːd]",
+   "past": "overfed",
+   "past_ipa": "[ˌouvəˈfed]",
+   "pp": "overfed",
+   "pp_ipa": ""
+  },
+  {
+   "ru": "ускорять; спешить; мчатся, проносится",
+   "base": "speed",
+   "base_ipa": "[spˈiːd]",
+   "past": "sped",
+   "past_ipa": "[spˈed]",
+   "pp": "sped",
+   "pp_ipa": ""
+  },
+  {
+   "ru": "выступать в суде",
+   "base": "plead",
+   "base_ipa": "[plˈiːd]",
+   "past": "pled",
+   "past_ipa": "[pled]",
+   "pp": "pled",
+   "pp_ipa": ""
+  },
+  {
+   "ru": "кровоточить",
+   "base": "bleed",
+   "base_ipa": "[blˈiːd]",
+   "past": "bled",
+   "past_ipa": "[blˈed]",
+   "pp": "bled",
+   "pp_ipa": ""
+  },
+  {
+   "ru": "выращивать; размножаться",
+   "base": "breed",
+   "base_ipa": "[brˈiːd]",
+   "past": "bred",
+   "past_ipa": "[brˈed]",
+   "pp": "bred",
+   "pp_ipa": ""
+  },
+  {
+   "ru": "скрещивать (о породах)",
+   "base": "interbreed",
+   "base_ipa": "[ˌɪntə(ː)ˈbriːd]",
+   "past": "interbred",
+   "past_ipa": "[ɪntəbrˈed]",
+   "pp": "interbred",
+   "pp_ipa": ""
+  },
+  {
+   "ru": "скрещивать (породы)",
+   "base": "crossbreed",
+   "base_ipa": "[ˈkrɒsbriːd]",
+   "past": "crossbred",
+   "past_ipa": "[ˈkrɒsbred]",
+   "pp": "crossbred",
+   "pp_ipa": ""
+  },
+  {
+   "ru": "держать",
+   "base": "hold",
+   "base_ipa": "[hould]",
+   "past": "held",
+   "past_ipa": "[hˈeld]",
+   "pp": "held",
+   "pp_ipa": ""
+  },
+  {
+   "ru": "поддерживать",
+   "base": "uphold",
+   "base_ipa": "[ʌpˈhould]",
+   "past": "upheld",
+   "past_ipa": "[ʌpˈheld]",
+   "pp": "upheld",
+   "pp_ipa": ""
+  },
+  {
+   "ru": "вычитать, удерживать",
+   "base": "withhold",
+   "base_ipa": "[wɪðˈhould]",
+   "past": "withheld",
+   "past_ipa": "[wɪðˈheld]",
+   "pp": "withheld",
+   "pp_ipa": ""
+  },
+  {
+   "ru": "смотреть, созерцать, зреть",
+   "base": "behold",
+   "base_ipa": "[bɪˈhould]",
+   "past": "beheld",
+   "past_ipa": "[bɪˈheld]",
+   "pp": "beheld",
+   "pp_ipa": ""
+  }
+ ]
+}

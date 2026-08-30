@@ -1,12 +1,8 @@
-# The American English Conjunction Dictionary
+# The Conjunction Dictionary
 
-> Every conjunction, subordinator, correlative pair, complementizer, and transitional connector in American English — **816 entries** across 12 categories.
+> **816 entries** across 12 categories.
 
-Conjunctions are a **closed class**: unlike nouns or interjections, the full list is finite, so this dictionary aims to be genuinely complete rather than merely broad.
-
-Each entry carries an IPA pronunciation (with the reduced form where speakers use one), a type and register label, the **clause type** it creates, a substitutable **pattern**, its **punctuation rule**, a description, and **at least five example sentences**.
-
-**[Open the audio browser](browse.html)** to search all 816 entries and hear any of them spoken.
+**[Open the audio browser](browse.html)** to search all 816 and hear any of them spoken.
 
 ---
 
@@ -28,33 +24,22 @@ Each entry carries an IPA pronunciation (with the reduced form where speakers us
 | 12 | [Formal, legal, literary, and archaic conjunctions](12-formal-archaic.md) | The conjunctions an American meets in contracts, statutes, hymns, King James scripture, and nineteenth-century novels — and almost nowhere else. | 88 |
 | | **Total** | | **816** |
 
-## How to read an entry
+## Fields in each entry
 
-```
-### although
-
-**Pronunciation:** /ɔlˈðoʊ/ · *awl-THOH*        ← IPA, then STRESS in caps
-**Type:** subordinating · **Register:** neutral  ← which class, and how formal
-**Clause type:** adverbial clause of concession  ← what it builds
-**Pattern:** Although [clause], [main clause].   ← substitute your own words in
-**Punctuation:** Comma when it comes first.      ← the comma rule for THIS word
-
-Description, then five or more example sentences, then See also.
-```
-
-**Pattern** is the line to read first. It shows every position the word can legally occupy, so you can substitute your own clauses directly into the skeleton.
-
-**Punctuation** is the line that prevents the most common written errors. Note especially that [conjunctive adverbs](11-conjunctive-adverbs.md) — *however, therefore, moreover* — are **not** true conjunctions: joining two independent clauses with one and a comma produces a comma splice. They need a semicolon or a period.
-
-## The grammar side
-
-This dictionary is the **lexicon** — what each connector means, how it is pronounced, and how it is punctuated. The **grammar** — the punctuation master table, the serial comma, parallel structure, subject–verb agreement, the conjunction vs. conjunctive-adverb movement test, and the clause and sentence types conjunctions build — is covered in [the main conjunctions reference](../README.md).
+| Field | What it tells you |
+|---|---|
+| Pronunciation | IPA, a stress-marked respelling, and the weak form where one exists |
+| Builds | |
+| Pattern | |
+| Punctuation | |
+| Type | |
+| Variants | |
 
 ---
 
 ## A–Z index
 
-All 816 headwords. A word appearing in more than one category is listed once per category.
+All 816 headwords.
 
 ### A
 

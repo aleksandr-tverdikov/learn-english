@@ -13,6 +13,7 @@ These are the interjections whose native habitat is a keyboard. Some are abbrevi
 ### asdfghjkl
 
 **Pronunciation:** *No settled pronunciation. It is a keysmash — the home row of a QWERTY keyboard struck all at once — and it is meant to be seen, not said. Read aloud it is a wordless flailing noise rather than a sequence of syllables.*
+**Русский:** фывапролд — удар по всей клавиатуре: нет слов от восторга или испанского стыда
 **Type:** primary &middot; **Register:** internet/text (very informal)
 **Variants:** *asdfghjkl;*, *asjdkfhaskjdf*, *kjhsdfkjshdf*, *asdfghjkl* (any random string of letters works)
 
@@ -30,6 +31,7 @@ The typed equivalent of flapping your hands: a fistful of keyboard used to show 
 ### bwahaha
 
 **Pronunciation:** /bwɑˈhɑhɑ/ &middot; *bwah-HAH-hah*
+**Русский:** муа-ха-ха, бу-га-га — писаный злодейский хохот, почти всегда шутливый
 **Type:** onomatopoeic &middot; **Register:** internet/text (informal; jokey)
 **Variants:** *mwahaha*, *muahaha*, *bwahahaha*, *mwahahaha*
 
@@ -47,6 +49,7 @@ A written villain's cackle — the laugh of someone who has just gotten away wit
 ### dead
 
 **Pronunciation:** /dɛd/ &middot; *DED*
+**Русский:** я умер, я труп — очень разг.: так смешно, что убило; сильнее, чем lol
 **Type:** secondary &middot; **Register:** internet/text (very informal)
 **Variants:** *ded*, *deceased*, *I'm dead*, *dying*, *im deceased*
 
@@ -64,6 +67,7 @@ A one-word claim that something was so funny it killed you. It is a full reply o
 ### haha
 
 **Pronunciation:** /ˈhɑhɑ/, also /hɑˈhɑ/ &middot; *HAH-hah*, or *hah-HAH*
+**Русский:** ха-ха — смех на письме; длина и есть смысл: «ха» сухо, «хахаха» по-настоящему смешно
 **Type:** onomatopoeic &middot; **Register:** internet/text (neutral to informal)
 **Variants:** *ha*, *hah*, *ha ha*, *hahaha*, *hahahaha*, *ahaha*, *bahaha*
 
@@ -81,6 +85,7 @@ Laughter, spelled out. Length is the entire message: a single *ha* is dry or sar
 ### heh
 
 **Pronunciation:** /hɛ/ &middot; *HEH*
+**Русский:** хе — один сухой смешок: слегка забавно, без всякого тепла
 **Type:** onomatopoeic &middot; **Register:** internet/text (informal)
 **Variants:** *hehh*, *heheh*
 
@@ -98,6 +103,7 @@ A single dry laugh: acknowledgment that something was mildly amusing, with very 
 ### hehe
 
 **Pronunciation:** /ˈhihi/, also /ˈhɛhɛ/ &middot; *HEE-hee*, or *HEH-heh*
+**Русский:** хи-хи — лукавое хихиканье: доволен собой или слегка проказничает
 **Type:** onomatopoeic &middot; **Register:** internet/text (informal; slightly childish or flirty)
 **Variants:** *hehehe*, *heheh*, *hehey*
 
@@ -115,6 +121,7 @@ A small, mischievous giggle in writing. Unlike *haha* it carries a note of being
 ### ijbol
 
 **Pronunciation:** /ˈɪdʒboʊl/, also spelled out /ˌaɪˌdʒeɪˌbiˌoʊˈɛl/ &middot; *IJ-bohl*, or *eye-jay-bee-oh-EL*
+**Русский:** я в голос — молодёжн.: «я реально засмеялся вслух», ответ на выдохшийся lol
 **Type:** primary &middot; **Register:** internet/text (very informal; Gen Z, 2023 onward)
 **Variants:** *IJBOL*, *ijbolll*, *I just burst out laughing*
 
@@ -132,6 +139,7 @@ A small, mischievous giggle in writing. Unlike *haha* it carries a note of being
 ### kek
 
 **Pronunciation:** /kɛk/ &middot; *KEK*
+**Русский:** кек — очень разг.: смех из игр и имиджборд; кое-где с политическим шлейфом
 **Type:** primary &middot; **Register:** internet/text (very informal; gaming and imageboard slang, with far-right associations in some corners)
 **Variants:** *topkek*, *lel*, *kekw*
 
@@ -148,6 +156,7 @@ A laugh inherited from online gaming, where one faction typing *lol* came out on
 ### lmao
 
 **Pronunciation:** /ləˈmaʊ/, also spelled out /ˌɛlˌɛmˌeɪˈoʊ/ &middot; *luh-MOW* (rhyming with *cow*), or *el-em-ay-OH*
+**Русский:** ржу нимагу, ржака — очень разг., слегка грубое (буквально «смеюсь до отвала задницы»)
 **Type:** primary &middot; **Register:** internet/text (very informal; mildly vulgar because of what it stands for)
 **Variants:** *lmfao*, *lmaoo*, *lmaooo*, *LMAO*
 
@@ -165,6 +174,7 @@ A stronger *lol*, standing for "laughing my ass off." It signals genuine amuseme
 ### lol
 
 **Pronunciation:** /lɑl/, also spelled out /ˌɛlˌoʊˈɛl/ &middot; *LOL* (rhyming with *doll*), or *el-oh-EL*
+**Русский:** лол — очень разг.; давно стёрлось: чаще смягчитель «я не злюсь», чем настоящий смех
 **Type:** primary &middot; **Register:** internet/text (very informal)
 **Variants:** *LOL*, *lolol*, *lolz*, *lul*, *lolll*
 
@@ -182,6 +192,7 @@ Originally "laughing out loud," now the most worn-down word on the internet: in 
 ### rofl
 
 **Pronunciation:** /ˈrɑfəl/ &middot; *ROFF-ul*
+**Русский:** валяюсь по полу от смеха, ппкс — устар. интернет-сленг, сейчас нарочито старомодно
 **Type:** primary &middot; **Register:** internet/text (very informal; dated)
 **Variants:** *ROFL*, *roflmao*, *rotfl*, *roflcopter*
 
@@ -198,6 +209,7 @@ Originally "laughing out loud," now the most worn-down word on the internet: in 
 ### sksksk
 
 **Pronunciation:** *There is no vowel in it, so it has no IPA transcription as a word. It is a fast, voiceless clatter: a hissed s made with the tongue tip at the ridge behind the teeth, snapped off by a k closure at the back of the mouth, repeated three or four times without opening the jaw. It is typed far more often than it is ever said aloud.*
+**Русский:** неологизм, русского эквивалента нет — сдавленный смущённый смешок из тиктока
 **Type:** onomatopoeic &middot; **Register:** internet/text (very informal; associated with teenage girls, 2019 onward)
 **Variants:** *sksksksk*, *ksksks*, *sksk*
 
@@ -214,6 +226,7 @@ A written stand-in for a stifled, embarrassed giggle — the sound of somebody s
 ### teehee
 
 **Pronunciation:** /ˈtiˌhi/ &middot; *TEE-hee*
+**Русский:** хи-хи-хи — жеманное хихиканье, обычно иронично, после признания в мелкой шалости
 **Type:** onomatopoeic &middot; **Register:** internet/text (informal; deliberately cutesy, usually ironic)
 **Variants:** *tee hee*, *teeheehee*, *teehee!*
 
@@ -230,6 +243,7 @@ A dainty little giggle, spelled out. It is far older than the internet — ninet
 ### xd
 
 **Pronunciation:** /ˌɛksˈdi/ &middot; *eks-DEE*
+**Русский:** хD — рожица с зажмуренными глазами: хохот; сейчас отдаёт началом 2010-х
 **Type:** primary &middot; **Register:** internet/text (very informal; dated)
 **Variants:** *XD*, *xD*, *xDD*, *xDDD*
 
@@ -250,6 +264,7 @@ A sideways face — X for eyes squeezed shut, D for a wide-open mouth — markin
 ### and I oop
 
 **Pronunciation:** /ənd aɪ ˈup/ &middot; *and eye OOP*
+**Русский:** и тут я такая… ой — разг.: фраза обрывается на полуслове от неловкости или шока
 **Type:** phrase &middot; **Register:** internet/text (very informal; from drag and Black queer speech, 2019 onward)
 **Variants:** *and I oop-*, *and I oop—*, *and i oop*
 
@@ -266,6 +281,7 @@ A phrase for the half-second in which something startling, awkward, or scandalou
 ### ffs
 
 **Pronunciation:** /ˌɛfˌɛfˈɛs/ &middot; *ef-ef-ESS*; more often read out as the phrase it stands for, *for fuck's sake*
+**Русский:** да бля, сколько можно — мат: выдохшееся раздражение от того, что повторяется опять
 **Type:** primary &middot; **Register:** internet/text (vulgar)
 **Variants:** *FFS*, *ffs.*
 
@@ -283,6 +299,7 @@ The typed form of "for fuck's sake" — flat, worn-out exasperation at something
 ### fml
 
 **Pronunciation:** /ˌɛfˌɛmˈɛl/ &middot; *ef-em-EL*
+**Русский:** жизнь — боль, да что ж такое-то — груб. (от «fuck my life»): комичная жалость к себе
 **Type:** primary &middot; **Register:** internet/text (vulgar)
 **Variants:** *FML*
 
@@ -300,6 +317,7 @@ The typed form of "for fuck's sake" — flat, worn-out exasperation at something
 ### istg
 
 **Pronunciation:** /ˌaɪˌɛsˌtiˈdʒi/ &middot; *eye-es-tee-JEE*; usually read out as *I swear to God*
+**Русский:** богом клянусь, ей-богу — разг.: терпение на исходе, либо «я правда не вру»
 **Type:** primary &middot; **Register:** internet/text (very informal; swears on God, which some readers do mind)
 **Variants:** *ISTG*, *stg*, *i stg*
 
@@ -316,6 +334,7 @@ The typed form of "for fuck's sake" — flat, worn-out exasperation at something
 ### jfc
 
 **Pronunciation:** /ˌdʒeɪˌɛfˈsi/ &middot; *jay-ef-SEE*; usually read out as *Jesus fucking Christ*
+**Русский:** господи блядь, ёбаный боже — мат и богохульно: оторопь от чего-то возмутительного
 **Type:** primary &middot; **Register:** internet/text (vulgar; also blasphemous to many readers)
 **Variants:** *JFC*
 
@@ -332,6 +351,7 @@ The typed form of "for fuck's sake" — flat, worn-out exasperation at something
 ### omfg
 
 **Pronunciation:** /ˌoʊˌɛmˌɛfˈdʒi/ &middot; *oh-em-ef-JEE*
+**Русский:** о боже блядь, ёб твою мать — мат: усиленное omg, на несколько ступеней громче
 **Type:** primary &middot; **Register:** internet/text (vulgar)
 **Variants:** *OMFG*, *omfgg*
 
@@ -348,6 +368,7 @@ The typed form of "for fuck's sake" — flat, worn-out exasperation at something
 ### omg
 
 **Pronunciation:** /ˌoʊˌɛmˈdʒi/ &middot; *oh-em-JEE*
+**Русский:** о боже!, божечки! — разг.: удивление — восторг, ужас и сочувствие одинаково
 **Type:** primary &middot; **Register:** internet/text (very informal, but widely accepted; mildly blasphemous to some religious readers)
 **Variants:** *OMG*, *omgg*, *omgggg*, *omigod*, *ohmygod*
 
@@ -365,6 +386,7 @@ The workhorse of typed surprise: "oh my God" reduced to three letters. Unlike mo
 ### oop
 
 **Pronunciation:** /up/ &middot; *OOP*
+**Русский:** упс, ой — разг.: осёкся, сказал лишнее или заметил неловкое и бросил фразу
 **Type:** primary &middot; **Register:** internet/text (very informal)
 **Variants:** *oop-*, *oop—*, *ooop*
 
@@ -381,6 +403,7 @@ The clipped cousin of *oops*, used when you have said too much, spotted somethin
 ### smh
 
 **Pronunciation:** /ˌɛsˌɛmˈeɪtʃ/ &middot; *es-em-AITCH*; sometimes read out as *shaking my head*
+**Русский:** фейспалм, качаю головой — разг.: разочарование, а не злость
 **Type:** primary &middot; **Register:** internet/text (informal)
 **Variants:** *SMH*, *smdh* (shaking my damn head), *smfh* (vulgar), *smh my head* (a self-aware joke)
 
@@ -398,6 +421,7 @@ The clipped cousin of *oops*, used when you have said too much, spotted somethin
 ### tf
 
 **Pronunciation:** /ˌtiˈɛf/ &middot; *tee-EF*; usually read out as *the fuck*
+**Русский:** какого хуя, чё за — мат: хвост от wtf; отдельно — резкое «что?», в фразе — грубый усилитель
 **Type:** primary &middot; **Register:** internet/text (vulgar)
 **Variants:** *TF*, *tf?*, *da fuq*
 
@@ -414,6 +438,7 @@ The tail end of *wtf*, cut loose and used on its own. Standing alone it is a blu
 ### wtf
 
 **Pronunciation:** /ˌdʌbəljuˌtiˈɛf/, often clipped to /ˌdʌbtiˈɛf/ &middot; *dub-ul-yoo-tee-EF*, or *dub-tee-EF*; also read out as *what the fuck*
+**Русский:** какого хуя, что за хуйня — мат: недоумение, возмущение или комичная растерянность
 **Type:** primary &middot; **Register:** internet/text (vulgar)
 **Variants:** *WTF*, *wtff*, *wtfff*, *wtaf* (what the actual fuck)
 
@@ -431,6 +456,7 @@ The tail end of *wtf*, cut loose and used on its own. Standing alone it is a blu
 ### wth
 
 **Pronunciation:** /ˌdʌbəljuˌtiˈeɪtʃ/ &middot; *dub-ul-yoo-tee-AITCH*; also read out as *what the heck* or *what the hell*
+**Русский:** какого чёрта, что за фигня — разг.: приличная замена wtf, для рабочих и семейных чатов
 **Type:** primary &middot; **Register:** internet/text (informal)
 **Variants:** *WTH*
 
@@ -451,6 +477,7 @@ The clean version of *wtf*, standing in for "what the heck" or "what the hell." 
 ### big oof
 
 **Pronunciation:** /ˌbɪɡ ˈʊf/ &middot; *big OOF*
+**Русский:** ой, жесть; ох, больно — разг.: подчёркнуто театральное сочувствие чужому провалу
 **Type:** phrase &middot; **Register:** internet/text (very informal)
 **Variants:** *BIG oof*, *big ooooof*
 
@@ -467,6 +494,7 @@ An intensified [oof](03-pain.md#oof) — a wince on someone else's behalf at som
 ### big yikes
 
 **Pronunciation:** /ˌbɪɡ ˈjaɪks/ &middot; *big YIKES*
+**Русский:** вот это зашквар, ой, кошмар — разг.: не просто неудача, а стыдно смотреть; ещё и осуждает
 **Type:** phrase &middot; **Register:** internet/text (very informal)
 **Variants:** *BIG yikes*, *big yikers*
 
@@ -483,6 +511,7 @@ An intensified *yikes* for something that is not merely unfortunate but embarras
 ### F
 
 **Pronunciation:** /ɛf/ &middot; *EFF*
+**Русский:** F, эф — разг.: «почтить память» (из игры), ироничное соболезнование по пустяку
 **Type:** primary &middot; **Register:** internet/text (very informal)
 **Variants:** *f*, *press F*, *F in the chat*, *Fs in the chat*
 
@@ -499,6 +528,7 @@ A single letter used to pay respects, from a video game that instructed players 
 ### L
 
 **Pronunciation:** /ɛl/ &middot; *ELL*
+**Русский:** поражение, слил (от loss) — разг.; о человеке — оскорбление, о себе — досадное признание
 **Type:** primary &middot; **Register:** internet/text (very informal; a straight insult when aimed at a person)
 **Variants:** *big L*, *massive L*, *L + ratio*
 
@@ -515,6 +545,7 @@ A single-letter verdict meaning "loss" — a ruling that something or someone ha
 ### oof size large
 
 **Pronunciation:** /ˌʊf saɪz ˈlɑrdʒ/ &middot; *oof size LARJ*
+**Русский:** ой размера XL — разг.: шуточное усиление oof, нарочито ломаная грамматика и есть шутка
 **Type:** phrase &middot; **Register:** internet/text (very informal; deliberately silly, dating to about 2018)
 **Variants:** *oof size: large*, *oof size massive*
 
@@ -531,6 +562,7 @@ A joke escalation of *oof*, as though wincing came in shirt sizes. It is for a m
 ### oofa doofa
 
 **Pronunciation:** /ˌufə ˈdufə/ &middot; *OO-fuh DOO-fuh*
+**Русский:** ой-ёй-ёюшки — разг.: дурашливое разрастание oof, узкий кружковый сленг
 **Type:** phrase &middot; **Register:** internet/text (very informal; niche and jokey)
 **Variants:** *oofa-doofa*, *ooffa doofa*
 
@@ -547,6 +579,7 @@ A nonsense elaboration of *oof*, in the same family as *oof size large*. It is s
 ### rip
 
 **Pronunciation:** /rɪp/, also spelled out /ˌɑrˌaɪˈpi/ &middot; *RIP* (rhyming with *lip*), or *ar-eye-PEE*
+**Русский:** рип, R.I.P. — разг.: «покойся с миром» о чём угодно сломавшемся или закончившемся
 **Type:** primary &middot; **Register:** internet/text (very informal)
 **Variants:** *RIP*, *ripp*, *rip bozo* (mocking)
 
@@ -564,6 +597,7 @@ The gravestone abbreviation "rest in peace," reused as a shrug for anything that
 ### welp
 
 **Pronunciation:** /wɛlp/ &middot; *WELP*
+**Русский:** ну чё ж, нда — разг.: усечённое well, смирение с плохим исходом и переход дальше
 **Type:** primary &middot; **Register:** informal (spoken and internet/text)
 **Variants:** *wellp*, *welp.*
 
@@ -581,6 +615,7 @@ A clipped, resigned *well* — the sound of accepting a bad outcome and moving o
 ### womp womp
 
 **Pronunciation:** /ˌwɑmp ˈwɑmp/ &middot; *wahmp WAHMP*
+**Русский:** пу-пу-пу — разг.: грустная труба, издёвка под видом сочувствия — «жаль, и плевать»
 **Type:** onomatopoeic &middot; **Register:** internet/text and spoken (very informal; mocking — it is an insult dressed as sympathy)
 **Variants:** *womp*, *wamp wamp*, *womp womp womp*
 
@@ -598,6 +633,7 @@ The two descending notes of a sad trombone, spelled out. Typed at somebody else'
 ### yikes on bikes
 
 **Pronunciation:** /ˌjaɪks ɑn ˈbaɪks/ &middot; *yikes on BIKES*
+**Русский:** ужас-ужас-ужас — разг.: рифмованное усиление yikes, шутливо, не про настоящую опасность
 **Type:** phrase &middot; **Register:** internet/text (very informal; jokey)
 **Variants:** *yikes on a bike*, *yikes on bikes with spikes*
 
@@ -618,6 +654,7 @@ A rhyming escalation of [big yikes](#big-yikes), for when something is so ill-ad
 ### based
 
 **Pronunciation:** /beɪst/ &middot; *BAYST*
+**Русский:** красава, уважуха — разг.: похвала за смелое мнение; кое-где с политическим шлейфом
 **Type:** secondary &middot; **Register:** internet/text (very informal; carries political baggage in some communities)
 **Variants:** *based.*, *based af*, *based and redpilled* (far-right in origin)
 
@@ -634,6 +671,7 @@ A one-word compliment for saying something true regardless of who it annoys — 
 ### bet
 
 **Pronunciation:** /bɛt/ &middot; *BET*
+**Русский:** замётано, по рукам — разг.: короткое «да», закрывающее разговор; сухо — «ну-ну»
 **Type:** secondary &middot; **Register:** internet/text and spoken slang (very informal; from African American English)
 **Variants:** *aight bet*, *ight bet*, *ard bet*, *bet.*
 
@@ -651,6 +689,7 @@ A one-word compliment for saying something true regardless of who it annoys — 
 ### big mood
 
 **Pronunciation:** /ˌbɪɡ ˈmud/ &middot; *big MOOD*
+**Русский:** это прям про меня, вот прям я — разг.: полное узнавание себя в чужой картинке или жалобе
 **Type:** phrase &middot; **Register:** internet/text (very informal)
 **Variants:** *whole mood*, *entire mood*, *BIG mood*
 
@@ -667,6 +706,7 @@ An intensified [mood](#mood): "that is exactly, overwhelmingly how I feel." It i
 ### cap
 
 **Pronunciation:** /kæp/ &middot; *KAP*
+**Русский:** врёшь, гонишь — разг.: обвинение во лжи, обычно дружеский подкол
 **Type:** secondary &middot; **Register:** internet/text and spoken slang (very informal; from African American English)
 **Variants:** *capping*, *that's cap*, *stop capping*
 
@@ -683,6 +723,7 @@ A call-out meaning "that's a lie." It comes from African American English, where
 ### cringe
 
 **Pronunciation:** /krɪndʒ/ &middot; *KRINJ*
+**Русский:** кринж, зашквар — разг.: испанский стыд; приговор человеку не меньше, чем вещи
 **Type:** secondary &middot; **Register:** internet/text (very informal; a judgment on the person as much as the thing — genuinely unkind said to someone's face)
 **Variants:** *cringey*, *so cringe*, *cringe af*, *cringe compilation*
 
@@ -699,6 +740,7 @@ A verb turned into a one-word verdict: "that is painfully embarrassing to look a
 ### facts
 
 **Pronunciation:** /fækts/ &middot; *FAKTS*
+**Русский:** факт, чистая правда — разг.: «ты полностью прав» целым ответом, сильнее, чем same
 **Type:** secondary &middot; **Register:** internet/text and spoken slang (very informal)
 **Variants:** *facts.*, *big facts*, *straight facts*
 
@@ -715,6 +757,7 @@ A one-word "you're completely right," used as an entire reply. It is stronger th
 ### ikr
 
 **Pronunciation:** /ˌaɪˌkeɪˈɑr/ &middot; *eye-kay-AR*; usually read out as *I know, right?*
+**Русский:** вот да!, и не говори — разг. (от «I know, right?»): горячее согласие с чужим наблюдением
 **Type:** primary &middot; **Register:** internet/text (informal)
 **Variants:** *IKR*, *ikrr*, *ikr!*
 
@@ -731,6 +774,7 @@ A one-word "you're completely right," used as an entire reply. It is stronger th
 ### mid
 
 **Pronunciation:** /mɪd/ &middot; *MID*
+**Русский:** так себе, средненько — разг., пренебрежительно: настолько средне, что не стоит внимания
 **Type:** secondary &middot; **Register:** internet/text (very informal; dismissive — it is a put-down, not a neutral rating)
 **Variants:** *mid.*, *that's mid*, *straight up mid*
 
@@ -748,6 +792,7 @@ A one-word verdict meaning thoroughly average and therefore not worth anybody's 
 ### mood
 
 **Pronunciation:** /mud/ &middot; *MOOD*
+**Русский:** настроение, это я сейчас — разг.: «вот прямо моё состояние», обычно под картинкой
 **Type:** secondary &middot; **Register:** internet/text (very informal)
 **Variants:** *mood.*, *me rn*
 
@@ -764,6 +809,7 @@ A one-word way of saying "that captures how I feel right now." It works as a cap
 ### no cap
 
 **Pronunciation:** /ˌnoʊ ˈkæp/ &middot; *no KAP*
+**Русский:** зуб даю, без базара — разг.: метка честности при неправдоподобно звучащем утверждении
 **Type:** phrase &middot; **Register:** internet/text and spoken slang (very informal; from African American English)
 **Variants:** *no capp*, *fr no cap*, *on god no cap*
 
@@ -780,6 +826,7 @@ A one-word way of saying "that captures how I feel right now." It works as a cap
 ### noice
 
 **Pronunciation:** /nɔɪs/ &middot; *NOYSS*
+**Русский:** найс — разг.: шутливо исковерканное nice, одобрение с подмигиванием
 **Type:** secondary &middot; **Register:** internet/text (very informal; jokey)
 **Variants:** *noiiice*, *noice.*, *nice*
 
@@ -797,6 +844,7 @@ A one-word way of saying "that captures how I feel right now." It works as a cap
 ### ok boomer
 
 **Pronunciation:** /ˌoʊˈkeɪ ˈbumɚ/ &middot; *oh-KAY BOO-mer*
+**Русский:** ок, бумер — разг.: отмахнуться от мнения как безнадёжно устаревшего; по-настоящему грубо
 **Type:** phrase &middot; **Register:** internet/text (very informal; dismissive, and by now somewhat dated)
 **Variants:** *OK boomer*, *okay boomer*, *ok zoomer* (the return volley)
 
@@ -813,6 +861,7 @@ A two-word dismissal of an opinion as hopelessly out of touch, aimed at older pe
 ### ratio
 
 **Pronunciation:** /ˈreɪʃoʊ/ &middot; *RAY-shoh*
+**Русский:** заминусили, рейшио — разг., враждебно: возражений больше, чем лайков; призыв налететь
 **Type:** secondary &middot; **Register:** internet/text (very informal; hostile — it calls for a pile-on)
 **Variants:** *ratioed*, *L + ratio*, *ratio + you fell off*, *get ratioed*
 
@@ -830,6 +879,7 @@ A one-word verdict that a post has drawn more replies than likes — meaning tha
 ### rekt
 
 **Pronunciation:** /rɛkt/ &middot; *REKT*
+**Русский:** уничтожен, получил по щам — разг.: геймерская издёвка над разгромленным или посаженным в лужу
 **Type:** secondary &middot; **Register:** internet/text (very informal; gaming in origin; a taunt)
 **Variants:** *get rekt*, *REKT*, *rekt lol*, *owned*, *pwned*
 
@@ -847,6 +897,7 @@ A one-word verdict that a post has drawn more replies than likes — meaning tha
 ### same
 
 **Pronunciation:** /seɪm/ &middot; *SAME*
+**Русский:** та же фигня, плюсую — разг.: «и я тоже» целым ответом, самое мягкое из согласий
 **Type:** secondary &middot; **Register:** internet/text (informal)
 **Variants:** *same.*, *SAME*, *big same*, *sameee*
 
@@ -863,6 +914,7 @@ A one-word "me too," used as a complete reply. It is the mildest of the agreemen
 ### say less
 
 **Pronunciation:** /ˌseɪ ˈlɛs/ &middot; *say LESS*
+**Русский:** не продолжай, я в деле — разг.: соглашается и закрывает разговор одной фразой
 **Type:** phrase &middot; **Register:** internet/text and spoken slang (very informal; from African American English)
 **Variants:** *say less fam*, *say no more*
 
@@ -879,6 +931,7 @@ A one-word "me too," used as a complete reply. It is the mildest of the agreemen
 ### sus
 
 **Pronunciation:** /sʌs/ &middot; *SUSS*
+**Русский:** подозрительно, мутно — разг.: что-то не сходится; из игры Among Us, обычно в шутку
 **Type:** secondary &middot; **Register:** internet/text (very informal)
 **Variants:** *suss*, *sussy*, *sus af*
 
@@ -895,6 +948,7 @@ Short for "suspicious." The clipping is old British slang, but the current Ameri
 ### this
 
 **Pronunciation:** /ðɪs/ &middot; *THIS*
+**Русский:** вот!, плюсую, ^ это — разг.: под чужим комментарием «выше всё верно, добавить нечего»
 **Type:** secondary &middot; **Register:** internet/text (informal)
 **Variants:** *^this*, *THIS*, *this.*, *all of this*
 
@@ -911,6 +965,7 @@ An ordinary pronoun used as a pointing finger: posted under someone else's comme
 ### W
 
 **Pronunciation:** /ˈdʌbəlju/, often clipped to /dʌb/ &middot; *DUB-ul-yoo*, or *DUB*
+**Русский:** победа, зачёт (от win) — разг.: одобрение решения, покупки или человека; зеркало L
 **Type:** primary &middot; **Register:** internet/text (very informal)
 **Variants:** *w*, *big W*, *dub*, *W take*
 
@@ -931,6 +986,7 @@ A single-letter verdict meaning "win" — approval of a decision, a purchase, or
 ### ayo
 
 **Pronunciation:** /aɪˈjoʊ/, also /eɪˈjoʊ/ &middot; *eye-YOH*, or *ay-YOH*
+**Русский:** эй!, э, погоди — разг.: останавливает разговор, потому что стало странно или неприлично
 **Type:** primary &middot; **Register:** internet/text (very informal)
 **Variants:** *ayoo*, *ayooo*, *ay yo*, *AYO*
 
@@ -947,6 +1003,7 @@ An attention-grabbing *yo* with an extra beat on the front. Online it does one p
 ### ayy
 
 **Pronunciation:** /eɪ/ &middot; *AY*
+**Русский:** о-о!, йоу! — разг.: радостный возглас узнавания или триумфа; чем больше «й», тем радостнее
 **Type:** primary &middot; **Register:** internet/text (very informal)
 **Variants:** *ayyy*, *ayyyy*, *eyy*, *ey*, *ayy lmao*
 
@@ -963,6 +1020,7 @@ A cheerful, drawn-out shout of recognition or triumph — the sound of pointing 
 ### damn son
 
 **Pronunciation:** /ˌdæm ˈsʌn/ &middot; *dam SUN*
+**Русский:** ну ты даёшь, ого, брат — разг., слегка грубоватое: восхищение с показной удалью
 **Type:** phrase &middot; **Register:** internet/text (very informal; mildly profane)
 **Variants:** *dayum son*, *damn son where'd you find this*
 
@@ -979,6 +1037,7 @@ An admiring or startled "wow," lifted from a viral video and used as a whole rea
 ### deadass
 
 **Pronunciation:** /ˈdɛdˌæs/ &middot; *DED-ass*
+**Русский:** на серьёзных щах, зуб даю — разг., слегка грубое (нью-йоркское): «серьёзно, без шуток»
 **Type:** secondary &middot; **Register:** internet/text and spoken slang (very informal; New York City in origin; mildly vulgar)
 **Variants:** *dead ass*, *deadass?*, *deadazz*
 
@@ -995,6 +1054,7 @@ An admiring or startled "wow," lifted from a viral video and used as a whole rea
 ### fr
 
 **Pronunciation:** /ˌɛfˈɑr/ &middot; *ef-AR*; usually read out as *for real*, /fɚ ˈril/
+**Русский:** реально, серьёзно (от «for real») — разг.: подтверждение своих слов или согласие с чужими
 **Type:** primary &middot; **Register:** internet/text (very informal)
 **Variants:** *frfr*, *fr fr*, *FR*, *fr?*
 
@@ -1011,6 +1071,7 @@ An admiring or startled "wow," lifted from a viral video and used as a whole rea
 ### gg
 
 **Pronunciation:** /ˌdʒiˈdʒi/ &middot; *jee-JEE*
+**Русский:** гг, хорошая игра — разг.: геймерское рукопожатие; саркастически — «ну всё, приплыли»
 **Type:** primary &middot; **Register:** internet/text (very informal; gaming in origin)
 **Variants:** *GG*, *ggwp* (good game, well played), *gg ez* (a taunt), *gg go next*
 
@@ -1028,6 +1089,7 @@ An admiring or startled "wow," lifted from a viral video and used as a whole rea
 ### lfg
 
 **Pronunciation:** /ˌɛlˌɛfˈdʒi/ &middot; *el-ef-JEE*; usually read out as the phrase it stands for, *let's fucking go*
+**Русский:** погнали, блядь! — мат (от «let's fucking go»): чистый хайп перед хорошим событием
 **Type:** primary &middot; **Register:** internet/text (vulgar)
 **Variants:** *LFG*, *LFGGG*, *lfgo*, *let's go*
 
@@ -1045,6 +1107,7 @@ An admiring or startled "wow," lifted from a viral video and used as a whole rea
 ### ong
 
 **Pronunciation:** /ˌoʊˌɛnˈdʒi/ &middot; *oh-en-JEE*; usually read out as *on God*
+**Русский:** ей-богу, зуб даю (от «on God») — разг.: клятва, что не врёшь; и просто сильное «однозначно»
 **Type:** primary &middot; **Register:** internet/text (very informal; from African American English)
 **Variants:** *ONG*, *on god*, *on gd*
 
@@ -1061,6 +1124,7 @@ An admiring or startled "wow," lifted from a viral video and used as a whole rea
 ### periodt
 
 **Pronunciation:** /ˈpɪriət/ &middot; *PEER-ee-ut* — there is no /dt/ cluster in it; the *d* of *period* is simply replaced by a hard, fully released /t/
+**Русский:** и точка! — разг.: сказанное окончательно и обсуждению не подлежит
 **Type:** secondary &middot; **Register:** internet/text (very informal; from Black and drag culture, and it can read as caricature in a mouth that is neither)
 **Variants:** *period*, *perioduh*, *and that's on periodt*, *pointe*
 
@@ -1077,6 +1141,7 @@ An admiring or startled "wow," lifted from a viral video and used as a whole rea
 ### pog
 
 **Pronunciation:** /pɑɡ/ &middot; *POG*
+**Русский:** пог, вот это да! — разг.: твич-восторг «круто!»; вне стримов непонятно совсем
 **Type:** primary &middot; **Register:** internet/text (very informal; Twitch and gaming)
 **Variants:** *poggers*, *PogChamp*, *pog champ*, *pogu*, *poggies*
 
@@ -1093,6 +1158,7 @@ An exclamation of hype out of Twitch chat, named for an emote of a streamer pull
 ### slay
 
 **Pronunciation:** /sleɪ/ &middot; *SLAY*
+**Русский:** ты богиня, жжёшь — разг.: похвала за блестяще сделанное или роскошный вид
 **Type:** secondary &middot; **Register:** internet/text (very informal; from Black and drag culture)
 **Variants:** *slayyy*, *slay queen*, *you slayed*, *slayed*
 
@@ -1110,6 +1176,7 @@ A shout of praise for someone who has done something exceptionally well or looke
 ### yas
 
 **Pronunciation:** /jæs/ &middot; *YASS*
+**Русский:** да-а-а!, уии! — разг.: восторженное «да» — не ответ, а одобрение чужого успеха
 **Type:** secondary &middot; **Register:** internet/text (very informal; from Black and Latino ballroom and drag culture)
 **Variants:** *yaas*, *yasss*, *yaaas*, *yassss*, *yas queen*
 
@@ -1126,6 +1193,7 @@ An extended, delighted *yes* — not an answer to a question but a cheer at some
 ### yeet
 
 **Pronunciation:** /jit/ &middot; *YEET*
+**Русский:** н-на!, оп! — разг.: выкрик при сильном броске или резком бесшабашном действии
 **Type:** primary &middot; **Register:** internet/text (very informal; jokey)
 **Variants:** *YEET*, *yeeet*, *yeetus*
 
@@ -1142,6 +1210,7 @@ A shout that accompanies throwing something hard, or any sudden, committed, fain
 ### yolo
 
 **Pronunciation:** /ˈjoʊloʊ/ &middot; *YOH-loh*; occasionally spelled out as *why-oh-el-oh*
+**Русский:** живём один раз — разг.: оправдание заведомо глупого поступка; мода 2012-го, теперь иронично
 **Type:** primary &middot; **Register:** internet/text (very informal; dated 2012)
 **Variants:** *YOLO*, *yolo!*, *you only live once*
 
@@ -1163,6 +1232,7 @@ A shout that accompanies throwing something hard, or any sudden, committed, fain
 ### bro
 
 **Pronunciation:** /broʊ/ &middot; *BROH*
+**Русский:** бро, братан — разг.: как реакция «bro.» с точкой — плоское недоумение или разочарование
 **Type:** secondary &middot; **Register:** internet/text (very informal)
 **Variants:** *broo*, *brooo*, *bro.*, *my brother in Christ*
 
@@ -1179,6 +1249,7 @@ A term of address that has become a reaction all by itself. Standing alone with 
 ### bruh
 
 **Pronunciation:** /brʌ/ &middot; *BRUH*
+**Русский:** брух, ну ты чё — разг.: невозмутимое недоумение от чужой глупости; адресуется кому угодно
 **Type:** secondary &middot; **Register:** internet/text (very informal)
 **Variants:** *bruhh*, *bruuh*, *bruhhh*, *brah*
 
@@ -1196,6 +1267,7 @@ A term of address that has become a reaction all by itself. Standing alone with 
 ### chile
 
 **Pronunciation:** /tʃaɪl/, often drawn out as /ˈtʃaɪəl/ &middot; *CHYLE*, or *CHY-uhl*
+**Русский:** ой, дорогуша; ох, милочка — разг. (AAVE и драг-культура): усталое сочувствие, вводит сплетню
 **Type:** secondary &middot; **Register:** internet/text (very informal; from African American English and drag culture, and it reads as caricature when a speaker outside those communities puts it on)
 **Variants:** *chi-ile*, *chiiile*, *chile anyways*
 
@@ -1212,6 +1284,7 @@ A term of address that has become a reaction all by itself. Standing alone with 
 ### dude
 
 **Pronunciation:** /dud/ &middot; *DOOD*; drawn out as *duuude* /duːd/
+**Русский:** чувак — разг.: «dude.» с точкой — недоумение, растянутое «duuude» — восторг
 **Type:** secondary &middot; **Register:** internet/text (very informal; also spoken)
 **Variants:** *duuude*, *dude.*, *dood*, *dude!*
 
@@ -1229,6 +1302,7 @@ An address term emptied of meaning decades ago and now a complete reaction on it
 ### fam
 
 **Pronunciation:** /fæm/ &middot; *FAM*
+**Русский:** свои, братан — разг.: обращение к другу; отдельно с точкой — недоумение, как bruh
 **Type:** secondary &middot; **Register:** internet/text and spoken slang (very informal; from African American English)
 **Variants:** *fam.*, *famalam*, *my fam*
 
@@ -1246,6 +1320,7 @@ An address term emptied of meaning decades ago and now a complete reaction on it
 ### sis
 
 **Pronunciation:** /sɪs/ &middot; *SISS*
+**Русский:** сестрёнка, подруга — разг.: как реакция — мягкое недоверие или предостережение, к любому полу
 **Type:** secondary &middot; **Register:** internet/text (very informal; from Black and drag culture)
 **Variants:** *sissss*, *sis.*, *not the sis*
 
@@ -1262,6 +1337,7 @@ The counterpart to *bruh*: an address term that has hardened into a reaction. St
 ### whew chile
 
 **Pronunciation:** /ˌhwju ˈtʃaɪl/, also /ˌfju ˈtʃaɪl/ &middot; *hwyoo-CHYLE*, or *fyoo-CHYLE*
+**Русский:** ой, мамочки; ох, батюшки — разг. (AAVE и драг-культура): вздох перед рассказом о полном бардаке
 **Type:** phrase &middot; **Register:** internet/text (very informal; from Black and drag culture, and it reads as caricature when a speaker outside those communities puts it on)
 **Variants:** *whew chile the ghetto*, *whew chile!*, *woo chile*
 
@@ -1282,6 +1358,7 @@ A sigh and a commiseration rolled together, used to introduce a mess — a long 
 ### hmmge
 
 **Pronunciation:** /ˈhʌmdʒ/ &middot; *HUMJ* — but it is almost never spoken; it is an emote name, typed and read
+**Русский:** неологизм, русского эквивалента нет — твич-эмоут: показное «дай-ка подумаю», обычно с сарказмом
 **Type:** primary &middot; **Register:** internet/text (very informal; niche, Twitch chat)
 **Variants:** *Hmmge*, *HMMGE*
 
@@ -1298,6 +1375,7 @@ A Twitch emote name built from *hmm* plus the *-ge* ending that chat attaches to
 ### owo
 
 **Pronunciation:** /ˈoʊwoʊ/ &middot; *OH-woh*
+**Русский:** мордочка «о_о» — разг.: удивление и любопытство; фраза owo what's this с двусмысленным намёком
 **Type:** primary &middot; **Register:** internet/text (very informal; furry and anime fandom; usually ironic, and the stock phrase *owo what's this* is a sexual joke in origin)
 **Variants:** *OwO*, *ovo*, *owo whats this*
 
@@ -1314,6 +1392,7 @@ A text face — two wide eyes and a small round mouth — showing surprise, curi
 ### rawr
 
 **Pronunciation:** /rɔr/, also /rɑr/ &middot; *RAWR* (one syllable)
+**Русский:** ррр! — разг.: мультяшный рык, кокетливо-игривый; мода середины 2000-х, сейчас только иронично
 **Type:** onomatopoeic &middot; **Register:** internet/text (very informal; dated 2000s, now ironic)
 **Variants:** *rawr xd*, *rawrr*, *RAWR*
 
@@ -1331,6 +1410,7 @@ A written cartoon roar, used flirtatiously or playfully rather than as any kind 
 ### uwu
 
 **Pronunciation:** /ˈuwu/ &middot; *OO-woo*
+**Русский:** мордочка «^_^» — разг.: умиление и нежность; чаще шутка над самой этой умильностью
 **Type:** primary &middot; **Register:** internet/text (very informal; anime and furry fandom; often ironic)
 **Variants:** *UwU*, *uwuu*, *uwu owo*
 
@@ -1351,6 +1431,7 @@ A text face showing a small, blissful, closed-eyed smile — cuteness, contentme
 ### fwiw
 
 **Pronunciation:** /ˌɛfˌdʌbəljuˌaɪˈdʌbəlju/ &middot; *ef-dub-ul-yoo-eye-DUB-ul-yoo*; almost always read out as the phrase instead, *for what it's worth*
+**Русский:** если это чем-то поможет; к слову — разг.-нейтр.: оговорка, заранее снижающая вес своего мнения
 **Type:** primary &middot; **Register:** internet/text (informal; ordinary in professional chat and email)
 **Variants:** *FWIW*, *for what it's worth*
 
@@ -1368,6 +1449,7 @@ A text face showing a small, blissful, closed-eyed smile — cuteness, contentme
 ### iirc
 
 **Pronunciation:** /ˌaɪˌaɪˌɑrˈsi/ &middot; *eye-eye-ar-SEE*; usually read out as *if I recall correctly*
+**Русский:** если мне не изменяет память — разг.-нейтр.: помню так, но не проверял
 **Type:** primary &middot; **Register:** internet/text (informal; ordinary in professional chat)
 **Variants:** *IIRC*, *if I recall correctly*, *if I remember right*
 
@@ -1385,6 +1467,7 @@ A text face showing a small, blissful, closed-eyed smile — cuteness, contentme
 ### imo
 
 **Pronunciation:** /ˌaɪˌɛmˈoʊ/ &middot; *eye-em-OH*
+**Русский:** имхо, по-моему — разг.: метка личного мнения, а не факта
 **Type:** primary &middot; **Register:** internet/text (informal, but common in professional chat)
 **Variants:** *IMO*, *imho* (in my humble opinion), *imnsho* (in my not so humble opinion)
 
@@ -1401,6 +1484,7 @@ A text face showing a small, blissful, closed-eyed smile — cuteness, contentme
 ### jk
 
 **Pronunciation:** /ˌdʒeɪˈkeɪ/ &middot; *jay-KAY*; also read out as *just kidding*
+**Русский:** шучу, шутка — разг.: чаще способ забрать сказанное назад, чем настоящая шутка
 **Type:** primary &middot; **Register:** internet/text (very informal)
 **Variants:** *JK*, *j/k*, *jkjk*, *jk unless*, *just kidding*
 
@@ -1418,6 +1502,7 @@ A text face showing a small, blissful, closed-eyed smile — cuteness, contentme
 ### ngl
 
 **Pronunciation:** /ˌɛnˌdʒiˈɛl/ &middot; *en-jee-EL*; usually read out as *not gonna lie*
+**Русский:** не буду врать, честно говоря — разг.: предупреждение о неловком признании
 **Type:** primary &middot; **Register:** internet/text (very informal)
 **Variants:** *NGL*, *ngl tho*, *not gonna lie*
 
@@ -1434,6 +1519,7 @@ A text face showing a small, blissful, closed-eyed smile — cuteness, contentme
 ### tbh
 
 **Pronunciation:** /ˌtiˌbiˈeɪtʃ/ &middot; *tee-bee-AITCH*; usually read out as *to be honest*
+**Русский:** если честно, по правде говоря — разг.: сейчас будет неприукрашенное мнение
 **Type:** primary &middot; **Register:** internet/text (informal)
 **Variants:** *TBH*, *tbhh*, *to be honest*
 

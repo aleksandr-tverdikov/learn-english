@@ -153,6 +153,7 @@ Choosing one of these verbs is almost never neutral. Three kinds of commitment r
 ### admonish
 
 **Pronunciation:** /ədˈmɑnɪʃ/ &middot; *ad-MAH-nish*
+**Русский:** увещевать, делать замечание — предостережение с упрёком, книжн.
 **Type:** reporting verb — warning with reproof &middot; **Register:** formal
 **Patterns:** *admonish* + **sb** + **to**-infinitive &middot; *admonish* + **sb** + **that**-clause &middot; *admonish* + **sb** + *for* + **-ing** &middot; *admonish* + **sb** + *against* + **-ing** &middot; *admonish* + **sb** (bare object: *she admonished me gently*)
 **Never:** ***admonish to do something*** without an object, and ***admonish someone from doing***. The preposition is *against* for the warning sense and *for* for the rebuking sense: *admonished her for interrupting*, *admonished her against interrupting again*. There is no mandative clause — ✗ *admonished that he be present* — and no gerund complement: ✗ *admonished interrupting*.
@@ -172,6 +173,7 @@ Choosing one of these verbs is almost never neutral. Three kinds of commitment r
 ### advise
 
 **Pronunciation:** /ədˈvaɪz/ &middot; *ad-VYZE* &middot; the noun *advice* is /ədˈvaɪs/, *ad-VYSE*, with an /s/ and no plural
+**Русский:** советовать — общий глагол совета; в обороте advise sb of sth — офиц. «извещать»
 **Type:** reporting verb — advice &middot; **Register:** neutral, tilting formal
 **Patterns:** *advise* + **sb** + **to**-infinitive &middot; *advise* + **that**-clause (subjunctive) &middot; *advise* + **sb** + **that**-clause &middot; *advise* + **-ing** &middot; *advise* + **sb** + *against* + **-ing** &middot; *advise* + (**sb**) + **wh**-clause &middot; *advise* + noun phrase &middot; *advise* + **sb** + *of* + noun phrase
 **Never:** ***advise to do something*** with no object — this is the quiet error inside an otherwise well-behaved verb: ✗ *I advise to book early* → ✓ *I advise booking early* / *I advise you to book early*. The infinitive needs somebody to attach to. Also ***advise someone from doing something*** — the preposition is *against*: *advised us against selling*. And do not write the noun: ***I adviced him*** is not a word.
@@ -196,6 +198,7 @@ Choosing one of these verbs is almost never neutral. Three kinds of commitment r
 ### advocate
 
 **Pronunciation:** /ˈædvəkeɪt/ &middot; *AD-vuh-kayt* &middot; the noun is /ˈædvəkət/, *AD-vuh-kut*, with a reduced last syllable — the two are spelled alike and said differently
+**Русский:** выступать за, отстаивать — публично поддерживать курс или меру, книжн.
 **Type:** reporting verb — public recommendation &middot; **Register:** formal
 **Patterns:** *advocate* + noun phrase &middot; *advocate* + **-ing** &middot; *advocate* + **that**-clause (subjunctive) &middot; *advocate for* + noun phrase or **-ing** &middot; *advocate against* + noun phrase or **-ing**
 **Never:** ***advocate someone to do something***, and ***advocate to do something*** — the verb takes no infinitive at all, with or without an object: ✗ *advocates to build more housing*. Repairs: *advocated that they be released*, *advocated releasing them*, *advocated their release*.
@@ -217,6 +220,7 @@ Choosing one of these verbs is almost never neutral. Three kinds of commitment r
 ### alert
 
 **Pronunciation:** /əˈlɜrt/ &middot; *uh-LURT*
+**Русский:** предупредить, известить — обратить чьё-то внимание на факт или риск, без указаний
 **Type:** reporting verb — warning, notification &middot; **Register:** neutral
 **Patterns:** *alert* + **sb** + *to* + noun phrase &middot; *alert* + **sb** + *to the fact* + **that**-clause &middot; *alert* + **sb** + **that**-clause &middot; *alert* + noun phrase
 **Never:** ***alert someone to do something*** — there is no infinitive frame, and the trap is that *to* is already the verb's preposition, so the wrong sentence looks right. ✗ *alerted us to check the logs* → ✓ *alerted us that the logs needed checking*, or simply *told us to check the logs*. And no bare *alert that*: an object is required, ✗ *alerted that the servers were down*. There is no subjunctive either: the *that*-clause states a fact.
@@ -236,6 +240,7 @@ Choosing one of these verbs is almost never neutral. Three kinds of commitment r
 ### caution
 
 **Pronunciation:** /ˈkɔʃən/ &middot; *KAW-shun*
+**Русский:** предостерегать — сдержанное «будьте осторожны», книжн., частое в прессе
 **Type:** reporting verb — warning &middot; **Register:** formal, common in journalism
 **Patterns:** *caution* + **sb** + **to**-infinitive &middot; *caution* + **sb** + *against* + **-ing** &middot; *caution* + **sb** + **that**-clause &middot; *caution* + **that**-clause &middot; *caution* + **sb** + *about* + noun phrase or **-ing**
 **Never:** ***caution someone from doing something*** — it is *against*, like [warn](#warn) and [advise](#advise): *cautioned investors against reading too much into one quarter*. And ***caution that*** + subjunctive: despite the family resemblance to [advise](#advise) and [urge](#urge), *caution* is not a mandative trigger, and its *that*-clause is an ordinary indicative statement. ✗ *cautioned that the fee be waived* → ✓ *cautioned against waiving the fee* / *cautioned them not to waive the fee*.
@@ -256,6 +261,7 @@ Choosing one of these verbs is almost never neutral. Three kinds of commitment r
 ### convince
 
 **Pronunciation:** /kənˈvɪns/ &middot; *kuhn-VINSS*
+**Русский:** убедить (в чём-то) — добиться, чтобы человек поверил; глагол результата
 **Type:** reporting verb — persuasion (belief) &middot; **Register:** neutral
 **Patterns:** *convince* + **sb** + **that**-clause &middot; *convince* + **sb** + *of* + noun phrase &middot; *convince* + **sb** + **to**-infinitive
 **Never:** ***convince that*** with no object — someone has to be convinced: ✗ *He convinced that the plan would work* → ✓ *He convinced us that it would work*. And ***convince someone into doing something*** is not idiomatic; that frame belongs to [talk into](#talk-into) and [persuade](#persuade).
@@ -276,6 +282,7 @@ Choosing one of these verbs is almost never neutral. Three kinds of commitment r
 ### counsel
 
 **Pronunciation:** /ˈkaʊnsəl/ &middot; *KOWN-suhl* &middot; identical in sound to *council*, which is a body of people and never a verb
+**Русский:** советовать, рекомендовать — совет профессионала или совет особой важности, книжн.
 **Type:** reporting verb — advice &middot; **Register:** formal, professional
 **Patterns:** *counsel* + **sb** + **to**-infinitive &middot; *counsel* + **sb** + *against* + **-ing** &middot; *counsel* + **that**-clause (subjunctive) &middot; *counsel* + noun phrase &middot; *counsel* + **sb** + *on/about* + noun phrase
 **Never:** ***counsel someone from doing something***, and ***counseled that he should be removed*** is British-flavored — American practice takes the bare subjunctive, *counseled that he be removed*. The bare gerund is not the frame either: prefer a noun, *counsel delay*, over ✗ *counsel delaying*.
@@ -296,6 +303,7 @@ Choosing one of these verbs is almost never neutral. Three kinds of commitment r
 ### deter
 
 **Pronunciation:** /dɪˈtɜr/ &middot; *dih-TUR* &middot; the past is *deterred*, with a doubled *r*
+**Русский:** удерживать, отпугивать — не дать сделать; чаще о причине-обстоятельстве, а не о словах
 **Type:** reporting verb — discouragement (result) &middot; **Register:** formal
 **Patterns:** *deter* + **sb** + *from* + **-ing** &middot; *deter* + **sb** + *from* + noun phrase &middot; *deter* + noun phrase (a person or an activity: *deter casual thieves*, *deter theft*)
 **Never:** ***deter someone to do something***, ***deter someone doing something***, and ***deter someone against doing something***. The only preposition is *from*. There is no *that*-clause: ✗ *deterred him that it was risky*.
@@ -316,6 +324,7 @@ Choosing one of these verbs is almost never neutral. Three kinds of commitment r
 ### discourage
 
 **Pronunciation:** /dɪsˈkɜrɪdʒ/ &middot; *dis-KUR-ij*
+**Русский:** отговаривать, не поощрять — мягко противодействовать действию; антоним encourage
 **Type:** reporting verb — discouragement &middot; **Register:** neutral
 **Patterns:** *discourage* + **sb** + *from* + **-ing** &middot; *discourage* + **sb** + *from* + noun phrase &middot; *discourage* + **-ing** &middot; *discourage* + noun phrase
 **Never:** ***discourage someone to do something*** and ***discourage someone against doing something***. No *that*-clause either: ✗ *discouraged us that we should apply*. And note the asymmetry with its opposite: [encourage](#encourage) takes an object plus an infinitive, *discourage* never does — ✓ *encouraged me to apply* but ✗ *discouraged me to apply* → ✓ *discouraged me from applying*.
@@ -336,6 +345,7 @@ Choosing one of these verbs is almost never neutral. Three kinds of commitment r
 ### dissuade
 
 **Pronunciation:** /dɪˈsweɪd/ &middot; *dih-SWAYD*
+**Русский:** отговорить — успешно убедить не делать; книжн., разг. соответствие — talk out of
 **Type:** reporting verb — persuasion away from an action &middot; **Register:** formal
 **Patterns:** *dissuade* + **sb** + *from* + **-ing** &middot; *dissuade* + **sb** + *from* + noun phrase &middot; *dissuade* + **sb** (+ *from it*)
 **Never:** ***dissuade someone to do something***, ***dissuade someone of doing something***, ***dissuade someone against doing***. Only *from*. There is no positive verb ✗ *suade* — the opposite of *dissuade* is [persuade](#persuade).
@@ -356,6 +366,7 @@ Choosing one of these verbs is almost never neutral. Three kinds of commitment r
 ### egg on
 
 **Pronunciation:** /ˌɛɡ ˈɔn/ &middot; *eg-AWN* &middot; stress on *on*; unrelated to the noun *egg*, from an Old Norse word *eggja* meaning *to goad* — the same root as *edge*
+**Русский:** подбивать, подначивать — разг.: подстрекать на что-то безрассудное
 **Type:** reporting verb — encouragement toward something unwise &middot; **Register:** informal
 **Patterns:** *egg* + **sb** + *on* &middot; *egg* + **sb** + *on* + **to**-infinitive (less common)
 **Never:** ***egg on him*** — with a pronoun object the particle must follow it: *egged him on*, *egged them on*, never ✗ *egged on him*. (With a full noun phrase both orders occur — *egged the crowd on* and *egged on the crowd* — but the split order is the usual one, and the passive *egged on by his friends* is the commonest form of all.) There is no *that*-clause and no gerund frame: ✗ *egged him on doing it*.
@@ -375,6 +386,7 @@ Choosing one of these verbs is almost never neutral. Three kinds of commitment r
 ### encourage
 
 **Pronunciation:** /ɪnˈkɜrɪdʒ/ &middot; *in-KUR-ij*
+**Русский:** поощрять, подбадривать — побуждать к тому, что говорящий считает полезным
 **Type:** reporting verb — encouragement &middot; **Register:** neutral
 **Patterns:** *encourage* + **sb** + **to**-infinitive &middot; *encourage* + **-ing** &middot; *encourage* + noun phrase &middot; *encourage* + **sb** + *in* + noun phrase
 **Never:** ***encourage that*** with a subjunctive clause — ✗ *encouraged that he apply* → ✓ *encouraged him to apply*. And ***encourage someone that***: it takes no *that*-clause of any kind. The infinitive also needs an object — ✗ *The policy encourages to recycle* → ✓ *encourages recycling* / *encourages residents to recycle*.
@@ -394,6 +406,7 @@ Choosing one of these verbs is almost never neutral. Three kinds of commitment r
 ### endorse
 
 **Pronunciation:** /ɛnˈdɔrs/ &middot; *en-DORSS*
+**Русский:** публично одобрить, поддержать — поставить своё имя за предложение, кандидата или товар
 **Type:** reporting verb — public approval &middot; **Register:** formal
 **Patterns:** *endorse* + noun phrase &middot; *endorse* + **sb** + *for* + noun phrase &middot; *endorse the idea/view* + *of* + **-ing**
 **Never:** ***endorse someone to do something***, ***endorse to do something***, and ***endorse that the plan go forward***. *Endorse* takes a noun phrase and nothing else: ✓ *endorsed the proposal*, ✗ *endorsed postponing the vote* is at best marginal — write *endorsed a postponement*. It takes no *that*-clause of any kind, indicative or subjunctive; to attach a clause you need a noun for it to hang on, *endorsed the view that the vote should wait*.
@@ -413,6 +426,7 @@ Choosing one of these verbs is almost never neutral. Three kinds of commitment r
 ### enjoin
 
 **Pronunciation:** /ɛnˈdʒɔɪn/ &middot; *en-JOYN*
+**Русский:** предписывать, наказывать (что-л. сделать); юр. запрещать судебным приказом — книжн.
 **Type:** reporting verb — solemn urging, or legal prohibition &middot; **Register:** formal, literary or legal
 **Patterns:** *enjoin* + **sb** + **to**-infinitive &middot; *enjoin* + **that**-clause (subjunctive) &middot; *enjoin* + **sb** + *from* + **-ing** &middot; *enjoin* + **sb** + *to* + noun phrase (*enjoined us to silence*) &middot; *enjoin* + noun phrase (*enjoin silence*)
 **Never:** ***enjoin someone against doing something*** — the legal preposition is *from*.
@@ -433,6 +447,7 @@ Choosing one of these verbs is almost never neutral. Three kinds of commitment r
 ### exhort
 
 **Pronunciation:** /ɪɡˈzɔrt/ &middot; *ig-ZORT* &middot; the *h* is silent and the *x* is voiced, /ɡz/ — not *eks-HORT*
+**Русский:** призывать, увещевать — горячий публичный призыв, книжн., ритор.
 **Type:** reporting verb — earnest urging &middot; **Register:** formal, literary
 **Patterns:** *exhort* + **sb** + **to**-infinitive &middot; *exhort* + **sb** + *to* + noun phrase &middot; *exhort* + **that**-clause (subjunctive — archaic, biblical: *I exhort that supplications be made*)
 **Never:** ***exhort to do something*** without an object, and ***exhort someone doing something***. The frame is fixed: a person, then an infinitive.
@@ -452,6 +467,7 @@ Choosing one of these verbs is almost never neutral. Three kinds of commitment r
 ### flag
 
 **Pronunciation:** /flæɡ/ &middot; *FLAG* &middot; the past is *flagged*, with a doubled *g*
+**Русский:** отметить, обратить внимание на — разг.-деловое: указать на возможную проблему
 **Type:** reporting verb — raising something for attention &middot; **Register:** informal to neutral; standard workplace English
 **Patterns:** *flag* + noun phrase &middot; *flag* + **that**-clause &middot; *flag* + noun phrase + *for/to* + **sb** &middot; *flag* + **wh**-clause &middot; *flag* + noun phrase + *as* + noun phrase
 **Never:** ***flag someone to do something*** and ***flag someone that*** — the person takes a preposition, not a direct-object slot: ✗ *flagged me that the date moved* → ✓ *flagged to me that the date moved*, or better, *told me the date had moved*.
@@ -471,6 +487,7 @@ Choosing one of these verbs is almost never neutral. Three kinds of commitment r
 ### float
 
 **Pronunciation:** /floʊt/ &middot; *FLOHT*
+**Русский:** закинуть идею, вбросить предложение — высказать пробно, чтобы увидеть реакцию
 **Type:** reporting verb — tentative suggestion &middot; **Register:** informal to neutral
 **Patterns:** *float* + noun phrase (*float an idea*) &middot; *float the idea/possibility of* + **-ing** &middot; *float* + noun phrase + *to/past* + **sb** &middot; *float* + **that**-clause (informal, journalistic) &middot; *float* + **-ing** (rare: *floated postponing the vote*)
 **Never:** ***float someone to do something*** and ***float to do something***. Like the rest of Group B it takes no personal object; the person you floated it to follows *to* or *past*. The *that*-clause is indicative — ✗ *floated that we postpone* → ✓ *floated the idea of postponing* / *floated that we might postpone*.
@@ -491,6 +508,7 @@ Choosing one of these verbs is almost never neutral. Three kinds of commitment r
 ### forewarn
 
 **Pronunciation:** /fɔrˈwɔrn/ &middot; *for-WORN* &middot; stress on the second syllable, unlike the noun *forewarning*
+**Русский:** заранее предупредить — книжн., подчёркивает, что было время подготовиться
 **Type:** reporting verb — advance warning &middot; **Register:** formal
 **Patterns:** *forewarn* + **sb** + **that**-clause &middot; *forewarn* + **sb** + *of/about* + noun phrase &middot; *forewarn* + **sb** + **to**-infinitive (uncommon)
 **Never:** ***forewarn that*** with no object, and ***forewarn someone from doing***. An object is obligatory in the active.
@@ -510,6 +528,7 @@ Choosing one of these verbs is almost never neutral. Three kinds of commitment r
 ### invite
 
 **Pronunciation:** /ɪnˈvaɪt/ &middot; *in-VYTE* &middot; the noun *invite* (*a dinner invite*) is /ˈɪnvaɪt/, *IN-vyte*, and is informal
+**Русский:** приглашать, предлагать — просьба в форме приглашения; часто вежливое требование
 **Type:** reporting verb — invitation &middot; **Register:** neutral
 **Patterns:** *invite* + **sb** + **to**-infinitive &middot; *invite* + **sb** + *to* + noun phrase &middot; *invite* + **sb** + *for* + noun phrase &middot; *invite* + noun phrase (*invite comment*) &middot; *invite* + **sb** + *over/in/along*
 **Never:** ***invite someone that*** and ***invite that***, and ***invite someone come*** — the second verb always takes *to*. An object is required in the active: ✗ *He invited to sit down.*
@@ -529,6 +548,7 @@ Choosing one of these verbs is almost never neutral. Three kinds of commitment r
 ### move
 
 **Pronunciation:** /muv/ &middot; *MOOV*
+**Русский:** вносить предложение (на собрании) — парламентское: предлагать поставить на голосование
 **Type:** reporting verb — formal proposal to a meeting &middot; **Register:** formal, parliamentary
 **Patterns:** *move* + **that**-clause (subjunctive) &middot; *move* + **to**-infinitive (*move to adjourn*) &middot; *move* + noun phrase (*move an amendment*) &middot; *move for* + noun phrase
 **Never:** ***move someone to do something*** in this sense — *move* with an object plus infinitive belongs to the emotional sense (*the story moved her to tears*) and cannot report a proposal. And ***move that the meeting is adjourned***: the clause verb must be the bare base form.
@@ -549,6 +569,7 @@ Choosing one of these verbs is almost never neutral. Three kinds of commitment r
 ### nudge
 
 **Pronunciation:** /nʌdʒ/ &middot; *NUJ*
+**Русский:** подталкивать, мягко напоминать — разг.: ненавязчиво побуждать; также «напомнить»
 **Type:** reporting verb — gentle encouragement &middot; **Register:** informal
 **Patterns:** *nudge* + **sb** + **to**-infinitive &middot; *nudge* + **sb** + *toward/into* + noun phrase or **-ing** &middot; *nudge* + **sb** + *about* + noun phrase (the reminder sense) &middot; *nudge* + **sb** (bare object)
 **Never:** ***nudge someone that*** and ***nudge that***. No clause of any kind follows it.
@@ -568,6 +589,7 @@ Choosing one of these verbs is almost never neutral. Three kinds of commitment r
 ### persuade
 
 **Pronunciation:** /pərˈsweɪd/ &middot; *per-SWAYD*
+**Русский:** убедить, уговорить (сделать) — глагол результата: человек согласился и сделал
 **Type:** reporting verb — persuasion (action) &middot; **Register:** neutral
 **Patterns:** *persuade* + **sb** + **to**-infinitive &middot; *persuade* + **sb** + **that**-clause &middot; *persuade* + **sb** + *of* + noun phrase &middot; *persuade* + **sb** + *into* + **-ing** &middot; *persuade* + **sb** + *out of* + **-ing**
 **Never:** ***persuade to do something*** with no object and ***persuade that*** with no object — the person persuaded is obligatory: ✗ *She persuaded that we should wait* → ✓ *She persuaded us to wait*. And ***persuade someone doing something***.
@@ -595,6 +617,7 @@ Choosing one of these verbs is almost never neutral. Three kinds of commitment r
 ### prescribe
 
 **Pronunciation:** /prɪˈskraɪb/ &middot; *prih-SKRYBE*
+**Русский:** предписывать, назначать — рекомендация с властью врача или закона, книжн.
 **Type:** reporting verb — authoritative recommendation &middot; **Register:** formal, medical or legal
 **Patterns:** *prescribe* + noun phrase &middot; *prescribe* + noun phrase + *for* + **sb** &middot; *prescribe* + **that**-clause (subjunctive)
 **Never:** ***prescribe someone to do something*** — like the rest of Group B it takes no object plus infinitive: ✗ *prescribed me to rest* → ✓ *prescribed rest*, *prescribed that I rest for a week*. And ***prescribe someone something*** as a double object is shaky in careful writing; prefer *prescribed an antibiotic for her*.
@@ -615,6 +638,7 @@ Choosing one of these verbs is almost never neutral. Three kinds of commitment r
 ### press
 
 **Pronunciation:** /prɛs/ &middot; *PRESS*
+**Русский:** настойчиво уговаривать, наседать — давить, ничего не говоря об успехе
 **Type:** reporting verb — insistent urging &middot; **Register:** neutral
 **Patterns:** *press* + **sb** + **to**-infinitive &middot; *press* + **sb** + *for* + noun phrase &middot; *press* + **sb** + *on/about* + noun phrase &middot; *press for* + noun phrase &middot; *press* + **sb** + *into* + **-ing** (usually passive: *was pressed into helping*) &middot; *press* + noun phrase (*press the point*)
 **Never:** ***press someone that*** — no *that*-clause follows it, and no subjunctive. And ***press someone into to do something***: after *into* comes a gerund or a noun, never an infinitive. The set phrase is *press someone into service*; with a verb it is *pressed into serving*.
@@ -635,6 +659,7 @@ Choosing one of these verbs is almost never neutral. Three kinds of commitment r
 ### prevail on
 
 **Pronunciation:** /prɪˈveɪl ɑn/ &middot; *prih-VAYL-on* &middot; also *prevail upon*, /prɪˈveɪl əˌpɑn/, which is even more formal
+**Русский:** уговорить, склонить — книжн.: добиться согласия у неохотного человека
 **Type:** reporting verb — successful persuasion &middot; **Register:** formal
 **Patterns:** *prevail on/upon* + **sb** + **to**-infinitive
 **Never:** ***prevail someone to do something*** — the preposition is obligatory. And ***prevail on someone that***, ***prevail on someone into doing***. This verb has exactly one frame.
@@ -654,6 +679,7 @@ Choosing one of these verbs is almost never neutral. Three kinds of commitment r
 ### prompt
 
 **Pronunciation:** /prɑmpt/ &middot; *PRAHMPT*
+**Русский:** побудить, подтолкнуть; подсказать — чаще о событии-причине или о реплике-подсказке
 **Type:** reporting verb — causing someone to act or speak &middot; **Register:** neutral
 **Patterns:** *prompt* + **sb** + **to**-infinitive &middot; *prompt* + noun phrase &middot; *prompt* + **sb** + *for* + noun phrase &middot; *prompt* + **sb** + *with* + noun phrase
 **Never:** ***prompt someone that*** and ***prompt that***. No clause follows it.
@@ -673,6 +699,7 @@ Choosing one of these verbs is almost never neutral. Three kinds of commitment r
 ### propose
 
 **Pronunciation:** /prəˈpoʊz/ &middot; *pruh-POHZ*
+**Русский:** предлагать — формальное предложение, которое можно принять к исполнению
 **Type:** reporting verb — formal proposal &middot; **Register:** neutral to formal
 **Patterns:** *propose* + **that**-clause (subjunctive) &middot; *propose* + **-ing** &middot; *propose* + **to**-infinitive (= intend) &middot; *propose* + noun phrase &middot; *propose* + noun phrase + *to* + **sb** &middot; *propose* + **sb** + *for/as* + noun phrase (nominate: *proposed her for the chair*)
 **Never:** ***propose someone to do something*** and ***propose to someone to do something***. Repairs: *proposed that we meet*, *proposed meeting*, *proposed a meeting*. The one place a person may follow *propose* directly is the nominating sense, where the person is the thing proposed, not the person spoken to: ✓ *proposed him as treasurer*, still ✗ *proposed him to serve as treasurer*.
@@ -695,6 +722,7 @@ Choosing one of these verbs is almost never neutral. Three kinds of commitment r
 ### push
 
 **Pronunciation:** /pʊʃ/ &middot; *PUUSH* &middot; the vowel is /ʊ/ as in *put*, not /ʌ/ as in *hush*
+**Русский:** давить, настойчиво склонять — с намёком, что человек не хочет; push for — добиваться
 **Type:** reporting verb — forceful urging &middot; **Register:** informal to neutral
 **Patterns:** *push* + **sb** + **to**-infinitive &middot; *push for* + noun phrase &middot; *push* + **sb** + *into* + **-ing** &middot; *push* + noun phrase (*push a proposal*)
 **Never:** ***push someone that***. No *that*-clause. And ***push someone to doing something*** — after the object it is a plain infinitive, or *into* plus a gerund.
@@ -714,6 +742,7 @@ Choosing one of these verbs is almost never neutral. Three kinds of commitment r
 ### put forward
 
 **Pronunciation:** /ˌpʊt ˈfɔrwərd/ &middot; *puut-FOR-werd*
+**Русский:** выдвигать, предлагать — вынести имя, версию или план на рассмотрение
 **Type:** reporting verb — offering a proposal or view &middot; **Register:** neutral to formal
 **Patterns:** *put forward* + noun phrase &middot; *put* + noun phrase + *forward* &middot; *put forward the idea/view/argument* + **that**-clause &middot; *put* + **sb** + *forward* (as a candidate)
 **Never:** ***put forward someone to do something*** and ***put forward to do something***. The clause frame requires a noun to hang on: ✗ *put forward that we postpone* → ✓ *put forward the idea that we postpone*, or just *proposed postponing*.
@@ -734,6 +763,7 @@ Choosing one of these verbs is almost never neutral. Three kinds of commitment r
 ### recommend
 
 **Pronunciation:** /ˌrɛkəˈmɛnd/ &middot; *rek-uh-MEND* &middot; one *c*, two *m*'s
+**Русский:** рекомендовать — совет со знанием дела; решение остаётся за слушающим
 **Type:** reporting verb — recommendation &middot; **Register:** neutral
 **Patterns:** *recommend* + **that**-clause (subjunctive) &middot; *recommend* + **-ing** &middot; *recommend* + noun phrase &middot; *recommend* + noun phrase + *to* + **sb** &middot; *recommend* + **sb** + *for/as* + noun phrase &middot; *recommend against* + **-ing** &middot; *recommend* + **wh**-clause
 **Never:** ***recommend someone to do something*** and ***recommend someone something***. Both are extremely common learner errors and both have easy repairs: ✗ *recommended me to apply* → ✓ *recommended that I apply* / *recommended applying*; ✗ *recommended me a hotel* → ✓ *recommended a hotel to me*. A person may follow *recommend* only when the person is what is being recommended — ✓ *recommended her for the job*, ✓ *recommended him as a tutor* — never when the person is the one being advised.
@@ -757,6 +787,7 @@ Choosing one of these verbs is almost never neutral. Three kinds of commitment r
 ### steer
 
 **Pronunciation:** /stɪr/ &middot; *STEER*
+**Русский:** направлять, подводить к выбору — исподволь, не высказывая совета прямо
 **Type:** reporting verb — guidance toward or away from &middot; **Register:** informal to neutral
 **Patterns:** *steer* + **sb** + *toward/to* + noun phrase or **-ing** &middot; *steer* + **sb** + *away from* + noun phrase or **-ing** &middot; *steer* + **sb** + *through* + noun phrase &middot; *steer clear of* + noun phrase or **-ing**
 **Never:** ***steer someone to do something*** and ***steer someone that***. It is a preposition verb throughout; the infinitive frame does not exist, and neither does a clause of any kind — *steer* cannot carry what was actually said, only the direction it pushed.
@@ -777,6 +808,7 @@ Choosing one of these verbs is almost never neutral. Three kinds of commitment r
 ### suggest
 
 **Pronunciation:** /səɡˈdʒɛst/ &middot; *suhg-JEST* &middot; the /ɡ/ is pronounced in American English; British English usually drops it, /səˈdʒɛst/
+**Русский:** предлагать; наводить на мысль — совет без нажима; о фактах — «свидетельствовать о»
 **Type:** reporting verb — suggestion &middot; **Register:** neutral
 **Patterns:** *suggest* + **that**-clause (subjunctive) &middot; *suggest* + **-ing** &middot; *suggest* + **wh**-clause &middot; *suggest* + noun phrase &middot; *suggest* + noun phrase + *to* + **sb** &middot; *suggest to* + **sb** + **that**-clause
 **Never:** ***suggest someone to do something*** — this is the single most common structural error in reported speech. *Suggest* takes no personal object at all before its complement: not with a bare object (✗ *suggested me to leave*), not with a preposition (✗ *suggested to me to leave*), not with a bare infinitive (✗ *suggested me leave*). Repairs: *suggested that I leave*, *suggested leaving*, *suggested it to me*. A second error rides alongside it: ✗ *suggested us a restaurant* → ✓ *suggested a restaurant to us*.
@@ -800,6 +832,7 @@ Choosing one of these verbs is almost never neutral. Three kinds of commitment r
 ### talk into
 
 **Pronunciation:** /ˌtɔk ˈɪntu/ &middot; *tawk-IN-too* &middot; in running speech *into* reduces to /ˈɪntə/, *IN-tuh*
+**Русский:** уговорить (на что-л.) — разг.: уговоры подействовали, часто с оттенком сожаления
 **Type:** reporting verb — successful persuasion &middot; **Register:** informal
 **Patterns:** *talk* + **sb** + *into* + **-ing** &middot; *talk* + **sb** + *into* + noun phrase &middot; *talk* + oneself + *into* + **-ing**
 **Never:** ***talk someone into to do something*** and ***talk someone to do something***. After *into* comes a gerund or a noun, never an infinitive. The object goes between *talk* and *into*: ✗ *talked into it me*.
@@ -819,6 +852,7 @@ Choosing one of these verbs is almost never neutral. Three kinds of commitment r
 ### talk out of
 
 **Pronunciation:** /ˌtɔk ˈaʊt əv/ &middot; *tawk-OWT-uv* &middot; *of* reduces to /əv/ or /ə/
+**Русский:** отговорить (от чего-л.) — разг.: человек отказался от задуманного
 **Type:** reporting verb — successful dissuasion &middot; **Register:** informal
 **Patterns:** *talk* + **sb** + *out of* + **-ing** &middot; *talk* + **sb** + *out of* + noun phrase &middot; *talk* + oneself + *out of* + **-ing**
 **Never:** ***talk someone out of to do something***, ***talk someone from doing something***, and ***talk someone out to do***. The full preposition is *out of*, followed by a gerund or noun.
@@ -838,6 +872,7 @@ Choosing one of these verbs is almost never neutral. Three kinds of commitment r
 ### tip off
 
 **Pronunciation:** /ˌtɪp ˈɔf/ &middot; *tip-AWF* &middot; the noun is *a tip-off*, /ˈtɪp ɔf/, *TIP-awf*, with the stress moved forward and a hyphen
+**Русский:** предупредить по секрету, «слить» информацию — разг., с оттенком осведомительства
 **Type:** reporting verb — confidential warning &middot; **Register:** informal
 **Patterns:** *tip* + **sb** + *off* &middot; *tip* + **sb** + *off* + **that**-clause &middot; *tip* + **sb** + *off* + *about/to* + noun phrase &middot; *tip off* + noun phrase (unsplit, with a full noun object: *tipped off investigators*)
 **Never:** ***tip off him*** — a pronoun object must sit inside the phrasal verb: *tipped him off*, never ✗ *tipped off him*. (A full noun phrase may go either side: *tipped off investigators* / *tipped investigators off*.) And ***tip off someone to do something***: there is no infinitive frame, and no subjunctive — the *that*-clause states a fact.
@@ -857,6 +892,7 @@ Choosing one of these verbs is almost never neutral. Three kinds of commitment r
 ### urge
 
 **Pronunciation:** /ɜrdʒ/ &middot; *URJ*
+**Русский:** настоятельно призывать, убеждать — сильная рекомендация, без гарантии результата
 **Type:** reporting verb — strong recommendation &middot; **Register:** neutral to formal
 **Patterns:** *urge* + **sb** + **to**-infinitive &middot; *urge* + **that**-clause (subjunctive) &middot; *urge* + noun phrase (*urge caution*) &middot; *urge* + **sb** + *on* &middot; *urge* + noun phrase + *on/upon* + **sb** (formal)
 **Never:** ***urge someone doing something*** and ***urge someone from doing something***. The negative is *not to*: *urged us not to wait*.
@@ -877,6 +913,7 @@ Choosing one of these verbs is almost never neutral. Three kinds of commitment r
 ### warn
 
 **Pronunciation:** /wɔrn/ &middot; *WORN* &middot; a homophone of *worn*
+**Русский:** предупреждать — указать на опасность или дурные последствия, которых ещё можно избежать
 **Type:** reporting verb — warning &middot; **Register:** neutral
 **Patterns:** *warn* + **sb** + **to**-infinitive &middot; *warn* + **sb** + *not to*-infinitive &middot; *warn* + **sb** + **that**-clause &middot; *warn* + **that**-clause &middot; *warn* + **sb** + *of/about* + noun phrase or **-ing** &middot; *warn* + (**sb**) + *against* + **-ing** &middot; *warn* + **sb** + *off*
 **Never:** ***warn someone from doing something*** — it is *against*: ✗ *warned us from swimming there* → ✓ *warned us against swimming there*. And ***warn someone to not do something***; the negative goes before *to*. There is no subjunctive: ✗ *warned that he be careful* → ✓ *warned him to be careful*. Note that *warn* is the one warning verb in this file that takes both an infinitive and a clause, so both repairs are always open to it.
@@ -897,6 +934,7 @@ Choosing one of these verbs is almost never neutral. Three kinds of commitment r
 ### win over
 
 **Pronunciation:** /ˌwɪn ˈoʊvər/ &middot; *win-OH-ver*
+**Русский:** переманить на свою сторону, расположить к себе — из противника сделать сторонника
 **Type:** reporting verb — successful persuasion of an opponent &middot; **Register:** neutral to informal
 **Patterns:** *win* + **sb** + *over* &middot; *win over* + noun phrase &middot; *win* + **sb** + *over to* + noun phrase
 **Never:** ***win someone over to do something*** and ***win someone over that***. No infinitive, no clause — this verb reports a result and cannot carry the content of what was said. With a pronoun the particle follows: *won her over*, never ***won over her***.

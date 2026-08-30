@@ -199,6 +199,7 @@
         <span id="rateVal" class="mono">0.85&times;</span>
       </label>
       <span id="ttsWarn" style="display:none;color:var(--accent)">No speech voices found in this browser.</span>
+      <span style="flex:1 1 100%;font-size:11.5px;color:var(--text-dim);line-height:1.5">For a real native voice: <b>System Settings</b> &rarr; search &ldquo;system voice&rdquo; &rarr; <b>Read &amp; Speak</b> (called <i>Spoken Content</i> before macOS 26) &rarr; System voice &rarr; <b>Manage Voices…</b> &rarr; English (US) &rarr; download a <b>Premium</b> voice (Ava, Allison, Tom, Samantha).</span>
     </div>
   </div>
 </header>
@@ -367,16 +368,33 @@ const voiceSel = document.getElementById('voice');
 const rateInput = document.getElementById('rate');
 const rateVal = document.getElementById('rateVal');
 
+// macOS ships ~28 "en_US" voices, most of them novelty joke voices (Albert, Bahh, Boing,
+// Zarvox...). Taking the first en-US voice alphabetically lands on Albert, which is why
+// this sounded terrible. Rank explicitly instead.
+const NOVELTY = /^(albert|bad news|bahh|bells|boing|bubbles|cellos|deranged|good news|hysterical|jester|junior|kathy|organ|princess|ralph|superstar|trinoids|whisper|wobble|zarvox|fred|bruce|agnes|victoria)\b/i;
+const PREFERRED = ['samantha','ava','allison','susan','zoe','joelle','nicky','noelle','tom','alex',
+                   'evan','aaron','google us english','reed','rocko','sandy','shelley','eddy','flo',
+                   'grandma','grandpa'];
+function voiceScore(v) {
+  const n = (v.name || '').toLowerCase();
+  if (NOVELTY.test(n)) return 999;
+  let s = PREFERRED.findIndex(p => n.startsWith(p));
+  if (s < 0) s = 100;
+  if (/premium|enhanced|siri/.test(n)) s -= 50;
+  if (!/en[-_]us/i.test(v.lang)) s += 200;
+  return s;
+}
 function loadVoices() {
-  voices = (synth ? synth.getVoices() : []).filter(v => /^en([-_]|$)/i.test(v.lang));
-  if (!voices.length) { document.getElementById('ttsWarn').style.display = 'inline'; return; }
-  const us = voices.filter(v => /en[-_]US/i.test(v.lang));
-  const list = us.length ? us.concat(voices.filter(v => !us.includes(v))) : voices;
+  const all = (synth ? synth.getVoices() : []).filter(v => /^en([-_]|$)/i.test(v.lang));
+  if (!all.length) { document.getElementById('ttsWarn').style.display = 'inline'; return; }
+  voices = all.filter(v => !NOVELTY.test((v.name || '').toLowerCase()))
+              .sort((a, b) => voiceScore(a) - voiceScore(b));
+  if (!voices.length) voices = all;
   voiceSel.innerHTML = '';
-  list.forEach((v, i) => {
+  voices.forEach((v, i) => {
     const o = document.createElement('option');
-    o.value = voices.indexOf(v);
-    o.textContent = v.name + ' (' + v.lang + ')';
+    o.value = i;
+    o.textContent = v.name + (/en[-_]US/i.test(v.lang) ? '' : ' (' + v.lang + ')');
     voiceSel.appendChild(o);
     if (i === 0) chosen = v;
   });

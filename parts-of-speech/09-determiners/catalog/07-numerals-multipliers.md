@@ -17,6 +17,7 @@ Cardinals state how many. They are postdeterminers, they take plural countable n
 ### a couple three
 
 **Pronunciation:** /ə ˈkʌpəl ˈθri/ &middot; *uh KUP-uhl THREE* &middot; *a* is weak, /ə/, and in running speech *couple* loses its /l/ into the number — *a couple three days* is usually /ə ˈkʌpə ˈθri ˈdeɪz/; the fuller *a couple two three* /ə ˈkʌpəl tu ˈθri/ runs all three numbers together with no pause
+**Русский:** пара-тройка — разг., регионализм Среднего Запада: два-три
 **Type:** cardinal numeral (indefinite small count, = two or three) &middot; **Position:** a quantity phrase filling the determiner slot of a bare plural noun; nothing central may join it &middot; **Register:** **regional and colloquial** — Upper Midwestern and Great Lakes speech above all (Wisconsin, Minnesota, Michigan, Chicago), where it passes unnoticed in conversation, and casual speech more widely. It is not standard written English and appears in print only in dialogue.
 **Goes with:** plural countable nouns only — *a couple three days*, *a couple three guys*. Never a singular countable noun (✗ *a couple three day*) and never an uncountable noun (✗ *a couple three water* → *a couple three glasses of water*).
 **With *of*:** **No *of* before a bare plural noun** — *a couple three beers* — and speakers who use this construction drop *of* from plain *a couple* too (*a couple beers*). *Of* returns before a determiner or a pronoun: *a couple three of the guys*, *a couple three of them*.
@@ -38,6 +39,7 @@ Names an indefinite small count of two or three, in Upper Midwestern and casual 
 ### a gross of
 
 **Pronunciation:** /ə ˈɡroʊs əv/ &middot; *uh GROHSS uv* &middot; *a* /ə/ and *of* /əv/ are weak; the vowel is the /oʊ/ of *grow*, and the *s* is voiceless — /ɡroʊs/, never ✗ /ɡroʊz/
+**Русский:** гросс — 144 штуки, дюжина дюжин (торг., в накладных и каталогах)
 **Type:** cardinal numeral (collective, = 144, a dozen dozen) &middot; **Position:** *a* is the central determiner of *gross*; the whole phrase heads a partitive &middot; **Register:** **trade and wholesale** — purchase orders, invoices, and stationery and hardware catalogs. An American who has never worked a stockroom may never meet it, and in ordinary prose *144* is clearer.
 **Goes with:** plural countable nouns, and only the small manufactured things that are actually sold by the gross — *a gross of pencils*, *two gross of screws*, *a gross of buttons*. Never an uncountable noun (✗ *a gross of water*) and never a singular countable noun (✗ *a gross of pencil*).
 **With *of*:** **Required** in the ordinary *a gross of pencils* — ✗ *a gross pencils*. As with *dozen*, the order desk drops it when a number governs a bare plural (*ten gross envelopes*), but *ten gross of envelopes* is the safer written form. *Of* is required before a determiner or a pronoun: *a gross of the small ones*, *a gross of them*.
@@ -59,6 +61,7 @@ A hundred and forty-four of something, counted as one wholesale unit.
 ### a jillion
 
 **Pronunciation:** /ə ˈdʒɪljən/ &middot; *uh JIL-yuhn* &middot; *a* is weak, /ə/, exactly as in *a million*; the variant *forty-eleven* is /ˌfɔrti ɪˈlɛvən/, *FOR-tee-ih-LEV-uhn*, with the main beat on *-lev-*
+**Русский:** тьма, вагон, мильон — сленг, гипербола: несметное количество, никогда буквально
 **Type:** cardinal numeral (hyperbolic indefinite — an uncountably large number) &middot; **Position:** postdeterminer, in the same slot as *million*, after *a* &middot; **Register:** **slang and hyperbolic, never literal.** *A jillion*, *a zillion*, and *a bazillion* are ordinary American informal speech and writing — texts, complaints, sports talk. *Forty-eleven* is narrower: Southern and Appalachian folk speech, often addressed to a child, and it sounds regional to everyone else. None of them belongs anywhere a real number is being reported.
 **Goes with:** plural countable nouns — *a jillion reasons*, *forty-eleven forms*. Never a singular countable noun (✗ *a jillion reason*) and never an uncountable noun (✗ *a jillion homework* → *a jillion assignments*).
 **With *of*:** No *of* before a bare plural noun: *a jillion reasons*. *Of* is required before a determiner or a pronoun (*a jillion of those forms*, *a jillion of them*), and the plural *jillions of* always takes it, exactly like *millions of*.
@@ -80,11 +83,12 @@ Names a comically large, uncounted number — hyperbole rather than arithmetic.
 ### a pair of
 
 **Pronunciation:** /ə ˈpɛr əv/ &middot; *uh PAIR uv* &middot; both *a* /ə/ and *of* /əv/ are weak and unstressed; only *pair* carries a beat
+**Русский:** пара — два предмета; счётное слово для парных существительных: брюки, ножницы
 **Type:** cardinal numeral (unit counter, = two, and the counter for plural-only nouns) &middot; **Position:** *a* is the central determiner of *pair*; the whole phrase heads a partitive &middot; **Register:** neutral
 **Goes with:** **plural countable nouns only** — either a plural-only noun that has no singular at all (*a pair of scissors*, *a pair of pants*, *a pair of glasses*, *a pair of tweezers*) or an ordinary noun naming things that come in twos (*a pair of shoes*, *a pair of gloves*, *a pair of twins*). Never a singular countable noun (✗ *a pair of shoe*) and never an uncountable noun (✗ *a pair of water*, ✗ *a pair of advice*).
 **With *of*:** **Required and fixed** — ✗ *a pair scissors*. A second *of* builds a partitive on top: *a pair of the good scissors*, *two of the pairs I bought*.
 **Pattern:** *a pair of* [plural noun] &middot; [cardinal] *pairs of* [plural noun] &middot; *this/that pair of* [plural noun] &middot; *another pair of* [plural noun] &middot; *a pair of* [pronoun] (rare)
-**Contrast:** **This is the only way to count a plural-only noun.** *Scissors*, *pants*, *jeans*, *shorts*, *glasses*, *pliers*, *tweezers*, and *binoculars* have no singular form, so a cardinal cannot touch them directly: ✗ *two scissors*, ✗ *one pant*, ✗ *three jeans*. The number counts the pairs instead — *two pairs of scissors*, *one pair of pants*. **Agreement follows *pair*, not the noun after *of*:** *One pair of scissors **is** missing*, *Two pairs of scissors **are** missing* — but the bare noun by itself stays plural, *The scissors **are** missing*, never ✗ *The scissors is missing*. With ordinary countables, *a pair of* means exactly two where [a couple of](05-quantifiers-small.md#a-couple-of) means roughly two.
+**Contrast:** **This is the only way to count a plural-only noun.** *Scissors*, *pants*, *jeans*, *shorts*, *glasses*, *pliers*, *tweezers*, and *binoculars* have no singular form, so a cardinal cannot touch them directly: **two scissors*, ✗ *one pant*, ✗ *three jeans*. The number counts the pairs instead — *two pairs of scissors*, *one pair of pants*. ✗ *Agreement follows *pair*, not the noun after *of*:** *One pair of scissors **is** missing*, *Two pairs of scissors **are** missing* — but the bare noun by itself stays plural, *The scissors **are** missing*, never ✗ *The scissors is missing*. With ordinary countables, *a pair of* means exactly two where [a couple of](05-quantifiers-small.md#a-couple-of) means roughly two.
 **Variants:** *pairs of*, *a set of*, *a couple of* (approximate two), *a brace of* (game birds, archaic), *pant* / *scissor* (attributive singulars only: *a pant leg*, *a scissor kick*)
 
 Counts a noun that has no singular of its own, or one that comes in twos, by counting the units instead.
@@ -102,6 +106,7 @@ Counts a noun that has no singular of its own, or one that comes in twos, by cou
 ### dozen
 
 **Pronunciation:** /ˈdʌzən/ &middot; *DUZ-uhn* &middot; the article in front is weak: *a dozen* /ə ˈdʌzən/, never ✗ /eɪ ˈdʌzən/
+**Русский:** дюжина — двенадцать; после числа без -s: two dozen eggs
 **Type:** cardinal numeral (collective, = twelve) &middot; **Position:** postdeterminer, after *a*, *the*, a possessive, or another cardinal &middot; **Register:** neutral
 **Goes with:** plural countable nouns — *a dozen eggs*, *two dozen roses*. Not uncountable nouns (✗ *a dozen water* → *a dozen bottles of water*) and not singular countable nouns (✗ *a dozen egg*).
 **With *of*:** No *of* before a bare plural noun: *a dozen eggs*, ✗ *a dozen of eggs*. *Of* is required before a determiner or a pronoun: *a dozen of the eggs*, *a dozen of them*. The plural *dozens* always takes *of*: *dozens of complaints*.
@@ -124,6 +129,7 @@ Twelve of something, counted as a unit.
 ### hundred, thousand, million, billion
 
 **Pronunciation:** /ˈhʌndrəd/, /ˈθaʊzənd/, /ˈmɪljən/, /ˈbɪljən/ &middot; *HUN-druhd, THOW-zuhnd, MIL-yuhn, BIL-yuhn* &middot; the article in front is weak — *a hundred* /ə ˈhʌndrəd/, *a million* /ə ˈmɪljən/; the full *one hundred* /ˈwʌn ˈhʌndrəd/ is the stressed, precise alternative
+**Русский:** сто, тысяча, миллион, миллиард — после числительного без -s: three hundred
 **Type:** cardinal numeral (large, multiplicative) &middot; **Position:** postdeterminer &middot; **Register:** neutral
 **Goes with:** plural countable nouns — *a hundred reasons*, *two million dollars*. Never an uncountable noun directly (✗ *a thousand water* → *a thousand gallons of water*) and never a singular countable noun (✗ *a hundred reason*).
 **With *of*:** No *of* before a bare plural noun: *three hundred people*, ✗ *three hundred of people*. *Of* is required before a determiner or a pronoun (*three hundred of the applicants*, *a million of them*) and after the plural forms (*hundreds of people*, *thousands of dollars*).
@@ -147,6 +153,7 @@ A round large number used to count a plural noun.
 ### one
 
 **Pronunciation:** /wʌn/ &middot; *WUN* &middot; **it has no weak form.** *One* keeps its full stressed vowel every time, which is exactly what separates it from the article: *an hour* /ən ˈaʊɚ/ against *one hour* /ˈwʌn ˈaʊɚ/. If the syllable reduces to /ə/ or /ən/, the word was *a/an*, not *one*.
+**Русский:** один — числительное; после the значит «единственный»: the one exception
 **Type:** cardinal numeral &middot; **Position:** postdeterminer as a numeral (*the one exception*); functions alone as the determiner of a bare noun phrase (*one reason*) &middot; **Register:** neutral
 **Goes with:** singular countable nouns only — *one reason*, *one child*. Never a plural countable noun (✗ *one reasons*) and never an uncountable noun (✗ *one information* → *one piece of information*).
 **With *of*:** Required before a determiner or a pronoun, and the following noun is **plural** while the verb stays **singular**: *one of the students was late*, *one of them*. Never ✗ *one of student*.
@@ -172,6 +179,7 @@ Counts exactly one of something, as opposed to any other number.
 ### one or more
 
 **Pronunciation:** /ˈwʌn ɚ ˈmɔr/ &middot; *WUN ur MOR* &middot; *or* is weak here, /ɚ/, and never carries a beat; *one* and *more* both keep their full vowels — the phrase is two stresses with a schwa between them
+**Русский:** один или более — юр./тех. формула со значением «не менее одного»
 **Type:** cardinal numeral (open-ended lower bound) &middot; **Position:** fills the determiner slot of a bare plural noun; it admits no central determiner in front of it (✗ *the one or more copies*) &middot; **Register:** **formal, legal, and technical** — statutes, standards, specifications, and software documentation, where it is the standard way to write "at least one." It is stiff in conversation, which prefers *one or two* or *some*.
 **Goes with:** **plural countable nouns** — *one or more witnesses*, *one or more of the following conditions*. Never a singular countable noun (✗ *one or more witness*) and never an uncountable noun (✗ *one or more evidence* → *one or more pieces of evidence*).
 **With *of*:** **Required** before a determiner or a pronoun, and the noun after *of* stays plural: *one or more of the conditions*, *one or more of them*, *one or more of the following*.
@@ -193,6 +201,7 @@ Sets a floor of one with no ceiling above it: at least one, possibly many.
 ### score
 
 **Pronunciation:** /skɔr/ &middot; *SKOR* &middot; the article in front is weak: *a score of years* /ə ˈskɔr əv ˈjɪrz/; in the compounds the stress stays on the first element, *threescore* /ˈθriskɔr/, *fourscore* /ˈfɔrskɔr/
+**Русский:** двадцать — устар., книжн.: four score and seven — восемьдесят семь
 **Type:** cardinal numeral (collective, = twenty) &middot; **Position:** postdeterminer, after *a*, *the*, or another cardinal &middot; **Register:** **archaic and literary.** An American meets it in three places and almost nowhere else: the King James Bible (*threescore and ten*), the Gettysburg Address (*Four score and seven years ago*), and the living journalistic plural [scores of](04-quantifiers-large.md#scores-of), which no longer means twenty at all. Using it for a real count of twenty is a period costume.
 **Goes with:** plural countable nouns — *fourscore years*, *a score of witnesses*. Never an uncountable noun (✗ *a score of water*) and never a singular countable noun (✗ *a score of year*).
 **With *of*:** **None in the old bare use:** *fourscore years*, *threescore and ten*. *Of* is normal once the indefinite article appears — *a score of years*, *a score of witnesses* — and it is obligatory with the modern vague plural, *scores of complaints*.
@@ -214,6 +223,7 @@ Twenty of something counted as a unit — an archaic collective numeral survivin
 ### twain
 
 **Pronunciation:** /tweɪn/ &middot; *TWAYN* &middot; one syllable, rhyming with *rain*; **there is no weak form** — *twain* is always fully stressed, which is part of why it survives only inside set phrases
+**Русский:** два, двое — устар., поэт.; стоит после существительного: in twain — надвое
 **Type:** cardinal numeral (archaic, = two) &middot; **Position:** **postpositive or fused-head** — it follows its noun (*days twain*) or stands alone after a determiner (*the twain*, *in twain*). It does not sit in front of a noun in any living construction. &middot; **Register:** **archaic and literary.** An American meets it in the King James Bible (*they twain shall be one flesh*), in Kipling (*never the twain shall meet*), in the frozen *cut in twain*, and in Mark Twain's pen name, taken from the leadsman's river cry *mark twain* — two fathoms. Nowhere else.
 **Goes with:** plural countable nouns, and only in the archaic postpositive frame — *brethren twain*, *days twain*. It cannot precede a noun: ✗ *twain days*, ✗ *twain reasons*. As a fused head it takes *the* or *they* and stands alone: *the twain*, *they twain*.
 **With *of*:** Does not take *of*. The surviving phrases carry prepositions instead: *in twain*, *between the twain*.
@@ -235,6 +245,7 @@ The archaic form of *two*, surviving only after its noun, in fixed phrases, and 
 ### two, three, four
 
 **Pronunciation:** /tu/, /θri/, /fɔr/ &middot; *TOO, THREE, FOR* &middot; the numbers are always stressed, but the function words around them are not: *three of the witnesses* is /ˈθri əv ðə ˈwɪtnəsəz/, with *of* /əv/ and *the* /ðə/ both reduced
+**Русский:** два, три, четыре — количественные числительные; идут после артикля и после порядкового
 **Type:** cardinal numeral &middot; **Position:** postdeterminer — it follows any central determiner and follows an ordinal &middot; **Register:** neutral
 **Goes with:** plural countable nouns only — *two witnesses*, *three days*. Never a singular countable noun (✗ *two witness*) and never an uncountable noun (✗ *three information*, ✗ *four advice* → *three pieces of information*, *four pieces of advice*). The one systematic exception is the hyphenated premodifier, where the noun goes **singular**: *a three-day weekend*, *a two-mile run*, *a six-foot fence*.
 **With *of*:** No *of* before a bare plural noun: *three witnesses*. *Of* is required before a determiner or a pronoun: *three of the witnesses*, *two of them*, *four of my clients*.
@@ -256,6 +267,7 @@ Any exact number above one, counting a plural noun.
 ### zero
 
 **Pronunciation:** /ˈzɪroʊ/, also /ˈziroʊ/ &middot; *ZEER-oh*
+**Русский:** ноль, нулевой — нулевое количество; в отличие от прочих чисел заменяет собой артикль
 **Type:** cardinal numeral (null quantity) &middot; **Position:** **central determiner in practice** — although it is a number, and numbers are normally postdeterminers, *zero* fills the slot *no* would fill and admits nothing in front of it: ✗ *the zero calories*, ✗ *my zero absences*. It is a cardinal that behaves like a central determiner. &middot; **Register:** neutral in technical and commercial writing; emphatic in speech
 **Goes with:** **plural** countable nouns (*zero calories*, *zero absences*) and uncountable nouns (*zero tolerance*, *zero evidence*). Not a singular countable noun (✗ *zero reason* → *no reason*). The plural is the surprise: every number but *one* takes a plural noun, so it is *zero degrees* and *0.5 degrees*, not ✗ *zero degree*. Agreement follows the noun: *Zero injuries **were** reported*, but *Zero tolerance **is** the policy*.
 **With *of*:** Rare and best avoided; use *none of* instead — *none of the applicants*, not ✗ *zero of the applicants* (heard informally, but *none of* is the standard partitive).
@@ -281,6 +293,7 @@ Ordinals rank an item within a sequence. They are postdeterminers, they almost a
 ### final
 
 **Pronunciation:** /ˈfaɪnəl/ &middot; *FY-nuhl*
+**Русский:** последний, окончательный — завершающий весь ряд
 **Type:** general ordinal (adjective in the postdeterminer slot) &middot; **Position:** postdeterminer, after a central determiner &middot; **Register:** neutral
 **Goes with:** singular countable nouns (*the final episode*), plural countable nouns when a cardinal follows or the set is plural (*the final two episodes*, *the final results*), and uncountable nouns in fixed phrases (*the final word*, *final approval*).
 **With *of*:** Takes *of* only through a noun: *the final of the three*, *the final of the series*. Not a partitive determiner on its own.
@@ -302,6 +315,7 @@ Marks the item that ends a sequence with nothing after it.
 ### first
 
 **Pronunciation:** /fɚst/ &middot; *FURST* &middot; the article in front is weak and takes its consonant form: *the first* /ðə ˈfɚst/, never ✗ /ði ˈfɚst/
+**Русский:** первый — порядковое числительное
 **Type:** ordinal numeral &middot; **Position:** postdeterminer &middot; **Register:** neutral
 **Goes with:** singular countable nouns (*the first draft*), plural countable nouns when a cardinal or a plural set follows (*the first three days*, *the first responders*), and mass nouns naming an instance (*the first snow of the season*). It normally requires a central determiner in front of it — *the*, a possessive, or a demonstrative — and is ungrammatical bare before a common noun in most contexts (✗ *first draft was rough* → *the first draft was rough*), though it stands bare in fixed phrases (*first thing tomorrow*, *first base*, *first prize*, *at first light*).
 **With *of*:** *of* is required for the partitive: *the first of the month*, *the first of three children*, *the first of them to arrive*.
@@ -323,6 +337,7 @@ Ranks an item at position one in a sequence.
 ### last
 
 **Pronunciation:** /læst/ &middot; *LAST*
+**Русский:** последний; прошлый — во временном значении без артикля: last week — на прошлой неделе
 **Type:** general ordinal &middot; **Position:** postdeterminer; in the time sense it stands alone with no article (*last week*) &middot; **Register:** neutral
 **Goes with:** singular countable nouns (*the last chapter*, *last night*), plural countable nouns (*the last two weeks*, *my last three jobs*), and uncountable nouns (*the last milk in the fridge*, *the last of the money*).
 **With *of*:** *of* is required for the partitive: *the last of the milk*, *the last of them*, *the last of the survivors*.
@@ -348,6 +363,7 @@ Ranks an item at the end of a sequence, or points back to the one immediately be
 ### next
 
 **Pronunciation:** /nɛkst/ &middot; *NEKST*
+**Русский:** следующий; будущий — во временном значении без артикля: next week — на следующей неделе
 **Type:** general ordinal &middot; **Position:** postdeterminer; in the time sense it stands alone with no article (*next week*) &middot; **Register:** neutral
 **Goes with:** singular countable nouns (*the next flight*, *next Tuesday*) and plural countable nouns (*the next three trains*, *the next few weeks*). **Not uncountable nouns** — a sequence needs discrete items to have a next one, so ✗ *the next money*, ✗ *the next funding*, ✗ *the next advice*. Where the noun is a mass, use *the rest of* (*the rest of the funding*) or count it in units (*the next round of funding*, *the next two gallons*).
 **With *of*:** Only in the fixed legal phrase *next of kin* and in the fused-head partitive, where the noun after *of* is plural or a number: *the next of the three*, *the next of them*. It is not a general partitive determiner — ✗ *the next of the milk*.
@@ -370,6 +386,7 @@ Ranks an item at the end of a sequence, or points back to the one immediately be
 ### nth, umpteenth
 
 **Pronunciation:** /ɛnθ/, /ˌʌmpˈtinθ/ &middot; *ENTH, ump-TEENTH*
+**Русский:** энный (тех.); в сотый раз, надцатый (разг., с досадой)
 **Type:** indefinite ordinal &middot; **Position:** postdeterminer, effectively always after *the* &middot; **Register:** *nth* is neutral to technical; *umpteenth* is informal and always exasperated
 **Goes with:** singular countable nouns — *the nth term*, *the umpteenth delay*. Not plural countable nouns (✗ *the umpteenth delays*) and not uncountable nouns.
 **With *of*:** Does not take *of*.
@@ -391,6 +408,7 @@ Ranks an item at an unspecified high position in a sequence.
 ### penultimate, second-to-last, next-to-last
 
 **Pronunciation:** /pəˈnʌltəmət/, /ˌsɛkənd tə ˈlæst/, /ˌnɛkst tə ˈlæst/ &middot; *puh-NUL-tuh-mit, SEK-uhnd-tuh-LAST, NEKST-tuh-LAST* &middot; the *to* inside the compounds is weak, /tə/, and is never stressed; *the penultimate* is /ðə pəˈnʌltəmət/
+**Русский:** предпоследний — penultimate книжн., два других обиходные
 **Type:** general ordinal (counted backward from the end) &middot; **Position:** postdeterminer, after *the* or a possessive &middot; **Register:** *penultimate* formal and literary; *second-to-last* and *next-to-last* are the ordinary American forms
 **Goes with:** singular countable nouns (*the penultimate chapter*, *the second-to-last row*) and plural countable nouns when a cardinal follows (*the second-to-last three entries*, rare). **Not uncountable nouns** — ✗ *the penultimate money*, ✗ *the next-to-last evidence* — because counting backward, like counting forward, needs discrete items. All three forms normally require *the* or a possessive: ✗ *penultimate chapter* bare, though hyphenated attributives appear without one (*next-to-last place*).
 **With *of*:** *of* is required for the partitive: *the penultimate of the four movements*, *the second-to-last of them*, *the next-to-last of the survivors*.
@@ -413,6 +431,7 @@ Ranks an item by counting backward from the end of a sequence.
 ### second
 
 **Pronunciation:** /ˈsɛkənd/ &middot; *SEK-uhnd*
+**Русский:** второй — порядковое числительное
 **Type:** ordinal numeral &middot; **Position:** postdeterminer &middot; **Register:** neutral
 **Goes with:** singular countable nouns (*the second draft*, *a second chance*), plural countable nouns when a cardinal follows or the set is inherently plural (*the second two rows*, *second helpings*, *second thoughts*), and uncountable nouns only in fixed phrases (*second nature*, *on second thought*). Note that *a second helping* and *second helpings* are ordinary countables, not mass nouns — the fixed-phrase exemption covers only the abstract pair.
 **With *of*:** *of* is required for the partitive: *the second of the month*, *the second of her three sons*.
@@ -435,6 +454,7 @@ Ranks an item by counting backward from the end of a sequence.
 ### third, fourth, fifth
 
 **Pronunciation:** /θɚd/, /fɔrθ/, /fɪfθ/ &middot; *THURD, FORTH, FIFTH* &middot; **this is where *the* switches forms**: /ðə/ before a consonant (*the third* /ðə ˈθɚd/, *the fifth* /ðə ˈfɪfθ/) but /ði/ before a vowel (*the eighth* /ði ˈeɪtθ/, *the eleventh* /ði ɪˈlɛvənθ/). It is never stressed either way.
+**Русский:** третий, четвёртый, пятый — порядковые числительные
 **Type:** ordinal numeral &middot; **Position:** postdeterminer &middot; **Register:** neutral
 **Goes with:** singular countable nouns (*the third try*, *the fifth attempt*) and plural countable nouns when a cardinal follows or two ordinals are coordinated (*the third two weeks*, rare; *the third and fourth chapters*). **Not uncountable nouns** — ✗ *the third water*, ✗ *the fourth advice*; a mass noun has to be counted in units before it can be ranked (*the third glass of water*, *the fourth piece of advice*). Like all ordinals it normally requires a central determiner in front of it, and it stands bare only in fixed compounds — *third base*, *third rail*, *fifth wheel*, which are ordinary singular countable nouns rather than exceptions to the rule.
 **With *of*:** *of* is required for the partitive: *the third of the four defendants*, *the fifth of July*.
@@ -460,6 +480,7 @@ These express sequence without a number — before, after, the one already menti
 ### another
 
 **Pronunciation:** /əˈnʌðɚ/ &middot; *uh-NUTH-ur* &middot; the first syllable **is** the indefinite article, reduced to /ə/ — *another* is *an* + *other* welded together, and the stress never moves onto it (✗ /eɪˈnʌðɚ/)
+**Русский:** ещё один; другой — включает в себя артикль an, поэтому другого определителя не терпит
 **Type:** general ordinal / indefinite determiner (historically *an* + *other*) &middot; **Position:** **central determiner** — it contains the indefinite article, which is why nothing else central can join it &middot; **Register:** neutral
 **Goes with:** **singular countable nouns** — *another chance*, *another delay*. Never an uncountable noun (✗ *another information* → *more information*) and never a plural countable noun on its own (✗ *another books*). **The one exception is a quantity phrase**, where a plural noun is allowed because the quantity counts as a single unit: *another three days*, *another two hundred dollars*, *another few minutes*, *another ten percent*.
 **With *of*:** **Required** for the partitive, and the noun after *of* must be **plural and determined** while the verb stays **singular**: *another of her clients **has** filed*, *another of them*. ✗ *another of client*, ✗ *another of clients*.
@@ -484,6 +505,7 @@ These express sequence without a number — before, after, the one already menti
 ### former, latter
 
 **Pronunciation:** /ˈfɔrmɚ/, /ˈlætɚ/ &middot; *FOR-mur, LAT-ur*
+**Русский:** первый (из двух) — последний (из двух); книжн. отсылка к уже названному
 **Type:** general ordinal (anaphoric — it points back to something already named) &middot; **Position:** postdeterminer, effectively always after *the* &middot; **Register:** formal to neutral; *the former … the latter* is a writing device more than a speaking one
 **Goes with:** singular countable nouns (*the former proposal*, *the latter option*), plural countable nouns (*the latter two candidates*, *the former tenants*), and uncountable nouns when the two things being contrasted are masses (*the former evidence was hearsay; the latter testimony was not*, *the latter funding*). Both require *the* or a possessive in the anaphoric sense — ✗ *latter option* bare.
 **With *of*:** *of* appears in two places, and neither is a partitive on a bare noun. After a quantity noun inside the phrase: *the latter half of the year*, *the former third of the book*. And in the fused-head partitive, where *former/latter* has dropped its noun: *the former of the two*, *the latter of them*. Never on the noun itself — ✗ *the latter of the option*.
@@ -506,6 +528,7 @@ Points back to the first (*former*) or the second (*latter*) of two things alrea
 ### further, additional
 
 **Pronunciation:** /ˈfɚðɚ/, /əˈdɪʃənəl/ &middot; *FUR-thur, uh-DISH-uh-nuhl*
+**Русский:** дополнительный, ещё — further нейтр., additional офиц. и делов.
 **Type:** general ordinal of addition &middot; **Position:** postdeterminer; both appear bare, with no central determiner, before plural and uncountable nouns &middot; **Register:** *further* is neutral to formal; *additional* is formal and common in business and legal writing
 **Goes with:** *further* takes **uncountable** nouns (*further information*, *further delay*, *further notice*) and **plural countable** nouns (*further questions*, *further cuts*); it does not take a bare singular countable noun (✗ *further reason* → *a further reason*). *Additional* takes all three — *an additional charge*, *additional seats*, *additional funding*.
 **With *of*:** Neither takes *of*. ✗ *further of the information*.
@@ -527,6 +550,7 @@ Adds a quantity to one already in play.
 ### other
 
 **Pronunciation:** /ˈʌðɚ/ &middot; *UTH-ur*
+**Русский:** другой, остальной, прочий — не этот, а иной из того же множества
 **Type:** general ordinal / indefinite determiner &middot; **Position:** postdeterminer — it follows a central determiner, or stands bare before a plural or uncountable noun &middot; **Register:** neutral
 **Goes with:** **plural countable** nouns (*other books*, *the other two witnesses*), **uncountable** nouns (*other evidence*, *other information*), and **singular countable** nouns **only when a determiner precedes it** (*the other book*, *my other car*, *some other reason*). It cannot precede a bare singular countable noun: ✗ *other book* → *another book*.
 **With *of*:** Marginal as a determiner. The partitive is built with the pronoun *others* or with a number: *the other of the two*, *others of his generation* (formal). Ordinary usage prefers *the others*.
@@ -550,6 +574,7 @@ Adds a quantity to one already in play.
 ### previous, prior, preceding
 
 **Pronunciation:** /ˈpriviəs/, /ˈpraɪɚ/, /prɪˈsidɪŋ/ &middot; *PREE-vee-uhs, PRY-ur, prih-SEE-ding*
+**Русский:** предыдущий, предшествующий — prior юр./офиц., preceding книжн., о тексте
 **Type:** general ordinal (backward-pointing) &middot; **Position:** postdeterminer &middot; **Register:** *previous* neutral; *prior* formal, legal, and administrative; *preceding* formal and textual
 **Goes with:** singular countable nouns (*the previous owner*, *the preceding paragraph*), plural countable nouns (*the two previous attempts*, *prior convictions*), and uncountable nouns (*prior notice*, *prior experience*, *previous employment*). *Previous* and *preceding* normally need *the* or a possessive; *prior* is the one that appears comfortably bare, especially in legal and business phrasing (*without prior notice*, *prior authorization*).
 **With *of*:** None of the three is a partitive determiner. *Prior to* is a separate item — a formal preposition meaning *before* (*prior to the hearing*), and plain *before* is almost always better.
@@ -571,6 +596,7 @@ Points to the item that came before the one under discussion.
 ### remaining
 
 **Pronunciation:** /rɪˈmeɪnɪŋ/ &middot; *rih-MAY-ning*
+**Русский:** оставшийся — тот, что ещё не израсходован или не назван
 **Type:** general ordinal (participial adjective in the postdeterminer slot) &middot; **Position:** postdeterminer, normally after *the* or a possessive &middot; **Register:** neutral
 **Goes with:** plural countable nouns (*the remaining two seats*, *the remaining applicants*) and uncountable nouns (*the remaining money*, *the remaining time*). A singular countable noun works only when the noun is genuinely unique (*the remaining copy*). It normally requires a central determiner, though notices and headlines drop it: *Remaining seats are limited*.
 **With *of*:** Not a partitive determiner itself. The partitive is *the rest of* or *the remainder of*.
@@ -592,6 +618,7 @@ Marks what is left of a set after part of it is gone.
 ### same
 
 **Pronunciation:** /seɪm/ &middot; *SAYM*
+**Русский:** тот же самый — требует перед собой the, this или that
 **Type:** general ordinal (identity determiner) &middot; **Position:** postdeterminer — it requires a central determiner, nearly always *the*, *this*, or *that* &middot; **Register:** neutral
 **Goes with:** all three noun types — singular countable (*the same problem*), plural countable (*the same two people*), and uncountable (*the same information*, *the same advice*). What it cannot do is stand bare before a noun in ordinary prose: ✗ *same problem came up again* → *the same problem came up again*. It stands bare only in fixed and commercial compounds (*same-day shipping*, *same-sex marriage*) and in elliptical replies (*Same here*, *Same to you*).
 **With *of*:** Does not take *of*. The comparison is made with *as* (*the same as before*) or with a relative clause (*the same one that broke*) — ✗ *the same of*.
@@ -614,6 +641,7 @@ Marks the noun as identical to one already known, rather than merely similar.
 ### subsequent, following
 
 **Pronunciation:** /ˈsʌbsəkwənt/, /ˈfɑloʊɪŋ/ &middot; *SUB-suh-kwuhnt, FAH-loh-ing*
+**Русский:** последующий, следующий — subsequent офиц., юр. и науч.
 **Type:** general ordinal (forward-pointing) &middot; **Position:** postdeterminer &middot; **Register:** *subsequent* formal, legal, and academic; *following* neutral to formal
 **Goes with:** singular countable nouns (*the following day*, *the subsequent hearing*), plural countable nouns (*the subsequent two years*, *the following pages*), and uncountable nouns (*subsequent correspondence*, *subsequent damage*). Both normally take *the*, though *subsequent* appears bare in formal writing (*subsequent revisions were minor*).
 **With *of*:** Neither takes *of*. *Subsequent to* is a formal preposition meaning *after* (*subsequent to the merger*) and plain *after* is nearly always better.
@@ -635,6 +663,7 @@ Points to the item that comes after the one under discussion.
 ### t'other
 
 **Pronunciation:** /ˈtʌðɚ/ &middot; *TUTH-ur* &middot; one word, two syllables, no pause at the apostrophe — the *t-* is simply the first sound of the word. The commonest weakening in running speech is the whole phrase, not the word: *t'other day* /ˈtʌðɚ ˈdeɪ/
+**Русский:** тот, другой — диал./устар. стяжение the other; аппалачское и южное просторечие
 **Type:** general ordinal (dialect form of *the other*) &middot; **Position:** **central determiner** — it has the definite article baked into it, so nothing else central can join it: ✗ *the t'other side* &middot; **Register:** **regional and archaic.** In American English it is Appalachian and Southern mountain speech first, older rural speech elsewhere second, and in print it belongs to dialect writing — Twain, Joel Chandler Harris, local-color fiction — and to the fixed pair *one … t'other*. It is not standard written English, and a reader who knows it hears it as country, not as an error.
 **Goes with:** singular countable nouns (*t'other side*, *t'other day*) and plural countable nouns (*t'other ones*, *t'other two*) — the same range as *the other*. Not uncountable nouns in ordinary dialect use.
 **With *of*:** Not a partitive determiner. In the fused-head pronoun use it simply stands alone, normally paired against *one*: *one or t'other*, *each blamed t'other*.
@@ -660,6 +689,7 @@ These name a share of something rather than a count of it. *Half* and *all* are 
 ### a chunk of
 
 **Pronunciation:** /ə ˈtʃʌŋk əv/ &middot; *uh CHUNK uv* &middot; *a* is weak /ə/ and *of* reduces to /əv/ or simply /ə/ in fast speech — *a chunk of the money* is usually /ə ˈtʃʌŋk ə ðə ˈmʌni/
+**Русский:** изрядная часть, кусок — разг.: заметная доля чего-либо
 **Type:** part-word (partitive quantifier, informal) &middot; **Position:** *a* is the central determiner of *chunk*; the whole phrase heads a partitive &middot; **Register:** informal to neutral — conversational American, ordinary in business talk and journalism, out of place in a contract or a specification
 **Goes with:** uncountable nouns (*a chunk of the budget*, *a chunk of time*) and singular countable nouns naming a divisible whole (*a chunk of the retaining wall*, *a chunk of the afternoon*). With plural countable nouns it is marginal — *a chunk of the applicants* is heard, but *a lot of the applicants* is better — because *chunk* divides a mass and does not select from a group.
 **With *of*:** **Required.** ✗ *a chunk the budget*. The noun after *of* may be bare when it is a mass (*a chunk of money*, *a chunk of change*) or determined for the true partitive (*a chunk of **the** budget*).
@@ -681,6 +711,7 @@ Names a large, roughly measured piece of a whole, in conversational register.
 ### a fraction of
 
 **Pronunciation:** /ə ˈfrækʃən əv/ &middot; *uh FRAK-shuhn uv*
+**Русский:** малая доля, ничтожная часть — подчёркивает, как мало это от целого
 **Type:** fraction (partitive quantifier) &middot; **Position:** *a* is the central determiner of *fraction*; the whole phrase heads a partitive &middot; **Register:** neutral
 **Goes with:** uncountable nouns (*a fraction of the cost*), plural countable nouns (*a fraction of the applicants*), and singular countable nouns naming a divisible whole (*a fraction of the building*). Not a bare noun: ✗ *a fraction of applicants* is odd — the noun after *of* is normally determined.
 **With *of*:** **Required.** *A fraction* cannot precede a noun directly: ✗ *a fraction the cost*.
@@ -702,6 +733,7 @@ Names a small, unspecified share of a whole.
 ### a proportion of
 
 **Pronunciation:** /ə prəˈpɔrʃən əv/ &middot; *uh pruh-POR-shuhn uv* &middot; *a* /ə/, the first syllable of *proportion* /prə/, and *of* /əv/ are all weak; the phrase carries one beat, on *-por-*
+**Русский:** доля, некоторая часть — книжн., науч.: часть от общего числа
 **Type:** fraction (proportional partitive) &middot; **Position:** *a* is the central determiner of *proportion*; the whole phrase heads a partitive &middot; **Register:** formal — statistics, research writing, public health, and policy. In ordinary prose a percentage or *some of* is plainer.
 **Goes with:** plural countable nouns (*a proportion of the respondents*) and uncountable nouns (*a proportion of the funding*). A singular countable noun only when it names a divisible whole (*a proportion of the estate*). The noun after *of* is normally determined.
 **With *of*:** **Required.** ✗ *a proportion the applicants*. Without *of*, *proportion* is an ordinary noun about ratio and shape (*out of proportion*, *the proportions of the room*) and not a determiner at all.
@@ -723,6 +755,7 @@ Names a share of a group or an amount, sized only by whatever adjective is put i
 ### a quarter, a third, two-thirds
 
 **Pronunciation:** /ə ˈkwɔrtɚ/, /ə ˈθɚd/, /ˌtu ˈθɚdz/ &middot; *uh KWOR-tur, uh THURD, too THURDZ* &middot; the *a* is weak, /ə/, and so is the *of* that follows: *a third of the class* /ə ˈθɚd əv ðə ˈklæs/
+**Русский:** четверть, треть, две трети — перед определённой группой требуют of: a third of the cake
 **Type:** fraction &middot; **Position:** predeterminer **in the fraction series, but not a working predeterminer the way *half* is.** Unlike *half*, these cannot sit bare in front of a central determiner: ✓ *half the cake*, ✗ *a third the cake*. Before a determined noun phrase they take *of* and head a partitive instead (*a third **of** the cake*), and the bare predeterminer use survives only in measure comparisons — *a third the size*, *two-thirds the price*. &middot; **Register:** neutral
 **Goes with:** uncountable nouns (*two-thirds of the water*), plural countable nouns (*a third of the students*), and singular countable nouns naming a divisible whole (*a quarter of the pie*, *a quarter of an hour*).
 **With *of*:** **Required before a determined noun phrase:** *two-thirds of the students*, ✗ *two-thirds the students*. *Of* is **optional** only before a measure noun in a comparison: *a third the size*, *two-thirds the price*, *a quarter the weight*. Before a pronoun it is required: *a third of them*.
@@ -744,6 +777,7 @@ Names an exact share of a whole.
 ### all of
 
 **Pronunciation:** /ˈɔl əv/ &middot; *AWL uv* &middot; *of* is weak, /əv/, and drops to /ə/ before a consonant — *all of the money* is usually /ˈɔl ə ðə ˈmʌni/, while before a pronoun the /v/ links forward: *all of it* /ˈɔl əv ɪt/. *All* itself keeps its full vowel.
+**Русский:** все, всё из — весь объём уже определённой группы: all of the students
 **Type:** part-word (totality partitive) &middot; **Position:** predeterminer *all* plus *of*; the phrase heads a partitive over an already-determined noun phrase &middot; **Register:** neutral
 **Goes with:** plural countable nouns (*all of the students*), uncountable nouns (*all of the money*, *all of the time*), singular countable nouns naming a divisible whole or a stretch (*all of the cake*, *all of the afternoon*), and — the use that makes the *of* obligatory — pronouns: *all of us*, *all of them*, *all of it*.
 **With *of*:** **Optional before a determiner:** *all (of) the students*, *all (of) my money*, with the *of*-less form the more common American choice. **Required before a pronoun:** *all of them*, ✗ *all them* (heard in casual and regional speech, not standard). **Impossible before a bare noun:** ✗ *all of students* → *all students*.
@@ -765,6 +799,7 @@ Takes in every part or every member of a known whole — the totality member of 
 ### half
 
 **Pronunciation:** /hæf/ &middot; *HAF* &middot; the *l* is silent; everything around it reduces — *half the cake* /ˌhæf ðə ˈkeɪk/, *half a dozen* /ˌhæf ə ˈdʌzən/, *half an hour* /ˌhæf ən ˈaʊɚ/, *half of it* /ˌhæf əv ɪt/
+**Русский:** половина, пол- — предопределитель: стоит перед the/my/that (half the cake)
 **Type:** fraction &middot; **Position:** **predeterminer** — it stands ahead of the central determiner (*half the cake*, *half my paycheck*, *half that amount*) &middot; **Register:** neutral
 **Goes with:** all three noun types — singular countable (*half the cake*, *half an hour*), plural countable (*half the students*), and uncountable (*half the water*, *half my time*). It also precedes bare nouns in fixed price and time phrases: *half price*, *half fare*, *half time*.
 **With *of*:** **Optional** before a determiner: *half (of) the cake*, *half (of) my paycheck* — both are standard, and the *of*-less form is more common in American speech. **Required** before a pronoun: *half of it*, *half of them*, ✗ *half them*.
@@ -788,6 +823,7 @@ Divides a quantity into two equal parts and names one of them.
 ### one in three, nine out of ten
 
 **Pronunciation:** /ˈwʌn ɪn ˈθri/, /ˈnaɪn aʊt əv ˈtɛn/ &middot; *WUN in THREE, NYN owt uv TEN* &middot; the numbers carry the beats and the joining words reduce — *in* is /ɪn/ or /ən/, and *out of* runs together as /ˈaʊɾə/, so *nine out of ten dentists* is /ˈnaɪn ˈaʊɾə ˈtɛn ˈdɛntɪsts/
+**Русский:** каждый третий; девять из десяти — способ выразить долю или частоту
 **Type:** fraction (proportional frame) &middot; **Position:** the whole frame fills the determiner slot of the noun, or heads a partitive when *of* follows &middot; **Register:** neutral — the ordinary American way to state a rate in speech, in journalism, and in public-health writing; *nine out of ten* is also a fixed advertising rhythm
 **Goes with:** **plural countable nouns** — *one in three households*, *nine out of ten dentists*. Never an uncountable noun (✗ *one in three funding*) and never a singular countable noun (✗ *one in three household*). The noun drops out entirely when it is understood: *One in three said no*.
 **With *of*:** The *out of* frame carries its own fixed *of*, which is **not** a partitive: *nine out of ten*, ✗ *nine out ten*. A real partitive needs another *of* and a determined noun — *one in three of the households*, *nine out of ten of them* — and before a pronoun it is required: *one in three of us*.
@@ -809,6 +845,7 @@ States a proportion by counting members of a group one at a time — how many ou
 ### part of
 
 **Pronunciation:** /ˈpɑrt əv/ &middot; *PART uv*
+**Русский:** часть чего-либо — не целиком, а лишь отчасти
 **Type:** part-word (partitive quantifier) &middot; **Position:** heads a partitive phrase; *part* itself takes *a*, *the*, or no determiner &middot; **Register:** neutral
 **Goes with:** uncountable nouns (*part of the problem*, *part of the money*) and singular countable nouns naming a divisible whole (*part of the building*, *part of the movie*). **Not plural countable nouns** — ✗ *part of the students* → *some of the students*. That restriction is the entry's whole point: *part* divides one thing, it does not select from a group.
 **With *of*:** **Required.** ✗ *part the problem*.
@@ -830,6 +867,7 @@ Names a piece of a single divisible whole.
 ### percent
 
 **Pronunciation:** /pɚˈsɛnt/ &middot; *pur-SENT*
+**Русский:** процент — после числа без -s: ten percent
 **Type:** fraction (proportional numeral) &middot; **Position:** postdeterminer inside the quantity phrase; the whole phrase heads a partitive &middot; **Register:** neutral
 **Goes with:** uncountable nouns (*ten percent of the budget*) and plural countable nouns (*ten percent of the students*) through *of*. Directly before a noun it appears only as a hyphen-free attributive quantity: *a 10 percent raise*, *a two percent decline*.
 **With *of*:** **Required** before a determined noun phrase or a pronoun: *ten percent of the vote*, *ten percent of them*. ✗ *ten percent the vote*.
@@ -851,6 +889,7 @@ Names a share of a whole expressed in hundredths.
 ### the aggregate of
 
 **Pronunciation:** /ði ˈæɡrəɡət əv/ &middot; *thee AG-ruh-gut uv* &middot; **the article switches form**: *the* is /ði/ before the vowel of *aggregate*, never ✗ /ðə/. The noun's last syllable is a schwa, /-ɡət/, where the verb *aggregate* ends /-ɡeɪt/; *of* is weak, /əv/.
+**Русский:** совокупность, общая сумма — юр., фин. и страховой термин
 **Type:** part-word (summative partitive) &middot; **Position:** heads a partitive phrase; *the* is fixed in front of it &middot; **Register:** **legal, financial, and technical** — insurance policies, contracts, and accounting, where *the aggregate* is a defined term. In ordinary prose *the total of* or plain *all* says it.
 **Goes with:** plural countable nouns (*the aggregate of the payments*, *the aggregate of all claims*) and uncountable nouns naming an amount (*the aggregate of the indebtedness*). Not a singular countable noun unless it names a divisible whole.
 **With *of*:** **Required**, and *the* is required in front: ✗ *aggregate of the payments*, ✗ *the aggregate the payments*. Without *of*, *in the aggregate* is a fixed adverbial meaning "taken all together," and *aggregate* standing before a noun is an adjective (*the aggregate limit*, *aggregate demand*), not a determiner.
@@ -872,6 +911,7 @@ Names the sum of a set of separate amounts, taken together as one figure.
 ### the better part of
 
 **Pronunciation:** /ðə ˈbɛtɚ ˈpɑrt əv/ &middot; *thuh BET-ur PART uv* &middot; *the* is /ðə/ before the consonant and *of* is weak /əv/; the *tt* of *better* is a flap, /ˈbɛɾɚ/, so the phrase runs together as /ðə ˈbɛɾɚ ˈpɑrɾ əv/
+**Русский:** бо́льшая часть, добрых — почти весь: добрых два часа, и всё впустую
 **Type:** part-word (majority partitive, idiomatic) &middot; **Position:** heads a partitive phrase; *the* is fixed in front of it &middot; **Register:** neutral to informal — conversational and journalistic, and it carries a faint complaint: the time went and there is nothing to show for it
 **Goes with:** **uncountable nouns and singular countable nouns naming a span**, above all spans of time — *the better part of an hour*, *the better part of a decade*, *the better part of the afternoon*, *the better part of a tank of gas*. With plural countable nouns it is unidiomatic: ✗ *the better part of the applicants* → *most of the applicants*.
 **With *of*:** **Required**, and *the* is required in front: ✗ *better part of an hour*, ✗ *the better part an hour*.
@@ -893,6 +933,7 @@ Names most of a span or an amount — usually a stretch of time, usually with a 
 ### the bulk of
 
 **Pronunciation:** /ðə ˈbʌlk əv/ &middot; *thuh BULK uv*
+**Русский:** основная масса, львиная доля — подавляющая часть
 **Type:** part-word (majority partitive) &middot; **Position:** heads a partitive phrase; *the* is fixed &middot; **Register:** neutral to formal; common in journalism and business writing
 **Goes with:** uncountable nouns (*the bulk of the work*, *the bulk of the money*) and plural countable nouns (*the bulk of the applicants*). Not a singular countable noun unless it names a divisible mass (*the bulk of the shipment*).
 **With *of*:** **Required**, and *the* is required in front: ✗ *bulk of the work*, ✗ *the bulk the work*.
@@ -914,6 +955,7 @@ Names the largest share of something, viewed as mass rather than as a count.
 ### the majority of, the minority of
 
 **Pronunciation:** /ðə məˈdʒɔrəti əv/, /ðə məˈnɔrəti əv/ &middot; *thuh muh-JOR-uh-tee uv, thuh muh-NOR-uh-tee uv*
+**Русский:** большинство — меньшинство (из чего-либо)
 **Type:** part-word (proportional partitive) &middot; **Position:** heads a partitive phrase &middot; **Register:** neutral to formal
 **Goes with:** **plural countable** nouns first and foremost — *the majority of voters*, *the majority of the applicants*. With uncountable nouns it is awkward at best (✗ *the majority of the water* → *most of the water*), which is the trap: reach for *most of* whenever the noun is a mass.
 **With *of*:** **Required** before a noun phrase or pronoun: *the majority of them*. *Majority* can also stand alone as a noun with no *of* (*The majority ruled*), and in that use it is not a determiner.
@@ -935,6 +977,7 @@ Names the larger (*majority*) or smaller (*minority*) share of a countable group
 ### the rest of, the remainder of
 
 **Pronunciation:** /ðə ˈrɛst əv/, /ðə rɪˈmeɪndɚ əv/ &middot; *thuh REST uv, thuh rih-MAYN-dur uv*
+**Русский:** остальное, остаток — remainder книжн., фин. и мат.
 **Type:** part-word (complement partitive) &middot; **Position:** heads a partitive phrase; *the* is fixed &middot; **Register:** *the rest of* neutral; *the remainder of* formal, financial, and mathematical
 **Goes with:** all three noun types — singular countable (*the rest of the cake*), plural countable (*the rest of the cookies*), and uncountable (*the rest of the money*, *the rest of the time*).
 **With *of*:** **Required** before any noun phrase or pronoun: *the rest of us*, *the rest of the day*. Without *of*, *the rest* is a pronoun standing alone: *You take these; I'll handle the rest.*
@@ -956,6 +999,7 @@ Names everything left over once a part has been taken out.
 ### the totality of
 
 **Pronunciation:** /ðə toʊˈtæləti əv/ &middot; *thuh toh-TAL-uh-tee uv* &middot; *the* is /ðə/ and *of* is weak /əv/; the *t* between vowels inside *totality* is a flap, /toʊˈtæləɾi/
+**Русский:** вся совокупность, всё в целом — юр. и книжн.; ср. «по совокупности обстоятельств»
 **Type:** part-word (totality) &middot; **Position:** heads a partitive phrase; *the* is fixed in front of it &middot; **Register:** **formal, legal, and academic.** In American law it is a term of art — *the totality of the circumstances* is the standard a court applies when no single factor decides the question. Outside that world it is a heavy way to say *all of*.
 **Goes with:** plural countable nouns (*the totality of the circumstances*, *the totality of his holdings*) and uncountable nouns (*the totality of the evidence*, *the totality of human knowledge*). A singular countable noun only when it names a whole system or record (*the totality of the record*).
 **With *of*:** **Required**, and *the* is required in front: ✗ *totality of the evidence*, ✗ *the totality the evidence*. The one *of*-less use is the adverbial *in its totality*.
@@ -977,6 +1021,7 @@ Names everything in a set considered together as one indivisible whole.
 ### the whole (of)
 
 **Pronunciation:** /ðə ˈhoʊl (əv)/ &middot; *thuh HOHL (uv)*
+**Русский:** весь, целиком — требует определителя перед собой: the whole day, my whole life
 **Type:** part-word (totality) &middot; **Position:** postdeterminer — it requires a central determiner in front of it (*the whole*, *a whole*, *my whole*) &middot; **Register:** neutral
 **Goes with:** **singular countable nouns** (*the whole story*, *a whole hour*, *my whole life*, *the whole afternoon*) and **uncountable nouns** (*the whole truth*, *the whole point*, *my whole attention*). **Never a plural countable noun** in this sense — ✗ *the whole students* → *all the students*. It does precede a plural noun when a cardinal comes between them, because the number makes the stretch one unit: *the whole three days*. The plural *whole grains*, *whole numbers*, *whole milk* is a different word — a plain adjective meaning "undivided," not a determiner.
 **With *of*:** **Optional and formal** before a determined noun phrase: *the whole of the morning*, *the whole of Europe* — the bare *the whole morning* is the American default. **Required** before a pronoun: *the whole of it*, though *all of it* is the more idiomatic American choice.
@@ -1002,6 +1047,7 @@ Multipliers state how many times over. Grammatically they are **predeterminers**
 ### a factor of
 
 **Pronunciation:** /ə ˈfæktɚ əv/ &middot; *uh FAK-tur uv* &middot; *a* /ə/ and *of* /əv/ are both weak; the beats fall on *fac-* and on the number — *by a factor of ten* is /baɪ ə ˈfæktɚ əv ˈtɛn/, with *by* unstressed too
+**Русский:** во столько-то раз — тех.: by a factor of ten — в десять раз
 **Type:** multiplier phrase — **not a determiner** &middot; **Position:** never in a determiner slot; it is the object of *by* and modifies a verb or a comparison, not a noun &middot; **Register:** technical, scientific, financial, and journalistic — the register of reports rather than conversation
 **Goes with:** nothing, as a determiner. It attaches to a **number** inside the fixed frame *by a factor of* + [cardinal] and reports how much something grew, shrank, or missed: *rose by a factor of ten*, *off by a factor of two*. It never precedes a noun: ✗ *a factor of ten the price*, ✗ *a factor of ten people*.
 **With *of*:** The *of* is **required and fixed** — part of the phrase, not a partitive: *by a factor of three*, ✗ *by a factor three*.
@@ -1023,6 +1069,7 @@ Multiplies a quantity by a stated number, from outside the noun phrase rather th
 ### an order of magnitude
 
 **Pronunciation:** /ən ˈɔrdɚ əv ˈmæɡnəˌtud/ &middot; *un OR-dur uv MAG-nuh-tood* &middot; *an* /ən/ and *of* /əv/ are weak, so the run in front of the comparative flattens to /ənˈɔrdɚəv/; the beats fall on *or-* and *mag-*
+**Русский:** порядок величины — науч./тех.: разница в десять раз
 **Type:** multiplier phrase (= a power of ten) — **not a determiner** &middot; **Position:** never in a determiner slot; it modifies a comparative adjective or adverb (*an order of magnitude cheaper*) or follows *by* (*grew by an order of magnitude*) &middot; **Register:** technical and scientific first, then business and journalism; in conversation *ten times* says it without the lab coat
 **Goes with:** nothing, as a determiner. It attaches to a **comparative** (*an order of magnitude larger*, *orders of magnitude faster*) or to a verb of change through *by* (*fell by an order of magnitude*). It never precedes a noun: ✗ *an order of magnitude the price*, ✗ *an order of magnitude people*.
 **With *of*:** Both *of*s are **fixed** parts of the phrase and neither is a partitive: *an order of magnitude*, ✗ *an order magnitude*, ✗ *an order of the magnitude*.
@@ -1044,6 +1091,7 @@ Multiplies or divides a quantity by a power of ten, from outside the noun phrase
 ### double
 
 **Pronunciation:** /ˈdʌbəl/ &middot; *DUB-uhl* &middot; the central determiner it stands in front of stays weak: *double the price* /ˈdʌbəl ðə ˈpraɪs/, *double an ordinary dose* /ˈdʌbəl ən ˈɔrdənɛri ˈdoʊs/
+**Русский:** вдвое больше, двойной — предопределитель: double the price — вдвое дороже
 **Type:** multiplier &middot; **Position:** **predeterminer**, ahead of the central determiner &middot; **Register:** neutral
 **Goes with:** an already-determined noun phrase naming an amount — *double the price*, *double that dosage*, *double my usual order*. It does not attach to a bare noun as a multiplier: *double price* is not the multiplier use, and phrases like *a double room*, *double doors*, *double vision* are the adjective, not the determiner.
 **With *of*:** **Never.** ✗ *double of the price*. The one *of* that appears is inside the noun phrase that follows: *double the number of applicants*.
@@ -1065,6 +1113,7 @@ Multiplies the following quantity by two.
 ### half again as much
 
 **Pronunciation:** /ˌhæf əˈɡɛn əz ˈmʌtʃ/ &middot; *haf uh-GEN az MUCH*
+**Русский:** в полтора раза больше — амер., разг.
 **Type:** multiplier (fractional increase, = 1.5 times) &middot; **Position:** predeterminer phrase; the *as … as* frame carries the comparison &middot; **Register:** neutral to informal; distinctly American
 **Goes with:** *as much* takes uncountable nouns (*half again as much money*); *as many* takes plural countable nouns (*half again as many people*). Choose the one that matches the noun — this is the *much/many* split, imported whole.
 **With *of*:** No *of*. The second half of the frame is *as* + a noun phrase: *half again as much money as last year*.
@@ -1086,6 +1135,7 @@ Increases a quantity by fifty percent.
 ### once
 
 **Pronunciation:** /wʌns/ &middot; *WUNSS* &middot; the article in the frequency frame is weak and unstressed: *once a week* /ˈwʌns ə ˈwik/, *once an hour* /ˈwʌns ən ˈaʊɚ/
+**Русский:** (один) раз, однажды — наречие частотности, а не определитель
 **Type:** frequency adverb — **not** a multiplier determiner &middot; **Position:** adverbial; it does not occupy a determiner slot before a noun phrase &middot; **Register:** neutral
 **Goes with:** nothing, as a determiner. It heads a frequency phrase with *a/an* or *every* (*once a week*, *once every three days*) and works as a plain adverb of time (*I met him once*).
 **With *of*:** Does not take *of*.
@@ -1107,6 +1157,7 @@ Names a single occurrence or a rate of one per period. It is not the "one times"
 ### per
 
 **Pronunciation:** /pɚ/ &middot; *pur* &middot; **unstressed and reduced in ordinary use** — *ten dollars per hour* is /ˈtɛn ˈdɑlɚz pɚ ˈaʊɚ/. The full /pɝ/ shows up only under contrastive stress and in the Latin tags *per se* /pɚ ˈseɪ/ and *per diem* /pɚ ˈdiəm/.
+**Русский:** за, на, в — предлог нормы: per hour — в час; тех. и коммерч. регистр
 **Type:** preposition (distributive rate marker) — **not a determiner** &middot; **Position:** heads a prepositional phrase after a quantity; it fills no determiner slot, and it allows no determiner after it &middot; **Register:** **technical and commercial** — invoices, contracts, science, and specifications. In speech and ordinary prose the article does this job: *sixty miles an hour*, not *per hour*, unless you are reading a gauge.
 **Goes with:** a **bare singular unit noun** of time, weight, distance, volume, or head count — *per hour*, *per pound*, *per mile*, *per person*, *per unit*, *per share*, *per capita*. **It takes no determiner at all**, and that is the rule worth memorizing: ✗ *per an hour*, ✗ *per the hour*, ✗ *per each person*. Never a plural (✗ *per hours*) and never a mass noun (✗ *per water* → *per gallon*).
 **With *of*:** Does not take *of*.
@@ -1128,6 +1179,7 @@ States a rate by naming the unit it is measured against: so much for every one o
 ### three times
 
 **Pronunciation:** /ˈθri ˌtaɪmz/ &middot; *THREE TYMZ* &middot; the determiner behind it never takes stress: *three times the price* /ˈθri ˌtaɪmz ðə ˈpraɪs/
+**Русский:** в три раза, втрое — предопределитель: three times the price
 **Type:** multiplier &middot; **Position:** **predeterminer** &middot; **Register:** neutral
 **Goes with:** an already-determined noun phrase naming an amount — *three times the price*, *four times my salary*, *ten times that number*. Also used before *as many* + plural countable and *as much* + uncountable: *three times as many applicants*, *three times as much water*.
 **With *of*:** **Never.** ✗ *three times of the price*. Any *of* belongs to the noun phrase inside: *three times the number of complaints*.
@@ -1149,6 +1201,7 @@ Multiplies the following quantity by a stated number.
 ### triple, quadruple
 
 **Pronunciation:** /ˈtrɪpəl/, /kwɑˈdrupəl/, also /ˈkwɑdrəpəl/ &middot; *TRIP-uhl, kwah-DROO-puhl*
+**Русский:** тройной, втрое; четверной, вчетверо — quadruple и выше книжн. или тех.
 **Type:** multiplier &middot; **Position:** **predeterminer** &middot; **Register:** neutral; *quadruple* and above are formal or technical
 **Goes with:** an already-determined noun phrase naming an amount — *triple the amount*, *quadruple the dose*. As with *double*, the attributive adjective is a different word class: *a triple play*, *triple glazing*.
 **With *of*:** **Never.** ✗ *triple of the amount*.
@@ -1170,6 +1223,7 @@ Multiplies the following quantity by three, four, and upward.
 ### twice
 
 **Pronunciation:** /twaɪs/ &middot; *TWYSS* &middot; whatever follows stays weak: *twice the price* /ˌtwaɪs ðə ˈpraɪs/, *twice a year* /ˌtwaɪs ə ˈjɪr/, *twice as much* /ˌtwaɪs əz ˈmʌtʃ/
+**Русский:** вдвое; дважды — предопределитель: twice the size — вдвое больше
 **Type:** multiplier &middot; **Position:** **predeterminer**, ahead of the central determiner &middot; **Register:** neutral
 **Goes with:** an already-determined noun phrase naming an amount — *twice the price*, *twice that amount*, *twice my weight*. Also *twice as many* + plural countable, *twice as much* + uncountable, and *twice a/an* + time noun in the frequency sense (*twice a week*).
 **With *of*:** **Never.** ✗ *twice of the price*.
@@ -1191,6 +1245,7 @@ Multiplies the following quantity by two, or names a rate of two per period.
 ### twofold, threefold, tenfold
 
 **Pronunciation:** /ˈtufoʊld/, /ˈθrifoʊld/, /ˈtɛnfoʊld/ &middot; *TOO-fohld, THREE-fohld, TEN-fohld*
+**Русский:** двукратный, трёхкратный, десятикратный — книжн.; rose tenfold — вырос в десять раз
 **Type:** multiplier (adjective before a noun, adverb after a verb) — **not** a determiner &middot; **Position:** attributive adjective inside the noun phrase, after the determiner (*a tenfold increase*), or a bare adverb after the verb (*rose tenfold*) &middot; **Register:** formal; the register of reports, science writing, and business news
 **Goes with:** as an adjective, singular and plural countable nouns naming a change — *a twofold increase*, *threefold gains*. It does not attach to an ordinary noun: ✗ *tenfold people*, ✗ *a tenfold price* — the noun has to name growth, a rise, a risk, or a difference.
 **With *of*:** Does not take *of*.
@@ -1216,6 +1271,7 @@ These attach to a numeral rather than to the noun, and they hedge it — roughly
 ### a good, a solid, an easy, a full
 
 **Pronunciation:** /ə ˈɡʊd/, /ə ˈsɑləd/, /ən ˈizi/, /ə ˈfʊl/ &middot; *uh GUUD, uh SAH-lid, un EE-zee, uh FUUL*
+**Русский:** добрых, целых, никак не меньше — усиление минимума: a good twenty miles
 **Type:** approximator (emphatic minimum) &middot; **Position:** *a/an* is the central determiner; the adjective premodifies the cardinal in the postdeterminer slot &middot; **Register:** informal to neutral
 **Goes with:** a cardinal + plural countable noun (*a good twenty miles*, *a solid three hours*) or a cardinal + measure phrase (*a full two percent*). The noun is plural while the article is singular, because the whole quantity is one block: ✓ *a good twenty miles*, and note that ✗ *good twenty miles* without the article is not English.
 **With *of*:** No *of* before the numeral. *Of* appears only in a partitive built on top: *a good twenty of them*.
@@ -1237,6 +1293,7 @@ Marks a number as a floor rather than an estimate: this much, if not more.
 ### a mere
 
 **Pronunciation:** /ə ˈmɪr/ &middot; *uh MEER*
+**Русский:** всего лишь, каких-то — принижает количество
 **Type:** approximator (diminishing) &middot; **Position:** *a* is the central determiner; *mere* premodifies the cardinal or the noun &middot; **Register:** neutral to formal; rhetorical
 **Goes with:** a cardinal + plural countable noun (*a mere three days*), a quantity phrase (*a mere two percent*, *a mere fraction*), and a singular countable noun in the non-numerical sense (*a mere child*, *a mere formality*).
 **With *of*:** No *of* before the numeral. *Of* appears in a partitive built on top: *a mere two of the forty applicants*.
@@ -1258,6 +1315,7 @@ Marks a number as smaller or slighter than the reader might expect.
 ### a total of
 
 **Pronunciation:** /ə ˈtoʊtəl əv/ &middot; *uh TOH-tuhl uv* &middot; *a* /ə/ and *of* /əv/ are weak, and the *t* between vowels is a flap — *a total of forty* is /ə ˈtoʊɾəl əv ˈfɔrti/
+**Русский:** в общей сложности, всего — суммарный итог
 **Type:** numeral frame (summative) — it states a sum instead of hedging it &middot; **Position:** heads a quantity phrase in front of the numeral; the phrase then fills the determiner slot of the noun &middot; **Register:** neutral to formal — the register of news reports, minutes, and press releases, where it is often padding
 **Goes with:** a cardinal plus a plural countable noun (*a total of forty-one applicants*), an amount of money, time, or measure (*a total of $4.2 million*, *a total of six hours*), and a percentage. It requires a **number** after it: ✗ *a total of applicants*, ✗ *a total of some people*.
 **With *of*:** **Required and fixed** — part of the phrase, not a partitive: ✗ *a total forty people*. A real partitive is built on top with a second *of*: *a total of nine of the twelve jurors*.
@@ -1279,6 +1337,7 @@ Introduces a number as the sum of everything counted, without hedging it in eith
 ### about, around, roughly, approximately
 
 **Pronunciation:** /əˈbaʊt/, /əˈraʊnd/, /ˈrʌfli/, /əˈprɑksəmətli/ &middot; *uh-BOWT, uh-ROWND, RUF-lee, uh-PRAHK-suh-mit-lee*
+**Русский:** около, примерно, приблизительно — approximately офиц. и тех.
 **Type:** approximator (two-directional estimate) &middot; **Position:** premodifier of the numeral or quantity phrase — it sits outside the determiner system and takes whatever follows &middot; **Register:** *about* and *around* neutral to conversational; *roughly* neutral; *approximately* formal and technical
 **Goes with:** a cardinal + plural countable noun (*about twenty people*), a quantity or measure phrase (*roughly two gallons*, *around ten percent*), a fraction (*about half the class*), and a time expression (*around three o'clock*). It never attaches directly to a bare noun: ✗ *about people*.
 **With *of*:** No *of* of its own; it inherits whatever the quantity phrase after it requires: *about a third of the class*.
@@ -1300,6 +1359,7 @@ Marks a number as an estimate that could fall on either side of the figure given
 ### anywhere from … to
 
 **Pronunciation:** /ˈɛniwɛr frəm … tə/ &middot; *EN-ee-wair fruhm … tuh* &middot; both joining words are weak — *from* /frəm/ and *to* /tə/ — and the beats fall on *any-* and on the two numbers: *anywhere from twenty to thirty* /ˈɛniwɛr frəm ˈtwɛnti tə ˈθɚti/
+**Русский:** где-то от … до — разг. оценка диапазона
 **Type:** approximator (open range) &middot; **Position:** premodifier of a pair of numerals; it sits outside the determiner system and takes whatever quantity phrase follows &middot; **Register:** neutral to informal — conversational and journalistic, the standard shape of an estimate from a contractor or an analyst
 **Goes with:** two cardinals with a plural countable noun after the second (*anywhere from twenty to thirty people*), two amounts of money, time, or measure (*anywhere from two to six hours*), two percentages, and two fractions. The noun is stated once, after the second number. It never attaches to a bare noun: ✗ *anywhere from people*.
 **With *of*:** No *of* of its own; it inherits whatever the quantity phrase after it requires — *anywhere from a third to half of the class*.
@@ -1321,6 +1381,7 @@ States an estimate as an open range between two numbers, with no claim about whe
 ### at least, at most
 
 **Pronunciation:** /ət ˈlist/, /ət ˈmoʊst/ &middot; *uht LEEST, uht MOHST* &middot; *at* reduces to /ət/ and is never stressed here; the stress falls on *least* and *most*
+**Русский:** по меньшей мере — самое большее; границы включаются
 **Type:** approximator (inclusive bound — floor and ceiling) &middot; **Position:** premodifier of the numeral or quantity phrase; it sits outside the determiner system and takes whatever follows &middot; **Register:** neutral; *at least* is the plainest way to state a minimum in American English
 **Goes with:** a cardinal + plural countable noun (*at least twenty people*), a cardinal + singular countable noun when the number is *one* (*at least one witness*), a measure or money phrase (*at most two gallons*, *at least fifty dollars*), a fraction (*at least half the budget*), and — unusually for this section — a following determiner or quantifier (*at least some warning*, *at most a few minutes*). It never attaches to a bare noun with no quantity in it: ✗ *at least people*.
 **With *of*:** No *of* of its own; it inherits whatever the quantity phrase after it requires — *at least three of the jurors*, *at most half of them*.
@@ -1342,6 +1403,7 @@ Fixes the lower or upper limit of a quantity, with the stated number itself incl
 ### circa
 
 **Pronunciation:** /ˈsɚkə/ &middot; *SUR-kuh* &middot; the second syllable is a weak schwa and never takes stress; the abbreviations *c.* and *ca.* are read aloud either as *circa* or simply as "about"
+**Русский:** около, приблизительно (о дате) — книжн., из латыни; сокр. c. или ca.
 **Type:** approximator (date hedge) — a Latin preposition, not a determiner &middot; **Position:** premodifier of a year or a date, and postposed after a noun phrase in the informal use; outside the determiner system either way &middot; **Register:** **formal and technical** — museum labels, auction and dealer catalogs, academic history, genealogy, and library cataloging, abbreviated *c.* or *ca.* In running prose *around 1890* says the same thing and is not mistaken for a typo.
 **Goes with:** a **year or a date** above all (*circa 1890*, *c. 1650*), and by extension a named period (*circa the Depression*). Loosely, in business speech, a round money figure (*circa $2 million*) — a use British commerce made ordinary and American editors still flag. It does not attach to a plain count of things: ✗ *circa twenty people* → *about twenty people*.
 **With *of*:** Does not take *of*.
@@ -1363,6 +1425,7 @@ Marks a date as approximate — the thing belongs near this year rather than exa
 ### more than, over, under, less than
 
 **Pronunciation:** /mɔr ðən/, /ˈoʊvɚ/, /ˈʌndɚ/, /lɛs ðən/ &middot; *MOR thuhn, OH-vur, UN-dur, LESS thuhn* &middot; *than* is always weak, /ðən/ or /ðn̩/, never /θæn/
+**Русский:** более, свыше — менее, меньше чем; строго, без включения самого числа
 **Type:** approximator (exclusive comparative bound) &middot; **Position:** premodifier of the numeral or quantity phrase; outside the determiner system &middot; **Register:** neutral; *over* and *under* are the conversational pair, *more than* and *less than* the written pair
 **Goes with:** a cardinal + plural countable noun (*more than twenty people*, *over a hundred entries*), a measure, money, time, or distance phrase (*under two gallons*, *over an hour*, *less than thirty dollars*), a fraction (*more than half the seats*), and a percentage (*under ten percent*). With a plural count of separate things, careful writing prefers *fewer than* to *less than*: *fewer than twenty applicants*. It never attaches to a bare noun: ✗ *more than people*.
 **With *of*:** No *of* of its own; it inherits the requirement of whatever follows — *more than half of the residents*, *fewer than ten of them*.
@@ -1384,6 +1447,7 @@ Places a quantity strictly above or strictly below the figure named.
 ### nearly, almost
 
 **Pronunciation:** /ˈnɪrli/, /ˈɔlmoʊst/ &middot; *NEER-lee, AWL-mohst*
+**Русский:** почти, без малого — приближение снизу
 **Type:** approximator (upper bound, approached from below) &middot; **Position:** premodifier of a numeral, quantifier, or determiner &middot; **Register:** neutral
 **Goes with:** a cardinal + plural countable noun (*nearly a hundred people*), a fraction (*almost half the budget*), and — unusually for this section — a following **determiner**: *almost every seat*, *nearly all the money*, *almost no one*. It does not attach to a bare noun: ✗ *nearly people*.
 **With *of*:** No *of* of its own; it inherits the requirement of whatever follows: *nearly all of them*, *almost half of the class*.
@@ -1405,6 +1469,7 @@ Marks a quantity as falling just short of the figure named.
 ### no fewer than, no less than, as many as
 
 **Pronunciation:** /noʊ ˈfjuɚ ðən/, /noʊ ˈlɛs ðən/, /əz ˈmɛni əz/ &middot; *noh FYOO-ur thuhn, noh LESS thuhn, az MEN-ee az*
+**Русский:** не менее чем, целых — подчёркнутый минимум, книжн. и журн.
 **Type:** approximator (emphatic floor) &middot; **Position:** premodifier of the numeral &middot; **Register:** neutral to formal; journalistic
 **Goes with:** *no fewer than* and *as many as* take a cardinal + **plural countable** noun (*no fewer than forty applicants*, *as many as three hundred homes*). *No less than* and *as much as* take **amounts and uncountable** nouns (*no less than half the budget*, *as much as two gallons*). *No less than* is also used before a plural count in speech (*no less than forty applicants*), and careful writers change it to *no fewer than*.
 **With *of*:** No *of* before the numeral; *of* comes from the partitive built on top: *no fewer than half of the residents*.
@@ -1426,6 +1491,7 @@ Marks a number as a minimum, and marks it as surprisingly large.
 ### north of, south of
 
 **Pronunciation:** /ˈnɔrθ əv/, /ˈsaʊθ əv/ &middot; *NORTH uv, SOWTH uv* &middot; *of* is weak, /əv/, and reduces to /ə/ before a consonant — *north of ten grand* /ˈnɔrθ ə ˈtɛn ˈɡrænd/; the beat is on the compass word and on the number
+**Русский:** больше чем — меньше чем; разг. и образно, обычно о деньгах
 **Type:** approximator (exclusive bound, figurative) &middot; **Position:** premodifier of the numeral or amount; outside the determiner system &middot; **Register:** **informal and figurative** — business talk, financial journalism, and sports commentary, where it is stock phrasing for money. It is never the register for a contract or a spec sheet.
 **Goes with:** an amount of **money** above all (*north of two million dollars*), and by extension any figure people picture on a dial or a chart — an age, a speed, a percentage, a temperature (*south of forty percent*, *north of ninety miles an hour*). It also attaches to a bare figure standing alone: *The bid came in north of forty*. Not a bare noun: ✗ *north of applicants*.
 **With *of*:** The *of* is **required and fixed** — part of the phrase, not a partitive. To build a real partitive on top, repeat it: *north of half of the fleet*.
@@ -1447,6 +1513,7 @@ Places an amount above (*north of*) or below (*south of*) a figure, in informal 
 ### on the order of
 
 **Pronunciation:** /ɑn ði ˈɔrdɚ əv/ &middot; *ahn thee OR-dur uv* &middot; **the article switches form**: *the* is /ði/ before the vowel of *order*, never ✗ /ðə/. *On* and *of* are weak too, /ən/ and /əv/, so everything in front of the number flattens to /ənðiˈɔrdɚəv/.
+**Русский:** порядка — тех./науч.: примерно такой величины
 **Type:** approximator (two-directional estimate, round magnitudes) &middot; **Position:** premodifier of the numeral or quantity phrase; outside the determiner system &middot; **Register:** formal and technical — engineering, science writing, and analysis. In conversation the word is *about*.
 **Goes with:** a round cardinal plus a plural countable noun (*on the order of two hundred cases*), an amount of money, time, or measure (*on the order of ten million dollars*, *on the order of six months*), and a percentage. Like [some (approximative)](#some-approximative) it wants a **round** number: ✗ *on the order of two hundred seven cases*. Not a bare noun: ✗ *on the order of cases*.
 **With *of*:** The *of* is **required and fixed** — part of the phrase. A real partitive needs a second *of*: *on the order of half of the fleet*.
@@ -1468,6 +1535,7 @@ Marks a number as right only to the nearest round magnitude.
 ### -plus
 
 **Pronunciation:** /plʌs/ &middot; *PLUSS* &middot; it hangs on the number with no pause and takes **no stress of its own**, though it keeps its full vowel — *twenty-plus years* is /ˈtwɛnti plʌs ˈjɪrz/, with the beats on *twen-* and *years*
+**Русский:** с лишним, и более — присоединяется после числа: 20-plus years — двадцать с лишним лет
 **Type:** approximator (postposed floor) &middot; **Position:** attaches **after** the numeral, inside the quantity phrase; the phrase then modifies the noun &middot; **Register:** informal to neutral — journalism, job postings, résumés, and advertising, where it is compact and completely standard
 **Goes with:** a cardinal plus a plural countable noun (*twenty-plus applicants*, *50-plus years*), an amount of money, an age, or a measure (*$500-plus*, *a 300-plus-page report*), and an age band standing alone (*the 65-plus crowd*). It never attaches to a bare noun (✗ *plus applicants*), and with the number *one* it is unidiomatic — use [one or more](#one-or-more).
 **With *of*:** No *of*. A partitive is built separately: *twenty-plus of the original crew*.
@@ -1490,6 +1558,7 @@ Marks a number as a floor that the real figure meets or passes, hung on the end 
 ### some (approximative)
 
 **Pronunciation:** /sʌm/ — always the **strong** form &middot; *SUM*
+**Русский:** около, примерно — книжн. перед круглым числом: some fifty people
 **Type:** approximator &middot; **Position:** premodifier of a round cardinal &middot; **Register:** formal, literary, journalistic; it sounds bookish in conversation
 **Goes with:** a round cardinal + plural countable noun — *some twenty people*, *some fifty years*. It does not go with a bare noun in this sense, and it does not go with a small or precise number: ✗ *some three people*, ✗ *some twenty-two people* — the number has to be a round approximation.
 **With *of*:** Not in this sense. The partitive *some of the students* is the ordinary quantifier *some*, a different word with a different pronunciation.
@@ -1511,6 +1580,7 @@ Hedges a round number in the same way *about* does, in a more formal register.
 ### twenty-odd, twenty-ish, or so
 
 **Pronunciation:** /ˈtwɛnti ˌɑd/, /ˈtwɛntiɪʃ/, /ɚ ˈsoʊ/ &middot; *TWEN-tee-ahd, TWEN-tee-ish, ur SOH*
+**Русский:** двадцать с чем-то, где-то двадцать, примерно — разг., ставится после числа
 **Type:** approximator (postposed) &middot; **Position:** attaches **after** the numeral, not before it &middot; **Register:** informal; *-odd* is neutral in speech and casual writing, *-ish* is conversational
 **Goes with:** a cardinal + plural countable noun (*twenty-odd people*), or a bare numeral or time expression standing alone (*twenty or so*, *around fiveish*). *-ish* also attaches to times and ages (*sixish*, *fortyish*).
 **With *of*:** No *of*. The partitive is built separately: *twenty-odd of them*.
@@ -1532,6 +1602,7 @@ Hedges a number from behind, marking it as approximate or as a floor.
 ### up to
 
 **Pronunciation:** /ˌʌp tə/, before a vowel /ˌʌp tu/ &middot; *up tuh, up too* &middot; *to* is weak, /tə/, and never carries stress; the beats fall on *up* and on the number — *up to twenty* /ˌʌp tə ˈtwɛnti/
+**Русский:** до, вплоть до — верхняя граница включительно
 **Type:** approximator (inclusive ceiling) &middot; **Position:** premodifier of the numeral or quantity phrase; it sits outside the determiner system and takes whatever follows &middot; **Register:** neutral; the standard way to state a ceiling in advertising, specifications, and warranties
 **Goes with:** a cardinal + plural countable noun (*up to twenty passengers*), a measure, money, or time phrase (*up to two gallons*, *up to fifty dollars*, *up to six hours*), a fraction (*up to half the class*), and a percentage (*up to forty percent*). With the number *one* it takes a **singular countable** noun, as any *one*-phrase does: *up to one guest per resident*. It never attaches to a bare noun with no quantity in it: ✗ *up to passengers*, ✗ *up to money*.
 **With *of*:** No *of* of its own; it inherits whatever the quantity phrase after it requires — *up to half of the residents*, *up to three of the four seats*, *up to ten percent of the total*.
@@ -1555,6 +1626,7 @@ Sets an inclusive ceiling: anything from nothing at all up to the figure named.
 ### upwards of, in excess of
 
 **Pronunciation:** /ˈʌpwɚdz əv/, /ɪn ɪkˈsɛs əv/ &middot; *UP-wurdz uv, in ik-SESS uv*
+**Русский:** свыше, более — in excess of юр. и фин.
 **Type:** approximator (floor, "more than") &middot; **Position:** premodifier of the numeral; *of* is part of the fixed phrase &middot; **Register:** *upwards of* neutral to journalistic; *in excess of* formal, legal, and financial
 **Goes with:** a cardinal + plural countable noun (*upwards of two hundred applicants*) and a cardinal + measure or amount phrase (*in excess of ten million dollars*, *upwards of six hours*). Not a bare noun: ✗ *upwards of applicants*.
 **With *of*:** The *of* is **required and fixed** — it is part of the phrase, not a partitive. To build a real partitive on top, repeat it: *upwards of half of the residents*.

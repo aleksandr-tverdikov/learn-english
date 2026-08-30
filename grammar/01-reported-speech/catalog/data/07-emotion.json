@@ -6,12 +6,7 @@
       "term": "accuse",
       "ipa": "/əˈkjuz/",
       "respell": "uh-KYOOZ",
-      "type": "reporting verb — accusation",
-      "register": "neutral",
-      "patterns": "accuse + sb / accuse + sb + of + -ing / accuse + sb + of + noun phrase / accuse + sb + of + having done sth / passive be accused of",
-      "never": "accuse someone that they did something / accuse someone for doing something / accuse someone to have done something",
-      "meaning": "A charge of wrongdoing laid at a named person, and it presupposes that the accuser believes the offense real. Compare blame, which assigns responsibility for an outcome without necessarily alleging misconduct, and criticize, which faults a choice rather than charging an offense.",
-      "transform": "\"You took the money,\" she said to him. -> She accused him of taking the money.",
+      "meaning": "",
       "examples": [
         "She accused her landlord of ignoring three written repair requests.",
         "He accused me of leaking the memo, which I hadn't.",
@@ -20,23 +15,21 @@
         "\"Don't accuse me of something you can't prove,\" he said.",
         "The report stops short of accusing the department of misconduct."
       ],
-      "related": [
-        "blame",
-        "criticize",
-        "condemn",
-        "reproach"
-      ]
+      "senses": [],
+      "русский": "обвинять — вменять кому-то проступок; accuse sb of sth = обвинять кого-то в чём-то",
+      "register": "neutral",
+      "type": "reporting verb — accusation",
+      "patterns": "accuse + sb · accuse + sb + of + -ing · accuse + sb + of + noun phrase · accuse + sb + of + having done sth · passive be accused of",
+      "never": "accuse someone that they did something, accuse someone for doing something, and accuse someone to have done something. Accuse takes no that-clause at all, no infinitive, and never for — the preposition is of, and what follows it is a gerund or a noun. Repairs: accused him of stealing it, accused him of theft. To get a clause in, change the verb: alleged that he stole it, said he had stolen it.",
+      "perfect gerund": "for an offense clearly finished before the accusation, of having done is available and slightly more formal — accused her of having falsified the records. Plain -ing covers the same ground and is commoner.",
+      "reports": "a charge of wrongdoing laid at a named person, and it presupposes that the accuser believes the offense real. Compare blame, which assigns responsibility for an outcome without necessarily alleging misconduct, and criticize, which faults a choice rather than charging an offense.",
+      "see also": "blame, criticize, condemn, reproach"
     },
     {
       "term": "apologise",
       "ipa": "/əˈpɑləˌdʒaɪz/",
       "respell": "uh-PAH-luh-jyze",
-      "type": "reporting verb — apology",
-      "register": "neutral — British spelling",
-      "patterns": "identical to apologize — apologise (intransitive) / apologise + to sb / apologise + for + -ing / apologise + for + noun phrase / apologise + to sb + for + -ing / noun phrase",
-      "never": "apologise me / apologise him for the delay / apologise in an American text — American English requires apologize",
-      "meaning": "The same speech act as apologize — nothing about the meaning or the grammar changes with the spelling.",
-      "transform": "\"Sorry I'm late,\" he said. -> He apologised for being late. (British)",
+      "meaning": "",
       "examples": [
         "The minister apologised to the families for the delay in the inquiry. (British press)",
         "Our style guide uses apologise, so the American draft had to be respelled throughout.",
@@ -45,22 +38,21 @@
         "He never learned which spelling his company used, so he wrote I'm sorry instead.",
         "The autocorrect kept changing apologise to apologize, which told him what dictionary it was using."
       ],
-      "related": [
-        "apologize",
-        "criticise",
-        "criticize"
-      ]
+      "senses": [],
+      "русский": "извиняться — брит. написание apologize; в американском тексте только apologize",
+      "register": "neutral — British spelling",
+      "type": "reporting verb — apology",
+      "patterns": "identical to apologize — apologise (intransitive) · apologise + to sb · apologise + for + -ing · apologise + for + noun phrase · apologise + to sb + for + -ing / noun phrase",
+      "british spelling": "apologise is the standard form in British, Irish, and Australian writing; apologize is required in American English and is also perfectly standard in Britain, where Oxford house style prefers it. The two are pronounced exactly alike — the s is /z/ either way, so nothing in the sound tells you which spelling a speaker has in mind. The same -ise/-ize split runs through criticise/criticize, recognise/recognize, and organise/organize.",
+      "never": "apologise me or apologise him for the delay — the grammar is apologize's in every detail, so the person is reached only through to. And in an American text, never apologise at all: this library is American throughout, so every other example in this file uses apologize. If you are writing for a British publication, flip all of them.",
+      "reports": "the same speech act as apologize — nothing about the meaning or the grammar changes with the spelling.",
+      "see also": "apologize, criticise, criticize"
     },
     {
       "term": "apologize",
       "ipa": "/əˈpɑləˌdʒaɪz/",
       "respell": "uh-PAH-luh-jyze",
-      "type": "reporting verb — apology",
-      "register": "neutral",
-      "patterns": "apologize (intransitive) / apologize + to sb / apologize + for + -ing / apologize + for + noun phrase / apologize + to sb + for + -ing / noun phrase / apologize + that-clause (institutional only, see below)",
-      "never": "apologize me / apologize him for the delay / apologize about the delay / apologized the customer for the delay / apologized for the delay to the customer",
-      "meaning": "An expression of regret for one's own act, which presupposes fault the way admit and confess do. It is not the same as expressing sympathy — you apologize for what you did, and you say I'm sorry for what merely happened.",
-      "transform": "\"I'm sorry I snapped at you,\" he said. -> He apologized for snapping at me.",
+      "meaning": "",
       "examples": [
         "He apologized to the whole team for missing the deadline.",
         "She apologized for the confusion and sent a corrected schedule.",
@@ -69,23 +61,21 @@
         "\"You could at least apologize,\" she said, and he did.",
         "He apologized to her, not to me, which was the whole problem."
       ],
-      "related": [
-        "apologise",
-        "thank",
-        "blame",
-        "reproach"
-      ]
+      "senses": [],
+      "русский": "извиняться, приносить извинения — сожалеть о своём поступке: to sb for sth",
+      "register": "neutral",
+      "type": "reporting verb — apology",
+      "patterns": "apologize (intransitive) · apologize + to sb · apologize + for + -ing · apologize + for + noun phrase · apologize + to sb + for + -ing / noun phrase · apologize + that-clause (institutional only, see below)",
+      "never": "apologize me, apologize him for the delay, and apologize about the delay. The person apologized to is reached only through to, and to comes before for: apologized to the customer for the delay, never apologized the customer for the delay. The order is fixed — apologized for the delay to the customer is grammatical but sounds like an afterthought. The offense takes for and only for; about belongs to complain, not here.",
+      "the that-clause": "We apologize that your order was delayed is now everywhere in corporate and customer-service English. It is not an error, but it is a register marker: no one says it in conversation. In careful writing use apologize for + noun (apologize for the delay) or drop the verb entirely (we're sorry your order was delayed).",
+      "reports": "an expression of regret for one's own act, which presupposes fault the way admit and confess do. It is not the same as expressing sympathy — you apologize for what you did, and you say I'm sorry for what merely happened.",
+      "see also": "apologise, thank, blame, reproach"
     },
     {
       "term": "blame",
       "ipa": "/bleɪm/",
       "respell": "BLAYM",
-      "type": "reporting verb — accusation",
-      "register": "neutral",
-      "patterns": "blame + sb / blame + sb + for + -ing / blame + sb + for + noun phrase / blame + oneself + for / blame + sth + on + sb / blame + noun phrase (blame the weather) / be to blame (for)",
-      "never": "blame someone of something / blame someone about something / He blamed that the driver was speeding",
-      "meaning": "The assignment of responsibility for something bad. Unlike accuse, it need allege no misconduct — you can blame the weather, the software, or bad luck — and unlike criticize, it targets an outcome rather than a judgment call.",
-      "transform": "\"It's your fault the server went down,\" she said. -> She blamed me for the outage. / She blamed the outage on me.",
+      "meaning": "",
       "examples": [
         "Don't blame the intern — nobody told her the file was live.",
         "He blamed the loss on a single bad call in the third quarter.",
@@ -94,23 +84,21 @@
         "The report blames poor maintenance for the failure.",
         "Everyone knew who was to blame, and nobody said it out loud."
       ],
-      "related": [
-        "accuse",
-        "criticize",
-        "condemn",
-        "reproach"
-      ]
+      "senses": [],
+      "русский": "винить, возлагать вину — за плохой исход: blame sb for sth / blame sth on sb",
+      "register": "neutral",
+      "type": "reporting verb — accusation",
+      "patterns": "blame + sb · blame + sb + for + -ing · blame + sb + for + noun phrase · blame + oneself + for · blame + sth + on + sb · blame + noun phrase (blame the weather) · be to blame (for)",
+      "never": "blame someone of something — that is accuse's preposition, not blame's — and blame someone about something, which is nobody's. And no that-clause: He blamed that the driver was speeding is impossible. Repairs: blamed the driver for speeding, blamed the crash on the driver, said the driver was speeding.",
+      "two directions, two prepositions": "the person takes for, the outcome takes on. She blamed me for the leak and She blamed the leak on me say the same thing with the arguments reversed. Mixing them — blamed me on the leak — reverses the meaning into nonsense.",
+      "reports": "the assignment of responsibility for something bad. Unlike accuse, it need allege no misconduct — you can blame the weather, the software, or bad luck — and unlike criticize, it targets an outcome rather than a judgment call.",
+      "see also": "accuse, criticize, condemn, reproach"
     },
     {
       "term": "boast",
       "ipa": "/boʊst/",
       "respell": "BOHST",
-      "type": "reporting verb — self-praise",
-      "register": "neutral to formal",
-      "patterns": "boast + that-clause / boast + about + -ing / noun / boast + of + -ing / noun / boast + to sb + that / about / boast + noun phrase (only in the \"possess proudly\" sense) / + direct quotation",
-      "never": "boast someone that / boast to do something / He boasted to have won",
-      "meaning": "A claim advanced with self-satisfaction. Boast is the least loaded of the four self-praise verbs — it can be neutral or even admiring (boasts a spotless record) — where brag is informal and disapproving, crow is loud, and gloat requires someone else's loss.",
-      "transform": "\"I've never lost a case,\" he said. -> He boasted that he had never lost a case.",
+      "meaning": "",
       "examples": [
         "He boasted that he could fix the transmission in an afternoon.",
         "She never boasts about the awards; you have to find out from someone else.",
@@ -119,23 +107,21 @@
         "\"I boast,\" he admitted, \"but only about things I've actually done.\"",
         "The new terminal boasts the shortest security lines in the region."
       ],
-      "related": [
-        "brag",
-        "crow",
-        "gloat",
-        "praise"
-      ]
+      "senses": [],
+      "русский": "хвастаться, похваляться — заявлять с гордостью; о предмете — «располагать чем-л.»",
+      "register": "neutral to formal",
+      "type": "reporting verb — self-praise",
+      "patterns": "boast + that-clause · boast + about + -ing / noun · boast + of + -ing / noun · boast + to sb + that / about · boast + noun phrase (only in the \"possess proudly\" sense) · + direct quotation",
+      "never": "boast someone that and boast to do something. The listener needs to: boasted to his brother that he'd won. There is no infinitive frame — He boasted to have won is not English.",
+      "the inanimate use": "boast alone among this group takes a plain noun-phrase object when the subject is a thing, and there it means \"possess as a point of pride,\" with no speech at all: The hotel boasts three restaurants and a rooftop pool. This is a real and common sense; it just is not a reporting verb.",
+      "reports": "a claim advanced with self-satisfaction. Boast is the least loaded of the four self-praise verbs — it can be neutral or even admiring (boasts a spotless record) — where brag is informal and disapproving, crow is loud, and gloat requires someone else's loss.",
+      "see also": "brag, crow, gloat, praise"
     },
     {
       "term": "brag",
       "ipa": "/bræɡ/",
       "respell": "BRAG",
-      "type": "reporting verb — self-praise",
-      "register": "informal",
-      "patterns": "brag + that-clause / brag + about + -ing / noun / brag + of + -ing / noun (much rarer than with boast) / brag + to sb + about / that / + direct quotation",
-      "never": "brag something / He bragged his salary / brag",
-      "meaning": "The same act as boast but with the disapproval built in. Calling it bragging is itself a judgment; no one describes their own speech that way except jokingly (not to brag, but…), which is the standard American hedge for bragging anyway.",
-      "transform": "\"I closed four deals this week,\" he said. -> He bragged that he had closed four deals that week.",
+      "meaning": "",
       "examples": [
         "He bragged that he'd never once been late to work.",
         "Stop bragging about the truck — everyone has seen it.",
@@ -144,22 +130,21 @@
         "The kids bragged all afternoon about who caught the bigger fish.",
         "He brags less now that people know what the numbers actually were."
       ],
-      "related": [
-        "boast",
-        "crow",
-        "gloat"
-      ]
+      "senses": [],
+      "русский": "хвастаться, бахвалиться — разг., неодобр.; то же, что boast, но с осуждением",
+      "register": "informal",
+      "type": "reporting verb — self-praise",
+      "patterns": "brag + that-clause · brag + about + -ing / noun · brag + of + -ing / noun (much rarer than with boast) · brag + to sb + about / that · + direct quotation",
+      "never": "brag something — no plain noun-phrase object, so no He bragged his salary. And no inanimate subject in the \"possess\" sense: a hotel boasts three pools, it does not brag them. Repairs: bragged about his salary, bragged that he made six figures.",
+      "spelling": "doubles the g — bragged, bragging.",
+      "reports": "the same act as boast but with the disapproval built in. Calling it bragging is itself a judgment; no one describes their own speech that way except jokingly (not to brag, but…), which is the standard American hedge for bragging anyway.",
+      "see also": "boast, crow, gloat"
     },
     {
       "term": "chide",
       "ipa": "/tʃaɪd/",
       "respell": "CHYDE",
-      "type": "reporting verb — reproof",
-      "register": "formal, literary",
-      "patterns": "chide + sb / chide + sb + for + -ing / noun phrase / + direct quotation (\"You promised,\" she chided) / passive be chided for",
-      "never": "chide someone that they did something / chide someone to do something / chide at someone",
-      "meaning": "A mild, often affectionate rebuke — the gentlest verb in the scold–rebuke–reproach family, and the only one that can be teasing. It reads as bookish; in speech an American would say gave him a hard time or ribbed him.",
-      "transform": "\"You really should have called,\" she said. -> She chided him for not calling.",
+      "meaning": "",
       "examples": [
         "She chided him for showing up empty-handed, but she was smiling.",
         "The columnist chided the mayor for reading a statement instead of answering.",
@@ -168,23 +153,21 @@
         "Her grandmother chided her for speaking English at the dinner table.",
         "The editorial chided both parties for walking away from the table."
       ],
-      "related": [
-        "scold",
-        "rebuke",
-        "reproach",
-        "tease"
-      ]
+      "senses": [],
+      "русский": "журить, попрекать — книжн., устар. оттенок; мягкий, часто ласковый упрёк",
+      "register": "formal, literary",
+      "type": "reporting verb — reproof",
+      "patterns": "chide + sb · chide + sb + for + -ing / noun phrase · + direct quotation (\"You promised,\" she chided) · passive be chided for",
+      "never": "chide someone that they did something, chide someone to do something, and chide at someone. No that-clause, no infinitive, no preposition before the person. Repairs: chided him for forgetting, told him he had forgotten.",
+      "past tense": "chided in modern American English. The old forms chid and chidden survive only in older texts and are not usable now.",
+      "reports": "a mild, often affectionate rebuke — the gentlest verb in the scold–rebuke–reproach family, and the only one that can be teasing. It reads as bookish; in speech an American would say gave him a hard time or ribbed him.",
+      "see also": "scold, rebuke, reproach, tease"
     },
     {
       "term": "complain",
       "ipa": "/kəmˈpleɪn/",
       "respell": "kuhm-PLAYN",
-      "type": "reporting verb — complaint",
-      "register": "neutral",
-      "patterns": "complain + that-clause / complain + about + noun phrase / -ing / complain + of + noun phrase / -ing / complain + to sb + about / of / that / complain (intransitive) / + direct quotation",
-      "never": "complain me / complain the manager about the noise / complain something / She complained the noise / complained about that the food was cold",
-      "meaning": "A statement of dissatisfaction, usually addressed to someone who might fix it — which is what separates it from grumble and gripe, where nobody expects redress.",
-      "transform": "\"The heat hasn't worked in three days,\" she said. -> She complained that the heat hadn't worked in three days.",
+      "meaning": "",
       "examples": [
         "Three tenants complained that the elevator had been out since Friday.",
         "He complained to HR about the scheduling, and nothing changed.",
@@ -193,25 +176,21 @@
         "\"I'm not complaining,\" he said, complaining.",
         "Nobody complained, which the manager took as approval."
       ],
-      "related": [
-        "gripe",
-        "grumble",
-        "moan",
-        "whine",
-        "object",
-        "protest"
-      ]
+      "senses": [],
+      "русский": "жаловаться — на неудобство: to sb about sth; complain of — о симптомах, недомогании",
+      "register": "neutral",
+      "type": "reporting verb — complaint",
+      "patterns": "complain + that-clause · complain + about + noun phrase / -ing · complain + of + noun phrase / -ing · complain + to sb + about / of / that · complain (intransitive) · + direct quotation",
+      "never": "complain me or complain the manager about the noise. There is no personal object — the hearer is reached through to, and to comes first: complained to the manager about the noise. Also complain something: the content never appears as a bare noun phrase, so no She complained the noise. And never both markers at once — complained about that the food was cold; it is either complained about the cold food or complained that the food was cold.",
+      "of vs. about": "complain of is for symptoms, ailments, and formal reports of a condition — complained of chest pains, complained of dizziness. Complain about is the everyday grievance — complained about the noise, the food, her boss. Using of for a grievance sounds archaic; using about for a symptom sounds casual but is not wrong.",
+      "reports": "a statement of dissatisfaction, usually addressed to someone who might fix it — which is what separates it from grumble and gripe, where nobody expects redress.",
+      "see also": "gripe, grumble, moan, whine, object, protest"
     },
     {
       "term": "compliment",
       "ipa": "/ˈkɑmpləˌmɛnt/",
       "respell": "KAHM-pluh-ment",
-      "type": "reporting verb — praise",
-      "register": "neutral",
-      "patterns": "compliment + sb / compliment + sb + on + noun phrase / -ing / passive be complimented on",
-      "never": "compliment someone that they did well / complimented her for her presentation",
-      "meaning": "A short, direct expression of admiration said to the person's face. Praise can be public and about a third party; a compliment is addressed to its target.",
-      "transform": "\"That was a great presentation,\" he said to her. -> He complimented her on her presentation.",
+      "meaning": "",
       "examples": [
         "He complimented her on the way she handled the hostile question.",
         "Nobody had ever complimented his handwriting before.",
@@ -220,23 +199,21 @@
         "\"Was that a compliment?\" \"It was supposed to be.\"",
         "He complimented the team publicly and criticized them in private."
       ],
-      "related": [
-        "praise",
-        "congratulate",
-        "thank",
-        "boast"
-      ]
+      "senses": [],
+      "русский": "делать комплимент, хвалить в глаза — compliment sb on sth; не путать с complement",
+      "register": "neutral",
+      "type": "reporting verb — praise",
+      "patterns": "compliment + sb · compliment + sb + on + noun phrase / -ing · passive be complimented on",
+      "never": "compliment someone that they did well — no that-clause. And the preposition is on, not for: complimented her for her presentation is heard, but on is the standard frame and for belongs to praise and thank. Repair: complimented her on her presentation.",
+      "homophone": "compliment (praise) and complement (complete, go well with) are pronounced identically and mean nothing alike. The wine complements the fish; the chef complimented the sommelier. This is one of the most common spelling errors in American English.",
+      "reports": "a short, direct expression of admiration said to the person's face. Praise can be public and about a third party; a compliment is addressed to its target.",
+      "see also": "praise, congratulate, thank, boast"
     },
     {
       "term": "condemn",
       "ipa": "/kənˈdɛm/",
       "respell": "kuhn-DEM",
-      "type": "reporting verb — denunciation",
-      "register": "formal, journalistic",
-      "patterns": "condemn + noun phrase / condemn + sb + for + -ing / noun phrase / condemn + sb / sth + as + noun phrase / adjective / passive be condemned (as / for) / condemn + sb + to + noun phrase (= sentence — a separate sense)",
-      "never": "condemn that the policy was unfair / condemn someone of something / condemned him to lie",
-      "meaning": "The strongest public denunciation in this group. Where criticize faults a decision and accuse charges an offense, condemn declares the thing morally unacceptable, which is why it is the standard verb of diplomatic statements.",
-      "transform": "\"This attack is unacceptable and we reject it,\" the statement said. -> The government condemned the attack.",
+      "meaning": "",
       "examples": [
         "Both senators condemned the ruling within the hour.",
         "The union condemned the layoffs as a breach of the agreement.",
@@ -245,23 +222,22 @@
         "\"I condemn it in the strongest possible terms,\" he said, which meant nothing would happen.",
         "The building was condemned, in the other sense, six months later."
       ],
-      "related": [
-        "criticize",
-        "accuse",
-        "blame",
-        "rebuke"
-      ]
+      "senses": [],
+      "pronunciation note": "the final n is silent",
+      "русский": "осуждать, клеймить — публично объявлять недопустимым; отд. знач. «приговаривать»",
+      "register": "formal, journalistic",
+      "type": "reporting verb — denunciation",
+      "patterns": "condemn + noun phrase · condemn + sb + for + -ing / noun phrase · condemn + sb / sth + as + noun phrase / adjective · passive be condemned (as / for) · condemn + sb + to + noun phrase (= sentence — a separate sense)",
+      "never": "condemn that the policy was unfair — no that-clause — and condemn someone of something, which is accuse's preposition. Repairs: condemned the policy as unfair, condemned the policy, said the policy was unfair. Also note that condemn sb to + noun means \"sentence\" (condemned to death), a different verb sense entirely, so condemned him to lie does not mean he was denounced for lying — and there is no infinitive frame in the denouncing sense at all.",
+      "spelling": "condemned, condemning — the silent n stays in every form.",
+      "reports": "the strongest public denunciation in this group. Where criticize faults a decision and accuse charges an offense, condemn declares the thing morally unacceptable, which is why it is the standard verb of diplomatic statements.",
+      "see also": "criticize, accuse, blame, rebuke"
     },
     {
       "term": "congratulate",
       "ipa": "/kənˈɡrætʃəˌleɪt/",
       "respell": "kuhn-GRACH-uh-layt",
-      "type": "reporting verb — congratulation",
-      "register": "neutral",
-      "patterns": "congratulate + sb / congratulate + sb + on + noun phrase / -ing / congratulate + oneself + on / passive be congratulated on",
-      "never": "congratulate your promotion / congratulated me that I had passed",
-      "meaning": "An acknowledgment of someone's good fortune or achievement. It does not evaluate the person's work, which is what separates it from praise and compliment — you can congratulate someone on a lottery win.",
-      "transform": "\"Congratulations on the new job!\" she said. -> She congratulated me on the new job.",
+      "meaning": "",
       "examples": [
         "She congratulated the whole team on shipping two weeks early.",
         "He congratulated his opponent and left the stage without another word.",
@@ -270,22 +246,22 @@
         "\"Am I supposed to congratulate you?\" she asked, not warmly.",
         "The email congratulated everyone on numbers that three people had actually produced."
       ],
-      "related": [
-        "compliment",
-        "praise",
-        "thank"
-      ]
+      "senses": [],
+      "русский": "поздравлять — поздравляют человека (sb on sth), а не событие",
+      "register": "neutral",
+      "type": "reporting verb — congratulation",
+      "patterns": "congratulate + sb · congratulate + sb + on + noun phrase / -ing · congratulate + oneself + on · passive be congratulated on",
+      "never": "congratulate your promotion — you congratulate a person, never the event. The event goes after on: congratulated her on her promotion. And no that-clause: congratulated me that I had passed is impossible; write congratulated me on passing.",
+      "on vs. for": "on is the standard preposition and the only safe one. Congratulate sb for + -ing occurs in American speech and is not exactly wrong, but it shades toward praise for an effort rather than acknowledgment of an outcome, and editors change it to on.",
+      "the noun": "the exclamation is Congratulations! — always plural, always with the s. Congratulation! as a greeting is a fossilized learner error.",
+      "reports": "an acknowledgment of someone's good fortune or achievement. It does not evaluate the person's work, which is what separates it from praise and compliment — you can congratulate someone on a lottery win.",
+      "see also": "compliment, praise, thank"
     },
     {
       "term": "criticise",
       "ipa": "/ˈkrɪtəˌsaɪz/",
       "respell": "KRIT-uh-syze",
-      "type": "reporting verb — criticism",
-      "register": "neutral — British spelling",
-      "patterns": "identical to criticize — criticise + sb / sth / criticise + sb + for + -ing / noun phrase / criticise + sb / sth + as + adjective / noun phrase / passive be criticised for",
-      "never": "criticise me that I was late / criticise in an American text — American English requires criticize",
-      "meaning": "Exactly what criticize reports. The entry exists so the spelling can be recognized in British sources and then not copied.",
-      "transform": "\"The rollout was badly planned,\" she said. (British) -> She criticised the rollout as badly planned.",
+      "meaning": "",
       "examples": [
         "(British usage) The committee criticised the department for its handling of the contract.",
         "(British usage) He was criticised in the press for a remark he never made.",
@@ -294,23 +270,21 @@
         "Our house style is British, so every criticize in the draft was respelled criticise.",
         "Both spellings appear in the OED; only criticize heads the Merriam-Webster entry."
       ],
-      "related": [
-        "criticize",
-        "apologise",
-        "condemn",
-        "rebuke"
-      ]
+      "senses": [],
+      "русский": "критиковать — брит. написание criticize; в американском тексте только criticize",
+      "register": "neutral — British spelling",
+      "type": "reporting verb — criticism",
+      "patterns": "identical to criticize — criticise + sb / sth · criticise + sb + for + -ing / noun phrase · criticise + sb / sth + as + adjective / noun phrase · passive be criticised for",
+      "british spelling": "criticise is standard in British, Irish, and Australian writing; American English requires criticize, and so does Oxford house style in Britain, which prefers -ize across the board. The pronunciation is identical — the letter s here is /z/, exactly as in apologise. The related words criticism, critical, and critic have no variant spelling at all; only the verb splits, because only the verb carries the -ize / -ise suffix, which comes from Greek -izein by way of French.",
+      "never": "criticise me that I was late — the grammar is criticize's in every detail, so no that-clause and no about. And in an American text, never criticise at all: this library uses criticize throughout, as American English requires.",
+      "reports": "exactly what criticize reports. The entry exists so the spelling can be recognized in British sources and then not copied.",
+      "see also": "criticize, apologise, condemn, rebuke"
     },
     {
       "term": "criticize",
       "ipa": "/ˈkrɪtəˌsaɪz/",
       "respell": "KRIT-uh-syze",
-      "type": "reporting verb — criticism",
-      "register": "neutral",
-      "patterns": "criticize + sb / sth / criticize + sb + for + -ing / noun phrase / criticize + sb / sth + as + adjective / noun phrase / passive be criticized for / be criticized as",
-      "never": "criticize about the delay / criticize that the plan was rushed / criticized me that I was late",
-      "meaning": "An unfavorable judgment of a choice, a performance, or a piece of work. Weaker than condemn, broader than accuse — you can criticize something without alleging any wrongdoing at all, and academic criticism is not even negative.",
-      "transform": "\"The rollout was badly planned and you knew it,\" she said. -> She criticized the rollout as badly planned.",
+      "meaning": "",
       "examples": [
         "Two board members criticized the timing but voted for it anyway.",
         "She was criticized for saying out loud what everyone had written down.",
@@ -319,24 +293,21 @@
         "It's easy to criticize a schedule you didn't have to build.",
         "The review criticized the pacing and praised almost everything else."
       ],
-      "related": [
-        "criticise",
-        "condemn",
-        "rebuke",
-        "blame",
-        "praise"
-      ]
+      "senses": [],
+      "русский": "критиковать — неодобрительно судить о решении или работе; мягче, чем condemn",
+      "register": "neutral",
+      "type": "reporting verb — criticism",
+      "patterns": "criticize + sb / sth · criticize + sb + for + -ing / noun phrase · criticize + sb / sth + as + adjective / noun phrase · passive be criticized for / be criticized as",
+      "never": "criticize about the delay and criticize that the plan was rushed. The verb is plainly transitive and takes no that-clause, and no personal object plus clause either: criticized me that I was late is impossible. Repairs: criticized the delay, criticized the plan as rushed, criticized them for rushing the plan.",
+      "british spelling": "criticise, which has its own entry above. This library uses criticize throughout, as American English requires.",
+      "reports": "an unfavorable judgment of a choice, a performance, or a piece of work. Weaker than condemn, broader than accuse — you can criticize something without alleging any wrongdoing at all, and academic criticism is not even negative.",
+      "see also": "criticise, condemn, rebuke, blame, praise"
     },
     {
       "term": "crow",
       "ipa": "/kroʊ/",
       "respell": "KROH",
-      "type": "reporting verb — self-praise",
-      "register": "informal, disapproving",
-      "patterns": "crow + that-clause / crow + about + noun phrase / -ing / crow + over + noun phrase / -ing / crow + to sb + that / about / + direct quotation",
-      "never": "crow something / crow someone that / crow of the win",
-      "meaning": "Boasting loudly and publicly, with the metaphor of a rooster fully alive in it — the verb implies noise and an audience. Crow over something specifically means gloating about a victory in front of the loser, which is gloat's territory.",
-      "transform": "\"We beat them by twenty points!\" he said, over and over. -> He crowed that they had beaten them by twenty points.",
+      "meaning": "",
       "examples": [
         "He crowed about the promotion until even his friends stopped answering.",
         "The press release crowed that the company had doubled its market share.",
@@ -345,23 +316,20 @@
         "\"Don't crow until the check clears,\" his partner said.",
         "The mayor crowed about a crime drop that had started under his predecessor."
       ],
-      "related": [
-        "boast",
-        "brag",
-        "gloat",
-        "taunt"
-      ]
+      "senses": [],
+      "русский": "торжествовать, громко похваляться — разг., неодобр.; шумно трубить о своей победе",
+      "register": "informal, disapproving",
+      "type": "reporting verb — self-praise",
+      "patterns": "crow + that-clause · crow + about + noun phrase / -ing · crow + over + noun phrase / -ing · crow + to sb + that / about · + direct quotation",
+      "never": "crow something, crow someone that, and crow of the win. No noun-phrase object, no personal object, and not boast's of — crow takes about or over. Repairs: crowed about the win, crowed that they'd won.",
+      "reports": "boasting loudly and publicly, with the metaphor of a rooster fully alive in it — the verb implies noise and an audience. Crow over something specifically means gloating about a victory in front of the loser, which is gloat's territory.",
+      "see also": "boast, brag, gloat, taunt"
     },
     {
       "term": "cry",
       "ipa": "/kraɪ/",
       "respell": "KRY",
-      "type": "reporting verb — exclamation",
-      "register": "literary",
-      "patterns": "cry + direct quotation (with or without inversion: \"Stop!\" she cried / \"Stop!\" cried the guard) / cry + that-clause (literary) / cry out + that-clause / cry out + to sb (+ that / to-infinitive) / cry + for + noun phrase (cried for help) / cry (intransitive — weep)",
-      "never": "cry someone that / cry someone something",
-      "meaning": "A loud, sudden utterance driven by emotion — alarm, protest, delight. Compare exclaim, which is formal but not loud, and shout, which is loud but carries no literary flavor.",
-      "transform": "\"Look out!\" she said suddenly. -> She cried a warning. / \"Look out!\" she cried.",
+      "meaning": "",
       "examples": [
         "\"Cry all you want,\" he said, \"but the deposit is nonrefundable.\"",
         "\"There's someone in the water!\" she cried.",
@@ -370,23 +338,21 @@
         "She read the last page twice and then cried.",
         "\"Not one more word,\" cried the judge, in a novel nobody would publish now."
       ],
-      "related": [
-        "exclaim",
-        "shout",
-        "yell",
-        "groan"
-      ]
+      "senses": [],
+      "русский": "вскричать, воскликнуть — книжн., о возгласе; в обиходном значении — «плакать»",
+      "register": "literary",
+      "type": "reporting verb — exclamation",
+      "patterns": "cry + direct quotation (with or without inversion: \"Stop!\" she cried / \"Stop!\" cried the guard) · cry + that-clause (literary) · cry out + that-clause · cry out + to sb (+ that / to-infinitive) · cry + for + noun phrase (cried for help) · cry (intransitive — weep)",
+      "never": "cry someone that and cry someone something. No personal object and no ditransitive frame; the addressee needs to: cried out to the crowd that the bridge was closing.",
+      "two verbs in one": "the everyday American cry means weep — she cried for an hour. The reporting cry means exclaim loudly, and outside fiction it now sounds dated. \"Wait!\" he cried belongs in a novel; a news report writes shouted. Where both readings are available, the sentence is genuinely ambiguous: She cried that it wasn't fair could be weeping or shouting.",
+      "reports": "a loud, sudden utterance driven by emotion — alarm, protest, delight. Compare exclaim, which is formal but not loud, and shout, which is loud but carries no literary flavor.",
+      "see also": "exclaim, shout, yell, groan"
     },
     {
       "term": "exclaim",
       "ipa": "/ɪkˈskleɪm/",
       "respell": "ik-SKLAYM",
-      "type": "reporting verb — exclamation",
-      "register": "formal, literary",
-      "patterns": "exclaim + direct quotation / exclaim + that-clause / exclaim + to sb + that / exclaim + over / at + noun phrase / wh-clause (= react admiringly or with dismay)",
-      "never": "exclaim someone that / exclaim something / She exclaimed her surprise",
-      "meaning": "A sudden utterance made under strong feeling, usually surprise or delight. Unlike cry it need not be loud, and unlike shout it says nothing about volume at all.",
-      "transform": "\"I can't believe you're here!\" she said. -> She exclaimed that she couldn't believe I was there.",
+      "meaning": "",
       "examples": [
         "\"You're kidding!\" she exclaimed, and put down her fork.",
         "He exclaimed that he had never seen anything like it.",
@@ -395,23 +361,21 @@
         "She exclaimed at the price and bought it anyway.",
         "\"At last!\" exclaimed the letter, in capitals, with three exclamation points."
       ],
-      "related": [
-        "cry",
-        "shout",
-        "groan",
-        "murmur"
-      ]
+      "senses": [],
+      "русский": "восклицать — книжн.; внезапный возглас от удивления или восторга, не обязательно громкий",
+      "register": "formal, literary",
+      "type": "reporting verb — exclamation",
+      "patterns": "exclaim + direct quotation · exclaim + that-clause · exclaim + to sb + that · exclaim + over / at + noun phrase / wh-clause (= react admiringly or with dismay)",
+      "never": "exclaim someone that and exclaim something. The listener needs to; there is no noun-phrase object, so no She exclaimed her surprise. Repair: exclaimed that she was surprised.",
+      "register warning": "almost nobody says exclaim out loud. It is a writing word, and in modern American fiction it is considered a mark of amateur dialogue tagging — an exclamation point plus said does the same work. It survives comfortably in the exclaim over sense: everyone exclaimed over the baby.",
+      "reports": "a sudden utterance made under strong feeling, usually surprise or delight. Unlike cry it need not be loud, and unlike shout it says nothing about volume at all.",
+      "see also": "cry, shout, groan, murmur"
     },
     {
       "term": "gloat",
       "ipa": "/ɡloʊt/",
       "respell": "GLOHT",
-      "type": "reporting verb — self-praise",
-      "register": "informal, disapproving",
-      "patterns": "gloat + that-clause / gloat + about / over + noun phrase / -ing / gloat + to sb (+ that / about) / gloat (intransitive) / + direct quotation",
-      "never": "gloat something / gloat someone / gloat of the result",
-      "meaning": "Open, undisguised pleasure in one's own success or — the core sense — in someone else's misfortune. This is the only verb in the boasting family that requires a loser. Boast and brag need only a winner; gloat needs a defeat to enjoy.",
-      "transform": "\"I told you it wouldn't work,\" she said, smiling. -> She gloated that she had told me it wouldn't work.",
+      "meaning": "",
       "examples": [
         "He gloated for a week about winning a game of cards.",
         "She gloated that the forecast she'd been mocked for had turned out right.",
@@ -420,24 +384,20 @@
         "\"I'm not gloating,\" he said, gloating.",
         "The rival paper gloated over the correction for two full editorials."
       ],
-      "related": [
-        "crow",
-        "boast",
-        "brag",
-        "taunt",
-        "mock"
-      ]
+      "senses": [],
+      "русский": "злорадствовать — разг., неодобр.; открыто торжествовать над чужой неудачей",
+      "register": "informal, disapproving",
+      "type": "reporting verb — self-praise",
+      "patterns": "gloat + that-clause · gloat + about / over + noun phrase / -ing · gloat + to sb (+ that / about) · gloat (intransitive) · + direct quotation",
+      "never": "gloat something, gloat someone, and gloat of the result. No object of any kind without a preposition, and the preposition is about or over — never boast's of. Repairs: gloated over the result, gloated that he'd been right.",
+      "reports": "open, undisguised pleasure in one's own success or — the core sense — in someone else's misfortune. This is the only verb in the boasting family that requires a loser. Boast and brag need only a winner; gloat needs a defeat to enjoy.",
+      "see also": "crow, boast, brag, taunt, mock"
     },
     {
       "term": "gripe",
       "ipa": "/ɡraɪp/",
       "respell": "GRYPE",
-      "type": "reporting verb — complaint",
-      "register": "informal, American",
-      "patterns": "gripe + that-clause / gripe + about + noun phrase / -ing / gripe + to sb + about / that / gripe + at sb (informal, on the grumble model) / gripe (intransitive) / + direct quotation",
-      "never": "gripe someone / gripe something / griped me the schedule",
-      "meaning": "Low-grade, habitual complaining to someone who cannot fix it — the American workplace verb for it. Nearly identical to grumble but blunter and more colloquial; a gripe as a noun is a specific grievance (my one gripe is the parking), which grumble does not do as naturally.",
-      "transform": "\"These shifts are impossible,\" he said to his coworker. -> He griped to his coworker about the shifts.",
+      "meaning": "",
       "examples": [
         "They griped about the new time-tracking software for a month, then learned it.",
         "He griped to me that nobody had told him the meeting moved.",
@@ -446,23 +406,20 @@
         "She gripes constantly and still hasn't missed a shift in six years.",
         "There was plenty of griping in the parking lot and none in the room."
       ],
-      "related": [
-        "complain",
-        "grumble",
-        "moan",
-        "whine"
-      ]
+      "senses": [],
+      "русский": "ворчать, брюзжать — разг., амер.; нытьё по мелочам тому, кто ничего не решает",
+      "register": "informal, American",
+      "type": "reporting verb — complaint",
+      "patterns": "gripe + that-clause · gripe + about + noun phrase / -ing · gripe + to sb + about / that · gripe + at sb (informal, on the grumble model) · gripe (intransitive) · + direct quotation",
+      "never": "gripe someone and gripe something. Like every verb in the complaining family, the person takes to and the topic takes about: griped to me about the schedule, never griped me the schedule.",
+      "reports": "low-grade, habitual complaining to someone who cannot fix it — the American workplace verb for it. Nearly identical to grumble but blunter and more colloquial; a gripe as a noun is a specific grievance (my one gripe is the parking), which grumble does not do as naturally.",
+      "see also": "complain, grumble, moan, whine"
     },
     {
       "term": "groan",
       "ipa": "/ɡroʊn/",
       "respell": "GROHN",
-      "type": "reporting verb — complaint, manner of speaking",
-      "register": "informal",
-      "patterns": "groan + direct quotation / groan + that-clause / groan + about + noun phrase / -ing / groan + to sb (+ that) / groan + at + noun phrase (= react to: groaned at the price) / groan (intransitive) / groan + noun phrase (rare: groaned an apology)",
-      "never": "groan someone / groan someone that",
-      "meaning": "A low, drawn-out sound of pain, exhaustion, or dismay — and, by extension, the complaint that comes out with it. The that-clause is fully idiomatic here (he groaned that his back was killing him), unlike sigh, because a groan can carry words.",
-      "transform": "\"Oh no, not another form,\" he said. -> He groaned that there was another form.",
+      "meaning": "",
       "examples": [
         "The whole class groaned when she announced a pop quiz.",
         "He groaned that he'd left his wallet in the other jacket.",
@@ -471,23 +428,20 @@
         "\"Not the highway at five,\" he groaned.",
         "The old stairs groaned under the weight of the piano."
       ],
-      "related": [
-        "moan",
-        "sigh",
-        "grumble",
-        "complain"
-      ]
+      "senses": [],
+      "русский": "стонать, со стоном жаловаться — разг.; от досады, усталости или боли",
+      "register": "informal",
+      "type": "reporting verb — complaint, manner of speaking",
+      "patterns": "groan + direct quotation · groan + that-clause · groan + about + noun phrase / -ing · groan + to sb (+ that) · groan + at + noun phrase (= react to: groaned at the price) · groan (intransitive) · groan + noun phrase (rare: groaned an apology)",
+      "never": "groan someone and groan someone that. If the hearer is named, use to: groaned to his roommate that the rent had gone up again.",
+      "reports": "a low, drawn-out sound of pain, exhaustion, or dismay — and, by extension, the complaint that comes out with it. The that-clause is fully idiomatic here (he groaned that his back was killing him), unlike sigh, because a groan can carry words.",
+      "see also": "moan, sigh, grumble, complain"
     },
     {
       "term": "growl",
       "ipa": "/ɡraʊl/",
       "respell": "GROWL",
-      "type": "reporting verb — manner of speaking",
-      "register": "literary, narrative",
-      "patterns": "growl + direct quotation / growl + that-clause / growl + at sb / growl + at sb + to-infinitive (growled at me to move) / growl + noun phrase (growled an order) / growl (intransitive)",
-      "never": "growl someone something / He growled me a warning",
-      "meaning": "Speech delivered low in the throat with hostility or menace. It is a fiction verb: real reports say said angrily. Growl at someone is aggressive; growl + quotation is simply a description of the voice.",
-      "transform": "\"Get out of my chair,\" he said, very low. -> He growled at me to get out of his chair.",
+      "meaning": "",
       "examples": [
         "\"Try it,\" he growled, and nobody tried it.",
         "The dog growled at the mail carrier through the screen door.",
@@ -496,23 +450,21 @@
         "The coach growled at the bench and the bench got quiet.",
         "His stomach growled loudly enough that the interviewer laughed."
       ],
-      "related": [
-        "snap",
-        "mutter",
-        "shout",
-        "scold"
-      ]
+      "senses": [],
+      "pronunciation note": "rhymes with owl",
+      "русский": "рычать, прорычать — книжн.; говорить низко и угрожающе, growl at sb",
+      "register": "literary, narrative",
+      "type": "reporting verb — manner of speaking",
+      "patterns": "growl + direct quotation · growl + that-clause · growl + at sb · growl + at sb + to-infinitive (growled at me to move) · growl + noun phrase (growled an order) · growl (intransitive)",
+      "never": "growl someone something — no ditransitive frame, so no He growled me a warning. Repair: growled a warning at me.",
+      "reports": "speech delivered low in the throat with hostility or menace. It is a fiction verb: real reports say said angrily. Growl at someone is aggressive; growl + quotation is simply a description of the voice.",
+      "see also": "snap, mutter, shout, scold"
     },
     {
       "term": "grumble",
       "ipa": "/ˈɡrʌmbəl/",
       "respell": "GRUM-buhl",
-      "type": "reporting verb — complaint",
-      "register": "neutral to informal",
-      "patterns": "grumble + that-clause / grumble + about + noun phrase / -ing / grumble + to sb + about / that / grumble + at sb / grumble (intransitive) / + direct quotation",
-      "never": "grumble someone / grumble something",
-      "meaning": "Continuous, half-audible complaining that expects nothing to change. Complain is addressed to someone who might act; grumble is muttered sideways. It is also the standard verb for low-level institutional discontent: staff grumbled about the new policy.",
-      "transform": "\"This is the third reorg in two years,\" she said under her breath. -> She grumbled that it was the third reorg in two years.",
+      "meaning": "",
       "examples": [
         "He grumbled about the parking every single morning for eleven years.",
         "Several senators grumbled that they had seen the bill only that morning.",
@@ -521,24 +473,21 @@
         "\"Fine,\" he grumbled, and picked up the other end of the couch.",
         "They grumbled to each other in the hallway and said nothing in the meeting."
       ],
-      "related": [
-        "complain",
-        "gripe",
-        "moan",
-        "mutter",
-        "whine"
-      ]
+      "senses": [],
+      "русский": "ворчать, бурчать — вполголоса, ни на что не надеясь; grumble at sb = придираться",
+      "register": "neutral to informal",
+      "type": "reporting verb — complaint",
+      "patterns": "grumble + that-clause · grumble + about + noun phrase / -ing · grumble + to sb + about / that · grumble + at sb · grumble (intransitive) · + direct quotation",
+      "never": "grumble someone and grumble something. No object without a preposition. Repairs: grumbled about the traffic, grumbled that the traffic was worse than ever.",
+      "at vs. to": "grumble to someone means you complained in their hearing; grumble at someone means they were the target. He grumbled to his wife about his boss — the wife is an audience. He grumbled at his wife — the wife is the problem.",
+      "reports": "continuous, half-audible complaining that expects nothing to change. Complain is addressed to someone who might act; grumble is muttered sideways. It is also the standard verb for low-level institutional discontent: staff grumbled about the new policy.",
+      "see also": "complain, gripe, moan, mutter, whine"
     },
     {
       "term": "joke",
       "ipa": "/dʒoʊk/",
       "respell": "JOHK",
-      "type": "reporting verb — humorous remark",
-      "register": "neutral",
-      "patterns": "joke + that-clause / joke + about + noun phrase / -ing / joke + with sb + about / that / joke (intransitive) / + direct quotation",
-      "never": "joke someone that / joke something / joked the crowd",
-      "meaning": "A remark made in fun, and joke that is the standard journalistic frame for reporting a quip while signaling that the speaker did not mean it literally. That signal matters: He said he'd quit and He joked that he'd quit describe the same words and opposite situations.",
-      "transform": "\"At this rate I'll retire before the permit comes through,\" he said, laughing. -> He joked that he would retire before the permit came through.",
+      "meaning": "",
       "examples": [
         "She joked that the coffee machine had a better attendance record than she did.",
         "He joked about his accent before anyone else could.",
@@ -547,22 +496,20 @@
         "You can't joke about that in a deposition.",
         "He joked that he'd be fine, which is how everyone missed how bad it was."
       ],
-      "related": [
-        "tease",
-        "laugh",
-        "mock"
-      ]
+      "senses": [],
+      "русский": "шутить — joke that: передать чью-то шутку, отметив, что сказано несерьёзно",
+      "register": "neutral",
+      "type": "reporting verb — humorous remark",
+      "patterns": "joke + that-clause · joke + about + noun phrase / -ing · joke + with sb + about / that · joke (intransitive) · + direct quotation",
+      "never": "joke someone that and joke something. The hearer takes with, not a bare object: joked with the crowd, never joked the crowd.",
+      "reports": "a remark made in fun, and joke that is the standard journalistic frame for reporting a quip while signaling that the speaker did not mean it literally. That signal matters: He said he'd quit and He joked that he'd quit describe the same words and opposite situations.",
+      "see also": "tease, laugh, mock"
     },
     {
       "term": "lament",
       "ipa": "/ləˈmɛnt/",
       "respell": "luh-MENT",
-      "type": "reporting verb — complaint, grief",
-      "register": "formal, literary",
-      "patterns": "lament + that-clause / lament + noun phrase / lament + the fact that / lament + over / for + noun phrase (literary, = mourn) / lament (intransitive) / + direct quotation",
-      "never": "lament about something / lamented me that / lamented to have lost the house",
-      "meaning": "Grief or regret expressed publicly, usually about something already lost and beyond fixing. That is the difference from complain: a complaint asks for a remedy, a lament concedes there is none. It is a written verb — in speech Americans say was upset about or kept saying how sad it was.",
-      "transform": "\"There's nowhere left in this town to buy a book,\" she said. -> She lamented that there was nowhere left in town to buy a book.",
+      "meaning": "",
       "examples": [
         "The editorial laments the disappearance of the local paper it competes with.",
         "She lamented that none of her students had read a newspaper that week.",
@@ -571,23 +518,20 @@
         "Critics lamented the ending and praised everything before it.",
         "There is no point lamenting a deadline you already missed."
       ],
-      "related": [
-        "moan",
-        "complain",
-        "sigh",
-        "groan"
-      ]
+      "senses": [],
+      "русский": "сетовать, оплакивать — книжн.; горевать о непоправимом; переходный, без about",
+      "register": "formal, literary",
+      "type": "reporting verb — complaint, grief",
+      "patterns": "lament + that-clause · lament + noun phrase · lament + the fact that · lament + over / for + noun phrase (literary, = mourn) · lament (intransitive) · + direct quotation",
+      "never": "lament about something — the verb is transitive and about is redundant. Repairs: lamented the closing of the plant, lamented that the plant was closing. (Lament over the ruins is a genuine literary variant; lament about is not one.) Also no personal object — lamented me that is impossible — and no infinitive: lamented to have lost the house should be lamented that he had lost the house.",
+      "reports": "grief or regret expressed publicly, usually about something already lost and beyond fixing. That is the difference from complain: a complaint asks for a remedy, a lament concedes there is none. It is a written verb — in speech Americans say was upset about or kept saying how sad it was.",
+      "see also": "moan, complain, sigh, groan"
     },
     {
       "term": "laugh",
       "ipa": "/læf/",
       "respell": "LAF",
-      "type": "reporting verb — manner of speaking",
-      "register": "neutral",
-      "patterns": "laugh (intransitive) / laugh + direct quotation / laugh + at + sb / sth / laugh + about / over + noun phrase / -ing / laugh + off + noun phrase / laugh + that-clause (disputed — see below)",
-      "never": "laugh someone / laugh someone for doing something",
-      "meaning": "Amusement, real or performed. As a reporting verb it usually says how something was said rather than what act it was.",
-      "transform": "\"It's fine, honestly,\" she said, laughing. -> She laughed and said it was fine.",
+      "meaning": "",
       "examples": [
         "She laughed when she saw the size of the invoice.",
         "They laughed about the wrong turn for the rest of the drive.",
@@ -596,24 +540,22 @@
         "Nobody laughed, which told him the joke had landed wrong.",
         "\"You'll laugh,\" she said, and we did not."
       ],
-      "related": [
-        "joke",
-        "tease",
-        "mock",
-        "sneer",
-        "sigh"
-      ]
+      "senses": [],
+      "русский": "смеяться — laugh at sb = насмехаться над кем-то, laugh about sth = смеяться вместе",
+      "register": "neutral",
+      "type": "reporting verb — manner of speaking",
+      "patterns": "laugh (intransitive) · laugh + direct quotation · laugh + at + sb / sth · laugh + about / over + noun phrase / -ing · laugh + off + noun phrase · laugh + that-clause (disputed — see below)",
+      "never": "laugh someone and laugh someone for doing something. There is no ordinary transitive frame: the person laughed at takes at, and the only objects the verb allows are fixed idioms (laugh it off, laughed him off the stage, laughed herself sick). Repairs: laughed at him, mocked him for trying.",
+      "at vs. about": "laugh at someone is mockery, with a victim; laugh about something is shared amusement, with none. They laughed at her and They laughed about it with her are opposite social events.",
+      "the that-clause is contested": "He laughed that the whole thing had been a misunderstanding appears regularly in journalism and is regularly flagged, on the grounds that laughing is not a way of producing words. It is common enough that you will not be misunderstood, but he said, laughing, is unarguable and no longer.",
+      "reports": "amusement, real or performed. As a reporting verb it usually says how something was said rather than what act it was.",
+      "see also": "joke, tease, mock, sneer, sigh"
     },
     {
       "term": "moan",
       "ipa": "/moʊn/",
       "respell": "MOHN",
-      "type": "reporting verb — complaint, manner of speaking",
-      "register": "informal",
-      "patterns": "moan + that-clause / moan + about + noun phrase / -ing / moan + to sb + about / that / moan + direct quotation / moan (intransitive) / moan + at sb (British)",
-      "never": "moan someone / moan something / moaned me about the heat",
-      "meaning": "A long low sound, or the complaint delivered in that tone. Softer and more drawn out than groan, which is shorter and lower.",
-      "transform": "\"It's so hot in here I can't think,\" she said. -> She moaned about the heat.",
+      "meaning": "",
       "examples": [
         "He moaned about the commute until he moved four blocks from the office.",
         "She moaned that she'd been on hold for forty minutes.",
@@ -622,24 +564,21 @@
         "He moaned softly and asked for more ice.",
         "There's no point moaning about a rule you voted for."
       ],
-      "related": [
-        "groan",
-        "complain",
-        "gripe",
-        "whine",
-        "grumble"
-      ]
+      "senses": [],
+      "русский": "стонать; ныть, жаловаться — разг.; в амер. чаще о звуке, в брит. — о жалобах",
+      "register": "informal",
+      "type": "reporting verb — complaint, manner of speaking",
+      "patterns": "moan + that-clause · moan + about + noun phrase / -ing · moan + to sb + about / that · moan + direct quotation · moan (intransitive) · moan + at sb (British)",
+      "never": "moan someone and moan something. No object without a preposition, and no personal object: moaned me about the heat should be moaned to me about the heat.",
+      "american vs. british": "in British English moan is a top-tier complaining verb — stop moaning, having a moan — and it competes with complain in ordinary conversation. In American English the complaining sense exists and is understood, but the dominant reading is the sound: pain, exhaustion, or pleasure. She moaned about the heat is fine in American English; stop your moaning sounds imported. Americans reach for gripe, whine, or complain first.",
+      "reports": "a long low sound, or the complaint delivered in that tone. Softer and more drawn out than groan, which is shorter and lower.",
+      "see also": "groan, complain, gripe, whine, grumble"
     },
     {
       "term": "mock",
       "ipa": "/mɑk/",
       "respell": "MAHK",
-      "type": "reporting verb — ridicule",
-      "register": "neutral",
-      "patterns": "mock + sb / sth / mock + sb + for + -ing / noun phrase / mock + sb's accent / voice / walk / + direct quotation delivered in imitation / passive be mocked for",
-      "never": "mock at someone / mocked at him / mocked that he was scared",
-      "meaning": "Ridicule aimed at making someone look foolish, usually by imitation. Unlike tease it is not affectionate, and unlike criticize it attacks the person rather than the choice. Mock- as a prefix (mock trial, mock-serious) means \"imitation,\" which is the same root doing honest work.",
-      "transform": "\"Ooh, look at me, I read the manual,\" he said in a high voice. -> He mocked me for reading the manual.",
+      "meaning": "",
       "examples": [
         "He mocked the accent for a full minute before noticing whose family had it.",
         "She was mocked online for a typo in a two-line post.",
@@ -648,25 +587,20 @@
         "The bill was mocked by both parties and passed unanimously.",
         "\"Are you mocking me?\" \"A little.\""
       ],
-      "related": [
-        "tease",
-        "taunt",
-        "sneer",
-        "laugh",
-        "gloat",
-        "criticize"
-      ]
+      "senses": [],
+      "русский": "высмеивать, передразнивать — злая насмешка, обычно через подражание; переходный",
+      "register": "neutral",
+      "type": "reporting verb — ridicule",
+      "patterns": "mock + sb / sth · mock + sb + for + -ing / noun phrase · mock + sb's accent / voice / walk · + direct quotation delivered in imitation · passive be mocked for",
+      "never": "mock at someone. The verb is transitive — mocked him, not mocked at him. (Mock at was standard in older English and survives in some British writing; in American English it reads as an error.) Also no that-clause: mocked that he was scared should be mocked him for being scared.",
+      "reports": "ridicule aimed at making someone look foolish, usually by imitation. Unlike tease it is not affectionate, and unlike criticize it attacks the person rather than the choice. Mock- as a prefix (mock trial, mock-serious) means \"imitation,\" which is the same root doing honest work.",
+      "see also": "tease, taunt, sneer, laugh, gloat, criticize"
     },
     {
       "term": "mumble",
       "ipa": "/ˈmʌmbəl/",
       "respell": "MUM-buhl",
-      "type": "reporting verb — manner of speaking",
-      "register": "neutral",
-      "patterns": "mumble + direct quotation / mumble + that-clause / mumble + noun phrase (mumbled an apology) / mumble + to sb (+ that) / mumble + something about + noun / mumble (intransitive)",
-      "never": "mumble me something / mumbled me something",
-      "meaning": "Speech produced so indistinctly that the words are hard to make out — a fact about articulation, not about mood. That is what separates it from mutter, which is clear enough but resentful, and murmur, which is soft but usually warm. You can mumble a compliment.",
-      "transform": "\"Sorry, I didn't see it,\" he said, barely audibly. -> He mumbled that he hadn't seen it.",
+      "meaning": "",
       "examples": [
         "He mumbled an apology and went back to his desk.",
         "She mumbled that she'd finish it by Friday, and she did.",
@@ -675,23 +609,20 @@
         "He mumbled something to the cashier that neither of them understood.",
         "Teenagers mumble; it is not a moral failing."
       ],
-      "related": [
-        "mutter",
-        "murmur",
-        "whisper",
-        "groan"
-      ]
+      "senses": [],
+      "русский": "бормотать невнятно — о нечёткой дикции, без оттенка недовольства",
+      "register": "neutral",
+      "type": "reporting verb — manner of speaking",
+      "patterns": "mumble + direct quotation · mumble + that-clause · mumble + noun phrase (mumbled an apology) · mumble + to sb (+ that) · mumble + something about + noun · mumble (intransitive)",
+      "never": "mumble me something — no ditransitive frame. The hearer needs to: mumbled something to me, not mumbled me something.",
+      "reports": "speech produced so indistinctly that the words are hard to make out — a fact about articulation, not about mood. That is what separates it from mutter, which is clear enough but resentful, and murmur, which is soft but usually warm. You can mumble a compliment.",
+      "see also": "mutter, murmur, whisper, groan"
     },
     {
       "term": "murmur",
       "ipa": "/ˈmɜrmər/",
       "respell": "MUR-mur",
-      "type": "reporting verb — manner of speaking",
-      "register": "literary",
-      "patterns": "murmur + direct quotation / murmur + that-clause / murmur + noun phrase (murmured her name) / murmur + to sb / to oneself (+ that) / murmur (intransitive)",
-      "never": "murmur someone something / murmur at someone",
-      "meaning": "Soft, low speech, usually gentle, intimate, or approving — the warm member of the quiet-speech family. Where mutter is resentful and mumble is unclear, a murmur is deliberately quiet and perfectly articulate. There is also a collective sense: a murmur ran through the crowd, meaning a low general sound of reaction.",
-      "transform": "\"It's going to be all right,\" she said very softly. -> She murmured that it was going to be all right.",
+      "meaning": "",
       "examples": [
         "She murmured something to the nurse and squeezed his hand.",
         "The audience murmured when the lights came back up.",
@@ -700,22 +631,20 @@
         "\"Stay,\" she murmured, and he stayed.",
         "The stream murmured through the whole recording, which ruined the take."
       ],
-      "related": [
-        "mumble",
-        "mutter",
-        "whisper"
-      ]
+      "senses": [],
+      "русский": "тихо говорить, шептать ласково — книжн.; мягко и внятно, в отличие от mutter",
+      "register": "literary",
+      "type": "reporting verb — manner of speaking",
+      "patterns": "murmur + direct quotation · murmur + that-clause · murmur + noun phrase (murmured her name) · murmur + to sb / to oneself (+ that) · murmur (intransitive)",
+      "never": "murmur someone something and murmur at someone. The hearer takes to: murmured to him that it was time to go. (Murmur against — the people murmured against Moses — is a real but archaic complaining sense, biblical in flavor; do not use it for ordinary quiet speech.)",
+      "reports": "soft, low speech, usually gentle, intimate, or approving — the warm member of the quiet-speech family. Where mutter is resentful and mumble is unclear, a murmur is deliberately quiet and perfectly articulate. There is also a collective sense: a murmur ran through the crowd, meaning a low general sound of reaction.",
+      "see also": "mumble, mutter, whisper"
     },
     {
       "term": "mutter",
       "ipa": "/ˈmʌtər/",
       "respell": "MUT-er",
-      "type": "reporting verb — manner of speaking, complaint",
-      "register": "neutral",
-      "patterns": "mutter + direct quotation / mutter + that-clause / mutter + noun phrase (muttered a curse) / mutter + about + noun phrase / -ing / mutter + to sb / to oneself (+ that) / mutter (intransitive)",
-      "never": "mutter someone that",
-      "meaning": "Low, half-audible speech carrying resentment — words the speaker wants heard just enough to register and not enough to answer. That resentment is the whole difference from mumble: a mumble is unclear by accident, a mutter is quiet on purpose.",
-      "transform": "\"This is a complete waste of time,\" he said under his breath. -> He muttered that it was a complete waste of time.",
+      "meaning": "",
       "examples": [
         "He muttered something about the budget and left the room.",
         "She muttered that she'd been asking for that data since March.",
@@ -724,24 +653,20 @@
         "There was muttering in the back row for the rest of the presentation.",
         "She muttered a word her grandmother would not have approved of."
       ],
-      "related": [
-        "mumble",
-        "murmur",
-        "grumble",
-        "snap",
-        "whisper"
-      ]
+      "senses": [],
+      "русский": "бормотать себе под нос, бурчать — нарочно вполголоса и с недовольством",
+      "register": "neutral",
+      "type": "reporting verb — manner of speaking, complaint",
+      "patterns": "mutter + direct quotation · mutter + that-clause · mutter + noun phrase (muttered a curse) · mutter + about + noun phrase / -ing · mutter + to sb / to oneself (+ that) · mutter (intransitive)",
+      "never": "mutter someone that — the hearer needs to. And be careful with mutter at someone: it occurs, but it is marginal, and muttered to himself is the idiom you want for talking under your breath.",
+      "reports": "low, half-audible speech carrying resentment — words the speaker wants heard just enough to register and not enough to answer. That resentment is the whole difference from mumble: a mumble is unclear by accident, a mutter is quiet on purpose.",
+      "see also": "mumble, murmur, grumble, snap, whisper"
     },
     {
       "term": "object",
       "ipa": "/əbˈdʒɛkt/",
       "respell": "uhb-JEKT",
-      "type": "reporting verb — objection",
-      "register": "neutral to formal",
-      "patterns": "object + that-clause / object + to + noun phrase / object + to + -ing / object + to + sb('s) + -ing (objected to my leaving early) / object (intransitive) / + direct quotation",
-      "never": "object to be treated that way / object something / object against",
-      "meaning": "A stated disagreement, usually procedural or principled rather than emotional. It is the formal end of the complaining family — the courtroom verb, the meeting verb — where complain is domestic and protest is louder and more self-defensive.",
-      "transform": "\"I don't think we should vote on this today,\" she said. -> She objected to voting on it that day.",
+      "meaning": "",
       "examples": [
         "Two members objected to the wording and one objected to the whole idea.",
         "She objected that no one had seen the contract before the meeting.",
@@ -750,23 +675,21 @@
         "\"Objection,\" said the attorney, and the judge sustained it.",
         "I don't object in principle; I object to the timing."
       ],
-      "related": [
-        "protest",
-        "complain",
-        "criticize",
-        "insist"
-      ]
+      "senses": [],
+      "pronunciation note": "the verb stresses the second syllable; the noun object /ˈɑbdʒɪkt/ (AHB-jikt) stresses the first",
+      "русский": "возражать — object to + существительное или -ing (не инфинитив!); формальное несогласие",
+      "register": "neutral to formal",
+      "type": "reporting verb — objection",
+      "patterns": "object + that-clause · object + to + noun phrase · object + to + -ing · object + to + sb('s) + -ing (objected to my leaving early) · object (intransitive) · + direct quotation",
+      "never": "object to be treated that way. The to in object to is a preposition, not part of an infinitive, so what follows is an -ing form or a noun: objected to being treated that way, objected to the treatment. This is the single most common error with this verb. Also never object something and never object against — the latter is a direct import from other languages and is not English. And to here never introduces the hearer: she objected to the chairman means she found the chairman objectionable, not that she said something to him. To name the person addressed, rewrite — told the chairman she objected.",
+      "reports": "a stated disagreement, usually procedural or principled rather than emotional. It is the formal end of the complaining family — the courtroom verb, the meeting verb — where complain is domestic and protest is louder and more self-defensive.",
+      "see also": "protest, complain, criticize, insist"
     },
     {
       "term": "praise",
       "ipa": "/preɪz/",
       "respell": "PRAYZ",
-      "type": "reporting verb — praise",
-      "register": "neutral",
-      "patterns": "praise + sb / sth / praise + sb + for + -ing / noun phrase / praise + sb / sth + as + noun phrase / adjective / passive be praised for / be praised as",
-      "never": "praise someone that they did well / praise about something",
-      "meaning": "Approval expressed publicly, and unlike compliment it need not be said to the person's face or even in their hearing: the review praised the second act. It evaluates the work, where congratulate merely acknowledges the outcome.",
-      "transform": "\"She handled that better than anyone could have,\" he said. -> He praised her for her handling of it.",
+      "meaning": "",
       "examples": [
         "The inspector praised the crew for stopping work when they noticed the crack.",
         "She was praised in public and passed over in private.",
@@ -775,23 +698,20 @@
         "Faint praise is worse than none.",
         "Both papers praised the settlement as a reasonable compromise."
       ],
-      "related": [
-        "compliment",
-        "congratulate",
-        "criticize",
-        "condemn"
-      ]
+      "senses": [],
+      "русский": "хвалить, хвалебно отзываться — praise sb for sth; можно и заочно, в отличие от compliment",
+      "register": "neutral",
+      "type": "reporting verb — praise",
+      "patterns": "praise + sb / sth · praise + sb + for + -ing / noun phrase · praise + sb / sth + as + noun phrase / adjective · passive be praised for / be praised as",
+      "never": "praise someone that they did well and praise about something. No that-clause, no about. Also not praise sb on — that is compliment's and congratulate's preposition. Repairs: praised her for her handling of the crisis, praised her handling of the crisis.",
+      "reports": "approval expressed publicly, and unlike compliment it need not be said to the person's face or even in their hearing: the review praised the second act. It evaluates the work, where congratulate merely acknowledges the outcome.",
+      "see also": "compliment, congratulate, criticize, condemn"
     },
     {
       "term": "protest",
       "ipa": "/prəˈtɛst/",
       "respell": "pruh-TEST",
-      "type": "reporting verb — objection",
-      "register": "neutral",
-      "patterns": "protest + that-clause / protest + noun phrase (American) / protest + against / at + noun phrase (British) / protest + to sb (+ that) / protest + direct quotation / protest (intransitive) / protest + noun phrase (= assert: protested his innocence)",
-      "never": "protest to do something / protest someone that / protested the referee that",
-      "meaning": "A stated objection to something perceived as unjust, often self-defensive and often after the fact. \"But I didn't touch it!\" he protested is the characteristic use — the verb carries a hint that the objection may not be believed, which is why he protested his innocence is always faintly skeptical.",
-      "transform": "\"But I turned it in on Tuesday!\" he said. -> He protested that he had turned it in on Tuesday.",
+      "meaning": "",
       "examples": [
         "Students protested the tuition increase for three weeks.",
         "\"I never agreed to that,\" she protested.",
@@ -800,23 +720,22 @@
         "Thousands protested outside the statehouse in the rain.",
         "He signed it under protest and said so in writing."
       ],
-      "related": [
-        "object",
-        "complain",
-        "insist",
-        "refuse"
-      ]
+      "senses": [],
+      "pronunciation note": "the verb stresses the second syllable; the noun protest /ˈproʊtɛst/ (PROH-test) stresses the first",
+      "русский": "протестовать; возражать, оправдываясь — амер. protest sth, брит. protest against sth",
+      "register": "neutral",
+      "type": "reporting verb — objection",
+      "patterns": "protest + that-clause · protest + noun phrase (American) · protest + against / at + noun phrase (British) · protest + to sb (+ that) · protest + direct quotation · protest (intransitive) · protest + noun phrase (= assert: protested his innocence)",
+      "never": "protest to do something and protest someone that. No infinitive, and no personal object before the clause — the person addressed takes to: protested to the referee that the ball was out, never protested the referee that.",
+      "american vs. british": "American English protests things transitively — protest the war, protest the ruling, protest the layoffs. British English uses against or at — protest against the war, protested at the decision. Both are correct in their own varieties; in American writing, protest against is not wrong but is markedly less common, and protest at reads as British. The transitive use is also the standard American legal one: protested the assessment, protest a ruling.",
+      "reports": "a stated objection to something perceived as unjust, often self-defensive and often after the fact. \"But I didn't touch it!\" he protested is the characteristic use — the verb carries a hint that the objection may not be believed, which is why he protested his innocence is always faintly skeptical.",
+      "see also": "object, complain, insist, refuse"
     },
     {
       "term": "rebuke",
       "ipa": "/rɪˈbjuk/",
       "respell": "ri-BYOOK",
-      "type": "reporting verb — reproof",
-      "register": "formal",
-      "patterns": "rebuke + sb / rebuke + sb + for + -ing / noun phrase / passive be rebuked for / noun a rebuke (to sb)",
-      "never": "rebuke someone that they were late / rebuke someone to do something / rebuke at someone",
-      "meaning": "A sharp, formal reprimand delivered by someone with standing to deliver it — a court, a board, a superior. Stronger and more official than chide, less domestic than scold, and unlike criticize it is an act of authority rather than an opinion. In American news writing it most often appears in the passive or as a noun: a sharp rebuke from the bench.",
-      "transform": "\"This filing is unacceptable and you know better,\" the judge said. -> The judge rebuked the attorney for the filing.",
+      "meaning": "",
       "examples": [
         "The committee rebuked two of its own members and expelled neither.",
         "He was publicly rebuked for comments he made at a fundraiser.",
@@ -825,24 +744,20 @@
         "The letter rebuked the department in language unusual for an inspector general.",
         "A quiet rebuke from her did more than an hour of shouting from him."
       ],
-      "related": [
-        "reproach",
-        "scold",
-        "chide",
-        "condemn",
-        "criticize"
-      ]
+      "senses": [],
+      "русский": "делать выговор, порицать — книжн., офиц.; резкое замечание от вышестоящего",
+      "register": "formal",
+      "type": "reporting verb — reproof",
+      "patterns": "rebuke + sb · rebuke + sb + for + -ing / noun phrase · passive be rebuked for · noun a rebuke (to sb)",
+      "never": "rebuke someone that they were late, rebuke someone to do something, and rebuke at someone. No clause, no infinitive, no preposition before the person. Repair: rebuked him for being late.",
+      "reports": "a sharp, formal reprimand delivered by someone with standing to deliver it — a court, a board, a superior. Stronger and more official than chide, less domestic than scold, and unlike criticize it is an act of authority rather than an opinion. In American news writing it most often appears in the passive or as a noun: a sharp rebuke from the bench.",
+      "see also": "reproach, scold, chide, condemn, criticize"
     },
     {
       "term": "reproach",
       "ipa": "/rɪˈproʊtʃ/",
       "respell": "ri-PROHCH",
-      "type": "reporting verb — reproof",
-      "register": "formal, literary",
-      "patterns": "reproach + sb / reproach + sb + for + -ing / noun phrase / reproach + sb + with + noun phrase (formal) / reproach + oneself + for / passive be reproached for / noun a reproach, above reproach",
-      "never": "reproach someone that they forgot / reproach at someone",
-      "meaning": "Disappointed criticism delivered to someone you had expectations of — the hurt cousin of rebuke. Where a rebuke asserts authority, a reproach asserts a relationship, which is why she reproached him implies they knew each other and she rebuked him does not.",
-      "transform": "\"I thought you of all people would have said something,\" she said. -> She reproached him for staying quiet.",
+      "meaning": "",
       "examples": [
         "She reproached him for missing the funeral and never mentioned it again.",
         "He reproached himself for years over a decision that was never his to make.",
@@ -851,23 +766,21 @@
         "There was more sorrow than anger in the reproach.",
         "Nobody reproached the intern; everyone reproached the manager."
       ],
-      "related": [
-        "rebuke",
-        "chide",
-        "scold",
-        "blame"
-      ]
+      "senses": [],
+      "русский": "упрекать, укорять — книжн.; обиженный упрёк тому, от кого ждали большего",
+      "register": "formal, literary",
+      "type": "reporting verb — reproof",
+      "patterns": "reproach + sb · reproach + sb + for + -ing / noun phrase · reproach + sb + with + noun phrase (formal) · reproach + oneself + for · passive be reproached for · noun a reproach, above reproach",
+      "never": "reproach someone that they forgot and reproach at someone. No that-clause, no preposition before the person. Repair: reproached him for forgetting.",
+      "for vs. with": "American English uses for + -ing almost exclusively. Reproach sb with + noun (reproached him with his own words) is formal and mostly British; it survives in American legal and literary prose.",
+      "reports": "disappointed criticism delivered to someone you had expectations of — the hurt cousin of rebuke. Where a rebuke asserts authority, a reproach asserts a relationship, which is why she reproached him implies they knew each other and she rebuked him does not.",
+      "see also": "rebuke, chide, scold, blame"
     },
     {
       "term": "scold",
       "ipa": "/skoʊld/",
       "respell": "SKOHLD",
-      "type": "reporting verb — reproof",
-      "register": "neutral to informal",
-      "patterns": "scold + sb / scold + sb + for + -ing / noun phrase / + direct quotation (\"Not on the couch,\" she scolded) / passive be scolded for",
-      "never": "scold someone that they did it / scold someone to do something / scold at someone",
-      "meaning": "An angry telling-off, prototypically an adult to a child. Using it of two adults is a deliberate move — she scolded her colleague makes the colleague sound infantilized, which is sometimes exactly the point and is a well-known trap in reporting on women in public life.",
-      "transform": "\"How many times have I told you not to slam that door?\" -> She scolded him for slamming the door.",
+      "meaning": "",
       "examples": [
         "She scolded the dog, who was unmoved.",
         "He was scolded by a stranger for parking across two spaces.",
@@ -876,24 +789,20 @@
         "My grandmother scolded me in two languages, for emphasis.",
         "Nobody likes being scolded by a machine, which is why the warning gets ignored."
       ],
-      "related": [
-        "chide",
-        "rebuke",
-        "reproach",
-        "snap",
-        "yell"
-      ]
+      "senses": [],
+      "русский": "ругать, отчитывать — сердитая выволочка, обычно взрослого ребёнку",
+      "register": "neutral to informal",
+      "type": "reporting verb — reproof",
+      "patterns": "scold + sb · scold + sb + for + -ing / noun phrase · + direct quotation (\"Not on the couch,\" she scolded) · passive be scolded for",
+      "never": "scold someone that they did it, scold someone to do something, and scold at someone. Repairs: scolded him for doing it, told him not to do it.",
+      "reports": "an angry telling-off, prototypically an adult to a child. Using it of two adults is a deliberate move — she scolded her colleague makes the colleague sound infantilized, which is sometimes exactly the point and is a well-known trap in reporting on women in public life.",
+      "see also": "chide, rebuke, reproach, snap, yell"
     },
     {
       "term": "shout",
       "ipa": "/ʃaʊt/",
       "respell": "SHOWT",
-      "type": "reporting verb — manner of speaking",
-      "register": "neutral",
-      "patterns": "shout + direct quotation / shout + that-clause / shout + wh-clause / shout + noun phrase (shouted an order) / shout + at sb / shout + to sb / shout + at/to sb + to-infinitive / shout (intransitive)",
-      "never": "shout someone that / shout someone something / shouted me that",
-      "meaning": "Loud speech. Unlike yell it is not necessarily angry, and unlike cry it carries no literary flavor.",
-      "transform": "\"The bridge is out!\" he said at the top of his voice. -> He shouted that the bridge was out.",
+      "meaning": "Don't shout at me is about tone; I shouted to him across the lot is about acoustics. Learners who use at for both come across as describing a fight.",
       "examples": [
         "Someone shouted that the elevator was stuck between floors.",
         "He shouted to her across the parking lot and she didn't hear him.",
@@ -902,24 +811,22 @@
         "He shouted a warning about half a second before the shelf came down.",
         "They shouted until they were hoarse and the vote went the other way anyway."
       ],
-      "related": [
-        "yell",
-        "cry",
-        "exclaim",
-        "snap",
-        "whisper"
-      ]
+      "senses": [],
+      "русский": "кричать — shout at sb = сердито на кого-то, shout to sb = чтобы услышали издалека",
+      "register": "neutral",
+      "type": "reporting verb — manner of speaking",
+      "patterns": "shout + direct quotation · shout + that-clause · shout + wh-clause · shout + noun phrase (shouted an order) · shout + at sb · shout + to sb · shout + at/to sb + to-infinitive · shout (intransitive)",
+      "never": "shout someone that and shout someone something. The hearer always takes a preposition: shouted to me that the gate was closing, not shouted me that.",
+      "at vs. to — this is the whole verb": "",
+      "commands": "shout at/to sb + to-infinitive is the standard way to report a shouted order — shouted at us to get back, and see Reported commands, requests, and advice.",
+      "reports": "loud speech. Unlike yell it is not necessarily angry, and unlike cry it carries no literary flavor.",
+      "see also": "yell, cry, exclaim, snap, whisper"
     },
     {
       "term": "sigh",
       "ipa": "/saɪ/",
       "respell": "SY",
-      "type": "reporting verb — manner of speaking",
-      "register": "neutral",
-      "patterns": "sigh (intransitive) / sigh + direct quotation / sigh + that-clause (fiction) / sigh + over / about + noun phrase / -ing / sigh + for + noun phrase (literary, = long for) / noun a sigh, with a sigh",
-      "never": "sigh someone / sigh someone that",
-      "meaning": "Resignation, weariness, or relief expressed as breath. As a reporting verb it tells you the speaker had given up, not what act was performed.",
-      "transform": "\"All right, I'll do it myself,\" she said wearily. -> She sighed that she would do it herself. / She said with a sigh that she would do it herself.",
+      "meaning": "",
       "examples": [
         "She sighed, looked at the clock, and opened the file again.",
         "\"There's nothing else to try,\" he sighed.",
@@ -928,23 +835,22 @@
         "The whole room sighed with relief when the numbers came up green.",
         "She sighed that she'd been through three of these reorganizations already."
       ],
-      "related": [
-        "groan",
-        "moan",
-        "laugh",
-        "grumble"
-      ]
+      "senses": [],
+      "pronunciation note": "the gh is silent",
+      "русский": "вздыхать, со вздохом произнести — о смирении, усталости или облегчении",
+      "register": "neutral",
+      "type": "reporting verb — manner of speaking",
+      "patterns": "sigh (intransitive) · sigh + direct quotation · sigh + that-clause (fiction) · sigh + over / about + noun phrase / -ing · sigh + for + noun phrase (literary, = long for) · noun a sigh, with a sigh",
+      "never": "sigh someone and sigh someone that. There is no object frame at all beyond the cognate object (sighed a long sigh), which reports no speech, and no personal object: if the hearer matters, write said to me with a sigh.",
+      "the honest note": "you cannot physically produce a sentence while sighing, and copy editors have been striking \"Fine,\" she sighed out of manuscripts for a century. It has not worked. The construction is standard in published fiction and perfectly clear, and she sighed that she'd try again tomorrow appears in reputable journalism. In formal nonfiction, use said with a sigh; everywhere else, use it and stop worrying.",
+      "reports": "resignation, weariness, or relief expressed as breath. As a reporting verb it tells you the speaker had given up, not what act was performed.",
+      "see also": "groan, moan, laugh, grumble"
     },
     {
       "term": "snap",
       "ipa": "/snæp/",
       "respell": "SNAP",
-      "type": "reporting verb — manner of speaking, irritation",
-      "register": "neutral to informal",
-      "patterns": "snap + direct quotation / snap + that-clause / snap + at sb / snap + at sb + to-infinitive (snapped at him to sit down) / snap (intransitive, = lose one's temper)",
-      "never": "snap someone / snap someone that / snap to someone",
-      "meaning": "A short, sharp, irritated reply — brevity is the whole point. A snapped remark is one sentence, delivered in a tone that ends the exchange. Compare mutter, which is resentful but quiet, and yell, which is loud but not necessarily short.",
-      "transform": "\"I said I'd handle it,\" she said sharply. -> She snapped that she had said she'd handle it.",
+      "meaning": "",
       "examples": [
         "\"I'm not asking again,\" he snapped.",
         "She snapped that she'd sent the file twice already.",
@@ -953,24 +859,21 @@
         "She almost never snaps, which is why it registered.",
         "He snapped after the third schedule change and walked out."
       ],
-      "related": [
-        "yell",
-        "growl",
-        "mutter",
-        "scold",
-        "shout"
-      ]
+      "senses": [],
+      "русский": "огрызнуться, резко бросить — разг.; короткая раздражённая реплика, snap at sb",
+      "register": "neutral to informal",
+      "type": "reporting verb — manner of speaking, irritation",
+      "patterns": "snap + direct quotation · snap + that-clause · snap + at sb · snap + at sb + to-infinitive (snapped at him to sit down) · snap (intransitive, = lose one's temper)",
+      "never": "snap someone, snap someone that, and snap to someone in this sense. The target takes at and nothing else: snapped at me. (Snap to it exists, but that is a different idiom meaning \"hurry up.\")",
+      "spelling": "doubles the p — snapped, snapping.",
+      "reports": "a short, sharp, irritated reply — brevity is the whole point. A snapped remark is one sentence, delivered in a tone that ends the exchange. Compare mutter, which is resentful but quiet, and yell, which is loud but not necessarily short.",
+      "see also": "yell, growl, mutter, scold, shout"
     },
     {
       "term": "sneer",
       "ipa": "/snɪr/",
       "respell": "SNEER",
-      "type": "reporting verb — contempt, manner of speaking",
-      "register": "literary, journalistic — disapproving",
-      "patterns": "sneer (intransitive) / sneer + at + sb / sth / sneer + that-clause / + direct quotation (\"Nice try,\" he sneered) / noun a sneer, adjective sneering",
-      "never": "sneer someone / sneer someone that / sneer to someone / sneer about something",
-      "meaning": "Contempt carried in the voice or the face — a remark delivered as though the thing said were beneath the speaker. Like whine, it is the reporter's verdict rather than a neutral description: he sneered that the plan wouldn't work instructs the reader to dislike him, and a fair report writes said dismissively instead. Compare mock, which works by imitation, and taunt, which works by provocation; a sneer needs no audience beyond the person it dismisses.",
-      "transform": "\"That's the best you could do?\" he said, with his lip curled. -> He sneered at my draft.",
+      "meaning": "",
       "examples": [
         "He sneered at the suggestion that anyone had asked his opinion.",
         "She sneered that the report had been written by someone who had never seen the site.",
@@ -979,24 +882,20 @@
         "There was a sneer in his voice that the transcript does not record.",
         "Don't sneer — half of that code is still running in production."
       ],
-      "related": [
-        "mock",
-        "taunt",
-        "gloat",
-        "laugh",
-        "snap"
-      ]
+      "senses": [],
+      "русский": "презрительно усмехаться, глумиться — книжн., неодобр.; только sneer at, без to",
+      "register": "literary, journalistic — disapproving",
+      "type": "reporting verb — contempt, manner of speaking",
+      "patterns": "sneer (intransitive) · sneer + at + sb / sth · sneer + that-clause · + direct quotation (\"Nice try,\" he sneered) · noun a sneer, adjective sneering",
+      "never": "sneer someone, sneer someone that, sneer to someone, and sneer about something. The verb reaches its target only through at, and that target is the thing despised, not the hearer: sneered at the suggestion, sneered at me. Unlike whisper and mutter, it has no to frame at all, so the person spoken to cannot be named inside the verb — write said to me with a sneer.",
+      "reports": "contempt carried in the voice or the face — a remark delivered as though the thing said were beneath the speaker. Like whine, it is the reporter's verdict rather than a neutral description: he sneered that the plan wouldn't work instructs the reader to dislike him, and a fair report writes said dismissively instead. Compare mock, which works by imitation, and taunt, which works by provocation; a sneer needs no audience beyond the person it dismisses.",
+      "see also": "mock, taunt, gloat, laugh, snap"
     },
     {
       "term": "taunt",
       "ipa": "/tɔnt/",
       "respell": "TAWNT",
-      "type": "reporting verb — ridicule",
-      "register": "neutral",
-      "patterns": "taunt + sb / taunt + sb + about + noun phrase / -ing / taunt + sb + with + noun phrase / taunt + sb + for + -ing (less common than about) / + direct quotation (\"Can't catch me,\" he taunted) / passive be taunted about / with / noun a taunt",
-      "never": "taunt at someone / taunt someone that",
-      "meaning": "Repeated, provoking mockery meant to get a reaction — the playground and the sideline verb. Mock makes someone look foolish; a taunt is designed to make them respond, which is why it is the word used for what starts fights.",
-      "transform": "\"Zero for four! Zero for four!\" the fans said, over and over. -> The fans taunted him about going zero for four.",
+      "meaning": "",
       "examples": [
         "He taunted the goalie for the entire third period.",
         "She taunted him about the bet until he doubled it.",
@@ -1005,24 +904,20 @@
         "They taunted each other cheerfully for an hour and left as friends.",
         "He was taunted with a nickname he'd been given in the seventh grade."
       ],
-      "related": [
-        "mock",
-        "tease",
-        "sneer",
-        "gloat",
-        "crow"
-      ]
+      "senses": [],
+      "русский": "дразнить, задирать — насмешки, чтобы вывести из себя; переходный, без предлога",
+      "register": "neutral",
+      "type": "reporting verb — ridicule",
+      "patterns": "taunt + sb · taunt + sb + about + noun phrase / -ing · taunt + sb + with + noun phrase · taunt + sb + for + -ing (less common than about) · + direct quotation (\"Can't catch me,\" he taunted) · passive be taunted about / with · noun a taunt",
+      "never": "taunt at someone and taunt someone that. The verb is transitive. Repair: taunted him about the score.",
+      "reports": "repeated, provoking mockery meant to get a reaction — the playground and the sideline verb. Mock makes someone look foolish; a taunt is designed to make them respond, which is why it is the word used for what starts fights.",
+      "see also": "mock, tease, sneer, gloat, crow"
     },
     {
       "term": "tease",
       "ipa": "/tiz/",
       "respell": "TEEZ",
-      "type": "reporting verb — light ridicule",
-      "register": "neutral to informal",
-      "patterns": "tease + sb / tease + sb + about + noun phrase / -ing / tease + sb + for + -ing / tease + sb + into / out of + -ing / + direct quotation / passive be teased about",
-      "never": "tease at someone / tease someone that",
-      "meaning": "Joking at someone's expense, usually affectionately and usually between people who like each other. That affection is the whole difference from mock and taunt; I was only teasing is the standard American repair when the affection did not come through.",
-      "transform": "\"Nice haircut. Did you lose a bet?\" -> She teased him about his haircut.",
+      "meaning": "",
       "examples": [
         "His sisters teased him about the truck for twenty years.",
         "She teased me for alphabetizing the spice rack.",
@@ -1031,24 +926,21 @@
         "She teased him into trying the karaoke machine.",
         "There's a line between teasing and something else, and it moves depending on who's laughing."
       ],
-      "related": [
-        "joke",
-        "mock",
-        "taunt",
-        "laugh",
-        "chide"
-      ]
+      "senses": [],
+      "русский": "поддразнивать, подшучивать — обычно беззлобно, между своими; tease sb about sth",
+      "register": "neutral to informal",
+      "type": "reporting verb — light ridicule",
+      "patterns": "tease + sb · tease + sb + about + noun phrase / -ing · tease + sb + for + -ing · tease + sb + into / out of + -ing · + direct quotation · passive be teased about",
+      "never": "tease at someone and tease someone that. Repair: teased him about his tie.",
+      "about vs. for": "about is the default and the friendlier one; for leans toward blame — teased him about his accent is affectionate, teased him for losing again has an edge.",
+      "reports": "joking at someone's expense, usually affectionately and usually between people who like each other. That affection is the whole difference from mock and taunt; I was only teasing is the standard American repair when the affection did not come through.",
+      "see also": "joke, mock, taunt, laugh, chide"
     },
     {
       "term": "thank",
       "ipa": "/θæŋk/",
       "respell": "THANK",
-      "type": "reporting verb — thanks",
-      "register": "neutral",
-      "patterns": "thank + sb / thank + sb + for + noun phrase / thank + sb + for + -ing / thank + sb + for + having done sth / passive be thanked for / fixed idiom I'll thank you to + verb (= a sharp request, not a thanks)",
-      "never": "thank to someone / thank someone that they came / thank someone of something / thanked to me / thanked me that I came",
-      "meaning": "An expression of gratitude. This is the verb that turns \"Thank you so much for coming\" into a single reported clause, and the for + -ing frame is the most reliably useful pattern in this whole file.",
-      "transform": "\"Thank you for covering my shift,\" he said. -> He thanked me for covering his shift.",
+      "meaning": "",
       "examples": [
         "She thanked every member of the crew by name.",
         "He thanked me for the ride and I hadn't even offered yet.",
@@ -1057,23 +949,23 @@
         "Don't thank me — thank the person who caught it in review.",
         "She thanked him for his honesty in a tone that suggested otherwise."
       ],
-      "related": [
-        "apologize",
-        "congratulate",
-        "compliment",
-        "praise"
-      ]
+      "senses": [],
+      "pronunciation note": "voiceless th, as in thin",
+      "русский": "благодарить — thank sb for sth: человек прямым дополнением, повод через for",
+      "register": "neutral",
+      "type": "reporting verb — thanks",
+      "patterns": "thank + sb · thank + sb + for + noun phrase · thank + sb + for + -ing · thank + sb + for + having done sth · passive be thanked for · fixed idiom I'll thank you to + verb (= a sharp request, not a thanks)",
+      "never": "thank to someone, thank someone that they came, and thank someone of something. The verb takes the person directly and the reason through for: thanked me for coming, not thanked to me and not thanked me that I came. (Thanks to exists as a prepositional phrase meaning \"because of\" — thanks to the rain, we canceled — and is a different construction entirely.)",
+      "two look-alikes that are not counterexamples": "Thank God that nobody was hurt is a fixed exclamation, not the reporting verb, and the that-clause belongs to that idiom alone and licenses nothing else, so still never thanked her that she came. And I'll thank you to mind your own business is an infinitive after a frozen idiom meaning \"kindly do it,\" not a thank + to-infinitive frame; you cannot say thanked him to help.",
+      "perfect for a past favor": "thanked her for having covered his shift is available but unnecessary; plain -ing already covers finished action — thanked her for covering his shift.",
+      "reports": "an expression of gratitude. This is the verb that turns \"Thank you so much for coming\" into a single reported clause, and the for + -ing frame is the most reliably useful pattern in this whole file.",
+      "see also": "apologize, congratulate, compliment, praise"
     },
     {
       "term": "whine",
       "ipa": "/waɪn/",
       "respell": "WYNE",
-      "type": "reporting verb — complaint",
-      "register": "informal, disapproving",
-      "patterns": "whine + that-clause / whine + about + noun phrase / -ing / whine + to sb + about / that / whine + at + sb / sth (literal noise: whined at the door) / whine + direct quotation / whine (intransitive)",
-      "never": "whine someone / whine something / whined me about the seat",
-      "meaning": "Complaining in a high, drawn-out, childish tone — and, crucially, the reporter's verdict that the complaint is unwarranted. There is no neutral use. He complained that the shift was unsafe takes the complaint seriously; He whined that the shift was unsafe dismisses it, which makes this a verb to choose deliberately and never by accident in a report you want read as fair.",
-      "transform": "\"Why do I always have to be the one to close?\" -> He whined about always having to close.",
+      "meaning": "",
       "examples": [
         "He whined about the seating chart until they moved him.",
         "She whined that nobody had told her, though the email was in her inbox.",
@@ -1082,23 +974,22 @@
         "Calling it whining was how the complaint got buried.",
         "There's a difference between raising an issue and whining, and it is mostly tone."
       ],
-      "related": [
-        "complain",
-        "gripe",
-        "grumble",
-        "moan"
-      ]
+      "senses": [],
+      "pronunciation note": "some American speakers keep an /hw/ onset, HWYNE",
+      "русский": "ныть, канючить — разг., неодобр.; жаловаться плаксиво; всегда оценка рассказчика",
+      "register": "informal, disapproving",
+      "type": "reporting verb — complaint",
+      "patterns": "whine + that-clause · whine + about + noun phrase / -ing · whine + to sb + about / that · whine + at + sb / sth (literal noise: whined at the door) · whine + direct quotation · whine (intransitive)",
+      "never": "whine someone and whine something. No object without a preposition, and no personal object: whined me about the seat should be whined to me about the seat.",
+      "reports": "complaining in a high, drawn-out, childish tone — and, crucially, the reporter's verdict that the complaint is unwarranted. There is no neutral use. He complained that the shift was unsafe takes the complaint seriously; He whined that the shift was unsafe dismisses it, which makes this a verb to choose deliberately and never by accident in a report you want read as fair.",
+      "homophone": "identical to wine for most Americans.",
+      "see also": "complain, gripe, grumble, moan"
     },
     {
       "term": "whisper",
       "ipa": "/ˈwɪspər/",
       "respell": "WIS-per",
-      "type": "reporting verb — manner of speaking",
-      "register": "neutral",
-      "patterns": "whisper + direct quotation / whisper + that-clause / whisper + wh-clause / whisper + noun phrase (whispered a name) / whisper + to sb + that / whisper + to sb + to-infinitive (whispered to me to wait) / whisper (intransitive) / passive it is whispered that (= rumor)",
-      "never": "whisper someone that / whisper someone something / whispered me that",
-      "meaning": "Speech with no voicing behind it, produced quietly on purpose — for secrecy, for intimacy, or because the room requires it. It is the manner verb that most freely takes a that-clause; nobody objects to she whispered that she'd be right back.",
-      "transform": "\"Don't look now, but he's right behind you,\" she said very quietly. -> She whispered that he was right behind me.",
+      "meaning": "",
       "examples": [
         "She whispered something to the bailiff and the judge called a recess.",
         "He whispered that the second door was unlocked.",
@@ -1107,23 +998,22 @@
         "The kids whispered through the entire ceremony.",
         "He whispered a name I didn't catch and everyone else clearly did."
       ],
-      "related": [
-        "murmur",
-        "mutter",
-        "mumble",
-        "shout"
-      ]
+      "senses": [],
+      "pronunciation note": "the h is silent",
+      "русский": "шептать, шепнуть — whisper to sb that…; пассив it is whispered that = ходят слухи",
+      "register": "neutral",
+      "type": "reporting verb — manner of speaking",
+      "patterns": "whisper + direct quotation · whisper + that-clause · whisper + wh-clause · whisper + noun phrase (whispered a name) · whisper + to sb + that · whisper + to sb + to-infinitive (whispered to me to wait) · whisper (intransitive) · passive it is whispered that (= rumor)",
+      "never": "whisper someone that and whisper someone something. The hearer takes to: whispered to me that the boss was behind us, not whispered me that.",
+      "the rumor passive": "It was whispered that the deal had already been signed is a live and useful construction — the passive with no agent is exactly how you report something everyone was saying and nobody would say on the record. See Special cases for the impersonal passive report generally.",
+      "reports": "speech with no voicing behind it, produced quietly on purpose — for secrecy, for intimacy, or because the room requires it. It is the manner verb that most freely takes a that-clause; nobody objects to she whispered that she'd be right back.",
+      "see also": "murmur, mutter, mumble, shout"
     },
     {
       "term": "yell",
       "ipa": "/jɛl/",
       "respell": "YEL",
-      "type": "reporting verb — manner of speaking",
-      "register": "informal",
-      "patterns": "yell + direct quotation / yell + that-clause / yell + wh-clause / yell + noun phrase (yelled a warning) / yell + at sb / yell + to sb / yell + at / to sb + to-infinitive / yell (intransitive)",
-      "never": "yell someone that / yell someone something",
-      "meaning": "Loud, usually angry speech. More informal and more emotional than shout — a coach shouts instructions and yells at a referee.",
-      "transform": "\"Slow down! You're going to miss the turn!\" -> She yelled at me to slow down.",
+      "meaning": "",
       "examples": [
         "Somebody yelled that the last train was already on the platform.",
         "She yelled to him from the top of the stairs and he never heard her.",
@@ -1132,12 +1022,15 @@
         "He yelled until his voice gave out at the third quarter.",
         "\"Nobody's yelling,\" she said, yelling slightly."
       ],
-      "related": [
-        "shout",
-        "scold",
-        "snap",
-        "cry"
-      ]
+      "senses": [],
+      "русский": "орать, вопить — разг.; yell at sb = сердито на кого-то, yell to sb = издалека",
+      "register": "informal",
+      "type": "reporting verb — manner of speaking",
+      "patterns": "yell + direct quotation · yell + that-clause · yell + wh-clause · yell + noun phrase (yelled a warning) · yell + at sb · yell + to sb · yell + at / to sb + to-infinitive · yell (intransitive)",
+      "never": "yell someone that and yell someone something. As with shout, the hearer needs a preposition: yelled at me to slow down.",
+      "at vs. to": "the same split as shout — yell at someone is anger, yell to someone is distance. He yelled at me means I was in trouble; he yelled to me means he was far away. Note that get yelled at is the ordinary American way to say you were reprimanded, and it says nothing about actual volume: I got yelled at for the expense report may describe a quiet conversation.",
+      "reports": "loud, usually angry speech. More informal and more emotional than shout — a coach shouts instructions and yells at a referee.",
+      "see also": "shout, scold, snap, cry"
     }
   ]
 }

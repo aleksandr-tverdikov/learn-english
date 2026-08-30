@@ -15,6 +15,7 @@ The ten single-word subordinators that carry most of the traffic. Every one of t
 ### after
 
 **Pronunciation:** /ˈæftər/ &middot; *AF-ter*
+**Русский:** после того как — событие главного предложения следует за событием придаточного
 **Type:** subordinating &middot; **Register:** neutral
 **Clause type:** adverbial clause of time (the same word is also a preposition and an adverb)
 **Pattern:** *After* [clause], [main clause]. &middot; [main clause] *after* [clause]. &middot; [main clause] [measure phrase] *after* [clause] (*ten minutes after everyone left*). &middot; *Just / right / soon / shortly / long after* [clause], [main clause].
@@ -35,6 +36,7 @@ Marks the main clause event as following the *after* clause event. With a clause
 ### as
 
 **Pronunciation:** /æz/ &middot; *AZ*; weak form /əz/ &middot; *uhz*
+**Русский:** по мере того как, когда — два действия идут параллельно; тот же союз значит и «так как»
 **Type:** subordinating &middot; **Register:** neutral
 **Clause type:** adverbial clause of time (the same word also builds clauses of cause, manner, comparison, and concession, and works as a preposition)
 **Pattern:** *As* [clause], [main clause]. &middot; [main clause] *as* [clause]. &middot; *Just as* [clause], [main clause].
@@ -55,6 +57,7 @@ Sets two events side by side in time, usually with a sense that they unfold toge
 ### before
 
 **Pronunciation:** /bɪˈfɔr/ &middot; *bih-FOR*; weak /bəˈfɔr/
+**Русский:** прежде чем, до того как — зеркало after: главное событие предшествует придаточному
 **Type:** subordinating &middot; **Register:** neutral
 **Clause type:** adverbial clause of time (the same word is also a preposition and an adverb)
 **Pattern:** *Before* [clause], [main clause]. &middot; [main clause] *before* [clause]. &middot; It was [measure phrase] *before* [clause] (*a good ten minutes before anybody spoke*). &middot; *Just / right / shortly / long before* [clause], [main clause].
@@ -75,6 +78,7 @@ The exact mirror of *after*: the main clause event precedes the *before* clause 
 ### once
 
 **Pronunciation:** /wʌns/ &middot; *WUNSS*
+**Русский:** как только, раз уж — с момента, когда порог пройден, и дальше он остаётся пройденным
 **Type:** subordinating &middot; **Register:** neutral
 **Clause type:** adverbial clause of time (the same word is separately an adverb, and that is its commoner job — *I met him once*, *the once-great franchise*)
 **Pattern:** *Once* [clause], [main clause]. &middot; [main clause] *once* [clause]. &middot; *Once* [past participle or adjective phrase], [main clause] (reduced clause: *once installed*, *once cool enough to handle*).
@@ -96,6 +100,7 @@ Means "from the moment that," with the added sense that the event is a threshold
 ### since
 
 **Pronunciation:** /sɪns/ &middot; *SINSS*
+**Русский:** с тех пор как — начало отрезка, длящегося до сих пор; в главном требует перфекта
 **Type:** subordinating &middot; **Register:** neutral
 **Clause type:** adverbial clause of time (the same word also builds clauses of cause, and works as a preposition and an adverb)
 **Pattern:** *Since* [clause], [main clause with a perfect tense]. &middot; [main clause with a perfect tense] *since* [clause]. &middot; *Ever since* [clause], [main clause].
@@ -116,6 +121,7 @@ Marks the start of a stretch that runs up to now, which is why the main clause a
 ### till
 
 **Pronunciation:** /tɪl/ &middot; *TIL*; weak /təl/
+**Русский:** пока не, до тех пор пока — то же, что until, но разг. и не в начале фразы
 **Type:** subordinating &middot; **Register:** neutral to informal
 **Clause type:** adverbial clause of time (the same word is also a preposition: *till Friday*, *till noon*)
 **Pattern:** *Till* [clause], [main clause]. &middot; [main clause] *till* [clause]. &middot; [negative main clause] *till* [clause].
@@ -137,6 +143,7 @@ Means exactly what *until* means, and takes a clause or a noun phrase for the sa
 ### until
 
 **Pronunciation:** /ənˈtɪl/ &middot; *un-TIL*; also /ʌnˈtɪl/
+**Русский:** пока не, до тех пор пока — конечная точка длящейся ситуации; not … until = «только в»
 **Type:** subordinating &middot; **Register:** neutral
 **Clause type:** adverbial clause of time (the same word is also a preposition: *until noon*)
 **Pattern:** *Until* [clause], [main clause]. &middot; [main clause] *until* [clause]. &middot; [negative main clause] *until* [clause].
@@ -157,6 +164,7 @@ Marks the endpoint of a situation that continues up to it. In front of a clause 
 ### when
 
 **Pronunciation:** /wɛn/ &middot; *WEN*; weak /wən/. Some Southern and older speakers keep the older /ʍɛn/ &middot; *HWEN*.
+**Русский:** когда — основной временной союз: указывает на момент, а не на отрезок
 **Type:** subordinating &middot; **Register:** neutral
 **Clause type:** adverbial clause of time (the same word also introduces noun clauses and relative clauses — *I know when he left*, *the year when we moved* — and is the interrogative adverb in questions: *When did you leave?*)
 **Pattern:** *When* [clause], [main clause]. &middot; [main clause] *when* [clause]. &middot; *when* + [-ing form or past participle] (reduced clause: *when finished*, *when driving*).
@@ -177,6 +185,7 @@ The default time subordinator: it puts the main clause at the point named by the
 ### whenever
 
 **Pronunciation:** /wɛnˈɛvər/ &middot; *wen-EV-er*; weak /wənˈɛvər/
+**Русский:** всякий раз когда; когда угодно — повторяемость или безразличие ко времени
 **Type:** subordinating &middot; **Register:** neutral
 **Clause type:** adverbial clause of time (also concessive, "no matter when")
 **Pattern:** *Whenever* [clause], [main clause]. &middot; [main clause] *whenever* [clause].
@@ -197,6 +206,7 @@ Means "every time that" or "at whatever time," where *when* means "at that one t
 ### while
 
 **Pronunciation:** /waɪl/ &middot; *WYLE*; some speakers /ʍaɪl/ &middot; *HWYLE*
+**Русский:** пока, в то время как — на протяжении отрезка; также «тогда как» (противопоставление)
 **Type:** subordinating &middot; **Register:** neutral
 **Clause type:** adverbial clause of time (the same word also builds clauses of contrast and of concession, and is separately a noun and a verb)
 **Pattern:** *While* [clause], [main clause]. &middot; [main clause] *while* [clause]. &middot; *while* + [-ing form, past participle, adjective phrase, or prepositional phrase] (reduced clause).
@@ -221,6 +231,7 @@ Multi-word connectors, most of them built on a time noun (*the moment*, *by the 
 ### after which
 
 **Pronunciation:** /ˈæftər wɪtʃ/ &middot; *AF-ter-WICH*; *which* is /ʍɪtʃ/ &middot; *HWICH* for speakers who keep the *wh*
+**Русский:** после чего — относительный оборот, отсылает ко всему сказанному; только в конце фразы
 **Type:** subordinating (connective relative) &middot; **Register:** neutral to formal
 **Clause type:** adverbial relative clause of time, always non-restrictive; the relative *which* points back at the whole preceding clause rather than at any single noun
 **Pattern:** [main clause], *after which* [clause]. &middot; [long main clause]; *after which* [clause]. &middot; [main clause], *after which* [clause], [continuation]. &middot; There is no fronted skeleton — *After which* [clause], [main clause] is not a sentence.
@@ -241,6 +252,7 @@ The plain modern way to keep a narrative moving without starting a new sentence:
 ### any time
 
 **Pronunciation:** /ˈɛni ˌtaɪm/ &middot; *EN-ee-time*
+**Русский:** в любое время когда, всякий раз когда — как whenever, но с оттенком разрешения
 **Type:** subordinating (phrasal) &middot; **Register:** neutral
 **Clause type:** adverbial clause of time
 **Pattern:** *Any time* [clause], [main clause]. &middot; [main clause] *any time* [clause]. &middot; *Any time that* [clause], [main clause]. &middot; [main clause] *any time that* [clause].
@@ -261,6 +273,7 @@ A near-synonym of *whenever* with a permissive edge: *any time you need help* of
 ### as long as
 
 **Pronunciation:** /æz ˈlɔŋ æz/ &middot; *az-LAWNG-az*; reduced /əz ˈlɔŋ əz/ &middot; *uhz-LAWNG-uhz*
+**Русский:** пока, всё то время что; при условии что — время или условие, решает контекст
 **Type:** subordinating (phrasal) &middot; **Register:** neutral
 **Clause type:** adverbial clause of time (the same phrase also builds clauses of condition)
 **Pattern:** *As long as* [clause], [main clause]. &middot; [main clause] *as long as* [clause]. &middot; [main clause] *for as long as* [clause]. &middot; *So long as* [clause], [main clause].
@@ -281,6 +294,7 @@ In the time sense it means "throughout the whole period that": the main clause h
 ### as often as
 
 **Pronunciation:** /æz ˈɔfən æz/ &middot; *az-AWF-un-az*; reduced /əz ˈɔfən əz/ &middot; *uhz-AWF-un-uhz*; many speakers have /ˈɑfən/ with the cot–caught merger, and the *t* is silent for nearly all of them — the spelling pronunciation /ˈɔftən/ &middot; *AWF-tun* is a minority form and not the default
+**Русский:** всякий раз когда, столько раз сколько — частотность, часто с оттенком «уж сколько раз»
 **Type:** subordinating (phrasal) &middot; **Register:** neutral
 **Clause type:** adverbial clause of time (frequency)
 **Pattern:** *As often as* [clause], [main clause]. &middot; [main clause] *as often as* [clause]. &middot; [main clause] *as often as* [noun phrase] (comparison — a different construction).
@@ -301,6 +315,7 @@ The frequency member of the family: it counts the occasions the way *every time*
 ### as soon as
 
 **Pronunciation:** /æz ˈsun æz/ &middot; *az-SOON-az*; reduced /əz ˈsun əz/, often collapsing to /əˈsunəz/ &middot; *uh-SOO-nuhz*
+**Русский:** как только — сразу вслед за событием, без промежутка
 **Type:** subordinating (phrasal) &middot; **Register:** neutral
 **Clause type:** adverbial clause of time
 **Pattern:** *As soon as* [clause], [main clause]. &middot; [main clause] *as soon as* [clause].
@@ -321,6 +336,7 @@ Says the main clause happens immediately after the clause event, with no gap in 
 ### at such time as
 
 **Pronunciation:** /æt sʌtʃ ˈtaɪm əz/ &middot; *at-such-TIME-uhz*; *at* reduces to /ət/ and the final *as* rarely carries stress
+**Русский:** юр. в тот момент, когда — канцелярское «когда» с намеренно неизвестной датой
 **Type:** subordinating (phrasal) &middot; **Register:** formal (legal and bureaucratic)
 **Clause type:** adverbial clause of time
 **Pattern:** *At such time as* [clause], [main clause]. &middot; [main clause] *at such time as* [clause]. &middot; [subject] *shall* [verb] *at such time as* [clause].
@@ -341,6 +357,7 @@ Says the main clause happens immediately after the clause event, with no gap in 
 ### at which time
 
 **Pronunciation:** /æt wɪtʃ ˈtaɪm/ &middot; *at-wich-TIME*; *at* reduces to /ət/
+**Русский:** и тогда, в этот момент — книжн./канц.; второе событие приходится ровно на тот момент
 **Type:** subordinating (connective relative) &middot; **Register:** neutral to formal
 **Clause type:** adverbial relative clause of time, always non-restrictive; *which* points back at the whole preceding clause or at a date named in it
 **Pattern:** [main clause], *at which time* [clause]. &middot; [long main clause]; *at which time* [clause]. &middot; [main clause], *at which point* [clause] (the everyday variant). &middot; No fronted skeleton — the clause cannot open a sentence.
@@ -361,6 +378,7 @@ The plain-prose replacement for *whereupon*: it drops the second event onto exac
 ### by the time
 
 **Pronunciation:** /baɪ ðə ˈtaɪm/ &middot; *by-thuh-TIME*
+**Русский:** к тому времени как — тянет в главное предложение перфект (had left, will have landed)
 **Type:** subordinating (phrasal) &middot; **Register:** neutral
 **Clause type:** adverbial clause of time
 **Pattern:** *By the time* [clause], [main clause with *had* + past participle]. &middot; *By the time* [clause], [main clause with *will have* + past participle]. &middot; [main clause] *by the time* [clause].
@@ -381,6 +399,7 @@ Means "at or before the moment when," and it pulls a perfect tense into the main
 ### by which time
 
 **Pronunciation:** /baɪ wɪtʃ ˈtaɪm/ &middot; *by-wich-TIME*
+**Русский:** к этому времени — отсылает назад; главное действие к тому моменту уже завершилось
 **Type:** subordinating (connective relative) &middot; **Register:** neutral
 **Clause type:** adverbial relative clause of time, always non-restrictive; *which* points back at a moment already named
 **Pattern:** [main clause], *by which time* [clause with a perfect tense]. &middot; [long main clause]; *by which time* [clause]. &middot; [main clause], *by which point* [clause]. &middot; No fronted skeleton — the clause cannot open a sentence.
@@ -401,6 +420,7 @@ Means "at or before the moment when," and it pulls a perfect tense into the main
 ### during the time that
 
 **Pronunciation:** /ˈdʊrɪŋ ðə ˈtaɪm ðət/ &middot; *DOOR-ing-thuh-TIME-thut*; also /ˈdjʊrɪŋ/ &middot; *DYOOR-ing* for older and Southern speakers
+**Русский:** книжн./юр. в течение того времени, пока — многословное while без оттенка контраста
 **Type:** subordinating (phrasal) &middot; **Register:** formal; wordy in ordinary prose
 **Clause type:** adverbial clause of time (duration)
 **Pattern:** *During the time that* [clause], [main clause]. &middot; [main clause] *during the time that* [clause]. &middot; *During the period that* / *during the time when* [clause], [main clause].
@@ -421,6 +441,7 @@ A four-word *while*, kept alive by contracts, testimony, and academic prose, whe
 ### during which time
 
 **Pronunciation:** /ˈdʊrɪŋ wɪtʃ ˈtaɪm/ &middot; *DOOR-ing-wich-TIME*; also /ˈdjʊrɪŋ/ &middot; *DYOOR-ing*
+**Русский:** в течение какового времени — книжн., отсылает назад к уже названному отрезку
 **Type:** subordinating (connective relative) &middot; **Register:** neutral to formal
 **Clause type:** adverbial relative clause of time (duration), always non-restrictive; *which* points back at a stretch already named
 **Pattern:** [main clause naming a stretch], *during which time* [clause]. &middot; [main clause], *during which* [clause] (the short form). &middot; [long main clause]; *during which time* [clause]. &middot; No fronted skeleton — the clause cannot open a sentence.
@@ -441,6 +462,7 @@ The duration member of the connective-relative family. *After which* and *at whi
 ### each time
 
 **Pronunciation:** /ˈitʃ ˌtaɪm/ &middot; *EECH-time*
+**Русский:** каждый раз когда — случаи берутся по одному, чуть более обдуманно, чем every time
 **Type:** subordinating (phrasal) &middot; **Register:** neutral
 **Clause type:** adverbial clause of time
 **Pattern:** *Each time* [clause], [main clause]. &middot; [main clause] *each time* [clause].
@@ -461,6 +483,7 @@ Means "on every one of the occasions when," and it differs from *every time* the
 ### every time
 
 **Pronunciation:** /ˈɛvri ˌtaɪm/ &middot; *EV-ree-time*
+**Русский:** каждый раз когда — обо всех случаях сразу, часто с оттенком раздражения
 **Type:** subordinating (phrasal) &middot; **Register:** neutral
 **Clause type:** adverbial clause of time
 **Pattern:** *Every time* [clause], [main clause]. &middot; [main clause] *every time* [clause].
@@ -481,6 +504,7 @@ The most common way to say "on all the occasions when." It overlaps almost compl
 ### ever since
 
 **Pronunciation:** /ˌɛvər ˈsɪns/ &middot; *ev-er-SINSS*; run together in casual speech as /ˈɛvərsɪns/ &middot; *EV-er-sinss*
+**Русский:** с тех самых пор как — since с наглухо закрытым причинным прочтением, только время
 **Type:** subordinating (phrasal) &middot; **Register:** neutral
 **Clause type:** adverbial clause of time (the same two words are also a bare adverb — *He hasn't called ever since* — and a preposition in front of a noun phrase: *ever since college*)
 **Pattern:** *Ever since* [clause], [main clause with a perfect tense]. &middot; [main clause with a perfect tense] *ever since* [clause]. &middot; [main clause] *ever since* (bare adverb — nothing follows). &middot; *Ever since* [noun phrase], [main clause] (preposition, not conjunction).
@@ -502,6 +526,7 @@ The most common way to say "on all the occasions when." It overlaps almost compl
 ### from the time
 
 **Pronunciation:** /frʌm ðə ˈtaɪm/ &middot; *frum-thuh-TIME*; reduced /frəm ðə ˈtaɪm/
+**Русский:** с того времени как — однозначное «с тех пор как», без риска прочтения «поскольку»
 **Type:** subordinating (phrasal) &middot; **Register:** neutral
 **Clause type:** adverbial clause of time
 **Pattern:** *From the time* [clause], [main clause]. &middot; [main clause] *from the time* [clause]. &middot; *From the time* [clause] *until* [clause], [main clause].
@@ -522,6 +547,7 @@ The unambiguous way to say what *since* says: it marks the start of a stretch, w
 ### hardly … when
 
 **Pronunciation:** /ˈhɑrdli … ˈwɛn/ &middot; *HARD-lee … WEN*
+**Русский:** не успел … как — едва первое закончилось, наступило второе; парой идёт when, не than
 **Type:** correlative (subordinating) &middot; **Register:** neutral in the uninverted order (*We had hardly sat down when…*); formal to literary when *hardly* is fronted and the subject inverts
 **Clause type:** adverbial clause of time (*when* here is locked to the correlative and cannot be traded for *than*; on its own the same word heads noun clauses and relative clauses too — see [when](#when))
 **Pattern:** *Hardly* had [subject] [past participle] *when* [clause]. &middot; *Scarcely / Barely* had [subject] [past participle] *when* [clause]. &middot; [Subject] had *hardly* [past participle] *when* [clause]. &middot; *Hardly* had [subject] [past participle] *before* [clause].
@@ -542,6 +568,7 @@ Says the second event followed the first almost instantly, framed from the angle
 ### next time
 
 **Pronunciation:** /ˈnɛkst ˌtaɪm/ &middot; *NEKST-time*
+**Русский:** в следующий раз когда — ближайший ещё не наступивший случай
 **Type:** subordinating (phrasal) &middot; **Register:** neutral
 **Clause type:** adverbial clause of time
 **Pattern:** *Next time* [clause], [main clause]. &middot; *The next time* [clause], [main clause]. &middot; [main clause] *next time* [clause].
@@ -562,6 +589,7 @@ Points at the first occasion still to come. The bare form (*next time you're in 
 ### no sooner … than
 
 **Pronunciation:** /noʊ ˈsunər … ðæn/ &middot; *noh-SOO-ner … THAN*; *than* reduces to /ðən/ &middot; *thun*
+**Русский:** не успел … как — самое выразительное «сразу вслед»; парой идёт than, никогда не when
 **Type:** correlative (subordinating) &middot; **Register:** formal to literary
 **Clause type:** adverbial clause of time (*than* here is the correlative partner of *no sooner*, not the comparative conjunction of *taller than I am* and not the preposition of *older than me*)
 **Pattern:** *No sooner* had [subject] [past participle] *than* [clause]. &middot; *No sooner* [*did* / *was* / *were*] [subject] [verb] *than* [clause]. &middot; [Subject] had *no sooner* [past participle] *than* [clause].
@@ -582,6 +610,7 @@ The most emphatic way in English to say that one event followed another instantl
 ### not until
 
 **Pronunciation:** /nɑt ənˈtɪl/ &middot; *not-un-TIL*; in the ordinary order the negative contracts — *didn't … until* /ˈdɪdənt/ &middot; *DID-unt*
+**Русский:** только когда, не раньше чем — при выносе в начало требует инверсии
 **Type:** subordinating (with negative fronting) &middot; **Register:** neutral in the ordinary order; formal to emphatic when fronted
 **Clause type:** adverbial clause of time, negated
 **Pattern:** [negative main clause] *until* [clause] (the ordinary order: *He didn't call until Tuesday*). &middot; *Not until* [clause] [auxiliary] [subject] [verb] (fronted, with inversion). &middot; *Not until* [noun phrase] [auxiliary] [subject] [verb]. &middot; *It was not until* [clause or noun phrase] *that* [clause] (the cleft, which needs no inversion).
@@ -602,6 +631,7 @@ English's way of saying "at that point and no earlier." The plain order is unrem
 ### now that
 
 **Pronunciation:** /ˈnaʊ ðæt/ &middot; *NOW-that*; *that* reduces to /ðət/
+**Русский:** теперь когда, раз уж — время и причина сразу: обстановка только что изменилась
 **Type:** subordinating (phrasal) &middot; **Register:** neutral
 **Clause type:** adverbial clause of time and cause
 **Pattern:** *Now that* [clause], [main clause]. &middot; [main clause] *now that* [clause]. &middot; *Now* [clause], [main clause] (informal, with *that* dropped).
@@ -622,6 +652,7 @@ Fuses time and cause: it means "from this point on, and because of it." *Since* 
 ### only when
 
 **Pronunciation:** /ˈoʊnli ˈwɛn/ &middot; *OHN-lee-WEN*
+**Русский:** только когда — сужает главное действие до одного момента, исключая все прочие
 **Type:** subordinating (with focusing *only*) &middot; **Register:** neutral in the trailing order; formal to emphatic when fronted
 **Clause type:** adverbial clause of time, focused
 **Pattern:** [main clause] *only when* [clause] (the ordinary order). &middot; *Only when* [clause] [auxiliary] [subject] [verb] (fronted, with inversion). &middot; *Only after* [clause or noun phrase] [auxiliary] [subject] [verb]. &middot; *Only once* [clause] [auxiliary] [subject] [verb]. &middot; *It is only when* [clause] *that* [clause] (the cleft).
@@ -642,6 +673,7 @@ Fuses time and cause: it means "from this point on, and because of it." *Since* 
 ### since when
 
 **Pronunciation:** /sɪns ˈwɛn/ &middot; *sinss-WEN*
+**Русский:** книжн. с какового времени; а также «с каких это пор?» — возмущённый вопрос без ответа
 **Type:** subordinating (connective relative) in the linking use; interrogative adverb in the challenge use &middot; **Register:** formal and British-leaning as a connective; sharply informal in the rhetorical question
 **Clause type:** adverbial relative clause of time, always non-restrictive, with *when* pointing back at a date or event already named. The question use builds no clause at all and connects nothing.
 **Pattern:** [main clause naming a point in time], *since when* [clause with a perfect tense]. &middot; *Since when* [auxiliary] [subject] [verb]? (the rhetorical question — a separate construction). &middot; No fronted linking skeleton: the connective clause cannot open a sentence.
@@ -662,6 +694,7 @@ Two different words wearing one spelling. The connective use ties a clause to a 
 ### the day
 
 **Pronunciation:** /ðə ˈdeɪ/ &middot; *thuh-DAY*
+**Русский:** в тот день, когда — модель «the + слово времени + придаточное» в роли союза
 **Type:** subordinating (phrasal) &middot; **Register:** neutral
 **Clause type:** adverbial clause of time
 **Pattern:** *The day* [clause], [main clause]. &middot; [main clause] *the day* [clause]. &middot; *The* [time noun] [clause], [main clause].
@@ -682,6 +715,7 @@ The pattern behind *the moment* and *the minute*, opened up to any unit of time:
 ### the first time
 
 **Pronunciation:** /ðə ˈfɜrst ˌtaɪm/ &middot; *thuh-FURST-time*
+**Русский:** в первый раз, когда — выделяет один случай из ряда; работает любое порядковое
 **Type:** subordinating (phrasal) &middot; **Register:** neutral
 **Clause type:** adverbial clause of time
 **Pattern:** *The first time* [clause], [main clause]. &middot; [main clause] *the first time* [clause]. &middot; *The* [ordinal] *time* [clause], [main clause].
@@ -702,6 +736,7 @@ Singles out one occasion in a series and locates the main clause there. Because 
 ### the instant
 
 **Pronunciation:** /ði ˈɪnstənt/ &middot; *thee-IN-stunt*
+**Русский:** книжн. в то самое мгновение, как — самый выразительный из группы «как только»
 **Type:** subordinating (phrasal) &middot; **Register:** neutral to literary
 **Clause type:** adverbial clause of time
 **Pattern:** *The instant* [clause], [main clause]. &middot; [main clause] *the instant* [clause].
@@ -722,6 +757,7 @@ The most emphatic and the most bookish member of the *moment / minute / second /
 ### the last time
 
 **Pronunciation:** /ðə ˈlæst ˌtaɪm/ &middot; *thuh-LAST-time*
+**Русский:** в последний раз, когда — либо «в самый недавний», либо «в самый последний»
 **Type:** subordinating (phrasal) &middot; **Register:** neutral
 **Clause type:** adverbial clause of time
 **Pattern:** *The last time* [clause], [main clause]. &middot; [main clause] *the last time* [clause].
@@ -742,6 +778,7 @@ Points at the most recent occasion, or at the final one. The ambiguity between t
 ### the minute
 
 **Pronunciation:** /ðə ˈmɪnɪt/ &middot; *thuh-MIN-it*
+**Русский:** разг. как только, в ту же минуту как
 **Type:** subordinating (phrasal) &middot; **Register:** neutral to informal
 **Clause type:** adverbial clause of time
 **Pattern:** *The minute* [clause], [main clause]. &middot; [main clause] *the minute* [clause].
@@ -762,6 +799,7 @@ Points at the most recent occasion, or at the final one. The ambiguity between t
 ### the moment
 
 **Pronunciation:** /ðə ˈmoʊmənt/ &middot; *thuh-MOH-munt*
+**Русский:** в тот момент как, как только — нейтральный и самый ходовой член этой группы
 **Type:** subordinating (phrasal) &middot; **Register:** neutral
 **Clause type:** adverbial clause of time
 **Pattern:** *The moment* [clause], [main clause]. &middot; [main clause] *the moment* [clause]. &middot; *From the moment* [clause], [main clause].
@@ -782,6 +820,7 @@ The neutral and most usable member of the *moment / minute / second / instant* f
 ### the second
 
 **Pronunciation:** /ðə ˈsɛkənd/ &middot; *thuh-SEK-und*
+**Русский:** разг. как только, в ту же секунду как — обычно с досадой или удивлением
 **Type:** subordinating (phrasal) &middot; **Register:** informal
 **Clause type:** adverbial clause of time
 **Pattern:** *The second* [clause], [main clause]. &middot; [main clause] *the second* [clause].
@@ -802,6 +841,7 @@ The most colloquial and most impatient of the four: it means "as soon as," and i
 ### the whole time
 
 **Pronunciation:** /ðə ˈhoʊl ˌtaɪm/ &middot; *thuh-HOHL-time*
+**Русский:** всё то время, пока — отрезки совпадают полностью, часто звучит как упрёк
 **Type:** subordinating (phrasal) &middot; **Register:** neutral to informal
 **Clause type:** adverbial clause of time
 **Pattern:** *The whole time* [clause], [main clause]. &middot; [main clause] *the whole time* [clause]. &middot; [main clause] *the whole time* (bare — an adverb, not a conjunction).
@@ -822,6 +862,7 @@ The duration member of the *the* + time-noun family: where *the moment* and *the
 ### until such time as
 
 **Pronunciation:** /ənˈtɪl sʌtʃ ˈtaɪm əz/ &middot; *un-TIL-such-TIME-uhz*; the final *as* rarely carries stress
+**Русский:** юр. до тех пор, пока не — канцелярское until, в обычной речи лишнее
 **Type:** subordinating (phrasal) &middot; **Register:** formal (legal and bureaucratic)
 **Clause type:** adverbial clause of time
 **Pattern:** *Until such time as* [clause], [main clause]. &middot; [main clause] *until such time as* [clause]. &middot; [main clause] *until such time as* [clause] *and no longer*.
@@ -842,6 +883,7 @@ A four-word way to say *until*, at home in contracts, court orders, and policy m
 ### whereafter
 
 **Pronunciation:** /ˌwɛrˈæftər/ &middot; *wair-AF-ter*
+**Русский:** юр./устар. после чего — редчайший вариант after which, почти вне американской практики
 **Type:** subordinating (connective relative) &middot; **Register:** formal and rare; legal drafting
 **Clause type:** adverbial clause of time and sequence, always non-restrictive
 **Pattern:** [main clause], *whereafter* [clause]. &middot; [long main clause]; *whereafter* [clause]. &middot; There is no fronted skeleton — *Whereafter* [clause], [main clause] is not a sentence.
@@ -862,6 +904,7 @@ The *where-* compound for "after which," and the rarest member of the family in 
 ### whereupon
 
 **Pronunciation:** /ˌwɛrəˈpɑn/ &middot; *wair-uh-PON*; also /ˌwɛrəˈpɔn/
+**Русский:** книжн. после чего, вслед за чем — с намёком, что первое событие вызвало второе
 **Type:** subordinating (connective relative) &middot; **Register:** formal to literary
 **Clause type:** adverbial clause of time and consequence, always non-restrictive
 **Pattern:** [main clause], *whereupon* [clause]. &middot; [long main clause]; *whereupon* [clause]. &middot; [main clause], *whereupon* [clause], [continuation]. &middot; There is no fronted skeleton — *Whereupon* [clause], [main clause] is ungrammatical.
@@ -886,6 +929,7 @@ Twelve time subordinators that a learner will meet in reading but should not pro
 ### against
 
 **Pronunciation:** /əˈgɛnst/ &middot; *uh-GENST*; also /əˈgeɪnst/ &middot; *uh-GAYNST*; the clipped *'gainst* /gɛnst/ &middot; *GENST* in verse
+**Русский:** устар. к тому времени как — с добавочным смыслом «успев подготовиться к этому моменту»
 **Type:** subordinating &middot; **Register:** archaic; still heard from older speakers in Appalachian and Ozark English
 **Clause type:** adverbial clause of time (the same word is overwhelmingly a preposition today — *against the wall*, *against the rules* — and only the clause use is the conjunction)
 **Pattern:** [main clause] *against* [clause]. &middot; *Against* [clause], [main clause]. &middot; [imperative] *against* [clause] (the commonest shape: *have it ready against he comes*).
@@ -906,6 +950,7 @@ The old conjunction meaning "by the time that," with an extra sense of getting r
 ### directly
 
 **Pronunciation:** /dəˈrɛktli/ &middot; *duh-REKT-lee*; also /daɪˈrɛktli/ &middot; *dye-REKT-lee*
+**Русский:** брит. как только — в американском английском как союз не употребляется
 **Type:** subordinating &middot; **Register:** regional (British and Irish); not current American usage
 **Clause type:** adverbial clause of time (the same word is an ordinary adverb in both varieties — *go directly home* — and only the conjunction is foreign to American English)
 **Pattern:** *Directly* [clause], [main clause]. &middot; [main clause] *directly* [clause].
@@ -926,6 +971,7 @@ British English uses *directly* as a conjunction meaning "as soon as." American 
 ### ere
 
 **Pronunciation:** /ɛr/ &middot; *AIR*
+**Русский:** устар./поэт. прежде чем, до того как
 **Type:** subordinating &middot; **Register:** archaic and literary
 **Clause type:** adverbial clause of time
 **Pattern:** *Ere* [clause], [main clause]. &middot; [main clause] *ere* [clause].
@@ -946,6 +992,7 @@ The archaic word for *before*. It survives in hymns, poetry, Shakespeare, and de
 ### immediately
 
 **Pronunciation:** /ɪˈmidiətli/ &middot; *ih-MEE-dee-ut-lee*
+**Русский:** брит. как только — американцы так не говорят и пишут as soon as
 **Type:** subordinating &middot; **Register:** regional (British); not current American usage
 **Clause type:** adverbial clause of time (the same word is an ordinary adverb in both varieties — *call me immediately* — and only the conjunction is foreign to American English)
 **Pattern:** *Immediately* [clause], [main clause]. &middot; [main clause] *immediately* [clause].
@@ -967,6 +1014,7 @@ British English lets *immediately* introduce a clause on its own: *Immediately t
 ### or ever
 
 **Pronunciation:** /ɔr ˈɛvər/ &middot; *or-EV-er*
+**Русский:** устар. прежде чем ещё, прежде чем вообще — усиленное библейское «до того как»
 **Type:** subordinating (phrasal) &middot; **Register:** archaic and biblical
 **Clause type:** adverbial clause of time
 **Pattern:** *Or ever* [clause], [main clause]. &middot; [main clause] *or ever* [clause]. &middot; *Or ever* [clause with a present subjunctive verb].
@@ -987,6 +1035,7 @@ An emphatic archaic *before*, meaning "before ever" or "before so much as." The 
 ### so soon as
 
 **Pronunciation:** /soʊ ˈsun æz/ &middot; *soh-SOON-az*; the final *as* reduces to /əz/ &middot; *uhz*
+**Русский:** устар. как только — старая форма as soon as, вышедшая из употребления
 **Type:** subordinating (phrasal) &middot; **Register:** archaic; standard English into the early nineteenth century, obsolete since
 **Clause type:** adverbial clause of time
 **Pattern:** *So soon as* [clause], [main clause]. &middot; [main clause] *so soon as* [clause]. &middot; *So soon as ever* [clause], [main clause] (emphatic).
@@ -1007,6 +1056,7 @@ The older form of [as soon as](#as-soon-as), ordinary in the King James Bible, i
 ### the while
 
 **Pronunciation:** /ðə ˈwaɪl/ &middot; *thuh-WYLE*
+**Русский:** устар./поэт. пока, в то время как — в живом языке осталось лишь all the while
 **Type:** subordinating (phrasal) &middot; **Register:** archaic and poetic; the bare adverb survives in *all the while*
 **Clause type:** adverbial clause of time (duration). The same two words are far commoner as a bare adverb meaning "meanwhile," which builds no clause at all.
 **Pattern:** [main clause] *the while* [clause]. &middot; *The while* [clause], [main clause]. &middot; [main clause] *the while* (bare adverb — nothing follows). &middot; *All the while* [clause], [main clause] (the surviving modern form).
@@ -1027,6 +1077,7 @@ The archaic conjunction *while* with the definite article welded on, at home in 
 ### what time
 
 **Pronunciation:** /wɑt ˈtaɪm/ &middot; *wot-TIME*; also /wʌt ˈtaɪm/ &middot; *wut-TIME*, and /ʍɑt/ &middot; *HWOT* for speakers who keep the *wh*
+**Русский:** устар. в то время когда — библейское и поэтическое «когда»
 **Type:** subordinating (phrasal) &middot; **Register:** archaic and poetic; biblical
 **Clause type:** adverbial clause of time (the same two words open an ordinary question — *What time does it start?* — which is a different construction entirely)
 **Pattern:** *What time* [clause], [main clause]. &middot; [main clause] *what time* [clause].
@@ -1047,6 +1098,7 @@ The archaic conjunction meaning "at the time when." It is preserved for most Ame
 ### when that
 
 **Pronunciation:** /wɛn ˈðæt/ &middot; *wen-THAT*; *that* usually reduces to /ðət/ &middot; *thut*
+**Русский:** устар. когда — «когда» со старой подчинительной частицей that
 **Type:** subordinating (phrasal) &middot; **Register:** archaic; standard in Middle and early Modern English
 **Clause type:** adverbial clause of time
 **Pattern:** *When that* [clause], [main clause]. &middot; [main clause] *when that* [clause].
@@ -1067,6 +1119,7 @@ Plain *when* with the old subordinating particle *that* still attached. Middle a
 ### whenas
 
 **Pronunciation:** /wɛnˈæz/ &middot; *wen-AZ*; also /ˈwɛnəz/ &middot; *WEN-uhz*
+**Русский:** устар. когда, в то время как — елизаветинское слово, сегодня полностью мёртвое
 **Type:** subordinating &middot; **Register:** archaic (sixteenth- and seventeenth-century English)
 **Clause type:** adverbial clause of time; in some older texts adverbial of contrast instead, where it means "whereas"
 **Pattern:** *Whenas* [clause], [main clause]. &middot; *Whenas* [clause], *then* [main clause] (the correlative shape common in verse). &middot; [main clause] *whenas* [clause].
@@ -1087,6 +1140,7 @@ An Elizabethan and Jacobean conjunction meaning "when" or "at the time when," an
 ### whiles
 
 **Pronunciation:** /waɪlz/ &middot; *WYLZ*; also /ʍaɪlz/ &middot; *HWYLZ* for speakers who keep the *wh*
+**Русский:** устар. пока, в то время как — старая форма while из Библии короля Иакова
 **Type:** subordinating &middot; **Register:** archaic; the separate adverb *whiles* meaning "sometimes" survives in Scots and Northern English
 **Clause type:** adverbial clause of time (duration)
 **Pattern:** *Whiles* [clause], [main clause]. &middot; [main clause] *whiles* [clause].
@@ -1107,6 +1161,7 @@ The old *-s* form of *while*, ordinary in the King James Bible — *agree with t
 ### whilst
 
 **Pronunciation:** /waɪlst/ &middot; *WYLST*
+**Русский:** брит. пока, в то время как — то же, что while; в США редко и звучит манерно
 **Type:** subordinating &middot; **Register:** British; in American English an affectation
 **Clause type:** adverbial clause of time (also contrast)
 **Pattern:** *Whilst* [clause], [main clause]. &middot; [main clause] *whilst* [clause]. &middot; *whilst* + [-ing form].
@@ -1131,6 +1186,7 @@ These are not conjunctions. They are adverbs that connect ideas, which means the
 ### afterward
 
 **Pronunciation:** /ˈæftərwərd/ &middot; *AF-ter-werd*
+**Русский:** потом, после этого — наречие, а не союз: отсылает назад к уже названному событию
 **Type:** conjunctive adverb &middot; **Register:** neutral
 **Clause type:** none — it modifies a clause; the clause it sits in stays independent
 **Pattern:** [independent clause]; *afterward*, [independent clause]. &middot; [Independent clause]. *Afterward*, [independent clause]. &middot; [subject] [verb] *afterward*.
@@ -1151,6 +1207,7 @@ The adverb counterpart of the conjunction *after*: it points back at something a
 ### at first
 
 **Pronunciation:** /æt ˈfɜrst/ &middot; *at-FURST*; *at* reduces to /ət/ &middot; *uht*
+**Русский:** сначала, поначалу — обещает перелом и требует продолжения «а потом»
 **Type:** conjunctive adverb (phrasal) &middot; **Register:** neutral
 **Clause type:** none — an adverbial phrase; its clause remains independent
 **Pattern:** *At first*, [independent clause]; [*later* / *then* / *eventually*], [independent clause]. &middot; [Independent clause]. *At first*, [independent clause]. &middot; [subject] [verb phrase] *at first*, but [independent clause]. &middot; [subject] [verb phrase] *at first*.
@@ -1171,6 +1228,7 @@ The opener of a two-part timeline: it plants a first state that something later 
 ### at the same time
 
 **Pronunciation:** /æt ðə ˈseɪm ˌtaɪm/ &middot; *at-thuh-SAME-time*; *at* reduces to /ət/
+**Русский:** в то же время — «одновременно», но чаще «и всё же», как уступка без смысла времени
 **Type:** conjunctive adverb (phrasal) &middot; **Register:** neutral
 **Clause type:** none — an adverbial phrase; its clause remains independent. The variant *at the same time that* is a true subordinator and does take a clause.
 **Pattern:** [independent clause]; *at the same time*, [independent clause]. &middot; [Independent clause]. *At the same time*, [independent clause]. &middot; [subject] [verb] and, *at the same time*, [verb] … &middot; *At the same time that* [clause], [main clause] (the subordinating variant).
@@ -1191,6 +1249,7 @@ Does two jobs, and the second one has quietly taken over. Literally it means "si
 ### eventually
 
 **Pronunciation:** /ɪˈvɛntʃuəli/ &middot; *ih-VEN-choo-uh-lee*; commonly compressed to /ɪˈvɛntʃəli/ &middot; *ih-VEN-chuh-lee*
+**Русский:** в конце концов, со временем — после долгого ожидания; ложный друг: не «возможно»
 **Type:** conjunctive adverb &middot; **Register:** neutral
 **Clause type:** none — an adverb; its clause remains independent
 **Pattern:** [independent clause]; *eventually*, [independent clause]. &middot; [Independent clause]. *Eventually*, [independent clause]. &middot; [subject] *eventually* [verb] … &middot; [subject] [verb phrase] *eventually*.
@@ -1211,6 +1270,7 @@ Puts the second event at the far end of an unspecified delay: "after a while, an
 ### finally
 
 **Pronunciation:** /ˈfaɪnəli/ &middot; *FYE-nuh-lee*; commonly compressed to /ˈfaɪnli/ &middot; *FYNE-lee* in fast speech
+**Русский:** наконец — последний пункт перечисления; или «наконец-то», с облегчением или досадой
 **Type:** conjunctive adverb &middot; **Register:** neutral
 **Clause type:** none — an adverb; its clause remains independent
 **Pattern:** [independent clause]; *finally*, [independent clause]. &middot; [Independent clause]. *Finally*, [independent clause]. &middot; [subject] *finally* [verb] … &middot; *First* …, *then* …, *finally* … &middot; [subject] [verb phrase] *finally*.
@@ -1231,6 +1291,7 @@ Does two jobs, and a reader has to tell them apart. In a sequence it simply mark
 ### henceforth
 
 **Pronunciation:** /ˌhɛnsˈfɔrθ/ &middot; *hens-FORTH*; also /ˈhɛnsfɔrθ/ &middot; *HENS-forth*
+**Русский:** офиц. отныне, впредь — с этого момента и далее действует новое правило
 **Type:** conjunctive adverb &middot; **Register:** formal (legal and ceremonial)
 **Clause type:** none — an adverb; its clause remains independent
 **Pattern:** [independent clause]; *henceforth*, [independent clause]. &middot; *Henceforth*, [independent clause]. &middot; [subject] shall *henceforth* [verb].
@@ -1251,6 +1312,7 @@ Marks a boundary after which a new rule applies: "starting now and continuing." 
 ### in the meantime
 
 **Pronunciation:** /ɪn ðə ˈminˌtaɪm/ &middot; *in-thuh-MEEN-time*
+**Русский:** тем временем, а пока — в ожидании чего-то предстоящего, часто перед указанием
 **Type:** conjunctive adverb (phrasal) &middot; **Register:** neutral
 **Clause type:** none — an adverbial phrase; its clause remains independent
 **Pattern:** [independent clause]; *in the meantime*, [independent clause]. &middot; [Independent clause]. *In the meantime*, [independent clause]. &middot; [subject], *in the meantime*, [verb] …
@@ -1271,6 +1333,7 @@ Fills the gap between now and an expected event: "while we wait for that to happ
 ### later
 
 **Pronunciation:** /ˈleɪtər/ &middot; *LAY-ter*; the *t* is a flap in ordinary American speech, /ˈleɪɾər/
+**Русский:** позже, спустя — просто «дальше по времени», без указания величины промежутка
 **Type:** conjunctive adverb &middot; **Register:** neutral
 **Clause type:** none — an adverb; its clause remains independent (the same word is also the comparative form of the adjective *late*, where it modifies a noun and connects nothing: *a later flight*)
 **Pattern:** [independent clause]; *later*, [independent clause]. &middot; [Independent clause]. *Later*, [independent clause]. &middot; [subject] [verb phrase] *later*. &middot; [measure phrase] *later*, [independent clause] (*Two weeks later, the check arrived*).
@@ -1291,6 +1354,7 @@ The plainest way to put one event after another without committing to how big th
 ### meanwhile
 
 **Pronunciation:** /ˈminˌwaɪl/ &middot; *MEEN-wyle*
+**Русский:** тем временем — наречие: два события идут параллельно, но оба остаются самостоятельными
 **Type:** conjunctive adverb &middot; **Register:** neutral
 **Clause type:** none — an adverb; its clause remains independent
 **Pattern:** [independent clause]; *meanwhile*, [independent clause]. &middot; [Independent clause]. *Meanwhile*, [independent clause]. &middot; [subject], *meanwhile*, [verb] …
@@ -1311,6 +1375,7 @@ The adverb that does the job of the conjunction *while*: it reports that a secon
 ### next thing you know
 
 **Pronunciation:** /ˈnɛkst θɪŋ ju ˈnoʊ/ &middot; *NEKST-thing-yuh-NOH*; *you* almost always reduces to /jə/, and the whole phrase runs together as /ˈnɛksθɪŋjəˈnoʊ/ &middot; *NEKS-thing-yuh-NOH*
+**Русский:** разг. и вот уже, глядь — резкий, незапланированный поворот в рассказе
 **Type:** conjunctive adverb (phrasal) &middot; **Register:** informal (spoken narrative)
 **Clause type:** none — a fixed adverbial formula; the clause it sits in front of stays independent
 **Pattern:** [Independent clause]. *Next thing you know*, [independent clause]. &middot; [independent clause]; *next thing you know*, [independent clause]. &middot; [independent clause], and *the next thing I knew*, [independent clause]. &middot; *The next thing* [subject] *knew*, [independent clause].
@@ -1331,6 +1396,7 @@ The storyteller's jump cut. It marks a turn that was fast, unplanned, and slight
 ### previously
 
 **Pronunciation:** /ˈpriviəsli/ &middot; *PREE-vee-uss-lee*
+**Русский:** книжн. ранее, до этого — зеркало subsequently, обычное в отчётах и новостях
 **Type:** conjunctive adverb &middot; **Register:** neutral to formal
 **Clause type:** none — an adverb; its clause remains independent
 **Pattern:** [independent clause]; *previously*, [independent clause]. &middot; [Independent clause]. *Previously*, [independent clause]. &middot; [subject] had *previously* [past participle]. &middot; *previously* [past participle] (inside a modifier: *previously unreported payments*).
@@ -1351,6 +1417,7 @@ The mirror of *subsequently*: it points back to something that happened before t
 ### since then
 
 **Pronunciation:** /sɪns ˈðɛn/ &middot; *sinss-THEN*
+**Русский:** с тех пор — наречие вместо союза since; так же тянет за собой перфект
 **Type:** conjunctive adverb (phrasal) &middot; **Register:** neutral
 **Clause type:** none — an adverbial phrase; its clause remains independent
 **Pattern:** [independent clause]; *since then*, [independent clause with a perfect tense]. &middot; [Independent clause]. *Since then*, [independent clause]. &middot; [subject] [has/have] [past participle] *since then*.
@@ -1371,6 +1438,7 @@ The adverb that does what the conjunction *since* does, except that it points ba
 ### subsequently
 
 **Pronunciation:** /ˈsʌbsəkwəntli/ &middot; *SUB-suh-kwunt-lee*
+**Русский:** офиц. впоследствии, затем — только «после», но не «вследствие» (ср. consequently)
 **Type:** conjunctive adverb &middot; **Register:** formal
 **Clause type:** none — an adverb; its clause remains independent
 **Pattern:** [independent clause]; *subsequently*, [independent clause]. &middot; [Independent clause]. *Subsequently*, [independent clause]. &middot; [subject] was *subsequently* [past participle].
@@ -1391,6 +1459,7 @@ The formal-register way to say "afterward," standard in reports, case histories,
 ### then
 
 **Pronunciation:** /ðɛn/ &middot; *THEN*; weak /ðən/
+**Русский:** потом, затем — главный разговорный маркер последовательности; также «тогда» в следствии
 **Type:** conjunctive adverb &middot; **Register:** neutral
 **Clause type:** none — an adverb; its clause remains independent
 **Pattern:** [independent clause]; *then* [independent clause]. &middot; [independent clause], and *then* [independent clause]. &middot; [subject] *then* [verb] … &middot; *First* …, *then* …, *finally* …
@@ -1411,6 +1480,7 @@ The workhorse sequencer of spoken English: it puts one event after another. The 
 ### thereafter
 
 **Pronunciation:** /ˌðɛrˈæftər/ &middot; *thair-AF-ter*
+**Русский:** офиц. после этого, с того времени — обращённый в прошлое двойник henceforth
 **Type:** conjunctive adverb &middot; **Register:** formal
 **Clause type:** none — an adverb; its clause remains independent
 **Pattern:** [independent clause]; *thereafter*, [independent clause]. &middot; [Independent clause]. *Thereafter*, [independent clause]. &middot; [time expression] *thereafter*.

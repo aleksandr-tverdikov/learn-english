@@ -332,7 +332,7 @@ The single most common lexical error in this area is attaching a person to a ver
 |---|---|---|---|---|
 | **ask** | yes, optional | ask (sb) if/whether …; ask (sb) wh- …; ask (sb) wh- to-inf | neutral | The default. Never *ask to me*. |
 | **wonder** | no | wonder if/whether …; wonder wh- … | neutral | Reports a thought, not a spoken question. |
-| **inquire** | no (formal: inquire **of** sb) | inquire whether …; inquire wh- …; inquire about sth | formal | ✗ *inquire me*. **American English spells it *inquire* in every sense.** British English splits the spellings — *enquire* to ask, *inquire* to investigate formally — and *enquire* in an American document reads as a typo or an affectation. |
+| **inquire** | no (formal: inquire **of** sb) | inquire whether …; inquire wh- …; inquire about sth | formal | **inquire me*. ✗ *American English spells it *inquire* in every sense.** British English splits the spellings — *enquire* to ask, *inquire* to investigate formally — and *enquire* in an American document reads as a typo or an affectation. |
 | **want to know** | no | want to know if/whether …; want to know wh- … | neutral | ✗ *want to know me where …* |
 | **demand to know** | no | demand to know if/whether …; demand to know wh- … | neutral, forceful | Implies the asker feels entitled to an answer. |
 | **query** | no (its object is the *thing* questioned) | query whether …; query sth | formal, business | ✗ *query me whether* &middot; ✓ *query the invoice* |

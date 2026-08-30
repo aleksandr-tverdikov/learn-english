@@ -5,15 +5,7 @@
     {
       "term": "asdfghjkl",
       "ipa": "No settled pronunciation. It is a keysmash — the home row of a QWERTY keyboard struck all at once — and it is meant to be seen, not said. Read aloud it is a wordless flailing noise rather than a sequence of syllables.",
-      "respell": "no settled pronunciation; a keysmash, meant to be seen rather than said",
-      "variants": [
-        "asdfghjkl;",
-        "asjdkfhaskjdf",
-        "kjhsdfkjshdf",
-        "asdfghjkl (any random string of letters works)"
-      ],
-      "type": "primary",
-      "register": "internet/text (very informal)",
+      "respell": "",
       "meaning": "The typed equivalent of flapping your hands: a fistful of keyboard used to show that you are too delighted, overwhelmed, or mortified to produce actual words. It reads as affectionate hysteria and it never crosses into speech.",
       "examples": [
         "asdfghjkl he actually remembered my birthday",
@@ -23,24 +15,17 @@
         "asjdkfhaskjdf the puppy fell asleep inside my shoe",
         "He sent a whole line of asdfghjkl instead of answering the question."
       ],
-      "related": [
-        "sksksk",
-        "dead",
-        "lmao"
-      ]
+      "senses": [],
+      "русский": "фывапролд — удар по всей клавиатуре: нет слов от восторга или испанского стыда",
+      "register": "internet/text (very informal)",
+      "type": "primary",
+      "variants": "asdfghjkl;, asjdkfhaskjdf, kjhsdfkjshdf, asdfghjkl (any random string of letters works)",
+      "see also": "sksksk, dead, lmao"
     },
     {
       "term": "bwahaha",
       "ipa": "/bwɑˈhɑhɑ/",
       "respell": "bwah-HAH-hah",
-      "variants": [
-        "mwahaha",
-        "muahaha",
-        "bwahahaha",
-        "mwahahaha"
-      ],
-      "type": "onomatopoeic",
-      "register": "internet/text (informal; jokey)",
       "meaning": "A written villain's cackle — the laugh of someone who has just gotten away with something. It is almost always self-aware and comic; genuine gloating would use plain haha.",
       "examples": [
         "Bwahaha, I got the last parking spot right in front of the door.",
@@ -50,25 +35,17 @@
         "He signed the email \"your future landlord, bwahaha.\"",
         "She typed mwahahaha right after telling me she'd already bought the tickets."
       ],
-      "related": [
-        "haha",
-        "hehe",
-        "kek"
-      ]
+      "senses": [],
+      "русский": "муа-ха-ха, бу-га-га — писаный злодейский хохот, почти всегда шутливый",
+      "register": "internet/text (informal; jokey)",
+      "type": "onomatopoeic",
+      "variants": "mwahaha, muahaha, bwahahaha, mwahahaha",
+      "see also": "haha, hehe, kek"
     },
     {
       "term": "dead",
       "ipa": "/dɛd/",
       "respell": "DED",
-      "variants": [
-        "ded",
-        "deceased",
-        "I'm dead",
-        "dying",
-        "im deceased"
-      ],
-      "type": "secondary",
-      "register": "internet/text (very informal)",
       "meaning": "A one-word claim that something was so funny it killed you. It is a full reply on its own and it outranks lol by a wide margin; the deliberate misspelling ded softens it into something goofier and less dramatic.",
       "examples": [
         "Dead. I cannot believe he said that to her face.",
@@ -78,27 +55,17 @@
         "My brother's Halloween costume was a traffic cone. I'm still dying.",
         "Dead at the fact that nobody told him the meeting was canceled."
       ],
-      "related": [
-        "lmao",
-        "rofl",
-        "asdfghjkl"
-      ]
+      "senses": [],
+      "русский": "я умер, я труп — очень разг.: так смешно, что убило; сильнее, чем lol",
+      "register": "internet/text (very informal)",
+      "type": "secondary",
+      "variants": "ded, deceased, I'm dead, dying, im deceased",
+      "see also": "lmao, rofl, ijbol, asdfghjkl"
     },
     {
       "term": "haha",
       "ipa": "/ˈhɑhɑ/, also /hɑˈhɑ/",
       "respell": "HAH-hah, or hah-HAH",
-      "variants": [
-        "ha",
-        "hah",
-        "ha ha",
-        "hahaha",
-        "hahahaha",
-        "ahaha",
-        "bahaha"
-      ],
-      "type": "onomatopoeic",
-      "register": "internet/text (neutral to informal)",
       "meaning": "Laughter, spelled out. Length is the entire message: a single ha is dry or sarcastic, haha is polite acknowledgment, and hahahaha is real amusement. Putting a space between the syllables (ha ha) almost always reads as sarcastic or tired.",
       "examples": [
         "Haha, that's actually a good point.",
@@ -108,23 +75,17 @@
         "Ahaha okay, you win, I was wrong about the pineapple thing.",
         "Her text said only \"hahahahahaha,\" which told me the interview had gone well."
       ],
-      "related": [
-        "hehe",
-        "heh",
-        "lol",
-        "lmao"
-      ]
+      "senses": [],
+      "русский": "ха-ха — смех на письме; длина и есть смысл: «ха» сухо, «хахаха» по-настоящему смешно",
+      "register": "internet/text (neutral to informal)",
+      "type": "onomatopoeic",
+      "variants": "ha, hah, ha ha, hahaha, hahahaha, ahaha, bahaha",
+      "see also": "hehe, heh, lol, lmao"
     },
     {
       "term": "heh",
       "ipa": "/hɛ/",
       "respell": "HEH",
-      "variants": [
-        "hehh",
-        "heheh"
-      ],
-      "type": "onomatopoeic",
-      "register": "internet/text (informal)",
       "meaning": "A single dry laugh: acknowledgment that something was mildly amusing, with very little warmth behind it. Online it often means \"I see what you did there,\" or marks amusement at your own expense.",
       "examples": [
         "Heh. I walked right into that one.",
@@ -134,23 +95,17 @@
         "Her only response to the entire thread was a solitary heh.",
         "Heh, yeah, I've made that same mistake more than once."
       ],
-      "related": [
-        "hehe",
-        "haha",
-        "lol"
-      ]
+      "senses": [],
+      "русский": "хе — один сухой смешок: слегка забавно, без всякого тепла",
+      "register": "internet/text (informal)",
+      "type": "onomatopoeic",
+      "variants": "hehh, heheh",
+      "see also": "hehe, haha, lol"
     },
     {
       "term": "hehe",
       "ipa": "/ˈhihi/, also /ˈhɛhɛ/",
       "respell": "HEE-hee, or HEH-heh",
-      "variants": [
-        "hehehe",
-        "heheh",
-        "hehey"
-      ],
-      "type": "onomatopoeic",
-      "register": "internet/text (informal; slightly childish or flirty)",
       "meaning": "A small, mischievous giggle in writing. Unlike haha it carries a note of being pleased with yourself, being cute, or being a little bit naughty, which is why it lands so strangely in a work message.",
       "examples": [
         "Hehe, I already ate the last one.",
@@ -160,24 +115,17 @@
         "Hehe sorry, that was me who moved your chair.",
         "He signs off every message with hehe, which took some getting used to."
       ],
-      "related": [
-        "haha",
-        "teehee",
-        "heh",
-        "uwu"
-      ]
+      "senses": [],
+      "русский": "хи-хи — лукавое хихиканье: доволен собой или слегка проказничает",
+      "register": "internet/text (informal; slightly childish or flirty)",
+      "type": "onomatopoeic",
+      "variants": "hehehe, heheh, hehey",
+      "see also": "haha, teehee, heh, uwu"
     },
     {
       "term": "ijbol",
       "ipa": "/ˈɪdʒboʊl/, also spelled out /ˌaɪˌdʒeɪˌbiˌoʊˈɛl/",
       "respell": "IJ-bohl, or eye-jay-bee-oh-EL",
-      "variants": [
-        "IJBOL",
-        "ijbolll",
-        "I just burst out laughing"
-      ],
-      "type": "primary",
-      "register": "internet/text (very informal; Gen Z, 2023 onward)",
       "meaning": "\"I just burst out laughing,\" coined by people who felt lol had stopped meaning anything at all. Its whole point is the claim that a laugh actually happened, out loud, without permission. It reads as very young, and outside a Gen Z group chat you will probably have to explain it.",
       "examples": [
         "ijbol he named the cat after his ex",
@@ -187,24 +135,17 @@
         "My roommate hung an oil portrait of himself over the couch. ijbol.",
         "He replied ijbol to a message I had not meant to be funny in any way."
       ],
-      "related": [
-        "lol",
-        "lmao",
-        "dead",
-        "sksksk"
-      ]
+      "senses": [],
+      "русский": "я в голос — молодёжн.: «я реально засмеялся вслух», ответ на выдохшийся lol",
+      "register": "internet/text (very informal; Gen Z, 2023 onward)",
+      "type": "primary",
+      "variants": "IJBOL, ijbolll, I just burst out laughing",
+      "see also": "lol, lmao, dead, sksksk"
     },
     {
       "term": "kek",
       "ipa": "/kɛk/",
       "respell": "KEK",
-      "variants": [
-        "topkek",
-        "lel",
-        "kekw"
-      ],
-      "type": "primary",
-      "register": "internet/text (very informal; gaming and imageboard slang, with far-right associations in some corners)",
       "meaning": "A laugh inherited from online gaming, where one faction typing lol came out on the other faction's screen as kek. It means roughly what lol means, but it marks you as coming out of gaming or imageboard culture — and in some communities it carries political baggage worth knowing about before you type it.",
       "examples": [
         "Kek, he tried to solo the boss again.",
@@ -213,25 +154,17 @@
         "He replied kek to the patch notes and logged off.",
         "The chat filled with kek the second the streamer fell off the map."
       ],
-      "related": [
-        "lol",
-        "lmao",
-        "pog",
-        "gg"
-      ]
+      "senses": [],
+      "русский": "кек — очень разг.: смех из игр и имиджборд; кое-где с политическим шлейфом",
+      "register": "internet/text (very informal; gaming and imageboard slang, with far-right associations in some corners)",
+      "type": "primary",
+      "variants": "topkek, lel, kekw",
+      "see also": "lol, lmao, pog, gg"
     },
     {
       "term": "lmao",
       "ipa": "/ləˈmaʊ/, also spelled out /ˌɛlˌɛmˌeɪˈoʊ/",
       "respell": "luh-MOW (rhyming with cow), or el-em-ay-OH",
-      "variants": [
-        "lmfao",
-        "lmaoo",
-        "lmaooo",
-        "LMAO"
-      ],
-      "type": "primary",
-      "register": "internet/text (very informal; mildly vulgar because of what it stands for)",
       "meaning": "A stronger lol, standing for \"laughing my ass off.\" It signals genuine amusement rather than mere politeness, and because of the word hiding inside it, it does not belong in a message to a client. Extra o's mean more laughing.",
       "examples": [
         "Lmao he showed up to the potluck with a bag of ice.",
@@ -241,26 +174,17 @@
         "I said lmao out loud in a quiet office and had to explain myself.",
         "Her entire review of the movie was one word: lmao."
       ],
-      "related": [
-        "lol",
-        "rofl",
-        "dead",
-        "omfg"
-      ]
+      "senses": [],
+      "русский": "ржу нимагу, ржака — очень разг., слегка грубое (буквально «смеюсь до отвала задницы»)",
+      "register": "internet/text (very informal; mildly vulgar because of what it stands for)",
+      "type": "primary",
+      "variants": "lmfao, lmaoo, lmaooo, LMAO",
+      "see also": "lol, rofl, dead, omfg"
     },
     {
       "term": "lol",
       "ipa": "/lɑl/, also spelled out /ˌɛlˌoʊˈɛl/",
       "respell": "LOL (rhyming with doll), or el-oh-EL",
-      "variants": [
-        "LOL",
-        "lolol",
-        "lolz",
-        "lul",
-        "lolll"
-      ],
-      "type": "primary",
-      "register": "internet/text (very informal)",
       "meaning": "Originally \"laughing out loud,\" now the most worn-down word on the internet: in most messages it means nothing stronger than \"this is light\" or \"I'm not mad.\" It softens a request, defuses a complaint, and takes the sting out of bad news. Written with a period after it (lol.) it turns cold and sarcastic.",
       "examples": [
         "Lol, no worries, take your time.",
@@ -270,50 +194,36 @@
         "Lolol he's been asleep in that hammock since noon.",
         "My grandmother thinks lol means \"lots of love,\" so her condolence texts are alarming."
       ],
-      "related": [
-        "lmao",
-        "haha",
-        "rofl",
-        "kek"
-      ]
+      "senses": [],
+      "русский": "лол — очень разг.; давно стёрлось: чаще смягчитель «я не злюсь», чем настоящий смех",
+      "register": "internet/text (very informal)",
+      "type": "primary",
+      "variants": "LOL, lolol, lolz, lul, lolll",
+      "see also": "lmao, haha, rofl, ijbol, kek"
     },
     {
       "term": "rofl",
       "ipa": "/ˈrɑfəl/",
       "respell": "ROFF-ul",
-      "variants": [
-        "ROFL",
-        "roflmao",
-        "rotfl",
-        "roflcopter"
-      ],
-      "type": "primary",
-      "register": "internet/text (very informal; dated)",
       "meaning": "\"Rolling on the floor laughing\" — an early-internet intensifier almost entirely replaced by lmao. Typing it now reads as either nostalgic or deliberately corny, and those are mostly the reasons people still do.",
       "examples": [
-        "Rofl, my dad still ends his texts with this one.",
+        "Rofl, my uncle captions every photo he sends with the word \"photo.\"",
         "\"That's the worst pun you've ever made.\" \"Roflmao.\"",
         "He said rofl without irony and the group chat went quiet.",
         "ROFL — I haven't seen that word since middle school.",
         "Somebody in the thread typed roflcopter and I felt about a hundred years old."
       ],
-      "related": [
-        "lmao",
-        "lol",
-        "dead"
-      ]
+      "senses": [],
+      "русский": "валяюсь по полу от смеха, ппкс — устар. интернет-сленг, сейчас нарочито старомодно",
+      "register": "internet/text (very informal; dated)",
+      "type": "primary",
+      "variants": "ROFL, roflmao, rotfl, roflcopter",
+      "see also": "lmao, lol, dead"
     },
     {
       "term": "sksksk",
-      "ipa": "There is no vowel in it. It is a fast, unvoiced rattle of s and k sounds — roughly \"sk-sk-sk\" — made by flicking the tongue against the roof of the mouth, and it is typed far more often than it is ever said aloud.",
-      "respell": "sk-sk-sk (an unvoiced rattle, no vowel)",
-      "variants": [
-        "sksksksk",
-        "ksksks",
-        "sksk"
-      ],
-      "type": "onomatopoeic",
-      "register": "internet/text (very informal; associated with teenage girls, 2019 onward)",
+      "ipa": "There is no vowel in it, so it has no IPA transcription as a word. It is a fast, voiceless clatter: a hissed s made with the tongue tip at the ridge behind the teeth, snapped off by a k closure at the back of the mouth, repeated three or four times without opening the jaw. It is typed far more often than it is ever said aloud.",
+      "respell": "",
       "meaning": "A written stand-in for a stifled, embarrassed giggle — the sound of somebody slapping the table while laughing. It spread from TikTok and reads as young; on anyone past their mid-twenties it can sound like an impression of a teenager.",
       "examples": [
         "sksksk he waved back at someone who wasn't waving at him",
@@ -322,23 +232,17 @@
         "My niece answers everything with sksksk and I've stopped asking what it means.",
         "ksksks the dog is wearing his little raincoat again"
       ],
-      "related": [
-        "asdfghjkl",
-        "hehe",
-        "and I oop"
-      ]
+      "senses": [],
+      "русский": "неологизм, русского эквивалента нет — сдавленный смущённый смешок из тиктока",
+      "register": "internet/text (very informal; associated with teenage girls, 2019 onward)",
+      "type": "onomatopoeic",
+      "variants": "sksksksk, ksksks, sksk",
+      "see also": "asdfghjkl, hehe, and I oop"
     },
     {
       "term": "teehee",
       "ipa": "/ˈtiˌhi/",
       "respell": "TEE-hee",
-      "variants": [
-        "tee hee",
-        "teeheehee",
-        "teehee!"
-      ],
-      "type": "onomatopoeic",
-      "register": "internet/text (informal; deliberately cutesy, usually ironic)",
       "meaning": "A dainty little giggle, spelled out. It is far older than the internet — nineteenth-century novels are full of it — but online it is used almost entirely with an ironic wink, right after admitting to something mildly bad.",
       "examples": [
         "I ate the whole sleeve of cookies. Teehee.",
@@ -347,24 +251,17 @@
         "She admitted she'd been reading my drafts and then typed teeheehee.",
         "He canceled the meeting and added a teehee, which did not help."
       ],
-      "related": [
-        "hehe",
-        "uwu",
-        "haha"
-      ]
+      "senses": [],
+      "русский": "хи-хи-хи — жеманное хихиканье, обычно иронично, после признания в мелкой шалости",
+      "register": "internet/text (informal; deliberately cutesy, usually ironic)",
+      "type": "onomatopoeic",
+      "variants": "tee hee, teeheehee, teehee!",
+      "see also": "hehe, uwu, haha"
     },
     {
       "term": "xd",
       "ipa": "/ˌɛksˈdi/",
       "respell": "eks-DEE",
-      "variants": [
-        "XD",
-        "xD",
-        "xDD",
-        "xDDD"
-      ],
-      "type": "primary",
-      "register": "internet/text (very informal; dated)",
       "meaning": "A sideways face — X for eyes squeezed shut, D for a wide-open mouth — marking hard laughter. Once it was everywhere; now it reads as early 2010s, and most people who type it are doing so on purpose for exactly that reason.",
       "examples": [
         "He fell off the treadmill xD",
@@ -373,23 +270,17 @@
         "She still ends her messages with xD and I find it weirdly comforting.",
         "Typing xD these days is a choice, and he makes it daily."
       ],
-      "related": [
-        "lol",
-        "uwu",
-        "owo"
-      ]
+      "senses": [],
+      "русский": "хD — рожица с зажмуренными глазами: хохот; сейчас отдаёт началом 2010-х",
+      "register": "internet/text (very informal; dated)",
+      "type": "primary",
+      "variants": "XD, xD, xDD, xDDD",
+      "see also": "lol, uwu, owo"
     },
     {
       "term": "and I oop",
       "ipa": "/ənd aɪ ˈup/",
       "respell": "and eye OOP",
-      "variants": [
-        "and I oop-",
-        "and I oop—",
-        "and i oop"
-      ],
-      "type": "phrase",
-      "register": "internet/text (very informal; from drag and Black queer speech, 2019 onward)",
       "meaning": "A phrase for the half-second in which something startling, awkward, or scandalous stops you mid-sentence. It comes from a viral video clip and is written with a trailing dash to show the thought never finishing. It is playful and never serious.",
       "examples": [
         "I said his ex was awful and then she walked in. And I oop—",
@@ -398,22 +289,17 @@
         "She started to defend him, saw the screenshots, and typed \"and I oop—\"",
         "The waiter dropped an entire tray of glasses. And I oop."
       ],
-      "related": [
-        "oop",
-        "whew chile",
-        "big yikes"
-      ]
+      "senses": [],
+      "русский": "и тут я такая… ой — разг.: фраза обрывается на полуслове от неловкости или шока",
+      "register": "internet/text (very informal; from drag and Black queer speech, 2019 onward)",
+      "type": "phrase",
+      "variants": "and I oop-, and I oop—, and i oop",
+      "see also": "oop, whew chile, big yikes"
     },
     {
       "term": "ffs",
       "ipa": "/ˌɛfˌɛfˈɛs/",
-      "respell": "ef-ef-ESS; more often read out as the phrase it stands for, for fuck's sake",
-      "variants": [
-        "FFS",
-        "ffs."
-      ],
-      "type": "primary",
-      "register": "internet/text (vulgar)",
+      "respell": "",
       "meaning": "The typed form of \"for fuck's sake\" — flat, worn-out exasperation at something that should not still be happening. Three letters make it feel milder than the spoken phrase, but it is still profanity and it does not belong in a work channel.",
       "examples": [
         "ffs the printer is jammed again",
@@ -423,22 +309,18 @@
         "ffs — I just spent forty minutes on hold to be told to call back tomorrow.",
         "She types ffs into the team chat roughly once per deploy."
       ],
-      "related": [
-        "fml",
-        "jfc",
-        "smh",
-        "for fuck's sake"
-      ]
+      "senses": [],
+      "pronunciation note": "ef-ef-ESS; more often read out as the phrase it stands for, for fuck's sake",
+      "русский": "да бля, сколько можно — мат: выдохшееся раздражение от того, что повторяется опять",
+      "register": "internet/text (vulgar)",
+      "type": "primary",
+      "variants": "FFS, ffs.",
+      "see also": "fml, jfc, smh, for fuck's sake"
     },
     {
       "term": "fml",
       "ipa": "/ˌɛfˌɛmˈɛl/",
       "respell": "ef-em-EL",
-      "variants": [
-        "FML"
-      ],
-      "type": "primary",
-      "register": "internet/text (vulgar)",
       "meaning": "\"Fuck my life,\" tacked onto a message about a small personal disaster. It is self-pitying on purpose and almost always comic; attached to something genuinely tragic it reads as flippant.",
       "examples": [
         "Spilled coffee on my laptop ten minutes before the demo. fml",
@@ -448,24 +330,17 @@
         "I told the story at dinner and everyone laughed, which — fml — was fair.",
         "Locked out of my own account on my own birthday. Fml."
       ],
-      "related": [
-        "ffs",
-        "rip",
-        "big oof",
-        "welp"
-      ]
+      "senses": [],
+      "русский": "жизнь — боль, да что ж такое-то — груб. (от «fuck my life»): комичная жалость к себе",
+      "register": "internet/text (vulgar)",
+      "type": "primary",
+      "variants": "FML",
+      "see also": "ffs, rip, big oof, welp"
     },
     {
       "term": "istg",
       "ipa": "/ˌaɪˌɛsˌtiˈdʒi/",
       "respell": "eye-es-tee-JEE; usually read out as I swear to God",
-      "variants": [
-        "ISTG",
-        "stg",
-        "i stg"
-      ],
-      "type": "primary",
-      "register": "internet/text (very informal)",
       "meaning": "\"I swear to God,\" typed as a warning shot. It marks that your patience has run out — or, pointed the other way, that what you are about to say is true no matter how unlikely it sounds.",
       "examples": [
         "istg if he cancels one more time I'm not rescheduling",
@@ -474,22 +349,17 @@
         "She sent stg followed by a screenshot, which settled the argument.",
         "Istg this dog understands English and is simply choosing to ignore me."
       ],
-      "related": [
-        "ffs",
-        "smh",
-        "deadass",
-        "ong"
-      ]
+      "senses": [],
+      "русский": "богом клянусь, ей-богу — разг.: терпение на исходе, либо «я правда не вру»",
+      "register": "internet/text (very informal; swears on God, which some readers do mind)",
+      "type": "primary",
+      "variants": "ISTG, stg, i stg",
+      "see also": "ffs, smh, deadass, ong"
     },
     {
       "term": "jfc",
       "ipa": "/ˌdʒeɪˌɛfˈsi/",
       "respell": "jay-ef-SEE; usually read out as Jesus fucking Christ",
-      "variants": [
-        "JFC"
-      ],
-      "type": "primary",
-      "register": "internet/text (vulgar; also blasphemous to many readers)",
       "meaning": "\"Jesus fucking Christ\" compressed into three letters — stunned exasperation at something indefensible: a price, a headline, a decision. Two separate audiences take offense at it, the people who mind the swearing and the people who mind the name, so it is doubly unsafe at work.",
       "examples": [
         "jfc they want two hundred dollars for a checked bag",
@@ -498,23 +368,17 @@
         "She looked at the repair estimate and typed exactly one thing: jfc.",
         "JFC, we're forty minutes into this meeting and nobody has opened the agenda."
       ],
-      "related": [
-        "omfg",
-        "ffs",
-        "wtf",
-        "Jesus Christ"
-      ]
+      "senses": [],
+      "русский": "господи блядь, ёбаный боже — мат и богохульно: оторопь от чего-то возмутительного",
+      "register": "internet/text (vulgar; also blasphemous to many readers)",
+      "type": "primary",
+      "variants": "JFC",
+      "see also": "omfg, ffs, wtf, Jesus Christ"
     },
     {
       "term": "omfg",
       "ipa": "/ˌoʊˌɛmˌɛfˈdʒi/",
       "respell": "oh-em-ef-JEE",
-      "variants": [
-        "OMFG",
-        "omfgg"
-      ],
-      "type": "primary",
-      "register": "internet/text (vulgar)",
       "meaning": "Omg with an expletive wedged into the middle: \"oh my fucking God.\" It is for genuine shock, good or bad, and that one extra letter is doing real work — it lands several steps louder than omg.",
       "examples": [
         "OMFG she said yes",
@@ -523,25 +387,17 @@
         "He opened the box, typed omfg, and then called me.",
         "Omfg, I have been looking for that book for six years."
       ],
-      "related": [
-        "omg",
-        "jfc",
-        "wtf"
-      ]
+      "senses": [],
+      "русский": "о боже блядь, ёб твою мать — мат: усиленное omg, на несколько ступеней громче",
+      "register": "internet/text (vulgar)",
+      "type": "primary",
+      "variants": "OMFG, omfgg",
+      "see also": "omg, jfc, wtf"
     },
     {
       "term": "omg",
       "ipa": "/ˌoʊˌɛmˈdʒi/",
       "respell": "oh-em-JEE",
-      "variants": [
-        "OMG",
-        "omgg",
-        "omgggg",
-        "omigod",
-        "ohmygod"
-      ],
-      "type": "primary",
-      "register": "internet/text (very informal, but widely accepted)",
       "meaning": "The workhorse of typed surprise: \"oh my God\" reduced to three letters. Unlike most of this list it has crossed back into speech, where Americans say oh-em-JEE out loud, and it stretches to cover delight, horror, and mild sympathy alike.",
       "examples": [
         "OMG I love this song",
@@ -551,24 +407,17 @@
         "Omgggg I completely forgot we had tickets tonight.",
         "My aunt puts OMG in every message, including sympathy cards."
       ],
-      "related": [
-        "omfg",
-        "oh my God",
-        "wtf",
-        "istg"
-      ]
+      "senses": [],
+      "русский": "о боже!, божечки! — разг.: удивление — восторг, ужас и сочувствие одинаково",
+      "register": "internet/text (very informal, but widely accepted; mildly blasphemous to some religious readers)",
+      "type": "primary",
+      "variants": "OMG, omgg, omgggg, omigod, ohmygod",
+      "see also": "omfg, oh my God, wtf, istg"
     },
     {
       "term": "oop",
       "ipa": "/up/",
       "respell": "OOP",
-      "variants": [
-        "oop-",
-        "oop—",
-        "ooop"
-      ],
-      "type": "primary",
-      "register": "internet/text (very informal)",
       "meaning": "The clipped cousin of oops, used when you have said too much, spotted something awkward, or want to bail out of a sentence you have already started. Written with a dash after it, it means the thought is being abandoned on purpose.",
       "examples": [
         "Oop—wrong chat, ignore that.",
@@ -577,24 +426,17 @@
         "She started to say the number out loud and then went \"oop.\"",
         "Oop—never mind, I found it in my bag."
       ],
-      "related": [
-        "and I oop",
-        "oops",
-        "welp"
-      ]
+      "senses": [],
+      "русский": "упс, ой — разг.: осёкся, сказал лишнее или заметил неловкое и бросил фразу",
+      "register": "internet/text (very informal)",
+      "type": "primary",
+      "variants": "oop-, oop—, ooop",
+      "see also": "and I oop, oops, welp"
     },
     {
       "term": "smh",
       "ipa": "/ˌɛsˌɛmˈeɪtʃ/",
       "respell": "es-em-AITCH; sometimes read out as shaking my head",
-      "variants": [
-        "SMH",
-        "smdh (shaking my damn head)",
-        "smfh (vulgar)",
-        "smh my head (a self-aware joke)"
-      ],
-      "type": "primary",
-      "register": "internet/text (informal)",
       "meaning": "\"Shaking my head\" — disappointment rather than anger. It is the typed version of the silent head-shake you give when someone has done something foolish, and it is often aimed at the world in general rather than at the person you are writing to.",
       "examples": [
         "He forgot her birthday again. smh",
@@ -604,24 +446,17 @@
         "I asked for extra napkins and got exactly one. Smh.",
         "Smh my head, he wrote, and I decided to let it go."
       ],
-      "related": [
-        "ffs",
-        "ok boomer",
-        "cringe",
-        "big yikes"
-      ]
+      "senses": [],
+      "русский": "фейспалм, качаю головой — разг.: разочарование, а не злость",
+      "register": "internet/text (informal)",
+      "type": "primary",
+      "variants": "SMH, smdh (shaking my damn head), smfh (vulgar), smh my head (a self-aware joke)",
+      "see also": "ffs, ok boomer, cringe, big yikes"
     },
     {
       "term": "tf",
       "ipa": "/ˌtiˈɛf/",
       "respell": "tee-EF; usually read out as the fuck",
-      "variants": [
-        "TF",
-        "tf?",
-        "da fuq"
-      ],
-      "type": "primary",
-      "register": "internet/text (vulgar)",
       "meaning": "The tail end of wtf, cut loose and used on its own. Standing alone it is a blunt \"what?\"; slotted into a sentence it works as a rude intensifier in front of a question word.",
       "examples": [
         "tf was that noise",
@@ -630,25 +465,17 @@
         "She read the invoice, typed tf, and forwarded it straight to accounting.",
         "Who tf schedules a seven a.m. all-hands?"
       ],
-      "related": [
-        "wtf",
-        "wth",
-        "jfc",
-        "what the fuck"
-      ]
+      "senses": [],
+      "русский": "какого хуя, чё за — мат: хвост от wtf; отдельно — резкое «что?», в фразе — грубый усилитель",
+      "register": "internet/text (vulgar)",
+      "type": "primary",
+      "variants": "TF, tf?, da fuq",
+      "see also": "wtf, wth, jfc, what the fuck"
     },
     {
       "term": "wtf",
       "ipa": "/ˌdʌbəljuˌtiˈɛf/, often clipped to /ˌdʌbtiˈɛf/",
-      "respell": "dub-ul-yoo-tee-EF, or dub-tee-EF; also read out as what the fuck",
-      "variants": [
-        "WTF",
-        "wtff",
-        "wtfff",
-        "wtaf (what the actual fuck)"
-      ],
-      "type": "primary",
-      "register": "internet/text (vulgar)",
+      "respell": "",
       "meaning": "\"What the fuck,\" typed. It stretches across real bewilderment, outrage, and mild comic confusion, and it is common enough in casual writing that people forget what the middle letter stands for — which is precisely how it still gets someone in trouble at work.",
       "examples": [
         "WTF — my rent went up four hundred dollars.",
@@ -658,22 +485,18 @@
         "I got home and the couch was gone. Wtf.",
         "He typed wtf into the company-wide channel and had to apologize twice."
       ],
-      "related": [
-        "wth",
-        "tf",
-        "omfg",
-        "what the fuck"
-      ]
+      "senses": [],
+      "pronunciation note": "dub-ul-yoo-tee-EF, or dub-tee-EF; also read out as what the fuck",
+      "русский": "какого хуя, что за хуйня — мат: недоумение, возмущение или комичная растерянность",
+      "register": "internet/text (vulgar)",
+      "type": "primary",
+      "variants": "WTF, wtff, wtfff, wtaf (what the actual fuck)",
+      "see also": "wth, tf, omfg, what the fuck"
     },
     {
       "term": "wth",
       "ipa": "/ˌdʌbəljuˌtiˈeɪtʃ/",
-      "respell": "dub-ul-yoo-tee-AITCH; also read out as what the heck or what the hell",
-      "variants": [
-        "WTH"
-      ],
-      "type": "primary",
-      "register": "internet/text (informal)",
+      "respell": "",
       "meaning": "The clean version of wtf, standing in for \"what the heck\" or \"what the hell.\" People reach for it when they want the reaction without the word — writing to a coworker, a parent, or a group where children are reading along.",
       "examples": [
         "WTH — the store closed at four on a Saturday?",
@@ -682,49 +505,38 @@
         "He put wth in the family group chat instead of what he was actually thinking.",
         "Wth, I paid that bill twice."
       ],
-      "related": [
-        "wtf",
-        "what the hell",
-        "tf"
-      ]
+      "senses": [],
+      "pronunciation note": "dub-ul-yoo-tee-AITCH; also read out as what the heck or what the hell",
+      "русский": "какого чёрта, что за фигня — разг.: приличная замена wtf, для рабочих и семейных чатов",
+      "register": "internet/text (informal)",
+      "type": "primary",
+      "variants": "WTH",
+      "see also": "wtf, what the hell, tf"
     },
     {
       "term": "big oof",
       "ipa": "/ˌbɪɡ ˈʊf/",
       "respell": "big OOF",
-      "variants": [
-        "BIG oof",
-        "big ooooof"
-      ],
-      "type": "phrase",
-      "register": "internet/text (very informal)",
-      "meaning": "An intensified [oof](../03-pain.md#oof) — a wince on someone else's behalf at something that went badly wrong. The big does comic work, making the sympathy slightly theatrical, which is why it suits secondhand embarrassment far better than actual bad news.",
+      "meaning": "An intensified oof — a wince on someone else's behalf at something that went badly wrong. The big does comic work, making the sympathy slightly theatrical, which is why it suits secondhand embarrassment far better than actual bad news.",
       "examples": [
         "He proposed at her sister's wedding. Big oof.",
         "\"I called my professor 'Mom.'\" \"Big oof.\"",
         "Big oof — the whole quarter's data was on that drive.",
-        "She read the reply-all chain, said big oof, and closed the laptop.",
+        "She watched him go in for a handshake while the other guy went in for a hug. Big oof.",
         "They lost in the last four seconds. Big oof."
       ],
-      "related": [
-        "oof",
-        "oof size large",
-        "oofa doofa",
-        "big yikes",
-        "rip"
-      ]
+      "senses": [],
+      "русский": "ой, жесть; ох, больно — разг.: подчёркнуто театральное сочувствие чужому провалу",
+      "register": "internet/text (very informal)",
+      "type": "phrase",
+      "variants": "BIG oof, big ooooof",
+      "see also": "oof, oof size large, oofa doofa, big yikes, rip"
     },
     {
       "term": "big yikes",
       "ipa": "/ˌbɪɡ ˈjaɪks/",
       "respell": "big YIKES",
-      "variants": [
-        "BIG yikes",
-        "big yikers"
-      ],
-      "type": "phrase",
-      "register": "internet/text (very informal)",
-      "meaning": "An intensified yikes for something that is not merely unfortunate but embarrassing to witness — a bad opinion said out loud, a decision nobody can walk back. It judges as much as it winces, and that is what separates it from [big oof](#big-oof).",
+      "meaning": "An intensified yikes for something that is not merely unfortunate but embarrassing to witness — a bad opinion said out loud, a decision nobody can walk back. It judges as much as it winces, and that is what separates it from big oof.",
       "examples": [
         "He put that in a company-wide email. Big yikes.",
         "\"She brought up politics at the rehearsal dinner.\" \"Big yikes.\"",
@@ -732,25 +544,17 @@
         "I read the first paragraph of the review and thought, big yikes.",
         "They spelled the guest of honor's name wrong on the cake. Big yikes."
       ],
-      "related": [
-        "yikes on bikes",
-        "yikes",
-        "cringe",
-        "big oof"
-      ]
+      "senses": [],
+      "русский": "вот это зашквар, ой, кошмар — разг.: не просто неудача, а стыдно смотреть; ещё и осуждает",
+      "register": "internet/text (very informal)",
+      "type": "phrase",
+      "variants": "BIG yikes, big yikers",
+      "see also": "yikes on bikes, yikes, cringe, big oof"
     },
     {
       "term": "F",
       "ipa": "/ɛf/",
       "respell": "EFF",
-      "variants": [
-        "f",
-        "press F",
-        "F in the chat",
-        "Fs in the chat"
-      ],
-      "type": "primary",
-      "register": "internet/text (very informal)",
       "meaning": "A single letter used to pay respects, from a video game that instructed players to \"press F to pay respects\" at a funeral. Online it is almost always ironic — a one-character condolence for something trivial, like a dead phone battery or a canceled show.",
       "examples": [
         "F. My headphones just died on the first song.",
@@ -759,24 +563,17 @@
         "The stream crashed at the final boss and the chat filled up with F.",
         "He announced he'd been given the six a.m. shift and got twelve Fs in reply."
       ],
-      "related": [
-        "rip",
-        "big oof",
-        "L",
-        "gg"
-      ]
+      "senses": [],
+      "русский": "F, эф — разг.: «почтить память» (из игры), ироничное соболезнование по пустяку",
+      "register": "internet/text (very informal)",
+      "type": "primary",
+      "variants": "f, press F, F in the chat, Fs in the chat",
+      "see also": "rip, big oof, L, gg"
     },
     {
       "term": "L",
       "ipa": "/ɛl/",
       "respell": "ELL",
-      "variants": [
-        "big L",
-        "massive L",
-        "L + ratio"
-      ],
-      "type": "primary",
-      "register": "internet/text (very informal)",
       "meaning": "A single-letter verdict meaning \"loss\" — a ruling that something or someone has failed. Aimed at a person it is an insult; said about yourself it is a rueful admission and nothing worse.",
       "examples": [
         "L. I studied for the wrong exam.",
@@ -785,23 +582,17 @@
         "Big L for whoever decided the parking lot needed exactly one exit.",
         "Someone answered his entire argument with a single L and left the thread."
       ],
-      "related": [
-        "W",
-        "F",
-        "rip",
-        "big oof"
-      ]
+      "senses": [],
+      "русский": "поражение, слил (от loss) — разг.; о человеке — оскорбление, о себе — досадное признание",
+      "register": "internet/text (very informal; a straight insult when aimed at a person)",
+      "type": "primary",
+      "variants": "big L, massive L, L + ratio",
+      "see also": "W, F, ratio, rip, big oof"
     },
     {
       "term": "oof size large",
       "ipa": "/ˌʊf saɪz ˈlɑrdʒ/",
       "respell": "oof size LARJ",
-      "variants": [
-        "oof size: large",
-        "oof size massive"
-      ],
-      "type": "phrase",
-      "register": "internet/text (very informal; deliberately silly, dating to about 2018)",
       "meaning": "A joke escalation of oof, as though wincing came in shirt sizes. It is for a mishap worse than an ordinary oof but still funny, and the deliberately broken grammar is the entire point.",
       "examples": [
         "He hit reply-all on the email complaining about reply-all. Oof size large.",
@@ -810,22 +601,17 @@
         "I locked myself out while taking the trash out in a bathrobe. Oof size large.",
         "The typo made it onto the printed programs. All four thousand of them. Oof size large."
       ],
-      "related": [
-        "big oof",
-        "oof",
-        "oofa doofa"
-      ]
+      "senses": [],
+      "русский": "ой размера XL — разг.: шуточное усиление oof, нарочито ломаная грамматика и есть шутка",
+      "register": "internet/text (very informal; deliberately silly, dating to about 2018)",
+      "type": "phrase",
+      "variants": "oof size: large, oof size massive",
+      "see also": "big oof, oof, oofa doofa"
     },
     {
       "term": "oofa doofa",
       "ipa": "/ˌufə ˈdufə/",
       "respell": "OO-fuh DOO-fuh",
-      "variants": [
-        "oofa-doofa",
-        "ooffa doofa"
-      ],
-      "type": "phrase",
-      "register": "internet/text (very informal; niche and jokey)",
       "meaning": "A nonsense elaboration of oof, in the same family as oof size large. It is small-circle slang rather than general usage, and it exists mainly to make wincing sound as ridiculous as possible.",
       "examples": [
         "Oofa doofa, that presentation did not go the way he planned.",
@@ -834,23 +620,17 @@
         "She looked at the final score, said oofa doofa, and turned off the TV.",
         "The bill came to two hundred dollars for four people. Oofa doofa."
       ],
-      "related": [
-        "oof size large",
-        "big oof",
-        "oof"
-      ]
+      "senses": [],
+      "русский": "ой-ёй-ёюшки — разг.: дурашливое разрастание oof, узкий кружковый сленг",
+      "register": "internet/text (very informal; niche and jokey)",
+      "type": "phrase",
+      "variants": "oofa-doofa, ooffa doofa",
+      "see also": "oof size large, big oof, oof"
     },
     {
       "term": "rip",
       "ipa": "/rɪp/, also spelled out /ˌɑrˌaɪˈpi/",
       "respell": "RIP (rhyming with lip), or ar-eye-PEE",
-      "variants": [
-        "RIP",
-        "ripp",
-        "rip bozo (mocking)"
-      ],
-      "type": "primary",
-      "register": "internet/text (very informal)",
       "meaning": "The gravestone abbreviation \"rest in peace,\" reused as a shrug for anything that has ended, broken, or gone wrong. Saying it as a word rather than as three letters is the tell that it is being used this way — actual deaths still get the letters, said plainly.",
       "examples": [
         "RIP my phone battery, we had a good run.",
@@ -860,23 +640,17 @@
         "Rip, the coffee shop on the corner closed for good.",
         "My weekend plans, and also my knee: rip."
       ],
-      "related": [
-        "F",
-        "big oof",
-        "L",
-        "welp"
-      ]
+      "senses": [],
+      "русский": "рип, R.I.P. — разг.: «покойся с миром» о чём угодно сломавшемся или закончившемся",
+      "register": "internet/text (very informal)",
+      "type": "primary",
+      "variants": "RIP, ripp, rip bozo (mocking)",
+      "see also": "F, big oof, L, welp, womp womp"
     },
     {
       "term": "welp",
       "ipa": "/wɛlp/",
       "respell": "WELP",
-      "variants": [
-        "wellp",
-        "welp."
-      ],
-      "type": "primary",
-      "register": "informal (spoken and internet/text)",
       "meaning": "A clipped, resigned well — the sound of accepting a bad outcome and moving on. It closes a discussion instead of opening one, and online it usually stands alone as a complete message.",
       "examples": [
         "Welp. There goes the security deposit.",
@@ -886,24 +660,17 @@
         "Welp, that's the third time this month.",
         "She read the rejection, typed welp, and opened the next application."
       ],
-      "related": [
-        "rip",
-        "oop",
-        "meh",
-        "well"
-      ]
+      "senses": [],
+      "русский": "ну чё ж, нда — разг.: усечённое well, смирение с плохим исходом и переход дальше",
+      "register": "informal (spoken and internet/text)",
+      "type": "primary",
+      "variants": "wellp, welp.",
+      "see also": "rip, oop, womp womp, meh, well"
     },
     {
       "term": "womp womp",
       "ipa": "/ˌwɑmp ˈwɑmp/",
       "respell": "wahmp WAHMP",
-      "variants": [
-        "womp",
-        "wamp wamp",
-        "womp womp womp"
-      ],
-      "type": "onomatopoeic",
-      "register": "internet/text and spoken (very informal; mocking — it is an insult dressed as sympathy)",
       "meaning": "The two descending notes of a sad trombone, spelled out. Typed at somebody else's misfortune it is not sympathy in any form: it means \"that's too bad and I do not care,\" and it is one of the most dismissive things in this file. Turned on yourself it softens into a shrug at your own bad luck.",
       "examples": [
         "\"They're out of the good donuts.\" \"Womp womp.\"",
@@ -913,25 +680,18 @@
         "My fantasy team lost by half a point. Womp womp.",
         "Somebody posted womp womp under the layoff announcement and it did not go well for them."
       ],
-      "related": [
-        "rip",
-        "big oof",
-        "F",
-        "ratio",
-        "meh"
-      ]
+      "senses": [],
+      "русский": "пу-пу-пу — разг.: грустная труба, издёвка под видом сочувствия — «жаль, и плевать»",
+      "register": "internet/text and spoken (very informal; mocking — it is an insult dressed as sympathy)",
+      "type": "onomatopoeic",
+      "variants": "womp, wamp wamp, womp womp womp",
+      "see also": "rip, big oof, F, ratio, meh"
     },
     {
       "term": "yikes on bikes",
       "ipa": "/ˌjaɪks ɑn ˈbaɪks/",
       "respell": "yikes on BIKES",
-      "variants": [
-        "yikes on a bike",
-        "yikes on bikes with spikes"
-      ],
-      "type": "phrase",
-      "register": "internet/text (very informal; jokey)",
-      "meaning": "A rhyming escalation of [big yikes](#big-yikes), for when something is so ill-advised that plain alarm will not cover it. The silliness of the rhyme keeps it light — it is for cringing, never for real danger.",
+      "meaning": "A rhyming escalation of big yikes, for when something is so ill-advised that plain alarm will not cover it. The silliness of the rhyme keeps it light — it is for cringing, never for real danger.",
       "examples": [
         "He put that opinion in writing, with his name on it. Yikes on bikes.",
         "\"She's getting back together with him.\" \"Yikes on bikes.\"",
@@ -939,24 +699,17 @@
         "I read the comments section for about nine seconds. Yikes on bikes.",
         "They named the new mascot without asking a single person. Yikes on bikes."
       ],
-      "related": [
-        "big yikes",
-        "yikes",
-        "big oof",
-        "cringe"
-      ]
+      "senses": [],
+      "русский": "ужас-ужас-ужас — разг.: рифмованное усиление yikes, шутливо, не про настоящую опасность",
+      "register": "internet/text (very informal; jokey)",
+      "type": "phrase",
+      "variants": "yikes on a bike, yikes on bikes with spikes",
+      "see also": "big yikes, yikes, big oof, cringe"
     },
     {
       "term": "based",
       "ipa": "/beɪst/",
       "respell": "BAYST",
-      "variants": [
-        "based.",
-        "based af",
-        "based and redpilled (far-right in origin)"
-      ],
-      "type": "secondary",
-      "register": "internet/text (very informal; carries political baggage in some communities)",
       "meaning": "A one-word compliment for saying something true regardless of who it annoys — praise for conviction rather than for correctness. It began as rapper slang meaning \"being unapologetically yourself,\" was picked up by online political forums, and still smells faintly of that; between friends it is simply high praise for a bold opinion.",
       "examples": [
         "Based. Somebody finally said it.",
@@ -965,25 +718,17 @@
         "Based — she stood up and left the meeting the second it ran past the hour.",
         "The librarian who put up a sign about phone calls is deeply based."
       ],
-      "related": [
-        "facts",
-        "W",
-        "cap",
-        "cringe"
-      ]
+      "senses": [],
+      "русский": "красава, уважуха — разг.: похвала за смелое мнение; кое-где с политическим шлейфом",
+      "register": "internet/text (very informal; carries political baggage in some communities)",
+      "type": "secondary",
+      "variants": "based., based af, based and redpilled (far-right in origin)",
+      "see also": "facts, W, cap, cringe"
     },
     {
       "term": "bet",
       "ipa": "/bɛt/",
       "respell": "BET",
-      "variants": [
-        "aight bet",
-        "ight bet",
-        "ard bet",
-        "bet."
-      ],
-      "type": "secondary",
-      "register": "internet/text and spoken slang (very informal; from African American English)",
       "meaning": "\"Agreed\" or \"you're on\" — a one-word yes that also closes the conversation. Delivered flat it can mean the opposite: a skeptical \"sure you will,\" daring the other person to actually follow through.",
       "examples": [
         "\"Meet me there at seven?\" \"Bet.\"",
@@ -993,25 +738,18 @@
         "\"Don't tell her.\" \"Bet.\"",
         "Bet — see you Saturday."
       ],
-      "related": [
-        "say less",
-        "facts",
-        "ong",
-        "deadass"
-      ]
+      "senses": [],
+      "русский": "замётано, по рукам — разг.: короткое «да», закрывающее разговор; сухо — «ну-ну»",
+      "register": "internet/text and spoken slang (very informal; from African American English)",
+      "type": "secondary",
+      "variants": "aight bet, ight bet, ard bet, bet.",
+      "see also": "say less, facts, ong, deadass"
     },
     {
       "term": "big mood",
       "ipa": "/ˌbɪɡ ˈmud/",
       "respell": "big MOOD",
-      "variants": [
-        "whole mood",
-        "entire mood",
-        "BIG mood"
-      ],
-      "type": "phrase",
-      "register": "internet/text (very informal)",
-      "meaning": "An intensified [mood](#mood): \"that is exactly, overwhelmingly how I feel.\" It is usually posted under an image or a complaint, and the big signals that the recognition is total rather than partial.",
+      "meaning": "An intensified mood: \"that is exactly, overwhelmingly how I feel.\" It is usually posted under an image or a complaint, and the big signals that the recognition is total rather than partial.",
       "examples": [
         "A photo of a dog refusing to get out of bed. Big mood.",
         "\"I've stared at this spreadsheet for an hour and changed nothing.\" \"Big mood.\"",
@@ -1019,24 +757,17 @@
         "She captioned the picture of the empty coffee pot \"whole mood.\"",
         "Somebody called October \"the Sunday of months\" and honestly, big mood."
       ],
-      "related": [
-        "mood",
-        "same",
-        "this",
-        "facts"
-      ]
+      "senses": [],
+      "русский": "это прям про меня, вот прям я — разг.: полное узнавание себя в чужой картинке или жалобе",
+      "register": "internet/text (very informal)",
+      "type": "phrase",
+      "variants": "whole mood, entire mood, BIG mood",
+      "see also": "mood, same, this, facts"
     },
     {
       "term": "cap",
       "ipa": "/kæp/",
       "respell": "KAP",
-      "variants": [
-        "capping",
-        "that's cap",
-        "stop capping"
-      ],
-      "type": "secondary",
-      "register": "internet/text and spoken slang (very informal; from African American English)",
       "meaning": "A call-out meaning \"that's a lie.\" It comes from African American English, where capping is boasting or exaggerating, and it is thrown at a claim that sounds too good to be true — usually as a friendly challenge rather than a real accusation.",
       "examples": [
         "\"I ran a five-minute mile in high school.\" \"Cap.\"",
@@ -1045,26 +776,18 @@
         "\"I finished the whole book last night.\" \"Cap, you were asleep by nine.\"",
         "Stop capping — you did not talk to the manager."
       ],
-      "related": [
-        "no cap",
-        "sus",
-        "deadass",
-        "fr"
-      ]
+      "senses": [],
+      "русский": "врёшь, гонишь — разг.: обвинение во лжи, обычно дружеский подкол",
+      "register": "internet/text and spoken slang (very informal; from African American English)",
+      "type": "secondary",
+      "variants": "capping, that's cap, stop capping",
+      "see also": "no cap, sus, deadass, fr"
     },
     {
       "term": "cringe",
       "ipa": "/krɪndʒ/",
       "respell": "KRINJ",
-      "variants": [
-        "cringey",
-        "so cringe",
-        "cringe af",
-        "cringe compilation"
-      ],
-      "type": "secondary",
-      "register": "internet/text (very informal)",
-      "meaning": "A verb turned into a one-word verdict: \"that is painfully embarrassing to look at.\" Online it is the exact opposite of [based](#based) — where based rewards someone for not caring what people think, cringe punishes them for it.",
+      "meaning": "A verb turned into a one-word verdict: \"that is painfully embarrassing to look at.\" Online it is the exact opposite of based — where based rewards someone for not caring what people think, cringe punishes them for it.",
       "examples": [
         "Cringe. Nobody asked for a forty-slide deck about synergy.",
         "\"He made a rap about the quarterly numbers.\" \"Cringe.\"",
@@ -1072,24 +795,17 @@
         "She watched three seconds of the video, said cringe, and closed the tab.",
         "Reading my own posts from high school is pure cringe."
       ],
-      "related": [
-        "based",
-        "big yikes",
-        "smh",
-        "ok boomer"
-      ]
+      "senses": [],
+      "русский": "кринж, зашквар — разг.: испанский стыд; приговор человеку не меньше, чем вещи",
+      "register": "internet/text (very informal; a judgment on the person as much as the thing — genuinely unkind said to someone's face)",
+      "type": "secondary",
+      "variants": "cringey, so cringe, cringe af, cringe compilation",
+      "see also": "based, big yikes, smh, ok boomer"
     },
     {
       "term": "facts",
       "ipa": "/fækts/",
       "respell": "FAKTS",
-      "variants": [
-        "facts.",
-        "big facts",
-        "straight facts"
-      ],
-      "type": "secondary",
-      "register": "internet/text and spoken slang (very informal)",
       "meaning": "A one-word \"you're completely right,\" used as an entire reply. It is stronger than same — it endorses the claim rather than merely relating to it — and it is common in both texting and speech among younger Americans.",
       "examples": [
         "\"Nobody should have to work before eight in the morning.\" \"Facts.\"",
@@ -1098,24 +814,17 @@
         "\"You're only tired because you never sleep.\" \"…facts.\"",
         "Facts. That place has the best fries in the city and it isn't close."
       ],
-      "related": [
-        "based",
-        "no cap",
-        "fr",
-        "same"
-      ]
+      "senses": [],
+      "русский": "факт, чистая правда — разг.: «ты полностью прав» целым ответом, сильнее, чем same",
+      "register": "internet/text and spoken slang (very informal)",
+      "type": "secondary",
+      "variants": "facts., big facts, straight facts",
+      "see also": "based, no cap, fr, same"
     },
     {
       "term": "ikr",
       "ipa": "/ˌaɪˌkeɪˈɑr/",
       "respell": "eye-kay-AR; usually read out as I know, right?",
-      "variants": [
-        "IKR",
-        "ikrr",
-        "ikr!"
-      ],
-      "type": "primary",
-      "register": "internet/text (informal)",
       "meaning": "\"I know, right?\" — enthusiastic agreement with something the other person has just noticed, especially a shared complaint or a shared enthusiasm. It always responds to something; it can never open a conversation.",
       "examples": [
         "\"This line hasn't moved in fifteen minutes.\" \"ikr\"",
@@ -1124,24 +833,17 @@
         "She wrote ikr and then immediately started listing more examples.",
         "\"Why is everything scented like vanilla now?\" \"ikr, I've been saying this for years.\""
       ],
-      "related": [
-        "same",
-        "facts",
-        "mood",
-        "this"
-      ]
+      "senses": [],
+      "русский": "вот да!, и не говори — разг. (от «I know, right?»): горячее согласие с чужим наблюдением",
+      "register": "internet/text (informal)",
+      "type": "primary",
+      "variants": "IKR, ikrr, ikr!",
+      "see also": "same, facts, mood, this"
     },
     {
       "term": "mid",
       "ipa": "/mɪd/",
       "respell": "MID",
-      "variants": [
-        "mid.",
-        "that's mid",
-        "straight up mid"
-      ],
-      "type": "secondary",
-      "register": "internet/text (very informal)",
       "meaning": "A one-word verdict meaning thoroughly average and therefore not worth anybody's time. It stings more than \"okay\" does, because calling something mid denies it even the dignity of being bad.",
       "examples": [
         "Mid. I don't know why everyone was posting about it.",
@@ -1151,23 +853,17 @@
         "Mid — forty dollars for a sandwich and a handful of chips.",
         "Everyone swears it's the best season. It's mid."
       ],
-      "related": [
-        "cringe",
-        "based",
-        "L",
-        "meh"
-      ]
+      "senses": [],
+      "русский": "так себе, средненько — разг., пренебрежительно: настолько средне, что не стоит внимания",
+      "register": "internet/text (very informal; dismissive — it is a put-down, not a neutral rating)",
+      "type": "secondary",
+      "variants": "mid., that's mid, straight up mid",
+      "see also": "cringe, based, L, meh"
     },
     {
       "term": "mood",
       "ipa": "/mud/",
       "respell": "MOOD",
-      "variants": [
-        "mood.",
-        "me rn"
-      ],
-      "type": "secondary",
-      "register": "internet/text (very informal)",
       "meaning": "A one-word way of saying \"that captures how I feel right now.\" It works as a caption or as a reply, and unlike same it usually points at a picture or a scene rather than at a claim.",
       "examples": [
         "A raccoon asleep in a trash can. Mood.",
@@ -1176,23 +872,17 @@
         "She posted a photo of a wilting plant with the caption \"mood.\"",
         "The dog watching the front door for someone who left an hour ago is a mood."
       ],
-      "related": [
-        "big mood",
-        "same",
-        "this"
-      ]
+      "senses": [],
+      "русский": "настроение, это я сейчас — разг.: «вот прямо моё состояние», обычно под картинкой",
+      "register": "internet/text (very informal)",
+      "type": "secondary",
+      "variants": "mood., me rn",
+      "see also": "big mood, same, this"
     },
     {
       "term": "no cap",
       "ipa": "/ˌnoʊ ˈkæp/",
       "respell": "no KAP",
-      "variants": [
-        "no capp",
-        "fr no cap",
-        "on god no cap"
-      ],
-      "type": "phrase",
-      "register": "internet/text and spoken slang (very informal; from African American English)",
       "meaning": "\"I'm not lying\" — an honesty tag attached to a claim that sounds exaggerated. It can lead the sentence or close it, and it can stand alone as agreement with somebody else.",
       "examples": [
         "That was the best sandwich I've had all year, no cap.",
@@ -1201,24 +891,17 @@
         "He's the fastest guy on the team, no cap.",
         "No cap — I have never once used the fax machine."
       ],
-      "related": [
-        "cap",
-        "fr",
-        "ong",
-        "deadass"
-      ]
+      "senses": [],
+      "русский": "зуб даю, без базара — разг.: метка честности при неправдоподобно звучащем утверждении",
+      "register": "internet/text and spoken slang (very informal; from African American English)",
+      "type": "phrase",
+      "variants": "no capp, fr no cap, on god no cap",
+      "see also": "cap, fr, ong, deadass"
     },
     {
       "term": "noice",
       "ipa": "/nɔɪs/",
       "respell": "NOYSS",
-      "variants": [
-        "noiiice",
-        "noice.",
-        "nice"
-      ],
-      "type": "secondary",
-      "register": "internet/text (very informal; jokey)",
       "meaning": "Nice respelled to catch an exaggerated cartoon accent — approval delivered with a wink. It marks small wins and lucky breaks, and the joke spelling keeps it from sounding sincere enough to be embarrassing.",
       "examples": [
         "Two for one on the tickets? Noice.",
@@ -1228,24 +911,17 @@
         "They upgraded our room for nothing. Noice.",
         "Noice, that's the last form I had to sign."
       ],
-      "related": [
-        "pog",
-        "W",
-        "gg",
-        "based"
-      ]
+      "senses": [],
+      "русский": "найс — разг.: шутливо исковерканное nice, одобрение с подмигиванием",
+      "register": "internet/text (very informal; jokey)",
+      "type": "secondary",
+      "variants": "noiiice, noice., nice",
+      "see also": "pog, W, gg, based"
     },
     {
       "term": "ok boomer",
-      "ipa": "/ˌoʊˈkeɪ ˈbumər/",
+      "ipa": "/ˌoʊˈkeɪ ˈbumɚ/",
       "respell": "oh-KAY BOO-mer",
-      "variants": [
-        "OK boomer",
-        "okay boomer",
-        "ok zoomer (the return volley)"
-      ],
-      "type": "phrase",
-      "register": "internet/text (very informal; dismissive, and by now somewhat dated)",
       "meaning": "A two-word dismissal of an opinion as hopelessly out of touch, aimed at older people or at anything that sounds like a lecture from one. It refuses to engage on purpose — that refusal is its whole force — which makes it genuinely rude rather than merely cheeky.",
       "examples": [
         "\"Nobody wants to work anymore.\" \"Ok boomer.\"",
@@ -1254,25 +930,17 @@
         "She said okay boomer to her father and dinner ended early.",
         "\"In my day we simply called the office.\" \"Ok boomer.\""
       ],
-      "related": [
-        "cringe",
-        "smh",
-        "L",
-        "based"
-      ]
+      "senses": [],
+      "русский": "ок, бумер — разг.: отмахнуться от мнения как безнадёжно устаревшего; по-настоящему грубо",
+      "register": "internet/text (very informal; dismissive, and by now somewhat dated)",
+      "type": "phrase",
+      "variants": "OK boomer, okay boomer, ok zoomer (the return volley)",
+      "see also": "cringe, smh, L, based"
     },
     {
       "term": "ratio",
       "ipa": "/ˈreɪʃoʊ/",
       "respell": "RAY-shoh",
-      "variants": [
-        "ratioed",
-        "L + ratio",
-        "ratio + you fell off",
-        "get ratioed"
-      ],
-      "type": "secondary",
-      "register": "internet/text (very informal; hostile — it calls for a pile-on)",
       "meaning": "A one-word verdict that a post has drawn more replies than likes — meaning that nearly everyone who saw it stopped to disagree. Typed as a reply it is both a ruling and an invitation for strangers to join in, and that second half is what makes it an aggressive thing to say rather than a joke.",
       "examples": [
         "Ratio. Not one person in that thread agreed with him.",
@@ -1282,27 +950,17 @@
         "She said the sequel was better and the entire timeline ratioed her for it.",
         "The brand account tried to argue with a sixteen-year-old and lost the ratio badly."
       ],
-      "related": [
-        "L",
-        "rekt",
-        "cringe",
-        "ok boomer",
-        "womp womp"
-      ]
+      "senses": [],
+      "русский": "заминусили, рейшио — разг., враждебно: возражений больше, чем лайков; призыв налететь",
+      "register": "internet/text (very informal; hostile — it calls for a pile-on)",
+      "type": "secondary",
+      "variants": "ratioed, L + ratio, ratio + you fell off, get ratioed",
+      "see also": "L, rekt, cringe, ok boomer, womp womp"
     },
     {
       "term": "rekt",
       "ipa": "/rɛkt/",
       "respell": "REKT",
-      "variants": [
-        "get rekt",
-        "REKT",
-        "rekt lol",
-        "owned",
-        "pwned"
-      ],
-      "type": "secondary",
-      "register": "internet/text (very informal; gaming in origin; a taunt)",
       "meaning": "Wrecked respelled, called out at somebody who has just been beaten, corrected, or comprehensively answered. It came out of gaming trash talk and it still sounds like it: get rekt, aimed at the loser rather than said about them, is the rudest form and the most common one.",
       "examples": [
         "Rekt. He demanded a source and she posted three of them.",
@@ -1312,26 +970,17 @@
         "He tried to correct the professor on her own paper and got rekt in front of the lecture hall.",
         "Somebody answered his ten-paragraph post with a single receipt. Rekt."
       ],
-      "related": [
-        "L",
-        "ratio",
-        "gg",
-        "W",
-        "cringe"
-      ]
+      "senses": [],
+      "русский": "уничтожен, получил по щам — разг.: геймерская издёвка над разгромленным или посаженным в лужу",
+      "register": "internet/text (very informal; gaming in origin; a taunt)",
+      "type": "secondary",
+      "variants": "get rekt, REKT, rekt lol, owned, pwned",
+      "see also": "L, ratio, gg, W, cringe"
     },
     {
       "term": "same",
       "ipa": "/seɪm/",
       "respell": "SAME",
-      "variants": [
-        "same.",
-        "SAME",
-        "big same",
-        "sameee"
-      ],
-      "type": "secondary",
-      "register": "internet/text (informal)",
       "meaning": "A one-word \"me too,\" used as a complete reply. It is the mildest of the agreement words — it says you relate, not that you approve — and it fits a confession, a complaint, or a photo of somebody lying on the floor equally well.",
       "examples": [
         "\"I've been putting off that email for three days.\" \"Same.\"",
@@ -1340,23 +989,17 @@
         "She said she needs a nap after grocery shopping and I typed same.",
         "Same, honestly. I've read that first chapter four times."
       ],
-      "related": [
-        "mood",
-        "big mood",
-        "ikr",
-        "this"
-      ]
+      "senses": [],
+      "русский": "та же фигня, плюсую — разг.: «и я тоже» целым ответом, самое мягкое из согласий",
+      "register": "internet/text (informal)",
+      "type": "secondary",
+      "variants": "same., SAME, big same, sameee",
+      "see also": "mood, big mood, ikr, this"
     },
     {
       "term": "say less",
       "ipa": "/ˌseɪ ˈlɛs/",
       "respell": "say LESS",
-      "variants": [
-        "say less fam",
-        "say no more"
-      ],
-      "type": "phrase",
-      "register": "internet/text and spoken slang (very informal; from African American English)",
       "meaning": "\"Stop explaining — I'm in.\" It agrees and ends the conversation in the same breath, and it flatters the other person: the idea was so obviously good that no further pitch is needed.",
       "examples": [
         "\"There's a taco place two blocks from the hotel.\" \"Say less.\"",
@@ -1365,23 +1008,17 @@
         "He heard \"free food\" and said say less before I could finish the sentence.",
         "\"It's the same director as the last one.\" \"Say less, I'm going.\""
       ],
-      "related": [
-        "bet",
-        "facts",
-        "ong"
-      ]
+      "senses": [],
+      "русский": "не продолжай, я в деле — разг.: соглашается и закрывает разговор одной фразой",
+      "register": "internet/text and spoken slang (very informal; from African American English)",
+      "type": "phrase",
+      "variants": "say less fam, say no more",
+      "see also": "bet, facts, ong"
     },
     {
       "term": "sus",
       "ipa": "/sʌs/",
       "respell": "SUSS",
-      "variants": [
-        "suss",
-        "sussy",
-        "sus af"
-      ],
-      "type": "secondary",
-      "register": "internet/text (very informal)",
       "meaning": "Short for \"suspicious.\" The clipping is old British slang, but the current American use comes straight from the game Among Us, where players accuse each other of being the impostor. It flags something that does not add up, almost always in a joking tone.",
       "examples": [
         "He says he was at the gym at two in the morning. Sus.",
@@ -1390,24 +1027,17 @@
         "Sus — the reviews were all posted on the same day.",
         "She's been suspiciously quiet about the party, which is sus in itself."
       ],
-      "related": [
-        "cap",
-        "smh",
-        "oop"
-      ]
+      "senses": [],
+      "русский": "подозрительно, мутно — разг.: что-то не сходится; из игры Among Us, обычно в шутку",
+      "register": "internet/text (very informal)",
+      "type": "secondary",
+      "variants": "suss, sussy, sus af",
+      "see also": "cap, smh, oop"
     },
     {
       "term": "this",
       "ipa": "/ðɪs/",
       "respell": "THIS",
-      "variants": [
-        "^this",
-        "THIS",
-        "this.",
-        "all of this"
-      ],
-      "type": "secondary",
-      "register": "internet/text (informal)",
       "meaning": "An ordinary pronoun used as a pointing finger: posted under someone else's comment, it means \"everything above me is correct and I have nothing to add.\" The older form put a caret in front of it (^this) to point up the page.",
       "examples": [
         "\"The problem isn't the meetings, it's the meetings about the meetings.\" \"This.\"",
@@ -1416,26 +1046,18 @@
         "^This — exactly what I've been trying to explain for a month.",
         "Somebody said restaurants are too loud now and half the replies were just this."
       ],
-      "related": [
-        "facts",
-        "same",
-        "based",
-        "big mood"
-      ]
+      "senses": [],
+      "русский": "вот!, плюсую, ^ это — разг.: под чужим комментарием «выше всё верно, добавить нечего»",
+      "register": "internet/text (informal)",
+      "type": "secondary",
+      "variants": "^this, THIS, this., all of this",
+      "see also": "facts, same, based, big mood"
     },
     {
       "term": "W",
       "ipa": "/ˈdʌbəlju/, often clipped to /dʌb/",
       "respell": "DUB-ul-yoo, or DUB",
-      "variants": [
-        "w",
-        "big W",
-        "dub",
-        "W take"
-      ],
-      "type": "primary",
-      "register": "internet/text (very informal)",
-      "meaning": "A single-letter verdict meaning \"win\" — approval of a decision, a purchase, or a person. It is the mirror image of [L](#l), and it can be assigned to somebody: a W for the coach means the coach did well.",
+      "meaning": "A single-letter verdict meaning \"win\" — approval of a decision, a purchase, or a person. It is the mirror image of L, and it can be assigned to somebody: a W for the coach means the coach did well.",
       "examples": [
         "Free parking downtown all December? W.",
         "\"They brought back the old menu.\" \"Huge W.\"",
@@ -1443,25 +1065,17 @@
         "Big W — the library stays open until midnight during finals.",
         "He took the dub and never let any of us forget it."
       ],
-      "related": [
-        "L",
-        "based",
-        "gg",
-        "facts"
-      ]
+      "senses": [],
+      "русский": "победа, зачёт (от win) — разг.: одобрение решения, покупки или человека; зеркало L",
+      "register": "internet/text (very informal)",
+      "type": "primary",
+      "variants": "w, big W, dub, W take",
+      "see also": "L, based, gg, facts"
     },
     {
       "term": "ayo",
-      "ipa": "/aɪˈjoʊ/",
-      "respell": "eye-YOH",
-      "variants": [
-        "ayoo",
-        "ayooo",
-        "ay yo",
-        "AYO"
-      ],
-      "type": "primary",
-      "register": "internet/text (very informal)",
+      "ipa": "/aɪˈjoʊ/, also /eɪˈjoʊ/",
+      "respell": "eye-YOH, or ay-YOH",
       "meaning": "An attention-grabbing yo with an extra beat on the front. Online it does one particular job: it stops the conversation because something has just gotten weird, inappropriate, or too good to let pass.",
       "examples": [
         "Ayo, that is not what I meant and you know it.",
@@ -1470,26 +1084,17 @@
         "He typed ayooo the second the trailer dropped.",
         "Ayo, whose car is parked across two spaces?"
       ],
-      "related": [
-        "ayy",
-        "bruh",
-        "yo",
-        "oop"
-      ]
+      "senses": [],
+      "русский": "эй!, э, погоди — разг.: останавливает разговор, потому что стало странно или неприлично",
+      "register": "internet/text (very informal)",
+      "type": "primary",
+      "variants": "ayoo, ayooo, ay yo, AYO",
+      "see also": "ayy, bruh, yo, oop"
     },
     {
       "term": "ayy",
       "ipa": "/eɪ/",
       "respell": "AY",
-      "variants": [
-        "ayyy",
-        "ayyyy",
-        "eyy",
-        "ey",
-        "ayy lmao"
-      ],
-      "type": "primary",
-      "register": "internet/text (very informal)",
       "meaning": "A cheerful, drawn-out shout of recognition or triumph — the sound of pointing at somebody across a room. The more y's, the more pleased you are, and it doubles as a knowing nudge after a mild innuendo.",
       "examples": [
         "Ayyy, look who finally showed up.",
@@ -1498,49 +1103,36 @@
         "He mentioned he had a date on Friday and the whole chat went ayyyy.",
         "Ayy lmao, the pizza got here before the tracker even updated."
       ],
-      "related": [
-        "ayo",
-        "yas",
-        "pog",
-        "gg"
-      ]
+      "senses": [],
+      "русский": "о-о!, йоу! — разг.: радостный возглас узнавания или триумфа; чем больше «й», тем радостнее",
+      "register": "internet/text (very informal)",
+      "type": "primary",
+      "variants": "ayyy, ayyyy, eyy, ey, ayy lmao",
+      "see also": "ayo, yas, pog, gg"
     },
     {
       "term": "damn son",
       "ipa": "/ˌdæm ˈsʌn/",
       "respell": "dam SUN",
-      "variants": [
-        "dayum son",
-        "damn son where'd you find this"
-      ],
-      "type": "phrase",
-      "register": "internet/text (very informal; mildly profane)",
       "meaning": "An admiring or startled \"wow,\" lifted from a viral video and used as a whole reaction. It carries exaggerated swagger — a compliment delivered like a punch on the shoulder — and despite the son it gets said to men and women alike.",
       "examples": [
-        "Damn son, that is a serious grill.",
+        "Damn son, that is a serious sound system.",
         "\"I did the whole kitchen myself.\" \"Damn son.\"",
         "Damn son — she ran it in under twenty minutes.",
         "He walked in wearing the suit and somebody in the back said damn son.",
         "Four hundred dollars for a set of tires? Damn son."
       ],
-      "related": [
-        "sheesh",
-        "ayy",
-        "pog",
-        "damn"
-      ]
+      "senses": [],
+      "русский": "ну ты даёшь, ого, брат — разг., слегка грубоватое: восхищение с показной удалью",
+      "register": "internet/text (very informal; mildly profane)",
+      "type": "phrase",
+      "variants": "dayum son, damn son where'd you find this",
+      "see also": "sheesh, ayy, pog, damn"
     },
     {
       "term": "deadass",
       "ipa": "/ˈdɛdˌæs/",
       "respell": "DED-ass",
-      "variants": [
-        "dead ass",
-        "deadass?",
-        "deadazz"
-      ],
-      "type": "secondary",
-      "register": "internet/text and spoken slang (very informal; New York City in origin; mildly vulgar)",
       "meaning": "\"Seriously\" — an honesty tag out of New York English, used to swear that you are not joking or, with a question mark, to ask whether the other person is. It can lead a sentence, close one, or stand entirely alone.",
       "examples": [
         "Deadass, I waited an hour and a half for a table.",
@@ -1549,25 +1141,17 @@
         "She said deadass three separate times before I believed her.",
         "Deadass — that is the last time I trust a weather app."
       ],
-      "related": [
-        "ong",
-        "fr",
-        "no cap",
-        "istg"
-      ]
+      "senses": [],
+      "русский": "на серьёзных щах, зуб даю — разг., слегка грубое (нью-йоркское): «серьёзно, без шуток»",
+      "register": "internet/text and spoken slang (very informal; New York City in origin; mildly vulgar)",
+      "type": "secondary",
+      "variants": "dead ass, deadass?, deadazz",
+      "see also": "ong, fr, no cap, istg"
     },
     {
       "term": "fr",
       "ipa": "/ˌɛfˈɑr/",
-      "respell": "ef-AR; usually read out as for real, /fər ˈril/",
-      "variants": [
-        "frfr",
-        "fr fr",
-        "FR",
-        "fr?"
-      ],
-      "type": "primary",
-      "register": "internet/text (very informal)",
+      "respell": "ef-AR; usually read out as for real, /fɚ ˈril/",
       "meaning": "\"For real\" — either a tag confirming that you mean what you just said, or a one-word agreement with what somebody else said. Doubled to frfr it is more emphatic; with a question mark it asks whether the other person is serious.",
       "examples": [
         "fr, that's the best deal I've seen all year.",
@@ -1576,25 +1160,17 @@
         "\"He's moving to Alaska.\" \"Fr?\"",
         "That test was harder than the practice one, fr fr."
       ],
-      "related": [
-        "ong",
-        "no cap",
-        "deadass",
-        "facts"
-      ]
+      "senses": [],
+      "русский": "реально, серьёзно (от «for real») — разг.: подтверждение своих слов или согласие с чужими",
+      "register": "internet/text (very informal)",
+      "type": "primary",
+      "variants": "frfr, fr fr, FR, fr?",
+      "see also": "ong, no cap, deadass, facts"
     },
     {
       "term": "gg",
       "ipa": "/ˌdʒiˈdʒi/",
       "respell": "jee-JEE",
-      "variants": [
-        "GG",
-        "ggwp (good game, well played)",
-        "gg ez (a taunt)",
-        "gg go next"
-      ],
-      "type": "primary",
-      "register": "internet/text (very informal; gaming in origin)",
       "meaning": "\"Good game,\" typed in chat at the end of a match. It leads two lives: the sincere one, a handshake between players, and the sarcastic one, where gg alone after a disaster means \"well, that's over.\" The variant gg ez — \"good game, easy\" — is a deliberate insult to the losing side and gets people reported for it.",
       "examples": [
         "gg everyone, good match.",
@@ -1604,26 +1180,17 @@
         "I burned the second batch of cookies too. gg.",
         "\"We're down thirty with a minute to play.\" \"gg go next.\""
       ],
-      "related": [
-        "pog",
-        "F",
-        "L",
-        "W",
-        "rip"
-      ]
+      "senses": [],
+      "русский": "гг, хорошая игра — разг.: геймерское рукопожатие; саркастически — «ну всё, приплыли»",
+      "register": "internet/text (very informal; gaming in origin)",
+      "type": "primary",
+      "variants": "GG, ggwp (good game, well played), gg ez (a taunt), gg go next",
+      "see also": "pog, F, L, W, rekt, rip"
     },
     {
       "term": "lfg",
       "ipa": "/ˌɛlˌɛfˈdʒi/",
-      "respell": "el-ef-JEE; usually read out as the phrase it stands for, let's fucking go",
-      "variants": [
-        "LFG",
-        "LFGGG",
-        "lfgo",
-        "let's go"
-      ],
-      "type": "primary",
-      "register": "internet/text (vulgar)",
+      "respell": "",
       "meaning": "\"Let's fucking go\" — undiluted hype, typed at good news or in the last seconds before something starts. It is the loudest approval on this list, and the extra gs are the volume knob. Be careful in gaming spaces, where the same three letters have meant \"looking for group\" since long before this sense existed.",
       "examples": [
         "LFG the tickets just went on sale",
@@ -1633,25 +1200,18 @@
         "The group chat went LFG over a rescheduled dentist appointment, which tells you what kind of week it had been.",
         "She put lfg in a client channel and spent the rest of the afternoon apologizing for it."
       ],
-      "related": [
-        "pog",
-        "ayy",
-        "yas",
-        "W",
-        "gg"
-      ]
+      "senses": [],
+      "pronunciation note": "el-ef-JEE; usually read out as the phrase it stands for, let's fucking go",
+      "русский": "погнали, блядь! — мат (от «let's fucking go»): чистый хайп перед хорошим событием",
+      "register": "internet/text (vulgar)",
+      "type": "primary",
+      "variants": "LFG, LFGGG, lfgo, let's go",
+      "see also": "pog, ayy, yas, W, gg"
     },
     {
       "term": "ong",
       "ipa": "/ˌoʊˌɛnˈdʒi/",
       "respell": "oh-en-JEE; usually read out as on God",
-      "variants": [
-        "ONG",
-        "on god",
-        "on gd"
-      ],
-      "type": "primary",
-      "register": "internet/text (very informal; from African American English)",
       "meaning": "\"On God\" — a sworn-oath tag meaning you are telling the truth, and by extension a strong \"absolutely.\" It makes the same move as deadass and no cap, and it can either open a claim of your own or agree with somebody else's.",
       "examples": [
         "ong that was the loudest concert I have ever been to",
@@ -1660,53 +1220,37 @@
         "He swore ong that he'd never seen the show and then quoted three lines from it.",
         "\"This is the best chicken in the city.\" \"ong.\""
       ],
-      "related": [
-        "deadass",
-        "no cap",
-        "fr",
-        "istg"
-      ]
+      "senses": [],
+      "русский": "ей-богу, зуб даю (от «on God») — разг.: клятва, что не врёшь; и просто сильное «однозначно»",
+      "register": "internet/text (very informal; from African American English)",
+      "type": "primary",
+      "variants": "ONG, on god, on gd",
+      "see also": "deadass, no cap, fr, istg"
     },
     {
       "term": "periodt",
-      "ipa": "/ˈpɪriədt/",
-      "respell": "PEER-ee-udt, with the final t punched out",
-      "variants": [
-        "period",
-        "perioduh",
-        "and that's on periodt",
-        "pointe"
-      ],
-      "type": "secondary",
-      "register": "internet/text (very informal; from Black and drag culture)",
+      "ipa": "/ˈpɪriət/",
+      "respell": "PEER-ee-ut",
       "meaning": "Period with an extra t stuck on the end to make the full stop audible. It closes a statement and refuses any further discussion: what was just said is final and correct.",
       "examples": [
         "She was the best part of the entire movie, periodt.",
         "Nobody should have to work on Christmas Eve. Periodt.",
         "\"The blue one is better.\" \"Periodt.\"",
-        "He says his grandmother makes the best pie in the state, and that's on periodt.",
+        "My grandmother makes the best sweet potato pie in this state, and that's on periodt.",
         "Periodt — that meeting could have been an email."
       ],
-      "related": [
-        "facts",
-        "say less",
-        "sis",
-        "chile"
-      ]
+      "senses": [],
+      "pronunciation note": "there is no /dt/ cluster in it; the d of period is simply replaced by a hard, fully released /t/",
+      "русский": "и точка! — разг.: сказанное окончательно и обсуждению не подлежит",
+      "register": "internet/text (very informal; from Black and drag culture, and it can read as caricature in a mouth that is neither)",
+      "type": "secondary",
+      "variants": "period, perioduh, and that's on periodt, pointe",
+      "see also": "facts, say less, sis, chile"
     },
     {
       "term": "pog",
       "ipa": "/pɑɡ/",
       "respell": "POG",
-      "variants": [
-        "poggers",
-        "PogChamp",
-        "pog champ",
-        "pogu",
-        "poggies"
-      ],
-      "type": "primary",
-      "register": "internet/text (very informal; Twitch and gaming)",
       "meaning": "An exclamation of hype out of Twitch chat, named for an emote of a streamer pulling a shocked face. It means \"that was awesome\" and floods a chat the instant something impressive happens; outside gaming spaces it sounds like a foreign language.",
       "examples": [
         "Pog, he hit that shot from half court.",
@@ -1715,25 +1259,17 @@
         "The chat scrolled past a thousand poggers in about four seconds.",
         "She got the very last ticket. Pog."
       ],
-      "related": [
-        "gg",
-        "hmmge",
-        "ayy",
-        "W"
-      ]
+      "senses": [],
+      "русский": "пог, вот это да! — разг.: твич-восторг «круто!»; вне стримов непонятно совсем",
+      "register": "internet/text (very informal; Twitch and gaming)",
+      "type": "primary",
+      "variants": "poggers, PogChamp, pog champ, pogu, poggies",
+      "see also": "gg, hmmge, ayy, W"
     },
     {
       "term": "slay",
       "ipa": "/sleɪ/",
       "respell": "SLAY",
-      "variants": [
-        "slayyy",
-        "slay queen",
-        "you slayed",
-        "slayed"
-      ],
-      "type": "secondary",
-      "register": "internet/text (very informal; from Black and drag culture)",
       "meaning": "A shout of praise for someone who has done something exceptionally well or looked exceptionally good. It came out of Black and drag ballroom culture, moved through pop music and then TikTok, and today the extra ys or a deadpan delivery do most of the work of separating real praise from a joke.",
       "examples": [
         "That outfit? Slay.",
@@ -1743,26 +1279,17 @@
         "He captioned a photo of his own lasagna slay, and honestly, fair.",
         "Slay, I could never have parallel parked into that spot."
       ],
-      "related": [
-        "yas",
-        "periodt",
-        "pog",
-        "W"
-      ]
+      "senses": [],
+      "русский": "ты богиня, жжёшь — разг.: похвала за блестяще сделанное или роскошный вид",
+      "register": "internet/text (very informal; from Black and drag culture)",
+      "type": "secondary",
+      "variants": "slayyy, slay queen, you slayed, slayed",
+      "see also": "yas, periodt, pog, W"
     },
     {
       "term": "yas",
       "ipa": "/jæs/",
       "respell": "YASS",
-      "variants": [
-        "yaas",
-        "yasss",
-        "yaaas",
-        "yassss",
-        "yas queen"
-      ],
-      "type": "secondary",
-      "register": "internet/text (very informal; from Black and Latino ballroom and drag culture)",
       "meaning": "An extended, delighted yes — not an answer to a question but a cheer at somebody doing something well. It came out of ballroom and drag culture, went mainstream through television, and the extra letters are the enthusiasm.",
       "examples": [
         "Yasss, that jacket looks incredible on you.",
@@ -1771,24 +1298,17 @@
         "She posted the graduation photo and the replies were nothing but yaaas.",
         "Yas, they're playing the good stuff tonight."
       ],
-      "related": [
-        "ayy",
-        "periodt",
-        "sis",
-        "pog"
-      ]
+      "senses": [],
+      "русский": "да-а-а!, уии! — разг.: восторженное «да» — не ответ, а одобрение чужого успеха",
+      "register": "internet/text (very informal; from Black and Latino ballroom and drag culture)",
+      "type": "secondary",
+      "variants": "yaas, yasss, yaaas, yassss, yas queen",
+      "see also": "ayy, periodt, sis, pog"
     },
     {
       "term": "yeet",
       "ipa": "/jit/",
       "respell": "YEET",
-      "variants": [
-        "YEET",
-        "yeeet",
-        "yeetus"
-      ],
-      "type": "primary",
-      "register": "internet/text (very informal; jokey)",
       "meaning": "A shout that accompanies throwing something hard, or any sudden, committed, faintly reckless action. It started as a dance and a basketball celebration and has since become a verb as well; as an interjection it is pure comic energy.",
       "examples": [
         "Yeet! He threw the crumpled paper across the room and missed the trash can.",
@@ -1797,23 +1317,17 @@
         "YEET — that's the last box on the truck.",
         "She tossed the keys over the fence, yelled yeet, and immediately regretted it."
       ],
-      "related": [
-        "ayy",
-        "pog",
-        "bet"
-      ]
+      "senses": [],
+      "русский": "н-на!, оп! — разг.: выкрик при сильном броске или резком бесшабашном действии",
+      "register": "internet/text (very informal; jokey)",
+      "type": "primary",
+      "variants": "YEET, yeeet, yeetus",
+      "see also": "ayy, pog, bet"
     },
     {
       "term": "yolo",
       "ipa": "/ˈjoʊloʊ/",
       "respell": "YOH-loh; occasionally spelled out as why-oh-el-oh",
-      "variants": [
-        "YOLO",
-        "yolo!",
-        "you only live once"
-      ],
-      "type": "primary",
-      "register": "internet/text (very informal; dated 2012)",
       "meaning": "\"You only live once\" — offered as the justification for a decision the speaker already knows is unwise. It exploded in 2012, was worn out inside a year, and now shows up almost entirely as a joke about its own era.",
       "examples": [
         "I bought the expensive one. Yolo.",
@@ -1823,25 +1337,17 @@
         "She wrote yolo in the group chat and everyone groaned at once.",
         "We took the long way home for no reason at all. Yolo."
       ],
-      "related": [
-        "bet",
-        "yeet",
-        "welp",
-        "based"
-      ]
+      "senses": [],
+      "русский": "живём один раз — разг.: оправдание заведомо глупого поступка; мода 2012-го, теперь иронично",
+      "register": "internet/text (very informal; dated 2012)",
+      "type": "primary",
+      "variants": "YOLO, yolo!, you only live once",
+      "see also": "bet, yeet, welp, based"
     },
     {
       "term": "bro",
       "ipa": "/broʊ/",
       "respell": "BROH",
-      "variants": [
-        "broo",
-        "brooo",
-        "bro.",
-        "my brother in Christ"
-      ],
-      "type": "secondary",
-      "register": "internet/text (very informal)",
       "meaning": "A term of address that has become a reaction all by itself. Standing alone with a period after it, bro. is flat disbelief or disappointment at what somebody has just said or done, and it is now used regardless of who is on the other end.",
       "examples": [
         "Bro. You told her I said that?",
@@ -1850,25 +1356,17 @@
         "He read the group's plan, typed bro, and left the chat.",
         "Bro, that is the fourth time this week."
       ],
-      "related": [
-        "bruh",
-        "sis",
-        "ayo",
-        "smh"
-      ]
+      "senses": [],
+      "русский": "бро, братан — разг.: как реакция «bro.» с точкой — плоское недоумение или разочарование",
+      "register": "internet/text (very informal)",
+      "type": "secondary",
+      "variants": "broo, brooo, bro., my brother in Christ",
+      "see also": "bruh, sis, ayo, smh"
     },
     {
       "term": "bruh",
       "ipa": "/brʌ/",
       "respell": "BRUH",
-      "variants": [
-        "bruhh",
-        "bruuh",
-        "bruhhh",
-        "brah"
-      ],
-      "type": "secondary",
-      "register": "internet/text (very informal)",
       "meaning": "Brother worn down to one syllable and emptied of any meaning as a form of address. It is a complete reaction on its own — flat, deadpan disbelief at something stupid — and it is aimed at men, women, animals, and inanimate objects with equal indifference.",
       "examples": [
         "Bruh. The meeting was canceled two hours ago.",
@@ -1878,24 +1376,17 @@
         "Bruhhh — they scheduled the exam for the day after the holiday.",
         "He said bruh so many times during his own story that nobody could follow it."
       ],
-      "related": [
-        "bro",
-        "smh",
-        "tf",
-        "sis"
-      ]
+      "senses": [],
+      "русский": "брух, ну ты чё — разг.: невозмутимое недоумение от чужой глупости; адресуется кому угодно",
+      "register": "internet/text (very informal)",
+      "type": "secondary",
+      "variants": "bruhh, bruuh, bruhhh, brah",
+      "see also": "bro, smh, tf, sis"
     },
     {
       "term": "chile",
       "ipa": "/tʃaɪl/, often drawn out as /ˈtʃaɪəl/",
       "respell": "CHYLE, or CHY-uhl",
-      "variants": [
-        "chi-ile",
-        "chiiile",
-        "chile anyways"
-      ],
-      "type": "secondary",
-      "register": "internet/text (very informal; from African American English and drag culture)",
       "meaning": "Child spelled without the d to catch a particular Southern and African American pronunciation, used as an exclamation of exasperated commiseration — the equivalent of \"oh, honey.\" It typically introduces gossip or a resigned change of subject (chile, anyways).",
       "examples": [
         "Chile, do not get me started on that man.",
@@ -1904,25 +1395,17 @@
         "Anyway, chile, the wedding was a disaster from the very first minute.",
         "She looked at the bill, said chile, and put her card back in her wallet."
       ],
-      "related": [
-        "whew chile",
-        "sis",
-        "periodt",
-        "and I oop"
-      ]
+      "senses": [],
+      "русский": "ой, дорогуша; ох, милочка — разг. (AAVE и драг-культура): усталое сочувствие, вводит сплетню",
+      "register": "internet/text (very informal; from African American English and drag culture, and it reads as caricature when a speaker outside those communities puts it on)",
+      "type": "secondary",
+      "variants": "chi-ile, chiiile, chile anyways",
+      "see also": "whew chile, sis, periodt, and I oop"
     },
     {
       "term": "dude",
       "ipa": "/dud/",
       "respell": "DOOD; drawn out as duuude /duːd/",
-      "variants": [
-        "duuude",
-        "dude.",
-        "dood",
-        "dude!"
-      ],
-      "type": "secondary",
-      "register": "internet/text (very informal; also spoken)",
       "meaning": "An address term emptied of meaning decades ago and now a complete reaction on its own. Standing alone with a period, dude. is flat disbelief or disappointment; stretched into duuude it flips to awe or delight. It is older and more spoken than bruh, but it does exactly the same job in a text thread.",
       "examples": [
         "Dude. You cannot park there.",
@@ -1932,24 +1415,17 @@
         "Dude, I have told you about the smoke alarm three times.",
         "She looked at the dent, said \"dude,\" and handed the keys back."
       ],
-      "related": [
-        "bruh",
-        "bro",
-        "sis",
-        "smh"
-      ]
+      "senses": [],
+      "русский": "чувак — разг.: «dude.» с точкой — недоумение, растянутое «duuude» — восторг",
+      "register": "internet/text (very informal; also spoken)",
+      "type": "secondary",
+      "variants": "duuude, dude., dood, dude!",
+      "see also": "bruh, bro, sis, smh"
     },
     {
       "term": "fam",
       "ipa": "/fæm/",
       "respell": "FAM",
-      "variants": [
-        "fam.",
-        "famalam",
-        "my fam"
-      ],
-      "type": "secondary",
-      "register": "internet/text and spoken slang (very informal; from African American English)",
       "meaning": "Family clipped to one syllable and drained of any family meaning at all. It brackets a sentence aimed at a friend — front or back — and standing alone with a period it does what bruh does: flat disbelief that this needed saying out loud.",
       "examples": [
         "Fam. You cannot wear that to an interview.",
@@ -1959,25 +1435,17 @@
         "Listen, fam, I am not driving out there twice in one day.",
         "Fam — who ate the container with my name written on it?"
       ],
-      "related": [
-        "bruh",
-        "bro",
-        "sis",
-        "dude",
-        "say less"
-      ]
+      "senses": [],
+      "русский": "свои, братан — разг.: обращение к другу; отдельно с точкой — недоумение, как bruh",
+      "register": "internet/text and spoken slang (very informal; from African American English)",
+      "type": "secondary",
+      "variants": "fam., famalam, my fam",
+      "see also": "bruh, bro, sis, dude, say less"
     },
     {
       "term": "sis",
       "ipa": "/sɪs/",
       "respell": "SISS",
-      "variants": [
-        "sissss",
-        "sis.",
-        "not the sis"
-      ],
-      "type": "secondary",
-      "register": "internet/text (very informal; from Black and drag culture)",
       "meaning": "The counterpart to bruh: an address term that has hardened into a reaction. Standing alone, sis. is gentle disbelief, a warning, or a way of saying \"you and I both know better,\" and like bruh it is now pointed at anyone at all.",
       "examples": [
         "Sis. He is not going to text you back.",
@@ -1986,24 +1454,17 @@
         "She replied with one word, sis, and I reconsidered the whole plan.",
         "Sis, that is a lot of money for a candle."
       ],
-      "related": [
-        "bruh",
-        "bro",
-        "chile",
-        "periodt"
-      ]
+      "senses": [],
+      "русский": "сестрёнка, подруга — разг.: как реакция — мягкое недоверие или предостережение, к любому полу",
+      "register": "internet/text (very informal; from Black and drag culture)",
+      "type": "secondary",
+      "variants": "sissss, sis., not the sis",
+      "see also": "bruh, bro, chile, periodt"
     },
     {
       "term": "whew chile",
       "ipa": "/ˌhwju ˈtʃaɪl/, also /ˌfju ˈtʃaɪl/",
       "respell": "hwyoo-CHYLE, or fyoo-CHYLE",
-      "variants": [
-        "whew chile the ghetto",
-        "whew chile!",
-        "woo chile"
-      ],
-      "type": "phrase",
-      "register": "internet/text (very informal; from Black and drag culture)",
       "meaning": "A sigh and a commiseration rolled together, used to introduce a mess — a long story, a bad situation, or somebody else's drama. The longer form, whew chile the ghetto, is a stock line from a viral clip and means roughly \"what an absolute disaster.\"",
       "examples": [
         "Whew chile, you should have seen the state of that apartment.",
@@ -2012,23 +1473,17 @@
         "She opened the story with whew chile and I knew it would run an hour.",
         "Whew chile, this week has been something else entirely."
       ],
-      "related": [
-        "chile",
-        "whew",
-        "and I oop",
-        "sis"
-      ]
+      "senses": [],
+      "русский": "ой, мамочки; ох, батюшки — разг. (AAVE и драг-культура): вздох перед рассказом о полном бардаке",
+      "register": "internet/text (very informal; from Black and drag culture, and it reads as caricature when a speaker outside those communities puts it on)",
+      "type": "phrase",
+      "variants": "whew chile the ghetto, whew chile!, woo chile",
+      "see also": "chile, whew, and I oop, sis"
     },
     {
       "term": "hmmge",
       "ipa": "/ˈhʌmdʒ/",
-      "respell": "HUMJ — but it is almost never spoken; it is an emote name, typed and read",
-      "variants": [
-        "Hmmge",
-        "HMMGE"
-      ],
-      "type": "primary",
-      "register": "internet/text (very informal; niche, Twitch chat)",
+      "respell": "HUMJ",
       "meaning": "A Twitch emote name built from hmm plus the -ge ending that chat attaches to emote names, as in Sadge and Pepege. It signals exaggerated, performative thinking — \"let me consider that very hard\" — usually with a note of sarcasm. Outside a stream chat it will not be understood at all.",
       "examples": [
         "Hmmge — so the fix is to turn it off and then on again.",
@@ -2037,48 +1492,37 @@
         "The stream went quiet and somebody typed hmmge into the void.",
         "Hmmge, that is certainly one way to solve the puzzle."
       ],
-      "related": [
-        "pog",
-        "hmm",
-        "gg"
-      ]
+      "senses": [],
+      "pronunciation note": "but it is almost never spoken; it is an emote name, typed and read",
+      "русский": "неологизм, русского эквивалента нет — твич-эмоут: показное «дай-ка подумаю», обычно с сарказмом",
+      "register": "internet/text (very informal; niche, Twitch chat)",
+      "type": "primary",
+      "variants": "Hmmge, HMMGE",
+      "see also": "pog, hmm, gg"
     },
     {
       "term": "owo",
       "ipa": "/ˈoʊwoʊ/",
       "respell": "OH-woh",
-      "variants": [
-        "OwO",
-        "ovo",
-        "owo whats this"
-      ],
-      "type": "primary",
-      "register": "internet/text (very informal; furry and anime fandom; usually ironic)",
-      "meaning": "A text face — two wide eyes and a small round mouth — showing surprise, curiosity, or exaggerated innocence at having noticed something. It is the alert cousin of uwu, and it is typed ironically far more often than sincerely.",
+      "meaning": "A text face — two wide eyes and a small round mouth — showing surprise, curiosity, or exaggerated innocence at having noticed something. It is the alert cousin of uwu, and it is typed ironically far more often than sincerely. The set phrase owo what's this came out of a furry-fandom joke about noticing an arousal, so it carries innuendo even when the person typing it has no idea.",
       "examples": [
         "owo what's in the box",
         "\"There's an extra slice.\" \"OwO\"",
         "He noticed the new hire's mechanical keyboard and typed owo.",
         "OwO — somebody left an entire cake in the break room.",
-        "She replied owo to the concert announcement and bought tickets in the same minute."
+        "She sent a photo of the dessert menu and I answered with a single owo."
       ],
-      "related": [
-        "uwu",
-        "xd",
-        "hehe"
-      ]
+      "senses": [],
+      "русский": "мордочка «оо» — разг.: удивление и любопытство; фраза owo what's this с двусмысленным намёком",
+      "register": "internet/text (very informal; furry and anime fandom; usually ironic, and the stock phrase owo what's this is a sexual joke in origin)",
+      "type": "primary",
+      "variants": "OwO, ovo, owo whats this",
+      "see also": "uwu, xd, hehe"
     },
     {
       "term": "rawr",
       "ipa": "/rɔr/, also /rɑr/",
       "respell": "RAWR (one syllable)",
-      "variants": [
-        "rawr xd",
-        "rawrr",
-        "RAWR"
-      ],
-      "type": "onomatopoeic",
-      "register": "internet/text (very informal; dated 2000s, now ironic)",
       "meaning": "A written cartoon roar, used flirtatiously or playfully rather than as any kind of threat. It belongs to the mid-2000s scene and emo internet — the era of \"rawr means I love you in dinosaur\" — so anyone typing it now is being ironic, nostalgic, or talking to a small child.",
       "examples": [
         "Rawr, I'm a dinosaur, apparently.",
@@ -2088,48 +1532,36 @@
         "He put on the costume, said rawr, and the toddler shrieked with joy.",
         "RAWR — the cat has decided she owns the couch now."
       ],
-      "related": [
-        "uwu",
-        "owo",
-        "xd",
-        "teehee"
-      ]
+      "senses": [],
+      "русский": "ррр! — разг.: мультяшный рык, кокетливо-игривый; мода середины 2000-х, сейчас только иронично",
+      "register": "internet/text (very informal; dated 2000s, now ironic)",
+      "type": "onomatopoeic",
+      "variants": "rawr xd, rawrr, RAWR",
+      "see also": "uwu, owo, xd, teehee"
     },
     {
       "term": "uwu",
       "ipa": "/ˈuwu/",
       "respell": "OO-woo",
-      "variants": [
-        "UwU",
-        "uwuu",
-        "uwu owo"
-      ],
-      "type": "primary",
-      "register": "internet/text (very informal; anime and furry fandom; often ironic)",
       "meaning": "A text face showing a small, blissful, closed-eyed smile — cuteness, contentment, or affection. It began in anime fandom and is now used at least half the time as a joke about being cutesy rather than as actual cuteness.",
       "examples": [
         "uwu he made me a lunch and put a note in it",
         "\"The puppy fell asleep on my foot.\" \"uwu\"",
         "He answered a stern email with uwu and had to explain himself in person.",
         "UwU — thank you for remembering.",
-        "She calls the office printer \"the noisy boy,\" uwu, and nobody has stopped her."
+        "uwu my roommate left the porch light on so I wouldn't come home to a dark house"
       ],
-      "related": [
-        "owo",
-        "teehee",
-        "hehe"
-      ]
+      "senses": [],
+      "русский": "мордочка «^^» — разг.: умиление и нежность; чаще шутка над самой этой умильностью",
+      "register": "internet/text (very informal; anime and furry fandom; often ironic)",
+      "type": "primary",
+      "variants": "UwU, uwuu, uwu owo",
+      "see also": "owo, teehee, hehe"
     },
     {
       "term": "fwiw",
       "ipa": "/ˌɛfˌdʌbəljuˌaɪˈdʌbəlju/",
-      "respell": "ef-dub-ul-yoo-eye-DUB-ul-yoo; almost always read out as the phrase instead, for what it's worth",
-      "variants": [
-        "FWIW",
-        "for what it's worth"
-      ],
-      "type": "primary",
-      "register": "internet/text (informal; ordinary in professional chat and email)",
+      "respell": "",
       "meaning": "\"For what it's worth\" — a hedge that discounts the opinion attached to it before anyone else gets the chance. It is the most office-safe item in this file, and in email it usually introduces a correction the writer would rather not turn into an argument.",
       "examples": [
         "fwiw, the same thing happened to us last quarter.",
@@ -2139,24 +1571,18 @@
         "Fwiw — I would not book that hotel a second time.",
         "He writes fwiw before opinions he then defends for a solid hour."
       ],
-      "related": [
-        "imo",
-        "tbh",
-        "iirc",
-        "ngl"
-      ]
+      "senses": [],
+      "pronunciation note": "ef-dub-ul-yoo-eye-DUB-ul-yoo; almost always read out as the phrase instead, for what it's worth",
+      "русский": "если это чем-то поможет; к слову — разг.-нейтр.: оговорка, заранее снижающая вес своего мнения",
+      "register": "internet/text (informal; ordinary in professional chat and email)",
+      "type": "primary",
+      "variants": "FWIW, for what it's worth",
+      "see also": "imo, tbh, iirc, ngl"
     },
     {
       "term": "iirc",
       "ipa": "/ˌaɪˌaɪˌɑrˈsi/",
       "respell": "eye-eye-ar-SEE; usually read out as if I recall correctly",
-      "variants": [
-        "IIRC",
-        "if I recall correctly",
-        "if I remember right"
-      ],
-      "type": "primary",
-      "register": "internet/text (informal; ordinary in professional chat)",
       "meaning": "\"If I recall correctly\" — a memory hedge that flags the fact behind it as believed rather than checked. It protects the writer, but in a technical thread it works as a courtesy too: it tells everybody else which claim to go verify.",
       "examples": [
         "iirc the deadline moved to the eleventh.",
@@ -2166,24 +1592,17 @@
         "Iirc — and it has been a few years — the garage is free after six.",
         "She wrote iirc in front of a number she had already looked up twice."
       ],
-      "related": [
-        "fwiw",
-        "imo",
-        "tbh",
-        "ngl"
-      ]
+      "senses": [],
+      "русский": "если мне не изменяет память — разг.-нейтр.: помню так, но не проверял",
+      "register": "internet/text (informal; ordinary in professional chat)",
+      "type": "primary",
+      "variants": "IIRC, if I recall correctly, if I remember right",
+      "see also": "fwiw, imo, tbh, ngl"
     },
     {
       "term": "imo",
       "ipa": "/ˌaɪˌɛmˈoʊ/",
       "respell": "eye-em-OH",
-      "variants": [
-        "IMO",
-        "imho (in my humble opinion)",
-        "imnsho (in my not so humble opinion)"
-      ],
-      "type": "primary",
-      "register": "internet/text (informal, but common in professional chat)",
       "meaning": "\"In my opinion,\" used as a tag that marks the sentence around it as a personal view rather than a fact. Dropped at the end of a message it behaves like an interjection — a small step back from the claim you have just made.",
       "examples": [
         "The second album is better, imo.",
@@ -2192,25 +1611,17 @@
         "He adds imho to statements that are not humble in any way.",
         "Imo — and I could be wrong here — the deadline was never realistic."
       ],
-      "related": [
-        "tbh",
-        "ngl",
-        "I mean"
-      ]
+      "senses": [],
+      "русский": "имхо, по-моему — разг.: метка личного мнения, а не факта",
+      "register": "internet/text (informal, but common in professional chat)",
+      "type": "primary",
+      "variants": "IMO, imho (in my humble opinion), imnsho (in my not so humble opinion)",
+      "see also": "tbh, ngl, fwiw, iirc, I mean"
     },
     {
       "term": "jk",
       "ipa": "/ˌdʒeɪˈkeɪ/",
       "respell": "jay-KAY; also read out as just kidding",
-      "variants": [
-        "JK",
-        "j/k",
-        "jkjk",
-        "jk unless",
-        "just kidding"
-      ],
-      "type": "primary",
-      "register": "internet/text (very informal)",
       "meaning": "\"Just kidding,\" tacked onto the end of a message to pull the sting back out of it. It is a retraction far more often than a real joke marker: doubled to jkjk it usually means the writer meant every word, and jk unless… means they meant it and are hoping you say yes.",
       "examples": [
         "You're buying, right? jk",
@@ -2220,24 +1631,17 @@
         "She added jkjk at the end, which is exactly how I knew she was serious.",
         "j/k — the file is fine, I had opened the wrong one."
       ],
-      "related": [
-        "lol",
-        "ngl",
-        "tbh",
-        "imo"
-      ]
+      "senses": [],
+      "русский": "шучу, шутка — разг.: чаще способ забрать сказанное назад, чем настоящая шутка",
+      "register": "internet/text (very informal)",
+      "type": "primary",
+      "variants": "JK, j/k, jkjk, jk unless, just kidding",
+      "see also": "lol, ngl, tbh, imo"
     },
     {
       "term": "ngl",
       "ipa": "/ˌɛnˌdʒiˈɛl/",
       "respell": "en-jee-EL; usually read out as not gonna lie",
-      "variants": [
-        "NGL",
-        "ngl tho",
-        "not gonna lie"
-      ],
-      "type": "primary",
-      "register": "internet/text (very informal)",
       "meaning": "\"Not gonna lie\" — a warning that a small, slightly awkward confession is on its way. It softens an admission you suspect the other person will find surprising or unflattering, and it almost always sits at the front of the sentence.",
       "examples": [
         "ngl, I forgot we had a meeting today.",
@@ -2246,24 +1650,17 @@
         "He wrote ngl tho and then admitted he had never read the book.",
         "Ngl, I've been putting this off since March."
       ],
-      "related": [
-        "tbh",
-        "imo",
-        "deadass",
-        "fr"
-      ]
+      "senses": [],
+      "русский": "не буду врать, честно говоря — разг.: предупреждение о неловком признании",
+      "register": "internet/text (very informal)",
+      "type": "primary",
+      "variants": "NGL, ngl tho, not gonna lie",
+      "see also": "tbh, imo, jk, deadass, fr"
     },
     {
       "term": "tbh",
       "ipa": "/ˌtiˌbiˈeɪtʃ/",
       "respell": "tee-bee-AITCH; usually read out as to be honest",
-      "variants": [
-        "TBH",
-        "tbhh",
-        "to be honest"
-      ],
-      "type": "primary",
-      "register": "internet/text (informal)",
       "meaning": "\"To be honest\" — a flag that an unvarnished opinion is coming, usually one a little less enthusiastic than the other person is hoping for. It can open the sentence or close it, and it almost never means the speaker was lying beforehand.",
       "examples": [
         "tbh I don't think anyone actually read the attachment.",
@@ -2272,11 +1669,12 @@
         "She said tbh and I braced myself.",
         "TBH — I have never once used the second monitor."
       ],
-      "related": [
-        "ngl",
-        "imo",
-        "fr"
-      ]
+      "senses": [],
+      "русский": "если честно, по правде говоря — разг.: сейчас будет неприукрашенное мнение",
+      "register": "internet/text (informal)",
+      "type": "primary",
+      "variants": "TBH, tbhh, to be honest",
+      "see also": "ngl, imo, fwiw, iirc, fr"
     }
   ]
 }

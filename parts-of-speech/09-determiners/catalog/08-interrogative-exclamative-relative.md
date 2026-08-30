@@ -22,6 +22,7 @@ These stand at the front of a question and ask the hearer to identify the noun o
 ### how big a, how good a, how much of a
 
 **Pronunciation:** /ˌhaʊ ˈbɪɡ ə/, /ˌhaʊ ˈɡʊd ə/, /ˌhaʊ ˈmʌtʃ əv ə/ &middot; *how-BIG-uh, how-GOOD-uh, how-MUCH-uhv-uh* &middot; the article is **always** the weak /ə/ here and never surfaces as /eɪ/; *of* reduces to /əv/ and in fast speech to a single syllabic [ə], so *how much of a problem* runs to [haʊ ˈmʌtʃ əvə ˈprɑbləm]. *How* itself has no weak form
+**Русский:** насколько большой / хороший / серьёзный — вопрос о степени; прилагательное встаёт перед a/an
 **Type:** interrogative (degree), and exclamative in the uninverted version &middot; **Position:** **predeterminer** — the degree phrase stands in front of *a/an*, which then does its ordinary job on the noun; *how much of a* is the *of*-partitive member of the same slot &middot; **Register:** neutral in both speech and writing; *how much of a* is the more colloquial of the two frames
 **Goes with:** **singular countable nouns only**, because the whole construction is built around *a/an* — *how big a house*, *how good a teacher*, *how much of a problem*. Never a plural (✗ *how big a houses*, ✗ *how big houses*) and never an uncountable (✗ *how heavy a traffic*); with those you drop back to the ordinary quantifiers, which take no article at all — *how many houses*, *how much traffic*. *How much of a* additionally wants a noun that can be **graded**: ✓ *how much of a risk*, ✓ *how much of a difference*, ✗ *how much of a chair*.
 **With *of*:** *How big a* and *how good a* take **no** *of* in edited writing: ✗ *how big of a house*. That said, *how big of a* is thoroughly established in spoken American English — Midland, Western, and increasingly general — and it is a real spoken pattern rather than a slip of logic; editors still delete it. *How much of a* is the one member of the trio where *of* is **obligatory** and standard: ✗ *how much a problem is it?*
@@ -44,6 +45,7 @@ Asks — or exclaims — how far along a scale a single countable thing sits: wh
 ### how few
 
 **Pronunciation:** /haʊ ˈfju/ &middot; *how-FYOO* &middot; the stress falls on *few*, because the point of the phrase is the smallness
+**Русский:** как мало (штук) — о малом числе счётных; чаще восклицание, чем настоящий вопрос
 **Type:** interrogative (usually exclamative in force) &middot; **Position:** central — the two words together fill one central-determiner slot &middot; **Register:** neutral; more often rhetorical than a genuine request for a number
 **Goes with:** **plural countable nouns only** — *how few voters*, *how few options*. Never an uncountable (✗ *how few money* → *how little money*) and never a singular countable (✗ *how few voter*).
 **With *of*:** Required before another determiner or a pronoun — *how few of the applicants*, *how few of them*. In that construction *how few* is a **pronoun**, not a determiner, and the noun inside the *of*-phrase keeps its own determiner. Never before a bare plural: ✗ *how few of applicants*.
@@ -64,6 +66,7 @@ Asks — or, far more often, exclaims — about a small number, treating the sma
 ### how little
 
 **Pronunciation:** /haʊ ˈlɪtəl/ &middot; *how-LIT-ul* &middot; the *t* is a flap in General American, so it comes out as *how-LID-ul*
+**Русский:** как мало (о неисчисляемом) — о малом объёме; малость подразумевается заранее
 **Type:** interrogative (usually exclamative in force) &middot; **Position:** central — the two words fill one slot &middot; **Register:** neutral
 **Goes with:** **uncountable nouns only** — *how little time*, *how little sleep*, *how little evidence*. Never a plural countable (✗ *how little friends* → *how few friends*). It also runs as a **degree adverb** with no noun at all (*how little it matters*), and that use is not a determiner.
 **With *of*:** Required before another determiner or a pronoun — *how little of the budget*, *how little of it*. *How little* is a pronoun there. Bare *how little* + bare uncountable takes no *of*.
@@ -84,6 +87,7 @@ Asks or exclaims about a small amount, with the smallness taken for granted.
 ### how many
 
 **Pronunciation:** /ˈhaʊ ˌmɛni/ &middot; *HOW-men-ee* &middot; *how* carries the accent when a noun follows, and the sentence nucleus lands on the noun: *HOW many PEOPLE came?*
+**Русский:** сколько (штук) — вопрос о числе исчисляемых предметов
 **Type:** interrogative &middot; **Position:** central — the two words fill one slot &middot; **Register:** neutral
 **Goes with:** **plural countable nouns only** — *how many people*, *how many times*. Never an uncountable (✗ *how many money* → *how much money*), never a singular countable (✗ *how many person*). A measure word makes an uncountable countable and brings *how many* back: *how many gallons of gas*, *how many pieces of advice*.
 **With *of*:** Required before another determiner or a pronoun — *how many of the seats*, *how many of them*. Never ✗ *how many them* and never ✗ *how many of seats*. In the *of*-construction *how many* is a pronoun.
@@ -104,6 +108,7 @@ Asks for the number of a countable set.
 ### how many fewer, how much less
 
 **Pronunciation:** /ˌhaʊ ˌmɛni ˈfjuɚ/, /ˌhaʊ mʌtʃ ˈlɛs/ &middot; *how-men-ee-FYOO-er, how-much-LESS* &middot; *fewer* is two syllables, /ˈfju.ɚ/, not *fyoor*
+**Русский:** на сколько меньше — вопрос о величине убыли: fewer со счётными, less с неисчисляемыми
 **Type:** interrogative (comparative) &middot; **Position:** *how many* / *how much* fills the central slot; *fewer* and *less* are postdeterminers inside the phrase &middot; **Register:** neutral; common in analytical, business, and journalistic speech
 **Goes with:** *how many fewer* + **plural countable** (*how many fewer flights*); *how much less* + **uncountable** (*how much less sugar*). The split is the ordinary *fewer/less* split, so ✗ *how much less flights* and ✗ *how many fewer sugar*. *How much less* also runs as a degree adverb with no noun (*how much less does it cost?*), which is not the determiner use.
 **With *of*:** Required before another determiner or a pronoun — *how much less of the budget*, *how many fewer of them*. Pronoun there, not determiner.
@@ -125,6 +130,7 @@ Asks for the size of a decrease — how much smaller the number or the amount wi
 ### how many more
 
 **Pronunciation:** /ˌhaʊ ˌmɛni ˈmɔɹ/ &middot; *how-men-ee-MOR* &middot; in an impatient question the accent jumps to *more*: *how many MORE times?*
+**Русский:** сколько ещё (штук) — вопрос о числе сверх уже имеющегося; часто с досадой
 **Type:** interrogative (comparative) &middot; **Position:** *how many* fills the central slot; *more* is a postdeterminer between it and the noun &middot; **Register:** neutral, frequently impatient or rhetorical
 **Goes with:** **plural countable nouns only** — *how many more chairs*, *how many more times*. Never an uncountable (✗ *how many more water* → *how much more water*).
 **With *of*:** Partitive *how many more of the / of them* is possible and is **required** before a pronoun; *how many more* is a pronoun there. Never before a bare plural: ✗ *how many more of chairs*.
@@ -145,6 +151,7 @@ Asks for the number still to come, or the number in addition to a quantity alrea
 ### how many of, how much of
 
 **Pronunciation:** /ˌhaʊ ˈmɛni əv/, /ˌhaʊ ˈmʌtʃ əv/ &middot; *how-MEN-ee-uhv, how-MUCH-uhv* &middot; *of* is nearly always the weak /əv/, and in fast speech reduces to /ə/ — *how many of them* [ˌhaʊ ˈmɛni ə ðəm]
+**Русский:** сколько из, какая часть из — партитив; это уже местоимение, а не определитель
 **Type:** interrogative (partitive — a **pronoun** construction, not a determiner) &middot; **Position:** not a determiner slot at all: *how many* / *how much* heads its own noun phrase and the *of*-phrase completes it, so the following noun keeps its own determiner &middot; **Register:** neutral
 **Goes with:** *how many of* + a **definite plural** (*of the emails*, *of these people*, *of them*); *how much of* + a **definite uncountable** or a whole singular thing (*of the money*, *of this pie*, *of it*). The complement of *of* must already be determined: ✓ *how many of the emails*, ✗ *how many of emails*.
 **With *of*:** *Of* is the construction itself and is obligatory. Drop it and you are back to the determiner: *how many emails*, not ✗ *how many the emails*.
@@ -165,6 +172,7 @@ Asks what part or what proportion of an already identified set or mass is involv
 ### how much
 
 **Pronunciation:** /ˈhaʊ ˌmʌtʃ/ &middot; *HOW-much* &middot; *how* takes the accent when a noun follows; standing alone as a price question the phrase is usually *how MUCH?*
+**Русский:** сколько (о неисчисляемом), почём — вопрос об объёме, количестве или цене
 **Type:** interrogative &middot; **Position:** central — the two words fill one slot &middot; **Register:** neutral
 **Goes with:** **uncountable nouns only** — *how much money*, *how much time*, *how much sugar*. Never a plural countable (✗ *how much people* → *how many people*) and never a singular countable (✗ *how much chair*). With no noun at all it is a pronoun or an adverb asking about price or degree (*How much is it?*, *How much do you care?*), not a determiner.
 **With *of*:** Required before another determiner or a pronoun — *how much of the money*, *how much of it*. Bare *how much* + bare uncountable takes no *of*: ✗ *how much of money*.
@@ -186,6 +194,7 @@ Asks for the amount, quantity, or price of something that is not counted in unit
 ### how much more
 
 **Pronunciation:** /ˌhaʊ mʌtʃ ˈmɔɹ/ &middot; *how-much-MOR*
+**Русский:** сколько ещё (о неисчисляемом) — вопрос о добавке; часто риторически, с раздражением
 **Type:** interrogative (comparative) &middot; **Position:** *how much* fills the central slot; *more* is a postdeterminer between it and the noun &middot; **Register:** neutral, often impatient or rhetorical
 **Goes with:** **uncountable nouns only** — *how much more time*, *how much more evidence*. Never a plural countable (✗ *how much more people* → *how many more people*). It is also common with no noun at all, as a degree adverb (*how much more expensive is it?*) or an endurance question (*how much more can I take?*) — neither of those is the determiner use.
 **With *of*:** Partitive *how much more of the / of this / of it* is possible and is **required** before a pronoun, where *how much more* is a pronoun.
@@ -206,6 +215,7 @@ Asks for the additional amount — what remains to be added, endured, or paid.
 ### what (interrogative)
 
 **Pronunciation:** /wʌt/, /wɑt/ &middot; *WUHT, WAHT* &middot; weak form /wət/ when unstressed; the final /t/ **flaps** into a following vowel, so *what a* is [ˈwʌɾə] and *what is it* runs to [ˈwʌɾɪzɪt]. Most Americans have the wine–whine merger and begin the word with plain /w/; older and Southern speakers keep /hwʌt/
+**Русский:** какой, что за — вопрос без опоры на закрытый список (в отличие от which)
 **Type:** interrogative &middot; **Position:** central &middot; **Register:** neutral
 **Goes with:** **any noun type** — singular countable (*what time*, *what color*), plural countable (*what books*, *what options*), uncountable (*what music*, *what evidence*). What it cannot do is share the slot with another central determiner: ✗ *the what book*, ✗ *what the book*, ✗ *what my size*. With no noun after it, it is a **pronoun**, not a determiner: *What happened?*
 **With *of*:** *What of* + noun phrase exists, but it is a fixed formal idiom meaning 'and what about' — see [what of](#what-of) — not the determiner's partitive. The everyday partitive question uses *which of*: ✓ *Which of these is yours?*, ✗ *What of these is yours?*
@@ -227,6 +237,7 @@ Asks the hearer to identify or specify the noun, with no assumption that the ans
 ### what all
 
 **Pronunciation:** /ˌwʌt ˈɔl/ &middot; *wuht-AWL* &middot; /ˌwʌt ˈɑl/ for the majority of Americans who merge *cot* and *caught*; the two words run together over a flap, [wʌˈɾɔl]
+**Русский:** что именно, какие всё — просьба о полном перечне; диал. (юг и Мидленд США), разг.
 **Type:** interrogative &middot; **Position:** central — the two words fill one slot &middot; **Register:** **regional and spoken** — Southern and Midland American English. Rule-governed and completely natural in those varieties, but regionally marked elsewhere and out of place in edited writing
 **Goes with:** plural countable nouns and uncountable nouns in the determiner use — *what all classes*, *what all paperwork*. Not used with a singular countable. It is far more often a **pronoun** standing alone (*What all did she say?*), and that is the use most non-Southern readers will meet first.
 **With *of*:** Not used. ✗ *what all of the classes* — the ordinary partitive is *which of the classes*.
@@ -248,6 +259,7 @@ Asks for a complete list rather than a single item. **Regional** — Southern an
 ### what kind of, what sort of, what type of
 
 **Pronunciation:** /ˌwʌt ˈkaɪnd əv/ &middot; *wuht-KYND-uhv* &middot; *kind of* reduces heavily to [ˈkaɪnə], and *what* flaps into it, so the whole phrase is commonly [wəˈkaɪnə] — *what kinda car*
+**Русский:** какого рода, какой (по типу) — вопрос о разновидности, а не об отдельном предмете
 **Type:** interrogative &middot; **Position:** central — the whole phrase fills one slot, and the head noun that follows normally takes no article of its own &middot; **Register:** neutral; *what sort of* leans British, *what type of* leans technical
 **Goes with:** a following noun that is normally **bare** — singular countable (*what kind of car*), plural countable (*what kind of shoes*, *what kinds of shoes*), uncountable (*what kind of music*). Number agreement runs on *kind*, not on the head noun: *what kind of dog* for one category, *what kinds of dogs* for several. Do not insert an article: the neutral form is article-less, and *what kind of a car* is a marked variant that adds scorn (*What kind of a question is that?*).
 **With *of*:** *Of* is part of the item and is obligatory: ✗ *what kind car*.
@@ -270,6 +282,7 @@ Asks for the category, class, or variety rather than for the individual item.
 ### what manner of
 
 **Pronunciation:** /ˌwʌt ˈmænɚ əv/ &middot; *wuht-MAN-er-uhv* &middot; *of* is the weak /əv/ and reduces further to /ə/, and the *t* of *what* flaps straight into *manner*, so the phrase runs to [wʌɾ ˈmænɚ ə]
+**Русский:** что за, какого рода — устар., книжн. эквивалент what kind of
 **Type:** interrogative &middot; **Position:** central — the whole phrase fills one slot, and the noun that follows takes no article of its own &middot; **Register:** **archaic and literary**. It is alive today only in deliberate period style, in the one fixed phrase *what manner of man*, and in mock-solemn or comic use
 **Goes with:** a **bare** noun with no determiner of its own — singular countable (*what manner of man*), plural countable (*what manner of creatures*), uncountable (*what manner of mischief*). The noun is usually singular, because the fossilized phrase pulls it that way. *Manner* itself never pluralizes in this frame: ✗ *what manners of man*. And the noun cannot keep an article: ✗ *what manner of a man* in the neutral sense.
 **With *of*:** *Of* is part of the item and is obligatory: ✗ *what manner man*. Nothing partitive can be built on top of it: ✗ *what manner of these*.
@@ -291,6 +304,7 @@ Asks for the kind, class, or nature of a thing in an elevated and archaic regist
 ### what of
 
 **Pronunciation:** /ˈwʌt əv/ &middot; *WUHT-uhv* &middot; *of* reduces to /əv/ or /ə/, and the flapped *t* joins it: [ˈwʌɾəv]
+**Русский:** а как же…?, что же с…? — книжн., риторически вводит новую, ещё не затронутую тему
 **Type:** interrogative — a **pronoun plus preposition**, not a determiner &middot; **Position:** heads its own noun phrase; the noun inside the *of*-phrase keeps its own determiner &middot; **Register:** formal, literary, rhetorical
 **Goes with:** a following *of*-phrase containing an **already-determined** noun phrase — *what of the others*, *what of my proposal*, *what of it*. Never a bare noun: ✗ *what of children*.
 **With *of*:** *Of* is the construction itself and is obligatory.
@@ -312,6 +326,7 @@ Raises a previously unaddressed item as the next topic — 'and what about …?'
 ### what other, which other
 
 **Pronunciation:** /ˌwʌt ˈʌðɚ/, /ˌwɪtʃ ˈʌðɚ/ &middot; *wuht-UTH-er, wich-UTH-er* &middot; the flapped *t* of *what* links straight into *other*: [ˌwʌɾ ˈʌðɚ]
+**Русский:** какие ещё, какие другие — о членах множества помимо уже названных
 **Type:** interrogative &middot; **Position:** *what* / *which* is the **central determiner**; *other* is a **postdeterminer** sitting between it and the noun &middot; **Register:** neutral
 **Goes with:** plural countable nouns (*what other options*), uncountable nouns (*what other evidence*), and singular countable nouns when the sense is 'besides this one' (*what other choice do I have?*). Word order inside the phrase is fixed: ✗ *other what options*.
 **With *of*:** Bare *what other* + noun takes no *of*. The partitive is built on the pronoun instead — *which of the others*, or the plural noun *which others*.
@@ -332,6 +347,7 @@ Asks about members of the set apart from the one or ones already named.
 ### which (interrogative)
 
 **Pronunciation:** /wɪtʃ/ &middot; *WICH* &middot; a homophone of *witch* for most Americans; older speakers and many Southern speakers keep the /hw-/ onset, /hwɪtʃ/. The word does not reduce — there is no weak form
+**Русский:** который, какой из — выбор из известного, ограниченного набора
 **Type:** interrogative &middot; **Position:** central &middot; **Register:** neutral
 **Goes with:** **any noun type** — singular countable (*which gate*), plural countable (*which shoes*), uncountable (*which paint*, *which water*). It cannot combine with another central determiner: ✗ *which the gate*, ✗ *the which gate*, ✗ *which my keys*. With no noun after it, it is a **pronoun**: *Which is yours?*
 **With *of*:** **Required** before another determiner or a pronoun — *which of the gates*, *which of them*. Not used before a bare noun: ✓ *which gates*, ✗ *which of gates*. In the *of*-construction *which* is a pronoun, not a determiner.
@@ -353,6 +369,7 @@ Asks the hearer to pick the intended item out of a set that is already known, vi
 ### which of
 
 **Pronunciation:** /ˈwɪtʃ əv/ &middot; *WICH-uhv* &middot; *of* reduces to /əv/ and, in fast speech, to /ə/ — *which of them* [ˈwɪtʃ ə ðəm]
+**Русский:** который из, кто из — партитив; местоимение, а не определитель
 **Type:** interrogative (partitive — a **pronoun** construction, not a determiner) &middot; **Position:** heads its own noun phrase; the noun inside the *of*-phrase keeps its own determiner &middot; **Register:** neutral
 **Goes with:** a **definite, already-determined** plural or a pronoun — *which of the applicants*, *which of these*, *which of them*, *which of us*. A two-member set takes the same frame — *which of the two offers*, *which of the two of you*. Never a bare plural: ✗ *which of applicants*, and never an uncountable mass: ✗ *which of the money* → *how much of the money*.
 **With *of*:** *Of* is the construction itself and is obligatory. Drop it and you are back to the determiner: *which applicants*.
@@ -393,11 +410,12 @@ These stand in front of the article and mark the noun as extreme, remarkable, or
 ### how (exclamative)
 
 **Pronunciation:** /haʊ/ &middot; *HOW* &middot; carries the nuclear accent of the exclamation, and the following adjective is drawn out — *How LOOONG the day was!*
+**Русский:** как! — восклицание о степени; ставится перед прилагательным или наречием, артикль не трогает
 **Type:** degree adverb — **not a determiner**. It is entered here because the article rule that separates it from *what* is the commonest exclamative error in English &middot; **Position:** fronts the clause and takes an adjective or adverb; it never enters the determiner slot at all &middot; **Register:** neutral; the full-clause form (*How long the day was!*) reads as literary, and everyday speech clips it to *How long!* or switches to *what*
 **Goes with:** an **adjective** or an **adverb**, never a noun. ✗ *How a day!*, ✗ *How day!* Because it never touches a noun, it never displaces the noun's own determiner — which is exactly why the article stays behind: *How long **the** day was!*
 **With *of*:** No partitive — *how* is not a determiner, so there is no set for it to take a part of. The *of* in *How kind of you to remember* belongs to the adjective (*kind of you*), not to *how*.
 **Pattern:** *How* [adjective]! &middot; *How* [adjective] [subject] [verb]! — *How long the day was!* &middot; *How* [adverb] [subject] [verb]! &middot; *How* [subject] [verb]! — *How she suffered!* &middot; *How* [adjective] *of* [person] *to* [verb]! — *How kind of you to remember*
-**Contrast:** **the article rule.** *What* is a predeterminer, so it swallows the article and brings the noun along: ✓ *What a long day!* *How* is an adverb, so it takes only the adjective, and the noun phrase keeps its own article behind it: ✓ *How long the day was!* Cross the two and you get the classic errors ✗ *How a long day!* and ✗ *What long the day was!* The quick test: **if there is a noun in the exclamation, use *what*; if there is only an adjective, use *how*.**
+**Contrast:** **the article rule.** *What* is a predeterminer, so it swallows the article and brings the noun along: ✓ *What a long day!* *How* is an adverb, so it takes only the adjective, and the noun phrase keeps its own article behind it: ✓ *How long the day was!* Cross the two and you get the classic errors **How a long day!* and ✗ *What long the day was!* The quick test: ✗ *if there is a noun in the exclamation, use *what*; if there is only an adjective, use *how*.**
 
 Marks a high degree of the quality named by the following adjective or adverb.
 
@@ -413,6 +431,7 @@ Marks a high degree of the quality named by the following adjective or adverb.
 ### such
 
 **Pronunciation:** /sʌtʃ/ &middot; *SUCH* &middot; weak form /sətʃ/ when unstressed, which is most of the time — *such a mess* runs to [sətʃəˈmɛs]
+**Русский:** такой — усиление степени; «такого рода» (отсылка к названному); such … that — следствие
 **Type:** exclamative and identifying determiner &middot; **Position:** **predeterminer** before *a/an* (*such a mess*); **central determiner** when it attaches straight to a bare plural or uncountable (*such nonsense*) &middot; **Register:** neutral
 **Goes with:** **plural countable nouns** (*such problems*) and **uncountable nouns** (*such nonsense*, *such enthusiasm*) directly. A **singular countable noun requires *a/an***: ✓ *such a mess*, ✗ *such mess* — see [such a, such an](#such-a-such-an). It can never follow an article: ✗ *a such mess*, ✗ *the such problems*.
 **With *of*:** Not used in ordinary English. The partitive *such of the* + noun + *as* … survives only in legal drafting (*such of the funds as remain unspent*).
@@ -435,6 +454,7 @@ Marks a high degree of the quality named by the following adjective or adverb.
 ### such a, such an
 
 **Pronunciation:** /ˌsʌtʃ ə/, /ˌsʌtʃ ən/ &middot; *such-UH, such-UHN* &middot; both words normally reduce: *such a* [sətʃə], *such an* [sətʃən]
+**Русский:** такой — усиление перед исчисляемым ед. ч.; such стоит перед a/an: such a mess
 **Type:** exclamative determiner (predeterminer plus article) &middot; **Position:** **predeterminer** — *such* stands in front of the indefinite article, which then does its ordinary job on the noun &middot; **Register:** neutral
 **Goes with:** **singular countable nouns only** — *such a day*, *such an idiot*. Never a plural (✗ *such a problems* → *such problems*), never an uncountable (✗ *such a nonsense* → *such nonsense*), and never with the definite article (✗ *such the day*).
 **With *of*:** None.
@@ -455,6 +475,7 @@ Marks a single countable thing or person as extreme, remarkable, or exactly of t
 ### such other
 
 **Pronunciation:** /ˌsʌtʃ ˈʌðɚ/ &middot; *such-UTH-er* &middot; *such* takes its weak form /sətʃ/ here, because the accent runs forward to the noun — *such other TERMS*, *such other RELIEF*
+**Русский:** прочие такие, иные подобные — юр., договорная формула, обычно с оборотом as …
 **Type:** identifying determiner plus postdeterminer &middot; **Position:** *such* fills the **central** slot and *other* is a **postdeterminer** between it and the noun &middot; **Register:** **legal and contractual**. This is drafting boilerplate, not ordinary English; used outside a document it sounds like an impression of a lawyer
 **Goes with:** **plural countable nouns** (*such other terms*, *such other documents*) and **uncountable nouns** (*such other relief*, *such other property*). A singular countable would need *a/an* and the frame does not take it — drafters write *any other case*, not ✗ *such other a case*. It can never follow an article: ✗ *the such other terms*, ✗ *a such other document*.
 **With *of*:** Not used. The drafting partitive is a different frame, *such of the* + noun + *as* — *such of the funds as remain unspent* — and there *such* is a **pronoun**, not a determiner.
@@ -476,6 +497,7 @@ Marks a single countable thing or person as extreme, remarkable, or exactly of t
 ### what (exclamative)
 
 **Pronunciation:** /wʌt/ &middot; *WUHT* &middot; carries the accent of the exclamation; the /t/ flaps into a following vowel, so *what an idiot* is [wʌɾənˈaɪɾiət]
+**Русский:** какой!, что за! — восклицание-реакция: восторг, ужас, презрение или удивление
 **Type:** exclamative &middot; **Position:** **predeterminer** in front of *a/an* (*what a mess!*); **central determiner** when it attaches straight to a bare plural or uncountable (*what nonsense!*) — the same two-slot behavior as *such* &middot; **Register:** neutral
 **Goes with:** **plural countable nouns** (*What beautiful flowers!*) and **uncountable nouns** (*What nonsense!*, *What luck!*) directly. A **singular countable requires *a/an*** and is treated at [what a, what an](#what-a-what-an): ✗ *What mess!* → ✓ *What a mess!* It never combines with *the*: ✗ *What the flowers!*
 **With *of*:** Not used in exclamations. The formal idiom [what of](#what-of) is a question, not an exclamation.
@@ -496,6 +518,7 @@ Registers a strong reaction to the noun — admiration, dismay, scorn, or surpri
 ### what a, what an
 
 **Pronunciation:** /ˌwʌt ə/, /ˌwʌt ən/ &middot; *wuht-UH, wuht-UHN* &middot; almost always flapped in running speech: [ˈwʌɾə], [ˈwʌɾən] — *what a mess* is [wʌɾəˈmɛs]
+**Русский:** какой!, что за! — восклицание об исчисляемом ед. ч.; what стоит перед a/an
 **Type:** exclamative (predeterminer plus article) &middot; **Position:** **predeterminer** — *what* stands in front of *a/an* &middot; **Register:** neutral
 **Goes with:** **singular countable nouns only** — *what a day*, *what an honor*. ✗ *what a flowers*, ✗ *what a nonsense*. With plurals and uncountables the article simply disappears: see [what (exclamative)](#what-exclamative). It never takes the definite article: ✗ *what the day*.
 **With *of*:** None.
@@ -521,6 +544,7 @@ A relative determiner hooks a clause onto a noun while still determining that no
 ### however little, however few
 
 **Pronunciation:** /haʊˈɛvɚ ˈlɪtəl/, /haʊˈɛvɚ ˈfju/ &middot; *how-EV-er-LIT-ul, how-EV-er-FYOO* &middot; written as one word in this use; the *t* of *little* is a flap in General American, so it comes out *how-EV-er-LID-ul*
+**Русский:** как бы мало ни — уступка о малом количестве (little — неисчисл., few — счётные)
 **Type:** relative (concessive fused relative) &middot; **Position:** central — the two words fill one slot &middot; **Register:** neutral to formal; less frequent than *however much* and *however many*
 **Goes with:** *however little* + **uncountable** (*however little money*, *however little time*); *however few* + **plural countable** (*however few options*, *however few people*). The split is the ordinary *little/few* split, so ✗ *however little options* and ✗ *however few money*, and neither takes a singular countable (✗ *however few option*). With no noun following, *however little* is a degree adverb (*however little it matters*), not a determiner.
 **With *of*:** Partitive *however little of the* / *however few of the* is possible, and *of* is **required** before a pronoun (*however few of them*, *however little of it*). The *wh-* word is a **pronoun** in that construction. Never before a bare plural: ✗ *however few of options*.
@@ -543,6 +567,7 @@ Concedes a small amount or number without settling on one — 'no matter how lit
 ### however much, however many
 
 **Pronunciation:** /haʊˈɛvɚ mʌtʃ/, /haʊˈɛvɚ ˈmɛni/ &middot; *how-EV-er-much, how-EV-er-MEN-ee* &middot; written as one word in this use; the two-word *how ever* is a different, emphatic interrogative and is stressed *how EV-er*
+**Русский:** сколько бы ни — уступка о любом количестве (much — неисчисл., many — счётные)
 **Type:** relative (concessive fused relative) &middot; **Position:** central — the whole phrase fills one slot &middot; **Register:** neutral to formal
 **Goes with:** *however much* + **uncountable** (*however much money*); *however many* + **plural countable** (*however many times*). The countability split is the ordinary *much/many* split, so ✗ *however much times* and ✗ *however many money*. With no noun following, *however much* is a degree adverb (*however much it costs*), not a determiner.
 **With *of*:** Partitive *however much of the* / *however many of the* is possible, and *of* is **required** before a pronoun (*however many of them*). The *wh-* word is a pronoun in that construction.
@@ -564,6 +589,7 @@ Concedes any amount or number without settling on one — 'no matter what amount
 ### in which case
 
 **Pronunciation:** /ɪn ˌwɪtʃ ˈkeɪs/ &middot; *in-wich-KAYSS* &middot; the noun takes the accent — *at which POINT*, *by which TIME*
+**Русский:** в таком случае — цепляет следующую фразу к только что описанной ситуации
 **Type:** relative &middot; **Position:** *which* is the central determiner of the noun, inside a fronted prepositional phrase; the phrase as a whole opens its clause &middot; **Register:** neutral to formal; standard in careful writing, contracts, and business speech
 **Goes with:** a **small closed set of abstract nouns** naming a situation, moment, or reason — *case*, *point*, *time*, *event*, *instance*, *circumstances*, *reason*, *occasion*, *juncture*, *stage*, *respect*. It cannot take an ordinary concrete noun in this relative use: ✗ *He sat down, in which chair we later found his keys*, ✗ *by which sandwich*. (The interrogative *In which chair did he sit?* is a different construction and is fine.)
 **With *of*:** None — the preposition is already supplied by the phrase itself (*in*, *at*, *by*, *for*, *after*, *during*, *since*).
@@ -585,6 +611,7 @@ Hooks a following clause onto the situation just described, naming that situatio
 ### the which
 
 **Pronunciation:** /ðə ˈwɪtʃ/ &middot; *thuh-WICH* &middot; *the* is the ordinary weak /ðə/ in front of the consonant /w/, never /ði/; /hwɪtʃ/ for speakers who keep the *wh-* onset. In verse the article can be elided to *th'* for the meter, *th' which*
+**Русский:** который, каковой — устар. (совр. which с определённым артиклем впереди)
 **Type:** relative — **archaic**. A relative **pronoun** in most of its attested uses and a relative **determiner** in the minority of them; it is entered here for that minority &middot; **Position:** *the* and *which* together fill the central slot when a noun follows (*the which time*); with no noun after it the pair is a pronoun and holds no determiner slot at all &middot; **Register:** **obsolete** in every variety of modern English — Middle and Early Modern English only
 **Goes with:** in the determiner use, chiefly the same **small set of abstract nouns** that modern relative *which* still takes — *the which time*, *the which place*, *the which cause*, *the which thing* — and, in Middle English, a wider range of ordinary nouns besides. In modern English no noun is possible at all: ✗ *the which gate*, ✗ *the which report*. Far more often nothing follows and the phrase is simply a relative pronoun meaning *which*.
 **With *of*:** The construction is already built on an article, so *of* attaches outside it, in the older genitive frame *of the which* — the direct ancestor of today's [of which](03-possessives.md#of-which). There is no partitive: ✗ *the which of these*.
@@ -606,6 +633,7 @@ Archaic *which*, with the definite article still standing in front of it — alo
 ### what (relative)
 
 **Pronunciation:** /wʌt/ &middot; *WUHT* &middot; weak form /wət/, since the fused relative is rarely accented — *what money I had* runs to [wətˈmʌni]
+**Русский:** то (немногое), что — сращённое относительное: what money I had «те деньги, что у меня были»
 **Type:** relative (fused relative — it contains its own antecedent) &middot; **Position:** central &middot; **Register:** neutral, with a slightly literary edge
 **Goes with:** **uncountable nouns** (*what money I had*) and **plural countable nouns** (*what photographs survived*). A bare singular countable is marginal and normally rephrased (✗? *what car I owned* → *the car I owned*). The noun is nearly always small in quantity — the construction carries an undertone of 'the little there was,' which is why the fixed expansions [what little](#what-little) and [what few](#what-few) exist.
 **With *of*:** None in the determiner use. [what of](#what-of) is a separate, non-determiner idiom and means something else entirely.
@@ -627,6 +655,7 @@ Archaic *which*, with the definite article still standing in front of it — alo
 ### what few
 
 **Pronunciation:** /ˌwʌt ˈfju/ &middot; *wuht-FYOO* &middot; the accent falls on *few*
+**Русский:** те немногие, что — о малом оставшемся числе счётных: what few friends he had
 **Type:** relative (fused relative plus quantifier) &middot; **Position:** central — the two words fill one slot &middot; **Register:** neutral to literary
 **Goes with:** **plural countable nouns only** — *what few friends I have*, *what few options remain*. Never an uncountable (✗ *what few money* → *what little money*) and never a singular countable.
 **With *of*:** None. ✗ *what few of the friends I have* — the partitive would be *the few of my friends who* …
@@ -647,6 +676,7 @@ Archaic *which*, with the definite article still standing in front of it — alo
 ### what little
 
 **Pronunciation:** /ˌwʌt ˈlɪtəl/ &middot; *wuht-LIT-ul* &middot; the *t* of *little* is a flap, so it comes out *wuht-LID-ul*
+**Русский:** то немногое, что — о малом оставшемся объёме неисчисляемого: what little time we had
 **Type:** relative (fused relative plus quantifier) &middot; **Position:** central — the two words fill one slot &middot; **Register:** neutral to literary
 **Goes with:** **uncountable nouns only** — *what little time remains*, *what little money he had*. Never a plural countable (✗ *what little friends* → *what few friends*).
 **With *of*:** None.
@@ -667,6 +697,7 @@ Archaic *which*, with the definite article still standing in front of it — alo
 ### whatever
 
 **Pronunciation:** /wʌtˈɛvɚ/ &middot; *wuht-EV-er* &middot; the /t/ flaps, so the ordinary American pronunciation is [wəˈɾɛvɚ]; the dismissive interjection *whatever* is stressed differently, *WHAT-ever*
+**Русский:** любой какой угодно; какой бы ни — сращённое относительное и уступительное «неважно какой»
 **Type:** relative (fused relative) and concessive; also emphatic interrogative &middot; **Position:** central &middot; **Register:** neutral
 **Goes with:** **any noun type** — singular countable (*whatever excuse he gives*), plural countable (*whatever books you want*), uncountable (*whatever money is left*). It cannot share the slot with another central determiner: ✗ *the whatever excuse*.
 **With *of*:** Not used in the determiner sense. *Whatever of* + noun phrase exists but is archaic; the living partitive is *whichever of the* …
@@ -688,6 +719,7 @@ Archaic *which*, with the definite article still standing in front of it — alo
 ### whatsoever
 
 **Pronunciation:** /ˌwʌtsoʊˈɛvɚ/ &middot; *wuht-soh-EV-er* &middot; four syllables, accent on *ev*; the *t* does not flap here because /s/ follows
+**Русский:** вообще никакой, ни малейшего — усилитель после отрицания; устар. «какой бы ни»
 **Type:** emphatic negative-polarity item; also, archaically, a fused relative &middot; **Position:** **postposed** in the modern use — it follows the noun it strengthens and therefore never occupies the determiner slot at all. In the archaic relative use it precedes the noun &middot; **Register:** formal and emphatic; the relative use is biblical or legal
 **Goes with:** a noun already determined by *no*, *any*, *none*, or *little* — *no evidence whatsoever*, *any doubt whatsoever*, *nothing whatsoever*. It is a **negative-polarity item**: a negative or a question has to license it, so ✗ *He has some evidence whatsoever*. In the archaic fused-relative use it takes a bare plural or uncountable ahead of it (*whatsoever things are true*).
 **With *of*:** None.
@@ -709,6 +741,7 @@ Strengthens a negation to 'not the smallest amount of' — or, archaically, 'any
 ### which (relative)
 
 **Pronunciation:** /wɪtʃ/ &middot; *WICH* &middot; unreduced even though unstressed; /hwɪtʃ/ for speakers who keep the *wh-* onset
+**Русский:** каковой, этот самый — книжн.: подхватывает сказанное (by which time, at which point)
 **Type:** relative &middot; **Position:** central, normally inside a fronted prepositional phrase &middot; **Register:** formal; only *in which case* and its siblings are ordinary in everyday American English
 **Goes with:** abstract nouns naming a time, point, case, event, or reason, in a **supplementary (nonrestrictive)** clause — *by which time*, *at which point*, *in which case*, *for which reason*. Beyond that closed set the determiner use survives only in legal and older formal prose, where it can take almost any noun that repeats or reclassifies the antecedent: *He made an offer, which offer we declined.*
 **With *of*:** [of which](03-possessives.md#of-which) is a different construction — a relative **genitive** that names something the antecedent has, not this determiner. Compare *a house the roof of which leaks* (genitive) with *he left at noon, by which time we had gone* (determiner).
@@ -730,6 +763,7 @@ Carries the antecedent — often a whole clause — forward into a following cla
 ### whichever
 
 **Pronunciation:** /wɪˈtʃɛvɚ/ &middot; *wich-EV-er* &middot; three syllables, accent on *ev*; the two-word *which ever* (emphatic interrogative) is chiefly British
+**Русский:** какой угодно из; какой бы ни — свободный выбор внутри уже известного набора
 **Type:** relative (fused relative) and concessive &middot; **Position:** central &middot; **Register:** neutral
 **Goes with:** **singular countable** (*whichever route we take*), **plural countable** (*whichever seats are free*), and, less often, **uncountable** (*whichever paint you prefer*). Like every central determiner it cannot stack with another: ✗ *the whichever route*.
 **With *of*:** **Required** before another determiner or a pronoun — *whichever of the two*, *whichever of them*. *Whichever* is a **pronoun** in that construction, not a determiner. Never before a bare plural: ✗ *whichever of routes*.
@@ -751,6 +785,7 @@ Carries the antecedent — often a whole clause — forward into a following cla
 ### whichsoever
 
 **Pronunciation:** /ˌwɪtʃsoʊˈɛvɚ/ &middot; *wich-soh-EV-er* &middot; four syllables, accent on *ev*
+**Русский:** какой бы ни (из) — устар., юр. усиленная форма whichever
 **Type:** relative (fused relative) &middot; **Position:** central &middot; **Register:** **archaic** — it survives only in legal boilerplate, scripture, and deliberate period style
 **Goes with:** singular and plural countable nouns inside a free relative clause — *whichsoever party*, *whichsoever terms*. Uncountables are possible but vanishingly rare.
 **With *of*:** *Whichsoever of the* + plural noun, as a pronoun; *of* is required before a determiner or a pronoun, exactly as with *whichever*.

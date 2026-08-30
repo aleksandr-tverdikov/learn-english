@@ -1,18 +1,14 @@
 # Reporting Verbs
 
-> Every verb used to report what someone said — **313 entries** across 8 groups.
+> **313 entries** across 8 categories.
 
-The point of this dictionary is the **Patterns** line. Reference grammars tell you *that* reporting verbs differ in the structures they take; this tells you exactly which frames each verb allows, and the **Never** line tells you which plausible-looking frame it refuses. Between them they prevent most reported-speech errors.
-
-**[Open the audio browser](browse.html)** to search all 313 verbs and hear any of them.
-
-[← Reported speech](../README.md) &middot; [All grammar topics](../../README.md)
+**[Open the audio browser](browse.html)** to search all 313 and hear any of them spoken.
 
 ---
 
-## Groups
+## Categories
 
-| # | Group | What it covers | Verbs |
+| # | Category | What it covers | Entries |
 |---|---|---|---|
 | 1 | [Neutral reporting verbs](01-neutral.md) | The workhorses of reported speech — the verbs that tell you someone said something without telling you what to think about it. | 31 |
 | 2 | [Asserting, claiming, and insisting](02-assert.md) | The verbs for putting a statement on the record — and for telling your reader, in the choice of verb alone, whether you believe it. | 35 |
@@ -24,29 +20,22 @@ The point of this dictionary is the **Patterns** line. Reference grammars tell y
 | 8 | [Asking, wondering, explaining, and concluding](08-ask-explain.md) | The verbs that report a question, an explanation, or the conclusion somebody drew — everything a speaker does with information other than simply assert it. | 45 |
 | | **Total** | | **313** |
 
-## How to read an entry
+## Fields in each entry
 
-```
-### suggest
-
-**Patterns:** suggest + that-clause · suggest + -ing      ← every frame it allows
-**Never:** *suggest someone to do something*             ← the frame it refuses
-**Subjunctive:** American takes the bare form —          ← where AmE and BrE split
-               suggested that he BE there
-**Reports:** a proposal, without the authority of tell   ← the speech act, and the judgment it carries
-
-> "Why don't we meet Thursday?"  →  She suggested that we meet Thursday.
-```
-
-**Never** is the line to read first. The single most common structural error in English reported speech is *suggested me to go*; the same trap catches *recommend*, *propose*, and *explain*, all of which refuse a personal object before their complement.
-
-**Reports** carries something subtler: the judgment a verb smuggles in. *Claim* and *allege* tell the reader you do not vouch for the statement. *Admit* and *confess* presuppose fault. *Point out* presupposes truth. Choosing the wrong one editorializes by accident.
+| Field | What it tells you |
+|---|---|
+| Pronunciation | IPA, a stress-marked respelling, and the weak form where one exists |
+| Patterns | |
+| Never | |
+| Subjunctive | |
+| Reports | |
+| Type | |
 
 ---
 
 ## A–Z index
 
-All 313 verbs.
+All 313 headwords.
 
 ### A
 

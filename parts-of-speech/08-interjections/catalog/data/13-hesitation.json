@@ -6,12 +6,6 @@
       "term": "ah",
       "ipa": "/ɑ/",
       "respell": "AH",
-      "variants": [
-        "ahh",
-        "ahhh"
-      ],
-      "type": "primary",
-      "register": "neutral (speech only)",
       "meaning": "A drawn-out open vowel used to stall for a beat while you retrieve a word or soften a hesitant answer. In this hesitation use it is flatter and quieter than the ah of relief or discovery, and Americans reach for it less often than for uh.",
       "examples": [
         "I was, ah, hoping we could push the meeting to Thursday.",
@@ -21,23 +15,17 @@
         "We're, ah, still waiting on legal to sign off.",
         "The witness paused, said ah twice, and then changed his answer."
       ],
-      "related": [
-        "uh",
-        "um",
-        "er",
-        "hmm"
-      ]
+      "senses": [],
+      "русский": "а-а… / э-э… — протяжный звук раздумья, пока подбираешь слово",
+      "register": "neutral (speech only)",
+      "type": "primary",
+      "variants": "ahh, ahhh",
+      "see also": "uh, um, er, hmm"
     },
     {
       "term": "er",
       "ipa": "/ɝ/ (British /ɜː/, with no r-sound in it)",
       "respell": "UR",
-      "variants": [
-        "err",
-        "uhr"
-      ],
-      "type": "primary",
-      "register": "regional (chiefly British; in American use mostly a written spelling)",
       "meaning": "The British spelling of the basic hesitation sound, written er because non-rhotic British English pronounces it as a long vowel with no r in it. An American reading the page aloud puts the r back in and says /ɝ/, which is not the sound the spelling was invented for. Americans say uh and write uh; when an American writes er, it is usually in print, in a joking-formal tone, or to mark a small verbal stumble.",
       "examples": [
         "The report is due — er — I think it was Friday.",
@@ -47,22 +35,17 @@
         "\"Er, I don't think that's quite what she meant,\" he said.",
         "The transcript is one long string of er and um."
       ],
-      "related": [
-        "uh",
-        "um",
-        "erm",
-        "ah"
-      ]
+      "senses": [],
+      "русский": "э-э — британское написание звука колебания; американцы говорят и пишут uh",
+      "register": "regional (chiefly British; in American use mostly a written spelling)",
+      "type": "primary",
+      "variants": "err, uhr",
+      "see also": "uh, um, erm, ah"
     },
     {
       "term": "erm",
       "ipa": "/ɝm/ (British /ɜːm/, with no r-sound in it)",
       "respell": "URM",
-      "variants": [
-        "ermm"
-      ],
-      "type": "primary",
-      "register": "regional (British)",
       "meaning": "The British counterpart of American um — the same hesitation hum, spelled to match a non-rhotic accent. Americans recognize it in writing but do not normally produce it, and using it out loud in the United States reads as an affectation or as an imitation of a British speaker.",
       "examples": [
         "Erm, I'm not sure that's how it works over here.",
@@ -71,23 +54,17 @@
         "Erm — sorry, could you repeat the question?",
         "Her text just said \"erm\" and nothing else, which was worse than a no."
       ],
-      "related": [
-        "um",
-        "er",
-        "uh"
-      ]
+      "senses": [],
+      "русский": "э-м — брит. аналог американского um",
+      "register": "regional (British)",
+      "type": "primary",
+      "variants": "ermm",
+      "see also": "um, er, uh"
     },
     {
       "term": "hmm",
       "ipa": "/hm̩/",
-      "respell": "HMM — a hummed m with the lips closed, no vowel in it",
-      "variants": [
-        "hm",
-        "hmmm",
-        "hmmmm"
-      ],
-      "type": "primary",
-      "register": "neutral",
+      "respell": "HMM",
       "meaning": "A closed-lip hum meaning that you are thinking, weighing, or not quite convinced. Length carries the meaning: a clipped hm is mild interest or skepticism, while a long hmmm is real deliberation.",
       "examples": [
         "Hmm. Let me look at the numbers again before I answer.",
@@ -97,22 +74,18 @@
         "Hmmm. I'm not sure I agree with that at all.",
         "He answered every question with a noncommittal hm."
       ],
-      "related": [
-        "mm",
-        "let me think",
-        "well",
-        "uh"
-      ]
+      "senses": [],
+      "pronunciation note": "a hummed m with the lips closed, no vowel in it",
+      "русский": "хм / хмм — гудение с закрытым ртом: раздумье, сомнение; чем длиннее, тем серьёзнее",
+      "register": "neutral",
+      "type": "primary",
+      "variants": "hm, hmmm, hmmmm",
+      "see also": "mm, let me think, well, uh"
     },
     {
       "term": "mm",
       "ipa": "/m̩/",
-      "respell": "MM — a hum on a closed m, no vowel",
-      "variants": [
-        "mmm"
-      ],
-      "type": "primary",
-      "register": "informal",
+      "respell": "MM",
       "meaning": "A short level hum that fills a pause or signals lukewarm thinking. Note that this is not the pleasure sound mmm (as in mmm, that smells good) and not the agreement sound mm-hmm; the hesitation mm is flat in pitch and goes nowhere.",
       "examples": [
         "Mm, I'd have to check my calendar for that week.",
@@ -121,23 +94,18 @@
         "Mm — maybe. Ask me again after lunch.",
         "\"Mm, I'm not sure about the blue one,\" she said, holding it up to the light."
       ],
-      "related": [
-        "hmm",
-        "uh",
-        "um"
-      ]
+      "senses": [],
+      "pronunciation note": "a hum on a closed m, no vowel",
+      "русский": "м-м — ровное мычание, заполняющее паузу; не звук удовольствия и не согласие мм-хмм",
+      "register": "informal",
+      "type": "primary",
+      "variants": "mmm",
+      "see also": "hmm, uh, um"
     },
     {
       "term": "uh",
       "ipa": "/ə/ (also /ʌ/)",
       "respell": "UH",
-      "variants": [
-        "uhh",
-        "uhhh",
-        "er (British spelling)"
-      ],
-      "type": "primary",
-      "register": "neutral (speech only)",
       "meaning": "The default American hesitation sound — a short neutral vowel that holds the floor for the half second it takes to plan the next word. It is normal and near-universal in American speech, and it is edited out of writing entirely except when the writing represents speech.",
       "examples": [
         "It's, uh, about a twenty-minute drive from here.",
@@ -147,25 +115,17 @@
         "He said uh eleven times in a two-minute answer.",
         "I was going to — uh — sorry, what was the question again?"
       ],
-      "related": [
-        "um",
-        "er",
-        "ah",
-        "hmm",
-        "like"
-      ]
+      "senses": [],
+      "русский": "э-э — основной американский звук колебания; только в устной речи",
+      "register": "neutral (speech only)",
+      "type": "primary",
+      "variants": "uhh, uhhh, er (British spelling)",
+      "see also": "um, er, ah, hmm, like"
     },
     {
       "term": "um",
       "ipa": "/əm/ (also /ʌm/)",
       "respell": "UM",
-      "variants": [
-        "umm",
-        "ummm",
-        "erm (British spelling)"
-      ],
-      "type": "primary",
-      "register": "neutral (speech only)",
       "meaning": "The other core American filler: a hum that ends with the lips closing, used like uh but typically before a longer or more delicate stretch of speech. It often carries a note of awkwardness, and a written um in a text message almost always means \"I have a problem with what you just said.\"",
       "examples": [
         "The deadline is, um, next Tuesday, I think.",
@@ -175,25 +135,17 @@
         "Can I, um, ask you something kind of personal?",
         "He texted back a single \"um\" and I knew I had messed up."
       ],
-      "related": [
-        "uh",
-        "erm",
-        "hmm",
-        "well",
-        "like"
-      ]
+      "senses": [],
+      "русский": "э-м / м-м — второй основной филлер, часто с оттенком неловкости",
+      "register": "neutral (speech only)",
+      "type": "primary",
+      "variants": "umm, ummm, erm (British spelling)",
+      "see also": "uh, erm, hmm, well, like"
     },
     {
       "term": "as I was saying",
       "ipa": "/æz ˌaɪ wəz ˈseɪɪŋ/",
       "respell": "az eye wuz SAY-ing",
-      "variants": [
-        "like I was saying",
-        "as I said",
-        "anyway, as I was saying"
-      ],
-      "type": "phrase",
-      "register": "neutral (can sound pointed after an interruption)",
       "meaning": "Takes the floor back after an interruption and signals that you are picking up the exact thread you were on. Said mildly it is just bookkeeping; said flatly to the person who cut you off, it is a rebuke with no rude word in it.",
       "examples": [
         "As I was saying, the permits won't clear until March.",
@@ -202,23 +154,17 @@
         "He waited for the laughter to die down. \"As I was saying …\"",
         "As I was saying before the fire drill, there are three options on the table."
       ],
-      "related": [
-        "where was I",
-        "anyway",
-        "so anyway",
-        "hold on"
-      ]
+      "senses": [],
+      "русский": "как я уже говорил — возврат к прерванной мысли; может звучать как упрёк перебившему",
+      "register": "neutral (can sound pointed after an interruption)",
+      "type": "phrase",
+      "variants": "like I was saying, as I said, anyway, as I was saying",
+      "see also": "where was I, anyway, so anyway, hold on"
     },
     {
       "term": "bear with me",
       "ipa": "/ˈbɛr wɪð mi/",
       "respell": "BAIR with mee",
-      "variants": [
-        "bear with me a second",
-        "bear with me here"
-      ],
-      "type": "phrase",
-      "register": "neutral",
       "meaning": "A request for the listener's patience while you find a file, work something out, or talk your way through a half-formed idea. It is polite enough for a client call and casual enough for a friend.",
       "examples": [
         "Bear with me — I know that invoice is in here somewhere.",
@@ -227,23 +173,17 @@
         "\"Bear with me, folks, we're having a technical issue.\"",
         "Bear with me here, the math takes a minute to explain."
       ],
-      "related": [
-        "hold on",
-        "just a second",
-        "hang on",
-        "hear me out"
-      ]
+      "senses": [],
+      "русский": "потерпите немного / подождите чуть-чуть — просьба дать время разобраться",
+      "register": "neutral",
+      "type": "phrase",
+      "variants": "bear with me a second, bear with me here",
+      "see also": "hold on, just a second, hang on, hear me out"
     },
     {
       "term": "hang on",
       "ipa": "/ˈhæŋ ɑn/",
       "respell": "HANG-on",
-      "variants": [
-        "hang on a sec",
-        "hang on a minute"
-      ],
-      "type": "phrase",
-      "register": "informal",
       "meaning": "A casual \"stop and wait\" — used to buy yourself a moment, to interrupt someone mid-flow, or to flag that something they just said does not add up.",
       "examples": [
         "Hang on, let me grab a pen.",
@@ -252,23 +192,17 @@
         "\"Ready to go?\" \"Hang on, I'm still tying my shoes.\"",
         "Hang on, I know exactly who you mean now."
       ],
-      "related": [
-        "hold on",
-        "wait",
-        "just a second",
-        "bear with me"
-      ]
+      "senses": [],
+      "русский": "погоди / секунду — разг. «стой и подожди»",
+      "register": "informal",
+      "type": "phrase",
+      "variants": "hang on a sec, hang on a minute",
+      "see also": "hold on, wait, just a second, bear with me"
     },
     {
       "term": "hear me out",
       "ipa": "/ˌhɪr mi ˈaʊt/",
       "respell": "heer mee OUT",
-      "variants": [
-        "just hear me out",
-        "hear me out on this"
-      ],
-      "type": "phrase",
-      "register": "informal",
       "meaning": "Asks the listener to hold their objection until you have finished, and admits up front that the idea is going to sound bad at first. It is a floor-holding move rather than a stall: it buys the whole rest of your turn instead of a single beat.",
       "examples": [
         "Hear me out — what if we drove instead of flying?",
@@ -277,24 +211,17 @@
         "Hear me out on this: we cancel the party and take the money to the beach.",
         "He held up a hand and said, \"Hear me out before you say no.\""
       ],
-      "related": [
-        "bear with me",
-        "hold on",
-        "look",
-        "listen"
-      ]
+      "senses": [],
+      "русский": "выслушай меня до конца — не перебивай, пока не договорю",
+      "register": "informal",
+      "type": "phrase",
+      "variants": "just hear me out, hear me out on this",
+      "see also": "bear with me, hold on, look, listen"
     },
     {
       "term": "hold on",
       "ipa": "/ˈhoʊld ɑn/",
       "respell": "HOHLD-on",
-      "variants": [
-        "hold on a second",
-        "hold up",
-        "hold on there"
-      ],
-      "type": "phrase",
-      "register": "neutral",
       "meaning": "A request to pause. It works both as a stall while you look something up and as a mild objection that stops the other person so you can catch up.",
       "examples": [
         "Hold on, I'll transfer you to someone who can help with that.",
@@ -303,24 +230,17 @@
         "\"Hold on, I've got another call coming in.\"",
         "Hold up, that's not what the email said at all."
       ],
-      "related": [
-        "hang on",
-        "wait",
-        "just a second",
-        "bear with me"
-      ]
+      "senses": [],
+      "русский": "подождите / постойте — просьба сделать паузу либо мягкое возражение",
+      "register": "neutral",
+      "type": "phrase",
+      "variants": "hold on a second, hold up, hold on there",
+      "see also": "hang on, wait, just a second, bear with me"
     },
     {
       "term": "how do I put this",
       "ipa": "/ˌhaʊ du aɪ ˈpʊt ðɪs/",
       "respell": "how do I PUT this",
-      "variants": [
-        "how should I put this",
-        "how do I say this",
-        "how do I put it"
-      ],
-      "type": "phrase",
-      "register": "neutral",
       "meaning": "A stall announcing that you are choosing your words because what comes next is awkward, critical, or delicate. It warns the listener that a blunt opinion or some bad news is on the way.",
       "examples": [
         "How do I put this — you're not really a morning person, are you?",
@@ -329,26 +249,17 @@
         "She's, how do I say this, very direct with clients.",
         "How do I put this delicately? Your car is not worth fixing."
       ],
-      "related": [
-        "what's the word",
-        "let me think",
-        "I mean",
-        "well"
-      ]
+      "senses": [],
+      "русский": "как бы это сказать — подбираю слова перед чем-то неловким или неприятным",
+      "register": "neutral",
+      "type": "phrase",
+      "variants": "how should I put this, how do I say this, how do I put it",
+      "see also": "what's the word, let me think, I mean, well"
     },
     {
       "term": "just a second",
       "ipa": "/ˌdʒʌst ə ˈsɛkənd/",
       "respell": "just a SEK-uhnd",
-      "variants": [
-        "just a sec",
-        "one sec",
-        "one second",
-        "give me a second",
-        "gimme a sec"
-      ],
-      "type": "phrase",
-      "register": "neutral",
       "meaning": "A short promise that the pause will be brief, used when you have to finish something before you can answer or move on.",
       "examples": [
         "Just a second — I'm almost done with this email.",
@@ -357,23 +268,17 @@
         "Give me a second to think about how to answer that.",
         "One second and I'll have the total for you."
       ],
-      "related": [
-        "hold on",
-        "hang on",
-        "bear with me",
-        "let's see"
-      ]
+      "senses": [],
+      "русский": "секундочку / минутку — обещание, что пауза будет короткой",
+      "register": "neutral",
+      "type": "phrase",
+      "variants": "just a sec, one sec, one second, give me a second, gimme a sec",
+      "see also": "hold on, hang on, bear with me, let's see"
     },
     {
       "term": "let me think",
       "ipa": "/ˌlɛt mi ˈθɪŋk/",
       "respell": "let me THINK",
-      "variants": [
-        "let me think for a second",
-        "let me think about it"
-      ],
-      "type": "phrase",
-      "register": "neutral",
       "meaning": "An explicit announcement that you are working out an answer rather than dodging the question. Said briskly it simply buys time; said slowly, it often signals that the answer is going to be no.",
       "examples": [
         "Let me think — I want to say it was 2019?",
@@ -382,25 +287,17 @@
         "Let me think. There were four of us at dinner, maybe five.",
         "Hmm, let me think how to explain this without the jargon."
       ],
-      "related": [
-        "let's see",
-        "hmm",
-        "hold on",
-        "that's a good question",
-        "where was I"
-      ]
+      "senses": [],
+      "русский": "дай(те) подумать — я обдумываю ответ, а не увиливаю",
+      "register": "neutral",
+      "type": "phrase",
+      "variants": "let me think for a second, let me think about it",
+      "see also": "let's see, hmm, hold on, that's a good question, where was I"
     },
     {
       "term": "let's see",
       "ipa": "/ˌlɛts ˈsi/",
       "respell": "lets SEE",
-      "variants": [
-        "let me see",
-        "let's see here",
-        "let's see now"
-      ],
-      "type": "phrase",
-      "register": "neutral",
       "meaning": "A stall used while you scan, count, or search — the verbal equivalent of running a finger down a list. It is the standard thing Americans say out loud while looking something up.",
       "examples": [
         "Let's see — I've got Tuesday at ten or Thursday at two.",
@@ -409,24 +306,17 @@
         "Let's see here, your account was opened back in March.",
         "So we need milk, bread, and, let's see, coffee."
       ],
-      "related": [
-        "let me think",
-        "hmm",
-        "what's the word",
-        "just a second"
-      ]
+      "senses": [],
+      "русский": "так, посмотрим / сейчас — пока ищешь, считаешь или просматриваешь список",
+      "register": "neutral",
+      "type": "phrase",
+      "variants": "let me see, let's see here, let's see now",
+      "see also": "let me think, hmm, what's the word, just a second"
     },
     {
       "term": "that's a good question",
       "ipa": "/ˌðæts ə ˈɡʊd ˌkwɛstʃən/",
       "respell": "thats uh GOOD kwes-chun",
-      "variants": [
-        "good question",
-        "that's a great question",
-        "that's a fair question"
-      ],
-      "type": "phrase",
-      "register": "neutral",
       "meaning": "Buys several seconds while you assemble an answer, and flatters the asker on the way in. Everyone recognizes what it is doing, which is why it carries a faint smell of the press conference and the job interview — and why a bare good question sometimes means \"I have no idea.\"",
       "examples": [
         "\"How much would that cost us?\" \"That's a good question — let me run the numbers.\"",
@@ -435,24 +325,17 @@
         "\"Why is it spelled that way?\" \"That's a great question, and the answer is that nobody knows.\"",
         "That's a fair question, and I'd rather answer it once I've seen the report."
       ],
-      "related": [
-        "let me think",
-        "let's see",
-        "how do I put this",
-        "bear with me"
-      ]
+      "senses": [],
+      "русский": "хороший вопрос — тянет время и льстит спросившему; часто значит «понятия не имею»",
+      "register": "neutral",
+      "type": "phrase",
+      "variants": "good question, that's a great question, that's a fair question",
+      "see also": "let me think, let's see, how do I put this, bear with me"
     },
     {
       "term": "wait",
       "ipa": "/weɪt/",
       "respell": "WAYT",
-      "variants": [
-        "wait a second",
-        "wait a minute",
-        "wait wait wait"
-      ],
-      "type": "secondary",
-      "register": "informal (blunt when it cuts someone off mid-sentence)",
       "meaning": "A one-word brake on the conversation that stalls the other speaker while you catch up. In American speech it very often introduces a realization or a correction — wait rarely means \"wait quietly,\" it means \"something just registered.\"",
       "examples": [
         "Wait — I think I left my keys in the car.",
@@ -461,24 +344,17 @@
         "Wait wait wait, start over from the part about the dog.",
         "Wait, so you two already knew each other?"
       ],
-      "related": [
-        "hold on",
-        "hang on",
-        "hmm",
-        "actually"
-      ]
+      "senses": [],
+      "русский": "стой / погоди — резкая остановка разговора, обычно перед «до меня дошло»",
+      "register": "informal (blunt when it cuts someone off mid-sentence)",
+      "type": "secondary",
+      "variants": "wait a second, wait a minute, wait wait wait",
+      "see also": "hold on, hang on, hmm, actually"
     },
     {
       "term": "what's the word",
       "ipa": "/ˌwʌts ðə ˈwɝd/",
       "respell": "whuts thuh WURD",
-      "variants": [
-        "what's the word for it",
-        "what do you call it",
-        "what's it called"
-      ],
-      "type": "phrase",
-      "register": "neutral",
       "meaning": "The standard American way to flag that you are hunting for a specific word and would welcome help finding it. It is usually dropped into the middle of a sentence, which then resumes once the word arrives.",
       "examples": [
         "It's one of those — what's the word — collapsible chairs.",
@@ -487,23 +363,17 @@
         "She had a look of, what's the word, resignation.",
         "It's a kind of pasta, what's it called, orecchiette."
       ],
-      "related": [
-        "whatchamacallit",
-        "thingy",
-        "whatsit",
-        "how do I put this"
-      ]
+      "senses": [],
+      "русский": "как это называется / как бы сказать — ищу нужное слово и жду подсказки",
+      "register": "neutral",
+      "type": "phrase",
+      "variants": "what's the word for it, what do you call it, what's it called",
+      "see also": "whatchamacallit, thingy, whatsit, how do I put this"
     },
     {
       "term": "where was I",
       "ipa": "/ˌwɛr wəz ˈaɪ/",
       "respell": "wair wuz EYE",
-      "variants": [
-        "where were we",
-        "now where was I"
-      ],
-      "type": "phrase",
-      "register": "neutral",
       "meaning": "Said after an interruption to find your place again in your own story or explanation. It quietly asks the listener to hand the thread back to you.",
       "examples": [
         "Sorry — where was I? Oh, right, the flight.",
@@ -512,20 +382,17 @@
         "Give me a second, I lost my train of thought. Where was I?",
         "Okay, where was I — the part where the car wouldn't start."
       ],
-      "related": [
-        "as I was saying",
-        "anyway",
-        "so anyway",
-        "let me think"
-      ]
+      "senses": [],
+      "русский": "на чём я остановился — попытка найти нить после того, как перебили",
+      "register": "neutral",
+      "type": "phrase",
+      "variants": "where were we, now where was I",
+      "see also": "as I was saying, anyway, so anyway, let me think"
     },
     {
       "term": "actually",
       "ipa": "/ˈæktʃuəli/ (also /ˈæktʃəli/)",
       "respell": "AK-choo-uh-lee",
-      "variants": [],
-      "type": "secondary",
-      "register": "neutral",
       "meaning": "Flags that what follows corrects, contradicts, or gently surprises — either fixing what was just said or introducing a fact the listener would not expect. At the front of a sentence it can sound corrective, so Americans often cushion it with well or a smile.",
       "examples": [
         "Actually, the meeting got moved to Thursday.",
@@ -534,25 +401,16 @@
         "Actually, on second thought, I'll have the salmon.",
         "That's not a bad idea, actually."
       ],
-      "related": [
-        "I mean",
-        "well",
-        "right",
-        "basically",
-        "technically"
-      ]
+      "senses": [],
+      "русский": "на самом деле / вообще-то — поправка или неожиданный для собеседника факт",
+      "register": "neutral",
+      "type": "secondary",
+      "see also": "I mean, well, right, basically, technically"
     },
     {
       "term": "alright",
       "ipa": "/ɔlˈraɪt/",
       "respell": "awl-RITE",
-      "variants": [
-        "all right",
-        "aight",
-        "a'ight"
-      ],
-      "type": "secondary",
-      "register": "informal (the two-word spelling all right is the one for formal prose)",
       "meaning": "A resetting marker that closes off what came before and starts the next thing — the sound of a teacher beginning class or a driver putting the car in gear. With rising pitch at the end of a sentence it becomes a check: alright? means \"are we good so far?\"",
       "examples": [
         "Alright, let's get started.",
@@ -561,24 +419,17 @@
         "We'll meet at the north entrance at six, alright?",
         "Alright, I'll let you go — say hi to your mom for me."
       ],
-      "related": [
-        "okay",
-        "right",
-        "so",
-        "now"
-      ]
+      "senses": [],
+      "русский": "ладно / так — закрывает предыдущее и открывает следующее; в конце фразы — «договорились?»",
+      "register": "informal (the two-word spelling all right is the one for formal prose)",
+      "type": "secondary",
+      "variants": "all right, aight, a'ight",
+      "see also": "okay, right, so, now"
     },
     {
       "term": "anyhow",
       "ipa": "/ˈɛniˌhaʊ/",
       "respell": "EN-ee-how",
-      "variants": [
-        "anyhoo",
-        "anywho",
-        "any old how"
-      ],
-      "type": "secondary",
-      "register": "informal (slightly dated; most common in the South and Midwest)",
       "meaning": "An older, folksier twin of anyway, used to drop a digression and get back to the point or to wrap a story up. Younger speakers use it far less often than anyway.",
       "examples": [
         "Anyhow, that's how we ended up with three cats.",
@@ -587,21 +438,17 @@
         "Anyhow, I should let you go.",
         "She never did call back. Anyhow, no harm done."
       ],
-      "related": [
-        "anyway",
-        "so anyway",
-        "well"
-      ]
+      "senses": [],
+      "русский": "в общем / так или иначе — разг., слегка устаревший вариант anyway",
+      "register": "informal (slightly dated; most common in the South and Midwest)",
+      "type": "secondary",
+      "variants": "anyhoo, anywho, any old how",
+      "see also": "anyway, so anyway, well"
     },
     {
       "term": "anyway",
       "ipa": "/ˈɛniˌweɪ/",
       "respell": "EN-ee-way",
-      "variants": [
-        "anyways"
-      ],
-      "type": "secondary",
-      "register": "neutral (anyways is very informal and widely treated as nonstandard)",
       "meaning": "The workhorse of topic management: it ends a digression and returns to the main thread, or signals that you are winding the conversation down. Left hanging at the end of a turn, it means roughly \"so that's that.\"",
       "examples": [
         "Anyway, back to what I was saying about the budget.",
@@ -610,20 +457,17 @@
         "Anyways, we ended up driving instead of flying.",
         "He may never forgive me. Anyway, I did what I had to do."
       ],
-      "related": [
-        "anyhow",
-        "so anyway",
-        "well",
-        "where was I"
-      ]
+      "senses": [],
+      "русский": "в общем / ладно — возврат к теме после отступления или сворачивание разговора",
+      "register": "neutral (anyways is very informal and widely treated as nonstandard)",
+      "type": "secondary",
+      "variants": "anyways",
+      "see also": "anyhow, so anyway, well, where was I"
     },
     {
       "term": "basically",
       "ipa": "/ˈbeɪsɪkli/",
       "respell": "BAY-sik-lee",
-      "variants": [],
-      "type": "secondary",
-      "register": "neutral in its \"here is the short version\" sense; informal as a filler",
       "meaning": "Announces a simplified version — the short answer, with the details filed off. In casual speech it has drifted into a near-filler that adds little beyond \"here comes my summary.\"",
       "examples": [
         "Basically, the engine needs to be replaced.",
@@ -632,25 +476,16 @@
         "We spent basically the whole weekend cleaning.",
         "He's basically running the department at this point."
       ],
-      "related": [
-        "I mean",
-        "kind of",
-        "pretty much",
-        "literally",
-        "so"
-      ]
+      "senses": [],
+      "русский": "по сути / в общем — дальше короткая версия без подробностей",
+      "register": "neutral in its \"here is the short version\" sense; informal as a filler",
+      "type": "secondary",
+      "see also": "I mean, kind of, pretty much, literally, so"
     },
     {
       "term": "by the way",
       "ipa": "/ˌbaɪ ðə ˈweɪ/",
       "respell": "by thuh WAY",
-      "variants": [
-        "BTW",
-        "btw",
-        "by the by"
-      ],
-      "type": "phrase",
-      "register": "neutral (the abbreviation BTW is informal, for email and texts only)",
       "meaning": "Introduces a side remark that is not part of the current topic, often a small piece of news the speaker does not want to make a production of. The written abbreviation BTW is standard in email and texts.",
       "examples": [
         "By the way, your package came while you were out.",
@@ -659,25 +494,17 @@
         "The rent is going up in January, by the way.",
         "BTW, I moved our call to three."
       ],
-      "related": [
-        "speaking of which",
-        "that reminds me",
-        "anyway",
-        "now",
-        "come to think of it"
-      ]
+      "senses": [],
+      "русский": "кстати / между прочим — попутное замечание не по текущей теме",
+      "register": "neutral (the abbreviation BTW is informal, for email and texts only)",
+      "type": "phrase",
+      "variants": "BTW, btw, by the by",
+      "see also": "speaking of which, that reminds me, anyway, now, come to think of it"
     },
     {
       "term": "come to think of it",
       "ipa": "/ˌkʌm tə ˈθɪŋk əv ɪt/",
       "respell": "kum tuh THINK uhv it",
-      "variants": [
-        "now that I think about it",
-        "come to think about it",
-        "thinking about it"
-      ],
-      "type": "phrase",
-      "register": "neutral",
       "meaning": "Marks something that has surfaced in your head while you were saying something else — usually a detail that quietly changes the picture. Unlike that reminds me, what surfaces is still attached to the point at hand instead of opening a new topic.",
       "examples": [
         "Come to think of it, I haven't seen him since the wedding.",
@@ -686,24 +513,17 @@
         "\"Was anyone else in the building?\" \"Now that I think about it, the cleaning crew was still there.\"",
         "You two would probably get along, come to think of it."
       ],
-      "related": [
-        "that reminds me",
-        "speaking of which",
-        "by the way",
-        "actually"
-      ]
+      "senses": [],
+      "русский": "если подумать / а ведь правда — деталь, всплывшая в голове прямо сейчас",
+      "register": "neutral",
+      "type": "phrase",
+      "variants": "now that I think about it, come to think about it, thinking about it",
+      "see also": "that reminds me, speaking of which, by the way, actually"
     },
     {
       "term": "granted",
       "ipa": "/ˈɡræntɪd/",
       "respell": "GRAN-tid",
-      "variants": [
-        "granted, though",
-        "admittedly",
-        "I'll grant you that"
-      ],
-      "type": "secondary",
-      "register": "neutral",
       "meaning": "Hands the other side one point before you argue against it, so that the rest of your position looks even-handed. It is nearly always followed, sooner or later, by a but, and standing alone as a full turn it is a grudging half-concession.",
       "examples": [
         "Granted, the first hour is slow, but it's worth staying for the ending.",
@@ -712,24 +532,17 @@
         "\"It's cheaper to fly out of the other airport.\" \"Granted. It's also two hours away.\"",
         "Granted, we've blown a deadline before — that's exactly why I'm asking now."
       ],
-      "related": [
-        "that said",
-        "to be fair",
-        "actually",
-        "well"
-      ]
+      "senses": [],
+      "русский": "допустим / надо признать — уступка перед возражением; дальше почти всегда «но»",
+      "register": "neutral",
+      "type": "secondary",
+      "variants": "granted, though, admittedly, I'll grant you that",
+      "see also": "that said, to be fair, actually, well"
     },
     {
       "term": "here's the thing",
       "ipa": "/ˌhɪrz ðə ˈθɪŋ/",
       "respell": "heerz thuh THING",
-      "variants": [
-        "the thing is",
-        "here's the thing though",
-        "the thing about it is"
-      ],
-      "type": "phrase",
-      "register": "informal",
       "meaning": "Announces the complication — the fact that explains why the obvious answer will not work. It promises the listener the real story, which makes it a favorite of people who are about to deliver bad news gently.",
       "examples": [
         "Here's the thing: we already paid for the tickets.",
@@ -738,25 +551,17 @@
         "\"Just call and cancel.\" \"Here's the thing, the deposit isn't refundable.\"",
         "Here's the thing though — she was right about the timeline."
       ],
-      "related": [
-        "look",
-        "see",
-        "I mean",
-        "that said",
-        "well"
-      ]
+      "senses": [],
+      "русский": "дело вот в чём — сейчас будет то самое осложнение",
+      "register": "informal",
+      "type": "phrase",
+      "variants": "the thing is, here's the thing though, the thing about it is",
+      "see also": "look, see, I mean, that said, well"
     },
     {
       "term": "in other words",
       "ipa": "/ɪn ˈʌðɚ ˌwɝdz/",
       "respell": "in UTH-er WURDZ",
-      "variants": [
-        "or rather",
-        "put another way",
-        "which is to say"
-      ],
-      "type": "phrase",
-      "register": "neutral (at home in writing as well as speech)",
       "meaning": "Restates what was just said in plainer or blunter terms, either to make it clearer or to drag the real meaning into the open. It is the neutral, printable cousin of I mean — and turned flatly on someone else's explanation, it becomes an accusation.",
       "examples": [
         "In other words, we're starting over.",
@@ -765,23 +570,17 @@
         "Put another way, every dollar we save here costs us two next year.",
         "She wants the schedule and the budget; in other words, the whole project."
       ],
-      "related": [
-        "I mean",
-        "basically",
-        "so to speak",
-        "that said"
-      ]
+      "senses": [],
+      "русский": "другими словами / иначе говоря — пересказ сказанного проще или прямее",
+      "register": "neutral (at home in writing as well as speech)",
+      "type": "phrase",
+      "variants": "or rather, put another way, which is to say",
+      "see also": "I mean, basically, so to speak, that said"
     },
     {
       "term": "listen",
       "ipa": "/ˈlɪsən/",
       "respell": "LIS-uhn",
-      "variants": [
-        "listen up",
-        "now listen"
-      ],
-      "type": "secondary",
-      "register": "neutral (can sound stern or confrontational)",
       "meaning": "Demands the listener's full attention before something important, blunt, or final. It carries more edge than look, so tone does the work: a warm listen is confiding, a flat one is a warning.",
       "examples": [
         "Listen, I'm not going to pretend this is easy.",
@@ -790,23 +589,17 @@
         "Listen, if you don't want to go, just say so.",
         "Now listen, I've told you three times already."
       ],
-      "related": [
-        "look",
-        "see",
-        "okay"
-      ]
+      "senses": [],
+      "русский": "послушай(те) — требование внимания перед чем-то важным или резким",
+      "register": "neutral (can sound stern or confrontational)",
+      "type": "secondary",
+      "variants": "listen up, now listen",
+      "see also": "look, see, okay"
     },
     {
       "term": "long story short",
       "ipa": "/ˌlɔŋ ˌstɔri ˈʃɔrt/",
       "respell": "long story SHORT",
-      "variants": [
-        "to make a long story short",
-        "long story",
-        "to cut a long story short (chiefly British)"
-      ],
-      "type": "phrase",
-      "register": "informal",
       "meaning": "Announces that you are skipping the middle of a story and going straight to how it came out. Speakers often reach for it only after they have already talked for five minutes, which is half the joke of it.",
       "examples": [
         "Long story short, we missed the flight and drove all night.",
@@ -815,23 +608,17 @@
         "\"How'd the meeting go?\" \"Long story short, they want a redesign.\"",
         "Long story short: don't lend him your car."
       ],
-      "related": [
-        "anyway",
-        "so anyway",
-        "basically",
-        "yada yada"
-      ]
+      "senses": [],
+      "русский": "короче говоря / если вкратце — пропускаю середину истории",
+      "register": "informal",
+      "type": "phrase",
+      "variants": "to make a long story short, long story, to cut a long story short (chiefly British)",
+      "see also": "anyway, so anyway, basically, yada yada"
     },
     {
       "term": "look",
       "ipa": "/lʊk/",
       "respell": "LOOK",
-      "variants": [
-        "now look",
-        "look here (dated)"
-      ],
-      "type": "secondary",
-      "register": "neutral (can sound impatient)",
       "meaning": "Marks that you are cutting through the back-and-forth to state your real position. Politicians and managers lean on it constantly; used too often, it reads as impatience.",
       "examples": [
         "Look, we've all made mistakes.",
@@ -840,24 +627,17 @@
         "Look, can we talk about this after dinner?",
         "Now look, nobody is blaming you."
       ],
-      "related": [
-        "listen",
-        "see",
-        "here's the thing",
-        "I mean",
-        "well"
-      ]
+      "senses": [],
+      "русский": "слушай / смотри — перехожу к сути, к своей настоящей позиции",
+      "register": "neutral (can sound impatient)",
+      "type": "secondary",
+      "variants": "now look, look here (dated)",
+      "see also": "listen, see, here's the thing, I mean, well"
     },
     {
       "term": "now",
       "ipa": "/naʊ/",
       "respell": "NOW",
-      "variants": [
-        "now then",
-        "and now"
-      ],
-      "type": "secondary",
-      "register": "neutral",
       "meaning": "Moves the conversation on to the next step or the next item, with no reference to time at all. It also softens a coming correction, as in Now, that's not quite what I said.",
       "examples": [
         "Now, where would you like to start?",
@@ -866,26 +646,17 @@
         "Now then, who wants dessert?",
         "Add the eggs one at a time. Now, slowly fold in the flour."
       ],
-      "related": [
-        "so",
-        "then",
-        "okay",
-        "alright"
-      ]
+      "senses": [],
+      "русский": "так / итак — переход к следующему пункту, без значения времени",
+      "register": "neutral",
+      "type": "secondary",
+      "variants": "now then, and now",
+      "see also": "so, then, okay, alright"
     },
     {
       "term": "okay",
       "ipa": "/oʊˈkeɪ/",
       "respell": "oh-KAY",
-      "variants": [
-        "OK",
-        "O.K.",
-        "'kay",
-        "mkay",
-        "okey-dokey"
-      ],
-      "type": "secondary",
-      "register": "neutral",
       "meaning": "The all-purpose transition: it closes the previous topic and opens the next one, and with rising pitch it checks that the listener is still with you. Note that a drawn-out okaaay signals doubt, not agreement.",
       "examples": [
         "Okay, let's take it from the top.",
@@ -895,24 +666,17 @@
         "Okay … that's not what I expected to hear.",
         "'Kay, see you at six."
       ],
-      "related": [
-        "alright",
-        "so",
-        "right",
-        "now"
-      ]
+      "senses": [],
+      "русский": "ладно / так / ну хорошо — универсальный переход; с вопросительной интонацией — «ясно?»",
+      "register": "neutral",
+      "type": "secondary",
+      "variants": "OK, O.K., 'kay, mkay, okey-dokey",
+      "see also": "alright, so, right, now"
     },
     {
       "term": "right",
       "ipa": "/raɪt/",
       "respell": "RITE",
-      "variants": [
-        "right?",
-        "right then",
-        "all right"
-      ],
-      "type": "secondary",
-      "register": "neutral",
       "meaning": "Two jobs. (1) As an opener it marks a fresh start or a return to business. (2) Tacked onto the end of a clause with rising pitch, it checks that the listener agrees or is still following — though repeated right? tags can sound pushy in an argument.",
       "examples": [
         "Right, let's figure out who's driving.",
@@ -922,23 +686,17 @@
         "It was raining, right, and none of us had an umbrella.",
         "\"The blue one?\" \"Right.\""
       ],
-      "related": [
-        "okay",
-        "alright",
-        "you know",
-        "so"
-      ]
+      "senses": [],
+      "русский": "так / итак — начало нового этапа; в конце фразы с вопросом — «верно?, да?»",
+      "register": "neutral",
+      "type": "secondary",
+      "variants": "right?, right then, all right",
+      "see also": "okay, alright, you know, so"
     },
     {
       "term": "see",
       "ipa": "/si/",
       "respell": "SEE",
-      "variants": [
-        "see, the thing is",
-        "y'see"
-      ],
-      "type": "secondary",
-      "register": "informal",
       "meaning": "Introduces the explanation the listener has been waiting for, often a little defensively — see frames what follows as the reason things are the way they are.",
       "examples": [
         "See, the problem is that nobody told the client.",
@@ -947,22 +705,17 @@
         "It's not that I don't want to go. See, I already promised my sister.",
         "See, this is why we keep a spare key under the mat."
       ],
-      "related": [
-        "you see",
-        "look",
-        "I mean",
-        "listen"
-      ]
+      "senses": [],
+      "русский": "понимаешь / видишь ли — разг., вводит объяснение, часто чуть оправдываясь",
+      "register": "informal",
+      "type": "secondary",
+      "variants": "see, the thing is, y'see",
+      "see also": "you see, look, I mean, listen"
     },
     {
       "term": "so",
       "ipa": "/soʊ/",
       "respell": "SOH",
-      "variants": [
-        "sooo"
-      ],
-      "type": "secondary",
-      "register": "neutral",
       "meaning": "The most common way Americans open a turn: it introduces a topic, launches a question, or draws a conclusion from what came before. A stretched sooo at the start of a sentence usually means awkward news is coming.",
       "examples": [
         "So, how did the interview go?",
@@ -972,23 +725,17 @@
         "So, to summarize: we need two more weeks and one more engineer.",
         "\"So? What did she say?\""
       ],
-      "related": [
-        "so anyway",
-        "well",
-        "okay",
-        "anyway"
-      ]
+      "senses": [],
+      "русский": "итак / так вот / ну — самый частый способ начать реплику или подвести итог",
+      "register": "neutral",
+      "type": "secondary",
+      "variants": "sooo",
+      "see also": "so anyway, well, okay, anyway"
     },
     {
       "term": "so anyway",
       "ipa": "/ˌsoʊ ˈɛniˌweɪ/",
       "respell": "so EN-ee-way",
-      "variants": [
-        "so anyways",
-        "anyway so"
-      ],
-      "type": "phrase",
-      "register": "informal",
       "meaning": "A doubled marker used to abandon a side story and get back on track — the so pushes forward while the anyway dismisses the digression, which is exactly what a rambling storyteller needs.",
       "examples": [
         "So anyway, we finally got the car started around midnight.",
@@ -997,24 +744,17 @@
         "Long story. So anyway, how's your mom doing?",
         "So anyway, where do you want to eat tonight?"
       ],
-      "related": [
-        "anyway",
-        "so",
-        "anyhow",
-        "where was I"
-      ]
+      "senses": [],
+      "русский": "ну так вот / в общем — бросаю отступление и возвращаюсь к главному",
+      "register": "informal",
+      "type": "phrase",
+      "variants": "so anyways, anyway so",
+      "see also": "anyway, so, anyhow, where was I"
     },
     {
       "term": "so yeah",
       "ipa": "/soʊ ˈjɛə/",
       "respell": "soh YEH-uh",
-      "variants": [
-        "so yeah, anyway",
-        "and yeah",
-        "so, yeah"
-      ],
-      "type": "phrase",
-      "register": "very informal",
       "meaning": "Closes out a turn that has run out of steam: the point has been made, there is no tidy ending available, and so yeah hands the floor back. It is the spoken equivalent of a shrug at the end of a paragraph, and it is everywhere in the speech of Americans under about forty.",
       "examples": [
         "It's a long commute, but the pay is better. So yeah.",
@@ -1023,24 +763,17 @@
         "She hasn't called me since. So yeah, I'd say we're done.",
         "So yeah — that was my Tuesday."
       ],
-      "related": [
-        "anyway",
-        "so",
-        "you know",
-        "I guess"
-      ]
+      "senses": [],
+      "русский": "ну вот, как-то так — очень разг., закрывает выдохшуюся реплику",
+      "register": "very informal",
+      "type": "phrase",
+      "variants": "so yeah, anyway, and yeah, so, yeah",
+      "see also": "anyway, so, you know, I guess"
     },
     {
       "term": "speaking of which",
       "ipa": "/ˌspikɪŋ əv ˈwɪtʃ/",
       "respell": "SPEE-king uhv WICH",
-      "variants": [
-        "speaking of",
-        "speaking of that",
-        "which reminds me"
-      ],
-      "type": "phrase",
-      "register": "neutral",
       "meaning": "Hooks a new topic onto the one just mentioned, so that changing the subject looks like a natural step instead of an interruption. Americans use it to raise something they have been waiting all conversation for an opening to bring up.",
       "examples": [
         "Speaking of which, did you ever hear back about the apartment?",
@@ -1049,24 +782,17 @@
         "Speaking of which, I still owe you twenty dollars.",
         "The budget's due Monday — speaking of which, I need your numbers by Thursday."
       ],
-      "related": [
-        "that reminds me",
-        "by the way",
-        "anyway",
-        "now"
-      ]
+      "senses": [],
+      "русский": "кстати о / раз уж зашла речь — цепляет новую тему за только что сказанное",
+      "register": "neutral",
+      "type": "phrase",
+      "variants": "speaking of, speaking of that, which reminds me",
+      "see also": "that reminds me, by the way, anyway, now"
     },
     {
       "term": "that reminds me",
       "ipa": "/ðæt rɪˈmaɪndz mi/",
       "respell": "that ruh-MYNDZ mee",
-      "variants": [
-        "which reminds me",
-        "oh, that reminds me",
-        "before I forget"
-      ],
-      "type": "phrase",
-      "register": "neutral",
       "meaning": "Credits the other person's remark with knocking loose a subject of your own. Like speaking of which it softens a change of topic, but it points at something you had genuinely forgotten until that second.",
       "examples": [
         "That reminds me — your mother called while you were out.",
@@ -1075,24 +801,17 @@
         "He mentioned the storm, which reminds me — is your power back on?",
         "That reminds me, we're almost out of coffee filters."
       ],
-      "related": [
-        "speaking of which",
-        "by the way",
-        "anyway",
-        "now"
-      ]
+      "senses": [],
+      "русский": "кстати, вспомнил / это мне напомнило — тема, всплывшая от слов собеседника",
+      "register": "neutral",
+      "type": "phrase",
+      "variants": "which reminds me, oh, that reminds me, before I forget",
+      "see also": "speaking of which, by the way, anyway, now"
     },
     {
       "term": "that said",
       "ipa": "/ðæt ˈsɛd/",
       "respell": "that SED",
-      "variants": [
-        "that being said",
-        "having said that",
-        "all that said"
-      ],
-      "type": "phrase",
-      "register": "neutral",
       "meaning": "Concedes the point you have just made and then pushes back against it. It is the courteous way to say but, and unlike most of this file it is at home in writing as well as speech.",
       "examples": [
         "The price is high. That said, you're not going to find another one like it.",
@@ -1101,25 +820,17 @@
         "It rained the entire week — that said, we'd go back tomorrow.",
         "Having said that, nobody is forcing you to sign anything today."
       ],
-      "related": [
-        "granted",
-        "actually",
-        "anyway",
-        "well",
-        "I mean"
-      ]
+      "senses": [],
+      "русский": "при этом / тем не менее / и всё же — вежливое «но» после уступки",
+      "register": "neutral",
+      "type": "phrase",
+      "variants": "that being said, having said that, all that said",
+      "see also": "granted, actually, anyway, well, I mean"
     },
     {
       "term": "then",
       "ipa": "/ðɛn/",
-      "respell": "THEN — voiced th, as in this",
-      "variants": [
-        "well then",
-        "okay then",
-        "right then"
-      ],
-      "type": "secondary",
-      "register": "neutral",
+      "respell": "THEN",
       "meaning": "Tacked onto the end of a clause, it draws a conclusion from what has just been established: \"given all that.\" At the front, paired with well or okay, it closes a decision out.",
       "examples": [
         "You're all set, then.",
@@ -1128,25 +839,18 @@
         "So it isn't broken, then?",
         "Okay then, let's call it a night."
       ],
-      "related": [
-        "so",
-        "now",
-        "okay",
-        "well",
-        "alright"
-      ]
+      "senses": [],
+      "pronunciation note": "voiced th, as in this",
+      "русский": "тогда / значит — в конце фразы делает вывод из сказанного",
+      "register": "neutral",
+      "type": "secondary",
+      "variants": "well then, okay then, right then",
+      "see also": "so, now, okay, well, alright"
     },
     {
       "term": "well",
       "ipa": "/wɛl/",
       "respell": "WELL",
-      "variants": [
-        "welll",
-        "well now",
-        "well then"
-      ],
-      "type": "secondary",
-      "register": "neutral",
       "meaning": "The classic hesitation opener. It buys a beat before an answer and warns that the answer will not be a simple yes — a reservation, a qualification, or some bad news is coming. Stretched out, welllll is almost a polite no all by itself.",
       "examples": [
         "Well, that's one way to look at it.",
@@ -1156,25 +860,17 @@
         "Well, to be honest, I'd rather stay home.",
         "Welll, technically the deadline was yesterday."
       ],
-      "related": [
-        "um",
-        "so",
-        "actually",
-        "hmm",
-        "I mean"
-      ]
+      "senses": [],
+      "русский": "ну / что ж — классическая пауза перед ответом, который не будет простым «да»",
+      "register": "neutral",
+      "type": "secondary",
+      "variants": "welll, well now, well then",
+      "see also": "um, so, actually, hmm, I mean"
     },
     {
       "term": "yeah no",
       "ipa": "/ˈjɛə ˌnoʊ/",
       "respell": "YEH-noh",
-      "variants": [
-        "no yeah",
-        "yeah no for sure",
-        "nah yeah"
-      ],
-      "type": "phrase",
-      "register": "very informal",
       "meaning": "A distinctly American pair in which the first word acknowledges what you just said and the second delivers the actual answer: yeah no means \"I hear you, but no,\" and no yeah means \"I hear your doubt, but yes.\" Speakers are usually unaware they are doing it.",
       "examples": [
         "\"Want to come to the thing on Saturday?\" \"Yeah no, I'm gonna pass.\"",
@@ -1183,24 +879,17 @@
         "Yeah no for sure, I'll send it over tonight.",
         "\"You didn't hate it?\" \"No yeah, I actually liked it a lot.\""
       ],
-      "related": [
-        "right",
-        "okay",
-        "I mean",
-        "well"
-      ]
+      "senses": [],
+      "русский": "да нет / нет да — разг.: первое слово признаёт сказанное, второе даёт настоящий ответ",
+      "register": "very informal",
+      "type": "phrase",
+      "variants": "no yeah, yeah no for sure, nah yeah",
+      "see also": "right, okay, I mean, well"
     },
     {
       "term": "you know what",
       "ipa": "/jə ˈnoʊ ˌwʌt/",
       "respell": "yuh NOH wut",
-      "variants": [
-        "y'know what",
-        "you know what, never mind",
-        "tell you what"
-      ],
-      "type": "phrase",
-      "register": "informal",
       "meaning": "Announces a decision or an opinion the speaker has arrived at just this second, usually with a change of direction behind it. Despite the shared words it is not the filler you know — it is a small drumroll, and what follows is the whole point of the sentence.",
       "examples": [
         "You know what? Let's just take my car.",
@@ -1209,23 +898,17 @@
         "\"We could push it to next week.\" \"You know what? That would help a lot.\"",
         "You know what, I'm going to bed."
       ],
-      "related": [
-        "you know",
-        "actually",
-        "okay",
-        "alright"
-      ]
+      "senses": [],
+      "русский": "знаешь что — объявляет решение или мнение, возникшее прямо сейчас",
+      "register": "informal",
+      "type": "phrase",
+      "variants": "y'know what, you know what, never mind, tell you what",
+      "see also": "you know, actually, okay, alright"
     },
     {
       "term": "you see",
       "ipa": "/ju ˈsi/",
       "respell": "yoo SEE",
-      "variants": [
-        "ya see",
-        "don't you see"
-      ],
-      "type": "phrase",
-      "register": "neutral (can sound condescending)",
       "meaning": "Marks the explanation of something the listener did not know, presenting it as the key that makes everything make sense. Overused it turns into lecturing, which is why it is so common in teaching and in period fiction.",
       "examples": [
         "The bridge was out, you see, so we had to go the long way around.",
@@ -1234,24 +917,17 @@
         "Ya see, that's where most people get it wrong.",
         "It isn't the cost, you see — it's the timing."
       ],
-      "related": [
-        "see",
-        "look",
-        "I mean",
-        "listen"
-      ]
+      "senses": [],
+      "русский": "видишь ли / понимаете ли — вводит объяснение; может звучать назидательно",
+      "register": "neutral (can sound condescending)",
+      "type": "phrase",
+      "variants": "ya see, don't you see",
+      "see also": "see, look, I mean, listen"
     },
     {
       "term": "and so on",
       "ipa": "/ən ˈsoʊ ɑn/",
       "respell": "uhn SOH on",
-      "variants": [
-        "and so forth",
-        "and so on and so forth",
-        "etc."
-      ],
-      "type": "phrase",
-      "register": "neutral (the one list-closer in this group that survives in writing)",
       "meaning": "Closes a list on the understanding that the pattern keeps going. It is the plain, printable version of and stuff and and whatnot; doubling it into and so on and so forth usually signals impatience with the list rather than a longer one.",
       "examples": [
         "Bring a sleeping bag, a flashlight, bug spray, and so on.",
@@ -1260,26 +936,17 @@
         "He had an excuse for everything: traffic, the weather, his alarm, and so on and so forth.",
         "It's the usual argument about who pays and who drives and so on."
       ],
-      "related": [
-        "and stuff",
-        "and whatnot",
-        "or whatever",
-        "yada yada",
-        "blah blah blah"
-      ]
+      "senses": [],
+      "русский": "и так далее / и тому подобное — закрывает список; единственный в группе уместен на письме",
+      "register": "neutral (the one list-closer in this group that survives in writing)",
+      "type": "phrase",
+      "variants": "and so forth, and so on and so forth, etc.",
+      "see also": "and stuff, and whatnot, or whatever, yada yada, blah blah blah"
     },
     {
       "term": "and stuff",
       "ipa": "/ən ˈstʌf/",
       "respell": "uhn STUFF",
-      "variants": [
-        "and stuff like that",
-        "and all that",
-        "and everything",
-        "and all"
-      ],
-      "type": "phrase",
-      "register": "very informal",
       "meaning": "A tag that closes a list without finishing it, implying more of the same. It is casual to the point of sloppiness — fine with friends, weak in a job interview.",
       "examples": [
         "We just hung out, watched a movie and stuff.",
@@ -1288,26 +955,17 @@
         "They gave us pens and notebooks and stuff like that.",
         "He was talking about interest rates and stuff — I tuned out."
       ],
-      "related": [
-        "or something",
-        "or whatever",
-        "and whatnot",
-        "and so on",
-        "like",
-        "you know"
-      ]
+      "senses": [],
+      "русский": "и всё такое — очень разг., обрывает список на середине",
+      "register": "very informal",
+      "type": "phrase",
+      "variants": "and stuff like that, and all that, and everything, and all",
+      "see also": "or something, or whatever, and whatnot, and so on, like, you know"
     },
     {
       "term": "and whatnot",
       "ipa": "/ən ˈwʌtnɑt/",
       "respell": "uhn WUT-not",
-      "variants": [
-        "and what have you",
-        "and such",
-        "and whatnot else"
-      ],
-      "type": "phrase",
-      "register": "informal (folksy; reads as older or small-town)",
       "meaning": "Closes an unfinished list the way and stuff does, but with a faintly old-fashioned flavor. It is common in the speech of older Americans, in the trades, and anywhere a list is too tedious to finish.",
       "examples": [
         "She brought paper plates, napkins, and whatnot.",
@@ -1316,25 +974,17 @@
         "There's a box of cables and what have you out in the garage.",
         "They talked about the weather, the neighbors, and whatnot, for a solid hour before anyone brought up the money."
       ],
-      "related": [
-        "and stuff",
-        "and so on",
-        "or whatever",
-        "or something",
-        "yada yada"
-      ]
+      "senses": [],
+      "русский": "и всякое такое / и прочее — разг., слегка старомодно-простецки",
+      "register": "informal (folksy; reads as older or small-town)",
+      "type": "phrase",
+      "variants": "and what have you, and such, and whatnot else",
+      "see also": "and stuff, and so on, or whatever, or something, yada yada"
     },
     {
       "term": "I dunno",
       "ipa": "/aɪ dəˈnoʊ/",
       "respell": "eye duh-NO",
-      "variants": [
-        "dunno",
-        "iunno",
-        "I donno"
-      ],
-      "type": "phrase",
-      "register": "very informal",
       "meaning": "The reduced spoken form of \"I don't know,\" used less as a real admission of ignorance than as a hedge that softens an opinion you are about to give anyway. Written out, it deliberately marks casual speech.",
       "examples": [
         "I dunno, it just doesn't feel right to me.",
@@ -1343,23 +993,17 @@
         "It's, I dunno, forty minutes north of the city?",
         "\"Dunno,\" she said, without looking up."
       ],
-      "related": [
-        "I guess",
-        "I feel like",
-        "kind of",
-        "or something"
-      ]
+      "senses": [],
+      "русский": "да не знаю / ну не знаю — очень разг., чаще смягчает мнение, чем признаёт незнание",
+      "register": "very informal",
+      "type": "phrase",
+      "variants": "dunno, iunno, I donno",
+      "see also": "I guess, I feel like, kind of, or something"
     },
     {
       "term": "I feel like",
       "ipa": "/aɪ ˈfil ˌlaɪk/",
       "respell": "eye FEEL like",
-      "variants": [
-        "I feel like maybe",
-        "I kind of feel like"
-      ],
-      "type": "phrase",
-      "register": "informal",
       "meaning": "Frames an opinion as a personal impression rather than a claim about the world, which makes it harder to argue with and easier to walk back. In casual American speech it has largely taken over the ground that I think used to hold.",
       "examples": [
         "I feel like we've had this exact conversation before.",
@@ -1368,24 +1012,17 @@
         "\"Should we wait for him?\" \"I feel like we should just go.\"",
         "I feel like nobody actually reads these emails."
       ],
-      "related": [
-        "I guess",
-        "I mean",
-        "kind of",
-        "to be honest"
-      ]
+      "senses": [],
+      "русский": "мне кажется / у меня ощущение, что — подаёт мнение как личное впечатление",
+      "register": "informal",
+      "type": "phrase",
+      "variants": "I feel like maybe, I kind of feel like",
+      "see also": "I guess, I mean, kind of, to be honest"
     },
     {
       "term": "I guess",
       "ipa": "/aɪ ˈɡɛs/",
       "respell": "eye GESS",
-      "variants": [
-        "I guess so",
-        "guess so",
-        "I suppose"
-      ],
-      "type": "phrase",
-      "register": "informal",
       "meaning": "Marks reluctant or low-confidence agreement — you accept the conclusion without any enthusiasm for it. At the end of a sentence it drains the certainty out of whatever came before.",
       "examples": [
         "I guess we could leave a little earlier.",
@@ -1394,23 +1031,17 @@
         "I guess I should have read the fine print.",
         "She's the most qualified, I guess, but I'd still interview the others."
       ],
-      "related": [
-        "I dunno",
-        "I feel like",
-        "I want to say",
-        "kind of",
-        "sort of"
-      ]
+      "senses": [],
+      "русский": "наверное / пожалуй — неохотное согласие без всякого энтузиазма",
+      "register": "informal",
+      "type": "phrase",
+      "variants": "I guess so, guess so, I suppose",
+      "see also": "I dunno, I feel like, I want to say, kind of, sort of"
     },
     {
       "term": "I mean",
       "ipa": "/aɪ ˈmin/",
       "respell": "eye MEEN",
-      "variants": [
-        "I mean like"
-      ],
-      "type": "phrase",
-      "register": "informal",
       "meaning": "Repairs, restates, or braces what you just said: you are rewording for accuracy, or you are about to defend an opinion. In fast speech it has also become a plain turn-opening filler with no repair work to do.",
       "examples": [
         "It's expensive — I mean, not outrageous, but more than I wanted to spend.",
@@ -1419,25 +1050,17 @@
         "I mean, I'd help, but I'll be out of town that week.",
         "He was upset. I mean, he was really upset."
       ],
-      "related": [
-        "like",
-        "you know",
-        "actually",
-        "well",
-        "see",
-        "in other words"
-      ]
+      "senses": [],
+      "русский": "то есть / я имею в виду — поправка или уточнение; в быстрой речи просто филлер",
+      "register": "informal",
+      "type": "phrase",
+      "variants": "I mean like",
+      "see also": "like, you know, actually, well, see, in other words"
     },
     {
       "term": "I want to say",
       "ipa": "/aɪ ˈwɑnt tə ˌseɪ/ (casually /aɪ ˈwɑnə ˌseɪ/)",
       "respell": "eye WAHNT tuh say, casually eye WAH-nuh say",
-      "variants": [
-        "I wanna say",
-        "I want to say something like"
-      ],
-      "type": "phrase",
-      "register": "informal",
       "meaning": "Introduces a half-remembered fact — a year, a price, a name — and marks it as the speaker's best guess rather than a claim. It is usually delivered with rising, question-like intonation, and it openly invites correction.",
       "examples": [
         "I want to say it was 2015, but don't quote me.",
@@ -1446,24 +1069,17 @@
         "I want to say there were about a dozen of us at that dinner.",
         "Rent was, I want to say, eleven hundred a month back then."
       ],
-      "related": [
-        "I guess",
-        "I dunno",
-        "or so",
-        "let me think",
-        "-ish"
-      ]
+      "senses": [],
+      "русский": "кажется / вроде бы — вводит полузабытый факт как догадку, с готовностью к поправке",
+      "register": "informal",
+      "type": "phrase",
+      "variants": "I wanna say, I want to say something like",
+      "see also": "I guess, I dunno, or so, let me think, -ish"
     },
     {
       "term": "if that makes sense",
       "ipa": "/ɪf ðæt ˌmeɪks ˈsɛns/",
       "respell": "if that makes SENSE",
-      "variants": [
-        "if that makes any sense",
-        "does that make sense"
-      ],
-      "type": "phrase",
-      "register": "neutral",
       "meaning": "A closing hedge that admits your explanation may have come out muddled and invites the listener to say so. It is polite self-deprecation rather than a real question.",
       "examples": [
         "It's more of a feeling than an argument, if that makes sense.",
@@ -1472,20 +1088,17 @@
         "We're rebuilding it while it's still running, if that makes sense.",
         "So it's a hobby that pays for itself, if that makes sense."
       ],
-      "related": [
-        "you know",
-        "I mean",
-        "kind of",
-        "sort of"
-      ]
+      "senses": [],
+      "русский": "если понятно, о чём я — признаёт, что объяснение вышло, может быть, путаным",
+      "register": "neutral",
+      "type": "phrase",
+      "variants": "if that makes any sense, does that make sense",
+      "see also": "you know, I mean, kind of, sort of"
     },
     {
       "term": "-ish",
       "ipa": "/ɪʃ/",
       "respell": "ISH",
-      "variants": [],
-      "type": "secondary",
-      "register": "informal",
       "meaning": "A suffix that has broken loose and become a standalone hedge meaning \"approximately\" or \"not exactly.\" As a one-word answer it softens a time, a number, or a lukewarm yes.",
       "examples": [
         "\"Are you free around seven?\" \"Ish. Make it seven fifteen.\"",
@@ -1494,23 +1107,16 @@
         "The house is Victorian, ish — somebody tacked a wing on it in the seventies.",
         "\"Is the draft done?\" \"Ish. I still have to proofread it.\""
       ],
-      "related": [
-        "kind of",
-        "sort of",
-        "or so",
-        "I guess"
-      ]
+      "senses": [],
+      "русский": "примерно / вроде того — суффикс, оторвавшийся в самостоятельное «приблизительно»",
+      "register": "informal",
+      "type": "secondary",
+      "see also": "kind of, sort of, or so, I guess"
     },
     {
       "term": "kind of",
       "ipa": "/ˈkaɪnd əv/ (also /ˈkaɪndə/)",
       "respell": "KINE-duhv, casually KINE-duh",
-      "variants": [
-        "kinda",
-        "kind of like"
-      ],
-      "type": "phrase",
-      "register": "informal",
       "meaning": "Softens a claim to \"somewhat\" or \"not entirely,\" lowering the temperature of an adjective, a verb, or a whole statement. It is one of the most common American hedges and is unmistakably casual on the page.",
       "examples": [
         "I kind of wanted to stay home tonight.",
@@ -1519,21 +1125,17 @@
         "He kind of implied that the job was already mine.",
         "That's kinda the whole point."
       ],
-      "related": [
-        "sort of",
-        "-ish",
-        "pretty much",
-        "like",
-        "I guess"
-      ]
+      "senses": [],
+      "русский": "вроде / как бы / отчасти — разг., смягчает утверждение до «в некоторой степени»",
+      "register": "informal",
+      "type": "phrase",
+      "variants": "kinda, kind of like",
+      "see also": "sort of, -ish, pretty much, like, I guess"
     },
     {
       "term": "like",
       "ipa": "/laɪk/",
       "respell": "LIKE",
-      "variants": [],
-      "type": "secondary",
-      "register": "very informal",
       "meaning": "Three filler jobs, all separate from the verb like. (1) A hesitation marker that holds the floor. (2) An approximator meaning \"about.\" (3) A quotative with be, introducing speech or thought, as in he was like, \"no way.\" All three are extremely common in American speech and all three are out of place in formal settings.",
       "examples": [
         "It was, like, the best day of the whole trip.",
@@ -1543,21 +1145,16 @@
         "He just, like, walked out in the middle of the meeting.",
         "I'm like ninety percent sure I locked the door."
       ],
-      "related": [
-        "you know",
-        "I mean",
-        "um",
-        "or something",
-        "kind of"
-      ]
+      "senses": [],
+      "русский": "типа / как бы — филлер; также «примерно» перед числом и ввод речи: «он такой: ни за что»",
+      "register": "very informal",
+      "type": "secondary",
+      "see also": "you know, I mean, um, or something, kind of"
     },
     {
       "term": "literally",
       "ipa": "/ˈlɪtɚəli/ (also /ˈlɪtrəli/)",
       "respell": "LIT-uh-ruh-lee",
-      "variants": [],
-      "type": "secondary",
-      "register": "informal as an intensifier; neutral in its original \"to the letter\" sense",
       "meaning": "Once strictly \"in the exact sense,\" now used mostly as an intensifier for something figurative, and in the loosest speech as a near-empty emphasis filler. The intensifier use is ordinary in casual American speech and still draws complaints in formal writing.",
       "examples": [
         "I literally just walked in the door — let me call you back.",
@@ -1567,21 +1164,16 @@
         "We showed up literally wearing the same jacket.",
         "He took the instructions literally and painted the whole wall. (the original sense)"
       ],
-      "related": [
-        "basically",
-        "actually",
-        "like",
-        "so to speak",
-        "technically"
-      ]
+      "senses": [],
+      "русский": "буквально — изначально «в прямом смысле», теперь чаще усилитель «реально, прямо»",
+      "register": "informal as an intensifier; neutral in its original \"to the letter\" sense",
+      "type": "secondary",
+      "see also": "basically, actually, like, so to speak, technically"
     },
     {
       "term": "more or less",
       "ipa": "/ˌmɔr ɚ ˈlɛs/",
-      "respell": "mor er LESS — the middle word reduces to a plain r-colored vowel",
-      "variants": [],
-      "type": "phrase",
-      "register": "neutral",
+      "respell": "mor er LESS",
       "meaning": "Marks a statement as true in the main but not in every detail — \"approximately,\" \"in effect.\" It hedges numbers, descriptions, and whole conclusions, and unlike most of this file it is respectable enough for a written report.",
       "examples": [
         "The job is done, more or less.",
@@ -1590,23 +1182,17 @@
         "\"Is that everyone?\" \"More or less — two people are calling in.\"",
         "He runs the place, more or less, whatever his title says."
       ],
-      "related": [
-        "pretty much",
-        "kind of",
-        "sort of",
-        "or so"
-      ]
+      "senses": [],
+      "pronunciation note": "the middle word reduces to a plain r-colored vowel",
+      "русский": "более или менее / в общем и целом — верно в главном, но не в каждой детали",
+      "register": "neutral",
+      "type": "phrase",
+      "see also": "pretty much, kind of, sort of, or so"
     },
     {
       "term": "or so",
       "ipa": "/ɚ ˈsoʊ/",
       "respell": "er SOH",
-      "variants": [
-        "or thereabouts",
-        "or so ago"
-      ],
-      "type": "phrase",
-      "register": "neutral",
       "meaning": "Follows a number, a time, or a distance to mark it as an estimate. It is tighter than or something: or so hedges the quantity and nothing else, which is why it survives in careful writing.",
       "examples": [
         "It's a mile or so from here.",
@@ -1615,23 +1201,17 @@
         "She's been gone a week or so.",
         "The whole repair came to four hundred dollars or so."
       ],
-      "related": [
-        "-ish",
-        "more or less",
-        "or something",
-        "kind of"
-      ]
+      "senses": [],
+      "русский": "примерно / около того — после числа, времени или расстояния",
+      "register": "neutral",
+      "type": "phrase",
+      "variants": "or thereabouts, or so ago",
+      "see also": "-ish, more or less, or something, kind of"
     },
     {
       "term": "or something",
       "ipa": "/ɚ ˈsʌmθɪŋ/",
       "respell": "er SUM-thing",
-      "variants": [
-        "or something like that",
-        "or somethin'"
-      ],
-      "type": "phrase",
-      "register": "informal",
       "meaning": "Tacked onto an uncertain detail to mark it as approximate — you are giving the gist, not the fact. It also softens a suggestion into something the listener can easily turn down.",
       "examples": [
         "He's a consultant or something — I've never really understood his job.",
@@ -1640,23 +1220,17 @@
         "She said she was going to Portland or something.",
         "Did you leave it in the car or something?"
       ],
-      "related": [
-        "or whatever",
-        "and stuff",
-        "kind of",
-        "I dunno"
-      ]
+      "senses": [],
+      "русский": "или что-то в этом роде — помечает деталь как приблизительную",
+      "register": "informal",
+      "type": "phrase",
+      "variants": "or something like that, or somethin'",
+      "see also": "or whatever, and stuff, kind of, I dunno"
     },
     {
       "term": "or whatever",
       "ipa": "/ɚ wəˈtɛvɚ/",
       "respell": "er wuht-EV-er",
-      "variants": [
-        "or whatever it is",
-        "or whatever you call it"
-      ],
-      "type": "phrase",
-      "register": "informal (can sound dismissive)",
       "meaning": "Closes an option or a list with a shrug, signaling that the exact item does not matter to you. Depending on tone it is either easygoing or openly indifferent, so it is risky when the details matter to the person you are talking to.",
       "examples": [
         "Bring chips, soda, or whatever — it's not a fancy party.",
@@ -1665,23 +1239,17 @@
         "Just leave it on the porch or whatever.",
         "She wanted the corner office, the title, or whatever it is people want."
       ],
-      "related": [
-        "or something",
-        "and stuff",
-        "and whatnot",
-        "blah blah blah"
-      ]
+      "senses": [],
+      "русский": "или что там ещё / или как его — закрывает список пожатием плеч; может звучать безразлично",
+      "register": "informal (can sound dismissive)",
+      "type": "phrase",
+      "variants": "or whatever it is, or whatever you call it",
+      "see also": "or something, and stuff, and whatnot, blah blah blah"
     },
     {
       "term": "pretty much",
       "ipa": "/ˌprɪti ˈmʌtʃ/",
-      "respell": "PRIT-ee MUCH — the t is a quick flap, like the d in ladder",
-      "variants": [
-        "just about",
-        "pretty much it"
-      ],
-      "type": "phrase",
-      "register": "informal",
+      "respell": "PRIT-ee MUCH",
       "meaning": "Means \"almost entirely,\" and works as a hedge that keeps a strong statement from being an absolute one. Americans use it constantly, often where a British speaker would reach for more or less.",
       "examples": [
         "That's pretty much everything I know about it.",
@@ -1690,23 +1258,18 @@
         "He pretty much admitted he'd forgotten the whole thing.",
         "We eat the same dinner pretty much every night."
       ],
-      "related": [
-        "more or less",
-        "basically",
-        "kind of",
-        "-ish"
-      ]
+      "senses": [],
+      "pronunciation note": "the t is a quick flap, like the d in ladder",
+      "русский": "почти что / практически — «почти полностью», разг.",
+      "register": "informal",
+      "type": "phrase",
+      "variants": "just about, pretty much it",
+      "see also": "more or less, basically, kind of, -ish"
     },
     {
       "term": "so to speak",
       "ipa": "/ˌsoʊ tə ˈspik/",
       "respell": "soh tuh SPEEK",
-      "variants": [
-        "as it were",
-        "in a manner of speaking"
-      ],
-      "type": "phrase",
-      "register": "neutral",
       "meaning": "Flags the words just used as figurative, borrowed, or not quite the right ones, so the listener does not take them at face value. It is the exact opposite of literally, and it is comfortable in writing as well as speech.",
       "examples": [
         "He jumped ship, so to speak, about a month before the merger.",
@@ -1715,23 +1278,17 @@
         "The account has been in a coma, so to speak, since March.",
         "I'm the referee, so to speak, whenever those two get going."
       ],
-      "related": [
-        "literally",
-        "kind of",
-        "more or less",
-        "if that makes sense"
-      ]
+      "senses": [],
+      "русский": "так сказать / если можно так выразиться — слова употреблены фигурально",
+      "register": "neutral",
+      "type": "phrase",
+      "variants": "as it were, in a manner of speaking",
+      "see also": "literally, kind of, more or less, if that makes sense"
     },
     {
       "term": "sort of",
       "ipa": "/ˈsɔrt əv/ (also /ˈsɔrtə/)",
       "respell": "SORT-uhv, casually SORT-uh",
-      "variants": [
-        "sorta",
-        "sort of like"
-      ],
-      "type": "phrase",
-      "register": "informal",
       "meaning": "The near-twin of kind of: it hedges a description down to \"partly\" or \"in a way.\" The difference is slight — sort of feels marginally more bookish, kind of more all-purpose — and either one can hedge a single word or a whole sentence.",
       "examples": [
         "I sort of knew this was coming.",
@@ -1740,24 +1297,17 @@
         "The whole trip was sort of a disaster.",
         "He sort of apologized, if you can call it that."
       ],
-      "related": [
-        "kind of",
-        "-ish",
-        "I guess",
-        "like"
-      ]
+      "senses": [],
+      "русский": "вроде / как бы / отчасти — почти то же, что kind of, чуть книжнее",
+      "register": "informal",
+      "type": "phrase",
+      "variants": "sorta, sort of like",
+      "see also": "kind of, -ish, I guess, like"
     },
     {
       "term": "technically",
       "ipa": "/ˈtɛknɪkli/",
       "respell": "TEK-nik-lee",
-      "variants": [
-        "technically speaking",
-        "well, technically",
-        "technically, yes"
-      ],
-      "type": "secondary",
-      "register": "neutral (as a lone objection it sounds pedantic)",
       "meaning": "Marks a statement as true by the strict letter of the rule while hinting that the spirit of the rule points somewhere else. It hedges and corrects at the same time, and aimed at someone else's sentence it is a small act of pedantry that Americans find funny and irritating in about equal measure.",
       "examples": [
         "Technically, the store closed five minutes ago.",
@@ -1766,25 +1316,17 @@
         "Technically speaking, none of this is in my job description.",
         "It's technically legal, which is not the same thing as a good idea."
       ],
-      "related": [
-        "actually",
-        "literally",
-        "kind of",
-        "well"
-      ]
+      "senses": [],
+      "русский": "формально / строго говоря — по букве верно, хотя по сути не совсем",
+      "register": "neutral (as a lone objection it sounds pedantic)",
+      "type": "secondary",
+      "variants": "technically speaking, well, technically, technically, yes",
+      "see also": "actually, literally, kind of, well"
     },
     {
       "term": "to be fair",
       "ipa": "/tə bi ˈfɛr/",
       "respell": "tuh bee FAIR",
-      "variants": [
-        "in fairness",
-        "to be fair to him",
-        "TBF",
-        "tbf"
-      ],
-      "type": "phrase",
-      "register": "informal",
       "meaning": "Introduces the point that cuts against what you have just said, usually in defense of somebody who is not in the room. It advertises that you are being even-handed on purpose — and used constantly, especially online, it starts to read as reflexive contrarianism.",
       "examples": [
         "To be fair, nobody told him the deadline had moved.",
@@ -1793,26 +1335,17 @@
         "\"He never proofreads anything.\" \"To be fair, neither do you.\"",
         "I complained the entire drive — to be fair, it was six hours."
       ],
-      "related": [
-        "to be honest",
-        "granted",
-        "that said",
-        "I mean"
-      ]
+      "senses": [],
+      "русский": "справедливости ради / надо отдать должное — довод против только что сказанного",
+      "register": "informal",
+      "type": "phrase",
+      "variants": "in fairness, to be fair to him, TBF, tbf",
+      "see also": "to be honest, granted, that said, I mean"
     },
     {
       "term": "to be honest",
       "ipa": "/tə bi ˈɑnəst/",
-      "respell": "tuh bee ON-ist — the h is silent",
-      "variants": [
-        "honestly",
-        "to be perfectly honest",
-        "if I'm being honest",
-        "TBH",
-        "tbh"
-      ],
-      "type": "phrase",
-      "register": "informal (the abbreviation TBH is for texting only)",
+      "respell": "tuh bee ON-ist",
       "meaning": "Braces the listener for a blunt or unflattering opinion and asks in advance to be forgiven for it. It does not really claim that everything before it was dishonest, though a listener who wants to take it that way can.",
       "examples": [
         "To be honest, I'd rather not go.",
@@ -1821,26 +1354,18 @@
         "\"What did you think?\" \"Honestly? It needs work.\"",
         "TBH I never finished the book."
       ],
-      "related": [
-        "to be fair",
-        "I mean",
-        "I feel like",
-        "look",
-        "well"
-      ]
+      "senses": [],
+      "pronunciation note": "the h is silent",
+      "русский": "честно говоря / если честно — сейчас будет резкое или нелестное мнение",
+      "register": "informal (the abbreviation TBH is for texting only)",
+      "type": "phrase",
+      "variants": "honestly, to be perfectly honest, if I'm being honest, TBH, tbh",
+      "see also": "to be fair, I mean, I feel like, look, well"
     },
     {
       "term": "you know",
       "ipa": "/ju ˈnoʊ/ (also /jəˈnoʊ/)",
       "respell": "yoo NOH, casually yuh-NO",
-      "variants": [
-        "y'know",
-        "ya know",
-        "know what I mean",
-        "you know what I'm saying"
-      ],
-      "type": "phrase",
-      "register": "informal",
       "meaning": "Invites the listener to fill in the rest, either because the point is obvious or because you would rather not spell it out. In heavy use it becomes a pure filler that shows up every few words, and that is the version people get criticized for.",
       "examples": [
         "It's just been one of those weeks, you know?",
@@ -1850,24 +1375,17 @@
         "It's not that I'm mad, it's just — you know.",
         "Know what I mean? Nobody wants to be the one to bring it up."
       ],
-      "related": [
-        "I mean",
-        "like",
-        "see",
-        "you see",
-        "and stuff"
-      ]
+      "senses": [],
+      "русский": "понимаешь / знаешь — приглашает додумать остальное; в избытке — чистый филлер",
+      "register": "informal",
+      "type": "phrase",
+      "variants": "y'know, ya know, know what I mean, you know what I'm saying",
+      "see also": "I mean, like, see, you see, and stuff"
     },
     {
       "term": "blah blah blah",
       "ipa": "/ˌblɑ blɑ ˈblɑ/",
       "respell": "blah blah BLAH",
-      "variants": [
-        "blah blah",
-        "blah-blah-blah"
-      ],
-      "type": "onomatopoeic",
-      "register": "informal",
       "meaning": "Stands in for talk the speaker considers predictable, tedious, or not worth repeating. It dismisses the content rather than the listener — unless you use it while someone is still talking.",
       "examples": [
         "The email was all \"we value your feedback,\" blah blah blah.",
@@ -1876,23 +1394,17 @@
         "She started in on how busy she's been, blah blah blah.",
         "Blah blah blah — get to the part where somebody fixes it."
       ],
-      "related": [
-        "yada yada",
-        "or whatever",
-        "and stuff"
-      ]
+      "senses": [],
+      "русский": "бла-бла-бла — вместо предсказуемой, скучной болтовни",
+      "register": "informal",
+      "type": "onomatopoeic",
+      "variants": "blah blah, blah-blah-blah",
+      "see also": "yada yada, or whatever, and stuff"
     },
     {
       "term": "doohickey",
       "ipa": "/ˈduˌhɪki/",
       "respell": "DOO-hik-ee",
-      "variants": [
-        "doohicky",
-        "dohickey",
-        "doodad"
-      ],
-      "type": "primary",
-      "register": "informal (folksy)",
       "meaning": "A placeholder for a small gadget or part whose name you do not know, typically something mechanical or electronic that you can point at. It sounds homey and a little old-fashioned.",
       "examples": [
         "Hand me that doohickey with the red button on it.",
@@ -1901,24 +1413,17 @@
         "I lost the doohickey that came with the blender.",
         "You need some kind of doohickey to open the battery compartment."
       ],
-      "related": [
-        "gizmo",
-        "thingamajig",
-        "thingy",
-        "whatsit",
-        "whatchamacallit"
-      ]
+      "senses": [],
+      "русский": "штуковина / фиговина — разг., мелкая деталька или приспособление без названия",
+      "register": "informal (folksy)",
+      "type": "primary",
+      "variants": "doohicky, dohickey, doodad",
+      "see also": "gizmo, thingamajig, thingy, whatsit, whatchamacallit"
     },
     {
       "term": "gizmo",
       "ipa": "/ˈɡɪzmoʊ/",
       "respell": "GIZ-moh",
-      "variants": [
-        "gismo",
-        "gizmos"
-      ],
-      "type": "primary",
-      "register": "informal",
       "meaning": "A placeholder for a gadget, usually an electronic one, carrying a hint that the speaker thinks it is clever, unnecessary, or both. Where doohickey sounds folksy and mechanical, gizmo sounds modern and slightly skeptical.",
       "examples": [
         "His car is full of gizmos he has never once used.",
@@ -1927,24 +1432,17 @@
         "\"What's that?\" \"Some gizmo my brother sent me for my birthday.\"",
         "The kitchen drawer is nothing but gizmos and dead batteries."
       ],
-      "related": [
-        "doohickey",
-        "thingamajig",
-        "thingy",
-        "whatsit"
-      ]
+      "senses": [],
+      "русский": "гаджет / хитрая штуковина — разг. об электронной приблуде, часто с иронией",
+      "register": "informal",
+      "type": "primary",
+      "variants": "gismo, gizmos",
+      "see also": "doohickey, thingamajig, thingy, whatsit"
     },
     {
       "term": "so-and-so",
       "ipa": "/ˈsoʊ ən ˌsoʊ/",
       "respell": "SOH-uhn-soh",
-      "variants": [
-        "Mr. So-and-so",
-        "so and so",
-        "such-and-such a person"
-      ],
-      "type": "phrase",
-      "register": "informal (as an insult it is a euphemism — mild on the page, but it stands in for a much stronger word)",
       "meaning": "A stand-in for a person whose name does not matter or is not being supplied — useful when you are describing a pattern rather than a case. Keep the separate insult sense in mind: that old so-and-so is a polite substitute for a much stronger word, and it is affectionate about as often as it is not.",
       "examples": [
         "They'll announce that so-and-so is retiring and everyone will act surprised.",
@@ -1953,23 +1451,17 @@
         "\"Who signs off on it?\" \"So-and-so in legal — I'd have to look up the name.\"",
         "He called me a stubborn old so-and-so and then bought me a beer."
       ],
-      "related": [
-        "whatshisname",
-        "such and such",
-        "thingy",
-        "whatchamacallit"
-      ]
+      "senses": [],
+      "русский": "такой-то — вместо неназванного человека; как мягкая брань — «такой-сякой» (эвфемизм)",
+      "register": "informal (as an insult it is a euphemism — mild on the page, but it stands in for a much stronger word)",
+      "type": "phrase",
+      "variants": "Mr. So-and-so, so and so, such-and-such a person",
+      "see also": "whatshisname, such and such, thingy, whatchamacallit"
     },
     {
       "term": "such and such",
       "ipa": "/ˌsʌtʃ ən ˈsʌtʃ/",
       "respell": "such uhn SUCH",
-      "variants": [
-        "such-and-such",
-        "such and such a thing"
-      ],
-      "type": "phrase",
-      "register": "informal",
       "meaning": "A stand-in for an unspecified detail — a date, an amount, a name — used when you are sketching how something generally goes rather than reporting a particular case. It almost always turns up inside a hypothetical.",
       "examples": [
         "The letter says you owe such and such an amount by such and such a date.",
@@ -1978,24 +1470,17 @@
         "He'll swear the meeting was on such-and-such a day and nobody can prove otherwise.",
         "\"Just fill in the blanks — name, address, such and such.\""
       ],
-      "related": [
-        "so-and-so",
-        "whatchamacallit",
-        "and whatnot",
-        "yada yada"
-      ]
+      "senses": [],
+      "русский": "такой-то / такое-то — вместо неуказанной даты, суммы или названия",
+      "register": "informal",
+      "type": "phrase",
+      "variants": "such-and-such, such and such a thing",
+      "see also": "so-and-so, whatchamacallit, and whatnot, yada yada"
     },
     {
       "term": "thingamajig",
       "ipa": "/ˈθɪŋəməˌdʒɪɡ/",
       "respell": "THING-uh-muh-jig",
-      "variants": [
-        "thingamabob",
-        "thingumajig",
-        "thingummy"
-      ],
-      "type": "secondary",
-      "register": "informal",
       "meaning": "A nonsense elaboration of thing, used for an object whose name has escaped you at that moment. It is longer and more playful than thingy, and it almost always comes with a gesture.",
       "examples": [
         "Where's that thingamajig for opening wine bottles?",
@@ -2004,22 +1489,17 @@
         "The thingamajig under the sink started leaking again.",
         "I need one of those thingamajigs that keeps the cord from tangling."
       ],
-      "related": [
-        "doohickey",
-        "thingy",
-        "whatchamacallit",
-        "whatsit"
-      ]
+      "senses": [],
+      "русский": "штуковина / загогулина — шутливое разрастание слова «штука»",
+      "register": "informal",
+      "type": "secondary",
+      "variants": "thingamabob, thingumajig, thingummy",
+      "see also": "doohickey, thingy, whatchamacallit, whatsit"
     },
     {
       "term": "thingy",
       "ipa": "/ˈθɪŋi/",
       "respell": "THING-ee",
-      "variants": [
-        "thingie"
-      ],
-      "type": "secondary",
-      "register": "informal",
       "meaning": "The shortest and most common placeholder noun, used for an object — and sometimes for a person, an event, or a quirk — when the real word will not come. Very frequent in casual speech and easy to overuse.",
       "examples": [
         "Can you pass me that thingy on the counter?",
@@ -2028,24 +1508,17 @@
         "The plastic thingy on my charger broke off.",
         "We're doing the thingy at Dave's on Saturday, right?"
       ],
-      "related": [
-        "thingamajig",
-        "whatchamacallit",
-        "whatsit",
-        "doohickey"
-      ]
+      "senses": [],
+      "русский": "штука / штучка — самый короткий и частый заменитель забытого слова",
+      "register": "informal",
+      "type": "secondary",
+      "variants": "thingie",
+      "see also": "thingamajig, whatchamacallit, whatsit, doohickey"
     },
     {
       "term": "whatchamacallit",
       "ipa": "/ˈwʌtʃəməˌkɔlɪt/ (also /ˌwɑtʃəməˈkɔlɪt/)",
       "respell": "WUCH-uh-muh-kawl-it",
-      "variants": [
-        "whatchacallit",
-        "whaddayacallit",
-        "whatchamacallem"
-      ],
-      "type": "phrase",
-      "register": "informal",
       "meaning": "A compressed \"what you may call it,\" dropped into a sentence in place of an object or a place whose name you have lost. Saying it usually invites the listener to supply the missing word.",
       "examples": [
         "Grab the — whatchamacallit — the spatula, the wide one.",
@@ -2054,25 +1527,17 @@
         "She used the whatchacallit, the paddle attachment.",
         "It's right next to the whaddayacallit, the old post office."
       ],
-      "related": [
-        "whatsit",
-        "thingy",
-        "thingamajig",
-        "what's the word"
-      ]
+      "senses": [],
+      "русский": "как эта штука называется / как его там — вместо забытого названия предмета",
+      "register": "informal",
+      "type": "phrase",
+      "variants": "whatchacallit, whaddayacallit, whatchamacallem",
+      "see also": "whatsit, thingy, thingamajig, what's the word"
     },
     {
       "term": "whatshisname",
       "ipa": "/ˈwʌtsɪzˌneɪm/",
       "respell": "WUTS-iz-name",
-      "variants": [
-        "whatshername",
-        "whatsisname",
-        "what's-his-face",
-        "what's-her-face"
-      ],
-      "type": "phrase",
-      "register": "informal (dismissive about the person named — not something to say to their face; the -face forms are ruder still)",
       "meaning": "A placeholder for a person whose name you cannot recall or cannot be bothered to use. The -face versions are blunter and usually carry a little contempt.",
       "examples": [
         "Whatshisname from accounting stopped by looking for you.",
@@ -2081,24 +1546,17 @@
         "What's-his-face still hasn't returned my email.",
         "It was directed by whatshisname — he did that space movie."
       ],
-      "related": [
-        "whatchamacallit",
-        "so-and-so",
-        "thingy",
-        "what's the word"
-      ]
+      "senses": [],
+      "русский": "как его там / как бишь его зовут — вместо имени человека; пренебрежительно",
+      "register": "informal (dismissive about the person named — not something to say to their face; the -face forms are ruder still)",
+      "type": "phrase",
+      "variants": "whatshername, whatsisname, what's-his-face, what's-her-face",
+      "see also": "whatchamacallit, so-and-so, thingy, what's the word"
     },
     {
       "term": "whatsit",
       "ipa": "/ˈwʌtsɪt/",
       "respell": "WUT-sit",
-      "variants": [
-        "whatsits",
-        "whatsis",
-        "whatsitsname"
-      ],
-      "type": "phrase",
-      "register": "informal (chiefly British; an American is far likelier to reach for thingy or whatchamacallit)",
       "meaning": "A short placeholder built out of \"what is it,\" used for a small object or, in the -name form, for a thing or person whose name is gone. Americans understand it and use it occasionally, but it is a British habit at heart, and in an American mouth it can sound slightly put on.",
       "examples": [
         "Hand me the whatsit, the little metal clip.",
@@ -2107,23 +1565,17 @@
         "We stayed at the whatsitsname, the place with the red awning.",
         "There's a whatsit missing from the box."
       ],
-      "related": [
-        "whatchamacallit",
-        "doohickey",
-        "thingy"
-      ]
+      "senses": [],
+      "русский": "штуковина / как его — брит., из «what is it»; американец скорее скажет thingy",
+      "register": "informal (chiefly British; an American is far likelier to reach for thingy or whatchamacallit)",
+      "type": "phrase",
+      "variants": "whatsits, whatsis, whatsitsname",
+      "see also": "whatchamacallit, doohickey, thingy"
     },
     {
       "term": "yada yada",
       "ipa": "/ˌjɑdə ˈjɑdə/",
       "respell": "yah-duh YAH-duh",
-      "variants": [
-        "yada yada yada",
-        "yadda yadda",
-        "yaddayadda"
-      ],
-      "type": "onomatopoeic",
-      "register": "informal",
       "meaning": "Skips over a stretch of a story that is boring, obvious, or awkward to spell out: \"and so on, you can fill in the rest.\" Made famous nationally by a 1997 episode of Seinfeld, it now often implies that the speaker is glossing over the interesting part on purpose.",
       "examples": [
         "We argued, we made up, yada yada, now we're married.",
@@ -2132,11 +1584,12 @@
         "Dinner, drinks, yada yada — it was a long night.",
         "She said she was sorry, yada yada, but nothing actually changed."
       ],
-      "related": [
-        "blah blah blah",
-        "and stuff",
-        "or whatever"
-      ]
+      "senses": [],
+      "русский": "и так далее / бла-бла — пропуск скучной или неловкой части истории",
+      "register": "informal",
+      "type": "onomatopoeic",
+      "variants": "yada yada yada, yadda yadda, yaddayadda",
+      "see also": "blah blah blah, and stuff, or whatever"
     }
   ]
 }

@@ -6,14 +6,6 @@
       "term": "argh",
       "ipa": "/ɑrɡ/, /ɑr/",
       "respell": "AHRG, AHR",
-      "variants": [
-        "aargh",
-        "arrgh",
-        "aaargh",
-        "arg"
-      ],
-      "type": "primary",
-      "register": "informal",
       "meaning": "A groan of frustration or defeat, aimed at a situation that has gone wrong rather than at a person. Extra letters in writing mean a longer, louder groan.",
       "examples": [
         "\"Argh! I just lost an hour of work.\"",
@@ -22,22 +14,17 @@
         "\"Aaargh. Why does this printer hate me?\"",
         "Argh, I knew I should have left earlier."
       ],
-      "related": [
-        "ugh",
-        "gah",
-        "grr"
-      ]
+      "senses": [],
+      "русский": "аргх / а-а-а — стон досады и бессилия, когда всё пошло не так",
+      "register": "informal",
+      "type": "primary",
+      "variants": "aargh, arrgh, aaargh, arg",
+      "see also": "ugh, gah, grr"
     },
     {
       "term": "gah",
       "ipa": "/ɡɑ/",
       "respell": "GAH",
-      "variants": [
-        "gaah",
-        "gahh"
-      ],
-      "type": "primary",
-      "register": "informal",
       "meaning": "A short, sharp bark of irritation, quicker and more sudden than ugh. It usually escapes before you have found words for whatever is annoying you.",
       "examples": [
         "\"Gah! This zipper is stuck again.\"",
@@ -46,22 +33,17 @@
         "\"Gah! I said the wrong name in the meeting.\"",
         "Gah — do not talk to me before coffee."
       ],
-      "related": [
-        "argh",
-        "ugh",
-        "grr"
-      ]
+      "senses": [],
+      "русский": "а-а! / тьфу ты — короткий резкий возглас раздражения, вырывается прежде слов",
+      "register": "informal",
+      "type": "primary",
+      "variants": "gaah, gahh",
+      "see also": "argh, ugh, grr"
     },
     {
       "term": "grr",
       "ipa": "no standard IPA — a growl with no vowel of its own: the r is held and carries the whole syllable, roughly /ɡr̩ː/",
       "respell": "GRR (a low animal growl, teeth together, r drawn out)",
-      "variants": [
-        "grrr",
-        "grrrr"
-      ],
-      "type": "onomatopoeic",
-      "register": "informal",
       "meaning": "An imitation of an animal growl used to show annoyance, most often in writing or in a half-joking tone. Said out loud it is usually playful rather than genuinely angry.",
       "examples": [
         "\"Grr. The website logged me out again.\"",
@@ -70,23 +52,17 @@
         "\"Grr!\" he said, wrestling with the jar lid.",
         "Grr, I have to redo the whole slide deck."
       ],
-      "related": [
-        "argh",
-        "hmph",
-        "ugh"
-      ]
+      "senses": [],
+      "русский": "р-р-р — рычание в знак досады, чаще в переписке и полушутя",
+      "register": "informal",
+      "type": "onomatopoeic",
+      "variants": "grrr, grrrr",
+      "see also": "argh, hmph, ugh"
     },
     {
       "term": "hmph",
       "ipa": "no standard IPA — a hum with the lips shut, pushed out through the nose and cut off, roughly /hm̩f/",
       "respell": "HMF (mouth never opens; the sound is all nose and breath)",
-      "variants": [
-        "humph",
-        "harrumph",
-        "hmpf"
-      ],
-      "type": "onomatopoeic",
-      "register": "informal",
       "meaning": "A short snort through the nose that signals offended disapproval or grudging skepticism. It tells everyone you are unimpressed and a little insulted without committing you to words. The spelled-out harrumph is the one form that has a real vowel: /həˈrʌmf/.",
       "examples": [
         "\"Hmph. I wasn't even invited.\"",
@@ -95,23 +71,17 @@
         "\"Humph! Fine, do it your way.\"",
         "He listened to the excuse, said hmph, and walked out."
       ],
-      "related": [
-        "grr",
-        "oh brother",
-        "honestly"
-      ]
+      "senses": [],
+      "русский": "хмф / пф — обиженное фырканье носом: не впечатлён и слегка задет",
+      "register": "informal",
+      "type": "onomatopoeic",
+      "variants": "humph, harrumph, hmpf",
+      "see also": "grr, oh brother, honestly"
     },
     {
       "term": "ugh",
       "ipa": "/ʌɡ/",
       "respell": "UHG",
-      "variants": [
-        "uggh",
-        "ughhh",
-        "ugghh"
-      ],
-      "type": "primary",
-      "register": "informal",
       "meaning": "The all-purpose groan of disgust, weariness, or annoyance. It covers a bad smell, a tedious chore, and news you did not want to hear, and it is one of the most common interjections in American speech.",
       "examples": [
         "\"Ugh, Monday already.\"",
@@ -120,22 +90,17 @@
         "She read the group chat and typed ugh before she typed anything else.",
         "Ughhh, I have three more hours of this."
       ],
-      "related": [
-        "argh",
-        "gah",
-        "sheesh"
-      ]
+      "senses": [],
+      "русский": "фу / у-у — стон отвращения, усталости или досады",
+      "register": "informal",
+      "type": "primary",
+      "variants": "uggh, ughhh, ugghh",
+      "see also": "argh, gah, sheesh"
     },
     {
       "term": "Christ",
       "ipa": "/kraɪst/",
       "respell": "KRYST",
-      "variants": [
-        "oh Christ",
-        "Christ almighty"
-      ],
-      "type": "secondary",
-      "register": "vulgar",
       "meaning": "A blasphemous exclamation of exasperation, said when a person or a situation has pushed you past patience. This is real profanity, not a soft oath: it is a step stronger than jeez, which is its minced form, and a religious listener hears it as breaking a commandment rather than as ordinary swearing.",
       "examples": [
         "\"Christ, would you slow down?\"",
@@ -144,22 +109,17 @@
         "\"Christ almighty, the meeting is three hours long.\"",
         "Christ, I just mopped that floor."
       ],
-      "related": [
-        "Jesus",
-        "jeez",
-        "for Christ's sake"
-      ]
+      "senses": [],
+      "русский": "Господи! / Боже мой! — богохульный возглас раздражения, груб.",
+      "register": "vulgar",
+      "type": "secondary",
+      "variants": "oh Christ, Christ almighty",
+      "see also": "Jesus, jeez, for Christ's sake"
     },
     {
       "term": "crap",
       "ipa": "/kræp/",
       "respell": "KRAP",
-      "variants": [
-        "oh crap",
-        "aw crap"
-      ],
-      "type": "secondary",
-      "register": "very informal",
       "meaning": "A mild swear for something that has just gone wrong, and a family-safe stand-in for shit. Most Americans hear it as mild, but it is still a swear word: keep it away from clients, strangers, and other people's children.",
       "examples": [
         "\"Crap, I left my badge at home.\"",
@@ -168,21 +128,17 @@
         "\"Crap! That's the second flat tire this month.\"",
         "Crap, I forgot to hit send."
       ],
-      "related": [
-        "oh crap",
-        "crud",
-        "shoot"
-      ]
+      "senses": [],
+      "русский": "блин! / чёрт! — лёгкое ругательство при неудаче, приличная замена shit (разг.)",
+      "register": "very informal",
+      "type": "secondary",
+      "variants": "oh crap, aw crap",
+      "see also": "oh crap, crud, shoot"
     },
     {
       "term": "damn",
       "ipa": "/dæm/",
       "respell": "DAM",
-      "variants": [
-        "damn!"
-      ],
-      "type": "secondary",
-      "register": "very informal",
       "meaning": "The most common mild curse in American speech, used when something disappoints or irritates you. Said flat and clipped it is pure frustration; drawn out with a rising tone it flips to admiration, as in \"Damn, that's good.\" It is mild to most ears and still a genuine curse to religious ones, who hear the original wish for damnation in it.",
       "examples": [
         "\"Damn, the flight got canceled.\"",
@@ -191,23 +147,17 @@
         "\"Damn! I hit reply-all again.\"",
         "Damn, this line hasn't moved in ten minutes."
       ],
-      "related": [
-        "damn it",
-        "dang",
-        "darn"
-      ]
+      "senses": [],
+      "русский": "чёрт! / проклятье — самое частое лёгкое американское ругательство досады (разг.)",
+      "register": "very informal",
+      "type": "secondary",
+      "variants": "damn!",
+      "see also": "damn it, dang, darn"
     },
     {
       "term": "damn it",
       "ipa": "/ˈdæmɪt/",
       "respell": "DAM-it",
-      "variants": [
-        "dammit",
-        "damnit",
-        "damn it all"
-      ],
-      "type": "phrase",
-      "register": "very informal",
       "meaning": "A sharper, more directed damn, aimed at a situation that keeps going wrong. It is said as one word with no pause, which is why dammit is the ordinary written spelling.",
       "examples": [
         "\"Damn it, the file didn't save.\"",
@@ -216,23 +166,17 @@
         "\"Answer the phone, damn it.\"",
         "Dammit, I was two minutes from finishing."
       ],
-      "related": [
-        "damn",
-        "damn you",
-        "goddamn it"
-      ]
+      "senses": [],
+      "русский": "чёрт возьми! / да чёрт побери — резче damn, направлено на ситуацию",
+      "register": "very informal",
+      "type": "phrase",
+      "variants": "dammit, damnit, damn it all",
+      "see also": "damn, damn you, goddamn it"
     },
     {
       "term": "damn you",
       "ipa": "/ˈdæm ju/",
       "respell": "DAM-yoo",
-      "variants": [
-        "damn him",
-        "damn her",
-        "damn them all"
-      ],
-      "type": "phrase",
-      "register": "very informal",
       "meaning": "A curse aimed at a person rather than at a situation — literally a wish for their damnation, which is why it still lands harder than damn it even when it is half a joke. In the third person (damn him, damn them) it is a complaint about somebody who is not in the room.",
       "examples": [
         "\"Damn you, you knew and you let me walk in there anyway.\"",
@@ -241,23 +185,17 @@
         "She read the letter a second time and said it quietly. \"Damn you.\"",
         "Damn them all, I am not paying a forty-dollar change fee."
       ],
-      "related": [
-        "damn it",
-        "go to hell",
-        "screw you"
-      ]
+      "senses": [],
+      "русский": "будь ты проклят! / чтоб тебя — проклятие в адрес человека, а не ситуации",
+      "register": "very informal",
+      "type": "phrase",
+      "variants": "damn him, damn her, damn them all",
+      "see also": "damn it, go to hell, screw you"
     },
     {
       "term": "go to hell",
       "ipa": "/ˌɡoʊ tə ˈhɛl/",
       "respell": "goh-tuh-HEL",
-      "variants": [
-        "go straight to hell",
-        "the hell with you",
-        "tell him to go to hell"
-      ],
-      "type": "phrase",
-      "register": "very informal",
       "meaning": "A hostile dismissal telling someone they are finished as far as you are concerned. Unlike screw you, which friends trade as a joke, this one is almost always meant, and it is the line people remember years later.",
       "examples": [
         "\"Go to hell. I am not apologizing for something I didn't do.\"",
@@ -266,23 +204,17 @@
         "She hung up, looked at the phone, and said, \"Go to hell.\"",
         "The hell with you, then. I'll move it myself."
       ],
-      "related": [
-        "screw you",
-        "damn you",
-        "to hell with it"
-      ]
+      "senses": [],
+      "русский": "иди к чёрту! / катись к чёрту — враждебный посыл, почти всегда всерьёз",
+      "register": "very informal",
+      "type": "phrase",
+      "variants": "go straight to hell, the hell with you, tell him to go to hell",
+      "see also": "screw you, damn you, to hell with it"
     },
     {
       "term": "God",
       "ipa": "/ɡɑd/",
       "respell": "GAHD",
-      "variants": [
-        "oh God",
-        "my God",
-        "God almighty"
-      ],
-      "type": "secondary",
-      "register": "very informal",
       "meaning": "An exasperated appeal used when someone is wearing your patience thin. In this angry sense it is flat and clipped, unlike the drawn-out oh God of shock or dread. Most Americans treat it as mild; devout listeners do not, and to them it is the commandment about taking the name in vain.",
       "examples": [
         "\"God, you are impossible.\"",
@@ -291,23 +223,17 @@
         "She rubbed her eyes. \"God almighty, it's only Tuesday.\"",
         "God, I wish this elevator would hurry up."
       ],
-      "related": [
-        "Jesus",
-        "gosh",
-        "for God's sake"
-      ]
+      "senses": [],
+      "русский": "Господи! / Боже мой! — раздражённый возглас; верующие слышат имя всуе",
+      "register": "very informal",
+      "type": "secondary",
+      "variants": "oh God, my God, God almighty",
+      "see also": "Jesus, gosh, for God's sake"
     },
     {
       "term": "goddamn it",
       "ipa": "/ˌɡɑdˈdæmɪt/",
       "respell": "gahd-DAM-it",
-      "variants": [
-        "goddammit",
-        "god damn it",
-        "goddamnit"
-      ],
-      "type": "phrase",
-      "register": "vulgar",
       "meaning": "The strongest member of the damn family, adding blasphemy to the curse. It signals real anger, it is fully taboo at work, in front of children, and around anyone you have just met, and religious listeners object to it twice over.",
       "examples": [
         "\"Goddamn it, I asked for this yesterday.\"",
@@ -316,22 +242,17 @@
         "\"Would you listen to me, goddamn it?\"",
         "Goddamn it, that's the third time this week."
       ],
-      "related": [
-        "damn it",
-        "gosh darn it",
-        "dagnabbit"
-      ]
+      "senses": [],
+      "русский": "да чтоб оно всё! / чёрт бы всё побрал — сильнейшее в семье damn, груб.",
+      "register": "vulgar",
+      "type": "phrase",
+      "variants": "goddammit, god damn it, goddamnit",
+      "see also": "damn it, gosh darn it, dagnabbit"
     },
     {
       "term": "hell",
       "ipa": "/hɛl/",
       "respell": "HEL",
-      "variants": [
-        "oh hell",
-        "hell no"
-      ],
-      "type": "secondary",
-      "register": "very informal",
       "meaning": "A mild swear used alone for resigned annoyance, and used inside questions as an intensifier that sharpens the whole sentence (where the hell, why the hell). Alone it is milder than damn it; inside a question it is noticeably hotter. It is common enough to pass unnoticed among friends and still counts as swearing in a classroom or a client meeting.",
       "examples": [
         "\"Hell, I don't know why the server keeps crashing.\"",
@@ -340,23 +261,17 @@
         "Why the hell would he say that to her?",
         "Hell, at this point just cancel the whole thing."
       ],
-      "related": [
-        "what the hell",
-        "heck",
-        "oh hell"
-      ]
+      "senses": [],
+      "русский": "чёрт! — само по себе лёгкая досада; внутри вопроса усилитель: какого чёрта",
+      "register": "very informal",
+      "type": "secondary",
+      "variants": "oh hell, hell no",
+      "see also": "what the hell, heck, oh hell"
     },
     {
       "term": "Jesus",
       "ipa": "/ˈdʒizəs/",
       "respell": "JEE-zuhs",
-      "variants": [
-        "Jesus Christ",
-        "Jesus H. Christ",
-        "oh Jesus"
-      ],
-      "type": "secondary",
-      "register": "vulgar",
       "meaning": "An exasperated blasphemous exclamation, usually aimed at a person who has just done something careless or maddening. Jesus Christ is the fuller and angrier form. Both are moderate as swearing and strong as blasphemy, so the room, not the word, decides how badly it lands.",
       "examples": [
         "\"Jesus, watch where you're going.\"",
@@ -365,22 +280,17 @@
         "\"Jesus H. Christ, would you two stop?\"",
         "Jesus, I've told him four times."
       ],
-      "related": [
-        "Christ",
-        "jeez",
-        "jiminy Christmas"
-      ]
+      "senses": [],
+      "русский": "Господи Иисусе! / Боже мой — раздражённый богохульный возглас, груб.",
+      "register": "vulgar",
+      "type": "secondary",
+      "variants": "Jesus Christ, Jesus H. Christ, oh Jesus",
+      "see also": "Christ, jeez, jiminy Christmas"
     },
     {
       "term": "oh crap",
       "ipa": "/oʊ ˈkræp/",
       "respell": "oh-KRAP",
-      "variants": [
-        "aw crap",
-        "oh crud"
-      ],
-      "type": "phrase",
-      "register": "very informal",
       "meaning": "Crap with the sinking realization built into it: you have just noticed the problem, and it is yours. It leans more toward dismay than toward anger.",
       "examples": [
         "\"Oh crap, I double-booked myself.\"",
@@ -389,22 +299,17 @@
         "\"Oh crap! I sent that to the wrong Sarah.\"",
         "Oh crap, the tickets were for last night."
       ],
-      "related": [
-        "crap",
-        "oh hell",
-        "shoot"
-      ]
+      "senses": [],
+      "русский": "ой, блин! / вот чёрт — досада в момент, когда понял, что влип",
+      "register": "very informal",
+      "type": "phrase",
+      "variants": "aw crap, oh crud",
+      "see also": "crap, oh hell, shoot"
     },
     {
       "term": "oh hell",
       "ipa": "/oʊ ˈhɛl/",
       "respell": "oh-HEL",
-      "variants": [
-        "aw hell",
-        "oh hell no"
-      ],
-      "type": "phrase",
-      "register": "very informal",
       "meaning": "A groan of dismayed frustration at bad news or an unwelcome sight. The longer oh hell no is a separate and very emphatic refusal.",
       "examples": [
         "\"Oh hell, the basement is flooded.\"",
@@ -413,22 +318,17 @@
         "She saw the check engine light come on. \"Oh hell.\"",
         "\"They want us there at five in the morning.\" \"Oh hell no.\""
       ],
-      "related": [
-        "oh crap",
-        "hell",
-        "to hell with it"
-      ]
+      "senses": [],
+      "русский": "ох, чёрт! / да чёрт возьми — стон досады при плохой новости",
+      "register": "very informal",
+      "type": "phrase",
+      "variants": "aw hell, oh hell no",
+      "see also": "oh crap, hell, to hell with it"
     },
     {
       "term": "screw it",
       "ipa": "/ˈskru ɪt/",
       "respell": "SKROO-it",
-      "variants": [
-        "screw this",
-        "screw that"
-      ],
-      "type": "phrase",
-      "register": "very informal",
       "meaning": "A declaration that you are giving up on something out of frustration and moving on — the printable form of fuck it. Screw this aims the same feeling at the situation you are stuck in right now.",
       "examples": [
         "\"Screw it, I'm ordering pizza.\"",
@@ -437,23 +337,17 @@
         "\"Screw it, we'll fix it in the next release.\"",
         "Screw that, I'm not driving four hours for a one-hour meeting."
       ],
-      "related": [
-        "to hell with it",
-        "whatever",
-        "fine"
-      ]
+      "senses": [],
+      "русский": "да ну его! / плевать — бросить дело от досады; приличная замена fuck it",
+      "register": "very informal",
+      "type": "phrase",
+      "variants": "screw this, screw that",
+      "see also": "to hell with it, whatever, fine"
     },
     {
       "term": "screw you",
       "ipa": "/skru ˈju/",
       "respell": "skroo-YOO",
-      "variants": [
-        "screw him",
-        "screw them",
-        "screw off"
-      ],
-      "type": "phrase",
-      "register": "very informal",
       "meaning": "A hostile insult aimed straight at a person, and the softened form of fuck you. Softened is relative: it still ends conversations and starts arguments. Close friends sometimes use it jokingly, but never assume that.",
       "examples": [
         "\"Screw you, I did all the work on that.\"",
@@ -462,22 +356,17 @@
         "He told his brother screw you and hung up.",
         "\"Screw him, we'll find another contractor.\""
       ],
-      "related": [
-        "go to hell",
-        "shut up",
-        "whatever"
-      ]
+      "senses": [],
+      "русский": "да пошёл ты! / иди ты — смягчённое fuck you, но всё равно оскорбление",
+      "register": "very informal",
+      "type": "phrase",
+      "variants": "screw him, screw them, screw off",
+      "see also": "go to hell, shut up, whatever"
     },
     {
       "term": "shit",
       "ipa": "/ʃɪt/",
       "respell": "SHIT",
-      "variants": [
-        "oh shit",
-        "aw shit"
-      ],
-      "type": "secondary",
-      "register": "vulgar",
       "meaning": "The strongest of the everyday one-word swears of frustration, and genuinely taboo in public, professional, and family settings. Shoot, sugar, and crap are the polite substitutes built from it.",
       "examples": [
         "\"Shit, I locked my keys in the car.\"",
@@ -486,22 +375,17 @@
         "\"Oh shit, the deadline was yesterday.\"",
         "Shit, I think I deleted the wrong folder."
       ],
-      "related": [
-        "shoot",
-        "sugar",
-        "crap"
-      ]
+      "senses": [],
+      "русский": "вот дерьмо! / бля! — сильное обиходное ругательство досады, груб., табу при чужих",
+      "register": "vulgar",
+      "type": "secondary",
+      "variants": "oh shit, aw shit",
+      "see also": "shoot, sugar, crap"
     },
     {
       "term": "to hell with it",
       "ipa": "/tə ˈhɛl wɪð ɪt/",
       "respell": "tuh-HEL-with-it",
-      "variants": [
-        "the hell with it",
-        "to hell with this"
-      ],
-      "type": "phrase",
-      "register": "very informal",
       "meaning": "A more emphatic screw it: you are abandoning the effort out of anger or exhaustion. It can also be pointed at a person or a rule you have decided to stop respecting.",
       "examples": [
         "\"To hell with it, I'm going home.\"",
@@ -510,22 +394,17 @@
         "\"To hell with this, the line isn't moving.\"",
         "To hell with it, let's just tell them the truth."
       ],
-      "related": [
-        "screw it",
-        "fine",
-        "that does it"
-      ]
+      "senses": [],
+      "русский": "да ну его к чёрту! / чёрт с ним — бросить дело от злости или усталости",
+      "register": "very informal",
+      "type": "phrase",
+      "variants": "the hell with it, to hell with this",
+      "see also": "screw it, fine, that does it"
     },
     {
       "term": "what the hell",
       "ipa": "/ˌwʌt ðə ˈhɛl/",
       "respell": "wut-thuh-HEL",
-      "variants": [
-        "what the hell?",
-        "the hell"
-      ],
-      "type": "phrase",
-      "register": "very informal",
       "meaning": "Two distinct uses. 1. An angry or bewildered demand for an explanation, with the stress on hell. 2. Said flat, with a shrug, a decision to take the risk anyway — roughly \"why not.\"",
       "examples": [
         "\"What the hell were you thinking?\"",
@@ -535,22 +414,17 @@
         "\"Should we split the last piece?\" \"Ah, what the hell — take it.\"",
         "It's my birthday, so what the hell, I'm getting the expensive one."
       ],
-      "related": [
-        "what the heck",
-        "hell",
-        "are you kidding me"
-      ]
+      "senses": [],
+      "русский": "какого чёрта? — гневный вопрос; 2. сказанное ровно — «а, была не была»",
+      "register": "very informal",
+      "type": "phrase",
+      "variants": "what the hell?, the hell",
+      "see also": "what the heck, hell, are you kidding me"
     },
     {
       "term": "cheese and crackers",
       "ipa": "/ˌtʃiz ən ˈkrækərz/",
       "respell": "cheez-uhn-KRAK-erz",
-      "variants": [
-        "cheese and rice",
-        "oh cheese and crackers"
-      ],
-      "type": "phrase",
-      "register": "informal",
       "meaning": "A deliberately silly stand-in for Jesus Christ, built to match its rhythm and opening sounds. It is used to be funny about being annoyed rather than to hide real anger.",
       "examples": [
         "\"Cheese and crackers, look at this mess.\"",
@@ -559,23 +433,17 @@
         "Grandma says cheese and crackers so she doesn't swear in front of the kids.",
         "Cheese and crackers, I forgot the tickets again."
       ],
-      "related": [
-        "jiminy Christmas",
-        "jeez Louise",
-        "mother of pearl"
-      ]
+      "senses": [],
+      "русский": "ёлки-палки! / ёшкин кот — нарочито дурашливая замена Jesus Christ",
+      "register": "informal",
+      "type": "phrase",
+      "variants": "cheese and rice, oh cheese and crackers",
+      "see also": "jiminy Christmas, jeez Louise, mother of pearl"
     },
     {
       "term": "criminy",
       "ipa": "/ˈkrɪməni/",
       "respell": "KRIM-uh-nee",
-      "variants": [
-        "crimeny",
-        "criminey",
-        "criminy sakes"
-      ],
-      "type": "primary",
-      "register": "dated",
       "meaning": "An old-fashioned minced form of Christ, used for mild exasperation. It sounds gently folksy today and comes mostly from older speakers or from people reaching for a laugh.",
       "examples": [
         "\"Criminy, how much did they charge you?\"",
@@ -584,23 +452,17 @@
         "He came in stamping the snow off his boots. \"Criminy, it is cold out there.\"",
         "Criminy, these instructions make no sense at all."
       ],
-      "related": [
-        "cripes",
-        "jiminy Christmas",
-        "drat"
-      ]
+      "senses": [],
+      "русский": "батюшки мои! / ёлки зелёные — устар., старомодная замена Christ",
+      "register": "dated",
+      "type": "primary",
+      "variants": "crimeny, criminey, criminy sakes",
+      "see also": "cripes, jiminy Christmas, drat"
     },
     {
       "term": "cripes",
       "ipa": "/kraɪps/",
       "respell": "KRYPS",
-      "variants": [
-        "oh cripes",
-        "for cripes' sake",
-        "cripes almighty"
-      ],
-      "type": "primary",
-      "register": "dated",
       "meaning": "A minced form of Christ, used for mild exasperation or startled annoyance. It peaked in mid-century American speech and now sounds like dialogue out of an old comic strip, which is mostly why people reach for it.",
       "examples": [
         "\"Cripes, would you look at this traffic.\"",
@@ -609,22 +471,17 @@
         "He got the estimate back from the mechanic. \"Cripes.\"",
         "Hold still, for cripes' sake, I am almost done."
       ],
-      "related": [
-        "criminy",
-        "jeez",
-        "jiminy Christmas"
-      ]
+      "senses": [],
+      "русский": "ёкарный бабай! / господи прости — устар., смягчённое Christ, как из старых комиксов",
+      "register": "dated",
+      "type": "primary",
+      "variants": "oh cripes, for cripes' sake, cripes almighty",
+      "see also": "criminy, jeez, jiminy Christmas"
     },
     {
       "term": "crud",
       "ipa": "/krʌd/",
       "respell": "KRUHD",
-      "variants": [
-        "oh crud",
-        "aw crud"
-      ],
-      "type": "secondary",
-      "register": "informal",
       "meaning": "A soft substitute for crap, safe around children and coworkers. It marks small annoyances rather than real anger.",
       "examples": [
         "\"Crud, I forgot my lunch.\"",
@@ -633,23 +490,17 @@
         "She caught a typo in the last line and said crud.",
         "Crud, I think I left the light on in the garage."
       ],
-      "related": [
-        "crap",
-        "darn",
-        "shoot"
-      ]
+      "senses": [],
+      "русский": "блин! / ёлки — мягкая замена crap, годится при детях и коллегах",
+      "register": "informal",
+      "type": "secondary",
+      "variants": "oh crud, aw crud",
+      "see also": "crap, darn, shoot"
     },
     {
       "term": "dagnabbit",
       "ipa": "/dæɡˈnæbɪt/",
       "respell": "dag-NAB-it",
-      "variants": [
-        "dagnab it",
-        "dad gum it",
-        "dadgummit"
-      ],
-      "type": "phrase",
-      "register": "dated",
       "meaning": "A rural, old-fashioned scrambling of goddamn it, now heard mainly in cartoons, Westerns, and self-aware humor. Almost nobody says it with a straight face anymore.",
       "examples": [
         "\"Dagnabbit, the fence is down again.\"",
@@ -658,22 +509,17 @@
         "He kicked the tire and hollered dagnabbit.",
         "Dagnabbit, I can never get this lid off."
       ],
-      "related": [
-        "doggone",
-        "gosh darn it",
-        "dang"
-      ]
+      "senses": [],
+      "русский": "ах ты ж, едрёна корень! — устар., деревенская замена goddamn it, ныне только в шутку",
+      "register": "dated",
+      "type": "phrase",
+      "variants": "dagnab it, dad gum it, dadgummit",
+      "see also": "doggone, gosh darn it, dang"
     },
     {
       "term": "dang",
       "ipa": "/dæŋ/",
       "respell": "DANG",
-      "variants": [
-        "dang it",
-        "dang it all"
-      ],
-      "type": "secondary",
-      "register": "informal",
       "meaning": "A soft, slightly Southern-flavored substitute for damn. Like the word it replaces, it works as a complaint when it is clipped and as admiration when it is drawn out.",
       "examples": [
         "\"Dang, that storm knocked the power out.\"",
@@ -682,23 +528,17 @@
         "He looked at the dent in the door. \"Dang it all.\"",
         "Dang, I meant to record that game."
       ],
-      "related": [
-        "darn",
-        "damn",
-        "doggone"
-      ]
+      "senses": [],
+      "русский": "блин! / ёлки-моталки — мягкая замена damn, с южным оттенком",
+      "register": "informal",
+      "type": "secondary",
+      "variants": "dang it, dang it all",
+      "see also": "darn, damn, doggone"
     },
     {
       "term": "darn",
       "ipa": "/dɑrn/",
       "respell": "DAHRN",
-      "variants": [
-        "darn it",
-        "darn it all",
-        "dern"
-      ],
-      "type": "secondary",
-      "register": "informal",
       "meaning": "The standard polite replacement for damn, usable in front of anyone at all. Darn it is the full frustration form, while darn before a noun is just an intensifier for something that is annoying you.",
       "examples": [
         "\"Darn it, the batteries are dead.\"",
@@ -707,23 +547,17 @@
         "She dropped a stitch and said, \"Darn it all.\"",
         "Darn, I was hoping they'd still have my size."
       ],
-      "related": [
-        "dang",
-        "damn it",
-        "gosh darn it"
-      ]
+      "senses": [],
+      "русский": "блин! / ёлки-палки — приличная замена damn; перед существительным «дурацкий»",
+      "register": "informal",
+      "type": "secondary",
+      "variants": "darn it, darn it all, dern",
+      "see also": "dang, damn it, gosh darn it"
     },
     {
       "term": "doggone",
       "ipa": "/ˌdɔɡˈɔn/, /ˌdɑɡˈɑn/",
       "respell": "dawg-GAWN, dahg-GAHN",
-      "variants": [
-        "doggone it",
-        "doggonit",
-        "doggoned"
-      ],
-      "type": "secondary",
-      "register": "dated",
       "meaning": "A folksy minced oath for goddamn, used both as an exclamation and as a mild intensifier in front of a noun. It reads as small-town and gently old-fashioned.",
       "examples": [
         "\"Doggone it, the mower won't start.\"",
@@ -732,22 +566,17 @@
         "He shook his head slowly. \"Doggone it all anyway.\"",
         "Doggone it, I forgot to mail the check."
       ],
-      "related": [
-        "dagnabbit",
-        "darn",
-        "tarnation"
-      ]
+      "senses": [],
+      "русский": "ёлки зелёные! — устар., простецкая замена goddamn; перед существительным «окаянный»",
+      "register": "dated",
+      "type": "secondary",
+      "variants": "doggone it, doggonit, doggoned",
+      "see also": "dagnabbit, darn, tarnation"
     },
     {
       "term": "drat",
       "ipa": "/dræt/",
       "respell": "DRAT",
-      "variants": [
-        "drat it",
-        "drat it all"
-      ],
-      "type": "primary",
-      "register": "dated",
       "meaning": "A quaint, mild curse of annoyance, historically a squeezed-down \"God rot it.\" It survives mostly in children's books and in playful speech.",
       "examples": [
         "\"Drat, the cookies burned.\"",
@@ -756,24 +585,17 @@
         "She missed the bus by ten seconds. \"Drat.\"",
         "Drat, there goes my whole afternoon."
       ],
-      "related": [
-        "rats",
-        "phooey",
-        "fiddlesticks"
-      ]
+      "senses": [],
+      "русский": "тьфу ты! / вот незадача — устар., книжн., милое ругательство из детских книжек",
+      "register": "dated",
+      "type": "primary",
+      "variants": "drat it, drat it all",
+      "see also": "rats, phooey, fiddlesticks"
     },
     {
       "term": "eff",
       "ipa": "/ɛf/",
       "respell": "EF",
-      "variants": [
-        "eff it",
-        "effing",
-        "what the eff",
-        "eff off"
-      ],
-      "type": "primary",
-      "register": "informal",
       "meaning": "The letter f said out loud in place of fuck — the most transparent minced oath in the language, since it names the first letter of the word it is dodging. It fills every slot the original does: eff it, effing, what the eff, and the hostile eff off.",
       "examples": [
         "\"Eff it, I'm taking the train.\"",
@@ -782,21 +604,17 @@
         "She caught herself in front of her mother-in-law and said eff instead.",
         "\"He told me to eff off,\" she said, still furious about it a week later."
       ],
-      "related": [
-        "freaking",
-        "frick",
-        "fudge"
-      ]
+      "senses": [],
+      "русский": "эф / фиг — замена fuck по его первой букве, ср. русское «на букву…»",
+      "register": "informal",
+      "type": "primary",
+      "variants": "eff it, effing, what the eff, eff off",
+      "see also": "freaking, frick, fudge"
     },
     {
       "term": "fiddlesticks",
       "ipa": "/ˈfɪdəlstɪks/",
       "respell": "FID-uhl-stiks",
-      "variants": [
-        "oh fiddlesticks"
-      ],
-      "type": "secondary",
-      "register": "dated",
       "meaning": "A gentle exclamation of annoyance or dismissal, meaning roughly \"how irritating\" or \"nonsense.\" It is strongly old-fashioned and usually said with a wink.",
       "examples": [
         "\"Fiddlesticks, I've lost my reading glasses again.\"",
@@ -805,24 +623,17 @@
         "She looked at the broken zipper and said fiddlesticks.",
         "Fiddlesticks, the bank closed ten minutes ago."
       ],
-      "related": [
-        "phooey",
-        "drat",
-        "nuts"
-      ]
+      "senses": [],
+      "русский": "вздор! / чепуха — устар., мягкий возглас досады и отмахивания",
+      "register": "dated",
+      "type": "secondary",
+      "variants": "oh fiddlesticks",
+      "see also": "phooey, drat, nuts"
     },
     {
       "term": "freaking",
       "ipa": "/ˈfrikɪŋ/",
       "respell": "FREE-king",
-      "variants": [
-        "freakin'",
-        "frigging",
-        "friggin'",
-        "flipping"
-      ],
-      "type": "secondary",
-      "register": "informal",
       "meaning": "Not a standalone interjection but the intensifier that carries the anger inside other expressions — the minced substitute for fucking. It slots in before adjectives and nouns and inside fixed phrases like are you freaking kidding me.",
       "examples": [
         "\"Are you freaking kidding me?\"",
@@ -831,23 +642,17 @@
         "I have been on hold for two freaking hours.",
         "\"Would you just open the frigging window?\""
       ],
-      "related": [
-        "eff",
-        "frick",
-        "are you kidding me"
-      ]
+      "senses": [],
+      "русский": "чёртов / грёбаный — смягчённая замена fucking; не самостоятельное междометие",
+      "register": "informal",
+      "type": "secondary",
+      "variants": "freakin', frigging, friggin', flipping",
+      "see also": "eff, frick, are you kidding me"
     },
     {
       "term": "frick",
       "ipa": "/frɪk/",
       "respell": "FRIK",
-      "variants": [
-        "frick it",
-        "what the frick",
-        "frickin'"
-      ],
-      "type": "primary",
-      "register": "informal",
       "meaning": "A minced form of fuck, common with teenagers and with anyone trying to keep it clean. What the frick and frick it mirror the phrases it replaces, sound for sound.",
       "examples": [
         "\"Frick, I forgot my homework.\"",
@@ -856,22 +661,17 @@
         "He stubbed his toe on the bed frame and yelled frick.",
         "Are you frickin' serious right now?"
       ],
-      "related": [
-        "freaking",
-        "eff",
-        "fudge"
-      ]
+      "senses": [],
+      "русский": "блин! / фиг — смягчённое fuck, ходовое у подростков",
+      "register": "informal",
+      "type": "primary",
+      "variants": "frick it, what the frick, frickin'",
+      "see also": "freaking, eff, fudge"
     },
     {
       "term": "fudge",
       "ipa": "/fʌdʒ/",
       "respell": "FUHJ",
-      "variants": [
-        "oh fudge",
-        "fudge it"
-      ],
-      "type": "secondary",
-      "register": "informal",
       "meaning": "A candy-flavored substitute for fuck, chosen because it starts the same way. Saying it out loud usually announces that you are consciously not swearing, which is half the point of using it.",
       "examples": [
         "\"Fudge, I spilled coffee on my shirt.\"",
@@ -880,21 +680,17 @@
         "He hit his thumb with the hammer. \"Fudge.\"",
         "Fudge, the meeting started five minutes ago."
       ],
-      "related": [
-        "frick",
-        "shoot",
-        "sugar"
-      ]
+      "senses": [],
+      "русский": "блин! — «конфетная» замена fuck по первому звуку: слышно, что человек сдержался",
+      "register": "informal",
+      "type": "secondary",
+      "variants": "oh fudge, fudge it",
+      "see also": "frick, shoot, sugar"
     },
     {
       "term": "good grief",
       "ipa": "/ɡʊd ˈɡrif/",
       "respell": "gud-GREEF",
-      "variants": [
-        "oh good grief"
-      ],
-      "type": "phrase",
-      "register": "informal",
       "meaning": "An exasperated reaction to something excessive, ridiculous, or exhausting. It is weary rather than hostile and is completely safe in mixed company.",
       "examples": [
         "\"Good grief, how much luggage did you bring?\"",
@@ -903,23 +699,17 @@
         "She saw the line stretching out the door. \"Good grief, forget it.\"",
         "Good grief, just let the man finish a sentence."
       ],
-      "related": [
-        "oh brother",
-        "sheesh",
-        "for crying out loud"
-      ]
+      "senses": [],
+      "русский": "боже мой! / ну надо же — усталая досада от чего-то чрезмерного, вполне прилично",
+      "register": "informal",
+      "type": "phrase",
+      "variants": "oh good grief",
+      "see also": "oh brother, sheesh, for crying out loud"
     },
     {
       "term": "gosh",
       "ipa": "/ɡɑʃ/",
       "respell": "GAHSH",
-      "variants": [
-        "oh gosh",
-        "my gosh",
-        "gosh no"
-      ],
-      "type": "primary",
-      "register": "informal",
       "meaning": "The everyday minced form of God, and the syllable that gosh darn it and for gosh sakes are built on. In this category it carries mild exasperation rather than shock, and it is safe in front of absolutely anyone.",
       "examples": [
         "\"Gosh, would you two give it a rest.\"",
@@ -928,24 +718,17 @@
         "She went through the receipts twice. \"My gosh, where is it all going?\"",
         "Slow down, gosh, nobody is chasing you."
       ],
-      "related": [
-        "gosh darn it",
-        "jeez",
-        "for God's sake"
-      ]
+      "senses": [],
+      "русский": "господи! / батюшки — приличная замена God, безопасна при ком угодно",
+      "register": "informal",
+      "type": "primary",
+      "variants": "oh gosh, my gosh, gosh no",
+      "see also": "gosh darn it, jeez, for God's sake"
     },
     {
       "term": "gosh darn it",
       "ipa": "/ˌɡɑʃ ˈdɑrn ɪt/",
       "respell": "gahsh-DAHRN-it",
-      "variants": [
-        "gosh darn",
-        "goshdarnit",
-        "gosh dang it",
-        "gol dang it"
-      ],
-      "type": "phrase",
-      "register": "informal",
       "meaning": "A doubly minced goddamn it — gosh for God and darn for damn. It is the safest way to sound genuinely fed up in front of anyone.",
       "examples": [
         "\"Gosh darn it, the mower's out of gas.\"",
@@ -954,21 +737,17 @@
         "He fumbled the keys twice. \"Gosh darn it all.\"",
         "Gosh darn it, I left my wallet at the restaurant."
       ],
-      "related": [
-        "darn",
-        "goddamn it",
-        "dagnabbit"
-      ]
+      "senses": [],
+      "русский": "ах ты ж ёлки-палки! — вдвойне смягчённое goddamn it, предельно прилично",
+      "register": "informal",
+      "type": "phrase",
+      "variants": "gosh darn, goshdarnit, gosh dang it, gol dang it",
+      "see also": "darn, goddamn it, dagnabbit"
     },
     {
       "term": "H-E-double-hockey-sticks",
       "ipa": "/ˌeɪtʃ i ˌdʌbəl ˈhɑki stɪks/",
       "respell": "aych-ee-DUB-uhl-HAH-kee-stiks",
-      "variants": [
-        "H-E-double-toothpicks"
-      ],
-      "type": "phrase",
-      "register": "childish",
       "meaning": "A playful, letter-by-letter way of saying hell without saying it, named for the shape of the two l's. Adults use it to be funny in front of children, and children use it to get away with almost swearing.",
       "examples": [
         "\"What the H-E-double-hockey-sticks is going on in here?\"",
@@ -977,22 +756,17 @@
         "\"H-E-double-toothpicks, that hurt.\"",
         "Mom never says the word, so we all grew up saying H-E-double-hockey-sticks."
       ],
-      "related": [
-        "heck",
-        "what the heck",
-        "hell"
-      ]
+      "senses": [],
+      "русский": "детская побуквенная замена hell, ср. «слово на букву „а“»; аналога в русском нет",
+      "register": "childish",
+      "type": "phrase",
+      "variants": "H-E-double-toothpicks",
+      "see also": "heck, what the heck, hell"
     },
     {
       "term": "heck",
       "ipa": "/hɛk/",
       "respell": "HEK",
-      "variants": [
-        "oh heck",
-        "heck no"
-      ],
-      "type": "secondary",
-      "register": "informal",
       "meaning": "The safe replacement for hell, and it fills exactly the same slots: alone for mild annoyance, and inside a question as an intensifier. It is mild enough for the office.",
       "examples": [
         "\"Heck, I've been trying to fix that for a week.\"",
@@ -1001,22 +775,17 @@
         "Why the heck would they schedule it that early?",
         "\"Heck no, I'm not driving in this.\""
       ],
-      "related": [
-        "hell",
-        "what the heck",
-        "darn"
-      ]
+      "senses": [],
+      "русский": "чёрт побери (смягч.) — приличная замена hell; в вопросе усилитель: какого фига",
+      "register": "informal",
+      "type": "secondary",
+      "variants": "oh heck, heck no",
+      "see also": "hell, what the heck, darn"
     },
     {
       "term": "jeepers",
       "ipa": "/ˈdʒipərz/",
       "respell": "JEE-perz",
-      "variants": [
-        "jeepers creepers",
-        "oh jeepers"
-      ],
-      "type": "primary",
-      "register": "dated",
       "meaning": "A wholesome minced form of Jesus, exasperated and a little startled at the same time. It is thoroughly mid-century and reads today as either grandparental or deliberately corny.",
       "examples": [
         "\"Jeepers, you scared the life out of me.\"",
@@ -1025,23 +794,17 @@
         "He looked at the tangle of extension cords under the desk. \"Jeepers.\"",
         "Jeepers, I was only trying to help."
       ],
-      "related": [
-        "jeez",
-        "cripes",
-        "jiminy Christmas"
-      ]
+      "senses": [],
+      "русский": "батюшки светы! — устар., благонравная замена Jesus, звучит по-стариковски",
+      "register": "dated",
+      "type": "primary",
+      "variants": "jeepers creepers, oh jeepers",
+      "see also": "jeez, cripes, jiminy Christmas"
     },
     {
       "term": "jeez",
       "ipa": "/dʒiz/",
       "respell": "JEEZ",
-      "variants": [
-        "geez",
-        "jeeze",
-        "geeze"
-      ],
-      "type": "primary",
-      "register": "informal",
       "meaning": "The everyday minced form of Jesus, used for exasperation or mild shock. It is safe in most casual settings, though a few very religious speakers still hear the original word inside it.",
       "examples": [
         "\"Jeez, give me a second.\"",
@@ -1050,21 +813,17 @@
         "He slammed the trunk shut. \"Jeez, this thing weighs a ton.\"",
         "Jeez, I already said I was sorry."
       ],
-      "related": [
-        "jeez Louise",
-        "sheesh",
-        "Jesus"
-      ]
+      "senses": [],
+      "русский": "господи! / ё-моё — обиходная смягчённая замена Jesus (разг.)",
+      "register": "informal",
+      "type": "primary",
+      "variants": "geez, jeeze, geeze",
+      "see also": "jeez Louise, sheesh, Jesus"
     },
     {
       "term": "jeez Louise",
       "ipa": "/ˌdʒiz luˈiz/",
       "respell": "jeez-loo-EEZ",
-      "variants": [
-        "geez Louise"
-      ],
-      "type": "phrase",
-      "register": "informal",
       "meaning": "A rhyming, comic extension of jeez for when plain jeez is not enough. The rhyme keeps it exasperated but good-natured.",
       "examples": [
         "\"Jeez Louise, how long does it take to order a coffee?\"",
@@ -1073,22 +832,17 @@
         "She looked at the pile of laundry on the bed. \"Jeez Louise.\"",
         "Jeez Louise, I only asked a question."
       ],
-      "related": [
-        "jeez",
-        "sheesh",
-        "good grief"
-      ]
+      "senses": [],
+      "русский": "ё-моё, ёлки-моталки! — шутливое рифмованное усиление jeez",
+      "register": "informal",
+      "type": "phrase",
+      "variants": "geez Louise",
+      "see also": "jeez, sheesh, good grief"
     },
     {
       "term": "jiminy Christmas",
       "ipa": "/ˌdʒɪməni ˈkrɪsməs/",
       "respell": "JIM-uh-nee KRIS-muhs",
-      "variants": [
-        "jiminy cricket",
-        "jiminy"
-      ],
-      "type": "phrase",
-      "register": "dated",
       "meaning": "An old minced form of Jesus Christ that quietly keeps the initials. It is thoroughly wholesome and sounds like something a grandparent says.",
       "examples": [
         "\"Jiminy Christmas, look at the size of that bill.\"",
@@ -1097,23 +851,17 @@
         "He counted the receipts twice. \"Jiminy Christmas.\"",
         "Jiminy Christmas, would you please turn that down?"
       ],
-      "related": [
-        "criminy",
-        "jeez",
-        "cheese and crackers"
-      ]
+      "senses": [],
+      "русский": "матушки мои! — устар., старая замена Jesus Christ, сохраняющая его инициалы",
+      "register": "dated",
+      "type": "phrase",
+      "variants": "jiminy cricket, jiminy",
+      "see also": "criminy, jeez, cheese and crackers"
     },
     {
       "term": "Judas Priest",
       "ipa": "/ˌdʒudəs ˈprist/",
       "respell": "JOO-duhs-PREEST",
-      "variants": [
-        "Judas",
-        "Judas H. Priest",
-        "sweet Judas Priest"
-      ],
-      "type": "phrase",
-      "register": "dated",
       "meaning": "A minced Jesus Christ that keeps the J, the rhythm, and the initials, and swaps in the disciple who betrayed him. It is old, faintly rural, and now better known as the name of a heavy metal band than as an oath.",
       "examples": [
         "\"Judas Priest, how long does it take to change one tire?\"",
@@ -1122,21 +870,17 @@
         "He pulled the tarp back off the boat and stared. \"Judas Priest.\"",
         "Turn that down, Judas Priest, I can hear it from the driveway."
       ],
-      "related": [
-        "jiminy Christmas",
-        "cheese and crackers",
-        "Christ"
-      ]
+      "senses": [],
+      "русский": "устар., замена Jesus Christ через имя Иуды — те же инициалы; аналога в русском нет",
+      "register": "dated",
+      "type": "phrase",
+      "variants": "Judas, Judas H. Priest, sweet Judas Priest",
+      "see also": "jiminy Christmas, cheese and crackers, Christ"
     },
     {
       "term": "mother of pearl",
       "ipa": "/ˌmʌðər əv ˈpɜrl/",
       "respell": "muhth-er-uhv-PURL",
-      "variants": [
-        "sweet mother of pearl"
-      ],
-      "type": "phrase",
-      "register": "informal",
       "meaning": "A comic minced oath that swerves away from motherfucker after the first word. It is almost always said for the laugh rather than out of real fury.",
       "examples": [
         "\"Mother of pearl, that water is cold.\"",
@@ -1145,22 +889,17 @@
         "She read the repair quote and said mother of pearl.",
         "I hit my head on that beam every single time. Mother of pearl."
       ],
-      "related": [
-        "son of a biscuit",
-        "cheese and crackers",
-        "sugar"
-      ]
+      "senses": [],
+      "русский": "мать честная! — комичный уход в сторону от motherfucker после первого слова",
+      "register": "informal",
+      "type": "phrase",
+      "variants": "sweet mother of pearl",
+      "see also": "son of a biscuit, cheese and crackers, sugar"
     },
     {
       "term": "nuts",
       "ipa": "/nʌts/",
       "respell": "NUHTS",
-      "variants": [
-        "aw nuts",
-        "nuts to that"
-      ],
-      "type": "secondary",
-      "register": "dated",
       "meaning": "A mild mid-century exclamation of disappointment or dismissal. Nuts to that means you refuse to bother with something at all.",
       "examples": [
         "\"Nuts, the machine took my dollar.\"",
@@ -1169,22 +908,17 @@
         "He missed the shot and muttered nuts.",
         "Nuts, I thought the game was tonight."
       ],
-      "related": [
-        "rats",
-        "phooey",
-        "drat"
-      ]
+      "senses": [],
+      "русский": "тьфу ты! / вот досада — устар., лёгкое разочарование; nuts to that — «да ну его»",
+      "register": "dated",
+      "type": "secondary",
+      "variants": "aw nuts, nuts to that",
+      "see also": "rats, phooey, drat"
     },
     {
       "term": "phooey",
       "ipa": "/ˈfui/",
       "respell": "FOO-ee",
-      "variants": [
-        "aw phooey",
-        "oh phooey"
-      ],
-      "type": "primary",
-      "register": "dated",
       "meaning": "A dismissive noise of annoyance or contempt, meaning roughly \"nonsense\" or \"forget it.\" It is soft, old-fashioned, and often used around children.",
       "examples": [
         "\"Phooey, the batteries died again.\"",
@@ -1193,22 +927,17 @@
         "She spat out the cold coffee. \"Phooey.\"",
         "Phooey, I wanted the window seat."
       ],
-      "related": [
-        "nuts",
-        "fiddlesticks",
-        "rats"
-      ]
+      "senses": [],
+      "русский": "тьфу! / фу — устар., пренебрежительный возглас: «ерунда», «да ну»",
+      "register": "dated",
+      "type": "primary",
+      "variants": "aw phooey, oh phooey",
+      "see also": "nuts, fiddlesticks, rats"
     },
     {
       "term": "rats",
       "ipa": "/ræts/",
       "respell": "RATS",
-      "variants": [
-        "oh rats",
-        "aw rats"
-      ],
-      "type": "secondary",
-      "register": "informal",
       "meaning": "A small, harmless groan of disappointment when a plan falls through. It is the sound of mild bad luck, not of real anger, and it is safe in front of anyone.",
       "examples": [
         "\"Rats, the store is out of them.\"",
@@ -1217,23 +946,17 @@
         "He checked the empty mailbox again. \"Rats.\"",
         "Rats, my phone died in the middle of the call."
       ],
-      "related": [
-        "nuts",
-        "drat",
-        "shoot"
-      ]
+      "senses": [],
+      "русский": "эх! / вот досада — безобидное огорчение, когда планы сорвались",
+      "register": "informal",
+      "type": "secondary",
+      "variants": "oh rats, aw rats",
+      "see also": "nuts, drat, shoot"
     },
     {
       "term": "Sam Hill",
       "ipa": "/ˌsæm ˈhɪl/",
       "respell": "sam-HIL",
-      "variants": [
-        "what in Sam Hill",
-        "where in Sam Hill",
-        "who in Sam Hill"
-      ],
-      "type": "phrase",
-      "register": "dated",
       "meaning": "A nineteenth-century minced hell that survives only inside a question frame: what in Sam Hill, where in Sam Hill, and so on. Nobody says plain Sam Hill by itself, and the whole phrase now sounds like a Western.",
       "examples": [
         "\"What in Sam Hill is that supposed to mean?\"",
@@ -1242,23 +965,17 @@
         "He stood looking at the hole in the fence. \"What in Sam Hill happened here?\"",
         "How in Sam Hill are we supposed to fit all that in one load?"
       ],
-      "related": [
-        "tarnation",
-        "what the heck",
-        "H-E-double-hockey-sticks"
-      ]
+      "senses": [],
+      "русский": "устар., замена hell только внутри вопроса: what in Sam Hill — «какого лешего»",
+      "register": "dated",
+      "type": "phrase",
+      "variants": "what in Sam Hill, where in Sam Hill, who in Sam Hill",
+      "see also": "tarnation, what the heck, H-E-double-hockey-sticks"
     },
     {
       "term": "sheesh",
       "ipa": "/ʃiʃ/",
       "respell": "SHEESH",
-      "variants": [
-        "geesh",
-        "jeesh",
-        "yeesh"
-      ],
-      "type": "primary",
-      "register": "informal",
       "meaning": "An exasperated hiss at something excessive, unreasonable, or over the top. It often carries a note of \"calm down\" or \"that is a lot.\"",
       "examples": [
         "\"Sheesh, I was only asking.\"",
@@ -1267,22 +984,17 @@
         "She scrolled through the list of requirements. \"Sheesh.\"",
         "Sheesh, you'd think I asked him for a kidney."
       ],
-      "related": [
-        "jeez",
-        "good grief",
-        "ugh"
-      ]
+      "senses": [],
+      "русский": "ну ты даёшь! / фух — раздражённый выдох: «полегче», «это уже слишком»",
+      "register": "informal",
+      "type": "primary",
+      "variants": "geesh, jeesh, yeesh",
+      "see also": "jeez, good grief, ugh"
     },
     {
       "term": "shoot",
       "ipa": "/ʃut/",
       "respell": "SHOOT",
-      "variants": [
-        "oh shoot",
-        "aw shoot"
-      ],
-      "type": "secondary",
-      "register": "informal",
       "meaning": "The polite stand-in for shit, especially common in the South and Midwest and safe almost anywhere. It marks a small mistake or an inconvenient discovery.",
       "examples": [
         "\"Shoot, I left my phone in the car.\"",
@@ -1291,22 +1003,17 @@
         "She saw that the meter had expired. \"Aw, shoot.\"",
         "Well, shoot. I guess we're doing it the hard way."
       ],
-      "related": [
-        "shit",
-        "sugar",
-        "darn"
-      ]
+      "senses": [],
+      "русский": "блин! / ёлки — приличная замена shit, частая на Юге и Среднем Западе",
+      "register": "informal",
+      "type": "secondary",
+      "variants": "oh shoot, aw shoot",
+      "see also": "shit, sugar, darn"
     },
     {
       "term": "son of a biscuit",
       "ipa": "/ˌsʌn əv ə ˈbɪskɪt/",
       "respell": "suhn-uhv-uh-BIS-kit",
-      "variants": [
-        "son of a biscuit eater",
-        "son of a monkey"
-      ],
-      "type": "phrase",
-      "register": "informal",
       "meaning": "A comic minced form of son of a bitch, usually aimed at a situation rather than a person. The joke is the swerve away from the real phrase at the last possible second.",
       "examples": [
         "\"Son of a biscuit, I locked myself out.\"",
@@ -1315,21 +1022,17 @@
         "He cracked his elbow on the doorframe. \"Son of a biscuit!\"",
         "Son of a biscuit, the game got rained out again."
       ],
-      "related": [
-        "son of a gun",
-        "mother of pearl",
-        "cheese and crackers"
-      ]
+      "senses": [],
+      "русский": "ёшкин кот! — комичный уход в сторону от son of a bitch в последний момент",
+      "register": "informal",
+      "type": "phrase",
+      "variants": "son of a biscuit eater, son of a monkey",
+      "see also": "son of a gun, mother of pearl, cheese and crackers"
     },
     {
       "term": "son of a gun",
       "ipa": "/ˌsʌn əv ə ˈɡʌn/",
       "respell": "suhn-uhv-uh-GUHN",
-      "variants": [
-        "sonofagun"
-      ],
-      "type": "phrase",
-      "register": "dated",
       "meaning": "Two uses. 1. An exclamation of annoyance or grudging surprise at how something turned out. 2. Aimed at a person, a mild insult or a backhanded compliment, as in \"you old son of a gun.\" Both senses now sound like your grandfather.",
       "examples": [
         "\"Son of a gun, the thing actually works.\"",
@@ -1339,22 +1042,17 @@
         "That son of a gun charged me twice for the same part.",
         "Son of a gun, I thought we were finally done with this."
       ],
-      "related": [
-        "son of a biscuit",
-        "doggone",
-        "nuts"
-      ]
+      "senses": [],
+      "русский": "вот те на! — устар., досада или удивление; о человеке — «шельма, хитрец»",
+      "register": "dated",
+      "type": "phrase",
+      "variants": "sonofagun",
+      "see also": "son of a biscuit, doggone, nuts"
     },
     {
       "term": "sugar",
       "ipa": "/ˈʃʊɡər/",
       "respell": "SHUG-er",
-      "variants": [
-        "oh sugar",
-        "sugar honey iced tea"
-      ],
-      "type": "secondary",
-      "register": "regional (Southern)",
       "meaning": "A sweet substitute for shit, chosen for the shared first sound. It is strongly Southern and belongs to speakers who avoid swearing entirely; outside the South it can sound put on. The joke spelling sugar honey iced tea spells out the word it is dodging.",
       "examples": [
         "\"Sugar, I burned the biscuits.\"",
@@ -1363,23 +1061,17 @@
         "He caught himself mid-word and finished with sugar.",
         "Sugar, the sitter just canceled on us."
       ],
-      "related": [
-        "shoot",
-        "fudge",
-        "shit"
-      ]
+      "senses": [],
+      "русский": "ой, блин! — диал. (южные штаты), «сладкая» замена shit по первому звуку",
+      "register": "regional (Southern)",
+      "type": "secondary",
+      "variants": "oh sugar, sugar honey iced tea",
+      "see also": "shoot, fudge, shit"
     },
     {
       "term": "tarnation",
       "ipa": "/tɑrˈneɪʃən/",
       "respell": "tahr-NAY-shuhn",
-      "variants": [
-        "what in tarnation",
-        "who in tarnation",
-        "consarn it"
-      ],
-      "type": "secondary",
-      "register": "dated",
       "meaning": "A frontier-era minced damnation, almost always used inside what in tarnation. Like Sam Hill it survives mainly as costume — cartoons, Westerns, and people doing an impression of a cranky old farmer.",
       "examples": [
         "\"What in tarnation is going on out here?\"",
@@ -1388,22 +1080,17 @@
         "He opened the bill for the new well pump. \"Tarnation.\"",
         "Get down off that roof, tarnation, before you break your neck."
       ],
-      "related": [
-        "Sam Hill",
-        "dagnabbit",
-        "doggone"
-      ]
+      "senses": [],
+      "русский": "какого лешего! — устар., замена damnation, почти только в what in tarnation",
+      "register": "dated",
+      "type": "secondary",
+      "variants": "what in tarnation, who in tarnation, consarn it",
+      "see also": "Sam Hill, dagnabbit, doggone"
     },
     {
       "term": "what the heck",
       "ipa": "/ˌwʌt ðə ˈhɛk/",
       "respell": "wut-thuh-HEK",
-      "variants": [
-        "what the heck?",
-        "what in the heck"
-      ],
-      "type": "phrase",
-      "register": "informal",
       "meaning": "Two uses, exactly parallel to what the hell but clean. 1. A demand for an explanation. 2. With a shrug, a decision to go ahead and do the thing anyway.",
       "examples": [
         "\"What the heck happened to my sandwich?\"",
@@ -1413,22 +1100,17 @@
         "\"Do you want dessert?\" \"What the heck, sure.\"",
         "It's Friday, so what the heck, let's leave early."
       ],
-      "related": [
-        "what the hell",
-        "heck",
-        "H-E-double-hockey-sticks"
-      ]
+      "senses": [],
+      "русский": "какого фига? — приличный what the hell; ровным тоном — «а, была не была»",
+      "register": "informal",
+      "type": "phrase",
+      "variants": "what the heck?, what in the heck",
+      "see also": "what the hell, heck, H-E-double-hockey-sticks"
     },
     {
       "term": "for Christ's sake",
       "ipa": "/fər ˈkraɪsts ˌseɪk/",
       "respell": "fer-KRYSTS-sayk",
-      "variants": [
-        "for Christ sake",
-        "for Christ's sakes"
-      ],
-      "type": "phrase",
-      "register": "vulgar",
       "meaning": "A blasphemous plea for someone to stop being unreasonable. It is the sharpest member of the for ...'s sake family, and to a religious listener it is not exasperation but profanity.",
       "examples": [
         "\"For Christ's sake, just answer the question.\"",
@@ -1437,21 +1119,17 @@
         "He threw up his hands. \"For Christ's sake, I already told you.\"",
         "For Christ's sake, it isn't that complicated."
       ],
-      "related": [
-        "for God's sake",
-        "Christ",
-        "for Pete's sake"
-      ]
+      "senses": [],
+      "русский": "ради Христа! / да господи ж ты — самое резкое в этой группе, богохульно, груб.",
+      "register": "vulgar",
+      "type": "phrase",
+      "variants": "for Christ sake, for Christ's sakes",
+      "see also": "for God's sake, Christ, for Pete's sake"
     },
     {
       "term": "for crying out loud",
       "ipa": "/fər ˌkraɪɪŋ aʊt ˈlaʊd/",
       "respell": "fer-KRY-ing-owt-LOWD",
-      "variants": [
-        "oh for crying out loud"
-      ],
-      "type": "phrase",
-      "register": "informal",
       "meaning": "A wholesome expression of exasperation that stands in for the religious oaths it imitates. It is the safest way to announce to a room that you have had enough.",
       "examples": [
         "\"For crying out loud, shut the door.\"",
@@ -1460,22 +1138,17 @@
         "She dropped the folder twice in a row. \"For crying out loud.\"",
         "For crying out loud, would somebody answer that phone?"
       ],
-      "related": [
-        "for Pete's sake",
-        "good grief",
-        "for heaven's sake"
-      ]
+      "senses": [],
+      "русский": "да сколько же можно! / ну ёлки-палки — вполне приличное «я дошёл до предела»",
+      "register": "informal",
+      "type": "phrase",
+      "variants": "oh for crying out loud",
+      "see also": "for Pete's sake, good grief, for heaven's sake"
     },
     {
       "term": "for God's sake",
       "ipa": "/fər ˈɡɑdz ˌseɪk/",
       "respell": "fer-GAHDZ-sayk",
-      "variants": [
-        "for God's sakes",
-        "for gosh sakes"
-      ],
-      "type": "phrase",
-      "register": "very informal",
       "meaning": "An exasperated appeal, normally urging someone to act or to stop. It is mild for most listeners and moderately offensive to religious ones. For gosh sakes is the minced version and carries none of the offense.",
       "examples": [
         "\"For God's sake, be careful with that.\"",
@@ -1484,22 +1157,17 @@
         "He read the email twice. \"For God's sake, that is not what I asked for.\"",
         "For God's sake, put on a coat."
       ],
-      "related": [
-        "for Christ's sake",
-        "for heaven's sake",
-        "for the love of God"
-      ]
+      "senses": [],
+      "русский": "ради бога! / господи ты боже мой — раздражённый призыв сделать или прекратить",
+      "register": "very informal",
+      "type": "phrase",
+      "variants": "for God's sakes, for gosh sakes",
+      "see also": "for Christ's sake, for heaven's sake, for the love of God"
     },
     {
       "term": "for heaven's sake",
       "ipa": "/fər ˈhɛvənz ˌseɪk/",
       "respell": "fer-HEV-uhnz-sayk",
-      "variants": [
-        "for heaven's sakes",
-        "for the love of heaven"
-      ],
-      "type": "phrase",
-      "register": "informal",
       "meaning": "A gentle, church-safe version of for God's sake, common with older speakers and around children. It scolds without offending anyone.",
       "examples": [
         "\"For heaven's sake, wipe your feet.\"",
@@ -1508,22 +1176,17 @@
         "She looked down the muddy hallway. \"For heaven's sakes.\"",
         "For heaven's sake, call your mother back."
       ],
-      "related": [
-        "for God's sake",
-        "for Pete's sake",
-        "good grief"
-      ]
+      "senses": [],
+      "русский": "ради всего святого! — мягкий, безобидный вариант for God's sake, часто у старших",
+      "register": "informal",
+      "type": "phrase",
+      "variants": "for heaven's sakes, for the love of heaven",
+      "see also": "for God's sake, for Pete's sake, good grief"
     },
     {
       "term": "for Pete's sake",
       "ipa": "/fər ˈpits ˌseɪk/",
       "respell": "fer-PEETS-sayk",
-      "variants": [
-        "for Pete's sakes",
-        "for pity's sake"
-      ],
-      "type": "phrase",
-      "register": "informal",
       "meaning": "A minced oath in which \"Pete\" quietly replaces a holy name. It is exasperated but never rude, which is why parents and teachers reach for it first.",
       "examples": [
         "\"For Pete's sake, hurry up.\"",
@@ -1532,23 +1195,17 @@
         "He waited another ten minutes. \"For Pete's sake, where is she?\"",
         "For Pete's sake, turn the music down."
       ],
-      "related": [
-        "for crying out loud",
-        "for heaven's sake",
-        "for God's sake"
-      ]
+      "senses": [],
+      "русский": "ну ради бога же! / ёлки-палки — смягчённая клятва: «Пит» вместо святого имени",
+      "register": "informal",
+      "type": "phrase",
+      "variants": "for Pete's sakes, for pity's sake",
+      "see also": "for crying out loud, for heaven's sake, for God's sake"
     },
     {
       "term": "for the love of God",
       "ipa": "/fər ðə ˌlʌv əv ˈɡɑd/",
       "respell": "fer-thuh-luhv-uhv-GAHD",
-      "variants": [
-        "for the love of Mike",
-        "for the love of Pete",
-        "for the love of all that's holy"
-      ],
-      "type": "phrase",
-      "register": "very informal",
       "meaning": "A pleading, dramatic version of for God's sake, used when you are begging someone to stop or to act. The Mike and Pete versions are the minced forms and are safe anywhere.",
       "examples": [
         "\"For the love of God, don't tell her I said that.\"",
@@ -1557,23 +1214,17 @@
         "She had been on hold for an hour. \"For the love of God, pick up.\"",
         "For the love of all that's holy, stop clicking that pen."
       ],
-      "related": [
-        "for God's sake",
-        "for crying out loud",
-        "come on"
-      ]
+      "senses": [],
+      "русский": "ради всего святого, умоляю! — мольба прекратить; варианты с Mike и Pete безобидны",
+      "register": "very informal",
+      "type": "phrase",
+      "variants": "for the love of Mike, for the love of Pete, for the love of all that's holy",
+      "see also": "for God's sake, for crying out loud, come on"
     },
     {
       "term": "back off",
       "ipa": "/ˌbæk ˈɔf/",
       "respell": "bak-AWF",
-      "variants": [
-        "back off!",
-        "back the heck off",
-        "back way off"
-      ],
-      "type": "phrase",
-      "register": "informal",
       "meaning": "A warning to stop pushing — physically, or more often with questions, pressure, or criticism. It is more confrontational than cut it out because it treats the other person as a threat rather than as a nuisance.",
       "examples": [
         "\"Back off. I said I would handle it.\"",
@@ -1582,23 +1233,17 @@
         "The two of them squared up until the bartender said, \"Back off, both of you.\"",
         "Back off a little and let the kid figure it out himself."
       ],
-      "related": [
-        "knock it off",
-        "cut it out",
-        "give it a rest"
-      ]
+      "senses": [],
+      "русский": "отстань! / не наседай — предупреждение перестать давить, жёстче cut it out",
+      "register": "informal",
+      "type": "phrase",
+      "variants": "back off!, back the heck off, back way off",
+      "see also": "knock it off, cut it out, give it a rest"
     },
     {
       "term": "come on",
       "ipa": "/kəˈmɑn/",
       "respell": "kuh-MAHN",
-      "variants": [
-        "c'mon",
-        "oh come on",
-        "aw come on"
-      ],
-      "type": "phrase",
-      "register": "informal",
       "meaning": "A protest that something is unfair, unreasonable, or obviously wrong. Stretched out with a falling pitch it means \"you cannot be serious\"; short and clipped it simply means \"hurry up.\"",
       "examples": [
         "\"Come on, that was clearly a foul.\"",
@@ -1607,22 +1252,17 @@
         "He watched a third car cut him off. \"Come on!\"",
         "Come on, nobody actually believes that."
       ],
-      "related": [
-        "give me a break",
-        "oh please",
-        "seriously"
-      ]
+      "senses": [],
+      "русский": "да ладно! / да брось — протест против несправедливого; коротко — «давай быстрее»",
+      "register": "informal",
+      "type": "phrase",
+      "variants": "c'mon, oh come on, aw come on",
+      "see also": "give me a break, oh please, seriously"
     },
     {
       "term": "cut it out",
       "ipa": "/ˌkʌt ɪt ˈaʊt/",
       "respell": "kut-it-OWT",
-      "variants": [
-        "cut that out",
-        "cut it"
-      ],
-      "type": "phrase",
-      "register": "informal",
       "meaning": "A direct order to stop an annoying behavior, most often aimed at children, siblings, or friends. It is firm without being hostile.",
       "examples": [
         "\"Cut it out, both of you.\"",
@@ -1631,23 +1271,17 @@
         "She heard the giggling start up again. \"Cut that out.\"",
         "Cut it out, that stopped being funny an hour ago."
       ],
-      "related": [
-        "knock it off",
-        "quit it",
-        "enough"
-      ]
+      "senses": [],
+      "русский": "прекрати! / хватит — твёрдый, но не злой приказ прекратить надоедливое",
+      "register": "informal",
+      "type": "phrase",
+      "variants": "cut that out, cut it",
+      "see also": "knock it off, quit it, enough"
     },
     {
       "term": "drop it",
       "ipa": "/ˈdrɑp ɪt/",
       "respell": "DRAHP-it",
-      "variants": [
-        "just drop it",
-        "drop the subject",
-        "let it drop"
-      ],
-      "type": "phrase",
-      "register": "informal",
       "meaning": "An order to stop talking about one particular thing. Where cut it out is about behavior, drop it is about a topic, and the sharpness usually means the topic hurts.",
       "examples": [
         "\"Drop it, Dad. I don't want to talk about it.\"",
@@ -1656,23 +1290,17 @@
         "He kept circling back to it until she finally said, \"Drop it. Please.\"",
         "I asked him twice to drop it and he brought it up again at dinner."
       ],
-      "related": [
-        "cut it out",
-        "enough",
-        "knock it off"
-      ]
+      "senses": [],
+      "русский": "хватит об этом! / оставь эту тему — приказ прекратить разговор, а не действие",
+      "register": "informal",
+      "type": "phrase",
+      "variants": "just drop it, drop the subject, let it drop",
+      "see also": "cut it out, enough, knock it off"
     },
     {
       "term": "enough",
       "ipa": "/ɪˈnʌf/",
       "respell": "ih-NUHF",
-      "variants": [
-        "enough already",
-        "that's enough",
-        "enough is enough"
-      ],
-      "type": "secondary",
-      "register": "neutral",
       "meaning": "A flat command to stop, said when patience has run out. It carries real authority and works from a parent, a teacher, or a manager without sounding coarse.",
       "examples": [
         "\"Enough. Go to your rooms.\"",
@@ -1681,22 +1309,17 @@
         "The room kept arguing until she said, \"Enough.\"",
         "Enough, I don't want to hear another word about it."
       ],
-      "related": [
-        "that does it",
-        "knock it off",
-        "cut it out"
-      ]
+      "senses": [],
+      "русский": "хватит! / довольно — властное «всё, прекратили», уместно у родителя или начальника",
+      "register": "neutral",
+      "type": "secondary",
+      "variants": "enough already, that's enough, enough is enough",
+      "see also": "that does it, knock it off, cut it out"
     },
     {
       "term": "give it a rest",
       "ipa": "/ˌɡɪv ɪt ə ˈrɛst/",
       "respell": "giv-it-uh-REST",
-      "variants": [
-        "just give it a rest",
-        "give that a rest"
-      ],
-      "type": "phrase",
-      "register": "very informal",
       "meaning": "A weary demand that somebody stop repeating something — a complaint, a joke, a piece of nagging. It is blunter than drop it and comes with an audible eye-roll.",
       "examples": [
         "\"Give it a rest, you've told that story three times tonight.\"",
@@ -1705,21 +1328,17 @@
         "He hummed the same eight bars for an hour before somebody said, \"Give it a rest.\"",
         "Would you give it a rest for five minutes so I can think?"
       ],
-      "related": [
-        "drop it",
-        "knock it off",
-        "enough"
-      ]
+      "senses": [],
+      "русский": "да уймись уже! / хватит уже об этом — устало, с закатыванием глаз",
+      "register": "very informal",
+      "type": "phrase",
+      "variants": "just give it a rest, give that a rest",
+      "see also": "drop it, knock it off, enough"
     },
     {
       "term": "give me a break",
       "ipa": "/ˌɡɪv mi ə ˈbreɪk/",
       "respell": "giv-mee-uh-BRAYK",
-      "variants": [
-        "gimme a break"
-      ],
-      "type": "phrase",
-      "register": "informal",
       "meaning": "An exasperated objection that something is unfair or that you are simply not buying it. Depending on the situation it means \"stop bothering me\" or \"that excuse is ridiculous.\"",
       "examples": [
         "\"Give me a break, I've been here since six.\"",
@@ -1728,21 +1347,17 @@
         "She read the fine print. \"Give me a break, there's a fee for everything.\"",
         "Give me a break, it's only my first week."
       ],
-      "related": [
-        "come on",
-        "oh please",
-        "are you kidding me"
-      ]
+      "senses": [],
+      "русский": "да ладно тебе! / не смеши — «это несправедливо» или «не поверю»",
+      "register": "informal",
+      "type": "phrase",
+      "variants": "gimme a break",
+      "see also": "come on, oh please, are you kidding me"
     },
     {
       "term": "knock it off",
       "ipa": "/ˌnɑk ɪt ˈɔf/",
       "respell": "nahk-it-AWF",
-      "variants": [
-        "knock that off"
-      ],
-      "type": "phrase",
-      "register": "informal",
       "meaning": "A blunt order to stop, a notch harder than cut it out. It usually arrives after you have already asked politely once.",
       "examples": [
         "\"Knock it off before somebody gets hurt.\"",
@@ -1751,21 +1366,17 @@
         "The coach blew his whistle. \"Knock it off, all of you.\"",
         "Knock it off, I'm on the phone."
       ],
-      "related": [
-        "cut it out",
-        "quit it",
-        "enough"
-      ]
+      "senses": [],
+      "русский": "а ну прекрати! / завязывай — резче cut it out, после первой вежливой просьбы",
+      "register": "informal",
+      "type": "phrase",
+      "variants": "knock that off",
+      "see also": "cut it out, quit it, enough"
     },
     {
       "term": "quit it",
       "ipa": "/ˈkwɪt ɪt/",
       "respell": "KWIT-it",
-      "variants": [
-        "quit that"
-      ],
-      "type": "phrase",
-      "register": "childish",
       "meaning": "A short complaint telling someone to stop poking, teasing, or otherwise pestering you. It is the classic sibling protest and sounds young in an adult's mouth.",
       "examples": [
         "\"Quit it, you're getting sand everywhere.\"",
@@ -1774,22 +1385,17 @@
         "She swatted his hand away. \"Quit that.\"",
         "Quit it, I'm trying to concentrate."
       ],
-      "related": [
-        "cut it out",
-        "knock it off",
-        "shut up"
-      ]
+      "senses": [],
+      "русский": "отстань! / перестань — детское «не трогай», классический протест младшего в семье",
+      "register": "childish",
+      "type": "phrase",
+      "variants": "quit that",
+      "see also": "cut it out, knock it off, shut up"
     },
     {
       "term": "shut up",
       "ipa": "/ˌʃʌt ˈʌp/",
       "respell": "shut-UHP",
-      "variants": [
-        "shut it",
-        "oh shut up"
-      ],
-      "type": "phrase",
-      "register": "very informal (rude)",
       "meaning": "A rude command to stop talking. Said to a stranger, a coworker, or anyone with authority over you it is a genuine insult and can end the relationship; between close friends and siblings it can be a joking dismissal, and with a sharp rise in pitch it turns into \"no way, really?\"",
       "examples": [
         "\"Shut up and let her finish.\"",
@@ -1798,23 +1404,17 @@
         "The two of them argued until their father yelled, \"Shut up, both of you.\"",
         "Shut up, I can't hear the announcement."
       ],
-      "related": [
-        "knock it off",
-        "cut it out",
-        "enough"
-      ]
+      "senses": [],
+      "русский": "заткнись! / замолчи — груб.; между близкими бывает шуткой, с чужими — оскорбление",
+      "register": "very informal (rude)",
+      "type": "phrase",
+      "variants": "shut it, oh shut up",
+      "see also": "knock it off, cut it out, enough"
     },
     {
       "term": "that does it",
       "ipa": "/ˈðæt ˌdʌz ɪt/",
       "respell": "THAT-duhz-it",
-      "variants": [
-        "that's it",
-        "that tears it",
-        "that's the last straw"
-      ],
-      "type": "phrase",
-      "register": "informal",
       "meaning": "The announcement that your patience has just run out and you are about to do something about it. It is almost always followed by what that something is.",
       "examples": [
         "\"That does it, I'm calling the landlord.\"",
@@ -1823,23 +1423,17 @@
         "The alarm went off a fourth time. \"That tears it, I'm unplugging it.\"",
         "That's it, I am never ordering from them again."
       ],
-      "related": [
-        "enough",
-        "to hell with it",
-        "screw it"
-      ]
+      "senses": [],
+      "русский": "ну всё! / это последняя капля — терпение кончилось, сейчас последуют меры",
+      "register": "informal",
+      "type": "phrase",
+      "variants": "that's it, that tears it, that's the last straw",
+      "see also": "enough, to hell with it, screw it"
     },
     {
       "term": "are you kidding me",
       "ipa": "/ɑr ju ˈkɪdɪŋ mi/",
       "respell": "ahr-yoo-KID-ing-mee",
-      "variants": [
-        "are you kidding",
-        "are you serious",
-        "are you freaking kidding me"
-      ],
-      "type": "phrase",
-      "register": "informal",
       "meaning": "An outraged question that expects no answer — you are protesting that something is absurd or unfair. The stress lands hard on kidding.",
       "examples": [
         "\"Are you kidding me? They canceled it again?\"",
@@ -1848,21 +1442,17 @@
         "She stared at the empty pan. \"Are you serious? I left for one minute.\"",
         "Are you kidding me, the deadline moved up a week?"
       ],
-      "related": [
-        "you gotta be kidding me",
-        "seriously",
-        "unbelievable"
-      ]
+      "senses": [],
+      "русский": "ты шутишь?! / да ты издеваешься — возмущённый вопрос без ожидания ответа",
+      "register": "informal",
+      "type": "phrase",
+      "variants": "are you kidding, are you serious, are you freaking kidding me",
+      "see also": "you gotta be kidding me, seriously, unbelievable"
     },
     {
       "term": "honestly",
       "ipa": "/ˈɑnəstli/",
       "respell": "AHN-ist-lee",
-      "variants": [
-        "oh honestly"
-      ],
-      "type": "secondary",
-      "register": "neutral",
       "meaning": "Said alone with a sigh, a small expression of despairing exasperation at someone's behavior — roughly \"I cannot believe you.\" It is mild enough for almost any setting, including the office.",
       "examples": [
         "\"Honestly. You'd lose your head if it weren't attached.\"",
@@ -1871,21 +1461,17 @@
         "She picked the wet towel up off the bed. \"Honestly, every single day.\"",
         "Honestly, I don't know why I bother."
       ],
-      "related": [
-        "really",
-        "oh brother",
-        "good grief"
-      ]
+      "senses": [],
+      "русский": "ну честное слово! / боже мой — усталый вздох досады: «ну как так можно»",
+      "register": "neutral",
+      "type": "secondary",
+      "variants": "oh honestly",
+      "see also": "really, oh brother, good grief"
     },
     {
       "term": "oh brother",
       "ipa": "/oʊ ˈbrʌðər/",
       "respell": "oh-BRUHTH-er",
-      "variants": [
-        "brother"
-      ],
-      "type": "phrase",
-      "register": "informal",
       "meaning": "A weary eye-roll put into words, used when someone is being dramatic, ridiculous, or entirely predictable. It is dismissive but harmless.",
       "examples": [
         "\"Oh brother, here we go again.\"",
@@ -1894,22 +1480,17 @@
         "He watched the fine print scroll past. \"Oh, brother.\"",
         "Oh brother, not another software update."
       ],
-      "related": [
-        "good grief",
-        "honestly",
-        "oh please"
-      ]
+      "senses": [],
+      "русский": "ну вот, опять! / господи — озвученное закатывание глаз, беззлобно",
+      "register": "informal",
+      "type": "phrase",
+      "variants": "brother",
+      "see also": "good grief, honestly, oh please"
     },
     {
       "term": "oh please",
       "ipa": "/oʊ ˈpliz/",
       "respell": "oh-PLEEZ",
-      "variants": [
-        "please",
-        "oh, please"
-      ],
-      "type": "phrase",
-      "register": "informal",
       "meaning": "A scornful rejection of what someone just said: you find it exaggerated, insincere, or ridiculous. The tone is flat and falling, nothing like the pleading please.",
       "examples": [
         "\"Oh please, you were nowhere near the finish line.\"",
@@ -1918,22 +1499,17 @@
         "She rolled her eyes at the commercial. \"Please. Nothing works that fast.\"",
         "Oh please, like anybody's going to notice."
       ],
-      "related": [
-        "come on",
-        "give me a break",
-        "whatever"
-      ]
+      "senses": [],
+      "русский": "да брось! / ой, ну хватит — презрительное «не верю, это смешно»",
+      "register": "informal",
+      "type": "phrase",
+      "variants": "please, oh, please",
+      "see also": "come on, give me a break, whatever"
     },
     {
       "term": "really",
       "ipa": "/ˈrili/, /ˈrɪli/",
       "respell": "REE-lee, RIL-ee",
-      "variants": [
-        "really?",
-        "oh really"
-      ],
-      "type": "secondary",
-      "register": "neutral",
       "meaning": "Said flat, a rebuke: you are pointing out that someone has just done something thoughtless. Said with a rising pitch the same word is ordinary surprise instead, so the tone carries the entire meaning.",
       "examples": [
         "\"Really. You parked across two spaces.\"",
@@ -1942,22 +1518,17 @@
         "He watched his roommate leave the dish in the sink. \"Really, man?\"",
         "Really, after everything I did for him?"
       ],
-      "related": [
-        "seriously",
-        "honestly",
-        "unbelievable"
-      ]
+      "senses": [],
+      "русский": "ну серьёзно? / вот как — ровным тоном упрёк; с повышением — обычное удивление",
+      "register": "neutral",
+      "type": "secondary",
+      "variants": "really?, oh really",
+      "see also": "seriously, honestly, unbelievable"
     },
     {
       "term": "seriously",
       "ipa": "/ˈsɪriəsli/",
       "respell": "SEER-ee-uhs-lee",
-      "variants": [
-        "seriously?",
-        "are you serious"
-      ],
-      "type": "secondary",
-      "register": "informal",
       "meaning": "An exasperated challenge meaning \"you cannot possibly be doing this.\" Flat and falling it is a complaint; rising, it is disbelief.",
       "examples": [
         "\"Seriously? You ate the last one?\"",
@@ -1966,23 +1537,17 @@
         "She found the printer jammed for the third time. \"Seriously?\"",
         "Seriously, who leaves a shopping cart in the middle of the lot?"
       ],
-      "related": [
-        "really",
-        "are you kidding me",
-        "unbelievable"
-      ]
+      "senses": [],
+      "русский": "серьёзно?! / да ты что — раздражённый вызов «ты правда это делаешь?»",
+      "register": "informal",
+      "type": "secondary",
+      "variants": "seriously?, are you serious",
+      "see also": "really, are you kidding me, unbelievable"
     },
     {
       "term": "the nerve",
       "ipa": "/ðə ˈnɜrv/",
       "respell": "thuh-NURV",
-      "variants": [
-        "the nerve of him",
-        "the nerve of some people",
-        "of all the nerve"
-      ],
-      "type": "phrase",
-      "register": "informal",
       "meaning": "An outraged verdict on somebody's gall. It is said about the offender rather than to them, and it usually arrives about ten seconds after they have left the room.",
       "examples": [
         "\"The nerve. He asked me to cover his shift on my day off.\"",
@@ -1991,22 +1556,17 @@
         "She read the email twice, just to be sure she had it right. \"Of all the nerve.\"",
         "Charging eight dollars for a bottle of water — the nerve."
       ],
-      "related": [
-        "unbelievable",
-        "honestly",
-        "oh brother"
-      ]
+      "senses": [],
+      "русский": "какая наглость! / ну и наглец — возмущённый приговор, произносимый за глаза",
+      "register": "informal",
+      "type": "phrase",
+      "variants": "the nerve of him, the nerve of some people, of all the nerve",
+      "see also": "unbelievable, honestly, oh brother"
     },
     {
       "term": "unbelievable",
       "ipa": "/ˌʌnbɪˈlivəbəl/",
       "respell": "un-bih-LEE-vuh-buhl",
-      "variants": [
-        "absolutely unbelievable",
-        "un-be-lievable"
-      ],
-      "type": "secondary",
-      "register": "neutral",
       "meaning": "A one-word verdict on something outrageous. In the right context it can be admiring, but said flatly about a problem it is pure anger.",
       "examples": [
         "\"Unbelievable. They towed my car.\"",
@@ -2015,23 +1575,17 @@
         "She looked at the bill. \"Absolutely unbelievable.\"",
         "Unbelievable, I fixed that yesterday and it's already broken."
       ],
-      "related": [
-        "seriously",
-        "are you kidding me",
-        "you gotta be kidding me"
-      ]
+      "senses": [],
+      "русский": "невероятно! / уму непостижимо — приговор возмутительному; ровным тоном — злость",
+      "register": "neutral",
+      "type": "secondary",
+      "variants": "absolutely unbelievable, un-be-lievable",
+      "see also": "seriously, are you kidding me, you gotta be kidding me"
     },
     {
       "term": "what is wrong with you",
       "ipa": "/ˌwʌt ɪz ˈrɔŋ wɪð ju/",
       "respell": "wut-iz-RAWNG-with-yoo",
-      "variants": [
-        "what's wrong with you",
-        "what is wrong with people",
-        "what the hell is wrong with you"
-      ],
-      "type": "phrase",
-      "register": "informal",
       "meaning": "An angry question about somebody's judgment, not their health: you are saying that what they did was so thoughtless it needs explaining. Aimed at a stranger it is close to a challenge; aimed at a friend it is a scolding.",
       "examples": [
         "\"What is wrong with you? That's a fire exit.\"",
@@ -2040,23 +1594,17 @@
         "She found the crayon mural in the hallway. \"What is wrong with you two?\"",
         "Honestly, what is wrong with you, letting the dog drink out of the pool."
       ],
-      "related": [
-        "are you kidding me",
-        "seriously",
-        "honestly"
-      ]
+      "senses": [],
+      "русский": "ты что, с ума сошёл? / что с тобой не так — упрёк не здоровью, а рассудку",
+      "register": "informal",
+      "type": "phrase",
+      "variants": "what's wrong with you, what is wrong with people, what the hell is wrong with you",
+      "see also": "are you kidding me, seriously, honestly"
     },
     {
       "term": "you gotta be kidding me",
       "ipa": "/ju ˌɡɑtə bi ˈkɪdɪŋ mi/",
       "respell": "yoo-gah-tuh-bee-KID-ing-mee",
-      "variants": [
-        "you've got to be kidding me",
-        "you have got to be kidding me",
-        "you gotta be kidding"
-      ],
-      "type": "phrase",
-      "register": "informal",
       "meaning": "A stronger, more theatrical are you kidding me, aimed at the universe as much as at any person. It marks the moment something goes wrong on top of something that was already wrong.",
       "examples": [
         "\"You gotta be kidding me — a second flat tire?\"",
@@ -2065,23 +1613,17 @@
         "He watched the elevator doors close in his face. \"You gotta be kidding me.\"",
         "You gotta be kidding me, I just paid that off."
       ],
-      "related": [
-        "are you kidding me",
-        "unbelievable",
-        "seriously"
-      ]
+      "senses": [],
+      "русский": "да вы издеваетесь! / этого не может быть — театральнее are you kidding me",
+      "register": "informal",
+      "type": "phrase",
+      "variants": "you've got to be kidding me, you have got to be kidding me, you gotta be kidding",
+      "see also": "are you kidding me, unbelievable, seriously"
     },
     {
       "term": "big whoop",
       "ipa": "/ˌbɪɡ ˈwup/",
       "respell": "big-WOOP",
-      "variants": [
-        "big whoop-de-doo",
-        "big deal",
-        "whoop-de-doo"
-      ],
-      "type": "phrase",
-      "register": "informal",
       "meaning": "A flat, sarcastic refusal to be impressed by whatever somebody has just announced. The whoop is a mock cheer, and delivering it without any energy at all is the entire joke.",
       "examples": [
         "\"Big whoop. I've been doing that job for six years.\"",
@@ -2090,23 +1632,17 @@
         "She read the employee-of-the-month plaque and muttered, \"big whoop.\"",
         "So he apologized. Big deal. He should never have said it in the first place."
       ],
-      "related": [
-        "whatever",
-        "oh joy",
-        "thanks a lot"
-      ]
+      "senses": [],
+      "русский": "подумаешь! / вот уж радость — саркастический отказ впечатляться",
+      "register": "informal",
+      "type": "phrase",
+      "variants": "big whoop-de-doo, big deal, whoop-de-doo",
+      "see also": "whatever, oh joy, thanks a lot"
     },
     {
       "term": "fine",
       "ipa": "/faɪn/",
       "respell": "FYN",
-      "variants": [
-        "fine!",
-        "oh fine",
-        "well fine"
-      ],
-      "type": "secondary",
-      "register": "informal",
       "meaning": "A clipped surrender that means the opposite of fine: you are giving in while making sure everyone knows you are unhappy about it. The short, falling fine is one of the most passive-aggressive words in American English.",
       "examples": [
         "\"Fine. Do it your way.\"",
@@ -2115,22 +1651,17 @@
         "She grabbed her coat off the hook. \"Fine, I'm going.\"",
         "Fine, don't listen to me."
       ],
-      "related": [
-        "whatever",
-        "screw it",
-        "great"
-      ]
+      "senses": [],
+      "русский": "ну и ладно! / ладно, сквозь зубы — сдача с явным недовольством, пассивная агрессия",
+      "register": "informal",
+      "type": "secondary",
+      "variants": "fine!, oh fine, well fine",
+      "see also": "whatever, screw it, great"
     },
     {
       "term": "great",
       "ipa": "/ɡreɪt/",
       "respell": "GRAYT",
-      "variants": [
-        "oh great",
-        "that's great"
-      ],
-      "type": "secondary",
-      "register": "informal",
       "meaning": "Said flat and falling, the sarcastic opposite of its literal meaning: something has just gone wrong. Learners regularly take this one at face value.",
       "examples": [
         "\"Great. The car won't start.\"",
@@ -2139,22 +1670,17 @@
         "He found the milk carton empty in the fridge. \"Great.\"",
         "Great, now I have to do the whole thing over."
       ],
-      "related": [
-        "just great",
-        "terrific",
-        "perfect"
-      ]
+      "senses": [],
+      "русский": "ну прекрасно! / замечательно — сказано ровно, значит саркастическое «вот беда»",
+      "register": "informal",
+      "type": "secondary",
+      "variants": "oh great, that's great",
+      "see also": "just great, terrific, perfect"
     },
     {
       "term": "just great",
       "ipa": "/ˌdʒʌst ˈɡreɪt/",
       "respell": "just-GRAYT",
-      "variants": [
-        "that's just great",
-        "oh just great"
-      ],
-      "type": "phrase",
-      "register": "informal",
       "meaning": "Great with the sarcasm made unmistakable by the just. It is almost never sincere.",
       "examples": [
         "\"Just great. The Wi-Fi is out again.\"",
@@ -2163,23 +1689,17 @@
         "She read the cancellation notice on the door. \"Just great.\"",
         "Just great, the one day I forget my umbrella."
       ],
-      "related": [
-        "great",
-        "perfect",
-        "terrific"
-      ]
+      "senses": [],
+      "русский": "ну просто замечательно! — тот же сарказм, но уже без всяких сомнений",
+      "register": "informal",
+      "type": "phrase",
+      "variants": "that's just great, oh just great",
+      "see also": "great, perfect, terrific"
     },
     {
       "term": "nice",
       "ipa": "/naɪs/",
       "respell": "NYS",
-      "variants": [
-        "real nice",
-        "nice going",
-        "nice one"
-      ],
-      "type": "secondary",
-      "register": "informal",
       "meaning": "With flat intonation, a sarcastic jab at something clumsy or inconsiderate that somebody just did. With rising intonation the same word is a real compliment, so tone is everything.",
       "examples": [
         "\"Nice. You just spilled it on the rug.\"",
@@ -2188,22 +1708,17 @@
         "He watched the driver take up two spots. \"Nice.\"",
         "Nice one, now the whole file is gone."
       ],
-      "related": [
-        "great",
-        "thanks a lot",
-        "terrific"
-      ]
+      "senses": [],
+      "русский": "ну молодец! / красиво — ровным тоном сарказм; с повышением — настоящая похвала",
+      "register": "informal",
+      "type": "secondary",
+      "variants": "real nice, nice going, nice one",
+      "see also": "great, thanks a lot, terrific"
     },
     {
       "term": "oh joy",
       "ipa": "/oʊ ˈdʒɔɪ/",
       "respell": "oh-JOY",
-      "variants": [
-        "oh joy of joys",
-        "what joy"
-      ],
-      "type": "phrase",
-      "register": "informal",
       "meaning": "Sarcastic delight at something you are dreading. It is drier and more theatrical than great, and it usually introduces the bad news instead of reacting to it.",
       "examples": [
         "\"Oh joy. Another all-hands meeting.\"",
@@ -2212,22 +1727,17 @@
         "He opened the envelope and found a jury summons. \"Oh, joy.\"",
         "Three connecting flights, oh joy, and not one of them on the same airline."
       ],
-      "related": [
-        "great",
-        "terrific",
-        "big whoop"
-      ]
+      "senses": [],
+      "русский": "какое счастье! / вот радость-то — сухой сарказм о том, чего вы заранее боитесь",
+      "register": "informal",
+      "type": "phrase",
+      "variants": "oh joy of joys, what joy",
+      "see also": "great, terrific, big whoop"
     },
     {
       "term": "perfect",
       "ipa": "/ˈpɜrfɪkt/",
       "respell": "PUR-fikt",
-      "variants": [
-        "oh perfect",
-        "just perfect"
-      ],
-      "type": "secondary",
-      "register": "informal",
       "meaning": "A sarcastic verdict on a new problem arriving at the worst possible moment. Flat delivery is the only thing marking it as sarcasm.",
       "examples": [
         "\"Perfect. The printer is out of toner.\"",
@@ -2236,23 +1746,17 @@
         "She looked at the coffee stain on her white shirt. \"Just perfect.\"",
         "Perfect, now the neighbors are mowing."
       ],
-      "related": [
-        "great",
-        "just great",
-        "terrific"
-      ]
+      "senses": [],
+      "русский": "ну просто отлично! / прекрасно — сарказм о новой беде в худший момент",
+      "register": "informal",
+      "type": "secondary",
+      "variants": "oh perfect, just perfect",
+      "see also": "great, just great, terrific"
     },
     {
       "term": "swell",
       "ipa": "/swɛl/",
       "respell": "SWEL",
-      "variants": [
-        "oh swell",
-        "just swell",
-        "that's swell"
-      ],
-      "type": "secondary",
-      "register": "dated",
       "meaning": "A mid-century word for excellent that almost nobody uses sincerely anymore, which makes it permanently available for sarcasm. Said flat it works exactly like sarcastic great, with an extra layer of irony from the word itself sounding old.",
       "examples": [
         "\"Swell. The heat is out and it's twelve degrees.\"",
@@ -2261,22 +1765,17 @@
         "He watched the tow truck pull away with his car. \"Swell.\"",
         "So now I'm paying for both of them. Swell."
       ],
-      "related": [
-        "great",
-        "terrific",
-        "perfect"
-      ]
+      "senses": [],
+      "русский": "чудненько! / расчудесно — устар. «отлично», сегодня почти только с иронией",
+      "register": "dated",
+      "type": "secondary",
+      "variants": "oh swell, just swell, that's swell",
+      "see also": "great, terrific, perfect"
     },
     {
       "term": "terrific",
       "ipa": "/təˈrɪfɪk/",
       "respell": "tuh-RIF-ik",
-      "variants": [
-        "oh terrific",
-        "just terrific"
-      ],
-      "type": "secondary",
-      "register": "informal",
       "meaning": "Another positive word turned sour by flat delivery, a little drier and more dated than sarcastic great. It usually greets news you did not want.",
       "examples": [
         "\"Terrific. Now we're both late.\"",
@@ -2285,22 +1784,17 @@
         "He read the notice taped to the door. \"Just terrific.\"",
         "Terrific, the game is blacked out in our area."
       ],
-      "related": [
-        "great",
-        "perfect",
-        "just great"
-      ]
+      "senses": [],
+      "русский": "великолепно! / чудесно — сарказм, суше и старомоднее, чем great",
+      "register": "informal",
+      "type": "secondary",
+      "variants": "oh terrific, just terrific",
+      "see also": "great, perfect, just great"
     },
     {
       "term": "thanks a lot",
       "ipa": "/ˌθæŋks ə ˈlɑt/",
       "respell": "thangks-uh-LAHT",
-      "variants": [
-        "thanks a bunch",
-        "thanks for nothing"
-      ],
-      "type": "phrase",
-      "register": "informal",
       "meaning": "Sarcastic thanks for something that made your life harder. Only the flat, clipped delivery separates it from real gratitude.",
       "examples": [
         "\"Thanks a lot, now I have to redo the whole thing.\"",
@@ -2309,22 +1803,17 @@
         "She wiped the mud off her seat. \"Thanks a bunch.\"",
         "Thanks for nothing, I waited an hour."
       ],
-      "related": [
-        "nice",
-        "great",
-        "whatever"
-      ]
+      "senses": [],
+      "русский": "спасибо большое! / вот спасибо — саркастическая благодарность за подставу",
+      "register": "informal",
+      "type": "phrase",
+      "variants": "thanks a bunch, thanks for nothing",
+      "see also": "nice, great, whatever"
     },
     {
       "term": "whatever",
       "ipa": "/wʌtˈɛvər/",
       "respell": "wut-EV-er",
-      "variants": [
-        "whatevs",
-        "yeah whatever"
-      ],
-      "type": "secondary",
-      "register": "informal",
       "meaning": "A dismissive surrender that ends a conversation without conceding anything. It reads as rude to most listeners and is the classic teenage response to being corrected.",
       "examples": [
         "\"Whatever. I'm done arguing about it.\"",
@@ -2333,23 +1822,17 @@
         "He shrugged at the criticism. \"Whatever, man.\"",
         "Whatever, it's not my problem anymore."
       ],
-      "related": [
-        "fine",
-        "oh please",
-        "screw it"
-      ]
+      "senses": [],
+      "русский": "да как хочешь / плевать — пренебрежительное закрытие спора, звучит грубовато",
+      "register": "informal",
+      "type": "secondary",
+      "variants": "whatevs, yeah whatever",
+      "see also": "fine, oh please, screw it"
     },
     {
       "term": "wonderful",
       "ipa": "/ˈwʌndərfəl/",
       "respell": "WUHN-der-fuhl",
-      "variants": [
-        "oh wonderful",
-        "just wonderful",
-        "that's just wonderful"
-      ],
-      "type": "secondary",
-      "register": "informal",
       "meaning": "Sarcastic praise for a fresh disaster, a little more formal and a little more bitter than great. The extra syllables give the flat delivery more room to work.",
       "examples": [
         "\"Wonderful. The dog found the birthday cake.\"",
@@ -2358,11 +1841,12 @@
         "She found that the leak had reached the carpet. \"Just wonderful.\"",
         "And now the sitter is sick. Wonderful."
       ],
-      "related": [
-        "great",
-        "terrific",
-        "perfect"
-      ]
+      "senses": [],
+      "русский": "чудесно! / великолепно — сарказм о свежей катастрофе, горше и книжнее great",
+      "register": "informal",
+      "type": "secondary",
+      "variants": "oh wonderful, just wonderful, that's just wonderful",
+      "see also": "great, terrific, perfect"
     }
   ]
 }

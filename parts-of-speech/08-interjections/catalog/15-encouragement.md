@@ -11,6 +11,7 @@ What unites this group is direction. Most interjections report on the speaker's 
 ### charge
 
 **Pronunciation:** /tʃɑrdʒ/ &middot; *CHARJ*  
+**Русский:** вперёд! / в атаку! — шутливый боевой клич, поднимающий компанию с места
 **Type:** secondary &middot; **Register:** informal
 
 A cavalry command turned playful rallying cry. Americans use it to launch a group into motion — a game, a chore, a run to the car — with a deliberate whiff of the battlefield about it, and it is the four-note fanfare every stadium organ plays.
@@ -26,6 +27,7 @@ A cavalry command turned playful rallying cry. Americans use it to launch a grou
 ### come on
 
 **Pronunciation:** /ˌkʌm ˈɑn/, also /kəˈmɑn/ &middot; *kum-AHN, also kuh-MAHN*  
+**Русский:** давай! / ну же! — подгоняет и подбадривает; ровным тоном — «да ладно тебе»
 **Type:** phrase &middot; **Register:** informal  
 **Variants:** *c'mon*, *come on now*, *cmon*
 
@@ -43,6 +45,7 @@ The workhorse of American encouragement: it urges someone to hurry, to follow, o
 ### get after it
 
 **Pronunciation:** /ˌɡɛɾ ˈæftɚ ɪt/ &middot; *get-AF-ter-it*  
+**Русский:** за дело! / вперёд, вкалывай — очень разг., из спортзала и со стройки
 **Type:** phrase &middot; **Register:** very informal
 
 A locker-room and job-site push meaning *go do the work, hard, starting now*. Coaches, trainers, and foremen use it constantly; in an office it sounds like you are quoting a coach on purpose.
@@ -58,6 +61,7 @@ A locker-room and job-site push meaning *go do the work, hard, starting now*. Co
 ### giddyup
 
 **Pronunciation:** /ˈɡɪdiˌʌp/ &middot; *GID-ee-up*  
+**Русский:** но! / пошёл! — окрик лошади; о людях шутливое «поехали, шевелись»
 **Type:** primary &middot; **Register:** informal  
 **Variants:** *giddy-up*, *giddyap*, *giddap*
 
@@ -74,6 +78,7 @@ The command that tells a horse to start moving, borrowed for people. Off a horse
 ### go for it
 
 **Pronunciation:** /ˌɡoʊ ˈfɔr ɪt/ &middot; *goh-FOR-it*  
+**Русский:** дерзай! / давай, пробуй — разрешение и поддержка разом
 **Type:** phrase &middot; **Register:** informal
 
 Permission and encouragement in one: *take the chance, I'm behind you*. It answers a hesitation, and on fourth down it is what the whole stadium yells at the coach.
@@ -89,6 +94,7 @@ Permission and encouragement in one: *take the chance, I'm behind you*. It answe
 ### go get 'em
 
 **Pronunciation:** /ˌɡoʊ ˈɡɛɾ əm/ &middot; *goh-GET-em*  
+**Русский:** покажи им! / задай им — напутствие идущему на испытание
 **Type:** phrase &middot; **Register:** informal  
 **Variants:** *get 'em*, *go get 'em, tiger*, *go git 'em*
 
@@ -105,6 +111,7 @@ A send-off for someone walking into a contest, an interview, or a stage. It cast
 ### go on
 
 **Pronunciation:** /ˌɡoʊ ˈɑn/ &middot; *goh-AHN*  
+**Русский:** продолжай; ну давай же — приглашение говорить дальше или решиться
 **Type:** phrase &middot; **Register:** neutral  
 **Variants:** *go on now*, *go ahead*
 
@@ -121,6 +128,7 @@ Two jobs: it invites a speaker to keep talking, and it nudges a hesitating perso
 ### have at it
 
 **Pronunciation:** /ˌhæv ˈæɾ ɪt/ &middot; *hav-AT-it*  
+**Русский:** валяй! / приступай — разг. разрешение начать: «дело твоё»
 **Type:** phrase &middot; **Register:** informal  
 **Variants:** *have at 'em*, *have at thee* (jocular, archaic)
 
@@ -137,6 +145,7 @@ Cheerful permission to go ahead and start — usually with something the speaker
 ### let's do this
 
 **Pronunciation:** /ˌlɛts ˈdu ðɪs/ &middot; *lets-DOO-this*  
+**Русский:** ну, приступим! / поехали — настрой перед конкретным делом, не «пойдём»
 **Type:** phrase &middot; **Register:** informal  
 **Variants:** *let's do it*, *all right, let's do this*
 
@@ -153,6 +162,7 @@ The psych-up said at the threshold: everybody is assembled, the thing is about t
 ### let's get it
 
 **Pronunciation:** /ˌlɛts ˈɡɛɾ ɪt/ &middot; *lets-GET-it*  
+**Русский:** погнали! / вперёд, порвём — очень разг., из спорта и хип-хопа
 **Type:** phrase &middot; **Register:** very informal  
 **Variants:** *let's get it in*, *let's gettit*
 
@@ -169,6 +179,7 @@ A hype phrase out of sports and hip-hop meaning *let's start, and let's dominate
 ### let's go
 
 **Pronunciation:** /ˌlɛts ˈɡoʊ/ &middot; *lets-GOH*  
+**Русский:** пошли!; а также «даёшь!» — торжествующий возглас после удачи
 **Type:** phrase &middot; **Register:** informal  
 **Variants:** *let's gooo*, *let's goooo*, *lezgo*
 
@@ -185,6 +196,7 @@ Literally an invitation to leave, but shouted after a big play or good news it m
 ### onward
 
 **Pronunciation:** /ˈɑnwɚd/ &middot; *AHN-werd*  
+**Русский:** вперёд! / идём дальше — книжн., подводит черту под неудачей
 **Type:** secondary &middot; **Register:** formal  
 **Variants:** *onward and upward*, *onwards*
 
@@ -201,6 +213,7 @@ A literary *keep moving forward*, used to close a speech, an email, or a bad day
 ### sic 'em
 
 **Pronunciation:** /ˈsɪk əm/ &middot; *SIK-em*  
+**Русский:** фас! — очень разг., натравить собаку или человека на противника
 **Type:** phrase &middot; **Register:** very informal  
 **Variants:** *sic him*, *sick 'em* (common misspelling)
 
@@ -219,6 +232,7 @@ The command that sets a dog on a target, used with people as rowdy encouragement
 ### bravo
 
 **Pronunciation:** /ˈbrɑˌvoʊ/, also /brɑˈvoʊ/ &middot; *BRAH-voh, also brah-VOH*  
+**Русский:** браво! — возглас одобрения после выступления
 **Type:** primary &middot; **Register:** neutral  
 **Variants:** *brava* (to a woman), *bravi* (to a group), *bravo!!!*
 
@@ -235,6 +249,7 @@ The shout of approval at the end of a performance. The Italian gender endings su
 ### cheers
 
 **Pronunciation:** /tʃɪrz/ &middot; *CHEERZ*  
+**Русский:** за здоровье! / ваше здоровье — тост; одиночное cheers как «спасибо, пока» — британское
 **Type:** secondary &middot; **Register:** neutral  
 **Variants:** *cheers to —*, *three cheers for —*
 
@@ -251,6 +266,7 @@ Raised-glass approval. As a toast it salutes whoever is named; in *three cheers 
 ### encore
 
 **Pronunciation:** /ˈɑnˌkɔr/, also /ɑnˈkɔr/ &middot; *AHN-kor, also ahn-KOR*  
+**Русский:** бис! — требование исполнить ещё раз
 **Type:** secondary &middot; **Register:** neutral
 
 The shout that demands one more song. Americans chant it as much as they mean it as a request, and off the stage it survives as a joking *do that again*.
@@ -266,6 +282,7 @@ The shout that demands one more song. Americans chant it as much as they mean it
 ### give it up for
 
 **Pronunciation:** /ˌɡɪv ɪɾ ˈʌp fɚ/ &middot; *giv-it-UP-fer*  
+**Русский:** поприветствуем (такого-то)! / аплодисменты — ! — призыв конферансье хлопать
 **Type:** phrase &middot; **Register:** informal  
 **Variants:** *let's hear it for —*, *put your hands together for —*, *round of applause for —*
 
@@ -282,6 +299,7 @@ The emcee's call for applause, always followed by the name of whoever is walking
 ### go
 
 **Pronunciation:** /ɡoʊ/ &middot; *GOH*  
+**Русский:** вперёд, наши! — кричалка с именем команды; go go go — «давай-давай, быстрее!»
 **Type:** secondary &middot; **Register:** informal  
 **Variants:** *go go go*, *go, team*
 
@@ -298,6 +316,7 @@ The bare stadium cheer, almost always followed by the name of the team or person
 ### here we go
 
 **Pronunciation:** /ˌhɪr wi ˈɡoʊ/ &middot; *heer-wee-GOH*  
+**Русский:** ну, начали! / поехали — перед стартом; here we go again — «опять двадцать пять»
 **Type:** phrase &middot; **Register:** informal  
 **Variants:** *here we go now*, *here we go again* (resigned, not a cheer)
 
@@ -314,6 +333,7 @@ Two things at once: the stadium chant that carries a team through a drive — *h
 ### hip hip hooray
 
 **Pronunciation:** /ˌhɪp ˌhɪp həˈreɪ/ &middot; *hip-hip-huh-RAY*  
+**Русский:** гип-гип — ура! — кричалка «запевала и хор», обычно трижды
 **Type:** phrase &middot; **Register:** informal  
 **Variants:** *hip hip hurray*, *hip-hip-hooray*
 
@@ -330,6 +350,7 @@ A call-and-response cheer: one person shouts *hip hip* and everybody else answer
 ### hooah
 
 **Pronunciation:** /ˈhuˌɑ/ &middot; *HOO-ah*  
+**Русский:** так точно! / есть! — боевой возглас армии США (только сухопутные войска)
 **Type:** primary &middot; **Register:** informal  
 **Variants:** *hua*, *huah*
 
@@ -346,6 +367,7 @@ The U.S. Army's all-purpose shout of agreement, readiness, and morale — roughl
 ### hooray
 
 **Pronunciation:** /həˈreɪ/; *hurrah:* /həˈrɑ/ &middot; *huh-RAY, huh-RAH*  
+**Русский:** ура! — общий возглас радости и одобрения
 **Type:** primary &middot; **Register:** neutral  
 **Variants:** *hurray*, *hurrah*, *hoorah*, *hooray!!!*
 
@@ -362,6 +384,7 @@ The standard English shout of joy and approval. *Hooray* and *hurray* are the ev
 ### hooyah
 
 **Pronunciation:** /ˈhuˌjɑ/ &middot; *HOO-yah*  
+**Русский:** ура! / есть! — возглас ВМС и Береговой охраны США, не путать с hooah и oorah
 **Type:** primary &middot; **Register:** informal  
 **Variants:** *hoo-yah*, *hooyah!*
 
@@ -378,6 +401,7 @@ The Navy and Coast Guard answer to the Army's *hooah* — acknowledgment, readin
 ### huzzah
 
 **Pronunciation:** /həˈzɑ/ &middot; *huh-ZAH*  
+**Русский:** ура! — устар., ныне только шутливо или на исторических фестивалях
 **Type:** primary &middot; **Register:** dated  
 **Variants:** *huzza*, *huzzah!!!*
 
@@ -394,6 +418,7 @@ An antique *hooray*, alive today mainly at Renaissance fairs, in historical fict
 ### olé
 
 **Pronunciation:** /oʊˈleɪ/ &middot; *oh-LAY*  
+**Русский:** оле! — исп. возглас одобрения: коррида, фламенко, футбольные трибуны
 **Type:** primary &middot; **Register:** informal  
 **Variants:** *ole*, *olé olé olé*, *oléééé*
 
@@ -410,6 +435,7 @@ A Spanish shout of approval, borrowed whole and never translated. In bullfightin
 ### oorah
 
 **Pronunciation:** /uˈrɑ/ &middot; *oo-RAH*  
+**Русский:** ура! / есть! — боевой возглас морской пехоты США
 **Type:** primary &middot; **Register:** informal  
 **Variants:** *ooh-rah*, *hoorah*
 
@@ -426,6 +452,7 @@ The U.S. Marine Corps shout — agreement, enthusiasm, and identity in two sylla
 ### rah
 
 **Pronunciation:** /rɑ/ &middot; *RAH*  
+**Русский:** ура! — слог старой кричалки болельщиков; rah-rah — «шумно, но пусто»
 **Type:** primary &middot; **Register:** informal  
 **Variants:** *rah rah*, *rah-rah-rah*, *sis boom bah*
 
@@ -442,6 +469,7 @@ The bare syllable of an old cheerleading chant. Doubled as *rah-rah* it usually 
 ### whistle
 
 **Pronunciation:** *Not speech, and no phonemic transcription of it is honest. It is a tone, not a syllable: air forced through pursed lips, or through two fingers hooked back against the tongue, at a pitch high enough to cut through a crowd. The cheering pattern is one long shriek or a run of short rising blasts. In writing it is described (*he whistled*) rather than spelled, though comics use* wheet *and* fweet.
+**Русский:** свист — одобрительный свист в толпе; «волчий свист» вслед человеку — уже приставание
 
 **Type:** onomatopoeic &middot; **Register:** informal
 
@@ -458,6 +486,7 @@ The loudest applause one person can produce without help, and in an American cro
 ### whoop
 
 **Pronunciation:** /wup/, also /wʊp/ &middot; *WOOP*  
+**Русский:** у-ух! / гиканье — громкий бессловесный вопль восторга
 **Type:** onomatopoeic &middot; **Register:** informal  
 **Variants:** *whoop whoop*, *woop woop*, *whoo*
 
@@ -474,6 +503,7 @@ A loud, wordless holler of excitement, spelled out. Doubled as *whoop whoop* it 
 ### woo-hoo
 
 **Pronunciation:** /ˌwuˈhu/ &middot; *woo-HOO*  
+**Русский:** у-ху! / ура — стандартный американский вопль радости; ровным тоном — сарказм
 **Type:** primary &middot; **Register:** informal  
 **Variants:** *woohoo*, *whoo-hoo*, *woo*, *wooooo*
 
@@ -490,6 +520,7 @@ The standard American whoop of delight, said as often as it is shouted. Clipped 
 ### woot
 
 **Pronunciation:** /wut/ &middot; *WOOT*  
+**Русский:** ура! / йес — интернет-сленг нулевых, писался w00t
 **Type:** primary &middot; **Register:** internet/text  
 **Variants:** *w00t*, *woot woot*
 
@@ -506,6 +537,7 @@ A written cheer out of early-2000s gaming chat, spelled with zeros in its heyday
 ### yas
 
 **Pronunciation:** /jæs/, also /jɑs/ &middot; *YASS, also YAHSS*  
+**Русский:** да-а-а! — очень разг., восторженное «да» из ballroom-культуры; в чужих устах звучит как пародия
 **Type:** primary &middot; **Register:** very informal  
 **Variants:** *yaas*, *yaaas*, *yasss*, *yas queen*
 
@@ -522,6 +554,7 @@ An emphatic, drawn-out *yes* used to hype somebody up — approval with a lot of
 ### yay
 
 **Pronunciation:** /jeɪ/ &middot; *YAY*  
+**Русский:** ура! — тихая тёплая радость, часто в речи с детьми
 **Type:** primary &middot; **Register:** informal  
 **Variants:** *yayyy*, *yaaay*, *yay!!!*
 
@@ -538,6 +571,7 @@ The small, warm cheer — happiness at good news rather than triumph over anybod
 ### yeah
 
 **Pronunciation:** /jɛə/ &middot; *YEH*  
+**Русский:** да-а! / е-е! — не согласие, а выкрик восторга толпы
 **Type:** primary &middot; **Register:** informal  
 **Variants:** *yeahhh*, *yeah!!*, *yeah, buddy*
 
@@ -554,6 +588,7 @@ Shouted rather than spoken, *yeah* stops being agreement and becomes a cheer —
 ### yee-haw
 
 **Pronunciation:** /ˈjiˌhɔ/ &middot; *YEE-haw*  
+**Русский:** и-ха! / эге-гей! — ковбойский вопль восторга, вне ранчо шутливо
 **Type:** primary &middot; **Register:** informal  
 **Variants:** *yeehaw*, *yee-hah*, *yahoo*
 
@@ -570,6 +605,7 @@ The cowboy holler of delight. Ranch country still uses it straight; everywhere e
 ### yes
 
 **Pronunciation:** /jɛs/ &middot; *YESS*  
+**Русский:** да! / есть! — возглас торжества, а не ответ на вопрос
 **Type:** primary &middot; **Register:** informal  
 **Variants:** *yesss*, *yessss*, *yes!!!*
 
@@ -588,6 +624,7 @@ Said sharply with a fist pump, *yes* is not an answer to anything — it is the 
 ### attaboy
 
 **Pronunciation:** /ˈæɾəˌbɔɪ/ &middot; *AT-uh-boy*  
+**Русский:** молодец! / вот так! — похвала сверху вниз (тренер, хозяин собаке); attagirl — «молодчина»
 **Type:** primary &middot; **Register:** informal  
 **Variants:** *atta boy*, *attagirl*, *atta girl*, *attaway*, *that-a-boy*
 
@@ -604,6 +641,7 @@ A worn-down *that's the boy* — quick praise delivered in the moment rather tha
 ### boom
 
 **Pronunciation:** /bum/ &middot; *BOOM*  
+**Русский:** бам! / вот так! — очень разг., звук взрыва как точка в собственном успехе
 **Type:** onomatopoeic &middot; **Register:** very informal  
 **Variants:** *boom!*, *boom goes the dynamite*, *boom shakalaka*
 
@@ -620,6 +658,7 @@ The sound of an explosion used to punctuate a success, usually your own. It mark
 ### good job
 
 **Pronunciation:** /ˌɡʊd ˈdʒɑb/ &middot; *guud-JOB*  
+**Русский:** молодец / хорошая работа — простейшая похвала, детям звучит уместнее, чем коллегам
 **Type:** phrase &middot; **Register:** neutral  
 **Variants:** *great job*, *nice job*, *good job!*
 
@@ -636,6 +675,7 @@ The plainest praise in American English, safe in every setting. It is also the d
 ### hats off
 
 **Pronunciation:** /ˌhæts ˈɔf/ &middot; *hats-AWF*  
+**Русский:** снимаю шляпу — публичное признание чужой заслуги
 **Type:** phrase &middot; **Register:** neutral  
 **Variants:** *hats off to —*, *my hat's off to you*
 
@@ -652,6 +692,7 @@ Public credit where credit is due, from the old gesture of removing your hat in 
 ### hear hear
 
 **Pronunciation:** /ˌhɪr ˈhɪr/ &middot; *heer-HEER*  
+**Русский:** верно! / поддерживаю! — книжн., возглас согласия с оратором или тостом
 **Type:** phrase &middot; **Register:** formal  
 **Variants:** *hear, hear*, *here here* (common misspelling)
 
@@ -668,6 +709,7 @@ A shout of agreement with something just said, out of parliamentary practice, wh
 ### kudos
 
 **Pronunciation:** /ˈkuˌdoʊz/, also /ˈkjuˌdoʊz/ &middot; *KOO-dohz, also KYOO-dohz*  
+**Русский:** респект / честь и хвала — похвала, особенно в рабочей переписке
 **Type:** secondary &middot; **Register:** neutral  
 **Variants:** *kudos to —*
 
@@ -684,6 +726,7 @@ Credit and praise, from a Greek word for glory. It is a singular noun that looks
 ### more power to you
 
 **Pronunciation:** /ˌmɔr ˈpaʊɚ tə ju/ &middot; *mor-POW-er-tuh-yoo*  
+**Русский:** молодец, если так / флаг тебе в руки — одобрение чужого выбора; со скепсисом «дело твоё»
 **Type:** phrase &middot; **Register:** informal  
 **Variants:** *more power to her*, *more power to 'em*
 
@@ -700,6 +743,7 @@ Approval of somebody else's choice, especially one you would not make yourself. 
 ### nailed it
 
 **Pronunciation:** /ˈneɪld ɪt/ &middot; *NAILD-it*  
+**Русский:** в точку! / сделал идеально — разг.; в интернете саркастически о полном провале
 **Type:** phrase &middot; **Register:** informal  
 **Variants:** *you nailed it*, *crushed it*, *killed it*
 
@@ -716,6 +760,7 @@ Praise for something that came out exactly right. Online it is also the standard
 ### nice going
 
 **Pronunciation:** /ˌnaɪs ˈɡoʊɪŋ/ &middot; *nice-GOH-ing*  
+**Русский:** молодец — разг., но чаще саркастически: «ну ты и удружил»
 **Type:** phrase &middot; **Register:** informal  
 **Variants:** *real nice going*
 
@@ -732,6 +777,7 @@ Literally praise, but in American speech it is sarcastic more often than not —
 ### nice one
 
 **Pronunciation:** /ˌnaɪs ˈwʌn/ &middot; *nice-WUN*  
+**Русский:** отлично! / хорош! — похвала за одно конкретное действие; легко переходит в сарказм
 **Type:** phrase &middot; **Register:** informal
 
 Quick praise for one specific thing — a shot, a joke, a catch, a save. It compliments the act rather than the person, which makes it lighter and easier to say than *good job*. Like *nice going*, it flips sarcastic when the "one" was a mistake.
@@ -747,6 +793,7 @@ Quick praise for one specific thing — a shot, a joke, a catch, a save. It comp
 ### nice work
 
 **Pronunciation:** /ˌnaɪs ˈwɝk/ &middot; *nice-WERK*  
+**Русский:** отличная работа — нейтральная похвала между взрослыми, рабочий стандарт
 **Type:** phrase &middot; **Register:** neutral
 
 The American workplace default for praise between adults — warmer than a nod, less parental than *good job*, and safe in either direction between a junior and a senior person. It compliments the output rather than the effort.
@@ -762,6 +809,7 @@ The American workplace default for praise between adults — warmer than a nod, 
 ### now you're talking
 
 **Pronunciation:** /ˌnaʊ jɚ ˈtɔkɪŋ/ &middot; *now-yer-TAW-king*  
+**Русский:** вот это другой разговор! — одобрение наконец удачного предложения
 **Type:** phrase &middot; **Register:** informal  
 **Variants:** *now we're talking*, *now you're talkin'*
 
@@ -778,6 +826,7 @@ Approval of a suggestion that has finally gotten good. It rewards a change of di
 ### props
 
 **Pronunciation:** /prɑps/ &middot; *PRAHPS*  
+**Русский:** респект / уважуха — очень разг., публичное признание заслуг
 **Type:** secondary &middot; **Register:** very informal  
 **Variants:** *mad props*, *props to —*
 
@@ -794,6 +843,7 @@ Short for *proper respect*, out of hip-hop and now general American slang. You *
 ### respect
 
 **Pronunciation:** /rɪˈspɛkt/ &middot; *rih-SPEKT*  
+**Русский:** респект / уважаю — очень разг., односложный салют за поступок
 **Type:** secondary &middot; **Register:** very informal  
 **Variants:** *respect to —*, *big respect*, *nothing but respect*
 
@@ -810,6 +860,7 @@ A one-word salute: *what you did was admirable and I acknowledge it*. Said alone
 ### take a bow
 
 **Pronunciation:** /ˌteɪk ə ˈbaʊ/ &middot; *tayk-uh-BOW (rhyming with* now*)*  
+**Русский:** поклонись / прими заслуженное — тому, кто отнекивается от похвалы
 **Type:** phrase &middot; **Register:** informal
 
 An instruction to accept the credit you have earned, borrowed from the stage; the vowel is the one in *now*, not the one in *low*. It is what you say to somebody who is deflecting praise, and to a whole group whose work went well.
@@ -825,6 +876,7 @@ An instruction to accept the credit you have earned, borrowed from the stage; th
 ### that's the spirit
 
 **Pronunciation:** /ˌðæts ðə ˈspɪrɪt/ &middot; *thats-thuh-SPEER-it*  
+**Русский:** вот это настрой! — одобрение готовности, а не результата
 **Type:** phrase &middot; **Register:** neutral
 
 Approval of an attitude rather than a result. You say it when somebody who was reluctant, discouraged, or grumbling suddenly shows a little willingness — which is also why it works as gentle mockery of forced cheer.
@@ -840,6 +892,7 @@ Approval of an attitude rather than a result. You say it when somebody who was r
 ### there you go
 
 **Pronunciation:** /ˌðɛr ju ˈɡoʊ/ &middot; *thair-yoo-GOH*  
+**Русский:** ну вот! / вот так-то — наконец получилось; также «держи» и «вот именно»
 **Type:** phrase &middot; **Register:** informal  
 **Variants:** *there ya go*, *there we go*, *there you go now*
 
@@ -856,6 +909,7 @@ Praise for somebody who has just gotten it right after struggling — the verbal
 ### way to go
 
 **Pronunciation:** /ˌweɪ tə ˈɡoʊ/ &middot; *way-tuh-GOH*  
+**Русский:** молодец! / так держать — бурная похвала; ровным тоном — сарказм
 **Type:** phrase &middot; **Register:** informal  
 **Variants:** *way to be*, *way to hustle*, *way to go!*
 
@@ -872,6 +926,7 @@ Enthusiastic praise for something somebody just did, standard from the sidelines
 ### well done
 
 **Pronunciation:** /ˌwɛl ˈdʌn/ &middot; *wel-DUN*  
+**Русский:** отлично / прекрасная работа — сдержанная похвала, чаще письменная
 **Type:** phrase &middot; **Register:** neutral  
 **Variants:** *very well done*, *well done, you* (British)
 
@@ -890,6 +945,7 @@ Complete, slightly formal praise for a finished piece of work. It is the phrase 
 ### chin up
 
 **Pronunciation:** /ˌtʃɪn ˈʌp/ &middot; *chin-UP*  
+**Русский:** выше нос! — поддержка при небольшой неудаче
 **Type:** phrase &middot; **Register:** informal  
 **Variants:** *keep your chin up*, *chin up, buttercup*
 
@@ -906,6 +962,7 @@ Encouragement to keep your composure through disappointment, from the posture of
 ### hang in there
 
 **Pronunciation:** /ˌhæŋ ɪn ˈðɛr/ &middot; *hang-in-THAIR*  
+**Русский:** держись! / не сдавайся — тому, кто в затяжной трудной полосе
 **Type:** phrase &middot; **Register:** informal  
 **Variants:** *hang in*, *hang tough*
 
@@ -922,6 +979,7 @@ The standard American *don't quit* for somebody in the middle of something hard 
 ### keep going
 
 **Pronunciation:** /ˌkip ˈɡoʊɪŋ/ &middot; *keep-GOH-ing*  
+**Русский:** продолжай / не останавливайся — ещё немного, не бросай
 **Type:** phrase &middot; **Register:** neutral  
 **Variants:** *keep at it*, *keep moving*
 
@@ -938,6 +996,7 @@ Straightforward: do not stop now. It is what you say to a runner with a hill lef
 ### keep it up
 
 **Pronunciation:** /ˌkip ɪɾ ˈʌp/ &middot; *keep-it-UP*  
+**Русский:** так держать! — похвала за устойчивый результат: продолжай в том же духе
 **Type:** phrase &middot; **Register:** neutral  
 **Variants:** *keep up the good work*, *keep it going*
 
@@ -954,6 +1013,7 @@ Praise and instruction at once: what you are doing is working, so do more of it.
 ### you can do it
 
 **Pronunciation:** /ju kən ˈdu ɪt/ &middot; *yoo-kun-DOO-it*  
+**Русский:** ты сможешь / у тебя получится — тому, кто сомневается в своих силах
 **Type:** phrase &middot; **Register:** neutral  
 **Variants:** *you can do this*, *I know you can do it*
 
@@ -970,6 +1030,7 @@ A flat statement of belief used as a push. It is aimed at somebody who doubts th
 ### you got this
 
 **Pronunciation:** /ju ˈɡɑt ðɪs/ &middot; *yoo-GOT-this*  
+**Русский:** ты справишься! / всё получится — разг., короче и легче, чем you can do it
 **Type:** phrase &middot; **Register:** informal  
 **Variants:** *you've got this*, *you got this, girl*
 
@@ -988,6 +1049,7 @@ The modern American confidence-booster, said right before somebody does the hard
 ### break a leg
 
 **Pronunciation:** /ˌbreɪk ə ˈlɛɡ/ &middot; *brayk-uh-LEG*  
+**Русский:** ни пуха ни пера! — театральное пожелание удачи вместо запретного «удачи»
 **Type:** phrase &middot; **Register:** informal
 
 The theater's way of wishing good luck without saying the words, since saying them is supposed to jinx the show. It belongs to performers first — actors, musicians, dancers — but it has spread to auditions, interviews, and anything with a nervous person walking into a room.
@@ -1003,6 +1065,7 @@ The theater's way of wishing good luck without saying the words, since saying th
 ### fingers crossed
 
 **Pronunciation:** /ˌfɪŋɡərz ˈkrɔst/ &middot; *fing-gerz-KRAWST*  
+**Русский:** скрестим пальцы / тьфу-тьфу-тьфу — надежда на то, что от нас не зависит
 **Type:** phrase &middot; **Register:** informal  
 **Variants:** *keeping my fingers crossed*, *fingers and toes crossed*
 
@@ -1019,6 +1082,7 @@ Hope rather than confidence, from the superstitious gesture. It is used about ou
 ### give 'em hell
 
 **Pronunciation:** /ˌɡɪv əm ˈhɛl/ &middot; *giv-em-HEL*  
+**Русский:** задай им жару! / всыпь им — напутствие драться и не церемониться
 **Type:** phrase &middot; **Register:** informal  
 **Variants:** *give him hell*, *give 'em heck* (softened)
 
@@ -1035,6 +1099,7 @@ A send-off that tells somebody to fight hard and not be polite about it. It carr
 ### good luck
 
 **Pronunciation:** /ˌɡʊd ˈlʌk/ &middot; *guud-LUK*  
+**Русский:** удачи! — универсальное напутствие; ровным тоном — «ну-ну, удачи тебе»
 **Type:** phrase &middot; **Register:** neutral  
 **Variants:** *best of luck*, *good luck to you*, *lots of luck* (usually sarcastic)
 
@@ -1051,6 +1116,7 @@ The universal send-off before something uncertain, safe in every register from a
 ### knock 'em dead
 
 **Pronunciation:** /ˌnɑk əm ˈdɛd/ &middot; *nahk-em-DED*  
+**Русский:** порви их! / срази наповал — напутствие перед выступлением или собеседованием
 **Type:** phrase &middot; **Register:** informal  
 **Variants:** *knock them dead*, *knock 'em out*, *go knock 'em dead*
 

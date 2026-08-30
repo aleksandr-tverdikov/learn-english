@@ -13,6 +13,7 @@ These are the reflexes — the sounds that come out before the sentence does, pl
 ### argh
 
 **Pronunciation:** /ɑrɡ/ (also /ɑr/, with the *g* swallowed) &middot; *ARG*
+**Русский:** а-а-а! / р-р-р — рычащий возглас боли, досады или отчаяния
 **Type:** primary &middot; **Register:** informal
 **Variants:** *aargh*, *aaargh*, *agh*, *augh*, *arrgh*
 
@@ -30,6 +31,7 @@ A growled cry of pain, frustration, or exasperation, held as long as the feeling
 ### eee
 
 **Pronunciation:** /i/ &middot; *EE*
+**Русский:** и-и-и! — тонкий писк сквозь стиснутые зубы: резкая боль, укол, озноб
 **Type:** primary &middot; **Register:** very informal
 **Variants:** *eeee*, *eeeee*, *ee*
 
@@ -47,6 +49,7 @@ A high, thin squeal pushed out through clenched teeth — a small sharp pain, a 
 ### oof
 
 **Pronunciation:** /ʊf/ (also /uf/) &middot; *OOF* — with the vowel of *book*
+**Русский:** уф! / ух! — звук выбитого дыхания: удар, тяжесть, сочувственное «ой, больно»
 **Type:** onomatopoeic &middot; **Register:** informal
 **Variants:** *ooof*, *whoof*, *oofff*
 
@@ -64,6 +67,7 @@ The sound of air being knocked out of you — used for a blow to the body, for t
 ### ouch
 
 **Pronunciation:** /aʊtʃ/ &middot; *OWCH*
+**Русский:** ой! / ай! — вскрик от резкой боли; также о больно задевших словах или цене
 **Type:** primary &middot; **Register:** neutral
 
 The standard American cry for sudden, sharp pain — a burn, a pinch, a needle, a stubbed toe. It is equally common one step removed, as a comment on a remark or a price that stings, where it means "that's harsh" or "that's expensive."
@@ -80,6 +84,7 @@ The standard American cry for sudden, sharp pain — a burn, a pinch, a needle, 
 ### ow
 
 **Pronunciation:** /aʊ/ &middot; *OW*
+**Русский:** ай! / ой! — самый короткий непроизвольный вскрик в момент боли
 **Type:** primary &middot; **Register:** neutral
 **Variants:** *oww*, *owww*, *ow ow ow*
 
@@ -97,6 +102,7 @@ The shortest and most reflexive cry of pain in American English, usually out of 
 ### owie
 
 **Pronunciation:** /ˈaʊi/ &middot; *OW-ee*
+**Русский:** бо-бо / вава — детск.: ссадина, царапина и вскрик из-за неё
 **Type:** primary &middot; **Register:** childish
 **Variants:** *ouchie*, *owwie*, *ouchy*
 
@@ -114,6 +120,7 @@ A small child's cry for a minor injury — and the word for the injury itself: a
 ### oy
 
 **Pronunciation:** /ɔɪ/ &middot; *OY*
+**Русский:** ой / ой-вэй — разг. (идиш, Нью-Йорк): стон усталости, ломоты и жалобы на жизнь
 **Type:** primary &middot; **Register:** informal (regional — Yiddish-American, strongly associated with New York, but widely understood)
 **Variants:** *oi*, *oy vey*, *oy vey iz mir*, *oy gevalt*
 
@@ -131,6 +138,7 @@ A Yiddish-derived groan of weariness, aches, and general woe, now widespread in 
 ### sss
 
 **Pronunciation:** /sː/ (no settled pronunciation — a sustained hiss with no vowel, sometimes drawn in rather than pushed out) &middot; *SSSS*
+**Русский:** с-с-с / ш-ш-ш — шипение сквозь стиснутые зубы, когда больно или больно смотреть
 **Type:** onomatopoeic &middot; **Register:** informal
 **Variants:** *ss*, *ssss*, *tss*, *hsss*
 
@@ -148,6 +156,7 @@ The sharp hiss of breath through clenched teeth that Americans make when somethi
 ### uff da
 
 **Pronunciation:** /ˈʊf dɑ/ &middot; *OOF-dah*
+**Русский:** ух! / ой-ёй — диал. (Верхний Средний Запад, из норвежского): от натуги и усталости
 **Type:** phrase &middot; **Register:** regional (Upper Midwest)
 **Variants:** *oofta*, *uff-da*, *uf da*, *ufda*
 
@@ -165,6 +174,7 @@ An Upper Midwestern expression borrowed from Norwegian, used for physical strain
 ### yow
 
 **Pronunciation:** /jaʊ/ &middot; *YOW*
+**Русский:** ай-я-яй! / ой-ёй! — громкий испуганный вскрик от внезапной боли, жара или холода
 **Type:** primary &middot; **Register:** informal
 **Variants:** *yeow*, *yeeow*, *yowie*
 
@@ -182,6 +192,7 @@ A yelped cry of sudden pain or shock, louder and more startled than *ow* — the
 ### yowch
 
 **Pronunciation:** /jaʊtʃ/ &middot; *YOWCH*
+**Русский:** ой-ёй-ёй! — театральное «ай», часто от того, кому самому вовсе не больно
 **Type:** primary &middot; **Register:** informal
 **Variants:** *yeowch*, *yeeowch*, *yowtch*
 
@@ -203,6 +214,7 @@ Grunts made while lifting, pushing, or running out of breath — plus the calls 
 ### alley-oop
 
 **Pronunciation:** /ˌæli ˈup/ &middot; *al-ee-OOP*
+**Русский:** оп! / ап! — возглас в момент рывка, броска или подъёма; в баскетболе — алей-уп
 **Type:** phrase &middot; **Register:** informal
 **Variants:** *allez-oop*, *alley oop*, *alle-oop*
 
@@ -220,6 +232,7 @@ A call made at the moment of a lift, a throw, or a jump — from French *allez, 
 ### grunt
 
 **Pronunciation:** /ɡrʌnt/ &middot; *GRUNT*
+**Русский:** кряхтение / *кхе* — название звука вместо самого звука: усилие или ответ без слов
 **Type:** secondary &middot; **Register:** informal (chiefly written)
 **Variants:** *grunt grunt*, *grunnt*
 
@@ -237,6 +250,7 @@ The name of the noise standing in for the noise itself, the same way *huff* and 
 ### heave-ho
 
 **Pronunciation:** /ˌhiv ˈhoʊ/ &middot; *heev-HOH*
+**Русский:** раз-два, взяли! / эй, ухнем! — команда общего рывка при подъёме тяжести
 **Type:** phrase &middot; **Register:** informal
 **Variants:** *yo-heave-ho*, *heave ho*
 
@@ -254,6 +268,7 @@ A sailors' hauling call, now used half-jokingly by anybody pulling or lifting so
 ### hnngh
 
 **Pronunciation:** /hŋ̍/ (no settled pronunciation — not really a word but a strained hum forced out through the nose with the teeth clenched, so there is no vowel to transcribe) &middot; *a teeth-clenched strain grunt*
+**Русский:** нгх / м-м-мгх — натуга сквозь стиснутые зубы; в интернете пишут чаще, чем говорят
 **Type:** primary &middot; **Register:** internet/text
 **Variants:** *hnng*, *nngh*, *hnnng*, *hngh*
 
@@ -271,6 +286,7 @@ The written form of a teeth-clenched strain: pushing, lifting, holding something
 ### huff
 
 **Pronunciation:** /hʌf/ &middot; *HUF*
+**Русский:** пыхтение / фух — шумный выдох от усилия или раздражения, преим. на письме
 **Type:** secondary &middot; **Register:** informal (chiefly written)
 **Variants:** *huff huff*, *huff and puff*
 
@@ -288,6 +304,7 @@ A hard, audible breath out, from exertion or from irritation. As an interjection
 ### hup
 
 **Pronunciation:** /hʌp/ &middot; *HUP*
+**Русский:** ап! / хоп! — короткая команда, задающая момент прыжка, шага или подъёма
 **Type:** primary &middot; **Register:** informal
 **Variants:** *hup-hup*, *hup two*, *hep*
 
@@ -305,6 +322,7 @@ A short bark used to time a jump, a lift, or a step, borrowed from military dril
 ### mmph
 
 **Pronunciation:** /m̩f/ (no vowel — a hum released through the lips) &middot; *MMF, mouth closed*
+**Русский:** мм! / мхм — звук с закрытым ртом: усилие, мычание с полным ртом, довольство
 **Type:** primary &middot; **Register:** informal
 **Variants:** *mmf*, *mph*, *mmmph*
 
@@ -322,6 +340,7 @@ A sound made with the mouth shut: effort, a muffled attempt to speak, or a small
 ### oomph
 
 **Pronunciation:** /ʊmf/ (also /umf/) &middot; *OOMF*
+**Русский:** ух! / эх! — кряхтение в момент рывка; также сущ. «напор, силища»
 **Type:** onomatopoeic &middot; **Register:** informal
 **Variants:** *umph*, *oompf*, *ummph*
 
@@ -339,6 +358,7 @@ The grunt of putting your whole body into something, landing at the exact moment
 ### puff
 
 **Pronunciation:** /pʌf/ &middot; *PUF*
+**Русский:** пых-пых / уф-уф — письменная передача одышки, почти всегда удвоенное
 **Type:** secondary &middot; **Register:** informal (chiefly written)
 **Variants:** *puff puff*, *pant pant*, *huff and puff*
 
@@ -356,6 +376,7 @@ A written stand-in for the short, hard breaths of someone out of breath, almost 
 ### ugh
 
 **Pronunciation:** /ʌɡ/ (also /ʌx/, with a throaty final consonant) &middot; *UG, or a throaty UKH*
+**Русский:** у-ух / ох — стон от усталости и телесного недомогания; также «фу» — отвращение
 **Type:** primary &middot; **Register:** informal
 **Variants:** *ughh*, *uggh*, *ugghhh*
 
@@ -373,6 +394,7 @@ A groan of effort, weariness, or physical misery — the sound of hauling yourse
 ### ungh
 
 **Pronunciation:** /ʌŋ/ &middot; *UNG*
+**Русский:** ых! / кх! — короткий открытый кряхт при подъёме, ударе или вместо ответа
 **Type:** primary &middot; **Register:** informal
 **Variants:** *unh*, *unnh*, *uhn*
 
@@ -390,6 +412,7 @@ A short, open grunt — the involuntary noise of lifting, of taking a hit, or of
 ### upsy-daisy
 
 **Pronunciation:** /ˌʌpsi ˈdeɪzi/ &middot; *up-see-DAY-zee*
+**Русский:** оп-ля! / гоп-ля! — приговорка, когда поднимаешь малыша или помогаешь встать
 **Type:** phrase &middot; **Register:** childish
 **Variants:** *upsa-daisy*, *ups-a-daisy*, *upsy daisy*
 
@@ -407,6 +430,7 @@ The sing-song thing you say while lifting a small child, or while helping anyone
 ### whew
 
 **Pronunciation:** /hwju/ (also /fju/, /hju/) &middot; *HWYOO, or FYOO*
+**Русский:** фух! / уф! — выдох сквозь губы: жара, тяжёлая работа, конец напряжения
 **Type:** primary &middot; **Register:** neutral
 **Variants:** *phew*, *whewww*, *whew-ee*
 
@@ -428,6 +452,7 @@ The pleasant end of the category — warmth, cold, taste, smell, and the long br
 ### ah
 
 **Pronunciation:** /ɑ/ &middot; *AH*
+**Русский:** ах / а-а-а — долгий выдох облегчения, покоя и телесного удовольствия
 **Type:** primary &middot; **Register:** neutral
 **Variants:** *aah*, *ahh*, *ahhh*, *aaah*
 
@@ -445,6 +470,7 @@ A long, released breath of relief, comfort, or physical satisfaction — the fir
 ### brr
 
 **Pronunciation:** [ʙ̩ː] (not ordinary speech sounds — a voiced bilabial trill: the lips flap together on a hum, the way a shiver actually comes out; read off the page instead of performed, it flattens to /br/) &middot; *BRRR — vibrating lips, not an* r *sound*
+**Русский:** бр-р! — звук дрожи от холода; также о том, что пробирает: жуткий рассказ, ледяной тон
 **Type:** primary &middot; **Register:** informal
 **Variants:** *brrr*, *br-r-r*, *brrrr*
 
@@ -462,6 +488,7 @@ The sound of shivering, used to say "it is cold in here" without saying it — o
 ### mmm
 
 **Pronunciation:** /m̩ː/ (a hum — no vowel, lips closed) &middot; *MMM*
+**Русский:** м-м-м — мычание удовольствия с закрытым ртом, обычно о вкусе или запахе
 **Type:** primary &middot; **Register:** informal
 **Variants:** *mm*, *mmmm*, *mm-mm*, *mmmmm*
 
@@ -479,6 +506,7 @@ A closed-mouth hum of physical pleasure, usually about taste or smell and someti
 ### nom nom
 
 **Pronunciation:** /ˌnɑm ˈnɑm/ &middot; *nahm-NAHM*
+**Русский:** ням-ням — звук аппетитного жевания; интернет-разг., не оценка еды, а сама еда
 **Type:** onomatopoeic &middot; **Register:** internet/text (informal)
 **Variants:** *nom*, *om nom nom*, *nom nom nom*, *noms*
 
@@ -496,6 +524,7 @@ The sound of enthusiastic chewing, spelled the way Cookie Monster eats and carri
 ### ooh
 
 **Pronunciation:** /u/ &middot; *OO*
+**Русский:** ох / у-у — сочувственное «ох» чужой боли или тихий звук удовольствия; решает интонация
 **Type:** primary &middot; **Register:** informal
 **Variants:** *oooh*, *ooo*, *ooooh*
 
@@ -513,6 +542,7 @@ A rounded-lip noise with two bodily jobs: a wince of sympathy at somebody else's
 ### pee-yew
 
 **Pronunciation:** /ˌpi ˈju/ &middot; *pee-YOO*
+**Русский:** фу-у! / фи — «ну и вонь», с зажатым носом; детское, прямолинейное
 **Type:** primary &middot; **Register:** informal
 **Variants:** *P.U.*, *pee-yoo*, *peeyew*, *pyoo*
 
@@ -530,6 +560,7 @@ A childhood-flavored exclamation meaning "that stinks," said with the nose wrink
 ### phew
 
 **Pronunciation:** /fju/ (also /pfju/) &middot; *FYOO*
+**Русский:** фух! / уф! — облегчение, что всё обошлось; со сморщенным носом — о дурном запахе
 **Type:** primary &middot; **Register:** neutral
 **Variants:** *whew*, *pheww*, *phew-ee*
 
@@ -547,6 +578,7 @@ A breath let out through pursed lips, used for relief that something is over or 
 ### whoo
 
 **Pronunciation:** /wu/ (also /hu/) &middot; *WOO*
+**Русский:** ух! / у-ух — выдох от жара, острого или после нагрузки; то же слово — и одобрительный крик
 **Type:** primary &middot; **Register:** informal
 **Variants:** *woo*, *whooo*, *whoo-ee*
 
@@ -564,6 +596,7 @@ A blown-out breath used for heat, spice, or the buzz right after hard exertion �
 ### yum
 
 **Pronunciation:** /jʌm/ &middot; *YUM*
+**Русский:** ням! / вкуснотища — оценка вкусной еды или запаха; противоположность yuck «фу»
 **Type:** primary &middot; **Register:** informal
 **Variants:** *yum yum*, *yummy*, *yum-yum*, *yumm*
 
@@ -585,6 +618,7 @@ Sneezes, hiccups, gasps, throat-clearings, and swallows — noises the body make
 ### achoo
 
 **Pronunciation:** /əˈtʃu/ &middot; *uh-CHOO*
+**Русский:** апчхи! — общепринятая запись чиханья; в ответ говорят bless you «будь здоров»
 **Type:** onomatopoeic &middot; **Register:** neutral
 **Variants:** *ah-choo*, *atchoo*, *kerchoo*, *ka-choo*, *hachoo*
 
@@ -602,6 +636,7 @@ The conventional written spelling of a sneeze. Americans also say it out loud �
 ### ahem
 
 **Pronunciation:** /əˈhɛm/ &middot; *uh-HEM*
+**Русский:** кхм / кхе-кхе — нарочитое покашливание: привлечь внимание или мягко упрекнуть
 **Type:** primary &middot; **Register:** neutral
 **Variants:** *ahem-ahem*, *hem*
 
@@ -619,6 +654,7 @@ A deliberate throat-clearing used as a signal rather than a real cough. It asks 
 ### blegh
 
 **Pronunciation:** /blɛx/ (also /blɛk/, /blɛ/) &middot; *BLEKH*
+**Русский:** бэ-э / фу — звук подступающей тошноты: дурной вкус, запах, дурное самочувствие
 **Type:** onomatopoeic &middot; **Register:** informal
 **Variants:** *bleh*, *blech*, *bleah*, *blergh*
 
@@ -636,6 +672,7 @@ The sound of gagging, used for a bad taste or smell and for feeling generally si
 ### burp
 
 **Pronunciation:** /bɝp/ &middot; *BURP*
+**Русский:** отрыжка / «ик» — чаще название звука: комическая замена отрыжки или шутливое извинение
 **Type:** secondary &middot; **Register:** informal
 **Variants:** *urp*, *brrp*
 
@@ -653,6 +690,7 @@ Usually the name of the sound rather than the sound itself, but Americans do say
 ### cough
 
 **Pronunciation:** /kɔf/ (also /kɑf/) &middot; *KAWF*
+**Русский:** кхе-кхе — притворное покашливание, полуприкрывающее сказанное с намёком
 **Type:** secondary &middot; **Register:** informal
 **Variants:** *cough cough*, *coughcough*
 
@@ -670,6 +708,7 @@ Said out loud — or typed between asterisks — as a fake cough that half-hides
 ### gasp
 
 **Pronunciation:** /ɡæsp/ &middot; *GASP*
+**Русский:** ах! / ох! — резкий вдох от потрясения; как междометие почти всегда наигранный
 **Type:** secondary &middot; **Register:** informal (chiefly written)
 **Variants:** *gasp gasp*, *gaaasp*, *gaspp*
 
@@ -687,6 +726,7 @@ A sharp pull of air into the lungs — shock, cold water, or the end of a long r
 ### gulp
 
 **Pronunciation:** /ɡʌlp/ &middot; *GULP*
+**Русский:** глоть / ох — нервный глоток: комиксовый знак «мне вдруг стало страшно»
 **Type:** secondary &middot; **Register:** informal (chiefly written)
 **Variants:** *gulp gulp*
 
@@ -704,6 +744,7 @@ The sound of a hard, nervous swallow, used as an interjection to signal dread �
 ### harrumph
 
 **Pronunciation:** /həˈrʌmf/ &middot; *huh-RUMF*
+**Русский:** кхм-кхм / гм! — напыщенное покашливание-ворчание в знак неодобрения
 **Type:** onomatopoeic &middot; **Register:** informal
 **Variants:** *harumph*, *hrrmph*, *harrumphh*
 
@@ -721,6 +762,7 @@ A pompous throat-clearing grunt of disapproval — the noise of somebody who wan
 ### hic
 
 **Pronunciation:** /hɪk/ &middot; *HIK*
+**Русский:** ик! — письменная передача икоты; также старый штамп для пьяного персонажа
 **Type:** onomatopoeic &middot; **Register:** informal
 **Variants:** *hiccup*, *hicc*, *hic-hic*
 
@@ -738,6 +780,7 @@ The written spelling of a hiccup, used in comics and texting and said out loud a
 ### ptooey
 
 **Pronunciation:** /ˈtui/ (also /pəˈtui/) &middot; *TOO-ee, or puh-TOO-ee*
+**Русский:** тьфу! — звук сплёвывания: дурной вкус, шелуха, попавшая в рот мошка
 **Type:** onomatopoeic &middot; **Register:** informal
 **Variants:** *ptui*, *ptooie*, *phtooey*, *patooie*
 
@@ -755,6 +798,7 @@ The sound of spitting something out, real or theatrical — a bad taste, a bug, 
 ### slurp
 
 **Pronunciation:** /slɝp/ &middot; *SLURP*
+**Русский:** хлюп / чавк — звук громкого прихлёбывания: суп, лапша, коктейль через трубочку
 **Type:** secondary &middot; **Register:** informal
 **Variants:** *slurp slurp*, *sluuurp*, *slorp*
 
@@ -772,6 +816,7 @@ The wet noise of drinking or eating something loose — soup, noodles, the last 
 ### sniff
 
 **Pronunciation:** /snɪf/ &middot; *SNIF*
+**Русский:** шмыг — шмыганье носом: насморк или наигранная грусть; удвоенное — «чем это пахнет?»
 **Type:** secondary &middot; **Register:** informal
 **Variants:** *sniff sniff*, *snf*, *sniffle*
 
@@ -789,6 +834,7 @@ The written sound of a runny nose or of holding back tears; in texting it usuall
 ### snore
 
 **Pronunciation:** /snɔr/ &middot; *SNOR*
+**Русский:** хр-р / «скукотища» — на письме почти всегда «до того скучно, что я уснул»
 **Type:** secondary &middot; **Register:** informal (chiefly written)
 **Variants:** *snore snore*, *snoooore*
 
@@ -806,6 +852,7 @@ Written as an interjection, *snore* almost never reports actual sleeping — it 
 ### wheeze
 
 **Pronunciation:** /wiz/ (also /hwiz/) &middot; *WEEZ*
+**Русский:** хрип / «умираю со смеху» — сиплое дыхание; в сети — знак безудержного смеха
 **Type:** secondary &middot; **Register:** informal (chiefly written)
 **Variants:** *wheez*, *wheeeze*
 
@@ -823,6 +870,7 @@ Two uses: the labored whistle of somebody who cannot get enough air, staged in w
 ### yawn
 
 **Pronunciation:** /jɔn/ (also /jɑn/) &middot; *YAWN*
+**Русский:** зевок / «скука» — на письме почти всегда «как скучно», а не «я сонный»
 **Type:** secondary &middot; **Register:** informal
 **Variants:** *yaaawn*, *yawwn*
 
@@ -840,6 +888,7 @@ Written as an interjection, *yawn* almost always means "this is boring" rather t
 ### zzz
 
 **Pronunciation:** /zː/ (no settled pronunciation — a sustained buzz, or simply said as the letter name, *zees*) &middot; *ZZZ*
+**Русский:** з-з-з / хр-р — комиксовое «сплю», «засыпаю» или «умираю от скуки»
 **Type:** onomatopoeic &middot; **Register:** internet/text
 **Variants:** *zzzz*, *zzzzz*, *z z z*
 

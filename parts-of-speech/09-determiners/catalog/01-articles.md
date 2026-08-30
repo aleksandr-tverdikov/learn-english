@@ -15,6 +15,7 @@ Articles are the most frequent words in English and the hardest for anyone whose
 ### a
 
 **Pronunciation:** weak /ə/ &middot; *uh* &mdash; stressed /eɪ/ &middot; *AY*. The weak form is the real one: in running speech *a* is a single unstressed schwa leaning onto the next word, so *a car* is "uh-CAR." The stressed /eɪ/ survives only in quotation, correction, and dictation (*I said A dog, not THE dog*).
+**Русский:** неопределённый артикль — русского эквивалента нет: один из класса, слушателю не известный
 **Type:** article (indefinite) &middot; **Position:** central determiner &middot; **Register:** neutral
 **Goes with:** **singular countable nouns only.** *a chair*, *a decision*, *a forty-dollar fine*. **Never a plural countable** (*a books*, *a two dogs*) and **never an uncountable** (*a information*, *a advice*, *a furniture*, *a homework*, *a research*, *a equipment*, *a luggage*, *a progress*, *a weather*). To say the same indefinite thing about a plural or an uncountable, use the [zero article](#zero-article-ø) or *some*: *a chair* → *Ø chairs / some chairs*; *a fact* → *Ø information / some information*. The one systematic escape is **re-cutting**: an uncountable noun that is reinterpreted as a portion, a serving, a type, or an instance genuinely becomes countable and then takes *a* — *a coffee* (a cup of it), *a wine* (a variety), *a paper* (an essay), *a light* (a lamp), *a kindness* (an act of it), *an experience* (an event, versus uncountable *experience* = know-how).
 **With *of*:** *a* takes no *of*-phrase of its own. It appears as the head-marker inside partitives (*a slice of the pie*, *a couple of days*, *a lot of noise*) and it is obligatory in the **double genitive**, where both *a* and *of* must be present: *a friend of mine*, *a client of my father's* — *a my friend* and *a friend of me* are both impossible.
@@ -79,6 +80,7 @@ Marks a singular countable noun as one of a class, without claiming the listener
 ### a (per)
 
 **Pronunciation:** weak /ə/ &middot; *uh* &mdash; *an* /ən/ &middot; *uhn* before a vowel sound
+**Русский:** за, в — распределительное «на единицу»: $6 a pound «за фунт», twice a day «дважды в день»
 **Type:** article (indefinite) in distributive use &middot; **Position:** central determiner &middot; **Register:** neutral — the ordinary spoken and written form; *per* is the technical alternative
 **Goes with:** **singular countable unit nouns** of time, weight, distance, volume, or head-count — *a day, a week, a month, an hour, a pound, a gallon, a mile, a person, a head, a serving, a night*. Never a plural (*six dollars a pounds*) and never an uncountable (*six dollars a produce*).
 **With *of*:** takes none. The *of* in *four out of five* belongs to a different construction.
@@ -99,6 +101,7 @@ States a rate: so much of one thing for every one of another.
 ### a certain
 
 **Pronunciation:** /ə ˈsɚtn̩/ &middot; *uh SUR-tn* &mdash; the article is **always** in its weak form here, a single schwa leaning onto the stressed first syllable of *certain*, whose final /n/ is syllabic: *a certain look* is /ə ˌsɚtn̩ ˈlʊk/. The stressed /eɪ/ of [a](#a) does not survive inside the frame, and neither does *an* — *certain* begins with /s/, so the pre-vocalic form has no work to do and *an certain* never occurs.
+**Русский:** некий, один — говорящий знает, о ком или о чём речь, но намеренно не называет
 **Type:** article (indefinite) inside a fixed determiner frame — *a* plus the unstressed determiner *certain* &middot; **Position:** central determiner, with *certain* riding behind it in the postdeterminer slot; the two are chosen and used as one unit &middot; **Register:** neutral and fully standard — an American meets it in conversation, in a news story, in a complaint letter, and in a novel, with no dialect or period flavor at all. Its only coloring is attitude: in speech it is often faintly coy, because it advertises that the speaker could name the thing and will not.
 **Goes with:** **singular countable nouns** (*a certain restaurant*, *a certain look*, *a certain tone of voice*), **personal names and titles** (*a certain Mr. Kowalski*, *a certain Dr. Reyes*), and — the exception worth memorizing — **abstract uncountable nouns** (*a certain charm*, *a certain menace*, *a certain restlessness*). That third case is the one place in the language where *a* stands in front of an uncountable noun **without** re-cutting it as a portion or a type: the article hedges the quality instead of counting it, which is why *a certain charm* is ordinary English where *a charm* means something else entirely. **Never a plural countable** (*a certain people*, *a certain questions*) and **never an ordinary concrete uncountable** (*a certain water*, *a certain furniture*, *a certain information*). For those two the article simply drops out and bare *certain* takes over the central slot: *certain people*, *certain questions*, *certain evidence* — see [certain](09-predeterminers-postdeterminers.md#certain). The frame also refuses any other central determiner in front of it: *the certain restaurant* can only mean the sure one, and *my certain restaurant* is not English.
 **With *of*:** the bare frame takes none — *a certain of the restaurants* is impossible, and the bookish partitive *certain of the members* belongs to bare [certain](09-predeterminers-postdeterminers.md#certain) rather than to this one. But *a certain* heads two frozen quantity phrases in which the *of* is **obligatory**: *a certain amount of* before an uncountable noun (*a certain amount of delay*) and *a certain number of* before a plural (*a certain number of claims*). Drop the *of* and both collapse — *a certain amount delay* is not English. The frozen adverbial *to a certain extent* takes no *of* at all.
@@ -139,11 +142,12 @@ Marks a singular noun as one the speaker could name and deliberately does not �
 ### an
 
 **Pronunciation:** weak /ən/ &middot; *uhn* &mdash; stressed /æn/ &middot; *AN*. The weak form is a schwa plus /n/, identical to reduced *and*, which is why *fish and chips* and *fish an' chips* sound the same. The /n/ links forward onto the noun: *an apple* is "uh-NAPple," *an hour* is "uh-NOWer." Stressed /æn/ is heard only in correction and dictation.
+**Русский:** тот же неопределённый артикль перед гласным звуком — выбор по звуку, а не по букве
 **Type:** article (indefinite) &middot; **Position:** central determiner &middot; **Register:** neutral
 **Goes with:** **singular countable nouns only** — the same restriction as [a](#a), of which *an* is the pre-vocalic form. Never a plural (*an apples*), never an uncountable (*an information*, *an advice*, *an equipment*, *an evidence*). Exactly as with *a*, an uncountable that has been re-cut as a portion or a type can take it: *an oil* (a variety of cooking oil), *an ice* (a serving), *an anger that surprised him* (a specific instance of it).
 **With *of*:** none of its own; identical behavior to [a](#a) inside partitives (*an inch of rain*) and in the double genitive (*an uncle of mine*).
 **Pattern:** *an* [vowel-initial singular countable noun] &middot; *an* [vowel-initial adjective] [noun] &middot; [so / too / as / how] [adjective] *an* [noun] (*too odd an answer*) &middot; [such / what / quite / half] *an* [noun] &middot; [amount] *an* [hour / ounce / inch]
-**Contrast:** Against [a](#a) there is no difference of meaning whatsoever — the two are one word with two shapes, selected by the sound that follows. The traps run in both directions: **vowel letters that take *a*** (*a university, a union, a uniform, a used car, a European, a eulogy, a U-turn, a UFO, a one-time offer, a once-in-a-lifetime chance*) and **consonant letters that take *an*** (*an hour, an honest mistake, an MBA, an FBI agent, an X-ray, an SUV, an RSVP, an 18-wheeler*). Against British-influenced *an historic*: American English pronounces the *h* in *historic, hotel, heroic, humble*, so American English writes *a historic decision*.
+**Contrast:** Against [a](#a) there is no difference of meaning whatsoever — the two are one word with two shapes, selected by the sound that follows. The traps run in both directions: ✗ *vowel letters that take *a*** (*a university, a union, a uniform, a used car, a European, a eulogy, a U-turn, a UFO, a one-time offer, a once-in-a-lifetime chance*) and ✗ *consonant letters that take *an*** (*an hour, an honest mistake, an MBA, an FBI agent, an X-ray, an SUV, an RSVP, an 18-wheeler*). Against British-influenced *an historic*: American English pronounces the *h* in *historic, hotel, heroic, humble*, so American English writes *a historic decision*.
 **Variants:** *a* before a consonant sound. *An* stands before a vowel **sound**, not a vowel letter, and the choice is made by the very next word, adjective included: *an old truck* but *a used truck*, *an ugly sweater* but *a useful sweater*. Silent *h* takes *an* (*an hour*, *an honor*, *an heir*, and in American English *an herb*); *u* pronounced /ju/ takes *a* (*a university*, *a European*); initial *o* pronounced /w/ takes *a* (*a one-way street*).
 
 Marks a singular countable noun as one of a class, before a word beginning with a vowel sound.
@@ -184,6 +188,7 @@ Two American notes. **Herb** has a silent *h* in the United States, so *an herb 
 ### the
 
 **Pronunciation:** /ðə/ &middot; *thuh* before a consonant sound &mdash; /ði/ &middot; *thee* before a vowel sound &mdash; stressed /ðiː/ &middot; *THEE* for emphasis. Same rule as *a/an*, run on sound: *the car*, *the university*, *the one-way street* are all /ðə/; *the apple*, *the hour*, *the FBI*, *the MBA* are all /ði/. See the [pronunciation table](#the-two-pronunciations-of-the).
+**Русский:** определённый артикль — русского эквивалента нет: слушатель уже может понять, о чём речь
 **Type:** article (definite) &middot; **Position:** central determiner &middot; **Register:** neutral
 **Goes with:** **every noun type there is** — singular countable (*the chair*), plural countable (*the chairs*), uncountable (*the water*), and the subset of proper nouns listed in [The with proper nouns](#the-with-proper-nouns). This universality is what makes it dangerous: *the* is never blocked by countability, so a learner who reaches for it whenever the thing feels definite will overuse it. The block on *the* is not grammatical but informational — it is wrong whenever the listener could not say **which one**.
 **With *of*:** *the* takes no *of*-phrase of its own but is the article the *of*-constructions are built around. It is required inside partitives (*most of the students*, *half of the pie*, *none of the money*), inside *of*-genitives (*the works of Melville*, *the top of the page*), and inside *of*-named institutions (*the University of Michigan*, *the Gulf of Mexico*). Predeterminers stack in front of it: *all (of) the students*, *both (of) the windows*, *half (of) the class* — *of* optional before *the*, **required** before a pronoun (*all of them*, never *all them*).
@@ -259,6 +264,7 @@ Marks a noun as one the listener can already pick out.
 ### the (adjective as noun)
 
 **Pronunciation:** /ðə/ &middot; *thuh* before a consonant sound &mdash; /ði/ &middot; *thee* before a vowel sound (*the elderly*, *the unemployed*, *the injured*, *the accused*)
+**Русский:** the + прилагательное — класс людей (the poor «бедные») или абстракция (the unknown «неведомое»)
 **Type:** article (definite), in the substantivized-adjective construction &middot; **Position:** central determiner &middot; **Register:** neutral to formal — the standard form in journalism, policy writing, and statistics
 **Goes with:** **a bare adjective or participle standing where a noun would, with no noun after it** — *the rich, the poor, the young, the elderly, the homeless, the unemployed, the uninsured, the injured, the accused, the deceased, the wounded, the living, the dead* — and **nationality adjectives that have no plural noun form**, which is the ones ending in a sibilant — /s, z, ʃ, tʃ/: *the French, the Dutch, the Spanish, the British, the English, the Welsh, the Irish, the Swiss, the Chinese, the Japanese, the Portuguese*. There are exactly two readings and they take different verbs: **a plural class of people**, with a **plural verb** (*the poor are*, *the French take*), or **a singular abstraction** with an abstract adjective, taking a **singular verb** (*the impossible takes longer*, *the unknown is*). It **cannot take a plural *-s*** (*the unemployeds*, *the Frenches*) and **has no singular member form** — one of them is *a poor person*, *a French person* or *a Frenchman*, never *a poor* or *a French*.
 **With *of*:** takes an *of*-phrase when the class is narrowed or ranked: *the poorest of the poor*, *the youngest of the wounded*. Nothing forces one.
@@ -293,6 +299,7 @@ Turns an adjective into a noun naming the whole class of people who have that qu
 ### the (degree)
 
 **Pronunciation:** /ðə/ &middot; *thuh* &mdash; /ði/ &middot; *thee* before a vowel sound (*the earlier the better*)
+**Русский:** чем… тем — не артикль, а наречие степени при сравнительной: the sooner, the better
 **Type:** adverb of degree — historically **not** the article but the Old English instrumental *þȳ*, "by that much," which is why it can sit in front of a comparative where no noun is possible &middot; **Position:** not a determiner; it modifies a comparative &middot; **Register:** neutral, common in speech and proverbs
 **Goes with:** **comparative adjectives and comparative adverbs only** — *the sooner, the more, the less, the better, the worse, the bigger, the harder*. Never a noun on its own, never a positive-degree adjective (*the soon*, *the good* in this sense are impossible), and never a superlative.
 **With *of*:** takes none.
@@ -322,6 +329,7 @@ Measures a change in one thing against a change in another, or against a cause j
 ### the (stressed)
 
 **Pronunciation:** /ðiː/ &middot; *THEE* — long, fully stressed, and used before consonants and vowels alike (*THEE place*, *THEE only option*)
+**Русский:** тот самый — ударное the: не «какое-то место», а «то самое место»
 **Type:** article (definite), emphatic &middot; **Position:** central determiner &middot; **Register:** spoken and informal written; in print it is shown by italics, small caps, or capitals
 **Goes with:** the same nouns as ordinary [the](#the) — singular countable, plural countable, uncountable — plus, distinctively, **personal names**, where unstressed *the* would be impossible: *Are you THE Sandra Cisneros?*
 **With *of*:** same behavior as ordinary *the*; the stress does not change the syntax.
@@ -408,6 +416,7 @@ A few names carry *the* as part of the name itself and capitalize it: **The** Ha
 ### zero article (Ø)
 
 **Pronunciation:** silent — Ø has no phonetic form of its own. What you hear is the noun starting with no unstressed syllable in front of it: *Ø dogs bark* /dɔɡz ˈbɑrk/ against *the dogs bark* /ðə ˈdɔɡz ˈbɑrk/. Learning to hear the missing schwa is most of learning to hear articles at all.
+**Русский:** нулевой артикль — пустой слот при мн. числе и неисчисляемых: общее, неограниченное
 **Type:** article (zero / null) &middot; **Position:** the central determiner slot, left empty &middot; **Register:** neutral
 **Goes with:** **plural countable nouns and uncountable nouns.** *Ø chairs*, *Ø water*, *Ø information*, *Ø police cars*. **Never a singular countable noun in ordinary prose** — *I need pen*, *Cat is sleeping*, and *She is teacher* are all ungrammatical, and a singular countable must take *a/an*, *the*, or another central determiner. The exceptions are not free: they are the specific frames catalogued in the eleven entries that follow this one (proper nouns, institutions, meals, languages, sports, transport, times, illnesses, fixed phrases, block language, roles).
 **With *of*:** a zero-marked noun takes an *of*-phrase freely (*Ø plenty of time*, *Ø millions of dollars*, *Ø half of what he said*). Predeterminers may stand directly in front of it with no *of* at all — *all Ø children*, *both Ø parents* — and adding *of* then requires a following determiner: *all of the children*, never *all of children*.
@@ -442,6 +451,7 @@ Leaves the determiner slot empty, which marks a plural or uncountable noun as ge
 ### zero article in block language
 
 **Pronunciation:** silent &middot; *(nothing)* — Ø marks the empty slot in the patterns below and is never written or said
+**Русский:** нулевой артикль в телеграфном стиле — заголовки, вывески, рецепты; в обычной прозе нельзя
 **Type:** article (zero) &middot; **Position:** the central determiner slot, left empty &middot; **Register:** **block language** — headlines, signs, labels, captions, notes, listings, recipes, instructions, telegraphic reports. Not available in running prose.
 **Goes with:** **any noun at all, including singular countable nouns** — this is the one systematic place in English where *Ø mayor* and *Ø elevator* are correct. The license comes from the register, not from the noun.
 **With *of*:** unaffected; *of*-phrases survive intact (*Ø Board of Education Cuts Ø Budget*).
@@ -463,6 +473,7 @@ Strips the determiner slot for compression, in registers where space is short an
 ### zero article in fixed phrases and binomials
 
 **Pronunciation:** silent &middot; *(nothing)*
+**Русский:** нулевой артикль в застывших оборотах — hand in hand «рука об руку», by heart «наизусть»
 **Type:** article (zero) in frozen idiom &middot; **Position:** the central determiner slot, left empty &middot; **Register:** neutral
 **Goes with:** **singular nouns locked inside a fixed frame.** Most are **countable** nouns that outside the frame would be forced to take an article (*hand, face, side, word, cover, knife, purpose*); a handful are **uncountable** and are listed here only because the whole phrase is frozen (*war, peace, danger, charge, touch, sale*). Never a plural inside the frame — *hands in hands*, *from covers to covers*, *husbands and wives* (in the idiom sense) all break it. Four frames account for nearly all of them: the repeated-noun binomial (*hand in hand, face to face, side by side, day after day, word for word, back to back, step by step, arm in arm, year after year*), the *from* X *to* X frame (*from door to door, from cover to cover, from start to finish, from coast to coast, from head to toe*), the paired-noun conjunction (*husband and wife, mother and child, knife and fork, cause and effect, night and day*), and the bare prepositional idiom (*at war, at peace, at sea, in debt, in danger, in charge, in touch, in stock, on file, on sale, on purpose, on board, by heart, out of hand, under way*). The list is closed — you may recognize new members but you may not coin them.
 **With *of*:** the frame decides. Some idioms contain *of* already (*out of hand*, *out of stock*, *out of order*); inserting *of* anywhere else breaks them.
@@ -485,6 +496,7 @@ Keeps a singular countable noun bare inside a frozen expression, where the phras
 ### zero article with illnesses and conditions
 
 **Pronunciation:** silent &middot; *(nothing)*
+**Русский:** нулевой артикль при названиях болезней — has diabetes «болен диабетом»; но a cold, the flu
 **Type:** article (zero) &middot; **Position:** the central determiner slot, left empty &middot; **Register:** neutral
 **Goes with:** **uncountable disease names** — *diabetes, pneumonia, cancer, hepatitis, asthma, arthritis, anemia, COVID, tuberculosis, dementia, strep*. Not with the countable minor ailments, which take *a/an* (*a cold, a headache, a fever, a sore throat, a rash, an earache, a stomachache, a concussion, a heart attack, a stroke*), and not with the small *the*-group (*the flu, the measles, the mumps, the chickenpox, the hiccups, the chills*).
 **With *of*:** takes none of its own; *a case of Ø pneumonia* and *a history of Ø diabetes* put the *of* on the measuring noun.
@@ -505,6 +517,7 @@ Leaves a named disease bare, because the name of a disease is a mass term rather
 ### zero article with institutions
 
 **Pronunciation:** silent &middot; *(nothing)*
+**Русский:** нулевой артикль при учреждении как занятии — in school «учится», in jail «сидит»
 **Type:** article (zero) &middot; **Position:** the central determiner slot, left empty &middot; **Register:** neutral
 **Goes with:** a **small closed set of singular countable nouns** naming an institution or a routine, used for its purpose rather than as a building: *school, class, college, church, court, jail, prison, camp, bed, work, home, town, sea, campus*. The set does not extend by analogy — *at Ø library*, *at Ø office*, *at Ø store*, *at Ø gym*, *at Ø airport*, *at Ø bank* are all wrong and take *the*.
 **With *of*:** takes none. Adding an *of*-phrase forces the ordinary article back: *the school of hard knocks*, *the court of appeals*.
@@ -527,6 +540,7 @@ Leaves an institution noun bare when the phrase names an activity or a state rat
 ### zero article with languages and school subjects
 
 **Pronunciation:** silent &middot; *(nothing)*
+**Русский:** нулевой артикль при языках и учебных предметах — «говорит по-испански», «изучает экономику»
 **Type:** article (zero) &middot; **Position:** the central determiner slot, left empty &middot; **Register:** neutral
 **Goes with:** **language names** (*Spanish, Mandarin, Arabic, Navajo, American Sign Language*) and **names of academic subjects and fields** (*calculus, chemistry, economics, art history, computer science, nursing, constitutional law*). Both behave as uncountable proper-ish nouns. Note that the subject nouns ending in *-ics* are singular despite the *s*: *Ø economics is brutal*.
 **With *of*:** takes none of its own, and an *of*-phrase pulls *the* onto the noun: *the history of Rome*, *the economics of the deal*, *the Spanish of northern New Mexico*.
@@ -547,6 +561,7 @@ Leaves a language or a field of study bare, because it names a body of knowledge
 ### zero article with meals
 
 **Pronunciation:** silent &middot; *(nothing)*
+**Русский:** нулевой артикль при названиях приёмов пищи — «завтракать», «за обедом», «после ужина»
 **Type:** article (zero) &middot; **Position:** the central determiner slot, left empty &middot; **Register:** neutral
 **Goes with:** the **meal nouns** *breakfast, brunch, lunch, dinner, supper*, and by extension *coffee, drinks,* and *dessert* when they name the occasion rather than the substance. These are singular countable nouns going bare in this use only.
 **With *of*:** takes none. *A dinner of soup and bread* has re-countable *a* on it, not Ø.
@@ -567,6 +582,7 @@ Leaves a meal name bare when it refers to the daily meal as an institution rathe
 ### zero article with proper nouns
 
 **Pronunciation:** silent &middot; *(nothing)*
+**Русский:** нулевой артикль при именах собственных — имя само называет, артикль ему не нужен
 **Type:** article (zero) &middot; **Position:** the central determiner slot, left empty &middot; **Register:** neutral
 **Goes with:** **singular proper names** — people (*Ø Maria*, *Ø Dr. Ahmed*), cities, states, countries, continents (*Ø Denver*, *Ø Ohio*, *Ø Japan*, *Ø Asia*), lakes and single mountains and single islands (*Ø Lake Erie*, *Ø Mount Hood*, *Ø Maui*), streets, parks, airports and stations (*Ø Fifth Avenue*, *Ø Central Park*, *Ø O'Hare*, *Ø Penn Station*), companies and name-first universities (*Ø Boeing*, *Ø Ohio State*), months, days, and holidays (*Ø August*, *Ø Tuesday*, *Ø Thanksgiving*), and planets except *the earth*. **Not** with the *the*-taking groups — rivers, seas, oceans, gulfs, canals, deserts, mountain ranges, island groups, plural or common-noun countries, newspapers, hotels, ships, and *of*-phrase institutions — listed in full at [The with proper nouns](#the-with-proper-nouns).
 **With *of*:** a proper name takes no *of*-phrase of its own, but when a common noun is named by *of* plus a place, the **common noun** takes *the* and the name stays bare: *the University of Ø Michigan*, *the Gulf of Ø Mexico*, *the mayor of Ø Cleveland*.
@@ -588,6 +604,7 @@ Leaves a name bare, because a name already identifies its referent and needs no 
 ### zero article with roles and titles
 
 **Pronunciation:** silent &middot; *(nothing)*
+**Русский:** нулевой артикль при единственной должности — elected mayor «избран мэром», Judge Ramos
 **Type:** article (zero) &middot; **Position:** the central determiner slot, left empty &middot; **Register:** neutral to formal
 **Goes with:** **singular countable nouns naming a unique office, role, or rank** in three frames: after *as* (*as Ø treasurer*), after the appointment verbs *become, be elected, be appointed, be named, be made, be sworn in as, be crowned* (*elected Ø mayor*), and directly before a personal name as a title (*Ø President Lincoln*, *Ø Judge Ramos*, *Ø Coach Sanders*, *Ø Senator Feinstein*). Not with ordinary predicate nouns naming a class of job, which require *a/an*: *She's a teacher*, *He's an engineer*.
 **With *of*:** the role may carry one and stays bare: *appointed Ø chief of staff*, *served as Ø chair of the committee*.
@@ -608,6 +625,7 @@ Leaves a role name bare when only one person holds it at a time.
 ### zero article with sports and games
 
 **Pronunciation:** silent &middot; *(nothing)*
+**Русский:** нулевой артикль при видах спорта и играх — play soccer «играть в футбол»; но play the piano
 **Type:** article (zero) &middot; **Position:** the central determiner slot, left empty &middot; **Register:** neutral
 **Goes with:** **names of sports and games**, which behave as **uncountable activity nouns**, after *play, watch, coach, teach,* and after prepositions — *soccer, baseball, basketball, football, tennis, golf, chess, poker, tag, hide-and-seek*. Also the bare position nouns of American team sports (*play Ø quarterback*, *play Ø shortstop*, *play Ø defense*).
 **With *of*:** takes none. *A game of Ø chess* puts the article on *game*, not on the sport.
@@ -629,6 +647,7 @@ Leaves the name of a sport or game bare, because it names an activity rather tha
 ### zero article with times, seasons, and holidays
 
 **Pronunciation:** silent &middot; *(nothing)*
+**Русский:** нулевой артикль при времени, сезонах и праздниках — at night «ночью», in spring, on Tuesday
 **Type:** article (zero) &middot; **Position:** the central determiner slot, left empty &middot; **Register:** neutral
 **Goes with:** the **time-of-day nouns** *night, noon, midnight, dawn, dusk, daybreak, sunrise, sunset* after a preposition; **season names** (*spring, summer, fall, winter*); **month and day names**; **holiday names** (*Christmas, Thanksgiving, Passover, Labor Day, Halloween*); and the bare *last* / *next* frames (*last week*, *next month*, *last Tuesday*, *next summer*), where the noun phrase carries no determiner at all. **Do not put *this*, *that*, or *every* on that list:** those are central determiners in their own right, so *this week* and *every spring* **fill** the slot rather than leaving it empty. They are article-free for a different reason and belong to [demonstratives](02-demonstratives.md#this) and [distributives](06-distributives-negatives.md#every).
 **With *of*:** takes none of its own — and an *of*-phrase forces *the*: *the summer of 2019*, *the night of the fire*.
@@ -650,8 +669,9 @@ Leaves a time expression bare when it names a recurring point or period rather t
 ### zero article with transport and communication
 
 **Pronunciation:** silent &middot; *(nothing)*
+**Русский:** нулевой артикль после by — by car «на машине», by mail «почтой», on foot «пешком»
 **Type:** article (zero) &middot; **Position:** the central determiner slot, left empty &middot; **Register:** neutral
-**Goes with:** **singular countable vehicle nouns after *by*** (*by car, by bus, by train, by plane, by boat, by subway, by cab, by bike, by ferry*) and **medium nouns after *by*** (*by mail, by email, by phone, by text, by fax, by hand, by check, by credit card, by wire*). Also the irregular *on Ø foot*, which uses *on* rather than *by*. Never a plural (*by cars*) and never with a modifier — the moment you say *which* car, the frame collapses.
+**Goes with:** ✗ *singular countable vehicle nouns after *by*** (*by car, by bus, by train, by plane, by boat, by subway, by cab, by bike, by ferry*) and ✗ *medium nouns after *by*** (*by mail, by email, by phone, by text, by fax, by hand, by check, by credit card, by wire*). Also the irregular *on Ø foot*, which uses *on* rather than *by*. Never a plural (*by cars*) and never with a modifier — the moment you say *which* car, the frame collapses.
 **With *of*:** takes none.
 **Pattern:** [go / travel / get there / commute / send / pay] *by* Ø [vehicle or medium] &middot; *on* Ø *foot* &middot; *by* Ø [medium] *rather than by* Ø [medium]
 **Contrast:** *By* + Ø names the **manner in the abstract**. The moment you mean one particular vehicle you change preposition and add a determiner: *by Ø car* → *in the car*, *in my car*; *by Ø bus / train / plane* → *on the bus*, *on the 6:40 train*, *on a flight to Newark*. Note also that the everyday American way to say it is *take the bus*, *take the train*, *take a cab* — with an article, not with *by*. *By foot* is heard but *on foot* is the standard form.
@@ -677,6 +697,7 @@ Five forms a learner will meet in print and in speech and must be able to read w
 ### a whole nother
 
 **Pronunciation:** /ə ˌhoʊl ˈnʌðɚ/ &middot; *uh hohl NUTH-er*
+**Русский:** разг. совсем другой — «совсем другая история»; только в устной речи, не на письме
 **Type:** article (indefinite) inside a fixed frame — *a* plus *whole* plus the stranded remainder of *another* &middot; **Position:** central determiner, with *whole* wedged in behind it &middot; **Register:** **informal spoken American English.** Very common in speech and in quoted speech; **not usable in edited prose**, where the form is *a whole other* or *an entirely different*.
 **Goes with:** **singular countable nouns only** — *a whole nother story, a whole nother level, a whole nother ballgame, a whole nother conversation, a whole nother animal, a whole nother thing*. Never a plural (*a whole nother stories*) and never an uncountable (*a whole nother information*). In practice the noun is almost always one of a dozen abstract "category" nouns; the frame does not extend freely.
 **With *of*:** takes none.
@@ -697,6 +718,7 @@ Wedges *whole* inside *another* for emphasis, meaning "an entirely different one
 ### an (before stressed h- in scriptural and pre-1900 texts)
 
 **Pronunciation:** weak /ən/ &middot; *uhn* &mdash; stressed /æn/ &middot; *AN*. The weak form is the only one in play, and it is where the strangeness lives: the *h* after it is fully pronounced, so *an house* comes out /ən ˈhaʊs/ &middot; *uhn HOWSS* and *an hundred* comes out /ən ˈhʌndrəd/ &middot; *uhn HUN-druhd*, the /n/ running into a consonant instead of linking onto a vowel the way it does in *an hour*. Americans reading these texts aloud split three ways: some say it as printed, most quietly substitute *a*, and a few drop the *h* to make the article work (*uhn OWSS*) — a lectern habit, not an American pronunciation.
+**Русский:** устар. an перед произносимым ударным h- — an house, an hundred; читать, но не писать
 **Type:** article (indefinite), archaic distribution &middot; **Position:** central determiner &middot; **Register:** **archaic.** Ordinary in printed English through the seventeenth century, thinning through the eighteenth and nineteenth, and gone from edited American prose by roughly 1900. It survives only inside quoted or reprinted text.
 **Goes with:** **singular countable nouns beginning with a stressed, fully pronounced *h*-** — *an house*, *an hundred*, *an hedge*, *an handful*, *an high priest*, *an holy nation*, *an hard saying*, *an help meet*. Otherwise the restrictions are exactly those of modern [a](#a) and [an](#an): singular countable only, never a plural (*an houses*), never an uncountable (*an hay*). It stands in front of an adjective as readily as a noun — *an hard saying*, *an holy nation* — because the choice was made by the very next word either way, the same mechanism modern English still uses.
 **With *of*:** none of its own; identical to [a](#a) and [an](#an). *An handful of meal* and *an hundredfold* sit inside partitives and quantity phrases exactly as their modern counterparts do.
@@ -722,6 +744,7 @@ Marks a singular countable noun as one of a class, in older English, where the a
 ### an historic
 
 **Pronunciation:** /ən ɪˈstɔrɪk/ &middot; *uhn iss-TOR-ik* — the form only makes sense if the *h* is dropped or very weak, as it was in the accents that produced it
+**Русский:** брит. книжн. an перед безударным h- — an historic; по-американски пишут a historic
 **Type:** article (indefinite), variant form &middot; **Position:** central determiner &middot; **Register:** **British literary and older formal writing.** In American English it reads as affected or hypercorrect, and American style guides call for *a historic*.
 **Goes with:** **singular countable nouns and adjectives beginning with an unstressed *h*- syllable** — *an historic decision, an hotel, an hypothesis, an habitual offender, an heroic effort, an hysterical outburst*. The frame requires that unstressed first syllable, which is why this survival never reaches *an hand* or *an highway*: there the *h* carries full stress and is fully pronounced. Older English did write *an house* and *an hundred*, but from a different cause and in a different century, and that form has an entry of its own at [an (before stressed h- in scriptural and pre-1900 texts)](#an-before-stressed-h--in-scriptural-and-pre-1900-texts).
 **With *of*:** none of its own; identical to [a](#a) and [an](#an).
@@ -742,6 +765,7 @@ A variant *an* before a weakly aspirated *h*, standard in British literary usage
 ### th'
 
 **Pronunciation:** /ð/ &middot; *th* — *the* with its schwa deleted, so the /ð/ leans straight onto the next word: *th' whole time* is one run of sound, and *th' other* comes out /ðˈʌðɚ/. What the apostrophe records is the loss of the vowel, not a different word.
+**Русский:** the с проглоченным гласным — передача выговора на письме, только в репликах персонажей
 **Type:** article (definite), **eye-dialect respelling** of a reduced *the* &middot; **Position:** central determiner — the same slot *the* fills, since it **is** *the* &middot; **Register:** **written dialogue only** — fiction, song lyrics, comics, transcribed speech. Never in expository prose, never in the narrator's own voice.
 **Goes with:** whatever noun [the](#the) goes with, with no countability restriction of its own — **singular countable** (*th' truck*), **plural countable** (*th' kids*), **uncountable** (*th' money*), and the *the*-taking proper nouns (*th' Mississippi*). What licenses it is the register, not the noun.
 **With *of*:** identical to [the](#the); the apostrophe changes nothing about the syntax. Predeterminers still stack in front of it (*all th' way*, *half th' town*), and *of* is still required before a pronoun (*all of 'em*).
@@ -763,6 +787,7 @@ Writes out a *the* whose vowel has been swallowed, as a way of putting an accent
 ### ye
 
 **Pronunciation:** /ðə/ &middot; *thuh* — **not** /ji/. The *y* is a printer's substitute for the lost Old English letter thorn (þ), which in blackletter type looked close enough to a *y* that early printers set it that way. *Ye Olde Tavern* is read "the old tavern."
+**Русский:** устар. старое написание the — «Ye Olde Shoppe» читается «the», не /ji/; стилизация
 **Type:** article (definite), archaic spelling &middot; **Position:** central determiner &middot; **Register:** **mock-antique decoration only** — shop signs, pub names, festival banners, and jokes. Never ordinary writing.
 **Goes with:** whatever noun [the](#the) goes with — singular countable, plural countable, uncountable — because it is not a separate word but an old **spelling** of *the*. In practice it survives almost exclusively in frozen sign phrases: *Ye Olde Curiosity Shoppe*, *Ye Olde Cheese Shoppe*, *Ye Olde Tavern*, *Ye Olde Book Barn*.
 **With *of*:** identical to [the](#the); the spelling changes nothing about the syntax.

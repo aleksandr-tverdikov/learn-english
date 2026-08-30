@@ -19,6 +19,7 @@ The words that take in a whole set — either sweeping it up at once or walking 
 ### all
 
 **Pronunciation:** /ɔl/ &middot; *AWL* &middot; /ɑl/ for the many Americans who merge *cot* and *caught*; there is no weak form of *all* itself, but the /l/ vocalizes before a consonant and *all right* reduces casually to [ɔˈɹaɪt] or even [aɪt]; in the partitive the *of* is weak, /əv/ reducing to /ə/, so *all of the* runs to [ˈɔlə ðə] and *all of them* to [ˈɔlə ðəm]
+**Русский:** весь, все — охватывает всё множество или всё количество целиком, без остатка
 **Type:** quantifier (universal) &middot; **Position:** predeterminer before another determiner (*all the money*); central determiner before a bare noun (*all children*) &middot; **Register:** neutral
 **Goes with:** plural countable nouns (*all students*) and uncountable nouns (*all information*); a singular countable **only** when another determiner follows (*all my life*, *all this trouble*) or the noun names a span of time (*all day*, *all summer*). Never a bare singular countable: ✗ *all book*, ✗ *all student*.
 **With *of*:** **Optional** before another determiner — *all (of) the students*, *all (of) my cousins*. **Required** before a personal pronoun — *all of them*, *all of us*; ✗ *all them*. **Impossible** before a bare noun — *all children*, ✗ *all of children*.
@@ -42,6 +43,7 @@ Sweeps in the entire set or the entire quantity, with nothing left out. The verb
 ### all and singular
 
 **Pronunciation:** /ˌɔl ən ˈsɪŋɡjəlɚ/ &middot; *awl-uhn-SING-gyuh-lur* &middot; *and* takes its weak form /ən/ or a syllabic /n̩/, giving [ˌɔl n̩ ˈsɪŋɡjəlɚ]; *all* keeps /ɔl/, or /ɑl/ for the many Americans who merge *cot* and *caught*; the main stress lands on *singular*, whose /j/ is often dropped in fast speech to give [ˈsɪŋɡəlɚ]
+**Русский:** устар. юр. все и каждый в отдельности — формула из купчих, завещаний и описей
 **Type:** quantifier (universal, emphatic legal doublet) &middot; **Position:** predeterminer — it stands in front of the central determiner, exactly where *all* stands in *all the goods* &middot; **Register:** **archaic legal boilerplate.** An American meets it in deeds, wills, probate inventories, admiralty writs, and old insurance policies, and essentially nowhere else; plain-language drafting guides delete it on sight
 **Goes with:** **plural countable nouns**, almost always inside a legal doublet of their own — *all and singular the goods and chattels*, *all and singular the lands and tenements*. It takes an **uncountable** noun only in a few frozen formulas (*all and singular the personal property*). Never a bare singular countable: ✗ *all and singular the house*, ✗ *all and singular house*.
 **With *of*:** **Never** — ✗ *all and singular of the goods*. The doublet sits directly on top of *the*, exactly as predeterminer [all](#all) does; the *of* form a modern reader expects, *all of the goods*, is the rewrite rather than a variant.
@@ -63,6 +65,7 @@ An archaic legal predeterminer meaning "the entire set, and each member of it in
 ### both
 
 **Pronunciation:** /boʊθ/ &middot; *BOHTH* &middot; the final /θ/ is often lost before a following consonant in fast speech: *both sides* → [boʊ ˈsaɪdz]; the *of* of the partitive takes its weak /əv/ and usually drops to /ə/, giving *both of them* [ˈboʊθə ðəm]
+**Русский:** оба, обе — двое как пара; глагол всегда во множественном числе
 **Type:** quantifier (universal, dual) &middot; **Position:** predeterminer before another determiner (*both the twins*, *both my parents*); central determiner before a bare plural (*both hands*) &middot; **Register:** neutral
 **Goes with:** **plural countable nouns only, and only when the set has exactly two** — *both hands*, *both candidates*. Never a singular countable (✗ *both hand*), never an uncountable (✗ *both furniture*, ✗ *both information*), and never a set of three or more (✗ *both of the five finalists*).
 **With *of*:** **Optional** before another determiner — *both (of) the twins*, *both (of) these windows*. **Required** before a personal pronoun in this order — *both of them*, *both of us*; ✗ *both them*, though the reversed order *them both* is perfectly good (*I saw them both*). Not used before a bare plural — *both parents*, ✗ *both of parents*.
@@ -84,6 +87,7 @@ Refers to the two members of a two-member set together, as a pair. The verb is a
 ### each
 
 **Pronunciation:** /itʃ/ &middot; *EECH* &middot; the /tʃ/ links straight into a following /j/, so *each year* runs together as [ˈitʃɪɹ]; the obligatory *of* is unstressed and reduces from /əv/ to /ə/, so *each of the* comes out [ˈitʃə ðə]
+**Русский:** каждый (по отдельности) — перебирает членов множества поодиночке
 **Type:** distributive &middot; **Position:** central determiner; also floats to a position beside the verb, and postposes as an adverb (*ten dollars each*) &middot; **Register:** neutral
 **Goes with:** **singular countable nouns only** — *each student*, *each page*, *each day*. Never a plural countable (✗ *each students*), never an uncountable (✗ *each water*, ✗ *each advice*). To reach a plural noun, *each* must go through *of*: *each of the students*.
 **With *of*:** **Required** before any noun phrase that already has a determiner, and before every pronoun — *each of the students*, *each of my cousins*, *each of them*. ✗ *each my cousins* and ✗ *each them* are ungrammatical. Bare *each* + singular noun takes no *of*: ✗ *each of student*.
@@ -105,6 +109,7 @@ Picks out the members of a group one by one, treating them separately. The noun 
 ### each and every
 
 **Pronunciation:** /ˌitʃ ən ˈɛvri/ &middot; *eech-uhn-EV-ree* &middot; *and* reduces to the weak form /ən/ or to a syllabic /n̩/; the main stress lands on *every*
+**Русский:** каждый без исключения — эмфатический сплав each и every, «все до одного»
 **Type:** distributive (emphatic) &middot; **Position:** central determiner &middot; **Register:** emphatic; natural in speech and rhetoric, and routinely cut by copy editors as redundant
 **Goes with:** **singular countable nouns only** — *each and every student*. Never a plural (✗ *each and every students*), never an uncountable (✗ *each and every water*), exactly like both of its parts.
 **With *of*:** Not with the bare phrase — ✗ *each and every of the students*. The partitive is *each and every one of the students*, with *one* inserted to carry the *of*.
@@ -126,6 +131,7 @@ An emphatic fusion of *each* and *every*, used when the speaker wants to insist 
 ### either
 
 **Pronunciation:** /ˈiðɚ/ &middot; *EE-thur* &middot; /ˈaɪðɚ/ (*EYE-thur*) is fully standard, but /ˈiðɚ/ is the majority American pronunciation — the reverse of the British preference; whichever vowel a speaker uses, they normally use the same one in *neither*; the required *of* is weak, so *either of them* runs to [ˈiðɚə ðəm]
+**Русский:** любой из двух; в оборотах on either side — и тот и другой, с обеих сторон
 **Type:** distributive (dual) &middot; **Position:** central determiner &middot; **Register:** neutral
 **Goes with:** **singular countable nouns only, and only from a set of exactly two** — *either route*, *either parent*. Never a plural (✗ *either routes*), never an uncountable (✗ *either milk*), and never a set of three or more — for three or more the word is [any](#any).
 **With *of*:** **Required** before a determined noun phrase or a pronoun — *either of the routes*, *either of them*. ✗ *either the routes* and ✗ *either them* are ungrammatical. Note that the noun after *of* is **plural** while the verb stays singular: *Either of the plans works*.
@@ -147,6 +153,7 @@ Two distinct uses. **(1)** *One or the other of two, it doesn't matter which* �
 ### every
 
 **Pronunciation:** /ˈɛvri/ &middot; *EV-ree* &middot; two syllables in ordinary American speech; the careful three-syllable /ˈɛvəri/ exists but sounds deliberate
+**Русский:** каждый, всякий — всё множество разом; существительное и глагол в ед. ч.
 **Type:** distributive (universal) &middot; **Position:** central determiner &middot; **Register:** neutral
 **Goes with:** **singular countable nouns only** — *every window*, *every chance*. Never a plural countable (✗ *every windows*), never an uncountable (✗ *every water*, ✗ *every advice* — for those, see [every bit of](#every-bit-of)). The one systematic exception is the **frequency pattern**, where *every* takes a numeral plus a plural: *every three days*, *every ten minutes*, *every few weeks*, *every two years*.
 **With *of*:** **Never.** ✗ *every of the students* does not exist in English. The repair is [every one of](#every-one-of) the students for plural countables and [every bit of](#every-bit-of) the paint for uncountables — which is precisely why those two phrases exist.
@@ -168,6 +175,7 @@ Covers the entire membership of a set of three or more, viewed as a complete swe
 ### every bit of
 
 **Pronunciation:** /ˌɛvri ˈbɪt əv/ &middot; *ev-ree-BIT-uv* &middot; *of* takes its weak form /əv/ and often reduces further to /ə/, giving [ˌɛvri ˈbɪɾə]; the stress sits on *bit*
+**Русский:** весь до последней капли — способ применить every к неисчисляемому существительному
 **Type:** distributive (universal, partitive) &middot; **Position:** central determiner heading a partitive phrase — *every* determines *bit*, and the *of*-phrase supplies the real noun &middot; **Register:** neutral, mildly emphatic
 **Goes with:** **uncountable nouns, reached through *of*** — *every bit of evidence*, *every bit of the paint*, *every bit of energy*. It also takes a singular countable construed as a mass (*every bit of that old house*). Never a plural countable: ✗ *every bit of the students* — that is *every one of the students*.
 **With *of*:** ***Of*** **is required**; carrying the *of* is the entire function of *bit*. ✗ *every bit evidence* is impossible, and so is ✗ *every evidence*, which is why the phrase exists.
@@ -189,6 +197,7 @@ The partitive that lets *every* quantify something uncountable, insisting that t
 ### every blessed
 
 **Pronunciation:** /ˌɛvri ˈblɛsɪd/ &middot; *ev-ree-BLESS-id* &middot; ***blessed* has two syllables here, not one** — the adjective /ˈblɛsɪd/, never the past-tense /blɛst/ of *he blessed the meal*. The stress moves onto *blessed*, which is where the exasperation lives; there is no weak form, because the whole point of the word is that it is leaned on
+**Русский:** устар., разг. каждый распроклятый — эмфатическое every с досадой; blessed вместо брани
 **Type:** distributive (emphatic, euphemistic) &middot; **Position:** central determiner — *every* fills the slot and *blessed* is a fixed intensifier with no religious content &middot; **Register:** **dated, folksy, and emphatic.** An American meets it in nineteenth- and early-twentieth-century fiction, in older rural and Southern speech, and from grandparents; in current writing it reads as deliberately quaint rather than wrong
 **Goes with:** **singular countable nouns only** — *every blessed day*, *every blessed one*. Never a plural (✗ *every blessed days*), never an uncountable (✗ *every blessed money*), following *every* exactly. In practice it attaches to a short list of nouns and does not spread much beyond it: *day*, *night*, *time*, *minute*, *one*, *thing*, *word*, *penny*.
 **With *of*:** Not with the bare phrase — ✗ *every blessed of them*. The partitive is *every blessed one of*: *every blessed one of them*.
@@ -211,6 +220,7 @@ Emphatic *every* with a note of grievance in it — the speaker is complaining a
 ### every last
 
 **Pronunciation:** /ˌɛvri ˈlæst/ &middot; *ev-ree-LAST* &middot; the stress moves onto *last*, and the /t/ is usually unreleased before a consonant: *every last dime* → [ˌɛvri ˈlæs daɪm]
+**Русский:** разг. все до последнего — эмфатическое every: запас исчерпан до конца
 **Type:** distributive (emphatic) &middot; **Position:** central determiner &middot; **Register:** informal and emphatic — common in speech, rare in formal writing
 **Goes with:** **singular countable nouns only** — *every last dime*, *every last crumb*. Never a plural (✗ *every last dimes*), never an uncountable (✗ *every last money*), following *every* exactly.
 **With *of*:** Not with the bare phrase. Use *every last one of* for countables — *every last one of them* — and *every last bit of* for uncountables.
@@ -232,6 +242,7 @@ Emphatic *every*, insisting that the set has been used up or accounted for down 
 ### every one of
 
 **Pronunciation:** /ˌɛvri ˈwʌn əv/ &middot; *ev-ree-WUN-uv* &middot; *of* takes the weak form /əv/ and often /ə/; the stress on *one* is what separates it in speech from the pronoun *everyone*
+**Русский:** каждый из — форма every перед уже определённой группой, так как ✗ every of невозможно
 **Type:** distributive (universal, partitive) &middot; **Position:** central determiner heading its own partitive phrase — the head of the phrase is *one*, not the plural noun after *of* &middot; **Register:** neutral
 **Goes with:** ***of*** **plus a plural noun that already has a determiner, or a pronoun** — *every one of the students*, *every one of my cousins*, *every one of them*. Never a bare plural (✗ *every one of students*), never an uncountable (✗ *every one of the water* — that is *all of the water* or *every bit of the water*).
 **With *of*:** ***Of*** **is required** — that is the whole point of the phrase. [Every](#every) itself cannot take *of*, so *one* is inserted to carry it.
@@ -253,6 +264,7 @@ The repair phrase that lets *every* do what *every* alone cannot: attach to a no
 ### every other
 
 **Pronunciation:** /ˌɛvri ˈʌðɚ/ &middot; *ev-ree-UTH-ur* &middot; the two words run together with no break, and a linking /j/ often appears between them: [ˌɛvriˈjʌðɚ]
+**Русский:** каждый второй, через один; а также все остальные, все прочие
 **Type:** distributive &middot; **Position:** central determiner &middot; **Register:** neutral
 **Goes with:** **singular countable nouns only** — *every other week*, *every other student*. Never a plural (✗ *every other weeks*), never an uncountable, inheriting *every*'s restriction exactly.
 **With *of*:** Not with the bare phrase. *Every other one of* exists but is clumsy and is usually rephrased as *every second one*.
@@ -274,6 +286,7 @@ Two distinct uses. **(1) Alternating — every second one, skipping one in betwe
 ### every single
 
 **Pronunciation:** /ˌɛvri ˈsɪŋɡəl/ &middot; *ev-ree-SING-guhl* &middot; the stress shifts onto *single*, which is the whole point of the phrase
+**Русский:** все до единого, каждый-каждый — самое частое усилительное every в разговорной речи
 **Type:** distributive (emphatic) &middot; **Position:** central determiner &middot; **Register:** informal to neutral, emphatic
 **Goes with:** **singular countable nouns only** — *every single person*, *every single time*. Never a plural (✗ *every single people*), never an uncountable (✗ *every single information*).
 **With *of*:** Not with the bare phrase. Use *every single one of* — *every single one of them*.
@@ -295,6 +308,7 @@ Emphatic *every*, adding "with no exceptions at all." It is the most common emph
 ### every third / every fourth / every nth
 
 **Pronunciation:** /ˌɛvri ˈθɚd/, /ˌɛvri ˈfɔrθ/, /ˌɛvri ˈɛnθ/ &middot; *ev-ree-THURD*, *ev-ree-FORTH*, *ev-ree-ENTH* &middot; the stress moves onto the ordinal, which carries the whole meaning and therefore has **no weak form**; *every* keeps its ordinary two-syllable /ˈɛvri/ and does reduce, to [ˌɛvri] or even [ˌɛvi], since it is the unstressed half. The final clusters simplify in speech: *every fifth row* → [ˌɛvri ˈfɪf roʊ], *every sixth one* → [ˌɛvri ˈsɪks wʌn]
+**Русский:** каждый третий / каждый четвёртый / каждый n-й — повторяющийся интервал
 **Type:** distributive (interval) &middot; **Position:** central determiner *every* with an **ordinal postdeterminer** behind it — the ordinal fills the same slot it fills in *the third row* &middot; **Register:** neutral; the *nth* form is informal in speech and technical in writing
 **Goes with:** **singular countable nouns only** — *every third row*, *every fourth patient*, *every tenth customer*. Never a plural after the ordinal (✗ *every third rows*), never an uncountable (✗ *every third water*), inheriting *every*'s restriction exactly. **Do not confuse it with the frequency pattern**, which takes a **cardinal plus a plural**: *every three days*, *every ten minutes*. The two are the same interval expressed two ways, and each has its own number agreement.
 **With *of*:** Not with the bare phrase — ✗ *every third of the rows*, inheriting *every*'s prohibition. *Every third one of the rows* is grammatical and clumsy, and Americans rewrite it as *one in three of the rows* or *a third of the rows*.
@@ -317,6 +331,7 @@ Names a repeating interval by counting positions in a series. The noun and the v
 ### every which
 
 **Pronunciation:** /ˌɛvri ˈwɪtʃ/ &middot; *ev-ree-WICH* &middot; speakers who keep the *wh-* distinction say /ˌɛvri ˈhwɪtʃ/; the phrase carries one main stress, on *which*
+**Русский:** разг. во все стороны, куда попало — застывший оборот, обычно every which way
 **Type:** distributive (fossilized idiom) &middot; **Position:** central determiner in form, but frozen — the phrase behaves as a single lexical item, not as a productive pattern &middot; **Register:** informal idiom; fine in speech and casual writing, out of place in formal prose
 **Goes with:** **the singular countable noun *way*, and effectively nothing else** — *every which way*. *Every which direction* is occasionally heard; beyond that the phrase does not extend (✗ *every which chair*, ✗ *every which student*). Learn it as one word-sized chunk rather than as a rule.
 **With *of*:** Never — ✗ *every which of the ways*.
@@ -342,6 +357,7 @@ Determiners that pick a member without specifying which one, and leave the choic
 ### any
 
 **Pronunciation:** /ˈɛni/ &middot; *EN-ee* &middot; the vowel is /ɛ/ as in *pen*, never /æ/ as in *pan* — the single most common mispronunciation of the word; through the American South and Midland it raises further to [ˈɪni]. Polarity *any* is unstressed and reduces toward [əni]; free-choice *any* is stressed and keeps its full vowel. In the partitive the *of* reduces as well: *any of the* → [ˈɛniə ðə]
+**Русский:** какой-нибудь, сколько-нибудь (в вопросе и отрицании); любой, неважно какой (в утверждении)
 **Type:** quantifier (general — negative-polarity and free-choice) &middot; **Position:** central determiner &middot; **Register:** neutral
 **Goes with:** plural countable nouns (*any questions*) and uncountable nouns (*any money*) in questions, negatives, and conditionals; **singular countable** nouns in the free-choice sense (*any student can tell you*) and with a small set of abstract nouns (*any idea*, *any reason*, *any chance*, *any doubt*, *any way*). Not an ordinary singular countable in plain polarity use: ✗ *Did you buy any apple?* — say *any apples*.
 **With *of*:** **Required** before a determined noun phrase or a pronoun — *any of the students*, *any of this money*, *any of them*. ✗ *any the students* is ungrammatical. Bare *any* + noun takes no *of*.
@@ -365,6 +381,7 @@ Two distinct uses. **(1) Negative polarity** — in questions, negatives, condit
 ### any and all
 
 **Pronunciation:** /ˌɛni ən ˈɔl/ &middot; *en-ee-uhn-AWL* &middot; *and* takes its weak form /ən/ or a syllabic /n̩/; the stress lands on *all*
+**Русский:** юр. любые и все — усилительный дублет из договоров; в обычной прозе звучит как канцелярит
 **Type:** quantifier (universal + free choice, emphatic) &middot; **Position:** central determiner &middot; **Register:** legal and contractual boilerplate; in ordinary prose it reads as padding
 **Goes with:** **plural countable nouns** (*any and all claims*, *any and all documents*) and **uncountable nouns** (*any and all liability*, *any and all correspondence*). Never a singular countable: ✗ *any and all claim*.
 **With *of*:** Possible but heavy — *any and all of the documents*. Contracts normally write *any and all documents* instead and keep the *of* out of it.
@@ -386,6 +403,7 @@ An emphatic legal doublet meaning "every one of these, without exception and how
 ### any manner of / any kind of / any sort of
 
 **Pronunciation:** /ˌɛni ˈmænɚ əv/, /ˌɛni ˈkaɪnd əv/, /ˌɛni ˈsɔrt əv/ &middot; *en-ee-MAN-ur-uv*, *en-ee-KYND-uv*, *en-ee-SORT-uv* &middot; the stress sits on *manner*, *kind*, or *sort*, and *of* takes its weak form /əv/ and regularly reduces to /ə/, giving [ˈmænɚə], [ˈkaɪndə], and — with the flapped /t/ — [ˈsɔrɾə]. ***Any* has two weak forms here, and they separate the two senses**: polarity *any* is unstressed and reduces toward [əni], so *not any kind of proof* runs to [nɑɾ əni ˈkaɪndə ˈpruf], while free-choice *any* is stressed and keeps its full [ˈɛni]. The casual reductions *kinda* and *sorta* belong to the hedging adverb (*kinda tired*), never here, where the *of* is structural and the phrase keeps its shape
+**Русский:** какой бы то ни было, любого рода; вариант с manner — книжн., устар.
 **Type:** quantifier (negative-polarity and free choice, partitive, category-covering) &middot; **Position:** *any* is the **central determiner** of a partitive phrase whose head is *manner*, *kind*, or *sort*; the *of*-phrase supplies the real noun &middot; **Register:** *any kind of* and *any sort of* are neutral to informal and entirely ordinary in American speech; ***any manner of*** **is formal and archaic-flavored.** An American meets *any manner of* in contracts, leases, insurance policies, older statutes, and the King James Bible, and essentially never in conversation, where it would sound like someone doing an impression of a deed
 **Goes with:** **uncountable nouns** (*any manner of doubt*, *any kind of proof*) and **plural countable nouns** (*any manner of alterations*, *any sort of guarantees*), reached through *of*. A **singular countable** works only with its article left in place after *of* — *any kind of a plan* — and that pattern is informal and usually edited out. Note the fossilized singular inside the phrase: ✗ *any manners of work*, ✗ *any kinds of proof*, even though *manners* and *kinds* are perfectly good nouns elsewhere.
 **With *of*:** ***Of*** **is required** and is part of the phrase — ✗ *any manner doubt*, ✗ *any kind proof*. **No determiner may follow it**: ✓ *any manner of excuses*, ✗ *any manner of the excuses*. To select from a set already identified, drop the frame and use plain *any of*: *any of those excuses*.
@@ -408,6 +426,7 @@ Holds open a whole **category** rather than a quantity — "anything of that des
 ### any old
 
 **Pronunciation:** /ˌɛni ˈoʊld/ &middot; *en-ee-OHLD* &middot; the final /d/ is regularly dropped before a consonant, so *any old thing* comes out [ˌɛni oʊl ˈθɪŋ]; the stress is on *old*
+**Русский:** разг. любой, какой попало — с оттенком пренебрежения; old не имеет отношения к возрасту
 **Type:** quantifier (free choice, dismissive) &middot; **Position:** central determiner — *any* fills the determiner slot and *old* is a fixed intensifier with no reference to age &middot; **Register:** informal and colloquial; ordinary in speech, out of place in formal writing
 **Goes with:** singular countable nouns (*any old excuse*), plural countable nouns (*any old boxes*), and uncountable nouns (*any old junk*) — the same range as free-choice *any*, though it is most at home with a singular countable.
 **With *of*:** Not used — ✗ *any old of them*. The partitive is plain *any of them*.
@@ -429,6 +448,7 @@ Colloquial free choice with a shrug — the speaker is signaling that the choice
 ### any other
 
 **Pronunciation:** /ˌɛni ˈʌðɚ/ &middot; *en-ee-UTH-ur* &middot; the two words run together and the /i/ of *any* links into the following /ʌ/ with a /j/ glide: [ˌɛniˈjʌðɚ]
+**Русский:** любой другой — вычитает уже названного из круга сравнения
 **Type:** quantifier (free choice, exclusive) &middot; **Position:** central determiner &middot; **Register:** neutral
 **Goes with:** singular countable nouns (*any other question*), plural countable nouns (*any other questions*), and uncountable nouns (*any other evidence*) — it inherits the full range of *any*.
 **With *of*:** *any other of the applicants* is grammatical but stiff; Americans reorder it to *any of the other applicants*, where *of* attaches to *any* and is required.
@@ -450,6 +470,7 @@ Points to a member of the set outside the one already named. In comparisons it i
 ### any such
 
 **Pronunciation:** /ˌɛni ˈsʌtʃ/ &middot; *en-ee-SUCH* &middot; *such* keeps its full vowel /sʌtʃ/ and the stress, exactly as in *no such* and unlike the weak *such a* [sətʃə] of the exclamative. Polarity *any* is unstressed in front of it and reduces toward [əni], so the phrase lands as [əni ˈsʌtʃ]; free-choice *any such* keeps the fuller [ˈɛni ˈsʌtʃ]
+**Русский:** какой-либо подобный, любой такой — книжн., юр.; отсылает к уже данному описанию
 **Type:** quantifier (negative-polarity and free choice, anaphoric) &middot; **Position:** *any* is the **central determiner**; *such* follows it as a pre-head modifier inside the same phrase. Because *any* has taken the one central slot English allows, no article can follow: ✗ *any such a claim* &middot; **Register:** neutral, leaning formal — its natural home is legal, official, and academic prose
 **Goes with:** **all three noun types**, exactly like *any* — singular countable (*any such claim*, *any such person*), plural countable (*any such records*, *any such payments*), and uncountable (*any such evidence*, *any such conduct*). The singular countable takes **no article**: ✓ *any such request*, ✗ *any such a request*.
 **With *of*:** **Not with the bare phrase** — ✗ *any such of the claims*, ✗ *any such of them*, inheriting the block that *such* puts on the partitive. To reach an already-identified set, drop *such* and use plain *any of*: *any of those claims*. *Any such one* exists and is stilted.
@@ -478,6 +499,7 @@ One phrase that looks as though it belongs in this section does not. ***An absen
 ### neither
 
 **Pronunciation:** /ˈniðɚ/ &middot; *NEE-thur* &middot; /ˈnaɪðɚ/ (*NYE-thur*) is fully standard in America; most speakers use the same vowel here that they use in *either*; the required *of* is weak, giving *neither of them* [ˈniðɚə ðəm]
+**Русский:** ни тот ни другой — отрицает обоих членов пары; глагол в ед. ч.
 **Type:** negative determiner (distributive, dual) &middot; **Position:** central determiner &middot; **Register:** neutral, slightly formal — everyday speech often prefers *not either* or *neither one*
 **Goes with:** **singular countable nouns only, and only from a set of exactly two** — *neither candidate*, *neither parent*. Never a plural (✗ *neither candidates*), never an uncountable (✗ *neither milk*), and never a set of three or more — for three or more the words are *no* and *none of*.
 **With *of*:** **Required** before a determined phrase or a pronoun — *neither of the candidates*, *neither of them*. ✗ *neither the candidates* and ✗ *neither them* are ungrammatical. The noun after *of* is **plural** while the verb stays singular: *Neither of the plans works*.
@@ -499,6 +521,7 @@ Denies both members of a two-member set at once: not the one and not the other. 
 ### no
 
 **Pronunciation:** /noʊ/ &middot; *NOH* &middot; **no weak form** — *no* carries the clause's negation, so it keeps its full diphthong and some stress even in fast speech. Do not confuse it with the interjection *No.* or with *know*, its exact homophone
+**Русский:** никакой, ни одного, нет — сводит существительное к нулю (no money — денег нет)
 **Type:** negative determiner &middot; **Position:** central determiner &middot; **Register:** neutral; in subject position it is the only option, and elsewhere it is the more emphatic and more written choice
 **Goes with:** **all three noun types** — singular countable (*no answer*), plural countable (*no answers*), and uncountable (*no time*). It is one of the very few determiners with no countability restriction at all. It cannot follow another central determiner: ✗ *the no answer*, ✗ *my no money*.
 **With *of*:** **Never.** ✗ *no of the students* does not exist. The partitive is [none of](#none-of) the students — which is the entire reason *none of* is a separate headword.
@@ -521,6 +544,7 @@ Reduces the noun to zero. The verb agrees with the noun that follows, not with *
 ### no earthly
 
 **Pronunciation:** /ˌnoʊ ˈɚθli/ &middot; *noh-URTH-lee* &middot; the stress moves onto *earthly*. **Neither word has a weak form** — *no* carries the clause's negation and keeps its full diphthong, and *earthly* is the emphatic the phrase exists for; many Americans voice the /θ/ to [ð], giving [ˈɚðli], and the whole phrase runs to [noʊ ˈɚðli] with no break
+**Русский:** разг. ни малейшего — усиленное no; чаще всего no earthly idea, no earthly reason
 **Type:** negative determiner (emphatic) &middot; **Position:** central determiner — *no* fills the slot and *earthly* is a fixed intensifier inside the phrase, with no reference to the planet &middot; **Register:** emphatic, informal to neutral; slightly old-fashioned but in current American use, and heard most in the fixed phrases *no earthly idea* and *no earthly reason*
 **Goes with:** a short list of **singular countable abstract nouns** — *no earthly idea*, *no earthly reason*, *no earthly use*, *no earthly chance*, *no earthly way*, *no earthly clue*. It does not extend freely to concrete nouns: ✗ *no earthly chair*, ✗ *no earthly student*. A plural is possible but rare (*no earthly reasons*), and it reaches an **uncountable** only in the fossil *no earthly good* (*it did him no earthly good*).
 **With *of*:** **Never** — ✗ *no earthly of them*, ✗ *no earthly of the reasons*, inheriting [no](#no)'s prohibition exactly. The partitive is [none of](#none-of): *none of it was any earthly use*.
@@ -543,6 +567,7 @@ An emphatic *no* meaning "none at all, none even conceivable." It comes from an 
 ### no manner of / no kind of / no sort of
 
 **Pronunciation:** /ˌnoʊ ˈmænɚ əv/, /ˌnoʊ ˈkaɪnd əv/, /ˌnoʊ ˈsɔrt əv/ &middot; *noh-MAN-ur-uv*, *noh-KYND-uv*, *noh-SORT-uv* &middot; *of* takes its weak form /əv/ and regularly reduces to /ə/, giving [ˈmænɚə], [ˈkaɪndə], and — with the flapped /t/ — [ˈsɔrɾə]; *no* has **no weak form**, since it carries the clause's negation. The casual reductions *kinda* and *sorta* belong to the hedging adverb (*kinda tired*), not here, where the *of* is structural and the phrase keeps its shape
+**Русский:** никакого рода, ничего подобного; вариант с manner — книжн., устар.
 **Type:** negative determiner (partitive, category-denying) &middot; **Position:** *no* is the **central determiner** of a partitive phrase whose head is *manner*, *kind*, or *sort*; the *of*-phrase supplies the real noun &middot; **Register:** *no kind of* and *no sort of* are neutral to informal; ***no manner of*** **is formal and archaic-flavored.** An American meets *no manner of* in contracts and older statutes and, above all, in the King James Bible, where *no manner of work* is the sabbath formula — which is why the phrase still sounds biblical in anyone's mouth
 **Goes with:** **uncountable nouns** (*no manner of doubt*, *no kind of proof*) and **plural countable nouns** (*no manner of excuses*, *no sort of guarantees*), reached through *of*. A **singular countable** works only with its article left in place after *of* — *no sort of a plan* — and that pattern is informal and usually edited out. Note the fossilized singular inside the phrase: ✗ *no manners of work*, ✗ *no kinds of proof*, even though *manners* and *kinds* are perfectly good nouns elsewhere.
 **With *of*:** ***Of*** **is required** and is part of the phrase — ✗ *no manner doubt*, ✗ *no kind proof*. **No determiner may follow it**: ✓ *no manner of excuses*, ✗ *no manner of the excuses*. To select from a set already identified, switch to the real partitive [none of](#none-of): *none of the excuses*.
@@ -565,6 +590,7 @@ Denies a category outright — "nothing of that description, in any form at all.
 ### no other
 
 **Pronunciation:** /ˌnoʊ ˈʌðɚ/ &middot; *noh-UTH-ur* &middot; the two words run together with a linking /w/: [noʊˈwʌðɚ]
+**Русский:** никакой другой — исключает всех, кроме уже названного
 **Type:** negative determiner (exclusive) &middot; **Position:** central determiner &middot; **Register:** neutral
 **Goes with:** all three noun types, like *no* — singular countable (*no other choice*), plural countable (*no other options*), and uncountable (*no other evidence*).
 **With *of*:** **Never** — *no* takes no *of*-phrase of any kind. The partitive is *none of the other* — *none of the other applicants*.
@@ -586,6 +612,7 @@ Excludes every member of the set except the one already named. It shows up const
 ### no such
 
 **Pronunciation:** /ˌnoʊ ˈsʌtʃ/ &middot; *noh-SUCH* &middot; *such* keeps its full vowel /sʌtʃ/ here, unlike the unstressed *such a* [sətʃə] of the exclamative, because *no such* carries the clause's negation and the stress that goes with it
+**Русский:** никакой такой, ничего подобного — отсылка к уже сказанному (no such thing — такого нет)
 **Type:** negative determiner (anaphoric) &middot; **Position:** *no* is the **central determiner**; *such* follows it as a pre-head modifier inside the same phrase. Because *no* has already taken the one central-determiner slot English allows, there is no room left for an article: ✗ *no such a thing*, ✗ *the no such rule* &middot; **Register:** neutral
 **Goes with:** **all three noun types**, exactly like *no* — singular countable (*no such thing*, *no such person*), plural countable (*no such rules*, *no such records*), and uncountable (*no such evidence*, *no such luck*). The singular countable takes **no article**: ✓ *no such thing*, ✗ *no such a thing*.
 **With *of*:** **Never** — ✗ *no such of the rules*, ✗ *no such of them*, inheriting *no*'s prohibition exactly. To reach an already-identified set, switch to [none of](#none-of) (*none of those rules*) or to the fixed phrase *nothing of the sort*.
@@ -608,6 +635,7 @@ Denies that anything of the kind just mentioned exists. It is **anaphoric** — 
 ### none of
 
 **Pronunciation:** /ˈnʌn əv/ &middot; *NUN-uv* &middot; the vowel is /ʌ/ as in *sun*, not the /oʊ/ of *no*; *of* takes its weak form /əv/ and often reduces to /ə/, giving [ˈnʌnə] before a consonant
+**Русский:** ни один из, ничего из — отрицает всех членов уже названной группы
 **Type:** negative quantifier (partitive) &middot; **Position:** not a central determiner in the ordinary sense — *none* is a pronoun heading its own phrase and the *of*-phrase supplies the noun, which is exactly why ✗ *none students* fails &middot; **Register:** neutral
 **Goes with:** ***of*** **plus a noun phrase that is already definite, or a pronoun** — a plural countable (*none of the students*), an uncountable (*none of the money*), or a pronoun (*none of them*). **Never directly before a bare noun**: ✗ *none students*, ✗ *none money* — those are *no students* and *no money*.
 **With *of*:** ***Of*** **is required.** Without it, *none* is a bare **pronoun** standing alone (*How many survived? None.*) and cannot take a noun at all.
@@ -629,6 +657,7 @@ Denies every member of an already-identified group. The verb may be **singular o
 ### not a
 
 **Pronunciation:** /ˈnɑt ə/ &middot; *NOT-uh* &middot; the /t/ flaps between vowels, giving [ˈnɑɾə]; before a vowel sound the form is *not an* /ˈnɑt ən/, and the article keeps its weak vowel /ə/ in both
+**Русский:** ни одного, ни единого — эмфатическое отрицание неопределённого артикля
 **Type:** negative determiner (emphatic) &middot; **Position:** *not* negates the phrase and sits in front of the central determiner *a/an* &middot; **Register:** emphatic; neutral inside fixed phrases like *not a chance*, *not a soul*
 **Goes with:** **singular countable nouns only**, since *a/an* itself takes only a singular countable — *not a word*, *not an excuse*. For a plural or an uncountable the phrase is *not any* or *no*: ✗ *not a students*, ✗ *not a money*.
 **With *of*:** Not directly — ✗ *not a of them*. The partitive routes are *not a single one of the students* and *not one of the students*.
@@ -650,6 +679,7 @@ Negates the indefinite article, insisting that not even one instance exists. Two
 ### not a single
 
 **Pronunciation:** /ˌnɑt ə ˈsɪŋɡəl/ &middot; *not-uh-SING-guhl* &middot; the /t/ flaps into the weak article, giving [ˌnɑɾə]; the main stress lands on *single*, which is where the emphasis lives
+**Русский:** ни единого — усиленное not a; глагол в ед. ч. даже перед of + мн. ч.
 **Type:** negative determiner (emphatic) &middot; **Position:** *not* negates the phrase; *a* is the central determiner and *single* an emphatic adjective inside it &middot; **Register:** emphatic — never a plain statement of fact, always a point being made
 **Goes with:** **singular countable nouns only**, because the phrase contains *a* — *not a single seat*, *not a single complaint*. Never a plural (✗ *not a single seats*), never an uncountable (✗ *not a single money* — say *not a single dollar*, or *no money*).
 **With *of*:** Through *one* — *not a single one of the students*, *not a single one of them*. ✗ *not a single of them* is ungrammatical.
@@ -671,6 +701,7 @@ Counts the set down to zero and dares the hearer to find an exception. The verb 
 ### not all
 
 **Pronunciation:** /ˌnɑt ˈɔl/ &middot; *not-AWL* &middot; the /t/ flaps before the vowel, giving [ˌnɑɾ ˈɔl]; the stress is on *all*
+**Русский:** не все — частичное отрицание: некоторые да, но не всё множество
 **Type:** negative determiner (partial negation) &middot; **Position:** *not* negates the predeterminer *all*, and the whole phrase occupies the predeterminer slot (*not all the students*) &middot; **Register:** neutral
 **Goes with:** plural countable nouns (*not all students*) and uncountable nouns (*not all information*), plus a singular countable when another determiner or a time span follows (*not all my life*, *not all day*) — the same range as *all*, since it is *all* with a negative bolted on the front.
 **With *of*:** **Optional** before another determiner — *not all (of) the students*. **Required** before a pronoun — *not all of them*, ✗ *not all them*.
@@ -692,6 +723,7 @@ Denies that the whole set is covered, without denying any particular member — 
 ### not any
 
 **Pronunciation:** /ˌnɑt ˈɛni/ &middot; *not-EN-ee* &middot; almost always contracted onto the auxiliary in speech — *didn't … any*, *isn't … any*, *haven't … any* — so the two words are rarely adjacent
+**Русский:** никакой, нисколько — обычный разговорный способ отрицания вместо no
 **Type:** negative determiner (analytic) &middot; **Position:** *any* is the central determiner; *not* negates the verb or the clause, not the noun phrase &middot; **Register:** neutral — the ordinary spoken alternative to *no*
 **Goes with:** **plural countable nouns** (*not any survivors*) and **uncountable nouns** (*not any money*); a singular countable only with the abstract nouns that take *any* at all (*not any reason to worry*, *not any chance of that*). ✗ *not any apple*.
 **With *of*:** Follows *any* — *not any of the students*, *not any of them*; *of* is required before a determined phrase or a pronoun.
@@ -714,6 +746,7 @@ The analytic way to negate a quantity: put the negative on the verb and let *any
 ### not every
 
 **Pronunciation:** /ˌnɑt ˈɛvri/ &middot; *not-EV-ree* &middot; the /t/ flaps before the vowel of *every*, giving [ˌnɑɾ ˈɛvri]
+**Русский:** не каждый — отрицается полнота охвата, а не отдельные члены; ед. ч.
 **Type:** negative determiner (partial negation) &middot; **Position:** *not* negates the central determiner *every*, and the phrase fills the determiner slot &middot; **Register:** neutral
 **Goes with:** **singular countable nouns only** — *not every student*, *not every day*. Never a plural (✗ *not every students*), never an uncountable (✗ *not every water*), inheriting *every*'s restriction exactly.
 **With *of*:** Never with bare *every* — ✗ *not every of them*. The partitive is *not every one of* — *not every one of them*.
@@ -735,6 +768,7 @@ Denies that the coverage is complete, member by member, while leaving individual
 ### not one
 
 **Pronunciation:** /ˌnɑt ˈwʌn/ &middot; *not-WUN* &middot; the /t/ is unreleased before /w/; the stress on *one* is what carries the emphasis
+**Русский:** ни один — эмфатическое отрицание, где усилителем служит числительное one
 **Type:** negative determiner (emphatic) &middot; **Position:** *not* negates the phrase headed by the numeral *one* &middot; **Register:** emphatic — used to make a point, not to state a plain fact
 **Goes with:** **singular countable nouns only** — *not one person*, *not one complaint*. Never a plural (✗ *not one people*), never an uncountable (✗ *not one water*).
 **With *of*:** Yes, and it is common — *not one of the students*, *not one of them*. *Of* is required before a determined phrase or a pronoun.
@@ -756,6 +790,7 @@ Denies a set down to its final unit, with the numeral doing the emphatic work. I
 ### not so much as a
 
 **Pronunciation:** /ˌnɑt soʊ ˈmʌtʃ æz ə/ &middot; *not-soh-MUCH-az-uh* &middot; **the weak forms do most of the work here.** The /t/ of *not* flaps or goes unreleased, *so* reduces to /sə/, *as* to /əz/, and the article to /ə/, so the phrase runs together as [nɑt sə ˈmʌtʃ əzə] — and after *without*, where it lives most of the time, [wɪˈðaʊt sə ˈmʌtʃ əzə]. The single stress is on *much*
+**Русский:** даже ни одного, хотя бы один — минимизатор: назвать самое малое и отрицать даже его
 **Type:** negative determiner (emphatic minimizer), negative-polarity &middot; **Position:** the negative — *not*, *without*, *never*, or another negative in the clause — licenses the minimizer *so much as*, which stands in front of the central determiner *a* &middot; **Register:** emphatic and faintly literary; entirely ordinary in speech after *without*, and used in writing when a point is being made rather than a fact reported
 **Goes with:** **singular countable nouns only**, since the phrase contains *a* — *not so much as a word*, *without so much as a goodbye*. Never a plural (✗ *not so much as a words*) and never a bare uncountable (✗ *not so much as a money*); to reach an uncountable you must put a unit noun in front of it — *not so much as a drop of rain*, *not so much as a scrap of evidence*, *not so much as a dime of the money*.
 **With *of*:** Not directly — ✗ *not so much as a of them*. The partitive is *not so much as one of*: *not so much as one of them offered to help*.
@@ -782,6 +817,7 @@ A learner will meet all five of these constantly in speech, in song lyrics, in f
 ### ain't no
 
 **Pronunciation:** /ˌeɪnt ˈnoʊ/ &middot; *aynt-NOH* &middot; the /t/ is usually unreleased before /n/, giving [eɪnˈnoʊ]
+**Русский:** прост., нестандарт. нету никакого — двойное отрицание; вне литературной нормы
 **Type:** negative determiner inside a negative-concord frame &middot; **Position:** *no* is the central determiner; *ain't* is the negated verb &middot; **Register:** **nonstandard in edited American English** — systematic and rule-governed in African American English, in Southern and Appalachian vernacular, and in casual speech everywhere, but out of place in academic writing, business correspondence, and any formal register
 **Goes with:** whatever *no* goes with — singular countable (*ain't no way*), plural countable (*ain't no jobs*), and uncountable (*ain't no money*). The restriction on this phrase is social, not grammatical.
 **With *of*:** Not directly; the partitive is *ain't none of*, which doubles the concord again (*There ain't none of them left*).
@@ -803,6 +839,7 @@ The most visible form of negative concord in American English, fixed enough in s
 ### ary / ary a
 
 **Pronunciation:** /ˈɛri/ &middot; *AIR-ee* &middot; with the article, *ary a* /ˈɛri ə/ &middot; *AIR-ee-uh* &middot; the vowel is the one in *hair*, matching [nary a](#nary-a) exactly; some speakers say /ˈæri/ (*ARR-ee*). The article keeps its **weak** /ə/, and in fast speech the whole phrase reduces to [ˈɛrə] or further to *arn* [ɑrn]. The word is a worn-down *e'er a*, "ever a" — the positive counterpart of *ne'er a*, "never a," which gave *nary*
+**Русский:** диал. (аппалач., юж.) хоть один, какой-нибудь — диалектный эквивалент стандартного any
 **Type:** quantifier (free choice and negative-polarity), dialectal &middot; **Position:** with the article, *ary* stands in front of the central determiner *a* (*ary a match*); the older bare form *ary* fills the central slot itself (*ary man*) &middot; **Register:** **dialectal — Appalachian, Ozark, and rural Southern speech**, and now largely a marker of older or rural speakers. An American meets it in Appalachian fiction and oral history, in old-time and bluegrass lyrics, and from relatives in the mountain South. It belongs to no written standard, and outside dialogue a writer using it will be read as imitating an accent
 **Goes with:** **singular countable nouns only**, since the usual form contains *a* — *ary a match*, *ary a soul*, *ary one*. Never a plural (✗ *ary a matches*), never an uncountable (✗ *ary a money*). The bare form takes a singular countable too: *ary man*, *ary bit*.
 **With *of*:** Not directly — ✗ *ary a of them*. The idiom is *ary a one*: *ary a one of them*.
@@ -825,6 +862,7 @@ A dialectal free-choice determiner meaning "any, a single," descended from *e'er
 ### nary a
 
 **Pronunciation:** /ˈnɛri ə/ &middot; *NAIR-ee-uh* &middot; a worn-down *ne'er a*, "never a"; the vowel is the one in *hair*, not the one in *nasty*, and the article keeps its weak /ə/
+**Русский:** диал., книжн. ни единого — фольклорно-старомодное «ни одного»
 **Type:** negative determiner (emphatic) &middot; **Position:** *nary* negates the phrase headed by the central determiner *a* &middot; **Register:** **dialectal and literary** — Appalachian and rural Southern in origin, now used nationally as a deliberately folksy or old-fashioned flourish; never neutral, but not stigmatized either
 **Goes with:** **singular countable nouns only**, since the phrase contains *a* — *nary a soul*, *nary a word*. Never a plural (✗ *nary a words*), never an uncountable (✗ *nary a money*).
 **With *of*:** Not used — ✗ *nary a of them*. The idiom is *nary a one*: *nary a one of them showed up*.
@@ -846,6 +884,7 @@ An old-fashioned emphatic negative meaning "not a single one." It survives in fi
 ### never a
 
 **Pronunciation:** /ˈnɛvɚ ə/ &middot; *NEV-ur-uh* &middot; the article keeps its **weak** /ə/ throughout, and *never* itself has no weak form, since it carries the negation. In fast and older speech the medial /v/ drops and the two words run to [ˈnɛɚ ə] or [ˈnɛrə] — which is the exact road that produced the written contraction ***ne'er a*** /nɛr ə/ &middot; *NAIR-uh*, and one step further, dialectal [nary a](#nary-a) /ˈnɛri ə/. The three spellings are one word at three stages of erosion
+**Русский:** устар. ни единого — живо лишь в обороте never a dull moment «скучать не приходится»
 **Type:** negative determiner (emphatic), archaic and fossilized &middot; **Position:** *never* negates the phrase headed by the central determiner *a* &middot; **Register:** **archaic as a productive determiner; alive only inside fixed phrases.** An American meets the old determiner use in Shakespeare and his contemporaries and in older poetry, and nowhere in modern prose. What survives in ordinary speech is the frozen *never a dull moment* and the deliberately old-fashioned idiom *never a one*
 **Goes with:** **singular countable nouns only**, since the phrase contains *a* — *never a word*, *never a dull moment*, *never a one*. Never a plural (✗ *never a words*), never an uncountable (✗ *never a money*). Do not mistake the live modern pattern for this one: in *He never wrote a word*, *never* is an ordinary **adverb** on the verb and *a* is just the article, and that pattern takes any noun the verb will allow.
 **With *of*:** Not directly — ✗ *never a of them*. The idiom is *never a one*: *never a one of them answered*.
@@ -868,6 +907,7 @@ An archaic emphatic negative meaning "not a single one." Its life as a productiv
 ### no (negative concord)
 
 **Pronunciation:** /noʊ/ &middot; *NOH* &middot; no weak form — the concord *no* keeps the same full diphthong and the same stress as standard *no*, which is what makes it audible
+**Русский:** прост. двойное отрицание: no при уже отрицательном глаголе — как в русском, но вне нормы
 **Type:** negative determiner inside a negative-concord frame &middot; **Position:** central determiner, in a clause whose verb is already negated &middot; **Register:** **nonstandard in edited American English** — fully systematic in African American English, Southern and Appalachian vernacular, Chicano English, and casual speech across the country, but read as an error in academic, professional, and published prose
 **Goes with:** the same three noun types as standard *no* — singular countable (*I don't have no car*), plural countable (*He didn't make no promises*), uncountable (*We don't have no time*). Nothing about the noun blocks it; the objection is entirely social.
 **With *of*:** The partitive doubles the concord too — *I don't want none of that*, where standard English has *I don't want any of that*.

@@ -16,6 +16,7 @@ Subordinators that take a full clause with its own subject and verb. The verb in
 ### for fear that
 
 **Pronunciation:** /fɚ ˈfɪr ðæt/, reduced /fɚ ˈfɪr ðət/ &middot; *fer-FEER-thut*  
+**Русский:** из страха, что; боясь, что — отрицательная цель: то, чего действием стараются избежать
 **Type:** subordinating (compound) &middot; **Register:** neutral to formal  
 **Clause type:** adverbial clause of negative purpose  
 **Pattern:** [main clause] *for fear that* [clause]. &middot; *For fear that* [clause], [main clause]. &middot; [main clause] *for fear of* [gerund/noun].  
@@ -37,6 +38,7 @@ Negative purpose: the clause names the thing the subject is acting to avoid. It 
 ### in case
 
 **Pronunciation:** /ɪn ˈkeɪs/ &middot; *in-KAYSS*  
+**Русский:** на случай, если — предупредительная цель; не «если» (if): действие делается заранее
 **Type:** subordinating (compound) &middot; **Register:** neutral  
 **Clause type:** adverbial clause of precautionary purpose  
 **Pattern:** [main clause] *in case* [clause]. &middot; *In case* [clause], [main clause]. &middot; [main clause], just *in case*. &middot; *In case of* [noun], [main clause].  
@@ -57,6 +59,7 @@ Precautionary purpose — you do the main action now so that you are ready for a
 ### in order that
 
 **Pronunciation:** /ɪn ˈɔrdɚ ðæt/, reduced /ɪn ˈɔrdɚ ðət/ &middot; *in-OR-der-thut*  
+**Русский:** чтобы, с тем чтобы — книжн. союз цели, обычно с модальным глаголом
 **Type:** subordinating (compound) &middot; **Register:** formal  
 **Clause type:** adverbial clause of purpose  
 **Pattern:** [main clause] *in order that* [clause with modal]. &middot; *In order that* [clause with modal], [main clause].  
@@ -76,6 +79,7 @@ The formal written twin of *so that*, and almost always followed by a modal — 
 ### in the hope that
 
 **Pronunciation:** /ɪn ðə ˈhoʊp ðæt/, reduced /ɪn ðə ˈhoʊp ðət/ &middot; *in-thuh-HOHP-thut*  
+**Русский:** в надежде, что — цель, в достижимости которой говорящий не уверен
 **Type:** subordinating (compound) &middot; **Register:** neutral  
 **Clause type:** adverbial clause of tentative purpose  
 **Pattern:** [main clause] *in the hope that* [clause]. &middot; *In the hope that* [clause], [main clause]. &middot; [main clause] *in hopes that* [clause]. &middot; [main clause] *in the hope of* [gerund/noun].  
@@ -97,6 +101,7 @@ Purpose with the confidence taken out of it. *So that* presents the goal as reac
 ### lest
 
 **Pronunciation:** /lɛst/ &middot; *LEST*  
+**Русский:** чтобы не, дабы не — книжн., устар.; отрицание уже внутри слова, второе «не» лишнее
 **Type:** subordinating &middot; **Register:** formal, literary  
 **Clause type:** adverbial clause of negative purpose  
 **Pattern:** [main clause] *lest* [subject] [bare subjunctive verb]. &middot; [main clause] *lest* [subject] *should* [verb]. &middot; *Lest* [clause], [main clause].  
@@ -116,6 +121,7 @@ Negative purpose, equal to *so that ... not* or *for fear that*. It takes the pr
 ### so
 
 **Pronunciation:** /soʊ/, reduced /sə/ in rapid connected speech &middot; *SOH*  
+**Русский:** чтобы — разг. замена so that; с запятой перед ним — «так что, поэтому» (результат)
 **Type:** subordinating (reduced *so that*); also coordinating in the result sense &middot; **Register:** neutral to informal  
 **Clause type:** adverbial clause of purpose; coordinate clause in the result sense  
 **Pattern:** [main clause] *so* [clause with modal]. — purpose &middot; [independent clause], *so* [independent clause]. — result &middot; [subject] [verb] *so* [adjective] *that* [clause]. — degree  
@@ -136,10 +142,11 @@ In casual American English bare *so* stands in for *so that* in the purpose sens
 ### so that
 
 **Pronunciation:** /ˈsoʊ ðæt/, reduced /ˈsoʊ ðət/ &middot; *SOH-thut*  
+**Русский:** чтобы — основной союз цели; запятая перед ним меняет смысл на «так что» (результат)
 **Type:** subordinating (compound) &middot; **Register:** neutral  
 **Clause type:** adverbial clause of purpose, or of result when preceded by a comma  
 **Pattern:** [main clause] *so that* [clause with modal]. — purpose &middot; [main clause], *so that* [clause]. — result &middot; *So that* [clause], [main clause]. — fronted, formal  
-**Punctuation:** The central rule of this category. **No comma before *so that* = purpose**: *He spoke slowly so that everyone would understand* (that was the goal). **Comma before *so that* = result**: *He spoke slowly, so that everyone understood* (that is what happened). A semicolon is always wrong here.  
+**Punctuation:** The central rule of this category. ✗ *No comma before *so that* = purpose**: *He spoke slowly so that everyone would understand* (that was the goal). ✗ *Comma before *so that* = result**: *He spoke slowly, so that everyone understood* (that is what happened). A semicolon is always wrong here.  
 **Variants:** *so* (that-dropped, informal)
 
 The default purpose subordinator of American English, and the one to reach for when the two clauses have different subjects. The purpose clause normally carries *can, could, will, would,* or *may*; drop the modal and the sentence tips toward the result reading. Compare *in order that* (formal), bare *so* (casual), and *in order to* (same subject, infinitive).
@@ -156,6 +163,7 @@ The default purpose subordinator of American English, and the one to reach for w
 ### that
 
 **Pronunciation:** /ðæt/, reduced /ðət/ &middot; *THAT*  
+**Русский:** дабы, чтобы — устар., книжн. союз цели, только в паре с may/might
 **Type:** subordinating (purpose use of the complementizer) &middot; **Register:** literary, archaic  
 **Clause type:** adverbial clause of purpose  
 **Pattern:** [main clause] *that* [subject] *may/might* [verb]. &middot; [imperative], *that* [subject] *may/might* [verb]. &middot; [main clause] *that* [subject] [bare subjunctive verb].  
@@ -176,6 +184,7 @@ Bare *that* as a purpose subordinator survives in scripture, hymns, oratory, poe
 ### to the end that
 
 **Pronunciation:** /tə ði ˈɛnd ðæt/, reduced /tə ði ˈɛnd ðət/ &middot; *tuh-thee-END-thut*  
+**Русский:** с тем чтобы, дабы — юр., книжн.; end здесь «цель», а не «конец»
 **Type:** subordinating (compound) &middot; **Register:** formal, legal  
 **Clause type:** adverbial clause of purpose  
 **Pattern:** [main clause] *to the end that* [clause with modal]. &middot; [main clause], *to the end that* [clause with modal]. &middot; *To the end that* [clause with modal], [main clause]. — rare  
@@ -197,6 +206,7 @@ A ceremonial *in order that*, at home in statutes, contracts, charters, and olde
 ### to the intent that
 
 **Pronunciation:** /tə ði ɪnˈtɛnt ðæt/, reduced /tə ði ɪnˈtɛnt ðət/ &middot; *tuh-thee-in-TENT-thut*  
+**Русский:** с тем намерением, чтобы — устар. юр., язык старых завещаний и актов
 **Type:** subordinating (compound) &middot; **Register:** archaic legal — conveyancing and drafting boilerplate  
 **Clause type:** adverbial clause of purpose  
 **Pattern:** [main clause], *to the intent that* [clause with *may/might/shall*]. &middot; [main clause] *to the intent that* [clause with *may/might/shall*]. &middot; [main clause] *to the intent and purpose that* [clause]. — the doubled drafting formula &middot; *To the intent that* [clause], [main clause]. — rare  
@@ -218,6 +228,7 @@ An American meets this one in old deeds, wills, and trust instruments, in Englis
 ### to which end
 
 **Pronunciation:** /tə ˌwɪtʃ ˈɛnd/, reduced /tə wɪtʃ ˈɛnd/ &middot; *tuh-wich-END*  
+**Русский:** с каковой целью, ради чего — книжн., юр.; отсылает к цели, названной в предыдущей части
 **Type:** relative connective of purpose (subordinating) &middot; **Register:** formal, legal  
 **Clause type:** sentential relative clause of purpose  
 **Pattern:** [independent clause], *to which end* [clause]. &middot; [independent clause]. *To which end,* [clause]. &middot; [independent clause], *to which end* [subject] *shall/may* [verb].  
@@ -238,6 +249,7 @@ The relative twin of *to that end*: it reaches back, treats the whole preceding 
 ### with the intent that
 
 **Pronunciation:** /wɪð ði ɪnˈtɛnt ðæt/, reduced /wɪð ði ɪnˈtɛnt ðət/ &middot; *with-thee-in-TENT-thut*  
+**Русский:** с намерением, чтобы — юр.: фиксирует умысел действующего лица, а не итог
 **Type:** subordinating (compound) &middot; **Register:** formal, legal  
 **Clause type:** adverbial clause of purpose  
 **Pattern:** [main clause] *with the intent that* [clause]. &middot; [main clause] *with the intention that* [clause]. &middot; [main clause] *with intent to* [base verb]. — the criminal-law formula &middot; *With the intent that* [clause], [main clause]. — rare  
@@ -264,6 +276,7 @@ Non-finite purpose markers. These take a bare infinitive or an *-ing* form inste
 ### for the purpose of
 
 **Pronunciation:** /fɚ ðə ˈpɝpəs əv/ &middot; *fer-thuh-PUR-puss-uv*  
+**Русский:** с целью, для — книжн., юр.; дальше только -ing или существительное, не инфинитив
 **Type:** quasi-subordinator (prepositional, takes a gerund) &middot; **Register:** formal  
 **Clause type:** non-finite purpose adjunct (gerund phrase)  
 **Pattern:** [main clause] *for the purpose of* [gerund phrase]. &middot; *For the purpose of* [gerund phrase], [main clause]. &middot; *For purposes of* [noun], [main clause].  
@@ -284,6 +297,7 @@ The purpose marker of statutes, contracts, and policy documents. It takes an *-i
 ### for the sake of
 
 **Pronunciation:** /fɚ ðə ˈseɪk əv/, reduced /fɚ ðə ˈseɪk ə/ &middot; *fer-thuh-SAYK-uv*  
+**Русский:** ради, для блага — цель через того или то, что от неё выигрывает
 **Type:** quasi-subordinator (prepositional, takes a noun or a gerund) &middot; **Register:** neutral  
 **Clause type:** non-finite purpose adjunct (noun or gerund phrase)  
 **Pattern:** [main clause] *for the sake of* [noun/gerund]. &middot; *For the sake of* [noun/gerund], [main clause]. &middot; [main clause] *for* [possessive] *sake*. &middot; *For the sake of argument,* [main clause]. — frozen hedge  
@@ -305,6 +319,7 @@ Purpose named through the person or thing that benefits — *for the sake of the
 ### for to
 
 **Pronunciation:** /fɚ ˈtu/, usually reduced /fɚ tə/ &middot; *fer-TOO*  
+**Русский:** чтобы — устар., диал.; язык баллад и южных говоров, в норме просто to
 **Type:** subordinating (infinitival), nonstandard &middot; **Register:** archaic, dialectal, balladry  
 **Clause type:** non-finite adverbial clause of purpose  
 **Pattern:** [main clause] *for to* [base verb]. &middot; [main clause] *for to* [base verb] [object]. &middot; [verb of motion] *for to* [base verb]. — the commonest frame  
@@ -326,6 +341,7 @@ A doubled purpose marker — the preposition *for* stacked on the infinitive *to
 ### in an effort to
 
 **Pronunciation:** /ɪn ən ˈɛfɚt tu/, reduced /ɪn ən ˈɛfɚt tə/ &middot; *in-un-EFF-ert-too*  
+**Русский:** пытаясь, в стремлении — газетный оборот: попытка, об успехе которой ничего не сказано
 **Type:** quasi-subordinator (prepositional phrase plus infinitive) &middot; **Register:** neutral; the house style of American news writing  
 **Clause type:** non-finite purpose adjunct (to-infinitive)  
 **Pattern:** [main clause] *in an effort to* [base verb]. &middot; *In an effort to* [base verb], [main clause]. &middot; [main clause] *in an attempt to* [base verb]. &middot; [main clause] *in a bid to* [base verb]. — headline register  
@@ -346,6 +362,7 @@ Purpose with a hedge built in. *In order to* and *so as to* simply name the aim;
 ### in order to
 
 **Pronunciation:** /ɪn ˈɔrdɚ tu/, reduced /ɪn ˈɔrdɚ tə/ &middot; *in-OR-der-too*  
+**Русский:** чтобы, для того чтобы — явный маркер цели перед инфинитивом
 **Type:** subordinating (infinitival) &middot; **Register:** neutral to formal  
 **Clause type:** non-finite adverbial clause of purpose  
 **Pattern:** [main clause] *in order to* [base verb]. &middot; *In order to* [base verb], [main clause]. &middot; [main clause] *in order not to* [base verb]. &middot; [main clause] *in order for* [subject] *to* [base verb].  
@@ -366,6 +383,7 @@ The explicit, slightly formal version of the plain purpose infinitive *to*. Its 
 ### in the interest of
 
 **Pronunciation:** /ɪn ði ˈɪntrəst əv/, also /ˈɪntərəst/ &middot; *in-thee-IN-trust-uv*  
+**Русский:** в интересах, ради — называет ценность или сторону, которой служит решение
 **Type:** quasi-subordinator (prepositional, takes a noun or a gerund) &middot; **Register:** neutral to formal  
 **Clause type:** non-finite purpose adjunct (noun or gerund phrase)  
 **Pattern:** [main clause] *in the interest of* [noun/gerund]. &middot; *In the interest of* [noun/gerund], [main clause]. &middot; [main clause] *in the interests of* [noun]. &middot; *In the public interest,* [main clause]. — fixed phrase  
@@ -386,6 +404,7 @@ Names the value or the party a decision is meant to serve: *in the interest of s
 ### so as to
 
 **Pronunciation:** /ˈsoʊ əz tə/, full /ˈsoʊ æz ˌtu/ &middot; *SOH-az-tuh*  
+**Русский:** чтобы, так чтобы — книжн.; особенно частотна форма so as not to «чтобы не»
 **Type:** subordinating (infinitival) &middot; **Register:** neutral to formal — the negative *so as not to* is everyday American  
 **Clause type:** non-finite adverbial clause of purpose  
 **Pattern:** [main clause] *so as to* [base verb]. &middot; [main clause] *so as not to* [base verb]. &middot; *So as to* [base verb], [main clause]. — rare  
@@ -406,6 +425,7 @@ A formal equivalent of *in order to* that is most alive in its negative, *so as 
 ### to
 
 **Pronunciation:** /tu/, reduced /tə/ before a consonant &middot; *TOO*  
+**Русский:** чтобы — обычный инфинитив цели; не путать с предлогом to «к, в, на» перед существительным
 **Type:** subordinating (infinitival purpose marker) &middot; **Register:** neutral  
 **Clause type:** non-finite adverbial clause of purpose  
 **Pattern:** [main clause] *to* [base verb]. &middot; *To* [base verb], [main clause]. &middot; [main clause] *to* [base verb], not *to* [base verb]. — contrastive &middot; [main clause] *only to* [base verb]. — unexpected result  
@@ -427,6 +447,7 @@ The plain to-infinitive is the ordinary, unmarked way to state purpose in Americ
 ### with a view to
 
 **Pronunciation:** /wɪð ə ˈvju tu/, reduced /wɪð ə ˈvju tə/, also /wɪθ/ &middot; *with-uh-VYOO-too*  
+**Русский:** с прицелом на, в расчёте на — офиц.; дальняя цель, дальше обязательно -ing
 **Type:** quasi-subordinator (prepositional, takes a gerund) &middot; **Register:** formal  
 **Clause type:** non-finite purpose adjunct (gerund phrase)  
 **Pattern:** [main clause] *with a view to* [gerund phrase]. &middot; *With a view to* [gerund phrase], [main clause]. &middot; [main clause] *with an eye to* [gerund phrase or noun].  
@@ -448,6 +469,7 @@ Business and diplomatic register, marking a longer-range aim than *in order to*.
 ### with the aim of
 
 **Pronunciation:** /wɪð ði ˈeɪm əv/ &middot; *with-thee-AYM-uv*  
+**Русский:** с целью — называет заявленную цель действующего лица, дальше -ing
 **Type:** quasi-subordinator (prepositional, takes a gerund) &middot; **Register:** neutral to formal  
 **Clause type:** non-finite purpose adjunct (gerund phrase)  
 **Pattern:** [main clause] *with the aim of* [gerund phrase]. &middot; *With the aim of* [gerund phrase], [main clause]. &middot; [main clause] *with the intention of* [gerund phrase].  
@@ -468,6 +490,7 @@ States the actor's declared objective, and is the workhorse of journalism, grant
 ### with this in mind
 
 **Pronunciation:** /wɪð ˈðɪs ɪn ˈmaɪnd/ &middot; *with-THISS-in-MYND*  
+**Русский:** с учётом этого, исходя из этого — отсылает к уже сказанному, новой цели не вводит
 **Type:** linking adverbial (prepositional phrase functioning as a conjunctive adverb) &middot; **Register:** neutral to formal  
 **Clause type:** independent clause (it does not subordinate anything)  
 **Pattern:** [independent clause]. *With this in mind*, [independent clause]. &middot; [independent clause]; *with this in mind*, [independent clause]. &middot; *With that in mind*, [independent clause]. &middot; [subject] [verb] ... *with this in mind*.  
@@ -493,6 +516,7 @@ Paired constructions in which the first half sets a degree and the second half r
 ### enough ... to
 
 **Pronunciation:** /ɪˈnʌf ... tu/, also /əˈnʌf/ &middot; *ee-NUFF ... too*  
+**Русский:** достаточно ..., чтобы — степени хватает, и результат наступает
 **Type:** correlative (degree and result) &middot; **Register:** neutral  
 **Clause type:** non-finite result clause (to-infinitive); finite with *that*  
 **Pattern:** [subject] [verb] [adjective/adverb] *enough to* [base verb]. &middot; [subject] [verb] *enough* [noun] *to* [base verb]. &middot; [subject] [verb] [adjective] *enough for* [object] *to* [base verb]. &middot; [subject] [verb] [adjective] *enough that* [clause]. &middot; [subject] [verb] *enough that* [clause]. — bare adverb, no adjective in front of it  
@@ -514,6 +538,7 @@ The positive counterpart of *too ... to*: the degree is sufficient, so the resul
 ### so ... as to
 
 **Pronunciation:** /ˈsoʊ ... əz tə/, full /ˈsoʊ ... æz ˌtu/ &middot; *SOH ... az-tuh*  
+**Русский:** настолько ..., что — книжн. вариант so ... that; be so kind as to «будьте добры»
 **Type:** correlative (degree and result) &middot; **Register:** formal  
 **Clause type:** non-finite result clause (to-infinitive)  
 **Pattern:** [subject] [be] *so* [adjective] *as to* [base verb]. &middot; [subject] [verb] *so* [adverb] *as to* [base verb]. &middot; [subject] [be] *not so* [adjective] *as to* [base verb]. — understatement &middot; *Be so kind/good as to* [base verb]. — frozen request formula  
@@ -535,6 +560,7 @@ The infinitival twin of *so ... that*: the degree named in the first half is hig
 ### so ... that
 
 **Pronunciation:** /ˈsoʊ ... ðæt/, reduced /ðət/ &middot; *SOH ... thut*  
+**Русский:** так, настолько ..., что — степень и её следствие; so при прилагательном или наречии
 **Type:** correlative (degree and result) &middot; **Register:** neutral  
 **Clause type:** adverbial clause of result  
 **Pattern:** [subject] [verb] *so* [adjective/adverb] *that* [result clause]. &middot; [subject] [verb] *so much/many/little/few* [noun] *that* [result clause]. &middot; *So* [adjective] [be] [subject] *that* [result clause]. — literary inversion  
@@ -555,6 +581,7 @@ Marks a degree high enough to produce a result. *So* attaches to an adjective or
 ### such ... that
 
 **Pronunciation:** /ˈsʌtʃ ... ðæt/, reduced /ðət/ &middot; *SUCH ... thut*  
+**Русский:** такой ..., что — то же, что so ... that, но при существительном
 **Type:** correlative (degree and result) &middot; **Register:** neutral to formal  
 **Clause type:** adverbial clause of result  
 **Pattern:** [subject] [verb] *such a/an* [adjective] [singular noun] *that* [result clause]. &middot; [subject] [verb] *such* [plural or mass noun] *that* [result clause]. &middot; *Such* [be] [noun] *that* [result clause]. — formal inversion  
@@ -575,6 +602,7 @@ The noun-phrase counterpart of *so ... that*: use it when the degree word has to
 ### too ... to
 
 **Pronunciation:** /ˈtu ... tu/, second *to* reduced /tə/ &middot; *TOO ... tuh*  
+**Русский:** слишком ..., чтобы — избыток, из-за которого действие не выходит; отрицание уже в too
 **Type:** correlative (degree and result) &middot; **Register:** neutral  
 **Clause type:** non-finite result clause (to-infinitive), negative in force  
 **Pattern:** [subject] [verb] *too* [adjective/adverb] *to* [base verb]. &middot; [subject] [verb] *too* [adjective] *for* [object] *to* [base verb]. &middot; [subject] [verb] *too much/many* [noun] *to* [base verb]. &middot; [subject] [be] *too* [adjective] *a* [singular noun] *to* [base verb]. — article inversion  
@@ -601,6 +629,7 @@ Subordinators, infinitivals, and relatives that attach a clause reporting an out
 ### in such a way that
 
 **Pronunciation:** /ɪn ˈsʌtʃ ə ˈweɪ ðæt/, reduced /ɪn ˈsʌtʃ ə ˈweɪ ðət/ &middot; *in-SUCH-uh-WAY-thut*  
+**Русский:** таким образом, что; так, чтобы — способ действия и его результат в одном обороте
 **Type:** subordinating (compound) &middot; **Register:** neutral to formal  
 **Clause type:** adverbial clause of manner and result  
 **Pattern:** [main clause] *in such a way that* [clause]. &middot; [main clause] *in such a way as to* [base verb]. &middot; [main clause] *in such a manner that* [clause]. — formal &middot; [main clause] *in a way that* [clause]. — plainer  
@@ -622,6 +651,7 @@ Manner and result folded into one phrase: it says how something was done and, in
 ### it follows that
 
 **Pronunciation:** /ɪt ˈfɑloʊz ðæt/, reduced /ɪt ˈfɑloʊz ðət/ &middot; *it-FOL-ohz-thut*  
+**Русский:** отсюда следует, что — вывод, вынуждаемый сказанным; отриц. «отсюда не следует, что»
 **Type:** matrix-clause result connector (takes a *that*-complement) &middot; **Register:** formal, academic, legal  
 **Clause type:** independent clause with a *that*-clause complement  
 **Pattern:** [independent clause]. *It follows that* [clause]. &middot; [independent clause]; *it follows that* [clause]. &middot; [independent clause], and *it follows that* [clause]. &middot; *From this it follows that* [clause]. &middot; *It does not follow that* [clause]. — the negative, which does most of the work  
@@ -643,6 +673,7 @@ Marks what comes next as a conclusion forced by what came before. Grammatically 
 ### meaning (that)
 
 **Pronunciation:** /ˈminɪŋ ðæt/, reduced /ˈminɪŋ ðət/ &middot; *MEE-ning-thut*  
+**Русский:** то есть, а значит — поясняет следствие сказанного простыми словами
 **Type:** participial connector (supplementary *-ing* clause) &middot; **Register:** neutral to informal  
 **Clause type:** supplementary participial clause of result or restatement  
 **Pattern:** [independent clause], *meaning* [clause]. &middot; [independent clause], *meaning that* [clause]. &middot; [independent clause] — *meaning* [noun phrase]. &middot; [noun phrase], *meaning* [noun phrase]. — gloss  
@@ -664,6 +695,7 @@ Spells out the consequence, or the plain-English translation, of what was just s
 ### only to
 
 **Pronunciation:** /ˈoʊnli tu/, reduced /ˈoʊnli tə/ &middot; *OHN-lee-too*  
+**Русский:** и в итоге лишь..., только чтобы (обнаружить) — неожиданный и обидный исход вместо цели
 **Type:** subordinating (infinitival result marker) &middot; **Register:** neutral  
 **Clause type:** non-finite clause of unexpected result  
 **Pattern:** [independent clause], *only to* [base verb]. &middot; [independent clause], *only to find/discover/learn* [that-clause]. &middot; [independent clause], *only to have* [object] [past participle]. &middot; [independent clause], *only for* [subject] *to* [base verb].  
@@ -685,6 +717,7 @@ The disappointment infinitive. It has the shape of a purpose infinitive but repo
 ### so much so that
 
 **Pronunciation:** /ˌsoʊ ˈmʌtʃ soʊ ðæt/, reduced /ˌsoʊ ˈmʌtʃ soʊ ðət/ &middot; *soh-MUCH-soh-thut*  
+**Русский:** настолько, что — отсылает назад к степени, названной в предыдущей части фразы
 **Type:** correlative result connector (anaphoric *so ... that*) &middot; **Register:** neutral to formal  
 **Clause type:** adverbial clause of result, hanging on a degree already stated  
 **Pattern:** [clause containing an adjective or adverb], *so much so that* [result clause]. &middot; [clause] — *so much so that* [result clause]. &middot; [clause], *so much so*. — result left implied  
@@ -706,6 +739,7 @@ The pro-form of *so ... that*. Split *so ... that* wraps around the degree word 
 ### such that
 
 **Pronunciation:** /ˈsʌtʃ ðæt/, reduced /ˈsʌtʃ ðət/ &middot; *SUCH-thut*  
+**Русский:** такой, что; так, чтобы — книжн., тех.; в математике «такой, что» при задании условия
 **Type:** subordinating (compound) &middot; **Register:** formal, technical  
 **Clause type:** adverbial clause of result, or a specification clause after a noun  
 **Pattern:** [main clause] *such that* [clause]. &middot; [noun phrase] *such that* [clause]. — mathematical specification  
@@ -725,6 +759,7 @@ Two jobs in one phrase. In ordinary prose it reports result: the state of affair
 ### to such an extent that
 
 **Pronunciation:** /tə ˈsʌtʃ ən ɪkˈstɛnt ðæt/, reduced /tə ˈsʌtʃ ən ɪkˈstɛnt ðət/ &middot; *tuh-such-un-ick-STENT-thut*  
+**Русский:** до такой степени, что — книжн.; не путать с to the extent that «постольку, поскольку»
 **Type:** subordinating (compound) &middot; **Register:** formal  
 **Clause type:** adverbial clause of result at a degree  
 **Pattern:** [main clause] *to such an extent that* [clause]. &middot; [main clause] *to such a degree that* [clause]. &middot; [main clause], *to such an extent that* [clause]. &middot; *To such an extent* [auxiliary] [subject] [verb] *that* [clause]. — literary inversion  
@@ -746,6 +781,7 @@ The formal member of the *so ... that* family. Where *so ... that* wraps around 
 ### to the point that
 
 **Pronunciation:** /tə ðə ˈpɔɪnt ðæt/, reduced /tə ðə ˈpɔɪnt ðət/ &middot; *tuh-thuh-POYNT-thut*  
+**Русский:** до того, что; до такой степени, что — порог, который ситуация перешла
 **Type:** subordinating (compound) &middot; **Register:** neutral  
 **Clause type:** adverbial clause of result at a threshold  
 **Pattern:** [main clause] *to the point that* [clause]. &middot; [main clause] *to the point where* [clause]. &middot; [main clause] *to the point of* [gerund/noun].  
@@ -766,6 +802,7 @@ Names a threshold the situation crossed, so the result comes across as an extrem
 ### whereby
 
 **Pronunciation:** /wɛrˈbaɪ/ &middot; *wair-BY*  
+**Русский:** посредством чего, согласно которому — книжн., юр.; всегда при существительном-механизме
 **Type:** relative adverb (subordinating) &middot; **Register:** formal, legal  
 **Clause type:** relative clause of means or result  
 **Pattern:** [noun naming a mechanism: agreement, rule, system, process, plan] *whereby* [clause]. — defining, no comma &middot; [fully identified noun], *whereby* [clause]. — supplementary, comma &middot; [main clause] *under/by* [determiner] [noun naming a mechanism] *whereby* [clause]. — the prepositional frame it most often sits in  
@@ -787,6 +824,7 @@ Means "by means of which" or "as a result of which," and it always hangs on a pr
 ### which is why
 
 **Pronunciation:** /wɪtʃ ɪz ˈwaɪ/ &middot; *which-iz-WHY*  
+**Русский:** поэтому, вот почему — относит. оборот: всё сказанное перед ним — причина
 **Type:** relative (sentential), used as a result connector &middot; **Register:** neutral  
 **Clause type:** sentential relative clause of result  
 **Pattern:** [independent clause], *which is why* [clause]. &middot; [independent clause], *which is how* [clause]. &middot; [independent clause], *which is the reason* [clause]. &middot; [independent clause] — *which is why* [clause].  
@@ -808,6 +846,7 @@ Reaches back and treats the entire preceding clause as the reason for what comes
 ### which means
 
 **Pronunciation:** /wɪtʃ ˈminz/ &middot; *which-MEENZ*  
+**Русский:** а значит, из чего следует — разговорный аналог therefore: вывод, а не причина
 **Type:** relative (sentential), used as a result connector &middot; **Register:** neutral  
 **Clause type:** sentential relative clause of inference or consequence  
 **Pattern:** [independent clause], *which means* [clause]. &middot; [independent clause], *which means that* [clause]. &middot; [independent clause] — *which means* [noun phrase]. &middot; [independent clause], *which would mean* [clause]. — hypothetical  
@@ -829,6 +868,7 @@ Reaches back, treats the whole preceding clause as a premise, and states what fo
 ### with the result that
 
 **Pronunciation:** /wɪð ðə rɪˈzʌlt ðæt/, reduced /wɪð ðə rɪˈzʌlt ðət/ &middot; *with-thuh-rih-ZULT-thut*  
+**Русский:** в результате чего, так что — книжн.: называет только исход, целью прочитан быть не может
 **Type:** subordinating (compound) &middot; **Register:** formal  
 **Clause type:** adverbial clause of result  
 **Pattern:** [independent clause], *with the result that* [clause]. &middot; [independent clause], *with the effect that* [clause].  
@@ -856,6 +896,7 @@ The semicolon rule is a rule about what follows, not about the word itself. When
 ### accordingly
 
 **Pronunciation:** /əˈkɔrdɪŋli/ &middot; *uh-KOR-ding-lee*  
+**Русский:** соответственно, и поэтому — книжн.: в ответ на сказанное были приняты меры
 **Type:** conjunctive adverb &middot; **Register:** formal  
 **Clause type:** independent clause (it does not subordinate anything)  
 **Pattern:** [independent clause]; *accordingly*, [independent clause]. &middot; [independent clause]. *Accordingly*, [independent clause]. &middot; [subject], *accordingly*, [verb] ... &middot; [subject] [verb] *accordingly*. — manner sense  
@@ -875,6 +916,7 @@ The semicolon rule is a rule about what follows, not about the word itself. When
 ### as a corollary
 
 **Pronunciation:** /æz ə ˈkɔrəˌlɛri/, reduced /əz ə ˈkɔrəˌlɛri/ &middot; *az-uh-KOR-uh-lair-ee*  
+**Русский:** как следствие, в качестве побочного вывода — книжн., науч.: попутное, не главное следствие
 **Type:** conjunctive adverb (prepositional phrase functioning as one) &middot; **Register:** formal, academic  
 **Clause type:** independent clause  
 **Pattern:** [independent clause]; *as a corollary*, [independent clause]. &middot; [independent clause]. *As a corollary*, [independent clause]. &middot; *As a corollary of* [noun], [independent clause]. &middot; [subject] [verb], *as a corollary*, [complement].  
@@ -895,6 +937,7 @@ Marks the next statement as a secondary consequence — something that falls out
 ### as a result
 
 **Pronunciation:** /æz ə rɪˈzʌlt/, reduced /əz ə rɪˈzʌlt/ &middot; *az-uh-rih-ZULT*  
+**Русский:** в результате, поэтому — самый нейтральный из результативных оборотов, годится и в речи
 **Type:** conjunctive adverb (prepositional phrase functioning as one) &middot; **Register:** neutral  
 **Clause type:** independent clause  
 **Pattern:** [independent clause]; *as a result*, [independent clause]. &middot; [independent clause]. *As a result*, [independent clause]. &middot; [subject] [verb] ... *as a result*. &middot; *As a result of* [noun], [independent clause].  
@@ -915,6 +958,7 @@ The plainest of the result connectives and the only one that sounds natural in e
 ### consequently
 
 **Pronunciation:** /ˈkɑnsəkwɛntli/, /ˈkɑnsəkwəntli/ &middot; *KON-suh-kwent-lee*  
+**Русский:** следовательно, вследствие этого — книжн.: реальное последствие, а не логический вывод
 **Type:** conjunctive adverb &middot; **Register:** formal  
 **Clause type:** independent clause  
 **Pattern:** [independent clause]; *consequently*, [independent clause]. &middot; [independent clause]. *Consequently*, [independent clause]. &middot; [subject] and, *consequently*, [verb] ... &middot; [subject] [auxiliary] *consequently* [verb] ...  
@@ -935,6 +979,7 @@ Marks the second clause as the effect of the first. It is interchangeable with *
 ### hence
 
 **Pronunciation:** /hɛns/ &middot; *HENSS*  
+**Русский:** отсюда, потому и — книжн.; часто без глагола: hence the delay «отсюда и задержка»
 **Type:** conjunctive adverb &middot; **Register:** formal, literary  
 **Clause type:** independent clause; also used with no verb before a noun phrase  
 **Pattern:** [independent clause]; *hence*, [independent clause]. &middot; [independent clause]. *Hence*, [independent clause]. &middot; [independent clause], *hence* [noun phrase]. — verbless &middot; [independent clause] — *hence* [noun phrase].  
@@ -955,6 +1000,7 @@ Marks the second clause as the effect of the first. It is interchangeable with *
 ### so then
 
 **Pronunciation:** /soʊ ˈðɛn/ &middot; *soh-THEN*  
+**Русский:** и вот тогда; так что же — разг.: в рассказе последовательность, в споре вывод-вопрос
 **Type:** conjunctive adverb (discourse marker of inference and sequence) &middot; **Register:** informal, spoken  
 **Clause type:** independent clause  
 **Pattern:** [independent clause]. *So then*, [independent clause]. &middot; [independent clause]. *So then* [independent clause]. — narrative, no comma &middot; *So then*, [question]? — checking an inference &middot; [independent clause]; *so then* [independent clause].  
@@ -975,6 +1021,7 @@ Two jobs, told apart by intonation. In narrative it simply moves the story forwa
 ### that way / this way
 
 **Pronunciation:** /ˈðæt ˌweɪ/, /ˈðɪs ˌweɪ/ &middot; *THAT-way*, *THISS-way*  
+**Русский:** тогда, так — разг.: «сделай так — тогда не забудешь»; устная замена so that
 **Type:** conjunctive adverb (noun phrase functioning as one) &middot; **Register:** informal to neutral  
 **Clause type:** independent clause  
 **Pattern:** [independent clause]. *That way*, [independent clause]. &middot; [independent clause]; *that way*, [independent clause]. &middot; [imperative]. *That way* [independent clause]. &middot; *This way*, [independent clause]. — pointing at a plan being proposed now  
@@ -996,6 +1043,7 @@ The spoken American answer to *so that*. It points back at the action just propo
 ### thereby
 
 **Pronunciation:** /ðɛrˈbaɪ/, also /ˈðɛrbaɪ/ &middot; *thair-BY*  
+**Русский:** тем самым — книжн., обычно перед оборотом с -ing, а не перед целым предложением
 **Type:** conjunctive adverb (result by means of what was just said) &middot; **Register:** formal  
 **Clause type:** heads an *-ing* participial phrase; rarely a full independent clause  
 **Pattern:** [independent clause], *thereby* [-ing participle phrase]. &middot; [subject] [verb] and *thereby* [verb] ... &middot; [subject] [auxiliary] *thereby* [verb] ... &middot; [independent clause]; *thereby*, [independent clause]. — rare  
@@ -1016,6 +1064,7 @@ The spoken American answer to *so that*. It points back at the action just propo
 ### therefore
 
 **Pronunciation:** /ˈðɛrˌfɔr/ &middot; *THAIR-for*  
+**Русский:** поэтому, следовательно — книжн.: вывод; не союз, перед ним нужна точка с запятой
 **Type:** conjunctive adverb &middot; **Register:** formal  
 **Clause type:** independent clause  
 **Pattern:** [independent clause]; *therefore*, [independent clause]. &middot; [independent clause]. *Therefore*, [independent clause]. &middot; [subject] [auxiliary] *therefore* [verb] ... &middot; [subject] [verb], *therefore*, [complement].  
@@ -1036,6 +1085,7 @@ Draws a conclusion from what came before, and is strongest in argument, proof, a
 ### thus
 
 **Pronunciation:** /ðʌs/ &middot; *THUSS*  
+**Русский:** таким образом, тем самым — книжн., науч.: одновременно и способ, и следствие
 **Type:** conjunctive adverb &middot; **Register:** formal, academic  
 **Clause type:** independent clause; also modifies a following participle  
 **Pattern:** [independent clause]; *thus*, [independent clause]. &middot; [independent clause]. *Thus*, [independent clause]. &middot; [independent clause], *thus* [-ing participle phrase]. &middot; [independent clause] — *thus* [noun phrase]. — verbless tag &middot; [subject] [auxiliary] *thus* [verb] ...  

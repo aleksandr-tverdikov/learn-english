@@ -13,6 +13,7 @@ What these words get in exchange for the heavier punctuation is **mobility**, an
 ### additionally
 
 **Pronunciation:** /əˈdɪʃənəli/ &middot; *uh-DISH-uh-nuh-lee*
+**Русский:** кроме того, дополнительно — самая сухая добавка ещё одного пункта; книжн.
 **Type:** conjunctive adverb &middot; **Register:** formal
 **Clause type:** Independent clause — adverbial link of addition
 **Pattern:** [Independent clause]; *additionally*, [independent clause]. &middot; [Independent clause]. *Additionally*, [independent clause]. &middot; [Subject], *additionally*, [predicate]. &middot; [Subject] [verb phrase] and, *additionally*, [verb phrase].
@@ -32,6 +33,7 @@ Adds one more item to a list of points, and lives mostly in reports, memos, and 
 ### again
 
 **Pronunciation:** /əˈɡɛn/, also /əˈɡeɪn/ &middot; *uh-GEN, also uh-GAYN*
+**Русский:** к тому же, далее — вводит ещё один довод, а не повторение события
 **Type:** conjunctive adverb &middot; **Register:** neutral
 **Clause type:** Independent clause — adverbial link of addition (one more point of the same kind). Also an ordinary **time adverb** meaning "once more" (*play it again*), which sits in the predicate and takes no commas.
 **Pattern:** *Again*, [independent clause]. &middot; [Independent clause]; *again*, [independent clause]. &middot; [Subject], *again*, [predicate]. &middot; [Subject] [verb phrase] *again*. *(time adverb — "once more," no commas)*
@@ -52,6 +54,7 @@ The additive *again* introduces one more instance of the same point rather than 
 ### also
 
 **Pronunciation:** /ˈɔlsoʊ/ &middot; *AWL-soh*
+**Русский:** также, кроме того — наречие, а не союз: само ничего не соединяет
 **Type:** conjunctive adverb &middot; **Register:** neutral
 **Clause type:** Independent clause — adverbial link of addition
 **Pattern:** [Independent clause]; [subject] *also* [verb phrase]. &middot; [Subject] [auxiliary] *also* [main verb]. &middot; [Subject] [be] *also* [complement]. &middot; *Also*, [independent clause].
@@ -71,6 +74,7 @@ The everyday additive adverb, and the one learners most often try to use as a co
 ### besides
 
 **Pronunciation:** /bɪˈsaɪdz/ &middot; *bih-SIDES*
+**Русский:** да и вообще, к тому же — разг. решающий добавочный довод («и этим всё сказано»)
 **Type:** conjunctive adverb &middot; **Register:** informal
 **Clause type:** Independent clause — adverbial link of addition (clinching reason). Also a **preposition** meaning "in addition to" or "apart from," which takes a noun phrase instead of a clause.
 **Pattern:** [Independent clause]. *Besides*, [independent clause]. &middot; [Independent clause]; *besides*, [independent clause]. &middot; [Independent clause], and *besides*, [independent clause]. &middot; *Besides* [noun phrase], [independent clause]. *(preposition)*
@@ -91,6 +95,7 @@ Adds the reason the speaker was saving: the clincher meant to end the discussion
 ### besides which
 
 **Pronunciation:** /bɪˈsaɪdz ˌwɪtʃ/ &middot; *bih-SIDES-wich*
+**Русский:** а кроме того — разг., прицепляет ещё одну причину прямо к предыдущей фразе
 **Type:** conjunctive adverb (phrasal) &middot; **Register:** informal to neutral
 **Clause type:** Independent clause — adverbial link of addition (a clinching extra reason). Formally a **relative** *which* pointing back at the whole clause before it, which is why it can attach across a comma.
 **Pattern:** [Independent clause], *besides which* [independent clause]. &middot; [Independent clause]. *Besides which*, [independent clause]. &middot; [Independent clause]; *besides which*, [independent clause].
@@ -110,6 +115,7 @@ Piles one more reason onto the one just given, with the same "and that settles i
 ### for that matter
 
 **Pronunciation:** /fər ˈðæt ˌmætər/ &middot; *fur THAT mat-ur*
+**Русский:** если уж на то пошло — распространяет сказанное на более широкий случай
 **Type:** conjunctive adverb (phrasal) &middot; **Register:** neutral to informal
 **Clause type:** Independent clause or phrase — adverbial link of addition that stretches the previous claim to a further case
 **Pattern:** [Independent clause]; *for that matter*, [independent clause]. &middot; [Independent clause]. *For that matter*, [independent clause]. &middot; [noun phrase], or [noun phrase] *for that matter*, [continuation]. &middot; [Independent clause], and *for that matter*, [independent clause].
@@ -129,6 +135,7 @@ Extends what was just said to a further case the hearer may not have considered,
 ### furthermore
 
 **Pronunciation:** /ˈfɜrðərˌmɔr/ &middot; *FUR-thur-mor*
+**Русский:** более того, далее — книжн., продолжает накопление доводов
 **Type:** conjunctive adverb &middot; **Register:** formal
 **Clause type:** Independent clause — adverbial link of addition
 **Pattern:** [Independent clause]; *furthermore*, [independent clause]. &middot; [Independent clause]. *Furthermore*, [independent clause]. &middot; [Subject], *furthermore*, [predicate]. &middot; [Subject] [verb phrase] and, *furthermore*, [verb phrase].
@@ -149,6 +156,7 @@ Adds another point pushing in the same direction as the last one and signals tha
 ### in addition
 
 **Pronunciation:** /ɪn əˈdɪʃən/ &middot; *in uh-DISH-un*
+**Русский:** кроме того, вдобавок — нейтральная деловая добавка отдельного пункта
 **Type:** conjunctive adverb (phrasal) &middot; **Register:** neutral
 **Clause type:** Independent clause — adverbial link of addition. Also *in addition to*, a **preposition** taking a noun phrase.
 **Pattern:** [Independent clause]; *in addition*, [independent clause]. &middot; [Independent clause]. *In addition*, [independent clause]. &middot; [Subject], *in addition*, [predicate]. &middot; [Subject] [verb phrase] and, *in addition*, [object]. &middot; *In addition to* [noun phrase], [independent clause]. *(preposition)*
@@ -169,6 +177,7 @@ The neutral phrasal additive: acceptable in business writing without the starch 
 ### moreover
 
 **Pronunciation:** /mɔrˈoʊvər/ &middot; *mor-OH-vur*
+**Русский:** более того — книжн., новый довод подаётся как более весомый
 **Type:** conjunctive adverb &middot; **Register:** formal
 **Clause type:** Independent clause — adverbial link of addition (reinforcing)
 **Pattern:** [Independent clause]; *moreover*, [independent clause]. &middot; [Independent clause]. *Moreover*, [independent clause]. &middot; [Subject], *moreover*, [predicate].
@@ -189,6 +198,7 @@ Adds a point that reinforces and outweighs the one before it — the "and what's
 ### what's more
 
 **Pronunciation:** /ˌwʌts ˈmɔr/ &middot; *wuts MOR*
+**Русский:** мало того, более того — разг. соответствие moreover
 **Type:** conjunctive adverb (phrasal) &middot; **Register:** informal to neutral
 **Clause type:** Independent clause — adverbial link of addition (reinforcing)
 **Pattern:** [Independent clause]; *what's more*, [independent clause]. &middot; [Independent clause]. *What's more*, [independent clause]. &middot; [Independent clause], and *what's more*, [independent clause].
@@ -208,6 +218,7 @@ The conversational *moreover*: it adds a second point and claims the second one 
 ### withal
 
 **Pronunciation:** /wɪˈðɔl/ &middot; *with-AWL*
+**Русский:** к тому же; впрочем — устар., книжн. (Шекспир, Библия короля Якова)
 **Type:** conjunctive adverb &middot; **Register:** archaic, literary
 **Clause type:** Independent clause — adverbial link of addition ("besides, moreover"), and in later use of concession ("nevertheless"). Also an archaic **postposed preposition** meaning "with" (*the tools he worked withal*).
 **Pattern:** [Independent clause]; *withal*, [independent clause]. &middot; [Subject] [verb phrase], *withal*. &middot; [adjective] and *withal* [adjective]. &middot; [noun phrase] [relative clause] *withal*. *(archaic preposition — "with")*
@@ -230,6 +241,7 @@ Elizabethan and Victorian English for "besides, and along with that," drifting t
 ### admittedly
 
 **Pronunciation:** /ədˈmɪtɪdli/ &middot; *ad-MIT-id-lee*
+**Русский:** надо признать, признаться — уступка против себя перед неизбежным «но»
 **Type:** conjunctive adverb &middot; **Register:** neutral
 **Clause type:** Independent clause — adverbial link of concession
 **Pattern:** [Independent clause]; *admittedly*, [independent clause]. &middot; [Independent clause]. *Admittedly*, [independent clause]. &middot; [Subject] [be/auxiliary], *admittedly*, [complement]. &middot; [Subject] [be/auxiliary] *admittedly* [complement]. *(integrated — no commas)* &middot; [Independent clause] — *admittedly* — [continuation].
@@ -249,6 +261,7 @@ Concedes a point against your own argument before you go on to answer it. *Grant
 ### at the same time
 
 **Pronunciation:** /ət ðə ˌseɪm ˈtaɪm/ &middot; *ut thuh saym TIME*
+**Русский:** вместе с тем, при этом — уступка, а не одновременность во времени
 **Type:** conjunctive adverb (phrasal) &middot; **Register:** neutral
 **Clause type:** Independent clause — adverbial link of concession (two things true at once). Also a plain time adverbial meaning "simultaneously," which belongs to the predicate.
 **Pattern:** [Independent clause]. *At the same time*, [independent clause]. &middot; [Independent clause]; *at the same time*, [independent clause]. &middot; [Subject] [be/auxiliary], *at the same time*, [complement]. &middot; [Subject] [verb phrase] and, *at the same time*, [verb phrase]. &middot; [Subject] [verb phrase] *at the same time*. *(literal simultaneity — no commas)*
@@ -268,6 +281,7 @@ Holds two facts in the frame together and asks the reader to keep both: "that is
 ### contrariwise
 
 **Pronunciation:** /ˈkɑntrɛriˌwaɪz/ &middot; *KAHN-treh-ree-wize*
+**Русский:** наоборот, напротив — устар., книжн. предшественник conversely
 **Type:** conjunctive adverb &middot; **Register:** formal, literary (dated)
 **Clause type:** Independent clause — adverbial link of contrast (the opposite case)
 **Pattern:** [Independent clause]; *contrariwise*, [independent clause]. &middot; [Independent clause]. *Contrariwise*, [independent clause]. &middot; [Subject], *contrariwise*, [predicate].
@@ -287,6 +301,7 @@ The nineteenth-century ancestor of *conversely*: it flips the previous statement
 ### conversely
 
 **Pronunciation:** /kənˈvɜrsli/, also /ˈkɑnvɜrsli/ &middot; *kun-VURS-lee, also KAHN-vurs-lee*
+**Русский:** и наоборот — книжн., точное зеркальное обращение сказанного
 **Type:** conjunctive adverb &middot; **Register:** formal
 **Clause type:** Independent clause — adverbial link of contrast (logical reversal)
 **Pattern:** [Independent clause]; *conversely*, [independent clause]. &middot; [Independent clause]. *Conversely*, [independent clause]. &middot; [Subject], *conversely*, [predicate].
@@ -305,6 +320,7 @@ Introduces the exact reverse of what was just stated — the same terms with the
 ### even so
 
 **Pronunciation:** /ˌivən ˈsoʊ/ &middot; *ee-vun SOH*
+**Русский:** и всё же, тем не менее — сначала соглашается, потом стоит на своём
 **Type:** conjunctive adverb (phrasal) &middot; **Register:** neutral
 **Clause type:** Independent clause — adverbial link of concession
 **Pattern:** [Independent clause]. *Even so*, [independent clause]. &middot; [Independent clause]; *even so*, [independent clause]. &middot; [Subject], *even so*, [predicate]. &middot; [Independent clause] and, *even so*, [verb phrase].
@@ -325,6 +341,7 @@ The plain-English *nevertheless*: it grants everything just said and then holds 
 ### granted
 
 **Pronunciation:** /ˈɡræntɪd/ &middot; *GRAN-tid*
+**Русский:** допустим, положим — разг. уступка, почти всегда перед «но»
 **Type:** conjunctive adverb &middot; **Register:** informal
 **Clause type:** Independent clause — adverbial link of concession
 **Pattern:** *Granted*, [independent clause]. &middot; [Independent clause]. *Granted*. [Independent clause]. &middot; *Granted that* [clause], [main clause]. *(subordinating use)*
@@ -344,6 +361,7 @@ Concedes the other side's point out loud, almost always to set up a *but*. It is
 ### however
 
 **Pronunciation:** /haʊˈɛvər/ &middot; *how-EV-ur*
+**Русский:** однако, но — наречие: перед ним точка с запятой или точка, а не запятая
 **Type:** conjunctive adverb &middot; **Register:** neutral (formal-leaning in front position)
 **Clause type:** Independent clause — adverbial link of contrast. Also a **subordinating** conjunction meaning "no matter how," which does introduce a real adverbial clause.
 **Pattern:** [Independent clause]; *however*, [independent clause]. &middot; [Independent clause]. *However*, [independent clause]. &middot; [Subject], *however*, [predicate]. &middot; [Independent clause]; [independent clause], *however*.
@@ -362,6 +380,7 @@ The default contrast connector of written English: it marks its clause as runnin
 ### in contrast
 
 **Pronunciation:** /ɪn ˈkɑntræst/ &middot; *in KAHN-trast*
+**Русский:** в отличие от этого, напротив — книжн., указывает на различие без оттенка неожиданности
 **Type:** conjunctive adverb (phrasal) &middot; **Register:** formal
 **Clause type:** Independent clause — adverbial link of contrast (two cases compared). Also *in contrast to* / *in contrast with*, a **preposition** taking a noun phrase.
 **Pattern:** [Independent clause]. *In contrast*, [independent clause]. &middot; [Independent clause]; *in contrast*, [independent clause]. &middot; [Subject], *in contrast*, [predicate]. &middot; *In contrast to* [noun phrase], [independent clause]. *(preposition)*
@@ -381,6 +400,7 @@ Sets two things side by side and points at the difference between them. Unlike *
 ### instead
 
 **Pronunciation:** /ɪnˈstɛd/ &middot; *in-STED*
+**Русский:** вместо этого — называет замену тому, что не произошло
 **Type:** conjunctive adverb &middot; **Register:** neutral
 **Clause type:** Independent clause — adverbial link of substitution. Also *instead of*, a **preposition** taking a noun phrase or an *-ing* form.
 **Pattern:** [Independent clause]; *instead*, [independent clause]. &middot; [Independent clause]. *Instead*, [independent clause]. &middot; [Independent clause]; [independent clause] *instead*. &middot; *Instead of* [noun phrase / -ing form], [independent clause]. *(preposition)*
@@ -400,6 +420,7 @@ Marks its clause as the replacement for something that did not happen — it ans
 ### nevertheless
 
 **Pronunciation:** /ˌnɛvərðəˈlɛs/ &middot; *nev-ur-thuh-LESS*
+**Русский:** тем не менее, несмотря на это — книжн.
 **Type:** conjunctive adverb &middot; **Register:** formal
 **Clause type:** Independent clause — adverbial link of concession
 **Pattern:** [Independent clause]; *nevertheless*, [independent clause]. &middot; [Independent clause]. *Nevertheless*, [independent clause]. &middot; [Subject] [auxiliary] *nevertheless* [verb phrase]. &middot; [Subject], *nevertheless*, [predicate]. &middot; [Independent clause]. [Independent clause] *nevertheless*.
@@ -419,6 +440,7 @@ Grants the previous statement in full and then asserts the opposite of what it i
 ### nonetheless
 
 **Pronunciation:** /ˌnʌnðəˈlɛs/ &middot; *nun-thuh-LESS*
+**Русский:** тем не менее — книжн., полный синоним nevertheless
 **Type:** conjunctive adverb &middot; **Register:** formal
 **Clause type:** Independent clause — adverbial link of concession
 **Pattern:** [Independent clause]; *nonetheless*, [independent clause]. &middot; [Independent clause]. *Nonetheless*, [independent clause]. &middot; [Subject] [be/auxiliary] *nonetheless* [complement]. &middot; [Independent clause]. [Independent clause] *nonetheless*.
@@ -438,6 +460,7 @@ Functionally identical to *nevertheless* — pick either. The only real differen
 ### notwithstanding
 
 **Pronunciation:** /ˌnɑtwɪθˈstændɪŋ/, also /ˌnɑtwɪðˈstændɪŋ/ &middot; *naht-with-STAN-ding* — the second form has a voiced *th*
+**Русский:** несмотря на это — юр., книжн.; чаще предлог, чем связка
 **Type:** conjunctive adverb &middot; **Register:** formal (legal and academic)
 **Clause type:** Independent clause — adverbial link of concession. Also a **preposition**, standing either before or after its noun phrase, and with *that* a formal **subordinating** conjunction.
 **Pattern:** [Independent clause]; *notwithstanding*, [independent clause]. &middot; [Independent clause]. *Notwithstanding*, [independent clause]. &middot; *Notwithstanding* [noun phrase], [independent clause]. *(preposition)* &middot; [Noun phrase] *notwithstanding*, [independent clause]. *(preposition, postposed)* &middot; *Notwithstanding that* [clause], [main clause]. *(subordinator)*
@@ -458,6 +481,7 @@ A formal *nevertheless*, still alive in contracts, statutes, and academic prose.
 ### on the contrary
 
 **Pronunciation:** /ɑn ðə ˈkɑntrɛri/ &middot; *on thuh KAHN-trair-ee*
+**Русский:** наоборот, напротив — опровергает сказанное; не синоним on the other hand
 **Type:** conjunctive adverb (phrasal) &middot; **Register:** neutral to formal
 **Clause type:** Independent clause — adverbial link of contradiction
 **Pattern:** [Negative statement]. *On the contrary*, [independent clause]. &middot; [Negative statement]; *on the contrary*, [independent clause]. &middot; "[Claim]" — "*On the contrary*, [independent clause]."
@@ -477,6 +501,7 @@ Denies what was just said and replaces it with the truth. It requires a precedin
 ### on the other hand
 
 **Pronunciation:** /ɑn ði ˈʌðər ˌhænd/ &middot; *on thee UTH-ur hand*
+**Русский:** с другой стороны — взвешивает второй довод, не отменяя первого
 **Type:** conjunctive adverb (phrasal) &middot; **Register:** neutral
 **Clause type:** Independent clause — adverbial link of contrast (a balancing consideration)
 **Pattern:** [Independent clause]. *On the other hand*, [independent clause]. &middot; [Independent clause]; *on the other hand*, [independent clause]. &middot; [Subject], *on the other hand*, [predicate]. &middot; *On the one hand*, [clause]; *on the other hand*, [clause].
@@ -496,6 +521,7 @@ Introduces a consideration that pulls the other way without denying the first �
 ### per contra
 
 **Pronunciation:** /pər ˈkɑntrə/ &middot; *pur KAHN-truh*
+**Русский:** наоборот, напротив — лат., книжн.; бухг. и юр.
 **Type:** conjunctive adverb (phrasal, Latin) &middot; **Register:** formal, technical (accounting, law, older criticism)
 **Clause type:** Independent clause — adverbial link of contrast (the entry on the opposite side of the account)
 **Pattern:** [Independent clause]; *per contra*, [independent clause]. &middot; [Independent clause]. *Per contra*, [independent clause]. &middot; [Subject], *per contra*, [predicate].
@@ -515,6 +541,7 @@ Latin for "on the contrary," literally "by the opposite side" — the phrase com
 ### rather
 
 **Pronunciation:** /ˈræðər/ &middot; *RATH-ur*
+**Русский:** вернее, точнее сказать — поправка: «не то, а это»
 **Type:** conjunctive adverb &middot; **Register:** neutral
 **Clause type:** Independent clause — adverbial link of correction. The same form is also a **degree adverb** (*rather cold*), half of the preference idiom *would rather*, and part of the quasi-coordinator *rather than* — none of which is this connector.
 **Pattern:** [Negative clause]; *rather*, [independent clause]. &middot; [Negative clause]. *Rather*, [independent clause]. &middot; [Negative clause] — *rather*, [independent clause]. &middot; [phrase], or *rather*, [corrected phrase]. &middot; [Subject] [be] *rather* [adjective]. *(degree adverb)* &middot; [Subject] would *rather* [verb phrase]. *(preference idiom)*
@@ -535,6 +562,7 @@ Corrects the statement just made and puts a more accurate one in its place: "not
 ### regardless
 
 **Pronunciation:** /rɪˈɡɑrdləs/ &middot; *rih-GARD-luss*
+**Русский:** всё равно, несмотря ни на что — резче nevertheless: довод не взвешивается, а отбрасывается
 **Type:** conjunctive adverb &middot; **Register:** neutral (informal in final position)
 **Clause type:** Independent clause — adverbial link of concession (dismissal). Also *regardless of*, a **preposition** taking a noun phrase.
 **Pattern:** [Independent clause]; *regardless*, [independent clause]. &middot; [Independent clause]. *Regardless*, [independent clause]. &middot; [Independent clause] *regardless*. &middot; *Regardless of* [noun phrase], [independent clause]. *(preposition)*
@@ -554,6 +582,7 @@ Brushes everything just said aside as not changing the outcome. It is blunter th
 ### still
 
 **Pronunciation:** /stɪl/ &middot; *STIL*
+**Русский:** и всё же, всё-таки — разг. уступка (не «всё ещё»)
 **Type:** conjunctive adverb &middot; **Register:** neutral to informal
 **Clause type:** Independent clause — adverbial link of concession. The same form is also a plain **time adverb** meaning "up to now" (*She's still asleep*) and a **degree adverb** with comparatives (*still colder*), neither of which is a connector.
 **Pattern:** [Independent clause]. *Still*, [independent clause]. &middot; [Independent clause]; *still*, [independent clause]. &middot; [Independent clause], but *still*, [independent clause]. &middot; [Subject] [be] *still* [complement]. *(time adverb — no commas)*
@@ -573,6 +602,7 @@ The everyday concessive: "all of that is true, and yet." It is the shortest and 
 ### that said
 
 **Pronunciation:** /ˌðæt ˈsɛd/ &middot; *that SED*
+**Русский:** при этом, тем не менее — разг. поворот против только что сказанного
 **Type:** conjunctive adverb (phrasal) &middot; **Register:** neutral to informal
 **Clause type:** Independent clause — adverbial link of concession (pivot)
 **Pattern:** [Independent clause]. *That said*, [independent clause]. &middot; [Independent clause]; *that said*, [independent clause].
@@ -592,6 +622,7 @@ A conversational pivot: it acknowledges everything just said and then turns agai
 ### then again
 
 **Pronunciation:** /ˌðɛn əˈɡɛn/ &middot; *then uh-GEN*
+**Русский:** хотя, с другой стороны — говорящий на ходу опровергает сам себя
 **Type:** conjunctive adverb (phrasal) &middot; **Register:** informal
 **Clause type:** Independent clause — adverbial link of contrast (second thought)
 **Pattern:** [Independent clause]. *Then again*, [independent clause]. &middot; [Independent clause]; *then again*, [independent clause]. &middot; But *then again*, [independent clause].
@@ -610,6 +641,7 @@ Introduces a second thought that undercuts the speaker's own previous statement 
 ### though
 
 **Pronunciation:** /ðoʊ/ &middot; *THOH*
+**Русский:** правда, впрочем — разг., ставится в конце фразы
 **Type:** conjunctive adverb &middot; **Register:** informal
 **Clause type:** Independent clause — adverbial link of concession. Also a **subordinating** conjunction, in which use it fronts a dependent clause.
 **Pattern:** [Independent clause]. [Independent clause], *though*. &middot; [Subject] [verb], *though*, [continuation]. &middot; *Though* [clause], [main clause]. *(subordinating use — a different animal)*
@@ -632,6 +664,7 @@ The spoken workhorse of concession, tacked onto the end of a sentence: *It's col
 ### equally
 
 **Pronunciation:** /ˈikwəli/ &middot; *EE-kwuh-lee*
+**Русский:** в равной мере, столь же — новый довод той же весомости, а не просто похожий
 **Type:** conjunctive adverb &middot; **Register:** neutral to formal
 **Clause type:** Independent clause — adverbial link of parallel weight ("and just as much"). Also a **degree adverb** inside the clause (*equally difficult*) and a **manner adverb** (*divided equally*), neither of which is a connector.
 **Pattern:** [Independent clause]; *equally*, [independent clause]. &middot; [Independent clause]. *Equally*, [independent clause]. &middot; [Subject] [be/auxiliary], *equally*, [complement]. &middot; [Subject] [be] *equally* [adjective]. *(degree adverb — no commas)*
@@ -651,6 +684,7 @@ Presents the next point as carrying exactly the same weight as the last, rather 
 ### likewise
 
 **Pronunciation:** /ˈlaɪkˌwaɪz/ &middot; *LIKE-wize*
+**Русский:** так же, аналогично — то же действие или указание; также ответ «взаимно»
 **Type:** conjunctive adverb &middot; **Register:** neutral to formal
 **Clause type:** Independent clause — adverbial link of comparison (a parallel case)
 **Pattern:** [Independent clause]; *likewise*, [independent clause]. &middot; [Independent clause]. *Likewise*, [independent clause]. &middot; [Subject] *likewise* [verb phrase]. &middot; "*Likewise*." *(as a full reply)*
@@ -669,6 +703,7 @@ Says that what follows holds in the same way — the matching case, the matching
 ### similarly
 
 **Pronunciation:** /ˈsɪmələrli/ &middot; *SIM-uh-lur-lee*
+**Русский:** аналогично, подобным образом — книжн., сходство закономерности
 **Type:** conjunctive adverb &middot; **Register:** formal
 **Clause type:** Independent clause — adverbial link of comparison (a parallel pattern)
 **Pattern:** [Independent clause]; *similarly*, [independent clause]. &middot; [Independent clause]. *Similarly*, [independent clause]. &middot; [Subject], *similarly*, [predicate].
@@ -690,6 +725,7 @@ Introduces a second case that behaves like the first, usually inside an explanat
 ### accordingly
 
 **Pronunciation:** /əˈkɔrdɪŋli/ &middot; *uh-KOR-ding-lee*
+**Русский:** соответственно, в связи с этим — книжн.: кто-то поступил сообразно факту
 **Type:** conjunctive adverb &middot; **Register:** formal
 **Clause type:** Independent clause — adverbial link of result (an action taken in response)
 **Pattern:** [Independent clause]; *accordingly*, [independent clause]. &middot; [Independent clause]. *Accordingly*, [independent clause]. &middot; [Subject] [verb] *accordingly*.
@@ -708,6 +744,7 @@ Says that someone acted in the way the previous fact called for — result plus 
 ### as a result
 
 **Pronunciation:** /əz ə rɪˈzʌlt/, emphatic /æz ə rɪˈzʌlt/ &middot; *uz uh rih-ZULT, emphatic az uh rih-ZULT* — *as* is reduced in running speech; the full /æz/ appears only under emphasis
+**Русский:** в результате, вследствие этого — самое обиходное обозначение следствия
 **Type:** conjunctive adverb (phrasal) &middot; **Register:** neutral
 **Clause type:** Independent clause — adverbial link of result. Also *as a result of*, a **preposition** taking a noun phrase.
 **Pattern:** [Independent clause]; *as a result*, [independent clause]. &middot; [Independent clause]. *As a result*, [independent clause]. &middot; [Subject] [verb], *as a result*, [complement]. &middot; *As a result of* [noun phrase], [independent clause]. *(preposition)*
@@ -727,6 +764,7 @@ The plainest way to mark a consequence, and the everyday alternative to *consequ
 ### as such
 
 **Pronunciation:** /əz ˈsʌtʃ/ &middot; *uz SUCH* — *as* is reduced here; the full /æz/ appears only under contrastive stress
+**Русский:** в этом качестве, в силу этого; (разг.) поэтому — второе значение редакторы не одобряют
 **Type:** conjunctive adverb (phrasal) &middot; **Register:** neutral to formal
 **Clause type:** Independent clause — adverbial link of inference drawn from a category just named. Also a **prepositional phrase** meaning "in that capacity" or "considered in itself," which sits inside the predicate and takes no commas.
 **Pattern:** [Independent clause]; *as such*, [independent clause]. &middot; [Independent clause]. *As such*, [independent clause]. &middot; [Subject] [be/auxiliary], *as such*, [complement]. &middot; [Subject] [be] [noun phrase] and *as such* [verb phrase]. *("in that capacity" — no commas)*
@@ -746,6 +784,7 @@ Two jobs pull at this phrase, and only one of them is fully settled. Strictly, *
 ### by definition
 
 **Pronunciation:** /baɪ ˌdɛfəˈnɪʃən/ &middot; *by def-uh-NISH-un*
+**Русский:** по определению — вывод следует из смысла слов, а не из фактов
 **Type:** conjunctive adverb (phrasal) &middot; **Register:** neutral to formal
 **Clause type:** Independent clause — adverbial link of inference drawn from meaning alone. Also an ordinary prepositional adjunct inside the predicate (*settled by definition rather than by evidence*).
 **Pattern:** [Independent clause]; *by definition*, [independent clause]. &middot; [Independent clause]. *By definition*, [independent clause]. &middot; [Subject], *by definition*, [predicate]. &middot; [Subject] [be] *by definition* [complement]. *(integrated — no commas)*
@@ -765,6 +804,7 @@ Says the conclusion follows from what the words mean, not from any evidence — 
 ### by extension
 
 **Pronunciation:** /baɪ ɪkˈstɛnʃən/ &middot; *by ik-STEN-shun*
+**Русский:** а значит и, и шире — переносит готовый вывод на смежный объект
 **Type:** conjunctive adverb (phrasal) &middot; **Register:** neutral to formal
 **Clause type:** Independent clause or phrase — adverbial link carrying a conclusion over to a neighboring case
 **Pattern:** [Independent clause], and *by extension*, [independent clause]. &middot; [Independent clause]; *by extension*, [independent clause]. &middot; [noun phrase] and, *by extension*, [noun phrase]. &middot; *By extension*, [independent clause].
@@ -784,6 +824,7 @@ Carries a conclusion already reached over to something attached to it — typica
 ### by implication
 
 **Pronunciation:** /baɪ ˌɪmpləˈkeɪʃən/ &middot; *by im-pluh-KAY-shun*
+**Русский:** тем самым, косвенно — книжн., вывод, уже заложенный в сказанном
 **Type:** conjunctive adverb (phrasal) &middot; **Register:** formal
 **Clause type:** Independent clause or phrase — adverbial link of inference from what was left unsaid
 **Pattern:** [Independent clause]; *by implication*, [independent clause]. &middot; [Independent clause]. *By implication*, [independent clause]. &middot; [Subject], *by implication*, [predicate]. &middot; [noun phrase] and, *by implication*, [noun phrase].
@@ -803,6 +844,7 @@ Draws out something the previous statement entails without saying — the standa
 ### consequently
 
 **Pronunciation:** /ˈkɑnsəkwəntli/ &middot; *KAHN-suh-kwunt-lee*
+**Русский:** следовательно, вследствие этого — книжн., реальная цепочка событий
 **Type:** conjunctive adverb &middot; **Register:** formal
 **Clause type:** Independent clause — adverbial link of result
 **Pattern:** [Independent clause]; *consequently*, [independent clause]. &middot; [Independent clause]. *Consequently*, [independent clause]. &middot; [Subject] [auxiliary] *consequently* [verb phrase].
@@ -821,6 +863,7 @@ Marks its clause as the outcome the previous clause produced. Where *therefore* 
 ### elsewise
 
 **Pronunciation:** /ˈɛlsˌwaɪz/ &middot; *ELS-wize*
+**Русский:** иначе, а не то — устар. и диал. вариант otherwise (нелитературный)
 **Type:** conjunctive adverb &middot; **Register:** archaic and dialectal (nonstandard in edited prose)
 **Clause type:** Independent clause — adverbial link of negative condition ("if not, then")
 **Pattern:** [Independent clause]; *elsewise*, [independent clause]. &middot; [Independent clause]. *Elsewise*, [independent clause]. &middot; [Imperative], *elsewise* [independent clause].
@@ -840,6 +883,7 @@ An old variant of *otherwise* that outlived standard prose in regional American 
 ### hence
 
 **Pronunciation:** /hɛns/ &middot; *HENSS*
+**Русский:** отсюда, поэтому — книжн.; может стоять и без глагола: hence the delay
 **Type:** conjunctive adverb &middot; **Register:** formal
 **Clause type:** Independent clause — adverbial link of inference. Also used before a bare noun phrase with no verb, and separately as a time adverb meaning "from now" (*two weeks hence*).
 **Pattern:** [Independent clause]; *hence* [independent clause]. &middot; [Independent clause]. *Hence*, [independent clause]. &middot; [Independent clause]; *hence* [noun phrase]. &middot; [Independent clause] — *hence* [noun phrase]. &middot; [Independent clause], and *hence* [independent clause]. &middot; [Time expression] *hence*. *(time adverb — "from now")*
@@ -860,6 +904,7 @@ A compressed *therefore*, and the only member of this family that regularly appe
 ### in consequence
 
 **Pronunciation:** /ɪn ˈkɑnsəkwɛns/ &middot; *in KAHN-suh-kwens*
+**Русский:** вследствие этого — книжн., устаревающий вариант consequently
 **Type:** conjunctive adverb (phrasal) &middot; **Register:** formal
 **Clause type:** Independent clause — adverbial link of result. Also *in consequence of*, a **preposition** taking a noun phrase.
 **Pattern:** [Independent clause]; *in consequence*, [independent clause]. &middot; [Independent clause]. *In consequence*, [independent clause]. &middot; [Subject], *in consequence*, [predicate]. &middot; *In consequence of* [noun phrase], [independent clause]. *(preposition)*
@@ -879,6 +924,7 @@ The heavier, older sibling of *consequently*, at home in official reports, judgm
 ### in effect
 
 **Pronunciation:** /ɪn ɪˈfɛkt/ &middot; *in ih-FEKT*
+**Русский:** фактически, по сути дела — практический итог в отличие от формального
 **Type:** conjunctive adverb (phrasal) &middot; **Register:** neutral
 **Clause type:** Independent clause or phrase — adverbial link of practical equivalence ("what it amounts to"). Distinct from the predicative phrase *in effect* meaning "in force" (*the rule is still in effect*), which is not a connector.
 **Pattern:** [Independent clause]; *in effect*, [independent clause]. &middot; [Independent clause]. *In effect*, [independent clause]. &middot; [Subject] [verb], *in effect*, [complement]. &middot; [Subject] [be] *in effect*. *("in force" — not a connector)*
@@ -898,6 +944,7 @@ Restates what was just said as what it actually amounts to once the formalities 
 ### in turn
 
 **Pronunciation:** /ɪn ˈtɜrn/ &middot; *in TURN*
+**Русский:** в свою очередь — следующее звено цепочки: следствие само стало причиной
 **Type:** conjunctive adverb (phrasal) &middot; **Register:** neutral
 **Clause type:** Independent clause — adverbial link of result one link further along a chain. Also a plain adverbial meaning "one after another" (*the judges spoke in turn*), which belongs to the predicate and takes no commas.
 **Pattern:** [Independent clause]; *in turn*, [independent clause]. &middot; [Independent clause]. *In turn*, [independent clause]. &middot; [Subject], *in turn*, [predicate]. &middot; [Independent clause], which *in turn* [verb phrase]. &middot; [Subject] [verb phrase] *in turn*. *(literal "one after another" — no commas)*
@@ -917,6 +964,7 @@ Marks the next link in a chain of consequences: A causes B, and B *in turn* caus
 ### ipso facto
 
 **Pronunciation:** /ˌɪpsoʊ ˈfæktoʊ/ &middot; *ip-soh FAK-toh*
+**Русский:** в силу самого факта, тем самым — лат., юр.
 **Type:** conjunctive adverb (phrasal, Latin) &middot; **Register:** formal, legal
 **Clause type:** Independent clause or phrase — adverbial link of inference ("by that fact alone")
 **Pattern:** [Independent clause]; *ipso facto*, [independent clause]. &middot; *Ipso facto*, [independent clause]. &middot; [Subject] [be] *ipso facto* [complement]. *(integrated — no commas)* &middot; [Subject] [verb], *ipso facto*, [complement].
@@ -936,6 +984,7 @@ Latin for "by the fact itself": the consequence follows from the bare fact, with
 ### otherwise
 
 **Pronunciation:** /ˈʌðərˌwaɪz/ &middot; *UTH-ur-wize*
+**Русский:** иначе, в противном случае; в остальном — два разных значения связки
 **Type:** conjunctive adverb &middot; **Register:** neutral
 **Clause type:** Independent clause — adverbial link of negative condition ("if not"). Also a manner adverb meaning "differently" (*I couldn't have done otherwise*) and a modifier meaning "in other respects" (*an otherwise quiet street*).
 **Pattern:** [Imperative or statement]; *otherwise*, [independent clause]. &middot; [Independent clause]. *Otherwise*, [independent clause]. &middot; [Independent clause]; *otherwise* [independent clause]. &middot; [Independent clause], but *otherwise* [independent clause]. *("in all other respects")* &middot; [Subject] [auxiliary] *otherwise* [verb phrase]. *(manner adverb — "differently")*
@@ -956,6 +1005,7 @@ States what will follow if the previous statement is not acted on: "if that does
 ### therefore
 
 **Pronunciation:** /ˈðɛrˌfɔr/ &middot; *THAIR-for*
+**Русский:** следовательно, поэтому — книжн., логический вывод
 **Type:** conjunctive adverb &middot; **Register:** formal to neutral
 **Clause type:** Independent clause — adverbial link of logical conclusion
 **Pattern:** [Independent clause]; *therefore*, [independent clause]. &middot; [Independent clause]. *Therefore*, [independent clause]. &middot; [Subject] [auxiliary] *therefore* [verb phrase]. &middot; [Subject] [verb] and is, *therefore*, [complement].
@@ -975,6 +1025,7 @@ Draws a conclusion that follows logically from what came before — the connecto
 ### thus
 
 **Pronunciation:** /ðʌs/ &middot; *THUS*
+**Русский:** таким образом, следовательно; так, вот так — оба значения, книжн.
 **Type:** conjunctive adverb &middot; **Register:** formal
 **Clause type:** Independent clause — adverbial link of result. Also a manner adverb meaning "in this way," and a linker to *-ing* participles.
 **Pattern:** [Independent clause]; *thus* [independent clause]. &middot; [Independent clause]. *Thus*, [independent clause]. &middot; [Subject] [verb phrase] and *thus* [verb phrase]. &middot; [Independent clause], *thus* [-ing participle phrase]. &middot; *Thus* [verb] [subject]. *(literary inversion)* &middot; [Verb] [object] *thus*. *(manner adverb — "in this way")*
@@ -994,6 +1045,7 @@ Carries both "therefore" and "in this way," and the second sense is what separat
 ### to that end
 
 **Pronunciation:** /tə ˌðæt ˈɛnd/ &middot; *tuh that END* — *to* is reduced to /tə/, never /tu/
+**Русский:** с этой целью, для этого — книжн., называет действие ради заявленной цели
 **Type:** conjunctive adverb (phrasal) &middot; **Register:** formal
 **Clause type:** Independent clause — adverbial link of purpose: the means adopted to reach a goal the previous sentence stated
 **Pattern:** [Independent clause]. *To that end*, [independent clause]. &middot; [Independent clause]; *to that end*, [independent clause]. &middot; [Subject] [verb phrase] *to that end*. &middot; *To this end*, [independent clause]. *(same connector, pointing at a goal just stated)*
@@ -1015,6 +1067,7 @@ Names the action taken in service of a goal already stated — the forward-looki
 ### afterward
 
 **Pronunciation:** /ˈæftərwərd/ &middot; *AF-tur-wurd*
+**Русский:** потом, впоследствии — позже, но не обязательно сразу
 **Type:** conjunctive adverb &middot; **Register:** neutral
 **Clause type:** Independent clause — adverbial link of sequence
 **Pattern:** [Independent clause]; *afterward*, [independent clause]. &middot; [Independent clause]. *Afterward*, [independent clause]. &middot; [Independent clause] *afterward*.
@@ -1034,6 +1087,7 @@ Places its clause later in time than the last one. Unlike *then*, it does not cl
 ### finally
 
 **Pronunciation:** /ˈfaɪnəli/ &middot; *FY-nuh-lee*
+**Русский:** наконец, в заключение — последний пункт перечня (не «наконец-то»)
 **Type:** conjunctive adverb &middot; **Register:** neutral
 **Clause type:** Independent clause — adverbial link of sequence (final item). Also a plain **time adverb** meaning "at long last," which sits inside the clause and takes no commas.
 **Pattern:** *Finally*, [independent clause]. &middot; [Independent clause]. *Finally*, [independent clause]. &middot; [Independent clause]; *finally*, [independent clause]. &middot; [Subject] *finally* [verb]. *(time adverb, not a connector)*
@@ -1053,6 +1107,7 @@ Marks the last item in a sequence of steps or arguments. Keep it apart from the 
 ### first and foremost
 
 **Pronunciation:** /ˌfɜrst ən ˈfɔrmoʊst/ &middot; *furst und FOR-mohst*
+**Русский:** прежде всего, в первую очередь — первый пункт и одновременно главный
 **Type:** conjunctive adverb (phrasal, enumerative) &middot; **Register:** neutral
 **Clause type:** Independent clause — adverbial link of enumeration that also ranks: the first item and the most important one at once
 **Pattern:** *First and foremost*, [independent clause]. &middot; [Independent clause]; *first and foremost*, [independent clause]. &middot; [Subject] [be], *first and foremost*, [complement]. &middot; [Subject] [be] *first and foremost* [complement]. *(integrated — no commas)*
@@ -1072,6 +1127,7 @@ Opens a list and marks its first item as the one that matters most — a double 
 ### first off
 
 **Pronunciation:** /ˌfɜrst ˈɔf/ &middot; *furst OFF*
+**Русский:** во-первых, для начала — разг., устный зачин перечня, часто претензий
 **Type:** conjunctive adverb (phrasal, enumerative) &middot; **Register:** informal (spoken)
 **Clause type:** Independent clause — adverbial link of enumeration opening a list, most often a list of objections
 **Pattern:** *First off*, [independent clause]. &middot; [Independent clause]. *First off*, [independent clause]. &middot; *For starters*, [independent clause].
@@ -1091,6 +1147,7 @@ The spoken opener of a list, and in American English it very often introduces th
 ### first, second, third
 
 **Pronunciation:** /fɜrst/ &middot; *FURST*; /ˈsɛkənd/ &middot; *SEK-und*; /θɜrd/ &middot; *THURD*
+**Русский:** во-первых, во-вторых, в-третьих — нумерация шагов или доводов
 **Type:** conjunctive adverb (enumerative series) &middot; **Register:** neutral to formal
 **Clause type:** Independent clause — adverbial link of enumeration. The same words are ordinary **ordinal adjectives** and **nouns** elsewhere (*the first draft*, *she finished second*); only the fronted, comma-marked use is a connector.
 **Pattern:** *First*, [independent clause]. *Second*, [independent clause]. *Third*, [independent clause]. &middot; [Independent clause]; *second*, [independent clause]. &middot; [Statement]: *first*, [item]; *second*, [item]. &middot; *First* [noun phrase] [verb phrase]. *(ordinal adjective — no comma)*
@@ -1111,6 +1168,7 @@ Numbers the steps of an argument or a set of instructions and tells the reader h
 ### henceforth
 
 **Pronunciation:** /ˌhɛnsˈfɔrθ/ &middot; *henss-FORTH*
+**Русский:** отныне, впредь — книжн., юр. (уставы, постановления)
 **Type:** conjunctive adverb &middot; **Register:** formal (legal, ceremonial)
 **Clause type:** Independent clause — adverbial link of time (from now on)
 **Pattern:** *Henceforth*, [independent clause]. &middot; [Independent clause]; *henceforth*, [independent clause]. &middot; [Subject] [auxiliary] *henceforth* [verb phrase].
@@ -1130,6 +1188,7 @@ Announces that a new rule holds for all future time. It is genuinely formal — 
 ### hitherto
 
 **Pronunciation:** /ˌhɪðərˈtu/ &middot; *hith-ur-TOO*
+**Русский:** до сих пор, доныне — книжн., о положении дел до перемены
 **Type:** conjunctive adverb &middot; **Register:** formal, literary
 **Clause type:** Independent clause — adverbial link of time (up to now)
 **Pattern:** *Hitherto*, [independent clause]. &middot; [Subject] [auxiliary] *hitherto* [verb phrase]. &middot; [noun phrase] *hitherto* [past participle].
@@ -1149,6 +1208,7 @@ Announces that a new rule holds for all future time. It is genuinely formal — 
 ### in the first instance
 
 **Pronunciation:** /ɪn ðə ˈfɜrst ˌɪnstəns/ &middot; *in thuh FURST in-stunss*
+**Русский:** в первую очередь, на первом этапе — юр., канц. (за ним подразумеваются дальнейшие)
 **Type:** conjunctive adverb (phrasal) &middot; **Register:** formal (legal, administrative)
 **Clause type:** Independent clause — adverbial link of sequence meaning "at the first stage, before anything else is tried." Distinct from the fixed legal phrase *court of first instance*, which names the court where a case is first heard.
 **Pattern:** *In the first instance*, [independent clause]. &middot; [Independent clause]; *in the first instance*, [independent clause]. &middot; [Subject] [modal] [verb phrase], *in the first instance*, [continuation]. &middot; [Subject] should [verb phrase] *in the first instance*.
@@ -1168,6 +1228,7 @@ Names the first step of a procedure, with the strong implication that further st
 ### in the first place
 
 **Pronunciation:** /ɪn ðə ˈfɜrst ˌpleɪs/ &middot; *in thuh FURST playss*
+**Русский:** во-первых; (в конце фразы) вообще изначально — два разных значения
 **Type:** conjunctive adverb (phrasal) &middot; **Register:** neutral to informal
 **Clause type:** Independent clause — two jobs. Fronted, it enumerates the first of several reasons; at the end of a clause it points back to the beginning of the whole business and means "before any of this ever started."
 **Pattern:** *In the first place*, [independent clause]. &middot; *In the first place*, [independent clause]; *in the second place*, [independent clause]. &middot; [Independent clause] *in the first place*. *(retrospective — no comma before it)*
@@ -1187,6 +1248,7 @@ Fronted, it opens an argument with the first of a numbered set of reasons and pr
 ### lastly
 
 **Pronunciation:** /ˈlæstli/ &middot; *LAST-lee*
+**Русский:** наконец, в последнюю очередь — закрывает перечень, без оттенка «наконец-то»
 **Type:** conjunctive adverb &middot; **Register:** neutral to formal
 **Clause type:** Independent clause — adverbial link of enumeration (final item)
 **Pattern:** *Lastly*, [independent clause]. &middot; [Independent clause]. *Lastly*, [independent clause]. &middot; [Independent clause]; *lastly*, [independent clause]. &middot; [item], [item], and, *lastly*, [final item]. *(inside a list)*
@@ -1206,6 +1268,7 @@ Closes an enumerated list. It is slightly more formal than *finally* and has one
 ### meanwhile
 
 **Pronunciation:** /ˈminˌwaɪl/ &middot; *MEEN-wile*
+**Русский:** тем временем, между тем — параллельное действие, часто с сухой иронией
 **Type:** conjunctive adverb &middot; **Register:** neutral
 **Clause type:** Independent clause — adverbial link of simultaneity
 **Pattern:** [Independent clause]; *meanwhile*, [independent clause]. &middot; [Independent clause]. *Meanwhile*, [independent clause]. &middot; [Subject], *meanwhile*, [predicate].
@@ -1225,6 +1288,7 @@ Points at what was happening elsewhere at the same time. In journalism it often 
 ### next
 
 **Pronunciation:** /nɛkst/ &middot; *NEKST*
+**Русский:** затем, далее — следующий шаг инструкции или рассказа
 **Type:** conjunctive adverb &middot; **Register:** neutral
 **Clause type:** Independent clause — adverbial link of sequence. Also a determiner-like adjective (*next week*, *the next chapter*) and part of the preposition *next to*.
 **Pattern:** *Next*, [independent clause]. &middot; [Independent clause]. *Next*, [independent clause]. &middot; [Subject] [verb] *next*. &middot; *Next* [noun phrase] [verb phrase]. *(adjective — no comma)* &middot; [clause] *next to* [noun phrase]. *(part of a preposition — not this connector)*
@@ -1245,6 +1309,7 @@ The step-by-step connector of recipes, instructions, and narration. It differs f
 ### previously
 
 **Pronunciation:** /ˈpriviəsli/ &middot; *PREE-vee-us-lee*
+**Русский:** ранее, до этого — книжн., канц. (отчёты, протоколы, новости)
 **Type:** conjunctive adverb &middot; **Register:** formal to neutral
 **Clause type:** Independent clause — adverbial link of time (earlier point). Also a plain time adverb inside the predicate and a modifier of a participle or adjective (*previously undisclosed*), neither of which takes commas.
 **Pattern:** [Independent clause]; *previously*, [independent clause]. &middot; [Independent clause]. *Previously*, [independent clause]. &middot; [Subject] [auxiliary] *previously* [verb phrase]. &middot; *Previously* [past participle] [noun phrase] [verb phrase]. *(modifier — no commas)*
@@ -1264,6 +1329,7 @@ Points back to a time earlier than the one under discussion. It is the reporting
 ### subsequently
 
 **Pronunciation:** /ˈsʌbsəkwəntli/ &middot; *SUB-suh-kwunt-lee*
+**Русский:** впоследствии, затем — книжн.: только «позже по времени», без причинности
 **Type:** conjunctive adverb &middot; **Register:** formal
 **Clause type:** Independent clause — adverbial link of sequence
 **Pattern:** [Independent clause]; *subsequently*, [independent clause]. &middot; *Subsequently*, [independent clause]. &middot; [Subject] [auxiliary] *subsequently* [verb phrase].
@@ -1282,6 +1348,7 @@ Points back to a time earlier than the one under discussion. It is the reporting
 ### then
 
 **Pronunciation:** /ðɛn/, weak /ðən/ &middot; *THEN, weak thun*
+**Русский:** затем, потом; тогда, в таком случае — последовательность и вывод из условия
 **Type:** conjunctive adverb &middot; **Register:** neutral
 **Clause type:** Independent clause — adverbial link of sequence, or of inference drawn from a condition. Also a plain time adverb meaning "at that time" (*we lived in Ohio then*) and, before a title, an attributive adjective (*the then governor*).
 **Pattern:** [Independent clause]; *then* [independent clause]. &middot; [Independent clause], and *then* [independent clause]. &middot; If [clause], *then* [main clause]. &middot; [Independent clause] *then*. *(inference, informal)* &middot; the *then* [noun]. *(attributive adjective — no commas)*
@@ -1302,6 +1369,7 @@ Two connector jobs. First, next in a sequence: *Brown the onions; then add the g
 ### thereafter
 
 **Pronunciation:** /ˌðɛrˈæftər/ &middot; *thair-AF-tur*
+**Русский:** после этого, в дальнейшем — книжн., юр.; отсчёт от названного в тексте момента
 **Type:** conjunctive adverb &middot; **Register:** formal (contracts, statutes, and narrative history)
 **Clause type:** Independent clause — adverbial link of sequence ("after that point")
 **Pattern:** [Independent clause]; *thereafter*, [independent clause]. &middot; [Independent clause]. *Thereafter*, [independent clause]. &middot; [Subject] [verb phrase] *thereafter*. &middot; [Time expression] *thereafter*, [independent clause]. *(as in* shortly thereafter*)*
@@ -1323,6 +1391,7 @@ Two connector jobs. First, next in a sequence: *Brown the onions; then add the g
 ### as aforesaid
 
 **Pronunciation:** /æz əˈfɔrˌsɛd/ &middot; *az uh-FOR-sed*
+**Русский:** как сказано выше, вышеупомянутый — юр. канцелярит
 **Type:** conjunctive adverb (phrasal) &middot; **Register:** legal boilerplate (archaic outside legal drafting)
 **Clause type:** Independent clause or phrase — an adverbial back-reference identifying something already stated in the same document
 **Pattern:** [Independent clause], *as aforesaid*, [continuation]. &middot; [noun phrase] *as aforesaid*. &middot; *As aforesaid*, [independent clause]. &middot; the said [noun] *as aforesaid*.
@@ -1342,6 +1411,7 @@ The drafter's back-pointer: "the thing I already identified above," so that the 
 ### as it were
 
 **Pronunciation:** /æz ɪt ˈwɜr/, reduced /əz ɪt ˈwɜr/ &middot; *az it WUR, reduced uz it WUR*
+**Русский:** так сказать, если можно так выразиться — книжн. оговорка при метафоре
 **Type:** conjunctive adverb (phrasal) &middot; **Register:** formal to neutral (bookish)
 **Clause type:** No clause of its own — a parenthetical comment on the wording just used, marking it as figurative or approximate. The verb is a fossilized **subjunctive** (*were*), which is why it never changes tense.
 **Pattern:** [clause], *as it were*, [continuation]. &middot; [phrase] — *as it were* — [continuation]. &middot; [Independent clause], *as it were*.
@@ -1361,6 +1431,7 @@ Apologizes for a metaphor by marking the words just used as not literally true. 
 ### case in point
 
 **Pronunciation:** /ˌkeɪs ɪn ˈpɔɪnt/ &middot; *kayss in POYNT*
+**Русский:** наглядный пример, характерный случай — пример как доказательство
 **Type:** conjunctive adverb (phrasal — a noun phrase used as a connector) &middot; **Register:** neutral
 **Clause type:** No clause of its own in the connector use — it labels what follows as the illustration of the claim just made. It is also an ordinary **noun phrase** inside a clause (*a case in point is the 2019 audit*).
 **Pattern:** [Independent clause]. *Case in point*: [example]. &middot; [Independent clause] — *case in point*, [example]. &middot; A *case in point* is [noun phrase]. *(ordinary noun phrase)* &middot; [Noun phrase] is a *case in point*.
@@ -1380,6 +1451,7 @@ Presents the next thing said as the proof of the point just made, and it is the 
 ### e.g.
 
 **Pronunciation:** /ˌi ˈdʒi/ &middot; *ee-JEE* — read aloud as "for example" in careful speech
+**Русский:** например (лат. exempli gratia) — только на письме; образец, а не полный список
 **Type:** conjunctive adverb (phrasal abbreviation) &middot; **Register:** formal (writing only)
 **Clause type:** No clause of its own — it introduces one or more sample items inside a clause
 **Pattern:** [clause] (*e.g.*, [item], [item]). &middot; [noun phrase] — *e.g.*, [item] — [continuation]. &middot; [clause], *e.g.*, [item].
@@ -1399,6 +1471,7 @@ From Latin *exempli gratia*, "for the sake of an example." It introduces a sampl
 ### for example
 
 **Pronunciation:** /fər ɪɡˈzæmpəl/ &middot; *fur ig-ZAM-pul*
+**Русский:** например — одна иллюстрация общего утверждения
 **Type:** conjunctive adverb (phrasal) &middot; **Register:** neutral
 **Clause type:** Independent clause — adverbial link of exemplification
 **Pattern:** [Independent clause]; *for example*, [independent clause]. &middot; [Independent clause]. *For example*, [independent clause]. &middot; [Subject], *for example*, [predicate]. &middot; [noun phrase], *for example*.
@@ -1418,6 +1491,7 @@ Introduces one illustration of a general point. It says nothing about the size o
 ### for instance
 
 **Pronunciation:** /fər ˈɪnstəns/ &middot; *fur IN-stunss*
+**Русский:** например — полный синоним for example, чуть чаще в устной речи
 **Type:** conjunctive adverb (phrasal) &middot; **Register:** neutral
 **Clause type:** Independent clause or phrase — adverbial link of exemplification
 **Pattern:** [Independent clause]; *for instance*, [independent clause]. &middot; [Independent clause]. *For instance*, [independent clause]. &middot; [Subject], *for instance*, [predicate]. &middot; [noun phrase], *for instance*.
@@ -1437,6 +1511,7 @@ Interchangeable with *for example* in every American context; the only real diff
 ### for the avoidance of doubt
 
 **Pronunciation:** /fər ði əˌvɔɪdəns əv ˈdaʊt/ &middot; *fur thee uh-VOY-dunss uv DOWT*
+**Русский:** во избежание сомнений — юр. формула договоров
 **Type:** conjunctive adverb (phrasal) &middot; **Register:** legal boilerplate (formal contract drafting)
 **Clause type:** Independent clause — adverbial link of clarification, announcing that what follows resolves an ambiguity rather than adding a new obligation
 **Pattern:** *For the avoidance of doubt*, [independent clause]. &middot; [Independent clause]. *For the avoidance of doubt*, [independent clause]. &middot; [Independent clause]; *for the avoidance of doubt*, [independent clause].
@@ -1456,6 +1531,7 @@ A drafter's flag meaning "this sentence only spells out what the agreement alrea
 ### I mean
 
 **Pronunciation:** /aɪ ˈmin/ &middot; *eye MEEN*
+**Русский:** то есть, я имею в виду — разг., устная поправка к только что сказанному
 **Type:** conjunctive adverb (phrasal — a fixed discourse marker) &middot; **Register:** informal (spoken)
 **Clause type:** Independent clause — adverbial link of self-correction and restatement. It is frozen in the first-person present: *I meant* is a report of what somebody said, not this connector.
 **Pattern:** [Independent clause] — *I mean*, [corrected clause]. &middot; [Independent clause]. *I mean*, [independent clause]. &middot; [phrase], *I mean*, [corrected phrase].
@@ -1475,6 +1551,7 @@ The spoken counterpart of *that is*: it repairs, sharpens, or defends what was j
 ### i.e.
 
 **Pronunciation:** /ˌaɪ ˈi/ &middot; *eye-EE* — read aloud as "that is"
+**Русский:** то есть (лат. id est) — точное переформулирование, а не пример
 **Type:** conjunctive adverb (phrasal abbreviation) &middot; **Register:** formal (writing only)
 **Clause type:** No clause of its own — it introduces a restatement inside a clause
 **Pattern:** [clause] (*i.e.*, [restatement]). &middot; [noun phrase] — *i.e.*, [restatement] — [continuation]. &middot; [clause], *i.e.*, [restatement].
@@ -1494,6 +1571,7 @@ From Latin *id est*, "that is." It renames or restates the preceding phrase exac
 ### in essence
 
 **Pronunciation:** /ɪn ˈɛsəns/ &middot; *in ES-unss*
+**Русский:** по сути, в сущности — суть явления (ср. in effect — практический итог)
 **Type:** conjunctive adverb (phrasal) &middot; **Register:** neutral to formal
 **Clause type:** Independent clause or phrase — adverbial link of restatement that reduces something to its core
 **Pattern:** [Independent clause]; *in essence*, [independent clause]. &middot; [Independent clause]. *In essence*, [independent clause]. &middot; [Subject] [be], *in essence*, [complement]. &middot; [Subject] [be] *in essence* [complement]. *(integrated — no commas)*
@@ -1513,6 +1591,7 @@ Strips a complicated statement down to what it fundamentally is. *In effect* rep
 ### in other words
 
 **Pronunciation:** /ɪn ˌʌðər ˈwɜrdz/ &middot; *in uth-ur WURDZ*
+**Русский:** иными словами, другими словами — пересказ проще и прямее
 **Type:** conjunctive adverb (phrasal) &middot; **Register:** neutral
 **Clause type:** Independent clause — adverbial link of restatement
 **Pattern:** [Independent clause]. *In other words*, [independent clause]. &middot; [Independent clause]; *in other words*, [independent clause]. &middot; [Independent clause] — *in other words*, [independent clause].
@@ -1532,6 +1611,7 @@ Restates what was just said in plainer terms, or spells out what it really amoun
 ### in particular
 
 **Pronunciation:** /ɪn pərˈtɪkjələr/ &middot; *in pur-TIK-yuh-lur*
+**Русский:** в частности, особенно — выделяет главное из уже названного круга
 **Type:** conjunctive adverb (phrasal) &middot; **Register:** neutral
 **Clause type:** Independent clause — adverbial link of specification (singling one case out of a set already mentioned). Also a postmodifier attached directly to a noun phrase.
 **Pattern:** [Independent clause]; *in particular*, [independent clause]. &middot; [Independent clause]. *In particular*, [independent clause]. &middot; [Subject], *in particular*, [predicate]. &middot; [Noun phrase] *in particular* [verb phrase]. *(postmodifier — no commas)*
@@ -1551,6 +1631,7 @@ Picks one member out of a group already named and says it matters most. *For exa
 ### namely
 
 **Pronunciation:** /ˈneɪmli/ &middot; *NAYM-lee*
+**Русский:** а именно — книжн., полное и точное перечисление, а не образец
 **Type:** conjunctive adverb &middot; **Register:** formal
 **Clause type:** No clause of its own — it introduces the exact identification of something already named in general terms
 **Pattern:** [clause], *namely*, [list]. &middot; [clause] — *namely*, [item]. &middot; [noun phrase]: *namely*, [item].
@@ -1570,6 +1651,7 @@ Introduces the complete and exact identification of what was just referred to ge
 ### specifically
 
 **Pronunciation:** /spəˈsɪfɪkli/ &middot; *spuh-SIF-ik-lee*
+**Русский:** а конкретно, точнее — сужает общее утверждение до конкретного случая
 **Type:** conjunctive adverb &middot; **Register:** neutral to formal
 **Clause type:** Independent clause or phrase — adverbial link of specification. Also a plain manner adverb meaning "expressly, for that purpose," which sits in the predicate.
 **Pattern:** [Independent clause]; *specifically*, [independent clause]. &middot; [Independent clause]. *Specifically*, [independent clause]. &middot; [clause], *specifically*, [noun phrase]. &middot; [Subject] [be/auxiliary] *specifically* [verb phrase]. *(manner adverb — no commas)*
@@ -1589,6 +1671,7 @@ Narrows a general statement down to the exact case, and it is the one word in th
 ### strictly speaking
 
 **Pronunciation:** /ˌstrɪktli ˈspikɪŋ/ &middot; *strik-tlee SPEE-king*
+**Русский:** строго говоря — по точному определению, вопреки обиходному употреблению
 **Type:** conjunctive adverb (phrasal) &middot; **Register:** neutral
 **Clause type:** No clause of its own — a comment adverbial narrowing what follows to its exact, technical truth. Grammatically a fronted participial phrase, and nothing in the sentence has to be doing the speaking.
 **Pattern:** *Strictly speaking*, [independent clause]. &middot; [Subject] [be], *strictly speaking*, [complement]. &middot; [Independent clause], *strictly speaking*.
@@ -1608,6 +1691,7 @@ Signals that what follows is true by the exact definition, and usually that ordi
 ### that is
 
 **Pronunciation:** /ˌðæt ˈɪz/ &middot; *that IZ*
+**Русский:** то есть — уточняющее переформулирование, сужающее сказанное
 **Type:** conjunctive adverb (phrasal) &middot; **Register:** neutral to formal
 **Clause type:** Independent clause or phrase — adverbial link of restatement and specification
 **Pattern:** [clause], *that is*, [restatement]. &middot; [Independent clause]. *That is*, [independent clause]. &middot; [noun phrase] — *that is*, [noun phrase].
@@ -1627,6 +1711,7 @@ Restates what came before in a more exact form, narrowing rather than paraphrasi
 ### which is to say
 
 **Pronunciation:** /ˌwɪtʃ ɪz tə ˈseɪ/ &middot; *wich iz tuh SAY*
+**Русский:** то есть, иначе говоря — присоединяется через запятую как относительное придаточное
 **Type:** conjunctive adverb (phrasal — a continuative relative) &middot; **Register:** neutral to formal
 **Clause type:** A continuative **relative clause** that restates the whole clause before it. Because the *which* needs an antecedent in the same sentence, it cannot open one in edited prose — though writers break that rule for effect.
 **Pattern:** [Independent clause], *which is to say*, [restatement]. &middot; [Independent clause] — *which is to say*, [restatement]. &middot; [noun phrase], *which is to say* [noun phrase], [continuation].
@@ -1648,6 +1733,7 @@ Restates the preceding clause in sharper or franker terms, generally to expose w
 ### after all
 
 **Pronunciation:** /ˌæftər ˈɔl/ &middot; *af-tur AWL*
+**Русский:** ведь, в конце концов; (в конце фразы) всё-таки — два разных значения
 **Type:** conjunctive adverb (phrasal) &middot; **Register:** neutral
 **Clause type:** Independent clause — adverbial link of justification. In final position, a different sense: "contrary to expectation."
 **Pattern:** [Independent clause]; *after all*, [independent clause]. &middot; [Independent clause]. *After all*, [independent clause]. &middot; [Independent clause] *after all*. *("contrary to expectation")*
@@ -1666,6 +1752,7 @@ Two distinct jobs, and position tells you which one you have. As a connector it 
 ### as a matter of fact
 
 **Pronunciation:** /æz ə ˌmætər əv ˈfækt/ &middot; *az uh MAT-ur uv FAKT*
+**Русский:** на самом деле, вообще-то — поправка собеседнику, резче, чем in fact
 **Type:** conjunctive adverb (phrasal) &middot; **Register:** neutral to informal
 **Clause type:** Independent clause — adverbial link of emphatic correction or confirmation
 **Pattern:** *As a matter of fact*, [independent clause]. &middot; [Independent clause]; *as a matter of fact*, [independent clause]. &middot; [Subject] [be/auxiliary], *as a matter of fact*, [complement]. &middot; [Independent clause], *as a matter of fact*.
@@ -1685,6 +1772,7 @@ Introduces a fact that contradicts, corrects, or one-ups what the listener has j
 ### as it turns out
 
 **Pronunciation:** /æz ɪt ˈtɜrnz ˌaʊt/ &middot; *az it TURNZ owt*
+**Русский:** как выяснилось, как оказалось — ожидание не оправдалось
 **Type:** conjunctive adverb (phrasal) &middot; **Register:** neutral
 **Clause type:** Independent clause — adverbial link introducing a fact learned after the event, usually one that upsets the expectation just described
 **Pattern:** *As it turns out*, [independent clause]. &middot; [Independent clause]; *as it turns out*, [independent clause]. &middot; [Subject], *as it turns out*, [predicate]. &middot; [Independent clause], *as it turns out*.
@@ -1704,6 +1792,7 @@ Reports what was learned later, and almost always marks a reversal: the thing ev
 ### crucially
 
 **Pronunciation:** /ˈkruʃəli/ &middot; *KROO-shuh-lee*
+**Русский:** что принципиально важно — книжн., помечает ключевой для довода пункт
 **Type:** conjunctive adverb &middot; **Register:** formal (academic, journalistic)
 **Clause type:** Independent clause — adverbial link of emphasis marking the following point as the decisive one. Also an ordinary **degree adverb** inside the clause (*crucially dependent on the discount rate*), which takes no commas.
 **Pattern:** *Crucially*, [independent clause]. &middot; [Independent clause]; *crucially*, [independent clause]. &middot; [Subject], *crucially*, [predicate]. &middot; [Independent clause], and *crucially*, [independent clause]. &middot; [Subject] [be] *crucially* [adjective]. *(degree adverb — no commas)*
@@ -1723,6 +1812,7 @@ Flags the sentence it opens as the one the argument turns on — the workhorse o
 ### importantly
 
 **Pronunciation:** /ɪmˈpɔrtəntli/ &middot; *im-POR-tunt-lee*
+**Русский:** что важно, важно отметить — без сравнения с другими пунктами
 **Type:** conjunctive adverb &middot; **Register:** neutral to formal
 **Clause type:** Independent clause — adverbial link of emphasis marking the following statement as significant. Also a **manner adverb** meaning "with a self-important air" (*he nodded importantly*), a wholly different word.
 **Pattern:** *Importantly*, [independent clause]. &middot; [Independent clause]; *importantly*, [independent clause]. &middot; [Subject], *importantly*, [predicate]. &middot; [Subject] [verb] *importantly*. *(manner adverb — "pompously," no commas)*
@@ -1742,6 +1832,7 @@ Marks its sentence as one of the significant ones without ranking it against any
 ### in fact
 
 **Pronunciation:** /ɪn ˈfækt/ &middot; *in FAKT*
+**Русский:** на самом деле, более того — сильнее ожидаемого или вопреки ему
 **Type:** conjunctive adverb (phrasal) &middot; **Register:** neutral
 **Clause type:** Independent clause — adverbial link of emphasis or correction
 **Pattern:** [Independent clause]; *in fact*, [independent clause]. &middot; [Independent clause]. *In fact*, [independent clause]. &middot; [Independent clause] — *in fact*, [independent clause]. &middot; [Subject] [be/auxiliary], *in fact*, [complement].
@@ -1761,6 +1852,7 @@ Introduces something stronger, more surprising, or flatly corrective of what the
 ### indeed
 
 **Pronunciation:** /ɪnˈdid/ &middot; *in-DEED*
+**Русский:** действительно, и в самом деле — книжн., подтверждает и усиливает, а не поправляет
 **Type:** conjunctive adverb &middot; **Register:** formal
 **Clause type:** Independent clause — adverbial link of emphatic confirmation
 **Pattern:** [Independent clause]; *indeed*, [independent clause]. &middot; [Independent clause]. *Indeed*, [independent clause]. &middot; [adjective] — *indeed*, [stronger adjective]. &middot; [phrase], *indeed* [stronger phrase], [continuation]. &middot; *Indeed* [subject] [verb]. *(integrated emphasizer — no comma)* &middot; "*Indeed*." *(as a full reply)*
@@ -1780,6 +1872,7 @@ Confirms the previous statement and then pushes it further — "yes, and more so
 ### more importantly
 
 **Pronunciation:** /ˌmɔr ɪmˈpɔrtəntli/ &middot; *mor im-POR-tunt-lee*
+**Русский:** что ещё важнее — прямо ставит новый довод выше предыдущего
 **Type:** conjunctive adverb (phrasal) &middot; **Register:** neutral to formal
 **Clause type:** Independent clause — adverbial link of addition that ranks the new point above the last
 **Pattern:** [Independent clause]; *more importantly*, [independent clause]. &middot; [Independent clause]. *More importantly*, [independent clause]. &middot; [Independent clause], and *more importantly*, [independent clause]. &middot; [Subject], *more importantly*, [predicate].
@@ -1799,6 +1892,7 @@ Adds a point and claims it outweighs the one before it — *moreover* with an ex
 ### nay
 
 **Pronunciation:** /neɪ/ &middot; *NAY*
+**Русский:** более того, скажу больше — устар., книжн.: замена слова более сильным
 **Type:** conjunctive adverb &middot; **Register:** archaic, literary (rhetorical)
 **Clause type:** No clause of its own — it introduces a stronger word or phrase that replaces the one just used. Also the archaic negative reply *nay* ("no"), which survives in recorded voice votes (*the ayes and the nays*).
 **Pattern:** [phrase], *nay*, [stronger phrase]. &middot; [adjective] — *nay*, [stronger adjective]. &middot; [Independent clause]; *nay*, [stronger independent clause]. &middot; "*Nay*," [reported speech]. *(archaic "no")*
@@ -1818,6 +1912,7 @@ Corrects upward: it withdraws the word just used in favor of a stronger one — 
 ### of course
 
 **Pronunciation:** /əv ˈkɔrs/, often reduced to /əˈkɔrs/ &middot; *uv KORSS, often uh-KORSS*
+**Русский:** конечно, разумеется — общеизвестное; часто уступка перед «но»
 **Type:** conjunctive adverb (phrasal) &middot; **Register:** neutral
 **Clause type:** Independent clause — adverbial link of concession or shared assumption. Also a standalone reply token ("*Of course.*") and, uncommaed, an integrated emphasizer inside the clause.
 **Pattern:** *Of course*, [independent clause], but [independent clause]. &middot; [Independent clause]; *of course*, [independent clause]. &middot; [Subject], *of course*, [predicate]. &middot; [Subject] [verb], *of course*. &middot; *Of course* [subject] [verb]. *(integrated emphasizer — no comma)* &middot; "*Of course*." *(as a full reply)*
@@ -1837,6 +1932,7 @@ Marks what follows as something everyone already knows or would expect — very 
 ### sure enough
 
 **Pronunciation:** /ˌʃʊr ɪˈnʌf/ &middot; *shoor ih-NUFF*
+**Русский:** и точно, и в самом деле — разг., предсказание сбылось
 **Type:** conjunctive adverb (phrasal) &middot; **Register:** informal
 **Clause type:** Independent clause — adverbial link confirming that what was expected or predicted did in fact happen
 **Pattern:** *Sure enough*, [independent clause]. &middot; [Independent clause], and *sure enough*, [independent clause]. &middot; [Independent clause]. *Sure enough*, [independent clause]. &middot; [Subject], *sure enough*, [predicate].
@@ -1856,6 +1952,7 @@ Confirms a prediction, usually one that somebody made out loud a moment earlier:
 ### to be honest
 
 **Pronunciation:** /tə bi ˈɑnɪst/ &middot; *tuh bee AH-nist*
+**Русский:** честно говоря, если честно — разг.
 **Type:** conjunctive adverb (phrasal) &middot; **Register:** informal (spoken)
 **Clause type:** No clause of its own — a comment adverbial prefacing the speaker's frank opinion. Grammatically an infinitive phrase with no subject, held in place by convention rather than by grammar.
 **Pattern:** *To be honest*, [independent clause]. &middot; [Independent clause], *to be honest*. &middot; [Subject], *to be honest*, [predicate]. &middot; *To tell the truth*, [independent clause].
@@ -1875,6 +1972,7 @@ Warns that a candid and usually unflattering opinion is coming — and, by impli
 ### truth be told
 
 **Pronunciation:** /ˌtruθ bi ˈtoʊld/ &middot; *trooth bee TOHLD*
+**Русский:** по правде сказать, признаться — книжн. вариант to be honest
 **Type:** conjunctive adverb (phrasal) &middot; **Register:** neutral to literary (a fixed formula)
 **Clause type:** No clause of its own — a comment adverbial prefacing an admission. The verb is a fossilized **subjunctive** with its subject in front of it (*truth be told*, never *the truth is told*), which is why the phrase cannot be reworded.
 **Pattern:** *Truth be told*, [independent clause]. &middot; [Independent clause], *truth be told*. &middot; [Subject], *truth be told*, [predicate]. &middot; *If truth be told*, [independent clause].
@@ -1896,6 +1994,7 @@ Introduces something the speaker has been politely leaving out — a confession 
 ### all in all
 
 **Pronunciation:** /ˌɔl ɪn ˈɔl/ &middot; *awl in AWL*
+**Русский:** в общем и целом, в итоге — итоговая оценка после разбора деталей
 **Type:** conjunctive adverb (phrasal) &middot; **Register:** informal to neutral
 **Clause type:** Independent clause — adverbial link of summation (a net verdict)
 **Pattern:** [Independent clause]. *All in all*, [independent clause]. &middot; [Independent clause]; *all in all*, [independent clause].
@@ -1915,6 +2014,7 @@ Delivers the net verdict after the details have been weighed — the everyday su
 ### all things considered
 
 **Pronunciation:** /ˌɔl θɪŋz kənˈsɪdərd/ &middot; *awl thingz kun-SID-urd*
+**Русский:** учитывая всё, если взвесить всё — вывод с признанием минусов
 **Type:** conjunctive adverb (phrasal) &middot; **Register:** neutral
 **Clause type:** No clause of its own — a **nominative absolute** phrase delivering a net judgment once everything on both sides has been weighed
 **Pattern:** *All things considered*, [independent clause]. &middot; [Independent clause], *all things considered*. &middot; [Subject] [be], *all things considered*, [complement].
@@ -1934,6 +2034,7 @@ Announces a verdict reached after weighing the bad against the good, and it almo
 ### at the end of the day
 
 **Pronunciation:** /ət ði ˌɛnd əv ðə ˈdeɪ/ &middot; *ut thee END uv thuh DAY*
+**Русский:** в конечном счёте, в конце концов — разг. штамп, набивший оскомину
 **Type:** conjunctive adverb (phrasal) &middot; **Register:** informal (spoken; a cliché in writing)
 **Clause type:** Independent clause — adverbial link of final judgment ("when everything else has been set aside"). Also a literal time adverbial (*at the end of the day, lock the register*), which is not a connector.
 **Pattern:** *At the end of the day*, [independent clause]. &middot; [Independent clause]; *at the end of the day*, [independent clause]. &middot; [Independent clause], *at the end of the day*. &middot; [Independent clause] *at the end of the day*.
@@ -1953,6 +2054,7 @@ Sweeps the details aside and states what the speaker thinks really governs — t
 ### by and large
 
 **Pronunciation:** /ˌbaɪ ən ˈlɑrdʒ/ &middot; *by und LARJ*
+**Русский:** в общем и целом, по большей части — правило с оговоркой об исключениях
 **Type:** conjunctive adverb (phrasal) &middot; **Register:** neutral
 **Clause type:** Independent clause — adverbial link of generalization ("with exceptions allowed for")
 **Pattern:** *By and large*, [independent clause]. &middot; [Independent clause]; *by and large*, [independent clause]. &middot; [Subject], *by and large*, [predicate]. &middot; [Independent clause], *by and large*.
@@ -1972,6 +2074,7 @@ Concedes exceptions while asserting the general rule — closer to "mostly, thou
 ### for the most part
 
 **Pronunciation:** /fər ðə ˈmoʊst ˌpɑrt/ &middot; *fur thuh MOHST part*
+**Русский:** по большей части, в основном — указывает на долю случаев
 **Type:** conjunctive adverb (phrasal) &middot; **Register:** neutral
 **Clause type:** Independent clause — adverbial link of generalization stating that the claim holds for most of the cases
 **Pattern:** *For the most part*, [independent clause]. &middot; [Independent clause]; *for the most part*, [independent clause]. &middot; [Subject], *for the most part*, [predicate]. &middot; [Independent clause] *for the most part*.
@@ -1991,6 +2094,7 @@ Says the statement covers most of the cases and quietly admits that it does not 
 ### generally speaking
 
 **Pronunciation:** /ˌdʒɛnərəli ˈspikɪŋ/ &middot; *JEN-ur-uh-lee SPEE-king*
+**Русский:** вообще говоря, в общем — прямая противоположность strictly speaking
 **Type:** conjunctive adverb (phrasal) &middot; **Register:** neutral
 **Clause type:** No clause of its own — a comment adverbial announcing that what follows is a generalization. Like *strictly speaking*, it is a fronted participial phrase with nobody doing the speaking.
 **Pattern:** *Generally speaking*, [independent clause]. &middot; [Subject], *generally speaking*, [predicate]. &middot; [Independent clause], *generally speaking*.
@@ -2010,6 +2114,7 @@ Warns the listener not to press the statement too hard, because exceptions exist
 ### in conclusion
 
 **Pronunciation:** /ɪn kənˈkluʒən/ &middot; *in kun-KLOO-zhun*
+**Русский:** в заключение — книжн., объявляет конец речи или текста; употребляется один раз
 **Type:** conjunctive adverb (phrasal) &middot; **Register:** formal
 **Clause type:** Independent clause — adverbial link of closure
 **Pattern:** *In conclusion*, [independent clause]. &middot; [Independent clause]. *In conclusion*, [independent clause].
@@ -2029,6 +2134,7 @@ Announces the closing section of a speech, essay, or formal report. Use it once,
 ### in fine
 
 **Pronunciation:** /ɪn ˈfaɪn/ &middot; *in FYNE*
+**Русский:** словом, итак — устар., книжн. (лат. in fine) соответствие in short
 **Type:** conjunctive adverb (phrasal) &middot; **Register:** archaic, literary (formerly standard formal prose)
 **Clause type:** Independent clause — adverbial link of summation ("in short, to conclude")
 **Pattern:** *In fine*, [independent clause]. &middot; [Independent clause]; *in fine*, [independent clause]. &middot; [Independent clause]. *In fine*, [independent clause]. &middot; [series], and, *in fine*, [last item].
@@ -2048,6 +2154,7 @@ From Latin *in fine*, "at the end" — the eighteenth- and nineteenth-century wa
 ### in general
 
 **Pronunciation:** /ɪn ˈdʒɛnərəl/ &middot; *in JEN-ur-ul*
+**Русский:** в общем, в целом — обычный случай с допуском исключений; при существительном «в целом»
 **Type:** conjunctive adverb (phrasal) &middot; **Register:** neutral
 **Clause type:** Independent clause — adverbial link of generalization. Also a **postmodifier** attached directly to a noun phrase (*readers in general*), which takes no commas.
 **Pattern:** *In general*, [independent clause]. &middot; [Independent clause]; *in general*, [independent clause]. &middot; [Subject], *in general*, [predicate]. &middot; [Noun phrase] *in general* [verb phrase]. *(postmodifier — no commas)*
@@ -2067,6 +2174,7 @@ States the ordinary case and leaves room for exceptions, without the folksiness 
 ### in short
 
 **Pronunciation:** /ɪn ˈʃɔrt/ &middot; *in SHORT*
+**Русский:** короче говоря, вкратце — сжатие сказанного, а не сигнал конца текста
 **Type:** conjunctive adverb (phrasal) &middot; **Register:** neutral
 **Clause type:** Independent clause — adverbial link of summation (compression)
 **Pattern:** [Independent clause]. *In short*, [independent clause]. &middot; [Independent clause]; *in short*, [independent clause].
@@ -2086,6 +2194,7 @@ Compresses everything just laid out into a single sentence. Where *in conclusion
 ### in the final analysis
 
 **Pronunciation:** /ɪn ðə ˌfaɪnəl əˈnæləsɪs/ &middot; *in thuh FY-nul uh-NAL-uh-sis*
+**Русский:** в конечном счёте, в конечном итоге — книжн. соответствие at the end of the day
 **Type:** conjunctive adverb (phrasal) &middot; **Register:** formal
 **Clause type:** Independent clause — adverbial link of final judgment
 **Pattern:** *In the final analysis*, [independent clause]. &middot; [Independent clause]; *in the final analysis*, [independent clause]. &middot; [Subject], *in the final analysis*, [predicate].
@@ -2105,6 +2214,7 @@ The formal register's version of *at the end of the day*: it sets the details as
 ### in the main
 
 **Pronunciation:** /ɪn ðə ˈmeɪn/ &middot; *in thuh MAYN*
+**Русский:** в основном, по большей части — книжн., слегка устар.
 **Type:** conjunctive adverb (phrasal) &middot; **Register:** formal (somewhat dated)
 **Clause type:** Independent clause — adverbial link of generalization ("for the most part")
 **Pattern:** *In the main*, [independent clause]. &middot; [Independent clause]; *in the main*, [independent clause]. &middot; [Subject], *in the main*, [predicate]. &middot; [Independent clause] *in the main*.
@@ -2124,6 +2234,7 @@ A bookish, slightly old-fashioned *for the most part*, at home in reviews, edito
 ### long story short
 
 **Pronunciation:** /ˌlɔŋ ˌstɔri ˈʃɔrt/ &middot; *lawng stor-ee SHORT*
+**Русский:** короче говоря, если вкратце — разг., пропуск середины рассказа
 **Type:** conjunctive adverb (phrasal) &middot; **Register:** informal (spoken)
 **Clause type:** No clause of its own — an elliptical absolute phrase, clipped from *to make a long story short*, announcing that the speaker is skipping to the outcome
 **Pattern:** *Long story short*, [independent clause]. &middot; [Independent clause]. *Long story short*, [independent clause]. &middot; *To make a long story short*, [independent clause]. *(the full form)*
@@ -2143,6 +2254,7 @@ The storyteller's fast-forward: it skips the middle of the anecdote and delivers
 ### on the whole
 
 **Pronunciation:** /ɑn ðə ˈhoʊl/ &middot; *ahn thuh HOHL*
+**Русский:** в целом — баланс склонился в одну сторону, минусы при этом не отрицаются
 **Type:** conjunctive adverb (phrasal) &middot; **Register:** neutral
 **Clause type:** Independent clause — adverbial link of generalized summation ("taking everything together")
 **Pattern:** *On the whole*, [independent clause]. &middot; [Independent clause]; *on the whole*, [independent clause]. &middot; [Subject], *on the whole*, [predicate]. &middot; [Independent clause], *on the whole*.
@@ -2162,6 +2274,7 @@ Weighs the whole of something and reports where the balance falls — halfway be
 ### to sum up
 
 **Pronunciation:** /tə ˌsʌm ˈʌp/ &middot; *tuh sum UP* — *to* is always reduced to /tə/ here, never /tu/
+**Русский:** подводя итог, обобщая — книжн., ближе к концу доклада или отчёта
 **Type:** conjunctive adverb (phrasal) &middot; **Register:** neutral to formal
 **Clause type:** Independent clause — adverbial link of summation
 **Pattern:** *To sum up*, [independent clause]. &middot; [Independent clause]. *To sum up*, [independent clause].
@@ -2181,6 +2294,7 @@ Introduces a restatement of the main points, typically near the close of a talk 
 ### when all is said and done
 
 **Pronunciation:** /wɛn ˌɔl ɪz ˌsɛd ən ˈdʌn/ &middot; *wen awl iz sed und DUN*
+**Русский:** в конечном счёте, как ни крути — книжн.-разг. соответствие at the end of the day
 **Type:** conjunctive adverb (phrasal — a fixed subordinate clause) &middot; **Register:** informal to neutral
 **Clause type:** Formally a subordinate *when* clause, but frozen as a summing-up connective: nothing in the main clause has to be simultaneous with any saying or doing
 **Pattern:** *When all is said and done*, [independent clause]. &middot; [Independent clause] *when all is said and done*. &middot; [Subject], *when all is said and done*, [predicate].
@@ -2202,6 +2316,7 @@ Sets the arguing aside and names the thing that finally counts. It is the same m
 ### alternatively
 
 **Pronunciation:** /ɔlˈtɜrnətɪvli/ &middot; *awl-TUR-nuh-tiv-lee*
+**Русский:** или же, как вариант — наречие при союзе or: начинает новое предложение
 **Type:** conjunctive adverb &middot; **Register:** formal
 **Clause type:** Independent clause — adverbial link of alternative
 **Pattern:** [Independent clause]; *alternatively*, [independent clause]. &middot; [Independent clause]. *Alternatively*, [independent clause]. &middot; [Subject] [modal], *alternatively*, [verb phrase].
@@ -2221,6 +2336,7 @@ Offers a second option as a whole sentence — the adverb answering to *or*. *Or
 ### anyway
 
 **Pronunciation:** /ˈɛniˌweɪ/ &middot; *EN-ee-way*
+**Русский:** ну так вот; всё равно; ну ладно — возврат к теме, отмахивание, закрытие разговора
 **Type:** conjunctive adverb &middot; **Register:** informal
 **Clause type:** Independent clause — adverbial link of dismissal, or a discourse marker returning to the main topic
 **Pattern:** [Independent clause]. *Anyway*, [independent clause]. &middot; [Independent clause]; *anyway*, [independent clause]. &middot; [Independent clause] *anyway*. &middot; [Independent clause], but [independent clause] *anyway*.
@@ -2241,6 +2357,7 @@ Three conversational jobs: returning to the main thread after a digression (*Any
 ### as for
 
 **Pronunciation:** /æz ˈfɔr/, reduced /əz fər/ &middot; *az FOR, reduced uz fur*
+**Русский:** что касается — о теме, уже возникшей в разговоре; часто с оттенком пренебрежения
 **Type:** conjunctive adverb (phrasal — prepositional in form) &middot; **Register:** neutral
 **Clause type:** No clause of its own — a fronted topic-shifting preposition taking a noun phrase or a gerund, which then becomes what the sentence is about
 **Pattern:** *As for* [noun phrase], [independent clause]. &middot; *As for* [gerund phrase], [independent clause]. &middot; *As for* [wh- clause], [independent clause].
@@ -2260,6 +2377,7 @@ Turns the spotlight onto the next topic — usually one already on the table, an
 ### as regards
 
 **Pronunciation:** /æz rɪˈɡɑrdz/ &middot; *az rih-GARDZ*
+**Русский:** что касается, относительно — канц.; стилисты считают многословием
 **Type:** conjunctive adverb (phrasal — prepositional in form) &middot; **Register:** formal
 **Clause type:** No clause of its own — a topic-marking preposition taking a noun phrase. Note the fixed *-s*: *as regards*, never *as regard*.
 **Pattern:** *As regards* [noun phrase], [independent clause]. &middot; [Independent clause] *as regards* [noun phrase]. &middot; [Subject] [be] silent *as regards* [noun phrase].
@@ -2279,6 +2397,7 @@ The bureaucratic topic-marker of reports, memoranda, and older business correspo
 ### as the case may be
 
 **Pronunciation:** /æz ðə ˈkeɪs meɪ ˌbi/ &middot; *az thuh KAYSS may bee*
+**Русский:** в зависимости от обстоятельств, смотря по случаю — юр., канц.
 **Type:** conjunctive adverb (phrasal — a fixed clause-final tag) &middot; **Register:** formal, legal
 **Clause type:** No clause of its own — it closes a disjunction and tells the reader that whichever of the listed alternatives actually applies is the one meant
 **Pattern:** [alternative] or [alternative], *as the case may be*. &middot; [Independent clause] [alternative] or [alternative], *as the case may be*, [continuation]. &middot; [Noun phrase], or [noun phrase] *as the case may be*, [verb phrase].
@@ -2298,6 +2417,7 @@ A drafter's device for writing one sentence that covers several situations at on
 ### at any rate
 
 **Pronunciation:** /ət ˌɛni ˈreɪt/ &middot; *ut en-ee RATE* — *at* reduces to /ət/ in the phrase
+**Русский:** во всяком случае, так или иначе — уклончивее, чем in any case
 **Type:** conjunctive adverb (phrasal) &middot; **Register:** neutral to informal
 **Clause type:** Independent clause — adverbial link of dismissal (setting aside uncertainty)
 **Pattern:** [Independent clause]. *At any rate*, [independent clause]. &middot; [Independent clause]; *at any rate*, [independent clause]. &middot; [Independent clause], *at any rate*.
@@ -2317,6 +2437,7 @@ Sets aside the uncertainty of what was just said and moves to what is certain: "
 ### by the way
 
 **Pronunciation:** /baɪ ðə ˈweɪ/ &middot; *by thuh WAY*
+**Русский:** кстати, между прочим — разг. пометка «попутное замечание»
 **Type:** conjunctive adverb (phrasal) &middot; **Register:** informal to neutral
 **Clause type:** Independent clause — adverbial link of digression. Also a literal prepositional phrase in older English (*they met him by the way*, "along the road"), which is not a connector.
 **Pattern:** *By the way*, [independent clause]. &middot; [Independent clause]; *by the way*, [independent clause]. &middot; [Subject], *by the way*, [predicate]. &middot; [Independent clause], *by the way*.
@@ -2336,6 +2457,7 @@ Marks what follows as a side remark — and, like *incidentally*, it is regularl
 ### come to think of it
 
 **Pronunciation:** /ˌkʌm tə ˈθɪŋk əv ɪt/ &middot; *kum tuh THINK uv it*
+**Русский:** если подумать, а ведь правда — разг., мысль пришла прямо сейчас
 **Type:** conjunctive adverb (phrasal — a fixed infinitival tag) &middot; **Register:** informal (spoken)
 **Clause type:** No clause of its own — it flags what follows as something that occurred to the speaker in the act of speaking
 **Pattern:** *Come to think of it*, [independent clause]. &middot; [Independent clause] — *come to think of it*, [independent clause]. &middot; [Subject], *come to think of it*, [predicate]. &middot; [Independent clause], *come to think of it*.
@@ -2355,6 +2477,7 @@ Marks a realization arriving mid-conversation: the speaker did not plan to say t
 ### for the rest
 
 **Pronunciation:** /fər ðə ˈrɛst/ &middot; *fur thuh REST*
+**Русский:** в остальном, что до прочего — устар., книжн.
 **Type:** conjunctive adverb (phrasal) &middot; **Register:** formal, literary (dated)
 **Clause type:** Independent clause — adverbial link that disposes of everything not already dealt with ("as for the remainder")
 **Pattern:** *For the rest*, [independent clause]. &middot; [Independent clause]; *for the rest*, [independent clause]. &middot; [Independent clause]. *For the rest*, [independent clause].
@@ -2374,6 +2497,7 @@ Sweeps up whatever the writer has not addressed and characterizes it in one stro
 ### in any case
 
 **Pronunciation:** /ɪn ˌɛni ˈkeɪs/ &middot; *in en-ee KAYSS*
+**Русский:** в любом случае, так или иначе — не хеджирует, а закрывает вопрос
 **Type:** conjunctive adverb (phrasal) &middot; **Register:** neutral
 **Clause type:** Independent clause — adverbial link of dismissal (true under every alternative)
 **Pattern:** [Independent clause]. *In any case*, [independent clause]. &middot; [Independent clause]; *in any case*, [independent clause]. &middot; [Independent clause], *in any case*.
@@ -2393,6 +2517,7 @@ Declares that what follows is true no matter which of the possibilities just rai
 ### in any event
 
 **Pronunciation:** /ɪn ˌɛni ɪˈvɛnt/ &middot; *in en-ee ih-VENT*
+**Русский:** в любом случае — юр., книжн. двойник in any case
 **Type:** conjunctive adverb (phrasal) &middot; **Register:** formal
 **Clause type:** Independent clause — adverbial link of dismissal: what follows holds no matter which of the possibilities just raised turns out to be true
 **Pattern:** [Independent clause]. *In any event*, [independent clause]. &middot; [Independent clause]; *in any event*, [independent clause]. &middot; [Independent clause], *in any event*. &middot; [Subject], *in any event*, [predicate].
@@ -2412,6 +2537,7 @@ The formal twin of *in any case*, and the standard form in legal writing, where 
 ### in respect of
 
 **Pronunciation:** /ɪn rɪˈspɛkt əv/ &middot; *in ri-SPEKT uv*
+**Русский:** в отношении, применительно к — юр.; обычно о суммах и периодах
 **Type:** conjunctive adverb (phrasal — prepositional in form) &middot; **Register:** formal, legal (commoner in British than American drafting)
 **Clause type:** No clause of its own — a topic-marking preposition taking a noun phrase, most often naming what a payment, claim, or obligation relates to
 **Pattern:** [Independent clause] *in respect of* [noun phrase]. &middot; *In respect of* [noun phrase], [independent clause]. &middot; [amount] payable *in respect of* [noun phrase].
@@ -2431,6 +2557,7 @@ Contract and tax language for "relating to," normally attached to money: *amount
 ### in terms of
 
 **Pronunciation:** /ɪn ˈtɜrmz əv/ &middot; *in TURMZ uv*
+**Русский:** с точки зрения, в пересчёте на — строго: единицы сравнения; в речи просто «насчёт»
 **Type:** conjunctive adverb (phrasal — prepositional in form) &middot; **Register:** neutral (widely criticized as filler)
 **Clause type:** No clause of its own — a preposition taking a noun phrase or gerund and naming the dimension along which a claim is being measured
 **Pattern:** [Independent clause] *in terms of* [noun phrase]. &middot; *In terms of* [noun phrase], [independent clause]. &middot; [Subject] [verb] *in terms of* [gerund phrase].
@@ -2450,6 +2577,7 @@ Properly, it names the units or the framework of a comparison: *cheap in terms o
 ### in this connection
 
 **Pronunciation:** /ɪn ðɪs kəˈnɛkʃən/ &middot; *in this kuh-NEK-shun*
+**Русский:** в этой связи — книжн., дипл.: заявляет уместность, а не важность
 **Type:** conjunctive adverb (phrasal) &middot; **Register:** formal (academic, official, diplomatic)
 **Clause type:** Independent clause — adverbial link asserting that what follows bears on the matter just discussed
 **Pattern:** *In this connection*, [independent clause]. &middot; [Independent clause]; *in this connection*, [independent clause]. &middot; [Subject] [auxiliary], *in this connection*, [verb phrase].
@@ -2469,6 +2597,7 @@ The scholarly and diplomatic way of saying "and here is something that bears on 
 ### in this respect
 
 **Pronunciation:** /ɪn ðɪs rɪˈspɛkt/ &middot; *in this ri-SPEKT*
+**Русский:** в этом отношении — ограничивает утверждение одной стороной дела
 **Type:** conjunctive adverb (phrasal) &middot; **Register:** neutral to formal
 **Clause type:** Independent clause — adverbial link that limits a claim to one particular dimension of comparison
 **Pattern:** *In this respect*, [independent clause]. &middot; [Independent clause]; *in this respect*, [independent clause]. &middot; [Subject] [be], *in this respect*, [complement]. &middot; [Independent clause] *in this respect*.
@@ -2488,6 +2617,7 @@ Restricts what follows to a single dimension, and so quietly concedes that the c
 ### incidentally
 
 **Pronunciation:** /ˌɪnsɪˈdɛntəli/ &middot; *in-sih-DEN-tuh-lee*
+**Русский:** кстати, между прочим — письменное соответствие by the way
 **Type:** conjunctive adverb &middot; **Register:** neutral to formal
 **Clause type:** Independent clause — adverbial link of digression. Also a manner adverb meaning "by chance, as a side effect" (*the drug was discovered incidentally*), which sits in the predicate and takes no commas.
 **Pattern:** *Incidentally*, [independent clause]. &middot; [Independent clause]; *incidentally*, [independent clause]. &middot; [Subject], *incidentally*, [predicate]. &middot; [Subject] [verb phrase] *incidentally*. *(manner adverb — "by chance," no commas)*
@@ -2508,6 +2638,7 @@ Flags what follows as a remark off the main line of the argument. It is the writ
 ### leastways
 
 **Pronunciation:** /ˈlistˌweɪz/ &middot; *LEEST-wayz*
+**Русский:** по крайней мере, во всяком случае — диал., прост. (нелитературное)
 **Type:** conjunctive adverb &middot; **Register:** dialectal and nonstandard (regional American speech)
 **Clause type:** Independent clause or phrase — adverbial link that scales the previous claim back a step, "or at any rate"
 **Pattern:** [Independent clause], *leastways* [independent clause]. &middot; [Independent clause]. *Leastways*, [independent clause]. &middot; [Independent clause], *leastways* [phrase].
@@ -2527,6 +2658,7 @@ A regional variant of *at least*, used to walk a statement back a step — Appal
 ### now
 
 **Pronunciation:** /naʊ/ &middot; *NOW*
+**Русский:** итак, так вот — не время: устный переход к следующему пункту или мягкое возражение
 **Type:** conjunctive adverb &middot; **Register:** neutral (spoken and written)
 **Clause type:** Independent clause — a discourse-structuring link moving the listener to the next stage of an argument, a set of instructions, or a story. Distinct from the ordinary **time adverb** *now* ("at this moment"), which sits in the predicate and takes no commas.
 **Pattern:** *Now*, [independent clause]. &middot; [Independent clause]. *Now*, [independent clause]. &middot; *Now* [imperative]. &middot; [Subject] [verb] *now*. *(time adverb — "at this moment," no commas)*
@@ -2547,6 +2679,7 @@ Not time at all: this *now* is the spoken paragraph break, moving the discussion
 ### one way or another
 
 **Pronunciation:** /ˌwʌn weɪ ər əˈnʌðər/ &middot; *wun way ur uh-NUTH-ur*
+**Русский:** так или иначе, тем или иным способом — итог предрешён, средства не названы
 **Type:** conjunctive adverb (phrasal) &middot; **Register:** informal to neutral
 **Clause type:** Independent clause — adverbial link of dismissal: the outcome holds whichever of the possible routes turns out to be taken
 **Pattern:** *One way or another*, [independent clause]. &middot; [Independent clause] *one way or another*. &middot; [Subject] [modal], *one way or another*, [verb phrase]. &middot; [Independent clause], *one way or another*, [continuation].
@@ -2566,6 +2699,7 @@ Declares that the result is settled even though the means are not — often with
 ### speaking of which
 
 **Pronunciation:** /ˌspikɪŋ əv ˈwɪtʃ/ &middot; *SPEE-king uv WICH*
+**Русский:** кстати о нём, раз уж об этом зашла речь — переход к смежной теме
 **Type:** conjunctive adverb (phrasal) &middot; **Register:** informal to neutral
 **Clause type:** No clause of its own — a topic-linking tag whose *which* points back at the subject just raised. In the open form, *speaking of* takes a noun phrase of its own.
 **Pattern:** *Speaking of which*, [independent clause]. &middot; [Independent clause] — *speaking of which*, [independent clause]. &middot; *Speaking of* [noun phrase], [independent clause]. *(the open form)*
@@ -2585,6 +2719,7 @@ Takes the topic that just came up and uses it as the doorway to a related remark
 ### with regard to
 
 **Pronunciation:** /wɪð rɪˈɡɑrd tə/ &middot; *with ri-GARD tuh*
+**Русский:** что касается, относительно — канц.; форма with regards to ошибочна
 **Type:** conjunctive adverb (phrasal — prepositional in form) &middot; **Register:** formal
 **Clause type:** No clause of its own — a topic-marking preposition taking a noun phrase or gerund. Note the singular: *with regard to*, not *with regards to*, which belongs at the end of a letter.
 **Pattern:** *With regard to* [noun phrase], [independent clause]. &middot; [Independent clause] *with regard to* [noun phrase]. &middot; [Subject] [verb phrase] *with regard to* [gerund phrase].
@@ -2604,6 +2739,7 @@ The letter-writer's topic marker: "on the subject of." *With regards to* — wit
 ### with respect to
 
 **Pronunciation:** /wɪð rɪˈspɛkt tə/ &middot; *with ri-SPEKT tuh*
+**Русский:** в отношении, применительно к — юр., техн.; в науке «по» (переменная дифференцирования)
 **Type:** conjunctive adverb (phrasal — prepositional in form) &middot; **Register:** formal (legal, technical)
 **Clause type:** No clause of its own — a topic-marking preposition taking a noun phrase. In mathematics and the sciences it carries a technical sense, "measured against, as the variable" (*differentiate with respect to x*), which is not a connector at all.
 **Pattern:** *With respect to* [noun phrase], [independent clause]. &middot; [Independent clause] *with respect to* [noun phrase]. &middot; [Subject] [verb] *with respect to* [variable]. *(technical sense)*

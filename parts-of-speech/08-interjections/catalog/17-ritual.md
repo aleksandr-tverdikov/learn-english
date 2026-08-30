@@ -11,6 +11,7 @@ These are scripts, not sentences. A sneeze requires *bless you*, a raised glass 
 ### appreciate it
 
 **Pronunciation:** /əˈpriʃiˌeɪt ɪt/ &middot; *uh-PREE-shee-ayt-it*  
+**Русский:** спасибо, ценю — разг., тёплое сдержанное спасибо за услугу, а не за подарок
 **Type:** phrase &middot; **Register:** informal  
 **Variants:** *I appreciate it*, *'preciate it*, *much appreciated*
 
@@ -27,6 +28,7 @@ A warm, understated thank-you, said for a favor rather than for a gift. Dropping
 ### I owe you one
 
 **Pronunciation:** /ˌaɪ ˌoʊ ju ˈwʌn/ &middot; *eye-oh-yoo-WUN*  
+**Русский:** с меня причитается / буду должен — разг., спасибо с обещанием ответной услуги
 **Type:** phrase &middot; **Register:** informal  
 **Variants:** *I owe you*, *I owe you big time*, *I owe you big*
 
@@ -43,6 +45,7 @@ Thanks that promises a favor back. It is said when someone has gone genuinely ou
 ### many thanks
 
 **Pronunciation:** /ˌmɛni ˈθæŋks/ &middot; *men-ee-THANKS*  
+**Русский:** большое спасибо / благодарю — книжн., письменное: концовка письма или записки
 **Type:** phrase &middot; **Register:** neutral  
 **Variants:** *many thanks in advance*, *many thanks again*
 
@@ -59,6 +62,7 @@ A tidy written thank-you, at home at the end of an email, a note, or an acknowle
 ### much obliged
 
 **Pronunciation:** /ˌmʌtʃ əˈblaɪdʒd/ &middot; *much uh-BLYJD*  
+**Русский:** премного благодарен — устар., старомодно-учтивое, с ковбойским налётом
 **Type:** phrase &middot; **Register:** dated  
 **Variants:** *much obliged to you*, *obliged*
 
@@ -75,6 +79,7 @@ An old-fashioned thank-you with a courtly, Western flavor. Americans still say i
 ### thank you
 
 **Pronunciation:** /ˈθæŋk ju/ &middot; *THANK-yoo*  
+**Русский:** спасибо / благодарю вас — полная нейтральная форма, уместна везде; сухо — «вот именно»
 **Type:** phrase &middot; **Register:** neutral  
 **Variants:** *thank you very much*, *thank you so much*, *thank you kindly*, *thank ya*
 
@@ -92,6 +97,7 @@ The full, standard expression of gratitude — correct absolutely everywhere, fr
 ### thank you for your service
 
 **Pronunciation:** /ˌθæŋk ju fər jər ˈsɜrvɪs/ &middot; *thank-yoo-fer-yer-SUR-vis*  
+**Русский:** спасибо за вашу службу — формула благодарности ветерану или военному
 **Type:** phrase &middot; **Register:** neutral  
 **Variants:** *thank you for your service to our country*, *thanks for your service*
 
@@ -108,6 +114,7 @@ The formula an American says to someone identified as a veteran or an active-dut
 ### thanks
 
 **Pronunciation:** /θæŋks/ &middot; *THANKS*  
+**Русский:** спасибо — короткое повседневное, на любой мелкий повод; сухо брошенное звучит небрежно
 **Type:** secondary &middot; **Register:** neutral  
 **Variants:** *thanx*, *thx*, *thnx*, *tks*
 
@@ -125,6 +132,7 @@ The short everyday thank-you — one syllable, low effort, right for anything fr
 ### thanks a lot
 
 **Pronunciation:** /ˌθæŋks ə ˈlɑt/ &middot; *thanks-uh-LOT*  
+**Русский:** большое спасибо — тон решает всё: искренне или язвительное «ну спасибо тебе»
 **Type:** phrase &middot; **Register:** neutral
 
 Literally an intensified *thanks*, but Americans use it sarcastically about as often as sincerely, and tone does all the work. Bright and quick it is real gratitude; flat, with the weight on *lot*, it means *you have just made my life worse*.
@@ -140,6 +148,7 @@ Literally an intensified *thanks*, but Americans use it sarcastically about as o
 ### thanks a million
 
 **Pronunciation:** /ˌθæŋks ə ˈmɪljən/ &middot; *thanks-uh-MIL-yun*  
+**Русский:** огромное спасибо / спасибо преогромное — разг., почти всегда искренне
 **Type:** phrase &middot; **Register:** informal  
 **Variants:** *thanks a bunch*, *thanks a ton*, *thanks a heap*
 
@@ -156,6 +165,7 @@ A friendly, exaggerated thank-you for a real favor. *Thanks a million* is nearly
 ### you shouldn't have
 
 **Pronunciation:** /ju ˈʃʊdənt ˌhæv/ &middot; *yoo-SHOOD-unt-hav*  
+**Русский:** ну зачем же вы / не стоило — ритуальный протест при вручении подарка
 **Type:** phrase &middot; **Register:** neutral  
 **Variants:** *oh, you shouldn't have*, *you really shouldn't have*
 
@@ -172,6 +182,7 @@ The scripted thing to say while unwrapping a gift — a modest protest that func
 ### you're too kind
 
 **Pronunciation:** /jʊr ˌtu ˈkaɪnd/ &middot; *yer-too-KYND*  
+**Русский:** вы слишком добры / вы мне льстите — учтивое отклонение комплимента
 **Type:** phrase &middot; **Register:** neutral  
 **Variants:** *too kind*, *you are too kind*, *far too kind*
 
@@ -190,6 +201,7 @@ A gracious deflection of a compliment or a generous gesture, meaning roughly *th
 ### anytime
 
 **Pronunciation:** /ˈɛniˌtaɪm/ &middot; *EN-ee-time*  
+**Русский:** всегда пожалуйста / обращайся в любое время — разг., теплее, чем no problem
 **Type:** secondary &middot; **Register:** informal  
 **Variants:** *any time*
 
@@ -206,6 +218,7 @@ A relaxed reply to thanks that means *ask me again whenever you want*. It is war
 ### at your service
 
 **Pronunciation:** /ət jər ˈsɜrvɪs/ &middot; *at-yer-SUR-vis*  
+**Русский:** к вашим услугам — книжн., учтивое предложение помощи и ответ на спасибо
 **Type:** phrase &middot; **Register:** formal  
 **Variants:** *yours truly, at your service*, *always at your service*
 
@@ -222,6 +235,7 @@ An offer of help delivered with a flourish, and a courtly way of answering thank
 ### don't mention it
 
 **Pronunciation:** /ˌdoʊnt ˈmɛnʃən ɪt/ &middot; *dohnt-MEN-shun-it*  
+**Русский:** не стоит благодарности / пустяки — чуть старомодный учтивый ответ на спасибо
 **Type:** phrase &middot; **Register:** neutral
 
 A modest answer to thanks, meaning the favor was too small to be worth thanking anyone for. It is slightly old-fashioned and faintly gallant, and it can carry a joking undertone of *let us never speak of this again*.
@@ -237,6 +251,7 @@ A modest answer to thanks, meaning the favor was too small to be worth thanking 
 ### don't worry about it
 
 **Pronunciation:** /ˌdoʊnt ˈwɜri əˌbaʊt ɪt/ &middot; *dohnt-WUR-ee-uh-bowt-it*  
+**Русский:** да брось / не переживай, ерунда — разг., ответ и на спасибо, и на извинение
 **Type:** phrase &middot; **Register:** informal  
 **Variants:** *don't worry*, *don't even worry about it*, *don't worry about it, seriously*
 
@@ -253,6 +268,7 @@ A wave of the hand that answers a thank-you, an apology, or an offer to pay you 
 ### happy to help
 
 **Pronunciation:** /ˌhæpi tə ˈhɛlp/ &middot; *hap-ee-tuh-HELP*  
+**Русский:** рад помочь / всегда рад помочь — вежливое рабочее «пожалуйста»
 **Type:** phrase &middot; **Register:** neutral  
 **Variants:** *glad to help*, *happy to*, *always happy to help*
 
@@ -269,6 +285,7 @@ The workplace and service-industry standard reply to thanks — friendly, profes
 ### my pleasure
 
 **Pronunciation:** /maɪ ˈplɛʒər/ &middot; *my-PLEZH-er*  
+**Русский:** мне только в радость / всегда рад — книжн., учтивый ответ на спасибо
 **Type:** phrase &middot; **Register:** formal  
 **Variants:** *the pleasure is mine*, *pleasure's all mine*, *it was my pleasure*
 
@@ -285,6 +302,7 @@ A gracious reply to thanks, standard in hospitality and upscale service and comm
 ### no problem
 
 **Pronunciation:** /ˌnoʊ ˈprɑbləm/ &middot; *noh-PRAH-blum*  
+**Русский:** без проблем / не за что — разг., самый ходовой ответ на спасибо у молодых
 **Type:** phrase &middot; **Register:** informal  
 **Variants:** *no prob*, *no probs*, *np*
 
@@ -301,6 +319,7 @@ The most common casual American reply to thanks, and also a way to wave off an a
 ### no sweat
 
 **Pronunciation:** /ˌnoʊ ˈswɛt/ &middot; *noh-SWET*  
+**Русский:** да без проблем / раз плюнуть — разг., чуть устар. (1970–80-е), с бравадой
 **Type:** phrase &middot; **Register:** informal  
 **Variants:** *no sweat at all*
 
@@ -317,6 +336,7 @@ A breezy *no problem* that insists the favor cost you no effort whatsoever. It p
 ### no worries
 
 **Pronunciation:** /ˌnoʊ ˈwɜriz/ &middot; *noh-WUR-eez*  
+**Русский:** не парься / всё нормально — разг., из австралийского; и на спасибо, и на извинение
 **Type:** phrase &middot; **Register:** informal  
 **Variants:** *no worries at all*, *no worries, mate* (Australian flavor)
 
@@ -333,6 +353,7 @@ Australian in origin and now thoroughly at home in American English, especially 
 ### not at all
 
 **Pronunciation:** /ˌnɑt ət ˈɔl/ &middot; *naht-uht-AWL*  
+**Русский:** не за что / ну что вы — книжн., чуть чопорно, у американцев звучит по-британски
 **Type:** phrase &middot; **Register:** formal
 
 A polite, slightly formal reply to thanks or to an apology, meaning the trouble was nonexistent. In American mouths it sounds faintly British and rather courtly; younger Americans say *no problem* instead almost every time.
@@ -348,6 +369,7 @@ A polite, slightly formal reply to thanks or to an apology, meaning the trouble 
 ### of course
 
 **Pronunciation:** /əv ˈkɔrs/ &middot; *uv-KORSS*  
+**Русский:** ну конечно / о чём речь — как ответ на спасибо: «само собой, о чём тут говорить»
 **Type:** phrase &middot; **Register:** neutral  
 **Variants:** *but of course*, *of course, of course*
 
@@ -364,6 +386,7 @@ As an answer to thanks it means *there was never any question I would do it*, an
 ### sure thing
 
 **Pronunciation:** /ˌʃʊr ˈθɪŋ/ &middot; *shoor-THING*  
+**Русский:** конечно / не вопрос — разг., и «пожалуйста», и согласие на просьбу
 **Type:** phrase &middot; **Register:** informal  
 **Variants:** *sure*, *sure enough thing* (rare)
 
@@ -380,6 +403,7 @@ A breezy formula that answers either a thank-you or a request: after *thanks* it
 ### think nothing of it
 
 **Pronunciation:** /ˌθɪŋk ˈnʌθɪŋ əv ɪt/ &middot; *think-NUTH-ing-uv-it*  
+**Русский:** полно, не стоит благодарности — устар., подчёркнуто галантный ответ
 **Type:** phrase &middot; **Register:** dated
 
 A courtly dismissal of thanks, meaning the favor cost you nothing at all. It is genuinely old-fashioned now — you hear it from older speakers, in period pieces, and from people being grandly and deliberately gracious.
@@ -395,6 +419,7 @@ A courtly dismissal of thanks, meaning the favor cost you nothing at all. It is 
 ### you bet
 
 **Pronunciation:** /ju ˈbɛt/ &middot; *yoo-BET*  
+**Русский:** а как же / само собой — разг., среднезападное: и «пожалуйста», и решительное «да»
 **Type:** phrase &middot; **Register:** informal  
 **Variants:** *you betcha*, *yeah, you bet*
 
@@ -411,6 +436,7 @@ A hearty Midwestern and Western reply that answers *thank you* with *of course* 
 ### you got it
 
 **Pronunciation:** /ju ˈɡɑt ɪt/ &middot; *yoo-GOT-it*  
+**Русский:** будет сделано / понял, сделаю — разг., и согласие на просьбу, и ответ на спасибо
 **Type:** phrase &middot; **Register:** informal  
 **Variants:** *ya got it*, *you got it, boss*, *you got it, chief*
 
@@ -427,6 +453,7 @@ A quick, cheerful *consider it done* that doubles as an answer to thanks. It is 
 ### you're welcome
 
 **Pronunciation:** /jʊr ˈwɛlkəm/, also /jɔr ˈwɛlkəm/ &middot; *yer-WEL-kum, also yor-WEL-kum*  
+**Русский:** пожалуйста / не за что — стандартный ответ на спасибо, уместен всюду
 **Type:** phrase &middot; **Register:** neutral  
 **Variants:** *you're very welcome*, *you're quite welcome*, *ur welcome*
 
@@ -445,6 +472,7 @@ The standard, unmarked answer to *thank you* — never wrong anywhere, and the s
 ### after you
 
 **Pronunciation:** /ˈæftər ju/ &middot; *AF-ter-yoo*  
+**Русский:** после вас / проходите первым — уступая дорогу, очередь или лифт
 **Type:** phrase &middot; **Register:** neutral  
 **Variants:** *after you, please*
 
@@ -461,6 +489,7 @@ Said while yielding a doorway, an elevator, a buffet line, or a turn — an offe
 ### be my guest
 
 **Pronunciation:** /bi maɪ ˈɡɛst/ &middot; *bee-my-GEST*  
+**Русский:** сделай одолжение / пожалуйста — разрешение; часто с иронией «ну попробуй»
 **Type:** phrase &middot; **Register:** informal
 
 Permission granted with a shrug: *go ahead, it costs me nothing*. It can be genuinely hospitable, but very often it carries a dry undertone of *if you think you can do better, try it*.
@@ -476,6 +505,7 @@ Permission granted with a shrug: *go ahead, it costs me nothing*. It can be genu
 ### beg your pardon
 
 **Pronunciation:** /ˌbɛɡ jər ˈpɑrdən/ &middot; *beg-yer-PAR-dun*  
+**Русский:** прошу прощения — книжн.: извинение или переспрос; возмущённо — «да как вы смеете»
 **Type:** phrase &middot; **Register:** formal  
 **Variants:** *I beg your pardon*, *begging your pardon*
 
@@ -492,6 +522,7 @@ A formal apology, a formal request for a repeat, or — with a rising, indignant
 ### by all means
 
 **Pronunciation:** /baɪ ˌɔl ˈminz/ &middot; *by-awl-MEENZ*  
+**Русский:** разумеется / сделайте одолжение — книжн., охотно данное разрешение
 **Type:** phrase &middot; **Register:** formal
 
 Enthusiastic permission — *yes, absolutely, go ahead*. It is more gracious than *sure*, and it turns up in meetings, in email, and wherever a host wants to sound generous rather than merely willing.
@@ -507,6 +538,7 @@ Enthusiastic permission — *yes, absolutely, go ahead*. It is more gracious tha
 ### excuse me
 
 **Pronunciation:** /ɪkˈskjuz mi/ &middot; *ik-SKYOOZ-mee*  
+**Русский:** извините / простите — привлечь внимание, извиниться за помеху, переспросить
 **Type:** phrase &middot; **Register:** neutral  
 **Variants:** *'scuse me*, *excuse me?*, *excuse us*
 
@@ -524,6 +556,7 @@ The workhorse of American politeness: it gets a stranger's attention, apologizes
 ### excuse my French
 
 **Pronunciation:** /ɪkˌskjuz maɪ ˈfrɛntʃ/ &middot; *ik-skyooz-my-FRENCH*  
+**Русский:** простите за выражение — шутливое извинение за мат, до или сразу после него
 **Type:** phrase &middot; **Register:** informal  
 **Variants:** *pardon my French*, *excuse the French*, *'scuse my French*
 
@@ -540,6 +573,7 @@ A joking apology for swearing, dropped in just before or just after the word its
 ### my apologies
 
 **Pronunciation:** /maɪ əˈpɑlədʒiz/ &middot; *my-uh-PAH-luh-jeez*  
+**Русский:** приношу свои извинения — книжн., деловое извинение, суше и холоднее I'm sorry
 **Type:** phrase &middot; **Register:** formal  
 **Variants:** *apologies*, *my sincere apologies*, *apologies for the delay*
 
@@ -556,6 +590,7 @@ A crisp, businesslike apology, most at home in email and professional speech. It
 ### my bad
 
 **Pronunciation:** /maɪ ˈbæd/ &middot; *my-BAD*  
+**Русский:** мой косяк / виноват — очень разг., лёгкое признание оплошности; для серьёзного не годится
 **Type:** phrase &middot; **Register:** very informal
 
 A casual admission of fault that came out of pickup basketball in the 1980s and spread everywhere. It is friendly and low-stakes; using it for anything genuinely serious makes it sound like you are not taking it seriously.
@@ -571,6 +606,7 @@ A casual admission of fault that came out of pickup basketball in the 1980s and 
 ### no offense
 
 **Pronunciation:** /ˌnoʊ əˈfɛns/, also /ˌnoʊ ˈɔfɛns/ &middot; *noh-uh-FENSS, also noh-AW-fenss*  
+**Русский:** без обид — разг., оговорка при грубости; ответная реплика — none taken
 **Type:** phrase &middot; **Register:** informal  
 **Variants:** *no offense meant*, *no offense to anyone*, *none taken* (the standard reply)
 
@@ -587,6 +623,7 @@ A disclaimer bolted onto something rude, either just before or just after saying
 ### none taken
 
 **Pronunciation:** /ˌnʌn ˈteɪkən/ &middot; *nun-TAY-kun*  
+**Русский:** да я и не обиделся — разг., ритуальный ответ на no offense, часто из вежливости
 **Type:** phrase &middot; **Register:** informal  
 **Variants:** *none taken at all*, *and none taken*
 
@@ -603,6 +640,7 @@ The scripted answer to *no offense*, granting that you are not insulted. It is o
 ### pardon
 
 **Pronunciation:** /ˈpɑrdən/ &middot; *PAR-dun*  
+**Русский:** простите / виноват — книжн.; с вопросительной интонацией — «что-что?»
 **Type:** secondary &middot; **Register:** formal  
 **Variants:** *pardon me*, *pardon?*, *pardon me for asking*
 
@@ -620,6 +658,7 @@ A short, slightly formal *excuse me*. With rising intonation it asks for a repea
 ### please
 
 **Pronunciation:** /pliz/ &middot; *PLEEZ*  
+**Русский:** пожалуйста — превращает приказ в просьбу; отдельно, с падением тона — «да брось, перестань»
 **Type:** secondary &middot; **Register:** neutral  
 **Variants:** *pretty please*, *please please please*, *if you please* (dated), *plz*, *pls*
 
@@ -637,6 +676,7 @@ The word that turns an order into a request; leaving it out is the fastest way f
 ### sorry
 
 **Pronunciation:** /ˈsɑri/, also /ˈsɔri/ &middot; *SAH-ree, also SAW-ree*  
+**Русский:** извини / простите — извинение; sorry? — переспрос; I'm sorry, but... — вежливое несогласие
 **Type:** secondary &middot; **Register:** neutral  
 **Variants:** *I'm sorry*, *so sorry*, *sorry about that*, *soz* (internet)
 
@@ -654,6 +694,7 @@ The default apology, stretching from a bumped shopping cart to a death in the fa
 ### with all due respect
 
 **Pronunciation:** /wɪð ˌɔl du rɪˈspɛkt/ &middot; *with-awl-doo-ri-SPEKT*  
+**Русский:** при всём уважении — книжн., предупреждение: сейчас последует возражение
 **Type:** phrase &middot; **Register:** formal  
 **Variants:** *with respect*, *with all respect*, *no disrespect*
 
@@ -672,6 +713,7 @@ A warning label bolted to the front of a disagreement, usually aimed at someone 
 ### bon appetit
 
 **Pronunciation:** /ˌboʊn ɑpəˈti/ &middot; *bohn-ah-puh-TEE*  
+**Русский:** приятного аппетита — из французского: своей формулы английский так и не завёл
 **Type:** phrase &middot; **Register:** neutral  
 **Variants:** *bon appétit*
 
@@ -688,6 +730,7 @@ Borrowed from French and said to people about to eat — American English never 
 ### come in
 
 **Pronunciation:** /ˌkʌm ˈɪn/ &middot; *kum-IN*  
+**Русский:** войдите! / заходи — ответ на стук и первое слово хозяина гостю
 **Type:** phrase &middot; **Register:** neutral  
 **Variants:** *come on in*, *come in, come in*
 
@@ -704,6 +747,7 @@ The formula for admitting someone through a door — the answer to a knock, and 
 ### dig in
 
 **Pronunciation:** /ˌdɪɡ ˈɪn/ &middot; *dig-IN*  
+**Русский:** налетай! / приступайте — разг., хозяин разрешает начинать есть
 **Type:** phrase &middot; **Register:** informal
 
 The plain American *start eating*, said by a host once the food is on the table. It is casual and hearty, and its real function is to release everyone from politely waiting.
@@ -719,6 +763,7 @@ The plain American *start eating*, said by a host once the food is on the table.
 ### eat up
 
 **Pronunciation:** /ˌit ˈʌp/ &middot; *eet-UP*  
+**Русский:** ешь как следует / кушайте — разг., настойчивее dig in, по-бабушкински
 **Type:** phrase &middot; **Register:** informal  
 **Variants:** *eat up, now*, *everybody eat up*
 
@@ -735,6 +780,7 @@ A push to start eating and to keep going — warmer and more insistent than *dig
 ### enjoy
 
 **Pronunciation:** /ɪnˈdʒɔɪ/ &middot; *in-JOY*  
+**Русский:** приятного аппетита! / наслаждайтесь — подавая блюдо или вручая что-то приятное
 **Type:** secondary &middot; **Register:** neutral  
 **Variants:** *enjoy!*, *enjoy your meal*, *enjoy your evening*
 
@@ -751,6 +797,7 @@ What an American server says while setting down a plate, and what anyone says ha
 ### help yourself
 
 **Pronunciation:** /ˌhɛlp jərˈsɛlf/ &middot; *help-yer-SELF*  
+**Русский:** угощайтесь / берите сами — разрешение брать еду и прочее без лишних просьб
 **Type:** phrase &middot; **Register:** neutral  
 **Variants:** *help yourselves*, *help yourself to whatever*
 
@@ -767,6 +814,7 @@ A host's standing permission to take food, drink, or anything else on offer with
 ### make yourself at home
 
 **Pronunciation:** /ˌmeɪk jərˌsɛlf ət ˈhoʊm/ &middot; *mayk-yer-self-at-HOHM*  
+**Русский:** чувствуй себя как дома — приглашение гостю располагаться
 **Type:** phrase &middot; **Register:** neutral  
 **Variants:** *make yourselves at home*
 
@@ -783,6 +831,7 @@ A host's blanket invitation to relax and treat the place as your own. It is warm
 ### say when
 
 **Pronunciation:** /ˌseɪ ˈwɛn/ &middot; *say-WEN*  
+**Русский:** скажешь, когда хватит — наливая; по сценарию отвечают одним словом «when»
 **Type:** phrase &middot; **Register:** informal  
 **Variants:** *tell me when*, *when!* (the expected reply)
 
@@ -801,6 +850,7 @@ Said while pouring or serving, asking the other person to call out at the moment
 ### bottoms up
 
 **Pronunciation:** /ˌbɑtəmz ˈʌp/ &middot; *bot-umz-UP*  
+**Русский:** до дна! — разг., тост допить залпом; в шутку и о лекарстве
 **Type:** phrase &middot; **Register:** informal  
 **Variants:** *bottoms-up*
 
@@ -817,6 +867,7 @@ A toast that tells everyone to drain the glass — the bottom of the glass goes 
 ### cheers
 
 **Pronunciation:** /tʃɪrz/ &middot; *CHEERZ*  
+**Русский:** будем! / за здоровье — стандартный тост; ещё и лёгкое «спасибо», и подпись в письме
 **Type:** secondary &middot; **Register:** neutral
 
 The standard American toast, said as glasses are raised and clinked. Under British influence it has picked up two more jobs here — a light *thanks*, and a casual email sign-off — both of which sound faintly Anglophile coming from an American.
@@ -832,6 +883,7 @@ The standard American toast, said as glasses are raised and clinked. Under Briti
 ### cheers to that
 
 **Pronunciation:** /ˌtʃɪrz tə ˈðæt/ &middot; *cheerz-tuh-THAT*  
+**Русский:** вот за это выпьем / полностью поддерживаю — согласие в форме тоста
 **Type:** phrase &middot; **Register:** informal  
 **Variants:** *I'll drink to that*, *I'll cheers to that*
 
@@ -848,6 +900,7 @@ Agreement dressed up as a toast — you are endorsing what somebody just said st
 ### down the hatch
 
 **Pronunciation:** /ˌdaʊn ðə ˈhætʃ/ &middot; *down-thuh-HATCH*  
+**Русский:** поехали! / за воротник — разг., шутливый тост перед тем как выпить залпом
 **Type:** phrase &middot; **Register:** informal
 
 A jokey toast said right before swallowing something in one go — the hatch being your throat, in old nautical humor. Like *bottoms up*, it moonlights as what you say to unpleasant medicine.
@@ -863,6 +916,7 @@ A jokey toast said right before swallowing something in one go — the hatch bei
 ### here's looking at you
 
 **Pronunciation:** /ˌhɪrz ˈlʊkɪŋ ət ju/ &middot; *heerz-LOOK-ing-at-yoo*  
+**Русский:** за тебя! — устар., цитата из «Касабланки», говорят с понимающей усмешкой
 **Type:** phrase &middot; **Register:** dated  
 **Variants:** *here's looking at you, kid*
 
@@ -879,6 +933,7 @@ A toast made famous by *Casablanca* in 1942 and now essentially a quotation. Ame
 ### here's mud in your eye
 
 **Pronunciation:** /ˌhɪrz ˈmʌd ɪn jər ˌaɪ/ &middot; *heerz-MUD-in-yer-eye*  
+**Русский:** ну, будем! — устар., нарочито старомодный застольный тост
 **Type:** phrase &middot; **Register:** dated
 
 An old drinking toast whose origin nobody agrees on — trench mud, racetrack mud, or farm mud, depending on who is telling it. It survives mainly as a deliberately old-timey thing to say when glasses come together.
@@ -894,6 +949,7 @@ An old drinking toast whose origin nobody agrees on — trench mud, racetrack mu
 ### here's to you
 
 **Pronunciation:** /ˌhɪrz tə ˈju/ &middot; *heerz-tuh-YOO*  
+**Русский:** за тебя / за вас — универсальная рамка тоста: here's to + кто или что
 **Type:** phrase &middot; **Register:** neutral  
 **Variants:** *here's to*, *here's to us*, *here's to that*
 
@@ -910,6 +966,7 @@ The all-purpose American toast frame: *here's to* plus whoever or whatever you a
 ### l'chaim
 
 **Pronunciation:** /ləˈxaɪm/, commonly Anglicized to /ləˈhaɪm/ &middot; *luh-KHYME (the* kh *is a throat-clearing sound), also luh-HYME*  
+**Русский:** лехаим! — еврейский тост, на иврите «за жизнь»
 **Type:** primary &middot; **Register:** neutral  
 **Variants:** *l'chayim*, *lechaim*, *le chaim*
 
@@ -926,6 +983,7 @@ Hebrew for *to life* — the standard Jewish toast, widely recognized in America
 ### prost
 
 **Pronunciation:** /proʊst/ &middot; *PROHST*  
+**Русский:** прост! — немецкий тост, примерно «на здоровье»
 **Type:** primary &middot; **Register:** informal  
 **Variants:** *prosit*
 
@@ -942,6 +1000,7 @@ The German toast, used in American English at Oktoberfest, in German restaurants
 ### salud
 
 **Pronunciation:** /səˈlud/ &middot; *suh-LOOD*  
+**Русский:** салуд! — испанский тост «за здоровье»; по-испански ещё и ответ на чихание
 **Type:** primary &middot; **Register:** informal  
 **Variants:** *salut*, *¡salud!*
 
@@ -958,6 +1017,7 @@ Spanish for *health*, used as a toast wherever Spanish and English mix in the Un
 ### skol
 
 **Pronunciation:** /skoʊl/ &middot; *SKOHL*  
+**Русский:** сколь! — скандинавский тост, от старого слова «чаша»
 **Type:** primary &middot; **Register:** informal  
 **Variants:** *skål*, *skoal*
 
@@ -974,6 +1034,7 @@ The Scandinavian toast, from an old word for *bowl* or *drinking cup*. In Americ
 ### sláinte
 
 **Pronunciation:** /ˈslɑntʃə/ &middot; *SLAHN-chuh*  
+**Русский:** сланте (произносится «слáнче») — ирландский тост «за здоровье»
 **Type:** primary &middot; **Register:** informal  
 **Variants:** *slainte*, *slàinte*, *sláinte mhaith*
 
@@ -990,6 +1051,7 @@ Irish (and Scottish Gaelic) for *health*, and the standard Irish toast — heard
 ### to your health
 
 **Pronunciation:** /tə jər ˈhɛlθ/ &middot; *tuh-yer-HELTH*  
+**Русский:** за ваше здоровье — книжн., полный английский тост: свадьбы, юбилеи, проводы
 **Type:** phrase &middot; **Register:** formal  
 **Variants:** *your health*, *to your good health*, *your very good health*
 
@@ -1008,6 +1070,7 @@ The full, formal English toast that all the borrowed ones — *salud*, *prost*, 
 ### all the best
 
 **Pronunciation:** /ˌɔl ðə ˈbɛst/ &middot; *awl-thuh-BEST*  
+**Русский:** всего наилучшего / всего доброго — тёплое пожелание, часто подпись в письме
 **Type:** phrase &middot; **Register:** neutral  
 **Variants:** *all my best*, *all the best to you*, *all the best to you and yours*
 
@@ -1024,6 +1087,7 @@ A broad, warm good wish, most common as a written sign-off and as the last thing
 ### best of luck
 
 **Pronunciation:** /ˌbɛst əv ˈlʌk/ &middot; *best-uv-LUK*  
+**Русский:** удачи вам / успехов — чуть официальнее good luck, обычно на прощание
 **Type:** phrase &middot; **Register:** neutral  
 **Variants:** *the best of luck*, *best of luck to you*
 
@@ -1040,6 +1104,7 @@ A more finished, slightly more formal *good luck*, common in email sign-offs and
 ### bless you
 
 **Pronunciation:** /ˈblɛs ju/ &middot; *BLESS-yoo*  
+**Русский:** будь здоров! — в ответ на чихание; о сделавшем добро — «ты просто ангел»
 **Type:** phrase &middot; **Register:** neutral  
 **Variants:** *God bless you*, *bless ya*
 
@@ -1056,6 +1121,7 @@ The standard American answer to a sneeze — automatic, expected, and only faint
 ### bless your heart
 
 **Pronunciation:** /ˌblɛs jər ˈhɑrt/ &middot; *bless-yer-HART*  
+**Русский:** дай тебе Бог здоровья / ах ты бедняжка — диал. (Юг); о третьем лице — вежливая насмешка
 **Type:** phrase &middot; **Register:** regional  
 **Variants:** *bless her heart*, *bless his heart*, *bless it*
 
@@ -1072,6 +1138,7 @@ A Southern formula with two faces. Said warmly and to your face it is genuine af
 ### break a leg
 
 **Pronunciation:** /ˌbreɪk ə ˈlɛɡ/ &middot; *brayk-uh-LEG*  
+**Русский:** ни пуха ни пера! — театральное: пожелать «удачи» перед спектаклем — дурная примета
 **Type:** phrase &middot; **Register:** informal
 
 Theater's superstitious way of wishing good luck, since saying *good luck* in a theater is thought to jinx the show. It has spread well past the stage to auditions, interviews, and any nerve-racking appearance.
@@ -1087,6 +1154,7 @@ Theater's superstitious way of wishing good luck, since saying *good luck* in a 
 ### fingers crossed
 
 **Pronunciation:** /ˌfɪŋɡərz ˈkrɔst/ &middot; *fing-gerz-KRAWST*  
+**Русский:** скрестим пальцы / тьфу-тьфу, чтоб получилось — надежда на удачный исход
 **Type:** phrase &middot; **Register:** informal  
 **Variants:** *keeping my fingers crossed*, *fingers crossed for you*
 
@@ -1103,6 +1171,7 @@ A wish for luck named after the old gesture of crossing your index and middle fi
 ### gesundheit
 
 **Pronunciation:** /ɡəˈzʊnthaɪt/ &middot; *guh-ZOONT-hyte*  
+**Русский:** будь здоров! — из немецкого, светская замена bless you после чихания
 **Type:** primary &middot; **Register:** neutral
 
 German for *health*, and the standard secular alternative to *bless you* after a sneeze. It is fully naturalized in American English and carries no religious weight at all, which is exactly why some people prefer it.
@@ -1118,6 +1187,7 @@ German for *health*, and the standard secular alternative to *bless you* after a
 ### get well soon
 
 **Pronunciation:** /ˌɡɛt wɛl ˈsun/ &middot; *get-wel-SOON*  
+**Русский:** выздоравливай поскорее — пожелание больному; в живой речи чаще feel better
 **Type:** phrase &middot; **Register:** neutral  
 **Variants:** *get well*, *feel better*, *feel better soon*, *hope you feel better*
 
@@ -1134,6 +1204,7 @@ The standard American wish for someone who is sick — printed on cards, written
 ### God bless
 
 **Pronunciation:** /ˌɡɑd ˈblɛs/ &middot; *gahd-BLESS*  
+**Русский:** храни тебя Бог / дай Бог здоровья — прощание, благодарность или умилённая досада
 **Type:** phrase &middot; **Register:** neutral  
 **Variants:** *God bless you*, *God bless 'em*, *God bless America*
 
@@ -1150,6 +1221,7 @@ A short blessing used as a farewell, a thank-you, or an expression of fond exasp
 ### God rest his soul
 
 **Pronunciation:** /ˌɡɑd ˌrɛst ɪz ˈsoʊl/ &middot; *gahd-rest-iz-SOHL*  
+**Русский:** царствие ему небесное — устар., приписка сразу после имени покойного
 **Type:** phrase &middot; **Register:** dated  
 **Variants:** *God rest her soul*, *God rest him*, *God rest their souls*
 
@@ -1166,6 +1238,7 @@ A small blessing tucked in right after naming someone who has died. It is nearly
 ### good luck
 
 **Pronunciation:** /ˌɡʊd ˈlʌk/ &middot; *good-LUK*  
+**Русский:** удачи — универсально; но good luck with that — «ну-ну, флаг тебе в руки»
 **Type:** phrase &middot; **Register:** neutral  
 **Variants:** *good luck to you*, *good luck with that*, *gl* (gaming)
 
@@ -1182,6 +1255,7 @@ The default American wish for a good outcome — safe in every register, spoken 
 ### knock on wood
 
 **Pronunciation:** /ˌnɑk ɑn ˈwʊd/ &middot; *nahk-on-WOOD*  
+**Русский:** тьфу-тьфу-тьфу, чтоб не сглазить — сказав о своей удаче, стучат по дереву
 **Type:** phrase &middot; **Register:** informal  
 **Variants:** *knock wood*, *touch wood* (British)
 
@@ -1198,6 +1272,7 @@ Said immediately after mentioning your own good fortune, to keep from jinxing it
 ### same to you
 
 **Pronunciation:** /ˌseɪm tə ˈju/ &middot; *saym-tuh-YOO*  
+**Русский:** и тебе того же / взаимно — ответ на пожелание; после оскорбления — «сам такой»
 **Type:** phrase &middot; **Register:** neutral  
 **Variants:** *and the same to you*, *same to you and yours*, *you too*, *likewise*
 
@@ -1217,6 +1292,7 @@ The reflexive answer that hands a good wish straight back, and the safe response
 ### condolences
 
 **Pronunciation:** /kənˈdoʊlənsɪz/ &middot; *kun-DOH-lun-sez*  
+**Русский:** соболезнования — книжн., формальное сочувствие после чьей-то смерти
 **Type:** secondary &middot; **Register:** formal  
 **Variants:** *my condolences*, *my deepest condolences*, *our condolences*
 
@@ -1233,6 +1309,7 @@ The formal expression of sympathy after a death — standard in cards, at funera
 ### congrats
 
 **Pronunciation:** /kənˈɡræts/ &middot; *kun-GRATS*  
+**Русский:** поздравляю! — разг., усечённое congratulations: для сообщений и разговора, не для открытки
 **Type:** secondary &middot; **Register:** informal  
 **Variants:** *congratz*, *grats*, *gratz* (gaming)
 
@@ -1249,6 +1326,7 @@ The clipped, casual *congratulations* — right for texts, comments, and hallway
 ### congratulations
 
 **Pronunciation:** /kənˌɡrætʃəˈleɪʃənz/, casually /kənˌɡrædʒəˈleɪʃənz/ &middot; *kun-grach-uh-LAY-shunz, casually kun-graj-uh-LAY-shunz*  
+**Русский:** поздравляю! — с достижением или доброй новостью; сухо сказанное — колкость хвастуну
 **Type:** secondary &middot; **Register:** neutral  
 **Variants:** *congrats*, *congratulations to you*, *congradulations* (common misspelling)
 
@@ -1265,6 +1343,7 @@ The full formula for marking somebody else's achievement or good news — a degr
 ### happy anniversary
 
 **Pronunciation:** /ˌhæpi ˌænəˈvɜrsəri/ &middot; *hap-ee-an-uh-VUR-suh-ree*  
+**Русский:** с годовщиной! — свадьбы, а также рабочей и любой другой; обычно паре сразу
 **Type:** phrase &middot; **Register:** neutral  
 **Variants:** *happy anniversary to you both*, *happy tenth*, *happy anniversary, babe*
 
@@ -1281,6 +1360,7 @@ The fixed wish for a wedding anniversary, extended freely to work anniversaries 
 ### happy birthday
 
 **Pronunciation:** /ˌhæpi ˈbɜrθdeɪ/ &middot; *hap-ee-BURTH-day*  
+**Русский:** с днём рождения! — единственно возможная формула, других вариантов нет
 **Type:** phrase &middot; **Register:** neutral  
 **Variants:** *happy birthday to you*, *happy bday*, *HBD*
 
@@ -1297,6 +1377,7 @@ The fixed American birthday formula — said, sung, written on cake, and posted 
 ### happy holidays
 
 **Pronunciation:** /ˌhæpi ˈhɑlədeɪz/ &middot; *hap-ee-HAH-luh-dayz*  
+**Русский:** с праздниками! — нейтральное зимнее поздравление, не привязанное к религии
 **Type:** phrase &middot; **Register:** neutral
 
 The inclusive American winter greeting, covering Christmas, Hanukkah, Kwanzaa, and New Year's in one phrase. It is the default in retail, in offices, and in mail to people whose religion you do not know.
@@ -1312,6 +1393,7 @@ The inclusive American winter greeting, covering Christmas, Hanukkah, Kwanzaa, a
 ### happy new year
 
 **Pronunciation:** /ˌhæpi nu ˈjɪr/ &middot; *hap-ee-noo-YEER*  
+**Русский:** с Новым годом! — в полночь 31 декабря и потом первые недели января
 **Type:** phrase &middot; **Register:** neutral  
 **Variants:** *Happy New Year*, *happy New Year's*
 
@@ -1328,6 +1410,7 @@ Said at midnight on December 31st and then for the first couple of weeks of Janu
 ### happy Thanksgiving
 
 **Pronunciation:** /ˌhæpi ˌθæŋksˈɡɪvɪŋ/ &middot; *hap-ee-thanks-GIV-ing*  
+**Русский:** с Днём благодарения! — поздравление с праздником, без религиозного оттенка
 **Type:** phrase &middot; **Register:** neutral  
 **Variants:** *Happy Thanksgiving*, *happy Turkey Day*
 
@@ -1344,6 +1427,7 @@ The greeting for the fourth Thursday in November, said on the day and for a few 
 ### many happy returns
 
 **Pronunciation:** /ˌmɛni ˌhæpi rɪˈtɜrnz/ &middot; *men-ee-hap-ee-ri-TURNZ*  
+**Русский:** многая лета / долгих лет — устар. в США, британское пожелание на день рождения
 **Type:** phrase &middot; **Register:** dated  
 **Variants:** *many happy returns of the day*
 
@@ -1360,6 +1444,7 @@ An old birthday wish — that the day may come back many more times — still or
 ### mazel tov
 
 **Pronunciation:** /ˈmɑzəl ˌtɔv/, also /ˈmɑzəl ˌtɑv/ &middot; *MAH-zul-tawv, also MAH-zul-tahv*  
+**Русский:** мазл тов — поздравляю! ивр. и идиш «доброй удачи», об уже свершившемся событии
 **Type:** phrase &middot; **Register:** neutral  
 **Variants:** *mazal tov*, *mazeltov*
 
@@ -1376,6 +1461,7 @@ Hebrew and Yiddish for *good fortune*, said as congratulations at weddings, bar 
 ### merry Christmas
 
 **Pronunciation:** /ˌmɛri ˈkrɪsməs/ &middot; *mer-ee-KRIS-mus*  
+**Русский:** с Рождеством! — именно merry, а не happy: это просто надо запомнить
 **Type:** phrase &middot; **Register:** neutral  
 **Variants:** *Merry Christmas*, *merry Xmas*, *merry Christmas to you*
 
@@ -1392,6 +1478,7 @@ The standard Christmas greeting in American English. Note *merry*, not *happy* �
 ### rest in peace
 
 **Pronunciation:** /ˌrɛst ɪn ˈpis/ &middot; *rest-in-PEESS*  
+**Русский:** покойся с миром — на надгробии и как стандартный отклик на смерть в интернете
 **Type:** phrase &middot; **Register:** neutral  
 **Variants:** *RIP*, *R.I.P.*, *rest easy*, *may she rest in peace*
 
@@ -1408,6 +1495,7 @@ A blessing on the dead, carved on headstones and now the standard way Americans 
 ### sorry for your loss
 
 **Pronunciation:** /ˌsɑri fər jər ˈlɔs/, also /ˌsɔri fər jər ˈlɔs/ &middot; *sah-ree-fer-yer-LAWSS, also saw-ree-fer-yer-LAWSS*  
+**Русский:** соболезную вашей утрате — стандартная, чуть безличная формула для скорбящего
 **Type:** phrase &middot; **Register:** neutral  
 **Variants:** *I'm sorry for your loss*, *so sorry for your loss*, *sorry for your loss, ma'am*
 
@@ -1424,6 +1512,7 @@ The default American condolence to someone who has been bereaved — expected, s
 ### thoughts and prayers
 
 **Pronunciation:** /ˌθɔts ən ˈprɛrz/ &middot; *thawts-un-PRAIRZ*  
+**Русский:** мыслями и молитвами с вами — публично после трагедии звучит как пустая отписка
 **Type:** phrase &middot; **Register:** neutral  
 **Variants:** *my thoughts and prayers*, *our thoughts and prayers are with you*, *thoughts and prayers to the family*
 
@@ -1442,6 +1531,7 @@ An offer of sympathy after a death, an illness, or a disaster. Said to one griev
 ### alhamdulillah
 
 **Pronunciation:** /ˌɑlhɑmdʊˈlɪlɑ/ &middot; *ahl-hahm-doo-LIL-lah*  
+**Русский:** альхамдулиллях — араб. «хвала Богу»: на добрую весть, на «как дела», после еды
 **Type:** primary &middot; **Register:** neutral  
 **Variants:** *alhamdulilah*, *al-hamdu lillah*, *hamdulillah*
 
@@ -1458,6 +1548,7 @@ Arabic for *praise be to God*, and the everyday Muslim response to good news, to
 ### amen
 
 **Pronunciation:** /ɑˈmɛn/, also /eɪˈmɛn/ &middot; *ah-MEN, also ay-MEN*  
+**Русский:** аминь — «да будет так» в конце молитвы; в речи — «вот именно, полностью согласен»
 **Type:** primary &middot; **Register:** neutral  
 **Variants:** *amen to that*, *amen, brother*, *A-men*
 
@@ -1475,6 +1566,7 @@ Hebrew for *so be it*, said at the close of a prayer to affirm it. Outside churc
 ### glory be
 
 **Pronunciation:** /ˌɡlɔri ˈbi/ &middot; *glor-ee-BEE*  
+**Русский:** слава тебе Господи / батюшки-светы — устар., деревенское, бабушкино «ух ты»
 **Type:** phrase &middot; **Register:** dated  
 **Variants:** *glory be to God*, *glory*, *glory hallelujah*
 
@@ -1491,6 +1583,7 @@ An old devotional exclamation of wonder or thanks, and also the name of a short 
 ### God forbid
 
 **Pronunciation:** /ˌɡɑd fərˈbɪd/ &middot; *gahd-fer-BID*  
+**Русский:** не дай Бог / упаси Господь — оберег сразу после упоминания беды
 **Type:** phrase &middot; **Register:** neutral  
 **Variants:** *heaven forbid*, *God forbid it*, *perish the thought*
 
@@ -1507,6 +1600,7 @@ A ward set against a bad possibility, dropped in immediately after naming it —
 ### hallelujah
 
 **Pronunciation:** /ˌhæləˈlujə/ &middot; *hal-uh-LOO-yuh*  
+**Русский:** аллилуйя — в церкви хвала Богу; в речи — «ну наконец-то!», возглас облегчения
 **Type:** primary &middot; **Register:** neutral  
 **Variants:** *alleluia*, *hallelujer* (dialect)
 
@@ -1523,6 +1617,7 @@ Hebrew for *praise the Lord*, used in worship and, far more often in daily speec
 ### inshallah
 
 **Pronunciation:** /ɪnˈʃɑlə/, also /ˌɪnʃəˈlɑ/ &middot; *in-SHAH-luh, also in-shuh-LAH*  
+**Русский:** иншаллах — араб. «если Богу будет угодно»; в шутку — «этого не случится никогда»
 **Type:** primary &middot; **Register:** neutral  
 **Variants:** *insha'Allah*, *in sha Allah*, *inshaAllah*, *God willing* (the English equivalent)
 
@@ -1539,6 +1634,7 @@ Arabic for *if God wills it*, attached to any statement about the future. It is 
 ### mashallah
 
 **Pronunciation:** /mɑˈʃɑlə/, also /ˌmɑʃɑˈlɑ/ &middot; *mah-SHAH-luh, also mah-shah-LAH*  
+**Русский:** машаллах — араб. «на то воля Божья», говорят, любуясь, чтобы не сглазить
 **Type:** primary &middot; **Register:** neutral  
 **Variants:** *masha'Allah*, *ma sha Allah*, *mashaAllah*
 
@@ -1555,6 +1651,7 @@ Arabic for *what God has willed*, said while admiring something — a baby, a ne
 ### peace be with you
 
 **Pronunciation:** /ˌpis bi wɪð ˈju/ &middot; *peess-bee-with-YOO*  
+**Русский:** мир вам — литургическое приветствие; вне церкви нарочито торжественно или иронично
 **Type:** phrase &middot; **Register:** formal  
 **Variants:** *peace be with you all*, *peace*, *and with your spirit* (the liturgical response)
 
@@ -1571,6 +1668,7 @@ The blessing exchanged during the sign of peace at Mass and in many Protestant s
 ### praise be
 
 **Pronunciation:** /ˌpreɪz ˈbi/ &middot; *prayz-BEE*  
+**Русский:** слава Богу — устар., у пожилых и верующих; у светских людей иронично
 **Type:** phrase &middot; **Register:** dated  
 **Variants:** *praise be to God*
 
@@ -1587,6 +1685,7 @@ A short devotional thanks to God, now heard mostly from older and more religious
 ### praise the Lord
 
 **Pronunciation:** /ˌpreɪz ðə ˈlɔrd/ &middot; *prayz-thuh-LORD*  
+**Русский:** слава Господу! — обычное в церкви; в светской речи — сильное облегчение
 **Type:** phrase &middot; **Register:** neutral  
 **Variants:** *praise God*, *praise Jesus*, *praise the Lord and pass the ammunition*
 
@@ -1605,6 +1704,7 @@ A devotional exclamation of thanks and joy, standard in American church speech a
 ### jinx
 
 **Pronunciation:** /dʒɪŋks/ &middot; *JINKS*  
+**Русский:** чур, я первый! — детский возглас, когда двое сказали одно и то же разом
 **Type:** secondary &middot; **Register:** informal  
 **Variants:** *jinx, you owe me a Coke*, *double jinx*, *jinx, personal jinx*
 
@@ -1621,6 +1721,7 @@ Called out by whoever is faster when two people say the same thing at the same i
 ### say cheese
 
 **Pronunciation:** /ˌseɪ ˈtʃiz/ &middot; *say-CHEEZ*  
+**Русский:** скажи «сыр»! — команда фотографа за полсекунды до снимка
 **Type:** phrase &middot; **Register:** informal  
 **Variants:** *cheese!*, *everybody say cheese*, *smile*
 
@@ -1637,6 +1738,7 @@ What the person holding the camera says a half second before the shutter, becaus
 ### trick or treat
 
 **Pronunciation:** /ˌtrɪk ər ˈtrit/ &middot; *trik-er-TREET*  
+**Русский:** кошелёк или жизнь! — что кричат дети на Хеллоуин, выпрашивая конфеты
 **Type:** phrase &middot; **Register:** informal  
 **Variants:** *trick-or-treat*, *trick or treat, smell my feet* (children's rhyme)
 

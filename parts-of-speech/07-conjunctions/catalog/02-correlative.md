@@ -15,6 +15,7 @@ The coordinating pairs. These join two elements of equal grammatical rank and ca
 ### as well … as
 
 **Pronunciation:** /æz ˈwɛl/ … /æz/, /əz/ &middot; *az-WEL … AZ, uhz*
+**Русский:** устар. как …, так и … — старая расщеплённая форма as well as: и то, и другое
 **Type:** correlative (the split form of the quasi-coordinator *as well as*; the first *as* is a degree adverb and *well* an adverb, so only the second *as* is the conjunction — unsplit, the same three words are also the equative of *she plays as well as her brother*) &middot; **Register:** archaic; survives in legal and older literary prose
 **Clause type:** coordinate elements — joins noun phrases, prepositional phrases, and adjectives
 **Pattern:** *as well* [X] *as* [Y] &middot; *as well* [prepositional phrase] *as* [prepositional phrase] &middot; [verb] *as well* [object] *as* [object] &middot; *as well* [subject] *as* [subject] + plural verb &middot; *as well* [adjective] *as* [adjective]
@@ -35,6 +36,7 @@ The old split arrangement of *as well as*: the *well* stays with the first item 
 ### at once … and
 
 **Pronunciation:** /æt ˈwʌns/ … /ænd/, /ən/ &middot; *at-WUNSS … AND, uhn*
+**Русский:** книжн. одновременно и …, и … — два свойства сразу, обычно плохо совместимых
 **Type:** correlative (*at once* is elsewhere an adverb of time meaning "immediately" — *come at once*; the *and* half is the ordinary coordinator) &middot; **Register:** formal, literary
 **Clause type:** coordinate elements — most often two adjectives or two noun phrases in predicate position
 **Pattern:** [subject] + *be* + *at once* [adjective] *and* [adjective] &middot; *at once* [noun phrase] *and* [noun phrase] &middot; [verb] *at once* [X] *and* [Y] &middot; *at once* [adjective], [adjective], *and* [adjective] (three or more) &middot; *at once both* [X] *and* [Y]
@@ -55,6 +57,7 @@ Says that both descriptions hold simultaneously, and usually implies they sit od
 ### both … and
 
 **Pronunciation:** /boʊθ/ … /ænd/, /ənd/, /ən/ &middot; *BOHTH … AND, uhn*
+**Русский:** и …, и …; как …, так и … — подчёркивает, что оба; глагол всегда во мн. числе
 **Type:** correlative (*both* on its own is a determiner and a pronoun — *both books*, *both of them*; the *and* half is the ordinary coordinator of *bread and butter*) &middot; **Register:** neutral
 **Clause type:** coordinate elements — joins words, phrases, and matching subordinate clauses, but not two independent clauses
 **Pattern:** *both* [X] *and* [Y] (X and Y the same kind of element) &middot; *both* [subject] *and* [subject] + plural verb &middot; [subject] *both* [verb phrase] *and* [verb phrase] &middot; [verb] *both* [object] *and* [object] &middot; *both* [prepositional phrase] *and* [prepositional phrase] &middot; *both* [subordinate clause] *and* [subordinate clause] (*both that he knew and that he said nothing*)
@@ -75,6 +78,7 @@ Adds two things together and puts emphasis on the fact that there are two — pl
 ### either … or
 
 **Pronunciation:** /ˈiðər/, /ˈaɪðər/ … /ɔr/, /ər/ &middot; *EE-thur (also EYE-thur) … OR, er*
+**Русский:** или …, или …; либо …, либо … — глагол согласуется с ближайшим подлежащим
 **Type:** correlative (*either* on its own is a determiner, a pronoun, and a negative-echo adverb — *either way*, *I don't either*; the *or* half is the ordinary coordinator) &middot; **Register:** neutral
 **Clause type:** coordinate elements, or two coordinate independent clauses
 **Pattern:** *either* [X] *or* [Y] &middot; *either* [subject] *or* [subject] + verb agreeing with the nearer one &middot; [subject] *either* [verb phrase] *or* [verb phrase] &middot; [verb] *either* [object] *or* [object] &middot; [subject] + *be* + *either* [complement] *or* [complement] &middot; *Either* [independent clause], *or* [independent clause].
@@ -95,6 +99,7 @@ Offers two alternatives and asserts that one of them holds. Against plain *or*, 
 ### neither … nor
 
 **Pronunciation:** /ˈniðər/, /ˈnaɪðər/ … /nɔr/ &middot; *NEE-thur (also NYE-thur) … NOR*
+**Русский:** ни …, ни … — отрицание уже в самой паре, поэтому глагол остаётся положительным
 **Type:** correlative (*neither* on its own is a determiner, a pronoun, and an adverb — *neither one*, *me neither*; *nor* is also a plain coordinator) &middot; **Register:** neutral, leaning formal in speech
 **Clause type:** coordinate elements, or two coordinate independent clauses
 **Pattern:** *neither* [X] *nor* [Y] &middot; *neither* [subject] *nor* [subject] + verb agreeing with the nearer one &middot; [subject] *neither* [verb phrase] *nor* [verb phrase] &middot; [subject] + *be* + *neither* [complement] *nor* [complement] &middot; [verb] *neither* [object] *nor* [object] &middot; *Neither* [independent clause], *nor* [inverted independent clause].
@@ -116,6 +121,7 @@ Denies both alternatives at once; it is the exact negative of *both … and*. Th
 ### nor … nor
 
 **Pronunciation:** /nɔr/ … /nɔr/, reduced /nər/ &middot; *NOR … NOR, nur* (the doubled form is rhetorical, so both halves normally keep full stress; only in running prose does the first flatten)
+**Русский:** устар., поэт. ни …, ни … — то же, что neither … nor, но только в стихах и Библии
 **Type:** correlative (both halves are the ordinary coordinator *nor*, the one FANBOYS member that carries its own negation; the same *nor* is the second half of *neither … nor* and the clause coordinator of *He didn't call, nor did he write*) &middot; **Register:** archaic and poetic — an American meets it in Shakespeare, the King James Bible, hymn texts, and nineteenth-century verse, and essentially nowhere else
 **Clause type:** coordinate elements — joins noun phrases, adjectives, and prepositional phrases, all of them negated
 **Pattern:** *nor* [X] *nor* [Y] &middot; *nor* [subject] *nor* [subject] + verb agreeing with the nearer one &middot; [verb] *nor* [object] *nor* [object] &middot; [subject] + *be* + *nor* [complement] *nor* [complement] &middot; *nor* [X], *nor* [Y], *nor* [Z] (extended run)
@@ -137,6 +143,7 @@ The *neither* dropped and the coordinator doubled in its place, so the opening *
 ### not … but
 
 **Pronunciation:** /nɑt/ … /bʌt/, /bət/ &middot; *NOT … BUT, buht*
+**Русский:** не …, а … — первое отвергается и заменяется вторым, верным
 **Type:** correlative (*but* is also a plain coordinator and a preposition meaning "except" — *everyone but me*) &middot; **Register:** neutral
 **Clause type:** coordinate elements — corrective coordination
 **Pattern:** *not* [X] *but* [Y] &middot; [subject] [verb] *not* [X] *but* [Y] &middot; [subject] + *be* + *not* [X] *but* [Y] &middot; *not* [X] *but rather* [Y] &middot; *not because* [clause] *but because* [clause] &middot; *not to* [verb] *but to* [verb] &middot; *not that* [clause] *but that* [clause]
@@ -157,6 +164,7 @@ Rejects one description and substitutes the correct one, so the weight of the se
 ### not only … but also
 
 **Pronunciation:** /nɑt ˈoʊnli/ … /bʌt ˈɔlsoʊ/, /bət ˈɔlsoʊ/ &middot; *not-OHN-lee … but-AWL-soh*
+**Русский:** не только …, но и … — второе подаётся как более важное или неожиданное
 **Type:** correlative (*but* is also a plain coordinator; *also* is a mobile adverb, which is why it can slide down the second half or surface as *as well* or *too*) &middot; **Register:** neutral
 **Clause type:** coordinate elements, or two coordinate independent clauses
 **Pattern:** [subject] *not only* [verb phrase] *but also* [verb phrase] &middot; *not only* [noun phrase] *but also* [noun phrase] &middot; [subject] + *be* + *not only* [complement] *but also* [complement] &middot; *not only* [subject] *but also* [subject] + verb agreeing with the nearer one &middot; *Not only* [auxiliary] [subject] [verb], *but* [subject] *also* [verb] &middot; *Not only* [auxiliary] [subject] [verb], *but* [clause] *as well*.
@@ -177,6 +185,7 @@ Adds a second item and flags it as the more surprising or more important of the 
 ### not so much … as
 
 **Pronunciation:** /nɑt soʊ ˈmʌtʃ/ … /æz/, /əz/ &middot; *not-soh-MUCH … AZ, uhz*
+**Русский:** не столько …, сколько … — мягкая поправка: второе подходит лучше первого
 **Type:** correlative (*as* on its own is a preposition — *as a teacher* — and a subordinator of time, reason, and manner) &middot; **Register:** neutral, slightly literary
 **Clause type:** coordinate elements — corrective comparison
 **Pattern:** [subject] + *be* + *not so much* [X] *as* [Y] &middot; [subject] [verb] *not so much* [phrase] *as* [phrase] &middot; *not so much* [prepositional phrase] *as* [prepositional phrase] &middot; *not so much because* [clause] *as because* [clause] &middot; *It's not so much that* [clause] *as that* [clause].
@@ -197,6 +206,7 @@ Says the second description fits better than the first without throwing the firs
 ### or … or
 
 **Pronunciation:** /ɔr/ … /ɔr/, reduced /ər/ &middot; *OR … OR, er* (both halves take full stress in verse; in running speech the second flattens to *er*)
+**Русский:** устар., поэт. или …, или … — архаичный двойник either … or
 **Type:** correlative (both halves are the ordinary coordinator *or*; the first *or* simply stands where *either* would in the modern pair, which is why nothing else in the sentence has to change) &middot; **Register:** archaic and poetic — Elizabethan drama, Milton, hymn texts, and nineteenth-century verse; in modern American prose it reads either as a typo or as costume
 **Clause type:** coordinate elements, or two coordinate independent clauses
 **Pattern:** *or* [X] *or* [Y] &middot; *or* [prepositional phrase] *or* [prepositional phrase] &middot; *or* [subject] *or* [subject] + verb agreeing with the nearer one &middot; [subject] [modal] *or* [bare infinitive] *or* [bare infinitive] &middot; *Or* [independent clause], *or* [independent clause]. &middot; *or* [X], *or* [Y], *or* [Z] (extended run)
@@ -218,6 +228,7 @@ The positive twin of *nor … nor*: the *either* is dropped and the coordinator 
 ### whether … or
 
 **Pronunciation:** /ˈwɛðər/ … /ɔr/, /ər/ &middot; *WEH-thur … OR, er* (a homophone of *weather* for most Americans)
+**Русский:** … ли … или … — две возможности без выбора; с or not — «хочешь не хочешь»
 **Type:** correlative (*whether* is the rare half with no second job — it is only ever a subordinator; contrast *if*, which is both a conditional subordinator and a complementizer. The *or* half is the ordinary coordinator) &middot; **Register:** neutral
 **Clause type:** noun clause (indirect question); with *or not*, an adverbial clause of concessive condition
 **Pattern:** [verb] *whether* [clause] *or* [clause] &middot; [verb] *whether* [X] *or* [Y] &middot; [preposition] *whether* [clause] *or* [clause] &middot; *whether to* [verb] *or* [verb] &middot; *Whether* [clause] *or not*, [main clause]. &middot; [main clause] *whether* [clause] *or not*.
@@ -243,6 +254,7 @@ Pairs that divide something into two shares rather than joining two things. Not 
 ### for one thing … for another (thing)
 
 **Pronunciation:** /fɔr ˈwʌn θɪŋ/ … /fɔr əˈnʌðər/ &middot; *for-WUN-thing … for-uh-NUH-thur*
+**Русский:** разг. во-первых …, во-вторых … — перечисление доводов к уже высказанному мнению
 **Type:** correlative frame (both halves are prepositional phrases used as sentence adverbials, not conjunctions; *for* is elsewhere a preposition and the causal coordinator of the FANBOYS) &middot; **Register:** informal to neutral, mostly spoken
 **Clause type:** none — each half is a sentence adverbial standing in front of its own independent clause
 **Pattern:** *For one thing*, [clause]. *For another*, [clause]. &middot; *For one thing*, [clause]; *for another*, [clause]. &middot; *For one thing*, [clause]. *For another thing*, [clause]. *And for a third*, [clause]. &middot; [clause] — *for one thing* [clause], *for another* [clause] &middot; *For one thing*, [clause]. (second half never supplied)
@@ -263,6 +275,7 @@ Enumerates reasons for a judgment already announced, and claims by its shape tha
 ### now … now
 
 **Pronunciation:** /naʊ/ … /naʊ/ &middot; *NOW … NOW*
+**Русский:** книжн., устар. то …, то … — чередование состояний; now здесь не «сейчас»
 **Type:** correlative frame (both halves are the time adverb *now* in an old distributive sense, "at one moment"; neither is a conjunction, which is why a coordinator can sit between them — *now hot, now cold* or *now hot and now cold*) &middot; **Register:** literary, archaic
 **Clause type:** none — it pairs two adverbials, adjectives, or parallel clauses describing alternating states
 **Pattern:** *now* [adjective], *now* [adjective] &middot; *now* [verb phrase], *now* [verb phrase] &middot; *now* [clause], *now* [clause] &middot; *now* [X], *now* [Y], *now* [Z] (extended alternation) &middot; *now* [X] *and now* [Y]
@@ -283,6 +296,7 @@ Marks a state that keeps switching back and forth: at one moment this, at the ne
 ### on the one hand … on the other hand
 
 **Pronunciation:** /ɑn ðə ˈwʌn hænd/ … /ɑn ði ˈʌðər hænd/ &middot; *on-thuh-WUN-hand … on-thee-UH-thur-hand*
+**Русский:** с одной стороны …, с другой стороны … — взвешивание двух сторон вопроса
 **Type:** correlative frame (both halves are prepositional phrases working as conjunctive adverbs, not conjunctions; the second half has a full independent life without the first) &middot; **Register:** neutral, at home in essays and analysis
 **Clause type:** none — each half is a sentence adverbial in front of its own independent clause
 **Pattern:** *On the one hand*, [clause]; *on the other hand*, [clause]. &middot; *On the one hand*, [clause]. *On the other*, [clause]. &middot; *On the one hand* [noun phrase], *on the other* [noun phrase] &middot; [clause]; *on the other hand*, [clause]. (first half dropped) &middot; *On the one hand*, [clause]; *but on the other*, [clause].
@@ -303,6 +317,7 @@ Lays out two sides of a question and weighs them against each other, framing an 
 ### one minute … the next
 
 **Pronunciation:** /wʌn ˈmɪnɪt/ … /ðə ˈnɛkst/ &middot; *wun-MIN-it … thuh NEKST*
+**Русский:** разг. только что …, и вот уже … — резкая, неожиданная смена состояния
 **Type:** correlative frame (both halves are bare noun phrases used adverbially, the same construction as *this morning*; neither half is a conjunction) &middot; **Register:** informal, conversational
 **Clause type:** none — each half is a time adverbial fronting its own clause
 **Pattern:** *One minute* [clause], *the next* [clause]. &middot; *One minute* [X], *the next* [Y]. (both verbs dropped) &middot; *One minute* [clause] *and the next* [clause]. &middot; *One second / one moment / one day* [clause], *the next* [clause]. &middot; *One minute* [clause]; *the next*, [clause].
@@ -323,6 +338,7 @@ Reports a sudden switch between two states, with the shortness of the named inte
 ### partly … partly
 
 **Pronunciation:** /ˈpɑrtli/ … /ˈpɑrtli/ &middot; *PART-lee … PART-lee*
+**Русский:** отчасти …, отчасти … — причина или состав делятся на доли, ни одна не полная
 **Type:** correlative frame (both halves are the ordinary degree adverb *partly*; nothing here is a conjunction, and a coordinator between the halves is optional) &middot; **Register:** neutral
 **Clause type:** none — it pairs two adjuncts, most often two *because* clauses or two prepositional phrases of cause
 **Pattern:** *partly* [X], *partly* [Y] &middot; *partly because* [clause], *partly because* [clause] &middot; *partly* [prepositional phrase] *and partly* [prepositional phrase] &middot; *partly* [adjective], *partly* [adjective] &middot; *partly* [X], *partly* [Y], *and partly* [Z] (three or more shares)
@@ -347,6 +363,7 @@ These pairs measure one thing against another. The second half is a genuine subo
 ### as … as
 
 **Pronunciation:** /æz/ … /æz/, reduced /əz/ … /əz/ &middot; *AZ … AZ* (both halves usually flatten to *uhz* in running speech)
+**Русский:** так(ой) же …, как … — равенство степени; not as … as — «не так(ой) …, как»
 **Type:** correlative (the first *as* is a degree adverb, the second the subordinator; *as* on its own is also a preposition — *as a teacher* — and a subordinator of time, reason, and manner) &middot; **Register:** neutral
 **Clause type:** adverbial clause of comparison, usually elliptical
 **Pattern:** *as* [adjective/adverb] *as* [noun phrase] &middot; *as* [adjective/adverb] *as* [clause] &middot; *as* [adjective] *a(n)* [singular noun] *as* [noun phrase] &middot; *as many/much* [noun] *as* [noun phrase] &middot; *not as* [adjective] *as* [noun phrase] &middot; *As* [adjective/adverb] *as* [clause], [main clause].
@@ -369,6 +386,7 @@ States equality of degree: the first *as* is a degree adverb, the second is the 
 ### as … even so
 
 **Pronunciation:** /æz/, /əz/ … /ˌivən ˈsoʊ/ &middot; *AZ, uhz … ee-vun-SOH* (the opening *as* is unstressed and normally reduces; the weight of the sentence lands on *so*)
+**Русский:** устар., библ. как …, так (и) … — торжественное сравнение проповеди и Писания
 **Type:** correlative (only the first half is a conjunction — *as* is elsewhere a preposition and a subordinator of time, reason, and manner; *even so* is the resumptive adverb *so* with an intensifier in front of it, which is why it can shrink to bare *so* without changing the grammar) &middot; **Register:** archaic and biblical — the register of the King James Bible, of hymn texts, and of pulpit and platform oratory in the older style
 **Clause type:** adverbial clause of comparison, fronted, with the main clause following *even so*
 **Pattern:** *As* [clause], *even so* [main clause]. &middot; *As* [clause], *even so* [verb] [subject]. (inverted main clause) &middot; *As* [noun phrase], *even so* [main clause]. (verbless first half) &middot; *Just as* [clause], *even so* [main clause]. &middot; *As* [clause], *even so also* [main clause].
@@ -390,6 +408,7 @@ The emphatic form of *as … so*: *even* leans on the *so* and insists the secon
 ### as much … as
 
 **Pronunciation:** /æz ˈmʌtʃ/ … /æz/, /əz/ &middot; *az-MUCH … AZ, uhz*
+**Русский:** столько же …, сколько … (as many с исчисляемыми); также уступительное «как ни …»
 **Type:** correlative (*as much as* is also a fixed concessive subordinator meaning "although," and an adverbial of approximation — *as much as $400*) &middot; **Register:** neutral
 **Clause type:** adverbial clause of comparison (quantity or degree), often elliptical
 **Pattern:** *as much* [uncountable noun] *as* [noun phrase] &middot; *as many* [countable noun] *as* [noun phrase] &middot; [verb] *as much as* [clause] &middot; *not as much* [noun] *as* [noun phrase] &middot; *As much as* [clause], [main clause].
@@ -410,6 +429,7 @@ The quantity version of *as … as*: *as much* with uncountable nouns, *as many*
 ### just as … so
 
 **Pronunciation:** /ˈdʒʌst æz/ … /soʊ/, reduced /ˈdʒəs əz/ &middot; *JUST-az … SOH* (the stress sits on *just*, not on *as*)
+**Русский:** книжн. подобно тому как …, так и … — перенос закономерности на второй случай
 **Type:** correlative (*so* is also a coordinator — *I was tired, so I left* — a degree adverb, and a pro-form standing in for a whole clause: *I think so*) &middot; **Register:** formal, literary
 **Clause type:** adverbial clause of comparison
 **Pattern:** *Just as* [clause], *so* [clause]. &middot; *Just as* [clause], *so too* [clause]. &middot; *Just as* [clause], *so* [verb] [subject]. (inverted second half) &middot; *As* [clause], *so* [clause].
@@ -430,6 +450,7 @@ Sets up a proportion: what holds in the first situation holds in the same way in
 ### less … than
 
 **Pronunciation:** /lɛs/ … /ðæn/, /ðən/ &middot; *LES … THAN, thuhn*
+**Русский:** менее …, чем …; меньше, чем … — с исчисляемыми правильнее fewer … than
 **Type:** correlative (*less* is also a determiner, a pronoun, and a degree adverb; *than* is prepositional in *less than me*) &middot; **Register:** neutral
 **Clause type:** adverbial clause of comparison, usually elliptical
 **Pattern:** *less* [adjective/adverb] *than* [noun phrase/clause] &middot; *less* [uncountable noun] *than* [noun phrase] &middot; [verb] *less than* [noun phrase/clause] &middot; *less of a* [noun] *than* [noun phrase] &middot; *fewer* [countable noun] *than* [noun phrase/clause]
@@ -450,6 +471,7 @@ Ranks the first item below the second — the mirror image of *more … than*. C
 ### more … than
 
 **Pronunciation:** /mɔr/ … /ðæn/, /ðən/ &middot; *MOR … THAN, thuhn*
+**Русский:** более …, чем …; больше, чем … — у коротких прилагательных сливается в -er … than
 **Type:** correlative (*more* is also a determiner, a pronoun, and a degree adverb; *than* is prepositional in *taller than me*) &middot; **Register:** neutral
 **Clause type:** adverbial clause of comparison, usually elliptical
 **Pattern:** *more* [adjective/adverb] *than* [noun phrase/clause] &middot; [short adjective]*-er than* [noun phrase/clause] &middot; *more* [noun] *than* [noun phrase/clause] &middot; [verb] *more than* [noun phrase/clause] &middot; *more* [adjective] *than* [adjective] (two properties of one thing: *more tired than hungry*)
@@ -471,6 +493,7 @@ Ranks the first item above the second; the *-er* ending is the same correlative 
 ### not so … as
 
 **Pronunciation:** /nɑt soʊ/ … /æz/, /əz/ &middot; *not-SOH … AZ, uhz*
+**Русский:** книжн., устар. не так(ой) …, как … — старый отрицательный вариант not as … as
 **Type:** correlative (*so* is also a coordinator and a degree adverb; *as* is also a preposition and a subordinator of time, reason, and manner) &middot; **Register:** formal, old-fashioned (everyday American uses *not as … as*)
 **Clause type:** adverbial clause of comparison, usually elliptical
 **Pattern:** *not so* [adjective/adverb] *as* [noun phrase/clause] &middot; *not so* [adjective] *as to* [verb] &middot; *not so much as* [verb] (= not even) &middot; *not so much* [X] *as* [Y]
@@ -491,6 +514,7 @@ The older negative of *as … as*, kept alive in careful writing and in set phra
 ### such … as
 
 **Pronunciation:** /sʌtʃ/ … /æz/, /əz/ &middot; *SUCH … AZ, uhz*
+**Русский:** такой …, как … — указывает на разновидность: вводит пример или образец
 **Type:** correlative (*such* is a determiner, not a conjunction — only *as* is; *as* is elsewhere a preposition and a subordinator of time, reason, and manner) &middot; **Register:** neutral to formal
 **Clause type:** comparison clause of kind; introduces an example or a standard
 **Pattern:** *such* [noun] *as* [noun phrase] &middot; *such a* [singular noun] *as* [noun phrase] &middot; *such* [noun] *as* [clause] &middot; *such … as to* [verb] &middot; [noun phrase], *such as* [examples], [rest of clause]
@@ -511,6 +535,7 @@ Points at a kind: *such* names the type and *as* introduces the example or stand
 ### the … the
 
 **Pronunciation:** /ðə/ … /ðə/ (before a vowel /ði/) &middot; *thuh … thuh*
+**Русский:** чем …, тем … — две величины меняются вместе
 **Type:** correlative (neither half is the definite article; both are the Old English instrumental *þy*, and this *the* has no other use in the language) &middot; **Register:** neutral
 **Clause type:** paired comparative clauses — the first is subordinate, the second is the main clause
 **Pattern:** *The* [comparative] [subject] [verb], *the* [comparative] [subject] [verb]. &middot; *The* [comparative] [noun phrase], *the* [comparative] [clause]. (verb omitted in the first half: *The higher the rate, …*) &middot; *The more* [noun] [clause], *the more* [noun] [clause]. &middot; *The* [comparative], *the* [comparative]. (both verbs dropped: *The sooner the better.*)
@@ -531,6 +556,7 @@ States that two quantities move together — change one and the other follows. T
 ### the same … as
 
 **Pronunciation:** /ðə ˈseɪm/ … /æz/, /əz/ &middot; *thuh SAME … AZ, uhz*
+**Русский:** такой же …, как … — тождество вида; the same … that — тот же самый предмет
 **Type:** correlative (*the same* is article + adjective; only *as* is the conjunction, and that *as* is elsewhere a preposition — *as a teacher* — and a subordinator of time, reason, and manner; swapping in *that* turns the second half into a relative clause and changes the meaning) &middot; **Register:** neutral
 **Clause type:** adverbial clause of comparison (identity), usually elliptical
 **Pattern:** [X] *is the same as* [Y] &middot; *the same* [noun] *as* [noun phrase] &middot; *the same* [noun] *as* [clause] &middot; [verb] *the same as* [clause] &middot; *the same* [noun] *that* [relative clause] (identity of the one thing, not of the kind)
@@ -556,6 +582,7 @@ The first half measures an amount; the second half reports what that amount caus
 ### enough … to
 
 **Pronunciation:** /ɪˈnʌf/ … /tu/, /tə/ &middot; *ih-NUF … TOO, tuh*
+**Русский:** достаточно …, чтобы … — степень достигает нужного порога
 **Type:** correlative (*enough* is also a determiner, a pronoun, and a degree adverb; the *to* here is the infinitive marker, not the preposition) &middot; **Register:** neutral
 **Clause type:** infinitival clause of degree and result
 **Pattern:** [adjective/adverb] *enough to* [verb] &middot; *enough* [noun] *to* [verb] &middot; [adjective] *enough for* [noun] *to* [verb] &middot; [verb] *enough to* [verb] &middot; [adjective] *enough that* [clause]
@@ -577,6 +604,7 @@ Says the degree reaches the threshold the action requires — the positive count
 ### so … as to
 
 **Pronunciation:** /soʊ/ … /æz tu/, reduced /əz tə/ &middot; *SOH … az-too, uhz-tuh* (the degree word *so* carries the stress; *as to* is unstressed and normally reduces)
+**Русский:** книжн. настолько …, что …; be so kind as to — «будьте так добры»
 **Type:** correlative (*so* is also a coordinator and a degree adverb; *as to* elsewhere is a two-word preposition meaning "regarding" — *no word as to when*) &middot; **Register:** formal
 **Clause type:** infinitival clause of result
 **Pattern:** *so* [adjective/adverb] *as to* [verb] &middot; *not so* [adjective] *as to* [verb] &middot; *be so* [adjective] *as to* [verb] (courtesy formula: *be so kind as to*) &middot; *such … as to* [verb] (with a noun phrase)
@@ -597,6 +625,7 @@ The compact, formal version of *so … that*: it names a degree and its conseque
 ### so … that
 
 **Pronunciation:** /soʊ/ … /ðæt/, /ðət/ &middot; *SOH … THAT, thuht*
+**Русский:** так(ой) …, что … — степень и её последствие; so при прилагательных и наречиях
 **Type:** correlative (*so* is also a coordinator — *I was tired, so I left* — and half of the purpose subordinator *so that*; *that* is also a complementizer, a relative pronoun, and a demonstrative) &middot; **Register:** neutral
 **Clause type:** adverbial clause of result
 **Pattern:** *so* [adjective/adverb] *that* [clause] &middot; *so* [adjective/adverb] [clause] (*that* dropped) &middot; *so much/many/little/few* [noun] *that* [clause] &middot; [verb] *so much that* [clause] &middot; *So* [adjective] *was* [subject] *that* [clause] (formal inversion)
@@ -617,6 +646,7 @@ Measures a degree in the first half and reports its consequence in the second. *
 ### such … that
 
 **Pronunciation:** /sʌtʃ/ … /ðæt/, /ðət/ &middot; *SUCH … THAT, thuht*
+**Русский:** такой …, что … — то же, что so … that, но степень относится к существительному
 **Type:** correlative (*such* is a determiner, not a conjunction — only *that* is; *that* is elsewhere a complementizer, a relative pronoun, and a demonstrative) &middot; **Register:** neutral
 **Clause type:** adverbial clause of result
 **Pattern:** *such a/an* [adjective] [singular noun] *that* [clause] &middot; *such* [adjective] [plural or uncountable noun] *that* [clause] &middot; *such* [noun] [clause] (*that* dropped) &middot; *Such was* [noun phrase] *that* [clause] (formal inversion)
@@ -637,6 +667,7 @@ The noun-phrase counterpart of *so … that* — the degree word attaches to a n
 ### too … to
 
 **Pronunciation:** /tu/ … /tu/, /tə/ &middot; *TOO … too, tuh* (the first *too* keeps its full vowel; the *to* reduces)
+**Русский:** слишком …, чтобы … — со скрытым отрицанием: действие так и не происходит
 **Type:** correlative (*too* is also the additive adverb of *me too* and a bare intensifier — *too loud*; the *to* here is the infinitive marker, not the preposition) &middot; **Register:** neutral
 **Clause type:** infinitival clause of degree and result
 **Pattern:** *too* [adjective/adverb] *to* [verb] &middot; *too* [adjective] *for* [noun] *to* [verb] &middot; *too much/many* [noun] *to* [verb] &middot; [verb] *too* [adverb] *to* [verb] &middot; *only too* [adjective] *to* [verb]
@@ -661,6 +692,7 @@ Four pairs that say the second event landed almost on top of the first. All four
 ### barely … when
 
 **Pronunciation:** /ˈbɛrli/ … /wɛn/ &middot; *BAIR-lee … WEN*
+**Русский:** едва …, как … — самый разговорный из «едва …, как» оборотов
 **Type:** correlative (*barely* is also a plain degree adverb — *barely enough*; *when* is also an interrogative and a relative adverb) &middot; **Register:** neutral
 **Clause type:** adverbial clause of time
 **Pattern:** [subject] *had barely* [past participle] *when* [clause]. &middot; *Barely had* [subject] [past participle] *when* [clause]. &middot; [subject] *had barely* [past participle] *before* [clause]. &middot; [subject] *was barely* [complement] *when* [clause].
@@ -681,6 +713,7 @@ Says the second event arrived before the first had finished settling. Of the thr
 ### hardly … when
 
 **Pronunciation:** /ˈhɑrdli/ … /wɛn/ &middot; *HARD-lee … WEN*
+**Русский:** едва …, как … — вторая часть только when или before, никогда не than
 **Type:** correlative (*hardly* is also a plain degree adverb — *hardly anyone*; *when* is also an interrogative and a relative adverb) &middot; **Register:** neutral to formal
 **Clause type:** adverbial clause of time
 **Pattern:** *Hardly had* [subject] [past participle] *when* [clause]. &middot; [subject] *had hardly* [past participle] *when* [clause]. &middot; [subject] *had hardly* [past participle] *before* [clause]. &middot; [subject] *was hardly* [complement] *when* [clause].
@@ -701,6 +734,7 @@ Marks two events as nearly simultaneous, the first barely complete before the se
 ### no sooner … than
 
 **Pronunciation:** /noʊ ˈsunər/ … /ðæn/, /ðən/ &middot; *noh-SOO-nur … THAN, thuhn*
+**Русский:** не успел …, как … — теснейшая последовательность; вторая часть всегда than
 **Type:** correlative (*sooner* is the comparative of the adverb *soon*, which is why the pair takes *than*; *than* on its own is prepositional in *than me*) &middot; **Register:** neutral to formal
 **Clause type:** adverbial clause of time
 **Pattern:** *No sooner had* [subject] [past participle] *than* [clause]. &middot; [subject] *had no sooner* [past participle] *than* [clause]. &middot; *No sooner was* [subject] [complement] *than* [clause]. &middot; *No sooner does* [subject] [verb] *than* [clause]. (present-tense habitual)
@@ -721,6 +755,7 @@ The tightest of the immediate-sequence pairs: the second event follows so fast i
 ### scarcely … when
 
 **Pronunciation:** /ˈskɛrsli/ … /wɛn/ &middot; *SKAIRS-lee … WEN*
+**Русский:** книжн. едва …, как … — письменный, литературный двойник hardly … when
 **Type:** correlative (*scarcely* is also a plain degree adverb — *scarcely audible*; *when* is also an interrogative and a relative adverb) &middot; **Register:** formal, literary
 **Clause type:** adverbial clause of time
 **Pattern:** *Scarcely had* [subject] [past participle] *when* [clause]. &middot; [subject] *had scarcely* [past participle] *when* [clause]. &middot; *Scarcely* [noun phrase] *had* [past participle] *when* [clause]. &middot; [subject] *had scarcely* [past participle] *before* [clause].
@@ -745,6 +780,7 @@ Two pairs that put one option ahead of another. The first half names what is cho
 ### rather … than
 
 **Pronunciation:** /ˈræðər/ … /ðæn/, /ðən/ &middot; *RA-thur … THAN, thuhn*
+**Русский:** а не …; вместо того чтобы … — первое выбрано, второе отвергнуто
 **Type:** correlative (*rather* alone is a degree adverb — *rather cold* — and a corrective discourse marker — *or rather*; *than* is prepositional in *than me*) &middot; **Register:** neutral
 **Clause type:** coordinate elements; with a bare infinitive, an adverbial clause of preference
 **Pattern:** [X] *rather than* [Y] &middot; [verb] [X] *rather than* [Y] &middot; *Rather than* [bare infinitive or *-ing*], [main clause]. &middot; [subject] *chose to* [verb] *rather than* [bare infinitive] &middot; [subject] *would rather* [bare infinitive] *than* [bare infinitive]
@@ -765,6 +801,7 @@ Marks the first element as chosen and the second as rejected. It differs from *i
 ### would rather … than
 
 **Pronunciation:** /wʊd ˈræðər/, contracted /d ˈræðər/ … /ðæn/, reduced /ðən/ &middot; *wood-RA-thur … THAN, thuhn* (usually heard as *I'd RA-thur … thuhn*)
+**Русский:** лучше …, чем …; предпочёл бы …, чем … — оба глагола без частицы to
 **Type:** correlative (*rather* alone is a degree adverb and a corrective discourse marker; *than* is prepositional in *than me*; *would rather* is a fixed modal idiom that becomes a correlative only when *than* arrives) &middot; **Register:** neutral
 **Clause type:** coordinate bare-infinitive phrases; with a new subject, a clause of unreal preference
 **Pattern:** [subject] *would rather* [bare infinitive] *than* [bare infinitive] &middot; [subject]*'d rather* [bare infinitive] *than* [bare infinitive] &middot; *Would* [subject] *rather* [bare infinitive] *than* [bare infinitive]? &middot; [subject] *would rather have* [past participle] *than* [past participle] &middot; [subject] *would rather* [new subject] [past-form verb] (unreal: *I'd rather you didn't*)
@@ -789,6 +826,7 @@ Pairs whose halves are not both conjunctions in the strict sense — *between*, 
 ### be it … or
 
 **Pronunciation:** /bi ɪt/ … /ɔr/, /ər/ &middot; *bee-IT … OR, er*
+**Русский:** книжн. будь то … или … — сжатая уступка: неважно, что из двух окажется верным
 **Type:** correlative (an inverted present subjunctive of *be* plus the ordinary coordinator *or*; the same fossilized inversion drives *were it not for* and *had I known*) &middot; **Register:** formal, literary
 **Clause type:** adverbial clause of concessive condition (= *whether it is X or Y*)
 **Pattern:** *Be it* [X] *or* [Y], [main clause]. &middot; [main clause], *be it* [X] *or* [Y]. &middot; *Be it* [X], [Y], *or* [Z], [main clause]. (three or more) &middot; *Be they* [X] *or* [Y], [main clause]. (plural subject) &middot; *Be it ever so* [adjective], [main clause]. (fixed: *be it ever so humble*)
@@ -809,6 +847,7 @@ Says the main claim holds whichever of the listed possibilities turns out to be 
 ### between … and
 
 **Pronunciation:** /bɪˈtwin/ … /ænd/, /ən/ &middot; *bih-TWEEN … AND, uhn*
+**Русский:** между … и … — две границы промежутка; between … to всегда ошибка
 **Type:** correlative frame (*between* is a preposition, not a conjunction — only *and* is, and that *and* is the ordinary coordinator; *between* is also an adverb in *in between*) &middot; **Register:** neutral
 **Clause type:** none — it pairs two noun phrases inside a prepositional phrase, coordinating without creating a clause
 **Pattern:** *between* [X] *and* [Y] &middot; *between* [number] *and* [number] &middot; *the difference between* [X] *and* [Y] &middot; *between* [*-ing* phrase] *and* [*-ing* phrase] &middot; *Between* [X] *and* [Y], [main clause].
@@ -829,6 +868,7 @@ Fixes two endpoints — of a range, a relationship, or a comparison — and *and
 ### from … to
 
 **Pronunciation:** /frʌm/, /frəm/ … /tu/, /tə/ &middot; *FRUM, fruhm … TOO, tuh*
+**Русский:** от … до …; с … до … — начало и конец пути, срока или разброса
 **Type:** correlative frame (both halves are prepositions, not conjunctions; the *to* here is the preposition, not the infinitive marker of *too … to*) &middot; **Register:** neutral
 **Clause type:** none — it pairs two noun phrases as the endpoints of a range or a path
 **Pattern:** *from* [X] *to* [Y] &middot; *from* [time] *to* [time] &middot; *from* [X] *through* [Y] (inclusive) &middot; [verb] *from* [place] *to* [place] &middot; *everything from* [X] *to* [Y] (spread of kinds)
@@ -849,6 +889,7 @@ Marks a starting point and an ending point — in space, in time, or across a sp
 ### if … then
 
 **Pronunciation:** /ɪf/ … /ðɛn/ &middot; *IF … THEN*
+**Русский:** если …, то … — then ничего не добавляет к смыслу и обычно опускается
 **Type:** correlative (*if* is also a complementizer in indirect questions — *ask if he's home*; *then* is an adverb, not a conjunction, which is exactly why it can be dropped) &middot; **Register:** neutral
 **Clause type:** adverbial clause of condition
 **Pattern:** *If* [clause], *then* [main clause]. &middot; *If* [clause], [main clause]. (*then* dropped — the ordinary form) &middot; [main clause] *if* [clause]. (no comma, no *then*) &middot; *If not* [X], *then* [Y].
@@ -870,6 +911,7 @@ One of only two correlatives whose second half can be dropped freely — the oth
 ### though … yet
 
 **Pronunciation:** /ðoʊ/ … /jɛt/ &middot; *THOH … YET*
+**Русский:** книжн., устар. хотя …, но всё же … — современный язык обходится одним though
 **Type:** correlative (*though* is also a plain concessive subordinator — *though it rained, we went* — and a sentence-final adverb meaning "however": *Nice, though.*; *yet* is also one of the seven coordinators and a time adverb — *not yet*) &middot; **Register:** formal and old-fashioned in the paired form — modern American keeps *though* and drops *yet*; the full pair survives mainly in sermons, legal prose, and older literature
 **Clause type:** adverbial clause of concession
 **Pattern:** *Though* [clause], *yet* [main clause]. &middot; *Although* [clause], *yet* [main clause]. &middot; *Though* [clause], *still* [main clause]. &middot; *Though* [adjective or noun phrase], *yet* [main clause]. (verbless first half) &middot; *Though* [clause], [main clause]. (*yet* dropped — the ordinary modern form) &middot; [main clause], *though* [clause]. (no *yet* available in this order)
@@ -891,6 +933,7 @@ Concedes a point in the first half and asserts the main claim anyway in the seco
 ### what with … and
 
 **Pronunciation:** /ˈwʌt wɪð/, /ˈwɑt wɪð/ … /ænd/, /ən/ &middot; *WUT-with … and, uhn* (some Americans end *with* in /θ/; the stress sits on *what*)
+**Русский:** разг. из-за … и … — нагромождение причин, обычно объясняющих неудачу
 **Type:** correlative frame (*what with* is a compound preposition — only *and* is a conjunction, and it is the ordinary coordinator; *what* elsewhere is an interrogative and a relative pronoun) &middot; **Register:** informal
 **Clause type:** none — a prepositional adjunct of cause, so both halves take noun phrases or *-ing* phrases
 **Pattern:** *What with* [X] *and* [Y], [main clause]. &middot; *What with* [*-ing* phrase] *and* [*-ing* phrase], [main clause]. &middot; *What with* [X], [Y], *and* [Z], [main clause]. (three or more causes) &middot; *What with* [X] *and* [Y] *and all*, [main clause]. &middot; [main clause], *what with* [X] *and* [Y].
@@ -911,6 +954,7 @@ Piles up two or more causes as an informal explanation, usually for something th
 ### where … there
 
 **Pronunciation:** /wɛr/ … /ðɛr/ &middot; *WAIR … THAIR*
+**Русский:** книжн. где …, там … — часто о ситуации вообще; there обычно опускается
 **Type:** correlative (*where* is the subordinator; *there* is a resumptive adverb, not a conjunction, which is exactly why it can be dropped — the same arrangement as the *then* of *if … then*) &middot; **Register:** formal, literary, proverbial
 **Clause type:** adverbial clause of place, routinely generalized to circumstance
 **Pattern:** *Where* [clause], *there* [main clause]. &middot; *Where* [clause], *there* [verb] [subject]. (inverted main clause) &middot; *Where* [clause], *there* [main clause] *also*. &middot; *Where* [clause], [main clause]. (*there* dropped — the ordinary modern form) &middot; [main clause] *where* [clause]. (no *there* available in this order) &middot; *Wherever* [clause], *there* [main clause].

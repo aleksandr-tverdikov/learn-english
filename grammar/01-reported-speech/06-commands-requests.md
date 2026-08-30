@@ -108,7 +108,7 @@ Verbs that take no object in the active (*suggest*, *insist*, *propose*) cannot 
 > "Don't worry."  →  He told me **not to** worry.
 > "Don't sign anything until you've read it."  →  She advised me **not to** sign anything until I'd read it.
 
-There is no auxiliary *do* anywhere in the report. **He told me not to worry*, never **He told me to don't worry* or **He told me don't worry*.
+There is no auxiliary *do* anywhere in the report. ✗ *He told me not to worry*, never ✗ *He told me to don't worry* or ✗ *He told me don't worry*.
 
 ### *to not* is marked
 
@@ -121,7 +121,7 @@ The one place *to not* genuinely earns its keep is under contrastive stress, whe
 | *not to* | standard everywhere | She told me **not to** call him. |
 | *to not* (reported command) | marked; avoid | ?She told me **to not** call him. |
 | *to not* (deliberate choice) | fine in speech, still avoided in formal writing | I decided **to not** respond. |
-| *to don't* / *don't to* | not English | **She told me to don't call him.* |
+| *to don't* / *don't to* | not English | ✗ *She told me to don't call him.* |
 
 ### *never* and *don't ever*
 
@@ -140,7 +140,7 @@ These verbs cannot appear with the infinitive unless somebody is named in betwee
 
 **tell, order, command, remind, warn, advise, persuade, convince, urge, forbid, instruct, invite, encourage, permit, allow, require, force, get**
 
-> "Sit down."  →  He **told me** to sit down. (not **He told to sit down*)
+> "Sit down."  →  He **told me** to sit down. (not ✗ *He told to sit down*)
 > "Don't forget your passport."  →  She **reminded me** to bring my passport.
 > "You really should see a doctor."  →  She **advised me** to see a doctor.
 > "Come on, stay one more night."  →  They **persuaded me** to stay one more night.
@@ -151,8 +151,8 @@ These verbs never take a personal object before a to-infinitive. This is the gro
 
 **suggest, recommend, propose, insist, demand, say, mention, explain, announce, complain**
 
-> "Let's leave early."  →  He **suggested that we leave** early. (not **He suggested us to leave*)
-> "You should try the branzino."  →  She **recommended trying** the branzino. (not **She recommended me to try*)
+> "Let's leave early."  →  He **suggested that we leave** early. (not ✗ *He suggested us to leave*)
+> "You should try the branzino."  →  She **recommended trying** the branzino. (not ✗ *She recommended me to try*)
 > "You have to see it for yourself."  →  She **insisted that I see** it for myself.
 
 ### Group 3 — either way, with a meaning difference
@@ -171,7 +171,7 @@ A handful of verbs take an object or not, and the presence of the object changes
 
 This deserves its own heading because it is the most common single error in reported speech, and because every learner reproduces it independently.
 
-***He suggested me to leave* is not English.** *Suggest* takes a clause or a gerund. It never takes a person plus an infinitive — not with an object (**suggested me to leave*), not with a preposition (**suggested to me to leave*), not with a bare infinitive (**suggested me leave*).
+***He suggested me to leave* is not English.** *Suggest* takes a clause or a gerund. It never takes a person plus an infinitive — not with an object (✗ *suggested me to leave*), not with a preposition (✗ *suggested to me to leave*), not with a bare infinitive (✗ *suggested me leave*).
 
 Three repairs, all standard, all American:
 
@@ -209,7 +209,7 @@ Textbooks say *say* cannot report a command. In practice, **say + to-infinitive 
 > "Wait in the lobby."  →  He **said to wait** in the lobby.
 > "Don't bother locking up."  →  She **said not to bother** locking up.
 
-What is genuinely impossible is *say* with an object: **He said me to wait*, **He said us not to bother*. To name the addressee, switch to *tell*: *He told us not to bother.* Treat *say to* as good spoken English, and reach for *tell someone to* in anything edited.
+What is genuinely impossible is *say* with an object: ✗ *He said me to wait*, ✗ *He said us not to bother*. To name the addressee, switch to *tell*: *He told us not to bother.* Treat *say to* as good spoken English, and reach for *tell someone to* in anything edited.
 
 ### Verbs that take *from* + *-ing*
 
@@ -222,7 +222,7 @@ A separate group of directive-adjacent verbs — all about stopping someone — 
 
 Several of them also take a bare gerund when no person needs naming, and that is the natural way to report a blanket rule: *The building prohibits smoking*, *The city discourages idling*, *The sign bans parking*. What none of them permits is the infinitive — ✓ *prohibits smoking* is fine, ✗ *prohibits workers to smoke* is not.
 
-***Forbid* is the one that goes both ways, and it is contested.** The traditional pattern is *forbid someone to do something*; *forbid someone from doing something* is now at least as common in American English and is accepted by most usage guides, though a minority of editors still flag it. Use whichever sounds better to you and expect no one to notice. *Prohibit*, by contrast, allows only *from*: **The rule prohibits workers to enter* is an error.
+***Forbid* is the one that goes both ways, and it is contested.** The traditional pattern is *forbid someone to do something*; *forbid someone from doing something* is now at least as common in American English and is accepted by most usage guides, though a minority of editors still flag it. Use whichever sounds better to you and expect no one to notice. *Prohibit*, by contrast, allows only *from*: ✗ *The rule prohibits workers to enter* is an error.
 
 > "You may not enter the lab."  →  She **forbade** us **to enter** the lab. / She **forbade** us **from entering** the lab.
 
@@ -290,7 +290,7 @@ The contrast is total, and it is the one thing to get right about *ask*:
 
 ### *ask for* + noun — you want a thing
 
-*Ask for* takes a noun phrase, never an infinitive. **She asked for to see the manager* is an error. With both a person and a thing, the person comes first and the thing follows *for*.
+*Ask for* takes a noun phrase, never an infinitive. ✗ *She asked for to see the manager* is an error. With both a person and a thing, the person comes first and the thing follows *for*.
 
 > "Can I have the check?"  →  He asked **for the check**.
 > "Dad, can I borrow twenty dollars?"  →  She asked **her father for twenty dollars**.
@@ -345,7 +345,7 @@ Unlike *tell* and *ask*, *promise* does not comfortably take a person plus an in
 > "I'll be there, I swear."  →  He promised **to be** there. ✓ natural
 > "I'll be there, I swear."  →  ?He promised **me to be** there. ✗ avoid
 
-The same holds for *offer*: *He offered to drive* ✓, but **He offered me to drive* ✗. To name a beneficiary, use a noun: *He offered me a ride.*
+The same holds for *offer*: *He offered to drive* ✓, but ✗ *He offered me to drive* ✗. To name a beneficiary, use a noun: *He offered me a ride.*
 
 ## Force: *tell* vs. *ask* vs. *advise*
 
@@ -373,7 +373,7 @@ Two notes on the boundaries.
 
 > "You should apply."  →  She **advised me to apply**. ✓
 > "You should apply."  →  She **recommended that I apply**. / She **suggested that I apply**. ✓
-> "You should apply."  →  **She recommended me to apply.* / **She suggested me to apply.* ✗
+> "You should apply."  →  ✗ *She recommended me to apply.* / ✗ *She suggested me to apply.* ✗
 
 **Persuade and convince entail success.** *He persuaded me to stay* means I stayed. If the attempt failed, say *tried to persuade*: *He tried to persuade me to stay, but I left anyway.*
 
@@ -391,7 +391,7 @@ Two notes on the boundaries.
 > "Go home."  →  He told me **to go** home.
 > "I went home."  →  He told me **that he had gone** home.
 
-*Tell* also refuses to drop its object in either use: **He told to go home* and **He told that he had gone home* are both wrong. That object requirement is the sharpest line between *tell* and *say* — see [Backshift](02-backshift.md) for the *say* / *tell* split in reported statements.
+*Tell* also refuses to drop its object in either use: ✗ *He told to go home* and ✗ *He told that he had gone home* are both wrong. That object requirement is the sharpest line between *tell* and *say* — see [Backshift](02-backshift.md) for the *say* / *tell* split in reported statements.
 
 ## Reporting *let's*
 
@@ -401,7 +401,7 @@ Two notes on the boundaries.
 > "Let's not argue about this now."  →  She **suggested that we not argue** about it then.
 > "Let's meet at noon."  →  They **agreed to meet** at noon. (if the proposal was accepted)
 
-Never: **He suggested us to take a break.* **He told us to take a break* is not wrong English, but it reports a different original — an order, not *let's*.
+Never: ✗ *He suggested us to take a break.* ✗ *He told us to take a break* is not wrong English, but it reports a different original — an order, not *let's*.
 
 | Original | Report |
 |---|---|
@@ -456,7 +456,7 @@ The subjunctive is licensed by a word of demanding, urging, or requiring — a v
 The negative subjunctive takes **plain *not*** directly before the verb. No *do*, no *does*, no *doesn't*.
 
 > "Don't tell the press."  →  She insisted that we **not tell** the press. ✓
-> **She insisted that we don't tell the press.* ✗ &middot; **She insisted that we didn't tell the press.* ✗
+> ✗ *She insisted that we don't tell the press.* ✗ &middot; ✗ *She insisted that we didn't tell the press.* ✗
 
 The passive uses **be** plus the past participle, and the negative passive is *not be*.
 
@@ -652,13 +652,13 @@ Report it as a genuine question only when the ability, not the action, was reall
 
 <details><summary>Answers</summary>
 
-1. **He warned me not to touch the wet paint.** — Negative imperative, so *not* goes directly before *to*. *Warn* requires an object; **He warned not to touch* is incomplete. *He warned me about the wet paint* is also fine but reports a caution rather than a directive.
+1. **He warned me not to touch the wet paint.** — Negative imperative, so *not* goes directly before *to*. *Warn* requires an object; ✗ *He warned not to touch* is incomplete. *He warned me about the wet paint* is also fine but reports a caution rather than a directive.
 
 2. **She asked me to water her plants while she was gone.** — *Could you…?* is a request, not a real question, so it is reported with *ask* plus an object plus an infinitive. Note the two shifts that survive: *my* → *her*, and *I'm* → *she was*.
 
-3. **He suggested that we split the check.** (or **He suggested splitting the check.**) — *Let's* is a proposal that includes the speaker, so *tell* is wrong. *Suggest* takes no object: **He suggested us to split the check* is the classic error. The base form *split* is the subjunctive, invisible here because the subject is *we*.
+3. **He suggested that we split the check.** (or **He suggested splitting the check.**) — *Let's* is a proposal that includes the speaker, so *tell* is wrong. *Suggest* takes no object: ✗ *He suggested us to split the check* is the classic error. The base form *split* is the subjunctive, invisible here because the subject is *we*.
 
-4. **He insisted that the report be on his desk by nine.** — *Insist* takes no object, so **He insisted me to have the report* is out. The subjunctive *be* is required, and it does not backshift to *was* even though *insisted* is past. *He insisted that the report was on his desk* would mean something entirely different — that he claimed it was already there.
+4. **He insisted that the report be on his desk by nine.** — *Insist* takes no object, so ✗ *He insisted me to have the report* is out. The subjunctive *be* is required, and it does not backshift to *was* even though *insisted* is past. *He insisted that the report was on his desk* would mean something entirely different — that he claimed it was already there.
 
 5. **He told me to call him when I got to the hotel.** — The infinitive *to call* has no tense to shift, but the *when*-clause is finite and backshifts by the ordinary rules, and *me* → *him*. If the arrival is still ahead of you, **He told me to call him when I get to the hotel** is equally good in speech — an embedded clause that is still true or still upcoming is one of the standard optional-backshift cases.
 

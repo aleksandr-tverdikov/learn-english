@@ -6,7 +6,7 @@
 
 Every verb in this file reports a **commissive** — an utterance that binds the speaker to a future course of action, or refuses to be bound. *He agreed*, *she promised*, *they refused*, *he threatened*: in each case the original words were about what would happen next, and the reporting verb absorbs the whole of it, which is why *will* and *won't* so often vanish from the report. *He said he would pay me back* and *He* [*promised*](#promise) *to pay me back* carry the same content; the second lets the verb do the work the modal was doing.
 
-The pattern that runs through the group is the **to-infinitive with no object**. Because the person who will act is almost always the subject, these verbs take the infinitive directly — *agreed to help*, *offered to drive*, *promised to call*, *refused to answer*, *threatened to sue* — and inserting a person breaks them: **offered me to drive*, **refused him to enter*, **threatened her to leave* are all impossible. Some of the same verbs also take a *that*-clause (*agreed that the price was fair*, *promised that he would be there*), and a few take only a noun (*rejected the offer*, *vetoed the bill*). **[Refuse](#refuse) is the strictest member of the set: among clause complements it takes the to-infinitive and nothing else** — no *that*-clause, no gerund, no personal object.
+The pattern that runs through the group is the **to-infinitive with no object**. Because the person who will act is almost always the subject, these verbs take the infinitive directly — *agreed to help*, *offered to drive*, *promised to call*, *refused to answer*, *threatened to sue* — and inserting a person breaks them: ✗ *offered me to drive*, ✗ *refused him to enter*, ✗ *threatened her to leave* are all impossible. Some of the same verbs also take a *that*-clause (*agreed that the price was fair*, *promised that he would be there*), and a few take only a noun (*rejected the offer*, *vetoed the bill*). **[Refuse](#refuse) is the strictest member of the set: among clause complements it takes the to-infinitive and nothing else** — no *that*-clause, no gerund, no personal object.
 
 ## Which frames each verb allows
 
@@ -42,6 +42,7 @@ Three of these verbs — [arrange](#arrange), [insist](#insist), and [resolve](#
 ### accede
 
 **Pronunciation:** /əkˈsid/ &middot; *uhk-SEED*  
+**Русский:** уступить, пойти навстречу — офиц./юр.: согласиться на требование (accede to + сущ./-ing)
 **Type:** reporting verb — agreement, yielding &middot; **Register:** formal, legal and diplomatic  
 **Patterns:** *accede* + **to** + noun phrase &middot; *accede* + **to** + **-ing** &middot; *accede* (intransitive)  
 **Never:** ***accede to do something*** and ***accede that*** — *accede* is never followed by an infinitive or a *that*-clause, and it never takes a direct object. The *to* is a preposition, so what follows is a noun or an **-ing** form: *acceded to the request*, *acceded to releasing the records*.  
@@ -62,10 +63,11 @@ Three of these verbs — [arrange](#arrange), [insist](#insist), and [resolve](#
 ### accept
 
 **Pronunciation:** /əkˈsɛpt/ &middot; *uhk-SEPT*  
+**Русский:** принять, согласиться — принять предложенное; либо признать что-то верным (accept that)
 **Type:** reporting verb — agreement, acceptance &middot; **Register:** neutral  
 **Patterns:** *accept* + noun phrase &middot; *accept* + **that**-clause &middot; *accept* + noun phrase + **as** + noun phrase &middot; *accept* + **-ing**? (see below)  
-**Never:** ***accept to do something*** — one of the most persistent errors made by speakers of French, Italian, Spanish, and Portuguese, whose equivalents all take the infinitive. English *accept* has no infinitive frame at all. Repairs: *He **agreed to** help*, *He **accepted** the job*, *He **accepted** an invitation to speak*. Nor ***accept someone to do something***: **They accepted him to join the board* → *They **accepted him as** a board member*, or *They **agreed to let him** join the board*.  
-**The -ing question:** *accept* takes a gerund only when the gerund is a genuine noun phrase naming a thing accepted — *She accepted losing the deposit* (she came to terms with it). It cannot mean *agreed to do it*: **He accepted driving us to the airport* is wrong for *He offered to drive us*.  
+**Never:** ***accept to do something*** — one of the most persistent errors made by speakers of French, Italian, Spanish, and Portuguese, whose equivalents all take the infinitive. English *accept* has no infinitive frame at all. Repairs: *He **agreed to** help*, *He **accepted** the job*, *He **accepted** an invitation to speak*. Nor ***accept someone to do something***: ✗ *They accepted him to join the board* → *They **accepted him as** a board member*, or *They **agreed to let him** join the board*.  
+**The -ing question:** *accept* takes a gerund only when the gerund is a genuine noun phrase naming a thing accepted — *She accepted losing the deposit* (she came to terms with it). It cannot mean *agreed to do it*: ✗ *He accepted driving us to the airport* is wrong for *He offered to drive us*.  
 **Two speech acts:** *accept an offer* is agreement; *accept that something is true* is concession. Only the second takes a *that*-clause: *I accept that I was wrong.*  
 **Reports:** taking what is offered, or conceding a point — unlike *agree*, it presupposes something already on the table to be taken or granted.
 
@@ -84,6 +86,7 @@ Three of these verbs — [arrange](#arrange), [insist](#insist), and [resolve](#
 ### acquiesce
 
 **Pronunciation:** /ˌækwiˈɛs/ &middot; *ak-wee-ES*  
+**Русский:** молча согласиться, смириться — книжн.: не возражать, не одобряя по существу
 **Type:** reporting verb — reluctant or silent agreement &middot; **Register:** formal, literary  
 **Patterns:** *acquiesce* (intransitive) &middot; *acquiesce* + **in** + noun phrase / **-ing** &middot; *acquiesce* + **to** + noun phrase / **-ing**  
 **Never:** ***acquiesce to do something*** and ***acquiesce that*** — no infinitive, no *that*-clause, and no direct object. Repairs: *acquiesced **in** the decision*, *acquiesced **to** the new terms*, *acquiesced **in** being reassigned*.  
@@ -104,9 +107,10 @@ Three of these verbs — [arrange](#arrange), [insist](#insist), and [resolve](#
 ### agree
 
 **Pronunciation:** /əˈɡri/ &middot; *uh-GREE*  
+**Русский:** согласиться — принять предложение или мнение; нейтральный глагол всей группы
 **Type:** reporting verb — agreement, acceptance of a proposal &middot; **Register:** neutral  
 **Patterns:** *agree* + **to**-infinitive &middot; *agree* + **that**-clause &middot; *agree* + **to** + noun phrase &middot; *agree* + **with** + person / statement &middot; *agree* + **on/about** + noun phrase / **-ing** &middot; *agree* + **wh**-clause &middot; *agree* + noun phrase (*a price*, *a date*, *a text*) — **British English only** &middot; passive: *it was agreed that…*  
-**Never:** ***agree someone to do something*** — *agree* never takes a personal object before its complement. Repairs: *agreed **to** let her go*, *agreed **that** she could go*, *agreed **with** her*. Also ***agree doing*** — a bare gerund needs a preposition first: *agreed **on** meeting at noon*, not **agreed meeting at noon*.  
+**Never:** ***agree someone to do something*** — *agree* never takes a personal object before its complement. Repairs: *agreed **to** let her go*, *agreed **that** she could go*, *agreed **with** her*. Also ***agree doing*** — a bare gerund needs a preposition first: *agreed **on** meeting at noon*, not ✗ *agreed meeting at noon*.  
 **A British frame, not an American one:** transitive *agree* with no preposition — *We **agreed a price***, *The parties **agreed the wording***, *They **agreed a deal*** — is standard in British and Irish English and in international commercial writing, but it is **not** ordinary American English. In American prose write *agreed **on** a price* or *agreed **to** the wording*. The passive *the terms were agreed* carries the same British flavor; *the terms were agreed **on*** is the American form.  
 **to, with, on — the three prepositions:** **agree to** a proposal (you accept it), **agree with** a person or an opinion (you share it), **agree on** a matter still being settled (you reach a common position). *I agreed to the plan* means I went along with it; *I agree with the plan* means I think it is right; *we agreed on a plan* means we produced one.  
 **Who does the action:** with the infinitive, the subject of *agree* is the one who acts: *She agreed to drive* — she drives. To report agreement about somebody else, use the *that*-clause: *She agreed that Marcus would drive.*  
@@ -128,9 +132,10 @@ Three of these verbs — [arrange](#arrange), [insist](#insist), and [resolve](#
 ### arrange
 
 **Pronunciation:** /əˈreɪndʒ/ &middot; *uh-RAYNJ*  
+**Русский:** договориться, условиться — заранее устроить дело с кем-то ещё
 **Type:** reporting verb — undertaking, settled plan &middot; **Register:** neutral  
 **Patterns:** *arrange* + **to**-infinitive &middot; *arrange* + **for** + person + **to**-infinitive &middot; *arrange* + **that**-clause (subjunctive) &middot; *arrange* + **wh**-clause &middot; *arrange* + noun phrase  
-**Never:** ***arrange someone to do something*** — *arrange* cannot take a bare personal object before the infinitive; it needs **for**. **I arranged him to meet you at the gate* → *I arranged **for him to** meet you at the gate*, or *I arranged **that he** meet you at the gate*.  
+**Never:** ***arrange someone to do something*** — *arrange* cannot take a bare personal object before the infinitive; it needs **for**. ✗ *I arranged him to meet you at the gate* → *I arranged **for him to** meet you at the gate*, or *I arranged **that he** meet you at the gate*.  
 **Subjunctive:** the *that*-clause after *arrange* is mandative, so American English uses the bare base form: *arranged that a car **be** waiting*, not *that a car **was** waiting*. See [the mandative subjunctive](../06-commands-requests.md#the-mandative-subjunctive).  
 **Reports:** a commitment that has been settled with somebody else — it reports the outcome of a negotiation, where *promise* reports a one-sided pledge and *agree* reports the moment of assent.
 
@@ -149,6 +154,7 @@ Three of these verbs — [arrange](#arrange), [insist](#insist), and [resolve](#
 ### assent
 
 **Pronunciation:** /əˈsɛnt/ &middot; *uh-SENT*  
+**Русский:** дать согласие, одобрить — офиц./книжн.: формальное согласие, зафиксированное публично
 **Type:** reporting verb — formal agreement &middot; **Register:** formal, written  
 **Patterns:** *assent* (intransitive) &middot; *assent* + **to** + noun phrase &middot; *assent* + **to** + **-ing**  
 **Never:** ***assent to do something*** and ***assent that*** — no infinitive complement and no *that*-clause, and no direct object. Repairs: *assented **to** the proposal*, *assented **to** having the room searched*.  
@@ -170,9 +176,10 @@ Three of these verbs — [arrange](#arrange), [insist](#insist), and [resolve](#
 ### assure
 
 **Pronunciation:** /əˈʃʊr/ &middot; *uh-SHOOR*  
+**Русский:** заверить, уверить — обязательно с лицом: снять чьи-то сомнения (assure smb that)
 **Type:** reporting verb — reassurance, guarantee of truth &middot; **Register:** neutral to formal  
 **Patterns:** *assure* + person + **that**-clause &middot; *assure* + person + **of** + noun phrase &middot; *assure* + person (alone, in *I assure you*)  
-**Never:** ***assure that…*** with no object — *assure* always names the person reassured. **He assured that the figures were correct* → *He assured **the committee** that the figures were correct*, or *He **guaranteed** that the figures were correct*. Also ***assure someone to do something***: **She assured me to come* → *She **assured me that** she would come*, or *She **promised to** come*.  
+**Never:** ***assure that…*** with no object — *assure* always names the person reassured. ✗ *He assured that the figures were correct* → *He assured **the committee** that the figures were correct*, or *He **guaranteed** that the figures were correct*. Also ***assure someone to do something***: ✗ *She assured me to come* → *She **assured me that** she would come*, or *She **promised to** come*.  
 **assure / ensure / insure:** *assure* takes a person and removes their doubt; *ensure* takes a fact and makes it certain (*ensure that the door is locked*); *insure* is about insurance policies. Only *assure* requires a personal object.  
 **Reports:** a statement made to remove somebody's doubt — it reports confidence offered rather than a commitment undertaken, which is what separates it from *promise*.
 
@@ -190,9 +197,10 @@ Three of these verbs — [arrange](#arrange), [insist](#insist), and [resolve](#
 ### choose
 
 **Pronunciation:** /tʃuz/ &middot; *CHOOZ*  
+**Русский:** выбрать, предпочесть — выбор между реальными вариантами; chose not to = «предпочёл не»
 **Type:** reporting verb — decision, deliberate option &middot; **Register:** neutral  
 **Patterns:** *choose* + **to**-infinitive &middot; *choose* + **not to**-infinitive &middot; *choose* + noun phrase &middot; *choose* + person + **to**-infinitive (= select) &middot; *choose* + **wh**-clause &middot; *choose* + **between/among** + noun phrase  
-**Never:** ***choose that*** and ***choose doing*** — no *that*-clause and no gerund. **He chose that he would stay* → *He **chose to** stay*. **She chose staying* → *She **chose to** stay*.  
+**Never:** ***choose that*** and ***choose doing*** — no *that*-clause and no gerund. ✗ *He chose that he would stay* → *He **chose to** stay*. ✗ *She chose staying* → *She **chose to** stay*.  
 **Irregular:** *choose / chose / chosen*. The present is /tʃuz/ and the past is /tʃoʊz/ — the vowel is the only thing that separates them in speech, and the spelling *choosed* does not exist.  
 **Reporting a refusal politely:** *chose not to* is the standard neutral way to report a declined action without the flat force of *refused*: *He chose not to comment* is journalistically careful; *He refused to comment* is not.  
 **Reports:** a decision taken between real alternatives, with the emphasis on the option not taken — *decide* names the moment of resolution, *choose* names the selection.
@@ -211,9 +219,10 @@ Three of these verbs — [arrange](#arrange), [insist](#insist), and [resolve](#
 ### commit
 
 **Pronunciation:** /kəˈmɪt/ &middot; *kuh-MIT*  
+**Русский:** обязаться, взять на себя обязательство — обычно публично и от лица организации
 **Type:** reporting verb — undertaking &middot; **Register:** neutral, common in business and political writing  
 **Patterns:** *commit* + **to** + **-ing** &middot; *commit* + **to** + noun phrase &middot; *commit* + oneself + **to** + **-ing** / noun phrase &middot; *commit* + person / organization + **to** + **-ing** / noun phrase (*committed the company to a full audit*) &middot; passive: *be committed to* + **-ing**  
-**Never:** ***commit that…*** — no *that*-clause: **They committed that they would hire locally* → *They committed **to hiring** locally*, or *They **promised that** they would hire locally*. And ***commit someone to do something*** — when an object is present, *to* is still the preposition, so what follows is a noun or an **-ing**: **The deal commits the buyer to pay the fees* → *The deal commits the buyer **to paying** the fees*. There is no frame in which *commit* is followed by a bare *to*-infinitive clause of its own.  
+**Never:** ***commit that…*** — no *that*-clause: ✗ *They committed that they would hire locally* → *They committed **to hiring** locally*, or *They **promised that** they would hire locally*. And ***commit someone to do something*** — when an object is present, *to* is still the preposition, so what follows is a noun or an **-ing**: ✗ *The deal commits the buyer to pay the fees* → *The deal commits the buyer **to paying** the fees*. There is no frame in which *commit* is followed by a bare *to*-infinitive clause of its own.  
 **commit to do or commit to doing — contested:** the textbook rule is that *to* here is a preposition, so a gerund must follow: *committed to **reducing** emissions*. Corporate and political English breaks this constantly — *committed to **reduce** emissions* appears in press releases every day, and reads as unremarkable to most Americans. It is still the form editors change, so write the **-ing** in anything that will be edited.  
 **The other commit:** *commit a crime*, *commit funds*, *commit to memory* are unrelated senses with a plain direct object. Doubling: *committed*, *committing*, *commitment* — but *commitment* keeps a single *t* before *-ment*.  
 **Reports:** a binding undertaking, usually institutional and usually public — *promise* is what a person says to another person; *commit* is what an organization puts on the record.
@@ -232,9 +241,10 @@ Three of these verbs — [arrange](#arrange), [insist](#insist), and [resolve](#
 ### concur
 
 **Pronunciation:** /kənˈkɜr/ &middot; *kuhn-KUR*  
+**Русский:** согласиться с мнением — книжн./юр.: разделять оценку, но не обещать действие
 **Type:** reporting verb — agreement with a statement or judgment &middot; **Register:** formal, academic and legal  
 **Patterns:** *concur* (intransitive) &middot; *concur* + **that**-clause &middot; *concur* + **with** + person / opinion &middot; *concur* + **in** + noun phrase (legal) &middot; *concur* + **on** + noun phrase  
-**Never:** ***concur to do something*** — no infinitive, because *concur* reports shared opinion, never a commitment to act. **The two agencies concurred to release the data* → *The two agencies **agreed to** release the data*. It also takes no direct object: **I concur your assessment* → *I concur **with** your assessment*.  
+**Never:** ***concur to do something*** — no infinitive, because *concur* reports shared opinion, never a commitment to act. ✗ *The two agencies concurred to release the data* → *The two agencies **agreed to** release the data*. It also takes no direct object: ✗ *I concur your assessment* → *I concur **with** your assessment*.  
 **Spelling:** the final consonant doubles: *concurred*, *concurring*. The noun is *concurrence*.  
 **Legal sense:** in American appellate opinions, a judge who *concurs in the judgment* agrees with the outcome but not necessarily the reasoning — a technical distinction that the everyday *agree* cannot make.  
 **Reports:** agreement with an assessment or a judgment already stated — it never reports agreement to *do* anything, which is precisely what separates it from *agree*.
@@ -253,9 +263,10 @@ Three of these verbs — [arrange](#arrange), [insist](#insist), and [resolve](#
 ### consent
 
 **Pronunciation:** /kənˈsɛnt/ &middot; *kuhn-SENT*  
+**Русский:** дать согласие, разрешить — согласие на то, что сделают с тобой; юр. и мед. термин
 **Type:** reporting verb — permission, agreement to something affecting oneself &middot; **Register:** neutral to formal; the standard verb in legal and medical contexts  
 **Patterns:** *consent* + **to**-infinitive &middot; *consent* + **to** + noun phrase &middot; *consent* + **to** + **-ing** &middot; *consent* (intransitive)  
-**Never:** ***consent someone to do something*** — no personal object. **The judge consented her to travel* → *The judge **allowed her to** travel* or *The judge **consented to** her traveling*. ***Consent that…*** survives only in old legal formulas (*consents that judgment be entered*); in ordinary modern English write *agreed that*.  
+**Never:** ***consent someone to do something*** — no personal object. ✗ *The judge consented her to travel* → *The judge **allowed her to** travel* or *The judge **consented to** her traveling*. ***Consent that…*** survives only in old legal formulas (*consents that judgment be entered*); in ordinary modern English write *agreed that*.  
 **Two kinds of to:** *consent* takes both an infinitive *to* and a prepositional *to*, with almost the same meaning: *consented **to be** interviewed* and *consented **to being** interviewed* are both standard. Very few verbs allow this pair — compare *refuse*, which allows only the infinitive.  
 **Stress:** the verb is *kuhn-SENT*; there is no noun/verb stress shift, unlike *reject* and *refuse*.  
 **Reports:** permission granted for something that will be done to you or in your name — where *agree* accepts a proposal, *consent* authorizes an act.
@@ -275,9 +286,10 @@ Three of these verbs — [arrange](#arrange), [insist](#insist), and [resolve](#
 ### decide
 
 **Pronunciation:** /dɪˈsaɪd/ &middot; *dih-SIDE*  
+**Русский:** решить, принять решение — нейтральное слово; также «разрешить дело» (о суде)
 **Type:** reporting verb — decision &middot; **Register:** neutral  
 **Patterns:** *decide* + **to**-infinitive &middot; *decide* + **not to**-infinitive &middot; *decide* + **that**-clause &middot; *decide* + **wh**-clause &middot; *decide* + **on/against** + noun phrase / **-ing** &middot; *decide* + noun phrase (a case, a question)  
-**Never:** ***decide someone to do something*** — no personal object before the infinitive. **The letter decided me to go* → *The letter **decided me*** (object alone, fine) or *The letter **made me decide to** go*. Also ***decide doing***: a gerund needs a preposition — *decided **on** selling the house*, not **decided selling the house*.  
+**Never:** ***decide someone to do something*** — no personal object before the infinitive. ✗ *The letter decided me to go* → *The letter **decided me*** (object alone, fine) or *The letter **made me decide to** go*. Also ***decide doing***: a gerund needs a preposition — *decided **on** selling the house*, not ✗ *decided selling the house*.  
 **The negative:** *decided not to* is a decision against acting; *didn't decide to* is the absence of a decision. *She decided not to call* and *She didn't decide to call* are not paraphrases of each other.  
 **Two senses:** *decide* also means *settle a question* and takes a plain object: *the court decided the case*, *one goal decided the match*. In that sense the subject is often not a speaker at all.  
 **Reports:** the moment a course of action is fixed — where *choose* highlights the alternatives and *resolve* the determination, *decide* is the neutral, ordinary word.
@@ -297,9 +309,10 @@ Three of these verbs — [arrange](#arrange), [insist](#insist), and [resolve](#
 ### decline
 
 **Pronunciation:** /dɪˈklaɪn/ &middot; *dih-KLINE*  
+**Русский:** вежливо отказаться, отклонить — учтивый отказ без вызова; станд. в журналистике
 **Type:** reporting verb — polite refusal &middot; **Register:** formal, polite; standard in journalism  
 **Patterns:** *decline* + **to**-infinitive &middot; *decline* + noun phrase &middot; *decline* (intransitive)  
-**Never:** ***decline doing*** and ***decline that*** — no gerund and no *that*-clause. **He declined commenting* → *He **declined to** comment*. **She declined that she would attend* → *She **declined the** invitation* or *She **said** she would not attend*. It also cannot take two objects: **They declined him the loan* → *They **refused him** the loan* or *They **denied him** the loan*. And no personal object before the infinitive — ***decline someone to do something***: **She declined me to speak* → *She **declined to let me** speak*.  
+**Never:** ***decline doing*** and ***decline that*** — no gerund and no *that*-clause. ✗ *He declined commenting* → *He **declined to** comment*. ✗ *She declined that she would attend* → *She **declined the** invitation* or *She **said** she would not attend*. It also cannot take two objects: ✗ *They declined him the loan* → *They **refused him** the loan* or *They **denied him** the loan*. And no personal object before the infinitive — ***decline someone to do something***: ✗ *She declined me to speak* → *She **declined to let me** speak*.  
 **The newsroom verb:** *declined to comment* is the fixed formula because *refused to comment* implies the reporter was entitled to an answer. The choice between the two verbs is an editorial judgment, not a stylistic one.  
 **The other decline:** *decline* also means *fall* (*sales declined*, *a declining population*), which is intransitive and unrelated to speech.  
 **Reports:** refusal offered courteously, with no suggestion of defiance — *refuse* reports a blocked demand, *decline* reports an offer not taken up.
@@ -319,9 +332,10 @@ Three of these verbs — [arrange](#arrange), [insist](#insist), and [resolve](#
 ### demur
 
 **Pronunciation:** /dɪˈmɜr/ &middot; *dih-MUR*  
+**Русский:** замяться, мягко возразить — книжн.: нерешительное возражение, ещё не отказ
 **Type:** reporting verb — polite objection, hesitation &middot; **Register:** formal, literary  
 **Patterns:** *demur* (intransitive) &middot; *demur* + **at** + noun phrase / **-ing** &middot; *demur* + **to** + noun phrase &middot; direct speech attribution: *"…," he demurred.*  
-**Never:** ***demur to do something*** and ***demur that*** — no infinitive and no *that*-clause; the objection is never spelled out by a complement clause. **She demurred that it was too expensive* → *She **demurred at** the price* or *She **objected that** it was too expensive*.  
+**Never:** ***demur to do something*** and ***demur that*** — no infinitive and no *that*-clause; the objection is never spelled out by a complement clause. ✗ *She demurred that it was too expensive* → *She **demurred at** the price* or *She **objected that** it was too expensive*.  
 **Spelling and stress:** stress on the second syllable throughout, and the *r* doubles: *demurred*, *demurring*, *demurral*. Not to be confused with the adjective *demure* /dɪˈmjʊr/, which means modest and is a different word entirely.  
 **As a speech tag:** *demurred* is one of the few verbs in this group used to attribute direct speech: *"I'm not sure that's fair," she demurred.* It signals a soft, hedged objection.  
 **Reports:** a mild, hesitant objection rather than a refusal — the speaker balks but has not yet said no, which is exactly what *refuse* and *decline* have already done.
@@ -340,9 +354,10 @@ Three of these verbs — [arrange](#arrange), [insist](#insist), and [resolve](#
 ### determine
 
 **Pronunciation:** /dɪˈtɜrmɪn/ &middot; *dih-TUR-min*  
+**Русский:** твёрдо решить — книжн.; чаще: установить, заключить (determine that — о факте)
 **Type:** reporting verb — firm decision; also a finding &middot; **Register:** formal  
 **Patterns:** *determine* + **to**-infinitive &middot; *determine* + **that**-clause &middot; *determine* + **wh**-clause &middot; *determine* + noun phrase &middot; *determine* + **on/upon** + noun phrase &middot; passive: *be determined to* + infinitive  
-**Never:** ***determine someone to do something*** — no personal object before the infinitive. **The evidence determined the jury to acquit* → *The evidence **led the jury to** acquit*. Also ***determine doing***: *determined **on** selling*, not **determined selling*.  
+**Never:** ***determine someone to do something*** — no personal object before the infinitive. ✗ *The evidence determined the jury to acquit* → *The evidence **led the jury to** acquit*. Also ***determine doing***: *determined **on** selling*, not ✗ *determined selling*.  
 **Two speech acts in one verb:** *determine* reports a decision (*He determined to see it through*) and, far more often in modern American English, a **finding** (*The lab determined that the sample was contaminated*). Only the first belongs in this group; the second is a verb of establishing fact, and the *that*-clause is what tells you which is meant.  
 **The passive is commoner than the active:** in the resolve sense, *be determined to* has almost replaced the plain active verb: *She was determined to finish* is ordinary English; *She determined to finish* reads as literary or nineteenth-century.  
 **Reports:** a decision arrived at and held to — stronger than *decide*, and unlike *resolve* it doubles as the verb for reaching a factual conclusion.
@@ -362,9 +377,10 @@ Three of these verbs — [arrange](#arrange), [insist](#insist), and [resolve](#
 ### elect
 
 **Pronunciation:** /ɪˈlɛkt/ &middot; *ih-LEKT*  
+**Русский:** предпочесть, сделать выбор — офиц.: выбрать один из вариантов (не «избирать» кого-то)
 **Type:** reporting verb — deliberate choice &middot; **Register:** formal, common in legal, financial, and medical writing  
 **Patterns:** *elect* + **to**-infinitive &middot; *elect* + **not to**-infinitive &middot; *elect* + person (+ **as / to**) + noun phrase (= vote in)  
-**Never:** ***elect that*** and ***elect doing*** — no *that*-clause and no gerund. **They elected that the case be reheard* → *They **decided that** the case be reheard*. **He elected taking the buyout* → *He **elected to** take the buyout*. Nor ***elect for*** on the model of *opt for*: **She elected for the lump sum* → *She **opted for** the lump sum* or *She **elected to take** the lump sum*. Of the three choice verbs, only *opt* has the *for* frame.  
+**Never:** ***elect that*** and ***elect doing*** — no *that*-clause and no gerund. ✗ *They elected that the case be reheard* → *They **decided that** the case be reheard*. ✗ *He elected taking the buyout* → *He **elected to** take the buyout*. Nor ***elect for*** on the model of *opt for*: ✗ *She elected for the lump sum* → *She **opted for** the lump sum* or *She **elected to take** the lump sum*. Of the three choice verbs, only *opt* has the *for* frame.  
 **Not the same as voting:** the two senses share a spelling and nothing else. *The board elected to defer the dividend* is a decision by the board; *The board elected a new chair* is a vote. Only the first is a reporting verb.  
 **Reports:** a formal choice between options that were both genuinely available — the register of pension paperwork and surgical consent forms, where *choose* would be too plain.
 
@@ -382,9 +398,10 @@ Three of these verbs — [arrange](#arrange), [insist](#insist), and [resolve](#
 ### endorse
 
 **Pronunciation:** /ɛnˈdɔrs/ &middot; *en-DORSS*  
+**Русский:** публично поддержать, одобрить — открыто заявить о поддержке своим именем
 **Type:** reporting verb — public agreement, backing &middot; **Register:** neutral to formal; standard in politics and journalism  
 **Patterns:** *endorse* + noun phrase &middot; *endorse* + noun phrase + **for** + office &middot; passive: *be endorsed by* + person  
-**Never:** ***endorse that*** and ***endorse to do something*** — *endorse* takes only a noun phrase. **The union endorsed that the strike continue* → *The union **endorsed** the strike* or *The union **agreed that** the strike should continue*. To endorse a *statement*, name it: *endorsed **the claim** that…*, *endorsed **her account** of the meeting*.  
+**Never:** ***endorse that*** and ***endorse to do something*** — *endorse* takes only a noun phrase. ✗ *The union endorsed that the strike continue* → *The union **endorsed** the strike* or *The union **agreed that** the strike should continue*. To endorse a *statement*, name it: *endorsed **the claim** that…*, *endorsed **her account** of the meeting*.  
 **Spelling:** *endorse* is the standard American spelling in every sense; *indorse* survives only in some legal and banking documents. The noun is *endorsement*.  
 **The check sense:** *endorse a check* — sign the back — is the literal original and takes the same plain object.  
 **Reports:** public, attributable agreement that lends the speaker's own standing to something — *agree* is a private position, *endorse* is a position taken on somebody else's behalf.
@@ -403,9 +420,10 @@ Three of these verbs — [arrange](#arrange), [insist](#insist), and [resolve](#
 ### guarantee
 
 **Pronunciation:** /ˌɡɛrənˈti/ &middot; *gair-uhn-TEE*  
+**Русский:** гарантировать — обещать с гарантией: обещание, подкреплённое ответственностью
 **Type:** reporting verb — promise with a warranty behind it &middot; **Register:** neutral; commercial and legal  
 **Patterns:** *guarantee* + **that**-clause &middot; *guarantee* + person + **that**-clause &middot; *guarantee* + **to**-infinitive &middot; *guarantee* + noun phrase &middot; *guarantee* + person + noun phrase  
-**Never:** ***guarantee someone to do something*** — the personal object can precede a *that*-clause or a noun, never an infinitive. **They guaranteed us to deliver by Friday* → *They **guaranteed us that** they would deliver by Friday*, or *They **guaranteed to** deliver by Friday*, or *They **guaranteed us** delivery by Friday*.  
+**Never:** ***guarantee someone to do something*** — the personal object can precede a *that*-clause or a noun, never an infinitive. ✗ *They guaranteed us to deliver by Friday* → *They **guaranteed us that** they would deliver by Friday*, or *They **guaranteed to** deliver by Friday*, or *They **guaranteed us** delivery by Friday*.  
 **Stress and spelling:** the stress is on the last syllable, *gair-uhn-TEE*, and the word ends *-ee*, not *-ie*. The variant *guaranty* is **not** a British spelling — it is an older form now confined to American banking, finance, and legal drafting (*a guaranty of payment*) and to fixed corporate names such as *Guaranty Trust*. It is a noun there, not the verb; for the reporting verb, write *guarantee* in both British and American English.  
 **Not always a speech act:** *guarantee* often reports a state of affairs rather than an utterance: *Rain doesn't guarantee a cancellation.* Only the human-subject uses are reporting verbs.  
 **Reports:** a promise backed by something the speaker will forfeit if it fails — where *promise* stakes credibility, *guarantee* stakes money or a remedy.
@@ -424,11 +442,12 @@ Three of these verbs — [arrange](#arrange), [insist](#insist), and [resolve](#
 ### insist
 
 **Pronunciation:** /ɪnˈsɪst/ &middot; *in-SIST*  
+**Русский:** настаивать — требовать (с сослагательным); либо упорно утверждать вопреки сомнениям
 **Type:** reporting verb — demand, or firm assertion &middot; **Register:** neutral  
 **Patterns:** *insist* + **that**-clause (subjunctive = demand) &middot; *insist* + **that**-clause (indicative = assertion) &middot; *insist* + **on/upon** + noun phrase &middot; *insist* + **on/upon** + **-ing** &middot; *insist* (intransitive)  
-**Never:** ***insist to do something*** and ***insist someone to do something*** — *insist* takes no infinitive at all, and no personal object. **He insisted me to stay* → *He **insisted that I** stay* or *He **insisted on my** staying*. **She insisted to pay* → *She **insisted on** paying*. It takes no direct object either: **I insist my innocence* → *I **insist on** my innocence*.  
+**Never:** ***insist to do something*** and ***insist someone to do something*** — *insist* takes no infinitive at all, and no personal object. ✗ *He insisted me to stay* → *He **insisted that I** stay* or *He **insisted on my** staying*. ✗ *She insisted to pay* → *She **insisted on** paying*. It takes no direct object either: ✗ *I insist my innocence* → *I **insist on** my innocence*.  
 **Two verbs in one, and the clause tells you which:** with a **bare subjunctive** the verb demands: *He insisted that she **be** there by nine.* With an **indicative** it asserts, against doubt: *He insisted that she **was** there by nine.* Same verb, same *that*, opposite speech acts — and the second one backshifts normally while the first cannot backshift at all. See [the mandative subjunctive](../06-commands-requests.md#the-mandative-subjunctive) and [insist in the no-backshift rules](../03-no-backshift.md).  
-**The demand sense in the negative:** the negative goes in front of the bare verb, with no *do*: *She insisted that we **not tell** the press* — never **that we don't tell* or **that we didn't tell*.  
+**The demand sense in the negative:** the negative goes in front of the bare verb, with no *do*: *She insisted that we **not tell** the press* — never ✗ *that we don't tell* or ✗ *that we didn't tell*.  
 **Reports:** either an unyielding demand or a claim pressed against resistance — in both senses it presupposes that somebody has pushed back, which plain *say* and *ask* do not.
 
 > "No, you're taking a cab."  →  She **insisted that** I **take** a cab.
@@ -446,10 +465,11 @@ Three of these verbs — [arrange](#arrange), [insist](#insist), and [resolve](#
 ### offer
 
 **Pronunciation:** /ˈɔfər/, /ˈɑfər/ &middot; *AW-fur, AH-fur*  
+**Русский:** предложить, вызваться — самому предложить услугу или вещь, пока не попросили
 **Type:** reporting verb — offer &middot; **Register:** neutral  
 **Patterns:** *offer* + **to**-infinitive &middot; *offer* + noun phrase &middot; *offer* + person + noun phrase &middot; *offer* + noun phrase + **to** + person &middot; *offer* (intransitive)  
-**Never:** ***offer someone to do something*** — with the infinitive, *offer* allows no object at all, because the person who will act is always the subject. **He offered me to drive* → *He **offered to** drive*, or, naming the beneficiary with a noun, *He **offered me a ride***. Also ***offer doing***: **She offered helping* → *She **offered to** help*.  
-**that-clause:** *offer* + *that* is rare and stilted in American English. **He offered that we could stay* is better as *He **said** we could stay* or *He **invited** us to stay*.  
+**Never:** ***offer someone to do something*** — with the infinitive, *offer* allows no object at all, because the person who will act is always the subject. ✗ *He offered me to drive* → *He **offered to** drive*, or, naming the beneficiary with a noun, *He **offered me a ride***. Also ***offer doing***: ✗ *She offered helping* → *She **offered to** help*.  
+**that-clause:** *offer* + *that* is rare and stilted in American English. ✗ *He offered that we could stay* is better as *He **said** we could stay* or *He **invited** us to stay*.  
 **Who acts:** *offer to* always means the subject will do it: *She offered to call him* — she calls. Compare *promise*, which works the same way, and *tell*, which does not.  
 **Reports:** a service or a thing volunteered before it was asked for — where *promise* commits to something already expected, *offer* initiates.
 
@@ -468,9 +488,10 @@ Three of these verbs — [arrange](#arrange), [insist](#insist), and [resolve](#
 ### opt
 
 **Pronunciation:** /ɑpt/ &middot; *AHPT*  
+**Русский:** выбрать, предпочесть — разг./газетное; opt to + инфинитив, opt for + существительное
 **Type:** reporting verb — choice &middot; **Register:** neutral, common in journalism  
 **Patterns:** *opt* + **to**-infinitive &middot; *opt* + **for** + noun phrase &middot; *opt* + **out (of)** + noun phrase &middot; *opt* + **in (to)** + noun phrase  
-**Never:** ***opt that***, ***opt doing***, and a bare object — *opt* never takes a clause, a gerund, or a direct object. **She opted taking the earlier flight* → *She **opted to** take the earlier flight* or *She **opted for** the earlier flight*. **They opted the smaller model* → *They **opted for** the smaller model*. And ***opt someone to do something*** — no personal object: **The chair opted her to present* → *The chair **chose her to** present*.  
+**Never:** ***opt that***, ***opt doing***, and a bare object — *opt* never takes a clause, a gerund, or a direct object. ✗ *She opted taking the earlier flight* → *She **opted to** take the earlier flight* or *She **opted for** the earlier flight*. ✗ *They opted the smaller model* → *They **opted for** the smaller model*. And ***opt someone to do something*** — no personal object: ✗ *The chair opted her to present* → *The chair **chose her to** present*.  
 **for + noun, to + verb:** the two frames divide cleanly: a noun after *for*, a verb after *to*. *He opted for surgery* and *He opted to have surgery* say the same thing with different grammar.  
 **Reports:** a choice made when a real alternative was on the table — briefer and more newspaper-like than *choose*, and without the formality of *elect*.
 
@@ -488,9 +509,10 @@ Three of these verbs — [arrange](#arrange), [insist](#insist), and [resolve](#
 ### pledge
 
 **Pronunciation:** /plɛdʒ/ &middot; *PLEJ*  
+**Русский:** публично обещать, обязаться — офиц./газетное, часто о деньгах и политике
 **Type:** reporting verb — public promise &middot; **Register:** formal; heavily used in journalism and politics  
 **Patterns:** *pledge* + **to**-infinitive &middot; *pledge* + **that**-clause &middot; *pledge* + noun phrase &middot; *pledge* + person + noun phrase &middot; *pledge* + person or oneself + **to** + noun phrase / **-ing** (*pledged himself to secrecy*, *pledged them to silence*)  
-**Never:** ***pledge someone to do something*** — the personal object is a recipient of what is pledged, not the subject of an infinitive. **They pledged us to rebuild the school* → *They **pledged to** rebuild the school* or *They **pledged us** the money for the school*. What looks like an exception is not one: in *He pledged **himself to** secrecy* and *She pledged **them to** silence*, the *to* is a **preposition** taking a noun, so an **-ing** may follow it (*pledged them to saying nothing*) but a bare infinitive never can.  
+**Never:** ***pledge someone to do something*** — the personal object is a recipient of what is pledged, not the subject of an infinitive. ✗ *They pledged us to rebuild the school* → *They **pledged to** rebuild the school* or *They **pledged us** the money for the school*. What looks like an exception is not one: in *He pledged **himself to** secrecy* and *She pledged **them to** silence*, the *to* is a **preposition** taking a noun, so an **-ing** may follow it (*pledged them to saying nothing*) but a bare infinitive never can.  
 **Register:** *pledge* is a headline word. In speech people *promise*; in print, governments, donors, and candidates *pledge*. Using it of a private conversation sounds ceremonial: *He pledged to take out the trash* is a joke.  
 **Reports:** a promise made publicly, often with an obligation attached — *promise* is between people, *pledge* is on the record and usually about money or policy.
 
@@ -508,9 +530,10 @@ Three of these verbs — [arrange](#arrange), [insist](#insist), and [resolve](#
 ### promise
 
 **Pronunciation:** /ˈprɑmɪs/ &middot; *PRAH-miss*  
+**Русский:** обещать — обычное обещание: говорящий ручается своей надёжностью
 **Type:** reporting verb — promise &middot; **Register:** neutral  
 **Patterns:** *promise* + **to**-infinitive &middot; *promise* + **that**-clause &middot; *promise* + person + **that**-clause &middot; *promise* + person + noun phrase &middot; *promise* + noun phrase &middot; *promise* (intransitive: *I promise*)  
-**Never:** ***promise doing*** — no gerund: **He promised calling* → *He **promised to** call*. And ***promise someone to do something***, while attested and grammatical in older English, is effectively dead: *?He promised me to be there* is avoided. American English names the addressee with a *that*-clause instead — *He promised **me that** he would be there* — or drops the addressee — *He promised **to be** there*.  
+**Never:** ***promise doing*** — no gerund: ✗ *He promised calling* → *He **promised to** call*. And ***promise someone to do something***, while attested and grammatical in older English, is effectively dead: *?He promised me to be there* is avoided. American English names the addressee with a *that*-clause instead — *He promised **me that** he would be there* — or drops the addressee — *He promised **to be** there*.  
 **It absorbs will:** *promise* already contains the future, so the *would* of ordinary backshift disappears into the infinitive: *He said he **would** pay me back* and *He **promised to** pay me back* report the same sentence. See [Backshift](../02-backshift.md).  
 **No backshift on a live promise:** if the commitment is still outstanding, the present often survives: *She promised she **is** coming* is ordinary speech when she has not yet arrived. See [When not to backshift](../03-no-backshift.md).  
 **that-drop:** *that* is dropped freely after *promise* in speech: *I promise I'll be there.*  
@@ -531,10 +554,11 @@ Three of these verbs — [arrange](#arrange), [insist](#insist), and [resolve](#
 ### refuse
 
 **Pronunciation:** /rɪˈfjuz/ &middot; *rih-FYOOZ*  
+**Русский:** отказаться, отказать — резкое «нет» на требование; из клауз только refuse to + инф.
 **Type:** reporting verb — refusal &middot; **Register:** neutral  
 **Patterns:** *refuse* + **to**-infinitive &middot; *refuse* + noun phrase &middot; *refuse* + person + noun phrase &middot; *refuse* (intransitive)  
-**Never:** ***refuse that***, ***refuse doing***, and ***refuse someone to do something*** — this is the tightest verb in the group. Among clause complements, *refuse* takes **the to-infinitive and nothing else**. **She refused that she would sign* → *She **refused to** sign*. **He refused paying* → *He **refused to** pay*. **They refused him to enter* → *They **refused him** entry* or *They **would not let him** enter*.  
-**The two objects that are allowed:** *refuse* takes a noun object (*refused the offer*) and even two (*refused him a visa*) — what it will not take is a clause. Learners who know *refused to sign* often invent **refused that he sign* by analogy with *insisted that he sign*; there is no such frame.  
+**Never:** ***refuse that***, ***refuse doing***, and ***refuse someone to do something*** — this is the tightest verb in the group. Among clause complements, *refuse* takes **the to-infinitive and nothing else**. ✗ *She refused that she would sign* → *She **refused to** sign*. ✗ *He refused paying* → *He **refused to** pay*. ✗ *They refused him to enter* → *They **refused him** entry* or *They **would not let him** enter*.  
+**The two objects that are allowed:** *refuse* takes a noun object (*refused the offer*) and even two (*refused him a visa*) — what it will not take is a clause. Learners who know *refused to sign* often invent ✗ *refused that he sign* by analogy with *insisted that he sign*; there is no such frame.  
 **Stress:** the verb is *rih-FYOOZ*, ending in a /z/. The unrelated noun *refuse* meaning garbage is *REF-yooss*, /ˈrɛfjus/, stressed on the first syllable.  
 **Judgment — it is not a neutral report:** *refuse* presupposes that the speaker was under some obligation to comply, and so reports them as obstructive. *He refused to comment* tells the reader he owed an answer; *He declined to comment* tells the reader he did not; *He chose not to comment* tells the reader nothing about who was owed what. All three can report the same silence, and picking one is an editorial judgment. See [decline](#decline) and [choose](#choose).  
 **Reports:** a flat, deliberate no to something demanded, requested, or expected — stronger and less courteous than *decline*, and unlike *reject* it refuses an **action**, not a thing.
@@ -554,9 +578,10 @@ Three of these verbs — [arrange](#arrange), [insist](#insist), and [resolve](#
 ### reject
 
 **Pronunciation:** /rɪˈdʒɛkt/ &middot; *rih-JEKT*  
+**Русский:** отвергнуть, отклонить — отказать предмету (предложению, заявке) с оценкой «негодно»
 **Type:** reporting verb — rejection of a proposal, claim, or application &middot; **Register:** neutral to formal  
 **Patterns:** *reject* + noun phrase &middot; *reject* + noun phrase + **as** + adjective / noun &middot; *reject* + **the claim / idea / suggestion** + **that**-clause (the *that*-clause belongs to the noun, not the verb) &middot; passive: *be rejected*  
-**Never:** ***reject to do something*** and ***reject doing*** — no infinitive and no gerund: **He rejected to comment* → *He **declined to** comment*. And *reject* takes a *that*-clause only through a noun: **She rejected that the data was flawed* → *She **rejected the claim that** the data was flawed*, or *She **denied that** the data was flawed*.  
+**Never:** ***reject to do something*** and ***reject doing*** — no infinitive and no gerund: ✗ *He rejected to comment* → *He **declined to** comment*. And *reject* takes a *that*-clause only through a noun: ✗ *She rejected that the data was flawed* → *She **rejected the claim that** the data was flawed*, or *She **denied that** the data was flawed*.  
 **Stress shift:** the verb is *rih-JEKT*; the noun is *REE-jekt* /ˈridʒɛkt/. This is the regular two-syllable noun/verb stress pattern of *record*, *permit*, *conflict*.  
 **Thing, not action:** *reject* refuses a **thing** put forward — an offer, a bid, a manuscript, an argument. To refuse an **action**, use *refuse to* or *decline to*.  
 **Reports:** a considered refusal of something formally put forward, often with a judgment that it was not good enough — *decline* is polite, *turn down* is neutral, *reject* is a verdict.
@@ -576,9 +601,10 @@ Three of these verbs — [arrange](#arrange), [insist](#insist), and [resolve](#
 ### resolve
 
 **Pronunciation:** /rɪˈzɑlv/ &middot; *rih-ZAHLV*  
+**Русский:** твёрдо решить — решимость не отступать; также «постановить» (о собрании, книжн.)
 **Type:** reporting verb — firm decision; formal motion &middot; **Register:** formal, literary and parliamentary  
 **Patterns:** *resolve* + **to**-infinitive &middot; *resolve* + **that**-clause (subjunctive, in motions) &middot; *resolve* + **on/upon** + noun phrase / **-ing** &middot; *resolve* + noun phrase (= settle) &middot; *resolve* + **wh**-clause  
-**Never:** ***resolve someone to do something*** — no personal object before the infinitive: **The speech resolved them to act* → *The speech **made them resolve to** act*. Also ***resolve doing***: *resolved **on** moving*, not **resolved moving*.  
+**Never:** ***resolve someone to do something*** — no personal object before the infinitive: ✗ *The speech resolved them to act* → *The speech **made them resolve to** act*. Also ***resolve doing***: *resolved **on** moving*, not ✗ *resolved moving*.  
 **Subjunctive in motions:** the *that*-clause of a formal resolution is mandative and takes the bare form: *The board resolved that the position **be** eliminated* — the *Resolved, that…* of parliamentary minutes. See [the mandative subjunctive](../06-commands-requests.md#the-mandative-subjunctive).  
 **The other resolve:** *resolve a dispute*, *resolve an image*, *resolve into* — all unrelated to speech, and all with a plain object.  
 **Reports:** a decision made with an act of will behind it — *decide* records the choice, *resolve* records the determination not to go back on it.
@@ -598,9 +624,10 @@ Three of these verbs — [arrange](#arrange), [insist](#insist), and [resolve](#
 ### second
 
 **Pronunciation:** /ˈsɛkənd/ &middot; *SEK-uhnd*  
+**Русский:** поддержать предложение — парлам.: официально присоединиться к чужому предложению
 **Type:** reporting verb — formal agreement with a proposal &middot; **Register:** formal, parliamentary; also informal in *I'll second that*  
 **Patterns:** *second* + noun phrase (a motion, a nomination, a proposal) &middot; *second* + **that** (as a pronoun: *I second that*)  
-**Never:** ***second that we adjourn*** as a clause — the *that* in *I second that* is a **demonstrative pronoun**, not a complementizer, so nothing can follow it. **He seconded that the meeting be adjourned* → *He **seconded the motion to** adjourn*. Also no infinitive and no gerund: **She seconded to postpone* → *She **seconded the proposal to** postpone*.  
+**Never:** ***second that we adjourn*** as a clause — the *that* in *I second that* is a **demonstrative pronoun**, not a complementizer, so nothing can follow it. ✗ *He seconded that the meeting be adjourned* → *He **seconded the motion to** adjourn*. Also no infinitive and no gerund: ✗ *She seconded to postpone* → *She **seconded the proposal to** postpone*.  
 **A different verb with the same spelling:** British English has *second* /sɪˈkɑnd/, stressed on the second syllable, meaning to transfer an employee temporarily (*seconded to the Treasury*). It is rare in American use and is a separate word from the parliamentary verb.  
 **Why it exists:** under standard parliamentary procedure a motion cannot be debated until someone else supports it. *Second* reports that specific, procedurally necessary act of agreement — no other verb in this group does.  
 **Reports:** formal support for somebody else's motion, given so that it can proceed — narrower than *endorse*, and unlike *agree* it is an act with a procedural consequence.
@@ -619,9 +646,10 @@ Three of these verbs — [arrange](#arrange), [insist](#insist), and [resolve](#
 ### spurn
 
 **Pronunciation:** /spɜrn/ &middot; *SPURN*  
+**Русский:** отвергнуть с презрением — книжн.: отказ, окрашенный пренебрежением к предложенному
 **Type:** reporting verb — contemptuous refusal &middot; **Register:** literary, formal  
 **Patterns:** *spurn* + noun phrase &middot; passive: *be spurned*  
-**Never:** ***spurn to do something***, ***spurn doing***, and ***spurn that*** — *spurn* takes a noun phrase and nothing else. **He spurned to answer* → *He **refused to** answer*. **She spurned that the offer was generous* → *She **rejected the suggestion that** the offer was generous*.  
+**Never:** ***spurn to do something***, ***spurn doing***, and ***spurn that*** — *spurn* takes a noun phrase and nothing else. ✗ *He spurned to answer* → *He **refused to** answer*. ✗ *She spurned that the offer was generous* → *She **rejected the suggestion that** the offer was generous*.  
 **Register warning:** *spurn* carries scorn on the part of the refuser and is at home in fiction, opinion writing, and headlines. In a neutral report it editorializes: *She spurned the offer* tells the reader how to feel about her; *She declined the offer* does not.  
 **Reports:** rejection delivered with contempt — the only verb in the group whose meaning includes the refuser's disdain for what was offered.
 
@@ -639,9 +667,10 @@ Three of these verbs — [arrange](#arrange), [insist](#insist), and [resolve](#
 ### swear
 
 **Pronunciation:** /swɛr/ &middot; *SWAIR*  
+**Русский:** поклясться; божиться — торжественно обещать либо клятвенно утверждать
 **Type:** reporting verb — solemn promise or solemn assertion &middot; **Register:** neutral to formal; both an everyday intensifier and a courtroom term  
 **Patterns:** *swear* + **to**-infinitive &middot; *swear* + **that**-clause &middot; *swear* + noun phrase (*an oath*, *allegiance*, *revenge*) &middot; *swear* + **to** + noun phrase &middot; *swear* + person + **to** + noun phrase (*swore us to secrecy*) &middot; *swear* + **on** + noun phrase (*on the Bible*) &middot; *swear* (intransitive) &middot; *swear* + **at** + person (= curse) &middot; *swear* + **by** + noun phrase (= trust utterly)  
-**Never:** ***swear someone to do something*** — the personal object takes *to* + a **noun**, never an infinitive. **He swore me to keep quiet* → *He **swore me to** silence*, or *He **made me promise to** keep quiet*. Also ***swear doing***: **She swore telling no one* → *She **swore to tell** no one*.  
+**Never:** ***swear someone to do something*** — the personal object takes *to* + a **noun**, never an infinitive. ✗ *He swore me to keep quiet* → *He **swore me to** silence*, or *He **made me promise to** keep quiet*. Also ***swear doing***: ✗ *She swore telling no one* → *She **swore to tell** no one*.  
 **Irregular:** *swear / swore / sworn*. The past participle appears in the fixed legal phrases *a sworn statement*, *sworn testimony*, *duly sworn*.  
 **Three unrelated senses:** promise solemnly (*swore to repay it*), assert emphatically (*I swear I locked it*), and use obscene language (*swore at the referee*). Only the first two are reporting verbs, and the preposition tells them apart from the third.  
 **Everyday use:** in speech *I swear* is mostly an intensifier attached to an ordinary claim — *I swear I sent it* — and reports insistence rather than an oath.  
@@ -662,9 +691,10 @@ Three of these verbs — [arrange](#arrange), [insist](#insist), and [resolve](#
 ### threaten
 
 **Pronunciation:** /ˈθrɛtən/ &middot; *THRET-'n*  
+**Русский:** угрожать, пригрозить — зеркало promise: обещание того, что слушателю нежелательно
 **Type:** reporting verb — threat &middot; **Register:** neutral  
 **Patterns:** *threaten* + **to**-infinitive &middot; *threaten* + **that**-clause &middot; *threaten* + person &middot; *threaten* + person + **with** + noun phrase &middot; *threaten* + noun phrase (an action, a consequence) &middot; inanimate subject: *it threatened to rain*  
-**Never:** ***threaten someone to do something*** — the personal object and the infinitive cannot appear together, because the infinitive names what the **threatener** will do, not what the victim must do. **He threatened her to leave* has no possible reading. Repairs, depending on the meaning: *He threatened to leave* (he will go), *He threatened **her with** dismissal* (he named her penalty), *He **told her to** leave* (he ordered her out).  
+**Never:** ***threaten someone to do something*** — the personal object and the infinitive cannot appear together, because the infinitive names what the **threatener** will do, not what the victim must do. ✗ *He threatened her to leave* has no possible reading. Repairs, depending on the meaning: *He threatened to leave* (he will go), *He threatened **her with** dismissal* (he named her penalty), *He **told her to** leave* (he ordered her out).  
 **The mirror image of promise:** *threaten* and *promise* have the same grammar and opposite content: both commit the subject to a future act, one welcome and one not. *He promised to call the police* and *He threatened to call the police* differ only in whose interest the call serves.  
 **Conditionals collapse into it:** a threat is usually an *if*-sentence, and the verb absorbs the whole structure: *"If you print that, I'll sue"* → *He threatened to sue if we printed it.* See [reporting conditionals](../08-special-cases.md#reporting-conditionals).  
 **Not always speech:** with a non-human subject *threaten* reports an omen rather than an utterance: *The clouds threatened rain*, *The strike threatened to shut down the port.*  
@@ -685,9 +715,10 @@ Three of these verbs — [arrange](#arrange), [insist](#insist), and [resolve](#
 ### turn down
 
 **Pronunciation:** /ˌtɜrn ˈdaʊn/ &middot; *turn-DOWN*  
+**Русский:** отклонить, отказаться от — разг.: обычный отказ от предложенного (работы, приглашения)
 **Type:** reporting verb — refusal of an offer or request (phrasal verb, separable) &middot; **Register:** neutral, conversational  
 **Patterns:** *turn down* + noun phrase &middot; *turn* + noun phrase + *down* &middot; *turn* + pronoun + *down* (obligatory order) &middot; passive: *be turned down*  
-**Never:** ***turn down it*** — with a pronoun object the two halves must split: *turned **it** down*, never **turned down it*. With a full noun phrase either order works: *turned down the job* / *turned the job down*. And like the other noun-only refusal verbs, ***turn down to do something*** and ***turn down that*** are impossible: **He turned down to comment* → *He **declined to** comment*.  
+**Never:** ***turn down it*** — with a pronoun object the two halves must split: *turned **it** down*, never ✗ *turned down it*. With a full noun phrase either order works: *turned down the job* / *turned the job down*. And like the other noun-only refusal verbs, ***turn down to do something*** and ***turn down that*** are impossible: ✗ *He turned down to comment* → *He **declined to** comment*.  
 **Long objects go last:** although both orders are allowed with a noun, a long object almost always goes after the particle: *She turned down the offer that the university had spent a month putting together* — the split version strands *down* too far from its verb.  
 **Other senses:** *turn down the heat*, *turn down a collar*, *turn down a bed* are literal and unrelated. Only the refusal sense reports speech.  
 **Reports:** refusal of something offered, in ordinary conversational register — the everyday equivalent of *reject*, without its verdict-like weight or the politeness of *decline*.
@@ -707,9 +738,10 @@ Three of these verbs — [arrange](#arrange), [insist](#insist), and [resolve](#
 ### undertake
 
 **Pronunciation:** /ˌʌndərˈteɪk/ &middot; *un-dur-TAYK*  
+**Русский:** обязаться, принять на себя — офиц./юр.: обещание, закреплённое в договоре
 **Type:** reporting verb — formal commitment &middot; **Register:** formal, legal and contractual  
 **Patterns:** *undertake* + **to**-infinitive &middot; *undertake* + **that**-clause &middot; *undertake* + noun phrase (= take on a task)  
-**Never:** ***undertake someone to do something*** — no personal object: **The seller undertakes the buyer to insure the goods* → *The seller **undertakes to** insure the goods*, or *The seller **undertakes that** the goods will be insured*. In the promise sense there is also no gerund: **He undertook paying the costs* → *He **undertook to** pay the costs*.  
+**Never:** ***undertake someone to do something*** — no personal object: ✗ *The seller undertakes the buyer to insure the goods* → *The seller **undertakes to** insure the goods*, or *The seller **undertakes that** the goods will be insured*. In the promise sense there is also no gerund: ✗ *He undertook paying the costs* → *He **undertook to** pay the costs*.  
 **Irregular:** *undertake / undertook / undertaken*, following *take*.  
 **Two senses, two frames:** with an infinitive or a *that*-clause it is a promise (*undertook to repay the loan*); with a plain noun object it means take on a piece of work (*undertook a survey of the site*). Only the first is a reporting verb.  
 **Reports:** a promise given in a formal or contractual setting, where breaking it has consequences that are written down — the register of *promise* in a document rather than a conversation.
@@ -728,9 +760,10 @@ Three of these verbs — [arrange](#arrange), [insist](#insist), and [resolve](#
 ### veto
 
 **Pronunciation:** /ˈvitoʊ/ &middot; *VEE-toh*  
+**Русский:** наложить вето, заблокировать — отказ того, чья власть окончательно закрывает вопрос
 **Type:** reporting verb — authoritative rejection &middot; **Register:** neutral to formal; political and institutional  
 **Patterns:** *veto* + noun phrase &middot; passive: *be vetoed*  
-**Never:** ***veto that***, ***veto to do something***, and ***veto doing*** — *veto* takes a noun phrase naming what is blocked, and nothing else. **She vetoed that we go to the lake* → *She **vetoed** the trip to the lake*. **He vetoed spending more* → *He **vetoed** the extra spending*. It also does not take a person: **The governor vetoed the legislature* → *The governor vetoed **the bill***.  
+**Never:** ***veto that***, ***veto to do something***, and ***veto doing*** — *veto* takes a noun phrase naming what is blocked, and nothing else. ✗ *She vetoed that we go to the lake* → *She **vetoed** the trip to the lake*. ✗ *He vetoed spending more* → *He **vetoed** the extra spending*. It also does not take a person: ✗ *The governor vetoed the legislature* → *The governor vetoed **the bill***.  
 **Spelling:** *vetoes*, *vetoed*, *vetoing* — the third person takes *-es*, like *echoes* and *goes*.  
 **Informal use:** outside government, *veto* is used lightly for anyone with the power to block a plan: *My wife vetoed the orange couch.* The joke is the mismatch of register.  
 **Reports:** rejection by someone with the standing to block a thing outright — *reject* is a judgment, *veto* is an exercise of power, and it ends the matter.
@@ -749,9 +782,10 @@ Three of these verbs — [arrange](#arrange), [insist](#insist), and [resolve](#
 ### volunteer
 
 **Pronunciation:** /ˌvɑlənˈtɪr/ &middot; *vah-luhn-TEER*  
+**Русский:** вызваться; сообщить без просьбы — предложить помощь или выдать сведения по своей воле
 **Type:** reporting verb — unprompted offer, unprompted statement &middot; **Register:** neutral  
 **Patterns:** *volunteer* + **to**-infinitive &middot; *volunteer* + person + **to**-infinitive &middot; *volunteer* + **that**-clause &middot; *volunteer* + noun phrase (information, help, a name) &middot; *volunteer* + **for** + noun phrase &middot; *volunteer* (intransitive)  
-**Never:** ***volunteer doing*** — no gerund: **He volunteered driving us to the airport* → *He **volunteered to** drive us to the airport*. Note what *is* allowed and often surprises learners: *volunteer* **does** take a personal object before the infinitive — *My manager **volunteered me to** run the meeting* — which *offer*, its nearest neighbor, flatly refuses.  
+**Never:** ***volunteer doing*** — no gerund: ✗ *He volunteered driving us to the airport* → *He **volunteered to** drive us to the airport*. Note what *is* allowed and often surprises learners: *volunteer* **does** take a personal object before the infinitive — *My manager **volunteered me to** run the meeting* — which *offer*, its nearest neighbor, flatly refuses.  
 **Two speech acts:** *volunteer* covers offering to act (*volunteered to stay late*) and offering information nobody asked for (*volunteered that he had been there that night*). The second is the sense that matters in reported speech: it marks the statement as unprompted, which is why it appears constantly in accounts of interviews and testimony.  
 **Stress:** the noun and the verb are stressed identically, on the last syllable: *vah-luhn-TEER*.  
 **Reports:** an offer or a disclosure made without being asked — the *unprompted* is the whole meaning, and no other verb in this group carries it.
@@ -771,9 +805,10 @@ Three of these verbs — [arrange](#arrange), [insist](#insist), and [resolve](#
 ### vow
 
 **Pronunciation:** /vaʊ/ &middot; *VOW*  
+**Русский:** поклясться, дать зарок — книжн./газетное: торжественное обещание с вызовом или решимостью
 **Type:** reporting verb — solemn promise &middot; **Register:** formal, literary; common in headlines  
 **Patterns:** *vow* + **to**-infinitive &middot; *vow* + **that**-clause &middot; *vow* + noun phrase (*vowed revenge*) &middot; *vow* (intransitive, rare)  
-**Never:** ***vow someone to do something*** and ***vow doing*** — no personal object and no gerund. **She vowed him to return* → *She **vowed to** return*. **He vowed fighting the ruling* → *He **vowed to** fight the ruling*.  
+**Never:** ***vow someone to do something*** and ***vow doing*** — no personal object and no gerund. ✗ *She vowed him to return* → *She **vowed to** return*. ✗ *He vowed fighting the ruling* → *He **vowed to** fight the ruling*.  
 **Headline verb:** *vow* is short, so newspapers use it where speech would use *promise* or *say*: *Mayor vows to fight ruling.* In running prose it sounds heightened — a person who *vows* to pick up the dry cleaning is being funny.  
 **The emotional charge:** *vow* usually reports defiance or devotion. *He vowed to appeal* implies determination against opposition; *He promised to appeal* implies only an obligation.  
 **Reports:** a promise made solemnly and usually in public, with feeling behind it — *pledge* is institutional, *swear* invokes an oath, and *vow* carries the speaker's resolve.
@@ -793,12 +828,13 @@ Three of these verbs — [arrange](#arrange), [insist](#insist), and [resolve](#
 ### warn
 
 **Pronunciation:** /wɔrn/ &middot; *WORN*  
+**Русский:** предупредить, предостеречь — известить о плохом последствии; часто скрытая угроза
 **Type:** reporting verb — warning; a threat presented as a prediction &middot; **Register:** neutral  
 **Patterns:** *warn* + person + **that**-clause &middot; *warn* + **that**-clause (no object) &middot; *warn* + person + **to**-infinitive &middot; *warn* + person + **not to**-infinitive &middot; *warn* + person + **of/about** + noun phrase &middot; *warn* + person + **against** + noun phrase / **-ing** &middot; *warn* + person (alone)  
-**Never:** ***warn to do something*** with no object — the infinitive frame requires the person: **He warned to be careful* → *He **warned us to** be careful*. The *that*-clause is different: there the object may be dropped, and routinely is in news writing — *Forecasters **warned that** the storm would stall*. Also ***warn someone something***: **She warned me the deadline* → *She warned me **about** the deadline*; and ***warn someone for doing***: **He warned me for being late* → *He warned me **against being** late*.  
-**The object rule, compared with tell:** *tell* can never drop its personal object; *warn* can, but only before a *that*-clause. **He told that the road was closed* is wrong, while *He warned that the road was closed* is perfectly standard.  
+**Never:** ***warn to do something*** with no object — the infinitive frame requires the person: ✗ *He warned to be careful* → *He **warned us to** be careful*. The *that*-clause is different: there the object may be dropped, and routinely is in news writing — *Forecasters **warned that** the storm would stall*. Also ***warn someone something***: ✗ *She warned me the deadline* → *She warned me **about** the deadline*; and ***warn someone for doing***: ✗ *He warned me for being late* → *He warned me **against being** late*.  
+**The object rule, compared with tell:** *tell* can never drop its personal object; *warn* can, but only before a *that*-clause. ✗ *He told that the road was closed* is wrong, while *He warned that the road was closed* is perfectly standard.  
 **Warning or threat:** *warn* reports a threat when the speaker controls the harm — *He warned me that he would go to the police* — and an ordinary caution when they do not — *He warned me that the steps were icy*. Only the first belongs to this group; for the caution and advice sense see [Reported commands, requests, and advice](../06-commands-requests.md).  
-**Negative infinitive:** *not* goes before *to*: *warned us **not to** touch it*, never **warned us to not touch it* in careful writing.  
+**Negative infinitive:** *not* goes before *to*: *warned us **not to** touch it*, never ✗ *warned us to not touch it* in careful writing.  
 **Reports:** notice of a bad consequence — the same content as *threaten* when the speaker will cause the harm, but framed as information rather than as a demand, which is what makes it the more menacing of the two in print.
 
 > "Do that again and I'll call your supervisor."  →  He **warned me that** he **would call** my supervisor.

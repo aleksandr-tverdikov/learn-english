@@ -6,15 +6,6 @@
       "term": "for fear that",
       "ipa": "/fɚ ˈfɪr ðæt/, reduced /fɚ ˈfɪr ðət/",
       "respell": "fer-FEER-thut",
-      "type": "subordinating (compound)",
-      "register": "neutral to formal",
-      "clause": "adverbial clause of negative purpose",
-      "pattern": "[main clause] for fear that [clause]. · For fear that [clause], [main clause]. · [main clause] for fear of [gerund/noun].",
-      "punctuation": "No comma when it follows the main clause. Comma after the clause when it is fronted, which is rare.",
-      "variants": [
-        "for fear (that-less)",
-        "for fear of + gerund"
-      ],
       "meaning": "Negative purpose: the clause names the thing the subject is acting to avoid. It covers the same ground as lest but stays inside ordinary modern American prose, and unlike lest it takes a normal indicative or modal verb rather than the subjunctive — for fear that he would find out, not for fear that he find out.",
       "examples": [
         "She kept the receipt for fear that the store would refuse the return.",
@@ -25,27 +16,20 @@
         "Parents pulled their kids out of the pool for fear that lightning was coming.",
         "For fear that the news would leak overnight, the company briefed its staff and the press the same morning."
       ],
-      "related": [
-        "lest",
-        "in case",
-        "in the hope that",
-        "so that",
-        "in order that"
-      ]
+      "senses": [],
+      "русский": "из страха, что; боясь, что — отрицательная цель: то, чего действием стараются избежать",
+      "register": "neutral to formal",
+      "type": "subordinating (compound)",
+      "clause type": "adverbial clause of negative purpose",
+      "pattern": "[main clause] for fear that [clause]. · For fear that [clause], [main clause]. · [main clause] for fear of [gerund/noun].",
+      "punctuation": "No comma when it follows the main clause. Comma after the clause when it is fronted, which is rare.",
+      "variants": "for fear (that-less), for fear of + gerund",
+      "see also": "lest, in case, in the hope that, so that, in order that"
     },
     {
       "term": "in case",
       "ipa": "/ɪn ˈkeɪs/",
       "respell": "in-KAYSS",
-      "type": "subordinating (compound)",
-      "register": "neutral",
-      "clause": "adverbial clause of precautionary purpose",
-      "pattern": "[main clause] in case [clause]. · In case [clause], [main clause]. · [main clause], just in case. · In case of [noun], [main clause].",
-      "punctuation": "No comma before in case in the normal order. Comma after the clause when it is fronted. The tag just in case at the end of a sentence does take a comma before it.",
-      "variants": [
-        "just in case",
-        "in case of + noun (prepositional)"
-      ],
       "meaning": "Precautionary purpose — you do the main action now so that you are ready for a possibility. That is exactly what separates it from if: Take an umbrella in case it rains means take it regardless, while Take an umbrella if it rains means take it only once the rain has started. American English uses the present tense for the future contingency (in case it rains, never in case it will rain).",
       "examples": [
         "Bring a jacket in case the theater is cold.",
@@ -55,23 +39,20 @@
         "Save the confirmation email, just in case.",
         "In case of fire, use the stairs."
       ],
-      "related": [
-        "for fear that",
-        "in the hope that",
-        "lest",
-        "so that"
-      ]
+      "senses": [],
+      "русский": "на случай, если — предупредительная цель; не «если» (if): действие делается заранее",
+      "register": "neutral",
+      "type": "subordinating (compound)",
+      "clause type": "adverbial clause of precautionary purpose",
+      "pattern": "[main clause] in case [clause]. · In case [clause], [main clause]. · [main clause], just in case. · In case of [noun], [main clause].",
+      "punctuation": "No comma before in case in the normal order. Comma after the clause when it is fronted. The tag just in case at the end of a sentence does take a comma before it.",
+      "variants": "just in case, in case of + noun (prepositional)",
+      "see also": "for fear that, in the hope that, lest, so that"
     },
     {
       "term": "in order that",
       "ipa": "/ɪn ˈɔrdɚ ðæt/, reduced /ɪn ˈɔrdɚ ðət/",
       "respell": "in-OR-der-thut",
-      "type": "subordinating (compound)",
-      "register": "formal",
-      "clause": "adverbial clause of purpose",
-      "pattern": "[main clause] in order that [clause with modal]. · In order that [clause with modal], [main clause].",
-      "punctuation": "No comma when it follows the main clause. Comma after the clause when it is fronted.",
-      "variants": [],
       "meaning": "The formal written twin of so that, and almost always followed by a modal — may, might, can, could, will, would, shall. Americans say so that or bare so in speech; in order that survives mainly in legal, academic, and ceremonial prose. Use in order to instead when both clauses share a subject and an infinitive will do.",
       "examples": [
         "The records are sealed in order that the witnesses may be protected.",
@@ -81,29 +62,19 @@
         "He repeated the instructions slowly in order that no one would misunderstand them.",
         "In order that the record may be complete, the clerk will now read the motion."
       ],
-      "related": [
-        "so that",
-        "in order to",
-        "to the end that",
-        "that",
-        "lest"
-      ]
+      "senses": [],
+      "русский": "чтобы, с тем чтобы — книжн. союз цели, обычно с модальным глаголом",
+      "register": "formal",
+      "type": "subordinating (compound)",
+      "clause type": "adverbial clause of purpose",
+      "pattern": "[main clause] in order that [clause with modal]. · In order that [clause with modal], [main clause].",
+      "punctuation": "No comma when it follows the main clause. Comma after the clause when it is fronted.",
+      "see also": "so that, in order to, to the end that, that, lest"
     },
     {
       "term": "in the hope that",
       "ipa": "/ɪn ðə ˈhoʊp ðæt/, reduced /ɪn ðə ˈhoʊp ðət/",
       "respell": "in-thuh-HOHP-thut",
-      "type": "subordinating (compound)",
-      "register": "neutral",
-      "clause": "adverbial clause of tentative purpose",
-      "pattern": "[main clause] in the hope that [clause]. · In the hope that [clause], [main clause]. · [main clause] in hopes that [clause]. · [main clause] in the hope of [gerund/noun].",
-      "punctuation": "No comma when it follows the main clause. Comma after the clause when it is fronted. Never a semicolon — the clause is subordinate, not independent.",
-      "variants": [
-        "in hopes that",
-        "in the hopes that",
-        "in the hope of + gerund",
-        "in hopes of + gerund"
-      ],
       "meaning": "Purpose with the confidence taken out of it. So that presents the goal as reachable; in the hope that concedes it may not work, which is why it takes an ordinary indicative verb (in the hope that someone would answer) instead of the modal-heavy clause in order that demands. American English uses the plural in hopes that as freely as the singular.",
       "examples": [
         "She left a note on the windshield in the hope that the driver would call.",
@@ -114,24 +85,20 @@
         "We left the porch light on all night in hopes that the cat would find her way back.",
         "He drove past the house twice in hopes of catching her at home."
       ],
-      "related": [
-        "so that",
-        "in order that",
-        "for fear that",
-        "in case",
-        "with the aim of"
-      ]
+      "senses": [],
+      "русский": "в надежде, что — цель, в достижимости которой говорящий не уверен",
+      "register": "neutral",
+      "type": "subordinating (compound)",
+      "clause type": "adverbial clause of tentative purpose",
+      "pattern": "[main clause] in the hope that [clause]. · In the hope that [clause], [main clause]. · [main clause] in hopes that [clause]. · [main clause] in the hope of [gerund/noun].",
+      "punctuation": "No comma when it follows the main clause. Comma after the clause when it is fronted. Never a semicolon — the clause is subordinate, not independent.",
+      "variants": "in hopes that, in the hopes that, in the hope of + gerund, in hopes of + gerund",
+      "see also": "so that, in order that, for fear that, in case, with the aim of"
     },
     {
       "term": "lest",
       "ipa": "/lɛst/",
       "respell": "LEST",
-      "type": "subordinating",
-      "register": "formal, literary",
-      "clause": "adverbial clause of negative purpose",
-      "pattern": "[main clause] lest [subject] [bare subjunctive verb]. · [main clause] lest [subject] should [verb]. · Lest [clause], [main clause].",
-      "punctuation": "No comma when it follows the main clause. Comma after the clause when it is fronted, as in the fixed phrase Lest we forget, ...",
-      "variants": [],
       "meaning": "Negative purpose, equal to so that ... not or for fear that. It takes the present subjunctive — a bare verb with no -s (lest he be late, not lest he is late) — or should. The negation already sits inside the word, which is the classic trap: lest anyone hear means \"so that nobody hears,\" so adding not reverses the sense. Everyday American speech uses so that ... doesn't or in case.",
       "examples": [
         "He whispered the address lest anyone overhear.",
@@ -141,27 +108,19 @@
         "Keep the receipt lest there should be a dispute later.",
         "I said nothing lest I make the argument worse."
       ],
-      "related": [
-        "for fear that",
-        "in case",
-        "so that",
-        "in order that"
-      ]
+      "senses": [],
+      "русский": "чтобы не, дабы не — книжн., устар.; отрицание уже внутри слова, второе «не» лишнее",
+      "register": "formal, literary",
+      "type": "subordinating",
+      "clause type": "adverbial clause of negative purpose",
+      "pattern": "[main clause] lest [subject] [bare subjunctive verb]. · [main clause] lest [subject] should [verb]. · Lest [clause], [main clause].",
+      "punctuation": "No comma when it follows the main clause. Comma after the clause when it is fronted, as in the fixed phrase Lest we forget, ...",
+      "see also": "for fear that, in case, so that, in order that"
     },
     {
       "term": "so",
       "ipa": "/soʊ/, reduced /sə/ in rapid connected speech",
       "respell": "SOH",
-      "type": "subordinating (reduced so that); also coordinating in the result sense",
-      "register": "neutral to informal",
-      "clause": "adverbial clause of purpose; coordinate clause in the result sense",
-      "pattern": "[main clause] so [clause with modal]. — purpose · [independent clause], so [independent clause]. — result · [subject] [verb] so [adjective] that [clause]. — degree",
-      "punctuation": "One comma decides the meaning. No comma = purpose (I left early so I could beat traffic). Comma = result (I left early, so I beat traffic), which is the ordinary rule for a coordinating conjunction joining two independent clauses. A semicolon before result so is defensible only when both clauses are long and already full of commas; in an ordinary sentence it is wrong, and it is always wrong before purpose so.",
-      "variants": [
-        "so that (full form)",
-        "so as to (infinitival)",
-        "so ... that (degree)"
-      ],
       "meaning": "In casual American English bare so stands in for so that in the purpose sense, and the dropped that is completely standard in speech. The same two letters do at least four other jobs, which is why that comma has to work so hard: the coordinating conjunction of result, one of the FANBOYS (The bus never came, so we walked); the degree adverb of so ... that and of bare intensifying so (I'm so tired); the pro-form standing in for a whole clause (I think so, If so, call me); and the discourse opener that starts a turn in conversation (So, where were we?).",
       "examples": [
         "Text me when you land so I know you got there.",
@@ -171,25 +130,20 @@
         "The bus never came, so we walked the last mile.",
         "Move the couch over so there's room for the tree."
       ],
-      "related": [
-        "so that",
-        "so ... that",
-        "so as to",
-        "so (coordinating)"
-      ]
+      "senses": [],
+      "русский": "чтобы — разг. замена so that; с запятой перед ним — «так что, поэтому» (результат)",
+      "register": "neutral to informal",
+      "type": "subordinating (reduced so that); also coordinating in the result sense",
+      "clause type": "adverbial clause of purpose; coordinate clause in the result sense",
+      "pattern": "[main clause] so [clause with modal]. — purpose · [independent clause], so [independent clause]. — result · [subject] [verb] so [adjective] that [clause]. — degree",
+      "punctuation": "One comma decides the meaning. No comma = purpose (I left early so I could beat traffic). Comma = result (I left early, so I beat traffic), which is the ordinary rule for a coordinating conjunction joining two independent clauses. A semicolon before result so is defensible only when both clauses are long and already full of commas; in an ordinary sentence it is wrong, and it is always wrong before purpose so.",
+      "variants": "so that (full form), so as to (infinitival), so ... that (degree)",
+      "see also": "so that, so ... that, so as to, so (coordinating)"
     },
     {
       "term": "so that",
       "ipa": "/ˈsoʊ ðæt/, reduced /ˈsoʊ ðət/",
       "respell": "SOH-thut",
-      "type": "subordinating (compound)",
-      "register": "neutral",
-      "clause": "adverbial clause of purpose, or of result when preceded by a comma",
-      "pattern": "[main clause] so that [clause with modal]. — purpose · [main clause], so that [clause]. — result · So that [clause], [main clause]. — fronted, formal",
-      "punctuation": "The central rule of this category. No comma before so that = purpose: He spoke slowly so that everyone would understand (that was the goal). Comma before so that = result: He spoke slowly, so that everyone understood (that is what happened). A semicolon is always wrong here.",
-      "variants": [
-        "so (that-dropped, informal)"
-      ],
       "meaning": "The default purpose subordinator of American English, and the one to reach for when the two clauses have different subjects. The purpose clause normally carries can, could, will, would, or may; drop the modal and the sentence tips toward the result reading. Compare in order that (formal), bare so (casual), and in order to (same subject, infinitive).",
       "examples": [
         "Label the boxes so that the movers know which room each one goes in.",
@@ -199,27 +153,20 @@
         "The window was left open all night, so that the whole apartment smelled like rain.",
         "So that nobody would be left out, they made the party a potluck."
       ],
-      "related": [
-        "so",
-        "in order that",
-        "in order to",
-        "so as to",
-        "so ... that",
-        "lest"
-      ]
+      "senses": [],
+      "русский": "чтобы — основной союз цели; запятая перед ним меняет смысл на «так что» (результат)",
+      "register": "neutral",
+      "type": "subordinating (compound)",
+      "clause type": "adverbial clause of purpose, or of result when preceded by a comma",
+      "pattern": "[main clause] so that [clause with modal]. — purpose · [main clause], so that [clause]. — result · So that [clause], [main clause]. — fronted, formal",
+      "punctuation": "The central rule of this category. ✗ No comma before so that = purpose: He spoke slowly so that everyone would understand (that was the goal). ✗ Comma before so that = result: He spoke slowly, so that everyone understood (that is what happened). A semicolon is always wrong here.",
+      "variants": "so (that-dropped, informal)",
+      "see also": "so, in order that, in order to, so as to, so ... that, lest"
     },
     {
       "term": "that",
       "ipa": "/ðæt/, reduced /ðət/",
       "respell": "THAT",
-      "type": "subordinating (purpose use of the complementizer)",
-      "register": "literary, archaic",
-      "clause": "adverbial clause of purpose",
-      "pattern": "[main clause] that [subject] may/might [verb]. · [imperative], that [subject] may/might [verb]. · [main clause] that [subject] [bare subjunctive verb].",
-      "punctuation": "No comma is required, and none appears when the purpose clause is the point of the sentence (He gave up his seat that she might sit down). A comma is usual after an imperative or a short main clause, where the purpose clause reads as an added statement of aim (Speak plainly, that all may understand). Never a semicolon — the clause is subordinate. Modern edited prose simply rewrites the whole thing as so that.",
-      "variants": [
-        "so that and in order that are the modern equivalents"
-      ],
       "meaning": "Bare that as a purpose subordinator survives in scripture, hymns, oratory, poetry, and deliberate archaism: Come, that we may see. Only the purpose that pairs with may or might, which is the test for spotting it, because the same word does four commoner jobs: the complementizer that opens a noun clause (I know that he left), the relative pronoun (the book that I read), the demonstrative determiner and pronoun (that book, give me that), and the degree adverb of informal speech (It wasn't that cold).",
       "examples": [
         "Speak plainly, that all may understand.",
@@ -229,25 +176,20 @@
         "Write these things down, that the record be preserved.",
         "She worked all her life that her name might outlast her."
       ],
-      "related": [
-        "so that",
-        "in order that",
-        "to the end that",
-        "lest"
-      ]
+      "senses": [],
+      "русский": "дабы, чтобы — устар., книжн. союз цели, только в паре с may/might",
+      "register": "literary, archaic",
+      "type": "subordinating (purpose use of the complementizer)",
+      "clause type": "adverbial clause of purpose",
+      "pattern": "[main clause] that [subject] may/might [verb]. · [imperative], that [subject] may/might [verb]. · [main clause] that [subject] [bare subjunctive verb].",
+      "punctuation": "No comma is required, and none appears when the purpose clause is the point of the sentence (He gave up his seat that she might sit down). A comma is usual after an imperative or a short main clause, where the purpose clause reads as an added statement of aim (Speak plainly, that all may understand). Never a semicolon — the clause is subordinate. Modern edited prose simply rewrites the whole thing as so that.",
+      "variants": "so that and in order that are the modern equivalents",
+      "see also": "so that, in order that, to the end that, lest"
     },
     {
       "term": "to the end that",
       "ipa": "/tə ði ˈɛnd ðæt/, reduced /tə ði ˈɛnd ðət/",
       "respell": "tuh-thee-END-thut",
-      "type": "subordinating (compound)",
-      "register": "formal, legal",
-      "clause": "adverbial clause of purpose",
-      "pattern": "[main clause] to the end that [clause with modal]. · [main clause], to the end that [clause with modal]. · To the end that [clause with modal], [main clause]. — rare",
-      "punctuation": "A comma before it is common in legal drafting, where the clause states an added aim; leave the comma out when the purpose clause is essential to the sentence. Comma after the clause in the rare fronted order. Never a semicolon — the clause is subordinate.",
-      "variants": [
-        "to the intent that (legal, rarer)"
-      ],
       "meaning": "A ceremonial in order that, at home in statutes, contracts, charters, and older sermons and nowhere else. End here means \"purpose, goal,\" not \"finish,\" which is what makes the phrase opaque to learners. In any ordinary sentence, write so that.",
       "examples": [
         "The board publishes its minutes, to the end that the public may follow its work.",
@@ -258,29 +200,20 @@
         "The rules are circulated in advance to the end that no member is taken unawares.",
         "To the end that the fund may continue in perpetuity, the trustees shall reinvest all income."
       ],
-      "related": [
-        "in order that",
-        "to the intent that",
-        "so that",
-        "that",
-        "to which end",
-        "whereby"
-      ]
+      "senses": [],
+      "русский": "с тем чтобы, дабы — юр., книжн.; end здесь «цель», а не «конец»",
+      "register": "formal, legal",
+      "type": "subordinating (compound)",
+      "clause type": "adverbial clause of purpose",
+      "pattern": "[main clause] to the end that [clause with modal]. · [main clause], to the end that [clause with modal]. · To the end that [clause with modal], [main clause]. — rare",
+      "punctuation": "A comma before it is common in legal drafting, where the clause states an added aim; leave the comma out when the purpose clause is essential to the sentence. Comma after the clause in the rare fronted order. Never a semicolon — the clause is subordinate.",
+      "variants": "to the intent that (legal, rarer)",
+      "see also": "in order that, to the intent that, so that, that, to which end, whereby"
     },
     {
       "term": "to the intent that",
       "ipa": "/tə ði ɪnˈtɛnt ðæt/, reduced /tə ði ɪnˈtɛnt ðət/",
       "respell": "tuh-thee-in-TENT-thut",
-      "type": "subordinating (compound)",
-      "register": "archaic legal — conveyancing and drafting boilerplate",
-      "clause": "adverbial clause of purpose",
-      "pattern": "[main clause], to the intent that [clause with may/might/shall]. · [main clause] to the intent that [clause with may/might/shall]. · [main clause] to the intent and purpose that [clause]. — the doubled drafting formula · To the intent that [clause], [main clause]. — rare",
-      "punctuation": "A comma before it is the drafting norm, because the purpose clause is hung on a provision that is already complete; leave the comma out when the purpose restricts the main clause rather than commenting on it. Comma after the clause in the rare fronted order. Never a semicolon — the clause is subordinate, not independent.",
-      "variants": [
-        "to the intent and purpose that",
-        "to the end that (the commoner twin)",
-        "with the intent that (the modern American drafting equivalent)"
-      ],
       "meaning": "An American meets this one in old deeds, wills, and trust instruments, in English conveyancing precedents, and in nineteenth-century statutes and charters — never in modern American drafting, which writes with the intent that or plain so that. It differs from its twin to the end that only in what the noun names: end names the goal aimed at, while intent names what was in the drafter's mind, which is why this version outlived the other in instruments where somebody's intention is itself the operative fact. The clause takes may, might, or shall, or occasionally the bare present subjunctive.",
       "examples": [
         "The lands are conveyed to the trustees, to the intent that the same may be sold and the proceeds divided among my children.",
@@ -291,27 +224,20 @@
         "Notice shall be published for three weeks, to the intent that no creditor may afterwards plead ignorance of the proceeding.",
         "The parties have set their hands hereunto, to the intent and purpose that the covenants herein may bind their heirs and assigns."
       ],
-      "related": [
-        "to the end that",
-        "with the intent that",
-        "in order that",
-        "so that",
-        "to which end"
-      ]
+      "senses": [],
+      "русский": "с тем намерением, чтобы — устар. юр., язык старых завещаний и актов",
+      "register": "archaic legal — conveyancing and drafting boilerplate",
+      "type": "subordinating (compound)",
+      "clause type": "adverbial clause of purpose",
+      "pattern": "[main clause], to the intent that [clause with may/might/shall]. · [main clause] to the intent that [clause with may/might/shall]. · [main clause] to the intent and purpose that [clause]. — the doubled drafting formula · To the intent that [clause], [main clause]. — rare",
+      "punctuation": "A comma before it is the drafting norm, because the purpose clause is hung on a provision that is already complete; leave the comma out when the purpose restricts the main clause rather than commenting on it. Comma after the clause in the rare fronted order. Never a semicolon — the clause is subordinate, not independent.",
+      "variants": "to the intent and purpose that, to the end that (the commoner twin), with the intent that (the modern American drafting equivalent)",
+      "see also": "to the end that, with the intent that, in order that, so that, to which end"
     },
     {
       "term": "to which end",
       "ipa": "/tə ˌwɪtʃ ˈɛnd/, reduced /tə wɪtʃ ˈɛnd/",
       "respell": "tuh-wich-END",
-      "type": "relative connective of purpose (subordinating)",
-      "register": "formal, legal",
-      "clause": "sentential relative clause of purpose",
-      "pattern": "[independent clause], to which end [clause]. · [independent clause]. To which end, [clause]. · [independent clause], to which end [subject] shall/may [verb].",
-      "punctuation": "Comma before it, never a semicolon and never nothing — it is a supplementary relative, so it takes the punctuation of which is why rather than the punctuation of therefore. A comma after it is optional and turns up mainly when the phrase opens a new sentence.",
-      "variants": [
-        "to that end",
-        "to this end (the demonstrative versions, which start a fresh sentence)"
-      ],
       "meaning": "The relative twin of to that end: it reaches back, treats the whole preceding clause as the goal, and then names the step taken to reach it. End here means \"purpose,\" exactly as in to the end that, and not \"finish.\" It belongs to charters, trusts, and contracts; in ordinary prose start a new sentence with to that end.",
       "examples": [
         "The trust must be preserved in perpetuity, to which end the trustees shall reinvest all income.",
@@ -321,28 +247,20 @@
         "The council resolved to clear the backlog by fall, to which end two additional clerks were hired in April.",
         "The charter directs the board to publish every vote, to which end the minutes go up within a week of each meeting."
       ],
-      "related": [
-        "to the end that",
-        "in order that",
-        "whereby",
-        "which is why",
-        "to that end"
-      ]
+      "senses": [],
+      "русский": "с каковой целью, ради чего — книжн., юр.; отсылает к цели, названной в предыдущей части",
+      "register": "formal, legal",
+      "type": "relative connective of purpose (subordinating)",
+      "clause type": "sentential relative clause of purpose",
+      "pattern": "[independent clause], to which end [clause]. · [independent clause]. To which end, [clause]. · [independent clause], to which end [subject] shall/may [verb].",
+      "punctuation": "Comma before it, never a semicolon and never nothing — it is a supplementary relative, so it takes the punctuation of which is why rather than the punctuation of therefore. A comma after it is optional and turns up mainly when the phrase opens a new sentence.",
+      "variants": "to that end, to this end (the demonstrative versions, which start a fresh sentence)",
+      "see also": "to the end that, in order that, whereby, which is why, to that end"
     },
     {
       "term": "with the intent that",
       "ipa": "/wɪð ði ɪnˈtɛnt ðæt/, reduced /wɪð ði ɪnˈtɛnt ðət/",
       "respell": "with-thee-in-TENT-thut",
-      "type": "subordinating (compound)",
-      "register": "formal, legal",
-      "clause": "adverbial clause of purpose",
-      "pattern": "[main clause] with the intent that [clause]. · [main clause] with the intention that [clause]. · [main clause] with intent to [base verb]. — the criminal-law formula · With the intent that [clause], [main clause]. — rare",
-      "punctuation": "No comma when it follows the main clause, which is where it almost always sits. Comma after the clause in the rare fronted order. Never a semicolon — the clause is subordinate.",
-      "variants": [
-        "with the intention that",
-        "with intent to + base verb",
-        "with the object that (legalistic)"
-      ],
       "meaning": "States the actor's purpose as a matter of record, which is why it lives in statutes, wills, and pleadings: what is being asserted is what was in somebody's mind, not what actually came about. The clause takes a modal — would, should, might — or, in drafting, the present subjunctive: with the intent that the fund be divided equally. Its everyday relatives with the aim of and with the intention of take an -ing form and cannot govern a clause of their own.",
       "examples": [
         "She signed the deed over in March with the intent that her sister would keep the house.",
@@ -353,28 +271,20 @@
         "He was charged with entering the building with intent to commit theft.",
         "The memo went to every department with the intention that nobody could later plead ignorance."
       ],
-      "related": [
-        "with the aim of",
-        "in order that",
-        "so that",
-        "to the end that",
-        "to the intent that",
-        "for the purpose of"
-      ]
+      "senses": [],
+      "русский": "с намерением, чтобы — юр.: фиксирует умысел действующего лица, а не итог",
+      "register": "formal, legal",
+      "type": "subordinating (compound)",
+      "clause type": "adverbial clause of purpose",
+      "pattern": "[main clause] with the intent that [clause]. · [main clause] with the intention that [clause]. · [main clause] with intent to [base verb]. — the criminal-law formula · With the intent that [clause], [main clause]. — rare",
+      "punctuation": "No comma when it follows the main clause, which is where it almost always sits. Comma after the clause in the rare fronted order. Never a semicolon — the clause is subordinate.",
+      "variants": "with the intention that, with intent to + base verb, with the object that (legalistic)",
+      "see also": "with the aim of, in order that, so that, to the end that, to the intent that, for the purpose of"
     },
     {
       "term": "for the purpose of",
       "ipa": "/fɚ ðə ˈpɝpəs əv/",
       "respell": "fer-thuh-PUR-puss-uv",
-      "type": "quasi-subordinator (prepositional, takes a gerund)",
-      "register": "formal",
-      "clause": "non-finite purpose adjunct (gerund phrase)",
-      "pattern": "[main clause] for the purpose of [gerund phrase]. · For the purpose of [gerund phrase], [main clause]. · For purposes of [noun], [main clause].",
-      "punctuation": "No comma when it follows the main clause. Comma after the phrase when it is fronted.",
-      "variants": [
-        "for purposes of",
-        "for the purposes of"
-      ],
       "meaning": "The purpose marker of statutes, contracts, and policy documents. It takes an -ing form and never an infinitive — for the purpose of collecting data, not for the purpose of to collect data. The for purposes of X variant does something slightly different: it limits a definition to one document or context.",
       "examples": [
         "The data is retained for the purpose of verifying eligibility.",
@@ -384,28 +294,20 @@
         "Cameras were installed for the purpose of deterring theft, not monitoring staff.",
         "For purposes of the tax code, the two entities are treated as one."
       ],
-      "related": [
-        "in order to",
-        "so as to",
-        "to",
-        "with a view to",
-        "with the aim of"
-      ]
+      "senses": [],
+      "русский": "с целью, для — книжн., юр.; дальше только -ing или существительное, не инфинитив",
+      "register": "formal",
+      "type": "quasi-subordinator (prepositional, takes a gerund)",
+      "clause type": "non-finite purpose adjunct (gerund phrase)",
+      "pattern": "[main clause] for the purpose of [gerund phrase]. · For the purpose of [gerund phrase], [main clause]. · For purposes of [noun], [main clause].",
+      "punctuation": "No comma when it follows the main clause. Comma after the phrase when it is fronted.",
+      "variants": "for purposes of, for the purposes of",
+      "see also": "in order to, so as to, to, with a view to, with the aim of"
     },
     {
       "term": "for the sake of",
       "ipa": "/fɚ ðə ˈseɪk əv/, reduced /fɚ ðə ˈseɪk ə/",
       "respell": "fer-thuh-SAYK-uv",
-      "type": "quasi-subordinator (prepositional, takes a noun or a gerund)",
-      "register": "neutral",
-      "clause": "non-finite purpose adjunct (noun or gerund phrase)",
-      "pattern": "[main clause] for the sake of [noun/gerund]. · For the sake of [noun/gerund], [main clause]. · [main clause] for [possessive] sake. · For the sake of argument, [main clause]. — frozen hedge",
-      "punctuation": "No comma when it follows the main clause. Comma after the phrase when it is fronted, which is common. Never a semicolon — a phrase follows, not an independent clause.",
-      "variants": [
-        "for [possessive] sake (for the children's sake)",
-        "for the sake of argument",
-        "for goodness' sake (interjection, not purpose)"
-      ],
       "meaning": "Purpose named through the person or thing that benefits — for the sake of the kids — or through the quality being served, as in for the sake of clarity. It takes a noun or an -ing form and never an infinitive. Two things sit next to it and are not it: the possessive shortcut for her own sake, which is the same construction turned inside out, and the exasperated interjection for heaven's sake, which names no goal at all.",
       "examples": [
         "They stayed in the same city for the sake of the kids.",
@@ -416,26 +318,20 @@
         "For the sake of argument, suppose the early numbers are right.",
         "He gave up the corner office for his partner's sake."
       ],
-      "related": [
-        "in the interest of",
-        "for the purpose of",
-        "with the aim of",
-        "in order to",
-        "so that"
-      ]
+      "senses": [],
+      "русский": "ради, для блага — цель через того или то, что от неё выигрывает",
+      "register": "neutral",
+      "type": "quasi-subordinator (prepositional, takes a noun or a gerund)",
+      "clause type": "non-finite purpose adjunct (noun or gerund phrase)",
+      "pattern": "[main clause] for the sake of [noun/gerund]. · For the sake of [noun/gerund], [main clause]. · [main clause] for [possessive] sake. · For the sake of argument, [main clause]. — frozen hedge",
+      "punctuation": "No comma when it follows the main clause. Comma after the phrase when it is fronted, which is common. Never a semicolon — a phrase follows, not an independent clause.",
+      "variants": "for [possessive] sake (for the children's sake), for the sake of argument, for goodness' sake (interjection, not purpose)",
+      "see also": "in the interest of, for the purpose of, with the aim of, in order to, so that"
     },
     {
       "term": "for to",
       "ipa": "/fɚ ˈtu/, usually reduced /fɚ tə/",
       "respell": "fer-TOO",
-      "type": "subordinating (infinitival), nonstandard",
-      "register": "archaic, dialectal, balladry",
-      "clause": "non-finite adverbial clause of purpose",
-      "pattern": "[main clause] for to [base verb]. · [main clause] for to [base verb] [object]. · [verb of motion] for to [base verb]. — the commonest frame",
-      "punctuation": "No comma before it. It does not front, and it never takes a semicolon.",
-      "variants": [
-        "plain to and in order to are the standard equivalents; for [subject] to [verb] is a different and fully standard pattern"
-      ],
       "meaning": "A doubled purpose marker — the preposition for stacked on the infinitive to — that was ordinary in Middle and Early Modern English and survives now only in ballads, the King James Bible, Appalachian and Southern regional speech, and Irish and Scots English. The trap is the standard pattern that looks like it: in He waited for the rain to stop a subject sits between the two words and the sentence is unremarkable, while He waited for to see her is dialect. In edited American prose, write plain to.",
       "examples": [
         "We come for to sing you a song about the river.",
@@ -446,28 +342,20 @@
         "I only stopped by for to say goodbye before the train.",
         "The old ballad has him riding out for to seek his fortune."
       ],
-      "related": [
-        "to",
-        "in order to",
-        "so as to",
-        "that",
-        "to the end that"
-      ]
+      "senses": [],
+      "русский": "чтобы — устар., диал.; язык баллад и южных говоров, в норме просто to",
+      "register": "archaic, dialectal, balladry",
+      "type": "subordinating (infinitival), nonstandard",
+      "clause type": "non-finite adverbial clause of purpose",
+      "pattern": "[main clause] for to [base verb]. · [main clause] for to [base verb] [object]. · [verb of motion] for to [base verb]. — the commonest frame",
+      "punctuation": "No comma before it. It does not front, and it never takes a semicolon.",
+      "variants": "plain to and in order to are the standard equivalents; for [subject] to [verb] is a different and fully standard pattern",
+      "see also": "to, in order to, so as to, that, to the end that"
     },
     {
       "term": "in an effort to",
       "ipa": "/ɪn ən ˈɛfɚt tu/, reduced /ɪn ən ˈɛfɚt tə/",
       "respell": "in-un-EFF-ert-too",
-      "type": "quasi-subordinator (prepositional phrase plus infinitive)",
-      "register": "neutral; the house style of American news writing",
-      "clause": "non-finite purpose adjunct (to-infinitive)",
-      "pattern": "[main clause] in an effort to [base verb]. · In an effort to [base verb], [main clause]. · [main clause] in an attempt to [base verb]. · [main clause] in a bid to [base verb]. — headline register",
-      "punctuation": "No comma when it follows the main clause. Comma after the phrase when it is fronted, which is common in reporting. Never a semicolon — an infinitive phrase follows, not an independent clause.",
-      "variants": [
-        "in an attempt to",
-        "in a bid to (headlinese)",
-        "in hopes of + gerund"
-      ],
       "meaning": "Purpose with a hedge built in. In order to and so as to simply name the aim; in an effort to reports that somebody was trying, and quietly declines to say it worked, which is why reporters reach for it when the outcome is still open or has already failed. Like every infinitival purpose marker it borrows the subject of the main clause, so the person making the effort has to be the person in the main clause. In a bid to is the compressed newspaper version and sounds odd outside a headline or a lede.",
       "examples": [
         "The city cut fares in half in an effort to get riders back on the buses.",
@@ -477,27 +365,20 @@
         "The league changed the overtime rule in an effort to cut down on head injuries.",
         "In an attempt to settle before trial, both sides agreed to one more day of mediation."
       ],
-      "related": [
-        "in order to",
-        "so as to",
-        "with the aim of",
-        "to",
-        "for the purpose of"
-      ]
+      "senses": [],
+      "русский": "пытаясь, в стремлении — газетный оборот: попытка, об успехе которой ничего не сказано",
+      "register": "neutral; the house style of American news writing",
+      "type": "quasi-subordinator (prepositional phrase plus infinitive)",
+      "clause type": "non-finite purpose adjunct (to-infinitive)",
+      "pattern": "[main clause] in an effort to [base verb]. · In an effort to [base verb], [main clause]. · [main clause] in an attempt to [base verb]. · [main clause] in a bid to [base verb]. — headline register",
+      "punctuation": "No comma when it follows the main clause. Comma after the phrase when it is fronted, which is common in reporting. Never a semicolon — an infinitive phrase follows, not an independent clause.",
+      "variants": "in an attempt to, in a bid to (headlinese), in hopes of + gerund",
+      "see also": "in order to, so as to, with the aim of, to, for the purpose of"
     },
     {
       "term": "in order to",
       "ipa": "/ɪn ˈɔrdɚ tu/, reduced /ɪn ˈɔrdɚ tə/",
       "respell": "in-OR-der-too",
-      "type": "subordinating (infinitival)",
-      "register": "neutral to formal",
-      "clause": "non-finite adverbial clause of purpose",
-      "pattern": "[main clause] in order to [base verb]. · In order to [base verb], [main clause]. · [main clause] in order not to [base verb]. · [main clause] in order for [subject] to [base verb].",
-      "punctuation": "Comma after the fronted in order to phrase. No comma when it follows the main clause.",
-      "variants": [
-        "in order not to",
-        "in order for ... to"
-      ],
       "meaning": "The explicit, slightly formal version of the plain purpose infinitive to. Its real value is disambiguation: He wrote to the senator is unclear, He wrote in order to reach the senator is not. The negative is in order not to — careful writing puts not before to, though in order to not is common in speech. Use in order for X to Y when the two clauses have different subjects.",
       "examples": [
         "He took a second job in order to pay off the loan faster.",
@@ -507,29 +388,20 @@
         "We rewrote the opening in order to make the point in the first paragraph.",
         "In order to be safe, back up the drive before you run the update."
       ],
-      "related": [
-        "to",
-        "so as to",
-        "in order that",
-        "so that",
-        "for the purpose of",
-        "in an effort to"
-      ]
+      "senses": [],
+      "русский": "чтобы, для того чтобы — явный маркер цели перед инфинитивом",
+      "register": "neutral to formal",
+      "type": "subordinating (infinitival)",
+      "clause type": "non-finite adverbial clause of purpose",
+      "pattern": "[main clause] in order to [base verb]. · In order to [base verb], [main clause]. · [main clause] in order not to [base verb]. · [main clause] in order for [subject] to [base verb].",
+      "punctuation": "Comma after the fronted in order to phrase. No comma when it follows the main clause.",
+      "variants": "in order not to, in order for ... to",
+      "see also": "to, so as to, in order that, so that, for the purpose of, in an effort to"
     },
     {
       "term": "in the interest of",
       "ipa": "/ɪn ði ˈɪntrəst əv/, also /ˈɪntərəst/",
       "respell": "in-thee-IN-trust-uv",
-      "type": "quasi-subordinator (prepositional, takes a noun or a gerund)",
-      "register": "neutral to formal",
-      "clause": "non-finite purpose adjunct (noun or gerund phrase)",
-      "pattern": "[main clause] in the interest of [noun/gerund]. · In the interest of [noun/gerund], [main clause]. · [main clause] in the interests of [noun]. · In the public interest, [main clause]. — fixed phrase",
-      "punctuation": "No comma when it follows the main clause. Comma after the phrase when it is fronted, which is the commoner order. Never a semicolon.",
-      "variants": [
-        "in the interests of",
-        "in the public interest",
-        "in the interest of [somebody's] safety/privacy/time"
-      ],
       "meaning": "Names the value or the party a decision is meant to serve: in the interest of safety, in the interest of the shareholders. It takes a noun or an -ing form and never an infinitive. It also carries a faint note of justification, which is why it turns up in announcements, rulings, and apologies — places where somebody is explaining a decision that not everyone is going to like. The plural in the interests of is equally standard in American English.",
       "examples": [
         "In the interest of time, we'll take two more questions and then break.",
@@ -539,26 +411,20 @@
         "The board sold the building in the interest of the membership, over the staff's objections.",
         "He dropped the appeal in the interest of getting back to work."
       ],
-      "related": [
-        "for the sake of",
-        "for the purpose of",
-        "with a view to",
-        "with the aim of",
-        "in an effort to"
-      ]
+      "senses": [],
+      "русский": "в интересах, ради — называет ценность или сторону, которой служит решение",
+      "register": "neutral to formal",
+      "type": "quasi-subordinator (prepositional, takes a noun or a gerund)",
+      "clause type": "non-finite purpose adjunct (noun or gerund phrase)",
+      "pattern": "[main clause] in the interest of [noun/gerund]. · In the interest of [noun/gerund], [main clause]. · [main clause] in the interests of [noun]. · In the public interest, [main clause]. — fixed phrase",
+      "punctuation": "No comma when it follows the main clause. Comma after the phrase when it is fronted, which is the commoner order. Never a semicolon.",
+      "variants": "in the interests of, in the public interest, in the interest of [somebody's] safety/privacy/time",
+      "see also": "for the sake of, for the purpose of, with a view to, with the aim of, in an effort to"
     },
     {
       "term": "so as to",
       "ipa": "/ˈsoʊ əz tə/, full /ˈsoʊ æz ˌtu/",
       "respell": "SOH-az-tuh",
-      "type": "subordinating (infinitival)",
-      "register": "neutral to formal — the negative so as not to is everyday American",
-      "clause": "non-finite adverbial clause of purpose",
-      "pattern": "[main clause] so as to [base verb]. · [main clause] so as not to [base verb]. · So as to [base verb], [main clause]. — rare",
-      "punctuation": "No comma when it follows the main clause. Comma after the phrase in the rare fronted order.",
-      "variants": [
-        "so as not to"
-      ],
       "meaning": "A formal equivalent of in order to that is most alive in its negative, so as not to, which is the natural American way to say \"in order to avoid.\" Like every infinitival purpose marker it shares the subject of the main clause; if the person acting and the person affected are different, you need so that.",
       "examples": [
         "He rewrote the email so as to sound less annoyed.",
@@ -568,26 +434,20 @@
         "They scheduled the vote for Monday so as not to conflict with the holiday.",
         "So as to keep the discussion short, the chair set a three-minute limit."
       ],
-      "related": [
-        "in order to",
-        "to",
-        "so that",
-        "so",
-        "in order that"
-      ]
+      "senses": [],
+      "русский": "чтобы, так чтобы — книжн.; особенно частотна форма so as not to «чтобы не»",
+      "register": "neutral to formal — the negative so as not to is everyday American",
+      "type": "subordinating (infinitival)",
+      "clause type": "non-finite adverbial clause of purpose",
+      "pattern": "[main clause] so as to [base verb]. · [main clause] so as not to [base verb]. · So as to [base verb], [main clause]. — rare",
+      "punctuation": "No comma when it follows the main clause. Comma after the phrase in the rare fronted order.",
+      "variants": "so as not to",
+      "see also": "in order to, to, so that, so, in order that"
     },
     {
       "term": "to",
       "ipa": "/tu/, reduced /tə/ before a consonant",
       "respell": "TOO",
-      "type": "subordinating (infinitival purpose marker)",
-      "register": "neutral",
-      "clause": "non-finite adverbial clause of purpose",
-      "pattern": "[main clause] to [base verb]. · To [base verb], [main clause]. · [main clause] to [base verb], not to [base verb]. — contrastive · [main clause] only to [base verb]. — unexpected result",
-      "punctuation": "Comma after a fronted purpose infinitive: To save time, we skipped lunch. No comma when it follows the main clause. A comma does appear before a contrastive second infinitive (to explain, not to excuse) and before only to.",
-      "variants": [
-        "in order to and so as to are the explicit forms"
-      ],
       "meaning": "The plain to-infinitive is the ordinary, unmarked way to state purpose in American English — I came to help simply means \"in order to help,\" and adding in order changes nothing but the formality. Switch to the longer forms only when the bare infinitive could be misread as a complement or a result, as in He stopped to talk (purpose) beside He stopped talking (aspect). Keep the infinitive marker apart from the preposition spelled the same way: in to the coast and listen to me, to takes a noun phrase and states direction or a target, while the purpose to takes a bare verb — which is why look forward to is followed by an -ing form (to leaving), a preposition and not this word at all.",
       "examples": [
         "I stayed late to finish the quarterly report.",
@@ -598,29 +458,20 @@
         "They cut every other line item to keep the doors open.",
         "I'm telling you this to explain what happened, not to excuse it."
       ],
-      "related": [
-        "in order to",
-        "so as to",
-        "for the purpose of",
-        "so that",
-        "only to",
-        "too ... to"
-      ]
+      "senses": [],
+      "русский": "чтобы — обычный инфинитив цели; не путать с предлогом to «к, в, на» перед существительным",
+      "register": "neutral",
+      "type": "subordinating (infinitival purpose marker)",
+      "clause type": "non-finite adverbial clause of purpose",
+      "pattern": "[main clause] to [base verb]. · To [base verb], [main clause]. · [main clause] to [base verb], not to [base verb]. — contrastive · [main clause] only to [base verb]. — unexpected result",
+      "punctuation": "Comma after a fronted purpose infinitive: To save time, we skipped lunch. No comma when it follows the main clause. A comma does appear before a contrastive second infinitive (to explain, not to excuse) and before only to.",
+      "variants": "in order to and so as to are the explicit forms",
+      "see also": "in order to, so as to, for the purpose of, so that, only to, too ... to"
     },
     {
       "term": "with a view to",
       "ipa": "/wɪð ə ˈvju tu/, reduced /wɪð ə ˈvju tə/, also /wɪθ/",
       "respell": "with-uh-VYOO-too",
-      "type": "quasi-subordinator (prepositional, takes a gerund)",
-      "register": "formal",
-      "clause": "non-finite purpose adjunct (gerund phrase)",
-      "pattern": "[main clause] with a view to [gerund phrase]. · With a view to [gerund phrase], [main clause]. · [main clause] with an eye to [gerund phrase or noun].",
-      "punctuation": "No comma when it follows the main clause. Comma after the phrase in the less common fronted order, like any fronted adjunct. A comma in the normal order is acceptable only when the phrase is tacked on as an afterthought.",
-      "variants": [
-        "with a view toward",
-        "with an eye to",
-        "with an eye toward"
-      ],
       "meaning": "Business and diplomatic register, marking a longer-range aim than in order to. The to here is a preposition, so what follows has to be an -ing form — with a view to expanding, never with a view to expand. That is one of the most reliably repeated errors in formal English writing, and with an eye to behaves exactly the same way.",
       "examples": [
         "The firm opened a Denver office with a view to expanding into the mountain states.",
@@ -631,27 +482,20 @@
         "The land was purchased with a view to building a school on it.",
         "With a view to cutting turnover, the hospital rewrote its whole scheduling policy."
       ],
-      "related": [
-        "with the aim of",
-        "for the purpose of",
-        "in order to",
-        "so as to"
-      ]
+      "senses": [],
+      "русский": "с прицелом на, в расчёте на — офиц.; дальняя цель, дальше обязательно -ing",
+      "register": "formal",
+      "type": "quasi-subordinator (prepositional, takes a gerund)",
+      "clause type": "non-finite purpose adjunct (gerund phrase)",
+      "pattern": "[main clause] with a view to [gerund phrase]. · With a view to [gerund phrase], [main clause]. · [main clause] with an eye to [gerund phrase or noun].",
+      "punctuation": "No comma when it follows the main clause. Comma after the phrase in the less common fronted order, like any fronted adjunct. A comma in the normal order is acceptable only when the phrase is tacked on as an afterthought.",
+      "variants": "with a view toward, with an eye to, with an eye toward",
+      "see also": "with the aim of, for the purpose of, in order to, so as to"
     },
     {
       "term": "with the aim of",
       "ipa": "/wɪð ði ˈeɪm əv/",
       "respell": "with-thee-AYM-uv",
-      "type": "quasi-subordinator (prepositional, takes a gerund)",
-      "register": "neutral to formal",
-      "clause": "non-finite purpose adjunct (gerund phrase)",
-      "pattern": "[main clause] with the aim of [gerund phrase]. · With the aim of [gerund phrase], [main clause]. · [main clause] with the intention of [gerund phrase].",
-      "punctuation": "No comma when it follows the main clause. Comma after the phrase when it is fronted.",
-      "variants": [
-        "with the goal of",
-        "with the intention of",
-        "with the object of (legalistic)"
-      ],
       "meaning": "States the actor's declared objective, and is the workhorse of journalism, grant writing, and reports. It takes an -ing form. Choose with the intention of when you want to stress what was in the actor's mind rather than what the action achieved — it is the version that survives a failed plan.",
       "examples": [
         "The program was launched with the aim of cutting emergency-room visits.",
@@ -661,28 +505,20 @@
         "She entered the race with the goal of breaking three hours.",
         "They bought the old bank with the intention of converting it into apartments."
       ],
-      "related": [
-        "with a view to",
-        "with the intent that",
-        "for the purpose of",
-        "in order to",
-        "in an effort to"
-      ]
+      "senses": [],
+      "русский": "с целью — называет заявленную цель действующего лица, дальше -ing",
+      "register": "neutral to formal",
+      "type": "quasi-subordinator (prepositional, takes a gerund)",
+      "clause type": "non-finite purpose adjunct (gerund phrase)",
+      "pattern": "[main clause] with the aim of [gerund phrase]. · With the aim of [gerund phrase], [main clause]. · [main clause] with the intention of [gerund phrase].",
+      "punctuation": "No comma when it follows the main clause. Comma after the phrase when it is fronted.",
+      "variants": "with the goal of, with the intention of, with the object of (legalistic)",
+      "see also": "with a view to, with the intent that, for the purpose of, in order to, in an effort to"
     },
     {
       "term": "with this in mind",
       "ipa": "/wɪð ˈðɪs ɪn ˈmaɪnd/",
       "respell": "with-THISS-in-MYND",
-      "type": "linking adverbial (prepositional phrase functioning as a conjunctive adverb)",
-      "register": "neutral to formal",
-      "clause": "independent clause (it does not subordinate anything)",
-      "pattern": "[independent clause]. With this in mind, [independent clause]. · [independent clause]; with this in mind, [independent clause]. · With that in mind, [independent clause]. · [subject] [verb] ... with this in mind.",
-      "punctuation": "Period or semicolon before it between two independent clauses, and a comma after it when it opens the clause. A comma alone in front of it is a comma splice. In the clause-final position — we wrote the policy with this in mind — it takes no punctuation at all.",
-      "variants": [
-        "with that in mind",
-        "bearing this in mind",
-        "keeping that in mind"
-      ],
       "meaning": "Points back at a goal, a fact, or a constraint just stated, and marks what follows as the step taken in view of it. It is the everyday version of to that end, and looser: to that end needs a goal in front of it, while with this in mind can point back at any consideration at all. It names no new purpose of its own, which is what separates it from every other phrase in this section.",
       "examples": [
         "The grant runs out in June. With this in mind, the director has already started raising money for next year.",
@@ -692,28 +528,20 @@
         "The committee wants a decision by Friday, and the agenda was written with that in mind.",
         "Two of the panelists have never met the applicants. With this in mind, the chair asked for written summaries in advance."
       ],
-      "related": [
-        "with the aim of",
-        "in order to",
-        "accordingly",
-        "to that end",
-        "so that"
-      ]
+      "senses": [],
+      "русский": "с учётом этого, исходя из этого — отсылает к уже сказанному, новой цели не вводит",
+      "register": "neutral to formal",
+      "type": "linking adverbial (prepositional phrase functioning as a conjunctive adverb)",
+      "clause type": "independent clause (it does not subordinate anything)",
+      "pattern": "[independent clause]. With this in mind, [independent clause]. · [independent clause]; with this in mind, [independent clause]. · With that in mind, [independent clause]. · [subject] [verb] ... with this in mind.",
+      "punctuation": "Period or semicolon before it between two independent clauses, and a comma after it when it opens the clause. A comma alone in front of it is a comma splice. In the clause-final position — we wrote the policy with this in mind — it takes no punctuation at all.",
+      "variants": "with that in mind, bearing this in mind, keeping that in mind",
+      "see also": "with the aim of, in order to, accordingly, to that end, so that"
     },
     {
       "term": "enough ... to",
       "ipa": "/ɪˈnʌf ... tu/, also /əˈnʌf/",
       "respell": "ee-NUFF ... too",
-      "type": "correlative (degree and result)",
-      "register": "neutral",
-      "clause": "non-finite result clause (to-infinitive); finite with that",
-      "pattern": "[subject] [verb] [adjective/adverb] enough to [base verb]. · [subject] [verb] enough [noun] to [base verb]. · [subject] [verb] [adjective] enough for [object] to [base verb]. · [subject] [verb] [adjective] enough that [clause]. · [subject] [verb] enough that [clause]. — bare adverb, no adjective in front of it",
-      "punctuation": "No comma anywhere inside the construction, in any of its versions.",
-      "variants": [
-        "enough ... that",
-        "enough that (bare adverb after the verb)",
-        "enough ... for ... to"
-      ],
       "meaning": "The positive counterpart of too ... to: the degree is sufficient, so the result does happen. The word-order rule is the trap, and it is absolute — enough follows an adjective or adverb (warm enough, clearly enough) but precedes a noun (enough chairs). Add for plus an object when the person doing the second verb is not the subject. The word floats across three classes, and the position tells you which one you have: adverb of degree after an adjective, determiner before a noun, and bare pronoun on its own (I've had enough).",
       "examples": [
         "The water was warm enough to swim in by the second week of June.",
@@ -724,27 +552,20 @@
         "He knows the city well enough to get around without a map.",
         "It rained enough that the field behind the school flooded again."
       ],
-      "related": [
-        "too ... to",
-        "so ... as to",
-        "so ... that",
-        "such ... that",
-        "to such an extent that"
-      ]
+      "senses": [],
+      "русский": "достаточно ..., чтобы — степени хватает, и результат наступает",
+      "register": "neutral",
+      "type": "correlative (degree and result)",
+      "clause type": "non-finite result clause (to-infinitive); finite with that",
+      "pattern": "[subject] [verb] [adjective/adverb] enough to [base verb]. · [subject] [verb] enough [noun] to [base verb]. · [subject] [verb] [adjective] enough for [object] to [base verb]. · [subject] [verb] [adjective] enough that [clause]. · [subject] [verb] enough that [clause]. — bare adverb, no adjective in front of it",
+      "punctuation": "No comma anywhere inside the construction, in any of its versions.",
+      "variants": "enough ... that, enough that (bare adverb after the verb), enough ... for ... to",
+      "see also": "too ... to, so ... as to, so ... that, such ... that, to such an extent that"
     },
     {
       "term": "so ... as to",
       "ipa": "/ˈsoʊ ... əz tə/, full /ˈsoʊ ... æz ˌtu/",
       "respell": "SOH ... az-tuh",
-      "type": "correlative (degree and result)",
-      "register": "formal",
-      "clause": "non-finite result clause (to-infinitive)",
-      "pattern": "[subject] [be] so [adjective] as to [base verb]. · [subject] [verb] so [adverb] as to [base verb]. · [subject] [be] not so [adjective] as to [base verb]. — understatement · Be so kind/good as to [base verb]. — frozen request formula",
-      "punctuation": "No comma anywhere inside the construction, in any of its versions.",
-      "variants": [
-        "such ... as to",
-        "not so ... as to"
-      ],
       "meaning": "The infinitival twin of so ... that: the degree named in the first half is high enough to produce the result named in the second, but the result arrives as an infinitive instead of a finite clause. It is a step more formal than so ... that and lives in three places — technical description (so arranged as to prevent backflow), understatement with not (not so foolish as to sign it), and the frozen courtesy would you be so kind as to. Do not confuse it with the purpose marker so as to, which has no degree word standing in front of it: He moved the ladder so as to reach the gutter states an aim, while The gutter was so high as to be unreachable states a degree and its consequence.",
       "examples": [
         "The vents sit so high as to be useless in a room this size.",
@@ -755,30 +576,20 @@
         "The margin was so small as to fall inside the polling error.",
         "The two accounts differ so sharply as to raise a question about the source."
       ],
-      "related": [
-        "so ... that",
-        "so as to",
-        "such ... that",
-        "too ... to",
-        "enough ... to"
-      ]
+      "senses": [],
+      "русский": "настолько ..., что — книжн. вариант so ... that; be so kind as to «будьте добры»",
+      "register": "formal",
+      "type": "correlative (degree and result)",
+      "clause type": "non-finite result clause (to-infinitive)",
+      "pattern": "[subject] [be] so [adjective] as to [base verb]. · [subject] [verb] so [adverb] as to [base verb]. · [subject] [be] not so [adjective] as to [base verb]. — understatement · Be so kind/good as to [base verb]. — frozen request formula",
+      "punctuation": "No comma anywhere inside the construction, in any of its versions.",
+      "variants": "such ... as to, not so ... as to",
+      "see also": "so ... that, so as to, such ... that, too ... to, enough ... to"
     },
     {
       "term": "so ... that",
       "ipa": "/ˈsoʊ ... ðæt/, reduced /ðət/",
       "respell": "SOH ... thut",
-      "type": "correlative (degree and result)",
-      "register": "neutral",
-      "clause": "adverbial clause of result",
-      "pattern": "[subject] [verb] so [adjective/adverb] that [result clause]. · [subject] [verb] so much/many/little/few [noun] that [result clause]. · So [adjective] [be] [subject] that [result clause]. — literary inversion",
-      "punctuation": "No comma before that. When that is dropped in speech and informal writing, a comma often takes its place: It was so loud, I left.",
-      "variants": [
-        "so ... (that) with that dropped",
-        "so much ... that",
-        "so many ... that",
-        "so little ... that",
-        "so few ... that"
-      ],
       "meaning": "Marks a degree high enough to produce a result. So attaches to an adjective or an adverb; the same job for a whole noun phrase belongs to such — so cold that beside such a cold night that. With a noun you have to insert a quantity word: so many applicants, not so applicants.",
       "examples": [
         "The line was so long that we gave up and ate at home.",
@@ -788,29 +599,20 @@
         "The room got so quiet that you could hear the clock in the hall.",
         "So thick was the fog that the ferries stopped running altogether."
       ],
-      "related": [
-        "such ... that",
-        "such that",
-        "so much so that",
-        "so ... as to",
-        "so that",
-        "so",
-        "too ... to",
-        "enough ... to"
-      ]
+      "senses": [],
+      "русский": "так, настолько ..., что — степень и её следствие; so при прилагательном или наречии",
+      "register": "neutral",
+      "type": "correlative (degree and result)",
+      "clause type": "adverbial clause of result",
+      "pattern": "[subject] [verb] so [adjective/adverb] that [result clause]. · [subject] [verb] so much/many/little/few [noun] that [result clause]. · So [adjective] [be] [subject] that [result clause]. — literary inversion",
+      "punctuation": "No comma before that. When that is dropped in speech and informal writing, a comma often takes its place: It was so loud, I left.",
+      "variants": "so ... (that) with that dropped, so much ... that, so many ... that, so little ... that, so few ... that",
+      "see also": "such ... that, such that, so much so that, so ... as to, so that, so, too ... to, enough ... to"
     },
     {
       "term": "such ... that",
       "ipa": "/ˈsʌtʃ ... ðæt/, reduced /ðət/",
       "respell": "SUCH ... thut",
-      "type": "correlative (degree and result)",
-      "register": "neutral to formal",
-      "clause": "adverbial clause of result",
-      "pattern": "[subject] [verb] such a/an [adjective] [singular noun] that [result clause]. · [subject] [verb] such [plural or mass noun] that [result clause]. · Such [be] [noun] that [result clause]. — formal inversion",
-      "punctuation": "No comma before that.",
-      "variants": [
-        "such a ... that with singular count nouns"
-      ],
       "meaning": "The noun-phrase counterpart of so ... that: use it when the degree word has to attach to a noun rather than to a bare adjective. Article order is where learners slip — such a good movie, never a such good movie — and note that the so version flips the article to the other side: so good a movie, which is formal but correct.",
       "examples": [
         "It was such a good movie that we watched it again the next night.",
@@ -820,25 +622,20 @@
         "Such was the noise from the street that we moved the table to the back patio.",
         "She had such a headache that she left work before noon."
       ],
-      "related": [
-        "so ... that",
-        "such that",
-        "so that"
-      ]
+      "senses": [],
+      "русский": "такой ..., что — то же, что so ... that, но при существительном",
+      "register": "neutral to formal",
+      "type": "correlative (degree and result)",
+      "clause type": "adverbial clause of result",
+      "pattern": "[subject] [verb] such a/an [adjective] [singular noun] that [result clause]. · [subject] [verb] such [plural or mass noun] that [result clause]. · Such [be] [noun] that [result clause]. — formal inversion",
+      "punctuation": "No comma before that.",
+      "variants": "such a ... that with singular count nouns",
+      "see also": "so ... that, such that, so that"
     },
     {
       "term": "too ... to",
       "ipa": "/ˈtu ... tu/, second to reduced /tə/",
       "respell": "TOO ... tuh",
-      "type": "correlative (degree and result)",
-      "register": "neutral",
-      "clause": "non-finite result clause (to-infinitive), negative in force",
-      "pattern": "[subject] [verb] too [adjective/adverb] to [base verb]. · [subject] [verb] too [adjective] for [object] to [base verb]. · [subject] [verb] too much/many [noun] to [base verb]. · [subject] [be] too [adjective] a [singular noun] to [base verb]. — article inversion",
-      "punctuation": "No comma anywhere inside the construction.",
-      "variants": [
-        "too ... for ... to",
-        "too ... a ... to"
-      ],
       "meaning": "Excess that blocks a result: too tired to think means \"so tired that I can't think.\" Two things follow from the negation being locked inside too. The infinitive stays positive — too heavy to lift, never too heavy not to lift — and the object slot at the end stays empty: The soup is too hot to drink, with no it after drink. With a singular count noun the article moves in behind the adjective, exactly as it does after so: too big a risk to take. Keep the degree word apart from the other too, the sentence adverb meaning \"also\" (I'm coming too), which never sets up a following infinitive.",
       "examples": [
         "I'm too tired to argue about this tonight.",
@@ -849,28 +646,20 @@
         "The coffee is still too hot to drink.",
         "Buying at that price was too big a risk to take on one appraisal."
       ],
-      "related": [
-        "enough ... to",
-        "so ... as to",
-        "so ... that",
-        "such ... that",
-        "to"
-      ]
+      "senses": [],
+      "русский": "слишком ..., чтобы — избыток, из-за которого действие не выходит; отрицание уже в too",
+      "register": "neutral",
+      "type": "correlative (degree and result)",
+      "clause type": "non-finite result clause (to-infinitive), negative in force",
+      "pattern": "[subject] [verb] too [adjective/adverb] to [base verb]. · [subject] [verb] too [adjective] for [object] to [base verb]. · [subject] [verb] too much/many [noun] to [base verb]. · [subject] [be] too [adjective] a [singular noun] to [base verb]. — article inversion",
+      "punctuation": "No comma anywhere inside the construction.",
+      "variants": "too ... for ... to, too ... a ... to",
+      "see also": "enough ... to, so ... as to, so ... that, such ... that, to"
     },
     {
       "term": "in such a way that",
       "ipa": "/ɪn ˈsʌtʃ ə ˈweɪ ðæt/, reduced /ɪn ˈsʌtʃ ə ˈweɪ ðət/",
       "respell": "in-SUCH-uh-WAY-thut",
-      "type": "subordinating (compound)",
-      "register": "neutral to formal",
-      "clause": "adverbial clause of manner and result",
-      "pattern": "[main clause] in such a way that [clause]. · [main clause] in such a way as to [base verb]. · [main clause] in such a manner that [clause]. — formal · [main clause] in a way that [clause]. — plainer",
-      "punctuation": "No comma before it. Never a semicolon — the clause is subordinate, not independent.",
-      "variants": [
-        "in such a manner that (formal, legal)",
-        "in such a way as to + base verb",
-        "in a way that (plainer)"
-      ],
       "meaning": "Manner and result folded into one phrase: it says how something was done and, in the same breath, what that manner brought about. It is the long form of such that, and the choice between them is register — Arrange the panels such that no two identical colors touch is technical, and in such a way that is the version that reads naturally in ordinary prose. In such a manner that is the drafting variant and belongs to specifications, codes, and contracts.",
       "examples": [
         "Stack the boxes in such a way that the labels all face the aisle.",
@@ -881,28 +670,20 @@
         "She told the story in a way that made everyone at the table the hero of one line.",
         "The bylaws were rewritten in such a way that no single member can block a vote."
       ],
-      "related": [
-        "such that",
-        "so that",
-        "so ... as to",
-        "to such an extent that",
-        "whereby"
-      ]
+      "senses": [],
+      "русский": "таким образом, что; так, чтобы — способ действия и его результат в одном обороте",
+      "register": "neutral to formal",
+      "type": "subordinating (compound)",
+      "clause type": "adverbial clause of manner and result",
+      "pattern": "[main clause] in such a way that [clause]. · [main clause] in such a way as to [base verb]. · [main clause] in such a manner that [clause]. — formal · [main clause] in a way that [clause]. — plainer",
+      "punctuation": "No comma before it. Never a semicolon — the clause is subordinate, not independent.",
+      "variants": "in such a manner that (formal, legal), in such a way as to + base verb, in a way that (plainer)",
+      "see also": "such that, so that, so ... as to, to such an extent that, whereby"
     },
     {
       "term": "it follows that",
       "ipa": "/ɪt ˈfɑloʊz ðæt/, reduced /ɪt ˈfɑloʊz ðət/",
       "respell": "it-FOL-ohz-thut",
-      "type": "matrix-clause result connector (takes a that-complement)",
-      "register": "formal, academic, legal",
-      "clause": "independent clause with a that-clause complement",
-      "pattern": "[independent clause]. It follows that [clause]. · [independent clause]; it follows that [clause]. · [independent clause], and it follows that [clause]. · From this it follows that [clause]. · It does not follow that [clause]. — the negative, which does most of the work",
-      "punctuation": "Period or semicolon before it, because it opens a full independent clause of its own — or a coordinating conjunction plus a comma, which is the ordinary way to join two independent clauses. A comma by itself is a comma splice. No comma after that, and none before it.",
-      "variants": [
-        "from this it follows that",
-        "it would follow that (hedged)",
-        "it does not follow that (negative)"
-      ],
       "meaning": "Marks what comes next as a conclusion forced by what came before. Grammatically it is not a conjunction at all — it is a dummy subject, follows is the verb, and the that-clause is that verb's complement — but it does a conjunction's work in argument, standing where therefore would stand and carrying more logical weight. Its most useful shape is the negative: it does not follow that is the standard way to reject an inference without disputing the premise it was drawn from.",
       "examples": [
         "Every witness was inside the building at nine. It follows that none of them saw the car leave.",
@@ -913,28 +694,20 @@
         "If the earlier reading is correct, it would follow that the manuscript predates the fire.",
         "From this it follows that the second experiment was measuring something else entirely."
       ],
-      "related": [
-        "therefore",
-        "thus",
-        "which means",
-        "consequently",
-        "as a corollary"
-      ]
+      "senses": [],
+      "русский": "отсюда следует, что — вывод, вынуждаемый сказанным; отриц. «отсюда не следует, что»",
+      "register": "formal, academic, legal",
+      "type": "matrix-clause result connector (takes a that-complement)",
+      "clause type": "independent clause with a that-clause complement",
+      "pattern": "[independent clause]. It follows that [clause]. · [independent clause]; it follows that [clause]. · [independent clause], and it follows that [clause]. · From this it follows that [clause]. · It does not follow that [clause]. — the negative, which does most of the work",
+      "punctuation": "Period or semicolon before it, because it opens a full independent clause of its own — or a coordinating conjunction plus a comma, which is the ordinary way to join two independent clauses. A comma by itself is a comma splice. No comma after that, and none before it.",
+      "variants": "from this it follows that, it would follow that (hedged), it does not follow that (negative)",
+      "see also": "therefore, thus, which means, consequently, as a corollary"
     },
     {
       "term": "meaning (that)",
       "ipa": "/ˈminɪŋ ðæt/, reduced /ˈminɪŋ ðət/",
       "respell": "MEE-ning-thut",
-      "type": "participial connector (supplementary -ing clause)",
-      "register": "neutral to informal",
-      "clause": "supplementary participial clause of result or restatement",
-      "pattern": "[independent clause], meaning [clause]. · [independent clause], meaning that [clause]. · [independent clause] — meaning [noun phrase]. · [noun phrase], meaning [noun phrase]. — gloss",
-      "punctuation": "A comma or a dash before it, always; never a semicolon, because what follows is a participial phrase rather than an independent clause. No comma after meaning. The that is optional and is normally dropped in speech.",
-      "variants": [
-        "which means",
-        "meaning + noun phrase (gloss)",
-        "which is to say (formal)"
-      ],
       "meaning": "Spells out the consequence, or the plain-English translation, of what was just said. It is the participial cousin of which means, and the two are close to interchangeable, with one difference of feel: which means draws a conclusion, while meaning more often restates the point in words the reader can act on. Keep the connector apart from the ordinary participle after a noun — a sign meaning \"no entry\" — which glosses a single word instead of the whole clause.",
       "examples": [
         "The office closes at four on Fridays, meaning you'll have to file the form on Monday.",
@@ -945,27 +718,20 @@
         "The deposit is nonrefundable, meaning you lose it if you cancel for any reason at all.",
         "He came in second by a tenth of a second, meaning he missed the final by one place."
       ],
-      "related": [
-        "which means",
-        "which is why",
-        "thereby",
-        "with the result that",
-        "so"
-      ]
+      "senses": [],
+      "русский": "то есть, а значит — поясняет следствие сказанного простыми словами",
+      "register": "neutral to informal",
+      "type": "participial connector (supplementary -ing clause)",
+      "clause type": "supplementary participial clause of result or restatement",
+      "pattern": "[independent clause], meaning [clause]. · [independent clause], meaning that [clause]. · [independent clause] — meaning [noun phrase]. · [noun phrase], meaning [noun phrase]. — gloss",
+      "punctuation": "A comma or a dash before it, always; never a semicolon, because what follows is a participial phrase rather than an independent clause. No comma after meaning. The that is optional and is normally dropped in speech.",
+      "variants": "which means, meaning + noun phrase (gloss), which is to say (formal)",
+      "see also": "which means, which is why, thereby, with the result that, so"
     },
     {
       "term": "only to",
       "ipa": "/ˈoʊnli tu/, reduced /ˈoʊnli tə/",
       "respell": "OHN-lee-too",
-      "type": "subordinating (infinitival result marker)",
-      "register": "neutral",
-      "clause": "non-finite clause of unexpected result",
-      "pattern": "[independent clause], only to [base verb]. · [independent clause], only to find/discover/learn [that-clause]. · [independent clause], only to have [object] [past participle]. · [independent clause], only for [subject] to [base verb].",
-      "punctuation": "Comma before only to, and here the comma is required rather than optional, because the phrase comments on the whole clause instead of naming the aim of the verb. Never a semicolon: what follows is an infinitive phrase, not an independent clause.",
-      "variants": [
-        "only for ... to (when the subjects differ)",
-        "only to have + object"
-      ],
       "meaning": "The disappointment infinitive. It has the shape of a purpose infinitive but reports the opposite: not what the subject was aiming at, but what actually happened, and what happened defeated the effort just described. He drove four hours to see the exhibit is purpose; He drove four hours, only to find it closed is result, and an unwelcome one. Switch to only for X to Y when the person let down is not the one who acted. Keep this only apart from the far commoner focusing adverb (only on Tuesdays, I only asked), which never sets up an infinitive.",
       "examples": [
         "She sprinted the length of the terminal, only to watch the plane push back from the gate.",
@@ -976,25 +742,20 @@
         "The council passed the ordinance in June, only to repeal it before it ever took effect.",
         "We drove all the way out to the orchard, only to find that it had closed for the season."
       ],
-      "related": [
-        "to",
-        "in order to",
-        "with the result that",
-        "which is why"
-      ]
+      "senses": [],
+      "русский": "и в итоге лишь..., только чтобы (обнаружить) — неожиданный и обидный исход вместо цели",
+      "register": "neutral",
+      "type": "subordinating (infinitival result marker)",
+      "clause type": "non-finite clause of unexpected result",
+      "pattern": "[independent clause], only to [base verb]. · [independent clause], only to find/discover/learn [that-clause]. · [independent clause], only to have [object] [past participle]. · [independent clause], only for [subject] to [base verb].",
+      "punctuation": "Comma before only to, and here the comma is required rather than optional, because the phrase comments on the whole clause instead of naming the aim of the verb. Never a semicolon: what follows is an infinitive phrase, not an independent clause.",
+      "variants": "only for ... to (when the subjects differ), only to have + object",
+      "see also": "to, in order to, with the result that, which is why"
     },
     {
       "term": "so much so that",
       "ipa": "/ˌsoʊ ˈmʌtʃ soʊ ðæt/, reduced /ˌsoʊ ˈmʌtʃ soʊ ðət/",
       "respell": "soh-MUCH-soh-thut",
-      "type": "correlative result connector (anaphoric so ... that)",
-      "register": "neutral to formal",
-      "clause": "adverbial clause of result, hanging on a degree already stated",
-      "pattern": "[clause containing an adjective or adverb], so much so that [result clause]. · [clause] — so much so that [result clause]. · [clause], so much so. — result left implied",
-      "punctuation": "A comma or a dash before it, always. Unlike split so ... that, it cannot sit tight against the word it measures, because it is reaching back to a degree stated in the previous clause. Never a semicolon — the clause it introduces is subordinate. No comma after it.",
-      "variants": [
-        "so much so used alone"
-      ],
       "meaning": "The pro-form of so ... that. Split so ... that wraps around the degree word (so spicy that I couldn't finish it); so much so that leaves the degree word where it stands in the first clause and then points back at it (It was spicy, so much so that I couldn't finish it). The middle so is doing pro-form duty — it stands in for whatever adjective just appeared — which is why the phrase looks like a stutter and is not one. Reach for it when the adjective sits too far back for the split construction to reach, or when the result deserves its own beat.",
       "examples": [
         "The room was cold, so much so that we could see our breath.",
@@ -1005,24 +766,20 @@
         "The trail is popular now, so much so that the lot fills by seven on Saturdays.",
         "\"Is the neighborhood really that expensive?\" \"So much so.\""
       ],
-      "related": [
-        "so ... that",
-        "such ... that",
-        "to the point that",
-        "such that",
-        "with the result that"
-      ]
+      "senses": [],
+      "русский": "настолько, что — отсылает назад к степени, названной в предыдущей части фразы",
+      "register": "neutral to formal",
+      "type": "correlative result connector (anaphoric so ... that)",
+      "clause type": "adverbial clause of result, hanging on a degree already stated",
+      "pattern": "[clause containing an adjective or adverb], so much so that [result clause]. · [clause] — so much so that [result clause]. · [clause], so much so. — result left implied",
+      "punctuation": "A comma or a dash before it, always. Unlike split so ... that, it cannot sit tight against the word it measures, because it is reaching back to a degree stated in the previous clause. Never a semicolon — the clause it introduces is subordinate. No comma after it.",
+      "variants": "so much so used alone",
+      "see also": "so ... that, such ... that, to the point that, such that, with the result that"
     },
     {
       "term": "such that",
       "ipa": "/ˈsʌtʃ ðæt/, reduced /ˈsʌtʃ ðət/",
       "respell": "SUCH-thut",
-      "type": "subordinating (compound)",
-      "register": "formal, technical",
-      "clause": "adverbial clause of result, or a specification clause after a noun",
-      "pattern": "[main clause] such that [clause]. · [noun phrase] such that [clause]. — mathematical specification",
-      "punctuation": "No comma before such that in either use.",
-      "variants": [],
       "meaning": "Two jobs in one phrase. In ordinary prose it reports result: the state of affairs was of a kind that produced what follows. In mathematics, logic, and technical writing it states the condition an object has to satisfy — a number x such that x squared is four. Keep it distinct from split such ... that, where such modifies a noun earlier in the sentence and that comes later.",
       "examples": [
         "Arrange the panels such that no two identical colors touch.",
@@ -1032,28 +789,19 @@
         "The wording was changed such that both readings are now defensible.",
         "Set the timer such that the pump runs an hour before sunrise."
       ],
-      "related": [
-        "such ... that",
-        "so that",
-        "in such a way that",
-        "with the result that",
-        "whereby"
-      ]
+      "senses": [],
+      "русский": "такой, что; так, чтобы — книжн., тех.; в математике «такой, что» при задании условия",
+      "register": "formal, technical",
+      "type": "subordinating (compound)",
+      "clause type": "adverbial clause of result, or a specification clause after a noun",
+      "pattern": "[main clause] such that [clause]. · [noun phrase] such that [clause]. — mathematical specification",
+      "punctuation": "No comma before such that in either use.",
+      "see also": "such ... that, so that, in such a way that, with the result that, whereby"
     },
     {
       "term": "to such an extent that",
       "ipa": "/tə ˈsʌtʃ ən ɪkˈstɛnt ðæt/, reduced /tə ˈsʌtʃ ən ɪkˈstɛnt ðət/",
       "respell": "tuh-such-un-ick-STENT-thut",
-      "type": "subordinating (compound)",
-      "register": "formal",
-      "clause": "adverbial clause of result at a degree",
-      "pattern": "[main clause] to such an extent that [clause]. · [main clause] to such a degree that [clause]. · [main clause], to such an extent that [clause]. · To such an extent [auxiliary] [subject] [verb] that [clause]. — literary inversion",
-      "punctuation": "Usually no comma. Writers add one when the result reads as a separate escalation rather than as part of the same measurement, exactly as with to the point that. Never a semicolon — the clause is subordinate.",
-      "variants": [
-        "to such a degree that",
-        "to such a point that",
-        "to the extent that (which states a condition, not a result)"
-      ],
       "meaning": "The formal member of the so ... that family. Where so ... that wraps around a single adjective and to the point that names a threshold that was crossed, to such an extent that measures the whole action, which is why it belongs to reports and academic prose. Do not swap in to the extent that: dropping such changes the meaning completely, because that phrase means \"insofar as\" and states a condition rather than an outcome.",
       "examples": [
         "The river silted up to such an extent that barges could no longer reach the mill.",
@@ -1064,27 +812,20 @@
         "The species has recovered to such an extent that it came off the protected list last spring.",
         "The two dialects have diverged to such an extent that speakers now watch each other's films with subtitles."
       ],
-      "related": [
-        "to the point that",
-        "so ... that",
-        "so much so that",
-        "such that",
-        "in such a way that"
-      ]
+      "senses": [],
+      "русский": "до такой степени, что — книжн.; не путать с to the extent that «постольку, поскольку»",
+      "register": "formal",
+      "type": "subordinating (compound)",
+      "clause type": "adverbial clause of result at a degree",
+      "pattern": "[main clause] to such an extent that [clause]. · [main clause] to such a degree that [clause]. · [main clause], to such an extent that [clause]. · To such an extent [auxiliary] [subject] [verb] that [clause]. — literary inversion",
+      "punctuation": "Usually no comma. Writers add one when the result reads as a separate escalation rather than as part of the same measurement, exactly as with to the point that. Never a semicolon — the clause is subordinate.",
+      "variants": "to such a degree that, to such a point that, to the extent that (which states a condition, not a result)",
+      "see also": "to the point that, so ... that, so much so that, such that, in such a way that"
     },
     {
       "term": "to the point that",
       "ipa": "/tə ðə ˈpɔɪnt ðæt/, reduced /tə ðə ˈpɔɪnt ðət/",
       "respell": "tuh-thuh-POYNT-thut",
-      "type": "subordinating (compound)",
-      "register": "neutral",
-      "clause": "adverbial clause of result at a threshold",
-      "pattern": "[main clause] to the point that [clause]. · [main clause] to the point where [clause]. · [main clause] to the point of [gerund/noun].",
-      "punctuation": "Usually no comma. Writers add one when the clause reads as a separate escalation: It rained all week, to the point that the field flooded.",
-      "variants": [
-        "to the point where",
-        "to the point of + gerund or noun"
-      ],
       "meaning": "Names a threshold the situation crossed, so the result comes across as an extreme rather than a simple consequence. It overlaps with so ... that but attaches to the whole clause instead of to a single adjective, which makes it the natural choice when the escalation is gradual. To the point where is the more conversational of the two.",
       "examples": [
         "The noise went on to the point that neighbors started calling the police.",
@@ -1094,26 +835,20 @@
         "The software slowed down to the point where it was faster to do it by hand.",
         "They rehearsed to the point that nobody needed a script."
       ],
-      "related": [
-        "so ... that",
-        "such that",
-        "so much so that",
-        "to such an extent that",
-        "with the result that"
-      ]
+      "senses": [],
+      "русский": "до того, что; до такой степени, что — порог, который ситуация перешла",
+      "register": "neutral",
+      "type": "subordinating (compound)",
+      "clause type": "adverbial clause of result at a threshold",
+      "pattern": "[main clause] to the point that [clause]. · [main clause] to the point where [clause]. · [main clause] to the point of [gerund/noun].",
+      "punctuation": "Usually no comma. Writers add one when the clause reads as a separate escalation: It rained all week, to the point that the field flooded.",
+      "variants": "to the point where, to the point of + gerund or noun",
+      "see also": "so ... that, such that, so much so that, to such an extent that, with the result that"
     },
     {
       "term": "whereby",
       "ipa": "/wɛrˈbaɪ/",
       "respell": "wair-BY",
-      "type": "relative adverb (subordinating)",
-      "register": "formal, legal",
-      "clause": "relative clause of means or result",
-      "pattern": "[noun naming a mechanism: agreement, rule, system, process, plan] whereby [clause]. — defining, no comma · [fully identified noun], whereby [clause]. — supplementary, comma · [main clause] under/by [determiner] [noun naming a mechanism] whereby [clause]. — the prepositional frame it most often sits in",
-      "punctuation": "No comma before whereby when the clause defines the noun, which is the normal case. Use a comma only when the clause is a supplementary aside about a noun already fully identified: the 1997 settlement, whereby the state took over the fund. Never a semicolon, and it can never open a sentence.",
-      "variants": [
-        "by which is the plainer equivalent; by means of which is the full form the word compresses; by means of + noun is the bare preposition behind both and joins no clauses at all"
-      ],
       "meaning": "Means \"by means of which\" or \"as a result of which,\" and it always hangs on a preceding noun that names a mechanism — a deal, a policy, a scheme, a process. It cannot modify a whole clause and it cannot open a sentence, which is what separates it from a general result connector. If you cannot name the mechanism noun, write by which or recast the sentence.",
       "examples": [
         "They reached an agreement whereby the city would maintain the trail.",
@@ -1124,26 +859,20 @@
         "He described a scheme whereby the same votes would be counted twice.",
         "The 1997 consent decree, whereby the state took over the fund, expires next year."
       ],
-      "related": [
-        "such that",
-        "thereby",
-        "with the result that",
-        "to the end that"
-      ]
+      "senses": [],
+      "русский": "посредством чего, согласно которому — книжн., юр.; всегда при существительном-механизме",
+      "register": "formal, legal",
+      "type": "relative adverb (subordinating)",
+      "clause type": "relative clause of means or result",
+      "pattern": "[noun naming a mechanism: agreement, rule, system, process, plan] whereby [clause]. — defining, no comma · [fully identified noun], whereby [clause]. — supplementary, comma · [main clause] under/by [determiner] [noun naming a mechanism] whereby [clause]. — the prepositional frame it most often sits in",
+      "punctuation": "No comma before whereby when the clause defines the noun, which is the normal case. Use a comma only when the clause is a supplementary aside about a noun already fully identified: the 1997 settlement, whereby the state took over the fund. Never a semicolon, and it can never open a sentence.",
+      "variants": "by which is the plainer equivalent; by means of which is the full form the word compresses; by means of + noun is the bare preposition behind both and joins no clauses at all",
+      "see also": "such that, thereby, with the result that, to the end that"
     },
     {
       "term": "which is why",
       "ipa": "/wɪtʃ ɪz ˈwaɪ/",
       "respell": "which-iz-WHY",
-      "type": "relative (sentential), used as a result connector",
-      "register": "neutral",
-      "clause": "sentential relative clause of result",
-      "pattern": "[independent clause], which is why [clause]. · [independent clause], which is how [clause]. · [independent clause], which is the reason [clause]. · [independent clause] — which is why [clause].",
-      "punctuation": "Always a comma before it, never a semicolon and never nothing. It is a supplementary relative clause, so the comma is both required and sufficient — the opposite of the rule for therefore.",
-      "variants": [
-        "which is how",
-        "which is the reason"
-      ],
       "meaning": "Reaches back and treats the entire preceding clause as the reason for what comes next. In meaning it works like therefore; in grammar it is a relative clause, which is why it is punctuated with a comma rather than the semicolon a conjunctive adverb would demand. It is also the most conversational result connector in this file.",
       "examples": [
         "The bridge was closed all morning, which is why everybody showed up late.",
@@ -1154,29 +883,20 @@
         "They cut the budget back in March, which is why there is no summer program.",
         "Nobody signed off on the change, which is the reason it never made it into the release notes."
       ],
-      "related": [
-        "which means",
-        "therefore",
-        "consequently",
-        "as a result",
-        "only to",
-        "so"
-      ]
+      "senses": [],
+      "русский": "поэтому, вот почему — относит. оборот: всё сказанное перед ним — причина",
+      "register": "neutral",
+      "type": "relative (sentential), used as a result connector",
+      "clause type": "sentential relative clause of result",
+      "pattern": "[independent clause], which is why [clause]. · [independent clause], which is how [clause]. · [independent clause], which is the reason [clause]. · [independent clause] — which is why [clause].",
+      "punctuation": "Always a comma before it, never a semicolon and never nothing. It is a supplementary relative clause, so the comma is both required and sufficient — the opposite of the rule for therefore.",
+      "variants": "which is how, which is the reason",
+      "see also": "which means, therefore, consequently, as a result, only to, so"
     },
     {
       "term": "which means",
       "ipa": "/wɪtʃ ˈminz/",
       "respell": "which-MEENZ",
-      "type": "relative (sentential), used as a result connector",
-      "register": "neutral",
-      "clause": "sentential relative clause of inference or consequence",
-      "pattern": "[independent clause], which means [clause]. · [independent clause], which means that [clause]. · [independent clause] — which means [noun phrase]. · [independent clause], which would mean [clause]. — hypothetical",
-      "punctuation": "Always a comma or a dash before it, never a semicolon and never nothing. It is a supplementary relative clause, so the comma is both required and sufficient. The that after it is optional and is usually dropped in speech.",
-      "variants": [
-        "which means that",
-        "which would mean",
-        "meaning (that)"
-      ],
       "meaning": "Reaches back, treats the whole preceding clause as a premise, and states what follows from it. It is the conversational therefore. Its neighbor which is why looks almost identical and runs the other direction: which is why says the first clause caused the second, while which means says the first clause proves the second.",
       "examples": [
         "The last bus leaves at ten, which means we should order now.",
@@ -1187,27 +907,20 @@
         "The battery is original, which means it holds about half the charge it used to.",
         "Two inspectors are out sick — which means nothing ships before Thursday."
       ],
-      "related": [
-        "which is why",
-        "meaning (that)",
-        "it follows that",
-        "therefore",
-        "so"
-      ]
+      "senses": [],
+      "русский": "а значит, из чего следует — разговорный аналог therefore: вывод, а не причина",
+      "register": "neutral",
+      "type": "relative (sentential), used as a result connector",
+      "clause type": "sentential relative clause of inference or consequence",
+      "pattern": "[independent clause], which means [clause]. · [independent clause], which means that [clause]. · [independent clause] — which means [noun phrase]. · [independent clause], which would mean [clause]. — hypothetical",
+      "punctuation": "Always a comma or a dash before it, never a semicolon and never nothing. It is a supplementary relative clause, so the comma is both required and sufficient. The that after it is optional and is usually dropped in speech.",
+      "variants": "which means that, which would mean, meaning (that)",
+      "see also": "which is why, meaning (that), it follows that, therefore, so"
     },
     {
       "term": "with the result that",
       "ipa": "/wɪð ðə rɪˈzʌlt ðæt/, reduced /wɪð ðə rɪˈzʌlt ðət/",
       "respell": "with-thuh-rih-ZULT-thut",
-      "type": "subordinating (compound)",
-      "register": "formal",
-      "clause": "adverbial clause of result",
-      "pattern": "[independent clause], with the result that [clause]. · [independent clause], with the effect that [clause].",
-      "punctuation": "Comma before it. Never a semicolon: the clause is subordinate, so it cannot take the punctuation that therefore and consequently require.",
-      "variants": [
-        "with the consequence that",
-        "with the effect that"
-      ],
       "meaning": "Labels what followed, in so many words. It belongs to reports, academic writing, and legal prose; in speech Americans say so. Unlike so that, it can never be read as purpose — it states an outcome and nothing else, which makes it useful precisely where so that would be ambiguous.",
       "examples": [
         "The vendor missed two deadlines, with the result that the launch slipped to fall.",
@@ -1217,24 +930,20 @@
         "Interest rates rose sharply, with the effect that refinancing dried up overnight.",
         "The rule was never enforced, with the consequence that everyone ignored it."
       ],
-      "related": [
-        "so that",
-        "such that",
-        "therefore",
-        "consequently",
-        "as a result"
-      ]
+      "senses": [],
+      "русский": "в результате чего, так что — книжн.: называет только исход, целью прочитан быть не может",
+      "register": "formal",
+      "type": "subordinating (compound)",
+      "clause type": "adverbial clause of result",
+      "pattern": "[independent clause], with the result that [clause]. · [independent clause], with the effect that [clause].",
+      "punctuation": "Comma before it. Never a semicolon: the clause is subordinate, so it cannot take the punctuation that therefore and consequently require.",
+      "variants": "with the consequence that, with the effect that",
+      "see also": "so that, such that, therefore, consequently, as a result"
     },
     {
       "term": "accordingly",
       "ipa": "/əˈkɔrdɪŋli/",
       "respell": "uh-KOR-ding-lee",
-      "type": "conjunctive adverb",
-      "register": "formal",
-      "clause": "independent clause (it does not subordinate anything)",
-      "pattern": "[independent clause]; accordingly, [independent clause]. · [independent clause]. Accordingly, [independent clause]. · [subject], accordingly, [verb] ... · [subject] [verb] accordingly. — manner sense",
-      "punctuation": "Semicolon or period before it when it joins two independent clauses, and a comma after it. A comma alone in front of it is a comma splice. In the clause-final manner use (planned accordingly) it takes no punctuation at all.",
-      "variants": [],
       "meaning": "\"And so, in keeping with that.\" It is the most agentive of the result adverbs: therefore draws a conclusion, while accordingly says somebody took action in response. It also keeps a plain manner sense at the end of a clause, where it simply means \"in the way just described.\"",
       "examples": [
         "The forecast called for freezing rain; accordingly, the district canceled classes.",
@@ -1244,28 +953,19 @@
         "The deadline moved up two weeks; the team, accordingly, dropped two features.",
         "Accordingly, the motion is denied."
       ],
-      "related": [
-        "therefore",
-        "consequently",
-        "thus",
-        "hence",
-        "as a result"
-      ]
+      "senses": [],
+      "русский": "соответственно, и поэтому — книжн.: в ответ на сказанное были приняты меры",
+      "register": "formal",
+      "type": "conjunctive adverb",
+      "clause type": "independent clause (it does not subordinate anything)",
+      "pattern": "[independent clause]; accordingly, [independent clause]. · [independent clause]. Accordingly, [independent clause]. · [subject], accordingly, [verb] ... · [subject] [verb] accordingly. — manner sense",
+      "punctuation": "Semicolon or period before it when it joins two independent clauses, and a comma after it. A comma alone in front of it is a comma splice. In the clause-final manner use (planned accordingly) it takes no punctuation at all.",
+      "see also": "therefore, consequently, thus, hence, as a result"
     },
     {
       "term": "as a corollary",
       "ipa": "/æz ə ˈkɔrəˌlɛri/, reduced /əz ə ˈkɔrəˌlɛri/",
       "respell": "az-uh-KOR-uh-lair-ee",
-      "type": "conjunctive adverb (prepositional phrase functioning as one)",
-      "register": "formal, academic",
-      "clause": "independent clause",
-      "pattern": "[independent clause]; as a corollary, [independent clause]. · [independent clause]. As a corollary, [independent clause]. · As a corollary of [noun], [independent clause]. · [subject] [verb], as a corollary, [complement].",
-      "punctuation": "Semicolon or period before it between two independent clauses, and a comma after it when it opens the clause. A comma alone in front of it is a comma splice. As a corollary of plus a noun is an ordinary prepositional phrase and follows the ordinary comma rules for one.",
-      "variants": [
-        "as a corollary of/to + noun",
-        "a corollary of that is",
-        "correspondingly (looser)"
-      ],
       "meaning": "Marks the next statement as a secondary consequence — something that falls out of the first result rather than being the point of it. That makes it narrower than consequently: a corollary is an extra that comes with a proof or a policy whether anyone wanted it or not, which is why the phrase is at home in mathematics, philosophy, and analytical writing and sounds stiff anywhere else.",
       "examples": [
         "The theorem fixes the maximum at four; as a corollary, no five-color map can be minimal.",
@@ -1275,27 +975,20 @@
         "The team drafted for defense and, as a corollary, scored fewer points for two straight seasons.",
         "Every share is now held electronically; as a corollary, the transfer agent's paper vault stands empty."
       ],
-      "related": [
-        "consequently",
-        "therefore",
-        "thus",
-        "accordingly",
-        "it follows that"
-      ]
+      "senses": [],
+      "русский": "как следствие, в качестве побочного вывода — книжн., науч.: попутное, не главное следствие",
+      "register": "formal, academic",
+      "type": "conjunctive adverb (prepositional phrase functioning as one)",
+      "clause type": "independent clause",
+      "pattern": "[independent clause]; as a corollary, [independent clause]. · [independent clause]. As a corollary, [independent clause]. · As a corollary of [noun], [independent clause]. · [subject] [verb], as a corollary, [complement].",
+      "punctuation": "Semicolon or period before it between two independent clauses, and a comma after it when it opens the clause. A comma alone in front of it is a comma splice. As a corollary of plus a noun is an ordinary prepositional phrase and follows the ordinary comma rules for one.",
+      "variants": "as a corollary of/to + noun, a corollary of that is, correspondingly (looser)",
+      "see also": "consequently, therefore, thus, accordingly, it follows that"
     },
     {
       "term": "as a result",
       "ipa": "/æz ə rɪˈzʌlt/, reduced /əz ə rɪˈzʌlt/",
       "respell": "az-uh-rih-ZULT",
-      "type": "conjunctive adverb (prepositional phrase functioning as one)",
-      "register": "neutral",
-      "clause": "independent clause",
-      "pattern": "[independent clause]; as a result, [independent clause]. · [independent clause]. As a result, [independent clause]. · [subject] [verb] ... as a result. · As a result of [noun], [independent clause].",
-      "punctuation": "Semicolon or period before it between two independent clauses, and a comma after it when it opens a clause. A comma alone before it is a comma splice. Clause-final as a result usually takes no comma, and as a result of plus a noun is a preposition that follows the ordinary comma rules for a phrase.",
-      "variants": [
-        "as a consequence",
-        "as a result of + noun (prepositional)"
-      ],
       "meaning": "The plainest of the result connectives and the only one that sounds natural in email and speech, where thus and hence would sound stiff. Watch the two shapes: as a result connects clauses, while as a result of takes a noun phrase and cannot introduce a clause.",
       "examples": [
         "The supplier raised prices twice; as a result, we changed vendors.",
@@ -1305,26 +998,20 @@
         "The bridge reopened early; as a consequence, downtown traffic eased by Friday.",
         "As a result, nobody trusted the numbers in the second report."
       ],
-      "related": [
-        "consequently",
-        "therefore",
-        "thus",
-        "accordingly",
-        "with the result that"
-      ]
+      "senses": [],
+      "русский": "в результате, поэтому — самый нейтральный из результативных оборотов, годится и в речи",
+      "register": "neutral",
+      "type": "conjunctive adverb (prepositional phrase functioning as one)",
+      "clause type": "independent clause",
+      "pattern": "[independent clause]; as a result, [independent clause]. · [independent clause]. As a result, [independent clause]. · [subject] [verb] ... as a result. · As a result of [noun], [independent clause].",
+      "punctuation": "Semicolon or period before it between two independent clauses, and a comma after it when it opens a clause. A comma alone before it is a comma splice. Clause-final as a result usually takes no comma, and as a result of plus a noun is a preposition that follows the ordinary comma rules for a phrase.",
+      "variants": "as a consequence, as a result of + noun (prepositional)",
+      "see also": "consequently, therefore, thus, accordingly, with the result that"
     },
     {
       "term": "consequently",
       "ipa": "/ˈkɑnsəkwɛntli/, /ˈkɑnsəkwəntli/",
       "respell": "KON-suh-kwent-lee",
-      "type": "conjunctive adverb",
-      "register": "formal",
-      "clause": "independent clause",
-      "pattern": "[independent clause]; consequently, [independent clause]. · [independent clause]. Consequently, [independent clause]. · [subject] and, consequently, [verb] ... · [subject] [auxiliary] consequently [verb] ...",
-      "punctuation": "Semicolon or period before it between two independent clauses, and a comma after it when it opens the clause. Joining two independent clauses with a comma plus consequently is a comma splice.",
-      "variants": [
-        "in consequence (formal, dated)"
-      ],
       "meaning": "Marks the second clause as the effect of the first. It is interchangeable with therefore in most sentences, with a slight difference of flavor: therefore leans logical, drawing a conclusion, while consequently leans causal, reporting a real-world effect.",
       "examples": [
         "The samples were contaminated; consequently, the study was withdrawn.",
@@ -1334,24 +1021,20 @@
         "Consequently, the committee recommends no change to the policy.",
         "Funding was cut in March; consequently, the clinic reduced its hours."
       ],
-      "related": [
-        "therefore",
-        "thus",
-        "hence",
-        "accordingly",
-        "as a result"
-      ]
+      "senses": [],
+      "русский": "следовательно, вследствие этого — книжн.: реальное последствие, а не логический вывод",
+      "register": "formal",
+      "type": "conjunctive adverb",
+      "clause type": "independent clause",
+      "pattern": "[independent clause]; consequently, [independent clause]. · [independent clause]. Consequently, [independent clause]. · [subject] and, consequently, [verb] ... · [subject] [auxiliary] consequently [verb] ...",
+      "punctuation": "Semicolon or period before it between two independent clauses, and a comma after it when it opens the clause. Joining two independent clauses with a comma plus consequently is a comma splice.",
+      "variants": "in consequence (formal, dated)",
+      "see also": "therefore, thus, hence, accordingly, as a result"
     },
     {
       "term": "hence",
       "ipa": "/hɛns/",
       "respell": "HENSS",
-      "type": "conjunctive adverb",
-      "register": "formal, literary",
-      "clause": "independent clause; also used with no verb before a noun phrase",
-      "pattern": "[independent clause]; hence, [independent clause]. · [independent clause]. Hence, [independent clause]. · [independent clause], hence [noun phrase]. — verbless · [independent clause] — hence [noun phrase].",
-      "punctuation": "Semicolon or period before it when a full clause follows, and the comma after it is optional. In the verbless pattern (hence the delay) a comma or a dash is enough, because what follows is not an independent clause and so needs no semicolon.",
-      "variants": [],
       "meaning": "\"For that reason, from this.\" Drier and more compressed than therefore, and its signature move is the verbless tag: The printer jammed twice, hence the delay. Do not confuse the result adverb with the time adverb spelled the same way, as in two weeks hence, which means \"from now.\" From hence is redundant in both senses.",
       "examples": [
         "The data was collected by volunteers; hence, some inconsistency is expected.",
@@ -1362,28 +1045,19 @@
         "Sample sizes were small, hence the wide confidence intervals.",
         "The original files were lost in the move. Hence, the timeline had to be rebuilt from old emails."
       ],
-      "related": [
-        "thus",
-        "thereby",
-        "therefore",
-        "consequently",
-        "accordingly"
-      ]
+      "senses": [],
+      "русский": "отсюда, потому и — книжн.; часто без глагола: hence the delay «отсюда и задержка»",
+      "register": "formal, literary",
+      "type": "conjunctive adverb",
+      "clause type": "independent clause; also used with no verb before a noun phrase",
+      "pattern": "[independent clause]; hence, [independent clause]. · [independent clause]. Hence, [independent clause]. · [independent clause], hence [noun phrase]. — verbless · [independent clause] — hence [noun phrase].",
+      "punctuation": "Semicolon or period before it when a full clause follows, and the comma after it is optional. In the verbless pattern (hence the delay) a comma or a dash is enough, because what follows is not an independent clause and so needs no semicolon.",
+      "see also": "thus, thereby, therefore, consequently, accordingly"
     },
     {
       "term": "so then",
       "ipa": "/soʊ ˈðɛn/",
       "respell": "soh-THEN",
-      "type": "conjunctive adverb (discourse marker of inference and sequence)",
-      "register": "informal, spoken",
-      "clause": "independent clause",
-      "pattern": "[independent clause]. So then, [independent clause]. · [independent clause]. So then [independent clause]. — narrative, no comma · So then, [question]? — checking an inference · [independent clause]; so then [independent clause].",
-      "punctuation": "Period or semicolon before it when it opens a new sentence. A comma in front of it is defensible only because the so inside it can serve as a coordinating conjunction; with the inferential reading, treat it like therefore and use the stronger stop. The comma after it is optional and is usually dropped in narrative.",
-      "variants": [
-        "and then (pure sequence)",
-        "so anyway (resuming a story)",
-        "bare so (the plain result conjunction)"
-      ],
       "meaning": "Two jobs, told apart by intonation. In narrative it simply moves the story forward — So then she gets up and walks out — where it is barely more than a sequencing filler. In argument it draws an inference out of what the other person just said, very often as a question: So then you're saying it was my fault? Writers who want the inferential reading on the page often put a comma inside the phrase and print it so, then. Both uses belong to speech; in edited prose, use therefore, so, or next.",
       "examples": [
         "The car wouldn't start. So then we called a cab and missed the first act anyway.",
@@ -1393,27 +1067,20 @@
         "So then the whole row of us had to stand up so she could get past.",
         "So then, where does that leave the Friday deadline?"
       ],
-      "related": [
-        "so",
-        "therefore",
-        "accordingly",
-        "that way / this way",
-        "thus"
-      ]
+      "senses": [],
+      "русский": "и вот тогда; так что же — разг.: в рассказе последовательность, в споре вывод-вопрос",
+      "register": "informal, spoken",
+      "type": "conjunctive adverb (discourse marker of inference and sequence)",
+      "clause type": "independent clause",
+      "pattern": "[independent clause]. So then, [independent clause]. · [independent clause]. So then [independent clause]. — narrative, no comma · So then, [question]? — checking an inference · [independent clause]; so then [independent clause].",
+      "punctuation": "Period or semicolon before it when it opens a new sentence. A comma in front of it is defensible only because the so inside it can serve as a coordinating conjunction; with the inferential reading, treat it like therefore and use the stronger stop. The comma after it is optional and is usually dropped in narrative.",
+      "variants": "and then (pure sequence), so anyway (resuming a story), bare so (the plain result conjunction)",
+      "see also": "so, therefore, accordingly, that way / this way, thus"
     },
     {
       "term": "that way / this way",
       "ipa": "/ˈðæt ˌweɪ/, /ˈðɪs ˌweɪ/",
       "respell": "THAT-way, THISS-way",
-      "type": "conjunctive adverb (noun phrase functioning as one)",
-      "register": "informal to neutral",
-      "clause": "independent clause",
-      "pattern": "[independent clause]. That way, [independent clause]. · [independent clause]; that way, [independent clause]. · [imperative]. That way [independent clause]. · This way, [independent clause]. — pointing at a plan being proposed now",
-      "punctuation": "Period or semicolon before it between two independent clauses, and a comma after it in careful writing, though speech and casual prose drop that comma routinely. A comma alone in front of it is a comma splice, the same error as with therefore.",
-      "variants": [
-        "this way",
-        "that way you (fixed conversational opener)"
-      ],
       "meaning": "The spoken American answer to so that. It points back at the action just proposed and names the benefit that action buys: Write it on the calendar. That way you won't forget is Write it on the calendar so that you won't forget, split across two sentences. That way points at something already said, while this way points at what the speaker is proposing at that moment. Two lookalikes are not connectives at all — the manner phrase (hold the bracket that way) and the direction adverb (the restrooms are that way) — and neither one links a pair of clauses.",
       "examples": [
         "Park behind the building. That way you won't have to feed the meter.",
@@ -1424,27 +1091,20 @@
         "We could meet at the bakery instead — this way nobody has to drive downtown.",
         "Label the cables before you unplug anything. That way you'll know what goes back where."
       ],
-      "related": [
-        "so that",
-        "so",
-        "so then",
-        "accordingly",
-        "to that end"
-      ]
+      "senses": [],
+      "русский": "тогда, так — разг.: «сделай так — тогда не забудешь»; устная замена so that",
+      "register": "informal to neutral",
+      "type": "conjunctive adverb (noun phrase functioning as one)",
+      "clause type": "independent clause",
+      "pattern": "[independent clause]. That way, [independent clause]. · [independent clause]; that way, [independent clause]. · [imperative]. That way [independent clause]. · This way, [independent clause]. — pointing at a plan being proposed now",
+      "punctuation": "Period or semicolon before it between two independent clauses, and a comma after it in careful writing, though speech and casual prose drop that comma routinely. A comma alone in front of it is a comma splice, the same error as with therefore.",
+      "variants": "this way, that way you (fixed conversational opener)",
+      "see also": "so that, so, so then, accordingly, to that end"
     },
     {
       "term": "thereby",
       "ipa": "/ðɛrˈbaɪ/, also /ˈðɛrbaɪ/",
       "respell": "thair-BY",
-      "type": "conjunctive adverb (result by means of what was just said)",
-      "register": "formal",
-      "clause": "heads an -ing participial phrase; rarely a full independent clause",
-      "pattern": "[independent clause], thereby [-ing participle phrase]. · [subject] [verb] and thereby [verb] ... · [subject] [auxiliary] thereby [verb] ... · [independent clause]; thereby, [independent clause]. — rare",
-      "punctuation": "A plain comma before it in the ordinary participial pattern, because what follows is a phrase and not an independent clause — The city rezoned the block, thereby allowing apartments must not take a semicolon. In the rare case where a full independent clause does follow, the semicolon-or-period rule that governs therefore and consequently applies, and a comma alone would be a comma splice. No comma after it in any pattern.",
-      "variants": [
-        "hereby (performative, not result)",
-        "whereby (hangs on a noun)"
-      ],
       "meaning": "\"By that means, and as a result of it.\" It is the adverb to whereby's relative: whereby has to hang on a noun that names a mechanism, while thereby points back at the whole preceding clause. Nearly all its modern life is spent in front of an -ing form, which is why the comma, not the semicolon, is its normal punctuation — writers who reach for it after a semicolon usually want thus or therefore instead. It also survives in the frozen idiom thereby hangs a tale, where it means \"in connection with that.\"",
       "examples": [
         "The company retired its two oldest plants, thereby cutting emissions by nearly a fifth.",
@@ -1454,26 +1114,20 @@
         "Blanch the greens first, thereby holding the color through a long braise.",
         "The update caches the font locally and thereby removes one round trip from every page load."
       ],
-      "related": [
-        "whereby",
-        "thus",
-        "hence",
-        "therefore",
-        "as a result"
-      ]
+      "senses": [],
+      "русский": "тем самым — книжн., обычно перед оборотом с -ing, а не перед целым предложением",
+      "register": "formal",
+      "type": "conjunctive adverb (result by means of what was just said)",
+      "clause type": "heads an -ing participial phrase; rarely a full independent clause",
+      "pattern": "[independent clause], thereby [-ing participle phrase]. · [subject] [verb] and thereby [verb] ... · [subject] [auxiliary] thereby [verb] ... · [independent clause]; thereby, [independent clause]. — rare",
+      "punctuation": "A plain comma before it in the ordinary participial pattern, because what follows is a phrase and not an independent clause — The city rezoned the block, thereby allowing apartments must not take a semicolon. In the rare case where a full independent clause does follow, the semicolon-or-period rule that governs therefore and consequently applies, and a comma alone would be a comma splice. No comma after it in any pattern.",
+      "variants": "hereby (performative, not result), whereby (hangs on a noun)",
+      "see also": "whereby, thus, hence, therefore, as a result"
     },
     {
       "term": "therefore",
       "ipa": "/ˈðɛrˌfɔr/",
       "respell": "THAIR-for",
-      "type": "conjunctive adverb",
-      "register": "formal",
-      "clause": "independent clause",
-      "pattern": "[independent clause]; therefore, [independent clause]. · [independent clause]. Therefore, [independent clause]. · [subject] [auxiliary] therefore [verb] ... · [subject] [verb], therefore, [complement].",
-      "punctuation": "Semicolon or period before it when it links two independent clauses, and a comma after it at the head of a clause. Mid-clause it takes a comma on each side or none at all, consistently. It rained, therefore we canceled is a comma splice; write It rained; therefore, we canceled.",
-      "variants": [
-        "ergo (jocular or strictly logical)"
-      ],
       "meaning": "Draws a conclusion from what came before, and is strongest in argument, proof, and formal decisions. It is not a coordinating conjunction, and treating it as one is the single most common punctuation error in American student writing. In speech, people simply say so.",
       "examples": [
         "The signature was forged; therefore, the contract is void.",
@@ -1483,28 +1137,20 @@
         "Therefore, we recommend rejecting the bid in its current form.",
         "Costs rose while revenue stayed flat; therefore, margins narrowed."
       ],
-      "related": [
-        "thus",
-        "hence",
-        "thereby",
-        "consequently",
-        "accordingly",
-        "as a result",
-        "so (coordinating)"
-      ]
+      "senses": [],
+      "русский": "поэтому, следовательно — книжн.: вывод; не союз, перед ним нужна точка с запятой",
+      "register": "formal",
+      "type": "conjunctive adverb",
+      "clause type": "independent clause",
+      "pattern": "[independent clause]; therefore, [independent clause]. · [independent clause]. Therefore, [independent clause]. · [subject] [auxiliary] therefore [verb] ... · [subject] [verb], therefore, [complement].",
+      "punctuation": "Semicolon or period before it when it links two independent clauses, and a comma after it at the head of a clause. Mid-clause it takes a comma on each side or none at all, consistently. It rained, therefore we canceled is a comma splice; write It rained; therefore, we canceled.",
+      "variants": "ergo (jocular or strictly logical)",
+      "see also": "thus, hence, thereby, consequently, accordingly, as a result, so (coordinating)"
     },
     {
       "term": "thus",
       "ipa": "/ðʌs/",
       "respell": "THUSS",
-      "type": "conjunctive adverb",
-      "register": "formal, academic",
-      "clause": "independent clause; also modifies a following participle",
-      "pattern": "[independent clause]; thus, [independent clause]. · [independent clause]. Thus, [independent clause]. · [independent clause], thus [-ing participle phrase]. · [independent clause] — thus [noun phrase]. — verbless tag · [subject] [auxiliary] thus [verb] ...",
-      "punctuation": "Semicolon or period before it between two independent clauses, and the comma after it is optional. Before an -ing participle (thus leaving the panel short) a plain comma is correct, because no second independent clause follows, and the same goes for the verbless tag (thus the decision to close the campus), which takes a comma or a dash.",
-      "variants": [
-        "thusly is nonstandard; avoid it"
-      ],
       "meaning": "\"In this way\" and \"as a consequence\" at once. That double sense is why it can head a participial phrase, a pattern therefore cannot take: The mold was reused, thus cutting costs. It is standard in academic prose and stiff in conversation.",
       "examples": [
         "The sensor recalibrates every hour; thus, drift stays under one percent.",
@@ -1514,13 +1160,15 @@
         "Thus, the hypothesis cannot be rejected on the present data.",
         "Enrollment fell for a third year — thus the decision to close the campus."
       ],
-      "related": [
-        "therefore",
-        "hence",
-        "thereby",
-        "consequently",
-        "accordingly"
-      ]
+      "senses": [],
+      "русский": "таким образом, тем самым — книжн., науч.: одновременно и способ, и следствие",
+      "register": "formal, academic",
+      "type": "conjunctive adverb",
+      "clause type": "independent clause; also modifies a following participle",
+      "pattern": "[independent clause]; thus, [independent clause]. · [independent clause]. Thus, [independent clause]. · [independent clause], thus [-ing participle phrase]. · [independent clause] — thus [noun phrase]. — verbless tag · [subject] [auxiliary] thus [verb] ...",
+      "punctuation": "Semicolon or period before it between two independent clauses, and the comma after it is optional. Before an -ing participle (thus leaving the panel short) a plain comma is correct, because no second independent clause follows, and the same goes for the verbless tag (thus the decision to close the campus), which takes a comma or a dash.",
+      "variants": "thusly is nonstandard; avoid it",
+      "see also": "therefore, hence, thereby, consequently, accordingly"
     }
   ]
 }

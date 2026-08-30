@@ -17,6 +17,7 @@ The only seven words in English that are coordinating conjunctions and nothing e
 ### and
 
 **Pronunciation:** /ænd/, weak /ənd/, /ən/, /n̩/ &middot; *AND, weak uhnd / uhn / n*
+**Русский:** и — основной соединительный союз: добавление, последовательность, результат
 **Type:** coordinating &middot; **Register:** neutral
 **Clause type:** coordinate clause; also joins words and phrases of any rank
 **Pattern:** [X] *and* [Y]. &middot; [X], [Y], *and* [Z]. &middot; [independent clause], *and* [independent clause]. &middot; [imperative] *and* [result]. &middot; *And* [clause]. (sentence-initial)
@@ -37,6 +38,7 @@ The default coordinator: it adds, and it will add anything to anything as long a
 ### but
 
 **Pronunciation:** /bʌt/, weak /bət/ &middot; *BUT, weak buht*
+**Русский:** но, а — второе идёт вразрез с тем, чего ждёшь после первого
 **Type:** coordinating (also a preposition meaning "except", and an adverb in fixed phrases) &middot; **Register:** neutral
 **Clause type:** coordinate clause; also joins words and phrases
 **Pattern:** [X] *but* [Y]. &middot; [independent clause], *but* [independent clause]. &middot; not [X] *but* [Y]. &middot; *But* [clause]. (sentence-initial)
@@ -57,6 +59,7 @@ Marks the second element as running against what the first led you to expect. It
 ### for
 
 **Pronunciation:** /fɔr/, weak /fɚ/ &middot; *FOR, weak fer*
+**Русский:** ибо, ведь — книжн./устар. союз причины; всегда с запятой перед ним
 **Type:** coordinating (far more often a preposition — *a gift for you* — and the marker of infinitival clauses: *for her to leave now would be rude*) &middot; **Register:** formal, literary
 **Clause type:** coordinate clause of reason
 **Pattern:** [independent clause], *for* [independent clause]. — normally medial &middot; *For* [clause]. (sentence-initial; scripture and consciously elevated prose only, linking back to the sentence before)
@@ -78,6 +81,7 @@ Supplies a reason or a justification for what was just said — roughly *because
 ### nor
 
 **Pronunciation:** /nɔr/, weak /nɚ/ &middot; *NOR, weak ner*
+**Русский:** и не, также не — второе отрицание; требует инверсии: nor did he call
 **Type:** coordinating (also the second half of the correlative *neither … nor*) &middot; **Register:** formal to neutral
 **Clause type:** coordinate clause, negative
 **Pattern:** [negative clause], *nor* [auxiliary or *be*] [subject] [rest]. &middot; neither [X] *nor* [Y]. &middot; [negative clause], *nor* [noun phrase]. (with the verb gapped) &middot; *Nor* [auxiliary] [subject] … (sentence-initial, formal)
@@ -98,6 +102,7 @@ Adds a second negative to a negative already on the table: "and not that either.
 ### or
 
 **Pronunciation:** /ɔr/, weak /ɚ/ &middot; *OR, weak er*
+**Русский:** или — альтернатива, обычно невзаимоисключающая (можно и то и другое)
 **Type:** coordinating &middot; **Register:** neutral
 **Clause type:** coordinate clause; also joins words and phrases
 **Pattern:** [X] *or* [Y]. &middot; [X], [Y], *or* [Z]. &middot; [independent clause], *or* [independent clause]. &middot; [imperative], *or* [consequence]. &middot; either [X] *or* [Y]. &middot; [term], *or* [other name for the same thing], …
@@ -119,6 +124,7 @@ Offers an alternative. English *or* is normally inclusive — *coffee or tea* do
 ### so
 
 **Pronunciation:** /soʊ/ &middot; *SOH*
+**Русский:** поэтому, так что — следствие: сначала причина, потом результат
 **Type:** coordinating (also subordinating in *so that*, a degree adverb, and a discourse marker) &middot; **Register:** neutral
 **Clause type:** coordinate clause of result
 **Pattern:** [independent clause], *so* [independent clause]. &middot; *So* [clause]. (conversational opener) &middot; compare subordinating [clause] *so (that)* [purpose clause]. — no comma
@@ -139,6 +145,7 @@ States the result of what came before: cause first, effect after *so*. It is the
 ### yet
 
 **Pronunciation:** /jɛt/ &middot; *YET*
+**Русский:** но всё же, и тем не менее — противопоставление с оттенком неожиданности
 **Type:** coordinating (also a time adverb: *not yet*, *has she left yet?*) &middot; **Register:** neutral; a shade more formal than *but* in writing
 **Clause type:** coordinate clause of concessive contrast
 **Pattern:** [X] *yet* [Y]. &middot; [independent clause], *yet* [independent clause]. &middot; [clause] and *yet* [clause]. &middot; *Yet* [clause]. (sentence-initial)
@@ -163,6 +170,7 @@ Fixed two-word sequences that function as a single coordinator. Each has a comma
 ### and/or
 
 **Pronunciation:** /ˌænd ˈɔr/ &middot; *and-OR*
+**Русский:** и/или — юр., канц.: «одно, другое или оба сразу»
 **Type:** coordinating (compound) &middot; **Register:** formal; legal, technical, and administrative writing
 **Clause type:** coordinate phrase; joins words and phrases, rarely clauses
 **Pattern:** [noun phrase] *and/or* [noun phrase]. &middot; [subject] *and/or* [subject] [verb] … &middot; [verb phrase] *and/or* [verb phrase]. &middot; [adjective] *and/or* [adjective]. &middot; recommended rewrite: [X] or [Y] or both.
@@ -183,6 +191,7 @@ A written shorthand for "either one or both," invented to close the loophole tha
 ### and so
 
 **Pronunciation:** /ˌænd ˈsoʊ/, weak /ənd ˈsoʊ/, /ən ˈsoʊ/ &middot; *and-SOH, weak uhn-SOH*
+**Русский:** и потому, и вот — итоговое следствие, весомее простого so
 **Type:** coordinating (compound) &middot; **Register:** neutral; narrative or slightly formal
 **Clause type:** coordinate clause of result
 **Pattern:** [independent clause], *and so* [independent clause]. &middot; *And so* [clause]. (sentence-initial, narrative)
@@ -203,6 +212,7 @@ The same result link as bare *so*, but heavier and more deliberate — it sums u
 ### and then
 
 **Pronunciation:** /ˌænd ˈðɛn/, weak /ənd ˈðɛn/, /ən ˈðɛn/ &middot; *and-THEN, weak uhn-THEN*
+**Русский:** а потом, и затем — закрепляет порядок событий, который and лишь подразумевает
 **Type:** coordinating (compound) &middot; **Register:** neutral; conversational in narrative
 **Clause type:** coordinate clause of sequence
 **Pattern:** [X] *and then* [Y]. &middot; [subject] [verb phrase] *and then* [verb phrase]. &middot; [independent clause], *and then* [independent clause]. &middot; [X], [Y], *and then* [Z]. &middot; *And then* [clause]. (sentence-initial)
@@ -223,6 +233,7 @@ Fixes the order of events, which plain *and* only implies. It has a second, rhet
 ### and yet
 
 **Pronunciation:** /ˌænd ˈjɛt/, weak /ənd ˈjɛt/, /ən ˈjɛt/ &middot; *and-YET, weak uhn-YET*
+**Русский:** и всё же, и тем не менее — усиленное yet: признаёт первое и дивится второму
 **Type:** coordinating (compound) &middot; **Register:** neutral; common in writing
 **Clause type:** coordinate clause of concessive contrast
 **Pattern:** [independent clause], *and yet* [independent clause]. &middot; [X] *and yet* [Y]. &middot; *And yet* [clause]. (sentence-initial)
@@ -243,6 +254,7 @@ Intensifies the surprise already in *yet*: it concedes the first fact and then r
 ### but rather
 
 **Pronunciation:** /ˌbʌt ˈræðɚ/, weak /bət ˈræðɚ/ &middot; *but-RA-ther, weak buht-RA-ther*
+**Русский:** а (не X, а Y) — отменяет отвергнутое и подставляет верное; нужно отрицание впереди
 **Type:** coordinating (compound) &middot; **Register:** neutral to formal
 **Clause type:** coordinate phrase or clause, corrective
 **Pattern:** not [X] *but rather* [Y]. &middot; [negative clause], *but rather* [corrected element]. &middot; It is not that [clause] *but rather* that [clause].
@@ -263,6 +275,7 @@ Replaces a rejected item with the correct one, so it needs a negative in front o
 ### but then
 
 **Pronunciation:** /ˌbʌt ˈðɛn/, weak /bət ˈðɛn/ &middot; *but-THEN, weak buht-THEN*
+**Русский:** но с другой стороны, впрочем — вторая мысль, смягчающая сказанное; разг.
 **Type:** coordinating (compound) &middot; **Register:** neutral; conversational
 **Clause type:** coordinate clause, concessive afterthought
 **Pattern:** [independent clause], *but then* [independent clause]. &middot; [independent clause], *but then again*, [independent clause]. &middot; *But then* [clause]. (sentence-initial)
@@ -283,6 +296,7 @@ Introduces a second thought that softens or half-cancels what was just said — 
 ### nor yet
 
 **Pronunciation:** /ˌnɔr ˈjɛt/, weak /nɚ ˈjɛt/ &middot; *nor-YET, weak ner-YET*
+**Русский:** и уж тем более не — устар., книжн.: усиленное nor
 **Type:** coordinating (compound; the reinforced form of *nor*) &middot; **Register:** formal, literary; archaic in flavor
 **Clause type:** coordinate clause or phrase, negative
 **Pattern:** [negative clause], *nor yet* [noun phrase]. &middot; [negative clause], *nor yet* [auxiliary or *be*] [subject] [rest]. &middot; neither [X], nor [Y], *nor yet* [Z]. &middot; not [X], *nor yet* [Y].
@@ -303,6 +317,7 @@ A reinforced *nor*: it adds one more negative and marks it as the least expected
 ### or else
 
 **Pronunciation:** /ˌɔr ˈɛls/ &middot; *or-ELS*
+**Русский:** а то, иначе — последствие или угроза при невыполнении первого
 **Type:** coordinating (compound) &middot; **Register:** neutral to informal
 **Clause type:** coordinate clause of alternative consequence
 **Pattern:** [imperative], *or else* [consequence]. &middot; [independent clause], *or else* [independent clause]. &middot; [warning] … *or else.* (elliptical threat)
@@ -323,6 +338,7 @@ States what will happen if the first clause is not carried out: a more explicitl
 ### or rather
 
 **Pronunciation:** /ˌɔr ˈræðɚ/ &middot; *or-RA-ther*
+**Русский:** вернее, точнее — поправка к слову, только что сказанному самим говорящим
 **Type:** coordinating (compound) &middot; **Register:** neutral
 **Clause type:** coordinate phrase or clause, self-correcting
 **Pattern:** [X], *or rather*, [more accurate X]. &middot; [clause], *or rather* [restated clause]. &middot; [clause] — *or rather*, [restated clause].
@@ -347,6 +363,7 @@ Words that join equal partners but fail at least one test for true coordination 
 ### along with
 
 **Pronunciation:** /əˈlɔŋ wɪð/, also /wɪθ/ &middot; *uh-LONG-with*
+**Русский:** вместе с, наряду с — добавляет второго участника, не меняя числа подлежащего
 **Type:** quasi-coordinator (a two-word preposition by strict analysis; *along* by itself is a preposition or a particle — *along the river*, *bring it along*) &middot; **Register:** neutral
 **Clause type:** coordinate phrase (an add-on), not a true clause link
 **Pattern:** [X] *along with* [Y]. &middot; [subject], *along with* [add-on], [verb agreeing with the subject alone] … &middot; [independent clause] *along with* [noun phrase]. &middot; [verb phrase] *along with* [*-ing* verb phrase].
@@ -367,6 +384,7 @@ Adds a second party to the sentence without letting it into the subject, which i
 ### and so forth
 
 **Pronunciation:** /ˌænd soʊ ˈfɔrθ/, weak /ən soʊ ˈfɔrθ/ &middot; *and-soh-FORTH, weak uhn-soh-FORTH*
+**Русский:** и так далее, и тому подобное — нейтральный письменный способ оставить список открытым
 **Type:** quasi-coordinator (a general extender — the coordinator *and* plus a fixed placeholder for the members not named) &middot; **Register:** neutral to formal; the written counterpart of *and stuff*
 **Clause type:** coordinate phrase — closes a list with a vague final member; never joins finite clauses
 **Pattern:** [X], [Y], *and so forth*. &middot; [X], [Y], [Z], *and so forth*. &middot; [list], *and so forth*, [rest of the clause]. &middot; [list] *and so on and so forth* (emphatic doubling)
@@ -387,6 +405,7 @@ Closes an open-ended list by pointing at the members not named: "more items of t
 ### and stuff / and everything / and all that
 
 **Pronunciation:** /ən ˈstʌf/, /ən ˈɛvriθɪŋ/, /ən ˌɔl ˈðæt/ &middot; *uhn-STUHF, uhn-EV-ree-thing, uhn-awl-THAT*
+**Русский:** и всё такое, и всё прочее — разг., устное незавершённое перечисление
 **Type:** quasi-coordinator (general extenders — a reduced *and* plus a vague placeholder) &middot; **Register:** informal; spoken, rare in edited prose except in quoted speech
 **Clause type:** coordinate phrase — closes a list, a noun phrase, or a whole clause with a vague final member
 **Pattern:** [X] *and stuff*. &middot; [X], [Y], *and everything*. &middot; [clause] *and all that*. &middot; [X] *and stuff like that*. &middot; [X] *and all that jazz*.
@@ -407,6 +426,7 @@ The spoken general extenders: they close a list by gesturing at more of the same
 ### and the like / or the like
 
 **Pronunciation:** /ən ðə ˈlaɪk/, /ɔr ðə ˈlaɪk/ &middot; *uhn-thuh-LYK, or-thuh-LYK*
+**Русский:** и тому подобное — вещи того же рода; книжн., техн. и юр. проза
 **Type:** quasi-coordinator (a general extender) &middot; **Register:** neutral to formal; at home in technical, legal, and administrative prose
 **Clause type:** coordinate phrase — closes a list with a vague final member; never joins finite clauses
 **Pattern:** [X], [Y], *and the like*. &middot; [X] *or the like*. &middot; [list], *and the like*, [rest of the clause]. &middot; [single example] *or the like*.
@@ -427,6 +447,7 @@ Extends a list to cover things of the same kind, and it is the extender a contra
 ### and then some
 
 **Pronunciation:** /ən ˈðɛn sʌm/, also /ən ðɛn ˈsʌm/ &middot; *uhn-THEN-suhm*
+**Русский:** и даже больше, и с лихвой — разг.: названная величина ещё занижена
 **Type:** quasi-coordinator (a fixed additive tag; distinct from the ordinary sequence *and then* + *some*) &middot; **Register:** informal; conversational, and common in sports and feature writing
 **Clause type:** coordinate phrase — a clause-final tag that outbids the amount just stated
 **Pattern:** [clause naming a quantity], *and then some*. &middot; [X], *and then some*. &middot; *And then some.* (standing alone as a reply)
@@ -447,6 +468,7 @@ Says that the figure just named is, if anything, an understatement — "that muc
 ### as also
 
 **Pronunciation:** /əz ˈɔlsoʊ/ &middot; *uhz-AWL-soh*
+**Русский:** а также — устар., книжн.: старинный аналог as well as
 **Type:** quasi-coordinator (archaic; a fossilized additive, close kin to *as well as*) &middot; **Register:** archaic, formal; scholarly editions, old-style legal recitals, and devotional prose
 **Clause type:** coordinate phrase (an add-on) — joins noun phrases and prepositional phrases; not a finite-clause link
 **Pattern:** [X], *as also* [Y]. &middot; [independent clause], *as also* [noun phrase]. &middot; [list], *as also* [final add-on]. &middot; [prepositional phrase], *as also* [matching prepositional phrase].
@@ -467,6 +489,7 @@ An older additive that tacks a second item onto the first without disturbing the
 ### as opposed to
 
 **Pronunciation:** /əz əˈpoʊzd tə/ &middot; *uhz-uh-POHZD-tuh*
+**Русский:** в отличие от, а не — прямо называет отвергаемую альтернативу
 **Type:** quasi-coordinator (a three-word preposition by strict analysis; elsewhere *opposed* is the past participle of the verb *oppose* — *she opposed the merger*) &middot; **Register:** neutral to formal
 **Clause type:** coordinate phrase of contrast — joins noun phrases, *-ing* clauses, and adjective phrases; never finite clauses
 **Pattern:** [X] *as opposed to* [Y]. &middot; [independent clause], *as opposed to* [noun phrase]. &middot; [*-ing* form] *as opposed to* [*-ing* form]. &middot; [subject], *as opposed to* [rejected alternative], [verb] … &middot; *As opposed to* [X], [main clause].
@@ -487,6 +510,7 @@ Spells out the alternative being ruled out, and spells it out deliberately — i
 ### as well
 
 **Pronunciation:** /əz ˈwɛl/, full /æz ˈwɛl/ &middot; *uhz-WEL, full az-WEL*
+**Русский:** тоже, также — в конце фразы; в амер. речи обычно говорят too
 **Type:** quasi-coordinator (an additive adverb by strict analysis — the clause-final counterpart of *also* and *too*; distinct from the coordinator *as well as* and from the manner adverbial *as well*, "equally skillfully") &middot; **Register:** neutral; a shade more formal than *too* in American speech, and the ordinary everyday form in British and Canadian English
 **Clause type:** coordinate tag — adds the phrase or clause it ends to what came before; never links two clauses itself
 **Pattern:** [clause] *as well*. &middot; [subject] [verb] [X] *as well*. &middot; [clause], and [second item] *as well*. &middot; *As well*, [clause]. (sentence-initial; chiefly Canadian and business writing, and disliked by American editors)
@@ -507,6 +531,7 @@ Tacks one more item onto what has just been said and marks it as more of the sam
 ### as well as
 
 **Pronunciation:** /əz ˈwɛl əz/ &middot; *uhz-WEL-uhz*
+**Русский:** а также, равно как и — добавляет второе, не делая подлежащее множественным
 **Type:** quasi-coordinator (identical in form to the comparative *as … as* wrapped around the adverb *well*: *She plays as well as her brother*) &middot; **Register:** neutral to formal
 **Clause type:** coordinate phrase (an add-on), not a true clause link
 **Pattern:** [X] *as well as* [Y]. &middot; [subject], *as well as* [add-on], [singular verb] … &middot; [verb phrase] *as well as* [*-ing* verb phrase].
@@ -527,6 +552,7 @@ Adds a second item while leaving the first one grammatically in charge, and that
 ### better yet
 
 **Pronunciation:** /ˌbɛtɚ ˈjɛt/; *worse yet* /ˌwɚs ˈjɛt/ &middot; *bet-er-YET, wurs-YET*
+**Русский:** а ещё лучше — второй вариант, превосходящий первый по той же шкале
 **Type:** conjunctive adverb (a fixed comparative escalator, reduced from *and what is better yet*; the negative twin *worse yet* behaves identically) &middot; **Register:** neutral; conversational, and common in journalism, reviews, and sales copy
 **Clause type:** discourse connective — heads a clause that outbids the one before it on the same scale
 **Pattern:** [clause]; *better yet*, [stronger clause]. &middot; [clause]. *Better yet*, [clause]. &middot; [X], or *better yet*, [better X]. &middot; [clause], and *worse yet*, [worse clause]. &middot; *Worse yet*, [clause]. (sentence-initial)
@@ -548,6 +574,7 @@ Adds a second item and claims it outranks the first on the very scale the first 
 ### coupled with
 
 **Pronunciation:** /ˈkʌpəld wɪð/, also /wɪθ/ &middot; *KUH-puhld-with*
+**Русский:** в сочетании с, вкупе с — книжн.: два фактора вместе дают один результат
 **Type:** quasi-coordinator (a participial preposition by strict analysis, from the verb *couple*) &middot; **Register:** neutral to formal; business, medical, and news writing
 **Clause type:** coordinate phrase (an add-on) — joins noun phrases and *-ing* clauses; never finite clauses
 **Pattern:** [X] *coupled with* [Y] [verb agreeing with X alone] … &middot; [subject], *coupled with* [add-on], [verb] … &middot; *Coupled with* [X], [main clause]. &middot; [independent clause], *coupled with* [noun phrase].
@@ -568,6 +595,7 @@ Adds a second factor and presents the two as working together to produce one eff
 ### cum
 
 **Pronunciation:** /kʌm/, also /kʊm/ &middot; *KUHM*
+**Русский:** он же, совмещённый с — книжн./шутл.: kitchen-cum-dining room — кухня-столовая
 **Type:** quasi-coordinator (the Latin preposition *cum* "with", used in English to fuse two nouns into one compound) &middot; **Register:** formal or jocular; chiefly British, and uncommon in American writing
 **Clause type:** coordinate phrase — joins two nouns naming one thing; never clauses
 **Pattern:** [noun]-*cum*-[noun] &middot; [role]-*cum*-[second role] &middot; [noun] *cum* [noun] (older, unhyphenated)
@@ -588,6 +616,7 @@ Fuses two descriptions of one and the same thing, so that neither label is compl
 ### either
 
 **Pronunciation:** /ˈiðɚ/, also /ˈaɪðɚ/ &middot; *EE-ther, also EYE-ther*
+**Русский:** тоже не — отрицательный двойник too: I don't like it either «мне тоже не нравится»
 **Type:** quasi-coordinator (an additive adverb by strict analysis — the negative-polarity counterpart of *too* and *as well*; distinct from the correlative *either … or* and from the determiner and pronoun *either*, as in *either road will get you there*) &middot; **Register:** neutral
 **Clause type:** coordinate tag — attaches one more negative to a negative already on the table; never links two clauses itself
 **Pattern:** [negative clause] *either*. &middot; [subject] [negative verb] [X] *either*. &middot; [negative clause], and [second negative clause] *either*. &middot; not [X] *either* &middot; compare positive [clause] *too*.
@@ -608,6 +637,7 @@ The negative twin of *too*: it says that a negative already stated holds for one
 ### else
 
 **Pronunciation:** /ɛls/ &middot; *ELS*
+**Русский:** иначе, а не то — устар. как самостоятельный союз; живёт в основном в or else
 **Type:** quasi-coordinator (bare use); adverb when attached to an indefinite word &middot; **Register:** literary, archaic on its own; neutral inside *or else*
 **Clause type:** coordinate clause of alternative consequence
 **Pattern:** [independent clause], *else* [independent clause]. (literary) &middot; [imperative], *else* [consequence]. &middot; [clause], *else* why [auxiliary] [subject] [rest]? (surviving idiom) — modern American prose writes *or else* in all three slots
@@ -628,6 +658,7 @@ The bare conjunction *else* meaning "otherwise" survives in proverbs, hymn and s
 ### et cetera / etc.
 
 **Pronunciation:** /ɛt ˈsɛtərə/, often /ɛt ˈsɛtrə/; /ɛk ˈsɛtərə/ is widely heard and widely condemned &middot; *et-SET-er-uh, et-SET-ruh*
+**Русский:** и так далее, и прочее — лат. сокращение, оставляющее список открытым
 **Type:** quasi-coordinator (a general extender borrowed whole from Latin *et cetera* "and the rest"; *etc.* is its abbreviation) &middot; **Register:** neutral; *etc.* belongs to writing, the spelled-out form to formal or ironic use
 **Clause type:** coordinate phrase — closes a list with a vague final member; never joins clauses
 **Pattern:** [X], [Y], *etc.* &middot; [X], [Y], *etc.*, [rest of the clause]. &middot; [list], *et cetera*. &middot; [list], *etc., etc.* (emphatic doubling)
@@ -648,6 +679,7 @@ The Latin general extender: "and the other things of this sort." It is the stand
 ### if not
 
 **Pronunciation:** /ɪf ˈnɑt/ &middot; *if-NOT*
+**Русский:** если не сказать, а то и — осторожный шаг вверх: «X, а возможно, и больше»
 **Type:** quasi-coordinator (scalar; distinct from the conditional *if not* that stands alone — *If not, we'll reschedule* — and from *if* + *not* inside a clause: *if he's not there by six*) &middot; **Register:** neutral
 **Clause type:** coordinate phrase, scalar — the second element is a fragment that outbids the first
 **Pattern:** [X], *if not* [stronger X]. &middot; [adjective], *if not* [stronger adjective]. &middot; [quantity], *if not* [larger quantity]. &middot; [determiner] [adjective], *if not* [stronger adjective], [noun] (interrupting) &middot; [independent clause], *if not* [noun phrase].
@@ -668,6 +700,7 @@ Reaches past the item just named to a stronger one and floats it without quite a
 ### in conjunction with
 
 **Pronunciation:** /ɪn kənˈdʒʌŋkʃən wɪð/, also /wɪθ/ &middot; *in-kuhn-JUNGK-shuhn-with*
+**Русский:** совместно с, в сочетании с — офиц.: двое действуют заодно
 **Type:** quasi-coordinator (a complex preposition built on the noun *conjunction*) &middot; **Register:** formal; administrative, technical, and institutional writing
 **Clause type:** coordinate phrase (an add-on) — joins noun phrases and *-ing* clauses; never finite clauses
 **Pattern:** [X] *in conjunction with* [Y]. &middot; [subject], *in conjunction with* [add-on], [verb agreeing with the subject alone] … &middot; [verb phrase] *in conjunction with* [noun phrase]. &middot; *In conjunction with* [X], [main clause].
@@ -688,6 +721,7 @@ Adds a second party or a second instrument and says the two are meant to act tog
 ### in tandem with
 
 **Pronunciation:** /ɪn ˈtændəm wɪð/, also /wɪθ/ &middot; *in-TAN-duhm-with*
+**Русский:** в связке с, параллельно с — двое движутся одновременно и согласованно
 **Type:** quasi-coordinator (a complex preposition; *tandem* is a hitch with one horse behind the other) &middot; **Register:** neutral to formal; business, engineering, and news writing
 **Clause type:** coordinate phrase (an add-on) — joins noun phrases and *-ing* clauses; never finite clauses
 **Pattern:** [X] *in tandem with* [Y]. &middot; [subject], *in tandem with* [add-on], [verb agreeing with the subject alone] … &middot; [verb phrase] *in tandem with* [noun phrase]. &middot; [plural subject] [verb] *in tandem*. (bare adverbial, no *with*)
@@ -708,6 +742,7 @@ Joins two parties or two processes and insists that they move together — at th
 ### let alone
 
 **Pronunciation:** /ˌlɛt əˈloʊn/ &middot; *let-uh-LOHN*
+**Русский:** не говоря уже о, тем более — после отрицания: первое невозможно, второе и подавно
 **Type:** quasi-coordinator (distinct from the literal verb phrase *let alone* = "leave undisturbed") &middot; **Register:** neutral; conversational
 **Clause type:** coordinate phrase, scalar — the second element is a fragment
 **Pattern:** [negative clause], *let alone* [noun phrase]. &middot; [negative clause], *let alone* [verb phrase matching the one before it]. &middot; [clause with *barely*, *hardly*, or *too*], *let alone* [stronger element]. &middot; [question], *let alone* [harder case]?
@@ -728,6 +763,7 @@ Adds a second, more extreme item and says that if the first is already out of re
 ### minus
 
 **Pronunciation:** /ˈmaɪnəs/ &middot; *MY-nuhs*
+**Русский:** минус; без — арифметическое вычитание; разг. «без чего-то»: явился без бороды
 **Type:** quasi-coordinator (a preposition by strict analysis in the "without" sense; also a noun and an adjective — *a minus sign*, *a B minus*) &middot; **Register:** neutral in arithmetic; informal and wry in the "without" sense
 **Clause type:** coordinate phrase — joins noun phrases only, never finite clauses
 **Pattern:** [number] *minus* [number] [singular verb] [number]. &middot; [noun phrase] *minus* [noun phrase]. &middot; [independent clause] *minus* [noun phrase]. &middot; [subject], *minus* [noun phrase], [verb] … (parenthetical)
@@ -748,6 +784,7 @@ Subtracts the second item from the first, and the whole phrase stays singular �
 ### much less
 
 **Pronunciation:** /ˌmʌtʃ ˈlɛs/ &middot; *much-LES*
+**Русский:** тем более не, не говоря уже о — то же, что let alone, но чуть книжнее
 **Type:** quasi-coordinator (distinct from the literal comparative *much less*: *much less money*) &middot; **Register:** neutral; a shade more formal than *let alone*
 **Clause type:** coordinate phrase, scalar — the second element is a fragment
 **Pattern:** [negative clause], *much less* [noun phrase]. &middot; [negative clause], *much less* [verb phrase matching the one before it]. &middot; [negative clause ending in a content noun], *much less* that [clause].
@@ -768,6 +805,7 @@ Does the same job as *let alone* — naming a bigger case that follows automatic
 ### neither
 
 **Pronunciation:** /ˈniðɚ/, also /ˈnaɪðɚ/ &middot; *NEE-ther, also NY-ther*
+**Русский:** и я тоже нет — подхватывает отрицание; требует инверсии: Neither do I
 **Type:** quasi-coordinator (an additive negative adverb by strict analysis, taking subject–auxiliary inversion; distinct from the correlative *neither … nor* and from the determiner and pronoun *neither*, as in *neither road was plowed*) &middot; **Register:** neutral in the inverted form (*Neither do I*) and in spoken *me neither*; nonstandard clause-final (*I don't like it neither*), where it belongs to Southern, Appalachian, and other regional speech and to stage dialect in fiction
 **Clause type:** inverted echo clause — repeats a negative already stated and applies it to someone or something else
 **Pattern:** [negative clause]. *Neither* [auxiliary or *be*] [subject]. &middot; [negative clause], and *neither* [auxiliary] [subject]. &middot; [negative clause]; *neither* [auxiliary] [subject] [rest]. &middot; Me *neither*. (spoken short answer) &middot; nonstandard [negative clause] *neither*. (clause-final, dialectal)
@@ -789,6 +827,7 @@ The negative echo: it picks up a negative just stated and extends it to a second
 ### never mind
 
 **Pronunciation:** /ˌnɛvɚ ˈmaɪnd/ &middot; *nev-er-MYND*
+**Русский:** уж куда там, не говоря уже о — разг.: самый просторечный из ряда let alone
 **Type:** quasi-coordinator (also an ordinary imperative verb phrase: *Never mind the mess*) &middot; **Register:** informal; conversational, rare in edited prose
 **Clause type:** coordinate phrase, scalar — the second element is a fragment
 **Pattern:** [negative clause], *never mind* [noun phrase]. &middot; [negative clause], *never mind* [verb phrase matching the one before it]. &middot; [clause with *barely* or *hardly*], *never mind* [harder case].
@@ -809,6 +848,7 @@ The most casual member of the *let alone* family: it names a bigger case and poi
 ### not only that
 
 **Pronunciation:** /ˌnɑt ˈoʊnli ˌðæt/ &middot; *not-OHN-lee-THAT*
+**Русский:** мало того, и это ещё не всё — отсылает назад, через точку, к сказанному
 **Type:** conjunctive adverb (a fixed clausal connective, the free-standing descendant of the correlative *not only … but also*; distinct from *not only* heading a *that*-clause, as in *not only that he lied, but that he kept lying*) &middot; **Register:** neutral; conversational, and common in opinion writing and complaint
 **Clause type:** discourse connective — heads a new clause that adds a further, usually stronger item
 **Pattern:** [clause]. *Not only that*, [clause]. &middot; [clause]; *not only that*, [clause]. &middot; [clause]. *Not only that*, but [clause]. &middot; [clause] — *not only that*, [clause]. &middot; *Not only that*, but [clause] as well.
@@ -829,6 +869,7 @@ Announces that what was just said is not the whole of it and that something furt
 ### not to mention
 
 **Pronunciation:** /ˌnɑt tə ˈmɛnʃən/ &middot; *not-tuh-MEN-shuhn*
+**Русский:** не говоря уже о — добавляет пункт под видом умолчания; отрицание не нужно
 **Type:** quasi-coordinator (distinct from the literal infinitive *not to mention*: *He promised not to mention the money*) &middot; **Register:** neutral
 **Clause type:** coordinate phrase (an add-on)
 **Pattern:** [X], *not to mention* [Y]. &middot; [independent clause], *not to mention* [noun phrase]. &middot; [independent clause], *not to mention* [adjective phrase or verb phrase matching the one before it].
@@ -849,6 +890,7 @@ Adds a further item while pretending to leave it out — a rhetorical move that 
 ### on top of that
 
 **Pronunciation:** /ˌɑn ˈtɑp əv ˌðæt/, weak /ˌɑn ˈtɑp ə ˌðæt/ &middot; *on-TOP-uhv-that, weak on-TOP-uh-that*
+**Русский:** вдобавок ко всему, и в довершение — разг., почти всегда о новой неприятности
 **Type:** conjunctive adverb (a fixed prepositional connective; distinct from the literal spatial *on top of that* — *the box on top of that one* — and from additive *on top of* + noun phrase, *a surcharge on top of the fare*) &middot; **Register:** informal to neutral; conversational, and at home in feature writing and complaint rather than in contracts, where *over and above* does the same work
 **Clause type:** discourse connective — heads a clause that adds one more item to a list already felt to be heavy
 **Pattern:** [clause]. *On top of that*, [clause]. &middot; [clause]; *on top of that*, [clause]. &middot; [clause], and *on top of that*, [clause]. &middot; *On top of everything else*, [clause]. &middot; compare prepositional *on top of* [noun phrase].
@@ -869,6 +911,7 @@ Piles one more item onto a load the reader is already meant to feel, which is wh
 ### only
 
 **Pronunciation:** /ˈoʊnli/ &middot; *OHN-lee*
+**Русский:** только вот, вот только — разг.: оговорка, портящая всё только что сказанное
 **Type:** quasi-coordinator (far more often a focusing adverb or an adjective) &middot; **Register:** informal; conversational
 **Clause type:** coordinate clause, adversative — equivalent to *but* or *except that*
 **Pattern:** [independent clause], *only* [independent clause]. &middot; *Only* [clause]. (as a following sentence, informal)
@@ -889,6 +932,7 @@ Introduces the single thing that spoils or qualifies what was just said — "but
 ### or something
 
 **Pronunciation:** /ɔr ˈsʌmθɪŋ/, weak /ɚ ˈsʌmθɪŋ/ &middot; *or-SUHM-thing, weak er-SUHM-thing*
+**Русский:** или что-то в этом роде — разг.: говорящий не ручается за точность
 **Type:** quasi-coordinator (a general extender — *or* plus a vague placeholder) &middot; **Register:** informal; spoken
 **Clause type:** coordinate phrase — a hedging tag that closes a noun phrase, a clause, or a guess
 **Pattern:** [X] *or something*. &middot; [clause] *or something*. &middot; [X] *or something like that*. &middot; [negative clause] *or anything*. &middot; Are you [adjective] *or something*? (challenge)
@@ -909,6 +953,7 @@ Marks the item just named as approximate: the speaker is not sure of it and does
 ### or what
 
 **Pronunciation:** /ɔr ˈwʌt/, also /ɔr ˈhwʌt/ &middot; *or-WHUT*
+**Русский:** или как? ну разве не...? — разг. концовка вопроса: требует согласия или решения
 **Type:** quasi-coordinator (a fixed tag — *or* plus the interrogative *what*) &middot; **Register:** informal; spoken
 **Clause type:** coordinate phrase — a clause-final tag, and only in questions
 **Pattern:** Is [subject] [adjective], *or what*? (rhetorical — "obviously yes") &middot; Are [subject] [verb]-ing, *or what*? (impatient — "decide") &middot; [yes-or-no question], *or what*?
@@ -929,6 +974,7 @@ Closes a question with a shrug at the alternatives it declines to name, and it d
 ### other than
 
 **Pronunciation:** /ˈʌðɚ ðən/, also /ˈʌðɚ ðæn/ &middot; *UH-ther-thuhn*
+**Русский:** кроме, помимо — единственное исключение; нужны отрицание, вопрос или «все»
 **Type:** quasi-coordinator (exceptive; a two-word preposition by strict analysis, built on comparative *than*) &middot; **Register:** neutral
 **Clause type:** coordinate phrase, exceptive — subtracts one member from the set just named; also fronts the sentence
 **Pattern:** [negative or universal clause] *other than* [noun phrase]. &middot; no one / nothing / nobody *other than* [X] &middot; *Other than* [X], [main clause]. &middot; [noun] *other than* [noun] (*any option other than surrender*) &middot; *Other than that*, [clause].
@@ -949,6 +995,7 @@ Names the one member a statement does not cover, so it needs a negative, a unive
 ### outside of
 
 **Pronunciation:** /ˌaʊtˈsaɪd əv/, weak /ˌaʊtˈsaɪd ə/ &middot; *out-SYD-uhv*
+**Русский:** кроме, если не считать — разг., амер.; на письме предпочитают apart from
 **Type:** quasi-coordinator (exceptive; distinct from the literal spatial *outside of* — *outside of town*) &middot; **Register:** informal; American, and avoided in edited prose
 **Clause type:** coordinate phrase, exceptive — subtracts one member from the set just named; also fronts the sentence
 **Pattern:** *Outside of* [X], [main clause]. &middot; [clause], *outside of* [noun phrase]. &middot; nobody / nothing *outside of* [X] &middot; *Outside of that*, [clause].
@@ -969,6 +1016,7 @@ The colloquial American *except for*: it lifts one item out of an otherwise swee
 ### over and above
 
 **Pronunciation:** /ˌoʊvɚ ənd əˈbʌv/ &middot; *oh-ver-uhnd-uh-BUHV*
+**Русский:** сверх, помимо — офиц.: вторая сумма именно добавочная, а не включённая
 **Type:** quasi-coordinator (additive; a fixed three-word preposition) &middot; **Register:** formal to neutral; contracts, pay talk, and official writing
 **Clause type:** coordinate phrase (an add-on) — joins noun phrases; never finite clauses
 **Pattern:** [X] *over and above* [Y]. &middot; [independent clause], *over and above* [noun phrase]. &middot; *Over and above* [X], [main clause]. &middot; *over and above* what / whatever [clause].
@@ -989,6 +1037,7 @@ Adds one amount to another and insists the second is extra rather than included 
 ### plus
 
 **Pronunciation:** /plʌs/ &middot; *PLUHS*
+**Русский:** плюс; да и ещё — арифметическое сложение; разг. союз «и» с добавочным доводом
 **Type:** quasi-coordinator (also a noun and an adjective — *that's a plus*, *a B plus*, *a plus sign*) &middot; **Register:** neutral in arithmetic; informal as a clause connector
 **Clause type:** coordinate phrase; also a coordinate clause in informal use
 **Pattern:** [number] *plus* [number] [singular verb] … &middot; [X] *plus* [Y]. &middot; [independent clause], *plus* [independent clause]. (informal) &middot; *Plus*, [clause]. (sentence-initial, informal)
@@ -1009,6 +1058,7 @@ In arithmetic and pricing it adds one quantity to another and leaves the subject
 ### rather than
 
 **Pronunciation:** /ˈræðɚ ðən/ &middot; *RA-ther-thuhn*
+**Русский:** а не, вместо того чтобы — называет невыбранный вариант; формы по обе стороны совпадают
 **Type:** quasi-coordinator (prepositional before a noun phrase; *rather* on its own is an adverb of degree or preference, and *than* elsewhere is a comparative subordinator) &middot; **Register:** neutral
 **Clause type:** coordinate phrase of preference; also fronts the sentence as an adverbial
 **Pattern:** [X] *rather than* [Y]. &middot; *Rather than* [X], [main clause]. &middot; [modal + bare verb] *rather than* [bare verb]. &middot; [*-ing* form] *rather than* [*-ing* form].
@@ -1029,6 +1079,7 @@ Names the option that was not chosen. The two halves have to be the same grammat
 ### still less
 
 **Pronunciation:** /ˌstɪl ˈlɛs/ &middot; *stil-LES*
+**Русский:** и тем более не — книжн., самый формальный из ряда let alone / much less
 **Type:** quasi-coordinator (distinct from the literal comparative *still less*: *still less time than before*) &middot; **Register:** formal; chiefly written
 **Clause type:** coordinate phrase, scalar — the second element is a fragment
 **Pattern:** [negative clause], *still less* [noun phrase]. &middot; [negative clause], *still less* [verb phrase matching the one before it]. &middot; [negative clause ending in a content noun], *still less* that [clause].
@@ -1049,6 +1100,7 @@ The most formal of the scalar add-ons — the one a judge, a philosopher, or an 
 ### times
 
 **Pronunciation:** /taɪmz/ &middot; *TYMZ*
+**Русский:** умножить на — арифметическое умножение: three times four «трижды четыре»
 **Type:** quasi-coordinator (arithmetic; also the plural noun *times* and, informally, a verb: *times it by four*) &middot; **Register:** neutral in arithmetic; the verb use is schoolroom and informal
 **Clause type:** coordinate phrase — joins numerals and quantity expressions only, never clauses
 **Pattern:** [number] *times* [number] [singular verb] [number]. &middot; [number] *times* [noun phrase]. &middot; [indefinite pronoun] *times* [number] [singular verb] [number]. &middot; What's [number] *times* [number]? (question)
@@ -1069,6 +1121,7 @@ Multiplies one quantity by another and, like *plus* and *minus*, leaves the resu
 ### to boot
 
 **Pronunciation:** /tə ˈbut/, full /tu ˈbut/ &middot; *tuh-BOOT*
+**Русский:** в придачу, вдобавок — разг., слегка старомодно и с иронией; только в конце фразы
 **Type:** quasi-coordinator (a clause-final additive tag; the *boot* in it is the obsolete noun *bōt* "advantage, something extra", unrelated to footwear and surviving elsewhere only in *bootless* "useless") &middot; **Register:** informal to neutral; old-fashioned in flavor and faintly wry, at home in speech, reviews, and feature writing, and out of place in business or technical prose
 **Clause type:** coordinate tag — closes a clause by throwing in one last item
 **Pattern:** [clause], and [final item] *to boot*. &middot; [X], [Y], and [Z] *to boot*. &middot; [adjective], and [second adjective] *to boot*. &middot; [noun phrase] *to boot*.
@@ -1089,6 +1142,7 @@ Adds one final item and presents it as a bonus thrown in on top of the rest. It 
 ### to say nothing of
 
 **Pronunciation:** /tə ˌseɪ ˈnʌθɪŋ əv/ &middot; *tuh-say-NUH-thing-uhv*
+**Русский:** не говоря уже о — книжн. вариант not to mention
 **Type:** quasi-coordinator (distinct from the literal infinitive *to say nothing of*: *She chose to say nothing of the argument*) &middot; **Register:** formal to neutral; chiefly written
 **Clause type:** coordinate phrase (an add-on)
 **Pattern:** [independent clause], *to say nothing of* [noun phrase]. &middot; [X], *to say nothing of* [Y]. &middot; [independent clause] — *to say nothing of* [noun phrase].
@@ -1109,6 +1163,7 @@ The written, faintly rhetorical cousin of *not to mention*: it adds one more ite
 ### versus
 
 **Pronunciation:** /ˈvɚsəs/, often /ˈvɚsəz/ &middot; *VUR-suhs*
+**Русский:** против, в сравнении с — сталкивает две стороны; юр. и спорт.
 **Type:** quasi-coordinator (a preposition by strict analysis) &middot; **Register:** neutral; fixed and formal in legal and sports citation
 **Clause type:** coordinate phrase — joins noun phrases and, informally, *-ing* clauses; never finite clauses
 **Pattern:** [X] *versus* [Y]. &middot; [X] *vs.* [Y]. &middot; [Party] *v.* [Party]. (case names)
@@ -1129,6 +1184,7 @@ Sets two things against each other as opposed alternatives — a real contest (*
 ### yea
 
 **Pronunciation:** /jeɪ/ &middot; *YAY*
+**Русский:** более того, да что там — устар., книжн.: усиливает сказанное, не отменяя его
 **Type:** quasi-coordinator (archaic, intensifying; distinct from the *yea* of voice votes — *the yeas and nays* — and from informal *yeah* /ˈjɛə/) &middot; **Register:** archaic, literary; scripture, older oratory, and deliberate pastiche
 **Clause type:** coordinate phrase or clause — introduces a stronger restatement of what was just said
 **Pattern:** [X], *yea*, [stronger X]. &middot; [clause], *yea*, [stronger clause]. &middot; [adjective], *yea*, [stronger adjective]. &middot; compare corrective [X], *nay*, [replacement X].

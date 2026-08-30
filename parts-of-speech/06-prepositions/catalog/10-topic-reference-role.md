@@ -4,7 +4,7 @@
 
 [← The grammar of prepositions](../README.md) &middot; [All categories](README.md)
 
-These words answer two questions: *what is this about?* and *in what character is this person acting?* Nearly every one of them is a long-form substitute for *about*, *on*, or *as*, which is why this is the group where padding collects — *in terms of*, *with regard to*, *as to*, and *in reference to* each take three or four words to do what one word does, and American editors cut them on sight. Two mechanical rules run through the whole file: first, **none of these takes a finite *that*-clause**, so you can write *concerning the delay*, *concerning what happened*, or *concerning the fact that it was late*, but never *concerning that it was late*; second, **the noun is *regard*, not *regards*** — *with regard to*, *in regard to*, *without regard to*. *Regards* with an *s* means greetings and belongs at the bottom of an email, the sole exception being *as regards*, where *regards* is a verb and the *s* is agreement.
+These words answer two questions: *what is this about?* and *in what character is this person acting?* Nearly every one of them is a long-form substitute for *about*, *on*, or *as*, which is why this is the group where padding collects — *in terms of*, *with regard to*, *as to*, and *in reference to* each take three or four words to do what one word does, and American editors cut them on sight. Two mechanical rules run through the whole file: first, ✗ *none of these takes a finite *that*-clause**, so you can write *concerning the delay*, *concerning what happened*, or *concerning the fact that it was late*, but never *concerning that it was late*; second, ✗ *the noun is *regard*, not *regards*** — *with regard to*, *in regard to*, *without regard to*. *Regards* with an *s* means greetings and belongs at the bottom of an email, the sole exception being *as regards*, where *regards* is a verb and the *s* is agreement.
 
 **A third rule worth stating separately: a *wh*-clause is not a *that*-clause.** Most of these words take a fused *wh*-nominal quite happily — *concerning who authorized it*, *as to whether the deal closes*, *in terms of what it costs* — and the ban is on the finite *that*-clause alone. Where an entry below says "never a clause," read it as "never a clause of any kind," and where it says "never a finite *that*-clause," the *wh*-nominal is open to you.
 
@@ -18,11 +18,33 @@ These words answer two questions: *what is this about?* and *in what character i
 
 ## Topic and subject matter
 
-The words that put a subject in front of you. *About* is the workhorse and everything else in this section is either more formal, more legal, or more angry than *about* is.
+The words that put a subject in front of you. *About* is the workhorse and nearly everything else in this section is either more formal, more legal, or more angry than *about* is. Two members do something else: [abreast of](#abreast-of) names not the subject of a statement but the subject somebody is trying to keep up with, and [of and concerning](#of-and-concerning) is a single element of American defamation law wearing the shape of a preposition.
+
+### abreast of
+
+**Pronunciation:** /əˈbrɛst əv/ &middot; weak /əˈbrɛst ə/ &middot; *uh-BREST-uv* &middot; the stress sits on *-breast* and never moves; the *a-* reduces to /ə/ in every register, and final *of* goes /əv/ → /ə/ before a consonant
+**Русский:** в курсе (чего-л.) — только с keep/stay: следить за тем, что меняется
+**Type:** complex (the adjective *abreast* + *of*) &middot; **Register:** neutral to formal
+**Complement:** noun phrase, gerund (*abreast of filing on time* — grammatical but stiff), or a fused *wh*-nominal (*abreast of what the competition is charging*); **never a finite *that*-clause** (✗ *abreast of that the rules changed* → *abreast of the change in the rules*). The phrase is an adjectival complement rather than a free adverbial, so a verb of maintaining almost always stands in front of it — *keep*, *stay*, *remain*, *get*, or *bring* someone — and ✗ *I abreast of the news* is not a sentence.
+**Pattern:** [*keep / stay / remain / get*] *abreast of* [noun phrase] &middot; [*keep / bring*] [object] *abreast of* [noun phrase] &middot; [noun] *abreast of* [noun phrase]
+**Contrast:** Against [about](#about) and [on](01-core-in-on-at.md#on), which merely name a subject, *abreast of* names a subject somebody is staying **current** on. It entails a moving target and a continuing effort, which is why *keep abreast of the litigation* works and ✗ *keep abreast of the Battle of Hastings* does not — the battle has stopped changing. The informal American equivalent is *up on* (*up on the news*); the formal one is *current with*. **Cross-class test — the object:** with an object it is this preposition; with nothing after it, *abreast* is a bare adverb of position (*they rode two abreast*) and governs nothing at all.
+**Senses treated elsewhere:** this entry covers only the "informed about" sense. The spatial one — a moving thing drawing level with a fixed one, as in *the tug came abreast of the pier* — belongs with the prepositions of [place and position](03-place-position.md).
+
+The preposition of staying current. Its object is not the subject of a statement but the subject somebody is trying to keep up with, which is why it lives among verbs of maintenance and almost never stands alone.
+
+1. Part of the job is keeping *abreast of* changes in the tax code.
+2. She reads two trade journals to stay *abreast of* the industry.
+3. The Friday memo exists to keep the board *abreast of* the negotiations.
+4. He has never been *abreast of* what his own department is doing.
+5. Regulators struggled to remain *abreast of* the new products.
+6. Nobody in the room was *abreast of* the overnight filings.
+
+**See also:** [about](#about), [on](01-core-in-on-at.md#on), [on the subject of](#on-the-subject-of), [in connection with](#in-connection-with), [aware of](15-dependent-adjectives.md#aware-of), [familiar with](15-dependent-adjectives.md#familiar-with)
 
 ### about
 
 **Pronunciation:** /əˈbaʊt/ &middot; casual clipped form /ˈbaʊt/ (*'bout*) &middot; *uh-BOWT* &middot; the stressed second syllable never reduces; only the unstressed first one drops
+**Русский:** о, об — тема книги, разговора, жалобы; перед числом — «около, примерно»
 **Type:** simple (historically a fusion of Old English *on* + *būtan* "outside") — also an adverb (*there was nobody about*), a degree modifier (*about forty*), and a verb particle (*bring it about*, *come about*) &middot; **Register:** neutral
 **Complement:** noun phrase, objective pronoun, gerund (*about starting the job*), or a *wh*-clause (*about what happened*, *about whether to go*, *about how it works*) — **never a bare *that*-clause** (✗ *I told her about that the meeting moved*). To carry a *that*-clause you must insert a noun: *about the fact that she left*. As an adverb or particle it takes **no object at all**.
 **Pattern:** [verb] *about* [noun phrase] &middot; [noun] *about* [noun phrase] &middot; [adjective] *about* [noun phrase] &middot; stranded: *the thing I told you* **about** &middot; fronted and formal: *the matter about which we spoke*
@@ -72,6 +94,7 @@ The most useful preposition in this file and the default for every job the other
 ### concerning
 
 **Pronunciation:** /kənˈsɜrnɪŋ/ &middot; *kun-SUR-ning* &middot; **no weak form** — like the other participial prepositions (*regarding*, *respecting*, *touching*) it keeps its stressed second syllable in every register; only the prefix vowel reduces, to /kən-/
+**Русский:** касательно, относительно — офиц. предлог темы; омоним — прилагательное «тревожный»
 **Type:** marginal/participial (grammaticalized from the verb *concern*) &middot; **Register:** formal
 **Complement:** noun phrase, objective pronoun, gerund (*concerning failing to file on time*), or a fused *wh*-nominal (*concerning who authorized the transfer*) — **never a finite *that*-clause**. ✗ *Concerning that he resigned* is impossible; write *concerning his resignation* or *concerning the fact that he resigned*.
 **Pattern:** [clause] *concerning* [noun phrase] &middot; *Concerning* [noun phrase], [clause]
@@ -101,6 +124,7 @@ Introduces the matter an official communication is about. Unlike the participial
 ### in re
 
 **Pronunciation:** /ɪn ˈreɪ/ &middot; also /ɪn ˈri/ &middot; *in-RAY* (also *in-REE*) &middot; **no weak form** — the *re* carries the stress and keeps its full vowel, and the Latin *in* is not the reduced English *in* of *in a minute*
+**Русский:** юр. по делу, в отношении — лат. «в деле»; в заголовках судебных дел
 **Type:** complex (Latin, ablative of *rēs* "thing, matter") &middot; **Register:** legal
 **Complement:** a noun phrase, almost always a proper name or the name of an estate, matter, or proceeding. No gerund, and **no clause of any kind** — not a *that*-clause and not a *wh*-nominal.
 **Pattern:** *In re* [noun phrase] — as a case caption, docket heading, or file label
@@ -120,6 +144,7 @@ Latin for "in the matter of," and used for exactly that. Outside case captions i
 ### in the matter of
 
 **Pronunciation:** /ɪn ðə ˈmætər əv/ &middot; weak /ɪn ðə ˈmætər ə/ &middot; *in-thuh-MAT-ur-uv*
+**Русский:** по делу, по вопросу о — офиц./юр. торжественное обозначение предмета разбирательства
 **Type:** complex &middot; **Register:** formal, legal
 **Complement:** noun phrase, gerund, or a fused *wh*-nominal (*in the matter of who pays for repairs*); **never a finite *that*-clause** (✗ *in the matter of that the funds are missing*).
 **Pattern:** *In the matter of* [noun phrase] &middot; [clause] *in the matter of* [noun phrase]
@@ -135,9 +160,30 @@ Names the business at hand with deliberate ceremony. In running prose it signals
 
 **See also:** [in re](#in-re), [on the subject of](#on-the-subject-of), [concerning](#concerning), [regarding](#regarding)
 
+### of and concerning
+
+**Pronunciation:** /əv ənd kənˈsɜrnɪŋ/ &middot; weak /ə ən kənˈsɜrnɪŋ/ &middot; *uv-und-kun-SUR-ning* &middot; both function words at the front reduce almost to nothing — /ə(v) ən/ — and the whole weight of the phrase sits on *-cern-*
+**Русский:** юр. «о и в отношении» — в делах о диффамации: что высказывание указывало именно на истца
+**Type:** complex (a legal binomial: two near-synonyms coordinated and frozen together) &middot; **Register:** legal — a term of art in American defamation law, and effectively nonexistent outside it
+**Complement:** a noun phrase naming a person or an entity, namely the plaintiff. **No gerund and no clause of any kind**: ✗ *of and concerning that he took the money*, ✗ *of and concerning defaming him*. The object is always a *who* and never a *what*, which is the sharpest difference between this phrase and ordinary [concerning](#concerning).
+**Pattern:** [statement, article, broadcast, publication] *of and concerning* [the plaintiff] &middot; *the statement was* **of and concerning** *the plaintiff*
+**Contrast:** Not an ornamental way of writing [about](#about) or [concerning](#concerning). It names one **element of the tort**: a defamation plaintiff must prove that the statement was of and concerning him, meaning an ordinary reader would have understood it to point at him in particular, and a complaint that never pleads the phrase invites a motion to dismiss. Modern drafters cut legal doublets — *give, devise and bequeath*, *null and void* — as redundant, but this one has been fixed by a century of case law and cannot be shortened to *about* without losing the term of art. Where an American meets it: a libel or slander complaint, a motion to dismiss, and the pattern jury instruction read aloud at the end of the trial.
+
+The defamation element that hardened into a preposition. It asks not what a statement was about but whom it pointed at, and a statement about a large enough group points at nobody.
+
+1. The complaint fails to allege that the broadcast was *of and concerning* the plaintiff.
+2. A statement *of and concerning* a group of two hundred employees rarely defames any one of them.
+3. The jury was asked whether the column was *of and concerning* the sheriff.
+4. Nothing in the review is *of and concerning* the restaurant's owner personally.
+5. The court held that the caption alone made the article *of and concerning* her.
+6. Plaintiffs must plead facts showing that the post was *of and concerning* them.
+
+**See also:** [concerning](#concerning), [in re](#in-re), [in the matter of](#in-the-matter-of), [about](#about), [on the part of](07-agent-instrument-manner.md#on-the-part-of)
+
 ### on the subject of
 
 **Pronunciation:** /ɑn ðə ˈsʌbdʒɪkt əv/ &middot; weak /ɑn ðə ˈsʌbdʒɪkt ə/ &middot; *ahn-thuh-SUB-jikt-uv*
+**Русский:** на тему, по поводу — прямо объявляет тему или переход к ней
 **Type:** complex &middot; **Register:** neutral
 **Complement:** noun phrase, gerund, or a fused *wh*-nominal (*on the subject of who pays*); never a finite *that*-clause.
 **Pattern:** *On the subject of* [noun phrase], [clause] &middot; [clause] *on the subject of* [noun phrase]
@@ -158,6 +204,7 @@ Announces the topic explicitly, either to open it or to change to it.
 ### over
 
 **Pronunciation:** /ˈoʊvər/ &middot; *OH-vur* &middot; **no weak form** — unlike the one-syllable prepositions around it, *over* keeps its stress and its full first vowel even in fast speech; the clipped *o'er* /ɔr/ is poetic only
+**Русский:** из-за, по поводу — предмет спора, реакции, переживаний: argue over — спорить из-за
 **Type:** simple — also an adverb and adjective (*the meeting was over*), a verb particle (*hand it over*, *think it over*), and a directional adverb (*come over*) &middot; **Register:** neutral
 **Complement:** noun phrase, objective pronoun, gerund (*sued over failing to disclose the defect*), or a fused ***wh*-nominal** in the dispute sense (*a fight over who gets the house*, *disagreement over whether to appeal*) — **never a finite *that*-clause** (✗ *they argued over that the rent was late* → *they argued over the late rent*). As an adverb or particle it takes **no object at all**, which is the test that separates the two.
 **Pattern:** [noun of conflict] *over* [noun phrase] &middot; [verb of conflict, distress, or deliberation] *over* [noun phrase] &middot; *over* [*wh*-nominal] &middot; stranded: *what exactly are they fighting* **over**?
@@ -196,6 +243,7 @@ The preposition of things people quarrel about. Whenever the head noun or verb i
 ### re
 
 **Pronunciation:** /ri/ &middot; also /reɪ/ &middot; *REE* (also *RAY*) &middot; **no weak form** — it is a stressed monosyllable on the rare occasions it is read aloud
+**Русский:** по вопросу о, «Тема:» — в шапке письма; внутри текста — канцелярит
 **Type:** simple (a clipping of Latin [in re](#in-re)) &middot; **Register:** business and legal shorthand — written only, and effectively never spoken in running prose
 **Complement:** a noun phrase. No gerund, and **no clause of any kind**; a pronoun object is possible only in the fixed heading *Re: yours of the 14th* and is otherwise avoided.
 **Pattern:** *Re:* [noun phrase] — as a memo or letter heading &middot; *re* [noun phrase] — inside a docket line or file label
@@ -220,6 +268,7 @@ The subject line of the English language. It labels what a document is about, an
 ### regarding
 
 **Pronunciation:** /rɪˈɡɑrdɪŋ/ &middot; *rih-GAR-ding* &middot; **no weak form** — the stress on *-gard-* is fixed, and the *-ing* may go /-ɪn/ in casual speech but the vowel of the stressed syllable never reduces
+**Русский:** относительно, по поводу — стандартный деловой предлог темы в амер. английском
 **Type:** marginal/participial &middot; **Register:** neutral to formal; the standard word in American business writing
 **Complement:** noun phrase, objective pronoun, gerund (*regarding filing after the deadline*), or a fused *wh*-nominal (*regarding what the auditors found*, *regarding whether to appeal*) — **never a finite *that*-clause** (✗ *regarding that the auditors found an error* → *regarding the auditors' finding*).
 **Pattern:** [clause] *regarding* [noun phrase] &middot; *Regarding* [noun phrase], [clause]
@@ -249,6 +298,7 @@ The neutral formal word for "about." It has no attitude, no implication of compl
 ### respecting
 
 **Pronunciation:** /rɪˈspɛktɪŋ/ &middot; *rih-SPEK-ting* &middot; **no weak form** — identical in this respect to the noun phrase *with respect to*, where *respect* also keeps its full stressed vowel while the words around it reduce
+**Русский:** устар./юр. относительно, касательно — совпадает с деепричастием «уважая»
 **Type:** marginal/participial &middot; **Register:** formal and dated; still productive in legal drafting
 **Complement:** noun phrase or gerund (*respecting selling the timber*); a fused *wh*-nominal is grammatical but rare (*respecting who may vote*); **never a finite *that*-clause** (✗ *respecting that the trust was funded*).
 **Pattern:** [clause] *respecting* [noun phrase] &middot; *Respecting* [noun phrase], [clause]
@@ -274,6 +324,7 @@ The eighteenth-century sibling of *regarding*, preserved mostly by constitutiona
 ### touching
 
 **Pronunciation:** /ˈtʌtʃɪŋ/ &middot; *TUCH-ing* &middot; **no weak form** — stress falls on the first syllable and stays there
+**Русский:** устар./книжн. касательно, относительно — архаичный предлог темы
 **Type:** marginal/participial &middot; **Register:** archaic and literary
 **Complement:** noun phrase or gerund; a fused *wh*-nominal is possible in older text (*touching what was owed him*); **never a finite *that*-clause**.
 **Pattern:** [clause] *touching* [noun phrase] &middot; *Touching* [noun phrase], [clause]
@@ -299,11 +350,12 @@ The Renaissance word for "concerning," now confined to deliberate period style, 
 
 ## The regard, reference, and relation family
 
-Seventeen ways to say *about* in two, three, or four words. They are near-perfect synonyms of each other, they are all more formal than they are useful, and the errors in this section — *in regards to*, *as regards to*, *in accordance to* — are among the most frequently made in American business writing. Three of them break out of the pattern: [in relation to](#in-relation-to) and [vis-à-vis](#vis-à-vis) carry a genuine comparative sense the others lack, and [as per](#as-per) claims conformity rather than mere reference. [On the score of](#on-the-score-of) is the dated member that has drifted halfway into cause. Apart from those, the choice among them is a choice of tone alone.
+Eighteen ways to say *about* in two, three, or four words, and four legal cross-reference markers keeping them company. The eighteen are near-perfect synonyms of each other, they are all more formal than they are useful, and the errors in this section — *in regards to*, *as regards to*, *in accordance to* — are among the most frequently made in American business writing. Three of them break out of the pattern: [in relation to](#in-relation-to) and [vis-à-vis](#vis-à-vis) carry a genuine comparative sense the others lack, and [as per](#as-per) claims conformity rather than mere reference. [On the score of](#on-the-score-of) is the dated member that has drifted halfway into cause. Apart from those, the choice among them is a choice of tone alone. The four outliers — [as defined in](#as-defined-in), [as provided in](#as-provided-in), [as set forth in](#as-set-forth-in), and [as used in](#as-used-in) — are not synonyms of *about* at all: each points at a named text and borrows its authority, and together they are the connective tissue of American contract and statutory drafting.
 
 ### anent
 
 **Pronunciation:** /əˈnɛnt/ &middot; *uh-NENT* &middot; **no weak form** — the stressed second syllable keeps its full vowel and only the unstressed *a-* reduces
+**Русский:** устар. относительно, касательно — шотландский юридический архаизм
 **Type:** simple &middot; **Register:** archaic; alive in Scots law and in deliberately antique or jocular writing
 **Complement:** noun phrase only. A gerund is grammatical but unidiomatic, and **no clause of any kind** will go here — not a *that*-clause and not a *wh*-nominal.
 **Pattern:** [clause] *anent* [noun phrase] &middot; *Anent* [noun phrase], [clause]
@@ -322,6 +374,7 @@ A survival from Middle English, kept in circulation by Scottish legal usage and 
 ### apropos of
 
 **Pronunciation:** /ˌæprəˈpoʊ əv/ &middot; weak /ˌæprəˈpoʊ ə/ &middot; *ap-ruh-POH-uv* (the *s* is silent)
+**Русский:** по поводу, в связи с — книжн.; apropos of nothing — «ни с того ни с сего»
 **Type:** complex (from French *à propos de*) &middot; **Register:** formal to literary
 **Complement:** noun phrase, gerund, or a fused *wh*-nominal (*apropos of what you just said*); **never a finite *that*-clause**. As an adjective (sense 3) it takes no complement at all.
 **Pattern:** *Apropos of* [noun phrase], [clause] &middot; [clause], *apropos of* [noun phrase]
@@ -350,6 +403,7 @@ Marks a remark as occasioned by something just mentioned. Its single most common
 ### as concerns
 
 **Pronunciation:** /æz kənˈsɜrnz/ &middot; weak /əz kənˈsɜrnz/ &middot; *az-kun-SURNZ*
+**Русский:** что касается — офиц. ввод темы, обычно при переходе к её части
 **Type:** complex &middot; **Register:** formal
 **Complement:** noun phrase, gerund, or a *wh*-clause; never a finite *that*-clause.
 **Pattern:** *As concerns* [noun phrase], [clause] &middot; [clause] *as concerns* [noun phrase]
@@ -365,11 +419,33 @@ Frames a topic in formal writing, usually to mark a shift to one part of a large
 
 **See also:** [as regards](#as-regards), [concerning](#concerning), [as for](#as-for), [as to](#as-to)
 
+### as defined in
+
+**Pronunciation:** /æz dɪˈfaɪnd ɪn/ &middot; weak /əz dəˈfaɪnd ɪn/ &middot; *az-dih-FYND-in* &middot; the stress is on *-fined*; *as* and final *in* both reduce, and in fast reading the whole phrase runs together as /əzdəˈfaɪndɪn/
+**Русский:** юр. в значении, определённом в — отсылка к месту, где термин определён
+**Type:** complex and participial — a reduced passive clause (*as [it is] defined in*) hardened into a cross-reference marker &middot; **Register:** legal and contractual
+**Complement:** a noun phrase naming a **text**: a section, subsection, article, exhibit, schedule, statute, rule, or the agreement itself (*as defined in Section 1.2*, *as defined in the Plan*). **No gerund and no clause of any kind** — ✗ *as defined in that the parties agreed*, ✗ *as defined in setting the price*. Where the text being pointed at is the present one, American drafters switch to an adverb that governs nothing: *as defined herein*, *as defined above*.
+**Pattern:** [defined term, capitalized or in quotation marks] *as defined in* [text reference] &middot; *"Change of Control," as defined in Section 8(c), ...*
+**Variants:** *as defined herein*, *as defined above*, *as defined below* (adverbs, no object); *as that term is defined in* (the unhurried long form); *as defined by*, which takes an agent rather than a place — *as defined by the Secretary* names who did the defining, not where the definition sits
+**Contrast:** Three drafting phrases do three different jobs and are mixed constantly. *As defined in* **points at where a meaning lives**; [within the meaning of](#within-the-meaning-of) **asserts that a thing falls inside that meaning**; and [as used in](#as-used-in) **writes the meaning down**. So: *an "affiliate" as defined in Rule 12b-2* (the definition is over there), *an affiliate within the meaning of Rule 12b-2* (this company is one), and *as used in this Act, "affiliate" means* (here is the definition). Where an American meets it: a lease, an employment agreement, an insurance policy, a 401(k) summary, and every filing the company makes with the SEC.
+
+The drafter's pointer. It ties a term to the place where its meaning is fixed, so the meaning never has to be written twice — and so that amending it once amends it everywhere.
+
+1. "Confidential Information," *as defined in* Section 1.2, survives termination of this Agreement.
+2. The tenant is a small business *as defined in* the Small Business Act.
+3. Benefits vest on a Change of Control *as defined in* the Plan and on no other event.
+4. Overtime is computed on the regular rate *as defined in* the Fair Labor Standards Act.
+5. The policy excludes flood *as defined in* the National Flood Insurance Program.
+6. Each capitalized term not otherwise defined here has the meaning given it *as defined in* the master agreement.
+
+**See also:** [as used in](#as-used-in), [within the meaning of](#within-the-meaning-of), [as set forth in](#as-set-forth-in), [as provided in](#as-provided-in), [for purposes of](#for-purposes-of)
+
 ### as for
 
 **Pronunciation:** /æz ˈfɔr/ &middot; weak /əz fɚ/, also written /əz fər/ &middot; *az-FOR*
+**Русский:** что касается, а вот — переключение темы: выбирает один пункт из обсуждаемых
 **Type:** complex &middot; **Register:** neutral
-**Complement:** noun phrase, objective pronoun (*as for me*, *as for them* — never ✗ *as for I*), gerund, or a fused *wh*-nominal (*as for what he said afterward*); **never a finite *that*-clause** (✗ *as for that he was late*).
+**Complement:** noun phrase, objective pronoun (*as for me*, *as for them* — never **as for I*), gerund, or a fused *wh*-nominal (*as for what he said afterward*); ✗ *never a finite *that*-clause** (✗ *as for that he was late*).
 **Pattern:** *As for* [noun phrase], [clause]. — essentially always sentence-initial; it cannot be stranded and it does not sit comfortably at the end of a sentence.
 **Contrast:** *As for* switches to a topic already in play, usually one of several items, and very often signals that the new item will fare worse than the last (*As for the rest of you...*). [As to](#as-to) raises a matter for consideration and can sit anywhere in the sentence. [With regard to](#with-regard-to) and [as regards](#as-regards) are neutral framing devices with no contrastive charge at all.
 
@@ -387,6 +463,7 @@ The English topic-switch marker. It picks one item out of a set under discussion
 ### as per
 
 **Pronunciation:** /æz ˈpɜr/ &middot; weak /əz pɚ/ &middot; *az-PUR*
+**Русский:** согласно, в соответствии с — коммерч.; as per usual — шутл. «как обычно»
 **Type:** complex (English *as* + Latin *per* "through, by," pressed into commercial service) &middot; **Register:** business and commercial; long and loudly disliked by usage guides
 **Complement:** noun phrase only — a document, an instruction, a conversation, or a published standard. No gerund, no *wh*-nominal, and **never a finite clause**: ✗ *as per you asked* → *as per your request*, or better, *as you asked*.
 **Pattern:** *As per* [noun phrase], [clause] &middot; [clause] *as per* [noun phrase] &middot; fixed: *as per usual*
@@ -410,13 +487,35 @@ The invoice-and-work-order preposition. It survives because it sounds official, 
 
 **See also:** [according to](11-complex-multiword.md#according-to), [in reference to](#in-reference-to), [with reference to](#with-reference-to), [in accordance with](11-complex-multiword.md#in-accordance-with), [as regards](#as-regards)
 
+### as provided in
+
+**Pronunciation:** /æz prəˈvaɪdɪd ɪn/ &middot; weak /əz prəˈvaɪdəd ɪn/ &middot; *az-pruh-VY-did-in* &middot; four syllables of which only *-vy-* is stressed, so the phrase is easy to miss in read-aloud statutory language
+**Русский:** юр. как предусмотрено в — отсылка к норме вместо её повторения
+**Type:** complex and participial — a reduced passive clause (*as [it is] provided in*) &middot; **Register:** legal and statutory; the standard American drafting connective
+**Complement:** a noun phrase naming a text — a section, subsection, article, rule, statute, or instrument. **No gerund and no clause of any kind** (✗ *as provided in that notice is given*). The sibling *as provided by* takes an agent or a body of law instead (*as provided by law*, *as provided by the Secretary*), and *as provided herein* substitutes an adverb and governs nothing.
+**Pattern:** *Except as provided in* [text], [rule] &middot; [rule], *as provided in* [text] &middot; *As provided in* [text], [clause]
+**Variants:** *except as provided in* — much the commonest frame, and the one that carves an exception out of a rule the sentence has just stated; *as otherwise provided in*; *as provided by law*; *as provided herein* (adverb, no object)
+**Contrast:** [As set forth in](#as-set-forth-in) points at where something is **written out**; *as provided in* points at where something is **directed**, so its object is a rule that governs rather than a description that informs. Against [pursuant to](11-complex-multiword.md#pursuant-to), which says an act was taken **under** a named authority, this phrase says the manner, the timing, or the exception is **stated** in it — *notice given pursuant to Article 9* was authorized by Article 9, while *notice given as provided in Article 9* followed the recipe there. Where an American meets it: a statute, a municipal code, a set of bylaws, a lease, and any notice arriving from a state agency.
+
+The drafter's cross-reference to a governing rule. It borrows the authority of a named provision instead of restating it, and the *except* frame in front of it is doing most of the work in American statutes.
+
+1. Except *as provided in* subsection (b), no permit may be issued after June 30.
+2. Notice shall be given *as provided in* Article 9 of the bylaws.
+3. The deposit is refundable *as provided in* the lease and not otherwise.
+4. Interest accrues *as provided in* Section 4.3.
+5. *As provided in* the settlement, payments begin thirty days after entry of judgment.
+6. Coverage terminates *as provided in* the plan document, whatever the enrollment portal says.
+
+**See also:** [as set forth in](#as-set-forth-in), [as defined in](#as-defined-in), [as per](#as-per), [pursuant to](11-complex-multiword.md#pursuant-to), [in accordance with](11-complex-multiword.md#in-accordance-with)
+
 ### as regards
 
 **Pronunciation:** /æz rɪˈɡɑrdz/ &middot; weak /əz rɪˈɡɑrdz/ &middot; *az-rih-GARDZ*
+**Русский:** что касается — офиц.; амер. редактор заменит на regarding или about
 **Type:** complex &middot; **Register:** formal
 **Complement:** noun phrase, gerund, or a *wh*-clause; never a finite *that*-clause.
 **Pattern:** *As regards* [noun phrase], [clause] &middot; [clause] *as regards* [noun phrase]
-**Variants:** *as respects* (rare, legal drafting)
+**Variants:** [as respects](#as-respects) (rare, and now chiefly American insurance drafting)
 **Contrast:** ***As regards to* is an error** — a blend of *as regards* and *with regard to*. Choose one or the other. And note that this is the one place in the family where an *s* is correct: *regards* here is the verb *regard* agreeing with an implied subject ("as it regards"), not the plural of the noun. Compare [with regard to](#with-regard-to), where the *s* is always wrong.
 
 A formal, slightly British-flavored way to introduce a topic. Every American editor will shorten it to *regarding* or *about*.
@@ -429,11 +528,53 @@ A formal, slightly British-flavored way to introduce a topic. Every American edi
 
 **See also:** [with regard to](#with-regard-to), [in regard to](#in-regard-to), [as concerns](#as-concerns), [regarding](#regarding), [as for](#as-for)
 
+### as respects
+
+**Pronunciation:** /æz rɪˈspɛkts/ &middot; weak /əz rɪˈspɛkts/ &middot; *az-rih-SPEKTS* &middot; the final cluster /kts/ is regularly simplified to /ks/ in speech, which is one reason the phrase is so rarely said aloud
+**Русский:** офиц./устар. в отношении — живёт в амер. страховых полисах: сужает условие до части покрытия
+**Type:** complex — a fossilized clause whose verb agrees with an unexpressed subject ("as it respects") &middot; **Register:** formal and legal, and now decidedly dated; its one living home is American insurance drafting
+**Complement:** noun phrase or gerund (*as respects filing after the deadline*); a fused *wh*-nominal is grammatical but vanishingly rare; **never a finite *that*-clause** (✗ *as respects that the loss occurred in June*).
+**Pattern:** *As respects* [noun phrase], [clause] &middot; [clause] *as respects* [noun phrase]
+**Contrast:** Built exactly like [as regards](#as-regards) and [as concerns](#as-concerns), and the *-s* is fixed for the same reason: it is verb agreement, not a plural noun. ***As respect* is an error** and so is ***as respects to***. Do not confuse it with [with respect to](#with-respect-to), the standard American phrase, or with [in respect of](#in-respect-of), the British one, and keep it clear of *out of respect for*, which is about deference rather than topic. On a policy declarations page it does real work, fencing a limit to one coverage part; in ordinary prose it is an antique, and [regarding](#regarding) is the repair.
+
+The rarest of the three *as*-plus-verb frames. An American is most likely to meet it on the declarations page or an endorsement of an insurance policy, where it restricts a limit, a deductible, or an exclusion to one slice of the coverage.
+
+1. The limit applies separately *as respects* each insured location.
+2. *As respects* bodily injury, the deductible is waived.
+3. This insurance is excess *as respects* any other valid and collectible coverage.
+4. The policy is silent *as respects* mold.
+5. *As respects* the second count, the demurrer is sustained.
+6. Nothing in the endorsement changes the policy *as respects* property damage.
+
+**See also:** [as regards](#as-regards), [as concerns](#as-concerns), [with respect to](#with-respect-to), [in respect of](#in-respect-of), [regarding](#regarding)
+
+### as set forth in
+
+**Pronunciation:** /æz sɛt ˈfɔrθ ɪn/ &middot; weak /əz sət ˈfɔrθ ɪn/ &middot; *az-set-FORTH-in* &middot; the stress lands on *forth*, and *set* is unstressed enough that many speakers reduce its vowel to /ə/
+**Русский:** юр. как изложено в — отсылка к тексту в том же документе
+**Type:** complex and participial — a reduced passive clause built on the phrasal verb *set forth* &middot; **Register:** legal and contractual; the workhorse cross-reference of American drafting
+**Complement:** a noun phrase naming a text or a place inside one — *Exhibit A*, *Schedule 2*, *the recitals*, *Section 4*, *the attached specification*. **No gerund and no clause of any kind** (✗ *as set forth in that the parties agreed*). *As set forth herein*, *above*, and *below* substitute an adverb and govern nothing.
+**Pattern:** [noun phrase] *as set forth in* [text] &middot; *on the terms set forth in* [text] &middot; *as more particularly set forth in* [text]
+**Variants:** *as set out in* (British and Commonwealth); *as described in*, *as specified in*, *as stated in* (plainer, and better anywhere outside a contract); *as set forth herein* / *above* / *below* (adverbs, no object); *as more fully set forth in* and *as more particularly set forth in* (the drafter's emphatic forms)
+**Contrast:** Against [as defined in](#as-defined-in), which points at a **meaning**, and [as provided in](#as-provided-in), which points at a **rule**, this phrase points at **content** — the place where something is written out in full. It is also the member of the three that most readily decays into padding: *the services set forth in Exhibit A* is doing work, while *as set forth in this Agreement above* is doing none, and an editor will cut it. Note the vocabulary trap: *set forth* here is the old sense "state, lay out," not the sense of setting forth on a journey.
+
+The drafter's pointer to content stated somewhere else in the same instrument. It says the words are over there and spares the reader a second copy of them.
+
+1. The vendor shall perform the services *as set forth in* Exhibit A.
+2. Compensation is *as set forth in* Schedule 2 and may not be changed orally.
+3. The parties acknowledge the recitals *as set forth in* the preamble.
+4. Payment terms are *as set forth in* the purchase order.
+5. *As set forth in* the court's earlier opinion, the statute has no retroactive effect.
+6. Milestones are *as more particularly set forth in* the statement of work.
+
+**See also:** [as defined in](#as-defined-in), [as provided in](#as-provided-in), [as used in](#as-used-in), [as per](#as-per), [in accordance with](11-complex-multiword.md#in-accordance-with)
+
 ### as to
 
 **Pronunciation:** /æz ˈtu/ &middot; weak /əz tə/ &middot; *az-TOO*
+**Русский:** относительно, насчёт — вводит косвенный вопрос: as to whether — «относительно того, ...ли»
 **Type:** complex &middot; **Register:** neutral to formal
-**Complement:** noun phrase, gerund (*as to paying the balance*), or a *wh*-clause **including one headed by *whether*** (*as to whether the deal closes*) — **never a finite *that*-clause** (✗ *no doubt as to that the roof will fail*) and **never a bare infinitive** (✗ *as to pay the balance*). The *to* here is a **preposition**, which is why a verb after it takes *-ing*; the one construction that looks like an exception is the infinitival indirect question, where the infinitive belongs to the *wh*-word and not to *as to*: *no guidance as to how to proceed*, *undecided as to whether to appeal*.
+**Complement:** noun phrase, gerund (*as to paying the balance*), or a *wh*-clause ✗ *including one headed by *whether*** (*as to whether the deal closes*) — ✗ *never a finite *that*-clause** (✗ *no doubt as to that the roof will fail*) and **never a bare infinitive** (✗ *as to pay the balance*). The *to* here is a **preposition**, which is why a verb after it takes *-ing*; the one construction that looks like an exception is the infinitival indirect question, where the infinitive belongs to the *wh*-word and not to *as to*: *no guidance as to how to proceed*, *undecided as to whether to appeal*.
 **Pattern:** [noun of doubt or dispute] *as to* [*wh*-clause] &middot; [clause] *as to* [noun phrase] &middot; *As to* [noun phrase], [clause]
 **Contrast:** After a verb, *as to* is usually deadweight: *they disagreed as to how it happened* is better as *they disagreed about how it happened*. After an abstract noun it earns its place, because bare *of* would change the meaning or fail outright — *no evidence as to motive* is standard, *questions as to whether* is standard, and *doubt of whether* is not English. Against [as for](#as-for), *as to* does not switch topics; it opens a question.
 
@@ -459,9 +600,30 @@ The standard bridge from a noun of uncertainty to an indirect question. That is 
 
 **See also:** [as for](#as-for), [as regards](#as-regards), [with regard to](#with-regard-to), [in relation to](#in-relation-to), [about](#about)
 
+### as used in
+
+**Pronunciation:** /æz ˈjuzd ɪn/ &middot; weak /əz ˈjuzd ɪn/ &middot; *az-YOOZD-in* &middot; note the /z/ and the voiced ending: *used* here is the passive participle of *use*, so it is /juzd/, and it is never the /just/ of *used to*
+**Русский:** юр. в значении, используемом в — открывает раздел определений: значение только для этого текста
+**Type:** complex and participial — a reduced passive clause (*as [it is] used in*) &middot; **Register:** legal and statutory; the standard American opener of a definitions section
+**Complement:** a noun phrase naming the text whose vocabulary is being fenced — *this section*, *this chapter*, *this Act*, *these regulations*, *this Agreement*. **No gerund and no clause of any kind** (✗ *as used in that the statute says*). The object is always the text, never the term: ✗ *as used in "employee"* is impossible, because the term belongs in the subject of what follows.
+**Pattern:** *As used in* [text], [term] *means* [definition] &middot; *As used in* [text], the following terms have the following meanings
+**Contrast:** The mirror image of [as defined in](#as-defined-in). *As used in* stands at the head of the definition and **creates** the local meaning; *as defined in* stands beside the term somewhere else and **borrows** it. Against [for purposes of](#for-purposes-of), which fences any rule — substantive or definitional — to a named body of law, this phrase fences the vocabulary alone, and in the definitional case the two are near-interchangeable: *as used in this section, "resident" means* and *for purposes of this section, "resident" means* differ only in house style. Where an American meets it: the first paragraph of almost any statute, ordinance, or regulation, and the definitions article of any contract long enough to have one.
+
+The phrase that opens a definitions section. It announces that the meanings about to be given are local, and that the ordinary English senses of those same words are left undisturbed everywhere else.
+
+1. *As used in* this chapter, "vehicle" includes a trailer.
+2. *As used in* the ordinance, "night" means the hours between ten and six.
+3. *As used in* this Agreement, "Business Day" excludes federal holidays.
+4. *As used in* Title VII, "employer" reaches any entity with fifteen or more employees.
+5. *As used in* these regulations, the singular includes the plural.
+6. The word carries its ordinary meaning except *as used in* subsection (d).
+
+**See also:** [as defined in](#as-defined-in), [for purposes of](#for-purposes-of), [within the meaning of](#within-the-meaning-of), [as set forth in](#as-set-forth-in), [in the matter of](#in-the-matter-of)
+
 ### in connection with
 
 **Pronunciation:** /ɪn kəˈnɛkʃən wɪθ/ &middot; weak /ɪn kəˈnɛkʃən wəθ/ &middot; also /wɪð/, /wəð/ before a vowel &middot; *in-kuh-NEK-shun-with*
+**Русский:** в связи с — офиц.: связь с событием без уточнения какая (arrested in connection with)
 **Type:** complex &middot; **Register:** formal; a fixture of police statements, journalism, and securities filings
 **Complement:** noun phrase, gerund (*in connection with relocating*), or a fused *wh*-nominal (*in connection with what happened that night*); **never a finite *that*-clause**.
 **Pattern:** [clause] *in connection with* [noun phrase] &middot; *In connection with* [noun phrase], [clause]
@@ -491,6 +653,7 @@ States that something is linked to a matter without specifying how. That vaguene
 ### in reference to
 
 **Pronunciation:** /ɪn ˈrɛf(ə)rəns tu/ &middot; weak /ɪn ˈrɛfrəns tə/ &middot; *in-REF-runss-too*
+**Русский:** в связи с, со ссылкой на — деловая переписка: отсылка к письму или документу
 **Type:** complex &middot; **Register:** formal, business correspondence
 **Complement:** noun phrase, gerund, or a fused *wh*-nominal (*in reference to what you asked on Tuesday*); **never a finite *that*-clause**.
 **Pattern:** *In reference to* [noun phrase], [clause] &middot; [clause] *in reference to* [noun phrase]
@@ -509,6 +672,7 @@ Points back to a document, a message, or a prior communication. It is at its mos
 ### in regard to
 
 **Pronunciation:** /ɪn rɪˈɡɑrd tu/ &middot; weak /ɪn rɪˈɡɑrd tə/ &middot; *in-rih-GARD-too*
+**Русский:** относительно, что касается — офиц. трёхсловное about; то же, что with regard to
 **Type:** complex &middot; **Register:** formal
 **Complement:** noun phrase, gerund, or a fused *wh*-nominal (*in regard to who signs the checks*); **never a finite *that*-clause**.
 **Pattern:** *In regard to* [noun phrase], [clause] &middot; [clause] *in regard to* [noun phrase]
@@ -528,6 +692,7 @@ A three-word *about*, indistinguishable in meaning from *with regard to*.
 ### in relation to
 
 **Pronunciation:** /ɪn rɪˈleɪʃən tu/ &middot; weak /ɪn rɪˈleɪʃən tə/ &middot; *in-rih-LAY-shun-too*
+**Русский:** относительно, в отношении — тема; также «по сравнению с, соразмерно с»
 **Type:** complex &middot; **Register:** formal
 **Complement:** noun phrase, gerund, or a fused *wh*-nominal (*in relation to what the policy covers*); **never a finite *that*-clause**. In the comparative sense (2) the object must be a noun phrase — a gerund will not go there.
 **Pattern:** [clause] *in relation to* [noun phrase] &middot; *In relation to* [noun phrase], [clause]
@@ -551,6 +716,7 @@ A three-word *about*, indistinguishable in meaning from *with regard to*.
 ### in respect of
 
 **Pronunciation:** /ɪn rɪˈspɛkt əv/ &middot; weak /ɪn rɪˈspɛkt ə/ &middot; *in-rih-SPEKT-uv*
+**Русский:** брит./юр. в отношении, по — предмет права, платежа, обязательства; амер. норма — with respect to
 **Type:** complex &middot; **Register:** formal and legal; **British and Commonwealth-leaning**
 **Complement:** noun phrase or gerund; **never a finite clause of any kind**. In its home register — insurance, tax, and contract drafting — the object is almost always a bare noun naming a liability, a period, an asset, or a class of loss.
 **Pattern:** [clause] *in respect of* [noun phrase] &middot; *In respect of* [noun phrase], [clause]
@@ -580,6 +746,7 @@ Identifies the thing a right, payment, liability, or rule applies to.
 ### on the score of
 
 **Pronunciation:** /ɑn ðə ˈskɔr əv/ &middot; weak /ɑn ðə ˈskɔr ə/ &middot; *ahn-thuh-SKOR-uv*
+**Русский:** устар. по причине, в отношении — живо лишь оборотом on that score «на этот счёт»
 **Type:** complex &middot; **Register:** formal and dated; only the fixed *on that score* is still ordinary American English
 **Complement:** a noun phrase, characteristically a **bare abstract noun naming a dimension of judgment** — *cost*, *safety*, *health*, *taste*, *proportion*. A gerund is grammatical but stiff (*on the score of having failed to file*), and **no clause of any kind** will go here.
 **Pattern:** [clause] *on the score of* [noun phrase] &middot; *On the score of* [noun phrase], [clause] &middot; fixed: *on that score*, *on this score*
@@ -600,6 +767,7 @@ Restricts a judgment to one dimension, the way *as regards* does, with a Victori
 ### vis-à-vis
 
 **Pronunciation:** /ˌviz ə ˈvi/ &middot; also /ˌvi zɑ ˈvi/ &middot; *veez-ah-VEE* (both *s* letters silent) &middot; **no weak form** — the French stress on the final syllable is kept, and the middle *à* is already as reduced as it gets
+**Русский:** по отношению к, в сравнении с — книжн.; также «относительно» и устар. «лицом к лицу с»
 **Type:** complex (French, literally "face to face") &middot; **Register:** formal
 **Complement:** noun phrase; a gerund is possible but stiff (*vis-à-vis raising the cap*); **never a clause of any kind**.
 **Pattern:** [clause] *vis-à-vis* [noun phrase] &middot; *Vis-à-vis* [noun phrase], [clause]
@@ -627,6 +795,7 @@ Restricts a judgment to one dimension, the way *as regards* does, with a Victori
 ### with reference to
 
 **Pronunciation:** /wɪθ ˈrɛf(ə)rəns tu/ &middot; weak /wəθ ˈrɛfrəns tə/ &middot; *with-REF-runss-too*
+**Русский:** со ссылкой на, применительно к — в переписке; в технике — «относительно» точки отсчёта
 **Type:** complex &middot; **Register:** formal, business and technical
 **Complement:** noun phrase, gerund, or a fused *wh*-nominal (*with reference to what the drawings show*); **never a finite *that*-clause**.
 **Pattern:** *With reference to* [noun phrase], [clause] &middot; [clause] *with reference to* [noun phrase]
@@ -651,8 +820,9 @@ Opens a letter or a paragraph by naming the document being answered.
 ### with regard to
 
 **Pronunciation:** /wɪθ rɪˈɡɑrd tu/ &middot; weak /wəθ rɪˈɡɑrd tə/ &middot; *with-rih-GARD-too*
+**Русский:** относительно, что касается — офиц. многословное about; without regard to — «независимо от»
 **Type:** complex &middot; **Register:** formal
-**Complement:** noun phrase or gerund (*with regard to filing late* — the *to* is a preposition, so ✗ *with regard to file late* is impossible); **never a finite *that*-clause** (✗ *with regard to that the rent is late*). A fused *wh*- or *whether*-nominal is grammatical but clumsy here — write *as to whether the deal closes*, not *with regard to whether the deal closes*, and see [as to](#as-to).
+**Complement:** noun phrase or gerund (*with regard to filing late* — the *to* is a preposition, so **with regard to file late* is impossible); ✗ *never a finite *that*-clause** (✗ *with regard to that the rent is late*). A fused *wh*- or *whether*-nominal is grammatical but clumsy here — write *as to whether the deal closes*, not *with regard to whether the deal closes*, and see [as to](#as-to).
 **Pattern:** *With regard to* [noun phrase], [clause] &middot; [clause] *with regard to* [noun phrase] &middot; negated as *without regard to* [noun phrase]
 **Variants:** [in regard to](#in-regard-to); *having regard to* (legal and British); *as regards* and *regarding* as one-word and two-word alternatives
 **Contrast:** **The singular is the rule: *with regard to*, *in regard to*, *without regard to*. *With regards to* and *in regards to* are errors.** *Regards* with an *s* is the plural of the noun meaning "good wishes" — which is exactly why *Best regards* closes a letter and *give her my regards* is idiomatic, while *with regards to your invoice* is not. The single exception in the whole family is [as regards](#as-regards), where *regards* is a verb, not a noun.
@@ -678,6 +848,7 @@ The most common of the long-form topic phrases, and the one whose plural error i
 ### with respect to
 
 **Pronunciation:** /wɪθ rɪˈspɛkt tu/ &middot; weak /wəθ rɪˈspɛkt tə/ &middot; *with-rih-SPEKT-too*
+**Русский:** в отношении, относительно — норма юр. и тех. прозы; в математике — «по» (производная по x)
 **Type:** complex &middot; **Register:** formal; the default in legal, mathematical, and engineering prose
 **Complement:** noun phrase, gerund, or a fused *wh*-nominal (*with respect to whether the clause survives closing*); **never a finite *that*-clause**. In the technical sense (2) the object must be a noun phrase naming a variable or a baseline.
 **Pattern:** [clause] *with respect to* [noun phrase] &middot; *With respect to* [noun phrase], [clause] &middot; abbreviated *w.r.t.* in technical notation
@@ -699,11 +870,12 @@ The most common of the long-form topic phrases, and the one whose plural error i
 
 ## Limiting the frame
 
-These do not simply name a topic — they fence one off. Each says "within this domain and no other," which is why they so often carry an unstated *but elsewhere the answer would be different*. Three of them started life as clauses and hardened into prepositions — [as far as X is concerned](#as-far-as-x-is-concerned), [when it comes to](#when-it-comes-to), and, in its fixed phrases, [as a matter of](#as-a-matter-of) — and two, [for purposes of](#for-purposes-of) and [in the case of](#in-the-case-of), are the workhorses of American legal drafting, where fencing a rule off is the whole job.
+These do not simply name a topic — they fence one off. Each says "within this domain and no other," which is why they so often carry an unstated *but elsewhere the answer would be different*. Three of them started life as clauses and hardened into prepositions — [as far as X is concerned](#as-far-as-x-is-concerned), [when it comes to](#when-it-comes-to), and, in its fixed phrases, [as a matter of](#as-a-matter-of) — and two, [for purposes of](#for-purposes-of) and [in the case of](#in-the-case-of), are the workhorses of American legal drafting, where fencing a rule off is the whole job. Four more fence a claim off to a **point of view** rather than to a subject — [in the eyes of](#in-the-eyes-of), [in the opinion of](#in-the-opinion-of), its archaic twin [in the sight of](#in-the-sight-of), and [on the face of](#on-the-face-of), which restricts a claim to what the surface shows — and [within the meaning of](#within-the-meaning-of) is the third legal workhorse, the one that asks whether a thing falls inside a definition somebody else wrote.
 
 ### as a matter of
 
 **Pronunciation:** /æz ə ˈmætər əv/ &middot; weak /əz ə ˈmætər ə/ &middot; *az-uh-MAT-ur-uv*
+**Русский:** с точки зрения, в порядке — as a matter of law «юридически»; as a matter of fact «на самом деле»
 **Type:** complex &middot; **Register:** formal; standard in legal, policy, and business prose
 **Complement:** a **bare abstract noun with no article** — *law*, *fact*, *policy*, *principle*, *right*, *course*, *practice*, *convenience*. Nothing else goes here: no gerund, no concrete noun, and **no clause of any kind** (✗ *as a matter of the policy*, ✗ *as a matter of that it was late*).
 **Pattern:** *As a matter of* [bare abstract noun], [clause] &middot; [clause] *as a matter of* [bare abstract noun]
@@ -734,6 +906,7 @@ Says which order of consideration a statement belongs to. In American legal writ
 ### as far as X is concerned
 
 **Pronunciation:** /æz ˈfɑr æz ... ɪz kənˈsɜrnd/ &middot; weak /əz ˈfɑr əz ... ɪz kənˈsɜrnd/ &middot; *az-FAR-az ... iz-kun-SURND*
+**Русский:** что касается X — разрывный оборот: объект стоит внутри; намёк, что в другом иначе
 **Type:** complex and **discontinuous** — a fossilized clause that works as a preposition, with its object sitting inside the frame rather than after it &middot; **Register:** neutral to informal
 **Complement:** a noun phrase or objective pronoun in the gap (*as far as **the wiring** is concerned*); the frame then closes with *is/are concerned* or *goes/go*. **Never a finite *that*-clause inside the gap**, and note the cross-class trap: *as far as* followed by a whole clause and **no** closing *is concerned* (*as far as I know*, *as far as I can tell*, *as far as anyone remembers*) is the **conjunction**, a different construction that hedges the speaker's certainty rather than restricting a domain.
 **Pattern:** *As far as* [noun phrase] *is concerned*, [clause] &middot; [clause], *as far as* [noun phrase] *goes* &middot; *As far as* [pronoun] *is concerned*, [clause]
@@ -754,6 +927,7 @@ Restricts a claim to one domain or one person's view, almost always implying tha
 ### by way of
 
 **Pronunciation:** /baɪ ˈweɪ əv/ &middot; weak /baɪ ˈweɪ ə/ &middot; *by-WAY-uv*
+**Русский:** в качестве, в порядке — by way of apology «в качестве извинения»; также «через» о маршруте
 **Type:** complex &middot; **Register:** formal
 **Complement:** in sense 1 a **bare abstract noun with no article** (*by way of apology*) or a gerund (*by way of explaining himself*); in senses 2 and 3 an ordinary noun phrase. **Never a clause of any kind.**
 **Pattern:** [clause] *by way of* [noun phrase] &middot; *By way of* [noun phrase], [clause]
@@ -780,6 +954,7 @@ Restricts a claim to one domain or one person's view, almost always implying tha
 ### for purposes of
 
 **Pronunciation:** /fɔr ˈpɜrpəsəz əv/ &middot; weak /fɚ ˈpɜrpəsəz ə/ (*for* reduces to /fɚ/, also written /fər/, and final *of* to /ə/) &middot; *fur-PUR-puh-siz-uv*
+**Русский:** юр. для целей — ограничивает определение или расчёт рамками названного текста
 **Type:** complex &middot; **Register:** formal and legal — the standard American drafting phrase for fencing off a definition
 **Complement:** a noun phrase, most often naming a statute, section, rule, article, or analysis (*for purposes of this Article*, *for purposes of the overtime calculation*); a gerund is possible and common in tax drafting (*for purposes of calculating basis*); **never a clause of any kind**.
 **Pattern:** *For purposes of* [noun phrase], [clause] &middot; [clause] *for purposes of* [noun phrase]
@@ -805,6 +980,7 @@ Declares that what follows is true inside one stated set of rules and nowhere el
 ### in the case of
 
 **Pronunciation:** /ɪn ðə ˈkeɪs əv/ &middot; weak /ɪn ðə ˈkeɪs ə/ &middot; *in-thuh-KACE-uv*
+**Русский:** в случае с, что касается — выделяет одного из класса и говорит, как к нему применимо правило
 **Type:** complex &middot; **Register:** neutral to formal
 **Complement:** noun phrase, gerund (*in the case of subletting without notice*), or a fused *wh*-nominal (*in the case of who inherits*); **never a finite *that*-clause**.
 **Pattern:** *In the case of* [noun phrase], [clause] &middot; [clause] *in the case of* [noun phrase] &middot; *except in the case of* [noun phrase]
@@ -821,9 +997,72 @@ Picks one member out of a class and states how the general rule applies to it. T
 
 **See also:** [as for](#as-for), [as far as X is concerned](#as-far-as-x-is-concerned), [in the matter of](#in-the-matter-of), [in case of](11-complex-multiword.md#in-case-of), [with respect to](#with-respect-to)
 
+### in the eyes of
+
+**Pronunciation:** /ɪn ði ˈaɪz əv/ &middot; weak /ɪn ði ˈaɪz ə/ &middot; *in-thee-EYEZ-uv* &middot; note the article: *the* is /ði/ here rather than /ðə/, because *eyes* begins with a vowel
+**Русский:** в глазах — с точки зрения одной стороны: in the eyes of the law «в глазах закона»
+**Type:** complex &middot; **Register:** neutral to formal
+**Complement:** a noun phrase naming a person, a group, or an institution capable of holding a view — *the law*, *the court*, *his colleagues*, *the public*, *God*. **No gerund and no clause of any kind** (✗ *in the eyes of paying late*, ✗ *in the eyes of that he lied*). A pronoun object is stilted; American English switches to the possessive frame *in my eyes*, *in her eyes*, and ✗ *in the eyes of me* is not English.
+**Pattern:** *In the eyes of* [noun phrase], [clause] &middot; [clause] *in the eyes of* [noun phrase] &middot; possessive: *in* [possessive] *eyes*
+**Contrast:** Against [in the opinion of](#in-the-opinion-of), which reports a judgment somebody actually formed and usually stated, this phrase reports how a thing is **perceived**, whether or not anyone has said so — which is exactly why *in the eyes of the law* is idiomatic while ✗ *in the opinion of the law* is not: the law has a standing view, not an opinion it arrived at last Tuesday. Against [in the sight of](#in-the-sight-of), its archaic religious twin, this is the living modern phrase and has taken over every secular job. The plural is fixed: ✗ *in the eye of the law*, and *the eye of the storm* is a different metaphor altogether.
+
+Restricts a claim to how one party sees it, with the standing implication that somebody else sees it differently. It is the ordinary American way of saying that a legal, professional, or social fiction is in force.
+
+1. *In the eyes of* the law, the two companies are a single employer.
+2. The apology cost him nothing and gained him nothing *in the eyes of* the staff.
+3. *In the eyes of* her students, the whole semester was a disaster.
+4. A signed receipt is enough *in the eyes of* the auditors.
+5. The sale made him, *in the eyes of* the neighborhood, the man who lost the park.
+6. *In the eyes of* the IRS, a hobby that turns a profit three years out of five is a business.
+
+**See also:** [in the opinion of](#in-the-opinion-of), [in the sight of](#in-the-sight-of), [on the face of](#on-the-face-of), [as far as X is concerned](#as-far-as-x-is-concerned), [according to](11-complex-multiword.md#according-to)
+
+### in the opinion of
+
+**Pronunciation:** /ɪn ði əˈpɪnjən əv/ &middot; weak /ɪn ði əˈpɪnjən ə/ &middot; *in-thee-uh-PIN-yun-uv* &middot; *the* is /ði/ before the vowel of *opinion*, and the stress sits on *-pin-*
+**Русский:** по мнению — офиц.: приписывает суждение тому, кто его вынес, признавая его суждением
+**Type:** complex &middot; **Register:** formal; standard in judicial opinions, opinion letters, audit reports, and medical evaluations
+**Complement:** a noun phrase naming a person or a deliberating body — *the court*, *counsel*, *the examining physician*, *the committee*. **No gerund and no clause of any kind** (✗ *in the opinion of that the claim fails*). With a first- or second-person referent English switches to the possessive: *in my opinion*, *in our opinion*, and ✗ *in the opinion of me* is impossible.
+**Pattern:** *In the opinion of* [noun phrase], [clause] &middot; [clause] *in the opinion of* [noun phrase] &middot; possessive: *in* [possessive] *opinion*
+**Variants:** *in the view of* (interchangeable and a shade less formal); *in the judgment of* (implies a decision reached rather than a belief held); *in my opinion*, and its internet clipping *IMO*, for the first person
+**Contrast:** Against [according to](11-complex-multiword.md#according-to), which reports what somebody **said**, this phrase attributes a **judgment** — and it is the standard hedge by which a professional signs a conclusion without guaranteeing it: *in the opinion of counsel, the shares are exempt* quietly concedes that a court could disagree. Against [in the eyes of](#in-the-eyes-of), which is perception and needs no deliberation, this is deliberation and needs a deliberator. The noun stays singular: ✗ *in the opinions of the court*.
+
+Attributes a judgment to the person or body that formed it, and in doing so concedes that the judgment is a judgment and could be wrong. In an opinion letter that concession is the entire point of the phrase.
+
+1. *In the opinion of* the court, the statute is unconstitutional as applied.
+2. The shares are freely tradable *in the opinion of* counsel.
+3. *In the opinion of* the examining physician, she can return to light duty in six weeks.
+4. The statements present fairly, *in the opinion of* the auditors, the company's financial position.
+5. *In the opinion of* two of the three engineers, the bracket had already failed.
+6. Nothing in the record supports the finding, *in the opinion of* the dissent.
+
+**See also:** [in the eyes of](#in-the-eyes-of), [in the words of](#in-the-words-of), [as far as X is concerned](#as-far-as-x-is-concerned), [according to](11-complex-multiword.md#according-to), [pace](#pace)
+
+### in the sight of
+
+**Pronunciation:** /ɪn ðə ˈsaɪt əv/ &middot; weak /ɪn ðə ˈsaɪt ə/ &middot; *in-thuh-SYTE-uv* &middot; unlike [in the eyes of](#in-the-eyes-of), the article stays /ðə/ here, because *sight* begins with a consonant
+**Русский:** устар./церк. пред лицом, в очах — библейское: in the sight of God «пред Богом»
+**Type:** complex &middot; **Register:** **archaic and religious** — Early Modern English, fixed in the language by the King James Bible of 1611 and kept alive by liturgy; in modern prose it is a quotation, a liturgical formula, or a deliberate period effect, and never ordinary usage
+**Complement:** a noun phrase naming God, a deity, or — in older moral and legal English — *heaven*, *men*, *the law*. **No gerund and no clause of any kind**. Extending it past that narrow set reads as parody: ✗ *in the sight of the zoning board*.
+**Pattern:** *In the sight of* [noun phrase], [clause] &middot; [clause] *in the sight of* [noun phrase] &middot; fixed: *in the sight of God*
+**Variants:** *in God's sight* (the possessive form, equally biblical); *before God* (the plain modern equivalent); [in the eyes of](#in-the-eyes-of) (the living replacement in every secular use)
+**Contrast:** ***Do not reach for this as an ordinary modern preposition.*** [In the eyes of](#in-the-eyes-of) has taken over all of its secular work: *in the eyes of the law* is current American English, while *in the sight of the law* is dated to the point of costume. Distinguish it also from the spatial *within sight of* (*they anchored within sight of the shore*), which is about literal visibility and belongs with the prepositions of place; *in the sight of* is never spatial in modern use, however plainly the metaphor started there.
+
+The biblical and liturgical phrase for divine judgment. An American hears it at weddings and funerals and in scripture, and encounters it in writing that is reaching consciously for the seventeenth century.
+
+1. We are gathered here *in the sight of* God to join these two in marriage.
+2. The psalm asks that the words of his mouth be acceptable *in the sight of* the Lord.
+3. All are equal *in the sight of* heaven, whatever the parish register says.
+4. He believed the debt was forgiven *in the sight of* God and unforgiven everywhere else.
+5. The pamphlet argued that the trade was an abomination *in the sight of* the Almighty.
+6. *In the sight of* the moral law, she wrote, intention counts for everything.
+
+**See also:** [in the eyes of](#in-the-eyes-of), [in the opinion of](#in-the-opinion-of), [in the words of](#in-the-words-of), [touching](#touching), [anent](#anent)
+
 ### in point of
 
 **Pronunciation:** /ɪn ˈpɔɪnt əv/ &middot; weak /ɪn ˈpɔɪnt ə/ &middot; *in-POINT-uv*
+**Русский:** книжн. в отношении — живёт в in point of fact «на самом деле» и in point of law «юридически»
 **Type:** complex &middot; **Register:** formal, verging on archaic outside two fixed phrases
 **Complement:** a **bare abstract noun** — *fact*, *law*, *time*, *form*, *accuracy* — with no article. No gerund, no clause, no ordinary concrete noun.
 **Pattern:** *In point of* [bare abstract noun], [clause] &middot; [clause] *in point of* [bare abstract noun]
@@ -851,6 +1090,7 @@ Restricts a statement to a single dimension. In modern American English it survi
 ### in terms of
 
 **Pronunciation:** /ɪn ˈtɜrmz əv/ &middot; weak /ɪn ˈtɜrmz ə/ &middot; *in-TURMZ-uv*
+**Русский:** в понятиях, в пересчёте на — точный смысл; в разг. «что касается» — лишние слова
 **Type:** complex &middot; **Register:** neutral
 **Complement:** noun phrase, gerund, or a fused *wh*-nominal (*in terms of what it costs*); never a finite *that*-clause.
 **Pattern:** [clause] *in terms of* [noun phrase] &middot; *In terms of* [noun phrase], [clause]
@@ -874,6 +1114,7 @@ Restricts a statement to a single dimension. In modern American English it survi
 ### in the way of
 
 **Pronunciation:** /ɪn ðə ˈweɪ əv/ &middot; weak /ɪn ðə ˈweɪ ə/ &middot; *in-thuh-WAY-uv*
+**Русский:** в смысле, по части — после слов количества: little in the way of proof «доказательств негусто»
 **Type:** complex &middot; **Register:** neutral, slightly dated
 **Complement:** noun phrase or gerund; **never a clause of any kind**. In sense 1 a quantity word (*anything, much, little, nothing*) almost always comes first.
 **Pattern:** [quantity word: *anything, much, little, nothing*] *in the way of* [noun phrase]
@@ -893,11 +1134,42 @@ Restricts a statement to a single dimension. In modern American English it survi
 
 **See also:** [by way of](#by-way-of), [as far as X is concerned](#as-far-as-x-is-concerned), [as regards](#as-regards), [in terms of](#in-terms-of)
 
+### on the face of
+
+**Pronunciation:** /ɑn ðə ˈfeɪs əv/ &middot; weak /ɑn ðə ˈfeɪs ə/ &middot; *ahn-thuh-FACE-uv* &middot; in the fixed phrase *on the face of it* the final *of it* runs together as /əvɪt/ or simply /əvɪ/
+**Русский:** на первый взгляд — on the face of it, обычно перед возражением; юр. «из самого документа»
+**Type:** complex &middot; **Register:** neutral in *on the face of it*; legal in *on the face of the record*
+**Complement:** a noun phrase — most often the pronoun *it*, otherwise a document, record, or instrument (*the complaint*, *the statute*, *the deed*). **No gerund and no clause of any kind** (✗ *on the face of that the numbers do not add up*). The possessive frame *on its face*, *on their face* is the commoner American legal form and takes no object at all.
+**Pattern:** *On the face of it*, [clause] &middot; [clause] *on the face of* [document] &middot; possessive: [noun phrase] *on its face*
+**Variants:** *on its face*, *on their face* (the standard American legal forms); *at first blush* (the conversational equivalent); *facially*, the adverb, as in *facially invalid*; the Latin *prima facie*, which is in [formal, Latin, and archaic prepositions](13-formal-latin-archaic.md)
+**Contrast:** Two senses, and they differ in what they concede. *On the face of it* nearly always sets up a *but*: it grants the appearance in order to deny the substance. The legal sense grants nothing — *invalid on the face of the statute* means the defect is visible **without going outside the document**, which is a rule about what evidence a court may look at, not a hedge about appearances. Against [in the eyes of](#in-the-eyes-of), which fences a claim to one party's perception, this fences it to what the surface of a thing shows. And keep it apart from the fixed intensifier *on the face of the earth*, which names a place rather than an appearance.
+
+Restricts a claim to what the surface of a thing shows. In conversation that restriction is a hedge and something is about to be taken back; in a courtroom it is a rule about how far outside the document a judge may look.
+
+**1. On the face of it — judging by appearances, and usually the setup for a contradiction.** The commonest use in ordinary American English, and it almost never stands alone.
+
+1. *On the face of* it, the offer is generous.
+2. *On the face of* it nothing had changed, but every one of the staff had been reassigned.
+
+**2. Legal: from the document itself, without looking outside it.** Here the phrase is a rule about evidence, and the possessive form *on its face* is commoner still.
+
+3. The complaint fails *on the face of* the pleadings.
+4. *On the face of* the statute, the exemption reaches only nonprofits.
+5. The deed is void *on its face*.
+
+**3. Not a limiter at all — the fixed intensifier "on the face of the earth."** It names a place and concedes nothing.
+
+6. It is the finest hardware store *on the face of* the earth.
+7. There is no reason *on the face of* the earth to drive that far for gas.
+
+**See also:** [in the eyes of](#in-the-eyes-of), [in point of](#in-point-of), [as a matter of](#as-a-matter-of), [within the meaning of](#within-the-meaning-of), [as far as X is concerned](#as-far-as-x-is-concerned)
+
 ### when it comes to
 
 **Pronunciation:** /wɛn ɪt ˈkʌmz tu/ &middot; weak /wən ɪt ˈkʌmz tə/ &middot; *wen-it-KUMZ-too* &middot; the stress sits on *comes*; *when* and the final *to* both reduce, and in fast speech the whole frame runs together as /wənɪtˈkʌmztə/
+**Русский:** когда речь заходит о, что касается — разг.; несмотря на when, времени не обозначает
 **Type:** complex and **fossilized from a clause** — a *when*-clause that has hardened into a topic-marking preposition, and no longer names a time &middot; **Register:** neutral to informal; extremely common in American speech, journalism, and advertising
-**Complement:** noun phrase, objective pronoun (*when it comes to me*, never ✗ *when it comes to I*), gerund (*when it comes to raising money*), or a fused *wh*-nominal (*when it comes to who actually decides*); **never a finite *that*-clause** (✗ *when it comes to that the rent is late*). The *to* is a **preposition**, not the infinitive marker, which is exactly why a verb after it takes *-ing*: ✗ *when it comes to raise money* → *when it comes to raising money*.
+**Complement:** noun phrase, objective pronoun (*when it comes to me*, never **when it comes to I*), gerund (*when it comes to raising money*), or a fused *wh*-nominal (*when it comes to who actually decides*); ✗ *never a finite *that*-clause** (✗ *when it comes to that the rent is late*). The *to* is a **preposition**, not the infinitive marker, which is exactly why a verb after it takes *-ing*: ✗ *when it comes to raise money* → *when it comes to raising money*.
 **Pattern:** *When it comes to* [noun phrase], [clause] &middot; [clause] *when it comes to* [noun phrase] &middot; past: *when it came to* [noun phrase]
 **Variants:** *when it came to* (past, and the only inflection the frame allows); *when it comes down to* (adds "in the end, after everything else is stripped away"); *if it comes to* (hypothetical, and often a threat)
 **Contrast:** The living American equivalent of [as far as X is concerned](#as-far-as-x-is-concerned), and much the commoner of the two in speech. It differs from [as for](#as-for) in that it does not switch topics — it narrows to a domain inside the topic already running, and it very often sets up a contrast with what was just said: *He's careless with money. When it comes to his tools, he's meticulous.* Editors treat it as padding in formal prose exactly the way they treat [in terms of](#in-terms-of), and the cure is the same: make the object the subject of the sentence. **Cross-class test:** the frame is a preposition only when a noun phrase follows *to* and no clause follows the frame's own verb; ordinary temporal *when it comes to a vote we'll know* — where *a vote* is an event on the clock — is the literal *when*-clause it grew out of.
@@ -922,13 +1194,34 @@ Narrows the discussion to one domain, usually to say the general rule does not h
 
 **See also:** [as far as X is concerned](#as-far-as-x-is-concerned), [as for](#as-for), [in terms of](#in-terms-of), [on the subject of](#on-the-subject-of), [with respect to](#with-respect-to)
 
+### within the meaning of
+
+**Pronunciation:** /wɪðˈɪn ðə ˈminɪŋ əv/ &middot; weak /wəðˈɪn ðə ˈminɪŋ ə/ &middot; *with-IN-thuh-MEE-ning-uv* &middot; also /wɪθˈɪn/ with a voiceless *th*; the phrase carries two stresses, on *-in* and on *mean-*, and only the little words between and after them reduce
+**Русский:** юр. в значении, придаваемом — подпадает ли предмет под определение данного закона
+**Type:** complex &middot; **Register:** legal — the standard American phrase for asking whether a thing falls inside a written definition
+**Complement:** a noun phrase naming a **text or a defined term**: a statute, a section, a rule, a policy, a clause (*within the meaning of Section 3(a)(1)*, *within the meaning of the Act*). **No gerund and no clause of any kind** (✗ *within the meaning of that he was employed*).
+**Pattern:** [X] *is* or *is not* [a defined term] *within the meaning of* [text] &middot; [noun phrase] *within the meaning of* [text]
+**Contrast:** The third member of the drafting trio, and the one that does the arguing. [As used in](#as-used-in) **writes** a definition, [as defined in](#as-defined-in) **points** at one, and *within the meaning of* **claims that something falls inside one** — which is why this is the phrase that turns up in the sentence a court actually has to decide. Against [for purposes of](#for-purposes-of), which fences a rule to a body of law, this fences a **classification** to a body of law: *she is not an employee within the meaning of the Act* leaves entirely open that she is an employee for every other purpose in the world. Where an American meets it: an SEC filing, an NLRB or EEOC decision, an immigration notice, a tax opinion, and the denial letter from an insurer.
+
+The legal test phrase. It takes an ordinary English word that some statute has redefined and asks whether this particular thing counts as one, and the answer is binding nowhere else.
+
+1. The company is an affiliate *within the meaning of* Rule 144.
+2. Drivers who set their own hours may not be employees *within the meaning of* the Act.
+3. The letter is not a security *within the meaning of* Section 2(a)(1).
+4. The board found an unfair labor practice *within the meaning of* Section 8(a)(1).
+5. A stepchild is a child *within the meaning of* the policy.
+6. Nothing the county did amounts to a taking *within the meaning of* the Fifth Amendment.
+
+**See also:** [as defined in](#as-defined-in), [as used in](#as-used-in), [for purposes of](#for-purposes-of), [in the case of](#in-the-case-of), [as a matter of](#as-a-matter-of)
+
 ## Role, capacity, and character
 
-The prepositions that assign a hat. *As* does almost all of this work; the rest are formal, legal, theatrical, or skeptical variants of it — [in the capacity of](#in-the-capacity-of) is jurisdictional, [in the role of](#in-the-role-of) theatrical, [in the form of](#in-the-form-of) neutral, [in the guise of](#in-the-guise-of) accusatory, [under color of](#under-color-of) the legal test for a hat worn without authority, [in the person of](#in-the-person-of) grand, and [qua](#qua) analytical. The trap that runs through the section is the difference between **being** the thing (*as*) and merely **resembling** it ([like](09-comparison-opposition.md#like)); the second trap is between wearing the hat honestly (*as*, *in the capacity of*) and only appearing to (*in the guise of*, *under color of*).
+The prepositions that assign a hat. *As* does almost all of this work; the rest are formal, legal, theatrical, or skeptical variants of it — [in the capacity of](#in-the-capacity-of) is jurisdictional, [in the role of](#in-the-role-of) theatrical, [in the form of](#in-the-form-of) neutral, [in the nature of](#in-the-nature-of) hedged, [in the guise of](#in-the-guise-of) accusatory, [under color of](#under-color-of) the legal test for a hat worn without authority, [in the person of](#in-the-person-of) grand, and [qua](#qua) analytical. The trap that runs through the section is the difference between **being** the thing (*as*) and merely **resembling** it ([like](09-comparison-opposition.md#like)); the second trap is between wearing the hat honestly (*as*, *in the capacity of*) and only appearing to (*in the guise of*, *under color of*).
 
 ### as
 
 **Pronunciation:** /æz/ &middot; weak /əz/ &middot; *AZ*, reduced to *uhz*
+**Русский:** в качестве, как — роль или назначение; в русском часто творительный: work as a nurse — медсестрой
 **Type:** simple — the same word is also a subordinating conjunction of time and cause (*as I was leaving*), half of the comparative correlative *as … as*, and a relative pronoun after *such* and *the same* (*such delays as we saw*) &middot; **Register:** neutral
 **Complement:** a noun phrase, bare (*as chair*, *as treasurer*) or with an article (*as a nurse*), with any pronoun in the **objective** case (*cast as me*, never ✗ *as I*). After verbs of classification it also takes an **adjective phrase** (*regard the figure as unreliable*, *dismissed the claim as premature*) and a **participial phrase** (*described as having failed to file*, *counts as cheating*). **Never a finite clause** — a clause after *as* means you have the conjunction, not the preposition — and **never a bare gerund in the role sense**: ✗ *He works as driving a bus* → *He works as a bus driver*.
 **Pattern:** [verb] *as* [noun phrase] &middot; *As* [noun phrase], [clause] &middot; [verb] [object] *as* [noun phrase or adjective phrase], with verbs of classification: *regard/see/describe/treat/define/cite/use/dismiss* X *as* Y
@@ -974,6 +1267,7 @@ The role preposition, and one of the highest-frequency words in English. Senses 
 ### in the capacity of
 
 **Pronunciation:** /ɪn ðə kəˈpæsəti əv/ &middot; weak /ɪn ðə kəˈpæsəti ə/ &middot; *in-thuh-kuh-PASS-ih-tee-uv*
+**Русский:** офиц. в качестве, в должности — когда у человека несколько ролей и действует одна
 **Type:** complex &middot; **Register:** formal, legal, and institutional
 **Complement:** a noun phrase naming a role, generally without an article; never a clause and never a gerund.
 **Pattern:** *in the capacity of* [role] &middot; *in* [possessive] *capacity as* [role] &middot; *acting in the capacity of* [role]
@@ -994,6 +1288,7 @@ Separates the hat from the person wearing it. It matters where someone holds mor
 ### in the form of
 
 **Pronunciation:** /ɪn ðə ˈfɔrm əv/ &middot; weak /ɪn ðə ˈfɔrm ə/ &middot; *in-thuh-FORM-uv*
+**Русский:** в виде, в форме — конкретное воплощение отвлечённого: help in the form of a loan
 **Type:** complex &middot; **Register:** neutral
 **Complement:** noun phrase or gerund (*help in the form of forgiving two months' rent*); **never a clause of any kind**.
 **Pattern:** [abstract noun] *in the form of* [noun phrase] &middot; [clause] *in the form of* [noun phrase]
@@ -1013,6 +1308,7 @@ Names the shape an abstraction turned out to have. The sentence introduces somet
 ### in the guise of
 
 **Pronunciation:** /ɪn ðə ˈɡaɪz əv/ &middot; weak /ɪn ðə ˈɡaɪz ə/ &middot; *in-thuh-GYZE-uv*
+**Русский:** книжн. под видом, в обличье — чужой облик; чаще амер. under the guise of «под предлогом»
 **Type:** complex &middot; **Register:** formal to literary
 **Complement:** noun phrase or gerund (*under the guise of protecting consumers*); **never a clause of any kind**.
 **Pattern:** [clause] *in the guise of* [noun phrase] &middot; *In the guise of* [noun phrase], [clause]
@@ -1040,9 +1336,40 @@ Assigns a role and disbelieves it in the same breath.
 
 **See also:** [in the form of](#in-the-form-of), [as](#as), [in the role of](#in-the-role-of), [in the person of](#in-the-person-of), [by way of](#by-way-of)
 
+### in the nature of
+
+**Pronunciation:** /ɪn ðə ˈneɪtʃər əv/ &middot; weak /ɪn ðə ˈneɪtʃɚ ə/ &middot; *in-thuh-NAY-chur-uv* &middot; the stress is on *na-*, and the *-ture* is /tʃɚ/, never /tjʊr/
+**Русский:** вроде, наподобие — смягчённая классификация; юр. «по своему характеру, по существу»
+**Type:** complex &middot; **Register:** formal in ordinary prose; a term of art in tax, pleading, and accounting
+**Complement:** a noun phrase, characteristically with the indefinite article (*in the nature of an apology*), and in the legal use a bare abstract noun (*in the nature of interest*, *in the nature of mandamus*). A gerund is grammatical but stiff (*in the nature of settling old scores*), and **no clause of any kind** is possible (✗ *in the nature of that he apologized*).
+**Pattern:** [*something / anything / nothing*] *in the nature of* [noun phrase] &middot; [noun phrase] *in the nature of* [noun phrase]
+**Contrast:** Against [in the form of](#in-the-form-of), which names the concrete shape a thing turned out to have and commits to it, *in the nature of* **hedges**: *relief in the form of a rent credit* was a rent credit, while *something in the nature of a rent credit* was merely close enough to one to describe that way. Against [in the guise of](#in-the-guise-of), it makes no accusation — it classifies rather than unmasks. In legal and tax writing the hedge hardens into a test: a payment *in the nature of* interest is taxed as interest whatever the parties chose to call it, and that substance-over-form move is the whole reason the phrase survives. Keep it clear of the unrelated predicate construction in which *nature* means innate character.
+
+Classifies something loosely, as near enough to a named kind to be described that way. In ordinary prose the looseness is the point; in tax and pleading the same phrase becomes a hard test of what a thing really is.
+
+**1. Roughly, something like — the hedged classification.** Almost always after *something*, *anything*, or *nothing*.
+
+1. He offered something *in the nature of* an apology and then changed the subject.
+2. What she gave us was nothing *in the nature of* a straight answer.
+3. There is a room *in the nature of* a conservatory at the back of the house.
+
+**2. Legal and tax: characterized as, whatever the label on it says.** Here the phrase is a test, not a hedge.
+
+4. A payment *in the nature of* interest is taxable as interest.
+5. The plaintiff sought relief *in the nature of* mandamus.
+6. Charges *in the nature of* penalties are not deductible.
+
+**3. Not a topic marker — the predicate frame in which nature means innate character.** Nothing is being classified, and the phrase governs no topic.
+
+7. It is *in the nature of* committees to postpone the hard question.
+8. Some loss of pressure is *in the nature of* the system and cannot be engineered out.
+
+**See also:** [in the form of](#in-the-form-of), [in the guise of](#in-the-guise-of), [as](#as), [in the way of](#in-the-way-of), [by way of](#by-way-of)
+
 ### in the person of
 
 **Pronunciation:** /ɪn ðə ˈpɜrsən əv/ &middot; weak /ɪn ðə ˈpɜrsən ə/ &middot; *in-thuh-PUR-sun-uv*
+**Русский:** книжн. в лице — называет человека, в котором воплотилось отвлечённое понятие
 **Type:** complex &middot; **Register:** formal to literary
 **Complement:** a noun phrase naming a person, usually a name or a title; never a clause.
 **Pattern:** [abstract noun or clause] *in the person of* [name]
@@ -1061,6 +1388,7 @@ Identifies the human being in whom an abstraction shows up.
 ### in the role of
 
 **Pronunciation:** /ɪn ðə ˈroʊl əv/ &middot; weak /ɪn ðə ˈroʊl ə/ &middot; *in-thuh-ROHL-uv*
+**Русский:** в роли — называет исполняемую роль, на сцене и вне её
 **Type:** complex &middot; **Register:** neutral
 **Complement:** a noun phrase, usually with an article or a proper name; never a clause.
 **Pattern:** [clause] *in the role of* [noun phrase] &middot; *In the role of* [noun phrase], [clause]
@@ -1079,6 +1407,7 @@ Names the part somebody is playing, on a stage or off one.
 ### qua
 
 **Pronunciation:** /kweɪ/ &middot; also /kwɑ/ &middot; *KWAY* (also *KWAH*) &middot; **no weak form** — it is always stressed, being the pivot of the construction it appears in
+**Русский:** книжн./филос. как таковой, в качестве — лат.: вещь берётся лишь в одной её ипостаси
 **Type:** simple (Latin, ablative feminine of *quī* "who, which") &middot; **Register:** formal and academic — philosophy, law, and theory
 **Complement:** a bare noun phrase, characteristically without an article and very often repeating the noun it follows (*the state qua state*). Never a clause, never a gerund.
 **Pattern:** [noun] *qua* [noun] &middot; [clause] *qua* [noun]
@@ -1097,6 +1426,7 @@ The philosopher's preposition. It splits a thing from itself so that only one of
 ### under color of
 
 **Pronunciation:** /ˈʌndər ˈkʌlər əv/ &middot; weak /ˈʌndɚ ˈkʌlɚ ə/ &middot; *UN-dur-KUL-ur-uv*
+**Русский:** юр. под видом законного, с использованием служебного положения — under color of law
 **Type:** complex &middot; **Register:** legal — a term of art in American civil-rights and criminal practice, and rare outside it
 **Complement:** a **bare noun phrase naming an authority, office, or body of law**, with no article: *color of law*, *color of state law*, *color of office*, *color of authority*. A gerund is not idiomatic, and **no clause of any kind** is possible.
 **Pattern:** [verb] *under color of* [bare noun phrase] &middot; *acting under color of* [bare noun phrase]
@@ -1121,11 +1451,33 @@ Names the official authority that made a wrongful act possible. It is the hinge 
 
 ## Reference markers in discourse
 
-Two words that point at a topic in order to manage the conversation rather than to describe anything. Both are participial or Latin in origin and both have detached completely from their grammatical roots.
+Four phrases that point at something in order to manage a document or a conversation rather than to describe anything. [Pace](#pace) and [speaking of](#speaking-of) are Latin and participial in origin and have detached completely from their grammatical roots; [in the words of](#in-the-words-of) hands the floor to somebody else's phrasing; and [to the attention of](#to-the-attention-of) points not at a topic at all but at the person meant to read the thing.
+
+### in the words of
+
+**Pronunciation:** /ɪn ðə ˈwɜrdz əv/ &middot; weak /ɪn ðə ˈwɜrdz ə/ &middot; *in-thuh-WURDZ-uv*
+**Русский:** по словам, говоря словами — вводит чужую формулировку и приписывает её автору
+**Type:** complex &middot; **Register:** neutral to formal
+**Complement:** a noun phrase naming a **speaker or a text** — a person, a court, a statute, a report, a witness. **No gerund and no clause of any kind** (✗ *in the words of that he resigned*). For pronouns English switches to the possessive: *in his own words*, *in her words*, and ✗ *in the words of me* is not English.
+**Pattern:** *In the words of* [source], "[quotation]" &middot; [clause], *in the words of* [source], [quoted phrase] &middot; possessive: *in* [possessive] *own words*
+**Variants:** *in the words of the statute* and *in the words of the court* (the legal uses); *in his own words* (insisting the phrasing is unaltered); *to quote* [source] (the plain equivalent); *in a word* and *in other words*, which are **not** this phrase at all — they take no object and simply reframe what the writer has already said
+**Contrast:** Against [according to](11-complex-multiword.md#according-to), which reports the **substance** of what somebody said, *in the words of* vouches for the **phrasing** — so what follows should be the source's actual words or something very close to them, and putting your own summary after it is a small dishonesty that readers notice. Against [in the opinion of](#in-the-opinion-of), which attributes a judgment, this attributes only the wording. **Cross-class test — the object:** *in the words of the report* is the preposition and has an object; *in other words* and *in a word* govern nothing and are discourse adverbials.
+
+Hands the sentence over to somebody else's phrasing and takes responsibility for the words being theirs. It is the workhorse of quotation in American journalism and judicial writing alike.
+
+1. *In the words of* one investigator, the file had been "cleaned within an inch of its life."
+2. The program was, *in the words of* its own director, an experiment nobody expected to survive.
+3. *In the words of* the statute, the notice must be "actual and timely."
+4. He described the layoffs, *in the words of* the memo, as a realignment.
+5. *In the words of* the dissent, the majority has quietly rewritten the clause.
+6. She wanted to hear it, *in the words of* her grandmother, from the horse's mouth.
+
+**See also:** [in the opinion of](#in-the-opinion-of), [in the eyes of](#in-the-eyes-of), [pace](#pace), [as per](#as-per), [according to](11-complex-multiword.md#according-to)
 
 ### pace
 
 **Pronunciation:** /ˈpeɪsi/ &middot; also /ˈpɑtʃeɪ/, /ˈpɑkeɪ/ &middot; *PAY-see* (also *PAH-chay*) &middot; **no weak form** — it is a two-syllable Latin word carrying its own stress, and it never reduces to the /peɪs/ of the English noun
+**Русский:** книжн. при всём уважении к — лат.: оговорка, что названный авторитет думает иначе
 **Type:** simple (Latin, ablative of *pāx* "peace") &middot; **Register:** formal and academic; conventionally italicized
 **Complement:** a personal name, or a noun phrase naming a person or an authority. Never a clause, never a gerund, never an abstract topic.
 **Pattern:** *Pace* [name], [clause] &middot; [clause] (*pace* [name])
@@ -1144,6 +1496,7 @@ Concedes, politely and in passing, that a named authority disagrees with what yo
 ### speaking of
 
 **Pronunciation:** /ˈspikɪŋ əv/ &middot; weak /ˈspikɪŋ ə/ &middot; *SPEE-king-uv*
+**Русский:** кстати о, раз уж речь зашла о — разг. связка при смене темы
 **Type:** marginal/participial &middot; **Register:** informal to neutral
 **Complement:** noun phrase, gerund, or the fused relative *which* (*speaking of which*); never a finite clause.
 **Pattern:** *Speaking of* [noun phrase], [clause] &middot; *Speaking of which*, [clause] — essentially always sentence-initial
@@ -1160,3 +1513,33 @@ The conversational hinge. It licenses a change of subject by pretending the chan
 6. *Speaking of* money, the deposit hasn't cleared.
 
 **See also:** [as for](#as-for), [apropos of](#apropos-of), [on the subject of](#on-the-subject-of), [regarding](#regarding)
+
+### to the attention of
+
+**Pronunciation:** /tu ði əˈtɛnʃən əv/ &middot; weak /tə ði əˈtɛnʃən ə/ &middot; *too-thee-uh-TEN-shun-uv* &middot; the abbreviation *Attn:* is read aloud as *attention*, never letter by letter
+**Русский:** вниманию (кого-л.) — адресация документа исполнителю; на конверте пишут Attn:
+**Type:** complex &middot; **Register:** formal, business and administrative correspondence; the *Attn:* form is a written label only and never appears in speech
+**Complement:** a noun phrase naming a **person, office, or department** — a name, a title, a desk. **No gerund and no clause of any kind** (✗ *to the attention of that the invoice is late*). Pronoun objects give way to the possessive frame: *bring it to my attention*, *it came to her attention*, and ✗ *to the attention of me* is not English.
+**Pattern:** [*send / direct / address / forward / bring*] [object] *to the attention of* [person] &middot; heading: *Attn:* [name] &middot; possessive: *to* [possessive] *attention*
+**Variants:** *Attn:* and *ATTN:* — the envelope, fax-cover, and mailroom abbreviation, conventionally closed with a colon; *for the attention of* and *FAO*, which are British; *attention:* spelled out, common on shipping labels; and the possessive *to my attention*, *to his attention*, which is the ordinary conversational form
+**Contrast:** Two labels sit in the same block of a business letter and do opposite jobs: [re](#re) names the **subject** and this one names the **reader**. Distinguish it also from *care of* and its abbreviation *c/o*, which name an intermediary who holds the mail for somebody else rather than the person meant to act on it — *c/o* is an address, *Attn:* is an instruction — and which are treated with the [complex and multi-word prepositions](11-complex-multiword.md). Note finally the quite different passive frame *come to the attention of*, where nobody is routing anything and the phrase just means "was noticed by."
+
+Names the human being a document is meant to reach, as distinct from the address it is mailed to and the subject it is about. It is one of the three labels stacked at the top of a business letter, and the only one that points at a person.
+
+**1. Routing a document to the person meant to act on it.** The core sense, and the one that governs a real object.
+
+1. Please send the signed original *to the attention of* the claims department.
+2. Address the appeal *to the attention of* the hearing officer, not to the clerk.
+3. The check was mailed *to the attention of* Ms. Okafor in payroll.
+
+**2. As the written label on an envelope, a fax cover sheet, or a shipping form.** Written *Attn:* or *ATTN:*, capitalized and closed with a colon.
+
+4. The envelope was marked *Attn:* Facilities, Third Floor.
+5. Fax it to the number on the letterhead, *Attn:* Kimberly Voss.
+
+**3. Come to the attention of — the passive frame, where nothing is being routed.** It means only that somebody noticed.
+
+6. The error came *to the attention of* the auditors only in March.
+7. Nothing of the kind was ever brought *to the attention of* the board.
+
+**See also:** [re](#re), [in re](#in-re), [in reference to](#in-reference-to), [in the matter of](#in-the-matter-of), [on behalf of](09-comparison-opposition.md#on-behalf-of)

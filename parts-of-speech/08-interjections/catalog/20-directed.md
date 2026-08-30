@@ -11,6 +11,7 @@ What ties this category together is that none of these words are said to an equa
 ### atta boy
 
 **Pronunciation:** /ˈætə ˌbɔɪ/ &middot; *AT-uh-boy*  
+**Русский:** молодец!, так держать! — похвала собаке или тому, кого подбадривают
 **Type:** phrase &middot; **Register:** informal  
 **Variants:** *attaboy*, *atta girl*, *attagirl*, *that's a boy*
 
@@ -27,6 +28,7 @@ Praise called out to a dog — or to a person you are cheering on — at the exa
 ### bad dog
 
 **Pronunciation:** /ˌbæd ˈdɔɡ/ &middot; *bad-DAWG*  
+**Русский:** фу!, плохая собака! — выговор псу, застигнутому за запретным
 **Type:** phrase &middot; **Register:** informal  
 **Variants:** *bad boy*, *bad girl*, *bad kitty*, *no bad dog*
 
@@ -43,6 +45,7 @@ The standard scolding for a dog caught doing something forbidden. It is delivere
 ### come
 
 **Pronunciation:** /kʌm/ &middot; *KUM*  
+**Русский:** ко мне! — основная команда подзыва собаки
 **Type:** secondary &middot; **Register:** neutral  
 **Variants:** *come here*, *c'mere*, *come on*
 
@@ -59,6 +62,7 @@ The basic recall command, and the first thing most American dogs are taught. It 
 ### down
 
 **Pronunciation:** /daʊn/ &middot; *DOWN*  
+**Русский:** лежать!; вниз, фу! — команда лечь или не прыгать на человека
 **Type:** secondary &middot; **Register:** neutral  
 **Variants:** *lie down*, *down boy*, *get down*
 
@@ -75,6 +79,7 @@ Two commands in one syllable: get all the way to the floor, or get off me. "*Dow
 ### drop it
 
 **Pronunciation:** /ˈdrɑp ɪt/ &middot; *DROP-it*  
+**Русский:** брось!, отдай! — собаке выплюнуть предмет; человеку — «хватит об этом»
 **Type:** phrase &middot; **Register:** neutral  
 **Variants:** *drop*, *give*, *drop it now*
 
@@ -91,6 +96,7 @@ Told to a dog with something in its mouth — a ball, a shoe, a dead bird. Said 
 ### easy
 
 **Pronunciation:** /ˈizi/ &middot; *EE-zee*  
+**Русский:** тише, спокойно — протяжно, чтобы успокоить испуганную лошадь или собаку
 **Type:** secondary &middot; **Register:** neutral  
 **Variants:** *easy boy*, *easy now*, *easy there*, *whoa easy*
 
@@ -107,6 +113,7 @@ A calming word said in a long, low voice to a spooked horse or an overexcited do
 ### fetch
 
 **Pronunciation:** /fɛtʃ/ &middot; *FECH*  
+**Русский:** апорт! — принеси брошенное; заодно название самой игры
 **Type:** secondary &middot; **Register:** neutral  
 **Variants:** *go fetch*, *fetch it*, *fetch it up*
 
@@ -123,6 +130,7 @@ Go get the thing I just threw and bring it back. It doubles as the name of the g
 ### good boy
 
 **Pronunciation:** /ˌɡʊd ˈbɔɪ/ &middot; *good-BOY*  
+**Русский:** хороший мальчик, молодец — похвала собаке; взрослому звучит снисходительно
 **Type:** phrase &middot; **Register:** informal  
 **Variants:** *good girl*, *good dog*, *who's a good boy*, *goooood boy*
 
@@ -139,6 +147,7 @@ The all-purpose reward phrase for a dog, said in a high sing-song voice that mat
 ### heel
 
 **Pronunciation:** /hil/ &middot; *HEEL*  
+**Русский:** рядом! — команда собаке идти у ноги
 **Type:** secondary &middot; **Register:** neutral  
 **Variants:** *heel up*, *to heel*
 
@@ -155,6 +164,7 @@ Walk at my side and stay there. It is the command that separates a trained dog f
 ### here boy
 
 **Pronunciation:** /ˌhɪr ˈbɔɪ/ &middot; *heer-BOY*  
+**Русский:** ко мне, песик! — дружеский зов собаки, мягче выученной команды come
 **Type:** phrase &middot; **Register:** informal  
 **Variants:** *here girl*, *here boy here boy*, *c'mere boy*
 
@@ -171,6 +181,7 @@ A friendly summons to a dog, softer than the trained command "come." Strangers u
 ### here kitty kitty
 
 **Pronunciation:** /ˌhɪr ˈkɪti ˈkɪti/ &middot; *heer-KIT-ee-KIT-ee*  
+**Русский:** кис-кис-кис — обычный американский способ подзывать кошку
 **Type:** phrase &middot; **Register:** informal  
 **Variants:** *kitty kitty*, *kitty kitty kitty*, *here kitty*
 
@@ -187,6 +198,7 @@ The standard American way to call a cat: the word *kitty* repeated in a high, co
 ### leave it
 
 **Pronunciation:** /ˈliv ɪt/ &middot; *LEEV-it*  
+**Русский:** нельзя!, не трогай! — собаке не подбирать; предупреждение до «брось»
 **Type:** phrase &middot; **Register:** neutral  
 **Variants:** *leave*, *leave it alone*
 
@@ -203,6 +215,7 @@ Do not touch that in the first place — the command that comes before "drop it.
 ### puss puss
 
 **Pronunciation:** /ˈpʊs ˈpʊs/ &middot; *PUSS-puss* (the vowel of *put*, not of *bus*)  
+**Русский:** кис-кис — устар. зов кошки; полная форма pussy сегодня груб. сленг
 **Type:** phrase &middot; **Register:** dated  
 **Variants:** *puss puss puss*, *here puss*, *pussy pussy*
 
@@ -219,6 +232,7 @@ An older way of calling a cat, heard now mostly from grandparents and in old boo
 ### sic 'em
 
 **Pronunciation:** /ˈsɪk əm/ &middot; *SIK-um*  
+**Русский:** фас! — натравить собаку; обычно шутл. «давай, задай им»
 **Type:** phrase &middot; **Register:** informal  
 **Variants:** *sic him*, *sic her*, *sic 'em boy*, *sick 'em*
 
@@ -235,6 +249,7 @@ Set the dog on someone — attack. In real life it is rare and serious; in ordin
 ### sit
 
 **Pronunciation:** /sɪt/ &middot; *SIT*  
+**Русский:** сидеть! — команда собаке; человеку — резкий приказ от старшего
 **Type:** secondary &middot; **Register:** neutral  
 **Variants:** *sit down*, *sit boy*, *siddown*
 
@@ -251,6 +266,7 @@ The first command almost every American dog learns. Said to a person, a bare "*S
 ### speak
 
 **Pronunciation:** /spik/ &middot; *SPEEK*  
+**Русский:** голос! — команда собаке гавкнуть, цирковой трюк
 **Type:** secondary &middot; **Register:** neutral  
 **Variants:** *speak boy*, *say please*
 
@@ -267,6 +283,7 @@ A trick command telling a dog to bark once. It is taught for fun and turns up in
 ### stay
 
 **Pronunciation:** /steɪ/ &middot; *STAY*  
+**Русский:** ждать!, стоять! — команда собаке не сходить с места до разрешения
 **Type:** secondary &middot; **Register:** neutral  
 **Variants:** *staaay*, *stay there*, *stay put*
 
@@ -285,6 +302,7 @@ Hold that position until I release you. Owners stretch the vowel out and hold a 
 ### chick chick
 
 **Pronunciation:** /ˈtʃɪk ˈtʃɪk/ &middot; *CHIK-chik*  
+**Русский:** цып-цып-цып — диал. так подзывают кур, обычно рассыпая корм
 **Type:** secondary &middot; **Register:** regional  
 **Variants:** *chick chick chick*, *here chick chick*, *chickie chickie*
 
@@ -301,6 +319,7 @@ What you say to bring chickens running, usually while scattering feed. It is sai
 ### cluck cluck
 
 **Pronunciation:** /ˈklʌk ˈklʌk/ &middot; *KLUK-kluk*  
+**Русский:** ко-ко-ко — подражание курице; о людях — ворчливое осуждение
 **Type:** onomatopoeic &middot; **Register:** informal  
 **Variants:** *cluck*, *cluck-cluck*
 
@@ -317,6 +336,7 @@ An imitation of a hen rather than a real call — said to chickens the way peopl
 ### coo
 
 **Pronunciation:** /ku/ &middot; *KOO*  
+**Русский:** гуль-гуль, воркование — звук голубя; также умильное сюсюканье над младенцем
 **Type:** onomatopoeic &middot; **Register:** neutral  
 **Variants:** *coo coo*, *coo-coo*
 
@@ -333,6 +353,7 @@ The soft rolling sound a pigeon or a dove makes, and by extension the noise adul
 ### gee
 
 **Pronunciation:** /dʒi/ &middot; *JEE*  
+**Русский:** направо! — диал. окрик погонщика лошадям, волам, ездовым собакам
 **Type:** primary &middot; **Register:** regional  
 **Variants:** *gee up*, *gee haw*, *gee now*
 
@@ -349,6 +370,7 @@ Turn right — the teamster's word, used for horses, mules, oxen, and sled dogs.
 ### giddyup
 
 **Pronunciation:** /ˈɡɪdiˌʌp/ &middot; *GID-ee-up*  
+**Русский:** но!, пошёл! — окрик, чтобы лошадь тронулась; шутл. человеку «шевелись»
 **Type:** primary &middot; **Register:** informal  
 **Variants:** *giddy up*, *giddyap*, *giddy-up*, *git up*
 
@@ -365,6 +387,7 @@ Get moving, said to a horse — a worn-down version of "get up." Americans use i
 ### haw
 
 **Pronunciation:** /hɔ/ &middot; *HAW*  
+**Русский:** налево! — диал. окрик погонщика, зеркальная пара к gee
 **Type:** primary &middot; **Register:** regional  
 **Variants:** *haw there*, *gee haw*, *haw now*
 
@@ -381,6 +404,7 @@ Turn left — the mirror image of *gee*, used with draft animals and dog teams. 
 ### ho
 
 **Pronunciation:** /hoʊ/ &middot; *HOH*  
+**Русский:** тпру!, стой! — устар. окрик остановки; отдельно ho в сленге груб. «шлюха»
 **Type:** primary &middot; **Register:** dated  
 **Variants:** *ho there*, *whoa ho*, *land ho*, *westward ho*
 
@@ -397,6 +421,7 @@ An old driver's call meaning stop or hold, now almost entirely replaced by *whoa
 ### hup
 
 **Pronunciation:** /hʌp/ &middot; *HUP*  
+**Русский:** оп!, раз-два! — отрывистый счёт в строю и команда на прыжок
 **Type:** primary &middot; **Register:** neutral  
 **Variants:** *hup two*, *hup two three four*, *hup hup*
 
@@ -413,6 +438,7 @@ A short barked syllable that marks a beat — the marching cadence, a jump cue f
 ### hyah
 
 **Pronunciation:** /haɪˈɑ/ or /jɑ/ &middot; *hy-AH* or *YAH*  
+**Русский:** но-о!, пшёл! — крик всадника, посылающего лошадь в галоп
 **Type:** primary &middot; **Register:** informal  
 **Variants:** *yah*, *ya*, *heeyah*, *hee-yah*
 
@@ -429,6 +455,7 @@ The shouted syllable a rider uses to drive a horse into a run, usually with a sl
 ### mush
 
 **Pronunciation:** /mʌʃ/ &middot; *MUSH*  
+**Русский:** вперёд! — окрик каюра ездовым собакам (сами каюры говорят hike)
 **Type:** primary &middot; **Register:** regional  
 **Variants:** *mush on*, *mush you huskies*, *hike*
 
@@ -445,6 +472,7 @@ The word everyone thinks sled-dog drivers shout to start the team. Real mushers 
 ### sooey
 
 **Pronunciation:** /ˈsuˌi/ &middot; *SOO-ee*  
+**Русский:** чух-чух-чух! — диал. протяжный клич, которым созывают свиней к кормушке
 **Type:** primary &middot; **Register:** regional  
 **Variants:** *soo-ee*, *sooie*, *pig pig pig*, *woo pig sooie*
 
@@ -461,6 +489,7 @@ The hog call: a long "sooo" pulled up into "-ee," used to bring pigs to the trou
 ### tsk
 
 **Pronunciation:** /ǀ/ or /ǁ/ — a tongue click rather than an ordinary English word &middot; *tisk* /tɪsk/ when the spelling is read out loud  
+**Русский:** ц-ц-ц, ай-яй-яй — цоканье языком: удвоенное — осуждение, одиночное — лошади «шагом»
 **Type:** onomatopoeic &middot; **Register:** neutral  
 **Variants:** *tsk tsk*, *tch*, *tut*, *tut-tut*
 
@@ -477,6 +506,7 @@ A click of the tongue. Doubled and aimed at a person it means disapproval; made 
 ### whoa
 
 **Pronunciation:** /woʊ/ or /hwoʊ/ &middot; *WOH*  
+**Русский:** тпру! — остановить лошадь; в речи «стоп, погоди» или удивлённое «ого»
 **Type:** primary &middot; **Register:** neutral  
 **Variants:** *woah*, *whoa there*, *whoa Nelly*, *whoa boy*
 
@@ -495,6 +525,7 @@ Stop — the universal American call to a horse, said low and drawn out. Off the
 ### git
 
 **Pronunciation:** /ɡɪt/ &middot; *GIT*  
+**Русский:** пшёл вон! — диал. южн., прогнать животное или незваного человека
 **Type:** secondary &middot; **Register:** regional  
 **Variants:** *git on*, *git out*, *git along*, *go on git*
 
@@ -511,6 +542,7 @@ A rural, drawled "get" used to drive an animal — or an unwanted person — awa
 ### scat
 
 **Pronunciation:** /skæt/ &middot; *SKAT*  
+**Русский:** брысь! — прогнать кошку, а шутливо-строго и детей
 **Type:** primary &middot; **Register:** informal  
 **Variants:** *scat now*, *go on scat*
 
@@ -527,6 +559,7 @@ Go away — said mostly to cats, and to children in a mock-stern voice. It is sh
 ### scram
 
 **Pronunciation:** /skræm/ &middot; *SKRAM*  
+**Русский:** проваливай!, кыш отсюда! — людям; с привкусом старого гангстерского кино
 **Type:** secondary &middot; **Register:** informal  
 **Variants:** *scram outta here*, *beat it*
 
@@ -543,6 +576,7 @@ Get out of here, said to people rather than animals. It has a 1940s gangster-mov
 ### shoo
 
 **Pronunciation:** /ʃu/ &middot; *SHOO*  
+**Русский:** кыш! — отогнать муху, птицу, кошку; людям — шутливо-командно
 **Type:** primary &middot; **Register:** informal  
 **Variants:** *shoo shoo*, *shoo fly*, *shoo now*
 
@@ -561,6 +595,7 @@ The standard word for waving an animal away — flies, birds, a cat on the count
 ### all gone
 
 **Pronunciation:** /ˌɔl ˈɡɔn/ &middot; *awl-GAWN*  
+**Русский:** всё, больше нету — малышу, что еда или игра закончились
 **Type:** phrase &middot; **Register:** childish  
 **Variants:** *all done*, *aaaall gone*
 
@@ -577,6 +612,7 @@ Said to a baby or toddler at the end of a bottle, a snack, or a game, usually wi
 ### coochie-coo
 
 **Pronunciation:** /ˌkutʃi ˈku/ &middot; *koo-chee-KOO*  
+**Русский:** у-тю-тю!, кути-кути! — бессмысленный звук, которым щекочут младенца
 **Type:** primary &middot; **Register:** childish  
 **Variants:** *kitchy-koo*, *kitchy-kitchy-koo*, *coochie coochie coo*, *goochie goo*, *cootchie-coo*
 
@@ -593,6 +629,7 @@ The nonsense sound adults make while tickling a baby under the chin or on the be
 ### here comes the airplane
 
 **Pronunciation:** /ˌhɪr ˌkʌmz ði ˈɛrˌpleɪn/ &middot; *heer-kumz-thee-AIR-playn*  
+**Русский:** летит самолёт! — приговорка при кормлении малыша с ложки
 **Type:** phrase &middot; **Register:** childish  
 **Variants:** *here comes the choo-choo*, *open the hangar*, *airplane*
 
@@ -609,6 +646,7 @@ The line American parents say while flying a spoonful of food toward a toddler's
 ### num-num
 
 **Pronunciation:** /ˈnʌm ˌnʌm/ &middot; *NUM-num*  
+**Русский:** ням-ням — детское слово о еде и о том, как она вкусна
 **Type:** onomatopoeic &middot; **Register:** childish  
 **Variants:** *num nums*, *nom nom*, *yum-yum*, *nummy*
 
@@ -625,6 +663,7 @@ Baby talk for food, or for how good the food is, said while feeding a small chil
 ### open wide
 
 **Pronunciation:** /ˌoʊpən ˈwaɪd/ &middot; *oh-pun-WIDE*  
+**Русский:** открой ротик пошире — малышу с ложкой, у врача «скажи а-а»
 **Type:** phrase &middot; **Register:** neutral  
 **Variants:** *open up*, *say ah*, *nice and wide*
 
@@ -641,6 +680,7 @@ Said to anyone whose mouth you need open — a baby with a spoonful of peas, a p
 ### peekaboo
 
 **Pronunciation:** /ˈpikəˌbu/ &middot; *PEEK-uh-boo*  
+**Русский:** ку-ку!, а вот и я! — возглас в игре в прятки с младенцем
 **Type:** primary &middot; **Register:** childish  
 **Variants:** *peek-a-boo*, *peekaboo I see you*, *peep-bo*
 
@@ -657,6 +697,7 @@ The word you say when you uncover your face in the oldest baby game there is. Ad
 ### potty
 
 **Pronunciation:** /ˈpɑti/ &middot; *PAH-tee*  
+**Русский:** горшок; на горшок — детское слово о туалете; собаке «сделать дела»
 **Type:** secondary &middot; **Register:** childish  
 **Variants:** *potty time*, *go potty*, *pee-pee*, *tinkle*
 
@@ -673,6 +714,7 @@ The child's word for the toilet and for using it. Parents say "go potty" to the 
 ### uh-oh spaghettios
 
 **Pronunciation:** /ˌʌ ˈoʊ spəˈɡɛtiˌoʊz/ &middot; *uh-OH spuh-GET-ee-ohz*  
+**Русский:** ой-ёй-ёй, опаньки — шутливое растягивание uh-oh при мелкой оплошности
 **Type:** phrase &middot; **Register:** informal  
 **Variants:** *uh oh spaghetti-o's*, *uh-oh spaghetti-os*
 
@@ -689,6 +731,7 @@ A goofy expansion of *uh-oh*, borrowed from a canned-pasta jingle and said when 
 ### upsy-daisy
 
 **Pronunciation:** /ˌʌpsi ˈdeɪzi/ &middot; *up-see-DAY-zee*  
+**Русский:** оп-ля!, ап! — приговорка, когда поднимают ребёнка или помогают встать
 **Type:** primary &middot; **Register:** childish  
 **Variants:** *ups-a-daisy*, *upsadaisy*, *upsie-daisy*, *up we go*
 
@@ -707,6 +750,7 @@ Said while lifting a small child — or helping anybody up off a chair, a floor,
 ### beddy-bye
 
 **Pronunciation:** /ˈbɛdi ˌbaɪ/ &middot; *BED-ee-bye*  
+**Русский:** баиньки, бай-бай — детское слово о сне и о том, что пора спать
 **Type:** secondary &middot; **Register:** childish  
 **Variants:** *beddy-byes*, *beddy-bye time*, *bye-bye time*
 
@@ -723,6 +767,7 @@ Baby talk for bed or bedtime. Adults say it about themselves as a joke when they
 ### boo-boo
 
 **Pronunciation:** /ˈbu ˌbu/ &middot; *BOO-boo*  
+**Русский:** бо-бо — детское слово о ранке или ушибе; в переносном смысле мелкий промах
 **Type:** primary &middot; **Register:** childish  
 **Variants:** *booboo*, *boo boo*, *ouchie*
 
@@ -739,6 +784,7 @@ A child's word for a small cut or bruise, and by extension for a small mistake. 
 ### hush now
 
 **Pronunciation:** /ˈhʌʃ ˌnaʊ/ &middot; *HUSH-now*  
+**Русский:** тише, тише; ш-ш — мягкий приказ перестать плакать или шуметь
 **Type:** phrase &middot; **Register:** informal  
 **Variants:** *hush*, *hush little baby*, *hush up*, *shush now*
 
@@ -755,6 +801,7 @@ A gentle order to stop crying or stop talking, said to a child, a distressed adu
 ### nighty-night
 
 **Pronunciation:** /ˌnaɪti ˈnaɪt/ &middot; *nye-tee-NYTE*  
+**Русский:** спокойной ночи, баю-бай — ласковое детское прощание на ночь
 **Type:** secondary &middot; **Register:** informal  
 **Variants:** *night-night*, *nite-nite*, *nighty night*, *nighty-night sleep tight*
 
@@ -771,6 +818,7 @@ A soft, sing-song goodnight, said mainly to children but also between adults who
 ### no-no
 
 **Pronunciation:** /ˈnoʊ ˌnoʊ/ &middot; *NOH-noh*  
+**Русский:** нельзя, бяка — детский запрет; у взрослых «так у нас не принято»
 **Type:** secondary &middot; **Register:** childish  
 **Variants:** *no no*, *a no-no*, *big no-no*
 
@@ -787,6 +835,7 @@ A thing a child is not allowed to do or touch, said as a gentle prohibition. Adu
 ### oopsy-daisy
 
 **Pronunciation:** /ˌupsi ˈdeɪzi/ &middot; *oop-see-DAY-zee*  
+**Русский:** опаньки!, ой-ёй — когда малыш споткнулся или что-то уронил
 **Type:** primary &middot; **Register:** childish  
 **Variants:** *oopsie-daisy*, *whoopsie-daisy*, *whoops-a-daisy*, *oops-a-daisy*
 
@@ -803,6 +852,7 @@ Said the instant a small child trips, drops something, or lands on their bottom 
 ### owie
 
 **Pronunciation:** /ˈaʊi/ &middot; *OW-ee*  
+**Русский:** бо-бо!, ай! — детское слово и о боли, и о самой ранке
 **Type:** primary &middot; **Register:** childish  
 **Variants:** *owwie*, *ouchie*, *owie-zowie*
 
@@ -819,6 +869,7 @@ A child's word for both the pain and the injury — "I have an owie." Adults use
 ### there there
 
 **Pronunciation:** /ˌðɛr ˈðɛr/ &middot; *thair-THAIR*  
+**Русский:** ну-ну, ничего-ничего — утешение плачущему, между взрослыми часто с иронией
 **Type:** phrase &middot; **Register:** informal  
 **Variants:** *there now*, *there there now*, *there-there*
 
@@ -837,6 +888,7 @@ The classic sound of comforting someone who is crying, usually delivered with a 
 ### action
 
 **Pronunciation:** /ˈækʃən/ &middot; *AK-shun*  
+**Русский:** мотор! — команда режиссёра, с которой начинается дубль
 **Type:** secondary &middot; **Register:** neutral  
 **Variants:** *and action*, *rolling... action*
 
@@ -853,6 +905,7 @@ The director's call that starts a take. On a real set it comes after "roll sound
 ### cut
 
 **Pronunciation:** /kʌt/ &middot; *KUT*  
+**Русский:** стоп, снято! — команда режиссёра остановить съёмку; в жизни «прекрати»
 **Type:** secondary &middot; **Register:** neutral  
 **Variants:** *cut cut cut*, *and cut*, *cut it out*
 
@@ -869,6 +922,7 @@ Stop filming — the director's word for the end of a take, good or bad. Off the
 ### hut
 
 **Pronunciation:** /hʌt/ &middot; *HUT*  
+**Русский:** хат! — выкрик квотербека, по которому вводят мяч в игру; эквивалента нет
 **Type:** primary &middot; **Register:** informal  
 **Variants:** *hut hut*, *hut-hut-hike*, *hike*, *down set hut*
 
@@ -885,6 +939,7 @@ The syllable a quarterback barks to snap the football. The whole rhythm — a co
 ### on your marks
 
 **Pronunciation:** /ˌɑn jʊr ˈmɑrks/ &middot; *on-yur-MARKS*  
+**Русский:** на старт!, внимание! — формула стартёра перед забегом
 **Type:** phrase &middot; **Register:** neutral  
 **Variants:** *on your mark*, *on your marks get set go*, *take your marks*
 
@@ -901,6 +956,7 @@ The starter's formula at a race: runners settle into the blocks on "on your mark
 ### one two three
 
 **Pronunciation:** /ˌwʌn ˌtu ˈθri/ &middot; *wun-too-THREE*  
+**Русский:** раз, два, три! — счёт, чтобы начать одновременно: поднять, снять, запеть
 **Type:** phrase &middot; **Register:** neutral  
 **Variants:** *on three*, *one two three lift*, *a-one and a-two*
 
@@ -917,6 +973,7 @@ The count that gets people moving at the same instant — lifting a couch, takin
 ### ready set go
 
 **Pronunciation:** /ˌrɛdi ˌsɛt ˈɡoʊ/ &middot; *red-ee-set-GOH*  
+**Русский:** на старт, внимание, марш! — обиходный сигнал к старту
 **Type:** phrase &middot; **Register:** informal  
 **Variants:** *get set go*, *on your mark get set go*, *ready steady go*
 
@@ -933,6 +990,7 @@ The everyday starting signal for a race between kids, a chore, or anything you w
 ### say cheese
 
 **Pronunciation:** /ˌseɪ ˈtʃiz/ &middot; *say-CHEEZ*  
+**Русский:** улыбочку!, скажите «сы-ы-р» — команда фотографа перед снимком
 **Type:** phrase &middot; **Register:** informal  
 **Variants:** *cheese*, *everybody say cheese*, *smile*
 
@@ -949,6 +1007,7 @@ What the person holding the camera says to make a group smile, because the word 
 ### ten-hut
 
 **Pronunciation:** /tɛnˈhʌt/ &middot; *ten-HUT*  
+**Русский:** смирно! — армейская команда, сжатое attention; шутл. при входе начальства
 **Type:** secondary &middot; **Register:** neutral  
 **Variants:** *atten-hut*, *tench-hut*, *attention on deck*
 
@@ -967,6 +1026,7 @@ What the person holding the camera says to make a group smile, because the word 
 ### all aboard
 
 **Pronunciation:** /ˌɔl əˈbɔrd/ &middot; *awl-uh-BORD*  
+**Русский:** по вагонам! — крик проводника перед отправлением поезда
 **Type:** phrase &middot; **Register:** neutral  
 **Variants:** *all aboard that's going aboard*, *booooard*
 
@@ -983,6 +1043,7 @@ The conductor's call that the train is leaving and anyone riding needs to be on 
 ### come and get it
 
 **Pronunciation:** /ˌkʌm ən ˈɡɛt ɪt/ &middot; *kum-un-GET-it*  
+**Русский:** готово, налетай!, кушать подано — зов к столу
 **Type:** phrase &middot; **Register:** informal  
 **Variants:** *soup's on*, *chow time*, *grub's up*, *come and get it while it's hot*
 
@@ -999,6 +1060,7 @@ The call that food is ready, shouted at a camp, a job site, or a family kitchen.
 ### fire in the hole
 
 **Pronunciation:** /ˌfaɪr ɪn ðə ˈhoʊl/ &middot; *FYRE-in-thuh-HOLE*  
+**Русский:** ложись, взрываю! — предупреждение о взрыве у подрывников и военных
 **Type:** phrase &middot; **Register:** informal  
 **Variants:** *fire in the hole boys*
 
@@ -1015,6 +1077,7 @@ A shouted warning that an explosion is coming — originally from mining, now st
 ### gangway
 
 **Pronunciation:** /ˈɡæŋˌweɪ/ &middot; *GANG-way*  
+**Русский:** дорогу!, посторонись! — крик того, кто несёт тяжёлое или спешит
 **Type:** secondary &middot; **Register:** informal  
 **Variants:** *make a hole*, *make way*, *coming through*
 
@@ -1031,6 +1094,7 @@ Get out of the way — shouted by somebody carrying something heavy or moving fa
 ### heave ho
 
 **Pronunciation:** /ˌhiv ˈhoʊ/ &middot; *heev-HOH*  
+**Русский:** раз-два — взяли!, эй, ухнем! — матросский припев при дружной тяге каната
 **Type:** phrase &middot; **Register:** informal  
 **Variants:** *yo-heave-ho*, *heave-ho*, *heave*
 
@@ -1047,6 +1111,7 @@ A sailor's pulling chant, said on the beat when several people haul on the same 
 ### next
 
 **Pronunciation:** /nɛkst/ &middot; *NEKST*  
+**Русский:** следующий! — оклик кассира, врача, парикмахера, двигающий очередь
 **Type:** secondary &middot; **Register:** neutral  
 **Variants:** *next please*, *next in line*, *next customer*
 
@@ -1063,6 +1128,7 @@ The single word that moves a line forward, called by a cashier, a clerk, a barbe
 ### step right up
 
 **Pronunciation:** /ˌstɛp ˌraɪt ˈʌp/ &middot; *step-rite-UP*  
+**Русский:** подходи, налетай! — зазывала у балагана; теперь шутл. перед рекламной речью
 **Type:** phrase &middot; **Register:** informal  
 **Variants:** *step right up folks*, *step up*, *hurry hurry hurry*
 
@@ -1079,6 +1145,7 @@ The carnival barker's call, pulling a crowd toward a booth or a show. Nobody say
 ### timber
 
 **Pronunciation:** /ˈtɪmbər/ &middot; *TIM-bur*  
+**Русский:** берегись, дерево!, поберегись! — крик лесоруба; шутл. когда падает что-то высокое
 **Type:** secondary &middot; **Register:** neutral  
 **Variants:** *timberrr*, *tim-BER*
 
@@ -1097,6 +1164,7 @@ The logger's shout warning everyone that a tree is falling. Off the job, America
 ### batter up
 
 **Pronunciation:** /ˌbætər ˈʌp/ &middot; *bat-ur-UP*  
+**Русский:** отбивающий, на биту! — бейсбольный вызов; в жизни «ты следующий»
 **Type:** phrase &middot; **Register:** informal  
 **Variants:** *next batter up*, *batter batter*
 
@@ -1113,6 +1181,7 @@ The call that brings the next hitter to the plate in baseball. Off the field it 
 ### break
 
 **Pronunciation:** /breɪk/ &middot; *BRAYK*  
+**Русский:** брейк! — команда рефери разойтись в клинче; break it up — «а ну разошлись»
 **Type:** secondary &middot; **Register:** neutral  
 **Variants:** *break it up*, *break clean*, *one two three break*
 
@@ -1129,6 +1198,7 @@ The referee's order to two fighters tangled up in a clinch: let go and step back
 ### ding ding
 
 **Pronunciation:** /ˈdɪŋ ˈdɪŋ/ &middot; *DING-ding*  
+**Русский:** динь-динь — гонг раунда в боксе; «динь-динь-динь» — «в точку, угадал!»
 **Type:** onomatopoeic &middot; **Register:** informal  
 **Variants:** *ding ding ding*, *ding*
 
@@ -1145,6 +1215,7 @@ The sound of the bell that starts and ends a round in boxing. In ordinary talk, 
 ### fore
 
 **Pronunciation:** /fɔr/ &middot; *FOR*  
+**Русский:** берегись, мяч! — крик гольфиста о летящем в чью-то сторону мяче
 **Type:** primary &middot; **Register:** neutral  
 **Variants:** *fore right*, *fore left*, *foooore*
 
@@ -1161,6 +1232,7 @@ The golfer's shout warning anyone downrange that a ball is coming their way. It 
 ### play ball
 
 **Pronunciation:** /ˌpleɪ ˈbɔl/ &middot; *play-BAWL*  
+**Русский:** игра!, начали — судейский сигнал к началу матча; в делах «пойти навстречу»
 **Type:** phrase &middot; **Register:** informal  
 **Variants:** *let's play ball*
 
@@ -1177,6 +1249,7 @@ The umpire's call that starts a baseball game or restarts play after a stoppage.
 ### pull
 
 **Pronunciation:** /pʊl/ &middot; *PULL* (the vowel of *full*)  
+**Русский:** дай! — команда стрелка, по которой машинка выбрасывает тарелочку
 **Type:** secondary &middot; **Register:** neutral  
 **Variants:** *ready... pull*
 
@@ -1193,6 +1266,7 @@ The shooter's call in trap and skeet that releases the clay target. It is said s
 ### seconds out
 
 **Pronunciation:** /ˌsɛkəndz ˈaʊt/ &middot; *SEK-undz-OUT*  
+**Русский:** секунданты, за ринг! — устар., преим. брит. команда перед началом раунда
 **Type:** phrase &middot; **Register:** dated  
 **Variants:** *seconds away*, *seconds out round three*
 
@@ -1211,6 +1285,7 @@ The ring announcer's order for the cornermen to clear out before a round begins.
 ### all rise
 
 **Pronunciation:** /ˌɔl ˈraɪz/ &middot; *awl-RIZE*  
+**Русский:** встать, суд идёт! — команда пристава в зале суда
 **Type:** phrase &middot; **Register:** formal  
 **Variants:** *all rise please*, *please rise*
 
@@ -1227,6 +1302,7 @@ The bailiff's command that everyone in a courtroom stand as the judge comes in o
 ### going once, going twice
 
 **Pronunciation:** /ˌɡoʊɪŋ ˈwʌns ˌɡoʊɪŋ ˈtwaɪs/ &middot; *goh-ing-WUNS goh-ing-TWICE*  
+**Русский:** раз... два... — предупреждение аукциониста, что торг вот-вот закроется
 **Type:** phrase &middot; **Register:** neutral  
 **Variants:** *going once going twice sold*, *going going gone*
 
@@ -1243,6 +1319,7 @@ The auctioneer's warning that the bidding is about to close. Anywhere else it is
 ### last call
 
 **Pronunciation:** /ˌlæst ˈkɔl/ &middot; *last-KAWL*  
+**Русский:** последний заказ! — объявление бармена перед закрытием
 **Type:** phrase &middot; **Register:** informal  
 **Variants:** *last call for alcohol*, *last call folks*, *closing time*
 
@@ -1259,6 +1336,7 @@ The bartender's announcement that this is your final chance to order before the 
 ### order
 
 **Pronunciation:** /ˈɔrdər/ &middot; *OR-dur*  
+**Русский:** к порядку! — призыв судьи или председателя прекратить шум
 **Type:** secondary &middot; **Register:** formal  
 **Variants:** *order in the court*, *order order*, *come to order*
 
@@ -1275,6 +1353,7 @@ A judge's or a chairperson's call for a room to stop talking and behave. It is n
 ### oyez
 
 **Pronunciation:** /oʊˈjeɪ/ or /oʊˈjɛz/ &middot; *oh-YAY* or *oh-YEZ*  
+**Русский:** слушайте!, внемлите! — юр., устар. клич судебного глашатая, троекратный
 **Type:** primary &middot; **Register:** formal  
 **Variants:** *oyez oyez oyez*, *o yes*
 
@@ -1291,6 +1370,7 @@ A court crier's ancient "hear ye," said three times to open a session and still 
 ### sold
 
 **Pronunciation:** /soʊld/ &middot; *SOHLD*  
+**Русский:** продано! — удар молотка на аукционе; в речи «уговорил, согласен»
 **Type:** secondary &middot; **Register:** neutral  
 **Variants:** *sold to the lady in red*, *sold American*
 

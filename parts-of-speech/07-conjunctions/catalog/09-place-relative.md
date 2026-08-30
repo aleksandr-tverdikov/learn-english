@@ -19,6 +19,7 @@ These build adverbial clauses that answer *where?* about the main verb. Most of 
 ### anyplace
 
 **Pronunciation:** /ˈɛniˌpleɪs/ &middot; *EN-ee-playss*
+**Русский:** где угодно; куда угодно — разг., амер. вариант anywhere; редактор правит на anywhere
 **Type:** subordinating; also a place adverb (*we didn't go anyplace*) and a pronoun (*anyplace is fine*) &middot; **Register:** informal, chiefly American — ordinary in speech and casual writing, changed to *anywhere* by copy editors
 **Clause type:** adverbial clause of place (free choice)
 **Pattern:** [main clause] *anyplace* [that] [clause]. &middot; *Anyplace* [that] [clause], [main clause]. &middot; [negated main clause] *anyplace* [clause] — the negative-polarity use. &middot; [main clause] *anyplace* [subject] [verb] [preposition] — stranded, as in *anyplace the dog can't get to*.
@@ -39,6 +40,7 @@ The informal American twin of *anywhere*, built on *place* instead of the *-wher
 ### anywhere
 
 **Pronunciation:** /ˈɛniˌwɛr/ &middot; *EN-ee-wair*
+**Русский:** где угодно; куда угодно; при отрицании — нигде, никуда — придаточное места
 **Type:** subordinating; also a place adverb (*I looked, but I couldn't find it anywhere*) and a pronoun (*anywhere is fine with me*) &middot; **Register:** neutral
 **Clause type:** adverbial clause of place (free choice)
 **Pattern:** [main clause] *anywhere* [that] [clause]. &middot; *Anywhere* [that] [clause], [main clause]. &middot; [negated main clause] *anywhere* [clause] — the negative-polarity use, as in *you can't park anywhere the curb is red*. &middot; [main clause] *anywhere* [subject] [verb] [preposition] — stranded, as in *anywhere the dog can't get to*.
@@ -60,6 +62,7 @@ Marks every location as equally acceptable — the choice is open and no place i
 ### anywheres
 
 **Pronunciation:** /ˈɛniˌwɛrz/ &middot; *EN-ee-wairz*
+**Русский:** где угодно — диал., прост.: нестандартная форма anywhere с -s
 **Type:** subordinating; more often a plain place adverb &middot; **Register:** dialectal and nonstandard — regional American speech and the dialect writing that records it; never correct in edited prose
 **Clause type:** adverbial clause of place (free choice); relative clause hosted by a place pro-form
 **Pattern:** [negated main clause] *anywheres* [clause]. &middot; [main clause] *anywheres* [that] [clause]. &middot; [main clause] *anywheres* [subject] [verb] [preposition] — stranded. &middot; *not … anywheres near* [noun] — the frame in which it is heard most often.
@@ -80,6 +83,7 @@ The *-s* is the old adverbial genitive that standard English froze in *always*, 
 ### everyplace
 
 **Pronunciation:** /ˈɛvriˌpleɪs/ &middot; *EV-ree-playss*
+**Русский:** везде, где; повсюду — разг., амер. вариант everywhere
 **Type:** subordinating; also a place adverb (*we looked everyplace*) &middot; **Register:** informal, chiefly American; the least-used member of the *-place* set and the one an editor is quickest to change
 **Clause type:** adverbial clause of place (universal)
 **Pattern:** *Everyplace* [that] [clause], [main clause]. &middot; [main clause] *everyplace* [that] [clause]. &middot; [main clause] *everyplace* [subject] [verb] [preposition] — stranded.
@@ -100,6 +104,7 @@ The informal American counterpart of *everywhere*. It is the weakest member of i
 ### everywhere
 
 **Pronunciation:** /ˈɛvriˌwɛr/ &middot; *EV-ree-wair*
+**Русский:** везде, где; повсюду, где — придаточное места со значением «во всех местах»
 **Type:** subordinating; also a place adverb (*I looked everywhere*) &middot; **Register:** neutral
 **Clause type:** adverbial clause of place (universal)
 **Pattern:** *Everywhere* [that] [clause], [main clause]. &middot; [main clause] *everywhere* [that] [clause]. &middot; [main clause] *everywhere* [subject] [verb] [preposition] — stranded, as in *everywhere the light gets to*.
@@ -121,6 +126,7 @@ Says the main clause holds true at every location without exception. Where *anyw
 ### everywheres
 
 **Pronunciation:** /ˈɛvriˌwɛrz/ &middot; *EV-ree-wairz*
+**Русский:** везде — диал., прост.: нестандартная форма everywhere с -s
 **Type:** subordinating; more often a plain place adverb &middot; **Register:** dialectal and nonstandard, and the rarest of the *-s* forms — regional American speech and the dialect fiction that records it
 **Clause type:** adverbial clause of place (universal)
 **Pattern:** *Everywheres* [clause], [main clause]. &middot; [main clause] *everywheres* [clause]. &middot; [main clause] *everywheres* [subject] [verb] [preposition] — stranded.
@@ -141,6 +147,7 @@ Carries the same old adverbial *-s* as *anywheres* and *nowheres* — the ending
 ### no place
 
 **Pronunciation:** /noʊ ˈpleɪs/ &middot; *noh-PLAYSS*
+**Русский:** негде, некуда; нет места, где — разг., амер. вариант nowhere; вперёд не выносится
 **Type:** subordinating (negative); also a place adverb and a noun phrase (*forty miles of no place*) &middot; **Register:** informal, chiefly American
 **Clause type:** relative clause hosted by a negative place pro-form
 **Pattern:** [there is/was] *no place* [that] [clause]. &middot; [subject] [verb] *no place* [that] [clause]. &middot; [main clause] *no place* [subject] [verb] [preposition] — stranded, as in *no place I'd want to eat at*.
@@ -161,6 +168,7 @@ The informal American negative of the *-place* set, matching *anyplace*, *somepl
 ### nowhere
 
 **Pronunciation:** /ˈnoʊˌwɛr/ &middot; *NOH-wair*
+**Русский:** нигде, никуда; негде, некуда — отрицательное место; при выносе вперёд требует инверсии
 **Type:** subordinating (negative); also a place adverb and a noun (*the middle of nowhere*) &middot; **Register:** neutral
 **Clause type:** relative clause hosted by a negative place pro-form; with fronting, a negative adverbial
 **Pattern:** [there is/was] *nowhere* [that] [clause]. &middot; [subject] [verb] *nowhere* [that] [clause]. &middot; *Nowhere* [auxiliary or *be*] [subject] [rest of clause] — fronted, with subject–auxiliary inversion. &middot; [main clause] *nowhere* [subject] [verb] [preposition] — stranded, as in *nowhere I'd want to eat at*.
@@ -182,6 +190,7 @@ The negative member of the *somewhere / anywhere / everywhere* set: it denies th
 ### nowheres
 
 **Pronunciation:** /ˈnoʊˌwɛrz/ &middot; *NOH-wairz*
+**Русский:** нигде — диал., прост.: форма nowhere с -s, обычна в двойном отрицании
 **Type:** subordinating (negative); more often a plain place adverb &middot; **Register:** dialectal and nonstandard — regional American speech and the dialect fiction that records it, Mark Twain's above all
 **Clause type:** relative clause hosted by a negative place pro-form
 **Pattern:** [there is/was] *nowheres* [clause]. &middot; [subject] [verb] *nowheres* [that] [clause]. &middot; *not* … *nowheres* — the double negative, which is ordinary grammar in the dialects that have this word. &middot; *nowheres near* [noun] — the frame that has spread furthest beyond the dialect.
@@ -202,6 +211,7 @@ Standard *nowhere* with the old adverbial genitive *-s* that survives in *always
 ### someplace
 
 **Pronunciation:** /ˈsʌmˌpleɪs/ &middot; *SUHM-playss*
+**Русский:** где-нибудь, куда-нибудь — разг., амер. вариант somewhere
 **Type:** subordinating; also a place adverb (*I left it someplace*) and a pronoun &middot; **Register:** informal, chiefly American — common in educated American speech and in fiction dialogue, replaced by *somewhere* in formal prose
 **Clause type:** relative clause hosted by an indefinite place pro-form
 **Pattern:** [main clause] *someplace* [that] [clause]. &middot; [main clause] *someplace* [subject] [verb] [preposition] — stranded. &middot; *Someplace* [that] [clause], [main clause] — the whole phrase fronted as a topic and resumed by *that's* or *there*.
@@ -222,6 +232,7 @@ The informal American twin of *somewhere*, and the most natural-sounding of the 
 ### somewhere
 
 **Pronunciation:** /ˈsʌmˌwɛr/ &middot; *SUHM-wair*
+**Русский:** где-нибудь, куда-нибудь; там, где — неопределённое место с придаточным
 **Type:** subordinating; also a place adverb (*I left it somewhere*) and a pronoun (*somewhere in Ohio is far enough*) &middot; **Register:** neutral
 **Clause type:** relative clause hosted by an indefinite place pro-form
 **Pattern:** [main clause] *somewhere* [that] [clause]. &middot; [main clause] *somewhere* [subject] [verb] [preposition] — stranded, as in *somewhere only his sister knows about*. &middot; *Somewhere* [that] [clause], [main clause] — the whole phrase fronted as a topic and picked up again by *that's* or *there*.
@@ -243,6 +254,7 @@ Names an unspecified location and then describes it with a clause. Strictly this
 ### whence
 
 **Pronunciation:** /wɛns/ (older and Southern /ʍɛns/) &middot; *WENS*
+**Русский:** откуда — устар., книжн.: место-источник
 **Type:** subordinating; also a relative adverb &middot; **Register:** archaic, literary
 **Clause type:** adverbial clause of place (source); relative clause of origin; noun clause (indirect question)
 **Pattern:** [main clause] *whence* [clause]. &middot; [place noun], *whence* [clause]. &middot; [place noun] *whence* [clause] — restrictive, no comma. &middot; [verb of knowing/asking] *whence* [subject] [verb] — embedded, statement word order. &middot; [main clause] *from whence* [clause] — the long-established redundant form.
@@ -264,6 +276,7 @@ Means "from what place" or "from which place." The *from* is already baked into 
 ### whencesoever
 
 **Pronunciation:** /ˌwɛnsoʊˈɛvər/ &middot; carefully /ˌwɛnssoʊˈɛvər/ &middot; *wens-soh-EV-er*
+**Русский:** откуда бы ни — устар., юр.: из любого источника, откуда бы ни поступило
 **Type:** subordinating; also a relative adverb &middot; **Register:** archaic; survives in scriptural cadence and in old customs and revenue drafting
 **Clause type:** adverbial clause of place (source, universal); relative clause of origin
 **Pattern:** [main clause] *whencesoever* [clause]. &middot; *Whencesoever* [clause], [main clause]. &middot; [noun] *whencesoever* [past participle] — the reduced statutory formula, as in *goods whencesoever imported*. &middot; [noun] *whencesoever* [present participle] — as in *income whencesoever arising*.
@@ -284,6 +297,7 @@ The *-soever* intensification of *whence*, meaning "from absolutely any place th
 ### where
 
 **Pronunciation:** /wɛr/ (older and Southern /ʍɛr/) &middot; *WAIR* — unstressed as a conjunction but not reduced; it never falls together with *were* /wər/
+**Русский:** где; куда; там, где — место; также относительное «в котором» и косвенный вопрос «где»
 **Type:** subordinating; also a relative adverb and an interrogative &middot; **Register:** neutral
 **Clause type:** adverbial clause of place; relative clause modifying a place noun; noun clause (indirect question)
 **Pattern:** [main clause] *where* [clause]. &middot; *Where* [clause], [main clause]. &middot; [place noun] *where* [clause]. &middot; [place noun], *where* [clause], [rest of sentence]. &middot; [verb of knowing/asking] *where* [clause].
@@ -305,6 +319,7 @@ The workhorse of the category, and the one word that belongs to both families in
 ### where all
 
 **Pronunciation:** /ˈwɛr ˌɔl/ &middot; also /ˌwɛr ˈɔl/ &middot; *WAIR-awl*
+**Русский:** где именно, во всех каких местах — диал. (юг США): вопрос требует перечислить все места
 **Type:** subordinating (interrogative); also an interrogative adverb in direct questions &middot; **Register:** dialectal — Southern and South Midland American; unremarkable in speech across that region and absent from edited prose everywhere
 **Clause type:** noun clause (indirect question, exhaustive)
 **Pattern:** *Where all* [auxiliary] [subject] [verb]? — direct question, with inversion. &middot; [verb of asking/knowing] *where all* [subject] [verb] — embedded, statement word order. &middot; *Where all* [subject] [verb] [preposition]? — stranded. &middot; *Where* [auxiliary] [subject] [verb] *all*? — the *all* floated to the end of the clause.
@@ -325,6 +340,7 @@ The *all* here is not the ordinary quantifier but an exhaustiveness marker welde
 ### where at
 
 **Pronunciation:** /wɛr … æt/ &middot; the *at* is unstressed and normally reduced to /ət/ &middot; *WAIR … at*
+**Русский:** где — прост.: избыточное at в конце придаточного, в русском не отражается
 **Type:** subordinating — plain *where* with a pleonastic stranded *at* &middot; **Register:** nonstandard; extremely widespread in casual American speech in every region, and one of the most heavily corrected features in American schools
 **Clause type:** noun clause (indirect question of place); adverbial clause of place
 **Pattern:** [verb of asking/knowing] *where* [subject] [verb] *at*. &middot; *Where* [auxiliary] [subject] *at*? — the direct question. &middot; [main clause] *where* [subject] [verb] *at*. &middot; *where it's at* — the frozen idiom, which is a different animal.
@@ -345,6 +361,7 @@ The *all* here is not the ordinary quantifier but an exhaustiveness marker welde
 ### whereabouts
 
 **Pronunciation:** /ˈwɛrəˌbaʊts/ &middot; also /ˌwɛrəˈbaʊts/ &middot; *WAIR-uh-bowts*
+**Русский:** где примерно, в каком районе — разг.: спрашивает о приблизительном месте
 **Type:** subordinating (interrogative); also an interrogative adverb and a plural noun (*his whereabouts are unknown*) &middot; **Register:** informal; the embedded use is chiefly British and Irish rather than American
 **Clause type:** noun clause (indirect question of approximate place)
 **Pattern:** *Whereabouts* [auxiliary] [subject] [verb]? — direct question, with inversion. &middot; *Whereabouts* [prepositional phrase] [auxiliary] [subject] [verb]? — as in *Whereabouts in Ohio did you grow up?* &middot; [verb of asking/knowing] *whereabouts* [subject] [verb] — embedded, statement word order. &middot; [verb of asking/knowing] *whereabouts* [prepositional phrase] [subject] [verb].
@@ -364,6 +381,7 @@ Asks for a rough location where *where* asks for an exact one — "in what gener
 ### whereas
 
 **Pronunciation:** /wɛrˈæz/ &middot; *wair-AZ*
+**Русский:** тогда как — противопоставление; в преамбуле договора (юр.) «принимая во внимание, что»
 **Type:** subordinating &middot; **Register:** formal; the preamble use is legal
 **Clause type:** adverbial clause of contrast; in legal drafting, a recital
 **Pattern:** *Whereas* [clause], [main clause]. &middot; [main clause], *whereas* [clause]. &middot; WHEREAS, [clause]; WHEREAS, [clause]; NOW, THEREFORE, [operative clause].
@@ -383,6 +401,7 @@ Built from *where* + *as*, and originally meaning "at which place" — which is 
 ### wheresoever
 
 **Pronunciation:** /ˌwɛrsoʊˈɛvər/ &middot; *wair-soh-EV-er*
+**Русский:** где бы ни; повсюду, где — устар., юр.: «где бы ни находилось»
 **Type:** subordinating &middot; **Register:** archaic; survives in legal and ceremonial writing
 **Clause type:** adverbial clause of place (universal, emphatic)
 **Pattern:** *Wheresoever* [clause], [main clause]. &middot; [main clause] *wheresoever* [clause]. &middot; [noun] *wheresoever* [past participle] — the legal formula, as in *assets wheresoever situated*.
@@ -402,6 +421,7 @@ The emphatic form of *wherever*, built with the old intensifying suffix *-soever
 ### wherever
 
 **Pronunciation:** /wɛrˈɛvər/ &middot; reduced /wərˈɛvər/ &middot; *wair-EV-er*
+**Русский:** где бы ни; куда бы ни; везде, где — обобщающее и уступительное место
 **Type:** subordinating; also a fused relative &middot; **Register:** neutral
 **Clause type:** adverbial clause of place (universal); concessive clause of place
 **Pattern:** *Wherever* [clause], [main clause]. &middot; [main clause] *wherever* [clause]. &middot; [main clause], *wherever* [clause] — afterthought, with a comma. &middot; *Wherever it is* [that] [clause] — the emphatic cleft. &middot; *Where ever* [auxiliary] [subject] [verb]? — two words, and only in an emphatic question.
@@ -422,6 +442,7 @@ Means "in any place that," "in every place that," or — the concessive reading 
 ### whither
 
 **Pronunciation:** /ˈwɪðər/ (older /ˈʍɪðər/) &middot; *WITH-er* — a homophone of *wither* for most Americans
+**Русский:** куда — устар., книжн.: место-назначение
 **Type:** subordinating; also a relative adverb &middot; **Register:** archaic, literary
 **Clause type:** adverbial clause of place (destination); relative clause of destination; noun clause
 **Pattern:** [main clause] *whither* [clause]. &middot; [place noun] *whither* [clause] — restrictive, no comma. &middot; [place noun], *whither* [clause] — nonrestrictive, comma. &middot; [verb of knowing/asking] *whither* [subject] [verb] — embedded, statement word order. &middot; *Whither* [noun phrase]? — the verbless headline formula.
@@ -442,6 +463,7 @@ Means "to what place" or "to which place" — the destination counterpart of *wh
 ### whithersoever
 
 **Pronunciation:** /ˌwɪðərsoʊˈɛvər/ &middot; *with-er-soh-EV-er*
+**Русский:** куда бы ни — устар., библ.: в любое место назначения
 **Type:** subordinating; also a relative adverb &middot; **Register:** archaic; scriptural and ceremonial — an American meets it in the King James Bible, in hymn text, and in period pastiche, and nowhere else
 **Clause type:** adverbial clause of place (destination, universal); relative clause of destination
 **Pattern:** *Whithersoever* [clause], [main clause]. &middot; [main clause] *whithersoever* [clause]. &middot; [place noun] *whithersoever* [clause] — restrictive, no comma. &middot; [noun] *whithersoever* [past participle] — the reduced formula, as in *goods whithersoever consigned*.
@@ -470,6 +492,7 @@ All of them but one are true relative connectors: they subordinate, they cannot 
 ### whereby
 
 **Pronunciation:** /wɛrˈbaɪ/ &middot; *wair-BY*
+**Русский:** посредством которого; согласно которому — «by which» при существительном способа
 **Type:** relative adverb &middot; **Register:** formal
 **Clause type:** restrictive relative clause modifying a noun of method (*system, arrangement, process, rule, mechanism*)
 **Pattern:** [noun of method] *whereby* [subject] [verb]. &middot; [preposition] [noun of method] *whereby* [clause] — as in *under a system whereby claims are audited quarterly*. &middot; [verb] [determiner] [noun of method] *whereby* [clause].
@@ -490,6 +513,7 @@ Means "by means of which" and attaches a clause to an abstract noun that names a
 ### wherefore
 
 **Pronunciation:** /ˈwɛrˌfɔr/ &middot; *WAIR-for*
+**Русский:** вследствие чего, посему; устар. «почему» — юр.; в whys and wherefores — «причины»
 **Type:** conjunctive adverb ("for which reason"); also an archaic interrogative adverb and, in the fixed plural, a noun &middot; **Register:** archaic; survives in legal drafting and one fixed noun phrase
 **Clause type:** independent clause of result or consequence; interrogative clause of reason
 **Pattern:** [independent clause]; *wherefore* [independent clause]. &middot; [independent clause]. *Wherefore*, [independent clause]. &middot; *WHEREFORE*, [subject] [verb] — the prayer for relief that closes a legal pleading. &middot; *Wherefore* [auxiliary or verb] [subject] …? — the archaic interrogative meaning "why." &middot; *the whys and wherefores* — fixed noun phrase.
@@ -510,6 +534,7 @@ Means "for which reason" or, in its interrogative use, simply "why." Juliet's *W
 ### wherefrom
 
 **Pronunciation:** /wɛrˈfrʌm/ &middot; also /wɛrˈfrɑm/ &middot; *wair-FRUM*
+**Русский:** откуда, из которого — устар.: «from which», редчайшее в семье where-
 **Type:** relative adverb &middot; **Register:** archaic, and the rarest of the whole *where-* family — old deeds, old wills, and period prose
 **Clause type:** relative clause of source, restrictive or nonrestrictive
 **Pattern:** [noun] *wherefrom* [clause] — restrictive, no comma. &middot; [noun], *wherefrom* [clause], [rest of sentence] — nonrestrictive. &middot; [noun of origin] *wherefrom* [subject] [verb].
@@ -530,6 +555,7 @@ Means "from which." It is the least successful of the *where-* compounds, and th
 ### wherein
 
 **Pronunciation:** /wɛrˈɪn/ &middot; *wair-IN*
+**Русский:** в котором; в чём — книжн.: «in which»
 **Type:** relative adverb &middot; **Register:** formal, literary
 **Clause type:** relative clause of location or of respect — restrictive or nonrestrictive
 **Pattern:** [noun] *wherein* [clause]. &middot; [noun], *wherein* [clause], [rest of sentence]. &middot; *wherein lies* [noun phrase] — fixed inversion.
@@ -549,6 +575,7 @@ Means "in which," covering both literal containment (*a country wherein no one p
 ### whereof
 
 **Pronunciation:** /wɛrˈʌv/ &middot; also /wɛrˈɑv/ &middot; *wair-UV*
+**Русский:** о котором; которого — устар., юр.: «of which»; IN WITNESS WHEREOF — «в удостоверение чего»
 **Type:** relative adverb &middot; **Register:** archaic; survives in one legal formula
 **Clause type:** relative clause meaning "of which" or "of what"
 **Pattern:** [noun] *whereof* [clause]. &middot; [noun], the [attribute] *whereof* [verb phrase]. &middot; IN WITNESS *WHEREOF*, [clause].
@@ -568,6 +595,7 @@ Means "of which" or "of what." In modern American English it survives in essenti
 ### whereunto
 
 **Pronunciation:** /ˌwɛrənˈtu/ &middot; also /wɛrˈʌntu/ &middot; *wair-un-TOO*
+**Русский:** к которому; для чего — устар., библ.: «to which»
 **Type:** relative adverb &middot; **Register:** archaic; scriptural, and a fossil in older legal drafting
 **Clause type:** relative clause of destination or purpose, restrictive or nonrestrictive
 **Pattern:** [noun] *whereunto* [clause] — restrictive, no comma. &middot; [noun], *whereunto* [clause], [rest of sentence] — nonrestrictive. &middot; [noun of office or purpose] *whereunto* [subject] [verb] — as in *the office whereunto he was called*.
@@ -588,6 +616,7 @@ Means "to which." It is the *-unto* member of the family, and its ordinary habit
 ### whereupon
 
 **Pronunciation:** /ˌwɛrəˈpɑn/ &middot; also /ˌwɛrəˈpɔn/ &middot; *wair-uh-PON*
+**Русский:** после чего; вслед за чем — присоединяет следствие ко всему предыдущему высказыванию
 **Type:** relative adverb (continuative) &middot; **Register:** formal
 **Clause type:** nonrestrictive relative clause whose antecedent is the entire preceding clause
 **Pattern:** [independent clause], *whereupon* [subject] [verb]. &middot; [independent clause], *whereupon* [clause], [continuation]. &middot; [noun of occasion] *whereupon* [clause] — rare and formal, as in *the moment whereupon everything turned*.
@@ -615,6 +644,7 @@ Three rules govern the whole group. **First, the comma rule:** restrictive (iden
 ### as
 
 **Pronunciation:** /æz/ &middot; weak /əz/ &middot; *AZ*
+**Русский:** который — относительное только после such, the same, as much/many; либо «как» обо всей фразе
 **Type:** relative pronoun (only after *such*, *same*, and *as many/much*); elsewhere a subordinating conjunction of time, cause, manner, or concession, a preposition (*as a rule*, *hired as a temp*), an adverb of degree (*as tall*), and half of the correlative *as … as* &middot; **Register:** neutral in the fixed frames; formal in the sentential use; nonstandard in the bare relative use
 **Clause type:** restrictive relative clause; sentential relative clause
 **Pattern:** *such* [noun] *as* [clause]. &middot; *the same* [noun] *as* [clause]. &middot; *as many/much* [noun] *as* [clause]. &middot; [main clause], *as* [clause] — sentential, trailing. &middot; *As* [clause], [main clause] — sentential, fronted. &middot; [subject], *as* [clause], [predicate] — sentential, interrupting.
@@ -636,6 +666,7 @@ Three rules govern the whole group. **First, the comma rule:** restrictive (iden
 ### but
 
 **Pronunciation:** /bʌt/ &middot; weak /bət/ &middot; *BUT* &middot; *buht*
+**Русский:** который не — устар.: относительное со встроенным отрицанием, требует отрицания в главном
 **Type:** relative pronoun (negative) — a relative with its own negative built in; elsewhere a coordinating conjunction, a preposition (*everyone but me*), and a focusing adverb (*but a child*) &middot; **Register:** archaic and literary; alive in a handful of proverbs and otherwise a period form
 **Clause type:** restrictive relative clause, licensed only by a negative, an interrogative, or *only* in the clause above it
 **Pattern:** [negated existential] *but* [verb phrase] — as in *there is no one but knows it*. &middot; *no* / *not a* / *scarcely a* [noun] *but* [verb phrase]. &middot; *Who is there but* [verb phrase]? — the rhetorical question. &middot; *never so* [adjective] *but* [clause] — the concessive cousin, treated at [*but that*](12-formal-archaic.md#but-that).
@@ -656,6 +687,7 @@ A relative pronoun that swallows a negative: *there is no rule but has an except
 ### for which reason
 
 **Pronunciation:** /fɔr ˌwɪtʃ ˈrizən/ &middot; weak /fər ˌwɪtʃ ˈrizən/ &middot; *for wich REE-zun*
+**Русский:** по каковой причине; вследствие чего — книжн., юр.: развёрнутый эквивалент wherefore
 **Type:** relative connective — pied-piped preposition + relative determiner + noun; functionally a continuative relative &middot; **Register:** formal; judicial opinions, contract recitals, and old-fashioned expository prose
 **Clause type:** nonrestrictive relative clause whose antecedent is the whole preceding clause
 **Pattern:** [independent clause], *for which reason* [clause]. &middot; [noun of cause], *for which reason* [clause]. &middot; *For which reason*, [clause] — a fresh sentence, which only legal drafting does. &middot; *for which purpose* / *for which cause* — the same frame with the noun changed.
@@ -676,6 +708,7 @@ The transparent, unpacked ancestor of *wherefore* — every *where-* compound is
 ### he that
 
 **Pronunciation:** /hi ˈðæt/ &middot; weak /hi ðət/ &middot; *hee-THAT*
+**Русский:** тот, кто — устар., библ.: предшественник whoever, без родовой нейтральности
 **Type:** fused-relative frame — a bare pronoun head plus relative *that*; equivalent to the modern one-word fused relative *whoever* &middot; **Register:** archaic; scripture, hymnody, proverb, and legal maxim — an American meets it in the King James Bible, in Shakespeare, in Franklin, and in the older sayings of the law
 **Clause type:** restrictive relative clause with a pronoun head; the whole phrase functions as a noun phrase
 **Pattern:** *He that* [verb phrase] + [main verb] — the phrase as subject. &middot; *He that* [verb phrase], [imperative or resumptive clause] — the older pointing, licensed by a resumptive *him* or *let him*. &middot; *They that* [verb phrase] + [main verb] — plural. &middot; [verb/preposition] *him that* [verb phrase] — oblique case on the head. &middot; *He who* [verb phrase] — the same frame with *who*, and the only version still written today.
@@ -696,10 +729,11 @@ Before *whoever* took the job over, English said *he that*: a bare pronoun head 
 ### in which
 
 **Pronunciation:** /ɪn ˈwɪtʃ/ &middot; weak /ən ˈwɪtʃ/ &middot; *in-WICH*
+**Русский:** в котором — книжн.: предлог вынесен вперёд; в разговорной речи он уходит в конец
 **Type:** relative pronoun with a pied-piped preposition &middot; **Register:** formal; the stranded alternative (*the box it came in*) is the neutral spoken form and is equally correct
 **Clause type:** relative clause — restrictive after a bare noun, nonrestrictive after a comma
 **Pattern:** [noun] *in which* [subject] [verb] — restrictive. &middot; [noun], *in which* [clause], [rest of sentence] — nonrestrictive. &middot; [noun] [that / ∅] [subject] [verb] *in* — the stranded equivalent. &middot; the identical frame with any preposition: *of which*, *to which*, *for which*, *on which*, *with which*, *at which*, *by which*, *from which*, *under which*, *through which*, *upon which*.
-**Punctuation:** **Never a comma between the preposition and *which*** — the two move as one unit and belong to the same phrase. The clause itself follows the ordinary rule: no commas when it narrows which thing is meant (*the cabinet in which the contracts were stored*), commas on both sides when the thing is already identified (*the north cabinet, in which the contracts were stored, was never locked*). And note what the fronted preposition forbids: it **blocks *that*** and it **blocks the zero relative**, so *the box in that it came* and *the box in it came* are both impossible.
+**Punctuation:** ✗ *Never a comma between the preposition and *which*** — the two move as one unit and belong to the same phrase. The clause itself follows the ordinary rule: no commas when it narrows which thing is meant (*the cabinet in which the contracts were stored*), commas on both sides when the thing is already identified (*the north cabinet, in which the contracts were stored, was never locked*). And note what the fronted preposition forbids: it ✗ *blocks *that*** and it **blocks the zero relative**, so *the box in that it came* and *the box in it came* are both impossible.
 **Variants:** *of which*, *to which*, *for which*, *on which*, *with which*, *at which*, *by which*, *from which*, *under which* (the same construction with the preposition changed); the stranded *that … in* / ∅ *… in* (the ordinary spoken form); *wherein*, *whereof*, *whereto*, *whereon*, *wherewith* (the archaic one-word compounds for the same thing); *of which* doubles as the stiff possessive alternative to *whose*
 
 Fronting the preposition along with *which* is the formal option; leaving it at the end of the clause is the normal spoken one. Both are correct American English — the old rule against ending a sentence with a preposition was never a rule of the language — so the choice is register, not grammar. What is real is the constraint the fronting creates: once a preposition stands in front, only *which* or *whom* can follow it, which means choosing the formal word order also forces the formal relative pronoun. *Of which* is worth a separate look, since it does double duty as the inanimate possessive (*a house the roof of which leaks*), where most writers now prefer *whose*.
@@ -717,6 +751,7 @@ Fronting the preposition along with *which* is the formal option; leaving it at 
 ### that
 
 **Pronunciation:** /ðæt/ &middot; weak and usual /ðət/ &middot; *THAT* &middot; *thuht*
+**Русский:** который, что — относительное только в ограничительных придаточных, без запятой
 **Type:** relative pronoun; also a complementizer, a demonstrative determiner, and a degree adverb &middot; **Register:** neutral
 **Clause type:** **restrictive** relative clause only; as a complementizer, a noun clause
 **Pattern:** [noun] *that* [verb phrase] — subject relative, and *that* cannot be deleted. &middot; [noun] *that* [subject] [verb] — object relative, and *that* may be deleted. &middot; [noun] *that* [subject] [verb] [preposition] — stranded preposition, as in *the chair that she sat on*. &middot; [noun] ∅ [subject] [verb] — the zero relative, object position only.
@@ -738,6 +773,7 @@ The default restrictive relative, usable for people, things, and animals alike. 
 ### the conditions under which
 
 **Pronunciation:** /ðə kənˈdɪʃənz ˌʌndər ˈwɪtʃ/ &middot; *thuh kun-DISH-unz UN-der WICH*
+**Русский:** условия, при которых — книжн., научн.: предлог вынесен вперёд
 **Type:** complex relative frame — head noun + pied-piped preposition + relative pronoun &middot; **Register:** formal; scientific, technical, regulatory, and legal prose
 **Clause type:** restrictive relative clause modifying *conditions*; the whole phrase serves as the subject or the object of the main clause
 **Pattern:** *the conditions under which* [subject] [verb] + [main verb] — the phrase as subject. &middot; [verb of specifying/describing] *the conditions under which* [clause] — as object. &middot; [preposition] *the conditions under which* [clause]. &middot; *the circumstances under which* / *the terms under which* / *the rules under which* — the same frame with the head noun changed.
@@ -758,6 +794,7 @@ A fixed technical frame rather than a single connector: *under which* is the rel
 ### the degree to which
 
 **Pronunciation:** /ðə dɪˈɡri tə ˈwɪtʃ/ &middot; *thuh dih-GREE tuh WICH*
+**Русский:** степень, в какой; насколько — книжн.: мера, поддающаяся оценке
 **Type:** complex relative frame — noun of measure + pied-piped preposition + relative pronoun &middot; **Register:** formal; academic, analytical, and evaluative prose
 **Clause type:** restrictive relative clause modifying *degree*; the whole phrase behaves as a noun phrase, usually the subject or the object of a verb of measuring or judging
 **Pattern:** *The degree to which* [subject] [verb] + [main verb] — the phrase as subject. &middot; [verb of measuring/assessing] *the degree to which* [clause] — as object. &middot; [preposition] *the degree to which* [clause] — as in *depends on the degree to which*.
@@ -778,6 +815,7 @@ Names an amount and then defines it with a clause: *the degree to which the mode
 ### the extent to which
 
 **Pronunciation:** /ðə ɪkˈstɛnt tə ˈwɪtʃ/ &middot; *thuh ik-STENT tuh WICH*
+**Русский:** то, насколько; мера, в какой — книжн.: стандартная осторожная формула
 **Type:** complex relative frame — noun of measure + pied-piped preposition + relative pronoun &middot; **Register:** formal; the standard hedge of academic, scientific, and official American prose
 **Clause type:** restrictive relative clause modifying *extent*; the whole phrase behaves as a noun phrase
 **Pattern:** *The extent to which* [subject] [verb] + [main verb] — the phrase as subject. &middot; [verb of measuring/assessing] *the extent to which* [clause] — as object. &middot; [preposition] *the extent to which* [clause]. &middot; *to the extent that* [clause] — the related conditional frame, which is a different construction and lives with the [comparison words](08-comparison.md#to-the-degree-that).
@@ -798,6 +836,7 @@ The workhorse of the *which* frames, and the phrase American academic prose reac
 ### the manner in which
 
 **Pronunciation:** /ðə ˈmænər ɪn ˈwɪtʃ/ &middot; *thuh MAN-er in WICH*
+**Русский:** то, как; способ, которым — книжн., юр.; стилисты советуют заменять на how
 **Type:** complex relative frame — noun of manner + pied-piped preposition + relative pronoun &middot; **Register:** formal; legal, official, and old-fashioned expository prose — and the standing example, in every American style guide, of a phrase that ought to be *how*
 **Clause type:** restrictive relative clause modifying *manner*; the whole phrase behaves as a noun phrase
 **Pattern:** *The manner in which* [subject] [verb] + [main verb] — the phrase as subject. &middot; [verb of describing/objecting to] *the manner in which* [clause] — as object. &middot; [preposition] *the manner in which* [clause] — as in *as to the manner in which*. &middot; *in the manner in which* [clause] — the doubled form, best avoided. &middot; *the manner whereby* / *the manner wherein* — archaic.
@@ -818,6 +857,7 @@ The bulkiest of the *which* frames: *the manner in which he answered* is four wo
 ### the which
 
 **Pronunciation:** /ðə ˈwɪtʃ/ &middot; *thuh WICH*
+**Русский:** каковой, который — устар. (Чосер, Шекспир): по смыслу ничем не отличается от which
 **Type:** relative pronoun carrying a definite article &middot; **Register:** archaic; Middle and Early Modern English, and after about 1700 a deliberate costume — an American meets it in Chaucer, Malory, the 1611 Bible, and Shakespeare
 **Clause type:** relative clause, restrictive or nonrestrictive; also sentential, with a whole clause as antecedent
 **Pattern:** [noun], *the which* [verb phrase] — nonrestrictive. &middot; [noun] *the which* [subject] [verb] — restrictive. &middot; [preposition] *the which* [clause] — as in *of the which*, *in the which*. &middot; [clause], *the which* [clause] — sentential, the whole preceding clause as antecedent.
@@ -838,6 +878,7 @@ English once had a definite relative *the which* running alongside bare *which*,
 ### what
 
 **Pronunciation:** /wʌt/ &middot; also /wɑt/ &middot; weak /wət/ &middot; *WUT*
+**Русский:** то, что — слитное относительное: само содержит свой антецедент («the thing which»)
 **Type:** fused relative pronoun; also an interrogative and an exclamative determiner &middot; **Register:** neutral
 **Clause type:** nominal relative (free relative) clause — a clause that functions as a noun phrase
 **Pattern:** *What* [clause] + [main verb] — the clause as subject. &middot; [verb/preposition] *what* [clause] — the clause as object. &middot; *What* [clause] *is* [complement] — the pseudo-cleft. &middot; *what* + noun (*what money we had left*).
@@ -858,6 +899,7 @@ English once had a definite relative *the which* running alongside bare *which*,
 ### what all
 
 **Pronunciation:** /ˈwʌt ˌɔl/ &middot; also /ˈwɑt ˌɔl/ &middot; casually /ˈwʌɾ ˌɔl/, with the *t* flapped &middot; *WUT-awl*
+**Русский:** что именно; всё то, что — диал. (юг США): вопрос требует полного перечня
 **Type:** fused relative and interrogative pronoun carrying exhaustive *all* &middot; **Register:** dialectal — Southern and South Midland American, and heard well beyond that in casual speech; absent from edited prose
 **Clause type:** noun clause (indirect question, exhaustive); nominal relative clause
 **Pattern:** *What all* [auxiliary] [subject] [verb]? — direct question. &middot; [verb of asking/knowing/telling] *what all* [subject] [verb] — embedded, statement word order. &middot; *What all* [verb phrase] + [main verb] — the clause as subject. &middot; *what all* + noun + [clause] — as in *what all paperwork they need*. &middot; *What* [auxiliary] [subject] [verb] *all*? — the *all* floated to the end.
@@ -878,6 +920,7 @@ The *all* is not the ordinary quantifier floating loose but an exhaustiveness ma
 ### which
 
 **Pronunciation:** /wɪtʃ/ (older and Southern /ʍɪtʃ/) &middot; *WICH*
+**Русский:** который; что — о предметах; в амер. норме неограничительное, с запятыми
 **Type:** relative pronoun; also an interrogative determiner &middot; **Register:** neutral
 **Clause type:** relative clause — nonrestrictive in edited American prose, restrictive after a preposition
 **Pattern:** [noun], *which* [clause], [rest of sentence]. &middot; [noun] [preposition] *which* [clause]. &middot; [independent clause], *which* [clause] — sentential relative. &middot; *which* + noun (*by which time*, *at which point*).
@@ -898,6 +941,7 @@ Refers to things, animals, and ideas — never to people, who take *who*. The Am
 ### who
 
 **Pronunciation:** /hu/ &middot; weak /hʊ/ &middot; *HOO*
+**Русский:** кто; который — о людях, форма подлежащего
 **Type:** relative pronoun (subject case); also an interrogative &middot; **Register:** neutral
 **Clause type:** relative clause, restrictive or nonrestrictive; noun clause (indirect question)
 **Pattern:** [person noun] *who* [verb phrase] — subject relative, restrictive. &middot; [person noun], *who* [verb phrase], [rest of sentence] — subject relative, nonrestrictive. &middot; [person noun] *who* [subject] [verb] — object relative, normal in speech where formal writing takes *whom*. &middot; [verb of knowing/asking] *who* [clause] — indirect question.
@@ -918,6 +962,7 @@ The people relative. In everyday American English *who* has annexed most of *who
 ### who all
 
 **Pronunciation:** /ˈhu ˌɔl/ &middot; casually /ˌhuˈwɔl/, with a linking *w* &middot; *HOO-awl*
+**Русский:** кто именно; все, кто — диал. (юг США): вопрос требует перечислить всех
 **Type:** interrogative and relative pronoun carrying exhaustive *all* &middot; **Register:** dialectal — Southern and South Midland American; ordinary in speech across that region and absent from edited prose
 **Clause type:** noun clause (indirect question, exhaustive); relative clause
 **Pattern:** *Who all* [auxiliary] [subject] [verb]? — direct question. &middot; *Who all* [verb phrase]? — as subject of its own question. &middot; [verb of asking/knowing] *who all* [verb phrase] — embedded, statement word order. &middot; *who all's* + noun — the possessive, as in *who all's car is that*. &middot; *Who* [auxiliary] [subject] [verb] *all*? — the *all* floated to the end.
@@ -938,6 +983,7 @@ Asks for a full roster rather than a single name: *Who came?* can be answered wi
 ### whom
 
 **Pronunciation:** /hum/ &middot; *HOOM*
+**Русский:** кого, кому — объектная форма who; книжн., обязательна после предлога
 **Type:** relative pronoun (object case); also an interrogative &middot; **Register:** formal
 **Clause type:** relative clause, restrictive or nonrestrictive; noun clause (indirect question)
 **Pattern:** [noun] *whom* [subject] [verb] — object relative. &middot; [noun] [preposition] *whom* [clause] — pied-piped, as in *the people with whom he lived*. &middot; [noun], *whom* [clause], [rest of sentence] — nonrestrictive.
@@ -958,6 +1004,7 @@ The object form of *who*. The reliable test: rebuild the relative clause as a pl
 ### whose
 
 **Pronunciation:** /huz/ &middot; *HOOZ*
+**Русский:** чей; которого — притяжательное относительное, о людях и (реже) о предметах
 **Type:** relative determiner (possessive); also an interrogative &middot; **Register:** neutral
 **Clause type:** relative clause, restrictive or nonrestrictive; noun clause (indirect question)
 **Pattern:** [noun] *whose* [noun] [verb] — the possessed noun always follows immediately. &middot; [noun], *whose* [noun] [clause], [rest of sentence]. &middot; [preposition] *whose* [noun] [clause]. &middot; [verb of knowing/asking] *whose* [noun] [clause].
@@ -978,6 +1025,7 @@ The possessive relative, and the only relative word that is a determiner rather 
 ### zero relative
 
 **Pronunciation:** ∅ — unpronounced; the clause simply begins with its own subject
+**Русский:** нулевое относительное — пропуск which/that/whom-дополнения; в русском так опустить нельзя
 **Type:** relative pronoun (null) &middot; **Register:** neutral; the ordinary spoken choice
 **Clause type:** **restrictive** relative clause only, and only when the missing word is the object
 **Pattern:** [noun] ∅ [subject] [verb] — object relative, as in *the email I sent*. &middot; [noun] ∅ [subject] [verb] [preposition] — stranded preposition, as in *the chair she sat on*. &middot; [time noun] ∅ [clause] — *the day we met*. &middot; [place noun] ∅ [clause] — *the town I grew up in*. &middot; *the reason* ∅ [clause] — *the reason I left*.
@@ -1007,6 +1055,7 @@ A relative adverb replaces a preposition-plus-*which*: *the day when we met* = *
 ### when
 
 **Pronunciation:** /wɛn/ &middot; weak /wən/ (older and Southern /ʍɛn/) &middot; *WEN*
+**Русский:** когда; в который — относительное наречие при существительном времени
 **Type:** relative adverb; also a subordinating conjunction of time and an interrogative &middot; **Register:** neutral
 **Clause type:** relative clause modifying a time noun; noun clause (indirect question)
 **Pattern:** [time noun] *when* [clause] — restrictive. &middot; [time noun], *when* [clause], [rest of sentence] — nonrestrictive. &middot; [time noun] ∅ [clause] — relative *when* deleted. &middot; [verb of knowing/asking] *when* [clause].
@@ -1027,6 +1076,7 @@ This entry covers *when* as a **relative adverb** — the word that hooks a clau
 ### why
 
 **Pronunciation:** /waɪ/ (older and Southern /ʍaɪ/) &middot; *WY*
+**Русский:** почему; по которой — относительное наречие только при слове reason
 **Type:** relative adverb; also an interrogative &middot; **Register:** neutral
 **Clause type:** relative clause modifying *reason*; noun clause (indirect question)
 **Pattern:** *the reason* [*why*] [clause] — the *why* is optional. &middot; [verb of knowing/asking] *why* [clause]. &middot; *Why* [clause] + [main verb] — the clause as subject, as in *Why he left is still a mystery*. &middot; *That's why* [clause].
@@ -1059,6 +1109,7 @@ The group also has an older, heavier wing built on *-soever* rather than *-ever*
 ### whate'er
 
 **Pronunciation:** /wʌtˈɛr/ &middot; also /wɑtˈɛr/ &middot; *wut-AIR* — two syllables where *whatever* has three, which is the entire reason the spelling exists
+**Русский:** что бы ни — устар., поэт.: стяжённое whatever
 **Type:** fused relative pronoun and determiner; also a concessive subordinator &middot; **Register:** archaic and poetic — hymn text, eighteenth- and nineteenth-century verse, and Shakespeare; in modern prose it is period costume and nothing else
 **Clause type:** nominal relative clause; concessive adverbial clause
 **Pattern:** *Whate'er* [clause] + [main verb] — clause as subject. &middot; [verb/preposition] *whate'er* [clause] — clause as object. &middot; *Whate'er* [clause], [main clause] — concessive. &middot; the same elision on the rest of the family: *whene'er* (= *whenever*), *where'er* (= *wherever*), *howe'er* (= *however*), *whoe'er* (= *whoever*).
@@ -1079,6 +1130,7 @@ Not a separate word but a metrical spelling: *-ever* collapses to *-e'er* so the
 ### whatever
 
 **Pronunciation:** /wʌtˈɛvər/ &middot; also /wɑtˈɛvər/ &middot; casually /wəˈɾɛvər/, with the *t* flapped &middot; *wut-EV-er*
+**Русский:** что бы ни; всё, что — слитное относительное и уступительное
 **Type:** fused relative pronoun and determiner; also a concessive subordinator &middot; **Register:** neutral; the standalone dismissive *Whatever.* is very informal
 **Clause type:** nominal relative clause (acting as a noun phrase); concessive adverbial clause
 **Pattern:** *Whatever* [clause] + [main verb] — clause as subject. &middot; [verb/preposition] *whatever* [clause] — clause as object. &middot; *Whatever* [clause], [main clause] — concessive. &middot; *whatever* + noun + [clause] (*whatever time you get in*).
@@ -1099,6 +1151,7 @@ Means "anything that" in the nominal use and "no matter what" in the concessive 
 ### whatsoever
 
 **Pronunciation:** /ˌwʌtsoʊˈɛvər/ &middot; also /ˌwɑtsoʊˈɛvər/ &middot; *wut-soh-EV-er*
+**Русский:** какой бы то ни было; совершенно никакой — усилитель после отрицаемого существительного
 **Type:** emphatic fused relative; in modern use chiefly a negative-polarity intensifier &middot; **Register:** formal; the negative-tag use is neutral
 **Clause type:** nominal relative clause (archaic); in modern use, no clause at all — a postmodifier attached to a negated noun
 **Pattern:** *no* [noun] *whatsoever*. &middot; *none whatsoever*. &middot; *not … any* [noun] *whatsoever*. &middot; *Whatsoever* [clause], [main clause] — archaic.
@@ -1119,6 +1172,7 @@ Historically the emphatic form of *whatever*, built with the intensifying suffix
 ### whichever
 
 **Pronunciation:** /wɪtʃˈɛvər/ &middot; *wich-EV-er*
+**Русский:** какой бы ни; тот из них, который — выбор из известного набора
 **Type:** fused relative pronoun and determiner; also a concessive subordinator (*Whichever way you go, allow an hour*) &middot; **Register:** neutral
 **Clause type:** nominal relative clause; concessive adverbial clause
 **Pattern:** [verb] *whichever* [clause] — clause as object. &middot; *Whichever* [clause] + [main verb] — clause as subject. &middot; *whichever* + noun + [clause] (*whichever route you pick*). &middot; *Whichever* [clause], [main clause] — concessive. &middot; …, *whichever* [comes first / is greater] — fixed contractual tag.
@@ -1139,6 +1193,7 @@ The selective free relative. *Whatever* leaves the field wide open; *whichever* 
 ### whichsoever
 
 **Pronunciation:** /ˌwɪtʃsoʊˈɛvər/ &middot; *wich-soh-EV-er*
+**Русский:** какой бы ни — устар., юр.: усиленное whichever, в старых полисах и завещаниях
 **Type:** emphatic fused relative pronoun and determiner; also a concessive subordinator &middot; **Register:** archaic; survives only in older policies, leases, and wills, and even there *whichever* has all but replaced it
 **Clause type:** nominal relative clause; concessive adverbial clause
 **Pattern:** [verb] *whichsoever* [clause] — clause as object. &middot; *whichsoever* + noun + [clause] — as in *whichsoever remedy the buyer elects*. &middot; *Whichsoever* [clause], [main clause] — concessive. &middot; …, *whichsoever* [shall first occur / is the lesser] — the contractual tag.
@@ -1159,6 +1214,7 @@ The *-soever* partner of *whichever*, and functionally identical to it: the suff
 ### whoever
 
 **Pronunciation:** /huˈɛvər/ &middot; *hoo-EV-er*
+**Русский:** кто бы ни; тот, кто — слитное относительное, форма подлежащего
 **Type:** fused relative pronoun (subject case); also a concessive subordinator (*Whoever calls, I'm out*) &middot; **Register:** neutral
 **Clause type:** nominal relative clause; concessive adverbial clause
 **Pattern:** *Whoever* [verb phrase] + [main verb] — clause as subject. &middot; [verb/preposition] *whoever* [verb phrase] — clause as object of the outer verb, but *whoever* is still the subject inside. &middot; *Whoever* [clause], [main clause] — concessive.
@@ -1179,6 +1235,7 @@ Means "anyone who," "the person who," or, concessively, "no matter who." The cas
 ### whomever
 
 **Pronunciation:** /humˈɛvər/ &middot; *hoom-EV-er*
+**Русский:** кого бы ни; того, кого — книжн.: объектная форма whoever
 **Type:** fused relative pronoun (object case) &middot; **Register:** formal
 **Clause type:** nominal relative clause
 **Pattern:** [verb] *whomever* [subject] [verb] — object inside its own clause. &middot; [main clause] [preposition] *whomever* [subject] [verb] — as in *to whomever the client designates*, where the preposition governs the whole clause, not the pronoun. &middot; [verb] *whomever* [subject] [verb] [preposition] — stranded, as in *whomever you spoke with*.
@@ -1200,6 +1257,7 @@ Correct only when the word is the **object inside its own clause**: *She'll hire
 ### whomsoever
 
 **Pronunciation:** /ˌhumsoʊˈɛvər/ &middot; *hoom-soh-EV-er*
+**Русский:** кого бы ни — устар., юр.: объектная форма whosoever, в завещаниях и трастах
 **Type:** fused relative pronoun (object case) &middot; **Register:** archaic; survives in wills, trusts, and set formulas — never neutral
 **Clause type:** nominal relative clause
 **Pattern:** [verb] *whomsoever* [subject] [verb] — object inside its own clause. &middot; [preposition] *whomsoever* [subject] [verb] — as in *to whomsoever the trustee shall designate*. &middot; *Whomsoever* [subject] [verb], [main clause] — fronted concessive. &middot; *to whomsoever it may concern* — the fixed salutation.
@@ -1220,6 +1278,7 @@ The *-soever* partner of *whomever*, and correct on exactly the same terms: only
 ### whosoever
 
 **Pronunciation:** /ˌhusoʊˈɛvər/ &middot; *hoo-soh-EV-er*
+**Русский:** кто бы ни; всякий, кто — устар., библ.: усиленное whoever
 **Type:** fused relative pronoun (subject case); also a concessive subordinator &middot; **Register:** archaic; survives in scripture, hymn text, and legal drafting — never neutral
 **Clause type:** nominal relative clause; concessive adverbial clause
 **Pattern:** *Whosoever* [verb phrase] + [main verb] — clause as subject. &middot; [verb/preposition] *whosoever* [verb phrase] — clause as object of the outer verb, with *whosoever* still the subject inside. &middot; *Whosoever* [clause], [main clause] — concessive. &middot; *to whomsoever* [clause] — the object partner, used after a preposition that governs the pronoun itself.

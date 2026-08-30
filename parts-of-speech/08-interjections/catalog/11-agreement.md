@@ -13,6 +13,7 @@ Two quirks run through the whole category. First, **register spread is enormous*
 ### aight
 
 **Pronunciation:** /aɪt/ &middot; *ITE* — also two syllables, /əˈaɪt/ &middot; *uh-ITE*, with a small break between the two vowels
+**Русский:** лады, ага — очень разг., афроам. англ.; стяжённое alright
 **Type:** secondary &middot; **Register:** very informal
 **Variants:** *a'ight*, *ight*, *awight*
 
@@ -29,6 +30,7 @@ A clipped spoken form of *alright*, strongly associated with African American En
 ### alright
 
 **Pronunciation:** /ɔlˈraɪt/ &middot; *awl-RITE*
+**Русский:** ладно, хорошо — разг. согласие, а в начале реплики — переход «так, дальше»
 **Type:** secondary &middot; **Register:** informal
 **Variants:** *all right* (the traditional two-word spelling, still preferred in edited prose)
 
@@ -45,6 +47,7 @@ A general-purpose yes that also works as a transition. As agreement it is warmer
 ### okay
 
 **Pronunciation:** /oʊˈkeɪ/ &middot; *oh-KAY* — often reduced to /əˈkeɪ/ &middot; *uh-KAY* or clipped to /keɪ/ &middot; *KAY*
+**Русский:** окей, ладно — самое универсальное согласие, уместно где угодно
 **Type:** secondary &middot; **Register:** neutral
 **Variants:** *OK*, *O.K.*, *ok*, *'kay*, *k* (text only), *kk* (text only), *okey-dokey* (jokey)
 
@@ -61,6 +64,7 @@ The most widely usable agreement token in American English: it fits a boardroom,
 ### sure
 
 **Pronunciation:** /ʃʊr/ &middot; *SHOOR*
+**Русский:** конечно, ага — лёгкое «да» на просьбу; протянутое suuure — саркастичное недоверие
 **Type:** secondary &middot; **Register:** neutral
 **Variants:** *sure, sure* (impatient), *suuure* (sarcastic, in writing)
 
@@ -77,6 +81,7 @@ An easy, low-effort yes, most natural as an answer to a request or an offer. Ton
 ### sure thing
 
 **Pronunciation:** /ˌʃʊr ˈθɪŋ/ &middot; *shoor-THING*
+**Русский:** не вопрос, без проблем — разг. бодрое «да» и ответ на «спасибо»
 **Type:** phrase &middot; **Register:** informal
 
 A friendly, upbeat yes to a request, and the standard cheerful American answer to *thank you*. It is the sort of thing waiters, coworkers, and neighbors say; it would be too breezy in a formal reply to a client.
@@ -92,6 +97,7 @@ A friendly, upbeat yes to a request, and the standard cheerful American answer t
 ### yeah
 
 **Pronunciation:** /jɛə/ &middot; *YEH* — also /jæ/ &middot; *YAA*
+**Русский:** ага, да — обычное разговорное «да»; удвоенное — нетерпеливое «да-да-да»
 **Type:** primary &middot; **Register:** informal
 **Variants:** *yeh*, *yah*, *ya*, *yeahhh*, *yeah yeah yeah*
 
@@ -108,6 +114,7 @@ The default spoken *yes* in American English — so ordinary that a full *yes* i
 ### yep
 
 **Pronunciation:** /jɛp/ &middot; *YEP* — the *yup* spelling is /jʌp/ &middot; *YUP*
+**Русский:** ага, угу — короткое чёткое «да», вопрос закрыт
 **Type:** primary &middot; **Register:** informal
 **Variants:** *yup*, *yep yep*, *yuppers* (jokey)
 
@@ -124,6 +131,7 @@ A crisp, closed-off yes, ending in a popped *p*. It confirms efficiently and oft
 ### yes
 
 **Pronunciation:** /jɛs/ &middot; *YES*
+**Русский:** да — полное, весомое утверждение: официально, точно или с нажимом
 **Type:** primary &middot; **Register:** neutral
 **Variants:** *yesss* (drawn out, enthusiastic), *yes sir* / *yes ma'am* (deferential or Southern), *yaas* (playful, internet)
 
@@ -140,6 +148,7 @@ The full, unreduced affirmative. In American speech it carries weight: people us
 ### you bet
 
 **Pronunciation:** /juˈbɛt/ &middot; *yoo-BET* — *you betcha* is /juˈbɛtʃə/ &middot; *yoo-BECH-uh*
+**Русский:** ещё бы, а то как же — разг. сердечное «да», также ответ на «спасибо»
 **Type:** phrase &middot; **Register:** informal
 **Variants:** *you betcha*, *betcha*, *you bet your life*, *you bet I am*
 
@@ -158,6 +167,7 @@ A hearty American yes with a Midwestern and Western flavor. It answers a questio
 ### 100 percent
 
 **Pronunciation:** /ə ˈhʌndrəd pɚˈsɛnt/ &middot; *uh-HUN-dred per-SENT*
+**Русский:** на все сто, стопудово — полное согласие без единой оговорки
 **Type:** phrase &middot; **Register:** informal
 **Variants:** *a hundred percent*, *one hundred percent*, *hundo p* (jokey)
 
@@ -174,6 +184,7 @@ Total, unqualified agreement — the modern replacement for *absolutely* among y
 ### absolutely
 
 **Pronunciation:** /ˌæbsəˈlutli/ &middot; *ab-suh-LOOT-lee*
+**Русский:** безусловно, совершенно верно — эмфатическое «да», уместно в любом стиле
 **Type:** secondary &middot; **Register:** neutral
 **Variants:** *absolutely not* (the emphatic negative), *abso-freaking-lutely* (very informal)
 
@@ -190,6 +201,7 @@ Emphatic yes with no hedging. It works at every level of formality, which makes 
 ### ain't that the truth
 
 **Pronunciation:** /ˌeɪnt ðæt ðə ˈtruθ/ &middot; *aynt-that-thuh-TROOTH*
+**Русский:** вот уж правда, что верно, то верно — разг. согласие с горькой истиной
 **Type:** phrase &middot; **Register:** informal
 **Variants:** *ain't that the truth!*, *ain't it the truth*, *isn't that the truth*
 
@@ -206,6 +218,7 @@ Warm, folksy agreement with a weary or hard-won observation. The nonstandard *ai
 ### amen
 
 **Pronunciation:** /eɪˈmɛn/ &middot; *ay-MEN* — also /ɑˈmɛn/ &middot; *ah-MEN*
+**Русский:** аминь; вот именно — из молитвы; вне церкви — горячее согласие
 **Type:** primary &middot; **Register:** neutral
 **Variants:** *amen to that*, *amen, brother*, *amen, sister*, *can I get an amen*
 
@@ -222,6 +235,7 @@ Borrowed from Hebrew by way of church liturgy, where it closes a prayer with "so
 ### bet
 
 **Pronunciation:** /bɛt/ &middot; *BET*
+**Русский:** замётано, договорились — молодёжн. сленг из афроам. англ.
 **Type:** secondary &middot; **Register:** very informal
 **Variants:** *bet!*, *aight bet*, *bet bet*
 
@@ -238,6 +252,7 @@ Current American youth slang, from African American English, meaning "agreed," "
 ### bingo
 
 **Pronunciation:** /ˈbɪŋɡoʊ/ &middot; *BING-oh*
+**Русский:** в точку!, бинго! — разг. «ты назвал именно то, что нужно»
 **Type:** secondary &middot; **Register:** informal
 **Variants:** *bingo!*, *and bingo*, *bingo was his name-o* (jokey)
 
@@ -254,6 +269,7 @@ From the game, where it announces a winning card. As agreement it means "you hav
 ### certainly
 
 **Pronunciation:** /ˈsɝtnli/ &middot; *SUR-tun-lee*
+**Русский:** конечно, разумеется — офиц.-вежливое «да», в дружеской речи звучит чопорно
 **Type:** secondary &middot; **Register:** formal
 **Variants:** *most certainly*, *certainly not* (the negative)
 
@@ -270,6 +286,7 @@ A polished, slightly formal yes. It is the standard register of hotel desks, cus
 ### damn right
 
 **Pronunciation:** /ˌdæm ˈraɪt/ &middot; *dam-RITE*
+**Русский:** чёрт возьми, да; а то! — мягк. бран., вызывающее согласие
 **Type:** phrase &middot; **Register:** very informal, mildly profane
 **Variants:** *damn straight*, *damn skippy* (folksy), *you're damn right*, *darn right* / *dang right* (the clean substitutes)
 
@@ -286,6 +303,7 @@ Forceful agreement with a note of defiance in it — not merely "yes" but "yes, 
 ### definitely
 
 **Pronunciation:** /ˈdɛfənətli/ &middot; *DEF-uh-nit-lee*
+**Русский:** определённо, точно — уверенное согласие без пафоса
 **Type:** secondary &middot; **Register:** neutral
 **Variants:** *defo* (rare in the U.S., mostly British), *definately* (a very common misspelling — avoid it)
 
@@ -302,6 +320,7 @@ Confident agreement, with a shade more "I'm sure about this" than "I'm enthusias
 ### exactly
 
 **Pronunciation:** /ɪɡˈzæktli/ &middot; *ig-ZAKT-lee*
+**Русский:** вот именно, точно — поддержка чужой мысли: «ты попал в точку»
 **Type:** secondary &middot; **Register:** neutral
 **Variants:** *exactly!*, *that's exactly it*, *exactly right*
 
@@ -318,6 +337,7 @@ The standard way to endorse someone else's point rather than answer their questi
 ### facts
 
 **Pronunciation:** /fækts/ &middot; *FAKTS*
+**Русский:** факт, чистая правда — очень разг., молодёжное и афроам. согласие
 **Type:** secondary &middot; **Register:** very informal
 **Variants:** *facts!*, *straight facts*, *no lies detected* (related slang)
 
@@ -334,6 +354,7 @@ Internet-era and African American English agreement meaning "what you just said 
 ### for real
 
 **Pronunciation:** /fɚ ˈril/ &middot; *fer-REEL*
+**Русский:** правда, реально — разг. подтверждение; с вопр. интонацией — «серьёзно?»
 **Type:** phrase &middot; **Register:** very informal
 **Variants:** *for real though*, *for real for real* / *frfr* (intensified), *fr* (text), *is that for real?*
 
@@ -350,6 +371,7 @@ Internet-era and African American English agreement meaning "what you just said 
 ### for sure
 
 **Pronunciation:** /fɚ ˈʃʊr/ &middot; *fer-SHOOR*
+**Русский:** точно, наверняка — разг. уверенное согласие
 **Type:** phrase &middot; **Register:** informal
 **Variants:** *fo sho* (very informal, African American English), *fer sure* (Valley-girl parody), *that's for sure*
 
@@ -366,6 +388,7 @@ Relaxed, confident agreement — a little more emphatic than *sure* and a little
 ### hear hear
 
 **Pronunciation:** /ˈhɪr ˈhɪr/ &middot; *HEER-HEER*
+**Русский:** браво!, верно, верно! — книжн., публичное одобрение на собрании или тосте
 **Type:** phrase &middot; **Register:** formal
 **Variants:** *hear, hear* (with a comma), *here here* (a common misspelling — the word is *hear*)
 
@@ -382,6 +405,7 @@ A shout of public agreement inherited from British parliamentary practice, short
 ### hell yeah
 
 **Pronunciation:** /hɛl ˈjɛə/ &middot; *hel-YEH*
+**Русский:** чёрт возьми, да!; ещё как! — мягк. бран., восторженное согласие
 **Type:** phrase &middot; **Register:** very informal, mildly profane
 **Variants:** *hell yes*, *hell to the yes*, *heck yeah* (the polite substitute), *aw hell yeah*
 
@@ -398,6 +422,7 @@ Loud, delighted agreement. It expresses excitement as much as assent. *Hell* is 
 ### I'll say
 
 **Pronunciation:** /aɪl ˈseɪ/ &middot; *ile-SAY*
+**Русский:** ещё бы!, не то слово — согласие с преуменьшением, слегка старомодное
 **Type:** phrase &middot; **Register:** informal
 **Variants:** *I'll say!*, *I'll say so*, *you said a mouthful* (dated relative)
 
@@ -414,6 +439,7 @@ Emphatic agreement with an understatement: "you're right, and if anything you're
 ### indeed
 
 **Pronunciation:** /ɪnˈdid/ &middot; *in-DEED*
+**Русский:** действительно, в самом деле — книжн.; в разговоре звучит нарочито учёно
 **Type:** secondary &middot; **Register:** formal
 **Variants:** *indeed it is*, *indeed I did*, *very much indeed*
 
@@ -430,6 +456,7 @@ A dignified yes that confirms and slightly elevates. In American English it is n
 ### naturally
 
 **Pronunciation:** /ˈnætʃɚəli/ &middot; *NATCH-er-uh-lee*
+**Русский:** естественно, а как же — часто с оттенком «ну конечно, чего ещё ждать»
 **Type:** secondary &middot; **Register:** neutral
 **Variants:** *naturally!*, *but naturally* (arch), *why, naturally*
 
@@ -446,6 +473,7 @@ Yes to something the speaker treats as following automatically from everything e
 ### no doubt
 
 **Pronunciation:** /noʊ ˈdaʊt/ &middot; *noh-DOWT*
+**Русский:** без сомнения, спору нет — разг. согласие как с бесспорным
 **Type:** phrase &middot; **Register:** informal
 **Variants:** *no doubt about it*, *without a doubt*, *nd* (rare, text)
 
@@ -462,6 +490,7 @@ Agreement that treats the point as beyond argument. As a standalone reply it is 
 ### of course
 
 **Pronunciation:** /əv ˈkɔrs/ &middot; *uhv-KORSS*
+**Русский:** конечно, разумеется — «да» как само собой разумеющееся
 **Type:** phrase &middot; **Register:** neutral
 **Variants:** *'course*, *of course not* (the negative), *but of course* (arch)
 
@@ -478,6 +507,7 @@ Yes to something the speaker treats as obvious or automatic. **1.** A warm, will
 ### preach
 
 **Pronunciation:** /pritʃ/ &middot; *PREECH*
+**Русский:** золотые слова!, говори, говори! — очень разг., из афроам. церковной традиции
 **Type:** secondary &middot; **Register:** very informal
 **Variants:** *preach it*, *preach, sister*, *you better preach*
 
@@ -494,6 +524,7 @@ Enthusiastic agreement borrowed from Black church call-and-response: "keep sayin
 ### precisely
 
 **Pronunciation:** /prɪˈsaɪsli/ &middot; *pri-SICE-lee*
+**Русский:** именно так, совершенно верно — книжн. двойник exactly
 **Type:** secondary &middot; **Register:** formal
 **Variants:** *precisely so*, *that's precisely it*
 
@@ -510,6 +541,7 @@ The formal twin of *exactly*: it confirms that the other person has captured you
 ### right on
 
 **Pronunciation:** /ˌraɪt ˈɑn/ &middot; *rite-AWN*
+**Русский:** в самую точку!, здорово! — разг. одобрение с духом контркультуры 60–70-х
 **Type:** phrase &middot; **Register:** informal
 **Variants:** *right on, man*, *right onnn*
 
@@ -526,6 +558,7 @@ Approving agreement with a distinctly 1960s-and-70s counterculture flavor that h
 ### say less
 
 **Pronunciation:** /seɪ ˈlɛs/ &middot; *say-LESS*
+**Русский:** понял, больше ни слова — молодёжн. сленг: «уговорил, хватит объяснять»
 **Type:** phrase &middot; **Register:** very informal
 **Variants:** *say less fam*, *say no more* (the older, milder idiom)
 
@@ -542,6 +575,7 @@ Recent slang, from African American English, meaning "I'm already convinced — 
 ### totally
 
 **Pronunciation:** /ˈtoʊtəli/ &middot; *TOH-tuh-lee* — casually /ˈtoʊɾəli/, with a flapped *t*
+**Русский:** полностью согласен, ещё как — разг. дружелюбное «мы на одной волне»
 **Type:** secondary &middot; **Register:** informal
 **Variants:** *totes* (jokey, dated), *totally agree*, *oh totally*
 
@@ -558,6 +592,7 @@ Whole-hearted agreement with a friendly, unbuttoned feel. It confirms both facts
 ### true
 
 **Pronunciation:** /tru/ &middot; *TROO*
+**Русский:** верно, а ведь правда — разг. уступка: «тут ты прав»
 **Type:** secondary &middot; **Register:** informal
 **Variants:** *so true*, *true true*, *facts* (near-synonym), *tru* (text spelling)
 
@@ -574,6 +609,7 @@ A one-word concession that the other person is right, often about something the 
 ### word
 
 **Pronunciation:** /wɝd/ &middot; *WURD*
+**Русский:** точно, правда твоя — очень разг., из афроам. англ.
 **Type:** secondary &middot; **Register:** very informal
 **Variants:** *word up*, *word to that*, *werd*
 
@@ -590,6 +626,7 @@ Agreement and acknowledgment from African American English, widely adopted in ca
 ### you can say that again
 
 **Pronunciation:** /ju kən ˈseɪ ðæt əˈɡɛn/ &middot; *yoo-kuhn-SAY-that-uh-GEN*
+**Русский:** и не говори!, вот уж точно — согласие с жалобой, а не просьба повторить
 **Type:** phrase &middot; **Register:** informal
 **Variants:** *you said it*, *you can say that again!*, *don't have to tell me twice*
 
@@ -606,6 +643,7 @@ Wholehearted agreement with a statement, almost always a complaint. Like *tell m
 ### you know it
 
 **Pronunciation:** /ju ˈnoʊ ɪt/ &middot; *yoo-NOH-it*
+**Русский:** а то!, ещё спрашиваешь — разг. самоуверенное «да»
 **Type:** phrase &middot; **Register:** very informal
 **Variants:** *you know it!*, *ya know it*, *you already know*
 
@@ -624,6 +662,7 @@ A confident, faintly cocky yes: "obviously — you didn't even need to ask." It 
 ### agreed
 
 **Pronunciation:** /əˈɡrid/ &middot; *uh-GREED*
+**Русский:** согласен, принято — деловое подтверждение на встрече или в переписке
 **Type:** secondary &middot; **Register:** neutral
 **Variants:** *agreed!*, *fully agreed*, *couldn't agree more*
 
@@ -640,6 +679,7 @@ A compact, businesslike way to sign on to a statement or a proposal. It is at ho
 ### can't argue with that
 
 **Pronunciation:** /ˌkænt ˈɑrɡju wɪð ˌðæt/ &middot; *kant-AR-gyoo-with-THAT*
+**Русский:** тут не поспоришь — признание правоты собеседника по существу
 **Type:** phrase &middot; **Register:** neutral
 **Variants:** *can't argue*, *no argument here*, *hard to argue with that*
 
@@ -656,6 +696,7 @@ Agreement that concedes the point on its merits, usually after the speaker has b
 ### cool
 
 **Pronunciation:** /kul/ &middot; *KOOL*
+**Русский:** окей, норм — разг. спокойное принятие плана, без восторга
 **Type:** secondary &middot; **Register:** informal
 **Variants:** *cool cool*, *cool cool cool* (jokey, usually anxious), *that's cool*, *cool beans* (dated, jokey)
 
@@ -672,6 +713,7 @@ Low-key approval of a plan or acceptance of a piece of news — one of the most-
 ### deal
 
 **Pronunciation:** /dil/ &middot; *DEEL*
+**Русский:** идёт!, по рукам! — согласие на сделку или уговор
 **Type:** secondary &middot; **Register:** informal
 **Variants:** *it's a deal*, *deal!*, *you've got a deal*, *deal or no deal* (set phrase)
 
@@ -688,6 +730,7 @@ Acceptance of a bargain or a trade, spoken at the moment the terms are settled. 
 ### ditto
 
 **Pronunciation:** /ˈdɪtoʊ/ &middot; *DIT-oh*
+**Русский:** и я тоже, аналогично — разг. «то же самое можно сказать и обо мне»
 **Type:** secondary &middot; **Register:** informal
 **Variants:** *ditto that*, *same here* (near-synonym)
 
@@ -704,6 +747,7 @@ From the bookkeeping mark meaning "the same again." As an interjection it means 
 ### done
 
 **Pronunciation:** /dʌn/ &middot; *DUN*
+**Русский:** договорились, считай сделано — мгновенное согласие без торга
 **Type:** secondary &middot; **Register:** informal
 **Variants:** *done deal*, *and done*, *consider it done*
 
@@ -720,6 +764,7 @@ Instant acceptance: the speaker treats the matter as already settled by saying s
 ### fair enough
 
 **Pronunciation:** /fɛr ɪˈnʌf/ &middot; *fair-ih-NUF*
+**Русский:** ладно, справедливо, резонно — уступка: «убедил, снимаю возражение»
 **Type:** phrase &middot; **Register:** neutral
 **Variants:** *fair*, *fair point*, *that's fair*
 
@@ -736,6 +781,7 @@ Concession rather than enthusiasm: "I may not fully agree, but your reason is go
 ### fine
 
 **Pronunciation:** /faɪn/ &middot; *FINE*
+**Русский:** ладно, хорошо — нейтральное согласие; отдельной репликой — неохотная сдача
 **Type:** secondary &middot; **Register:** neutral
 **Variants:** *fine, fine*, *fiiine* (drawn out, grudging), *that's fine*, *fine by me*
 
@@ -752,6 +798,7 @@ Acceptance with the enthusiasm drained out. **1.** Neutral approval of an arrang
 ### granted
 
 **Pronunciation:** /ˈɡræntɪd/ &middot; *GRAN-tid*
+**Русский:** допустим, признаю — уступка в одном пункте, обычно перед «но»
 **Type:** secondary &middot; **Register:** neutral
 **Variants:** *granted!*, *I'll grant you that*, *granted, but…*
 
@@ -768,6 +815,7 @@ A concession token: the speaker accepts one piece of the other side's case, usua
 ### if you say so
 
 **Pronunciation:** /ɪf ju ˈseɪ ˌsoʊ/ &middot; *if-yoo-SAY-soh*
+**Русский:** ну, если ты так говоришь — согласие лишь на словах, пассивно-агрессивное
 **Type:** phrase &middot; **Register:** informal
 **Variants:** *if you say so…*, *sure, if you say so*, *whatever you say*
 
@@ -784,6 +832,7 @@ Agreement in form only. The speaker is dropping the argument without being convi
 ### I guess
 
 **Pronunciation:** /aɪ ˈɡɛs/ &middot; *eye-GESS*
+**Русский:** наверное, пожалуй — вялое согласие, слышится как неохота
 **Type:** phrase &middot; **Register:** informal
 **Variants:** *I guess so*, *I suppose*, *yeah, I guess*, *I guess not* (the negative)
 
@@ -800,6 +849,7 @@ Hedged, half-hearted agreement: "all right, but I'm not enthusiastic and I could
 ### I hear you
 
 **Pronunciation:** /aɪ ˈhɪr ju/ &middot; *eye-HEER-yoo* — casually /aɪ ˈhɪr jə/ &middot; *eye-HEER-yuh*
+**Русский:** понимаю тебя, слышу — сочувственное признание, но не обязательно согласие
 **Type:** phrase &middot; **Register:** informal
 **Variants:** *I hear ya*, *I feel you*, *I hear that*
 
@@ -816,6 +866,7 @@ Sympathetic acknowledgment: "your complaint registers with me and I'm not arguin
 ### I know, right
 
 **Pronunciation:** /aɪ ˈnoʊ ˌraɪt/ &middot; *eye-NOH-rite*
+**Русский:** вот и я о том же!, да не говори — очень разг. радостное согласие
 **Type:** phrase &middot; **Register:** very informal
 **Variants:** *IKR* (text), *I know, right?*, *right?* (clipped)
 
@@ -832,6 +883,7 @@ Excited agreement with an opinion the speaker already held — "yes, and I'm gla
 ### I'm down
 
 **Pronunciation:** /aɪm ˈdaʊn/ &middot; *ime-DOWN*
+**Русский:** я за, я в деле — очень разг. согласие на затею (не про грусть)
 **Type:** phrase &middot; **Register:** very informal
 **Variants:** *down*, *I'm down for it*, *I'm game*, *I'm in*, *down for whatever*
 
@@ -848,6 +900,7 @@ Willing agreement to a plan — "count me in." The *down* surprises learners, be
 ### point taken
 
 **Pronunciation:** /ˌpɔɪnt ˈteɪkən/ &middot; *point-TAY-kuhn*
+**Русский:** замечание принято, тут ты прав — деловая версия touché
 **Type:** phrase &middot; **Register:** neutral
 **Variants:** *point taken!*, *fair point*, *your point is taken* (stiff)
 
@@ -864,6 +917,7 @@ An admission that the other person's objection landed and moved the speaker at l
 ### real talk
 
 **Pronunciation:** /ˈril ˌtɔk/ &middot; *REEL-tawk*
+**Русский:** серьёзно говорю; вот это правда — очень разг., из афроам. англ.
 **Type:** phrase &middot; **Register:** very informal
 **Variants:** *real talk though*, *for real though*
 
@@ -880,6 +934,7 @@ From African American English. As a response it endorses what was just said as u
 ### right
 
 **Pronunciation:** /raɪt/ &middot; *RITE*
+**Русский:** верно, так; ага — подтверждение, поддакивание, а в начале реплики — переход
 **Type:** secondary &middot; **Register:** neutral
 **Variants:** *right, right*, *that's right*, *right?* (as a tag seeking agreement)
 
@@ -896,6 +951,7 @@ A workhorse. **1.** Confirmation that a statement is correct. **2.** A backchann
 ### same
 
 **Pronunciation:** /seɪm/ &middot; *SAME*
+**Русский:** и я так же, вот-вот — очень разг. «это и про меня»
 **Type:** secondary &middot; **Register:** very informal
 **Variants:** *same here*, *big same*, *sameee*
 
@@ -912,6 +968,7 @@ Agreement by identification: "that describes me too." It began as internet short
 ### sounds good
 
 **Pronunciation:** /ˌsaʊndz ˈɡʊd/ &middot; *sowndz-GUUD*
+**Русский:** звучит хорошо, годится — стандартное одобрение плана
 **Type:** phrase &middot; **Register:** neutral
 **Variants:** *sounds good to me*, *sounds great*, *sg* (rare, text)
 
@@ -928,6 +985,7 @@ The standard American way to approve a plan without fuss. It is the closing move
 ### tell me about it
 
 **Pronunciation:** /ˌtɛl mi əˈbaʊt ɪt/ &middot; *tel-mee-uh-BOWT-it*
+**Русский:** кому ты рассказываешь!, и не говори — согласие с жалобой, не просьба рассказать
 **Type:** phrase &middot; **Register:** informal
 **Variants:** *you're telling me*, *don't I know it*, *tell me about it!*
 
@@ -944,6 +1002,7 @@ Emphatic agreement with a complaint, meaning the exact opposite of its literal w
 ### there you go
 
 **Pronunciation:** /ˌðɛr ju ˈɡoʊ/ &middot; *thair-yoo-GOH*
+**Русский:** ну вот, другое дело!; вот именно — одобрение, что человек наконец понял
 **Type:** phrase &middot; **Register:** informal
 **Variants:** *there ya go*, *there we go*, *there you have it*
 
@@ -960,6 +1019,7 @@ Approving confirmation that somebody has finally arrived at the right idea or th
 ### touché
 
 **Pronunciation:** /tuˈʃeɪ/ &middot; *too-SHAY*
+**Русский:** туше!, один-ноль в твою пользу — признание, что возражение попало в цель
 **Type:** primary &middot; **Register:** neutral
 **Variants:** *touche* (unaccented spelling), *touché, sir*
 
@@ -978,6 +1038,7 @@ Borrowed from fencing, where it acknowledges a hit. It concedes that the other p
 ### affirmative
 
 **Pronunciation:** /əˈfɝmətɪv/ &middot; *uh-FUR-muh-tiv*
+**Русский:** так точно, подтверждаю — воен. и радиообмен; в быту шутливо
 **Type:** secondary &middot; **Register:** formal
 **Variants:** *that's affirmative*, *affirm* (aviation shorthand), *negative* (the opposite)
 
@@ -994,6 +1055,7 @@ The official radio and military yes, chosen because it cannot be confused with *
 ### aye
 
 **Pronunciation:** /aɪ/ &middot; *EYE*
+**Русский:** да, за — офиц. голос «за» на собрании; также мор. и «пиратское»
 **Type:** primary &middot; **Register:** formal
 **Variants:** *aye, sir*, *the ayes have it* (set phrase)
 
@@ -1010,6 +1072,7 @@ A voting yes. In the United States it is the word used in legislatures, on board
 ### aye aye
 
 **Pronunciation:** /ˌaɪ ˈaɪ/ &middot; *eye-EYE*
+**Русский:** есть!, слушаюсь — мор.: «приказ понял и выполняю»
 **Type:** phrase &middot; **Register:** formal
 **Variants:** *aye-aye*, *aye aye, sir*, *aye aye, Captain*
 
@@ -1026,6 +1089,7 @@ The Navy's acknowledgment of an order, and it means something very specific: "I 
 ### check
 
 **Pronunciation:** /tʃɛk/ &middot; *CHEK*
+**Русский:** есть, отмечено — при перекличке по списку, пункт за пунктом
 **Type:** secondary &middot; **Register:** informal
 **Variants:** *check!*, *check and check*, *checkity-check* (jokey)
 
@@ -1042,6 +1106,7 @@ Item-by-item acknowledgment, taken straight from ticking boxes on a list: each *
 ### copy that
 
 **Pronunciation:** /ˈkɑpi ˌðæt/ &middot; *KOP-ee-that*
+**Русский:** принял, вас понял — радиообмен: подтверждение приёма, а не согласия
 **Type:** phrase &middot; **Register:** neutral
 **Variants:** *copy*, *copy, over*, *good copy*, *solid copy*
 
@@ -1058,6 +1123,7 @@ Radio language for "I received your message and understood it" — note that it 
 ### got it
 
 **Pronunciation:** /ˈɡɑt ɪt/ &middot; *GOT-it* — *gotcha* is /ˈɡɑtʃə/ &middot; *GOTCH-uh*
+**Русский:** понял, дошло — подтверждение, что объяснение усвоено
 **Type:** phrase &middot; **Register:** informal
 **Variants:** *gotcha*, *got it!*, *I got it*, *got you*
 
@@ -1074,6 +1140,7 @@ Confirmation that an explanation has landed. *Gotcha* is the relaxed spoken cont
 ### noted
 
 **Pronunciation:** /ˈnoʊtɪd/ &middot; *NOH-tid*
+**Русский:** принято к сведению — офиц.; отдельной репликой звучит холодно
 **Type:** secondary &middot; **Register:** neutral
 **Variants:** *duly noted*, *noted, thanks*, *point noted*
 
@@ -1090,6 +1157,7 @@ An acknowledgment that the information has been received and filed away. It is c
 ### roger
 
 **Pronunciation:** /ˈrɑdʒɚ/ &middot; *ROJ-er*
+**Русский:** понял, принял — из радиообмена; в быту бодро-шутливое «ясно»
 **Type:** secondary &middot; **Register:** neutral
 **Variants:** *roger that*, *roger, over*, *roger wilco* (dated)
 
@@ -1106,6 +1174,7 @@ From the old radio alphabet, where *Roger* stood for the letter R, for "received
 ### ten-four
 
 **Pronunciation:** /ˌtɛn ˈfɔr/ &middot; *ten-FOR*
+**Русский:** принял — код CB-радио, сегодня разг. и слегка ироничное «понял»
 **Type:** phrase &middot; **Register:** informal
 **Variants:** *10-4*, *ten-four, good buddy* (CB-radio cliché)
 
@@ -1122,6 +1191,7 @@ A CB and police radio code meaning "message received." Its 1970s trucker heyday 
 ### understood
 
 **Pronunciation:** /ˌʌndɚˈstʊd/ &middot; *un-der-STUUD*
+**Русский:** понял, ясно — офиц. подтверждение приказа и готовности выполнить
 **Type:** secondary &middot; **Register:** formal
 **Variants:** *understood, sir*, *fully understood*, *perfectly understood*
 
@@ -1138,6 +1208,7 @@ A formal acknowledgment of instructions, common in the military, in medicine, an
 ### very well
 
 **Pronunciation:** /ˌvɛri ˈwɛl/ &middot; *ver-ee-WEL*
+**Русский:** хорошо, извольте — книжн., чаще неохотное подчинение, чем согласие
 **Type:** phrase &middot; **Register:** formal
 **Variants:** *very well then*, *very good* (the service-industry version)
 
@@ -1154,6 +1225,7 @@ Formal assent to a request or an instruction — and in American English a disti
 ### will do
 
 **Pronunciation:** /wɪl ˈdu/ &middot; *wil-DOO*
+**Русский:** сделаю, будет сделано — согласие выполнить просьбу
 **Type:** phrase &middot; **Register:** neutral
 **Variants:** *will do!*, *wilco* (radio shorthand for "will comply")
 
@@ -1170,6 +1242,7 @@ Agreement to carry out a request — "consider it on my list." It answers instru
 ### you got it
 
 **Pronunciation:** /juˈɡɑt ɪt/ &middot; *yoo-GOT-it*
+**Русский:** сейчас сделаем, будет сделано — разг. бодрое согласие и ответ на «спасибо»
 **Type:** phrase &middot; **Register:** informal
 **Variants:** *you got it, boss*, *ya got it*, *you got it, dude* (jokey)
 
@@ -1190,6 +1263,7 @@ These are the noises a listener makes to prove they are still there. Most of the
 ### ah
 
 **Pronunciation:** /ɑ/ &middot; *AH*
+**Русский:** а!, ага — до меня дошло, информация встала на место
 **Type:** primary &middot; **Register:** neutral
 **Variants:** *ahh*, *ahhh*, *ah, I see*
 
@@ -1206,6 +1280,7 @@ A receipt token for a piece of information that clicks into place. Held longer (
 ### aha
 
 **Pronunciation:** /ɑˈhɑ/ &middot; *ah-HAH* — an open-mouthed grunt on two beats, the second one stressed and sharply higher; the vowels are not fixed and some speakers say it closer to /əˈhɑ/
+**Русский:** ага!, вот оно что! — возглас открытия, а не поддакивание
 **Type:** primary &middot; **Register:** informal
 **Variants:** *ah-ha*, *ahaa*, *aha!*
 
@@ -1222,6 +1297,7 @@ The discovery token — the sound of a problem coming apart in the speaker's han
 ### and?
 
 **Pronunciation:** /ænd/ &middot; *AND* — usually reduced to /ən/ &middot; *UHN*
+**Русский:** и?, и что дальше? — просьба продолжать; ровным тоном — «ну и что?»
 **Type:** secondary &middot; **Register:** informal
 **Variants:** *and then?*, *and so?*, *and…?*
 
@@ -1238,6 +1314,7 @@ A prompt for the rest of the story, with sharply rising intonation. **1.** Impat
 ### go on
 
 **Pronunciation:** /ˌɡoʊ ˈɑn/ &middot; *goh-AWN*
+**Русский:** продолжай, дальше — прямое приглашение говорить дальше
 **Type:** phrase &middot; **Register:** neutral
 **Variants:** *go on…*, *do go on* (arch or sarcastic), *and go on from there*
 
@@ -1254,6 +1331,7 @@ An explicit invitation to keep talking, used when a speaker has paused to check 
 ### hm
 
 **Pronunciation:** /hm̩/ &middot; *HMM* — not a spelled word but a hum through closed lips with a breathy onset; there is no vowel, and the pitch typically dips and comes back up
+**Русский:** хм — мычание раздумья: «надо взвесить»; коротко и вниз — сомнение
 **Type:** primary &middot; **Register:** neutral
 **Variants:** *hmm*, *hmmm*, *hmph* (a different sound — a short annoyed snort through the nose)
 
@@ -1270,6 +1348,7 @@ The thinking hum. Where *mm* says "I'm listening," *hm* says "I'm weighing this,
 ### huh
 
 **Pronunciation:** /hʌ/ &middot; *HUH* — often nasalized and reduced to /hə̃/
+**Русский:** хм, надо же — с падением интерес; с подъёмом huh? — «что?, а?» (невежливо)
 **Type:** primary &middot; **Register:** informal
 **Variants:** *huh!*, *huh?*, *hunh*
 
@@ -1286,6 +1365,7 @@ The thinking hum. Where *mm* says "I'm listening," *hm* says "I'm weighing this,
 ### I see
 
 **Pronunciation:** /aɪ ˈsi/ &middot; *eye-SEE*
+**Русский:** понятно, ясно — признание, что объяснение усвоено
 **Type:** phrase &middot; **Register:** neutral
 **Variants:** *I see…*, *oh, I see*, *ah, I see*
 
@@ -1302,6 +1382,7 @@ Acknowledgment that an explanation has been understood. It is a listening token 
 ### is that right
 
 **Pronunciation:** /ɪz ˈðæt ˌraɪt/ &middot; *iz-THAT-rite*
+**Русский:** да ну?, вот как? — псевдовопрос-поддакивание; ровным тоном — скепсис
 **Type:** phrase &middot; **Register:** informal
 **Variants:** *is that so*, *izzat right*, *is that a fact*
 
@@ -1318,6 +1399,7 @@ A backchannel that pretends to be a question. It invites the speaker to keep goi
 ### mm
 
 **Pronunciation:** /m̩/ &middot; *MM* — a closed-mouth hum on a single note; there is no vowel to spell, so any respelling is an approximation
+**Русский:** м-м, угу — минимальный звук «я слушаю», рот закрыт
 **Type:** primary &middot; **Register:** informal
 **Variants:** *mmm*, *mmmm*, *mm?* (questioning)
 
@@ -1334,6 +1416,7 @@ The most minimal listening noise in English: lips closed, one hum, meaning littl
 ### mm-hmm
 
 **Pronunciation:** /ˌm̩ˈhm̩/ &middot; *mm-HMM* — two hums through a closed mouth, the second one higher and stressed
+**Русский:** угу, ага — «да» с закрытым ртом; в ответ на «спасибо» — «не за что»
 **Type:** primary &middot; **Register:** informal
 **Variants:** *mhm*, *mm-hm*, *m-hm*, *mmhmm*
 
@@ -1350,6 +1433,7 @@ The closed-mouth yes. It affirms and backchannels at once, and Americans use it 
 ### no kidding
 
 **Pronunciation:** /noʊ ˈkɪdɪŋ/ &middot; *noh-KID-ing*
+**Русский:** да ну?, серьёзно? — удивление; с падающей интонацией — сухое «да что ты»
 **Type:** phrase &middot; **Register:** informal
 **Variants:** *no kidding?*, *you're kidding*, *no joke*
 
@@ -1366,6 +1450,7 @@ The closed-mouth yes. It affirms and backchannels at once, and Americans use it 
 ### oh
 
 **Pronunciation:** /oʊ/ &middot; *OH*
+**Русский:** а!, о! — реакция на новость: «этого я не знал»
 **Type:** primary &middot; **Register:** neutral
 **Variants:** *ohh*, *ohhh*, *oh!*, *oh…*
 
@@ -1382,6 +1467,7 @@ The basic receipt token of English: it marks the moment a speaker's state of kno
 ### oh yeah
 
 **Pronunciation:** /oʊ ˈjɛə/ &middot; *oh-YEH*
+**Русский:** а, точно!; ну да, ещё как — вспоминание или согласие; oh yeah? — вызов
 **Type:** phrase &middot; **Register:** informal
 **Variants:** *oh yeah?*, *oh right*, *oh yes*
 
@@ -1398,6 +1484,7 @@ The basic receipt token of English: it marks the moment a speaker's state of kno
 ### really
 
 **Pronunciation:** /ˈrɪli/ &middot; *RIL-ee* — also /ˈriəli/ &middot; *REE-uh-lee*
+**Русский:** правда?, серьёзно? — интерес; ровным тоном — скепсис или ирония
 **Type:** secondary &middot; **Register:** neutral
 **Variants:** *really?*, *oh really*, *rly* (text), *reeeally* (drawn out, skeptical)
 
@@ -1414,6 +1501,7 @@ The workhorse backchannel of surprise and interest. **1.** Rising, it asks the s
 ### seriously
 
 **Pronunciation:** /ˈsɪriəsli/ &middot; *SEER-ee-uhs-lee*
+**Русский:** серьёзно?, да ладно — удивление; ровным тоном — «вот именно, безобразие»
 **Type:** secondary &middot; **Register:** informal
 **Variants:** *seriously?*, *are you serious*, *srsly* (text), *for serious* (jokey)
 
@@ -1430,6 +1518,7 @@ The workhorse backchannel of surprise and interest. **1.** Rising, it asks the s
 ### uh-huh
 
 **Pronunciation:** /ʌˈhʌ/ &middot; *uh-HUH* — nasalized in casual speech, closer to /ə̃ˈhə̃/
+**Русский:** угу, ага — «да» с открытым ртом и знак «я слушаю»
 **Type:** primary &middot; **Register:** informal
 **Variants:** *uh huh*, *unh-huh*, *uh-huh?*
 
@@ -1446,6 +1535,7 @@ The open-mouthed cousin of *mm-hmm*: an affirmative grunt, made with the jaw loo
 ### wow
 
 **Pronunciation:** /waʊ/ &middot; *WOW*
+**Русский:** ух ты, ничего себе — реакция на впечатляющую или скверную новость
 **Type:** primary &middot; **Register:** neutral
 **Variants:** *woww*, *wowww*, *oh wow*
 
@@ -1462,6 +1552,7 @@ Usually filed under surprise, but as a backchannel it does a specific job: it te
 ### you don't say
 
 **Pronunciation:** /ju ˈdoʊnt ˌseɪ/ &middot; *yoo-DOHNT-say*
+**Русский:** да что ты говоришь! — чаще ирон., о чём-то до боли очевидном
 **Type:** phrase &middot; **Register:** informal
 **Variants:** *you don't say!*, *ya don't say*, *do tell* (related)
 

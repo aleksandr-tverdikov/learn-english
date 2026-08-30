@@ -15,6 +15,7 @@ Markers that fill no slot inside their own clause and take no comma at the junct
 ### as if
 
 **Pronunciation:** /æz ˈɪf/ &middot; *az IF* — the first word almost always reduces to /əz/, and the stress sits on *if*
+**Русский:** как будто; будто бы — после seem, look, sound, feel; формальнее, чем like
 **Type:** complementizer (compound); the same pair is also a manner-and-comparison subordinator and the standalone retort *As if!* &middot; **Register:** neutral — the formal counterpart of complementizer *like*
 **Clause type:** noun clause — complement of a verb of appearance or sensation (*seem, look, sound, feel, appear*), and of *be* in the fixed *It's not as if* frame
 **Pattern:** It [seems/looks/sounds/appears] *as if* [clause]. &middot; [subject] [seems/looks/sounds/feels] *as if* [clause]. &middot; It [verb of appearance] *to* [object] *as if* [clause]. &middot; It's not *as if* [clause]. &middot; It's not *as if* [clause], but [main clause].
@@ -35,6 +36,7 @@ The formal substitute for complementizer *like*, and the form to reach for the m
 ### as though
 
 **Pronunciation:** /æz ˈðoʊ/ &middot; *az THOH* — the first word reduces to /əz/; the stress falls on *though*
+**Русский:** как будто; словно — то же, что as if, чуть книжнее; особенно после глаголов чувства
 **Type:** complementizer (compound); the same pair is also a manner-and-comparison subordinator &middot; **Register:** neutral to formal — a shade more literary than *as if*
 **Clause type:** noun clause — complement of a verb of appearance or sensation (*seem, look, sound, feel, appear*), and of *be* in the *It's not as though* frame
 **Pattern:** It [seems/looks/sounds/appears] *as though* [clause]. &middot; [subject] [seems/looks/sounds/feels] *as though* [clause]. &middot; It [verb of appearance] *to* [object] *as though* [clause]. &middot; It's not *as though* [clause]. &middot; It's not *as though* [clause], but [main clause].
@@ -55,6 +57,7 @@ The near-twin of *as if*, genuinely interchangeable with it in meaning and diffe
 ### if
 
 **Pronunciation:** /ɪf/ &middot; *IF* — reduced to /əf/ in connected speech (*I don't know əf he's home*)
+**Русский:** ли — вводит косвенный вопрос: «не знаю, открыта ли аптека»; разг. замена whether
 **Type:** complementizer; the same spelling is also the subordinating conjunction of condition &middot; **Register:** neutral, leaning informal
 **Clause type:** noun clause (indirect yes-no question)
 **Pattern:** [subject] [verb] *if* [clause]. &middot; [subject] [verb] [indirect object] *if* [clause]. &middot; [imperative verb] *if* [clause]. &middot; [subject] [verb] *if* [clause] *or not*.
@@ -75,6 +78,7 @@ The everyday spoken alternative to *whether* for indirect yes-no questions. It c
 ### like
 
 **Pronunciation:** /laɪk/ &middot; *LYKE* — unstressed in this use and often reduced to /lək/ (*It's not lək I had a choice*)
+**Русский:** как будто; словно — разг. замена as if после seem, look, sound, feel; в письме правят
 **Type:** complementizer (informal); the same spelling is also a preposition, a comparison subordinator, a verb, a noun, a quotative (*she was like, "no way"*), and a discourse particle &middot; **Register:** informal — universal in speech, ordinary in fiction and journalism, still corrected in academic and formal business writing
 **Clause type:** noun clause — complement of a verb of appearance or sensation (*seem, look, sound, feel, act*), and of *be* in the fixed *It's not like* frame
 **Pattern:** It [seems/looks/sounds] *like* [clause]. &middot; [subject] [seems/looks/sounds/feels] *like* [clause]. &middot; [subject] [verb of acting] *like* [clause]. &middot; It's not *like* [clause]. &middot; It's not *like* [clause], but [main clause].
@@ -95,6 +99,7 @@ The complement-clause *like*, as opposed to the comparison *like* of *She sings 
 ### that
 
 **Pronunciation:** /ðæt/ &middot; *THAT* — as a complementizer it is nearly always reduced to /ðət/ &middot; *thut*; the full vowel signals the demonstrative (*I said* /ðæt/)
+**Русский:** что — чистый союз при придаточном дополнительном; своего значения не имеет
 **Type:** complementizer; the same spelling is also a relative pronoun, a demonstrative determiner and pronoun, and a degree adverb &middot; **Register:** neutral
 **Clause type:** noun clause (declarative content clause) — subject, object, subject complement, adjective complement, or noun appositive
 **Pattern:** [subject] [verb] *that* [clause]. &middot; [subject] [verb] [indirect object] *that* [clause]. &middot; *That* [clause] [verb phrase]. &middot; It [verb] [object] *that* [clause]. &middot; [noun] *that* [clause]. &middot; [adjective] *that* [clause]. &middot; The [noun] is *that* [clause].
@@ -115,6 +120,7 @@ The workhorse of the category: a pure marker that packages a statement into a no
 ### whether
 
 **Pronunciation:** /ˈwɛðər/ &middot; *WEH-thur* — a homophone of *weather* for most Americans; a conservative /ˈhwɛðər/ survives in parts of the South and Midwest
+**Русский:** ли — косвенный вопрос; в отличие от if идёт после предлога, перед to и в начале фразы
 **Type:** complementizer; also the first half of the correlative pair *whether … or* &middot; **Register:** neutral, leaning formal
 **Clause type:** noun clause (indirect yes-no question, or alternative question)
 **Pattern:** [verb] *whether* [clause]. &middot; *Whether* [clause] [verb phrase]. &middot; [preposition] *whether* [clause]. &middot; [verb] *whether to* [verb]. &middot; [verb] *whether* [clause] *or* [clause].
@@ -135,6 +141,7 @@ The complementizer of indirect yes-no questions and of stated alternatives, and 
 ### whether or not
 
 **Pronunciation:** /ˌwɛðər ər ˈnɑt/ &middot; *weh-thur er NAHT* — the middle syllable is almost always the reduced /ər/
+**Русский:** ли … или нет; независимо от того, … или нет — косвенный вопрос либо уступка
 **Type:** complementizer; also subordinating in its concessive use &middot; **Register:** neutral
 **Clause type:** noun clause (indirect question); also adverbial clause of concessive condition
 **Pattern:** [verb] *whether or not* [clause]. &middot; [verb] *whether* [clause] *or not*. &middot; *Whether or not* [clause], [main clause]. &middot; [main clause], *whether or not* [clause].
@@ -155,6 +162,7 @@ Two constructions sharing one shape. As a complementizer it is plain *whether* w
 ### zero *that*
 
 **Pronunciation:** ∅ — unpronounced; the clause simply begins with its own subject
+**Русский:** нулевой that — опущенное «что»: I think we took a wrong turn; в русском «что» не опускают
 **Type:** complementizer (null) &middot; **Register:** neutral to informal
 **Clause type:** noun clause (declarative content clause), object or complement only
 **Pattern:** [subject] [verb] ∅ [clause]. &middot; [adjective] ∅ [clause]. &middot; The [noun] is ∅ [clause].
@@ -179,6 +187,7 @@ These are not pure complementizers: each one introduces the clause *and* fills a
 ### how
 
 **Pronunciation:** /haʊ/ &middot; *HOW*
+**Русский:** как; каким образом — косвенный вопрос о способе; how long, how much — «насколько»
 **Type:** complementizer (interrogative adverb); the same word is also an exclamative adverb (*How quickly this year went!*) and, in the comparison family, a manner subordinator &middot; **Register:** neutral
 **Clause type:** noun clause — embedded wh-question of manner, means, or degree; also a fused relative of manner, and an embedded exclamative
 **Pattern:** [subject] [verb] *how* [clause]. &middot; [subject] [verb] [indirect object] *how* [clause]. &middot; *How* [clause] [verb phrase]. &middot; [subject] [verb] *how to* [verb]. &middot; [preposition] *how* [clause]. &middot; [subject] [verb] *how* [adjective/adverb] [clause].
@@ -199,6 +208,7 @@ Introduces an embedded question about manner, means, or — with an adjective or
 ### how come
 
 **Pronunciation:** /ˌhaʊ ˈkʌm/ &middot; *how-KUM*
+**Русский:** почему; с чего это — разг. «почему» без инверсии; на письме заменяют на why
 **Type:** complementizer (interrogative phrase) &middot; **Register:** informal
 **Clause type:** noun clause (embedded wh-question of reason)
 **Pattern:** *How come* [clause]? &middot; [subject] [verb] *how come* [clause]. &middot; [subject] [verb] [object] *how come* [clause]. &middot; [imperative verb] [indirect object] *how come* [clause].
@@ -217,6 +227,7 @@ A colloquial *why* that takes statement word order in main clauses as well as em
 ### what
 
 **Pronunciation:** /wʌt/ &middot; *WUHT* — also /wɑt/ &middot; *WAHT*; reduced to /wət/ in connected speech
+**Русский:** что; то, что — косвенный вопрос и «то, что» без антецедента; после сущ. нужен that/which
 **Type:** complementizer (interrogative pronoun and determiner; also fused relative pronoun and exclamative determiner) &middot; **Register:** neutral
 **Clause type:** noun clause — embedded wh-question, fused ("headless") relative, or embedded exclamative
 **Pattern:** [subject] [verb] *what* [clause]. &middot; [subject] [verb] [indirect object] *what* [clause]. &middot; *What* [clause] [verb phrase]. &middot; [subject] [verb] *what to* [verb]. &middot; [preposition] *what* [clause]. &middot; [subject] [verb] *what* [noun] [clause]. &middot; [subject] [verb] *what a* [noun] [clause].
@@ -237,6 +248,7 @@ Three jobs in one word. As an interrogative it heads an indirect question (*I as
 ### when
 
 **Pronunciation:** /wɛn/ &middot; *WEN* — reduced to /wən/; conservative /hwɛn/ in some regional speech
+**Русский:** когда — косвенный вопрос о времени, а не придаточное времени; допускает будущее
 **Type:** complementizer (interrogative adverb); the same word is also a subordinating conjunction of time, a concessive subordinator, and a relative adverb &middot; **Register:** neutral
 **Clause type:** noun clause (embedded wh-question of time) — distinct from the adverbial *when* of the time-clause family
 **Pattern:** [subject] [verb] *when* [clause]. &middot; [subject] [verb] [indirect object] *when* [clause]. &middot; *When* [clause] [verb phrase]. &middot; [subject] [verb] *when to* [verb]. &middot; [preposition] *when* [clause]. &middot; [linking verb] *when* [clause].
@@ -257,6 +269,7 @@ One word, two grammars. In the noun-clause use the *when*-clause is an argument 
 ### where
 
 **Pronunciation:** /wɛr/ &middot; *WAIR* — conservative /hwɛr/ in some regional speech
+**Русский:** где; куда — косвенный вопрос о месте; также «то место, где»
 **Type:** complementizer (interrogative adverb; also fused relative); the same word is a place subordinator, a relative adverb, and a concessive subordinator elsewhere &middot; **Register:** neutral
 **Clause type:** noun clause (embedded wh-question of place); also a fused relative of place
 **Pattern:** [subject] [verb] *where* [clause]. &middot; [subject] [verb] [indirect object] *where* [clause]. &middot; *Where* [clause] [verb phrase]. &middot; [subject] [verb] *where to* [verb]. &middot; [preposition] *where* [clause]. &middot; [linking verb] *where* [clause].
@@ -276,6 +289,7 @@ Heads an embedded question about place, and also a fused relative meaning "the p
 ### whether to / what to / how to / where to
 
 **Pronunciation:** /ˈwɛðər tə/, /ˈwʌt tə/, /ˈhaʊ tə/, /ˈwɛr tə/ &middot; *WEH-thur tuh, WUHT tuh, HOW tuh, WAIR tuh* — the stress stays on the wh-word and *to* always reduces to /tə/, flapping to /ɾə/ after a vowel (*what to order* comes out *whaddu order*)
+**Русский:** ли/что/как/где + инфинитив: whether to go — «ехать ли», what to wear — «что надеть»
 **Type:** complementizer + infinitive marker (infinitival wh-clause); each member is one of the wh-words in this section, or *whether*, followed by bare *to* &middot; **Register:** neutral
 **Clause type:** noun clause (infinitival embedded question) — object of a verb, object of a preposition, subject, or subject complement
 **Pattern:** [subject] [verb] *[wh-word] to* [verb]. &middot; [subject] [verb] [indirect object] *[wh-word] to* [verb]. &middot; *[Wh-word] to* [verb] [verb phrase]. &middot; [preposition] *[wh-word] to* [verb]. &middot; [linking verb] *[wh-word] to* [verb]. &middot; [subject] [verb] *whether to* [verb] *or to* [verb].
@@ -297,6 +311,7 @@ The infinitival half of the embedded-question system: the wh-word supplies the q
 ### which
 
 **Pronunciation:** /wɪtʃ/ &middot; *WICH* — a homophone of *witch* for most Americans; conservative /hwɪtʃ/
+**Русский:** какой; который из — выбор из известного набора, тогда как what спрашивает без ограничений
 **Type:** complementizer (interrogative pronoun or determiner); the same word is also a relative pronoun, restrictive and nonrestrictive &middot; **Register:** neutral
 **Clause type:** noun clause (embedded wh-question, selective)
 **Pattern:** [subject] [verb] *which* [clause]. &middot; [subject] [verb] *which* [noun] [clause]. &middot; [subject] [verb] *which of* [noun phrase] [clause]. &middot; [subject] [verb] *which* ([noun]) *to* [verb]. &middot; *Which* [noun] [verb phrase] [verb phrase]. &middot; *Which* [noun] [subject] [verb] [verb phrase]. &middot; [preposition] *which* [clause].
@@ -317,6 +332,7 @@ The selective interrogative: it asks for a choice from a known, closed set, wher
 ### who
 
 **Pronunciation:** /hu/ &middot; *HOO* — reduced to /hʊ/ in fast speech
+**Русский:** кто — косвенный вопрос о лице; в обиходной речи и в объектной позиции вместо whom
 **Type:** complementizer (interrogative pronoun); the same word is also a relative pronoun &middot; **Register:** neutral
 **Clause type:** noun clause (embedded wh-question, personal)
 **Pattern:** [subject] [verb] *who* [verb phrase]. &middot; [subject] [verb] *who* [subject] [verb]. &middot; [subject] [verb] *who to* [verb]. &middot; *Who* [verb phrase] [verb phrase]. &middot; It [linking verb] [adjective] *who* [clause]. &middot; [preposition] *who* [clause].
@@ -337,6 +353,7 @@ Heads an embedded question about a person. In everyday American English it also 
 ### whom
 
 **Pronunciation:** /hum/ &middot; *HOOM*
+**Русский:** кого, кому — объектная форма who; книжн., держится в основном после предлога
 **Type:** complementizer (interrogative pronoun, objective case); the same word is also an objective relative pronoun &middot; **Register:** formal
 **Clause type:** noun clause (embedded wh-question, personal, object function)
 **Pattern:** [subject] [verb] *whom* [subject] [verb]. &middot; [subject] [verb] *whom* [subject] [verb] … [preposition]. &middot; [subject] [verb] [preposition] *whom* [subject] [verb]. &middot; [subject] [verb] *whom to* [verb]. &middot; *Whom* [subject] [verb] [verb phrase]. &middot; It [linking verb] [adjective] *whom* [subject] [verb].
@@ -356,6 +373,7 @@ The object form of *who*, and genuinely formal in American English rather than m
 ### whose
 
 **Pronunciation:** /huz/ &middot; *HOOZ* — a homophone of *who's*
+**Русский:** чей — косвенный вопрос о принадлежности; всегда перед существительным
 **Type:** complementizer (interrogative determiner); the same word is also a possessive relative determiner &middot; **Register:** neutral
 **Clause type:** noun clause (embedded wh-question, possessive)
 **Pattern:** [subject] [verb] *whose* [noun] [verb phrase]. &middot; [subject] [verb] *whose* [noun] [subject] [verb]. &middot; [subject] [verb] [indirect object] *whose* [noun] [clause]. &middot; *Whose* [noun] [verb phrase] [verb phrase]. &middot; [linking verb] *whose* [noun] [clause]. &middot; [preposition] *whose* [noun] [clause].
@@ -376,6 +394,7 @@ Asks which person something belongs to, and it always leads a noun (*whose car*,
 ### why
 
 **Pronunciation:** /waɪ/ &middot; *WY* — conservative /hwaɪ/ in some regional speech
+**Русский:** почему; зачем — косвенный вопрос о причине; инфинитива не допускает (нет why to go)
 **Type:** complementizer (interrogative adverb); the same spelling is also a relative adverb after *reason* and, in older and regional speech, an interjection (*Why, of course*) &middot; **Register:** neutral
 **Clause type:** noun clause (embedded wh-question of reason)
 **Pattern:** [subject] [verb] *why* [clause]. &middot; [subject] [verb] [indirect object] *why* [clause]. &middot; *Why* [clause] [verb phrase]. &middot; [linking verb] *why* [clause]. &middot; [preposition] *why* [clause]. &middot; the reason *why* [clause].
@@ -400,6 +419,7 @@ Each of these folds a head noun and a relative clause into one word — *whoever
 ### however
 
 **Pronunciation:** /haʊˈɛvər/ &middot; *how-EV-ur*
+**Русский:** как бы ни; как угодно — «делай как хочешь»; не путать с however «однако»
 **Type:** complementizer (fused relative); a homograph of the conjunctive adverb *however* ("nevertheless"), which is a different word with the opposite punctuation &middot; **Register:** neutral
 **Clause type:** noun clause or adverbial clause of manner (fused relative, "in whatever way"); also concessive ("no matter how")
 **Pattern:** [main clause] *however* [clause]. &middot; *However* [clause], [main clause]. &middot; *However* [adjective/adverb] [clause], [main clause]. &middot; [main clause] *however* [adjective/adverb] [clause]. &middot; *However* [clause] [verb phrase]. &middot; *However* [adjective/adverb] [clause] [verb phrase]. &middot; [preposition] *however* [clause].
@@ -420,6 +440,7 @@ A fused relative meaning "in whatever way" or "no matter how," spelled and prono
 ### whatever
 
 **Pronunciation:** /wʌtˈɛvər/ &middot; *wuht-EV-ur* — the *t* is normally a flap, [wʌɾˈɛvɚ]; also /wɑtˈɛvər/
+**Русский:** что бы ни; всё, что — «бери что хочешь»; в уступке — «что бы ни случилось»
 **Type:** complementizer (fused relative); the same word is also a determiner, a concessive subordinator, and a standalone dismissive interjection &middot; **Register:** neutral
 **Clause type:** noun clause (fused relative); also adverbial clause of concessive condition
 **Pattern:** [verb] *whatever* [clause]. &middot; *Whatever* [clause] [verb phrase]. &middot; [verb] *whatever* [noun] [clause]. &middot; [preposition] *whatever* [clause]. &middot; [preposition] *whatever* [noun] [clause]. &middot; *Whatever* [clause], [main clause]. &middot; *Whatever* [noun] [clause], [main clause].
@@ -441,6 +462,7 @@ Means "anything that" when it fills a noun slot and "no matter what" when it mod
 ### whenever
 
 **Pronunciation:** /wɛnˈɛvər/ &middot; *wen-EV-ur*
+**Русский:** когда бы ни; в любое время, когда — в отличие от when не называет конкретный момент
 **Type:** complementizer (fused relative); the same word is far more often a subordinating conjunction of time, and it also runs concessive ("no matter when") &middot; **Register:** neutral
 **Clause type:** noun clause (fused relative of time); more often an adverbial clause of time
 **Pattern:** [verb] *whenever* [clause]. &middot; *Whenever* [clause] [verb phrase]. &middot; *Whenever* [clause], [main clause]. &middot; [main clause] *whenever* [clause].
@@ -459,6 +481,7 @@ Mostly a time adverbial meaning "every time that" or "at any time that," but it 
 ### wherever
 
 **Pronunciation:** /wɛrˈɛvər/ &middot; *wair-EV-ur*
+**Русский:** где бы ни; куда бы ни — любое место, тогда как where называет конкретное
 **Type:** complementizer (fused relative); the same word is also a subordinating conjunction of place and a concessive ("no matter where") &middot; **Register:** neutral
 **Clause type:** noun clause (fused relative of place); also adverbial clause of place
 **Pattern:** [verb] *wherever* [clause]. &middot; *Wherever* [clause] [verb phrase]. &middot; *Wherever* [clause], [main clause]. &middot; [main clause] *wherever* [clause].
@@ -477,6 +500,7 @@ Mostly a time adverbial meaning "every time that" or "at any time that," but it 
 ### whichever
 
 **Pronunciation:** /wɪtʃˈɛvər/ &middot; *wich-EV-ur*
+**Русский:** какой бы ни; любой из — выбор из известного набора; whichever comes first — «что раньше»
 **Type:** complementizer (fused relative); the same word is also a determiner and a concessive subordinator &middot; **Register:** neutral
 **Clause type:** noun clause (fused relative, selective)
 **Pattern:** [verb] *whichever* [clause]. &middot; [verb] *whichever* [noun] [clause]. &middot; *Whichever* [clause] [verb phrase]. &middot; *Whichever* [noun] [verb phrase] [verb phrase]. &middot; *Whichever* [clause], [main clause]. &middot; *Whichever* [noun] [clause], [main clause]. &middot; [preposition] *whichever* [clause]. &middot; [noun phrase] or [noun phrase], *whichever* [verb phrase].
@@ -497,6 +521,7 @@ The selective *-ever* form: "any one of these that." It presumes a defined set w
 ### whoever
 
 **Pronunciation:** /huˈɛvər/ &middot; *hoo-EV-ur*
+**Русский:** кто бы ни; тот, кто — падеж задаётся ролью внутри придаточного, а не предлогом слева
 **Type:** complementizer (fused relative); the same word also heads concessive adverbials ("no matter who") &middot; **Register:** neutral
 **Clause type:** noun clause (fused relative, personal)
 **Pattern:** *Whoever* [verb phrase] [verb phrase]. &middot; [verb] *whoever* [verb phrase]. &middot; [verb] [indirect object] *whoever* [verb phrase]. &middot; [preposition] *whoever* [verb phrase]. &middot; [linking verb] *whoever* [verb phrase]. &middot; *Whoever* [verb phrase], [main clause].
@@ -517,6 +542,7 @@ The selective *-ever* form: "any one of these that." It presumes a defined set w
 ### whomever
 
 **Pronunciation:** /huˈmɛvər/ &middot; *hoo-MEV-ur*
+**Русский:** кого бы ни; тому, кого — книжн. объектная форма whoever; дальше идёт подлежащее
 **Type:** complementizer (fused relative, objective case); like *whoever*, it also heads concessive adverbials ("no matter whom") &middot; **Register:** formal
 **Clause type:** noun clause (fused relative, personal, object function); also adverbial clause of concession
 **Pattern:** [verb] *whomever* [subject] [verb]. &middot; [verb] [indirect object] *whomever* [subject] [verb]. &middot; [preposition] *whomever* [subject] [verb]. &middot; *Whomever* [subject] [verb] [verb phrase]. &middot; [linking verb] *whomever* [subject] [verb]. &middot; *Whomever* [subject] [verb], [main clause].
@@ -537,6 +563,7 @@ The object form of *whoever*, and formal even by *whom*'s standards. Americans o
 ### whomsoever
 
 **Pronunciation:** /ˌhumsoʊˈɛvər/ &middot; *hoom-so-EV-ur* — primary stress on *-EV-*, a secondary beat on *hoom-*
+**Русский:** кого бы то ни было — устар., юр.: объектная форма whosoever
 **Type:** complementizer (fused relative, emphatic, objective case); the object form of *whosoever*, and like it a concessive subordinator ("no matter whom") &middot; **Register:** archaic — confined to legal and testamentary drafting, formal boilerplate, and King James English; never a neutral choice
 **Clause type:** noun clause (fused relative, personal, object function); also adverbial clause of concession
 **Pattern:** [verb] *whomsoever* [subject] [verb]. &middot; [preposition] *whomsoever* [subject] [verb]. &middot; *Whomsoever* [subject] [verb] [verb phrase]. &middot; [preposition] *whomsoever* it may [verb]. &middot; *Whomsoever* [subject] [verb], [main clause].
@@ -557,6 +584,7 @@ The object partner of *whosoever*, and the *-soever* form Americans are likelies
 ### whosoever
 
 **Pronunciation:** /ˌhusoʊˈɛvər/ &middot; *hoo-so-EV-ur*
+**Русский:** всякий, кто; кто бы ни — устар., книжн. (юр., библ.) усиленный whoever
 **Type:** complementizer (fused relative, emphatic); *whomsoever* is its objective form &middot; **Register:** archaic — alive only in legal drafting, hymnody, and King James English; never a neutral choice
 **Clause type:** noun clause (fused relative, personal, universal); also adverbial clause of concession
 **Pattern:** *Whosoever* [verb phrase] [verb phrase]. &middot; [verb] *whosoever* [verb phrase]. &middot; [preposition] *whosoever* [verb phrase]. &middot; [linking verb] *whosoever* [verb phrase]. &middot; [preposition] *whomsoever* [subject] [verb]. &middot; *Whosoever* [verb phrase], [main clause].
@@ -582,6 +610,7 @@ Multi-word frames and survivals. Several of them (*as to*, *as to whether*, *the
 ### as how
 
 **Pronunciation:** /əz ˈhaʊ/ &middot; *uz HOW* — *as* is always the reduced /əz/, and the two words run together as one unstressed-then-stressed unit
+**Русский:** что — диал. (Юг США, Аппалачи) после allow, reckon, figure, say; в письме просто that
 **Type:** complementizer (phrasal); the same two words also close the causal frames *seeing as how* and *being as how* &middot; **Register:** regional and dialectal — Southern, Appalachian, and Midland American speech, plus the folksy narrative voice that imitates it; not standard in edited writing
 **Clause type:** noun clause (declarative content clause) after a verb of saying, thinking, or conceding
 **Pattern:** [subject] *allow* / *reckon* / *figure* / *say* *as how* [clause]. &middot; [subject] [verb of saying] [indirect object] *as how* [clause]. &middot; [subject] *allowed as how* [clause], [coordinated clause].
@@ -602,6 +631,7 @@ A dialectal *that*: after *allow*, *reckon*, *figure*, and *say* it marks a plai
 ### as to (+ wh-)
 
 **Pronunciation:** /ˌæz ˈtu/ &middot; *az TOO* — both words reduce in running speech to /əz tə/ &middot; *uz tuh*, and the pair never carries a stress of its own
+**Русский:** относительно того, что/как/кто — офиц. связка перед косвенным вопросом
 **Type:** complementizer (phrasal); *as to* is also a compound preposition in front of a noun phrase (*as to the cost*) &middot; **Register:** formal — the register of contracts, memos, and administrative prose
 **Clause type:** noun clause (embedded wh-question) — complement of a noun or an adjective, occasionally of a verb
 **Pattern:** [noun] *as to* [wh-word] [clause]. &middot; [adjective] *as to* [wh-word] [clause]. &middot; [verb] *as to* [wh-word] [clause]. &middot; [determiner] [noun] *as to* [wh-word] [clause] [verb phrase]. &middot; [noun/adjective] *as to* [wh-word] *to* [verb].
@@ -623,6 +653,7 @@ The general frame that [as to whether](#as-to-whether) is one case of. English w
 ### as to whether
 
 **Pronunciation:** /ˌæz tə ˈwɛðər/ &middot; *az tuh WEH-thur*
+**Русский:** относительно того, … ли — офиц.: doubt/silent as to whether; после глагола лишнее
 **Type:** complementizer (phrasal) &middot; **Register:** formal
 **Clause type:** noun clause (indirect yes-no question)
 **Pattern:** [noun] *as to whether* [clause]. &middot; [adjective] *as to whether* [clause]. &middot; [verb] *as to whether* [clause]. &middot; [determiner] [noun] *as to whether* [clause] [verb phrase]. &middot; [noun/adjective] *as to whether* [clause] *or* [clause]. &middot; [noun/adjective] *as to whether to* [verb].
@@ -644,6 +675,7 @@ A formal connector for the spots where a noun or adjective needs a preposition i
 ### but that
 
 **Pronunciation:** /bʌt ˈðæt/ &middot; *but THAT* — reduced to /bət ðət/
+**Русский:** что — устар., книжн.-юр. после отрицаемых doubt, deny, question; на вид двойное отрицание
 **Type:** complementizer (phrasal) &middot; **Register:** archaic, surviving in legal and literary prose
 **Clause type:** noun clause after a negated verb or noun of doubting or denying
 **Pattern:** [negated verb of doubt/denial] *but that* [clause]. &middot; There is no [doubt/question] *but that* [clause].
@@ -663,6 +695,7 @@ An old negative complementizer meaning roughly "that … not," alive today only 
 ### but what
 
 **Pronunciation:** /bʌt ˈwʌt/ &middot; *but WUHT* — reduced to /bət wət/ in running speech
+**Русский:** что — диал. (Юг США) разговорный вариант but that; в письменной речи — просто that
 **Type:** complementizer (phrasal) &middot; **Register:** regional and dialectal — Southern, Appalachian, and Midland American speech; not standard in edited writing anywhere
 **Clause type:** noun clause after a negated verb or noun of doubting, denying, or knowing
 **Pattern:** [negated verb of doubt/denial] *but what* [clause]. &middot; There is no [doubt/question] *but what* [clause]. &middot; It won't be long *but what* [clause].
@@ -682,6 +715,7 @@ The spoken cousin of *but that*, and the form far more Americans have actually h
 ### for
 
 **Pronunciation:** /fɔr/ &middot; *FOR* — in this use almost always reduced to /fər/ &middot; *fur*
+**Русский:** чтобы — вводит инфинитивный оборот со своим подлежащим: for him to go «чтобы он пошёл»
 **Type:** complementizer (infinitival *for … to*); the same spelling is also a coordinating conjunction meaning "because" and one of the most common prepositions in the language &middot; **Register:** neutral
 **Clause type:** noun clause (infinitival clause with an overt subject)
 **Pattern:** *For* [subject] *to* [verb] [verb phrase]. &middot; [verb] *for* [subject] *to* [verb]. &middot; It [verb] *for* [subject] *to* [verb]. &middot; [adjective] *for* [subject] *to* [verb]. &middot; [noun] *for* [subject] *to* [verb].
@@ -702,6 +736,7 @@ The complementizer that lets an infinitive clause carry its own subject: *for* m
 ### how that
 
 **Pronunciation:** /ˌhaʊ ˈðæt/ &middot; *how THAT*
+**Русский:** что — устар. (библ.) удвоенный союз; сегодня только that
 **Type:** complementizer (phrasal) &middot; **Register:** archaic
 **Clause type:** noun clause (declarative content clause)
 **Pattern:** [subject] [verb of telling or knowing] *how that* [clause]. &middot; [subject] [verb of telling] [indirect object] *how that* [clause]. &middot; [imperative verb] *how that* [clause]. &middot; [subject] [verb of writing or saying] *how that* [clause].
@@ -721,6 +756,7 @@ A doubled complementizer common in Early Modern English and preserved in the Kin
 ### lest
 
 **Pronunciation:** /lɛst/ &middot; *LEST*
+**Русский:** как бы не — книжн. после fear, afraid, anxious: feared lest «боялся, как бы не…»
 **Type:** complementizer after verbs of fearing; subordinating (negative purpose) elsewhere &middot; **Register:** formal to literary
 **Clause type:** noun clause after a verb, adjective, or noun of fearing; adverbial clause of negative purpose otherwise
 **Pattern:** [subject] [verb of fearing] *lest* [subject] [bare subjunctive verb]. &middot; [subject] *be* [adjective of fearing] *lest* [subject] [bare subjunctive verb]. &middot; [noun of fearing] *lest* [subject] [bare subjunctive verb]. &middot; [main clause] *lest* [subject] [bare subjunctive verb]. &middot; [main clause], *lest* [subject] [bare subjunctive verb].
@@ -741,6 +777,7 @@ A negative complementizer meaning roughly "that … might," used after *fear*, *
 ### no wonder / small wonder / little wonder
 
 **Pronunciation:** /ˌnoʊ ˈwʌndər/, /ˌsmɔl ˈwʌndər/, /ˌlɪtl ˈwʌndər/ &middot; *noh WUN-dur, smawl WUN-dur, LIT-l WUN-dur* — the stress lands on *wonder* in all three, and *no wonder* is normally said as a single falling unit
+**Русский:** неудивительно, что; немудрено, что — свёрнутое It is no wonder that
 **Type:** complementizer frame (reduced matrix predicate); the unreduced form is *It is no wonder that* &middot; **Register:** *no wonder* neutral to informal; *small wonder* and *little wonder* neutral to formal, and commoner on the page than in the mouth
 **Clause type:** noun clause (extraposed subject content clause), normally with the *that* dropped
 **Pattern:** *No wonder* ∅ [clause]. &middot; *No wonder that* [clause]. &middot; It is *no wonder that* [clause]. &middot; [main clause] — *no wonder* ∅ [clause]. &middot; *Small wonder that* [clause]. &middot; *Little wonder* ∅ [clause].
@@ -761,6 +798,7 @@ A whole matrix clause squeezed down to two words: *It is no wonder that he was t
 ### not that
 
 **Pronunciation:** /ˌnɑt ˈðæt/ &middot; *naht THAT* — the second word reduces to /ðət/ in fast speech
+**Русский:** не то чтобы; не сказать, что — снимает вывод, который слушатель мог бы сделать
 **Type:** complementizer (phrasal) &middot; **Register:** neutral to informal
 **Clause type:** noun clause, negated — parenthetical, or a denial of an inference
 **Pattern:** *Not that* [clause], but [main clause]. &middot; [main clause] — *not that* [clause]. &middot; It's *not that* [clause]; it's *that* [clause]. &middot; *Not that* [clause].
@@ -780,6 +818,7 @@ A complementizer that denies an inference the listener might be drawing — usua
 ### the fact that
 
 **Pronunciation:** /ðə ˈfækt ðət/ &middot; *thuh FAKT thut*
+**Русский:** то, что; тот факт, что — упаковывает придаточное в существительное для предлога
 **Type:** complementizer (phrasal) &middot; **Register:** neutral
 **Clause type:** noun clause (nominalized content clause)
 **Pattern:** *The fact that* [clause] [verb phrase]. &middot; [preposition] *the fact that* [clause]. &middot; [verb] *the fact that* [clause].
@@ -799,6 +838,7 @@ A packaging device that turns a clause into a full noun phrase so it can follow 
 ### the idea that / the notion that / the claim that
 
 **Pronunciation:** /ði aɪˈdiə ðət/, /ðə ˈnoʊʃən ðət/, /ðə ˈkleɪm ðət/ &middot; *thee eye-DEE-uh thut, thuh NOH-shun thut, thuh KLAYM thut* — the *that* is always the reduced /ðət/; a full /ðæt/ turns it into a demonstrative and breaks the phrase
+**Русский:** мысль о том, что; представление, что; утверждение, что — приложение к отвлечённому сущ.
 **Type:** complementizer (phrasal — abstract noun + *that*) &middot; **Register:** neutral to formal
 **Clause type:** noun clause (appositive content clause completing an abstract noun)
 **Pattern:** *The* [noun] *that* [clause] [verb phrase]. &middot; [verb] *the* [noun] *that* [clause]. &middot; [preposition] *the* [noun] *that* [clause]. &middot; [determiner] [noun] *that* [clause]. &middot; *The* [noun] *that* [clause] *is* [complement].
@@ -820,6 +860,7 @@ The productive frame behind [the fact that](#the-fact-that): an abstract noun na
 ### the question whether
 
 **Pronunciation:** /ðə ˈkwɛstʃən ˌwɛðər/ &middot; *thuh KWES-chun weh-thur* — primary stress on *ques-*, a lighter secondary beat on *weh-*
+**Русский:** вопрос о том, … ли — книжн., юр.; допустимо the question of whether, но не the question if
 **Type:** complementizer (phrasal — noun + *whether*) &middot; **Register:** formal — legal, academic, and editorial prose
 **Clause type:** noun clause (appositive indirect yes-no question completing an abstract noun)
 **Pattern:** *The question whether* [clause] [verb phrase]. &middot; [verb] *the question whether* [clause]. &middot; [preposition] *the question of whether* [clause]. &middot; *The question whether to* [verb]. &middot; *The question whether* [clause] *or* [clause].
@@ -840,6 +881,7 @@ The interrogative counterpart of [the idea that](#the-idea-that--the-notion-that
 ### the thing is / here's the thing
 
 **Pronunciation:** /ðə ˈθɪŋ ɪz/, /ˌhɪrz ðə ˈθɪŋ/ &middot; *thuh THING iz, heerz thuh THING* — *the thing is* ends on a held, slightly rising *is*, and that held syllable is exactly what the comma represents on the page
+**Русский:** дело в том, что; вот в чём дело — разг. подводка к загвоздке
 **Type:** complementizer frame (specificational *be* + content clause); *here's the thing* is the same frame turned into a discourse marker &middot; **Register:** informal — ordinary in speech, dialogue, and conversational writing; out of place in formal prose
 **Clause type:** noun clause (declarative content clause) as subject complement, normally with the *that* dropped
 **Pattern:** *The thing is* ∅ [clause]. &middot; *The thing is,* ∅ [clause]. &middot; *The thing is that* [clause]. &middot; *Here's the thing:* [clause]. &middot; *Here's the thing* — [clause]. &middot; [main clause], but *the thing is* ∅ [clause].
@@ -860,6 +902,7 @@ A specificational sentence doing duty as a conversational hinge: *the thing* is 
 ### trouble is / problem is / fact is / truth is
 
 **Pronunciation:** /ˈtrʌbl ɪz/, /ˈprɑbləm ɪz/, /ˈfækt ɪz/, /ˈtruθ ɪz/ &middot; *TRUB-l iz, PRAH-blum iz, FAKT iz, TROOTH iz* — with *the* gone the noun carries the stress and the phrase opens on a full beat, which is most of what makes the clipped form sound conversational
+**Русский:** беда/проблема в том, что; дело в том, что; по правде говоря — разг., с опущенным the
 **Type:** complementizer frame (specificational *be* + content clause, with the article dropped) &middot; **Register:** informal to neutral — the article-less form is conversational; restoring *the* makes any of them fit edited prose
 **Clause type:** noun clause (declarative content clause) as subject complement, normally with the *that* dropped
 **Pattern:** *Trouble is* ∅ [clause]. &middot; *Fact is,* ∅ [clause]. &middot; *The trouble is that* [clause]. &middot; [main clause], *but the problem is* ∅ [clause]. &middot; *Truth is,* ∅ [clause], *and* [clause].
@@ -881,6 +924,7 @@ The same specificational frame as [the thing is](#the-thing-is--heres-the-thing)
 ### would that
 
 **Pronunciation:** /ˈwʊd ðət/ &middot; *WOOD thut* — *would* takes the stress and never contracts here; the *that* is the reduced /ðət/
+**Русский:** о, если бы; хоть бы — устар., книжн. оптатив с сослагательным: Would that it were true
 **Type:** complementizer (phrasal, optative) — the fossilized remains of *I would that* &middot; **Register:** archaic and literary — poetry, elevated rhetoric, and deliberate period voice; never a neutral choice
 **Clause type:** noun clause (content clause expressing a wish), verb in the past subjunctive
 **Pattern:** *Would that* [subject] [past subjunctive verb]. &middot; *Would that* [subject] *were* [complement]. &middot; *Would that* [subject] *had* [past participle]. &middot; *Would that* [clause], [main clause]. &middot; *Would to God that* [clause].

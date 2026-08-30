@@ -13,6 +13,7 @@ The category does not stop at the door. The same social machinery runs through t
 ### ahoy
 
 **Pronunciation:** /əˈhɔɪ/ &middot; *uh-HOY*  
+**Русский:** эй, на судне! эгей! — морской оклик; на суше только шутливо, «по-пиратски»
 **Type:** primary &middot; **Register:** informal  
 **Variants:** *ahoy there*, *ship ahoy*
 
@@ -29,6 +30,7 @@ A nautical hail used to get a boat's or a person's attention. On land Americans 
 ### aloha
 
 **Pronunciation:** /əˈloʊhɑ/ &middot; *uh-LOH-hah*  
+**Русский:** алоха — гавайское приветствие и прощание одновременно
 **Type:** primary &middot; **Register:** regional
 
 The Hawaiian word for love and goodwill, used in Hawaii as both *hello* and *goodbye*. On the mainland it shows up mostly in tourist and luau settings, where it can sound like part of a costume.
@@ -44,6 +46,7 @@ The Hawaiian word for love and goodwill, used in Hawaii as both *hello* and *goo
 ### as-salamu alaykum
 
 **Pronunciation:** /ˌɑs səˈlɑmu əˈleɪkʊm/ &middot; *ahs-suh-LAH-moo uh-LAY-koom*  
+**Русский:** ас-саляму алейкум — «мир вам»; ответ — ва-алейкум ас-салям
 **Type:** phrase &middot; **Register:** neutral  
 **Variants:** *salaam*, *salaam alaikum*, *as-salaam alaykum*
 
@@ -60,6 +63,7 @@ Arabic for *peace be upon you*, the standard greeting among Muslims in the Unite
 ### greetings
 
 **Pronunciation:** /ˈɡritɪŋz/ &middot; *GREE-tingz*  
+**Русский:** приветствую! — торжественное «здравствуйте»; в разговоре звучит шутливо-роботически
 **Type:** secondary &middot; **Register:** formal  
 **Variants:** *greetings and salutations*
 
@@ -76,6 +80,7 @@ A stiff, ceremonial hello. It is still normal at the top of a formal announcemen
 ### hello
 
 **Pronunciation:** /həˈloʊ/, also /hɛˈloʊ/ &middot; *huh-LOH, also heh-LOH*  
+**Русский:** здравствуйте, привет — универсальное приветствие; по телефону «алло»
 **Type:** primary &middot; **Register:** neutral  
 **Variants:** *hullo*, *hallo*, *hello there*
 
@@ -93,6 +98,7 @@ The all-purpose English greeting — safe with strangers, bosses, and friends al
 ### hey
 
 **Pronunciation:** /heɪ/ &middot; *HAY*  
+**Русский:** эй, привет — разг. приветствие для знакомых; также оклик и возглас протеста
 **Type:** primary &middot; **Register:** informal  
 **Variants:** *heyyy*
 
@@ -109,6 +115,7 @@ The most common casual American greeting between people who already know each ot
 ### hey there
 
 **Pronunciation:** /ˌheɪ ˈðɛr/ &middot; *hay-THAIR*  
+**Русский:** привет-привет, ну здравствуй — мягкий, тёплый вариант hey
 **Type:** phrase &middot; **Register:** informal  
 **Variants:** *hi there*, *hello there*
 
@@ -125,6 +132,7 @@ A warmer, softer version of *hey*, used when you are pleased to see someone or w
 ### hi
 
 **Pronunciation:** /haɪ/ &middot; *HIGH*  
+**Русский:** привет — обычное дружелюбное приветствие, чуть менее официальное, чем hello
 **Type:** primary &middot; **Register:** neutral  
 **Variants:** *hi there*
 
@@ -141,6 +149,7 @@ The default friendly greeting in American English — a shade less formal than *
 ### hiya
 
 **Pronunciation:** /ˈhaɪjə/ &middot; *HY-yuh*  
+**Русский:** приветик, здоро́во — разг. бодрое приветствие между своими
 **Type:** primary &middot; **Register:** informal  
 **Variants:** *heya*, *hey ya*
 
@@ -157,6 +166,7 @@ A chipper squeezing-together of *hi you* or *hey you*, used between people on ea
 ### hola
 
 **Pronunciation:** /ˈoʊlɑ/ &middot; *OH-lah*  
+**Русский:** привет — исп. «ола», h не читается; лёгкое дружеское приветствие
 **Type:** primary &middot; **Register:** informal
 
 Spanish for *hi*, widely understood in the United States and used as a light, friendly greeting by plenty of people who speak no other Spanish. Note that the *h* is silent.
@@ -172,6 +182,7 @@ Spanish for *hi*, widely understood in the United States and used as a light, fr
 ### howdy
 
 **Pronunciation:** /ˈhaʊdi/ &middot; *HOW-dee*  
+**Русский:** здоро́во, здрасьте — диал. (Техас и сельский Запад США), от how do ye
 **Type:** primary &middot; **Register:** regional  
 **Variants:** *howdy do*, *how-do*, *howdy y'all*
 
@@ -188,6 +199,7 @@ A friendly greeting from Texas and the rural West, worn down over centuries from
 ### namaste
 
 **Pronunciation:** /ˈnɑməˌsteɪ/, also /ˌnɑməˈsteɪ/ &middot; *NAH-muh-stay, also nah-muh-STAY*  
+**Русский:** намасте — индийское приветствие с ладонями у груди; в США чаще всего на йоге
 **Type:** primary &middot; **Register:** neutral
 
 A Hindi greeting of respect, said with the palms pressed together, that most Americans meet at the end of a yoga class. Used outside that setting by speakers with no connection to it, it can come across as affected, so it is worth handling with care.
@@ -203,6 +215,7 @@ A Hindi greeting of respect, said with the palms pressed together, that most Ame
 ### salutations
 
 **Pronunciation:** /ˌsæljəˈteɪʃənz/ &middot; *sal-yuh-TAY-shunz*  
+**Русский:** приветствую вас! — устар., книжн.; сегодня только в шутку
 **Type:** secondary &middot; **Register:** dated  
 **Variants:** *greetings and salutations*
 
@@ -219,6 +232,7 @@ An ornate, bookish hello that no American uses with a straight face in conversat
 ### shalom
 
 **Pronunciation:** /ʃəˈloʊm/, also /ʃɑˈloʊm/ &middot; *shuh-LOHM, also shah-LOHM*  
+**Русский:** шалом — ивр. «мир»; и приветствие, и прощание
 **Type:** primary &middot; **Register:** neutral
 
 Hebrew for *peace*, used as both a greeting and a farewell in Jewish American communities and understood well beyond them. It is warm rather than formal, and it works on arrival and on departure alike.
@@ -234,6 +248,7 @@ Hebrew for *peace*, used as both a greeting and a farewell in Jewish American co
 ### yo
 
 **Pronunciation:** /joʊ/ &middot; *YOH*  
+**Русский:** йоу, эй — очень разг. резкое приветствие-оклик
 **Type:** primary &middot; **Register:** very informal
 
 A blunt, high-energy greeting or attention-getter, strongly associated with young men, hip-hop, and the urban Northeast. It works between friends and sounds rude to a stranger, a customer, or a boss.
@@ -249,6 +264,7 @@ A blunt, high-energy greeting or attention-getter, strongly associated with youn
 ### yoo-hoo
 
 **Pronunciation:** /ˈjuˌhu/ &middot; *YOO-hoo*  
+**Русский:** ау! эге-гей! — певучий оклик, чтобы привлечь внимание издалека
 **Type:** primary &middot; **Register:** informal  
 **Variants:** *yoohoo*, *yoo-hoo there*
 
@@ -267,6 +283,7 @@ A sing-song call used to reach someone who has not noticed you yet — across a 
 ### good afternoon
 
 **Pronunciation:** /ˌɡʊd ˌæftɚˈnun/ &middot; *good-af-ter-NOON*  
+**Русский:** добрый день — вежливое приветствие примерно с полудня до шести вечера
 **Type:** phrase &middot; **Register:** formal  
 **Variants:** *afternoon*
 
@@ -283,6 +300,7 @@ A polite greeting for roughly noon until five or six in the evening. It is more 
 ### good day
 
 **Pronunciation:** /ˌɡʊd ˈdeɪ/ &middot; *good-DAY*  
+**Русский:** доброго дня; всего хорошего — устар.; часто резкое завершение разговора
 **Type:** phrase &middot; **Register:** dated  
 **Variants:** *g'day*
 
@@ -299,6 +317,7 @@ A formal greeting or dismissal that has largely left American speech; Americans 
 ### good evening
 
 **Pronunciation:** /ˌɡʊd ˈivnɪŋ/ &middot; *good-EEV-ning*  
+**Русский:** добрый вечер — только при встрече; уходя, говорят good night
 **Type:** phrase &middot; **Register:** formal  
 **Variants:** *evening*, *'evening*
 
@@ -315,6 +334,7 @@ A polite greeting used from roughly six in the evening onward. It is a greeting 
 ### good morning
 
 **Pronunciation:** /ˌɡʊd ˈmɔrnɪŋ/ &middot; *good-MOR-ning*  
+**Русский:** доброе утро — приветствие до полудня, только при встрече
 **Type:** phrase &middot; **Register:** neutral  
 **Variants:** *g'morning*, *mornin'*
 
@@ -331,6 +351,7 @@ The standard greeting from waking until about noon, safe in every setting from a
 ### morning
 
 **Pronunciation:** /ˈmɔrnɪŋ/ &middot; *MOR-ning*  
+**Русский:** утро доброе, здоро́во — разг. усечённое good morning
 **Type:** secondary &middot; **Register:** informal  
 **Variants:** *mornin'*, *'morning*
 
@@ -347,6 +368,7 @@ The clipped everyday form of *good morning*, used between people who see each ot
 ### top of the morning
 
 **Pronunciation:** /ˌtɑp əv ðə ˈmɔrnɪŋ/ &middot; *tahp-uv-thuh-MOR-ning*  
+**Русский:** доброго утречка — устар., шутл. псевдоирландское приветствие
 **Type:** phrase &middot; **Register:** dated  
 **Variants:** *top o' the morning*, *top of the morning to you*
 
@@ -365,6 +387,7 @@ A stage-Irish greeting that Irish people do not actually use and Americans deplo
 ### how are you
 
 **Pronunciation:** /ˌhaʊ ɚ ˈju/ &middot; *how-er-YOO*  
+**Русский:** как дела? как поживаете? — формула приветствия, а не настоящий вопрос
 **Type:** phrase &middot; **Register:** neutral  
 **Variants:** *how are ya*, *how are you doing*, *how ya doin'*, *how you doing*
 
@@ -381,6 +404,7 @@ The standard polite greeting question, and a formula rather than a real inquiry.
 ### how do you do
 
 **Pronunciation:** /ˌhaʊ də jə ˈdu/ &middot; *how-duh-yuh-DOO*  
+**Русский:** здравствуйте — устар. формула при знакомстве; в ответ повторяют её же
 **Type:** phrase &middot; **Register:** formal  
 **Variants:** *how d'you do*
 
@@ -397,6 +421,7 @@ A formal greeting said on being introduced to someone. It is not really a questi
 ### how have you been
 
 **Pronunciation:** /ˌhaʊ həv ju ˈbɪn/ &middot; *how-huv-yoo-BIN*  
+**Русский:** как ты жил всё это время? — тому, кого давно не видел
 **Type:** phrase &middot; **Register:** neutral  
 **Variants:** *how've you been*, *how you been*, *how've ya been*
 
@@ -413,6 +438,7 @@ The greeting question for someone you have not seen in a while. The past tense i
 ### how's it going
 
 **Pronunciation:** /ˌhaʊz ɪt ˈɡoʊɪŋ/ &middot; *howz-it-GOH-ing*  
+**Русский:** как оно? как жизнь? — разг. приветствие, настоящего ответа не требует
 **Type:** phrase &middot; **Register:** informal  
 **Variants:** *how's it goin'*, *how goes it*
 
@@ -429,6 +455,7 @@ A casual greeting question among friends, coworkers, and service staff. Like *ho
 ### sup
 
 **Pronunciation:** /sʌp/ &middot; *SUP*  
+**Русский:** здоро́во, чё как — очень разг. обрубок what's up
 **Type:** secondary &middot; **Register:** very informal  
 **Variants:** *'sup*, *whaddup*
 
@@ -445,6 +472,7 @@ What is left of *what's up* after everything but the last syllable falls off. It
 ### what's good
 
 **Pronunciation:** /ˌwʌts ˈɡʊd/ &middot; *wuts-GOOD*  
+**Русский:** чё как? — очень разг. (из афроамер. англ.); резким тоном — «есть проблемы?»
 **Type:** phrase &middot; **Register:** very informal
 
 A greeting out of African American English that has spread through youth slang, meaning roughly *what's up*. Tone decides everything: the same two words said hard are a challenge, closer to *what's your problem*.
@@ -460,6 +488,7 @@ A greeting out of African American English that has spread through youth slang, 
 ### what's happening
 
 **Pronunciation:** /ˌwʌts ˈhæpənɪŋ/ &middot; *wuts-HAP-uh-ning*  
+**Русский:** что происходит? как оно? — разг. приветствие с налётом 1970-х
 **Type:** phrase &middot; **Register:** informal  
 **Variants:** *what's happenin'*, *what's poppin'*
 
@@ -476,6 +505,7 @@ A casual greeting question that can also, in the right tone, genuinely ask what 
 ### what's new
 
 **Pronunciation:** /ˌwʌts ˈnu/ &middot; *wuts-NOO*  
+**Русский:** что нового? — давно не виденному; стандартный ответ — «да ничего»
 **Type:** phrase &middot; **Register:** informal  
 **Variants:** *what's new with you*
 
@@ -492,6 +522,7 @@ A greeting for someone you have not seen in a while, sitting halfway between a h
 ### what's up
 
 **Pronunciation:** /ˌwʌts ˈʌp/ &middot; *wuts-UP*  
+**Русский:** как дела? чё как? — самое частое разг. приветствие; тревожно — «что случилось?»
 **Type:** phrase &middot; **Register:** informal  
 **Variants:** *wassup*, *whassup*, *whazzup*, *what up*
 
@@ -510,6 +541,7 @@ The most common casual American greeting question among friends. It usually need
 ### good to see you
 
 **Pronunciation:** /ˌɡʊd tə ˈsi ju/ &middot; *good-tuh-SEE-yoo*  
+**Русский:** рад тебя видеть — тому, с кем уже знаком (в отличие от nice to meet you)
 **Type:** phrase &middot; **Register:** neutral  
 **Variants:** *nice to see you*, *great to see you*, *so good to see you*
 
@@ -526,6 +558,7 @@ What you say to someone you already know, either on meeting or on parting. The d
 ### long time no see
 
 **Pronunciation:** /ˌlɔŋ taɪm noʊ ˈsi/ &middot; *long-time-no-SEE*  
+**Русский:** сколько лет, сколько зим! — устойчивая намеренно «неправильная» фраза
 **Type:** phrase &middot; **Register:** informal  
 **Variants:** *long time*
 
@@ -542,6 +575,7 @@ A fixed, deliberately ungrammatical greeting for someone you have not seen in mo
 ### nice to meet you
 
 **Pronunciation:** /ˌnaɪs tə ˈmit ju/ &middot; *nice-tuh-MEET-yoo*  
+**Русский:** приятно познакомиться — только при первом знакомстве
 **Type:** phrase &middot; **Register:** neutral  
 **Variants:** *pleased to meet you*, *good to meet you*, *nice meeting you*
 
@@ -558,6 +592,7 @@ The standard American formula on being introduced to someone for the first time.
 ### welcome
 
 **Pronunciation:** /ˈwɛlkəm/ &middot; *WEL-kum*  
+**Русский:** добро пожаловать — приветствие прибывшему; не путать с you're welcome «не за что»
 **Type:** secondary &middot; **Register:** neutral  
 **Variants:** *welcome back*, *welcome aboard*, *welcome home*
 
@@ -576,6 +611,7 @@ A greeting that offers hospitality, said to someone arriving at your home, your 
 ### adios
 
 **Pronunciation:** /ˌɑdiˈoʊs/ &middot; *ah-dee-OHS*  
+**Русский:** адьос, пока — исп.; о вещи или деле — с оттенком «скатертью дорога»
 **Type:** primary &middot; **Register:** informal  
 **Variants:** *adiós*, *adios amigo*
 
@@ -592,6 +628,7 @@ Spanish for goodbye, used by English speakers as a breezy, slightly jokey sign-o
 ### au revoir
 
 **Pronunciation:** /ˌoʊ rəˈvwɑr/ &middot; *oh-ruh-VWAHR*  
+**Русский:** оревуар, до свидания — фр.; употребляется с лёгкой рисовкой
 **Type:** phrase &middot; **Register:** informal
 
 French for *until we see each other again*. Americans use it sparingly and usually with a wink, to sound worldly, theatrical, or a bit grand.
@@ -607,6 +644,7 @@ French for *until we see each other again*. Americans use it sparingly and usual
 ### bye
 
 **Pronunciation:** /baɪ/ &middot; *BYE*  
+**Русский:** пока — повседневное прощание, годится почти с кем угодно
 **Type:** primary &middot; **Register:** neutral  
 **Variants:** *bye now*, *byeee*
 
@@ -623,6 +661,7 @@ The everyday American goodbye, clipped from *goodbye* and usable with almost any
 ### bye-bye
 
 **Pronunciation:** /ˌbaɪˈbaɪ/ &middot; *bye-BYE*  
+**Русский:** пока-пока — с детьми и ласково между взрослыми; buh-bye сухо — отшивание
 **Type:** primary &middot; **Register:** informal  
 **Variants:** *bye bye*, *buh-bye*, *bye-bye now*
 
@@ -639,6 +678,7 @@ A doubled, sing-song *bye* used with small children and pets, and affectionately
 ### catch you later
 
 **Pronunciation:** /ˌkætʃ ju ˈleɪtɚ/ &middot; *kach-yoo-LAY-ter*  
+**Русский:** до скорого, ещё увидимся — разг. прощание без уточнения когда
 **Type:** phrase &middot; **Register:** informal  
 **Variants:** *catch ya later*, *catch you around*, *catch you on the flip side*
 
@@ -655,6 +695,7 @@ A relaxed goodbye between friends that implies you expect to run into each other
 ### cheerio
 
 **Pronunciation:** /ˌtʃɪriˈoʊ/ &middot; *cheer-ee-OH*  
+**Русский:** бывай, всего! — устар., брит.; американец так «изображает англичанина»
 **Type:** primary &middot; **Register:** dated  
 **Variants:** *cheerio then*
 
@@ -671,6 +712,7 @@ A British goodbye that is dated even in Britain. An American who says it is doin
 ### ciao
 
 **Pronunciation:** /tʃaʊ/ &middot; *CHOW*  
+**Русский:** чао — ит.; в амер. англ. почти всегда «пока», а не «привет»
 **Type:** primary &middot; **Register:** informal  
 **Variants:** *ciao ciao*, *ciao for now*
 
@@ -687,6 +729,7 @@ Italian for both hello and goodbye; in American English it is almost always a go
 ### farewell
 
 **Pronunciation:** /ˌfɛrˈwɛl/ &middot; *fair-WELL*  
+**Русский:** прощай(те) — книжн., о долгой или окончательной разлуке
 **Type:** secondary &middot; **Register:** formal  
 **Variants:** *fare thee well*
 
@@ -703,6 +746,7 @@ A grand, literary goodbye that implies a long or permanent parting. In everyday 
 ### goodbye
 
 **Pronunciation:** /ˌɡʊdˈbaɪ/ &middot; *good-BYE*  
+**Русский:** до свидания, прощай — полная весомая форма bye, для настоящего расставания
 **Type:** primary &middot; **Register:** neutral  
 **Variants:** *good-bye*, *good bye*, *goodbye now*
 
@@ -719,6 +763,7 @@ The full, weightier form of *bye*, worn down over centuries from *God be with ye
 ### hasta la vista
 
 **Pronunciation:** /ˌɑstə lə ˈvistə/ &middot; *ah-stuh-luh-VEE-stuh*  
+**Русский:** аста ла виста, до встречи — исп., шутливо-киношное прощание
 **Type:** phrase &middot; **Register:** informal  
 **Variants:** *hasta luego*, *hasta*, *hasta la vista, baby*
 
@@ -735,6 +780,7 @@ Spanish for *until the seeing*, borrowed into English as a jokey, faintly theatr
 ### later
 
 **Pronunciation:** /ˈleɪtɚ/ &middot; *LAY-ter*  
+**Русский:** давай, бывай — очень разг. обрубок see you later
 **Type:** secondary &middot; **Register:** very informal  
 **Variants:** *laters*, *later on*, *later, dude*
 
@@ -751,6 +797,7 @@ A one-word goodbye clipped out of *see you later* and usually thrown over your s
 ### over and out
 
 **Pronunciation:** /ˌoʊvɚ ən ˈaʊt/ &middot; *oh-ver-and-OWT*  
+**Русский:** конец связи, приём-отбой — шутл. прощание «по-радийному»
 **Type:** phrase &middot; **Register:** informal
 
 A joking sign-off borrowed from radio procedure. Real operators never say it — *over* means "your turn to talk" and *out* means "I'm finished," so the two cancel each other — but Americans say it anyway to end a call or a message with a flourish.
@@ -766,6 +813,7 @@ A joking sign-off borrowed from radio procedure. Real operators never say it —
 ### peace out
 
 **Pronunciation:** /ˌpis ˈaʊt/ &middot; *pees-OWT*  
+**Русский:** бывай, мир — очень разг. прощание из хип-хопа 1990-х
 **Type:** phrase &middot; **Register:** very informal  
 **Variants:** *peace*, *peace, y'all*
 
@@ -782,6 +830,7 @@ A hip-hop-era goodbye that peaked in the 1990s and now sounds pleasantly retro, 
 ### sayonara
 
 **Pronunciation:** /ˌsaɪəˈnɑrə/ &middot; *sy-uh-NAH-ruh*  
+**Русский:** сайонара, прощай — яп.; часто с оттенком «и скатертью дорога»
 **Type:** primary &middot; **Register:** informal
 
 Japanese for goodbye, borrowed into casual American English with a note of finality — it often carries the sense *and good riddance*. In Japanese itself it is a fairly heavy farewell, not a daily one.
@@ -797,6 +846,7 @@ Japanese for goodbye, borrowed into casual American English with a note of final
 ### see you
 
 **Pronunciation:** /ˈsi ju/ &middot; *SEE-yoo*  
+**Русский:** увидимся, до встречи — обычное лёгкое прощание, часто с указанием времени
 **Type:** phrase &middot; **Register:** informal  
 **Variants:** *see ya*, *see you later*, *see ya later*, *see you soon*, *see you later, alligator*
 
@@ -813,6 +863,7 @@ The workhorse American casual goodbye, usually with a time attached: *see you Mo
 ### so long
 
 **Pronunciation:** /ˌsoʊ ˈlɔŋ/ &middot; *soh-LAWNG*  
+**Русский:** бывай, счастливо — устар., с оттенком грусти
 **Type:** phrase &middot; **Register:** dated  
 **Variants:** *so long now*
 
@@ -829,6 +880,7 @@ An old-fashioned goodbye with a wistful edge, common in mid-century American spe
 ### ta-ta
 
 **Pronunciation:** /ˌtɑˈtɑ/ &middot; *tah-TAH*  
+**Русский:** пока-пока, чао — устар., брит.; шутливо-жеманное прощание
 **Type:** primary &middot; **Register:** dated  
 **Variants:** *ta ta*, *ta-ta for now*, *TTFN*
 
@@ -845,6 +897,7 @@ A light, sing-song goodbye of British origin. Americans use it playfully or to s
 ### toodle-oo
 
 **Pronunciation:** /ˌtudəlˈu/ &middot; *too-dul-OO*  
+**Русский:** покеда, чао-какао — устар., шутл. прощание
 **Type:** primary &middot; **Register:** dated  
 **Variants:** *toodles*, *toodle-loo*, *toodaloo*
 
@@ -861,6 +914,7 @@ A frivolous, jokey goodbye that nobody says with a straight face anymore. The sh
 ### ttyl
 
 **Pronunciation:** /ˌti ti waɪ ˈɛl/ &middot; *tee-tee-why-EL*  
+**Русский:** спишемся, до связи — интернет-сокр. от talk to you later, только на письме
 **Type:** phrase &middot; **Register:** internet/text  
 **Variants:** *TTYL*, *ttys*
 
@@ -879,6 +933,7 @@ Short for *talk to you later*, a written sign-off out of the instant-messaging e
 ### be well
 
 **Pronunciation:** /ˌbi ˈwɛl/ &middot; *bee-WELL*  
+**Русский:** будь здоров, береги себя — мягкое, слегка книжн. прощание-пожелание
 **Type:** phrase &middot; **Register:** neutral  
 **Variants:** *stay well*, *be safe*
 
@@ -895,6 +950,7 @@ A gentle, slightly formal parting wish, common in email sign-offs, in health-car
 ### bon voyage
 
 **Pronunciation:** /ˌbɑn vwɑˈjɑʒ/, also /ˌbɑn vɔɪˈɑʒ/ &middot; *bahn-vwah-YAHZH, also bahn-voy-AHZH*  
+**Русский:** счастливого пути — фр., уезжающему в поездку
 **Type:** phrase &middot; **Register:** neutral
 
 French for *good journey*, said to someone leaving on a trip — especially a long or glamorous one. It is written on cards and frosted onto cakes at least as often as it is spoken.
@@ -910,6 +966,7 @@ French for *good journey*, said to someone leaving on a trip — especially a lo
 ### don't be a stranger
 
 **Pronunciation:** /ˌdoʊnt bi ə ˈstreɪndʒɚ/ &middot; *dohnt-bee-uh-STRAYN-jer*  
+**Русский:** не пропадай, заходи почаще — тёплое прощание «не теряйся»
 **Type:** phrase &middot; **Register:** informal  
 **Variants:** *don't be a stranger now*
 
@@ -926,6 +983,7 @@ A warm American parting formula meaning *stay in touch* — an invitation to cal
 ### drive safe
 
 **Pronunciation:** /ˌdraɪv ˈseɪf/ &middot; *drive-SAFE*  
+**Русский:** счастливо доехать, аккуратнее за рулём — садящемуся в машину
 **Type:** phrase &middot; **Register:** informal  
 **Variants:** *drive safely*, *drive careful*
 
@@ -942,6 +1000,7 @@ A very American parting formula, said to anyone getting into a car — especiall
 ### godspeed
 
 **Pronunciation:** /ˌɡɑdˈspid/ &middot; *gahd-SPEED*  
+**Русский:** в добрый час, с богом — книжн., перед трудным или опасным делом
 **Type:** secondary &middot; **Register:** formal  
 **Variants:** *God speed*
 
@@ -958,6 +1017,7 @@ A solemn wish for success and safety, said to someone setting out on something d
 ### good night
 
 **Pronunciation:** /ˌɡʊd ˈnaɪt/ &middot; *good-NITE*  
+**Русский:** спокойной ночи, доброй ночи — только при прощании, никогда при встрече
 **Type:** phrase &middot; **Register:** neutral  
 **Variants:** *goodnight*, *g'night*, *night*, *night-night*
 
@@ -974,6 +1034,7 @@ A farewell, not a greeting: you say it when leaving in the evening or heading to
 ### have a good one
 
 **Pronunciation:** /ˌhæv ə ˈɡʊd wʌn/ &middot; *hav-uh-GOOD-wun*  
+**Русский:** всего доброго — универсальное прощание без указания времени суток
 **Type:** phrase &middot; **Register:** informal  
 **Variants:** *have a good day*, *have a great one*, *have a good night*
 
@@ -990,6 +1051,7 @@ An all-purpose American sign-off that dodges naming the time of day — *one* st
 ### have a nice day
 
 **Pronunciation:** /ˌhæv ə ˌnaɪs ˈdeɪ/ &middot; *hav-uh-nice-DAY*  
+**Русский:** хорошего дня — дежурная формула сферы обслуживания; сухо — почти колкость
 **Type:** phrase &middot; **Register:** neutral  
 **Variants:** *have a nice one*, *have a great day*, *you have a nice day now*
 
@@ -1006,6 +1068,7 @@ The scripted American service goodbye — printed on receipts, required by more 
 ### nighty-night
 
 **Pronunciation:** /ˌnaɪti ˈnaɪt/ &middot; *ny-tee-NITE*  
+**Русский:** баиньки, спокойной ночки — детск., ласковое good night
 **Type:** primary &middot; **Register:** childish  
 **Variants:** *night-night*, *nite-nite*, *nighty-nite*
 
@@ -1022,6 +1085,7 @@ A cozy, sing-song *good night* used with small children and, teasingly, with adu
 ### safe travels
 
 **Pronunciation:** /ˌseɪf ˈtrævəlz/ &middot; *safe-TRAV-uhlz*  
+**Русский:** счастливого пути, лёгкой дороги — уезжающему
 **Type:** phrase &middot; **Register:** neutral  
 **Variants:** *safe flight*, *safe trip*, *travel safe*
 
@@ -1038,6 +1102,7 @@ A courteous parting wish for anyone about to travel, and the workplace-safe alte
 ### take care
 
 **Pronunciation:** /ˌteɪk ˈkɛr/ &middot; *take-KAIR*  
+**Русский:** береги себя, счастливо — тёплое прощание, уместное почти со всеми
 **Type:** phrase &middot; **Register:** neutral  
 **Variants:** *take care now*, *you take care*
 
@@ -1054,6 +1119,7 @@ A warm, faintly caring goodbye that works with friends, coworkers, and near-stra
 ### take it easy
 
 **Pronunciation:** /ˌteɪk ɪt ˈizi/ &middot; *take-it-EE-zee*  
+**Русский:** давай, не напрягайся; полегче, успокойся — прощание и призыв остыть
 **Type:** phrase &middot; **Register:** informal  
 **Variants:** *take 'er easy*, *easy now*
 
@@ -1070,6 +1136,7 @@ A relaxed goodbye between friends and acquaintances. Watch the second sense: sai
 ### until next time
 
 **Pronunciation:** /ənˌtɪl ˈnɛkst taɪm/ &middot; *un-til-NEKST-time*  
+**Русский:** до новых встреч — концовка передачи, подкаста, рассылки
 **Type:** phrase &middot; **Register:** neutral  
 **Variants:** *till next time*
 
@@ -1088,6 +1155,7 @@ A tidy closing formula for a performance, a podcast, a broadcast, or a newslette
 ### anytime
 
 **Pronunciation:** /ˈɛniˌtaɪm/ &middot; *EN-ee-time*  
+**Русский:** да не за что, обращайся — ответ на благодарность: «проси ещё»
 **Type:** secondary &middot; **Register:** informal  
 **Variants:** *any time*, *anytime at all*
 
@@ -1104,6 +1172,7 @@ A friendly answer to thanks that works by offering the favor a second time — i
 ### don't mention it
 
 **Pronunciation:** /ˌdoʊnt ˈmɛnʃən ɪt/ &middot; *dohnt-MEN-shun-it*  
+**Русский:** не стоит благодарности, да брось — скромный ответ на спасибо
 **Type:** phrase &middot; **Register:** neutral  
 **Variants:** *think nothing of it*, *forget it*
 
@@ -1120,6 +1189,7 @@ A modest reply to thanks that waves the favor off as too small to be worth count
 ### my pleasure
 
 **Pronunciation:** /maɪ ˈplɛʒɚ/ &middot; *my-PLEZH-er*  
+**Русский:** рад был помочь, всегда пожалуйста — учтивый ответ на спасибо
 **Type:** phrase &middot; **Register:** formal  
 **Variants:** *it's my pleasure*, *the pleasure is mine*
 
@@ -1136,6 +1206,7 @@ A gracious reply to thanks, standard in hotels, restaurants, and customer servic
 ### no problem
 
 **Pronunciation:** /ˌnoʊ ˈprɑbləm/ &middot; *noh-PRAH-blum*  
+**Русский:** без проблем, не вопрос — обычный ответ на спасибо; старшим слышится суховато
 **Type:** phrase &middot; **Register:** informal  
 **Variants:** *no prob*, *not a problem*, *no problemo*
 
@@ -1152,6 +1223,7 @@ The default American reply to thanks among speakers under about fifty, and also 
 ### no worries
 
 **Pronunciation:** /ˌnoʊ ˈwɝiz/ &middot; *noh-WUR-eez*  
+**Русский:** ничего страшного, не переживай — ответ и на спасибо, и на извинение
 **Type:** phrase &middot; **Register:** informal  
 **Variants:** *no worries at all*, *not to worry*
 
@@ -1168,6 +1240,7 @@ An Australian import that has settled all the way into American English, used to
 ### thank you
 
 **Pronunciation:** /ˌθæŋk ˈju/ &middot; *thank-YOO*  
+**Русский:** спасибо, благодарю — полная весомая форма; с нажимом на you — «ну вот, я же говорил»
 **Type:** phrase &middot; **Register:** neutral  
 **Variants:** *thank you very much*, *thank you so much*, *thank you kindly*, *many thanks*
 
@@ -1184,6 +1257,7 @@ The full form, and the one that carries weight: you use it for a real favor, in 
 ### thanks
 
 **Pronunciation:** /θæŋks/ &middot; *THANKS*  
+**Русский:** спасибо — лёгкая повседневная форма; thanks a lot ровным тоном — сарказм
 **Type:** secondary &middot; **Register:** neutral  
 **Variants:** *thanks so much*, *thanks a bunch*, *thanks again*, *appreciate it*, *thx* (text only)
 
@@ -1200,6 +1274,7 @@ The everyday American thank-you: lighter and quicker than *thank you*, and the d
 ### you bet
 
 **Pronunciation:** /ˌju ˈbɛt/ &middot; *yoo-BET*  
+**Русский:** да не за что; ещё бы, конечно — ответ на спасибо и бодрое «да» (Средний Запад)
 **Type:** phrase &middot; **Register:** informal  
 **Variants:** *you betcha*, *you bet you*
 
@@ -1216,6 +1291,7 @@ A hearty American reply to thanks, and equally a cheerful *yes* to a request or 
 ### you're welcome
 
 **Pronunciation:** /jʊr ˈwɛlkəm/ &middot; *yur-WEL-kum*  
+**Русский:** пожалуйста, не за что — стандартный ответ на спасибо; не путать с welcome
 **Type:** phrase &middot; **Register:** neutral  
 **Variants:** *you're very welcome*, *you're quite welcome*, *yer welcome*
 
@@ -1234,6 +1310,7 @@ The standard reply to *thank you*, and the one that is safe across every age and
 ### excuse me
 
 **Pronunciation:** /ɪkˈskjuz mi/ &middot; *ik-SKYOOZ-mee*  
+**Русский:** извините, простите — позвольте пройти, обращение к незнакомцу; с нажимом — возмущение
 **Type:** phrase &middot; **Register:** neutral  
 **Variants:** *'scuse me*, *excuse me a second*, *excuse you*
 
@@ -1250,6 +1327,7 @@ The hardest-working courtesy formula in American English, and it holds down at l
 ### my bad
 
 **Pronunciation:** /maɪ ˈbæd/ &middot; *my-BAD*  
+**Русский:** моя вина, мой косяк — разг. лёгкое признание мелкой оплошности
 **Type:** phrase &middot; **Register:** very informal  
 **Variants:** *that's my bad*, *my b*
 
@@ -1266,6 +1344,7 @@ A light, casual admission of a small mistake, out of 1980s pickup-basketball sla
 ### pardon me
 
 **Pronunciation:** /ˈpɑrdən ˌmi/ &middot; *PAR-dun-mee*  
+**Русский:** простите, прошу прощения — учтивее excuse me; одиночное pardon? — «что-что?»
 **Type:** phrase &middot; **Register:** neutral  
 **Variants:** *pardon*, *pardon me?*, *I beg your pardon*, *pardon my French*
 
@@ -1282,6 +1361,7 @@ A politer, older-sounding *excuse me*: it squeezes past people, apologizes for a
 ### please
 
 **Pronunciation:** /pliz/ &middot; *PLEEZ*  
+**Русский:** пожалуйста — маркер вежливой просьбы; отдельно — мольба или презр. «да ну брось»
 **Type:** secondary &middot; **Register:** neutral  
 **Variants:** *pretty please*, *please and thank you*
 
@@ -1298,6 +1378,7 @@ The politeness marker that turns an order into a request. Americans expect it in
 ### sorry
 
 **Pronunciation:** /ˈsɑri/ &middot; *SAH-ree*  
+**Русский:** извини(те), простите; сочувствую — и признание вины, и выражение соболезнования
 **Type:** secondary &middot; **Register:** neutral  
 **Variants:** *I'm sorry*, *so sorry*, *sorry about that*, *my apologies*
 
@@ -1316,6 +1397,7 @@ The all-purpose American apology, running from a real one all the way down to th
 ### bless you
 
 **Pronunciation:** /ˌblɛs ˈju/ &middot; *bles-YOO*  
+**Русский:** будь здоров! — говорят чихнувшему; в ответ — thank you
 **Type:** phrase &middot; **Register:** neutral  
 **Variants:** *God bless you*, *bless ya*
 
@@ -1332,6 +1414,7 @@ The automatic American response to somebody's sneeze — supplied by strangers o
 ### bon appétit
 
 **Pronunciation:** /ˌboʊn ˌæpəˈti/ &middot; *bohn-ap-uh-TEE*  
+**Русский:** приятного аппетита — фр.; своей формулы для этого момента в англ. нет
 **Type:** phrase &middot; **Register:** neutral  
 **Variants:** *bon appetit*
 
@@ -1348,6 +1431,7 @@ French for *good appetite*, said as the food reaches the table. English never se
 ### bottoms up
 
 **Pronunciation:** /ˌbɑtəmz ˈʌp/ &middot; *bah-tumz-UP*  
+**Русский:** до дна! — тост, когда пьют залпом
 **Type:** phrase &middot; **Register:** informal  
 **Variants:** *bottoms up!*, *down the hatch*, *drink up*
 
@@ -1364,6 +1448,7 @@ A toast that tells the table to empty the glass rather than sip at it, which is 
 ### break a leg
 
 **Pronunciation:** /ˌbreɪk ə ˈlɛɡ/ &middot; *brayk-uh-LEG*  
+**Русский:** ни пуха ни пера! — театральное пожелание удачи перед выступлением
 **Type:** phrase &middot; **Register:** informal  
 **Variants:** *break a leg out there*
 
@@ -1380,6 +1465,7 @@ The theater's way of wishing someone luck, built on the superstition that saying
 ### cheers
 
 **Pronunciation:** /tʃɪrz/ &middot; *CHEERZ*  
+**Русский:** за здоровье! будем! — в амер. англ. только тост, не «спасибо» и не «пока»
 **Type:** secondary &middot; **Register:** informal  
 **Variants:** *cheers to that*, *cheers, everyone*
 
@@ -1396,6 +1482,7 @@ In American English this is a drinking toast and almost nothing else — you say
 ### congratulations
 
 **Pronunciation:** /kənˌɡrætʃəˈleɪʃənz/ &middot; *kun-gra-chuh-LAY-shunz*  
+**Русский:** поздравляю! — по случаю чужой хорошей новости; congrats — разг. сокращение
 **Type:** secondary &middot; **Register:** neutral  
 **Variants:** *congrats*, *congratulations to you both*, *many congratulations*
 
@@ -1412,6 +1499,7 @@ The standard formula for somebody else's good news — an engagement, a baby, a 
 ### gesundheit
 
 **Pronunciation:** /ɡəˈzʊnthaɪt/ &middot; *guh-ZOONT-hite*  
+**Русский:** будь здоров! — нем.; светская замена bless you после чиханья
 **Type:** primary &middot; **Register:** neutral  
 **Variants:** *gezundheit*
 
@@ -1428,6 +1516,7 @@ German for *health*, used in American English as the secular alternative to *ble
 ### good luck
 
 **Pronunciation:** /ˌɡʊd ˈlʌk/ &middot; *good-LUK*  
+**Русский:** удачи! — перед экзаменом, игрой, операцией; good luck with that ровно — «ну-ну»
 **Type:** phrase &middot; **Register:** neutral  
 **Variants:** *best of luck*, *good luck out there*, *the best of luck to you*
 
@@ -1444,6 +1533,7 @@ The plain wish for anyone walking into a test, an interview, a game, or a surger
 ### happy birthday
 
 **Pronunciation:** /ˌhæpi ˈbɝθˌdeɪ/ &middot; *hap-ee-BURTH-day*  
+**Русский:** с днём рождения! — и вся серия happy ___: с праздником, с Новым годом
 **Type:** phrase &middot; **Register:** neutral  
 **Variants:** *happy birthday to you*, *happy anniversary*, *happy holidays*, *happy New Year*
 
@@ -1460,6 +1550,7 @@ The formula owed on the day itself — said in person, sung over a cake, and typ
 ### mazel tov
 
 **Pronunciation:** /ˈmɑzəl ˌtɔv/ &middot; *MAH-zul-tawv*  
+**Русский:** мазл тов, поздравляю! — ивр./идиш; поздравление с уже случившимся
 **Type:** phrase &middot; **Register:** neutral  
 **Variants:** *mazal tov*, *mazel tov to you both*
 

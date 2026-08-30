@@ -1,6 +1,6 @@
 # Parts of Speech
 
-The nine word classes of American English, one folder each. Every folder holds a grammar reference; four of them also hold a full dictionary of the words in that class.
+The nine word classes of American English, one folder each. Every folder holds a grammar reference; six of them also hold a dictionary of the words in that class.
 
 [← Back to the library](../README.md) &middot; [Pronunciation guide](../10-pronunciation/README.md)
 
@@ -9,11 +9,11 @@ The nine word classes of American English, one folder each. Every folder holds a
 | # | Class | Grammar reference | Dictionary |
 |---|---|---|---|
 | 1 | Nouns | [01-nouns](01-nouns/README.md) | — |
-| 2 | Pronouns | [02-pronouns](02-pronouns/README.md) | — |
-| 3 | Verbs | [03-verbs](03-verbs/README.md) | — |
+| 2 | Pronouns | [02-pronouns](02-pronouns/README.md) | **[512 entries](02-pronouns/catalog/README.md)** &middot; [browse](02-pronouns/catalog/browse.html) |
+| 3 | Verbs | [03-verbs](03-verbs/README.md) | **[1,291 verbs](03-verbs/catalog/README.md)** &middot; [browse](03-verbs/catalog/browse.html) |
 | 4 | Adjectives | [04-adjectives](04-adjectives/README.md) | — |
 | 5 | Adverbs | [05-adverbs](05-adverbs/README.md) | — |
-| 6 | Prepositions | [06-prepositions](06-prepositions/README.md) | **[584 entries](06-prepositions/catalog/README.md)** &middot; [browse](06-prepositions/catalog/browse.html) |
+| 6 | Prepositions | [06-prepositions](06-prepositions/README.md) | **[1,297 entries](06-prepositions/catalog/README.md)** &middot; [browse](06-prepositions/catalog/browse.html) |
 | 7 | Conjunctions | [07-conjunctions](07-conjunctions/README.md) | **[816 entries](07-conjunctions/catalog/README.md)** &middot; [browse](07-conjunctions/catalog/browse.html) |
 | 8 | Interjections | [08-interjections](08-interjections/README.md) | **[1,602 entries](08-interjections/catalog/README.md)** &middot; [browse](08-interjections/catalog/browse.html) |
 | 9 | Determiners | [09-determiners](09-determiners/README.md) | **[415 entries](09-determiners/catalog/README.md)** &middot; [browse](09-determiners/catalog/browse.html) |
@@ -24,7 +24,7 @@ Traditional grammar counts eight parts of speech and files *the*, *my*, *some*, 
 
 Every folder has a `README.md` covering the same ten sections: what the class does, its types, forms and inflection, position and word order, rules and patterns, common mistakes, American English notes, tricky cases, a quick reference, and practice exercises with answers.
 
-Four folders also have a `catalog/` subfolder — the **lexicon** rather than the grammar. These are the four **closed classes**, where the full list of words is finite and can actually be written down:
+Five folders also have a `catalog/` subfolder — the **lexicon** rather than the grammar. These are the five **closed classes**, where the full list of words is finite and can actually be written down:
 
 ```
 07-conjunctions/
@@ -36,7 +36,7 @@ Four folders also have a `catalog/` subfolder — the **lexicon** rather than th
     data/            the same entries as JSON
 ```
 
-Nouns, verbs, adjectives, and adverbs get no dictionary because they are **open classes** — new ones enter the language constantly, so no list could ever be complete. Pronouns are closed but small enough that the grammar reference covers them in full.
+Nouns, adjectives, and adverbs get no dictionary because they are **open classes** — new ones enter the language constantly, so no list could ever be complete. The five closed classes each have one. **Verbs** are an open class, but the *irregular* ones are a finite set, so they get a catalog of their own.
 
 ## Suggested reading order
 

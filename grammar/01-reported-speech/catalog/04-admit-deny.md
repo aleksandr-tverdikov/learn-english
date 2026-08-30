@@ -9,6 +9,7 @@ These verbs report a speaker's stance toward a fact rather than the fact itself 
 ### accept
 
 **Pronunciation:** /əkˈsɛpt/ &middot; *uhk-SEPT*
+**Русский:** признать, принять — согласиться с тем, чему сопротивлялся; вины не подразумевает
 **Type:** reporting verb — concession &middot; **Register:** neutral
 **Patterns:** *accept* + **that**-clause &middot; *accept* + noun phrase &middot; *accept* + noun phrase + **as** + noun phrase / adjective &middot; passive *it is accepted that*
 **Never:** ***accept to do something*** — *accept* takes no *to*-infinitive in any of its senses, and ✗*She accepted to help* is the most persistent error made with this verb by speakers of French, Spanish, and Italian. Repairs: *agreed to help*, *accepted the job*, *accepted that she had to help*. Also ***accept me that*** — no personal object stands before the clause.
@@ -28,6 +29,7 @@ These verbs report a speaker's stance toward a fact rather than the fact itself 
 ### acknowledge
 
 **Pronunciation:** /ækˈnɑlɪdʒ/ &middot; *ak-NAH-lij*
+**Русский:** признать — официально подтвердить, что нечто так; самое нейтральное в ряду, без вины
 **Type:** reporting verb — admission &middot; **Register:** neutral to formal
 **Patterns:** *acknowledge* + **that**-clause &middot; *acknowledge* + **-ing** &middot; *acknowledge* + noun phrase &middot; *acknowledge* + noun phrase + **as** / **to be** &middot; *acknowledge* + **wh**-clause &middot; *acknowledge* + **to sb** + **that**-clause &middot; passive *it is acknowledged that*
 **Never:** ***acknowledge to do something*** and ***acknowledge me that*** — there is no *to*-infinitive after this verb, and the listener needs a preposition: ✓*acknowledged to me that he was late*, ✓*acknowledged being late*.
@@ -48,6 +50,7 @@ These verbs report a speaker's stance toward a fact rather than the fact itself 
 ### admit
 
 **Pronunciation:** /ədˈmɪt/ &middot; *uhd-MIT*
+**Русский:** признать, сознаться — уступить в том, что говорит против тебя; вина подразумевается
 **Type:** reporting verb — admission &middot; **Register:** neutral
 **Patterns:** *admit* + **that**-clause &middot; *admit* + **-ing** &middot; *admit* + **to** + **-ing** &middot; *admit* + noun phrase &middot; *admit* + **to** + noun phrase &middot; *admit* + **to sb** + **that**-clause &middot; *admit* + **wh**-clause &middot; passive *it is admitted that* &middot; (unrelated senses: *admit* + sb + **to** + noun phrase "let in"; *admit* + **of** + noun phrase "leave room for")
 **Never:** ***admit to do something*** and ***admit to have done something*** — the complement is an *-ing* form or a *that*-clause, never an infinitive. ✗*He admitted to take the money.* ✗*He admitted to have taken the money.* ✓*He admitted taking the money.* ✓*He admitted that he had taken the money.* Also ***admit me that*** — the listener needs *to*: ✓*admitted to me that*.
@@ -81,6 +84,7 @@ These verbs report a speaker's stance toward a fact rather than the fact itself 
 ### allow
 
 **Pronunciation:** /əˈlaʊ/ &middot; *uh-LOW* — the second syllable rhymes with *now*, not with *low*
+**Русский:** признать, допустить — книжн., устар.: спокойно уступить пункт; обиходный глагол — concede
 **Type:** reporting verb — concession &middot; **Register:** formal and somewhat dated in this sense; the everyday *allow* is the permission verb
 **Patterns:** *allow* + **that**-clause &middot; *allow* + **of** + noun phrase (*allows of no exception*) &middot; (in its unrelated permission sense: *allow* + sb + **to**-infinitive, *allow* + **-ing**, *allow* + noun phrase)
 **Never:** in the concession sense, ***allow to do*** and ***allow -ing*** are both impossible — ✗*I allow to be wrong*, ✗*I allow being wrong*, ✓*I allow that I was wrong*. Also ***allow me that he was right***: no personal object stands before the clause. Take care with *allow* + sb + **to**-infinitive, which is perfectly grammatical but is the other verb — *I allow him to be right* grants him permission and concedes nothing.
@@ -102,6 +106,7 @@ These verbs report a speaker's stance toward a fact rather than the fact itself 
 ### announce
 
 **Pronunciation:** /əˈnaʊns/ &middot; *uh-NOWNSS*
+**Русский:** объявить, огласить — сделать нечто публичным и официальным
 **Type:** reporting verb — public statement, often a revelation &middot; **Register:** neutral
 **Patterns:** *announce* + **that**-clause &middot; *announce* + noun phrase &middot; *announce* + **wh**-clause &middot; *announce* + noun phrase + **to sb** &middot; *announce* + **to sb** + **that**-clause &middot; passive *it was announced that*
 **Never:** ***announce me the news*** and ***announce me that*** — *announce* never takes a bare indirect object, and the audience always goes into a *to*-phrase. ✗*She announced us the results.* ✓*She announced the results to us.* ✓*She announced to us that the results were in.* Also ***announce to do***.
@@ -122,6 +127,7 @@ These verbs report a speaker's stance toward a fact rather than the fact itself 
 ### betray
 
 **Pronunciation:** /bɪˈtreɪ/ &middot; *bih-TRAY*
+**Русский:** выдать, невольно обнаружить — о голосе, лице, паузе: показать то, что скрывали
 **Type:** reporting verb — unintentional revelation &middot; **Register:** neutral to literary
 **Patterns:** *betray* + noun phrase &middot; *betray* + **the fact that** &middot; *betray* + **wh**-clause &middot; *betray* + **no** / **little** + noun phrase &middot; *betray* + oneself
 **Never:** ***betray that he was nervous*** — the bare *that*-clause is dispreferred in careful writing; use a noun phrase or the *the fact that* bridge: ✓*betrayed his nervousness*, ✓*betrayed the fact that he was nervous*. Also ***betray to do***, ***betray -ing***, and ***betray me that***.
@@ -142,6 +148,7 @@ These verbs report a speaker's stance toward a fact rather than the fact itself 
 ### blurt out
 
 **Pronunciation:** /ˈblɜrt ˈaʊt/ &middot; *BLURT OWT*
+**Русский:** выпалить, ляпнуть — сказать сгоряча, не подумав, то, что собирался утаить
 **Type:** reporting verb — unintentional revelation &middot; **Register:** neutral, leaning informal
 **Patterns:** *blurt out* + **that**-clause &middot; *blurt out* + noun phrase &middot; *blurt* + noun phrase + *out* &middot; *blurt out* + **wh**-clause &middot; *blurt out* + direct quotation
 **Never:** ***blurt out to do***, ***blurt out -ing***, and ***blurt me out that***. The particle also cannot follow a pronoun object: ✗*blurted out it*, ✓*blurted it out*.
@@ -163,6 +170,7 @@ These verbs report a speaker's stance toward a fact rather than the fact itself 
 ### come clean
 
 **Pronunciation:** /kʌm ˈklin/ &middot; *kum KLEEN*
+**Русский:** признаться начистоту — разг.: наконец сказать правду после долгого сокрытия
 **Type:** reporting verb — admission &middot; **Register:** informal
 **Patterns:** *come clean* (no complement) &middot; *come clean* + **about** + noun phrase &middot; *come clean* + **about** + **-ing** &middot; *come clean* + **with sb** &middot; *come clean* + **to sb** + **about**
 **Never:** ***come clean that he had lied*** — the idiom takes no *that*-clause at all. Repairs: *came clean about lying*, *admitted that he had lied*. Also ***come clean to do*** and ***come clean the truth*** — there is no direct object either.
@@ -183,6 +191,7 @@ These verbs report a speaker's stance toward a fact rather than the fact itself 
 ### concede
 
 **Pronunciation:** /kənˈsid/ &middot; *kuhn-SEED*
+**Русский:** уступить, признать — сдать пункт под давлением; предполагает предшествующий спор
 **Type:** reporting verb — concession &middot; **Register:** neutral to formal
 **Patterns:** *concede* + **that**-clause &middot; *concede* + noun phrase &middot; *concede* + noun phrase + **to sb** &middot; *concede* + **to sb** + **that**-clause &middot; passive *it is conceded that*
 **Never:** ***concede to do*** and ***concede me that*** — the listener needs *to*: ✓*conceded to reporters that the race was over*. The bare *-ing* that [admit](#admit) takes so easily is unnatural here: ✗*conceded making a mistake*, ✓*conceded that he had made a mistake*. The **wh**-clause is shaky too — *He would not concede how much it had cost* wants *admit*.
@@ -203,6 +212,7 @@ These verbs report a speaker's stance toward a fact rather than the fact itself 
 ### confess
 
 **Pronunciation:** /kənˈfɛs/ &middot; *kuhn-FESS*
+**Русский:** сознаться, признаться в вине — в том, за что могут осудить или наказать
 **Type:** reporting verb — admission of guilt &middot; **Register:** neutral to formal
 **Patterns:** *confess* + **that**-clause &middot; *confess* + **to** + **-ing** &middot; *confess* + **to** + noun phrase &middot; *confess* + noun phrase &middot; *confess* + noun phrase + **to sb** &middot; *confess* + **to sb** &middot; *confess* + **to sb** + **that**-clause &middot; *confess* (no complement)
 **Never:** ***confess to do*** — the *to* is a preposition, so no infinitive can follow it: ✗*confessed to steal the car*, ✓*confessed to stealing the car*. Also ***confess me that***, which needs *to*: ✓*confessed to her that*. The bare *-ing* without *to* is possible but dispreferred — *confessed to taking it* beats *confessed taking it*.
@@ -223,6 +233,7 @@ These verbs report a speaker's stance toward a fact rather than the fact itself 
 ### confide
 
 **Pronunciation:** /kənˈfaɪd/ &middot; *kuhn-FYDE*
+**Русский:** поделиться по секрету, довериться — рассказать личное с условием, что не разгласят
 **Type:** reporting verb — private revelation &middot; **Register:** neutral
 **Patterns:** *confide* + **that**-clause &middot; *confide* + **in sb** &middot; *confide* + **in sb** + **that**-clause &middot; *confide* + **in sb** + **about** + noun phrase &middot; *confide* + noun phrase + **to sb** &middot; *confide* + **to sb** + **that**-clause
 **Never:** ***confide me that*** and ***confide me the news*** — the listener takes *in* or *to*, never a bare object. ✓*confided in me that*, ✓*confided to me that*, ✓*confided her plans to me*. Also ***confide to do*** and ***confide -ing***.
@@ -243,6 +254,7 @@ These verbs report a speaker's stance toward a fact rather than the fact itself 
 ### contradict
 
 **Pronunciation:** /ˌkɑntrəˈdɪkt/ &middot; *kahn-truh-DIKT*
+**Русский:** возразить, уличить в неправде — дополнение здесь лицо, а не утверждение (ср. deny)
 **Type:** reporting verb — denial of someone else's statement &middot; **Register:** neutral
 **Patterns:** *contradict* + sb &middot; *contradict* + noun phrase &middot; *contradict* + oneself &middot; passive *be contradicted by*
 **Never:** ***contradict that*** — no *that*-clause of any kind. ✗*He contradicted that he had been there.* Use [deny](#deny) for a speaker's denial about himself (*He denied that he had been there*), and *contradict* plus a noun phrase for the rejection of somebody else's statement (*He contradicted her account*). Also ***contradict to do***, ***contradict -ing***, and ***contradict me that***.
@@ -262,6 +274,7 @@ These verbs report a speaker's stance toward a fact rather than the fact itself 
 ### deny
 
 **Pronunciation:** /dɪˈnaɪ/ &middot; *dih-NY*
+**Русский:** отрицать — заявлять, что обвинение ложно; другое значение — «отказать кому-л. в чём-л.»
 **Type:** reporting verb — denial &middot; **Register:** neutral
 **Patterns:** *deny* + **that**-clause &middot; *deny* + **-ing** &middot; *deny* + **having** + past participle &middot; *deny* + noun phrase &middot; *deny* + **it** &middot; passive *it is denied that*
 **Never:** ***deny to do something*** — the commonest error made with this verb anywhere. ✗*He denied to take the money.* ✓*He denied taking the money.* ✓*He denied that he had taken the money.* There is no *to*-infinitive after *deny* in any sense, and no *to* + *-ing* either: ✗*denied to taking it*. Also ***deny me that he was there*** — no personal object stands before the clause.
@@ -289,6 +302,7 @@ Only the first reports speech. *They denied her access to the file* reports no s
 ### disavow
 
 **Pronunciation:** /ˌdɪsəˈvaʊ/ &middot; *diss-uh-VOW*
+**Русский:** отмежеваться, отречься — книжн.: публично отвергнуть свою связь с чем-либо
 **Type:** reporting verb — denial of connection &middot; **Register:** formal
 **Patterns:** *disavow* + noun phrase &middot; *disavow* + **any** / **all** + noun phrase &middot; *disavow* + noun phrase + **as** + noun phrase / adjective &middot; passive *be disavowed by*
 **Never:** ***disavow that***, ***disavow -ing***, ***disavow to do***, and ***disavow me sth***. The verb takes a noun phrase and nothing else: ✗*He disavowed that he had written it*, ✓*He disavowed the letter*, ✓*He denied writing it*.
@@ -308,6 +322,7 @@ Only the first reports speech. *They denied her access to the file* reports no s
 ### disclaim
 
 **Pronunciation:** /dɪsˈkleɪm/ &middot; *diss-KLAYM*
+**Русский:** снять с себя ответственность, отказаться от притязаний — юр., офиц.; ср. сущ. disclaimer
 **Type:** reporting verb — denial of responsibility &middot; **Register:** formal, especially legal
 **Patterns:** *disclaim* + noun phrase &middot; *disclaim* + **all** / **any** + noun phrase &middot; passive *be disclaimed*
 **Never:** ***disclaim that***, ***disclaim -ing***, ***disclaim to do***, and ***disclaim me sth***. The object is always a noun: ✗*disclaimed that he was responsible*, ✓*disclaimed responsibility*.
@@ -327,6 +342,7 @@ Only the first reports speech. *They denied her access to the file* reports no s
 ### disclose
 
 **Pronunciation:** /dɪsˈkloʊz/ &middot; *diss-KLOHZ*
+**Русский:** раскрыть, разгласить — офиц., юр.: сообщить то, что обязан был или мог не сообщать
 **Type:** reporting verb — revelation &middot; **Register:** formal, especially legal and financial
 **Patterns:** *disclose* + **that**-clause &middot; *disclose* + noun phrase &middot; *disclose* + **wh**-clause &middot; *disclose* + noun phrase + **to sb** &middot; *disclose* + **to sb** + **that**-clause &middot; passive *it was disclosed that*
 **Never:** ***disclose me the terms*** — no double object; the recipient takes *to*: ✓*disclosed the terms to us*. Also ***disclose to do***, ***disclose -ing***, and ***disclose me that***.
@@ -347,6 +363,7 @@ Only the first reports speech. *They denied her access to the file* reports no s
 ### dispute
 
 **Pronunciation:** /dɪˈspjut/ &middot; *dih-SPYOOT* as a verb; the noun is usually /ˈdɪspjut/ &middot; *DISS-pyoot*
+**Русский:** оспаривать — заявлять, что утверждение спорно, а не прямо ложное (ср. deny)
 **Type:** reporting verb — denial &middot; **Register:** neutral to formal
 **Patterns:** *dispute* + **that**-clause &middot; *dispute* + noun phrase &middot; *dispute* + **wh**-clause &middot; *dispute* + **whether**-clause &middot; passive *be disputed*
 **Never:** ***dispute to do***, ***dispute -ing***, and ***dispute me that***. ✗*He disputed having said it*, ✓*He disputed that he had said it*, ✓*He denied saying it*.
@@ -367,6 +384,7 @@ Only the first reports speech. *They denied her access to the file* reports no s
 ### divulge
 
 **Pronunciation:** /dɪˈvʌldʒ/ &middot; *dih-VULJ*; also /daɪˈvʌldʒ/ &middot; *dy-VULJ*
+**Русский:** разгласить, выдать — книжн.: сообщить то, что должно было остаться в тайне
 **Type:** reporting verb — revelation &middot; **Register:** formal, faintly literary
 **Patterns:** *divulge* + noun phrase &middot; *divulge* + **that**-clause &middot; *divulge* + **wh**-clause &middot; *divulge* + noun phrase + **to sb** &middot; *divulge* + **to sb** + **that**-clause &middot; passive *be divulged*
 **Never:** ***divulge me the details*** and ***divulge me that*** — no double object, and the recipient always takes *to*: ✓*divulged the details to me*, ✓*divulged to me that*. Also ***divulge to do*** and ***divulge -ing***.
@@ -388,6 +406,7 @@ Only the first reports speech. *They denied her access to the file* reports no s
 ### expose
 
 **Pronunciation:** /ɪkˈspoʊz/ &middot; *ik-SPOHZ*
+**Русский:** разоблачить — вскрыть скрываемое, во вред тому, кого разоблачают
 **Type:** reporting verb — hostile revelation &middot; **Register:** neutral, journalistic
 **Patterns:** *expose* + noun phrase &middot; *expose* + noun phrase + **as** + noun phrase / adjective &middot; *expose* + **the fact that** &middot; *expose* + **wh**-clause &middot; passive *be exposed as*
 **Never:** ***expose that the reports were falsified*** — the bare *that*-clause is dispreferred in careful American writing. Repairs: *revealed that the reports were falsified*, *exposed the falsified reports*, *exposed the fact that the reports were falsified*. Also ***expose to do***, ***expose -ing***, and ***expose me that***.
@@ -407,6 +426,7 @@ Only the first reports speech. *They denied her access to the file* reports no s
 ### fess up
 
 **Pronunciation:** /ˈfɛs ˈʌp/ &middot; *FESS UP*
+**Русский:** сознаться, повиниться — разг., амер.: усечённое от confess, о мелком проступке
 **Type:** reporting verb — admission &middot; **Register:** informal, American
 **Patterns:** *fess up* (no complement) &middot; *fess up* + **to** + noun phrase &middot; *fess up* + **to** + **-ing** &middot; *fess up* + **about** + noun phrase &middot; *fess up* + **to sb**
 **Never:** ***fess up that he took it*** — no *that*-clause; say *fessed up to taking it*, or move to plain *admitted that he took it*. Also ***fess up to do*** (the *to* is a preposition) and ***fess up the truth*** — there is no direct object.
@@ -427,6 +447,7 @@ Only the first reports speech. *They denied her access to the file* reports no s
 ### give away
 
 **Pronunciation:** /ˌɡɪv əˈweɪ/ &middot; *giv uh-WAY*
+**Русский:** выдать, проболтаться — нечаянно раскрыть тайну; тж. выдать концовку, заспойлерить
 **Type:** reporting verb — unintentional revelation &middot; **Register:** neutral, leaning informal
 **Patterns:** *give away* + noun phrase &middot; *give* + noun phrase + *away* &middot; *give* + oneself + *away* &middot; *give away* + **the fact that** &middot; *give away* + **wh**-clause
 **Never:** the particle cannot follow a pronoun — ✗*gave away it*, ✓*gave it away*. A bare *that*-clause is dispreferred too: ✗*His face gave away that he knew*, ✓*His face gave away the fact that he knew*, ✓*His face gave him away*. Also ***give away to do*** and ***give away -ing***.
@@ -447,6 +468,7 @@ Only the first reports speech. *They denied her access to the file* reports no s
 ### grant
 
 **Pronunciation:** /ɡrænt/ &middot; *GRANT* — British English has the broad *a*, *GRAHNT*
+**Русский:** признать, согласиться — уступить пункт мимоходом, обычно перед «но»
 **Type:** reporting verb — concession &middot; **Register:** neutral, mostly in fixed frames
 **Patterns:** *grant* + **that**-clause &middot; *grant* + sb + **that**-clause &middot; *grant* + noun phrase (*grant the point*) &middot; *grant* + sb + noun phrase (*I'll grant you that much*) &middot; *granted (that)* as a concessive opener &middot; *granting that* in a participial phrase
 **Never:** ***grant to do*** and ***grant -ing*** — ✗*He granted to be wrong*, ✗*He granted being wrong*, ✓*He granted that he was wrong*. Take care with *grant* + sb + noun phrase, which is two verbs at once: with a concessive object it is this one (*I'll grant you that much*, *I'll grant you the point*), but with a thing handed over it is the other *grant* (*The court granted him bail*), which reports no speech at all.
@@ -466,6 +488,7 @@ Only the first reports speech. *They denied her access to the file* reports no s
 ### hint
 
 **Pronunciation:** /hɪnt/ &middot; *HINT*
+**Русский:** намекнуть — указать на что-то, не называя прямо; без злого умысла, ср. insinuate
 **Type:** reporting verb — indirect statement &middot; **Register:** neutral
 **Patterns:** *hint* + **that**-clause &middot; *hint* + **at** + noun phrase &middot; *hint* + **at** + **-ing** &middot; *hint* + **about** + noun phrase &middot; *hint* + **to sb** + **that**-clause &middot; *hint* + **broadly** / **heavily**
 **Never:** ***hint his resignation*** — *hint* takes no direct object, and the thing hinted at needs *at*: ✓*hinted at his resignation*. Also ***hint me that*** → ✓*hinted to me that*, and ***hint to do***.
@@ -485,6 +508,7 @@ Only the first reports speech. *They denied her access to the file* reports no s
 ### imply
 
 **Pronunciation:** /ɪmˈplaɪ/ &middot; *im-PLY*
+**Русский:** подразумевать, давать понять — говорящий implies, слушающий infers (это не синонимы)
 **Type:** reporting verb — indirect statement &middot; **Register:** neutral
 **Patterns:** *imply* + **that**-clause &middot; *imply* + noun phrase &middot; passive *it is implied that*
 **Never:** ***imply me that*** — there is no bare personal object, and even the prepositional *implied to me that* is stiff where *suggested to me that* is ordinary. Also ***imply to do*** and ***imply -ing***.
@@ -511,6 +535,7 @@ Only the first reports speech. *They denied her access to the file* reports no s
 ### indicate
 
 **Pronunciation:** /ˈɪndɪˌkeɪt/ &middot; *IN-dih-kayt*
+**Русский:** указывать на, свидетельствовать — о данных; о человеке — обтекаемо дать понять
 **Type:** reporting verb — evidential statement &middot; **Register:** neutral to formal
 **Patterns:** *indicate* + **that**-clause &middot; *indicate* + noun phrase &middot; *indicate* + **wh**-clause &middot; *indicate* + **to sb** + **that**-clause &middot; passive *it is indicated that*
 **Never:** ***indicate me that*** → ✓*indicated to me that*. Also ***indicate to do*** and ***indicate -ing***.
@@ -531,6 +556,7 @@ Only the first reports speech. *They denied her access to the file* reports no s
 ### insinuate
 
 **Pronunciation:** /ɪnˈsɪnjuˌeɪt/ &middot; *in-SIN-yoo-ayt*
+**Русский:** намекать со злым умыслом, инсинуировать — бросать тень, оставляя путь к отступлению
 **Type:** reporting verb — hostile implication &middot; **Register:** neutral to formal
 **Patterns:** *insinuate* + **that**-clause &middot; *insinuate* + noun phrase (rare) &middot; *insinuate* + **to sb** + **that**-clause &middot; (in an unrelated sense: *insinuate oneself into*)
 **Never:** ***insinuate me that*** → ✓*insinuated to me that*. Also ***insinuate to do*** and ***insinuate -ing***.
@@ -550,6 +576,7 @@ Only the first reports speech. *They denied her access to the file* reports no s
 ### intimate
 
 **Pronunciation:** /ˈɪntɪˌmeɪt/ &middot; *IN-tih-mayt* — the verb has three full syllables and ends in /eɪt/; the unrelated adjective is /ˈɪntɪmɪt/ &middot; *IN-tih-mit*
+**Русский:** дать понять, намекнуть — книжн.: глагол произносится /ˈɪntɪmeɪt/, не как прилагательное
 **Type:** reporting verb — indirect statement &middot; **Register:** formal, literary
 **Patterns:** *intimate* + **that**-clause &middot; *intimate* + noun phrase (rare) &middot; *intimate* + **to sb** + **that**-clause
 **Never:** ***intimate me that*** → ✓*intimated to me that*. Also ***intimate to do*** and ***intimate -ing***.
@@ -569,6 +596,7 @@ Only the first reports speech. *They denied her access to the file* reports no s
 ### leak
 
 **Pronunciation:** /lik/ &middot; *LEEK*
+**Русский:** слить (информацию) — журн.: без разрешения передать сведения, обычно прессе
 **Type:** reporting verb — unauthorized revelation &middot; **Register:** neutral, journalistic
 **Patterns:** *leak* + noun phrase &middot; *leak* + noun phrase + **to sb** &middot; *leak* + **that**-clause &middot; passive *be leaked to*
 **Never:** ***leak the reporter the memo*** — no double object; the recipient takes *to*: ✓*leaked the memo to the reporter*. Also ***leak to do*** and ***leak -ing***.
@@ -588,6 +616,7 @@ Only the first reports speech. *They denied her access to the file* reports no s
 ### let on
 
 **Pronunciation:** /ˌlɛt ˈɑn/ &middot; *let AHN*
+**Русский:** подать вид, проговориться — разг., чаще с отрицанием: «и виду не подал»
 **Type:** reporting verb — revelation, usually under negation &middot; **Register:** informal
 **Patterns:** *let on* + **that**-clause &middot; *let on* + **wh**-clause &middot; *let on* (no complement) &middot; *let on* + **about** + noun phrase &middot; *let on* + **to sb** + **that**-clause
 **Never:** ***let on sb that*** → ✓*let on to anyone that*. Also ***let on to do***, ***let on -ing***, and no direct object: ✗*He let on the secret*, ✓*He let the secret slip*, ✓*He let on that he knew*.
@@ -609,6 +638,7 @@ Only the first reports speech. *They denied her access to the file* reports no s
 ### let slip
 
 **Pronunciation:** /ˌlɛt ˈslɪp/ &middot; *let SLIP*
+**Русский:** проговориться, обронить — нечаянно выдать факт, часто сам того не заметив
 **Type:** reporting verb — accidental revelation &middot; **Register:** neutral
 **Patterns:** *let slip* + **that**-clause &middot; *let slip* + noun phrase &middot; *let* + noun phrase + *slip* &middot; *let* + **it** + *slip* + **that**-clause &middot; *let slip* + **to sb** + **that**-clause
 **Never:** ***let slip to do***, ***let slip -ing***, and ***let slip me that*** → ✓*let slip to me that*. A pronoun object cannot follow *slip*: ✗*let slip it*, ✓*let it slip*.
@@ -629,6 +659,7 @@ Only the first reports speech. *They denied her access to the file* reports no s
 ### own up to
 
 **Pronunciation:** /ˈoʊn ˈʌp tə/ &middot; *OHN UP tuh* — the *to* reduces to a schwa before a verb or a consonant
+**Русский:** признаться, повиниться — разг.: сознаться в вине после попыток уйти от ответа
 **Type:** reporting verb — admission &middot; **Register:** informal to neutral
 **Patterns:** *own up* (no complement) &middot; *own up* + **to** + noun phrase &middot; *own up* + **to** + **-ing** &middot; *own up* + **to sb** &middot; (literary, without the particle: *own* + **that**-clause)
 **Never:** ***own up to do*** — the *to* is a preposition, so what follows it is a noun or an *-ing* form: ✗*owned up to take the money*, ✓*owned up to taking the money*. The *that*-clause is not available either: ✗*He owned up that he had lied*, ✓*He owned up to lying*, ✓*He admitted that he had lied*.
@@ -649,6 +680,7 @@ Only the first reports speech. *They denied her access to the file* reports no s
 ### rebut
 
 **Pronunciation:** /rɪˈbʌt/ &middot; *rih-BUT*
+**Русский:** возражать, приводить контрдоводы — юр., книжн.: отвечать на обвинение доводами
 **Type:** reporting verb — denial with argument &middot; **Register:** formal, especially legal and academic
 **Patterns:** *rebut* + noun phrase &middot; *rebut* + **the claim / charge / argument that** &middot; *rebut* (no complement, in debate) &middot; passive *be rebutted*
 **Never:** ***rebut that he was involved*** — no bare *that*-clause; the verb needs a noun phrase, and *the claim that* is the usual bridge: ✓*rebutted the claim that he was involved*. Also ***rebut to do***, ***rebut -ing***, and ***rebut me that***.
@@ -669,6 +701,7 @@ Only the first reports speech. *They denied her access to the file* reports no s
 ### recant
 
 **Pronunciation:** /rɪˈkænt/ &middot; *rih-KANT*
+**Русский:** отречься от своих слов — книжн.: публично взять назад показания или убеждения
 **Type:** reporting verb — withdrawal of a statement &middot; **Register:** formal
 **Patterns:** *recant* + noun phrase &middot; *recant* (no complement) &middot; passive *be recanted*
 **Never:** ***recant that***, ***recant -ing***, ***recant to do***, and ***recant me sth***. ✗*He recanted that he had seen her*, ✓*He recanted his statement*, ✓*He recanted*.
@@ -688,6 +721,7 @@ Only the first reports speech. *They denied her access to the file* reports no s
 ### refute
 
 **Pronunciation:** /rɪˈfjut/ &middot; *rih-FYOOT*
+**Русский:** опровергнуть — доказать ложность утверждения; не «отрицать», для этого deny
 **Type:** reporting verb — disproof &middot; **Register:** formal
 **Patterns:** *refute* + noun phrase &middot; *refute* + **the claim / allegation that** &middot; passive *be refuted*
 **Never:** ***refute that he was involved*** — no bare *that*-clause. ✓*refuted the allegation that he was involved*; or, if a simple denial is what you mean, ✓*denied that he was involved*. Also ***refute to do***, ***refute -ing***, and ***refute me that***.
@@ -716,6 +750,7 @@ Only the first reports speech. *They denied her access to the file* reports no s
 ### retract
 
 **Pronunciation:** /rɪˈtrækt/ &middot; *rih-TRAKT*
+**Русский:** отозвать, взять назад — офиц.: отказаться от сказанного или опубликованного
 **Type:** reporting verb — withdrawal of a statement &middot; **Register:** neutral to formal
 **Patterns:** *retract* + noun phrase &middot; passive *be retracted*
 **Never:** ***retract that***, ***retract -ing***, ***retract to do***, and ***retract me sth***. ✗*He retracted that he had said it*, ✓*He retracted the remark*.
@@ -735,6 +770,7 @@ Only the first reports speech. *They denied her access to the file* reports no s
 ### reveal
 
 **Pronunciation:** /rɪˈvil/ &middot; *rih-VEEL*
+**Русский:** раскрыть, обнаружить — сообщить то, что до этого было скрыто
 **Type:** reporting verb — revelation &middot; **Register:** neutral
 **Patterns:** *reveal* + **that**-clause &middot; *reveal* + noun phrase &middot; *reveal* + **wh**-clause &middot; *reveal* + noun phrase + **to sb** &middot; *reveal* + **to sb** + **that**-clause &middot; *reveal* + oneself + **as** / **to be** &middot; passive *it was revealed that*
 **Never:** ***reveal me the truth*** — no double object; the recipient takes *to*: ✓*revealed the truth to me*, ✓*revealed to me that*. Also ***reveal to do*** and ***reveal -ing***.
@@ -754,6 +790,7 @@ Only the first reports speech. *They denied her access to the file* reports no s
 ### spill
 
 **Pronunciation:** /spɪl/ &middot; *SPIL*
+**Русский:** выболтать, разболтать — разг.: охотно выдать секрет; spill the beans — проболтаться
 **Type:** reporting verb — revelation &middot; **Register:** informal
 **Patterns:** *spill* + noun phrase (*the beans*, *the details*, *it*, *everything*) &middot; *spill* (no complement, as an invitation) &middot; *spill* + noun phrase + **to sb** &middot; *spill* + noun phrase + **about** + noun phrase (*spill the beans about the party*)
 **Never:** ***spill that she was leaving*** — no *that*-clause; say *spilled the news that she was leaving*, or simply *told everyone that she was leaving*. Also ***spill to do***, ***spill -ing***, and ***spill me the details***.
@@ -774,6 +811,7 @@ Only the first reports speech. *They denied her access to the file* reports no s
 ### suggest
 
 **Pronunciation:** /səɡˈdʒɛst/ &middot; *suhg-JEST* — American English pronounces the /ɡ/; British English usually drops it, /səˈdʒɛst/
+**Русский:** наводить на мысль, свидетельствовать — здесь о данных и уликах; значение «предлагать» — другое
 **Type:** reporting verb — implication (the evidential sense) &middot; **Register:** neutral
 **Patterns:** *suggest* + **that**-clause &middot; *suggest* + noun phrase &middot; *suggest* + **wh**-clause &middot; *suggest* + **to sb** + **that**-clause &middot; passive *it is suggested that*
 **Never:** ***suggest someone to do something*** — *suggest* takes no personal object before its complement in either of its senses: ✗*She suggested me to go*, ✗*She suggested him that he leave*. Repairs: ✓*She suggested that I go*, ✓*She suggested going*, or switch verbs — ✓*She advised me to go*. Also ***suggest me that*** → ✓*suggested to me that*.
@@ -801,6 +839,7 @@ Only the first reports speech. *They denied her access to the file* reports no s
 ### unveil
 
 **Pronunciation:** /ʌnˈveɪl/ &middot; *un-VAYL*
+**Русский:** представить, обнародовать — впервые публично показать вещь: продукт, план, памятник
 **Type:** reporting verb — public revelation &middot; **Register:** neutral; journalistic and promotional
 **Patterns:** *unveil* + noun phrase &middot; *unveil* + noun phrase + **at** / **on** / **in** &middot; *unveil* + noun phrase + **to sb** &middot; passive *be unveiled*
 **Never:** ***unveil that***, ***unveil -ing***, ***unveil to do***, and ***unveil sb sth***. ✗*The company unveiled that a new model was coming*, ✓*The company unveiled a new model*.
@@ -820,6 +859,7 @@ Only the first reports speech. *They denied her access to the file* reports no s
 ### volunteer
 
 **Pronunciation:** /ˌvɑlənˈtɪr/ &middot; *vah-luhn-TEER*
+**Русский:** сказать по своей инициативе — сообщить то, о чём никто не спрашивал
 **Type:** reporting verb — unprompted statement &middot; **Register:** neutral
 **Patterns:** *volunteer* + **that**-clause &middot; *volunteer* + noun phrase &middot; *volunteer* + noun phrase + **to sb** &middot; *volunteer* + **to sb** + **that**-clause &middot; (a different sense: *volunteer* + **to**-infinitive)
 **Never:** ***volunteer me that*** → ✓*volunteered to me that*. Also ***volunteer -ing***, and ***volunteer sb sth***: ✗*She volunteered us the information*, ✓*She volunteered the information to us*.

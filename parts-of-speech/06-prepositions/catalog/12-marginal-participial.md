@@ -4,7 +4,7 @@
 
 [← The grammar of prepositions](../README.md) &middot; [All categories](README.md)
 
-Nothing in this file started life as a preposition. These are verbs (*considering*, *given*, *pending*), adjectives (*absent*, *effective*, *worth*), and adverbs (*ago*, *aside*, *hence*) that have been recruited into prepositional service, and each keeps just enough of its old behavior to trip you up. Two tests separate the preposition from the participle it came from: a true preposition needs no subject and cannot dangle (*Considering the weather, the turnout was good* is fine, while *Walking to work, the rain started* is not), and its object is a plain noun phrase that a pronoun replaces in the objective case (*including me*, never *including I*). The postpositive group at the end breaks the one rule everyone thinks prepositions have — the object comes first, and the order is fixed rather than stylistic: *three weeks ago*, *the objections notwithstanding*, *present company excepted*. One trap runs through the whole file: almost none of these words accepts a finite clause (*✗ regarding he was late*, *✗ following she resigned*), and the four that genuinely do — *considering that*, *given that*, *granted that*, and legal *notwithstanding that* — are exactly the ones careful writers avoid out of misplaced caution.
+Nothing in this file started life as a preposition. These are verbs (*considering*, *given*, *pending*), adjectives (*absent*, *effective*, *worth*), and adverbs (*ago*, *aside*, *hence*) that have been recruited into prepositional service — along with a few imports and abbreviations that arrived already recruited (*alias*, *née*, *d/b/a*) — and each keeps just enough of its old behavior to trip you up. Two tests separate the preposition from the participle it came from: a true preposition needs no subject and cannot dangle (*Considering the weather, the turnout was good* is fine, while *Walking to work, the rain started* is not), and its object is a plain noun phrase that a pronoun replaces in the objective case (*including me*, never *including I*). The postpositive group at the end breaks the one rule everyone thinks prepositions have — the object comes first, and the order is fixed rather than stylistic: *three weeks ago*, *the objections notwithstanding*, *present company excepted*. One trap runs through the whole file: almost none of these words accepts a finite clause (*✗ regarding he was late*, *✗ following she resigned*), and the four that genuinely do — *considering that*, *given that*, *granted that*, and legal *notwithstanding that* — are exactly the ones careful writers avoid out of misplaced caution.
 
 **The complement rule that governs the whole class.** A preposition takes a noun phrase, and when a verb has to fill that slot the verb becomes a **gerund**, never an infinitive. This is true here (*worth seeing*, ✗ *worth to see*; *aside from being late*, ✗ *aside from to be late*), and it is true of every other *to* in English that is a preposition rather than an infinitive marker: *look forward to hearing* (✗ *look forward to hear*), *object to being told* (✗ *object to be told*), *accustomed to working nights* (✗ *accustomed to work nights*), *used to getting up early*, *opposed to raising rates*, *committed to hiring locally*, *devoted to restoring the house*, *in addition to paying the fine*, *prior to leaving*, *with a view to selling*. The test is substitution — if a plain noun fits after the word (*look forward to the weekend*, *accustomed to the noise*, *opposed to the plan*), the *to* is a preposition and the verb after it must end in *-ing*. Two more restrictions travel with the class and are worth stating once: the concessives and causals take a noun phrase or a gerund and **never** a *that*-clause (*despite the rain*, *despite being late*, ✗ *despite it rained*, ✗ *despite that it rained*; *in spite of the delay*, *in spite of arriving late*, ✗ *in spite of that it was delayed*; *owing to the strike*, *owing to being short-staffed*, ✗ *owing to that they struck*; *due to fog*, *due to fog closing the field*, ✗ *due to that it was foggy*) — for a clause you must switch words entirely, to *although*, *even though*, or *because*. And a pronoun object is always objective (*including me*, *compared to her*, ✗ *between you and I*).
 
@@ -16,11 +16,60 @@ Nothing in this file started life as a preposition. These are verbs (*considerin
 
 ## Participial prepositions in *-ing*
 
-The core of the group: present participles that lost their subject. Every one of them reduces its ending to /ɪn/ in casual American speech (*considerin'*, *includin'*), so the written *-ing* is rarely what you hear. None of them agrees with anything, and none of them needs a subject. Only *considering* takes a *that*-clause freely; *notwithstanding that* is confined to legal drafting; every other word in this section rejects a finite clause outright, which is the single trap to watch. Most of them do take a gerund, and that is the repair when a clause tempts you: not ✗ *following she resigned* but *following her resignation*, not ✗ *owing to that costs rose* but *owing to rising costs*. The topic members (*concerning*, *regarding*, *pertaining to*, *depending on*, *judging by*) additionally accept a *wh*-nominal — *regarding what you asked*, *depending on whether it rains* — which is a clause in shape but a noun phrase in job, and is the one clause-like thing they allow.
+The core of the group: present participles that lost their subject. Every one of them reduces its ending to /ɪn/ in casual American speech (*considerin'*, *includin'*), so the written *-ing* is rarely what you hear. None of them agrees with anything, and none of them needs a subject. Only *considering* takes a *that*-clause freely; *notwithstanding that* is confined to legal drafting; every other word in this section rejects a finite clause outright, which is the single trap to watch. Most of them do take a gerund, and that is the repair when a clause tempts you: not ✗ *following she resigned* but *following her resignation*, not ✗ *owing to that costs rose* but *owing to rising costs*. The topic members (*concerning*, *regarding*, *relating to*, *pertaining to*, *depending on*, *judging by*) additionally accept a *wh*-nominal — *regarding what you asked*, *depending on whether it rains* — which is a clause in shape but a noun phrase in job, and is the one clause-like thing they allow.
+
+A second family sits at the far edge of the section and is worth naming, because a reasonable reader will ask why it is here at all: the noun-postmodifiers. Some take a measure phrase (*exceeding*, *totaling*, *numbering*, *weighing*, *measuring*, *spanning*) and some have simply been bleached of the verb they came from (*featuring*, *involving*, *surrounding*, where nothing is featured, involved, or surrounded in any literal sense). They look like the reduced relative clauses cataloged at the end of this file, and they are not, because they fail that group's own test: a reduced relative expands with *who is* or *which is* (*the report [which was] filed on Tuesday*), and these will not — ✗ *a career which is spanning four decades*, ✗ *a fine which is exceeding five hundred dollars*. They answer only to a simple-present relative, they take a quantity or a topic rather than a true object, and none of them can be put in the progressive. That is the line between the two groups, and it is the only line that holds.
+
+### accruing to
+
+**Pronunciation:** /əˈkruɪŋ tu/ &middot; weak /əˈkruɪn tə/ &middot; *uh-KROO-ing too*
+**Русский:** начисляемый в пользу — юр./фин. о правах и доходах, накапливающихся у названной стороны
+**Type:** marginal/participial (two-word) &middot; **Register:** formal; legal, financial, and actuarial. An American meets it in a trust instrument, a royalty statement, or a municipal bond prospectus.
+**Complement:** a noun phrase naming the party a benefit lands on, or a *wh*-nominal (*accruing to whoever holds the policy*) — never a finite clause (✗ *accruing to the estate owns the mineral rights*). The *to* is a preposition, not an infinitive marker, so a verb after it must be a gerund: ✗ *accruing to receive interest*, and in practice the object is a person or an entity rather than an action at all.
+**Pattern:** [benefit] *accruing to* [party] &middot; *the rights accruing to* [party] *under* [instrument]
+**Contrast:** Three words send a benefit to somebody and they are not the same. *Accruing to* says the benefit is **building up** over time, which is why it takes interest, royalties, and credits; [*inuring to*](#inuring-to) says the benefit **legally lands** on a named party, which is why deeds use it; [*attributable to*](06-cause-purpose.md#attributable-to) merely assigns a cause. Keep the preposition apart from the plain verb, which needs a subject (*interest accrues at five percent*).
+
+Names the party a benefit, a right, or a liability is piling up for. Its home is the paragraph of a contract that says who ends up better off.
+
+**1. Rights and benefits building up to a holder.** The legal use, usually with *under* naming the instrument.
+**2. Interest, dividends, and other money accumulating.** The accounting use.
+
+1. All royalties *accruing to* the estate are paid quarterly.
+2. The tax credit *accruing to* first-time buyers expires in December.
+3. Interest *accruing to* the account is posted on the last business day.
+4. The report tallies the savings *accruing to* the city under the new contract.
+5. Any advantage *accruing to* the incumbent is small and getting smaller.
+6. Benefits *accruing to* whoever holds the policy pass to the heirs.
+
+**See also:** [inuring to](#inuring-to), [arising under](#arising-under), [arising out of](#arising-out-of), [attributable to](06-cause-purpose.md#attributable-to), [for the benefit of](06-cause-purpose.md#for-the-benefit-of)
+
+### adjusting for
+
+**Pronunciation:** /əˈdʒʌstɪŋ fɔr/ &middot; weak /əˈdʒʌstɪn fɚ/ &middot; *uh-JUS-ting fer*
+**Русский:** с поправкой на — пересчитав цифру так, чтобы искажающий фактор больше не влиял
+**Type:** marginal/participial (two-word) &middot; **Register:** neutral to formal; the standard word of economics, statistics, and data journalism
+**Complement:** noun phrase or gerund (*adjusting for having closed nine stores*) — never a finite clause (✗ *adjusting for prices rose* → *adjusting for the rise in prices*). The *for* is welded on, and swapping it changes the word entirely: *adjust to* means get used to (*adjusting to the altitude*), which is not this.
+**Pattern:** *Adjusting for* [noun phrase], [main clause]. &middot; [main clause], *adjusting for* [noun phrase].
+**Contrast:** Three near neighbors do three different jobs to a number. *Adjusting for* X **recomputes** the figure so X no longer distorts it; [*controlling for*](#controlling-for) **holds X constant** so some other effect can be seen; [*allowing for*](#allowing-for) merely concedes X in an estimate. [*Discounting*](#discounting) is different again — it throws the item out as not worth counting. The past-participial *adjusted for* modifies a noun and is the form on the chart label (*wages, adjusted for inflation*).
+
+The honest-arithmetic word: it announces that a raw number has been reworked, and names the distortion that was taken out.
+
+**1. Recomputing a figure to remove a distorting factor.** The quantitative use.
+**2. Making an allowance in a judgment.** The looser use, close to *allowing for*.
+
+1. *Adjusting for* inflation, a ticket cost more in 1975 than it does now.
+2. Median pay is flat *adjusting for* overtime.
+3. *Adjusting for* population, the state ranks fourth in traffic deaths.
+4. The chart shows returns *adjusting for* fees and taxes.
+5. *Adjusting for* the extra week in the quarter, sales actually fell.
+6. *Adjusting for* having closed nine stores, revenue held steady.
+
+**See also:** [controlling for](#controlling-for), [allowing for](#allowing-for), [discounting](#discounting), [as measured by](#as-measured-by), [indexed to](#indexed-to)
 
 ### allowing for
 
 **Pronunciation:** /əˈlaʊɪŋ fɔr/ &middot; weak /əˈlaʊɪn fɚ/ &middot; *uh-LOW-ing fer*
+**Русский:** с учётом, делая скидку на — заранее закладывает известный фактор в оценку
 **Type:** marginal/participial (two-word) &middot; **Register:** neutral
 **Complement:** noun phrase or gerund — never a finite clause (✗ *allowing for the traffic was heavy* → *allowing for traffic*, or *allowing for the fact that traffic was heavy*). The *for* is part of the word: dropping it gives you the plain verb, and *allowing the traffic* means something else entirely.
 **Pattern:** *Allowing for* [noun phrase], [main clause]. &middot; [main clause] *allowing for* [noun phrase].
@@ -40,9 +89,53 @@ Makes room in a claim for a factor the speaker already knows about. It is the ho
 
 **See also:** [discounting](#discounting), [excluding](#excluding), [depending on](#depending-on), [considering](#considering), [given](#given)
 
+### arising out of
+
+**Pronunciation:** /əˈraɪzɪŋ aʊt ʌv/ &middot; weak /əˈraɪzɪn aʊɾ ə/ &middot; *uh-RY-zing owt-uv*
+**Русский:** вытекающий из, возникший из — юр. связывает требование с породившим его событием
+**Type:** marginal/participial (three-word) &middot; **Register:** formal and legal; an American meets it in an insurance policy, an arbitration clause, and the first paragraph of a complaint
+**Complement:** noun phrase or gerund (*arising out of being denied coverage*) — never a finite clause (✗ *arising out of he crashed the truck* → *arising out of the collision*). The whole three-word string is fixed: ✗ *arising of*, ✗ *arising out from*.
+**Pattern:** [claims or disputes] *arising out of* [event or instrument] &middot; *arising out of or relating to* [noun phrase] — the standard arbitration formula
+**Contrast:** The three phrases that drafters chain together are ranked by breadth, and the ranking is litigated constantly. *Arising out of* needs a **causal origin** — the claim grew out of the named thing. [*Arising under*](#arising-under) needs the claim to be **created by** a document or a statute, which is narrower. [*Relating to*](#relating-to) needs only a **connection**, which is the widest of the three and the reason it is always added last. Plain [*arising from*](06-cause-purpose.md#arising-from) is the same word in ordinary prose; [*caused by*](06-cause-purpose.md#caused-by) is narrower than all of them.
+
+The origin clause of American legal drafting. It ties a claim to the event that produced it without saying how tight the link has to be — which is exactly why courts spend so much time on it.
+
+**1. Growing out of a specified event.** The insurance and tort use.
+**2. In the arbitration formula.** Paired with *relating to* to cover everything.
+
+1. The policy excludes injuries *arising out of* the use of a motor vehicle.
+2. Any dispute *arising out of* this Agreement shall be settled by arbitration.
+3. She sued for damages *arising out of* the collapse of the walkway.
+4. Costs *arising out of* the recall exceeded a hundred million dollars.
+5. The board reviewed every complaint *arising out of* the merger.
+6. Claims *arising out of* being denied coverage go to the state commission.
+
+**See also:** [arising under](#arising-under), [relating to](#relating-to), [arising from](06-cause-purpose.md#arising-from), [resulting from](06-cause-purpose.md#resulting-from), [in connection with](11-complex-multiword.md#in-connection-with)
+
+### arising under
+
+**Pronunciation:** /əˈraɪzɪŋ ˈʌndɚ/ &middot; weak /əˈraɪzɪn ʌndɚ/ &middot; *uh-RY-zing UN-der*
+**Русский:** возникающий на основании — юр. требование, порождённое названным законом или договором
+**Type:** marginal/participial (two-word) &middot; **Register:** formal and legal; a term of art. An American meets it in Article III of the Constitution, in the federal-question statute, and in the dispute clause of a contract.
+**Complement:** a noun phrase naming an instrument — a constitution, a statute, a treaty, an agreement, a plan. Never a finite clause, and a gerund is impossible (✗ *arising under signing the contract*).
+**Pattern:** [cases or claims] *arising under* [instrument]
+**Contrast:** Against [*arising out of*](#arising-out-of), the difference is the source of the claim rather than its subject matter: a claim *arises under* a contract when the contract itself creates it, and *arises out of* the contract when it merely grew out of the dealings. In federal practice that distinction decides the courthouse — a case *arises under* federal law when federal law creates the cause of action, which is what gives a district court federal-question jurisdiction. [*Pursuant to*](11-complex-multiword.md#pursuant-to) points at the authority for an act; *arising under* points at the source of a right.
+
+The jurisdictional preposition. It says that the claim exists because some named instrument says it does.
+
+1. The judicial power extends to all cases *arising under* this Constitution.
+2. District courts have original jurisdiction of civil actions *arising under* federal law.
+3. Any claim *arising under* Section 4 must be filed within one year.
+4. Benefits *arising under* the plan are not assignable.
+5. Disputes *arising under* the treaty go to a joint commission.
+6. Rights *arising under* the earlier lease survived the sale.
+
+**See also:** [arising out of](#arising-out-of), [accruing to](#accruing-to), [inuring to](#inuring-to), [pursuant to](11-complex-multiword.md#pursuant-to), [hereunder](13-formal-latin-archaic.md#hereunder)
+
 ### barring
 
 **Pronunciation:** /ˈbɑrɪŋ/ &middot; casual /ˈbɑrɪn/ &middot; *BAR-ing* (not *BAIR-ing*, which is *bearing*)
+**Русский:** если не помешает, если не считать — называет единственное возможное препятствие
 **Type:** marginal/participial &middot; **Register:** neutral, faintly bookish
 **Complement:** noun phrase or gerund — never a finite clause (✗ *barring that the weather holds*). Pronoun objects take the objective case: *barring him*.
 **Pattern:** *Barring* [noun phrase], [main clause]. &middot; [main clause] *barring* [noun phrase].
@@ -67,6 +160,7 @@ Frozen from the verb *bar*, "to block." It sets one obstacle in front of an othe
 ### bating
 
 **Pronunciation:** /ˈbeɪtɪŋ/ &middot; flapped /ˈbeɪɾɪŋ/ &middot; *BAY-ting* (a homophone of *baiting*)
+**Русский:** устар. за вычетом, не считая — юр. и антикварное; живой эквивалент — except for
 **Type:** marginal/participial &middot; **Register:** archaic; alive only in legal and antiquarian prose
 **Complement:** noun phrase — never a finite clause in modern use. Do not write *bating that*.
 **Pattern:** *bating* [noun phrase] &middot; *Bating* [noun phrase], [main clause].
@@ -85,6 +179,7 @@ Subtracts an item from a total or a claim. Any modern sentence that uses it is e
 ### beginning
 
 **Pronunciation:** /bɪˈɡɪnɪŋ/ &middot; weak /bəˈɡɪnɪn/ &middot; *bih-GIN-ing*
+**Русский:** начиная с — офиц. фиксирует первый день нового порядка, о конце ничего не говорит
 **Type:** marginal/participial &middot; **Register:** neutral to formal; the standard word in notices and official announcements
 **Complement:** a time expression only — a date, a day, or a prepositional phrase of time (*beginning in July*, *beginning at noon*). Never a finite clause, and never an ordinary object (✗ *beginning the project* in this sense, which is the plain verb).
 **Pattern:** *Beginning* [date], [main clause]. &middot; [main clause] *beginning* [date].
@@ -103,6 +198,7 @@ A pure scheduling word. It fixes the first day of a new arrangement and says not
 ### concerning
 
 **Pronunciation:** /kənˈsɜrnɪŋ/ &middot; casual /kənˈsɜrnɪn/ &middot; *kun-SUR-ning*
+**Русский:** относительно, касательно — книжн. называет тему документа или вопроса
 **Type:** marginal/participial &middot; **Register:** formal
 **Complement:** noun phrase, gerund, or *wh*-nominal (*concerning what happened*) — never a finite *that*-clause. To take a clause you need *concerning the fact that*, which is worse than starting over.
 **Pattern:** *concerning* [noun phrase] &middot; *Concerning* [noun phrase], [main clause].
@@ -122,6 +218,7 @@ The formal topic preposition: it names what a document, question, or complaint i
 ### considering
 
 **Pronunciation:** /kənˈsɪdərɪŋ/, syncopated /kənˈsɪdrɪŋ/ &middot; casual /kənˈsɪdrɪn/ &middot; *kun-SID-uh-ring*
+**Русский:** учитывая, принимая во внимание; с придаточным — «ввиду того что»; отдельно — «в общем-то»
 **Type:** marginal/participial; also a subordinating conjunction with *that*, and an absolute adverb &middot; **Register:** neutral
 **Complement:** noun phrase, gerund, **or a finite clause with or without *that*** — *considering (that) she had never flown before*. It is the one word in this file that freely takes a clause in ordinary American English. It can also stand alone with no complement at all: *She did well, considering.*
 **Pattern:** *Considering* [noun phrase], [main clause]. &middot; *Considering (that)* [clause], [main clause]. &middot; [main clause], *considering*.
@@ -144,9 +241,30 @@ The workhorse of the group, and the only one that has kept a foot in three word 
 
 **See also:** [given](#given), [granted](#granted), [based on](#based-on), [concerning](#concerning), [notwithstanding](#notwithstanding)
 
+### controlling for
+
+**Pronunciation:** /kənˈtroʊlɪŋ fɔr/ &middot; weak /kənˈtroʊlɪn fɚ/ &middot; *kun-TROH-ling fer*
+**Русский:** с поправкой на, при контроле — стат. удерживая мешающий фактор постоянным
+**Type:** marginal/participial (two-word) &middot; **Register:** formal; the standard term in statistics and the social and medical sciences, and now common in newspaper explainers
+**Complement:** an abstract noun phrase naming a variable (*controlling for age*), or a gerund naming a condition (*controlling for having children*) — never a finite clause (✗ *controlling for the subjects were older* → *controlling for age*). The *for* cannot be dropped or swapped: ✗ *controlling age* is the plain verb and means something else.
+**Pattern:** [main clause], *controlling for* [variable]. &middot; *Controlling for* [variable], [main clause].
+**Contrast:** [*Adjusting for*](#adjusting-for) recomputes the number; *controlling for* holds a variable steady so a different effect can be isolated; [*allowing for*](#allowing-for) is the everyday concession and claims no method at all. In a methods section *controlling for* is a promise that a model was fitted, and using it loosely in prose — where no model exists — is a quiet overclaim. Keep it apart from the attributive adjective in *a controlling interest*, which takes no object.
+
+The word that says a confound has been taken out of the picture. It is the most-borrowed phrase in social-science writing, and the most often borrowed without the arithmetic behind it.
+
+1. *Controlling for* age, the difference disappears.
+2. The gap narrows but does not close, *controlling for* education and income.
+3. *Controlling for* prior convictions, sentences still varied by county.
+4. Even *controlling for* square footage, the north side is more expensive.
+5. The study found no effect *controlling for* hours slept.
+6. *Controlling for* having children, the wage gap is about six percent.
+
+**See also:** [adjusting for](#adjusting-for), [allowing for](#allowing-for), [as measured by](#as-measured-by), [discounting](#discounting), [based on](#based-on)
+
 ### counting
 
 **Pronunciation:** /ˈkaʊntɪŋ/ &middot; casual /ˈkaʊnɪn/ &middot; *KOWN-ting*
+**Русский:** считая, с учётом; чаще в отрицании not counting — «не считая» — разг. при подсчёте
 **Type:** marginal/participial &middot; **Register:** informal to neutral; a spoken word
 **Complement:** noun phrase or gerund (*not counting waiting for a table*) — never a finite clause (✗ *not counting that the kids came*). Almost always negated: *not counting*.
 **Pattern:** *counting* [noun phrase] &middot; *not counting* [noun phrase] &middot; [main clause], *not counting* [noun phrase].
@@ -167,9 +285,31 @@ The arithmetic preposition of everyday speech. It adds or, more often, withholds
 
 **See also:** [including](#including), [excluding](#excluding), [discounting](#discounting), [included](#included), [not counting](08-accompaniment-exception.md#not-counting)
 
+### dating from
+
+**Pronunciation:** /ˈdeɪtɪŋ frʌm/ &middot; weak /ˈdeɪɾɪn frəm/ &middot; *DAY-ting frum*
+**Русский:** датируемый, восходящий к — приписывает предмету возраст без отдельного глагола
+**Type:** marginal/participial (two-word) &middot; **Register:** neutral; history writing, museum labels, real-estate listings, and journalism
+**Complement:** a date, a century, or a named period — never a finite clause (✗ *dating from the house was built* → *dating from 1890*), never a gerund, and never a person. An event may serve as the period (*dating from the war*), but a bare duration cannot: ✗ *dating from forty years*.
+**Pattern:** [noun phrase] *dating from* [date] &middot; [noun phrase] *dating back to* [date]
+**Contrast:** *Dating from* fixes the origin point and looks forward; *dating back to* starts from now and reaches backward, which is why it suits long or surprising spans (*a custom dating back to the Dutch settlers*). The blend ✗ *dating back from* is an error and a common one — pick one direction. [*Since*](05-time.md#since) needs a perfect verb in the main clause, and [*as of*](05-time.md#as-of) fixes the date a statement speaks from rather than the date a thing began. The plain verb keeps its subject (*the house dates from 1890*); the participial preposition has none.
+**Variants:** *dating back to*, *dating to* (compressed, common in headlines)
+
+Attaches an age to a thing. It is the standard way English says how old something is without a verb of its own.
+
+1. A farmhouse *dating from* 1890 sits at the end of the lane.
+2. The dispute is old, *dating from* the first survey of the county.
+3. Letters *dating from* the war years turned up in the attic.
+4. The custom, *dating back to* the Dutch settlers, is still observed.
+5. Records *dating back to* 1912 were lost in the flood.
+6. A grudge *dating back to* high school — ✗ *dating back from* high school.
+
+**See also:** [since](05-time.md#since), [as of](05-time.md#as-of), [circa](05-time.md#circa), [ago](#ago), [back](#back)
+
 ### depending on
 
 **Pronunciation:** /dɪˈpɛndɪŋ ˈɑn/, /dɪˈpɛndɪŋ ˈɔn/ &middot; casual /dəˈpɛndɪn ən/ &middot; *dih-PEN-ding awn*
+**Русский:** в зависимости от — называет ещё не решённое обстоятельство, от которого всё зависит
 **Type:** marginal/participial (two-word) &middot; **Register:** neutral
 **Complement:** noun phrase, gerund, or a *wh*-nominal — and the *wh*-nominal is the everyday form: *depending on what he says*, *depending on whether it rains*, *depending on how many show up*. Never a bare *that*-clause (✗ *depending on that it rains*). ✗ *Depending of* and ✗ *depending from* are errors; the adjective is *dependent on* or *dependent upon*, never *dependent of*.
 **Pattern:** *Depending on* [noun phrase], [main clause]. &middot; [main clause], *depending on* [noun phrase or *wh*-clause].
@@ -193,6 +333,7 @@ Names the thing that has not been settled yet and that will settle everything el
 ### discounting
 
 **Pronunciation:** /dɪsˈkaʊntɪŋ/ &middot; casual /dɪsˈkaʊnɪn/ &middot; *dis-KOWN-ting*
+**Русский:** не принимая в расчёт, сбрасывая со счетов — отбрасывает как ненадёжное или предвзятое
 **Type:** marginal/participial &middot; **Register:** neutral to formal; common in analysis and argument
 **Complement:** noun phrase or gerund — never a finite clause.
 **Pattern:** *Discounting* [noun phrase], [main clause]. &middot; [main clause] *discounting* [noun phrase].
@@ -212,6 +353,7 @@ Sets something aside on the grounds that it should not count — because it is u
 ### during
 
 **Pronunciation:** /ˈdʊrɪŋ/, widely /ˈdɜrɪŋ/ (rhyming with *stirring*) &middot; casual /ˈdɜrɪn/ &middot; British keeps the yod: /ˈdjʊərɪŋ/ &middot; *DOOR-ing* or *DUR-ing*
+**Русский:** во время, в течение — в какой-то момент внутри периода либо на всём его протяжении
 **Type:** marginal/participial by origin, now a fully grammaticalized simple preposition &middot; **Register:** neutral
 **Complement:** a noun phrase naming a period or an event — never a finite clause (✗ *during I was there* → *while I was there*), never a gerund (✗ *during eating* → *while eating*), and **never a measure of duration** (✗ *during three hours* → *for three hours*).
 **Pattern:** *during* [noun phrase] &middot; *During* [noun phrase], [main clause].
@@ -231,9 +373,30 @@ Historically a participle — the object of the obsolete verb *dure*, "to last,"
 
 **See also:** [for](02-core-relational.md#for), [pending](#pending), [following](#following), [beginning](#beginning)
 
+### exceeding
+
+**Pronunciation:** /ɪkˈsidɪŋ/ &middot; casual /ɪkˈsidɪn/ &middot; *ik-SEE-ding*
+**Русский:** превышающий — юр. потолок, почти всегда в отрицании not exceeding «не более»
+**Type:** marginal/participial (noun-postmodifying) &middot; **Register:** formal; statutes, ordinances, contracts, and specifications, where it is nearly always negated as *not exceeding*
+**Complement:** a quantity — a sum of money, a count, a period, a measurement. Never a finite clause, never a gerund (✗ *exceeding running the machine all night*), and never a person.
+**Pattern:** [quantity noun] *not exceeding* [amount] &middot; [noun phrase] *exceeding* [amount]
+**Contrast:** *Not exceeding* sets a ceiling that **includes** the number named — a fine *not exceeding* five hundred dollars may be exactly five hundred, where *under five hundred* may not. [*In excess of*](11-complex-multiword.md#in-excess-of) is the same meaning in the phrase most American drafters actually write; *over* and *more than* are the plain words and are better anywhere but a statute. Do not confuse it with the archaic adverb *exceeding* meaning "extremely" (*exceeding glad*), which takes no object at all. On the boundary: this is not a reduced relative, because it will not expand with *which is* (✗ *a fine which is exceeding five hundred dollars*) — only with a simple-present relative, *that exceeds*.
+
+The ceiling word. It states a limit from above and, in the negative, is how American statutes write every maximum they impose.
+
+1. The court may impose a fine *not exceeding* five hundred dollars.
+2. A term of imprisonment *not exceeding* one year is authorized.
+3. Any balance *exceeding* the credit limit is due immediately.
+4. Winds *exceeding* seventy miles an hour tore the roof off the arena.
+5. Loads *exceeding* two tons must use the service entrance.
+6. Deposits *exceeding* $250,000 are not insured.
+
+**See also:** [totaling](#totaling), [in excess of](11-complex-multiword.md#in-excess-of), [upward of](07-agent-instrument-manner.md#upward-of), [shy of](07-agent-instrument-manner.md#shy-of), [up to](11-complex-multiword.md#up-to)
+
 ### excepting
 
 **Pronunciation:** /ɪkˈsɛptɪŋ/, /ɛkˈsɛptɪŋ/ &middot; casual /ɪkˈsɛptɪn/ &middot; *ik-SEP-ting*
+**Русский:** за исключением — книжн., устаревающее; но not excepting значит «не исключая, включая даже»
 **Type:** marginal/participial &middot; **Register:** formal and dated; standard only after *not* and *always*
 **Complement:** noun phrase — never a finite clause in modern American English. The old conjunction *excepting that* is archaic.
 **Pattern:** *not excepting* [noun phrase] &middot; *always excepting* [noun phrase] &middot; *Excepting* [noun phrase], [main clause].
@@ -252,6 +415,7 @@ An older, heavier *except*. Note that *not excepting* means the opposite of what
 ### excluding
 
 **Pronunciation:** /ɪkˈskludɪŋ/ &middot; casual /ɪkˈskludɪn/ &middot; *ik-SKLOO-ding*
+**Русский:** исключая, без учёта — вычитает названный пункт из набора, суммы или цены
 **Type:** marginal/participial &middot; **Register:** neutral; the default in commercial, technical, and statistical writing
 **Complement:** noun phrase or gerund — never a finite clause.
 **Pattern:** [noun phrase] *excluding* [noun phrase] &middot; *Excluding* [noun phrase], [main clause].
@@ -271,6 +435,7 @@ Subtracts a specified item from a set, a total, or a price. It makes no claim ab
 ### failing
 
 **Pronunciation:** /ˈfeɪlɪŋ/ &middot; casual /ˈfeɪlɪn/ &middot; *FAY-ling*
+**Русский:** за неимением, в случае отсутствия; failing that — «а если нет, то...»
 **Type:** marginal/participial &middot; **Register:** formal
 **Complement:** noun phrase, typically abstract (an agreement, a payment, a response) or the pronoun *that* — never a finite clause (✗ *failing that they agree* → *failing agreement*).
 **Pattern:** *Failing* [noun phrase], [main clause]. &middot; *Failing that*, [main clause].
@@ -290,9 +455,30 @@ Introduces the fallback. It names the thing that was supposed to occur and quiet
 
 **See also:** [absent](08-accompaniment-exception.md#absent), [lacking](#lacking), [barring](#barring), [pending](#pending), [wanting](#wanting)
 
+### featuring
+
+**Pronunciation:** /ˈfitʃərɪŋ/ &middot; casual /ˈfitʃrɪn/ &middot; *FEE-chur-ing*
+**Русский:** с участием, в главной роли — афишное «при участии» в анонсах и программках
+**Type:** marginal/participial (noun-postmodifying) &middot; **Register:** neutral; the standard word of listings, billing, program notes, and marketing copy
+**Complement:** a noun phrase naming a person, an act, or a component — never a finite clause (✗ *featuring the band played twice*), and a gerund is clumsy (*featuring interviewing survivors* → *featuring interviews with survivors*).
+**Pattern:** [noun phrase] *featuring* [noun phrase] &middot; [title] *featuring* [performer] — abbreviated *feat.* or *ft.* on a record sleeve and still read aloud as "featuring"
+**Contrast:** *Featuring* promises that the named thing is a **selling point**; [*including*](#including) merely names a member of a set, and *with* is neutral about both. [*Complete with*](08-accompaniment-exception.md#complete-with) is the ironic cousin — it lists an extra the speaker finds excessive. [*Involving*](#involving) names a participant while refusing to say what part it played, which is the opposite job. Keep the preposition apart from the plain transitive verb, which keeps its subject (*the album features Ella Fitzgerald*).
+
+The billing preposition. It attaches the name that is supposed to sell the ticket.
+
+1. A three-night festival *featuring* forty local bands.
+2. The exhibit, *featuring* work from the artist's last decade, opens Friday.
+3. She released a single *featuring* a rapper half her age.
+4. A remodeled kitchen *featuring* granite counters and a farmhouse sink.
+5. The network ran a documentary *featuring* interviews with survivors.
+6. "Empire State of Mind," *featuring* Alicia Keys — printed *feat.* on the sleeve.
+
+**See also:** [including](#including), [involving](#involving), [complete with](08-accompaniment-exception.md#complete-with), [surrounding](#surrounding), [with](02-core-relational.md#with)
+
 ### following
 
 **Pronunciation:** /ˈfɑloʊɪŋ/ &middot; casual /ˈfɑləwɪn/ &middot; *FAH-loh-ing*
+**Русский:** вслед за, после — газетное «после», нередко с намёком на причинную связь
 **Type:** marginal/participial &middot; **Register:** neutral to formal; heavy in journalism and official statements
 **Complement:** noun phrase — never a finite clause (✗ *following she resigned* → *after she resigned*, or *following her resignation*). A gerund is grammatical but nearly always clumsy (*following being notified* → *following notification*), so the repair for a tempting clause is a **nominalization**, not an *-ing* form. The demonstrative pronoun is fine: *following that, we adjourned*.
 **Pattern:** *Following* [noun phrase], [main clause]. &middot; [main clause] *following* [noun phrase].
@@ -315,6 +501,7 @@ The journalist's *after*. It attaches an event to the trigger that preceded it, 
 ### going on
 
 **Pronunciation:** /ˌɡoʊɪŋ ˈɑn/, /ˌɡoʊɪŋ ˈɔn/ &middot; casual /ˈɡoʊɪn ɔn/ &middot; *goh-in-ON*
+**Русский:** скоро, почти (о возрасте или времени) — разг. «ей скоро сорок», «уже почти полночь»
 **Type:** marginal/participial (two-word) &middot; **Register:** informal, spoken
 **Complement:** a number or a number-headed time or age expression — never a clause, never a person or an object (✗ *going on the meeting*).
 **Pattern:** [be] *going on* [number] &middot; [noun phrase] *going on* [number]
@@ -330,9 +517,30 @@ Says you are approaching a number — an age, a clock time, or a length of servi
 
 **See also:** [ago](#ago), [back](#back), [hence](#hence), [worth](#worth)
 
+### having regard to
+
+**Pronunciation:** /ˈhævɪŋ rɪˈɡɑrd tu/ &middot; weak /ˈhævɪn rəˈɡɑrd tə/ &middot; *HAV-ing rih-GARD too*
+**Русский:** с учётом, принимая во внимание — офиц.-юр., брит. и международное; в амер. узусе — given
+**Type:** marginal/participial (three-word) &middot; **Register:** formal and legal, and chiefly British, Commonwealth, and European. An American meets it in a treaty, an arbitral award, an English judgment, and the recital that opens every EU regulation — not in ordinary American prose, where *in view of*, *given*, and *taking into account* do the work.
+**Complement:** noun phrase or gerund (*having regard to being a first offense*) — never a finite clause (✗ *having regard to he was a minor* → *having regard to his age*). Note the singular noun: ✗ *having regards to* is an error of the same family as ✗ *with regards to*.
+**Pattern:** *Having regard to* [noun phrase], [main clause]. &middot; [main clause] *having regard to* [noun phrase].
+**Contrast:** It means "taking into account," not "with respect to," and the two blur in careless drafting. [*With regard to*](11-complex-multiword.md#with-regard-to) announces a **topic**; *having regard to* weighs a **factor**. Against [*given*](#given), which states a premise flatly, and [*considering*](#considering), which weighs and often excuses, *having regard to* sounds like an instruction to a decision-maker — which is what it usually is, since statutes use it to list the things an official must think about.
+
+The duty-to-consider phrase. In British and international drafting it is how a rule tells a judge or a minister what to weigh before deciding.
+
+1. *Having regard to* the age of the defendant, the court suspended the sentence.
+2. The tribunal fixed the award *having regard to* the conduct of both parties.
+3. *Having regard to* all the circumstances, the dismissal was unfair.
+4. *Having regard to* the Treaty on the Functioning of the European Union, the Council has adopted this Regulation.
+5. The trustees must act *having regard to* the interests of every beneficiary.
+6. *Having regard to* being a first offense, the panel halved the fine.
+
+**See also:** [given](#given), [considering](#considering), [in view of](11-complex-multiword.md#in-view-of), [with regard to](11-complex-multiword.md#with-regard-to), [regarding](#regarding)
+
 ### including
 
 **Pronunciation:** /ɪnˈkludɪŋ/ &middot; casual /ɪnˈkludɪn/ &middot; *in-KLOO-ding*
+**Русский:** включая, в том числе — называет часть уже упомянутого множества, остальное подразумевая
 **Type:** marginal/participial &middot; **Register:** neutral
 **Complement:** noun phrase or gerund — never a finite clause (✗ *including that he lied*). **Pronoun objects must be objective:** *including me*, *including her and me* — ✗ *including my wife and I*, which is the single most common error made with this word.
 **Pattern:** [noun phrase], *including* [noun phrase] &middot; *Including* [noun phrase], [main clause]. &middot; Postposed counterpart: [noun phrase] *included*.
@@ -352,9 +560,54 @@ Names one or more members of a set already mentioned, leaving the rest implied.
 
 **See also:** [included](#included), [excluding](#excluding), [counting](#counting), [excepting](#excepting), [in addition to](11-complex-multiword.md#in-addition-to)
 
+### inuring to
+
+**Pronunciation:** /ɪnˈjʊrɪŋ tu/ &middot; weak /ɪnˈjʊrɪn tə/ &middot; *in-YOOR-ing too*
+**Русский:** переходящий к, действующий в пользу — юр. право переходит к правопреемнику стороны
+**Type:** marginal/participial (two-word) &middot; **Register:** legal; deeds, releases, trust instruments, and insurance policies. An American meets it almost only in the closing formula *binding upon and inuring to the benefit of the parties and their successors*.
+**Complement:** a noun phrase naming a beneficiary, overwhelmingly inside the frame *inuring to the benefit of* [party] — never a finite clause, never a gerund (✗ *inuring to holding the note*).
+**Pattern:** [right or benefit] *inuring to the benefit of* [party] &middot; [noun phrase] *inuring to* [party]
+**Contrast:** In law *inure* means "to take effect for the benefit of," which is not the *inure* most Americans know — *inured to the cold*, meaning hardened by habit — and the collision is why nonlawyers misread the clause as being about endurance. Against [*accruing to*](#accruing-to), which is about a benefit **building up** over time, *inuring to* is about which party the benefit **legally lands on**. Older and British documents spell it *enuring to*.
+**Variants:** *enuring to* (older spelling; British)
+
+The successor clause. It carries a right forward to whoever stands in the party's shoes later.
+
+1. This Agreement is binding upon and *inuring to the benefit of* the parties' successors.
+2. The covenant runs with the land, *inuring to* every future owner.
+3. Any refund *inuring to the benefit of* the estate is divided equally among the heirs.
+4. The policy names a trustee, with the proceeds *inuring to* the children.
+5. Protections *inuring to* the employee under the statute cannot be waived by contract.
+6. Savings *inuring to* the city under the settlement are reported annually.
+
+**See also:** [accruing to](#accruing-to), [arising under](#arising-under), [for the benefit of](06-cause-purpose.md#for-the-benefit-of), [in favor of](09-comparison-opposition.md#in-favor-of), [pursuant to](11-complex-multiword.md#pursuant-to)
+
+### involving
+
+**Pronunciation:** /ɪnˈvɑlvɪŋ/ &middot; casual /ɪnˈvɑlvɪn/ &middot; *in-VAHL-ving*
+**Русский:** с участием, связанный с; а также «требующий, влекущий» — нейтрально, без указания вины
+**Type:** marginal/participial (noun-postmodifying) &middot; **Register:** neutral; heavy in journalism, police and insurance reports, and case description
+**Complement:** noun phrase or gerund (*a rule involving filing twice a year*) — never a finite clause (✗ *an accident involving the truck jackknifed* → *involving a jackknifed truck*).
+**Pattern:** [noun phrase] *involving* [noun phrase]
+**Contrast:** *Involving* names a participant or an element **without saying what part it played**, and that studied neutrality is the whole reason reporters and police reach for it: *a crash involving a school bus* assigns no blame, where *a crash caused by a school bus* does. [*Featuring*](#featuring) is the opposite — it advertises. [*Including*](#including) names a member of a set, and [*relating to*](#relating-to) names a topic. Keep the preposition apart from the plain verb, which keeps a subject (*the job involves travel*), and from the dependent-verb pattern *be involved in*, which belongs with the [dependent verbs](../../03-verbs/catalog/22-verb-preposition.md#involve-in).
+
+The no-blame preposition. It puts a thing in the scene and stops there.
+
+**1. Having as a participant.** The neutral news use, with a concrete object.
+**2. Requiring; entailing.** With an abstract object or a gerund.
+
+1. A three-car crash *involving* a school bus closed the interstate for hours.
+2. The suit is one of several *involving* the same contractor.
+3. Any incident *involving* a firearm is reported to the state within a day.
+4. A treatment *involving* two drugs cut the relapse rate in half.
+5. She took a job *involving* a great deal of travel.
+6. A rule *involving* filing twice a year was quietly dropped.
+
+**See also:** [featuring](#featuring), [including](#including), [relating to](#relating-to), [surrounding](#surrounding), [concerning](#concerning)
+
 ### judging by
 
 **Pronunciation:** /ˈdʒʌdʒɪŋ baɪ/ &middot; weak /ˈdʒʌdʒɪn bə/ &middot; *JUH-jing by*
+**Русский:** судя по — одновременно называет вывод и то, на чём он основан
 **Type:** marginal/participial (two-word) &middot; **Register:** neutral
 **Complement:** noun phrase, gerund, or *wh*-nominal (*judging by what he wrote*, *judging by how fast they settled*) — never a finite *that*-clause (✗ *judging by he was late*). *Judging from* takes exactly the same complements.
 **Pattern:** *Judging by* [noun phrase], [main clause]. &middot; *Judging from* [noun phrase], [main clause]. &middot; [main clause], *judging by* [noun phrase].
@@ -378,6 +631,7 @@ Marks an inference and its evidence in one stroke, and quietly signals that the 
 ### lacking
 
 **Pronunciation:** /ˈlækɪŋ/ &middot; casual /ˈlækɪn/ &middot; *LAK-ing*
+**Русский:** за неимением, при отсутствии — книжн., почти всегда в начале фразы перед следствием
 **Type:** marginal/participial &middot; **Register:** formal to literary
 **Complement:** noun phrase — never a finite clause, and no gerund (✗ *lacking having a quorum*).
 **Pattern:** *Lacking* [noun phrase], [main clause].
@@ -393,9 +647,30 @@ States the absence that forced the outcome. Almost always fronted, and almost al
 
 **See also:** [wanting](#wanting), [absent](08-accompaniment-exception.md#absent), [failing](#failing), [barring](#barring)
 
+### measuring
+
+**Pronunciation:** /ˈmɛʒərɪŋ/ &middot; casual /ˈmɛʒrɪn/ &middot; *MEZH-ur-ing*
+**Русский:** размером в — приписывает существительному габариты без отдельного глагола
+**Type:** marginal/participial (noun-postmodifying, measure phrase) &middot; **Register:** neutral; specifications, listings, catalog copy, and lab description
+**Complement:** a dimension — two or three numbers joined by *by*, or a single length. Never a finite clause, never a gerund, never a person, and never an ordinary object: ✗ *measuring the room* in this sense is the plain transitive verb with its subject dropped.
+**Pattern:** [noun phrase] *measuring* [number] *by* [number] &middot; [noun phrase] *measuring* [length]
+**Contrast:** In this frame *measuring* takes a **measure phrase**, not an object, and it will not expand with *which is* (✗ *a room which is measuring twelve by fourteen*) — only with a simple-present relative, *that measures*. That is what separates it from a true reduced relative like *the report filed on Tuesday*, and it is why it belongs in this file. The transitive verb is a different animal and dangles like any live participle: *Measuring the room, I found it was short* requires the measurer to be the subject.
+
+The dimension word. It hangs a size on a noun with no verb of its own.
+
+1. A living room *measuring* twelve by fourteen feet.
+2. The lot, *measuring* just under an acre, backs onto the creek.
+3. A crack *measuring* three inches ran the length of the beam.
+4. They pulled up a trout *measuring* twenty-two inches.
+5. A parcel *measuring* forty by sixty centimeters ships at the flat rate.
+6. A tremor *measuring* 4.1 rattled the windows.
+
+**See also:** [weighing](#weighing), [numbering](#numbering), [spanning](#spanning), [totaling](#totaling), [by](02-core-relational.md#by)
+
 ### notwithstanding
 
 **Pronunciation:** /ˌnɑtwɪθˈstændɪŋ/, /ˌnɑtwɪðˈstændɪŋ/ &middot; casual /ˌnɑtwəθˈstændɪn/ &middot; *naht-with-STAN-ding*
+**Русский:** несмотря на — книжн./юр.; единственный предлог, свободно стоящий и после дополнения
 **Type:** marginal/participial; also **postpositive**; also a sentence adverb &middot; **Register:** formal and legal
 **Complement:** noun phrase or gerund; in legal drafting only, a finite *that*-clause (*notwithstanding that the parties have agreed*). In ordinary prose, keep it to a noun phrase.
 **Pattern:** *notwithstanding* [noun phrase] &middot; [noun phrase] *notwithstanding* (postposed) &middot; *Notwithstanding* [noun phrase], [main clause].
@@ -419,9 +694,30 @@ A calque of Latin *non obstante*, "not standing in the way," and still the only 
 
 **See also:** [given](#given), [granted](#granted), [considering](#considering), [in spite of](11-complex-multiword.md#in-spite-of), [regardless of](11-complex-multiword.md#regardless-of)
 
+### numbering
+
+**Pronunciation:** /ˈnʌmbərɪŋ/ &middot; casual /ˈnʌmbrɪn/ &middot; *NUM-bur-ing*
+**Русский:** численностью в — «толпа численностью в две тысячи человек»
+**Type:** marginal/participial (noun-postmodifying, measure phrase) &middot; **Register:** neutral to formal; journalism, official reports, and history writing
+**Complement:** a count — a number, a range of numbers, or *in the* plus a plural (*numbering in the thousands*). Never a finite clause, never a gerund, and the head noun must be plural or collective: ✗ *a delegate numbering one*.
+**Pattern:** [plural or collective noun] *numbering* [count] &middot; [noun phrase] *numbering in the* [thousands]
+**Contrast:** *Numbering* counts heads; [*totaling*](#totaling) adds up amounts, usually money; [*measuring*](#measuring) and [*weighing*](#weighing) take dimensions and mass. All four refuse the progressive relative (✗ *a crowd which is numbering ten thousand*), which is what keeps them out of the reduced-relative bin. The *in the* idiom carries a built-in hedge: *numbering in the hundreds* admits that nobody counted.
+
+The headcount word, and the standard way a report puts a size on a crowd, a herd, or a workforce.
+
+1. A crowd *numbering* about ten thousand filled the square.
+2. Herds *numbering* in the tens of thousands once crossed this valley.
+3. A staff *numbering* fewer than twenty runs the whole operation.
+4. Delegations *numbering* three to five people were seated in front.
+5. Refugees *numbering* in the hundreds of thousands crossed that winter.
+6. A militia *numbering* perhaps four hundred held the ridge until dark.
+
+**See also:** [totaling](#totaling), [measuring](#measuring), [weighing](#weighing), [spanning](#spanning), [in the neighborhood of](07-agent-instrument-manner.md#in-the-neighborhood-of)
+
 ### owing to
 
 **Pronunciation:** /ˈoʊɪŋ tu/ &middot; weak /ˈoʊɪn tə/ &middot; *OH-ing too*
+**Русский:** из-за, вследствие — книжн. указание причины
 **Type:** marginal/participial (two-word) &middot; **Register:** formal
 **Complement:** noun phrase or gerund — never a finite clause. For a clause use *because*; *owing to the fact that* is grammatical but wordy.
 **Pattern:** *Owing to* [noun phrase], [main clause]. &middot; [main clause] *owing to* [noun phrase].
@@ -442,6 +738,7 @@ Assigns a cause, at a slightly elevated pitch. Note that bare *owing* is an adje
 ### pending
 
 **Pronunciation:** /ˈpɛndɪŋ/ &middot; casual /ˈpɛndɪn/ &middot; *PEN-ding*
+**Русский:** в ожидании, впредь до — юр.-офиц. приостанавливает положение до исхода названного события
 **Type:** marginal/participial &middot; **Register:** formal, legal, and administrative
 **Complement:** noun phrase naming an event, decision, or process — never a finite clause (✗ *pending the board decides* → *pending the board's decision*), and gerunds are awkward (write *pending receipt of the report*, not *pending receiving the report*).
 **Pattern:** *pending* [noun phrase] &middot; *Pending* [noun phrase], [main clause].
@@ -466,11 +763,12 @@ Borrowed from French *pendant*, "hanging." It suspends the main clause until the
 ### pertaining to
 
 **Pronunciation:** /pɚˈteɪnɪŋ tu/ &middot; weak /pɚˈteɪnɪn tə/ &middot; *pur-TAY-ning too*
+**Русский:** относящийся к, касающийся — канцелярско-архивное; вне бумаг звучит как канцелярит
 **Type:** marginal/participial (two-word) &middot; **Register:** formal; legal, bureaucratic, and archival
 **Complement:** noun phrase, gerund, or *wh*-nominal (*pertaining to what was filed*) — never a finite *that*-clause (✗ *pertaining to he was hired* → *pertaining to his hiring*). The *to* is welded on: ✗ *pertaining of*, ✗ *pertaining with*, and bare *pertaining* is not a preposition at all.
 **Pattern:** [noun phrase] *pertaining to* [noun phrase] &middot; *Pertaining to* [noun phrase], [main clause].
 **Contrast:** The heaviest of the topic prepositions. Ranked by weight: plain *about* is what a person says, *regarding* is the business default, *concerning* is a step up, and *pertaining to* is the top of the scale — it belongs to records requests, statutes, and discovery demands (*all documents pertaining to the transaction*). *Relating to* is the same construction one degree lighter and is what most American drafters now write. Against *regarding*, which merely announces a topic, *pertaining to* claims that the object **belongs** to the matter, which is why it survives in law: relevance is exactly what it asserts. Keep it apart from the plain verb *pertain*, which needs a subject and its own *to* (*the rule pertains to contractors*).
-**Variants:** *relating to* (lighter; the current American drafting default), *appertaining to* (archaic)
+**Variants:** *appertaining to* — the archaic doublet, identical in meaning and now confined to deeds and old statutes, where it survives inside the conveyancing formula *the land and all rights appertaining thereto*. It is one syllable heavier than *pertaining to* and adds nothing else; outside a title document it is pastiche. The lighter modern alternative has its own entry: [*relating to*](#relating-to).
 
 Ties a document, a rule, or a record to the matter it belongs to. Its natural home is the filing cabinet, and outside that setting it reads as padding.
 
@@ -485,11 +783,12 @@ Ties a document, a rule, or a record to the matter it belongs to. Its natural ho
 6. Documents *pertaining to* hiring before 2015 were destroyed.
 7. The clause *relating to* arbitration survives termination.
 
-**See also:** [regarding](#regarding), [concerning](#concerning), [respecting](#respecting), [touching](#touching), [re](10-topic-reference-role.md#re), [with respect to](11-complex-multiword.md#with-respect-to)
+**See also:** [relating to](#relating-to), [regarding](#regarding), [concerning](#concerning), [respecting](#respecting), [touching](#touching), [re](10-topic-reference-role.md#re), [with respect to](11-complex-multiword.md#with-respect-to)
 
 ### preceding
 
 **Pronunciation:** /prɪˈsidɪŋ/ &middot; casual /prəˈsidɪn/ &middot; *prih-SEE-ding*
+**Русский:** предшествующий, перед — офиц. ставит одно событие прямо перед другим, без причинности
 **Type:** marginal/participial &middot; **Register:** formal; minutes, reports, and legal recitals
 **Complement:** noun phrase — never a finite clause (✗ *preceding she spoke* → *preceding her remarks*, or plain *before she spoke*). Gerunds are as clumsy here as after *following*, and a bare measure of time is impossible: ✗ *preceding three days* → *in the three days preceding the vote*.
 **Pattern:** [noun phrase] *preceding* [noun phrase] &middot; *Preceding* [noun phrase], [main clause].
@@ -509,9 +808,30 @@ Places one event immediately in front of another and asserts nothing about cause
 
 **See also:** [following](#following), [during](#during), [pending](#pending), [beginning](#beginning), [prior to](11-complex-multiword.md#prior-to), [subsequent to](11-complex-multiword.md#subsequent-to)
 
+### pushing
+
+**Pronunciation:** /ˈpʊʃɪŋ/ &middot; casual /ˈpʊʃɪn/ &middot; *PUSH-ing* (the vowel of *bush*, not of *hush*)
+**Русский:** под, почти (о возрасте, скорости, цене) — разг. «ему под шестьдесят»
+**Type:** marginal/participial &middot; **Register:** informal; spoken American English
+**Complement:** a number — an age, a speed, a price, a clock time, a length of service. Never a finite clause, never a gerund, and never a person or a thing (✗ *pushing the deadline* in this sense is the plain verb).
+**Pattern:** [subject] *is pushing* [number] &middot; [noun phrase] *pushing* [number]
+**Contrast:** Same frame as [*going on*](#going-on), and the same one-way restriction: you approach the number from below, and you cannot be *pushing* an age you have already passed. The difference is attitude — *he's pushing sixty* is faintly unkind, where *going on sixty* is neutral, and *nearly* and *almost* are adverbs that carry no attitude at all. Keep it apart from the plain verb (*pushing the cart*) and from *pushing it*, meaning taking a risk.
+
+The blunt approach-word of American speech. It puts a number just out of reach and hints that reaching it will not be pleasant.
+
+1. He's *pushing* sixty and still plays two nights a week.
+2. The truck was *pushing* ninety when it left the road.
+3. Rent downtown is *pushing* three thousand a month.
+4. It was *pushing* midnight by the time we got in.
+5. She's been at that desk *pushing* thirty years.
+6. The repair bill is *pushing* what the car is worth.
+
+**See also:** [going on](#going-on), [upward of](07-agent-instrument-manner.md#upward-of), [the better part of](07-agent-instrument-manner.md#the-better-part-of), [shy of](07-agent-instrument-manner.md#shy-of), [ago](#ago)
+
 ### regarding
 
 **Pronunciation:** /rɪˈɡɑrdɪŋ/ &middot; weak /rəˈɡɑrdɪn/ &middot; *rih-GAR-ding*
+**Русский:** относительно, по поводу — стандартное деловое «касательно»
 **Type:** marginal/participial &middot; **Register:** neutral to formal; the standard business-correspondence word
 **Complement:** noun phrase, gerund, or *wh*-nominal (*regarding what you asked*) — never a finite *that*-clause.
 **Pattern:** *regarding* [noun phrase] &middot; *Regarding* [noun phrase], [main clause].
@@ -528,9 +848,33 @@ Announces the subject of the sentence or the document. In American office writin
 
 **See also:** [concerning](#concerning), [respecting](#respecting), [touching](#touching), [pertaining to](#pertaining-to), [speaking of](#speaking-of), [re](10-topic-reference-role.md#re), [with regard to](11-complex-multiword.md#with-regard-to), [as for](10-topic-reference-role.md#as-for)
 
+### relating to
+
+**Pronunciation:** /rɪˈleɪtɪŋ tu/ &middot; weak /rəˈleɪɾɪn tə/ &middot; *rih-LAY-ting too*
+**Русский:** относящийся к, связанный с — рабочая лошадка амер. юр. языка, «на всякий случай»
+**Type:** marginal/participial (two-word) &middot; **Register:** neutral to formal; the current American drafting default, and the workhorse of contracts, subpoenas, statutes, and privacy policies
+**Complement:** noun phrase, gerund (*relating to hiring contractors*), or a *wh*-nominal (*relating to what was said at the meeting*) — never a finite *that*-clause (✗ *relating to he was fired* → *relating to his firing*). The *to* is a **preposition**, not an infinitive marker, so a verb after it must end in *-ing*: ✗ *relating to hire contractors*.
+**Pattern:** [noun phrase] *relating to* [noun phrase] &middot; *arising out of or relating to* [noun phrase]
+**Contrast:** The widest of the topic prepositions, and deliberately so — a demand for documents *relating to* a subject sweeps in more than one for documents [*concerning*](#concerning) or [*pertaining to*](#pertaining-to) it, which is why the choice is fought over in discovery. Ranked by weight: plain *about* in speech, *regarding* in business writing, *relating to* in drafting, *pertaining to* in records and statutes. Against [*arising out of*](#arising-out-of), which demands a causal link, *relating to* demands only a connection. Keep it apart from the adjective *related to* (*a company related to the buyer*) and from the plain verb (*the witness related what he saw*).
+
+The catch-all of American legal drafting: the phrase that is added last so that nothing falls outside the sentence.
+
+**1. On the subject of; connected with.** The drafting use.
+**2. In the arbitration and discovery formulas.** Chained after *arising out of*.
+
+1. Produce all documents *relating to* the transaction.
+2. Any dispute arising out of or *relating to* this Agreement goes to arbitration.
+3. The statute *relating to* municipal bonds was rewritten in 2009.
+4. She had no information *relating to* the second break-in.
+5. Costs *relating to* hiring contractors are billed separately.
+6. Questions *relating to* what was said at the meeting were ruled out.
+
+**See also:** [pertaining to](#pertaining-to), [regarding](#regarding), [concerning](#concerning), [arising out of](#arising-out-of), [in relation to](10-topic-reference-role.md#in-relation-to), [in connection with](11-complex-multiword.md#in-connection-with)
+
 ### respecting
 
 **Pronunciation:** /rɪˈspɛktɪŋ/ &middot; weak /rəˈspɛktɪn/ &middot; *rih-SPEK-ting*
+**Русский:** устар./юр. относительно, касательно — старейший из сохранившихся предлогов темы
 **Type:** marginal/participial &middot; **Register:** formal and dated; alive in statutes and constitutional text
 **Complement:** noun phrase or gerund — never a finite clause.
 **Pattern:** *respecting* [noun phrase] &middot; *Respecting* [noun phrase], [main clause].
@@ -549,6 +893,7 @@ The oldest of the surviving topic prepositions. Use it only when you are quoting
 ### saving
 
 **Pronunciation:** /ˈseɪvɪŋ/ &middot; casual /ˈseɪvɪn/ &middot; *SAY-ving*
+**Русский:** устар. за исключением, кроме — юр. пережиток старого except
 **Type:** marginal/participial &middot; **Register:** archaic; survives in legal drafting and set courtesies
 **Complement:** noun phrase — never a finite clause in modern use. The old conjunction *saving that* is archaic.
 **Pattern:** *saving* [noun phrase] &middot; *Saving* [noun phrase], [main clause].
@@ -564,9 +909,30 @@ An old *except* with a legal afterlife.
 
 **See also:** [excepting](#excepting), [bating](#bating), [excepted](#excepted), [barring](#barring)
 
+### spanning
+
+**Pronunciation:** /ˈspænɪŋ/ &middot; casual /ˈspænɪn/ &middot; *SPAN-ing*
+**Русский:** охватывающий, протяжённостью в — «карьера длиной в сорок лет»
+**Type:** marginal/participial (noun-postmodifying, measure phrase) &middot; **Register:** neutral; journalism, obituaries, exhibition copy, and academic description
+**Complement:** an extent — a period, a run of years, a set of places or categories. Never a finite clause, never a gerund, and never a single point: ✗ *spanning 1975* → *spanning the years 1975 to 1980*.
+**Pattern:** [noun phrase] *spanning* [period] &middot; [noun phrase] *spanning* [range]
+**Contrast:** *Spanning* needs two implied endpoints, which is why it takes a stretch rather than a date, and why it will not expand with *which is* (✗ *a career which is spanning four decades*). *Covering* is the plainer word and *from … to* plainer still. The literal, physical sense (*a bridge spanning the river*) is the same word with its subject restored, and there it is an ordinary participle.
+
+The reach word. It gives a noun a beginning and an end without naming either one.
+
+1. A career *spanning* four decades ended with a single email.
+2. The collection, *spanning* the years 1890 to 1940, was donated intact.
+3. A study *spanning* eleven countries found the same pattern everywhere.
+4. He wrote a history of the valley *spanning* three centuries.
+5. Renovations *spanning* two summers finally finished the roof.
+6. A friendship *spanning* the whole of their working lives.
+
+**See also:** [numbering](#numbering), [measuring](#measuring), [weighing](#weighing), [during](#during), [throughout](05-time.md#throughout)
+
 ### speaking of
 
 **Pronunciation:** /ˈspikɪŋ ʌv/ &middot; weak /ˈspikɪn ə/ &middot; *SPEE-king uv*
+**Русский:** кстати о, говоря о — разг. поворот беседы к только что прозвучавшему слову
 **Type:** marginal/participial (two-word); a conversational discourse connector &middot; **Register:** informal to neutral; overwhelmingly spoken
 **Complement:** noun phrase or gerund (*speaking of getting there early*) — never a finite clause (✗ *speaking of he is late* → *speaking of his being late*). One extra restriction no other word in this file has: the object must be something already said or obviously in the air. *Speaking of* cannot introduce a topic out of nowhere, which is why it is a connector and not just a preposition.
 **Pattern:** *Speaking of* [noun phrase], [main clause]. &middot; *Speaking of which*, [main clause]. — always fronted, always with a comma.
@@ -590,6 +956,7 @@ The pivot of American conversation: it grabs a word someone just said and turns 
 ### starting
 
 **Pronunciation:** /ˈstɑrtɪŋ/ &middot; flapped and casual /ˈstɑrɾɪn/ &middot; *STAR-ting*
+**Русский:** начиная с — разг. соответствие beginning; только о времени, никогда о лице или предмете
 **Type:** marginal/participial &middot; **Register:** neutral to informal; the spoken counterpart of *beginning*
 **Complement:** a time expression — a date, a day, a clock time, or a prepositional phrase of time. Never a finite clause, and never an ordinary object in this sense.
 **Pattern:** *Starting* [time], [main clause]. &middot; [main clause] *starting* [time].
@@ -605,9 +972,54 @@ Fixes the first day of a new state of affairs. Purely temporal — it never take
 
 **See also:** [beginning](#beginning), [effective](05-time.md#effective), [pending](#pending), [as of](05-time.md#as-of)
 
+### surrounding
+
+**Pronunciation:** /səˈraʊndɪŋ/ &middot; casual /sɚˈraʊnɪn/ &middot; *suh-ROWN-ding*
+**Русский:** вокруг, связанный с — «обстоятельства, окружающие происшествие»; букв. «лежащий вокруг»
+**Type:** marginal/participial (noun-postmodifying) &middot; **Register:** neutral; the standard word of news writing and official inquiry
+**Complement:** a noun phrase naming an event, a decision, or a person — never a finite clause (✗ *the secrecy surrounding he resigned* → *surrounding his resignation*), never a gerund.
+**Pattern:** [abstract noun] *surrounding* [event] &middot; *the circumstances surrounding* [event]
+**Contrast:** In this use nothing physically surrounds anything: the questions *surrounding* his resignation are questions **about** it, and that bleaching is what makes the word a preposition rather than a live participle. It is confined to a short list of abstract head nouns — *questions*, *controversy*, *secrecy*, *mystery*, *circumstances*, *publicity*, *debate*, *speculation*. Put a concrete noun in front and the literal sense returns (*the fields surrounding the farmhouse*), and there it is an ordinary participle. The attributive adjective in *the surrounding countryside* takes no object at all, which is the usual test.
+
+The atmosphere word. It gathers everything hanging around an event without naming any of it.
+
+**1. Abstract: attending; about.** With *questions*, *circumstances*, *controversy*, and their relatives.
+**2. Literal: lying around.** The ordinary participle, with a concrete head noun.
+
+1. The secrecy *surrounding* the deal made everyone suspicious.
+2. Questions *surrounding* his resignation have not gone away.
+3. The controversy *surrounding* the mural lasted a decade.
+4. Investigators are looking into the circumstances *surrounding* the fire.
+5. All the publicity *surrounding* the trial made a jury hard to seat.
+6. The fields *surrounding* the farmhouse flooded in April — the literal use, and an ordinary participle.
+
+**See also:** [concerning](#concerning), [relating to](#relating-to), [involving](#involving), [about](10-topic-reference-role.md#about), [in the wake of](11-complex-multiword.md#in-the-wake-of)
+
+### totaling
+
+**Pronunciation:** /ˈtoʊtəlɪŋ/ &middot; casual /ˈtoʊɾlɪn/ &middot; *TOH-tuh-ling*
+**Русский:** на общую сумму, всего — закрывает перечень цифр их итогом без глагола
+**Type:** marginal/participial (noun-postmodifying, measure phrase) &middot; **Register:** neutral to formal; the standard word of financial reporting, court filings, and news
+**Complement:** an amount — money, a count, a span of time. Never a finite clause, never a gerund, and the head noun must be plural or collective, because a total is a sum of things: ✗ *a fine totaling $500* → *a fine of $500*.
+**Pattern:** [plural noun] *totaling* [amount]
+**Contrast:** *Totaling* sums items already named; [*numbering*](#numbering) counts them; [*exceeding*](#exceeding) sets a ceiling over them. *Amounting to* is the heavier synonym and prefers a single figure with a note of judgment (*conduct amounting to fraud*). Like the rest of the measure group it refuses the progressive relative (✗ *fines which are totaling two million dollars*).
+**Variants:** *totalling* (British spelling; American English uses one *l*)
+
+The adding-up word. It closes a list of amounts with their sum and no verb.
+
+1. Fines *totaling* $2.3 million were levied against the utility.
+2. Grants *totaling* just over a million dollars went to eleven schools.
+3. He served three sentences *totaling* eleven years.
+4. Layoffs *totaling* nine percent of the workforce were announced Monday.
+5. Repairs *totaling* four thousand dollars were covered by the warranty.
+6. Contributions *totaling* less than two hundred dollars need not be itemized.
+
+**See also:** [numbering](#numbering), [exceeding](#exceeding), [measuring](#measuring), [in the amount of](07-agent-instrument-manner.md#in-the-amount-of), [in excess of](11-complex-multiword.md#in-excess-of)
+
 ### touching
 
 **Pronunciation:** /ˈtʌtʃɪŋ/ &middot; casual /ˈtʌtʃɪn/ &middot; *TUH-ching*
+**Русский:** устар. относительно, касательно — только в прозе XVII–XVIII вв. и в стилизациях под неё
 **Type:** marginal/participial &middot; **Register:** archaic; ecclesiastical, legal, and literary
 **Complement:** noun phrase — never a finite clause.
 **Pattern:** *touching* [noun phrase] &middot; *Touching* [noun phrase], [main clause].
@@ -626,6 +1038,7 @@ Survives almost entirely in seventeenth- and eighteenth-century prose and in del
 ### wanting
 
 **Pronunciation:** /ˈwɑntɪŋ/, /ˈwɔntɪŋ/ &middot; casual /ˈwɑnɪn/ &middot; *WAHN-ting*
+**Русский:** устар./книжн. за неимением, при отсутствии; также «без, минус» при вычитании
 **Type:** marginal/participial &middot; **Register:** archaic to formal-literary
 **Complement:** noun phrase — never a finite clause, never a gerund.
 **Pattern:** *Wanting* [noun phrase], [main clause]. &middot; [quantity] *wanting* [quantity].
@@ -646,13 +1059,161 @@ The older sibling of *lacking*, from the original sense of *want*, "to be missin
 
 **See also:** [lacking](#lacking), [failing](#failing), [absent](08-accompaniment-exception.md#absent), [bating](#bating), [minus](08-accompaniment-exception.md#minus), [less](08-accompaniment-exception.md#less)
 
+### weighing
+
+**Pronunciation:** /ˈweɪɪŋ/ &middot; casual /ˈweɪɪn/ &middot; *WAY-ing*
+**Русский:** весом в — «посылка весом в три килограмма»
+**Type:** marginal/participial (noun-postmodifying, measure phrase) &middot; **Register:** neutral; shipping, medicine, agriculture, and any prose that has to say how heavy something is
+**Complement:** a weight — never a finite clause, never a gerund, never a person. The other *weighing*, meaning "considering," takes a real object (*weighing the options*) and is a live participle with a subject to match.
+**Pattern:** [noun phrase] *weighing* [weight]
+**Contrast:** The two *weighings* split cleanly by complement and by danger. In the measure frame the phrase takes a quantity, cannot passivize, and cannot dangle, because there is no one doing the weighing: *a box weighing forty pounds*. In the transitive frame it takes an object and must dangle-check like any participle: ✗ *Weighing the options, the decision was postponed* has the decision doing the weighing. And as in the rest of the measure group, ✗ *a box which is weighing forty pounds* is impossible — only *that weighs*.
+
+The mass word, and the one member of the measure group that most often gets confused with a completely different verb spelled the same way.
+
+1. A tumor *weighing* nearly two pounds was removed.
+2. They landed a halibut *weighing* over a hundred pounds.
+3. Anything *weighing* more than fifty pounds ships freight.
+4. A calf *weighing* eighty pounds at birth is unusual.
+5. He carried a pack *weighing* a third of what he did.
+6. A meteorite fragment *weighing* eleven grams sold for four thousand dollars.
+
+**See also:** [measuring](#measuring), [numbering](#numbering), [totaling](#totaling), [spanning](#spanning), [exceeding](#exceeding)
+
 ## Prepositions from past participles
 
-Four forms that shed a subject and a *be* and became prepositions outright. They split on the complement, and the split is the thing to memorize: *given* and *granted* accept a *that*-clause, which puts them in a tiny minority, while *based on* and *compared to* take a noun phrase, a gerund, or a *wh*-nominal and reject a finite clause outright (✗ *based on he told me*, ✗ *compared to she was faster*). In the two-word members the second word is welded on — you cannot drop the *on* or the *to*, and you cannot swap in another preposition.
+Forms that shed a subject and a *be* and became prepositions outright. They split on the complement, and the split is the thing to memorize: *given* and *granted* accept a *that*-clause, which puts them in a tiny minority, while every other member — *based on*, *compared to*, *followed by*, *predicated on*, and the rest — takes a noun phrase, a gerund, or a *wh*-nominal and rejects a finite clause outright (✗ *based on he told me*, ✗ *compared to she was faster*, ✗ *followed by they left*). In the two-word members the second word is welded on: you cannot drop the *on* or the *to*, and you cannot swap in another preposition.
+
+Four smaller families live inside the section. The *as*-framed ones (*as cited in*, *as determined by*, *as evidenced by*, *as measured by*) attach a source, an authority, a proof, or a yardstick to a claim, and they are the working joints of legal and scientific prose. The destination ones (*bound for*, *destined for*, *headed for*) put a thing on a course, and differ only in how sure the arrival is. The benchmark ones (*indexed to*, *pegged to*, *referenced to*) tie a number to another number. And the sequence pair (*followed by*, *preceded by*) fixes an order — with the standing warning that whatever follows *followed by* comes second and whatever follows *preceded by* came first, which is the single most reversible error in the group.
+
+### accompanied by
+
+**Pronunciation:** /əˈkʌmpənid baɪ/ &middot; weak /əˈkʌmpənid bə/ &middot; *uh-KUM-puh-need by*
+**Русский:** в сопровождении, вместе с — о спутниках, приложенных документах, сопутствующих явлениях
+**Type:** marginal/participial (past participle, two-word) &middot; **Register:** neutral to formal; notices, rules, travel and admission policies, medical writing, and concert programs
+**Complement:** a noun phrase — a person, a document, or a phenomenon. A gerund is grammatical but rare (*accompanied by being asked for identification*), and a finite clause is impossible (✗ *accompanied by his wife came too*). A pronoun object is objective: *accompanied by me*, ✗ *accompanied by I*.
+**Pattern:** [noun phrase] *accompanied by* [noun phrase] &middot; *Accompanied by* [noun phrase], [main clause]. &middot; *unaccompanied by* [noun phrase]
+**Contrast:** The construction keeps a **hierarchy**: the subject is the main party and the object is the escort, which is why *the senator, accompanied by two aides* is normal and the reverse sounds absurd. It shares that with [*along with*](08-accompaniment-exception.md#along-with) and [*together with*](08-accompaniment-exception.md#together-with), and it shares their agreement rule too — the phrase is parenthetical, so the verb still agrees with the first noun (*The manager, accompanied by three players, **was** fined*). Plain [*with*](02-core-relational.md#with) is the everyday word and levels the hierarchy. The negative *unaccompanied by* is the fixed form on rules and forms; ✗ *not accompanied by* in that slot reads as a mistake.
+**Variants:** *unaccompanied by* (the negative, standard in rules and notices)
+
+Attaches an escort, an enclosure, or a companion symptom to the thing that matters, and quietly ranks the two.
+
+**1. In the company of.** With people.
+**2. Coming with; enclosed with.** With documents, payments, and paperwork.
+**3. Occurring together with.** With symptoms, weather, and other phenomena — and in music, with the instrument behind the singer.
+
+1. The senator arrived *accompanied by* two aides and a lawyer.
+2. Applications must be *accompanied by* a check for the filing fee.
+3. Fever *accompanied by* a rash should be reported the same day.
+4. The storm was *accompanied by* winds of sixty miles an hour.
+5. Minors *unaccompanied by* an adult are not admitted after nine.
+6. She sang the aria *accompanied by* a single guitar.
+
+**See also:** [along with](08-accompaniment-exception.md#along-with), [together with](08-accompaniment-exception.md#together-with), [complete with](08-accompaniment-exception.md#complete-with), [followed by](#followed-by), [with](02-core-relational.md#with)
+
+### adapted from
+
+**Pronunciation:** /əˈdæptɪd frʌm/ &middot; weak /əˈdæptəd frəm/ &middot; *uh-DAP-tid frum*
+**Русский:** по мотивам, в переработке — указывает, чем вещь была до переделки
+**Type:** marginal/participial (past participle, two-word) &middot; **Register:** neutral; credit lines, playbills, textbook figures, and recipe headnotes
+**Complement:** a noun phrase naming a source work or its author — never a finite clause, and a gerund is impossible (✗ *adapted from writing a novel*).
+**Pattern:** [work] *adapted from* [source] &middot; *Adapted from* [source], [main clause].
+**Contrast:** *Adapted from* claims a **change of form** — novel to screenplay, restaurant recipe to home kitchen, adult text to children's edition — and promises that the original is being followed. [*Based on*](#based-on) claims only a source of material and is much looser: a film *based on* a true story may invent freely. In a credit line *by* names the adapter, not the source, so swapping the two reverses the credit; ✗ *adapted of* is not English, and the literary version is *after* (*a comedy after Molière*).
+
+The credit-line preposition. It names what the thing used to be before somebody rebuilt it.
+
+1. A miniseries *adapted from* a novel nobody finished.
+2. The recipe is *adapted from* my grandmother's, with half the butter.
+3. *Adapted from* a 1954 radio play, the film keeps the original ending.
+4. Figure 3 is *adapted from* Kessler (2011) and used with permission.
+5. The drills are *adapted from* the Army's field manual.
+6. A screenplay *adapted from* her own memoir — *adapted by* would name the writer instead.
+
+**See also:** [based on](#based-on), [as cited in](#as-cited-in), [premised on](#premised-on), [after the manner of](07-agent-instrument-manner.md#after-the-manner-of), [from](02-core-relational.md#from)
+
+### as cited in
+
+**Pronunciation:** /æz ˈsaɪtɪd ɪn/ &middot; weak /əz ˈsaɪɾəd ɪn/ &middot; *az SY-tid in*
+**Русский:** цит. по — научн. ссылка на источник, прочитанный из вторых рук
+**Type:** marginal/participial (three-word: *as* plus past participle plus preposition) &middot; **Register:** formal and scholarly; APA-style citation of a source the writer reached secondhand. An American meets it in a term paper, a literature review, and a brief quoting a case from another brief.
+**Complement:** a noun phrase naming the work actually consulted — never a finite clause, never a gerund.
+**Pattern:** ([author], [year], *as cited in* [author], [year]) &middot; [quotation], *as cited in* [source]
+**Contrast:** The point of the phrase is an admission: the writer read the **second** source, not the first. *(Vygotsky, 1934, as cited in Wertsch, 1985)* credits Vygotsky with the idea and Wertsch with the writer's access to it, and dropping the phrase claims a reading that never happened. *Quoted in* is the plainer version and the one Chicago style prefers; bare *cited in* points the other way, naming where a work **is** cited rather than where you found it. The sister phrases *as defined in*, *as provided in*, *as set forth in*, and *as used in* point into a document instead of at a source, and belong with the [topic and reference prepositions](10-topic-reference-role.md#in-reference-to).
+
+The secondhand-source marker of academic writing, and the one citation formula that is honest about what the writer did not read.
+
+1. Vygotsky (1934), *as cited in* Wertsch (1985), draws the same distinction.
+2. The 1908 figures, *as cited in* the commission's report, are unreliable.
+3. He quotes Adams, *as cited in* a footnote to Miller's biography.
+4. *As cited in* the brief, the statute has never been amended.
+5. Reviewers flagged three claims as resting on work known only *as cited in* secondary sources.
+6. The epigraph is Pascal, *as cited in* a sermon of 1890.
+
+**See also:** [as determined by](#as-determined-by), [as evidenced by](#as-evidenced-by), [as measured by](#as-measured-by), [according to](11-complex-multiword.md#according-to), [per](07-agent-instrument-manner.md#per)
+
+### as determined by
+
+**Pronunciation:** /æz dɪˈtɜrmɪnd baɪ/ &middot; weak /əz dəˈtɜrmənd bə/ &middot; *az dih-TUR-mind by*
+**Русский:** как определено (кем-л.), по определению — юр. называет того, кто решает
+**Type:** marginal/participial (three-word) &middot; **Register:** formal and legal; contracts, benefit plans, regulations, insurance policies, and grading rubrics. An American meets it in an employment agreement and in the fine print of a health plan.
+**Complement:** a noun phrase naming the decider — a person, an office, a committee, or a stated method. Never a finite clause (✗ *as determined by the board decides*), never a gerund.
+**Pattern:** [noun phrase], *as determined by* [decider] &middot; [quantity] *as determined by* [method]
+**Contrast:** This is the clause that names **who gets to decide**, and in a contract it is often worth more than the sentence it modifies: *fair market value as determined by an independent appraiser* takes the decision away from both parties, while *as determined by the Company in its sole discretion* hands it to one of them. Against [*as measured by*](#as-measured-by), which names a **yardstick**, and [*as evidenced by*](#as-evidenced-by), which names a **proof**, this one names an **authority**. Bare [*by*](02-core-relational.md#by) would name an agent without the parenthetical framing, and [*according to*](11-complex-multiword.md#according-to) reports a source rather than conferring a power.
+
+The decision-rights clause. Read it before the number it modifies.
+
+1. Fair market value, *as determined by* an independent appraiser, controls.
+2. Benefits are payable on total disability, *as determined by* the plan administrator.
+3. The bonus pool, *as determined by* the compensation committee, is discretionary.
+4. Eligibility turns on household income *as determined by* the prior year's return.
+5. Grades are final *as determined by* the instructor of record.
+6. The boundary follows the thread of the river *as determined by* the 1953 survey.
+
+**See also:** [as measured by](#as-measured-by), [as evidenced by](#as-evidenced-by), [at the behest of](07-agent-instrument-manner.md#at-the-behest-of), [subject to](11-complex-multiword.md#subject-to), [pursuant to](11-complex-multiword.md#pursuant-to)
+
+### as evidenced by
+
+**Pronunciation:** /æz ˈɛvɪdənst baɪ/ &middot; weak /əz ˈɛvədənst bə/ &middot; *az EV-ih-denst by*
+**Русский:** о чём свидетельствует, что подтверждается — вводит доказательство внутри фразы
+**Type:** marginal/participial (three-word) &middot; **Register:** formal; legal drafting, academic argument, and medical charting. An American meets it in a demand letter, a peer-reviewed paper, and a nurse's note.
+**Complement:** a noun phrase naming the proof — a document, a fact, a finding. A gerund is possible (*as evidenced by having bought insurance the week before*), but a nominalization reads better. Never a finite clause: ✗ *as evidenced by he never called* → *as evidenced by his silence*.
+**Pattern:** [claim], *as evidenced by* [proof].
+**Contrast:** It asserts that the thing named **proves** the claim just made, which is stronger than *as shown by* and much stronger than *as indicated by*, and it is why lawyers use it to bolt a claim onto an exhibit (*as evidenced by the attached invoice*). Against [*as determined by*](#as-determined-by), which names who decides, this names what proves. Against [*judging by*](#judging-by), which admits the speaker is inferring and might be wrong, *as evidenced by* admits nothing. The verb is spelled with a *c*: *evidenced*, never ✗ *evidented*.
+
+The proof clause. It hands the reader the exhibit without breaking the sentence.
+
+1. The loan was repaid in full, *as evidenced by* the canceled note.
+2. She had actual notice, *as evidenced by* her reply of March 3.
+3. Demand is recovering, *as evidenced by* three straight months of hiring.
+4. The patient is fluid-overloaded, *as evidenced by* an eight-pound weight gain.
+5. The town was prosperous, *as evidenced by* the size of the courthouse.
+6. He knew the risk, *as evidenced by* having bought insurance the week before.
+
+**See also:** [as determined by](#as-determined-by), [as cited in](#as-cited-in), [judging by](#judging-by), [based on](#based-on), [on the strength of](06-cause-purpose.md#on-the-strength-of)
+
+### as measured by
+
+**Pronunciation:** /æz ˈmɛʒɚd baɪ/ &middot; weak /əz ˈmɛʒɚd bə/ &middot; *az MEZH-urd by*
+**Русский:** по измерению, согласно замеру — называет мерило, которым получена цифра
+**Type:** marginal/participial (three-word) &middot; **Register:** formal; science, statistics, economics, policy writing, and performance reviews
+**Complement:** a noun phrase naming an instrument, a test, an index, or a metric — never a finite clause, never a gerund.
+**Pattern:** [claim or quantity], *as measured by* [metric].
+**Contrast:** This is the honest hedge of quantitative writing: it concedes that the claim is only as good as the yardstick. *Poverty, as measured by the federal threshold* is a narrower claim than *poverty*, and a reader is entitled to the difference. Against [*as determined by*](#as-determined-by), where an authority decides, and [*as evidenced by*](#as-evidenced-by), where a fact proves, this one names the ruler. [*Controlling for*](#controlling-for) is its neighbor in the same methods paragraph and does the opposite job — one names the measure, the other removes a confound — and [*adjusting for*](#adjusting-for) reworks the number itself.
+
+The yardstick clause. Every serious number in a report should carry one.
+
+1. Inflation, *as measured by* the consumer price index, ran at three percent.
+2. Reading gains, *as measured by* the state test, were largest in third grade.
+3. The country is the world's largest economy *as measured by* purchasing power.
+4. Sleep quality, *as measured by* the Pittsburgh index, improved in both groups.
+5. Productivity *as measured by* output per hour has barely moved in a decade.
+6. Success here is *as measured by* retention at twelve months, not by sales.
+
+**See also:** [as determined by](#as-determined-by), [as evidenced by](#as-evidenced-by), [controlling for](#controlling-for), [adjusting for](#adjusting-for), [in terms of](11-complex-multiword.md#in-terms-of)
 
 ### based on
 
 **Pronunciation:** /ˌbeɪst ˈɑn/, /ˌbeɪst ˈɔn/ &middot; weak /beɪst ən/ &middot; *bayst-ON*
+**Русский:** на основе, по мотивам (о фильме); исходя из — судя по имеющимся данным
 **Type:** marginal/participial (past participle, two-word) &middot; **Register:** neutral; standard in American journalism and business writing
 **Complement:** noun phrase, gerund, or a *wh*-nominal (*based on what he told us*) — never a finite *that*-clause (✗ *based on that he told us*). For a clause, write *because* or *on the ground that*.
 **Pattern:** *Based on* [noun phrase], [main clause]. &middot; [noun phrase] *based on* [noun phrase]. &middot; [clause], *based on* [noun phrase].
@@ -673,9 +1234,30 @@ The most contested word in this file, and the clearest case of a participle fini
 
 **See also:** [judging by](#judging-by), [depending on](#depending-on), [considering](#considering), [given](#given), [according to](11-complex-multiword.md#according-to), [on the basis of](11-complex-multiword.md#on-the-basis-of)
 
+### bound for
+
+**Pronunciation:** /ˈbaʊnd fɔr/ &middot; weak /ˈbaʊn fɚ/ &middot; *BOWND fer*
+**Русский:** следующий в, направляющийся в — о судне, поезде, грузе; книжн. и морской оттенок
+**Type:** marginal (past-participial in shape, adjectival in origin, two-word) &middot; **Register:** neutral, faintly literary and nautical; standard on manifests, in shipping news, and in headlines
+**Complement:** a destination — a place, a port, a market, or a metaphorical end point. Never a finite clause, never a gerund, and never a person.
+**Pattern:** [noun phrase] *bound for* [destination] &middot; [subject] *is bound for* [destination] &middot; compounds: *homeward bound*, *outward bound*, *northbound*, *Chicago-bound*
+**Contrast:** The *bound* here is **not** the past participle of *bind*: it is Old Norse *búinn*, "prepared," which is why *bound for Chicago* has nothing to do with being tied, while *bound by the contract* and *bound to happen* do come from *bind*. Against [*headed for*](#headed-for), the ordinary spoken word, *bound for* is older and more formal and belongs to ships, trains, and fate; against [*destined for*](#destined-for), which claims the arrival is settled, *bound for* reports only the heading. [*En route to*](04-movement-direction.md#en-route-to) says the journey is already under way.
+
+The manifest word. It states where a vessel, a train, a shipment, or a life is pointed.
+
+1. A freighter *bound for* Rotterdam left the harbor at dawn.
+2. The 6:40 is *bound for* Philadelphia, calling at Trenton.
+3. Two truckloads of grain *bound for* the coast were turned back at the line.
+4. He was nineteen, broke, and *bound for* California.
+5. Half that graduating class was *bound for* medical school.
+6. The ship was homeward *bound*, and the crew was *bound for* two weeks of leave.
+
+**See also:** [headed for](#headed-for), [destined for](#destined-for), [en route to](04-movement-direction.md#en-route-to), [toward](04-movement-direction.md#toward), [for](02-core-relational.md#for)
+
 ### compared to
 
 **Pronunciation:** /kəmˈpɛrd tu/ &middot; weak /kəmˈpɛrd tə/ &middot; *kum-PAIRD too*
+**Русский:** по сравнению с; также «подобно, наравне с» при образном сопоставлении
 **Type:** marginal/participial (past participle, two-word) &middot; **Register:** neutral
 **Complement:** noun phrase or gerund — never a finite clause (✗ *compared to he ran faster* → *compared to him*, *compared to his time*). The two things compared must be **parallel**, and this is where the sentence usually breaks: ✗ *Her salary is low compared to a manager* compares a salary to a person → *compared to a manager's* or *compared with that of a manager*. A pronoun object takes the objective case: *compared to me*, ✗ *compared to I*.
 **Pattern:** [clause], *compared to* [noun phrase]. &middot; *Compared to* [noun phrase], [main clause]. &middot; [noun phrase] *compared with* [noun phrase].
@@ -696,9 +1278,53 @@ Sets one thing beside another so the difference registers. It is the standard Am
 
 **See also:** [based on](#based-on), [given](#given), [in comparison with](11-complex-multiword.md#in-comparison-with), [relative to](11-complex-multiword.md#relative-to), [contrary to](11-complex-multiword.md#contrary-to)
 
+### destined for
+
+**Pronunciation:** /ˈdɛstɪnd fɔr/ &middot; weak /ˈdɛstənd fɚ/ &middot; *DES-tind fer*
+**Русский:** предназначенный для (о грузе); которому суждено (о судьбе)
+**Type:** marginal/participial (past participle, two-word) &middot; **Register:** neutral to formal; logistics and shipping at one end, biography and obituary at the other
+**Complement:** a destination or an outcome — a place, a market, a rank, a fate. Never a finite clause. A *to*-infinitive belongs to the adjective rather than to this preposition, and the two are not interchangeable: *destined to fail* and *destined for failure* are both standard, but ✗ *destined for fail* and ✗ *destined to failure* are not.
+**Pattern:** [noun phrase] *destined for* [destination] &middot; [subject] *is destined for* [outcome] &middot; [subject] *is destined to* [verb]
+**Contrast:** Against [*bound for*](#bound-for), which reports a heading, *destined for* claims the arrival is **settled** — by a shipping order, a plan, or fate — and it keeps that grandeur even on a bill of lading. Against [*headed for*](#headed-for), which is neutral and spoken, it is a prediction, and predictions are what make it a cliché in profiles (*destined for greatness*). In logistics it is flat and literal and nobody hears the fate in it at all.
+
+The word that says where a thing will end up, not merely where it is going.
+
+**1. Consigned to a place.** The shipping use, literal and unremarkable.
+**2. Fated for an outcome.** The biographical use, where the word does its heavy breathing.
+
+1. Three pallets *destined for* the Denver warehouse never left the dock.
+2. Most of the crop is *destined for* export.
+3. The letter was *destined for* an archive nobody would open for fifty years.
+4. She was, everyone agreed, *destined for* the bench.
+5. The company looked *destined for* bankruptcy until the refinancing came through.
+6. He was *destined to* lose that seat — *destined for* defeat says it with a noun instead.
+
+**See also:** [bound for](#bound-for), [headed for](#headed-for), [en route to](04-movement-direction.md#en-route-to), [for](02-core-relational.md#for), [toward](04-movement-direction.md#toward)
+
+### followed by
+
+**Pronunciation:** /ˈfɑloʊd baɪ/ &middot; weak /ˈfɑloʊd bə/ &middot; *FAH-lohd by*
+**Русский:** за которым следует, а затем — порядок следования без утверждения о причине
+**Type:** marginal/participial (past participle, two-word) &middot; **Register:** neutral; programs, itineraries, recipes, forecasts, and lab methods
+**Complement:** noun phrase or gerund (*followed by signing every page*) — never a finite clause (✗ *followed by they left*).
+**Pattern:** [noun phrase], *followed by* [noun phrase] &middot; [main clause], *followed by* [noun phrase].
+**Contrast:** The converse of [*preceded by*](#preceded-by), and the passive counterpart of the preposition [*following*](#following): *A followed by B* and *B following A* put the same two events in the same order, and mixing the two forms reverses the sequence. The reliable test is that whatever comes after *followed by* happens **second**. Unlike *following*, it makes no causal claim at all, which is why forecasts and programs prefer it. Being a reduced passive, it attaches to the nearest noun and can misfire: *We had dinner followed by a walk* is fine, but *We heard from the mayor followed by the fire chief* invites a reading in which the mayor is being chased.
+
+The running-order preposition. It sets two things in sequence and refuses to say that the first caused the second.
+
+1. Rain in the morning, *followed by* clearing in the afternoon.
+2. The ceremony is at four, *followed by* a reception in the courtyard.
+3. Sear the meat, *followed by* the onions and garlic.
+4. A short speech *followed by* questions from the floor.
+5. Two quarters of losses, *followed by* the sharpest rebound in a decade.
+6. Each witness reads the statement aloud, *followed by* signing every page.
+
+**See also:** [preceded by](#preceded-by), [following](#following), [preceding](#preceding), [after](05-time.md#after), [prior to](11-complex-multiword.md#prior-to)
+
 ### given
 
 **Pronunciation:** /ˈɡɪvən/ &middot; syllabic /ˈɡɪvn̩/ &middot; *GIV-un*
+**Русский:** учитывая, ввиду; given that — «раз уж, поскольку»; в математике — «дано»
 **Type:** marginal/participial (past participle) &middot; **Register:** neutral
 **Complement:** noun phrase, gerund, **or a finite clause with *that*** — *given that the deadline had passed*. It cannot stand alone as an adverb (✗ *She did well, given*).
 **Pattern:** *Given* [noun phrase], [main clause]. &middot; *Given that* [clause], [main clause]. &middot; [main clause] *given* [noun phrase].
@@ -725,6 +1351,7 @@ Treats what follows as established and reasons from it. Its origin is visible in
 ### granted
 
 **Pronunciation:** /ˈɡræntɪd/ &middot; casual /ˈɡrænɪd/ &middot; *GRAN-tid*
+**Русский:** допустим, положим, спору нет — уступка собеседнику перед возражением
 **Type:** marginal/participial (past participle); also a standalone concessive adverb &middot; **Register:** neutral
 **Complement:** noun phrase, gerund, or a finite clause with or without *that* — *granted (that) the price is high*. It also takes **no complement at all** as a sentence adverb: *Granted, it's expensive.*
 **Pattern:** *Granted* [noun phrase], [main clause]. &middot; *Granted (that)* [clause], [main clause]. &middot; *Granted*, [main clause].
@@ -745,13 +1372,253 @@ The concessive of the pair. It hands the other side a point and then takes the s
 
 **See also:** [given](#given), [considering](#considering), [notwithstanding](#notwithstanding), [in spite of](11-complex-multiword.md#in-spite-of)
 
+### headed for
+
+**Pronunciation:** /ˈhɛdɪd fɔr/ &middot; weak /ˈhɛɾəd fɚ/ &middot; *HED-id fer*
+**Русский:** направляющийся в, идущий к — разг. о машине, карьере, браке
+**Type:** marginal/participial (past participle, two-word) &middot; **Register:** informal to neutral; the everyday spoken American form
+**Complement:** a destination or an outcome — a place, a state of affairs. Never a finite clause, never a gerund (✗ *headed for leaving*).
+**Pattern:** [subject] *is headed for* [destination] &middot; [subject] *is headed to* [place] &middot; *Where are you headed?*
+**Contrast:** American English says *headed for* and *headed to* where British English says *heading for*; both American forms are standard, and the split between them is reach — *headed to* wants a **place**, while *headed for* also takes an **abstract outcome** (*headed for a fall*, *headed for divorce*, where ✗ *headed to trouble* sounds wrong). Against [*bound for*](#bound-for), which is formal and belongs to ships and trains, and [*destined for*](#destined-for), which predicts the ending, *headed for* reports only the current direction and leaves the ending open.
+**Variants:** *headed to*, *heading for*, *heading to* (all current; *heading for* is the British default)
+
+The direction-of-travel word of American speech, for cars, careers, and marriages alike.
+
+**1. Traveling toward a place.** With *to* or *for*.
+**2. On course for an outcome.** With *for* only.
+
+1. Where are you *headed to* after this?
+2. They're *headed for* the airport now.
+3. The bill looked *headed for* a veto until the last week of the session.
+4. That marriage was *headed for* trouble from the first year.
+5. We were *headed to* Nashville and got as far as Memphis.
+6. Both teams are *headed for* the playoffs for the first time since 1998.
+
+**See also:** [bound for](#bound-for), [destined for](#destined-for), [en route to](04-movement-direction.md#en-route-to), [toward](04-movement-direction.md#toward), [back to](04-movement-direction.md#back-to)
+
+### indexed to
+
+**Pronunciation:** /ˈɪndɛkst tu/ &middot; weak /ˈɪndɛks tə/ &middot; *IN-dekst too*
+**Русский:** индексируемый по, привязанный к — сумма автоматически следует за другим показателем
+**Type:** marginal/participial (past participle, two-word) &middot; **Register:** formal; economics, benefits administration, tax law, and contract drafting. An American meets it every year in the Social Security cost-of-living notice.
+**Complement:** a noun phrase naming an index or benchmark — never a finite clause, never a gerund, never a person. In running speech the two /t/ sounds collapse into one: *indexed to* comes out /ˈɪndɛkstə/.
+**Pattern:** [payment or figure] *indexed to* [benchmark]
+**Contrast:** [*Pegged to*](#pegged-to) fixes a value at a defended ratio and belongs to currencies; *indexed to* makes a figure **move with** a published measure and belongs to wages, benefits, rents, and tax brackets. *Tied to* is the plain word for both. Against [*adjusting for*](#adjusting-for), which reworks a number after the fact, indexing builds the adjustment into the future so nobody has to argue about it again.
+
+The escalator clause in one word. It says a number will follow another number wherever it goes.
+
+1. Social Security payments are *indexed to* the consumer price index.
+2. The lease sets a base rent *indexed to* inflation.
+3. Pensions *indexed to* wage growth cost the state more every year.
+4. Executive pay was *indexed to* three-year total shareholder return.
+5. Support obligations *indexed to* the payer's income are recalculated each January.
+6. A bond *indexed to* the price of oil pays more when crude does.
+
+**See also:** [pegged to](#pegged-to), [referenced to](#referenced-to), [adjusting for](#adjusting-for), [in proportion to](09-comparison-opposition.md#in-proportion-to), [relative to](09-comparison-opposition.md#relative-to)
+
+### pegged to
+
+**Pronunciation:** /pɛɡd tu/ &middot; weak /pɛɡ tə/ &middot; *PEGD too*
+**Русский:** привязанный к — о курсе валюты; в журналистике — приуроченный к событию
+**Type:** marginal/participial (past participle, two-word) &middot; **Register:** neutral to formal; financial journalism, central banking, and newsroom shop talk
+**Complement:** a noun phrase naming a benchmark — a currency, a rate, an index — or, in the journalistic sense, an occasion. Never a finite clause, never a gerund.
+**Pattern:** [currency or figure] *pegged to* [benchmark] &middot; [story] *pegged to* [occasion]
+**Contrast:** A peg is **fixed and defended**: the Hong Kong dollar is pegged to the U.S. dollar inside a band, and breaking the peg is front-page news. [*Indexed to*](#indexed-to) is a formula that moves; *pegged to* is a promise to hold still. The newsroom sense comes from the noun *news peg*, the occasion that justifies running a story now, and it is idiomatic American shop talk rather than finance. Note the doubled *g* before the ending.
+
+The fixed-exchange word, borrowed by editors for the reason a story runs today rather than next month.
+
+**1. Fixed to a benchmark.** The financial sense.
+**2. Tied to an occasion.** The journalistic sense.
+
+1. The riyal has been *pegged to* the dollar since 1986.
+2. Fees are *pegged to* the prime rate and change when it does.
+3. Salaries *pegged to* the federal scale rose two percent.
+4. The magazine ran a package *pegged to* the fiftieth anniversary.
+5. Ticket prices are *pegged to* what the market bore last season.
+6. A currency *pegged to* a basket of three others is harder to attack.
+
+**See also:** [indexed to](#indexed-to), [referenced to](#referenced-to), [based on](#based-on), [relative to](09-comparison-opposition.md#relative-to), [in proportion to](09-comparison-opposition.md#in-proportion-to)
+
+### preceded by
+
+**Pronunciation:** /prɪˈsidɪd baɪ/ &middot; weak /prəˈsiɾəd bə/ &middot; *prih-SEE-did by*
+**Русский:** которому предшествует — отступает на шаг назад во времени, не начиная новой фразы
+**Type:** marginal/participial (past participle, two-word) &middot; **Register:** neutral to formal; description, procedure, scholarship, and captions
+**Complement:** noun phrase or gerund (*preceded by signing the visitors' book*) — never a finite clause (✗ *preceded by she spoke*).
+**Pattern:** [noun phrase], *preceded by* [noun phrase] &middot; [main clause], *preceded by* [noun phrase].
+**Contrast:** The converse of [*followed by*](#followed-by), and together they are the most reliable way to fix an order in writing without dates: whatever comes after *preceded by* happened **first**. Reversing them reverses the history, and the error is common in captions and in lab methods. *Preceded by* is the passive counterpart of the preposition [*preceding*](#preceding) and, like it, asserts nothing about cause — for that you need [*following*](#following) or [*in the wake of*](11-complex-multiword.md#in-the-wake-of).
+
+The earlier-event preposition. It backs a sentence up one step without starting a new one.
+
+1. The vote was *preceded by* four hours of debate.
+2. Each rehearsal is *preceded by* a half hour of warm-ups.
+3. The eruption was *preceded by* weeks of small tremors.
+4. A short blackout, *preceded by* a flicker, took out the whole block.
+5. The interview, *preceded by* a tour of the plant, ran two hours long.
+6. Every visit is *preceded by* signing the visitors' book.
+
+**See also:** [followed by](#followed-by), [preceding](#preceding), [following](#following), [before](05-time.md#before), [prior to](11-complex-multiword.md#prior-to)
+
+### predicated on
+
+**Pronunciation:** /ˈprɛdɪkeɪtɪd ɑn/ &middot; weak /ˈprɛdəkeɪɾəd ən/ &middot; *PRED-ih-kay-tid awn*
+**Русский:** основанный на, исходящий из — книжн./юр. о посылке, без которой рушится всё остальное
+**Type:** marginal/participial (past participle, two-word) &middot; **Register:** formal; law, policy, and academic argument. Outside those settings it reads as inflation, and *based on* is the better word.
+**Complement:** noun phrase or gerund (*predicated on being able to refinance*) — never a finite clause (✗ *predicated on rates would fall* → *predicated on rates falling*, or *on the assumption that rates would fall*). The *on* is a preposition, so a verb after it takes *-ing*: ✗ *predicated on refinance*, ✗ *predicated to refinance*.
+**Pattern:** [claim or plan] *is predicated on* [noun phrase or gerund]
+**Contrast:** [*Based on*](#based-on) is the plain word and is nearly always better. *Predicated on* makes a stronger claim: the thing would **collapse** without the premise, so a plan predicated on one assumption fails the moment the assumption does. [*Premised on*](#premised-on) is its twin and is now the commoner of the two in American legal writing. Keep it apart from the logician's *predicate of*, which asserts a property of a subject and takes a different preposition entirely.
+**Variants:** *predicated upon* (heavier; older drafting)
+
+The load-bearing-assumption word. It names the thing that, if it goes, takes everything else with it.
+
+1. The whole plan is *predicated on* the state approving the permit.
+2. Federal jurisdiction here is *predicated on* diversity of citizenship.
+3. Their offer was *predicated on* a clean environmental report.
+4. The forecast is *predicated on* rates falling by summer — ✗ *predicated on rates will fall*.
+5. Everything we agreed to was *predicated on* being able to refinance.
+6. The argument is *predicated upon* a distinction the statute does not draw.
+
+**See also:** [premised on](#premised-on), [based on](#based-on), [given](#given), [subject to](11-complex-multiword.md#subject-to), [on the basis of](11-complex-multiword.md#on-the-basis-of)
+
+### premised on
+
+**Pronunciation:** /ˈprɛmɪst ɑn/ &middot; weak /ˈprɛməst ən/ &middot; *PREM-ist awn* (not *pruh-MYZD*)
+**Русский:** построенный на допущении, исходящий из посылки — книжн., язык юр. записок
+**Type:** marginal/participial (past participle, two-word) &middot; **Register:** formal; American legal briefs and academic prose
+**Complement:** noun phrase or gerund (*premised on the market recovering*) — never a finite clause (✗ *premised on the market recovers*). For a clause, switch the frame entirely and write *on the premise that the market will recover*. Also ✗ *premised to*, ✗ *premised in*.
+**Pattern:** [claim] *is premised on* [noun phrase or gerund] &middot; *on the premise that* [clause] — the clause repair
+**Contrast:** Against [*predicated on*](#predicated-on), the two are interchangeable in nearly every sentence, and American courts write *premised on* more often. Against [*based on*](#based-on), which names the **evidence** behind a conclusion, *premised on* names the **assumption** the argument cannot do without. The word is stressed on the first syllable, like the noun *premise*, and it is historically the same word as *premises* meaning a building — the things "set before" in a deed — which is a piece of etymology worth knowing precisely so the two do not get mixed in a sentence.
+**Variants:** *premised upon*
+
+The assumption word of the brief-writer. It marks the plank that the rest of the argument is standing on.
+
+1. The suit is *premised on* a theory the Ninth Circuit rejected last year.
+2. Their whole strategy was *premised on* cheap money.
+3. The estimate is *premised on* the market recovering by fall.
+4. An apology *premised on* being misunderstood is not an apology.
+5. The rule is *premised upon* the idea that notice is always possible.
+6. The deal was *premised on* a regulatory approval that never came.
+
+**See also:** [predicated on](#predicated-on), [based on](#based-on), [given](#given), [on the grounds of](06-cause-purpose.md#on-the-grounds-of), [subject to](11-complex-multiword.md#subject-to)
+
+### referenced to
+
+**Pronunciation:** /ˈrɛfərənst tu/ &middot; weak /ˈrɛfrənst tə/ &middot; *REF-runst too*
+**Русский:** отсчитываемый от, относительно (нуля) — тех. называет точку отсчёта измерения
+**Type:** marginal/participial (past participle, two-word) &middot; **Register:** technical; electrical engineering, metrology, surveying, and lab science. Outside those fields it reads as jargon.
+**Complement:** a noun phrase naming a reference point, datum, or baseline — never a finite clause, never a gerund, never a person.
+**Pattern:** [measurement] *referenced to* [datum]
+**Contrast:** In technical writing *referenced to* names the **zero** a measurement was taken from, and the number means nothing without it: a voltage referenced to ground, an elevation referenced to mean sea level, a power level referenced to one milliwatt — which is all that the *dBm* scale is. [*Relative to*](09-comparison-opposition.md#relative-to) is the general-purpose word and the better one in nontechnical prose; [*indexed to*](#indexed-to) and [*pegged to*](#pegged-to) do the same job for money. Keep it away from the loose journalistic verb *referenced*, meaning "mentioned" (*he referenced the memo*), which many American editors still refuse.
+
+The datum word. It names the zero, without which every other number on the page is an opinion.
+
+1. All voltages in the diagram are *referenced to* chassis ground.
+2. Elevations are *referenced to* the North American Vertical Datum of 1988.
+3. Power expressed in dBm is *referenced to* one milliwatt.
+4. Each reading is *referenced to* a calibrated standard kept in the lab.
+5. Coordinates *referenced to* the wrong datum put the well a hundred feet off.
+6. Timing is *referenced to* the rising edge of the clock.
+
+**See also:** [indexed to](#indexed-to), [pegged to](#pegged-to), [as measured by](#as-measured-by), [relative to](09-comparison-opposition.md#relative-to), [to](02-core-relational.md#to)
+
 ## Marginal prepositions from other word classes
 
-Words that were never verbs at all, yet take a bare object exactly the way a preposition does. Four of them are catalogued in the files that own their meaning rather than here, because what they do matters more than where they came from: the adjective [absent](08-accompaniment-exception.md#absent) (*absent a court order*) with the exception prepositions, the fossilized subjunctive [come](05-time.md#come) (*come Monday*) and the adjective [effective](05-time.md#effective) (*effective July 1*) with the time prepositions, and the Latin ablative [re](10-topic-reference-role.md#re) (*re your email*) with the topic prepositions. One stays here, because no other file has a claim on it and because it takes a direct object without being a verb.
+Words that were never verbs at all, yet take a bare object exactly the way a preposition does. Four of them are catalogued in the files that own their meaning rather than here, because what they do matters more than where they came from: the adjective [absent](08-accompaniment-exception.md#absent) (*absent a court order*) with the exception prepositions, the fossilized subjunctive [come](05-time.md#come) (*come Monday*) and the adjective [effective](05-time.md#effective) (*effective July 1*) with the time prepositions, and the Latin ablative [re](10-topic-reference-role.md#re) (*re your email*) with the topic prepositions. Five stay here, because no other file has a claim on them. [Worth](#worth) takes a direct object without being a verb; [unbeknownst to](#unbeknownst-to) is an adjective that survives only in front of an object; and three are imports that name a person or a business — the Latin adverb [alias](#alias), the French participle [née](#née), and the abbreviated participial phrase [d/b/a](#dba), which between them cover every way English has of saying that two names belong to one party.
+
+### alias
+
+**Pronunciation:** /ˈeɪliəs/ &middot; casual /ˈeɪljəs/ &middot; *AY-lee-us*
+**Русский:** он же, известный также как — соединяет два имени одного человека, не уточняя порядок
+**Type:** marginal (a Latin adverb, "at another time," pressed into prepositional service) &middot; **Register:** formal in a court caption, otherwise flavored by crime fiction; the abbreviation *a.k.a.* is the ordinary American form and is at home in conversation
+**Complement:** a name, and nothing else — never a clause, never a gerund, and never a common noun (✗ *alias a plumber*). It takes no article and no comma of its own on the right: *Robert Ellis, alias Bobby Deal*.
+**Pattern:** [name] *alias* [name] &middot; [name] *a.k.a.* [name] &middot; [name] *a/k/a* [name] (the court-caption spelling)
+**Contrast:** Four naming words divide the work. *Alias* introduces a **second name for the same person**; [*née*](#née) introduces the **name a woman was born with**; [*d/b/a*](#dba) introduces the **trade name of a business**; and [*qua*](10-topic-reference-role.md#qua) introduces a **capacity** rather than a name at all. In American court captions *a/k/a* has almost entirely replaced *alias*, which now sounds like a paperback; *a.k.a.* is also the only member of the group used jokingly (*the tax bill, a.k.a. the landlord bonus*), and it is read out letter by letter. Keep the preposition apart from the count noun *an alias*, which takes an article and is not this word.
+**Variants:** *a.k.a.*, *aka*, *a/k/a* (all read "ay-kay-ay"); the archaic full form is Latin *alias dictus*
+
+Joins two names for one person and says nothing about which came first.
+
+**1. Introducing an assumed or additional name.** The formal and forensic use.
+**2. *a.k.a.*: the everyday form.** Including the jocular renaming of things and institutions.
+
+1. The indictment names Robert Ellis, *alias* Bobby Deal.
+2. Edward Teach, *alias* Blackbeard, blockaded the harbor for a week.
+3. The witness knew him only as Sam Price, *a.k.a.* Samuel Prizzi.
+4. She writes crime novels as J. R. Vance, *a.k.a.* Professor Vance of the English department.
+5. Court records list the defendant as Doe, *a/k/a* Roe, *a/k/a* Coe.
+6. They call it the Family Tax Relief Act, *a.k.a.* the landlord bonus.
+
+**See also:** [née](#née), [d/b/a](#dba), [qua](10-topic-reference-role.md#qua), [in the person of](10-topic-reference-role.md#in-the-person-of), [in the capacity of](10-topic-reference-role.md#in-the-capacity-of)
+
+### d/b/a
+
+**Pronunciation:** /ˌdi bi ˈeɪ/, in full /ˈduɪŋ ˈbɪznəs æz/ &middot; weak /ˈduɪn ˈbɪznəs əz/ &middot; *dee-bee-AY*
+**Русский:** юр. действующий под фирменным наименованием — связывает лицо и вывеску на двери
+**Type:** marginal (an abbreviated participial phrase, *doing business as*, used as a preposition) &middot; **Register:** legal and commercial; court captions, county filings, business licenses, invoices, and bank signature cards
+**Complement:** a trade name — never a clause, never a gerund. The order is fixed and legally load-bearing: the **legal** name comes first and the **trade** name second, and reversing them misstates who can be sued.
+**Pattern:** [legal name] *d/b/a* [trade name] &middot; [former name] *f/k/a* [current name] &middot; [old name] *n/k/a* [new name]
+**Contrast:** *D/b/a* links a legal person to the name it trades under — in *Ellis Holdings LLC d/b/a Sunrise Diner*, the LLC is the party and the diner is only the sign. *F/k/a* ("formerly known as") and *n/k/a* ("now known as") track a change of name over time, and they point in opposite directions: *f/k/a* looks **back** from the name in use now, *n/k/a* looks **forward** from the old one, so picking the wrong one puts the timeline backwards. [*A.k.a.*](#alias) covers any second name at all. The British equivalent of *d/b/a* is *trading as*, abbreviated *t/a*.
+**Variants:** *dba*, *DBA*, *d.b.a.*; the same frame gives *f/k/a*, *n/k/a*, and *a/k/a*
+
+The business-identity connector. It is how a filing says that the sign on the door and the name on the lawsuit belong to the same entity.
+
+**1. Naming the trade name of a business.** The *d/b/a* use proper.
+**2. Tracking a change of name.** *F/k/a* and *n/k/a*, in captions and title records.
+
+1. The caption reads Ellis Holdings LLC *d/b/a* Sunrise Diner.
+2. She sued the contractor, Delgado *d/b/a* Del's Roofing.
+3. Payments went to a checking account for Vance Media *d/b/a* The Weekly.
+4. The plaintiff, Meridian Health Systems *f/k/a* Meridian Hospital Corp., filed in March.
+5. Title now stands in the name of Kestrel Partners *n/k/a* Kestrel Capital LLC.
+6. Register the *d/b/a* with the county before you order the checks.
+
+**See also:** [alias](#alias), [née](#née), [qua](10-topic-reference-role.md#qua), [in the name of](11-complex-multiword.md#in-the-name-of), [in the capacity of](10-topic-reference-role.md#in-the-capacity-of)
+
+### née
+
+**Pronunciation:** /neɪ/ &middot; masculine *né*, the same sound &middot; *NAY*, rhyming with *day* and never *NEE*
+**Русский:** урождённая — девичья фамилия женщины
+**Type:** marginal (a French past participle, "born," used as a preposition) &middot; **Register:** formal; obituaries, wedding announcements, genealogies, and society pages, with a growing jocular use in journalism
+**Complement:** a name — in the strict use, the **family name alone**. Never a clause, never a gerund. Because *née* already means "born," the given name is not repeated: *Hillary Clinton, née Rodham*, and ✗ *née Hillary Rodham* is common but frowned on.
+**Pattern:** [married name], *née* [birth surname] &middot; [current name], *né* [former name of a man]
+**Contrast:** *Née* is feminine and *né* masculine, and using *née* of a man is the error that turns up most (*Bob Dylan, né Robert Zimmerman*). Against [*alias*](#alias), which names an assumed identity, *née* records a fact of birth and passes no judgment; against plain *formerly*, which says nothing about why the name changed. American writing accepts the unaccented spelling *nee*, and American obituaries often prefer a parenthesis or the word *born* instead. The playful extension to renamed things (*the Willis Tower, né the Sears Tower*) is journalism, not standard usage.
+**Variants:** *né* (masculine), *nee* (unaccented American spelling)
+
+Records the name somebody was born with, in the one construction English kept from French for the purpose.
+
+1. Survived by his wife, Margaret Ellis, *née* Doyle.
+2. The bride's mother, Anne Whitcomb, *née* Fairbanks, gave the toast.
+3. Bob Dylan, *né* Robert Zimmerman, was twenty when he got to New York.
+4. The parish register lists Sarah Pool, *née* Hutchins, of Salem.
+5. My grandmother, *née* Kowalczyk, shortened it to Coles at Ellis Island.
+6. The Willis Tower, *né* the Sears Tower, is still called by the old name.
+
+**See also:** [alias](#alias), [d/b/a](#dba), [qua](10-topic-reference-role.md#qua), [in the person of](10-topic-reference-role.md#in-the-person-of)
+
+### unbeknownst to
+
+**Pronunciation:** /ˌʌnbɪˈnoʊnst tu/ &middot; weak /ˌʌnbəˈnoʊns tə/ &middot; *un-bih-NOHNST too*
+**Русский:** без ведома (кого-л.), незаметно для — читатель уже знает, а персонаж ещё нет
+**Type:** marginal (a fossilized adjective that takes a bare object, two-word) &middot; **Register:** neutral to formal, with a storytelling flavor; common in narrative journalism and fiction, rare in technical writing
+**Complement:** a person or an institution — the party kept in the dark. Never a finite clause (✗ *unbeknownst to he was there*), never a gerund, and not an inanimate force (✗ *unbeknownst to the weather*).
+**Pattern:** *Unbeknownst to* [person], [main clause]. &middot; [main clause], *unbeknownst to* [person].
+**Contrast:** The *-st* is a late and illogical addition — *unbeknown* is the older form, *beknown* has been dead for centuries, and there is no ✗ *beknownst to* — so the word survives only inside this frame. American usage prefers *unbeknownst*, British *unbeknown*, and both are standard. Against *without X knowing*, which is the plain equivalent and often better; against *behind X's back*, which adds a charge of bad faith that *unbeknownst to* does not carry. It has a narrative habit worth noticing: it almost always sets up a reveal.
+**Variants:** *unbeknown to* (older; chiefly British)
+
+Marks the person who did not know, and hands the reader the information first.
+
+1. *Unbeknownst to* her parents, she had already signed the lease.
+2. The camera had been running for an hour, *unbeknownst to* everyone in the room.
+3. *Unbeknownst to* the board, two directors had already resigned.
+4. He kept a second policy, *unbeknownst to* his wife.
+5. *Unbeknownst to* the buyers, the roof had been patched three times.
+6. The two firms were bidding against each other, *unbeknownst to* either of them.
+
+**See also:** [absent](08-accompaniment-exception.md#absent), [without](08-accompaniment-exception.md#without), [in the absence of](11-complex-multiword.md#in-the-absence-of), [behind](03-place-position.md#behind), [worth](#worth)
 
 ### worth
 
 **Pronunciation:** /wɜrθ/ &middot; run together before a weak object: *worth it* /ˈwɜrθ ɪt/ → /ˈwɜrθət/ &middot; *WURTH*
+**Русский:** стоимостью в; стоящий того, чтобы — worth seeing «стоит посмотреть» (только с герундием)
 **Type:** marginal (traditionally labeled an adjective, but it takes a bare object like a preposition) &middot; **Register:** neutral
 **Complement:** noun phrase or **gerund** — never a finite clause and **never a *to*-infinitive**: ✗ *worth to see*, ✗ *worth to be seen* → *worth seeing*. This is one of the most common learner errors in English. The object may be a pronoun: *worth it*.
 **Pattern:** [subject] *is worth* [noun phrase] &middot; [subject] *is worth* [verb-ing] &middot; *it is worth* [verb-ing] &middot; *for what it's worth*
@@ -783,6 +1650,7 @@ The small group that follows its object. The order is fixed grammar, not style: 
 ### ago
 
 **Pronunciation:** /əˈɡoʊ/ &middot; *uh-GOH*
+**Русский:** тому назад — стоит после меры времени: three weeks ago «три недели назад»
 **Type:** postpositive &middot; **Register:** neutral
 **Complement:** **precedes** it — a measure-of-time noun phrase (*three weeks*, *a moment*, *long*). It can take nothing after it, ever, and never a clause. The measure phrase is obligatory: ✗ *He left ago.*
 **Pattern:** [measure of time] *ago* &middot; ✗ *ago* [measure of time]
@@ -802,6 +1670,7 @@ Descended from the past participle of Old English *āgān*, "to pass by," so it 
 ### apart
 
 **Pronunciation:** /əˈpɑrt/ &middot; *uh-PART*
+**Русский:** если оставить в стороне — брит. оттенок; joking apart «шутки в сторону»
 **Type:** postpositive &middot; **Register:** neutral; slightly British in this construction
 **Complement:** **precedes** it — a noun phrase or gerund. Never a clause.
 **Pattern:** [noun phrase] *apart*, [main clause].
@@ -820,6 +1689,7 @@ Sets a topic to one side so the sentence can get to the real point. Almost alway
 ### aside
 
 **Pronunciation:** /əˈsaɪd/ &middot; *uh-SYD*
+**Русский:** если оставить в стороне — амер. предпочтение; joking aside «шутки в сторону»
 **Type:** postpositive &middot; **Register:** neutral; the American preference over *apart*
 **Complement:** **precedes** it — a noun phrase or gerund. Never a clause.
 **Pattern:** [noun phrase] *aside*, [main clause].
@@ -838,6 +1708,7 @@ Brackets an objection or a topic and moves past it. It is the standard way to si
 ### aside from
 
 **Pronunciation:** /əˈsaɪd frʌm/ &middot; weak /əˈsaɪd frəm/ &middot; *uh-SYD frum*
+**Русский:** кроме, помимо — двузначно: и «за исключением», и «вдобавок к»; смысл решает контекст
 **Type:** complex, built on the postpositive *aside* &middot; **Register:** neutral; the American counterpart to British-leaning *apart from*
 **Complement:** noun phrase or gerund — never a bare finite clause; use *aside from the fact that* if you must have one.
 **Pattern:** *Aside from* [noun phrase], [main clause]. &middot; [main clause] *aside from* [noun phrase].
@@ -860,6 +1731,7 @@ The most useful and most treacherous member of this group, because both of its m
 ### back
 
 **Pronunciation:** /bæk/ &middot; *BAK*
+**Русский:** тому назад — разг. вариант ago о приблизительном сроке: a while back «недавно»
 **Type:** postpositive &middot; **Register:** informal; spoken American English
 **Complement:** **precedes** it — a measure-of-time noun phrase (*a few years*, *a while*). Never a clause, and no object after it.
 **Pattern:** [measure of time] *back*
@@ -878,6 +1750,7 @@ The conversational alternative to *ago*, restricted to loose measures of past ti
 ### excepted
 
 **Pronunciation:** /ɪkˈsɛptɪd/ &middot; casual /ɪkˈsɛpɾɪd/ &middot; *ik-SEP-tid*
+**Русский:** за исключением (после дополнения) — present company excepted «присутствующие не в счёт»
 **Type:** postpositive participial &middot; **Register:** formal; one fixed phrase is conversational
 **Complement:** **precedes** it — a noun phrase. Never a clause, never anything after it.
 **Pattern:** [noun phrase] *excepted*, [main clause]. &middot; [main clause], [noun phrase] *excepted*.
@@ -896,6 +1769,7 @@ Takes someone or something out from under a rule that has just been stated.
 ### excluded
 
 **Pronunciation:** /ɪkˈskludɪd/ &middot; casual /ɪkˈskluɾɪd/ &middot; *ik-SKLOO-did*
+**Русский:** не считая, без учёта (после дополнения) — коммерч./тех. изъятие из цены или охвата
 **Type:** postpositive participial &middot; **Register:** neutral; commercial and technical
 **Complement:** **precedes** it — a noun phrase. Never a clause.
 **Pattern:** [noun phrase] *excluded*, [main clause]. &middot; [main clause], [noun phrase] *excluded*.
@@ -914,6 +1788,7 @@ Removes an item from a price, a set, or a scope of coverage, after the fact.
 ### hence
 
 **Pronunciation:** /hɛns/ &middot; *HENS*
+**Русский:** спустя, через (после меры времени) — книжн. two years hence «через два года»
 **Type:** postpositive &middot; **Register:** formal and literary
 **Complement:** **precedes** it — a measure-of-time noun phrase (*three days*, *a week*, *a fortnight*). Never a clause, nothing after it.
 **Pattern:** [measure of time] *hence*
@@ -937,6 +1812,7 @@ An archaic-flavored survivor. Almost every modern American use of temporal *henc
 ### included
 
 **Pronunciation:** /ɪnˈkludɪd/ &middot; casual /ɪnˈkluɾɪd/ &middot; *in-KLOO-did*
+**Русский:** включая (стоит после дополнения) — myself included «включая меня самого»
 **Type:** postpositive participial &middot; **Register:** neutral
 **Complement:** **precedes** it — a noun phrase. Never a clause. **Case matters:** *myself included* and *me included* are both idiomatic; ✗ *I included* is not.
 **Pattern:** [noun phrase] *included*, [main clause]. &middot; [main clause], [noun phrase] *included*.
@@ -955,6 +1831,7 @@ Folds a member back into a set that has just been described, usually with a smal
 ### inclusive
 
 **Pronunciation:** /ɪnˈklusɪv/ &middot; *in-KLOO-siv*
+**Русский:** включительно — офиц. отмечает, что последний пункт диапазона входит в него
 **Type:** postpositive (traditionally labeled an adjective, but it follows and governs the range in front of it) &middot; **Register:** formal; contracts, statutes, and specifications
 **Complement:** **precedes** it — a stated range, normally two numbers or dates joined by *to* (*1 to 30 inclusive*). Never a clause, and nothing may follow it. When something does follow, the word is the prepositive complex preposition *inclusive of*, which is a different construction (*a fee inclusive of tax*).
 **Pattern:** [start] *to* [end] *inclusive* &middot; [range] *inclusive*
@@ -974,6 +1851,7 @@ The belt-and-suspenders word. It exists because *to* does not say whether the la
 ### through
 
 **Pronunciation:** /θru/ &middot; weak /θrə/ &middot; *THROO*
+**Русский:** по ... включительно — амер. Monday through Friday «с понедельника по пятницу включительно»
 **Type:** simple preposition; in the inclusive-range sense a distinctly **American** connector; postpositive in fixed adverbials; **also an adverb, a verb particle, and a predicate adjective** &middot; **Register:** neutral
 **Complement:** in the range sense, a second date, day, or number, with the first one preceding: *Monday through Friday*, *pages 40 through 62*. Never a clause. In the postposed adverbial, the noun phrase comes first: *the whole night through*. As an adverb and as a particle it takes **no object at all** — that absence is the test.
 **Pattern:** [start] *through* [end] &middot; [noun phrase] *through* (postposed adverbial) &middot; [verb] *through* (adverb or particle, no object) &middot; *be through with* [noun phrase]
@@ -1000,7 +1878,7 @@ Three things qualify it for this file: the inclusive endpoint, which is a genuin
 
 ## Look-alikes that are not prepositions
 
-Four groups get mistaken for members of this file, and each fails a test the entries above pass.
+Nine groups get mistaken for members of this file, and each fails a test the entries above pass. The first four are ordinary English doing something other than prepositional work. The last five are flagged rather than entered: they are dialect, archaism, or a plain word wearing a costume, and a learner who meets one in the wild should be able to name what it is and then leave it alone.
 
 **Words that take a clause and are therefore conjunctions.** *Assuming*, *provided*, *providing*, *seeing*, and *supposing* look exactly like participial prepositions but require a clause and cannot take a bare noun phrase: *assuming that the check clears*, not ✗ *assuming the check's clearance* in the same sense. *Considering*, *given*, and *granted* are the reverse — they take both, which is why they appear above.
 
@@ -1009,3 +1887,13 @@ Four groups get mistaken for members of this file, and each fails a test the ent
 **Reduced relative clauses.** *The man standing there*, *the report filed on Tuesday*, and *the quarter ending June 30* look participial because they are — they modify the noun in front of them and can be expanded with *who is* or *which is*. A participial preposition modifies the clause, not the noun, and no relative pronoun can be inserted.
 
 **Real danglers.** *Basing*, *walking*, *hoping*, and every other live participle still needs its subject to be the subject of the main clause. ✗ *Walking to work, the rain started* is wrong because the rain was not walking. That test does not apply to *considering*, *regarding*, *given*, *following*, *judging by*, *depending on*, *compared to*, or *based on*, because those have stopped being verbs — which is the entire reason this file exists.
+
+**Adverbs, because they take no object.** *Thence*, *whence*, *whither*, *alow*, *aloft*, *athwartships*, *betimes*, and *aback* are often shelved with prepositions because they look like *athwart* and *among* and because they turn up in the same old sentences. They are adverbs, and the test is the one that runs through this whole file: nothing follows them. *He sailed thence* is complete; ✗ *he sailed thence the harbor* is not. Their registers differ — *thence*, *whence*, and *whither* are archaic or legal (*whence* means "from where," which is why ✗ *from whence* has been criticized for three centuries, though writers from the King James translators onward have used it anyway); *aloft*, *alow*, and *athwartships* are nautical, meaning up in the rigging, below, and across the ship; *betimes* is archaic for "early," and its modern use for "occasionally" is a misunderstanding of the word; and *aback* survives only in *taken aback*. Their prepositional cousins are real and are cataloged elsewhere — [athwart](04-movement-direction.md#athwart) takes an object, and *aloft* never does.
+
+**Archaic conjunctions, because they take a clause.** *Or ever* ("before ever," as in *or ever the silver cord be loosed*), *forasmuch as*, *insomuch as*, *against* in the sense "by the time that" (*have it ready against the guests arrive*), and *an* meaning "if" (*an it please you*) all govern a finite clause, which makes them conjunctions no matter how prepositional they look. The register is Elizabethan to eighteenth-century, and *an* is Shakespearean; none is available for modern use. Note that *against* is a perfectly good preposition in its other senses, cataloged with [place](03-place-position.md#against), [movement](04-movement-direction.md#against), and [opposition](09-comparison-opposition.md#against) — it is only the clause-taking temporal sense that is a conjunction and only that sense that is dead.
+
+**Objectless *with*, because it has no object.** *Come with*, *can I go with?*, *do you want to ride with?* — the construction is real, it is regional American, and it is not a preposition, because a preposition needs a complement and this has none. It belongs to the Upper Midwest and Chicago, where German and Scandinavian settlement left behind the separable-verb pattern of *mitkommen* and *gå med*; a Minnesotan says *You want to come with?* the way a German says *Kommst du mit?* By the file's own test the *with* here is an adverb or a particle. In writing meant for a national audience, finish it: *come with me*, *come along*.
+
+**For to, because it is an infinitive marker.** *I came for to see you* is not *for* governing a noun; it is a two-part infinitive marker that was ordinary Middle English, is still alive in ballads (*for to admire and for to see*), in Appalachian and some Southern speech, and in Irish English, and is otherwise gone from standard American writing. The modern equivalent is a bare *to*-infinitive (*I came to see you*), and the one place *for* legitimately precedes an infinitive is the *for*-plus-subject frame, which is a different construction entirely: *for him to see it*.
+
+**On line, because it is ordinary *on* plus a noun.** *Waiting on line* for *waiting in line* is a New York City regionalism, not a preposition of its own; both are the core prepositions cataloged in [in, on, at](01-core-in-on-at.md#on), and the choice is a fact about American dialect geography rather than about grammar. Outside metropolitan New York the national form is *in line*, and *on line* in that sense reads as regional. Keep it separate from *online*, one word, which is about the internet and is now the standard spelling.

@@ -6,15 +6,7 @@
       "term": "add",
       "ipa": "/æd/",
       "respell": "AD",
-      "type": "reporting verb — a further statement",
-      "register": "neutral",
-      "patterns": "add + that-clause · add + direct quotation · add + noun phrase · add + noun phrase + to + noun phrase · impersonal it should be added that",
-      "never": "add me that / add someone something / added to me that",
-      "notes": [
-        "Requires something to add to: add cannot open a report. It means \"and then this, from the same speaker,\" so there has to be a then. A paragraph that begins She added that the store was closed sends the reader hunting backward for the sentence it was added to."
-      ],
-      "meaning": "An extra piece appended to what the same speaker just said. Neutral about the content, but it does commit you to the claim that both statements came from one speaker in one stretch of talk.",
-      "transform": "\"It's closed. And the lot is full,\" he said. -> He said the store was closed and added that the lot was full.",
+      "meaning": "",
       "examples": [
         "She said the flight was delayed, then added that nobody had told the gate agent.",
         "\"And bring a jacket,\" he added.",
@@ -23,26 +15,21 @@
         "I should add that none of this is official yet.",
         "\"We'll be late,\" she said, and then added, \"very late.\""
       ],
-      "related": [
-        "continue",
-        "go on",
-        "mention",
-        "note"
-      ]
+      "senses": [],
+      "русский": "добавить — сказать ещё что-то к только что сказанному тем же говорящим",
+      "register": "neutral",
+      "type": "reporting verb — a further statement",
+      "patterns": "add + that-clause · add + direct quotation · add + noun phrase · add + noun phrase + to + noun phrase · impersonal it should be added that",
+      "never": "add me that / add someone something — add takes no personal object at all, and unlike explain or announce it cannot rescue one with a preposition either: added to me that is not the repair. The to after add names what the thing was added to, never who heard it. Repairs: added that the lot was full, added it to the list, added, turning to me, that she was leaving.",
+      "requires something to add to": "add cannot open a report. It means \"and then this, from the same speaker,\" so there has to be a then. A paragraph that begins She added that the store was closed sends the reader hunting backward for the sentence it was added to.",
+      "reports": "an extra piece appended to what the same speaker just said. Neutral about the content, but it does commit you to the claim that both statements came from one speaker in one stretch of talk.",
+      "see also": "continue, go on, mention, note"
     },
     {
       "term": "advise",
       "ipa": "/ədˈvaɪz/",
       "respell": "uhd-VYZE",
-      "type": "reporting verb — statement (the inform sense)",
-      "register": "formal — business, legal, and administrative writing",
-      "patterns": "advise + sb + that-clause · advise + sb + of + noun phrase · advise + sb + wh-clause · advise + that-clause (impersonal, no listener named) · passive be advised that / be advised of · Please advise. (fixed, standing alone)",
-      "never": "advise me the total / advise to me",
-      "notes": [
-        "Two different verbs, one spelling: the sense here is \"inform.\" The much commoner sense — \"recommend a course of action,\" advised us to leave early — behaves differently and lives at advise. Only context separates them: He advised me that the road was closed is information; He advised me to take the freeway is a recommendation."
-      ],
-      "meaning": "A formal notification, usually written and usually from an institution. In ordinary American speech it sounds stiff enough to be a small joke — nobody advises a friend that dinner is ready, they tell them.",
-      "transform": "\"Your policy expires on June 1,\" the letter said. -> The letter advised me that my policy would expire on June 1.",
+      "meaning": "",
       "examples": [
         "Please be advised that the office will close at noon on Friday.",
         "Counsel advised the court that his client would not testify.",
@@ -51,26 +38,21 @@
         "We will advise you as soon as the shipment leaves the warehouse.",
         "I've attached the invoice. Please advise."
       ],
-      "related": [
-        "inform",
-        "notify",
-        "tell",
-        "advise (= recommend)"
-      ]
+      "senses": [],
+      "русский": "уведомить, известить — офиц.; здесь не «советовать», а формально сообщить",
+      "register": "formal — business, legal, and administrative writing",
+      "type": "reporting verb — statement (the inform sense)",
+      "patterns": "advise + sb + that-clause · advise + sb + of + noun phrase · advise + sb + wh-clause · advise + that-clause (impersonal, no listener named) · passive be advised that / be advised of · Please advise. (fixed, standing alone)",
+      "never": "advise me the total — no double object. The message attaches with of: advise me of the total. Also never advise to me — like tell, this verb takes the person bare. And an infinitive after it silently switches verbs on you: advised me that the road was closed is information, advised me to take the freeway is a recommendation.",
+      "two different verbs, one spelling": "the sense here is \"inform.\" The much commoner sense — \"recommend a course of action,\" advised us to leave early — behaves differently and lives at advise. Only context separates them: He advised me that the road was closed is information; He advised me to take the freeway is a recommendation.",
+      "reports": "a formal notification, usually written and usually from an institution. In ordinary American speech it sounds stiff enough to be a small joke — nobody advises a friend that dinner is ready, they tell them.",
+      "see also": "inform, notify, tell, advise (= recommend)"
     },
     {
       "term": "announce",
       "ipa": "/əˈnaʊns/",
       "respell": "uh-NOWNSS",
-      "type": "reporting verb — public statement",
-      "register": "neutral, tilting formal",
-      "patterns": "announce + that-clause · announce + noun phrase · announce + wh-clause · announce + direct quotation · announce + to + sb + that-clause · announce + noun phrase + to + sb · passive it was announced that",
-      "never": "announce me that / announce us the results / announce about the merger",
-      "notes": [
-        "Word order: this is one of the few verbs here where the to-phrase comfortably precedes the that-clause — announced to the staff that the office was moving is better English than announced that the office was moving to the staff, which briefly says the office is moving to the staff."
-      ],
-      "meaning": "A statement made publicly, formally, or at least to a group. It presupposes an audience, so it sounds oversized for one listener: He announced to me that he was hungry is a joke about self-importance.",
-      "transform": "\"The merger closed this morning,\" the CEO said. -> The CEO announced that the merger had closed that morning.",
+      "meaning": "",
       "examples": [
         "The airline announced that all flights out of Denver were canceled.",
         "She announced her resignation in a two-line email.",
@@ -79,23 +61,21 @@
         "They announced the winners in reverse order.",
         "He walked in and announced that dinner was ruined."
       ],
-      "related": [
-        "report",
-        "state",
-        "say",
-        "notify"
-      ]
+      "senses": [],
+      "русский": "объявить, огласить — публично или для группы, не одному слушателю",
+      "register": "neutral, tilting formal",
+      "type": "reporting verb — public statement",
+      "patterns": "announce + that-clause · announce + noun phrase · announce + wh-clause · announce + direct quotation · announce + to + sb + that-clause · announce + noun phrase + to + sb · passive it was announced that",
+      "never": "announce me that / announce us the results — no personal object without to. Also announce about the merger — the topic attaches directly or goes in a clause, never behind about. Repairs: announced the results to us, announced to us that the merger was off, announced the merger.",
+      "word order": "this is one of the few verbs here where the to-phrase comfortably precedes the that-clause — announced to the staff that the office was moving is better English than announced that the office was moving to the staff, which briefly says the office is moving to the staff.",
+      "reports": "a statement made publicly, formally, or at least to a group. It presupposes an audience, so it sounds oversized for one listener: He announced to me that he was hungry is a joke about self-importance.",
+      "see also": "report, state, say, notify"
     },
     {
       "term": "comment",
       "ipa": "/ˈkɑmɛnt/",
       "respell": "KAH-ment",
-      "type": "reporting verb — a brief remark, often evaluative",
-      "register": "neutral, common in journalism",
-      "patterns": "comment + that-clause · comment + on / upon + noun phrase · comment + on + wh-clause · comment + direct quotation · comment + to + sb + that-clause · No comment. (fixed noun use)",
-      "never": "comment the change / comment me that",
-      "meaning": "A short opinion offered about something already in view. Unlike remark, which is neutral about content, comment leans slightly toward evaluation — you comment on how something is, not merely that it is.",
-      "transform": "\"The wording is unusually vague,\" she said. -> She commented that the wording was unusually vague.",
+      "meaning": "",
       "examples": [
         "He commented that the second draft was much tighter than the first.",
         "Several neighbors commented on the noise.",
@@ -104,23 +84,20 @@
         "Readers commented under the article for three days.",
         "She commented to a colleague that the numbers looked padded."
       ],
-      "related": [
-        "remark",
-        "observe",
-        "note",
-        "say"
-      ]
+      "senses": [],
+      "русский": "высказаться, отозваться (о чём-л.) — краткое замечание с оттенком оценки",
+      "register": "neutral, common in journalism",
+      "type": "reporting verb — a brief remark, often evaluative",
+      "patterns": "comment + that-clause · comment + on / upon + noun phrase · comment + on + wh-clause · comment + direct quotation · comment + to + sb + that-clause · No comment. (fixed noun use)",
+      "never": "comment the change — the topic attaches with on: commented on the change. Also never comment me that; the listener, if you need one, goes behind to: commented to reporters that…",
+      "reports": "a short opinion offered about something already in view. Unlike remark, which is neutral about content, comment leans slightly toward evaluation — you comment on how something is, not merely that it is.",
+      "see also": "remark, observe, note, say"
     },
     {
       "term": "communicate",
       "ipa": "/kəˈmjunəˌkeɪt/",
       "respell": "kuh-MYOO-nuh-kayt",
-      "type": "reporting verb — transmission of a message",
-      "register": "formal",
-      "patterns": "communicate + that-clause · communicate + noun phrase · communicate + noun phrase + to + sb · communicate + to + sb + that-clause · communicate + wh-clause · communicate + with + sb (intransitive — \"be in contact\") · passive be communicated to sb",
-      "never": "communicate me the results",
-      "meaning": "The successful transfer of a message, by any channel — speech, writing, gesture, a look. It is the most abstract verb in this file and the one most likely to be corporate filler: We need to communicate that to the team almost always improves as We need to tell the team.",
-      "transform": "\"The deadline has moved to the 15th,\" she told the group. -> She communicated to the group that the deadline had moved to the 15th.",
+      "meaning": "",
       "examples": [
         "The board communicated its decision to shareholders that afternoon.",
         "Somehow he communicated that he was in pain without saying a word.",
@@ -129,23 +106,20 @@
         "She communicated what the client wanted far more clearly than the brief did.",
         "Nothing about the layoffs was communicated until Friday."
       ],
-      "related": [
-        "convey",
-        "inform",
-        "indicate",
-        "tell"
-      ]
+      "senses": [],
+      "русский": "передать, донести (сообщение) — книжн.; communicate with — общаться, быть на связи",
+      "register": "formal",
+      "type": "reporting verb — transmission of a message",
+      "patterns": "communicate + that-clause · communicate + noun phrase · communicate + noun phrase + to + sb · communicate + to + sb + that-clause · communicate + wh-clause · communicate + with + sb (intransitive — \"be in contact\") · passive be communicated to sb",
+      "never": "communicate me the results — no double object. Repair: communicate the results to me. Note that communicate with me is fine but means something else: it is contact, not content.",
+      "reports": "the successful transfer of a message, by any channel — speech, writing, gesture, a look. It is the most abstract verb in this file and the one most likely to be corporate filler: We need to communicate that to the team almost always improves as We need to tell the team.",
+      "see also": "convey, inform, indicate, tell"
     },
     {
       "term": "continue",
       "ipa": "/kənˈtɪnju/",
       "respell": "kuhn-TIN-yoo",
-      "type": "reporting verb — resumption after a pause",
-      "register": "neutral, mostly written narrative",
-      "patterns": "continue + direct quotation (usually as an inverted tag) · continue + that-clause (journalistic) · continue + noun phrase · continue + to-infinitive · continue + -ing",
-      "never": "continue me that",
-      "meaning": "That the same speaker picked back up after a break — a breath, an interruption, a paragraph. Like add, it cannot start a report, because there has to be something to continue from.",
-      "transform": "\"…and that's the whole story,\" she said. \"Or most of it,\" she continued. -> She said that was the whole story, then continued that it was really only most of it.",
+      "meaning": "",
       "examples": [
         "\"As I was saying,\" he continued, \"the numbers don't add up.\"",
         "She paused for a sip of water and continued.",
@@ -154,26 +128,20 @@
         "\"There's one more thing,\" she continued, quieter now.",
         "The report continues that no single factor explains the collapse."
       ],
-      "related": [
-        "go on",
-        "add",
-        "repeat",
-        "say"
-      ]
+      "senses": [],
+      "русский": "продолжить (речь) — заговорить снова после паузы или перерыва",
+      "register": "neutral, mostly written narrative",
+      "type": "reporting verb — resumption after a pause",
+      "patterns": "continue + direct quotation (usually as an inverted tag) · continue + that-clause (journalistic) · continue + noun phrase · continue + to-infinitive · continue + -ing",
+      "never": "continue me that — no personal object. And take care with the last two patterns: continued to speak and continued speaking report that the talking went on, not what was said. Only the first two patterns report a message.",
+      "reports": "that the same speaker picked back up after a break — a breath, an interruption, a paragraph. Like add, it cannot start a report, because there has to be something to continue from.",
+      "see also": "go on, add, repeat, say"
     },
     {
       "term": "convey",
       "ipa": "/kənˈveɪ/",
       "respell": "kuhn-VAY",
-      "type": "reporting verb — transmission of content or feeling",
-      "register": "formal",
-      "patterns": "convey + that-clause · convey + noun phrase · convey + noun phrase + to + sb · convey + to + sb + that-clause · convey + wh-clause",
-      "never": "convey me the message / convey me that",
-      "notes": [
-        "Nearest neighbor: communicate stresses the channel and the act; convey stresses the cargo. You communicate with a colleague; you convey sympathy."
-      ],
-      "meaning": "The getting-across of something, with emphasis on what arrived rather than on the words used. It is the verb of choice for content that was never quite stated: Her tone conveyed that the meeting was over works, while Her tone said that the meeting was over is a metaphor and Her tone told us needs the object.",
-      "transform": "\"Please tell them how sorry I am,\" he said. -> He asked me to convey his apologies to them.",
+      "meaning": "",
       "examples": [
         "Her expression conveyed that she had already heard.",
         "Please convey our congratulations to the whole team.",
@@ -182,23 +150,21 @@
         "He conveyed to the family that there was nothing more to be done.",
         "The translation loses almost everything the original conveys."
       ],
-      "related": [
-        "communicate",
-        "indicate",
-        "express",
-        "tell"
-      ]
+      "senses": [],
+      "русский": "передать, донести (мысль, чувство) — книжн.; важно, что дошло, а не какими словами",
+      "register": "formal",
+      "type": "reporting verb — transmission of content or feeling",
+      "patterns": "convey + that-clause · convey + noun phrase · convey + noun phrase + to + sb · convey + to + sb + that-clause · convey + wh-clause",
+      "never": "convey me the message / convey me that — no personal object of any kind without to. Repairs: convey the message to me, conveyed to me that…",
+      "reports": "the getting-across of something, with emphasis on what arrived rather than on the words used. It is the verb of choice for content that was never quite stated: Her tone conveyed that the meeting was over works, while Her tone said that the meeting was over is a metaphor and Her tone told us needs the object.",
+      "nearest neighbor": "communicate stresses the channel and the act; convey stresses the cargo. You communicate with a colleague; you convey sympathy.",
+      "see also": "communicate, indicate, express, tell"
     },
     {
       "term": "describe",
       "ipa": "/dɪˈskraɪb/",
       "respell": "dih-SKRYBE",
-      "type": "reporting verb — an account of something",
-      "register": "neutral",
-      "patterns": "describe + noun phrase · describe + wh-clause · describe + how-clause · describe + noun phrase + to + sb · describe + to + sb + how / wh-clause · describe + noun phrase + as + adjective / noun phrase / -ing",
-      "never": "describe me the room / describe that the room was dark / describe about the room",
-      "meaning": "The giving of an account. Note the as-frame, which is where describe does its most useful reporting work: He described the deal as dead attributes the characterization to him and quietly declines to endorse it.",
-      "transform": "\"It was maybe twenty feet long, and gray,\" she said. -> She described the animal as about twenty feet long and gray.",
+      "meaning": "",
       "examples": [
         "Can you describe what you saw?",
         "She described the apartment to me over the phone, room by room.",
@@ -207,27 +173,20 @@
         "Witnesses described a man in a red jacket.",
         "I don't know how to describe it — you had to be there."
       ],
-      "related": [
-        "explain",
-        "recount",
-        "relate",
-        "report",
-        "discuss"
-      ]
+      "senses": [],
+      "русский": "описать, обрисовать — дать словесную картину; describe as — охарактеризовать как",
+      "register": "neutral",
+      "type": "reporting verb — an account of something",
+      "patterns": "describe + noun phrase · describe + wh-clause · describe + how-clause · describe + noun phrase + to + sb · describe + to + sb + how / wh-clause · describe + noun phrase + as + adjective / noun phrase / -ing",
+      "never": "describe me the room — the listener attaches with to: describe the room to me. And describe that the room was dark — describe takes no that-clause at all. And describe about the room — the object attaches directly, with no preposition. Repairs: described the room as dark, described how dark the room was, described the darkness.",
+      "reports": "the giving of an account. Note the as-frame, which is where describe does its most useful reporting work: He described the deal as dead attributes the characterization to him and quietly declines to endorse it.",
+      "see also": "explain, recount, relate, report, discuss"
     },
     {
       "term": "discuss",
       "ipa": "/dɪˈskʌs/",
       "respell": "dih-SKUSS",
-      "type": "verb of talk — names the topic, not the message",
-      "register": "neutral",
-      "patterns": "discuss + noun phrase · discuss + wh-clause · discuss + -ing · discuss + noun phrase + with + sb · passive be discussed",
-      "never": "discuss about the budget / discuss that the budget was tight / discuss me the budget / discuss the budget to me",
-      "notes": [
-        "It reports that talking happened, not what was said. That is why it cannot do reported speech proper: there is no way to convert a quotation into discussed. \"The budget is tight,\" she said becomes She said the budget was tight, never She discussed that the budget was tight. What discuss can report is the subject matter, and the reader is told nothing about who said what or how it came out."
-      ],
-      "meaning": "An exchange of talk on a topic, between two or more people, with no claim about the content, the conclusion, or who held which view.",
-      "transform": "\"Let's go over the budget.\" — \"Fine. Here's where we are.\" -> They discussed the budget. (Not discussed that the budget was tight — the content is gone.)",
+      "meaning": "It reports that talking happened, not what was said. That is why it cannot do reported speech proper: there is no way to convert a quotation into discussed. \"The budget is tight,\" she said becomes She said the budget was tight, never ~~She discussed that the budget was tight~~. What discuss can report is the subject matter, and the reader is told nothing about who said what or how it came out.",
       "examples": [
         "We discussed the budget for nearly two hours and settled nothing.",
         "I'd rather discuss this in person.",
@@ -236,27 +195,20 @@
         "The board discussed moving the deadline to March.",
         "Salaries are not discussed openly here."
       ],
-      "related": [
-        "share",
-        "communicate",
-        "say",
-        "tell",
-        "describe"
-      ]
+      "senses": [],
+      "русский": "обсуждать (что-л., без предлога) — называет тему разговора, но не его содержание",
+      "register": "neutral",
+      "type": "verb of talk — names the topic, not the message",
+      "patterns": "discuss + noun phrase · discuss + wh-clause · discuss + -ing · discuss + noun phrase + with + sb · passive be discussed",
+      "never": "discuss about the budget — the topic attaches with no preposition at all: discuss the budget. This is the most persistent preposition error in English and it survives well into advanced writing, because talk about, argue about, and complain about all take one. Also discuss that the budget was tight — discuss takes no that-clause, no to-infinitive, and no direct quotation. And discuss me the budget / discuss the budget to me — the other person attaches with with: discuss it with me.",
+      "reports": "an exchange of talk on a topic, between two or more people, with no claim about the content, the conclusion, or who held which view.",
+      "see also": "share, communicate, say, tell, describe"
     },
     {
       "term": "explain",
       "ipa": "/ɪkˈspleɪn/",
       "respell": "ik-SPLAYN",
-      "type": "reporting verb — statement that makes something understood",
-      "register": "neutral",
-      "patterns": "explain + that-clause · explain + wh-clause · explain + how/why-clause · explain + noun phrase · explain + to + sb + that-clause · explain + to + sb + wh-clause · explain + noun phrase + to + sb · explain (intransitive) · passive it was explained that",
-      "never": "explain me something / explain me that / explain me how / explained me to wait",
-      "notes": [
-        "Word order: when both a listener and a that-clause are present, the listener comes first — explained to me that the machine was old. Putting the to-phrase at the end strands it: explained that the machine was old to me reads as though the machine's age belonged to me."
-      ],
-      "meaning": "A statement offered to remove confusion. It presupposes that something needed clearing up, which is why it is not fully interchangeable with say: He said the door was locked is information; He explained that the door was locked implies you had been wondering why you couldn't get in.",
-      "transform": "\"The heater only runs at night,\" he said. -> He explained to me that the heater only ran at night.",
+      "meaning": "",
       "examples": [
         "She explained that the deposit wouldn't clear until Monday.",
         "Could you explain the difference to me?",
@@ -265,26 +217,21 @@
         "I tried to explain, but nobody was listening.",
         "Let me explain it to you one more time."
       ],
-      "related": [
-        "describe",
-        "tell",
-        "say",
-        "point out"
-      ]
+      "senses": [],
+      "русский": "объяснить, растолковать — предполагает, что что-то было неясно",
+      "register": "neutral",
+      "type": "reporting verb — statement that makes something understood",
+      "patterns": "explain + that-clause · explain + wh-clause · explain + how/why-clause · explain + noun phrase · explain + to + sb + that-clause · explain + to + sb + wh-clause · explain + noun phrase + to + sb · explain (intransitive) · passive it was explained that",
+      "never": "explain me something / explain me that / explain me how — one of the three or four most common errors in English. Explain never takes a bare personal object. Nor does it take a person plus an infinitive: explained me to wait is impossible in every register, because that frame belongs to tell. Repairs: explain it to me, explain to me why, explained to the class that…, and for the infinitive, told me to wait.",
+      "word order": "when both a listener and a that-clause are present, the listener comes first — explained to me that the machine was old. Putting the to-phrase at the end strands it: explained that the machine was old to me reads as though the machine's age belonged to me.",
+      "reports": "a statement offered to remove confusion. It presupposes that something needed clearing up, which is why it is not fully interchangeable with say: He said the door was locked is information; He explained that the door was locked implies you had been wondering why you couldn't get in.",
+      "see also": "describe, tell, say, point out"
     },
     {
       "term": "go on",
       "ipa": "/ˌɡoʊ ˈɑn/",
       "respell": "goh-ON",
-      "type": "reporting verb — resumption",
-      "register": "neutral, conversational",
-      "patterns": "go on + to say / to explain / to add / to argue + that-clause · go on + direct quotation · go on + -ing · go on + about + noun phrase · go on + with + noun phrase",
-      "never": "go on me",
-      "notes": [
-        "The two -ing / to-infinitive readings are opposites: Frame: went on to say; Means: said the next thing; Example: She finished the summary and went on to say the budget was frozen. // Frame: went on saying; Means: kept saying the same thing; Example: She went on saying the budget was frozen long after it wasn't. // Frame: went on about; Means: talked at tedious length; Example: He went on about the budget for twenty minutes."
-      ],
-      "meaning": "The same speaker moving to the next thing. It is the spoken counterpart of continue and slightly warmer.",
-      "transform": "\"That's the first problem. The second is money,\" he said. -> He named the first problem and went on to say that the second was money.",
+      "meaning": "",
       "examples": [
         "He apologized, then went on to explain what had happened.",
         "\"Anyway,\" she went on, \"we found the file.\"",
@@ -293,26 +240,21 @@
         "Don't get him started — he'll go on about it all night.",
         "Go on, I'm listening."
       ],
-      "related": [
-        "continue",
-        "add",
-        "say"
-      ]
+      "senses": [],
+      "русский": "продолжить, перейти к следующему — разг. соответствие continue",
+      "register": "neutral, conversational",
+      "type": "reporting verb — resumption",
+      "patterns": "go on + to say / to explain / to add / to argue + that-clause · go on + direct quotation · go on + -ing · go on + about + noun phrase · go on + with + noun phrase",
+      "never": "go on me — no personal object. And go on + a bare that-clause (He went on that the budget was fixed) is marginal at best in American English; edited prose writes went on to say that.",
+      "the two -ing / to-infinitive readings are opposites": "",
+      "reports": "the same speaker moving to the next thing. It is the spoken counterpart of continue and slightly warmer.",
+      "see also": "continue, add, say"
     },
     {
       "term": "if you ask me",
       "ipa": "/ɪf jə ˈæsk mi/",
       "respell": "if yuh ASK mee",
-      "type": "fixed phrase — opinion marker, not a reporting verb",
-      "register": "informal, spoken",
-      "patterns": "If you ask me, + clause · clause + , if you ask me · parenthetical inside the clause (The whole thing was, if you ask me, a waste)",
-      "never": "if you ask to me / if you ask me that",
-      "notes": [
-        "It is not a conditional and it reports nothing: nobody has asked. The phrase flags the clause attached to it as the speaker's own unsolicited opinion, usually one that runs against what everyone else is saying, and it carries a faint note of grievance.",
-        "It does not survive being reported. This is the point worth learning: the phrase belongs to whoever is speaking now, so reporting it forces a paraphrase."
-      ],
-      "meaning": "Nothing anyone else said — it marks the attached clause as the speaker's own opinion, offered without being asked. Where say attributes words to someone, this phrase claims them.",
-      "transform": "\"It's too expensive, if you ask me,\" she said. -> She said that in her opinion it was too expensive. / She said that as far as she was concerned, it was too expensive.",
+      "meaning": "It does not survive being reported. This is the point worth learning: the phrase belongs to whoever is speaking now, so reporting it forces a paraphrase.",
       "examples": [
         "If you ask me, the second album was better.",
         "They repainted the whole thing, which was a waste of money if you ask me.",
@@ -321,26 +263,21 @@
         "That's not a bug, if you ask me — that's a design decision.",
         "If you ask me, they should have canceled the game."
       ],
-      "related": [
-        "let me tell you",
-        "put it",
-        "say"
-      ]
+      "senses": [],
+      "русский": "по-моему, если хотите знать моё мнение — разг., маркер собственного мнения",
+      "register": "informal, spoken",
+      "type": "fixed phrase — opinion marker, not a reporting verb",
+      "patterns": "If you ask me, + clause · clause + , if you ask me · parenthetical inside the clause (The whole thing was, if you ask me, a waste)",
+      "never": "if you ask to me / if you ask me that — the phrase is frozen. It takes no preposition, no complement, and no tense change; if you asked me is a real conditional and a different sentence.",
+      "it is not a conditional and it reports nothing": "nobody has asked. The phrase flags the clause attached to it as the speaker's own unsolicited opinion, usually one that runs against what everyone else is saying, and it carries a faint note of grievance.",
+      "reports": "nothing anyone else said — it marks the attached clause as the speaker's own opinion, offered without being asked. Where say attributes words to someone, this phrase claims them.",
+      "see also": "let me tell you, put it, say"
     },
     {
       "term": "indicate",
       "ipa": "/ˈɪndəˌkeɪt/",
       "respell": "IN-duh-kayt",
-      "type": "reporting verb — an indirect or evidential statement",
-      "register": "formal — academic, journalistic, corporate",
-      "patterns": "indicate + that-clause · indicate + wh-clause · indicate + noun phrase · indicate + to + sb + that-clause",
-      "never": "indicate me that / indicated to step down",
-      "notes": [
-        "Two jobs at once: with a human subject it reports a statement made indirectly or non-verbally — She indicated that she was willing to settle means she signaled it, not that she announced it. With a non-human subject it reports evidence: The data indicate that costs are rising. The second use is the standard hedge of academic English, and it is deliberately weaker than show or prove.",
-        "Number note: in formal American writing data takes a plural verb — the data indicate. In ordinary usage the data indicates is now common and unremarkable."
-      ],
-      "meaning": "A message delivered obliquely, or evidence pointing toward a conclusion. It is deliberately weaker than state and announce: indicate leaves room for the speaker to have meant something else.",
-      "transform": "\"I might be open to an offer,\" she said. -> She indicated that she might be open to an offer.",
+      "meaning": "",
       "examples": [
         "The survey indicates that most respondents never opened the email.",
         "He indicated to the committee that he would step down in the spring.",
@@ -349,26 +286,22 @@
         "Nothing in the file indicated that the payment had been made.",
         "Please indicate whether you plan to attend."
       ],
-      "related": [
-        "convey",
-        "suggest",
-        "report",
-        "note"
-      ]
+      "senses": [],
+      "русский": "дать понять, указать; свидетельствовать о — книжн., осторожнее, чем «заявить»",
+      "register": "formal — academic, journalistic, corporate",
+      "type": "reporting verb — an indirect or evidential statement",
+      "patterns": "indicate + that-clause · indicate + wh-clause · indicate + noun phrase · indicate + to + sb + that-clause",
+      "never": "indicate me that — the listener attaches with to: indicated to us that… And indicated to step down — indicate takes no infinitive complement; the plan goes in a that-clause: indicated that he would step down.",
+      "two jobs at once": "with a human subject it reports a statement made indirectly or non-verbally — She indicated that she was willing to settle means she signaled it, not that she announced it. With a non-human subject it reports evidence: The data indicate that costs are rising. The second use is the standard hedge of academic English, and it is deliberately weaker than show or prove.",
+      "number note": "in formal American writing data takes a plural verb — the data indicate. In ordinary usage the data indicates is now common and unremarkable.",
+      "reports": "a message delivered obliquely, or evidence pointing toward a conclusion. It is deliberately weaker than state and announce: indicate leaves room for the speaker to have meant something else.",
+      "see also": "convey, suggest, report, note"
     },
     {
       "term": "inform",
       "ipa": "/ɪnˈfɔrm/",
       "respell": "in-FORM",
-      "type": "reporting verb — statement delivered to a named listener",
-      "register": "formal",
-      "patterns": "inform + sb · inform + sb + that-clause · inform + sb + of / about + noun phrase · inform + sb + wh-clause · passive be informed that / be informed of",
-      "never": "inform that the meeting was canceled / inform me the change / inform to me",
-      "notes": [
-        "of vs. about: of is the formal default and takes a fact (informed us of the delay); about is looser and takes a topic (informed us about the new procedure). Neither one can be dropped."
-      ],
-      "meaning": "The formal delivery of information to someone who is entitled to it. It is tell with a suit on, and it carries a faint institutional chill — I regret to inform you is a phrase people brace for.",
-      "transform": "\"Your application was not successful,\" the email said. -> The email informed me that my application had not been successful.",
+      "meaning": "",
       "examples": [
         "Nobody informed the neighbors that the water would be shut off.",
         "Please inform your supervisor of any schedule change.",
@@ -377,27 +310,21 @@
         "He informed the officer where he had been that evening.",
         "Keep me informed."
       ],
-      "related": [
-        "notify",
-        "advise",
-        "tell",
-        "announce"
-      ]
+      "senses": [],
+      "русский": "известить, поставить в известность — офиц.; обязателен адресат: inform me of",
+      "register": "formal",
+      "type": "reporting verb — statement delivered to a named listener",
+      "patterns": "inform + sb · inform + sb + that-clause · inform + sb + of / about + noun phrase · inform + sb + wh-clause · passive be informed that / be informed of",
+      "never": "inform that the meeting was canceled — like tell, this verb requires its person. Also inform me the change — no double object; the message attaches with of: inform me of the change. And never inform to me.",
+      "of vs. about": "of is the formal default and takes a fact (informed us of the delay); about is looser and takes a topic (informed us about the new procedure). Neither one can be dropped.",
+      "reports": "the formal delivery of information to someone who is entitled to it. It is tell with a suit on, and it carries a faint institutional chill — I regret to inform you is a phrase people brace for.",
+      "see also": "notify, advise, tell, announce"
     },
     {
       "term": "let me tell you",
       "ipa": "/lɛt mi ˈtɛl ju/",
-      "respell": "let mee TELL yoo — usually reduced to LEM-ee tell yuh",
-      "type": "fixed phrase — emphasis marker",
-      "register": "informal, spoken",
-      "patterns": "Let me tell you, + clause · clause + , let me tell you · let me tell you + something · let me tell you + about + noun phrase · let me tell you + wh-clause",
-      "never": "let me to tell you / let me tell to you",
-      "notes": [
-        "It is not a request for permission. Nobody is being asked. The phrase is a pointer that says what comes next matters, and with something attached it usually introduces a complaint or a warning: Let me tell you something — that's not how this works.",
-        "It does not survive being reported, for the same reason if you ask me doesn't: the emphasis belongs to the person speaking now. Reporting it means finding a different verb."
-      ],
-      "meaning": "Nothing that was previously said — it announces the speaker's own next statement and marks it as worth hearing. Compare tell, which reports a message that actually reached a listener.",
-      "transform": "\"Let me tell you, that was a long drive,\" he said. -> He said emphatically that it had been a long drive. / He insisted it had been a long drive.",
+      "respell": "let mee TELL yoo",
+      "meaning": "It is not a request for permission. Nobody is being asked. The phrase is a pointer that says what comes next matters, and with something attached it usually introduces a complaint or a warning: Let me tell you something — that's not how this works. It does not survive being reported, for the same reason if you ask me doesn't: the emphasis belongs to the person speaking now. Reporting it means finding a different verb.",
       "examples": [
         "Let me tell you, that was the coldest I have ever been.",
         "Let me tell you something: nobody reads the second page.",
@@ -406,22 +333,21 @@
         "And let me tell you why that matters.",
         "Let me tell you, I have never been so glad to see a rest stop."
       ],
-      "related": [
-        "if you ask me",
-        "tell",
-        "put it"
-      ]
+      "senses": [],
+      "pronunciation note": "usually reduced to LEM-ee tell yuh",
+      "русский": "уж поверьте, вот что я скажу — разг. усилитель, а не просьба разрешить",
+      "register": "informal, spoken",
+      "type": "fixed phrase — emphasis marker",
+      "patterns": "Let me tell you, + clause · clause + , let me tell you · let me tell you + something · let me tell you + about + noun phrase · let me tell you + wh-clause",
+      "never": "let me to tell you — let takes a bare infinitive, never to. Also let me tell to you — tell takes its person bare, which is the same rule as in the tell entry.",
+      "reports": "nothing that was previously said — it announces the speaker's own next statement and marks it as worth hearing. Compare tell, which reports a message that actually reached a listener.",
+      "see also": "if you ask me, tell, put it"
     },
     {
       "term": "mention",
       "ipa": "/ˈmɛnʃən/",
       "respell": "MEN-shuhn",
-      "type": "reporting verb — a passing statement",
-      "register": "neutral",
-      "patterns": "mention + that-clause · mention + noun phrase · mention + sb (as a topic, never as a listener) · mention + wh-clause · mention + -ing · mention + noun phrase + to + sb · mention + to + sb + that-clause · impersonal it is worth mentioning that",
-      "never": "mention about the meeting / mention me that",
-      "meaning": "Something brought up briefly and without emphasis. The word itself is a claim about weight: He mentioned that he was leaving says it came up in passing, and if he actually made a speech about it, mention is the wrong verb. That is also why it works as an apology in advance — I should mention that I'll be late softens the news by pretending it is minor.",
-      "transform": "\"Oh, and I'm out on Friday,\" she said. -> She mentioned that she would be out on Friday.",
+      "meaning": "",
       "examples": [
         "He mentioned that his sister lives about an hour from here.",
         "Did anyone mention the parking situation?",
@@ -430,26 +356,20 @@
         "Don't mention it to Dave — he'll worry.",
         "It's worth mentioning that the warranty expired in March."
       ],
-      "related": [
-        "note",
-        "remark",
-        "add",
-        "say"
-      ]
+      "senses": [],
+      "русский": "упомянуть — сказать вскользь, мимоходом, без нажима",
+      "register": "neutral",
+      "type": "reporting verb — a passing statement",
+      "patterns": "mention + that-clause · mention + noun phrase · mention + sb (as a topic, never as a listener) · mention + wh-clause · mention + -ing · mention + noun phrase + to + sb · mention + to + sb + that-clause · impersonal it is worth mentioning that",
+      "never": "mention about the meeting — mention takes its object directly, with no preposition: mentioned the meeting. This is a stubborn error, probably by analogy with talk about and tell someone about. Also mention me that — repair with mention it to me, or mentioned to me that… Note the trap in the bare-object frame: He mentioned you means you were the subject of the remark, not the person who heard it.",
+      "reports": "something brought up briefly and without emphasis. The word itself is a claim about weight: He mentioned that he was leaving says it came up in passing, and if he actually made a speech about it, mention is the wrong verb. That is also why it works as an apology in advance — I should mention that I'll be late softens the news by pretending it is minor.",
+      "see also": "note, remark, add, say"
     },
     {
       "term": "note",
       "ipa": "/noʊt/",
       "respell": "NOHT",
-      "type": "reporting verb — a statement of a fact taken as given",
-      "register": "formal, mostly written",
-      "patterns": "note + that-clause · note + noun phrase · note + wh-clause · note + direct quotation (as a tag) · passive it should be noted that / it is worth noting that",
-      "never": "note me that",
-      "notes": [
-        "It presupposes truth. This is the one place note is not neutral: He noted that attendance was down takes it as established that attendance was down, and reports him as calling attention to a fact. Compare He claimed that attendance was down, which does the opposite. If the point is contested, note quietly takes a side."
-      ],
-      "meaning": "The act of registering something for the record — observing it, and expecting the reader to accept it.",
-      "transform": "\"Attendance is down about nine percent,\" the report said. -> The report noted that attendance was down about nine percent.",
+      "meaning": "It presupposes truth. This is the one place note is not neutral: He noted that attendance was down takes it as established that attendance was down, and reports him as calling attention to a fact. Compare He claimed that attendance was down, which does the opposite. If the point is contested, note quietly takes a side.",
       "examples": [
         "The judge noted that neither party had filed on time.",
         "It should be noted that these figures exclude part-time employees.",
@@ -458,23 +378,20 @@
         "Please note that the building has no visitor parking.",
         "He noted, correctly, that we had no budget for any of this."
       ],
-      "related": [
-        "observe",
-        "remark",
-        "mention",
-        "indicate"
-      ]
+      "senses": [],
+      "русский": "отметить, обратить внимание — книжн.; подаёт сказанное как установленный факт",
+      "register": "formal, mostly written",
+      "type": "reporting verb — a statement of a fact taken as given",
+      "patterns": "note + that-clause · note + noun phrase · note + wh-clause · note + direct quotation (as a tag) · passive it should be noted that / it is worth noting that",
+      "never": "note me that — no bare personal object. The to-form (noted to reporters that…) does turn up in journalism, but it is far rarer than with remark or comment; in most writing note assumes a reader rather than addressing one.",
+      "reports": "the act of registering something for the record — observing it, and expecting the reader to accept it.",
+      "see also": "observe, remark, mention, indicate"
     },
     {
       "term": "notify",
       "ipa": "/ˈnoʊtəˌfaɪ/",
       "respell": "NOH-tuh-fye",
-      "type": "reporting verb — formal notification",
-      "register": "formal — administrative, legal",
-      "patterns": "notify + sb · notify + sb + that-clause · notify + sb + of + noun phrase · notify + sb + of + wh-clause · passive be notified that / be notified of",
-      "never": "notify that the class was canceled / notify us the date / notify to me / notify us what you decide",
-      "meaning": "An official act of informing, usually one that some rule or contract requires. It differs from inform in that notify often stands alone with no message at all — Notify the family is a complete instruction, while Inform the family invites the question \"of what?\"",
-      "transform": "\"You'll hear from us within ten days,\" they said. -> They said we would be notified within ten days.",
+      "meaning": "",
       "examples": [
         "The school notified parents that the trip had been canceled.",
         "Tenants must notify the landlord of any change of address.",
@@ -483,26 +400,20 @@
         "She was notified by certified mail on the 12th.",
         "The system notifies you when a payment fails."
       ],
-      "related": [
-        "inform",
-        "advise",
-        "announce",
-        "tell"
-      ]
+      "senses": [],
+      "русский": "уведомить — офиц., юр.: официальное извещение, положенное по правилам или договору",
+      "register": "formal — administrative, legal",
+      "type": "reporting verb — formal notification",
+      "patterns": "notify + sb · notify + sb + that-clause · notify + sb + of + noun phrase · notify + sb + of + wh-clause · passive be notified that / be notified of",
+      "never": "notify that the class was canceled — the person is required. And notify us the date — no double object; repair with notify us of the date. Also notify to me: like tell, this verb takes its person bare. One more line separates it from inform — notify will not take a bare wh-clause: ~~notify us what you decide~~ → notify us of what you decide, where inform us what you decide is perfectly good. (A when-clause after notify is a time adverbial, not the message: notifies you when a payment fails says when the notice arrives, not what it says.)",
+      "reports": "an official act of informing, usually one that some rule or contract requires. It differs from inform in that notify often stands alone with no message at all — Notify the family is a complete instruction, while Inform the family invites the question \"of what?\"",
+      "see also": "inform, advise, announce, tell"
     },
     {
       "term": "observe",
       "ipa": "/əbˈzɚv/",
       "respell": "uhb-ZURV",
-      "type": "reporting verb — a considered remark",
-      "register": "formal, literary",
-      "patterns": "observe + that-clause · observe + direct quotation · observe + noun phrase · observe + wh-clause · observe + to + sb + that-clause (literary) · observe + sb + -ing / bare infinitive (the watch sense) · passive it has often been observed that",
-      "never": "observe me that",
-      "notes": [
-        "Two verbs, and the frames tell them apart: with a that-clause or a quotation it means \"said, having noticed\" — He observed that the door was open. With a person plus -ing it means \"watched\" — He observed her leaving. There is no frame where the two readings compete, which is why the ambiguity almost never causes trouble in practice."
-      ],
-      "meaning": "A remark presented as the product of noticing something. Drier and more deliberate than remark, and unlike note it is a spoken act, not a written one.",
-      "transform": "\"Nobody here has read the contract,\" he said. -> He observed that nobody there had read the contract.",
+      "meaning": "",
       "examples": [
         "\"You're up early,\" she observed.",
         "He observed that the two accounts contradicted each other on every important point.",
@@ -511,23 +422,21 @@
         "Visitors may observe the class but may not participate.",
         "It has often been observed that committees expand to fill the time available."
       ],
-      "related": [
-        "remark",
-        "note",
-        "comment",
-        "say"
-      ]
+      "senses": [],
+      "русский": "заметить (вслух) — книжн., замечание как итог наблюдения; в другой рамке — наблюдать",
+      "register": "formal, literary",
+      "type": "reporting verb — a considered remark",
+      "patterns": "observe + that-clause · observe + direct quotation · observe + noun phrase · observe + wh-clause · observe + to + sb + that-clause (literary) · observe + sb + -ing / bare infinitive (the watch sense) · passive it has often been observed that",
+      "never": "observe me that — no bare personal object in the speech sense. The literary to-form is available — observed to her sister that… — but the bare object never is.",
+      "two verbs, and the frames tell them apart": "with a that-clause or a quotation it means \"said, having noticed\" — He observed that the door was open. With a person plus -ing it means \"watched\" — He observed her leaving. There is no frame where the two readings compete, which is why the ambiguity almost never causes trouble in practice.",
+      "reports": "a remark presented as the product of noticing something. Drier and more deliberate than remark, and unlike note it is a spoken act, not a written one.",
+      "see also": "remark, note, comment, say"
     },
     {
       "term": "put it",
       "ipa": "/ˈpʊt ɪt/",
       "respell": "PUUT it",
-      "type": "reporting verb — attribution of wording",
-      "register": "neutral",
-      "patterns": "as + sb + put(s) it · to put it + adverb (bluntly, mildly, simply, another way) · put it + this way / like this / another way · put it + that-clause (formal and rare) · put it + to + sb + that-clause (chiefly British, in questioning)",
-      "never": "as she put",
-      "meaning": "The wording, not the fact. As he put it, the project was \"resting\" attributes the phrasing to him and quietly declines to endorse it — the same move as scare quotes, done with a verb. That is why as he put it so often precedes a euphemism.",
-      "transform": "\"We're pausing the rollout,\" she said. -> The rollout was, as she put it, \"paused.\"",
+      "meaning": "",
       "examples": [
         "The building is, as the listing puts it, \"full of character.\"",
         "To put it mildly, the presentation did not go well.",
@@ -536,27 +445,20 @@
         "To put it bluntly, nobody wants the job.",
         "She put it better than I could have."
       ],
-      "related": [
-        "quote",
-        "describe",
-        "say",
-        "if you ask me"
-      ]
+      "senses": [],
+      "русский": "выразиться, сформулировать — as he put it «как он выразился»: о словах, а не о факте",
+      "register": "neutral",
+      "type": "reporting verb — attribution of wording",
+      "patterns": "as + sb + put(s) it · to put it + adverb (bluntly, mildly, simply, another way) · put it + this way / like this / another way · put it + that-clause (formal and rare) · put it + to + sb + that-clause (chiefly British, in questioning)",
+      "never": "as she put — the it is not optional and never changes: not as she put them, not as she put the matter. The whole expression is frozen around that one pronoun.",
+      "reports": "the wording, not the fact. As he put it, the project was \"resting\" attributes the phrasing to him and quietly declines to endorse it — the same move as scare quotes, done with a verb. That is why as he put it so often precedes a euphemism.",
+      "see also": "quote, describe, say, if you ask me"
     },
     {
       "term": "quote",
       "ipa": "/kwoʊt/",
       "respell": "KWOHT",
-      "type": "reporting verb — verbatim attribution",
-      "register": "neutral, journalistic",
-      "patterns": "quote + sb · quote + noun phrase · quote + direct quotation · quote + from + noun phrase · quote + sb + as saying / as calling / as describing · quote + sb + on + topic · passive be quoted as saying that…",
-      "never": "quote that the deal was dead / quoted me that the deal was dead",
-      "notes": [
-        "It is the one verb here that claims exactness. Every other verb in this file reports content; quote reports words. Getting them wrong is not a style problem — misquoting someone is a factual error and, in journalism, a correctable one. Use say or state when you are paraphrasing.",
-        "The passive is the workhorse: was quoted as saying is the standard newspaper frame for a statement the reporter did not personally hear."
-      ],
-      "meaning": "Someone's exact words, reproduced. The judgment it carries is a promise of accuracy rather than an opinion about the content — quote says nothing about whether the speaker was right, only that this is what came out of their mouth.",
-      "transform": "\"This deal is dead,\" he told reporters. -> He was quoted as saying the deal was dead.",
+      "meaning": "It is the one verb here that claims exactness. Every other verb in this file reports content; quote reports words. Getting them wrong is not a style problem — misquoting someone is a factual error and, in journalism, a correctable one. Use say or state when you are paraphrasing.",
       "examples": [
         "The article quotes two former employees who describe the same pattern.",
         "She was quoted as calling the decision \"indefensible.\"",
@@ -565,26 +467,21 @@
         "The study is quoted far more often than it is read.",
         "Can I quote you on that?"
       ],
-      "related": [
-        "put it",
-        "report",
-        "state",
-        "say"
-      ]
+      "senses": [],
+      "русский": "цитировать, приводить дословно — единственный здесь глагол, обещающий точность слов",
+      "register": "neutral, journalistic",
+      "type": "reporting verb — verbatim attribution",
+      "patterns": "quote + sb · quote + noun phrase · quote + direct quotation · quote + from + noun phrase · quote + sb + as saying / as calling / as describing · quote + sb + on + topic · passive be quoted as saying that…",
+      "never": "quote that the deal was dead — quote takes no that-clause on its own, and no personal object plus a clause either: quoted me that the deal was dead. Repairs: quoted him as saying that the deal was dead, quoted him: \"The deal is dead.\"",
+      "the passive is the workhorse": "was quoted as saying is the standard newspaper frame for a statement the reporter did not personally hear.",
+      "reports": "someone's exact words, reproduced. The judgment it carries is a promise of accuracy rather than an opinion about the content — quote says nothing about whether the speaker was right, only that this is what came out of their mouth.",
+      "see also": "put it, report, state, say"
     },
     {
       "term": "recount",
       "ipa": "/rɪˈkaʊnt/",
       "respell": "rih-KOWNT",
-      "type": "reporting verb — extended narrative",
-      "register": "formal, literary",
-      "patterns": "recount + noun phrase · recount + how-clause · recount + wh-clause · recount + noun phrase + to + sb · recount + to + sb + how-clause",
-      "never": "recount me the story",
-      "notes": [
-        "Stress matters: /rɪˈkaʊnt/ with second-syllable stress is this verb. /ˈriːkaʊnt/ with first-syllable stress is the election noun — a recount — and the verb meaning \"count again.\""
-      ],
-      "meaning": "The telling of a sequence of events at length and in order. Its object is an episode, not a proposition, which is exactly why the that-clause fits so badly.",
-      "transform": "\"So I got there, and the office was already locked, and…\" she said. -> She recounted how she had arrived to find the office already locked.",
+      "meaning": "",
       "examples": [
         "He recounted the entire trip, hour by hour.",
         "She recounted how the two of them had met.",
@@ -593,26 +490,21 @@
         "I've heard him recount that story a dozen times.",
         "The chapter recounts the strike from the union's side."
       ],
-      "related": [
-        "relate",
-        "describe",
-        "report",
-        "tell"
-      ]
+      "senses": [],
+      "русский": "подробно рассказать, изложить по порядку — книжн., о череде событий",
+      "register": "formal, literary",
+      "type": "reporting verb — extended narrative",
+      "patterns": "recount + noun phrase · recount + how-clause · recount + wh-clause · recount + noun phrase + to + sb · recount + to + sb + how-clause",
+      "never": "recount me the story — the listener attaches with to: recounted the story to me. And recount + a plain that-clause (He recounted that he had been fired) is stiff and rare; native writers use a how-clause or a noun phrase instead: recounted how he had been fired.",
+      "stress matters": "/rɪˈkaʊnt/ with second-syllable stress is this verb. /ˈriːkaʊnt/ with first-syllable stress is the election noun — a recount — and the verb meaning \"count again.\"",
+      "reports": "the telling of a sequence of events at length and in order. Its object is an episode, not a proposition, which is exactly why the that-clause fits so badly.",
+      "see also": "relate, describe, report, tell"
     },
     {
       "term": "relate",
       "ipa": "/rɪˈleɪt/",
       "respell": "rih-LAYT",
-      "type": "reporting verb — orderly telling",
-      "register": "formal, literary",
-      "patterns": "relate + noun phrase · relate + that-clause · relate + how / wh-clause · relate + noun phrase + to + sb",
-      "never": "relate me the story",
-      "notes": [
-        "Three unrelated verbs share this spelling, and only the first is a reporting verb: relate a story (tell), relate to something (be connected with — questions relating to the budget), and relate to someone (identify with — I can relate). The third is informal American English and now far more common in speech than the reporting sense, which is why He related the incident sounds distinctly bookish today."
-      ],
-      "meaning": "A full, orderly account given to someone. Slightly more formal than recount and slightly less committed to length.",
-      "transform": "\"It started when the alarm didn't go off,\" he said. -> He related how the whole day had started with an alarm that didn't go off.",
+      "meaning": "Three unrelated verbs share this spelling, and only the first is a reporting verb: relate a story (tell), relate to something (be connected with — questions relating to the budget), and relate to someone (identify with — I can relate). The third is informal American English and now far more common in speech than the reporting sense, which is why He related the incident sounds distinctly bookish today.",
       "examples": [
         "She related the events of that morning to the investigators.",
         "He related that the two companies had been in talks for a year.",
@@ -621,23 +513,20 @@
         "The witness related what she had heard through the wall.",
         "Ask him to relate the story about the ferry."
       ],
-      "related": [
-        "recount",
-        "describe",
-        "report",
-        "tell"
-      ]
+      "senses": [],
+      "русский": "поведать, изложить — книжн., устаревающее; ср. relate to — относиться к, сопереживать",
+      "register": "formal, literary",
+      "type": "reporting verb — orderly telling",
+      "patterns": "relate + noun phrase · relate + that-clause · relate + how / wh-clause · relate + noun phrase + to + sb",
+      "never": "relate me the story — no double object; repair with relate the story to me.",
+      "reports": "a full, orderly account given to someone. Slightly more formal than recount and slightly less committed to length.",
+      "see also": "recount, describe, report, tell"
     },
     {
       "term": "remark",
       "ipa": "/rɪˈmɑrk/",
       "respell": "rih-MARK",
-      "type": "reporting verb — a brief spoken observation",
-      "register": "neutral, tilting literary",
-      "patterns": "remark + that-clause · remark + direct quotation · remark + on / upon + noun phrase · remark + on + wh-clause · remark + to + sb + that-clause",
-      "never": "he remarked the change / remark me that",
-      "meaning": "A short, unweighted comment made out loud, often in passing. Compared with its neighbors: observe is more deliberate, comment is more evaluative, note is written and presupposes truth, and remark is the plainest of the four — it reports that something was said aloud and stops there.",
-      "transform": "\"It's colder than it was last week,\" she said. -> She remarked that it was colder than it had been the week before.",
+      "meaning": "",
       "examples": [
         "\"You've been quiet,\" he remarked.",
         "She remarked that the parking lot was already half empty at four.",
@@ -646,26 +535,20 @@
         "Somebody remarked that the coffee tasted like the pot it came in.",
         "It's rude to remark on what other people are eating."
       ],
-      "related": [
-        "comment",
-        "observe",
-        "note",
-        "mention"
-      ]
+      "senses": [],
+      "русский": "заметить, обронить — короткое замечание вслух; тему вводит предлог on",
+      "register": "neutral, tilting literary",
+      "type": "reporting verb — a brief spoken observation",
+      "patterns": "remark + that-clause · remark + direct quotation · remark + on / upon + noun phrase · remark + on + wh-clause · remark + to + sb + that-clause",
+      "never": "he remarked the change — the topic takes on: remarked on the change. (The bare-object use survives only in the archaic sense \"notice,\" as in a change no one remarked.) Also remark me that.",
+      "reports": "a short, unweighted comment made out loud, often in passing. Compared with its neighbors: observe is more deliberate, comment is more evaluative, note is written and presupposes truth, and remark is the plainest of the four — it reports that something was said aloud and stops there.",
+      "see also": "comment, observe, note, mention"
     },
     {
       "term": "repeat",
       "ipa": "/rɪˈpit/",
       "respell": "rih-PEET",
-      "type": "reporting verb — restatement",
-      "register": "neutral",
-      "patterns": "repeat + that-clause · repeat + noun phrase · repeat + direct quotation · repeat + wh-clause · repeat + noun phrase + to / for + sb · repeat + oneself",
-      "never": "repeat me the question",
-      "notes": [
-        "Redundancy watch: repeat again is a double, since repeat already contains the \"again.\" It is common in speech and universally cut in editing. Say repeat or say said it again, not both."
-      ],
-      "meaning": "A statement made a second time, which carries a small implication of insistence or of not having been heard the first time — She repeated that she wasn't going is a stronger sentence than She said again that she wasn't going.",
-      "transform": "\"I'm not signing it. I am not signing it,\" he said. -> He repeated that he was not going to sign it.",
+      "meaning": "",
       "examples": [
         "She repeated that the deadline had not moved.",
         "Could you repeat the last part?",
@@ -674,26 +557,21 @@
         "The recording repeats the same three instructions in a loop.",
         "I'll repeat it for the people in the back."
       ],
-      "related": [
-        "continue",
-        "state",
-        "say",
-        "tell"
-      ]
+      "senses": [],
+      "русский": "повторить — сказать во второй раз, часто с оттенком настойчивости",
+      "register": "neutral",
+      "type": "reporting verb — restatement",
+      "patterns": "repeat + that-clause · repeat + noun phrase · repeat + direct quotation · repeat + wh-clause · repeat + noun phrase + to / for + sb · repeat + oneself",
+      "never": "repeat me the question — no double object. Repairs: repeat the question for me, Could you repeat that? The bare Repeat that, please is the ordinary spoken form.",
+      "redundancy watch": "repeat again is a double, since repeat already contains the \"again.\" It is common in speech and universally cut in editing. Say repeat or say said it again, not both.",
+      "reports": "a statement made a second time, which carries a small implication of insistence or of not having been heard the first time — She repeated that she wasn't going is a stronger sentence than She said again that she wasn't going.",
+      "see also": "continue, state, say, tell"
     },
     {
       "term": "report",
       "ipa": "/rɪˈpɔrt/",
       "respell": "rih-PORT",
-      "type": "reporting verb — an account given to someone entitled to it",
-      "register": "neutral, journalistic and institutional",
-      "patterns": "report + that-clause · report + noun phrase · report + -ing · report + wh-clause · report + to + sb + that-clause · report + sb + as + -ing / adjective · report + on + noun phrase · report + sb + to + sb (denunciation — see below) · passive it was reported that / sb is reported to have",
-      "never": "report me that / report about the findings",
-      "notes": [
-        "Watch the other senses. Report someone to someone is a denunciation, not a report of speech — She reported him to HR has nothing to do with what he said. And report to plus a person also means \"have as a supervisor\": He reports to the CFO."
-      ],
-      "meaning": "The passing along of information, and it is scrupulously neutral about truth — the reporter neither endorses the content nor doubts it. That neutrality is the reason it dominates journalism, where claimed would editorialize and revealed would concede the point.",
-      "transform": "\"Sales fell about four percent last quarter,\" the company said. -> The company reported that sales had fallen about four percent the previous quarter.",
+      "meaning": "Watch the other senses. Report someone to someone is a denunciation, not a report of speech — She reported him to HR has nothing to do with what he said. And report to plus a person also means \"have as a supervisor\": He reports to the CFO.",
       "examples": [
         "Two papers reported that the talks had collapsed.",
         "She reported the outage to the utility just after midnight.",
@@ -702,30 +580,20 @@
         "The committee reported on its findings in November.",
         "Nobody ever reported what happened to the missing equipment."
       ],
-      "related": [
-        "state",
-        "announce",
-        "say",
-        "quote",
-        "indicate"
-      ]
+      "senses": [],
+      "русский": "сообщить, доложить — нейтральная передача сведений: журн. и офиц. основной глагол",
+      "register": "neutral, journalistic and institutional",
+      "type": "reporting verb — an account given to someone entitled to it",
+      "patterns": "report + that-clause · report + noun phrase · report + -ing · report + wh-clause · report + to + sb + that-clause · report + sb + as + -ing / adjective · report + on + noun phrase · report + sb + to + sb (denunciation — see below) · passive it was reported that / sb is reported to have",
+      "never": "report me that — the listener attaches with to: reported to the board that… And report about the findings — the topic takes on: reported on the findings.",
+      "reports": "the passing along of information, and it is scrupulously neutral about truth — the reporter neither endorses the content nor doubts it. That neutrality is the reason it dominates journalism, where claimed would editorialize and revealed would concede the point.",
+      "see also": "state, announce, say, quote, indicate"
     },
     {
       "term": "say",
-      "ipa": "/seɪ/; said /sɛd/; says /sɛz/",
-      "respell": "SAY; said SED; says SEZ",
-      "type": "reporting verb — statement (the default)",
-      "register": "neutral",
-      "patterns": "say + that-clause · say + direct quotation · say + noun phrase (short fixed list) · say + to + sb (+ that-clause) · say + wh-clause (mostly under negation or a modal: I couldn't say what he meant) · say + to-infinitive with no object (spoken American English only — see the footnote below)",
-      "never": "say me / say someone something / say me that you're sorry",
-      "notes": [
-        "Pronunciation trap: said rhymes with bed, not with paid, and says rhymes with fez, not with days. The vowel changes even though the spelling doesn't.",
-        "say to vs. tell: say to someone is perfectly grammatical, but when a listener is named, tell is far more idiomatic. Reserve say to for when the listener is contrasted or stressed: He didn't say a word to me.",
-        "The fixed noun objects: say hello, say goodbye, say yes, say no, say thank you, say grace, say a few words, say nothing, say so, needless to say, say the word, that is to say. None of them needs quotation marks — She said hello is complete as it stands.",
-        "The honest footnote: objectless say + to-infinitive — He said to wait. She said not to touch it. — is extremely common in spoken American English and is what most Americans would actually produce. Edited prose still prefers He told us to wait. What is never possible in any register is the personal object: He said me to wait. See Reported commands and requests."
-      ],
-      "meaning": "That words were produced. It is the unmarked, weightless default — the verb you use when you have no reason to use any other, and the one that adds nothing at all to the message.",
-      "transform": "\"I'm not coming,\" she said. -> She said (that) she wasn't coming. | \"I'll call you tomorrow,\" she said. -> She said she would call me the next day.",
+      "ipa": "/seɪ/",
+      "respell": "SAY",
+      "meaning": "",
       "examples": [
         "He said he'd be here by six.",
         "\"That's not what I meant,\" she said.",
@@ -735,27 +603,25 @@
         "I couldn't say why he changed his mind.",
         "Just say the word and we'll leave."
       ],
-      "related": [
-        "tell",
-        "state",
-        "mention",
-        "remark",
-        "report"
-      ]
+      "senses": [],
+      "pronunciation note": "past and participle said /sɛd/ · SED, third person says /sɛz/ · SEZ",
+      "русский": "сказать — нейтральный глагол речи; адресат только через to, «say me» невозможно",
+      "register": "neutral",
+      "type": "reporting verb — statement (the default)",
+      "patterns": "say + that-clause · say + direct quotation · say + noun phrase (short fixed list) · say + to + sb (+ that-clause) · say + wh-clause (mostly under negation or a modal: I couldn't say what he meant) · say + to-infinitive with no object (spoken American English only — see the footnote below)",
+      "never": "say me / say someone something / say me that you're sorry — say takes no personal object, ever, in any register. Repairs: say to me, or switch verbs to tell me. This and its mirror image under tell are the two errors an American reader notices instantly.",
+      "pronunciation trap": "said rhymes with bed, not with paid, and says rhymes with fez, not with days. The vowel changes even though the spelling doesn't.",
+      "say to vs. tell": "say to someone is perfectly grammatical, but when a listener is named, tell is far more idiomatic. Reserve say to for when the listener is contrasted or stressed: He didn't say a word to me.",
+      "the fixed noun objects": "say hello, say goodbye, say yes, say no, say thank you, say grace, say a few words, say nothing, say so, needless to say, say the word, that is to say. None of them needs quotation marks — She said hello is complete as it stands.",
+      "the honest footnote": "objectless say + to-infinitive — He said to wait. She said not to touch it. — is extremely common in spoken American English and is what most Americans would actually produce. Edited prose still prefers He told us to wait. What is never possible in any register is the personal object: ~~He said me to wait~~. See Reported commands and requests.",
+      "reports": "that words were produced. It is the unmarked, weightless default — the verb you use when you have no reason to use any other, and the one that adds nothing at all to the message.",
+      "see also": "tell, state, mention, remark, report, The basics: say, tell, ask, speak, talk"
     },
     {
       "term": "share",
       "ipa": "/ʃɛr/",
       "respell": "SHAIR",
-      "type": "reporting verb — statement offered to a group",
-      "register": "neutral, with a workplace and therapeutic flavor",
-      "patterns": "share + that-clause · share + noun phrase · share + noun phrase + with + sb · share + with + sb + that-clause · share + wh-clause · share (intransitive — Would anyone like to share?)",
-      "never": "share me the news / share the news to me",
-      "notes": [
-        "Register warning, said plainly: share that has become a soft corporate and therapeutic substitute for tell and say — I wanted to share that we're restructuring. It is completely grammatical, and plenty of readers find it evasive, because it dresses an announcement up as a gift. In neutral prose, tell and say are usually better."
-      ],
-      "meaning": "The offering of information to a person or group, framed as generous or voluntary.",
-      "transform": "\"I've decided to take the job,\" she told the group. -> She shared with the group that she had decided to take the job.",
+      "meaning": "",
       "examples": [
         "He shared the news with his family before it went public.",
         "She shared that she'd been out of work for most of the year.",
@@ -764,27 +630,21 @@
         "Nobody shared what had been discussed in the closed session.",
         "Thanks for sharing that with us."
       ],
-      "related": [
-        "tell",
-        "say",
-        "mention",
-        "communicate",
-        "discuss"
-      ]
+      "senses": [],
+      "русский": "поделиться (новостью, информацией) — адресат через with, не to; корпоративный оттенок",
+      "register": "neutral, with a workplace and therapeutic flavor",
+      "type": "reporting verb — statement offered to a group",
+      "patterns": "share + that-clause · share + noun phrase · share + noun phrase + with + sb · share + with + sb + that-clause · share + wh-clause · share (intransitive — Would anyone like to share?)",
+      "never": "share me the news — no double object. And share the news to me — this verb takes with, not to: share the news with me. The to version is spreading in some varieties of English and in social-media usage (share it to your story), but American edited prose still requires with for a listener.",
+      "register warning, said plainly": "share that has become a soft corporate and therapeutic substitute for tell and say — I wanted to share that we're restructuring. It is completely grammatical, and plenty of readers find it evasive, because it dresses an announcement up as a gift. In neutral prose, tell and say are usually better.",
+      "reports": "the offering of information to a person or group, framed as generous or voluntary.",
+      "see also": "tell, say, mention, communicate, discuss"
     },
     {
       "term": "state",
       "ipa": "/steɪt/",
       "respell": "STAYT",
-      "type": "reporting verb — a deliberate, on-the-record statement",
-      "register": "formal",
-      "patterns": "state + that-clause · state + noun phrase · state + wh-clause · state + direct quotation · state + to + sb + that-clause · passive it is stated that",
-      "never": "state me that / state about the delay",
-      "notes": [
-        "The weakness of overuse: in student writing state is often substituted for say to sound serious, and it backfires. My mother stated that dinner was ready is comic. Save it for occasions that genuinely have a record."
-      ],
-      "meaning": "A statement made explicitly and for the record — heavier and more deliberate than say, and neutral about truth in a way claim is not. If someone writes He stated that he was home all evening, they are reporting a formal assertion without commenting on it; He claimed that he was home all evening invites you to doubt it.",
-      "transform": "\"I was at home all evening,\" he said. -> He stated that he had been at home all evening.",
+      "meaning": "",
       "examples": [
         "The contract states that either party may cancel with thirty days' notice.",
         "She stated her objection for the record.",
@@ -793,29 +653,21 @@
         "He stated to investigators that he had never seen the documents.",
         "It is stated nowhere in the policy that overtime must be pre-approved."
       ],
-      "related": [
-        "say",
-        "report",
-        "announce",
-        "note",
-        "quote"
-      ]
+      "senses": [],
+      "русский": "заявить, констатировать — офиц., «под запись»; в отличие от claim, нейтрально к истине",
+      "register": "formal",
+      "type": "reporting verb — a deliberate, on-the-record statement",
+      "patterns": "state + that-clause · state + noun phrase · state + wh-clause · state + direct quotation · state + to + sb + that-clause · passive it is stated that",
+      "never": "state me that — no personal object; use state to the court that… Also state about the delay — state takes its object directly or takes a clause, never about.",
+      "reports": "a statement made explicitly and for the record — heavier and more deliberate than say, and neutral about truth in a way claim is not. If someone writes He stated that he was home all evening, they are reporting a formal assertion without commenting on it; He claimed that he was home all evening invites you to doubt it.",
+      "the weakness of overuse": "in student writing state is often substituted for say to sound serious, and it backfires. My mother stated that dinner was ready is comic. Save it for occasions that genuinely have a record.",
+      "see also": "say, report, announce, note, quote"
     },
     {
       "term": "tell",
-      "ipa": "/tɛl/; told /toʊld/",
-      "respell": "TELL; told TOHLD",
-      "type": "reporting verb — statement, command, or information delivered to a named listener",
-      "register": "neutral",
-      "patterns": "tell + sb + that-clause · tell + sb + noun phrase (double object) · tell + sb + to-infinitive · tell + sb + wh-clause · tell + sb + about + noun phrase · tell + sb + of + noun phrase (formal) · tell + sb + direct quotation (as a tag) · tell + noun phrase (fixed objects only — see below) · passive be told that / be told to",
-      "never": "tell that the road was closed / tell to me / \"I'm late,\" he told.",
-      "notes": [
-        "The fixed objects — tell with no listener. A short, closed list where tell takes a non-person object and names nobody: Expression: tell the truth; Example: Just tell the truth. // Expression: tell a lie; Example: He's telling a lie and he knows it. // Expression: tell a story / a joke; Example: She told a story about her first job. // Expression: tell time; Example: He learned to tell time in kindergarten. (British: tell the time) // Expression: tell the difference; Example: I can't tell the difference between the two files. // Expression: tell A from B; Example: Can you tell margarine from butter? // Expression: tell fortunes; Example: Her aunt tells fortunes at the county fair. // Expression: tell tales; Example: Stop telling tales about your brother. // Expression: you never can tell; Example: It might work. You never can tell. // Expression: to tell (you) the truth; Example: To tell you the truth, I forgot.",
-        "The other verb: in several of those, tell does not mean \"say\" at all — it means distinguish or know: I can't tell if it's working. You can tell she's nervous. That sense takes no listener and no message, and it never appears in reported speech.",
-        "The passive is everywhere: I was told the office had moved. We were told to wait. Because English promotes the person object, the passive of tell is one of the commonest ways to report a statement whose source you can't or won't name."
-      ],
-      "meaning": "The delivery of a message to a specific person. Where say reports that words existed, tell reports that they reached someone — which is why it, and not say, carries commands: told me to sit down.",
-      "transform": "\"The road is closed,\" he said to me. -> He told me (that) the road was closed. | \"Sit down,\" she said. -> She told me to sit down.",
+      "ipa": "/tɛl/",
+      "respell": "TELL",
+      "meaning": "The fixed objects — tell with no listener. A short, closed list where tell takes a non-person object and names nobody:",
       "examples": [
         "She told me the meeting had moved to Thursday.",
         "Nobody told us where to park.",
@@ -825,28 +677,23 @@
         "You can tell she's done this before.",
         "To tell you the truth, I'd rather stay home."
       ],
-      "related": [
-        "say",
-        "inform",
-        "notify",
-        "advise",
-        "share",
-        "let me tell you"
-      ]
+      "senses": [],
+      "pronunciation note": "past and participle told /toʊld/ · TOHLD",
+      "русский": "сказать, рассказать кому-л. — требует адресата без предлога: tell me, не «tell to me»",
+      "register": "neutral",
+      "type": "reporting verb — statement, command, or information delivered to a named listener",
+      "patterns": "tell + sb + that-clause · tell + sb + noun phrase (double object) · tell + sb + to-infinitive · tell + sb + wh-clause · tell + sb + about + noun phrase · tell + sb + of + noun phrase (formal) · tell + sb + direct quotation (as a tag) · tell + noun phrase (fixed objects only — see below) · passive be told that / be told to",
+      "never": "tell that the road was closed — the person is required; repair with tell me that the road was closed. And tell to me — the person attaches bare, with no preposition. A direct quotation cannot rescue it either: ~~\"I'm late,\" he told.~~ → \"I'm late,\" he told me.",
+      "the other verb": "in several of those, tell does not mean \"say\" at all — it means distinguish or know: I can't tell if it's working. You can tell she's nervous. That sense takes no listener and no message, and it never appears in reported speech.",
+      "the passive is everywhere": "I was told the office had moved. We were told to wait. Because English promotes the person object, the passive of tell is one of the commonest ways to report a statement whose source you can't or won't name.",
+      "reports": "the delivery of a message to a specific person. Where say reports that words existed, tell reports that they reached someone — which is why it, and not say, carries commands: told me to sit down.",
+      "see also": "say, inform, notify, advise, share, let me tell you, Reported commands and requests"
     },
     {
       "term": "write",
-      "ipa": "/raɪt/; wrote /roʊt/; written /ˈrɪtən/",
-      "respell": "RYTE; wrote ROHT; written RIT-n",
-      "type": "reporting verb — statement made in writing",
-      "register": "neutral",
-      "patterns": "write + that-clause · write + noun phrase · write + direct quotation · write + sb + that-clause (American English) · write + to + sb · write + about + noun phrase · write + wh-clause · write + noun phrase + to + sb · write + saying that…",
-      "never": "write me to come",
-      "notes": [
-        "American/British split — and here American English is the looser one: Person alone; American: I'll write you next week.; British: I'll write to you next week. // Person + message; American: She wrote me that she'd arrived.; British: She wrote to me to say she'd arrived. // With to; American: Also fine: I'll write to you.; British: Required"
-      ],
-      "meaning": "A statement made in writing, which is the only thing separating it from say. Everything about backshift and pronoun shift works identically — see Backshift.",
-      "transform": "\"I've arrived safely,\" she wrote. -> She wrote that she had arrived safely.",
+      "ipa": "/raɪt/",
+      "respell": "RYTE",
+      "meaning": "Write me is standard American English, not an error, and it is the one verb in this file that takes a bare personal object besides tell and its formal relatives. ---",
       "examples": [
         "He wrote that the apartment was smaller than the pictures suggested.",
         "She wrote me twice from Lisbon and then went quiet.",
@@ -855,12 +702,16 @@
         "He wrote a long email explaining exactly what had gone wrong.",
         "She never wrote back."
       ],
-      "related": [
-        "say",
-        "report",
-        "state",
-        "note"
-      ]
+      "senses": [],
+      "pronunciation note": "past wrote /roʊt/ · ROHT, participle written /ˈrɪtən/ · RIT-n",
+      "русский": "написать, сообщить письменно — в амер. англ. допустимо write me без предлога to",
+      "register": "neutral",
+      "type": "reporting verb — statement made in writing",
+      "patterns": "write + that-clause · write + noun phrase · write + direct quotation · write + sb + that-clause (American English) · write + to + sb · write + about + noun phrase · write + wh-clause · write + noun phrase + to + sb · write + saying that…",
+      "american/british split — and here american english is the looser one": "",
+      "never": "write me to come — unlike tell, this verb does not take a person plus a to-infinitive. Repairs: wrote to tell me to come, wrote that I should come.",
+      "reports": "a statement made in writing, which is the only thing separating it from say. Everything about backshift and pronoun shift works identically — see Backshift.",
+      "see also": "say, report, state, note, Backshift"
     }
   ]
 }

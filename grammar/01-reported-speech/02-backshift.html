@@ -4,20 +4,19 @@
 <title>Backshift: the tense changes</title>
 <style>
 :root{--bg:#faf9f7;--surface:#fff;--surface2:#f2f0ec;--border:#e2ded6;--text:#1a1815;
---dim:#5f594f;--faint:#8a8377;--accent:#8a5a3b;--measure:72ch}
+--dim:#5f594f;--faint:#8a8377;--accent:#9a4b52;--measure:72ch}
 @media(prefers-color-scheme:dark){:root{--bg:#14140f;--surface:#1d1d17;--surface2:#25251d;
---border:#33332a;--text:#eeeae1;--dim:#a8a293;--faint:#7d776b;--accent:#d09b72}}
+--border:#33332a;--text:#eeeae1;--dim:#a8a293;--faint:#7d776b;--accent:#e8919a}}
 :root[data-theme=dark]{--bg:#14140f;--surface:#1d1d17;--surface2:#25251d;--border:#33332a;
---text:#eeeae1;--dim:#a8a293;--faint:#7d776b;--accent:#d09b72}
+--text:#eeeae1;--dim:#a8a293;--faint:#7d776b;--accent:#e8919a}
 :root[data-theme=light]{--bg:#faf9f7;--surface:#fff;--surface2:#f2f0ec;--border:#e2ded6;
---text:#1a1815;--dim:#5f594f;--faint:#8a8377;--accent:#8a5a3b}
+--text:#1a1815;--dim:#5f594f;--faint:#8a8377;--accent:#9a4b52}
 *{box-sizing:border-box}
 body{margin:0;background:var(--bg);color:var(--text);
 font:17px/1.72 ui-serif,Georgia,"Iowan Old Style",Palatino,serif;-webkit-font-smoothing:antialiased}
-.ui{font-family:-apple-system,BlinkMacSystemFont,"Segoe UI",Inter,Roboto,sans-serif}
 .wrap{max-width:min(var(--measure),100%);margin:0 auto;padding:0 22px}
 nav.crumb{border-bottom:1px solid var(--border);padding:13px 0;font-size:13.5px;
-font-family:-apple-system,sans-serif;position:sticky;top:0;background:var(--bg);z-index:20}
+font-family:-apple-system,BlinkMacSystemFont,"Segoe UI",sans-serif;position:sticky;top:0;background:var(--bg);z-index:20}
 nav.crumb .wrap{max-width:none;display:flex;gap:9px;align-items:center;flex-wrap:wrap}
 nav.crumb a{color:var(--dim);text-decoration:none}
 nav.crumb a:hover{color:var(--accent)}
@@ -55,20 +54,28 @@ padding:13px 17px;margin:0 0 20px}
 summary{cursor:pointer;font-weight:600;font-family:-apple-system,sans-serif;font-size:15px}
 details[open] summary{margin-bottom:12px}
 del{color:var(--faint)}
+dl.fields{margin:0 0 20px;padding:0}
+dl.fields dt{font-family:-apple-system,BlinkMacSystemFont,"Segoe UI",sans-serif;
+font-size:11px;letter-spacing:.11em;text-transform:uppercase;color:var(--faint);
+font-weight:700;margin:14px 0 4px}
+dl.fields dt:first-child{margin-top:0}
+dl.fields dd{margin:0;font-size:16px;color:var(--dim);line-height:1.62}
+dl.fields dd em{color:var(--text)}
+dl.fields dt.ru{color:var(--accent)}
+dl.fields dd strong{color:var(--text)}
 .toc{background:var(--surface2);border:1px solid var(--border);border-radius:10px;
 padding:16px 20px;margin:26px 0 34px;font-family:-apple-system,sans-serif;font-size:14px}
 .toc b{display:block;font-size:11px;letter-spacing:.12em;text-transform:uppercase;
 color:var(--faint);margin-bottom:9px}
 .toc a{display:block;padding:3px 0;color:var(--dim);text-decoration:none}
 .toc a:hover{color:var(--accent)}
-.toc a.l3{padding-left:16px;font-size:13.5px}
 .themebtn{position:fixed;right:18px;bottom:18px;z-index:60;font-family:-apple-system,sans-serif;
 font-size:12.5px;font-weight:600;cursor:pointer;background:var(--surface);border:1px solid var(--border);
 border-radius:99px;padding:9px 16px;color:var(--text)}
 @media(max-width:600px){body{font-size:16px}.wrap{padding:0 17px}}
 </style></head><body>
-<nav class="crumb"><div class="wrap"><a href="../../index.html">Learn English</a></div></nav>
-<main><div class="wrap"><div class="toc"><b>On this page</b><a class="l2" href="#the-master-table">The master table</a><a class="l2" href="#why-backshift-exists">Why backshift exists</a><a class="l2" href="#the-changes-one-by-one">The changes one by one</a><a class="l2" href="#modals-the-short-version">Modals: the short version</a><a class="l2" href="#the-reporting-verb-decides-said-vs-says-vs-has-said">The reporting verb decides: said vs. says vs. has said</a><a class="l2" href="#backshift-is-available-not-compulsory">Backshift is available, not compulsory</a><a class="l2" href="#what-backshift-never-touches">What backshift never touches</a><a class="l2" href="#the-subjunctive-no-tense-nothing-to-shift">The subjunctive: no tense, nothing to shift</a><a class="l2" href="#the-other-things-that-change-with-it">The other things that change with it</a><a class="l2" href="#common-mistakes">Common mistakes</a><a class="l2" href="#quick-reference">Quick reference</a><a class="l2" href="#practice">Practice</a><a class="l2" href="#see-also">See also</a></div><h1 id="backshift-the-tense-changes">Backshift: the tense changes<a class="hash" href="#backshift-the-tense-changes" aria-label="link">#</a></h1>
+<nav class="crumb"><div class="wrap"><a href="../../index.html">Learn English</a><span class="sep">/</span><a href="../README.html">Grammar</a><span class="sep">/</span><span>01-reported-speech</span></div></nav>
+<main><div class="wrap"><div class="toc"><b>On this page</b><a href="#the-master-table">The master table</a><a href="#why-backshift-exists">Why backshift exists</a><a href="#the-changes-one-by-one">The changes one by one</a><a href="#modals-the-short-version">Modals: the short version</a><a href="#the-reporting-verb-decides-said-vs-says-vs-has-said">The reporting verb decides: said vs. says vs. has said</a><a href="#backshift-is-available-not-compulsory">Backshift is available, not compulsory</a><a href="#what-backshift-never-touches">What backshift never touches</a><a href="#the-subjunctive-no-tense-nothing-to-shift">The subjunctive: no tense, nothing to shift</a><a href="#the-other-things-that-change-with-it">The other things that change with it</a><a href="#common-mistakes">Common mistakes</a><a href="#quick-reference">Quick reference</a><a href="#practice">Practice</a><a href="#see-also">See also</a></div><h1 id="backshift-the-tense-changes">Backshift: the tense changes<a class="hash" href="#backshift-the-tense-changes" aria-label="link">#</a></h1>
 <blockquote><p>What happens to the verb when you move someone's words into a past-tense report — the full table of shifts, the one-step-back logic that generates them, and the cases where the shift never happens at all.</p></blockquote>
 <p><a href="README.html">← Reported speech</a> &middot; <a href="../README.html">All grammar topics</a></p>
 <p>When you report what somebody said and you frame that report in the past — <em>she said</em>, <em>he told me</em>, <em>they explained</em> — the verb inside the reported clause usually moves one step further into the past. That movement is called <strong>backshift</strong>, and it is the single mechanical operation at the center of reported speech.</p>
@@ -346,7 +353,7 @@ border-radius:99px;padding:9px 16px;color:var(--text)}
 <h2 id="see-also">See also<a class="hash" href="#see-also" aria-label="link">#</a></h2>
 <ul><li><a href="01-basics.html">Direct and indirect speech: the basics</a> — punctuation, the reporting clause, the <em>that</em>-clause, and the <em>say</em> / <em>tell</em> / <em>ask</em> split that this file assumes throughout</li><li><a href="03-no-backshift.html">When not to backshift</a> — the impossible cases, the untriggered cases, and the choices Americans actually make between shifted and unshifted</li><li><a href="04-pronouns-time-place.html">Pronouns, time, and place shifts</a> — the <em>tomorrow → the next day</em>, <em>here → there</em> recalculations that accompany every shift above</li><li><a href="05-questions.html">Reported questions</a> — the word order and <em>do</em>-support changes that ride on top of backshift</li><li><a href="06-commands-requests.html">Reported commands, requests, and advice</a> — the imperative-to-infinitive route, and the <a href="06-commands-requests.html#the-mandative-subjunctive">mandative subjunctive</a> in full</li><li><a href="07-modals.html">Modal verbs in reported speech</a> — the complete modal and semi-modal inventory, negatives and contractions included</li><li><a href="08-special-cases.html">Special cases, register, and common mistakes</a> — reported conditionals, <em>wish</em>, exclamations, free indirect speech, and how backshift behaves in news and academic prose</li><li><a href="catalog/03-agree-refuse.html#promise">promise</a> and <a href="catalog/03-agree-refuse.html#refuse">refuse</a> — and the rest of the reporting-verb dictionary, for the verbs that absorb <em>will</em> and <em>won't</em></li><li><a href="../../parts-of-speech/03-verbs/README.html">Verbs</a> — tense, aspect, mood, and the auxiliary system that backshift operates on</li></ul>
 <hr>
-<p><strong>Next:</strong> <a href="03-no-backshift.html">When not to backshift</a> — every case where the rule above does not apply.</p>
+<dl class="fields"><dt>Next</dt><dd><a href="03-no-backshift.html">When not to backshift</a> — every case where the rule above does not apply.</dd></dl>
 <p><a href="README.html">← Reported speech</a> &middot; <a href="../README.html">All grammar topics</a></p></div></main>
 <button class="themebtn" id="themeBtn">Dark</button>
 <script>

@@ -43,6 +43,7 @@ Two of these are where errors cluster. Verbs in the second row take **no persona
 ### adjure
 
 **Pronunciation:** /əˈdʒʊr/ &middot; *uh-JOOR*
+**Русский:** заклинать — торжественно требовать во имя святого или под клятвой; книжн., устар.
 **Type:** reporting verb — solemn command &middot; **Register:** formal, archaic; legal and biblical
 **Patterns:** *adjure* + **sb** + **to**-infinitive &middot; *adjure* + **sb** + **that**-clause (archaic) &middot; *adjure* + **sb** + **by** + noun phrase (*adjured him by all he held sacred*)
 **Never:** ***adjure someone from doing something*** — the *from* + *-ing* frame belongs to [prohibit](#prohibit) and [bar](#bar). ***adjure to do something*** with no object is also impossible: somebody is always being sworn.
@@ -63,6 +64,7 @@ Two of these are where errors cluster. Verbs in the second row take **no persona
 ### allow
 
 **Pronunciation:** /əˈlaʊ/ &middot; *uh-LOW*
+**Русский:** разрешать, позволять — просто не возражать; слабее permit и authorize
 **Type:** reporting verb — permission &middot; **Register:** neutral
 **Patterns:** *allow* + **sb** + **to**-infinitive &middot; *allow* + **-ing** (no person named: *allows smoking*) &middot; *allow* + **noun phrase** &middot; *allow* + **sb** + **noun phrase** (*allowed us ten minutes*) &middot; passive *be allowed to* (very common) &middot; *allow for* + noun phrase (= make room for, a different verb: *allow for traffic*) &middot; *allow* + **that**-clause (a different verb — see below)
 **Never:** ***allow that you park here*** as a grant of permission. Permission never takes a *that*-clause in English. Repairs: *allows you to park here*, *allows parking here*. And ***allow someone doing something*** — the gerund frame drops the person entirely.
@@ -84,6 +86,7 @@ Two of these are where errors cluster. Verbs in the second row take **no persona
 ### appeal to
 
 **Pronunciation:** /əˈpil tə/ &middot; *uh-PEEL tuh*
+**Русский:** обращаться с призывом к — публично просить тех, кто не обязан подчиняться
 **Type:** reporting verb — urgent public request &middot; **Register:** neutral to formal; journalistic
 **Patterns:** *appeal to* + **sb** + **to**-infinitive &middot; *appeal to* + **sb** + **for** + noun phrase &middot; *appeal for* + noun phrase (no addressee named) &middot; *appeal to* + **sb** (bare: *appealed to the crowd*)
 **Never:** ***appeal someone to do something*** — the preposition *to* is not optional before the person. Repairs: *appealed to him to come forward*, or switch verbs: *urged him to come forward*.
@@ -105,6 +108,7 @@ Two of these are where errors cluster. Verbs in the second row take **no persona
 ### ask
 
 **Pronunciation:** /æsk/ &middot; *ASK*
+**Русский:** просить — нейтральная просьба без оттенков; в другом значении «спрашивать»
 **Type:** reporting verb — request (also the neutral question verb) &middot; **Register:** neutral
 **Patterns:** *ask* + **sb** + **to**-infinitive &middot; *ask* + **to**-infinitive (the subject acts) &middot; *ask* + (**sb**) + **for** + noun phrase &middot; *ask* + **that**-clause (subjunctive; formal) &middot; *ask* + **sb** + **wh**-clause &middot; *ask* + **sb** + **if/whether**-clause &middot; *ask* + **sb** + **noun phrase** (*asked me a question*) &middot; *ask* + **sb** + **about** + noun phrase
 **Never:** ***ask to someone to do something*** — the addressee takes no preposition. And ***ask for to do something*** — *for* introduces a noun, never an infinitive: *asked for the check*, not ✗ *asked for to see the check*.
@@ -126,6 +130,7 @@ Two of these are where errors cluster. Verbs in the second row take **no persona
 ### authorize
 
 **Pronunciation:** /ˈɔθəraɪz/ &middot; *AW-thuh-ryze*
+**Русский:** уполномочивать, санкционировать — давать право властью должности; офиц.
 **Type:** reporting verb — formal permission &middot; **Register:** formal, institutional
 **Patterns:** *authorize* + **sb** + **to**-infinitive &middot; *authorize* + **noun phrase** (*authorized the payment*) &middot; passive *be authorized to* (very common)
 **Never:** ***authorize to release the funds*** with nothing in between — *authorize* always takes an object, either the person empowered or the thing approved. And ***authorize someone doing something*** — no gerund frame.
@@ -147,6 +152,7 @@ Two of these are where errors cluster. Verbs in the second row take **no persona
 ### ban
 
 **Pronunciation:** /bæn/ &middot; *BAN*
+**Русский:** запрещать — официальный запрет деятельности властью или организацией
 **Type:** reporting verb — official prohibition &middot; **Register:** neutral; journalistic
 **Patterns:** *ban* + **noun phrase** &middot; *ban* + **-ing** &middot; *ban* + **sb** + **from** + **-ing** &middot; *ban* + **sb** + **from** + noun phrase (*banned him from the building*)
 **Never:** ***ban someone to do something*** — there is no infinitive frame at all. Repairs: *banned him from driving*, *banned driving*, *banned drivers from using phones*.
@@ -167,6 +173,7 @@ Two of these are where errors cluster. Verbs in the second row take **no persona
 ### bar
 
 **Pronunciation:** /bɑr/ &middot; *BAR*
+**Русский:** не допускать, отстранять — запрет, закрывающий доступ конкретному человеку; юр.
 **Type:** reporting verb — prohibition by exclusion &middot; **Register:** neutral to formal; legal
 **Patterns:** *bar* + **sb** + **from** + **-ing** &middot; *bar* + **sb** + **from** + noun phrase &middot; *bar* + **noun phrase** (legal: *the statute bars recovery*)
 **Never:** ***bar someone to do something***, and ***bar someone doing something*** without *from*. The preposition is obligatory whenever a person is named.
@@ -187,6 +194,7 @@ Two of these are where errors cluster. Verbs in the second row take **no persona
 ### beg
 
 **Pronunciation:** /bɛɡ/ &middot; *BEG*
+**Русский:** умолять, упрашивать — просить от безысходности, не имея никаких рычагов
 **Type:** reporting verb — desperate request &middot; **Register:** neutral, emotionally marked
 **Patterns:** *beg* + **sb** + **to**-infinitive &middot; *beg* + **to**-infinitive (the subject acts) &middot; *beg* + (**sb**) + **for** + noun phrase &middot; *beg* + **of** + **sb** (formal and dated: *I beg of you*) &middot; *beg* + **that**-clause (subjunctive; literary)
 **Never:** ***beg to someone to do something*** — no preposition before the person. Compare [plead](#plead), which requires one.
@@ -208,6 +216,7 @@ Two of these are where errors cluster. Verbs in the second row take **no persona
 ### beseech
 
 **Pronunciation:** /bɪˈsitʃ/ &middot; *bih-SEECH*
+**Русский:** молить, умолять — книжн., литург.: высокий стиль beg
 **Type:** reporting verb — humble plea &middot; **Register:** formal, literary, liturgical
 **Patterns:** *beseech* + **sb** + **to**-infinitive &middot; *beseech* + **sb** + **for** + noun phrase &middot; *beseech* + **that**-clause (archaic)
 **Never:** ***beseech to someone*** — like [beg](#beg) and unlike [plead](#plead), it takes a bare object. And ***beseech someone doing something***.
@@ -229,6 +238,7 @@ Two of these are where errors cluster. Verbs in the second row take **no persona
 ### bid
 
 **Pronunciation:** /bɪd/ &middot; *BID*
+**Русский:** велеть, повелеть — устар., книжн.; берёт инфинитив без to (bade her enter)
 **Type:** reporting verb — command &middot; **Register:** literary, archaic
 **Patterns:** *bid* + **sb** + **bare infinitive** (*bade her enter*) &middot; *bid* + **sb** + **to**-infinitive (older and rarer) &middot; *bid* + **sb** + **noun phrase** (*bade them farewell*)
 **Never:** ***bid that she leave*** — in its command sense, modern *bid* takes no *that*-clause. And ***bid to someone to do something***.
@@ -251,6 +261,7 @@ Two of these are where errors cluster. Verbs in the second row take **no persona
 ### call on
 
 **Pronunciation:** /ˈkɔl ɑn/ &middot; *KAWL awn* (also *call upon* /ˈkɔl əˈpɑn/ &middot; *KAWL uh-PAHN*)
+**Русский:** призывать — публично требовать действий от того, кого нельзя принудить
 **Type:** reporting verb — public demand &middot; **Register:** formal; journalistic and diplomatic
 **Patterns:** *call on* + **sb** + **to**-infinitive &middot; *call on* + **sb** + **for** + noun phrase &middot; *call for* + noun phrase (no addressee: *called for calm*) &middot; *call for* + **-ing** (*called for tightening the rules*)
 **Never:** ***call someone to resign*** — without *on*, the verb means "telephone," and the sentence changes meaning entirely. ***call on someone doing something*** is impossible too.
@@ -272,6 +283,7 @@ Two of these are where errors cluster. Verbs in the second row take **no persona
 ### charge
 
 **Pronunciation:** /tʃɑrdʒ/ &middot; *CHARJ*
+**Русский:** поручать, возлагать обязанность — торжественное наставление; офиц., юр.
 **Type:** reporting verb — formal instruction assigning a duty &middot; **Register:** formal; legal and ceremonial
 **Patterns:** *charge* + **sb** + **to**-infinitive &middot; *charge* + **sb** + **with** + **-ing** (*charged him with organizing the drive*) &middot; *charge* + **sb** + **with** + noun phrase &middot; passive *be charged with* (the commonest form) &middot; *charge* + **that**-clause (a different verb — see below)
 **Never:** ***charge someone that they do something*** — the directive verb takes no *that*-clause, and no personal object may stand in front of one. Repairs: *charged him to finish it*, *charged him with finishing it*. And ***charge someone to do something*** when you mean *accuse*: the infinitive frame only ever assigns a duty.
@@ -301,6 +313,7 @@ The middle row is ambiguous outside context — *charged him with theft* accuses
 ### command
 
 **Pronunciation:** /kəˈmænd/ &middot; *kuh-MAND*
+**Русский:** приказывать, повелевать — приказ, ослушаться которого нельзя; воен., книжн.
 **Type:** reporting verb — absolute order &middot; **Register:** formal; military and literary
 **Patterns:** *command* + **sb** + **to**-infinitive &middot; *command* + **that**-clause (subjunctive) &middot; *command* + **noun phrase** (*commanded silence*)
 **Never:** ***command to advance*** with no object — somebody must be commanded. And ***command that he advances*** — the *that*-clause takes the bare subjunctive, not the indicative.
@@ -323,6 +336,7 @@ The middle row is ambiguous outside context — *charged him with theft* accuses
 ### decree
 
 **Pronunciation:** /dɪˈkri/ &middot; *dih-KREE*
+**Русский:** постановлять, издавать указ — приказ, сразу ставший законом; часто иронично
 **Type:** reporting verb — sovereign order &middot; **Register:** formal; legal, historical, often ironic
 **Patterns:** *decree* + **that**-clause (subjunctive) &middot; *decree* + **noun phrase** (*decreed a general amnesty*)
 **Never:** ***decree someone to do something*** — *decree* takes no personal object before a complement. Repairs: *decreed that he step down*, *decreed his removal*.
@@ -344,6 +358,7 @@ The middle row is ambiguous outside context — *charged him with theft* accuses
 ### demand
 
 **Pronunciation:** /dɪˈmænd/ &middot; *dih-MAND*
+**Русский:** требовать — настойчиво, не оставляя собеседнику возможности отказать
 **Type:** reporting verb — non-negotiable request &middot; **Register:** neutral
 **Patterns:** *demand* + **that**-clause (subjunctive) &middot; *demand* + **to**-infinitive (the subject acts: *demanded to see the manager*) &middot; *demand* + **noun phrase** &middot; *demand* + **noun phrase** + **of** + **sb** (*demanded an explanation of him*) &middot; *demand* + **of** + **sb** + **that**-clause (formal)
 **Never:** ***demand someone to do something*** — one of the highest-frequency errors in this whole file, because *demand* looks exactly like [order](#order) and [require](#require), both of which accept the object plus infinitive. It does not. Repairs: *demanded that he resign*, *demanded his resignation*, *demanded to see him*.
@@ -366,6 +381,7 @@ The middle row is ambiguous outside context — *charged him with theft* accuses
 ### dictate
 
 **Pronunciation:** /ˈdɪkteɪt/ &middot; *DIK-tayt*
+**Русский:** диктовать, навязывать условия — с осуждением: так о себе не говорят
 **Type:** reporting verb — imposed terms &middot; **Register:** neutral, usually disapproving
 **Patterns:** *dictate* + **that**-clause &middot; *dictate* + **noun phrase** (*dictated the terms*) &middot; *dictate* + **noun phrase** + **to** + **sb** (*dictated the terms to them*) &middot; *dictate* + **wh**-clause (*dictates who gets in*) &middot; *dictate to* + **sb** (intransitive: *nobody dictates to me*)
 **Never:** ***dictate someone to do something*** — no object plus infinitive. Repairs: *dictated that he step down*, *dictated the terms of his exit*.
@@ -388,6 +404,7 @@ The middle row is ambiguous outside context — *charged him with theft* accuses
 ### direct
 
 **Pronunciation:** /dəˈrɛkt/ &middot; *duh-REKT* (also /daɪˈrɛkt/ &middot; *dye-REKT*)
+**Русский:** предписывать, распоряжаться — официальное указание по инстанции; юр., корп.
 **Type:** reporting verb — official instruction &middot; **Register:** formal; legal and corporate
 **Patterns:** *direct* + **sb** + **to**-infinitive &middot; *direct* + **that**-clause (subjunctive) &middot; *direct* + **sb** + **to** + noun phrase (a different sense: *directed us to the elevators*)
 **Never:** ***direct someone doing something*** — no gerund frame. ***direct to do something*** with no object is impossible in the directive sense.
@@ -409,6 +426,7 @@ The middle row is ambiguous outside context — *charged him with theft* accuses
 ### enjoin
 
 **Pronunciation:** /ɛnˈdʒɔɪn/ &middot; *en-JOYN*
+**Русский:** предписывать; юр. запрещать судебным решением — совмещает приказ и запрет
 **Type:** reporting verb — order **or** prohibition &middot; **Register:** formal; legal
 **Patterns:** *enjoin* + **sb** + **to**-infinitive (= order them to) &middot; *enjoin* + **sb** + **from** + **-ing** (= forbid them from) &middot; *enjoin* + **that**-clause (subjunctive) &middot; *enjoin* + **noun phrase** (*enjoined silence*, *enjoined the merger*)
 **Never:** ***enjoin someone doing something*** without *from*, and ***enjoin someone against doing something*** — the preposition is *from*.
@@ -437,6 +455,7 @@ In modern American English the *from* sense dominates so completely — it is th
 ### entreat
 
 **Pronunciation:** /ɛnˈtrit/ &middot; *en-TREET*
+**Русский:** умолять, упрашивать — книжн.: горячо, но без отчаяния и потери достоинства
 **Type:** reporting verb — earnest plea &middot; **Register:** formal, literary
 **Patterns:** *entreat* + **sb** + **to**-infinitive &middot; *entreat* + **sb** + **for** + noun phrase &middot; *entreat* + **that**-clause (formal, rare)
 **Never:** ***entreat to someone to do something*** — bare object, no preposition. And ***entreat someone from doing something***.
@@ -457,6 +476,7 @@ In modern American English the *from* sense dominates so completely — it is th
 ### exhort
 
 **Pronunciation:** /ɪɡˈzɔrt/ &middot; *ig-ZORT* (the *h* is silent)
+**Русский:** призывать, увещевать — книжн.: риторическое воодушевление аудитории
 **Type:** reporting verb — strong encouragement &middot; **Register:** formal; rhetorical
 **Patterns:** *exhort* + **sb** + **to**-infinitive &middot; *exhort* + **sb** + **to** + noun phrase (*exhorted them to greater effort*) &middot; *exhort* + **that**-clause (subjunctive; rare)
 **Never:** ***exhort someone doing something***, and ***exhort to someone***. The object is bare and the complement is an infinitive.
@@ -477,6 +497,7 @@ In modern American English the *from* sense dominates so completely — it is th
 ### forbid
 
 **Pronunciation:** /fərˈbɪd/ &middot; *fer-BID*
+**Русский:** запрещать — личный запрет одного человека другому (родитель, начальник)
 **Type:** reporting verb — personal prohibition &middot; **Register:** neutral to formal
 **Patterns:** *forbid* + **sb** + **to**-infinitive &middot; *forbid* + **sb** + **from** + **-ing** &middot; *forbid* + **-ing** (no person named: *forbids smoking*) &middot; *forbid* + **noun phrase** &middot; *forbid* + **that**-clause (rare, formal)
 **Never:** ***forbid someone doing something*** with no preposition. Either put *from* in or switch to the infinitive: *forbade us from entering* / *forbade us to enter*.
@@ -506,6 +527,7 @@ In modern American English the *from* sense dominates so completely — it is th
 ### implore
 
 **Pronunciation:** /ɪmˈplɔr/ &middot; *im-PLOR*
+**Русский:** умолять — самая эмоциональная мольба: отчаяние без утраты достоинства
 **Type:** reporting verb — intense plea &middot; **Register:** formal to literary
 **Patterns:** *implore* + **sb** + **to**-infinitive &middot; *implore* + **sb** + **for** + noun phrase &middot; *implore* + **that**-clause (rare, formal)
 **Never:** ***implore to someone to do something***, and ***implore someone from doing something***.
@@ -526,6 +548,7 @@ In modern American English the *from* sense dominates so completely — it is th
 ### insist on
 
 **Pronunciation:** /ɪnˈsɪst ɑn/ &middot; *in-SIST awn*
+**Русский:** настаивать на — требовать повторно, уже получив отказ
 **Type:** reporting verb — unyielding demand &middot; **Register:** neutral
 **Patterns:** *insist on* + **-ing** &middot; *insist on* + noun phrase &middot; *insist on* + **sb's** + **-ing** (*insisted on my paying*) &middot; *insist on* + **sb** + **-ing** (*insisted on me paying* — commoner in speech, still flagged by some editors) &middot; bare *insist* + **that**-clause (subjunctive) &middot; bare *insist* (intransitive: *I insisted*)
 **Never:** ***insist someone to do something*** and ***insist on someone to do something*** — there is no infinitive frame in either shape. Repairs: *insisted that I stay*, *insisted on my staying*, *insisted on paying*.
@@ -554,6 +577,7 @@ The directive sense never backshifts; the assertive sense backshifts normally, p
 ### instruct
 
 **Pronunciation:** /ɪnˈstrʌkt/ &middot; *in-STRUKT*
+**Русский:** инструктировать, поручать — деловое указание по процедуре, без эмоций
 **Type:** reporting verb — procedural directive &middot; **Register:** neutral to formal
 **Patterns:** *instruct* + **sb** + **to**-infinitive &middot; *instruct* + **that**-clause (subjunctive) &middot; *instruct* + **sb** + **that**-clause (informational) &middot; *instruct* + **sb** + **wh**-clause (*instructed us how to file it*) &middot; *instruct* + **sb** + **in** + noun phrase (= teach)
 **Never:** ***instruct to fill out the form*** with no object, in the directive sense. Somebody is always instructed. And ***instruct someone doing something*** — there is no gerund frame.
@@ -574,6 +598,7 @@ The directive sense never backshifts; the assertive sense backshifts normally, p
 ### let
 
 **Pronunciation:** /lɛt/ &middot; *LET*
+**Русский:** позволять, разрешать — бытовое разрешение; разг.; инфинитив без to
 **Type:** reporting verb — permission &middot; **Register:** informal to neutral
 **Patterns:** *let* + **sb** + **bare infinitive** &middot; *let* + **sb** + adverbial particle (*let him in*, *let the dog out*) &middot; *let's* + **bare infinitive** (the first-person imperative)
 **Never:** ***let someone to do something*** — no *to*, ever, in any tense. This is the single most reliable *let* error, and it comes from the fact that every neighboring verb ([allow](#allow), [permit](#permit), [authorize](#authorize)) requires the *to*.
@@ -597,6 +622,7 @@ The directive sense never backshifts; the assertive sense backshifts normally, p
 ### mandate
 
 **Pronunciation:** /ˈmændeɪt/ &middot; *MAN-dayt*
+**Русский:** предписывать в обязательном порядке — требование закона ко всем сразу; офиц.
 **Type:** reporting verb — legal or institutional requirement &middot; **Register:** formal; policy and journalism
 **Patterns:** *mandate* + **that**-clause (subjunctive) &middot; *mandate* + **noun phrase** (*mandates helmets*) &middot; passive *be mandated to* + infinitive (institutional)
 **Never:** ***the law mandates employers to provide coverage*** — the active object plus infinitive is disfavored in edited American prose and flagged by usage panels. Repairs: *mandates that employers provide coverage*, *mandates coverage*. Note that the **passive** *is mandated to* is well established and unobjectionable: *The agency is mandated to review every complaint.*
@@ -618,6 +644,7 @@ The directive sense never backshifts; the assertive sense backshifts normally, p
 ### nag
 
 **Pronunciation:** /næɡ/ &middot; *NAG*
+**Русский:** пилить, зудеть — разг.: надоедать бесконечно повторяемой просьбой
 **Type:** reporting verb — repeated irritating request &middot; **Register:** informal
 **Patterns:** *nag* + **sb** + **to**-infinitive &middot; *nag* + **sb** + **about** + noun phrase &middot; *nag* + **sb** + **into** + **-ing** &middot; *nag at* + **sb** &middot; *nag* (intransitive)
 **Never:** ***nag someone that they should do something*** — no *that*-clause. And ***nag someone doing something*** without *into*.
@@ -638,6 +665,7 @@ The directive sense never backshifts; the assertive sense backshifts normally, p
 ### order
 
 **Pronunciation:** /ˈɔrdər/ &middot; *OR-der*
+**Русский:** приказывать, велеть — обычное слово для властного распоряжения
 **Type:** reporting verb — command &middot; **Register:** neutral
 **Patterns:** *order* + **sb** + **to**-infinitive &middot; *order* + **that**-clause (subjunctive) &middot; *order* + **noun phrase** (*ordered a recount*) &middot; *order* + **sb** + adverbial particle (*ordered him out*)
 **Never:** ***order to someone to do something*** — the addressee is a bare object. And ***order that he leaves*** — the *that*-clause takes the bare subjunctive, not the indicative.
@@ -660,6 +688,7 @@ The directive sense never backshifts; the assertive sense backshifts normally, p
 ### permit
 
 **Pronunciation:** /pərˈmɪt/ &middot; *per-MIT* (the noun is /ˈpɜrmɪt/ &middot; *PER-mit*)
+**Русский:** разрешать — разрешение по правилам, в уставе или на табличке; офиц.
 **Type:** reporting verb — formal permission &middot; **Register:** formal
 **Patterns:** *permit* + **sb** + **to**-infinitive &middot; *permit* + **-ing** (no person named: *permits smoking*) &middot; *permit* + **noun phrase** &middot; passive *be permitted to* (very common) &middot; *permit of* + noun phrase (formal: *permits of no exception*)
 **Never:** ***permit that employees park here*** — permission takes no *that*-clause. Repairs: *permits employees to park here*, *permits parking here*.
@@ -681,6 +710,7 @@ The directive sense never backshifts; the assertive sense backshifts normally, p
 ### petition
 
 **Pronunciation:** /pəˈtɪʃən/ &middot; *puh-TISH-un*
+**Русский:** ходатайствовать, подавать петицию — офиц. письменное обращение к власти
 **Type:** reporting verb — formal written request &middot; **Register:** formal; legal and civic
 **Patterns:** *petition* + **sb** + **to**-infinitive &middot; *petition* + **sb** + **for** + noun phrase &middot; *petition for* + noun phrase &middot; *petition* + **that**-clause (subjunctive; legal)
 **Never:** ***petition to the court to reopen the case*** — the addressee is a direct object, not the object of *to*. Repair: *petitioned the court to reopen the case*. (The **noun** does take *to*: *a petition to the court*.)
@@ -701,6 +731,7 @@ The directive sense never backshifts; the assertive sense backshifts normally, p
 ### plead
 
 **Pronunciation:** /plid/ &middot; *PLEED*
+**Русский:** умолять, упрашивать — долгая эмоциональная просьба; перед лицом нужен with
 **Type:** reporting verb — sustained emotional appeal &middot; **Register:** neutral
 **Patterns:** *plead with* + **sb** + **to**-infinitive &middot; *plead for* + noun phrase &middot; *plead with* + **sb** + **for** + noun phrase &middot; *plead* + **noun phrase** (*pleaded ignorance*, *pleaded guilty* — different senses) &middot; *plead* + **that**-clause (= argue, a different sense)
 **Never:** ***plead someone to do something*** — the preposition *with* is obligatory, and dropping it is one of the commonest errors in this file, because every neighbor ([beg](#beg), [implore](#implore), [entreat](#entreat), [beseech](#beseech)) takes a bare object. Repair: *pleaded with me to stay*.
@@ -722,6 +753,7 @@ The directive sense never backshifts; the assertive sense backshifts normally, p
 ### press
 
 **Pronunciation:** /prɛs/ &middot; *PRESS*
+**Русский:** настойчиво добиваться, напирать — давить, не имея власти приказать
 **Type:** reporting verb — persistent pressure &middot; **Register:** neutral
 **Patterns:** *press* + **sb** + **to**-infinitive &middot; *press* + **sb** + **for** + noun phrase &middot; *press* + **sb** + **on** + noun phrase (*pressed him on the timeline*) &middot; *press for* + noun phrase &middot; *press* + **noun phrase** (*pressed the point*)
 **Never:** ***press that someone do something*** — no *that*-clause of any kind. And ***press someone doing something***. Repairs: *pressed him to answer*, *pressed him for an answer*.
@@ -742,6 +774,7 @@ The directive sense never backshifts; the assertive sense backshifts normally, p
 ### prohibit
 
 **Pronunciation:** /proʊˈhɪbɪt/ &middot; *proh-HIB-it*
+**Русский:** запрещать — запрет, записанный в законе, правилах или договоре; офиц.
 **Type:** reporting verb — institutional prohibition &middot; **Register:** formal
 **Patterns:** *prohibit* + **noun phrase** &middot; *prohibit* + **-ing** &middot; *prohibit* + **sb** + **from** + **-ing** &middot; *prohibit* + **sb** + **from** + noun phrase
 **Never:** ***prohibit someone to do something*** — and unlike [forbid](#forbid), *prohibit* has no infinitive escape hatch at all. This is the sharpest structural line in the file: *forbid* takes either frame, *prohibit* takes only *from* + *-ing*. Repair: *prohibits employees from accepting gifts*.
@@ -762,6 +795,7 @@ The directive sense never backshifts; the assertive sense backshifts normally, p
 ### prompt
 
 **Pronunciation:** /prɑmpt/ &middot; *PRAHMPT*
+**Русский:** подсказать, подтолкнуть репликой — когда собеседник запнулся
 **Type:** reporting verb — verbal nudge &middot; **Register:** neutral
 **Patterns:** *prompt* + **sb** + **to**-infinitive &middot; *prompt* + **noun phrase** (*prompted an investigation*) &middot; *prompt* + **sb** + **for** + noun phrase (*prompted him for the password*) &middot; *prompt* + **sb** + **with** + noun phrase
 **Never:** ***prompt someone that they should do something*** — no *that*-clause. And ***prompt someone doing something***.
@@ -783,6 +817,7 @@ The directive sense never backshifts; the assertive sense backshifts normally, p
 ### proscribe
 
 **Pronunciation:** /proʊˈskraɪb/ &middot; *proh-SKRYBE*
+**Русский:** осуждать и запрещать — книжн.: объявлять недопустимым; не путать с prescribe
 **Type:** reporting verb — formal condemnation and prohibition &middot; **Register:** formal, scholarly
 **Patterns:** *proscribe* + **noun phrase** &middot; *proscribe* + **-ing**
 **Never:** ***proscribe someone to do something***, and ***proscribe someone from doing something*** — the *from* frame that works so naturally with [prohibit](#prohibit) is not established here. *Proscribe* takes the forbidden thing as its object, not the person.
@@ -810,6 +845,7 @@ The directive sense never backshifts; the assertive sense backshifts normally, p
 ### push
 
 **Pronunciation:** /pʊʃ/ &middot; *PUUSH*
+**Русский:** давить, продавливать — разг.: настойчиво склонять к решению в своих интересах
 **Type:** reporting verb — sustained pressure &middot; **Register:** informal to neutral
 **Patterns:** *push* + **sb** + **to**-infinitive &middot; *push* + **sb** + **into** + **-ing** &middot; *push for* + noun phrase &middot; *push* + **sb** + **on** + noun phrase
 **Never:** ***push someone doing something*** without *into*, and ***push that someone do something*** — no *that*-clause.
@@ -831,6 +867,7 @@ The directive sense never backshifts; the assertive sense backshifts normally, p
 ### remind
 
 **Pronunciation:** /rɪˈmaɪnd/ &middot; *rih-MYND*
+**Русский:** напоминать — побуждать к тому, что человек и сам раньше собирался сделать
 **Type:** reporting verb — directive resting on prior intent &middot; **Register:** neutral
 **Patterns:** *remind* + **sb** + **to**-infinitive &middot; *remind* + **sb** + **that**-clause &middot; *remind* + **sb** + **of** + noun phrase &middot; *remind* + **sb** + **about** + noun phrase &middot; *remind* + **sb** + **wh**-clause
 **Never:** ***remind to bring your passport*** with no object — *remind*, like [tell](#tell), always names the person. And ***remind someone doing something***.
@@ -858,6 +895,7 @@ The directive sense never backshifts; the assertive sense backshifts normally, p
 ### request
 
 **Pronunciation:** /rɪˈkwɛst/ &middot; *rih-KWEST*
+**Русский:** просить официально — офиц., обычно письменно; «холодный» вариант ask
 **Type:** reporting verb — formal request &middot; **Register:** formal, written
 **Patterns:** *request* + **noun phrase** &middot; *request* + **that**-clause (subjunctive) &middot; *request* + **to**-infinitive (the subject acts: *requested to be reassigned*) &middot; *request* + **sb** + **to**-infinitive (formal and stiff; the passive is the natural home)
 **Never:** ***request for a copy*** as a verb — *for* belongs to the noun (*a request for a copy*), not the verb. Repair: *requested a copy*. And ***request someone something*** — ✗ *requested him a copy*.
@@ -880,6 +918,7 @@ The directive sense never backshifts; the assertive sense backshifts normally, p
 ### require
 
 **Pronunciation:** /rɪˈkwaɪər/ &middot; *rih-KWYRE*
+**Русский:** требовать — обязанность исходит от правила или условий, а не от человека
 **Type:** reporting verb — imposed obligation &middot; **Register:** neutral to formal
 **Patterns:** *require* + **that**-clause (subjunctive) &middot; *require* + **sb** + **to**-infinitive &middot; *require* + **noun phrase** &middot; *require* + **-ing** (*requires wearing a badge*) &middot; passive *be required to* (the commonest form of all)
 **Never:** ***require that every visitor signs in*** in American prose — the plain indicative in a directive *that*-clause is a British pattern and reads as an error in American writing. Repair: *require that every visitor **sign** in*. British English also has *require that every visitor **should** sign in*. Both British forms are dialect rather than error; neither belongs in American prose. What is impossible in either dialect is ***require someone doing something***.
@@ -907,6 +946,7 @@ The directive sense never backshifts; the assertive sense backshifts normally, p
 ### stipulate
 
 **Pronunciation:** /ˈstɪpjəleɪt/ &middot; *STIP-yuh-layt*
+**Русский:** оговаривать, предусматривать в договоре — юр.: условие, записанное на бумаге
 **Type:** reporting verb — written condition &middot; **Register:** formal; legal and contractual
 **Patterns:** *stipulate* + **that**-clause &middot; *stipulate* + **noun phrase** &middot; *stipulate* + **wh**-clause (*stipulates how the money may be spent*) &middot; *stipulate to* + noun phrase (courtroom sense — see below)
 **Never:** ***stipulate someone to do something*** — no personal object before the complement. Repair: *stipulated that he give thirty days' notice*.
@@ -935,6 +975,7 @@ The directive sense never backshifts; the assertive sense backshifts normally, p
 ### summon
 
 **Pronunciation:** /ˈsʌmən/ &middot; *SUM-un*
+**Русский:** вызывать — приказ явиться, которому нельзя не подчиниться; офиц., юр.
 **Type:** reporting verb — order to appear &middot; **Register:** formal
 **Patterns:** *summon* + **sb** &middot; *summon* + **sb** + **to** + noun phrase (*summoned him to her office*) &middot; *summon* + **sb** + **to**-infinitive (*summoned to appear*) &middot; *summon* + **noun phrase** (*summoned help*)
 **Never:** ***summon someone that they come*** — no *that*-clause. And ***summon to someone*** — the person summoned is a direct object.
@@ -956,6 +997,7 @@ The directive sense never backshifts; the assertive sense backshifts normally, p
 ### tell
 
 **Pronunciation:** /tɛl/ &middot; *TEL*
+**Русский:** велеть, сказать сделать — с инфинитивом это приказ, с that-clause — сообщение
 **Type:** reporting verb — command (also the general information verb) &middot; **Register:** neutral
 **Patterns:** *tell* + **sb** + **to**-infinitive &middot; *tell* + **sb** + **that**-clause &middot; *tell* + **sb** + **wh**-clause &middot; *tell* + **sb** + **noun phrase** (*told me a story*) &middot; *tell* + **sb** + **about** + noun phrase
 **Never:** ***tell to sit down*** and ***tell that he had left*** — *tell* always requires an object, in every one of its uses. And ***say someone to do something*** — its partner verb *say* refuses an object entirely. The object requirement is the sharpest line between the two.
@@ -985,6 +1027,7 @@ The directive sense never backshifts; the assertive sense backshifts normally, p
 ### urge
 
 **Pronunciation:** /ɜrdʒ/ &middot; *URJ*
+**Русский:** настоятельно советовать, призывать — сильно, но без власти принудить
 **Type:** reporting verb — strong recommendation &middot; **Register:** neutral to formal
 **Patterns:** *urge* + **sb** + **to**-infinitive &middot; *urge* + **that**-clause (subjunctive) &middot; *urge* + **noun phrase** (*urged caution*) &middot; *urge* + **sb** + **on** (a different sense: *urged the horse on*)
 **Never:** ***urge to someone to do something***, and ***urge someone doing something***. The complement is an infinitive or a clause, never a gerund.

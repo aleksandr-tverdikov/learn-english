@@ -6,15 +6,6 @@
       "term": "although",
       "ipa": "/ɔlˈðoʊ/ (also /ɑlˈðoʊ/ for speakers with the cot–caught merger)",
       "respell": "awl-THOH",
-      "type": "subordinating",
-      "register": "neutral",
-      "clause": "adverbial clause of concession",
-      "pattern": "Although [clause], [main clause]. · [main clause], although [clause].",
-      "punctuation": "Comma after the although clause when it comes first. When it follows, put a comma before although — the concession is supplementary, unlike a trailing because clause, which takes no comma. Drop it only when the two clauses are short and tightly fused.",
-      "variants": [
-        "altho",
-        "tho' (informal or poetic writing only; not standard prose)"
-      ],
       "meaning": "Introduces a fact that makes the main clause surprising. Unlike but, it subordinates — the although clause is the concession and the main clause carries the point, so which clause you put it on changes what the sentence is arguing. Against though it is the heavier, more written of the two, and it can never be tacked onto the end of a sentence as an afterthought.",
       "examples": [
         "Although the store closed at nine, they let us finish shopping.",
@@ -24,26 +15,20 @@
         "Although I understand the decision, I don't agree with it.",
         "The recipe works with frozen berries, although fresh ones give you better color."
       ],
-      "related": [
-        "though",
-        "even though",
-        "whereas",
-        "albeit",
-        "but"
-      ]
+      "senses": [],
+      "русский": "хотя, несмотря на то что — вводит уступительное придаточное; книжнее, чем though",
+      "register": "neutral",
+      "type": "subordinating",
+      "clause type": "adverbial clause of concession",
+      "pattern": "Although [clause], [main clause]. · [main clause], although [clause].",
+      "punctuation": "Comma after the although clause when it comes first. When it follows, put a comma before although — the concession is supplementary, unlike a trailing because clause, which takes no comma. Drop it only when the two clauses are short and tightly fused.",
+      "variants": "altho, tho' (informal or poetic writing only; not standard prose)",
+      "see also": "though, even though, whereas, albeit, but"
     },
     {
       "term": "as",
-      "ipa": "/æz/ · unstressed /əz/",
-      "respell": "AZ, reduced to uhz",
-      "type": "subordinating; the same word is also a preposition (works as a paralegal), half of the comparative correlative as … as, a relative pronoun after such and the same (such delays as we saw), and a causal and a temporal subordinator",
-      "register": "neutral to literary in this concessive use",
-      "clause": "adverbial clause of concession (with inversion)",
-      "pattern": "[adjective/adverb/bare verb] as [subject] [verb], [main clause]. · As [adjective] as [subject] [verb], [main clause].",
-      "punctuation": "Comma after the fronted as clause. This construction is essentially always fronted; it does not trail comfortably.",
-      "variants": [
-        "as … as (the doubled form, more common in American speech: as tired as I was)"
-      ],
+      "ipa": "/æz/",
+      "respell": "unstressed /əz/",
       "meaning": "Concessive as takes the word being conceded and throws it in front of the conjunction — try as he might, tired as I was, strange as it sounds. That inversion is the only signal, which is why this as has to be kept apart from causal as (As it was raining, we drove) and temporal as (She called as I was leaving): same word, same spelling, different word order. And the conjunction is only part of the word's day job — as is also a preposition (She works as a paralegal), the second half of the comparative as … as (as cold as it looks), and a relative pronoun after such and the same (such problems as we found). Nothing but position tells them apart.",
       "examples": [
         "Try as he might, he could not get the lawn mower to start.",
@@ -53,24 +38,21 @@
         "Search as they did, the divers never found the wreck.",
         "Hard as the team fought, they were down twenty at the half."
       ],
-      "related": [
-        "much as",
-        "though",
-        "however",
-        "albeit",
-        "even though"
-      ]
+      "senses": [],
+      "pronunciation note": "AZ, reduced to uhz",
+      "русский": "хотя, как ни — уступка с инверсией: try as he might «как он ни старался»",
+      "register": "neutral to literary in this concessive use",
+      "type": "subordinating; the same word is also a preposition (works as a paralegal), half of the comparative correlative as … as, a relative pronoun after such and the same (such delays as we saw), and a causal and a temporal subordinator",
+      "clause type": "adverbial clause of concession (with inversion)",
+      "pattern": "[adjective/adverb/bare verb] as [subject] [verb], [main clause]. · As [adjective] as [subject] [verb], [main clause].",
+      "punctuation": "Comma after the fronted as clause. This construction is essentially always fronted; it does not trail comfortably.",
+      "variants": "as … as (the doubled form, more common in American speech: as tired as I was)",
+      "see also": "much as, though, however, albeit, even though"
     },
     {
       "term": "even as",
-      "ipa": "/ˈivən æz/ · unstressed /ˈivən əz/",
-      "respell": "EE-vun az",
-      "type": "subordinating",
-      "register": "neutral to formal (a staple of journalism)",
-      "clause": "adverbial clause of concession with simultaneity",
-      "pattern": "Even as [clause], [main clause]. · [main clause] even as [clause].",
-      "punctuation": "Comma after the fronted clause. A comma before a trailing even as clause is optional and usually left out, since the two events are being presented as one moment.",
-      "variants": [],
+      "ipa": "/ˈivən æz/",
+      "respell": "unstressed /ˈivən əz/",
       "meaning": "Marks two things happening at the same time that ought not to go together — a contrast in the calendar rather than in the logic. Plain as would give you nothing but simultaneity; even as adds the sting. It is the standard way American reporters frame a contradiction they are not allowed to call one.",
       "examples": [
         "Even as the company announced layoffs, it was posting new job listings.",
@@ -79,23 +61,20 @@
         "He insisted the deal was dead even as his lawyers were drafting the terms.",
         "Even as ticket prices climbed, attendance hit a record."
       ],
-      "related": [
-        "while",
-        "when",
-        "whereas",
-        "even though"
-      ]
+      "senses": [],
+      "pronunciation note": "EE-vun az",
+      "русский": "в то время как, тогда как — одновременность с оттенком противоречия",
+      "register": "neutral to formal (a staple of journalism)",
+      "type": "subordinating",
+      "clause type": "adverbial clause of concession with simultaneity",
+      "pattern": "Even as [clause], [main clause]. · [main clause] even as [clause].",
+      "punctuation": "Comma after the fronted clause. A comma before a trailing even as clause is optional and usually left out, since the two events are being presented as one moment.",
+      "see also": "while, when, whereas, even though"
     },
     {
       "term": "even though",
       "ipa": "/ˌivən ˈðoʊ/",
       "respell": "ee-vun THOH",
-      "type": "subordinating",
-      "register": "neutral",
-      "clause": "adverbial clause of concession",
-      "pattern": "Even though [clause], [main clause]. · [main clause], even though [clause].",
-      "punctuation": "Comma after the clause when it comes first; comma before it when it follows.",
-      "variants": [],
       "meaning": "The emphatic although. It insists that the fact in its clause is genuinely known and genuinely true, and that is the whole line between it and even if, where the fact is only supposed: even though it's raining means it is raining, even if it rains leaves the rain open.",
       "examples": [
         "Even though we left at five, we still hit traffic on the bridge.",
@@ -104,24 +83,19 @@
         "They kept the store open through the winter, even though it lost money every month.",
         "Even though I've seen it four times, I cried again at the end."
       ],
-      "related": [
-        "although",
-        "though",
-        "even if",
-        "even when",
-        "much as"
-      ]
+      "senses": [],
+      "русский": "хотя, несмотря на то что — уступаемый факт подаётся как реальный (ср. even if)",
+      "register": "neutral",
+      "type": "subordinating",
+      "clause type": "adverbial clause of concession",
+      "pattern": "Even though [clause], [main clause]. · [main clause], even though [clause].",
+      "punctuation": "Comma after the clause when it comes first; comma before it when it follows.",
+      "see also": "although, though, even if, even when, much as"
     },
     {
       "term": "even when",
-      "ipa": "/ˌivən ˈwɛn/ (also /ˌivən ˈhwɛn/) · unstressed /ˌivən wən/",
-      "respell": "ee-vun WEN",
-      "type": "subordinating",
-      "register": "neutral",
-      "clause": "adverbial clause of concession, universal over occasions",
-      "pattern": "Even when [clause], [main clause]. · [main clause] even when [clause].",
-      "punctuation": "Comma after the fronted clause. No comma when it trails — the clause names a case the main claim has to survive, so it is integrated rather than supplementary.",
-      "variants": [],
+      "ipa": "/ˌivən ˈwɛn/ (also /ˌivən ˈhwɛn/)",
+      "respell": "unstressed /ˌivən wən/",
       "meaning": "The member of the even family that quantifies over occasions instead of a single fact or a single hypothetical. Even though he's tired concedes one thing that is true right now; even if he's tired leaves it open; even when he's tired says the main clause holds on every such occasion, the least likely one included. It is the plain alternative to no matter when and to a whenever clause pushed onto its hardest case.",
       "examples": [
         "Even when the store is empty, there's a wait at the register.",
@@ -130,26 +104,20 @@
         "The heat doesn't kick on even when it drops below freezing.",
         "Even when we book months ahead, we end up in the middle seats."
       ],
-      "related": [
-        "even though",
-        "even if",
-        "even as",
-        "whenever",
-        "no matter when"
-      ]
+      "senses": [],
+      "pronunciation note": "ee-vun WEN",
+      "русский": "даже когда — уступка по всем случаям, включая самый маловероятный",
+      "register": "neutral",
+      "type": "subordinating",
+      "clause type": "adverbial clause of concession, universal over occasions",
+      "pattern": "Even when [clause], [main clause]. · [main clause] even when [clause].",
+      "punctuation": "Comma after the fronted clause. No comma when it trails — the clause names a case the main claim has to survive, so it is integrated rather than supplementary.",
+      "see also": "even though, even if, even as, whenever, no matter when"
     },
     {
       "term": "much as",
-      "ipa": "/ˈmʌtʃ æz/ · unstressed /ˈmʌtʃ əz/",
-      "respell": "MUCH az",
-      "type": "subordinating",
-      "register": "neutral",
-      "clause": "adverbial clause of concession",
-      "pattern": "Much as [subject] [verb], [main clause]. · As much as [subject] [verb], [main clause]. · [main clause], much as [subject] [verb].",
-      "punctuation": "Comma after the fronted clause, which is where it sits in nearly every case. It can trail, and there it keeps the comma, because a concession is supplementary: I'll have to pass, much as I'd like to be there.",
-      "variants": [
-        "as much as (the more common form in American speech)"
-      ],
+      "ipa": "/ˈmʌtʃ æz/",
+      "respell": "unstressed /ˈmʌtʃ əz/",
       "meaning": "A concession about the speaker's own feelings: \"I like this a great deal, and the main clause still stands.\" It almost always attaches to a verb of liking, admiring, wanting, or hating, which makes it the standard polite way to decline. Although I'd like to reports a fact; much as I'd like to reports a fact and a regret.",
       "examples": [
         "Much as I admire her, I wouldn't want to work for her.",
@@ -159,26 +127,21 @@
         "Much as the committee wanted to fund every proposal, the budget wouldn't stretch.",
         "I'll have to pass on Saturday, much as I'd like to be there."
       ],
-      "related": [
-        "as",
-        "although",
-        "even though",
-        "though"
-      ]
+      "senses": [],
+      "pronunciation note": "MUCH az",
+      "русский": "как ни, при всём том что — хотя очень: much as I'd like to «как бы мне ни хотелось»",
+      "register": "neutral",
+      "type": "subordinating",
+      "clause type": "adverbial clause of concession",
+      "pattern": "Much as [subject] [verb], [main clause]. · As much as [subject] [verb], [main clause]. · [main clause], much as [subject] [verb].",
+      "punctuation": "Comma after the fronted clause, which is where it sits in nearly every case. It can trail, and there it keeps the comma, because a concession is supplementary: I'll have to pass, much as I'd like to be there.",
+      "variants": "as much as (the more common form in American speech)",
+      "see also": "as, although, even though, though"
     },
     {
       "term": "much though",
       "ipa": "/ˈmʌtʃ ðoʊ/",
       "respell": "MUCH thoh",
-      "type": "subordinating",
-      "register": "formal or literary; much as is the ordinary American form",
-      "clause": "adverbial clause of concession",
-      "pattern": "Much though [subject] [verb], [main clause]. · [main clause], much though [subject] [verb].",
-      "punctuation": "Comma after the fronted clause, which is where it nearly always sits. Comma before it when it trails, because a concession is supplementary. It is a subordinator, not an adverb, so no semicolon question arises.",
-      "variants": [
-        "much as (the standard American form)",
-        "as much as"
-      ],
       "meaning": "The bookish twin of much as — the same meaning, the same attachment to verbs of liking, wanting, and admiring, but a register higher and far commoner in British writing than in American. Americans meet it in literary prose and in speeches reaching for a formal note; what actually comes out in speech is much as or as much as.",
       "examples": [
         "Much though I admire her scholarship, this chapter does not hold together.",
@@ -187,24 +150,20 @@
         "Much though it pains me to agree with the man, he is right about the drainage.",
         "Much though she loved the house, the commute finally decided it."
       ],
-      "related": [
-        "much as",
-        "as",
-        "though",
-        "although",
-        "even though"
-      ]
+      "senses": [],
+      "русский": "книжн. как ни — книжный вариант much as, чаще британский",
+      "register": "formal or literary; much as is the ordinary American form",
+      "type": "subordinating",
+      "clause type": "adverbial clause of concession",
+      "pattern": "Much though [subject] [verb], [main clause]. · [main clause], much though [subject] [verb].",
+      "punctuation": "Comma after the fronted clause, which is where it nearly always sits. Comma before it when it trails, because a concession is supplementary. It is a subordinator, not an adverb, so no semicolon question arises.",
+      "variants": "much as (the standard American form), as much as",
+      "see also": "much as, as, though, although, even though"
     },
     {
       "term": "though",
       "ipa": "/ðoʊ/",
       "respell": "THOH",
-      "type": "subordinating (also a conjunctive adverb in final position)",
-      "register": "neutral; the final-position adverb is informal",
-      "clause": "adverbial clause of concession",
-      "pattern": "Though [subject] [verb], [main clause]. · [main clause], though [subject] [verb]. · [adjective/noun/bare verb] though [subject] [verb], [main clause]. · [statement], though. (final adverb)",
-      "punctuation": "Comma after a fronted though clause and before a trailing one. As a sentence-final adverb it is always set off by a comma: I like it, though.",
-      "variants": [],
       "meaning": "The lighter, more spoken twin of although, and the only member of the family that also works as a stand-alone adverb meaning \"however,\" parked at the end of a sentence. It takes the inverted concessive pattern too (cold though it was), which although cannot.",
       "examples": [
         "Though the recipe calls for buttermilk, regular milk works fine.",
@@ -214,27 +173,19 @@
         "Though she'd never admit it, the surprise party got to her.",
         "It's a small apartment. The light is incredible, though."
       ],
-      "related": [
-        "although",
-        "even though",
-        "albeit",
-        "as",
-        "however"
-      ]
+      "senses": [],
+      "русский": "хотя; в конце фразы — «впрочем, всё же»; разговорнее, чем although",
+      "register": "neutral; the final-position adverb is informal",
+      "type": "subordinating (also a conjunctive adverb in final position)",
+      "clause type": "adverbial clause of concession",
+      "pattern": "Though [subject] [verb], [main clause]. · [main clause], though [subject] [verb]. · [adjective/noun/bare verb] though [subject] [verb], [main clause]. · [statement], though. (final adverb)",
+      "punctuation": "Comma after a fronted though clause and before a trailing one. As a sentence-final adverb it is always set off by a comma: I like it, though.",
+      "see also": "although, even though, albeit, as, however"
     },
     {
       "term": "though that",
       "ipa": "/ðoʊ ðət/",
       "respell": "THOH that",
-      "type": "subordinating, with the older pleonastic complementizer that attached",
-      "register": "archaic — Early Modern English; you meet it in Shakespeare and in seventeenth-century verse, and in no modern register",
-      "clause": "adverbial clause of concession",
-      "pattern": "Though that [clause], [main clause]. · [main clause], though that [clause].",
-      "punctuation": "Comma after the fronted clause, exactly as with bare though. Modern editions of older texts keep the that and punctuate the clause as though it were not there.",
-      "variants": [
-        "though (the modern form)",
-        "if that, when that, for that, because that (the same doubled pattern on other conjunctions)"
-      ],
       "meaning": "Early Modern English let a subordinator take a redundant that as a clause marker — though that, if that, when that, for that — and the doubled form died out over the seventeenth century. Nothing separates though that from though in meaning; the extra word is grammatical scaffolding, and for a poet it was also a spare syllable. Read straight past it.",
       "examples": [
         "\"Though that his joy be joy, / Yet throw such changes of vexation on't.\" (Othello, I.i)",
@@ -243,28 +194,20 @@
         "Though that he were the king's own son, the law would have him.",
         "The town gave up nothing, though that the siege ran on through the winter."
       ],
-      "related": [
-        "though",
-        "although",
-        "what though",
-        "for that",
-        "howbeit"
-      ]
+      "senses": [],
+      "русский": "устар. хотя — то же though с избыточным that; Шекспир и XVII век",
+      "register": "archaic — Early Modern English; you meet it in Shakespeare and in seventeenth-century verse, and in no modern register",
+      "type": "subordinating, with the older pleonastic complementizer that attached",
+      "clause type": "adverbial clause of concession",
+      "pattern": "Though that [clause], [main clause]. · [main clause], though that [clause].",
+      "punctuation": "Comma after the fronted clause, exactly as with bare though. Modern editions of older texts keep the that and punctuate the clause as though it were not there.",
+      "variants": "though (the modern form), if that, when that, for that, because that (the same doubled pattern on other conjunctions)",
+      "see also": "though, although, what though, for that, howbeit"
     },
     {
       "term": "try as one might",
       "ipa": "/ˈtraɪ əz wʌn ˈmaɪt/",
       "respell": "TRY az wun MYTE",
-      "type": "subordinating — a frozen instance of the inverted concessive as",
-      "register": "neutral to literary; fully current in American writing, a little bookish in speech",
-      "clause": "adverbial clause of concession, with the verb thrown in front of the conjunction",
-      "pattern": "Try as [subject] might, [main clause]. · Try as [subject] would/will/did, [main clause]. · Try as [subject] might to [verb], [main clause]. · [bare verb] as [subject] might, [main clause].",
-      "punctuation": "Comma after the clause. The construction is fronted in nearly every case; trailing it (he never got it started, try as he might) is possible, and there the comma is required, since it lands as an afterthought.",
-      "variants": [
-        "try as I might, try as he might, try as they might (the pronoun tracks the subject)",
-        "try as one will",
-        "search as they did, push as he would (the same frame on other verbs)"
-      ],
       "meaning": "The most frozen instance of concessive as: a bare verb is thrown in front of the conjunction and the modal is left standing behind it, giving \"no matter how hard the subject tried.\" The verb is not limited to try — search as they did, push as he would — but try as one might is the shape Americans actually reach for, and the main clause behind it is almost always a failure.",
       "examples": [
         "Try as he might, he could not get the pilot light to stay lit.",
@@ -274,24 +217,20 @@
         "The stain came back every spring, try as we might to seal the ceiling.",
         "Search as they did, the divers never located the second engine."
       ],
-      "related": [
-        "as",
-        "much as",
-        "however",
-        "no matter how",
-        "though"
-      ]
+      "senses": [],
+      "русский": "как ни старайся, сколько ни пытайся — за оборотом обычно следует неудача",
+      "register": "neutral to literary; fully current in American writing, a little bookish in speech",
+      "type": "subordinating — a frozen instance of the inverted concessive as",
+      "clause type": "adverbial clause of concession, with the verb thrown in front of the conjunction",
+      "pattern": "Try as [subject] might, [main clause]. · Try as [subject] would/will/did, [main clause]. · Try as [subject] might to [verb], [main clause]. · [bare verb] as [subject] might, [main clause].",
+      "punctuation": "Comma after the clause. The construction is fronted in nearly every case; trailing it (he never got it started, try as he might) is possible, and there the comma is required, since it lands as an afterthought.",
+      "variants": "try as I might, try as he might, try as they might (the pronoun tracks the subject), try as one will, search as they did, push as he would (the same frame on other verbs)",
+      "see also": "as, much as, however, no matter how, though"
     },
     {
       "term": "when",
-      "ipa": "/wɛn/ (also /hwɛn/ for speakers who keep the wh-) · unstressed /wən/",
-      "respell": "WEN",
-      "type": "subordinating; the same word is also the ordinary temporal subordinator, an interrogative adverb (When did you get in?), a relative adverb (the year when we moved), a complementizer in noun clauses (I don't know when it ships), and a noun (the when and the where)",
-      "register": "neutral",
-      "clause": "adverbial clause of concession (an extension of the clause of time)",
-      "pattern": "[main clause] when [clause]. · When [clause], [main clause].",
-      "punctuation": "Normally no comma before a trailing concessive when clause — it is integrated, not supplementary. Comma after it if you front it.",
-      "variants": [],
+      "ipa": "/wɛn/ (also /hwɛn/ for speakers who keep the wh-)",
+      "respell": "unstressed /wən/",
       "meaning": "The same word that marks time also marks concession, and only sense tells them apart: Why buy it when you can borrow it? is not about a moment, it is about a contradiction. Concessive when almost always follows the main clause and usually carries a note of complaint or challenge that although does not.",
       "examples": [
         "Why pay for parking when the lot two blocks over is free?",
@@ -300,23 +239,20 @@
         "When you already own the tools, hiring somebody makes no sense.",
         "They cut the arts budget when enrollment in those classes was going up."
       ],
-      "related": [
-        "while",
-        "even as",
-        "whereas",
-        "though"
-      ]
+      "senses": [],
+      "pronunciation note": "WEN",
+      "русский": "хотя, тогда как — упрёк: зачем платить, когда рядом бесплатно",
+      "register": "neutral",
+      "type": "subordinating; the same word is also the ordinary temporal subordinator, an interrogative adverb (When did you get in?), a relative adverb (the year when we moved), a complementizer in noun clauses (I don't know when it ships), and a noun (the when and the where)",
+      "clause type": "adverbial clause of concession (an extension of the clause of time)",
+      "pattern": "[main clause] when [clause]. · When [clause], [main clause].",
+      "punctuation": "Normally no comma before a trailing concessive when clause — it is integrated, not supplementary. Comma after it if you front it.",
+      "see also": "while, even as, whereas, though"
     },
     {
       "term": "while",
       "ipa": "/waɪl/ (also /hwaɪl/)",
       "respell": "WYLE",
-      "type": "subordinating; also a noun (stay a while, worth your while) and a verb (while away an afternoon)",
-      "register": "neutral",
-      "clause": "adverbial clause of concession or contrast (also of time)",
-      "pattern": "While [clause], [main clause]. · [main clause], while [clause].",
-      "punctuation": "The comma is what separates the two meanings. Contrastive while takes one — He's methodical, while his partner works on instinct — and temporal while does not: She read while I cooked. Fronted, it always takes a comma after the clause.",
-      "variants": [],
       "meaning": "While does three jobs as a conjunction — time, contrast, and concession — and American readers sort them by position and comma. Concessive while (\"although\") is normal at the front of a sentence; contrastive while (\"whereas\") is normal in the middle with a comma in front of it. If a sentence could be read either as time or as contrast, rewrite it. Outside the conjunction the same spelling is a noun (it took a while, worth your while) and a verb (we whiled away the afternoon), which is why awhile and a while trip people up: the one-word adverb modifies a verb, the two-word noun phrase follows a preposition.",
       "examples": [
         "While I agree with the goal, I think the timeline is fantasy.",
@@ -325,26 +261,19 @@
         "Our office got new chairs, while the warehouse crew got nothing.",
         "While nobody disputes the numbers, everybody disputes what they mean."
       ],
-      "related": [
-        "whereas",
-        "although",
-        "whilst",
-        "when",
-        "even as"
-      ]
+      "senses": [],
+      "русский": "хотя; тогда как — уступка или противопоставление (тот же союз значит и «пока»)",
+      "register": "neutral",
+      "type": "subordinating; also a noun (stay a while, worth your while) and a verb (while away an afternoon)",
+      "clause type": "adverbial clause of concession or contrast (also of time)",
+      "pattern": "While [clause], [main clause]. · [main clause], while [clause].",
+      "punctuation": "The comma is what separates the two meanings. Contrastive while takes one — He's methodical, while his partner works on instinct — and temporal while does not: She read while I cooked. Fronted, it always takes a comma after the clause.",
+      "see also": "whereas, although, whilst, when, even as"
     },
     {
       "term": "whilst",
       "ipa": "/waɪlst/ (also /hwaɪlst/)",
       "respell": "WYLST",
-      "type": "subordinating",
-      "register": "British; dated or affected in American English",
-      "clause": "adverbial clause of concession or contrast (also of time)",
-      "pattern": "Whilst [clause], [main clause]. · [main clause], whilst [clause].",
-      "punctuation": "Same as while: comma after a fronted clause, comma before a trailing contrastive one.",
-      "variants": [
-        "while (the standard American form)"
-      ],
       "meaning": "The British counterpart of while, in every one of its senses. Americans read it as affected or as a signal that the writer is British, and it turns up in American prose almost only when someone is reaching for formality. Use while. Its cousins amongst, amidst, and learnt carry the same flag.",
       "examples": [
         "Whilst the committee acknowledged the delay, it declined to apologize.",
@@ -353,26 +282,20 @@
         "The tenants were told to vacate whilst repairs were carried out.",
         "Whilst rare, such errors are not unheard of."
       ],
-      "related": [
-        "while",
-        "although",
-        "whereas"
-      ]
+      "senses": [],
+      "русский": "брит. хотя, тогда как — британский вариант while; в США звучит манерно",
+      "register": "British; dated or affected in American English",
+      "type": "subordinating",
+      "clause type": "adverbial clause of concession or contrast (also of time)",
+      "pattern": "Whilst [clause], [main clause]. · [main clause], whilst [clause].",
+      "punctuation": "Same as while: comma after a fronted clause, comma before a trailing contrastive one.",
+      "variants": "while (the standard American form)",
+      "see also": "while, although, whereas"
     },
     {
       "term": "contra",
       "ipa": "/ˈkɑntrə/",
       "respell": "KON-truh",
-      "type": "conjunctive adverb by function — a Latin preposition in form, taking a noun phrase or a citation and never a clause",
-      "register": "formal — American legal citation and academic prose; it exists nowhere else",
-      "clause": "none — it points at an authority or a writer holding the opposite view",
-      "pattern": "[statement]. Contra, [citation]. · Contra [name], [main clause]. · [main clause] (contra [name]).",
-      "punctuation": "In a citation sentence, a comma after it and then the authority: Contra, Erie R.R. v. Tompkins, 304 U.S. 64 (1938). Before a name in running prose it takes no comma of its own — contra Quine — and the whole phrase is fenced with commas or parentheses when it interrupts. It is not a conjunction and cannot join two independent clauses.",
-      "variants": [
-        "but see, but cf. (the English citation signals that do the same job)",
-        "pace (which bows before it disagrees)",
-        "contra proferentem, contra bonos mores (fixed legal phrases — a different word class)"
-      ],
       "meaning": "Latin \"against,\" and in American usage a pointer rather than a connector: it flags an authority or a writer holding the opposite of what the sentence just said. Citation manuals keep it as the signal for directly contrary authority, and scholarship borrows it to name the person being argued with. Contra Smith means \"Smith says otherwise\"; pace Smith means \"Smith says otherwise, and I mean no disrespect.\"",
       "examples": [
         "Contra, Erie R.R. v. Tompkins, 304 U.S. 64 (1938).",
@@ -381,28 +304,20 @@
         "Most editors treat the manuscript as a scribal copy (contra Hollander, who calls it an autograph).",
         "The brief cites four cases for the proposition and, contra, none against it."
       ],
-      "related": [
-        "pace",
-        "contrary to",
-        "whereas",
-        "on the contrary",
-        "notwithstanding that"
-      ]
+      "senses": [],
+      "русский": "юр. напротив, вопреки — отсылка к источнику противоположного мнения",
+      "register": "formal — American legal citation and academic prose; it exists nowhere else",
+      "type": "conjunctive adverb by function — a Latin preposition in form, taking a noun phrase or a citation and never a clause",
+      "clause type": "none — it points at an authority or a writer holding the opposite view",
+      "pattern": "[statement]. Contra, [citation]. · Contra [name], [main clause]. · [main clause] (contra [name]).",
+      "punctuation": "In a citation sentence, a comma after it and then the authority: Contra, Erie R.R. v. Tompkins, 304 U.S. 64 (1938). Before a name in running prose it takes no comma of its own — contra Quine — and the whole phrase is fenced with commas or parentheses when it interrupts. It is not a conjunction and cannot join two independent clauses.",
+      "variants": "but see, but cf. (the English citation signals that do the same job), pace (which bows before it disagrees), contra proferentem, contra bonos mores (fixed legal phrases — a different word class)",
+      "see also": "pace, contrary to, whereas, on the contrary, notwithstanding that"
     },
     {
       "term": "contrary to",
-      "ipa": "/ˈkɑntrɛri tu/ · casually /ˈkɑntrɛri tə/",
-      "respell": "KON-trair-ee too",
-      "type": "conjunctive adverb by function — a two-word preposition, taking a noun phrase or a fused relative what clause and never a bare finite clause",
-      "register": "neutral",
-      "clause": "none of its own — a fronted adverbial that sets the main clause against a belief, an expectation, or a rule",
-      "pattern": "Contrary to [noun phrase], [main clause]. · Contrary to what [clause], [main clause]. · [main clause], contrary to [noun phrase].",
-      "punctuation": "Comma after the fronted phrase, and that comma is not optional — the phrase is a full adverbial. It cannot join two independent clauses: The trail is open, contrary to what you heard, it closes in November is a comma splice.",
-      "variants": [
-        "contrary to popular belief, contrary to expectation (fixed collocations)",
-        "contrary to the fact that (wordy — cut it)",
-        "contra (the Latin citation form)"
-      ],
+      "ipa": "/ˈkɑntrɛri tu/",
+      "respell": "casually /ˈkɑntrɛri tə/",
       "meaning": "Sets the main clause against something someone believes, expects, or has ordered. Its everyday use is corrective — contrary to what you've heard — and its legal use is stricter, where a thing done contrary to a rule was done in violation of it. It needs a noun phrase, so to hang it on a clause you have to insert what (contrary to what the sign says) or the fact that.",
       "examples": [
         "Contrary to popular belief, the bridge is older than the highway.",
@@ -412,28 +327,21 @@
         "Contrary to every forecast we saw, the storm turned east at the last minute.",
         "The permit was issued contrary to the zoning ordinance and was later revoked."
       ],
-      "related": [
-        "contra",
-        "whereas",
-        "on the flip side",
-        "notwithstanding anything to the contrary",
-        "on the contrary"
-      ]
+      "senses": [],
+      "pronunciation note": "KON-trair-ee too",
+      "русский": "вопреки, в противоположность — требует существительного, а не придаточного",
+      "register": "neutral",
+      "type": "conjunctive adverb by function — a two-word preposition, taking a noun phrase or a fused relative what clause and never a bare finite clause",
+      "clause type": "none of its own — a fronted adverbial that sets the main clause against a belief, an expectation, or a rule",
+      "pattern": "Contrary to [noun phrase], [main clause]. · Contrary to what [clause], [main clause]. · [main clause], contrary to [noun phrase].",
+      "punctuation": "Comma after the fronted phrase, and that comma is not optional — the phrase is a full adverbial. It cannot join two independent clauses: The trail is open, contrary to what you heard, it closes in November is a comma splice.",
+      "variants": "contrary to popular belief, contrary to expectation (fixed collocations), contrary to the fact that (wordy — cut it), contra (the Latin citation form)",
+      "see also": "contra, whereas, on the flip side, notwithstanding anything to the contrary, on the contrary"
     },
     {
       "term": "except that",
       "ipa": "/ɪkˈsɛpt ðət/",
       "respell": "ik-SEPT that",
-      "type": "subordinating; except on its own is a preposition (everyone except me) and, in frozen phrases, a verb (present company excepted)",
-      "register": "neutral",
-      "clause": "adverbial clause of exception and contrast",
-      "pattern": "[main clause], except that [clause]. · [main clause]. Except that [clause]. · [main clause], except [when/where/if] [clause].",
-      "punctuation": "Comma before a trailing except that clause — it withdraws part of what was just claimed, so it is supplementary, never integrated. It essentially never fronts ahead of its own main clause: Except that the fan rattled, the room was quiet is not idiomatic. When the exception needs weight of its own, give it a period or a dash and let it stand as a fragment.",
-      "variants": [
-        "except",
-        "except for the fact that (wordy — cut it)",
-        "only (the spoken equivalent: I'd have called, only I lost your number)"
-      ],
       "meaning": "Subtracts a piece of the main clause instead of conceding a point against it, and that is what keeps it out of the although family: although the room was quiet grants a fact and moves on, while except that the fan rattled takes something back. American speech does the same work with bare but or only; except that is what writing reaches for when the exception has to be named precisely.",
       "examples": [
         "The apartment would be perfect, except that there's no parking on the block.",
@@ -443,29 +351,20 @@
         "She remembers the whole evening. Except that she can't say who drove her home.",
         "The branch is open every day, except when the holiday falls on a Monday."
       ],
-      "related": [
-        "save that",
-        "aside from the fact that",
-        "whereas",
-        "where",
-        "but",
-        "only"
-      ]
+      "senses": [],
+      "русский": "за исключением того, что; только вот — отнимает часть уже сказанного",
+      "register": "neutral",
+      "type": "subordinating; except on its own is a preposition (everyone except me) and, in frozen phrases, a verb (present company excepted)",
+      "clause type": "adverbial clause of exception and contrast",
+      "pattern": "[main clause], except that [clause]. · [main clause]. Except that [clause]. · [main clause], except [when/where/if] [clause].",
+      "punctuation": "Comma before a trailing except that clause — it withdraws part of what was just claimed, so it is supplementary, never integrated. It essentially never fronts ahead of its own main clause: Except that the fan rattled, the room was quiet is not idiomatic. When the exception needs weight of its own, give it a period or a dash and let it stand as a fragment.",
+      "variants": "except, except for the fact that (wordy — cut it), only (the spoken equivalent: I'd have called, only I lost your number)",
+      "see also": "save that, aside from the fact that, whereas, where, but, only"
     },
     {
       "term": "on the flip side",
-      "ipa": "/ɑn ðə ˈflɪp ˌsaɪd/ · casually /ɑn ə ˈflɪp saɪd/",
-      "respell": "on thuh FLIP side",
-      "type": "conjunctive adverb (phrasal)",
-      "register": "informal — spoken American English; too casual for a brief, a contract, or a formal report",
-      "clause": "none — a sentence adverbial linking two independent clauses",
-      "pattern": "[Independent clause]. On the flip side, [independent clause]. · [Independent clause]; on the flip side, [independent clause]. · On the flip side of [noun phrase], [main clause].",
-      "punctuation": "Comma after it. Because it is an adverb and not a conjunction, a comma alone in front of it between two independent clauses is a comma splice — use a period or a semicolon: The rent is cheap; on the flip side, the commute is an hour.",
-      "variants": [
-        "on the other hand (the neutral form)",
-        "then again",
-        "flip side, the flip side is (that) (the same image as a noun)"
-      ],
+      "ipa": "/ɑn ðə ˈflɪp ˌsaɪd/",
+      "respell": "casually /ɑn ə ˈflɪp saɪd/",
       "meaning": "The casual American cousin of on the other hand, borrowed from the B-side of a 45. It introduces the offsetting half of a trade-off, and it works best when the two halves really are two faces of one thing — cheap rent and a long commute — rather than two unrelated facts. In anything more formal than an email, write on the other hand.",
       "examples": [
         "The job pays well. On the flip side, you're on call every other weekend.",
@@ -474,27 +373,21 @@
         "Streaming gutted album sales. On the flip side, a nobody in Ohio can reach ten thousand listeners overnight.",
         "She's the fastest coder on the team; on the flip side, nobody else can read what she writes."
       ],
-      "related": [
-        "on the other hand",
-        "whereas",
-        "while",
-        "contrary to",
-        "in contrast"
-      ]
+      "senses": [],
+      "pronunciation note": "on thuh FLIP side",
+      "русский": "разг. с другой стороны — обратная сторона медали, о двух сторонах одной сделки",
+      "register": "informal — spoken American English; too casual for a brief, a contract, or a formal report",
+      "type": "conjunctive adverb (phrasal)",
+      "clause type": "none — a sentence adverbial linking two independent clauses",
+      "pattern": "[Independent clause]. On the flip side, [independent clause]. · [Independent clause]; on the flip side, [independent clause]. · On the flip side of [noun phrase], [main clause].",
+      "punctuation": "Comma after it. Because it is an adverb and not a conjunction, a comma alone in front of it between two independent clauses is a comma splice — use a period or a semicolon: The rent is cheap; on the flip side, the commute is an hour.",
+      "variants": "on the other hand (the neutral form), then again, flip side, the flip side is (that) (the same image as a noun)",
+      "see also": "on the other hand, whereas, while, contrary to, in contrast"
     },
     {
       "term": "pace",
       "ipa": "/ˈpeɪsi/ (also /ˈpɑtʃeɪ/, /ˈpɑkeɪ/) — not the English word pace /peɪs/",
       "respell": "PAY-see",
-      "type": "conjunctive adverb by function — a Latin ablative used as a preposition, taking a name or a noun phrase and never a clause",
-      "register": "formal, academic — criticism, philosophy, and the more literary reviews; a scholar's word, and unknown outside that world",
-      "clause": "none — a parenthetical adverbial naming the authority being contradicted",
-      "pattern": "Pace [name], [main clause]. · [main clause], pace [name]. · [main clause] (pace [name]).",
-      "punctuation": "Comma after the fronted phrase; commas or parentheses on both sides when it interrupts. No comma between pace and the name it governs. It cannot join two independent clauses.",
-      "variants": [
-        "with all due respect to, with apologies to (the plain-English forms)",
-        "contra (blunter, and without the courtesy)"
-      ],
       "meaning": "Latin for \"by the leave of,\" and it means \"with apologies to X, who thinks otherwise.\" It concedes that a respected authority holds the opposite view and then proceeds anyway, which makes it the politest adversative in academic English — and the most easily misread, since it looks like the ordinary English word and is said PAY-see. Against contra, which simply files an opposing citation, pace bows first.",
       "examples": [
         "Pace Dr. Johnson, the poem is not a failure.",
@@ -503,29 +396,20 @@
         "Chaucer was not writing for a courtly audience here, pace Robertson.",
         "Pace my colleagues in the department, the second edition is the better text."
       ],
-      "related": [
-        "contra",
-        "contrary to",
-        "granted",
-        "be that as it may",
-        "albeit"
-      ]
+      "senses": [],
+      "русский": "книжн. при всём уважении к — вопреки мнению названного автора",
+      "register": "formal, academic — criticism, philosophy, and the more literary reviews; a scholar's word, and unknown outside that world",
+      "type": "conjunctive adverb by function — a Latin ablative used as a preposition, taking a name or a noun phrase and never a clause",
+      "clause type": "none — a parenthetical adverbial naming the authority being contradicted",
+      "pattern": "Pace [name], [main clause]. · [main clause], pace [name]. · [main clause] (pace [name]).",
+      "punctuation": "Comma after the fronted phrase; commas or parentheses on both sides when it interrupts. No comma between pace and the name it governs. It cannot join two independent clauses.",
+      "variants": "with all due respect to, with apologies to (the plain-English forms), contra (blunter, and without the courtesy)",
+      "see also": "contra, contrary to, granted, be that as it may, albeit"
     },
     {
       "term": "save that",
       "ipa": "/ˈseɪv ðət/",
       "respell": "SAYV that",
-      "type": "subordinating; save is far commoner as a preposition (all save one) and as an ordinary verb",
-      "register": "formal and literary, verging on archaic — not neutral, and out of place in ordinary American prose",
-      "clause": "adverbial clause of exception and contrast",
-      "pattern": "[main clause], save that [clause]. · [main clause], save [noun phrase]. (preposition) · [main clause], save for [noun phrase]. (preposition)",
-      "punctuation": "Comma before the save that clause, exactly as with except that. It does not front.",
-      "variants": [
-        "save",
-        "save for",
-        "saving that (archaic)",
-        "except that (the neutral everyday form)"
-      ],
       "meaning": "The formal twin of except that, and the register gap between them is wide: save that belongs to literary narration, appellate opinions, and deliberate period voice, and in a memo or an email it reads as a costume. Use except that. What is still alive in American English is the preposition save or save for — the lot was empty save for one truck — and even that sits a notch above neutral.",
       "examples": [
         "The record is complete, save that two pages are missing from the appendix.",
@@ -534,24 +418,20 @@
         "He remembered nothing of the crossing, save that it had been bitterly cold.",
         "The street was dark, save for a light in the second-floor window. (preposition, not a conjunction)"
       ],
-      "related": [
-        "except that",
-        "albeit",
-        "notwithstanding that",
-        "whereas",
-        "howbeit"
-      ]
+      "senses": [],
+      "русский": "книжн., устар. за исключением того, что — формальный двойник except that",
+      "register": "formal and literary, verging on archaic — not neutral, and out of place in ordinary American prose",
+      "type": "subordinating; save is far commoner as a preposition (all save one) and as an ordinary verb",
+      "clause type": "adverbial clause of exception and contrast",
+      "pattern": "[main clause], save that [clause]. · [main clause], save [noun phrase]. (preposition) · [main clause], save for [noun phrase]. (preposition)",
+      "punctuation": "Comma before the save that clause, exactly as with except that. It does not front.",
+      "variants": "save, save for, saving that (archaic), except that (the neutral everyday form)",
+      "see also": "except that, albeit, notwithstanding that, whereas, howbeit"
     },
     {
       "term": "where",
       "ipa": "/wɛr/ (also /hwɛr/)",
       "respell": "WAIR",
-      "type": "subordinating; the same word is also the ordinary locative subordinator (Put it where it belongs), an interrogative adverb (Where is it?), a relative adverb (the town where she grew up), and a noun (the where and the when)",
-      "register": "neutral to formal",
-      "clause": "adverbial clause of contrast (also of place)",
-      "pattern": "Where [clause], [main clause]. · [main clause], where [clause].",
-      "punctuation": "Comma after the fronted clause and before the trailing one. That comma is also what tells a reader you mean contrast and not place.",
-      "variants": [],
       "meaning": "Contrastive where sets one case against another — \"in this version X, in that one Y.\" It is the reviewer's and the analyst's conjunction. Where whereas balances two whole propositions, contrastive where usually balances two versions of the same thing.",
       "examples": [
         "Where his first novel was tight and mean, this one sprawls.",
@@ -560,24 +440,19 @@
         "She writes in long paragraphs, where he can't get past two sentences.",
         "Where the state requires a permit, the county only asks for a notice."
       ],
-      "related": [
-        "whereas",
-        "while",
-        "whilst",
-        "when",
-        "except that"
-      ]
+      "senses": [],
+      "русский": "тогда как, там где — контраст двух версий одного и того же",
+      "register": "neutral to formal",
+      "type": "subordinating; the same word is also the ordinary locative subordinator (Put it where it belongs), an interrogative adverb (Where is it?), a relative adverb (the town where she grew up), and a noun (the where and the when)",
+      "clause type": "adverbial clause of contrast (also of place)",
+      "pattern": "Where [clause], [main clause]. · [main clause], where [clause].",
+      "punctuation": "Comma after the fronted clause and before the trailing one. That comma is also what tells a reader you mean contrast and not place.",
+      "see also": "whereas, while, whilst, when, except that"
     },
     {
       "term": "whereas",
       "ipa": "/wɛrˈæz/ (also /hwɛrˈæz/)",
       "respell": "wair-AZ",
-      "type": "subordinating",
-      "register": "neutral to formal",
-      "clause": "adverbial clause of contrast",
-      "pattern": "[main clause], whereas [clause]. · Whereas [clause], [main clause].",
-      "punctuation": "Always a comma before a trailing whereas clause — it is supplementary, never integrated. Comma after it when fronted. In legal preambles (Whereas the parties agree …) the older sense \"given that\" survives, and each whereas clause is closed with a semicolon.",
-      "variants": [],
       "meaning": "Pure contrast, no concession: it says the two clauses differ, not that one defeats the other. That is the line against although — Although I like coffee, I drink tea implies a tension, while I drink coffee, whereas she drinks tea implies only a difference. While does the same job in a lower register.",
       "examples": [
         "My brother loves horror movies, whereas I can't get through the trailers.",
@@ -586,27 +461,19 @@
         "She was hired for her research, whereas he was hired to run the lab.",
         "Whereas the first draft ran ninety pages, the final version is thirty."
       ],
-      "related": [
-        "while",
-        "where",
-        "although",
-        "whilst"
-      ]
+      "senses": [],
+      "русский": "тогда как, в то время как — чистое противопоставление, без уступки",
+      "register": "neutral to formal",
+      "type": "subordinating",
+      "clause type": "adverbial clause of contrast",
+      "pattern": "[main clause], whereas [clause]. · Whereas [clause], [main clause].",
+      "punctuation": "Always a comma before a trailing whereas clause — it is supplementary, never integrated. Comma after it when fronted. In legal preambles (Whereas the parties agree …) the older sense \"given that\" survives, and each whereas clause is closed with a semicolon.",
+      "see also": "while, where, although, whilst"
     },
     {
       "term": "arguendo",
       "ipa": "/ˌɑrɡjuˈɛndoʊ/",
       "respell": "ar-gyoo-EN-doh",
-      "type": "subordinating inside the fixed frame assuming arguendo that; the bare word is a Latin adverb (\"in the course of argument\") and connects nothing by itself",
-      "register": "formal, legal — American briefs and judicial opinions, and essentially nowhere else",
-      "clause": "adverbial clause of concessive condition",
-      "pattern": "Assuming arguendo that [clause], [main clause]. · Assuming, arguendo, that [clause], [main clause]. · Even assuming arguendo [clause], [main clause]. · [verb phrase] arguendo.",
-      "punctuation": "Comma after the fronted clause. The adverb itself is often fenced with commas inside the frame — assuming, arguendo, that the statute applies — and either punctuation is standard.",
-      "variants": [
-        "assuming arguendo",
-        "for the sake of argument, assuming for the sake of argument that (the plain-English forms)",
-        "conceding the point arguendo"
-      ],
       "meaning": "A lawyer's even if. It grants a premise the writer does not accept, purely to show that the argument fails even on the opponent's own terms, and the Latin is there so that nobody can later quote the concession as an admission. In a brief it is standard and expected; anywhere else, write even if or for the sake of argument.",
       "examples": [
         "Assuming arguendo that the search was lawful, the evidence was still gathered outside the scope of the warrant.",
@@ -615,24 +482,20 @@
         "Assuming, arguendo, that a contract was formed, no party ever performed under it.",
         "Counsel conceded the point arguendo and moved on to the damages calculation."
       ],
-      "related": [
-        "even if",
-        "granted that",
-        "conceding that",
-        "admitting that",
-        "regardless of whether"
-      ]
+      "senses": [],
+      "русский": "юр. допустим ради спора — в обороте assuming arguendo that",
+      "register": "formal, legal — American briefs and judicial opinions, and essentially nowhere else",
+      "type": "subordinating inside the fixed frame assuming arguendo that; the bare word is a Latin adverb (\"in the course of argument\") and connects nothing by itself",
+      "clause type": "adverbial clause of concessive condition",
+      "pattern": "Assuming arguendo that [clause], [main clause]. · Assuming, arguendo, that [clause], [main clause]. · Even assuming arguendo [clause], [main clause]. · [verb phrase] arguendo.",
+      "punctuation": "Comma after the fronted clause. The adverb itself is often fenced with commas inside the frame — assuming, arguendo, that the statute applies — and either punctuation is standard.",
+      "variants": "assuming arguendo, for the sake of argument, assuming for the sake of argument that (the plain-English forms), conceding the point arguendo",
+      "see also": "even if, granted that, conceding that, admitting that, regardless of whether"
     },
     {
       "term": "even if",
-      "ipa": "/ˌivən ˈɪf/ · unstressed /ˌivən əf/",
-      "respell": "ee-vun IF",
-      "type": "subordinating",
-      "register": "neutral",
-      "clause": "adverbial clause of concessive condition",
-      "pattern": "Even if [clause], [main clause]. · [main clause] even if [clause].",
-      "punctuation": "Comma after the clause when it comes first; normally no comma when it follows, because the condition is part of what the main clause is claiming.",
-      "variants": [],
+      "ipa": "/ˌivən ˈɪf/",
+      "respell": "unstressed /ˌivən əf/",
       "meaning": "Grants a condition that has not happened, then says the main clause holds anyway. That is the whole difference from even though, which grants a fact. It often pairs with would or still, and with a past-perfect verb it turns counterfactual: even if you had told me.",
       "examples": [
         "Even if the flight is on time, I won't get in before midnight.",
@@ -641,23 +504,20 @@
         "The policy wouldn't have covered the damage even if she had filed the day it happened.",
         "Even if the numbers hold up, the conclusion still doesn't follow."
       ],
-      "related": [
-        "even though",
-        "if",
-        "whether or not",
-        "no matter what"
-      ]
+      "senses": [],
+      "pronunciation note": "ee-vun IF",
+      "русский": "даже если — уступка предположению, а не факту (ср. even though)",
+      "register": "neutral",
+      "type": "subordinating",
+      "clause type": "adverbial clause of concessive condition",
+      "pattern": "Even if [clause], [main clause]. · [main clause] even if [clause].",
+      "punctuation": "Comma after the clause when it comes first; normally no comma when it follows, because the condition is part of what the main clause is claiming.",
+      "see also": "even though, if, whether or not, no matter what"
     },
     {
       "term": "if",
-      "ipa": "/ɪf/ · unstressed /əf/",
-      "respell": "IF",
-      "type": "subordinating; the same word heads conditional clauses (If it rains, we'll move inside) and noun clauses after verbs of asking and knowing (Ask if they're open)",
-      "register": "formal or literary in this concessive use; conditional if is neutral",
-      "clause": "adverbial clause of concession, usually reduced to a phrase",
-      "pattern": "[statement], if [adjective]. · [determiner] [adjective], if [adjective], [noun]. · If [adjective/noun phrase], [main clause].",
-      "punctuation": "Commas on both sides when concessive if interrupts — a clever, if flawed, argument. A fronted reduced clause takes a comma after it. Never leave it uncommaed, or a reader will take it for the conditional.",
-      "variants": [],
+      "ipa": "/ɪf/",
+      "respell": "unstressed /əf/",
       "meaning": "A compressed although, almost always attached to an adjective rather than to a full clause, and almost always in writing. It concedes one quality while asserting another: a useful, if expensive, tool. Conditional if asks whether something is true; concessive if takes for granted that it is and grants it anyway.",
       "examples": [
         "The plan is bold, if risky.",
@@ -667,25 +527,20 @@
         "The remodel produced a functional, if charmless, kitchen.",
         "If not elegant, the solution at least worked."
       ],
-      "related": [
-        "even if",
-        "although",
-        "albeit",
-        "though"
-      ]
+      "senses": [],
+      "pronunciation note": "IF",
+      "русский": "книжн. хотя и — при прилагательном: a bold, if risky plan «смелый, хотя и рискованный»",
+      "register": "formal or literary in this concessive use; conditional if is neutral",
+      "type": "subordinating; the same word heads conditional clauses (If it rains, we'll move inside) and noun clauses after verbs of asking and knowing (Ask if they're open)",
+      "clause type": "adverbial clause of concession, usually reduced to a phrase",
+      "pattern": "[statement], if [adjective]. · [determiner] [adjective], if [adjective], [noun]. · If [adjective/noun phrase], [main clause].",
+      "punctuation": "Commas on both sides when concessive if interrupts — a clever, if flawed, argument. A fronted reduced clause takes a comma after it. Never leave it uncommaed, or a reader will take it for the conditional.",
+      "see also": "even if, although, albeit, though"
     },
     {
       "term": "regardless of whether",
-      "ipa": "/rɪˈɡɑrdləs əv ˈwɛðər/ (also /ˈhwɛðər/) · casually /rɪˈɡɑrdləs ə ˈwɛðər/",
-      "respell": "rih-GARD-luss uv WETH-er",
-      "type": "subordinating; bare regardless is a conjunctive adverb (Regardless, the flight left on time) and regardless of is a preposition (regardless of cost) — neither can take a clause until whether or the fact that is bolted on",
-      "register": "formal",
-      "clause": "adverbial clause of concessive condition",
-      "pattern": "Regardless of whether [clause], [main clause]. · [main clause] regardless of whether [clause].",
-      "punctuation": "Comma after the fronted clause; no comma when it trails.",
-      "variants": [
-        "irrespective of whether (more formal). Irregardless is nonstandard in every register — do not use it in writing."
-      ],
+      "ipa": "/rɪˈɡɑrdləs əv ˈwɛðər/ (also /ˈhwɛðər/)",
+      "respell": "casually /rɪˈɡɑrdləs ə ˈwɛðər/",
       "meaning": "Says the main clause holds across both branches of an open question. It is the contractual version of whether or not: same meaning, four more syllables, and a home in policies, statutes, and memos rather than in speech.",
       "examples": [
         "Regardless of whether the grant comes through, the study starts in March.",
@@ -694,26 +549,21 @@
         "The application fee is nonrefundable regardless of whether the applicant is admitted.",
         "Regardless of whether the recall is expanded, the plant stays closed through August."
       ],
-      "related": [
-        "whether or not",
-        "no matter what",
-        "regardless of the fact that",
-        "even if"
-      ]
+      "senses": [],
+      "pronunciation note": "rih-GARD-luss uv WETH-er",
+      "русский": "офиц. независимо от того, ... ли — канцелярский вариант whether or not",
+      "register": "formal",
+      "type": "subordinating; bare regardless is a conjunctive adverb (Regardless, the flight left on time) and regardless of is a preposition (regardless of cost) — neither can take a clause until whether or the fact that is bolted on",
+      "clause type": "adverbial clause of concessive condition",
+      "pattern": "Regardless of whether [clause], [main clause]. · [main clause] regardless of whether [clause].",
+      "punctuation": "Comma after the fronted clause; no comma when it trails.",
+      "variants": "irrespective of whether (more formal). Irregardless is nonstandard in every register — do not use it in writing.",
+      "see also": "whether or not, no matter what, regardless of the fact that, even if"
     },
     {
       "term": "whether or not",
       "ipa": "/ˈwɛðər ər ˈnɑt/ (also /ˈhwɛðər/)",
       "respell": "WETH-er er NOT",
-      "type": "subordinating, and correlative in the split form whether … or (not); the same whether also heads noun clauses (I asked whether it was open)",
-      "register": "neutral",
-      "clause": "adverbial clause of concessive condition",
-      "pattern": "Whether or not [clause], [main clause]. · Whether [clause] or not, [main clause]. · Whether [clause A] or [clause B], [main clause].",
-      "punctuation": "Comma after the whole fronted clause, and no comma between the whether half and the or half. No comma when the clause trails.",
-      "variants": [
-        "whether … or",
-        "whether … or not"
-      ],
       "meaning": "Runs through every alternative and says the outcome is the same in all of them. Keep it apart from noun-clause whether: I don't know whether she's coming is an object, takes no comma, and cannot lose the or not, while concessive whether or not you agree is an adverbial and always can.",
       "examples": [
         "Whether or not you agree, the vote stands.",
@@ -722,26 +572,20 @@
         "She's going to say what she thinks whether or not the cameras are on.",
         "Whether or not it was intentional, the effect was the same."
       ],
-      "related": [
-        "regardless of whether",
-        "even if",
-        "no matter what",
-        "come what may",
-        "like it or not"
-      ]
+      "senses": [],
+      "русский": "независимо от того, ... или нет — верно при любом из вариантов",
+      "register": "neutral",
+      "type": "subordinating, and correlative in the split form whether … or (not); the same whether also heads noun clauses (I asked whether it was open)",
+      "clause type": "adverbial clause of concessive condition",
+      "pattern": "Whether or not [clause], [main clause]. · Whether [clause] or not, [main clause]. · Whether [clause A] or [clause B], [main clause].",
+      "punctuation": "Comma after the whole fronted clause, and no comma between the whether half and the or half. No comma when the clause trails.",
+      "variants": "whether … or, whether … or not",
+      "see also": "regardless of whether, even if, no matter what, come what may, like it or not"
     },
     {
       "term": "however",
       "ipa": "/haʊˈɛvər/",
       "respell": "how-EV-er",
-      "type": "subordinating (a different word from the conjunctive adverb however)",
-      "register": "neutral to formal",
-      "clause": "adverbial clause of concession, universal — \"no matter how\"",
-      "pattern": "However [adjective/adverb] [subject] [verb], [main clause]. · However [subject] [verb], [main clause]. · However many/much [noun] [subject] [verb], [main clause]. · [main clause] however [adjective/adverb] [subject] [verb].",
-      "punctuation": "Comma after the whole however clause and no comma after however itself. That is the test that separates the two words: However, he tried is the adverb; However hard he tried, is the subordinator. The adverb also needs a semicolon or a period before it when it stands between two independent clauses; the subordinator never does.",
-      "variants": [
-        "howsoever (archaic or legal)"
-      ],
       "meaning": "Means \"no matter how,\" and it grabs the adjective or adverb it scopes over: however hard, however carefully, however many. Learners meet the conjunctive adverb however (\"but\") first and then misread this one; the giveaway is that the subordinator is never followed by a comma and always has a clause hanging off it.",
       "examples": [
         "However hard he tried, he could not get the door back on its hinges.",
@@ -750,28 +594,20 @@
         "However many times I explain it, somebody asks again.",
         "However carefully you pack them, a few glasses always break."
       ],
-      "related": [
-        "no matter how",
-        "whatever",
-        "whichever",
-        "though",
-        "whenever"
-      ]
+      "senses": [],
+      "русский": "как бы ни, насколько бы ни — союз, не наречие «однако»; however hard he tried",
+      "register": "neutral to formal",
+      "type": "subordinating (a different word from the conjunctive adverb however)",
+      "clause type": "adverbial clause of concession, universal — \"no matter how\"",
+      "pattern": "However [adjective/adverb] [subject] [verb], [main clause]. · However [subject] [verb], [main clause]. · However many/much [noun] [subject] [verb], [main clause]. · [main clause] however [adjective/adverb] [subject] [verb].",
+      "punctuation": "Comma after the whole however clause and no comma after however itself. That is the test that separates the two words: However, he tried is the adverb; However hard he tried, is the subordinator. The adverb also needs a semicolon or a period before it when it stands between two independent clauses; the subordinator never does.",
+      "variants": "howsoever (archaic or legal)",
+      "see also": "no matter how, whatever, whichever, though, whenever"
     },
     {
       "term": "howsomever",
       "ipa": "/ˌhaʊsəmˈɛvər/",
       "respell": "how-sum-EV-er",
-      "type": "subordinating, and also a conjunctive adverb meaning \"however\" — it inherits both jobs from however",
-      "register": "dialectal and archaic — nineteenth-century American rural speech and the local-color fiction that reproduced it, and still heard from older Appalachian and Ozark speakers. It is not standard in any written register.",
-      "clause": "adverbial clause of concession, universal — \"no matter how\"; also a sentence adverbial",
-      "pattern": "Howsomever [adjective/adverb] [subject] [verb], [main clause]. · Howsomever [subject] [verb], [main clause]. · [statement]; howsomever, [statement]. (adverb)",
-      "punctuation": "As a subordinator, a comma after the whole clause and no comma after howsomever itself — the same test that separates the two howevers. As an adverb it needs a period or a semicolon in front of it between two independent clauses, and a comma after.",
-      "variants": [
-        "however (the standard form)",
-        "howsoever (the formal and legal form)",
-        "howsumever, howsever, howsomdever (other dialect spellings)"
-      ],
       "meaning": "A folk extension of howsoever, and the extra syllable is exactly what marks it: howsoever turns up in a deed, howsomever turns up in a character's mouth. Americans meet it in dialect writing — Twain and the local-color novelists — and in the speech of older rural speakers, and dropping it into ordinary prose reads as either a mistake or a costume.",
       "examples": [
         "\"Howsomever, I done it, and I warn't sorry for it afterwards, neither.\"",
@@ -780,24 +616,20 @@
         "Howsomever hard the winter came on, the stock got fed first.",
         "\"It ain't much of a road, howsomever it'll carry you to the river.\""
       ],
-      "related": [
-        "however",
-        "no matter how",
-        "whatever",
-        "howsoever",
-        "howbeit"
-      ]
+      "senses": [],
+      "русский": "диал., устар. как бы ни; впрочем — просторечная форма however",
+      "register": "dialectal and archaic — nineteenth-century American rural speech and the local-color fiction that reproduced it, and still heard from older Appalachian and Ozark speakers. It is not standard in any written register.",
+      "type": "subordinating, and also a conjunctive adverb meaning \"however\" — it inherits both jobs from however",
+      "clause type": "adverbial clause of concession, universal — \"no matter how\"; also a sentence adverbial",
+      "pattern": "Howsomever [adjective/adverb] [subject] [verb], [main clause]. · Howsomever [subject] [verb], [main clause]. · [statement]; howsomever, [statement]. (adverb)",
+      "punctuation": "As a subordinator, a comma after the whole clause and no comma after howsomever itself — the same test that separates the two howevers. As an adverb it needs a period or a semicolon in front of it between two independent clauses, and a comma after.",
+      "variants": "however (the standard form), howsoever (the formal and legal form), howsumever, howsever, howsomdever (other dialect spellings)",
+      "see also": "however, no matter how, whatever, howsoever, howbeit"
     },
     {
       "term": "no matter how",
       "ipa": "/ˌnoʊ ˈmæɾər ˈhaʊ/",
       "respell": "no MAT-er HOW",
-      "type": "subordinating",
-      "register": "neutral",
-      "clause": "adverbial clause of concession, universal over degree",
-      "pattern": "No matter how [adjective/adverb] [subject] [verb], [main clause]. · No matter how many/much [noun] [subject] [verb], [main clause]. · [main clause] no matter how [adjective/adverb] [subject] [verb].",
-      "punctuation": "Comma after the fronted clause. When it trails, a comma before it is optional — include it if the clause lands as an afterthought.",
-      "variants": [],
       "meaning": "The plain-English twin of subordinating however, and by far the more common of the two in American speech. It scopes over a degree — how hard, how long, how many — and says the main clause survives all of them.",
       "examples": [
         "No matter how hard I try, I can't parallel park.",
@@ -806,23 +638,19 @@
         "He won't sell, no matter how much they offer.",
         "No matter how carefully you read the contract, something is buried in there."
       ],
-      "related": [
-        "however",
-        "no matter what",
-        "no matter when",
-        "whatever"
-      ]
+      "senses": [],
+      "русский": "как бы ни, сколько бы ни — уступка по степени",
+      "register": "neutral",
+      "type": "subordinating",
+      "clause type": "adverbial clause of concession, universal over degree",
+      "pattern": "No matter how [adjective/adverb] [subject] [verb], [main clause]. · No matter how many/much [noun] [subject] [verb], [main clause]. · [main clause] no matter how [adjective/adverb] [subject] [verb].",
+      "punctuation": "Comma after the fronted clause. When it trails, a comma before it is optional — include it if the clause lands as an afterthought.",
+      "see also": "however, no matter what, no matter when, whatever"
     },
     {
       "term": "no matter that",
       "ipa": "/ˌnoʊ ˈmæɾər ðət/",
       "respell": "no MAT-er that",
-      "type": "subordinating",
-      "register": "formal or literary",
-      "clause": "adverbial clause of concession",
-      "pattern": "[main clause] — no matter that [clause]. · No matter that [clause], [main clause].",
-      "punctuation": "Usually set off with a dash, a comma, or a sentence of its own, because it arrives as an afterthought rather than as a condition. Comma after it when fronted.",
-      "variants": [],
       "meaning": "The one member of the no matter family that takes a plain statement instead of a question word, and it means \"although,\" not \"regardless of which.\" It comes with a dismissive shrug built in: the conceded fact is being brushed aside, not weighed.",
       "examples": [
         "He was introduced as the founder — no matter that he joined in year four.",
@@ -831,25 +659,19 @@
         "She was blamed for the delay, no matter that she had flagged the problem in April.",
         "No matter that it was pouring, the coach kept them on the field."
       ],
-      "related": [
-        "no matter what",
-        "although",
-        "notwithstanding that",
-        "for all that"
-      ]
+      "senses": [],
+      "русский": "пусть даже, неважно, что — с оттенком пренебрежения к признанному факту",
+      "register": "formal or literary",
+      "type": "subordinating",
+      "clause type": "adverbial clause of concession",
+      "pattern": "[main clause] — no matter that [clause]. · No matter that [clause], [main clause].",
+      "punctuation": "Usually set off with a dash, a comma, or a sentence of its own, because it arrives as an afterthought rather than as a condition. Comma after it when fronted.",
+      "see also": "no matter what, although, notwithstanding that, for all that"
     },
     {
       "term": "no matter what",
       "ipa": "/ˌnoʊ ˈmæɾər ˈwʌt/ (also /ˈhwʌt/)",
       "respell": "no MAT-er WUT",
-      "type": "subordinating",
-      "register": "neutral",
-      "clause": "adverbial clause of concession, universal over things and outcomes",
-      "pattern": "No matter what [subject] [verb], [main clause]. · No matter what [verb phrase], [main clause]. · No matter what [noun] [subject] [verb], [main clause]. · [main clause] no matter what [subject] [verb]. · [main clause], no matter what. (fixed tag, nothing following)",
-      "punctuation": "Comma after the fronted clause; comma before the bare tag no matter what at the end of a sentence.",
-      "variants": [
-        "no matter which (when the choice comes from a known set — it has its own entry below)"
-      ],
       "meaning": "Ranges over every possible thing or outcome. Unlike whatever, it can only be adverbial — you cannot make it the subject or object of anything — which is why No matter what you decide, I'm with you works and No matter what you decide is fine does not.",
       "examples": [
         "No matter what the inspector finds, we're closing on Friday.",
@@ -858,24 +680,20 @@
         "She was going to defend him no matter what the tape showed.",
         "No matter what you've heard, the trail is open all winter."
       ],
-      "related": [
-        "whatever",
-        "no matter how",
-        "no matter which",
-        "no matter who",
-        "come what may"
-      ]
+      "senses": [],
+      "русский": "что бы ни; в конце фразы — «во что бы то ни стало»",
+      "register": "neutral",
+      "type": "subordinating",
+      "clause type": "adverbial clause of concession, universal over things and outcomes",
+      "pattern": "No matter what [subject] [verb], [main clause]. · No matter what [verb phrase], [main clause]. · No matter what [noun] [subject] [verb], [main clause]. · [main clause] no matter what [subject] [verb]. · [main clause], no matter what. (fixed tag, nothing following)",
+      "punctuation": "Comma after the fronted clause; comma before the bare tag no matter what at the end of a sentence.",
+      "variants": "no matter which (when the choice comes from a known set — it has its own entry below)",
+      "see also": "whatever, no matter how, no matter which, no matter who, come what may"
     },
     {
       "term": "no matter when",
       "ipa": "/ˌnoʊ ˈmæɾər ˈwɛn/ (also /ˈhwɛn/)",
       "respell": "no MAT-er WEN",
-      "type": "subordinating",
-      "register": "neutral",
-      "clause": "adverbial clause of concession, universal over time",
-      "pattern": "No matter when [clause], [main clause]. · [main clause] no matter when [clause].",
-      "punctuation": "Comma after the fronted clause; no comma when it trails.",
-      "variants": [],
       "meaning": "Says the timing makes no difference. It competes with whenever, which is far more common in the plain time sense; a writer reaches for no matter when when the concession is the point and the schedule is not.",
       "examples": [
         "No matter when you call, somebody will pick up.",
@@ -884,23 +702,19 @@
         "He shows up at the same table no matter when his shift ends.",
         "No matter when they schedule it, half the department will be traveling."
       ],
-      "related": [
-        "whenever",
-        "no matter how",
-        "no matter where",
-        "even as"
-      ]
+      "senses": [],
+      "русский": "когда бы ни — время не имеет значения",
+      "register": "neutral",
+      "type": "subordinating",
+      "clause type": "adverbial clause of concession, universal over time",
+      "pattern": "No matter when [clause], [main clause]. · [main clause] no matter when [clause].",
+      "punctuation": "Comma after the fronted clause; no comma when it trails.",
+      "see also": "whenever, no matter how, no matter where, even as"
     },
     {
       "term": "no matter where",
       "ipa": "/ˌnoʊ ˈmæɾər ˈwɛr/ (also /ˈhwɛr/)",
       "respell": "no MAT-er WAIR",
-      "type": "subordinating",
-      "register": "neutral",
-      "clause": "adverbial clause of concession, universal over place",
-      "pattern": "No matter where [clause], [main clause]. · [main clause] no matter where [clause].",
-      "punctuation": "Comma after the fronted clause; no comma when it trails.",
-      "variants": [],
       "meaning": "Says the place makes no difference. Against wherever, which can also simply name a place (Put it wherever you like), no matter where is only ever a concession.",
       "examples": [
         "No matter where you sit, you can hear the kitchen.",
@@ -909,25 +723,19 @@
         "Cell service drops out no matter where you stand in that building.",
         "No matter where we've lived, the first thing we look for is a decent diner."
       ],
-      "related": [
-        "wherever",
-        "no matter when",
-        "no matter how",
-        "where"
-      ]
+      "senses": [],
+      "русский": "где бы ни, куда бы ни — место не имеет значения",
+      "register": "neutral",
+      "type": "subordinating",
+      "clause type": "adverbial clause of concession, universal over place",
+      "pattern": "No matter where [clause], [main clause]. · [main clause] no matter where [clause].",
+      "punctuation": "Comma after the fronted clause; no comma when it trails.",
+      "see also": "wherever, no matter when, no matter how, where"
     },
     {
       "term": "no matter which",
       "ipa": "/ˌnoʊ ˈmæɾər ˈwɪtʃ/ (also /ˈhwɪtʃ/)",
       "respell": "no MAT-er WICH",
-      "type": "subordinating",
-      "register": "neutral",
-      "clause": "adverbial clause of concession, universal over a closed set",
-      "pattern": "No matter which [noun] [subject] [verb], [main clause]. · No matter which [subject] [verb], [main clause]. · [main clause] no matter which [noun] [subject] [verb].",
-      "punctuation": "Comma after the fronted clause; no comma when it trails.",
-      "variants": [
-        "no matter what (when the field is wide open rather than a known set)"
-      ],
       "meaning": "No matter what ranges over everything; no matter which ranges over a list the speaker and the listener already have in front of them — two candidates, three routes, four plans. It stands to whichever exactly as no matter what stands to whatever: same meaning, but adverbial only, so it can never be the subject or object of the main verb.",
       "examples": [
         "No matter which route you take, you'll sit in traffic on the bridge.",
@@ -936,25 +744,20 @@
         "She'll be up all night no matter which night they schedule it.",
         "No matter which way you read that clause, it doesn't cover this."
       ],
-      "related": [
-        "whichever",
-        "no matter what",
-        "no matter who",
-        "whatever"
-      ]
+      "senses": [],
+      "русский": "какой бы ни, который бы ни — выбор из известного набора",
+      "register": "neutral",
+      "type": "subordinating",
+      "clause type": "adverbial clause of concession, universal over a closed set",
+      "pattern": "No matter which [noun] [subject] [verb], [main clause]. · No matter which [subject] [verb], [main clause]. · [main clause] no matter which [noun] [subject] [verb].",
+      "punctuation": "Comma after the fronted clause; no comma when it trails.",
+      "variants": "no matter what (when the field is wide open rather than a known set)",
+      "see also": "whichever, no matter what, no matter who, whatever"
     },
     {
       "term": "no matter who",
       "ipa": "/ˌnoʊ ˈmæɾər ˈhu/",
       "respell": "no MAT-er HOO",
-      "type": "subordinating",
-      "register": "neutral",
-      "clause": "adverbial clause of concession, universal over persons",
-      "pattern": "No matter who [verb phrase], [main clause]. · No matter who [subject] [verb], [main clause]. (when who is the object inside its own clause) · [main clause] no matter who [verb phrase].",
-      "punctuation": "Comma after the fronted clause; no comma when it trails.",
-      "variants": [
-        "no matter whom (formal, and only when the pronoun is an object: no matter whom they appoint)"
-      ],
       "meaning": "Ranges over every person. Like the rest of the family it is adverbial only, and that is the split from whoever: Whoever wins gets the trophy has whoever doing subject duty, while No matter who wins, the trophy stays here bolts a concession onto a sentence that was already complete.",
       "examples": [
         "No matter who wins in November, the deficit is still there in January.",
@@ -963,27 +766,20 @@
         "The rule applies no matter who you know.",
         "No matter who they hire, that job is going to eat somebody alive."
       ],
-      "related": [
-        "whoever",
-        "no matter what",
-        "no matter how",
-        "whichever",
-        "no matter why"
-      ]
+      "senses": [],
+      "русский": "кто бы ни — только обстоятельство, в отличие от whoever",
+      "register": "neutral",
+      "type": "subordinating",
+      "clause type": "adverbial clause of concession, universal over persons",
+      "pattern": "No matter who [verb phrase], [main clause]. · No matter who [subject] [verb], [main clause]. (when who is the object inside its own clause) · [main clause] no matter who [verb phrase].",
+      "punctuation": "Comma after the fronted clause; no comma when it trails.",
+      "variants": "no matter whom (formal, and only when the pronoun is an object: no matter whom they appoint)",
+      "see also": "whoever, no matter what, no matter how, whichever, no matter why"
     },
     {
       "term": "no matter why",
       "ipa": "/ˌnoʊ ˈmæɾər ˈwaɪ/ (also /ˈhwaɪ/)",
       "respell": "no MAT-er WY",
-      "type": "subordinating",
-      "register": "neutral",
-      "clause": "adverbial clause of concession, universal over reasons",
-      "pattern": "No matter why [clause], [main clause]. · [main clause] no matter why [clause].",
-      "punctuation": "Comma after the fronted clause; no comma when it trails.",
-      "variants": [
-        "whatever the reason (the commoner everyday phrasing)",
-        "for whatever reason (a noun-phrase adverbial, not a clause)"
-      ],
       "meaning": "Says the reason makes no difference. It is the thinnest-used member of the family, for two reasons: English already has two shorter ways to say it — whatever the reason, for whatever reason — and why has no live -ever form in American English, so no matter why has no whyever pushing against it the way whenever pushes against no matter when. Reach for it when the sentence is refusing to litigate motive.",
       "examples": [
         "No matter why he left, the position is open now.",
@@ -992,25 +788,20 @@
         "They'll suspend your license no matter why you skipped the hearing.",
         "No matter why you're calling, you'll be on hold for twenty minutes."
       ],
-      "related": [
-        "no matter what",
-        "no matter how",
-        "no matter who",
-        "whatever"
-      ]
+      "senses": [],
+      "русский": "по какой бы причине ни — мотив не имеет значения",
+      "register": "neutral",
+      "type": "subordinating",
+      "clause type": "adverbial clause of concession, universal over reasons",
+      "pattern": "No matter why [clause], [main clause]. · [main clause] no matter why [clause].",
+      "punctuation": "Comma after the fronted clause; no comma when it trails.",
+      "variants": "whatever the reason (the commoner everyday phrasing), for whatever reason (a noun-phrase adverbial, not a clause)",
+      "see also": "no matter what, no matter how, no matter who, whatever"
     },
     {
       "term": "whatever",
-      "ipa": "/wʌtˈɛvər/ (also /wɑtˈɛvər/, and /hwʌtˈɛvər/ for speakers who keep the wh-) · casually /wəˈɾɛvər/, with the t flapped",
-      "respell": "wut-EV-er",
-      "type": "subordinating; the same word is also a determiner (whatever excuse she gave), a fused relative pronoun heading noun clauses (whatever falls on the floor), and — informally — a one-word dismissive interjection (Whatever.)",
-      "register": "neutral",
-      "clause": "adverbial clause of concession, universal — also heads noun clauses",
-      "pattern": "Whatever [subject] [verb], [main clause]. · Whatever [noun] [subject] [verb], [main clause]. · [main clause] whatever [subject] [verb]. · [verb] whatever [subject] [verb] (noun clause — no comma)",
-      "punctuation": "Comma after the clause when it is a concession at the front of a sentence. No comma when the whatever clause is the subject or object of the main verb — that is a noun clause, not an adverbial. Whatever you decide is fine takes no comma; Whatever you decide, I'll back you does.",
-      "variants": [
-        "whatsoever (dead as a subordinator; alive only as an emphatic tag after a negative: no reason whatsoever)"
-      ],
+      "ipa": "/wʌtˈɛvər/ (also /wɑtˈɛvər/, and /hwʌtˈɛvər/ for speakers who keep the wh-)",
+      "respell": "casually /wəˈɾɛvər/, with the t flapped",
       "meaning": "Two words in one shape. Concessive whatever means \"no matter what\" and can be lifted out without breaking the sentence; nominal whatever means \"anything that\" and cannot. The comma test above is the fastest way to tell them apart.",
       "examples": [
         "Whatever you do, don't touch the red switch.",
@@ -1020,23 +811,21 @@
         "Whatever happens tonight, I'm proud of you.",
         "The dog eats whatever falls on the floor. (noun clause — no comma, no concession)"
       ],
-      "related": [
-        "no matter what",
-        "whichever",
-        "however",
-        "whoever"
-      ]
+      "senses": [],
+      "pronunciation note": "wut-EV-er",
+      "русский": "что бы ни (уступка); всё, что (именное придаточное) — различает запятая",
+      "register": "neutral",
+      "type": "subordinating; the same word is also a determiner (whatever excuse she gave), a fused relative pronoun heading noun clauses (whatever falls on the floor), and — informally — a one-word dismissive interjection (Whatever.)",
+      "clause type": "adverbial clause of concession, universal — also heads noun clauses",
+      "pattern": "Whatever [subject] [verb], [main clause]. · Whatever [noun] [subject] [verb], [main clause]. · [main clause] whatever [subject] [verb]. · [verb] whatever [subject] [verb] (noun clause — no comma)",
+      "punctuation": "Comma after the clause when it is a concession at the front of a sentence. No comma when the whatever clause is the subject or object of the main verb — that is a noun clause, not an adverbial. Whatever you decide is fine takes no comma; Whatever you decide, I'll back you does.",
+      "variants": "whatsoever (dead as a subordinator; alive only as an emphatic tag after a negative: no reason whatsoever)",
+      "see also": "no matter what, whichever, however, whoever"
     },
     {
       "term": "whenever",
       "ipa": "/wɛnˈɛvər/ (also /hwɛnˈɛvər/)",
       "respell": "wen-EV-er",
-      "type": "subordinating; the same word is also the ordinary time subordinator meaning \"every time\" and a fused relative heading noun clauses (Whenever you get here is fine)",
-      "register": "neutral",
-      "clause": "adverbial clause of concession, universal over time — also of time proper",
-      "pattern": "Whenever [clause], [main clause]. · [main clause] whenever [clause]. · [main clause] whenever. (bare tag, nothing following: Call me whenever) · Whenever [clause] [main-clause verb phrase]. (fused relative heading a noun clause — no comma: Whenever you get here is fine)",
-      "punctuation": "Comma after the fronted clause. No comma when it trails in the time sense; a comma is fine when the trailing clause is a genuine concession. No comma when the whenever clause is the subject or object of the main verb — that is a noun clause, not an adverbial.",
-      "variants": [],
       "meaning": "Mostly a time word meaning \"every time,\" but it turns concessive when the point is that the timing is irrelevant rather than repeated. Whenever you get here is fine is scheduling, Whenever there's a potluck she brings the same casserole is a pattern, and Whenever that photo was taken, it wasn't 1962 is a concession.",
       "examples": [
         "Whenever the deal actually closes, the terms won't change.",
@@ -1045,25 +834,19 @@
         "She brings the same casserole whenever there's a potluck.",
         "Whenever that photo was taken, it wasn't 1962."
       ],
-      "related": [
-        "no matter when",
-        "wherever",
-        "whatever",
-        "when"
-      ]
+      "senses": [],
+      "русский": "когда бы ни; всякий раз, когда — чаще о повторе, реже уступка",
+      "register": "neutral",
+      "type": "subordinating; the same word is also the ordinary time subordinator meaning \"every time\" and a fused relative heading noun clauses (Whenever you get here is fine)",
+      "clause type": "adverbial clause of concession, universal over time — also of time proper",
+      "pattern": "Whenever [clause], [main clause]. · [main clause] whenever [clause]. · [main clause] whenever. (bare tag, nothing following: Call me whenever) · Whenever [clause] [main-clause verb phrase]. (fused relative heading a noun clause — no comma: Whenever you get here is fine)",
+      "punctuation": "Comma after the fronted clause. No comma when it trails in the time sense; a comma is fine when the trailing clause is a genuine concession. No comma when the whenever clause is the subject or object of the main verb — that is a noun clause, not an adverbial.",
+      "see also": "no matter when, wherever, whatever, when"
     },
     {
       "term": "wherever",
       "ipa": "/wɛrˈɛvər/ (also /hwɛrˈɛvər/)",
       "respell": "wair-EV-er",
-      "type": "subordinating; the same word is also the ordinary place subordinator (Sit wherever you like) and a fused relative heading noun clauses",
-      "register": "neutral",
-      "clause": "adverbial clause of concession, universal over place — also of place proper",
-      "pattern": "Wherever [clause], [main clause]. · [main clause] wherever [clause]. · [verb/preposition] wherever [clause]. (fused relative heading a noun clause — no comma) · Wherever [clause] [main-clause verb phrase]. (fused relative as subject — no comma)",
-      "punctuation": "Comma after the fronted concessive clause; no comma when it trails. No comma when the wherever clause is the subject or object of the main verb — that is a noun clause naming a place, not a concession.",
-      "variants": [
-        "wheresoever (archaic or legal)"
-      ],
       "meaning": "\"In any place, and it makes no difference which.\" The concessive reading is the fronted one; trailing, it usually just names a place, and there the clause is an ordinary adverbial of place rather than a concession.",
       "examples": [
         "Wherever they end up, they'll make it work.",
@@ -1072,25 +855,20 @@
         "You can pick up the order wherever is closest to you. (fused relative naming a place — no comma, no concession)",
         "Wherever you look in that town, somebody's cousin owns the building."
       ],
-      "related": [
-        "no matter where",
-        "whenever",
-        "whatever",
-        "where"
-      ]
+      "senses": [],
+      "русский": "где бы ни, куда бы ни — в любом месте, и это неважно",
+      "register": "neutral",
+      "type": "subordinating; the same word is also the ordinary place subordinator (Sit wherever you like) and a fused relative heading noun clauses",
+      "clause type": "adverbial clause of concession, universal over place — also of place proper",
+      "pattern": "Wherever [clause], [main clause]. · [main clause] wherever [clause]. · [verb/preposition] wherever [clause]. (fused relative heading a noun clause — no comma) · Wherever [clause] [main-clause verb phrase]. (fused relative as subject — no comma)",
+      "punctuation": "Comma after the fronted concessive clause; no comma when it trails. No comma when the wherever clause is the subject or object of the main verb — that is a noun clause naming a place, not a concession.",
+      "variants": "wheresoever (archaic or legal)",
+      "see also": "no matter where, whenever, whatever, where"
     },
     {
       "term": "whichever",
       "ipa": "/wɪtʃˈɛvər/ (also /hwɪtʃˈɛvər/)",
       "respell": "wich-EV-er",
-      "type": "subordinating; the same word is also a determiner (whichever route you take) and a fused relative pronoun heading noun clauses (Take whichever you like)",
-      "register": "neutral",
-      "clause": "adverbial clause of concession, universal over a known set — also heads noun clauses",
-      "pattern": "Whichever [noun] [subject] [verb], [main clause]. · Whichever [subject] [verb], [main clause]. (as a bare pronoun, no noun following) · [main clause] whichever [noun] [subject] [verb]. · [verb] whichever [noun] [subject] [verb] (noun clause — no comma)",
-      "punctuation": "Comma after the fronted concessive clause, and a comma before a trailing concessive one, which is supplementary: The winner gets the corner office, whichever of them it turns out to be. No comma when the whichever clause is the subject or object of the main verb — that is a noun clause, not a concession.",
-      "variants": [
-        "whichsoever (archaic or legal)"
-      ],
       "meaning": "Like whatever, except that the alternatives are a closed, known set — two candidates, three routes, four plans. If the speaker has a list in mind, whichever; if the field is wide open, whatever.",
       "examples": [
         "Whichever route you take, you'll cross the same bridge.",
@@ -1099,26 +877,20 @@
         "Whichever way the vote goes, this will be in court by spring.",
         "Take whichever seat you like. (noun clause — no comma)"
       ],
-      "related": [
-        "whatever",
-        "whoever",
-        "no matter what",
-        "however"
-      ]
+      "senses": [],
+      "русский": "какой бы ни, который бы ни — из закрытого, известного набора",
+      "register": "neutral",
+      "type": "subordinating; the same word is also a determiner (whichever route you take) and a fused relative pronoun heading noun clauses (Take whichever you like)",
+      "clause type": "adverbial clause of concession, universal over a known set — also heads noun clauses",
+      "pattern": "Whichever [noun] [subject] [verb], [main clause]. · Whichever [subject] [verb], [main clause]. (as a bare pronoun, no noun following) · [main clause] whichever [noun] [subject] [verb]. · [verb] whichever [noun] [subject] [verb] (noun clause — no comma)",
+      "punctuation": "Comma after the fronted concessive clause, and a comma before a trailing concessive one, which is supplementary: The winner gets the corner office, whichever of them it turns out to be. No comma when the whichever clause is the subject or object of the main verb — that is a noun clause, not a concession.",
+      "variants": "whichsoever (archaic or legal)",
+      "see also": "whatever, whoever, no matter what, however"
     },
     {
       "term": "whoever",
       "ipa": "/huˈɛvər/",
       "respell": "hoo-EV-er",
-      "type": "subordinating; the same word is also a fused relative pronoun heading noun clauses (Give it to whoever answers)",
-      "register": "neutral",
-      "clause": "adverbial clause of concession, universal over persons — also heads noun clauses",
-      "pattern": "Whoever [verb phrase], [main clause]. · Whoever [subject] [verb], [main clause]. (when whoever is the object inside its own clause) · [main clause] whoever [verb phrase]. · [verb/preposition] whoever [verb phrase] (noun clause — no comma)",
-      "punctuation": "Comma after the fronted concessive clause; a trailing concessive clause normally goes uncommaed, since it names a case the main claim has to survive. No comma when the clause is the subject or object of the main verb: Whoever left this here owes me a mug.",
-      "variants": [
-        "whomever (formal, and only when the pronoun is the object inside its own clause)",
-        "whosoever (archaic or legal)"
-      ],
       "meaning": "\"No matter which person.\" The case trap is real: pick whoever or whomever by the job the word does inside its own clause, not by what comes before it — Give it to whoever answers is correct, because whoever is the subject of answers, not the object of to.",
       "examples": [
         "Whoever took the last of the coffee, please start a new pot.",
@@ -1128,26 +900,20 @@
         "Whoever signed for the package, it wasn't anybody in this office.",
         "The prize goes to whoever finishes first. (noun clause — no comma, no concession)"
       ],
-      "related": [
-        "no matter who",
-        "whatever",
-        "whichever",
-        "however"
-      ]
+      "senses": [],
+      "русский": "кто бы ни; тот, кто — падеж выбирается по роли внутри своего придаточного",
+      "register": "neutral",
+      "type": "subordinating; the same word is also a fused relative pronoun heading noun clauses (Give it to whoever answers)",
+      "clause type": "adverbial clause of concession, universal over persons — also heads noun clauses",
+      "pattern": "Whoever [verb phrase], [main clause]. · Whoever [subject] [verb], [main clause]. (when whoever is the object inside its own clause) · [main clause] whoever [verb phrase]. · [verb/preposition] whoever [verb phrase] (noun clause — no comma)",
+      "punctuation": "Comma after the fronted concessive clause; a trailing concessive clause normally goes uncommaed, since it names a case the main claim has to survive. No comma when the clause is the subject or object of the main verb: Whoever left this here owes me a mug.",
+      "variants": "whomever (formal, and only when the pronoun is the object inside its own clause), whosoever (archaic or legal)",
+      "see also": "no matter who, whatever, whichever, however"
     },
     {
       "term": "admitting that",
       "ipa": "/ədˈmɪɾɪŋ ðət/",
       "respell": "ud-MIT-ing that",
-      "type": "subordinating",
-      "register": "formal",
-      "clause": "adverbial clause of concession (participial)",
-      "pattern": "Admitting that [clause], [main clause]. · Even admitting that [clause], [main clause].",
-      "punctuation": "Comma after the clause. It is fronted essentially always; trailing, it reads as a dangling participle.",
-      "variants": [
-        "even admitting that",
-        "while admitting that"
-      ],
       "meaning": "Concedes a point for the sake of argument and then rejects the conclusion drawn from it. It belongs to debate and briefs rather than to conversation, and it sits right next to granted that — the difference is that admitting that implies the speaker had been resisting the point up to now.",
       "examples": [
         "Admitting that the sample was small, the direction of the result is still striking.",
@@ -1156,27 +922,20 @@
         "Admitting that the neighborhood has changed, the zoning argument still doesn't follow.",
         "Even admitting that costs have risen, a forty percent increase is hard to defend."
       ],
-      "related": [
-        "granted that",
-        "granted",
-        "for all that",
-        "notwithstanding that"
-      ]
+      "senses": [],
+      "русский": "книжн. признавая, что; пусть даже — уступка, которой до этого сопротивлялись",
+      "register": "formal",
+      "type": "subordinating",
+      "clause type": "adverbial clause of concession (participial)",
+      "pattern": "Admitting that [clause], [main clause]. · Even admitting that [clause], [main clause].",
+      "punctuation": "Comma after the clause. It is fronted essentially always; trailing, it reads as a dangling participle.",
+      "variants": "even admitting that, while admitting that",
+      "see also": "granted that, granted, for all that, notwithstanding that"
     },
     {
       "term": "aside from the fact that",
       "ipa": "/əˈsaɪd frəm ðə ˈfækt ðət/",
       "respell": "uh-SIDE frum thuh FAKT that",
-      "type": "subordinating; bare aside from is a preposition (aside from the rent) and cannot take a clause until the fact that is bolted on",
-      "register": "neutral, and wordy",
-      "clause": "adverbial clause of exception and contrast",
-      "pattern": "Aside from the fact that [clause], [main clause]. · [main clause] aside from the fact that [clause]. · Apart from the fact that [clause], [main clause]. · Aside from [noun phrase], [main clause]. (preposition)",
-      "punctuation": "Comma after the fronted clause; usually no comma when it trails. Fronting is the normal position, because the exception has to be quarantined before the main clause can make its claim.",
-      "variants": [
-        "apart from the fact that (the same thing, a shade more bookish in American English)",
-        "other than the fact that",
-        "aside from + noun phrase (a preposition, not a conjunction)"
-      ],
       "meaning": "The exception-flavored member of the the fact that family. Despite the fact that concedes an obstacle and pushes past it; aside from the fact that sets one item off to the side and then rates everything else, which is why it so often carries a dry joke — the thing set aside is usually the thing that matters most. Against except that the split is position and timing: except that trails and takes something back from a claim already made, while aside from the fact that fronts and fences the exception off before the claim arrives.",
       "examples": [
         "Aside from the fact that the car has no brakes, it's in great shape.",
@@ -1186,29 +945,20 @@
         "Aside from the fact that it rained all week, the trip was everything we wanted.",
         "Aside from the noise, the apartment is perfect. (preposition, not a conjunction)"
       ],
-      "related": [
-        "except that",
-        "despite the fact that",
-        "save that",
-        "regardless of the fact that",
-        "not that"
-      ]
+      "senses": [],
+      "русский": "не считая того, что; если не считать, что — исключение выносится вперёд",
+      "register": "neutral, and wordy",
+      "type": "subordinating; bare aside from is a preposition (aside from the rent) and cannot take a clause until the fact that is bolted on",
+      "clause type": "adverbial clause of exception and contrast",
+      "pattern": "Aside from the fact that [clause], [main clause]. · [main clause] aside from the fact that [clause]. · Apart from the fact that [clause], [main clause]. · Aside from [noun phrase], [main clause]. (preposition)",
+      "punctuation": "Comma after the fronted clause; usually no comma when it trails. Fronting is the normal position, because the exception has to be quarantined before the main clause can make its claim.",
+      "variants": "apart from the fact that (the same thing, a shade more bookish in American English), other than the fact that, aside from + noun phrase (a preposition, not a conjunction)",
+      "see also": "except that, despite the fact that, save that, regardless of the fact that, not that"
     },
     {
       "term": "conceding that",
       "ipa": "/kənˈsidɪŋ ðət/",
       "respell": "kun-SEE-ding that",
-      "type": "subordinating (participial)",
-      "register": "formal — briefs, editorials, and argument generally",
-      "clause": "adverbial clause of concession (participial)",
-      "pattern": "Conceding that [clause], [main clause]. · While conceding that [clause], [main clause]. · Even conceding that [clause], [main clause].",
-      "punctuation": "Comma after the clause. It is fronted almost always, and the subject of the main clause has to be the one doing the conceding — otherwise the participle dangles.",
-      "variants": [
-        "while conceding that",
-        "even conceding that",
-        "granting that",
-        "admitting that"
-      ],
       "meaning": "Puts the other side's point on the record and then denies that the point decides anything. Of the three participial concessives it is the most deliberate: admitting that suggests the speaker had been resisting, granting that treats the premise as merely arguable, and conceding that hands over something the speaker would rather have kept.",
       "examples": [
         "Conceding that the notice was late, counsel argued that no party had been prejudiced by the delay.",
@@ -1217,26 +967,20 @@
         "Conceding that she had the votes, he still refused to bring the bill to the floor.",
         "Conceding that the repairs were overdue, the landlord denied that the ceiling had ever leaked."
       ],
-      "related": [
-        "admitting that",
-        "granted that",
-        "granted",
-        "arguendo",
-        "notwithstanding that"
-      ]
+      "senses": [],
+      "русский": "книжн. соглашаясь с тем, что — уступает то, что охотнее оставил бы себе",
+      "register": "formal — briefs, editorials, and argument generally",
+      "type": "subordinating (participial)",
+      "clause type": "adverbial clause of concession (participial)",
+      "pattern": "Conceding that [clause], [main clause]. · While conceding that [clause], [main clause]. · Even conceding that [clause], [main clause].",
+      "punctuation": "Comma after the clause. It is fronted almost always, and the subject of the main clause has to be the one doing the conceding — otherwise the participle dangles.",
+      "variants": "while conceding that, even conceding that, granting that, admitting that",
+      "see also": "admitting that, granted that, granted, arguendo, notwithstanding that"
     },
     {
       "term": "despite the fact that",
       "ipa": "/dɪˈspaɪt ðə ˈfækt ðət/",
       "respell": "dih-SPYTE thuh FAKT that",
-      "type": "subordinating; bare despite is a preposition only (despite the rain) and can never take a clause",
-      "register": "neutral, and wordy",
-      "clause": "adverbial clause of concession",
-      "pattern": "Despite the fact that [clause], [main clause]. · [main clause] despite the fact that [clause].",
-      "punctuation": "Comma after the fronted clause; usually no comma when it trails.",
-      "variants": [
-        "despite + noun phrase (a preposition, not a conjunction)"
-      ],
       "meaning": "A five-word way of saying although, built only so that the preposition despite can take a clause — which it cannot do on its own. Every American style guide tells you to cut it, and they are right, though the length does make the conceded fact land as an established one.",
       "examples": [
         "Despite the fact that the road was closed, three cars were waved through.",
@@ -1245,28 +989,20 @@
         "They renewed his contract despite the fact that attendance was down a third straight year.",
         "Despite the fact that the warranty had expired, the shop fixed it for free."
       ],
-      "related": [
-        "in spite of the fact that",
-        "regardless of the fact that",
-        "aside from the fact that",
-        "although",
-        "notwithstanding that"
-      ]
+      "senses": [],
+      "русский": "несмотря на то что — многословный вариант although, обычно лишний",
+      "register": "neutral, and wordy",
+      "type": "subordinating; bare despite is a preposition only (despite the rain) and can never take a clause",
+      "clause type": "adverbial clause of concession",
+      "pattern": "Despite the fact that [clause], [main clause]. · [main clause] despite the fact that [clause].",
+      "punctuation": "Comma after the fronted clause; usually no comma when it trails.",
+      "variants": "despite + noun phrase (a preposition, not a conjunction)",
+      "see also": "in spite of the fact that, regardless of the fact that, aside from the fact that, although, notwithstanding that"
     },
     {
       "term": "for all",
       "ipa": "/fər ˈɔl/",
       "respell": "fer AWL",
-      "type": "prepositional in form, concessive in force — it takes a noun phrase; for all that is the version that takes a clause",
-      "register": "neutral to literary",
-      "clause": "none of its own — a concessive prepositional phrase standing in for a whole clause",
-      "pattern": "For all [noun phrase], [main clause]. · [main clause] for all [noun phrase]. · For all [possessive] [noun], [main clause].",
-      "punctuation": "Comma after the fronted phrase. Trailing, it normally goes uncommaed — he never leaves the county for all his talk of traveling — because there it is integrated into the claim rather than supplementary to it.",
-      "variants": [
-        "for all that (the clause-taking form, immediately below)",
-        "for all I know, for all I care, for all the good it did (fixed idioms in which for all does take a clause)",
-        "despite, in spite of (the neutral prepositions)"
-      ],
       "meaning": "\"In spite of,\" with a shrug in it. What separates it from plain despite is the implication that the thing named should have been enough and wasn't: for all his money says the money ought to have bought something and did not. It attaches most naturally to a possessive noun phrase, and that is the shape American speech keeps alive.",
       "examples": [
         "For all his money, he drives a fifteen-year-old pickup.",
@@ -1276,24 +1012,20 @@
         "For all the talk of a rebuild, they signed two more thirty-year-olds.",
         "He might as well have stayed home, for all the good it did."
       ],
-      "related": [
-        "for all that",
-        "despite the fact that",
-        "in spite of the fact that",
-        "maugre",
-        "notwithstanding that"
-      ]
+      "senses": [],
+      "русский": "при всём, несмотря на — с существительным: for all his money «при всех его деньгах»",
+      "register": "neutral to literary",
+      "type": "prepositional in form, concessive in force — it takes a noun phrase; for all that is the version that takes a clause",
+      "clause type": "none of its own — a concessive prepositional phrase standing in for a whole clause",
+      "pattern": "For all [noun phrase], [main clause]. · [main clause] for all [noun phrase]. · For all [possessive] [noun], [main clause].",
+      "punctuation": "Comma after the fronted phrase. Trailing, it normally goes uncommaed — he never leaves the county for all his talk of traveling — because there it is integrated into the claim rather than supplementary to it.",
+      "variants": "for all that (the clause-taking form, immediately below), for all I know, for all I care, for all the good it did (fixed idioms in which for all does take a clause), despite, in spite of (the neutral prepositions)",
+      "see also": "for all that, despite the fact that, in spite of the fact that, maugre, notwithstanding that"
     },
     {
       "term": "for all that",
-      "ipa": "/fər ˈɔl ˈðæt/ as the adverb, where that is a stressed demonstrative · /fər ˈɔl ðət/ as the subordinator, where that is an unstressed complementizer",
-      "respell": "fer AWL THAT",
-      "type": "subordinating; also a conjunctive adverb meaning \"even so,\" and the bare for all is a preposition (for all his money)",
-      "register": "formal or literary",
-      "clause": "adverbial clause of concession",
-      "pattern": "For all that [clause], [main clause]. · [statement]. For all that, [statement]. (adverb) · For all [noun phrase], [main clause]. (preposition)",
-      "punctuation": "As a subordinator, comma after the fronted clause. As an adverb meaning \"even so,\" set it off with commas — and use a period or semicolon, never a comma alone, if it stands between two independent clauses.",
-      "variants": [],
+      "ipa": "/fər ˈɔl ˈðæt/ as the adverb, where that is a stressed demonstrative",
+      "respell": "",
       "meaning": "Two related jobs. Followed by a clause it means \"although\": For all that he complains, he never leaves. Standing alone it means \"nevertheless\": He's rude. For all that, he's the best we have. The related for all plus a noun phrase — for all his money — is a preposition, not a conjunction at all.",
       "examples": [
         "For all that he grumbles about the drive, he has never once called out.",
@@ -1302,28 +1034,20 @@
         "She was underprepared and, for all that, still the sharpest person in the room.",
         "For all that the technology has changed, the job is the same one my father had."
       ],
-      "related": [
-        "notwithstanding that",
-        "no matter that",
-        "albeit",
-        "be that as it may",
-        "granted"
-      ]
+      "senses": [],
+      "pronunciation note": "/fər ˈɔl ðət/ as the subordinator, where that is an unstressed complementizer — fer AWL THAT",
+      "русский": "хотя, при том что; как наречие — «и всё же, тем не менее»",
+      "register": "formal or literary",
+      "type": "subordinating; also a conjunctive adverb meaning \"even so,\" and the bare for all is a preposition (for all his money)",
+      "clause type": "adverbial clause of concession",
+      "pattern": "For all that [clause], [main clause]. · [statement]. For all that, [statement]. (adverb) · For all [noun phrase], [main clause]. (preposition)",
+      "punctuation": "As a subordinator, comma after the fronted clause. As an adverb meaning \"even so,\" set it off with commas — and use a period or semicolon, never a comma alone, if it stands between two independent clauses.",
+      "see also": "notwithstanding that, no matter that, albeit, be that as it may, granted"
     },
     {
       "term": "granted that",
       "ipa": "/ˈɡræntɪd ðət/ (also /ˈɡrænɪd/ with the t dropped)",
       "respell": "GRAN-tid that",
-      "type": "subordinating; bare granted is a conjunctive adverb with its own entry below, and it is also the plain past participle of the verb grant (the permit was granted)",
-      "register": "formal",
-      "clause": "adverbial clause of concession",
-      "pattern": "Granted that [clause], [main clause]. · Granting that [clause], [main clause]. · Granted [clause], [main clause]. (with that dropped)",
-      "punctuation": "Comma after the clause. Always fronted.",
-      "variants": [
-        "granting that",
-        "allowing that",
-        "granted with the that dropped"
-      ],
       "meaning": "Concedes a premise in order to attack the inference drawn from it — the arguer's move. Granted that treats the fact as settled, where even if would leave it open. Bare granted, used alone as a reply or a sentence opener, is the same word doing a much more common and much more casual job.",
       "examples": [
         "Granted that the numbers are accurate, they still don't support that conclusion.",
@@ -1332,26 +1056,20 @@
         "Granting that the two cases look alike, the statutes are completely different.",
         "Granted that we were late, the ticket agent didn't have to be rude about it."
       ],
-      "related": [
-        "granted",
-        "admitting that",
-        "even if",
-        "although",
-        "notwithstanding that"
-      ]
+      "senses": [],
+      "русский": "допустим, что; пусть — уступает посылку, чтобы оспорить вывод",
+      "register": "formal",
+      "type": "subordinating; bare granted is a conjunctive adverb with its own entry below, and it is also the plain past participle of the verb grant (the permit was granted)",
+      "clause type": "adverbial clause of concession",
+      "pattern": "Granted that [clause], [main clause]. · Granting that [clause], [main clause]. · Granted [clause], [main clause]. (with that dropped)",
+      "punctuation": "Comma after the clause. Always fronted.",
+      "variants": "granting that, allowing that, granted with the that dropped",
+      "see also": "granted, admitting that, even if, although, notwithstanding that"
     },
     {
       "term": "in spite of the fact that",
       "ipa": "/ɪn ˈspaɪt əv ðə ˈfækt ðət/",
       "respell": "in SPYTE uv thuh FAKT that",
-      "type": "subordinating; bare in spite of is a preposition only (in spite of the rain) and can never take a clause; the noun spite inside it is frozen and carries none of its ordinary meaning",
-      "register": "neutral, and wordy",
-      "clause": "adverbial clause of concession",
-      "pattern": "In spite of the fact that [clause], [main clause]. · [main clause] in spite of the fact that [clause].",
-      "punctuation": "Comma after the fronted clause; usually no comma when it trails.",
-      "variants": [
-        "in spite of + noun phrase (a preposition, not a conjunction)"
-      ],
       "meaning": "The longest way to say although that is still standard English. It differs from despite the fact that by one word and a shade of tone — in spite of carries a faint sense of defiance that despite does not. Both are cuttable, and in most sentences both should be cut.",
       "examples": [
         "In spite of the fact that the forecast called for snow, nobody salted the roads.",
@@ -1360,28 +1078,20 @@
         "The exhibit opened on time in spite of the fact that half the crates arrived the night before.",
         "In spite of the fact that everyone knew the answer, nobody said it out loud."
       ],
-      "related": [
-        "despite the fact that",
-        "regardless of the fact that",
-        "although",
-        "notwithstanding that"
-      ]
+      "senses": [],
+      "русский": "несмотря на то что — самый длинный способ сказать although",
+      "register": "neutral, and wordy",
+      "type": "subordinating; bare in spite of is a preposition only (in spite of the rain) and can never take a clause; the noun spite inside it is frozen and carries none of its ordinary meaning",
+      "clause type": "adverbial clause of concession",
+      "pattern": "In spite of the fact that [clause], [main clause]. · [main clause] in spite of the fact that [clause].",
+      "punctuation": "Comma after the fronted clause; usually no comma when it trails.",
+      "variants": "in spite of + noun phrase (a preposition, not a conjunction)",
+      "see also": "despite the fact that, regardless of the fact that, although, notwithstanding that"
     },
     {
       "term": "notwithstanding anything to the contrary",
       "ipa": "/ˌnɑtwɪθˈstændɪŋ ˈɛniθɪŋ tə ðə ˈkɑntrɛri/ (also /ˌnɑtwɪð-/)",
       "respell": "not-with-STAN-ding EN-ee-thing tuh thuh KON-trair-ee",
-      "type": "conjunctive adverb by function — a prepositional phrase that takes a noun phrase and never a clause",
-      "register": "formal, legal — contract and statutory boilerplate, with no life at all outside drafted documents",
-      "clause": "none — a fronted adverbial that overrides other provisions of the same instrument",
-      "pattern": "Notwithstanding anything to the contrary [in this Agreement / herein / contained herein], [main clause]. · Notwithstanding anything in [Section X] to the contrary, [main clause]. · Notwithstanding anything to the contrary, [main clause].",
-      "punctuation": "Comma after the whole phrase, always — the override has to close before the operative sentence begins. No commas inside it. It is not a conjunction and cannot join two clauses.",
-      "variants": [
-        "notwithstanding anything herein to the contrary",
-        "notwithstanding anything contained herein to the contrary",
-        "notwithstanding any other provision of this Agreement",
-        "notwithstanding the foregoing (narrower — it reaches only the text just above)"
-      ],
       "meaning": "The override switch of American contract drafting: whatever else the document says, this sentence wins. Drafters and courts both treat it warily, because an agreement with four of them scattered through it has no readable order of priority — style guides tell you to name the provision you mean to override instead. Its reach is the whole instrument, which is what separates it from notwithstanding the foregoing.",
       "examples": [
         "Notwithstanding anything to the contrary in this Agreement, Licensor's total liability shall not exceed the fees paid in the preceding twelve months.",
@@ -1390,27 +1100,20 @@
         "Notwithstanding anything to the contrary, no provision of this Article shall be construed to waive a Tenant's statutory rights.",
         "Notwithstanding anything to the contrary contained in the Plan, no award may be repriced without shareholder approval."
       ],
-      "related": [
-        "notwithstanding that",
-        "notwithstanding the foregoing",
-        "contrary to",
-        "regardless of the fact that",
-        "provided always that"
-      ]
+      "senses": [],
+      "русский": "юр. несмотря ни на какие противоречащие положения — оговорка приоритета",
+      "register": "formal, legal — contract and statutory boilerplate, with no life at all outside drafted documents",
+      "type": "conjunctive adverb by function — a prepositional phrase that takes a noun phrase and never a clause",
+      "clause type": "none — a fronted adverbial that overrides other provisions of the same instrument",
+      "pattern": "Notwithstanding anything to the contrary [in this Agreement / herein / contained herein], [main clause]. · Notwithstanding anything in [Section X] to the contrary, [main clause]. · Notwithstanding anything to the contrary, [main clause].",
+      "punctuation": "Comma after the whole phrase, always — the override has to close before the operative sentence begins. No commas inside it. It is not a conjunction and cannot join two clauses.",
+      "variants": "notwithstanding anything herein to the contrary, notwithstanding anything contained herein to the contrary, notwithstanding any other provision of this Agreement, notwithstanding the foregoing (narrower — it reaches only the text just above)",
+      "see also": "notwithstanding that, notwithstanding the foregoing, contrary to, regardless of the fact that, provided always that"
     },
     {
       "term": "notwithstanding that",
       "ipa": "/ˌnɑtwɪθˈstændɪŋ ðət/ (also /ˌnɑtwɪðˈstændɪŋ/)",
       "respell": "not-with-STAN-ding that",
-      "type": "subordinating; the same word is also a preposition that can stand either before its object (notwithstanding the delay) or after it (the delay notwithstanding), and a conjunctive adverb in its own right",
-      "register": "formal, chiefly legal",
-      "clause": "adverbial clause of concession",
-      "pattern": "Notwithstanding that [clause], [main clause]. · [main clause] notwithstanding that [clause]. · Notwithstanding the fact that [clause], [main clause]. · Notwithstanding [noun phrase], [main clause]. (preposition) · [main clause], [noun phrase] notwithstanding. (postposed preposition)",
-      "punctuation": "Comma after the fronted clause; no comma when it trails. As a preposition it takes no comma at all — notwithstanding the delay — and neither does the postposed form, the delay notwithstanding.",
-      "variants": [
-        "notwithstanding the fact that",
-        "notwithstanding + noun phrase (preposition)"
-      ],
       "meaning": "\"Although,\" in the register of contracts and court opinions. Its oddity is that the prepositional form can sit before its object or after it: notwithstanding any provision to the contrary and any provision to the contrary notwithstanding are both standard, and the postposed version is a legal signature.",
       "examples": [
         "Notwithstanding that the lease had expired, the tenant remained in possession.",
@@ -1419,27 +1122,20 @@
         "Notwithstanding the fact that the deadline had passed, the agency accepted the filing.",
         "The contract stands, the earlier memorandum notwithstanding."
       ],
-      "related": [
-        "despite the fact that",
-        "regardless of the fact that",
-        "albeit",
-        "no matter that"
-      ]
+      "senses": [],
+      "русский": "юр. несмотря на то что, хотя — язык договоров и судебных решений",
+      "register": "formal, chiefly legal",
+      "type": "subordinating; the same word is also a preposition that can stand either before its object (notwithstanding the delay) or after it (the delay notwithstanding), and a conjunctive adverb in its own right",
+      "clause type": "adverbial clause of concession",
+      "pattern": "Notwithstanding that [clause], [main clause]. · [main clause] notwithstanding that [clause]. · Notwithstanding the fact that [clause], [main clause]. · Notwithstanding [noun phrase], [main clause]. (preposition) · [main clause], [noun phrase] notwithstanding. (postposed preposition)",
+      "punctuation": "Comma after the fronted clause; no comma when it trails. As a preposition it takes no comma at all — notwithstanding the delay — and neither does the postposed form, the delay notwithstanding.",
+      "variants": "notwithstanding the fact that, notwithstanding + noun phrase (preposition)",
+      "see also": "despite the fact that, regardless of the fact that, albeit, no matter that"
     },
     {
       "term": "notwithstanding the foregoing",
       "ipa": "/ˌnɑtwɪθˈstændɪŋ ðə fɔrˈɡoʊɪŋ/ (also /ˌnɑtwɪð-/)",
       "respell": "not-with-STAN-ding thuh for-GO-ing",
-      "type": "conjunctive adverb (phrasal) — an anaphoric adverbial pointing back at the text just read",
-      "register": "formal, legal — contracts, bylaws, board resolutions, and statutes; in ordinary prose it reads as a parody of a lawyer",
-      "clause": "none — a sentence adverbial carving an exception out of the provision immediately above it",
-      "pattern": "Notwithstanding the foregoing, [main clause]. · Notwithstanding the foregoing [sentence/Section/subsection], [main clause]. · The foregoing notwithstanding, [main clause]. (postposed)",
-      "punctuation": "Comma after it, and a period or a semicolon in front of it when what precedes is a complete sentence — it is an adverbial, not a conjunction, so a comma alone there is a comma splice.",
-      "variants": [
-        "the foregoing notwithstanding (postposed)",
-        "notwithstanding the provisions of the preceding sentence",
-        "notwithstanding anything to the contrary (broader — it reaches the entire document)"
-      ],
       "meaning": "The drafting equivalent of \"except for what I am about to say.\" It carves an exception out of the provision the reader has just finished, and its scope is exactly that — unlike notwithstanding anything to the contrary, it does not claim the whole agreement, though drafters argue endlessly about how far back \"the foregoing\" runs, which is why careful ones name the section instead.",
       "examples": [
         "Notwithstanding the foregoing, the Company may terminate this Agreement immediately upon the Executive's conviction of a felony.",
@@ -1448,26 +1144,20 @@
         "The foregoing notwithstanding, the Board retains discretion to accelerate vesting.",
         "Notwithstanding the foregoing, nothing in this Section limits either party's indemnification obligations."
       ],
-      "related": [
-        "notwithstanding that",
-        "notwithstanding anything to the contrary",
-        "regardless of the fact that",
-        "save that",
-        "provided always that"
-      ]
+      "senses": [],
+      "русский": "юр. несмотря на вышеизложенное — исключение из предыдущего пункта",
+      "register": "formal, legal — contracts, bylaws, board resolutions, and statutes; in ordinary prose it reads as a parody of a lawyer",
+      "type": "conjunctive adverb (phrasal) — an anaphoric adverbial pointing back at the text just read",
+      "clause type": "none — a sentence adverbial carving an exception out of the provision immediately above it",
+      "pattern": "Notwithstanding the foregoing, [main clause]. · Notwithstanding the foregoing [sentence/Section/subsection], [main clause]. · The foregoing notwithstanding, [main clause]. (postposed)",
+      "punctuation": "Comma after it, and a period or a semicolon in front of it when what precedes is a complete sentence — it is an adverbial, not a conjunction, so a comma alone there is a comma splice.",
+      "variants": "the foregoing notwithstanding (postposed), notwithstanding the provisions of the preceding sentence, notwithstanding anything to the contrary (broader — it reaches the entire document)",
+      "see also": "notwithstanding that, notwithstanding anything to the contrary, regardless of the fact that, save that, provided always that"
     },
     {
       "term": "regardless of the fact that",
       "ipa": "/rɪˈɡɑrdləs əv ðə ˈfækt ðət/",
       "respell": "rih-GARD-luss uv thuh FAKT that",
-      "type": "subordinating; bare regardless is a conjunctive adverb (Regardless, they went ahead) and regardless of is a preposition (regardless of the weather)",
-      "register": "formal, and wordy",
-      "clause": "adverbial clause of concession",
-      "pattern": "Regardless of the fact that [clause], [main clause]. · [main clause] regardless of the fact that [clause].",
-      "punctuation": "Comma after the fronted clause; usually no comma when it trails.",
-      "variants": [
-        "irrespective of the fact that (more formal). Irregardless is nonstandard — avoid it."
-      ],
       "meaning": "Concedes a known fact and dismisses it as beside the point. It runs a shade colder than despite the fact that: despite acknowledges the obstacle, while regardless refuses to weigh it at all. Cut it to although or even though unless that dismissiveness is exactly what you want heard.",
       "examples": [
         "Regardless of the fact that the permit had been denied, construction continued.",
@@ -1476,23 +1166,20 @@
         "He repeated the claim regardless of the fact that it had been corrected twice on air.",
         "Regardless of the fact that the ballot was printed wrong, the results were certified."
       ],
-      "related": [
-        "regardless of whether",
-        "despite the fact that",
-        "in spite of the fact that",
-        "no matter that"
-      ]
+      "senses": [],
+      "русский": "невзирая на то что — не взвешивает факт, а отметает его",
+      "register": "formal, and wordy",
+      "type": "subordinating; bare regardless is a conjunctive adverb (Regardless, they went ahead) and regardless of is a preposition (regardless of the weather)",
+      "clause type": "adverbial clause of concession",
+      "pattern": "Regardless of the fact that [clause], [main clause]. · [main clause] regardless of the fact that [clause].",
+      "punctuation": "Comma after the fronted clause; usually no comma when it trails.",
+      "variants": "irrespective of the fact that (more formal). Irregardless is nonstandard — avoid it.",
+      "see also": "regardless of whether, despite the fact that, in spite of the fact that, no matter that"
     },
     {
       "term": "albeit",
       "ipa": "/ɔlˈbiɪt/ (also /ælˈbiɪt/)",
       "respell": "awl-BEE-it",
-      "type": "subordinating",
-      "register": "formal",
-      "clause": "adverbial clause of concession, usually verbless",
-      "pattern": "[main clause], albeit [adjective/adverb/noun phrase/prepositional phrase]. · [main clause], albeit [determiner] [adjective] [noun]. · [main clause], albeit [adverb], [rest of the sentence].",
-      "punctuation": "Always a comma before albeit, and commas on both sides when it interrupts. It is not a coordinator, so it cannot join two full independent clauses across a comma — if a subject and a tensed verb follow, use although.",
-      "variants": [],
       "meaning": "A fossil of all be it (\"although it be\"), and it still behaves like one: it takes a phrase rather than a full clause, and it concedes a qualification rather than a fact. He agreed, albeit reluctantly is right; He agreed, albeit he was reluctant is the classic overreach, and although is the fix.",
       "examples": [
         "The meeting produced a decision, albeit a temporary one.",
@@ -1501,27 +1188,19 @@
         "It's a real solution, albeit an expensive one.",
         "He offered an apology, albeit one that blamed everybody else."
       ],
-      "related": [
-        "though",
-        "if",
-        "granted",
-        "notwithstanding that",
-        "although"
-      ]
+      "senses": [],
+      "русский": "хотя и, пусть и — только с оборотом, не с целым придаточным: albeit reluctantly",
+      "register": "formal",
+      "type": "subordinating",
+      "clause type": "adverbial clause of concession, usually verbless",
+      "pattern": "[main clause], albeit [adjective/adverb/noun phrase/prepositional phrase]. · [main clause], albeit [determiner] [adjective] [noun]. · [main clause], albeit [adverb], [rest of the sentence].",
+      "punctuation": "Always a comma before albeit, and commas on both sides when it interrupts. It is not a coordinator, so it cannot join two full independent clauses across a comma — if a subject and a tensed verb follow, use although.",
+      "see also": "though, if, granted, notwithstanding that, although"
     },
     {
       "term": "all the same",
       "ipa": "/ˌɔl ðə ˈseɪm/",
       "respell": "awl thuh SAME",
-      "type": "conjunctive adverb (phrasal)",
-      "register": "neutral to informal",
-      "clause": "none — a sentence adverbial pointing back at a concession already made",
-      "pattern": "[Independent clause]. All the same, [independent clause]. · [Independent clause]; all the same, [independent clause]. · [Independent clause] all the same. · [Independent clause], all the same.",
-      "punctuation": "Comma after it in front position. At the end of a sentence it takes a comma when it lands as an afterthought and none when it is fused to the verb phrase (she went all the same). Between two independent clauses it needs a period or a semicolon — a comma alone is a comma splice.",
-      "variants": [
-        "just the same (identical in meaning, a shade more casual)",
-        "all the same to me/you (a different idiom altogether — indifference, not concession)"
-      ],
       "meaning": "\"That changes nothing.\" It points backward at a concession the speaker has just granted and refuses to let it govern, which puts it next to nevertheless — the difference is tone, since all the same is what people say and nevertheless is what they write. Keep it apart from the frozen it's all the same to me, where the words mean no preference rather than no surrender.",
       "examples": [
         "The reviews were brutal. All the same, the theater was packed every night.",
@@ -1531,28 +1210,20 @@
         "The rent was more than we wanted to pay. We took the place, just the same.",
         "It's a long drive for one night; just the same, I'm glad we went."
       ],
-      "related": [
-        "be that as it may",
-        "granted",
-        "still and all",
-        "anyhow",
-        "nevertheless"
-      ]
+      "senses": [],
+      "русский": "всё равно, всё-таки, тем не менее — разговорный аналог nevertheless",
+      "register": "neutral to informal",
+      "type": "conjunctive adverb (phrasal)",
+      "clause type": "none — a sentence adverbial pointing back at a concession already made",
+      "pattern": "[Independent clause]. All the same, [independent clause]. · [Independent clause]; all the same, [independent clause]. · [Independent clause] all the same. · [Independent clause], all the same.",
+      "punctuation": "Comma after it in front position. At the end of a sentence it takes a comma when it lands as an afterthought and none when it is fused to the verb phrase (she went all the same). Between two independent clauses it needs a period or a semicolon — a comma alone is a comma splice.",
+      "variants": "just the same (identical in meaning, a shade more casual), all the same to me/you (a different idiom altogether — indifference, not concession)",
+      "see also": "be that as it may, granted, still and all, anyhow, nevertheless"
     },
     {
       "term": "anyhow",
       "ipa": "/ˈɛnihaʊ/",
       "respell": "EN-ee-how",
-      "type": "conjunctive adverb",
-      "register": "informal for anyhow; anyways is nonstandard — casual regional American speech, and a red flag in writing",
-      "clause": "none — a sentence adverbial dismissing what was just granted",
-      "pattern": "[Independent clause]. Anyhow, [independent clause]. · [Independent clause]; anyhow, [independent clause]. · [Independent clause] anyhow.",
-      "punctuation": "Comma after it in front position and no comma before it in final position (we went anyhow). A period or a semicolon in front of it when it opens a new independent clause; a comma there is a comma splice.",
-      "variants": [
-        "anyway (the standard form, with a fuller entry among the conjunctive adverbs)",
-        "anyways (nonstandard; common in casual speech across the South and Midwest, never in edited prose)",
-        "any how (not a word — always one word)"
-      ],
       "meaning": "The concessive job of the anyway family: the fact just granted is real, and the main clause happened regardless. Anyhow is fully standard and a touch more casual than anyway; anyways is the dialectal form carrying the old adverbial -s, which an American hears constantly and should write only in dialogue. All three also do discourse work — returning to a dropped thread, closing a phone call — and that sense belongs with anyway.",
       "examples": [
         "The forecast said rain all day. We drove up anyhow.",
@@ -1562,27 +1233,20 @@
         "The store was closing in ten minutes, but they let us in anyhow.",
         "He told her the lease forbade dogs. She got the dog anyways. (nonstandard — casual speech only)"
       ],
-      "related": [
-        "anyway",
-        "all the same",
-        "still and all",
-        "even then",
-        "at any rate"
-      ]
+      "senses": [],
+      "русский": "разг. всё равно, так или иначе — форма anyways нелитературна",
+      "register": "informal for anyhow; anyways is nonstandard — casual regional American speech, and a red flag in writing",
+      "type": "conjunctive adverb",
+      "clause type": "none — a sentence adverbial dismissing what was just granted",
+      "pattern": "[Independent clause]. Anyhow, [independent clause]. · [Independent clause]; anyhow, [independent clause]. · [Independent clause] anyhow.",
+      "punctuation": "Comma after it in front position and no comma before it in final position (we went anyhow). A period or a semicolon in front of it when it opens a new independent clause; a comma there is a comma splice.",
+      "variants": "anyway (the standard form, with a fuller entry among the conjunctive adverbs), anyways (nonstandard; common in casual speech across the South and Midwest, never in edited prose), any how (not a word — always one word)",
+      "see also": "anyway, all the same, still and all, even then, at any rate"
     },
     {
       "term": "at that",
       "ipa": "/ət ˈðæt/ — at reduces to /ət/ inside the phrase",
       "respell": "ut THAT",
-      "type": "conjunctive adverb (phrasal, clause-final)",
-      "register": "informal to neutral; the concessive sense is dated and now mostly regional, while the additive sense is everywhere",
-      "clause": "none — a clause-final tag",
-      "pattern": "[Independent clause] at that. · [Independent clause], at that. · [noun phrase], and [adjective] one at that. (the additive sense)",
-      "punctuation": "It sits at the very end of its clause. A comma in front of it is normal when it arrives as an afterthought and optional when it is fused to what precedes. It is not a conjunction and can never join two clauses.",
-      "variants": [
-        "at that in the additive sense (\"and moreover\": a long drive, and a boring one at that)",
-        "let it go at that, leave it at that (fixed idioms, not connectors)"
-      ],
       "meaning": "Two senses share the shape, and only the surrounding sentence sorts them out. The common one is additive — a used car, and an old one at that — which belongs with moreover. The concessive one, \"in spite of all that, contrary to what you'd expect,\" is older and now much rarer: he might win at that means the speaker has just talked themselves out of their own objection. Americans meet that sense mostly in older fiction and in regional speech.",
       "examples": [
         "He may be right at that. (concessive — \"in spite of what I just said\")",
@@ -1592,28 +1256,20 @@
         "It was a two-hour meeting, and a pointless one at that. (the common additive sense — \"and moreover\")",
         "We agreed to leave it at that. (fixed idiom, not a connector)"
       ],
-      "related": [
-        "even then",
-        "all the same",
-        "still and all",
-        "though",
-        "moreover"
-      ]
+      "senses": [],
+      "русский": "и при этом, к тому же; в устар. уступительном смысле — «и всё-таки, вопреки всему»",
+      "register": "informal to neutral; the concessive sense is dated and now mostly regional, while the additive sense is everywhere",
+      "type": "conjunctive adverb (phrasal, clause-final)",
+      "clause type": "none — a clause-final tag",
+      "pattern": "[Independent clause] at that. · [Independent clause], at that. · [noun phrase], and [adjective] one at that. (the additive sense)",
+      "punctuation": "It sits at the very end of its clause. A comma in front of it is normal when it arrives as an afterthought and optional when it is fused to what precedes. It is not a conjunction and can never join two clauses.",
+      "variants": "at that in the additive sense (\"and moreover\": a long drive, and a boring one at that), let it go at that, leave it at that (fixed idioms, not connectors)",
+      "see also": "even then, all the same, still and all, though, moreover"
     },
     {
       "term": "be it ever so",
       "ipa": "/bi ɪt ˈɛvər soʊ/",
       "respell": "bee it EV-er soh",
-      "type": "subordinating — a frozen subjunctive with inversion",
-      "register": "archaic and literary — hymns, proverbs, nineteenth-century prose, and one song lyric every American knows",
-      "clause": "adverbial clause of concession, universal over degree — \"no matter how\"",
-      "pattern": "Be it ever so [adjective], [main clause]. · Be [subject] ever so [adjective], [main clause]. · Be [subject] ne'er so [adjective], [main clause].",
-      "punctuation": "Comma after the clause, which is always fronted. It is a clause and not an adverbial, so the semicolon question never arises.",
-      "variants": [
-        "be it never so (the older form)",
-        "be he ne'er so, be she ne'er so (the subject changes, and ne'er stands for never)",
-        "however + adjective, no matter how (the modern forms)"
-      ],
       "meaning": "The subjunctive be thrown to the front of its clause, exactly as in come what may, conceding every degree of the adjective at once: be it ever so humble means \"no matter how humble it is.\" Modern English says however humble it is. What keeps the formula alive for Americans is the song — be it ever so humble, there's no place like home — and beyond that it belongs to Shakespeare, the King James Bible, and the hymnal.",
       "examples": [
         "\"Be it ever so humble, there's no place like home.\" (John Howard Payne, \"Home, Sweet Home,\" 1823)",
@@ -1623,24 +1279,20 @@
         "\"Be it never so true, it were not fit to be spoken here.\"",
         "Be it ever so cold, the mill opened at six."
       ],
-      "related": [
-        "come what may",
-        "however",
-        "no matter how",
-        "howsomever",
-        "what though"
-      ]
+      "senses": [],
+      "русский": "устар. как бы ни был — be it ever so humble «пусть даже самый убогий»",
+      "register": "archaic and literary — hymns, proverbs, nineteenth-century prose, and one song lyric every American knows",
+      "type": "subordinating — a frozen subjunctive with inversion",
+      "clause type": "adverbial clause of concession, universal over degree — \"no matter how\"",
+      "pattern": "Be it ever so [adjective], [main clause]. · Be [subject] ever so [adjective], [main clause]. · Be [subject] ne'er so [adjective], [main clause].",
+      "punctuation": "Comma after the clause, which is always fronted. It is a clause and not an adverbial, so the semicolon question never arises.",
+      "variants": "be it never so (the older form), be he ne'er so, be she ne'er so (the subject changes, and ne'er stands for never), however + adjective, no matter how (the modern forms)",
+      "see also": "come what may, however, no matter how, howsomever, what though"
     },
     {
       "term": "be that as it may",
       "ipa": "/bi ˈðæt əz ɪt ˈmeɪ/",
       "respell": "bee THAT az it MAY",
-      "type": "conjunctive adverb",
-      "register": "formal",
-      "clause": "none — a sentence adverbial, not a clause connector",
-      "pattern": "[statement]. Be that as it may, [statement]. · [statement]; be that as it may, [statement].",
-      "punctuation": "Comma after it. Because it is an adverb and not a conjunction, it cannot join two independent clauses with a comma alone — put a period or a semicolon in front of it, exactly as you would with however or nevertheless.",
-      "variants": [],
       "meaning": "A frozen subjunctive meaning \"granting all of that.\" It concedes everything the other side has just said and then sets the whole pile aside, which makes it a favorite of judges, editors, and people trying to end an argument. It always points backward, at something already stated.",
       "examples": [
         "The costs are real. Be that as it may, the project is going forward.",
@@ -1649,27 +1301,19 @@
         "The data are three years old. Be that as it may, nothing since then contradicts them.",
         "She never signed the form; be that as it may, everyone treated her as a member."
       ],
-      "related": [
-        "for all that",
-        "granted",
-        "come what may",
-        "howbeit"
-      ]
+      "senses": [],
+      "русский": "как бы то ни было, при всём том — отметает всё сказанное ранее",
+      "register": "formal",
+      "type": "conjunctive adverb",
+      "clause type": "none — a sentence adverbial, not a clause connector",
+      "pattern": "[statement]. Be that as it may, [statement]. · [statement]; be that as it may, [statement].",
+      "punctuation": "Comma after it. Because it is an adverb and not a conjunction, it cannot join two independent clauses with a comma alone — put a period or a semicolon in front of it, exactly as you would with however or nevertheless.",
+      "see also": "for all that, granted, come what may, howbeit"
     },
     {
       "term": "believe it or not",
-      "ipa": "/bɪˌliv ɪt ər ˈnɑt/ · casually /bəˌliv ɪɾ ər ˈnɑt/, with the t of it flapped",
-      "respell": "bih-leev-it-er-NOT",
-      "type": "subordinating — a frozen concessive-conditional clause, built exactly like like it or not",
-      "register": "neutral to informal",
-      "clause": "adverbial clause of concessive condition (frozen imperative plus alternative)",
-      "pattern": "Believe it or not, [main clause]. · [main clause], believe it or not. · [main clause] — believe it or not — [continuation]. · Whether you believe it or not, [main clause].",
-      "punctuation": "Always set off by a comma, at the front, at the end, or on both sides when it interrupts. It is an adverbial, not a conjunction: Believe it or not, the check cleared, the bank called to confirm is a comma splice.",
-      "variants": [
-        "whether you believe it or not (the full form, and blunter)",
-        "if you can believe it",
-        "believe you me (a different idiom — emphasis, not concession)"
-      ],
+      "ipa": "/bɪˌliv ɪt ər ˈnɑt/",
+      "respell": "casually /bəˌliv ɪɾ ər ˈnɑt/, with the t of it flapped",
       "meaning": "A whether clause with the whether dropped and the verb left standing in the imperative, exactly like like it or not. It runs through both branches — you believe it, you don't — and reports that the main clause holds either way, which in practice makes it a flag on a surprising fact more than a real concession. Like it or not warns; believe it or not invites.",
       "examples": [
         "Believe it or not, the permit came through in nine days.",
@@ -1679,24 +1323,21 @@
         "Whether you believe it or not, I never got the invoice.",
         "She reads every word of the terms of service, believe it or not."
       ],
-      "related": [
-        "like it or not",
-        "whether or not",
-        "come what may",
-        "no doubt",
-        "granted"
-      ]
+      "senses": [],
+      "pronunciation note": "bih-leev-it-er-NOT",
+      "русский": "хотите верьте, хотите нет — предупреждение о неожиданном факте",
+      "register": "neutral to informal",
+      "type": "subordinating — a frozen concessive-conditional clause, built exactly like like it or not",
+      "clause type": "adverbial clause of concessive condition (frozen imperative plus alternative)",
+      "pattern": "Believe it or not, [main clause]. · [main clause], believe it or not. · [main clause] — believe it or not — [continuation]. · Whether you believe it or not, [main clause].",
+      "punctuation": "Always set off by a comma, at the front, at the end, or on both sides when it interrupts. It is an adverbial, not a conjunction: Believe it or not, the check cleared, the bank called to confirm is a comma splice.",
+      "variants": "whether you believe it or not (the full form, and blunter), if you can believe it, believe you me (a different idiom — emphasis, not concession)",
+      "see also": "like it or not, whether or not, come what may, no doubt, granted"
     },
     {
       "term": "come what may",
       "ipa": "/ˌkʌm wʌt ˈmeɪ/",
       "respell": "kum wut MAY",
-      "type": "subordinating",
-      "register": "formal or literary",
-      "clause": "adverbial clause of concessive condition (frozen, with inversion)",
-      "pattern": "Come what may, [main clause]. · [main clause], come what may.",
-      "punctuation": "Always set off by a comma, at the front or at the end.",
-      "variants": [],
       "meaning": "\"No matter what happens\" — another frozen subjunctive, this one with the verb thrown to the front. It looks forward, where be that as it may looks back, and it reads as a vow rather than as an argument.",
       "examples": [
         "Come what may, the wedding is happening on the fourteenth.",
@@ -1705,28 +1346,19 @@
         "He had made up his mind to enlist, come what may.",
         "Come what may, the doors open at seven and the curtain goes up at eight."
       ],
-      "related": [
-        "no matter what",
-        "whether or not",
-        "be that as it may",
-        "regardless of whether",
-        "like it or not"
-      ]
+      "senses": [],
+      "русский": "будь что будет, что бы ни случилось — звучит как обещание",
+      "register": "formal or literary",
+      "type": "subordinating",
+      "clause type": "adverbial clause of concessive condition (frozen, with inversion)",
+      "pattern": "Come what may, [main clause]. · [main clause], come what may.",
+      "punctuation": "Always set off by a comma, at the front or at the end.",
+      "see also": "no matter what, whether or not, be that as it may, regardless of whether, like it or not"
     },
     {
       "term": "even then",
       "ipa": "/ˌivən ˈðɛn/",
       "respell": "ee-vun THEN",
-      "type": "conjunctive adverb",
-      "register": "neutral",
-      "clause": "none — a sentence adverbial pointing back at a condition or a moment already named",
-      "pattern": "[Independent clause]. Even then, [independent clause]. · [Independent clause]; even then, [independent clause]. · [conditional clause], and even then [main clause]. · [Independent clause] even then.",
-      "punctuation": "Comma after it in front position. Between two independent clauses it takes a period or a semicolon, never a bare comma. Riding behind and it needs no punctuation of its own: if the parts arrive Monday, and even then it's tight.",
-      "variants": [
-        "even so (which points back at a granted fact rather than a hypothetical)",
-        "and even then (the commonest shape in speech)",
-        "even at that"
-      ],
       "meaning": "The adverb that finishes what even if starts: the if clause names the best case and even then says the main claim survives it. It is anaphoric — it has to point back at a condition or a time already on the table — and that is the split from even so, which points back at a fact. It also does plain temporal work (he was nine, and even then he could name every state capital), and only context sorts the two.",
       "examples": [
         "We might get the permit by June. Even then, nothing gets poured before August.",
@@ -1736,24 +1368,20 @@
         "They may reopen the road tonight. Even then, I'd take the long way around.",
         "He was nine when they moved here, and even then he could name every state capital. (temporal — \"as early as that\")"
       ],
-      "related": [
-        "even if",
-        "even so",
-        "all the same",
-        "still and all",
-        "be that as it may"
-      ]
+      "senses": [],
+      "русский": "даже тогда, и всё равно — отсылает к уже названному условию или моменту",
+      "register": "neutral",
+      "type": "conjunctive adverb",
+      "clause type": "none — a sentence adverbial pointing back at a condition or a moment already named",
+      "pattern": "[Independent clause]. Even then, [independent clause]. · [Independent clause]; even then, [independent clause]. · [conditional clause], and even then [main clause]. · [Independent clause] even then.",
+      "punctuation": "Comma after it in front position. Between two independent clauses it takes a period or a semicolon, never a bare comma. Riding behind and it needs no punctuation of its own: if the parts arrive Monday, and even then it's tight.",
+      "variants": "even so (which points back at a granted fact rather than a hypothetical), and even then (the commonest shape in speech), even at that",
+      "see also": "even if, even so, all the same, still and all, be that as it may"
     },
     {
       "term": "granted",
       "ipa": "/ˈɡræntɪd/ (also /ˈɡrænɪd/ with the t dropped)",
       "respell": "GRAN-tid",
-      "type": "conjunctive adverb",
-      "register": "neutral",
-      "clause": "none — a supplementary adverbial, often a whole turn by itself",
-      "pattern": "Granted, [statement]. · [statement], granted, [continuation]. · [independent clause]; granted, [independent clause]. · [independent clause] — granted — [continuation]. · \"Granted.\" (as a complete reply)",
-      "punctuation": "Comma after it when it opens a sentence, commas on both sides when it interrupts. Because it is an adverb and not a conjunction, it cannot join two independent clauses with a comma alone: put a period or a semicolon in front of it, exactly as you would with however or nevertheless. It's expensive, granted, it's also the only one that fits is a comma splice; It's expensive; granted, it's also the only one that fits is not.",
-      "variants": [],
       "meaning": "Concedes the other person's point, usually so that the speaker can turn around and qualify it. In American conversation it is the standard one-word way of saying \"fair enough, but.\" The subordinating granted that is the same word doing a heavier job.",
       "examples": [
         "Granted, the first hour is slow, but the last twenty minutes are worth it.",
@@ -1763,26 +1391,19 @@
         "She's the youngest person on the staff — granted — and she's also the only one who has shipped anything.",
         "It's a long drive; granted, the last twenty miles make up for it."
       ],
-      "related": [
-        "granted that",
-        "admitting that",
-        "be that as it may",
-        "for all that"
-      ]
+      "senses": [],
+      "русский": "согласен, спору нет, положим — разговорная уступка перед возражением",
+      "register": "neutral",
+      "type": "conjunctive adverb",
+      "clause type": "none — a supplementary adverbial, often a whole turn by itself",
+      "pattern": "Granted, [statement]. · [statement], granted, [continuation]. · [independent clause]; granted, [independent clause]. · [independent clause] — granted — [continuation]. · \"Granted.\" (as a complete reply)",
+      "punctuation": "Comma after it when it opens a sentence, commas on both sides when it interrupts. Because it is an adverb and not a conjunction, it cannot join two independent clauses with a comma alone: put a period or a semicolon in front of it, exactly as you would with however or nevertheless. It's expensive, granted, it's also the only one that fits is a comma splice; It's expensive; granted, it's also the only one that fits is not.",
+      "see also": "granted that, admitting that, be that as it may, for all that"
     },
     {
       "term": "howbeit",
       "ipa": "/haʊˈbiɪt/",
       "respell": "how-BEE-it",
-      "type": "conjunctive adverb (formerly also subordinating)",
-      "register": "archaic",
-      "clause": "none in modern use — a sentence adverbial meaning \"nevertheless\"",
-      "pattern": "[statement]; howbeit, [statement]. · Howbeit [clause], [main clause]. (obsolete subordinating use)",
-      "punctuation": "As with any conjunctive adverb, a semicolon or a period in front of it and a comma after. The obsolete subordinating form takes a comma after its clause.",
-      "variants": [
-        "howbe",
-        "howsobeit"
-      ],
       "meaning": "The dead ancestor of albeit, built the same way out of how be it. It survives in the King James Bible, in deliberate period pastiche, and in the occasional antique-sounding legal opinion; no living American register uses it. Read it as nevertheless.",
       "examples": [
         "\"Howbeit we speak wisdom among them that are perfect.\" (1 Corinthians 2:6, King James Version)",
@@ -1791,27 +1412,20 @@
         "She had every right to refuse; howbeit, she signed.",
         "Howbeit, the matter was never spoken of again."
       ],
-      "related": [
-        "albeit",
-        "be that as it may",
-        "notwithstanding that",
-        "though"
-      ]
+      "senses": [],
+      "русский": "устар. тем не менее, впрочем — предок albeit, из Библии короля Иакова",
+      "register": "archaic",
+      "type": "conjunctive adverb (formerly also subordinating)",
+      "clause type": "none in modern use — a sentence adverbial meaning \"nevertheless\"",
+      "pattern": "[statement]; howbeit, [statement]. · Howbeit [clause], [main clause]. (obsolete subordinating use)",
+      "punctuation": "As with any conjunctive adverb, a semicolon or a period in front of it and a comma after. The obsolete subordinating form takes a comma after its clause.",
+      "variants": "howbe, howsobeit",
+      "see also": "albeit, be that as it may, notwithstanding that, though"
     },
     {
       "term": "like it or not",
-      "ipa": "/ˌlaɪk ɪt ər ˈnɑt/ · casually /ˌlaɪk ɪɾ ər ˈnɑt/, with the t of it flapped",
-      "respell": "lyke-it-er-NOT",
-      "type": "subordinating — a frozen concessive-conditional clause; the bare word like is also a preposition (a house like ours), a verb (I like it), a noun (likes and dislikes), an informal subordinator of manner (like I said), and an informal quotative (she was like, no)",
-      "register": "neutral to informal; the full whether you like it or not is blunter still",
-      "clause": "adverbial clause of concessive condition (frozen, imperative plus alternative)",
-      "pattern": "Like it or not, [main clause]. · [main clause], like it or not. · Like [noun phrase] or not, [main clause]. · Whether [subject] like(s) it or not, [main clause].",
-      "punctuation": "Always set off by a comma, at the front or at the end. It is an adverbial, not a conjunction that joins clauses, so it cannot splice two independent clauses together: We're going, like it or not, the tickets are bought is a comma splice — put a period or a semicolon after not.",
-      "variants": [
-        "whether you like it or not (the full form)",
-        "ready or not",
-        "want to or not"
-      ],
+      "ipa": "/ˌlaɪk ɪt ər ˈnɑt/",
+      "respell": "casually /ˌlaɪk ɪɾ ər ˈnɑt/, with the t of it flapped",
       "meaning": "The spoken cousin of whether or not: a whether clause with the whether dropped and the verb left standing in the imperative. It runs through both branches — you like it, you don't — and reports that the main clause holds either way. More often a warning than a concession, which is why it lands hardest at the front of a sentence, and why it so rarely appears in writing that is trying to be polite.",
       "examples": [
         "Like it or not, the deadline moved up to the fifteenth.",
@@ -1821,28 +1435,21 @@
         "Whether you like it or not, the two of you are going to have to share an office.",
         "Ready or not, the doors open at nine."
       ],
-      "related": [
-        "whether or not",
-        "come what may",
-        "no matter what",
-        "regardless of whether",
-        "be that as it may"
-      ]
+      "senses": [],
+      "pronunciation note": "lyke-it-er-NOT",
+      "русский": "хочешь не хочешь, нравится это или нет — чаще предупреждение, чем уступка",
+      "register": "neutral to informal; the full whether you like it or not is blunter still",
+      "type": "subordinating — a frozen concessive-conditional clause; the bare word like is also a preposition (a house like ours), a verb (I like it), a noun (likes and dislikes), an informal subordinator of manner (like I said), and an informal quotative (she was like, no)",
+      "clause type": "adverbial clause of concessive condition (frozen, imperative plus alternative)",
+      "pattern": "Like it or not, [main clause]. · [main clause], like it or not. · Like [noun phrase] or not, [main clause]. · Whether [subject] like(s) it or not, [main clause].",
+      "punctuation": "Always set off by a comma, at the front or at the end. It is an adverbial, not a conjunction that joins clauses, so it cannot splice two independent clauses together: We're going, like it or not, the tickets are bought is a comma splice — put a period or a semicolon after not.",
+      "variants": "whether you like it or not (the full form), ready or not, want to or not",
+      "see also": "whether or not, come what may, no matter what, regardless of whether, be that as it may"
     },
     {
       "term": "maugre",
       "ipa": "/ˈmɔɡər/",
       "respell": "MAW-gur",
-      "type": "prepositional in form, concessive in force — it takes a noun phrase and never a clause",
-      "register": "archaic — Middle and Early Modern English; Chaucer, Spenser, Shakespeare, and Sir Walter Scott, and nothing written since",
-      "clause": "none — a concessive prepositional phrase",
-      "pattern": "Maugre [noun phrase], [main clause]. · [main clause] maugre [noun phrase]. · Maugre [possessive] [noun], [main clause].",
-      "punctuation": "Comma after the fronted phrase and none when it trails — the rules that govern despite. It cannot join two clauses.",
-      "variants": [
-        "mauger, malgre, maulgre (older spellings — the word was never settled)",
-        "in spite of, despite (the modern forms)",
-        "malgré (the living French word it came from)"
-      ],
       "meaning": "Old French maugré, \"ill will\": to do a thing maugre someone was to do it against their spite, which is where the modern phrase in spite of gets its noun. It dropped out of English in the seventeenth century and survives only in period text and deliberate antiquarian writing. An American meets it in Twelfth Night and in Scott's novels, and nowhere else.",
       "examples": [
         "\"I love thee so that, maugre all thy pride, / Nor wit nor reason can my passion hide.\" (Twelfth Night, III.i)",
@@ -1852,28 +1459,20 @@
         "He kept his seat at the table, maugre the whispering of the whole company.",
         "Maugre wind and tide, the packet made harbor before dark."
       ],
-      "related": [
-        "notwithstanding that",
-        "despite the fact that",
-        "in spite of the fact that",
-        "for all",
-        "natheless"
-      ]
+      "senses": [],
+      "русский": "устар. вопреки, несмотря на — предлог, вымерший в XVII веке",
+      "register": "archaic — Middle and Early Modern English; Chaucer, Spenser, Shakespeare, and Sir Walter Scott, and nothing written since",
+      "type": "prepositional in form, concessive in force — it takes a noun phrase and never a clause",
+      "clause type": "none — a concessive prepositional phrase",
+      "pattern": "Maugre [noun phrase], [main clause]. · [main clause] maugre [noun phrase]. · Maugre [possessive] [noun], [main clause].",
+      "punctuation": "Comma after the fronted phrase and none when it trails — the rules that govern despite. It cannot join two clauses.",
+      "variants": "mauger, malgre, maulgre (older spellings — the word was never settled), in spite of, despite (the modern forms), malgré (the living French word it came from)",
+      "see also": "notwithstanding that, despite the fact that, in spite of the fact that, for all, natheless"
     },
     {
       "term": "mind you",
-      "ipa": "/ˈmaɪnd ju/ · casually /ˈmaɪn jə/",
-      "respell": "MYND yoo",
-      "type": "conjunctive adverb by function — a frozen imperative used as a parenthetical connector",
-      "register": "informal, spoken; more British and Irish than American, but current in American conversation and in dialogue",
-      "clause": "none — a parenthetical adverbial hanging a qualification on what was just said",
-      "pattern": "[Statement], mind you, [continuation]. · [Statement] — mind you, [statement]. · Mind you, [statement]. · [Statement], mind you.",
-      "punctuation": "Always fenced with commas, dashes, or parentheses. Because it is an adverbial and not a conjunction, it cannot hold two independent clauses together: He paid, mind you, he took his time about it is a comma splice — write He paid — mind you, he took his time about it.",
-      "variants": [
-        "mind, mind you now (older and more regional)",
-        "note that (the formal equivalent)",
-        "granted, to be fair (the American near-equivalents)"
-      ],
+      "ipa": "/ˈmaɪnd ju/",
+      "respell": "casually /ˈmaɪn jə/",
       "meaning": "Flags the next thing — or the thing just said — as a qualification the listener had better not overlook: \"I'm granting this, so don't hold it against me later.\" It is the spoken hedge that keeps a compliment from being total or a complaint from being unfair. In American English it carries a faint British accent; granted and to be fair do the same work without one.",
       "examples": [
         "He's the best hitter on the team. He can't field, mind you.",
@@ -1883,28 +1482,21 @@
         "I'm not saying he's wrong. Mind you, I'm not saying he's right either.",
         "It's a good price. Mind you, you'll spend it twice over on repairs."
       ],
-      "related": [
-        "granted",
-        "to be sure",
-        "not that",
-        "no doubt",
-        "admittedly"
-      ]
+      "senses": [],
+      "pronunciation note": "MYND yoo",
+      "русский": "разг. заметьте, имейте в виду — оговорка к только что сказанному",
+      "register": "informal, spoken; more British and Irish than American, but current in American conversation and in dialogue",
+      "type": "conjunctive adverb by function — a frozen imperative used as a parenthetical connector",
+      "clause type": "none — a parenthetical adverbial hanging a qualification on what was just said",
+      "pattern": "[Statement], mind you, [continuation]. · [Statement] — mind you, [statement]. · Mind you, [statement]. · [Statement], mind you.",
+      "punctuation": "Always fenced with commas, dashes, or parentheses. Because it is an adverbial and not a conjunction, it cannot hold two independent clauses together: He paid, mind you, he took his time about it is a comma splice — write He paid — mind you, he took his time about it.",
+      "variants": "mind, mind you now (older and more regional), note that (the formal equivalent), granted, to be fair (the American near-equivalents)",
+      "see also": "granted, to be sure, not that, no doubt, admittedly"
     },
     {
       "term": "natheless",
       "ipa": "/ˈneɪθləs/ (also /ˈnæθləs/)",
       "respell": "NAYTH-luss",
-      "type": "conjunctive adverb",
-      "register": "archaic and poetic — Spenser, Milton, Keats, and nineteenth-century verse; dead in every modern register",
-      "clause": "none — a sentence adverbial meaning \"nevertheless\"",
-      "pattern": "[Statement]; natheless, [statement]. · Natheless, [statement]. · [statement] natheless [continuation]. (bare inside a line of verse)",
-      "punctuation": "Modern editing gives it a semicolon or a period in front and a comma after, like any conjunctive adverb; the poets who used it often left it unpunctuated inside the line.",
-      "variants": [
-        "nathless, natheles, nathelesse (the spelling was never fixed)",
-        "ne'ertheless",
-        "nevertheless (the surviving form)"
-      ],
       "meaning": "The ancestor of nevertheless, from Old English na þe læs, \"not the less.\" It had fallen out of ordinary use by the seventeenth century and survived after that as a poetic archaism — Milton reached for it in Paradise Lost, and the Romantics reached for it because Milton had. An American meets it in a poetry anthology; in prose it reads as pastiche.",
       "examples": [
         "\"Nathless he so endur'd, till on the beach / Of that inflamed sea he stood.\" (Milton, Paradise Lost, I)",
@@ -1913,29 +1505,20 @@
         "He was warned of the ford; natheless he rode into it.",
         "Natheless she loved him, and would not hear a word said against him."
       ],
-      "related": [
-        "nevertheless",
-        "howbeit",
-        "be that as it may",
-        "maugre",
-        "what though"
-      ]
+      "senses": [],
+      "русский": "устар., поэт. тем не менее — предок nevertheless, у Мильтона и романтиков",
+      "register": "archaic and poetic — Spenser, Milton, Keats, and nineteenth-century verse; dead in every modern register",
+      "type": "conjunctive adverb",
+      "clause type": "none — a sentence adverbial meaning \"nevertheless\"",
+      "pattern": "[Statement]; natheless, [statement]. · Natheless, [statement]. · [statement] natheless [continuation]. (bare inside a line of verse)",
+      "punctuation": "Modern editing gives it a semicolon or a period in front and a comma after, like any conjunctive adverb; the poets who used it often left it unpunctuated inside the line.",
+      "variants": "nathless, natheles, nathelesse (the spelling was never fixed), ne'ertheless, nevertheless (the surviving form)",
+      "see also": "nevertheless, howbeit, be that as it may, maugre, what though"
     },
     {
       "term": "no doubt",
       "ipa": "/ˌnoʊ ˈdaʊt/",
       "respell": "no DOWT",
-      "type": "conjunctive adverb (phrasal) — a concessive disjunct",
-      "register": "neutral; doubtless is more literary",
-      "clause": "none — a sentence adverbial conceding a point before the objection arrives",
-      "pattern": "No doubt [independent clause], but [independent clause]. · [subject] no doubt [verb phrase], but [independent clause]. · [independent clause], no doubt. · Doubtless [independent clause], but [independent clause].",
-      "punctuation": "A fronted no doubt needs no comma after it — it leans on the clause it opens — though one is fine when the phrase is meant to stand apart. Comma before it at the end of a sentence. It is not a conjunction, so keep the but when you are joining two clauses.",
-      "variants": [
-        "doubtless (compressed, and more literary)",
-        "doubtlessly (widely disliked — write doubtless)",
-        "undoubtedly (emphatic rather than concessive: it agrees instead of conceding)",
-        "no doubt about it (a fixed emphatic tag)"
-      ],
       "meaning": "Concedes something in advance, and the concession is usually thin: no doubt she meant well has a but waiting behind it almost every time, which makes the phrase a polite way of not really conceding at all. That ironic edge is the whole difference from undoubtedly, where the speaker actually agrees. Doubtless does the same job a register higher.",
       "examples": [
         "No doubt the intentions were good, but the rollout was a disaster.",
@@ -1945,28 +1528,20 @@
         "The contractor was no doubt busy, which does not explain three unreturned calls.",
         "Doubtless he meant it kindly, and it landed badly all the same."
       ],
-      "related": [
-        "to be sure",
-        "granted",
-        "mind you",
-        "all the same",
-        "admittedly"
-      ]
+      "senses": [],
+      "русский": "спору нет, конечно — уступка, за которой почти всегда прячется «но»",
+      "register": "neutral; doubtless is more literary",
+      "type": "conjunctive adverb (phrasal) — a concessive disjunct",
+      "clause type": "none — a sentence adverbial conceding a point before the objection arrives",
+      "pattern": "No doubt [independent clause], but [independent clause]. · [subject] no doubt [verb phrase], but [independent clause]. · [independent clause], no doubt. · Doubtless [independent clause], but [independent clause].",
+      "punctuation": "A fronted no doubt needs no comma after it — it leans on the clause it opens — though one is fine when the phrase is meant to stand apart. Comma before it at the end of a sentence. It is not a conjunction, so keep the but when you are joining two clauses.",
+      "variants": "doubtless (compressed, and more literary), doubtlessly (widely disliked — write doubtless), undoubtedly (emphatic rather than concessive: it agrees instead of conceding), no doubt about it (a fixed emphatic tag)",
+      "see also": "to be sure, granted, mind you, all the same, admittedly"
     },
     {
       "term": "not but that",
       "ipa": "/ˌnɑt bət ˈðæt/",
       "respell": "not but THAT",
-      "type": "subordinating — a frozen stacked negative",
-      "register": "archaic and formal for not but that; not but what is dialectal and nonstandard — regional American and British speech, never edited prose",
-      "clause": "adverbial clause of concession (parenthetical disclaimer)",
-      "pattern": "[statement], not but that [clause]. · [statement]. Not but that [clause]. · [statement], not but what [clause]. (nonstandard)",
-      "punctuation": "A comma, a dash, or a period in front of it — it always arrives as an afterthought. Never run it onto the previous clause with no punctuation at all.",
-      "variants": [
-        "not but what (dialectal)",
-        "not but (the bare older form)",
-        "not that (the living modern form)"
-      ],
       "meaning": "The eighteenth- and nineteenth-century ancestor of not that: a stacked negative meaning \"it is not that … not,\" which comes out as \"though of course.\" She never spoke of the money, not but that she needed it says she needed it badly. Americans meet it in Austen, Dickens, and Trollope; not but what is the same phrase in country speech, and modern writing has handed the whole job to not that.",
       "examples": [
         "She never spoke of the money, not but that she needed it.",
@@ -1975,28 +1550,20 @@
         "\"He's a decent enough landlord, not but what the roof's wanted fixing these ten years.\" (dialectal)",
         "The family said nothing at the time, not but that the whole village knew."
       ],
-      "related": [
-        "not that",
-        "but that",
-        "granted",
-        "no doubt",
-        "howbeit"
-      ]
+      "senses": [],
+      "русский": "устар. хотя, конечно же — «не то чтобы не»; современная форма — not that",
+      "register": "archaic and formal for not but that; not but what is dialectal and nonstandard — regional American and British speech, never edited prose",
+      "type": "subordinating — a frozen stacked negative",
+      "clause type": "adverbial clause of concession (parenthetical disclaimer)",
+      "pattern": "[statement], not but that [clause]. · [statement]. Not but that [clause]. · [statement], not but what [clause]. (nonstandard)",
+      "punctuation": "A comma, a dash, or a period in front of it — it always arrives as an afterthought. Never run it onto the previous clause with no punctuation at all.",
+      "variants": "not but what (dialectal), not but (the bare older form), not that (the living modern form)",
+      "see also": "not that, but that, granted, no doubt, howbeit"
     },
     {
       "term": "not for nothing",
-      "ipa": "/ˌnɑt fər ˈnʌθɪŋ/ · casually /ˌnɑt fɚ ˈnʌθɪn/",
-      "respell": "not fer NUTH-ing",
-      "type": "conjunctive adverb (phrasal) in the concessive sense; the older sense inverts the clause behind it",
-      "register": "informal and regional — the concessive opener is a New York, New Jersey, and Boston signature, familiar nationally from movies and television",
-      "clause": "none — a discourse-initial adverbial prefacing an objection",
-      "pattern": "Not for nothing, but [independent clause]. · Not for nothing, [independent clause]. · Not for nothing [auxiliary] [subject] [verb phrase]. (the older inverted sense)",
-      "punctuation": "Comma after it, and the but that usually follows keeps its ordinary place. It cannot join two independent clauses on its own.",
-      "variants": [
-        "no offense, but, with all due respect (the same softener without the regional accent)",
-        "not for nothing did + subject (the older \"for good reason\" sense)",
-        "not for nothing is it called …"
-      ],
+      "ipa": "/ˌnɑt fər ˈnʌθɪŋ/",
+      "respell": "casually /ˌnɑt fɚ ˈnʌθɪn/",
       "meaning": "Two senses that pull in opposite directions. The older one means \"for good reason\" and inverts the clause after it: not for nothing is that stretch called the worst merge in the state. The newer one — the one an American actually hears — is a Northeastern discourse opener that softens an objection just before it lands, exactly like no offense, but: it announces that the speaker knows the next sentence may sting.",
       "examples": [
         "Not for nothing, but the last two times we tried this, the server went down.",
@@ -2006,24 +1573,21 @@
         "Not for nothing is that stretch of I-95 called the worst merge in the state. (the older sense — \"for good reason\")",
         "Not for nothing did the neighbors start calling the block \"the canyon.\" (older sense, inverted)"
       ],
-      "related": [
-        "not that",
-        "mind you",
-        "no doubt",
-        "to be sure",
-        "granted"
-      ]
+      "senses": [],
+      "pronunciation note": "not fer NUTH-ing",
+      "русский": "разг. не в обиду будь сказано (сев.-вост. США); устар. недаром, не зря",
+      "register": "informal and regional — the concessive opener is a New York, New Jersey, and Boston signature, familiar nationally from movies and television",
+      "type": "conjunctive adverb (phrasal) in the concessive sense; the older sense inverts the clause behind it",
+      "clause type": "none — a discourse-initial adverbial prefacing an objection",
+      "pattern": "Not for nothing, but [independent clause]. · Not for nothing, [independent clause]. · Not for nothing [auxiliary] [subject] [verb phrase]. (the older inverted sense)",
+      "punctuation": "Comma after it, and the but that usually follows keeps its ordinary place. It cannot join two independent clauses on its own.",
+      "variants": "no offense, but, with all due respect (the same softener without the regional accent), not for nothing did + subject (the older \"for good reason\" sense), not for nothing is it called …",
+      "see also": "not that, mind you, no doubt, to be sure, granted"
     },
     {
       "term": "not that",
-      "ipa": "/ˈnɑt ðæt/ · unstressed /ˈnɑt ðət/",
-      "respell": "NOT that",
-      "type": "subordinating",
-      "register": "informal to neutral",
-      "clause": "adverbial clause of concession (parenthetical disclaimer)",
-      "pattern": "[statement]. Not that [clause]. · Not that [clause], but [main clause]. · [statement] — not that [clause].",
-      "punctuation": "Set it off with a period, a dash, or parentheses; when but follows, a comma goes between the two halves. Never attach it to the previous sentence with a comma alone.",
-      "variants": [],
+      "ipa": "/ˈnɑt ðæt/",
+      "respell": "unstressed /ˈnɑt ðət/",
       "meaning": "Heads off an inference the speaker expects the listener to draw, and denies it — usually with a wink, since not that it matters concedes that it does matter, or the sentence would not exist. It is one of the most common concessive moves in American speech and almost never appears in formal writing.",
       "examples": [
         "He's moving to Denver. Not that he told any of us.",
@@ -2032,27 +1596,20 @@
         "I'd have picked a different color. Not that anybody asked.",
         "Not that it's my business, but the contractor's truck hasn't moved in a week."
       ],
-      "related": [
-        "granted",
-        "though",
-        "for all that",
-        "be that as it may"
-      ]
+      "senses": [],
+      "pronunciation note": "NOT that",
+      "русский": "не то чтобы — отводит вывод, который собеседник вот-вот сделает",
+      "register": "informal to neutral",
+      "type": "subordinating",
+      "clause type": "adverbial clause of concession (parenthetical disclaimer)",
+      "pattern": "[statement]. Not that [clause]. · Not that [clause], but [main clause]. · [statement] — not that [clause].",
+      "punctuation": "Set it off with a period, a dash, or parentheses; when but follows, a comma goes between the two halves. Never attach it to the previous sentence with a comma alone.",
+      "see also": "granted, though, for all that, be that as it may"
     },
     {
       "term": "still and all",
       "ipa": "/ˌstɪl ən ˈɔl/",
       "respell": "stil un AWL",
-      "type": "conjunctive adverb (phrasal)",
-      "register": "informal and regional — colloquial American speech with a rural, older-generation flavor; not standard written English",
-      "clause": "none — a sentence adverbial dismissing what was just granted",
-      "pattern": "[Independent clause]. Still and all, [independent clause]. · [Independent clause]; still and all, [independent clause]. · Still and all, [independent clause].",
-      "punctuation": "Comma after it. Between two independent clauses it needs a period or a semicolon in front — a comma alone is a comma splice, exactly as with however.",
-      "variants": [
-        "still (the standard one-word form)",
-        "all the same, just the same",
-        "when all's said and done"
-      ],
       "meaning": "A colloquial doubling of still, where and all adds nothing but breath and warmth. It grants everything just said and then holds the line anyway. It is a spoken form — an American hears it from an older relative or reads it in dialogue — and an editor cuts it to still or all the same in anything formal.",
       "examples": [
         "The truck has two hundred thousand miles on it. Still and all, it starts every morning.",
@@ -2061,28 +1618,20 @@
         "We knew the odds. Still and all, it stung to lose that way.",
         "The place is falling apart. Still and all, I'd rather be there than anywhere else."
       ],
-      "related": [
-        "all the same",
-        "anyhow",
-        "be that as it may",
-        "even then",
-        "still"
-      ]
+      "senses": [],
+      "русский": "разг. и всё же, всё равно — просторечное удвоение still",
+      "register": "informal and regional — colloquial American speech with a rural, older-generation flavor; not standard written English",
+      "type": "conjunctive adverb (phrasal)",
+      "clause type": "none — a sentence adverbial dismissing what was just granted",
+      "pattern": "[Independent clause]. Still and all, [independent clause]. · [Independent clause]; still and all, [independent clause]. · Still and all, [independent clause].",
+      "punctuation": "Comma after it. Between two independent clauses it needs a period or a semicolon in front — a comma alone is a comma splice, exactly as with however.",
+      "variants": "still (the standard one-word form), all the same, just the same, when all's said and done",
+      "see also": "all the same, anyhow, be that as it may, even then, still"
     },
     {
       "term": "to be sure",
       "ipa": "/tə bi ˈʃʊr/",
       "respell": "tuh bee SHOOR",
-      "type": "conjunctive adverb (phrasal) — a concessive disjunct",
-      "register": "formal to neutral — a writer's phrase; in speech it sounds bookish",
-      "clause": "none — a sentence adverbial conceding a point, almost always ahead of a but",
-      "pattern": "[Independent clause], to be sure, but [independent clause]. · To be sure, [independent clause]. But [independent clause]. · [Independent clause], to be sure.",
-      "punctuation": "Commas around it wherever it sits. It is an adverbial and not a conjunction, so the but that so often follows still has to be there — drop it and two independent clauses are left spliced.",
-      "variants": [
-        "admittedly, granted (the same move, one conversational and one neutral)",
-        "it is true that",
-        "sure (the informal one-word version: sure, it's expensive, but …)"
-      ],
       "meaning": "The essayist's concession: it grants the strongest point on the other side in order to show that the argument survives it. It nearly always has a but or a yet behind it — a to be sure with no reversal after it has left its sentence unfinished. Against granted, which is conversational, this is the written form, and it carries a faint whiff of the nineteenth-century critic.",
       "examples": [
         "The evidence is thin, to be sure, but every piece of it points the same way.",
@@ -2091,28 +1640,20 @@
         "To be sure, nobody expected the program to pay for itself in a single year.",
         "The translation loses the puns, to be sure, and it keeps the argument perfectly intact."
       ],
-      "related": [
-        "granted",
-        "no doubt",
-        "mind you",
-        "be that as it may",
-        "admittedly"
-      ]
+      "senses": [],
+      "русский": "книжн. разумеется, спору нет — письменная уступка перед неизбежным «но»",
+      "register": "formal to neutral — a writer's phrase; in speech it sounds bookish",
+      "type": "conjunctive adverb (phrasal) — a concessive disjunct",
+      "clause type": "none — a sentence adverbial conceding a point, almost always ahead of a but",
+      "pattern": "[Independent clause], to be sure, but [independent clause]. · To be sure, [independent clause]. But [independent clause]. · [Independent clause], to be sure.",
+      "punctuation": "Commas around it wherever it sits. It is an adverbial and not a conjunction, so the but that so often follows still has to be there — drop it and two independent clauses are left spliced.",
+      "variants": "admittedly, granted (the same move, one conversational and one neutral), it is true that, sure (the informal one-word version: sure, it's expensive, but …)",
+      "see also": "granted, no doubt, mind you, be that as it may, admittedly"
     },
     {
       "term": "what though",
       "ipa": "/ˌwʌt ˈðoʊ/ (also /ˌhwʌt ˈðoʊ/)",
       "respell": "wut THOH",
-      "type": "subordinating — a rhetorical question standing in for a concessive clause",
-      "register": "archaic and poetic — Shakespeare, Milton, the hymnal, and nineteenth-century verse; dead in modern prose",
-      "clause": "interrogative in form, concessive in force — \"what does it matter that …\"",
-      "pattern": "What though [clause]? [main clause]. · What though [clause], [main clause]. · What though [noun phrase]? [main clause].",
-      "punctuation": "A question mark after the what though clause when it is put as a question, a comma when it runs straight into the main clause. Both are standard in older text, and modern editions differ on which to print.",
-      "variants": [
-        "though, even though (the modern forms)",
-        "what if (the surviving relative — it asks rather than concedes)",
-        "what matter though"
-      ],
       "meaning": "A rhetorical question doing a concessive clause's work: what though the field be lost? means \"granted the field is lost — it changes nothing.\" The subjunctive verb (be, were) is part of the formula. Milton gave it its most famous outing and the hymn writers kept it alive through the nineteenth century; an American now meets it in poetry and in older hymns, nowhere else.",
       "examples": [
         "\"What though the field be lost? / All is not lost.\" (Milton, Paradise Lost, I)",
@@ -2121,13 +1662,15 @@
         "What though he had neither name nor fortune, the girl would have him.",
         "\"What though our lot be hard, we are not therefore without hope.\""
       ],
-      "related": [
-        "though",
-        "even though",
-        "be it ever so",
-        "natheless",
-        "howbeit"
-      ]
+      "senses": [],
+      "русский": "устар., поэт. что с того, что; пусть даже — риторический вопрос вместо уступки",
+      "register": "archaic and poetic — Shakespeare, Milton, the hymnal, and nineteenth-century verse; dead in modern prose",
+      "type": "subordinating — a rhetorical question standing in for a concessive clause",
+      "clause type": "interrogative in form, concessive in force — \"what does it matter that …\"",
+      "pattern": "What though [clause]? [main clause]. · What though [clause], [main clause]. · What though [noun phrase]? [main clause].",
+      "punctuation": "A question mark after the what though clause when it is put as a question, a comma when it runs straight into the main clause. Both are standard in older text, and modern editions differ on which to print.",
+      "variants": "though, even though (the modern forms), what if (the surviving relative — it asks rather than concedes), what matter though",
+      "see also": "though, even though, be it ever so, natheless, howbeit"
     }
   ]
 }

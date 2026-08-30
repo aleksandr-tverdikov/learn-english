@@ -27,6 +27,7 @@ Nothing on that scale is a hedge you can drop. Swapping *said* for *claimed* in 
 ### affirm
 
 **Pronunciation:** /əˈfɜrm/ &middot; *uh-FURM*
+**Русский:** утверждать, подтверждать — официально повторять свою позицию; юр. заявлять без присяги
 **Type:** reporting verb — statement, formally and deliberately restated &middot; **Register:** formal
 **Patterns:** *affirm* + **that**-clause &middot; *affirm* + noun phrase &middot; *affirm* + **to** sb + **that**-clause &middot; *affirm* (intransitive, in court: *he affirmed rather than swore*)
 **Never:** ***affirm someone that*** and ***affirm to do something***. There is no personal object and no infinitive complement: ✗ *He affirmed us that the funding was secure*, ✗ *She affirmed to support the measure*. The addressee, if you need one, takes *to*. Repairs: *affirmed that the funding was secure*, *affirmed to the committee that the funding was secure*, *affirmed her support for the measure*, or — if the point is settling someone's doubt rather than stating for the record — *assured us that the funding was secure*.
@@ -50,6 +51,7 @@ Nothing on that scale is a hedge you can drop. Swapping *said* for *claimed* in 
 ### allege
 
 **Pronunciation:** /əˈlɛdʒ/ &middot; *uh-LEJ*
+**Русский:** утверждать без доказательств — юр./газетн. обвинять, не ручаясь за правдивость
 **Type:** reporting verb — accusation asserted but unproven &middot; **Register:** formal; journalistic and legal
 **Patterns:** *allege* + **that**-clause &middot; *allege* + noun phrase &middot; *be alleged* + **to-infinitive** (passive) &middot; *allege* + sb + **to be** (rare, legal)
 **Never:** ***allege to do something*** in the active voice — ✗ *He alleged to have seen the car*. The infinitive frame exists only in the passive: ✓ *He is alleged to have seen the car*. Also ✗ *allege someone something* and ✗ *allege sb that*: ✗ *She alleged the police that he had lied* → ✓ *She alleged that he had lied*.
@@ -72,6 +74,7 @@ Nothing on that scale is a hedge you can drop. Swapping *said* for *claimed* in 
 ### announce
 
 **Pronunciation:** /əˈnaʊns/ &middot; *uh-NOWNSS*
+**Русский:** объявлять, сообщать — публично оглашать новость, обычно впервые
 **Type:** reporting verb — public statement of news &middot; **Register:** neutral
 **Patterns:** *announce* + **that**-clause &middot; *announce* + noun phrase &middot; *announce* + **wh**-clause &middot; *announce* + **to** sb + **that**-clause &middot; *announce* + noun phrase + **to** sb
 **Never:** ***announce someone something*** and ***announce someone that***. *Announce* is not ditransitive; the addressee needs *to*: ✗ *She announced us the results* → ✓ *She announced the results to us* / *announced to us that the results were in*. Also ✗ *announce to do*.
@@ -94,6 +97,7 @@ Nothing on that scale is a hedge you can drop. Swapping *said* for *claimed* in 
 ### argue
 
 **Pronunciation:** /ˈɑrɡju/ &middot; *AR-gyoo*
+**Русский:** доказывать, утверждать с доводами — отстаивать позицию, приводя основания
 **Type:** reporting verb — a claim advanced with reasons &middot; **Register:** neutral to formal
 **Patterns:** *argue* + **that**-clause &middot; *argue* + **for/against** + noun phrase / **-ing** &middot; *argue* + noun phrase (*argue a case, argue a point*) &middot; *argue* + sb + **into/out of** + **-ing** &middot; *argue* + **about/over** + noun phrase / **wh**-clause (quarrel sense) &middot; *argue* + **with** sb (+ **about** sth)
 **Never:** ***argue someone that*** and ***argue to do something*** — ✗ *He argued me that the plan was risky*, ✗ *She argued to raise the fee*. Repairs: *argued that the plan was risky*, *argued for raising the fee*. And note that the persuasion frame requires a preposition: ✗ *He argued me to stay* → ✓ *He argued me into staying*.
@@ -116,6 +120,7 @@ Nothing on that scale is a hedge you can drop. Swapping *said* for *claimed* in 
 ### assert
 
 **Pronunciation:** /əˈsɜrt/ &middot; *uh-SURT*
+**Русский:** заявлять, утверждать — категорично и уверенно, обычно без доказательств
 **Type:** reporting verb — statement made forcefully and without hedging &middot; **Register:** formal
 **Patterns:** *assert* + **that**-clause &middot; *assert* + noun phrase (*assert a right, assert control*) &middot; *assert* + **oneself**
 **Never:** ***assert someone that***, ***assert someone something***, ***assert to do something***, and ***assert someone to do something***. ✗ *He asserted the committee that the figures were sound*, ✗ *She asserted to know the answer*, ✗ *They asserted him to have signed the form*. Repairs: *asserted that the figures were sound*, *claimed to know the answer*, *asserted that he had signed the form*.
@@ -138,6 +143,7 @@ Nothing on that scale is a hedge you can drop. Swapping *said* for *claimed* in 
 ### assure
 
 **Pronunciation:** /əˈʃʊr/ &middot; *uh-SHOOR*
+**Русский:** заверять, уверять кого-л. — обязательно с адресатом: заверяют всегда кого-то
 **Type:** reporting verb — statement made to remove someone's doubt &middot; **Register:** neutral
 **Patterns:** *assure* + sb + **that**-clause &middot; *assure* + sb + **of** + noun phrase &middot; *assure* + sb (alone)
 **Never:** ***assure that*** with no object. This is the single commonest error with the verb: ✗ *He assured that the parts would arrive Friday.* *Assure* is **obligatorily ditransitive** — somebody has to be reassured. Repairs: *assured us that the parts would arrive*, or drop the verb for a neutral one: *said that the parts would arrive*. Also ✗ *assure to sb that*, ✗ *assure sb to do* (that is *promise* or *urge*).
@@ -166,6 +172,7 @@ Nothing on that scale is a hedge you can drop. Swapping *said* for *claimed* in 
 ### attest
 
 **Pronunciation:** /əˈtɛst/ &middot; *uh-TEST*
+**Русский:** свидетельствовать, удостоверять — подтверждать по личному знанию; юр. заверять
 **Type:** reporting verb — formal statement from firsthand knowledge &middot; **Register:** formal; legal and ceremonial
 **Patterns:** *attest* + **that**-clause &middot; *attest* + **to** + noun phrase / **-ing** / **wh**-clause &middot; *attest* + noun phrase (*attest a signature, attest a will*)
 **Never:** ***attest to*** + a **that**-clause. The preposition takes a noun phrase, an *-ing* form, or a *wh*-clause — but never a bare *that*-clause: ✗ *She attested to that the copy was genuine.* Repairs: *attested that the copy was genuine*, or *attested to the authenticity of the copy*, or the idiom *attested to the fact that the copy was genuine*. Also ✗ *attest someone that* and ✗ *attest to do*.
@@ -188,6 +195,7 @@ Nothing on that scale is a hedge you can drop. Swapping *said* for *claimed* in 
 ### aver
 
 **Pronunciation:** /əˈvɜr/ &middot; *uh-VUR*
+**Русский:** книжн./юр. утверждать, заявлять — в обычной речи звучит устарело и вычурно
 **Type:** reporting verb — statement made positively and on the record &middot; **Register:** formal; legal, literary, rare in speech
 **Patterns:** *aver* + **that**-clause &middot; *aver* + noun phrase (legal: *aver facts in a pleading*)
 **Never:** ***aver someone that*** and ***aver to do something*** — ✗ *He averred the court that he had paid*, ✗ *She averred to have paid*. Repairs: *averred that he had paid*, *claimed to have paid*.
@@ -210,6 +218,7 @@ Nothing on that scale is a hedge you can drop. Swapping *said* for *claimed* in 
 ### avow
 
 **Pronunciation:** /əˈvaʊ/ &middot; *uh-VOW*
+**Русский:** книжн. открыто признавать — заявлять о взглядах или верности, которые можно было бы скрыть
 **Type:** reporting verb — open admission of a belief or allegiance &middot; **Register:** formal, literary
 **Patterns:** *avow* + **that**-clause &middot; *avow* + noun phrase &middot; *avow* + **oneself** + noun phrase / adjective (*avowed himself satisfied*)
 **Never:** ***avow someone that*** and ***avow to do something*** — ✗ *He avowed us that he had voted for it*, ✗ *She avowed to resign*. Repairs: *avowed that he had voted for it*, *vowed to resign* (a different verb, and a different act).
@@ -232,6 +241,7 @@ Nothing on that scale is a hedge you can drop. Swapping *said* for *claimed* in 
 ### claim
 
 **Pronunciation:** /kleɪm/ &middot; *KLAYM*
+**Русский:** утверждать, заявлять — маркер сомнения: автор за сказанное не ручается («якобы»)
 **Type:** reporting verb — statement the writer does not endorse &middot; **Register:** neutral
 **Patterns:** *claim* + **that**-clause &middot; *claim* + **to-infinitive** (same subject) &middot; *claim* + noun phrase &middot; *claim* + sb/sth + **to be** (formal, rare)
 **Never:** ***claim someone to do something*** and ***claim someone that***. ✗ *He claimed me to be lying*, ✗ *She claimed us that the package had shipped*. *Claim* takes no indirect object and no object-controlled infinitive. Repairs: *claimed that I was lying*, *told us that the package had shipped*.
@@ -262,6 +272,7 @@ Nothing on that scale is a hedge you can drop. Swapping *said* for *claimed* in 
 ### confirm
 
 **Pronunciation:** /kənˈfɜrm/ &middot; *kun-FURM*
+**Русский:** подтверждать — сообщать, что предполагавшееся верно; автор с этим согласен
 **Type:** reporting verb — statement verifying something already in question &middot; **Register:** neutral
 **Patterns:** *confirm* + **that**-clause &middot; *confirm* + noun phrase &middot; *confirm* + **wh**-clause &middot; *confirm* + **to** sb + **that**-clause &middot; *be confirmed* + **to-infinitive** (passive)
 **Never:** ***confirm someone that*** — ✗ *She confirmed me that the meeting was on.* The addressee needs *to*: ✓ *She confirmed to me that the meeting was on*, or simply *She confirmed that the meeting was on*. Also ✗ *confirm to do*.
@@ -284,6 +295,7 @@ Nothing on that scale is a hedge you can drop. Swapping *said* for *claimed* in 
 ### contend
 
 **Pronunciation:** /kənˈtɛnd/ &middot; *kun-TEND*
+**Русский:** утверждать, доказывать — отстаивать позицию в споре, где есть другая сторона
 **Type:** reporting verb — a claim advanced inside a dispute &middot; **Register:** formal
 **Patterns:** *contend* + **that**-clause &middot; *contend* + **with** + noun phrase (a different sense: cope with) &middot; *contend* + **for** + noun phrase (a different sense: compete for)
 **Never:** ***contend someone that***, ***contend to do something***, and — in the reporting sense — ***contend + noun phrase***. ✗ *He contended his innocence* → ✓ *He contended that he was innocent* or *asserted his innocence*. ✗ *The union contended the company to be at fault* → ✓ *contended that the company was at fault*.
@@ -306,6 +318,7 @@ Nothing on that scale is a hedge you can drop. Swapping *said* for *claimed* in 
 ### declare
 
 **Pronunciation:** /dɪˈklɛr/ &middot; *dih-KLAIR*
+**Русский:** объявлять, провозглашать — официально и авторитетно, нередко перформативно
 **Type:** reporting verb — formal public statement made with authority &middot; **Register:** formal
 **Patterns:** *declare* + **that**-clause &middot; *declare* + noun phrase &middot; *declare* + sb/sth + (**to be**) + complement (*declared the election invalid*) &middot; *declare* + **oneself** + adjective / noun phrase (*declared herself satisfied*, *declared himself a candidate*) &middot; *declare* + **to** sb + **that**-clause &middot; *declare* + **for/against** + noun phrase
 **Never:** ***declare someone that*** and ***declare someone something*** — ✗ *He declared us that the meeting was over*, ✗ *She declared me the results*. Repairs: *declared to us that the meeting was over*, *announced the results to me*. Also ✗ *declare to do*.
@@ -328,6 +341,7 @@ Nothing on that scale is a hedge you can drop. Swapping *said* for *claimed* in 
 ### emphasize
 
 **Pronunciation:** /ˈɛmfəsaɪz/ &middot; *EM-fuh-syze*
+**Русский:** подчёркивать, особо отмечать — придавать уже сказанному дополнительный вес
 **Type:** reporting verb — statement given extra weight &middot; **Register:** neutral
 **Patterns:** *emphasize* + **that**-clause &middot; *emphasize* + noun phrase &middot; *emphasize* + **wh**-clause &middot; *emphasize* + **to** sb + **that**-clause
 **Never:** ***emphasize on*** — the commonest error with this verb, imported from the noun. The **noun** takes *on* (*put emphasis on the deadline*); the **verb** takes a plain direct object: ✗ *He emphasized on the deadline* → ✓ *He emphasized the deadline*. Also ✗ *emphasize someone that* (✗ *She emphasized me that it was urgent* → ✓ *emphasized to me that it was urgent*) and ✗ *emphasize to do*.
@@ -351,6 +365,7 @@ Nothing on that scale is a hedge you can drop. Swapping *said* for *claimed* in 
 ### hold
 
 **Pronunciation:** /hoʊld/ &middot; *HOHLD* — irregular: *hold, held, held*
+**Русский:** держаться мнения, считать; юр. постановлять — суд формулирует правовую позицию
 **Type:** reporting verb — a settled belief, or a court's binding ruling &middot; **Register:** formal
 **Patterns:** *hold* + **that**-clause &middot; *hold* + sb/sth + (**to be**) + complement (*held the clause to be void*) &middot; *hold* + noun phrase (*hold the view, hold an opinion*) &middot; *it is held* + **that**-clause (passive, very common)
 **Never:** ***hold someone that*** and ***hold to do something*** — ✗ *He held the jury that the statute applied*, ✗ *The court held to reverse the judgment*. Repairs: *held that the statute applied*, *voted to reverse the judgment*.
@@ -373,6 +388,7 @@ Nothing on that scale is a hedge you can drop. Swapping *said* for *claimed* in 
 ### insist
 
 **Pronunciation:** /ɪnˈsɪst/ &middot; *in-SIST*
+**Русский:** настаивать — упорно утверждать вопреки возражениям; либо требовать, не принимая отказа
 **Type:** reporting verb — **two** acts under one word: a statement held against resistance, and a demand &middot; **Register:** neutral
 **Patterns:** *insist* + **that**-clause (indicative = claim; bare subjunctive = demand) &middot; *insist* + **on/upon** + noun phrase &middot; *insist* + **on/upon** + **-ing** &middot; *insist* + **on/upon** + sb + **-ing** &middot; *insist* (intransitive)
 **Never:** ***insist someone to do something*** — ✗ *She insisted me to stay*. This is the classic error, and *insist* blocks every part of it: no personal object, no infinitive, no object-controlled complement. Also ✗ *insist to do*, ✗ *insist sb that*, and ✗ *insist doing* — the *-ing* form is never bare, it always needs *on*: ✗ *She insisted paying* → ✓ *She insisted on paying*. Repairs: *insisted that I stay*, *insisted on my staying*, *insisted on me staying* (both possessive and object forms are current; the possessive is the more formal).
@@ -410,6 +426,7 @@ Two consequences worth memorizing. **The negative is a bare *not* in front of th
 ### maintain
 
 **Pronunciation:** /meɪnˈteɪn/ &middot; *mayn-TAYN*
+**Русский:** продолжать утверждать, стоять на своём — вопреки уже высказанным возражениям
 **Type:** reporting verb — statement held to under pressure &middot; **Register:** neutral to formal
 **Patterns:** *maintain* + **that**-clause &middot; *maintain* + noun phrase (*maintain one's innocence, maintain a position*)
 **Never:** ***maintain someone that*** and ***maintain to do something*** — ✗ *He maintained the police that he was home*, ✗ *She maintained to be innocent*. Repairs: *maintained that he was home*, *maintained her innocence* / *claimed to be innocent*.
@@ -432,6 +449,7 @@ Two consequences worth memorizing. **The negative is a bare *not* in front of th
 ### pledge
 
 **Pronunciation:** /plɛdʒ/ &middot; *PLEJ*
+**Русский:** обязываться, торжественно обещать — публично и официально, чаще об организациях
 **Type:** reporting verb — formal public commitment &middot; **Register:** formal; journalistic
 **Patterns:** *pledge* + **to-infinitive** &middot; *pledge* + **that**-clause &middot; *pledge* + noun phrase &middot; *pledge* + sb + noun phrase (*pledged them his support*) &middot; *pledge* + **to** sb + **that**-clause &middot; *pledge* + **oneself** + **to** + noun phrase / **-ing**
 **Never:** ***pledge someone to do something*** in the sense "promise them that you will" — ✗ *He pledged us to fix the road.* That frame exists but means the opposite: *pledge sb to sth* **binds the other person** (*she pledged them to secrecy*). Nor is there a ditransitive *that*-clause: ✗ *He pledged us that he would fix the road* — the addressee needs *to*. Repairs: *pledged to fix the road*, *pledged to us that he would fix the road*, or *promised us that he would fix the road*. The only noun the addressee can carry directly is a thing pledged, not a clause: ✓ *pledged them his support*.
@@ -454,6 +472,7 @@ Two consequences worth memorizing. **The negative is a bare *not* in front of th
 ### posit
 
 **Pronunciation:** /ˈpɑzɪt/ &middot; *PAH-zit*
+**Русский:** науч. допускать, класть в основу — выдвигать посылку, не утверждая её истинности
 **Type:** reporting verb — a claim put forward as a starting assumption &middot; **Register:** formal, academic
 **Patterns:** *posit* + **that**-clause &middot; *posit* + noun phrase
 **Never:** ***posit someone that***, ***posit to do something***, and ***posit about***. ✗ *She posited us that the effect was real*, ✗ *He posited about a third mechanism*. Repairs: *posited that the effect was real*, *posited a third mechanism*.
@@ -476,6 +495,7 @@ Two consequences worth memorizing. **The negative is a bare *not* in front of th
 ### postulate
 
 **Pronunciation:** /ˈpɑstʃəleɪt/ &middot; *PAHSS-chuh-layt* — the noun shifts to /ˈpɑstʃələt/, *PAHSS-chuh-lit*
+**Русский:** постулировать — принимать без доказательств как основу дальнейших рассуждений
 **Type:** reporting verb — a claim asserted without proof, as a basis for reasoning &middot; **Register:** formal, academic and scientific
 **Patterns:** *postulate* + **that**-clause &middot; *postulate* + noun phrase
 **Never:** ***postulate someone that*** and ***postulate to do something*** — ✗ *He postulated us that the gene was duplicated*, ✗ *She postulated to explain the gap*. Repairs: *postulated that the gene had been duplicated*, *postulated a mechanism to explain the gap*.
@@ -498,6 +518,7 @@ Two consequences worth memorizing. **The negative is a bare *not* in front of th
 ### proclaim
 
 **Pronunciation:** /proʊˈkleɪm/ &middot; *proh-KLAYM*
+**Русский:** провозглашать — громко и торжественно; в современной прозе часто с иронией
 **Type:** reporting verb — loud, public, ceremonial declaration &middot; **Register:** formal, literary
 **Patterns:** *proclaim* + **that**-clause &middot; *proclaim* + noun phrase &middot; *proclaim* + sb/sth + (**to be**) + complement (*proclaimed himself president*) &middot; *proclaim* + **to** sb + **that**-clause
 **Never:** ***proclaim someone that*** — ✗ *He proclaimed us that the war was over.* Repairs: *proclaimed to us that the war was over*, or *announced that the war was over*. Also ✗ *proclaim to do*.
@@ -520,6 +541,7 @@ Two consequences worth memorizing. **The negative is a bare *not* in front of th
 ### profess
 
 **Pronunciation:** /prəˈfɛs/ &middot; *pruh-FESS*
+**Русский:** книжн. заявлять о своих взглядах, чувствах, умениях — часто с недоверием автора
 **Type:** reporting verb — an open claim about one's own beliefs, feelings, or abilities &middot; **Register:** formal
 **Patterns:** *profess* + **to-infinitive** (same subject; especially *profess to be*) &middot; *profess* + **that**-clause &middot; *profess* + noun phrase (*professed his innocence*) &middot; *profess* + **oneself** + adjective / noun phrase (*professed himself satisfied*, *professed herself a convert*)
 **Never:** ***profess someone to do something*** and ***profess someone that*** — ✗ *He professed her to be innocent*, ✗ *She professed us that she knew nothing*. The infinitive is same-subject only. Repairs: *professed that she was innocent*, *professed to know nothing*.
@@ -542,6 +564,7 @@ Two consequences worth memorizing. **The negative is a bare *not* in front of th
 ### pronounce
 
 **Pronunciation:** /prəˈnaʊns/ &middot; *pruh-NOWNSS*
+**Русский:** выносить вердикт, официально объявлять — решение действует в силу статуса говорящего
 **Type:** reporting verb — an authoritative verdict &middot; **Register:** formal
 **Patterns:** *pronounce* + sb/sth + complement (*pronounced the patient dead*) &middot; *pronounce* + **that**-clause &middot; *pronounce* + **on/upon** + noun phrase &middot; *pronounce* + noun phrase (*pronounce sentence, pronounce judgment*)
 **Never:** ***pronounce someone that*** and ***pronounce to do something*** — ✗ *The judge pronounced the jury that the trial was over*, ✗ *He pronounced to be satisfied*. Repairs: *told the jury that the trial was over*, *pronounced himself satisfied*.
@@ -564,6 +587,7 @@ Two consequences worth memorizing. **The negative is a bare *not* in front of th
 ### protest
 
 **Pronunciation:** /prəˈtɛst/ &middot; *pruh-TEST* — the noun shifts the stress: /ˈproʊtɛst/, *PROH-test*
+**Русский:** возражать, протестовать — с негодованием отвергать обвинение, и обычно неубедительно
 **Type:** reporting verb — an indignant assertion made against an accusation &middot; **Register:** neutral
 **Patterns:** *protest* + **that**-clause &middot; *protest* + noun phrase (*protest one's innocence*; American also *protest the ruling*) &middot; *protest* + **to** sb + **that**-clause &middot; *protest* + **against/at** + noun phrase
 **Never:** ***protest someone that***, ***protest to do something***, and ***protest someone something*** — ✗ *He protested the guard that he had a pass*, ✗ *She protested to be innocent*. Repairs: *protested to the guard that he had a pass*, *protested that she was innocent*.
@@ -587,6 +611,7 @@ Two consequences worth memorizing. **The negative is a bare *not* in front of th
 ### purport
 
 **Pronunciation:** /pərˈpɔrt/ &middot; *pur-PORT* — the noun shifts the stress: /ˈpɜrpɔrt/, *PUR-port*
+**Русский:** якобы являться, выдавать себя за — резкий маркер сомнения, особенно о документах
 **Type:** reporting verb — a claim the writer strongly doubts &middot; **Register:** formal
 **Patterns:** *purport* + **to-infinitive** (the main and almost the only frame) &middot; *purport* + **that**-clause (rare, formal)
 **Never:** ***purport someone to do something***, ***purport + -ing***, and ***purport + noun phrase***. ✗ *The memo purports the deal to be closed*, ✗ *purporting showing the transfer*, ✗ *He purported a degree in physics*. Repairs: *purports to show that the deal is closed*, *purporting to show the transfer*, *claimed a degree in physics*.
@@ -609,6 +634,7 @@ Two consequences worth memorizing. **The negative is a bare *not* in front of th
 ### reaffirm
 
 **Pronunciation:** /ˌriəˈfɜrm/ &middot; *ree-uh-FURM*
+**Русский:** вновь подтверждать — официально повторять уже заявленную позицию
 **Type:** reporting verb — a commitment restated on the record &middot; **Register:** formal
 **Patterns:** *reaffirm* + **that**-clause &middot; *reaffirm* + noun phrase &middot; *reaffirm* + **to** sb + **that**-clause
 **Never:** ***reaffirm someone that*** and ***reaffirm to do something*** — ✗ *He reaffirmed the allies that the guarantee held*, ✗ *She reaffirmed to support the treaty*. Repairs: *reaffirmed to the allies that the guarantee held*, *reaffirmed her support for the treaty*.
@@ -631,6 +657,7 @@ Two consequences worth memorizing. **The negative is a bare *not* in front of th
 ### reiterate
 
 **Pronunciation:** /riˈɪtəreɪt/ &middot; *ree-IT-uh-rayt*
+**Русский:** повторять, вновь заявлять — с оттенком досады: с первого раза не услышали
 **Type:** reporting verb — a statement repeated, usually because it was ignored &middot; **Register:** formal
 **Patterns:** *reiterate* + **that**-clause &middot; *reiterate* + noun phrase &middot; *reiterate* + **to** sb + **that**-clause
 **Never:** ***reiterate someone that*** and ***reiterate to do something*** — ✗ *He reiterated us that the deadline was Friday*, ✗ *She reiterated to check the figures*. Repairs: *reiterated to us that the deadline was Friday*, *repeated her instruction to check the figures*.
@@ -654,6 +681,7 @@ Two consequences worth memorizing. **The negative is a bare *not* in front of th
 ### stipulate
 
 **Pronunciation:** /ˈstɪpjəleɪt/ &middot; *STIP-yuh-layt*
+**Русский:** оговаривать, ставить условием; юр. признавать факт, не требуя его доказывания
 **Type:** reporting verb — a condition laid down, or a fact agreed to &middot; **Register:** formal, legal and contractual
 **Patterns:** *stipulate* + **that**-clause (subjunctive in the requirement sense, indicative in the agreement sense) &middot; *stipulate* + noun phrase &middot; *stipulate* + **to** + noun phrase (American legal: agree a fact need not be proved — *stipulated to the chain of custody*) &middot; *stipulate* + **for** + noun phrase (rare, formal)
 **Never:** ***stipulate someone to do something*** and ***stipulate someone that*** — ✗ *The contract stipulated us to pay in advance*, ✗ *She stipulated the buyer that the roof was excluded*. Repairs: *stipulated that we pay in advance*, *stipulated that the roof was excluded*.
@@ -677,6 +705,7 @@ Two consequences worth memorizing. **The negative is a bare *not* in front of th
 ### stress
 
 **Pronunciation:** /strɛs/ &middot; *STRESS*
+**Русский:** подчёркивать, акцентировать — то же, что emphasize, но короче; норма в новостях
 **Type:** reporting verb — statement given extra weight &middot; **Register:** neutral; very common in news writing
 **Patterns:** *stress* + **that**-clause &middot; *stress* + noun phrase &middot; *stress* + **wh**-clause &middot; *stress* + **to** sb + **that**-clause
 **Never:** ***stress someone that*** and ***stress to do something*** — ✗ *She stressed me that the deadline was firm*, ✗ *He stressed to check the totals*. Repairs: *stressed to me that the deadline was firm*, *stressed the importance of checking the totals*. Note that ✗ *stress on* is wrong for the same reason ✗ *emphasize on* is: the verb takes a plain object, the noun takes *on* (*lay stress on the deadline*).
@@ -699,6 +728,7 @@ Two consequences worth memorizing. **The negative is a bare *not* in front of th
 ### submit
 
 **Pronunciation:** /səbˈmɪt/ &middot; *sub-MIT*
+**Русский:** книжн./юр. осмелюсь утверждать — почтительно выдвигать тезис перед вышестоящей инстанцией
 **Type:** reporting verb — a proposition advanced deferentially &middot; **Register:** formal; legal and academic
 **Patterns:** *submit* + **that**-clause &middot; *submit* + **to** sb + **that**-clause (*submitted to the court that…*) &middot; *submit* + noun phrase (*submit a proposal, submit an explanation* — put forward for consideration; also the everyday sense, hand in) &middot; *submit* + **to** + noun phrase (a different sense: yield to)
 **Never:** ***submit someone that*** and ***submit to do something*** in the assertion sense — ✗ *Counsel submitted the court that the statute applied*, ✗ *He submitted to reverse the ruling*. Repairs: *submitted to the court that the statute applied*, or simply *submitted that the statute applied*.
@@ -721,6 +751,7 @@ Two consequences worth memorizing. **The negative is a bare *not* in front of th
 ### swear
 
 **Pronunciation:** /swɛr/ &middot; *SWAIR* — irregular: *swear, swore, sworn*
+**Русский:** клясться, показывать под присягой — или разг. божиться: клянусь, я этого не делал
 **Type:** reporting verb — a statement or promise made under oath, or with maximum personal warranty &middot; **Register:** neutral to formal
 **Patterns:** *swear* + **that**-clause &middot; *swear* + **to-infinitive** &middot; *swear* + **to** sb + **that**-clause &middot; *swear* + sb + **to** + noun phrase (*swore us to secrecy*) &middot; *swear* + sb + **in** (install by oath) &middot; *swear* + **to** + noun phrase (*swear to it*) &middot; *swear* + **on** + noun phrase &middot; *swear* + **at** sb (a different sense: curse)
 **Never:** ***swear someone that*** — ✗ *He swore me that he'd been home*. The addressee needs *to*: ✓ *He swore to me that he'd been home*. Also ✗ *swear someone to do something* meaning "promise them" — *swear sb to* binds the other person, as in *sworn to secrecy*.
@@ -743,6 +774,7 @@ Two consequences worth memorizing. **The negative is a bare *not* in front of th
 ### testify
 
 **Pronunciation:** /ˈtɛstəfaɪ/ &middot; *TESS-tuh-fye*
+**Русский:** давать показания под присягой — свидетельствовать в суде; сам глагол нейтрален
 **Type:** reporting verb — sworn statement given in a proceeding &middot; **Register:** formal, legal
 **Patterns:** *testify* + **that**-clause &middot; *testify* + **to** + noun phrase / **-ing** &middot; *testify* + **about/against/for** + noun phrase &middot; *testify* + **before** + noun phrase (*testified before the committee*)
 **Never:** ***testify someone that***, ***testify to do something***, and ***testify to*** + a **that**-clause. ✗ *She testified the jury that the door was open*, ✗ *He testified to be present*, ✗ *He testified to that the door was open*. Repairs: *testified that the door was open*, *testified to the door's being open*, *testified that he had been present*.
@@ -765,6 +797,7 @@ Two consequences worth memorizing. **The negative is a bare *not* in front of th
 ### underline
 
 **Pronunciation:** /ˌʌndərˈlaɪn/ &middot; *un-der-LYNE* — the noun keeps the stress on the first syllable: /ˈʌndərlaɪn/, *UN-der-lyne*
+**Русский:** подчёркивать — брит. вариант underscore; в амер. чаще о буквальном подчёркивании
 **Type:** reporting verb — statement given extra weight &middot; **Register:** neutral, but British-leaning; American writing prefers *underscore*
 **Patterns:** *underline* + **that**-clause &middot; *underline* + noun phrase &middot; *underline* + **wh**-clause &middot; *underline* + **to** sb + **that**-clause
 **Never:** ***underline someone that*** and ***underline to do something*** — ✗ *He underlined us that the funding was temporary*, ✗ *She underlined to check the totals*. Repairs: *underlined to us that the funding was temporary*, *underlined the need to check the totals*.
@@ -787,6 +820,7 @@ Two consequences worth memorizing. **The negative is a bare *not* in front of th
 ### underscore
 
 **Pronunciation:** /ˌʌndərˈskɔr/ &middot; *un-der-SKOR* — the noun keeps the stress on the first syllable: /ˈʌndərskɔr/, *UN-der-skor*
+**Русский:** подчёркивать, акцентировать — амер. норма в переносном смысле, часто с неодуш. подлежащим
 **Type:** reporting verb — statement given extra weight &middot; **Register:** neutral, journalistic; the standard American choice
 **Patterns:** *underscore* + **that**-clause &middot; *underscore* + noun phrase &middot; *underscore* + **wh**-clause &middot; *underscore* + **to** sb + **that**-clause
 **Never:** ***underscore someone that*** and ***underscore to do something*** — ✗ *She underscored the committee that time was short*, ✗ *He underscored to move quickly*. Repairs: *underscored to the committee that time was short*, *underscored the need to move quickly*.
@@ -809,6 +843,7 @@ Two consequences worth memorizing. **The negative is a bare *not* in front of th
 ### vow
 
 **Pronunciation:** /vaʊ/ &middot; *VOW*
+**Русский:** клятвенно обещать, зарекаться — личное торжественное обещание; ср. avow «признавать»
 **Type:** reporting verb — a solemn personal promise &middot; **Register:** formal; a journalistic favorite
 **Patterns:** *vow* + **to-infinitive** &middot; *vow* + **that**-clause &middot; *vow* + **to** sb + **that**-clause &middot; *vow* + noun phrase (*vowed revenge*)
 **Never:** ***vow someone to do something*** and ***vow someone that*** — ✗ *He vowed us to return*, ✗ *She vowed me that she'd appeal*. There is no indirect object: repairs are *vowed to return*, *vowed to me that she would appeal*, or *promised me she would appeal*.

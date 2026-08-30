@@ -13,6 +13,7 @@ These are the words Americans use to buy time, hold the floor, and steer a conve
 ### ah
 
 **Pronunciation:** /ɑ/ &middot; *AH*
+**Русский:** а-а… / э-э… — протяжный звук раздумья, пока подбираешь слово
 **Type:** primary &middot; **Register:** neutral (speech only)
 **Variants:** *ahh*, *ahhh*
 
@@ -30,6 +31,7 @@ A drawn-out open vowel used to stall for a beat while you retrieve a word or sof
 ### er
 
 **Pronunciation:** /ɝ/ (British /ɜː/, with no r-sound in it) &middot; *UR*
+**Русский:** э-э — британское написание звука колебания; американцы говорят и пишут uh
 **Type:** primary &middot; **Register:** regional (chiefly British; in American use mostly a written spelling)
 **Variants:** *err*, *uhr*
 
@@ -47,6 +49,7 @@ The British spelling of the basic hesitation sound, written *er* because non-rho
 ### erm
 
 **Pronunciation:** /ɝm/ (British /ɜːm/, with no r-sound in it) &middot; *URM*
+**Русский:** э-м — брит. аналог американского um
 **Type:** primary &middot; **Register:** regional (British)
 **Variants:** *ermm*
 
@@ -63,6 +66,7 @@ The British counterpart of American *um* — the same hesitation hum, spelled to
 ### hmm
 
 **Pronunciation:** /hm̩/ &middot; *HMM — a hummed m with the lips closed, no vowel in it*
+**Русский:** хм / хмм — гудение с закрытым ртом: раздумье, сомнение; чем длиннее, тем серьёзнее
 **Type:** primary &middot; **Register:** neutral
 **Variants:** *hm*, *hmmm*, *hmmmm*
 
@@ -80,6 +84,7 @@ A closed-lip hum meaning that you are thinking, weighing, or not quite convinced
 ### mm
 
 **Pronunciation:** /m̩/ &middot; *MM — a hum on a closed m, no vowel*
+**Русский:** м-м — ровное мычание, заполняющее паузу; не звук удовольствия и не согласие мм-хмм
 **Type:** primary &middot; **Register:** informal
 **Variants:** *mmm*
 
@@ -96,6 +101,7 @@ A short level hum that fills a pause or signals lukewarm thinking. Note that thi
 ### uh
 
 **Pronunciation:** /ə/ (also /ʌ/) &middot; *UH*
+**Русский:** э-э — основной американский звук колебания; только в устной речи
 **Type:** primary &middot; **Register:** neutral (speech only)
 **Variants:** *uhh*, *uhhh*, *er (British spelling)*
 
@@ -113,6 +119,7 @@ The default American hesitation sound — a short neutral vowel that holds the f
 ### um
 
 **Pronunciation:** /əm/ (also /ʌm/) &middot; *UM*
+**Русский:** э-м / м-м — второй основной филлер, часто с оттенком неловкости
 **Type:** primary &middot; **Register:** neutral (speech only)
 **Variants:** *umm*, *ummm*, *erm (British spelling)*
 
@@ -134,6 +141,7 @@ The other core American filler: a hum that ends with the lips closing, used like
 ### as I was saying
 
 **Pronunciation:** /æz ˌaɪ wəz ˈseɪɪŋ/ &middot; *az eye wuz SAY-ing*
+**Русский:** как я уже говорил — возврат к прерванной мысли; может звучать как упрёк перебившему
 **Type:** phrase &middot; **Register:** neutral (can sound pointed after an interruption)
 **Variants:** *like I was saying*, *as I said*, *anyway, as I was saying*
 
@@ -150,6 +158,7 @@ Takes the floor back after an interruption and signals that you are picking up t
 ### bear with me
 
 **Pronunciation:** /ˈbɛr wɪð mi/ &middot; *BAIR with mee*
+**Русский:** потерпите немного / подождите чуть-чуть — просьба дать время разобраться
 **Type:** phrase &middot; **Register:** neutral
 **Variants:** *bear with me a second*, *bear with me here*
 
@@ -166,6 +175,7 @@ A request for the listener's patience while you find a file, work something out,
 ### hang on
 
 **Pronunciation:** /ˈhæŋ ɑn/ &middot; *HANG-on*
+**Русский:** погоди / секунду — разг. «стой и подожди»
 **Type:** phrase &middot; **Register:** informal
 **Variants:** *hang on a sec*, *hang on a minute*
 
@@ -182,6 +192,7 @@ A casual "stop and wait" — used to buy yourself a moment, to interrupt someone
 ### hear me out
 
 **Pronunciation:** /ˌhɪr mi ˈaʊt/ &middot; *heer mee OUT*
+**Русский:** выслушай меня до конца — не перебивай, пока не договорю
 **Type:** phrase &middot; **Register:** informal
 **Variants:** *just hear me out*, *hear me out on this*
 
@@ -198,6 +209,7 @@ Asks the listener to hold their objection until you have finished, and admits up
 ### hold on
 
 **Pronunciation:** /ˈhoʊld ɑn/ &middot; *HOHLD-on*
+**Русский:** подождите / постойте — просьба сделать паузу либо мягкое возражение
 **Type:** phrase &middot; **Register:** neutral
 **Variants:** *hold on a second*, *hold up*, *hold on there*
 
@@ -214,6 +226,7 @@ A request to pause. It works both as a stall while you look something up and as 
 ### how do I put this
 
 **Pronunciation:** /ˌhaʊ du aɪ ˈpʊt ðɪs/ &middot; *how do I PUT this*
+**Русский:** как бы это сказать — подбираю слова перед чем-то неловким или неприятным
 **Type:** phrase &middot; **Register:** neutral
 **Variants:** *how should I put this*, *how do I say this*, *how do I put it*
 
@@ -230,6 +243,7 @@ A stall announcing that you are choosing your words because what comes next is a
 ### just a second
 
 **Pronunciation:** /ˌdʒʌst ə ˈsɛkənd/ &middot; *just a SEK-uhnd*
+**Русский:** секундочку / минутку — обещание, что пауза будет короткой
 **Type:** phrase &middot; **Register:** neutral
 **Variants:** *just a sec*, *one sec*, *one second*, *give me a second*, *gimme a sec*
 
@@ -246,6 +260,7 @@ A short promise that the pause will be brief, used when you have to finish somet
 ### let me think
 
 **Pronunciation:** /ˌlɛt mi ˈθɪŋk/ &middot; *let me THINK*
+**Русский:** дай(те) подумать — я обдумываю ответ, а не увиливаю
 **Type:** phrase &middot; **Register:** neutral
 **Variants:** *let me think for a second*, *let me think about it*
 
@@ -262,6 +277,7 @@ An explicit announcement that you are working out an answer rather than dodging 
 ### let's see
 
 **Pronunciation:** /ˌlɛts ˈsi/ &middot; *lets SEE*
+**Русский:** так, посмотрим / сейчас — пока ищешь, считаешь или просматриваешь список
 **Type:** phrase &middot; **Register:** neutral
 **Variants:** *let me see*, *let's see here*, *let's see now*
 
@@ -278,6 +294,7 @@ A stall used while you scan, count, or search — the verbal equivalent of runni
 ### that's a good question
 
 **Pronunciation:** /ˌðæts ə ˈɡʊd ˌkwɛstʃən/ &middot; *thats uh GOOD kwes-chun*
+**Русский:** хороший вопрос — тянет время и льстит спросившему; часто значит «понятия не имею»
 **Type:** phrase &middot; **Register:** neutral
 **Variants:** *good question*, *that's a great question*, *that's a fair question*
 
@@ -294,6 +311,7 @@ Buys several seconds while you assemble an answer, and flatters the asker on the
 ### wait
 
 **Pronunciation:** /weɪt/ &middot; *WAYT*
+**Русский:** стой / погоди — резкая остановка разговора, обычно перед «до меня дошло»
 **Type:** secondary &middot; **Register:** informal (blunt when it cuts someone off mid-sentence)
 **Variants:** *wait a second*, *wait a minute*, *wait wait wait*
 
@@ -310,6 +328,7 @@ A one-word brake on the conversation that stalls the other speaker while you cat
 ### what's the word
 
 **Pronunciation:** /ˌwʌts ðə ˈwɝd/ &middot; *whuts thuh WURD*
+**Русский:** как это называется / как бы сказать — ищу нужное слово и жду подсказки
 **Type:** phrase &middot; **Register:** neutral
 **Variants:** *what's the word for it*, *what do you call it*, *what's it called*
 
@@ -326,6 +345,7 @@ The standard American way to flag that you are hunting for a specific word and w
 ### where was I
 
 **Pronunciation:** /ˌwɛr wəz ˈaɪ/ &middot; *wair wuz EYE*
+**Русский:** на чём я остановился — попытка найти нить после того, как перебили
 **Type:** phrase &middot; **Register:** neutral
 **Variants:** *where were we*, *now where was I*
 
@@ -346,6 +366,7 @@ Said after an interruption to find your place again in your own story or explana
 ### actually
 
 **Pronunciation:** /ˈæktʃuəli/ (also /ˈæktʃəli/) &middot; *AK-choo-uh-lee*
+**Русский:** на самом деле / вообще-то — поправка или неожиданный для собеседника факт
 **Type:** secondary &middot; **Register:** neutral
 
 Flags that what follows corrects, contradicts, or gently surprises — either fixing what was just said or introducing a fact the listener would not expect. At the front of a sentence it can sound corrective, so Americans often cushion it with *well* or a smile.
@@ -361,6 +382,7 @@ Flags that what follows corrects, contradicts, or gently surprises — either fi
 ### alright
 
 **Pronunciation:** /ɔlˈraɪt/ &middot; *awl-RITE*
+**Русский:** ладно / так — закрывает предыдущее и открывает следующее; в конце фразы — «договорились?»
 **Type:** secondary &middot; **Register:** informal (the two-word spelling *all right* is the one for formal prose)
 **Variants:** *all right*, *aight*, *a'ight*
 
@@ -377,6 +399,7 @@ A resetting marker that closes off what came before and starts the next thing �
 ### anyhow
 
 **Pronunciation:** /ˈɛniˌhaʊ/ &middot; *EN-ee-how*
+**Русский:** в общем / так или иначе — разг., слегка устаревший вариант anyway
 **Type:** secondary &middot; **Register:** informal (slightly dated; most common in the South and Midwest)
 **Variants:** *anyhoo*, *anywho*, *any old how*
 
@@ -393,6 +416,7 @@ An older, folksier twin of *anyway*, used to drop a digression and get back to t
 ### anyway
 
 **Pronunciation:** /ˈɛniˌweɪ/ &middot; *EN-ee-way*
+**Русский:** в общем / ладно — возврат к теме после отступления или сворачивание разговора
 **Type:** secondary &middot; **Register:** neutral (*anyways* is very informal and widely treated as nonstandard)
 **Variants:** *anyways*
 
@@ -409,6 +433,7 @@ The workhorse of topic management: it ends a digression and returns to the main 
 ### basically
 
 **Pronunciation:** /ˈbeɪsɪkli/ &middot; *BAY-sik-lee*
+**Русский:** по сути / в общем — дальше короткая версия без подробностей
 **Type:** secondary &middot; **Register:** neutral in its "here is the short version" sense; informal as a filler
 
 Announces a simplified version — the short answer, with the details filed off. In casual speech it has drifted into a near-filler that adds little beyond "here comes my summary."
@@ -424,6 +449,7 @@ Announces a simplified version — the short answer, with the details filed off.
 ### by the way
 
 **Pronunciation:** /ˌbaɪ ðə ˈweɪ/ &middot; *by thuh WAY*
+**Русский:** кстати / между прочим — попутное замечание не по текущей теме
 **Type:** phrase &middot; **Register:** neutral (the abbreviation *BTW* is informal, for email and texts only)
 **Variants:** *BTW*, *btw*, *by the by*
 
@@ -440,6 +466,7 @@ Introduces a side remark that is not part of the current topic, often a small pi
 ### come to think of it
 
 **Pronunciation:** /ˌkʌm tə ˈθɪŋk əv ɪt/ &middot; *kum tuh THINK uhv it*
+**Русский:** если подумать / а ведь правда — деталь, всплывшая в голове прямо сейчас
 **Type:** phrase &middot; **Register:** neutral
 **Variants:** *now that I think about it*, *come to think about it*, *thinking about it*
 
@@ -456,6 +483,7 @@ Marks something that has surfaced in your head while you were saying something e
 ### granted
 
 **Pronunciation:** /ˈɡræntɪd/ &middot; *GRAN-tid*
+**Русский:** допустим / надо признать — уступка перед возражением; дальше почти всегда «но»
 **Type:** secondary &middot; **Register:** neutral
 **Variants:** *granted, though*, *admittedly*, *I'll grant you that*
 
@@ -472,6 +500,7 @@ Hands the other side one point before you argue against it, so that the rest of 
 ### here's the thing
 
 **Pronunciation:** /ˌhɪrz ðə ˈθɪŋ/ &middot; *heerz thuh THING*
+**Русский:** дело вот в чём — сейчас будет то самое осложнение
 **Type:** phrase &middot; **Register:** informal
 **Variants:** *the thing is*, *here's the thing though*, *the thing about it is*
 
@@ -488,6 +517,7 @@ Announces the complication — the fact that explains why the obvious answer wil
 ### in other words
 
 **Pronunciation:** /ɪn ˈʌðɚ ˌwɝdz/ &middot; *in UTH-er WURDZ*
+**Русский:** другими словами / иначе говоря — пересказ сказанного проще или прямее
 **Type:** phrase &middot; **Register:** neutral (at home in writing as well as speech)
 **Variants:** *or rather*, *put another way*, *which is to say*
 
@@ -504,6 +534,7 @@ Restates what was just said in plainer or blunter terms, either to make it clear
 ### listen
 
 **Pronunciation:** /ˈlɪsən/ &middot; *LIS-uhn*
+**Русский:** послушай(те) — требование внимания перед чем-то важным или резким
 **Type:** secondary &middot; **Register:** neutral (can sound stern or confrontational)
 **Variants:** *listen up*, *now listen*
 
@@ -520,6 +551,7 @@ Demands the listener's full attention before something important, blunt, or fina
 ### long story short
 
 **Pronunciation:** /ˌlɔŋ ˌstɔri ˈʃɔrt/ &middot; *long story SHORT*
+**Русский:** короче говоря / если вкратце — пропускаю середину истории
 **Type:** phrase &middot; **Register:** informal
 **Variants:** *to make a long story short*, *long story*, *to cut a long story short (chiefly British)*
 
@@ -536,6 +568,7 @@ Announces that you are skipping the middle of a story and going straight to how 
 ### look
 
 **Pronunciation:** /lʊk/ &middot; *LOOK*
+**Русский:** слушай / смотри — перехожу к сути, к своей настоящей позиции
 **Type:** secondary &middot; **Register:** neutral (can sound impatient)
 **Variants:** *now look*, *look here (dated)*
 
@@ -552,6 +585,7 @@ Marks that you are cutting through the back-and-forth to state your real positio
 ### now
 
 **Pronunciation:** /naʊ/ &middot; *NOW*
+**Русский:** так / итак — переход к следующему пункту, без значения времени
 **Type:** secondary &middot; **Register:** neutral
 **Variants:** *now then*, *and now*
 
@@ -568,6 +602,7 @@ Moves the conversation on to the next step or the next item, with no reference t
 ### okay
 
 **Pronunciation:** /oʊˈkeɪ/ &middot; *oh-KAY*
+**Русский:** ладно / так / ну хорошо — универсальный переход; с вопросительной интонацией — «ясно?»
 **Type:** secondary &middot; **Register:** neutral
 **Variants:** *OK*, *O.K.*, *'kay*, *mkay*, *okey-dokey*
 
@@ -585,6 +620,7 @@ The all-purpose transition: it closes the previous topic and opens the next one,
 ### right
 
 **Pronunciation:** /raɪt/ &middot; *RITE*
+**Русский:** так / итак — начало нового этапа; в конце фразы с вопросом — «верно?, да?»
 **Type:** secondary &middot; **Register:** neutral
 **Variants:** *right?*, *right then*, *all right*
 
@@ -602,6 +638,7 @@ Two jobs. (1) As an opener it marks a fresh start or a return to business. (2) T
 ### see
 
 **Pronunciation:** /si/ &middot; *SEE*
+**Русский:** понимаешь / видишь ли — разг., вводит объяснение, часто чуть оправдываясь
 **Type:** secondary &middot; **Register:** informal
 **Variants:** *see, the thing is*, *y'see*
 
@@ -618,6 +655,7 @@ Introduces the explanation the listener has been waiting for, often a little def
 ### so
 
 **Pronunciation:** /soʊ/ &middot; *SOH*
+**Русский:** итак / так вот / ну — самый частый способ начать реплику или подвести итог
 **Type:** secondary &middot; **Register:** neutral
 **Variants:** *sooo*
 
@@ -635,6 +673,7 @@ The most common way Americans open a turn: it introduces a topic, launches a que
 ### so anyway
 
 **Pronunciation:** /ˌsoʊ ˈɛniˌweɪ/ &middot; *so EN-ee-way*
+**Русский:** ну так вот / в общем — бросаю отступление и возвращаюсь к главному
 **Type:** phrase &middot; **Register:** informal
 **Variants:** *so anyways*, *anyway so*
 
@@ -651,6 +690,7 @@ A doubled marker used to abandon a side story and get back on track — the *so*
 ### so yeah
 
 **Pronunciation:** /soʊ ˈjɛə/ &middot; *soh YEH-uh*
+**Русский:** ну вот, как-то так — очень разг., закрывает выдохшуюся реплику
 **Type:** phrase &middot; **Register:** very informal
 **Variants:** *so yeah, anyway*, *and yeah*, *so, yeah*
 
@@ -667,6 +707,7 @@ Closes out a turn that has run out of steam: the point has been made, there is n
 ### speaking of which
 
 **Pronunciation:** /ˌspikɪŋ əv ˈwɪtʃ/ &middot; *SPEE-king uhv WICH*
+**Русский:** кстати о / раз уж зашла речь — цепляет новую тему за только что сказанное
 **Type:** phrase &middot; **Register:** neutral
 **Variants:** *speaking of*, *speaking of that*, *which reminds me*
 
@@ -683,6 +724,7 @@ Hooks a new topic onto the one just mentioned, so that changing the subject look
 ### that reminds me
 
 **Pronunciation:** /ðæt rɪˈmaɪndz mi/ &middot; *that ruh-MYNDZ mee*
+**Русский:** кстати, вспомнил / это мне напомнило — тема, всплывшая от слов собеседника
 **Type:** phrase &middot; **Register:** neutral
 **Variants:** *which reminds me*, *oh, that reminds me*, *before I forget*
 
@@ -699,6 +741,7 @@ Credits the other person's remark with knocking loose a subject of your own. Lik
 ### that said
 
 **Pronunciation:** /ðæt ˈsɛd/ &middot; *that SED*
+**Русский:** при этом / тем не менее / и всё же — вежливое «но» после уступки
 **Type:** phrase &middot; **Register:** neutral
 **Variants:** *that being said*, *having said that*, *all that said*
 
@@ -715,6 +758,7 @@ Concedes the point you have just made and then pushes back against it. It is the
 ### then
 
 **Pronunciation:** /ðɛn/ &middot; *THEN — voiced th, as in this*
+**Русский:** тогда / значит — в конце фразы делает вывод из сказанного
 **Type:** secondary &middot; **Register:** neutral
 **Variants:** *well then*, *okay then*, *right then*
 
@@ -731,6 +775,7 @@ Tacked onto the end of a clause, it draws a conclusion from what has just been e
 ### well
 
 **Pronunciation:** /wɛl/ &middot; *WELL*
+**Русский:** ну / что ж — классическая пауза перед ответом, который не будет простым «да»
 **Type:** secondary &middot; **Register:** neutral
 **Variants:** *welll*, *well now*, *well then*
 
@@ -748,6 +793,7 @@ The classic hesitation opener. It buys a beat before an answer and warns that th
 ### yeah no
 
 **Pronunciation:** /ˈjɛə ˌnoʊ/ &middot; *YEH-noh*
+**Русский:** да нет / нет да — разг.: первое слово признаёт сказанное, второе даёт настоящий ответ
 **Type:** phrase &middot; **Register:** very informal
 **Variants:** *no yeah*, *yeah no for sure*, *nah yeah*
 
@@ -764,6 +810,7 @@ A distinctly American pair in which the first word acknowledges what you just sa
 ### you know what
 
 **Pronunciation:** /jə ˈnoʊ ˌwʌt/ &middot; *yuh NOH wut*
+**Русский:** знаешь что — объявляет решение или мнение, возникшее прямо сейчас
 **Type:** phrase &middot; **Register:** informal
 **Variants:** *y'know what*, *you know what, never mind*, *tell you what*
 
@@ -780,6 +827,7 @@ Announces a decision or an opinion the speaker has arrived at just this second, 
 ### you see
 
 **Pronunciation:** /ju ˈsi/ &middot; *yoo SEE*
+**Русский:** видишь ли / понимаете ли — вводит объяснение; может звучать назидательно
 **Type:** phrase &middot; **Register:** neutral (can sound condescending)
 **Variants:** *ya see*, *don't you see*
 
@@ -800,6 +848,7 @@ Marks the explanation of something the listener did not know, presenting it as t
 ### and so on
 
 **Pronunciation:** /ən ˈsoʊ ɑn/ &middot; *uhn SOH on*
+**Русский:** и так далее / и тому подобное — закрывает список; единственный в группе уместен на письме
 **Type:** phrase &middot; **Register:** neutral (the one list-closer in this group that survives in writing)
 **Variants:** *and so forth*, *and so on and so forth*, *etc.*
 
@@ -816,6 +865,7 @@ Closes a list on the understanding that the pattern keeps going. It is the plain
 ### and stuff
 
 **Pronunciation:** /ən ˈstʌf/ &middot; *uhn STUFF*
+**Русский:** и всё такое — очень разг., обрывает список на середине
 **Type:** phrase &middot; **Register:** very informal
 **Variants:** *and stuff like that*, *and all that*, *and everything*, *and all*
 
@@ -832,6 +882,7 @@ A tag that closes a list without finishing it, implying more of the same. It is 
 ### and whatnot
 
 **Pronunciation:** /ən ˈwʌtnɑt/ &middot; *uhn WUT-not*
+**Русский:** и всякое такое / и прочее — разг., слегка старомодно-простецки
 **Type:** phrase &middot; **Register:** informal (folksy; reads as older or small-town)
 **Variants:** *and what have you*, *and such*, *and whatnot else*
 
@@ -848,6 +899,7 @@ Closes an unfinished list the way *and stuff* does, but with a faintly old-fashi
 ### I dunno
 
 **Pronunciation:** /aɪ dəˈnoʊ/ &middot; *eye duh-NO*
+**Русский:** да не знаю / ну не знаю — очень разг., чаще смягчает мнение, чем признаёт незнание
 **Type:** phrase &middot; **Register:** very informal
 **Variants:** *dunno*, *iunno*, *I donno*
 
@@ -864,6 +916,7 @@ The reduced spoken form of "I don't know," used less as a real admission of igno
 ### I feel like
 
 **Pronunciation:** /aɪ ˈfil ˌlaɪk/ &middot; *eye FEEL like*
+**Русский:** мне кажется / у меня ощущение, что — подаёт мнение как личное впечатление
 **Type:** phrase &middot; **Register:** informal
 **Variants:** *I feel like maybe*, *I kind of feel like*
 
@@ -880,6 +933,7 @@ Frames an opinion as a personal impression rather than a claim about the world, 
 ### I guess
 
 **Pronunciation:** /aɪ ˈɡɛs/ &middot; *eye GESS*
+**Русский:** наверное / пожалуй — неохотное согласие без всякого энтузиазма
 **Type:** phrase &middot; **Register:** informal
 **Variants:** *I guess so*, *guess so*, *I suppose*
 
@@ -896,6 +950,7 @@ Marks reluctant or low-confidence agreement — you accept the conclusion withou
 ### I mean
 
 **Pronunciation:** /aɪ ˈmin/ &middot; *eye MEEN*
+**Русский:** то есть / я имею в виду — поправка или уточнение; в быстрой речи просто филлер
 **Type:** phrase &middot; **Register:** informal
 **Variants:** *I mean like*
 
@@ -912,6 +967,7 @@ Repairs, restates, or braces what you just said: you are rewording for accuracy,
 ### I want to say
 
 **Pronunciation:** /aɪ ˈwɑnt tə ˌseɪ/ (casually /aɪ ˈwɑnə ˌseɪ/) &middot; *eye WAHNT tuh say, casually eye WAH-nuh say*
+**Русский:** кажется / вроде бы — вводит полузабытый факт как догадку, с готовностью к поправке
 **Type:** phrase &middot; **Register:** informal
 **Variants:** *I wanna say*, *I want to say something like*
 
@@ -928,6 +984,7 @@ Introduces a half-remembered fact — a year, a price, a name — and marks it a
 ### if that makes sense
 
 **Pronunciation:** /ɪf ðæt ˌmeɪks ˈsɛns/ &middot; *if that makes SENSE*
+**Русский:** если понятно, о чём я — признаёт, что объяснение вышло, может быть, путаным
 **Type:** phrase &middot; **Register:** neutral
 **Variants:** *if that makes any sense*, *does that make sense*
 
@@ -944,6 +1001,7 @@ A closing hedge that admits your explanation may have come out muddled and invit
 ### -ish
 
 **Pronunciation:** /ɪʃ/ &middot; *ISH*
+**Русский:** примерно / вроде того — суффикс, оторвавшийся в самостоятельное «приблизительно»
 **Type:** secondary &middot; **Register:** informal
 
 A suffix that has broken loose and become a standalone hedge meaning "approximately" or "not exactly." As a one-word answer it softens a time, a number, or a lukewarm yes.
@@ -959,6 +1017,7 @@ A suffix that has broken loose and become a standalone hedge meaning "approximat
 ### kind of
 
 **Pronunciation:** /ˈkaɪnd əv/ (also /ˈkaɪndə/) &middot; *KINE-duhv, casually KINE-duh*
+**Русский:** вроде / как бы / отчасти — разг., смягчает утверждение до «в некоторой степени»
 **Type:** phrase &middot; **Register:** informal
 **Variants:** *kinda*, *kind of like*
 
@@ -975,6 +1034,7 @@ Softens a claim to "somewhat" or "not entirely," lowering the temperature of an 
 ### like
 
 **Pronunciation:** /laɪk/ &middot; *LIKE*
+**Русский:** типа / как бы — филлер; также «примерно» перед числом и ввод речи: «он такой: ни за что»
 **Type:** secondary &middot; **Register:** very informal
 
 Three filler jobs, all separate from the verb *like*. (1) A hesitation marker that holds the floor. (2) An approximator meaning "about." (3) A quotative with *be*, introducing speech or thought, as in *he was like, "no way."* All three are extremely common in American speech and all three are out of place in formal settings.
@@ -991,6 +1051,7 @@ Three filler jobs, all separate from the verb *like*. (1) A hesitation marker th
 ### literally
 
 **Pronunciation:** /ˈlɪtɚəli/ (also /ˈlɪtrəli/) &middot; *LIT-uh-ruh-lee*
+**Русский:** буквально — изначально «в прямом смысле», теперь чаще усилитель «реально, прямо»
 **Type:** secondary &middot; **Register:** informal as an intensifier; neutral in its original "to the letter" sense
 
 Once strictly "in the exact sense," now used mostly as an intensifier for something figurative, and in the loosest speech as a near-empty emphasis filler. The intensifier use is ordinary in casual American speech and still draws complaints in formal writing.
@@ -1007,6 +1068,7 @@ Once strictly "in the exact sense," now used mostly as an intensifier for someth
 ### more or less
 
 **Pronunciation:** /ˌmɔr ɚ ˈlɛs/ &middot; *mor er LESS — the middle word reduces to a plain r-colored vowel*
+**Русский:** более или менее / в общем и целом — верно в главном, но не в каждой детали
 **Type:** phrase &middot; **Register:** neutral
 
 Marks a statement as true in the main but not in every detail — "approximately," "in effect." It hedges numbers, descriptions, and whole conclusions, and unlike most of this file it is respectable enough for a written report.
@@ -1022,6 +1084,7 @@ Marks a statement as true in the main but not in every detail — "approximately
 ### or so
 
 **Pronunciation:** /ɚ ˈsoʊ/ &middot; *er SOH*
+**Русский:** примерно / около того — после числа, времени или расстояния
 **Type:** phrase &middot; **Register:** neutral
 **Variants:** *or thereabouts*, *or so ago*
 
@@ -1038,6 +1101,7 @@ Follows a number, a time, or a distance to mark it as an estimate. It is tighter
 ### or something
 
 **Pronunciation:** /ɚ ˈsʌmθɪŋ/ &middot; *er SUM-thing*
+**Русский:** или что-то в этом роде — помечает деталь как приблизительную
 **Type:** phrase &middot; **Register:** informal
 **Variants:** *or something like that*, *or somethin'*
 
@@ -1054,6 +1118,7 @@ Tacked onto an uncertain detail to mark it as approximate — you are giving the
 ### or whatever
 
 **Pronunciation:** /ɚ wəˈtɛvɚ/ &middot; *er wuht-EV-er*
+**Русский:** или что там ещё / или как его — закрывает список пожатием плеч; может звучать безразлично
 **Type:** phrase &middot; **Register:** informal (can sound dismissive)
 **Variants:** *or whatever it is*, *or whatever you call it*
 
@@ -1070,6 +1135,7 @@ Closes an option or a list with a shrug, signaling that the exact item does not 
 ### pretty much
 
 **Pronunciation:** /ˌprɪti ˈmʌtʃ/ &middot; *PRIT-ee MUCH — the t is a quick flap, like the d in ladder*
+**Русский:** почти что / практически — «почти полностью», разг.
 **Type:** phrase &middot; **Register:** informal
 **Variants:** *just about*, *pretty much it*
 
@@ -1086,6 +1152,7 @@ Means "almost entirely," and works as a hedge that keeps a strong statement from
 ### so to speak
 
 **Pronunciation:** /ˌsoʊ tə ˈspik/ &middot; *soh tuh SPEEK*
+**Русский:** так сказать / если можно так выразиться — слова употреблены фигурально
 **Type:** phrase &middot; **Register:** neutral
 **Variants:** *as it were*, *in a manner of speaking*
 
@@ -1102,6 +1169,7 @@ Flags the words just used as figurative, borrowed, or not quite the right ones, 
 ### sort of
 
 **Pronunciation:** /ˈsɔrt əv/ (also /ˈsɔrtə/) &middot; *SORT-uhv, casually SORT-uh*
+**Русский:** вроде / как бы / отчасти — почти то же, что kind of, чуть книжнее
 **Type:** phrase &middot; **Register:** informal
 **Variants:** *sorta*, *sort of like*
 
@@ -1118,6 +1186,7 @@ The near-twin of *kind of*: it hedges a description down to "partly" or "in a wa
 ### technically
 
 **Pronunciation:** /ˈtɛknɪkli/ &middot; *TEK-nik-lee*
+**Русский:** формально / строго говоря — по букве верно, хотя по сути не совсем
 **Type:** secondary &middot; **Register:** neutral (as a lone objection it sounds pedantic)
 **Variants:** *technically speaking*, *well, technically*, *technically, yes*
 
@@ -1134,6 +1203,7 @@ Marks a statement as true by the strict letter of the rule while hinting that th
 ### to be fair
 
 **Pronunciation:** /tə bi ˈfɛr/ &middot; *tuh bee FAIR*
+**Русский:** справедливости ради / надо отдать должное — довод против только что сказанного
 **Type:** phrase &middot; **Register:** informal
 **Variants:** *in fairness*, *to be fair to him*, *TBF*, *tbf*
 
@@ -1150,6 +1220,7 @@ Introduces the point that cuts against what you have just said, usually in defen
 ### to be honest
 
 **Pronunciation:** /tə bi ˈɑnəst/ &middot; *tuh bee ON-ist — the h is silent*
+**Русский:** честно говоря / если честно — сейчас будет резкое или нелестное мнение
 **Type:** phrase &middot; **Register:** informal (the abbreviation *TBH* is for texting only)
 **Variants:** *honestly*, *to be perfectly honest*, *if I'm being honest*, *TBH*, *tbh*
 
@@ -1166,6 +1237,7 @@ Braces the listener for a blunt or unflattering opinion and asks in advance to b
 ### you know
 
 **Pronunciation:** /ju ˈnoʊ/ (also /jəˈnoʊ/) &middot; *yoo NOH, casually yuh-NO*
+**Русский:** понимаешь / знаешь — приглашает додумать остальное; в избытке — чистый филлер
 **Type:** phrase &middot; **Register:** informal
 **Variants:** *y'know*, *ya know*, *know what I mean*, *you know what I'm saying*
 
@@ -1187,6 +1259,7 @@ Invites the listener to fill in the rest, either because the point is obvious or
 ### blah blah blah
 
 **Pronunciation:** /ˌblɑ blɑ ˈblɑ/ &middot; *blah blah BLAH*
+**Русский:** бла-бла-бла — вместо предсказуемой, скучной болтовни
 **Type:** onomatopoeic &middot; **Register:** informal
 **Variants:** *blah blah*, *blah-blah-blah*
 
@@ -1203,6 +1276,7 @@ Stands in for talk the speaker considers predictable, tedious, or not worth repe
 ### doohickey
 
 **Pronunciation:** /ˈduˌhɪki/ &middot; *DOO-hik-ee*
+**Русский:** штуковина / фиговина — разг., мелкая деталька или приспособление без названия
 **Type:** primary &middot; **Register:** informal (folksy)
 **Variants:** *doohicky*, *dohickey*, *doodad*
 
@@ -1219,6 +1293,7 @@ A placeholder for a small gadget or part whose name you do not know, typically s
 ### gizmo
 
 **Pronunciation:** /ˈɡɪzmoʊ/ &middot; *GIZ-moh*
+**Русский:** гаджет / хитрая штуковина — разг. об электронной приблуде, часто с иронией
 **Type:** primary &middot; **Register:** informal
 **Variants:** *gismo*, *gizmos*
 
@@ -1235,6 +1310,7 @@ A placeholder for a gadget, usually an electronic one, carrying a hint that the 
 ### so-and-so
 
 **Pronunciation:** /ˈsoʊ ən ˌsoʊ/ &middot; *SOH-uhn-soh*
+**Русский:** такой-то — вместо неназванного человека; как мягкая брань — «такой-сякой» (эвфемизм)
 **Type:** phrase &middot; **Register:** informal (as an insult it is a euphemism — mild on the page, but it stands in for a much stronger word)
 **Variants:** *Mr. So-and-so*, *so and so*, *such-and-such a person*
 
@@ -1251,6 +1327,7 @@ A stand-in for a person whose name does not matter or is not being supplied — 
 ### such and such
 
 **Pronunciation:** /ˌsʌtʃ ən ˈsʌtʃ/ &middot; *such uhn SUCH*
+**Русский:** такой-то / такое-то — вместо неуказанной даты, суммы или названия
 **Type:** phrase &middot; **Register:** informal
 **Variants:** *such-and-such*, *such and such a thing*
 
@@ -1267,6 +1344,7 @@ A stand-in for an unspecified detail — a date, an amount, a name — used when
 ### thingamajig
 
 **Pronunciation:** /ˈθɪŋəməˌdʒɪɡ/ &middot; *THING-uh-muh-jig*
+**Русский:** штуковина / загогулина — шутливое разрастание слова «штука»
 **Type:** secondary &middot; **Register:** informal
 **Variants:** *thingamabob*, *thingumajig*, *thingummy*
 
@@ -1283,6 +1361,7 @@ A nonsense elaboration of *thing*, used for an object whose name has escaped you
 ### thingy
 
 **Pronunciation:** /ˈθɪŋi/ &middot; *THING-ee*
+**Русский:** штука / штучка — самый короткий и частый заменитель забытого слова
 **Type:** secondary &middot; **Register:** informal
 **Variants:** *thingie*
 
@@ -1299,6 +1378,7 @@ The shortest and most common placeholder noun, used for an object — and someti
 ### whatchamacallit
 
 **Pronunciation:** /ˈwʌtʃəməˌkɔlɪt/ (also /ˌwɑtʃəməˈkɔlɪt/) &middot; *WUCH-uh-muh-kawl-it*
+**Русский:** как эта штука называется / как его там — вместо забытого названия предмета
 **Type:** phrase &middot; **Register:** informal
 **Variants:** *whatchacallit*, *whaddayacallit*, *whatchamacallem*
 
@@ -1315,6 +1395,7 @@ A compressed "what you may call it," dropped into a sentence in place of an obje
 ### whatshisname
 
 **Pronunciation:** /ˈwʌtsɪzˌneɪm/ &middot; *WUTS-iz-name*
+**Русский:** как его там / как бишь его зовут — вместо имени человека; пренебрежительно
 **Type:** phrase &middot; **Register:** informal (dismissive about the person named — not something to say to their face; the *-face* forms are ruder still)
 **Variants:** *whatshername*, *whatsisname*, *what's-his-face*, *what's-her-face*
 
@@ -1331,6 +1412,7 @@ A placeholder for a person whose name you cannot recall or cannot be bothered to
 ### whatsit
 
 **Pronunciation:** /ˈwʌtsɪt/ &middot; *WUT-sit*
+**Русский:** штуковина / как его — брит., из «what is it»; американец скорее скажет thingy
 **Type:** phrase &middot; **Register:** informal (chiefly British; an American is far likelier to reach for *thingy* or *whatchamacallit*)
 **Variants:** *whatsits*, *whatsis*, *whatsitsname*
 
@@ -1347,6 +1429,7 @@ A short placeholder built out of "what is it," used for a small object or, in th
 ### yada yada
 
 **Pronunciation:** /ˌjɑdə ˈjɑdə/ &middot; *yah-duh YAH-duh*
+**Русский:** и так далее / бла-бла — пропуск скучной или неловкой части истории
 **Type:** onomatopoeic &middot; **Register:** informal
 **Variants:** *yada yada yada*, *yadda yadda*, *yaddayadda*
 

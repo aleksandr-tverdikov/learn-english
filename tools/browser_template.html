@@ -1,0 +1,328 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>__TITLE__</title>
+<style>
+:root{
+  --bg:#faf9f7; --surface:#fff; --surface2:#f2f0ec; --border:#e2ded6;
+  --text:#1a1815; --dim:#5f594f; --faint:#8a8377;
+  --accent:__ACCENT__; --accent-soft:#00000008;
+  --shadow:0 1px 2px rgba(0,0,0,.05); --measure:68ch;
+}
+@media (prefers-color-scheme:dark){:root{
+  --bg:#14140f; --surface:#1d1d17; --surface2:#25251d; --border:#33332a;
+  --text:#eeeae1; --dim:#a8a293; --faint:#7d776b;
+  --accent:__ACCENT_DARK__; --accent-soft:#ffffff08; --shadow:0 1px 2px rgba(0,0,0,.3);
+}}
+:root[data-theme=dark]{
+  --bg:#14140f; --surface:#1d1d17; --surface2:#25251d; --border:#33332a;
+  --text:#eeeae1; --dim:#a8a293; --faint:#7d776b;
+  --accent:__ACCENT_DARK__; --accent-soft:#ffffff08; --shadow:0 1px 2px rgba(0,0,0,.3);
+}
+:root[data-theme=light]{
+  --bg:#faf9f7; --surface:#fff; --surface2:#f2f0ec; --border:#e2ded6;
+  --text:#1a1815; --dim:#5f594f; --faint:#8a8377;
+  --accent:__ACCENT__; --accent-soft:#00000008; --shadow:0 1px 2px rgba(0,0,0,.05);
+}
+*{box-sizing:border-box}
+html{-webkit-text-size-adjust:100%}
+body{margin:0;background:var(--bg);color:var(--text);
+  font:17px/1.7 ui-serif,Georgia,"Iowan Old Style","Palatino Linotype",Palatino,serif;
+  -webkit-font-smoothing:antialiased}
+.ui{font-family:-apple-system,BlinkMacSystemFont,"Segoe UI",Inter,Roboto,sans-serif}
+.ipa{font-family:"Charis SIL","Doulos SIL","Gentium Plus","Lucida Grande","DejaVu Sans",serif}
+.wrap{max-width:860px;margin:0 auto;padding:0 22px}
+header{padding:44px 0 26px;border-bottom:1px solid var(--border)}
+.eyebrow{font-size:11.5px;letter-spacing:.16em;text-transform:uppercase;color:var(--accent);
+  font-weight:700;margin:0 0 10px}
+h1{font-size:clamp(28px,5vw,40px);margin:0 0 12px;letter-spacing:-.015em;line-height:1.15}
+.lede{color:var(--dim);max-width:var(--measure);margin:0;font-size:17px}
+.bar{position:sticky;top:0;z-index:40;background:var(--bg);border-bottom:1px solid var(--border);padding:11px 0}
+.bar .wrap{display:flex;gap:9px;flex-wrap:wrap;align-items:center}
+#q{flex:1 1 240px;font:inherit;font-size:16px;padding:10px 14px;
+  border:1px solid var(--border);border-radius:9px;background:var(--surface);color:var(--text)}
+#q:focus{outline:2px solid var(--accent);outline-offset:-1px}
+select{font-size:13.5px;padding:9px 11px;border:1px solid var(--border);border-radius:9px;
+  background:var(--surface);color:var(--text);max-width:200px}
+.count{font-size:13.5px;color:var(--faint);white-space:nowrap;margin-left:auto}
+.letter{font-size:12px;font-weight:700;letter-spacing:.18em;color:var(--faint);
+  margin:34px 0 10px;padding-bottom:6px;border-bottom:1px solid var(--border)}
+.entry{border-bottom:1px solid var(--border)}
+.head{display:flex;gap:11px;align-items:baseline;flex-wrap:wrap;padding:15px 4px;cursor:pointer;margin:0}
+.head:hover{background:var(--accent-soft)}
+.term{font-size:22px;font-weight:600;color:var(--accent);letter-spacing:-.01em}
+.pron{font-size:15px;color:var(--dim)}
+.resp{font-size:13px;color:var(--faint);font-style:italic}
+.forms{flex:1 1 100%;margin:6px 0 0;display:flex;flex-wrap:wrap;gap:8px;align-items:baseline}
+.form{display:inline-flex;align-items:baseline;gap:6px;background:var(--surface2);
+  border:1px solid var(--border);border-radius:7px;padding:4px 10px;cursor:pointer}
+.form:hover{border-color:var(--accent)}
+.form .w{font-weight:650;color:var(--accent);font-size:16px}
+.form .p{font-size:13px;color:var(--dim)}
+.form .n{font-size:9.5px;letter-spacing:.09em;text-transform:uppercase;color:var(--faint);
+  font-family:-apple-system,sans-serif}
+.ru{flex:1 1 100%;font-size:16px;color:var(--dim);margin-top:3px}
+.ru b{color:var(--accent);font-weight:600;font-size:11px;letter-spacing:.08em;
+  text-transform:uppercase;margin-right:8px;font-family:-apple-system,sans-serif}
+.tags{flex:1 1 100%;display:flex;flex-wrap:wrap;gap:6px;margin-top:5px}
+.tag{font-family:-apple-system,sans-serif;font-size:10.5px;letter-spacing:.05em;
+  text-transform:uppercase;font-weight:700;color:var(--dim);background:var(--surface2);
+  border:1px solid var(--border);border-radius:4px;padding:2px 7px;white-space:nowrap}
+.tag.no{color:var(--accent);border-color:var(--accent)}
+.reg.rare{border-color:var(--accent);color:var(--accent)}
+.reg{font-size:11px;letter-spacing:.05em;text-transform:uppercase;color:var(--faint);
+  border:1px solid var(--border);border-radius:4px;padding:2px 7px;white-space:nowrap}
+.chev{margin-left:auto;color:var(--faint);font-size:13px;transition:transform .15s}
+.entry.open .chev{transform:rotate(90deg)}
+.body{display:none;padding:2px 4px 30px;max-width:var(--measure)}
+.entry.open .body{display:block}
+.body p{margin:0 0 15px}
+.intro{font-size:17.5px}
+.xform{margin:16px 0;padding:13px 16px;background:var(--surface2);border-left:2px solid var(--accent);
+  border-radius:0 7px 7px 0;font-size:15.5px;line-height:1.6}
+.xform div{margin-bottom:7px}.xform div:last-child{margin-bottom:0}
+.xform strong{color:var(--accent)}
+.sense{margin:26px 0 0;padding-left:19px;border-left:2px solid var(--border)}
+.sense-head{margin:0 0 9px;font-size:16px}
+.sense-n{display:inline-block;min-width:1.5em;color:var(--accent);font-weight:700}
+.sense-h{font-weight:600}
+.sense p{font-size:16.5px;color:var(--dim)}
+ul.ex{list-style:none;margin:13px 0 0;padding:0}
+ul.ex li{position:relative;padding:0 0 0 17px;margin:0 0 11px;font-size:16.5px;line-height:1.65}
+ul.ex li::before{content:'';position:absolute;left:0;top:.72em;width:7px;height:1px;background:var(--faint)}
+ul.ex em{font-style:italic;color:var(--accent);font-weight:600}
+.say{font-family:-apple-system,sans-serif;font-size:11px;cursor:pointer;background:none;
+  border:1px solid var(--border);border-radius:5px;padding:1px 6px;color:var(--faint);
+  margin-left:7px;vertical-align:1px}
+.say:hover{background:var(--accent);color:#fff;border-color:var(--accent)}
+dl.fields{margin:26px 0 0;padding:17px 0 0;border-top:1px solid var(--border)}
+dl.fields dt{font-size:11px;letter-spacing:.11em;text-transform:uppercase;color:var(--faint);
+  font-weight:700;margin:0 0 5px;font-family:-apple-system,sans-serif}
+dl.fields dd{margin:0 0 17px;font-size:16px;color:var(--dim)}
+dl.fields dd:last-child{margin-bottom:0}
+dl.fields em{color:var(--text);font-style:italic}
+.xref{display:inline-block;color:var(--accent);text-decoration:none;border-bottom:1px solid transparent}
+.xref:hover{border-bottom-color:var(--accent)}
+.empty{padding:60px 0;text-align:center;color:var(--faint)}
+.more{display:block;width:100%;font-family:-apple-system,sans-serif;font-size:14px;font-weight:600;
+  cursor:pointer;padding:14px;margin:26px 0 50px;background:var(--surface2);
+  border:1px solid var(--border);border-radius:9px;color:var(--text)}
+.tools{display:flex;gap:14px;align-items:center;flex-wrap:wrap;font-size:12.5px;
+  color:var(--faint);margin-top:16px;font-family:-apple-system,sans-serif}
+.tools select{font-size:12.5px;padding:5px 8px}
+.vhint{flex:1 1 100%;font-size:11.5px;color:var(--faint);line-height:1.5}
+.themebtn{position:fixed;right:18px;bottom:18px;z-index:60;font-family:-apple-system,sans-serif;
+  font-size:12.5px;font-weight:600;cursor:pointer;background:var(--surface);
+  border:1px solid var(--border);border-radius:99px;padding:9px 16px;color:var(--text);box-shadow:var(--shadow)}
+footer{padding:28px 0 90px;color:var(--faint);font-size:14px;border-top:1px solid var(--border);margin-top:20px}
+footer a{color:var(--accent)}
+@media(max-width:600px){body{font-size:16px}.term{font-size:20px}.wrap{padding:0 17px}}
+</style>
+</head>
+<body>
+<header><div class="wrap">
+<p class="eyebrow ui">Learn English &middot; __EYEBROW__</p>
+<h1>__TITLE__</h1>
+<p class="lede">__TOTAL__ __LEDE__. Click any entry to open it. Click <span class="ui" style="font-size:11px;border:1px solid var(--border);border-radius:5px;padding:1px 6px">hear</span> to listen.</p>
+<div class="tools">
+<label>Voice <select id="voice"></select></label>
+<label>Speed <input type="range" id="rate" min="0.5" max="1.2" step="0.05" value="0.9"></label>
+<span id="ttsWarn" style="display:none;color:var(--accent)">No speech voices in this browser.</span>
+<span class="vhint">Best quality: <b>System Settings</b> &rarr; search &ldquo;system voice&rdquo; &rarr; <b>Read &amp; Speak</b> (called <i>Spoken Content</i> before macOS 26) &rarr; System voice &rarr; <b>Manage Voices…</b> &rarr; English (US) &rarr; download a <b>Premium</b> voice.</span>
+</div>
+</div></header>
+
+<div class="bar"><div class="wrap">
+<input id="q" type="search" placeholder="Search…" autocomplete="off">
+<select id="cat" class="ui"><option value="">All categories</option></select>
+<select id="derived" class="ui" style="display:none">
+  <option value="base">Base verbs only</option>
+  <option value="">Include phrasal verbs</option>
+</select>
+<select id="tier" class="ui">
+  <option value="core">Everyday American</option>
+  <option value="">Everything, incl. archaic &amp; British</option>
+</select>
+<span class="count ui" id="count"></span>
+</div></div>
+
+<div class="wrap"><div id="list"></div></div>
+
+<footer><div class="wrap">
+<p><a href="../../../index.html">Learn English</a> &middot; <a href="README.html">A&ndash;Z index</a> &middot; <a href="../README.html">Reference</a></p>
+<p>Audio uses your browser's built-in speech engine. Nothing is downloaded and nothing leaves this page.</p>
+</div></footer>
+
+<button class="themebtn" id="themeBtn">Dark</button>
+
+<script id="data" type="application/json">__DATA__</script>
+<script>
+const DB=JSON.parse(document.getElementById('data').textContent);
+const CATNAME={};DB.cats.forEach(c=>CATNAME[c.slug]=c.title);
+
+const synth=window.speechSynthesis;let voices=[],chosen=null;
+const vs=document.getElementById('voice'),rate=document.getElementById('rate');
+
+// macOS ships ~28 "en_US" voices, most of them novelty joke voices (Albert, Bahh, Boing,
+// Zarvox...). Taking the first en-US voice alphabetically lands on Albert, which is why
+// this sounded terrible. Rank explicitly instead.
+const NOVELTY=/^(albert|bad news|bahh|bells|boing|bubbles|cellos|deranged|good news|hysterical|jester|junior|kathy|organ|princess|ralph|superstar|trinoids|whisper|wobble|zarvox|fred|bruce|agnes|victoria)\b/i;
+const PREFERRED=['samantha','ava','allison','susan','zoe','joelle','nicky','noelle','tom','alex',
+                 'evan','aaron','google us english','reed','rocko','sandy','shelley','eddy','flo',
+                 'grandma','grandpa'];
+function voiceScore(v){
+  const n=(v.name||'').toLowerCase();
+  if(NOVELTY.test(n))return 999;
+  let s=PREFERRED.findIndex(p=>n.startsWith(p));
+  if(s<0)s=100;
+  if(/premium|enhanced|siri/.test(n))s-=50;      // downloaded high-quality variants
+  if(!/en[-_]us/i.test(v.lang))s+=200;           // American first
+  return s;
+}
+function rankVoices(list){
+  return list.filter(v=>!NOVELTY.test((v.name||'').toLowerCase()))
+             .sort((a,b)=>voiceScore(a)-voiceScore(b));
+}
+function loadVoices(){
+  const all=(synth?synth.getVoices():[]).filter(v=>/^en([-_]|$)/i.test(v.lang));
+  if(!all.length){document.getElementById('ttsWarn').style.display='inline';return}
+  voices=rankVoices(all);
+  if(!voices.length)voices=all;
+  vs.innerHTML='';voices.forEach((v,i)=>{const o=document.createElement('option');
+    o.value=i;o.textContent=v.name+(/en[-_]US/i.test(v.lang)?'':' ('+v.lang+')');
+    vs.appendChild(o);if(i===0)chosen=v});
+  vs.onchange=()=>{chosen=voices[+vs.value]};
+}
+if(synth){loadVoices();synth.onvoiceschanged=loadVoices}
+function speak(t){if(!synth)return;synth.cancel();
+  const u=new SpeechSynthesisUtterance(t);u.lang='en-US';if(chosen)u.voice=chosen;
+  u.rate=+rate.value;synth.speak(u)}
+document.addEventListener('click',e=>{
+  const x=e.target.closest('a.xref');
+  if(x){
+    e.preventDefault();e.stopPropagation();
+    const id=x.getAttribute('href').slice(1);
+    // the target may be filtered out of view — clear the filters, then reveal it
+    q.value='';cat.value='';tier.value='';derived.value='';apply();
+    const go=()=>{const el=document.getElementById(id);
+      if(el){el.classList.add('open');el.scrollIntoView({block:'center'});history.replaceState(null,'','#'+id);}
+      else if(filtered.length>shown){shown+=PAGE;render();requestAnimationFrame(go);}};
+    requestAnimationFrame(go);return;
+  }
+  const b=e.target.closest('.say');
+  if(b){e.stopPropagation();speak(b.dataset.say);return}
+  const h=e.target.closest('.head');
+  if(h)h.parentElement.classList.toggle('open');
+});
+
+const cat=document.getElementById('cat'),q=document.getElementById('q'),
+      tier=document.getElementById('tier'),
+      derived=document.getElementById('derived');
+// the control only makes sense where some entries are built on others
+if(DB.entries.some(e=>e.d))derived.style.display='';
+DB.cats.forEach(c=>{const o=document.createElement('option');o.value=c.slug;
+  o.textContent=c.title+' ('+c.n+')';cat.appendChild(o)});
+
+const attr=s=>String(s).replace(/"/g,'&quot;').replace(/'/g,'&#39;');
+const strip=h=>String(h).replace(/<[^>]*>/g,'');
+
+function exList(items,plains){
+  if(!items||!items.length)return'';
+  return'<ul class="ex">'+items.map((x,i)=>
+    `<li>${x}<button class="say" data-say="${attr(plains[i]||strip(x))}" title="Hear this sentence">hear</button></li>`
+  ).join('')+'</ul>';
+}
+
+function formChips(e){
+  if(!e.fm||!e.fm.length)return'';
+  // only label positionally when there are exactly three; several verbs carry a
+  // fourth form (prove/proved/proven/proved) or two past forms (was/were)
+  const NAMES=e.fm.length===3?['base','past','participle']:['base'];
+  return '<div class="forms">'+e.fm.map((f,i)=>
+    `<span class="form say" data-say="${attr(f.w)}" title="Hear this form">`+
+    `<span class="n">${NAMES[i]||''}</span><span class="w">${f.w}</span>`+
+    (f.ipa?`<span class="p ipa">${f.ipa}</span>`:'')+'</span>').join('')+'</div>';
+}
+
+function card(e){
+  let html='';
+  e.intro.forEach(p=>html+=`<p class="intro">${p}</p>`);
+  if(e.q&&e.q.length)html+='<div class="xform">'+e.q.map(q=>`<div>${q}</div>`).join('')+'</div>';
+  html+=exList(e.x,e.xp);
+  e.senses.forEach(s=>{
+    html+='<div class="sense">';
+    html+=`<p class="sense-head"><span class="sense-n">${s.n}.</span><span class="sense-h">${s.h}</span></p>`;
+    s.b.forEach(p=>html+=`<p>${p}</p>`);
+    if(s.q&&s.q.length)html+='<div class="xform">'+s.q.map(q=>`<div>${q}</div>`).join('')+'</div>';
+    html+=exList(s.x,s.xp);
+    html+='</div>';
+  });
+  if(e.f&&e.f.length){
+    html+='<dl class="fields">';
+    e.f.forEach(([k,v])=>{html+=`<dt>${k}</dt><dd>${v}</dd>`});
+    html+='</dl>';
+  }
+  return `<div class="entry" id="e-${e.c}-${e.a}">
+    <div class="head">
+      <span class="term">${strip(e.t)}</span>
+      <button class="say" data-say="${attr(e.t)}" title="Hear this word">hear</button>
+      ${e.fm&&e.fm.length?'':`<span class="pron ipa">${e.i}</span>`}
+      <span class="resp">${e.r}</span>
+      ${e.g?`<span class="reg ui${e.tier==='rare'?' rare':''}">${e.g.split('(')[0].trim()}</span>`:''}
+      <span class="chev">&#9656;</span>
+      ${e.tg&&e.tg.length?`<span class="tags">${e.tg.map(t=>
+        `<span class="tag${/no passive/.test(t)?' no':''}">${t}</span>`).join('')}</span>`:''}
+      ${formChips(e)}
+      ${e.ru?`<span class="ru"><b>RU</b>${e.ru}</span>`:''}
+    </div>
+    <div class="body">${html}</div>
+  </div>`;
+}
+
+const PAGE=60;let shown=PAGE,filtered=DB.entries;
+function haystack(e){
+  return (e._h||(e._h=[e.t,e.ru||'',...(e.tg||[]),...e.intro,...e.x,...e.senses.flatMap(s=>[s.h,...s.b,...s.x]),
+    ...(e.f||[]).map(f=>f[1])].join(' ').toLowerCase()));
+}
+function apply(){
+  const t=q.value.trim().toLowerCase(),c=cat.value,tr=tier.value;
+  // a derived verb (get up) lives inside its base entry; it only joins the list when
+  // you search for one, pick its category, or ask for them explicitly
+  const hideDerived=derived.value==='base'&&!t&&!c;
+  filtered=DB.entries.filter(e=>(!c||e.c===c)&&(!tr||e.tier===tr)
+    &&(!hideDerived||!e.d)&&(!t||haystack(e).includes(t)));
+  filtered.sort((a,b)=>a.t.toLowerCase().localeCompare(b.t.toLowerCase()));
+  shown=PAGE;render();
+}
+function render(){
+  const list=document.getElementById('list');
+  document.getElementById('count').textContent=filtered.length+' of '+DB.entries.length;
+  if(!filtered.length){list.innerHTML='<p class="empty">Nothing matches that search.</p>';return}
+  let h='',letter='';
+  filtered.slice(0,shown).forEach(e=>{
+    const L=/[a-z]/i.test(e.t[0])?e.t[0].toUpperCase():'#';
+    if(L!==letter){letter=L;h+=`<div class="letter ui">${L}</div>`}
+    h+=card(e);
+  });
+  if(filtered.length>shown)
+    h+=`<button class="more" id="more">Show ${Math.min(PAGE,filtered.length-shown)} more &middot; ${filtered.length-shown} left</button>`;
+  list.innerHTML=h;
+  const m=document.getElementById('more');
+  if(m)m.onclick=()=>{shown+=PAGE;render()};
+}
+let tm=null;q.oninput=()=>{clearTimeout(tm);tm=setTimeout(apply,130)};
+cat.onchange=apply;tier.onchange=apply;derived.onchange=apply;
+apply();
+if(location.hash){const el=document.querySelector(location.hash);if(el){el.classList.add('open');el.scrollIntoView()}}
+
+const tb=document.getElementById('themeBtn');
+function setTheme(x){document.documentElement.dataset.theme=x;tb.textContent=x==='dark'?'Light':'Dark';
+  try{localStorage.setItem('__THEMEKEY__-theme',x)}catch(e){}}
+tb.onclick=()=>setTheme(document.documentElement.dataset.theme==='dark'?'light':'dark');
+try{const s=localStorage.getItem('__THEMEKEY__-theme');
+  setTheme(s||(matchMedia('(prefers-color-scheme: dark)').matches?'dark':'light'))}catch(e){setTheme('light')}
+</script>
+</body>
+</html>

@@ -1,0 +1,72 @@
+{
+ "slug": "09-participle-equals-base",
+ "title": "Participle = base, past changes vowel",
+ "ru_title": "3-я равна 1-й, во 2-й \"а\" меняется на \"э\"",
+ "blurb": "The participle returns to the base form; only the past differs, by a regular vowel change.",
+ "source_note": "Группа №9. Третья форма равна первой. Вторая отличается от них закономерной сменой звука \"а\" на \"э\".",
+ "verbs": [
+  {
+   "ru": "приходить",
+   "base": "come",
+   "base_ipa": "[kˈʌm]",
+   "past": "came",
+   "past_ipa": "[kˈeɪːm]",
+   "pp": "come",
+   "pp_ipa": "[kʌm]"
+  },
+  {
+   "ru": "становиться, делаться, превращаться",
+   "base": "become",
+   "base_ipa": "[bɪˈkʌm]",
+   "past": "became",
+   "past_ipa": "[bɪˈkeɪm]",
+   "pp": "become",
+   "pp_ipa": "[bɪˈkʌm]"
+  },
+  {
+   "ru": "побороть, победить, преодолеть",
+   "base": "overcome",
+   "base_ipa": "[ˌouvəˈkʌm]",
+   "past": "overcame",
+   "past_ipa": "[ˌouvəˈkeɪm]",
+   "pp": "overcome",
+   "pp_ipa": "[ˌouvəˈkʌm]"
+  },
+  {
+   "ru": "бежать; течь",
+   "base": "run",
+   "base_ipa": "[rˈʌn]",
+   "past": "ran",
+   "past_ipa": "[rˈæn]",
+   "pp": "run",
+   "pp_ipa": "[rʌn]"
+  },
+  {
+   "ru": "переливаться через край, наводнять",
+   "base": "overrun",
+   "base_ipa": "[ˌouvəˈrʌn]",
+   "past": "overran",
+   "past_ipa": "[ˌouvəˈræn]",
+   "pp": "overrun",
+   "pp_ipa": "[ˌouvəˈrʌn]"
+  },
+  {
+   "ru": "показывать повторно",
+   "base": "rerun",
+   "base_ipa": "[ˌriːˈrʌn]",
+   "past": "reran",
+   "past_ipa": "[ˌriːˈræn]",
+   "pp": "rerun",
+   "pp_ipa": "[ˌriːˈrʌn]"
+  },
+  {
+   "ru": "перегонять; опережать",
+   "base": "outrun",
+   "base_ipa": "[aʊtˈrʌn]",
+   "past": "outran",
+   "past_ipa": "[aʊtˈræn]",
+   "pp": "outrun",
+   "pp_ipa": "[aʊtˈrʌn]"
+  }
+ ]
+}

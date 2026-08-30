@@ -11,6 +11,7 @@ What unites this category is that none of these words are neutral: every one of 
 ### consarn it
 
 **Pronunciation:** /kənˈsɑrn ɪt/ &middot; *kun-SARN-it*  
+**Русский:** чёрт бы побрал — устар. деревенская замена damn it, сейчас только в шутку
 **Type:** phrase &middot; **Register:** dated  
 **Variants:** *consarnit*, *consarn*, *consarned*
 
@@ -27,6 +28,7 @@ A nineteenth-century rural minced oath for *confound it* or *damn it*, now almos
 ### dadgum
 
 **Pronunciation:** /ˈdædɡʌm/ &middot; *DAD-gum*  
+**Русский:** чёртов, проклятый — диал. (юж.) смягчённое goddamn: и возглас, и определение
 **Type:** secondary &middot; **Register:** regional  
 **Variants:** *dadgummit*, *dadgum it*, *dad-gum it*, *dadblame*, *dadblasted*
 
@@ -43,6 +45,7 @@ A Southern softening of *goddamn*, used both as an exclamation and as an adjecti
 ### dagnabbit
 
 **Pronunciation:** /dæɡˈnæbɪt/ &middot; *dag-NAB-it*  
+**Русский:** тьфу ты, чёрт! — устар. смягчённое goddamn it, речь мультяшных стариков
 **Type:** phrase &middot; **Register:** dated  
 **Variants:** *dagnab it*, *dad-nab it*, *dagnabbed*, *dagnabbit all*
 
@@ -59,6 +62,7 @@ Another scrambling of *goddamn it*, this one so thoroughly attached to cartoon o
 ### doggone
 
 **Pronunciation:** /ˌdɔɡˈɔn/ or /ˈdɔɡɔn/ &middot; *dawg-GAWN* or *DAWG-gawn*  
+**Русский:** чёрт возьми; чёртов — разг. мягкая замена goddamn, скорее с досадой, чем со злостью
 **Type:** secondary &middot; **Register:** informal  
 **Variants:** *doggone it*, *doggonit*, *doggoned*, *dad-gone*
 
@@ -75,6 +79,7 @@ A gentle old stand-in for *goddamn*, alive both as a standalone gripe (*doggone 
 ### great day in the morning
 
 **Pronunciation:** /ˌɡreɪt ˌdeɪ ɪn ðə ˈmɔrnɪŋ/ &middot; *grayt-DAY-in-thuh-MOR-ning*  
+**Русский:** батюшки светы! — устар. юж. возглас изумления с церковным оттенком
 **Type:** phrase &middot; **Register:** dated  
 **Variants:** *great day*, *great day in the mornin'*
 
@@ -91,6 +96,7 @@ A Southern exclamation of astonishment with a churchy ring to it, said over some
 ### howdy
 
 **Pronunciation:** /ˈhaʊdi/ &middot; *HOW-dee*  
+**Русский:** здорово!, привет! — диал. (юж./зап.) ковбойское «здрасьте», стёртое how do you do
 **Type:** secondary &middot; **Register:** regional  
 **Variants:** *howdy do*, *howdy-doody*, *howdy y'all*, *how do*
 
@@ -107,6 +113,7 @@ A friendly Western and Southern hello, worn down from *how do you do*. Outside T
 ### I do declare
 
 **Pronunciation:** /ˌaɪ du dɪˈklɛr/ &middot; *eye-doo-dih-KLAIR*  
+**Русский:** ну надо же!, скажите на милость — устар. юж. жеманное удивление
 **Type:** phrase &middot; **Register:** dated  
 **Variants:** *well I declare*, *I declare*, *do declare*, *well, I do declare*
 
@@ -123,6 +130,7 @@ A genteel Southern expression of mild astonishment, roughly *well, would you loo
 ### I swanee
 
 **Pronunciation:** /aɪ ˈswɑni/ &middot; *eye-SWAH-nee*  
+**Русский:** вот те на!, ей-же-ей — устар. деревенская замена I swear, чтобы не клясться
 **Type:** phrase &middot; **Register:** dated  
 **Variants:** *I swan*, *I swannee*, *well I swan*, *I swanny*
 
@@ -139,6 +147,7 @@ A rural minced oath standing in for *I swear*, common in the South and in older 
 ### land o' Goshen
 
 **Pronunciation:** /ˌlænd ə ˈɡoʊʃən/ &middot; *land-uh-GOH-shun*  
+**Русский:** Господи помилуй! — устар. возглас удивления, от библейской земли Гесем
 **Type:** phrase &middot; **Register:** dated  
 **Variants:** *land of Goshen*, *lands o' Goshen*
 
@@ -155,6 +164,7 @@ An old exclamation of surprise borrowed from the Book of Exodus, where Goshen is
 ### land sakes
 
 **Pronunciation:** /ˌlænd ˈseɪks/ &middot; *land-SAYKS*  
+**Русский:** батюшки мои! — устар. сельский возглас удивления, стёртое for the Lord's sake
 **Type:** phrase &middot; **Register:** dated  
 **Variants:** *land sakes alive*, *sakes alive*, *my land*, *my lands*, *good land*, *land's sakes*
 
@@ -171,6 +181,7 @@ A worn-down version of *for the Lord's sake* that dodges the Lord entirely. It m
 ### lordy
 
 **Pronunciation:** /ˈlɔrdi/ &middot; *LOR-dee*  
+**Русский:** Господи!, ой божечки — разг. протяжное смягчённое Lord: усталость или изумление
 **Type:** secondary &middot; **Register:** informal  
 **Variants:** *lawdy*, *lordy lordy*, *lordy be*, *lawd*, *lord have mercy*
 
@@ -187,6 +198,7 @@ A drawled, softened *Lord* used for weariness, wonder, or half-scandalized amuse
 ### mercy me
 
 **Pronunciation:** /ˌmɜrsi ˈmi/ &middot; *mur-see-MEE*  
+**Русский:** Боже мой!, батюшки — устар. мягкий возглас удивления или сочувствия
 **Type:** phrase &middot; **Register:** dated  
 **Variants:** *mercy*, *mercy sakes*, *mercy sakes alive*, *have mercy*, *land of mercy*
 
@@ -203,6 +215,7 @@ A soft, churchy exclamation of surprise or sympathy, most at home in the mouth o
 ### my stars
 
 **Pronunciation:** /maɪ ˈstɑrz/ &middot; *my-STARZ*  
+**Русский:** батюшки светы!, вот те на — устар. жеманное изумление вместо my God
 **Type:** phrase &middot; **Register:** dated  
 **Variants:** *my stars and garters*, *stars above*, *oh my stars*
 
@@ -219,6 +232,7 @@ A quaint exclamation of astonishment, the polite cousin of *my God*. It sounds V
 ### shucks
 
 **Pronunciation:** /ʃʌks/ &middot; *SHUKS*  
+**Русский:** да ну что вы, ерунда; эх, жаль — разг. смущение от похвалы; лёгкое разочарование
 **Type:** secondary &middot; **Register:** informal  
 **Variants:** *aw shucks*, *ah shucks*, *shucks now*
 
@@ -235,6 +249,7 @@ Originally the worthless husks of corn, now a country-flavored word for two feel
 ### tarnation
 
 **Pronunciation:** /tɑrˈneɪʃən/ &middot; *tar-NAY-shun*  
+**Русский:** чёрт, чёрт побери — устар. только в вопросах: what in tarnation = какого чёрта
 **Type:** secondary &middot; **Register:** dated  
 **Variants:** *what in tarnation*, *in tarnation*, *who in tarnation*, *consarned tarnation*
 
@@ -251,6 +266,7 @@ A blend of *eternal* and *damnation* that lets a speaker demand an explanation w
 ### well, shut my mouth
 
 **Pronunciation:** /ˌwɛl ʃʌt maɪ ˈmaʊθ/ &middot; *wel-shut-my-MOWTH*  
+**Русский:** ну и ну!, вот это да — устар. юж. «никогда бы не поверил»
 **Type:** phrase &middot; **Register:** dated  
 **Variants:** *shut my mouth*, *well shut my mouth wide open*
 
@@ -267,6 +283,7 @@ A Southern expression of amazement meaning roughly *I stand corrected* or *I nev
 ### whoo-wee
 
 **Pronunciation:** /ˌwuˈwi/ &middot; *woo-WEE*  
+**Русский:** ух ты!, ну и ну! — разг. протяжный возглас о чём-то чрезмерном
 **Type:** primary &middot; **Register:** informal  
 **Variants:** *hoo-wee*, *woo-wee*, *whoo-eee*
 
@@ -283,6 +300,7 @@ A long, whistling country exclamation for anything extreme — heat, spice, pric
 ### y'all
 
 **Pronunciation:** /jɔl/ or /jɑl/ &middot; *YAWL*  
+**Русский:** вы (мн. ч.) — диал. (юж.) южное you во множественном числе; и обращение к компании
 **Type:** secondary &middot; **Register:** regional  
 **Variants:** *all y'all*, *y'all listen up*, *hey y'all*, *yall*
 
@@ -299,6 +317,7 @@ A Southern plural *you* that doubles as a call to a room — set in front of an 
 ### yessiree
 
 **Pronunciation:** /ˌjɛsəˈri/ &middot; *yes-suh-REE*  
+**Русский:** так точно!, а как же! — устар. эмфатическое деревенское «да»
 **Type:** phrase &middot; **Register:** dated  
 **Variants:** *yes siree*, *yessiree bob*, *yes sirree Bob*, *yessir*
 
@@ -317,6 +336,7 @@ An emphatic country *yes*, built from *yes, sir* and then decorated. *Yessiree b
 ### by cracky
 
 **Pronunciation:** /baɪ ˈkræki/ &middot; *by-KRAK-ee*  
+**Русский:** ей-богу!, чёрт возьми — устар. деревенская божба для нажима на сказанное
 **Type:** phrase &middot; **Register:** dated  
 **Variants:** *by crackey*, *by cracky now*
 
@@ -333,6 +353,7 @@ A rural New England and Midwestern oath from the 1800s, built on the same patter
 ### by golly
 
 **Pronunciation:** /baɪ ˈɡɑli/ &middot; *by-GAH-lee*  
+**Русский:** ей-богу! — устар. смягчённое by God; само golly — простодушное «ух ты»
 **Type:** phrase &middot; **Register:** dated  
 **Variants:** *golly*, *golly gee*, *gollee*, *by golly gee*, *golly gee whiz*
 
@@ -349,6 +370,7 @@ A rural New England and Midwestern oath from the 1800s, built on the same patter
 ### by gum
 
 **Pronunciation:** /baɪ ˈɡʌm/ &middot; *by-GUM*  
+**Русский:** ей-богу!, чёрт побери — устар. замена by God, речь старых фермеров
 **Type:** phrase &middot; **Register:** dated  
 **Variants:** *by gum it*, *I'll be gum-swizzled*
 
@@ -365,6 +387,7 @@ Another swap for *by God*, this one associated with old farmers, Yorkshire trans
 ### by jingo
 
 **Pronunciation:** /baɪ ˈdʒɪŋɡoʊ/ &middot; *by-JING-goh*  
+**Русский:** ей-ей!, чёрт возьми — устар. викторианская божба (отсюда «джингоизм»)
 **Type:** phrase &middot; **Register:** dated  
 **Variants:** *by jingoes*, *by the living jingo*
 
@@ -381,6 +404,7 @@ A Victorian-era oath of emphasis, famous enough that a bellicose 1870s song gave
 ### gee whiz
 
 **Pronunciation:** /ˌdʒi ˈwɪz/ &middot; *jee-WIZ*  
+**Русский:** ух ты!, ну надо же — устар. простодушное удивление, обрубленное Jesus
 **Type:** phrase &middot; **Register:** dated  
 **Variants:** *geez whiz*, *gee whizz*, *gee*
 
@@ -397,6 +421,7 @@ A wide-eyed exclamation of surprise or mild complaint, and originally a way to s
 ### gee willikers
 
 **Pronunciation:** /ˌdʒi ˈwɪlɪkərz/ &middot; *jee-WIL-ih-kurz*  
+**Русский:** вот это да!, ух ты! — устар. развёрнутое gee whiz, речь мальчишек из комиксов
 **Type:** phrase &middot; **Register:** dated  
 **Variants:** *gee whillikers*, *gee willikins*, *golly willikers*, *gee willikers wow*
 
@@ -413,6 +438,7 @@ An elaborated *gee whiz* from the mid-1800s, now pure cartoon boy-detective. It 
 ### good gravy
 
 **Pronunciation:** /ˌɡʊd ˈɡreɪvi/ &middot; *good-GRAY-vee*  
+**Русский:** боже ты мой!, ну и ну — разг. приличная замена good God, досадливое недоверие
 **Type:** phrase &middot; **Register:** informal  
 **Variants:** *good gravy alive*, *great gravy*, *good gravy Marie*
 
@@ -429,6 +455,7 @@ A clean substitute for *good God*, built on the same *good* + harmless noun patt
 ### good grief
 
 **Pronunciation:** /ˌɡʊd ˈɡrif/ &middot; *good-GREEF*  
+**Русский:** боже мой!, вот наказание — разг. усталая досада (реплика Чарли Брауна)
 **Type:** phrase &middot; **Register:** informal  
 **Variants:** *oh good grief*, *good grief Charlie Brown*
 
@@ -445,6 +472,7 @@ A mild, weary expression of dismay, dodging *good God* the same way *good gravy*
 ### good night nurse
 
 **Pronunciation:** /ˌɡʊd naɪt ˈnɜrs/ &middot; *good-nyte-NURSE*  
+**Русский:** вот это номер!, ну всё — устар. изумление или досада, слэнг 1920-х
 **Type:** phrase &middot; **Register:** dated  
 **Variants:** *good night*, *good night alive*, *good grief nurse*
 
@@ -461,6 +489,7 @@ A 1920s exclamation of astonishment or dismay meaning roughly *that's the end of
 ### great Caesar's ghost
 
 **Pronunciation:** /ˌɡreɪt ˌsizərz ˈɡoʊst/ &middot; *grayt-SEE-zurz-GOHST*  
+**Русский:** святые угодники! — устар. напыщенное изумление (возглас Перри Уайта)
 **Type:** phrase &middot; **Register:** dated  
 **Variants:** *great Caesar*, *great Caesar's ghost alive*
 
@@ -477,6 +506,7 @@ A florid oath of astonishment, permanently attached to Perry White, the shouting
 ### great Scott
 
 **Pronunciation:** /ˌɡreɪt ˈskɑt/ &middot; *grayt-SKAHT*  
+**Русский:** боже правый!, вот те раз — устар. возглас тревоги или изумления
 **Type:** phrase &middot; **Register:** dated  
 **Variants:** *great Scott alive*, *great Scot*
 
@@ -493,6 +523,7 @@ A nineteenth-century American oath of alarm or astonishment, probably softened f
 ### heavens to Betsy
 
 **Pronunciation:** /ˌhɛvənz tə ˈbɛtsi/ &middot; *HEV-unz-tuh-BET-see*  
+**Русский:** батюшки светы! — устар. удивление; звучит как речь старой тётушки
 **Type:** phrase &middot; **Register:** dated  
 **Variants:** *heavens to Murgatroyd*, *heavens above*, *heavens*
 
@@ -509,6 +540,7 @@ An exclamation of surprise or shock whose Betsy nobody has ever been able to ide
 ### hot dog
 
 **Pronunciation:** /ˌhɑt ˈdɔɡ/ &middot; *hot-DAWG*  
+**Русский:** ура!, вот здорово! — устар. радостный вопль по поводу хорошей новости
 **Type:** phrase &middot; **Register:** dated  
 **Variants:** *hot diggity dog*, *hot diggity*, *hot ziggity*, *hot dog almighty*
 
@@ -525,6 +557,7 @@ An old-fashioned yelp of delight, dating to the 1890s and peaking with the croon
 ### jeepers
 
 **Pronunciation:** /ˈdʒipərz/ &middot; *JEE-purz*  
+**Русский:** ой-ой-ой!, батюшки — устар. смягчённое Jesus: испуг, тревога, лёгкий упрёк
 **Type:** primary &middot; **Register:** dated  
 **Variants:** *jeepers creepers*, *jeeps*, *jeez*
 
@@ -541,6 +574,7 @@ A soft-pedaled *Jesus*, expressing surprise, worry, or gentle protest. *Jeepers 
 ### jiminy cricket
 
 **Pronunciation:** /ˌdʒɪməni ˈkrɪkɪt/ &middot; *JIM-uh-nee-KRIK-it*  
+**Русский:** ёлки-палки!, батюшки — устар. смягчённое Jesus Christ, вполне детское
 **Type:** phrase &middot; **Register:** dated  
 **Variants:** *jiminy crickets*, *jiminy Christmas*, *jiminy*, *jimmity Christmas*
 
@@ -557,6 +591,7 @@ A minced *Jesus Christ* that has been in American mouths since the 1800s and got
 ### jumpin' Jehoshaphat
 
 **Pronunciation:** /ˌdʒʌmpɪn dʒəˈhɑʃəfæt/ &middot; *JUM-pin juh-HOSH-uh-fat*  
+**Русский:** святые угодники!, мать честная — устар. нарочито пышное изумление
 **Type:** phrase &middot; **Register:** dated  
 **Variants:** *jumping Jehoshaphat*, *great Jehoshaphat*, *by Jehoshaphat*
 
@@ -573,6 +608,7 @@ A wonderfully overblown oath naming a king of Judah instead of the Lord. It expr
 ### what in Sam Hill
 
 **Pronunciation:** /ˌwʌt ɪn ˌsæm ˈhɪl/ &middot; *wut-in-sam-HIL*  
+**Русский:** какого чёрта — устар. Sam Hill = приличная замена hell, только в вопросах
 **Type:** phrase &middot; **Register:** dated  
 **Variants:** *Sam Hill*, *who in Sam Hill*, *where in Sam Hill*, *what the Sam Hill*
 
@@ -591,6 +627,7 @@ A wonderfully overblown oath naming a king of Judah instead of the Lord. It expr
 ### alack
 
 **Pronunciation:** /əˈlæk/ &middot; *uh-LAK*  
+**Русский:** увы!, о горе! — устар. книжн. скорбь; сегодня лишь шутливо (alas and alack)
 **Type:** primary &middot; **Register:** dated  
 **Variants:** *alack the day*, *alas and alack*, *alack-a-day*
 
@@ -607,6 +644,7 @@ A Middle English cry of sorrow, dead in ordinary speech for centuries and alive 
 ### egad
 
 **Pronunciation:** /ɪˈɡæd/ or /iˈɡæd/ &middot; *ih-GAD* or *ee-GAD*  
+**Русский:** ей-богу!, вот те на — устар. смягчённое ah God, речь чопорного викторианца
 **Type:** primary &middot; **Register:** dated  
 **Variants:** *egads*, *'egad*, *ye gods*
 
@@ -623,6 +661,7 @@ A seventeenth-century softening of *ah God*, now the standard interjection for a
 ### fie
 
 **Pronunciation:** /faɪ/ &middot; *FYE*  
+**Русский:** фу!, стыд и срам! — устар. средневековое отвращение или упрёк
 **Type:** primary &middot; **Register:** dated  
 **Variants:** *fie on you*, *fie upon it*, *fie fie*
 
@@ -639,6 +678,7 @@ A medieval expression of disgust or reproach — the Elizabethan *shame on you*.
 ### forsooth
 
 **Pronunciation:** /fərˈsuθ/ &middot; *fur-SOOTH*  
+**Русский:** поистине, воистину — устар. книжн. подтверждение; сейчас только в стилизации
 **Type:** secondary &middot; **Register:** dated  
 **Variants:** *forsooth, good sir*, *in sooth*
 
@@ -655,6 +695,7 @@ An archaic *indeed* or *truly*, used to affirm something. No modern American say
 ### gadzooks
 
 **Pronunciation:** /ɡædˈzuks/ &middot; *gad-ZOOKS*  
+**Русский:** батюшки!, чёрт побери — устар. божба XVII в. (God's hooks), теперь лишь в шутку
 **Type:** primary &middot; **Register:** dated  
 **Variants:** *gadzooks alive*, *odzooks*
 
@@ -671,6 +712,7 @@ Another chopped-up oath on God — probably *God's hooks*, meaning the nails of 
 ### hark
 
 **Pronunciation:** /hɑrk/ &middot; *HARK*  
+**Русский:** чу!, слушай! — устар. книжн. призыв прислушаться
 **Type:** secondary &middot; **Register:** dated  
 **Variants:** *hark ye*, *hark now*, *hearken*
 
@@ -687,6 +729,7 @@ An old command meaning *listen* — the word that opens the Christmas carol and 
 ### prithee
 
 **Pronunciation:** /ˈprɪði/ &middot; *PRITH-ee*  
+**Русский:** прошу тебя, будь любезен — устар. стяжённое I pray thee, то есть «пожалуйста»
 **Type:** phrase &middot; **Register:** dated  
 **Variants:** *pray thee*, *pray tell*, *I prithee*
 
@@ -703,6 +746,7 @@ A contraction of *I pray thee*, meaning *please*, worn to a nub by the 1600s and
 ### zounds
 
 **Pronunciation:** /zaʊndz/ or /zundz/ &middot; *ZOWNDZ* or *ZOONDZ*  
+**Русский:** чёрт побери!, о ужас! — устар. от God's wounds: былое богохульство, ныне безобидно
 **Type:** primary &middot; **Register:** dated  
 **Variants:** *'zounds*, *zoonds*
 
@@ -721,6 +765,7 @@ A crushed form of *God's wounds*, once shocking enough to count as real blasphem
 ### ahoy
 
 **Pronunciation:** /əˈhɔɪ/ &middot; *uh-HOY*  
+**Русский:** эй, на судне!, эге-гей — мор. оклик через воду; на суше — шутливое приветствие
 **Type:** primary &middot; **Register:** dated  
 **Variants:** *ahoy there*, *ship ahoy*, *land ho*, *ahoy-hoy*
 
@@ -737,6 +782,7 @@ The sailor's hail, shouted across water to get another vessel's attention. On la
 ### arr
 
 **Pronunciation:** /ɑr/ &middot; *AR*  
+**Русский:** арр — рычание киношного пирата: согласие, угроза или просто присказка
 **Type:** primary &middot; **Register:** informal  
 **Variants:** *arrr*, *yarr*, *yarrr*, *arrgh*
 
@@ -753,6 +799,7 @@ The all-purpose pirate noise, a growled agreement, threat, or general seafaring 
 ### avast
 
 **Pronunciation:** /əˈvæst/ &middot; *uh-VAST*  
+**Русский:** стой!, полундра — мор. устар. команда остановиться; ныне «пиратская» пародия
 **Type:** primary &middot; **Register:** dated  
 **Variants:** *avast there*, *avast ye*, *avast, me hearties*
 
@@ -769,6 +816,7 @@ A genuine old sea command meaning *stop* or *hold fast*, from Dutch *houd vast*.
 ### gee
 
 **Pronunciation:** /dʒi/ &middot; *JEE*  
+**Русский:** но, направо! — команда лошади или упряжке повернуть вправо (пара к haw)
 **Type:** primary &middot; **Register:** regional  
 **Variants:** *gee up*, *gee haw*, *gee over*
 
@@ -785,6 +833,7 @@ The driver's command telling a horse, mule, or sled dog team to turn right. It p
 ### giddyup
 
 **Pronunciation:** /ˈɡɪdiˌʌp/ &middot; *GID-ee-up*  
+**Русский:** но!, пошёл! — понукание лошади; в переносном смысле «поехали, шевелись»
 **Type:** phrase &middot; **Register:** informal  
 **Variants:** *giddy-up*, *giddyap*, *git up*, *hyah*, *giddyup now*
 
@@ -801,6 +850,7 @@ The driver's command telling a horse, mule, or sled dog team to turn right. It p
 ### haw
 
 **Pronunciation:** /hɔ/ &middot; *HAW*  
+**Русский:** налево! — команда лошади или упряжке повернуть влево (пара к gee)
 **Type:** primary &middot; **Register:** regional  
 **Variants:** *haw now*, *gee haw*, *haw over*
 
@@ -817,6 +867,7 @@ The command for a left turn, the partner of *gee*. It belongs to plow horses, ox
 ### here piggy
 
 **Pronunciation:** /ˌhɪr ˈpɪɡi/ &middot; *heer-PIG-ee*  
+**Русский:** чух-чух-чух! — подзывание свиней к кормушке; сейчас чаще в шутку
 **Type:** phrase &middot; **Register:** informal  
 **Variants:** *here piggy piggy*, *here pig pig*, *sooey pig*
 
@@ -833,6 +884,7 @@ The sing-song call used to bring hogs to the trough, built on the same pattern a
 ### mush
 
 **Pronunciation:** /mʌʃ/ &middot; *MUSH*  
+**Русский:** вперёд! — команда собачьей упряжке трогаться (книжно-киношная)
 **Type:** primary &middot; **Register:** regional  
 **Variants:** *mush on*, *mush, you huskies*, *hike*
 
@@ -849,6 +901,7 @@ The storybook command to start a dog team, probably worn down from French Canadi
 ### sooey
 
 **Pronunciation:** /ˈsui/ &middot; *SOO-ee*  
+**Русский:** чух-чух!, свиньи, сюда! — традиционный клич, сзывающий свиней (кричалка Арканзаса)
 **Type:** primary &middot; **Register:** regional  
 **Variants:** *soo-ey*, *soo-ee*, *pig sooey*, *woo pig sooie*
 
@@ -865,6 +918,7 @@ The traditional hog call, hollered across a field to bring the pigs in. Its most
 ### whoa
 
 **Pronunciation:** /woʊ/ &middot; *WOH*  
+**Русский:** тпру! — команда лошади остановиться; в переносном смысле «стоп, притормози»
 **Type:** primary &middot; **Register:** informal  
 **Variants:** *whoa there*, *whoa now*, *whoa Nelly*, *woah*
 
@@ -881,6 +935,7 @@ The command to stop a horse, and by extension the word Americans use to slow any
 ### yee-haw
 
 **Pronunciation:** /ˈjiˌhɔ/ &middot; *YEE-haw*  
+**Русский:** и-ха!, ух-ты-ы! — ковбойский вопль восторга
 **Type:** primary &middot; **Register:** informal  
 **Variants:** *yeehaw*, *yee-hah*, *yee-hoo*, *ya-hoo*
 
@@ -899,6 +954,7 @@ The cowboy whoop of exhilaration, let out at rodeos, on dance floors, and any ti
 ### bee's knees
 
 **Pronunciation:** /ˌbiz ˈniz/ &middot; *beez-NEEZ*  
+**Русский:** высший класс, лучше некуда — устар. слэнг 1920-х, всегда с the
 **Type:** phrase &middot; **Register:** dated  
 **Variants:** *the bee's knees*, *the bees knees*
 
@@ -915,6 +971,7 @@ A 1920s verdict meaning *the very best*, from a fad for nonsense superlatives bu
 ### cat's pajamas
 
 **Pronunciation:** /ˌkæts pəˈdʒɑməz/ or /ˌkæts pəˈdʒæməz/ &middot; *kats-puh-JAH-muz* or *kats-puh-JAM-uz*  
+**Русский:** высший класс, то что надо — устар. слэнг 1920-х, близнец bee's knees
 **Type:** phrase &middot; **Register:** dated  
 **Variants:** *the cat's pajamas*, *the cat's meow*, *the cat's whiskers*, *cat's pyjamas*
 
@@ -931,6 +988,7 @@ The twin of *the bee's knees*, from the same 1920s craze, meaning something outs
 ### cool beans
 
 **Pronunciation:** /ˌkul ˈbinz/ &middot; *kool-BEENZ*  
+**Русский:** круто!, здорово! — разг. добродушное одобрение, слэнг 1980–90-х
 **Type:** phrase &middot; **Register:** informal  
 **Variants:** *cool beans, man*, *coolbeans*
 
@@ -947,6 +1005,7 @@ A goofy, harmless *that's great*, popular from the late 1970s through the 1990s 
 ### far out
 
 **Pronunciation:** /ˌfɑr ˈaʊt/ &middot; *far-OWT*  
+**Русский:** офигеть!, потрясающе — устар. хипповское одобрение конца 1960-х
 **Type:** phrase &middot; **Register:** dated  
 **Variants:** *faaar out*, *way out*, *far-out*
 
@@ -963,6 +1022,7 @@ Counterculture approval from the late 1960s, meaning wonderfully strange or just
 ### groovy
 
 **Pronunciation:** /ˈɡruvi/ &middot; *GROO-vee*  
+**Русский:** клёво, классно — устар. главное слово 1960-х; сегодня только с иронией
 **Type:** secondary &middot; **Register:** dated  
 **Variants:** *groovy baby*, *real groovy*
 
@@ -979,6 +1039,7 @@ The definitive 1960s word for excellent, from jazz musicians playing *in the gro
 ### hubba hubba
 
 **Pronunciation:** /ˈhʌbə ˈhʌbə/ &middot; *HUB-uh-HUB-uh*  
+**Русский:** ух ты, хороша! — устар. одобрительный присвист; сейчас лишь в шутку
 **Type:** primary &middot; **Register:** dated  
 **Variants:** *hubba-hubba*, *hubba*
 
@@ -995,6 +1056,7 @@ A World War II-era noise of open admiration, originally hollered by soldiers at 
 ### neato
 
 **Pronunciation:** /ˈnitoʊ/ &middot; *NEE-toh*  
+**Русский:** клёво, здорово — устар. детское словечко 1950–60-х вместо cool
 **Type:** secondary &middot; **Register:** dated  
 **Variants:** *neat-o*, *neato burrito*, *neat-o keen*, *neat*
 
@@ -1011,6 +1073,7 @@ A 1950s and 60s children's word for *cool*, still spoken by adults who want to s
 ### outta sight
 
 **Pronunciation:** /ˌaʊtə ˈsaɪt/ &middot; *OW-tuh-SYTE*  
+**Русский:** улёт!, обалдеть! — устар. похвала конца 1960-х и 70-х
 **Type:** phrase &middot; **Register:** dated  
 **Variants:** *out of sight*, *outasight*
 
@@ -1027,6 +1090,7 @@ Late-1960s and 70s praise meaning so good it is beyond looking at. It belongs to
 ### peachy keen
 
 **Pronunciation:** /ˌpitʃi ˈkin/ &middot; *pee-chee-KEEN*  
+**Русский:** чудесно, лучше не бывает — устар. слэнг 1950-х; just peachy обычно саркастично
 **Type:** phrase &middot; **Register:** dated  
 **Variants:** *peachy*, *keen*, *just peachy*, *peachy keen jelly bean*
 
@@ -1043,6 +1107,7 @@ A 1950s way of saying *wonderful*, wholesome enough for a soda fountain. Watch t
 ### right on
 
 **Pronunciation:** /ˌraɪt ˈɔn/ &middot; *rite-AWN*  
+**Русский:** вот именно!, точно! — разг. решительное согласие и поддержка
 **Type:** phrase &middot; **Register:** informal  
 **Variants:** *right on, man*, *right on right on*
 
@@ -1059,6 +1124,7 @@ Emphatic agreement and solidarity, out of Black American speech and into the cou
 ### swell
 
 **Pronunciation:** /swɛl/ &middot; *SWEL*  
+**Русский:** отлично, здорово — устар. слэнг 1900–1955; сегодня часто саркастично
 **Type:** secondary &middot; **Register:** dated  
 **Variants:** *just swell*, *swell guy*, *oh swell*
 
@@ -1075,6 +1141,7 @@ The all-American word for *great* from roughly 1900 to 1955, still instantly rea
 ### twenty-three skidoo
 
 **Pronunciation:** /ˌtwɛnti θri skɪˈdu/ &middot; *twen-tee-three-skih-DOO*  
+**Русский:** сматываемся!, тикаем отсюда — устар. слэнг 1920-х, чистый музейный экспонат
 **Type:** phrase &middot; **Register:** dated  
 **Variants:** *23 skidoo*, *skidoo*, *skiddoo*
 
@@ -1093,6 +1160,7 @@ A 1920s catchphrase meaning *let's get out of here* or *scram*, often told as a 
 ### hella
 
 **Pronunciation:** /ˈhɛlə/ &middot; *HEL-uh*  
+**Русский:** очень, куча — диал. (Сев. Калифорния) усилитель от hell of a; отдельно — «ещё как»
 **Type:** secondary &middot; **Register:** regional  
 **Variants:** *hecka*, *hella good*, *hells of*
 
@@ -1109,6 +1177,7 @@ Northern California's homegrown intensifier, from *hell of a*, meaning *very* or
 ### jeet
 
 **Pronunciation:** /dʒit/ &middot; *JEET*  
+**Русский:** поел?, ты ел? — диал. слитное did you eat? (Питтсбург, Филадельфия, Юг, Средний Запад)
 **Type:** phrase &middot; **Register:** regional  
 **Variants:** *jeet yet*, *jeetjet*, *djeet*
 
@@ -1125,6 +1194,7 @@ Northern California's homegrown intensifier, from *hell of a*, meaning *very* or
 ### ope
 
 **Pronunciation:** /oʊp/ &middot; *OHP*  
+**Русский:** ой!, упс — диал. (Средний Запад) короткое «ой» при мелкой оплошности
 **Type:** primary &middot; **Register:** regional  
 **Variants:** *ope, sorry*, *ope, lemme just squeeze past ya*
 
@@ -1141,6 +1211,7 @@ A clipped, swallowed *oh* that Midwesterners emit on any small collision with th
 ### uff da
 
 **Pronunciation:** /ˈʊf dɑ/ &middot; *UUF-dah*  
+**Русский:** ух!, ой-ой-ой — диал. (Миннесота, Дакоты) из норвежского: усталость, сочувствие, «сил нет»
 **Type:** primary &middot; **Register:** regional  
 **Variants:** *uffda*, *uff-da*, *oofta*, *oofda*
 
@@ -1157,6 +1228,7 @@ A Norwegian import that settled in Minnesota, the Dakotas, and Wisconsin, coveri
 ### wicked
 
 **Pronunciation:** /ˈwɪkɪd/ &middot; *WIK-id*  
+**Русский:** очень, жутко — диал. (Новая Англия) усилитель: wicked good = «жутко хорошо»
 **Type:** secondary &middot; **Register:** regional  
 **Variants:** *wicked good*, *wicked pissah*, *wicked awesome*
 
@@ -1173,6 +1245,7 @@ New England's intensifier, meaning *very* — *wicked good*, *wicked cold*, *wic
 ### you betcha
 
 **Pronunciation:** /ˌju ˈbɛtʃə/ &middot; *yoo-BETCH-uh*  
+**Русский:** а как же!, ещё бы! — диал. (Верхний Средний Запад) согласие; также «не за что»
 **Type:** phrase &middot; **Register:** regional  
 **Variants:** *ya betcha*, *you betcha by golly*, *oh you betcha*
 
@@ -1191,6 +1264,7 @@ Hearty Upper Midwestern agreement, meaning *yes, absolutely* and also serving as
 ### bubkes
 
 **Pronunciation:** /ˈbʌpkəs/ &middot; *BUP-kus*  
+**Русский:** шиш, ни шиша — разг. из идиша: «совсем ничего» (букв. козий помёт)
 **Type:** secondary &middot; **Register:** informal  
 **Variants:** *bupkis*, *bupkes*, *bubkis*, *bopkes*
 
@@ -1207,6 +1281,7 @@ Yiddish for *nothing at all*, literally goat droppings, used as a scornful one-w
 ### feh
 
 **Pronunciation:** /fɛ/ &middot; *FEH*  
+**Русский:** фу, тьфу — разг. из идиша: короткое сухое презрение, отмашка
 **Type:** primary &middot; **Register:** informal  
 **Variants:** *feh!*, *fe*
 
@@ -1223,6 +1298,7 @@ A short Yiddish puff of contempt, aimed at something distasteful, cheap, or bene
 ### nu
 
 **Pronunciation:** /nu/ &middot; *NOO*  
+**Русский:** ну?, и что? — разг. из идиша: побуждение продолжать; ровным тоном — «ну и ладно»
 **Type:** primary &middot; **Register:** informal  
 **Variants:** *nu?*, *nu nu*, *so nu*
 
@@ -1239,6 +1315,7 @@ A Yiddish prod meaning *well?*, *so?*, or *and then what?* Said with a rising to
 ### oy
 
 **Pronunciation:** /ɔɪ/ &middot; *OY*  
+**Русский:** ой — разг. из идиша: усталость, лёгкая боль, тревога, комическое отчаяние
 **Type:** primary &middot; **Register:** informal  
 **Variants:** *oy oy oy*, *oy yoy yoy*, *oy, oy*
 
@@ -1255,6 +1332,7 @@ The basic Yiddish groan, carried into general American English through New York.
 ### oy gevalt
 
 **Pronunciation:** /ˌɔɪ ɡəˈvɑlt/ &middot; *oy-guh-VAHLT*  
+**Русский:** ой, караул!, спасите — разг. из идиша: настоящий испуг, беда на глазах
 **Type:** phrase &middot; **Register:** informal  
 **Variants:** *gevalt*, *oy gevald*, *gevalt geshrign*
 
@@ -1271,6 +1349,7 @@ The alarmed cousin of *oy vey*: *gevalt* is Yiddish for force or violence, and t
 ### oy vey
 
 **Pronunciation:** /ˌɔɪ ˈveɪ/ &middot; *oy-VAY*  
+**Русский:** ой-вэй!, о горе мне — разг. из идиша: стон о бедах больших и малых
 **Type:** phrase &middot; **Register:** informal  
 **Variants:** *oy vey iz mir*, *oi vey*, *oy veh*, *oy vay*
 

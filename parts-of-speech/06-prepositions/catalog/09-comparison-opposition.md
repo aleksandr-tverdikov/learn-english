@@ -12,9 +12,30 @@ Several members of this family are housed elsewhere because their other senses d
 
 The plainest members of the group. They assert that two things are alike, or that they are not, and nothing else. *Like* and *as* are the pair that has to be kept straight, and the rest of the section is arranged around them: *similar to* and *akin to* are the analytic and the impressionistic versions of *like*, and *unlike*, *different from*, and *in common with* mark out the negative and the group-membership edges of the same idea. Above all of them sits *the same as*, which claims not resemblance but identity, and which is the one member of the section whose *as* will also take a clause.
 
+### a far cry from
+
+**Pronunciation:** /ə ˌfɑr ˈkraɪ frʌm/ &middot; weak /ə ˌfɑr ˈkraɪ frəm/ &middot; *uh-far-KRY frum*
+**Русский:** далеко не то, что — сильно уступает обещанному или образцу, с оттенком разочарования
+**Type:** complex (article + noun phrase + fixed *from*; wholly idiomatic — the *cry* is the old sense "shouting distance," so the phrase literally measures a gap) &middot; **Register:** neutral; conversational and journalistic
+**Complement:** noun phrase, objective-case pronoun (*a far cry from hers*), gerund (*a far cry from running a newsroom*), or a free relative (*a far cry from what the contract described*) — **never a finite clause**. It is also **predicative only**: it follows *be*, *seem*, or *remain*, and it cannot be hung on a noun as a modifier. ***A far cry than* and *a far cry to* are errors**; the preposition is *from*, exactly as in *different from*.
+**Pattern:** [be/seem/remain] *a far cry from* [noun phrase] &middot; *still a far cry from* [noun phrase] &middot; *a long way from* — the plain paraphrase
+**Contrast:** Against *different from*, which reports unlikeness neutrally, *a far cry from* measures the distance and calls it large. It is also **directional**: what follows the phrase is the standard, and the subject is nearly always the thing that falls short of it — *the finished building is a far cry from the drawings* faults the building, not the drawings. Against *out of sync with*, which reports a mismatch of timing or alignment, this one reports a mismatch of degree.
+
+Says two things are the same kind of thing and very far apart in quality, degree, or fidelity. It nearly always registers a disappointment: what follows the phrase is the promise, the original, or the standard, and the subject is what actually turned up.
+
+1. The finished building is *a far cry from* the drawings the council approved.
+2. Her second album is *a far cry from* the bluegrass she started with.
+3. Twelve dollars an hour is *a far cry from* a living wage in this county.
+4. Running a two-person shop is *a far cry from* running a newsroom.
+5. What the contractor delivered was *a far cry from* what the contract described.
+6. The river is cleaner than it was in 1975, but it is still *a far cry from* the trout stream the old-timers describe.
+
+**See also:** [different from](#different-from), [unlike](#unlike), [in contrast to](#in-contrast-to), [out of sync with](#out-of-sync-with), [the same as](#the-same-as)
+
 ### akin to
 
 **Pronunciation:** /əˈkɪn tu/ &middot; weak /əˈkɪn tə/ &middot; *uh-KIN too*
+**Русский:** сродни; близко к — того же рода, но не то же самое
 **Type:** complex (adjective + fixed preposition; marginal — *akin* survives almost nowhere else in modern English) &middot; **Register:** formal to neutral; common in journalism and criticism
 **Complement:** noun phrase, gerund (*akin to admitting defeat*), or a *wh*-free relative (*akin to what happened in 2008*) — never a finite clause. ***Akin with* is an error.**
 **Pattern:** *be akin to* [noun phrase / verb-ing] &middot; [noun] *akin to* [noun phrase] &middot; *something akin to* [noun phrase]
@@ -30,9 +51,31 @@ Says two things belong to the same family without saying they are the same thing
 
 **See also:** [similar to](#similar-to), [like](#like), [the same as](#the-same-as), [in common with](#in-common-with), [in the manner of](#in-the-manner-of)
 
+### along the lines of
+
+**Pronunciation:** /əˈlɔŋ ðə ˈlaɪnz əv/ &middot; weak /əˈlɔŋ ðə ˈlaɪnz ə/ &middot; also /əˈlɑŋ/ wherever *cot* and *caught* have merged &middot; *uh-long-thuh-LYNZ-uv*
+**Русский:** в духе; примерно как — приблизительный образец, говорящий не ручается за детали
+**Type:** complex &middot; **Register:** neutral; conversational, business, and reported speech
+**Complement:** noun phrase, gerund (*along the lines of raising the fee*), a free relative (*along the lines of what we did last year*), or a **quoted or paraphrased utterance** (*something along the lines of "we'll be in touch"*) — **never a bare finite clause.** *Along the lines that the state would pay half* is possible in formal writing, but there the *that*-clause is hung on the noun *lines* and most editors rewrite it.
+**Pattern:** *something along the lines of* [noun phrase] &middot; [noun] *along the lines of* [noun phrase] &middot; *thinking along the lines of* [noun phrase] &middot; *along these/those/the same lines* — adverbial, no complement
+**Variants:** *on the lines of* is British and does not belong in American writing. Bare *along those lines* and *along similar lines* take no object at all and are adverbials, not this preposition.
+**Contrast:** Against *like* and *similar to*, this phrase is deliberately **approximate**: it says a model is being followed loosely and declines to be pinned to the details, which is why *something along the lines of* is the standard American way to report words you cannot quote exactly. Against *in the vein of*, which places a work in an artistic tradition, *along the lines of* points at a plan, a proposal, or a form of words. Against *in the manner of*, it claims no imitation of style at all.
+
+Names a rough model without committing to it. The phrase is a hedge in prepositional form: whatever follows is offered as the general shape of the thing, and the speaker is explicitly reserving the right to have the details wrong.
+
+1. He said something *along the lines of* "we'll let you know Friday."
+2. The committee wants a program *along the lines of* the one Ohio runs.
+3. I was thinking *along the lines of* a smaller deck and a bigger porch.
+4. They floated a settlement *along the lines of* what the union got in 2019.
+5. She is looking for work *along the lines of* what she did before the layoff.
+6. The state is considering a surcharge *along the lines of* raising the registration fee by twenty dollars.
+
+**See also:** [like](#like), [similar to](#similar-to), [in the vein of](#in-the-vein-of), [in the manner of](#in-the-manner-of), [akin to](#akin-to)
+
 ### as
 
 **Pronunciation:** /æz/ &middot; weak /əz/, and in rapid speech nearly /z/ after a vowel &middot; *AZ / uhz*
+**Русский:** как, в качестве; такой же, как — второй член сравнения as … as и указание на роль или тождество
 **Type:** simple — the same word is also a subordinating conjunction of time, cause, and manner, the second half of the correlative *as … as*, and a relative pronoun after *such* and *the same* &middot; **Register:** neutral
 **Complement:** in comparison, a noun phrase or an **objective-case pronoun** (*as tall as me*), and an adjective or adverb inside the correlative frame (*as quickly as*). It takes a **finite clause** only when it is doing conjunction duty (*as I said*), and the presence of a subject and verb after it is exactly what tells you which word you have. Never a gerund in the comparison sense, and never a *that*-clause.
 **Pattern:** *as* [adjective/adverb] *as* [noun phrase] &middot; *the same* … *as* [noun phrase] &middot; *such* … *as* [noun phrase] &middot; *as many/much/few/little as* [quantity] &middot; frozen adverbials: *as usual*, *as always*, *as a rule*, *as follows*
@@ -79,6 +122,7 @@ The comparison *as* asserts equality or sameness of kind: that two things measur
 ### different from
 
 **Pronunciation:** /ˈdɪfrənt frʌm/ &middot; weak /ˈdɪfərənt frəm/ &middot; three syllables, /ˈdɪfərənt/, in careful speech &middot; *DIF-runt frum*
+**Русский:** отличный от; не такой, как — стандартный предлог при different (не to, по-британски)
 **Type:** complex (adjective + preposition; **marginal** — *different* is a fully live adjective, and the pair is listed here because choosing its preposition is the problem, not because the two words have fused) &middot; **Register:** neutral
 **Complement:** noun phrase, objective-case pronoun (*different from me*), gerund (*different from driving a truck*), or a free relative (*different from what I expected*). **Never a bare *that*-clause.**
 **Pattern:** [be/seem/look] *different from* [noun phrase] &middot; [noun] *different from* [noun phrase] &middot; *no different from* [noun phrase] &middot; *differently from* [noun phrase]
@@ -99,6 +143,7 @@ The workhorse expression of unlikeness, and the one that draws the most usage ma
 ### in common with
 
 **Pronunciation:** /ɪn ˈkɑmən wɪθ/ &middot; weak /wəθ/ &middot; also /wɪð/ before a vowel &middot; *in KAH-mun with*
+**Русский:** как и; наравне с — подобно другим членам той же группы; книжн., только письменно
 **Type:** complex &middot; **Register:** formal; written English almost exclusively
 **Complement:** noun phrase or objective-case pronoun — never a finite clause, never a gerund
 **Pattern:** *In common with* [noun phrase], [clause] &middot; [subject], *in common with* [noun phrase], [verb]
@@ -117,6 +162,7 @@ Marks the subject of the main clause as one more member of a group that behaves 
 ### in the manner of
 
 **Pronunciation:** /ɪn ðə ˈmænər əv/ &middot; weak /ɪn ðə ˈmænər ə/ &middot; *in-thuh-MAN-ur-uv*
+**Русский:** в манере; в стиле кого-л. — книжн.: подражание известному стилю, часто с намёком на копию
 **Type:** complex &middot; **Register:** formal to literary; standard in art criticism, music, and cooking
 **Complement:** noun phrase, usually a proper name or a style label — never a finite clause; a gerund is grammatical but rare
 **Pattern:** [noun] *in the manner of* [noun phrase] &middot; [clause] *in the manner of* [noun phrase] &middot; *In the manner of* [noun phrase], [clause]
@@ -133,9 +179,31 @@ Says the thing was made in imitation of a known style. In auction catalogues the
 
 **See also:** [like](#like), [as](#as), [akin to](#akin-to), [in the guise of](10-topic-reference-role.md#in-the-guise-of)
 
+### in the vein of
+
+**Pronunciation:** /ɪn ðə ˈveɪn əv/ &middot; weak /ɪn ðə ˈveɪn ə/ &middot; *in-thuh-VAYN uhv*
+**Русский:** в духе; в стиле — о книге, фильме, пластинке в традиции названного образца
+**Type:** complex &middot; **Register:** neutral to formal; criticism and reviewing — books, records, films, and restaurant menus
+**Complement:** noun phrase, characteristically a proper name or a genre label (*in the vein of Raymond Carver*, *in the vein of early punk*), or a free relative (*in the vein of what she showed in Santa Fe*) — **never a finite clause**, and a gerund only awkwardly: *in the vein of writing for children* is grammatical and nobody writes it.
+**Pattern:** [noun] *in the vein of* [noun phrase] &middot; *something in the vein of* [noun phrase] &middot; *in a lighter/darker/similar vein*, *in the same vein* — the adjectival frames, which take no complement at all
+**Variants:** *in a … vein* (*in a lighter vein*) and *in the same vein* are the older constructions and are adverbials, not this preposition; *in the vein of* is the prepositional development of them. *In the style of* and *in the manner of* are the near-synonyms. The *vein* is the mining one — a seam of a particular material — not the anatomical one.
+**Contrast:** Against [in the manner of](#in-the-manner-of), which says a style was deliberately imitated, *in the vein of* only places a work in a tradition: a novel *in the vein of* Chandler need not be trying to sound like Chandler, and no forgery is implied. Against *along the lines of*, which points at a plan or a form of words, this points at an artistic kind. Against *like*, it is the reviewer's register and always names something with a recognized style attached to it.
+
+Places a work in the tradition of a named model. It is the standard shorthand of reviewing — three words that tell a reader what shelf a thing belongs on — and it commits the writer to far less than *in the manner of* would.
+
+1. It is a quiet domestic novel *in the vein of* Anne Tyler.
+2. The band's third record is *in the vein of* early Fleetwood Mac.
+3. He told a long story *in the vein of* the ones his grandfather used to tell.
+4. The gallery wants something *in the vein of* what she showed in Santa Fe.
+5. The report closes on a warning, *in the vein of* every county study since 1998.
+6. She is writing satire *in the vein of* the eighteenth century, footnotes and all.
+
+**See also:** [in the manner of](#in-the-manner-of), [along the lines of](#along-the-lines-of), [akin to](#akin-to), [like](#like), [similar to](#similar-to)
+
 ### like
 
 **Pronunciation:** /laɪk/ &middot; a stressed word with no weak form, which is one reason it is so audible in American speech &middot; *LYKE*
+**Русский:** как; подобно; вроде — сходство; требует существительного, тогда как as вводит роль или придаточное
 **Type:** simple — the same spelling is also a verb (*I like it*), an adjective (*of like mind*), a suffix (*childlike*), a quotative (*he was like, no*), and a discourse particle. Only the preposition takes an object and means "resembling." &middot; **Register:** neutral as a preposition; the clause-taking and approximating uses are informal
 **Complement:** noun phrase, **objective-case pronoun** (*like me*, never *like I*), gerund (*It's like driving on ice*), or a *wh*-free relative (*like what happened last year*). **A finite clause after *like* — *like I said*, *like you told me* — is informal**; careful American writing uses *as* or *as if* there. Never a *that*-clause.
 **Pattern:** [be/look/sound/feel/smell/taste/seem] *like* [noun phrase] &middot; [verb] *like* [noun phrase] &middot; *Like* [noun phrase], [clause] &middot; *just/much/something/more like* [noun phrase] &middot; *It is (not) like* [person] *to* [verb]
@@ -179,6 +247,7 @@ The general-purpose word of resemblance, and the busiest preposition in spoken A
 ### similar to
 
 **Pronunciation:** /ˈsɪmələr tu/ &middot; weak /ˈsɪmələr tə/ &middot; *SIM-uh-lur too*
+**Русский:** похожий на; сходный с — нейтральный, более технический аналог like
 **Type:** complex (adjective + fixed preposition; marginal) &middot; **Register:** neutral to formal
 **Complement:** noun phrase, objective-case pronoun, gerund (*similar to running a small business*), or a *wh*-free relative (*similar to what we saw last spring*) — never a finite clause. ***Similar with* and *similar than* are errors**; the preposition is always *to*.
 **Pattern:** [be/look/sound] *similar to* [noun phrase] &middot; [noun] *similar to* [noun phrase] &middot; *broadly/roughly/strikingly similar to* [noun phrase]
@@ -194,9 +263,40 @@ States a measured resemblance. It is the neutral technical alternative to *like*
 
 **See also:** [like](#like), [akin to](#akin-to), [comparable to](#comparable-to), [the same as](#the-same-as), [on a par with](#on-a-par-with), [different from](#different-from), [as](#as)
 
+### the likes of
+
+**Pronunciation:** /ðə ˈlaɪks əv/ &middot; weak /ðə ˈlaɪks ə/ &middot; *the* is /ði/ before a vowel &middot; *thuh-LYKES uhv*
+**Русский:** такие, как; подобные — вводит примеры; в зависимости от контекста с восхищением или презрением
+**Type:** complex (definite article + plural noun + fixed *of*; the noun *likes* survives in almost nothing else) &middot; **Register:** neutral in the example-listing sense; the *the likes of us* sense is informal and rarely neutral in tone
+**Complement:** noun phrase, objective-case pronoun (*the likes of us*, *the likes of him*), or a list of names — **never a finite clause and never a gerund.** The **verb agrees with what follows *of***, not with the plural *likes*: *the likes of Ford and GM have moved on*, but *the likes of Babe Ruth comes along once a century*.
+**Pattern:** *the likes of* [name or list] &middot; *never seen the likes of* [noun phrase] &middot; *not for the likes of us* &middot; *and the like* — the fixed tail phrase, which is **not** this preposition and takes no object
+**Variants:** the singular ***the like of*** (*the like of which*) is older and now chiefly formal; *the likes of which* is the everyday American version. ***And the likes of that***, for "and that sort of thing," is dialectal and does not belong in writing.
+**Contrast:** Against [such as](11-complex-multiword.md#such-as), which is colorless, *the likes of* always carries an attitude — admiration, dismissal, or awe — and it names people and institutions rather than kinds of thing: *poets such as Frost*, but *the likes of Frost and Stevens*. Against *like*, it is heavier and always plural in form. And note that the tone flips with the frame: after a negative it is awe (*never seen the likes of it*), while *the likes of us* and *the likes of him* mark a social boundary and are never neutral.
+
+Names people or institutions of a recognized kind, and colors them as it does so. All three of its uses do the same grammatical work — they head a comparison class — and they differ entirely in tone, from a flat list of examples to open contempt.
+
+**1. Such as — introducing prominent examples.**
+
+1. Grants went to *the likes of* Carnegie Mellon and Georgia Tech.
+2. She has beaten *the likes of* three former champions this season.
+3. The street lost *the likes of* the hardware store and the shoe repair within a year.
+
+**2. After a negative — nothing comparable, the awe frame.**
+
+4. Nobody on that crew had ever seen *the likes of* the storm that came through in June.
+5. There will never be *the likes of* her in that department again.
+
+**3. *The likes of us* — the class marker.**
+
+6. That club was never built for *the likes of us*.
+7. He wasn't going to take advice from *the likes of* a night clerk.
+
+**See also:** [such as](11-complex-multiword.md#such-as), [as](#as), [like](#like), [similar to](#similar-to), [in the vein of](#in-the-vein-of)
+
 ### the same as
 
 **Pronunciation:** /ðə ˈseɪm æz/ &middot; weak /ðə ˈseɪm əz/, and in fast speech /ðə ˈseɪm z/ after a vowel &middot; *the* is /ði/ before a vowel &middot; *thuh-SAME az*
+**Русский:** такой же, как; то же самое, что — тождество; второе слово именно as, а не that
 **Type:** complex (determiner + adjective + fixed *as*; marginal — *same* is a fully live adjective, and the string is listed because choosing its second word is the problem) &middot; **Register:** neutral
 **Complement:** noun phrase, **objective-case pronoun** (*the same as me*), gerund (*the same as driving at night*), or a *wh*-free relative (*the same as what we had before*). A **finite clause** can follow (*the same as it always was*), but there the *as* has gone back to conjunction duty, exactly as it does at [as](#as). **Never a *that*-clause.** ***The same than* and *the same like* are errors.**
 **Pattern:** [be] *the same as* [noun phrase] &middot; *the same* [noun] *as* [noun phrase] — the two words split around the noun &middot; *much/exactly/about/roughly the same as* [noun phrase] &middot; *not the same as* [noun phrase]
@@ -227,6 +327,7 @@ Says two things are one thing, or that they match in every way currently being c
 ### unlike
 
 **Pronunciation:** /ʌnˈlaɪk/ &middot; *un-LYKE*
+**Русский:** в отличие от — отрицает сходство, которое читатель мог предположить; также «не свойственно кому-л.»
 **Type:** simple (historically *un-* + *like*, no longer analyzed as two pieces) — also an adjective (*two unlike quantities*) &middot; **Register:** neutral
 **Complement:** noun phrase, objective-case pronoun (*unlike me*), or gerund (*unlike driving in the city*) — never a finite clause. *Unlike I said* is not English; *unlike what I said* is the repair.
 **Pattern:** *Unlike* [noun phrase], [clause] &middot; [clause], *unlike* [noun phrase] &middot; [be] *unlike* [noun phrase] &middot; *not unlike* [noun phrase]
@@ -259,6 +360,7 @@ These name a benchmark and measure something against it. The whole section is go
 ### as against
 
 **Pronunciation:** /əz əˈɡɛnst/ &middot; full /æz əˈɡɛnst/ &middot; *uhz-uh-GENST*
+**Русский:** по сравнению с (о цифрах); юр. в отношении такой-то стороны — книжн.
 **Type:** complex &middot; **Register:** formal; sense 1 statistical and journalistic, sense 2 legal
 **Complement:** noun phrase, very often a bare figure — never a finite clause, never a gerund
 **Pattern:** [figure] *as against* [figure] &middot; [clause] *as against* [noun phrase] &middot; *as against* [party] — in legal use
@@ -280,9 +382,73 @@ Sets two figures or two positions opposite each other. In general prose it is a 
 
 **See also:** [compared with](#compared-with), [versus](#versus), [as opposed to](#as-opposed-to), [against](#against), [relative to](#relative-to)
 
+### as between
+
+**Pronunciation:** /əz bɪˈtwin/ &middot; full /æz bɪˈtwin/ &middot; weak /əz bəˈtwin/ &middot; *uhz-bih-TWEEN*
+**Русский:** в отношениях между (сторонами) — юр.: правило действует только для названных сторон
+**Type:** complex &middot; **Register:** formal; **legal** — an American meets it in a contract's risk-allocation clause, an insurance policy, or a judicial opinion, and almost nowhere else
+**Complement:** a noun phrase naming **two or more parties**, normally two joined by *and* (*as between the buyer and the seller*) or a plural noun (*as between the partners*) — **never a finite clause and never a gerund.** Because *between* is itself a preposition, a pronoun in the complement is objective: *as between you and me*, never *as between you and I*.
+**Pattern:** *As between* [party] *and* [party], [clause] &middot; [clause] *as between* [parties] &middot; *as between themselves*
+**Variants:** *as among* is used where there are more than two parties and a drafter wants to be exact; in practice *as between* covers both. Bare *between*, in its ordinary senses, is at [between](03-place-position.md#between).
+**Contrast:** **Not a comparison.** *As between* does not mean "compared with"; it confines a statement to the internal relations of the named parties and says nothing about anyone else. *As between the buyer and the seller, the seller bears the loss* allocates the loss between those two and leaves the insurer's rights exactly where they were — which is precisely why drafters use it. Against [as against](#as-against) sense 2, which names the one party a right is good against, *as between* names the two parties whose relations are being fixed. Against [in privity with](#in-privity-with), which asserts that a legal relationship exists at all, this one takes the relationship for granted and divides something up inside it.
+
+Confines a rule to the parties named and to no one else. It is allocation language: the clause that follows settles who bears a loss, a cost, or a priority as between the two of them, while the outside world's rights stay untouched.
+
+1. *As between* the buyer and the seller, risk of loss passes on delivery.
+2. The indemnity decides who pays *as between* the contractor and the owner.
+3. *As between* the two lienholders, the bank recorded first and takes priority.
+4. *As between* the partners, profits are split evenly, whatever the tax return shows.
+5. The clause governs *as between* the parties only; third parties keep whatever rights they had.
+6. The court divided the fee *as between* the two firms that had worked the case.
+
+**See also:** [as against](#as-against), [in privity with](#in-privity-with), [versus](#versus), [relative to](#relative-to), [between](03-place-position.md#between)
+
+### at a discount to
+
+**Pronunciation:** /ət ə ˈdɪskaʊnt tu/ &middot; weak /ət ə ˈdɪskaʊnt tə/ &middot; full /æt ə ˈdɪskaʊnt tu/ &middot; *at-uh-DISS-kownt too*
+**Русский:** с дисконтом к; дешевле, чем — фин.: ниже названного эталона цены
+**Type:** complex &middot; **Register:** formal; **finance** — securities analysis, earnings coverage, and appraisal, where an American meets it in a research note or on a business page
+**Complement:** a noun phrase naming a **benchmark that carries a price or a value** — a peer group, an index, book value, net asset value, par, an appraisal, a trailing average. **Never a finite clause and never a gerund**, and never an adjective: *at a discount to cheap* is not English, because the complement has to be something you could put a number on.
+**Pattern:** [trade/sell/change hands/be valued] *at a discount to* [benchmark] &middot; *at a* [figure] *percent discount to* [benchmark] &middot; *at a discount* — adverbial, no complement
+**Variants:** bare *at a discount*, with nothing after it, means only "below the usual price" and is an adverbial rather than this preposition. Note the two prepositions: the purchase you get cheaply takes *on* (*a discount on the fare*), while the benchmark you fall below takes *to*.
+**Contrast:** The exact mirror of [at a premium to](#at-a-premium-to), and the direction is the whole point: **the complement is the reference, and the subject is the cheap one.** *The stock trades at a discount to its peers* says the stock is the bargain. Against plain *below*, which just reports a smaller number, *at a discount to* implies the two are comparable assets and quietly invites a judgment about whether the gap is deserved. Against *relative to*, which only normalizes one quantity by another, this one states which way the gap runs.
+
+Prices one thing below a named benchmark. It is relative-value language: nobody who uses it is interested in the absolute number, only in the size and the direction of the gap between that number and whatever is doing the measuring.
+
+1. The shares have traded *at a discount to* book value since the writedown.
+2. Regional banks are still cheap *at a discount to* the sector as a whole.
+3. The bonds were issued *at a discount to* par and redeemed at face value.
+4. Closed-end funds routinely sell *at a discount to* net asset value.
+5. The county sold the parcels *at a discount to* the appraised price to get them built on.
+6. Its multiple sits *at a fifteen percent discount to* every comparable name in the index.
+
+**See also:** [at a premium to](#at-a-premium-to), [relative to](#relative-to), [compared with](#compared-with), [as against](#as-against), [in proportion to](#in-proportion-to)
+
+### at a premium to
+
+**Pronunciation:** /ət ə ˈprimiəm tu/ &middot; weak /ət ə ˈprimiəm tə/ &middot; full /æt ə ˈprimiəm tu/ &middot; *at-uh-PREE-mee-um too*
+**Русский:** с премией к; дороже, чем — фин.: выше названного эталона цены
+**Type:** complex &middot; **Register:** formal; **finance** — merger coverage, securities analysis, and real estate
+**Complement:** a noun phrase naming a **benchmark price or value** — a closing price, a trailing average, a peer group, net asset value, the conventional price. **Never a finite clause and never a gerund.**
+**Pattern:** [trade/sell/bid/value X] *at a premium to* [benchmark] &middot; *at a* [figure] *percent premium to* [benchmark] &middot; *pay a premium for* [thing] — a different frame with a different preposition
+**Variants:** bare *at a premium*, with no complement, is a separate idiom meaning "scarce and therefore dear" (*parking downtown is at a premium*) and has nothing to do with a benchmark. Note the two prepositions: what you pay extra **for** takes *for* (*paid a premium for waterfront*), while the level you exceed takes *to*. ***At a premium over*** is common in speech and is not wrong, but *to* is the house form in financial writing.
+**Contrast:** The exact mirror of [at a discount to](#at-a-discount-to), with the same directional rule: **the complement is the reference, and the subject is the expensive one.** Against *above*, which reports a bigger number and nothing more, *at a premium to* asserts that the two are comparable and that somebody is paying extra by choice. Against *on a par with*, which says the measurement came out even, it says it did not.
+
+Prices one thing above a named benchmark. It is the language of takeover bids and of anything sold on reputation, and its whole content is the gap: how far above the reference the price sits, and whether that gap is deserved.
+
+1. The offer values the company *at a premium to* Friday's closing price.
+2. Waterfront lots sell *at a premium to* anything two blocks inland.
+3. The bid came in *at a thirty percent premium to* the thirty-day average.
+4. Short-dated paper is trading *at a premium to* the rest of the curve.
+5. Organic milk moves *at a premium to* the conventional price all year.
+6. The fund has traded *at a premium to* net asset value since the spring.
+
+**See also:** [at a discount to](#at-a-discount-to), [relative to](#relative-to), [on a par with](#on-a-par-with), [compared with](#compared-with), [over](#over)
+
 ### by comparison with
 
 **Pronunciation:** /baɪ kəmˈpɛrəsən wɪθ/ &middot; weak /wəθ/ &middot; also /wɪð/ before a vowel &middot; *by kum-PAIR-uh-sun with*
+**Русский:** по сравнению с — книжн., более развёрнутый вариант compared with
 **Type:** complex &middot; **Register:** formal
 **Complement:** noun phrase, gerund, or a *wh*-free relative (*by comparison with what the company earned*) — never a finite clause
 **Pattern:** [clause] *by comparison with* [noun phrase] &middot; *By comparison with* [noun phrase], [clause]
@@ -302,6 +468,7 @@ Puts the main clause beside a benchmark and invites the reader to notice the gap
 ### commensurate with
 
 **Pronunciation:** /kəˈmɛnsərət wɪθ/ &middot; weak /wəθ/ &middot; also /kəˈmɛnʃərət/ &middot; *kuh-MEN-sur-ut with*
+**Русский:** соразмерный; соответствующий — книжн.: величина под стать другой (зарплата по опыту)
 **Type:** complex (adjective + fixed preposition; marginal) &middot; **Register:** formal; standard in job postings, compensation policy, and sentencing
 **Complement:** noun phrase, or a free relative headed by *what* (*commensurate with what the job demands*) — **never a finite clause**; a gerund is grammatical but rare (*commensurate with running a department that size*)
 **Pattern:** [noun] *commensurate with* [noun phrase] &middot; *be commensurate with* [noun phrase]
@@ -320,6 +487,7 @@ Says one quantity is fitting for another — large enough, serious enough, or lo
 ### comparable to
 
 **Pronunciation:** /ˈkɑmpərəbəl tu/ &middot; weak /ˈkɑmpərəbəl tə/ &middot; also /kəmˈpɛrəbəl/, with the stress pulled onto the second syllable — now common in American speech and still objected to by some &middot; *KAHM-pur-uh-bul too*
+**Русский:** сопоставимый с; сравнимый с — достаточно схожи, чтобы сравнение было правомерным
 **Type:** complex (adjective + fixed preposition; marginal) &middot; **Register:** neutral to formal; standard in appraisal, statistics, and compensation
 **Complement:** noun phrase, objective-case pronoun (*comparable to hers*), gerund (*comparable to running a small hotel*), or a *wh*-free relative (*comparable to what the coasts pay*) — never a finite clause. ***Comparable than* is an error**, and ***comparable as* is not English.**
 **Pattern:** [be/seem] *comparable to* [noun phrase] &middot; [noun] *comparable to* [noun phrase] &middot; *roughly/broadly/directly comparable to* [noun phrase] &middot; *not comparable to* [noun phrase]
@@ -341,6 +509,7 @@ Says two things are alike enough to be measured against each other. Its claim is
 ### compared to
 
 **Pronunciation:** /kəmˈpɛrd tu/ &middot; weak /kəmˈpɛrd tə/ &middot; *kum-PAIRD too*
+**Русский:** по сравнению с — самый частый вариант; также «уподобляя чему-л. другому по природе»
 **Type:** complex (a fossilized past participle — it needs no subject to control it, which is what makes it a preposition rather than a dangling modifier) &middot; **Register:** neutral
 **Complement:** noun phrase, objective-case pronoun (*compared to me*), gerund (*compared to driving*), or a free relative (*compared to what we paid last year*) — never a finite clause
 **Pattern:** [clause] *compared to* [noun phrase] &middot; *Compared to* [noun phrase], [clause] &middot; [noun] *compared to* [noun phrase]
@@ -366,6 +535,7 @@ Sets the main clause against a benchmark — most often an earlier period, a riv
 ### compared with
 
 **Pronunciation:** /kəmˈpɛrd wɪθ/ &middot; weak /wəθ/ &middot; also /wɪð/ before a vowel &middot; *kum-PAIRD with*
+**Русский:** по сравнению с — при сопоставлении однородных величин; норма газетной и финансовой прозы
 **Type:** complex (fossilized past participle) &middot; **Register:** neutral to formal; the house style of most American newspapers and of financial reporting
 **Complement:** noun phrase, objective-case pronoun, gerund, or a free relative (*compared with what we paid last year*) — never a finite clause
 **Pattern:** [clause] *compared with* [noun phrase] &middot; *Compared with* [noun phrase], [clause] &middot; [figure], *compared with* [figure]
@@ -386,6 +556,7 @@ Puts two comparable things side by side so that the difference between them can 
 ### equal to
 
 **Pronunciation:** /ˈikwəl tu/ &middot; weak /ˈikwəl tə/ &middot; *EE-kwul too*
+**Русский:** равный, равен — о величине; также «способный справиться» (equal to the task)
 **Type:** complex (adjective + fixed preposition; marginal — *equal* is also a live adjective, a noun, and a verb) &middot; **Register:** neutral to formal; standard in mathematics, finance, and contracts
 **Complement:** noun phrase, objective-case pronoun (*equal to hers*), or a free relative (*equal to what the state contributes*) — **never a finite clause and never a gerund**. In the *equal to the task* frame the complement is always a noun naming a demand. ***Equal than* is an error**, and *equal with* survives only inside the frozen *on equal terms with*.
 **Pattern:** [quantity] *is equal to* [quantity] &middot; [payment/share] *equal to* [amount] &middot; *be equal to* [the task / the occasion / the challenge] &middot; *equal in* [respect] *to* [noun phrase]
@@ -412,6 +583,7 @@ Says two quantities come out the same, or that a person or a thing is adequate t
 ### in comparison with
 
 **Pronunciation:** /ɪn kəmˈpɛrəsən wɪθ/ &middot; weak /wəθ/ &middot; also /wɪð/ before a vowel &middot; *in kum-PAIR-uh-sun with*
+**Русский:** в сравнении с — книжн., самый длинный вариант того же сравнения
 **Type:** complex &middot; **Register:** formal
 **Complement:** noun phrase, gerund, or a free relative (*in comparison with what a new building would have cost*) — never a finite clause
 **Pattern:** [clause] *in comparison with* [noun phrase] &middot; *In comparison with* [noun phrase], [clause]
@@ -431,6 +603,7 @@ Sets the main clause beside a benchmark at full length. Everything it does, *com
 ### in proportion to
 
 **Pronunciation:** /ɪn prəˈpɔrʃən tu/ &middot; weak /ɪn prəˈpɔrʃən tə/ &middot; *in pruh-POR-shun too*
+**Русский:** пропорционально; соразмерно — одна величина меняется вместе с другой
 **Type:** complex &middot; **Register:** formal to neutral
 **Complement:** noun phrase, or a free relative headed by *what* (*out of all proportion to what actually happened*) — **never a finite clause and never a gerund**
 **Pattern:** [clause] *in proportion to* [noun phrase] &middot; *in direct/inverse proportion to* [noun phrase] &middot; *out of (all) proportion to* [noun phrase]
@@ -451,6 +624,7 @@ States that one quantity varies with another. In technical writing it means prec
 ### next to
 
 **Pronunciation:** /ˈnɛkst tu/ &middot; casual /ˈnɛks tə/, the medial *t* usually dropping &middot; *NEKST too*
+**Русский:** по сравнению с; на фоне — разг.: рядом с эталоном второе выглядит бледно
 **Type:** complex &middot; **Register:** neutral; conversational
 **Complement:** in the comparative sense, a noun phrase, an objective-case pronoun (*next to her*), or a free relative (*next to what the coasts pay*) — never a finite clause, never a gerund
 **Pattern:** *Next to* [noun phrase], [clause] — nearly always fronted, and nearly always followed by an evaluation
@@ -469,6 +643,7 @@ Puts something beside a standard and lets the standard win. The construction is 
 ### on a par with
 
 **Pronunciation:** /ɑn ə ˈpɑr wɪθ/ &middot; weak /wəθ/ &middot; casual /ɑnəˈpɑr wəθ/, the three words running together &middot; *on-uh-PAR with*
+**Русский:** наравне с; на одном уровне с — признаёт две вещи равными по качеству
 **Type:** complex &middot; **Register:** neutral to formal
 **Complement:** noun phrase, objective-case pronoun, gerund, or a free relative (*on a par with what the hospitals offer*) — never a finite clause
 **Pattern:** *be on a par with* [noun phrase] &middot; [verb] *on a par with* [noun phrase] &middot; *roughly/about/nowhere near on a par with* [noun phrase]
@@ -488,6 +663,7 @@ Ranks two things as equals. It is almost always deployed to defend or to dispute
 ### relative to
 
 **Pronunciation:** /ˈrɛlətɪv tu/ &middot; weak /ˈrɛlətɪv tə/ &middot; *REL-uh-tiv too*
+**Русский:** относительно; по отношению к — по сравнению с выбранной точкой отсчёта; фин., науч.
 **Type:** complex &middot; **Register:** formal; standard in finance, physics, and statistics
 **Complement:** noun phrase, gerund, or a free relative (*relative to what the coasts pay*) — never a finite clause
 **Pattern:** [clause] *relative to* [noun phrase] &middot; *Relative to* [noun phrase], [clause] &middot; [noun] *relative to* [noun phrase]
@@ -507,6 +683,7 @@ Measures one quantity against another that has been chosen as the reference poin
 ### than
 
 **Pronunciation:** /ðæn/ &middot; weak /ðən/, and in fast speech a syllabic /ðn̩/ — the weak form is the normal one, and the strong form appears only under emphasis or in citation &middot; *THAN / thun*
+**Русский:** чем — присоединяет второй член сравнения после сравнительной степени (taller than me — выше меня)
 **Type:** simple — **and this is the whole problem: *than* is also a subordinating conjunction**, spelled and pronounced identically &middot; **Register:** neutral
 **Complement:** as a preposition, a noun phrase or an **objective-case pronoun** (*taller than me*); as a conjunction, a finite clause (*taller than I am*) or a clause reduced by ellipsis. A free relative also works (*more than what we budgeted*). The fixed *than whom* is always prepositional and always objective. **Never a *that*-clause**, and **never a bare infinitive** except in the two frozen frames *rather than* (*chose to walk rather than wait*) and *would rather … than* (*I'd rather walk than wait*) — note that *no sooner … than* takes a **finite clause**, not an infinitive.
 **Pattern:** [comparative adjective/adverb] *than* [noun phrase] &middot; [comparative] *than* [clause] &middot; *more/less/fewer* [noun] *than* [noun phrase] &middot; *other than*, *rather than*, *no sooner … than*, *no less a figure than* [noun phrase], *than whom*
@@ -541,6 +718,7 @@ The comparison word proper. Everything else in this file names a benchmark; *tha
 ### vis-à-vis
 
 **Pronunciation:** /ˌviz ə ˈvi/ &middot; also /ˌvi zɑ ˈvi/ &middot; both written *s* letters are silent &middot; *veez-ah-VEE*
+**Русский:** по отношению к; в сравнении с — книжн., из фр. «лицом к лицу»; о взаимном положении сторон
 **Type:** complex (from French, literally "face to face") &middot; **Register:** formal, and faintly self-conscious in American prose
 **Complement:** noun phrase or gerund — never a finite clause
 **Pattern:** [clause] *vis-à-vis* [noun phrase] &middot; *Vis-à-vis* [noun phrase], [clause] &middot; [noun] *vis-à-vis* [noun phrase]
@@ -564,6 +742,7 @@ Comparison notices a difference; contrast insists on it; opposition takes a side
 ### against
 
 **Pronunciation:** /əˈɡɛnst/ &middot; also /əˈɡeɪnst/, a minority American pronunciation and commoner in British English &middot; *uh-GENST / uh-GAYNST*
+**Русский:** против; вопреки; на фоне — противостояние, состязание или сверка с эталоном
 **Type:** simple &middot; **Register:** neutral
 **Complement:** noun phrase, objective-case pronoun, gerund (*argued against raising the fee*), or a free relative (*against what the committee recommended*) — **never a finite clause**. Write *against the claim that he knew*, not *against he knew*.
 **Pattern:** [verb] *against* [noun phrase] &middot; [noun] *against* [noun phrase] &middot; *as against* [noun phrase] &middot; stranded: *the amendment she voted* **against**
@@ -603,6 +782,7 @@ Sets one thing in opposition to another — in argument, in a contest, or as a m
 ### anti
 
 **Pronunciation:** /ˈæntaɪ/ &middot; also /ˈænti/ — the /aɪ/ pronunciation is the American default and the /i/ one is heard in British English and in some fixed compounds &middot; *AN-ty / AN-tee*
+**Русский:** против — разг.; в американском английском почти всегда приставка анти-, а не самостоятельный предлог
 **Type:** simple (marginal — from the Greek preposition; in American English it is overwhelmingly a **prefix**, and its free-standing prepositional use is rare) &middot; **Register:** informal, and **chiefly British as a preposition**; American English uses the hyphenated prefix (*anti-tax*, *anti-union*) or the ordinary preposition *against*
 **Complement:** noun phrase only, with or without a determiner (*anti unions*, *anti the whole idea*) — never a clause, never a gerund. Note that *anti* is also a **noun** (*the antis picketed the hearing*) and an **adjective** (*Are you pro or anti?*), and in neither of those does it take an object.
 **Pattern:** *be anti* [noun phrase] &middot; *anti-* [noun] as a prefix — the American norm &middot; *pro or anti* — predicative, no object
@@ -622,6 +802,7 @@ Declares the speaker on the opposite side of something. It is one of a very smal
 ### as distinct from
 
 **Pronunciation:** /əz dɪˈstɪŋkt frʌm/ &middot; weak /əz dɪˈstɪŋkt frəm/ &middot; *uhz-dih-STINKT-frum*
+**Русский:** в отличие от; в противоположность — книжн.: разграничивает два смешиваемых понятия
 **Type:** complex &middot; **Register:** formal; academic, legal, and philosophical
 **Complement:** noun phrase, gerund, or a free relative (*as distinct from what they tell pollsters*) — never a finite clause
 **Pattern:** [noun phrase] *as distinct from* [noun phrase] &middot; [clause], *as distinct from* [noun phrase]
@@ -641,6 +822,7 @@ Marks a boundary between two things that habitually get run together. It is the 
 ### as opposed to
 
 **Pronunciation:** /əz əˈpoʊzd tu/ &middot; weak /əz əˈpoʊzd tə/ &middot; *uhz-uh-POHZD too*
+**Русский:** в отличие от; а не — называет тот вариант, о котором речь как раз не идёт
 **Type:** complex (fossilized past participle) &middot; **Register:** neutral
 **Complement:** noun phrase, objective-case pronoun, gerund (*as opposed to waiting*), or an adjective or prepositional phrase parallel to whatever precedes it (*careless as opposed to malicious*) — never a finite clause
 **Pattern:** [X] *as opposed to* [Y] &middot; [clause], *as opposed to* [noun phrase] &middot; *As opposed to* [noun phrase], [clause]
@@ -658,9 +840,31 @@ Names the alternative you are *not* talking about, so the reader knows which of 
 
 **See also:** [rather than](#rather-than), [as distinct from](#as-distinct-from), [in contrast to](#in-contrast-to), [in favor of](#in-favor-of), [instead of](11-complex-multiword.md#instead-of)
 
+### at loggerheads with
+
+**Pronunciation:** /ət ˈlɔɡərhɛdz wɪθ/ &middot; weak /ət ˈlɔɡərhɛdz wəθ/ &middot; also /ˈlɑɡərhɛdz/ wherever *cot* and *caught* have merged &middot; full /æt/ &middot; *at-LOG-ur-hedz-with*
+**Русский:** на ножах с; в затяжной ссоре с — разг./газетн., о зашедшем в тупик конфликте
+**Type:** complex &middot; **Register:** neutral; journalistic — a headline and lead-paragraph phrase more than a conversational one
+**Complement:** noun phrase or objective-case pronoun naming a **person, a group, or an institution** — **never a finite clause and never a gerund**, and, unlike *at odds with*, **never a document, an account, or a set of figures**: *his testimony is at loggerheads with the log* is wrong, and the repair is *at odds with*. The subject of the quarrel is named with *over*, not with a second *with*.
+**Pattern:** *be at loggerheads with* [person/body] &middot; *be at loggerheads over* [issue] &middot; *the two sides are at loggerheads* — adverbial, no complement
+**Variants:** *at loggerheads* with no complement is the commonest form of all (*the two agencies have been at loggerheads all year*) and is an adverbial rather than this preposition. There is no singular *at loggerhead*; the noun is a seventeenth-century word of disputed origin and never appears here in the singular.
+**Contrast:** The vivid cousin of [at odds with](#at-odds-with), and narrower in two ways. *At odds with* covers people and evidence alike; this one covers only parties. And *at loggerheads with* adds **deadlock**: the quarrel has been running a while and neither side is moving, which is why it collocates so heavily with *have been* and *remain*. Against *in opposition to*, which states a position formally taken, this reports a state of relations.
+
+Says two parties are locked in a quarrel that is going nowhere. Reporters reach for it when the news is not that a disagreement exists but that it has hardened, which is why the phrase so often arrives with a stretch of time attached.
+
+1. The mayor has been *at loggerheads with* the council since the budget vote.
+2. Two trustees remain *at loggerheads with* the rest of the board over the endowment.
+3. The union is *at loggerheads with* management on scheduling and on nothing else.
+4. She spent a decade *at loggerheads with* the agency she now runs.
+5. The two states are *at loggerheads with* each other over water rights that were supposed to be settled in 1922.
+6. Both departments were *at loggerheads with* the contractor by the time the slab was poured.
+
+**See also:** [at odds with](#at-odds-with), [at variance with](#at-variance-with), [in opposition to](#in-opposition-to), [up against](#up-against), [against](#against)
+
 ### at odds with
 
 **Pronunciation:** /ət ˈɑdz wɪθ/ &middot; weak /ət ˈɑdz wəθ/ &middot; full /æt ˈɑdz wɪθ/ &middot; *at-ODZ-with*
+**Русский:** в разладе с; не согласуется с — о ссорящихся людях и о противоречащих друг другу сведениях
 **Type:** complex &middot; **Register:** neutral
 **Complement:** noun phrase, objective-case pronoun, or a free relative (*at odds with what the audit found*) — never a finite clause, never a gerund
 **Pattern:** *be at odds with* [noun phrase] &middot; [noun] *at odds with* [noun phrase] &middot; *at odds over* [topic] — the subject of the quarrel takes *over*, not *with*
@@ -686,6 +890,7 @@ Says two things fail to fit together. What is at odds may be two people who cann
 ### at variance with
 
 **Pronunciation:** /ət ˈvɛriəns wɪθ/ &middot; weak /ət ˈvɛriəns wəθ/ &middot; full /æt ˈvɛriəns wɪθ/ &middot; *at-VAIR-ee-unss-with*
+**Русский:** расходится с; не согласуется с — книжн., юр. и науч.: два документа или результата не сходятся
 **Type:** complex &middot; **Register:** formal; legal, scientific, and administrative
 **Complement:** noun phrase, or a free relative headed by *what* (*at variance with what the other witnesses said*) — **never a finite clause and never a gerund**
 **Pattern:** *be at variance with* [noun phrase] &middot; [noun] *at variance with* [noun phrase]
@@ -705,6 +910,7 @@ Reports that two accounts, records, or results fail to agree. It survives chiefl
 ### contrary to
 
 **Pronunciation:** /ˈkɑntrɛri tu/ &middot; weak /ˈkɑntrɛri tə/ &middot; stress on the first syllable; the unrelated adjective meaning "perverse" is /kənˈtrɛri/, *kun-TRAIR-ee* &middot; *KAHN-trair-ee too*
+**Русский:** вопреки; в противоречие с — не просто отличие, а опровержение правила или ожидания
 **Type:** complex &middot; **Register:** formal to neutral
 **Complement:** noun phrase, or a free relative headed by *what* (*contrary to what the ads say*) — **never a *that*-clause and never a gerund**
 **Pattern:** *Contrary to* [noun phrase], [clause] &middot; [clause], *contrary to* [noun phrase] &middot; *run contrary to* [noun phrase]
@@ -730,6 +936,7 @@ Asserts that one thing contradicts another — a rule, an instruction, an expect
 ### counter to
 
 **Pronunciation:** /ˈkaʊntər tu/ &middot; weak /ˈkaʊntər tə/ &middot; *KOWN-tur too*
+**Русский:** вразрез с; в противоположном направлении от — метафора механическая, а не моральная
 **Type:** complex &middot; **Register:** formal to neutral
 **Complement:** noun phrase, or a free relative headed by *what* (*counter to what the data show*) — **never a finite clause and never a gerund**
 **Pattern:** *run counter to* [noun phrase] &middot; *fly counter to* [noun phrase] &middot; [be/act] *counter to* [noun phrase]
@@ -748,6 +955,7 @@ Says that one thing works in the opposite direction from another. The metaphor i
 ### despite
 
 **Pronunciation:** /dɪˈspaɪt/ &middot; weak /dəˈspaɪt/ &middot; *dih-SPYT*
+**Русский:** несмотря на — уступка: названное обстоятельство должно было помешать, но не помешало
 **Type:** simple &middot; **Register:** neutral
 **Complement:** noun phrase or gerund (*despite knowing better*) — **never a finite clause.** To put a clause after it you must expand to *despite the fact that*.
 **Pattern:** *Despite* [noun phrase], [clause] &middot; [clause] *despite* [noun phrase] &middot; *despite* [verb-ing] &middot; *despite the fact that* [clause]
@@ -767,6 +975,7 @@ Concedes a fact that would normally have prevented what the main clause reports.
 ### in contrast to
 
 **Pronunciation:** /ɪn ˈkɑntræst tu/ &middot; weak /ɪn ˈkɑntræst tə/ &middot; the noun *contrast* is stressed on the first syllable; the verb *contrast* is /kənˈtræst/, *kun-TRAST* &middot; *in KAHN-trast too*
+**Русский:** в отличие от; в противоположность — прямо противопоставляет два однородных предмета
 **Type:** complex &middot; **Register:** formal to neutral
 **Complement:** noun phrase, gerund, or a free relative (*in contrast to what the survey found*) — never a finite clause
 **Pattern:** *In contrast to* [noun phrase], [clause] &middot; [clause], *in contrast to* [noun phrase]
@@ -787,6 +996,7 @@ Sets its object against the main clause as the opposite case and warns the reade
 ### in defiance of
 
 **Pronunciation:** /ɪn dɪˈfaɪəns əv/ &middot; weak /ɪn dɪˈfaɪəns ə/ &middot; *in dih-FYE-unss uhv*
+**Русский:** вопреки; в нарушение — сделано сознательно наперекор приказу, запрету или предупреждению
 **Type:** complex &middot; **Register:** formal to neutral; journalistic
 **Complement:** noun phrase or gerund, though the noun phrase is far commoner — never a finite clause
 **Pattern:** [clause] *in defiance of* [noun phrase] &middot; *In defiance of* [noun phrase], [clause]
@@ -802,9 +1012,36 @@ Says the act was done knowingly against an authority, an order, or a warning. It
 
 **See also:** [counter to](#counter-to), [contrary to](#contrary-to), [in opposition to](#in-opposition-to), [notwithstanding](12-marginal-participial.md#notwithstanding), [in spite of](11-complex-multiword.md#in-spite-of)
 
+### in despite of
+
+**Pronunciation:** /ɪn dɪˈspaɪt əv/ &middot; weak /ɪn dəˈspaɪt ə/ &middot; *in dih-SPYT uhv*
+**Русский:** наперекор; несмотря на — устар., книжн.: старая полная форма despite (Шекспир, старые тексты)
+**Type:** complex (the ancestor of the one-word *despite*, which is what was left after the frame wore away) &middot; **Register:** **archaic and literary.** It is ordinary in Middle English and still current through the sixteenth and seventeenth centuries; by the nineteenth it is already a period effect, and in modern American prose it survives only in quotation, in historical narrative, or as deliberate flavor. **The living forms are *despite* and *in spite of*, and nothing in this entry should be read as ordinary modern usage.**
+**Complement:** noun phrase or gerund — **never a finite clause.** In older texts the complement is very often a person or a personified force (*in despite of Fortune*, *in despite of the abbot*), and that is a good clue that the older, stronger sense is meant.
+**Pattern:** *in despite of* [noun phrase] &middot; *in despite of* [person] — the older "in scorn of, to the vexation of" frame
+**Variants:** the modern equivalents are [despite](#despite) and [in spite of](11-complex-multiword.md#in-spite-of). Note that ***despite of*** — the phrase with *in* dropped — **is an error in modern English**, and the reason writers keep producing it by accident is that it is a half-memory of this genuine older form. Middle English also had the bare *maugre*, now wholly obsolete.
+**Contrast:** Two things separate it from modern *despite*. **Register:** nobody writes it today without meaning to sound old. **Meaning:** the older phrase leans toward *in defiance of*, because the noun *despite* originally meant contempt — *in despite of the law* meant "in scorn of it," not merely "even though it existed." Against *in spite of*, which is the same phrase worn smooth and now purely concessive, *in despite of* keeps the sting.
+
+The old, long form of *despite*, and the one that still carries the word's original charge of contempt. A modern American meets it in Shakespeare, in the older strata of legal and devotional English, and in writing that is imitating them.
+
+**1. In defiance of; in scorn of — the older and stronger sense.**
+
+1. He held the pass *in despite of* every order to withdraw.
+2. The charter was confirmed *in despite of* the abbot's protest.
+3. She kept the old spelling *in despite of* her editors — a deliberate period joke in a modern sentence.
+
+**2. Concessive: even though — the sense that survived into modern *despite*.**
+
+4. *In despite of* wind and tide, they made the harbor before dark.
+5. *In despite of* Fortune, the family prospered another eighty years.
+6. He married her *in despite of* his father; a modern writer would say *despite his father's objections*.
+
+**See also:** [despite](#despite), [in defiance of](#in-defiance-of), [in the teeth of](#in-the-teeth-of), [in spite of](11-complex-multiword.md#in-spite-of), [notwithstanding](12-marginal-participial.md#notwithstanding)
+
 ### in opposition to
 
 **Pronunciation:** /ɪn ˌɑpəˈzɪʃən tu/ &middot; weak /ɪn ˌɑpəˈzɪʃən tə/ &middot; *in ah-puh-ZISH-un too*
+**Русский:** против; в противовес — книжн., юр. и полит.: то, чему акт или документ противопоставлен
 **Type:** complex &middot; **Register:** formal; parliamentary, legal, and academic
 **Complement:** noun phrase or gerund (*in opposition to raising the cap*) — never a finite clause
 **Pattern:** [clause] *in opposition to* [noun phrase] &middot; *In opposition to* [noun phrase], [clause] &middot; [document] *in opposition to* [motion]
@@ -821,9 +1058,36 @@ Names what an act, a document, or a movement is set against. It is the standard 
 
 **See also:** [in support of](#in-support-of), [against](#against), [anti](#anti), [in defiance of](#in-defiance-of), [in favor of](#in-favor-of)
 
+### in the teeth of
+
+**Pronunciation:** /ɪn ðə ˈtiθ əv/ &middot; weak /ɪn ðə ˈtiθ ə/ &middot; *in-thuh-TEETH uhv*
+**Русский:** наперекор; прямо навстречу — книжн., образн.: против ветра, сопротивления, очевидных фактов
+**Type:** complex &middot; **Register:** formal to literary; still live in journalism, where it is a heightened alternative to *in the face of*
+**Complement:** a noun phrase naming **a force that is pushing back** — a gale, a boycott, an injunction, resistance, the evidence. **Never a finite clause and never a gerund**: *in the teeth of knowing better* is not English. The complement must be capable of opposing something, which is why *in the teeth of a mild afternoon* is nonsense while *in the teeth of a February gale* is not.
+**Pattern:** [clause] *in the teeth of* [noun phrase] &middot; *In the teeth of* [noun phrase], [clause] &middot; *in the teeth of the wind/the gale* — the original nautical frame
+**Variants:** [in the face of](11-complex-multiword.md#in-the-face-of) is the plain modern equivalent and is far commoner; *in the teeth of* keeps the picture of a headwind. There is no singular *in the tooth of*, and *into the teeth of* is a phrase of movement, not this one.
+**Contrast:** Against *despite*, which merely concedes an obstacle, *in the teeth of* insists the obstacle was actively resisting — the metaphor is a boat beating to windward. Against *in defiance of*, which attributes an intent to disobey some authority, this attributes only persistence against a force, and the force need not be anybody's decision. Against *in the face of*, it is stronger and a shade literary, and it is the only one of the three that still works literally, of wind.
+
+Says the thing was done straight into whatever was resisting it. The phrase comes off a sailing ship, and the picture of a vessel driving to windward is still faintly present every time it is used of a vote, a boycott, or a body of evidence.
+
+**1. Against active opposition or contrary evidence — the ordinary modern use.**
+
+1. The bill passed *in the teeth of* the strongest lobbying campaign in years.
+2. She won the seat *in the teeth of* her own party's leadership.
+3. *In the teeth of* the evidence, he went on insisting the numbers were fine.
+4. They rebuilt the pier *in the teeth of* two more storms that winter.
+
+**2. Straight into the wind — the literal nautical original.**
+
+5. The little boat beat north *in the teeth of* a February gale.
+6. The crew worked all night *in the teeth of* forty-knot winds.
+
+**See also:** [in the face of](11-complex-multiword.md#in-the-face-of), [in defiance of](#in-defiance-of), [despite](#despite), [against](#against), [up against](#up-against)
+
 ### inconsistent with
 
 **Pronunciation:** /ˌɪnkənˈsɪstənt wɪθ/ &middot; weak /wəθ/ &middot; also /wɪð/ before a vowel &middot; *in-kun-SISS-tunt with*
+**Русский:** несовместимый с; противоречащий — книжн.: два утверждения не могут быть верны одновременно
 **Type:** complex (adjective + fixed preposition; marginal) &middot; **Register:** formal to neutral; legal, medical, scientific, and administrative
 **Complement:** noun phrase, or a free relative headed by *what* (*inconsistent with what the witness told police*) — **never a finite clause**; a gerund is possible but rare. ***Inconsistent to* and *inconsistent from* are errors** — the preposition is *with*.
 **Pattern:** *be inconsistent with* [noun phrase] &middot; [noun] *inconsistent with* [noun phrase] &middot; *wholly/materially/facially inconsistent with* [noun phrase] &middot; *to the extent inconsistent with* [instrument] — the contract formula
@@ -850,6 +1114,7 @@ Says two things cannot both be true, or that one does not square with the other.
 ### opposite to
 
 **Pronunciation:** /ˈɑpəzɪt tu/ &middot; weak /ˈɑpəzɪt tə/ &middot; *AH-puh-zit too*
+**Русский:** противоположный чему-л. — обратное по смыслу; в значении «напротив» американцы говорят across from
 **Type:** complex — though the bare preposition *opposite*, with no *to*, is the ordinary American form &middot; **Register:** formal; **in the spatial sense *opposite to* is chiefly British**, and American English says *across from* or bare *opposite*
 **Complement:** noun phrase or objective-case pronoun — never a finite clause, never a gerund
 **Pattern:** [noun] *opposite to* [noun phrase] &middot; [noun/clause] *opposite* [noun phrase] — the bare American form &middot; *play/star opposite* [person]
@@ -876,9 +1141,31 @@ Places one thing facing another, literally or figuratively. Of the three constru
 
 **See also:** [contrary to](#contrary-to), [in contrast to](#in-contrast-to), [in front of](11-complex-multiword.md#in-front-of), [opposite to](11-complex-multiword.md#opposite-to)
 
+### out of sync with
+
+**Pronunciation:** /ˌaʊt əv ˈsɪŋk wɪθ/ &middot; weak /ˌaʊd ə ˈsɪŋk wəθ/, the medial *t* flapping and *of* reducing to a single vowel &middot; *owt-uv-SINK with*
+**Русский:** не в такт с; рассогласован с — разг.: сбой в синхронности или согласованности, а не в истинности
+**Type:** complex &middot; **Register:** informal to neutral; conversational and journalistic
+**Complement:** noun phrase, objective-case pronoun, or a free relative (*out of sync with what people said at the hearings*) — **never a finite clause and never a gerund.** *Out of sync with running the meeting* is not English; write *out of sync with the way the meeting is run*.
+**Pattern:** [be/fall/get/drift] *out of sync with* [noun phrase] &middot; *badly/wildly/increasingly out of sync with* [noun phrase] &middot; *out of sync* — adverbial, no complement
+**Variants:** *out of synch with* is an accepted spelling and is losing ground. *Out of step with* is the near-synonym and is the better choice where the mismatch is one of politics or opinion rather than of timing.
+**Contrast:** The everyday member of the mismatch family, and the one that survives best in speech. Against *inconsistent with*, which says two accounts cannot both be true, *out of sync with* says only that two things are not moving together — a schedule, a market, a mood. Against *at variance with*, it is not a finding: nobody writes it in an audit. Against *at odds with*, it implies no quarrel, only drift. Its positive is [in sync with](#in-sync-with), which is treated with the prepositions of alignment.
+
+Reports that two things which ought to be moving together are not. What has gone wrong is timing or alignment rather than truth, which is why the phrase covers an audio track, a bus schedule, and a politician's instincts with no change of meaning.
+
+1. The bus schedule is *out of sync with* the ferry, and always has been.
+2. Their pay scale has fallen badly *out of sync with* the rest of the region.
+3. The audio drifts *out of sync with* the picture about ten minutes in.
+4. He sounded *out of sync with* his own party for the first time in years.
+5. The council's priorities are wildly *out of sync with* what people said at the hearings.
+6. Planting dates are increasingly *out of sync with* the last frost.
+
+**See also:** [in sync with](#in-sync-with), [at odds with](#at-odds-with), [inconsistent with](#inconsistent-with), [at variance with](#at-variance-with), [in line with](#in-line-with)
+
 ### up against
 
 **Pronunciation:** /ʌp əˈɡɛnst/ &middot; *up-uh-GENST*
+**Русский:** перед лицом чего-л.; столкнуться с — разг.: препятствие, которое надо преодолеть
 **Type:** complex &middot; **Register:** informal to neutral
 **Complement:** noun phrase or objective-case pronoun — never a finite clause, never a gerund. The idiom *up against it*, meaning "in serious trouble," takes only the fixed pronoun *it*.
 **Pattern:** *be up against* [noun phrase] &middot; *come up against* [noun phrase] &middot; *be up against it* — fixed idiom
@@ -897,6 +1184,7 @@ Names the obstacle the subject has to get past. It is the idiom of tight deadlin
 ### versus
 
 **Pronunciation:** /ˈvɜrsəs/ &middot; commonly /ˈvɜrsəz/ in speech &middot; *VUR-suss*
+**Русский:** против; в противовес — в состязаниях, судебных делах и при выборе из двух (сокр. vs., v.)
 **Type:** simple (Latin, "turned against") &middot; **Register:** neutral; the abbreviations are the usual written forms
 **Complement:** noun phrase, characteristically a **bare** one with no determiner (*quality versus quantity*). It joins two parallel constituents of almost any kind — nouns, gerunds, adjectives, even prepositional phrases — and in headlines and titles it frequently joins them with no verb in the sentence at all. Never a finite clause.
 **Pattern:** [X] *versus* [Y] &middot; [X] *vs.* [Y] &middot; [case name] *v.* [case name]
@@ -927,6 +1215,7 @@ A small, tight family. All three name two options and tell you which one survive
 ### in preference to
 
 **Pronunciation:** /ɪn ˈprɛfrəns tu/ &middot; weak /ɪn ˈprɛfrəns tə/ &middot; *in PREF-runss too*
+**Русский:** предпочтительнее, чем; вместо — книжн.; после него стоит отвергнутый вариант
 **Type:** complex &middot; **Register:** formal
 **Complement:** noun phrase or gerund — never a finite clause
 **Pattern:** [choose/use/appoint X] *in preference to* [Y] &middot; [clause] *in preference to* [noun phrase]
@@ -945,6 +1234,7 @@ Names the option that was passed over. It is stiffer than *rather than* and much
 ### over
 
 **Pronunciation:** /ˈoʊvər/ &middot; a stressed word with no weak form; the clipped *o'er* /ɔr/ is poetic only &middot; *OH-vur*
+**Русский:** предпочесть чему-л.; выше, над — выбор в пользу первого, а также превосходство в ранге или счёте
 **Type:** simple — also an adverb (*it tipped over*), a verb particle (*think it over*), an adjective (*the game is over*), and a noun in cricket &middot; **Register:** neutral
 **Complement:** noun phrase, objective-case pronoun, gerund (*chose settling over going to trial*), or a free relative (*over what the state was offering*) — never a finite clause. **The preposition always has an object; the adverb and the verb particle never do** (*it tipped over*, *think it over*), and that is the test for which word you are looking at.
 **Pattern:** [choose/pick/prefer/take/select X] *over* [Y] &middot; [advantage/edge/lead/priority/claim] *over* [noun phrase] &middot; [verb of authority] *over* [noun phrase] &middot; not prepositional: [verb] *over* with no object
@@ -984,6 +1274,7 @@ Ranks one thing above another. In every sense below two candidates are in play a
 ### rather than
 
 **Pronunciation:** /ˈræðər ðæn/ &middot; weak /ˈræðər ðən/ &middot; *RA-thur-thun*
+**Русский:** а не; вместо того чтобы — называет отвергнутый вариант; берёт имя, герундий или инфинитив
 **Type:** complex — and grammatically a hybrid: it behaves as a preposition before a noun phrase and as a coordinator before a verb &middot; **Register:** neutral
 **Complement:** noun phrase, gerund (*rather than waiting*), **bare infinitive** when a *to*-infinitive precedes it (*chose to walk rather than wait*), adjective, or prepositional phrase — whatever is parallel to the item being contrasted. **Never a finite clause:** *rather than he should go* is not English.
 **Pattern:** [X] *rather than* [Y] &middot; *Rather than* [noun phrase / verb-ing], [clause] &middot; [subject], *rather than* [noun phrase], [**singular** verb] &middot; *would rather* [bare verb] *than* [bare verb] — a separate construction
@@ -1018,6 +1309,7 @@ The positive half of the field. Four of these — *in favor of*, *in support of*
 ### consistent with
 
 **Pronunciation:** /kənˈsɪstənt wɪθ/ &middot; weak /wəθ/ &middot; also /wɪð/ before a vowel &middot; *kun-SISS-tunt with*
+**Русский:** согласуется с; совместимо с — мед., юр.: не противоречит и укладывается в известную картину
 **Type:** complex (adjective + fixed preposition; marginal) &middot; **Register:** formal to neutral; heavily used in medicine, law, and engineering
 **Complement:** noun phrase, gerund, or a free relative (*consistent with what arbitrators have done*) — never a finite clause. ***Consistent to* is an error.**
 **Pattern:** *be consistent with* [noun phrase] &middot; [noun] *consistent with* [noun phrase] &middot; *findings/injuries/results consistent with* [noun phrase]
@@ -1037,6 +1329,7 @@ Says two things can both be true at once, or that a thing fits a known pattern. 
 ### in accordance with
 
 **Pronunciation:** /ɪn əˈkɔrdəns wɪθ/ &middot; weak /wəθ/ &middot; also /wɪð/ before a vowel &middot; *in uh-KOR-dunss with*
+**Русский:** в соответствии с; согласно — книжн., юр.: действие отвечает норме или предписанию
 **Type:** complex &middot; **Register:** formal; legal, regulatory, and technical
 **Complement:** noun phrase, or a free relative headed by *what* (*in accordance with what the statute requires*) — **never a finite clause and never a gerund**
 **Pattern:** [clause] *in accordance with* [noun phrase] &middot; *In accordance with* [noun phrase], [clause]
@@ -1053,9 +1346,31 @@ States that an act conformed to a governing rule, standard, or instrument. It is
 
 **See also:** [in keeping with](#in-keeping-with), [in line with](#in-line-with), [consistent with](#consistent-with), [contrary to](#contrary-to), [according to](11-complex-multiword.md#according-to)
 
+### in conformity with
+
+**Pronunciation:** /ɪn kənˈfɔrməti wɪθ/ &middot; weak /wəθ/ &middot; also /wɪð/ before a vowel &middot; *in kun-FOR-muh-tee with*
+**Русский:** в соответствии с; сообразно — книжн., юр. и бухг.: сделано по установленному стандарту
+**Type:** complex &middot; **Register:** formal; **legal, regulatory, and accounting** — an American meets it in an auditor's report, a building code, a consent decree, or a will
+**Complement:** noun phrase, or a free relative headed by *what* (*in conformity with what the code requires*) — **never a finite clause and never a gerund.** *In conformity with installing the meter* is not English: the complement names the standard, never the act being measured against it.
+**Pattern:** [clause] *in conformity with* [rule/standard/instrument] &middot; *In conformity with* [noun phrase], [clause] &middot; *prepared/audited/constructed in conformity with* [standard]
+**Variants:** *in conformity to* occurs and is not an error, but *with* is far commoner in American English; the bare noun takes either (*conformity with the statute*, *conformity to type*). ***In conformity of* is an error.** The near-synonyms of the same register are [in accordance with](#in-accordance-with), [in compliance with](11-complex-multiword.md#in-compliance-with), and [pursuant to](11-complex-multiword.md#pursuant-to); *under* and *as required by* are the plain-English replacements.
+**Contrast:** Interchangeable with *in accordance with* in nearly every sentence, and a shade stiffer. Against *in compliance with*, which reports that a specific obligation was discharged, *in conformity with* reports that a thing matches a standard's shape — which is why an accountant's statements are prepared *in conformity with* generally accepted accounting principles rather than in compliance with them. Against *consistent with*, which claims only that nothing conflicts, it claims positive agreement. Its negative is the noun phrase *nonconformity with*, not a preposition.
+
+States that a thing was made, done, or drawn up to match a governing standard. It is the auditor's and the code official's word, and in ordinary prose *under*, *following*, or *as required by* nearly always reads better.
+
+1. The statements were prepared *in conformity with* generally accepted accounting principles.
+2. All wiring must be *in conformity with* the state electrical code before the meter goes in.
+3. *In conformity with* the settlement, the district rewrote its discipline policy over the summer.
+4. The trustees distributed the residue *in conformity with* the terms of the will.
+5. Nothing about the addition is *in conformity with* what the historic district requires.
+6. The samples were collected *in conformity with* the protocol filed with the agency.
+
+**See also:** [in accordance with](#in-accordance-with), [in line with](#in-line-with), [in keeping with](#in-keeping-with), [consistent with](#consistent-with), [contrary to](#contrary-to), [pursuant to](11-complex-multiword.md#pursuant-to)
+
 ### in defense of
 
 **Pronunciation:** /ɪn dɪˈfɛns əv/ &middot; weak /ɪn dɪˈfɛns ə/ &middot; *in dih-FENSS uhv*
+**Русский:** в защиту кого/чего-л. — предполагает, что объект под угрозой или подвергся нападкам
 **Type:** complex &middot; **Register:** neutral to formal
 **Complement:** noun phrase, objective-case pronoun, or gerund (*in defense of doing nothing*) — never a finite clause
 **Pattern:** [clause] *in defense of* [noun phrase] &middot; *In defense of* [noun phrase], [clause] &middot; *in* [possessive] *defense* — the short alternative frame
@@ -1085,6 +1400,7 @@ Names what is being protected or argued for. Something has to be under threat fo
 ### in favor of
 
 **Pronunciation:** /ɪn ˈfeɪvər əv/ &middot; weak /ɪn ˈfeɪvər ə/ &middot; *in FAY-vur uhv*
+**Русский:** в пользу; за — одобрение; выбранный вариант; юр. в чью-либо пользу
 **Type:** complex &middot; **Register:** neutral to formal
 **Complement:** noun phrase, objective-case pronoun, or gerund (*in favor of raising the cap*) — never a finite clause
 **Pattern:** *be in favor of* [noun phrase / verb-ing] &middot; *vote in favor of* [noun phrase] &middot; [drop/abandon X] *in favor of* [Y] &middot; *rule/decide/find in favor of* [party]
@@ -1114,6 +1430,7 @@ Declares approval of something, names the option that won a choice, or assigns a
 ### in keeping with
 
 **Pronunciation:** /ɪn ˈkipɪŋ wɪθ/ &middot; weak /wəθ/ &middot; also /wɪð/ before a vowel &middot; *in KEE-ping with*
+**Русский:** в духе; в соответствии с — согласуется с традицией, характером или волей кого-л.
 **Type:** complex &middot; **Register:** formal to neutral
 **Complement:** noun phrase, or a free relative headed by *what* (*in keeping with what neighboring districts have offered*) — **never a finite clause**; a gerund is grammatical but awkward
 **Pattern:** [clause], *in keeping with* [noun phrase] &middot; *In keeping with* [noun phrase], [clause]
@@ -1132,6 +1449,7 @@ Says the act fits the tone or the precedent of whatever came before it. It is ev
 ### in line with
 
 **Pronunciation:** /ɪn ˈlaɪn wɪθ/ &middot; weak /wəθ/ &middot; also /wɪð/ before a vowel &middot; *in LYNE with*
+**Русский:** в соответствии с; совпадает с — о результате, совпавшем с прогнозом, планом или нормой
 **Type:** complex &middot; **Register:** neutral; business and journalism
 **Complement:** noun phrase, or a free relative headed by *what* (*in line with what the committee recommended*) — **never a finite clause and never a gerund**
 **Pattern:** [clause] *in line with* [noun phrase] &middot; *In line with* [noun phrase], [clause] &middot; *bring/come/fall in line with* [noun phrase]
@@ -1147,9 +1465,36 @@ Reports that something matched a forecast, a policy, or a standard. It is the st
 
 **See also:** [in keeping with](#in-keeping-with), [in accordance with](#in-accordance-with), [consistent with](#consistent-with), [on a par with](#on-a-par-with), [in line with](11-complex-multiword.md#in-line-with)
 
+### in privity with
+
+**Pronunciation:** /ɪn ˈprɪvəti wɪθ/ &middot; weak /wəθ/ &middot; also /wɪð/ before a vowel &middot; *in PRIV-uh-tee with*
+**Русский:** юр. в договорных или иных правовых отношениях с — термин: между сторонами есть права и обязанности
+**Type:** complex &middot; **Register:** **legal; a term of art.** An American meets it in a warranty claim against a manufacturer, a lease or covenant dispute, or an opinion about whether an earlier judgment binds somebody — and essentially nowhere else. Outside law it reads as a malapropism for *privy to*.
+**Complement:** noun phrase or objective-case pronoun naming a **party** — **never a finite clause and never a gerund.** *In privity with buying the house* is not English. What the two parties share is named with *of* inside the phrase rather than by a second complement: *in privity of contract with the manufacturer*, *in privity of estate with the original lessee*.
+**Pattern:** *be in privity with* [party] &middot; *in privity of contract with* [party] &middot; *in privity of estate with* [party] &middot; *not in privity with* [party] — the negative is the commoner form, because the point is usually that the plaintiff is a stranger to the deal
+**Variants:** the bare noun takes *of* (*privity of contract*) or *between* (*privity between the parties*). The adjective *privy to*, meaning "let in on a secret," shares the Latin root and nothing else and is not this phrase.
+**Contrast:** **Not a comparison and not an alignment of opinion.** It asserts that a legal relationship exists close enough for one party to enforce, or be bound by, what the other did. Against [as between](#as-between), which takes the relationship for granted and divides something up inside it, *in privity with* is the prior question of whether there is a relationship at all. Against being *a party to* a contract, which means you signed it, privity reaches successors who never did: a later buyer can be in privity with the original covenantor without having signed anything.
+
+Says two parties stand in a legal relationship close enough to carry rights and duties between them. Whether privity exists is the threshold question in a whole class of American lawsuits, and the phrase is almost always doing that work — deciding who is allowed to sue whom.
+
+**1. Privity of contract — the warranty and third-party frame.**
+
+1. The subcontractor was never *in privity with* the owner and has to sue the general contractor instead.
+2. Most states have dropped the rule that a buyer must be *in privity with* the manufacturer to bring a warranty claim.
+3. The insurer is not *in privity with* the repair shop and cannot enforce the estimate against it.
+
+**2. Privity of estate and of succession — leases, covenants, and preclusion.**
+
+4. The tenant is *in privity of estate with* the landlord for as long as the lease runs.
+5. Because the assignee stands *in privity with* the original lessee, the covenant runs with the land.
+6. The court held that the second plaintiff was not *in privity with* the first, so the earlier judgment did not bind her.
+
+**See also:** [as between](#as-between), [as against](#as-against), [in conformity with](#in-conformity-with), [on behalf of](#on-behalf-of), [in violation of](11-complex-multiword.md#in-violation-of)
+
 ### in support of
 
 **Pronunciation:** /ɪn səˈpɔrt əv/ &middot; weak /ɪn səˈpɔrt ə/ &middot; *in suh-PORT uhv*
+**Русский:** в поддержку; в подтверждение — о поступке, документе или доказательствах, а не просто о мнении
 **Type:** complex &middot; **Register:** formal
 **Complement:** noun phrase or gerund (*in support of raising the minimum wage*) — never a finite clause
 **Pattern:** [clause] *in support of* [noun phrase] &middot; *In support of* [noun phrase], [clause] &middot; [document] *in support of* [motion] &middot; *evidence in support of* [proposition]
@@ -1175,9 +1520,31 @@ Names what an act, a document, or a body of evidence is backing. Unlike *in favo
 
 **See also:** [in opposition to](#in-opposition-to), [in favor of](#in-favor-of), [in defense of](#in-defense-of), [on behalf of](#on-behalf-of), [on the side of](#on-the-side-of)
 
+### in sync with
+
+**Pronunciation:** /ɪn ˈsɪŋk wɪθ/ &middot; weak /wəθ/ &middot; also /wɪð/ before a vowel &middot; *in SINK with*
+**Русский:** в такт с; синхронно с; заодно с — разг.: совпадение по ритму, графику или пониманию
+**Type:** complex (clipped from *in synchronization with*) &middot; **Register:** informal to neutral; conversational and technical, and increasingly at home in business writing
+**Complement:** noun phrase, objective-case pronoun (*in sync with him*), or a free relative (*in sync with what the rest of the team is doing*) — **never a finite clause and never a gerund.** *In sync with running the meeting* is not English; write *in sync with the way the meeting is run*.
+**Pattern:** [be/stay/get/fall] *in sync with* [noun phrase] &middot; *bring* [X] *in sync with* [Y] &middot; *in sync* — adverbial, no complement
+**Variants:** ***in synch with*** is an accepted spelling and is losing ground; *in sync* is now the dominant American form. The full *in synchronization with* is technical and rare.
+**Contrast:** The informal member of the conformity family. Against *in line with*, which reports that a figure matched a forecast, *in sync with* reports that two things are moving together in time or in intention — two departments can be in sync without ever having discussed anything. Against *in agreement with*, it is not about opinion at all. Its negative, [out of sync with](#out-of-sync-with), is much the commoner of the two and is treated with the prepositions of contrast, exactly as *inconsistent with* is treated apart from *consistent with*.
+
+Says two things are running together — on the same beat, the same schedule, or the same understanding. The metaphor is mechanical and reached general English from film and audio work, which is why it still fits best wherever timing is involved.
+
+1. Payroll is finally *in sync with* the new accounting calendar.
+2. The two cameras have to stay *in sync with* each other to the frame.
+3. Her instincts are *in sync with* what the neighborhood actually wants.
+4. Wage growth is roughly *in sync with* inflation for the first time in three years.
+5. Get your calendar *in sync with* the shared one before Monday.
+6. The lights were never *in sync with* the traffic on that stretch of road.
+
+**See also:** [out of sync with](#out-of-sync-with), [in line with](#in-line-with), [consistent with](#consistent-with), [in keeping with](#in-keeping-with), [on a par with](#on-a-par-with)
+
 ### on behalf of
 
 **Pronunciation:** /ɑn bɪˈhæf əv/ &middot; weak /ɑn bɪˈhæf ə/ &middot; *on bih-HAF uhv*
+**Русский:** от имени; в интересах кого-л. — говорящий или действующий выступает как представитель
 **Type:** complex &middot; **Register:** formal
 **Complement:** noun phrase or objective-case pronoun — never a finite clause, never a gerund
 **Pattern:** [clause] *on behalf of* [noun phrase] &middot; *On behalf of* [noun phrase], [clause] &middot; *on* [possessive] *behalf* — the possessive frame
@@ -1207,6 +1574,7 @@ Names the person or body an actor is representing. It is the standard opening of
 ### on the side of
 
 **Pronunciation:** /ɑn ðə ˈsaɪd əv/ &middot; weak /ɑn ðə ˈsaɪd ə/ &middot; *on-thuh-SIDE uhv*
+**Русский:** на стороне кого-л. — в споре; в обороте err on the side of — сознательно склониться к (осторожности)
 **Type:** complex &middot; **Register:** neutral
 **Complement:** noun phrase or objective-case pronoun; in the *err on the side of* frame, an abstract noun naming a quality (*caution*, *generosity*, *disclosure*) — never a finite clause, never a gerund
 **Pattern:** *be on the side of* [noun phrase] &middot; *come down on the side of* [noun phrase] &middot; *err on the side of* [quality] &middot; *on* [possessive] *side* — the short frame
@@ -1233,6 +1601,7 @@ Names the camp you belong to. Sense 1 is about loyalty in a dispute; sense 2 is 
 ### pro
 
 **Pronunciation:** /proʊ/ &middot; *PROH*
+**Русский:** за; сторонник чего-л. — разг. и редк. как самостоятельный предлог; обычно приставка про-
 **Type:** simple (marginal — from the Latin preposition; in American English overwhelmingly a **prefix**) &middot; **Register:** informal as a free-standing preposition and **more current in British English** than American; the prefixed form is neutral
 **Complement:** noun phrase only, usually bare (*pro union*, *pro the merger*) — never a clause, never a gerund. Distinguish the **noun** *pro*, meaning "a professional" or "an argument in favor" (*the pros and cons*), and the **adjective** (*Is she pro or anti?*), neither of which takes an object.
 **Pattern:** *be pro* [noun phrase] &middot; *pro-* [noun] as a prefix — the American norm &middot; *pro and con*

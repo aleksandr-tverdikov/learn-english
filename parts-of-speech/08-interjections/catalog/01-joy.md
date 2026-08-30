@@ -15,6 +15,7 @@ The core yells — plus the one hum that does the same job with the mouth shut: 
 ### hooray
 
 **Pronunciation:** /hʊˈreɪ/, /həˈrɑ/ &middot; *hoo-RAY, huh-RAH*
+**Русский:** ура! — классический возглас ликования; у взрослых часто плоско-иронично
 **Type:** primary &middot; **Register:** neutral
 **Variants:** *hurray*, *hurrah*, *hoorah*, *hooray for*
 
@@ -32,6 +33,7 @@ The classic English cheer of celebration; the *-ay* spellings take the *hoo-RAY*
 ### hot dog
 
 **Pronunciation:** /ˈhɑt ˌdɔɡ/ &middot; *HOT-dawg*
+**Русский:** ух ты!, вот это да! — устар., радость от хорошей новости
 **Type:** secondary &middot; **Register:** dated
 **Variants:** *hot diggity*, *hot diggity dog*, *hot ziggity*
 
@@ -48,6 +50,7 @@ An old-fashioned shout of delight at good news, heard mostly from older speakers
 ### huzzah
 
 **Pronunciation:** /həˈzɑ/ &middot; *huh-ZAH*
+**Русский:** ура! — устар., книжн.; сегодня нарочито театрально, в шутку
 **Type:** primary &middot; **Register:** dated
 **Variants:** *huzza*, *huzzah!*
 
@@ -64,6 +67,7 @@ An archaic cheer that survives at Renaissance fairs, in historical writing, and 
 ### mmm
 
 **Pronunciation:** /m̩ː/ &middot; *MMM* — a hum rather than ordinary speech sounds: the lips stay shut and the voice holds one note, usually starting high and sliding down, so any respelling is an approximation
+**Русский:** м-м-м — довольное мычание с закрытым ртом, обычно о вкусной еде
 **Type:** primary &middot; **Register:** informal
 **Variants:** *mmmm*, *mm*, *mmmmm*
 
@@ -80,6 +84,7 @@ The closed-mouth hum of physical pleasure — lips shut, one hummed note, no vow
 ### whee
 
 **Pronunciation:** /wi/ &middot; *WEE*
+**Русский:** и-и-и!, ух ты! — детский визг восторга на горке или качелях
 **Type:** primary &middot; **Register:** childish
 **Variants:** *wheee*, *wheeee*
 
@@ -96,6 +101,7 @@ The sound of pure physical delight — the noise you make going down a slide, ov
 ### whoopee
 
 **Pronunciation:** /ˈwupi/, /wʊˈpi/ &middot; *WOO-pee, woo-PEE*
+**Русский:** ура!, ух ты! — устар.; сегодня почти всегда иронично
 **Type:** primary &middot; **Register:** dated
 **Variants:** *whoopie*, *whoop-de-doo*
 
@@ -112,6 +118,7 @@ A cheer of delight that has drifted almost entirely into sarcasm — a sincere *
 ### woo-hoo
 
 **Pronunciation:** /ˌwuˈhu/ &middot; *woo-HOO*
+**Русский:** у-ху!, ура! — обычный современный возглас радости, разг.
 **Type:** primary &middot; **Register:** informal
 **Variants:** *woohoo*, *whoo-hoo*, *woo*, *whoo*, *woohooo*
 
@@ -128,6 +135,7 @@ The standard modern American cheer, at home both out loud and in writing, where 
 ### woot
 
 **Pronunciation:** /wut/ &middot; *WOOT*
+**Русский:** вут! — интернет-сленг, геймерское «ура», пишется w00t
 **Type:** primary &middot; **Register:** internet/text
 **Variants:** *w00t*, *woot woot*, *w00t w00t*
 
@@ -144,6 +152,7 @@ The gamer and message-board spelling of the cheer, classically written with zero
 ### yahoo
 
 **Pronunciation:** /jɑˈhu/, /jəˈhu/ &middot; *yah-HOO, yuh-HOO*
+**Русский:** эге-гей!, ура! — залихватский клич с «ковбойским» оттенком
 **Type:** primary &middot; **Register:** informal
 **Variants:** *wahoo* (/wɑˈhu/), *yahooey*
 
@@ -160,6 +169,7 @@ A whooping cheer with a country, wide-open-spaces flavor. Note that the noun *ya
 ### yay
 
 **Pronunciation:** /jeɪ/ &middot; *YAY*
+**Русский:** ура! — тёплое негромкое «ура», самое частое в переписке
 **Type:** primary &middot; **Register:** informal
 **Variants:** *yaay*, *yayyy*, *yayyyy*
 
@@ -177,6 +187,7 @@ The everyday cheer of small, warm happiness — softer and friendlier than *woo-
 ### yee-haw
 
 **Pronunciation:** /ˈjiˌhɔ/, /ˌjiˈhɔ/ &middot; *YEE-haw, yee-HAW*
+**Русский:** и-ха!, эге-гей! — ковбойский клич, разг.
 **Type:** primary &middot; **Register:** informal (Western and Southern flavor, used nationwide)
 **Variants:** *yeehaw*, *yee-hah*, *yeeeehaw*
 
@@ -193,6 +204,7 @@ The cowboy whoop, Western and Southern in origin and used all over the country a
 ### yippee
 
 **Pronunciation:** /ˈjɪpi/, /jɪˈpi/ &middot; *YIP-ee, yip-EE*
+**Русский:** ура!, ух ты! — задорное, детское
 **Type:** primary &middot; **Register:** childish
 **Variants:** *yippie*, *yipee*, *yippee-ki-yay*
 
@@ -213,6 +225,7 @@ Shouted at the moment of winning. Several of these are aimed at a loser, which m
 ### aw yeah
 
 **Pronunciation:** /ˌɔ ˈjɛə/ &middot; *aw-YEAH*
+**Русский:** о да-а! — предвкушение и смакование чего-то приятного
 **Type:** phrase &middot; **Register:** very informal
 **Variants:** *aww yeah*, *awww yeah*, *aw yiss*
 
@@ -229,6 +242,7 @@ A drawn-out sound of relish and anticipation, used when something you have been 
 ### bam
 
 **Pronunciation:** /bæm/ &middot; *BAM*
+**Русский:** бам!, бац! — «и вот оно»: момент, когда всё сходится
 **Type:** onomatopoeic &middot; **Register:** informal
 **Variants:** *ba-bam*, *bammo*, *bam!*
 
@@ -245,6 +259,7 @@ A verbal drumbeat marking the instant something lands — a last step completed,
 ### boo-yah
 
 **Pronunciation:** /ˈbuˌjɑ/, /buˈjɑ/ &middot; *BOO-yah, boo-YAH*
+**Русский:** знай наших!, получите! — громкий возглас победы с подначкой, разг.
 **Type:** primary &middot; **Register:** very informal
 **Variants:** *booyah*, *boo-ya*, *boo-yeah*
 
@@ -261,6 +276,7 @@ A loud victory shout with a taunt built into it, popularized by the ESPN anchor 
 ### boom
 
 **Pronunciation:** /bum/ &middot; *BOOM*
+**Русский:** бум!, бах! — «и готово»: момент, когда дело сделано
 **Type:** onomatopoeic &middot; **Register:** informal
 **Variants:** *ka-boom*, *boom!*, *boom goes the dynamite*
 
@@ -277,6 +293,7 @@ Said at the instant something is finished, proven, or delivered, usually with a 
 ### cha-ching
 
 **Pronunciation:** /tʃəˈtʃɪŋ/ &middot; *chuh-CHING*
+**Русский:** дзынь! — звук кассы: деньги пошли
 **Type:** onomatopoeic &middot; **Register:** informal
 **Variants:** *ka-ching*, *cha-ching!*
 
@@ -293,6 +310,7 @@ An imitation of an old cash register drawer, said when money comes in or a deal 
 ### gotcha
 
 **Pronunciation:** /ˈɡɑtʃə/ &middot; *GOTCH-uh*
+**Русский:** попался! — поймал, подловил или наконец нашёл
 **Type:** secondary &middot; **Register:** informal
 **Variants:** *got you*, *gotchya*, *gotcha!*
 
@@ -309,6 +327,7 @@ In this category, the shout of a catch made or a trick landed: you caught someon
 ### hell yeah
 
 **Pronunciation:** /ˌhɛl ˈjɛə/ &middot; *hel-YEAH*
+**Русский:** чёрт возьми, да!, ещё как! — груб. (мягкая брань), восторженное согласие
 **Type:** phrase &middot; **Register:** very informal (contains a mild profanity)
 **Variants:** *hell yes*, *aw hell yeah*, *hell to the yes*, *heck yeah* (the clean substitute)
 
@@ -325,6 +344,7 @@ Emphatic, delighted triumph with a swear word riding on it. *Hell* sits at the m
 ### in your face
 
 **Pronunciation:** /ˌɪn jɚ ˈfeɪs/ &middot; *in-yer-FACE*
+**Русский:** вот тебе!, съел? — злорадная подначка побеждённому, груб.
 **Type:** phrase &middot; **Register:** very informal (a taunt — genuinely rude outside close friendship)
 **Variants:** *in yo face*, *in your face!*
 
@@ -341,6 +361,7 @@ A pure gloat, shouted at the person you just beat. It is friendly between friend
 ### kapow
 
 **Pronunciation:** /kəˈpaʊ/ &middot; *kuh-POW*
+**Русский:** бабах!, бах! — комиксовый звук удара как эффектная точка
 **Type:** onomatopoeic &middot; **Register:** informal
 **Variants:** *ka-pow*, *pow*, *kapow!*
 
@@ -357,6 +378,7 @@ A comic-book punch sound borrowed as a celebration flourish: the effect lands, t
 ### let's go
 
 **Pronunciation:** /ˌlɛts ˈɡoʊ/ &middot; *lets-GO*
+**Русский:** поехали!, давай! — современный возглас азарта и радости
 **Type:** phrase &middot; **Register:** very informal
 **Variants:** *let's gooo*, *let's goooo*, *LET'S GO*, *let's freaking go*
 
@@ -373,6 +395,7 @@ The current American hype shout, yelled at any moment that is going your way —
 ### nailed it
 
 **Pronunciation:** /ˈneɪld ɪt/ &middot; *NAILED-it*
+**Русский:** получилось!, идеально! — «сделал точно как надо»; часто иронично после провала
 **Type:** phrase &middot; **Register:** informal
 **Variants:** *totally nailed it*, *nailed it!*
 
@@ -389,6 +412,7 @@ A self-congratulation said the moment you do something exactly right. Americans 
 ### oh yeah
 
 **Pronunciation:** /ˌoʊ ˈjɛə/ &middot; *oh-YEAH*
+**Русский:** о да!, вот так-то! — торжество, «моя взяла»
 **Type:** phrase &middot; **Register:** very informal
 **Variants:** *ohhh yeah*, *oh yeahhh*, *oh yeah!*
 
@@ -405,6 +429,7 @@ A shout of triumph or vindication at the moment something goes your way. Two rel
 ### score
 
 **Pronunciation:** /skɔr/ &middot; *SCORE*
+**Русский:** повезло!, вот это улов! — о выгодной или дармовой находке
 **Type:** secondary &middot; **Register:** informal
 **Variants:** *score!*, *big score*
 
@@ -421,6 +446,7 @@ Said when you get something good — cheaply, luckily, or for free. Unlike most 
 ### take that
 
 **Pronunciation:** /ˌteɪk ˈðæt/ &middot; *take-THAT*
+**Русский:** вот тебе!, получай! — злорадство в адрес побеждённого
 **Type:** phrase &middot; **Register:** very informal
 **Variants:** *and take that*, *take that!*
 
@@ -437,6 +463,7 @@ A gloat aimed at a beaten opponent, or — more safely — at an object, a machi
 ### yes
 
 **Pronunciation:** /jɛs/ &middot; *YES*
+**Русский:** да!, есть! — победный крик со сжатым кулаком; yesss — растянутый
 **Type:** secondary &middot; **Register:** informal
 **Variants:** *yess*, *yesss*, *yessss*, *yes!*
 
@@ -457,6 +484,7 @@ The small triumph of a piece clicking into place: you found it, you solved it, y
 ### aha
 
 **Pronunciation:** /ɑˈhɑ/ &middot; *ah-HAH*
+**Русский:** ага!, вот оно что! — озарение или разоблачение
 **Type:** primary &middot; **Register:** neutral
 **Variants:** *a-ha*, *ah-ha*, *ahaa*
 
@@ -473,6 +501,7 @@ The sound of something clicking into place — you have solved it, spotted it, o
 ### bingo
 
 **Pronunciation:** /ˈbɪŋɡoʊ/ &middot; *BING-oh*
+**Русский:** бинго!, в точку! — «именно так, угадал»
 **Type:** secondary &middot; **Register:** informal
 **Variants:** *bingo!*
 
@@ -489,6 +518,7 @@ From the game, where it is the shout that ends the round: it means "that is exac
 ### eureka
 
 **Pronunciation:** /jʊˈrikə/ &middot; *yoo-REE-kuh*
+**Русский:** эврика! — возглас о найденном решении, обычно с усмешкой
 **Type:** secondary &middot; **Register:** informal
 **Variants:** *eureka!*
 
@@ -505,6 +535,7 @@ Borrowed from Greek — "I have found it" — and attributed to Archimedes in th
 ### jackpot
 
 **Pronunciation:** /ˈdʒækˌpɑt/ &middot; *JAK-pot*
+**Русский:** джекпот!, вот это улов! — нашёл больше, чем искал
 **Type:** secondary &middot; **Register:** informal
 **Variants:** *jackpot!*, *hit the jackpot*
 
@@ -525,6 +556,7 @@ Mostly secondary interjections — ordinary adjectives shouted on their own. Thi
 ### all right
 
 **Pronunciation:** /ˌɔlˈraɪt/ &middot; *awl-RITE*
+**Русский:** отлично!, так держать! — одобрение и подбадривание, с ударением на right
 **Type:** phrase &middot; **Register:** informal
 **Variants:** *alright*, *awright*, *aight*, *all riiight*
 
@@ -541,6 +573,7 @@ With the stress thrown onto the second word and the pitch rising, it is a cheer 
 ### amazing
 
 **Pronunciation:** /əˈmeɪzɪŋ/ &middot; *uh-MAY-zing*
+**Русский:** потрясающе!, шикарно! — расхожая похвала, часто без всякого изумления
 **Type:** secondary &middot; **Register:** neutral
 **Variants:** *that's amazing*, *aMAZing*, *amazing!*
 
@@ -557,6 +590,7 @@ One of the most common American approval words of the last twenty years, stretch
 ### attaboy
 
 **Pronunciation:** /ˈætəˌbɔɪ/ &middot; *AT-uh-boy*
+**Русский:** молодец!, так держать! — похвала другому; attagirl — женщине
 **Type:** phrase &middot; **Register:** informal
 **Variants:** *attagirl*, *atta boy*, *attaway*
 
@@ -573,6 +607,7 @@ A shout of encouragement and praise aimed at somebody else — standard from coa
 ### awesome
 
 **Pronunciation:** /ˈɔsəm/ &middot; *AW-sum*
+**Русский:** круто!, отлично! — универсальное одобрение; часто просто «понял, годится»
 **Type:** secondary &middot; **Register:** informal
 **Variants:** *totally awesome*, *awesomesauce*, *awesome!*
 
@@ -589,6 +624,7 @@ The all-purpose American approval word. Despite the *awe* inside it, it means "g
 ### beautiful
 
 **Pronunciation:** /ˈbjutəfəl/ &middot; *BYOO-tuh-full*
+**Русский:** отлично!, красота! — «сделано в точности как надо», не о внешности
 **Type:** secondary &middot; **Register:** informal
 **Variants:** *byoo-tee-full*, *beautiful!*
 
@@ -605,6 +641,7 @@ As an interjection it means "perfectly done" and has nothing to do with looks �
 ### bravo
 
 **Pronunciation:** /ˈbrɑvoʊ/, /brɑˈvoʊ/ &middot; *BRAH-voh, brah-VOH*
+**Русский:** браво! — похвала за мастерски сделанное
 **Type:** secondary &middot; **Register:** neutral
 **Variants:** *brava*, *bravi*, *bravo!*
 
@@ -621,6 +658,7 @@ Shouted at performers at the end of a performance, and used more broadly as a co
 ### chef's kiss
 
 **Pronunciation:** /ˌʃɛfs ˈkɪs/ &middot; *shefs-KISS*
+**Русский:** идеально!, пальчики оближешь — жест повара как знак совершенства
 **Type:** phrase &middot; **Register:** informal (also internet/text)
 **Variants:** *chefs kiss*, *mwah*
 
@@ -637,6 +675,7 @@ Names the Italian gesture — fingertips kissed and flicked open — as a way of
 ### cool
 
 **Pronunciation:** /kul/ &middot; *KOOL*
+**Русский:** круто!, ладно — мягкое одобрение и заодно «хорошо, договорились»
 **Type:** secondary &middot; **Register:** informal
 **Variants:** *coool*, *cool beans*, *way cool*, *cool!*
 
@@ -653,6 +692,7 @@ A mild, easy approval that means both "good" and "fine, that works for me." The 
 ### dope
 
 **Pronunciation:** /doʊp/ &middot; *DOHP*
+**Русский:** круто!, огонь! — сленг. одобрение, очень разг.
 **Type:** secondary &middot; **Register:** very informal
 **Variants:** *that's dope*, *so dope*, *dope!*
 
@@ -669,6 +709,7 @@ Slang approval meaning "excellent," out of hip-hop and skate culture and now gen
 ### excellent
 
 **Pronunciation:** /ˈɛksələnt/ &middot; *EK-suh-lunt*
+**Русский:** превосходно!, отлично! — сдержанная похвала, уместна и в деловой речи
 **Type:** secondary &middot; **Register:** neutral
 **Variants:** *ex-cellent*, *excellent!*
 
@@ -685,6 +726,7 @@ A crisp approval that is safe in email, in front of clients, and in a job interv
 ### fantastic
 
 **Pronunciation:** /fænˈtæstɪk/ &middot; *fan-TAS-tik*
+**Русский:** великолепно!, потрясающе! — тёплое «отлично», безопасно на работе
 **Type:** secondary &middot; **Register:** neutral
 **Variants:** *fantastic!*
 
@@ -701,6 +743,7 @@ A warmer, slightly stronger *great*, safe at work and with strangers. Delivered 
 ### far out
 
 **Pronunciation:** /ˌfɑrˈaʊt/ &middot; *far-OUT*
+**Русский:** обалдеть!, круто! — устар., сленг 1960–70-х
 **Type:** phrase &middot; **Register:** dated
 **Variants:** *far-out*, *faaar out*
 
@@ -717,6 +760,7 @@ Counterculture slang of the 1960s and 70s for "amazing." Anyone under sixty who 
 ### great
 
 **Pronunciation:** /ɡreɪt/ &middot; *GRAYT*
+**Русский:** отлично!, здорово! — самое обиходное одобрение; ровным тоном — сарказм
 **Type:** secondary &middot; **Register:** neutral
 **Variants:** *just great*, *great!*
 
@@ -733,6 +777,7 @@ The default American approval word, usable in an interview, an email, or a bar. 
 ### groovy
 
 **Pronunciation:** /ˈɡruvi/ &middot; *GROO-vee*
+**Русский:** клёво! — устар., сленг 1960-х, сегодня только с усмешкой
 **Type:** secondary &middot; **Register:** dated
 **Variants:** *groovy!*
 
@@ -749,6 +794,7 @@ Slang of the 1960s for "excellent," now used almost entirely with a wink. Like *
 ### neat
 
 **Pronunciation:** /nit/ &middot; *NEET*
+**Русский:** здорово!, любопытно! — мягкое, чуть старомодное одобрение
 **Type:** secondary &middot; **Register:** informal (mild, and a little old-fashioned)
 **Variants:** *that's neat*, *neato*, *neat!*
 
@@ -765,6 +811,7 @@ A mild, wholesome approval — pleased interest rather than excitement. It is th
 ### nice
 
 **Pronunciation:** /naɪs/ &middot; *NICE*
+**Русский:** здорово!, неплохо! — короткая похвала чужому поступку или удаче
 **Type:** secondary &middot; **Register:** informal
 **Variants:** *niiice*, *ni-ice*, *nice one*, *nice!*
 
@@ -781,6 +828,7 @@ A short, satisfied approval of what somebody just did or got — the everyday re
 ### perfect
 
 **Pronunciation:** /ˈpɜrfɪkt/ &middot; *PUR-fikt*
+**Русский:** отлично!, прекрасно! — «именно то, что нужно», вежливое согласие
 **Type:** secondary &middot; **Register:** neutral
 **Variants:** *perfect!*
 
@@ -797,6 +845,7 @@ A confirming approval meaning "that is exactly what I needed." It is the standar
 ### rad
 
 **Pronunciation:** /ræd/ &middot; *RAD*
+**Русский:** клёво!, круто! — устар., сленг скейтеров и сёрферов 1980-х
 **Type:** secondary &middot; **Register:** informal (dated — 1980s surf and skate slang)
 **Variants:** *radical*, *totally rad*, *rad!*
 
@@ -813,6 +862,7 @@ Clipped from *radical*, the surf and skate approval word of the 1980s. It never 
 ### sick
 
 **Pronunciation:** /sɪk/ &middot; *SIK*
+**Русский:** круто!, жесть! — сленг. одобрение у молодёжи, противоположно прямому смыслу
 **Type:** secondary &middot; **Register:** very informal
 **Variants:** *siiick*, *sick!*
 
@@ -829,6 +879,7 @@ Slang approval meaning "amazing," common in skate, snowboard, gaming, and music 
 ### super
 
 **Pronunciation:** /ˈsupər/ &middot; *SOO-per*
+**Русский:** отлично!, супер! — бодрое «замечательно», разг.
 **Type:** secondary &middot; **Register:** informal
 **Variants:** *super-duper*, *just super*, *super!*
 
@@ -845,6 +896,7 @@ A bright, slightly perky "great," most at home in customer service, in teaching,
 ### sweet
 
 **Pronunciation:** /swit/ &middot; *SWEET*
+**Русский:** класс!, отлично! — о том, что удачно сложилось; со вкусом не связано
 **Type:** secondary &middot; **Register:** informal
 **Variants:** *sweeet*, *sweet deal*, *sweet!*
 
@@ -861,6 +913,7 @@ An easy, pleased "excellent," used especially about something that worked out in
 ### terrific
 
 **Pronunciation:** /təˈrɪfɪk/ &middot; *tuh-RIF-ik*
+**Русский:** великолепно!, замечательно! — тёплое «отлично», чаще у старшего поколения
 **Type:** secondary &middot; **Register:** neutral
 **Variants:** *terrific!*
 
@@ -877,6 +930,7 @@ A warm American "great," heard most often from older speakers and in polite prof
 ### wonderful
 
 **Pronunciation:** /ˈwʌndərfəl/ &middot; *WUN-der-full*
+**Русский:** чудесно!, прекрасно! — приветливая, чуть старомодная похвала
 **Type:** secondary &middot; **Register:** neutral
 **Variants:** *just wonderful*, *wonderful!*
 
@@ -898,6 +952,7 @@ Said at the moment of a reveal or a jump — these mark an action rather than a 
 ### cowabunga
 
 **Pronunciation:** /ˌkaʊəˈbʌŋɡə/ &middot; *kow-uh-BUNG-guh*
+**Русский:** эге-гей!, банзай! — шутливо-устар. клич перед прыжком, обычно в воду
 **Type:** primary &middot; **Register:** informal, dated (cartoon flavor)
 **Variants:** *kowabunga*, *cowabunga, dude!*
 
@@ -914,6 +969,7 @@ A whoop shouted while launching into something, usually water. It came from a 19
 ### geronimo
 
 **Pronunciation:** /dʒəˈrɑnəmoʊ/ &middot; *juh-RON-uh-moh*
+**Русский:** была не была! — клич в момент прыжка; имя вождя апачей, многим индейцам это обидно
 **Type:** secondary &middot; **Register:** informal
 **Variants:** *geronimo!*
 
@@ -930,6 +986,7 @@ Shouted at the instant of jumping. American paratroopers in World War II adopted
 ### presto
 
 **Pronunciation:** /ˈprɛstoʊ/ &middot; *PRES-toh*
+**Русский:** раз — и готово!, вуаля! — фокусническое слово о мгновенном превращении
 **Type:** secondary &middot; **Register:** informal
 **Variants:** *hey presto*, *presto chango*
 
@@ -946,6 +1003,7 @@ A magician's word, Italian for "quickly," borrowed to mark a sudden and easy tra
 ### ta-da
 
 **Pronunciation:** /tɑˈdɑ/ &middot; *tah-DAH*
+**Русский:** та-дам! — фанфары при показе готового результата
 **Type:** onomatopoeic &middot; **Register:** informal
 **Variants:** *ta-daa*, *tada*, *tah-dah*, *ta-dah*
 
@@ -962,6 +1020,7 @@ The spoken version of the two-note trumpet fanfare that accompanies a reveal. Yo
 ### voilà
 
 **Pronunciation:** /vwɑˈlɑ/ &middot; *vwah-LAH*
+**Русский:** вуаля! — «вот и всё»: представление готового результата
 **Type:** secondary &middot; **Register:** neutral
 **Variants:** *voila*, *viola* (a misspelling), *wallah* (a misspelling)
 
@@ -982,6 +1041,7 @@ Joy with a wait behind it — what Americans say when something good finally, at
 ### about time
 
 **Pronunciation:** /əˌbaʊt ˈtaɪm/ &middot; *uh-bout-TIME*
+**Русский:** давно пора!, наконец-то! — облегчение с упрёком за задержку
 **Type:** phrase &middot; **Register:** informal
 **Variants:** *it's about time*, *well, it's about time*, *about damn time*
 
@@ -998,6 +1058,7 @@ Relief with a complaint stapled to it: the good thing happened, and it should ha
 ### at last
 
 **Pronunciation:** /ˌæt ˈlæst/ &middot; *at-LAST*
+**Русский:** наконец-то! — книжн. оттенок; конец долгого ожидания, без упрёка
 **Type:** phrase &middot; **Register:** neutral
 **Variants:** *at long last*, *at last!*
 
@@ -1014,6 +1075,7 @@ Marks the end of a long wait with relief and pleasure. It is slightly more forma
 ### finally
 
 **Pronunciation:** /ˈfaɪnəli/ &middot; *FY-nuh-lee*
+**Русский:** наконец-то! — обиходный возглас в конце долгого ожидания, с ноткой нетерпения
 **Type:** secondary &middot; **Register:** informal
 **Variants:** *fiiinally*, *finally!*
 
@@ -1030,6 +1092,7 @@ The everyday cry at the end of a long wait — happy, impatient, or both at once
 ### hallelujah
 
 **Pronunciation:** /ˌhæləˈlujə/ &middot; *hal-uh-LOO-yuh*
+**Русский:** аллилуйя! — в быту «слава богу»: наболевшее наконец решилось
 **Type:** secondary &middot; **Register:** informal in everyday use; neutral in religious settings
 **Variants:** *halleluiah*, *alleluia*, *hallelujah!*
 
@@ -1046,6 +1109,7 @@ Hebrew for "praise Yah" — praise the Lord — and completely at home in secula
 ### oh boy
 
 **Pronunciation:** /ˌoʊ ˈbɔɪ/ &middot; *oh-BOY*
+**Русский:** ух ты!, вот здорово! — радостное предвкушение (падающим тоном — «ну вот…»)
 **Type:** phrase &middot; **Register:** informal
 **Variants:** *boy*, *boy oh boy*, *ohhh boy*
 
@@ -1062,6 +1126,7 @@ Excited anticipation — the sound of a kid seeing dessert. Be careful with the 
 ### oh happy day
 
 **Pronunciation:** /oʊ ˌhæpi ˈdeɪ/ &middot; *oh-hap-ee-DAY*
+**Русский:** о счастливый день! — устар., театральное объявление удачи, часто в шутку
 **Type:** phrase &middot; **Register:** dated
 **Variants:** *oh, happy day*, *happy day*
 
@@ -1078,6 +1143,7 @@ A theatrical announcement of good fortune, out of an old hymn and a famous gospe
 ### praise the Lord
 
 **Pronunciation:** /ˌpreɪz ðə ˈlɔrd/ &middot; *prayz-thuh-LORD*
+**Русский:** слава Господу!, слава богу! — искренняя благодарность Богу; вне церкви сильно маркировано
 **Type:** phrase &middot; **Register:** neutral in religious settings; elsewhere informal and strongly marked
 **Variants:** *praise God*, *praise Jesus*, *praise be*
 
@@ -1094,6 +1160,7 @@ A sincere expression of joy and gratitude to God, and, outside religious setting
 ### thank God
 
 **Pronunciation:** /ˌθæŋk ˈɡɑd/ &middot; *thank-GOD*
+**Русский:** слава богу! — облегчение; thank goodness — нейтральная замена без упоминания Бога
 **Type:** phrase &middot; **Register:** informal
 **Variants:** *thank goodness*, *thank heavens*, *thank the Lord*, *thank God!*
 

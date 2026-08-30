@@ -15,6 +15,7 @@ Seven words, one for each person and number, and each has a matching standalone 
 ### her
 
 **Pronunciation:** /hɝ/, weak /hɚ/, /ɚ/ &middot; *HUR, weak her / er*
+**Русский:** её — владелец женского пола; форма зависит от владельца, а не от предмета
 **Type:** possessive &middot; **Position:** central &middot; **Register:** neutral
 **Goes with:** any noun — singular countable (*her car*), plural countable (*her keys*), uncountable (*her patience*) — and gerunds (*her leaving*). Never another central determiner: ✗ *the her car*, ✗ *a her friend*. Never stands alone with no noun after it — that is the pronoun *hers*.
 **With *of*:** Takes no *of*-phrase of its own. When *of* appears before *her*, it belongs to a preceding quantifier: *all of her friends*, *most of her time*, *neither of her options*. The double genitive requires the pronoun: *a friend of hers*, never ✗ *a friend of her*.
@@ -40,6 +41,7 @@ Marks the following noun as belonging to, produced by, or associated with a fema
 ### his
 
 **Pronunciation:** /hɪz/, weak /ɪz/ &middot; *HIZ, weak iz*
+**Русский:** его — владелец мужского пола; устар. также о человеке любого пола (совр. their)
 **Type:** possessive &middot; **Position:** central &middot; **Register:** neutral
 **Goes with:** any noun — singular countable (*his phone*), plural countable (*his parents*), uncountable (*his luggage*) — and gerunds (*his quitting*). Never with another central determiner: ✗ *the his phone*.
 **With *of*:** No *of*-phrase of its own; *of* before *his* belongs to a preceding quantifier: *both of his sisters*, *none of his excuses*. The double genitive uses the identical form: *a cousin of his*.
@@ -64,6 +66,7 @@ Marks the following noun as belonging to, produced by, or associated with a male
 ### its
 
 **Pronunciation:** /ɪts/ — no separate weak form. Alone among the personal possessives, *its* does not reduce: unstressed it stays /ɪts/, exactly like *it's* &middot; *ITS*
+**Русский:** его, её — владелец предмет, животное или организация; апострофа не бывает
 **Type:** possessive &middot; **Position:** central &middot; **Register:** neutral
 **Goes with:** any noun — singular countable (*its handle*), plural countable (*its wheels*), uncountable (*its funding*) — and gerunds (*its failing*). The possessor is a thing, a place, an organization, an abstraction, or an animal whose sex is unstated; not a named person. Never another central determiner: ✗ *the its logo*.
 **With *of*:** None of its own. *Of* before *its* belongs to a preceding quantifier: *most of its revenue*, *half of its board*. There is no double-genitive form — ✗ *a page of its* is impossible; say *one of its pages*.
@@ -86,6 +89,7 @@ Marks the following noun as a part, property, product, or possession of a thing,
 ### my
 
 **Pronunciation:** /maɪ/, weak /mə/ &middot; *MY, weak muh*
+**Русский:** мой — владелец говорящий; если владелец совпадает с подлежащим, русский берёт «свой»
 **Type:** possessive &middot; **Position:** central &middot; **Register:** neutral
 **Goes with:** any noun — singular countable (*my car*), plural countable (*my parents*), uncountable (*my luggage*) — plus gerunds (*my leaving*) and vocative address terms (*my friend*, *my dear*). Never another central determiner: ✗ *the my car*, ✗ *a my friend*.
 **With *of*:** None of its own; *of* before *my* belongs to a preceding quantifier (*all of my cousins*, *neither of my options*, *a couple of my coworkers*). The double genitive requires the pronoun *mine*: *a friend of mine*, ✗ *a friend of my*.
@@ -111,6 +115,7 @@ Marks the following noun as belonging to, produced by, or associated with the sp
 ### our
 
 **Pronunciation:** /ˈaʊɚ/, /aʊr/, weak /ɑr/ &middot; *OW-er / OWR, weak ar*
+**Русский:** наш — владелец группа с говорящим; включающее и исключающее «мы» не различаются
 **Type:** possessive &middot; **Position:** central &middot; **Register:** neutral
 **Goes with:** any noun — singular countable (*our house*), plural countable (*our kids*), uncountable (*our luggage*) — and gerunds (*our leaving*). Never another central determiner: ✗ *the our house*.
 **With *of*:** None of its own; *of* before *our* belongs to a preceding quantifier: *several of our clients*, *most of our time*. The double genitive uses *ours*: *a neighbor of ours*.
@@ -133,6 +138,7 @@ Marks the following noun as belonging to, produced by, or associated with a grou
 ### their
 
 **Pronunciation:** /ðɛr/, weak /ðɚ/ &middot; *THAIR, weak ther*
+**Русский:** их — владелец во мн. ч. или один человек неизвестного либо небинарного пола
 **Type:** possessive &middot; **Position:** central &middot; **Register:** neutral
 **Goes with:** any noun — singular countable (*their house*), plural countable (*their kids*), uncountable (*their time*) — and gerunds (*their leaving*). The possessor may be plural, **or a single person** whose gender is unknown, unspecified, irrelevant, or nonbinary (singular *they*). Never another central determiner: ✗ *the their house*.
 **With *of*:** None of its own; *of* before *their* belongs to a preceding quantifier: *none of their arguments*, *two of their kids*. The double genitive uses *theirs*: *a client of theirs*.
@@ -157,6 +163,7 @@ Marks the following noun as belonging to, produced by, or associated with the po
 ### your
 
 **Pronunciation:** /jʊr/, /jɔr/, weak /jɚ/ &middot; *YOOR / YOR, weak yer*
+**Русский:** твой, ваш — одна форма для одного и для многих; «ты» и «Вы» английский не различает
 **Type:** possessive &middot; **Position:** central &middot; **Register:** neutral
 **Goes with:** any noun — singular countable (*your seat*), plural countable (*your kids*), uncountable (*your luggage*) — and gerunds (*your coming*). One form covers a singular and a plural addressee. Never another central determiner: ✗ *the your seat*.
 **With *of*:** None of its own; *of* before *your* belongs to a preceding quantifier: *some of your questions*, *each of your options*. The double genitive uses *yours*: *a friend of yours*.
@@ -186,6 +193,7 @@ The seven personal possessives leave two gaps: there is no dedicated form for a 
 ### his (periphrastic genitive)
 
 **Pronunciation:** /hɪz/, weak /ɪz/ — and the weak form is the whole point: unstressed, *John his book* and *John's book* are the same string of sounds &middot; *HIZ, weak iz*
+**Русский:** устар. описательный родительный: John his book = John's book; узнавать, но не писать
 **Type:** genitive (periphrastic, archaic) &middot; **Position:** central — the possessor noun and *his* together fill the one central slot &middot; **Register:** obsolete Early Modern English; an American meets it only on Renaissance title pages, in the Book of Common Prayer, and in colonial deeds, wills, and inventories
 **Goes with:** the noun possessed may be singular countable (*John his book*), plural countable (*the Duke his men*), or uncountable (*the Bishop his patience*). The real restriction is on the **possessor**, which must be a full noun — normally a personal name or a title — sitting immediately in front of *his*: ✓ *Thomas Hooker his farm*, ✗ *he his farm*, ✗ *somebody his farm*. It cannot be stacked on a possessed noun that already has a determiner (✗ *John his the book*), and nothing may precede the phrase (✗ *the John his book*), because the whole thing is the central determiner.
 **With *of*:** No *of*-form of its own. The ordinary alternative in the same period was the plain *of*-genitive — *the fall of Sejanus*, *the farm of Thomas Hooker*. There is no double genitive built on it: ✗ *a book of John his*; Early Modern English wrote *a book of John's*.
@@ -210,6 +218,7 @@ The dead rival of the *'s* ending: a genitive built by naming the possessor and 
 ### his or her
 
 **Pronunciation:** /ˌhɪz ɚ ˈhɝ/ &middot; *hiz-er-HUR*
+**Русский:** его или её — книжн. об одном человеке неизвестного пола; разг. заменяется на their
 **Type:** possessive (compound) &middot; **Position:** central &middot; **Register:** formal, written
 **Goes with:** any noun — singular countable (*his or her locker*), plural countable (*his or her dependents*), uncountable (*his or her luggage*). The restriction is on the **possessor**, not on the noun possessed: the possessor must be **one** person of unknown or unspecified gender (*each employee … his or her contact information*). A plural possessor takes *their*, never ✗ *the employees … his or her lockers*. Never another central determiner: ✗ *the his or her locker*.
 **With *of*:** None of its own; *of* before it belongs to a preceding quantifier (*each of his or her dependents*). The matching standalone pronoun is *his or hers*, awkward enough that writers rewrite the sentence instead.
@@ -232,6 +241,7 @@ Names a possessor who is one unidentified person, without committing to a gender
 ### mine
 
 **Pronunciation:** /maɪn/ — no weak form. *My* reduces to /mə/ in ordinary speech, but this word survives only inside stressed, quoted phrases and never reduces &middot; *MYNE (rhymes with LINE)*
+**Русский:** устар. прежняя форма my перед гласным — mine eyes; работает как an вместо a
 **Type:** possessive (archaic, prevocalic) &middot; **Position:** central &middot; **Register:** archaic — biblical, liturgical, hymn, and poetic English. An American meets it in the King James Bible, in Shakespeare, in hymnals, and in the Battle Hymn of the Republic, and essentially nowhere else. **Never** in ordinary speech or modern prose.
 **Goes with:** any noun **beginning with a vowel sound** — singular countable (*mine host*, *mine enemy*), plural countable (*mine eyes*, *mine ears*), uncountable (*mine iniquity*) — plus the emphasizer *own* (*mine own self*). The vowel is the whole condition, so before a consonant sound the determiner is *my*: ✗ *mine car*, ✗ *mine father*, ✗ *mine book*. Seventeenth-century printing extends it before *h*- as well (*mine heart*, *mine house*), where the *h* was weak or silent. Never another central determiner: ✗ *the mine eyes*, ✗ *a mine friend*. Never with nothing after it — that is the **pronoun** *mine*.
 **With *of*:** None of its own. The *of*-phrase *a friend of mine* looks like this word and is not: there *mine* is the possessive **pronoun** filling the double genitive, and it is ordinary modern English. See [of mine](#of-mine).
@@ -255,6 +265,7 @@ The prevocalic shape of *my*, frozen inside quotation: it stands before a vowel 
 ### one's
 
 **Pronunciation:** /wʌnz/ &middot; *WUNZ*
+**Русский:** свой — книжн. притяжательное к обобщённому one «человек вообще»: mind one's own business
 **Type:** possessive (generic) &middot; **Position:** central &middot; **Register:** formal
 **Goes with:** any noun — singular countable (*one's passport*), plural countable (*one's options*), uncountable (*one's temper*). The possessor is the generic pronoun *one*, meaning "a person, anyone," and standard usage keeps *one … one's* consistent through the sentence. Never another central determiner: ✗ *the one's temper*.
 **With *of*:** Only in the fixed phrase *of one's own* — *a room of one's own*, *a place of one's own*.
@@ -277,6 +288,7 @@ Names a possessor who is anyone at all, in the impersonal generic construction.
 ### thine
 
 **Pronunciation:** /ðaɪn/ — no weak form; the word only ever turns up stressed &middot; *THYNE (rhymes with MINE)*
+**Русский:** устар. твой — форма thy перед гласным (thine eyes); библейский и поэтический язык
 **Type:** possessive (archaic, prevocalic) &middot; **Position:** central &middot; **Register:** archaic — the King James Bible, the Book of Common Prayer, Shakespeare, hymns, and deliberate period writing. A few conservative Quaker meetings still keep the plain speech (*thee*, *thy*, *thine*) as a religious practice; outside that, an American reads this word and never says it.
 **Goes with:** any noun **beginning with a vowel sound**, with a **single, familiar** addressee — the *thou* of older English — so singular countable (*thine enemy*), plural countable (*thine eyes*, *thine ears*), uncountable (*thine anger*), plus the emphasizer *own* (*thine own self*). Before a consonant sound the determiner is *thy*: ✗ *thine name*, ✗ *thine sword*, ✗ *thine father*. Seventeenth-century printing extends it before *h*- as well (*thine heart*, *thine house*). A plural addressee never takes it — that is *your*. Never another central determiner: ✗ *the thine eyes*. Never with nothing after it — that is the **pronoun** *thine*.
 **With *of*:** None. There is no double genitive built on the determiner: Early Modern English wrote *a friend of thine*, where *thine* is the **pronoun**.
@@ -300,6 +312,7 @@ The prevocalic shape of *thy*: the possessive of one familiar addressee, standin
 ### thy
 
 **Pronunciation:** /ðaɪ/; prevocalic *thine* /ðaɪn/ &middot; *THY (rhymes with MY); THYNE*
+**Русский:** устар. твой — обращение к одному на «ты»; в современном языке вытеснено your
 **Type:** possessive (archaic) &middot; **Position:** central &middot; **Register:** archaic — liturgical, biblical, poetic, or deliberately old-fashioned
 **Goes with:** any noun — singular countable (*thy name*), plural countable (*thine eyes*), uncountable (*thy mercy*) — with a singular and familiar addressee (the *thou* of older English). The form *thy* comes before a consonant sound and *thine* before a vowel sound. Never another central determiner: ✗ *the thy hand*.
 **With *of*:** None. The standalone pronoun is *thine* — *the kingdom is thine*.
@@ -323,6 +336,7 @@ Names a single, familiar addressee as the possessor; the ancestor of singular *y
 ### y'all's
 
 **Pronunciation:** /jɔlz/, /jɑlz/ &middot; *YAWLZ*
+**Русский:** разг., южноамер. ваш — нестандартное притяжательное от множественного you (y'all)
 **Type:** possessive (regional) &middot; **Position:** central &middot; **Register:** informal Southern and South Midland American speech; **nonstandard in edited writing**
 **Goes with:** any noun — singular countable (*y'all's car*), plural countable (*y'all's kids*), uncountable (*y'all's help*). The addressee is plural, or a singular addressee understood together with their household or group. Never another central determiner: ✗ *the y'all's car*.
 **With *of*:** None. The same form doubles as the standalone pronoun: *that seat is y'all's*.
@@ -353,6 +367,7 @@ Marks the following noun as belonging to the group being addressed. One entry co
 ### of which
 
 **Pronunciation:** /əv ˈwɪtʃ/ &middot; *uhv WICH*
+**Русский:** которого, чей — книжн. относительный родительный при неодушевлённом: the roof of which
 **Type:** relative genitive &middot; **Position:** postmodifier — **not** the central determiner slot &middot; **Register:** formal, written
 **Goes with:** a head noun naming a part, property, or component of an **inanimate** antecedent — *a house the roof of which leaks*. That head noun may be singular countable (*the roof of which*), plural countable (*the terms of which*), or uncountable (*the funding of which*). Because *of which* is a prepositional phrase and not a determiner, the head noun keeps its own determiner: *the roof of which*, *three floors of which*.
 **With *of*:** *Of* is part of the item itself and is obligatory. Two legal orders: postposed (*the roof of which*) and fronted (*of which the roof*), the second more formal still.
@@ -375,6 +390,7 @@ Links a relative clause to its antecedent by naming something the antecedent has
 ### whose
 
 **Pronunciation:** /huz/ &middot; *HOOZ*
+**Русский:** чей — вопросительное (Whose car?) и относительное (the man whose car…)
 **Type:** interrogative and relative (genitive) &middot; **Position:** central &middot; **Register:** neutral
 **Goes with:** any noun — singular countable (*whose car*), plural countable (*whose keys*), uncountable (*whose money*). The possessor may be a person, an animal, or a thing (*a novel whose ending nobody likes*). It fills the central determiner slot, so ✗ *the whose car* and ✗ *a whose idea* are impossible.
 **With *of*:** None as a determiner. The partitive question uses *which*: *Which of these is yours?* When *whose* takes no following noun it is a pronoun, not a determiner: *Whose is this?*
@@ -397,6 +413,7 @@ Links a relative clause to its antecedent by naming something the antecedent has
 ### whosever
 
 **Pronunciation:** /huˈzɛvɚ/ &middot; *hoo-ZEV-er*
+**Русский:** книжн., редк. чей бы ни — «тот, чей»; вводит придаточное без антецедента
 **Type:** relative genitive (free relative) &middot; **Position:** central &middot; **Register:** formal, rare
 **Goes with:** any noun — singular countable (*whosever car*), plural countable (*whosever keys*), uncountable (*whosever property*) — inside a free relative clause meaning "the one whose." Unlike *whose*, it supplies its own antecedent, so no noun precedes it. Never another central determiner: ✗ *the whosever car*.
 **With *of*:** None.
@@ -424,6 +441,7 @@ Any noun phrase in English can be turned into a determiner by adding the genitiv
 ### 's (singular genitive)
 
 **Pronunciation:** /s/ after a voiceless sound (*Pat's* /pæts/), /z/ after a voiced sound (*Dan's* /dænz/), /ɪz/ after a sibilant (*Chris's* /ˈkrɪsɪz/) &middot; *s / z / iz*
+**Русский:** окончание -'s — притяжательность, русский родительный падеж: John's car = машина Джона
 **Type:** genitive &middot; **Position:** central — the whole genitive phrase fills the slot &middot; **Register:** neutral
 **Goes with:** attaches to the **end of a complete noun phrase**, not to the head noun. The noun it then determines may be singular countable (*Dan's car*), plural countable (*Dan's kids*), or uncountable (*Dan's patience*). It cannot combine with an article or demonstrative on the same noun: ✗ *the Dan's car*, ✗ *this Dan's car*.
 **With *of*:** The rival construction is the *of*-genitive — *the girl's name* / *the name of the girl*. See [of](#of) for which one to choose.
@@ -446,6 +464,7 @@ The productive genitive ending: it converts any noun phrase into a central deter
 ### s' (plural genitive)
 
 **Pronunciation:** silent — *the students'* is pronounced exactly like *the students* /ðə ˈstudn̩ts/ &middot; *(no added sound)*
+**Русский:** апостроф после -s мн. ч. — владельцев несколько; на слух не отличается от простого мн. ч.
 **Type:** genitive &middot; **Position:** central &middot; **Register:** neutral
 **Goes with:** a **regular plural noun already ending in -s**; the apostrophe goes after that *s* and nothing further is added. The noun it determines may be singular countable, plural countable, or uncountable: *the teachers' lounge*, *the teachers' contracts*, *the teachers' patience*. Irregular plurals that do not end in *-s* take a full *'s* instead — see [the children's](#the-childrens).
 **With *of*:** the *of*-genitive is the usual alternative for long or inanimate plural possessors: *the conclusions of the reports*.
@@ -472,6 +491,7 @@ Eleven recurring shapes of the genitive phrase. They are all the same constructi
 ### Anna and Ben's
 
 **Pronunciation:** /ˈænə ən ˈbɛnz/ &middot; *AN-uh un BENZ*
+**Русский:** Анны и Бена — одно 's в конце = общее владение; 's при каждом имени = раздельное
 **Type:** genitive (coordinate) &middot; **Position:** central &middot; **Register:** neutral
 **Goes with:** any noun — singular countable (*Anna and Ben's cabin*), plural countable (*Anna and Ben's kids*), uncountable (*Anna and Ben's furniture*). One *'s*, on the last name only, means **joint** possession (*Anna and Ben's house* — one house). An *'s* on each name means **separate** possession, and the following noun is then usually plural (*Anna's and Ben's houses* — two houses).
 **With *of*:** The *of*-genitive sidesteps the ambiguity but sounds stiff with people: *the cabin of Anna and Ben*.
@@ -494,6 +514,7 @@ Marks two or more possessors, with the apostrophe placement showing whether they
 ### Chris's
 
 **Pronunciation:** /ˈkrɪsɪz/ &middot; *KRIS-iz*
+**Русский:** родительный от имени на шипящий: Криса; произносится /-из/, пишется Chris's или Chris'
 **Type:** genitive &middot; **Position:** central &middot; **Register:** neutral
 **Goes with:** any noun — singular countable (*Chris's desk*), plural countable (*Chris's parents*), uncountable (*Chris's luggage*). The possessor is a **singular** name or noun that already ends in *-s* or another sibilant — *Chris*, *the boss*, *the witness*, *Texas*, *Dickens*.
 **With *of*:** The *of*-genitive is an escape hatch when the pile-up is ugly: *the policies of Congress* rather than *Congress's policies*. Both are correct.
@@ -517,6 +538,7 @@ The singular genitive of a possessor that already ends in a hissing sound, where
 ### each other's
 
 **Pronunciation:** /ˌitʃ ˈʌðɚz/ &middot; *eech UTH-erz*
+**Русский:** друг друга — взаимное владение: each other's letters = письма друг друга
 **Type:** genitive (reciprocal) &middot; **Position:** central &middot; **Register:** neutral
 **Goes with:** any noun — singular countable (*each other's car*), plural countable (*each other's kids*), uncountable (*each other's mail*). The **possessors** are two or more people or things in a crosswise relation, so the subject of the clause is always plural; the possessive phrase itself stays singular in shape. Never another central determiner: ✗ *the each other's sentences*.
 **With *of*:** No *of*-form of its own; *of* before it belongs to a preceding quantifier (*several of each other's clients*). Keep the genitive apart from the plain *of*-phrase, which means something different: *photos of each other* are photos they appear in, while *each other's photos* are the photos they own.
@@ -540,6 +562,7 @@ Marks the following noun as belonging to the members of a group taken crosswise 
 ### John's
 
 **Pronunciation:** /dʒɑnz/ &middot; *JAHNZ*
+**Русский:** Джона — притяжательное от личного имени; передаётся русским родительным падежом
 **Type:** genitive (proper name) &middot; **Position:** central &middot; **Register:** neutral
 **Goes with:** any noun — singular countable (*John's car*), plural countable (*John's parents*), uncountable (*John's luggage*). The possessor is a personal name, which is the most natural possessor of all for the s-genitive.
 **With *of*:** The *of*-genitive is grammatical but marked with people — *the car of John* sounds foreign. Use the s-genitive with human possessors. The one everyday *of* pattern is the double genitive: *a book of John's*.
@@ -562,6 +585,7 @@ Marks the following noun as belonging to a named person; also the standard way t
 ### somebody else's
 
 **Pronunciation:** /ˌsʌmbɑdi ˈɛlsɪz/ &middot; *SUM-bah-dee EL-siz*
+**Русский:** чужой, кого-то другого — окончание падает на else, а не на местоимение
 **Type:** genitive (group genitive) &middot; **Position:** central &middot; **Register:** neutral
 **Goes with:** any noun — singular countable (*somebody else's problem*), plural countable (*somebody else's kids*), uncountable (*somebody else's money*). The ending lands on *else*, the last word of the phrase, never on the pronoun: ✗ *somebody's else problem*.
 **With *of*:** No plain *of*-form; the indefinite version is the double genitive — *a car of somebody else's*.
@@ -584,6 +608,7 @@ Marks the following noun as belonging to an unnamed person other than the one al
 ### the butcher's
 
 **Pronunciation:** /ðə ˈbʊtʃɚz/ &middot; *thuh BOOCH-erz*
+**Русский:** у мясника, к мяснику — эллипсис: слово «лавка, магазин» опущено
 **Type:** genitive (independent, elliptical) &middot; **Position:** fills the entire noun phrase — the head noun is deleted &middot; **Register:** neutral
 **Goes with:** **no following noun at all.** The noun the genitive would have determined — *shop*, *house*, *office*, *church*, *place* — is understood and left out: *at the butcher's* = *at the butcher's shop*; *at Ana's* = *at Ana's place*.
 **With *of*:** None.
@@ -606,6 +631,7 @@ Names a place by naming the person or business that occupies it, with the word f
 ### the children's
 
 **Pronunciation:** /ðə ˈtʃɪldrənz/ &middot; *thuh CHIL-drunz*
+**Русский:** детей — родительный от неправильного мн. ч. без -s: the children's books = книги детей
 **Type:** genitive (irregular plural) &middot; **Position:** central &middot; **Register:** neutral
 **Goes with:** any noun. The possessor is a plural noun that does **not** end in *-s* — *children, men, women, people, mice, geese, feet, alumni*. The determined noun may be singular countable (*the children's table*), plural countable (*the children's coats*), or uncountable (*the children's luggage*).
 **With *of*:** The *of*-genitive is available and often better with long phrases: *the rights of the children who were separated at the border*.
@@ -628,6 +654,7 @@ The genitive of a plural that forms itself without *-s*, which therefore takes t
 ### the company's
 
 **Pronunciation:** /ðə ˈkʌmpəniz/ &middot; *thuh KUM-puh-neez*
+**Русский:** компании — притяжательное от организации, города, издания; владелец неодушевлённый
 **Type:** genitive (inanimate, institutional) &middot; **Position:** central &middot; **Register:** neutral
 **Goes with:** any noun — singular countable (*the company's headquarters*), plural countable (*the company's employees*), uncountable (*the company's revenue*). The possessor is an organization, a place, a publication, a vehicle, or another inanimate noun rather than a person.
 **With *of*:** The *of*-genitive is the direct competitor and is often better when the possessor is long or heavily modified: ✓ *the company's policy*, ✓ *the policy of the company that acquired us last spring*.
@@ -650,6 +677,7 @@ Marks the following noun as belonging to, produced by, or characteristic of an i
 ### the King of Spain's
 
 **Pronunciation:** /ðə ˌkɪŋ əv ˈspeɪnz/ &middot; *thuh king uv SPAYNZ*
+**Русский:** короля Испании — 's ставится в конце всей группы, а не после главного слова
 **Type:** genitive (group genitive) &middot; **Position:** central &middot; **Register:** neutral in speech; avoided in edited writing when long
 **Goes with:** any noun — singular countable (*the King of Spain's daughter*), plural countable (*the King of Spain's daughters*), uncountable (*the King of Spain's luggage*). The ending attaches to the **last word of the whole possessor phrase**, even when that word is not the possessor: in *the King of Spain's daughter*, the daughter belongs to the King, not to Spain.
 **With *of*:** The *of*-genitive is usually the cleaner choice when the possessor phrase is long: *the daughter of the King of Spain*.
@@ -672,6 +700,7 @@ Turns an entire modified noun phrase — article, head, and everything that foll
 ### today's
 
 **Pronunciation:** /təˈdeɪz/ &middot; *tuh-DAYZ*
+**Русский:** сегодняшний — временной родительный: today's paper = сегодняшняя газета
 **Type:** genitive (temporal) &middot; **Position:** central &middot; **Register:** neutral
 **Goes with:** any noun — singular countable (*today's paper*), plural countable (*today's numbers*), uncountable (*today's mail*). The possessor is a time word: *today, yesterday, tomorrow, tonight, this morning, last year, next week*.
 **With *of*:** The *of*-genitive exists but is stiffer and rarer: *the newspaper of today*.
@@ -694,6 +723,7 @@ Marks the following noun as belonging to, occurring on, or dated to a particular
 ### two weeks'
 
 **Pronunciation:** /tu ˈwiks/ — the apostrophe adds no sound &middot; *too WEEKS*
+**Русский:** двухнедельный — мерный родительный: two weeks' notice = предупреждение за две недели
 **Type:** genitive (measure) &middot; **Position:** central &middot; **Register:** neutral
 **Goes with:** a noun naming an amount, period, or entitlement. That noun is normally **uncountable** (*two weeks' notice*, *ten years' experience*, *three months' revenue*, *a dollar's worth*, *a day's work*, *two weeks' pay*) or **singular countable** (*an hour's drive*, *a moment's hesitation*, *a week's delay*). Plural countable heads are rare and get rephrased: ✓ *two weeks' worth of meals* rather than the odd *two weeks' meals*. The possessor is a quantity of time, money, or distance rather than an owner.
 **With *of*:** Not used with *of* between the measure and its noun. The competing structure is a hyphenated attributive with **no apostrophe and a singular unit**: *a two-week notice*, *a ten-year contract*. *Of* does appear after the head noun in the partitive frame *two weeks' worth of* [noun].
@@ -720,6 +750,7 @@ English marks possession two ways. The s-genitive puts the possessor **before** 
 ### of
 
 **Pronunciation:** /ʌv/, weak /əv/, /ə/ &middot; *UHV, weak uhv / uh*
+**Русский:** предлог принадлежности, части, отношения — русский родительный падеж: the roof of the house
 **Type:** genitive (of-genitive) — a **preposition**, not a determiner &middot; **Position:** postmodifier; the head noun keeps its own determiner &middot; **Register:** neutral
 **Goes with:** links a head noun to a following noun phrase that owns, contains, produces, or defines it — *the roof of the house*. Each half keeps **its own** determiner, one on the head noun and another on the noun after *of*, which is exactly what the s-genitive cannot do. Any noun type can head the phrase: singular countable (*the size of the room*), plural countable (*the members of the board*), uncountable (*the smell of the paint*).
 **With *of*:** *Of* is the item itself. It requires a full noun phrase or a possessive **pronoun** after it, never a bare possessive determiner: ✓ *of the house*, ✓ *of mine*, ✗ *of my*. The partitive frame runs on its own schedule: *all (of) the students* leaves *of* optional, *each of the students* and *most of the students* require it, *all of them* requires it before a pronoun, and *every* never takes it at all — ✗ *every of the students*, ✓ *every one of the students*.
@@ -742,6 +773,7 @@ Builds a possessive relationship after the noun instead of before it, and takes 
 ### of mine
 
 **Pronunciation:** /əv ˈmaɪn/ &middot; *uhv MYNE*
+**Русский:** мой, один из моих — двойной родительный: a friend of mine = один мой друг
 **Type:** genitive (double genitive) &middot; **Position:** postmodifier — it frees the central slot for a different determiner &middot; **Register:** neutral
 **Goes with:** a head noun already determined by *a/an*, a number, a demonstrative, or a quantifier — *a friend of mine*, *two cousins of hers*, *that car of yours*, *several clients of ours*. That head noun is normally **countable** — singular with *a/an* or a demonstrative (*a friend of mine*, *this book of theirs*), plural with a number or quantifier (*two cousins of hers*, *several clients of ours*). With an **uncountable** noun the construction is limited to demonstrative and evaluative uses: ✓ *that attitude of yours*, ✓ *this nonsense of theirs*, but ✗ *a money of mine*. The complement of *of* must be a possessive **pronoun** (*mine, yours, his, hers, ours, theirs*) or a genitive noun phrase (*of my father's*, *of John's*) — never a possessive determiner: ✗ *a friend of my*.
 **With *of*:** *Of* is obligatory; the construction is nothing but *of* plus a possessive.
@@ -766,6 +798,7 @@ Combines possession with an indefinite, demonstrative, or quantified determiner,
 ### own
 
 **Pronunciation:** /oʊn/ &middot; *OHN*
+**Русский:** собственный, свой — усилитель при притяжательном; сам определителем не является
 **Type:** emphasizer — **not itself a determiner** &middot; **Position:** postdeterminer, between the central determiner and the noun &middot; **Register:** neutral
 **Goes with:** any noun — singular countable (*my own room*), plural countable (*her own reasons*), uncountable (*his own money*) — but **only** when a possessive determiner or a genitive phrase comes first: ✓ *my own room*, ✓ *John's own words*, ✗ *the own room*, ✗ *an own car*. It may also precede a numeral: *my own two hands*.
 **With *of*:** Yes, in the fixed frame [noun] *of* [possessive pronoun] *own* — *a place of her own*, *a room of one's own*, *ideas of his own*.
@@ -792,6 +825,7 @@ Four possessive determiners each have a homophone that is a contraction, and con
 ### it's (not a determiner)
 
 **Pronunciation:** /ɪts/ &middot; *ITS*
+**Русский:** не определитель: сокращение it is / it has; притяжательное «его, её» — its без апострофа
 **Type:** contraction of *it is* / *it has* &middot; **Position:** none — it is a subject plus a verb, not part of a noun phrase &middot; **Register:** neutral in speech and ordinary writing; spelled out in the most formal prose
 **Goes with:** **nothing.** It cannot precede a noun the way a determiner does. In *It's a problem*, the determiner is *a*, not *it's*.
 **With *of*:** Not applicable.
@@ -812,6 +846,7 @@ The contraction of *it is* or *it has*; a determiner-shaped trap with no determi
 ### they're (not a determiner)
 
 **Pronunciation:** /ðɛr/, weak /ðɚ/ &middot; *THAIR, weak ther*
+**Русский:** не определитель: сокращение they are; притяжательное «их» — their
 **Type:** contraction of *they are* &middot; **Position:** none &middot; **Register:** neutral in speech and ordinary writing
 **Goes with:** **nothing.** No noun can follow it the way one follows *their*.
 **With *of*:** Not applicable.
@@ -832,6 +867,7 @@ The contraction of *they are*; identical in sound to the possessive *their* and 
 ### who's (not a determiner)
 
 **Pronunciation:** /huz/ &middot; *HOOZ*
+**Русский:** не определитель: сокращение who is / who has; «чей» — whose
 **Type:** contraction of *who is* / *who has* &middot; **Position:** none &middot; **Register:** neutral
 **Goes with:** **nothing.** Compare *Whose keys are these?* (determiner plus noun) with *Who's driving?* (subject plus verb).
 **With *of*:** Not applicable.
@@ -852,6 +888,7 @@ The contraction of *who is* or *who has*; the twin of the interrogative and rela
 ### you're (not a determiner)
 
 **Pronunciation:** /jʊr/, weak /jɚ/ &middot; *YOOR, weak yer*
+**Русский:** не определитель: сокращение you are; «твой, ваш» — your
 **Type:** contraction of *you are* &middot; **Position:** none &middot; **Register:** neutral
 **Goes with:** **nothing.** It cannot precede a noun; *You're the third caller* has *the* as its determiner.
 **With *of*:** Not applicable.

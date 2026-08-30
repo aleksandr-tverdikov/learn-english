@@ -13,6 +13,7 @@ These are not words so much as noises with a spelling. They carry no taboo at al
 ### argh
 
 **Pronunciation:** /ɑrɡ/, /ɑr/ &middot; *AHRG, AHR*
+**Русский:** аргх / а-а-а — стон досады и бессилия, когда всё пошло не так
 **Type:** primary &middot; **Register:** informal
 **Variants:** *aargh*, *arrgh*, *aaargh*, *arg*
 
@@ -29,6 +30,7 @@ A groan of frustration or defeat, aimed at a situation that has gone wrong rathe
 ### gah
 
 **Pronunciation:** /ɡɑ/ &middot; *GAH*
+**Русский:** а-а! / тьфу ты — короткий резкий возглас раздражения, вырывается прежде слов
 **Type:** primary &middot; **Register:** informal
 **Variants:** *gaah*, *gahh*
 
@@ -45,6 +47,7 @@ A short, sharp bark of irritation, quicker and more sudden than *ugh*. It usuall
 ### grr
 
 **Pronunciation:** no standard IPA — a growl with no vowel of its own: the r is held and carries the whole syllable, roughly /ɡr̩ː/ &middot; *GRR (a low animal growl, teeth together, r drawn out)*
+**Русский:** р-р-р — рычание в знак досады, чаще в переписке и полушутя
 **Type:** onomatopoeic &middot; **Register:** informal
 **Variants:** *grrr*, *grrrr*
 
@@ -61,6 +64,7 @@ An imitation of an animal growl used to show annoyance, most often in writing or
 ### hmph
 
 **Pronunciation:** no standard IPA — a hum with the lips shut, pushed out through the nose and cut off, roughly /hm̩f/ &middot; *HMF (mouth never opens; the sound is all nose and breath)*
+**Русский:** хмф / пф — обиженное фырканье носом: не впечатлён и слегка задет
 **Type:** onomatopoeic &middot; **Register:** informal
 **Variants:** *humph*, *harrumph*, *hmpf*
 
@@ -77,6 +81,7 @@ A short snort through the nose that signals offended disapproval or grudging ske
 ### ugh
 
 **Pronunciation:** /ʌɡ/ &middot; *UHG*
+**Русский:** фу / у-у — стон отвращения, усталости или досады
 **Type:** primary &middot; **Register:** informal
 **Variants:** *uggh*, *ughhh*, *ugghh*
 
@@ -97,6 +102,7 @@ The real thing rather than a substitute. Everything in this section is fine amon
 ### Christ
 
 **Pronunciation:** /kraɪst/ &middot; *KRYST*
+**Русский:** Господи! / Боже мой! — богохульный возглас раздражения, груб.
 **Type:** secondary &middot; **Register:** vulgar
 **Variants:** *oh Christ*, *Christ almighty*
 
@@ -113,6 +119,7 @@ A blasphemous exclamation of exasperation, said when a person or a situation has
 ### crap
 
 **Pronunciation:** /kræp/ &middot; *KRAP*
+**Русский:** блин! / чёрт! — лёгкое ругательство при неудаче, приличная замена shit (разг.)
 **Type:** secondary &middot; **Register:** very informal
 **Variants:** *oh crap*, *aw crap*
 
@@ -129,6 +136,7 @@ A mild swear for something that has just gone wrong, and a family-safe stand-in 
 ### damn
 
 **Pronunciation:** /dæm/ &middot; *DAM*
+**Русский:** чёрт! / проклятье — самое частое лёгкое американское ругательство досады (разг.)
 **Type:** secondary &middot; **Register:** very informal
 **Variants:** *damn!*
 
@@ -145,6 +153,7 @@ The most common mild curse in American speech, used when something disappoints o
 ### damn it
 
 **Pronunciation:** /ˈdæmɪt/ &middot; *DAM-it*
+**Русский:** чёрт возьми! / да чёрт побери — резче damn, направлено на ситуацию
 **Type:** phrase &middot; **Register:** very informal
 **Variants:** *dammit*, *damnit*, *damn it all*
 
@@ -161,6 +170,7 @@ A sharper, more directed *damn*, aimed at a situation that keeps going wrong. It
 ### damn you
 
 **Pronunciation:** /ˈdæm ju/ &middot; *DAM-yoo*
+**Русский:** будь ты проклят! / чтоб тебя — проклятие в адрес человека, а не ситуации
 **Type:** phrase &middot; **Register:** very informal
 **Variants:** *damn him*, *damn her*, *damn them all*
 
@@ -177,6 +187,7 @@ A curse aimed at a person rather than at a situation — literally a wish for th
 ### go to hell
 
 **Pronunciation:** /ˌɡoʊ tə ˈhɛl/ &middot; *goh-tuh-HEL*
+**Русский:** иди к чёрту! / катись к чёрту — враждебный посыл, почти всегда всерьёз
 **Type:** phrase &middot; **Register:** very informal
 **Variants:** *go straight to hell*, *the hell with you*, *tell him to go to hell*
 
@@ -193,6 +204,7 @@ A hostile dismissal telling someone they are finished as far as you are concerne
 ### God
 
 **Pronunciation:** /ɡɑd/ &middot; *GAHD*
+**Русский:** Господи! / Боже мой! — раздражённый возглас; верующие слышат имя всуе
 **Type:** secondary &middot; **Register:** very informal
 **Variants:** *oh God*, *my God*, *God almighty*
 
@@ -209,6 +221,7 @@ An exasperated appeal used when someone is wearing your patience thin. In this a
 ### goddamn it
 
 **Pronunciation:** /ˌɡɑdˈdæmɪt/ &middot; *gahd-DAM-it*
+**Русский:** да чтоб оно всё! / чёрт бы всё побрал — сильнейшее в семье damn, груб.
 **Type:** phrase &middot; **Register:** vulgar
 **Variants:** *goddammit*, *god damn it*, *goddamnit*
 
@@ -225,6 +238,7 @@ The strongest member of the *damn* family, adding blasphemy to the curse. It sig
 ### hell
 
 **Pronunciation:** /hɛl/ &middot; *HEL*
+**Русский:** чёрт! — само по себе лёгкая досада; внутри вопроса усилитель: какого чёрта
 **Type:** secondary &middot; **Register:** very informal
 **Variants:** *oh hell*, *hell no*
 
@@ -241,6 +255,7 @@ A mild swear used alone for resigned annoyance, and used inside questions as an 
 ### Jesus
 
 **Pronunciation:** /ˈdʒizəs/ &middot; *JEE-zuhs*
+**Русский:** Господи Иисусе! / Боже мой — раздражённый богохульный возглас, груб.
 **Type:** secondary &middot; **Register:** vulgar
 **Variants:** *Jesus Christ*, *Jesus H. Christ*, *oh Jesus*
 
@@ -257,6 +272,7 @@ An exasperated blasphemous exclamation, usually aimed at a person who has just d
 ### oh crap
 
 **Pronunciation:** /oʊ ˈkræp/ &middot; *oh-KRAP*
+**Русский:** ой, блин! / вот чёрт — досада в момент, когда понял, что влип
 **Type:** phrase &middot; **Register:** very informal
 **Variants:** *aw crap*, *oh crud*
 
@@ -273,6 +289,7 @@ An exasperated blasphemous exclamation, usually aimed at a person who has just d
 ### oh hell
 
 **Pronunciation:** /oʊ ˈhɛl/ &middot; *oh-HEL*
+**Русский:** ох, чёрт! / да чёрт возьми — стон досады при плохой новости
 **Type:** phrase &middot; **Register:** very informal
 **Variants:** *aw hell*, *oh hell no*
 
@@ -289,6 +306,7 @@ A groan of dismayed frustration at bad news or an unwelcome sight. The longer *o
 ### screw it
 
 **Pronunciation:** /ˈskru ɪt/ &middot; *SKROO-it*
+**Русский:** да ну его! / плевать — бросить дело от досады; приличная замена fuck it
 **Type:** phrase &middot; **Register:** very informal
 **Variants:** *screw this*, *screw that*
 
@@ -305,6 +323,7 @@ A declaration that you are giving up on something out of frustration and moving 
 ### screw you
 
 **Pronunciation:** /skru ˈju/ &middot; *skroo-YOO*
+**Русский:** да пошёл ты! / иди ты — смягчённое fuck you, но всё равно оскорбление
 **Type:** phrase &middot; **Register:** very informal
 **Variants:** *screw him*, *screw them*, *screw off*
 
@@ -321,6 +340,7 @@ A hostile insult aimed straight at a person, and the softened form of *fuck you*
 ### shit
 
 **Pronunciation:** /ʃɪt/ &middot; *SHIT*
+**Русский:** вот дерьмо! / бля! — сильное обиходное ругательство досады, груб., табу при чужих
 **Type:** secondary &middot; **Register:** vulgar
 **Variants:** *oh shit*, *aw shit*
 
@@ -337,6 +357,7 @@ The strongest of the everyday one-word swears of frustration, and genuinely tabo
 ### to hell with it
 
 **Pronunciation:** /tə ˈhɛl wɪð ɪt/ &middot; *tuh-HEL-with-it*
+**Русский:** да ну его к чёрту! / чёрт с ним — бросить дело от злости или усталости
 **Type:** phrase &middot; **Register:** very informal
 **Variants:** *the hell with it*, *to hell with this*
 
@@ -353,6 +374,7 @@ A more emphatic *screw it*: you are abandoning the effort out of anger or exhaus
 ### what the hell
 
 **Pronunciation:** /ˌwʌt ðə ˈhɛl/ &middot; *wut-thuh-HEL*
+**Русский:** какого чёрта? — гневный вопрос; 2. сказанное ровно — «а, была не была»
 **Type:** phrase &middot; **Register:** very informal
 **Variants:** *what the hell?*, *the hell*
 
@@ -374,6 +396,7 @@ Every item here is a taboo word with the offense filed off, usually by keeping t
 ### cheese and crackers
 
 **Pronunciation:** /ˌtʃiz ən ˈkrækərz/ &middot; *cheez-uhn-KRAK-erz*
+**Русский:** ёлки-палки! / ёшкин кот — нарочито дурашливая замена Jesus Christ
 **Type:** phrase &middot; **Register:** informal
 **Variants:** *cheese and rice*, *oh cheese and crackers*
 
@@ -390,6 +413,7 @@ A deliberately silly stand-in for *Jesus Christ*, built to match its rhythm and 
 ### criminy
 
 **Pronunciation:** /ˈkrɪməni/ &middot; *KRIM-uh-nee*
+**Русский:** батюшки мои! / ёлки зелёные — устар., старомодная замена Christ
 **Type:** primary &middot; **Register:** dated
 **Variants:** *crimeny*, *criminey*, *criminy sakes*
 
@@ -406,6 +430,7 @@ An old-fashioned minced form of *Christ*, used for mild exasperation. It sounds 
 ### cripes
 
 **Pronunciation:** /kraɪps/ &middot; *KRYPS*
+**Русский:** ёкарный бабай! / господи прости — устар., смягчённое Christ, как из старых комиксов
 **Type:** primary &middot; **Register:** dated
 **Variants:** *oh cripes*, *for cripes' sake*, *cripes almighty*
 
@@ -422,6 +447,7 @@ A minced form of *Christ*, used for mild exasperation or startled annoyance. It 
 ### crud
 
 **Pronunciation:** /krʌd/ &middot; *KRUHD*
+**Русский:** блин! / ёлки — мягкая замена crap, годится при детях и коллегах
 **Type:** secondary &middot; **Register:** informal
 **Variants:** *oh crud*, *aw crud*
 
@@ -438,6 +464,7 @@ A soft substitute for *crap*, safe around children and coworkers. It marks small
 ### dagnabbit
 
 **Pronunciation:** /dæɡˈnæbɪt/ &middot; *dag-NAB-it*
+**Русский:** ах ты ж, едрёна корень! — устар., деревенская замена goddamn it, ныне только в шутку
 **Type:** phrase &middot; **Register:** dated
 **Variants:** *dagnab it*, *dad gum it*, *dadgummit*
 
@@ -454,6 +481,7 @@ A rural, old-fashioned scrambling of *goddamn it*, now heard mainly in cartoons,
 ### dang
 
 **Pronunciation:** /dæŋ/ &middot; *DANG*
+**Русский:** блин! / ёлки-моталки — мягкая замена damn, с южным оттенком
 **Type:** secondary &middot; **Register:** informal
 **Variants:** *dang it*, *dang it all*
 
@@ -470,6 +498,7 @@ A soft, slightly Southern-flavored substitute for *damn*. Like the word it repla
 ### darn
 
 **Pronunciation:** /dɑrn/ &middot; *DAHRN*
+**Русский:** блин! / ёлки-палки — приличная замена damn; перед существительным «дурацкий»
 **Type:** secondary &middot; **Register:** informal
 **Variants:** *darn it*, *darn it all*, *dern*
 
@@ -486,6 +515,7 @@ The standard polite replacement for *damn*, usable in front of anyone at all. *D
 ### doggone
 
 **Pronunciation:** /ˌdɔɡˈɔn/, /ˌdɑɡˈɑn/ &middot; *dawg-GAWN, dahg-GAHN*
+**Русский:** ёлки зелёные! — устар., простецкая замена goddamn; перед существительным «окаянный»
 **Type:** secondary &middot; **Register:** dated
 **Variants:** *doggone it*, *doggonit*, *doggoned*
 
@@ -502,6 +532,7 @@ A folksy minced oath for *goddamn*, used both as an exclamation and as a mild in
 ### drat
 
 **Pronunciation:** /dræt/ &middot; *DRAT*
+**Русский:** тьфу ты! / вот незадача — устар., книжн., милое ругательство из детских книжек
 **Type:** primary &middot; **Register:** dated
 **Variants:** *drat it*, *drat it all*
 
@@ -518,6 +549,7 @@ A quaint, mild curse of annoyance, historically a squeezed-down "God rot it." It
 ### eff
 
 **Pronunciation:** /ɛf/ &middot; *EF*
+**Русский:** эф / фиг — замена fuck по его первой букве, ср. русское «на букву…»
 **Type:** primary &middot; **Register:** informal
 **Variants:** *eff it*, *effing*, *what the eff*, *eff off*
 
@@ -534,6 +566,7 @@ The letter *f* said out loud in place of *fuck* — the most transparent minced 
 ### fiddlesticks
 
 **Pronunciation:** /ˈfɪdəlstɪks/ &middot; *FID-uhl-stiks*
+**Русский:** вздор! / чепуха — устар., мягкий возглас досады и отмахивания
 **Type:** secondary &middot; **Register:** dated
 **Variants:** *oh fiddlesticks*
 
@@ -550,6 +583,7 @@ A gentle exclamation of annoyance or dismissal, meaning roughly "how irritating"
 ### freaking
 
 **Pronunciation:** /ˈfrikɪŋ/ &middot; *FREE-king*
+**Русский:** чёртов / грёбаный — смягчённая замена fucking; не самостоятельное междометие
 **Type:** secondary &middot; **Register:** informal
 **Variants:** *freakin'*, *frigging*, *friggin'*, *flipping*
 
@@ -566,6 +600,7 @@ Not a standalone interjection but the intensifier that carries the anger inside 
 ### frick
 
 **Pronunciation:** /frɪk/ &middot; *FRIK*
+**Русский:** блин! / фиг — смягчённое fuck, ходовое у подростков
 **Type:** primary &middot; **Register:** informal
 **Variants:** *frick it*, *what the frick*, *frickin'*
 
@@ -582,6 +617,7 @@ A minced form of *fuck*, common with teenagers and with anyone trying to keep it
 ### fudge
 
 **Pronunciation:** /fʌdʒ/ &middot; *FUHJ*
+**Русский:** блин! — «конфетная» замена fuck по первому звуку: слышно, что человек сдержался
 **Type:** secondary &middot; **Register:** informal
 **Variants:** *oh fudge*, *fudge it*
 
@@ -598,6 +634,7 @@ A candy-flavored substitute for *fuck*, chosen because it starts the same way. S
 ### good grief
 
 **Pronunciation:** /ɡʊd ˈɡrif/ &middot; *gud-GREEF*
+**Русский:** боже мой! / ну надо же — усталая досада от чего-то чрезмерного, вполне прилично
 **Type:** phrase &middot; **Register:** informal
 **Variants:** *oh good grief*
 
@@ -614,6 +651,7 @@ An exasperated reaction to something excessive, ridiculous, or exhausting. It is
 ### gosh
 
 **Pronunciation:** /ɡɑʃ/ &middot; *GAHSH*
+**Русский:** господи! / батюшки — приличная замена God, безопасна при ком угодно
 **Type:** primary &middot; **Register:** informal
 **Variants:** *oh gosh*, *my gosh*, *gosh no*
 
@@ -630,6 +668,7 @@ The everyday minced form of *God*, and the syllable that *gosh darn it* and *for
 ### gosh darn it
 
 **Pronunciation:** /ˌɡɑʃ ˈdɑrn ɪt/ &middot; *gahsh-DAHRN-it*
+**Русский:** ах ты ж ёлки-палки! — вдвойне смягчённое goddamn it, предельно прилично
 **Type:** phrase &middot; **Register:** informal
 **Variants:** *gosh darn*, *goshdarnit*, *gosh dang it*, *gol dang it*
 
@@ -646,6 +685,7 @@ A doubly minced *goddamn it* — *gosh* for *God* and *darn* for *damn*. It is t
 ### H-E-double-hockey-sticks
 
 **Pronunciation:** /ˌeɪtʃ i ˌdʌbəl ˈhɑki stɪks/ &middot; *aych-ee-DUB-uhl-HAH-kee-stiks*
+**Русский:** детская побуквенная замена hell, ср. «слово на букву „а“»; аналога в русском нет
 **Type:** phrase &middot; **Register:** childish
 **Variants:** *H-E-double-toothpicks*
 
@@ -662,6 +702,7 @@ A playful, letter-by-letter way of saying *hell* without saying it, named for th
 ### heck
 
 **Pronunciation:** /hɛk/ &middot; *HEK*
+**Русский:** чёрт побери (смягч.) — приличная замена hell; в вопросе усилитель: какого фига
 **Type:** secondary &middot; **Register:** informal
 **Variants:** *oh heck*, *heck no*
 
@@ -678,6 +719,7 @@ The safe replacement for *hell*, and it fills exactly the same slots: alone for 
 ### jeepers
 
 **Pronunciation:** /ˈdʒipərz/ &middot; *JEE-perz*
+**Русский:** батюшки светы! — устар., благонравная замена Jesus, звучит по-стариковски
 **Type:** primary &middot; **Register:** dated
 **Variants:** *jeepers creepers*, *oh jeepers*
 
@@ -694,6 +736,7 @@ A wholesome minced form of *Jesus*, exasperated and a little startled at the sam
 ### jeez
 
 **Pronunciation:** /dʒiz/ &middot; *JEEZ*
+**Русский:** господи! / ё-моё — обиходная смягчённая замена Jesus (разг.)
 **Type:** primary &middot; **Register:** informal
 **Variants:** *geez*, *jeeze*, *geeze*
 
@@ -710,6 +753,7 @@ The everyday minced form of *Jesus*, used for exasperation or mild shock. It is 
 ### jeez Louise
 
 **Pronunciation:** /ˌdʒiz luˈiz/ &middot; *jeez-loo-EEZ*
+**Русский:** ё-моё, ёлки-моталки! — шутливое рифмованное усиление jeez
 **Type:** phrase &middot; **Register:** informal
 **Variants:** *geez Louise*
 
@@ -726,6 +770,7 @@ A rhyming, comic extension of *jeez* for when plain *jeez* is not enough. The rh
 ### jiminy Christmas
 
 **Pronunciation:** /ˌdʒɪməni ˈkrɪsməs/ &middot; *JIM-uh-nee KRIS-muhs*
+**Русский:** матушки мои! — устар., старая замена Jesus Christ, сохраняющая его инициалы
 **Type:** phrase &middot; **Register:** dated
 **Variants:** *jiminy cricket*, *jiminy*
 
@@ -742,6 +787,7 @@ An old minced form of *Jesus Christ* that quietly keeps the initials. It is thor
 ### Judas Priest
 
 **Pronunciation:** /ˌdʒudəs ˈprist/ &middot; *JOO-duhs-PREEST*
+**Русский:** устар., замена Jesus Christ через имя Иуды — те же инициалы; аналога в русском нет
 **Type:** phrase &middot; **Register:** dated
 **Variants:** *Judas*, *Judas H. Priest*, *sweet Judas Priest*
 
@@ -758,6 +804,7 @@ A minced *Jesus Christ* that keeps the J, the rhythm, and the initials, and swap
 ### mother of pearl
 
 **Pronunciation:** /ˌmʌðər əv ˈpɜrl/ &middot; *muhth-er-uhv-PURL*
+**Русский:** мать честная! — комичный уход в сторону от motherfucker после первого слова
 **Type:** phrase &middot; **Register:** informal
 **Variants:** *sweet mother of pearl*
 
@@ -774,6 +821,7 @@ A comic minced oath that swerves away from *motherfucker* after the first word. 
 ### nuts
 
 **Pronunciation:** /nʌts/ &middot; *NUHTS*
+**Русский:** тьфу ты! / вот досада — устар., лёгкое разочарование; nuts to that — «да ну его»
 **Type:** secondary &middot; **Register:** dated
 **Variants:** *aw nuts*, *nuts to that*
 
@@ -790,6 +838,7 @@ A mild mid-century exclamation of disappointment or dismissal. *Nuts to that* me
 ### phooey
 
 **Pronunciation:** /ˈfui/ &middot; *FOO-ee*
+**Русский:** тьфу! / фу — устар., пренебрежительный возглас: «ерунда», «да ну»
 **Type:** primary &middot; **Register:** dated
 **Variants:** *aw phooey*, *oh phooey*
 
@@ -806,6 +855,7 @@ A dismissive noise of annoyance or contempt, meaning roughly "nonsense" or "forg
 ### rats
 
 **Pronunciation:** /ræts/ &middot; *RATS*
+**Русский:** эх! / вот досада — безобидное огорчение, когда планы сорвались
 **Type:** secondary &middot; **Register:** informal
 **Variants:** *oh rats*, *aw rats*
 
@@ -822,6 +872,7 @@ A small, harmless groan of disappointment when a plan falls through. It is the s
 ### Sam Hill
 
 **Pronunciation:** /ˌsæm ˈhɪl/ &middot; *sam-HIL*
+**Русский:** устар., замена hell только внутри вопроса: what in Sam Hill — «какого лешего»
 **Type:** phrase &middot; **Register:** dated
 **Variants:** *what in Sam Hill*, *where in Sam Hill*, *who in Sam Hill*
 
@@ -838,6 +889,7 @@ A nineteenth-century minced *hell* that survives only inside a question frame: *
 ### sheesh
 
 **Pronunciation:** /ʃiʃ/ &middot; *SHEESH*
+**Русский:** ну ты даёшь! / фух — раздражённый выдох: «полегче», «это уже слишком»
 **Type:** primary &middot; **Register:** informal
 **Variants:** *geesh*, *jeesh*, *yeesh*
 
@@ -854,6 +906,7 @@ An exasperated hiss at something excessive, unreasonable, or over the top. It of
 ### shoot
 
 **Pronunciation:** /ʃut/ &middot; *SHOOT*
+**Русский:** блин! / ёлки — приличная замена shit, частая на Юге и Среднем Западе
 **Type:** secondary &middot; **Register:** informal
 **Variants:** *oh shoot*, *aw shoot*
 
@@ -870,6 +923,7 @@ The polite stand-in for *shit*, especially common in the South and Midwest and s
 ### son of a biscuit
 
 **Pronunciation:** /ˌsʌn əv ə ˈbɪskɪt/ &middot; *suhn-uhv-uh-BIS-kit*
+**Русский:** ёшкин кот! — комичный уход в сторону от son of a bitch в последний момент
 **Type:** phrase &middot; **Register:** informal
 **Variants:** *son of a biscuit eater*, *son of a monkey*
 
@@ -886,6 +940,7 @@ A comic minced form of *son of a bitch*, usually aimed at a situation rather tha
 ### son of a gun
 
 **Pronunciation:** /ˌsʌn əv ə ˈɡʌn/ &middot; *suhn-uhv-uh-GUHN*
+**Русский:** вот те на! — устар., досада или удивление; о человеке — «шельма, хитрец»
 **Type:** phrase &middot; **Register:** dated
 **Variants:** *sonofagun*
 
@@ -903,6 +958,7 @@ Two uses. **1.** An exclamation of annoyance or grudging surprise at how somethi
 ### sugar
 
 **Pronunciation:** /ˈʃʊɡər/ &middot; *SHUG-er*
+**Русский:** ой, блин! — диал. (южные штаты), «сладкая» замена shit по первому звуку
 **Type:** secondary &middot; **Register:** regional (Southern)
 **Variants:** *oh sugar*, *sugar honey iced tea*
 
@@ -919,6 +975,7 @@ A sweet substitute for *shit*, chosen for the shared first sound. It is strongly
 ### tarnation
 
 **Pronunciation:** /tɑrˈneɪʃən/ &middot; *tahr-NAY-shuhn*
+**Русский:** какого лешего! — устар., замена damnation, почти только в what in tarnation
 **Type:** secondary &middot; **Register:** dated
 **Variants:** *what in tarnation*, *who in tarnation*, *consarn it*
 
@@ -935,6 +992,7 @@ A frontier-era minced *damnation*, almost always used inside *what in tarnation*
 ### what the heck
 
 **Pronunciation:** /ˌwʌt ðə ˈhɛk/ &middot; *wut-thuh-HEK*
+**Русский:** какого фига? — приличный what the hell; ровным тоном — «а, была не была»
 **Type:** phrase &middot; **Register:** informal
 **Variants:** *what the heck?*, *what in the heck*
 
@@ -956,6 +1014,7 @@ A single fixed frame with a swappable holy name. The strength of the phrase depe
 ### for Christ's sake
 
 **Pronunciation:** /fər ˈkraɪsts ˌseɪk/ &middot; *fer-KRYSTS-sayk*
+**Русский:** ради Христа! / да господи ж ты — самое резкое в этой группе, богохульно, груб.
 **Type:** phrase &middot; **Register:** vulgar
 **Variants:** *for Christ sake*, *for Christ's sakes*
 
@@ -972,6 +1031,7 @@ A blasphemous plea for someone to stop being unreasonable. It is the sharpest me
 ### for crying out loud
 
 **Pronunciation:** /fər ˌkraɪɪŋ aʊt ˈlaʊd/ &middot; *fer-KRY-ing-owt-LOWD*
+**Русский:** да сколько же можно! / ну ёлки-палки — вполне приличное «я дошёл до предела»
 **Type:** phrase &middot; **Register:** informal
 **Variants:** *oh for crying out loud*
 
@@ -988,6 +1048,7 @@ A wholesome expression of exasperation that stands in for the religious oaths it
 ### for God's sake
 
 **Pronunciation:** /fər ˈɡɑdz ˌseɪk/ &middot; *fer-GAHDZ-sayk*
+**Русский:** ради бога! / господи ты боже мой — раздражённый призыв сделать или прекратить
 **Type:** phrase &middot; **Register:** very informal
 **Variants:** *for God's sakes*, *for gosh sakes*
 
@@ -1004,6 +1065,7 @@ An exasperated appeal, normally urging someone to act or to stop. It is mild for
 ### for heaven's sake
 
 **Pronunciation:** /fər ˈhɛvənz ˌseɪk/ &middot; *fer-HEV-uhnz-sayk*
+**Русский:** ради всего святого! — мягкий, безобидный вариант for God's sake, часто у старших
 **Type:** phrase &middot; **Register:** informal
 **Variants:** *for heaven's sakes*, *for the love of heaven*
 
@@ -1020,6 +1082,7 @@ A gentle, church-safe version of *for God's sake*, common with older speakers an
 ### for Pete's sake
 
 **Pronunciation:** /fər ˈpits ˌseɪk/ &middot; *fer-PEETS-sayk*
+**Русский:** ну ради бога же! / ёлки-палки — смягчённая клятва: «Пит» вместо святого имени
 **Type:** phrase &middot; **Register:** informal
 **Variants:** *for Pete's sakes*, *for pity's sake*
 
@@ -1036,6 +1099,7 @@ A minced oath in which "Pete" quietly replaces a holy name. It is exasperated bu
 ### for the love of God
 
 **Pronunciation:** /fər ðə ˌlʌv əv ˈɡɑd/ &middot; *fer-thuh-luhv-uhv-GAHD*
+**Русский:** ради всего святого, умоляю! — мольба прекратить; варианты с Mike и Pete безобидны
 **Type:** phrase &middot; **Register:** very informal
 **Variants:** *for the love of Mike*, *for the love of Pete*, *for the love of all that's holy*
 
@@ -1056,6 +1120,7 @@ Volitive interjections: short commands whose job is to end a behavior. They are 
 ### back off
 
 **Pronunciation:** /ˌbæk ˈɔf/ &middot; *bak-AWF*
+**Русский:** отстань! / не наседай — предупреждение перестать давить, жёстче cut it out
 **Type:** phrase &middot; **Register:** informal
 **Variants:** *back off!*, *back the heck off*, *back way off*
 
@@ -1072,6 +1137,7 @@ A warning to stop pushing — physically, or more often with questions, pressure
 ### come on
 
 **Pronunciation:** /kəˈmɑn/ &middot; *kuh-MAHN*
+**Русский:** да ладно! / да брось — протест против несправедливого; коротко — «давай быстрее»
 **Type:** phrase &middot; **Register:** informal
 **Variants:** *c'mon*, *oh come on*, *aw come on*
 
@@ -1088,6 +1154,7 @@ A protest that something is unfair, unreasonable, or obviously wrong. Stretched 
 ### cut it out
 
 **Pronunciation:** /ˌkʌt ɪt ˈaʊt/ &middot; *kut-it-OWT*
+**Русский:** прекрати! / хватит — твёрдый, но не злой приказ прекратить надоедливое
 **Type:** phrase &middot; **Register:** informal
 **Variants:** *cut that out*, *cut it*
 
@@ -1104,6 +1171,7 @@ A direct order to stop an annoying behavior, most often aimed at children, sibli
 ### drop it
 
 **Pronunciation:** /ˈdrɑp ɪt/ &middot; *DRAHP-it*
+**Русский:** хватит об этом! / оставь эту тему — приказ прекратить разговор, а не действие
 **Type:** phrase &middot; **Register:** informal
 **Variants:** *just drop it*, *drop the subject*, *let it drop*
 
@@ -1120,6 +1188,7 @@ An order to stop talking about one particular thing. Where *cut it out* is about
 ### enough
 
 **Pronunciation:** /ɪˈnʌf/ &middot; *ih-NUHF*
+**Русский:** хватит! / довольно — властное «всё, прекратили», уместно у родителя или начальника
 **Type:** secondary &middot; **Register:** neutral
 **Variants:** *enough already*, *that's enough*, *enough is enough*
 
@@ -1136,6 +1205,7 @@ A flat command to stop, said when patience has run out. It carries real authorit
 ### give it a rest
 
 **Pronunciation:** /ˌɡɪv ɪt ə ˈrɛst/ &middot; *giv-it-uh-REST*
+**Русский:** да уймись уже! / хватит уже об этом — устало, с закатыванием глаз
 **Type:** phrase &middot; **Register:** very informal
 **Variants:** *just give it a rest*, *give that a rest*
 
@@ -1152,6 +1222,7 @@ A weary demand that somebody stop repeating something — a complaint, a joke, a
 ### give me a break
 
 **Pronunciation:** /ˌɡɪv mi ə ˈbreɪk/ &middot; *giv-mee-uh-BRAYK*
+**Русский:** да ладно тебе! / не смеши — «это несправедливо» или «не поверю»
 **Type:** phrase &middot; **Register:** informal
 **Variants:** *gimme a break*
 
@@ -1168,6 +1239,7 @@ An exasperated objection that something is unfair or that you are simply not buy
 ### knock it off
 
 **Pronunciation:** /ˌnɑk ɪt ˈɔf/ &middot; *nahk-it-AWF*
+**Русский:** а ну прекрати! / завязывай — резче cut it out, после первой вежливой просьбы
 **Type:** phrase &middot; **Register:** informal
 **Variants:** *knock that off*
 
@@ -1184,6 +1256,7 @@ A blunt order to stop, a notch harder than *cut it out*. It usually arrives afte
 ### quit it
 
 **Pronunciation:** /ˈkwɪt ɪt/ &middot; *KWIT-it*
+**Русский:** отстань! / перестань — детское «не трогай», классический протест младшего в семье
 **Type:** phrase &middot; **Register:** childish
 **Variants:** *quit that*
 
@@ -1200,6 +1273,7 @@ A short complaint telling someone to stop poking, teasing, or otherwise pesterin
 ### shut up
 
 **Pronunciation:** /ˌʃʌt ˈʌp/ &middot; *shut-UHP*
+**Русский:** заткнись! / замолчи — груб.; между близкими бывает шуткой, с чужими — оскорбление
 **Type:** phrase &middot; **Register:** very informal (rude)
 **Variants:** *shut it*, *oh shut up*
 
@@ -1216,6 +1290,7 @@ A rude command to stop talking. Said to a stranger, a coworker, or anyone with a
 ### that does it
 
 **Pronunciation:** /ˈðæt ˌdʌz ɪt/ &middot; *THAT-duhz-it*
+**Русский:** ну всё! / это последняя капля — терпение кончилось, сейчас последуют меры
 **Type:** phrase &middot; **Register:** informal
 **Variants:** *that's it*, *that tears it*, *that's the last straw*
 
@@ -1236,6 +1311,7 @@ Questions and adverbs that have stopped asking anything. Every one of these is a
 ### are you kidding me
 
 **Pronunciation:** /ɑr ju ˈkɪdɪŋ mi/ &middot; *ahr-yoo-KID-ing-mee*
+**Русский:** ты шутишь?! / да ты издеваешься — возмущённый вопрос без ожидания ответа
 **Type:** phrase &middot; **Register:** informal
 **Variants:** *are you kidding*, *are you serious*, *are you freaking kidding me*
 
@@ -1252,6 +1328,7 @@ An outraged question that expects no answer — you are protesting that somethin
 ### honestly
 
 **Pronunciation:** /ˈɑnəstli/ &middot; *AHN-ist-lee*
+**Русский:** ну честное слово! / боже мой — усталый вздох досады: «ну как так можно»
 **Type:** secondary &middot; **Register:** neutral
 **Variants:** *oh honestly*
 
@@ -1268,6 +1345,7 @@ Said alone with a sigh, a small expression of despairing exasperation at someone
 ### oh brother
 
 **Pronunciation:** /oʊ ˈbrʌðər/ &middot; *oh-BRUHTH-er*
+**Русский:** ну вот, опять! / господи — озвученное закатывание глаз, беззлобно
 **Type:** phrase &middot; **Register:** informal
 **Variants:** *brother*
 
@@ -1284,6 +1362,7 @@ A weary eye-roll put into words, used when someone is being dramatic, ridiculous
 ### oh please
 
 **Pronunciation:** /oʊ ˈpliz/ &middot; *oh-PLEEZ*
+**Русский:** да брось! / ой, ну хватит — презрительное «не верю, это смешно»
 **Type:** phrase &middot; **Register:** informal
 **Variants:** *please*, *oh, please*
 
@@ -1300,6 +1379,7 @@ A scornful rejection of what someone just said: you find it exaggerated, insince
 ### really
 
 **Pronunciation:** /ˈrili/, /ˈrɪli/ &middot; *REE-lee, RIL-ee*
+**Русский:** ну серьёзно? / вот как — ровным тоном упрёк; с повышением — обычное удивление
 **Type:** secondary &middot; **Register:** neutral
 **Variants:** *really?*, *oh really*
 
@@ -1316,6 +1396,7 @@ Said flat, a rebuke: you are pointing out that someone has just done something t
 ### seriously
 
 **Pronunciation:** /ˈsɪriəsli/ &middot; *SEER-ee-uhs-lee*
+**Русский:** серьёзно?! / да ты что — раздражённый вызов «ты правда это делаешь?»
 **Type:** secondary &middot; **Register:** informal
 **Variants:** *seriously?*, *are you serious*
 
@@ -1332,6 +1413,7 @@ An exasperated challenge meaning "you cannot possibly be doing this." Flat and f
 ### the nerve
 
 **Pronunciation:** /ðə ˈnɜrv/ &middot; *thuh-NURV*
+**Русский:** какая наглость! / ну и наглец — возмущённый приговор, произносимый за глаза
 **Type:** phrase &middot; **Register:** informal
 **Variants:** *the nerve of him*, *the nerve of some people*, *of all the nerve*
 
@@ -1348,6 +1430,7 @@ An outraged verdict on somebody's gall. It is said *about* the offender rather t
 ### unbelievable
 
 **Pronunciation:** /ˌʌnbɪˈlivəbəl/ &middot; *un-bih-LEE-vuh-buhl*
+**Русский:** невероятно! / уму непостижимо — приговор возмутительному; ровным тоном — злость
 **Type:** secondary &middot; **Register:** neutral
 **Variants:** *absolutely unbelievable*, *un-be-lievable*
 
@@ -1364,6 +1447,7 @@ A one-word verdict on something outrageous. In the right context it can be admir
 ### what is wrong with you
 
 **Pronunciation:** /ˌwʌt ɪz ˈrɔŋ wɪð ju/ &middot; *wut-iz-RAWNG-with-yoo*
+**Русский:** ты что, с ума сошёл? / что с тобой не так — упрёк не здоровью, а рассудку
 **Type:** phrase &middot; **Register:** informal
 **Variants:** *what's wrong with you*, *what is wrong with people*, *what the hell is wrong with you*
 
@@ -1380,6 +1464,7 @@ An angry question about somebody's judgment, not their health: you are saying th
 ### you gotta be kidding me
 
 **Pronunciation:** /ju ˌɡɑtə bi ˈkɪdɪŋ mi/ &middot; *yoo-gah-tuh-bee-KID-ing-mee*
+**Русский:** да вы издеваетесь! / этого не может быть — театральнее are you kidding me
 **Type:** phrase &middot; **Register:** informal
 **Variants:** *you've got to be kidding me*, *you have got to be kidding me*, *you gotta be kidding*
 
@@ -1400,6 +1485,7 @@ Ordinary positive words that mean their exact opposite when the pitch falls flat
 ### big whoop
 
 **Pronunciation:** /ˌbɪɡ ˈwup/ &middot; *big-WOOP*
+**Русский:** подумаешь! / вот уж радость — саркастический отказ впечатляться
 **Type:** phrase &middot; **Register:** informal
 **Variants:** *big whoop-de-doo*, *big deal*, *whoop-de-doo*
 
@@ -1416,6 +1502,7 @@ A flat, sarcastic refusal to be impressed by whatever somebody has just announce
 ### fine
 
 **Pronunciation:** /faɪn/ &middot; *FYN*
+**Русский:** ну и ладно! / ладно, сквозь зубы — сдача с явным недовольством, пассивная агрессия
 **Type:** secondary &middot; **Register:** informal
 **Variants:** *fine!*, *oh fine*, *well fine*
 
@@ -1432,6 +1519,7 @@ A clipped surrender that means the opposite of fine: you are giving in while mak
 ### great
 
 **Pronunciation:** /ɡreɪt/ &middot; *GRAYT*
+**Русский:** ну прекрасно! / замечательно — сказано ровно, значит саркастическое «вот беда»
 **Type:** secondary &middot; **Register:** informal
 **Variants:** *oh great*, *that's great*
 
@@ -1448,6 +1536,7 @@ Said flat and falling, the sarcastic opposite of its literal meaning: something 
 ### just great
 
 **Pronunciation:** /ˌdʒʌst ˈɡreɪt/ &middot; *just-GRAYT*
+**Русский:** ну просто замечательно! — тот же сарказм, но уже без всяких сомнений
 **Type:** phrase &middot; **Register:** informal
 **Variants:** *that's just great*, *oh just great*
 
@@ -1464,6 +1553,7 @@ Said flat and falling, the sarcastic opposite of its literal meaning: something 
 ### nice
 
 **Pronunciation:** /naɪs/ &middot; *NYS*
+**Русский:** ну молодец! / красиво — ровным тоном сарказм; с повышением — настоящая похвала
 **Type:** secondary &middot; **Register:** informal
 **Variants:** *real nice*, *nice going*, *nice one*
 
@@ -1480,6 +1570,7 @@ With flat intonation, a sarcastic jab at something clumsy or inconsiderate that 
 ### oh joy
 
 **Pronunciation:** /oʊ ˈdʒɔɪ/ &middot; *oh-JOY*
+**Русский:** какое счастье! / вот радость-то — сухой сарказм о том, чего вы заранее боитесь
 **Type:** phrase &middot; **Register:** informal
 **Variants:** *oh joy of joys*, *what joy*
 
@@ -1496,6 +1587,7 @@ Sarcastic delight at something you are dreading. It is drier and more theatrical
 ### perfect
 
 **Pronunciation:** /ˈpɜrfɪkt/ &middot; *PUR-fikt*
+**Русский:** ну просто отлично! / прекрасно — сарказм о новой беде в худший момент
 **Type:** secondary &middot; **Register:** informal
 **Variants:** *oh perfect*, *just perfect*
 
@@ -1512,6 +1604,7 @@ A sarcastic verdict on a new problem arriving at the worst possible moment. Flat
 ### swell
 
 **Pronunciation:** /swɛl/ &middot; *SWEL*
+**Русский:** чудненько! / расчудесно — устар. «отлично», сегодня почти только с иронией
 **Type:** secondary &middot; **Register:** dated
 **Variants:** *oh swell*, *just swell*, *that's swell*
 
@@ -1528,6 +1621,7 @@ A mid-century word for *excellent* that almost nobody uses sincerely anymore, wh
 ### terrific
 
 **Pronunciation:** /təˈrɪfɪk/ &middot; *tuh-RIF-ik*
+**Русский:** великолепно! / чудесно — сарказм, суше и старомоднее, чем great
 **Type:** secondary &middot; **Register:** informal
 **Variants:** *oh terrific*, *just terrific*
 
@@ -1544,6 +1638,7 @@ Another positive word turned sour by flat delivery, a little drier and more date
 ### thanks a lot
 
 **Pronunciation:** /ˌθæŋks ə ˈlɑt/ &middot; *thangks-uh-LAHT*
+**Русский:** спасибо большое! / вот спасибо — саркастическая благодарность за подставу
 **Type:** phrase &middot; **Register:** informal
 **Variants:** *thanks a bunch*, *thanks for nothing*
 
@@ -1560,6 +1655,7 @@ Sarcastic thanks for something that made your life harder. Only the flat, clippe
 ### whatever
 
 **Pronunciation:** /wʌtˈɛvər/ &middot; *wut-EV-er*
+**Русский:** да как хочешь / плевать — пренебрежительное закрытие спора, звучит грубовато
 **Type:** secondary &middot; **Register:** informal
 **Variants:** *whatevs*, *yeah whatever*
 
@@ -1576,6 +1672,7 @@ A dismissive surrender that ends a conversation without conceding anything. It r
 ### wonderful
 
 **Pronunciation:** /ˈwʌndərfəl/ &middot; *WUHN-der-fuhl*
+**Русский:** чудесно! / великолепно — сарказм о свежей катастрофе, горше и книжнее great
 **Type:** secondary &middot; **Register:** informal
 **Variants:** *oh wonderful*, *just wonderful*, *that's just wonderful*
 

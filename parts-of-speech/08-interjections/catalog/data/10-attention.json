@@ -6,11 +6,6 @@
       "term": "ahem",
       "ipa": "/əˈhɛm/",
       "respell": "uh-HEM",
-      "variants": [
-        "ahem-ahem"
-      ],
-      "type": "primary",
-      "register": "neutral",
       "meaning": "A deliberate throat-clearing used as a signal rather than a real cough. It asks for attention, marks that you are about to speak, or delivers a discreet correction or disapproval without saying anything explicit.",
       "examples": [
         "\"Ahem. I believe you're sitting in my seat.\"",
@@ -19,22 +14,17 @@
         "\"Ahem!\" The teacher didn't have to say anything else.",
         "Ahem. Some of us have been waiting in line for twenty minutes."
       ],
-      "related": [
-        "psst",
-        "hey",
-        "excuse me"
-      ]
+      "senses": [],
+      "русский": "кхм — покашливание, чтобы привлечь внимание или деликатно на что-то намекнуть",
+      "register": "neutral",
+      "type": "primary",
+      "variants": "ahem-ahem",
+      "see also": "psst, hey, excuse me"
     },
     {
       "term": "attention",
       "ipa": "/əˈtɛnʃən/",
       "respell": "uh-TEN-shun",
-      "variants": [
-        "attention please",
-        "may I have your attention"
-      ],
-      "type": "secondary",
-      "register": "formal",
       "meaning": "A formal call for a whole group to stop what they are doing and listen. It is the standard opener for public-address announcements, and barked as a single word it is the military command to stand up straight.",
       "examples": [
         "\"Attention, passengers: the six-fifteen to Boston is now boarding on track nine.\"",
@@ -43,20 +33,17 @@
         "\"Attention, everyone,\" the coordinator called over the noise. \"We're starting in two minutes.\"",
         "The sergeant barked \"Attention!\" and forty recruits snapped upright."
       ],
-      "related": [
-        "listen up",
-        "hear ye",
-        "order",
-        "quiet"
-      ]
+      "senses": [],
+      "русский": "внимание! — официальное обращение к залу; в армии команда «смирно!»",
+      "register": "formal",
+      "type": "secondary",
+      "variants": "attention please, may I have your attention",
+      "see also": "listen up, hear ye, order, quiet"
     },
     {
       "term": "behold",
       "ipa": "/bɪˈhoʊld/",
       "respell": "bih-HOHLD",
-      "variants": [],
-      "type": "secondary",
-      "register": "dated",
       "meaning": "An archaic command to look. It survives in scripture, ceremony, and — far more often today — in deliberate self-mockery when someone unveils something unimpressive.",
       "examples": [
         "\"Behold!\" he said, pulling the sheet off the finished table.",
@@ -65,23 +52,16 @@
         "Behold, the mighty three-page report I spent all weekend on.",
         "The magician raised both arms and shouted, \"Behold!\""
       ],
-      "related": [
-        "lo and behold",
-        "look",
-        "check it out",
-        "hark"
-      ]
+      "senses": [],
+      "русский": "узри, се — устар., шутл. приглашение посмотреть",
+      "register": "dated",
+      "type": "secondary",
+      "see also": "lo and behold, look, check it out, hark"
     },
     {
       "term": "excuse me",
       "ipa": "/ɪkˈskjuz ˌmi/",
       "respell": "ik-SKYOOZ mee",
-      "variants": [
-        "'scuse me",
-        "excuse me?"
-      ],
-      "type": "phrase",
-      "register": "neutral",
       "meaning": "The all-purpose American politeness formula, doing four jobs at once: getting a stranger's attention, asking someone to let you pass, apologizing for a small offense such as a bump or a burp, and — with a sharp rise at the end — signaling that you did not hear something or cannot believe what you just heard.",
       "examples": [
         "\"Excuse me, do you know if this bus goes downtown?\"",
@@ -91,22 +71,17 @@
         "Excuse me, but I was in line before you were.",
         "\"Excuse me! I don't remember asking for your opinion.\""
       ],
-      "related": [
-        "pardon me",
-        "coming through",
-        "ahem",
-        "hey"
-      ]
+      "senses": [],
+      "русский": "извините, простите — оклик, просьба пропустить, извинение, а с вопросом «что, простите?»",
+      "register": "neutral",
+      "type": "phrase",
+      "variants": "'scuse me, excuse me?",
+      "see also": "pardon me, coming through, ahem, hey"
     },
     {
       "term": "hark",
       "ipa": "/hɑrk/",
       "respell": "HARK",
-      "variants": [
-        "hearken"
-      ],
-      "type": "secondary",
-      "register": "dated",
       "meaning": "An archaic \"listen!\" No American says it straight anymore outside of hymns and old poetry; it survives as a joke, delivered with mock solemnity and usually a hand cupped to the ear.",
       "examples": [
         "Hark! The herald angels sing.",
@@ -115,23 +90,17 @@
         "The narrator began, \"Hark, travelers, and hear my tale.\"",
         "\"Hark! Who goes there?\" the kid yelled down from the treehouse."
       ],
-      "related": [
-        "listen",
-        "behold",
-        "hear ye",
-        "lo and behold"
-      ]
+      "senses": [],
+      "русский": "чу!, внемли — устар. и шутл. «слушай!»",
+      "register": "dated",
+      "type": "secondary",
+      "variants": "hearken",
+      "see also": "listen, behold, hear ye, lo and behold"
     },
     {
       "term": "hear ye",
       "ipa": "/ˈhɪr ˌji/",
       "respell": "HEER yee",
-      "variants": [
-        "hear ye, hear ye",
-        "hear this"
-      ],
-      "type": "phrase",
-      "register": "dated",
       "meaning": "The town crier's opener, almost always doubled: \"Hear ye, hear ye!\" Modern Americans use it only in period settings, in courtrooms, or when clowning around before an announcement at home.",
       "examples": [
         "\"Hear ye, hear ye! The court is now in session.\"",
@@ -140,23 +109,17 @@
         "The crier's voice carried down the street: \"Hear ye! A royal proclamation!\"",
         "\"Hear ye, hear ye, the kitchen is officially closed,\" my dad announced at nine."
       ],
-      "related": [
-        "oyez",
-        "attention",
-        "order",
-        "hark"
-      ]
+      "senses": [],
+      "русский": "слушайте, слушайте! — устар., клич глашатая, обычно удвоенный",
+      "register": "dated",
+      "type": "phrase",
+      "variants": "hear ye, hear ye, hear this",
+      "see also": "oyez, attention, order, hark"
     },
     {
       "term": "hello?",
       "ipa": "/həˈloʊ/",
       "respell": "huh-LOH (also /hɛˈloʊ/, heh-LOH)",
-      "variants": [
-        "hellooo",
-        "helloooo"
-      ],
-      "type": "secondary",
-      "register": "informal",
       "meaning": "Not the greeting. With a rising, drawn-out contour, \"Hello?\" means \"is anyone there?\" — into a phone, an empty house, or at a person who has clearly stopped listening. Said flat and clipped, it means \"isn't this completely obvious?\"",
       "examples": [
         "\"Hello? Is anybody home?\" she called through the screen door.",
@@ -165,24 +128,17 @@
         "\"Hello? You're the one who said you didn't want it,\" she snapped.",
         "He knocked twice and pushed the door open. \"Hello? Dr. Reyes?\""
       ],
-      "related": [
-        "hey",
-        "yoo-hoo",
-        "look alive",
-        "psst"
-      ]
+      "senses": [],
+      "русский": "эй, ау?, алло? — есть тут кто-нибудь; ровным тоном — ну это же очевидно",
+      "register": "informal",
+      "type": "secondary",
+      "variants": "hellooo, helloooo",
+      "see also": "hey, yoo-hoo, look alive, psst"
     },
     {
       "term": "hey",
       "ipa": "/heɪ/",
       "respell": "HAY",
-      "variants": [
-        "heyyy",
-        "hey there",
-        "ay"
-      ],
-      "type": "primary",
-      "register": "informal",
       "meaning": "The default American attention-getter, and a casual greeting besides. Said sharply it is a protest — \"Hey! That's mine\" — and drawn out it is warm and friendly. It is fine with friends, coworkers, and strangers on the street, but it is too casual for addressing a stranger in a formal setting, where excuse me is the safe choice.",
       "examples": [
         "\"Hey, do you have a second?\"",
@@ -191,24 +147,17 @@
         "Hey, thanks for covering my shift last night.",
         "He tapped on the driver's window. \"Hey, your lights are still on.\""
       ],
-      "related": [
-        "yo",
-        "psst",
-        "look",
-        "excuse me",
-        "hello?"
-      ]
+      "senses": [],
+      "русский": "эй — обычный оклик; также разг. приветствие «привет»",
+      "register": "informal",
+      "type": "primary",
+      "variants": "heyyy, hey there, ay",
+      "see also": "yo, psst, look, excuse me, hello?"
     },
     {
       "term": "listen",
       "ipa": "/ˈlɪsən/",
       "respell": "LIS-uhn",
-      "variants": [
-        "listen here",
-        "now listen"
-      ],
-      "type": "secondary",
-      "register": "neutral",
       "meaning": "A verb used as a conversational flag: what follows is important, or blunt, or both. It often carries a note of \"stop arguing and take this in,\" and it is the softest way in English to announce that you are about to be direct.",
       "examples": [
         "\"Listen, I'm going to be straight with you: we can't afford it.\"",
@@ -217,22 +166,17 @@
         "Listen, I know you're upset, but yelling isn't going to help.",
         "\"Okay, listen,\" the coach said. \"Here's the plan for the second half.\""
       ],
-      "related": [
-        "look",
-        "listen up",
-        "look here",
-        "hey"
-      ]
+      "senses": [],
+      "русский": "слушай — сигнал, что дальше пойдёт важное или прямое",
+      "register": "neutral",
+      "type": "secondary",
+      "variants": "listen here, now listen",
+      "see also": "look, listen up, look here, hey"
     },
     {
       "term": "listen up",
       "ipa": "/ˌlɪsən ˈʌp/",
       "respell": "lis-uhn UP",
-      "variants": [
-        "listen up, everybody"
-      ],
-      "type": "phrase",
-      "register": "informal",
       "meaning": "A command to a whole group to stop talking and pay attention. Coaches, sergeants, and shift managers use it constantly; from a peer with no authority it sounds bossy.",
       "examples": [
         "\"Listen up, everybody — the bus leaves at seven sharp.\"",
@@ -241,23 +185,17 @@
         "\"All right, listen up,\" the nurse said to the room. \"Visiting hours end at eight.\"",
         "Listen up, folks, because this part is going to be on the test."
       ],
-      "related": [
-        "listen",
-        "attention",
-        "pay attention",
-        "heads up",
-        "quiet"
-      ]
+      "senses": [],
+      "русский": "слушайте сюда — команда группе замолчать и слушать",
+      "register": "informal",
+      "type": "phrase",
+      "variants": "listen up, everybody",
+      "see also": "listen, attention, pay attention, heads up, quiet"
     },
     {
       "term": "lo and behold",
       "ipa": "/ˌloʊ ən bɪˈhoʊld/",
       "respell": "loh-uhn-bih-HOHLD",
-      "variants": [
-        "lo"
-      ],
-      "type": "phrase",
-      "register": "informal",
       "meaning": "A set phrase, always at least slightly tongue-in-cheek, introducing a result that was predictable, ironic, or suspiciously convenient. The bare lo survives only in scripture and in parody of it.",
       "examples": [
         "I checked the fridge again and, lo and behold, the leftovers were gone.",
@@ -266,23 +204,17 @@
         "Lo and behold, the one day I forget my umbrella is the day it pours.",
         "She dug through the couch cushions and — lo and behold — there were her keys."
       ],
-      "related": [
-        "behold",
-        "get this",
-        "guess what",
-        "hark"
-      ]
+      "senses": [],
+      "русский": "и вот, гляди-ка, и надо же — шутл. ввод предсказуемого поворота",
+      "register": "informal",
+      "type": "phrase",
+      "variants": "lo",
+      "see also": "behold, get this, guess what, hark"
     },
     {
       "term": "look",
       "ipa": "/lʊk/",
       "respell": "LUUK",
-      "variants": [
-        "look now",
-        "lookit"
-      ],
-      "type": "secondary",
-      "register": "neutral",
       "meaning": "Like listen, a verb repurposed as a flag before a blunt or final statement. It usually carries a trace of impatience: the speaker is done going in circles and is about to say the plain thing.",
       "examples": [
         "\"Look, I don't have time to argue about this.\"",
@@ -291,22 +223,17 @@
         "Look, all I'm saying is that we should read the contract first.",
         "\"Look, either you want the job or you don't.\""
       ],
-      "related": [
-        "listen",
-        "look here",
-        "now see here",
-        "check it out"
-      ]
+      "senses": [],
+      "русский": "слушай, смотри — с оттенком нетерпения перед прямым заявлением",
+      "register": "neutral",
+      "type": "secondary",
+      "variants": "look now, lookit",
+      "see also": "listen, look here, now see here, check it out"
     },
     {
       "term": "look alive",
       "ipa": "/ˌlʊk əˈlaɪv/",
       "respell": "luuk uh-LYV",
-      "variants": [
-        "look sharp"
-      ],
-      "type": "phrase",
-      "register": "informal",
       "meaning": "A shout telling someone to snap out of a daze and get ready, usually because something is about to come at them. It lives on ball fields, loading docks, and busy restaurant lines.",
       "examples": [
         "\"Look alive, Martinez!\" the coach yelled as the ball came off the bat.",
@@ -315,23 +242,17 @@
         "\"Look alive up there!\" the foreman called to the crew on the scaffolding.",
         "\"Look alive,\" the lifeguard said to the guard on the next chair. \"Kid in the deep end.\""
       ],
-      "related": [
-        "heads up",
-        "hello?",
-        "listen up",
-        "chop chop"
-      ]
+      "senses": [],
+      "русский": "шевелись!, не спи! — очнись и будь наготове",
+      "register": "informal",
+      "type": "phrase",
+      "variants": "look sharp",
+      "see also": "heads up, hello?, listen up, chop chop"
     },
     {
       "term": "look here",
       "ipa": "/ˌlʊk ˈhɪr/",
       "respell": "luuk HEER",
-      "variants": [
-        "see here",
-        "look-a-here"
-      ],
-      "type": "phrase",
-      "register": "dated",
       "meaning": "An old-fashioned opener for a scolding or a challenge. It is confrontational, and to modern ears it sounds like a man in a black-and-white movie about to lose his temper.",
       "examples": [
         "\"Look here, young man, that is no way to speak to your mother.\"",
@@ -340,21 +261,17 @@
         "He jabbed a finger at the survey stake. \"Look here, that fence is six feet onto my property.\"",
         "\"Look here,\" the old man said, \"you'll do it my way or not at all.\""
       ],
-      "related": [
-        "now see here",
-        "look",
-        "listen"
-      ]
+      "senses": [],
+      "русский": "послушайте-ка — устар., зачин выговора или отповеди",
+      "register": "dated",
+      "type": "phrase",
+      "variants": "see here, look-a-here",
+      "see also": "now see here, look, listen"
     },
     {
       "term": "now see here",
       "ipa": "/ˌnaʊ ˌsi ˈhɪr/",
       "respell": "now see HEER",
-      "variants": [
-        "see here"
-      ],
-      "type": "phrase",
-      "register": "dated",
       "meaning": "The same indignant opener as look here, one degree stuffier. It announces that the speaker is about to lay down the law, and in current American speech it is almost always a parody of an outraged older man.",
       "examples": [
         "\"Now see here, I will not be spoken to that way.\"",
@@ -363,21 +280,17 @@
         "He stood up, red-faced. \"Now see here! That's my chair.\"",
         "\"Now see here,\" the principal said, \"we take these things very seriously.\""
       ],
-      "related": [
-        "look here",
-        "look",
-        "listen"
-      ]
+      "senses": [],
+      "русский": "нет уж, послушайте — устар., ещё чопорнее, чем look here",
+      "register": "dated",
+      "type": "phrase",
+      "variants": "see here",
+      "see also": "look here, look, listen"
     },
     {
       "term": "oyez",
       "ipa": "/oʊˈjeɪ/",
       "respell": "oh-YAY (also /oʊˈji/, oh-YEE, and /oʊˈjɛz/, oh-YEZ)",
-      "variants": [
-        "oyes"
-      ],
-      "type": "primary",
-      "register": "formal",
       "meaning": "The bailiff's ceremonial cry that opens a court session, from Anglo-French for \"hear!\" In American life it appears almost only at the opening of the Supreme Court and at Renaissance fairs, and it is traditionally called three times.",
       "examples": [
         "\"Oyez! Oyez! Oyez! All persons having business before the Honorable Court are admonished to draw near.\"",
@@ -386,24 +299,17 @@
         "Court opened with the traditional oyez and everyone rose.",
         "The fourth graders opened their mock trial with a shaky \"Oyez, oyez.\""
       ],
-      "related": [
-        "hear ye",
-        "order",
-        "silence",
-        "attention"
-      ]
+      "senses": [],
+      "русский": "слушайте! — юр., устар., возглас пристава при открытии заседания суда",
+      "register": "formal",
+      "type": "primary",
+      "variants": "oyes",
+      "see also": "hear ye, order, silence, attention"
     },
     {
       "term": "pardon me",
       "ipa": "/ˈpɑrdən ˌmi/",
       "respell": "PAR-duhn mee",
-      "variants": [
-        "pardon",
-        "pardon?",
-        "I beg your pardon"
-      ],
-      "type": "phrase",
-      "register": "formal",
       "meaning": "A more formal cousin of excuse me: it apologizes for a small intrusion, asks permission to squeeze past, or — as a bare \"Pardon?\" — asks someone to repeat what they said. \"I beg your pardon,\" delivered with a falling, icy stress, is not an apology at all but a rebuke.",
       "examples": [
         "\"Pardon me, is this seat taken?\"",
@@ -413,22 +319,17 @@
         "\"I beg your pardon,\" my grandmother said icily. \"I was speaking.\"",
         "Pardon me for asking, but how much did that thing cost?"
       ],
-      "related": [
-        "excuse me",
-        "coming through",
-        "after you",
-        "one moment"
-      ]
+      "senses": [],
+      "русский": "простите, прошу прощения — формальнее excuse me; «Pardon?» — повторите, пожалуйста",
+      "register": "formal",
+      "type": "phrase",
+      "variants": "pardon, pardon?, I beg your pardon",
+      "see also": "excuse me, coming through, after you, one moment"
     },
     {
       "term": "pay attention",
       "ipa": "/ˌpeɪ əˈtɛnʃən/",
       "respell": "pay uh-TEN-shun",
-      "variants": [
-        "pay attention now"
-      ],
-      "type": "phrase",
-      "register": "neutral",
       "meaning": "A direct order to focus, aimed at somebody whose mind has visibly wandered. Teachers, coaches, and driving instructors say it a hundred times a day; between adult peers it is condescending, because it announces out loud that you think the other person was not listening.",
       "examples": [
         "\"Pay attention. This part is going to be on the test.\"",
@@ -437,23 +338,17 @@
         "She snapped her fingers in front of the screen. \"Pay attention.\"",
         "Pay attention to how she does it, because you're up next."
       ],
-      "related": [
-        "listen",
-        "listen up",
-        "look alive",
-        "hey"
-      ]
+      "senses": [],
+      "русский": "слушай внимательно, будь внимателен — приказ сосредоточиться",
+      "register": "neutral",
+      "type": "phrase",
+      "variants": "pay attention now",
+      "see also": "listen, listen up, look alive, hey"
     },
     {
       "term": "psst",
       "ipa": "/pst/",
-      "respell": "pssst — no vowel at all, just p-s-s-t hissed through the teeth",
-      "variants": [
-        "pst",
-        "psssst"
-      ],
-      "type": "primary",
-      "register": "informal",
+      "respell": "pssst",
       "meaning": "A low hiss aimed at exactly one person so that nobody else notices. It always carries a whiff of secrecy: come here, look at this, or you have spinach in your teeth.",
       "examples": [
         "\"Psst! Over here — I saved you a seat.\"",
@@ -462,23 +357,18 @@
         "\"Psst!\" he whispered from the doorway. \"Is she gone yet?\"",
         "Psst, don't tell anybody, but there's cake in the break room."
       ],
-      "related": [
-        "ahem",
-        "hey",
-        "yoo-hoo",
-        "shh"
-      ]
+      "senses": [],
+      "pronunciation note": "no vowel at all, just p-s-s-t hissed through the teeth",
+      "русский": "пс-с-т — тихий оклик одному человеку, украдкой",
+      "register": "informal",
+      "type": "primary",
+      "variants": "pst, psssst",
+      "see also": "ahem, hey, yoo-hoo, shh"
     },
     {
       "term": "say",
       "ipa": "/seɪ/",
       "respell": "SAY",
-      "variants": [
-        "say there",
-        "I say"
-      ],
-      "type": "secondary",
-      "register": "dated",
       "meaning": "A mid-century opener that flags down a stranger or floats a thought that just occurred to you: \"Say, don't I know you from somewhere?\" Nobody under sixty uses it straight anymore, so from a younger speaker it reads as a period impression. I say is the British cousin and sounds it.",
       "examples": [
         "\"Say, aren't you Marjorie's brother?\"",
@@ -487,23 +377,17 @@
         "He looked up from the paper. \"Say, what time does the game start?\"",
         "Say, that's a good-looking bike."
       ],
-      "related": [
-        "hey",
-        "excuse me",
-        "hark",
-        "now see here"
-      ]
+      "senses": [],
+      "русский": "слушай, послушай-ка — устар., разг. зачин при обращении к незнакомцу",
+      "register": "dated",
+      "type": "secondary",
+      "variants": "say there, I say",
+      "see also": "hey, excuse me, hark, now see here"
     },
     {
       "term": "yo",
       "ipa": "/joʊ/",
       "respell": "YOH",
-      "variants": [
-        "ayo",
-        "yo yo"
-      ],
-      "type": "primary",
-      "register": "very informal",
       "meaning": "A blunt call for attention and a casual greeting, strongly associated with urban American speech, hip-hop, and young men. It is friendly among peers and abrasive aimed at a stranger, a customer, or a boss.",
       "examples": [
         "\"Yo! Wait up!\"",
@@ -512,22 +396,17 @@
         "\"Yo, Marcus — check your phone.\"",
         "Yo, that was the best game I've seen all season."
       ],
-      "related": [
-        "hey",
-        "psst",
-        "hello?"
-      ]
+      "senses": [],
+      "русский": "эй, йоу — очень разг., свойский оклик",
+      "register": "very informal",
+      "type": "primary",
+      "variants": "ayo, yo yo",
+      "see also": "hey, psst, hello?"
     },
     {
       "term": "yoo-hoo",
       "ipa": "/ˈju ˌhu/",
       "respell": "YOO-hoo",
-      "variants": [
-        "yoohoo",
-        "yoo hoo"
-      ],
-      "type": "primary",
-      "register": "informal",
       "meaning": "A sing-song, two-note call used to reach someone at a distance or to snap someone out of a daydream. It sounds friendly and a little old-fashioned; aimed at an adult who is ignoring you, it is openly mocking.",
       "examples": [
         "\"Yoo-hoo! Over here, honey!\" she called across the parking lot.",
@@ -536,22 +415,17 @@
         "\"Yoo-hoo, Mrs. Petrelli!\" the neighbor called over the fence.",
         "He knocked on the open door. \"Yoo-hoo. Room service.\""
       ],
-      "related": [
-        "hello?",
-        "psst",
-        "hey"
-      ]
+      "senses": [],
+      "русский": "ау!, э-ге-гей! — певучий оклик издалека",
+      "register": "informal",
+      "type": "primary",
+      "variants": "yoohoo, yoo hoo",
+      "see also": "hello?, psst, hey"
     },
     {
       "term": "check it out",
       "ipa": "/ˌtʃɛk ɪt ˈaʊt/",
       "respell": "chek it OWT",
-      "variants": [
-        "check this out",
-        "check that out"
-      ],
-      "type": "phrase",
-      "register": "informal",
       "meaning": "An invitation to look at or try something the speaker thinks is genuinely cool. It points at a thing you can see or hold, not at an idea.",
       "examples": [
         "\"Check it out — I found this record at a garage sale for a dollar.\"",
@@ -560,23 +434,17 @@
         "Check it out: the whole thing folds down into a backpack.",
         "She spun around in the dress. \"Check it out. Twelve bucks.\""
       ],
-      "related": [
-        "get a load of this",
-        "get this",
-        "look",
-        "behold"
-      ]
+      "senses": [],
+      "русский": "зацени, глянь-ка — приглашение посмотреть на что-то классное",
+      "register": "informal",
+      "type": "phrase",
+      "variants": "check this out, check that out",
+      "see also": "get a load of this, get this, look, behold"
     },
     {
       "term": "get a load of this",
       "ipa": "/ˌɡɛt ə ˈloʊd əv ˌðɪs/",
       "respell": "get uh LOHD uhv this",
-      "variants": [
-        "get a load of that",
-        "get a load of this guy"
-      ],
-      "type": "phrase",
-      "register": "informal",
       "meaning": "A nudge to look at something ridiculous, outrageous, or hard to believe. Unlike check it out, it almost always carries mockery or indignation.",
       "examples": [
         "\"Get a load of this — they're charging nine dollars for a cup of coffee.\"",
@@ -585,21 +453,17 @@
         "Get a load of that sunset.",
         "\"Get a load of this,\" she said, reading the email out loud in a fake executive voice."
       ],
-      "related": [
-        "check it out",
-        "get this",
-        "guess what"
-      ]
+      "senses": [],
+      "русский": "нет, ты только посмотри — с насмешкой или возмущением",
+      "register": "informal",
+      "type": "phrase",
+      "variants": "get a load of that, get a load of this guy",
+      "see also": "check it out, get this, guess what"
     },
     {
       "term": "get this",
       "ipa": "/ˈɡɛt ðɪs/",
       "respell": "GET this",
-      "variants": [
-        "and get this"
-      ],
-      "type": "phrase",
-      "register": "informal",
       "meaning": "A storyteller's flag dropped into the middle of an anecdote, right before the surprising part. It means \"wait until you hear what comes next.\"",
       "examples": [
         "So I called the bank, and — get this — they'd closed the wrong account.",
@@ -608,22 +472,17 @@
         "They fixed the whole thing in one day, and get this, they didn't charge us.",
         "And get this — she'd known the entire time and never said a word."
       ],
-      "related": [
-        "guess what",
-        "get a load of this",
-        "lo and behold"
-      ]
+      "senses": [],
+      "русский": "и вот представь, и прикинь — перед неожиданной частью рассказа",
+      "register": "informal",
+      "type": "phrase",
+      "variants": "and get this",
+      "see also": "guess what, get a load of this, lo and behold"
     },
     {
       "term": "guess what",
       "ipa": "/ˌɡɛs ˈwʌt/",
       "respell": "ges WUT",
-      "variants": [
-        "guess what?",
-        "you'll never guess"
-      ],
-      "type": "phrase",
-      "register": "informal",
       "meaning": "An opener designed to make the listener say \"what?\" before you deliver your news. Children use it literally; adults use it as a wind-up, and sometimes sarcastically, right before an \"I told you so.\"",
       "examples": [
         "\"Guess what! I got the apartment!\"",
@@ -632,22 +491,17 @@
         "You told him not to touch it, and guess what, he touched it.",
         "Guess what? The dryer broke again."
       ],
-      "related": [
-        "get this",
-        "get a load of this",
-        "heads up"
-      ]
+      "senses": [],
+      "русский": "знаешь что!, угадай что — зачин перед новостью",
+      "register": "informal",
+      "type": "phrase",
+      "variants": "guess what?, you'll never guess",
+      "see also": "get this, get a load of this, heads up"
     },
     {
       "term": "heads up",
       "ipa": "/ˌhɛdz ˈʌp/",
       "respell": "hedz UP",
-      "variants": [
-        "heads-up",
-        "head's up"
-      ],
-      "type": "phrase",
-      "register": "neutral",
       "meaning": "Two jobs. Shouted, it warns that something is flying at you and you should look now. In conversation and email it means advance notice — flagging something before it lands on someone.",
       "examples": [
         "\"Heads up!\" someone yelled, and a foul ball landed two rows behind us.",
@@ -656,20 +510,17 @@
         "Heads up, everybody, there's construction on Route 9 this morning.",
         "Thanks for the heads up about the parking situation."
       ],
-      "related": [
-        "look alive",
-        "listen up",
-        "gangway",
-        "guess what"
-      ]
+      "senses": [],
+      "русский": "берегись!, поберегись — о летящем предмете; также предупреждение заранее",
+      "register": "neutral",
+      "type": "phrase",
+      "variants": "heads-up, head's up",
+      "see also": "look alive, listen up, gangway, guess what"
     },
     {
       "term": "wait for it",
       "ipa": "/ˌweɪt fər ˈɪt/",
       "respell": "wayt fer IT",
-      "variants": [],
-      "type": "phrase",
-      "register": "informal",
       "meaning": "A comic's setup line, dropped in one beat before the punchline or the reveal so the listener holds still for it. It is deliberately theatrical, and it only works if the payoff actually lands.",
       "examples": [
         "\"They fixed it in an hour and charged us — wait for it — nine hundred dollars.\"",
@@ -678,23 +529,16 @@
         "He held up one finger. \"Wait for it.\"",
         "She got the job, the apartment, and, wait for it, a company car."
       ],
-      "related": [
-        "get this",
-        "get a load of this",
-        "guess what",
-        "check it out"
-      ]
+      "senses": [],
+      "русский": "сейчас-сейчас…, и тут — пауза перед эффектной развязкой",
+      "register": "informal",
+      "type": "phrase",
+      "see also": "get this, get a load of this, guess what, check it out"
     },
     {
       "term": "watch this",
       "ipa": "/ˌwɑtʃ ˈðɪs/",
       "respell": "wotch THIS",
-      "variants": [
-        "watch",
-        "watch me"
-      ],
-      "type": "phrase",
-      "register": "informal",
       "meaning": "The announcement before a stunt, a trick, or a demonstration — the speaker is about to do something and wants an audience for it. Coming from a kid on a diving board or a cousin holding a lighter, it is famously the last thing said before something goes wrong.",
       "examples": [
         "\"Watch this!\" he yelled from the end of the diving board.",
@@ -703,23 +547,17 @@
         "\"Watch this,\" my nephew said, and rode straight into the hedge.",
         "Watch this, and then tell me you can't hear the difference."
       ],
-      "related": [
-        "check it out",
-        "get a load of this",
-        "look",
-        "behold"
-      ]
+      "senses": [],
+      "русский": "смотри — анонс трюка или демонстрации",
+      "register": "informal",
+      "type": "phrase",
+      "variants": "watch, watch me",
+      "see also": "check it out, get a load of this, look, behold"
     },
     {
       "term": "button it",
       "ipa": "/ˈbʌtən ɪt/",
       "respell": "BUT-uhn it",
-      "variants": [
-        "button your lip",
-        "button up"
-      ],
-      "type": "phrase",
-      "register": "very informal",
       "meaning": "A rude order to stop talking — milder and more old-fashioned than shut up, but still an insult unless you are clearly joking with someone you know well.",
       "examples": [
         "\"Button it, both of you. I'm trying to drive.\"",
@@ -728,20 +566,17 @@
         "I opened my mouth and my sister mouthed \"button it\" from across the table.",
         "\"Button your lip,\" his brother hissed, \"or Dad's going to hear.\""
       ],
-      "related": [
-        "zip it",
-        "can it",
-        "put a sock in it",
-        "shut up"
-      ]
+      "senses": [],
+      "русский": "закрой рот, помолчи — груб., старомодное",
+      "register": "very informal",
+      "type": "phrase",
+      "variants": "button your lip, button up",
+      "see also": "zip it, can it, put a sock in it, shut up"
     },
     {
       "term": "can it",
       "ipa": "/ˈkæn ɪt/",
       "respell": "KAN it",
-      "variants": [],
-      "type": "phrase",
-      "register": "very informal",
       "meaning": "A brusque \"stop talking\" or \"stop doing that,\" with the flavor of an old movie or an irritated uncle. It is dismissive, and it stings coming from anyone who outranks you.",
       "examples": [
         "\"Can it, Wilson. Nobody asked.\"",
@@ -750,23 +585,16 @@
         "\"Can it and eat,\" my father said, and that was the end of the discussion.",
         "\"Can it!\" he snapped, and the laughing stopped."
       ],
-      "related": [
-        "button it",
-        "zip it",
-        "knock it off",
-        "pipe down"
-      ]
+      "senses": [],
+      "русский": "завязывай, умолкни — груб., резкое",
+      "register": "very informal",
+      "type": "phrase",
+      "see also": "button it, zip it, knock it off, pipe down"
     },
     {
       "term": "hold your tongue",
       "ipa": "/ˌhoʊld jər ˈtʌŋ/",
       "respell": "hohld yer TUNG",
-      "variants": [
-        "watch your tongue",
-        "hold your peace"
-      ],
-      "type": "phrase",
-      "register": "dated",
       "meaning": "A stern, old-fashioned order to stop speaking, with real authority behind it — a parent, a judge, a commanding officer. Said today it lands as either genuinely severe or costume-drama, with very little in between. Do not confuse it with bite your tongue, which means \"don't jinx it.\"",
       "examples": [
         "\"Hold your tongue until you're spoken to.\"",
@@ -775,24 +603,17 @@
         "\"You will hold your tongue in this house,\" his father said.",
         "I held my tongue for about four seconds and then said it anyway."
       ],
-      "related": [
-        "not a word",
-        "quiet",
-        "silence",
-        "save it"
-      ]
+      "senses": [],
+      "русский": "придержи язык — устар., строгий приказ замолчать",
+      "register": "dated",
+      "type": "phrase",
+      "variants": "watch your tongue, hold your peace",
+      "see also": "not a word, quiet, silence, save it"
     },
     {
       "term": "hush",
       "ipa": "/hʌʃ/",
       "respell": "HUSH",
-      "variants": [
-        "hush up",
-        "hush now",
-        "hushabye"
-      ],
-      "type": "primary",
-      "register": "informal",
       "meaning": "A gentle \"be quiet,\" used with children, with someone who is crying, or when you need to hear something. Hush up is the sharper, Southern-flavored version and is a genuine reprimand.",
       "examples": [
         "\"Hush, baby, it's just thunder.\"",
@@ -801,22 +622,17 @@
         "He took her hand. \"Hush. You don't have to explain anything.\"",
         "\"You hush up and eat your dinner,\" Grandma said."
       ],
-      "related": [
-        "shh",
-        "shush",
-        "quiet",
-        "keep it down"
-      ]
+      "senses": [],
+      "русский": "тише, тс-с — мягко, ребёнку или плачущему; hush up — уже настоящий выговор",
+      "register": "informal",
+      "type": "primary",
+      "variants": "hush up, hush now, hushabye",
+      "see also": "shh, shush, quiet, keep it down"
     },
     {
       "term": "keep it down",
       "ipa": "/ˌkip ɪt ˈdaʊn/",
       "respell": "keep it DOWN",
-      "variants": [
-        "keep the noise down"
-      ],
-      "type": "phrase",
-      "register": "informal",
       "meaning": "Not \"be silent\" but \"be quieter.\" It is what you say through a wall, in a movie theater, or to kids who are supposed to be asleep.",
       "examples": [
         "\"Hey, keep it down in there! Some of us are trying to sleep.\"",
@@ -825,22 +641,17 @@
         "Keep it down — the baby just went down for a nap.",
         "He banged on the ceiling with a broom handle to tell them to keep it down."
       ],
-      "related": [
-        "quiet",
-        "pipe down",
-        "shh",
-        "hush"
-      ]
+      "senses": [],
+      "русский": "потише, не шумите — не молчать, а именно тише",
+      "register": "informal",
+      "type": "phrase",
+      "variants": "keep the noise down",
+      "see also": "quiet, pipe down, shh, hush"
     },
     {
       "term": "mum's the word",
       "ipa": "/ˌmʌmz ðə ˈwɜrd/",
       "respell": "mumz thuh WURD",
-      "variants": [
-        "mum"
-      ],
-      "type": "phrase",
-      "register": "informal",
       "meaning": "A promise — or a request — that something stays secret. It is most often the reply when someone has just told you not to tell anybody.",
       "examples": [
         "\"Don't say anything to Dana about the party.\" — \"Mum's the word.\"",
@@ -849,22 +660,17 @@
         "We're telling the family on Sunday, so until then, mum's the word.",
         "\"Mum's the word,\" she said, miming a zipper across her lips."
       ],
-      "related": [
-        "not a word",
-        "zip it",
-        "shh"
-      ]
+      "senses": [],
+      "русский": "молчок, никому ни слова — обещание сохранить тайну",
+      "register": "informal",
+      "type": "phrase",
+      "variants": "mum",
+      "see also": "not a word, zip it, shh"
     },
     {
       "term": "not a word",
       "ipa": "/ˌnɑt ə ˈwɜrd/",
       "respell": "not uh WURD",
-      "variants": [
-        "not one word",
-        "not another word"
-      ],
-      "type": "phrase",
-      "register": "neutral",
       "meaning": "An order to say nothing at all — either right this second, or to anyone, ever. Said quietly it is far more menacing than shouting.",
       "examples": [
         "\"Not a word to your mother about this, understand?\"",
@@ -873,23 +679,17 @@
         "\"Not a word of this leaves the room,\" the lawyer said.",
         "Not a word out of either of you until we get home."
       ],
-      "related": [
-        "mum's the word",
-        "zip it",
-        "quiet",
-        "hush"
-      ]
+      "senses": [],
+      "русский": "ни слова — приказ молчать сейчас или не говорить никому",
+      "register": "neutral",
+      "type": "phrase",
+      "variants": "not one word, not another word",
+      "see also": "mum's the word, zip it, quiet, hush"
     },
     {
       "term": "order",
       "ipa": "/ˈɔrdər/",
       "respell": "OR-der",
-      "variants": [
-        "order in the court",
-        "order, please"
-      ],
-      "type": "secondary",
-      "register": "formal",
       "meaning": "The presiding officer's call for a noisy room to fall silent and get back to business. Outside courtrooms and formal meetings, Americans use it only as a joke about a chaotic dinner table.",
       "examples": [
         "\"Order! Order in the court!\" the judge said, banging the gavel.",
@@ -898,20 +698,17 @@
         "Order, everyone — we have twenty minutes and six items to get through.",
         "My mother tapped her glass and said, \"Order, please,\" and five kids kept yelling anyway."
       ],
-      "related": [
-        "silence",
-        "quiet",
-        "attention",
-        "hear ye"
-      ]
+      "senses": [],
+      "русский": "к порядку! — офиц., призыв судьи или председателя",
+      "register": "formal",
+      "type": "secondary",
+      "variants": "order in the court, order, please",
+      "see also": "silence, quiet, attention, hear ye"
     },
     {
       "term": "pipe down",
       "ipa": "/ˌpaɪp ˈdaʊn/",
       "respell": "pyp DOWN",
-      "variants": [],
-      "type": "phrase",
-      "register": "informal",
       "meaning": "Tells a noisy person or group to quiet down, in a cranky, old-school tone. It is what an adult says to rowdy kids, or a coach to a loud bench — never what you say to your boss.",
       "examples": [
         "\"Pipe down back there! I can't hear the radio.\"",
@@ -920,20 +717,16 @@
         "The bus driver told the whole back row to pipe down.",
         "Pipe down — this is a library, not a cafeteria."
       ],
-      "related": [
-        "keep it down",
-        "quiet",
-        "settle down",
-        "hush"
-      ]
+      "senses": [],
+      "русский": "уймись, потише там — ворчливо, о шумящих",
+      "register": "informal",
+      "type": "phrase",
+      "see also": "keep it down, quiet, settle down, hush"
     },
     {
       "term": "put a sock in it",
       "ipa": "/ˌpʊt ə ˈsɑk ɪn ɪt/",
       "respell": "puut uh SOK in it",
-      "variants": [],
-      "type": "phrase",
-      "register": "very informal",
       "meaning": "A jokey but genuinely rude way to tell someone to shut up. It works between friends and lands badly everywhere else.",
       "examples": [
         "\"Put a sock in it, Kevin. Nobody thinks you're funny.\"",
@@ -942,24 +735,16 @@
         "Three innings of his opinions on the bullpen and I finally told him to put a sock in it.",
         "\"Put a sock in it!\" somebody shouted from the back of the theater."
       ],
-      "related": [
-        "zip it",
-        "shut up",
-        "can it",
-        "button it"
-      ]
+      "senses": [],
+      "русский": "завали, помолчи уже — груб., хоть и с шуткой",
+      "register": "very informal",
+      "type": "phrase",
+      "see also": "zip it, shut up, can it, button it"
     },
     {
       "term": "quiet",
       "ipa": "/ˈkwaɪət/",
       "respell": "KWY-uht",
-      "variants": [
-        "quiet down",
-        "quiet please",
-        "be quiet"
-      ],
-      "type": "secondary",
-      "register": "neutral",
       "meaning": "The plain command for silence. On its own it is sharp; softened with please or down it becomes the everyday version that teachers, ushers, and parents use all day long.",
       "examples": [
         "\"Quiet, please. The test starts now.\"",
@@ -968,24 +753,17 @@
         "Be quiet for one second and listen to me.",
         "\"Quiet,\" the guide whispered, \"or you'll scare off every bird in the marsh.\""
       ],
-      "related": [
-        "silence",
-        "shh",
-        "keep it down",
-        "pipe down",
-        "settle down"
-      ]
+      "senses": [],
+      "русский": "тихо!, тишина — простая команда; quiet down мягче",
+      "register": "neutral",
+      "type": "secondary",
+      "variants": "quiet down, quiet please, be quiet",
+      "see also": "silence, shh, keep it down, pipe down, settle down"
     },
     {
       "term": "save it",
       "ipa": "/ˈseɪv ɪt/",
       "respell": "SAVE it",
-      "variants": [
-        "save your breath",
-        "save it for someone who cares"
-      ],
-      "type": "phrase",
-      "register": "informal",
       "meaning": "Stop talking, because whatever is coming — an excuse, an apology, a sales pitch — is not going to work on me. It is dismissive by design and it stings, but it contains nothing profane, which is why it survives in offices where shut up would end a career.",
       "examples": [
         "\"Save it. I already talked to your sister.\"",
@@ -994,24 +772,17 @@
         "\"Save your breath. The decision came down this morning.\"",
         "Save it for the judge."
       ],
-      "related": [
-        "not a word",
-        "drop it",
-        "enough",
-        "shut up"
-      ]
+      "senses": [],
+      "русский": "прибереги, не трать слова — мне это слушать не интересно",
+      "register": "informal",
+      "type": "phrase",
+      "variants": "save your breath, save it for someone who cares",
+      "see also": "not a word, drop it, enough, shut up"
     },
     {
       "term": "shh",
       "ipa": "/ʃː/",
-      "respell": "shhh — a long \"sh\" with no vowel in it",
-      "variants": [
-        "sh",
-        "shhh",
-        "ssh"
-      ],
-      "type": "primary",
-      "register": "neutral",
+      "respell": "shhh",
       "meaning": "The universal hush sound, usually delivered with a finger against the lips. It asks for silence, and said softly and repeatedly it also comforts someone who is upset.",
       "examples": [
         "\"Shh, they can hear us through the wall.\"",
@@ -1020,22 +791,18 @@
         "\"Shhh, it's okay, you're safe,\" he said, rocking the baby.",
         "Somebody in the back row went \"shh\" and the whole theater quieted down."
       ],
-      "related": [
-        "shush",
-        "hush",
-        "quiet",
-        "psst"
-      ]
+      "senses": [],
+      "pronunciation note": "a long \"sh\" with no vowel in it",
+      "русский": "тс-с, ш-ш — призыв к тишине; тихо и повторно — успокаивающее",
+      "register": "neutral",
+      "type": "primary",
+      "variants": "sh, shhh, ssh",
+      "see also": "shush, hush, quiet, psst"
     },
     {
       "term": "shush",
       "ipa": "/ʃʌʃ/",
       "respell": "SHUSH (also /ʃʊʃ/, SHUUSH)",
-      "variants": [
-        "shush up"
-      ],
-      "type": "primary",
-      "register": "informal",
       "meaning": "A word-shaped version of shh, used both as the command and as a regular verb (\"she shushed him\"). It sounds softer and more familiar than a bare shh, and between friends it can be almost affectionate.",
       "examples": [
         "\"Shush, I'm trying to hear the announcement.\"",
@@ -1044,23 +811,17 @@
         "Every time he started to explain, somebody shushed him.",
         "\"Shush now,\" the nurse said kindly. \"Save your voice.\""
       ],
-      "related": [
-        "shh",
-        "hush",
-        "quiet"
-      ]
+      "senses": [],
+      "русский": "тише, цыц — мягче, чем shh; тж. глагол «шикать на кого-то»",
+      "register": "informal",
+      "type": "primary",
+      "variants": "shush up",
+      "see also": "shh, hush, quiet"
     },
     {
       "term": "shut up",
       "ipa": "/ˌʃʌt ˈʌp/",
       "respell": "shut UP",
-      "variants": [
-        "shut it",
-        "shut your mouth",
-        "shaddap"
-      ],
-      "type": "phrase",
-      "register": "very informal",
       "meaning": "The blunt, hostile order to stop talking. It is genuinely offensive from a stranger and enough to start a fight; learners should treat it as off-limits at work. Among close friends it has a second, harmless life as an expression of delighted disbelief, roughly \"no way!\"",
       "examples": [
         "\"Shut up and let her talk.\"",
@@ -1069,23 +830,17 @@
         "\"Shut up, I hear a car in the driveway.\"",
         "\"Shut your mouth,\" she said, and she was not joking."
       ],
-      "related": [
-        "zip it",
-        "put a sock in it",
-        "can it",
-        "button it",
-        "save it"
-      ]
+      "senses": [],
+      "русский": "заткнись — груб., оскорбительно; среди друзей также «да ладно!, не может быть!»",
+      "register": "very informal",
+      "type": "phrase",
+      "variants": "shut it, shut your mouth, shaddap",
+      "see also": "zip it, put a sock in it, can it, button it, save it"
     },
     {
       "term": "silence",
       "ipa": "/ˈsaɪləns/",
       "respell": "SY-luhns",
-      "variants": [
-        "silence, please"
-      ],
-      "type": "secondary",
-      "register": "formal",
       "meaning": "A one-word command with institutional authority behind it — courtroom, church, concert hall, parade ground. From a peer it sounds theatrical, and that is usually the joke.",
       "examples": [
         "\"Silence in the courtroom!\"",
@@ -1094,23 +849,17 @@
         "\"Silence, all of you,\" the abbot said quietly, and the hall went still.",
         "The proctor didn't look up. \"Silence. You have ninety minutes.\""
       ],
-      "related": [
-        "quiet",
-        "order",
-        "shh",
-        "hush"
-      ]
+      "senses": [],
+      "русский": "тишина!, молчать! — офиц., книжн., с институциональным весом",
+      "register": "formal",
+      "type": "secondary",
+      "variants": "silence, please",
+      "see also": "quiet, order, shh, hush"
     },
     {
       "term": "zip it",
       "ipa": "/ˈzɪp ɪt/",
       "respell": "ZIP it",
-      "variants": [
-        "zip your lip",
-        "zip it up"
-      ],
-      "type": "phrase",
-      "register": "very informal",
       "meaning": "A curt \"stop talking,\" often paired with a zipping motion across the lips. Playful with kids and close friends; hostile with anyone else.",
       "examples": [
         "\"Zip it. I don't want to hear another word about it.\"",
@@ -1119,24 +868,17 @@
         "\"Zip it,\" the coach said, \"and let the ref make the call.\"",
         "Zip it for two minutes and let me concentrate."
       ],
-      "related": [
-        "button it",
-        "can it",
-        "put a sock in it",
-        "shut up",
-        "mum's the word"
-      ]
+      "senses": [],
+      "русский": "рот на замок, закрой рот — резкое, с жестом молнии по губам",
+      "register": "very informal",
+      "type": "phrase",
+      "variants": "zip your lip, zip it up",
+      "see also": "button it, can it, put a sock in it, shut up, mum's the word"
     },
     {
       "term": "back off",
       "ipa": "/ˌbæk ˈɔf/",
       "respell": "bak AWF",
-      "variants": [
-        "back up",
-        "back away"
-      ],
-      "type": "phrase",
-      "register": "informal",
       "meaning": "Tells someone to move away physically, or to stop pressuring you. Both senses are confrontational, and the physical one is a warning that something is about to happen.",
       "examples": [
         "\"Back off! I'm warning you.\"",
@@ -1145,23 +887,17 @@
         "Back off — he's had a rough week and doesn't need a lecture.",
         "He put both hands up. \"Back off, I'm going.\""
       ],
-      "related": [
-        "lay off",
-        "give it a rest",
-        "easy",
-        "step aside"
-      ]
+      "senses": [],
+      "русский": "отойди; отвали, не дави — и о дистанции, и о давлении",
+      "register": "informal",
+      "type": "phrase",
+      "variants": "back up, back away",
+      "see also": "lay off, give it a rest, easy, step aside"
     },
     {
       "term": "cut it out",
       "ipa": "/ˌkʌt ɪt ˈaʊt/",
       "respell": "kut it OWT",
-      "variants": [
-        "cut that out",
-        "cut it"
-      ],
-      "type": "phrase",
-      "register": "informal",
       "meaning": "Tells somebody to stop doing something annoying. It is a shade more familiar than knock it off and is the standard American parent-to-kid line at the dinner table.",
       "examples": [
         "\"Cut it out! That hurts.\"",
@@ -1170,23 +906,17 @@
         "He kept poking me until I told him to cut it out.",
         "\"Cut it out — I'm being serious.\""
       ],
-      "related": [
-        "knock it off",
-        "quit it",
-        "stop",
-        "enough"
-      ]
+      "senses": [],
+      "русский": "прекрати, хватит — о надоедливом поведении",
+      "register": "informal",
+      "type": "phrase",
+      "variants": "cut that out, cut it",
+      "see also": "knock it off, quit it, stop, enough"
     },
     {
       "term": "drop it",
       "ipa": "/ˈdrɑp ɪt/",
       "respell": "DROP it",
-      "variants": [
-        "let it drop",
-        "drop the subject"
-      ],
-      "type": "phrase",
-      "register": "informal",
       "meaning": "Stop bringing this subject up. With a hard edge it means the conversation is over and pushing further will start a fight. It is also, literally, what you say to a dog with your shoe in its mouth.",
       "examples": [
         "\"Drop it, Ellen. I don't want to talk about it.\"",
@@ -1195,24 +925,17 @@
         "I brought it up one more time and he said, \"Drop it.\"",
         "Can we drop it and just enjoy dinner?"
       ],
-      "related": [
-        "give it a rest",
-        "enough",
-        "lay off",
-        "that'll do"
-      ]
+      "senses": [],
+      "русский": "оставь эту тему, забудь — разговор окончен; тж. собаке «брось!»",
+      "register": "informal",
+      "type": "phrase",
+      "variants": "let it drop, drop the subject",
+      "see also": "give it a rest, enough, lay off, that'll do"
     },
     {
       "term": "enough",
       "ipa": "/ɪˈnʌf/",
       "respell": "ih-NUF",
-      "variants": [
-        "that's enough",
-        "enough already",
-        "enough is enough"
-      ],
-      "type": "secondary",
-      "register": "neutral",
       "meaning": "Calls a halt because a limit has been reached. Snapped by a parent, teacher, or manager it ends the behavior on the spot; enough already is the exasperated, New York-flavored version.",
       "examples": [
         "\"Enough! Both of you, go to your rooms.\"",
@@ -1221,23 +944,17 @@
         "Enough. We are not doing this again tonight.",
         "\"That's enough, thank you,\" the judge told the witness."
       ],
-      "related": [
-        "that'll do",
-        "stop",
-        "cut it out",
-        "knock it off",
-        "give it a rest"
-      ]
+      "senses": [],
+      "русский": "хватит!, довольно — предел достигнут",
+      "register": "neutral",
+      "type": "secondary",
+      "variants": "that's enough, enough already, enough is enough",
+      "see also": "that'll do, stop, cut it out, knock it off, give it a rest"
     },
     {
       "term": "freeze",
       "ipa": "/friz/",
       "respell": "FREEZ",
-      "variants": [
-        "freeze right there"
-      ],
-      "type": "secondary",
-      "register": "neutral",
       "meaning": "Stop moving this instant. It is the police command of a thousand American movies, and it is equally at home in a game of tag or aimed at a kid about to step on broken glass.",
       "examples": [
         "\"Freeze! Police! Hands where I can see them.\"",
@@ -1246,22 +963,17 @@
         "Freeze — don't move, there's a wasp on your shoulder.",
         "\"Freeze right there,\" the guard said, stepping out of the booth."
       ],
-      "related": [
-        "halt",
-        "hold it",
-        "stop",
-        "hold up"
-      ]
+      "senses": [],
+      "русский": "замри!, ни с места! — команда не двигаться",
+      "register": "neutral",
+      "type": "secondary",
+      "variants": "freeze right there",
+      "see also": "halt, hold it, stop, hold up"
     },
     {
       "term": "give it a rest",
       "ipa": "/ˌɡɪv ɪt ə ˈrɛst/",
       "respell": "giv it uh REST",
-      "variants": [
-        "give it a break"
-      ],
-      "type": "phrase",
-      "register": "very informal",
       "meaning": "An exasperated \"stop going on about it.\" It says the topic, the joke, or the nagging has thoroughly worn out its welcome.",
       "examples": [
         "\"Give it a rest, would you? We've been over this twice.\"",
@@ -1270,22 +982,17 @@
         "She's been complaining since Tuesday and she will not give it a rest.",
         "Give it a rest, Dad. I'll do it after dinner."
       ],
-      "related": [
-        "drop it",
-        "enough",
-        "lay off",
-        "knock it off"
-      ]
+      "senses": [],
+      "русский": "хватит уже, отстань — раздражённо, тема надоела",
+      "register": "very informal",
+      "type": "phrase",
+      "variants": "give it a break",
+      "see also": "drop it, enough, lay off, knock it off"
     },
     {
       "term": "halt",
       "ipa": "/hɔlt/",
       "respell": "HAWLT",
-      "variants": [
-        "halt right there"
-      ],
-      "type": "secondary",
-      "register": "formal",
       "meaning": "A formal command to stop moving, at home in the military, at a checkpoint, and in the old sentry's challenge \"Halt! Who goes there?\" Civilians use it only for comic effect.",
       "examples": [
         "\"Halt! Who goes there?\"",
@@ -1294,22 +1001,17 @@
         "Halt — this is a restricted area.",
         "He stuck out an arm like a crossing guard and said, \"Halt.\""
       ],
-      "related": [
-        "freeze",
-        "stop",
-        "hold it"
-      ]
+      "senses": [],
+      "русский": "стой! — офиц., воен. команда остановиться",
+      "register": "formal",
+      "type": "secondary",
+      "variants": "halt right there",
+      "see also": "freeze, stop, hold it"
     },
     {
       "term": "hands off",
       "ipa": "/ˌhændz ˈɔf/",
       "respell": "handz AWF",
-      "variants": [
-        "hands off it",
-        "hands to yourself"
-      ],
-      "type": "phrase",
-      "register": "informal",
       "meaning": "Don't touch that. It guards an object — a dessert, a tool, somebody else's phone — rather than a person's space, which is what separates it from back off. Snapped at an adult it stops being a request.",
       "examples": [
         "\"Hands off! That's for the party.\"",
@@ -1318,23 +1020,17 @@
         "\"Hands off, both of you, until everybody's at the table.\"",
         "Hands off — the paint is still wet."
       ],
-      "related": [
-        "back off",
-        "freeze",
-        "cut it out",
-        "easy"
-      ]
+      "senses": [],
+      "русский": "руки прочь, не трогай — о вещи, а не о личном пространстве",
+      "register": "informal",
+      "type": "phrase",
+      "variants": "hands off it, hands to yourself",
+      "see also": "back off, freeze, cut it out, easy"
     },
     {
       "term": "hang on",
       "ipa": "/ˌhæŋ ˈɑn/",
       "respell": "hang ON",
-      "variants": [
-        "hang on a sec",
-        "hang on a minute"
-      ],
-      "type": "phrase",
-      "register": "informal",
       "meaning": "Wait a moment — the everyday version of hold on, used for short delays and also for \"wait, that doesn't add up.\"",
       "examples": [
         "\"Hang on, I'm almost ready.\"",
@@ -1343,22 +1039,17 @@
         "Hang on, let me put you on speaker.",
         "\"Hang on a minute,\" she said, digging through her purse."
       ],
-      "related": [
-        "hold on",
-        "hold up",
-        "just a sec",
-        "wait"
-      ]
+      "senses": [],
+      "русский": "погоди, подожди — разг., о короткой паузе",
+      "register": "informal",
+      "type": "phrase",
+      "variants": "hang on a sec, hang on a minute",
+      "see also": "hold on, hold up, just a sec, wait"
     },
     {
       "term": "hold it",
       "ipa": "/ˈhoʊld ɪt/",
       "respell": "HOHLD it",
-      "variants": [
-        "hold it right there"
-      ],
-      "type": "phrase",
-      "register": "informal",
       "meaning": "Stop right where you are — a sharper, more physical wait. Photographers also use it to freeze a pose while they get the shot.",
       "examples": [
         "\"Hold it right there. Where do you think you're going?\"",
@@ -1367,23 +1058,17 @@
         "\"Hold it!\" he called as the elevator doors started to close.",
         "Hold it a second, I think we took a wrong turn."
       ],
-      "related": [
-        "hold on",
-        "hold up",
-        "freeze",
-        "wait"
-      ]
+      "senses": [],
+      "русский": "стоп!, стой на месте — резче и физичнее, чем wait",
+      "register": "informal",
+      "type": "phrase",
+      "variants": "hold it right there",
+      "see also": "hold on, hold up, freeze, wait"
     },
     {
       "term": "hold on",
       "ipa": "/ˌhoʊld ˈɑn/",
       "respell": "hohld ON",
-      "variants": [
-        "hold on a second",
-        "hold on a minute"
-      ],
-      "type": "phrase",
-      "register": "neutral",
       "meaning": "Wait — the most common way an American asks for a pause: on the phone, at a door, or mid-conversation when something needs a second look.",
       "examples": [
         "\"Hold on, I'll transfer you.\"",
@@ -1392,24 +1077,17 @@
         "Hold on, let me write that down.",
         "\"Can you hold on? My other line is ringing.\""
       ],
-      "related": [
-        "hang on",
-        "hold up",
-        "just a sec",
-        "one moment",
-        "wait"
-      ]
+      "senses": [],
+      "русский": "подожди, погоди — самый обычный способ попросить паузу",
+      "register": "neutral",
+      "type": "phrase",
+      "variants": "hold on a second, hold on a minute",
+      "see also": "hang on, hold up, just a sec, one moment, wait"
     },
     {
       "term": "hold the phone",
       "ipa": "/ˌhoʊld ðə ˈfoʊn/",
       "respell": "hohld thuh FOHN",
-      "variants": [
-        "hold the presses",
-        "stop the presses"
-      ],
-      "type": "phrase",
-      "register": "informal",
       "meaning": "A jokey \"wait a second\" used when something surprising has just been said and needs re-examining. Nobody is holding an actual phone.",
       "examples": [
         "\"Hold the phone — you two are dating?\"",
@@ -1418,22 +1096,17 @@
         "Wait, hold the phone, when did we agree to that?",
         "\"Hold the phone,\" he said, setting down his fork. \"Say that again.\""
       ],
-      "related": [
-        "hold up",
-        "hold on",
-        "hold your horses",
-        "wait"
-      ]
+      "senses": [],
+      "русский": "стоп, погоди-ка — шутл., когда услышал что-то неожиданное",
+      "register": "informal",
+      "type": "phrase",
+      "variants": "hold the presses, stop the presses",
+      "see also": "hold up, hold on, hold your horses, wait"
     },
     {
       "term": "hold up",
       "ipa": "/ˌhoʊld ˈʌp/",
       "respell": "hohld UP",
-      "variants": [
-        "hold up a sec"
-      ],
-      "type": "phrase",
-      "register": "informal",
       "meaning": "Wait — usually with a note of objection, as in \"back up, something here is wrong.\" It also works literally: stop walking so I can catch you.",
       "examples": [
         "\"Hold up, I'm coming with you!\"",
@@ -1442,22 +1115,17 @@
         "Hold up a sec, my shoe's untied.",
         "\"Hold up,\" he said, \"that's not what the email said.\""
       ],
-      "related": [
-        "hold on",
-        "hang on",
-        "wait up",
-        "hold the phone"
-      ]
+      "senses": [],
+      "русский": "стой, погоди — часто с возражением: тут что-то не так",
+      "register": "informal",
+      "type": "phrase",
+      "variants": "hold up a sec",
+      "see also": "hold on, hang on, wait up, hold the phone"
     },
     {
       "term": "hold your horses",
       "ipa": "/ˌhoʊld jər ˈhɔrsɪz/",
       "respell": "hohld yer HOR-siz",
-      "variants": [
-        "hold your water"
-      ],
-      "type": "phrase",
-      "register": "informal",
       "meaning": "A folksy \"be patient,\" said to someone who is rushing you. It is mild and a little teasing, and it comes most naturally from parents and older speakers.",
       "examples": [
         "\"Hold your horses — I only have two hands.\"",
@@ -1466,25 +1134,17 @@
         "Hold your horses, I'm still on the first page.",
         "She honked twice and I yelled, \"Hold your horses!\""
       ],
-      "related": [
-        "hold on",
-        "hang on",
-        "easy",
-        "wait",
-        "simmer down"
-      ]
+      "senses": [],
+      "русский": "не гони, попридержи коней — мягко, с подначкой",
+      "register": "informal",
+      "type": "phrase",
+      "variants": "hold your water",
+      "see also": "hold on, hang on, easy, wait, simmer down"
     },
     {
       "term": "just a sec",
       "ipa": "/ˌdʒʌst ə ˈsɛk/",
       "respell": "just uh SEK",
-      "variants": [
-        "one sec",
-        "just a second",
-        "sec"
-      ],
-      "type": "phrase",
-      "register": "informal",
       "meaning": "A casual request for a very short delay. Breezier than one moment, and used with friends, family, and coworkers rather than customers.",
       "examples": [
         "\"Just a sec, I'm putting my shoes on.\"",
@@ -1493,22 +1153,17 @@
         "One sec, my hands are covered in flour.",
         "\"Just a second,\" he said, holding up a finger while he finished the text."
       ],
-      "related": [
-        "one moment",
-        "hang on",
-        "hold on",
-        "wait"
-      ]
+      "senses": [],
+      "русский": "секундочку, минутку — разг., о совсем короткой паузе",
+      "register": "informal",
+      "type": "phrase",
+      "variants": "one sec, just a second, sec",
+      "see also": "one moment, hang on, hold on, wait"
     },
     {
       "term": "knock it off",
       "ipa": "/ˌnɑk ɪt ˈɔf/",
       "respell": "nok it AWF",
-      "variants": [
-        "knock that off"
-      ],
-      "type": "phrase",
-      "register": "informal",
       "meaning": "A firm \"stop that,\" aimed at behavior that is annoying or about to get someone hurt. It is the classic American parent-to-kid and coach-to-player line, and it carries real irritation.",
       "examples": [
         "\"Knock it off or we're going home.\"",
@@ -1517,23 +1172,17 @@
         "He wouldn't knock it off until the teacher stood up.",
         "\"Knock it off,\" she said flatly. \"I'm not in the mood.\""
       ],
-      "related": [
-        "cut it out",
-        "quit it",
-        "enough",
-        "break it up"
-      ]
+      "senses": [],
+      "русский": "прекрати, кончай — твёрдо и с раздражением",
+      "register": "informal",
+      "type": "phrase",
+      "variants": "knock that off",
+      "see also": "cut it out, quit it, enough, break it up"
     },
     {
       "term": "lay off",
       "ipa": "/ˌleɪ ˈɔf/",
       "respell": "lay AWF",
-      "variants": [
-        "lay off it",
-        "lay off him"
-      ],
-      "type": "phrase",
-      "register": "informal",
       "meaning": "Stop picking on someone, or stop pushing something. It takes an object as easily as it stands alone: lay off the kid, lay off the caffeine.",
       "examples": [
         "\"Lay off, he's doing the best he can.\"",
@@ -1542,20 +1191,17 @@
         "She told her brother to lay off and he kept right on going.",
         "\"Lay off the kid, will you? It was an accident.\""
       ],
-      "related": [
-        "back off",
-        "give it a rest",
-        "drop it",
-        "easy"
-      ]
+      "senses": [],
+      "русский": "отстань, не придирайся — тж. с дополнением: «завязывай с кофе»",
+      "register": "informal",
+      "type": "phrase",
+      "variants": "lay off it, lay off him",
+      "see also": "back off, give it a rest, drop it, easy"
     },
     {
       "term": "not so fast",
       "ipa": "/ˌnɑt soʊ ˈfæst/",
       "respell": "not soh FAST",
-      "variants": [],
-      "type": "phrase",
-      "register": "informal",
       "meaning": "Hold on — you are not getting away with that. It is aimed at somebody who is leaving, claiming a win, or trying to slip one past you, and it almost always comes with a raised eyebrow rather than a raised voice.",
       "examples": [
         "\"Not so fast. You still owe me twenty bucks.\"",
@@ -1564,23 +1210,16 @@
         "He was halfway to the door when she said, \"Not so fast.\"",
         "Everyone assumed the deal was done, but not so fast: the board hadn't voted yet."
       ],
-      "related": [
-        "hold it",
-        "hold up",
-        "wait",
-        "hold your horses"
-      ]
+      "senses": [],
+      "русский": "не так быстро, погоди-ка — так просто не отделаешься",
+      "register": "informal",
+      "type": "phrase",
+      "see also": "hold it, hold up, wait, hold your horses"
     },
     {
       "term": "one moment",
       "ipa": "/ˌwʌn ˈmoʊmənt/",
       "respell": "wun MOH-muhnt",
-      "variants": [
-        "one moment please",
-        "just a moment"
-      ],
-      "type": "phrase",
-      "register": "formal",
       "meaning": "The polite, service-industry way to ask someone to wait. Receptionists, hosts, and phone agents say it all day; friends say just a sec instead.",
       "examples": [
         "\"One moment, please. I'll see if she's available.\"",
@@ -1589,21 +1228,17 @@
         "One moment while I connect you.",
         "\"If you'll give me one moment, I'll get the manager.\""
       ],
-      "related": [
-        "just a sec",
-        "hold on",
-        "pardon me"
-      ]
+      "senses": [],
+      "русский": "одну минуту, минуточку — вежливо, в сфере обслуживания",
+      "register": "formal",
+      "type": "phrase",
+      "variants": "one moment please, just a moment",
+      "see also": "just a sec, hold on, pardon me"
     },
     {
       "term": "quit it",
       "ipa": "/ˈkwɪt ɪt/",
       "respell": "KWIT it",
-      "variants": [
-        "quit that"
-      ],
-      "type": "phrase",
-      "register": "informal",
       "meaning": "Stop that — the playground classic, whined or snapped at somebody who keeps poking, teasing, or repeating the same noise.",
       "examples": [
         "\"Quit it! I'm telling Mom.\"",
@@ -1612,20 +1247,17 @@
         "He kicked the back of my seat the whole flight, and asking him to quit it did nothing.",
         "\"Quit it, both of you,\" she said without turning around."
       ],
-      "related": [
-        "cut it out",
-        "knock it off",
-        "stop",
-        "enough"
-      ]
+      "senses": [],
+      "русский": "перестань, кончай — детское, тому, кто пристаёт",
+      "register": "informal",
+      "type": "phrase",
+      "variants": "quit that",
+      "see also": "cut it out, knock it off, stop, enough"
     },
     {
       "term": "sit tight",
       "ipa": "/ˌsɪt ˈtaɪt/",
       "respell": "sit TYT",
-      "variants": [],
-      "type": "phrase",
-      "register": "informal",
       "meaning": "Stay where you are and wait — usually with an implied promise that somebody else is handling it. That reassurance is what separates it from stay put, which is a flat order.",
       "examples": [
         "\"Sit tight. I'll be back with your paperwork in five minutes.\"",
@@ -1634,20 +1266,16 @@
         "We sat tight for an hour before anyone told us anything.",
         "Sit tight, don't sign anything, and let me call the lawyer."
       ],
-      "related": [
-        "stay put",
-        "hold on",
-        "hang on",
-        "one moment"
-      ]
+      "senses": [],
+      "русский": "сиди и жди — с намёком, что вопросом уже занимаются",
+      "register": "informal",
+      "type": "phrase",
+      "see also": "stay put, hold on, hang on, one moment"
     },
     {
       "term": "stay put",
       "ipa": "/ˌsteɪ ˈpʊt/",
       "respell": "stay PUUT",
-      "variants": [],
-      "type": "phrase",
-      "register": "informal",
       "meaning": "Do not move from that spot. It is what you tell a kid in a crowded store, a hiker who called in lost, or a rug that keeps sliding — flat, practical, and not up for discussion.",
       "examples": [
         "\"Stay put. I'm coming to get you.\"",
@@ -1656,24 +1284,16 @@
         "The tape wouldn't stay put no matter how hard I pressed it down.",
         "Stay put, buddy — I can see you from here."
       ],
-      "related": [
-        "sit tight",
-        "freeze",
-        "hold it",
-        "wait"
-      ]
+      "senses": [],
+      "русский": "стой на месте, никуда не уходи — плоский приказ, не обсуждается",
+      "register": "informal",
+      "type": "phrase",
+      "see also": "sit tight, freeze, hold it, wait"
     },
     {
       "term": "stop",
       "ipa": "/stɑp/",
       "respell": "STOP",
-      "variants": [
-        "stop it",
-        "stop that",
-        "stop right there"
-      ],
-      "type": "secondary",
-      "register": "neutral",
       "meaning": "The plainest command in the group, and the one that always works. Alone and loud it means immediately; with it or that it targets a specific behavior.",
       "examples": [
         "\"Stop! There's a car coming.\"",
@@ -1682,24 +1302,17 @@
         "\"Stop, please,\" she said quietly, and he finally set the phone down.",
         "\"Stop that,\" she told the dog, who had started digging again."
       ],
-      "related": [
-        "halt",
-        "freeze",
-        "hold it",
-        "quit it",
-        "enough"
-      ]
+      "senses": [],
+      "русский": "стой!, прекрати — самая простая и надёжная команда",
+      "register": "neutral",
+      "type": "secondary",
+      "variants": "stop it, stop that, stop right there",
+      "see also": "halt, freeze, hold it, quit it, enough"
     },
     {
       "term": "that'll do",
       "ipa": "/ˈðætəl ˌdu/",
       "respell": "THAT-uhl doo",
-      "variants": [
-        "that will do",
-        "that'll do it"
-      ],
-      "type": "phrase",
-      "register": "informal",
       "meaning": "A calm \"that's enough\" — you can stop now, either because the job is finished or because the joking has gone about one step too far.",
       "examples": [
         "\"That'll do, thanks. I've got it from here.\"",
@@ -1708,23 +1321,17 @@
         "He kept pouring until I said, \"That'll do.\"",
         "That'll do, boys. Go wash up for dinner."
       ],
-      "related": [
-        "enough",
-        "stop",
-        "cut it out"
-      ]
+      "senses": [],
+      "русский": "хватит, достаточно — спокойное «можешь остановиться»",
+      "register": "informal",
+      "type": "phrase",
+      "variants": "that will do, that'll do it",
+      "see also": "enough, stop, cut it out"
     },
     {
       "term": "time out",
       "ipa": "/ˈtaɪm ˌaʊt/",
       "respell": "TYM owt",
-      "variants": [
-        "time-out",
-        "timeout",
-        "T.O."
-      ],
-      "type": "phrase",
-      "register": "informal",
       "meaning": "Borrowed from sports: a request to pause everything for a second because something needs sorting out. It is usually made with the hands in a T shape, and in a family it is also what a misbehaving child gets sent to.",
       "examples": [
         "\"Time out — are we even talking about the same thing?\"",
@@ -1733,24 +1340,17 @@
         "\"Time out!\" the coach yelled, waving at the ref.",
         "Time out — before we go any further, does everyone have the new numbers?"
       ],
-      "related": [
-        "hold up",
-        "hold on",
-        "break it up",
-        "wait"
-      ]
+      "senses": [],
+      "русский": "тайм-аут, стоп — просьба сделать паузу; тж. наказание ребёнка",
+      "register": "informal",
+      "type": "phrase",
+      "variants": "time-out, timeout, T.O.",
+      "see also": "hold up, hold on, break it up, wait"
     },
     {
       "term": "wait",
       "ipa": "/weɪt/",
       "respell": "WAYT",
-      "variants": [
-        "wait a minute",
-        "wait a second",
-        "wait, wait, wait"
-      ],
-      "type": "secondary",
-      "register": "neutral",
       "meaning": "The basic pause command. Tripled — \"wait, wait, wait\" — it means something has gone off the rails; \"wait a minute\" often introduces a realization that has just landed.",
       "examples": [
         "\"Wait! You forgot your keys.\"",
@@ -1759,23 +1359,17 @@
         "Wait, wait, wait. Say that one more time.",
         "\"Wait here. I'll be right back.\""
       ],
-      "related": [
-        "hold on",
-        "hang on",
-        "hold up",
-        "wait up",
-        "just a sec"
-      ]
+      "senses": [],
+      "русский": "подожди, стой — базовая команда паузы",
+      "register": "neutral",
+      "type": "secondary",
+      "variants": "wait a minute, wait a second, wait, wait, wait",
+      "see also": "hold on, hang on, hold up, wait up, just a sec"
     },
     {
       "term": "wait up",
       "ipa": "/ˌweɪt ˈʌp/",
       "respell": "wayt UP",
-      "variants": [
-        "wait up a sec"
-      ],
-      "type": "phrase",
-      "register": "informal",
       "meaning": "Specifically: stop walking so I can catch up to you. It is almost always shouted at somebody's back.",
       "examples": [
         "\"Wait up! My bag is falling apart.\"",
@@ -1784,21 +1378,17 @@
         "Wait up a second, I want to ask you something.",
         "\"Wait up for your sister,\" their mother called from the porch."
       ],
-      "related": [
-        "hold up",
-        "wait",
-        "hang on"
-      ]
+      "senses": [],
+      "русский": "подожди меня — не уходи вперёд, дай догнать",
+      "register": "informal",
+      "type": "phrase",
+      "variants": "wait up a sec",
+      "see also": "hold up, wait, hang on"
     },
     {
       "term": "break it up",
       "ipa": "/ˌbreɪk ɪt ˈʌp/",
       "respell": "brayk it UP",
-      "variants": [
-        "break it up, you two"
-      ],
-      "type": "phrase",
-      "register": "informal",
       "meaning": "What you shout at people who are fighting or arguing, telling them to separate. It is standard from police officers, teachers, coaches, and bartenders, and it assumes you have the standing to say it.",
       "examples": [
         "\"Break it up, you two!\" the teacher shouted across the cafeteria.",
@@ -1807,23 +1397,17 @@
         "Break it up, guys — save it for the game.",
         "The ref stepped in to break it up before it turned into a brawl."
       ],
-      "related": [
-        "knock it off",
-        "cool it",
-        "easy",
-        "settle down"
-      ]
+      "senses": [],
+      "русский": "а ну разойдись!, разнять — окрик дерущимся или спорящим",
+      "register": "informal",
+      "type": "phrase",
+      "variants": "break it up, you two",
+      "see also": "knock it off, cool it, easy, settle down"
     },
     {
       "term": "calm down",
       "ipa": "/ˌkɑm ˈdaʊn/",
       "respell": "kahm DOWN",
-      "variants": [
-        "just calm down",
-        "calm down now"
-      ],
-      "type": "phrase",
-      "register": "neutral",
       "meaning": "The plainest way to tell an upset person to get hold of themselves. It is also famously counterproductive: aimed at somebody who is genuinely angry or frightened, it reads as an accusation of overreacting and reliably makes things worse.",
       "examples": [
         "\"Calm down. Start at the beginning and tell me what happened.\"",
@@ -1832,24 +1416,17 @@
         "He walked a lap around the parking lot to calm down before going back in.",
         "\"Everybody calm down. The alarm was a test.\""
       ],
-      "related": [
-        "settle down",
-        "relax",
-        "easy",
-        "chill",
-        "simmer down"
-      ]
+      "senses": [],
+      "русский": "успокойся — самый прямой вариант, часто только злит собеседника",
+      "register": "neutral",
+      "type": "phrase",
+      "variants": "just calm down, calm down now",
+      "see also": "settle down, relax, easy, chill, simmer down"
     },
     {
       "term": "chill",
       "ipa": "/tʃɪl/",
       "respell": "CHIL",
-      "variants": [
-        "chill out",
-        "chillax"
-      ],
-      "type": "secondary",
-      "register": "informal",
       "meaning": "Tells an agitated person to calm down. It is friendly enough among peers, and infuriating when the other person is genuinely upset — telling someone to chill is often what escalates the argument.",
       "examples": [
         "\"Chill, dude. It's not that big a deal.\"",
@@ -1858,23 +1435,17 @@
         "He told her to chill and she got twice as angry.",
         "Chill, I already paid the bill."
       ],
-      "related": [
-        "cool it",
-        "easy",
-        "settle down",
-        "simmer down",
-        "relax"
-      ]
+      "senses": [],
+      "русский": "остынь, расслабься — разг., среди своих",
+      "register": "informal",
+      "type": "secondary",
+      "variants": "chill out, chillax",
+      "see also": "cool it, easy, settle down, simmer down, relax"
     },
     {
       "term": "cool it",
       "ipa": "/ˈkul ɪt/",
       "respell": "KOOL it",
-      "variants": [
-        "cool your jets"
-      ],
-      "type": "phrase",
-      "register": "informal",
       "meaning": "Stop what you are doing and calm down, said to somebody who is getting loud, angry, or carried away. Cool your jets is the teasing version.",
       "examples": [
         "\"Cool it, you two, before somebody gets hurt.\"",
@@ -1883,25 +1454,17 @@
         "Cool it, I was only asking.",
         "She told them to cool it, and to my surprise they actually did."
       ],
-      "related": [
-        "chill",
-        "easy",
-        "simmer down",
-        "knock it off"
-      ]
+      "senses": [],
+      "русский": "остынь, потише — тому, кто заводится",
+      "register": "informal",
+      "type": "phrase",
+      "variants": "cool your jets",
+      "see also": "chill, easy, simmer down, knock it off"
     },
     {
       "term": "easy",
       "ipa": "/ˈizi/",
       "respell": "EE-zee",
-      "variants": [
-        "easy there",
-        "easy now",
-        "easy does it",
-        "take it easy"
-      ],
-      "type": "secondary",
-      "register": "informal",
       "meaning": "A soothing \"slow down\" — used with a spooked animal, an angry friend, or somebody carrying something heavy and breakable. The tone is calm and low, never sharp.",
       "examples": [
         "\"Easy, boy,\" he said, patting the horse's neck.",
@@ -1910,23 +1473,17 @@
         "Easy does it. Lift with your legs, not your back.",
         "\"Easy, easy,\" the paramedic said. \"Don't try to sit up.\""
       ],
-      "related": [
-        "chill",
-        "cool it",
-        "hold your horses",
-        "simmer down",
-        "calm down"
-      ]
+      "senses": [],
+      "русский": "тише, спокойно, полегче — успокаивающе, животному или человеку",
+      "register": "informal",
+      "type": "secondary",
+      "variants": "easy there, easy now, easy does it, take it easy",
+      "see also": "chill, cool it, hold your horses, simmer down, calm down"
     },
     {
       "term": "now now",
       "ipa": "/ˌnaʊ ˈnaʊ/",
       "respell": "now NOW",
-      "variants": [
-        "now, now"
-      ],
-      "type": "phrase",
-      "register": "informal",
       "meaning": "A soothing two-beat used to head off tears or a squabble before it grows. It is gentle, but because it is fundamentally what adults say to small children, aimed at a grown-up it can land as deeply patronizing.",
       "examples": [
         "\"Now now, there's no need for any of that.\"",
@@ -1935,23 +1492,17 @@
         "\"Now now, let's not say anything we can't take back.\"",
         "Now, now, don't cry. We'll find another one."
       ],
-      "related": [
-        "easy",
-        "settle down",
-        "calm down",
-        "hush"
-      ]
+      "senses": [],
+      "русский": "ну-ну, ну что ты — мягко, чтобы предупредить слёзы или ссору",
+      "register": "informal",
+      "type": "phrase",
+      "variants": "now, now",
+      "see also": "easy, settle down, calm down, hush"
     },
     {
       "term": "relax",
       "ipa": "/rɪˈlæks/",
       "respell": "rih-LAKS",
-      "variants": [
-        "just relax",
-        "relax, relax"
-      ],
-      "type": "secondary",
-      "register": "informal",
       "meaning": "Ease up — you are more wound up than the situation calls for. Between friends it is reassuring; aimed at somebody who is genuinely upset it is dismissive, and it earns exactly the same glare as calm down.",
       "examples": [
         "\"Relax, I already sent it.\"",
@@ -1960,22 +1511,17 @@
         "He told me to relax, which used up the last of my patience.",
         "\"Relax, relax, he does that to everybody.\""
       ],
-      "related": [
-        "calm down",
-        "chill",
-        "easy",
-        "cool it"
-      ]
+      "senses": [],
+      "русский": "расслабься, не нервничай — разг., может прозвучать пренебрежительно",
+      "register": "informal",
+      "type": "secondary",
+      "variants": "just relax, relax, relax",
+      "see also": "calm down, chill, easy, cool it"
     },
     {
       "term": "settle down",
       "ipa": "/ˌsɛtəl ˈdaʊn/",
       "respell": "set-uhl DOWN",
-      "variants": [
-        "settle"
-      ],
-      "type": "phrase",
-      "register": "neutral",
       "meaning": "Calm down and get quiet — the standard teacher's phrase for a restless room and a parent's for an over-excited kid. It is firm without being rude.",
       "examples": [
         "\"All right, everyone, settle down and take your seats.\"",
@@ -1984,21 +1530,17 @@
         "The substitute could not get the class to settle down.",
         "Settle down, I'm getting to the good part."
       ],
-      "related": [
-        "simmer down",
-        "quiet",
-        "pipe down",
-        "cool it",
-        "calm down"
-      ]
+      "senses": [],
+      "русский": "успокойтесь, угомонитесь — учительское, твёрдо, но не грубо",
+      "register": "neutral",
+      "type": "phrase",
+      "variants": "settle",
+      "see also": "simmer down, quiet, pipe down, cool it, calm down"
     },
     {
       "term": "simmer down",
       "ipa": "/ˌsɪmər ˈdaʊn/",
       "respell": "sim-er DOWN",
-      "variants": [],
-      "type": "phrase",
-      "register": "informal",
       "meaning": "Calm down, said to somebody who is worked up. It is folksier and more teasing than settle down, and it can come across as condescending.",
       "examples": [
         "\"Simmer down, nobody's accusing you of anything.\"",
@@ -2007,20 +1549,16 @@
         "It took him a good ten minutes to simmer down after that call.",
         "Simmer down, folks, there's plenty of food for everybody."
       ],
-      "related": [
-        "settle down",
-        "cool it",
-        "chill",
-        "easy"
-      ]
+      "senses": [],
+      "русский": "остынь, уймись — по-свойски, с оттенком снисходительности",
+      "register": "informal",
+      "type": "phrase",
+      "see also": "settle down, cool it, chill, easy"
     },
     {
       "term": "beat it",
       "ipa": "/ˈbit ɪt/",
       "respell": "BEET it",
-      "variants": [],
-      "type": "phrase",
-      "register": "very informal",
       "meaning": "Go away, and go now. It is hostile — the line a shopkeeper yells at kids loitering out front — though among friends it can be mock-hostile.",
       "examples": [
         "\"Beat it, kid. This is private property.\"",
@@ -2029,20 +1567,16 @@
         "He told the reporters to beat it.",
         "\"Beat it!\" she yelled at the raccoon on the porch."
       ],
-      "related": [
-        "scram",
-        "get lost",
-        "take a hike",
-        "buzz off"
-      ]
+      "senses": [],
+      "русский": "вали отсюда, проваливай — груб.",
+      "register": "very informal",
+      "type": "phrase",
+      "see also": "scram, get lost, take a hike, buzz off"
     },
     {
       "term": "buzz off",
       "ipa": "/ˌbʌz ˈɔf/",
       "respell": "buz AWF",
-      "variants": [],
-      "type": "phrase",
-      "register": "very informal",
       "meaning": "Go away and stop bothering me. It is a little softer and more childish than get lost, but it is still rude.",
       "examples": [
         "\"Buzz off, I'm working.\"",
@@ -2051,23 +1585,16 @@
         "Her little brother would not buzz off no matter what we tried.",
         "\"Buzz off!\" he shouted at the wasp, flailing his arms."
       ],
-      "related": [
-        "get lost",
-        "beat it",
-        "take a hike",
-        "scram"
-      ]
+      "senses": [],
+      "русский": "отвяжись, отвали — груб., но помягче, чем get lost",
+      "register": "very informal",
+      "type": "phrase",
+      "see also": "get lost, beat it, take a hike, scram"
     },
     {
       "term": "clear out",
       "ipa": "/ˌklɪr ˈaʊt/",
       "respell": "kleer OWT",
-      "variants": [
-        "clear the area",
-        "clear the room"
-      ],
-      "type": "phrase",
-      "register": "informal",
       "meaning": "Everybody leave this space — said when a room, a building, or a beach has to be emptied. It is procedural rather than personal, which is why fire marshals and stage managers use it and nobody takes offense.",
       "examples": [
         "\"Clear out, folks. The kitchen closes at ten.\"",
@@ -2076,22 +1603,17 @@
         "The bar cleared out fast once the game ended.",
         "\"Clear the area,\" the deputy said. \"Nobody past the tape.\""
       ],
-      "related": [
-        "out",
-        "make way",
-        "step aside",
-        "beat it"
-      ]
+      "senses": [],
+      "русский": "освободите помещение, расходимся — процедурно, без обиды",
+      "register": "informal",
+      "type": "phrase",
+      "variants": "clear the area, clear the room",
+      "see also": "out, make way, step aside, beat it"
     },
     {
       "term": "coming through",
       "ipa": "/ˌkʌmɪŋ ˈθru/",
       "respell": "kum-ing THROO",
-      "variants": [
-        "comin' through"
-      ],
-      "type": "phrase",
-      "register": "neutral",
       "meaning": "Announced rather than requested: you are moving through a crowd and people need to make room. Standard for servers, movers, and anybody carrying something hot or bulky.",
       "examples": [
         "\"Coming through! Hot plates!\"",
@@ -2100,20 +1622,17 @@
         "\"Excuse me, coming through,\" she said, edging down the packed aisle.",
         "Coming through with the cake — somebody clear a path!"
       ],
-      "related": [
-        "gangway",
-        "make way",
-        "excuse me",
-        "heads up"
-      ]
+      "senses": [],
+      "русский": "дайте пройти!, разрешите! — предупреждение, а не просьба",
+      "register": "neutral",
+      "type": "phrase",
+      "variants": "comin' through",
+      "see also": "gangway, make way, excuse me, heads up"
     },
     {
       "term": "gangway",
       "ipa": "/ˈɡæŋweɪ/",
       "respell": "GANG-way",
-      "variants": [],
-      "type": "secondary",
-      "register": "informal",
       "meaning": "Clear a path, from the old nautical call for the ship's passageway. Today it sounds either shipboard, cartoonish, or like something shouted in a 1940s newsroom — which is usually the point.",
       "examples": [
         "\"Gangway!\" the busser called, backing out of the kitchen with a full tray.",
@@ -2122,20 +1641,16 @@
         "The kid on the skateboard yelled \"Gangway!\" and the crowd split.",
         "Gangway — stretcher coming out."
       ],
-      "related": [
-        "make way",
-        "coming through",
-        "move",
-        "heads up"
-      ]
+      "senses": [],
+      "русский": "дорогу!, посторонись! — разг., старомодно-театральное",
+      "register": "informal",
+      "type": "secondary",
+      "see also": "make way, coming through, move, heads up"
     },
     {
       "term": "get lost",
       "ipa": "/ˌɡɛt ˈlɔst/",
       "respell": "get LAWST",
-      "variants": [],
-      "type": "phrase",
-      "register": "very informal",
       "meaning": "Go away — sharper than beat it and unmistakably an insult. It is also how you refuse an offer or a person outright.",
       "examples": [
         "\"Get lost, we're not interested.\"",
@@ -2144,23 +1659,16 @@
         "\"Get lost!\" the older kids yelled at us.",
         "She read their offer, laughed, and said, \"Get lost.\""
       ],
-      "related": [
-        "beat it",
-        "scram",
-        "take a hike",
-        "buzz off"
-      ]
+      "senses": [],
+      "русский": "катись, отвали — груб.; тж. отказ наотрез",
+      "register": "very informal",
+      "type": "phrase",
+      "see also": "beat it, scram, take a hike, buzz off"
     },
     {
       "term": "get out",
       "ipa": "/ˌɡɛt ˈaʊt/",
       "respell": "get OWT",
-      "variants": [
-        "get out of here",
-        "get outta here"
-      ],
-      "type": "phrase",
-      "register": "very informal",
       "meaning": "Two very different things. Said hard, it is a furious order to leave the room right now. Said with a laugh, \"get out of here\" is playful disbelief — roughly \"no way, you're kidding me.\"",
       "examples": [
         "\"Get out. Now. And don't come back.\"",
@@ -2169,22 +1677,17 @@
         "\"Get outta here,\" he laughed. \"Twenty bucks for that?\"",
         "\"Get out,\" she said, and never once raised her voice."
       ],
-      "related": [
-        "out",
-        "beat it",
-        "scram",
-        "get lost"
-      ]
+      "senses": [],
+      "русский": "вон отсюда! — груб.; со смехом get out of here — да ладно, не может быть!",
+      "register": "very informal",
+      "type": "phrase",
+      "variants": "get out of here, get outta here",
+      "see also": "out, beat it, scram, get lost"
     },
     {
       "term": "hit the road",
       "ipa": "/ˌhɪt ðə ˈroʊd/",
       "respell": "hit thuh ROHD",
-      "variants": [
-        "hit the bricks"
-      ],
-      "type": "phrase",
-      "register": "informal",
       "meaning": "As a directive, \"leave — you're not welcome here.\" As a plain statement about yourself or a group, it just means \"get going, start the trip.\" Tone and context tell you which one you are hearing.",
       "examples": [
         "\"Hit the road, pal. The bar's closed.\"",
@@ -2193,22 +1696,17 @@
         "All right, folks, time to hit the road — we've got six hours ahead of us.",
         "He told the salesman to hit the road and shut the door."
       ],
-      "related": [
-        "get lost",
-        "beat it",
-        "take a hike",
-        "move"
-      ]
+      "senses": [],
+      "русский": "проваливай; о себе — в путь, пора трогаться",
+      "register": "informal",
+      "type": "phrase",
+      "variants": "hit the bricks",
+      "see also": "get lost, beat it, take a hike, move"
     },
     {
       "term": "make way",
       "ipa": "/ˌmeɪk ˈweɪ/",
       "respell": "mayk WAY",
-      "variants": [
-        "make way for"
-      ],
-      "type": "phrase",
-      "register": "formal",
       "meaning": "A formal or theatrical call to clear a path — for a procession, a stretcher, or somebody making a grand entrance. Used sincerely by ushers and paramedics, and sarcastically by everyone else.",
       "examples": [
         "\"Make way! Make way for the paramedics!\"",
@@ -2217,24 +1715,17 @@
         "The crowd parted as the guards shouted, \"Make way!\"",
         "Make way, peasants — the pizza has arrived."
       ],
-      "related": [
-        "gangway",
-        "coming through",
-        "step aside",
-        "out"
-      ]
+      "senses": [],
+      "русский": "дорогу!, расступитесь! — офиц. или театрально",
+      "register": "formal",
+      "type": "phrase",
+      "variants": "make way for",
+      "see also": "gangway, coming through, step aside, out"
     },
     {
       "term": "move",
       "ipa": "/muv/",
       "respell": "MOOV",
-      "variants": [
-        "move it",
-        "move along",
-        "get moving"
-      ],
-      "type": "secondary",
-      "register": "informal",
       "meaning": "A one-word order to get out of the way or get going. It is blunt to the point of rudeness unless there is a real emergency, in which case nobody minds.",
       "examples": [
         "\"Move, move, move!\" the firefighter shouted, herding everyone toward the stairwell.",
@@ -2243,23 +1734,17 @@
         "The officer waved us on. \"Move along, nothing to see here.\"",
         "\"Move,\" he said, and I moved."
       ],
-      "related": [
-        "out",
-        "step aside",
-        "gangway",
-        "chop chop"
-      ]
+      "senses": [],
+      "русский": "отойди!, шевелись! — резко, на грани грубости",
+      "register": "informal",
+      "type": "secondary",
+      "variants": "move it, move along, get moving",
+      "see also": "out, step aside, gangway, chop chop"
     },
     {
       "term": "out",
       "ipa": "/aʊt/",
       "respell": "OWT",
-      "variants": [
-        "everybody out",
-        "out you go"
-      ],
-      "type": "secondary",
-      "register": "neutral",
       "meaning": "One syllable, usually with a finger pointed at the door: leave this room or this vehicle immediately. It is what an ejection sounds like, and there is no arguing with it.",
       "examples": [
         "\"Out! Everybody out of the pool!\"",
@@ -2268,20 +1753,17 @@
         "\"Everybody out, we're closing,\" the bartender called.",
         "She held the door open and said one word: \"Out.\""
       ],
-      "related": [
-        "get out",
-        "move",
-        "beat it",
-        "scram"
-      ]
+      "senses": [],
+      "русский": "вон! — одно слово с указанием на дверь",
+      "register": "neutral",
+      "type": "secondary",
+      "variants": "everybody out, out you go",
+      "see also": "get out, move, beat it, scram"
     },
     {
       "term": "scat",
       "ipa": "/skæt/",
       "respell": "SKAT",
-      "variants": [],
-      "type": "primary",
-      "register": "informal",
       "meaning": "A short, hissed shoo aimed almost entirely at animals — a cat on the counter, a dog under the table, chickens in the driveway. Turned on a person it is playful and faintly insulting, since it treats them like a stray.",
       "examples": [
         "\"Scat! Off the counter.\"",
@@ -2290,20 +1772,16 @@
         "\"Scat, you two, the grown-ups are talking,\" Grandpa said, not meaning a word of it.",
         "He waved his hat at the chickens. \"Scat. Go on, now.\""
       ],
-      "related": [
-        "shoo",
-        "scram",
-        "beat it",
-        "out"
-      ]
+      "senses": [],
+      "русский": "брысь!, кыш! — почти всегда животному",
+      "register": "informal",
+      "type": "primary",
+      "see also": "shoo, scram, beat it, out"
     },
     {
       "term": "scram",
       "ipa": "/skræm/",
       "respell": "SKRAM",
-      "variants": [],
-      "type": "secondary",
-      "register": "informal",
       "meaning": "Go away — an old-fashioned, slightly cartoonish shooing-off, clipped from scramble. It sounds like 1940s New York, and today it lands as playful more often than genuinely hostile.",
       "examples": [
         "\"Scram, kid, you bother me.\"",
@@ -2312,23 +1790,16 @@
         "He yelled \"Scram!\" and the pigeons scattered.",
         "\"Scram,\" the janitor said, not unkindly. \"I've got a floor to wax.\""
       ],
-      "related": [
-        "beat it",
-        "shoo",
-        "scat",
-        "get lost",
-        "vamoose"
-      ]
+      "senses": [],
+      "русский": "катись, улепётывай — старомодно-мультяшное, чаще в шутку",
+      "register": "informal",
+      "type": "secondary",
+      "see also": "beat it, shoo, scat, get lost, vamoose"
     },
     {
       "term": "shoo",
       "ipa": "/ʃu/",
       "respell": "SHOO",
-      "variants": [
-        "shoo shoo"
-      ],
-      "type": "primary",
-      "register": "informal",
       "meaning": "The sound you make to drive an animal away, and — playfully — people you want out of a room. It comes with a flapping hand almost every time.",
       "examples": [
         "\"Shoo! Get off the table,\" she said to the cat.",
@@ -2337,20 +1808,17 @@
         "He flapped a dish towel at the fly. \"Shoo!\"",
         "Shoo — this is a surprise and you're not supposed to see it yet."
       ],
-      "related": [
-        "scat",
-        "scram",
-        "beat it",
-        "out"
-      ]
+      "senses": [],
+      "русский": "кыш!, брысь! — прогоняют животных, в шутку и людей",
+      "register": "informal",
+      "type": "primary",
+      "variants": "shoo shoo",
+      "see also": "scat, scram, beat it, out"
     },
     {
       "term": "shove off",
       "ipa": "/ˌʃʌv ˈɔf/",
       "respell": "shuv AWF",
-      "variants": [],
-      "type": "phrase",
-      "register": "very informal",
       "meaning": "Go away — rude, and meant to be. It comes from pushing a boat off the dock and still carries that flavor, which is why the same words are also a perfectly neutral \"we're heading out\" when you say them about yourself. As a dismissal it is less common in American speech than get lost and sounds faintly vintage.",
       "examples": [
         "\"Shove off, we don't want any.\"",
@@ -2359,22 +1827,16 @@
         "\"Shove off, kid,\" the old fisherman grumbled.",
         "We're going to shove off around six if you want a ride."
       ],
-      "related": [
-        "get lost",
-        "beat it",
-        "buzz off",
-        "hit the road"
-      ]
+      "senses": [],
+      "русский": "отчаливай, проваливай — груб.; о себе — «мы отчаливаем»",
+      "register": "very informal",
+      "type": "phrase",
+      "see also": "get lost, beat it, buzz off, hit the road"
     },
     {
       "term": "skedaddle",
       "ipa": "/skɪˈdædəl/",
       "respell": "skih-DAD-uhl",
-      "variants": [
-        "skidaddle"
-      ],
-      "type": "secondary",
-      "register": "informal",
       "meaning": "Get going, clear out — Civil War-era slang that survives as a fond, folksy word. It is almost always light-hearted, and just as often used about yourself: \"we'd better skedaddle.\"",
       "examples": [
         "\"All right, kids, skedaddle. It's bedtime.\"",
@@ -2383,23 +1845,17 @@
         "The second the bell rang, the whole class skedaddled.",
         "Skedaddle, you two, I need this room for a meeting."
       ],
-      "related": [
-        "vamoose",
-        "scram",
-        "shoo",
-        "hit the road"
-      ]
+      "senses": [],
+      "русский": "давай отсюда, сматываемся — разг., добродушно-шутливое",
+      "register": "informal",
+      "type": "secondary",
+      "variants": "skidaddle",
+      "see also": "vamoose, scram, shoo, hit the road"
     },
     {
       "term": "stand back",
       "ipa": "/ˌstænd ˈbæk/",
       "respell": "stand BAK",
-      "variants": [
-        "stand clear",
-        "stand well back"
-      ],
-      "type": "phrase",
-      "register": "neutral",
       "meaning": "Move away from this and give it room — a fire, a downed line, a door that is about to swing open. It is a safety instruction rather than a dismissal, which makes it one of the few things in this section you can shout at strangers without offending anybody.",
       "examples": [
         "\"Stand back! The whole thing is coming down.\"",
@@ -2408,23 +1864,17 @@
         "The crew yelled \"Stand back!\" and dropped the beam.",
         "Stand clear of the doors — they close on their own."
       ],
-      "related": [
-        "step aside",
-        "back off",
-        "make way",
-        "heads up"
-      ]
+      "senses": [],
+      "русский": "отойдите!, отойди подальше — предупреждение об опасности, не грубость",
+      "register": "neutral",
+      "type": "phrase",
+      "variants": "stand clear, stand well back",
+      "see also": "step aside, back off, make way, heads up"
     },
     {
       "term": "step aside",
       "ipa": "/ˌstɛp əˈsaɪd/",
       "respell": "step uh-SYD",
-      "variants": [
-        "step back",
-        "stand aside"
-      ],
-      "type": "phrase",
-      "register": "neutral",
       "meaning": "A neutral, official-sounding request to move out of the way. Security guards, medics, and ushers use it, and its flatness is exactly what makes it sound like an order.",
       "examples": [
         "\"Step aside, please. Let them through.\"",
@@ -2433,23 +1883,17 @@
         "She asked the crowd to step aside so the family could pass.",
         "\"Step aside,\" the officer repeated, more firmly this time."
       ],
-      "related": [
-        "make way",
-        "move",
-        "coming through",
-        "stand back",
-        "after you"
-      ]
+      "senses": [],
+      "русский": "посторонитесь, отойдите в сторону — нейтрально-официальное",
+      "register": "neutral",
+      "type": "phrase",
+      "variants": "step back, stand aside",
+      "see also": "make way, move, coming through, stand back, after you"
     },
     {
       "term": "take a hike",
       "ipa": "/ˌteɪk ə ˈhaɪk/",
       "respell": "tayk uh HYK",
-      "variants": [
-        "take a walk"
-      ],
-      "type": "phrase",
-      "register": "very informal",
       "meaning": "Go away — a dismissive, half-joking brush-off that is nonetheless an insult. It also works for rejecting an offer flat out.",
       "examples": [
         "\"Take a hike, we're not buying anything.\"",
@@ -2458,22 +1902,17 @@
         "\"Take a hike, pal,\" the bartender said, pointing at the door.",
         "\"Take a hike,\" I said, and closed the door on both of them."
       ],
-      "related": [
-        "get lost",
-        "beat it",
-        "buzz off",
-        "scram"
-      ]
+      "senses": [],
+      "русский": "иди гуляй, отвали — груб.-насмешливое; тж. отказ наотрез",
+      "register": "very informal",
+      "type": "phrase",
+      "variants": "take a walk",
+      "see also": "get lost, beat it, buzz off, scram"
     },
     {
       "term": "vamoose",
       "ipa": "/væˈmus/",
       "respell": "va-MOOS (also /vəˈmus/, vuh-MOOS)",
-      "variants": [
-        "vamos"
-      ],
-      "type": "secondary",
-      "register": "informal",
       "meaning": "Get out of here, from Spanish vamos. It is Old West-flavored and almost always used lightly, with a grin behind it.",
       "examples": [
         "\"Vamoose, before I change my mind.\"",
@@ -2482,22 +1921,17 @@
         "By the time I found my coat, everybody else had already vamoosed.",
         "Vamoose, kid. The grown-ups are talking."
       ],
-      "related": [
-        "skedaddle",
-        "scram",
-        "beat it",
-        "hit the road"
-      ]
+      "senses": [],
+      "русский": "сматываемся, вали отсюда — из исп. vamos, шутл., «ковбойское»",
+      "register": "informal",
+      "type": "secondary",
+      "variants": "vamos",
+      "see also": "skedaddle, scram, beat it, hit the road"
     },
     {
       "term": "chop chop",
       "ipa": "/ˌtʃɑp ˈtʃɑp/",
       "respell": "chop CHOP",
-      "variants": [
-        "chop-chop"
-      ],
-      "type": "phrase",
-      "register": "informal",
       "meaning": "Hurry up, usually delivered with two sharp claps. It is bossy by design: playful from a parent, condescending from a boss, and best avoided with anyone who outranks you.",
       "examples": [
         "\"Chop chop, we're leaving in five minutes!\"",
@@ -2506,24 +1940,17 @@
         "\"Shoes on, coats on, chop chop.\"",
         "Chop chop, the reservation is at seven."
       ],
-      "related": [
-        "hurry up",
-        "shake a leg",
-        "step on it",
-        "move",
-        "look alive"
-      ]
+      "senses": [],
+      "русский": "живо-живо, быстренько — командно, обычно с хлопком в ладоши",
+      "register": "informal",
+      "type": "phrase",
+      "variants": "chop-chop",
+      "see also": "hurry up, shake a leg, step on it, move, look alive"
     },
     {
       "term": "get a move on",
       "ipa": "/ˌɡɛt ə ˈmuv ɑn/",
       "respell": "get uh MOOV on",
-      "variants": [
-        "get moving",
-        "get a move on it"
-      ],
-      "type": "phrase",
-      "register": "informal",
       "meaning": "Start moving and go faster — an everyday prod that assumes the other person is dawdling. It sits between the clap-along chop chop and a genuine bark, and it works up and down a family but not up a chain of command.",
       "examples": [
         "\"Get a move on, the movie starts at seven.\"",
@@ -2532,24 +1959,17 @@
         "If we don't get a move on, we're going to hit rush hour.",
         "\"Get a move on, Sanchez!\" the coach hollered from the sideline."
       ],
-      "related": [
-        "hurry up",
-        "chop chop",
-        "shake a leg",
-        "move"
-      ]
+      "senses": [],
+      "русский": "пошевеливайся, давай быстрее — обычный подгоняющий окрик",
+      "register": "informal",
+      "type": "phrase",
+      "variants": "get moving, get a move on it",
+      "see also": "hurry up, chop chop, shake a leg, move"
     },
     {
       "term": "hurry up",
       "ipa": "/ˌhɜri ˈʌp/",
       "respell": "hur-ee UP",
-      "variants": [
-        "hurry",
-        "hurry it up",
-        "hurry along"
-      ],
-      "type": "phrase",
-      "register": "neutral",
       "meaning": "The plainest member of this group: go faster. It is neutral enough for strangers, children, and coworkers alike, though repeated it turns naggy fast, and hurry it up is noticeably sharper than a bare hurry up.",
       "examples": [
         "\"Hurry up, the bus is already at the corner.\"",
@@ -2558,20 +1978,17 @@
         "He kept telling everyone to hurry up and then spent twenty minutes finding his keys.",
         "\"Hurry it up, folks. We're closing in ten.\""
       ],
-      "related": [
-        "chop chop",
-        "get a move on",
-        "shake a leg",
-        "step on it"
-      ]
+      "senses": [],
+      "русский": "поторопись, быстрее — самое нейтральное в группе",
+      "register": "neutral",
+      "type": "phrase",
+      "variants": "hurry, hurry it up, hurry along",
+      "see also": "chop chop, get a move on, shake a leg, step on it"
     },
     {
       "term": "make it snappy",
       "ipa": "/ˌmeɪk ɪt ˈsnæpi/",
       "respell": "mayk it SNAP-ee",
-      "variants": [],
-      "type": "phrase",
-      "register": "informal",
       "meaning": "Be quick about it — a wisecracking order straight out of a 1940s detective picture. Nine times out of ten a modern American says it with a wink, because said flat it sounds like a caricature of a boss.",
       "examples": [
         "\"Two coffees, and make it snappy.\"",
@@ -2580,20 +1997,16 @@
         "He said he needed a favor, so I told him to make it snappy.",
         "\"Make it snappy, kid,\" she said, doing her worst Bogart."
       ],
-      "related": [
-        "step on it",
-        "chop chop",
-        "hurry up",
-        "on the double"
-      ]
+      "senses": [],
+      "русский": "поживее, одна нога здесь, другая там — с гонором из старого кино",
+      "register": "informal",
+      "type": "phrase",
+      "see also": "step on it, chop chop, hurry up, on the double"
     },
     {
       "term": "on the double",
       "ipa": "/ˌɑn ðə ˈdʌbəl/",
       "respell": "on thuh DUB-uhl",
-      "variants": [],
-      "type": "phrase",
-      "register": "informal",
       "meaning": "Immediately, at a run — from the military double time. Out of uniform it is deliberately jokey-officious, the tone of a parent doing a drill-sergeant voice about the laundry.",
       "examples": [
         "\"Get me that file, on the double.\"",
@@ -2602,20 +2015,16 @@
         "The medic was there on the double.",
         "\"On the double!\" he barked, and then ruined it by laughing."
       ],
-      "related": [
-        "chop chop",
-        "hurry up",
-        "step on it",
-        "look alive"
-      ]
+      "senses": [],
+      "русский": "бегом!, живо! — из воен. «бегом марш»",
+      "register": "informal",
+      "type": "phrase",
+      "see also": "chop chop, hurry up, step on it, look alive"
     },
     {
       "term": "shake a leg",
       "ipa": "/ˌʃeɪk ə ˈlɛɡ/",
       "respell": "shayk uh LEG",
-      "variants": [],
-      "type": "phrase",
-      "register": "informal",
       "meaning": "Hurry up. Folksy and a little old-fashioned — the kind of thing a parent yells up the stairs at somebody who is still not dressed.",
       "examples": [
         "\"Shake a leg! The bus is at the corner.\"",
@@ -2624,21 +2033,16 @@
         "She banged on the bathroom door. \"Shake a leg in there!\"",
         "Shake a leg — Grandma's been sitting out in the car for ten minutes."
       ],
-      "related": [
-        "chop chop",
-        "hurry up",
-        "step on it",
-        "move",
-        "look alive"
-      ]
+      "senses": [],
+      "русский": "шевели ногами, пошевеливайся — по-простому, старомодно",
+      "register": "informal",
+      "type": "phrase",
+      "see also": "chop chop, hurry up, step on it, move, look alive"
     },
     {
       "term": "snap to it",
       "ipa": "/ˌsnæp ˈtu ɪt/",
       "respell": "snap TOO it",
-      "variants": [],
-      "type": "phrase",
-      "register": "informal",
       "meaning": "Get on it right now — a brisk, faintly military prod that normally comes from somebody who outranks you and knows it. It is bossier than hurry up and lands badly among peers.",
       "examples": [
         "\"Boxes on the truck by noon. Snap to it.\"",
@@ -2647,23 +2051,16 @@
         "She pointed at the sink full of dishes. \"Snap to it.\"",
         "Snap to it, people. The bus leaves whether you're on it or not."
       ],
-      "related": [
-        "chop chop",
-        "hurry up",
-        "look alive",
-        "move"
-      ]
+      "senses": [],
+      "русский": "живо за дело!, бегом выполнять — командный тон сверху вниз",
+      "register": "informal",
+      "type": "phrase",
+      "see also": "chop chop, hurry up, look alive, move"
     },
     {
       "term": "step on it",
       "ipa": "/ˈstɛp ɑn ɪt/",
       "respell": "STEP on it",
-      "variants": [
-        "step on the gas",
-        "put your foot down"
-      ],
-      "type": "phrase",
-      "register": "informal",
       "meaning": "Drive faster — literally, step on the gas pedal. It stretches beyond cars to mean \"hurry up,\" and it always sounds a little like a line from a movie.",
       "examples": [
         "\"Step on it! We've got twelve minutes.\"",
@@ -2672,24 +2069,17 @@
         "If we want to catch the last ferry, you'd better step on it.",
         "\"Step on it,\" she said, \"before that light changes.\""
       ],
-      "related": [
-        "chop chop",
-        "shake a leg",
-        "hurry up",
-        "make it snappy",
-        "move"
-      ]
+      "senses": [],
+      "русский": "жми на газ!; поднажми — буквально о педали и в переносном смысле",
+      "register": "informal",
+      "type": "phrase",
+      "variants": "step on the gas, put your foot down",
+      "see also": "chop chop, shake a leg, hurry up, make it snappy, move"
     },
     {
       "term": "after you",
       "ipa": "/ˈæftər ju/",
       "respell": "AF-ter yoo",
-      "variants": [
-        "after you, sir",
-        "you first"
-      ],
-      "type": "phrase",
-      "register": "formal",
       "meaning": "A polite yielding of the right of way at a door, an elevator, or a buffet line, almost always with a small hand gesture. It is one of the few interjections in this category that makes you sound more courteous, not less.",
       "examples": [
         "\"After you,\" he said, holding the door.",
@@ -2698,20 +2088,17 @@
         "\"No, no, after you. Please.\"",
         "After you, ma'am. I'll catch the next one."
       ],
-      "related": [
-        "go ahead",
-        "be my guest",
-        "pardon me",
-        "step aside"
-      ]
+      "senses": [],
+      "русский": "после вас, проходите — вежливая уступка дороги",
+      "register": "formal",
+      "type": "phrase",
+      "variants": "after you, sir, you first",
+      "see also": "go ahead, be my guest, pardon me, step aside"
     },
     {
       "term": "be my guest",
       "ipa": "/ˌbi maɪ ˈɡɛst/",
       "respell": "bee my GEST",
-      "variants": [],
-      "type": "phrase",
-      "register": "neutral",
       "meaning": "Permission with a shrug: go right ahead, help yourself. Warm hospitality in one tone of voice and a dry \"suit yourself, it won't help\" in another.",
       "examples": [
         "\"Mind if I take the last slice?\" — \"Be my guest.\"",
@@ -2720,20 +2107,16 @@
         "If you think you can fix it, be my guest.",
         "\"Can I borrow your desk for an hour?\" — \"Be my guest.\""
       ],
-      "related": [
-        "go ahead",
-        "help yourself",
-        "knock yourself out",
-        "have at it"
-      ]
+      "senses": [],
+      "русский": "сделай одолжение, будь как дома — разрешение, порой с ироничным «валяй»",
+      "register": "neutral",
+      "type": "phrase",
+      "see also": "go ahead, help yourself, knock yourself out, have at it"
     },
     {
       "term": "by all means",
       "ipa": "/baɪ ˌɔl ˈminz/",
       "respell": "by awl MEENZ",
-      "variants": [],
-      "type": "phrase",
-      "register": "formal",
       "meaning": "An emphatic, courteous \"yes, of course — go ahead.\" It grants permission with a touch of ceremony, and delivered flatly it curdles into sarcasm.",
       "examples": [
         "\"May I ask a question?\" — \"By all means.\"",
@@ -2742,23 +2125,16 @@
         "If you'd like to see the contract, by all means.",
         "\"By all means,\" he said, \"tell us what you would have done differently.\""
       ],
-      "related": [
-        "go ahead",
-        "be my guest",
-        "help yourself",
-        "fire away"
-      ]
+      "senses": [],
+      "русский": "конечно, разумеется, сделайте одолжение — книжн.-вежливое разрешение",
+      "register": "formal",
+      "type": "phrase",
+      "see also": "go ahead, be my guest, help yourself, fire away"
     },
     {
       "term": "carry on",
       "ipa": "/ˌkæri ˈɑn/",
       "respell": "ka-ree ON",
-      "variants": [
-        "carry on then",
-        "as you were"
-      ],
-      "type": "phrase",
-      "register": "neutral",
       "meaning": "Go back to what you were doing — the standard release after an interruption, from an officer walking a room or a manager who stuck their head in and saw nothing wrong. Delivered dryly to friends caught mid-nonsense, it is a small joke.",
       "examples": [
         "\"Don't mind me. Carry on.\"",
@@ -2767,22 +2143,17 @@
         "She walked in on the two of them arguing about pizza toppings, said \"Carry on,\" and walked back out.",
         "\"Carry on, everybody. False alarm.\""
       ],
-      "related": [
-        "go ahead",
-        "by all means",
-        "be my guest",
-        "have at it"
-      ]
+      "senses": [],
+      "русский": "продолжайте — разрешение вернуться к делу после помехи",
+      "register": "neutral",
+      "type": "phrase",
+      "variants": "carry on then, as you were",
+      "see also": "go ahead, by all means, be my guest, have at it"
     },
     {
       "term": "feel free",
       "ipa": "/ˌfil ˈfri/",
       "respell": "feel FREE",
-      "variants": [
-        "feel free to"
-      ],
-      "type": "phrase",
-      "register": "neutral",
       "meaning": "Permission granted in advance: nobody will mind if you do this. It is the office and hospitality standard, warm without gushing, and flattened out it carries a shrug — feel free, but I wouldn't.",
       "examples": [
         "\"Can I move this chair?\" — \"Feel free.\"",
@@ -2791,20 +2162,17 @@
         "If you want to try it your way, feel free.",
         "She left the pen on the counter and said, \"Feel free.\""
       ],
-      "related": [
-        "be my guest",
-        "help yourself",
-        "go ahead",
-        "by all means"
-      ]
+      "senses": [],
+      "русский": "не стесняйтесь, пожалуйста — разрешение, данное заранее",
+      "register": "neutral",
+      "type": "phrase",
+      "variants": "feel free to",
+      "see also": "be my guest, help yourself, go ahead, by all means"
     },
     {
       "term": "fire away",
       "ipa": "/ˌfaɪər əˈweɪ/",
       "respell": "fyr uh-WAY",
-      "variants": [],
-      "type": "phrase",
-      "register": "informal",
       "meaning": "Go ahead and ask — the standard invitation when somebody says they have questions for you.",
       "examples": [
         "\"Can I ask you something?\" — \"Fire away.\"",
@@ -2813,23 +2181,16 @@
         "He put down his pen. \"All right, fire away.\"",
         "\"Fire away, but I may not know the answer.\""
       ],
-      "related": [
-        "shoot",
-        "go ahead",
-        "by all means",
-        "have at it"
-      ]
+      "senses": [],
+      "русский": "валяй, спрашивай — приглашение задавать вопросы",
+      "register": "informal",
+      "type": "phrase",
+      "see also": "shoot, go ahead, by all means, have at it"
     },
     {
       "term": "go ahead",
       "ipa": "/ˌɡoʊ əˈhɛd/",
       "respell": "goh uh-HED",
-      "variants": [
-        "go on",
-        "go right ahead"
-      ],
-      "type": "phrase",
-      "register": "neutral",
       "meaning": "Permission to proceed — start talking, start eating, take the parking spot. Said with a hard edge and a stare, the same words become a dare: \"go ahead, try it.\"",
       "examples": [
         "\"Go ahead, I'm listening.\"",
@@ -2838,20 +2199,17 @@
         "Go ahead, take the last one. I've already had three.",
         "\"Go ahead,\" he said. \"Say it one more time and see what happens.\""
       ],
-      "related": [
-        "be my guest",
-        "by all means",
-        "after you",
-        "shoot"
-      ]
+      "senses": [],
+      "русский": "давай, вперёд, пожалуйста — разрешение; с нажимом — вызов «ну попробуй»",
+      "register": "neutral",
+      "type": "phrase",
+      "variants": "go on, go right ahead",
+      "see also": "be my guest, by all means, after you, shoot"
     },
     {
       "term": "go for it",
       "ipa": "/ˌɡoʊ fər ˈɪt/",
       "respell": "goh fer IT",
-      "variants": [],
-      "type": "phrase",
-      "register": "informal",
       "meaning": "Encouraging permission: do it, take the shot, don't hesitate. It is a green light with enthusiasm attached, which is what separates it from a flat go ahead.",
       "examples": [
         "\"Should I apply?\" — \"Go for it!\"",
@@ -2860,22 +2218,16 @@
         "She's been talking about that trip for years, so I told her to go for it.",
         "\"Go for it, man. You've got nothing to lose.\""
       ],
-      "related": [
-        "have at it",
-        "knock yourself out",
-        "be my guest",
-        "go ahead"
-      ]
+      "senses": [],
+      "русский": "дерзай!, давай! — разрешение с воодушевлением",
+      "register": "informal",
+      "type": "phrase",
+      "see also": "have at it, knock yourself out, be my guest, go ahead"
     },
     {
       "term": "have at it",
       "ipa": "/ˌhæv ˈæt ɪt/",
       "respell": "hav AT it",
-      "variants": [
-        "have at"
-      ],
-      "type": "phrase",
-      "register": "informal",
       "meaning": "Go ahead and dig in, take over, or take your best shot. It usually comes with a handoff — of a plate, a tool, or a problem you are tired of.",
       "examples": [
         "\"There's pizza in the kitchen — have at it.\"",
@@ -2884,22 +2236,17 @@
         "He handed me the wrench. \"Have at it.\"",
         "The kids saw the presents and we said, \"Have at it.\""
       ],
-      "related": [
-        "go for it",
-        "be my guest",
-        "help yourself",
-        "knock yourself out"
-      ]
+      "senses": [],
+      "русский": "давай, приступай, налетай — с передачей дела или угощения",
+      "register": "informal",
+      "type": "phrase",
+      "variants": "have at",
+      "see also": "go for it, be my guest, help yourself, knock yourself out"
     },
     {
       "term": "help yourself",
       "ipa": "/ˌhɛlp jərˈsɛlf/",
       "respell": "help yer-SELF",
-      "variants": [
-        "help yourselves"
-      ],
-      "type": "phrase",
-      "register": "neutral",
       "meaning": "Take what you want without asking first — the host's standard line about food, drinks, and supplies.",
       "examples": [
         "\"Help yourself, there's plenty.\"",
@@ -2908,19 +2255,17 @@
         "\"Can I grab a pen?\" — \"Help yourself.\"",
         "Help yourself to the leftovers; otherwise they're going in the trash."
       ],
-      "related": [
-        "be my guest",
-        "have at it",
-        "go ahead"
-      ]
+      "senses": [],
+      "русский": "угощайтесь, берите сами — стандартная фраза хозяина",
+      "register": "neutral",
+      "type": "phrase",
+      "variants": "help yourselves",
+      "see also": "be my guest, have at it, go ahead"
     },
     {
       "term": "knock yourself out",
       "ipa": "/ˌnɑk jərˈsɛlf ˌaʊt/",
       "respell": "nok yer-SELF owt",
-      "variants": [],
-      "type": "phrase",
-      "register": "informal",
       "meaning": "Go right ahead — usually with a shrug that means \"it's your time to waste\" or \"I'm not going to stop you.\" It is rarely warm, and it is never something to say to a customer.",
       "examples": [
         "\"Can I reorganize the whole spreadsheet?\" — \"Knock yourself out.\"",
@@ -2929,19 +2274,16 @@
         "\"Knock yourself out,\" he said, sliding the whole box of files across the desk.",
         "If you want to stand in that line for three hours, knock yourself out."
       ],
-      "related": [
-        "be my guest",
-        "have at it",
-        "go for it"
-      ]
+      "senses": [],
+      "русский": "валяй, флаг в руки — с пожатием плеч: дело твоё",
+      "register": "informal",
+      "type": "phrase",
+      "see also": "be my guest, have at it, go for it"
     },
     {
       "term": "shoot",
       "ipa": "/ʃut/",
       "respell": "SHOOT",
-      "variants": [],
-      "type": "secondary",
-      "register": "informal",
       "meaning": "In this use, \"go ahead and ask\" — a casual green light for somebody's question. The identical word is also a mild substitute swear for frustration, which is a completely separate use.",
       "examples": [
         "\"You got a minute? I need your read on something.\" — \"Shoot.\"",
@@ -2950,22 +2292,16 @@
         "\"I have two questions for you.\" — \"Shoot.\"",
         "Shoot — but keep it short, I've got a call in five minutes."
       ],
-      "related": [
-        "fire away",
-        "go ahead",
-        "by all means"
-      ]
+      "senses": [],
+      "русский": "валяй, говори — разрешение задать вопрос (не междометие досады)",
+      "register": "informal",
+      "type": "secondary",
+      "see also": "fire away, go ahead, by all means"
     },
     {
       "term": "take five",
       "ipa": "/ˌteɪk ˈfaɪv/",
       "respell": "tayk FYV",
-      "variants": [
-        "take ten",
-        "take a breather"
-      ],
-      "type": "phrase",
-      "register": "informal",
       "meaning": "Stop and rest for a few minutes — from the five-minute break called on film sets, in rehearsal rooms, and on job sites. It grants a pause rather than permission to act, which is what separates it from go ahead.",
       "examples": [
         "\"All right, everybody, take five.\"",
@@ -2974,12 +2310,12 @@
         "We took five on the tailgate and split a bag of chips.",
         "\"Take five,\" she said. \"You've been staring at that screen since seven.\""
       ],
-      "related": [
-        "time out",
-        "one moment",
-        "hold on",
-        "go ahead"
-      ]
+      "senses": [],
+      "русский": "перекур, передышка — пауза на пять минут",
+      "register": "informal",
+      "type": "phrase",
+      "variants": "take ten, take a breather",
+      "see also": "time out, one moment, hold on, go ahead"
     }
   ]
 }

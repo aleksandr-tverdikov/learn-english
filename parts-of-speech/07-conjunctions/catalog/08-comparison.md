@@ -19,6 +19,7 @@ These attach to a comparative form earlier in the sentence. The comparative clau
 ### a fortiori
 
 **Pronunciation:** /ˌeɪ ˌfɔrʃiˈɔraɪ/, also /ˌeɪ ˌfɔrtiˈɔri/ &middot; *ay for-shee-OR-eye*, also *ay for-tee-OR-ee*
+**Русский:** тем более — лат.: если верно для слабого случая, то с ещё большей силой для сильного; юр., книжн.
 **Type:** conjunctive adverb (Latin) of comparative inference; also attributive, as an adjective before a noun (*an a fortiori argument*) &middot; **Register:** formal; Latin — the register of judicial opinions, briefs, law reviews, and analytic philosophy
 **Clause type:** sentence adverbial marking its clause as following with even greater force from what the previous clause already granted
 **Pattern:** [Independent clause]; *a fortiori*, [independent clause]. &middot; [Independent clause]. *A fortiori*, [independent clause]. &middot; *If* [weaker case], *then a fortiori* [stronger case]. &middot; [main clause], *and a fortiori* [phrase]. &middot; *an a fortiori* [argument / case / reason] (attributive).
@@ -39,6 +40,7 @@ Latin for "from the stronger [argument]": it says that a point already conceded 
 ### any more than
 
 **Pronunciation:** /ˌɛni ˈmɔr ðən/, /ˌɛni ˈmɔr ðæn/ &middot; *EN-ee MOR thuhn*
+**Русский:** равно как и не… — отрицательная рамка: одним махом отрицает и главное, и сравниваемое
 **Type:** correlative comparative frame (subordinating), negative-polarity — it needs a negative, a question, or another non-affirmative context earlier in the sentence &middot; **Register:** neutral
 **Clause type:** adverbial clause of comparison (paired denial)
 **Pattern:** [negative clause] *any more than* [clause]. &middot; [negative clause] *any more than* [noun phrase] (elliptical). &middot; *Not* [X] *any more than* [Y]. &middot; [question] *any more than* [clause]?
@@ -59,6 +61,7 @@ The negative-polarity form of *no more … than*: it denies the main clause and 
 ### how much more / how much less
 
 **Pronunciation:** /ˌhaʊ mʌtʃ ˈmɔr/, /ˌhaʊ mʌtʃ ˈlɛs/ &middot; *how much MOR, how much LESS*
+**Русский:** тем более / тем менее — риторическое усиление довода: раз уж в малом, то что говорить о большом
 **Type:** rhetorical comparative frame (a fortiori) — a *wh-* degree phrase heading an elliptical clause, not a plain subordinator &middot; **Register:** formal, rhetorical, literary
 **Clause type:** exclamatory or interrogative comparative clause, usually elliptical, hanging off a clause that supplies the standard
 **Pattern:** *If* [clause], *how much more* [phrase]? &middot; [clause]; *how much less* [phrase]. &middot; *How much more* [adj/adv] [noun phrase] [verb phrase]! &middot; [clause] — *how much more so* [phrase].
@@ -79,6 +82,7 @@ The a-fortiori frame: it takes a case the reader has already granted and argues 
 ### no less than
 
 **Pronunciation:** /noʊ ˈlɛs ðən/, /noʊ ˈlɛs ðæn/ &middot; *noh LESS thuhn*
+**Русский:** ничуть не менее, чем — утверждает качество за обоими; перед числом или именем «целых, не кто иной, как»
 **Type:** correlative comparative frame (subordinating) &middot; **Register:** neutral to formal
 **Clause type:** adverbial clause of comparison
 **Pattern:** [X] *is no less* [adj] *than* [Y] (*is*). &middot; [clause] [verb] *no less than* [clause]. &middot; *No less than* [quantity / name] [verb phrase]. &middot; [X] *is no less a* [noun] *than* [Y].
@@ -100,6 +104,7 @@ Asserts that the first term measures up to the second, usually with the rhetoric
 ### no more than
 
 **Pronunciation:** /noʊ ˈmɔr ðən/, /noʊ ˈmɔr ðæn/ &middot; *noh MOR thuhn*
+**Русский:** ничуть не более, чем — парное отрицание: свойства нет ни у того, ни у другого; перед числом «всего лишь»
 **Type:** correlative comparative frame (subordinating) &middot; **Register:** neutral; the paired-denial frame is formal and rhetorical
 **Clause type:** adverbial clause of comparison
 **Pattern:** [X] *is no more* [adj] *than* [Y] (*is*). &middot; [X] *is no more a* [noun] *than* [Y] (*is*). &middot; [clause] [verb] *no more than* [clause]. &middot; [clause] [verb] *no more than* [quantity].
@@ -120,6 +125,7 @@ In its argument frame this denies the property of both terms together: *He is no
 ### no sooner … than
 
 **Pronunciation:** /noʊ ˈsunər … ðən/ &middot; *noh SOO-nur … thuhn*
+**Русский:** не успел… как — второе событие наступило сразу вслед за первым
 **Type:** correlative &middot; **Register:** formal to neutral; the fronted form is literary
 **Clause type:** adverbial clause of time built on a comparative frame
 **Pattern:** *No sooner* [auxiliary] [subject] [verb] *than* [clause]. &middot; [subject] *had no sooner* [past participle] *than* [clause].
@@ -140,6 +146,7 @@ Formally a comparison, semantically pure sequence: it says the second event foll
 ### rather than
 
 **Pronunciation:** /ˈræðər ðən/ &middot; *RA-thur thuhn*
+**Русский:** а не; вместо того чтобы — называет отвергнутый вариант
 **Type:** subordinating; also works as a quasi-coordinator &middot; **Register:** neutral
 **Clause type:** adverbial clause of preference and substitution; also links two parallel phrases
 **Pattern:** *Rather than* [bare infinitive / -ing], [main clause]. &middot; [main clause] *rather than* [bare infinitive]. &middot; [X] *rather than* [Y] (two matching phrases). &middot; [subject] *would rather* [bare infinitive] *than* [bare infinitive].
@@ -160,6 +167,7 @@ Marks the rejected alternative. Its nearest neighbor is *instead of*, and they t
 ### sooner than
 
 **Pronunciation:** /ˈsunər ðən/ &middot; *SOO-nur thuhn*
+**Русский:** скорее… чем; лучше уж — подчёркнутое предпочтение; также буквально «раньше, чем»
 **Type:** subordinating &middot; **Register:** neutral, emphatic
 **Clause type:** adverbial clause of preference; also a plain comparison of time
 **Pattern:** [subject] *would* [bare infinitive] *sooner than* [bare infinitive] (preference). &middot; [subject] *'d sooner* [bare infinitive] *than* [bare infinitive]. &middot; *Sooner than* [bare infinitive], [main clause]. &middot; [main clause] *sooner than* [clause] (literal time).
@@ -180,6 +188,7 @@ The emphatic sibling of *rather than*: it states a preference the speaker treats
 ### than
 
 **Pronunciation:** /ðæn/, weak /ðən/, /ðn̩/ &middot; *THAN, thuhn*
+**Русский:** чем — вводит второй член сравнения после сравнительной степени
 **Type:** subordinating (comparative); prepositional in the *than me* usage &middot; **Register:** neutral
 **Clause type:** adverbial clause of comparison, attached to a comparative word earlier in the sentence
 **Pattern:** [clause + comparative adj/adv] *than* [clause]. &middot; [clause + *more / less / fewer* + noun] *than* [clause]. &middot; [clause + comparative] *than* [noun phrase] (elliptical: *than me*, *than last year's*). &middot; [clause + *other / rather / sooner / else / different*] *than* [phrase].
@@ -201,6 +210,7 @@ The workhorse of unequal comparison. It cannot start a comparison by itself — 
 ### than whom
 
 **Pronunciation:** /ðæn ˈhum/ &middot; *than HOOM*
+**Русский:** чем кто — застывший книжный оборот: than whom no one «лучше которого нет»
 **Type:** subordinating conjunction + relative pronoun &middot; **Register:** formal, literary
 **Clause type:** nonrestrictive relative clause built on a comparative
 **Pattern:** [noun phrase], *than whom* [no one / few / nobody] [verb phrase], [rest of main clause]. &middot; [noun phrase], *than which* [nothing / few / no + noun] [verb phrase], [rest of main clause]. &middot; [noun phrase], *than whom* [subject] [verb] [no one / nothing] *more*, [rest of main clause].
@@ -224,6 +234,7 @@ Equatives come in two halves that straddle the compared word: the first half is 
 ### as … as
 
 **Pronunciation:** /æz … əz/ — the first *as* carries the stress and stays full, the second reduces to /əz/ &middot; *AZ … uhz*
+**Русский:** так же… как — рамка равенства двух величин
 **Type:** correlative (equative comparison) &middot; **Register:** neutral
 **Clause type:** adverbial clause of comparison
 **Pattern:** [clause] *as* [adj/adv] *as* [clause/phrase]. &middot; [clause] *not as* [adj/adv] *as* [clause/phrase]. &middot; *as* [adj] *a(n)* [noun] *as* [phrase]. &middot; [clause] *as much / as many* [noun] *as* [clause]. &middot; [clause] [twice / half / three times] *as* [adj/adv] *as* [phrase].
@@ -244,6 +255,7 @@ States that two things match on some scale. The trap is word order in the noun p
 ### as … so
 
 **Pronunciation:** /æz … ˈsoʊ/ &middot; *az … SOH*
+**Русский:** как… так и — книжная аналогия с подхватом во второй половине
 **Type:** correlative &middot; **Register:** formal, literary
 **Clause type:** adverbial clause of comparison with a resumptive main clause
 **Pattern:** *As* [clause], *so* [clause]. &middot; *Just as* [clause], *so (too)* [clause].
@@ -263,6 +275,7 @@ Sets up an analogy: as the first proposition goes, so goes the second. This is t
 ### as far as
 
 **Pronunciation:** /æz ˈfɑr əz/, weak /əz ˈfɑr əz/ &middot; *az FAR uhz*
+**Русский:** насколько (мне известно); вплоть до — ограничивает утверждение пределом знания, полномочий или расстояния
 **Type:** subordinating (compound) with a clause; prepositional with a noun phrase in the distance sense &middot; **Register:** neutral
 **Clause type:** adverbial clause of comparison and extent; also literal distance
 **Pattern:** *As far as* [clause], [main clause]. &middot; [main clause] *as far as* [clause]. &middot; [main clause] *as far as* [noun phrase] (literal distance; prepositional). &middot; *As far as* [noun phrase] *is concerned / goes*, [main clause]. &middot; [main clause] *as far as* [noun phrase] *is concerned / goes*.
@@ -283,6 +296,7 @@ Limits a claim to the reach of somebody's knowledge, authority, or physical dist
 ### as lief … as
 
 **Pronunciation:** /əz ˈlif … əz/ &middot; *az LEEF … uhz*
+**Русский:** с такой же охотой… как и — устар.: нынешнее would just as soon, вежливый отказ
 **Type:** correlative (equative of preference) &middot; **Register:** archaic, literary
 **Clause type:** adverbial clause of comparison expressing preference
 **Pattern:** [subject] *had as lief* [bare infinitive] *as* [bare infinitive]. &middot; [subject] *would as lief* [bare infinitive] *as* [bare infinitive]. &middot; [subject] *'d as lief* [bare infinitive] *as not*. &middot; *As lief* [bare infinitive] *as* [bare infinitive] — [main clause].
@@ -303,6 +317,7 @@ The Elizabethan ancestor of *would just as soon*. *Lief* is a dead adverb meanin
 ### as many as
 
 **Pronunciation:** /æz ˈmɛni əz/, weak /əz ˈmɛni əz/ &middot; *az MEN-ee uhz*
+**Русский:** столько же… сколько — с исчисляемыми; перед числом «целых, аж»
 **Type:** correlative (equative, count) &middot; **Register:** neutral
 **Clause type:** adverbial clause of comparison
 **Pattern:** [clause] *as many* [plural noun] *as* [clause/phrase]. &middot; [clause] *as many of* [noun phrase] *as* [clause]. &middot; [clause] [twice / half / three times] *as many* [plural noun] *as* [phrase]. &middot; *As many as* [number] [verb phrase]. &middot; [clause] *as many as* [number].
@@ -323,6 +338,7 @@ The countable half of the equative pair: *as many as* takes plural count nouns a
 ### as much as
 
 **Pronunciation:** /æz ˈmʌtʃ əz/, weak /əz ˈmʌtʃ əz/ &middot; *az MUCH uhz*
+**Русский:** столько же… сколько — о степени и неисчисляемом; в начале фразы «как ни, хотя и»
 **Type:** correlative (equative, degree) &middot; **Register:** neutral
 **Clause type:** adverbial clause of comparison; also an adverbial clause of concession
 **Pattern:** [clause] *as much as* [clause/phrase]. &middot; [clause] *as much* [mass noun] *as* [clause]. &middot; [clause] [twice / half] *as much* [mass noun] *as* [phrase]. &middot; *As much as* [clause], [main clause] (concessive). &middot; [clause] *as much as* [quantity].
@@ -343,6 +359,7 @@ Measures degree, or quantity of a mass noun. It leads a second life at the front
 ### as well as
 
 **Pronunciation:** /æz ˈwɛl əz/, weak /əz ˈwɛl əz/ &middot; *az WELL uhz*
+**Русский:** так же хорошо, как — как равенство; во втором значении «а также, вдобавок к» (подлежащее остаётся в ед. ч.)
 **Type:** correlative (equative) in the comparison sense; quasi-coordinator in the additive sense &middot; **Register:** neutral
 **Clause type:** adverbial clause of comparison (manner and degree); the additive sense links noun phrases instead
 **Pattern:** [clause] *as well as* [clause]. &middot; [clause] *as well as* [noun phrase]. &middot; [X], *as well as* [Y], [verb phrase]. &middot; *As well as* [-ing], [main clause].
@@ -364,6 +381,7 @@ Two grammars share these three words. As an equative it compares skill or qualit
 ### insofar as
 
 **Pronunciation:** /ˌɪnsəˈfɑr əz/, /ˌɪnsoʊˈfɑr əz/ &middot; *in-suh-FAR uhz*
+**Русский:** в той мере, в какой; поскольку — книжн., юр.; не путать с inasmuch as «поскольку, так как»
 **Type:** subordinating (compound) &middot; **Register:** formal
 **Clause type:** adverbial clause of comparison and extent
 **Pattern:** *Insofar as* [clause], [main clause]. &middot; [main clause] *insofar as* [clause]. &middot; [main clause] *only insofar as* [clause]. &middot; [main clause] *insofar as* [noun phrase] *is concerned* (heavy; usually better as a clause).
@@ -383,6 +401,7 @@ Restricts a statement to the degree that something holds — the legal-and-acade
 ### just as
 
 **Pronunciation:** /dʒəst ˈæz/, /dʒʌst ˈæz/ &middot; *just AZ*
+**Русский:** точно так же, как; ровно в тот момент, когда — сравнение, образ действия или время
 **Type:** subordinating (intensified equative and manner); also temporal &middot; **Register:** neutral
 **Clause type:** adverbial clause of comparison or manner; adverbial clause of time in the "at that moment" sense
 **Pattern:** *Just as* [clause], [main clause]. &middot; [main clause] *just as* [clause] (manner or time). &middot; [clause] *just as* [adj/adv] *as* [phrase] (comparison). &middot; *Just as* [clause], *so (too)* [clause] (formal correlative).
@@ -403,6 +422,7 @@ Restricts a statement to the degree that something holds — the legal-and-acade
 ### not so much … as
 
 **Pronunciation:** /nɑt soʊ ˈmʌtʃ … əz/ &middot; *not soh MUCH … uhz*
+**Русский:** не столько… сколько — мягко заменяет неточное определение более точным
 **Type:** correlative &middot; **Register:** neutral to formal
 **Clause type:** adverbial clause of comparison (corrective)
 **Pattern:** [X] *is not so much* [noun phrase] *as* [noun phrase]. &middot; [X] *is not so much* [adj] *as* [adj]. &middot; [clause] *not so much* [phrase] *as* [phrase]. &middot; [clause] *not so much because* [clause] *as because* [clause]. &middot; *Not so much* [phrase] *as* [phrase] — [main clause] (fronted, dash-linked).
@@ -424,6 +444,7 @@ Rejects one description and substitutes a better one — "less this, more that."
 ### so … as
 
 **Pronunciation:** /soʊ … əz/ &middot; *SOH … uhz*
+**Русский:** так… как — старая отрицательная форма равенства, ныне not as … as; устар., книжн.
 **Type:** correlative (equative, negative and interrogative contexts) &middot; **Register:** formal, old-fashioned
 **Clause type:** adverbial clause of comparison
 **Pattern:** [subject] *is not so* [adj/adv] *as* [clause/phrase]. &middot; *Is* [subject] *so* [adj] *as* [clause]? (interrogative). &middot; [clause] *so* [adj] *as to* [bare infinitive]. &middot; [subject] *didn't so much as* [bare infinitive] (= not even). &middot; *Nothing / no one is so* [adj] *as* [noun phrase].
@@ -445,6 +466,7 @@ The older negative equative. Modern American English says *not as … as* nearly
 ### the same as
 
 **Pronunciation:** /ðə ˈseɪm əz/ &middot; *thuh SAME uhz*
+**Русский:** такой же, как — сходство; ср. the same … that «тот самый, который»
 **Type:** subordinating (equative) &middot; **Register:** neutral
 **Clause type:** adverbial clause of comparison; also a comparison complement after *be*
 **Pattern:** [X] *is the same as* [Y]. &middot; [X] *is the same* [noun] *as* [Y / clause]. &middot; [main clause] *the same as* [clause]. &middot; [X] *is the same* [noun] *that* [clause] (relative — that very one). &middot; *Same as* [noun phrase] — [main clause] (clipped, informal).
@@ -465,6 +487,7 @@ Asserts identity rather than resemblance. The choice between *as* and *that* aft
 ### to the degree that
 
 **Pronunciation:** /tə ðə dɪˈɡri ðət/ &middot; *tuh thuh dih-GREE thut*
+**Русский:** в той мере, в какой — книжн.; не путать с to such a degree that «до такой степени, что»
 **Type:** subordinating (compound) &middot; **Register:** formal to neutral
 **Clause type:** adverbial clause of extent and degree; also proportion
 **Pattern:** [main clause] *to the degree that* [clause]. &middot; *To the degree that* [clause], [main clause]. &middot; [main clause] *only to the degree that* [clause]. &middot; [main clause] *to the extent that* [clause] (the commoner twin).
@@ -489,6 +512,7 @@ These say *how*, not *how much*. The whole *like*-versus-*as* argument lives in 
 ### analogously
 
 **Pronunciation:** /əˈnælədʒəsli/ &middot; *uh-NAL-uh-jus-lee*
+**Русский:** аналогичным образом — книжн., научн.: устройство первого случая переносится на второй целиком
 **Type:** conjunctive adverb of resemblance; prepositional in the heavier *analogously to* &middot; **Register:** formal; academic, mathematical, scientific, and legal
 **Clause type:** sentence adverbial introducing a parallel case that runs the same way as the one just described
 **Pattern:** [Independent clause]; *analogously*, [independent clause]. &middot; [Independent clause]. *Analogously*, [independent clause]. &middot; [main clause], *and analogously* [clause]. &middot; [subject], *analogously*, [verb phrase]. &middot; [main clause] *analogously to* [noun phrase] (prepositional, heavy).
@@ -509,6 +533,7 @@ The technical register's *similarly*: it claims that the second case is built th
 ### as
 
 **Pronunciation:** /æz/, weak /əz/ &middot; *AZ, uhz*
+**Русский:** как, так же как — нейтральный союз образа действия; тот же as вводит время, причину и роль
 **Type:** subordinating (manner and comparison); the same word also subordinates time and cause, and is a **preposition** in the role sense (*as a teacher*) &middot; **Register:** neutral to formal in the manner sense
 **Clause type:** adverbial clause of manner or comparison; adverbial clause of time or cause in its other senses; prepositional phrase in the role sense
 **Pattern:** [main clause] *as* [clause]. &middot; *As* [clause], [main clause]. &middot; [main clause], *as* [clause] (supplementary comment). &middot; *as* + [past participle / adjective] (reduced: *as expected*, *as noted above*). &middot; *As* [noun phrase], [main clause] (role; prepositional: *As a teacher, she…*).
@@ -529,6 +554,7 @@ The neutral manner subordinator, meaning "in the way that." It is the always-saf
 ### as if
 
 **Pronunciation:** /æz ˈɪf/, /əz ɪf/ &middot; *az IF*
+**Русский:** как будто, словно — нереальное или лишь предполагаемое сравнение
 **Type:** subordinating (compound) &middot; **Register:** neutral
 **Clause type:** adverbial clause of manner and comparison, often hypothetical
 **Pattern:** [main clause] *as if* [clause]. &middot; [*look / sound / feel / smell / seem*] *as if* [clause]. &middot; [main clause] *as if* *to* [verb phrase]. &middot; *As if* [clause / reduced phrase], [main clause]. &middot; *As if!* (standalone retort, informal).
@@ -549,6 +575,7 @@ Introduces an unreal or unverified comparison — how something looks, sounds, f
 ### as though
 
 **Pronunciation:** /æz ˈðoʊ/, weak /əz ˈðoʊ/ &middot; *az THOH*
+**Русский:** как будто, словно — книжнее, чем as if, по смыслу то же самое
 **Type:** subordinating (compound) &middot; **Register:** neutral to formal
 **Clause type:** adverbial clause of manner and comparison, often hypothetical
 **Pattern:** [main clause] *as though* [clause]. &middot; [look/sound/feel/seem] *as though* [clause]. &middot; [main clause] *as though* *to* [verb phrase]. &middot; *As though* [clause / reduced phrase], [main clause].
@@ -569,6 +596,7 @@ The near-twin of *as if*, and the two are genuinely interchangeable in meaning. 
 ### as who should say
 
 **Pronunciation:** /əz ˈhu ʃəd ˌseɪ/ &middot; *az HOO shud say*
+**Русский:** как бы говоря, будто желая сказать — устар., шекспировское
 **Type:** subordinating (fossilized manner clause) &middot; **Register:** archaic, literary
 **Clause type:** adverbial clause of manner, elliptical and supplementary
 **Pattern:** [main clause], *as who should say* [reported words]. &middot; [main clause], *as who should say*, "[direct speech]." &middot; [main clause], *as much as to say* [words] (the surviving paraphrase).
@@ -589,6 +617,7 @@ A fossil of Elizabethan English meaning "as one might say" or "as if to say." Th
 ### how
 
 **Pronunciation:** /haʊ/ &middot; *HOW*
+**Русский:** как, каким образом; то, как — косвенный вопрос и придаточное образа действия
 **Type:** subordinating (nominal relative); complementizer in indirect questions &middot; **Register:** neutral
 **Clause type:** nominal relative clause of manner; also an indirect question
 **Pattern:** [verb] *how* [clause] (object of the verb). &middot; *How* [clause] + [main-clause verb phrase] (the *how* clause is the subject). &middot; [verb] [indirect object] *how* [clause]. &middot; [verb] *how to* [verb phrase]. &middot; [main clause] *how* [clause] (manner, = *the way that*).
@@ -609,6 +638,7 @@ Covers both "in what manner" — an indirect question — and the plain "the way
 ### however
 
 **Pronunciation:** /haʊˈɛvər/ &middot; *how-EV-ur*
+**Русский:** как бы ни, насколько бы ни — свободное придаточное образа действия или степени, а не вводное «однако»
 **Type:** subordinating (manner and degree free relative) — not the conjunctive adverb &middot; **Register:** neutral
 **Clause type:** adverbial clause of manner or concessive condition
 **Pattern:** *However* [clause], [main clause]. &middot; [main clause] *however* [clause]. &middot; *However* [adj/adv] [subject] [verb], [main clause]. &middot; [main clause] *however* [adj/adv] [subject] [verb].
@@ -629,6 +659,7 @@ Means "in whatever manner" or "to whatever degree," and it makes the main clause
 ### in the same manner as
 
 **Pronunciation:** /ɪn ðə ˈseɪm ˌmænər əz/ &middot; *in thuh SAME man-ur uhz*
+**Русский:** таким же образом, как — книжн., канц.: язык инструкций, законов и протоколов
 **Type:** subordinating (compound) with a clause; prepositional with a noun phrase &middot; **Register:** formal; procedural, legal, and scientific
 **Clause type:** adverbial clause of manner and comparison
 **Pattern:** [main clause] *in the same manner as* [noun phrase]. &middot; [main clause] *in the same manner as* [clause]. &middot; *In the same manner as* [noun phrase], [main clause]. &middot; [main clause] *in the same manner that* [clause]. &middot; [main clause] *in like manner* (the clipped adverb).
@@ -649,6 +680,7 @@ The procedural register of *in the same way that* — the phrasing of manuals, s
 ### in the same way that
 
 **Pronunciation:** /ɪn ðə ˈseɪm ˌweɪ ðət/ &middot; *in thuh SAME way thut*
+**Русский:** точно так же, как — развёрнутая аналогия в формальной речи
 **Type:** subordinating (compound) &middot; **Register:** neutral to formal
 **Clause type:** adverbial clause of manner and comparison
 **Pattern:** [main clause] *in the same way that* [clause]. &middot; [main clause] *in the same way* [clause] (*that* dropped). &middot; *In the same way that* [clause], [main clause]. &middot; [main clause] *in the same way as* [noun phrase].
@@ -668,6 +700,7 @@ Spells an analogy out at full length — the explicit, unambiguous version of *l
 ### just like
 
 **Pronunciation:** /dʒəst ˈlaɪk/ &middot; *just LYKE*
+**Русский:** совсем как, точь-в-точь как — разг., особенно перед придаточным
 **Type:** subordinating (informal) with a clause; prepositional with a noun phrase &middot; **Register:** informal to neutral
 **Clause type:** adverbial clause of manner and comparison
 **Pattern:** [main clause] *just like* [noun phrase] (prepositional). &middot; [main clause] *just like* [clause] (informal). &middot; *Just like* [noun phrase], [main clause]. &middot; *Just like* [clause], [main clause] (informal).
@@ -688,6 +721,7 @@ The everyday intensified comparison. Followed by a noun phrase (*just like her m
 ### like
 
 **Pronunciation:** /laɪk/ &middot; *LYKE*
+**Русский:** как, словно — разг. в роли союза, нейтрально в роли предлога; в строгом письме заменяется на as / as if
 **Type:** subordinating (informal) before a clause; **preposition** before a noun phrase; and outside the conjunction system a verb (*I like it*), a noun (*the likes of*), a suffix (*businesslike*), and — in speech only — a quotative (*she was like, no*) and a filler &middot; **Register:** informal as a conjunction; neutral as a preposition
 **Clause type:** adverbial clause of manner and comparison
 **Pattern:** [main clause] *like* [noun phrase] (prepositional; standard everywhere). &middot; [main clause] *like* [clause] (manner, = *as*; informal). &middot; [look/sound/seem/feel] *like* [clause] (= *as if*; informal). &middot; *Like* [clause], [main clause] (fronted comment: *Like I said, …*). &middot; *Like* [noun phrase], [main clause].
@@ -710,6 +744,7 @@ The everyday intensified comparison. Followed by a noun phrase (*just like her m
 ### like as
 
 **Pronunciation:** /ˈlaɪk əz/ &middot; *LYKE uhz*
+**Русский:** подобно тому как — устар., библейск.; вторая половина вводится через so
 **Type:** subordinating (compound; archaic), usually correlative with a resumptive *so* &middot; **Register:** archaic, biblical, literary
 **Clause type:** adverbial clause of manner and comparison, answered by *so* in the second half
 **Pattern:** *Like as* [clause], *so* [clause]. &middot; *Like as* [noun phrase], *so* [clause]. &middot; [main clause] *like as* [clause] (dialectal).
@@ -730,6 +765,7 @@ The King James Bible's way of opening a simile: *Like as a father pitieth his ch
 ### much as
 
 **Pronunciation:** /ˈmʌtʃ əz/ &middot; *MUCH uhz*
+**Русский:** как ни, при всём… — в начале фразы уступка; после главного «во многом так же, как»; книжн.
 **Type:** subordinating &middot; **Register:** formal to neutral
 **Clause type:** adverbial clause of manner and comparison; adverbial clause of concession when fronted
 **Pattern:** *Much as* [clause], [main clause] (concessive). &middot; [main clause] *much as* [clause] (comparative). &middot; [main clause] *much as* [noun phrase] [auxiliary] (elliptical: *much as a cold does*). &middot; [main clause] *much like* [noun phrase] (the prepositional twin).
@@ -750,6 +786,7 @@ Two readings split by position. Fronted, it is concessive: *Much as I admire him
 ### mutatis mutandis
 
 **Pronunciation:** /mjuˌteɪtɪs mjuˈtændɪs/, also /muˌtɑtɪs muˈtɑndɪs/ &middot; *myoo-TAY-tis myoo-TAN-dis*, also *moo-TAH-tis moo-TAHN-dis*
+**Русский:** с необходимыми изменениями — лат., юр.: правило переносится на другой случай, меняются лишь имена и даты
 **Type:** adverbial phrase (Latin) of qualified analogy — a manner adverbial in the predicate, a sentence adverbial when set off; never a clause-taking conjunction &middot; **Register:** formal; Latin — contract, treaty, and statutory boilerplate, and academic argument
 **Clause type:** adverbial phrase of manner and comparison, carrying an earlier rule or argument over to a new case
 **Pattern:** [provision] *shall apply mutatis mutandis to* [noun phrase]. &middot; [main clause], *mutatis mutandis*. &middot; *Mutatis mutandis*, [main clause]. &middot; [main clause], *mutatis mutandis*, [continuation]. &middot; [main clause] *mutatis mutandis* (bare, trailing).
@@ -770,6 +807,7 @@ Latin for "with those things changed that need to be changed": it imports a rule
 ### sort of like
 
 **Pronunciation:** /ˈsɔrt əv ˌlaɪk/, reduced /ˈsɔrtə ˌlaɪk/ &middot; *SORT uv lyke*
+**Русский:** вроде, что-то вроде — разг. сравнение с оговоркой на приблизительность
 **Type:** hedged comparison marker — prepositional before a noun phrase, subordinating (informal) before a clause &middot; **Register:** informal, chiefly spoken
 **Clause type:** adverbial clause of manner and comparison, hedged
 **Pattern:** [X] *is sort of like* [noun phrase]. &middot; [main clause] *sort of like* [clause] (informal). &middot; *It's sort of like* [-ing]. &middot; *Sort of like* [noun phrase], [main clause]. &middot; [X] *is kind of like* [noun phrase].
@@ -790,6 +828,7 @@ Latin for "with those things changed that need to be changed": it imports a rule
 ### the way
 
 **Pronunciation:** /ðə ˈweɪ/ &middot; *thuh WAY*
+**Русский:** (так,) как — нейтральный союз образа действия, годится в любом стиле
 **Type:** subordinating (compound; nominal relative) &middot; **Register:** neutral
 **Clause type:** adverbial clause of manner
 **Pattern:** [main clause] *the way* [clause]. &middot; [main clause] *the way that* [clause]. &middot; [verb] *the way* [clause] (object of *like*, *hate*, *remember*: *I hate the way he says it*). &middot; *The way* [clause], [main clause] (idiomatic — "given that," "by his account"). &middot; [main clause] *the way in which* [clause] (formal).
@@ -810,6 +849,7 @@ The everyday manner subordinator, and the word that solves the *like*-versus-*as
 ### the way I see it
 
 **Pronunciation:** /ðə ˈweɪ aɪ ˈsi ɪt/ &middot; *thuh WAY eye SEE it*
+**Русский:** по-моему, на мой взгляд — разг. формула, помечающая сказанное как личное мнение
 **Type:** fixed stance formula built on the manner subordinator *the way*; functions as a sentence adverbial &middot; **Register:** neutral to informal
 **Clause type:** fronted adverbial clause of manner, commenting on the whole sentence
 **Pattern:** *The way I see it*, [main clause]. &middot; *The way I see it*, [clause], *and* [clause]. &middot; [main clause], *the way I see it*. &middot; *As far as I'm concerned*, [main clause] (the equivalent formula).
@@ -834,6 +874,7 @@ Five entries that say the halves of a sentence vary together, or that pair their
 ### according as
 
 **Pronunciation:** /əˈkɔrdɪŋ əz/ &middot; *uh-KOR-ding uhz*
+**Русский:** смотря по тому, как; в зависимости от того, что — книжн., устар.; ныне depending on whether
 **Type:** subordinating (compound) &middot; **Register:** formal, dated
 **Clause type:** adverbial clause of proportion and correspondence
 **Pattern:** [main clause] *according as* [clause]. &middot; *According as* [clause], [main clause]. &middot; [main clause] *according as* [clause] *or* [clause] (the paired-outcome form). &middot; [main clause] *according to whether* [clause] (the modern paraphrase). &middot; [main clause] *according to* [noun phrase] (prepositional — a different word class).
@@ -853,6 +894,7 @@ Means "in proportion to whether" or "depending on which of these turns out to be
 ### correspondingly
 
 **Pronunciation:** /ˌkɔrəˈspɑndɪŋli/, also /ˌkɑrəˈspɑndɪŋli/ &middot; *kor-uh-SPON-ding-lee*
+**Русский:** соответственно, в такой же мере — наречие сопряжённого изменения двух величин
 **Type:** conjunctive adverb of correspondence; also an ordinary degree adverb inside the clause (*a correspondingly larger bill*) &middot; **Register:** neutral to formal; reporting, policy, and technical prose
 **Clause type:** sentence adverbial saying its clause moves in step with the one before it; degree modifier in the adjectival use
 **Pattern:** [Independent clause]; *correspondingly*, [independent clause]. &middot; [Independent clause]. *Correspondingly*, [independent clause]. &middot; [main clause], *and* [subject] [verb phrase] *correspondingly*. &middot; [subject], *correspondingly*, [verb phrase]. &middot; [main clause] *a correspondingly* [comparative adjective] [noun] (degree use).
@@ -873,6 +915,7 @@ The adverb of matched movement: whatever the first clause reports going up or do
 ### in proportion as
 
 **Pronunciation:** /ɪn prəˈpɔrʃən əz/ &middot; *in pruh-POR-shun uhz*
+**Русский:** по мере того как; в той мере, в какой — книжн., устар.: величины растут или падают вместе
 **Type:** subordinating (compound); the shortened *in proportion to* is a **preposition** taking a noun phrase &middot; **Register:** formal, dated
 **Clause type:** adverbial clause of proportion and correspondence
 **Pattern:** [main clause] *in proportion as* [clause]. &middot; *In proportion as* [clause], [main clause]. &middot; [main clause] *in proportion to* [noun phrase] (prepositional — a different word class). &middot; *In proportion as* [clause], *so* [clause] (with a resumptive *so* opening the second half).
@@ -894,6 +937,7 @@ Says that two quantities move together — as one rises or falls, so does the ot
 ### respectively
 
 **Pronunciation:** /rɪˈspɛktɪvli/, weak /rəˈspɛktɪvli/ &middot; *rih-SPEK-tiv-lee*
+**Русский:** соответственно — распределяет члены одного перечня по членам другого; не союз
 **Type:** adverb of one-to-one correspondence — **not** a conjunction; it distributes the members of one list across the members of another and joins nothing &middot; **Register:** neutral to formal; statistical, scientific, and journalistic
 **Clause type:** adverbial of correspondence, almost always clause-final
 **Pattern:** [list A] [verb] [list B], *respectively*. &middot; [X] *and* [Y] *were* [A] *and* [B], *respectively*. &middot; [X], [Y], *and* [Z] [verb] [A], [B], *and* [C], *respectively*. &middot; [main clause] ([A] *and* [B], *respectively*). &middot; [X] *and* [Y], *respectively*, [verb phrase].
@@ -914,6 +958,7 @@ Pairs off two lists in sequence: *Chicago and Denver grew four and seven percent
 ### the more … the more
 
 **Pronunciation:** /ðə ˈmɔr … ðə ˈmɔr/ &middot; *thuh MOR … thuh MOR*
+**Русский:** чем больше… тем больше — парная сравнительная рамка пропорции
 **Type:** correlative (proportional comparative) &middot; **Register:** neutral
 **Clause type:** paired comparative clauses — the first is subordinate, the second is the main clause
 **Pattern:** *The* [comparative], *the* [comparative]. &middot; *The more* [clause], *the more* [clause]. &middot; *The* [comparative] [noun], *the* [comparative] [noun] (verbless).
@@ -940,6 +985,7 @@ Watch the boundary with the conjunctive adverbs, because it is where the commas 
 ### according to
 
 **Pronunciation:** /əˈkɔrdɪŋ tu/, weak /əˈkɔrdɪŋ tə/ &middot; *uh-KOR-ding too*
+**Русский:** согласно, по словам (кого-то); в соответствии с — источник сведений или мерило
 **Type:** preposition (complex) — it takes a noun phrase or a nominal *wh-* clause, never a finite clause; the clause-taking form is the conjunction *according as* &middot; **Register:** neutral
 **Clause type:** prepositional phrase of source, standard, or correspondence; supplementary when fronted
 **Pattern:** *According to* [noun phrase], [main clause] (attribution). &middot; [main clause], *according to* [noun phrase] (attribution, trailing). &middot; [main clause] *according to* [noun phrase] (standard or correspondence). &middot; [main clause] *according to whether* [clause]. &middot; [main clause] *according to* [wh-clause].
@@ -961,6 +1007,7 @@ Two jobs share one phrase. In the attribution sense it names whose account you a
 ### along the same lines
 
 **Pronunciation:** /əˌlɔŋ ðə seɪm ˈlaɪnz/ &middot; *uh-LONG thuh same LYNEZ*
+**Русский:** в том же духе, в том же направлении — о сходном подходе, замысле, методе
 **Type:** phrasal comparison marker — prepositional with *as* before a noun phrase; a **conjunctive adverb** when it stands alone &middot; **Register:** neutral
 **Clause type:** supplementary comparative phrase of resemblance; adverbial in the bare form
 **Pattern:** [main clause] *along the same lines as* [noun phrase]. &middot; *Along the same lines*, [main clause] (adverbial). &middot; [main clause] *along the same lines* (bare, trailing). &middot; [main clause] *along much the same lines as* [noun phrase]. &middot; [Independent clause]; *along the same lines*, [independent clause].
@@ -981,6 +1028,7 @@ Says that the second thing follows the pattern of the first without matching it 
 ### as against
 
 **Pronunciation:** /æz əˈɡɛnst/, weak /əz əˈɡɛnst/ &middot; *az uh-GENST*
+**Русский:** против, по сравнению с — сопоставление цифр; книжн., язык отчётности
 **Type:** phrasal comparison marker (prepositional) — it takes a noun phrase, most often a figure, never a finite clause &middot; **Register:** formal; the register of reporting and statistics
 **Clause type:** supplementary comparative phrase naming the figure or the case being set against
 **Pattern:** [figure] *as against* [figure]. &middot; [main clause], *as against* [noun phrase]. &middot; *As against* [noun phrase], [main clause]. &middot; [X], *as against* [Y], [verb phrase].
@@ -1001,6 +1049,7 @@ The statistician's contrast: it sets one measured value beside another and lets 
 ### as compared with
 
 **Pronunciation:** /æz kəmˈpɛrd wɪð/, weak /əz kəmˈpɛrd wɪθ/ &middot; *az kum-PAIRD with*
+**Русский:** по сравнению с — книжн.: называет базу сравнения в отчётах и научной прозе
 **Type:** phrasal comparison marker (reduced participial phrase, functioning as a preposition) — it takes a noun phrase or a nominal *wh-* clause, never an ordinary finite clause &middot; **Register:** formal
 **Clause type:** reduced adverbial clause of comparison, supplementary
 **Pattern:** [main clause], *as compared with* [noun phrase]. &middot; *As compared with* [noun phrase], [main clause]. &middot; [X], *as compared with* [Y], [verb phrase]. &middot; [main clause], *as compared with* [wh-clause].
@@ -1021,6 +1070,7 @@ The report-and-abstract way of naming the baseline of a comparison. Traditionall
 ### as distinct from
 
 **Pronunciation:** /æz dɪˈstɪŋkt frəm/, weak /əz dɪˈstɪŋkt frəm/ &middot; *az dih-STINKT frum*
+**Русский:** в отличие от — проводит границу между категориями, ничего не отвергая
 **Type:** phrasal comparison marker (adjectival preposition) — it takes a noun phrase or an *-ing* form, never a finite clause &middot; **Register:** neutral to formal
 **Clause type:** supplementary comparative phrase drawing a line between two categories
 **Pattern:** [X], *as distinct from* [Y], [verb phrase]. &middot; [main clause], *as distinct from* [noun phrase]. &middot; *As distinct from* [noun phrase], [main clause]. &middot; [main clause] *as distinct from* [-ing].
@@ -1041,6 +1091,7 @@ Draws a categorical line rather than stating a preference: it says the two thing
 ### as distinguished from
 
 **Pronunciation:** /æz dɪˈstɪŋɡwɪʃt frəm/, weak /əz dɪˈstɪŋɡwɪʃt frəm/ &middot; *az dih-STING-gwisht frum*
+**Русский:** в отличие от — книжн., юр.: подчёркнуто, сознательно проведённое различие
 **Type:** phrasal comparison marker (participial preposition) — it takes a noun phrase or an *-ing* form, never a finite clause &middot; **Register:** formal; legal and academic
 **Clause type:** supplementary comparative phrase drawing a technical distinction
 **Pattern:** [X], *as distinguished from* [Y], [verb phrase]. &middot; [main clause], *as distinguished from* [noun phrase]. &middot; *As distinguished from* [noun phrase], [main clause]. &middot; [main clause] *as distinguished from* [-ing].
@@ -1061,6 +1112,7 @@ The courtroom's version of *as distinct from*, and a shade more deliberate: *dis
 ### as for
 
 **Pronunciation:** /æz ˈfɔr/, weak /əz fər/ &middot; *az FOR*, reduced *uhz fur*
+**Русский:** что до, что касается — переводит речь на новую тему, часто с оттенком пренебрежения
 **Type:** fixed topic-shifting marker — prepositional in effect, taking a noun phrase, a pronoun, an *-ing* form, or a nominal *wh-* clause, never a finite clause of its own &middot; **Register:** neutral
 **Clause type:** fronted adverbial phrase of respect, naming the topic the main clause is about to settle
 **Pattern:** *As for* [noun phrase], [main clause]. &middot; *As for* [pronoun], [main clause]. &middot; *As for* [-ing], [main clause]. &middot; *As for* [wh-clause], [main clause]. &middot; *As for the rest* / *as for that*, [main clause].
@@ -1081,6 +1133,7 @@ Hands the sentence over to a new topic — usually one the reader has been waiti
 ### as in
 
 **Pronunciation:** /æz ˈɪn/, weak /əz ɪn/ &middot; *az IN*
+**Русский:** как в, например в — отсылает к случаю-примеру; в разг. речи «то есть, а именно»
 **Type:** reduced comparison marker — the manner subordinator *as* with an elliptical clause, prepositional in effect &middot; **Register:** neutral; the clarifier use is informal
 **Clause type:** reduced adverbial clause of comparison; also an exemplifying phrase
 **Pattern:** [main clause], *as in* [noun phrase] (parallel case). &middot; [main clause] *as in* [noun phrase] (integral). &middot; [sound / sense], *as in* "[example]" (illustration). &middot; *As in* [noun phrase], [main clause]. &middot; [statement] — *as in*, [restatement] (spoken clarifier).
@@ -1101,6 +1154,7 @@ A compression of *as it is in*: it points at another case where the same thing h
 ### as opposed to
 
 **Pronunciation:** /æz əˈpoʊzd tu/, weak /əz əˈpoʊzd tə/ &middot; *az uh-POHZD too*
+**Русский:** в противоположность, а не — называет отвергнутый вариант
 **Type:** phrasal comparison marker (participial preposition) — it takes a noun phrase, an *-ing* form, or a nominal *wh-* clause, never a finite clause of its own &middot; **Register:** neutral
 **Clause type:** supplementary comparative phrase naming the rejected alternative
 **Pattern:** [main clause] *as opposed to* [noun phrase]. &middot; [main clause] *as opposed to* [-ing]. &middot; *As opposed to* [noun phrase], [main clause]. &middot; [X], *as opposed to* [Y], [verb phrase]. &middot; [main clause] *as opposed to* [wh-clause].
@@ -1121,6 +1175,7 @@ Names the alternative that was *not* chosen, and presses on the distinction hard
 ### as with
 
 **Pronunciation:** /æz ˈwɪð/, weak /əz wɪθ/ &middot; *az WITH*
+**Русский:** как и в случае с — называет параллельный случай, где верно то же самое
 **Type:** reduced comparison marker — the manner subordinator *as* with an elliptical clause; prepositional in effect, taking a noun phrase or an *-ing* form &middot; **Register:** neutral
 **Clause type:** reduced adverbial clause of comparison, supplementary
 **Pattern:** *As with* [noun phrase], [main clause]. &middot; [main clause], *as with* [noun phrase]. &middot; *As with* [-ing], [main clause]. &middot; *As with* [noun phrase], *so with* [noun phrase] (the balanced pair).
@@ -1141,6 +1196,7 @@ Short for *as is the case with*: it names a parallel case and claims that the ma
 ### by analogy with
 
 **Pronunciation:** /baɪ əˈnælədʒi wɪð/ &middot; *by uh-NAL-uh-jee with*
+**Русский:** по аналогии с — книжн.: образец, от которого ведётся рассуждение или образовано слово
 **Type:** phrasal comparison marker (prepositional) — it takes a noun phrase, never a finite clause &middot; **Register:** formal; academic, legal, and technical
 **Clause type:** adverbial phrase naming the model a claim or a coinage is reasoned from
 **Pattern:** [main clause] *by analogy with* [noun phrase]. &middot; *By analogy with* [noun phrase], [main clause]. &middot; [X] *was coined / formed / decided by analogy with* [Y]. &middot; [main clause], *by analogy with* [noun phrase].
@@ -1161,6 +1217,7 @@ Names the case a conclusion was reasoned *from*, not merely a case it is being m
 ### by the same token
 
 **Pronunciation:** /baɪ ðə ˌseɪm ˈtoʊkən/ &middot; *by thuh same TOH-kun*
+**Русский:** равным образом, по той же логике — тот же довод работает и во втором случае
 **Type:** conjunctive adverb (fixed phrase) of parallel inference &middot; **Register:** neutral to formal
 **Clause type:** sentence adverbial marking its clause as following from the same reasoning that produced the last one
 **Pattern:** [Independent clause]; *by the same token*, [independent clause]. &middot; [Independent clause]. *By the same token*, [independent clause]. &middot; [main clause], *and by the same token* [clause]. &middot; [subject], *by the same token*, [verb phrase]. &middot; *If* [clause], *then by the same token* [clause].
@@ -1181,6 +1238,7 @@ Says that the reason just given cuts a second way as well — not that two thing
 ### compared to
 
 **Pronunciation:** /kəmˈpɛrd tu/, /kəmˈpɛrd tə/ &middot; *kum-PAIRD too*
+**Русский:** по сравнению с — обиходный, самый ходовой вариант сопоставления
 **Type:** phrasal comparison marker (reduced participial phrase, functioning as a preposition) — it takes a noun phrase, an *-ing* form, or a nominal *wh-* clause, never an ordinary finite clause; *compare* is also a plain transitive verb (*He compared the two drafts*) &middot; **Register:** neutral
 **Clause type:** reduced adverbial clause of comparison
 **Pattern:** *Compared to* [noun phrase], [main clause]. &middot; [main clause] *compared to* [noun phrase]. &middot; [main clause] *compared to* [wh-clause]. &middot; [main clause] *compared to* [-ing]. &middot; [X], *compared to* [Y], [verb phrase].
@@ -1201,6 +1259,7 @@ The everyday version of the same move, and the one American speakers actually us
 ### consistent with
 
 **Pronunciation:** /kənˈsɪstənt wɪð/ &middot; *kun-SIS-tunt with*
+**Русский:** согласующийся с, не противоречащий — мед., научн.: картина укладывается в диагноз, но не доказывает его
 **Type:** adjective + preposition; a phrasal marker of conformity, and a supplementary adverbial when fronted &middot; **Register:** neutral to formal; heavily used in science, medicine, and law
 **Clause type:** predicative complement after *be*; adverbial phrase of conformity when fronted or set off
 **Pattern:** [X] *is consistent with* [noun phrase]. &middot; *Consistent with* [noun phrase], [main clause]. &middot; [main clause], *consistent with* [noun phrase]. &middot; [X], *consistent with* [Y], [verb phrase]. &middot; [X] *is consistent with* [wh-clause].
@@ -1221,6 +1280,7 @@ Says that two things fit together without contradiction — and note how much we
 ### in comparison with
 
 **Pronunciation:** /ɪn kəmˈpɛrɪsən wɪð/, /ɪn kəmˈpɛrɪsən wɪθ/ &middot; *in kum-PAIR-ih-sun with*
+**Русский:** в сравнении с — самый тяжеловесный книжный вариант compared with
 **Type:** phrasal comparison marker (prepositional) — it takes a noun phrase or an *-ing* form, never a finite clause; the clipped *by comparison* and *in comparison* are **conjunctive adverbs** &middot; **Register:** formal
 **Clause type:** reduced adverbial clause of comparison, supplementary
 **Pattern:** *In comparison with* [noun phrase], [main clause]. &middot; [main clause] *in comparison with* [noun phrase]. &middot; [X], *in comparison with* [Y], [verb phrase]. &middot; [main clause] *in comparison with* [-ing]. &middot; [Independent clause]; *by comparison*, [independent clause] (the clipped adverb).
@@ -1241,6 +1301,7 @@ The heaviest member of the family, at home in reports and academic prose. It say
 ### in conformity with
 
 **Pronunciation:** /ɪn kənˈfɔrməti wɪð/ &middot; *in kun-FOR-muh-tee with*
+**Русский:** в соответствии с — юр., канц.: соответствие названному стандарту
 **Type:** phrasal marker of conformity (prepositional) — it takes a noun phrase, never a finite clause &middot; **Register:** formal; legal, regulatory, and diplomatic
 **Clause type:** adverbial phrase of conformity; supplementary when fronted
 **Pattern:** [main clause] *in conformity with* [noun phrase]. &middot; *In conformity with* [noun phrase], [main clause]. &middot; [X] *is in conformity with* [Y]. &middot; [main clause], *in conformity with* [noun phrase].
@@ -1261,6 +1322,7 @@ The rule-book register: it says the thing described has been measured against a 
 ### in contrast to
 
 **Pronunciation:** /ɪn ˈkɑntræst tu/, weak /ɪn ˈkɑntræst tə/ &middot; *in KAHN-trast too*
+**Русский:** в отличие от, в противоположность — только о различии, сходства не подразумевает
 **Type:** phrasal comparison marker (prepositional) — it takes a noun phrase, an *-ing* form, or a nominal *wh-* clause, never a finite clause; strip the *to* and bare *in contrast* is a **conjunctive adverb** &middot; **Register:** neutral to formal
 **Clause type:** supplementary comparative phrase of contrast
 **Pattern:** *In contrast to* [noun phrase], [main clause]. &middot; [main clause], *in contrast to* [noun phrase]. &middot; [X], *in contrast to* [Y], [verb phrase]. &middot; *In contrast to* [-ing], [main clause]. &middot; [main clause], *in contrast to* [wh-clause]. &middot; [Independent clause]; *in contrast*, [independent clause] (the bare adverb).
@@ -1282,6 +1344,7 @@ Names the thing the subject differs from, and unlike the *compare* family it is 
 ### in keeping with
 
 **Pronunciation:** /ɪn ˈkipɪŋ wɪð/ &middot; *in KEE-ping with*
+**Русский:** в духе, сообразно с — соответствие традиции, тону, стилю, а не правилу
 **Type:** phrasal marker of conformity (prepositional) — it takes a noun phrase or an *-ing* form, never a finite clause &middot; **Register:** neutral to formal
 **Clause type:** adverbial phrase of conformity and harmony; supplementary when fronted
 **Pattern:** *In keeping with* [noun phrase], [main clause]. &middot; [main clause] *in keeping with* [noun phrase]. &middot; [X] *is in keeping with* [Y]. &middot; *In keeping with* [-ing], [main clause]. &middot; [X] *is out of keeping with* [Y] (the negative).
@@ -1302,6 +1365,7 @@ Conformity with a tone, a tradition, or a style rather than with a rule — whic
 ### in line with
 
 **Pronunciation:** /ɪn ˈlaɪn wɪð/ &middot; *in LYNE with*
+**Русский:** в соответствии с, на уровне — деловое: показатель совпал с ожидаемым
 **Type:** phrasal marker of conformity (prepositional) — it takes a noun phrase, never a finite clause &middot; **Register:** neutral; business, journalism, and policy writing
 **Clause type:** adverbial phrase of conformity and correspondence; supplementary when fronted
 **Pattern:** [X] *is in line with* [noun phrase]. &middot; *In line with* [noun phrase], [main clause]. &middot; [main clause] *in line with* [noun phrase]. &middot; [X] *is broadly / roughly in line with* [Y]. &middot; *bring / keep* [X] *in line with* [Y].
@@ -1322,6 +1386,7 @@ The quarterly-report phrase: earnings come in *in line with* expectations, and t
 ### in the same vein
 
 **Pronunciation:** /ɪn ðə seɪm ˈveɪn/ &middot; *in thuh same VAYN*
+**Русский:** в том же ключе, в том же духе — о тоне и манере высказывания
 **Type:** phrasal comparison marker — prepositional with *as* before a noun phrase; a **conjunctive adverb** when it stands alone &middot; **Register:** neutral to formal
 **Clause type:** supplementary comparative phrase of tone and style; adverbial in the bare form
 **Pattern:** [main clause] *in the same vein as* [noun phrase]. &middot; *In the same vein*, [main clause] (adverbial). &middot; [main clause], *in the same vein* (trailing). &middot; [Independent clause]; *in the same vein*, [independent clause]. &middot; *In a similar vein*, [main clause].
@@ -1342,6 +1407,7 @@ Points at a shared manner, tone, or line of thought rather than at a measurable 
 ### qua
 
 **Pronunciation:** /kweɪ/, also /kwɑ/ &middot; *KWAY*
+**Русский:** как таковой, в качестве — лат., книжн.: the novel qua novel «роман именно как роман»
 **Type:** preposition (Latin) — "in the capacity of," "considered as"; it takes a bare noun phrase, never a clause &middot; **Register:** formal; philosophical, academic, and legal
 **Clause type:** prepositional phrase of role and respect
 **Pattern:** [noun] *qua* [the same or a related noun] (*the novel qua novel*). &middot; [X], *qua* [role], [verb phrase]. &middot; [main clause] *qua* [noun phrase]. &middot; *considered qua* [noun phrase].
@@ -1362,6 +1428,7 @@ Latin for "in the capacity of," and the word philosophers use to isolate one asp
 ### relative to
 
 **Pronunciation:** /ˈrɛlətɪv tu/, weak /ˈrɛlətɪv tə/ &middot; *REL-uh-tiv too*
+**Русский:** относительно, по отношению к — точка отсчёта при измерении; также канц. «касательно»
 **Type:** phrasal comparison marker (prepositional) — it takes a noun phrase or an *-ing* form, never a finite clause; *relative* is also a plain adjective (*relative humidity*) and a noun (*a distant relative*) &middot; **Register:** formal to neutral; technical, financial, and academic
 **Clause type:** adverbial phrase of comparison naming the reference point; also a phrase of topic in the "concerning" sense
 **Pattern:** [main clause] *relative to* [noun phrase]. &middot; *Relative to* [noun phrase], [main clause]. &middot; [X] *is* [comparative] *relative to* [Y]. &middot; [figure] *relative to* [figure]. &middot; [main clause] *relative to* [-ing].
@@ -1382,6 +1449,7 @@ Names the baseline a measurement is taken from, which makes it the phrase of cho
 ### unlike
 
 **Pronunciation:** /ˌʌnˈlaɪk/ &middot; *un-LYKE*
+**Русский:** в отличие от — предлог, придаточного не вводит; в другом значении «не похоже на (него)»
 **Type:** preposition of contrast — the negative of prepositional *like*; also an adjective in *It's unlike her to be late* &middot; **Register:** neutral
 **Clause type:** supplementary comparative phrase; it has no clause-taking form at all
 **Pattern:** *Unlike* [noun phrase], [main clause]. &middot; [main clause], *unlike* [noun phrase]. &middot; [X], *unlike* [Y], [verb phrase]. &middot; *It is unlike* [person] *to* [verb phrase] (adjective).
@@ -1402,6 +1470,7 @@ The negative counterpart of prepositional *like*, and the one member of this fam
 ### vis-à-vis
 
 **Pronunciation:** /ˌviz ə ˈvi/ &middot; *veez-uh-VEE*
+**Русский:** по отношению к, в сравнении с — книжн., дипл.: две стороны лицом к лицу
 **Type:** preposition (from French) — "in relation to," "as against"; it takes a noun phrase, never a clause, and it is also a noun meaning "counterpart" &middot; **Register:** formal; diplomatic, business, and academic
 **Clause type:** adverbial phrase of relation and comparison
 **Pattern:** [main clause] *vis-à-vis* [noun phrase]. &middot; [X]'s position *vis-à-vis* [Y]. &middot; *Vis-à-vis* [noun phrase], [main clause]. &middot; [X] *is* [comparative] *vis-à-vis* [Y].
@@ -1422,6 +1491,7 @@ Literally "face to face," and the surviving sense keeps that picture: two partie
 ### when it comes to
 
 **Pronunciation:** /wɛn ɪt ˈkʌmz tu/, also /hwɛn/ &middot; *wen it KUMZ too*
+**Русский:** когда речь идёт о, что касается — разг., сужает утверждение до одной темы
 **Type:** fixed topic-limiting phrase — prepositional in effect, taking a noun phrase or an *-ing* form; the clause is frozen, and *when it came to* is the only variation it allows &middot; **Register:** neutral to informal
 **Clause type:** adverbial clause of respect, narrowing the main clause to one topic
 **Pattern:** *When it comes to* [noun phrase], [main clause]. &middot; *When it comes to* [-ing], [main clause]. &middot; [main clause] *when it comes to* [noun phrase]. &middot; *When it came to* [noun phrase], [main clause] (past narrative).
@@ -1442,6 +1512,7 @@ Narrows the sentence to a single subject before the claim arrives — "on the to
 ### whereas
 
 **Pronunciation:** /wɛrˈæz/, /hwɛrˈæz/ &middot; *wair-AZ*
+**Русский:** тогда как, между тем как — уравновешенное противопоставление двух фактов; в юр. преамбулах «принимая во внимание, что»
 **Type:** subordinating &middot; **Register:** formal to neutral; the "given that" sense is legal
 **Clause type:** adverbial clause of contrast, comparing two parallel facts
 **Pattern:** [main clause], *whereas* [clause]. &middot; *Whereas* [clause], [main clause]. &middot; [X] [verb phrase], *whereas* [Y] [verb phrase] (the balanced pair). &middot; *Whereas* [clause]; *whereas* [clause]; now, therefore, [main clause] (legal preamble).
@@ -1462,6 +1533,7 @@ Sets two facts side by side to point out that they differ, so the contrast is th
 ### while
 
 **Pronunciation:** /waɪl/, also /hwaɪl/ &middot; *WYLE*
+**Русский:** тогда как; в то время как; хотя — противопоставление, время и уступка в одном слове
 **Type:** subordinating — contrast here, but the same word also subordinates time and concession, and outside the conjunction system it is a noun (*stay a while*) and a verb (*while away an afternoon*) &middot; **Register:** neutral; a step below *whereas* in formality and far commoner in speech
 **Clause type:** adverbial clause of contrast, setting two parallel facts side by side
 **Pattern:** [main clause], *while* [clause]. &middot; *While* [clause], [main clause]. &middot; [X] [verb phrase], *while* [Y] [verb phrase] (the balanced pair). &middot; [subject], *while* [reduced phrase], [predicate] (concessive reduction: *The plan, while ambitious, is affordable* — see [while (concession)](07-concession.md#while)).

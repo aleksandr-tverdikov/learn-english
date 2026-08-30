@@ -91,6 +91,7 @@ The same trap runs through the neighboring files, and it is worth carrying the l
 ### accuse
 
 **Pronunciation:** /əˈkjuz/ &middot; *uh-KYOOZ*
+**Русский:** обвинять — вменять кому-то проступок; accuse sb of sth = обвинять кого-то в чём-то
 **Type:** reporting verb — accusation &middot; **Register:** neutral
 **Patterns:** *accuse* + **sb** &middot; *accuse* + **sb** + *of* + **-ing** &middot; *accuse* + **sb** + *of* + **noun phrase** &middot; *accuse* + **sb** + *of* + **having done sth** &middot; passive *be accused of*
 **Never:** ***accuse someone that they did something***, ***accuse someone for doing something***, and ***accuse someone to have done something***. *Accuse* takes no *that*-clause at all, no infinitive, and never *for* — the preposition is *of*, and what follows it is a gerund or a noun. Repairs: *accused him **of** stealing it*, *accused him **of** theft*. To get a clause in, change the verb: *alleged that he stole it*, *said he had stolen it*.
@@ -112,6 +113,7 @@ The same trap runs through the neighboring files, and it is worth carrying the l
 ### apologise
 
 **Pronunciation:** /əˈpɑləˌdʒaɪz/ &middot; *uh-PAH-luh-jyze*
+**Русский:** извиняться — брит. написание apologize; в американском тексте только apologize
 **Type:** reporting verb — apology &middot; **Register:** neutral — **British spelling**
 **Patterns:** identical to [apologize](#apologize) — *apologise* (intransitive) &middot; *apologise* + *to* **sb** &middot; *apologise* + *for* + **-ing** &middot; *apologise* + *for* + **noun phrase** &middot; *apologise* + *to* **sb** + *for* + **-ing** / **noun phrase**
 **British spelling:** *apologise* is the standard form in British, Irish, and Australian writing; *apologize* is required in American English and is also perfectly standard in Britain, where Oxford house style prefers it. The two are pronounced exactly alike — the *s* is /z/ either way, so nothing in the sound tells you which spelling a speaker has in mind. The same *-ise/-ize* split runs through [criticise](#criticise)/[criticize](#criticize), *recognise/recognize*, and *organise/organize*.
@@ -133,6 +135,7 @@ The same trap runs through the neighboring files, and it is worth carrying the l
 ### apologize
 
 **Pronunciation:** /əˈpɑləˌdʒaɪz/ &middot; *uh-PAH-luh-jyze*
+**Русский:** извиняться, приносить извинения — сожалеть о своём поступке: to sb for sth
 **Type:** reporting verb — apology &middot; **Register:** neutral
 **Patterns:** *apologize* (intransitive) &middot; *apologize* + *to* **sb** &middot; *apologize* + *for* + **-ing** &middot; *apologize* + *for* + **noun phrase** &middot; *apologize* + *to* **sb** + *for* + **-ing** / **noun phrase** &middot; *apologize* + **that**-clause (institutional only, see below)
 **Never:** ***apologize me***, ***apologize him for the delay***, and ***apologize about the delay***. The person apologized to is reached only through *to*, and *to* comes before *for*: *apologized **to** the customer **for** the delay*, never ***apologized the customer for the delay***. The order is fixed — ***apologized for the delay to the customer*** is grammatical but sounds like an afterthought. The offense takes *for* and only *for*; *about* belongs to [complain](#complain), not here.
@@ -154,6 +157,7 @@ The same trap runs through the neighboring files, and it is worth carrying the l
 ### blame
 
 **Pronunciation:** /bleɪm/ &middot; *BLAYM*
+**Русский:** винить, возлагать вину — за плохой исход: blame sb for sth / blame sth on sb
 **Type:** reporting verb — accusation &middot; **Register:** neutral
 **Patterns:** *blame* + **sb** &middot; *blame* + **sb** + *for* + **-ing** &middot; *blame* + **sb** + *for* + **noun phrase** &middot; *blame* + **oneself** + *for* &middot; *blame* + **sth** + *on* + **sb** &middot; *blame* + **noun phrase** (*blame the weather*) &middot; *be to blame (for)*
 **Never:** ***blame someone of something*** — that is *accuse*'s preposition, not *blame*'s — and ***blame someone about something***, which is nobody's. And no *that*-clause: ***He blamed that the driver was speeding*** is impossible. Repairs: *blamed the driver **for** speeding*, *blamed the crash **on** the driver*, *said the driver was speeding*.
@@ -175,6 +179,7 @@ The same trap runs through the neighboring files, and it is worth carrying the l
 ### boast
 
 **Pronunciation:** /boʊst/ &middot; *BOHST*
+**Русский:** хвастаться, похваляться — заявлять с гордостью; о предмете — «располагать чем-л.»
 **Type:** reporting verb — self-praise &middot; **Register:** neutral to formal
 **Patterns:** *boast* + **that**-clause &middot; *boast* + *about* + **-ing** / noun &middot; *boast* + *of* + **-ing** / noun &middot; *boast* + *to* **sb** + *that* / *about* &middot; *boast* + **noun phrase** (only in the "possess proudly" sense) &middot; + direct quotation
 **Never:** ***boast someone that*** and ***boast to do something***. The listener needs *to*: *boasted **to** his brother that he'd won*. There is no infinitive frame — ***He boasted to have won*** is not English.
@@ -196,6 +201,7 @@ The same trap runs through the neighboring files, and it is worth carrying the l
 ### brag
 
 **Pronunciation:** /bræɡ/ &middot; *BRAG*
+**Русский:** хвастаться, бахвалиться — разг., неодобр.; то же, что boast, но с осуждением
 **Type:** reporting verb — self-praise &middot; **Register:** informal
 **Patterns:** *brag* + **that**-clause &middot; *brag* + *about* + **-ing** / noun &middot; *brag* + *of* + **-ing** / noun (much rarer than with [boast](#boast)) &middot; *brag* + *to* **sb** + *about* / *that* &middot; + direct quotation
 **Never:** ***brag something*** — no plain noun-phrase object, so no ***He bragged his salary***. And no inanimate subject in the "possess" sense: a hotel *boasts* three pools, it does not ***brag*** them. Repairs: *bragged **about** his salary*, *bragged **that** he made six figures*.
@@ -217,6 +223,7 @@ The same trap runs through the neighboring files, and it is worth carrying the l
 ### chide
 
 **Pronunciation:** /tʃaɪd/ &middot; *CHYDE*
+**Русский:** журить, попрекать — книжн., устар. оттенок; мягкий, часто ласковый упрёк
 **Type:** reporting verb — reproof &middot; **Register:** formal, literary
 **Patterns:** *chide* + **sb** &middot; *chide* + **sb** + *for* + **-ing** / **noun phrase** &middot; + direct quotation (*"You promised," she chided*) &middot; passive *be chided for*
 **Never:** ***chide someone that they did something***, ***chide someone to do something***, and ***chide at someone***. No *that*-clause, no infinitive, no preposition before the person. Repairs: *chided him **for** forgetting*, *told him he had forgotten*.
@@ -238,6 +245,7 @@ The same trap runs through the neighboring files, and it is worth carrying the l
 ### complain
 
 **Pronunciation:** /kəmˈpleɪn/ &middot; *kuhm-PLAYN*
+**Русский:** жаловаться — на неудобство: to sb about sth; complain of — о симптомах, недомогании
 **Type:** reporting verb — complaint &middot; **Register:** neutral
 **Patterns:** *complain* + **that**-clause &middot; *complain* + *about* + **noun phrase** / **-ing** &middot; *complain* + *of* + **noun phrase** / **-ing** &middot; *complain* + *to* **sb** + *about* / *of* / *that* &middot; *complain* (intransitive) &middot; + direct quotation
 **Never:** ***complain me*** or ***complain the manager about the noise***. There is no personal object — the hearer is reached through *to*, and *to* comes first: *complained **to** the manager **about** the noise*. Also ***complain something***: the content never appears as a bare noun phrase, so no ***She complained the noise***. And never both markers at once — ***complained about that the food was cold***; it is either *complained **about** the cold food* or *complained **that** the food was cold*.
@@ -259,6 +267,7 @@ The same trap runs through the neighboring files, and it is worth carrying the l
 ### compliment
 
 **Pronunciation:** /ˈkɑmpləˌmɛnt/ &middot; *KAHM-pluh-ment*
+**Русский:** делать комплимент, хвалить в глаза — compliment sb on sth; не путать с complement
 **Type:** reporting verb — praise &middot; **Register:** neutral
 **Patterns:** *compliment* + **sb** &middot; *compliment* + **sb** + *on* + **noun phrase** / **-ing** &middot; passive *be complimented on*
 **Never:** ***compliment someone that they did well*** — no *that*-clause. And the preposition is *on*, not *for*: ***complimented her for her presentation*** is heard, but *on* is the standard frame and *for* belongs to [praise](#praise) and [thank](#thank). Repair: *complimented her **on** her presentation*.
@@ -280,6 +289,7 @@ The same trap runs through the neighboring files, and it is worth carrying the l
 ### condemn
 
 **Pronunciation:** /kənˈdɛm/ &middot; *kuhn-DEM* — the final *n* is silent
+**Русский:** осуждать, клеймить — публично объявлять недопустимым; отд. знач. «приговаривать»
 **Type:** reporting verb — denunciation &middot; **Register:** formal, journalistic
 **Patterns:** *condemn* + **noun phrase** &middot; *condemn* + **sb** + *for* + **-ing** / **noun phrase** &middot; *condemn* + **sb** / **sth** + *as* + **noun phrase** / adjective &middot; passive *be condemned (as / for)* &middot; *condemn* + **sb** + *to* + **noun phrase** (= sentence — a separate sense)
 **Never:** ***condemn that the policy was unfair*** — no *that*-clause — and ***condemn someone of something***, which is [accuse](#accuse)'s preposition. Repairs: *condemned the policy **as** unfair*, *condemned the policy*, *said the policy was unfair*. Also note that *condemn sb to* + noun means "sentence" (*condemned to death*), a different verb sense entirely, so ***condemned him to lie*** does not mean he was denounced for lying — and there is no infinitive frame in the denouncing sense at all.
@@ -301,6 +311,7 @@ The same trap runs through the neighboring files, and it is worth carrying the l
 ### congratulate
 
 **Pronunciation:** /kənˈɡrætʃəˌleɪt/ &middot; *kuhn-GRACH-uh-layt*
+**Русский:** поздравлять — поздравляют человека (sb on sth), а не событие
 **Type:** reporting verb — congratulation &middot; **Register:** neutral
 **Patterns:** *congratulate* + **sb** &middot; *congratulate* + **sb** + *on* + **noun phrase** / **-ing** &middot; *congratulate* + **oneself** + *on* &middot; passive *be congratulated on*
 **Never:** ***congratulate your promotion*** — you congratulate a **person**, never the event. The event goes after *on*: *congratulated her **on** her promotion*. And no *that*-clause: ***congratulated me that I had passed*** is impossible; write *congratulated me **on** passing*.
@@ -323,6 +334,7 @@ The same trap runs through the neighboring files, and it is worth carrying the l
 ### criticise
 
 **Pronunciation:** /ˈkrɪtəˌsaɪz/ &middot; *KRIT-uh-syze*
+**Русский:** критиковать — брит. написание criticize; в американском тексте только criticize
 **Type:** reporting verb — criticism &middot; **Register:** neutral — **British spelling**
 **Patterns:** identical to [criticize](#criticize) — *criticise* + **sb** / **sth** &middot; *criticise* + **sb** + *for* + **-ing** / **noun phrase** &middot; *criticise* + **sb** / **sth** + *as* + adjective / **noun phrase** &middot; passive *be criticised for*
 **British spelling:** *criticise* is standard in British, Irish, and Australian writing; American English requires *criticize*, and so does Oxford house style in Britain, which prefers *-ize* across the board. The pronunciation is identical — the letter *s* here is /z/, exactly as in [apologise](#apologise). The related words *criticism*, *critical*, and *critic* have no variant spelling at all; only the verb splits, because only the verb carries the *-ize / -ise* suffix, which comes from Greek *-izein* by way of French.
@@ -344,6 +356,7 @@ The same trap runs through the neighboring files, and it is worth carrying the l
 ### criticize
 
 **Pronunciation:** /ˈkrɪtəˌsaɪz/ &middot; *KRIT-uh-syze*
+**Русский:** критиковать — неодобрительно судить о решении или работе; мягче, чем condemn
 **Type:** reporting verb — criticism &middot; **Register:** neutral
 **Patterns:** *criticize* + **sb** / **sth** &middot; *criticize* + **sb** + *for* + **-ing** / **noun phrase** &middot; *criticize* + **sb** / **sth** + *as* + adjective / **noun phrase** &middot; passive *be criticized for* / *be criticized as*
 **Never:** ***criticize about the delay*** and ***criticize that the plan was rushed***. The verb is plainly transitive and takes no *that*-clause, and no personal object plus clause either: ***criticized me that I was late*** is impossible. Repairs: *criticized the delay*, *criticized the plan **as** rushed*, *criticized them **for** rushing the plan*.
@@ -365,6 +378,7 @@ The same trap runs through the neighboring files, and it is worth carrying the l
 ### crow
 
 **Pronunciation:** /kroʊ/ &middot; *KROH*
+**Русский:** торжествовать, громко похваляться — разг., неодобр.; шумно трубить о своей победе
 **Type:** reporting verb — self-praise &middot; **Register:** informal, disapproving
 **Patterns:** *crow* + **that**-clause &middot; *crow* + *about* + **noun phrase** / **-ing** &middot; *crow* + *over* + **noun phrase** / **-ing** &middot; *crow* + *to* **sb** + *that* / *about* &middot; + direct quotation
 **Never:** ***crow something***, ***crow someone that***, and ***crow of the win***. No noun-phrase object, no personal object, and not [boast](#boast)'s *of* — *crow* takes *about* or *over*. Repairs: *crowed **about** the win*, *crowed **that** they'd won*.
@@ -385,6 +399,7 @@ The same trap runs through the neighboring files, and it is worth carrying the l
 ### cry
 
 **Pronunciation:** /kraɪ/ &middot; *KRY*
+**Русский:** вскричать, воскликнуть — книжн., о возгласе; в обиходном значении — «плакать»
 **Type:** reporting verb — exclamation &middot; **Register:** literary
 **Patterns:** *cry* + direct quotation (with or without inversion: *"Stop!" she cried* / *"Stop!" cried the guard*) &middot; *cry* + **that**-clause (literary) &middot; *cry out* + **that**-clause &middot; *cry out* + *to* **sb** (+ *that* / **to-infinitive**) &middot; *cry* + *for* + **noun phrase** (*cried for help*) &middot; *cry* (intransitive — weep)
 **Never:** ***cry someone that*** and ***cry someone something***. No personal object and no ditransitive frame; the addressee needs *to*: *cried out **to** the crowd that the bridge was closing*.
@@ -406,6 +421,7 @@ The same trap runs through the neighboring files, and it is worth carrying the l
 ### exclaim
 
 **Pronunciation:** /ɪkˈskleɪm/ &middot; *ik-SKLAYM*
+**Русский:** восклицать — книжн.; внезапный возглас от удивления или восторга, не обязательно громкий
 **Type:** reporting verb — exclamation &middot; **Register:** formal, literary
 **Patterns:** *exclaim* + direct quotation &middot; *exclaim* + **that**-clause &middot; *exclaim* + *to* **sb** + *that* &middot; *exclaim* + *over* / *at* + **noun phrase** / **wh**-clause (= react admiringly or with dismay)
 **Never:** ***exclaim someone that*** and ***exclaim something***. The listener needs *to*; there is no noun-phrase object, so no ***She exclaimed her surprise***. Repair: *exclaimed **that** she was surprised*.
@@ -427,6 +443,7 @@ The same trap runs through the neighboring files, and it is worth carrying the l
 ### gloat
 
 **Pronunciation:** /ɡloʊt/ &middot; *GLOHT*
+**Русский:** злорадствовать — разг., неодобр.; открыто торжествовать над чужой неудачей
 **Type:** reporting verb — self-praise &middot; **Register:** informal, disapproving
 **Patterns:** *gloat* + **that**-clause &middot; *gloat* + *about* / *over* + **noun phrase** / **-ing** &middot; *gloat* + *to* **sb** (+ *that* / *about*) &middot; *gloat* (intransitive) &middot; + direct quotation
 **Never:** ***gloat something***, ***gloat someone***, and ***gloat of the result***. No object of any kind without a preposition, and the preposition is *about* or *over* — never [boast](#boast)'s *of*. Repairs: *gloated **over** the result*, *gloated **that** he'd been right*.
@@ -447,6 +464,7 @@ The same trap runs through the neighboring files, and it is worth carrying the l
 ### gripe
 
 **Pronunciation:** /ɡraɪp/ &middot; *GRYPE*
+**Русский:** ворчать, брюзжать — разг., амер.; нытьё по мелочам тому, кто ничего не решает
 **Type:** reporting verb — complaint &middot; **Register:** informal, American
 **Patterns:** *gripe* + **that**-clause &middot; *gripe* + *about* + **noun phrase** / **-ing** &middot; *gripe* + *to* **sb** + *about* / *that* &middot; *gripe* + *at* **sb** (informal, on the [grumble](#grumble) model) &middot; *gripe* (intransitive) &middot; + direct quotation
 **Never:** ***gripe someone*** and ***gripe something***. Like every verb in the complaining family, the person takes *to* and the topic takes *about*: *griped **to** me **about** the schedule*, never ***griped me the schedule***.
@@ -467,6 +485,7 @@ The same trap runs through the neighboring files, and it is worth carrying the l
 ### groan
 
 **Pronunciation:** /ɡroʊn/ &middot; *GROHN*
+**Русский:** стонать, со стоном жаловаться — разг.; от досады, усталости или боли
 **Type:** reporting verb — complaint, manner of speaking &middot; **Register:** informal
 **Patterns:** *groan* + direct quotation &middot; *groan* + **that**-clause &middot; *groan* + *about* + **noun phrase** / **-ing** &middot; *groan* + *to* **sb** (+ *that*) &middot; *groan* + *at* + **noun phrase** (= react to: *groaned at the price*) &middot; *groan* (intransitive) &middot; *groan* + **noun phrase** (rare: *groaned an apology*)
 **Never:** ***groan someone*** and ***groan someone that***. If the hearer is named, use *to*: *groaned **to** his roommate that the rent had gone up again*.
@@ -487,6 +506,7 @@ The same trap runs through the neighboring files, and it is worth carrying the l
 ### growl
 
 **Pronunciation:** /ɡraʊl/ &middot; *GROWL* — rhymes with *owl*
+**Русский:** рычать, прорычать — книжн.; говорить низко и угрожающе, growl at sb
 **Type:** reporting verb — manner of speaking &middot; **Register:** literary, narrative
 **Patterns:** *growl* + direct quotation &middot; *growl* + **that**-clause &middot; *growl* + *at* **sb** &middot; *growl* + *at* **sb** + **to-infinitive** (*growled at me to move*) &middot; *growl* + **noun phrase** (*growled an order*) &middot; *growl* (intransitive)
 **Never:** ***growl someone something*** — no ditransitive frame, so no ***He growled me a warning***. Repair: *growled a warning **at** me*.
@@ -507,6 +527,7 @@ The same trap runs through the neighboring files, and it is worth carrying the l
 ### grumble
 
 **Pronunciation:** /ˈɡrʌmbəl/ &middot; *GRUM-buhl*
+**Русский:** ворчать, бурчать — вполголоса, ни на что не надеясь; grumble at sb = придираться
 **Type:** reporting verb — complaint &middot; **Register:** neutral to informal
 **Patterns:** *grumble* + **that**-clause &middot; *grumble* + *about* + **noun phrase** / **-ing** &middot; *grumble* + *to* **sb** + *about* / *that* &middot; *grumble* + *at* **sb** &middot; *grumble* (intransitive) &middot; + direct quotation
 **Never:** ***grumble someone*** and ***grumble something***. No object without a preposition. Repairs: *grumbled **about** the traffic*, *grumbled **that** the traffic was worse than ever*.
@@ -528,6 +549,7 @@ The same trap runs through the neighboring files, and it is worth carrying the l
 ### joke
 
 **Pronunciation:** /dʒoʊk/ &middot; *JOHK*
+**Русский:** шутить — joke that: передать чью-то шутку, отметив, что сказано несерьёзно
 **Type:** reporting verb — humorous remark &middot; **Register:** neutral
 **Patterns:** *joke* + **that**-clause &middot; *joke* + *about* + **noun phrase** / **-ing** &middot; *joke* + *with* **sb** + *about* / *that* &middot; *joke* (intransitive) &middot; + direct quotation
 **Never:** ***joke someone that*** and ***joke something***. The hearer takes *with*, not a bare object: *joked **with** the crowd*, never ***joked the crowd***.
@@ -548,6 +570,7 @@ The same trap runs through the neighboring files, and it is worth carrying the l
 ### lament
 
 **Pronunciation:** /ləˈmɛnt/ &middot; *luh-MENT*
+**Русский:** сетовать, оплакивать — книжн.; горевать о непоправимом; переходный, без about
 **Type:** reporting verb — complaint, grief &middot; **Register:** formal, literary
 **Patterns:** *lament* + **that**-clause &middot; *lament* + **noun phrase** &middot; *lament* + *the fact that* &middot; *lament* + *over* / *for* + **noun phrase** (literary, = mourn) &middot; *lament* (intransitive) &middot; + direct quotation
 **Never:** ***lament about something*** — the verb is transitive and *about* is redundant. Repairs: *lamented the closing of the plant*, *lamented **that** the plant was closing*. (*Lament over the ruins* is a genuine literary variant; *lament about* is not one.) Also no personal object — ***lamented me that*** is impossible — and no infinitive: ***lamented to have lost the house*** should be *lamented **that** he had lost the house*.
@@ -568,6 +591,7 @@ The same trap runs through the neighboring files, and it is worth carrying the l
 ### laugh
 
 **Pronunciation:** /læf/ &middot; *LAF*
+**Русский:** смеяться — laugh at sb = насмехаться над кем-то, laugh about sth = смеяться вместе
 **Type:** reporting verb — manner of speaking &middot; **Register:** neutral
 **Patterns:** *laugh* (intransitive) &middot; *laugh* + direct quotation &middot; *laugh* + *at* + **sb** / **sth** &middot; *laugh* + *about* / *over* + **noun phrase** / **-ing** &middot; *laugh* + *off* + **noun phrase** &middot; *laugh* + **that**-clause (disputed — see below)
 **Never:** ***laugh someone*** and ***laugh someone for doing something***. There is no ordinary transitive frame: the person laughed at takes *at*, and the only objects the verb allows are fixed idioms (*laugh it off*, *laughed him off the stage*, *laughed herself sick*). Repairs: *laughed **at** him*, *mocked him **for** trying*.
@@ -590,6 +614,7 @@ The same trap runs through the neighboring files, and it is worth carrying the l
 ### moan
 
 **Pronunciation:** /moʊn/ &middot; *MOHN*
+**Русский:** стонать; ныть, жаловаться — разг.; в амер. чаще о звуке, в брит. — о жалобах
 **Type:** reporting verb — complaint, manner of speaking &middot; **Register:** informal
 **Patterns:** *moan* + **that**-clause &middot; *moan* + *about* + **noun phrase** / **-ing** &middot; *moan* + *to* **sb** + *about* / *that* &middot; *moan* + direct quotation &middot; *moan* (intransitive) &middot; *moan* + *at* **sb** (British)
 **Never:** ***moan someone*** and ***moan something***. No object without a preposition, and no personal object: ***moaned me about the heat*** should be *moaned **to** me **about** the heat*.
@@ -611,6 +636,7 @@ The same trap runs through the neighboring files, and it is worth carrying the l
 ### mock
 
 **Pronunciation:** /mɑk/ &middot; *MAHK*
+**Русский:** высмеивать, передразнивать — злая насмешка, обычно через подражание; переходный
 **Type:** reporting verb — ridicule &middot; **Register:** neutral
 **Patterns:** *mock* + **sb** / **sth** &middot; *mock* + **sb** + *for* + **-ing** / **noun phrase** &middot; *mock* + **sb's** accent / voice / walk &middot; + direct quotation delivered in imitation &middot; passive *be mocked for*
 **Never:** ***mock at someone***. The verb is transitive — *mocked him*, not ***mocked at him***. (*Mock at* was standard in older English and survives in some British writing; in American English it reads as an error.) Also no *that*-clause: ***mocked that he was scared*** should be *mocked him **for** being scared*.
@@ -631,6 +657,7 @@ The same trap runs through the neighboring files, and it is worth carrying the l
 ### mumble
 
 **Pronunciation:** /ˈmʌmbəl/ &middot; *MUM-buhl*
+**Русский:** бормотать невнятно — о нечёткой дикции, без оттенка недовольства
 **Type:** reporting verb — manner of speaking &middot; **Register:** neutral
 **Patterns:** *mumble* + direct quotation &middot; *mumble* + **that**-clause &middot; *mumble* + **noun phrase** (*mumbled an apology*) &middot; *mumble* + *to* **sb** (+ *that*) &middot; *mumble* + *something about* + noun &middot; *mumble* (intransitive)
 **Never:** ***mumble me something*** — no ditransitive frame. The hearer needs *to*: *mumbled something **to** me*, not ***mumbled me something***.
@@ -651,6 +678,7 @@ The same trap runs through the neighboring files, and it is worth carrying the l
 ### murmur
 
 **Pronunciation:** /ˈmɜrmər/ &middot; *MUR-mur*
+**Русский:** тихо говорить, шептать ласково — книжн.; мягко и внятно, в отличие от mutter
 **Type:** reporting verb — manner of speaking &middot; **Register:** literary
 **Patterns:** *murmur* + direct quotation &middot; *murmur* + **that**-clause &middot; *murmur* + **noun phrase** (*murmured her name*) &middot; *murmur* + *to* **sb** / *to oneself* (+ *that*) &middot; *murmur* (intransitive)
 **Never:** ***murmur someone something*** and ***murmur at someone***. The hearer takes *to*: *murmured **to** him that it was time to go*. (*Murmur against* — *the people murmured against Moses* — is a real but archaic complaining sense, biblical in flavor; do not use it for ordinary quiet speech.)
@@ -671,6 +699,7 @@ The same trap runs through the neighboring files, and it is worth carrying the l
 ### mutter
 
 **Pronunciation:** /ˈmʌtər/ &middot; *MUT-er*
+**Русский:** бормотать себе под нос, бурчать — нарочно вполголоса и с недовольством
 **Type:** reporting verb — manner of speaking, complaint &middot; **Register:** neutral
 **Patterns:** *mutter* + direct quotation &middot; *mutter* + **that**-clause &middot; *mutter* + **noun phrase** (*muttered a curse*) &middot; *mutter* + *about* + **noun phrase** / **-ing** &middot; *mutter* + *to* **sb** / *to oneself* (+ *that*) &middot; *mutter* (intransitive)
 **Never:** ***mutter someone that*** — the hearer needs *to*. And be careful with **mutter at** someone: it occurs, but it is marginal, and *muttered **to** himself* is the idiom you want for talking under your breath.
@@ -691,6 +720,7 @@ The same trap runs through the neighboring files, and it is worth carrying the l
 ### object
 
 **Pronunciation:** /əbˈdʒɛkt/ &middot; *uhb-JEKT* — the verb stresses the second syllable; the noun *object* /ˈɑbdʒɪkt/ (*AHB-jikt*) stresses the first
+**Русский:** возражать — object to + существительное или -ing (не инфинитив!); формальное несогласие
 **Type:** reporting verb — objection &middot; **Register:** neutral to formal
 **Patterns:** *object* + **that**-clause &middot; *object* + *to* + **noun phrase** &middot; *object* + *to* + **-ing** &middot; *object* + *to* + **sb('s)** + **-ing** (*objected to my leaving early*) &middot; *object* (intransitive) &middot; + direct quotation
 **Never:** ***object to be treated that way***. The *to* in *object to* is a **preposition**, not part of an infinitive, so what follows is an *-ing* form or a noun: *objected to **being** treated that way*, *objected to **the** treatment*. This is the single most common error with this verb. Also never ***object something*** and never ***object against*** — the latter is a direct import from other languages and is not English. And *to* here never introduces the **hearer**: *she objected to the chairman* means she found the chairman objectionable, not that she said something to him. To name the person addressed, rewrite — *told the chairman she objected*.
@@ -711,6 +741,7 @@ The same trap runs through the neighboring files, and it is worth carrying the l
 ### praise
 
 **Pronunciation:** /preɪz/ &middot; *PRAYZ*
+**Русский:** хвалить, хвалебно отзываться — praise sb for sth; можно и заочно, в отличие от compliment
 **Type:** reporting verb — praise &middot; **Register:** neutral
 **Patterns:** *praise* + **sb** / **sth** &middot; *praise* + **sb** + *for* + **-ing** / **noun phrase** &middot; *praise* + **sb** / **sth** + *as* + **noun phrase** / adjective &middot; passive *be praised for* / *be praised as*
 **Never:** ***praise someone that they did well*** and ***praise about something***. No *that*-clause, no *about*. Also not **praise sb on** — that is [compliment](#compliment)'s and [congratulate](#congratulate)'s preposition. Repairs: *praised her **for** her handling of the crisis*, *praised her handling of the crisis*.
@@ -731,6 +762,7 @@ The same trap runs through the neighboring files, and it is worth carrying the l
 ### protest
 
 **Pronunciation:** /prəˈtɛst/ &middot; *pruh-TEST* — the verb stresses the second syllable; the noun *protest* /ˈproʊtɛst/ (*PROH-test*) stresses the first
+**Русский:** протестовать; возражать, оправдываясь — амер. protest sth, брит. protest against sth
 **Type:** reporting verb — objection &middot; **Register:** neutral
 **Patterns:** *protest* + **that**-clause &middot; *protest* + **noun phrase** (American) &middot; *protest* + *against* / *at* + **noun phrase** (British) &middot; *protest* + *to* **sb** (+ *that*) &middot; *protest* + direct quotation &middot; *protest* (intransitive) &middot; *protest* + **noun phrase** (= assert: *protested his innocence*)
 **Never:** ***protest to do something*** and ***protest someone that***. No infinitive, and no personal object before the clause — the person addressed takes *to*: *protested **to** the referee that the ball was out*, never ***protested the referee that***.
@@ -752,6 +784,7 @@ The same trap runs through the neighboring files, and it is worth carrying the l
 ### rebuke
 
 **Pronunciation:** /rɪˈbjuk/ &middot; *ri-BYOOK*
+**Русский:** делать выговор, порицать — книжн., офиц.; резкое замечание от вышестоящего
 **Type:** reporting verb — reproof &middot; **Register:** formal
 **Patterns:** *rebuke* + **sb** &middot; *rebuke* + **sb** + *for* + **-ing** / **noun phrase** &middot; passive *be rebuked for* &middot; noun *a rebuke* (*to* sb)
 **Never:** ***rebuke someone that they were late***, ***rebuke someone to do something***, and ***rebuke at someone***. No clause, no infinitive, no preposition before the person. Repair: *rebuked him **for** being late*.
@@ -772,6 +805,7 @@ The same trap runs through the neighboring files, and it is worth carrying the l
 ### reproach
 
 **Pronunciation:** /rɪˈproʊtʃ/ &middot; *ri-PROHCH*
+**Русский:** упрекать, укорять — книжн.; обиженный упрёк тому, от кого ждали большего
 **Type:** reporting verb — reproof &middot; **Register:** formal, literary
 **Patterns:** *reproach* + **sb** &middot; *reproach* + **sb** + *for* + **-ing** / **noun phrase** &middot; *reproach* + **sb** + *with* + **noun phrase** (formal) &middot; *reproach* + **oneself** + *for* &middot; passive *be reproached for* &middot; noun *a reproach*, *above reproach*
 **Never:** ***reproach someone that they forgot*** and ***reproach at someone***. No *that*-clause, no preposition before the person. Repair: *reproached him **for** forgetting*.
@@ -793,6 +827,7 @@ The same trap runs through the neighboring files, and it is worth carrying the l
 ### scold
 
 **Pronunciation:** /skoʊld/ &middot; *SKOHLD*
+**Русский:** ругать, отчитывать — сердитая выволочка, обычно взрослого ребёнку
 **Type:** reporting verb — reproof &middot; **Register:** neutral to informal
 **Patterns:** *scold* + **sb** &middot; *scold* + **sb** + *for* + **-ing** / **noun phrase** &middot; + direct quotation (*"Not on the couch," she scolded*) &middot; passive *be scolded for*
 **Never:** ***scold someone that they did it***, ***scold someone to do something***, and ***scold at someone***. Repairs: *scolded him **for** doing it*, *told him not to do it*.
@@ -813,6 +848,7 @@ The same trap runs through the neighboring files, and it is worth carrying the l
 ### shout
 
 **Pronunciation:** /ʃaʊt/ &middot; *SHOWT*
+**Русский:** кричать — shout at sb = сердито на кого-то, shout to sb = чтобы услышали издалека
 **Type:** reporting verb — manner of speaking &middot; **Register:** neutral
 **Patterns:** *shout* + direct quotation &middot; *shout* + **that**-clause &middot; *shout* + **wh**-clause &middot; *shout* + **noun phrase** (*shouted an order*) &middot; *shout* + *at* **sb** &middot; *shout* + *to* **sb** &middot; *shout* + *at/to* **sb** + **to-infinitive** &middot; *shout* (intransitive)
 **Never:** ***shout someone that*** and ***shout someone something***. The hearer always takes a preposition: *shouted **to** me that the gate was closing*, not ***shouted me that***.
@@ -842,6 +878,7 @@ The same trap runs through the neighboring files, and it is worth carrying the l
 ### sigh
 
 **Pronunciation:** /saɪ/ &middot; *SY* — the *gh* is silent
+**Русский:** вздыхать, со вздохом произнести — о смирении, усталости или облегчении
 **Type:** reporting verb — manner of speaking &middot; **Register:** neutral
 **Patterns:** *sigh* (intransitive) &middot; *sigh* + direct quotation &middot; *sigh* + **that**-clause (fiction) &middot; *sigh* + *over* / *about* + **noun phrase** / **-ing** &middot; *sigh* + *for* + **noun phrase** (literary, = long for) &middot; noun *a sigh*, *with a sigh*
 **Never:** ***sigh someone*** and ***sigh someone that***. There is no object frame at all beyond the cognate object (*sighed a long sigh*), which reports no speech, and no personal object: if the hearer matters, write *said to me with a sigh*.
@@ -863,6 +900,7 @@ The same trap runs through the neighboring files, and it is worth carrying the l
 ### snap
 
 **Pronunciation:** /snæp/ &middot; *SNAP*
+**Русский:** огрызнуться, резко бросить — разг.; короткая раздражённая реплика, snap at sb
 **Type:** reporting verb — manner of speaking, irritation &middot; **Register:** neutral to informal
 **Patterns:** *snap* + direct quotation &middot; *snap* + **that**-clause &middot; *snap* + *at* **sb** &middot; *snap* + *at* **sb** + **to-infinitive** (*snapped at him to sit down*) &middot; *snap* (intransitive, = lose one's temper)
 **Never:** ***snap someone***, ***snap someone that***, and ***snap to someone*** in this sense. The target takes *at* and nothing else: *snapped **at** me*. (*Snap to it* exists, but that is a different idiom meaning "hurry up.")
@@ -884,6 +922,7 @@ The same trap runs through the neighboring files, and it is worth carrying the l
 ### sneer
 
 **Pronunciation:** /snɪr/ &middot; *SNEER*
+**Русский:** презрительно усмехаться, глумиться — книжн., неодобр.; только sneer at, без to
 **Type:** reporting verb — contempt, manner of speaking &middot; **Register:** literary, journalistic — disapproving
 **Patterns:** *sneer* (intransitive) &middot; *sneer* + *at* + **sb** / **sth** &middot; *sneer* + **that**-clause &middot; + direct quotation (*"Nice try," he sneered*) &middot; noun *a sneer*, adjective *sneering*
 **Never:** ***sneer someone***, ***sneer someone that***, ***sneer to someone***, and ***sneer about something***. The verb reaches its target only through *at*, and that target is the thing despised, not the hearer: *sneered **at** the suggestion*, *sneered **at** me*. Unlike [whisper](#whisper) and [mutter](#mutter), it has no *to* frame at all, so the person spoken to cannot be named inside the verb — write *said **to** me with a sneer*.
@@ -904,6 +943,7 @@ The same trap runs through the neighboring files, and it is worth carrying the l
 ### taunt
 
 **Pronunciation:** /tɔnt/ &middot; *TAWNT*
+**Русский:** дразнить, задирать — насмешки, чтобы вывести из себя; переходный, без предлога
 **Type:** reporting verb — ridicule &middot; **Register:** neutral
 **Patterns:** *taunt* + **sb** &middot; *taunt* + **sb** + *about* + **noun phrase** / **-ing** &middot; *taunt* + **sb** + *with* + **noun phrase** &middot; *taunt* + **sb** + *for* + **-ing** (less common than *about*) &middot; + direct quotation (*"Can't catch me," he taunted*) &middot; passive *be taunted about* / *with* &middot; noun *a taunt*
 **Never:** ***taunt at someone*** and ***taunt someone that***. The verb is transitive. Repair: *taunted him **about** the score*.
@@ -924,6 +964,7 @@ The same trap runs through the neighboring files, and it is worth carrying the l
 ### tease
 
 **Pronunciation:** /tiz/ &middot; *TEEZ*
+**Русский:** поддразнивать, подшучивать — обычно беззлобно, между своими; tease sb about sth
 **Type:** reporting verb — light ridicule &middot; **Register:** neutral to informal
 **Patterns:** *tease* + **sb** &middot; *tease* + **sb** + *about* + **noun phrase** / **-ing** &middot; *tease* + **sb** + *for* + **-ing** &middot; *tease* + **sb** + *into* / *out of* + **-ing** &middot; + direct quotation &middot; passive *be teased about*
 **Never:** ***tease at someone*** and ***tease someone that***. Repair: *teased him **about** his tie*.
@@ -945,6 +986,7 @@ The same trap runs through the neighboring files, and it is worth carrying the l
 ### thank
 
 **Pronunciation:** /θæŋk/ &middot; *THANK* — voiceless *th*, as in *thin*
+**Русский:** благодарить — thank sb for sth: человек прямым дополнением, повод через for
 **Type:** reporting verb — thanks &middot; **Register:** neutral
 **Patterns:** *thank* + **sb** &middot; *thank* + **sb** + *for* + **noun phrase** &middot; *thank* + **sb** + *for* + **-ing** &middot; *thank* + **sb** + *for* + **having done sth** &middot; passive *be thanked for* &middot; fixed idiom *I'll thank you to* + **verb** (= a sharp request, not a thanks)
 **Never:** ***thank to someone***, ***thank someone that they came***, and ***thank someone of something***. The verb takes the person directly and the reason through *for*: *thanked me **for** coming*, not ***thanked to me*** and not ***thanked me that I came***. (*Thanks to* exists as a prepositional phrase meaning "because of" — *thanks to the rain, we canceled* — and is a different construction entirely.)
@@ -967,6 +1009,7 @@ The same trap runs through the neighboring files, and it is worth carrying the l
 ### whine
 
 **Pronunciation:** /waɪn/ &middot; *WYNE* — some American speakers keep an /hw/ onset, *HWYNE*
+**Русский:** ныть, канючить — разг., неодобр.; жаловаться плаксиво; всегда оценка рассказчика
 **Type:** reporting verb — complaint &middot; **Register:** informal, disapproving
 **Patterns:** *whine* + **that**-clause &middot; *whine* + *about* + **noun phrase** / **-ing** &middot; *whine* + *to* **sb** + *about* / *that* &middot; *whine* + *at* + **sb** / **sth** (literal noise: *whined at the door*) &middot; *whine* + direct quotation &middot; *whine* (intransitive)
 **Never:** ***whine someone*** and ***whine something***. No object without a preposition, and no personal object: ***whined me about the seat*** should be *whined **to** me **about** the seat*.
@@ -988,6 +1031,7 @@ The same trap runs through the neighboring files, and it is worth carrying the l
 ### whisper
 
 **Pronunciation:** /ˈwɪspər/ &middot; *WIS-per* — the *h* is silent
+**Русский:** шептать, шепнуть — whisper to sb that…; пассив it is whispered that = ходят слухи
 **Type:** reporting verb — manner of speaking &middot; **Register:** neutral
 **Patterns:** *whisper* + direct quotation &middot; *whisper* + **that**-clause &middot; *whisper* + **wh**-clause &middot; *whisper* + **noun phrase** (*whispered a name*) &middot; *whisper* + *to* **sb** + *that* &middot; *whisper* + *to* **sb** + **to-infinitive** (*whispered to me to wait*) &middot; *whisper* (intransitive) &middot; passive *it is whispered that* (= rumor)
 **Never:** ***whisper someone that*** and ***whisper someone something***. The hearer takes *to*: *whispered **to** me that the boss was behind us*, not ***whispered me that***.
@@ -1009,6 +1053,7 @@ The same trap runs through the neighboring files, and it is worth carrying the l
 ### yell
 
 **Pronunciation:** /jɛl/ &middot; *YEL*
+**Русский:** орать, вопить — разг.; yell at sb = сердито на кого-то, yell to sb = издалека
 **Type:** reporting verb — manner of speaking &middot; **Register:** informal
 **Patterns:** *yell* + direct quotation &middot; *yell* + **that**-clause &middot; *yell* + **wh**-clause &middot; *yell* + **noun phrase** (*yelled a warning*) &middot; *yell* + *at* **sb** &middot; *yell* + *to* **sb** &middot; *yell* + *at* / *to* **sb** + **to-infinitive** &middot; *yell* (intransitive)
 **Never:** ***yell someone that*** and ***yell someone something***. As with [shout](#shout), the hearer needs a preposition: *yelled **at** me to slow down*.

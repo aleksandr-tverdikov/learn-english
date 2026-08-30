@@ -17,6 +17,7 @@ The words that do the basic work: one open condition, three negative ones, and t
 ### even if
 
 **Pronunciation:** /ˈivən ɪf/ &middot; *EE-vuhn-if* &middot; reduced /ˈivn̩ ɪf/ &middot; the stress sits on *even*; *if* takes it only under contrast
+**Русский:** даже если — уступительное условие; в отличие от even though, факт не утверждается
 **Type:** subordinating &middot; **Register:** neutral
 **Clause type:** adverbial clause of concessive condition
 **Pattern:** *Even if* [clause], [main clause]. &middot; [main clause] *even if* [clause].
@@ -36,6 +37,7 @@ Grants a condition the maximum benefit of the doubt and says the main clause hol
 ### except if
 
 **Pronunciation:** /ɪkˈsɛpt ɪf/ &middot; *ik-SEPT-if* &middot; the final /t/ links straight into the vowel of *if*, and casual speech drops it altogether: [ɪkˈsɛp ɪf]
+**Русский:** кроме тех случаев, когда; разве что — двухсловный аналог unless
 **Type:** subordinating &middot; **Register:** neutral, though editors usually change it to *unless*
 **Clause type:** adverbial clause of negative condition (exception)
 **Pattern:** [main clause] *except if* [clause]. &middot; *Except if* [clause], [main clause]. &middot; [main clause] *except when* [clause]. &middot; [main clause] *except where* [clause].
@@ -56,6 +58,7 @@ Carves an exception out of a statement that otherwise holds — the same job *un
 ### if
 
 **Pronunciation:** /ɪf/ &middot; *IF* &middot; reduced /əf/ in fast speech
+**Русский:** если — основной союз условия; в косвенном вопросе — частица «ли»
 **Type:** subordinating (also a complementizer in indirect questions) &middot; **Register:** neutral
 **Clause type:** adverbial clause of condition; also a noun clause (indirect yes/no question)
 **Pattern:** *If* [clause], [main clause]. &middot; [main clause] *if* [clause]. &middot; [verb of knowing or asking] *if* [clause].
@@ -76,6 +79,7 @@ The all-purpose conditional. The word itself never changes to show how likely th
 ### if and only if
 
 **Pronunciation:** /ˌɪf ən ˈoʊnli ɪf/ &middot; *if-uhn-OHN-lee-if* &middot; *and* reduces to /ən/; written *iff* in mathematics, but always read aloud in full
+**Русский:** тогда и только тогда, когда — двустороннее условие (мат., лог., юр.)
 **Type:** subordinating &middot; **Register:** formal, technical (mathematics, logic, contracts)
 **Clause type:** adverbial clause of condition (biconditional)
 **Pattern:** [main clause] *if and only if* [clause]. &middot; [proposition] *iff* [proposition] (written mathematics and logic only).
@@ -96,6 +100,7 @@ States that the condition is both sufficient and necessary, closing both directi
 ### not unless
 
 **Pronunciation:** /nɑt ənˈlɛs/ &middot; *not-uhn-LESS* &middot; the /t/ flaps into the following vowel, [nɑɾ ənˈlɛs]; both words are stressed when the phrase stands alone as a reply
+**Русский:** разве что; нет, если только не — отказ, называющий единственное снимающее его условие
 **Type:** subordinating (elliptical — *unless* with the negated main clause left unsaid) &middot; **Register:** neutral; the standalone reply is conversational
 **Clause type:** an *unless* clause with its negative main clause reduced to the bare *not*
 **Pattern:** *Not unless* [clause]. (a complete turn in conversation) &middot; [negative main clause], *not unless* [clause]. &middot; [negative main clause] — *not unless* [clause].
@@ -116,6 +121,7 @@ Answers a question by naming the one condition that would turn the no into a yes
 ### only if
 
 **Pronunciation:** /ˈoʊnli ɪf/ &middot; *OHN-lee-if* &middot; the stress is on *only*, which is what makes the condition sound exclusive
+**Русский:** только если — необходимое условие, ничто другое не подойдёт
 **Type:** subordinating &middot; **Register:** neutral
 **Clause type:** adverbial clause of condition (necessary condition)
 **Pattern:** [main clause] *only if* [clause]. &middot; *Only if* [clause] [auxiliary] [subject] [verb].
@@ -136,6 +142,7 @@ Marks the condition as necessary rather than merely sufficient — nothing else 
 ### unless
 
 **Pronunciation:** /ənˈlɛs/ &middot; *uhn-LESS* &middot; full form /ʌnˈlɛs/
+**Русский:** если не; кроме случаев, когда — единственное исключение из сказанного
 **Type:** subordinating &middot; **Register:** neutral
 **Clause type:** adverbial clause of negative condition (exception)
 **Pattern:** [main clause] *unless* [clause]. &middot; *Unless* [clause], [main clause].
@@ -160,6 +167,7 @@ Conditions imposed as terms — the language of permissions, contracts, and rule
 ### as and when
 
 **Pronunciation:** /æz ən ˈwɛn/ &middot; *az-uhn-WEN* &middot; *and* reduces to /ən/ and never carries stress; *as* keeps its full vowel because the phrase opens on it
+**Русский:** по мере того как; когда именно — юр.: срок не фиксируется, событие предполагается
 **Type:** subordinating (fixed doublet) &middot; **Register:** formal (contracts, corporate resolutions, statutes)
 **Clause type:** adverbial clause of time and condition at once
 **Pattern:** [main clause] *as and when* [clause]. &middot; [main clause] *as and when* [past participle or adjective]. &middot; *As and when* [clause], [main clause].
@@ -180,6 +188,7 @@ A drafter's doublet meaning "at whatever times, and each time that" — it leave
 ### as long as
 
 **Pronunciation:** /əz ˈlɔŋ əz/ &middot; *uhz-LAWNG-uhz* &middot; full form /æz ˈlɔŋ æz/; /ˈlɑŋ/ for speakers with the cot–caught merger
+**Русский:** при условии что — постоянное требование; те же слова значат и «пока», о длительности
 **Type:** subordinating &middot; **Register:** neutral
 **Clause type:** adverbial clause of condition (also of time — see below)
 **Pattern:** [main clause] *as long as* [clause]. &middot; *As long as* [clause], [main clause].
@@ -200,6 +209,7 @@ Sets a standing requirement: the main clause holds for exactly as many cases as 
 ### contingent on
 
 **Pronunciation:** /kənˈtɪndʒənt ɑn/ &middot; *kuhn-TIN-juhnt-on* &middot; *contingent upon* is /kənˈtɪndʒənt əˌpɑn/, *kuhn-TIN-juhnt-uh-pon*
+**Русский:** зависящий от; обусловленный — исход ждёт будущего события (книжн., юр.)
 **Type:** subordinating (prepositional — takes a noun phrase, a gerund, or a *whether* clause) &middot; **Register:** formal (contracts, finance, real estate)
 **Clause type:** no clause of its own — a noun phrase, an *-ing* phrase, or a *whether* clause naming what the outcome hangs on
 **Pattern:** [main clause] *contingent on* [noun phrase]. &middot; [main clause] *contingent on* [gerund]. &middot; [main clause] *contingent on whether* [clause]. &middot; *Contingent on* [noun phrase], [main clause].
@@ -220,6 +230,7 @@ Hangs an outcome on something else happening, named as a noun rather than spelle
 ### if and when
 
 **Pronunciation:** /ˌɪf ən ˈwɛn/ &middot; *if-uhn-WEN* &middot; *and* reduces to /ən/ and never carries stress
+**Русский:** если и когда — открыты сразу и сам факт, и срок
 **Type:** subordinating (fixed doublet) &middot; **Register:** neutral to formal (business, legal, administrative)
 **Clause type:** adverbial clause of condition and time at once
 **Pattern:** [main clause] *if and when* [clause]. &middot; *If and when* [clause], [main clause].
@@ -240,6 +251,7 @@ The positive mirror of *unless and until*: it leaves the whether and the when op
 ### on condition that
 
 **Pronunciation:** /ɑn kənˈdɪʃən ðət/ &middot; *on-kuhn-DISH-uhn-thuht* &middot; the complementizer *that* reduces to /ðət/; the full /ðæt/ belongs to the demonstrative
+**Русский:** при условии, что — оговорка, которую кто-то поставил (книжн.)
 **Type:** subordinating &middot; **Register:** formal
 **Clause type:** adverbial clause of condition
 **Pattern:** [main clause] *on condition that* [clause]. &middot; *On condition that* [clause], [main clause] (rare).
@@ -260,6 +272,7 @@ States a term that somebody imposes — a stipulation attached to a permission o
 ### on the understanding that
 
 **Pronunciation:** /ɑn ði ˌʌndərˈstændɪŋ ðət/ &middot; *on-thee-un-dur-STAN-ding-thuht* &middot; *the* is /ði/ before the vowel of *understanding*; the complementizer *that* reduces to /ðət/
+**Русский:** с тем пониманием, что — негласная договорённость, а не жёсткая оговорка
 **Type:** subordinating &middot; **Register:** neutral to formal (negotiations, letters, minutes)
 **Clause type:** adverbial clause of condition (a shared expectation treated as a term)
 **Pattern:** [main clause] *on the understanding that* [clause]. &middot; [main clause] *with the understanding that* [clause]. &middot; *On the understanding that* [clause], [main clause].
@@ -280,6 +293,7 @@ Attaches a condition that both sides are taken to have agreed to without anyone 
 ### provided that
 
 **Pronunciation:** /prəˈvaɪdɪd ðət/ &middot; *pruh-VY-did-thuht* &middot; the medial /d/ is usually a flap: [prəˈvaɪɾəd]; the complementizer *that* reduces to /ðət/
+**Русский:** при условии что; если только — требование как оговорка
 **Type:** subordinating (participial — frozen from the verb *provide*, which is why it never inflects here) &middot; **Register:** neutral to formal (standard in rules and contracts)
 **Clause type:** adverbial clause of condition
 **Pattern:** [main clause] *provided (that)* [clause]. &middot; *Provided (that)* [clause], [main clause].
@@ -300,6 +314,7 @@ Introduces a requirement that has to be met for the main clause to hold. It does
 ### subject to
 
 **Pronunciation:** /ˈsʌbdʒɛkt tə/ &middot; *SUB-jekt-tuh* &middot; stress on the first syllable; the verb *subject* is /səbˈdʒɛkt/, sub-JEKT
+**Русский:** при условии; с учётом — зависит от согласования, правила или события (перед сущ.)
 **Type:** subordinating (prepositional — takes a noun phrase) &middot; **Register:** formal (contracts, offers, schedules)
 **Clause type:** no clause — a noun phrase naming the condition
 **Pattern:** [main clause] *subject to* [noun phrase]. &middot; *Subject to* [noun phrase], [main clause].
@@ -320,6 +335,7 @@ Makes a statement conditional on an approval, a rule, or an event named as a nou
 ### to the extent that
 
 **Pronunciation:** /tə ði ɪkˈstɛnt ðət/ &middot; *tuh-thee-ik-STENT-thuht* &middot; *to* reduces to /tə/ and *the* is /ði/ before the vowel of *extent*; the complementizer *that* reduces to /ðət/
+**Русский:** в той мере, в какой — отвечает на «насколько», а не на «да или нет»
 **Type:** subordinating &middot; **Register:** neutral to formal (contracts, statutes, academic prose)
 **Clause type:** adverbial clause of condition limiting the scope of the main clause
 **Pattern:** [main clause] *to the extent that* [clause]. &middot; *To the extent that* [clause], [main clause]. &middot; [main clause] *only to the extent that* [clause]. &middot; [main clause] *to the extent of* [noun phrase].
@@ -340,6 +356,7 @@ Makes the main clause true in proportion to how far the condition holds instead 
 ### unless and until
 
 **Pronunciation:** /ənˈlɛs ən ənˈtɪl/ &middot; *uhn-LESS-uhn-uhn-TIL* &middot; *and* reduces to /ən/ between the two stresses
+**Русский:** если и пока не — юр. дублет: условие и срок сразу
 **Type:** subordinating (fixed doublet) &middot; **Register:** formal (legal and administrative)
 **Clause type:** adverbial clause of condition and time at once
 **Pattern:** [main clause, usually negative] *unless and until* [clause]. &middot; *Unless and until* [clause], [main clause].
@@ -359,6 +376,7 @@ A lawyer's doublet that closes two gaps at once: nothing happens *unless* the co
 ### with the proviso that
 
 **Pronunciation:** /wɪð ðə prəˈvaɪzoʊ ðət/ &middot; *with-thuh-pruh-VY-zoh-thuht* &middot; many Americans say /wɪθ/ with the consonant of *thin*, and both are standard; the plural is *provisos*, not *provisoes*
+**Русский:** с оговоркой, что — ограничение, приложенное к уже данному разрешению
 **Type:** subordinating (prepositional phrase plus complementizer) &middot; **Register:** formal (contracts, minutes, committee resolutions)
 **Clause type:** adverbial clause of condition — a stipulation cutting back what was just granted
 **Pattern:** [main clause], *with the proviso that* [clause]. &middot; [main clause] *with the proviso that* [clause]. &middot; [main clause] *subject to the proviso that* [clause]. &middot; *With the proviso that* [clause], [main clause]. (rare)
@@ -383,6 +401,7 @@ Conditions about things that might go wrong. Four take a clause, three take a ba
 ### absent
 
 **Pronunciation:** /ˈæbsənt/ &middot; *AB-suhnt* &middot; the adjective is the same; the verb *absent oneself* shifts to /æbˈsɛnt/, ab-SENT
+**Русский:** при отсутствии; в отсутствие — книжн.-юр. предлог со значением «если нет»
 **Type:** subordinating (prepositional — takes a noun phrase) &middot; **Register:** formal (legal, academic, journalistic)
 **Clause type:** no clause — a noun phrase naming what is missing
 **Pattern:** *Absent* [noun phrase], [main clause]. &middot; [main clause] *absent* [noun phrase].
@@ -402,6 +421,7 @@ An American legal-register preposition meaning "if there is no." It states a neg
 ### barring
 
 **Pronunciation:** /ˈbɑrɪŋ/ &middot; *BAR-ing* &middot; identical to the *-ing* form of the verb *bar*
+**Русский:** если не случится; за исключением — единственная помеха уверенному прогнозу
 **Type:** subordinating (prepositional — takes a noun phrase); frozen from the verb *bar*, so it never behaves like a live participle and takes no subject &middot; **Register:** neutral, slightly formal
 **Clause type:** no clause — a noun phrase naming the one thing that would prevent the outcome
 **Pattern:** *Barring* [noun phrase], [main clause]. &middot; [main clause] *barring* [noun phrase].
@@ -421,6 +441,7 @@ Means "unless there is" — it names the single event that would derail the main
 ### if need be
 
 **Pronunciation:** /ɪf ˈnid bi/ &middot; *if-NEED-bee* &middot; the stress is on *need*, and *be* keeps its full vowel because it ends the phrase; the three words are said as one unit
+**Русский:** если понадобится; в случае необходимости
 **Type:** subordinating (a frozen clause — *need* is a bare noun subject and *be* the old present subjunctive) &middot; **Register:** neutral; common in speech and in ordinary writing
 **Clause type:** a fixed adverbial clause of condition that takes no subject, tense, or negation of its own
 **Pattern:** [main clause] *if need be*. &middot; *If need be*, [main clause]. &middot; [main clause], *if need be*, [continuation].
@@ -441,6 +462,7 @@ Marks a fallback the speaker is willing to resort to — "if it turns out to be 
 ### in case
 
 **Pronunciation:** /ɪn ˈkeɪs/ &middot; *in-KAYSS*
+**Русский:** на случай если — предосторожность заранее, в отличие от if («если»)
 **Type:** subordinating &middot; **Register:** neutral
 **Clause type:** adverbial clause of precautionary condition
 **Pattern:** [main clause] *in case* [clause]. &middot; *In case* [clause], [main clause]. &middot; *in case of* [noun phrase].
@@ -461,6 +483,7 @@ Marks a precaution taken in advance against a possibility, so the main clause ha
 ### in the event that
 
 **Pronunciation:** /ɪn ði ɪˈvɛnt ðət/ &middot; *in-thee-ih-VENT-thuht* &middot; *the* is /ði/ before the vowel of *event*; the complementizer *that* reduces to /ðət/
+**Русский:** в случае если — офиц. эквивалент if, о событии, а не о состоянии
 **Type:** subordinating &middot; **Register:** formal (legal, insurance, administrative)
 **Clause type:** adverbial clause of condition
 **Pattern:** *In the event that* [clause], [main clause]. &middot; [main clause] *in the event that* [clause]. &middot; *in the event of* [noun phrase].
@@ -480,6 +503,7 @@ The formal-register equivalent of *if*, reserved for conditions that are occurre
 ### on the off chance that
 
 **Pronunciation:** /ɑn ði ˈɔf tʃæns ðət/ &middot; *on-thee-AWF-chanss-thuht* &middot; /ɑf/ for speakers with the cot–caught merger; the complementizer *that* reduces to /ðət/
+**Русский:** на случай, вдруг; авось — разг., о маловероятной возможности
 **Type:** subordinating &middot; **Register:** informal to neutral
 **Clause type:** adverbial clause of remote precautionary condition
 **Pattern:** [main clause] *on the off chance (that)* [clause]. &middot; *On the off chance (that)* [clause], [main clause].
@@ -500,6 +524,7 @@ The formal-register equivalent of *if*, reserved for conditions that are occurre
 ### short of
 
 **Pronunciation:** /ˈʃɔrt əv/ &middot; *SHORT-uhv* &middot; the /t/ flaps into the vowel of *of*: [ˈʃɔɹɾ əv]
+**Русский:** разве что; кроме как — крайняя мера, без которой исход не изменить
 **Type:** subordinating (prepositional — takes a noun phrase or a gerund) &middot; **Register:** neutral
 **Clause type:** no clause — a noun phrase or an *-ing* phrase naming the extreme measure that would change the outcome
 **Pattern:** *Short of* [noun phrase], [main clause]. &middot; [main clause] *short of* [noun phrase]. &middot; *Short of* [gerund], [main clause]. &middot; [main clause] *short of* [gerund].
@@ -524,6 +549,7 @@ Conditions the speaker puts on the table to reason from — offered, conceded, o
 ### all else being equal
 
 **Pronunciation:** /ˌɔl ˈɛls ˌbiɪŋ ˈikwəl/ &middot; *awl-ELSS-bee-ing-EE-kwuhl* &middot; /ɑl/ for speakers with the cot–caught merger; *being* routinely collapses to one syllable in speech, [biŋ]
+**Русский:** при прочих равных (условиях)
 **Type:** subordinating (absolute construction — a subject plus a participle, with no conjunction present) &middot; **Register:** neutral to formal (economics, science writing, argument)
 **Clause type:** an absolute phrase doing the work of an adverbial clause of condition
 **Pattern:** *All else being equal*, [main clause]. &middot; [main clause], *all else being equal*. &middot; [subject], *all else being equal*, [verb phrase]. &middot; *Other things being equal*, [main clause].
@@ -544,6 +570,7 @@ Freezes every factor except the one under discussion, so that a comparison can b
 ### assuming that
 
 **Pronunciation:** /əˈsumɪŋ ðət/ &middot; *uh-SOO-ming-thuht* &middot; American /əˈsumɪŋ/ drops the yod, British /əˈsjuːmɪŋ/ keeps it; the complementizer *that* reduces to /ðət/
+**Русский:** если предположить, что; допустим, что — посылка принята условно
 **Type:** subordinating (participial) &middot; **Register:** neutral
 **Clause type:** adverbial clause of condition (a premise taken for granted)
 **Pattern:** *Assuming (that)* [clause], [main clause]. &middot; [main clause], *assuming (that)* [clause].
@@ -564,6 +591,7 @@ Introduces a premise the speaker is provisionally treating as true in order to r
 ### given that
 
 **Pronunciation:** /ˈɡɪvən ðət/ &middot; *GIV-uhn-thuht* &middot; the complementizer *that* reduces to /ðət/
+**Русский:** учитывая, что; раз уж — посылка признана данной, значение близко к причине
 **Type:** subordinating (participial — frozen from the past participle of *give*); also a preposition before a bare noun phrase &middot; **Register:** neutral to formal
 **Clause type:** adverbial clause of condition shading into cause
 **Pattern:** *Given (that)* [clause], [main clause]. &middot; [main clause], *given (that)* [clause]. &middot; *given* [noun phrase].
@@ -584,6 +612,7 @@ Sets out a premise as already established and reasons forward from it — halfwa
 ### granted that
 
 **Pronunciation:** /ˈɡræntɪd ðət/ &middot; *GRAN-tid-thuht* &middot; casual American speech drops the /t/ of *granted*: [ˈɡrænəd]; the complementizer *that* reduces to /ðət/
+**Русский:** допустим, что; пусть даже — уступка, за которой следует возражение
 **Type:** subordinating (participial — frozen from the past participle of *grant*); bare *granted* is a conjunctive adverb &middot; **Register:** neutral to formal
 **Clause type:** adverbial clause of concessive condition
 **Pattern:** *Granted (that)* [clause], [main clause]. &middot; [main clause], *granted that* [clause]. &middot; *Granting that* [clause], [main clause]. &middot; *Granted*, [sentence].
@@ -604,6 +633,7 @@ Concedes a point for the sake of argument and then pushes past it: even acceptin
 ### how about if
 
 **Pronunciation:** /ˌhaʊ əˈbaʊt ɪf/ &middot; *how-uh-BOWT-if* &middot; in fast speech *about* loses its first vowel and often its /t/ as well: *how 'bout if*, [haʊˈbaʊʔ ɪf]
+**Русский:** а что, если; давай…? — разг. предложение в форме вопроса
 **Type:** subordinating (fixed phrase heading a conditional proposal) &middot; **Register:** informal, spoken
 **Clause type:** a conditional clause standing alone as a question
 **Pattern:** *How about if* [clause]? &middot; *What about if* [clause]? &middot; *How about* [gerund]? &middot; *How about* [noun phrase]?
@@ -624,6 +654,7 @@ Floats a suggestion as a conditional question — "suppose we did this; would th
 ### say
 
 **Pronunciation:** /seɪ/ &middot; *SAY*
+**Русский:** допустим; скажем — разг. ввод гипотезы; во вставке — «скажем, в четверг»
 **Type:** subordinating (from the imperative of the verb *say*) &middot; **Register:** informal
 **Clause type:** adverbial clause of condition, usually with no *that*
 **Pattern:** *Say* [clause] — [question or consequence]? &middot; *Say* [clause]. [question]? &middot; *Let's say* [clause]; [main clause]. &middot; [phrase], *say*, [example].
@@ -643,6 +674,7 @@ The conversational way to launch a hypothetical, meaning "suppose" and belonging
 ### supposing that
 
 **Pronunciation:** /səˈpoʊzɪŋ ðət/ &middot; *suh-POH-zing-thuht* &middot; the complementizer *that* reduces to /ðət/
+**Русский:** предположим, что; а если — приглашение представить гипотезу, обычно в вопросе
 **Type:** subordinating (participial) &middot; **Register:** informal to neutral
 **Clause type:** adverbial clause of hypothetical condition
 **Pattern:** *Supposing (that)* [clause], [main clause or question]? &middot; *Suppose* [clause], [main clause or question]?
@@ -662,6 +694,7 @@ Invites the listener to entertain a hypothetical, most often as the opening of a
 ### what if
 
 **Pronunciation:** /wʌt ˈɪf/ &middot; *wut-IF* &middot; the /t/ flaps between vowels in fast speech: [wʌɾ ˈɪf]
+**Русский:** а что, если — гипотеза как предложение или как опасение
 **Type:** subordinating (fixed phrase heading a conditional fragment) &middot; **Register:** neutral to informal
 **Clause type:** a conditional clause standing alone as a question
 **Pattern:** *What if* [clause]? &middot; *What if* [clause] — [consequence]? &middot; [verb of asking] *what if* [clause].
@@ -686,6 +719,7 @@ The *whether* family, which covers both branches of a yes/no split instead of pi
 ### depending on
 
 **Pronunciation:** /dɪˈpɛndɪŋ ɑn/ &middot; *dih-PEN-ding-on* &middot; the *-ing* is regularly [ɪn] in casual speech, *dih-PEN-din-on*; *depending upon* is /dɪˈpɛndɪŋ əˌpɑn/, *dih-PEN-ding-uh-pon*
+**Русский:** в зависимости от — исход меняется вместе с условием, а не просто включается
 **Type:** subordinating (participial — takes a noun phrase, or a full clause after *whether*, *how*, *what*, *where*, *who*) &middot; **Register:** neutral
 **Clause type:** no clause after the bare form — a noun phrase; a full clause after *depending on whether* and the other *wh-* words
 **Pattern:** [main clause] *depending on* [noun phrase]. &middot; [main clause], *depending on* [noun phrase]. &middot; [main clause] *depending on whether* [clause]. &middot; *Depending on whether* [clause], [main clause]. &middot; [main clause] *depending on how / what / where / who* [clause].
@@ -706,6 +740,7 @@ Says the outcome varies with the condition instead of simply switching on or off
 ### regardless of whether
 
 **Pronunciation:** /rɪˈɡɑrdləs əv ˈwɛðər/ &middot; *rih-GARD-luhss-uv-WETH-ur*
+**Русский:** независимо от того, … ли — главное верно при обоих исходах
 **Type:** subordinating (prepositional phrase plus complementizer) &middot; **Register:** neutral to formal
 **Clause type:** adverbial clause of concessive condition
 **Pattern:** [main clause] *regardless of whether* [clause]. &middot; *Regardless of whether* [clause], [main clause]. &middot; *regardless of* [noun phrase].
@@ -725,6 +760,7 @@ Says the main clause holds on both branches of a yes/no split. *Even if* grants 
 ### whether
 
 **Pronunciation:** /ˈwɛðər/ &middot; *WETH-ur* &middot; identical to *weather* for most Americans; some speakers keep a breathy /ˈʍɛðər/
+**Русский:** ли — вводит косвенный вопрос; whether … or — «… ли … или», альтернативное условие
 **Type:** complementizer; subordinating in the *whether … or* condition &middot; **Register:** neutral
 **Clause type:** noun clause (indirect yes/no question); adverbial clause of alternative condition
 **Pattern:** [verb, noun, or adjective] *whether* [clause]. &middot; [preposition] *whether* [clause]. &middot; *Whether* [clause] [verb phrase] (the noun clause as subject). &middot; *Whether* [clause] *or* [clause], [main clause]. &middot; *Whether* [clause] *or not*, [main clause]. &middot; *whether to* [infinitive].
@@ -746,6 +782,7 @@ Frames a yes/no alternative rather than a single case. Against conditional *if*,
 ### whether or not
 
 **Pronunciation:** /ˈwɛðər ər ˈnɑt/ &middot; *WETH-ur-ur-NOT*
+**Русский:** независимо от того, … или нет; ли … или нет — исход один при обоих вариантах
 **Type:** subordinating; also a complementizer in noun clauses &middot; **Register:** neutral
 **Clause type:** adverbial clause of concessive condition; also a noun clause
 **Pattern:** *Whether or not* [clause], [main clause]. &middot; [main clause] *whether or not* [clause]. &middot; [verb, noun, or adjective] *whether or not* [clause] (the noun clause). &middot; [main clause] *whether* [clause] *or not* (the split form).
@@ -769,6 +806,7 @@ Conditions known to be false, or — with *without* — simply not met. Four of 
 ### but for
 
 **Pronunciation:** /ˌbʌt ˈfɔr/ &middot; *but-FOR* &middot; reduced /bət ˈfɔr/, with the /t/ unreleased before the /f/ — it does not flap here, because no vowel follows it
+**Русский:** если бы не — книжн.-юр., только перед существительным
 **Type:** subordinating (prepositional — takes a noun phrase) &middot; **Register:** formal (legal, literary)
 **Clause type:** no clause — a noun phrase naming the decisive factor
 **Pattern:** *But for* [noun phrase], [main clause with *would* or *would have*]. &middot; [main clause] *but for* [noun phrase].
@@ -788,6 +826,7 @@ Names the one factor without which the main clause would have gone the other way
 ### if not for
 
 **Pronunciation:** /ɪf ˈnɑt fɔr/ &middot; *if-NOT-for*
+**Русский:** если бы не — обиходный эквивалент but for
 **Type:** subordinating (prepositional — takes a noun phrase) &middot; **Register:** neutral
 **Clause type:** no clause — a noun phrase naming what made the difference
 **Pattern:** *If not for* [noun phrase], [main clause with *would*]. &middot; [main clause with *would*] *if not for* [noun phrase]. &middot; *If it weren't for* [noun phrase], [main clause]. &middot; *If it hadn't been for* [noun phrase], [main clause].
@@ -807,6 +846,7 @@ The everyday American counterfactual — plain English for *but for*. The longer
 ### if only
 
 **Pronunciation:** /ɪf ˈoʊnli/ &middot; *if-OHN-lee*
+**Русский:** если бы только; вот бы — сожаление или желание о несбывшемся
 **Type:** subordinating &middot; **Register:** neutral
 **Clause type:** adverbial clause of condition; also an exclamative wish standing alone
 **Pattern:** *If only* [clause with past or past perfect]! &middot; *If only* [clause], [main clause]. &middot; [main clause], *if only to* [infinitive].
@@ -827,6 +867,7 @@ Expresses a wish that the condition were met, with the strong implication that i
 ### were it not for
 
 **Pronunciation:** /wər ɪt ˈnɑt fɔr/ &middot; *wur-it-NOT-for* &middot; the /t/ of *it* is normally a glottal stop before the /n/ of *not*, not a flap: [wɚ ɪʔ ˈnɑt fɚ]
+**Русский:** если бы не — книжн., инверсия were вместо if, перед существительным
 **Type:** subordinating (inverted subjunctive with a prepositional complement) &middot; **Register:** formal, literary
 **Clause type:** no clause after *for* — a noun phrase; the condition is carried by the inverted *were*
 **Pattern:** *Were it not for* [noun phrase], [main clause with *would*]. &middot; [main clause with *would*] *were it not for* [noun phrase]. &middot; *Had it not been for* [noun phrase], [main clause with *would have*].
@@ -846,6 +887,7 @@ The formal, inverted counterfactual: the same content as *if it weren't for*, li
 ### were it not that
 
 **Pronunciation:** /wər ɪt ˈnɑt ðət/ &middot; *wur-it-NOT-thuht* &middot; the /t/ of *it* is a glottal stop before the /n/ of *not*, not a flap: [wɚ ɪʔ ˈnɑt ðət]; the complementizer *that* reduces to /ðət/
+**Русский:** если бы не то, что — книжн.; вводит целое придаточное, а не существительное
 **Type:** subordinating (inverted past subjunctive plus a complementizer) &middot; **Register:** formal, literary
 **Clause type:** adverbial clause of counterfactual condition — a full clause, not a noun phrase
 **Pattern:** *Were it not that* [clause], [main clause with *would*]. &middot; [main clause with *would*] *were it not that* [clause]. &middot; *Had it not been that* [clause], [main clause with *would have*].
@@ -866,6 +908,7 @@ The clause-taking twin of *were it not for*. Where *were it not for* names a thi
 ### without
 
 **Pronunciation:** /wɪˈðaʊt/ &middot; *with-OWT* &middot; stress on the second syllable; many Americans say /wɪˈθaʊt/ with the consonant of *thin* instead, and both are standard; reduced /wəˈðaʊt/ in fast speech
+**Русский:** без — «если бы не», условие через отсутствие чего-либо
 **Type:** subordinating (prepositional — takes a noun phrase or a gerund); also the ordinary preposition of lacking (*coffee without sugar*) &middot; **Register:** neutral
 **Clause type:** no clause — a noun phrase or an *-ing* phrase naming what is missing
 **Pattern:** *Without* [noun phrase], [main clause]. &middot; [main clause] *without* [noun phrase]. &middot; *Without* [gerund], [main clause]. &middot; [main clause] *without* [gerund].
@@ -890,6 +933,7 @@ English can mark a condition by moving an auxiliary in front of the subject, wit
 ### had
 
 **Pronunciation:** /hæd/ &middot; *HAD* &middot; reduced /(h)əd/; the inverted conditional keeps the full form
+**Русский:** инверсия вместо if в нереальном условии прошлого: Had I known — «если бы я знал»
 **Type:** subordinating by inversion — no conjunction present; the word is otherwise the auxiliary and main verb *have* &middot; **Register:** neutral to formal in writing; uncommon in casual speech
 **Clause type:** adverbial clause of past counterfactual condition
 **Pattern:** *Had* [subject] [past participle], [subject] *would have* [past participle]. &middot; *Had* [subject] *not* [past participle], [main clause]. &middot; [main clause with *would have*] *had* [subject] [past participle]. &middot; uninverted: *If* [subject] *had* [past participle], [main clause].
@@ -910,6 +954,7 @@ Replaces *if* in past counterfactuals by moving the auxiliary *had* in front of 
 ### should
 
 **Pronunciation:** /ʃʊd/ &middot; *SHUUD* &middot; reduced /ʃəd/; the inverted conditional keeps the full form
+**Русский:** инверсия вместо if: «если вдруг», «случись так, что» — значения долженствования здесь нет
 **Type:** subordinating by inversion — no conjunction present; the word is otherwise a modal auxiliary of obligation or expectation &middot; **Register:** formal (business, customer service, legal)
 **Clause type:** adverbial clause of open future condition
 **Pattern:** *Should* [subject] [bare infinitive], [main clause]. &middot; [main clause] *should* [subject] [bare infinitive]. &middot; uninverted: *If* [subject] *should* [bare infinitive], [main clause].
@@ -929,6 +974,7 @@ Marks a future condition as possible but not expected — the tentative conditio
 ### were
 
 **Pronunciation:** /wɜr/ &middot; *WUR* &middot; unstressed /wər/
+**Русский:** инверсия сослагательного were вместо if: Were I you — «будь я на вашем месте»
 **Type:** subordinating by inversion — no conjunction present; the past subjunctive of *be*, which is otherwise just the plural and second-person past tense &middot; **Register:** formal, literary
 **Clause type:** adverbial clause of present or future counterfactual condition
 **Pattern:** *Were* [subject] [complement], [main clause with *would*]. &middot; *Were* [subject] *to* [infinitive], [main clause with *would*]. &middot; [main clause with *would*] *were* [subject] [complement]. &middot; uninverted: *If* [subject] *were* [complement], [main clause].
@@ -953,6 +999,7 @@ Words that stand in for a condition already stated rather than spelling out a ne
 ### either way
 
 **Pronunciation:** /ˈiðər ˌweɪ/ &middot; *EE-thur-way* &middot; the stress is on *either*; /ˈaɪðər/ is the minority American pronunciation and is not an error
+**Русский:** в любом случае; так или иначе — из двух уже названных вариантов
 **Type:** conjunctive adverb (a pro-form standing in for a *whether* alternative) &middot; **Register:** neutral
 **Clause type:** no clause of its own — it points back at a two-branch condition already stated
 **Pattern:** [sentence]. *Either way*, [sentence]. &middot; [sentence]; *either way*, [sentence]. &middot; [clause], *but either way* [clause]. &middot; [main clause] *either way* (final, no comma).
@@ -973,6 +1020,7 @@ Answers a yes/no split already on the table by saying the outcome is the same on
 ### failing that
 
 **Pronunciation:** /ˈfeɪlɪŋ ðæt/ &middot; *FAY-ling-that* &middot; this *that* is the demonstrative pronoun, so it keeps its full /ðæt/ — unlike the complementizer *that* of *provided that* and *given that*, which reduces to /ðət/
+**Русский:** если не выйдет; в противном случае — вводит запасной вариант
 **Type:** conjunctive adverb (participial phrase used as a connective) &middot; **Register:** neutral to formal
 **Clause type:** no clause — it stands in for the whole condition just stated
 **Pattern:** [sentence]. *Failing that*, [sentence]. &middot; [sentence]; *failing that*, [sentence]. &middot; [main clause] or, *failing that*, [alternative]. &middot; *Failing* [noun phrase], [main clause]. &middot; [main clause], *failing which* [clause].
@@ -993,6 +1041,7 @@ Means "if that doesn't work": it points back at the option just named and introd
 ### if not
 
 **Pronunciation:** /ɪf ˈnɑt/ &middot; *if-NOT*
+**Русский:** если нет; в противном случае; а также скалярное «если не»: hundreds, if not thousands
 **Type:** subordinating (elliptical clause) &middot; **Register:** neutral
 **Clause type:** a reduced conditional clause — the verb is recovered from the previous sentence
 **Pattern:** [statement or question]. *If not*, [main clause]. &middot; [statement or question] — *if not*, [main clause]. &middot; [statement]; *if not*, [main clause]. &middot; [adjective or number], *if not* [stronger adjective or number].
@@ -1012,6 +1061,7 @@ Stands in for a whole negative condition already on the table: "if that is not t
 ### if so
 
 **Pronunciation:** /ɪf ˈsoʊ/ &middot; *if-SOH*
+**Русский:** если так; если да — подхватывает только что высказанную возможность
 **Type:** subordinating (elliptical clause) &middot; **Register:** neutral
 **Clause type:** a reduced conditional clause standing in for a positive condition
 **Pattern:** [statement or question]. *If so*, [main clause]. &middot; [statement]; *if so*, [main clause]. &middot; [main clause] *if so*.
@@ -1032,6 +1082,7 @@ Picks up a possibility just raised and says what follows from it, without repeat
 ### if that
 
 **Pronunciation:** /ɪf ˈðæt/ &middot; *if-THAT* &middot; this *that* is the stressed demonstrative and keeps its full vowel, unlike the complementizer *that* of *provided that*, which reduces to /ðət/
+**Русский:** и то вряд ли; от силы — оценка сверху, ставится после числа
 **Type:** subordinating (elliptical clause used as a scalar tag) &middot; **Register:** informal to neutral, chiefly spoken
 **Clause type:** a reduced conditional clause — "if it is even that much"
 **Pattern:** [quantity or measure], *if that*. &middot; [main clause] [quantity], *if that*. &middot; [measure], *if that*, [continuation].
@@ -1052,6 +1103,7 @@ Tacked onto a number or a measure to say the figure is a ceiling and the truth m
 ### in either case
 
 **Pronunciation:** /ɪn ˈiðər keɪs/ &middot; *in-EE-thur-kayss* &middot; /ˈaɪðər/, *EYE-thur*, is the minority American pronunciation and is not an error
+**Русский:** в обоих случаях; и в том, и в другом случае — письменный аналог either way
 **Type:** conjunctive adverb (a pro-form standing in for a two-branch alternative) &middot; **Register:** neutral to formal; writing more than speech
 **Clause type:** no clause of its own — it points back at two possibilities already named
 **Pattern:** [sentence]. *In either case*, [sentence]. &middot; [sentence]; *in either case*, [sentence]. &middot; [clause], and *in either case* [clause]. &middot; [main clause] *in either case* (final, no comma).
@@ -1072,6 +1124,7 @@ Says the consequence is the same on both branches of an alternative that has jus
 ### in that case
 
 **Pronunciation:** /ɪn ˈðæt keɪs/ &middot; *in-THAT-kayss* &middot; *that* keeps its full vowel here because it is the stressed demonstrative, not the complementizer
+**Русский:** в таком случае; тогда — ответ на только что названное условие
 **Type:** conjunctive adverb (demonstrative adverbial phrase) &middot; **Register:** neutral
 **Clause type:** no clause of its own — it points back at a condition somebody has just put on the table
 **Pattern:** [sentence]. *In that case*, [sentence]. &middot; [sentence]; *in that case*, [sentence]. &middot; [clause] and, *in that case*, [clause]. &middot; [subject] *in that case* [verb phrase] (medial, rarer).
@@ -1092,6 +1145,7 @@ Picks up a condition that has just been stated — usually by somebody else — 
 ### in which case
 
 **Pronunciation:** /ɪn ˈwɪtʃ keɪs/ &middot; *in-WICH-kayss*
+**Русский:** в каковом случае; и тогда — продолжает то же предложение
 **Type:** subordinating (sentential relative) &middot; **Register:** neutral
 **Clause type:** a non-restrictive relative clause commenting on the whole clause before it
 **Pattern:** [clause], *in which case* [clause]. &middot; [sentence]. *In which case*, [sentence]. (informal)
@@ -1111,6 +1165,7 @@ Chains a consequence onto a possibility already stated, with *which* pointing ba
 ### or else
 
 **Pronunciation:** /ɔr ˈɛls/ &middot; *or-ELSS* &middot; reduced /ər ˈɛls/
+**Русский:** а то; иначе; а не то — угроза или предупреждение (разг. в чистом виде)
 **Type:** coordinating (fixed phrase) &middot; **Register:** neutral; the bare threat use is informal
 **Clause type:** coordinate clause stating the negative alternative
 **Pattern:** [imperative or statement], *or else* [clause]. &middot; [imperative], *or else*.
@@ -1130,6 +1185,7 @@ Names what happens if the first clause is not carried out — the coordinated tw
 ### otherwise
 
 **Pronunciation:** /ˈʌðərˌwaɪz/ &middot; *UTH-ur-wyze*
+**Русский:** иначе; в противном случае — наречие-связка, требует точки с запятой перед собой
 **Type:** conjunctive adverb &middot; **Register:** neutral
 **Clause type:** no clause of its own — it links two independent clauses as an adverb
 **Pattern:** [independent clause]; *otherwise*, [independent clause]. &middot; [independent clause]. *Otherwise*, [independent clause]. &middot; [independent clause] — *otherwise* [independent clause]. &middot; [independent clause]; [subject] *would otherwise* [verb phrase] (medial).
@@ -1154,6 +1210,7 @@ The conditional formulas that live in contracts, statutes, briefs, and old books
 ### assuming arguendo that
 
 **Pronunciation:** /əˈsumɪŋ ˌɑrɡjuˈɛndoʊ ðət/ &middot; *uh-SOO-ming-ar-gyoo-EN-doh-thuht* &middot; *arguendo* is read as an English word, four syllables with the stress on *-en-*; the complementizer *that* reduces to /ðət/
+**Русский:** юр.: допустим даже, что — уступка исключительно ради спора, без признания
 **Type:** subordinating (participial, with a Latin adverb wedged inside it) &middot; **Register:** legal (briefs, opinions, oral argument); it appears essentially nowhere else
 **Clause type:** adverbial clause of concessive condition — a premise conceded for the sake of argument only
 **Pattern:** *Assuming arguendo that* [clause], [main clause]. &middot; *Assuming, arguendo, that* [clause], [main clause]. &middot; [main clause], *assuming arguendo that* [clause]. &middot; [verb] *arguendo* [that-clause].
@@ -1174,6 +1231,7 @@ Concedes a point without accepting it, purely in order to show that the concessi
 ### be it that
 
 **Pronunciation:** /bi ɪt ˈðæt/ &middot; *bee-it-THAT* &middot; *be* keeps its full vowel because it is the subjunctive verb carrying the construction, and *that* is stressed as the demonstrative-turned-complementizer of older English
+**Русский:** устар.: пусть даже; допустим, что — старая формула с сослагательным be
 **Type:** subordinating (inverted present subjunctive of *be* plus a complementizer) &middot; **Register:** archaic
 **Clause type:** adverbial clause of concessive condition — a premise granted for argument
 **Pattern:** *Be it that* [clause], [main clause]. &middot; *So be it that* [clause], [main clause]. &middot; *Be it so that* [clause], [main clause].
@@ -1193,6 +1251,7 @@ An old subjunctive formula meaning "granting that" or "even supposing that," bui
 ### but and if
 
 **Pronunciation:** /bət ən ˈɪf/ &middot; *buht-uhn-IF* &middot; *and* reduces to /ən/ and the three words run together as one unit, with the stress falling on *if*
+**Русский:** устар., библ.: а если — формула Библии короля Иакова, значит просто «но если»
 **Type:** subordinating (a fossilized doublet — the old conditional *and* reinforced by *if*) &middot; **Register:** archaic, biblical
 **Clause type:** adverbial clause of condition opening a new turn in a narrative
 **Pattern:** *But and if* [clause], [main clause]. &middot; *And if* [clause], [main clause].
@@ -1212,6 +1271,7 @@ A King James Bible formula meaning nothing more than "but if." The *and* in it i
 ### ceteris paribus
 
 **Pronunciation:** /ˌkɛtərɪs ˈpærɪbəs/ &middot; *KET-uh-ris-PAIR-ih-buhs* &middot; also /ˌsɛtərɪs/, *SET-uh-ris*, from the English tradition of reading Latin *c* as /s/; both are heard in American economics departments and neither is corrected
+**Русский:** при прочих равных — лат. формула экономистов, книжн.
 **Type:** subordinating (a Latin ablative absolute borrowed whole; an adverbial phrase, not a conjunction) &middot; **Register:** formal, technical Latin (economics, philosophy, legal argument)
 **Clause type:** no clause — a fixed Latin phrase standing in for a whole condition
 **Pattern:** *Ceteris paribus*, [main clause]. &middot; [main clause], *ceteris paribus*. &middot; [subject], *ceteris paribus*, [verb phrase].
@@ -1232,6 +1292,7 @@ The Latin for *all else being equal*, and the standard hedge of economic reasoni
 ### ex hypothesi
 
 **Pronunciation:** /ˌɛks haɪˈpɑθəsaɪ/ &middot; *eks-hy-POTH-uh-sy* &middot; the final syllable is *-sy*, /saɪ/, in the traditional English pronunciation of Latin; /ˌɛks haɪˈpɑθəsi/, *-see*, is also heard
+**Русский:** по принятому допущению; по условию — лат., в философии и логике
 **Type:** subordinating (a Latin prepositional phrase used as a sentence adverbial; not a conjunction) &middot; **Register:** formal, technical Latin (analytic philosophy, logic, appellate opinions)
 **Clause type:** no clause — a fixed Latin phrase pointing back at a hypothesis already granted
 **Pattern:** *Ex hypothesi*, [main clause]. &middot; [subject] is, *ex hypothesi*, [complement]. &middot; [main clause] *ex hypothesi*.
@@ -1251,6 +1312,7 @@ Means "by the hypothesis already granted" — it flags that what follows is not 
 ### if and to the extent that
 
 **Pronunciation:** /ˌɪf ən tə ði ɪkˈstɛnt ðət/ &middot; *if-uhn-tuh-thee-ik-STENT-thuht* &middot; *and* reduces to /ən/ and the whole run is unstressed until *extent*
+**Русский:** юр.: если и в той мере, в какой — сразу «да или нет» и «насколько»
 **Type:** subordinating (fixed legal doublet) &middot; **Register:** legal (credit agreements, indentures, tax and indemnity provisions)
 **Clause type:** adverbial clause of condition combining a yes-or-no test with a scope test
 **Pattern:** [main clause] *if and to the extent that* [clause]. &middot; *If and to the extent that* [clause], [main clause]. &middot; [main clause] *to the extent, if any, that* [clause]. &middot; [main clause] *if and to the extent* [past participle].
@@ -1271,6 +1333,7 @@ A drafter's belt-and-suspenders phrase asking two questions at once: does this a
 ### if so be that
 
 **Pronunciation:** /ɪf soʊ ˈbi ðət/ &middot; *if-soh-BEE-thuht* &middot; the stress sits on *be*, the subjunctive verb that carries the condition; the complementizer *that* reduces to /ðət/ and is often dropped altogether
+**Русский:** устар.: если случится так, что; при условии что
 **Type:** subordinating (archaic — *if* plus the present subjunctive *be*, with an optional complementizer) &middot; **Register:** archaic
 **Clause type:** adverbial clause of condition
 **Pattern:** *If so be that* [clause], [main clause]. &middot; *If so be* [clause], [main clause]. &middot; [main clause] *if so be that* [clause].
@@ -1290,6 +1353,7 @@ An old way of saying "if it should turn out that" or "provided that," with the s
 ### in default of
 
 **Pronunciation:** /ɪn dɪˈfɔlt əv/ &middot; *in-dih-FAWLT-uhv* &middot; /dɪˈfɑlt/ for speakers with the cot–caught merger; note that the computing noun *default* is stressed on the first syllable, *DEE-fawlt*, and this legal phrase never is
+**Русский:** юр.: за отсутствием; при неисполнении — формула завещаний и закладных
 **Type:** subordinating (prepositional — takes a noun phrase) &middot; **Register:** formal, legal (wills, trusts, mortgages, older statutes)
 **Clause type:** no clause — a noun phrase naming the act that fails to happen
 **Pattern:** *In default of* [noun phrase], [main clause]. &middot; [main clause] *in default of* [noun phrase]. &middot; [main clause], *in default whereof* [clause]. (older drafting)
@@ -1310,6 +1374,7 @@ The drafting formula for "if that does not happen": it names an act that was req
 ### in no event
 
 **Pronunciation:** /ɪn ˈnoʊ ɪˌvɛnt/ &middot; *in-NOH-ih-vent* &middot; the stress sits on *no*, which is what makes the negative absolute; *event* keeps a secondary stress
+**Русский:** ни в коем случае; ни при каких обстоятельствах — юр., требует инверсии
 **Type:** conjunctive adverb (a fronted negative adverbial; not a conjunction) &middot; **Register:** formal, legal (limitation-of-liability, indemnity, and cap provisions)
 **Clause type:** no clause of its own — a sentence adverbial that forces subject–auxiliary inversion when it is fronted
 **Pattern:** *In no event shall* [subject] [bare infinitive]. &middot; *In no event will* [subject] [verb phrase]. &middot; *In no event may* [subject] [bare infinitive]. &middot; uninverted: [subject] shall *in no event* [verb phrase].
@@ -1330,6 +1395,7 @@ The drafter's absolute negative — the flat denial that opens a limitation-of-l
 ### peradventure
 
 **Pronunciation:** /ˌpɛrədˈvɛntʃər/ &middot; *pair-ud-VEN-chur* &middot; four syllables with the stress on *-ven-*; the second half is the ordinary word *adventure* in its older sense of "chance"
+**Русский:** устар.: если случайно, а вдруг; как наречие — «быть может»
 **Type:** subordinating (archaic); the same word is an adverb meaning "perhaps" and a noun meaning "doubt" &middot; **Register:** archaic
 **Clause type:** adverbial clause of condition, or of apprehension after a verb of fearing
 **Pattern:** *Peradventure* [clause], [main clause]. &middot; *If peradventure* [clause], [main clause]. &middot; [main clause] *lest peradventure* [clause]. &middot; *beyond peradventure of doubt* (the surviving noun idiom).
@@ -1349,6 +1415,7 @@ The old word for "by chance," used as a conjunction meaning "if by chance" and, 
 ### whether or no
 
 **Pronunciation:** /ˈwɛðər ər ˈnoʊ/ &middot; *WETH-ur-ur-NOH* &middot; identical to *whether or not* except in the last word, and the *no* takes exactly the stress the *not* would
+**Русский:** устар., книжн.: независимо от того, … или нет — старая форма whether or not
 **Type:** subordinating; also a complementizer in noun clauses &middot; **Register:** archaic, literary
 **Clause type:** adverbial clause of concessive condition; also a noun clause
 **Pattern:** *Whether or no* [clause], [main clause]. &middot; [main clause] *whether or no* [clause]. &middot; [verb of knowing or asking] *whether or no* [clause]. &middot; [main clause] *whether* [clause] *or no* (the split form).

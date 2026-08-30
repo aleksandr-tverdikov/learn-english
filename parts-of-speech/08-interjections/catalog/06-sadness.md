@@ -11,6 +11,7 @@ This category runs from real grief (*alas*, *my condolences*) through the enormo
 ### aw
 
 **Pronunciation:** /ɔ/ &middot; *AW* (with the vowel of *saw*; many Americans merge this with /ɑ/, the vowel of *father*)
+**Русский:** ой / а-а-а — мягкий возглас умиления или сочувствия
 **Type:** primary &middot; **Register:** informal
 **Variants:** *aww*, *awww*, *awwww*
 
@@ -28,6 +29,7 @@ A soft, falling sound of tenderness or sympathy — the noise you make at a pupp
 ### bless your heart
 
 **Pronunciation:** /ˌblɛs jɚ ˈhɑrt/ &middot; *bless yer HART*
+**Русский:** ах ты бедняжка — южная формула сочувствия, часто вежливая насмешка
 **Type:** phrase &middot; **Register:** regional (Southern) &mdash; frequently a polite insult
 **Variants:** *bless her heart*, *bless his heart*, *bless it*
 
@@ -45,6 +47,7 @@ A Southern formula that wraps sympathy around someone's misfortune or shortcomin
 ### my condolences
 
 **Pronunciation:** /maɪ kənˈdoʊlənsəz/ &middot; *my kun-DOH-lun-siz*
+**Русский:** мои соболезнования — формальное сочувствие после чьей-то смерти
 **Type:** phrase &middot; **Register:** formal
 **Variants:** *my deepest condolences*, *our condolences*, *condolences*
 
@@ -61,6 +64,7 @@ The set formula for expressing sympathy after a death. Its formality is the poin
 ### poor thing
 
 **Pronunciation:** /ˌpʊr ˈθɪŋ/ &middot; *poor THING* (the first word is also commonly /pɔr/, rhyming with *pour*)
+**Русский:** бедняжка / бедолага — жалость; о взрослом звучит снисходительно или саркастично
 **Type:** phrase &middot; **Register:** informal (condescending, and often sarcastic, when aimed at another adult)
 **Variants:** *poor baby*, *poor you*, *poor guy*, *you poor thing*
 
@@ -77,6 +81,7 @@ A quick expression of pity for someone — or an animal — who is suffering or 
 ### sorry for your loss
 
 **Pronunciation:** /ˌsɑri fɚ jɚ ˈlɔs/ &middot; *SAR-ee fer yer LAWSS* (many Americans say /ˈsɔri/ for the first word, and the merged /ˈlɑs/ for the last)
+**Русский:** соболезную вашей утрате — обычная американская формула соболезнования
 **Type:** phrase &middot; **Register:** neutral
 **Variants:** *I'm sorry for your loss*, *so sorry for your loss*, *sorry about your loss*
 
@@ -94,6 +99,7 @@ The ordinary American condolence, spoken at a wake or written in a card. It is w
 ### that sucks
 
 **Pronunciation:** /ˌðæt ˈsʌks/ &middot; *that SUKS*
+**Русский:** фигово / вот отстой — грубовато-разг. отклик на чужую неприятность
 **Type:** phrase &middot; **Register:** very informal &mdash; mildly crude; the verb's obscene origin is faded but not gone, and older or stricter listeners still hear it
 **Variants:** *this sucks*, *that really sucks*, *sucks*, *that sucks, man*
 
@@ -111,6 +117,7 @@ The default sympathetic reply to a friend's bad news for most Americans under ab
 ### there there
 
 **Pronunciation:** /ˈðɛr ˌðɛr/ &middot; *THAIR thair*
+**Русский:** ну-ну / ну всё, всё — утешение плачущему, слегка старомодное
 **Type:** phrase &middot; **Register:** informal
 **Variants:** *there, there*, *there now*
 
@@ -127,6 +134,7 @@ Soothing words said while comforting someone who is crying or upset, usually alo
 ### too bad
 
 **Pronunciation:** /ˌtu ˈbæd/ &middot; *too BAD*
+**Русский:** жаль, обидно — от искреннего сочувствия до сухого «это не мои проблемы»
 **Type:** phrase &middot; **Register:** neutral
 **Variants:** *that's too bad*, *aw, too bad*
 
@@ -143,6 +151,7 @@ A short response to bad news or a missed opportunity, ranging from real sympathy
 ### tough luck
 
 **Pronunciation:** /ˌtʌf ˈlʌk/ &middot; *tuff LUK*
+**Русский:** не повезло — tough break искренне, голое tough luck скорее «твои проблемы»
 **Type:** phrase &middot; **Register:** informal (bare *tough luck* is usually a brush-off, not sympathy)
 **Variants:** *tough break*, *that's tough*, *tough*, *tough one*, *tough noogies*
 
@@ -160,6 +169,7 @@ A remark on somebody's bad fortune whose meaning flips with the wording. *Tough 
 ### what a shame
 
 **Pronunciation:** /ˌwʌt ə ˈʃeɪm/ &middot; *wut uh SHAYM*
+**Русский:** какая жалость / как обидно — сожаление о том, что пропало зря
 **Type:** phrase &middot; **Register:** neutral
 **Variants:** *such a shame*, *a shame*, *shame*
 
@@ -178,6 +188,7 @@ A regretful comment on a situation that turned out badly, especially one where s
 ### alack
 
 **Pronunciation:** /əˈlæk/ &middot; *uh-LAK*
+**Русский:** увы — устар., сохранилось только в шутку, обычно в паре alas and alack
 **Type:** primary &middot; **Register:** archaic (surviving only as a joke)
 **Variants:** *alack-a-day*, *alas and alack*
 
@@ -194,6 +205,7 @@ An archaic cry of grief or regret, the old companion to *alas*. No American says
 ### alas
 
 **Pronunciation:** /əˈlæs/ &middot; *uh-LASS*
+**Русский:** увы — книжн./устар., в современной речи чаще с иронией: «увы, нет»
 **Type:** primary &middot; **Register:** dated
 **Variants:** *alas and alack*
 
@@ -210,6 +222,7 @@ A word of regret introducing something unfortunate. In modern American English i
 ### boo-hoo
 
 **Pronunciation:** /ˌbu ˈhu/ &middot; *boo-HOO* — a conventional spelling of crying rather than a transcription of it; real sobbing has no fixed consonants
+**Русский:** бу-у-у / ы-ы-ы — изображение плача; чаще насмешливо: «поплачь мне тут»
 **Type:** onomatopoeic &middot; **Register:** informal (openly mocking when aimed at another person)
 **Variants:** *boohoo*, *boo hoo hoo*
 
@@ -226,6 +239,7 @@ An imitation of loud crying. Occasionally it describes real sobbing, but far mor
 ### groan
 
 **Pronunciation:** The word is /ɡroʊn/ &middot; *GROHN*. The sound it names is not made of speech sounds at all: it is a low, voiced exhalation on a falling pitch with the mouth barely open, no consonants and no settled vowel. Written attempts at the noise itself come out as *ughhh* or *unnnh*.
+**Русский:** *стон* — слово вместо самого стона, пометка в тексте: «ну вот, опять»
 **Type:** secondary &middot; **Register:** informal (also internet/text)
 **Variants:** *big groan*, *audible groan*; often typed between asterisks
 
@@ -243,6 +257,7 @@ Like *sigh* and *sob*, the word stands in for the noise instead of making it —
 ### oy vey
 
 **Pronunciation:** /ˌɔɪ ˈveɪ/ &middot; *oy VAY*
+**Русский:** ой-вей — идишское «ой, беда», возглас усталой досады, разг.
 **Type:** phrase &middot; **Register:** informal (regional — Yiddish-American, strongly associated with New York, but widely understood)
 **Variants:** *oy*, *oy gevalt*, *oy vey iz mir*
 
@@ -259,6 +274,7 @@ A Yiddish cry of dismay, weariness, or "what a mess." It has spread far beyond J
 ### sigh
 
 **Pronunciation:** The word is /saɪ/ &middot; *SIGH* (rhymes with *my*). An actual sigh is not speech at all — a long, audible out-breath, mostly voiceless, with no consonants or vowels in it to transcribe.
+**Русский:** *вздох* — слово вместо самого вздоха, пометка усталости и смирения
 **Type:** secondary &middot; **Register:** informal (also internet/text)
 **Variants:** *heavy sigh*, *big sigh*; often typed between asterisks
 
@@ -275,6 +291,7 @@ The word for the breath itself, spoken or typed instead of actually sighing, to 
 ### sob
 
 **Pronunciation:** /sɑb/ &middot; *SAHB*
+**Русский:** *всхлип* / *рыдаю* — слово вместо плача, обычно шутливо-преувеличенно
 **Type:** secondary &middot; **Register:** informal (also internet/text)
 **Variants:** *sob sob*, *sniff*
 
@@ -291,6 +308,7 @@ A typed or spoken stand-in for crying, used the way *sigh* is used — as a stag
 ### waah
 
 **Pronunciation:** /wɑː/ &middot; *WAAH*, held long — a stylized spelling; a real infant cry is a strained, high-pitched wail with no consonant at the front
+**Русский:** уа-а-а — плач младенца; о взрослом — насмешка над нытьём
 **Type:** onomatopoeic &middot; **Register:** informal (imitating a small child; mocking, and often insulting, when aimed at an adult)
 **Variants:** *wah*, *waaah*, *waaaah*
 
@@ -307,6 +325,7 @@ The written sound of a baby or small child crying at full volume. Adults use it 
 ### woe is me
 
 **Pronunciation:** /ˌwoʊ ɪz ˈmi/ &middot; *woh iz MEE*
+**Русский:** горе мне / о горе — устар., сегодня почти всегда в шутку над своей жалостью
 **Type:** phrase &middot; **Register:** dated (now almost always jokey)
 **Variants:** *oh, woe is me*
 
@@ -325,6 +344,7 @@ An old-fashioned lament, used today almost entirely in mockery — poking fun at
 ### aw man
 
 **Pronunciation:** /ˌɔ ˈmæn/ &middot; *aw MAN*
+**Русский:** ну во-о-от / эх — досадливый стон при нежелательной новости
 **Type:** phrase &middot; **Register:** informal
 **Variants:** *aw, man*, *oh man*, *man*
 
@@ -341,6 +361,7 @@ A falling groan of disappointment at news you did not want — a canceled plan, 
 ### blast
 
 **Pronunciation:** /blæst/ &middot; *BLAST*
+**Русский:** чёрт побери — устар., преим. брит.; у американца звучит наигранно
 **Type:** secondary &middot; **Register:** dated (chiefly British; in American mouths, theatrical)
 **Variants:** *blast it*, *blast it all*
 
@@ -357,6 +378,7 @@ A mild, old-fashioned oath of annoyance and disappointment — more common in Br
 ### bummer
 
 **Pronunciation:** /ˈbʌmɚ/ &middot; *BUM-er*
+**Русский:** облом / вот досада — разг. приговор: «жалко, не вышло»
 **Type:** secondary &middot; **Register:** informal
 **Variants:** *what a bummer*, *major bummer*, *bummer, dude*
 
@@ -373,6 +395,7 @@ A one-word verdict that something is disappointing. It works both as sympathy fo
 ### crud
 
 **Pronunciation:** /krʌd/ &middot; *KRUD*
+**Русский:** блин / ёлки — очень мягкий эвфемизм, годится и при детях
 **Type:** secondary &middot; **Register:** informal
 **Variants:** *oh crud*, *aw crud*
 
@@ -389,6 +412,7 @@ A very mild, family-safe substitute for a stronger word, said when something goe
 ### curses
 
 **Pronunciation:** /ˈkɝsəz/ &middot; *KURS-iz*
+**Русский:** проклятье! — устар., шутливо, в духе злодея из старого мультфильма
 **Type:** secondary &middot; **Register:** dated (jokey)
 **Variants:** *curses, foiled again*
 
@@ -405,6 +429,7 @@ A mock-villain exclamation of defeat, borrowed from old movies and cartoons. Nob
 ### dagnabbit
 
 **Pronunciation:** /dæɡˈnæbɪt/ &middot; *dag-NAB-it*
+**Русский:** ах ты ж ёлки-палки — устар., комично-деревенская замена крепкого ругательства
 **Type:** primary &middot; **Register:** dated (regional and cartoonish)
 **Variants:** *dagnabit*, *dag nab it*, *dad-gum it*
 
@@ -421,6 +446,7 @@ A heavily disguised version of a much stronger oath, associated with rural old-t
 ### dang
 
 **Pronunciation:** /dæŋ/ &middot; *DANG*
+**Русский:** чёрт / блин — смягчённое damn; dang it — досада, голое dang часто удивление
 **Type:** secondary &middot; **Register:** informal
 **Variants:** *dang it*, *dangit*, *well dang*
 
@@ -438,6 +464,7 @@ A softened form of *damn*, safe in almost any casual American setting. Bare *dan
 ### darn
 
 **Pronunciation:** /dɑrn/ &middot; *DARN*
+**Русский:** блин / ёлки-палки — самая частая приличная замена damn
 **Type:** secondary &middot; **Register:** informal
 **Variants:** *darn it*, *darnit*, *gosh darn it*, *durn*
 
@@ -454,6 +481,7 @@ The most common polite substitute for *damn* — safe in front of children, cowo
 ### dear me
 
 **Pronunciation:** /ˌdɪr ˈmi/ &middot; *deer MEE*
+**Русский:** ах ты боже мой / батюшки — устар., мягкая досада
 **Type:** phrase &middot; **Register:** dated
 **Variants:** *oh dear me*, *dear, dear*
 
@@ -470,6 +498,7 @@ A gentle, old-fashioned expression of dismay — the kind of thing a polite olde
 ### doggone
 
 **Pronunciation:** /ˌdɔɡˈɔn/ &middot; *dawg-GAWN* (for speakers who merge the vowels, /ˌdɑɡˈɑn/ &middot; *dahg-GAHN*)
+**Русский:** чёрт возьми; окаянный — разг., по-деревенски тёплая замена damn
 **Type:** secondary &middot; **Register:** informal (older speakers; Southern and Midwestern flavor)
 **Variants:** *doggone it*, *doggonit*, *dadgum*
 
@@ -487,6 +516,7 @@ A homespun euphemism for *damn*, used as a standalone exclamation or as an adjec
 ### drat
 
 **Pronunciation:** /dræt/ &middot; *DRAT*
+**Русский:** тьфу ты / вот досада — устар., чопорно-милое восклицание
 **Type:** primary &middot; **Register:** dated
 **Variants:** *drat it*, *oh drat*
 
@@ -503,6 +533,7 @@ A small, prim exclamation of annoyance at something that has gone wrong. It is o
 ### fiddlesticks
 
 **Pronunciation:** /ˈfɪdəlstɪks/ &middot; *FID-ul-stiks*
+**Русский:** вот ещё! — устар.: досада, а также отмахивание «глупости, чепуха»
 **Type:** secondary &middot; **Register:** dated
 **Variants:** *fiddle*, *oh fiddlesticks*
 
@@ -519,6 +550,7 @@ A quaint exclamation of annoyance, heard now mostly from older speakers or from 
 ### figures
 
 **Pronunciation:** /ˈfɪɡjɚz/ &middot; *FIG-yerz*
+**Русский:** ну конечно / так и знал — разочарование без малейшего удивления
 **Type:** secondary &middot; **Register:** informal
 **Variants:** *that figures*, *it figures*, *well, that figures*
 
@@ -535,6 +567,7 @@ A resigned comment meaning "of course that happened — it fits the pattern." It
 ### fudge
 
 **Pronunciation:** /fʌdʒ/ &middot; *FUJ*
+**Русский:** блин / ёшкин кот — приличная замена на ту же букву, что и f-слово
 **Type:** secondary &middot; **Register:** informal
 **Variants:** *oh fudge*, *aw fudge*
 
@@ -551,6 +584,7 @@ A family-friendly stand-in for the strongest four-letter word, chosen because it
 ### heck
 
 **Pronunciation:** /hɛk/ &middot; *HEK*
+**Русский:** чёрт / ёлки — смягчённое hell; aw heck смиренно, oh heck тревожно
 **Type:** secondary &middot; **Register:** informal
 **Variants:** *oh heck*, *aw heck*, *what the heck*
 
@@ -567,6 +601,7 @@ A soft replacement for *hell*, used to register disappointment or exasperation. 
 ### just my luck
 
 **Pronunciation:** /ˌdʒʌst maɪ ˈlʌk/ &middot; *just my LUK*
+**Русский:** везёт как утопленнику / вот так всегда со мной — сетование на своё невезение
 **Type:** phrase &middot; **Register:** informal
 **Variants:** *of course, just my luck*, *my luck*
 
@@ -583,6 +618,7 @@ A wry complaint that a misfortune has landed on you specifically, as though the 
 ### nuts
 
 **Pronunciation:** /nʌts/ &middot; *NUTS*
+**Русский:** вот ещё! / тьфу ты — разг., слегка устаревший возглас разочарования
 **Type:** secondary &middot; **Register:** informal (somewhat dated)
 **Variants:** *aw nuts*, *oh nuts*
 
@@ -599,6 +635,7 @@ A short bark of disappointment, most familiar from mid-century American speech a
 ### oh brother
 
 **Pronunciation:** /ˌoʊ ˈbrʌðɚ/ &middot; *oh BRUH-ther*
+**Русский:** ну сколько можно / о господи — усталое «опять двадцать пять», с закатыванием глаз
 **Type:** phrase &middot; **Register:** informal
 **Variants:** *oh, brother*, *brother*
 
@@ -615,6 +652,7 @@ A weary groan at something ridiculous, tiresome, or overdramatic. It means "here
 ### oh dear
 
 **Pronunciation:** /ˌoʊ ˈdɪr/ &middot; *oh DEER*
+**Русский:** ой-ой / ах ты боже мой — мягкая реакция на неприятность, уместна с кем угодно
 **Type:** phrase &middot; **Register:** neutral
 **Variants:** *oh dear, oh dear*, *oh dear me*
 
@@ -631,6 +669,7 @@ A soft, slightly formal reaction to something that has gone wrong or is about to
 ### oh great
 
 **Pronunciation:** /ˌoʊ ˈɡreɪt/ &middot; *oh GRAYT*
+**Русский:** ну прекрасно / вот только этого не хватало — чистый сарказм
 **Type:** phrase &middot; **Register:** informal
 **Variants:** *oh, great*, *just great*, *that's just great*
 
@@ -647,6 +686,7 @@ Pure sarcasm: the words say "great," the flat or falling tone says the opposite.
 ### oh no
 
 **Pronunciation:** /ˌoʊ ˈnoʊ/ &middot; *oh NO*
+**Русский:** о нет / ой, нет — стандартная реакция на плохую новость
 **Type:** phrase &middot; **Register:** neutral
 **Variants:** *oh no no no*, *oh nooo*, *oh no!*
 
@@ -663,6 +703,7 @@ The default American reaction to bad news, small disasters, and dawning realizat
 ### oof
 
 **Pronunciation:** /ʊf/ &middot; *UUF* (with the vowel of *book*); also /uf/ &middot; *OOF*
+**Русский:** ой / ух — сочувственно-болезненный возглас, очень частый в сети
 **Type:** primary &middot; **Register:** informal (extremely common online)
 **Variants:** *big oof*, *ooof*
 
@@ -679,6 +720,7 @@ Originally the grunt of getting hit in the stomach, now a general reaction to so
 ### phooey
 
 **Pronunciation:** /ˈfui/ &middot; *FOO-ee*
+**Русский:** тьфу / да ну его — устар., пренебрежительная досада
 **Type:** primary &middot; **Register:** dated
 **Variants:** *aw phooey*, *phooey on that*
 
@@ -695,6 +737,7 @@ A dismissive noise of disappointment or contempt, roughly "forget it, that's no 
 ### rats
 
 **Pronunciation:** /ræts/ &middot; *RATS*
+**Русский:** вот досада / эх — приличное, «детское» восклицание разочарования
 **Type:** secondary &middot; **Register:** informal
 **Variants:** *oh rats*, *aw rats*
 
@@ -711,6 +754,7 @@ A clean, kid-safe exclamation of disappointment when a small plan falls through.
 ### shoot
 
 **Pronunciation:** /ʃut/ &middot; *SHOOT*
+**Русский:** блин / чёрт — приличная замена shit, с той же начальной буквой
 **Type:** secondary &middot; **Register:** informal
 **Variants:** *oh shoot*, *aw shoot*
 
@@ -727,6 +771,7 @@ The standard polite substitute for a much stronger word that begins the same way
 ### shucks
 
 **Pronunciation:** /ʃʌks/ &middot; *SHUKS*
+**Русский:** эх, досада; в обороте aw shucks — смущённое «да ну что вы» в ответ на похвалу
 **Type:** secondary &middot; **Register:** informal (folksy)
 **Variants:** *aw shucks*, *oh shucks*
 
@@ -744,6 +789,7 @@ Two related uses. **1.** A mild, countrified expression of disappointment. **2.*
 ### story of my life
 
 **Pronunciation:** /ˌstɔri əv maɪ ˈlaɪf/ &middot; *stor-ee uv my LIFE*
+**Русский:** вечно со мной так / вся моя жизнь такая — грустная самоирония
 **Type:** phrase &middot; **Register:** informal
 **Variants:** *that's the story of my life*
 
@@ -760,6 +806,7 @@ A rueful comment that a disappointment is entirely typical of your existence. It
 ### tarnation
 
 **Pronunciation:** /tɑrˈneɪʃən/ &middot; *tar-NAY-shun*
+**Русский:** какого лешего / что за напасть — устар., комично-деревенская замена damnation
 **Type:** secondary &middot; **Register:** dated (regional and comic)
 **Variants:** *what in tarnation*, *what in tarnation's name*
 
@@ -776,6 +823,7 @@ An old euphemism for *damnation*, surviving now almost entirely in the question 
 ### womp womp
 
 **Pronunciation:** /ˈwɑmp ˌwɑmp/ &middot; *WAHMP wahmp* — the phonemes are the least of it; the whole effect is the pitch, which slides down a step on each beat, and speakers who cannot manage the glide usually hum it instead of saying it
+**Русский:** звук грустной трубы — издевательское «ай-ай-ай, как жаль», то есть «мне всё равно»
 **Type:** onomatopoeic &middot; **Register:** very informal (openly mocking, and often cruel, when aimed at another person)
 **Variants:** *womp*, *wah wah*, *sad trombone*
 
@@ -794,6 +842,7 @@ A vocal imitation of the descending "sad trombone" sound effect, marking a letdo
 ### F
 
 **Pronunciation:** /ɛf/ &middot; *EFF*
+**Русский:** F — «помянем»: от игрового «press F to pay respects», полушутливое соболезнование в чате
 **Type:** secondary &middot; **Register:** internet/text
 **Variants:** *press F*, *F in the chat*, *F's in the chat*
 
@@ -810,6 +859,7 @@ A single letter posted to pay respects to something lost, from the video-game pr
 ### rip
 
 **Pronunciation:** usually spelled out, /ˌɑr ˌaɪ ˈpi/ &middot; *ar-eye-PEE*; increasingly said as one word, /rɪp/ &middot; *RIP*
+**Русский:** покойся с миром, рип — интернет-сокр. RIP о чём угодно сломавшемся или пропавшем
 **Type:** secondary &middot; **Register:** internet/text
 **Variants:** *RIP*, *rest in peace*, *r.i.p.*
 
@@ -826,6 +876,7 @@ Short for *rest in peace*, extended online to anything that has ended, broken, o
 ### sad face
 
 **Pronunciation:** /ˌsæd ˈfeɪs/ &middot; *sad FACE*
+**Русский:** грустный смайлик — словами о печальном смайле: «мне обидно», без сцен
 **Type:** phrase &middot; **Register:** internet/text
 **Variants:** *sadface*, *sad face emoji*
 
@@ -844,6 +895,7 @@ The words for the typed frown, used when you want to register disappointment wit
 ### ah well
 
 **Pronunciation:** /ˌɑ ˈwɛl/ &middot; *ah WELL*
+**Русский:** ну что ж / ладно — мягкое, философское принятие
 **Type:** phrase &middot; **Register:** neutral
 **Variants:** *ah, well*
 
@@ -860,6 +912,7 @@ A soft sigh of acceptance, close to *oh well* but a shade gentler and more philo
 ### can't win 'em all
 
 **Pronunciation:** /ˌkænt ˈwɪn əm ˌɔl/ &middot; *kant WIN em awl*
+**Русский:** всего не выиграешь — утешение после проигрыша: где-то повезёт, где-то нет
 **Type:** phrase &middot; **Register:** informal
 **Variants:** *you can't win 'em all*, *can't win them all*, *win some, lose some*
 
@@ -876,6 +929,7 @@ A stock consolation after a loss, aimed at yourself or handed to somebody else. 
 ### c'est la vie
 
 **Pronunciation:** /ˌseɪ lɑ ˈvi/ &middot; *say lah VEE*
+**Русский:** селяви — «такова жизнь», пожатие плечами перед неизбежным
 **Type:** phrase &middot; **Register:** informal
 **Variants:** *say la vee* (common misspelling)
 
@@ -892,6 +946,7 @@ French for "that's life," fully naturalized in American English as a shrug at so
 ### it is what it is
 
 **Pronunciation:** /ɪt ˌɪz wʌt ɪt ˈɪz/ &middot; *it IZ wut it IZ* (both forms of *is* are stressed; the second carries the main beat)
+**Русский:** как есть, так есть / ничего не поделаешь — современное «что уж теперь»
 **Type:** phrase &middot; **Register:** informal
 **Variants:** *is what it is*
 
@@ -908,6 +963,7 @@ The modern American shrug for an unchangeable, unwelcome situation. It has becom
 ### oh well
 
 **Pronunciation:** /ˌoʊ ˈwɛl/ &middot; *oh WELL*
+**Русский:** ну и ладно / ну что ж — «проехали» о мелком разочаровании
 **Type:** phrase &middot; **Register:** neutral
 **Variants:** *oh, well*, *ah well*
 
@@ -924,6 +980,7 @@ The everyday marker of letting go of a small disappointment. It concedes that th
 ### que sera sera
 
 **Pronunciation:** /ˌkeɪ səˈrɑ səˈrɑ/ &middot; *kay suh-RAH suh-RAH*
+**Русский:** чему быть, того не миновать — устар., шутливо, из песни 1956 года
 **Type:** phrase &middot; **Register:** dated (jokey)
 **Variants:** *que será, será*, *whatever will be, will be*, *che sarà, sarà*
 
@@ -940,6 +997,7 @@ A shrug at an outcome nobody can influence. It reached American English through 
 ### so be it
 
 **Pronunciation:** /ˌsoʊ ˈbi ɪt/ &middot; *so BEE it*
+**Русский:** да будет так / пусть так — книжн., твёрдое принятие с оттенком вызова
 **Type:** phrase &middot; **Register:** neutral (slightly formal)
 **Variants:** *then so be it*
 
@@ -956,6 +1014,7 @@ A firm acceptance of an outcome you did not want, usually said when you have dec
 ### that's life
 
 **Pronunciation:** /ˌðæts ˈlaɪf/ &middot; *thats LIFE*
+**Русский:** такова жизнь / бывает — утешение: неудачи — часть жизни
 **Type:** phrase &middot; **Register:** neutral
 **Variants:** *such is life*, *that's the way it goes*, *that's how it goes*
 
@@ -972,6 +1031,7 @@ A general-purpose consolation that setbacks are simply part of living. It can co
 ### well
 
 **Pronunciation:** /wɛl/ &middot; *WEL*
+**Русский:** ну что ж — с падающей интонацией: «ладно, тут больше нечего сказать»
 **Type:** secondary &middot; **Register:** neutral
 **Variants:** *well then*, *welp*
 
@@ -988,6 +1048,7 @@ Standing alone, with a falling tone and a pause after it, *well* concedes a disa
 ### welp
 
 **Pronunciation:** /wɛlp/ &middot; *WELP*
+**Русский:** ну ладно / ну всё — очень разг. усечённое well: принял и пошёл дальше
 **Type:** secondary &middot; **Register:** very informal
 **Variants:** *whelp* (common misspelling)
 
@@ -1004,6 +1065,7 @@ A clipped, casual *well*, marking the moment you accept a bad outcome and get up
 ### what can you do
 
 **Pronunciation:** /ˌwʌt kən ju ˈdu/ &middot; *wut kin yoo DOO*
+**Русский:** а что поделаешь — риторический вопрос с готовым ответом: ничего
 **Type:** phrase &middot; **Register:** informal
 **Variants:** *what are you gonna do*, *whatcha gonna do*, *what can ya do*, *what else can you do*
 
@@ -1021,6 +1083,7 @@ A rhetorical question that answers itself: nothing. It closes out a complaint by
 ### whatever
 
 **Pronunciation:** /wʌtˈɛvɚ/ &middot; *wut-EV-er*
+**Русский:** да пофиг / как хочешь — разг., часто грубо: разговор окончен, но я не согласен
 **Type:** secondary &middot; **Register:** very informal &mdash; frequently rude; to a parent, partner, or boss it reads as a deliberate provocation
 **Variants:** *whatevs*, *yeah, whatever*
 

@@ -8,13 +8,14 @@ Every preposition in this file does arithmetic on a set. Some widen it — *alon
 
 ## Accompaniment and addition
 
-The base preposition of accompaniment is [with](02-core-relational.md#with), which has its own entry with the other core relational prepositions. The words below are the additive specialists built on top of it: two complex prepositions that mean only accompaniment and never instrument (*along with*, *together with*), two that mean only addition (*as well as*, *in addition to*), the participial of inclusion (*including*) and its commercial twin (*inclusive of*), the arithmetic *plus* and its emphatic *over and above*, the causal *coupled with*, the outfitting *complete with*, the aggrieved *on top of*, the rhetorical pair *not to mention* and *to say nothing of*, which add an item by pretending to leave it out, and *let alone*, which reverses their polarity and adds an item only to place it out of reach.
+The base preposition of accompaniment is [with](02-core-relational.md#with), which has its own entry with the other core relational prepositions. The words below are the additive specialists built on top of it: two complex prepositions that mean only accompaniment and never instrument (*along with*, *together with*), two that mean only addition (*as well as*, *in addition to*), the participial of inclusion (*including*), its commercial twin (*inclusive of*) and its contractual belt-and-suspenders (*including without limitation*), the arithmetic *plus* and its emphatic *over and above*, the causal *coupled with*, the four partnership formulas (*in collaboration with*, *in cooperation with*, *in concert with*, *in tandem with*), the strictly human *in the company of*, the outfitting *complete with*, the aggrieved *on top of*, the rhetorical pair *not to mention* and *to say nothing of*, which add an item by pretending to leave it out, and *let alone*, which reverses their polarity and adds an item only to place it out of reach.
 
 The agreement rule applies to all of them. A phrase introduced by any of these words is a **supplement**, not a second subject. It sits inside commas, it can be lifted out without breaking the sentence, and the verb continues to agree with the original subject alone.
 
 ### along with
 
 **Pronunciation:** /əˈlɔŋ wɪð/ (also /əˈlɑŋ/ with the *cot–caught* merger; *with* also /wɪθ/) &middot; weak /əˈlɔŋ wəð/, /əˈlɔŋ wəθ/ &middot; *uh-LAWNG with*
+**Русский:** вместе с, наряду с — присоединяет спутника или ещё один пункт; число глагола не меняет
 **Type:** complex &middot; **Register:** neutral
 **Complement:** noun phrase, objective-case pronoun, or gerund — never a finite clause, never a bare or *to*-infinitive
 **Pattern:** [clause] *along with* [noun phrase] &middot; [subject], *along with* [noun phrase], [**singular** verb] &middot; *Along with* [noun phrase], [clause]
@@ -37,11 +38,12 @@ Joins a second party or a second item to what has already been named, either as 
 5. The governor, *along with* three of her aides, **was** subpoenaed.
 6. Interest, *along with* late fees, **is** added to the balance every month.
 
-**See also:** [together with](#together-with), [as well as](#as-well-as), [in addition to](#in-addition-to), [coupled with](#coupled-with), [complete with](#complete-with), [with](02-core-relational.md#with)
+**See also:** [together with](#together-with), [as well as](#as-well-as), [in addition to](#in-addition-to), [coupled with](#coupled-with), [complete with](#complete-with), [in collaboration with](#in-collaboration-with), [in the company of](#in-the-company-of), [with](02-core-relational.md#with)
 
 ### as well as
 
 **Pronunciation:** full /æz ˈwɛl æz/ &middot; weak /əz ˈwɛl əz/ — both instances of *as* reduce, and the weak form is what you actually hear &middot; *uhz-WEL-uhz*
+**Русский:** а также, равно как и — добавляет второй пункт вторым планом; глагол согласуется с первым
 **Type:** complex &middot; **Register:** neutral
 **Complement:** noun phrase, objective-case pronoun, or gerund; a **bare infinitive** when the main verb is itself a bare or *to*-infinitive (*She can act as well as sing*) — never a *that*-clause
 **Pattern:** [clause] *as well as* [noun phrase] &middot; [subject], *as well as* [noun phrase], [**singular** verb] &middot; [verb-ing] … *as well as* [verb-ing]
@@ -70,6 +72,7 @@ Adds a second item while keeping the first one in the foreground. This asymmetry
 ### complete with
 
 **Pronunciation:** /kəmˈplit wɪð/ (also /wɪθ/) &middot; weak /kəmˈplit wəð/, /kəmˈplit wəθ/ &middot; *kum-PLEET with*
+**Русский:** в комплекте с — вещь идёт со всем оснащением; часто иронично о нежеланном довеске
 **Type:** complex (adjective + *with*) &middot; **Register:** neutral; a fixture of advertising, real-estate copy, and description
 **Complement:** noun phrase or objective-case pronoun — no gerund, no finite clause, no infinitive
 **Pattern:** [noun] *complete with* [noun phrase] &middot; [clause], *complete with* [noun phrase]
@@ -97,6 +100,7 @@ Presents a thing along with everything that outfits it. It sells hard, and becau
 ### coupled with
 
 **Pronunciation:** /ˈkʌpəld wɪð/ (also /wɪθ/) &middot; weak /ˈkʌpəld wəð/, /ˈkʌpəld wəθ/ &middot; *KUP-uld with*
+**Русский:** в сочетании с, вкупе с — два фактора действуют совместно и дают названный результат
 **Type:** marginal/participial &middot; **Register:** neutral to formal; the analyst's and the reporter's word
 **Complement:** noun phrase, objective-case pronoun, or gerund — never a finite clause
 **Pattern:** [noun phrase], *coupled with* [noun phrase], [verb agreeing with the first noun] &middot; *Coupled with* [noun phrase], [clause] &middot; *coupled with* [verb-ing]
@@ -130,6 +134,7 @@ Joins two factors and reports what they do together. Reporters and analysts reac
 ### in addition to
 
 **Pronunciation:** /ɪn əˈdɪʃən tu/ &middot; weak /ɪn əˈdɪʃən tə/ &middot; *in-uh-DISH-un too*
+**Русский:** в дополнение к, помимо — to здесь предлог, поэтому дальше герундий, а не инфинитив
 **Type:** complex &middot; **Register:** neutral to formal
 **Complement:** noun phrase, objective-case pronoun, or **gerund** — the *to* here is a preposition, so a bare infinitive is an error: *in addition to working*, never *in addition to work full time*. No finite clause.
 **Pattern:** *In addition to* [noun phrase], [clause] &middot; [clause] *in addition to* [noun phrase] &middot; *in addition to* [verb-ing]
@@ -154,9 +159,89 @@ Names something extra that stands alongside what the main clause says, with no s
 
 **See also:** [as well as](#as-well-as), [along with](#along-with), [besides](#besides), [plus](#plus), [over and above](#over-and-above), [not to mention](#not-to-mention)
 
+### in collaboration with
+
+**Pronunciation:** /ɪn kəˌlæbəˈreɪʃən wɪð/ (also /wɪθ/) &middot; weak /ən kəˌlæbəˈreɪʃən wəð/ &middot; *in-kuh-lab-uh-RAY-shun with*
+**Русский:** в сотрудничестве с, совместно с — называет партнёра по совместной работе
+**Type:** complex &middot; **Register:** neutral to formal; institutional — bylines, credit lines, press releases, grant reports
+**Complement:** noun phrase or objective-case pronoun, normally a **named party** — a person, an agency, a company, a university. No finite clause, no infinitive, and for three of the four no gerund: ✗ *in collaboration with rebuilding the archive*. *In tandem with* is the exception and takes a gerund freely (*in tandem with rebuilding the archive*), because what it pairs is two processes rather than two parties.
+**Pattern:** [clause] *in collaboration with* [named party] &middot; *In collaboration with* [named party], [clause] &middot; [subject], *in collaboration with* [party], [**singular** verb]
+**Variants:** *in cooperation with* /ɪn koʊˌɑpəˈreɪʃən wɪð/, *in-koh-op-uh-RAY-shun with* — the institutional side of the same relation, and the standard wording on a government or nonprofit credit line; *in concert with* /ɪn ˈkɑnsərt wɪð/, *in-KON-surt with* — coordinated and simultaneous, the choice when the point is timing; *in tandem with* /ɪn ˈtændəm wɪð/, *in-TAN-dum with* — two things working as a linked pair, and the only one of the four that takes a process as comfortably as a person. *In partnership with* and *in conjunction with* belong to the same family.
+**Contrast:** All four are periphrastic [with](02-core-relational.md#with), and plain *with* would carry the bare meaning in every sentence below; what the longer forms buy is a claim about **how** the two parties are joined. *In collaboration with* claims joint creative or professional work — the partner actually contributed. *In cooperation with* claims institutional consent and assistance, which is why it appears on permits and credit lines and why it can be literally true when the partner did almost nothing. *In concert with* claims **simultaneity and coordination**, and it is the one that survives in adversarial contexts: *acting in concert with* is a term of art in American securities law for parties whose holdings are counted as one block. *In tandem with* claims a **linked pair**, and takes an abstract process where the others want a partner. Against [in conjunction with](11-complex-multiword.md#in-conjunction-with), the colorless "together with" of this group, which makes no claim at all about who did what. Like everything else in this file they are prepositions and not conjunctions, so the verb keeps agreeing with the original subject.
+
+Names the partner a piece of work was done with, and says something about what kind of partnership it was. American writing reaches for these wherever a bare *with* would be ambiguous between "accompanied by", "by means of", and "jointly with" — a byline, a grant credit, and a press release cannot afford that ambiguity.
+
+**1. Joint work, with a named partner.** The core use of *in collaboration with*.
+
+1. The exhibit was mounted *in collaboration with* the tribal historic preservation office.
+2. She wrote the score *in collaboration with* her brother.
+3. *In collaboration with* researchers at Michigan, the lab published three papers in a year.
+
+**2. Institutional sponsorship or consent.** Where *in cooperation with* is the fixed form.
+
+4. The clinic operates *in cooperation with* the county health department.
+5. The festival is presented *in cooperation with* the National Park Service.
+
+**3. Coordinated and simultaneous action.** Where *in concert with* is the fixed form, including in its adversarial legal sense.
+
+6. Local police executed the warrant *in concert with* federal agents.
+7. The two funds bought the shares *in concert with* one another and had to file as a group.
+
+**4. Two things moving as a linked pair.** Where *in tandem with* is the fixed form, and the only one of the four that readily takes a gerund.
+
+8. Wages have risen *in tandem with* rents, so nobody is any better off.
+9. The rollout will proceed *in tandem with* retraining the entire dispatch staff.
+
+**5. Appended to a subject.** The verb agrees with the original subject alone.
+
+10. The museum, *in collaboration with* two universities, **is** digitizing the collection.
+11. The state, *in cooperation with* four counties, **was** named in the consent decree.
+
+**See also:** [together with](#together-with), [along with](#along-with), [coupled with](#coupled-with), [in the company of](#in-the-company-of), [in addition to](#in-addition-to), [with](02-core-relational.md#with)
+
+### in the company of
+
+**Pronunciation:** /ɪn ðə ˈkʌmpəni ʌv/ &middot; weak /ɪn ðə ˈkʌmpəni əv/, reduced /ɪn ðə ˈkʌmpəniə/ &middot; *in-thuh-KUM-puh-nee-uv*
+**Русский:** в обществе кого-л., в компании кого-л. — только о людях: среди кого человек находился
+**Type:** complex &middot; **Register:** formal to neutral; literary, biographical, and legal
+**Complement:** noun phrase or objective-case pronoun naming **people** — no gerund, no finite clause, and normally no inanimate object: *in the company of strangers*, not ✗ *in the company of a suitcase*. The determiner is frozen: never ✗ *in a company of*, never ✗ *in company of*.
+**Pattern:** [clause] *in the company of* [person or people] &middot; *In the company of* [person or people], [clause] &middot; last seen *in the company of* [person]
+**Variants:** *in company with* — dated, and chiefly nautical or commercial (*sailed in company with the Ariel*). Bare *in company*, with nothing after it, is an **adverb** and not this preposition at all (*he behaves better in company*): it names no one, and the object is the whole test.
+**Contrast:** A periphrasis of accompanying [with](02-core-relational.md#with), and the only member of the accompaniment family restricted to **human** company. Where *along with* and *together with* add a second item to a list, *in the company of* describes the situation of the subject — it says whom he was among, and it very often carries a judgment about whether that was good for him. Against [among](03-place-position.md#among), which is neutral about the relationship and takes a group rather than a set of named people; against *accompanied by*, which points at a subordinate escort where *in the company of* points at the surrounding party. Its natural homes are the police blotter, the biography, and any sentence about one person's influence on another.
+
+Places a person among other people and lets that fact color the sentence. It is what English reaches for when the point is not that two people were both present but that one of them was inside the other's orbit.
+
+**1. Reporting whom somebody was with.** Common in police, court, and news writing.
+
+1. He was last seen *in the company of* two men in a gray pickup.
+2. The senator spent the evening *in the company of* the plaintiffs' lawyers.
+
+**2. Describing the effect of the company kept.**
+
+3. She is a different person *in the company of* her sisters.
+4. *In the company of* strangers he hardly says a word.
+
+**3. In praise or in judgment — the evaluative use.**
+
+5. Six months *in the company of* people who read put a dent in his television habit.
+6. He spent that whole summer *in the company of* a crowd his mother could not stand.
+
+**4. Figuratively, of a thing set among its peers.** A learned extension, and the one place the object need not be alive.
+
+7. The painting hangs *in the company of* three Vermeers.
+8. The novel belongs *in the company of* the best work of that decade.
+
+**5. Not a preposition — bare in company.** Nothing follows it, no one is named, and it is an adverb meaning "among other people".
+
+9. He behaves much better *in company*.
+10. The two frigates sailed *in company* as far as the Azores.
+
+**See also:** [along with](#along-with), [together with](#together-with), [in collaboration with](#in-collaboration-with), [without](#without), [with](02-core-relational.md#with)
+
 ### including
 
 **Pronunciation:** /ɪnˈkludɪŋ/ &middot; *in-KLOO-ding*
+**Русский:** включая, в том числе — называет отдельных членов множества; список не считается полным
 **Type:** marginal/participial (fully grammaticalized — it needs no subject to control it) &middot; **Register:** neutral
 **Complement:** noun phrase, objective-case pronoun, gerund, or a ***wh*-clause** (*including how the money was spent*, *including whether the lease can be broken*) — one of the very few prepositions in this file that takes one. Never a *that*-clause and never a tensed clause on its own: ✗ *including it was raining*.
 **Pattern:** [total set], *including* [member], … &middot; [amount] *including* [component] &middot; *including* but not limited to [list]
@@ -190,11 +275,46 @@ Picks out one or more members of a set that has just been named, or folds a comp
 10. The job has its costs, *including* driving ninety minutes each way.
 11. She listed her objections, *including* having to sign a five-year lease.
 
-**See also:** [inclusive of](#inclusive-of), [excluding](#excluding), [exclusive of](#exclusive-of), [not counting](#not-counting), [plus](#plus)
+**See also:** [including without limitation](#including-without-limitation), [inclusive of](#inclusive-of), [excluding](#excluding), [exclusive of](#exclusive-of), [not counting](#not-counting), [plus](#plus)
+
+### including without limitation
+
+**Pronunciation:** /ɪnˈkludɪŋ wɪˌðaʊt ˌlɪmɪˈteɪʃən/ &middot; weak /ɪnˈkludɪŋ wəˌðaʊt ˌlɪmɪˈteɪʃən/ &middot; *in-KLOO-ding with-OWT lim-ih-TAY-shun*
+**Русский:** включая, но не ограничиваясь — юр. формула, открывающая заведомо неполный перечень
+**Type:** complex (a frozen drafting formula built on [including](#including)) &middot; **Register:** formal; American legal drafting almost exclusively
+**Complement:** whatever bare *including* takes — noun phrase, list of noun phrases, objective-case pronoun, or gerund — because *without limitation* is a parenthetical tag on *including* and not a preposition of its own. Never a finite clause.
+**Pattern:** [total set], *including without limitation* [list] &middot; [total set], *including but not limited to* [list] &middot; [total set], *including, without limitation,* [list]
+**Variants:** *including but not limited to* — the same formula, and by a wide margin the commoner of the two in American contracts; *including without limiting the generality of the foregoing* is the long-winded third form, now mostly confined to older boilerplate. British drafting prefers *including without limitation*; American drafting splits between the first two.
+**Contrast:** Bare [including](#including) already names a sample rather than the whole list, so in ordinary prose the tag adds nothing and an editor will cut it. It survives because courts do not reliably read *including* that way: under the interpretive canon **ejusdem generis** — Latin, "of the same kind", and something an American meets only in a brief or an opinion — a following list can be read as narrowing the general word that introduced it, and drafters add *without limitation* to shut that reading down. Against [inclusive of](#inclusive-of), which declares what a stated price already contains rather than opening a list; against [to the exclusion of](#to-the-exclusion-of), which is not about lists at all. Note the punctuation split: American drafters write *including without limitation* unpunctuated in a short list and *including, without limitation,* inside commas when the list runs long.
+
+Opens a list and says out loud that the list is only a sample. It is the most common belt-and-suspenders phrase in American contract drafting, and outside a contract it is almost always four words too many.
+
+**1. In contracts, opening a non-exhaustive list.**
+
+1. Tenant shall pay all utilities, *including without limitation* gas, electric, water, and trash removal.
+2. The release covers all claims, *including without limitation* claims for wrongful termination.
+
+**2. The commoner American variant.**
+
+3. Contractor is responsible for all permits, *including but not limited to* electrical and plumbing permits.
+4. The policy excludes intentional acts, *including but not limited to* arson and fraud.
+
+**3. Set off by commas, where the list runs long.**
+
+5. Licensee may not modify the software, *including, without limitation,* by decompiling, disassembling, or reverse engineering it.
+6. The estate passes all personal property, *including, without limitation,* furniture, vehicles, and the contents of any safe deposit box.
+
+**4. Outside a contract — where it should be cut.** The tag buys nothing in ordinary prose, and editors delete it on sight.
+
+7. The grant covers travel, *including without limitation* airfare and lodging. *(edit to* including*)*
+8. She asked about the fees, *including but not limited to* the origination charge. *(edit to* including*)*
+
+**See also:** [including](#including), [inclusive of](#inclusive-of), [excluding](#excluding), [exclusive of](#exclusive-of), [to the exclusion of](#to-the-exclusion-of), [not counting](#not-counting)
 
 ### inclusive of
 
 **Pronunciation:** /ɪnˈklusɪv ʌv/ &middot; weak /ɪnˈklusɪv əv/, reduced /ɪnˈklusɪvə/ before a consonant &middot; *in-KLOO-siv uv*
+**Русский:** офиц. включая, с учётом — что уже входит в названную цену или величину
 **Type:** complex &middot; **Register:** formal; chiefly commercial, contractual, and hospitality writing
 **Complement:** noun phrase only — no gerund, no clause
 **Pattern:** [noun] *inclusive of* [noun phrase] &middot; [price] **is** *inclusive of* [noun phrase]
@@ -224,6 +344,7 @@ Declares what a stated price, figure, or period already contains. It exists beca
 ### let alone
 
 **Pronunciation:** /lɛt əˈloʊn/ &middot; reduced /lɛɾ əˈloʊn/ — the *t* flaps between vowels &middot; *let-uh-LOHN*
+**Русский:** не то что, не говоря уже о — только после отрицания: то, что тем более невозможно
 **Type:** marginal (a frozen imperative that has become a connective) &middot; **Register:** neutral to informal
 **Complement:** noun phrase, objective-case pronoun, adjective, adverb, prepositional phrase, gerund, or a **bare infinitive** matched to the verb before it (*can't walk, let alone run*) — never a finite clause, and never a *to*-infinitive when the verb before it is bare: ✗ *can't walk, let alone to run*.
 **Requires:** a **negative, near-negative, or question** earlier in the sentence — *not*, *never*, *nobody*, *nothing*, *hardly*, *barely*, *too … to*, *can't*. Without one it is ungrammatical: ✗ *He can drive, let alone fly a plane*.
@@ -258,6 +379,7 @@ Adds a second item only to say that it lies even further beyond whatever was jus
 ### not to mention
 
 **Pronunciation:** /ˌnɑt tə ˈmɛnʃən/ &middot; reduced /ˌnɑʔ tə ˈmɛnʃən/ — the *t* of *not* glottalizes and *to* is always the weak /tə/, never /tu/ &middot; *naht-tuh-MEN-shun*
+**Русский:** не говоря уже о — добавляет более весомый пункт под видом умолчания; только в конце фразы
 **Type:** marginal (a frozen infinitival that has become a preposition) &middot; **Register:** neutral to informal
 **Complement:** noun phrase, objective-case pronoun, gerund, **adjective**, or a *wh*-clause. A *that*-clause only through *the fact that* (*not to mention the fact that nobody asked*). Never a bare finite clause.
 **Pattern:** [clause], *not to mention* [noun phrase] &middot; [adjective], *not to mention* [adjective] &middot; [clause], *not to mention* [verb-ing]
@@ -291,6 +413,7 @@ Adds one last item under the pretense of skipping it. The pretense is the whole 
 ### on top of
 
 **Pronunciation:** /ɑn ˈtɑp ʌv/ &middot; weak /ɑn ˈtɑp əv/, reduced /ɑnˈtɑpə/ before a consonant — the *of* loses its /v/ exactly as it does in *out of* &middot; *on-TOP-uv*
+**Русский:** вдобавок к, сверх — разг., с оттенком жалобы: ещё одна тягота поверх прежних
 **Type:** complex &middot; **Register:** neutral; the additive sense is conversational and nearly always aggrieved
 **Complement:** noun phrase, objective-case pronoun, or **gerund** (*on top of paying rent*); a nominal ***wh*-clause** is possible in the additive sense (*on top of what the movers charged*). Never a *that*-clause and never a *to*-infinitive: ✗ *on top of pay rent*. Bare *on top* is an **adverb** and takes no object — *the berries go on top* — and that is the test: the preposition must have something after it.
 **Pattern:** *On top of* [noun phrase], [clause] &middot; [clause] *on top of* [noun phrase] &middot; *on top of* [verb-ing] &middot; *on top of* everything else
@@ -323,6 +446,7 @@ Piles one more demand onto a load that was already heavy. It is the American com
 ### over and above
 
 **Pronunciation:** /ˌoʊvər ənd əˈbʌv/ &middot; weak /ˌoʊvɚ ən əˈbʌv/ — the *and* is always reduced to /ən/ or /n̩/ &middot; *OH-vur-un-uh-BUV*
+**Русский:** сверх, помимо — прибавка поверх уже выполненного обязательства или нормы
 **Type:** complex (frozen) &middot; **Register:** formal to neutral; standard in compensation, contracts, and budgets
 **Complement:** noun phrase or objective-case pronoun; a gerund is possible but uncommon (*over and above having to repay the advance*). Never a finite clause.
 **Pattern:** [amount] *over and above* [amount] &middot; [clause] *over and above* [noun phrase] &middot; *Over and above* [noun phrase], [clause]
@@ -350,6 +474,7 @@ Names what is added once an obligation has already been discharged. It is the st
 ### plus
 
 **Pronunciation:** /plʌs/ &middot; weak /pləs/ in rapid speech &middot; *PLUHS*
+**Русский:** плюс — прибавляет число или пункт; предлог, поэтому глагол остаётся в единственном числе
 **Type:** simple &middot; **Register:** neutral as a preposition; the sentence-initial *Plus,* is informal
 **Complement:** noun phrase or objective-case pronoun; a gerund is possible but rare (*plus having to repaint*). Never a finite clause. The word is also an adjective (*a plus sign*, *an A plus*), a noun (*that's a real plus*), and an informal sentence adverb (*Plus, it's cheaper*) — in those uses it has no object and is not a preposition.
 **Pattern:** [number] *plus* [number] &middot; [amount] *plus* [noun phrase] &middot; *Plus*, [clause] *(adverb — informal)*
@@ -382,6 +507,7 @@ Adds one quantity or item to another. It began life as the Latin word for "more"
 ### to say nothing of
 
 **Pronunciation:** /tə ˈseɪ ˈnʌθɪŋ ʌv/ &middot; weak /tə ˈseɪ ˈnʌθɪŋ əv/, reduced /tə ˈseɪ ˈnʌθɪŋə/ before a consonant — the *to* is always the weak /tə/, never /tu/ &middot; *tuh-SAY-NUTH-ing-uv*
+**Русский:** не говоря уже о — книжн. двойник not to mention: добавляет более веский довод
 **Type:** complex (a frozen infinitival that has become a preposition) &middot; **Register:** neutral to formal
 **Complement:** noun phrase, objective-case pronoun, gerund, or **adjective**; a *that*-clause only through *the fact that*. Never a bare finite clause, and — because the *of* is a preposition — never a bare infinitive: *to say nothing of paying for it*, not ✗ *to say nothing of pay for it*.
 **Pattern:** [clause], *to say nothing of* [noun phrase] &middot; [clause], *to say nothing of* [verb-ing] &middot; [adjective], *to say nothing of* [adjective]
@@ -415,6 +541,7 @@ Names one more item while claiming to pass over it. Like *not to mention*, the p
 ### together with
 
 **Pronunciation:** /təˈɡɛðər wɪð/ (also /wɪθ/) &middot; weak /təˈɡɛðɚ wəð/, /təˈɡɛðɚ wəθ/ &middot; *tuh-GETH-ur with*
+**Русский:** вместе с, совместно с — офиц. вариант along with; на число глагола не влияет
 **Type:** complex &middot; **Register:** formal to neutral; standard in legal and conveyancing language
 **Complement:** noun phrase, objective-case pronoun, or gerund — never a finite clause
 **Pattern:** [clause] *together with* [noun phrase] &middot; [subject], *together with* [noun phrase], [**singular** verb]
@@ -437,17 +564,18 @@ Attaches a second item to the first in writing that wants to sound deliberate. I
 5. The chairman, *together with* two board members, **was** named in the suit.
 6. The principal, *together with* any unpaid interest, **becomes** due on demand.
 
-**See also:** [along with](#along-with), [as well as](#as-well-as), [in addition to](#in-addition-to), [coupled with](#coupled-with), [complete with](#complete-with), [with](02-core-relational.md#with)
+**See also:** [along with](#along-with), [as well as](#as-well-as), [in addition to](#in-addition-to), [coupled with](#coupled-with), [complete with](#complete-with), [in collaboration with](#in-collaboration-with), [in the company of](#in-the-company-of), [with](02-core-relational.md#with)
 
 ## Exception, exclusion, and subtraction
 
-The largest family in the file, and the one with the most rules. It splits four ways: the everyday exception words (*except*, *except for*, *apart from*, *aside from*, *besides*, *other than*, *outside of*, *but*, and the ponderous *with the exception of*); the participials and hypotheticals (*barring*, *excluding*, *excepting*, *failing*, *leaving aside*, *not counting*, *short of*, and the counterfactual pair *but for* and *if not for*); the arithmetic and commercial subtractors (*less*, *minus*, and the two-way *give or take*); and a literary and archaic layer that American readers still meet in older books and in contracts (*save*, *save for*, *saving*, *bar*, *bating*).
+The largest family in the file, and the one with the most rules. It splits four ways: the everyday exception words (*except*, *except for*, *apart from*, *aside from*, *besides*, *other than*, *outside of*, *but*, and the ponderous *with the exception of*); the participials and hypotheticals (*barring*, *excluding*, *excepting*, *failing*, *leaving aside*, *not counting*, *short of*, and the counterfactual pair *but for* and *if not for*); the arithmetic and commercial subtractors (*less*, *minus*, and the two-way *give or take*); and a literary and archaic layer that American readers still meet in older books and in contracts (*save*, *save for*, *saving*, *bar*, *bating*). One further entry, *to the exclusion of*, is filed here by spelling rather than by sense: it does not take a member out of a set but names what got crowded out when something else took up all the room.
 
 One rule governs the first group and is worth stating before you reach the entries. **Bare *except* and bare *but* need an all-inclusive word in front of them** — *all*, *every*, *everyone*, *everything*, *everywhere*, *nothing*, *no one*, *nowhere*, *any-*, a superlative, or a *wh-* question word. Without one, the sentence needs *except for*: *Except the noise, it's fine* is an error, *Except for the noise, it's fine* is correct, and *Everything except the noise is fine* is correct because *everything* is doing the work.
 
 ### apart from
 
 **Pronunciation:** /əˈpɑrt frʌm/ &middot; weak /əˈpɑrt frəm/, /əˈpɑrt frm̩/ &middot; *uh-PART frum*
+**Русский:** кроме, если не считать — но при отрицании или с also, наоборот, «помимо, вдобавок к»
 **Type:** complex &middot; **Register:** neutral
 **Complement:** noun phrase, objective-case pronoun, gerund, or a ***wh*-clause** (*apart from what the neighbors told us*, *apart from whether it's legal*) — never a *that*-clause and never a tensed clause on its own
 **Pattern:** *Apart from* [noun phrase], [clause] &middot; [clause] *apart from* [noun phrase] &middot; *apart from* [verb-ing] &middot; *apart from* [*wh*-clause]
@@ -480,6 +608,7 @@ Sets an item outside the claim being made — either by exempting it from a gene
 ### aside from
 
 **Pronunciation:** /əˈsaɪd frʌm/ &middot; weak /əˈsaɪd frəm/, /əˈsaɪd frm̩/ &middot; *uh-SYD frum*
+**Русский:** кроме, если не считать; также «помимо, вдобавок к» — амер. вариант apart from
 **Type:** complex &middot; **Register:** neutral; chiefly North American
 **Complement:** noun phrase, objective-case pronoun, gerund, or a ***wh*-clause** (*aside from what it costs*, *aside from whether it's legal*) — never a *that*-clause and never a tensed clause on its own
 **Pattern:** *Aside from* [noun phrase], [clause] &middot; [clause] *aside from* [noun phrase] &middot; *aside from* [verb-ing] &middot; *aside from* [*wh*-clause]
@@ -512,6 +641,7 @@ The default American way to fence off an exception before making a general claim
 ### bar
 
 **Pronunciation:** /bɑr/ &middot; *BAR*
+**Русский:** кроме, за исключением — в амер. англ. живо лишь в обороте bar none «без исключений»
 **Type:** simple &middot; **Register:** formal and chiefly British in free use; standard in American English only inside the fixed phrase *bar none*
 **Complement:** noun phrase — no gerund, no clause
 **Pattern:** [superlative claim], *bar* none &middot; all *bar* [number] *(chiefly British)* &middot; *bar* [noun phrase] *(chiefly British)*
@@ -540,6 +670,7 @@ Built on the verb *bar* exactly as *barring* is, and now nearly frozen. In its o
 ### barring
 
 **Pronunciation:** /ˈbɑrɪŋ/ &middot; *BAR-ing*
+**Русский:** если не будет, за исключением — оговорка к прогнозу: называет возможную помеху
 **Type:** marginal/participial &middot; **Register:** neutral; a staple of forecasting and sports and business journalism
 **Complement:** noun phrase or gerund — **never a finite clause**. Not *barring it rains*; write *barring rain* or switch to the conjunction *unless*.
 **Pattern:** *Barring* [noun phrase], [clause] &middot; [clause] *barring* [noun phrase] &middot; *barring* [verb-ing]
@@ -568,6 +699,7 @@ Fences off the one thing that could go wrong and then makes the prediction anywa
 ### bating
 
 **Pronunciation:** /ˈbeɪtɪŋ/ &middot; *BAY-ting*
+**Русский:** устар. за исключением, не считая — встречается только в книгах XVIII–XIX вв.
 **Type:** marginal/participial &middot; **Register:** archaic
 **Complement:** noun phrase — never a clause
 **Pattern:** *Bating* [noun phrase], [clause] &middot; [clause], *bating* [noun phrase]
@@ -591,6 +723,7 @@ Sets a small deduction aside before endorsing the whole. It is included here for
 ### besides
 
 **Pronunciation:** /bɪˈsaɪdz/ &middot; weak /bəˈsaɪdz/ &middot; *bih-SYDZ*
+**Русский:** кроме, помимо — «вдобавок к», а после отрицания «за исключением»; ср. beside «рядом с»
 **Type:** compound (historically *be-* + *side* + adverbial *-s*) &middot; **Register:** neutral; the adverb use is conversational
 **Complement:** noun phrase, objective-case pronoun, or gerund — never a finite clause. A *what*-phrase after it (*besides what he told us*) is a **fused relative**, which is a noun phrase and not a clause; the test is that a plain noun can replace it (*besides his statement*). As an **adverb** it takes no object at all (*Besides, it's too late*), and that is its commonest use in speech.
 **Pattern:** *Besides* [noun phrase], [clause] &middot; [negative or question] *besides* [noun phrase] &middot; *besides* [verb-ing] &middot; *Besides*, [clause] *(adverb)*
@@ -623,6 +756,7 @@ Puts one more item next to what has been said, or — after a negative — carve
 ### but
 
 **Pronunciation:** /bʌt/ &middot; weak /bət/ &middot; *BUHT*
+**Русский:** кроме — только после all, everyone, nothing и т. п.: everyone but me «все, кроме меня»
 **Type:** simple; the same form is the coordinating conjunction *but* (see the [conjunctions dictionary](../../07-conjunctions/catalog/01-coordinating.md#but)) and an adverb in *all but* &middot; **Register:** neutral
 **Complement:** noun phrase or pronoun (objective case in American usage), an adverb or prepositional phrase (*anywhere but here*, *any time but now*), a **bare infinitive** after a *do*-phrase or after *cannot* (*nothing to do but wait*, *one cannot but admire it*), or a ***to*-infinitive** after *choice*, *option*, or *alternative* (*no choice but to resign*). **The two infinitives are not interchangeable:** ✗ *nothing to do but to wait*, ✗ *no choice but resign*. **Never a finite clause** — *but that* is the conjunction, not this preposition, and *but* never takes a gerund.
 **Requires:** an all-inclusive or negative word earlier in the sentence — *all*, *every*, *everyone*, *everything*, *everywhere*, *no one*, *nothing*, *nowhere*, *any-*, a superlative, or a *wh-* question word. Without one it is ungrammatical: not *I saw the movie but the ending*, but *I saw everything but the ending*.
@@ -668,6 +802,7 @@ Subtracts one member from a set that has already been declared total. Because it
 ### but for
 
 **Pronunciation:** /ˈbʌt fɔr/ &middot; weak /ˈbʌt fɚ/ (also written /fər/), and in rapid speech /ˈbʌʔ fɚ/ with a glottal *t* &middot; *BUHT fur*
+**Русский:** если бы не — юр. и книжн.; главное предложение обязательно с would (have)
 **Type:** complex &middot; **Register:** formal; standard in legal English
 **Complement:** noun phrase or objective-case pronoun — never a clause. To take a clause, write *but for the fact that*.
 **Requires:** a **counterfactual** main clause, with *would*, *would have*, *might have*, or *could have*.
@@ -696,6 +831,7 @@ Names the one thing that stood between the world as it is and the world it would
 ### except
 
 **Pronunciation:** /ɪkˈsɛpt/ (also /ɛkˈsɛpt/) &middot; weak /əkˈsɛpt/ &middot; *ik-SEPT*
+**Русский:** кроме, за исключением — требует в предложении all/every/nothing; иначе нужно except for
 **Type:** simple &middot; **Register:** neutral
 **Complement:** noun phrase, objective-case pronoun, prepositional phrase (*except in emergencies*), adverb (*except here*, *except yesterday*), **bare infinitive** after *do* (*nothing to do except wait*), or *to*-infinitive (*no choice except to agree*). A finite clause is possible **only** through a following conjunction — *except that*, *except when*, *except if*, *except where* — and at that point *except* is a conjunction, not this preposition.
 **Requires:** an all-inclusive word already in the sentence — *all*, *every*, *everyone*, *everything*, *everywhere*, *always*, *nothing*, *no one*, *the whole*. Without one, use *except for*.
@@ -729,6 +865,7 @@ The plain, unmarked word for taking one member out of a stated whole. Everything
 ### except for
 
 **Pronunciation:** /ɪkˈsɛpt fɔr/ &middot; weak /əkˈsɛpt fɚ/ (also written /fər/), and before a consonant often /əkˈsɛp fɚ/ &middot; *ik-SEPT fur*
+**Русский:** кроме, если не считать — не требует обобщающего слова и может открывать предложение
 **Type:** complex &middot; **Register:** neutral
 **Complement:** noun phrase, objective-case pronoun, or gerund — never a finite clause
 **Pattern:** *Except for* [noun phrase], [clause] &middot; [clause] *except for* [noun phrase] &middot; *except for* [verb-ing]
@@ -756,6 +893,7 @@ Withdraws a qualification from a claim that would otherwise be sweeping. It is t
 ### excepting
 
 **Pronunciation:** /ɪkˈsɛptɪŋ/ &middot; weak /əkˈsɛptɪŋ/ &middot; *ik-SEP-ting*
+**Русский:** устар./юр. исключая — живо лишь в not excepting «включая даже» и always excepting
 **Type:** marginal/participial &middot; **Register:** formal, legal, dated
 **Complement:** noun phrase — no gerund, no clause
 **Pattern:** not *excepting* [noun phrase] &middot; always *excepting* [noun phrase] &middot; [clause], *excepting* [noun phrase]
@@ -783,6 +921,7 @@ Marks an exemption with more ceremony than the situation usually requires. Its t
 ### excluding
 
 **Pronunciation:** /ɪkˈskludɪŋ/ &middot; weak /əkˈskludɪŋ/ &middot; *ik-SKLOO-ding*
+**Русский:** исключая, не считая — нейтрально-деловое: что не входит в сумму или множество
 **Type:** marginal/participial &middot; **Register:** neutral to formal; standard in pricing, statistics, and specifications
 **Complement:** noun phrase or gerund — never a finite clause
 **Pattern:** [total] *excluding* [noun phrase] &middot; [clause], *excluding* [noun phrase] &middot; *excluding* [verb-ing]
@@ -805,11 +944,12 @@ Draws a line around a figure or a set and says what is outside it. Because it is
 5. Everyone on the roster, *excluding* the two on injured reserve, made the trip.
 6. The building sleeps twelve, *excluding* the finished basement.
 
-**See also:** [including](#including), [exclusive of](#exclusive-of), [not counting](#not-counting), [except for](#except-for), [less](#less)
+**See also:** [including](#including), [exclusive of](#exclusive-of), [not counting](#not-counting), [except for](#except-for), [less](#less), [to the exclusion of](#to-the-exclusion-of)
 
 ### exclusive of
 
 **Pronunciation:** /ɪkˈsklusɪv ʌv/ &middot; weak /əkˈsklusɪv əv/, reduced /əkˈsklusɪvə/ before a consonant &middot; *ik-SKLOO-siv uv*
+**Русский:** офиц. не включая, без учёта — что не входит в названную цену или величину
 **Type:** complex &middot; **Register:** formal; commercial and legal
 **Complement:** noun phrase only — no gerund, no clause
 **Pattern:** [noun] *exclusive of* [noun phrase] &middot; [price] **is** *exclusive of* [noun phrase]
@@ -834,11 +974,12 @@ States what a quoted figure leaves out, in language a court could read. It is th
 7. The policy runs from the first of the month, *exclusive of* the day of purchase.
 8. The notice period is fourteen days, *exclusive of* weekends and federal holidays.
 
-**See also:** [inclusive of](#inclusive-of), [excluding](#excluding), [less](#less), [not counting](#not-counting), [free of](#free-of)
+**See also:** [inclusive of](#inclusive-of), [excluding](#excluding), [less](#less), [not counting](#not-counting), [free of](#free-of), [to the exclusion of](#to-the-exclusion-of)
 
 ### failing
 
 **Pronunciation:** /ˈfeɪlɪŋ/ &middot; *FAY-ling*
+**Русский:** за неимением, если не выйдет — вводит запасной вариант: failing that «если не получится»
 **Type:** marginal/participial &middot; **Register:** formal to neutral
 **Complement:** noun phrase — most often the pronouns *that* and *which* (*failing that*, *failing which*), and otherwise an abstract noun of outcome (*a settlement*, *agreement*, *payment*). Never a finite clause, never a gerund, never a *to*-infinitive: ✗ *failing to reach a settlement, the case goes to trial* is a dangling participle of the verb *fail*, not this preposition.
 **Pattern:** *Failing* [noun phrase], [clause] &middot; [clause], or *failing that*, [alternative] &middot; [requirement], *failing which* [consequence]
@@ -871,6 +1012,7 @@ Names the thing that has to happen, then supplies the plan for when it doesn't. 
 ### give or take
 
 **Pronunciation:** /ˈɡɪv ɔr ˈteɪk/ &middot; weak /ˈɡɪv ɚ ˈteɪk/ — the *or* reduces to /ɚ/ and the three words run together as one &middot; *GIV-ur-TAYK*
+**Русский:** плюс-минус, примерно — допуск в обе стороны от названной величины
 **Type:** marginal (a frozen coordination that behaves as a preposition) &middot; **Register:** informal to neutral
 **Complement:** a noun phrase naming a **quantity** — a number, a measure, a span of time. No gerund, no clause, and no ordinary object: ✗ *give or take the traffic*. It can also stand with **no object at all** (*forty people, give or take*), and in that use it is an adverb, not a preposition.
 **Pattern:** [quantity], *give or take* [smaller quantity] &middot; [quantity], *give or take* *(adverb — no object)*
@@ -904,6 +1046,7 @@ Puts a tolerance on a number. It is the spoken American way of saying "plus or m
 ### if not for
 
 **Pronunciation:** /ɪf ˈnɑt fɔr/ &middot; weak /ɪf ˈnɑt fɚ/ (also written /fər/), reduced /ɪf ˈnɑʔ fɚ/ with a glottal *t* &middot; *if-NAHT fur*
+**Русский:** если бы не — разг. эквивалент but for; главное предложение тоже с would (have)
 **Type:** complex &middot; **Register:** neutral to informal; the everyday American *but for*
 **Complement:** noun phrase or objective-case pronoun — never a gerund and **never a finite clause**. For a clause, write *if it weren't for* or *if it hadn't been for*, which are full clauses with their own subject and verb and not this preposition.
 **Requires:** a **counterfactual** main clause, with *would*, *would have*, *might have*, or *could have* — exactly what *but for* requires.
@@ -933,6 +1076,7 @@ Deletes one item from the record and reports what would have followed. It is the
 ### leaving aside
 
 **Pronunciation:** /ˈlivɪŋ əˈsaɪd/ &middot; *LEE-ving uh-SYD*
+**Русский:** оставляя в стороне, если отвлечься от — вопрос не отрицается, а откладывается
 **Type:** marginal/participial &middot; **Register:** neutral to formal; a staple of argument and analysis
 **Complement:** noun phrase, objective-case pronoun, gerund, or a ***wh*-clause** (*leaving aside whether it's legal*, *leaving aside what it costs*) — never a *that*-clause and never a tensed clause on its own
 **Pattern:** *Leaving aside* [noun phrase], [clause] &middot; [clause], *leaving aside* [noun phrase] &middot; *leaving aside* [*wh*-clause] &middot; *leaving aside* [verb-ing]
@@ -966,6 +1110,7 @@ Puts one issue to one side so that the argument can get on with the rest. It con
 ### less
 
 **Pronunciation:** /lɛs/ &middot; weak /ləs/ when it sits unstressed between two figures &middot; *LES*
+**Русский:** за вычетом, минус — бухг. и юр.: вычет из суммы (less tax «за вычетом налога»)
 **Type:** simple &middot; **Register:** formal; financial, commercial, and legal
 **Complement:** noun phrase naming an amount or a deduction — no gerund, no clause, no personal object (*less him* is not English)
 **Pattern:** [amount] *less* [deduction] &middot; [amount] *less* any [deduction]
@@ -1001,6 +1146,7 @@ Subtracts one figure from another in the language of statements and settlements.
 ### minus
 
 **Pronunciation:** /ˈmaɪnəs/ &middot; *MY-nus*
+**Русский:** минус — вычитание и «ниже нуля»; разг. «без, лишившись» (came back minus a suitcase)
 **Type:** simple &middot; **Register:** neutral in arithmetic and commerce; informal in the "without" sense
 **Complement:** noun phrase or a number — no gerund, no clause. The word is also an adjective (*a minus sign*, *an A minus*) and a noun (*that's a real minus*); in those uses it has no object and is not a preposition.
 **Pattern:** [number] *minus* [number] &middot; [amount] *minus* [deduction] &middot; *minus* [number] degrees &middot; [subject] [verb] *minus* [thing lost]
@@ -1038,6 +1184,7 @@ Takes one quantity away from another, and by extension takes a thing away from a
 ### not counting
 
 **Pronunciation:** /nɑt ˈkaʊntɪŋ/ &middot; reduced /nɑʔ ˈkaʊnɪŋ/ — the *t* of *not* goes to a glottal stop before the *k*, and the medial *nt* of *counting* drops &middot; *naht-KOWN-ting*
+**Русский:** не считая, без учёта — разговорная поправка к подсчёту
 **Type:** marginal/participial &middot; **Register:** informal to neutral
 **Complement:** noun phrase, objective-case pronoun, or gerund — never a finite clause. A *what*-phrase after it (*not counting what the permits cost*) is a **fused relative**, which is a noun phrase and not a clause; the test is that a plain noun can replace it (*not counting the permit fees*).
 **Pattern:** [count or total], *not counting* [noun phrase] &middot; [clause] *not counting* [verb-ing]
@@ -1066,6 +1213,7 @@ Corrects a total by naming what was left out of it. Nothing else in the exceptio
 ### other than
 
 **Pronunciation:** /ˈʌðər ðæn/ &middot; weak /ˈʌðər ðən/ &middot; *UH-thur than*
+**Русский:** кроме, иной чем — подчёркивает инаковость; допускает и прилагательное, и наречие
 **Type:** complex &middot; **Register:** neutral to formal
 **Complement:** noun phrase, objective-case pronoun, **adjective**, **adverb**, prepositional phrase, gerund, or a *to*-infinitive (*no choice other than to sue*) — never a finite clause
 **Requires:** usually a negative, a question, or a totalizing word nearby, much as *but* does — though it is freer than *but* and tolerates more.
@@ -1099,6 +1247,7 @@ Rules out everything but the named case, or says that a thing is of a different 
 ### outside of
 
 **Pronunciation:** /ˌaʊtˈsaɪd ʌv/ &middot; weak /ˌaʊtˈsaɪd əv/, reduced all the way to /ˌaʊtˈsaɪdə/ before a consonant — the *of* loses its /v/ exactly as it does in *kind of* and *out of* &middot; *owt-SYD uv*
+**Русский:** кроме, помимо (амер. разг.); а также «вне, за пределами» чьей-л. компетенции
 **Type:** complex &middot; **Register:** neutral to informal in the exception sense; **chiefly American**
 **Complement:** noun phrase, objective-case pronoun, or gerund — never a finite clause. Bare *outside*, with no *of*, is also an **adverb** that takes no object at all (*she waited outside*, *let's eat outside*); there it is not a preposition, and the test is exactly that — the preposition has an object, the adverb has none.
 **Pattern:** *Outside of* [noun phrase], [clause] &middot; [negative] *outside of* [noun phrase] &middot; that's *outside of* [noun phrase] &middot; [verb] *outside* *(adverb — no object)*
@@ -1134,6 +1283,7 @@ Puts a case beyond the reach of the statement being made — either beyond a bou
 ### save
 
 **Pronunciation:** /seɪv/ &middot; *SAYV*
+**Русский:** книжн. кроме, за исключением — литературный и юридический двойник except
 **Type:** simple &middot; **Register:** literary, formal, legal
 **Complement:** noun phrase, objective-case pronoun, a prepositional phrase, or a **bare infinitive** after a *do*-phrase (*nothing to do save wait*); a finite clause only through *save that*, which is a conjunction. Never a gerund and never a *to*-infinitive.
 **Pattern:** [negative or total] *save* [noun phrase] &middot; *save as* provided in [clause reference] *(legal)* &middot; nothing to do *save* [bare infinitive] &middot; *save that* [clause] *(conjunction)*
@@ -1172,6 +1322,7 @@ Names the single survivor of a general negation. Almost every idiomatic use foll
 ### save for
 
 **Pronunciation:** /ˈseɪv fɔr/ &middot; weak /ˈseɪv fɚ/ (also written /fər/) &middot; *SAYV fur*
+**Русский:** книжн. кроме, если не считать — единственное, что уцелело в опустевшей картине
 **Type:** complex &middot; **Register:** literary, formal
 **Complement:** noun phrase or objective-case pronoun; a gerund is possible but uncommon. Never a finite clause.
 **Pattern:** [clause], *save for* [noun phrase] &middot; *Save for* [noun phrase], [clause]
@@ -1201,6 +1352,7 @@ Leaves one item behind after everything else has been cleared away. It is the de
 ### saving
 
 **Pronunciation:** /ˈseɪvɪŋ/ &middot; *SAY-ving*
+**Русский:** устар./юр. за исключением, с сохранением — оговорка, защищающая право от общего правила
 **Type:** marginal/participial &middot; **Register:** archaic; surviving in legal drafting
 **Complement:** noun phrase — never a clause, never a gerund
 **Pattern:** [clause], *saving* [noun phrase] &middot; *saving* your presence *(fixed formula)*
@@ -1228,6 +1380,7 @@ Preserves one item from a sweeping provision. Where *save* subtracts a member fr
 ### short of
 
 **Pronunciation:** /ˈʃɔrt ʌv/ &middot; weak /ˈʃɔrt əv/, reduced /ˈʃɔrɾə/ with a flapped *t* and no /v/ at all &middot; *SHORT uv*
+**Русский:** не доходя до, не дотягивая до; «кроме как ценой» крайней меры; также «нуждаясь в»
 **Type:** complex &middot; **Register:** neutral
 **Complement:** noun phrase or **gerund** — never a finite clause, never a *to*-infinitive
 **Pattern:** [verb] *short of* [noun phrase] &middot; *Short of* [verb-ing], [clause] &middot; nothing *short of* [noun phrase] &middot; be *short of* [noun phrase]
@@ -1254,9 +1407,49 @@ Marks a point not reached — on a scale, on a road, or on a ladder of increasin
 
 **See also:** [barring](#barring), [failing](#failing), [less](#less), [next to](#next-to), [minus](#minus)
 
+### to the exclusion of
+
+**Pronunciation:** /tə ði ɪkˈskluʒən ʌv/ &middot; weak /tə ði ɪkˈskluʒən əv/, reduced /tə ði ɪkˈskluʒənə/ &middot; *tuh-thee-ik-SKLOO-zhun-uv*
+**Русский:** в ущерб всему остальному — не изъятие из множества, а вытеснение прочего
+**Type:** complex &middot; **Register:** formal to neutral; at home in criticism, in psychology, and in contracts
+**Complement:** noun phrase, objective-case pronoun, possessive plus noun, or **gerund** (*to the exclusion of sleeping*) — never a finite clause and never a *to*-infinitive: ✗ *to the exclusion of to sleep*. The *to* is a preposition, so the *-ing* is obligatory, exactly as it is after [in addition to](#in-addition-to).
+**Pattern:** [verb phrase] *to the exclusion of* [noun phrase] &middot; [verb phrase] *to the exclusion of* [verb-ing] &middot; *to the exclusion of* all else
+**Variants:** *to the exclusion of all else* and *to the exclusion of everything else* — the two fixed superlative tags, and the commonest shapes the phrase takes outside a contract.
+**Contrast:** The one entry in this section that is **not** an exception word. *Excluding*, *except for*, and *with the exception of* take a member out of a set; *to the exclusion of* names what got **crowded out** because something else took up all the room. *She studies history excluding the war years* subtracts a period from her subject; *she studies the war years to the exclusion of everything else* says the war years have eaten her whole subject. It therefore attaches to a verb phrase rather than to a noun, and unlike the rest of this family it **cannot open a sentence**: ✗ *To the exclusion of her friends, she trained.* Against [instead of](11-complex-multiword.md#instead-of), which names a straight substitution and implies no excess; against [at the expense of](11-complex-multiword.md#at-the-expense-of), its closest neighbor, which stresses the price paid rather than the crowding out. In legal drafting it has a fourth, unemotional use — a grant *to the exclusion of all others* is a grant of exclusivity, with no criticism implied at all.
+
+Names what has been squeezed out by whatever the main clause is doing. It is a phrase of imbalance: outside a contract, nearly every use of it is a complaint that one activity has taken over the space that belonged to something else.
+
+**1. One pursuit crowding out everything else.** The everyday use, and usually a criticism.
+
+1. He practiced *to the exclusion of* his schoolwork, his friends, and eventually his health.
+2. The athletic department funds football *to the exclusion of* every other sport.
+
+**2. With a gerund.**
+
+3. She read that winter *to the exclusion of* seeing anybody at all.
+4. The team optimized for speed *to the exclusion of* testing anything properly.
+
+**3. The fixed superlative tags.**
+
+5. For two years he worked on the manuscript *to the exclusion of* all else.
+6. She talks about the lawsuit *to the exclusion of* everything else.
+
+**4. Of a rule or a test that forces the alternatives out.**
+
+7. The court applied the plain language of the statute *to the exclusion of* the legislative history.
+8. Hiring on test scores alone, *to the exclusion of* everything else a résumé shows, is how you end up with this staff.
+
+**5. In law and contracts — exclusivity, with no criticism implied.**
+
+9. The agreement grants the distributor the territory *to the exclusion of* all others.
+10. The federal statute governs *to the exclusion of* any conflicting state rule.
+
+**See also:** [excluding](#excluding), [exclusive of](#exclusive-of), [with the exception of](#with-the-exception-of), [including without limitation](#including-without-limitation), [short of](#short-of), [instead of](11-complex-multiword.md#instead-of)
+
 ### with the exception of
 
 **Pronunciation:** /wɪð ði ɪkˈsɛpʃən ʌv/ &middot; weak /wəθ ði ɪkˈsɛpʃən əv/, reduced /wəθ ði ɪkˈsɛpʃənə/ &middot; *with-thee-ik-SEP-shun-uv*
+**Русский:** за исключением — офиц. развёрнутое except for; выделяет один пункт из общего правила
 **Type:** complex &middot; **Register:** formal
 **Complement:** noun phrase or objective-case pronoun; a gerund is possible but uncommon (*with the exception of having to change planes*). **Never a finite clause** — for a clause, write *except that*.
 **Pattern:** *With the exception of* [noun phrase], [clause] &middot; [clause], *with the exception of* [noun phrase] &middot; [subject], *with the exception of* [noun phrase], [verb agreeing with the subject]
@@ -1294,6 +1487,7 @@ The last group does not subtract a member from a set — it reports that somethi
 ### absent
 
 **Pronunciation:** /ˈæbsənt/ &middot; *AB-sunt* — first-syllable stress, unlike the verb *absent* /æbˈsɛnt/ (*he absented himself*)
+**Русский:** юр., амер. при отсутствии, за неимением — называет недостающее условие (absent proof)
 **Type:** simple (adjective-derived) &middot; **Register:** formal, legal; **chiefly American**
 **Complement:** noun phrase, usually indefinite — a gerund is possible but rare even in legal writing, and a **finite clause is impossible**: write *absent evidence that…*, or switch to *unless*
 **Pattern:** *Absent* [noun phrase], [clause] &middot; [clause] *absent* [noun phrase]
@@ -1321,6 +1515,7 @@ Declares a required thing to be missing and states what follows from its absence
 ### free of
 
 **Pronunciation:** /ˈfri ʌv/ &middot; weak /ˈfri əv/, reduced /ˈfriə/ before a consonant — the *of* loses its /v/ as it does in *kind of* &middot; *FREE uv*
+**Русский:** свободный от, без — об отсутствии нежелательного, как о благе: free of charge «бесплатно»
 **Type:** complex (adjective + *of*) &middot; **Register:** neutral
 **Complement:** noun phrase, usually with no determiner (*free of charge*, *free of debt*, *free of liens*), or a **gerund** (*free of having to report to anyone*) — never a finite clause and never a *to*-infinitive: ✗ *free of to pay*.
 **Pattern:** [noun] *free of* [noun phrase] &middot; [subject] **is** *free of* [noun phrase] &middot; *free of* [verb-ing]
@@ -1354,6 +1549,7 @@ Reports that an unwelcome thing is missing and counts that as good news. It is t
 ### in the absence of
 
 **Pronunciation:** /ɪn ði ˈæbsəns ʌv/ &middot; weak /ɪn ði ˈæbsəns əv/, reduced /ɪn ði ˈæbsənsə/ &middot; *in-thee-AB-suns-uv*
+**Русский:** офиц. при отсутствии, за неимением — условие, при котором действует правило по умолчанию
 **Type:** complex &middot; **Register:** formal; legal, scientific, and administrative
 **Complement:** noun phrase or objective-case pronoun, usually indefinite or non-count. No gerund, and **never a finite clause**: write *in the absence of any evidence that…*, or switch to the conjunction *unless*.
 **Pattern:** *In the absence of* [noun phrase], [clause] &middot; [clause] *in the absence of* [noun phrase]
@@ -1381,6 +1577,7 @@ States the negative condition under which the main clause holds. It is the stand
 ### next to
 
 **Pronunciation:** /ˈnɛkst tu/ &middot; weak /ˈnɛks tə/ (the medial *t* usually drops) &middot; *NEKST too*
+**Русский:** почти, практически (next to nothing «почти ничего»); а также «уступая только кому-л.»
 **Type:** complex &middot; **Register:** neutral
 **Complement:** in the limiting sense, only *nothing*, *no* + noun, or an adjective — **not an ordinary noun phrase**. *Next to nothing* means "hardly anything"; *next to money* means nothing at all. In the ranking sense ("second only to") it does take an ordinary noun phrase or a gerund — *next to her sister*, *next to sleeping*. Never a finite clause in either sense. The spatial *next to*, which takes any noun phrase, is covered with the position prepositions.
 **Pattern:** *next to* nothing &middot; *next to* no [noun] &middot; *next to* [adjective] &middot; *Next to* [noun phrase], [superlative claim] *(ranking)*
@@ -1409,6 +1606,7 @@ Squeezes a quantity or a quality down to the edge of zero. The ranking sense —
 ### sans
 
 **Pronunciation:** /sænz/ &middot; *SANZ* — anglicized; the French /sɑ̃/ only when the speaker is being deliberately French
+**Русский:** книжн./шутл. без — нарочитый вариант without; всегда с голым существительным, без артикля
 **Type:** simple &middot; **Register:** literary, jocular, or design jargon
 **Complement:** a **bare** noun phrase, usually with no determiner — *sans makeup*, not *sans the makeup*. Never a finite clause, and a gerund only as a joke.
 **Pattern:** [clause] *sans* [bare noun] &middot; *sans* [noun], *sans* [noun], *sans* [noun] *(the rhetorical series)*
@@ -1437,6 +1635,7 @@ Reports absence with an arched eyebrow. Americans meet it most often in Shakespe
 ### without
 
 **Pronunciation:** /wɪˈðaʊt/ (also /wɪˈθaʊt/, common in American speech) &middot; weak /wəˈðaʊt/ &middot; *with-OWT*
+**Русский:** без — отсутствие; с герундием «не делая чего-л.»; а также «если бы не» в сослагательном
 **Type:** compound (historically *with* + *out*) &middot; **Register:** neutral
 **Complement:** noun phrase, objective-case pronoun, **gerund**, or object + gerund (*without anyone noticing*). It can also stand alone as an **adverb** with no object after *do*, *go*, and *manage* (*we'll have to do without*). It can **never** take a finite clause and never a *to*-infinitive: not *without to pay*, not *without he agrees*.
 **Pattern:** *without* [noun phrase] &middot; *without* [verb-ing] &middot; *without* [noun phrase] [verb-ing] &middot; do / go / manage *without* *(no object)*

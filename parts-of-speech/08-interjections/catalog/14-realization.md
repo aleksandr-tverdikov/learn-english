@@ -11,6 +11,7 @@ These are the **cognitive** interjections: instead of reporting an emotion, they
 ### ah
 
 **Pronunciation:** /ɑ/ &middot; *AH*
+**Русский:** а-а — протяжное «понял»: момент, когда сказанное доходит
 **Type:** primary &middot; **Register:** neutral
 **Variants:** *ahh*, *ahhh*
 
@@ -28,6 +29,7 @@ A drawn-out open vowel marking the moment a piece of information lands. Lengthen
 ### aha
 
 **Pronunciation:** /ɑˈhɑ/ &middot; *ah-HAH*
+**Русский:** ага! — возглас догадки: «вот оно что», нередко с торжеством
 **Type:** primary &middot; **Register:** neutral
 **Variants:** *a-ha*, *ah-ha*, *ahah*
 
@@ -45,6 +47,7 @@ The classic sound of discovery — the penny dropping, usually with a note of tr
 ### bingo
 
 **Pronunciation:** /ˈbɪŋɡoʊ/ &middot; *BING-oh*
+**Русский:** в точку! / бинго — разг., именно то, что искали или угадали
 **Type:** secondary &middot; **Register:** informal
 
 Announces that something is exactly right or has just been found, borrowed from the game where it means your card is complete. It marks a hit: the right answer, the right guess, or the missing piece.
@@ -60,6 +63,7 @@ Announces that something is exactly right or has just been found, borrowed from 
 ### called it
 
 **Pronunciation:** /ˈkɔld ɪt/ &middot; *KAWLD-it*
+**Русский:** я же говорил! — разг., торжество: предсказание сбылось, есть чем похвастаться
 **Type:** phrase &middot; **Register:** informal
 **Variants:** *called it!*, *I called it*, *totally called it*
 
@@ -76,6 +80,7 @@ Claims credit for a prediction the moment it comes true. It is *I knew it* with 
 ### ding ding ding
 
 **Pronunciation:** /ˌdɪŋ dɪŋ ˈdɪŋ/ &middot; *ding-ding-DING*
+**Русский:** дзинь-дзинь-дзинь — разг., «правильный ответ!», как звонок в телевикторине
 **Type:** onomatopoeic &middot; **Register:** informal
 **Variants:** *ding-ding-ding*, *ding ding ding ding*
 
@@ -92,6 +97,7 @@ Imitates a game-show bell to announce that someone has just landed on the right 
 ### duh
 
 **Pronunciation:** /dʌ/ &middot; *DUH*
+**Русский:** ну очевидно же / а то — очень разг.; в адрес собеседника обидно: «ты что, дурак?»
 **Type:** primary &middot; **Register:** very informal (openly mocking, and insulting, when aimed at another person)
 **Variants:** *duhh*, *doy* (dated)
 
@@ -108,6 +114,7 @@ Marks something as blindingly obvious. Aimed at yourself — usually as *oh, duh
 ### eureka
 
 **Pronunciation:** /jʊˈrikə/ &middot; *yoo-REE-kuh*
+**Русский:** эврика! — возглас большого открытия, у американцев почти всегда шутливо
 **Type:** primary &middot; **Register:** neutral (in practice almost always jocular)
 
 The cry of a major discovery, borrowed from Archimedes' Greek for "I have found it." Americans rarely use it straight — it usually carries a wink, either mocking the size of the discovery or celebrating a genuinely hard-won solution.
@@ -123,6 +130,7 @@ The cry of a major discovery, borrowed from Archimedes' Greek for "I have found 
 ### huh (falling tone)
 
 **Pronunciation:** /hʌ/ &middot; *HUH*
+**Русский:** хм / надо же — с падающей интонацией: принял к сведению нечто неожиданное
 **Type:** primary &middot; **Register:** informal
 **Variants:** *hunh*, *huhn*
 
@@ -139,6 +147,7 @@ Said with a flat or falling pitch, *huh* registers that you have just taken in s
 ### I knew it
 
 **Pronunciation:** /aɪ ˈnu ɪt/ &middot; *eye-NOO-it*
+**Русский:** я так и знал — подозрение подтвердилось, с ноткой правоты
 **Type:** phrase &middot; **Register:** neutral
 **Variants:** *knew it*, *I knew it!*
 
@@ -155,6 +164,7 @@ Marks the moment a suspicion is confirmed. It carries a note of vindication and 
 ### oh
 
 **Pronunciation:** /oʊ/ &middot; *OH*
+**Русский:** а / ой / вот как — маркер новой информации: только что узнал
 **Type:** primary &middot; **Register:** neutral
 **Variants:** *ohh*, *ohhh*, *ohhhh*
 
@@ -172,6 +182,7 @@ The workhorse of new information: *oh* marks the instant you learn something you
 ### oh-ho
 
 **Pronunciation:** /oʊˈhoʊ/ &middot; *oh-HOH*
+**Русский:** ого-о / ах вот как — устар., поддразнивающая догадка: «так вот в чём дело»
 **Type:** primary &middot; **Register:** informal (dated — cartoonish, and mostly heard from older speakers)
 **Variants:** *oho*, *oh ho*, *oh-ho-ho*
 
@@ -188,6 +199,7 @@ A knowing, slightly theatrical realization: you have caught on to something, oft
 ### oh right
 
 **Pronunciation:** /oʊ ˈraɪt/ &middot; *oh-RITE*
+**Русский:** а, точно — вспомнил то, что и так знал
 **Type:** phrase &middot; **Register:** informal
 **Variants:** *oh, right*, *oh right right right*
 
@@ -204,6 +216,7 @@ Signals that you have just remembered or re-understood something you already kne
 ### oh wait
 
 **Pronunciation:** /oʊ ˈweɪt/ &middot; *oh-WAYT*
+**Русский:** а, нет, погоди — поправка к собственным словам на ходу
 **Type:** phrase &middot; **Register:** informal
 **Variants:** *oh, wait*, *oh wait!*, *oh wait wait wait*
 
@@ -220,6 +233,7 @@ Marks a thought that arrives one beat too late — you were already talking, or 
 ### oh yeah
 
 **Pronunciation:** /oʊ ˈjɛə/ &middot; *oh-YEH*
+**Русский:** а, ну да — разг., забытый факт всплыл в памяти
 **Type:** phrase &middot; **Register:** informal
 **Variants:** *oh yeah!*, *oh yea* (nonstandard)
 
@@ -236,6 +250,7 @@ Marks a forgotten fact coming back to you. It is the most casual of the "now I r
 ### that's it
 
 **Pronunciation:** /ˈðæts ɪt/ &middot; *THATS-it*
+**Русский:** вот именно / вот оно — то самое, что искали или подбирали
 **Type:** phrase &middot; **Register:** neutral
 **Variants:** *that is it*, *that's it!*
 
@@ -252,6 +267,7 @@ Confirms that something is exactly the thing being looked for or described — t
 ### there it is
 
 **Pronunciation:** /ˌðɛr ɪt ˈɪz/ &middot; *thair-it-IZ*
+**Русский:** вот оно / ну вот — искомое наконец нашлось или правда всплыла
 **Type:** phrase &middot; **Register:** neutral
 
 Marks the thing you were hunting for finally turning up, or a truth finally surfacing after some circling. With a resigned tone it means "and there's the catch I was waiting for."
@@ -269,6 +285,7 @@ Marks the thing you were hunting for finally turning up, or a truth finally surf
 ### ah yes
 
 **Pronunciation:** /ˌɑ ˈjɛs/ &middot; *ah-YES*
+**Русский:** ах да — чуть церемонно: факт извлечён из памяти, а не открыт заново
 **Type:** phrase &middot; **Register:** neutral
 **Variants:** *ah, yes*
 
@@ -285,6 +302,7 @@ A slightly formal, deliberate "now I remember" — the sound of a fact being ret
 ### figures
 
 **Pronunciation:** /ˈfɪɡjɚz/ &middot; *FIG-yerz*
+**Русский:** ну конечно / этого следовало ожидать — разг., с досадливым вздохом
 **Type:** secondary &middot; **Register:** informal
 **Variants:** *that figures*, *it figures*
 
@@ -301,6 +319,7 @@ Says that a new piece of information fits a pattern you already expected — usu
 ### got it
 
 **Pronunciation:** /ˈɡɑt ɪt/ &middot; *GOT-it*
+**Русский:** понял / понятно — принял к исполнению; нейтрально, годится и на работе
 **Type:** phrase &middot; **Register:** neutral
 **Variants:** *got it!*, *gotit*
 
@@ -317,6 +336,7 @@ Confirms that you have understood an instruction or explanation and are ready to
 ### gotcha
 
 **Pronunciation:** /ˈɡɑtʃə/ &middot; *GOTCH-uh*
+**Русский:** понял / ага, ясно — разг., стяжённое got you; отдельное значение — «попался!»
 **Type:** secondary &middot; **Register:** informal
 **Variants:** *gotchya*, *gotcha!*
 
@@ -333,6 +353,7 @@ A relaxed spoken contraction of "got you," used to say "I understand." It is fri
 ### I get it
 
 **Pronunciation:** /aɪ ˈɡɛt ɪt/ &middot; *eye-GET-it*
+**Русский:** теперь понял / дошло — объяснение улеглось; устало — «да понял я, хватит»
 **Type:** phrase &middot; **Register:** neutral
 **Variants:** *I get it now*, *now I get it*
 
@@ -349,6 +370,7 @@ States that an explanation has finally landed — the point has gone from confus
 ### I see
 
 **Pronunciation:** /aɪ ˈsi/ &middot; *eye-SEE*
+**Русский:** понятно / ясно — спокойное, чуть формальное; порой холодное «ну-ну»
 **Type:** phrase &middot; **Register:** neutral
 **Variants:** *ah, I see*, *oh, I see*
 
@@ -365,6 +387,7 @@ A calm, slightly formal acknowledgment that you now understand. Depending on ton
 ### I'm with you
 
 **Pronunciation:** /aɪm ˈwɪð ju/ &middot; *eyem-WITH-yoo*
+**Русский:** пока понимаю / слежу за мыслью — продолжай, я не потерялся
 **Type:** phrase &middot; **Register:** neutral
 **Variants:** *I'm with you so far*, *with you*, *I'm following you*
 
@@ -381,6 +404,7 @@ Tells the speaker you are still tracking the explanation and they should keep go
 ### makes sense
 
 **Pronunciation:** /ˌmeɪks ˈsɛns/ &middot; *makes-SENSE*
+**Русский:** логично / понятно, почему — объяснение принято как разумное
 **Type:** phrase &middot; **Register:** neutral
 **Variants:** *that makes sense*, *makes sense to me*
 
@@ -397,6 +421,7 @@ Accepts an explanation as reasonable and coherent. It confirms understanding and
 ### naturally
 
 **Pronunciation:** /ˈnætʃɚəli/ &middot; *NATCH-er-uh-lee*
+**Русский:** естественно / а как же иначе — обычно сухо, с иронией
 **Type:** secondary &middot; **Register:** neutral
 **Variants:** *naturally!*
 
@@ -413,6 +438,7 @@ Marks something as entirely expected, the obvious consequence of everything that
 ### no wonder
 
 **Pronunciation:** /noʊ ˈwʌndɚ/ &middot; *no-WUN-der*
+**Русский:** неудивительно / то-то и оно — новый факт объясняет прежнюю загадку
 **Type:** phrase &middot; **Register:** neutral
 **Variants:** *no wonder!*, *small wonder*
 
@@ -429,6 +455,7 @@ Announces that something puzzling has just been explained: the new fact accounts
 ### of course
 
 **Pronunciation:** /əv ˈkɔrs/ &middot; *uhv-KORSS*
+**Русский:** ну конечно! — очевидное вдруг встало на место; о неприятности — саркастично
 **Type:** phrase &middot; **Register:** neutral
 **Variants:** *'course*, *of course!*
 
@@ -445,6 +472,7 @@ In this use, the sound of something obvious clicking into place — you should h
 ### right
 
 **Pronunciation:** /raɪt/ &middot; *RITE*
+**Русский:** точно / ага — факт принят; повторённое «точно-точно» торопит собеседника
 **Type:** secondary &middot; **Register:** neutral
 **Variants:** *right, right*, *right right right*
 
@@ -461,6 +489,7 @@ A quick marker that a fact has been received and slotted into place — halfway 
 ### say no more
 
 **Pronunciation:** /ˌseɪ noʊ ˈmɔr/ &middot; *say-no-MOR*
+**Русский:** всё, можешь не объяснять — разг., дружелюбно: понял и согласен
 **Type:** phrase &middot; **Register:** informal
 **Variants:** *say no more!*, *no need to say more*
 
@@ -477,6 +506,7 @@ Cuts an explanation short because you have already understood — and, usually, 
 ### that explains it
 
 **Pronunciation:** /ˌðæt ɪkˈspleɪnz ɪt/ &middot; *that-ik-SPLAYNZ-it*
+**Русский:** тогда понятно / вот и объяснение — новый факт снял вопрос
 **Type:** phrase &middot; **Register:** neutral
 **Variants:** *well, that explains it*, *that explains a lot*
 
@@ -493,6 +523,7 @@ Says that a new fact resolves something you had been wondering about. It is *no 
 ### that tracks
 
 **Pronunciation:** /ˌðæt ˈtræks/ &middot; *that-TRAKS*
+**Русский:** сходится / логично — разг., новое; факт вписывается в то, что и так знали
 **Type:** phrase &middot; **Register:** informal (recent — widespread since the late 2010s)
 **Variants:** *tracks*, *that checks out*, *checks out*
 
@@ -511,6 +542,7 @@ Says that a new fact fits everything you already knew about the person or the si
 ### hang on
 
 **Pronunciation:** /ˌhæŋ ˈɑn/ &middot; *hang-ON*
+**Русский:** погоди / секундочку — разг., мягкая просьба остановиться; и «не вешайте трубку»
 **Type:** phrase &middot; **Register:** informal
 **Variants:** *hang on a second*, *hang on a sec*, *hang on a minute*
 
@@ -527,6 +559,7 @@ Stops the conversation while you catch up, check something, or notice that a det
 ### hmm
 
 **Pronunciation:** /m̩ː/ &middot; *HMM* — not really a word: a sustained nasal hum made with the lips shut. There is no vowel in it, and the *h* in the spelling is not pronounced.
+**Русский:** хм-м — задумчивое мычание с закрытым ртом: взвешиваю, сомневаюсь
 **Type:** primary &middot; **Register:** neutral
 **Variants:** *hm*, *hmmm*, *hmmmm*
 
@@ -543,6 +576,7 @@ A closed-mouth hum meaning you are thinking it over — weighing, doubting, or n
 ### hold on
 
 **Pronunciation:** /ˌhoʊld ˈɑn/ &middot; *hold-ON*
+**Русский:** стоп / подожди — твёрже, чем hang on: что-то не сходится с тем, что я знал
 **Type:** phrase &middot; **Register:** neutral
 **Variants:** *hold on a second*, *hold on a sec*, *hold on now*
 
@@ -559,6 +593,7 @@ Asks the other person to stop so you can think, check, or object. It is a beat f
 ### hold the phone
 
 **Pronunciation:** /ˌhoʊld ðə ˈfoʊn/ &middot; *hold-thuh-FOHN*
+**Русский:** стоп-стоп, погоди-ка — разг., шутливое «а ну-ка стой» от неожиданности
 **Type:** phrase &middot; **Register:** informal
 **Variants:** *hold the phone!*
 
@@ -575,6 +610,7 @@ A playful, emphatic "stop everything," used when what you just heard is surprisi
 ### hold up
 
 **Pronunciation:** /ˌhoʊld ˈʌp/ &middot; *hold-UP*
+**Русский:** стой / погоди-ка — разг., непринуждённая просьба притормозить собеседника
 **Type:** phrase &middot; **Register:** informal
 **Variants:** *hold up now*
 
@@ -591,6 +627,7 @@ A casual, spoken "wait a second," used to pause someone mid-sentence when you ne
 ### wait
 
 **Pronunciation:** /weɪt/ &middot; *WAYT*
+**Русский:** стой / погоди — разговор останавливается: что-то не сходится или, наоборот, дошло
 **Type:** secondary &middot; **Register:** neutral
 **Variants:** *wait wait wait*, *waaait*
 
@@ -607,6 +644,7 @@ Stops the flow of conversation the instant something stops making sense — or t
 ### wait a minute
 
 **Pronunciation:** /ˌweɪt ə ˈmɪnɪt/ &middot; *wayt-uh-MIN-it*
+**Русский:** постой-ка / минуточку — усиленное wait: что-то не вяжется, зреет подозрение
 **Type:** phrase &middot; **Register:** informal
 **Variants:** *wait a second*, *wait a sec*, *waitaminute*
 
@@ -625,6 +663,7 @@ A longer, more emphatic *wait*, used when something doesn't add up or when a sus
 ### back up
 
 **Pronunciation:** /ˌbæk ˈʌp/ &middot; *back-UP*
+**Русский:** вернись назад / отмотай — разг., просьба заново рассказать пропущенный кусок
 **Type:** phrase &middot; **Register:** informal
 **Variants:** *back up a second*, *back it up*
 
@@ -641,6 +680,7 @@ Asks the speaker to return to an earlier point and go over it again — not to r
 ### beg your pardon
 
 **Pronunciation:** /ˌbɛɡ jɚ ˈpɑrdən/ &middot; *beg-yer-PAR-dun*
+**Русский:** простите? / прошу прощения? — книжн., устар.; тон вниз — уже возмущение
 **Type:** phrase &middot; **Register:** formal
 **Variants:** *I beg your pardon*, *beg pardon*
 
@@ -657,6 +697,7 @@ A formal, old-fashioned request to have something repeated. Said with a falling 
 ### come again
 
 **Pronunciation:** /ˌkʌm əˈɡɛn/ &middot; *kum-uh-GEN*
+**Русский:** как-как? / повтори — разг., чаще от неожиданности, чем от плохой слышимости
 **Type:** phrase &middot; **Register:** informal
 **Variants:** *come again?*
 
@@ -673,6 +714,7 @@ A casual "say that again," usually because what you heard was surprising or hard
 ### eh?
 
 **Pronunciation:** /eɪ/ or /ɛ/ &middot; *AY* or *EH*
+**Русский:** а? / чего? — разг., короткий переспрос, чаще от пожилых или недослышавших
 **Type:** primary &middot; **Register:** informal
 **Variants:** *ay?*, *eh*
 
@@ -689,6 +731,7 @@ A short, rising grunt asking someone to repeat themselves, heard most often from
 ### excuse me?
 
 **Pronunciation:** /ɪkˈskjuz mi/ &middot; *ik-SKYOOZ-mee*
+**Русский:** простите? — с восходящей интонацией вежливый переспрос; ровно или резко — вызов
 **Type:** phrase &middot; **Register:** neutral
 **Variants:** *'scuse me?*, *excuse me!*
 
@@ -705,6 +748,7 @@ With rising intonation, a polite request to have something repeated. With a flat
 ### hm?
 
 **Pronunciation:** /m̩/ &middot; *HM* — the same lips-shut nasal hum as *hmm*, but short and on rising pitch. No vowel, no consonant release.
+**Русский:** м? / а? — короткое мычание на восходящем тоне, когда слушал вполуха
 **Type:** primary &middot; **Register:** informal
 **Variants:** *hmm?*, *mm?*, *m?*
 
@@ -721,6 +765,7 @@ A closed-mouth hum on a rising tone, meaning "what?" or "did you say something?"
 ### how's that?
 
 **Pronunciation:** /ˌhaʊz ˈðæt/ &middot; *howz-THAT*
+**Русский:** как-как? / что-что? — разг., просьба повторить или пояснить сказанное
 **Type:** phrase &middot; **Register:** informal
 **Variants:** *how's that again?*, *how was that?*
 
@@ -737,6 +782,7 @@ A mild request to repeat or restate something, common in casual American speech 
 ### huh? (rising tone)
 
 **Pronunciation:** /hʌ/ &middot; *HUH*
+**Русский:** а? / чего? — очень разг., грубовато с незнакомым, клиентом или начальником
 **Type:** primary &middot; **Register:** very informal (blunt — fine with friends and family, rude with a stranger, a customer, or a boss)
 **Variants:** *hunh?*, *huh*
 
@@ -753,6 +799,7 @@ The most basic American request to have something repeated: a short grunt with r
 ### let me get this straight
 
 **Pronunciation:** /ˌlɛt mi ɡɛt ðɪs ˈstreɪt/ &middot; *let-mee-get-this-STRAYT*
+**Русский:** так, давай разберёмся / правильно ли я понял — обычно перед возражением
 **Type:** phrase &middot; **Register:** informal
 **Variants:** *so let me get this straight*, *let me get this right*, *let me make sure I've got this*
 
@@ -769,6 +816,7 @@ Announces that you are about to repeat back what you just heard, because you wan
 ### one more time
 
 **Pronunciation:** /ˌwʌn mɔr ˈtaɪm/ &middot; *wun-mor-TIME*
+**Русский:** ещё раз — просьба повторить то, что хочешь запомнить точно
 **Type:** phrase &middot; **Register:** neutral
 **Variants:** *one more time?*, *just one more time*
 
@@ -785,6 +833,7 @@ Asks for a repetition, usually of something you are trying to get exactly right 
 ### pardon?
 
 **Pronunciation:** /ˈpɑrdən/ &middot; *PAR-dun*
+**Русский:** простите? — книжн.; у американцев звучит старомодно, это скорее британское
 **Type:** secondary &middot; **Register:** formal
 **Variants:** *pardon me?*, *beg pardon?*
 
@@ -801,6 +850,7 @@ A short, polite request to have something repeated. It is far more common in Bri
 ### pardon me?
 
 **Pronunciation:** /ˈpɑrdən mi/ &middot; *PAR-dun-mee*
+**Русский:** прошу прощения? — книжн., вежливый переспрос, чуть настойчивее pardon?
 **Type:** phrase &middot; **Register:** formal
 **Variants:** *pardon me!*
 
@@ -817,6 +867,7 @@ A polite request for repetition, a step more emphatic than plain *pardon?* Like 
 ### run that by me again
 
 **Pronunciation:** /ˌrʌn ðæt baɪ mi əˈɡɛn/ &middot; *run-that-by-me-uh-GEN*
+**Русский:** объясни ещё раз — разг.: слова расслышал, а смысл нет; часто с недоверием
 **Type:** phrase &middot; **Register:** informal
 **Variants:** *run that by me one more time*, *run that past me again*
 
@@ -833,6 +884,7 @@ Asks for a full re-explanation rather than a repeated word: you followed the sou
 ### say again
 
 **Pronunciation:** /ˌseɪ əˈɡɛn/ &middot; *say-uh-GEN*
+**Русский:** повтори / повторите — по-военному коротко (радиообмен); в быту деловито-резко
 **Type:** phrase &middot; **Register:** neutral (standard radio and military procedure); informal and brisk in ordinary speech
 **Variants:** *say that again*, *say again?*
 
@@ -849,6 +901,7 @@ A clipped request to repeat, borrowed from radio and military usage where it is 
 ### say what
 
 **Pronunciation:** /ˌseɪ ˈwʌt/ &middot; *say-WUT*
+**Русский:** чего-чего? / да ладно! — очень разг., устар. (сленг 1980-х), от изумления
 **Type:** phrase &middot; **Register:** very informal (dated — it has an unmistakable 1980s ring)
 **Variants:** *say whaaat*, *say what now*, *say what?!*
 
@@ -865,6 +918,7 @@ A slangy, disbelieving "what did you just say," used when the content is startli
 ### sorry?
 
 **Pronunciation:** /ˈsɑri/ or /ˈsɔri/ &middot; *SAH-ree* or *SOR-ee*
+**Русский:** простите? — с восходящей интонацией вежливый переспрос; с падающей — извинение
 **Type:** secondary &middot; **Register:** neutral
 **Variants:** *I'm sorry?*, *sorry, what?*
 
@@ -881,6 +935,7 @@ With rising intonation, a polite request to have something repeated — the most
 ### wait, what?
 
 **Pronunciation:** /ˌweɪt ˈwʌt/ &middot; *wayt-WUT*
+**Русский:** стоп, что? / в смысле?! — разг., реакция на по-настоящему неожиданную новость
 **Type:** phrase &middot; **Register:** informal
 **Variants:** *wait what*, *waitwhat*, *wait — what?*
 
@@ -897,6 +952,7 @@ Combines a stop signal with a request to repeat, used when what was just said do
 ### what?
 
 **Pronunciation:** /wʌt/ or /wɑt/ &middot; *WUT*
+**Русский:** что? / чего? — разг., резковато: с незнакомым, клиентом или начальником невежливо
 **Type:** secondary &middot; **Register:** informal (curt — reads as impatient or plainly rude to a stranger, a customer, or a boss)
 **Variants:** *whut*, *wut*, *what?!*
 
@@ -913,6 +969,7 @@ The blunt request to repeat something. It is very common but abrupt, and it is b
 ### what do you mean?
 
 **Pronunciation:** /ˌwʌt də jə ˈmin/ &middot; *wut-duh-yuh-MEEN* (said carefully: /ˌwʌt du ju ˈmin/)
+**Русский:** в каком смысле? — просьба пояснить смысл, а не повторить; резко — вызов
 **Type:** phrase &middot; **Register:** neutral
 **Variants:** *what do you mean by that?*, *whaddya mean*, *how do you mean?*
 
@@ -929,6 +986,7 @@ Asks for the sense of something rather than a repeat of the sound: you heard eve
 ### what was that?
 
 **Pronunciation:** /ˌwʌt wəz ˈðæt/ &middot; *wut-wuz-THAT*
+**Русский:** что-что? / что вы сказали? — переспрос из-за шума, мягче, чем голое what?
 **Type:** phrase &middot; **Register:** neutral
 **Variants:** *what was that again?*, *what'd you say?*
 
@@ -945,6 +1003,7 @@ Asks for a repetition of something you didn't catch, usually because of noise or
 ### you lost me
 
 **Pronunciation:** /ju ˈlɔst mi/ &middot; *yoo-LAWST-mee*
+**Русский:** я потерял нить / не улавливаю — разг., перестал понимать с какого-то места
 **Type:** phrase &middot; **Register:** informal
 **Variants:** *you've lost me*, *I'm lost*, *you lost me at ___*
 

@@ -26,6 +26,7 @@ This file also covers **minced oaths** — deliberate distortions of taboo words
 ### asshole
 
 **Pronunciation:** /ˈæsˌhoʊl/ &middot; *ASS-hohl*
+**Русский:** мудак, козёл — груб.: выкрик в адрес того, кто повёл себя по-свински
 **Type:** secondary &middot; **Register:** vulgar
 **Offensiveness:** strong
 **Safe in:** venting to friends; alone in a car, which is where most of them are said
@@ -45,6 +46,7 @@ The standard American shout at somebody whose behavior has just been selfish or 
 ### bastard
 
 **Pronunciation:** /ˈbæstərd/ &middot; *BAS-terd*
+**Русский:** сволочь, гад — груб.: взрыв в адрес подлеца или взбунтовавшейся вещи
 **Type:** secondary &middot; **Register:** vulgar
 **Offensiveness:** moderate to strong — moderate thrown at an object, strong aimed at a person
 **Safe in:** venting among close friends; swearing at an object or a situation when nobody is around
@@ -64,6 +66,7 @@ An outburst aimed at someone who has just done something cruel or underhanded �
 ### bollocks
 
 **Pronunciation:** /ˈbɑləks/ &middot; *BOL-uks*
+**Русский:** чёрт!; бред собачий — брит., груб.: досада или «враньё всё это»
 **Type:** secondary &middot; **Register:** vulgar
 **Offensiveness:** moderate in the US, strong in Britain
 **Safe in:** casual British and Irish speech among friends
@@ -83,6 +86,7 @@ British and Irish, familiar to Americans mainly from television. It does two job
 ### bugger
 
 **Pronunciation:** /ˈbʌɡər/ &middot; *BUG-er*
+**Русский:** чёрт!, блин! — брит.: досада из-за мелкой неудачи; в США почти не ругательство
 **Type:** secondary &middot; **Register:** vulgar
 **Offensiveness:** mild in the US, where most people do not register it as a swear word; moderate in Britain
 **Safe in:** British and Irish casual speech; American speech among friends, where it reads as quaint
@@ -102,6 +106,7 @@ A British and Irish exclamation of mild disaster — the thing you say when you 
 ### bullshit
 
 **Pronunciation:** /ˈbʊlˌʃɪt/ &middot; *BULL-shit*
+**Русский:** враньё!, чушь собачья! — груб.: приговор «это ложь» или «судья неправ»
 **Type:** secondary &middot; **Register:** vulgar
 **Offensiveness:** strong
 **Safe in:** arguing with friends, family, or teammates; sports crowds
@@ -121,6 +126,7 @@ Called out when you believe what you have just heard is a lie, an excuse, or an 
 ### Christ
 
 **Pronunciation:** /kraɪst/ &middot; *KRYST*
+**Русский:** Господи!, Боже! — досада или изумление; верующие слышат богохульство
 **Type:** secondary &middot; **Register:** vulgar
 **Offensiveness:** moderate — but strong to anyone religious, who hears it as blasphemy rather than as swearing
 **Safe in:** casual speech among friends who are not devout
@@ -140,6 +146,7 @@ A one-word release of exasperation, shock, or weariness. Note that its offensive
 ### crap
 
 **Pronunciation:** /kræp/ &middot; *KRAP*
+**Русский:** чёрт!, блин! — разг.: мелкая неприятность; самое мягкое из настоящих ругательств
 **Type:** secondary &middot; **Register:** very informal
 **Offensiveness:** mild
 **Safe in:** most American workplaces among peers, casual conversation, family life
@@ -159,6 +166,7 @@ The everyday American reaction to a small setback — a forgotten item, a spille
 ### damn
 
 **Pronunciation:** /dæm/ &middot; *DAM*
+**Русский:** чёрт! — досада; протяжно и с ударением — восхищение: «ну ничего себе»
 **Type:** secondary &middot; **Register:** very informal
 **Offensiveness:** mild to moderate — mild as frustration, moderate to religious listeners, who hear the original curse in it
 **Safe in:** casual conversation, most workplaces among peers, sports
@@ -178,6 +186,7 @@ Two distinct jobs. As frustration it marks a small defeat; drawn out and stresse
 ### fuck
 
 **Pronunciation:** /fʌk/ &middot; *FUK*
+**Русский:** блядь! — мат: самое тяжёлое слово языка, выброс боли, паники, катастрофы
 **Type:** secondary &middot; **Register:** vulgar
 **Offensiveness:** very strong
 **Safe in:** close friends who swear, and almost nowhere else; alone in a car
@@ -198,6 +207,7 @@ The heaviest single word in American English, and as an interjection it is a pur
 ### God
 
 **Pronunciation:** /ɡɑd/ &middot; *GOD*
+**Русский:** Господи!, Боже мой! — усталость, досада или ужас в одном слоге
 **Type:** secondary &middot; **Register:** very informal
 **Offensiveness:** mild as swearing, strong to devout listeners, who hear a commandment being broken
 **Safe in:** casual conversation among friends
@@ -217,6 +227,7 @@ Exasperation, dread, or weariness in one syllable. It is grammatically an appeal
 ### hell
 
 **Pronunciation:** /hɛl/ &middot; *HEL*
+**Русский:** да чего там; вот чёрт — в начале фразы вводит мнение, с oh/aw — досада
 **Type:** secondary &middot; **Register:** very informal
 **Offensiveness:** mild to moderate
 **Safe in:** casual conversation, most workplaces among peers
@@ -236,6 +247,7 @@ Sentence-initial *hell* is a shrug that introduces an opinion — a way of sayin
 ### Jesus
 
 **Pronunciation:** /ˈdʒizəs/ &middot; *JEE-zuhs*
+**Русский:** Господи!, Иисусе! — шок, изнеможение, недоверие; верующих задевает как богохульство
 **Type:** secondary &middot; **Register:** vulgar
 **Offensiveness:** moderate — strong to religious listeners
 **Safe in:** casual speech among friends who are not devout
@@ -255,6 +267,7 @@ Shock, exhaustion, or disbelief — usually at something startling, expensive, o
 ### shit
 
 **Pronunciation:** /ʃɪt/ &middot; *SHIT*
+**Русский:** чёрт!, бля! — груб.: рабочая реакция на неудачу; протяжно — усталое согласие
 **Type:** secondary &middot; **Register:** vulgar
 **Offensiveness:** strong
 **Safe in:** friends, family that swears, sports, driving alone
@@ -277,6 +290,7 @@ The workhorse American swear word for a bad moment: the dropped glass, the misse
 ### bloody hell
 
 **Pronunciation:** /ˌblʌdi ˈhɛl/ &middot; *bluh-dee HEL*
+**Русский:** чёрт побери! — брит., груб.: шок или крайняя досада
 **Type:** phrase &middot; **Register:** vulgar
 **Offensiveness:** moderate (strong in Britain, where *bloody* still carries weight)
 **Safe in:** British and Irish casual speech
@@ -296,6 +310,7 @@ The standard British exclamation of shock or exasperation, known to Americans en
 ### damn it
 
 **Pronunciation:** /ˈdæmɪt/ &middot; *DAM-it*
+**Русский:** чёрт возьми!, да блин! — досада на конкретную, только что случившуюся неудачу
 **Type:** phrase &middot; **Register:** very informal
 **Offensiveness:** moderate
 **Safe in:** casual conversation, most workplaces among peers, driving
@@ -315,6 +330,7 @@ Frustration with a specific, immediate failure — the file that did not save, t
 ### damn straight
 
 **Pronunciation:** /ˌdæm ˈstreɪt/ &middot; *dam STRAYT*
+**Русский:** а то!, ещё бы! — эмфатическое «да»: сомнений и не было
 **Type:** phrase &middot; **Register:** very informal
 **Offensiveness:** mild — but it is still *damn*, and a listener who objects to that word objects here
 **Safe in:** casual conversation, friendly workplaces, sports talk
@@ -334,6 +350,7 @@ An emphatic yes. It agrees with what was just said and adds that there was never
 ### for fuck's sake
 
 **Pronunciation:** /fər ˈfʌks ˌseɪk/ &middot; *fer FUKS sayk*
+**Русский:** да бля, сколько можно! — мат: раздражение от проблемы, повторяющейся в третий раз
 **Type:** phrase &middot; **Register:** vulgar
 **Offensiveness:** very strong
 **Safe in:** close friends who swear freely; alone
@@ -353,6 +370,7 @@ Exasperation at the third repetition of the same problem. It is the impatient en
 ### for God's sake
 
 **Pronunciation:** /fər ˈɡɑdz ˌseɪk/ &middot; *fer GODZ sayk*
+**Русский:** ради бога!, господи ты боже мой! — нетерпеливый призыв: да сделай уже
 **Type:** phrase &middot; **Register:** very informal
 **Offensiveness:** mild to moderate — moderate for religious listeners
 **Safe in:** family, friends, casual workplaces
@@ -372,6 +390,7 @@ An appeal made out of impatience: hurry up, be reasonable, do the obvious thing.
 ### fuck it
 
 **Pronunciation:** /ˈfʌk ɪt/ &middot; *FUK it*
+**Русский:** да пошло оно всё, и хрен с ним — груб.: хватит взвешивать, делаю по-простому
 **Type:** phrase &middot; **Register:** vulgar
 **Offensiveness:** very strong
 **Safe in:** close friends; talking to yourself
@@ -391,6 +410,7 @@ The sound of a decision. It announces that you are done weighing the options and
 ### fuck me
 
 **Pronunciation:** /ˌfʌk ˈmi/ &middot; *fuk MEE*
+**Русский:** ёб твою мать!, ни хрена себе! — мат: изумление или оторопь, ничего сексуального
 **Type:** phrase &middot; **Register:** vulgar
 **Offensiveness:** very strong
 **Safe in:** close friends who swear
@@ -410,6 +430,7 @@ Astonishment or dismay at something the speaker has just seen or learned. Despit
 ### fuck off
 
 **Pronunciation:** /ˌfʌk ˈɔf/ &middot; *fuk AWF*
+**Русский:** иди на хуй, отвали — мат: в США всерьёз, у британцев часто шутливо
 **Type:** phrase &middot; **Register:** vulgar
 **Offensiveness:** very strong
 **Safe in:** joking with a close friend who is certain you are joking
@@ -429,6 +450,7 @@ Go away — said in real anger in American English, and often in mock disbelief 
 ### fuck yeah
 
 **Pronunciation:** /ˌfʌk ˈjɛə/ &middot; *fuk YEH*
+**Русский:** да, блядь!, а то! — мат: восторг и триумф на полной громкости
 **Type:** phrase &middot; **Register:** vulgar
 **Offensiveness:** very strong
 **Safe in:** close friends who swear; celebrating with people who already swear around you
@@ -448,6 +470,7 @@ Enthusiastic agreement or triumph at full volume — the profane top of the [hel
 ### fuck you
 
 **Pronunciation:** /ˌfʌk ˈju/ &middot; *fuk YOO*
+**Русский:** пошёл ты!, иди на хуй — мат: прямое оскорбление собеседника
 **Type:** phrase &middot; **Register:** vulgar
 **Offensiveness:** very strong
 **Safe in:** essentially nowhere; among very close friends it can be affectionate, and that is a gamble
@@ -467,6 +490,7 @@ A direct attack on the listener — contempt, defiance, refusal, all at once. It
 ### fucking hell
 
 **Pronunciation:** /ˌfʌkɪŋ ˈhɛl/ &middot; *FUK-ing HEL*
+**Русский:** твою же мать!, ёбаный в рот — мат: шок или конец терпения; чаще у британцев
 **Type:** phrase &middot; **Register:** vulgar
 **Offensiveness:** very strong
 **Safe in:** close friends who swear; alone
@@ -486,6 +510,7 @@ Shock, exhaustion, or the end of the speaker's patience, and heavier than either
 ### go to hell
 
 **Pronunciation:** /ˌɡoʊ tə ˈhɛl/ &middot; *goh tuh HEL*
+**Русский:** иди к чёрту!, катись к чертям — отповедь с презрением; мягче и старомоднее fuck you
 **Type:** phrase &middot; **Register:** very informal
 **Offensiveness:** moderate
 **Safe in:** arguments among friends, siblings, and family who know each other's limits
@@ -505,6 +530,7 @@ A dismissal aimed straight at the listener: refusal and contempt in four short w
 ### goddammit
 
 **Pronunciation:** /ɡɑˈdæmɪt/ &middot; *god-DAM-it*
+**Русский:** твою мать!, чёрт бы всё побрал! — груб.: ярость, когда что-то подвело в очередной раз
 **Type:** phrase &middot; **Register:** vulgar
 **Offensiveness:** strong — and stronger still for religious listeners, who object twice over
 **Safe in:** friends, family that swears, working alone on something that will not cooperate
@@ -524,6 +550,7 @@ Full-throated frustration, heavier than [damn it](#damn-it) because it drags the
 ### hell no
 
 **Pronunciation:** /ˌhɛl ˈnoʊ/ &middot; *hel NOH*
+**Русский:** да ни за что!, чёрта с два — отказ, захлопнутый наглухо
 **Type:** phrase &middot; **Register:** very informal
 **Offensiveness:** mild to moderate
 **Safe in:** casual conversation, friendly workplaces, family
@@ -543,6 +570,7 @@ A refusal with the door slammed on it. It answers a yes-or-no question and adds 
 ### hell yeah
 
 **Pronunciation:** /ˌhɛl ˈjɛə/ &middot; *hel YEH*
+**Русский:** ещё бы!, а то!, да, чёрт возьми! — восторженное согласие, без всякой злости
 **Type:** phrase &middot; **Register:** very informal
 **Offensiveness:** mild to moderate — the same *hell* as everywhere else, and the people who mind it mind it here too
 **Safe in:** friends, teammates, casual workplaces, celebrations
@@ -562,6 +590,7 @@ Enthusiastic agreement — the answer to an invitation you have been waiting for
 ### holy crap
 
 **Pronunciation:** /ˌhoʊli ˈkræp/ &middot; *HOH-lee KRAP*
+**Русский:** ничего себе!, ёлки-палки! — изумление; безобидный член семейства holy
 **Type:** phrase &middot; **Register:** very informal
 **Offensiveness:** mild
 **Safe in:** casual conversation, most workplaces among peers, family
@@ -581,6 +610,7 @@ Astonishment at size, price, speed, or sheer unexpectedness. It is the safe memb
 ### holy hell
 
 **Pronunciation:** /ˌhoʊli ˈhɛl/ &middot; *HOH-lee HEL*
+**Русский:** мать честная!, вот чёрт! — изумление пополам с лёгкой тревогой
 **Type:** phrase &middot; **Register:** very informal
 **Offensiveness:** moderate
 **Safe in:** friends, family, casual workplaces
@@ -600,6 +630,7 @@ Amazement, usually mixed with a little alarm. The phrase is a contradiction on i
 ### holy shit
 
 **Pronunciation:** /ˌhoʊli ˈʃɪt/ &middot; *HOH-lee SHIT*
+**Русский:** охренеть!, ни хрена себе! — груб.: настоящий шок, самое громкое после fuck
 **Type:** phrase &middot; **Register:** vulgar
 **Offensiveness:** strong
 **Safe in:** friends, family that swears, sports crowds
@@ -619,6 +650,7 @@ The standard American exclamation of genuine shock — at a near miss, a huge nu
 ### Jesus Christ
 
 **Pronunciation:** /ˌdʒizəs ˈkraɪst/ &middot; *jee-zuhs KRYST*
+**Русский:** Господи Иисусе!, Боже правый! — нетерпение или недоверие; тяжелее, чем Jesus
 **Type:** phrase &middot; **Register:** vulgar
 **Offensiveness:** moderate as swearing, strong as blasphemy
 **Safe in:** casual speech among friends who are not religious
@@ -638,6 +670,7 @@ The full form, and heavier than [Jesus](#jesus) alone: impatience, disbelief, or
 ### kiss my ass
 
 **Pronunciation:** /ˌkɪs maɪ ˈæs/ &middot; *kis my ASS*
+**Русский:** поцелуй меня в задницу; да пошли они — груб.: отказ с оскорблением
 **Type:** phrase &middot; **Register:** vulgar
 **Offensiveness:** moderate to strong
 **Safe in:** friends and siblings; complaining about somebody who is not in the room
@@ -657,6 +690,7 @@ A refusal with an insult welded to it — not only no, but you had no business a
 ### motherfucker
 
 **Pronunciation:** /ˈmʌðərˌfʌkər/ &middot; *MUTH-er-fuk-er*
+**Русский:** сука!, блядь! — мат: взрыв боли или ярости, чаще в адрес вещи, а не человека
 **Type:** secondary &middot; **Register:** vulgar
 **Offensiveness:** very strong
 **Safe in:** close friends who swear; alone, at an object that has just injured you
@@ -676,6 +710,7 @@ An explosion of pain or rage, usually at an object rather than a person — the 
 ### my ass
 
 **Pronunciation:** /maɪ ˈæs/ &middot; *my ASS*
+**Русский:** как же!, чёрта с два — груб.: повтори чужие слова и добавь это — значит враньё
 **Type:** phrase &middot; **Register:** vulgar
 **Offensiveness:** moderate to strong
 **Safe in:** friends, family, arguing about something unimportant
@@ -695,6 +730,7 @@ A flat denial that attaches to the words you are rejecting: repeat the claim, th
 ### no shit
 
 **Pronunciation:** /ˌnoʊ ˈʃɪt/ &middot; *noh SHIT*
+**Русский:** да ну?; спасибо, кэп — груб.: с вопросом — удивление, ровным тоном — сарказм
 **Type:** phrase &middot; **Register:** vulgar
 **Offensiveness:** strong
 **Safe in:** friends, family that swears
@@ -714,6 +750,7 @@ Two opposite readings, separated entirely by intonation. Flat and falling, it is
 ### oh fuck
 
 **Pronunciation:** /ˌoʊ ˈfʌk/ &middot; *oh FUK*
+**Русский:** ой, бля; ну всё, пиздец — мат: понимание, что дело плохо; тяжелее oh shit
 **Type:** phrase &middot; **Register:** vulgar
 **Offensiveness:** very strong
 **Safe in:** close friends who swear; alone, in the second after something goes wrong
@@ -733,6 +770,7 @@ The realization that something has gone badly wrong — one full step above [oh 
 ### oh my God
 
 **Pronunciation:** /ˌoʊ maɪ ˈɡɑd/ &middot; *oh my GOD*
+**Русский:** о боже!, боже мой! — самый частый возглас: шок, восторг, ужас; в переписке OMG
 **Type:** phrase &middot; **Register:** informal
 **Offensiveness:** mild as swearing, strong to devout listeners
 **Safe in:** casual conversation, texting, most workplaces among peers
@@ -752,6 +790,7 @@ The all-purpose American exclamation of shock, delight, horror, or excitement �
 ### oh shit
 
 **Pronunciation:** /ˌoʊ ˈʃɪt/ &middot; *oh SHIT*
+**Русский:** ой, чёрт!, вот блин! — груб.: миг осознания, что что-то пошло не так
 **Type:** phrase &middot; **Register:** vulgar
 **Offensiveness:** strong
 **Safe in:** friends, family that swears, driving
@@ -771,6 +810,7 @@ The moment you realize something has gone wrong — a beat of dread rather than 
 ### piss off
 
 **Pronunciation:** /ˌpɪs ˈɔf/ &middot; *pis AWF*
+**Русский:** отвали!, отвяжись! — груб.: мягче fuck off, чаще у британцев
 **Type:** phrase &middot; **Register:** vulgar
 **Offensiveness:** moderate
 **Safe in:** friends who are joking; British and Irish casual speech
@@ -790,6 +830,7 @@ Go away, or stop talking nonsense. It is the milder cousin of [fuck off](#fuck-o
 ### screw it
 
 **Pronunciation:** /ˈskru ɪt/ &middot; *SKROO it*
+**Русский:** да ну его; и ладно — приличный вариант fuck it: хватит думать, делаю попроще
 **Type:** phrase &middot; **Register:** very informal
 **Offensiveness:** mild
 **Safe in:** casual conversation, most workplaces among peers, family
@@ -809,6 +850,7 @@ The socially acceptable version of [fuck it](#fuck-it): the point where you stop
 ### screw you
 
 **Pronunciation:** /ˌskru ˈju/ &middot; *skroo YOO*
+**Русский:** да иди ты! — смягчённое fuck you; между друзьями может звучать дружелюбно
 **Type:** phrase &middot; **Register:** very informal
 **Offensiveness:** moderate
 **Safe in:** friends who know you are joking; siblings
@@ -828,6 +870,7 @@ A softened [fuck you](#fuck-you) — still an insult, but one that can be affect
 ### son of a bitch
 
 **Pronunciation:** /ˌsʌn əv ə ˈbɪtʃ/ &middot; *sun-uv-uh-BICH*
+**Русский:** сукин сын!, вот сволочь! — груб.: боль и досада; с улыбкой — восхищение
 **Type:** phrase &middot; **Register:** vulgar
 **Offensiveness:** strong
 **Safe in:** friends, family that swears, alone with a stubborn machine
@@ -847,6 +890,7 @@ Classic American frustration — the shout that follows a stubbed toe or a towed
 ### up yours
 
 **Pronunciation:** /ˌʌp ˈjʊrz/ &middot; *up YOORZ*
+**Русский:** да пошёл ты!, накось выкуси — отповедь со средним пальцем; отдаёт 1970-ми
 **Type:** phrase &middot; **Register:** very informal
 **Offensiveness:** moderate
 **Safe in:** joking with friends and siblings
@@ -866,6 +910,7 @@ A short dismissal of the listener, usually delivered with a raised middle finger
 ### what the fuck
 
 **Pronunciation:** /ˌwʌt ðə ˈfʌk/ &middot; *wut thuh FUK*
+**Русский:** какого хуя?, что за нахуй? — мат: полное непонимание чего-то абсурдного
 **Type:** phrase &middot; **Register:** vulgar
 **Offensiveness:** very strong
 **Safe in:** close friends who swear; texting between friends as *WTF*
@@ -885,6 +930,7 @@ Blank incomprehension at something absurd, unfair, or inexplicable. It can stand
 ### what the hell
 
 **Pronunciation:** /ˌwʌt ðə ˈhɛl/ &middot; *wut thuh HEL*
+**Русский:** какого чёрта?; а, была не была — возмущение либо, ровным тоном, «а почему бы и нет»
 **Type:** phrase &middot; **Register:** very informal
 **Offensiveness:** mild to moderate
 **Safe in:** casual conversation, most workplaces among peers
@@ -908,6 +954,7 @@ Every word in this section is a deliberate distortion of a taboo word — *gosh*
 ### crikey
 
 **Pronunciation:** /ˈkraɪki/ &middot; *KRY-kee*
+**Русский:** ух ты!, ничего себе! — австрал./брит.: удивление, смягчённое от Christ
 **Type:** primary &middot; **Register:** regional
 **Offensiveness:** mild
 **Safe in:** anywhere, in any company — it is safe even in front of grandparents and children
@@ -927,6 +974,7 @@ An Australian and British exclamation of surprise, softened from *Christ*. Ameri
 ### criminy
 
 **Pronunciation:** /ˈkrɪməni/ &middot; *KRIM-uh-nee*
+**Русский:** батюшки!, ёлки-палки! — устар.: мягкая досада; звучит очень по-стариковски
 **Type:** primary &middot; **Register:** dated
 **Offensiveness:** mild
 **Safe in:** anywhere, including work, school, and church
@@ -946,6 +994,7 @@ A mild, old-fashioned exclamation of exasperation or surprise, softened from *Ch
 ### cripes
 
 **Pronunciation:** /kraɪps/ &middot; *KRYPS*
+**Русский:** господи!, ёлки зелёные! — устар.: смягчённое Christ, годится при детях
 **Type:** primary &middot; **Register:** dated
 **Offensiveness:** mild
 **Safe in:** anywhere — work, school, church, around children
@@ -965,6 +1014,7 @@ A softened *Christ*, used for annoyance or mild astonishment. Like most of this 
 ### crud
 
 **Pronunciation:** /krʌd/ &middot; *KRUD*
+**Русский:** ой, блин!; вот ёлки — безобидная замена crap для мелких неурядиц
 **Type:** secondary &middot; **Register:** informal
 **Offensiveness:** mild
 **Safe in:** anywhere — work, school, family, in front of children
@@ -984,6 +1034,7 @@ A soft substitute for [crap](#crap), used for small setbacks. It is the sort of 
 ### dagnabbit
 
 **Pronunciation:** /dæɡˈnæbɪt/ &middot; *dag-NAB-it*
+**Русский:** а чтоб тебя!, ёшкин кот! — устар., шутл.: исковерканное God damn it
 **Type:** primary &middot; **Register:** dated
 **Offensiveness:** mild
 **Safe in:** anywhere; it is almost always meant to be funny
@@ -1003,6 +1054,7 @@ A scrambled *God damn it*, now attached firmly to cartoon prospectors and cranky
 ### dang
 
 **Pronunciation:** /dæŋ/ &middot; *DANG*
+**Русский:** чёрт!; ух ты! — смягчённое damn: и досада, и восхищение; южный колорит
 **Type:** primary &middot; **Register:** informal
 **Offensiveness:** mild
 **Safe in:** anywhere — work, school, family, church
@@ -1022,6 +1074,7 @@ A softened *damn*, and like *damn* it swings between frustration and admiration.
 ### darn
 
 **Pronunciation:** /dɑrn/ &middot; *DARN*
+**Русский:** эх!, вот досада! — самая безобидная замена damn; сигнал, что человек не ругается
 **Type:** primary &middot; **Register:** informal
 **Offensiveness:** mild
 **Safe in:** anywhere — work, school, church, in front of anyone
@@ -1041,6 +1094,7 @@ The most standard softening of *damn*, and the safest word in this file. It expr
 ### doggone it
 
 **Pronunciation:** /ˌdɔɡˈɡɔn ɪt/ or /ˌdɑɡˈɡɑn ɪt/ &middot; *dog-GAWN it*
+**Русский:** вот незадача!, ах ты ж! — устар.: тёплое деревенское смягчение God damn it
 **Type:** phrase &middot; **Register:** dated
 **Offensiveness:** mild
 **Safe in:** anywhere, in any company
@@ -1060,6 +1114,7 @@ A softened *God damn it*, warm, old-fashioned, and Southern or rural in flavor. 
 ### eff
 
 **Pronunciation:** /ɛf/ &middot; *EF*
+**Русский:** «эф» — название буквы вместо самого слова fuck; ср. рус. «слово на букву „б“»
 **Type:** primary &middot; **Register:** informal
 **Offensiveness:** mild
 **Safe in:** casual workplaces, friends, texting — anywhere the real word would be too much
@@ -1079,6 +1134,7 @@ The spoken name of the letter F, standing in for [fuck](#fuck). Everyone knows e
 ### fiddlesticks
 
 **Pronunciation:** /ˈfɪdəlˌstɪks/ &middot; *FID-uhl-stiks*
+**Русский:** вздор!, ерунда! — устар.: досада или «чушь всё это», без тени грубости
 **Type:** primary &middot; **Register:** dated
 **Offensiveness:** mild
 **Safe in:** anywhere at all — work, school, church, in front of children
@@ -1098,6 +1154,7 @@ Annoyance at a small setback, or a flat "nonsense" verdict on something you have
 ### for crying out loud
 
 **Pronunciation:** /fər ˌkraɪɪŋ aʊt ˈlaʊd/ &middot; *fer KRY-ing owt LOWD*
+**Русский:** ну сколько можно!, господи ты боже мой! — измученное терпение, звучит комично
 **Type:** phrase &middot; **Register:** informal
 **Offensiveness:** mild
 **Safe in:** anywhere — work, family, school
@@ -1117,6 +1174,7 @@ A softened *for Christ's sake*, expressing worn-out patience. It is the exaspera
 ### for Pete's sake
 
 **Pronunciation:** /fər ˈpits ˌseɪk/ &middot; *fer PEETS sayk*
+**Русский:** ради всего святого! — смягчённое for Christ's sake: нетерпение без грубости
 **Type:** phrase &middot; **Register:** informal
 **Offensiveness:** mild
 **Safe in:** anywhere, including church and school
@@ -1136,6 +1194,7 @@ A softened *for Christ's sake* — Pete stands in for St. Peter. It is impatienc
 ### frick
 
 **Pronunciation:** /frɪk/ &middot; *FRIK*
+**Русский:** блин!, ёлки! — смягчённое fuck, самая ходовая замена у молодёжи
 **Type:** primary &middot; **Register:** informal
 **Offensiveness:** mild
 **Safe in:** casual conversation, school, workplaces; it is the standard substitute for younger speakers
@@ -1155,6 +1214,7 @@ A softened [fuck](#fuck), and currently the most common one among American teena
 ### fudge
 
 **Pronunciation:** /fʌdʒ/ &middot; *FUJ*
+**Русский:** блин!, ёшкин кот! — смягчённое fuck для мелких домашних неурядиц, чуть комично
 **Type:** secondary &middot; **Register:** informal
 **Offensiveness:** mild
 **Safe in:** anywhere, including in front of children — that is largely what it is for
@@ -1174,6 +1234,7 @@ A softened [fuck](#fuck) that borrows the candy. It is used for small domestic d
 ### gee
 
 **Pronunciation:** /dʒi/ &middot; *JEE*
+**Русский:** ну надо же; ой — смягчённое Jesus; «gee, thanks» почти всегда сарказм
 **Type:** primary &middot; **Register:** dated
 **Offensiveness:** mild
 **Safe in:** anywhere at all
@@ -1193,6 +1254,7 @@ A softened *Jesus*, used for mild surprise, sympathy, or hesitation. Modern Amer
 ### golly
 
 **Pronunciation:** /ˈɡɑli/ &middot; *GOL-ee*
+**Русский:** ну и ну!, батюшки! — устар.: смягчённое God, изумление
 **Type:** primary &middot; **Register:** dated
 **Offensiveness:** mild
 **Safe in:** anywhere, in any company
@@ -1212,6 +1274,7 @@ A softened *God*, expressing wonder or mild astonishment. It is thoroughly old-f
 ### good grief
 
 **Pronunciation:** /ˌɡʊd ˈɡrif/ &middot; *good GREEF*
+**Русский:** господи боже!, ну что ты будешь делать! — досада и усталое недоверие
 **Type:** phrase &middot; **Register:** informal
 **Offensiveness:** mild
 **Safe in:** anywhere — work, school, family
@@ -1231,6 +1294,7 @@ A softened *good God*, expressing dismay or weary disbelief. Charlie Brown made 
 ### gosh
 
 **Pronunciation:** /ɡɑʃ/ &middot; *GOSH*
+**Русский:** боже!, ой-ой! — стандартное смягчение God; безопасно вообще везде
 **Type:** primary &middot; **Register:** informal
 **Offensiveness:** mild
 **Safe in:** everywhere, including church, school, and business
@@ -1250,6 +1314,7 @@ The standard softening of *God*, used for surprise, sympathy, or polite hesitati
 ### heck
 
 **Pronunciation:** /hɛk/ &middot; *HEK*
+**Русский:** чёрт (мягко), ёлки — смягчённое hell: what the heck, heck no и всё прочее
 **Type:** primary &middot; **Register:** informal
 **Offensiveness:** mild
 **Safe in:** everywhere, including work, school, and church
@@ -1269,6 +1334,7 @@ A softened *hell*, and it does every job that *hell* does: *what the heck*, *hec
 ### holy cow
 
 **Pronunciation:** /ˌhoʊli ˈkaʊ/ &middot; *HOH-lee KOW*
+**Русский:** ух ты!, ничего себе! — изумление; безопасно при детях и при начальстве
 **Type:** phrase &middot; **Register:** informal
 **Offensiveness:** mild
 **Safe in:** everywhere — work, school, church, in front of children
@@ -1288,6 +1354,7 @@ The safe member of the *holy* family and the one Americans say in front of their
 ### jeepers
 
 **Pronunciation:** /ˈdʒipərz/ &middot; *JEE-perz*
+**Русский:** батюшки!, ух ты! — устар.: смягчённое Jesus, удивление или испуг
 **Type:** primary &middot; **Register:** dated
 **Offensiveness:** mild
 **Safe in:** anywhere at all
@@ -1307,6 +1374,7 @@ A softened *Jesus*, expressing surprise or alarm. It is firmly mid-century, and 
 ### jeez
 
 **Pronunciation:** /dʒiz/ &middot; *JEEZ*
+**Русский:** господи!, блин! — смягчённое Jesus: досада, сочувствие или «ну хватит уже»
 **Type:** primary &middot; **Register:** informal
 **Offensiveness:** mild
 **Safe in:** casual conversation, workplaces, school; some devout listeners still hear *Jesus* underneath it
@@ -1326,6 +1394,7 @@ A clipped, softened *Jesus* — the everyday American expression of exasperation
 ### mother of pearl
 
 **Pronunciation:** /ˌmʌðər əv ˈpɝl/ &middot; *MUTH-er uv PURL*
+**Русский:** мать честная! — шутл.: начинает mother… и сворачивает в безобидное; изумление
 **Type:** phrase &middot; **Register:** informal
 **Offensiveness:** mild
 **Safe in:** anywhere; it is a joke everyone gets
@@ -1345,6 +1414,7 @@ A comic swerve away from a stronger *mother* phrase: the speaker starts the tabo
 ### Sam Hill
 
 **Pronunciation:** /ˌsæm ˈhɪl/ &middot; *sam HIL*
+**Русский:** какого лешего — устар.: замена hell, живёт почти только в what in the Sam Hill
 **Type:** phrase &middot; **Register:** dated
 **Offensiveness:** mild
 **Safe in:** anywhere; declining to say *hell* is the whole point of it
@@ -1364,6 +1434,7 @@ A nineteenth-century American stand-in for *hell*, surviving almost entirely ins
 ### sheesh
 
 **Pronunciation:** /ʃiʃ/ &middot; *SHEESH*
+**Русский:** фу-ты!, ну ты даёшь! — смягчённое Jesus: «это уже слишком», с ноткой упрёка
 **Type:** primary &middot; **Register:** informal
 **Offensiveness:** mild
 **Safe in:** anywhere — work, school, family, texting
@@ -1383,6 +1454,7 @@ A softened *Jesus*, worn down to a hiss. It means "that's too much" — too expe
 ### shoot
 
 **Pronunciation:** /ʃut/ &middot; *SHOOT*
+**Русский:** ой, блин!, эх! — стандартное смягчение shit, самая безопасная реакция на промах
 **Type:** secondary &middot; **Register:** informal
 **Offensiveness:** mild
 **Safe in:** everywhere — work, school, church, in front of children
@@ -1402,6 +1474,7 @@ The standard softening of [shit](#shit), and the safest possible reaction to a s
 ### shucks
 
 **Pronunciation:** /ʃʌks/ &middot; *SHUKS*
+**Русский:** да ну что вы! (на похвалу); эх, жаль — устар., деревенское: смущение или досада
 **Type:** primary &middot; **Register:** dated
 **Offensiveness:** mild
 **Safe in:** anywhere at all
@@ -1421,6 +1494,7 @@ Two uses. With *aw* in front of it, it is bashful modesty in response to a compl
 ### son of a gun
 
 **Pronunciation:** /ˌsʌn əv ə ˈɡʌn/ &middot; *sun-uv-uh-GUN*
+**Русский:** вот те на!, ну надо же! — устар.: смягчённое son of a bitch, чаще одобрение
 **Type:** phrase &middot; **Register:** dated
 **Offensiveness:** mild
 **Safe in:** anywhere, in any company
@@ -1440,6 +1514,7 @@ A softened [son of a bitch](#son-of-a-bitch), and it keeps the friendlier half o
 ### sugar
 
 **Pronunciation:** /ˈʃʊɡər/ &middot; *SHOOG-er*
+**Русский:** ой, блин! — южн.: смягчённое shit по общему началу, ср. рус. «блин» вместо «блядь»
 **Type:** secondary &middot; **Register:** regional
 **Offensiveness:** mild
 **Safe in:** anywhere, and especially in front of children
@@ -1459,6 +1534,7 @@ A softened [shit](#shit) that takes advantage of the shared opening sound: the s
 ### tarnation
 
 **Pronunciation:** /tɑrˈneɪʃən/ &middot; *tar-NAY-shun*
+**Русский:** какого лешего!, чёрт побери! — устар., шутл.: стёршееся damnation
 **Type:** primary &middot; **Register:** dated
 **Offensiveness:** mild
 **Safe in:** anywhere; it is almost always played for laughs
@@ -1478,6 +1554,7 @@ A worn-down *damnation*, now living almost entirely inside *what in tarnation* a
 ### what the h-e-double-hockey-sticks
 
 **Pronunciation:** /ˌwʌt ðə ˌeɪtʃ i ˌdʌbəl ˈhɑki ˌstɪks/ &middot; *wut thuh AYCH-EE-dub-uhl-HOK-ee-stiks*
+**Русский:** какого «а-дэ» — детское побуквенное hell; вся соль в том, чтобы не сказать слово
 **Type:** phrase &middot; **Register:** childish
 **Offensiveness:** mild
 **Safe in:** anywhere, especially in front of children — avoiding the word is the entire joke

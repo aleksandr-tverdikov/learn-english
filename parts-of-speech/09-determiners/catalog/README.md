@@ -1,20 +1,10 @@
-# The American English Determiner Dictionary
+# The Determiner Dictionary
 
-> Every determiner in American English — articles, demonstratives, possessives, quantifiers, numerals, and the pre- and postdeterminers — **415 entries** across 9 categories.
+> **415 entries** across 9 categories.
 
-Determiners are the tightest **closed class** in English, so this dictionary is genuinely complete rather than merely broad. They are also the class where a single wrong choice is instantly ungrammatical: *much books* and *many information* are wrong not because they are unclear but because the determiner and the noun type do not match.
-
-Each entry carries an IPA pronunciation **with the weak form** (*a* /ə/, *the* /ðə/ vs /ði/ — determiners are almost never stressed), a type and **position class**, a **goes with** line naming exactly which noun types it may and may not precede, its ***of*** rule, a **contrast** with its confusable neighbor, and **at least five example sentences**.
-
-**[Open the audio browser](browse.html)** to search all 415 entries and hear any of them spoken.
+**[Open the audio browser](browse.html)** to search all 415 and hear any of them spoken.
 
 ---
-
-## Where to start
-
-**[Articles](01-articles.md)** first. *A*, *an*, *the*, and the zero article are the hardest single area of English for anyone whose first language has no articles, and they are unavoidable — nearly every noun phrase needs one.
-
-Then the two quantifier files, which is where **[much/many](04-quantifiers-large.md)** and **[few/a few and little/a little](05-quantifiers-small.md)** live. Those contrasts cause more errors than the rest of the class combined.
 
 ## Categories
 
@@ -31,31 +21,24 @@ Then the two quantifier files, which is where **[much/many](04-quantifiers-large
 | 9 | [Predeterminers, postdeterminers, and general determiners](09-predeterminers-postdeterminers.md) | The words that stack around the central determiner — one slot in front of it, one slot behind it — plus the vague indefinites that fill the central slot themselves when no article will do. | 32 |
 | | **Total** | | **415** |
 
-## How to read an entry
+## Fields in each entry
 
-```
-### much
-
-**Pronunciation:** /mʌtʃ/ · *MUCH*                  ← with the weak form where one exists
-**Type:** quantifier · **Position:** central         ← which determiner slot it occupies
-**Goes with:** uncountable nouns only —              ← the line that stops *much books*
-              never a plural countable noun
-**With of:** much of the + noun                      ← when of is required, optional, impossible
-**Contrast:** much is to uncountables what           ← the confusable neighbor
-              many is to plural countables
-```
-
-**Goes with** is the line to read first. English allows only ONE central determiner per noun phrase — which is why *the my book* is impossible — and a determiner must match its noun type or the phrase is simply ungrammatical. Those two facts generate most determiner errors there are.
-
-## The grammar side
-
-This dictionary is the **lexicon**. The **grammar** — the three determiner positions and their ordering, the one-central-determiner rule, countability agreement, verb agreement driven by the determiner, floating quantifiers, and the three ways to form a generic — is covered in [the main determiners reference](../README.md).
+| Field | What it tells you |
+|---|---|
+| Pronunciation | IPA, a stress-marked respelling, and the weak form where one exists |
+| Goes with | |
+| Position | |
+| With <i>of</i> | |
+| Pattern | |
+| Contrast | |
+| Type | |
+| Variants | |
 
 ---
 
 ## A–Z index
 
-All 415 headwords. A word appearing in more than one category is listed once per category.
+All 415 headwords.
 
 ### A
 

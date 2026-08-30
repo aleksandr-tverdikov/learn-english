@@ -17,6 +17,7 @@ The proximal pair. Both point at what is near the speaker — near in the room, 
 ### these
 
 **Pronunciation:** /ðiz/ &middot; *THEEZ*  
+**Русский:** эти — ближний указательный определитель, только перед мн. числом (✗ these furniture)
 **Type:** demonstrative (also a demonstrative pronoun: *these are mine*) &middot; **Position:** central &middot; **Register:** neutral  
 **Goes with:** plural countable nouns only — *these chairs*, *these people*, *these two weeks*. Never a singular countable noun (✗ *these chair*) and never an uncountable noun (✗ *these furniture*, ✗ *these information*, ✗ *these advice*); for an uncountable, use *this* (*this furniture*) or a counter (*these pieces of furniture*). *These wines*, *these cheeses*, *these coffees* are fine only because the noun has been recounted as "kinds of" or "servings of."  
 **With *of*:** None as a determiner — ✗ *these of the books*. A partitive has to get its *of* from a quantifier standing in front: *both of these books*, *several of these*, *two of these*. Nor does the pronoun take one: the idiom is *those of us / those of you*, never ✗ *these of us*.  
@@ -47,6 +48,7 @@ Points at more than one thing near the speaker — in the room, in the present s
 ### this
 
 **Pronunciation:** /ðɪs/, casual /ðəs/ before a stressed noun &middot; *THIS*  
+**Русский:** этот, эта, это — ближний указательный определитель: ед. ч. и неисчисляемые
 **Type:** demonstrative (also a demonstrative pronoun: *this is mine*) &middot; **Position:** central &middot; **Register:** neutral  
 **Goes with:** singular countable nouns (*this chair*) and uncountable nouns (*this water*, *this advice*, *this furniture*). Never a plural countable noun: ✗ *this books*, ✗ *this shoes* → *these books*, *these shoes*. Two apparent exceptions are worth knowing, and neither breaks the rule. The degree phrase *this many* (*this many people*) has *this* modifying the quantifier *many*, not the noun. And a plural **measure** phrase counted as a single block takes *this* and a singular verb — *This five dollars is all I have*, *This last three weeks has been brutal* — the same singular-unit logic that gives *Ten dollars is a lot*. Outside those two, a plural noun after *this* is an error.  
 **With *of*:** None — ✗ *this of the wine*. And because *this* is a central determiner it cannot stack with an article or a possessive (✗ *the this book*, ✗ *this my car*), so possession is added behind the noun instead, in the double genitive: *this friend of mine*, *this car of yours*.  
@@ -87,6 +89,7 @@ The distal pair, split by number on exactly the same line as *this/these*. Beyon
 ### that
 
 **Pronunciation:** /ðæt/ (never reduced as a demonstrative) &middot; *THAT*  
+**Русский:** тот, та, то — дальний указательный определитель: ед. ч. и неисчисляемые
 **Type:** demonstrative (also a demonstrative pronoun, *that is mine* — and a wholly separate word as the relative and complementizer *that*, as in *the car that broke down*, *I know that she left*) &middot; **Position:** central &middot; **Register:** neutral  
 **Goes with:** singular countable nouns (*that box*) and uncountable nouns (*that noise*, *that money*, *that information*). Never a plural countable noun: ✗ *that boxes* → *those boxes*. The apparent exception, *that many people*, has *that* modifying the quantifier *many*.  
 **With *of*:** None as a determiner — ✗ *that of the money*. The pro-form *that of* is a different construction and is fully standard in comparisons, where *that* replaces a noun already named: *The climate of Houston is milder than that of Chicago* (= than the climate of Chicago). Possession goes behind the noun in the double genitive: *that dog of yours*.  
@@ -122,6 +125,7 @@ Points at a single thing, or at a mass, that is away from the speaker — across
 ### those
 
 **Pronunciation:** /ðoʊz/ &middot; *THOHZ*  
+**Русский:** те — дальний указательный определитель, только перед мн. числом
 **Type:** demonstrative (also a demonstrative pronoun: *those are mine*) &middot; **Position:** central &middot; **Register:** neutral  
 **Goes with:** plural countable nouns only — *those boxes*, *those people*, *those three years*. Never a singular countable noun (✗ *those box*) and never an uncountable noun (✗ *those furniture*, ✗ *those luggage*, ✗ *those homework*). *Those* can also head a noun phrase with no noun in it at all, and two different things go on when it does. As a plain demonstrative pronoun it points at something already identifiable in the situation and needs nothing after it: *Those are mine. I'll take those.* In the generic sense "the ones" or "the people," a relative clause is obligatory: *those who wait*, *those we lost* — never a bare ✗ *Those are rewarded* meaning "people are rewarded."  
 **With *of*:** None as a determiner — ✗ *those of the boxes* meaning "those boxes." As a pronoun, though, *those of* is standard in two patterns: the partitive *those of us / those of you / those of the applicants who…*, and the comparative pro-form *Prices are higher than those of last year* (*those* = the prices).  
@@ -158,6 +162,7 @@ Points at more than one thing away from the speaker — across the room, back in
 ### that many
 
 **Pronunciation:** /ˈðæt ˌmɛni/ &middot; *THAT-men-ee*  
+**Русский:** столько (штук) — «так много, как названо»; чаще в отрицаниях и вопросах
 **Type:** demonstrative degree word + quantifier &middot; **Position:** central (the quantifier *many* fills the slot; *that* is a degree modifier in front of it) &middot; **Register:** neutral  
 **Goes with:** plural countable nouns only — *that many people*, *that many copies*. Never an uncountable noun: ✗ *that many money*, ✗ *that many time* → *that much money*, *that much time*. It also stands alone as a pronoun (*I didn't think there were that many*).  
 **With *of*:** *that many of the / of my / of these* + plural noun, and *that many of them* with a pronoun, where *of* is required: *We don't need that many of them.* Before a bare plural noun there is no *of*: *that many chairs*, not ✗ *that many of chairs*.  
@@ -179,6 +184,7 @@ Names a number by pointing at one already mentioned or already known — "as man
 ### that much
 
 **Pronunciation:** /ˈðæt ˌmʌtʃ/ &middot; *THAT-much*  
+**Русский:** столько (о неисчисляемом) — «так много, как названо»; чаще в отрицаниях и вопросах
 **Type:** demonstrative degree word + quantifier &middot; **Position:** central (the quantifier *much* fills the slot; *that* is a degree modifier in front of it) &middot; **Register:** neutral  
 **Goes with:** uncountable nouns only — *that much time*, *that much salt*, *that much trouble*. Never a plural countable noun: ✗ *that much people* → *that many people*. It also stands alone as a pronoun (*It didn't cost that much*) and modifies a comparative adjective or adverb (*that much better*, *that much sooner*).  
 **With *of*:** *that much of the / of my / of this* + noun, and *that much of it* with a pronoun, where *of* is required: *I wouldn't spend that much of it on one repair.* Before a bare uncountable noun there is no *of*: *that much flour*, not ✗ *that much of flour*.  
@@ -200,6 +206,7 @@ Names an amount of something uncountable by pointing at one already mentioned or
 ### this many
 
 **Pronunciation:** /ˈðɪs ˌmɛni/ &middot; *THIS-men-ee*  
+**Русский:** вот столько (штук) — количество, которое видно или показывают жестом
 **Type:** demonstrative degree word + quantifier &middot; **Position:** central (the quantifier *many* fills the slot; *this* is a degree modifier in front of it) &middot; **Register:** neutral  
 **Goes with:** plural countable nouns only — *this many people*, *this many boxes*. Never an uncountable noun: ✗ *this many traffic*, ✗ *this many information* → *this much traffic*, *this much information*. It also stands alone as a pronoun (*I've never seen this many*).  
 **With *of*:** *this many of the / of my / of these* + plural noun, and *this many of them* with a pronoun, where *of* is required: *Do we really need this many of them?* Before a bare plural noun there is no *of*: *this many chairs*.  
@@ -221,6 +228,7 @@ Names a number by showing it rather than stating it — the number in front of u
 ### this much
 
 **Pronunciation:** /ˈðɪs ˌmʌtʃ/ &middot; *THIS-much*  
+**Русский:** вот столько (о неисчисляемом) — количество, которое показывают жестом
 **Type:** demonstrative degree word + quantifier &middot; **Position:** central (the quantifier *much* fills the slot; *this* is a degree modifier in front of it) &middot; **Register:** neutral  
 **Goes with:** uncountable nouns only — *this much time*, *this much flour*, *this much money*. Never a plural countable noun: ✗ *this much people* → *this many people*. It also stands alone as a pronoun (*I've only got this much*) and heads the fixed opener *This much is clear:*  
 **With *of*:** *this much of the / of my / of this* + noun, and *this much of it* with a pronoun, where *of* is required: *I've read this much of the report.* Before a bare uncountable noun there is no *of*: *this much flour*, not ✗ *this much of flour*.  
@@ -246,6 +254,7 @@ A frame in which the demonstrative determines a classifier noun and the *of*-phr
 ### that kind of
 
 **Pronunciation:** /ðæt ˈkaɪnd əv/ &middot; *that-KYND-uv*  
+**Русский:** такого рода, такой — о категории уже названной; часто с оттенком осуждения
 **Type:** demonstrative + classifier noun (partitive frame) &middot; **Position:** central — *that* determines the head noun *kind*, and the *of*-phrase carries the noun being classified &middot; **Register:** neutral, but frequently evaluative  
 **Goes with:** after *of*, a bare singular countable noun (*that kind of engine*) or an uncountable noun (*that kind of behavior*, *that kind of weather*). A plural after the singular frame — *that kind of engines* — is dispreferred in edited American English; keep everything singular (*that kind of engine*) or pluralize the whole frame (*those kinds of engines*). The verb agrees with the singular head *kind*: *that kind of mistake is expensive*.  
 **With *of*:** *of* is obligatory: ✗ *that kind car* → *that kind of car*. The article in *that kind of a car* is informal and regional and is edited out of American writing. Putting *the* after *of* (*that kind of the problem*) makes the phrase specific and defeats the classifying sense. The reduced *kinda* is speech only.  
@@ -268,6 +277,7 @@ Classifies a thing by the category it belongs to rather than pointing at the ind
 ### these kinds of
 
 **Pronunciation:** /ðiz ˈkaɪndz əv/ &middot; *theez-KYNDZ-uv*  
+**Русский:** такого рода (мн. ч.) — о категориях, о которых идёт речь сейчас
 **Type:** demonstrative + classifier noun (partitive frame) &middot; **Position:** central — *these* determines the head noun *kinds*, and the *of*-phrase carries the noun being classified &middot; **Register:** neutral  
 **Goes with:** a plural countable noun after *of* — *these kinds of injuries*, *those kinds of delays*. An uncountable after *of* is possible but rare and usually rewritten with the singular frame (*this kind of weather*, not *these kinds of weather*). Everything in the phrase agrees as a plural: *these kinds of errors are common*, with a plural verb.  
 **With *of*:** *of* is obligatory: ✗ *these kinds problems* → *these kinds of problems*. Adding an article after *of* (*these kinds of the problems*) makes the phrase specific and is usually wrong for the classifying sense.  
@@ -290,6 +300,7 @@ Classifies plural things by category rather than pointing at individuals: not th
 ### this kind of
 
 **Pronunciation:** /ðɪs ˈkaɪnd əv/ &middot; *this-KYND-uv*  
+**Русский:** такой, такого рода — классифицирует по виду, а не указывает на предмет
 **Type:** demonstrative + classifier noun (partitive frame) &middot; **Position:** central — *this* determines the head noun *kind*, and the *of*-phrase carries the noun being classified &middot; **Register:** neutral  
 **Goes with:** after *of*, a bare singular countable noun (*this kind of engine*) or an uncountable noun (*this kind of weather*, *this kind of behavior*). A plural after the singular frame — *this kind of engines* — is dispreferred in edited American English; either drop to the singular (*this kind of engine*) or pluralize the whole frame (*these kinds of engines*).  
 **With *of*:** *of* is obligatory: ✗ *this kind car* → *this kind of car*. Inserting an article after *of* (*this kind of a car*) is informal and regional, and is edited out of American writing. The reduced *kinda* is speech only.  
@@ -312,6 +323,7 @@ Classifies a thing by category instead of pointing at the individual: not this e
 ### those kinds of
 
 **Pronunciation:** /ðoʊz ˈkaɪndz əv/ &middot; *thohz-KYNDZ-uv*  
+**Русский:** такого рода (мн. ч.) — о категориях уже названных или отдалённых
 **Type:** demonstrative + classifier noun (partitive frame) &middot; **Position:** central — *those* determines the head noun *kinds*, and the *of*-phrase carries the noun being classified &middot; **Register:** neutral, but frequently evaluative  
 **Goes with:** a plural countable noun after *of* — *those kinds of delays*, *those kinds of arguments*. An uncountable after *of* is possible but rare and is normally rewritten with the singular frame (*that kind of weather*, not *those kinds of weather*). Everything in the phrase agrees as a plural, the verb included: *those kinds of errors are common*.  
 **With *of*:** *of* is obligatory: ✗ *those kinds problems* → *those kinds of problems*. Adding an article after *of* (*those kinds of the problems*) makes the phrase specific and kills the classifying sense.  
@@ -338,6 +350,7 @@ In these patterns the demonstrative takes no noun at all — it heads the noun p
 ### that which
 
 **Pronunciation:** /ðæt ˈwɪtʃ/ &middot; *that-WICH*  
+**Русский:** то, что — книжн., формальный эквивалент what
 **Type:** fused relative — demonstrative pronoun *that* + relative *which* &middot; **Position:** not a determiner: *that* is the head of the noun phrase here, not a modifier of a following noun &middot; **Register:** formal, literary; slightly archaic  
 **Goes with:** no noun at all — *that which* takes no head noun and cannot be followed by one (✗ *that which book*). What follows is a relative clause. It refers to things and abstractions, never to people; for people the fused form is *those who* (or *he who* in older prose). The verb agreeing with it is singular: *that which remains is ours*.  
 **With *of*:** None. The look-alike *that of* is a different construction, in which *that* is a pro-form standing in for a noun already named: *a climate like that of Florida*.  
@@ -359,6 +372,7 @@ Means "the thing that" — a formal, written equivalent of *what*, used when a w
 ### those which
 
 **Pronunciation:** /ðoʊz ˈwɪtʃ/ &middot; *thohz-WICH*  
+**Русский:** те, которые — выделяет подмножество из уже названного
 **Type:** fused relative — demonstrative pronoun *those* + relative *which* (or *that*) &middot; **Position:** not a determiner: *those* is the head of the noun phrase, not a modifier of a following noun &middot; **Register:** formal (*those which*); neutral (*those that*)  
 **Goes with:** no noun — a relative clause follows instead (✗ *those which boxes*). It refers to things; *those that* can stretch to people in careful prose, but *those who* is the normal choice there. The verb is plural: *those that remain are damaged*.  
 **With *of*:** None in this construction. The partitive *those of the applicants that…* inserts *of* before a noun phrase and is a different pattern.  
@@ -380,6 +394,7 @@ Means "the ones that" — picks out a subset of things already under discussion 
 ### those who
 
 **Pronunciation:** /ðoʊz ˈhu/ &middot; *thohz-HOO*  
+**Русский:** те, кто — называет людей по признаку, а не по имени
 **Type:** fused relative — demonstrative pronoun *those* + relative *who* &middot; **Position:** not a determiner: *those* heads the noun phrase and takes no noun after it &middot; **Register:** neutral to formal  
 **Goes with:** no noun — ✗ *those who people*. It refers to people, always plural, and the relative clause is obligatory: *those who arrive late* is complete, while bare *those* meaning "people" is not. The verb inside the relative clause is plural (*those who were waiting*), and so is the verb of the main clause (*those who wait are rewarded*).  
 **With *of*:** *of* appears in the partitive expansions *those of us who*, *those of you who*, *those of them who*, where *of* is required before a pronoun: *Those of us who commute know the 8:10 is always late.* The verb still agrees with *those*, so it stays plural.  
@@ -405,6 +420,7 @@ Every one of these is **nonstandard**. They are listed because a learner will he
 ### that there
 
 **Pronunciation:** /ˌðæt ˈðɛr/ &middot; *that-THAIR*  
+**Русский:** вон тот, этот вот — прост./диал. усиление that; значение то же самое
 **Type:** demonstrative + reinforcing adverb (nonstandard emphatic) &middot; **Position:** central — *that there* fills a single central-determiner slot &middot; **Register:** nonstandard; rural and Southern American speech, dialect writing, and jocular imitation  
 **Goes with:** the same nouns as plain *that*: singular countable nouns (*that there truck*) and uncountable nouns (*that there coffee*). Never a plural countable noun — the plural forms are the equally nonstandard *those there* and *them there*.  
 **With *of*:** None, exactly as with *that*.  
@@ -426,6 +442,7 @@ A dialect intensifier of *that*: the pointing is reinforced by tucking the adver
 ### them
 
 **Pronunciation:** /ðɛm/, weak /ðəm/ before the noun &middot; *THEM, weak thuhm*  
+**Русский:** те, эти — прост./диал. вместо those; в норме them — объектная форма they
 **Type:** demonstrative (nonstandard); in standard English *them* is only the object form of the pronoun *they* &middot; **Position:** central &middot; **Register:** nonstandard; widespread in rural, Southern, Appalachian, and working-class American speech, and in dialect writing  
 **Goes with:** plural countable nouns only — *them apples*, *them boys*, *them tools*. Never a singular countable noun (✗ *them apple*) and never an uncountable noun; it stands in for both *those* and *these*, so it carries no near/far contrast of its own.  
 **With *of*:** None as a determiner. In standard English *of them* is the pronoun (*two of them*, *all of them*), which is a different thing entirely and perfectly correct.  
@@ -447,6 +464,7 @@ The nonstandard plural demonstrative determiner: it does the job of *those* (and
 ### them there
 
 **Pronunciation:** /ˌðɛm ˈðɛr/ &middot; *them-THAIR*  
+**Русский:** вон те — резко сниженное прост./диал.; по значению просто those
 **Type:** nonstandard demonstrative + reinforcing adverb &middot; **Position:** central &middot; **Register:** nonstandard; strongly marked rural and Southern American speech, and the stock phrase of dialect comedy  
 **Goes with:** plural countable nouns only — *them there hills*, *them there apples*. Never a singular countable noun (✗ *them there hill*) and never an uncountable noun.  
 **With *of*:** None.  
@@ -468,6 +486,7 @@ The most heavily marked demonstrative in American English: nonstandard *them* re
 ### these here
 
 **Pronunciation:** /ˌðiz ˈhɪr/ &middot; *theez-HEER*  
+**Русский:** вот эти — прост./диал. усиление these; меняется только регистр
 **Type:** demonstrative + reinforcing adverb (nonstandard emphatic) &middot; **Position:** central &middot; **Register:** nonstandard; rural, Southern, and Appalachian American speech, and dialect writing  
 **Goes with:** plural countable nouns only, exactly like plain *these* — *these here boots*. Never a singular countable noun (✗ *these here boot*) and never an uncountable noun (✗ *these here water*).  
 **With *of*:** None.  
@@ -489,6 +508,7 @@ A dialect intensifier of *these*, with the adverb *here* moved in front of the n
 ### this here
 
 **Pronunciation:** /ˌðɪs ˈhɪr/ &middot; *this-HEER*  
+**Русский:** вот этот — прост./диал. усиление this; значение то же, что у this
 **Type:** demonstrative + reinforcing adverb (nonstandard emphatic) &middot; **Position:** central &middot; **Register:** nonstandard; rural, Southern, and Appalachian American speech, dialect writing, and joking imitation  
 **Goes with:** the same nouns as plain *this*: singular countable nouns (*this here wrench*) and uncountable nouns (*this here coffee*). Never a plural countable noun — the plural is the equally nonstandard *these here*.  
 **With *of*:** None.  
@@ -510,6 +530,7 @@ A dialect intensifier of *this*: the adverb *here* is squeezed in between the de
 ### those there
 
 **Pronunciation:** /ˌðoʊz ˈðɛr/ &middot; *thohz-THAIR*  
+**Русский:** вон те — прост./диал. усиление those; значение то же
 **Type:** demonstrative + reinforcing adverb (nonstandard emphatic) &middot; **Position:** central &middot; **Register:** nonstandard; rural and Southern American speech and dialect writing  
 **Goes with:** plural countable nouns only, like plain *those* — *those there hills*. Never a singular countable noun (✗ *those there hill*) and never an uncountable noun.  
 **With *of*:** None.  
@@ -535,6 +556,7 @@ English once had a three-way deictic system — *this* by me, *that* by you, *yo
 ### yon
 
 **Pronunciation:** /jɑn/ &middot; *YAHN*  
+**Русский:** вон тот (вдали) — устар./книжн.; третья, дальняя ступень указания
 **Type:** demonstrative (distal, third-degree — neither near the speaker nor near the hearer) &middot; **Position:** central &middot; **Register:** archaic; alive in poetry, hymns, historical fiction, and some Appalachian and Ozark speech  
 **Goes with:** singular or plural countable nouns without any change of form — *yon hill*, *yon hills*. This is its most striking feature: unlike *this/these* and *that/those*, it does not inflect for number. Uncountables are possible but rare (*yon water*).  
 **With *of*:** None.  
@@ -556,6 +578,7 @@ Points at something visible but distant from both speaker and hearer — the thi
 ### yond
 
 **Pronunciation:** /jɑnd/ &middot; *YAHND*  
+**Русский:** вон тот — устар., шекспировское; то же, что yon
 **Type:** demonstrative (distal, third-degree) &middot; **Position:** central &middot; **Register:** archaic and literary; effectively confined to Shakespeare and to writing that imitates him  
 **Goes with:** singular or plural countable nouns, with no change of form — *yond star*, *yond hills*. Like *yon*, it does not inflect for number.  
 **With *of*:** None.  
@@ -577,6 +600,7 @@ The oldest-sounding of the three distal demonstratives, meaning "that … over t
 ### yonder
 
 **Pronunciation:** /ˈjɑndɚ/ &middot; *YAHN-der*  
+**Русский:** вон тот, вон там — устар. как определитель, диал. (юг США) как наречие места
 **Type:** demonstrative determiner; also, and far more commonly, an adverb of place &middot; **Position:** central &middot; **Register:** archaic as a determiner; regional (Southern, Appalachian, Ozark, and rural Midwestern) as an adverb, where it is thoroughly alive  
 **Goes with:** singular or plural countable nouns with no change of form — *yonder hill*, *yonder hills*. It does not inflect for number, which sets it apart from every other demonstrative in the language except *yon* and *yond*.  
 **With *of*:** None.  
@@ -602,6 +626,7 @@ One more demonstrative has fallen out of the language, and this one points not a
 ### self
 
 **Pronunciation:** /sɛlf/, with no weak form — *self* is an identifying word, it carries stress, and it keeps its full vowel wherever it stands; the only reduction it ever undergoes is inside the fused compound, where the second element gives up its stress and *self same* /ˌsɛlf ˈseɪm/ becomes *selfsame* /ˈsɛlfˌseɪm/ &middot; *SELF*  
+**Русский:** тот самый — устар.; тождество, а не сходство; предок живого selfsame
 **Type:** identity determiner (demonstrative in function — it marks a noun as the very one already named), archaic; elsewhere the ordinary noun *self* (*a sense of self*) and the bound second element of the reflexive pronouns (*myself*, *herself*) &middot; **Position:** postdeterminer — it follows *the*, a demonstrative, or *one*, and can never fill the central slot itself (✗ *self hour was appointed*, ✗ *a self day*) &middot; **Register:** archaic, and as a free word effectively obsolete. It belongs to Early Modern English — Shakespeare, Spenser, Milton, the King James translators — and to modern writing that quotes or imitates them. An American meets bare *self* in a literature class, in an old hymn, or in an editor's footnote, and nowhere else; what survives in living prose is the fused *selfsame*.  
 **Goes with:** singular countable nouns overwhelmingly — *that self hour*, *the self place*, *that self mould*, *one self king*. Plural countables turn up in older verse but are rare (*the self words*), and an abstract uncountable is possible in the same register (*that self blood*). Because it asserts identity with a referent the text has already fixed, it requires a definite word in front of it: *the*, a demonstrative, or the numeral *one*. Never *a/an* — ✗ *a self day* — since identity presupposes something the reader can already find; never bare — ✗ *Self hour was appointed*; never a proper noun — ✗ *that self London*, where the noun has to be a common one (*that self town*); and never a pronoun — ✗ *the self it*. Like *aforesaid* and *the subject*, it cannot introduce a referent, only re-identify one.  
 **With *of*:** None — ✗ *the self of hours*. Two look-alikes do take *of*, and neither of them is this word: the **noun** *self* takes *of*-phrases and possessives freely (*a sense of self*, *his better self*, *the death of the self*), and the **prefix** *self-* builds compounds meaning "by or to itself" (*self-evident*, *self-employed*, *self-defense*), which is a different sense altogether.  
@@ -627,6 +652,7 @@ Demonstrative in function but not in form: these words point into the document r
 ### aforementioned
 
 **Pronunciation:** /əˈfɔrˌmɛnʃənd/ &middot; *uh-FOR-men-shund*  
+**Русский:** вышеупомянутый — юр./канц., отсылка к названному ранее в тексте
 **Type:** anaphoric determiner-adjective (demonstrative in function — it points backward into the text) &middot; **Position:** postdeterminer — it normally follows *the* (*the aforementioned report*) rather than filling the central slot itself &middot; **Register:** formal, legal, bureaucratic; stiff in ordinary prose  
 **Goes with:** any noun already named earlier in the same document — singular countable (*the aforementioned clause*), plural countable (*the aforementioned witnesses*), or uncountable (*the aforementioned evidence*). It cannot introduce anything new: if the noun has not been mentioned before, the word is simply false.  
 **With *of*:** None of its own. Partitives come from a quantifier in front: *each of the aforementioned factors*, *none of the aforementioned parties*.  
@@ -648,6 +674,7 @@ Marks a noun as one already introduced earlier in the same text — a demonstrat
 ### aforesaid
 
 **Pronunciation:** /əˈfɔrˌsɛd/ &middot; *uh-FOR-sed*  
+**Русский:** вышеназванный, вышеозначенный — юр., устар.; вне документов не употребляется
 **Type:** anaphoric determiner-adjective (demonstrative in function) &middot; **Position:** postdeterminer after *the* (*the aforesaid agreement*); bare, article-less use (*aforesaid parties*) survives in older drafting &middot; **Register:** legal, archaic; unusable in ordinary writing  
 **Goes with:** any noun already named in the document — singular countable (*the aforesaid agreement*), plural countable (*the aforesaid parties*), uncountable (*the aforesaid property*). Like all anaphoric determiners it requires an earlier mention to point back to.  
 **With *of*:** None of its own; a quantifier supplies it (*any of the aforesaid conditions*).  
@@ -669,6 +696,7 @@ Identifies a noun as the one already specified earlier in the same instrument. I
 ### said
 
 **Pronunciation:** /sɛd/ &middot; *SED*  
+**Русский:** означенный, упомянутый — юр./канц.; в обиходной речи шутливо
 **Type:** anaphoric determiner (demonstrative in function); elsewhere the past tense of *say* &middot; **Position:** central determiner when it stands bare (*said vehicle*, where no article is possible); postdeterminer in the older *the said vehicle* &middot; **Register:** legal and bureaucratic; jocular in general speech (*I returned said sandwich*)  
 **Goes with:** any noun already introduced in the same document — singular countable (*said defendant*), plural countable (*said documents*), uncountable (*said property*, *said equipment*). It never introduces a new referent, and it takes no article when used bare, because it is itself occupying the determiner slot.  
 **With *of*:** None of its own. *Of* arrives only with a quantifier in front: *any of said documents*, *none of said parties*.  
@@ -690,6 +718,7 @@ Marks a noun as the one already named in the document — the legal draftsman's 
 ### the present
 
 **Pronunciation:** /ðə ˈprɛzənt/ &middot; *thuh-PREZ-uhnt*  
+**Русский:** настоящий (документ, дело) — книжн./юр. замена this: the present case
 **Type:** anaphoric determiner-adjective (demonstrative in function — it points at the document, case, or occasion in hand) &middot; **Position:** postdeterminer — it follows *the* and cannot fill the central slot on its own (✗ *present case is distinguishable*) &middot; **Register:** formal: legal, academic, and administrative writing  
 **Goes with:** any noun naming the text, proceeding, or occasion at hand — singular countable (*the present case*, *the present agreement*), plural countable (*the present proceedings*, *the present regulations*), or uncountable (*the present litigation*, *the present research*). Because it means "this one, the one we are inside of," it is odd with a noun that has nothing to do with the document: *the present weather* is just *this weather*, badly dressed.  
 **With *of*:** None of its own; a quantifier in front supplies it (*each of the present exhibits*, *none of the present parties*). The look-alikes *at present* and *for the present* are fixed adverbials, not determiner uses.  
@@ -712,6 +741,7 @@ Marks a noun as the one belonging to the text, case, or occasion in hand — the
 ### the subject
 
 **Pronunciation:** /ðə ˈsʌbdʒɪkt/, with *the* in its weak form /ðə/ and the unstressed second syllable reduced to /dʒəkt/ in ordinary speech &middot; *thuh-SUB-jikt*  
+**Русский:** данный, рассматриваемый — офиц.: the subject property = «рассматриваемый объект»
 **Type:** anaphoric determiner-adjective (demonstrative in function — it points at the one thing the document exists to deal with) &middot; **Position:** postdeterminer — it follows *the* and cannot fill the central slot on its own in running prose (✗ *Subject property was appraised in May*), though headings, captions, and exhibit labels drop the article (*Subject Property: 412 Elm Street*) &middot; **Register:** formal; the house style of appraisals, insurance claims, inspection reports, real-estate contracts, police reports, and litigation  
 **Goes with:** any noun naming the thing the file is about — singular countable (*the subject property*, *the subject vehicle*, *the subject loan*, *the subject patent*), plural countable (*the subject properties*, *the subject employees*), a plural-only noun (*the subject premises*), or uncountable (*the subject land*, *the subject equipment*). It cannot precede a proper noun (✗ *the subject Elm Street* → *the subject property at 412 Elm Street*), a pronoun (✗ *the subject it*), or a noun with no stake in the document — *the subject weather* is nonsense unless the weather is what is being adjudicated. And like every anaphoric determiner it needs a referent the document has already fixed; it cannot introduce one.  
 **With *of*:** None of its own. A partitive comes from a quantifier in front: *each of the subject properties*, *none of the subject vehicles*. Do not confuse the frame with *the subject of* (*the subject of the appraisal*, *the subject of the sentence*), where *subject* is the head noun and the *of*-phrase belongs to it — the determiner use takes no complement at all.  
@@ -734,6 +764,7 @@ Marks a noun as the one thing the document exists to deal with — the house bei
 ### the within
 
 **Pronunciation:** /ðə wɪˈðɪn/, weak /ðə wəˈðɪn/ with the unstressed first syllable reduced; /ðə wɪˌðɪn ˈneɪmd/ in the compound *the within-named*, where the main stress moves onto *named* &middot; *thuh-wih-THIN*  
+**Русский:** настоящий (документ) — юр., устар.: «то, что написано на этой бумаге»
 **Type:** anaphoric determiner-adjective (demonstrative in function — it points at the document the words are written on) &middot; **Position:** postdeterminer — it follows *the* (*the within action*) and cannot open the phrase in modern use; it also fuses into a compound modifier (*the within-named defendant*) and heads a bare noun phrase in endorsements (*a true copy of the within*) &middot; **Register:** legal and archaic. It survives in New York court practice (*the within motion*), on the backs of folded pleadings and subpoenas, and on old deeds and promissory notes. An American who is not a lawyer meets it about once — on the reverse of a legal paper somebody has just handed them.  
 **Goes with:** nouns naming the instrument or the proceeding that the paper itself contains — singular countable (*the within action*, *the within motion*, *the within instrument*, *the within affidavit*), plural countable (*the within proceedings*, *the within exhibits*), and, inside the compound, a noun naming a person (*the within-named defendant*, *the within-named parties*). It will not stand in front of an ordinary object noun — ✗ *the within truck*, ✗ *the within house* — because the word means "contained in this document," not "over here": there has to be a document for the noun to be inside of.  
 **With *of*:** None of its own — ✗ *the within of the motion*. A quantifier in front supplies any partitive: *each of the within exhibits*, *any of the within-named parties*. The trap is the ordinary preposition *within*, which does take an object and is many times commoner (*within thirty days*, *within the meaning of section 4*); that *within* is not a determiner at all.  

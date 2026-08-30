@@ -2,6 +2,8 @@
 
 > A determiner is a word placed in front of a noun to show which thing you mean or how much/how many of it there is — *the*, *a*, *this*, *my*, *some*, *three*, *each*, *which*.
 
+> **📖 Looking for a specific determiner?** This file covers the *grammar*. The *lexicon* — **[415 entries](catalog/README.md)** across 9 categories, each with a **goes with** line naming the noun types it may precede, its **position** slot, its ***of*** rule, and five or more examples — lives in the **[Determiner Dictionary](catalog/README.md)**. There is also an **[audio browser](catalog/browse.html)** you can search and listen to.
+
 ## 1. What it does
 
 A determiner opens a noun phrase and answers one of two questions about the noun: **"Which one(s)?"** or **"How much / how many?"** It does not describe the noun the way an adjective does; it *anchors* the noun to the situation — pointing at it, claiming it, counting it, or leaving it vague.
@@ -487,7 +489,7 @@ All three are correct but not identical:
 - **None of** + plural → singular or plural, both accepted: **None of the files *was*/*were* saved.**
 - **A number of** + plural → **plural** verb: **A number of issues *remain*.**
 - **The number of** + plural → **singular** verb: **The number of issues *is* growing.**
-- **All/Some/Most/Half of** + noun → verb agrees with the noun after *of*: **Half of the pizza *is* gone.** / **Half of the slices *are* gone.**
+- **All/Some/Most/Half of** + noun → verb agrees with the noun after *of*: ✗ *Half of the pizza *is* gone.** / ✗ *Half of the slices *are* gone.**
 
 ### Rule 7 — *some* vs. *any*
 

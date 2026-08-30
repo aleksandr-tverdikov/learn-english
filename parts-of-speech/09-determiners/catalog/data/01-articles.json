@@ -4,19 +4,9 @@
   "entries": [
     {
       "term": "a",
-      "ipa": "weak /ə/; stressed /eɪ/",
-      "respell": "uh (weak) · AY (stressed)",
-      "type": "article (indefinite)",
-      "position": "central determiner",
-      "register": "neutral",
-      "goesWith": "singular countable nouns only. a chair, a decision, a forty-dollar fine. Never a plural countable (a books, a two dogs) and never an uncountable (a information, a advice, a furniture, a homework, a research, a equipment, a luggage, a progress, a weather). To say the same indefinite thing about a plural or an uncountable, use the zero article or some: a chair → Ø chairs / some chairs; a fact → Ø information / some information. The one systematic escape is re-cutting: an uncountable noun that is reinterpreted as a portion, a serving, a type, or an instance genuinely becomes countable and then takes a — a coffee (a cup of it), a wine (a variety), a paper (an essay), a light (a lamp), a kindness (an act of it), an experience (an event, versus uncountable experience = know-how).",
-      "ofRule": "a takes no of-phrase of its own. It appears as the head-marker inside partitives (a slice of the pie, a couple of days, a lot of noise) and it is obligatory in the double genitive, where both a and of must be present: a friend of mine, a client of my father's — a my friend and a friend of me are both impossible.",
-      "pattern": "a [singular countable noun] · a [adjective] [noun] · [so / too / as / how / that] [adjective] a [noun] (too big a risk, as good a place as any) · [such / what / quite / rather / half] a [noun] · many a [singular countable noun] + singular verb (Many a contractor has walked off that job) · [amount or frequency] a [unit] (twice a week — see a (per)) · a [proper noun] (a Mr. Kowalski, a Rembrandt)",
-      "contrast": "Against the, the difference is not vague-versus-specific but unidentifiable versus identifiable: I talked to a lawyer leaves you unable to say which lawyer, I talked to the lawyer assumes you can. Against the zero article, the difference is only number and countability — a is what the zero article turns into when the noun is singular and countable. Against one, a is the unstressed default and one is a counted quantity or a contrast: Give me a minute is a request, Give me one minute is a limit; a hundred and one hundred mean the same number but one insists on it. Against some, the singular some is dismissive rather than merely indefinite: A guy called is neutral, Some guy called says you neither know nor care who.",
-      "variants": [
-        "an before a vowel sound. The two are one word with two shapes, chosen by the sound that follows and never by the spelling — see an and the sound table."
-      ],
-      "meaning": "Marks a singular countable noun as one of a class, without claiming the listener can pick out which one. 1. First mention. Introducing something the listener has not met yet. The next mention takes the. 2. Classifying. Jobs, roles, memberships, and types. English requires the article here even where most other languages drop it: She's engineer is one of the commonest errors in the file. 3. Any representative member. The generic of definitions and rules, true of each member one at a time. See Three ways to be generic. 4. Meaning \"one.\" Before hundred, thousand, million, dozen, quarter, half and in measurements of time and distance. 5. Meaning \"per.\" Rates and frequencies — treated separately at a (per). 6. A certain, unnamed one. Before a personal name, a means the speaker does not know the person or expects the listener not to. The fuller frame a certain Ms. Okonjo, where the article is joined by a word that marks the person as known to the speaker and withheld from the listener, is a determiner in its own right and has an entry of its own at a certain; the certain half is at certain. 7. A work by, or one of a family or type. With a proper name reinterpreted as a common noun. 8. After a predeterminer or a shifted adjective. Such, what, quite, rather, half, many stand in front of a, and after so, too, as, how, and that the adjective jumps in front of it as well. This construction is only possible with a singular countable noun. 9. In fixed quantity phrases. A few, a little, a lot of, a couple of, a great deal of, a number of, a bit of are frozen units in which a is no longer doing its own work. 10. In questions and negatives. Neither one touches a/an — unlike the zero article, which trades places with any. What does happen is that a negated a often gives way to no: There isn't a problem and There's no problem say the same thing, the second more flatly.",
+      "ipa": "weak /ə/",
+      "respell": "uh",
+      "meaning": "Marks a singular countable noun as one of a class, without claiming the listener can pick out which one.",
       "examples": [
         "A package came for you while you were out.",
         "She's dating a guy from her old firm.",
@@ -39,30 +29,134 @@
         "Do you have a pen I can borrow for one second?",
         "That isn't a reason, it's an excuse."
       ],
-      "related": [
-        "an",
-        "a (per)",
-        "a certain",
-        "the",
-        "zero article (Ø)",
-        "some",
-        "one",
-        "any",
-        "certain"
-      ]
+      "senses": [
+        {
+          "n": "1",
+          "head": "First mention",
+          "body": [
+            "Introducing something the listener has not met yet. The next mention takes the."
+          ],
+          "examples": [
+            "A package came for you while you were out.",
+            "She's dating a guy from her old firm."
+          ]
+        },
+        {
+          "n": "2",
+          "head": "Classifying",
+          "body": [
+            "Jobs, roles, memberships, and types. English requires the article here even where most other languages drop it: She's engineer is one of the commonest errors in the file."
+          ],
+          "examples": [
+            "He's a paramedic in Cuyahoga County.",
+            "That's a sedan, not a hatchback."
+          ]
+        },
+        {
+          "n": "3",
+          "head": "Any representative member",
+          "body": [
+            "The generic of definitions and rules, true of each member one at a time. See Three ways to be generic."
+          ],
+          "examples": [
+            "A thermometer measures temperature.",
+            "A dog will eat until it's sick."
+          ]
+        },
+        {
+          "n": "4",
+          "head": "Meaning \"one.\"",
+          "body": [
+            "Before hundred, thousand, million, dozen, quarter, half and in measurements of time and distance."
+          ],
+          "examples": [
+            "I'll be back in an hour and a half.",
+            "There were a hundred people crammed into that room."
+          ]
+        },
+        {
+          "n": "5",
+          "head": "Meaning \"per.\"",
+          "body": [
+            "Rates and frequencies — treated separately at a (per)."
+          ],
+          "examples": [
+            "The garage charges eighteen dollars a day."
+          ]
+        },
+        {
+          "n": "6",
+          "head": "A certain, unnamed one",
+          "body": [
+            "Before a personal name, a means the speaker does not know the person or expects the listener not to. The fuller frame a certain Ms. Okonjo, where the article is joined by a word that marks the person as known to the speaker and withheld from the listener, is a determiner in its own right and has an entry of its own at a certain; the certain half is at certain."
+          ],
+          "examples": [
+            "A Ms. Okonjo called about the lease."
+          ]
+        },
+        {
+          "n": "7",
+          "head": "A work by, or one of a family or type",
+          "body": [
+            "With a proper name reinterpreted as a common noun."
+          ],
+          "examples": [
+            "They have a Rothko in the lobby and nobody looks at it.",
+            "He's no Einstein, but he keeps the books straight."
+          ]
+        },
+        {
+          "n": "8",
+          "head": "After a predeterminer or a shifted adjective",
+          "body": [
+            "Such, what, quite, rather, half, many stand in front of a, and after so, too, as, how, and that the adjective jumps in front of it as well. This construction is only possible with a singular countable noun."
+          ],
+          "examples": [
+            "It was a long meeting — no, such a long meeting that two people left. (such a)",
+            "That's too big a risk for the money involved.",
+            "I've never seen quite a mess like that kitchen."
+          ]
+        },
+        {
+          "n": "9",
+          "head": "In fixed quantity phrases",
+          "body": [
+            "A few, a little, a lot of, a couple of, a great deal of, a number of, a bit of are frozen units in which a is no longer doing its own work."
+          ],
+          "examples": [
+            "Give it a little time and a lot of water.",
+            "A couple of days later the check cleared.",
+            "There were a number of complaints about the noise."
+          ]
+        },
+        {
+          "n": "10",
+          "head": "In questions and negatives",
+          "body": [
+            "Neither one touches a/an — unlike the zero article, which trades places with any. What does happen is that a negated a often gives way to no: There isn't a problem and There's no problem say the same thing, the second more flatly."
+          ],
+          "examples": [
+            "Do you have a pen I can borrow for one second?",
+            "That isn't a reason, it's an excuse."
+          ]
+        }
+      ],
+      "pronunciation note": "stressed /eɪ/ · AY. The weak form is the real one: in running speech a is a single unstressed schwa leaning onto the next word, so a car is \"uh-CAR.\" The stressed /eɪ/ survives only in quotation, correction, and dictation (I said A dog, not THE dog).",
+      "русский": "неопределённый артикль — русского эквивалента нет: один из класса, слушателю не известный",
+      "position": "central determiner",
+      "register": "neutral",
+      "type": "article (indefinite)",
+      "goes with": "singular countable nouns only. a chair, a decision, a forty-dollar fine. Never a plural countable (a books, a two dogs) and never an uncountable (a information, a advice, a furniture, a homework, a research, a equipment, a luggage, a progress, a weather). To say the same indefinite thing about a plural or an uncountable, use the zero article or some: a chair → Ø chairs / some chairs; a fact → Ø information / some information. The one systematic escape is re-cutting: an uncountable noun that is reinterpreted as a portion, a serving, a type, or an instance genuinely becomes countable and then takes a — a coffee (a cup of it), a wine (a variety), a paper (an essay), a light (a lamp), a kindness (an act of it), an experience (an event, versus uncountable experience = know-how).",
+      "with of": "a takes no of-phrase of its own. It appears as the head-marker inside partitives (a slice of the pie, a couple of days, a lot of noise) and it is obligatory in the double genitive, where both a and of must be present: a friend of mine, a client of my father's — a my friend and a friend of me are both impossible.",
+      "pattern": "a [singular countable noun] · a [adjective] [noun] · [so / too / as / how / that] [adjective] a [noun] (too big a risk, as good a place as any) · [such / what / quite / rather / half] a [noun] · many a [singular countable noun] + singular verb (Many a contractor has walked off that job) · [amount or frequency] a [unit] (twice a week — see a (per)) · a [proper noun] (a Mr. Kowalski, a Rembrandt)",
+      "contrast": "Against the, the difference is not vague-versus-specific but unidentifiable versus identifiable: I talked to a lawyer leaves you unable to say which lawyer, I talked to the lawyer assumes you can. Against the zero article, the difference is only number and countability — a is what the zero article turns into when the noun is singular and countable. Against one, a is the unstressed default and one is a counted quantity or a contrast: Give me a minute is a request, Give me one minute is a limit; a hundred and one hundred mean the same number but one insists on it. Against some, the singular some is dismissive rather than merely indefinite: A guy called is neutral, Some guy called says you neither know nor care who.",
+      "variants": "an before a vowel sound. The two are one word with two shapes, chosen by the sound that follows and never by the spelling — see an and the sound table.",
+      "see also": "an, a (per), a certain, the, zero article (Ø), Three ways to be generic, some, one, any, certain"
     },
     {
       "term": "a (per)",
-      "ipa": "weak /ə/; /ən/ before a vowel sound",
-      "respell": "uh · uhn",
-      "type": "article (indefinite) in distributive use",
-      "position": "central determiner",
-      "register": "neutral — the ordinary spoken and written form; per is the technical alternative",
-      "goesWith": "singular countable unit nouns of time, weight, distance, volume, or head-count — a day, a week, a month, an hour, a pound, a gallon, a mile, a person, a head, a serving, a night. Never a plural (six dollars a pounds) and never an uncountable (six dollars a produce).",
-      "ofRule": "takes none. The of in four out of five belongs to a different construction.",
-      "pattern": "[price or amount] a [unit] ($6 a pound) · [number of times] a [time unit] (twice a day, three times a week) · [quantity] a [time unit] (two sick days a month) · [rate] an [hour] (sixty miles an hour)",
-      "contrast": "This is not the counting a of a pound of flour; it is a worn-down descendant of the preposition on (Middle English twice on the day), which is why it means per and why it can follow a number without sounding like a contradiction. Against per: same meaning, different register — per belongs to invoices, contracts, and science (per unit, per capita, per diem, 120 beats per minute) and takes no article (per an hour is impossible). Against by the: by the names the unit a thing is sold or paid in (sold by the pound, paid by the hour, rented by the week), while a states a rate already computed ($6 a pound, $22 an hour). Against each, which comes after the noun and prices items rather than rates: Tickets are $12 each.",
-      "variants": [],
+      "ipa": "weak /ə/",
+      "respell": "uh",
       "meaning": "States a rate: so much of one thing for every one of another.",
       "examples": [
         "Ground chuck is six dollars a pound this week.",
@@ -72,30 +166,23 @@
         "He puts in fifty hours a week and still picks up Saturdays.",
         "We each get two personal days a month."
       ],
-      "related": [
-        "a",
-        "an",
-        "the",
-        "one",
-        "each",
-        "every"
-      ]
+      "senses": [],
+      "pronunciation note": "an /ən/ · uhn before a vowel sound",
+      "русский": "за, в — распределительное «на единицу»: $6 a pound «за фунт», twice a day «дважды в день»",
+      "position": "central determiner",
+      "register": "neutral — the ordinary spoken and written form; per is the technical alternative",
+      "type": "article (indefinite) in distributive use",
+      "goes with": "singular countable unit nouns of time, weight, distance, volume, or head-count — a day, a week, a month, an hour, a pound, a gallon, a mile, a person, a head, a serving, a night. Never a plural (six dollars a pounds) and never an uncountable (six dollars a produce).",
+      "with of": "takes none. The of in four out of five belongs to a different construction.",
+      "pattern": "[price or amount] a [unit] ($6 a pound) · [number of times] a [time unit] (twice a day, three times a week) · [quantity] a [time unit] (two sick days a month) · [rate] an [hour] (sixty miles an hour)",
+      "contrast": "This is not the counting a of a pound of flour; it is a worn-down descendant of the preposition on (Middle English twice on the day), which is why it means per and why it can follow a number without sounding like a contradiction. Against per: same meaning, different register — per belongs to invoices, contracts, and science (per unit, per capita, per diem, 120 beats per minute) and takes no article (per an hour is impossible). Against by the: by the names the unit a thing is sold or paid in (sold by the pound, paid by the hour, rented by the week), while a states a rate already computed ($6 a pound, $22 an hour). Against each, which comes after the noun and prices items rather than rates: Tickets are $12 each.",
+      "see also": "a, an, the, one, each, every"
     },
     {
       "term": "a certain",
-      "ipa": "weak /ə ˈsɚtn̩/ — the article is always weak; there is no stressed variant and no an",
+      "ipa": "/ə ˈsɚtn̩/",
       "respell": "uh SUR-tn",
-      "type": "article (indefinite) inside a fixed determiner frame — a plus the unstressed determiner certain",
-      "position": "central determiner, with certain riding behind it in the postdeterminer slot; the two are chosen and used as one unit",
-      "register": "neutral and fully standard — an American meets it in conversation, in a news story, in a complaint letter, and in a novel, with no dialect or period flavor at all. Its only coloring is attitude: in speech it is often faintly coy, because it advertises that the speaker could name the thing and will not.",
-      "goesWith": "singular countable nouns (a certain restaurant, a certain look, a certain tone of voice), personal names and titles (a certain Mr. Kowalski, a certain Dr. Reyes), and — the exception worth memorizing — abstract uncountable nouns (a certain charm, a certain menace, a certain restlessness). That third case is the one place in the language where a stands in front of an uncountable noun without re-cutting it as a portion or a type: the article hedges the quality instead of counting it, which is why a certain charm is ordinary English where a charm means something else entirely. Never a plural countable (a certain people, a certain questions) and never an ordinary concrete uncountable (a certain water, a certain furniture, a certain information). For those two the article simply drops out and bare certain takes over the central slot: certain people, certain questions, certain evidence — see certain. The frame also refuses any other central determiner in front of it: the certain restaurant can only mean the sure one, and my certain restaurant is not English.",
-      "ofRule": "the bare frame takes none — a certain of the restaurants is impossible, and the bookish partitive certain of the members belongs to bare certain rather than to this one. But a certain heads two frozen quantity phrases in which the of is obligatory: a certain amount of before an uncountable noun (a certain amount of delay) and a certain number of before a plural (a certain number of claims). Drop the of and both collapse — a certain amount delay is not English. The frozen adverbial to a certain extent takes no of at all.",
-      "pattern": "a certain [singular countable noun] · a certain [title] [personal name] (a certain Ms. Okonjo) · a certain [abstract uncountable noun] (a certain charm) · a certain amount of [uncountable noun] · a certain number of [plural countable noun] · a certain someone / a certain something · to a certain extent / to a certain degree",
-      "contrast": "Against plain a, the difference is whose knowledge is at stake. Both are indefinite to the listener, but A lawyer called leaves open that the speaker cannot identify the caller either, while A certain lawyer called says the speaker can and is not going to — this is the ordinary American way of marking a specific indefinite. Against the, which hands the identification over: the restaurant she had in mind assumes you can pick it out, a certain restaurant keeps it back. Against bare certain, the split is number and nothing else — singular takes the article (a certain question), plural and uncountable refuse it (certain questions, certain evidence). Against the adjective certain meaning \"sure,\" which is stressed, follows be, and takes degree modifiers (I'm quite certain): the determiner does none of that, and the restaurant is certain cannot mean \"it is a particular one.\" Against a particular, which singles one out with no suggestion that anything is being withheld, and which goes under no where this frame cannot: no particular reason is idiomatic and no certain reason is not English. Against dismissive singular some: Some guy called says the speaker neither knows nor cares who, and A certain guy called says the exact opposite. Against such-and-such (a): such-and-such a date means nobody has picked one yet, a certain date means somebody has and will not say.",
-      "variants": [
-        "a certain amount of, a certain number of, a certain someone, a certain something, to a certain extent. There is no an variant. The certain half has an entry of its own at certain, where the bare plural and uncountable uses live."
-      ],
-      "meaning": "Marks a singular noun as one the speaker could name and deliberately does not — indefinite to the listener, definite to the speaker. 1. One particular thing, withheld. The core use. The speaker has a specific referent in mind and declines to identify it. 2. Before a personal name. The fuller version of the plain a at a sense 6: the name is supplied, and the frame says the listener is not expected to know the person. This is the shape a complaint, a report, or a piece of gossip reaches for. 3. A quality that can be felt but not named. With an abstract uncountable noun, where the article hedges instead of counting. This is the sense that keeps the frame alive in reviews, obituaries, and literary prose. 4. In the fixed quantity phrases. A certain amount of before an uncountable noun and a certain number of before a plural, both with obligatory of, plus the frozen adverbial to a certain extent. 5. Coy and insinuating. A certain someone and a certain something point at a person or a quality everyone listening can already guess at.",
+      "meaning": "Marks a singular noun as one the speaker could name and deliberately does not — indefinite to the listener, definite to the speaker.",
       "examples": [
         "She had a certain restaurant in mind but wouldn't say which one.",
         "There's a certain member of this committee who has never once read the packet.",
@@ -109,35 +196,81 @@
         "A certain someone forgot whose anniversary it was on Tuesday.",
         "He has a certain something that never shows up on the stat sheet."
       ],
-      "related": [
-        "a",
-        "an",
-        "the",
-        "zero article (Ø)",
-        "a whole nother",
-        "certain",
-        "particular",
-        "given",
-        "such-and-such (a)",
-        "something of a",
-        "some"
-      ]
+      "senses": [
+        {
+          "n": "1",
+          "head": "One particular thing, withheld",
+          "body": [
+            "The core use. The speaker has a specific referent in mind and declines to identify it."
+          ],
+          "examples": [
+            "She had a certain restaurant in mind but wouldn't say which one.",
+            "There's a certain member of this committee who has never once read the packet."
+          ]
+        },
+        {
+          "n": "2",
+          "head": "Before a personal name",
+          "body": [
+            "The fuller version of the plain a at a sense 6: the name is supplied, and the frame says the listener is not expected to know the person. This is the shape a complaint, a report, or a piece of gossip reaches for."
+          ],
+          "examples": [
+            "A certain Mr. Kowalski has been calling the front desk since eight this morning.",
+            "The complaint was filed by a certain Dr. Reyes, who then declined to be interviewed."
+          ]
+        },
+        {
+          "n": "3",
+          "head": "A quality that can be felt but not named",
+          "body": [
+            "With an abstract uncountable noun, where the article hedges instead of counting. This is the sense that keeps the frame alive in reviews, obituaries, and literary prose."
+          ],
+          "examples": [
+            "The old station has a certain charm, run down as it is.",
+            "There was a certain menace in how politely he said it."
+          ]
+        },
+        {
+          "n": "4",
+          "head": "In the fixed quantity phrases",
+          "body": [
+            "A certain amount of before an uncountable noun and a certain number of before a plural, both with obligatory of, plus the frozen adverbial to a certain extent."
+          ],
+          "examples": [
+            "A certain amount of delay was built into the schedule from the start.",
+            "A certain number of claims come back rejected every month no matter who files them.",
+            "To a certain extent that's true, but it leaves the financing out of it."
+          ]
+        },
+        {
+          "n": "5",
+          "head": "Coy and insinuating",
+          "body": [
+            "A certain someone and a certain something point at a person or a quality everyone listening can already guess at."
+          ],
+          "examples": [
+            "A certain someone forgot whose anniversary it was on Tuesday.",
+            "He has a certain something that never shows up on the stat sheet."
+          ]
+        }
+      ],
+      "pronunciation note": "the article is always in its weak form here, a single schwa leaning onto the stressed first syllable of certain, whose final /n/ is syllabic: a certain look is /ə ˌsɚtn̩ ˈlʊk/. The stressed /eɪ/ of a does not survive inside the frame, and neither does an — certain begins with /s/, so the pre-vocalic form has no work to do and an certain never occurs.",
+      "русский": "некий, один — говорящий знает, о ком или о чём речь, но намеренно не называет",
+      "position": "central determiner, with certain riding behind it in the postdeterminer slot; the two are chosen and used as one unit",
+      "register": "neutral and fully standard — an American meets it in conversation, in a news story, in a complaint letter, and in a novel, with no dialect or period flavor at all. Its only coloring is attitude: in speech it is often faintly coy, because it advertises that the speaker could name the thing and will not.",
+      "type": "article (indefinite) inside a fixed determiner frame — a plus the unstressed determiner certain",
+      "goes with": "singular countable nouns (a certain restaurant, a certain look, a certain tone of voice), personal names and titles (a certain Mr. Kowalski, a certain Dr. Reyes), and — the exception worth memorizing — abstract uncountable nouns (a certain charm, a certain menace, a certain restlessness). That third case is the one place in the language where a stands in front of an uncountable noun without re-cutting it as a portion or a type: the article hedges the quality instead of counting it, which is why a certain charm is ordinary English where a charm means something else entirely. Never a plural countable (a certain people, a certain questions) and never an ordinary concrete uncountable (a certain water, a certain furniture, a certain information). For those two the article simply drops out and bare certain takes over the central slot: certain people, certain questions, certain evidence — see certain. The frame also refuses any other central determiner in front of it: the certain restaurant can only mean the sure one, and my certain restaurant is not English.",
+      "with of": "the bare frame takes none — a certain of the restaurants is impossible, and the bookish partitive certain of the members belongs to bare certain rather than to this one. But a certain heads two frozen quantity phrases in which the of is obligatory: a certain amount of before an uncountable noun (a certain amount of delay) and a certain number of before a plural (a certain number of claims). Drop the of and both collapse — a certain amount delay is not English. The frozen adverbial to a certain extent takes no of at all.",
+      "pattern": "a certain [singular countable noun] · a certain [title] [personal name] (a certain Ms. Okonjo) · a certain [abstract uncountable noun] (a certain charm) · a certain amount of [uncountable noun] · a certain number of [plural countable noun] · a certain someone / a certain something · to a certain extent / to a certain degree",
+      "contrast": "Against plain a, the difference is whose knowledge is at stake. Both are indefinite to the listener, but A lawyer called leaves open that the speaker cannot identify the caller either, while A certain lawyer called says the speaker can and is not going to — this is the ordinary American way of marking a specific indefinite. Against the, which hands the identification over: the restaurant she had in mind assumes you can pick it out, a certain restaurant keeps it back. Against bare certain, the split is number and nothing else — singular takes the article (a certain question), plural and uncountable refuse it (certain questions, certain evidence). Against the adjective certain meaning \"sure,\" which is stressed, follows be, and takes degree modifiers (I'm quite certain): the determiner does none of that, and the restaurant is certain cannot mean \"it is a particular one.\" Against a particular, which singles one out with no suggestion that anything is being withheld, and which goes under no where this frame cannot: no particular reason is idiomatic and no certain reason is not English. Against dismissive singular some: Some guy called says the speaker neither knows nor cares who, and A certain guy called says the exact opposite. Against such-and-such (a): such-and-such a date means nobody has picked one yet, a certain date means somebody has and will not say.",
+      "variants": "a certain amount of, a certain number of, a certain someone, a certain something, to a certain extent. There is no an variant. The certain half has an entry of its own at certain, where the bare plural and uncountable uses live.",
+      "see also": "a, an, the, zero article (Ø), a whole nother, certain, particular, given, such-and-such (a), something of a, some"
     },
     {
       "term": "an",
-      "ipa": "weak /ən/; stressed /æn/",
-      "respell": "uhn (weak) · AN (stressed)",
-      "type": "article (indefinite)",
-      "position": "central determiner",
-      "register": "neutral",
-      "goesWith": "singular countable nouns only — the same restriction as a, of which an is the pre-vocalic form. Never a plural (an apples), never an uncountable (an information, an advice, an equipment, an evidence). Exactly as with a, an uncountable that has been re-cut as a portion or a type can take it: an oil (a variety of cooking oil), an ice (a serving), an anger that surprised him (a specific instance of it).",
-      "ofRule": "none of its own; identical behavior to a inside partitives (an inch of rain) and in the double genitive (an uncle of mine).",
-      "pattern": "an [vowel-initial singular countable noun] · an [vowel-initial adjective] [noun] · [so / too / as / how] [adjective] an [noun] (too odd an answer) · [such / what / quite / half] an [noun] · [amount] an [hour / ounce / inch]",
-      "contrast": "Against a there is no difference of meaning whatsoever — the two are one word with two shapes, selected by the sound that follows. The traps run in both directions: vowel letters that take a (a university, a union, a uniform, a used car, a European, a eulogy, a U-turn, a UFO, a one-time offer, a once-in-a-lifetime chance) and consonant letters that take an (an hour, an honest mistake, an MBA, an FBI agent, an X-ray, an SUV, an RSVP, an 18-wheeler). Against British-influenced an historic: American English pronounces the h in historic, hotel, heroic, humble, so American English writes a historic decision.",
-      "variants": [
-        "a before a consonant sound. An stands before a vowel sound, not a vowel letter, and the choice is made by the very next word, adjective included: an old truck but a used truck, an ugly sweater but a useful sweater. Silent h takes an (an hour, an honor, an heir, and in American English an herb); u pronounced /ju/ takes a (a university, a European); initial o pronounced /w/ takes a (a one-way street)."
-      ],
-      "meaning": "Marks a singular countable noun as one of a class, before a word beginning with a vowel sound.",
+      "ipa": "weak /ən/",
+      "respell": "uhn",
+      "meaning": "Marks a singular countable noun as one of a class, before a word beginning with a vowel sound. ---",
       "examples": [
         "She waited an hour and forty minutes at the DMV.",
         "He has an MBA and an opinion about everything.",
@@ -148,28 +281,24 @@
         "I'd call it an unusual choice rather than a useless one.",
         "An SUV with Michigan plates has been parked there all week."
       ],
-      "related": [
-        "a",
-        "a (per)",
-        "the",
-        "zero article (Ø)"
-      ]
+      "senses": [],
+      "pronunciation note": "stressed /æn/ · AN. The weak form is a schwa plus /n/, identical to reduced and, which is why fish and chips and fish an' chips sound the same. The /n/ links forward onto the noun: an apple is \"uh-NAPple,\" an hour is \"uh-NOWer.\" Stressed /æn/ is heard only in correction and dictation.",
+      "русский": "тот же неопределённый артикль перед гласным звуком — выбор по звуку, а не по букве",
+      "position": "central determiner",
+      "register": "neutral",
+      "type": "article (indefinite)",
+      "goes with": "singular countable nouns only — the same restriction as a, of which an is the pre-vocalic form. Never a plural (an apples), never an uncountable (an information, an advice, an equipment, an evidence). Exactly as with a, an uncountable that has been re-cut as a portion or a type can take it: an oil (a variety of cooking oil), an ice (a serving), an anger that surprised him (a specific instance of it).",
+      "with of": "none of its own; identical behavior to a inside partitives (an inch of rain) and in the double genitive (an uncle of mine).",
+      "pattern": "an [vowel-initial singular countable noun] · an [vowel-initial adjective] [noun] · [so / too / as / how] [adjective] an [noun] (too odd an answer) · [such / what / quite / half] an [noun] · [amount] an [hour / ounce / inch]",
+      "contrast": "Against a there is no difference of meaning whatsoever — the two are one word with two shapes, selected by the sound that follows. The traps run in both directions: ✗ vowel letters that take a (a university, a union, a uniform, a used car, a European, a eulogy, a U-turn, a UFO, a one-time offer, a once-in-a-lifetime chance) and ✗ consonant letters that take an (an hour, an honest mistake, an MBA, an FBI agent, an X-ray, an SUV, an RSVP, an 18-wheeler). Against British-influenced an historic: American English pronounces the h in historic, hotel, heroic, humble, so American English writes a historic decision.",
+      "variants": "a before a consonant sound. An stands before a vowel sound, not a vowel letter, and the choice is made by the very next word, adjective included: an old truck but a used truck, an ugly sweater but a useful sweater. Silent h takes an (an hour, an honor, an heir, and in American English an herb); u pronounced /ju/ takes a (a university, a European); initial o pronounced /w/ takes a (a one-way street).",
+      "see also": "a, a (per), the, zero article (Ø), A or an: the test is sound, not spelling"
     },
     {
       "term": "the",
-      "ipa": "/ðə/ before a consonant sound; /ði/ before a vowel sound; stressed /ðiː/",
-      "respell": "thuh · thee · THEE",
-      "type": "article (definite)",
-      "position": "central determiner",
-      "register": "neutral",
-      "goesWith": "every noun type there is — singular countable (the chair), plural countable (the chairs), uncountable (the water), and the subset of proper nouns listed in The with proper nouns. This universality is what makes it dangerous: the is never blocked by countability, so a learner who reaches for it whenever the thing feels definite will overuse it. The block on the is not grammatical but informational — it is wrong whenever the listener could not say which one.",
-      "ofRule": "the takes no of-phrase of its own but is the article the of-constructions are built around. It is required inside partitives (most of the students, half of the pie, none of the money), inside of-genitives (the works of Melville, the top of the page), and inside of-named institutions (the University of Michigan, the Gulf of Mexico). Predeterminers stack in front of it: all (of) the students, both (of) the windows, half (of) the class — of optional before the, required before a pronoun (all of them, never all them).",
-      "pattern": "the [noun] · the [adjective] [noun] · the [noun] [that / which / who clause] · the [noun] of [noun] · the [superlative or ordinal] [noun] · the [adjective] as a plural class (the unemployed) · [all / both / half / double / twice] the [noun] · by the [unit] (by the pound)",
-      "contrast": "Against a/an, the claims the listener can identify the referent; a claims they cannot. Against the zero article, the narrows to a known instance where Ø leaves the noun general: I like Ø dogs is about dogs as a class, I like the dogs is about particular dogs already in play — and this is the single most damaging transfer error for speakers of Spanish, French, Italian, German, Greek, and Arabic, whose languages use the definite article for exactly the generic that English marks with nothing. Against this / that, the identifies without pointing: the report assumes you know which, this report physically or mentally singles it out. Against a possessive, only one central determiner is allowed, so the my office is impossible — you choose one. The only words that may stand in front of the are the predeterminers, which occupy a slot of their own ahead of the central slot: all the students, both the windows, half the class, twice the price, double the fine. Such is not one of them — it selects a or a bare noun (such a mess, such problems, such nonsense) and never the, so such the mess is impossible.",
-      "variants": [
-        "/ðə/, /ði/, and stressed /ðiː/ are one word in three shapes. In relaxed American speech /ðə/ creeps in before vowels with a small catch in the throat where the /i/ would be (\"thuh ʔapple\"); that is normal and unremarkable, but /ði/ is never wrong, so it is the safer habit. Mock-archaic ye and eye-dialect th' are separate entries."
-      ],
-      "meaning": "Marks a noun as one the listener can already pick out. 1. Second mention. The noun has been introduced; the now says \"that one.\" 2. Inferable from what came before. No previous mention is needed if the referent follows from one — a house has a kitchen, a car has an engine, a book has an author. 3. Unique in the world, or unique here. One of a kind either globally or in the situation you and the listener share. 4. Made unique by what follows. A relative clause, an of-phrase, a prepositional phrase, or a that-clause that narrows the noun to one. 5. Superlatives, ordinals, and uniqueness adjectives. Best, worst, first, third, last, next, only, same, main, right, wrong, very force the because each of them narrows to one. 6. Institutions and things everyone in the culture knows. The president, the mayor, the news, the DMV, the internet, the flu, the market, the interstate. 7. Generic — the class as a whole. Formal, written, and restricted to singular countable nouns; also the the + adjective construction, which names a class of people or an abstraction and takes a plural verb for people. 8. Body parts after a preposition. Where most languages use a possessive, English uses the. 9. Musical instruments. In the playing sense, an instrument takes the where a sport takes nothing. 10. Periods, decades, and centuries. 11. Proper nouns of the the-taking groups. Rivers, oceans, seas, gulfs, canals, deserts, mountain ranges, island groups, plural or common-noun country names, newspapers, hotels, theaters, ships, museums, and family names in the plural. Full list at The with proper nouns. 12. Units of sale and measure after by. By the pound, by the hour, by the dozen, by the week.",
+      "ipa": "/ðə/",
+      "respell": "thuh before a consonant sound",
+      "meaning": "Marks a noun as one the listener can already pick out.",
       "examples": [
         "A dog followed us home. The dog had no collar.",
         "She sent over a draft and a spreadsheet. The spreadsheet was the useful part.",
@@ -197,35 +326,156 @@
         "They pay by the hour and round down.",
         "Crab legs are sold by the pound at the counter in back."
       ],
-      "related": [
-        "a",
-        "an",
-        "the (adjective as noun)",
-        "the (degree)",
-        "the (stressed)",
-        "zero article (Ø)",
-        "this",
-        "that",
-        "my",
-        "all",
-        "most"
-      ]
+      "senses": [
+        {
+          "n": "1",
+          "head": "Second mention",
+          "body": [
+            "The noun has been introduced; the now says \"that one.\""
+          ],
+          "examples": [
+            "A dog followed us home. The dog had no collar.",
+            "She sent over a draft and a spreadsheet. The spreadsheet was the useful part."
+          ]
+        },
+        {
+          "n": "2",
+          "head": "Inferable from what came before",
+          "body": [
+            "No previous mention is needed if the referent follows from one — a house has a kitchen, a car has an engine, a book has an author."
+          ],
+          "examples": [
+            "We rented a house in Ypsilanti and the kitchen was unusable.",
+            "I started the novel last night and gave up by the third chapter."
+          ]
+        },
+        {
+          "n": "3",
+          "head": "Unique in the world, or unique here",
+          "body": [
+            "One of a kind either globally or in the situation you and the listener share."
+          ],
+          "examples": [
+            "The sun was already down by the time we got to the car.",
+            "Can you get the door? I'm on the phone."
+          ]
+        },
+        {
+          "n": "4",
+          "head": "Made unique by what follows",
+          "body": [
+            "A relative clause, an of-phrase, a prepositional phrase, or a that-clause that narrows the noun to one."
+          ],
+          "examples": [
+            "The man in the gray coat has been standing there since noon.",
+            "Read the part of the contract that covers early termination.",
+            "The fact that nobody flagged it is the real problem."
+          ]
+        },
+        {
+          "n": "5",
+          "head": "Superlatives, ordinals, and uniqueness adjectives",
+          "body": [
+            "Best, worst, first, third, last, next, only, same, main, right, wrong, very force the because each of them narrows to one."
+          ],
+          "examples": [
+            "That's the best price you're going to find in this zip code.",
+            "Get off at the third exit — it's the only one with a light.",
+            "She gave me the wrong number twice."
+          ]
+        },
+        {
+          "n": "6",
+          "head": "Institutions and things everyone in the culture knows",
+          "body": [
+            "The president, the mayor, the news, the DMV, the internet, the flu, the market, the interstate."
+          ],
+          "examples": [
+            "It was on the news before the mayor's office confirmed anything.",
+            "Half his department is out with the flu."
+          ]
+        },
+        {
+          "n": "7",
+          "head": "Generic — the class as a whole",
+          "body": [
+            "Formal, written, and restricted to singular countable nouns; also the the + adjective construction, which names a class of people or an abstraction and takes a plural verb for people."
+          ],
+          "examples": [
+            "The smartphone changed what an American commute looks like.",
+            "The unemployed are the last group anyone budgets for."
+          ]
+        },
+        {
+          "n": "8",
+          "head": "Body parts after a preposition",
+          "body": [
+            "Where most languages use a possessive, English uses the."
+          ],
+          "examples": [
+            "He got hit on the head with a foul ball.",
+            "She grabbed me by the arm and pointed."
+          ]
+        },
+        {
+          "n": "9",
+          "head": "Musical instruments",
+          "body": [
+            "In the playing sense, an instrument takes the where a sport takes nothing."
+          ],
+          "examples": [
+            "She's been playing the cello since she was seven."
+          ]
+        },
+        {
+          "n": "10",
+          "head": "Periods, decades, and centuries",
+          "body": [],
+          "examples": [
+            "Most of that neighborhood went up in the 1920s.",
+            "Nothing about the Depression is in the curriculum anymore."
+          ]
+        },
+        {
+          "n": "11",
+          "head": "Proper nouns of the the-taking groups",
+          "body": [
+            "Rivers, oceans, seas, gulfs, canals, deserts, mountain ranges, island groups, plural or common-noun country names, newspapers, hotels, theaters, ships, museums, and family names in the plural. Full list at The with proper nouns."
+          ],
+          "examples": [
+            "We crossed the Mississippi twice before we hit the Ozarks.",
+            "The Sandovals are in the Bahamas until Sunday."
+          ]
+        },
+        {
+          "n": "12",
+          "head": "Units of sale and measure after by",
+          "body": [
+            "By the pound, by the hour, by the dozen, by the week."
+          ],
+          "examples": [
+            "They pay by the hour and round down.",
+            "Crab legs are sold by the pound at the counter in back."
+          ]
+        }
+      ],
+      "pronunciation note": "/ði/ · thee before a vowel sound — stressed /ðiː/ · THEE for emphasis. Same rule as a/an, run on sound: the car, the university, the one-way street are all /ðə/; the apple, the hour, the FBI, the MBA are all /ði/. See the pronunciation table.",
+      "русский": "определённый артикль — русского эквивалента нет: слушатель уже может понять, о чём речь",
+      "position": "central determiner",
+      "register": "neutral",
+      "type": "article (definite)",
+      "goes with": "every noun type there is — singular countable (the chair), plural countable (the chairs), uncountable (the water), and the subset of proper nouns listed in The with proper nouns. This universality is what makes it dangerous: the is never blocked by countability, so a learner who reaches for it whenever the thing feels definite will overuse it. The block on the is not grammatical but informational — it is wrong whenever the listener could not say which one.",
+      "with of": "the takes no of-phrase of its own but is the article the of-constructions are built around. It is required inside partitives (most of the students, half of the pie, none of the money), inside of-genitives (the works of Melville, the top of the page), and inside of-named institutions (the University of Michigan, the Gulf of Mexico). Predeterminers stack in front of it: all (of) the students, both (of) the windows, half (of) the class — of optional before the, required before a pronoun (all of them, never all them).",
+      "pattern": "the [noun] · the [adjective] [noun] · the [noun] [that / which / who clause] · the [noun] of [noun] · the [superlative or ordinal] [noun] · the [adjective] as a plural class (the unemployed) · [all / both / half / double / twice] the [noun] · by the [unit] (by the pound)",
+      "contrast": "Against a/an, the claims the listener can identify the referent; a claims they cannot. Against the zero article, the narrows to a known instance where Ø leaves the noun general: I like Ø dogs is about dogs as a class, I like the dogs is about particular dogs already in play — and this is the single most damaging transfer error for speakers of Spanish, French, Italian, German, Greek, and Arabic, whose languages use the definite article for exactly the generic that English marks with nothing. Against this / that, the identifies without pointing: the report assumes you know which, this report physically or mentally singles it out. Against a possessive, only one central determiner is allowed, so the my office is impossible — you choose one. The only words that may stand in front of the are the predeterminers, which occupy a slot of their own ahead of the central slot: all the students, both the windows, half the class, twice the price, double the fine. Such is not one of them — it selects a or a bare noun (such a mess, such problems, such nonsense) and never the, so such the mess is impossible.",
+      "variants": "/ðə/, /ði/, and stressed /ðiː/ are one word in three shapes. In relaxed American speech /ðə/ creeps in before vowels with a small catch in the throat where the /i/ would be (\"thuh ʔapple\"); that is normal and unremarkable, but /ði/ is never wrong, so it is the safer habit. Mock-archaic ye and eye-dialect th' are separate entries.",
+      "see also": "a, an, the (adjective as noun), the (degree), the (stressed), zero article (Ø), Why the? Every road to definiteness, this, that, my, all, most"
     },
     {
       "term": "the (adjective as noun)",
-      "ipa": "/ðə/ before a consonant sound; /ði/ before a vowel sound",
-      "respell": "thuh · thee",
-      "type": "article (definite), in the substantivized-adjective construction",
-      "position": "central determiner",
-      "register": "neutral to formal — the standard form in journalism, policy writing, and statistics",
-      "goesWith": "a bare adjective or participle standing where a noun would, with no noun after it — the rich, the poor, the young, the elderly, the homeless, the unemployed, the uninsured, the injured, the accused, the deceased, the wounded, the living, the dead — and nationality adjectives that have no plural noun form, which is the ones ending in a sibilant — /s, z, ʃ, tʃ/: the French, the Dutch, the Spanish, the British, the English, the Welsh, the Irish, the Swiss, the Chinese, the Japanese, the Portuguese. There are exactly two readings and they take different verbs: a plural class of people, with a plural verb (the poor are, the French take), or a singular abstraction with an abstract adjective, taking a singular verb (the impossible takes longer, the unknown is). It cannot take a plural -s (the unemployeds, the Frenches) and has no singular member form — one of them is a poor person, a French person or a Frenchman, never a poor or a French.",
-      "ofRule": "takes an of-phrase when the class is narrowed or ranked: the poorest of the poor, the youngest of the wounded. Nothing forces one.",
-      "pattern": "the [adjective] + plural verb (The unemployed are counted monthly) · the [nationality adjective] + plural verb (The Dutch build for water) · the [abstract adjective] + singular verb (The impossible takes longer) · the [comparative or superlative] as a class (the more experienced, the very poorest)",
-      "contrast": "Against ordinary the + noun, there is no noun here at all — which is why the unemployed and the unemployed people mean the same thing while the unemployeds means nothing. Against the zero article plural generic, Ø poor people have fewer options and the poor have fewer options both name the class, but the second treats it as a fixed social category, which is why policy prose prefers it. Against nationality words that really are nouns — American, Canadian, German, Italian, Mexican, Israeli, Egyptian, Norwegian — those pluralize normally and take Ø for the generic: Ø Americans work too much; the Americans work too much can only mean particular ones. The split is phonological, not political: a nationality word ending in a sibilant has no plural, so it must borrow this construction.",
-      "variants": [
-        "the + comparative or superlative works the same way (the fittest survive, the less fortunate). Note that the same adjective with the zero article and a real noun after it is always available and often plainer: Ø homeless veterans rather than the homeless."
-      ],
-      "meaning": "Turns an adjective into a noun naming the whole class of people who have that quality, or naming the quality itself as an abstraction. 1. A class of people, with a plural verb. The commonest use, and the one that trips up agreement. 2. Nationalities with no plural noun form. 3. An abstraction, with a singular verb. 4. Comparative and superlative classes.",
+      "ipa": "/ðə/",
+      "respell": "thuh before a consonant sound",
+      "meaning": "Turns an adjective into a noun naming the whole class of people who have that quality, or naming the quality itself as an abstraction.",
       "examples": [
         "The unemployed are the last group anyone budgets for.",
         "The elderly in that county have no public transportation at all.",
@@ -236,26 +486,63 @@
         "He has always been drawn to the unknown, which is why he is broke.",
         "The pilot program was written for the very poorest and reaches almost none of them."
       ],
-      "related": [
-        "the",
-        "the (stressed)",
-        "zero article (Ø)",
-        "zero article with languages and school subjects"
-      ]
+      "senses": [
+        {
+          "n": "1",
+          "head": "A class of people, with a plural verb",
+          "body": [
+            "The commonest use, and the one that trips up agreement."
+          ],
+          "examples": [
+            "The unemployed are the last group anyone budgets for.",
+            "The elderly in that county have no public transportation at all.",
+            "Emergency rooms are required to stabilize the uninsured before they ask anything else."
+          ]
+        },
+        {
+          "n": "2",
+          "head": "Nationalities with no plural noun form",
+          "body": [],
+          "examples": [
+            "The Dutch build for water the way Americans build for cars.",
+            "The French take August seriously and nobody apologizes for it."
+          ]
+        },
+        {
+          "n": "3",
+          "head": "An abstraction, with a singular verb",
+          "body": [],
+          "examples": [
+            "The impossible takes a little longer and costs a great deal more.",
+            "He has always been drawn to the unknown, which is why he is broke."
+          ]
+        },
+        {
+          "n": "4",
+          "head": "Comparative and superlative classes",
+          "body": [],
+          "examples": [
+            "The pilot program was written for the very poorest and reaches almost none of them."
+          ]
+        }
+      ],
+      "pronunciation note": "/ði/ · thee before a vowel sound (the elderly, the unemployed, the injured, the accused)",
+      "русский": "the + прилагательное — класс людей (the poor «бедные») или абстракция (the unknown «неведомое»)",
+      "position": "central determiner",
+      "register": "neutral to formal — the standard form in journalism, policy writing, and statistics",
+      "type": "article (definite), in the substantivized-adjective construction",
+      "goes with": "a bare adjective or participle standing where a noun would, with no noun after it — the rich, the poor, the young, the elderly, the homeless, the unemployed, the uninsured, the injured, the accused, the deceased, the wounded, the living, the dead — and nationality adjectives that have no plural noun form, which is the ones ending in a sibilant — /s, z, ʃ, tʃ/: the French, the Dutch, the Spanish, the British, the English, the Welsh, the Irish, the Swiss, the Chinese, the Japanese, the Portuguese. There are exactly two readings and they take different verbs: a plural class of people, with a plural verb (the poor are, the French take), or a singular abstraction with an abstract adjective, taking a singular verb (the impossible takes longer, the unknown is). It cannot take a plural -s (the unemployeds, the Frenches) and has no singular member form — one of them is a poor person, a French person or a Frenchman, never a poor or a French.",
+      "with of": "takes an of-phrase when the class is narrowed or ranked: the poorest of the poor, the youngest of the wounded. Nothing forces one.",
+      "pattern": "the [adjective] + plural verb (The unemployed are counted monthly) · the [nationality adjective] + plural verb (The Dutch build for water) · the [abstract adjective] + singular verb (The impossible takes longer) · the [comparative or superlative] as a class (the more experienced, the very poorest)",
+      "contrast": "Against ordinary the + noun, there is no noun here at all — which is why the unemployed and the unemployed people mean the same thing while the unemployeds means nothing. Against the zero article plural generic, Ø poor people have fewer options and the poor have fewer options both name the class, but the second treats it as a fixed social category, which is why policy prose prefers it. Against nationality words that really are nouns — American, Canadian, German, Italian, Mexican, Israeli, Egyptian, Norwegian — those pluralize normally and take Ø for the generic: Ø Americans work too much; the Americans work too much can only mean particular ones. The split is phonological, not political: a nationality word ending in a sibilant has no plural, so it must borrow this construction.",
+      "variants": "the + comparative or superlative works the same way (the fittest survive, the less fortunate). Note that the same adjective with the zero article and a real noun after it is always available and often plainer: Ø homeless veterans rather than the homeless.",
+      "see also": "the, the (stressed), zero article (Ø), Three ways to be generic, zero article with languages and school subjects, Why the? Every road to definiteness"
     },
     {
       "term": "the (degree)",
-      "ipa": "/ðə/; /ði/ before a vowel sound",
-      "respell": "thuh · thee",
-      "type": "adverb of degree — historically not the article but the Old English instrumental þȳ, \"by that much,\" which is why it can sit in front of a comparative where no noun is possible",
-      "position": "not a determiner; it modifies a comparative",
-      "register": "neutral, common in speech and proverbs",
-      "goesWith": "comparative adjectives and comparative adverbs only — the sooner, the more, the less, the better, the worse, the bigger, the harder. Never a noun on its own, never a positive-degree adjective (the soon, the good in this sense are impossible), and never a superlative.",
-      "ofRule": "takes none.",
-      "pattern": "The [comparative], the [comparative] (The sooner, the better) · The [comparative] [clause], the [comparative] [clause] · all the [comparative] · none the [comparative] · so much the [comparative]",
-      "contrast": "Identical in spelling and sound to the article the and unrelated to it in origin and in job. The test is what follows: a noun phrase means you have the article (the better offer), a bare comparative means you have this word (all the better). Note that the correlative frame is a paired construction — both halves need their the, and the verbs are usually deleted (The bigger the crowd, the longer the wait).",
-      "variants": [],
-      "meaning": "Measures a change in one thing against a change in another, or against a cause just mentioned. 1. The correlative pair. Two clauses, each opened by the plus a comparative; the first states a condition, the second its consequence. 2. All the + comparative. \"By that much more.\" 3. None the + comparative. \"Not at all more,\" almost always with wiser, worse, better.",
+      "ipa": "/ðə/",
+      "respell": "thuh",
+      "meaning": "Measures a change in one thing against a change in another, or against a cause just mentioned.",
       "examples": [
         "The sooner we leave, the better.",
         "The more you practice, the easier it gets.",
@@ -265,26 +552,58 @@
         "He explained it twice and I was none the wiser.",
         "She rode out the whole thing none the worse for it."
       ],
-      "related": [
-        "the",
-        "the (stressed)",
-        "more",
-        "less"
-      ]
+      "senses": [
+        {
+          "n": "1",
+          "head": "The correlative pair",
+          "body": [
+            "Two clauses, each opened by the plus a comparative; the first states a condition, the second its consequence."
+          ],
+          "examples": [
+            "The sooner we leave, the better.",
+            "The more you practice, the easier it gets.",
+            "The bigger the crowd, the longer the wait at the counter."
+          ]
+        },
+        {
+          "n": "2",
+          "head": "All the + comparative",
+          "body": [
+            "\"By that much more.\""
+          ],
+          "examples": [
+            "If they cancel, all the better — I wasn't going anyway.",
+            "The delay made him all the angrier."
+          ]
+        },
+        {
+          "n": "3",
+          "head": "None the + comparative",
+          "body": [
+            "\"Not at all more,\" almost always with wiser, worse, better."
+          ],
+          "examples": [
+            "He explained it twice and I was none the wiser.",
+            "She rode out the whole thing none the worse for it."
+          ]
+        }
+      ],
+      "pronunciation note": "/ði/ · thee before a vowel sound (the earlier the better)",
+      "русский": "чем… тем — не артикль, а наречие степени при сравнительной: the sooner, the better",
+      "position": "not a determiner; it modifies a comparative",
+      "register": "neutral, common in speech and proverbs",
+      "type": "adverb of degree — historically not the article but the Old English instrumental þȳ, \"by that much,\" which is why it can sit in front of a comparative where no noun is possible",
+      "goes with": "comparative adjectives and comparative adverbs only — the sooner, the more, the less, the better, the worse, the bigger, the harder. Never a noun on its own, never a positive-degree adjective (the soon, the good in this sense are impossible), and never a superlative.",
+      "with of": "takes none.",
+      "pattern": "The [comparative], the [comparative] (The sooner, the better) · The [comparative] [clause], the [comparative] [clause] · all the [comparative] · none the [comparative] · so much the [comparative]",
+      "contrast": "Identical in spelling and sound to the article the and unrelated to it in origin and in job. The test is what follows: a noun phrase means you have the article (the better offer), a bare comparative means you have this word (all the better). Note that the correlative frame is a paired construction — both halves need their the, and the verbs are usually deleted (The bigger the crowd, the longer the wait).",
+      "see also": "the, the (stressed), more, less"
     },
     {
       "term": "the (stressed)",
       "ipa": "/ðiː/",
       "respell": "THEE",
-      "type": "article (definite), emphatic",
-      "position": "central determiner",
-      "register": "spoken and informal written; in print it is shown by italics, small caps, or capitals",
-      "goesWith": "the same nouns as ordinary the — singular countable, plural countable, uncountable — plus, distinctively, personal names, where unstressed the would be impossible: Are you THE Sandra Cisneros?",
-      "ofRule": "same behavior as ordinary the; the stress does not change the syntax.",
-      "pattern": "THE [noun] (the place, the guy, the problem) · THE [proper name] (the Sandra Cisneros) · predicative: [X] is THE [noun]",
-      "contrast": "Against unstressed the, the meaning shifts from \"the one you can identify\" to \"the one that counts — the definitive, the famous, the only one worth naming.\" Against a, stressed the is the direct rebuttal: It's not a barbecue place, it's THE barbecue place. Do not confuse the stressed vowel with the ordinary pre-vowel /ði/, which is short and unstressed; the emphatic form is long and carries the sentence's stress.",
-      "variants": [],
-      "meaning": "Singles a referent out as the definitive or best-known one of its kind.",
+      "meaning": "Singles a referent out as the definitive or best-known one of its kind. ---",
       "examples": [
         "It's not a taco place — it's the taco place.",
         "Wait, you worked with the Bill Withers?",
@@ -295,26 +614,23 @@
         "Those aren't just good tires — they're the tires every shop in town puts on a truck like that. (plural countable)",
         "It isn't evidence; it's the evidence, and the whole case rests on it. (uncountable)"
       ],
-      "related": [
-        "the",
-        "a",
-        "the (degree)",
-        "this"
-      ]
+      "senses": [],
+      "pronunciation note": "long, fully stressed, and used before consonants and vowels alike (THEE place, THEE only option)",
+      "русский": "тот самый — ударное the: не «какое-то место», а «то самое место»",
+      "position": "central determiner",
+      "register": "spoken and informal written; in print it is shown by italics, small caps, or capitals",
+      "type": "article (definite), emphatic",
+      "goes with": "the same nouns as ordinary the — singular countable, plural countable, uncountable — plus, distinctively, personal names, where unstressed the would be impossible: Are you THE Sandra Cisneros?",
+      "with of": "same behavior as ordinary the; the stress does not change the syntax.",
+      "pattern": "THE [noun] (the place, the guy, the problem) · THE [proper name] (the Sandra Cisneros) · predicative: [X] is THE [noun]",
+      "contrast": "Against unstressed the, the meaning shifts from \"the one you can identify\" to \"the one that counts — the definitive, the famous, the only one worth naming.\" Against a, stressed the is the direct rebuttal: It's not a barbecue place, it's THE barbecue place. Do not confuse the stressed vowel with the ordinary pre-vowel /ði/, which is short and unstressed; the emphatic form is long and carries the sentence's stress.",
+      "see also": "the, a, the (degree), this"
     },
     {
       "term": "zero article (Ø)",
-      "ipa": "(silent)",
-      "respell": "(nothing)",
-      "type": "article (zero / null)",
-      "position": "the central determiner slot, left empty",
-      "register": "neutral",
-      "goesWith": "plural countable nouns and uncountable nouns. Ø chairs, Ø water, Ø information, Ø police cars. Never a singular countable noun in ordinary prose — I need pen, Cat is sleeping, and She is teacher are all ungrammatical, and a singular countable must take a/an, the, or another central determiner. The exceptions are not free: they are the specific frames catalogued in the eleven entries that follow this one (proper nouns, institutions, meals, languages, sports, transport, times, illnesses, fixed phrases, block language, roles).",
-      "ofRule": "a zero-marked noun takes an of-phrase freely (Ø plenty of time, Ø millions of dollars, Ø half of what he said). Predeterminers may stand directly in front of it with no of at all — all Ø children, both Ø parents — and adding of then requires a following determiner: all of the children, never all of children.",
-      "pattern": "Ø [plural countable noun] · Ø [uncountable noun] · Ø [adjective] [plural or uncountable noun] · there is / there are Ø [noun]",
-      "contrast": "Against the: Ø is general or new, the is identifiable. I like Ø dogs is about the species; I like the dogs is about specific dogs you already know of. Against a/an: Ø is what a becomes when the noun goes plural or uncountable — a chair → Ø chairs, a fact → Ø information. Against some: unstressed some /səm/ names an indefinite but bounded quantity, while Ø leaves the noun unbounded — We need Ø volunteers (as a category) against We need some volunteers (a certain number of them). In questions and negatives the counterpart is any: Is there Ø parking? is about the general availability, Is there any parking? about whether even a little exists.",
-      "variants": [],
-      "meaning": "Leaves the determiner slot empty, which marks a plural or uncountable noun as general, unbounded, or newly introduced. 1. Generic plural and uncountable. The default way to talk about a whole class or substance — and the only generic available to an uncountable noun. 2. Indefinite and non-generic. The plural counterpart of a/an: something real but not yet identified. 3. Abstract nouns used absolutely. Abstractions take Ø unless something narrows them. Life is hard is general; the life of a claims adjuster is narrowed and takes the. 4. In questions and negatives. The slot stays empty in both, and this is where the choice against any is live: the bare noun asks about the category in general, any asks whether even a little of it exists.",
+      "ipa": "silent — Ø has no phonetic form of its own. What you hear is the noun starting with no unstressed syllable in front of it: Ø dogs bark /dɔɡz ˈbɑrk/ against the dogs bark /ðə ˈdɔɡz ˈbɑrk/. Learning to hear the missing schwa is most of learning to hear articles at all.",
+      "respell": "",
+      "meaning": "Leaves the determiner slot empty, which marks a plural or uncountable noun as general, unbounded, or newly introduced.",
       "examples": [
         "Elevators make me nervous.",
         "Rice is cheaper by the bag.",
@@ -326,27 +642,67 @@
         "Is there parking behind the building, or is it all permit spots?",
         "We don't have chairs for that many people and I'm not renting any."
       ],
-      "related": [
-        "a",
-        "the",
-        "some",
-        "any",
-        "much",
-        "many"
-      ]
+      "senses": [
+        {
+          "n": "1",
+          "head": "Generic plural and uncountable",
+          "body": [
+            "The default way to talk about a whole class or substance — and the only generic available to an uncountable noun."
+          ],
+          "examples": [
+            "Elevators make me nervous.",
+            "Rice is cheaper by the bag.",
+            "Honesty costs you something now and saves you more later."
+          ]
+        },
+        {
+          "n": "2",
+          "head": "Indefinite and non-generic",
+          "body": [
+            "The plural counterpart of a/an: something real but not yet identified."
+          ],
+          "examples": [
+            "There were police cars parked all down the block.",
+            "We bought chairs, lamps, and a rug in one afternoon."
+          ]
+        },
+        {
+          "n": "3",
+          "head": "Abstract nouns used absolutely",
+          "body": [
+            "Abstractions take Ø unless something narrows them. Life is hard is general; the life of a claims adjuster is narrowed and takes the."
+          ],
+          "examples": [
+            "Life in Phoenix takes some getting used to.",
+            "She has experience with Medicaid billing and patience with the people who don't."
+          ]
+        },
+        {
+          "n": "4",
+          "head": "In questions and negatives",
+          "body": [
+            "The slot stays empty in both, and this is where the choice against any is live: the bare noun asks about the category in general, any asks whether even a little of it exists."
+          ],
+          "examples": [
+            "Is there parking behind the building, or is it all permit spots?",
+            "We don't have chairs for that many people and I'm not renting any."
+          ]
+        }
+      ],
+      "русский": "нулевой артикль — пустой слот при мн. числе и неисчисляемых: общее, неограниченное",
+      "position": "the central determiner slot, left empty",
+      "register": "neutral",
+      "type": "article (zero / null)",
+      "goes with": "plural countable nouns and uncountable nouns. Ø chairs, Ø water, Ø information, Ø police cars. Never a singular countable noun in ordinary prose — I need pen, Cat is sleeping, and She is teacher are all ungrammatical, and a singular countable must take a/an, the, or another central determiner. The exceptions are not free: they are the specific frames catalogued in the eleven entries that follow this one (proper nouns, institutions, meals, languages, sports, transport, times, illnesses, fixed phrases, block language, roles).",
+      "with of": "a zero-marked noun takes an of-phrase freely (Ø plenty of time, Ø millions of dollars, Ø half of what he said). Predeterminers may stand directly in front of it with no of at all — all Ø children, both Ø parents — and adding of then requires a following determiner: all of the children, never all of children.",
+      "pattern": "Ø [plural countable noun] · Ø [uncountable noun] · Ø [adjective] [plural or uncountable noun] · there is / there are Ø [noun]",
+      "contrast": "Against the: Ø is general or new, the is identifiable. I like Ø dogs is about the species; I like the dogs is about specific dogs you already know of. Against a/an: Ø is what a becomes when the noun goes plural or uncountable — a chair → Ø chairs, a fact → Ø information. Against some: unstressed some /səm/ names an indefinite but bounded quantity, while Ø leaves the noun unbounded — We need Ø volunteers (as a category) against We need some volunteers (a certain number of them). In questions and negatives the counterpart is any: Is there Ø parking? is about the general availability, Is there any parking? about whether even a little exists.",
+      "see also": "a, the, Three ways to be generic, The decision procedure, some, any, much, many"
     },
     {
       "term": "zero article in block language",
-      "ipa": "(silent)",
+      "ipa": "silent",
       "respell": "(nothing)",
-      "type": "article (zero)",
-      "position": "the central determiner slot, left empty",
-      "register": "block language — headlines, signs, labels, captions, notes, listings, recipes, instructions, telegraphic reports. Not available in running prose.",
-      "goesWith": "any noun at all, including singular countable nouns — this is the one systematic place in English where Ø mayor and Ø elevator are correct. The license comes from the register, not from the noun.",
-      "ofRule": "unaffected; of-phrases survive intact (Ø Board of Education Cuts Ø Budget).",
-      "pattern": "Ø [subject noun] [verb] Ø [object noun] (headline) · Ø [noun] — Ø [instruction] (sign) · [imperative verb] Ø [noun] (recipe) · Ø [noun phrase], Ø [noun phrase], Ø [noun phrase] (listing)",
-      "contrast": "Block language is a register, not a permission slip. The article returns the moment the same content is written as a sentence: the headline reads Mayor Signs Bill, and the story under it reads The mayor signed a bill. Learners who generalize from headlines produce Mayor signed bill yesterday, which is wrong in prose. Note that block language also deletes forms of be and relative pronouns, so an article-free headline is usually missing more than its articles.",
-      "variants": [],
       "meaning": "Strips the determiner slot for compression, in registers where space is short and the reader supplies the grammar.",
       "examples": [
         "Storm Knocks Out Power Across Three Counties. (newspaper headline)",
@@ -357,24 +713,22 @@
         "Studio apartment, second floor, laundry in building. (rental listing)",
         "Insert card, then remove quickly. (card-reader instruction)"
       ],
-      "related": [
-        "zero article (Ø)",
-        "a",
-        "the"
-      ]
+      "senses": [],
+      "pronunciation note": "Ø marks the empty slot in the patterns below and is never written or said",
+      "русский": "нулевой артикль в телеграфном стиле — заголовки, вывески, рецепты; в обычной прозе нельзя",
+      "position": "the central determiner slot, left empty",
+      "register": "block language — headlines, signs, labels, captions, notes, listings, recipes, instructions, telegraphic reports. Not available in running prose.",
+      "type": "article (zero)",
+      "goes with": "any noun at all, including singular countable nouns — this is the one systematic place in English where Ø mayor and Ø elevator are correct. The license comes from the register, not from the noun.",
+      "with of": "unaffected; of-phrases survive intact (Ø Board of Education Cuts Ø Budget).",
+      "pattern": "Ø [subject noun] [verb] Ø [object noun] (headline) · Ø [noun] — Ø [instruction] (sign) · [imperative verb] Ø [noun] (recipe) · Ø [noun phrase], Ø [noun phrase], Ø [noun phrase] (listing)",
+      "contrast": "Block language is a register, not a permission slip. The article returns the moment the same content is written as a sentence: the headline reads Mayor Signs Bill, and the story under it reads The mayor signed a bill. Learners who generalize from headlines produce Mayor signed bill yesterday, which is wrong in prose. Note that block language also deletes forms of be and relative pronouns, so an article-free headline is usually missing more than its articles.",
+      "see also": "zero article (Ø), a, the, The decision procedure"
     },
     {
       "term": "zero article in fixed phrases and binomials",
-      "ipa": "(silent)",
+      "ipa": "silent",
       "respell": "(nothing)",
-      "type": "article (zero) in frozen idiom",
-      "position": "the central determiner slot, left empty",
-      "register": "neutral",
-      "goesWith": "singular nouns locked inside a fixed frame. Most are countable nouns that outside the frame would be forced to take an article (hand, face, side, word, cover, knife, purpose); a handful are uncountable and are listed here only because the whole phrase is frozen (war, peace, danger, charge, touch, sale). Never a plural inside the frame — hands in hands, from covers to covers, husbands and wives (in the idiom sense) all break it. Four frames account for nearly all of them: the repeated-noun binomial (hand in hand, face to face, side by side, day after day, word for word, back to back, step by step, arm in arm, year after year), the from X to X frame (from door to door, from cover to cover, from start to finish, from coast to coast, from head to toe), the paired-noun conjunction (husband and wife, mother and child, knife and fork, cause and effect, night and day), and the bare prepositional idiom (at war, at peace, at sea, in debt, in danger, in charge, in touch, in stock, on file, on sale, on purpose, on board, by heart, out of hand, under way). The list is closed — you may recognize new members but you may not coin them.",
-      "ofRule": "the frame decides. Some idioms contain of already (out of hand, out of stock, out of order); inserting of anywhere else breaks them.",
-      "pattern": "[noun] [preposition] [same noun] · from Ø [noun] to Ø [noun] · Ø [noun] and Ø [noun] · [preposition] Ø [noun]",
-      "contrast": "The same nouns behave normally the moment they leave the frame: hand in hand but He raised a hand; by heart but the heart of the problem; at sea (afloat, or bewildered) but at the sea (at the shore). Compare also in charge (holding authority) with in the charge of (under someone's care), and on sale (discounted, American) with for sale (available to buy).",
-      "variants": [],
       "meaning": "Keeps a singular countable noun bare inside a frozen expression, where the phrase has a meaning of its own and the article slot has been worn away.",
       "examples": [
         "They came down the aisle hand in hand.",
@@ -386,25 +740,21 @@
         "We sat face to face for two hours and settled it.",
         "The company has been in debt since the second store opened."
       ],
-      "related": [
-        "zero article (Ø)",
-        "zero article with institutions",
-        "zero article with transport and communication",
-        "the"
-      ]
+      "senses": [],
+      "русский": "нулевой артикль в застывших оборотах — hand in hand «рука об руку», by heart «наизусть»",
+      "position": "the central determiner slot, left empty",
+      "register": "neutral",
+      "type": "article (zero) in frozen idiom",
+      "goes with": "singular nouns locked inside a fixed frame. Most are countable nouns that outside the frame would be forced to take an article (hand, face, side, word, cover, knife, purpose); a handful are uncountable and are listed here only because the whole phrase is frozen (war, peace, danger, charge, touch, sale). Never a plural inside the frame — hands in hands, from covers to covers, husbands and wives (in the idiom sense) all break it. Four frames account for nearly all of them: the repeated-noun binomial (hand in hand, face to face, side by side, day after day, word for word, back to back, step by step, arm in arm, year after year), the from X to X frame (from door to door, from cover to cover, from start to finish, from coast to coast, from head to toe), the paired-noun conjunction (husband and wife, mother and child, knife and fork, cause and effect, night and day), and the bare prepositional idiom (at war, at peace, at sea, in debt, in danger, in charge, in touch, in stock, on file, on sale, on purpose, on board, by heart, out of hand, under way). The list is closed — you may recognize new members but you may not coin them.",
+      "with of": "the frame decides. Some idioms contain of already (out of hand, out of stock, out of order); inserting of anywhere else breaks them.",
+      "pattern": "[noun] [preposition] [same noun] · from Ø [noun] to Ø [noun] · Ø [noun] and Ø [noun] · [preposition] Ø [noun]",
+      "contrast": "The same nouns behave normally the moment they leave the frame: hand in hand but He raised a hand; by heart but the heart of the problem; at sea (afloat, or bewildered) but at the sea (at the shore). Compare also in charge (holding authority) with in the charge of (under someone's care), and on sale (discounted, American) with for sale (available to buy).",
+      "see also": "zero article (Ø), zero article with institutions, zero article with transport and communication, the"
     },
     {
       "term": "zero article with illnesses and conditions",
-      "ipa": "(silent)",
+      "ipa": "silent",
       "respell": "(nothing)",
-      "type": "article (zero)",
-      "position": "the central determiner slot, left empty",
-      "register": "neutral",
-      "goesWith": "uncountable disease names — diabetes, pneumonia, cancer, hepatitis, asthma, arthritis, anemia, COVID, tuberculosis, dementia, strep. Not with the countable minor ailments, which take a/an (a cold, a headache, a fever, a sore throat, a rash, an earache, a stomachache, a concussion, a heart attack, a stroke), and not with the small the-group (the flu, the measles, the mumps, the chickenpox, the hiccups, the chills).",
-      "ofRule": "takes none of its own; a case of Ø pneumonia and a history of Ø diabetes put the of on the measuring noun.",
-      "pattern": "[have / has / had] Ø [disease] · [be diagnosed with / be treated for / die of] Ø [disease] · Ø [disease] runs in the family",
-      "contrast": "Three groups, no logic connecting them, so they must be learned as lists. Ø for most named diseases, a/an for short countable episodes, the for a handful of older folk-medical names. American usage is drifting: the measles and the mumps are giving way to bare measles and mumps, but the flu is fixed and a cold never loses its article. When a disease name is modified, the comes back in the ordinary way: the diabetes she was diagnosed with in 2019.",
-      "variants": [],
       "meaning": "Leaves a named disease bare, because the name of a disease is a mass term rather than a countable episode.",
       "examples": [
         "He was diagnosed with diabetes at thirty-one.",
@@ -414,24 +764,21 @@
         "Half the office has COVID again.",
         "The knee pain turned out to be arthritis, not a torn meniscus."
       ],
-      "related": [
-        "zero article (Ø)",
-        "a",
-        "the"
-      ]
+      "senses": [],
+      "русский": "нулевой артикль при названиях болезней — has diabetes «болен диабетом»; но a cold, the flu",
+      "position": "the central determiner slot, left empty",
+      "register": "neutral",
+      "type": "article (zero)",
+      "goes with": "uncountable disease names — diabetes, pneumonia, cancer, hepatitis, asthma, arthritis, anemia, COVID, tuberculosis, dementia, strep. Not with the countable minor ailments, which take a/an (a cold, a headache, a fever, a sore throat, a rash, an earache, a stomachache, a concussion, a heart attack, a stroke), and not with the small the-group (the flu, the measles, the mumps, the chickenpox, the hiccups, the chills).",
+      "with of": "takes none of its own; a case of Ø pneumonia and a history of Ø diabetes put the of on the measuring noun.",
+      "pattern": "[have / has / had] Ø [disease] · [be diagnosed with / be treated for / die of] Ø [disease] · Ø [disease] runs in the family",
+      "contrast": "Three groups, no logic connecting them, so they must be learned as lists. Ø for most named diseases, a/an for short countable episodes, the for a handful of older folk-medical names. American usage is drifting: the measles and the mumps are giving way to bare measles and mumps, but the flu is fixed and a cold never loses its article. When a disease name is modified, the comes back in the ordinary way: the diabetes she was diagnosed with in 2019.",
+      "see also": "zero article (Ø), a, the"
     },
     {
       "term": "zero article with institutions",
-      "ipa": "(silent)",
+      "ipa": "silent",
       "respell": "(nothing)",
-      "type": "article (zero)",
-      "position": "the central determiner slot, left empty",
-      "register": "neutral",
-      "goesWith": "a small closed set of singular countable nouns naming an institution or a routine, used for its purpose rather than as a building: school, class, college, church, court, jail, prison, camp, bed, work, home, town, sea, campus. The set does not extend by analogy — at Ø library, at Ø office, at Ø store, at Ø gym, at Ø airport, at Ø bank are all wrong and take the.",
-      "ofRule": "takes none. Adding an of-phrase forces the ordinary article back: the school of hard knocks, the court of appeals.",
-      "pattern": "[preposition] Ø [institution noun] — at Ø school, in Ø class, in Ø bed, to Ø work, in Ø jail, out of Ø town, at Ø sea, on Ø campus · go / come / be Ø home (with no preposition at all)",
-      "contrast": "Adding the switches from purpose to place: He's in Ø jail means he is serving time, He's at the jail means he is at the building, possibly visiting; She's in Ø school means enrolled, She's at the school means physically present. Home is the odd member — American English says go Ø home and be Ø home, with no article and no preposition, while at home keeps the preposition. American English also keeps the in three phrases where British English drops it: in the hospital, at the university, in the future. See American and British article splits.",
-      "variants": [],
       "meaning": "Leaves an institution noun bare when the phrase names an activity or a state rather than a location.",
       "examples": [
         "He's been in bed since Thursday with a fever.",
@@ -443,24 +790,21 @@
         "Nobody was home, so I left the box on the porch.",
         "He was at sea for six weeks and came back with a beard."
       ],
-      "related": [
-        "zero article (Ø)",
-        "zero article in fixed phrases and binomials",
-        "the"
-      ]
+      "senses": [],
+      "русский": "нулевой артикль при учреждении как занятии — in school «учится», in jail «сидит»",
+      "position": "the central determiner slot, left empty",
+      "register": "neutral",
+      "type": "article (zero)",
+      "goes with": "a small closed set of singular countable nouns naming an institution or a routine, used for its purpose rather than as a building: school, class, college, church, court, jail, prison, camp, bed, work, home, town, sea, campus. The set does not extend by analogy — at Ø library, at Ø office, at Ø store, at Ø gym, at Ø airport, at Ø bank are all wrong and take the.",
+      "with of": "takes none. Adding an of-phrase forces the ordinary article back: the school of hard knocks, the court of appeals.",
+      "pattern": "[preposition] Ø [institution noun] — at Ø school, in Ø class, in Ø bed, to Ø work, in Ø jail, out of Ø town, at Ø sea, on Ø campus · go / come / be Ø home (with no preposition at all)",
+      "contrast": "Adding the switches from purpose to place: He's in Ø jail means he is serving time, He's at the jail means he is at the building, possibly visiting; She's in Ø school means enrolled, She's at the school means physically present. Home is the odd member — American English says go Ø home and be Ø home, with no article and no preposition, while at home keeps the preposition. American English also keeps the in three phrases where British English drops it: in the hospital, at the university, in the future. See American and British article splits.",
+      "see also": "zero article (Ø), zero article in fixed phrases and binomials, the, American and British article splits"
     },
     {
       "term": "zero article with languages and school subjects",
-      "ipa": "(silent)",
+      "ipa": "silent",
       "respell": "(nothing)",
-      "type": "article (zero)",
-      "position": "the central determiner slot, left empty",
-      "register": "neutral",
-      "goesWith": "language names (Spanish, Mandarin, Arabic, Navajo, American Sign Language) and names of academic subjects and fields (calculus, chemistry, economics, art history, computer science, nursing, constitutional law). Both behave as uncountable proper-ish nouns. Note that the subject nouns ending in -ics are singular despite the s: Ø economics is brutal.",
-      "ofRule": "takes none of its own, and an of-phrase pulls the onto the noun: the history of Rome, the economics of the deal, the Spanish of northern New Mexico.",
-      "pattern": "[speak / learn / teach / study / take / major in / minor in] Ø [language or subject] · [in / into / from] Ø [language] · Ø [subject] is [adjective]",
-      "contrast": "Add the word language and the becomes obligatory: She speaks Ø Spanish but She studies the Spanish language. Add any modifier and the returns in the ordinary way. And beware the same word with the plus no noun, which names people, not a language: the Spanish are Spaniards, the French are the French, the Dutch are the Dutch — a plural class, not a tongue.",
-      "variants": [],
       "meaning": "Leaves a language or a field of study bare, because it names a body of knowledge rather than an object.",
       "examples": [
         "She teaches Spanish at a charter school in Tucson.",
@@ -470,24 +814,21 @@
         "Everybody in that office speaks at least some Portuguese.",
         "I took two years of Latin and remember none of it."
       ],
-      "related": [
-        "zero article (Ø)",
-        "zero article with proper nouns",
-        "the"
-      ]
+      "senses": [],
+      "русский": "нулевой артикль при языках и учебных предметах — «говорит по-испански», «изучает экономику»",
+      "position": "the central determiner slot, left empty",
+      "register": "neutral",
+      "type": "article (zero)",
+      "goes with": "language names (Spanish, Mandarin, Arabic, Navajo, American Sign Language) and names of academic subjects and fields (calculus, chemistry, economics, art history, computer science, nursing, constitutional law). Both behave as uncountable proper-ish nouns. Note that the subject nouns ending in -ics are singular despite the s: Ø economics is brutal.",
+      "with of": "takes none of its own, and an of-phrase pulls the onto the noun: the history of Rome, the economics of the deal, the Spanish of northern New Mexico.",
+      "pattern": "[speak / learn / teach / study / take / major in / minor in] Ø [language or subject] · [in / into / from] Ø [language] · Ø [subject] is [adjective]",
+      "contrast": "Add the word language and the becomes obligatory: She speaks Ø Spanish but She studies the Spanish language. Add any modifier and the returns in the ordinary way. And beware the same word with the plus no noun, which names people, not a language: the Spanish are Spaniards, the French are the French, the Dutch are the Dutch — a plural class, not a tongue.",
+      "see also": "zero article (Ø), zero article with proper nouns, the"
     },
     {
       "term": "zero article with meals",
-      "ipa": "(silent)",
+      "ipa": "silent",
       "respell": "(nothing)",
-      "type": "article (zero)",
-      "position": "the central determiner slot, left empty",
-      "register": "neutral",
-      "goesWith": "the meal nouns breakfast, brunch, lunch, dinner, supper, and by extension coffee, drinks, and dessert when they name the occasion rather than the substance. These are singular countable nouns going bare in this use only.",
-      "ofRule": "takes none. A dinner of soup and bread has re-countable a on it, not Ø.",
-      "pattern": "[have / eat / make / skip / serve] Ø [meal] · [at / before / after / during / over / for] Ø [meal] · Ø [meal] is at [time]",
-      "contrast": "An article comes straight back as soon as the meal is described or singled out as an event: a big breakfast, a late lunch, a dinner in her honor, the dinner we had in Tulsa, The lunch was terrible. Compare We had Ø dinner at seven (the routine meal) with We had a dinner for the retirees (an occasion). And note for Ø lunch versus for the lunch, which would mean a specific catered event.",
-      "variants": [],
       "meaning": "Leaves a meal name bare when it refers to the daily meal as an institution rather than to a particular one.",
       "examples": [
         "We had breakfast standing at the counter.",
@@ -497,25 +838,21 @@
         "Everybody stayed for dessert and nobody left before midnight.",
         "Call me after dinner and we'll go through the numbers."
       ],
-      "related": [
-        "zero article (Ø)",
-        "a",
-        "the",
-        "zero article with times, seasons, and holidays"
-      ]
+      "senses": [],
+      "русский": "нулевой артикль при названиях приёмов пищи — «завтракать», «за обедом», «после ужина»",
+      "position": "the central determiner slot, left empty",
+      "register": "neutral",
+      "type": "article (zero)",
+      "goes with": "the meal nouns breakfast, brunch, lunch, dinner, supper, and by extension coffee, drinks, and dessert when they name the occasion rather than the substance. These are singular countable nouns going bare in this use only.",
+      "with of": "takes none. A dinner of soup and bread has re-countable a on it, not Ø.",
+      "pattern": "[have / eat / make / skip / serve] Ø [meal] · [at / before / after / during / over / for] Ø [meal] · Ø [meal] is at [time]",
+      "contrast": "An article comes straight back as soon as the meal is described or singled out as an event: a big breakfast, a late lunch, a dinner in her honor, the dinner we had in Tulsa, The lunch was terrible. Compare We had Ø dinner at seven (the routine meal) with We had a dinner for the retirees (an occasion). And note for Ø lunch versus for the lunch, which would mean a specific catered event.",
+      "see also": "zero article (Ø), a, the, zero article with times, seasons, and holidays"
     },
     {
       "term": "zero article with proper nouns",
-      "ipa": "(silent)",
+      "ipa": "silent",
       "respell": "(nothing)",
-      "type": "article (zero)",
-      "position": "the central determiner slot, left empty",
-      "register": "neutral",
-      "goesWith": "singular proper names — people (Ø Maria, Ø Dr. Ahmed), cities, states, countries, continents (Ø Denver, Ø Ohio, Ø Japan, Ø Asia), lakes and single mountains and single islands (Ø Lake Erie, Ø Mount Hood, Ø Maui), streets, parks, airports and stations (Ø Fifth Avenue, Ø Central Park, Ø O'Hare, Ø Penn Station), companies and name-first universities (Ø Boeing, Ø Ohio State), months, days, and holidays (Ø August, Ø Tuesday, Ø Thanksgiving), and planets except the earth. Not with the the-taking groups — rivers, seas, oceans, gulfs, canals, deserts, mountain ranges, island groups, plural or common-noun countries, newspapers, hotels, ships, and of-phrase institutions — listed in full at The with proper nouns.",
-      "ofRule": "a proper name takes no of-phrase of its own, but when a common noun is named by of plus a place, the common noun takes the and the name stays bare: the University of Ø Michigan, the Gulf of Ø Mexico, the mayor of Ø Cleveland.",
-      "pattern": "Ø [proper noun] · Ø [title] [personal name] · Ø [name] [common noun] (Ø Lake Erie, Ø Mount Hood, Ø Kennedy Airport) · [preposition] Ø [place name]",
-      "contrast": "Modify a proper name and the comes back, because the modifier makes the name behave like a common noun: Ø Shakespeare but the Shakespeare of the late plays; Ø Paris but the Paris I remember; Ø Sinatra but the young Sinatra. Pluralize a family name and it also takes the: the Sandovals. And a name preceded by a means \"someone of that name, unknown to me\" (a Ms. Okonjo called) or \"a work by\" (a Rothko).",
-      "variants": [],
       "meaning": "Leaves a name bare, because a name already identifies its referent and needs no article to do it.",
       "examples": [
         "Denver gets more sun than people expect.",
@@ -526,25 +863,21 @@
         "Mount Rainier was completely socked in the whole trip.",
         "Take Fifth Avenue down to Washington Square Park."
       ],
-      "related": [
-        "the",
-        "a",
-        "zero article with languages and school subjects",
-        "zero article with roles and titles"
-      ]
+      "senses": [],
+      "русский": "нулевой артикль при именах собственных — имя само называет, артикль ему не нужен",
+      "position": "the central determiner slot, left empty",
+      "register": "neutral",
+      "type": "article (zero)",
+      "goes with": "singular proper names — people (Ø Maria, Ø Dr. Ahmed), cities, states, countries, continents (Ø Denver, Ø Ohio, Ø Japan, Ø Asia), lakes and single mountains and single islands (Ø Lake Erie, Ø Mount Hood, Ø Maui), streets, parks, airports and stations (Ø Fifth Avenue, Ø Central Park, Ø O'Hare, Ø Penn Station), companies and name-first universities (Ø Boeing, Ø Ohio State), months, days, and holidays (Ø August, Ø Tuesday, Ø Thanksgiving), and planets except the earth. Not with the the-taking groups — rivers, seas, oceans, gulfs, canals, deserts, mountain ranges, island groups, plural or common-noun countries, newspapers, hotels, ships, and of-phrase institutions — listed in full at The with proper nouns.",
+      "with of": "a proper name takes no of-phrase of its own, but when a common noun is named by of plus a place, the common noun takes the and the name stays bare: the University of Ø Michigan, the Gulf of Ø Mexico, the mayor of Ø Cleveland.",
+      "pattern": "Ø [proper noun] · Ø [title] [personal name] · Ø [name] [common noun] (Ø Lake Erie, Ø Mount Hood, Ø Kennedy Airport) · [preposition] Ø [place name]",
+      "contrast": "Modify a proper name and the comes back, because the modifier makes the name behave like a common noun: Ø Shakespeare but the Shakespeare of the late plays; Ø Paris but the Paris I remember; Ø Sinatra but the young Sinatra. Pluralize a family name and it also takes the: the Sandovals. And a name preceded by a means \"someone of that name, unknown to me\" (a Ms. Okonjo called) or \"a work by\" (a Rothko).",
+      "see also": "The with proper nouns, the, a, zero article with languages and school subjects, zero article with roles and titles"
     },
     {
       "term": "zero article with roles and titles",
-      "ipa": "(silent)",
+      "ipa": "silent",
       "respell": "(nothing)",
-      "type": "article (zero)",
-      "position": "the central determiner slot, left empty",
-      "register": "neutral to formal",
-      "goesWith": "singular countable nouns naming a unique office, role, or rank in three frames: after as (as Ø treasurer), after the appointment verbs become, be elected, be appointed, be named, be made, be sworn in as, be crowned (elected Ø mayor), and directly before a personal name as a title (Ø President Lincoln, Ø Judge Ramos, Ø Coach Sanders, Ø Senator Feinstein). Not with ordinary predicate nouns naming a class of job, which require a/an: She's a teacher, He's an engineer.",
-      "ofRule": "the role may carry one and stays bare: appointed Ø chief of staff, served as Ø chair of the committee.",
-      "pattern": "as Ø [role] · [become / be elected / be appointed / be named / be sworn in as] Ø [role] · Ø [title] [personal name] · [vocative] Ø [title] (Thank you, Ø Senator)",
-      "contrast": "The line is uniqueness. There is one treasurer at a time, so elected Ø treasurer goes bare; there are many teachers, so She's a teacher takes the article. Compare She was appointed Ø dean with She's a dean at a community college. Turn the title into a description and the returns: Ø President Lincoln but the president, the sixteenth president of the United States; Ø Judge Ramos but the judge. A title used alone in direct address goes bare (Thank you, Ø Senator), and dropping the article before an ordinary job title is a common learner error in the other direction: He is Ø engineer is wrong.",
-      "variants": [],
       "meaning": "Leaves a role name bare when only one person holds it at a time.",
       "examples": [
         "She was elected treasurer on the first ballot.",
@@ -554,24 +887,21 @@
         "As chair, you set the agenda and you take the blame.",
         "Thank you, Senator — I'll submit the rest in writing."
       ],
-      "related": [
-        "zero article with proper nouns",
-        "a",
-        "the"
-      ]
+      "senses": [],
+      "русский": "нулевой артикль при единственной должности — elected mayor «избран мэром», Judge Ramos",
+      "position": "the central determiner slot, left empty",
+      "register": "neutral to formal",
+      "type": "article (zero)",
+      "goes with": "singular countable nouns naming a unique office, role, or rank in three frames: after as (as Ø treasurer), after the appointment verbs become, be elected, be appointed, be named, be made, be sworn in as, be crowned (elected Ø mayor), and directly before a personal name as a title (Ø President Lincoln, Ø Judge Ramos, Ø Coach Sanders, Ø Senator Feinstein). Not with ordinary predicate nouns naming a class of job, which require a/an: She's a teacher, He's an engineer.",
+      "with of": "the role may carry one and stays bare: appointed Ø chief of staff, served as Ø chair of the committee.",
+      "pattern": "as Ø [role] · [become / be elected / be appointed / be named / be sworn in as] Ø [role] · Ø [title] [personal name] · [vocative] Ø [title] (Thank you, Ø Senator)",
+      "contrast": "The line is uniqueness. There is one treasurer at a time, so elected Ø treasurer goes bare; there are many teachers, so She's a teacher takes the article. Compare She was appointed Ø dean with She's a dean at a community college. Turn the title into a description and the returns: Ø President Lincoln but the president, the sixteenth president of the United States; Ø Judge Ramos but the judge. A title used alone in direct address goes bare (Thank you, Ø Senator), and dropping the article before an ordinary job title is a common learner error in the other direction: He is Ø engineer is wrong.",
+      "see also": "zero article with proper nouns, a, the"
     },
     {
       "term": "zero article with sports and games",
-      "ipa": "(silent)",
+      "ipa": "silent",
       "respell": "(nothing)",
-      "type": "article (zero)",
-      "position": "the central determiner slot, left empty",
-      "register": "neutral",
-      "goesWith": "names of sports and games, which behave as uncountable activity nouns, after play, watch, coach, teach, and after prepositions — soccer, baseball, basketball, football, tennis, golf, chess, poker, tag, hide-and-seek. Also the bare position nouns of American team sports (play Ø quarterback, play Ø shortstop, play Ø defense).",
-      "ofRule": "takes none. A game of Ø chess puts the article on game, not on the sport.",
-      "pattern": "[play / watch / coach / teach] Ø [sport] · [good at / a fan of / into] Ø [sport] · [play] Ø [position]",
-      "contrast": "Musical instruments take the in exactly this frame — play Ø soccer against play the piano — and this single pair is the most useful article contrast in English for a learner. (Jazz and studio musicians say play Ø piano, play Ø bass; that is standard inside music but not the general rule.) A sport name with the means a particular contest or the coverage of it: Did you watch the game? Team names always take the: the Bengals, the Reds.",
-      "variants": [],
       "meaning": "Leaves the name of a sport or game bare, because it names an activity rather than a countable thing.",
       "examples": [
         "They play soccer on Tuesday nights at the rec center.",
@@ -582,24 +912,21 @@
         "The kids played tag in the yard until it got dark.",
         "He played quarterback for two seasons and then blew out a knee."
       ],
-      "related": [
-        "zero article (Ø)",
-        "the",
-        "zero article with roles and titles"
-      ]
+      "senses": [],
+      "русский": "нулевой артикль при видах спорта и играх — play soccer «играть в футбол»; но play the piano",
+      "position": "the central determiner slot, left empty",
+      "register": "neutral",
+      "type": "article (zero)",
+      "goes with": "names of sports and games, which behave as uncountable activity nouns, after play, watch, coach, teach, and after prepositions — soccer, baseball, basketball, football, tennis, golf, chess, poker, tag, hide-and-seek. Also the bare position nouns of American team sports (play Ø quarterback, play Ø shortstop, play Ø defense).",
+      "with of": "takes none. A game of Ø chess puts the article on game, not on the sport.",
+      "pattern": "[play / watch / coach / teach] Ø [sport] · [good at / a fan of / into] Ø [sport] · [play] Ø [position]",
+      "contrast": "Musical instruments take the in exactly this frame — play Ø soccer against play the piano — and this single pair is the most useful article contrast in English for a learner. (Jazz and studio musicians say play Ø piano, play Ø bass; that is standard inside music but not the general rule.) A sport name with the means a particular contest or the coverage of it: Did you watch the game? Team names always take the: the Bengals, the Reds.",
+      "see also": "zero article (Ø), the, zero article with roles and titles"
     },
     {
       "term": "zero article with times, seasons, and holidays",
-      "ipa": "(silent)",
+      "ipa": "silent",
       "respell": "(nothing)",
-      "type": "article (zero)",
-      "position": "the central determiner slot, left empty",
-      "register": "neutral",
-      "goesWith": "the time-of-day nouns night, noon, midnight, dawn, dusk, daybreak, sunrise, sunset after a preposition; season names (spring, summer, fall, winter); month and day names; holiday names (Christmas, Thanksgiving, Passover, Labor Day, Halloween); and the bare last / next frames (last week, next month, last Tuesday, next summer), where the noun phrase carries no determiner at all. Do not put this, that, or every on that list: those are central determiners in their own right, so this week and every spring fill the slot rather than leaving it empty. They are article-free for a different reason and belong to demonstratives and distributives.",
-      "ofRule": "takes none of its own — and an of-phrase forces the: the summer of 2019, the night of the fire.",
-      "pattern": "at Ø night / noon / midnight / dawn · in Ø [season] · on Ø [day] · in Ø [month] · at / on Ø [holiday] · last / next Ø [time noun]",
-      "contrast": "The trap is that morning, afternoon, and evening take the in precisely the frame where night does not: in the morning, in the afternoon, in the evening, but at Ø night. Seasons take either — in Ø spring and in the spring are both standard American, the bare form slightly more general. And last Ø week is not the last week: the first means the week before this one, the second means the final week of some period. Same for next Ø month against the next month.",
-      "variants": [],
       "meaning": "Leaves a time expression bare when it names a recurring point or period rather than a particular one.",
       "examples": [
         "The dogs bark at night and sleep all day.",
@@ -610,26 +937,22 @@
         "The store opens at noon on Sunday.",
         "He gets up before dawn whether he has to or not."
       ],
-      "related": [
-        "zero article (Ø)",
-        "the",
-        "zero article with meals",
-        "zero article with proper nouns"
-      ]
+      "senses": [],
+      "русский": "нулевой артикль при времени, сезонах и праздниках — at night «ночью», in spring, on Tuesday",
+      "position": "the central determiner slot, left empty",
+      "register": "neutral",
+      "type": "article (zero)",
+      "goes with": "the time-of-day nouns night, noon, midnight, dawn, dusk, daybreak, sunrise, sunset after a preposition; season names (spring, summer, fall, winter); month and day names; holiday names (Christmas, Thanksgiving, Passover, Labor Day, Halloween); and the bare last / next frames (last week, next month, last Tuesday, next summer), where the noun phrase carries no determiner at all. Do not put this, that, or every on that list: those are central determiners in their own right, so this week and every spring fill the slot rather than leaving it empty. They are article-free for a different reason and belong to demonstratives and distributives.",
+      "with of": "takes none of its own — and an of-phrase forces the: the summer of 2019, the night of the fire.",
+      "pattern": "at Ø night / noon / midnight / dawn · in Ø [season] · on Ø [day] · in Ø [month] · at / on Ø [holiday] · last / next Ø [time noun]",
+      "contrast": "The trap is that morning, afternoon, and evening take the in precisely the frame where night does not: in the morning, in the afternoon, in the evening, but at Ø night. Seasons take either — in Ø spring and in the spring are both standard American, the bare form slightly more general. And last Ø week is not the last week: the first means the week before this one, the second means the final week of some period. Same for next Ø month against the next month.",
+      "see also": "zero article (Ø), the, zero article with meals, zero article with proper nouns"
     },
     {
       "term": "zero article with transport and communication",
-      "ipa": "(silent)",
+      "ipa": "silent",
       "respell": "(nothing)",
-      "type": "article (zero)",
-      "position": "the central determiner slot, left empty",
-      "register": "neutral",
-      "goesWith": "singular countable vehicle nouns after by (by car, by bus, by train, by plane, by boat, by subway, by cab, by bike, by ferry) and medium nouns after by (by mail, by email, by phone, by text, by fax, by hand, by check, by credit card, by wire). Also the irregular on Ø foot, which uses on rather than by. Never a plural (by cars) and never with a modifier — the moment you say which car, the frame collapses.",
-      "ofRule": "takes none.",
-      "pattern": "[go / travel / get there / commute / send / pay] by Ø [vehicle or medium] · on Ø foot · by Ø [medium] rather than by Ø [medium]",
-      "contrast": "By + Ø names the manner in the abstract. The moment you mean one particular vehicle you change preposition and add a determiner: by Ø car → in the car, in my car; by Ø bus / train / plane → on the bus, on the 6:40 train, on a flight to Newark. Note also that the everyday American way to say it is take the bus, take the train, take a cab — with an article, not with by. By foot is heard but on foot is the standard form.",
-      "variants": [],
-      "meaning": "Leaves a vehicle or a medium bare after by, where the phrase names a method rather than an object.",
+      "meaning": "Leaves a vehicle or a medium bare after by, where the phrase names a method rather than an object. ---",
       "examples": [
         "We went by car because the flights that week were absurd.",
         "Send it by mail if it has to be notarized.",
@@ -639,25 +962,21 @@
         "It's twenty minutes by bike and close to an hour on foot.",
         "The deposit has to go by wire, not by check."
       ],
-      "related": [
-        "zero article (Ø)",
-        "zero article in fixed phrases and binomials",
-        "the",
-        "a"
-      ]
+      "senses": [],
+      "русский": "нулевой артикль после by — by car «на машине», by mail «почтой», on foot «пешком»",
+      "position": "the central determiner slot, left empty",
+      "register": "neutral",
+      "type": "article (zero)",
+      "goes with": "✗ singular countable vehicle nouns after by (by car, by bus, by train, by plane, by boat, by subway, by cab, by bike, by ferry) and ✗ medium nouns after by (by mail, by email, by phone, by text, by fax, by hand, by check, by credit card, by wire). Also the irregular on Ø foot, which uses on rather than by. Never a plural (by cars) and never with a modifier — the moment you say which car, the frame collapses.",
+      "with of": "takes none.",
+      "pattern": "[go / travel / get there / commute / send / pay] by Ø [vehicle or medium] · on Ø foot · by Ø [medium] rather than by Ø [medium]",
+      "contrast": "By + Ø names the manner in the abstract. The moment you mean one particular vehicle you change preposition and add a determiner: by Ø car → in the car, in my car; by Ø bus / train / plane → on the bus, on the 6:40 train, on a flight to Newark. Note also that the everyday American way to say it is take the bus, take the train, take a cab — with an article, not with by. By foot is heard but on foot is the standard form.",
+      "see also": "zero article (Ø), zero article in fixed phrases and binomials, the, a"
     },
     {
       "term": "a whole nother",
       "ipa": "/ə ˌhoʊl ˈnʌðɚ/",
       "respell": "uh hohl NUTH-er",
-      "type": "article (indefinite) inside a fixed frame — a plus whole plus the stranded remainder of another",
-      "position": "central determiner, with whole wedged in behind it",
-      "register": "informal spoken American English. Very common in speech and in quoted speech; not usable in edited prose, where the form is a whole other or an entirely different.",
-      "goesWith": "singular countable nouns only — a whole nother story, a whole nother level, a whole nother ballgame, a whole nother conversation, a whole nother animal, a whole nother thing. Never a plural (a whole nother stories) and never an uncountable (a whole nother information). In practice the noun is almost always one of a dozen abstract \"category\" nouns; the frame does not extend freely.",
-      "ofRule": "takes none.",
-      "pattern": "a whole nother [singular countable noun]",
-      "contrast": "This is tmesis — one word split open so another word can be dropped inside it. Another is historically an + other; speakers re-analyze the an as the article, which strands nother as a word that exists nowhere else in the language. Against another, which is the ordinary word this is built from, and against the written equivalents a whole other and an entirely different. Flag: informal spoken only. It is a genuine American idiom rather than an error, but it does not belong in writing unless you are quoting speech.",
-      "variants": [],
       "meaning": "Wedges whole inside another for emphasis, meaning \"an entirely different one.\"",
       "examples": [
         "Getting the permit was one thing; getting it inspected was a whole nother story. (informal speech)",
@@ -667,25 +986,21 @@
         "That's a whole nother conversation and we don't have time for it tonight. (informal speech)",
         "In writing, make it a whole other story or an entirely different story. (standard equivalents)"
       ],
-      "related": [
-        "a",
-        "another"
-      ]
+      "senses": [],
+      "русский": "разг. совсем другой — «совсем другая история»; только в устной речи, не на письме",
+      "position": "central determiner, with whole wedged in behind it",
+      "register": "informal spoken American English. Very common in speech and in quoted speech; not usable in edited prose, where the form is a whole other or an entirely different.",
+      "type": "article (indefinite) inside a fixed frame — a plus whole plus the stranded remainder of another",
+      "goes with": "singular countable nouns only — a whole nother story, a whole nother level, a whole nother ballgame, a whole nother conversation, a whole nother animal, a whole nother thing. Never a plural (a whole nother stories) and never an uncountable (a whole nother information). In practice the noun is almost always one of a dozen abstract \"category\" nouns; the frame does not extend freely.",
+      "with of": "takes none.",
+      "pattern": "a whole nother [singular countable noun]",
+      "contrast": "This is tmesis — one word split open so another word can be dropped inside it. Another is historically an + other; speakers re-analyze the an as the article, which strands nother as a word that exists nowhere else in the language. Against another, which is the ordinary word this is built from, and against the written equivalents a whole other and an entirely different. Flag: informal spoken only. It is a genuine American idiom rather than an error, but it does not belong in writing unless you are quoting speech.",
+      "see also": "a, another, Forms you will see but should not produce"
     },
     {
       "term": "an (before stressed h- in scriptural and pre-1900 texts)",
-      "ipa": "weak /ən/; stressed /æn/",
-      "respell": "uhn (weak) · AN (stressed)",
-      "type": "article (indefinite), archaic distribution",
-      "position": "central determiner",
-      "register": "archaic. Ordinary in printed English through the seventeenth century, thinning through the eighteenth and nineteenth, and gone from edited American prose by roughly 1900. It survives only inside quoted or reprinted text.",
-      "goesWith": "singular countable nouns beginning with a stressed, fully pronounced h- — an house, an hundred, an hedge, an handful, an high priest, an holy nation, an hard saying, an help meet. Otherwise the restrictions are exactly those of modern a and an: singular countable only, never a plural (an houses), never an uncountable (an hay). It stands in front of an adjective as readily as a noun — an hard saying, an holy nation — because the choice was made by the very next word either way, the same mechanism modern English still uses.",
-      "ofRule": "none of its own; identical to a and an. An handful of meal and an hundredfold sit inside partitives and quantity phrases exactly as their modern counterparts do.",
-      "pattern": "an [stressed h- noun] · an [stressed h- adjective] [noun] · an hundred [noun] — far and away the commonest single case · an [stressed h- noun] beside an ordinary a in the same breath (a cake, but an handful of meal)",
-      "contrast": "Against modern an, which goes before a vowel sound: this one goes before an audible /h/, which is a consonant, so it breaks the rule the rest of this file runs on. Against an historic — the confusion worth clearing up, because the two look identical and are not the same thing. An historic stands before an unstressed h- syllable that really was weak or dropped in the accents that produced it, so an was doing its ordinary pre-vowel job; this form stands before a stressed h- (HOUSE, HUNdred, HARD), where no amount of h-dropping accounts for it. The cause here is age rather than accent: an is the older and fuller shape of the article, worn down from ān, \"one,\" and English shed that n in front of consonants gradually, finishing before /h/ last of all. Seventeenth-century printers had not finished the job, and the King James translators' English was already deliberately old-fashioned when it was set in 1611 — which is why one verse can hold a chosen generation and an holy nation four words apart. Flag: archaic — read it, never write it. Modern American English has a house, a hundred, a hard saying.",
-      "variants": [
-        "none of its own. This is not a separate word but an in an older distribution. The exact parallel in the same texts is thine for thy in front of a vowel or an h (thine eyes, thine heart), which retreated on the same schedule and for the same reason — see thy."
-      ],
+      "ipa": "weak /ən/",
+      "respell": "uhn",
       "meaning": "Marks a singular countable noun as one of a class, in older English, where the article kept its n in front of an audible h.",
       "examples": [
         "\"Then Isaac sowed in that land, and received in the same year an hundredfold.\" (Genesis 26:12, King James Bible — an hundred is the commonest instance by far and the one an American has most likely already heard)",
@@ -699,27 +1014,23 @@
         "It survives by ear rather than by rule in hymns and memorized verses — a congregation sings an hundredfold without hearing anything odd in it. (hymnody and quotation)",
         "In your own prose it reads as an error and not as a flourish: write a house, a hundred people, a hard saying. (standard)"
       ],
-      "related": [
-        "an",
-        "a",
-        "an historic",
-        "ye",
-        "th'",
-        "thy"
-      ]
+      "senses": [],
+      "pronunciation note": "stressed /æn/ · AN. The weak form is the only one in play, and it is where the strangeness lives: the h after it is fully pronounced, so an house comes out /ən ˈhaʊs/ · uhn HOWSS and an hundred comes out /ən ˈhʌndrəd/ · uhn HUN-druhd, the /n/ running into a consonant instead of linking onto a vowel the way it does in an hour. Americans reading these texts aloud split three ways: some say it as printed, most quietly substitute a, and a few drop the h to make the article work (uhn OWSS) — a lectern habit, not an American pronunciation.",
+      "русский": "устар. an перед произносимым ударным h- — an house, an hundred; читать, но не писать",
+      "position": "central determiner",
+      "register": "archaic. Ordinary in printed English through the seventeenth century, thinning through the eighteenth and nineteenth, and gone from edited American prose by roughly 1900. It survives only inside quoted or reprinted text.",
+      "type": "article (indefinite), archaic distribution",
+      "goes with": "singular countable nouns beginning with a stressed, fully pronounced h- — an house, an hundred, an hedge, an handful, an high priest, an holy nation, an hard saying, an help meet. Otherwise the restrictions are exactly those of modern a and an: singular countable only, never a plural (an houses), never an uncountable (an hay). It stands in front of an adjective as readily as a noun — an hard saying, an holy nation — because the choice was made by the very next word either way, the same mechanism modern English still uses.",
+      "with of": "none of its own; identical to a and an. An handful of meal and an hundredfold sit inside partitives and quantity phrases exactly as their modern counterparts do.",
+      "pattern": "an [stressed h- noun] · an [stressed h- adjective] [noun] · an hundred [noun] — far and away the commonest single case · an [stressed h- noun] beside an ordinary a in the same breath (a cake, but an handful of meal)",
+      "contrast": "Against modern an, which goes before a vowel sound: this one goes before an audible /h/, which is a consonant, so it breaks the rule the rest of this file runs on. Against an historic — the confusion worth clearing up, because the two look identical and are not the same thing. An historic stands before an unstressed h- syllable that really was weak or dropped in the accents that produced it, so an was doing its ordinary pre-vowel job; this form stands before a stressed h- (HOUSE, HUNdred, HARD), where no amount of h-dropping accounts for it. The cause here is age rather than accent: an is the older and fuller shape of the article, worn down from ān, \"one,\" and English shed that n in front of consonants gradually, finishing before /h/ last of all. Seventeenth-century printers had not finished the job, and the King James translators' English was already deliberately old-fashioned when it was set in 1611 — which is why one verse can hold a chosen generation and an holy nation four words apart. Flag: archaic — read it, never write it. Modern American English has a house, a hundred, a hard saying.",
+      "variants": "none of its own. This is not a separate word but an in an older distribution. The exact parallel in the same texts is thine for thy in front of a vowel or an h (thine eyes, thine heart), which retreated on the same schedule and for the same reason — see thy.",
+      "see also": "an, a, an historic, A or an: the test is sound, not spelling, ye, th', Forms you will see but should not produce, thy"
     },
     {
       "term": "an historic",
       "ipa": "/ən ɪˈstɔrɪk/",
       "respell": "uhn iss-TOR-ik",
-      "type": "article (indefinite), variant form",
-      "position": "central determiner",
-      "register": "British literary and older formal writing. In American English it reads as affected or hypercorrect, and American style guides call for a historic.",
-      "goesWith": "singular countable nouns and adjectives beginning with an unstressed h- syllable — an historic decision, an hotel, an hypothesis, an habitual offender, an heroic effort, an hysterical outburst. The frame requires that unstressed first syllable, which is why this survival never reaches an hand or an highway: there the h carries full stress and is fully pronounced. Older English did write an house and an hundred, but from a different cause and in a different century, and that form has an entry of its own at an (before stressed h- in scriptural and pre-1900 texts).",
-      "ofRule": "none of its own; identical to a and an.",
-      "pattern": "an [unstressed h- adjective] [noun] · an [unstressed h- noun]",
-      "contrast": "The rule has not changed — an still goes before a vowel sound. What changed is the pronunciation underneath it: in older and more British accents the h of historic was weak or absent, so the word began with a vowel and an was simply correct. American English pronounces that h, so American English writes a historic decision. Do not extend the pattern to an herb, which is the opposite case and is correct American English, because herb has a genuinely silent h in the United States. Flag: not standard American. Recognize it in older and British text; write a historic.",
-      "variants": [],
       "meaning": "A variant an before a weakly aspirated h, standard in British literary usage and out of place in American writing.",
       "examples": [
         "It was an historic moment for the party. (British and older formal; American writing has a historic moment.)",
@@ -729,24 +1040,22 @@
         "American copy editors change every one of these to a: a historic decision, a hotel, a hypothesis, a heroic effort.",
         "The genuine American exception runs the other way: an herb garden, because herb really does begin with a vowel sound here."
       ],
-      "related": [
-        "an",
-        "a",
-        "an (before stressed h- in scriptural and pre-1900 texts)"
-      ]
+      "senses": [],
+      "pronunciation note": "the form only makes sense if the h is dropped or very weak, as it was in the accents that produced it",
+      "русский": "брит. книжн. an перед безударным h- — an historic; по-американски пишут a historic",
+      "position": "central determiner",
+      "register": "British literary and older formal writing. In American English it reads as affected or hypercorrect, and American style guides call for a historic.",
+      "type": "article (indefinite), variant form",
+      "goes with": "singular countable nouns and adjectives beginning with an unstressed h- syllable — an historic decision, an hotel, an hypothesis, an habitual offender, an heroic effort, an hysterical outburst. The frame requires that unstressed first syllable, which is why this survival never reaches an hand or an highway: there the h carries full stress and is fully pronounced. Older English did write an house and an hundred, but from a different cause and in a different century, and that form has an entry of its own at an (before stressed h- in scriptural and pre-1900 texts).",
+      "with of": "none of its own; identical to a and an.",
+      "pattern": "an [unstressed h- adjective] [noun] · an [unstressed h- noun]",
+      "contrast": "The rule has not changed — an still goes before a vowel sound. What changed is the pronunciation underneath it: in older and more British accents the h of historic was weak or absent, so the word began with a vowel and an was simply correct. American English pronounces that h, so American English writes a historic decision. Do not extend the pattern to an herb, which is the opposite case and is correct American English, because herb has a genuinely silent h in the United States. Flag: not standard American. Recognize it in older and British text; write a historic.",
+      "see also": "an, a, an (before stressed h- in scriptural and pre-1900 texts), A or an: the test is sound, not spelling, American and British article splits"
     },
     {
       "term": "th'",
       "ipa": "/ð/",
       "respell": "th",
-      "type": "article (definite), eye-dialect respelling of a reduced the",
-      "position": "central determiner — the same slot the fills, since it is the",
-      "register": "written dialogue only — fiction, song lyrics, comics, transcribed speech. Never in expository prose, never in the narrator's own voice.",
-      "goesWith": "whatever noun the goes with, with no countability restriction of its own — singular countable (th' truck), plural countable (th' kids), uncountable (th' money), and the the-taking proper nouns (th' Mississippi). What licenses it is the register, not the noun.",
-      "ofRule": "identical to the; the apostrophe changes nothing about the syntax. Predeterminers still stack in front of it (all th' way, half th' town), and of is still required before a pronoun (all of 'em).",
-      "pattern": "th' [noun] · [preposition] th' [noun] · frozen survivor: t'other (one or t'other)",
-      "contrast": "Against the there is no difference of word, meaning, or grammar — only of spelling. The reduction it transcribes is completely ordinary American speech: everyone shortens /ðə/ and many speakers drop the vowel outright before another word, so th' is not a dialect feature so much as a novelist's way of pointing at one. Against ye, which is a genuine old printed form using a letter that no longer exists, th' is a modern authorial device. Northern British t' (t'mill, t'pub) is the same trick applied to a different accent. Flag: eye-dialect, nonstandard in writing. Fine inside quotation marks in fiction; wrong everywhere else, and applied unevenly it reads as condescension toward the speaker being quoted.",
-      "variants": [],
       "meaning": "Writes out a the whose vowel has been swallowed, as a way of putting an accent on the page.",
       "examples": [
         "\"Shut th' gate behind you,\" he said without turning around. (written dialogue)",
@@ -757,24 +1066,23 @@
         "The one form most Americans ever write is the frozen t'other, as in one or t'other.",
         "Outside quoted speech it is simply wrong: write the gate, the truck, the other day. (standard)"
       ],
-      "related": [
-        "the",
-        "ye"
-      ]
+      "senses": [],
+      "pronunciation note": "the with its schwa deleted, so the /ð/ leans straight onto the next word: th' whole time is one run of sound, and th' other comes out /ðˈʌðɚ/. What the apostrophe records is the loss of the vowel, not a different word.",
+      "русский": "the с проглоченным гласным — передача выговора на письме, только в репликах персонажей",
+      "position": "central determiner — the same slot the fills, since it is the",
+      "register": "written dialogue only — fiction, song lyrics, comics, transcribed speech. Never in expository prose, never in the narrator's own voice.",
+      "type": "article (definite), eye-dialect respelling of a reduced the",
+      "goes with": "whatever noun the goes with, with no countability restriction of its own — singular countable (th' truck), plural countable (th' kids), uncountable (th' money), and the the-taking proper nouns (th' Mississippi). What licenses it is the register, not the noun.",
+      "with of": "identical to the; the apostrophe changes nothing about the syntax. Predeterminers still stack in front of it (all th' way, half th' town), and of is still required before a pronoun (all of 'em).",
+      "pattern": "th' [noun] · [preposition] th' [noun] · frozen survivor: t'other (one or t'other)",
+      "contrast": "Against the there is no difference of word, meaning, or grammar — only of spelling. The reduction it transcribes is completely ordinary American speech: everyone shortens /ðə/ and many speakers drop the vowel outright before another word, so th' is not a dialect feature so much as a novelist's way of pointing at one. Against ye, which is a genuine old printed form using a letter that no longer exists, th' is a modern authorial device. Northern British t' (t'mill, t'pub) is the same trick applied to a different accent. Flag: eye-dialect, nonstandard in writing. Fine inside quotation marks in fiction; wrong everywhere else, and applied unevenly it reads as condescension toward the speaker being quoted.",
+      "see also": "the, ye, The two pronunciations of the, Forms you will see but should not produce"
     },
     {
       "term": "ye",
-      "ipa": "/ðə/ — never /ji/",
+      "ipa": "/ðə/",
       "respell": "thuh",
-      "type": "article (definite), archaic spelling",
-      "position": "central determiner",
-      "register": "mock-antique decoration only — shop signs, pub names, festival banners, and jokes. Never ordinary writing.",
-      "goesWith": "whatever noun the goes with — singular countable, plural countable, uncountable — because it is not a separate word but an old spelling of the. In practice it survives almost exclusively in frozen sign phrases: Ye Olde Curiosity Shoppe, Ye Olde Cheese Shoppe, Ye Olde Tavern, Ye Olde Book Barn.",
-      "ofRule": "identical to the; the spelling changes nothing about the syntax.",
-      "pattern": "Ye Olde [noun] · Ye [noun]",
-      "contrast": "Do not confuse this ye with the genuine archaic pronoun ye /ji/, the old plural of thou (Gather ye rosebuds while ye may). They are unrelated words that happen to be spelled alike: the pronoun is a real second-person plural, this one is only the in old type. Flag: decorative only. Writing ye for the in running prose is a mistake, and pronouncing it /ji/ is a mistake even on a sign.",
-      "variants": [],
-      "meaning": "An old printed spelling of the, surviving today only as decoration.",
+      "meaning": "An old printed spelling of the, surviving today only as decoration. ---",
       "examples": [
         "Ye Olde Curiosity Shoppe has been sitting on that pier since 1899.",
         "The sign out front said Ye Olde Tavern and everyone read it as \"the old tavern.\"",
@@ -783,10 +1091,17 @@
         "Compare the real archaic pronoun: Gather ye rosebuds while ye may — that ye is /ji/ and means \"you.\"",
         "No American writes ye in running prose; it belongs on a sign, a menu, or in a joke."
       ],
-      "related": [
-        "the",
-        "th'"
-      ]
+      "senses": [],
+      "pronunciation note": "not /ji/. The y is a printer's substitute for the lost Old English letter thorn (þ), which in blackletter type looked close enough to a y that early printers set it that way. Ye Olde Tavern is read \"the old tavern.\"",
+      "русский": "устар. старое написание the — «Ye Olde Shoppe» читается «the», не /ji/; стилизация",
+      "position": "central determiner",
+      "register": "mock-antique decoration only — shop signs, pub names, festival banners, and jokes. Never ordinary writing.",
+      "type": "article (definite), archaic spelling",
+      "goes with": "whatever noun the goes with — singular countable, plural countable, uncountable — because it is not a separate word but an old spelling of the. In practice it survives almost exclusively in frozen sign phrases: Ye Olde Curiosity Shoppe, Ye Olde Cheese Shoppe, Ye Olde Tavern, Ye Olde Book Barn.",
+      "with of": "identical to the; the spelling changes nothing about the syntax.",
+      "pattern": "Ye Olde [noun] · Ye [noun]",
+      "contrast": "Do not confuse this ye with the genuine archaic pronoun ye /ji/, the old plural of thou (Gather ye rosebuds while ye may). They are unrelated words that happen to be spelled alike: the pronoun is a real second-person plural, this one is only the in old type. Flag: decorative only. Writing ye for the in running prose is a mistake, and pronouncing it /ji/ is a mistake even on a sign.",
+      "see also": "the, th', Forms you will see but should not produce, The two pronunciations of the"
     }
   ]
 }

@@ -54,6 +54,7 @@ Write *He pointed out that the figures were wrong* and you have said the figures
 ### argue
 
 **Pronunciation:** /ˈɑrɡju/ &middot; *AR-gyoo*
+**Русский:** утверждать, доказывать — выдвигать позицию с доводами; с предлогом — спорить
 **Type:** reporting verb — reasoned claim &middot; **Register:** neutral to formal
 **Patterns:** *argue* + **that**-clause &middot; *argue* + **for / against** + noun phrase &middot; *argue* + **for / against** + **-ing** &middot; *argue* + **about / over** + noun phrase &middot; *argue* + **about / over** + **wh**-clause &middot; *argue* + **with** + person &middot; *argue* + sb + **into / out of** + **-ing** &middot; *argue* + noun phrase (*argue a case*, *argue the point*) &middot; passive *it is argued that*
 **Never:** ***argue someone to do something*** and ***argue someone that*** — *argue* takes no personal object in front of a clause. The verb for talking a person into something is *persuade* or *convince*: *He argued that we should wait* ✓ / *He persuaded us to wait* ✓ / ***He argued us to wait*** ✗. The one genuine personal-object frame is *argue* + sb + **into / out of** + **-ing**, and it reports persuasion rather than a claim: *She argued him out of resigning* ✓. And no bare question clause — ***argue why the plan would fail*** ✗, ***argue whether to go*** ✗ — the question has to ride in on a preposition: *argued about why the plan would fail* ✓, *argued over whether to go* ✓.
@@ -76,6 +77,7 @@ Write *He pointed out that the figures were wrong* and you have said the figures
 ### ask
 
 **Pronunciation:** /æsk/ &middot; *ASK*
+**Русский:** спросить; попросить — нейтральный глагол вопроса, а с инфинитивом — просьба (ask to do)
 **Type:** reporting verb — question, and with an infinitive a request &middot; **Register:** neutral; the default verb for reporting any question
 **Patterns:** *ask* + **wh**-clause &middot; *ask* + **if / whether**-clause &middot; *ask* + sb + **wh**-clause &middot; *ask* + sb + **if / whether**-clause &middot; *ask* + noun phrase (*ask a question*) &middot; *ask* + sb + noun phrase (*ask me a favor*) &middot; *ask* + **to**-infinitive (*ask to leave* — you want to act) &middot; *ask* + sb + **to**-infinitive (*ask me to leave* — you want them to act) &middot; *ask* + **that**-clause + subjunctive (formal request) &middot; *ask* + **for** + noun phrase &middot; *ask* + sb + **for** + noun phrase &middot; *ask* + **about / after** + noun phrase &middot; *ask* + **wh**-word + **to**-infinitive &middot; *ask* + direct quotation, as a quotative tag (*"Where do you live?" she asked*) &middot; passive *be asked to do something*
 **Never:** ***ask to someone whether*** — the person goes straight after the verb with no preposition: *She asked me whether I was free*, never ***She asked to me whether***. And never keep question word order inside the clause: ***He asked where was I*** ✗ → *He asked where I was* ✓. *Ask* takes no **-ing** complement — ***ask leaving early*** ✗ → *She asked to leave early* ✓ — and it cannot take a **that**-clause in the question sense: ***ask that she was free*** ✗ → *She asked whether she was free* ✓. *Ask that* is always a request, and then it takes the subjunctive (*She asked that the room **be** cleared*), never a question.
@@ -98,6 +100,7 @@ Write *He pointed out that the figures were wrong* and you have said the figures
 ### assume
 
 **Pronunciation:** /əˈsum/ &middot; *uh-SOOM* — American English drops the *y* glide; British *uh-SYOOM*
+**Русский:** предполагать, исходить из того что — принять без проверки (в отличие от conclude)
 **Type:** reporting verb — belief taken for granted &middot; **Register:** neutral
 **Patterns:** *assume* + **that**-clause &middot; *assume* + sb/sth + **to**-infinitive, nearly always *to be* (formal: *assumed him to be the owner*) &middot; *assume* + noun phrase &middot; *assume* + **so / not** &middot; passive *it is assumed that* &middot; passive *sb is assumed to be*
 **Never:** ***assume me that*** and ***assume to someone that*** — no personal object and no *to*-phrase for the hearer, because *assume* reports a private belief rather than something said to anybody. *Assume* also takes no **wh**-clause and no **-ing**: ***assume where he had gone*** ✗ and ***assume him going*** ✗ → *I assumed he had gone home* ✓ or *I guessed where he had gone* ✓.
@@ -119,6 +122,7 @@ Write *He pointed out that the figures were wrong* and you have said the figures
 ### believe
 
 **Pronunciation:** /bɪˈliv/ &middot; *bi-LEEV*
+**Русский:** считать, полагать — держать за истину без прямого знания; осторожнее и книжнее, чем think
 **Type:** reporting verb — belief, often hedged &middot; **Register:** neutral to formal; slightly more careful than *think*
 **Patterns:** *believe* + **that**-clause &middot; *believe* + sb/sth + **to**-infinitive (formal) &middot; *believe* + noun phrase (*believe her*, *believe the story*) &middot; *believe* + **in** + noun phrase &middot; *believe* + **in** + **-ing** &middot; *believe so / believe not* &middot; passive *sb is believed to be* &middot; passive *it is believed that*
 **Never:** ***believe to me that*** and ***believe me that the door was locked*** — *believe me* means "trust what I say," so it cannot double as the hearer slot of a report; the repair is *told me the door was locked* ✓. *Believe* also takes no **wh**-clause and no bare **-ing**: ***believe where he went*** ✗, ***believe him lying*** ✗ → *I believe he is lying* ✓.
@@ -141,6 +145,7 @@ Write *He pointed out that the figures were wrong* and you have said the figures
 ### calculate
 
 **Pronunciation:** /ˈkælkjəleɪt/ &middot; *KAL-kyuh-layt*
+**Русский:** подсчитать, вычислить — получить цифру или вывод расчётом (ср. estimate — «прикинуть»)
 **Type:** reporting verb — conclusion reached by figuring &middot; **Register:** neutral to formal
 **Patterns:** *calculate* + **that**-clause &middot; *calculate* + **wh**-clause &middot; *calculate* + noun phrase &middot; *calculate* + noun phrase + **at** + amount &middot; passive *it is calculated that* &middot; passive *be calculated to* (= designed to)
 **Never:** ***calculate someone that*** and ***calculate me the total*** — no personal object in either slot; if you need a hearer at all, use *for*: *calculated the total for me* ✓. And keep the two *to*-forms apart: *be calculated to* means "designed to produce an effect" (*a remark calculated to offend*), not "worked out that" — ***He calculated the trip to take four hours*** ✗ → *He calculated that the trip would take four hours* ✓.
@@ -161,6 +166,7 @@ Write *He pointed out that the figures were wrong* and you have said the figures
 ### cite
 
 **Pronunciation:** /saɪt/ &middot; *SYTE* — a homophone of *site* and *sight*
+**Русский:** ссылаться на, приводить — офиц./юр.: назвать источник или причину, а не сами слова
 **Type:** reporting verb — attributed source or reason &middot; **Register:** formal; standard in journalism, law, and academic writing
 **Patterns:** *cite* + noun phrase &middot; *cite* + noun phrase + **as** + noun phrase (*cited the ruling as precedent*) &middot; *cite* + sb + **as saying** (+ **that**-clause) &middot; *cite* + noun phrase + **for** + noun phrase (= issue a citation: *cited him for speeding*) &middot; *cite* + noun phrase + **in support of / as grounds for** + noun phrase &middot; passive *be cited as* &middot; passive *be cited for*
 **Never:** ***cite that the deal was dead*** — *cite* takes a noun phrase, not a **that**-clause. Repairs: *cited the collapse of the deal*, *cited sources as saying that the deal was dead*, or simply *said that the deal was dead*. It takes no personal object for the hearer either (***cited me the ruling*** ✗ → *cited the ruling to me* ✓) and no embedded question (***cited why the deal died*** ✗ → *cited the reason the deal died* ✓).
@@ -181,6 +187,7 @@ Write *He pointed out that the figures were wrong* and you have said the figures
 ### clarify
 
 **Pronunciation:** /ˈklɛrəfaɪ/ &middot; *KLAIR-uh-fye*
+**Русский:** уточнить, разъяснить — снять двусмысленность уже сказанного, а не восполнить пробел
 **Type:** reporting verb — explanation that removes an ambiguity &middot; **Register:** neutral to formal; heavy in business and official speech
 **Patterns:** *clarify* + **that**-clause &middot; *clarify* + **wh**-clause &middot; *clarify* + **whether**-clause &middot; *clarify* + noun phrase &middot; *clarify* + noun phrase + **for** sb &middot; *clarify* + **to / for** sb + **that**-clause &middot; passive *it was clarified that*
 **Never:** ***clarify me the rules*** — no personal object. The beneficiary takes *for* far more often than *to*: *Could you clarify that for me?* is the natural form, and ***Could you clarify me that?*** is not English. *Clarify* also takes no **to**-infinitive and no **-ing**: ***clarify to be leaving*** ✗, ***clarify sending it*** ✗ → *She clarified that she was leaving* ✓, *He clarified that he had sent it* ✓.
@@ -201,6 +208,7 @@ Write *He pointed out that the figures were wrong* and you have said the figures
 ### conclude
 
 **Pronunciation:** /kənˈklud/ &middot; *kun-KLOOD*
+**Русский:** заключить, прийти к выводу — вывод подан как итог взвешенных доводов
 **Type:** reporting verb — judgment reached from evidence &middot; **Register:** neutral to formal
 **Patterns:** *conclude* + **that**-clause &middot; *conclude* + **from** + noun phrase + **that**-clause &middot; *conclude* + noun phrase (*conclude an agreement* — a different sense) &middot; *conclude* + **by** + **-ing** (= finish) &middot; *conclude* + **with** + noun phrase (= finish) &middot; passive *it was concluded that*
 **Never:** ***conclude someone that*** and ***conclude to do something*** — no personal object, and no infinitive in the active. And no **wh**-clause: ***conclude what had gone wrong*** ✗ → *She concluded that the seal had failed* ✓ or *She worked out what had gone wrong* ✓. Keep the two senses apart as well: *conclude* + noun phrase means *finish* or *settle* (*concluded the meeting*, *concluded a deal*), never *decide about* — ***conclude the cause*** ✗ → *He concluded that the cause was electrical* ✓.
@@ -221,6 +229,7 @@ Write *He pointed out that the figures were wrong* and you have said the figures
 ### consult
 
 **Pronunciation:** /kənˈsʌlt/ &middot; *kun-SULT*
+**Русский:** консультироваться, обращаться за советом — спросить у знающего или проверить в источнике
 **Type:** reporting verb — question put to an authority &middot; **Register:** neutral to formal
 **Patterns:** *consult* + person or reference (*consult a lawyer*, *consult the manual*) &middot; *consult* + sb + **about / on** + noun phrase &middot; *consult* + **with** + sb (standard American) &middot; *consult* + **with** + sb + **about / on** + noun phrase &middot; *consult* + sb + **about** + **wh**-clause &middot; *consult* + **about** + noun phrase &middot; passive *be consulted about*
 **Never:** ***consult to someone*** and ***consult me whether the road was open*** — *consult* never takes a clause of its own. The question has to ride in on a preposition: *consulted the ranger about whether the road was open* ✓. It takes no **to**-infinitive either: ***consulted him to fix the wiring*** ✗ → *consulted him about the wiring* ✓ or *asked him to fix the wiring* ✓.
@@ -241,6 +250,7 @@ Write *He pointed out that the figures were wrong* and you have said the figures
 ### deduce
 
 **Pronunciation:** /dɪˈdus/ &middot; *di-DOOSS* — American English drops the glide; British *di-DYOOSS*
+**Русский:** вывести, заключить — книжн.: вывод, поданный как необходимо следующий из посылок
 **Type:** reporting verb — conclusion drawn by strict inference &middot; **Register:** formal to neutral; slightly literary
 **Patterns:** *deduce* + **that**-clause &middot; *deduce* + **wh**-clause &middot; *deduce* + noun phrase &middot; *deduce* + noun phrase + **from** + noun phrase &middot; *deduce* + **from** + noun phrase + **that**-clause &middot; passive *it can be deduced that*
 **Never:** ***deduce someone that*** and ***deduce to someone*** — no personal object. *Deduce* also has no **-ing** frame and no infinitive: ***deduce her being there*** ✗, ***deduce her to have been there*** ✗ → *He deduced that she had been there* ✓.
@@ -261,6 +271,7 @@ Write *He pointed out that the figures were wrong* and you have said the figures
 ### demand to know
 
 **Pronunciation:** /dɪˌmænd tə ˈnoʊ/ &middot; *di-MAND tuh NOH*
+**Русский:** требовать ответа, допытываться — вопрос как претензия: ответ вам якобы должны
 **Type:** reporting verb — question asked with force &middot; **Register:** neutral, but strongly marked for confrontation; common in news writing
 **Patterns:** *demand to know* + **wh**-clause &middot; *demand to know* + **if / whether**-clause &middot; *demand to know* + noun phrase (*demand to know the reason*) &middot; *demand to know* + **from** sb + **wh**-clause
 **Never:** ***demand me to know*** and ***demand to know me why*** — nothing may come between *demand* and *to know*, and no personal object follows. The person addressed rides on a preposition or not at all: *She demanded to know from the manager why the account had been frozen* ✓. Note also that plain *demand* + **that**-clause takes the subjunctive (*demanded that he leave*), a request rather than a question.
@@ -281,6 +292,7 @@ Write *He pointed out that the figures were wrong* and you have said the figures
 ### demonstrate
 
 **Pronunciation:** /ˈdɛmənstreɪt/ &middot; *DEM-un-strayt*
+**Русский:** показать, продемонстрировать — книжн.: доказать наглядно; фактивный глагол
 **Type:** reporting verb — proof by showing &middot; **Register:** formal
 **Patterns:** *demonstrate* + **that**-clause &middot; *demonstrate* + **wh**-clause &middot; *demonstrate* + noun phrase &middot; *demonstrate* + **to** sb + **that**-clause &middot; *demonstrate* + **to** sb + **wh**-clause &middot; *demonstrate* + noun phrase + **to** sb &middot; *demonstrate* + **how / what** + **to**-infinitive &middot; passive *it has been demonstrated that*
 **Never:** ***demonstrate me how it works*** — this is the same error as ***explain me***, and it is worth learning as a pair with *show*, which does take the object: *show me how it works* ✓, *demonstrate to me how it works* ✓, ***demonstrate me how it works*** ✗. The block holds in front of every complement, so ***demonstrate the committee that the lock could be picked*** ✗ → *demonstrated to the committee that…* ✓. And no **-ing**: ***demonstrate the seal failing*** ✗ → *demonstrated that the seal failed* ✓.
@@ -301,6 +313,7 @@ Write *He pointed out that the figures were wrong* and you have said the figures
 ### echo
 
 **Pronunciation:** /ˈɛkoʊ/ &middot; *EK-oh* — third person *echoes*, past *echoed*
+**Русский:** вторить, повторять за кем-то — чужие слова с согласием; часто с оттенком упрёка
 **Type:** reporting verb — repetition of someone else's statement &middot; **Register:** neutral to formal; common in journalism
 **Patterns:** *echo* + noun phrase (*echo his words*, *echo the sentiment*) &middot; *echo* + sb (*echoed the senator*) &middot; *echo* + free relative (*echoed what she had said*) &middot; *echo* + **that**-clause (journalistic and marginal — the object is normally a noun phrase)
 **Never:** ***echo to someone that*** and ***echo someone that*** — no hearer slot at all. What is echoed is the object: *She echoed his warning*, never ***She echoed us his warning***. And *echo* takes no embedded question: ***He echoed whether the plan would work*** ✗, ***He echoed why she had left*** ✗. *Echoed what she had said* ✓ only looks like an exception — that **what**-clause is a free relative standing in for a noun phrase ("the thing she had said"), not a question. Treat *echo* + **that**-clause as journalistic shorthand and prefer *echoed the point that…* or *agreed that…* in careful prose.
@@ -321,6 +334,7 @@ Write *He pointed out that the figures were wrong* and you have said the figures
 ### enquire
 
 **Pronunciation:** /ɪnˈkwaɪr/ &middot; *in-KWYRE*
+**Русский:** справляться, осведомляться — брит. написание; амер. английский пишет inquire
 **Type:** reporting verb — question &middot; **Register:** **British spelling.** American English writes *inquire* in every sense; *enquire* in an American document reads as a typo or an affectation
 **Patterns:** identical to [inquire](#inquire) — *enquire* + **wh**-clause &middot; *enquire* + **if / whether**-clause &middot; *enquire* + **about / after / into** + noun phrase &middot; *enquire* + **of** sb + **whether** (very formal)
 **Never:** ***enquire me*** — like *inquire*, it takes no personal object, and no **that**-clause either (***enquired that the position was open*** ✗). And in American writing, avoid the spelling itself: use *inquire*. British usage splits the two by sense — *enquire* to ask a question, *inquire* to investigate formally — but that split is not observed in the United States, where *inquire* covers both. The noun follows the verb: British *enquiry*, American *inquiry*.
@@ -342,6 +356,7 @@ Write *He pointed out that the figures were wrong* and you have said the figures
 ### estimate
 
 **Pronunciation:** verb /ˈɛstəmeɪt/ &middot; *ES-tuh-mayt*; noun /ˈɛstəmət/ &middot; *ES-tuh-mit* — the last vowel is full in the verb and reduced in the noun
+**Русский:** оценить, прикинуть — назвать величину как приблизительную (ср. calculate — точный расчёт)
 **Type:** reporting verb — approximate figure &middot; **Register:** neutral to formal
 **Patterns:** *estimate* + **that**-clause &middot; *estimate* + **wh**-clause (*estimate how many*) &middot; *estimate* + noun phrase &middot; *estimate* + noun phrase + **at** + amount &middot; *estimate* + noun phrase + **to be** + value (formal: *estimated the loss to be four million dollars*) &middot; passive *be estimated to be / at* &middot; passive *it is estimated that*
 **Never:** ***estimate someone that*** and ***estimate me the cost*** — no personal object in either slot. The infinitive is narrower than it looks: *estimate* + noun phrase + **to be** is standard in formal writing (*estimated the age of the tree to be two hundred years* ✓), but there is no object-less infinitive (***estimated to take a week*** ✗ in the active), and an eventive infinitive reads badly even with an object (***estimated repairs to take a week*** ✗). Say *estimated that repairs would take a week* ✓.
@@ -363,6 +378,7 @@ Write *He pointed out that the figures were wrong* and you have said the figures
 ### explain
 
 **Pronunciation:** /ɪkˈspleɪn/ &middot; *ik-SPLAYN*
+**Русский:** объяснять — не берёт дополнение лица напрямую: explain to me ✓, «explain me» ✗
 **Type:** reporting verb — explanation &middot; **Register:** neutral
 **Patterns:** *explain* + **that**-clause &middot; *explain* + **wh**-clause &middot; *explain* + **whether**-clause &middot; *explain* + noun phrase &middot; *explain* + **to** sb + **that**-clause &middot; *explain* + **to** sb + **wh**-clause &middot; *explain* + noun phrase + **to** sb &middot; *explain* + **how / what / why** + **to**-infinitive &middot; *explain oneself* &middot; passive *it was explained that*
 **Never:** ***explain me something*** — this is the single most common error in the whole group. *Explain* takes **no personal object** before its complement; the hearer must arrive on *to*. Repairs: *explain it to me*, *explain to me what happened*, *explain to me that it was an accident*. The same block applies to ***explain me how*** ✗ → *explain to me how* ✓. Note that *tell* and *show* behave the opposite way (*tell me what happened*, *show me what happened*), which is exactly why the error is so persistent. *Explain* also takes no **-ing** and no **to**-infinitive complement: ***explain losing the file*** ✗, ***explain to have lost the file*** ✗ → *He explained that he had lost the file* ✓ or *He explained how he had lost the file* ✓.
@@ -384,6 +400,7 @@ Write *He pointed out that the figures were wrong* and you have said the figures
 ### figure
 
 **Pronunciation:** /ˈfɪɡjɚ/ &middot; *FIG-yer* — American English keeps the *y* glide; British *FIG-uh*
+**Русский:** прикинуть, смекнуть — разг., амер.: быстрое рабочее предположение; аналог reckon и suppose
 **Type:** reporting verb — casual conclusion &middot; **Register:** informal; distinctly American
 **Patterns:** *figure* + **that**-clause (the *that* is nearly always dropped) &middot; *figure* + sb/sth + **for** + noun phrase (*figured him for a cop*) &middot; *figure* + **on** + noun phrase &middot; *figure* + **on** + **-ing** &middot; *figure* + **to**-infinitive (= be likely to: *the game figures to be close*) &middot; *figure out* + **wh**-clause &middot; *figure out* + **that**-clause &middot; *figure out* + noun phrase &middot; *figure* + noun phrase + *out* (separable: *figure it out*)
 **Never:** ***figure someone that*** and ***figure me the answer*** — no personal object in either slot. Keep *figure* apart from *figure out*: plain *figure* takes a **that**-clause and reports a guess (*I figured he'd be late*), while *figure out* takes a **wh**-clause and reports a solved problem (*I figured out why he was late*). ***figure why he was late*** is not English. Keep the two *to*-forms apart as well: *X figures to be Y* means "is likely to be" and wants a non-personal subject (*the game figures to be close* ✓), while ***I figured to leave early*** meaning "I intended to" is dialectal at best — say *I figured I'd leave early* ✓. And the particle rule holds: *figure it out* ✓, ***figure out it*** ✗.
@@ -406,6 +423,7 @@ Write *He pointed out that the figures were wrong* and you have said the figures
 ### forecast
 
 **Pronunciation:** /ˈfɔrkæst/ &middot; *FOR-kast* — past tense *forecast* or *forecasted*; *forecast* is preferred in American weather and business usage
+**Русский:** прогнозировать — офиц.: прогноз по модели или данным, обычно о числовой величине
 **Type:** reporting verb — prediction, usually quantified &middot; **Register:** formal to neutral; institutional
 **Patterns:** *forecast* + **that**-clause &middot; *forecast* + noun phrase &middot; *forecast* + **wh**-clause (*forecast how much*) &middot; *forecast* + noun phrase + **at** + amount (*forecast the deficit at two billion*) &middot; passive *be forecast to* &middot; passive *it is forecast that*
 **Never:** ***forecast someone that*** and ***forecast someone to do something*** — no personal object. And in careful prose *forecast* takes no *to*-infinitive in the active: say *forecast that sales would rise*, not ***forecast sales to rise***. The infinitive frame does surface in financial writing and headlines, but only the passive is fully standard — *sales are forecast to rise* ✓.
@@ -427,6 +445,7 @@ Write *He pointed out that the figures were wrong* and you have said the figures
 ### gather
 
 **Pronunciation:** /ˈɡæðɚ/ &middot; *GA-ther*
+**Русский:** понять, заключить из услышанного — «насколько я понял»: источник не назван
 **Type:** reporting verb — secondhand understanding &middot; **Register:** neutral, leaning conversational and polite
 **Patterns:** *gather* + **that**-clause (the *that* is usually dropped) &middot; *gather* + **from** + noun phrase + **that**-clause &middot; *gather* + **as much / so** (*So I gathered*) &middot; *I gather* as a parenthetical (*You're leaving, I gather*)
 **Never:** ***gather someone that*** and ***gather to someone*** — no personal object. *Gather* also avoids the **wh**-clause and the **-ing**: ***gather where he went*** ✗, ***gather him leaving*** ✗; use the fixed phrase *from what I gather* instead, or a **that**-clause.
@@ -447,6 +466,7 @@ Write *He pointed out that the figures were wrong* and you have said the figures
 ### indicate
 
 **Pronunciation:** /ˈɪndəkeɪt/ &middot; *IN-di-kayt*
+**Русский:** дать понять; свидетельствовать — офиц.: заявление без обязательства; о данных — указывать
 **Type:** reporting verb — guarded statement or signal &middot; **Register:** formal; heavy in official, legal, and news writing
 **Patterns:** *indicate* + **that**-clause &middot; *indicate* + **wh**-clause &middot; *indicate* + **whether**-clause &middot; *indicate* + noun phrase &middot; *indicate* + **to** sb + **that**-clause &middot; *indicate* + **to** sb + **wh**-clause &middot; passive *it was indicated that*
 **Never:** ***indicate me that*** and ***indicate someone something*** — no personal object; the hearer takes *to*, as in *indicated to reporters that no arrest was imminent*. *Indicate* also takes no **to**-infinitive in the active and no **-ing**: ***indicate to resign*** ✗, ***indicate resigning*** ✗ → *He indicated that he would resign* ✓.
@@ -467,6 +487,7 @@ Write *He pointed out that the figures were wrong* and you have said the figures
 ### infer
 
 **Pronunciation:** /ɪnˈfɚ/ &middot; *in-FUR* — doubles the *r*: *inferred*, *inferring*
+**Русский:** сделать вывод — вывод слушателя из сказанного (не путать с imply — «подразумевать»)
 **Type:** reporting verb — conclusion drawn by the listener &middot; **Register:** formal to neutral
 **Patterns:** *infer* + **that**-clause &middot; *infer* + **wh**-clause &middot; *infer* + noun phrase &middot; *infer* + noun phrase + **from** + noun phrase &middot; *infer* + **from** + noun phrase + **that**-clause &middot; passive *it can be inferred that*
 **Never:** ***infer someone that*** and ***infer to someone*** — no personal object, and no **-ing** (***inferred him lying*** ✗). And do not use *infer* to mean *imply*: ***Are you inferring that I lied?*** is a very common error for *implying*. **The speaker implies; the listener infers.** The mistaken sense is old and widespread in speech, and it is still corrected everywhere it matters, so it is worth keeping straight.
@@ -487,6 +508,7 @@ Write *He pointed out that the figures were wrong* and you have said the figures
 ### inquire
 
 **Pronunciation:** /ɪnˈkwaɪr/ &middot; *in-KWYRE*
+**Русский:** осведомляться, справляться — офиц.: то же, что ask, но выше регистром; амер. написание
 **Type:** reporting verb — question, formally or politely put &middot; **Register:** formal. **American English uses this spelling in every sense**; *enquire* is British
 **Patterns:** *inquire* + **wh**-clause &middot; *inquire* + **if / whether**-clause &middot; *inquire* + **about** + noun phrase &middot; *inquire* + **after** + person (health) &middot; *inquire* + **into** + noun phrase (investigate) &middot; *inquire* + **as to** + noun phrase or **wh**-clause (very formal) &middot; *inquire* + **of** sb + **whether / wh**-clause (very formal) &middot; *inquire* + direct quotation, as a quotative tag
 **Never:** ***inquire me*** and ***inquire the registrar whether*** — *inquire* takes no personal object. The person is either dropped or introduced by *of*: *inquired of the registrar whether the position had been filled* ✓, or simply use *ask*: *asked the registrar whether…* ✓. And no **that**-clause: ***inquire that the position was open*** ✗ — a question verb needs a question, so *inquired whether the position was open* ✓.
@@ -508,6 +530,7 @@ Write *He pointed out that the figures were wrong* and you have said the figures
 ### interrogate
 
 **Pronunciation:** /ɪnˈtɛrəɡeɪt/ &middot; *in-TERR-uh-gayt*
+**Русский:** допрашивать — офиц.: длительный и жёсткий расспрос как процесс, а не отдельный вопрос
 **Type:** reporting verb — sustained hostile questioning &middot; **Register:** formal; institutional or figurative
 **Patterns:** *interrogate* + person &middot; *interrogate* + sb + **about / on** + noun phrase &middot; *interrogate* + sb + **about** + **wh**-clause &middot; *interrogate* + noun phrase (academic: *interrogate the assumption*) &middot; passive *be interrogated about*
 **Never:** ***interrogate whether he was home*** and ***interrogate someone something*** — *interrogate* cannot take a clause at all. Its object is the **person** being questioned, and the subject matter arrives on *about*: *interrogated him about where he had been* ✓, ***interrogated where he had been*** ✗. No **that**-clause either (***interrogate that he had lied*** ✗) and no double object.
@@ -528,6 +551,7 @@ Write *He pointed out that the figures were wrong* and you have said the figures
 ### paraphrase
 
 **Pronunciation:** /ˈpɛrəfreɪz/ &middot; *PAIR-uh-frayz*
+**Русский:** пересказать своими словами, перефразировать — передать смысл, не сохраняя формулировок
 **Type:** reporting verb — restatement in other words &middot; **Register:** neutral to formal
 **Patterns:** *paraphrase* + noun phrase &middot; *paraphrase* + sb (*paraphrase Orwell*) &middot; *paraphrase* + noun phrase + **for** sb &middot; *paraphrase* + free relative (*paraphrase what he said*) &middot; used absolutely (*I'm paraphrasing*) &middot; **to paraphrase** + sb, as a sentence adverbial &middot; passive *be paraphrased as*
 **Never:** ***paraphrase that the policy had changed*** and ***paraphrase me the argument*** — *paraphrase* takes a noun phrase, not a **that**-clause and not a double object. Repairs: *paraphrased the memo*, *paraphrased the memo for me*, or *said, paraphrasing the memo, that the policy had changed*. It takes no embedded question either: ***paraphrased whether the policy had changed*** ✗.
@@ -548,6 +572,7 @@ Write *He pointed out that the figures were wrong* and you have said the figures
 ### point out
 
 **Pronunciation:** /ˌpɔɪnt ˈaʊt/ &middot; *poynt OWT*
+**Русский:** указать, обратить внимание на — фактивный: и говорящий, и пишущий считают это фактом
 **Type:** reporting verb — statement of a fact the speaker treats as true &middot; **Register:** neutral
 **Patterns:** *point out* + **that**-clause &middot; *point out* + **wh**-clause &middot; *point out* + noun phrase &middot; *point out* + **to** sb + **that**-clause &middot; *point out* + **to** sb + **wh**-clause &middot; *point* + noun phrase + *out* + **to** sb (separable with a noun object: *point the error out to him*) &middot; passive *it should be pointed out that*
 **Never:** ***point out me that*** and ***point me out that*** — no personal object in either slot. The hearer takes *to*: *pointed out to me that the deadline had passed* ✓. Note the particle rule: a pronoun object must sit inside the verb (*point it out*, never ***point out it***), but a **that**-clause never can (***point that the deadline had passed out*** ✗). And no **-ing** or infinitive complement: ***pointed out him being late*** ✗, ***pointed out to be late*** ✗.
@@ -577,6 +602,7 @@ Write *He pointed out that the report was fabricated* and you have said the repo
 ### predict
 
 **Pronunciation:** /prɪˈdɪkt/ &middot; *pri-DIKT*
+**Русский:** предсказывать, предрекать — утверждение о будущем, за которое говорящий отвечает
 **Type:** reporting verb — statement about the future &middot; **Register:** neutral
 **Patterns:** *predict* + **that**-clause &middot; *predict* + **wh**-clause &middot; *predict* + **whether**-clause &middot; *predict* + noun phrase &middot; passive *be predicted to* &middot; passive *it is predicted that*
 **Never:** ***predict someone that*** and ***predict me the outcome*** — no personal object. *Predict someone to win* turns up in sports and betting writing but is not standard elsewhere; use *predicted that she would win*. And no **-ing**: ***predicted the bill dying in committee*** ✗ → *predicted that the bill would die in committee* ✓.
@@ -598,6 +624,7 @@ Write *He pointed out that the report was fabricated* and you have said the repo
 ### prove
 
 **Pronunciation:** /pruv/ &middot; *PROOV* — past participle *proved* or *proven*; American English prefers *proved* as a verb (*has proved*) and *proven* as an adjective (*a proven method*)
+**Русский:** доказать — самое сильное в группе: вопрос закрыт; фактивный глагол
 **Type:** reporting verb — demonstration that settles a question &middot; **Register:** neutral to formal
 **Patterns:** *prove* + **that**-clause &middot; *prove* + **wh**-clause (*prove who did it*) &middot; *prove* + noun phrase &middot; *prove* + **to** sb + **that**-clause &middot; *prove* + **to** sb + **wh**-clause &middot; *prove* + noun phrase + adjective (*prove him wrong*) &middot; *prove* + noun phrase + noun phrase (*prove him a liar*) &middot; *prove* + noun phrase + **to be** (*proved the claim to be false*) &middot; *prove* + reflexive + adjective (*proved herself capable*) &middot; *prove* + **to**-infinitive (= turn out: *proved to be false*) &middot; passive *it has been proved / proven that*
 **Never:** ***prove me that it works*** — the hearer takes *to*: *prove to me that it works* ✓. The one place a bare object is fine is the object-complement frame, which is a different structure entirely: *prove me wrong* ✓, *prove him a liar* ✓ — there the noun phrase is what is being characterized, not the person being told. And no **-ing** complement: ***proved him taking the money*** ✗ → *proved that he had taken the money* ✓.
@@ -620,6 +647,7 @@ Write *He pointed out that the report was fabricated* and you have said the repo
 ### query
 
 **Pronunciation:** /ˈkwɪri/ &middot; *KWEER-ee* — also /ˈkwɛri/ *KWAIR-ee* in some American speech
+**Русский:** поставить под сомнение, запросить уточнение — офиц.: вопрос с подозрением на ошибку
 **Type:** reporting verb — question that challenges &middot; **Register:** formal; business, editorial, and technical
 **Patterns:** *query* + noun phrase (*query a charge*) &middot; *query* + **whether**-clause &middot; *query* + **wh**-clause (*queried why the charge appeared twice* — commoner in British writing) &middot; *query* + sb + **about / on** + noun phrase &middot; *query* + direct quotation (fiction: *"Are you sure?" he queried*) &middot; passive *be queried*
 **Never:** ***query to someone*** and ***query me the total*** — no double object and no *to*. No clause after a personal object either: ***query me whether the total was right*** ✗ → *She queried whether the total was right* ✓ or *She asked me whether the total was right* ✓. And no **that**-clause: ***query that the figures were correct*** ✗ → *He queried whether the figures were correct* ✓. Also avoid *query* as a plain substitute for *ask* in narrative: *"What time is it?" he queried* reads as amateur fiction, and *asked* is the word. The verb is in general commoner in British than American English, where *question* and *ask about* carry most of this load.
@@ -640,6 +668,7 @@ Write *He pointed out that the report was fabricated* and you have said the repo
 ### question
 
 **Pronunciation:** /ˈkwɛstʃən/ &middot; *KWES-chun*
+**Русский:** допрашивать, расспрашивать (о человеке); ставить под сомнение (о деле или с whether)
 **Type:** reporting verb — sustained questioning, or expressed doubt &middot; **Register:** neutral to formal
 **Patterns:** *question* + person &middot; *question* + sb + **about / on** + noun phrase &middot; *question* + noun phrase (*question the decision*) &middot; *question* + **whether / if**-clause &middot; *question* + **wh**-clause (*question how* / *question why*) &middot; *question* + **that**-clause, chiefly under negation (*I don't question that she meant well*) &middot; passive *be questioned about*
 **Never:** ***question me the details*** — no double object; the topic takes *about*: *questioned me about the details* ✓. And the two senses do not mix their frames: with a **person** object it means interrogate (*They questioned him for an hour*), with a **thing** object or a **whether**-clause it means doubt (*She questioned the timing*, *She questioned whether it was legal*). ***question him whether he had been there*** ✗ → *asked him whether…* ✓. Watch the **that**-clause: it is fine under negation (*Nobody questions that the policy works* ✓) but odd in the affirmative — ***question that the vote was legal*** ✗ → *She questioned whether the vote was legal* ✓. And *question* + **wh**-clause raises a challenge rather than reporting an act of asking: *He questioned why the same vendor kept winning* means he was calling it into doubt, not that he put the question to somebody.
@@ -661,6 +690,7 @@ Write *He pointed out that the report was fabricated* and you have said the repo
 ### quiz
 
 **Pronunciation:** /kwɪz/ &middot; *KWIZ* — doubles the *z*: *quizzed*, *quizzing*
+**Русский:** расспрашивать, засыпать вопросами — разг.: настойчиво и любопытно, но не враждебно
 **Type:** reporting verb — persistent questioning &middot; **Register:** informal; also a staple of headline and tabloid writing
 **Patterns:** *quiz* + sb &middot; *quiz* + sb + **about / on** + noun phrase &middot; *quiz* + sb + **about / on** + **wh**-clause &middot; passive *be quizzed about / on*
 **Never:** ***quiz whether the flight was on time*** and ***quiz someone something*** — like *interrogate*, *quiz* takes a person as its object and never a clause of its own. Repairs: *quizzed her about the flight*, *asked whether the flight was on time*. No **that**-clause either (***quiz that the flight was late*** ✗), and no *to*: ***quiz to her about it*** ✗.
@@ -681,6 +711,7 @@ Write *He pointed out that the report was fabricated* and you have said the repo
 ### quote
 
 **Pronunciation:** /kwoʊt/ &middot; *KWOHT*
+**Русский:** цитировать, приводить дословно — точные слова говорящего, с ручательством за точность
 **Type:** reporting verb — reproduction of exact words &middot; **Register:** neutral to formal
 **Patterns:** *quote* + noun phrase (*quote the statute*, *quote his exact words*) &middot; *quote* + sb &middot; *quote* + sb + **as saying** (+ **that**-clause) &middot; *quote* + sb + **on** + noun phrase (*don't quote me on that*) &middot; *quote* + noun phrase + **to** sb &middot; *quote* + **from** + noun phrase &middot; *quote* + sb + amount (*quote me a price* — a different sense) &middot; passive *be quoted as saying*
 **Never:** ***quoted him that the deal was off*** — *quote* cannot take a bare **that**-clause after a person. The journalistic frame is fixed: *quoted him **as saying** that the deal was off* ✓. There is no embedded question either (***quote him whether the deal was off*** ✗), and the only double-object frame belongs to the pricing sense (*quote me a price* ✓, ***quote me the statute*** ✗ → *quote the statute to me* ✓). And do not use *quote* for a paraphrase: if the words are not the speaker's own, the verb is *paraphrase* or *say*.
@@ -701,6 +732,7 @@ Write *He pointed out that the report was fabricated* and you have said the repo
 ### reason
 
 **Pronunciation:** /ˈrizən/ &middot; *REE-zun*
+**Русский:** рассуждать, заключить — книжн./повествоват.: вывод вместе с ходом мысли, про себя
 **Type:** reporting verb — conclusion presented with its reasoning &middot; **Register:** neutral to literary; most at home in narrative
 **Patterns:** *reason* + **that**-clause &middot; *reason* + direct quotation, as a quotative tag (*"He must have missed the exit," she reasoned.*) &middot; *reason* + **from** + noun phrase (+ **to** + noun phrase) &middot; *reason* + **about** + noun phrase (formal, in logic and philosophy) &middot; *reason out* + noun phrase or **wh**-clause &middot; *reason* + **with** + person (a different verb: try to persuade)
 **Never:** ***reason someone that*** and ***reason to do something*** — no personal object, no infinitive. And no bare **wh**-clause: ***reason why the door stuck*** ✗ → *He reasoned that the door stuck because the frame had swollen* ✓ or *He reasoned out why the door stuck* ✓. Keep *reason that* apart from *reason with*: *She reasoned that he was lying* reports a conclusion; *She reasoned with him* reports an attempt to talk him around, and takes no clause at all.
@@ -721,6 +753,7 @@ Write *He pointed out that the report was fabricated* and you have said the repo
 ### recap
 
 **Pronunciation:** verb /riˈkæp/ &middot; *ree-KAP*; noun /ˈrikæp/ &middot; *REE-kap* — doubles the *p*: *recapped*, *recapping*
+**Русский:** кратко повторить, резюмировать — разг.: пробежаться по уже пройденному по порядку
 **Type:** reporting verb — brief restatement of what was already covered &middot; **Register:** informal to neutral; standard in meetings, sports, and broadcasting
 **Patterns:** *recap* + noun phrase &middot; *recap* + **wh**-clause &middot; *recap* + noun phrase + **for** sb &middot; *recap* + **for** sb &middot; **to recap**, as a sentence adverbial &middot; used absolutely (*Let me recap*)
 **Never:** ***recap that the deadline had moved*** and ***recap me the meeting*** — no **that**-clause and no double object. Repairs: *recapped the decision*, *recapped the meeting for me*, *recapped what had been decided*. The beneficiary takes *for*, never *to*: ***recapped the meeting to me*** ✗.
@@ -741,6 +774,7 @@ Write *He pointed out that the report was fabricated* and you have said the repo
 ### reckon
 
 **Pronunciation:** /ˈrɛkən/ &middot; *REK-un*
+**Русский:** полагать, считать — разг., диал.: южное и сельское амер.; в формальном письме неуместно
 **Type:** reporting verb — casual opinion or rough calculation &middot; **Register:** informal. In American English it is regional — ordinary in Southern and rural speech, and elsewhere either jocular or a bit of borrowed British
 **Patterns:** *reckon* + **that**-clause (the *that* is nearly always dropped) &middot; *reckon* + noun phrase (*reckon the cost* — the older "calculate" sense) &middot; *reckon* + noun phrase + **at** + amount &middot; *reckon* + sb/sth + **to be** (mostly passive: *is reckoned to be*) &middot; *reckon* + **so / not** &middot; *reckon* + **with** + noun phrase (a different sense, = deal with: *a force to be reckoned with*) &middot; *reckon* + **on** + noun phrase or **-ing** (chiefly British)
 **Never:** ***reckon someone that*** — no personal object, and no **wh**-clause (***reckon where he went*** ✗). And in American English avoid ***reckon to do something*** meaning "expect to," which is a British and dialectal frame: say *I reckon I'll head out* ✓, not ***I reckon to head out*** ✗. *Reckon on* is British too — an American says *counted on* or *figured on*.
@@ -762,6 +796,7 @@ Write *He pointed out that the report was fabricated* and you have said the repo
 ### reiterate
 
 **Pronunciation:** /riˈɪtəreɪt/ &middot; *ree-IT-uh-rayt*
+**Русский:** вновь заявить, повторить настойчиво — офиц.: намеренный повтор, чтобы снять сомнения
 **Type:** reporting verb — deliberate restatement &middot; **Register:** formal; institutional and diplomatic
 **Patterns:** *reiterate* + **that**-clause &middot; *reiterate* + noun phrase (*reiterate his support*, *reiterate the offer*) &middot; *reiterate* + free relative (*reiterated what she had said in June*) &middot; *reiterate* + **to** sb + **that**-clause &middot; passive *it was reiterated that*
 **Never:** ***reiterate me that*** and ***reiterate someone the offer*** — no personal object. No embedded question either: ***reiterated whether the deadline would move*** ✗ → *reiterated that the deadline would not move* ✓. And avoid ***reiterate again***: *re-* already carries the repetition, so the *again* is redundant — a mistake common enough in business writing that editors flag it on sight.
@@ -782,6 +817,7 @@ Write *He pointed out that the report was fabricated* and you have said the repo
 ### repeat
 
 **Pronunciation:** /rɪˈpit/ &middot; *ri-PEET*
+**Русский:** повторить — своё или чужое; без согласия (ср. echo) и без дословности (ср. quote)
 **Type:** reporting verb — restatement, one's own or someone else's &middot; **Register:** neutral
 **Patterns:** *repeat* + **that**-clause &middot; *repeat* + noun phrase &middot; *repeat* + free relative (*repeat what he said*) &middot; *repeat* + direct quotation &middot; *repeat* + noun phrase + **to** sb &middot; *repeat* + noun phrase + **for** sb &middot; *repeat oneself* &middot; *repeat* + **after** sb &middot; passive *be repeated*
 **Never:** ***repeat me the question*** — no double object. The hearer takes *to* or *for*: *repeat the question for me* ✓, *repeat it to the class* ✓. No embedded question either — ***repeat whether he had met the man*** ✗ → *He repeated that he had never met the man* ✓; *repeat what he said* ✓ is a free relative, not a question. ***Repeat again*** is redundant in the same way as *reiterate again*, though it is far more common in speech and rarely worth correcting there.
@@ -802,6 +838,7 @@ Write *He pointed out that the report was fabricated* and you have said the repo
 ### show
 
 **Pronunciation:** /ʃoʊ/ &middot; *SHOH* — past participle *shown*; *showed* also occurs and is accepted, though *shown* is standard in careful American writing
+**Русский:** показать; свидетельствовать — берёт дополнение лица (show me), в отличие от explain
 **Type:** reporting verb — demonstration or evidence &middot; **Register:** neutral
 **Patterns:** *show* + **that**-clause &middot; *show* + **wh**-clause &middot; *show* + **whether**-clause &middot; *show* + sb + **that**-clause &middot; *show* + sb + **wh**-clause &middot; *show* + sb + noun phrase &middot; *show* + noun phrase + **to** sb &middot; *show* + sb + **wh**-word + **to**-infinitive (*show me what to do*, *show me how to reset it*) &middot; passive *it has been shown that*
 **Never:** ***show to me how it works*** as a substitute for the double object — *show* is one of the verbs that **does** take a personal object directly, so *show me how it works* is the natural form. Use *to* only when the thing shown comes first: *showed the photo to me* ✓, *showed me the photo* ✓, ***showed to me the photo*** ✗. And keep the **-ing** frame out of reports: *showed him leaving the building* is perception, not a report of anything said or established — for a report, *showed that he had left the building* ✓.
@@ -822,6 +859,7 @@ Write *He pointed out that the report was fabricated* and you have said the repo
 ### speculate
 
 **Pronunciation:** /ˈspɛkjəleɪt/ &middot; *SPEK-yuh-layt*
+**Русский:** строить догадки — предположение, прямо заявленное как догадка, без доказательств
 **Type:** reporting verb — guess offered as a guess &middot; **Register:** neutral to formal
 **Patterns:** *speculate* + **that**-clause &middot; *speculate* + **about / on** + noun phrase &middot; *speculate* + **about / on** + **wh**-clause &middot; *speculate* + **about / on** + **whether**-clause &middot; *speculate* + **as to** + **wh**-clause or noun phrase (formal) &middot; passive *it was speculated that*
 **Never:** ***speculate someone that*** and ***speculate what happened*** — no personal object, and no bare **wh**-clause: the question needs a preposition. Repairs: *speculated about what had happened* ✓, *speculated that the roof had failed* ✓. No **to**-infinitive either: ***speculated the roof to have failed*** ✗. Keep this sense apart from the financial one, which takes *in* or *on* and a market (*speculated in currencies*).
@@ -843,6 +881,7 @@ Write *He pointed out that the report was fabricated* and you have said the repo
 ### spell out
 
 **Pronunciation:** /ˌspɛl ˈaʊt/ &middot; *spel OWT*
+**Русский:** разжевать, изложить открытым текстом — сказать прямо то, что было лишь подразумеваемо
 **Type:** reporting verb — explanation made explicit &middot; **Register:** neutral, leaning informal
 **Patterns:** *spell out* + noun phrase &middot; *spell out* + **that**-clause &middot; *spell out* + **wh**-clause &middot; *spell* + noun phrase + *out* (separable) &middot; *spell out* + noun phrase + **for** sb &middot; passive *be spelled out*
 **Never:** ***spell out me the terms*** and ***spell out it*** — no personal object, and a **pronoun** object must go inside the verb: *spell it out* ✓, ***spell out it*** ✗. The hearer takes *for*: *spell it out for me* ✓. A full noun phrase may go either side (*spell out the terms* / *spell the terms out*), but a **that**-clause always follows the whole verb (*spelled out that the fee was nonrefundable*).
@@ -863,6 +902,7 @@ Write *He pointed out that the report was fabricated* and you have said the repo
 ### summarize
 
 **Pronunciation:** /ˈsʌməraɪz/ &middot; *SUM-uh-ryze* — spelled *-ize* in American English; British *summarise*
+**Русский:** резюмировать, кратко изложить — свести материал к главному для тех, кто его не знает
 **Type:** reporting verb — condensed restatement &middot; **Register:** neutral to formal
 **Patterns:** *summarize* + noun phrase &middot; *summarize* + **wh**-clause &middot; *summarize* + noun phrase + **for** sb &middot; *summarize* + noun phrase + **in** + noun phrase (*summarized the report in three findings*) &middot; *summarize* + **by** + **-ing** &middot; used absolutely (*Let me summarize*) &middot; **to summarize**, as a sentence adverbial &middot; passive *be summarized as*
 **Never:** ***summarize me the report*** — no double object; the beneficiary takes *for*: *summarize the report for me* ✓, while ***summarize the report to me*** ✗ is not idiomatic. A **that**-clause is also a poor fit (***He summarized that the project was over budget***); use *summarized the findings* or shift to *concluded that* if a judgment is what you mean.
@@ -883,6 +923,7 @@ Write *He pointed out that the report was fabricated* and you have said the repo
 ### suppose
 
 **Pronunciation:** /səˈpoʊz/ &middot; *suh-POHZ*
+**Русский:** полагать, допускать — мнение без уверенности, вроде «наверное»; оставляет место возражению
 **Type:** reporting verb — tentative belief &middot; **Register:** neutral
 **Patterns:** *suppose* + **that**-clause &middot; *suppose* + sb/sth + **to**-infinitive (chiefly passive: *is supposed to be*) &middot; imperative *suppose (that)…* introducing a hypothesis &middot; *suppose so / suppose not* &middot; passive *it is supposed that*
 **Never:** ***suppose someone that*** and ***suppose to do something*** in the active — no personal object at all, and *I suppose to leave early* ✗ is a mangling of the passive idiom *I'm supposed to leave early* ✓. And no **wh**-clause and no **-ing**: ***suppose where he went*** ✗, ***suppose him leaving*** ✗.
@@ -904,6 +945,7 @@ Write *He pointed out that the report was fabricated* and you have said the repo
 ### think
 
 **Pronunciation:** /θɪŋk/ &middot; *THINGK* — the *n* is the *-ng* sound, not the *n* of *thin*
+**Русский:** думать, считать — самый частый и наименее обязывающий глагол мнения
 **Type:** reporting verb — opinion or belief; also unspoken thought &middot; **Register:** neutral; the default hedge on any statement
 **Patterns:** *think* + **that**-clause (the *that* is usually dropped) &middot; *think* + sb/sth + **to be** (formal, chiefly passive: *is thought to be*) &middot; *think* + noun phrase + adjective (*think it odd*) &middot; *think* + **of / about** + noun phrase &middot; *think* + **about / of** + **-ing** &middot; *think* + **to**-infinitive (= remember to: *didn't think to ask*) &middot; *think* + **wh**-clause, exclamative or deliberative only (*Think what that would mean*, *I'm still thinking what to say*) &middot; *think so / think not* &middot; passive *it is thought that*
 **Never:** ***think someone that*** and ***think to me that*** — no personal object and no hearer slot. *Think* also does not report a question: ***think where he had gone*** ✗ → *I wondered where he had gone* ✓; the **wh**-clause it does take is exclamative or deliberative, not an embedded question. Note also that *think to do something* means "remember to," not "intend to": *I didn't think to ask* ✓ means the question never occurred to me.
@@ -925,6 +967,7 @@ Write *He pointed out that the report was fabricated* and you have said the repo
 ### understand
 
 **Pronunciation:** /ˌʌndɚˈstænd/ &middot; *un-der-STAND*
+**Русский:** слышать, знать по слухам — «насколько мне известно», без ручательства за источник
 **Type:** reporting verb — belief acquired from an unnamed source &middot; **Register:** neutral to formal; a staple of careful journalism and polite business writing
 **Patterns:** *understand* + **that**-clause &middot; *understand* + **wh**-clause &middot; *understand* + noun phrase &middot; *understand* + **from** + noun phrase + **that**-clause (*I understand from your letter that…*) &middot; *understand* + sb/sth + **to be** (formal: *I understood him to be the owner*) &middot; passive *it is understood that*
 **Never:** ***understand me that*** and ***understand to someone*** — no personal object in the reporting sense. (*Understand me* exists, but it is an imperative meaning "grasp what I am telling you," not a hearer slot.) No **-ing** either: ***understand him leaving*** ✗ → *I understand that he is leaving* ✓ or *I understand why he left* ✓.
@@ -945,6 +988,7 @@ Write *He pointed out that the report was fabricated* and you have said the repo
 ### want to know
 
 **Pronunciation:** /ˌwɑnt tə ˈnoʊ/ &middot; *wont tuh NOH* — in running speech *want to* reduces to *wanna*: */ˈwɑnə/*
+**Русский:** хотеть знать — вопрос, передаваемый вживую: наст. вр., без сдвига времён
 **Type:** reporting verb — question, often relayed live &middot; **Register:** neutral to informal
 **Patterns:** *want to know* + **wh**-clause &middot; *want to know* + **if / whether**-clause &middot; *want to know* + noun phrase (*want to know the reason*) &middot; *want to know* + **about** + noun phrase &middot; *want to know* + **from** sb + **wh**-clause
 **Never:** ***want to know me why*** and ***want me to know why*** as a report — the first has no object slot at all, and the second is a different sentence entirely (it reports a wish about what *you* should know). The person asked takes *from*: *She wanted to know from the manager why the account was frozen* ✓.
@@ -965,6 +1009,7 @@ Write *He pointed out that the report was fabricated* and you have said the repo
 ### wonder
 
 **Pronunciation:** /ˈwʌndɚ/ &middot; *WUN-der*
+**Русский:** задаваться вопросом, гадать — вопрос про себя, не вслух (ср. ask — сказано вслух)
 **Type:** reporting verb — unspoken question &middot; **Register:** neutral
 **Patterns:** *wonder* + **if / whether**-clause &middot; *wonder* + **wh**-clause &middot; *wonder* + **whether** + **to**-infinitive &middot; *wonder* + **wh**-word + **to**-infinitive (*wonder what to do*) &middot; *wonder* + **about** + noun phrase &middot; *wonder* + **at** + noun phrase (= marvel, literary) &middot; *wonder* + **that**-clause (= be surprised that — literary: *I don't wonder that she left*)
 **Never:** ***wonder if to wait*** — only *whether* may stand in front of a *to*-infinitive: *wondered whether to wait* ✓, ***wondered if to wait*** ✗. Also ***wonder me*** and ***wonder someone whether*** — no personal object, since nothing was said to anybody. And keep statement order inside the clause: ***I wondered where was he*** ✗ → *I wondered where he was* ✓. Do not use the **that**-clause to report a question: *He wondered that she was home* does not mean he asked himself whether she was home — it means, in a literary register, that he was surprised she was home. For the question, *He wondered whether she was home* ✓.

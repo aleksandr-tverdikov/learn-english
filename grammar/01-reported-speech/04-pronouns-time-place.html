@@ -4,20 +4,19 @@
 <title>Pronouns, time, and place shifts</title>
 <style>
 :root{--bg:#faf9f7;--surface:#fff;--surface2:#f2f0ec;--border:#e2ded6;--text:#1a1815;
---dim:#5f594f;--faint:#8a8377;--accent:#8a5a3b;--measure:72ch}
+--dim:#5f594f;--faint:#8a8377;--accent:#9a4b52;--measure:72ch}
 @media(prefers-color-scheme:dark){:root{--bg:#14140f;--surface:#1d1d17;--surface2:#25251d;
---border:#33332a;--text:#eeeae1;--dim:#a8a293;--faint:#7d776b;--accent:#d09b72}}
+--border:#33332a;--text:#eeeae1;--dim:#a8a293;--faint:#7d776b;--accent:#e8919a}}
 :root[data-theme=dark]{--bg:#14140f;--surface:#1d1d17;--surface2:#25251d;--border:#33332a;
---text:#eeeae1;--dim:#a8a293;--faint:#7d776b;--accent:#d09b72}
+--text:#eeeae1;--dim:#a8a293;--faint:#7d776b;--accent:#e8919a}
 :root[data-theme=light]{--bg:#faf9f7;--surface:#fff;--surface2:#f2f0ec;--border:#e2ded6;
---text:#1a1815;--dim:#5f594f;--faint:#8a8377;--accent:#8a5a3b}
+--text:#1a1815;--dim:#5f594f;--faint:#8a8377;--accent:#9a4b52}
 *{box-sizing:border-box}
 body{margin:0;background:var(--bg);color:var(--text);
 font:17px/1.72 ui-serif,Georgia,"Iowan Old Style",Palatino,serif;-webkit-font-smoothing:antialiased}
-.ui{font-family:-apple-system,BlinkMacSystemFont,"Segoe UI",Inter,Roboto,sans-serif}
 .wrap{max-width:min(var(--measure),100%);margin:0 auto;padding:0 22px}
 nav.crumb{border-bottom:1px solid var(--border);padding:13px 0;font-size:13.5px;
-font-family:-apple-system,sans-serif;position:sticky;top:0;background:var(--bg);z-index:20}
+font-family:-apple-system,BlinkMacSystemFont,"Segoe UI",sans-serif;position:sticky;top:0;background:var(--bg);z-index:20}
 nav.crumb .wrap{max-width:none;display:flex;gap:9px;align-items:center;flex-wrap:wrap}
 nav.crumb a{color:var(--dim);text-decoration:none}
 nav.crumb a:hover{color:var(--accent)}
@@ -55,20 +54,28 @@ padding:13px 17px;margin:0 0 20px}
 summary{cursor:pointer;font-weight:600;font-family:-apple-system,sans-serif;font-size:15px}
 details[open] summary{margin-bottom:12px}
 del{color:var(--faint)}
+dl.fields{margin:0 0 20px;padding:0}
+dl.fields dt{font-family:-apple-system,BlinkMacSystemFont,"Segoe UI",sans-serif;
+font-size:11px;letter-spacing:.11em;text-transform:uppercase;color:var(--faint);
+font-weight:700;margin:14px 0 4px}
+dl.fields dt:first-child{margin-top:0}
+dl.fields dd{margin:0;font-size:16px;color:var(--dim);line-height:1.62}
+dl.fields dd em{color:var(--text)}
+dl.fields dt.ru{color:var(--accent)}
+dl.fields dd strong{color:var(--text)}
 .toc{background:var(--surface2);border:1px solid var(--border);border-radius:10px;
 padding:16px 20px;margin:26px 0 34px;font-family:-apple-system,sans-serif;font-size:14px}
 .toc b{display:block;font-size:11px;letter-spacing:.12em;text-transform:uppercase;
 color:var(--faint);margin-bottom:9px}
 .toc a{display:block;padding:3px 0;color:var(--dim);text-decoration:none}
 .toc a:hover{color:var(--accent)}
-.toc a.l3{padding-left:16px;font-size:13.5px}
 .themebtn{position:fixed;right:18px;bottom:18px;z-index:60;font-family:-apple-system,sans-serif;
 font-size:12.5px;font-weight:600;cursor:pointer;background:var(--surface);border:1px solid var(--border);
 border-radius:99px;padding:9px 16px;color:var(--text)}
 @media(max-width:600px){body{font-size:16px}.wrap{padding:0 17px}}
 </style></head><body>
-<nav class="crumb"><div class="wrap"><a href="../../index.html">Learn English</a></div></nav>
-<main><div class="wrap"><div class="toc"><b>On this page</b><a class="l2" href="#the-principle-recalculate-do-not-substitute">The principle: recalculate, do not substitute</a><a class="l2" href="#pronoun-shifts">Pronoun shifts</a><a class="l2" href="#time-shifts">Time shifts</a><a class="l2" href="#place-and-demonstratives">Place and demonstratives</a><a class="l2" href="#when-the-shifts-do-not-happen">When the shifts do not happen</a><a class="l2" href="#american-and-british-forms">American and British forms</a><a class="l2" href="#deixis-inside-questions-and-directives">Deixis inside questions and directives</a><a class="l2" href="#putting-it-together">Putting it together</a><a class="l2" href="#the-checklist">The checklist</a><a class="l2" href="#common-errors">Common errors</a><a class="l2" href="#practice">Practice</a><a class="l2" href="#see-also">See also</a></div><h1 id="pronouns-time-and-place-shifts">Pronouns, time, and place shifts<a class="hash" href="#pronouns-time-and-place-shifts" aria-label="link">#</a></h1>
+<nav class="crumb"><div class="wrap"><a href="../../index.html">Learn English</a><span class="sep">/</span><a href="../README.html">Grammar</a><span class="sep">/</span><span>01-reported-speech</span></div></nav>
+<main><div class="wrap"><div class="toc"><b>On this page</b><a href="#the-principle-recalculate-do-not-substitute">The principle: recalculate, do not substitute</a><a href="#pronoun-shifts">Pronoun shifts</a><a href="#time-shifts">Time shifts</a><a href="#place-and-demonstratives">Place and demonstratives</a><a href="#when-the-shifts-do-not-happen">When the shifts do not happen</a><a href="#american-and-british-forms">American and British forms</a><a href="#deixis-inside-questions-and-directives">Deixis inside questions and directives</a><a href="#putting-it-together">Putting it together</a><a href="#the-checklist">The checklist</a><a href="#common-errors">Common errors</a><a href="#practice">Practice</a><a href="#see-also">See also</a></div><h1 id="pronouns-time-and-place-shifts">Pronouns, time, and place shifts<a class="hash" href="#pronouns-time-and-place-shifts" aria-label="link">#</a></h1>
 <blockquote><p>How the pointing words — <em>I</em>, <em>you</em>, <em>my</em>, <em>now</em>, <em>today</em>, <em>tomorrow</em>, <em>here</em>, <em>this</em>, <em>Mom</em>, <em>come</em>, <em>bring</em> — are recalculated when a quotation is re-anchored to the reporter's own person, time, and place.</p></blockquote>
 <p><a href="README.html">← Reported speech</a> &middot; <a href="../README.html">All grammar topics</a></p>
 <p><a href="02-backshift.html">Backshift</a> handles the verb. This section handles everything else — and "everything else" is a single coherent group of words called <strong>deictics</strong> (pronounced <em>DIKE-tics</em>, from Greek <em>deiknynai</em>, "to point"). A deictic word does not carry a fixed meaning. It carries a set of instructions for locating something relative to whoever is talking, whenever they are talking, and wherever they are standing. The word <em>I</em> means "the person now speaking." The word <em>tomorrow</em> means "the day after the day on which this is said." The word <em>here</em> means "the place where the speaker is."</p>
@@ -234,11 +241,11 @@ border-radius:99px;padding:9px 16px;color:var(--text)}
 <h3 id="this--that-these--those"><em>This</em> → <em>that</em>, <em>these</em> → <em>those</em><a class="hash" href="#this--that-these--those" aria-label="link">#</a></h3>
 <p>Demonstratives point in space, in time, and in the flow of the conversation, and all three uses shift. See <a href="../../parts-of-speech/09-determiners/catalog/02-demonstratives.html">Demonstrative determiners</a> for the underlying two-way near/far system.</p>
 <div class="tw"><table><thead><tr><th style="text-align:left">Original</th><th style="text-align:left">Reported</th></tr></thead><tbody><tr><td style="text-align:left">this (determiner)</td><td style="text-align:left">that</td></tr><tr><td style="text-align:left">these (determiner)</td><td style="text-align:left">those</td></tr><tr><td style="text-align:left">this (pronoun)</td><td style="text-align:left">that</td></tr><tr><td style="text-align:left">these (pronoun)</td><td style="text-align:left">those</td></tr><tr><td style="text-align:left">this one</td><td style="text-align:left">that one</td></tr></tbody></table></div>
-<p><strong>Pointing at an object:</strong></p>
+<dl class="fields"></dl>
 <blockquote><p>"<strong>This</strong> seat is taken," she said.  →  She said <strong>that</strong> seat <strong>was</strong> taken.</p></blockquote>
-<p><strong>Pointing at a time:</strong></p>
+<dl class="fields"></dl>
 <blockquote><p>"I'll finish it <strong>this week</strong>," he promised.  →  He promised <strong>he'd</strong> finish it <strong>that week</strong>.</p></blockquote>
-<p><strong>Pointing at the conversation itself:</strong></p>
+<dl class="fields"></dl>
 <blockquote><p>"<strong>This</strong> is ridiculous," Karen said.  →  Karen said <strong>that was</strong> ridiculous.</p></blockquote>
 <p>That last pattern collides with the complementizer <em>that</em>, which produces the ugly but grammatical <em>Karen said that that was ridiculous</em>. In practice, drop one of them — either the complementizer (<em>Karen said that was ridiculous</em>) or the demonstrative (<em>Karen said the whole thing was ridiculous</em>).</p>
 <p>There is one <em>this</em> that does not shift: the storytelling <em>this</em> that introduces a brand-new character in casual speech, where it works like <em>a</em> rather than like a pointer.</p>
@@ -258,19 +265,19 @@ border-radius:99px;padding:9px 16px;color:var(--text)}
 <p>This is the part the tables cannot capture, and the part that separates reports that sound like English from reports that sound like exercises. <strong>The shifts happen only when the report has actually moved.</strong> If you are reporting on the same day, <em>today</em> stays. If you are standing in the same room, <em>here</em> stays.</p>
 <h3 id="the-same-day-same-place-test">The same-day, same-place test<a class="hash" href="#the-same-day-same-place-test" aria-label="link">#</a></h3>
 <p>The original in each pair below is identical. Only the reporter's position in time and space differs.</p>
-<blockquote><p><strong>Original:</strong> "I'm meeting the client <strong>here today</strong>," Rachel said.</p></blockquote>
+<blockquote><dl class="fields"><dt>Original</dt><dd>"I'm meeting the client <strong>here today</strong>," Rachel said.</dd></dl></blockquote>
 <div class="tw"><table><thead><tr><th style="text-align:left">When and where you report it</th><th style="text-align:left">Reported version</th></tr></thead><tbody><tr><td style="text-align:left">An hour later, same office</td><td style="text-align:left">Rachel said she<strong>'s</strong> meeting the client <strong>here today</strong>.</td></tr><tr><td style="text-align:left">Same day, from somewhere else</td><td style="text-align:left">Rachel said she <strong>was</strong> meeting the client <strong>there</strong> today.</td></tr><tr><td style="text-align:left">A week later, same office</td><td style="text-align:left">Rachel said she <strong>was</strong> meeting the client <strong>here that day</strong>.</td></tr><tr><td style="text-align:left">A week later, somewhere else</td><td style="text-align:left">Rachel said she <strong>was</strong> meeting the client <strong>there that day</strong>.</td></tr></tbody></table></div>
 <p>Every one of those four is correct in its own context, and every one of them is wrong in the other three.</p>
 <p>Two details in that table are easy to get wrong. In the first row the verb has not backshifted at all, because the meeting is still ahead of the reporter — that is the still-true option, not sloppiness. And in the last two rows the verb is <em>was meeting</em>, not ✗ <em>had been meeting</em>: the present progressive backshifts to the <strong>past progressive</strong>. The past perfect progressive is the backshifted form of <em>I've been meeting</em> or <em>I was meeting</em>, and using it here would claim the original said something it did not.</p>
 <h3 id="pairs-both-ways">Pairs both ways<a class="hash" href="#pairs-both-ways" aria-label="link">#</a></h3>
-<p><strong>Time — reported the same day vs. later:</strong></p>
+<dl class="fields"></dl>
 <blockquote><p>"I have a doctor's appointment <strong>today</strong>," Jonah said. →  <em>(same day)</em> Jonah said he <strong>has</strong> a doctor's appointment <strong>today</strong>. →  <em>(the following week)</em> Jonah said he <strong>had</strong> a doctor's appointment <strong>that day</strong>.</p></blockquote>
 <blockquote><p>"<strong>I'll</strong> email you <strong>tomorrow</strong>," she said. →  <em>(reported the same day)</em> She said she <strong>would</strong> email me <strong>tomorrow</strong>. →  <em>(reported three days later)</em> She said she <strong>would</strong> email me <strong>the next day</strong>.</p></blockquote>
-<p><strong>Place — reported in the same room vs. elsewhere:</strong></p>
+<dl class="fields"></dl>
 <blockquote><p>"It's freezing in <strong>here</strong>," Tom complained. →  <em>(still in the room)</em> Tom said it <strong>was</strong> freezing in <strong>here</strong>. →  <em>(back at home)</em> Tom said it <strong>was</strong> freezing in <strong>there</strong>.</p></blockquote>
-<p><strong>Demonstratives — the object still in front of you vs. not:</strong></p>
+<dl class="fields"></dl>
 <blockquote><p>"<strong>This</strong> is the one I want," she said. →  <em>(the item still on the counter between you)</em> She said <strong>this</strong> is the one she <strong>wants</strong>. →  <em>(back at the office)</em> She said <strong>that was</strong> the one she <strong>wanted</strong>.</p></blockquote>
-<p><strong>Motion verbs — reporting at the destination vs. away from it:</strong></p>
+<dl class="fields"></dl>
 <blockquote><p>"I'm <strong>coming</strong> over at six," Alicia said. →  <em>(said by someone at the house she's coming to)</em> Alicia said she <strong>was coming</strong> over at six. →  <em>(said by someone elsewhere)</em> Alicia said she <strong>was going</strong> over at six.</p></blockquote>
 <h3 id="immediate-reporting">Immediate reporting<a class="hash" href="#immediate-reporting" aria-label="link">#</a></h3>
 <p>The most common real-world context for reporting speech is relaying something that was said seconds ago, in the same place, to someone standing right there — across a room, over a phone, through a doorway. Almost nothing shifts.</p>
@@ -314,16 +321,16 @@ border-radius:99px;padding:9px 16px;color:var(--text)}
 <h2 id="putting-it-together">Putting it together<a class="hash" href="#putting-it-together" aria-label="link">#</a></h2>
 <p>A single exchange, reported from four positions. Original, spoken by <strong>Elena</strong> to <strong>Paul</strong>, in Elena's kitchen, on a Tuesday, with a stack of boxes on the floor between them:</p>
 <blockquote><p>"<strong>I</strong> need <strong>you</strong> to <strong>bring</strong> your truck over <strong>here tomorrow</strong> and help me move <strong>these</strong> boxes, because <strong>I'm</strong> flying out <strong>the day after</strong>."</p></blockquote>
-<p><strong>Paul, same kitchen, ten minutes later, to Elena's roommate:</strong></p>
+<dl class="fields"></dl>
 <blockquote><p>Elena needs <strong>me</strong> to <strong>bring</strong> my truck over <strong>here tomorrow</strong> and help <strong>her</strong> move <strong>these</strong> boxes, because <strong>she's</strong> flying out <strong>the day after</strong>.</p></blockquote>
 <p>Only the person deictics moved. Same room, same day, present-tense reporting verb — so <em>bring</em>, <em>here</em>, <em>these</em>, <em>tomorrow</em>, and <em>the day after</em> are all still pointing exactly where Elena aimed them.</p>
-<p><strong>Paul, from his own house, that evening, to his wife:</strong></p>
+<dl class="fields"></dl>
 <blockquote><p>Elena <strong>wants me</strong> to <strong>take</strong> my truck over <strong>there tomorrow</strong> and help her move <strong>those</strong> boxes, because <strong>she's</strong> flying out <strong>the day after</strong>.</p></blockquote>
 <p>Place, the demonstrative, and the motion verb have now moved. The days have not, because it is still Tuesday.</p>
-<p><strong>Paul, the following month, to a friend:</strong></p>
+<dl class="fields"></dl>
 <blockquote><p>Elena <strong>asked me</strong> to <strong>take</strong> my truck over <strong>there the next day</strong> and help her move <strong>those</strong> boxes, because <strong>she was</strong> flying out <strong>the day after that</strong>.</p></blockquote>
 <p>Everything has moved.</p>
-<p><strong>Elena herself, the following month, to Paul:</strong></p>
+<dl class="fields"></dl>
 <blockquote><p><strong>I</strong> asked <strong>you</strong> to <strong>bring</strong> your truck over <strong>the next day</strong> and help me move <strong>those</strong> boxes, because <strong>I was</strong> flying out <strong>the day after that</strong>.</p></blockquote>
 <p>Person shift is nearly a no-op — Elena is still <em>I</em>, Paul is still <em>you</em> — while the time words and the demonstrative have fully shifted. And note that Elena keeps <em>bring</em> where Paul had to switch to <em>take</em>. The destination is her own house, and speakers hold on to <em>come</em> and <em>bring</em> for their own home base even when they are standing somewhere else. Paul has no such claim on the place, so for him the movement is away, and the verb is <em>take</em>.</p>
 <hr>

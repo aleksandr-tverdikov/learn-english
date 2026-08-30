@@ -11,6 +11,7 @@ This is the largest family of interjections in English, and the one where regist
 ### boy oh boy
 
 **Pronunciation:** /ˌbɔɪ oʊ ˈbɔɪ/ &middot; *BOY oh BOY*  
+**Русский:** ну и ну — устар., добродушное изумление перед чем-то большим или хлопотным
 **Type:** phrase &middot; **Register:** dated  
 **Variants:** *boy-oh-boy*, *boy howdy*
 
@@ -27,6 +28,7 @@ An old-fashioned, good-natured exclamation of amazement at something big, unexpe
 ### dude
 
 **Pronunciation:** /dud/, drawn out /duːd/ &middot; *DOOD, drawn out DOOOOD*  
+**Русский:** чувак — разг., целая реакция сама по себе: ровно — «ну ты даёшь», протяжно — «вау»
 **Type:** secondary &middot; **Register:** very informal  
 **Variants:** *duuude*, *dude!*, *dude.*
 
@@ -43,6 +45,7 @@ An address term that stopped addressing anybody decades ago and now works as a c
 ### gasp
 
 **Pronunciation:** not a word — a fast, sharp intake of breath through an open mouth, the involuntary sound of shock; only when Americans say the spelling out loud as a joke does it become /ɡæsp/ &middot; *GASP*  
+**Русский:** ах! — резкий вдох от потрясения; на письме ремарка, вслух — только в шутку
 **Type:** onomatopoeic &middot; **Register:** informal (chiefly written)  
 **Variants:** *gaaasp*, *gasp!*
 
@@ -59,6 +62,7 @@ Strictly speaking this is a breath, not a word: the real thing is an audible inh
 ### hoo boy
 
 **Pronunciation:** /ˌhu ˈbɔɪ/ &middot; *hoo-BOY*  
+**Русский:** ох-хо-хо / ну всё — разг., предвещает что-то большое, неприятное или запутанное
 **Type:** phrase &middot; **Register:** informal  
 **Variants:** *hoo-boy*, *hoo boy oh boy*
 
@@ -75,6 +79,7 @@ A drawn-out exclamation that braces the listener for something big, messy, or ha
 ### huh
 
 **Pronunciation:** /hʌ/, usually nasalized /hʌ̃/ &middot; *HUH*  
+**Русский:** хм — лёгкое удивление или недоумение; с вопросительной интонацией — «а?»
 **Type:** primary &middot; **Register:** informal  
 **Variants:** *hunh*, *huh?*
 
@@ -91,6 +96,7 @@ A short, often nasalized grunt of mild surprise or puzzlement, used when somethi
 ### man
 
 **Pronunciation:** /mæn/ &middot; *MAN*  
+**Русский:** ну блин / надо же — разг., сильное чувство; о людях любого пола
 **Type:** secondary &middot; **Register:** informal  
 **Variants:** *oh man*, *man oh man*, *aw man*
 
@@ -107,6 +113,7 @@ A general-purpose exclamation of strong feeling that, in this category, marks so
 ### my
 
 **Pronunciation:** /maɪ/ &middot; *MY*  
+**Русский:** ишь ты / надо же — устар., мягкое удивление, часто удвоенное, с ноткой укоризны
 **Type:** secondary &middot; **Register:** dated  
 **Variants:** *my my*, *my, my*, *my oh my*
 
@@ -123,6 +130,7 @@ A gentle, old-fashioned exclamation of surprise, most often doubled as my, my. I
 ### oh
 
 **Pronunciation:** /oʊ/ &middot; *OH*  
+**Русский:** о! / а! — базовый сигнал того, что дошла новая информация
 **Type:** primary &middot; **Register:** neutral  
 **Variants:** *ohh*, *ohhh*, *o*
 
@@ -139,6 +147,7 @@ The most basic surprise marker in English: a single vowel signaling that new inf
 ### oh boy
 
 **Pronunciation:** /ˌoʊ ˈbɔɪ/ &middot; *oh-BOY*  
+**Русский:** ох ты / ну вот — разг.; тон решает: восторг или «опять двадцать пять»
 **Type:** phrase &middot; **Register:** informal  
 **Variants:** *oh boy oh boy*
 
@@ -155,6 +164,7 @@ An exclamation that greets something unexpected with a mix of surprise and braci
 ### oh my
 
 **Pronunciation:** /ˌoʊ ˈmaɪ/ &middot; *oh-MY*  
+**Русский:** ой / боже мой — мягкая, вежливая замена oh my God
 **Type:** phrase &middot; **Register:** neutral  
 **Variants:** *oh my oh my*, *oh my, oh my*
 
@@ -171,6 +181,7 @@ A soft, slightly formal exclamation of surprise at something startling, sweet, o
 ### oh snap
 
 **Pronunciation:** /ˌoʊ ˈsnæp/ &middot; *oh-SNAP*  
+**Русский:** оба-на / ух ты — разг., восторг от неожиданного поворота; из афроам. сленга
 **Type:** phrase &middot; **Register:** informal  
 **Variants:** *oh snaps*, *snap*
 
@@ -187,6 +198,7 @@ A delighted reaction to a sudden turn: a comeback that landed, a twist nobody sa
 ### ope
 
 **Pronunciation:** /oʊp/ &middot; *OHP*  
+**Русский:** опа / ой — диал. (Средний Запад), при лёгком столкновении или мелкой оплошности
 **Type:** primary &middot; **Register:** regional (Midwestern)  
 **Variants:** *ope!*, *oop*
 
@@ -203,6 +215,7 @@ A tiny, clipped exclamation of surprise used when you bump into someone, drop so
 ### whoa
 
 **Pronunciation:** /woʊ/, also /hwoʊ/ &middot; *WOH, also HWOH*  
+**Русский:** воу / ого — резкое изумление; то же слово значит «стой, погоди»
 **Type:** primary &middot; **Register:** informal  
 **Variants:** *woah*, *whoah*, *whooaa*
 
@@ -219,6 +232,7 @@ A sharp exclamation of astonishment at something big, sudden, or impressive. The
 ### wow
 
 **Pronunciation:** /waʊ/ &middot; *WOW*  
+**Русский:** ух ты / вау — универсальное изумление, и от хорошего, и от плохого
 **Type:** primary &middot; **Register:** neutral  
 **Variants:** *oh wow*, *woww*, *wowww*
 
@@ -235,6 +249,7 @@ The default American expression of amazement, good or bad. It covers genuine awe
 ### wowzers
 
 **Pronunciation:** /ˈwaʊzɚz/ &middot; *WOW-zurz*  
+**Русский:** ого-го / ух ты ж — разг., нарочито мультяшное усиление wow
 **Type:** primary &middot; **Register:** informal  
 **Variants:** *wowza*, *wowzer*, *wowie zowie*
 
@@ -251,6 +266,7 @@ A playful, cartoonish intensifier of wow, used when you want to sound amazed wit
 ### yowza
 
 **Pronunciation:** /ˈjaʊzə/ &middot; *YOW-zuh*  
+**Русский:** ух ты! / ого — разг. (слегка устар.), о чём-то впечатляющем или дорогом
 **Type:** primary &middot; **Register:** informal (somewhat dated)  
 **Variants:** *yowzah*, *yowza yowza yowza*
 
@@ -269,6 +285,7 @@ An exclamation of amazement, usually at something impressive, expensive, or good
 ### good grief
 
 **Pronunciation:** /ˌɡʊd ˈɡrif/ &middot; *good GREEF*  
+**Русский:** батюшки / ну что ты будешь делать — смягчение good God: удивление с усталостью
 **Type:** phrase &middot; **Register:** informal  
 **Variants:** *good grief!*, *oh good grief*
 
@@ -285,6 +302,7 @@ A softened *good God*: surprise shading into weariness at something excessive, a
 ### good heavens
 
 **Pronunciation:** /ɡʊd ˈhɛvənz/ &middot; *good HEV-uhnz*  
+**Русский:** боже правый / силы небесные — устар., мягкое удивление или испуг
 **Type:** phrase &middot; **Register:** dated  
 **Variants:** *heavens*, *heavens above*, *good heavens above*
 
@@ -301,6 +319,7 @@ A mild, old-fashioned exclamation of surprise or dismay. It sounds proper and sl
 ### goodness gracious
 
 **Pronunciation:** /ˌɡʊdnəs ˈɡreɪʃəs/ &middot; *GOOD-nis GRAY-shuhs*  
+**Русский:** батюшки светы / боже ты мой — совершенно безобидное удивление
 **Type:** phrase &middot; **Register:** informal (somewhat dated)  
 **Variants:** *gracious*, *gracious me*, *goodness gracious me*
 
@@ -317,6 +336,7 @@ A soft, wholesome exclamation of surprise, and one of the safest in the whole fa
 ### Jesus
 
 **Pronunciation:** /ˈdʒizəs/ &middot; *JEE-zuhs*  
+**Русский:** господи Иисусе — груб., божба; верующие слышат в этом кощунство
 **Type:** secondary &middot; **Register:** vulgar  
 **Variants:** *Jesus Christ*, *sweet Jesus*, *Jesus H. Christ*
 
@@ -333,6 +353,7 @@ The strongest word in this file after *holy shit*, and the one most likely to co
 ### lordy
 
 **Pronunciation:** /ˈlɔrdi/ &middot; *LOR-dee*  
+**Русский:** ох ты господи — диал. (южн.), протяжное удивление, часто удвоенное
 **Type:** secondary &middot; **Register:** regional (Southern)  
 **Variants:** *lawdy*, *lawd*, *lordy lordy*, *Lord have mercy*
 
@@ -349,6 +370,7 @@ A drawled exclamation of surprise or amazement with a strong Southern flavor, of
 ### mercy
 
 **Pronunciation:** /ˈmɝsi/ &middot; *MUR-see*  
+**Русский:** батюшки / господи помилуй — диал. (южн.), устар., перед чем-то чрезмерным
 **Type:** secondary &middot; **Register:** regional (Southern)  
 **Variants:** *mercy me*, *have mercy*, *mercy sakes*, *Lord have mercy*
 
@@ -365,6 +387,7 @@ An exclamation of surprise at something extreme, striking, or overwhelming. It i
 ### mother of God
 
 **Pronunciation:** /ˌmʌðɚ əv ˈɡɑd/ &middot; *MUTH-ur uhv GOD*  
+**Русский:** матерь божья / святые угодники — сильный шок; верующим режет слух
 **Type:** phrase &middot; **Register:** very informal  
 **Variants:** *sweet mother of God*, *holy mother of God*, *mother of mercy*
 
@@ -381,6 +404,7 @@ A heavy exclamation of shock lifted out of Catholic prayer and now used well out
 ### my goodness
 
 **Pronunciation:** /maɪ ˈɡʊdnəs/ &middot; *my GOOD-nis*  
+**Русский:** боже мой / надо же — мягкое удивление, приличное в любом обществе
 **Type:** phrase &middot; **Register:** neutral  
 **Variants:** *goodness*, *goodness me*, *oh my goodness*
 
@@ -397,6 +421,7 @@ A gentle exclamation of surprise that nobody could object to. It suits polite co
 ### my word
 
 **Pronunciation:** /maɪ ˈwɝd/ &middot; *my WURD*  
+**Русский:** однако / вот это да — устар., книжн., сдержанное удивление
 **Type:** phrase &middot; **Register:** dated  
 **Variants:** *upon my word*, *my word!*
 
@@ -413,6 +438,7 @@ A restrained, slightly formal exclamation of surprise. It sounds bookish and old
 ### oh my God
 
 **Pronunciation:** /ˌoʊ maɪ ˈɡɑd/ &middot; *oh my GOD*  
+**Русский:** о боже мой / господи — самое ходовое восклицание шока; верующим режет слух
 **Type:** phrase &middot; **Register:** informal  
 **Variants:** *omigod*, *ohmigod*, *oh God*, *oh my Lord*
 
@@ -429,6 +455,7 @@ The strongest and most common all-purpose expression of shock in American Englis
 ### oh my gosh
 
 **Pronunciation:** /ˌoʊ maɪ ˈɡɑʃ/ &middot; *oh my GOSH*  
+**Русский:** ой боже мой / ой-ёй — вежливая замена oh my God, без религиозного риска
 **Type:** phrase &middot; **Register:** informal  
 **Variants:** *omigosh*, *ohmigosh*
 
@@ -445,6 +472,7 @@ The polite substitute for oh my God, and nearly as common. It carries the same s
 ### OMG
 
 **Pronunciation:** /ˌoʊ ɛm ˈdʒi/ &middot; *oh-em-JEE*  
+**Русский:** ОМГ / божемой — интернет-сокращение oh my God; вслух читается по буквам
 **Type:** phrase &middot; **Register:** internet/text  
 **Variants:** *omg*, *oh em gee*
 
@@ -463,6 +491,7 @@ The written short form of oh my God, born in text messages and now also said out
 ### holy cow
 
 **Pronunciation:** /ˌhoʊli ˈkaʊ/ &middot; *HOH-lee KOW*  
+**Русский:** ничего себе / вот это да — безобидное изумление, родом из бейсбольных репортажей
 **Type:** phrase &middot; **Register:** informal  
 **Variants:** *holy cow!*
 
@@ -479,6 +508,7 @@ A wholesome exclamation of astonishment, strongly associated with baseball broad
 ### holy crap
 
 **Pronunciation:** /ˌhoʊli ˈkræp/ &middot; *HOH-lee KRAP*  
+**Русский:** офигеть / вот чёрт — грубовато: с друзьями можно, при чужих нет
 **Type:** phrase &middot; **Register:** very informal  
 **Variants:** *holy hell*, *holy cannoli*
 
@@ -495,6 +525,7 @@ A blunt exclamation of shock, and the mildest of the genuinely crude versions �
 ### holy mackerel
 
 **Pronunciation:** /ˌhoʊli ˈmækərəl/ &middot; *HOH-lee MACK-uh-ruhl*  
+**Русский:** ёлки-палки / вот те на — устар., нарочито безобидное удивление
 **Type:** phrase &middot; **Register:** dated  
 **Variants:** *holy mackerel!*
 
@@ -511,6 +542,7 @@ A quaint, deliberately harmless exclamation of surprise. It sounds like somethin
 ### holy moly
 
 **Pronunciation:** /ˌhoʊli ˈmoʊli/ &middot; *HOH-lee MOH-lee*  
+**Русский:** ёшкин кот / ух ты — разг., шутливое и совершенно безобидное изумление
 **Type:** phrase &middot; **Register:** informal  
 **Variants:** *holy moley*, *holy moly guacamole*
 
@@ -527,6 +559,7 @@ A light, playful exclamation of astonishment. It is completely inoffensive and u
 ### holy shit
 
 **Pronunciation:** /ˌhoʊli ˈʃɪt/ &middot; *HOH-lee SHIT*  
+**Русский:** охренеть / ни хрена себе — груб., самое сильное здесь после мата
 **Type:** phrase &middot; **Register:** vulgar  
 **Variants:** *holy shit!*, *holy shitballs*
 
@@ -543,6 +576,7 @@ The most common member of this whole family and the loudest thing most Americans
 ### holy smokes
 
 **Pronunciation:** /ˌhoʊli ˈsmoʊks/ &middot; *HOH-lee SMOHKS*  
+**Русский:** ёлки-моталки / ничего себе — разг., мягко, годится и на работе, и при детях
 **Type:** phrase &middot; **Register:** informal  
 **Variants:** *holy smoke*
 
@@ -559,6 +593,7 @@ A mild exclamation of shock, safe for work and safe around kids. It works equall
 ### holy Toledo
 
 **Pronunciation:** /ˌhoʊli təˈlidoʊ/ &middot; *HOH-lee tuh-LEE-doh*  
+**Русский:** мама дорогая / ну и ну — устар., шутливое изумление (по городу в Огайо)
 **Type:** phrase &middot; **Register:** dated  
 **Variants:** *holy Toledo!*
 
@@ -577,6 +612,7 @@ A jokey exclamation of amazement built on the name of the Ohio city and made fam
 ### blimey
 
 **Pronunciation:** /ˈblaɪmi/ &middot; *BLY-mee*  
+**Русский:** ух ты / вот это да — диал. (брит.); американцы говорят это только в шутку
 **Type:** primary &middot; **Register:** regional (British)  
 **Variants:** *cor blimey*, *gorblimey*
 
@@ -593,6 +629,7 @@ A British exclamation of surprise that virtually every American recognizes but a
 ### by George
 
 **Pronunciation:** /baɪ ˈdʒɔrdʒ/ &middot; *by JORJ*  
+**Русский:** ей-богу / а ведь верно — устар., удивление или внезапное озарение
 **Type:** phrase &middot; **Register:** dated  
 **Variants:** *by Jove*
 
@@ -609,6 +646,7 @@ A dated, mild exclamation of surprise or sudden realization, used most often whe
 ### criminy
 
 **Pronunciation:** /ˈkrɪməni/ &middot; *KRIM-uh-nee*  
+**Русский:** ёлки-палки / чёрт возьми — устар., смягчённая замена Christ
 **Type:** primary &middot; **Register:** dated  
 **Variants:** *crimeny*, *jiminy criminy*
 
@@ -625,6 +663,7 @@ A quaint minced oath, a softened stand-in for Christ, expressing surprise or mil
 ### cripes
 
 **Pronunciation:** /kraɪps/ &middot; *KRYPS*  
+**Русский:** ёшкин кот / господи — устар., смягчённая замена Christ, чаще у пожилых
 **Type:** primary &middot; **Register:** dated  
 **Variants:** *for cripes' sake*
 
@@ -641,6 +680,7 @@ A softened stand-in for Christ, used for surprise or annoyance. It is dated and 
 ### egad
 
 **Pronunciation:** /iˈɡæd/, also /ɪˈɡæd/ &middot; *ee-GAD, also ih-GAD*  
+**Русский:** о боже / силы небесные — устар. (арх.), из ah God; сейчас только в шутку
 **Type:** primary &middot; **Register:** dated  
 **Variants:** *egads*, *'egad*
 
@@ -657,6 +697,7 @@ An archaic exclamation of surprise, softened from ah God. Nobody says it serious
 ### gadzooks
 
 **Pronunciation:** /ɡædˈzuks/ &middot; *gad-ZOOKS*  
+**Русский:** о небеса / чёрт побери — устар. (арх.), театральная божба, только ради комизма
 **Type:** primary &middot; **Register:** dated  
 **Variants:** *gadzooks!*
 
@@ -673,6 +714,7 @@ A theatrical, archaic oath of astonishment. Modern Americans use it only for com
 ### gee
 
 **Pronunciation:** /dʒi/ &middot; *JEE*  
+**Русский:** ой / ну надо же — устар., самое короткое смягчение Jesus, звучит по-детски
 **Type:** primary &middot; **Register:** dated  
 **Variants:** *gee!*, *aw gee*
 
@@ -689,6 +731,7 @@ A soft expression of surprise or mild dismay, the shortest of the minced forms o
 ### gee whiz
 
 **Pronunciation:** /dʒi ˈwɪz/ &middot; *jee-WIZ*  
+**Русский:** ух ты / ну и дела — устар., наивное восхищение; сейчас часто с иронией
 **Type:** phrase &middot; **Register:** dated  
 **Variants:** *gee whillikers*, *gee willikers*
 
@@ -705,6 +748,7 @@ An old-fashioned, wide-eyed expression of amazement. It now carries a whiff of p
 ### golly
 
 **Pronunciation:** /ˈɡɑli/ &middot; *GAH-lee*  
+**Русский:** ух ты / батюшки — устар., смягчение God, по-деревенски безобидное
 **Type:** primary &middot; **Register:** dated  
 **Variants:** *by golly*, *good golly*, *golly gee*
 
@@ -721,6 +765,7 @@ A gentle minced form of God, used for wholesome surprise. It sounds rural, old-f
 ### gosh
 
 **Pronunciation:** /ɡɑʃ/ &middot; *GAHSH*  
+**Русский:** боже / ой — смягчённая замена God; безопасно везде
 **Type:** primary &middot; **Register:** informal  
 **Variants:** *by gosh*, *gosh darn*
 
@@ -737,6 +782,7 @@ A softened stand-in for God and one of the most useful mild surprise words in Am
 ### great Scott
 
 **Pronunciation:** /ɡreɪt ˈskɑt/ &middot; *grayt SKAHT*  
+**Русский:** святые угодники / вот это да — устар., изумление, почти всегда с подмигиванием
 **Type:** phrase &middot; **Register:** dated  
 **Variants:** *great Scott!*
 
@@ -753,6 +799,7 @@ A dated exclamation of astonishment, best known now from old movies and from Bac
 ### heavens to Betsy
 
 **Pronunciation:** /ˌhɛvənz tə ˈbɛtsi/ &middot; *HEV-uhnz tuh BET-see*  
+**Русский:** батюшки светы / мать честная — устар., старомодное безобидное удивление
 **Type:** phrase &middot; **Register:** dated  
 **Variants:** *heavens to Betsy!*
 
@@ -769,6 +816,7 @@ A quaint, thoroughly old-fashioned exclamation of surprise. Nobody knows who Bet
 ### jeepers
 
 **Pronunciation:** /ˈdʒipɚz/ &middot; *JEE-purz*  
+**Русский:** ой-ёй / батюшки — устар., смягчение Jesus, годится даже для малышей
 **Type:** primary &middot; **Register:** dated  
 **Variants:** *jeepers creepers*
 
@@ -785,6 +833,7 @@ A wholesome exclamation of surprise or alarm, softened from Jesus. It is mild en
 ### jeez
 
 **Pronunciation:** /dʒiz/ &middot; *JEEZ*  
+**Русский:** блин / ёлки — разг., смягчение Jesus: удивление, досада, недоверие
 **Type:** primary &middot; **Register:** informal  
 **Variants:** *geez*, *geeze*, *jeeze*, *jeez Louise*
 
@@ -801,6 +850,7 @@ An everyday exclamation of surprise, exasperation, or disbelief, clipped from Je
 ### jiminy
 
 **Pronunciation:** /ˈdʒɪməni/ &middot; *JIM-uh-nee*  
+**Русский:** ёшкин кот / ёлки-палки — устар., смягчение Jesus, чаще в jiminy Christmas
 **Type:** primary &middot; **Register:** dated  
 **Variants:** *jiminy Christmas*, *jiminy cricket*, *jiminy crickets*
 
@@ -817,6 +867,7 @@ A quaint minced oath for Jesus, most often extended to jiminy Christmas or jimin
 ### land sakes
 
 **Pronunciation:** /ˈlænd ˌseɪks/ &middot; *LAND sayks*  
+**Русский:** батюшки светы / господи ты боже мой — диал. (южн. и средн. зап.), устар.
 **Type:** phrase &middot; **Register:** regional (Southern and Midwestern)  
 **Variants:** *land's sakes*, *sakes alive*, *my land*, *land o' Goshen*
 
@@ -833,6 +884,7 @@ A rural, old-fashioned exclamation of surprise, still heard in Southern and Midw
 ### my stars
 
 **Pronunciation:** /maɪ ˈstɑrz/ &middot; *my STARZ*  
+**Русский:** батюшки мои / мать честная — устар., мягкое удивление, примерно как my goodness
 **Type:** phrase &middot; **Register:** dated  
 **Variants:** *my stars and garters*, *stars above*
 
@@ -849,6 +901,7 @@ A gentle, antique exclamation of surprise, roughly equal to my goodness. It show
 ### sheesh
 
 **Pronunciation:** /ʃiʃ/ &middot; *SHEESH*  
+**Русский:** ё-моё / ну ты даёшь — разг., удивление с досадой; смягчение Jesus
 **Type:** primary &middot; **Register:** informal  
 **Variants:** *sheeesh*, *sheeeesh*
 
@@ -865,6 +918,7 @@ A drawn-out exclamation of surprise mixed with exasperation, softened from Jesus
 ### zounds
 
 **Pronunciation:** /zaʊndz/, historically /zundz/ &middot; *ZOWNDZ, historically ZOONDZ*  
+**Русский:** о ужас / чёрт возьми — устар. (арх.), из God's wounds; живёт только в шутках
 **Type:** primary &middot; **Register:** dated  
 **Variants:** *'zounds*
 
@@ -883,6 +937,7 @@ An archaic oath of astonishment, originally a contraction of God's wounds. It is
 ### as if
 
 **Pronunciation:** /æz ˈɪf/ &middot; *az IF*  
+**Русский:** ага, конечно / щас прям — разг., насмешливое «да ни за что»
 **Type:** phrase &middot; **Register:** informal (somewhat dated)  
 **Variants:** *as if!*
 
@@ -899,6 +954,7 @@ A flat dismissal of something as impossible or ridiculous, meaning I do not beli
 ### bruh
 
 **Pronunciation:** /brʌ/ &middot; *BRUH*  
+**Русский:** бро — разг. молодёжное: односложная реакция недоверия или испанского стыда
 **Type:** secondary &middot; **Register:** very informal (spoken as much as written)  
 **Variants:** *bruuuh*, *bro*
 
@@ -915,6 +971,7 @@ A one-syllable expression of disbelief or secondhand embarrassment, from brother
 ### do tell
 
 **Pronunciation:** /ˌdu ˈtɛl/ &middot; *doo TELL*  
+**Русский:** да ну / рассказывай — разг., устар.; тепло — «ну-ка подробнее», сухо — сарказм
 **Type:** phrase &middot; **Register:** informal (somewhat dated)  
 **Variants:** *do tell!*, *well, do tell*
 
@@ -931,6 +988,7 @@ An invitation to keep talking, delivered with the eyebrows up. Warm, it means *g
 ### for real
 
 **Pronunciation:** /fɚ ˈril/ &middot; *fer REEL*  
+**Русский:** серьёзно? / правда? — с вопросом просит подтвердить, ровно — горячо соглашается
 **Type:** phrase &middot; **Register:** informal  
 **Variants:** *fr*, *frfr*, *for realsies*
 
@@ -947,6 +1005,7 @@ A short demand for confirmation: is that actually true? Said with a rising tone 
 ### get out
 
 **Pronunciation:** /ɡɛt ˈaʊt/ &middot; *get OWT*  
+**Русский:** да ладно / иди ты — разг., недоверие к новости, а не приказ уйти
 **Type:** phrase &middot; **Register:** very informal  
 **Variants:** *get outta here*, *get out of here*, *get outta town*
 
@@ -963,6 +1022,7 @@ A disbelieving reaction to surprising news, meaning you cannot be serious rather
 ### no kidding
 
 **Pronunciation:** /noʊ ˈkɪdɪŋ/ &middot; *noh KID-ing*  
+**Русский:** да ты что / серьёзно — или сухое «да неужели» о чём-то очевидном
 **Type:** phrase &middot; **Register:** informal  
 **Variants:** *no kiddin'*
 
@@ -979,6 +1039,7 @@ Either a genuine expression of surprise, meaning really, I had no idea, or a dry
 ### no shot
 
 **Pronunciation:** /ˌnoʊ ˈʃɑt/ &middot; *noh SHOT*  
+**Русский:** да ну на / не может быть — разг., молодёжная замена no way
 **Type:** phrase &middot; **Register:** very informal  
 **Variants:** *no shot!*, *there's no shot*
 
@@ -995,6 +1056,7 @@ The current young way of saying *no way* — flat disbelief that something happe
 ### no way
 
 **Pronunciation:** /ˌnoʊ ˈweɪ/ &middot; *noh WAY*  
+**Русский:** да ладно / не может быть — разг., прямое недоверие
 **Type:** phrase &middot; **Register:** informal  
 **Variants:** *no way!*, *no freaking way*, *no way, José*
 
@@ -1011,6 +1073,7 @@ A flat statement of disbelief: that cannot possibly be true. The same phrase als
 ### really
 
 **Pronunciation:** /ˈrili/, also /ˈrɪli/ &middot; *REE-lee, also RIL-ee*  
+**Русский:** правда? / серьёзно? — с вопросом удивление, ровно и протяжно — скепсис и упрёк
 **Type:** secondary &middot; **Register:** neutral  
 **Variants:** *oh really*, *rly*
 
@@ -1027,6 +1090,7 @@ A one-word check on something surprising: is that true? With a rising tone it is
 ### say what
 
 **Pronunciation:** /seɪ ˈwʌt/ &middot; *say WUT*  
+**Русский:** чего-чего? / как-как? — разг., шутливая просьба повторить неожиданное
 **Type:** phrase &middot; **Register:** very informal  
 **Variants:** *say what now*, *say whaaat*
 
@@ -1043,6 +1107,7 @@ A casual, playful demand that someone repeat something surprising. It is relaxed
 ### seriously
 
 **Pronunciation:** /ˈsɪriəsli/ &middot; *SEER-ee-uhs-lee*  
+**Русский:** серьёзно? / да ты что — разг., требование подтвердить или возмущение
 **Type:** secondary &middot; **Register:** informal  
 **Variants:** *srsly*, *for serious*, *are you serious*
 
@@ -1059,6 +1124,7 @@ A demand that the speaker confirm something surprising, or an exclamation at som
 ### shut up
 
 **Pronunciation:** /ʃʌt ˈʌp/ &middot; *shut UP*  
+**Русский:** да ладно! / да ты гонишь — разг.; здесь не «замолчи», а радостное недоверие
 **Type:** phrase &middot; **Register:** very informal  
 **Variants:** *shut up!*, *shut the front door*, *shut your mouth*
 
@@ -1075,6 +1141,7 @@ Here shut up does not mean be quiet: it means I cannot believe that, said with d
 ### since when
 
 **Pronunciation:** /ˌsɪns ˈwɛn/ &middot; *sins WEN*  
+**Русский:** с каких это пор — вопрос-упрёк: удивление плюс намёк, что должны были сказать
 **Type:** phrase &middot; **Register:** informal  
 **Variants:** *since when?!*, *oh, since when*
 
@@ -1091,6 +1158,7 @@ A challenge wearing the clothes of a question. It registers surprise at a fact b
 ### wait, what
 
 **Pronunciation:** /ˌweɪt ˈwʌt/ &middot; *wayt WUT*  
+**Русский:** стоп, что? / погоди, чего? — факт не уложился в голове
 **Type:** phrase &middot; **Register:** informal  
 **Variants:** *wait what*, *wait, what?!*
 
@@ -1107,6 +1175,7 @@ A two-part reaction showing that a fact has just failed to fit. Wait stops the c
 ### what
 
 **Pronunciation:** /wʌt/, also /hwʌt/ &middot; *WUT, also HWUT*  
+**Русский:** что?! / чего?! — протяжный возглас недоверия, а не обычное вопросительное «что»
 **Type:** secondary &middot; **Register:** neutral  
 **Variants:** *whaaat*, *whut*, *wut*
 
@@ -1123,6 +1192,7 @@ A one-word cry of disbelief, usually stretched out and rising. Standing alone as
 ### what the
 
 **Pronunciation:** /ˈwʌt ðə/ &middot; *WUT thuh*  
+**Русский:** что за… / какого… — оборванное восклицание: крепкое слово не договаривают
 **Type:** phrase &middot; **Register:** informal  
 **Variants:** *what the heck*, *what the hell*, *what the...*
 
@@ -1139,6 +1209,7 @@ A truncated exclamation of bewilderment in which the speaker stops just before t
 ### yeah right
 
 **Pronunciation:** /ˌjɛə ˈraɪt/ &middot; *yeh-RITE*  
+**Русский:** ага, конечно / ну да, как же — саркастическое отрицание услышанного
 **Type:** phrase &middot; **Register:** informal  
 **Variants:** *yeah, right*, *yeah sure*
 
@@ -1155,6 +1226,7 @@ A sarcastic rejection of what you have just been told. The words say yes twice; 
 ### you don't say
 
 **Pronunciation:** /ju doʊnt ˈseɪ/ &middot; *yoo dohnt SAY*  
+**Русский:** да что вы говорите / неужели — от искреннего интереса до сухого сарказма
 **Type:** phrase &middot; **Register:** informal  
 **Variants:** *you don't say so*
 
@@ -1171,6 +1243,7 @@ A response to surprising news that ranges from genuine interest to flat sarcasm.
 ### you're kidding
 
 **Pronunciation:** /jɚ ˈkɪdɪŋ/, carefully /jʊr ˈkɪdɪŋ/ &middot; *yer KID-ing*  
+**Русский:** да ты шутишь / да брось — дружелюбный вызов слишком удивительной новости
 **Type:** phrase &middot; **Register:** informal  
 **Variants:** *you're kidding me*, *you've got to be kidding me*, *you gotta be kidding*
 
@@ -1189,6 +1262,7 @@ A direct challenge to something that sounds too surprising to be true. It is fri
 ### go figure
 
 **Pronunciation:** /ˌɡoʊ ˈfɪɡjɚ/ &middot; *goh FIG-yur*  
+**Русский:** поди пойми / вот и пойми — разг., усмешка над тем, что вышло наперекор ожиданиям
 **Type:** phrase &middot; **Register:** informal  
 **Variants:** *go figure that*, *figure that*
 
@@ -1205,6 +1279,7 @@ A wry comment on something that turned out contrary to expectation. It shrugs at
 ### how about that
 
 **Pronunciation:** /ˌhaʊ əˌbaʊt ˈðæt/ &middot; *how uh-bowt THAT*  
+**Русский:** надо же / каково? — разг., приятное удивление задним числом
 **Type:** phrase &middot; **Register:** informal  
 **Variants:** *how 'bout that*, *how do you like that*
 
@@ -1221,6 +1296,7 @@ A mild exclamation of pleased surprise, said after the fact rather than in the f
 ### I'll be darned
 
 **Pronunciation:** /aɪl bi ˈdɑrnd/ &middot; *ile bee DARND*  
+**Русский:** ну надо же / чтоб мне провалиться — устар.; darned — приличная замена damned
 **Type:** phrase &middot; **Register:** dated  
 **Variants:** *I'll be damned*, *well I'll be darned*, *I'll be dogged*
 
@@ -1237,6 +1313,7 @@ A folksy expression of amazement that something turned out to be true. Darned is
 ### imagine that
 
 **Pronunciation:** /ɪˈmædʒən ˌðæt/ &middot; *ih-MAJ-in that*  
+**Русский:** подумать только / надо же — разг.; сухо — «а то как же» о предсказуемом
 **Type:** phrase &middot; **Register:** informal  
 **Variants:** *just imagine that*, *imagine*
 
@@ -1253,6 +1330,7 @@ A dry or gently amused response to something surprising, or to something that wa
 ### lo and behold
 
 **Pronunciation:** /ˌloʊ ən bɪˈhoʊld/ &middot; *loh uhn bih-HOHLD*  
+**Русский:** и вот, извольте / и что бы вы думали — книжн., вводит неожиданный поворот
 **Type:** phrase &middot; **Register:** neutral  
 **Variants:** *lo and behold!*
 
@@ -1269,6 +1347,7 @@ A set phrase that introduces the surprising turn in a story, meaning and then, s
 ### son of a gun
 
 **Pronunciation:** /ˌsʌn əv ə ˈɡʌn/ &middot; *sun uhv uh GUN*  
+**Русский:** вот те на / ёлки-палки — устар., мягкое удивление, особенно когда всё же вышло
 **Type:** phrase &middot; **Register:** dated  
 **Variants:** *sonofagun*, *son of a biscuit*
 
@@ -1285,6 +1364,7 @@ A mild exclamation of surprise at something unexpected, especially something tha
 ### speak of the devil
 
 **Pronunciation:** /ˌspik əv ðə ˈdɛvəl/ &middot; *speek uhv thuh DEV-uhl*  
+**Русский:** лёгок на помине — о том, кто вошёл ровно тогда, когда о нём говорили
 **Type:** phrase &middot; **Register:** informal  
 **Variants:** *speak of the devil and he shall appear*, *well, speak of the devil*
 
@@ -1301,6 +1381,7 @@ Said the moment the person you were just discussing walks in. It is friendly, no
 ### well, I'll be
 
 **Pronunciation:** /ˌwɛl aɪl ˈbi/ &middot; *wel ile BEE*  
+**Русский:** ну надо же / вот те на — диал. (сельск.), божба обрывается на полуслове
 **Type:** phrase &middot; **Register:** regional (rural)  
 **Variants:** *well I'll be*, *well I'll be a monkey's uncle*, *well I'll be danged*
 
@@ -1317,6 +1398,7 @@ A trailing-off expression of astonishment in which the speaker leaves the rest o
 ### well, I never
 
 **Pronunciation:** /ˌwɛl aɪ ˈnɛvɚ/ &middot; *wel eye NEV-ur*  
+**Русский:** ну знаете ли / такого я ещё не видывала — устар., возмущение дурными манерами
 **Type:** phrase &middot; **Register:** dated  
 **Variants:** *well I never did*, *I never*
 
@@ -1333,6 +1415,7 @@ An indignant, old-fashioned exclamation of shock, almost always at bad manners. 
 ### what do you know
 
 **Pronunciation:** /ˌwʌt də jə ˈnoʊ/ &middot; *wut duh yuh NOH*  
+**Русский:** надо же / вот тебе и раз — разг., довольное удивление постфактум; не вопрос
 **Type:** phrase &middot; **Register:** informal  
 **Variants:** *whaddya know*, *what d'you know*, *well what do you know*
 
@@ -1349,6 +1432,7 @@ A pleased, slightly surprised remark that something turned out well or turned ou
 ### what in the world
 
 **Pronunciation:** /ˌwʌt ɪn ðə ˈwɝld/ &middot; *wut in thuh WURLD*  
+**Русский:** что же это такое / да что за — недоумение; in the world — безобидный усилитель
 **Type:** phrase &middot; **Register:** informal  
 **Variants:** *what on earth*, *what in the heck*, *what in tarnation*, *what in blazes*
 
@@ -1365,6 +1449,7 @@ A bewildered question-exclamation aimed at something that makes no sense at all.
 ### who knew
 
 **Pronunciation:** /ˌhu ˈnu/ &middot; *hoo NOO*  
+**Русский:** кто бы мог подумать — разг., лёгкое приятное удивление вопреки ожиданиям
 **Type:** phrase &middot; **Register:** informal  
 **Variants:** *who knew?*, *who would have thought*
 
@@ -1381,6 +1466,7 @@ A light exclamation that something turned out to be true against all expectation
 ### will wonders never cease
 
 **Pronunciation:** /wɪl ˌwʌndɚz ˌnɛvɚ ˈsis/ &middot; *wil WUN-durz nev-ur SEES*  
+**Русский:** чудеса, да и только — разг., почти всегда с иронией
 **Type:** phrase &middot; **Register:** informal  
 **Variants:** *wonders never cease*
 
@@ -1397,6 +1483,7 @@ A wry exclamation at something you had long since given up expecting. It is almo
 ### wouldn't you know it
 
 **Pronunciation:** /ˌwʊdənt jə ˈnoʊ ɪt/ &middot; *WOOD-nt yuh NOH it*  
+**Русский:** как назло / и надо же — разг., о предсказуемо неудачном повороте
 **Type:** phrase &middot; **Register:** informal  
 **Variants:** *wouldn't you know*, *and wouldn't you know it*
 
@@ -1413,6 +1500,7 @@ The marker for a twist you should have seen coming, and it is nearly always the 
 ### would you look at that
 
 **Pronunciation:** /ˌwʊdʒə ˈlʊk ət ˌðæt/ &middot; *WOOD-juh LOOK uht that*  
+**Русский:** нет, ты посмотри / вы только гляньте — зовёт разделить удивление; не вопрос
 **Type:** phrase &middot; **Register:** informal  
 **Variants:** *well, would you look at that*, *look at that*, *would you look at this*
 

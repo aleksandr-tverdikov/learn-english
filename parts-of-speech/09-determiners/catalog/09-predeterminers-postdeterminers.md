@@ -71,6 +71,7 @@ Eight entries live here in full, and three of them — *a hell of a*, *a whale o
 ### a hell of a, one hell of a, one heck of a
 
 **Pronunciation:** /ə ˈhɛl əv ə/, /ˌwʌn ˈhɛl əv ə/, /ˌwʌn ˈhɛk əv ə/ &middot; *uh HELL uv uh*, *wun HELL uv uh*, *wun HECK uv uh* &middot; **weak forms carry the whole phrase**: *of* drops to /əv/ and then to /ə/, both articles are /ə/ (or /ən/ before a vowel), and the run-together result is the eye-spelling *helluva* /ˈhɛləvə/ — *HELL-uh-vuh*. *One* is the exception: it resists reduction because it carries the emphasis, so it stays /wʌn/ and never becomes ✗ /wən/
+**Русский:** ещё тот, чертовски какой-то — разг., груб.; и хвалит, и ругает; heck — смягчённый вариант
 **Type:** quantifier (degree, intensifying) &middot; **Position:** predeterminer (fixed *a … of a* frame) &middot; **Register:** informal and spoken; *hell* is mildly profane, *heck* is the broadcast-safe swap, and *helluva* is a spelling of the sound rather than a word for edited prose
 **Goes with:** **singular countable nouns only**, because the frame ends in *a/an* — *a hell of a game*, *one hell of a mess*, *one heck of an argument*. Never a plural (✗ *a hell of a games*) and never a bare uncountable (✗ *a hell of a traffic*, ✗ *a hell of a money*). To reach the other two noun types you hang the frame on a quantifier instead: *a hell of a lot of people*, *a hell of a lot of money*. The noun itself may be good, bad, or neutral — the frame only supplies the intensity, and the direction comes from the noun.
 **With *of*:** The *of* is **welded into the frame** and cannot be dropped: ✗ *a hell a game*. It is not the partitive *of*, so no determiner may follow it (✗ *a hell of the game*) and no pronoun may either (✗ *a hell of a them*) — for a pronoun you go through the *lot* version, *a hell of a lot of them*.
@@ -94,6 +95,7 @@ Marks the noun as an extreme instance of its kind, in either direction: *a hell 
 ### a whale of a
 
 **Pronunciation:** /ə ˈweɪl əv ə/ &middot; *uh WAYL uv uh* &middot; most Americans use a plain /w/ rather than the older /ʍ/, so *whale* is a homophone of *wail*; the weak forms are the frame's usual ones — *of* to /əv/ and then /ə/, both articles to /ə/ (/ən/ before a vowel) — and the phrase surfaces as a single run, /ə ˈweɪləvə/, *uh WAY-luh-vuh*
+**Русский:** потрясающий, отменный — разг., слегка устар.; обычно одобрительно: a whale of a time
 **Type:** quantifier (degree, intensifying) &middot; **Position:** predeterminer (fixed *a … of a* frame) &middot; **Register:** informal, American, and **mildly dated** — the clean cousin of *a hell of a*. An American meets it in sportscasting, in advertising copy, and from relatives over sixty, and above all in the frozen phrase *have a whale of a time*
 **Goes with:** **singular countable nouns only** — *a whale of a time*, *a whale of a story*, *a whale of an idea*. Never a plural (✗ *a whale of a stories*) and never a bare uncountable (✗ *a whale of a fun*). Unlike *a hell of a* it leans **positive**: *a whale of a time* is a good time, and *a whale of a mess* is possible but sounds like a joke. There is no *a whale of a lot of* in current use, so for plurals and uncountables you switch to *a lot of* or *a great deal of*.
 **With *of*:** *Of* is welded into the frame and cannot be dropped: ✗ *a whale a time*. It is not partitive, so nothing definite may follow it — ✗ *a whale of the time*, ✗ *a whale of it*. Compare the literal noun, where the *of* is doing real work: *the skeleton of a whale*.
@@ -116,6 +118,7 @@ An intensifier meaning "a very big and usually very good one of these," built on
 ### all but
 
 **Pronunciation:** /ˌɔl ˈbʌt/ &middot; *awl BUT* &middot; *but* keeps its full vowel here, unlike the conjunction, which reduces to /bət/
+**Русский:** все, кроме — «все за исключением названного»; как наречие all but значит «почти»
 **Type:** quantifier (universal with exception) &middot; **Position:** predeterminer &middot; **Register:** neutral, slightly formal
 **Goes with:** whatever *all* itself goes with, since it is *all* with an exception clipped on. **Plural countable nouns** (*all but two passengers*), **uncountable nouns** (*all but a cup of the flour*, *all but a trickle of the water*), and **singular countable nouns only when a determiner follows** (*all but the final chapter*). Never a bare singular countable: ✗ *all but chapter*. The exception phrase after *but* must be a noun phrase, a numeral, or a pronoun. **Agreement:** the verb follows the **plural set**, not the singular exception standing next to it — *All but one of the founders **have** retired*, never ✗ *has retired*. With an uncountable noun the verb is singular: *All but a trickle of the water **was** gone*.
 **With *of*:** *Of* attaches to the exception, not to *all*. It is **required** before a pronoun — *all but two of them*, *all but one of us*, never ✗ *all but two them*. With a following determiner it is optional in the same way as bare *all*: *all but (a few) of the seats*.
@@ -140,6 +143,7 @@ Sweeps in the entire set and then carves out a named exception, which is why it 
 ### quite a
 
 **Pronunciation:** /ˈkwaɪt ə/ &middot; *KWYTE-uh* &middot; often flapped to /ˈkwaɪɾə/ in fast speech; before a vowel the article takes its weak *an* /ən/ — *quite an evening* /ˌkwaɪt ən ˈivnɪŋ/
+**Русский:** настоящий, ещё какой — восхищённая оценка; при словах меры — «изрядно, немало»
 **Type:** quantifier (degree) &middot; **Position:** predeterminer &middot; **Register:** neutral and conversational
 **Goes with:** **singular countable nouns only** in this predeterminer use — *quite a while*, *quite a mess*, *quite an evening*. Never a plural (✗ *quite a friends*) and never a bare uncountable (✗ *quite a traffic*, ✗ *quite a money*). To reach the other two noun types you switch phrases: **plural countable** takes *quite a few* (*quite a few neighbors*), and **uncountable** takes *quite a bit of* (*quite a bit of money*) or article-free *quite some* (*quite some time*, *quite some trouble*).
 **With *of*:** No *of* on *quite a* itself — ✗ *quite a of the time*. The repair phrases do take it: *quite a few of them*, *quite a bit of the money*. *Quite some* takes none: ✗ *quite some of time*.
@@ -165,6 +169,7 @@ Sweeps in the entire set and then carves out a named exception, which is why it 
 ### rather a
 
 **Pronunciation:** /ˈræðɚ ə/ &middot; *RA-thur-uh* &middot; first syllable rhymes with *bath*, not with *father*; the article stays weak and becomes /ən/ before a vowel — *rather an ordeal* /ˌræðɚ ən ɔrˈdil/
+**Русский:** довольно-таки, изрядно — книжн., брит.; со сдержанно-негативным оттенком
 **Type:** quantifier (degree, downtoning) &middot; **Position:** predeterminer &middot; **Register:** formal and British-leaning; in American English it reads as bookish
 **Goes with:** **singular countable nouns only** — *rather a nuisance*, *rather a shame*, *rather a long meeting*. Never a plural (✗ *rather a problems*) and never a bare uncountable (✗ *rather a traffic*). With plurals and uncountables the phrase becomes *rather a lot of*: *rather a lot of people*, *rather a lot of traffic*.
 **With *of*:** No *of* on *rather a* itself. *Rather a lot of* carries it obligatorily: *rather a lot of money*, *rather a lot of them*.
@@ -186,6 +191,7 @@ Marks the noun as more so than expected, in a mild and faintly negative directio
 ### so, too, as
 
 **Pronunciation:** /soʊ/, /tu/, /æz/ &middot; *SOH*, *TOO*, *AZ* &middot; *as* reduces to /əz/ when unstressed, *too* never does
+**Русский:** столь, слишком, так — степень при a/an: прилагательное встаёт перед артиклем
 **Type:** quantifier (degree) &middot; **Position:** predeterminer &middot; **Register:** neutral to formal; the construction is written rather than spoken
 **Goes with:** **singular countable nouns only**, because the pattern is built around *a/an* — *so long a day*, *too big a risk*, *as good a time as any*. Never a plural (✗ *too big a risks*, ✗ *too big risks*) and never an uncountable (✗ *too heavy a traffic*). With plurals and uncountables the pattern is simply unavailable: you rephrase (*days that are so long*) or switch to the ordinary quantifiers *so many*, *too much*, and *as many*, which take no article at all.
 **With *of*:** No *of*. The tails these words take are correlative, not partitive — *as ... as* (*as good a time as any*) and *too ... to* (*too big a risk to take*).
@@ -208,6 +214,7 @@ Marks the degree of an adjective when the noun phrase is a singular countable, a
 ### something of a
 
 **Pronunciation:** /ˈsʌmθɪŋ əv ə/ &middot; *SUM-thing uv uh* &middot; **weak forms run deep here**: *of* goes to /əv/ and then to bare /ə/, the article is /ə/ (/ən/ before a vowel), and *something* itself reduces to /ˈsʌmpm̩/ in ordinary fast speech, so the whole phrase can land as /ˈsʌmpm̩ əvə/, *SUMP-m-uh-vuh*. Only the first syllable ever carries stress
+**Русский:** своего рода, в некотором роде — смягчающая оговорка: «отчасти», «можно сказать»
 **Type:** quantifier (degree, downtoning and hedging) &middot; **Position:** predeterminer (fixed *… of a* frame) &middot; **Register:** neutral and literate — the natural register of profiles, reviews, and obituaries, and the American print equivalent of British *rather a*
 **Goes with:** **singular countable nouns only**, and overwhelmingly nouns of **role, type, or reputation** — *something of a legend*, *something of a specialist*, *something of a disaster*. Never a plural (✗ *something of a legends*) and never a bare uncountable (✗ *something of a trouble*). The noun has to be one that a person or thing can *be*: ✓ *something of an expert*, and *something of a chair* is not English. For quantity rather than category the frame changes shape entirely — *something like forty people*, *a certain amount of luck*.
 **With *of*:** *Of* is built into the frame and cannot be dropped: ✗ *something a legend*. It is not partitive, so no determiner may follow it: ✗ *something of the legend*. Keep it apart from the free partitive *something of* meaning "a portion of," which takes no article after it and is a different construction: *He has something of his father in him.*
@@ -231,6 +238,7 @@ Hedges the noun: the thing counts as a member of the category, but only loosely,
 ### such-and-such (a)
 
 **Pronunciation:** /ˌsʌtʃ ən ˈsʌtʃ/ &middot; *such-un-SUCH* &middot; the middle word is *and* in its **weak form only** — /ən/ or syllabic /n̩/, never the full /ænd/, which is why the spelling looks longer than the word sounds. The article behind it weakens too, to /ə/ or /ən/, so *such-and-such a date* is /ˌsʌtʃ ən ˌsʌtʃ ə ˈdeɪt/ and *such-and-such an amount* is /ˌsʌtʃ ən ˌsʌtʃ ən əˈmaʊnt/
+**Русский:** такой-то — слово-заглушка вместо конкретного значения (о человеке — so-and-so)
 **Type:** general/indefinite determiner (placeholder) &middot; **Position:** predeterminer before *a/an*; central determiner in the looser bare-noun use &middot; **Register:** neutral and spoken, faintly impatient. An American meets it wherever someone is walking a listener through a procedure whose real values do not matter yet — a teacher setting up a word problem, a lawyer explaining a filing deadline, a customer-service script
 **Goes with:** **singular countable nouns through the article** — *such-and-such a date*, *such-and-such an amount*, *on such-and-such a day*. It can also attach straight to a **plural countable** (*such-and-such chapters*) or an **uncountable** (*such-and-such information*) with nothing in front, though that bare use is much rarer and reads as looser speech; the article version is the standard one. It never follows an article itself: ✗ *a such-and-such day*, ✗ *the such-and-such date*. And it takes no adjective between itself and the noun in the bare use: *such-and-such a long delay* is fine, ✗ *such-and-such long delays* is not.
 **With *of*:** No *of* — ✗ *such-and-such of the dates*. To select from a set that really exists, switch to *whichever* or the formal *certain of*.
@@ -257,6 +265,7 @@ These words cannot open a noun phrase on their own with a singular countable nou
 ### entire
 
 **Pronunciation:** /ɪnˈtaɪɚ/ &middot; *in-TYRE* &middot; the word begins with a vowel, so the article in front of it takes its pre-vowel forms: *the entire day* /ði ɪnˈtaɪɚ ˈdeɪ/, *an entire block* /ən ɪnˈtaɪɚ ˈblɑk/
+**Русский:** весь, целый — усилительное, после артикля: the entire day; of не берёт (ср. whole)
 **Type:** quantifier (totality) &middot; **Position:** postdeterminer &middot; **Register:** neutral, emphatic
 **Goes with:** singular countable nouns (*an entire day*, *the entire team*), uncountable nouns naming a bounded span or mass (*the entire time*, *the entire output*), and plural countables when the plural names a fixed collection (*my entire savings*, *the entire proceeds*). It **cannot** open a noun phrase by itself: ✗ *Entire building burned down*. There must be a central determiner in front of it.
 **With *of*:** **No *of*** — ✗ *the entire of the day*. This is the sharpest difference from its synonym *whole*, where *the whole of the day* is fine. The *of*-form belongs to the noun *entirety*: *the entirety of the day*.
@@ -278,6 +287,7 @@ The whole of something with nothing left out, said with emphasis. The speaker is
 ### extra
 
 **Pronunciation:** /ˈɛkstrə/ &middot; *EK-struh* &middot; vowel-initial, so the determiner in front weakens to /ən/ or /ði/ — *an extra key* /ən ˈɛkstrə ˈki/, *the extra time* /ði ˈɛkstrə ˈtaɪm/
+**Русский:** лишний, запасной, дополнительный — сверх уже учтённого количества
 **Type:** quantifier (additive) &middot; **Position:** postdeterminer &middot; **Register:** neutral and everyday
 **Goes with:** all three noun types, which makes it unusually flexible — singular countable (*an extra key*), plural countable (*three extra chairs*, *extra towels*), and uncountable (*extra time*, *extra money*, *extra sugar*). With a plural or an uncountable it can also open the phrase with no central determiner at all: *Extra chairs are in the closet.* With a singular countable it needs one: ✗ *Extra key is under the mat*.
 **With *of*:** No *of* — ✗ *extra of the chairs*. To quantify from a known set, use *another*, *more of*, or a numeral: *two more of the chairs*.
@@ -299,6 +309,7 @@ Beyond the number or amount already counted on — one more, or some more, added
 ### only
 
 **Pronunciation:** /ˈoʊnli/ &middot; *OHN-lee* &middot; vowel-initial, so *the* in front of it is /ði/, not /ðə/ — *the only exit* /ði ˈoʊnli ˈɛɡzɪt/
+**Русский:** единственный — после the/my: the only exit; ср. наречие only «только, всего лишь»
 **Type:** quantifier (uniqueness) &middot; **Position:** postdeterminer &middot; **Register:** neutral
 **Goes with:** singular countable nouns (*the only door*), plural countable nouns (*the only two seats left*), and uncountable nouns (*the only advice she gave me*, *the only evidence*). But it comes with a requirement the other postdeterminers do not have: it needs a **definite** central determiner in front of it — *the*, a possessive, or a demonstrative. Never after *a/an* (✗ *an only chance*), the single exception being the fixed noun *an only child*. Never bare: ✗ *Only exit is locked*.
 **With *of*:** No *of* on the determiner itself. The *of* in *the only one of them* belongs to *one*, not to *only*.
@@ -322,6 +333,7 @@ Marks the noun as the single member of its class in the situation at hand: there
 ### particular
 
 **Pronunciation:** /pɚˈtɪkjəlɚ/ &middot; *pur-TIK-yuh-lur* &middot; in fast American speech the medial schwa drops and both *r*s stay: /pɚˈtɪkjlɚ/, *pur-TIK-lur*
+**Русский:** конкретный, определённый — один определённый экземпляр; под no — «никакой особый»
 **Type:** general/indefinite determiner (specificity) &middot; **Position:** postdeterminer &middot; **Register:** neutral
 **Goes with:** **singular countable nouns** above all (*a particular restaurant*, *this particular case*, *no particular reason*), and uncountable nouns after *no* or *any* (*no particular order*, *no particular hurry*). Plural countables work only under *these/those/no* (*no particular reasons*, *these particular files*). The requirement that defines it: there must be a determiner in front — *a*, *no*, *any*, *this*, *that*, or *the*. Bare ✗ *particular people objected* is not the determiner use, and *particular people* on its own reads as the unrelated adjective meaning "fussy."
 **With *of*:** No *of* on the determiner. The fixed adverbial *in particular* (*nobody in particular*, *in particular, the second draft*) is a prepositional phrase, not a determiner.
@@ -345,6 +357,7 @@ Narrows the noun to one specific instance rather than the general class. Under *
 ### past
 
 **Pronunciation:** /pæst/ &middot; *PAST*
+**Русский:** прошедший, последний — отсчёт назад до настоящего момента: the past three weeks
 **Type:** temporal postdeterminer &middot; **Position:** postdeterminer &middot; **Register:** neutral
 **Goes with:** singular and plural countable nouns that name a stretch of time or a recurring event — *the past week*, *the past three elections*, *these past few months*. It does **not** take ordinary object nouns (✗ *the past chair*) and does not count uncountables (✗ *the past water*). One separate use escapes the determiner slot: generic attributive *past* before an abstract noun with no article at all — *past experience*, *past performance*, *past behavior*.
 **With *of*:** No *of* — ✗ *the past of three weeks*. The noun *the past* is a different thing (*in the past*, *a thing of the past*).
@@ -366,6 +379,7 @@ Counts a span backward from the present moment, covering the period that runs ri
 ### respective
 
 **Pronunciation:** /rɪˈspɛktɪv/ &middot; *rih-SPEK-tiv*
+**Русский:** свой собственный (у каждого свой) — раздаёт по одному каждому: their respective desks
 **Type:** distributive postdeterminer &middot; **Position:** postdeterminer &middot; **Register:** formal and written — business, legal, and academic prose
 **Goes with:** **plural countable nouns only** — *their respective fields*, *the respective departments*, *our respective shares*. Never a singular (✗ *his respective office*) and never an uncountable (✗ *their respective luggage*), because the word's entire job is to hand out one item to each of several possessors, which requires more than one of each. It also needs a determiner in front of it, almost always a possessive: ✗ *Respective owners were notified*.
 **With *of*:** No *of* — ✗ *the respective of the totals*.
@@ -387,6 +401,7 @@ Assigns one item to each member of a plural set — "each one's own," matched up
 ### selfsame
 
 **Pronunciation:** /ˈsɛlfˌseɪm/ &middot; *SELF-same*
+**Русский:** тот самый — книжн., усиленное same; подчёркивает поразительность совпадения
 **Type:** identity postdeterminer (emphatic) &middot; **Position:** postdeterminer &middot; **Register:** literary and emphatic — rare in speech, a written flourish
 **Goes with:** singular countable nouns overwhelmingly (*the selfsame moment*, *the selfsame bench*), occasionally plural countables (*the selfsame words*), and uncountable abstract nouns in stretched literary use (*that selfsame stubbornness*). It requires *the* or a demonstrative in front of it — never *a/an* (✗ *a selfsame day*), because asserting identity presupposes a referent the reader can already find. Never bare: ✗ *Selfsame bench sat there for years*.
 **With *of*:** No *of*.
@@ -408,6 +423,7 @@ Marks two things as not merely alike but numerically one and the same, with the 
 ### sole
 
 **Pronunciation:** /soʊl/ &middot; *SOHL* &middot; a homophone of *soul* and of *sole* the fish
+**Русский:** единственный, исключительный — юр. и книжн. замена only: sole custody, sole discretion
 **Type:** quantifier (uniqueness) &middot; **Position:** postdeterminer &middot; **Register:** formal and written — legal, journalistic, and business prose; in speech Americans say *only*
 **Goes with:** singular countable nouns (*the sole heir*, *the sole survivor*) and uncountable abstract nouns (*its sole purpose*, *sole responsibility*). Plural countables are possible but stilted (*the sole survivors*), where *only* is the natural choice. It normally needs *the* or a possessive in front of it — ✗ *a sole survivor* — with one systematic exception: fixed legal collocations take the **zero article** before an uncountable, as in *sole custody*, *sole discretion*, and *sole ownership*.
 **With *of*:** No *of* on the determiner. The *of* in *the sole author of the report* belongs to *author*, not to *sole*.
@@ -429,6 +445,7 @@ The one and only — chosen over *only* when the exclusivity is the legally or f
 ### very
 
 **Pronunciation:** /ˈvɛri/ &middot; *VEH-ree*
+**Русский:** тот самый — «именно этот и никакой другой»; тж. «самый»: the very end; ср. нареч. «очень»
 **Type:** identity postdeterminer (emphatic) &middot; **Position:** postdeterminer &middot; **Register:** neutral, emphatic
 **Goes with:** singular countable nouns above all (*the very moment*, *this very room*), plural countable nouns when they form a fixed set (*his very words*, *the very people who complained*), and uncountable abstract nouns (*the very existence of the program*). It requires a **definite** central determiner — *the*, a demonstrative, or a possessive — and never follows *a/an* in this use: ✗ *a very house* meaning "exactly that house."
 **With *of*:** No *of*.
@@ -453,6 +470,7 @@ The one and only — chosen over *only* when the exclusivity is the legally or f
 ### whole
 
 **Pronunciation:** /hoʊl/ &middot; *HOHL* &middot; the *w* is silent; a homophone of *hole*
+**Русский:** весь, целый — после артикля: the whole cake; ср. предопределитель all (all the cake)
 **Type:** quantifier (totality) &middot; **Position:** postdeterminer &middot; **Register:** neutral — the everyday word for totality
 **Goes with:** singular countable nouns (*a whole pizza*, *the whole team*) and uncountable nouns (*the whole truth*, *my whole attention*). With a numeral it can also front a plural time expression treated as one block: *the whole three days*, *the whole ten dollars*. Bare plurals belong to a **different**, adjectival sense meaning "intact, not cut up" — *whole grains*, *whole peppercorns*. It cannot open a phrase with a singular countable: ✗ *Whole cake was gone*.
 **With *of*:** **Optional and structural.** *The whole summer* and *the whole of the summer* are both good, and the *of*-version needs a determiner after it in American usage — *the whole of the summer*, where bare *the whole of summer* reads as British. Before a pronoun *of* is **required**: *the whole of it*, never ✗ *the whole it*.
@@ -479,6 +497,7 @@ These words fill the central determiner slot when nothing else claims it — *va
 ### all kinds of, all sorts of
 
 **Pronunciation:** /ˌɔl ˈkaɪndz əv/, /ˌɔl ˈsɔrts əv/ &middot; *awl KYNDZ uv*, *awl SORTS uv* &middot; *of* reduces to /əv/ or just /ə/
+**Русский:** всякие, самые разные — разг. «полно и разных»: all kinds of trouble
 **Type:** quantifier (variety and large number) &middot; **Position:** central determiner (fixed phrase) &middot; **Register:** informal to neutral, heavily spoken
 **Goes with:** plural countable nouns (*all kinds of birds*, *all sorts of problems*) and uncountable nouns (*all kinds of trouble*, *all sorts of advice*). Never a singular countable: ✗ *all kinds of book*, ✗ *all sorts of mistake*. The phrase occupies the whole central slot, so no article may follow it and none may precede it.
 **With *of*:** *Of* is **built into the phrase** and cannot be dropped: ✗ *all kinds problems*. It is not the partitive *of*, so no determiner may follow it: ✗ *all kinds of the problems*. To select from a known set, switch to *all of the problems*.
@@ -500,6 +519,7 @@ A large and varied quantity — "many, and of many different kinds," with the va
 ### all manner of
 
 **Pronunciation:** /ˌɔl ˈmænɚ əv/ &middot; *awl MAN-ur uv*
+**Русский:** всевозможные, всякого рода — книжн. вариант all kinds of; manner не ставится во мн. ч.
 **Type:** quantifier (variety) &middot; **Position:** central determiner (fixed phrase) &middot; **Register:** formal and literary — the written cousin of *all kinds of*
 **Goes with:** plural countable nouns (*all manner of excuses*) and uncountable nouns (*all manner of mischief*). Never a singular countable: ✗ *all manner of excuse*. Note the fossilized singular inside the phrase — *manner* never pluralizes here: ✗ *all manners of things*, even though *manners* is a perfectly good noun meaning "polite behavior."
 **With *of*:** *Of* is part of the phrase and obligatory. No determiner may follow it: ✗ *all manner of the excuses*.
@@ -521,6 +541,7 @@ Every variety of — a formal or literary way of saying "a great many different 
 ### assorted
 
 **Pronunciation:** /əˈsɔrɾɪd/, carefully /əˈsɔrtɪd/ &middot; *uh-SOR-tid*
+**Русский:** разные, ассорти — смесь, собранная намеренно: assorted cookies «печенье ассорти»
 **Type:** general/indefinite determiner (variety) &middot; **Position:** central determiner, or postdeterminer after one &middot; **Register:** neutral; standard on packaging and in commercial writing
 **Goes with:** **plural countable nouns almost exclusively** — *assorted cookies*, *assorted sizes*, *assorted complaints*. Uncountables work only when the noun already names a collection (*assorted hardware*). A singular countable is impossible: ✗ *an assorted cookie*. It can open the phrase alone (*assorted chocolates*) or follow a central determiner (*the assorted cables in the drawer*, *his assorted grievances*).
 **With *of*:** No *of* — ✗ *assorted of the cookies*. The *of*-construction belongs to the noun: *an assortment of cookies*.
@@ -544,6 +565,7 @@ Of several different kinds mixed together, usually as a deliberate selection rat
 ### certain
 
 **Pronunciation:** /ˈsɚtn̩/ &middot; *SUR-tn* &middot; unstressed in the determiner use, with the article in front weakening to /ə/ — *a certain look* /ə ˌsɚtn̩ ˈlʊk/; stressed only when it means "sure"
+**Русский:** некий, определённый — говорящий знает, но не называет; a certain charm — «некоторый»
 **Type:** general/indefinite determiner (particular but unnamed) &middot; **Position:** postdeterminer after *a/an*; central determiner before plurals and uncountables &middot; **Register:** neutral, slightly formal, often faintly coy
 **Goes with:** all three noun types, but each through a different door. **Singular countable nouns** take it **only with *a/an* in front** — *a certain restaurant*, *a certain look*, *a certain Mr. Alvarez*; never bare, so ✗ *certain man came to the door*. **Plural countable nouns** (*certain questions*, *certain people*) and **uncountable nouns** (*certain evidence*, *certain information*) take it with **nothing in front at all** — the word is the central determiner there, and ✗ *a certain people* and ✗ *a certain information* are both wrong. The one crossing case is *a certain* + **abstract uncountable** noun (*a certain charm*, *a certain restlessness*, *a certain menace*), where the article does not make the noun countable but hedges the quality; that is sense 3 below, and it is the only place *a* and an uncountable noun meet in this entry. It does not follow *the* in any of these senses; *the certain answer* can only mean "the sure answer."
 **With *of*:** Mostly none: *certain people*, never ✗ *certain of people*. But formal writing does allow *certain of* before another determiner — *certain of the members objected* — a bookish partitive that many editors avoid in favor of *some of* or *several of*.
@@ -568,6 +590,7 @@ Of several different kinds mixed together, usually as a deliberate selection rat
 ### divers
 
 **Pronunciation:** /ˈdaɪvɚz/ &middot; *DYE-vurz* &middot; stress on the first syllable, unlike *diverse*
+**Русский:** устар., юр. — «разные, несколько»; живёт лишь в юр. клише: on divers occasions
 **Type:** general/indefinite determiner (variety and number) &middot; **Position:** central determiner &middot; **Register:** **archaic and legal** — recognize it, do not produce it
 **Goes with:** **plural countable nouns only** — *divers persons*, *divers occasions*, *divers dates*. Never a singular (✗ *divers person*) and never an uncountable (✗ *divers evidence*). In its surviving legal uses it takes the central slot with nothing in front of it and no article after it; the older *his divers offices* pattern, with the word behind a determiner, is period English and not worth reviving.
 **With *of*:** No *of*.
@@ -589,6 +612,7 @@ Several, various — an archaic quantifier now confined to legal boilerplate and
 ### diverse
 
 **Pronunciation:** /dɪˈvɚs/, also /daɪˈvɚs/ &middot; *dih-VURSS* &middot; stress on the second syllable, unlike *divers*
+**Русский:** разнообразный, разнородный — члены заметно отличаются друг от друга
 **Type:** general/indefinite determiner (variety) &middot; **Position:** central determiner, or postdeterminer after one &middot; **Register:** neutral to formal; heavily used in institutional and academic prose
 **Goes with:** **plural countable nouns** (*diverse backgrounds*, *diverse opinions*) and **collective or uncountable nouns** naming a body or a body of work (*a diverse workforce*, *diverse programming*). A singular countable works only when it names a collection — *a diverse team* is fine, ✗ *a diverse book* is not. It opens the phrase alone (*diverse opinions*) or follows a determiner (*the diverse interests of the members*, *our diverse staff*).
 **With *of*:** No *of* on the determiner. The construction *a diverse range of* puts the *of* on *range*.
@@ -610,6 +634,7 @@ Made up of members that differ markedly from one another in origin, kind, or cha
 ### given
 
 **Pronunciation:** /ˈɡɪvən/ &middot; *GIV-un*
+**Русский:** данный, любой отдельно взятый — один произвольный экземпляр: any given day
 **Type:** general/indefinite determiner (arbitrary instance) &middot; **Position:** postdeterminer &middot; **Register:** neutral to formal; common in technical, statistical, and sports writing
 **Goes with:** **singular countable nouns only** — *any given moment*, *a given category*, *any given Sunday*. Never a plural (✗ *any given days*) and never an uncountable (✗ *a given water*), because the phrase exists to pick out exactly one arbitrary instance. It requires *a* or *any* in front of it and never follows *the* in this sense.
 **With *of*:** No *of*.
@@ -631,6 +656,7 @@ Any one instance you care to pick, considered on its own as a representative sta
 ### manifold
 
 **Pronunciation:** /ˈmænəfoʊld/ &middot; *MAN-uh-fohld* &middot; first-syllable stress and a full /oʊ/ in the last syllable, as in *twofold*; the middle vowel is a schwa that can drop out entirely in fast speech, /ˈmænfoʊld/. Being a content word it has **no weak form of its own** — what reduces is the determiner in front of it, as in *the manifold blessings* /ðə ˈmænəfoʊld ˈblɛsɪŋz/ and *his manifold talents* /ɪz ˈmænəfoʊld ˈtælənts/
+**Русский:** книжн., устар. — «многообразный, многочисленный»; живо лишь в обороте be manifold
 **Type:** general/indefinite determiner (variety and number) &middot; **Position:** central determiner, or postdeterminer after one &middot; **Register:** **archaic, literary, and scriptural** — recognize it, and produce it only when the King James sound is what you are after
 **Goes with:** **plural countable nouns** (*manifold reasons*, *manifold blessings*) and **abstract uncountable nouns** naming something that comes in kinds (*manifold wisdom*, *manifold grace*). Never a singular countable: ✗ *a manifold reason*. It opens the phrase with no article at all (*manifold difficulties*) or drops back behind a determiner (*the manifold failures of the agency*, *his manifold talents*). It also sits **predicatively** after *be* — *the benefits are manifold* — which is both the tell that it is an adjective doing determiner work, in the way *diverse* is, and its commonest surviving use in modern American writing.
 **With *of*:** No *of* — ✗ *manifold of the reasons*. The partitive goes through *many of* or *several of*. The unrelated **noun** *a manifold* (the exhaust manifold of an engine, a manifold in topology) carries its own article and its own *of*: *the manifold of a six-cylinder engine*.
@@ -654,6 +680,7 @@ Many and of many kinds at once — the old word for a number that is large becau
 ### miscellaneous
 
 **Pronunciation:** /ˌmɪsəˈleɪniəs/ &middot; *miss-uh-LAY-nee-us*
+**Русский:** прочий, разный — рубрика «всё остальное»: miscellaneous expenses «прочие расходы»
 **Type:** general/indefinite determiner (leftover variety) &middot; **Position:** central determiner, or postdeterminer after one &middot; **Register:** neutral to formal; the standard label on forms, budgets, and inventories
 **Goes with:** **plural countable nouns** (*miscellaneous charges*, *miscellaneous parts*) and **uncountable nouns** naming an undifferentiated mass (*miscellaneous debris*, *miscellaneous paperwork*). A singular countable is odd unless it names a collection: ✗ *a miscellaneous receipt*. It opens the phrase alone (*miscellaneous expenses*) or follows a determiner (*the miscellaneous items at the back of the shelf*).
 **With *of*:** No *of* on the determiner. The noun *miscellany* carries it: *a miscellany of odds and ends*.
@@ -675,6 +702,7 @@ Of assorted kinds with no organizing principle — the catch-all category for wh
 ### multiple
 
 **Pronunciation:** /ˈmʌltəpəl/ &middot; *MUL-tuh-pul* &middot; the middle syllable reduces to a schwa or drops entirely in fast speech: /ˈmʌltəpl̩/
+**Русский:** несколько, множественные — сухое «больше одного»; с неисчисляемыми не сочетается
 **Type:** general/indefinite determiner (number above one) &middot; **Position:** central determiner, or postdeterminer after one &middot; **Register:** neutral; the default word in journalism, medical writing, and incident reports
 **Goes with:** **plural countable nouns only** — *multiple reasons*, *multiple witnesses*, *multiple times*. Never a singular countable (✗ *a multiple reason*, ✗ *multiple witness*) and **never an uncountable** (✗ *multiple advice*, ✗ *multiple information*, ✗ *multiple evidence*), which is the error to watch, since the meaning tempts writers into it. For an uncountable you must go through a countable head: *multiple pieces of evidence*, *multiple forms of aid*, *multiple rounds of funding*. It opens the phrase alone (*multiple complaints*) or follows a central determiner (*the multiple failures of the system*, *his multiple injuries*). **Agreement:** plural verb, always — *Multiple witnesses **were** called*, never ✗ *was called*.
 **With *of*:** No *of* before a bare noun — ✗ *multiple of the witnesses* is not English. The partitive goes through *several of* or *a number of*: *several of the witnesses*. The mathematical *a multiple of six* is the **noun** *multiple*, a different word that carries its own *of*.
@@ -698,6 +726,7 @@ More than one, stated without warmth or estimate — the plain modern word for a
 ### some kind of
 
 **Pronunciation:** /səm ˈkaɪnd əv/ &middot; *sum KYND uv* &middot; *some* takes its weak form /səm/ here and is never the stressed /sʌm/
+**Русский:** какой-то, что-то вроде — тип неизвестен: some kind of animal «какой-то зверь»
 **Type:** general/indefinite determiner (vague type) &middot; **Position:** central determiner (fixed phrase) &middot; **Register:** informal to neutral, heavily spoken
 **Goes with:** singular countable nouns **with their article absorbed** (*some kind of animal*, *some kind of mistake*) and uncountable nouns (*some kind of trouble*, *some kind of oil*). For a plural the whole phrase pluralizes: *some kinds of birds never migrate*. The form *some kind of a mistake*, with an extra *a* wedged in after *of*, is common in casual American speech but is **nonstandard in writing** — drop the *a*.
 **With *of*:** *Of* is built into the phrase and cannot be dropped: ✗ *some kind mistake*. It is not partitive, so no determiner follows it: ✗ *some kind of the animal*.
@@ -721,6 +750,7 @@ Marks the noun as belonging to a category the speaker cannot or will not specify
 ### suchlike
 
 **Pronunciation:** /ˈsʌtʃlaɪk/ &middot; *SUCH-lyke*
+**Русский:** устар., брит. — «тому подобные»; чаще в конце перечисления: and suchlike
 **Type:** general/indefinite determiner (similarity) &middot; **Position:** central determiner &middot; **Register:** **dated**; more British than American — recognize it, do not reach for it
 **Goes with:** plural countable nouns (*suchlike creatures*, *suchlike tools*) and uncountable nouns (*suchlike nonsense*, *suchlike talk*). Never a singular countable: ✗ *a suchlike creature*. It takes no article in front of it, and it far more often stands **alone as a pronoun** at the end of a list: *swords, shields, and suchlike*.
 **With *of*:** No *of*.
@@ -742,6 +772,7 @@ Of that sort — used to gesture at the rest of a category rather than spell it 
 ### sundry
 
 **Pronunciation:** /ˈsʌndri/ &middot; *SUN-dree*
+**Русский:** устар., бухг. — «разные, прочие»: sundry expenses; all and sundry «все подряд»
 **Type:** general/indefinite determiner (variety) &middot; **Position:** central determiner, or postdeterminer after one &middot; **Register:** **formal and dated**, sometimes jocular; alive in accounting and in the fixed phrase *all and sundry*
 **Goes with:** **plural countable nouns** (*sundry documents*, *sundry relatives*) and uncountable nouns naming a mass of odds and ends (*sundry paperwork*). Never a singular countable: ✗ *a sundry document*. It opens the phrase alone (*sundry expenses*) or follows a determiner (*the sundry complaints in the file*).
 **With *of*:** No *of*. In the fossilized phrase *all and sundry* the word is a **pronoun** meaning "everybody," not a determiner.
@@ -765,6 +796,7 @@ Various, of several sorts — a dated word for a mixed handful of small items, s
 ### various
 
 **Pronunciation:** /ˈvɛriəs/ &middot; *VAIR-ee-us*
+**Русский:** различные, разные — «несколько и притом разных»; только мн. ч., не с неисчисляемыми
 **Type:** general/indefinite determiner (variety and number) &middot; **Position:** central determiner, or postdeterminer after one &middot; **Register:** neutral — the current, unmarked member of its family
 **Goes with:** **plural countable nouns only** — *various reasons*, *various people*, *the various options*. Never a singular countable (✗ *a various reason*) and **never an uncountable** (✗ *various information*, ✗ *various advice*), which is the commonest error with this word. For uncountables you must go through a countable head: *various kinds of evidence*, *various forms of aid*.
 **With *of*:** No *of* before a bare noun. Formal writing does allow *various of* before another determiner — *various of the delegates walked out* — but it is rare and many editors dislike it; *several of the delegates* is the safe alternative.

@@ -15,11 +15,35 @@ Six of the nine core prepositions do heavy causal work — *for*, *from*, *of*, 
 
 ## Cause and reason
 
-The words that point backward to what produced the event. They differ almost entirely in register and in what kind of cause they will accept: *because of* takes anything, *out of* takes only a motive inside the actor, *through* takes only an abstract failing, *on the grounds of* takes only a stated justification, *on the pretext of* takes a stated justification the writer is calling a lie, *attributable to* takes a measured share of an effect and assigns it, and *thanks to* comes with an attitude attached. Entries are alphabetical.
+The words that point backward to what produced the event. They differ almost entirely in register and in what kind of cause they will accept: *because of* takes anything, *out of* takes only a motive inside the actor, *through* takes only an abstract failing, *on the grounds of* takes only a stated justification, *on the pretext of* takes a stated justification the writer is calling a lie, *attributable to* takes a measured share of an effect and assigns it, and *thanks to* comes with an attitude attached. Two of them are not standard written English at all — *along of* and *'count of* are dialect, set down here so you can recognize them rather than write them — and two more, *by operation of* and *in reliance on*, live entirely inside the law. Entries are alphabetical.
+
+### along of
+
+**Pronunciation:** /əˈlɔŋ əv/ &middot; weak /əˈlɔŋə/ &middot; *uh-LAWNG uhv* &middot; also /əˈlɑŋ əv/
+**Русский:** из-за, по вине — устар. и диал.; во 2-м знач. вместе с, в компании с
+**Type:** complex &middot; **Register:** **archaic and dialectal** — English regional speech (West Country, Kentish, later Cockney) from the seventeenth century on, carried into older rural American speech and now met almost only in nineteenth-century fiction, in folk song, and in dialogue written to sound old
+**Variants:** *'long of* and *long of* are the same phrase with the first syllable worn away, and they are the commoner spellings in American dialect writing. *Alonger* is a further-worn British form.
+**Complement:** noun phrase or objective-case pronoun — *along of you*, *along of the drink*. **No gerund** (✗ *along of missing the tide*) and **never a finite clause.** It also refuses fronting: there is no *Along of you, we missed the tide*. The phrase sits after the verb, very often after *all*.
+**Pattern:** [clause] *all along of* [noun phrase] &middot; [clause] *along of* [noun phrase] &middot; (sense 2) *come / go / take* [something] *along of* [pronoun]
+**Contrast:** Two senses that look like one word and are not. The causal sense descends from Old English *gelang* ("dependent on, owing to") and has nothing to do with motion at all; the accompaniment sense is the ordinary *along* of *along with*. The two fell together in spelling centuries ago and have been confusing readers of dialect ever since. In the causal sense it is a country cousin of [*because of*](#because-of) and [*on account of*](#on-account-of), and like them it belongs to speech. **Do not read it as ordinary modern usage** — a present-day American who writes *all along of the weather* is writing costume drama, and the only live reason to know the phrase is that Hardy, Kipling, and the ballads are full of it.
+
+**1. Because of; owing to — the causal sense.** From Old English *gelang*, and usually with *all*. *It's all along of you we missed the tide.*
+**2. Along with; in the company of — the accompaniment sense.** *He's gone off along of the others.*
+
+1. It's all *along of* you that we missed the tide.
+2. The crop failed, and that *along of* a summer nobody had seen the like of.
+3. She lost the cottage *along of* a debt her husband never mentioned.
+4. "All *along of* the drink," he said, "and nothing else."
+5. He's gone off up the lane *along of* the dog.
+6. Take the little one *along of* you and mind the gate.
+7. The boys went down to the river *along of* their uncle.
+
+**See also:** [on account of](#on-account-of), [because of](#because-of), ['count of](#count-of), [along with](08-accompaniment-exception.md#along-with), [with](02-core-relational.md#with)
 
 ### attributable to
 
 **Pronunciation:** /əˈtrɪbjətəbəl tu/ &middot; weak /əˈtrɪbjətəbəl tə/ &middot; *uh-TRIB-yuh-tuh-buhl too*
+**Русский:** объясняемый чем-л., относимый на счёт чего-л. — книжн., о доле причины
 **Type:** complex (adjective plus *to*) &middot; **Register:** formal — audits, reports, epidemiology, and the courts
 **Complement:** noun phrase or gerund (*attributable to having used last year's figures*). **Never a finite clause** — *attributable to the fact that* is the clause form, and it is clumsy enough that *because* is nearly always better.
 **Pattern:** [noun] *is attributable to* [noun phrase] &middot; [noun] *attributable to* [noun phrase] &middot; *directly / largely / wholly / partly / in part attributable to* [noun phrase]
@@ -40,6 +64,7 @@ Assigns an effect, or a measured portion of one, to a cause. The object is the c
 ### because of
 
 **Pronunciation:** /bɪˈkɔz əv/ or /bɪˈkʌz əv/ &middot; weak /bɪˈkəz əv/ &middot; casual /ˈkʌzə/ (*'cause of*) &middot; *bih-KAWZ uhv*
+**Русский:** из-за, по причине — основной, нейтральный предлог причины
 **Type:** complex &middot; **Register:** neutral — the default causal preposition of American English
 **Complement:** noun phrase, objective-case pronoun, gerund (*because of being late*), or a fused relative, which is still a noun phrase (*because of who he knows*, *because of what she said*). **Never a finite clause and never a *that*-clause.** The clause form is the conjunction *because* standing alone — *because it rained*, never *because of it rained* and never *because of that it rained*.
 **Pattern:** [clause] *because of* [noun phrase] &middot; *Because of* [noun phrase], [clause] &middot; *because of* [verb-ing] &middot; *partly / largely / mainly / only / precisely because of* [noun phrase]
@@ -57,9 +82,31 @@ Names the cause of whatever the main clause reports. It modifies the verb or the
 
 **See also:** [due to](#due-to), [owing to](#owing-to), [on account of](#on-account-of), [as a result of](#as-a-result-of), [thanks to](#thanks-to), [attributable to](#attributable-to), [because of (complex prepositions)](11-complex-multiword.md#because-of), [because (conjunction)](../../07-conjunctions/catalog/04-cause.md#because)
 
+### by operation of
+
+**Pronunciation:** /baɪ ˌɑpəˈreɪʃən əv/ &middot; weak /bə ˌɑpəˈreɪʃən ə/ &middot; *by-op-uh-RAY-shuhn uhv*
+**Русский:** в силу (закона) — юр.; о последствии, наступающем автоматически, без чьих-либо действий
+**Type:** complex &middot; **Register:** **legal** — statutes, deeds, title opinions, and the anti-assignment clause of almost every commercial contract; the one place a non-lawyer meets it is the fixed phrase *by operation of law*
+**Complement:** noun phrase, and in practice a very short list of them — *law*, *the statute*, *this section*, *the trust instrument*, *the merger doctrine*. **No gerund** (✗ *by operation of transferring the deed*) and **never a finite clause.** The object names a rule, never a person: ✗ *by operation of the trustee*.
+**Pattern:** *by operation of law* &middot; [clause] *by operation of* [statute or instrument] &middot; *by operation of law or otherwise* &middot; *whether by agreement or by operation of law*
+**Contrast:** Names a consequence that arrives **automatically, with nobody acting to bring it about** — which is the whole content of the phrase and the reason drafters cannot do without it. A joint tenant's share passes *by operation of law* the moment the co-tenant dies, and no one signs anything; that is why an anti-assignment clause says *by operation of law or otherwise*, to catch the transfers a merger or a death produces without an assignment. Against [*by virtue of*](#by-virtue-of), which names the standing or qualification that lets somebody act, and against [*pursuant to*](11-complex-multiword.md#pursuant-to), which names authority somebody is exercising: both of those have a human actor behind them and *by operation of* deliberately has none.
+
+Names the legal machinery itself as the cause: the result follows from a rule, automatically, without an act by any party.
+
+1. On her death the title passed to the survivor *by operation of law*.
+2. This lease may not be assigned, whether voluntarily or *by operation of law*.
+3. The debt was discharged *by operation of law* when the limitations period ran out.
+4. The easement was extinguished *by operation of* the merger doctrine, not by any release.
+5. A dissolved corporation loses its franchise *by operation of* the statute rather than by any act of the secretary of state.
+6. In most states an earlier will was revoked *by operation of law* on marriage until the probate code was rewritten.
+7. Nothing in this section prevents a transfer *by operation of law* to a surviving spouse.
+
+**See also:** [by virtue of](#by-virtue-of), [by reason of](#by-reason-of), [pursuant to](11-complex-multiword.md#pursuant-to), [under and pursuant to](13-formal-latin-archaic.md#under-and-pursuant-to), [in consideration of](13-formal-latin-archaic.md#in-consideration-of)
+
 ### by reason of
 
 **Pronunciation:** /baɪ ˈrizən əv/ &middot; weak /bə ˈrizən ə/ &middot; *by-REE-zuhn uhv*
+**Русский:** по причине, вследствие — юр. и книжн.; вне канцелярии звучит напыщенно
 **Type:** complex &middot; **Register:** legal and formal — outside statutes and pleadings it sounds stilted
 **Complement:** noun phrase, characteristically an abstract one (*by reason of insanity*, *by reason of age*). A gerund is possible (*by reason of having served twenty years*) but uncommon. **Never a finite clause** — the clausal form is the archaic *by reason that*.
 **Pattern:** [clause] *by reason of* [noun phrase] &middot; [noun] *by reason of* [noun phrase] &middot; *not guilty by reason of* [noun phrase]
@@ -79,6 +126,7 @@ The formal, chiefly legal way of naming a cause or a ground. In modern American 
 ### by virtue of
 
 **Pronunciation:** /baɪ ˈvɜrtʃu əv/ &middot; weak /bə ˈvɜrtʃu ə/ &middot; *by-VUR-choo uhv*
+**Русский:** в силу, на основании — книжн.; называет статус или качество, дающее право
 **Type:** complex &middot; **Register:** formal
 **Complement:** noun phrase or gerund (*by virtue of being the oldest*). **Never a finite clause** — for a clause you need *by virtue of the fact that*, which is heavy enough that *because* is almost always the better answer.
 **Pattern:** [clause] *by virtue of* [noun phrase] &middot; *By virtue of* [noun phrase], [clause] &middot; *by virtue of* [verb-ing]
@@ -95,9 +143,32 @@ Names the status, office, property, or established fact that entitles or enables
 
 **See also:** [by reason of](#by-reason-of), [on the strength of](#on-the-strength-of), [because of](#because-of), [by dint of](11-complex-multiword.md#by-dint-of), [by virtue of (complex prepositions)](11-complex-multiword.md#by-virtue-of)
 
+### 'count of
+
+**Pronunciation:** /ˈkaʊnt əv/ &middot; weak /ˈkaʊntə/, written *counta* in dialogue &middot; *KOWNT uhv*, casual *KOWN-tuh*
+**Русский:** из-за, потому как — простореч. и диал., стяжённое on account of
+**Type:** complex, aphetic — *on account of* with the front worn off &middot; **Register:** **nonstandard and regional** — Southern, Appalachian, South Midland, and African American English speech. In print it is eye-dialect, and an American meets it in fiction, in song lyrics, and in oral-history transcripts, essentially never in edited prose.
+**Variants:** *on count of* keeps the *on*; *'count of* and *count of* drop it; *count o'* drops the *f* as well. All of them are [*on account of*](#on-account-of) at different stages of wear, and the apostrophe is the writer's mark rather than anything the speaker does.
+**Complement:** noun phrase or gerund, exactly as with *on account of* — and, in the varieties where it lives, **a full finite clause as well**: *'count of it was raining*. That clause is ordinary inside the dialect and nonstandard in edited writing, which is the same split the [*on account of*](#on-account-of) entry describes. **Never a *that*-clause.**
+**Pattern:** [clause] *'count of* [noun phrase] &middot; [clause] *'count of* [verb-ing] &middot; (dialect) [clause] *'count of* [clause] &middot; *on count of* [noun phrase]
+**Contrast:** Not a separate preposition but a worn-down *on account of*, exactly as *'cause* is a worn-down *because* — and the parallel runs all the way down, since both are unremarkable in speech, both are marked in writing, and both live mostly in reported dialogue. Use it to place a speaker in fiction; do not use it in your own prose, and do not treat the clause pattern as an error in somebody else's mouth. Against [*because of*](#because-of), the neutral written word, and against [*on account of*](#on-account-of), which is itself already one step down in register.
+
+The clipped, regional form of *on account of*. Recognize it, and write *because of*.
+
+1. "We never went, *'count of* the creek was up."
+2. School let out early *'count of* the ice.
+3. "It ain't *'count of* the money," he said, "and you know it."
+4. He quit the mill *'count of* his back.
+5. "*On count of* what happened last spring, nobody's asking her twice."
+6. She stayed home *'count of* being the only one in the house who could drive.
+7. The verse is there *'count of* the rhyme and nothing else.
+
+**See also:** [on account of](#on-account-of), [because of](#because-of), [along of](#along-of), [on account of (complex prepositions)](11-complex-multiword.md#on-account-of), ['cause (conjunction)](../../07-conjunctions/catalog/04-cause.md#cause)
+
 ### courtesy of
 
 **Pronunciation:** /ˈkɜrtəsi əv/ &middot; weak /ˈkɜrtəsiə/ &middot; *KUR-tuh-see uhv*
+**Русский:** любезно предоставлено кем-л.; тж. ирон. благодаря кому-л. — о неприятном
 **Type:** complex &middot; **Register:** neutral, and heavily journalistic — captions, credit lines, sportswriting
 **Complement:** noun phrase naming a person, organization, or thing. No gerund, and **never a finite clause**. In photo credits it also appears bare, with the *of* dropped: *photo courtesy the Newberry Library*.
 **Pattern:** [clause], *courtesy of* [noun phrase] &middot; *Courtesy of* [noun phrase], [clause] &middot; (credit line) *Photograph courtesy of* [name] &middot; *by courtesy of* [noun phrase] (older, more formal)
@@ -120,6 +191,7 @@ Names the status, office, property, or established fact that entitles or enables
 ### due to
 
 **Pronunciation:** /ˈdu tu/ &middot; weak /ˈdu tə/ &middot; *DOO too* &middot; (British /ˈdjuː/, *DYOO*)
+**Русский:** вызванный чем-л., обусловленный чем-л.; наречно — из-за, по причине
 **Type:** complex &middot; **Register:** neutral, with a live usage dispute over sense 2
 **Complement:** noun phrase or gerund (*due to being understaffed*). **Never a finite clause** — for a clause you need *due to the fact that*, which spends nine syllables on what *because* does in two. Note that *be due to* + a bare infinitive (*the train is due to arrive at six*) is a completely different construction: the adjective *due* plus a real infinitive, meaning "scheduled."
 **Pattern:** [noun] *is due to* [noun phrase] &middot; [noun] *due to* [noun phrase] &middot; [clause] *due to* [noun phrase] &middot; *Due to* [noun phrase], [clause]
@@ -143,6 +215,7 @@ Names the status, office, property, or established fact that entitles or enables
 ### for lack of
 
 **Pronunciation:** /fɔr ˈlæk əv/ &middot; weak /fɚ ˈlæk ə/, also /fər/ &middot; stressed *for* /fɔr/ &middot; *fer-LAK uhv*
+**Русский:** за неимением, из-за нехватки чего-л.
 **Type:** complex &middot; **Register:** neutral
 **Complement:** noun phrase, characteristically a bare one with no article — *for lack of evidence*, *for lack of funding*, *for lack of a better word*. A gerund is possible but rare. **Never a finite clause.**
 **Pattern:** [clause] *for lack of* [noun phrase] &middot; *For lack of* [noun phrase], [clause] &middot; *for lack of a better* [noun] &middot; *for lack of anything better*
@@ -162,6 +235,7 @@ Names an absence as the cause: the thing failed because something necessary was 
 ### for want of
 
 **Pronunciation:** /fɔr ˈwɑnt əv/ &middot; also /ˈwɔnt/ &middot; weak /fɚ ˈwɑnt ə/ &middot; stressed *for* /fɔr/ &middot; *fer-WAHNT uhv*
+**Русский:** за неимением, за недостатком — книжн., с оттенком пословицы
 **Type:** complex &middot; **Register:** neutral to literary — proverbial, and noticeably formal in American English
 **Complement:** noun phrase, usually bare (*for want of a nail*). A gerund is possible but unusual. **Never a finite clause.**
 **Pattern:** [clause] *for want of* [noun phrase] &middot; *For want of* [noun phrase], [clause] &middot; *for want of a better* [noun] &middot; *for want of anything better to do*
@@ -181,6 +255,7 @@ The literary twin of *for lack of*: it names an absence as the cause of a failur
 ### in light of
 
 **Pronunciation:** /ɪn ˈlaɪt əv/ &middot; weak /ɪn ˈlaɪt ə/, run together as /ɪn ˈlaɪtə/ &middot; *in-LYT uhv*
+**Русский:** в свете чего-л., учитывая — о новых сведениях, а не о физической причине
 **Type:** complex &middot; **Register:** neutral to formal
 **Variants:** *in the light of*, with the article, is the dominant British form. **American English strongly prefers *in light of***, and the article-less form is now spreading in British writing too.
 **Complement:** noun phrase or gerund (*in light of having missed two payments*). **Never a finite clause** — use *in light of the fact that* if you must have one.
@@ -198,9 +273,32 @@ Names the new information or evidence in the light of which a decision is taken 
 
 **See also:** [in view of](#in-view-of), [on the grounds of](#on-the-grounds-of), [on the strength of](#on-the-strength-of), [given](12-marginal-participial.md#given), [considering](12-marginal-participial.md#considering), [in light of (complex prepositions)](11-complex-multiword.md#in-light-of)
 
+### in reliance on
+
+**Pronunciation:** /ɪn rɪˈlaɪəns ɑn/ &middot; weak /ɪn rɪˈlaɪəns ən/ &middot; *in-rih-LY-uhns on*
+**Русский:** полагаясь на, доверившись — юр.; о поступке, совершённом на основании заявления
+**Type:** complex &middot; **Register:** formal and legal — contracts, opinion letters, securities filings, and fraud and estoppel pleadings
+**Variants:** *in reliance upon* is the heavier drafting form and is usual in older instruments. *In reasonable reliance on* and *in justifiable reliance on* are the pleading formulas, and the modifier there is doing legal work rather than decorating.
+**Complement:** noun phrase — a statement, representation, promise, opinion, certificate, or document — or a **gerund** (*in reliance on being told the title was clear*). **Never a finite clause.** The clause hangs off the noun instead: in *in reliance on the representation that the title was clear*, the *that* belongs to *representation*, not to the preposition.
+**Pattern:** [clause] *in reliance on* [noun phrase] &middot; *In reliance on* [noun phrase], [clause] &middot; *in reasonable reliance on* [noun phrase] &middot; *in reliance upon* [noun phrase] &middot; *in reliance on* [verb-ing]
+**Contrast:** Names the statement somebody **acted on**, and the acting is the point — reliance with no act behind it carries no legal weight, which is why the phrase attaches to verbs of doing: *signed*, *paid*, *bought*, *forbore*, *spent*. Against [*on the strength of*](#on-the-strength-of), the everyday equivalent, which names a demonstration that persuaded; *in reliance on* names something asserted and adds the claim that the actor was entitled to believe it. Against [*in light of*](#in-light-of), which names information a decision took account of and says nothing about who supplied it or whether it was true. Against [*on the basis of*](11-complex-multiword.md#on-the-basis-of), which is colder and merely procedural.
+
+Names the statement or document somebody acted on, with the implication that acting on it was reasonable.
+
+1. She bought the lot *in reliance on* a survey the seller had commissioned.
+2. The bank released the funds *in reliance on* the auditor's certificate.
+3. *In reliance on* that promise, the tenant spent forty thousand dollars on the buildout.
+4. The complaint alleges that he signed *in reasonable reliance on* projections the company knew were stale.
+5. Investors purchased *in reliance upon* statements the company withdrew four months later.
+6. Nothing at all was done *in reliance on* the email, which is exactly why the estoppel argument failed.
+7. He turned down the other offer *in reliance on* being told the job was his.
+
+**See also:** [on the strength of](#on-the-strength-of), [in light of](#in-light-of), [by virtue of](#by-virtue-of), [on the basis of](11-complex-multiword.md#on-the-basis-of), [dependence on/reliance on](16-dependent-nouns.md#dependence-onreliance-on)
+
 ### in view of
 
 **Pronunciation:** /ɪn ˈvju əv/ &middot; weak /ɪn ˈvju ə/ &middot; *in-VYOO uhv*
+**Русский:** ввиду, принимая во внимание — книжн.; об уже имеющемся обстоятельстве
 **Type:** complex &middot; **Register:** formal
 **Complement:** noun phrase or gerund. **Never a finite clause** — *in view of the fact that* for a clause.
 **Pattern:** *In view of* [noun phrase], [clause] &middot; [clause] *in view of* [noun phrase] &middot; *in view of* [verb-ing]
@@ -220,6 +318,7 @@ Names the standing circumstance that a decision takes account of — the formal 
 ### on account of
 
 **Pronunciation:** /ɑn əˈkaʊnt əv/ &middot; weak /ən əˈkaʊnt ə/ &middot; casual /ənəˈkaʊntə/ (*on accounta*) &middot; *on-uh-KOWNT uhv*
+**Русский:** из-за, по причине — нейтр. на письме, разг. в речи
 **Type:** complex &middot; **Register:** neutral in writing, colloquial in speech — and **the clause use is nonstandard**
 **Complement:** noun phrase or gerund (*on account of being sick*). In standard written English, **never a finite clause** — but *on account of he was sick*, with a full clause, is a real and widespread spoken form in Southern, Midland, and African American English, and the folk-doubled *on account of because* belongs to the same register. Recognize both; do not write either in edited prose.
 **Pattern:** [clause] *on account of* [noun phrase] &middot; *On account of* [noun phrase], [clause] &middot; *on account of* [verb-ing]
@@ -239,6 +338,7 @@ Names a cause in the plainest available words, with a spoken flavor that *becaus
 ### on the grounds of
 
 **Pronunciation:** /ɑn ðə ˈɡraʊndz əv/ &middot; weak /ən ðə ˈɡraʊndz ə/ &middot; *on-thuh-GROWNDZ uhv*
+**Русский:** на основании, по причине — офиц. и юр.; о заявленном основании
 **Type:** complex &middot; **Register:** formal and legal
 **Variants:** *on grounds of*, without the article, is standard in journalism and legal drafting. The singular *on the ground of* is older and now mainly British.
 **Complement:** noun phrase — characteristically an abstract noun naming a category of justification (*race*, *cruelty*, *national security*, *self-incrimination*). A gerund is possible but stiff. **Never a finite clause:** the clause form is *on the grounds that*, which is a conjunction, not this preposition.
@@ -259,6 +359,7 @@ Names the stated justification for a decision, a refusal, a claim, or a legal ac
 ### on the pretext of
 
 **Pronunciation:** /ɑn ðə ˈpritɛkst əv/ &middot; weak /ən ðə ˈpritɛkst ə/ &middot; *on-thuh-PREE-tekst uhv*
+**Русский:** под предлогом — утверждает, что названная причина ложная
 **Type:** complex &middot; **Register:** neutral to formal — journalism, history, and narrative
 **Variants:** *under the pretext of* is at least as common in American English and is a shade more accusatory. *On the pretense of* is a near-synonym; *under the guise of* stresses the disguise rather than the excuse, and takes a noun more readily than a gerund.
 **Complement:** noun phrase or gerund (*on the pretext of checking the meter*). **Never a finite clause** — the clause form is *on the pretext that* + clause, which is a conjunction: *on the pretext that the meter needed checking*.
@@ -280,6 +381,7 @@ Names the false reason somebody gave — the excuse offered to cover the real mo
 ### on the strength of
 
 **Pronunciation:** /ɑn ðə ˈstrɛŋkθ əv/ &middot; also /ˈstrɛŋθ/ &middot; weak /ən ðə ˈstrɛŋkθ ə/ &middot; *on-thuh-STRENGKTH uhv*
+**Русский:** полагаясь на, основываясь на — о том, что убедило человека действовать
 **Type:** complex &middot; **Register:** neutral to formal
 **Complement:** noun phrase or gerund (*on the strength of having worked with them before*). **Never a finite clause.**
 **Pattern:** [clause] *on the strength of* [noun phrase] &middot; *On the strength of* [noun phrase], [clause] &middot; *on the strength of* [verb-ing]
@@ -299,8 +401,9 @@ Names the demonstration, showing, or asset that persuaded someone to act.
 ### out of
 
 **Pronunciation:** /ˈaʊt əv/ &middot; weak /ˈaʊtə/ &middot; *OWT uhv*, casual *OW-tuh*
+**Русский:** из, по — о побуждении: из любопытства, из страха; тж. из-за нехватки чего-л.
 **Type:** complex &middot; **Register:** neutral
-**Complement:** in the **motive** sense (1), a **bare abstract noun with no determiner** — *out of curiosity*, *out of spite*, *out of respect*, *out of habit*. An article usually breaks it: *out of a sense of duty* works only because the head noun is *sense*, while *out of the curiosity* is impossible. A gerund is marginal in this sense (*out of not wanting to embarrass her* occurs and grates). In the **source** sense (2) the complement is an ordinary noun phrase with its determiners intact — *out of that meeting*, *out of one complaint letter* — and a fused relative works there as well, which is still a noun phrase and not a clause: *something good came out of what happened*. In the **exhaustion** sense (3) it is again a bare noun, this time naming a resource: *out of options*, *out of time*, *out of patience*. **Never a *that*-clause in any sense, and no other finite clause either.** **Bare *out* is a different word:** it is an adverb or a verb particle and takes no object at all (*she walked out*, *cross it out*, *the truth came out*), where *out of* is the two-word preposition and always requires one — *the truth came out* against *the truth came out of a deposition nobody read*. (The spatial *out of* — *out of the house* — is treated with the prepositions of [movement](04-movement-direction.md#out-of), and the full six-sense account of the word, proportions and *made out of* included, is at [out of](11-complex-multiword.md#out-of).)
+**Complement:** in the **motive** sense (1), a **bare abstract noun with no determiner** — *out of curiosity*, *out of spite*, *out of respect*, *out of habit*. An article usually breaks it: *out of a sense of duty* works only because the head noun is *sense*, while *out of the curiosity* is impossible. A gerund is marginal in this sense (*out of not wanting to embarrass her* occurs and grates). In the **source** sense (2) the complement is an ordinary noun phrase with its determiners intact — *out of that meeting*, *out of one complaint letter* — and a fused relative works there as well, which is still a noun phrase and not a clause: *something good came out of what happened*. In the **exhaustion** sense (3) it is again a bare noun, this time naming a resource: *out of options*, *out of time*, *out of patience*. ✗ *Never a *that*-clause in any sense, and no other finite clause either.** ✗ *Bare *out* is a different word:** it is an adverb or a verb particle and takes no object at all (*she walked out*, *cross it out*, *the truth came out*), where *out of* is the two-word preposition and always requires one — *the truth came out* against *the truth came out of a deposition nobody read*. (The spatial *out of* — *out of the house* — is treated with the prepositions of [movement](04-movement-direction.md#out-of), and the full six-sense account of the word, proportions and *made out of* included, is at [out of](11-complex-multiword.md#out-of).)
 **Pattern:** [clause] *out of* [bare abstract noun] &middot; *Out of* [bare abstract noun], [clause] &middot; *out of a sense of* [noun] &middot; *out of respect / fear / spite / habit / necessity / curiosity / desperation* &middot; [*come / grow / arise / develop*] *out of* [noun phrase] &middot; *Out of* [resource noun], [clause]
 **Contrast:** In sense 1 *out of* names the **motive inside the actor** — the feeling or disposition the action came out of — where *because of* names a cause outside. *She lied out of fear* is about her state; *she lied because of the threat* is about the threat. The determinerless noun is the surest sign you are in this sense rather than the spatial one. Against *from*, which overlaps in *acted from a sense of duty* but sounds more literary; see [from](02-core-relational.md#from). Sense 2 is the ancestor of the legal [*arising out of*](#arising-from), and there the direction reverses: the object is the origin and the subject is what grew from it. Sense 3 is the mirror of [*for lack of*](#for-lack-of) — both make an absence the reason — but *for lack of* names what was never there and *out of* names what ran out.
 
@@ -326,6 +429,7 @@ Names the demonstration, showing, or asset that persuaded someone to act.
 ### over
 
 **Pronunciation:** /ˈoʊvər/ &middot; *OH-ver* &middot; no weak form; the clipped *o'er* /ɔr/ is verse only
+**Русский:** из-за, по поводу — предмет спора, возмущения или переживаний
 **Type:** simple &middot; **Register:** neutral
 **Complement:** noun phrase, objective-case pronoun, gerund (*sued over failing to disclose the defect*), or a **wh-clause** — and the wh-clause is the one complement that separates *over* from every other word in this file: *a dispute over whether the vote was binding*, *confusion over how the money was spent*, *a fight over who pays*. **Never a *that*-clause:** *an argument over that he lied* is not English. *Over* is also an adverb (*the meeting is over*, *pull over*, *come over*), an adjective (*it's over between them*), and a verb particle (*think it over*, *hand it over*); **the preposition always has an object and the adverb never does** — *they argued over the fee* against *the argument is over*, *he handed over the keys* (particle plus object of the verb) against *he leaned over the rail* (preposition plus its own object).
 **Pattern:** [noun or verb of conflict, loss, or strong feeling] *over* [noun phrase] &middot; *resign / quit / sue / be arrested / cry / agonize / apologize / lose sleep over* [noun phrase] &middot; *fuss / gush / fawn / rave / obsess over* [noun phrase] &middot; *disagreement / confusion / a fight over* [wh-clause] &middot; stranded: *what exactly are they fighting* **over**?
@@ -355,6 +459,7 @@ Names the demonstration, showing, or asset that persuaded someone to act.
 ### owing to
 
 **Pronunciation:** /ˈoʊɪŋ tu/ &middot; weak /ˈoʊɪŋ tə/ &middot; *OH-ing too*
+**Русский:** вследствие, из-за, благодаря — книжн., в амер. английском слегка устарело
 **Type:** marginal/participial (frozen out of the verb *owe*) &middot; **Register:** formal, and somewhat old-fashioned in American English
 **Complement:** noun phrase or gerund (*owing to being short-staffed*). **Never a finite clause** — *owing to the fact that* for a clause. Keep it separate from the ordinary predicative adjective *owing* (*there is still money owing*), where no preposition is involved at all.
 **Pattern:** [clause] *owing to* [noun phrase] &middot; *Owing to* [noun phrase], [clause] &middot; *owing to* [verb-ing]
@@ -374,6 +479,7 @@ Names a cause in a register one notch above *because of*. Frozen out of the verb
 ### thanks to
 
 **Pronunciation:** /ˈθæŋks tu/ &middot; weak /ˈθæŋks tə/ &middot; *THANKS too*
+**Русский:** благодаря — и всерьёз, и иронически: «благодаря объезду мы простояли час»
 **Type:** complex &middot; **Register:** neutral — common in speech and in journalism
 **Complement:** noun phrase, including an objective-case pronoun (*thanks to you*, *thanks to them*). A gerund is possible but uncommon. **Never a finite clause.**
 **Pattern:** [clause] *thanks to* [noun phrase] &middot; *Thanks to* [noun phrase], [clause] &middot; *no thanks to* [noun phrase]
@@ -398,6 +504,7 @@ Names a cause in a register one notch above *because of*. Frozen out of the verb
 ### through
 
 **Pronunciation:** /θru/ &middot; *THROO* &middot; no true weak form, but in rapid speech the vowel shortens toward /θrʊ/ and, before a consonant, as far as /θrə/ (*through carelessness* /θrə ˈkɛrləsnəs/). The spelling *thru* is signage and shorthand, not prose.
+**Русский:** по причине, из-за — по неосторожности, по счастливой случайности
 **Type:** simple &middot; **Register:** neutral, a shade formal in this sense
 **Complement:** in the causal sense, a noun phrase headed by an **abstract noun naming a fault, quality, or process** — *through carelessness*, *through sheer luck*, *through neglect* — very often with no determiner. A gerund is marginal. **Never a finite clause.** *Through* is also an adverb (*let me through*, *the bolt went through*), an adjective (*we're through*, *are you through with that?*), and a time preposition (*Monday through Friday*); **the preposition always has an object and the adverb never does** — *it failed through carelessness* (preposition plus object) against *pull the wire through* and *he read it through* (adverb, no object of its own). Note too that the movement sense strands freely (*the tunnel we drove* ***through***) while this causal sense does not: ***What did the file get deleted through?*** is not idiomatic.
 **Pattern:** [clause] *through* [abstract noun] &middot; *Through* [abstract noun], [clause] &middot; *through no fault of* [possessive] *own* &middot; *through sheer* [noun]
@@ -421,6 +528,7 @@ Names a cause in a register one notch above *because of*. Frozen out of the verb
 ### what with
 
 **Pronunciation:** /ˈwʌt wɪθ/ &middot; also /ˈwɑt/, older /ˈhwʌt/ &middot; weak /wət wəθ/, also /wət wəð/ &middot; *WUT with*
+**Русский:** из-за всего этого, тут и то и это — разг.; перечисляет несколько причин в оправдание
 **Type:** complex &middot; **Register:** informal and conversational — rare in edited prose
 **Complement:** a noun phrase, very often a coordinated list, and very often rounded off with *and all*. It also takes a **small clause** — a noun phrase plus a participle, as in *what with the kids being sick* — which no other causal preposition does. **Never a finite clause:** *what with he was sick* is not English.
 **Pattern:** *What with* [noun phrase] *and* [noun phrase], [clause] &middot; *What with* [noun phrase] *and all*, [clause] &middot; *What with* [noun phrase] [verb-ing], [clause] &middot; [clause], *what with* [noun phrase]
@@ -440,11 +548,12 @@ Introduces a pile of contributing circumstances, usually by way of excuse for so
 
 ## Result and consequence
 
-Eight phrases built on the words *result*, *consequence*, *cause*, *arise*, and *secondary*. They carry a trap that catches learners and native speakers alike: **the object of every one of them is the cause, not the result.** In *four people were hospitalized as a result of the crash*, the crash is the cause and the hospitalizations are the result — the phrase names what the result came out of. The adverbs formed from the same words (*as a result*, *consequently*, *in consequence*) point the other way and take no object at all. Entries are alphabetical.
+Nine phrases: eight of them built on the words *result*, *consequence*, *cause*, *arise*, and *secondary*, plus [*to the detriment of*](#to-the-detriment-of), which is the odd one out. The eight carry a trap that catches learners and native speakers alike: **the object of every one of them is the cause, not the result.** In *four people were hospitalized as a result of the crash*, the crash is the cause and the hospitalizations are the result — the phrase names what the result came out of. The adverbs formed from the same words (*as a result*, *consequently*, *in consequence*) point the other way and take no object at all. [*To the detriment of*](#to-the-detriment-of) points somewhere else again: its object is neither the cause nor the result but whoever the result fell on. Entries are alphabetical.
 
 ### arising from
 
 **Pronunciation:** /əˈraɪzɪŋ frʌm/ &middot; weak /əˈraɪzɪŋ frəm/ &middot; *uh-RY-zing frum*
+**Русский:** вытекающий из, возникающий из — юр., намеренно широкая формула договоров
 **Type:** marginal/participial &middot; **Register:** legal — contracts, insurance policies, pleadings
 **Variants:** *arising out of* is the standard form in American contract drafting and the one you will meet in arbitration clauses; *arising from* is slightly plainer. *Arising under* is narrower and means "deriving from the terms of the instrument itself."
 **Complement:** noun phrase. No gerund in practice, and **never a finite clause**. Unlike almost everything else in this file it **cannot be fronted**: it postmodifies a noun, so there is no *Arising from the accident, he sued*.
@@ -465,6 +574,7 @@ Names the event or instrument that a claim, cost, obligation, or dispute grew ou
 ### as a consequence of
 
 **Pronunciation:** /æz ə ˈkɑnsəkwɛns əv/ &middot; weak /əz ə ˈkɑnsəkwəns ə/ &middot; *az-uh-KON-suh-kwens uhv*
+**Русский:** вследствие, как следствие — книжн., научный и технический стиль
 **Type:** complex &middot; **Register:** formal — academic and technical writing
 **Complement:** noun phrase or gerund (*as a consequence of having missed the deadline*). **Never a finite clause.**
 **Pattern:** [clause] *as a consequence of* [noun phrase] &middot; *As a consequence of* [noun phrase], [clause] &middot; *as a direct consequence of* [noun phrase]
@@ -484,6 +594,7 @@ Names the cause an outcome followed from, with a suggestion that the outcome was
 ### as a result of
 
 **Pronunciation:** /æz ə rɪˈzʌlt əv/ &middot; weak /əz ə rɪˈzʌltə/ &middot; *az-uh-rih-ZULT uhv*
+**Русский:** в результате, вследствие — стандартный оборот отчётов и новостей
 **Type:** complex &middot; **Register:** neutral to formal — the standard phrase of reports, news writing, and official statements
 **Complement:** noun phrase or gerund (*as a result of being denied a permit*). **Never a finite clause.**
 **Pattern:** [clause] *as a result of* [noun phrase] &middot; *As a result of* [noun phrase], [clause] &middot; *as a direct result of* [noun phrase]
@@ -503,6 +614,7 @@ Names the cause that an outcome followed from. The object of the phrase is the c
 ### caused by
 
 **Pronunciation:** /ˈkɔzd baɪ/ &middot; weak /ˈkɔzd bə/ &middot; *KAWZD by*
+**Русский:** вызванный чем-л., причинённый чем-л. — нейтр., самый простой оборот причины
 **Type:** marginal/participial &middot; **Register:** neutral — the plainest causal participle in the language, at home everywhere from warranties to weather reports
 **Complement:** noun phrase naming either an event or, unusually for this file, an **agent**: *damage caused by the contractor* as readily as *damage caused by the storm*. A gerund is possible but stiff (*caused by having left the valve open*). **Never a finite clause** — there is no *caused by that* and no *caused by the fact that* worth writing.
 **Pattern:** [noun] *caused by* [noun phrase] &middot; [noun] *was caused by* [noun phrase] &middot; *damage / delay / injury / illness caused by* [noun phrase] &middot; *arising out of, resulting from, or caused by* [noun phrase]
@@ -523,6 +635,7 @@ Attaches a result-noun, or a subject after *be*, to the thing that directly prod
 ### consequent on
 
 **Pronunciation:** /ˈkɑnsəkwɛnt ɑn/ &middot; weak /ˈkɑnsəkwənt ən/ &middot; *KON-suh-kwent on*
+**Русский:** вытекающий из, последовавший за — книжн.; чаще определение при существительном
 **Type:** complex &middot; **Register:** formal and academic; in American English it is rare and slightly stiff
 **Variants:** *consequent upon* is the older, heavier form and is commoner in British writing. *Consequent to* also occurs and is disliked by careful writers. American English prefers *consequent on* when it uses the phrase at all.
 **Complement:** noun phrase or gerund. **Never a finite clause.**
@@ -543,6 +656,7 @@ An adjective-based phrase that attaches a result-noun to its cause: *the layoffs
 ### in consequence of
 
 **Pronunciation:** /ɪn ˈkɑnsəkwəns əv/ &middot; weak /ɪn ˈkɑnsəkwəns ə/ &middot; *in-KON-suh-kwuhns uhv*
+**Русский:** вследствие — книжн., юр. и устар., канцелярского XIX века
 **Type:** complex &middot; **Register:** formal, legal, and dated — nineteenth-century in flavor
 **Complement:** noun phrase or gerund. **Never a finite clause.**
 **Pattern:** [clause] *in consequence of* [noun phrase] &middot; *In consequence of* [noun phrase], [clause]
@@ -562,6 +676,7 @@ The dated, legal way of naming the cause an outcome followed from. Its object is
 ### resulting from
 
 **Pronunciation:** /rɪˈzʌltɪŋ frʌm/ &middot; weak /rɪˈzʌltɪŋ frəm/ &middot; *rih-ZUL-ting frum*
+**Русский:** являющийся результатом, вызванный чем-л. — техн., юр. и мед.
 **Type:** marginal/participial &middot; **Register:** neutral to formal — technical, legal, insurance, and medical writing
 **Variants:** *stemming from* is the everyday journalistic equivalent and is the one to use in ordinary prose; *flowing from* is a drafting alternate; *caused by* is plainer and narrower still. American contracts habitually stack them — *arising out of or resulting from*.
 **Complement:** noun phrase. A gerund is possible but rare (*resulting from having ignored the warning*), and there is **never a finite clause.** Like [*arising from*](#arising-from) it **cannot be fronted**: it postmodifies a noun, so there is no *Resulting from the crash, four people were hurt*.
@@ -583,6 +698,7 @@ Attaches a result-noun to the event that directly produced it. It is a participl
 ### secondary to
 
 **Pronunciation:** /ˈsɛkənˌdɛri tu/ &middot; weak /ˈsɛkənˌdɛri tə/ &middot; *SEK-uhn-derr-ee too*
+**Русский:** вторичный по отношению к, вызванный чем-л. — мед.; не «менее важный»
 **Type:** complex (adjective plus *to*) &middot; **Register:** technical — medicine, epidemiology, and engineering reports; outside them it reads as jargon
 **Complement:** noun phrase, characteristically a condition, event, or process (*secondary to diabetes*, *secondary to blunt trauma*). A gerund is rare and clinical (*secondary to having aspirated*). **Never a finite clause.**
 **Pattern:** [noun] *secondary to* [noun phrase] &middot; [condition] *is secondary to* [condition] &middot; *renal failure secondary to* [noun phrase]
@@ -599,14 +715,36 @@ Names the primary condition or event that a later one developed out of — the c
 
 **See also:** [caused by](#caused-by), [attributable to](#attributable-to), [resulting from](#resulting-from), [due to](#due-to), [consequent on](#consequent-on), [from](02-core-relational.md#from)
 
+### to the detriment of
+
+**Pronunciation:** /tu ðə ˈdɛtrəmənt əv/ &middot; weak /tə ðə ˈdɛtrəmənt ə/ &middot; *too-thuh-DET-ruh-muhnt uhv*
+**Русский:** в ущерб кому/чему-л. — книжн.; вводит пострадавшего, а не причину
+**Type:** complex &middot; **Register:** formal — legal, academic, and editorial writing; in speech it sounds like something read aloud
+**Complement:** noun phrase naming the **party or interest that is harmed** — a person, a class, a market, a value. A gerund occurs and is grammatical (*to the detriment of finishing the book*) but is far rarer than the noun, and *at the expense of* is the idiomatic choice there. **Never a finite clause.** It also has a **possessive frame** with no *of* at all — *to his detriment*, *to her detriment*, *to its own detriment* — which is the form the law uses.
+**Pattern:** [clause] *to the detriment of* [noun phrase] &middot; [clause], *to the detriment of* [noun phrase] &middot; *to* [possessive] *detriment* &middot; *operate / work / redound to the detriment of* [noun phrase]
+**Contrast:** **Result, not cause — and the one phrase in this section whose object is neither.** Everything else here (*as a result of*, *resulting from*, *caused by*, *arising from*) takes the cause as its object; *to the detriment of* takes the party the result **fell on**. That is why the two can sit in one sentence without redundancy: *rates rose as a result of the merger, to the detriment of every small shipper in the state*. Against [*at the expense of*](11-complex-multiword.md#at-the-expense-of), which names what was **traded away** and takes an abstraction as readily as a person (*speed at the expense of accuracy*); *to the detriment of* names who was **hurt**, and it is the more formal and the more accusatory of the two. In law the possessive frame is a term of art: a party who has changed position *to his detriment* has the injury that makes an otherwise bare promise enforceable.
+
+Names the party or interest a result damages. Its object is neither the cause nor the outcome but whoever the outcome fell on.
+
+1. The rule protects incumbents, *to the detriment of* everyone trying to enter the market.
+2. He settled in a week, *to his detriment*, and learned the rest of the facts a month later.
+3. Grazing was allowed to continue *to the detriment of* the whole watershed.
+4. The schedule was built around the second shift, *to the detriment of* the first.
+5. She changed her position *to her detriment* in reliance on a promise nobody wrote down.
+6. Cheap freight came at last, *to the detriment of* every small port on the lake.
+7. The court found that the clause operated *to the detriment of* the party who had not drafted it.
+
+**See also:** [as a result of](#as-a-result-of), [resulting from](#resulting-from), [in mitigation of](#in-mitigation-of), [in reliance on](#in-reliance-on), [at the expense of](11-complex-multiword.md#at-the-expense-of)
+
 
 ## Purpose and intention
 
-The words that point forward to an aim. Their meanings barely differ; what differs is what they take, and that difference is absolute. *In order to*, *so as to*, *in an effort to*, and *with intent to* take a **bare infinitive** and cannot take a noun at all, which strictly disqualifies the first two as prepositions — they are infinitival subordinators sitting in a preposition's slot, and they are listed here because that is where learners look for them. Everything else in this section takes a **gerund or a noun phrase** and refuses the infinitive: *with a view to*, *with an eye to*, *with the aim of*, *for the purpose of*, *for the sake of*, *for fear of*, *in the hope of*, *in the interest of*, and — noun only, no gerund — *for the benefit of*, *in furtherance of*, *in pursuance of*, and *in pursuit of*. **The tell is the *of*.** Every purpose phrase that ends in *of* takes a gerund; the ones that end in bare *to* take an infinitive — with the single exception of *with a view to*, whose *to* is a preposition, which is exactly why that one has to be memorized rather than worked out. The full table is [at the end of the file](#what-each-purpose-phrase-takes). Entries are alphabetical.
+The words that point forward to an aim. Their meanings barely differ; what differs is what they take, and that difference is absolute. *In order to*, *so as to*, *in an effort to*, and *with intent to* take a **bare infinitive** and cannot take a noun at all, which strictly disqualifies the first two as prepositions — they are infinitival subordinators sitting in a preposition's slot, and they are listed here because that is where learners look for them. Everything else in this section takes a **gerund or a noun phrase** and refuses the infinitive: *with a view to*, *with an eye to*, *with the aim of*, *for the purpose of*, *for the sake of*, *for fear of*, *in the hope of*, *in the interest of*, *in contemplation of*, *in preparation for*, *in recognition of*, and *on pain of*, and — noun only, no gerund — *for the benefit of*, *in aid of*, *in furtherance of*, *in honor of*, *in mitigation of*, *in obedience to*, *in pursuance of*, *in pursuit of*, and *in token of*. **The tell is the last word.** Where the phrase ends in a **preposition** — *of* in nearly all of them, *for* in *in preparation for*, and the deceptive *to* of *with a view to* and *in obedience to* — any verb after it must be a gerund, and in several of them no verb fits at all. Where the phrase ends in the **infinitive marker *to***, the verb is bare. *With a view to* is the trap, because its *to* is a preposition wearing the other one's clothes. The full table is [at the end of the file](#what-each-purpose-phrase-takes). Entries are alphabetical.
 
 ### for fear of
 
 **Pronunciation:** /fɔr ˈfɪr əv/ &middot; weak /fɚ ˈfɪr ə/, also /fər/ &middot; stressed *for* /fɔr/ &middot; *fer-FEER uhv*
+**Русский:** из страха перед чем-л., боясь чего-л.
 **Type:** complex &middot; **Register:** neutral
 **Complement:** noun phrase or gerund (*for fear of waking her*). **Never a finite clause** — the clause form is *for fear that* + clause, which is a conjunction: *for fear that she would wake*.
 **Pattern:** [clause] *for fear of* [verb-ing] &middot; [clause] *for fear of* [noun phrase] &middot; *for fear that* [clause] (the conjunction)
@@ -626,6 +764,7 @@ Negative purpose: names the outcome the action is designed to avoid.
 ### for the benefit of
 
 **Pronunciation:** /fɔr ðə ˈbɛnəfɪt əv/ &middot; weak /fɚ ðə ˈbɛnəfɪt ə/ &middot; stressed *for* /fɔr/ &middot; *fer-thuh-BEN-uh-fit uhv*
+**Русский:** для, ради, в пользу кого-л.
 **Type:** complex &middot; **Register:** neutral to formal
 **Complement:** noun phrase naming a person, group, or institution. A gerund is not idiomatic here. **Never a finite clause.**
 **Pattern:** [clause] *for the benefit of* [noun phrase] &middot; *For the benefit of* [noun phrase], [clause] &middot; *held in trust for the benefit of* [noun phrase]
@@ -645,6 +784,7 @@ Names the person, group, or institution an action is meant to serve.
 ### for the purpose of
 
 **Pronunciation:** /fɔr ðə ˈpɜrpəs əv/ &middot; weak /fɚ ðə ˈpɜrpəs ə/ &middot; stressed *for* /fɔr/ &middot; *fer-thuh-PUR-puhs uhv*
+**Русский:** с целью, в целях; тж. «для целей настоящего раздела» — офиц. и юр.
 **Type:** complex &middot; **Register:** formal, legal, and bureaucratic
 **Variants:** *for purposes of* and the drafting plural *for the purposes of this section* are both standard; the plural is the normal form when the phrase fixes the scope of a document rather than stating the aim of an act.
 **Complement:** **noun phrase or gerund only — never a bare infinitive.** *For the purpose of determining eligibility* is correct; *for the purpose of to determine eligibility* and *for the purpose of determine eligibility* are both errors. **Never a finite clause.**
@@ -668,6 +808,7 @@ Names the person, group, or institution an action is meant to serve.
 ### for the sake of
 
 **Pronunciation:** /fɔr ðə ˈseɪk əv/ &middot; weak /fɚ ðə ˈseɪk ə/ &middot; stressed *for* /fɔr/ &middot; *fer-thuh-SAYK uhv*
+**Русский:** ради, для — ради детей; ради ясности; в устойч. «ради бога»
 **Type:** complex &middot; **Register:** neutral
 **Complement:** noun phrase or gerund (*for the sake of getting it over with*). **Never a finite clause.** It also has a **possessive frame** with no *of* at all — *for her sake*, *for the children's sake*, *for heaven's sake*, *for old times' sake*, *for its own sake* — and note the bare apostrophe in *for goodness' sake* and *for old times' sake*.
 **Pattern:** [clause] *for the sake of* [noun phrase] &middot; *For the sake of* [noun phrase], [clause] &middot; *for the sake of* [verb-ing] &middot; *for* [possessive] *sake* &middot; *for the sake of argument* &middot; *for its own sake*
@@ -689,9 +830,32 @@ Names the person, group, or institution an action is meant to serve.
 
 **See also:** [for the benefit of](#for-the-benefit-of), [in the interest of](#in-the-interest-of), [for the purpose of](#for-the-purpose-of), [in the hope of](#in-the-hope-of), [for](02-core-relational.md#for), [for the sake of (conjunctions catalog)](../../07-conjunctions/catalog/05-purpose-result.md#for-the-sake-of)
 
+### in aid of
+
+**Pronunciation:** /ɪn ˈeɪd əv/ &middot; weak /ɪn ˈeɪd ə/, run together as /ɪn ˈeɪdə/ &middot; *in-AYD uhv*
+**Русский:** юр. в обеспечение, в поддержку уже начатого; брит. в пользу (сбор средств)
+**Type:** complex &middot; **Register:** split, and Americans meet only half of it naturally. **Legal and official** — *in aid of jurisdiction*, *in aid of execution*, *in aid of the civil power* — is current American English and is where a lawyer meets it daily. The charity sense (*a concert in aid of the hospice*) is **chiefly British**; American English says *to benefit* or *in support of*. The exasperated question *What's all this in aid of?* is British to its bones.
+**Complement:** noun phrase — a court's jurisdiction, a judgment, a proceeding, an institution, a cause. A gerund is possible but rare and reads as drafting slack (*in aid of enforcing the judgment*), and the noun is always available: *in aid of enforcement*. **Never a bare infinitive** (✗ *in aid of to enforce the judgment*) and **never a finite clause.**
+**Pattern:** *in aid of* [noun phrase] &middot; *writs necessary or appropriate in aid of* [noun phrase] &middot; *discovery in aid of execution* &middot; *relief in aid of arbitration* &middot; (British) *a benefit in aid of* [charity]
+**Contrast:** In the legal sense it means "to make effective something that already exists": a subpoena issued *in aid of* an arbitration serves an arbitration already under way, it does not start one. That is what separates it from [*in furtherance of*](#in-furtherance-of), which advances a scheme still being built, and from [*for the purpose of*](#for-the-purpose-of), which merely states an aim. Most American lawyers meet it first in the All Writs Act, where federal courts may issue all writs "necessary or appropriate **in aid of** their respective jurisdictions," and the phrase has never left that neighborhood. For the charity sense, [*in support of*](11-complex-multiword.md#in-support-of) and *to benefit* are the American choices, and an editor here will change *in aid of* to one of them.
+
+**1. Legal: to make an existing right, judgment, jurisdiction, or proceeding effective.** *Discovery in aid of execution.*
+**2. Chiefly British: for the benefit of a charity or cause.** *A gala in aid of the children's hospital.*
+
+1. The court issued the writ *in aid of* its jurisdiction over the settlement fund.
+2. She served discovery *in aid of* execution the week the judgment became final.
+3. The statute authorizes subpoenas *in aid of* a foreign proceeding.
+4. Nothing in this section limits interim relief *in aid of* arbitration.
+5. Troops were called out *in aid of* the civil power — a formula American writing has kept only in histories.
+6. The gala was staged *in aid of* the children's hospital, which an American editor would rewrite as *to benefit*.
+7. "What's all this *in aid of*?" she said, and marked herself at once as not American.
+
+**See also:** [in furtherance of](#in-furtherance-of), [for the benefit of](#for-the-benefit-of), [in pursuance of](#in-pursuance-of), [in support of](11-complex-multiword.md#in-support-of), [pursuant to](11-complex-multiword.md#pursuant-to)
+
 ### in an effort to
 
 **Pronunciation:** /ɪn ən ˈɛfərt tu/ &middot; weak /ɪn ən ˈɛfɚt tə/ &middot; *in-uhn-EF-ert too*
+**Русский:** пытаясь, в попытке сделать что-л. — рабочий оборот газетного языка
 **Type:** complex &middot; **Register:** neutral — the workhorse purpose phrase of American news writing
 **Variants:** *in an attempt to* is identical in grammar and a shade more tentative, since an *attempt* may fail where an *effort* is merely made. *In a bid to* is the headline version and is commoner in British journalism than American. *In hopes of* is **not** a variant of this phrase — it takes a gerund; see [in the hope of](#in-the-hope-of).
 **Complement:** **a bare infinitive verb, and nothing else** — like *in order to* and *so as to*, and unlike every *of*-phrase in this section. *In an effort to cut costs*, never ***in an effort to cutting costs*** and never ***in an effort of cutting costs***. **Never a finite clause.** The noun *effort* is still live inside the phrase, which is why it accepts adjectives no true preposition would: *in a last-ditch effort to*, *in a renewed effort to*, *in a coordinated effort to*.
@@ -710,9 +874,31 @@ States the purpose of an action with an infinitive, adding the sense that somebo
 
 **See also:** [in order to](#in-order-to), [so as to](#so-as-to), [with intent to](#with-intent-to), [with the aim of](#with-the-aim-of), [in the hope of](#in-the-hope-of), [for the purpose of](#for-the-purpose-of), [to](02-core-relational.md#to)
 
+### in contemplation of
+
+**Pronunciation:** /ɪn ˌkɑntəmˈpleɪʃən əv/ &middot; weak /ɪn ˌkɑntəmˈpleɪʃən ə/ &middot; *in-kon-tuhm-PLAY-shuhn uhv*
+**Русский:** в предвидении, в расчёте на — юр.: дарение в предвидении смерти
+**Type:** complex &middot; **Register:** legal and formal — wills and estate-tax practice, bankruptcy, family law, and the litigation-privilege rules; an American meets it in the phrases *a gift in contemplation of death* and *a will made in contemplation of marriage*
+**Complement:** noun phrase naming an anticipated event — *death*, *marriage*, *divorce*, *bankruptcy*, *litigation*, *a sale* — or a **gerund** (*in contemplation of filing for bankruptcy*). **Never a bare infinitive** (✗ *in contemplation of to file*) and **never a finite clause.** *In contemplation that* + clause does occur in older drafting and is rare enough that most drafters recast; *in contemplation of the fact that* is not idiomatic at all.
+**Pattern:** [noun] *made in contemplation of* [noun phrase] &middot; [clause] *in contemplation of* [verb-ing] &middot; *a gift in contemplation of death* &middot; *in contemplation of marriage* &middot; *prepared in contemplation of litigation*
+**Contrast:** The phrase does two jobs at once: it names an expected event **and** asserts that the act was done with that event in mind, which is why it carries legal consequences a plain time preposition would not. *A transfer before bankruptcy* is a fact about the calendar; *a transfer in contemplation of bankruptcy* is a claim about the transferor's mind, and it can be undone. Against [*in preparation for*](#in-preparation-for), which claims only that arrangements were being made and accuses nobody; against *in anticipation of*, the ordinary-English near-synonym, which carries none of the legal charge. Nothing to do with *contemplation* in the sense of quiet thought.
+
+Names the event an act was done with an eye to — and, in law, asserts that the actor had that event in mind, which is what makes the act reviewable.
+
+1. A gift made *in contemplation of* death is pulled back into the taxable estate.
+2. The will was executed *in contemplation of* marriage and survived the wedding intact.
+3. Transfers made *in contemplation of* bankruptcy can be set aside by the trustee.
+4. The memo was prepared *in contemplation of* litigation and is therefore privileged.
+5. *In contemplation of* filing an appeal, counsel ordered the full trial transcript.
+6. They signed the lease *in contemplation of* a rezoning that never came.
+7. Nothing was done *in contemplation of* insolvency, and the trustee never seriously argued otherwise.
+
+**See also:** [in preparation for](#in-preparation-for), [for the purpose of](#for-the-purpose-of), [in furtherance of](#in-furtherance-of), [in advance of](05-time.md#in-advance-of), [pending](05-time.md#pending)
+
 ### in furtherance of
 
 **Pronunciation:** /ɪn ˈfɜrðərəns əv/ &middot; weak /ɪn ˈfɜrðərəns ə/ &middot; *in-FUR-thuh-ruhns uhv*
+**Русский:** в целях содействия, ради продвижения замысла — юр.; о действии, двигающем план
 **Type:** complex &middot; **Register:** legal and institutional — indictments, bylaws, trust instruments, and mission statements
 **Complement:** noun phrase — a scheme, plan, conspiracy, policy, purpose, or interest. A gerund occurs (*in furtherance of settling the claim*) but is unusual and reads as drafting slack. **Never a bare infinitive** (***in furtherance of to settle***) and **never a finite clause.**
 **Pattern:** [clause] *in furtherance of* [noun phrase] &middot; *In furtherance of* [noun phrase], [clause] &middot; *an overt act in furtherance of the conspiracy* &middot; *in furtherance of its charitable purposes*
@@ -729,9 +915,72 @@ Names the larger plan, purpose, or interest that an act is meant to advance.
 
 **See also:** [in pursuance of](#in-pursuance-of), [for the purpose of](#for-the-purpose-of), [in pursuit of](#in-pursuit-of), [in the interest of](#in-the-interest-of), [pursuant to](11-complex-multiword.md#pursuant-to)
 
+### in honor of
+
+**Pronunciation:** /ɪn ˈɑnər əv/ &middot; weak /ɪn ˈɑnɚ ə/ &middot; *in-ON-er uhv* &middot; the *h* is silent
+**Русский:** в честь кого/чего-л.
+**Type:** complex &middot; **Register:** neutral — invitations, dedications, plaques, place names, and holiday proclamations
+**Variants:** British spelling *in honour of*. *In memory of* is the phrase for the dead where remembrance rather than tribute is the point; *in celebration of* names the occasion instead of the honoree.
+**Complement:** noun phrase naming a person, an achievement, an occasion, or a date. **A gerund is not idiomatic** — ✗ *in honor of retiring* — because the phrase honors a thing and not an act: *in honor of his retirement*. **Never a finite clause.**
+**Pattern:** [noun] *in honor of* [noun phrase] &middot; [clause] *in honor of* [noun phrase] &middot; *named / renamed / dedicated in honor of* [person] &middot; *a dinner / a plaque / a holiday in honor of* [noun phrase]
+**Contrast:** Purpose seen as tribute — the act exists in order to honor somebody, so what follows is the honoree or the occasion, never the aim. Against [*for the benefit of*](#for-the-benefit-of), which names who gains materially; the two can share a sentence without repeating themselves, since a concert held *in honor of* a founder can raise money *for the benefit of* the shelter she started. Against *in memory of*, which requires that the person be dead. Against [*in recognition of*](#in-recognition-of), which points at what somebody **did** where this one points at who somebody **is**.
+
+Names the person, achievement, or occasion an act is meant to pay tribute to.
+
+1. The library was named *in honor of* a teacher who had worked there fifty years.
+2. They threw a dinner *in honor of* her retirement.
+3. The city renamed the bridge *in honor of* the four officers.
+4. *In honor of* the anniversary, the museum waived admission all week.
+5. A scholarship was established *in honor of* his parents, both of whom had left school at fourteen.
+6. Flags flew at half-staff *in honor of* the former governor.
+7. He wore the tie *in honor of* the occasion and took it off in the parking lot.
+
+**See also:** [in recognition of](#in-recognition-of), [in token of](#in-token-of), [for the benefit of](#for-the-benefit-of), [for the sake of](#for-the-sake-of), [in the name of](11-complex-multiword.md#in-the-name-of)
+
+### in mitigation of
+
+**Pronunciation:** /ɪn ˌmɪtəˈɡeɪʃən əv/ &middot; weak /ɪn ˌmɪtəˈɡeɪʃən ə/ &middot; *in-mit-uh-GAY-shuhn uhv*
+**Русский:** в целях уменьшения (ущерба, вины) — юр.; дополнение называет вред, а не средство
+**Type:** complex &middot; **Register:** legal — sentencing hearings, damages pleadings, and insurance claims; outside a courtroom or a claims file it reads as jargon
+**Complement:** noun phrase naming what is being reduced — *damages*, *sentence*, *punishment*, *the penalty*, *the loss*. **No gerund** (✗ *in mitigation of having left the lot unfenced*) and **never a finite clause.** Note that the bare adverbial *in mitigation*, with no object at all, is a different item and is the commoner courtroom form: *counsel offered nothing in mitigation*.
+**Pattern:** *evidence offered in mitigation of* [noun phrase] &middot; [clause] *in mitigation of* [noun phrase] &middot; *in mitigation of damages* &middot; bare adverbial *in mitigation* (no object, and not this preposition)
+**Contrast:** Names the thing an act is meant to **reduce**, which makes it the nearest thing in this file to a negative purpose phrase built on a noun. Compare [*for fear of*](#for-fear-of), which aims away from an outcome altogether; *in mitigation of* concedes the outcome and works on its size. Watch the direction: the object is the **harm**, not the remedy — steps taken *in mitigation of* the loss are steps against the loss. Keep it apart from the adjective *mitigating* (*mitigating circumstances*) and from the duty **to mitigate**, which is the same idea stated as a verb and is the form ordinary prose should use.
+
+Names the harm, penalty, or loss that an act is offered to reduce.
+
+1. Counsel offered his client's war record *in mitigation of* sentence.
+2. The landlord relet the unit *in mitigation of* damages within the month.
+3. Evidence *in mitigation of* punishment is heard after the verdict, never before it.
+4. The company pleaded its recall costs *in mitigation of* the penalty.
+5. Nothing whatever was done *in mitigation of* the loss, and the insurer said so in writing.
+6. The court took the letters *in mitigation of* the fine but refused them as a defense.
+
+**See also:** [for fear of](#for-fear-of), [to the detriment of](#to-the-detriment-of), [in obedience to](#in-obedience-to), [on pain of](#on-pain-of), [in consideration of](13-formal-latin-archaic.md#in-consideration-of)
+
+### in obedience to
+
+**Pronunciation:** /ɪn oʊˈbidiəns tu/ &middot; weak /ɪn əˈbidiəns tə/ &middot; *in-oh-BEE-dee-uhns too*
+**Русский:** во исполнение, повинуясь (приказу) — книжн. и заметно устар.
+**Type:** complex &middot; **Register:** formal and distinctly old-fashioned — older court opinions, military and church writing, and nineteenth-century prose. Modern American drafting says *pursuant to* or *in compliance with*, and an American meets this phrase mostly in histories, in appellate opinions quoting older ones, and in scripture.
+**Complement:** noun phrase naming a command, rule, order, or authority — *the order*, *the writ*, *the summons*, *the statute*, *orders*, *his conscience*. **No gerund** (✗ *in obedience to being told*) and **never a finite clause.**
+**Pattern:** [clause] *in obedience to* [noun phrase] &middot; *In obedience to* [noun phrase], [clause] &middot; *in obedience to orders* &middot; *in obedience to the mandate*
+**Contrast:** Three neighbors, three different claims. *In obedience to* says the actor **submitted to a command**; [*in pursuance of*](#in-pursuance-of) says the actor was **carrying an order out**; [*pursuant to*](11-complex-multiword.md#pursuant-to) says only that the act was **authorized**. The first is the one with a person's will inside it, which is why it survives in writing about soldiers, clerks, and consciences and has dropped out of contract drafting entirely. Against [*in compliance with*](11-complex-multiword.md#in-compliance-with), the modern administrative phrase, which is colder and reports a state of affairs rather than an act of submission.
+
+Names the command or authority that an act submits to — the older, more personal way of saying *pursuant to*.
+
+1. *In obedience to* the court's order, the sheriff returned the writ unserved.
+2. The clerk certified the record *in obedience to* the mandate.
+3. He resigned his commission rather than act *in obedience to* an order he believed unlawful.
+4. *In obedience to* the statute, the board published the notice in two papers.
+5. She left the room *in obedience to* a look rather than a word.
+6. The column advanced *in obedience to* orders written a week earlier and a hundred miles away.
+
+**See also:** [in pursuance of](#in-pursuance-of), [in furtherance of](#in-furtherance-of), [on pain of](#on-pain-of), [pursuant to](11-complex-multiword.md#pursuant-to), [in compliance with](11-complex-multiword.md#in-compliance-with), [obedient to](11-complex-multiword.md#obedient-to)
+
 ### in order to
 
 **Pronunciation:** /ɪn ˈɔrdər tu/ &middot; weak /ɪn ˈɔrdər tə/ &middot; *in-OR-der too*
+**Русский:** чтобы, для того чтобы — нейтр., чуть официальнее простого to
 **Type:** complex &middot; **Register:** neutral, a shade more formal than bare *to*
 **Complement:** **a bare infinitive verb, and nothing else.** *In order to leave* — never *in order to departure*, never *in order to leaving*. It cannot take a noun phrase at all, which is what disqualifies it as a preposition in the strict sense; it is an infinitival subordinator occupying a preposition's slot. The negative is *in order not to* (*in order not to wake her*). For a finite clause the form is *in order that* + clause, usually with *may*, *might*, or *can*, and it is formal. The frame *in order for* [noun phrase] *to* [verb] supplies a different subject: *in order for this to work*.
 **Pattern:** [clause] *in order to* [verb] &middot; *In order to* [verb], [clause] &middot; *in order not to* [verb] &middot; *in order for* [noun phrase] *to* [verb]
@@ -748,9 +997,31 @@ States the purpose of an action with an infinitive. Strictly it is an infinitiva
 
 **See also:** [so as to](#so-as-to), [in an effort to](#in-an-effort-to), [for the purpose of](#for-the-purpose-of), [with a view to](#with-a-view-to), [to](02-core-relational.md#to), [in order to (conjunctions catalog)](../../07-conjunctions/catalog/05-purpose-result.md#in-order-to), [in order that (conjunction)](../../07-conjunctions/catalog/05-purpose-result.md#in-order-that)
 
+### in preparation for
+
+**Pronunciation:** /ɪn ˌprɛpəˈreɪʃən fɔr/ &middot; weak /ɪn ˌprɛpəˈreɪʃən fɚ/, also /fər/ &middot; stressed *for* /fɔr/ &middot; *in-prep-uh-RAY-shuhn fer*
+**Русский:** в порядке подготовки к, готовясь к
+**Type:** complex &middot; **Register:** neutral
+**Complement:** noun phrase or **gerund** — *in preparation for the storm*, *in preparation for moving overseas*. **Never a bare infinitive:** ✗ *in preparation for to move overseas*, and ✗ *in preparation to move overseas*, which drops the *for* and is a common shortcut in speech. **Never a finite clause.** The bare *in preparation*, with no object, is an adverbial and is not this preposition: *the room had been scrubbed in preparation*.
+**Pattern:** [clause] *in preparation for* [noun phrase] &middot; [clause] *in preparation for* [verb-ing] &middot; *In preparation for* [noun phrase], [clause]
+**Contrast:** The purpose phrase whose object is an **event you are bracing for** rather than a goal you are steering toward: you act *in preparation for* the hearing, and the gerund names that coming event as an act — *in preparation for arguing the appeal* — not the outcome you want from it. Against [*in advance of*](11-complex-multiword.md#in-advance-of), which is at bottom a time phrase and only implies the preparation; *in preparation for* states it and can be stripped of every time claim. Against [*with a view to*](#with-a-view-to), which names an aim. Because the *for* here is a preposition like every *of* in this section, the *-ing* rule applies unchanged — which is why the shortcut *in preparation to move* feels wrong to careful ears.
+
+Names the coming event that an action is getting ready for.
+
+1. Crews trimmed the branches *in preparation for* the storm.
+2. She sold the house *in preparation for* moving overseas.
+3. *In preparation for* the audit, the office pulled three years of invoices.
+4. The team studied film all week *in preparation for* a defense they had not seen since October.
+5. He took a night class in Spanish *in preparation for* the transfer.
+6. The tanks were drained and vented *in preparation for* inspection.
+7. *In preparation for* arguing the appeal, she read the whole record twice.
+
+**See also:** [in contemplation of](#in-contemplation-of), [with a view to](#with-a-view-to), [with an eye to](#with-an-eye-to), [in advance of](11-complex-multiword.md#in-advance-of), [in advance of (time)](05-time.md#in-advance-of)
+
 ### in pursuance of
 
 **Pronunciation:** /ɪn pərˈsuəns əv/ &middot; weak /ɪn pərˈsuəns ə/ &middot; *in-per-SOO-uhns uhv*
+**Русский:** во исполнение — юр. и офиц.; о выполнении уже данного распоряжения
 **Type:** complex &middot; **Register:** legal and official; rare anywhere else
 **Complement:** noun phrase — typically a document, power, duty, or policy. Gerunds are possible but unusual. **Never a finite clause.**
 **Pattern:** [clause] *in pursuance of* [noun phrase] &middot; *In pursuance of* [noun phrase], [clause]
@@ -770,6 +1041,7 @@ Names the order, policy, power, or agreement that an action is carrying out.
 ### in pursuit of
 
 **Pronunciation:** /ɪn pərˈsut əv/ &middot; weak /ɪn pɚˈsut ə/ &middot; *in-per-SOOT uhv* &middot; (British /pəˈsjuːt/, *per-SYOOT*)
+**Русский:** в погоне за, в стремлении к — называет то, за чем гонятся; слегка возвышенно
 **Type:** complex &middot; **Register:** neutral to formal, and a shade elevated
 **Complement:** noun phrase — a goal, a quarry, or an abstraction (*happiness*, *profit*, *a settlement*, *a suspect*). A gerund is unusual and usually awkward: *in pursuit of expanding the business* is clumsy where *with a view to expanding the business* is not. **Never a finite clause.**
 **Pattern:** [clause] *in pursuit of* [noun phrase] &middot; *In pursuit of* [noun phrase], [clause] &middot; *in hot pursuit of* [noun phrase] &middot; *in dogged / relentless / single-minded pursuit of* [noun phrase]
@@ -787,9 +1059,31 @@ Names the goal or the quarry an action is chasing, keeping the metaphor of the c
 
 **See also:** [in pursuance of](#in-pursuance-of), [with the aim of](#with-the-aim-of), [in the hope of](#in-the-hope-of), [for the purpose of](#for-the-purpose-of), [after](05-time.md#after)
 
+### in recognition of
+
+**Pronunciation:** /ɪn ˌrɛkəɡˈnɪʃən əv/ &middot; weak /ɪn ˌrɛkəɡˈnɪʃən ə/ &middot; *in-rek-uhg-NISH-uhn uhv*
+**Русский:** в знак признания (заслуг) — формула наградных грамот и преамбул
+**Type:** complex &middot; **Register:** neutral to formal — award citations, personnel letters, grant letters, and the preambles of agreements and resolutions
+**Complement:** noun phrase naming what is being acknowledged — service, a contribution, a hardship, a right, a fact — or a **gerund** (*in recognition of having served forty years*). **Never a bare infinitive** (✗ *in recognition of to serve*) and **never a finite clause.** The clause is carried by a noun instead — *in recognition of the fact that the work was unpaid* — and that form is heavy enough that *because* is usually better.
+**Pattern:** [clause] *in recognition of* [noun phrase] &middot; *In recognition of* [noun phrase], [clause] &middot; *awarded / presented / granted in recognition of* [noun phrase] &middot; *in recognition of* [verb-ing]
+**Contrast:** Sits on the line between cause and purpose and can be read both ways at once — the medal is given **because** of the service and **in order to** acknowledge it. That double reading is exactly why it flourishes in preambles, where a drafter wants to state a reason without conceding a legal one. Against [*in honor of*](#in-honor-of), which points at a person where this points at what the person did. Against [*in consideration of*](13-formal-latin-archaic.md#in-consideration-of), which names a bargained-for exchange and creates an obligation: *in recognition of* is a gift and creates none, and swapping the two in a contract preamble has real consequences.
+
+Names the service, contribution, or fact that an act acknowledges.
+
+1. The medal was awarded *in recognition of* forty years on the line.
+2. *In recognition of* the town's cooperation, the state waived the matching requirement.
+3. The fee was cut *in recognition of* the delay on our end.
+4. She was moved to a corner office *in recognition of* nothing in particular.
+5. *In recognition of* having missed the first two sessions, he sat in on the makeup class.
+6. The treaty was signed *in recognition of* borders both sides had disputed for a century.
+7. A plaque went up *in recognition of* the crew that worked the whole flood.
+
+**See also:** [in honor of](#in-honor-of), [in token of](#in-token-of), [on the strength of](#on-the-strength-of), [for the sake of](#for-the-sake-of), [in consideration of](13-formal-latin-archaic.md#in-consideration-of)
+
 ### in the hope of
 
 **Pronunciation:** /ɪn ðə ˈhoʊp əv/ &middot; weak /ɪn ðə ˈhoʊp ə/ &middot; *in-thuh-HOHP uhv*
+**Русский:** в надежде на, надеясь (сделать что-л.)
 **Type:** complex &middot; **Register:** neutral
 **Variants:** *in the hopes of*, plural, is common in American speech and journalism and is now fully standard here; the singular is older and a shade more formal. *In hopes of*, with no article, is also thoroughly American. British writing keeps closer to the singular.
 **Complement:** **a gerund or a noun phrase — never a bare infinitive.** *In the hope of finding work* is correct; ***in the hope of to find work*** and ***in the hope to find work*** are both errors. **Never a finite clause** — the clause form is *in the hope that* + clause, which is a conjunction: *in the hope that she would call*.
@@ -811,6 +1105,7 @@ States a purpose while conceding it may not be reached. Its *of* is a prepositio
 ### in the interest of
 
 **Pronunciation:** /ɪn ði ˈɪntrəst əv/ &middot; also /ˈɪntərəst/ &middot; weak /ɪn ðə ˈɪntrəst ə/ &middot; *in-thee-IN-truhst uhv*
+**Русский:** в интересах, ради — ради экономии времени; тж. в интересах кого-л.
 **Type:** complex &middot; **Register:** neutral to formal — the institutional word
 **Variants:** *in the interests of*, plural, is fully standard and is the dominant form in British English. American English uses both, with the singular slightly ahead in edited prose; *in the interest of time* is fixed in the singular.
 **Complement:** noun phrase — most often an abstract noun naming a value (*time*, *fairness*, *safety*, *transparency*, *full disclosure*) — or a party whose interests are being served, or a **gerund**, which is fully idiomatic here: *in the interest of avoiding delay*, *in the interest of getting this done today*. **Never a bare infinitive** (***in the interest of to avoid delay***) and **never a finite clause.**
@@ -831,9 +1126,54 @@ States a purpose while conceding it may not be reached. Its *of* is a prepositio
 
 **See also:** [for the sake of](#for-the-sake-of), [for the benefit of](#for-the-benefit-of), [on behalf of](11-complex-multiword.md#on-behalf-of), [in the interest of (conjunctions catalog)](../../07-conjunctions/catalog/05-purpose-result.md#in-the-interest-of)
 
+### in token of
+
+**Pronunciation:** /ɪn ˈtoʊkən əv/ &middot; weak /ɪn ˈtoʊkən ə/ &middot; *in-TOH-kuhn uhv*
+**Русский:** в знак чего-л. — устар. и торж.; поступок как символ, а не как средство
+**Type:** complex &middot; **Register:** **archaic and ceremonial** — the King James Bible, nineteenth-century prose, treaty and deed language, and set-piece presentation speeches. In ordinary modern American English it is dead, and using it is a deliberately antique gesture.
+**Variants:** *as a token of* is the living modern form and is what to write — *as a token of our appreciation*. *In token whereof* is the deed-and-treaty formula and a close cousin of [*in witness whereof*](13-formal-latin-archaic.md#in-witness-whereof).
+**Complement:** noun phrase naming what is being signified — *esteem*, *good faith*, *submission*, *friendship*, *our appreciation*, *peace*. **No gerund** (✗ *in token of thanking them*) and **never a finite clause.**
+**Pattern:** [clause] *in token of* [noun phrase] &middot; *In token of* [noun phrase], [clause] &middot; *in token whereof* (the formula) &middot; *as a token of* [noun phrase] (the modern form)
+**Contrast:** The object is not a purpose but a **meaning**: the act is done to stand for something, not to accomplish it. That is what separates it from [*for the purpose of*](#for-the-purpose-of) and from [*in recognition of*](#in-recognition-of) — a ring given *in token of* a promise **is** that promise made visible, where a medal given *in recognition of* service only acknowledges the service. Modern American English does the same work with *as a token of* or *as a sign of*. Nothing to do with the ordinary modern senses of *token* — a subway token, a token gesture, a security token — though every one of them descends from this one.
+
+Names the thing an act is meant to stand for: the gesture is a sign rather than a means.
+
+1. He handed over his sword *in token of* surrender.
+2. The rings were exchanged *in token of* a promise neither of them could yet keep.
+3. *In token of* good faith, the buyer wired half the deposit that afternoon.
+4. Belts of wampum were sent *in token of* peace.
+5. *In token whereof* the parties have set their hands this tenth day of June.
+6. She kept the pressed flower *in token of* an afternoon nobody else remembered.
+7. The delegation bowed *in token of* submission and meant not a word of it.
+
+**See also:** [in recognition of](#in-recognition-of), [in honor of](#in-honor-of), [in witness whereof](13-formal-latin-archaic.md#in-witness-whereof), [in consideration of](13-formal-latin-archaic.md#in-consideration-of), [by way of](07-agent-instrument-manner.md#by-way-of)
+
+### on pain of
+
+**Pronunciation:** /ɑn ˈpeɪn əv/ &middot; weak /ən ˈpeɪn ə/ &middot; *on-PAYN uhv*
+**Русский:** под страхом (наказания) — юр. и книжн.; «под страхом смерти»
+**Type:** complex &middot; **Register:** formal and legal with a literary streak — court orders, older statutes, church and military discipline, and rhetoric. In ordinary American speech it is a deliberate flourish, and an American most often meets it in the fixed *on pain of death*.
+**Variants:** *under pain of* is at least as common in American English and is the dominant form with *death*; *upon pain of* is the archaic third. All three are one phrase and none is more correct than the others. The related *under penalty of* — as in *under penalty of perjury* — is a separate fixed formula and is not a variant of this one.
+**Complement:** noun phrase naming a **penalty** — *death*, *dismissal*, *contempt*, *excommunication*, *a fine*, *forfeiture* — or a **gerund** naming that penalty as an event: *on pain of being held in contempt*, *under pain of being fined*. **Never a bare infinitive** (✗ *on pain of to be fined*) and **never a finite clause.**
+**Pattern:** [command or obligation], *on pain of* [penalty] &middot; *under pain of* [penalty] &middot; *on pain of death* &middot; *on pain of* [verb-ing]
+**Contrast:** Purpose stated as a threat. The phrase names not the aim of the act but the **penalty for failing to perform it**, which makes it the mirror of [*for fear of*](#for-fear-of): *for fear of* looks out from inside the actor and names what they are avoiding, while *on pain of* is imposed from outside and names what will be done to them. It attaches to an obligation and never to a completed act — *he was ordered to appear on pain of arrest* works, ✗ *he appeared on pain of arrest* does not, because the penalty is conditional on failure and failure did not happen. Against *under penalty of*, the American oath formula, which certifies that something is true rather than threatening someone who does not act.
+
+Names the penalty that will follow if an obligation is not met — purpose expressed as a threat.
+
+1. Witnesses were ordered to appear *on pain of* contempt.
+2. The edict forbade the assembly *on pain of* death.
+3. Employees must report the conflict *under pain of* dismissal.
+4. The rule required silence at table *on pain of* penance.
+5. *On pain of* being held in contempt, he finally produced the calendar.
+6. Deadlines here are real: file by the fifth, *under pain of* a late fee that doubles every week.
+7. The license bars re-export *on pain of* losing it altogether.
+
+**See also:** [for fear of](#for-fear-of), [in obedience to](#in-obedience-to), [in mitigation of](#in-mitigation-of), [by reason of](#by-reason-of), [pursuant to](11-complex-multiword.md#pursuant-to)
+
 ### so as to
 
 **Pronunciation:** /ˈsoʊ æz tu/ &middot; weak /soʊ əz tə/ &middot; *SOH az too*
+**Русский:** чтобы, так чтобы — книжн., чаще на письме, чем в речи
 **Type:** complex &middot; **Register:** formal — commoner in writing than in speech
 **Complement:** **a bare infinitive verb, and nothing else** — like *in order to* and unlike everything else in this section. *So as to avoid delay*, never *so as to avoidance*, never *so as to avoiding*. The negative *so as not to* is extremely common and is in fact the phrase's most frequent use. The understood subject of the infinitive must match the subject of the main clause; if it does not, the sentence dangles — *So as to save time, the meeting was shortened* leaves nobody saving time.
 **Pattern:** [clause] *so as to* [verb] &middot; [clause] *so as not to* [verb]
@@ -853,6 +1193,7 @@ States purpose with an infinitive, in a register a step above *in order to*, and
 ### with a view to
 
 **Pronunciation:** /wɪð ə ˈvju tu/ &middot; weak /wəð ə ˈvju tə/ &middot; *with-uh-VYOO too*
+**Русский:** с целью, с прицелом на — книжн.; требует герундия, а не инфинитива
 **Type:** complex &middot; **Register:** formal — business, diplomatic, and legal writing
 **Complement:** **a gerund or a noun phrase — never a bare infinitive.** *With a view to reducing costs* is correct; ***with a view to reduce costs* is an error**, and a very common one, because the *to* looks like an infinitive marker and is not. It is a preposition, and prepositions take *-ing*. The test is substitution: if *with a view to reduction* works, the slot belongs to a preposition and the verb must be *-ing*. **Never a finite clause.**
 **Pattern:** [clause] *with a view to* [verb-ing] &middot; [clause] *with a view to* [noun phrase] &middot; *With a view to* [verb-ing], [clause]
@@ -872,6 +1213,7 @@ States a purpose or eventual intention behind an action, in formal register. Its
 ### with an eye to
 
 **Pronunciation:** /wɪð ən ˈaɪ tu/ &middot; weak /wəð ən ˈaɪ tə/ &middot; *with-uhn-EYE too*
+**Русский:** с расчётом на, имея в виду — проще и живее, чем with a view to
 **Type:** complex &middot; **Register:** neutral — plainer than *with a view to*, and common in journalism
 **Variants:** *with an eye toward* and *with an eye towards* are both current; **American English prefers *toward***, and uses *with an eye toward* at least as often as the bare *to* form. *With an eye on* is a different phrase and means "watching."
 **Complement:** **a gerund or a noun phrase — never a bare infinitive**, exactly as with *with a view to*. *With an eye to expanding*, not *with an eye to expand*. **Never a finite clause.**
@@ -892,6 +1234,7 @@ States a purpose held in mind while something else is being done — the plain A
 ### with intent to
 
 **Pronunciation:** /wɪð ɪnˈtɛnt tu/ &middot; weak /wəθ ɪnˈtɛnt tə/, also /wəð/ &middot; *with-in-TENT too*
+**Русский:** с намерением, с умыслом — юр., формула умысла в уголовных статьях
 **Type:** complex &middot; **Register:** legal — the standard *mens rea* formula of American criminal statutes and charging documents
 **Variants:** *with the intent to* takes the same infinitive and is the fuller statutory form. **Do not treat *with the intention of* as a variant:** it takes a gerund — *with the intention of defrauding*, never ***with the intention of to defraud*** and never ***with the intention to defraud*** in careful prose; see [with the aim of](#with-the-aim-of).
 **Complement:** **a bare infinitive verb.** *With intent to defraud*, *with intent to distribute*, *with intent to deprive* — never ***with intent to defrauding*** and never ***with intent of defrauding***. It is the only *with*-purpose phrase on the infinitive side of the split, and it is there because there is no *of* in it. **Never a finite clause** — the clause form is *with the intent that* + clause.
@@ -913,6 +1256,7 @@ States a purpose as an element of an offense or a legal act, in the infinitive f
 ### with the aim of
 
 **Pronunciation:** /wɪð ði ˈeɪm əv/ &middot; weak /wəð ði ˈeɪm ə/ &middot; *with-thee-AYM uhv*
+**Русский:** с целью — книжн., просто называет цель; с герундием
 **Type:** complex &middot; **Register:** neutral to formal
 **Variants:** *with the intention of*, *with the goal of*, and *with the object of* are built identically, take the same gerund, and differ only in weight; *with the intention of* stresses that the purpose was deliberate, which does real work in legal contexts where intent is an element of the offense.
 **Complement:** **a gerund or a noun phrase — never a bare infinitive.** *With the aim of reducing waste*, not *with the aim of to reduce waste* and not *with the aim to reduce waste*. (*With the aim to* does occur and is widely judged an error.) **Never a finite clause.**
@@ -964,10 +1308,14 @@ The single most common purpose error in English is putting an infinitive where a
 | | *for fear of* **doing** |
 | | *in the hope of* **doing** |
 | | *in the interest of* **doing** |
+| | *in contemplation of* **doing** |
+| | *in preparation for* **doing** |
+| | *in recognition of* **doing** |
+| | *on pain of* **being** fined |
 
-Four more belong on the right-hand side but take a **noun only**, never a gerund: *for the benefit of*, *in furtherance of*, *in pursuance of*, and *in pursuit of*. Nothing at all belongs in both columns.
+Nine more belong on the right-hand side but take a **noun only**, never a gerund: *for the benefit of*, *in aid of*, *in furtherance of*, *in honor of*, *in mitigation of*, *in obedience to*, *in pursuance of*, *in pursuit of*, and *in token of*. Nothing at all belongs in both columns.
 
-**The *of* is the tell.** Every phrase in the right-hand column ends in *of* or is built on one, and every phrase in the left-hand column ends in bare *to* with no *of* in sight. *With intent to* **defraud** and *with the intention of* **defrauding** are the pair that makes the rule visible: same meaning, opposite grammar, and the only thing that changed is the *of*.
+**The last word is the tell.** Every phrase in the right-hand column ends in a **preposition** — *of* in nearly all of them, *for* in *in preparation for*, and the disguised *to* of *with a view to* and *in obedience to* — and every phrase in the left-hand column ends in a bare *to* that is an **infinitive marker**, with no *of* in sight. *With intent to* **defraud** and *with the intention of* **defrauding** are the pair that makes the rule visible: same meaning, opposite grammar, and the only thing that changed is the *of*.
 
 ***With a view to reduce costs* is the error to watch for**, because the *to* in *with a view to* is a preposition and not an infinitive marker. The test is substitution: if a noun fits the slot — *with a view to reduction* — then the verb has to be *-ing*. The same test sorts the whole *to*-plus-gerund family outside this file: *look forward to* **seeing** you (never *look forward to see*), *object to* **paying** (never *object to pay*), *be accustomed to* **working** nights (never *accustomed to work*), *be used to* **getting up** early. In every one of them *to* is a preposition, and the giveaway is that a noun fits: *look forward to the weekend*, *object to the fee*, *accustomed to the noise*.
 
@@ -1015,7 +1363,7 @@ Six of the nine core prepositions carry real causal or purposive weight, and eve
 
 **No preposition in this file can take a *that*-clause.** Every one of them has a clause-taking counterpart formed with *that* or *the fact that*, and the counterpart is a conjunction, not a preposition.
 
-There is exactly one crack in the wall, and it is worth knowing precisely: **[*over*](#over) takes a *wh*-clause** — *a dispute over whether the vote was binding*, *confusion over how the money was spent*, *a fight over who pays* — and nothing else in this file does. Even *over* refuses *that*: ***an argument over that he lied*** is not English. [*What with*](#what-with) takes a **small clause** (*what with the kids being sick*), which is not finite either. Those two aside, the ban is total.
+There is exactly one crack in the wall, and it is worth knowing precisely: **[*over*](#over) takes a *wh*-clause** — *a dispute over whether the vote was binding*, *confusion over how the money was spent*, *a fight over who pays* — and nothing else in this file does. Even *over* refuses *that*: ***an argument over that he lied*** is not English. [*What with*](#what-with) takes a **small clause** (*what with the kids being sick*), which is not finite either. Those two aside, the ban is total in edited English. The only finite clauses anywhere near these prepositions are the dialect ones after spoken [*on account of*](#on-account-of) and its clipped form [*'count of*](#count-of) — *'count of it was raining* — and those are nonstandard in writing by definition.
 
 | Preposition + noun phrase | Conjunction + clause |
 |---|---|

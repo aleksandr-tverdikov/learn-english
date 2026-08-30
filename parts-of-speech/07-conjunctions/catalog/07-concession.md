@@ -13,6 +13,7 @@ The everyday words for "this is true, and it doesn't change anything." Most of t
 ### although
 
 **Pronunciation:** /ɔlˈðoʊ/ (also /ɑlˈðoʊ/ for speakers with the *cot–caught* merger) &middot; *awl-THOH*
+**Русский:** хотя, несмотря на то что — вводит уступительное придаточное; книжнее, чем though
 **Type:** subordinating &middot; **Register:** neutral
 **Clause type:** adverbial clause of concession
 **Pattern:** *Although* [clause], [main clause]. &middot; [main clause], *although* [clause].
@@ -33,6 +34,7 @@ Introduces a fact that makes the main clause surprising. Unlike *but*, it subord
 ### as
 
 **Pronunciation:** /æz/ &middot; unstressed /əz/ &middot; *AZ, reduced to uhz*
+**Русский:** хотя, как ни — уступка с инверсией: try as he might «как он ни старался»
 **Type:** subordinating; the same word is also a preposition (*works as a paralegal*), half of the comparative correlative *as … as*, a relative pronoun after *such* and *the same* (*such delays as we saw*), and a causal and a temporal subordinator &middot; **Register:** neutral to literary in this concessive use
 **Clause type:** adverbial clause of concession (with inversion)
 **Pattern:** [adjective/adverb/bare verb] *as* [subject] [verb], [main clause]. &middot; *As* [adjective] *as* [subject] [verb], [main clause].
@@ -53,6 +55,7 @@ Concessive *as* takes the word being conceded and throws it in front of the conj
 ### even as
 
 **Pronunciation:** /ˈivən æz/ &middot; unstressed /ˈivən əz/ &middot; *EE-vun az*
+**Русский:** в то время как, тогда как — одновременность с оттенком противоречия
 **Type:** subordinating &middot; **Register:** neutral to formal (a staple of journalism)
 **Clause type:** adverbial clause of concession with simultaneity
 **Pattern:** *Even as* [clause], [main clause]. &middot; [main clause] *even as* [clause].
@@ -71,6 +74,7 @@ Marks two things happening at the same time that ought not to go together — a 
 ### even though
 
 **Pronunciation:** /ˌivən ˈðoʊ/ &middot; *ee-vun THOH*
+**Русский:** хотя, несмотря на то что — уступаемый факт подаётся как реальный (ср. even if)
 **Type:** subordinating &middot; **Register:** neutral
 **Clause type:** adverbial clause of concession
 **Pattern:** *Even though* [clause], [main clause]. &middot; [main clause], *even though* [clause].
@@ -89,6 +93,7 @@ The emphatic *although*. It insists that the fact in its clause is genuinely kno
 ### even when
 
 **Pronunciation:** /ˌivən ˈwɛn/ (also /ˌivən ˈhwɛn/) &middot; unstressed /ˌivən wən/ &middot; *ee-vun WEN*
+**Русский:** даже когда — уступка по всем случаям, включая самый маловероятный
 **Type:** subordinating &middot; **Register:** neutral
 **Clause type:** adverbial clause of concession, universal over occasions
 **Pattern:** *Even when* [clause], [main clause]. &middot; [main clause] *even when* [clause].
@@ -107,6 +112,7 @@ The member of the *even* family that quantifies over occasions instead of a sing
 ### much as
 
 **Pronunciation:** /ˈmʌtʃ æz/ &middot; unstressed /ˈmʌtʃ əz/ &middot; *MUCH az*
+**Русский:** как ни, при всём том что — хотя очень: much as I'd like to «как бы мне ни хотелось»
 **Type:** subordinating &middot; **Register:** neutral
 **Clause type:** adverbial clause of concession
 **Pattern:** *Much as* [subject] [verb], [main clause]. &middot; *As much as* [subject] [verb], [main clause]. &middot; [main clause], *much as* [subject] [verb].
@@ -127,6 +133,7 @@ A concession about the speaker's own feelings: "I like this a great deal, and th
 ### much though
 
 **Pronunciation:** /ˈmʌtʃ ðoʊ/ &middot; *MUCH thoh*
+**Русский:** книжн. как ни — книжный вариант much as, чаще британский
 **Type:** subordinating &middot; **Register:** formal or literary; *much as* is the ordinary American form
 **Clause type:** adverbial clause of concession
 **Pattern:** *Much though* [subject] [verb], [main clause]. &middot; [main clause], *much though* [subject] [verb].
@@ -146,6 +153,7 @@ The bookish twin of *much as* — the same meaning, the same attachment to verbs
 ### though
 
 **Pronunciation:** /ðoʊ/ &middot; *THOH*
+**Русский:** хотя; в конце фразы — «впрочем, всё же»; разговорнее, чем although
 **Type:** subordinating (also a conjunctive adverb in final position) &middot; **Register:** neutral; the final-position adverb is informal
 **Clause type:** adverbial clause of concession
 **Pattern:** *Though* [subject] [verb], [main clause]. &middot; [main clause], *though* [subject] [verb]. &middot; [adjective/noun/bare verb] *though* [subject] [verb], [main clause]. &middot; [statement], *though*. (final adverb)
@@ -165,6 +173,7 @@ The lighter, more spoken twin of *although*, and the only member of the family t
 ### though that
 
 **Pronunciation:** /ðoʊ ðət/ &middot; *THOH that*
+**Русский:** устар. хотя — то же though с избыточным that; Шекспир и XVII век
 **Type:** subordinating, with the older pleonastic complementizer *that* attached &middot; **Register:** archaic — Early Modern English; you meet it in Shakespeare and in seventeenth-century verse, and in no modern register
 **Clause type:** adverbial clause of concession
 **Pattern:** *Though that* [clause], [main clause]. &middot; [main clause], *though that* [clause].
@@ -184,6 +193,7 @@ Early Modern English let a subordinator take a redundant *that* as a clause mark
 ### try as one might
 
 **Pronunciation:** /ˈtraɪ əz wʌn ˈmaɪt/ &middot; *TRY az wun MYTE*
+**Русский:** как ни старайся, сколько ни пытайся — за оборотом обычно следует неудача
 **Type:** subordinating — a frozen instance of the inverted concessive *as* &middot; **Register:** neutral to literary; fully current in American writing, a little bookish in speech
 **Clause type:** adverbial clause of concession, with the verb thrown in front of the conjunction
 **Pattern:** *Try as* [subject] *might*, [main clause]. &middot; *Try as* [subject] *would/will/did*, [main clause]. &middot; *Try as* [subject] *might to* [verb], [main clause]. &middot; [bare verb] *as* [subject] *might*, [main clause].
@@ -204,6 +214,7 @@ The most frozen instance of concessive *as*: a bare verb is thrown in front of t
 ### when
 
 **Pronunciation:** /wɛn/ (also /hwɛn/ for speakers who keep the *wh-*) &middot; unstressed /wən/ &middot; *WEN*
+**Русский:** хотя, тогда как — упрёк: зачем платить, когда рядом бесплатно
 **Type:** subordinating; the same word is also the ordinary temporal subordinator, an interrogative adverb (*When did you get in?*), a relative adverb (*the year when we moved*), a complementizer in noun clauses (*I don't know when it ships*), and a noun (*the when and the where*) &middot; **Register:** neutral
 **Clause type:** adverbial clause of concession (an extension of the clause of time)
 **Pattern:** [main clause] *when* [clause]. &middot; *When* [clause], [main clause].
@@ -222,6 +233,7 @@ The same word that marks time also marks concession, and only sense tells them a
 ### while
 
 **Pronunciation:** /waɪl/ (also /hwaɪl/) &middot; *WYLE*
+**Русский:** хотя; тогда как — уступка или противопоставление (тот же союз значит и «пока»)
 **Type:** subordinating; also a noun (*stay a while*, *worth your while*) and a verb (*while away an afternoon*) &middot; **Register:** neutral
 **Clause type:** adverbial clause of concession or contrast (also of time)
 **Pattern:** *While* [clause], [main clause]. &middot; [main clause], *while* [clause].
@@ -240,6 +252,7 @@ The same word that marks time also marks concession, and only sense tells them a
 ### whilst
 
 **Pronunciation:** /waɪlst/ (also /hwaɪlst/) &middot; *WYLST*
+**Русский:** брит. хотя, тогда как — британский вариант while; в США звучит манерно
 **Type:** subordinating &middot; **Register:** British; dated or affected in American English
 **Clause type:** adverbial clause of concession or contrast (also of time)
 **Pattern:** *Whilst* [clause], [main clause]. &middot; [main clause], *whilst* [clause].
@@ -263,6 +276,7 @@ These do not concede anything. They set two propositions against each other and 
 ### contra
 
 **Pronunciation:** /ˈkɑntrə/ &middot; *KON-truh*
+**Русский:** юр. напротив, вопреки — отсылка к источнику противоположного мнения
 **Type:** conjunctive adverb by function — a Latin preposition in form, taking a noun phrase or a citation and never a clause &middot; **Register:** formal — American legal citation and academic prose; it exists nowhere else
 **Clause type:** none — it points at an authority or a writer holding the opposite view
 **Pattern:** [statement]. *Contra*, [citation]. &middot; *Contra* [name], [main clause]. &middot; [main clause] (*contra* [name]).
@@ -282,6 +296,7 @@ Latin "against," and in American usage a pointer rather than a connector: it fla
 ### contrary to
 
 **Pronunciation:** /ˈkɑntrɛri tu/ &middot; casually /ˈkɑntrɛri tə/ &middot; *KON-trair-ee too*
+**Русский:** вопреки, в противоположность — требует существительного, а не придаточного
 **Type:** conjunctive adverb by function — a two-word preposition, taking a noun phrase or a fused relative *what* clause and never a bare finite clause &middot; **Register:** neutral
 **Clause type:** none of its own — a fronted adverbial that sets the main clause against a belief, an expectation, or a rule
 **Pattern:** *Contrary to* [noun phrase], [main clause]. &middot; *Contrary to what* [clause], [main clause]. &middot; [main clause], *contrary to* [noun phrase].
@@ -302,6 +317,7 @@ Sets the main clause against something someone believes, expects, or has ordered
 ### except that
 
 **Pronunciation:** /ɪkˈsɛpt ðət/ &middot; *ik-SEPT that*
+**Русский:** за исключением того, что; только вот — отнимает часть уже сказанного
 **Type:** subordinating; *except* on its own is a preposition (*everyone except me*) and, in frozen phrases, a verb (*present company excepted*) &middot; **Register:** neutral
 **Clause type:** adverbial clause of exception and contrast
 **Pattern:** [main clause], *except that* [clause]. &middot; [main clause]. *Except that* [clause]. &middot; [main clause], *except* [when/where/if] [clause].
@@ -322,6 +338,7 @@ Subtracts a piece of the main clause instead of conceding a point against it, an
 ### on the flip side
 
 **Pronunciation:** /ɑn ðə ˈflɪp ˌsaɪd/ &middot; casually /ɑn ə ˈflɪp saɪd/ &middot; *on thuh FLIP side*
+**Русский:** разг. с другой стороны — обратная сторона медали, о двух сторонах одной сделки
 **Type:** conjunctive adverb (phrasal) &middot; **Register:** informal — spoken American English; too casual for a brief, a contract, or a formal report
 **Clause type:** none — a sentence adverbial linking two independent clauses
 **Pattern:** [Independent clause]. *On the flip side*, [independent clause]. &middot; [Independent clause]; *on the flip side*, [independent clause]. &middot; *On the flip side of* [noun phrase], [main clause].
@@ -341,6 +358,7 @@ The casual American cousin of *on the other hand*, borrowed from the B-side of a
 ### pace
 
 **Pronunciation:** /ˈpeɪsi/ (also /ˈpɑtʃeɪ/, /ˈpɑkeɪ/) — not the English word *pace* /peɪs/ &middot; *PAY-see*
+**Русский:** книжн. при всём уважении к — вопреки мнению названного автора
 **Type:** conjunctive adverb by function — a Latin ablative used as a preposition, taking a name or a noun phrase and never a clause &middot; **Register:** formal, academic — criticism, philosophy, and the more literary reviews; a scholar's word, and unknown outside that world
 **Clause type:** none — a parenthetical adverbial naming the authority being contradicted
 **Pattern:** *Pace* [name], [main clause]. &middot; [main clause], *pace* [name]. &middot; [main clause] (*pace* [name]).
@@ -360,6 +378,7 @@ Latin for "by the leave of," and it means "with apologies to X, who thinks other
 ### save that
 
 **Pronunciation:** /ˈseɪv ðət/ &middot; *SAYV that*
+**Русский:** книжн., устар. за исключением того, что — формальный двойник except that
 **Type:** subordinating; *save* is far commoner as a preposition (*all save one*) and as an ordinary verb &middot; **Register:** formal and literary, verging on archaic — not neutral, and out of place in ordinary American prose
 **Clause type:** adverbial clause of exception and contrast
 **Pattern:** [main clause], *save that* [clause]. &middot; [main clause], *save* [noun phrase]. (preposition) &middot; [main clause], *save for* [noun phrase]. (preposition)
@@ -379,6 +398,7 @@ The formal twin of *except that*, and the register gap between them is wide: *sa
 ### where
 
 **Pronunciation:** /wɛr/ (also /hwɛr/) &middot; *WAIR*
+**Русский:** тогда как, там где — контраст двух версий одного и того же
 **Type:** subordinating; the same word is also the ordinary locative subordinator (*Put it where it belongs*), an interrogative adverb (*Where is it?*), a relative adverb (*the town where she grew up*), and a noun (*the where and the when*) &middot; **Register:** neutral to formal
 **Clause type:** adverbial clause of contrast (also of place)
 **Pattern:** *Where* [clause], [main clause]. &middot; [main clause], *where* [clause].
@@ -397,6 +417,7 @@ Contrastive *where* sets one case against another — "in this version X, in tha
 ### whereas
 
 **Pronunciation:** /wɛrˈæz/ (also /hwɛrˈæz/) &middot; *wair-AZ*
+**Русский:** тогда как, в то время как — чистое противопоставление, без уступки
 **Type:** subordinating &middot; **Register:** neutral to formal
 **Clause type:** adverbial clause of contrast
 **Pattern:** [main clause], *whereas* [clause]. &middot; *Whereas* [clause], [main clause].
@@ -419,6 +440,7 @@ These concede a condition rather than a fact — the thing granted has not happe
 ### arguendo
 
 **Pronunciation:** /ˌɑrɡjuˈɛndoʊ/ &middot; *ar-gyoo-EN-doh*
+**Русский:** юр. допустим ради спора — в обороте assuming arguendo that
 **Type:** subordinating inside the fixed frame *assuming arguendo that*; the bare word is a Latin adverb ("in the course of argument") and connects nothing by itself &middot; **Register:** formal, legal — American briefs and judicial opinions, and essentially nowhere else
 **Clause type:** adverbial clause of concessive condition
 **Pattern:** *Assuming arguendo that* [clause], [main clause]. &middot; *Assuming, arguendo, that* [clause], [main clause]. &middot; *Even assuming arguendo* [clause], [main clause]. &middot; [verb phrase] *arguendo*.
@@ -438,6 +460,7 @@ A lawyer's *even if*. It grants a premise the writer does not accept, purely to 
 ### even if
 
 **Pronunciation:** /ˌivən ˈɪf/ &middot; unstressed /ˌivən əf/ &middot; *ee-vun IF*
+**Русский:** даже если — уступка предположению, а не факту (ср. even though)
 **Type:** subordinating &middot; **Register:** neutral
 **Clause type:** adverbial clause of concessive condition
 **Pattern:** *Even if* [clause], [main clause]. &middot; [main clause] *even if* [clause].
@@ -456,6 +479,7 @@ Grants a condition that has not happened, then says the main clause holds anyway
 ### if
 
 **Pronunciation:** /ɪf/ &middot; unstressed /əf/ &middot; *IF*
+**Русский:** книжн. хотя и — при прилагательном: a bold, if risky plan «смелый, хотя и рискованный»
 **Type:** subordinating; the same word heads conditional clauses (*If it rains, we'll move inside*) and noun clauses after verbs of asking and knowing (*Ask if they're open*) &middot; **Register:** formal or literary in this concessive use; conditional *if* is neutral
 **Clause type:** adverbial clause of concession, usually reduced to a phrase
 **Pattern:** [statement], *if* [adjective]. &middot; [determiner] [adjective], *if* [adjective], [noun]. &middot; *If* [adjective/noun phrase], [main clause].
@@ -475,6 +499,7 @@ A compressed *although*, almost always attached to an adjective rather than to a
 ### regardless of whether
 
 **Pronunciation:** /rɪˈɡɑrdləs əv ˈwɛðər/ (also /ˈhwɛðər/) &middot; casually /rɪˈɡɑrdləs ə ˈwɛðər/ &middot; *rih-GARD-luss uv WETH-er*
+**Русский:** офиц. независимо от того, ... ли — канцелярский вариант whether or not
 **Type:** subordinating; bare *regardless* is a conjunctive adverb (*Regardless, the flight left on time*) and *regardless of* is a preposition (*regardless of cost*) — neither can take a clause until *whether* or *the fact that* is bolted on &middot; **Register:** formal
 **Clause type:** adverbial clause of concessive condition
 **Pattern:** *Regardless of whether* [clause], [main clause]. &middot; [main clause] *regardless of whether* [clause].
@@ -494,6 +519,7 @@ Says the main clause holds across both branches of an open question. It is the c
 ### whether or not
 
 **Pronunciation:** /ˈwɛðər ər ˈnɑt/ (also /ˈhwɛðər/) &middot; *WETH-er er NOT*
+**Русский:** независимо от того, ... или нет — верно при любом из вариантов
 **Type:** subordinating, and correlative in the split form *whether … or (not)*; the same *whether* also heads noun clauses (*I asked whether it was open*) &middot; **Register:** neutral
 **Clause type:** adverbial clause of concessive condition
 **Pattern:** *Whether or not* [clause], [main clause]. &middot; *Whether* [clause] *or not*, [main clause]. &middot; *Whether* [clause A] *or* [clause B], [main clause].
@@ -517,6 +543,7 @@ These concede every case at once — every degree, every thing, every person, ev
 ### however
 
 **Pronunciation:** /haʊˈɛvər/ &middot; *how-EV-er*
+**Русский:** как бы ни, насколько бы ни — союз, не наречие «однако»; however hard he tried
 **Type:** subordinating (a different word from the conjunctive adverb *however*) &middot; **Register:** neutral to formal
 **Clause type:** adverbial clause of concession, universal — "no matter how"
 **Pattern:** *However* [adjective/adverb] [subject] [verb], [main clause]. &middot; *However* [subject] [verb], [main clause]. &middot; *However many/much* [noun] [subject] [verb], [main clause]. &middot; [main clause] *however* [adjective/adverb] [subject] [verb].
@@ -536,6 +563,7 @@ Means "no matter how," and it grabs the adjective or adverb it scopes over: *how
 ### howsomever
 
 **Pronunciation:** /ˌhaʊsəmˈɛvər/ &middot; *how-sum-EV-er*
+**Русский:** диал., устар. как бы ни; впрочем — просторечная форма however
 **Type:** subordinating, and also a conjunctive adverb meaning "however" — it inherits both jobs from *however* &middot; **Register:** dialectal and archaic — nineteenth-century American rural speech and the local-color fiction that reproduced it, and still heard from older Appalachian and Ozark speakers. It is not standard in any written register.
 **Clause type:** adverbial clause of concession, universal — "no matter how"; also a sentence adverbial
 **Pattern:** *Howsomever* [adjective/adverb] [subject] [verb], [main clause]. &middot; *Howsomever* [subject] [verb], [main clause]. &middot; [statement]; *howsomever*, [statement]. (adverb)
@@ -555,6 +583,7 @@ A folk extension of *howsoever*, and the extra syllable is exactly what marks it
 ### no matter how
 
 **Pronunciation:** /ˌnoʊ ˈmæɾər ˈhaʊ/ &middot; *no MAT-er HOW*
+**Русский:** как бы ни, сколько бы ни — уступка по степени
 **Type:** subordinating &middot; **Register:** neutral
 **Clause type:** adverbial clause of concession, universal over degree
 **Pattern:** *No matter how* [adjective/adverb] [subject] [verb], [main clause]. &middot; *No matter how many/much* [noun] [subject] [verb], [main clause]. &middot; [main clause] *no matter how* [adjective/adverb] [subject] [verb].
@@ -573,6 +602,7 @@ The plain-English twin of subordinating *however*, and by far the more common of
 ### no matter that
 
 **Pronunciation:** /ˌnoʊ ˈmæɾər ðət/ &middot; *no MAT-er that*
+**Русский:** пусть даже, неважно, что — с оттенком пренебрежения к признанному факту
 **Type:** subordinating &middot; **Register:** formal or literary
 **Clause type:** adverbial clause of concession
 **Pattern:** [main clause] — *no matter that* [clause]. &middot; *No matter that* [clause], [main clause].
@@ -591,6 +621,7 @@ The one member of the *no matter* family that takes a plain statement instead of
 ### no matter what
 
 **Pronunciation:** /ˌnoʊ ˈmæɾər ˈwʌt/ (also /ˈhwʌt/) &middot; *no MAT-er WUT*
+**Русский:** что бы ни; в конце фразы — «во что бы то ни стало»
 **Type:** subordinating &middot; **Register:** neutral
 **Clause type:** adverbial clause of concession, universal over things and outcomes
 **Pattern:** *No matter what* [subject] [verb], [main clause]. &middot; *No matter what* [verb phrase], [main clause]. &middot; *No matter what* [noun] [subject] [verb], [main clause]. &middot; [main clause] *no matter what* [subject] [verb]. &middot; [main clause], *no matter what*. (fixed tag, nothing following)
@@ -610,6 +641,7 @@ Ranges over every possible thing or outcome. Unlike *whatever*, it can only be a
 ### no matter when
 
 **Pronunciation:** /ˌnoʊ ˈmæɾər ˈwɛn/ (also /ˈhwɛn/) &middot; *no MAT-er WEN*
+**Русский:** когда бы ни — время не имеет значения
 **Type:** subordinating &middot; **Register:** neutral
 **Clause type:** adverbial clause of concession, universal over time
 **Pattern:** *No matter when* [clause], [main clause]. &middot; [main clause] *no matter when* [clause].
@@ -628,6 +660,7 @@ Says the timing makes no difference. It competes with *whenever*, which is far m
 ### no matter where
 
 **Pronunciation:** /ˌnoʊ ˈmæɾər ˈwɛr/ (also /ˈhwɛr/) &middot; *no MAT-er WAIR*
+**Русский:** где бы ни, куда бы ни — место не имеет значения
 **Type:** subordinating &middot; **Register:** neutral
 **Clause type:** adverbial clause of concession, universal over place
 **Pattern:** *No matter where* [clause], [main clause]. &middot; [main clause] *no matter where* [clause].
@@ -646,6 +679,7 @@ Says the place makes no difference. Against *wherever*, which can also simply na
 ### no matter which
 
 **Pronunciation:** /ˌnoʊ ˈmæɾər ˈwɪtʃ/ (also /ˈhwɪtʃ/) &middot; *no MAT-er WICH*
+**Русский:** какой бы ни, который бы ни — выбор из известного набора
 **Type:** subordinating &middot; **Register:** neutral
 **Clause type:** adverbial clause of concession, universal over a closed set
 **Pattern:** *No matter which* [noun] [subject] [verb], [main clause]. &middot; *No matter which* [subject] [verb], [main clause]. &middot; [main clause] *no matter which* [noun] [subject] [verb].
@@ -665,6 +699,7 @@ Says the place makes no difference. Against *wherever*, which can also simply na
 ### no matter who
 
 **Pronunciation:** /ˌnoʊ ˈmæɾər ˈhu/ &middot; *no MAT-er HOO*
+**Русский:** кто бы ни — только обстоятельство, в отличие от whoever
 **Type:** subordinating &middot; **Register:** neutral
 **Clause type:** adverbial clause of concession, universal over persons
 **Pattern:** *No matter who* [verb phrase], [main clause]. &middot; *No matter who* [subject] [verb], [main clause]. (when *who* is the object inside its own clause) &middot; [main clause] *no matter who* [verb phrase].
@@ -684,6 +719,7 @@ Ranges over every person. Like the rest of the family it is adverbial only, and 
 ### no matter why
 
 **Pronunciation:** /ˌnoʊ ˈmæɾər ˈwaɪ/ (also /ˈhwaɪ/) &middot; *no MAT-er WY*
+**Русский:** по какой бы причине ни — мотив не имеет значения
 **Type:** subordinating &middot; **Register:** neutral
 **Clause type:** adverbial clause of concession, universal over reasons
 **Pattern:** *No matter why* [clause], [main clause]. &middot; [main clause] *no matter why* [clause].
@@ -703,6 +739,7 @@ Says the reason makes no difference. It is the thinnest-used member of the famil
 ### whatever
 
 **Pronunciation:** /wʌtˈɛvər/ (also /wɑtˈɛvər/, and /hwʌtˈɛvər/ for speakers who keep the *wh-*) &middot; casually /wəˈɾɛvər/, with the *t* flapped &middot; *wut-EV-er*
+**Русский:** что бы ни (уступка); всё, что (именное придаточное) — различает запятая
 **Type:** subordinating; the same word is also a determiner (*whatever excuse she gave*), a fused relative pronoun heading noun clauses (*whatever falls on the floor*), and — informally — a one-word dismissive interjection (*Whatever.*) &middot; **Register:** neutral
 **Clause type:** adverbial clause of concession, universal — also heads noun clauses
 **Pattern:** *Whatever* [subject] [verb], [main clause]. &middot; *Whatever* [noun] [subject] [verb], [main clause]. &middot; [main clause] *whatever* [subject] [verb]. &middot; [verb] *whatever* [subject] [verb] (noun clause — no comma)
@@ -723,6 +760,7 @@ Two words in one shape. Concessive *whatever* means "no matter what" and can be 
 ### whenever
 
 **Pronunciation:** /wɛnˈɛvər/ (also /hwɛnˈɛvər/) &middot; *wen-EV-er*
+**Русский:** когда бы ни; всякий раз, когда — чаще о повторе, реже уступка
 **Type:** subordinating; the same word is also the ordinary time subordinator meaning "every time" and a fused relative heading noun clauses (*Whenever you get here is fine*) &middot; **Register:** neutral
 **Clause type:** adverbial clause of concession, universal over time — also of time proper
 **Pattern:** *Whenever* [clause], [main clause]. &middot; [main clause] *whenever* [clause]. &middot; [main clause] *whenever*. (bare tag, nothing following: *Call me whenever*) &middot; *Whenever* [clause] [main-clause verb phrase]. (fused relative heading a noun clause — no comma: *Whenever you get here is fine*)
@@ -741,6 +779,7 @@ Mostly a time word meaning "every time," but it turns concessive when the point 
 ### wherever
 
 **Pronunciation:** /wɛrˈɛvər/ (also /hwɛrˈɛvər/) &middot; *wair-EV-er*
+**Русский:** где бы ни, куда бы ни — в любом месте, и это неважно
 **Type:** subordinating; the same word is also the ordinary place subordinator (*Sit wherever you like*) and a fused relative heading noun clauses &middot; **Register:** neutral
 **Clause type:** adverbial clause of concession, universal over place — also of place proper
 **Pattern:** *Wherever* [clause], [main clause]. &middot; [main clause] *wherever* [clause]. &middot; [verb/preposition] *wherever* [clause]. (fused relative heading a noun clause — no comma) &middot; *Wherever* [clause] [main-clause verb phrase]. (fused relative as subject — no comma)
@@ -760,6 +799,7 @@ Mostly a time word meaning "every time," but it turns concessive when the point 
 ### whichever
 
 **Pronunciation:** /wɪtʃˈɛvər/ (also /hwɪtʃˈɛvər/) &middot; *wich-EV-er*
+**Русский:** какой бы ни, который бы ни — из закрытого, известного набора
 **Type:** subordinating; the same word is also a determiner (*whichever route you take*) and a fused relative pronoun heading noun clauses (*Take whichever you like*) &middot; **Register:** neutral
 **Clause type:** adverbial clause of concession, universal over a known set — also heads noun clauses
 **Pattern:** *Whichever* [noun] [subject] [verb], [main clause]. &middot; *Whichever* [subject] [verb], [main clause]. (as a bare pronoun, no noun following) &middot; [main clause] *whichever* [noun] [subject] [verb]. &middot; [verb] *whichever* [noun] [subject] [verb] (noun clause — no comma)
@@ -779,6 +819,7 @@ Like *whatever*, except that the alternatives are a closed, known set — two ca
 ### whoever
 
 **Pronunciation:** /huˈɛvər/ &middot; *hoo-EV-er*
+**Русский:** кто бы ни; тот, кто — падеж выбирается по роли внутри своего придаточного
 **Type:** subordinating; the same word is also a fused relative pronoun heading noun clauses (*Give it to whoever answers*) &middot; **Register:** neutral
 **Clause type:** adverbial clause of concession, universal over persons — also heads noun clauses
 **Pattern:** *Whoever* [verb phrase], [main clause]. &middot; *Whoever* [subject] [verb], [main clause]. (when *whoever* is the object inside its own clause) &middot; [main clause] *whoever* [verb phrase]. &middot; [verb/preposition] *whoever* [verb phrase] (noun clause — no comma)
@@ -803,6 +844,7 @@ Multi-word chunks, learned whole. Most exist because a preposition — *despite*
 ### admitting that
 
 **Pronunciation:** /ədˈmɪɾɪŋ ðət/ &middot; *ud-MIT-ing that*
+**Русский:** книжн. признавая, что; пусть даже — уступка, которой до этого сопротивлялись
 **Type:** subordinating &middot; **Register:** formal
 **Clause type:** adverbial clause of concession (participial)
 **Pattern:** *Admitting that* [clause], [main clause]. &middot; *Even admitting that* [clause], [main clause].
@@ -822,6 +864,7 @@ Concedes a point for the sake of argument and then rejects the conclusion drawn 
 ### aside from the fact that
 
 **Pronunciation:** /əˈsaɪd frəm ðə ˈfækt ðət/ &middot; *uh-SIDE frum thuh FAKT that*
+**Русский:** не считая того, что; если не считать, что — исключение выносится вперёд
 **Type:** subordinating; bare *aside from* is a preposition (*aside from the rent*) and cannot take a clause until *the fact that* is bolted on &middot; **Register:** neutral, and wordy
 **Clause type:** adverbial clause of exception and contrast
 **Pattern:** *Aside from the fact that* [clause], [main clause]. &middot; [main clause] *aside from the fact that* [clause]. &middot; *Apart from the fact that* [clause], [main clause]. &middot; *Aside from* [noun phrase], [main clause]. (preposition)
@@ -842,6 +885,7 @@ The exception-flavored member of the *the fact that* family. *Despite the fact t
 ### conceding that
 
 **Pronunciation:** /kənˈsidɪŋ ðət/ &middot; *kun-SEE-ding that*
+**Русский:** книжн. соглашаясь с тем, что — уступает то, что охотнее оставил бы себе
 **Type:** subordinating (participial) &middot; **Register:** formal — briefs, editorials, and argument generally
 **Clause type:** adverbial clause of concession (participial)
 **Pattern:** *Conceding that* [clause], [main clause]. &middot; *While conceding that* [clause], [main clause]. &middot; *Even conceding that* [clause], [main clause].
@@ -861,6 +905,7 @@ Puts the other side's point on the record and then denies that the point decides
 ### despite the fact that
 
 **Pronunciation:** /dɪˈspaɪt ðə ˈfækt ðət/ &middot; *dih-SPYTE thuh FAKT that*
+**Русский:** несмотря на то что — многословный вариант although, обычно лишний
 **Type:** subordinating; bare *despite* is a preposition only (*despite the rain*) and can never take a clause &middot; **Register:** neutral, and wordy
 **Clause type:** adverbial clause of concession
 **Pattern:** *Despite the fact that* [clause], [main clause]. &middot; [main clause] *despite the fact that* [clause].
@@ -880,6 +925,7 @@ A five-word way of saying *although*, built only so that the preposition *despit
 ### for all
 
 **Pronunciation:** /fər ˈɔl/ &middot; *fer AWL*
+**Русский:** при всём, несмотря на — с существительным: for all his money «при всех его деньгах»
 **Type:** prepositional in form, concessive in force — it takes a noun phrase; *for all that* is the version that takes a clause &middot; **Register:** neutral to literary
 **Clause type:** none of its own — a concessive prepositional phrase standing in for a whole clause
 **Pattern:** *For all* [noun phrase], [main clause]. &middot; [main clause] *for all* [noun phrase]. &middot; *For all* [possessive] [noun], [main clause].
@@ -900,6 +946,7 @@ A five-word way of saying *although*, built only so that the preposition *despit
 ### for all that
 
 **Pronunciation:** /fər ˈɔl ˈðæt/ as the adverb, where *that* is a stressed demonstrative &middot; /fər ˈɔl ðət/ as the subordinator, where *that* is an unstressed complementizer &middot; *fer AWL THAT*
+**Русский:** хотя, при том что; как наречие — «и всё же, тем не менее»
 **Type:** subordinating; also a conjunctive adverb meaning "even so," and the bare *for all* is a preposition (*for all his money*) &middot; **Register:** formal or literary
 **Clause type:** adverbial clause of concession
 **Pattern:** *For all that* [clause], [main clause]. &middot; [statement]. *For all that*, [statement]. (adverb) &middot; *For all* [noun phrase], [main clause]. (preposition)
@@ -918,6 +965,7 @@ Two related jobs. Followed by a clause it means "although": *For all that he com
 ### granted that
 
 **Pronunciation:** /ˈɡræntɪd ðət/ (also /ˈɡrænɪd/ with the *t* dropped) &middot; *GRAN-tid that*
+**Русский:** допустим, что; пусть — уступает посылку, чтобы оспорить вывод
 **Type:** subordinating; bare *granted* is a conjunctive adverb with its own entry below, and it is also the plain past participle of the verb *grant* (*the permit was granted*) &middot; **Register:** formal
 **Clause type:** adverbial clause of concession
 **Pattern:** *Granted that* [clause], [main clause]. &middot; *Granting that* [clause], [main clause]. &middot; *Granted* [clause], [main clause]. (with *that* dropped)
@@ -937,6 +985,7 @@ Concedes a premise in order to attack the inference drawn from it — the arguer
 ### in spite of the fact that
 
 **Pronunciation:** /ɪn ˈspaɪt əv ðə ˈfækt ðət/ &middot; *in SPYTE uv thuh FAKT that*
+**Русский:** несмотря на то что — самый длинный способ сказать although
 **Type:** subordinating; bare *in spite of* is a preposition only (*in spite of the rain*) and can never take a clause; the noun *spite* inside it is frozen and carries none of its ordinary meaning &middot; **Register:** neutral, and wordy
 **Clause type:** adverbial clause of concession
 **Pattern:** *In spite of the fact that* [clause], [main clause]. &middot; [main clause] *in spite of the fact that* [clause].
@@ -956,6 +1005,7 @@ The longest way to say *although* that is still standard English. It differs fro
 ### notwithstanding anything to the contrary
 
 **Pronunciation:** /ˌnɑtwɪθˈstændɪŋ ˈɛniθɪŋ tə ðə ˈkɑntrɛri/ (also /ˌnɑtwɪð-/) &middot; *not-with-STAN-ding EN-ee-thing tuh thuh KON-trair-ee*
+**Русский:** юр. несмотря ни на какие противоречащие положения — оговорка приоритета
 **Type:** conjunctive adverb by function — a prepositional phrase that takes a noun phrase and never a clause &middot; **Register:** formal, legal — contract and statutory boilerplate, with no life at all outside drafted documents
 **Clause type:** none — a fronted adverbial that overrides other provisions of the same instrument
 **Pattern:** *Notwithstanding anything to the contrary* [in this Agreement / herein / contained herein], [main clause]. &middot; *Notwithstanding anything in* [Section X] *to the contrary*, [main clause]. &middot; *Notwithstanding anything to the contrary*, [main clause].
@@ -975,6 +1025,7 @@ The override switch of American contract drafting: whatever else the document sa
 ### notwithstanding that
 
 **Pronunciation:** /ˌnɑtwɪθˈstændɪŋ ðət/ (also /ˌnɑtwɪðˈstændɪŋ/) &middot; *not-with-STAN-ding that*
+**Русский:** юр. несмотря на то что, хотя — язык договоров и судебных решений
 **Type:** subordinating; the same word is also a preposition that can stand either before its object (*notwithstanding the delay*) or after it (*the delay notwithstanding*), and a conjunctive adverb in its own right &middot; **Register:** formal, chiefly legal
 **Clause type:** adverbial clause of concession
 **Pattern:** *Notwithstanding that* [clause], [main clause]. &middot; [main clause] *notwithstanding that* [clause]. &middot; *Notwithstanding the fact that* [clause], [main clause]. &middot; *Notwithstanding* [noun phrase], [main clause]. (preposition) &middot; [main clause], [noun phrase] *notwithstanding*. (postposed preposition)
@@ -994,6 +1045,7 @@ The override switch of American contract drafting: whatever else the document sa
 ### notwithstanding the foregoing
 
 **Pronunciation:** /ˌnɑtwɪθˈstændɪŋ ðə fɔrˈɡoʊɪŋ/ (also /ˌnɑtwɪð-/) &middot; *not-with-STAN-ding thuh for-GO-ing*
+**Русский:** юр. несмотря на вышеизложенное — исключение из предыдущего пункта
 **Type:** conjunctive adverb (phrasal) — an anaphoric adverbial pointing back at the text just read &middot; **Register:** formal, legal — contracts, bylaws, board resolutions, and statutes; in ordinary prose it reads as a parody of a lawyer
 **Clause type:** none — a sentence adverbial carving an exception out of the provision immediately above it
 **Pattern:** *Notwithstanding the foregoing*, [main clause]. &middot; *Notwithstanding the foregoing* [sentence/Section/subsection], [main clause]. &middot; *The foregoing notwithstanding*, [main clause]. (postposed)
@@ -1013,6 +1065,7 @@ The drafting equivalent of "except for what I am about to say." It carves an exc
 ### regardless of the fact that
 
 **Pronunciation:** /rɪˈɡɑrdləs əv ðə ˈfækt ðət/ &middot; *rih-GARD-luss uv thuh FAKT that*
+**Русский:** невзирая на то что — не взвешивает факт, а отметает его
 **Type:** subordinating; bare *regardless* is a conjunctive adverb (*Regardless, they went ahead*) and *regardless of* is a preposition (*regardless of the weather*) &middot; **Register:** formal, and wordy
 **Clause type:** adverbial clause of concession
 **Pattern:** *Regardless of the fact that* [clause], [main clause]. &middot; [main clause] *regardless of the fact that* [clause].
@@ -1036,6 +1089,7 @@ Single words and frozen formulas. Most of them — *all the same*, *anyhow*, *at
 ### albeit
 
 **Pronunciation:** /ɔlˈbiɪt/ (also /ælˈbiɪt/) &middot; *awl-BEE-it*
+**Русский:** хотя и, пусть и — только с оборотом, не с целым придаточным: albeit reluctantly
 **Type:** subordinating &middot; **Register:** formal
 **Clause type:** adverbial clause of concession, usually verbless
 **Pattern:** [main clause], *albeit* [adjective/adverb/noun phrase/prepositional phrase]. &middot; [main clause], *albeit* [determiner] [adjective] [noun]. &middot; [main clause], *albeit* [adverb], [rest of the sentence].
@@ -1054,6 +1108,7 @@ A fossil of *all be it* ("although it be"), and it still behaves like one: it ta
 ### all the same
 
 **Pronunciation:** /ˌɔl ðə ˈseɪm/ &middot; *awl thuh SAME*
+**Русский:** всё равно, всё-таки, тем не менее — разговорный аналог nevertheless
 **Type:** conjunctive adverb (phrasal) &middot; **Register:** neutral to informal
 **Clause type:** none — a sentence adverbial pointing back at a concession already made
 **Pattern:** [Independent clause]. *All the same*, [independent clause]. &middot; [Independent clause]; *all the same*, [independent clause]. &middot; [Independent clause] *all the same*. &middot; [Independent clause], *all the same*.
@@ -1074,6 +1129,7 @@ A fossil of *all be it* ("although it be"), and it still behaves like one: it ta
 ### anyhow
 
 **Pronunciation:** /ˈɛnihaʊ/ &middot; *EN-ee-how*
+**Русский:** разг. всё равно, так или иначе — форма anyways нелитературна
 **Type:** conjunctive adverb &middot; **Register:** informal for *anyhow*; *anyways* is nonstandard — casual regional American speech, and a red flag in writing
 **Clause type:** none — a sentence adverbial dismissing what was just granted
 **Pattern:** [Independent clause]. *Anyhow*, [independent clause]. &middot; [Independent clause]; *anyhow*, [independent clause]. &middot; [Independent clause] *anyhow*.
@@ -1094,6 +1150,7 @@ The concessive job of the *anyway* family: the fact just granted is real, and th
 ### at that
 
 **Pronunciation:** /ət ˈðæt/ — *at* reduces to /ət/ inside the phrase &middot; *ut THAT*
+**Русский:** и при этом, к тому же; в устар. уступительном смысле — «и всё-таки, вопреки всему»
 **Type:** conjunctive adverb (phrasal, clause-final) &middot; **Register:** informal to neutral; the concessive sense is dated and now mostly regional, while the additive sense is everywhere
 **Clause type:** none — a clause-final tag
 **Pattern:** [Independent clause] *at that*. &middot; [Independent clause], *at that*. &middot; [noun phrase], *and* [adjective] *one at that*. (the additive sense)
@@ -1114,6 +1171,7 @@ Two senses share the shape, and only the surrounding sentence sorts them out. Th
 ### be it ever so
 
 **Pronunciation:** /bi ɪt ˈɛvər soʊ/ &middot; *bee it EV-er soh*
+**Русский:** устар. как бы ни был — be it ever so humble «пусть даже самый убогий»
 **Type:** subordinating — a frozen subjunctive with inversion &middot; **Register:** archaic and literary — hymns, proverbs, nineteenth-century prose, and one song lyric every American knows
 **Clause type:** adverbial clause of concession, universal over degree — "no matter how"
 **Pattern:** *Be it ever so* [adjective], [main clause]. &middot; *Be* [subject] *ever so* [adjective], [main clause]. &middot; *Be* [subject] *ne'er so* [adjective], [main clause].
@@ -1134,6 +1192,7 @@ The subjunctive *be* thrown to the front of its clause, exactly as in *come what
 ### be that as it may
 
 **Pronunciation:** /bi ˈðæt əz ɪt ˈmeɪ/ &middot; *bee THAT az it MAY*
+**Русский:** как бы то ни было, при всём том — отметает всё сказанное ранее
 **Type:** conjunctive adverb &middot; **Register:** formal
 **Clause type:** none — a sentence adverbial, not a clause connector
 **Pattern:** [statement]. *Be that as it may*, [statement]. &middot; [statement]; *be that as it may*, [statement].
@@ -1152,6 +1211,7 @@ A frozen subjunctive meaning "granting all of that." It concedes everything the 
 ### believe it or not
 
 **Pronunciation:** /bɪˌliv ɪt ər ˈnɑt/ &middot; casually /bəˌliv ɪɾ ər ˈnɑt/, with the *t* of *it* flapped &middot; *bih-leev-it-er-NOT*
+**Русский:** хотите верьте, хотите нет — предупреждение о неожиданном факте
 **Type:** subordinating — a frozen concessive-conditional clause, built exactly like *like it or not* &middot; **Register:** neutral to informal
 **Clause type:** adverbial clause of concessive condition (frozen imperative plus alternative)
 **Pattern:** *Believe it or not*, [main clause]. &middot; [main clause], *believe it or not*. &middot; [main clause] — *believe it or not* — [continuation]. &middot; *Whether you believe it or not*, [main clause].
@@ -1172,6 +1232,7 @@ A *whether* clause with the *whether* dropped and the verb left standing in the 
 ### come what may
 
 **Pronunciation:** /ˌkʌm wʌt ˈmeɪ/ &middot; *kum wut MAY*
+**Русский:** будь что будет, что бы ни случилось — звучит как обещание
 **Type:** subordinating &middot; **Register:** formal or literary
 **Clause type:** adverbial clause of concessive condition (frozen, with inversion)
 **Pattern:** *Come what may*, [main clause]. &middot; [main clause], *come what may*.
@@ -1190,6 +1251,7 @@ A *whether* clause with the *whether* dropped and the verb left standing in the 
 ### even then
 
 **Pronunciation:** /ˌivən ˈðɛn/ &middot; *ee-vun THEN*
+**Русский:** даже тогда, и всё равно — отсылает к уже названному условию или моменту
 **Type:** conjunctive adverb &middot; **Register:** neutral
 **Clause type:** none — a sentence adverbial pointing back at a condition or a moment already named
 **Pattern:** [Independent clause]. *Even then*, [independent clause]. &middot; [Independent clause]; *even then*, [independent clause]. &middot; [conditional clause], *and even then* [main clause]. &middot; [Independent clause] *even then*.
@@ -1210,6 +1272,7 @@ The adverb that finishes what *even if* starts: the *if* clause names the best c
 ### granted
 
 **Pronunciation:** /ˈɡræntɪd/ (also /ˈɡrænɪd/ with the *t* dropped) &middot; *GRAN-tid*
+**Русский:** согласен, спору нет, положим — разговорная уступка перед возражением
 **Type:** conjunctive adverb &middot; **Register:** neutral
 **Clause type:** none — a supplementary adverbial, often a whole turn by itself
 **Pattern:** *Granted*, [statement]. &middot; [statement], *granted*, [continuation]. &middot; [independent clause]; *granted*, [independent clause]. &middot; [independent clause] — *granted* — [continuation]. &middot; "*Granted.*" (as a complete reply)
@@ -1229,6 +1292,7 @@ Concedes the other person's point, usually so that the speaker can turn around a
 ### howbeit
 
 **Pronunciation:** /haʊˈbiɪt/ &middot; *how-BEE-it*
+**Русский:** устар. тем не менее, впрочем — предок albeit, из Библии короля Иакова
 **Type:** conjunctive adverb (formerly also subordinating) &middot; **Register:** archaic
 **Clause type:** none in modern use — a sentence adverbial meaning "nevertheless"
 **Pattern:** [statement]; *howbeit*, [statement]. &middot; *Howbeit* [clause], [main clause]. (obsolete subordinating use)
@@ -1248,6 +1312,7 @@ The dead ancestor of *albeit*, built the same way out of *how be it*. It survive
 ### like it or not
 
 **Pronunciation:** /ˌlaɪk ɪt ər ˈnɑt/ &middot; casually /ˌlaɪk ɪɾ ər ˈnɑt/, with the *t* of *it* flapped &middot; *lyke-it-er-NOT*
+**Русский:** хочешь не хочешь, нравится это или нет — чаще предупреждение, чем уступка
 **Type:** subordinating — a frozen concessive-conditional clause; the bare word *like* is also a preposition (*a house like ours*), a verb (*I like it*), a noun (*likes and dislikes*), an informal subordinator of manner (*like I said*), and an informal quotative (*she was like, no*) &middot; **Register:** neutral to informal; the full *whether you like it or not* is blunter still
 **Clause type:** adverbial clause of concessive condition (frozen, imperative plus alternative)
 **Pattern:** *Like it or not*, [main clause]. &middot; [main clause], *like it or not*. &middot; *Like* [noun phrase] *or not*, [main clause]. &middot; *Whether* [subject] *like(s) it or not*, [main clause].
@@ -1268,6 +1333,7 @@ The spoken cousin of *whether or not*: a *whether* clause with the *whether* dro
 ### maugre
 
 **Pronunciation:** /ˈmɔɡər/ &middot; *MAW-gur*
+**Русский:** устар. вопреки, несмотря на — предлог, вымерший в XVII веке
 **Type:** prepositional in form, concessive in force — it takes a noun phrase and never a clause &middot; **Register:** archaic — Middle and Early Modern English; Chaucer, Spenser, Shakespeare, and Sir Walter Scott, and nothing written since
 **Clause type:** none — a concessive prepositional phrase
 **Pattern:** *Maugre* [noun phrase], [main clause]. &middot; [main clause] *maugre* [noun phrase]. &middot; *Maugre* [possessive] [noun], [main clause].
@@ -1288,6 +1354,7 @@ Old French *maugré*, "ill will": to do a thing *maugre* someone was to do it ag
 ### mind you
 
 **Pronunciation:** /ˈmaɪnd ju/ &middot; casually /ˈmaɪn jə/ &middot; *MYND yoo*
+**Русский:** разг. заметьте, имейте в виду — оговорка к только что сказанному
 **Type:** conjunctive adverb by function — a frozen imperative used as a parenthetical connector &middot; **Register:** informal, spoken; more British and Irish than American, but current in American conversation and in dialogue
 **Clause type:** none — a parenthetical adverbial hanging a qualification on what was just said
 **Pattern:** [Statement], *mind you*, [continuation]. &middot; [Statement] — *mind you*, [statement]. &middot; *Mind you*, [statement]. &middot; [Statement], *mind you*.
@@ -1308,6 +1375,7 @@ Flags the next thing — or the thing just said — as a qualification the liste
 ### natheless
 
 **Pronunciation:** /ˈneɪθləs/ (also /ˈnæθləs/) &middot; *NAYTH-luss*
+**Русский:** устар., поэт. тем не менее — предок nevertheless, у Мильтона и романтиков
 **Type:** conjunctive adverb &middot; **Register:** archaic and poetic — Spenser, Milton, Keats, and nineteenth-century verse; dead in every modern register
 **Clause type:** none — a sentence adverbial meaning "nevertheless"
 **Pattern:** [Statement]; *natheless*, [statement]. &middot; *Natheless*, [statement]. &middot; [statement] *natheless* [continuation]. (bare inside a line of verse)
@@ -1327,6 +1395,7 @@ The ancestor of *nevertheless*, from Old English *na þe læs*, "not the less." 
 ### no doubt
 
 **Pronunciation:** /ˌnoʊ ˈdaʊt/ &middot; *no DOWT*
+**Русский:** спору нет, конечно — уступка, за которой почти всегда прячется «но»
 **Type:** conjunctive adverb (phrasal) — a concessive disjunct &middot; **Register:** neutral; *doubtless* is more literary
 **Clause type:** none — a sentence adverbial conceding a point before the objection arrives
 **Pattern:** *No doubt* [independent clause], *but* [independent clause]. &middot; [subject] *no doubt* [verb phrase], *but* [independent clause]. &middot; [independent clause], *no doubt*. &middot; *Doubtless* [independent clause], *but* [independent clause].
@@ -1347,6 +1416,7 @@ Concedes something in advance, and the concession is usually thin: *no doubt she
 ### not but that
 
 **Pronunciation:** /ˌnɑt bət ˈðæt/ &middot; *not but THAT*
+**Русский:** устар. хотя, конечно же — «не то чтобы не»; современная форма — not that
 **Type:** subordinating — a frozen stacked negative &middot; **Register:** archaic and formal for *not but that*; *not but what* is dialectal and nonstandard — regional American and British speech, never edited prose
 **Clause type:** adverbial clause of concession (parenthetical disclaimer)
 **Pattern:** [statement], *not but that* [clause]. &middot; [statement]. *Not but that* [clause]. &middot; [statement], *not but what* [clause]. (nonstandard)
@@ -1366,6 +1436,7 @@ The eighteenth- and nineteenth-century ancestor of *not that*: a stacked negativ
 ### not for nothing
 
 **Pronunciation:** /ˌnɑt fər ˈnʌθɪŋ/ &middot; casually /ˌnɑt fɚ ˈnʌθɪn/ &middot; *not fer NUTH-ing*
+**Русский:** разг. не в обиду будь сказано (сев.-вост. США); устар. недаром, не зря
 **Type:** conjunctive adverb (phrasal) in the concessive sense; the older sense inverts the clause behind it &middot; **Register:** informal and regional — the concessive opener is a New York, New Jersey, and Boston signature, familiar nationally from movies and television
 **Clause type:** none — a discourse-initial adverbial prefacing an objection
 **Pattern:** *Not for nothing*, *but* [independent clause]. &middot; *Not for nothing*, [independent clause]. &middot; *Not for nothing* [auxiliary] [subject] [verb phrase]. (the older inverted sense)
@@ -1386,6 +1457,7 @@ Two senses that pull in opposite directions. The older one means "for good reaso
 ### not that
 
 **Pronunciation:** /ˈnɑt ðæt/ &middot; unstressed /ˈnɑt ðət/ &middot; *NOT that*
+**Русский:** не то чтобы — отводит вывод, который собеседник вот-вот сделает
 **Type:** subordinating &middot; **Register:** informal to neutral
 **Clause type:** adverbial clause of concession (parenthetical disclaimer)
 **Pattern:** [statement]. *Not that* [clause]. &middot; *Not that* [clause], but [main clause]. &middot; [statement] — *not that* [clause].
@@ -1404,6 +1476,7 @@ Heads off an inference the speaker expects the listener to draw, and denies it �
 ### still and all
 
 **Pronunciation:** /ˌstɪl ən ˈɔl/ &middot; *stil un AWL*
+**Русский:** разг. и всё же, всё равно — просторечное удвоение still
 **Type:** conjunctive adverb (phrasal) &middot; **Register:** informal and regional — colloquial American speech with a rural, older-generation flavor; not standard written English
 **Clause type:** none — a sentence adverbial dismissing what was just granted
 **Pattern:** [Independent clause]. *Still and all*, [independent clause]. &middot; [Independent clause]; *still and all*, [independent clause]. &middot; *Still and all*, [independent clause].
@@ -1423,6 +1496,7 @@ A colloquial doubling of *still*, where *and all* adds nothing but breath and wa
 ### to be sure
 
 **Pronunciation:** /tə bi ˈʃʊr/ &middot; *tuh bee SHOOR*
+**Русский:** книжн. разумеется, спору нет — письменная уступка перед неизбежным «но»
 **Type:** conjunctive adverb (phrasal) — a concessive disjunct &middot; **Register:** formal to neutral — a writer's phrase; in speech it sounds bookish
 **Clause type:** none — a sentence adverbial conceding a point, almost always ahead of a *but*
 **Pattern:** [Independent clause], *to be sure*, *but* [independent clause]. &middot; *To be sure*, [independent clause]. *But* [independent clause]. &middot; [Independent clause], *to be sure*.
@@ -1442,6 +1516,7 @@ The essayist's concession: it grants the strongest point on the other side in or
 ### what though
 
 **Pronunciation:** /ˌwʌt ˈðoʊ/ (also /ˌhwʌt ˈðoʊ/) &middot; *wut THOH*
+**Русский:** устар., поэт. что с того, что; пусть даже — риторический вопрос вместо уступки
 **Type:** subordinating — a rhetorical question standing in for a concessive clause &middot; **Register:** archaic and poetic — Shakespeare, Milton, the hymnal, and nineteenth-century verse; dead in modern prose
 **Clause type:** interrogative in form, concessive in force — "what does it matter that …"
 **Pattern:** *What though* [clause]? [main clause]. &middot; *What though* [clause], [main clause]. &middot; *What though* [noun phrase]? [main clause].

@@ -11,6 +11,7 @@ This category has two halves that work as one. Some of these words point inward 
 ### aaah
 
 **Pronunciation:** /ɑː/ — the vowel of *father*, held; each extra letter in the spelling means a longer hold &middot; *AHH*
+**Русский:** а-а-а! — крик ужаса на письме; чем больше букв, тем длиннее вопль
 **Type:** primary &middot; **Register:** informal (chiefly written)
 **Variants:** *aah*, *ahhh*, *aaaah*
 
@@ -28,6 +29,7 @@ The written form of a scream. Extra letters make the scream longer and more fran
 ### ack
 
 **Pronunciation:** /æk/ &middot; *AK*
+**Русский:** ай! / ой! — короткий сдавленный возглас досады, почти только на письме
 **Type:** primary &middot; **Register:** informal (chiefly written; comics and internet)
 **Variants:** *aack*, *ackk*
 
@@ -44,6 +46,7 @@ A short, strangled noise of dismay or mild alarm, popularized by American newspa
 ### agh
 
 **Pronunciation:** /ɑː/ (with a strained, throaty quality) &middot; *AHH*
+**Русский:** а-а! — сдавленный, придушенный крик испуга или отвращения
 **Type:** primary &middot; **Register:** informal (chiefly written)
 **Variants:** *aagh*, *aaagh*, *augh*
 
@@ -60,6 +63,7 @@ A choked cry of fright, revulsion, or panic. Spoken, it is hard to tell from a p
 ### aiee
 
 **Pronunciation:** /aɪˈiː/ &middot; *eye-EE*
+**Русский:** ай-и-и! — визг ужаса; почти только в комиксах и приключенческой прозе
 **Type:** primary &middot; **Register:** informal (chiefly written; comics and genre fiction)
 **Variants:** *aiiee*, *aieee*, *aiyee*
 
@@ -76,6 +80,7 @@ A shriek of terror or sudden pain, used almost entirely in print — comic books
 ### boo
 
 **Pronunciation:** /buː/ &middot; *BOO*
+**Русский:** бу! — крик, чтобы напугать, выскочив из укрытия (не «фу» неодобрения)
 **Type:** primary &middot; **Register:** informal
 
 Shouted to startle someone on purpose, usually from hiding and usually in fun. It is the one word in this group that causes fear instead of expressing it. The drawn-out *boo* that a crowd aims at a bad performance is a separate word meaning disapproval.
@@ -92,6 +97,7 @@ Shouted to startle someone on purpose, usually from hiding and usually in fun. I
 ### eek
 
 **Pronunciation:** /iːk/ &middot; *EEK*
+**Русский:** ой! / и-и! — короткий писк испуга или брезгливости, часто полушутливый
 **Type:** primary &middot; **Register:** informal (often playful)
 **Variants:** *eeek*, *eeeek*
 
@@ -109,6 +115,7 @@ A high, short squeal of fright or squeamishness — mice, spiders, cold water, a
 ### eep
 
 **Pronunciation:** /iːp/ &middot; *EEP*
+**Русский:** ой / ик — тихий мышиный писк смущения или тревоги, в основном в переписке
 **Type:** primary &middot; **Register:** very informal (chiefly internet/text)
 **Variants:** *eeep*
 
@@ -125,6 +132,7 @@ A tiny, mouse-like squeak of alarm or embarrassment — smaller and cuter than *
 ### gasp
 
 **Pronunciation:** /ɡæsp/ when the written word is read aloud — but the sound it stands for is not speech at all: it is a sharp intake of breath through an open mouth &middot; *GASP*
+**Русский:** ах! — резкий вдох от испуга на письме; произнесённое вслух звучит иронично
 **Type:** onomatopoeic &middot; **Register:** informal (chiefly written; said aloud as a word it is almost always sarcastic)
 
 The written stand-in for the breath people suck in when they are shocked or frightened. On the page it marks alarm the way *gulp* marks dread. Said out loud as an actual word — flat, unhurried, no real breath behind it — it means the opposite: the speaker is only pretending to be shocked.
@@ -141,6 +149,7 @@ The written stand-in for the breath people suck in when they are shocked or frig
 ### gulp
 
 **Pronunciation:** /ɡʌlp/ when the written word is read aloud — the thing it names is a hard swallow, a squeeze of the throat with no speech sound in it &middot; *GULP*
+**Русский:** ой-ой / сглотнул — на письме передаёт нервный страх перед тем, что предстоит
 **Type:** onomatopoeic &middot; **Register:** informal (chiefly written)
 
 The sound of swallowing hard, written down to show nervous dread. It is a printed stage direction more than a spoken word: you write *gulp* to admit you are afraid of whatever comes next.
@@ -156,6 +165,7 @@ The sound of swallowing hard, written down to show nervous dread. It is a printe
 ### hoo boy
 
 **Pronunciation:** /ˌhuː ˈbɔɪ/ &middot; *hoo-BOY*
+**Русский:** ну и ну / ох ты — усталое предчувствие чего-то большого и неприятного
 **Type:** phrase &middot; **Register:** informal
 **Variants:** *hoo-boy*, *hooboy*
 
@@ -172,6 +182,7 @@ Said while bracing for something big, bad, or exhausting that you can already se
 ### oh dear
 
 **Pronunciation:** /ˌoʊ ˈdɪr/ &middot; *oh-DEER*
+**Русский:** ах, боже мой / ай-яй-яй — мягкая досада; в США звучит старомодно
 **Type:** phrase &middot; **Register:** neutral; distinctly old-fashioned in American English
 **Variants:** *oh dear me*, *oh dear, oh dear*
 
@@ -188,6 +199,7 @@ A mild, restrained expression of dismay at something that has gone wrong. In the
 ### oh no
 
 **Pronunciation:** /ˌoʊ ˈnoʊ/ &middot; *oh-NOH*
+**Русский:** о нет / ой, нет — реакция на плохую новость; чем длиннее, тем сильнее ужас
 **Type:** phrase &middot; **Register:** neutral
 **Variants:** *oh no no no*, *oh nooo*
 
@@ -205,6 +217,7 @@ The all-purpose American reaction to bad news or an unfolding disaster, from a d
 ### oops
 
 **Pronunciation:** /uːps/, also /ʊps/ &middot; *OOPS*
+**Русский:** упс / ой — мгновенная реакция на собственную мелкую оплошность
 **Type:** primary &middot; **Register:** informal
 **Variants:** *whoops*, *oopsie*, *whoopsie*, *oops-a-daisy*
 
@@ -222,6 +235,7 @@ Said the instant you notice you have made a small mistake — a spill, a typo, a
 ### uh-oh
 
 **Pronunciation:** /ˈʌʔoʊ/ &middot; *UH-oh*
+**Русский:** ой-ой / оп-па — двусложный сигнал: что-то пошло не так
 **Type:** primary &middot; **Register:** neutral
 **Variants:** *uh oh*, *oh-oh*, *uhoh*
 
@@ -239,6 +253,7 @@ A two-note signal that something has just gone wrong or is about to. The syllabl
 ### yikes
 
 **Pronunciation:** /jaɪks/ &middot; *YIKES*
+**Русский:** ой-ой / ужас — о пугающем, неловком или дорогом; онлайн — осуждающее «ну и ну»
 **Type:** primary &middot; **Register:** informal
 **Variants:** *yiiikes*
 
@@ -256,6 +271,7 @@ A reaction to something alarming, awkward, or expensive — low-grade real fear 
 ### yipes
 
 **Pronunciation:** /jaɪps/ &middot; *YIPES*
+**Русский:** ой-ой-ой! — устар., мультяшный вариант yikes; звучит нарочито дурашливо
 **Type:** primary &middot; **Register:** informal, dated (cartoon flavor)
 **Variants:** *yipe*
 
@@ -272,6 +288,7 @@ An older, more cartoonish sibling of *yikes*, expressing sudden fright. American
 ### zoinks
 
 **Pronunciation:** /zɔɪŋks/ &middot; *ZOYNKS*
+**Русский:** ой, мамочки! — шутливый вопль страха из «Скуби-Ду», всерьёз так не говорят
 **Type:** primary &middot; **Register:** informal, jocular (cartoon flavor)
 
 A yelp of fright borrowed straight from Shaggy on *Scooby-Doo*. No American says it in real fear; saying it announces that you are playing the coward on purpose, which is the same trick *yipes* pulls.
@@ -289,6 +306,7 @@ A yelp of fright borrowed straight from Shaggy on *Scooby-Doo*. No American says
 ### abandon ship
 
 **Pronunciation:** /əˌbændən ˈʃɪp/ &middot; *uh-BAN-duhn SHIP*
+**Русский:** покинуть судно! — команда оставить тонущий корабль; шутл. «спасайся кто может»
 **Type:** phrase &middot; **Register:** neutral in nautical use; informal and jocular elsewhere
 
 The order to get off a sinking vessel, shouted as a warning that the ship can no longer be saved. On land, Americans use it jokingly about any project, party, or job that has obviously failed.
@@ -304,6 +322,7 @@ The order to get off a sinking vessel, shouted as a warning that the ship can no
 ### fire
 
 **Pronunciation:** /ˈfaɪər/, also /faɪr/ &middot; *FYE-er*
+**Русский:** пожар! — крик тревоги об огне (команда «огонь!» стрелять — другое значение)
 **Type:** secondary &middot; **Register:** neutral
 
 Shouted to warn everyone in earshot that there is a fire and they need to get out. It is the one alarm word Americans are taught never to shout falsely, which is where the phrase about yelling *fire* in a crowded theater comes from. The order to shoot a weapon is a separate use of the same word.
@@ -319,6 +338,7 @@ Shouted to warn everyone in earshot that there is a fire and they need to get ou
 ### help
 
 **Pronunciation:** /hɛlp/ &middot; *HELP*
+**Русский:** помогите! / на помощь! — крик о помощи в беде
 **Type:** secondary &middot; **Register:** neutral
 **Variants:** *help me*, *somebody help*
 
@@ -336,6 +356,7 @@ The basic English cry for assistance in danger. Shouted on its own it means you 
 ### man down
 
 **Pronunciation:** /ˌmæn ˈdaʊn/ &middot; *man-DOWN*
+**Русский:** есть раненый! / человек упал! — вызов помощи к тому, кто на земле
 **Type:** phrase &middot; **Register:** neutral in military, police, and emergency-services use; informal and jocular elsewhere
 **Variants:** *officer down*
 
@@ -352,6 +373,7 @@ Called out when someone has been hurt and is on the ground, so that help comes t
 ### man overboard
 
 **Pronunciation:** /ˌmæn ˈoʊvərˌbɔrd/ &middot; *man-OH-ver-bord*
+**Русский:** человек за бортом! — морской крик, когда кто-то упал в воду
 **Type:** phrase &middot; **Register:** neutral (nautical)
 
 Shouted the moment someone falls off a boat, so the crew can cut the engines, mark the spot, and turn back. Ashore it gets used jokingly whenever anyone falls into water — or drops out of a group.
@@ -367,6 +389,7 @@ Shouted the moment someone falls off a boat, so the crew can cut the engines, ma
 ### mayday
 
 **Pronunciation:** /ˈmeɪˌdeɪ/ &middot; *MAY-day*
+**Русский:** мэйдэй — международный радиосигнал бедствия, повторяется трижды; шутл. «я тону»
 **Type:** primary &middot; **Register:** neutral (radio and aviation procedure)
 **Variants:** *mayday, mayday, mayday*
 
@@ -383,6 +406,7 @@ The international radio distress call, used only for life-threatening emergencie
 ### medic
 
 **Pronunciation:** /ˈmɛdɪk/ &middot; *MED-ik*
+**Русский:** санитар! / медика сюда! — крик о медпомощи раненому; во флоте США — corpsman
 **Type:** secondary &middot; **Register:** neutral in military and emergency-services use; informal and jocular elsewhere
 **Variants:** *corpsman*
 
@@ -399,6 +423,7 @@ Shouted for someone who is hurt, to pull the nearest person with a first-aid bag
 ### pan-pan
 
 **Pronunciation:** /ˈpɑn ˈpɑn/, often Americanized to /ˈpæn ˈpæn/ &middot; *PAHN-PAHN*
+**Русский:** пан-пан — радиосигнал срочности ниже mayday: помощь нужна, но жизнь вне опасности
 **Type:** primary &middot; **Register:** neutral (radio procedure); almost never heard outside a cockpit or a marine radio
 **Variants:** *pan-pan-pan*, *pan pan pan*
 
@@ -415,6 +440,7 @@ The urgency call one step below *mayday*: something is wrong and you need help, 
 ### SOS
 
 **Pronunciation:** /ˌɛs oʊ ˈɛs/ &middot; *ess-oh-ESS*
+**Русский:** SOS — сигнал бедствия азбукой Морзе; в быту — любая срочная просьба о помощи
 **Type:** primary &middot; **Register:** neutral
 **Variants:** *S.O.S.*
 
@@ -433,6 +459,7 @@ The Morse distress signal — three dots, three dashes, three dots — used as a
 ### behind you
 
 **Pronunciation:** /bɪˈhaɪnd juː/ &middot; *bih-HYND YOO*
+**Русский:** сзади! / за спиной! — «прохожу вплотную сзади», стандарт на кухне ресторана
 **Type:** phrase &middot; **Register:** informal (standard in restaurant kitchens and busy workspaces)
 **Variants:** *behind*, *behind ya*
 
@@ -449,6 +476,7 @@ Called out to tell someone you are passing close behind them, so they do not tur
 ### bombs away
 
 **Pronunciation:** /ˌbɑmz əˈweɪ/ &middot; *bomz uh-WAY*
+**Русский:** полетело! / бомбы пошли! — шутливое «сейчас сброшу, поберегись»
 **Type:** phrase &middot; **Register:** informal, usually jocular
 
 Originally the bombardier's call that the payload has been released; now used almost entirely in fun, to announce that you are about to drop, pour, or launch something and that anyone underneath should move.
@@ -464,6 +492,7 @@ Originally the bombardier's call that the payload has been released; now used al
 ### brace
 
 **Pronunciation:** /breɪs/ &middot; *BRAYSS*
+**Русский:** приготовиться к удару! — команда сгруппироваться; brace yourself — «крепись»
 **Type:** secondary &middot; **Register:** neutral (aviation and emergency procedure); informal when figurative
 **Variants:** *brace, brace, brace*, *brace for impact*, *brace yourself*
 
@@ -480,6 +509,7 @@ The command to get into a protective position because an impact is coming. Fligh
 ### clear
 
 **Pronunciation:** /klɪr/ &middot; *KLEER*
+**Русский:** отойти! / от пациента! — предупреждение перед разрядом или взрывом; all clear — «отбой»
 **Type:** secondary &middot; **Register:** neutral (medical, firearms, and construction procedure)
 **Variants:** *all clear*, *stand clear*
 
@@ -497,6 +527,7 @@ Two senses. **1.** Shouted before something dangerous happens, to make everyone 
 ### coming through
 
 **Pronunciation:** /ˌkʌmɪŋ ˈθru/ &middot; *kum-ing THROO*
+**Русский:** дорогу! / пропустите! — «иду через толпу, посторонитесь»
 **Type:** phrase &middot; **Register:** informal
 **Variants:** *comin' through*
 
@@ -513,6 +544,7 @@ Announces that you are moving through a crowd or a doorway right now and that pe
 ### duck
 
 **Pronunciation:** /dʌk/ &middot; *DUK*
+**Русский:** пригнись! — быстро нагни голову, сейчас что-то заденет
 **Type:** secondary &middot; **Register:** informal
 **Variants:** *duck down*, *get down*
 
@@ -529,6 +561,7 @@ Shouted to tell someone to drop their head fast, because something is about to h
 ### fire in the hole
 
 **Pronunciation:** /ˌfaɪər ɪn ðə ˈhoʊl/ &middot; *FYE-er in the HOHL*
+**Русский:** сейчас рванёт! / берегись, взрыв! — предупреждение о подрыве заряда
 **Type:** phrase &middot; **Register:** neutral in demolition and military use; informal and jocular elsewhere
 
 The standard warning that an explosive is about to go off and everyone should take cover. It comes from mining, where the *hole* was the bore drilled for the charge. Video games have made it familiar to Americans who have never been near dynamite, and it is now used as a joke before anything loud or messy.
@@ -544,6 +577,7 @@ The standard warning that an explosive is about to go off and everyone should ta
 ### fore
 
 **Pronunciation:** /fɔr/ &middot; *FOR*
+**Русский:** берегись, мяч! — крик гольфиста, что мяч летит в вашу сторону
 **Type:** primary &middot; **Register:** neutral (golf)
 
 The golfer's shout warning anyone downrange that a ball is heading toward them and they should cover up. It sounds exactly like *four* and *for*, so on a course the situation does the disambiguating. It has no use off the golf course except as a joke.
@@ -559,6 +593,7 @@ The golfer's shout warning anyone downrange that a ball is heading toward them a
 ### gangway
 
 **Pronunciation:** /ˈɡæŋˌweɪ/ &middot; *GANG-way*
+**Русский:** дорогу! / посторонись! — устар., кроме порта, склада и закулисья
 **Type:** secondary &middot; **Register:** informal; dated outside docks, warehouses, and stage crews
 
 A shout for people to clear a path, from the nautical word for the passage on and off a ship. It has an old-movie flavor now — most Americans say *coming through* instead — though it survives on working waterfronts, on loading docks, and backstage.
@@ -574,6 +609,7 @@ A shout for people to clear a path, from the nautical word for the passage on an
 ### geronimo
 
 **Pronunciation:** /dʒəˈrɑnəˌmoʊ/ &middot; *juh-RON-uh-moh*
+**Русский:** была не была! / э-ге-гей! — крик при прыжке с высоты
 **Type:** secondary &middot; **Register:** informal (jocular); the borrowed name makes it a poor choice in some company
 
 Shouted while jumping from a height — off a diving board, out of an airplane, into a pile of leaves. It started with American paratroopers in World War II, who took it from the name of the Chiricahua Apache leader Geronimo. It warns whoever is below as much as it announces the jumper's nerve. Worth knowing before you use it: Geronimo was a real man who died a prisoner of war, and plenty of Native Americans hear the shout as a thoughtless borrowing rather than a tribute.
@@ -589,6 +625,7 @@ Shouted while jumping from a height — off a diving board, out of an airplane, 
 ### heads up
 
 **Pronunciation:** /ˌhɛdz ˈʌp/ &middot; *hedz-UP*
+**Русский:** берегись! — крик об опасности сверху; спокойно сказанное — «предупреждаю заранее»
 **Type:** phrase &middot; **Register:** informal (very common; fine at work)
 **Variants:** *heads-up*, *head's up*
 
@@ -606,6 +643,7 @@ Shouted, it means something is flying toward you and you should look. Said calml
 ### hit the deck
 
 **Pronunciation:** /ˌhɪt ðə ˈdɛk/ &middot; *hit thuh DEK*
+**Русский:** ложись! / все на пол! — упасть на землю целиком, не просто пригнуться
 **Type:** phrase &middot; **Register:** informal (military and nautical in origin)
 **Variants:** *hit the dirt*, *hit the floor*
 
@@ -622,6 +660,7 @@ Get flat on the ground this second, because something is coming over your head �
 ### incoming
 
 **Pronunciation:** /ˈɪnˌkʌmɪŋ/ &middot; *IN-kum-ing*
+**Русский:** летит! / ложись! — предупреждение, что что-то быстро приближается
 **Type:** secondary &middot; **Register:** neutral in military use; informal and jocular elsewhere
 
 A warning that something is arriving fast and you should take cover — originally artillery or mortar fire. In civilian American speech it announces anything unwelcome heading your way, from a toddler to an email from Legal.
@@ -637,6 +676,7 @@ A warning that something is arriving fast and you should take cover — original
 ### look alive
 
 **Pronunciation:** /ˌlʊk əˈlaɪv/ &middot; *look uh-LYVE*
+**Русский:** не спать! / шевелись! — окрик: соберись, сейчас начнётся
 **Type:** phrase &middot; **Register:** informal
 **Variants:** *look sharp*
 
@@ -653,6 +693,7 @@ A sharp order to wake up and pay attention, because something is about to happen
 ### look out
 
 **Pronunciation:** /ˌlʊk ˈaʊt/ &middot; *look-OWT*
+**Русский:** осторожно! / берегись! — общий предупреждающий крик: опасность прямо тут
 **Type:** phrase &middot; **Register:** neutral
 **Variants:** *look out below*
 
@@ -670,6 +711,7 @@ The general-purpose American warning shout: the danger is right there, react now
 ### on your left
 
 **Pronunciation:** /ˌɑn jər ˈlɛft/ &middot; *on yer LEFT*
+**Русский:** слева обхожу! — предупреждение обгоняющего, с какой стороны он проходит
 **Type:** phrase &middot; **Register:** neutral (standard on bike paths, running trails, and in warehouses)
 **Variants:** *on your right*, *on the left*
 
@@ -686,6 +728,7 @@ Called by someone overtaking you, to say which side they are passing on so you d
 ### run
 
 **Pronunciation:** /rʌn/ &middot; *RUN*
+**Русский:** беги! / бежим! — опасность слишком велика, надо уходить
 **Type:** secondary &middot; **Register:** neutral
 **Variants:** *run for it*
 
@@ -702,6 +745,7 @@ The bluntest warning in the language: the danger is too big to face, so leave no
 ### stand back
 
 **Pronunciation:** /ˌstænd ˈbæk/ &middot; *stand BAK*
+**Русский:** отойдите! / назад! — освободить место вокруг опасного
 **Type:** phrase &middot; **Register:** neutral
 **Variants:** *stay back*, *get back*, *everybody back*
 
@@ -718,6 +762,7 @@ Move away and give the dangerous thing room. Unlike *look out*, it does not say 
 ### take cover
 
 **Pronunciation:** /ˌteɪk ˈkʌvər/ &middot; *tayk KUH-ver*
+**Русский:** в укрытие! — спрятаться за что-то прочное
 **Type:** phrase &middot; **Register:** neutral (military, police, and severe-weather use); informal and jocular elsewhere
 **Variants:** *take shelter*, *get to cover*
 
@@ -734,6 +779,7 @@ Put something solid between yourself and whatever is coming — a wall, a truck,
 ### timber
 
 **Pronunciation:** /ˈtɪmbər/ &middot; *TIM-ber*
+**Русский:** дерево пошло! / берегись! — крик лесоруба о падающем дереве
 **Type:** secondary &middot; **Register:** neutral in logging; informal and jocular elsewhere
 
 The logger's call warning everyone that a tree is coming down and to get clear. Off the job site, Americans shout it whenever anything tall goes over — a bookshelf, a Christmas tree, a friend tipping out of a lawn chair.
@@ -749,6 +795,7 @@ The logger's call warning everyone that a tree is coming down and to get clear. 
 ### watch it
 
 **Pronunciation:** /ˈwɑtʃ ɪt/ &middot; *WOTCH it*
+**Русский:** поосторожнее! — 1) резкое «осторожно»; 2) «но-но!» — угроза в адрес человека
 **Type:** phrase &middot; **Register:** informal; sense 2 is confrontational and lands as a threat
 **Variants:** *watch yourself*
 
@@ -766,6 +813,7 @@ Two senses. **1.** A quick warning about a physical hazard, the same as *watch o
 ### watch out
 
 **Pronunciation:** /ˌwɑtʃ ˈaʊt/ &middot; *wotch-OWT*
+**Русский:** осторожно! / берегись! — самое обычное предупреждение об опасности рядом
 **Type:** phrase &middot; **Register:** neutral
 
 The everyday American warning that something dangerous is right there. It is the safest choice of all the warning shouts — it works with strangers, at work, with children, and in writing — and it takes *for* when you name the danger.
@@ -782,6 +830,7 @@ The everyday American warning that something dangerous is right there. It is the
 ### watch your step
 
 **Pronunciation:** /ˌwɑtʃ jər ˈstɛp/ &middot; *wotch yer STEP*
+**Русский:** смотри под ноги! — букв.; перен. «веди себя осторожнее», от вышестоящего
 **Type:** phrase &middot; **Register:** neutral
 **Variants:** *watch your footing*
 
@@ -801,6 +850,7 @@ Two senses. **1.** A literal warning about uneven, slick, or dark ground. **2.**
 ### careful
 
 **Pronunciation:** /ˈkɛrfəl/ &middot; *KAIR-ful*
+**Русский:** осторожно! / поаккуратнее — мягче, чем look out: внимательнее, не спеши
 **Type:** secondary &middot; **Register:** neutral
 **Variants:** *be careful*, *careful now*, *careful there*
 
@@ -818,6 +868,7 @@ A gentler warning than *look out* — it tells someone to slow down and pay atte
 ### easy
 
 **Pronunciation:** /ˈizi/ &middot; *EE-zee*
+**Русский:** тихо-тихо / полегче — успокоить человека или животное, без резких движений
 **Type:** secondary &middot; **Register:** informal
 **Variants:** *easy now*, *easy does it*, *easy there*, *take it easy*
 
@@ -835,6 +886,7 @@ Said to calm someone or something down — a spooked horse, an angry friend, a n
 ### freeze
 
 **Pronunciation:** /friz/ &middot; *FREEZ*
+**Русский:** стоять! / замри! — команда полностью прекратить движение, полицейская
 **Type:** secondary &middot; **Register:** neutral (police command); informal in games and play
 
 An order to stop moving entirely and immediately, most familiar from American police work and from movies about it. Off duty, it is what you shout when someone is about to step in something, walk through wet paint, or wreck a photo.
@@ -850,6 +902,7 @@ An order to stop moving entirely and immediately, most familiar from American po
 ### halt
 
 **Pronunciation:** /hɔlt/ &middot; *HAWLT*
+**Русский:** стой! — формальная военно-полицейская команда; в быту книжно или шутливо
 **Type:** secondary &middot; **Register:** formal (military and police); dated or jocular in everyday speech
 
 A formal command to stop where you are, used by sentries, drill instructors, and officers directing traffic. In ordinary American conversation it sounds stiff or theatrical — *stop* is the normal word.
@@ -865,6 +918,7 @@ A formal command to stop where you are, used by sentries, drill instructors, and
 ### hey
 
 **Pronunciation:** /heɪ/ &middot; *HAY*
+**Русский:** эй! — резкий окрик «прекрати, это опасно» (в дружеском тоне — просто оклик)
 **Type:** primary &middot; **Register:** informal; the warning sense is sharp enough to sound like a rebuke, especially aimed at a stranger
 **Variants:** *hey, hey, hey*
 
@@ -882,6 +936,7 @@ As a warning, a sharp *hey* means *stop that* or *that's dangerous* — it is th
 ### hold on
 
 **Pronunciation:** /ˌhoʊld ˈɑn/ &middot; *hohld-ON*
+**Русский:** погоди / постой — 1) стоп, что-то не так; 2) держись крепче, сейчас тряхнёт
 **Type:** phrase &middot; **Register:** informal
 **Variants:** *hold on a second*, *hold on tight*
 
@@ -899,6 +954,7 @@ Two senses. **1.** *Wait* — stop what you are doing, because something is wron
 ### hold up
 
 **Pronunciation:** /ˌhoʊld ˈʌp/ &middot; *hohld-UP*
+**Русский:** погоди / притормози — разговорнее, чем hold on: остановить действие или речь
 **Type:** phrase &middot; **Register:** informal
 **Variants:** *hold up a second*
 
@@ -915,6 +971,7 @@ Stop moving or stop talking for a moment, usually because something is not right
 ### steady
 
 **Pronunciation:** /ˈstɛdi/ &middot; *STED-ee*
+**Русский:** спокойно / тише — тому, кто шатается физически или вот-вот сорвётся
 **Type:** secondary &middot; **Register:** neutral
 **Variants:** *steady now*, *steady there*
 
@@ -931,6 +988,7 @@ Said to someone who is wobbling, physically or emotionally, to keep them from go
 ### stop
 
 **Pronunciation:** /stɑp/ &middot; *STOP*
+**Русский:** стой! / прекрати! — простейшая команда остановиться; тройное — срочно
 **Type:** secondary &middot; **Register:** neutral
 **Variants:** *stop right there*
 
@@ -947,6 +1005,7 @@ The plainest command in the language, and the one Americans actually shout when 
 ### uh-uh
 
 **Pronunciation:** /ˈʌʔʌ/ — stress on the first syllable, pitch falling from high to low; often produced with the lips closed, which turns it into a nasal hum &middot; *UH-uh*
+**Русский:** не-а / но-но — «нет», как предупреждение «даже не думай» (uh-huh — «ага»)
 **Type:** primary &middot; **Register:** informal
 **Variants:** *unh-unh*, *nuh-uh*, *mm-mm*
 
@@ -963,6 +1022,7 @@ Two low grunts with a glottal catch between them and the stress on the first, me
 ### wait
 
 **Pronunciation:** /weɪt/ &middot; *WAYT*
+**Русский:** подожди! / стой! — остановить уже начатую ошибку; wait up — «подожди меня»
 **Type:** secondary &middot; **Register:** neutral
 **Variants:** *wait up*, *wait a second*, *wait, wait, wait*
 
@@ -980,6 +1040,7 @@ Stop and do nothing for a moment — the most common American way to head off a 
 ### whoa
 
 **Pronunciation:** /woʊ/, also /hwoʊ/ &middot; *WOH*
+**Русский:** тпру / тише-тише / стоп — осадить лошадь или человека: сбавь, это перебор
 **Type:** primary &middot; **Register:** informal
 **Variants:** *woah*, *whoa there*, *whoa, whoa, whoa*
 

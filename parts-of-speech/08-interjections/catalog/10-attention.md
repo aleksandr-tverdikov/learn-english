@@ -11,6 +11,7 @@ Everything in this file is **volitive**: it is aimed outward at another person a
 ### ahem
 
 **Pronunciation:** /əˈhɛm/ &middot; *uh-HEM*
+**Русский:** кхм — покашливание, чтобы привлечь внимание или деликатно на что-то намекнуть
 **Type:** primary &middot; **Register:** neutral
 **Variants:** *ahem-ahem*
 
@@ -27,6 +28,7 @@ A deliberate throat-clearing used as a signal rather than a real cough. It asks 
 ### attention
 
 **Pronunciation:** /əˈtɛnʃən/ &middot; *uh-TEN-shun*
+**Русский:** внимание! — официальное обращение к залу; в армии команда «смирно!»
 **Type:** secondary &middot; **Register:** formal
 **Variants:** *attention please*, *may I have your attention*
 
@@ -43,6 +45,7 @@ A formal call for a whole group to stop what they are doing and listen. It is th
 ### behold
 
 **Pronunciation:** /bɪˈhoʊld/ &middot; *bih-HOHLD*
+**Русский:** узри, се — устар., шутл. приглашение посмотреть
 **Type:** secondary &middot; **Register:** dated
 
 An archaic command to look. It survives in scripture, ceremony, and — far more often today — in deliberate self-mockery when someone unveils something unimpressive.
@@ -58,6 +61,7 @@ An archaic command to look. It survives in scripture, ceremony, and — far more
 ### excuse me
 
 **Pronunciation:** /ɪkˈskjuz ˌmi/ &middot; *ik-SKYOOZ mee*
+**Русский:** извините, простите — оклик, просьба пропустить, извинение, а с вопросом «что, простите?»
 **Type:** phrase &middot; **Register:** neutral
 **Variants:** *'scuse me*, *excuse me?*
 
@@ -75,6 +79,7 @@ The all-purpose American politeness formula, doing four jobs at once: getting a 
 ### hark
 
 **Pronunciation:** /hɑrk/ &middot; *HARK*
+**Русский:** чу!, внемли — устар. и шутл. «слушай!»
 **Type:** secondary &middot; **Register:** dated
 **Variants:** *hearken*
 
@@ -91,6 +96,7 @@ An archaic "listen!" No American says it straight anymore outside of hymns and o
 ### hear ye
 
 **Pronunciation:** /ˈhɪr ˌji/ &middot; *HEER yee*
+**Русский:** слушайте, слушайте! — устар., клич глашатая, обычно удвоенный
 **Type:** phrase &middot; **Register:** dated
 **Variants:** *hear ye, hear ye*, *hear this*
 
@@ -107,6 +113,7 @@ The town crier's opener, almost always doubled: "Hear ye, hear ye!" Modern Ameri
 ### hello?
 
 **Pronunciation:** /həˈloʊ/ &middot; *huh-LOH (also /hɛˈloʊ/, heh-LOH)*
+**Русский:** эй, ау?, алло? — есть тут кто-нибудь; ровным тоном — ну это же очевидно
 **Type:** secondary &middot; **Register:** informal
 **Variants:** *hellooo*, *helloooo*
 
@@ -123,6 +130,7 @@ Not the greeting. With a rising, drawn-out contour, "Hello?" means "is anyone th
 ### hey
 
 **Pronunciation:** /heɪ/ &middot; *HAY*
+**Русский:** эй — обычный оклик; также разг. приветствие «привет»
 **Type:** primary &middot; **Register:** informal
 **Variants:** *heyyy*, *hey there*, *ay*
 
@@ -139,6 +147,7 @@ The default American attention-getter, and a casual greeting besides. Said sharp
 ### listen
 
 **Pronunciation:** /ˈlɪsən/ &middot; *LIS-uhn*
+**Русский:** слушай — сигнал, что дальше пойдёт важное или прямое
 **Type:** secondary &middot; **Register:** neutral
 **Variants:** *listen here*, *now listen*
 
@@ -155,6 +164,7 @@ A verb used as a conversational flag: what follows is important, or blunt, or bo
 ### listen up
 
 **Pronunciation:** /ˌlɪsən ˈʌp/ &middot; *lis-uhn UP*
+**Русский:** слушайте сюда — команда группе замолчать и слушать
 **Type:** phrase &middot; **Register:** informal
 **Variants:** *listen up, everybody*
 
@@ -171,6 +181,7 @@ A command to a whole group to stop talking and pay attention. Coaches, sergeants
 ### lo and behold
 
 **Pronunciation:** /ˌloʊ ən bɪˈhoʊld/ &middot; *loh-uhn-bih-HOHLD*
+**Русский:** и вот, гляди-ка, и надо же — шутл. ввод предсказуемого поворота
 **Type:** phrase &middot; **Register:** informal
 **Variants:** *lo*
 
@@ -187,6 +198,7 @@ A set phrase, always at least slightly tongue-in-cheek, introducing a result tha
 ### look
 
 **Pronunciation:** /lʊk/ &middot; *LUUK*
+**Русский:** слушай, смотри — с оттенком нетерпения перед прямым заявлением
 **Type:** secondary &middot; **Register:** neutral
 **Variants:** *look now*, *lookit*
 
@@ -203,6 +215,7 @@ Like *listen*, a verb repurposed as a flag before a blunt or final statement. It
 ### look alive
 
 **Pronunciation:** /ˌlʊk əˈlaɪv/ &middot; *luuk uh-LYV*
+**Русский:** шевелись!, не спи! — очнись и будь наготове
 **Type:** phrase &middot; **Register:** informal
 **Variants:** *look sharp*
 
@@ -219,6 +232,7 @@ A shout telling someone to snap out of a daze and get ready, usually because som
 ### look here
 
 **Pronunciation:** /ˌlʊk ˈhɪr/ &middot; *luuk HEER*
+**Русский:** послушайте-ка — устар., зачин выговора или отповеди
 **Type:** phrase &middot; **Register:** dated
 **Variants:** *see here*, *look-a-here*
 
@@ -235,6 +249,7 @@ An old-fashioned opener for a scolding or a challenge. It is confrontational, an
 ### now see here
 
 **Pronunciation:** /ˌnaʊ ˌsi ˈhɪr/ &middot; *now see HEER*
+**Русский:** нет уж, послушайте — устар., ещё чопорнее, чем look here
 **Type:** phrase &middot; **Register:** dated
 **Variants:** *see here*
 
@@ -251,6 +266,7 @@ The same indignant opener as *look here*, one degree stuffier. It announces that
 ### oyez
 
 **Pronunciation:** /oʊˈjeɪ/ &middot; *oh-YAY (also /oʊˈji/, oh-YEE, and /oʊˈjɛz/, oh-YEZ)*
+**Русский:** слушайте! — юр., устар., возглас пристава при открытии заседания суда
 **Type:** primary &middot; **Register:** formal
 **Variants:** *oyes*
 
@@ -267,6 +283,7 @@ The bailiff's ceremonial cry that opens a court session, from Anglo-French for "
 ### pardon me
 
 **Pronunciation:** /ˈpɑrdən ˌmi/ &middot; *PAR-duhn mee*
+**Русский:** простите, прошу прощения — формальнее excuse me; «Pardon?» — повторите, пожалуйста
 **Type:** phrase &middot; **Register:** formal
 **Variants:** *pardon*, *pardon?*, *I beg your pardon*
 
@@ -284,6 +301,7 @@ A more formal cousin of *excuse me*: it apologizes for a small intrusion, asks p
 ### pay attention
 
 **Pronunciation:** /ˌpeɪ əˈtɛnʃən/ &middot; *pay uh-TEN-shun*
+**Русский:** слушай внимательно, будь внимателен — приказ сосредоточиться
 **Type:** phrase &middot; **Register:** neutral
 **Variants:** *pay attention now*
 
@@ -300,6 +318,7 @@ A direct order to focus, aimed at somebody whose mind has visibly wandered. Teac
 ### psst
 
 **Pronunciation:** /pst/ &middot; *pssst — no vowel at all, just p-s-s-t hissed through the teeth*
+**Русский:** пс-с-т — тихий оклик одному человеку, украдкой
 **Type:** primary &middot; **Register:** informal
 **Variants:** *pst*, *psssst*
 
@@ -316,6 +335,7 @@ A low hiss aimed at exactly one person so that nobody else notices. It always ca
 ### say
 
 **Pronunciation:** /seɪ/ &middot; *SAY*
+**Русский:** слушай, послушай-ка — устар., разг. зачин при обращении к незнакомцу
 **Type:** secondary &middot; **Register:** dated
 **Variants:** *say there*, *I say*
 
@@ -332,6 +352,7 @@ A mid-century opener that flags down a stranger or floats a thought that just oc
 ### yo
 
 **Pronunciation:** /joʊ/ &middot; *YOH*
+**Русский:** эй, йоу — очень разг., свойский оклик
 **Type:** primary &middot; **Register:** very informal
 **Variants:** *ayo*, *yo yo*
 
@@ -348,6 +369,7 @@ A blunt call for attention and a casual greeting, strongly associated with urban
 ### yoo-hoo
 
 **Pronunciation:** /ˈju ˌhu/ &middot; *YOO-hoo*
+**Русский:** ау!, э-ге-гей! — певучий оклик издалека
 **Type:** primary &middot; **Register:** informal
 **Variants:** *yoohoo*, *yoo hoo*
 
@@ -366,6 +388,7 @@ A sing-song, two-note call used to reach someone at a distance or to snap someon
 ### check it out
 
 **Pronunciation:** /ˌtʃɛk ɪt ˈaʊt/ &middot; *chek it OWT*
+**Русский:** зацени, глянь-ка — приглашение посмотреть на что-то классное
 **Type:** phrase &middot; **Register:** informal
 **Variants:** *check this out*, *check that out*
 
@@ -382,6 +405,7 @@ An invitation to look at or try something the speaker thinks is genuinely cool. 
 ### get a load of this
 
 **Pronunciation:** /ˌɡɛt ə ˈloʊd əv ˌðɪs/ &middot; *get uh LOHD uhv this*
+**Русский:** нет, ты только посмотри — с насмешкой или возмущением
 **Type:** phrase &middot; **Register:** informal
 **Variants:** *get a load of that*, *get a load of this guy*
 
@@ -398,6 +422,7 @@ A nudge to look at something ridiculous, outrageous, or hard to believe. Unlike 
 ### get this
 
 **Pronunciation:** /ˈɡɛt ðɪs/ &middot; *GET this*
+**Русский:** и вот представь, и прикинь — перед неожиданной частью рассказа
 **Type:** phrase &middot; **Register:** informal
 **Variants:** *and get this*
 
@@ -414,6 +439,7 @@ A storyteller's flag dropped into the middle of an anecdote, right before the su
 ### guess what
 
 **Pronunciation:** /ˌɡɛs ˈwʌt/ &middot; *ges WUT*
+**Русский:** знаешь что!, угадай что — зачин перед новостью
 **Type:** phrase &middot; **Register:** informal
 **Variants:** *guess what?*, *you'll never guess*
 
@@ -430,6 +456,7 @@ An opener designed to make the listener say "what?" before you deliver your news
 ### heads up
 
 **Pronunciation:** /ˌhɛdz ˈʌp/ &middot; *hedz UP*
+**Русский:** берегись!, поберегись — о летящем предмете; также предупреждение заранее
 **Type:** phrase &middot; **Register:** neutral
 **Variants:** *heads-up*, *head's up*
 
@@ -446,6 +473,7 @@ Two jobs. Shouted, it warns that something is flying at you and you should look 
 ### wait for it
 
 **Pronunciation:** /ˌweɪt fər ˈɪt/ &middot; *wayt fer IT*
+**Русский:** сейчас-сейчас…, и тут — пауза перед эффектной развязкой
 **Type:** phrase &middot; **Register:** informal
 
 A comic's setup line, dropped in one beat before the punchline or the reveal so the listener holds still for it. It is deliberately theatrical, and it only works if the payoff actually lands.
@@ -461,6 +489,7 @@ A comic's setup line, dropped in one beat before the punchline or the reveal so 
 ### watch this
 
 **Pronunciation:** /ˌwɑtʃ ˈðɪs/ &middot; *wotch THIS*
+**Русский:** смотри — анонс трюка или демонстрации
 **Type:** phrase &middot; **Register:** informal
 **Variants:** *watch*, *watch me*
 
@@ -479,6 +508,7 @@ The announcement before a stunt, a trick, or a demonstration — the speaker is 
 ### button it
 
 **Pronunciation:** /ˈbʌtən ɪt/ &middot; *BUT-uhn it*
+**Русский:** закрой рот, помолчи — груб., старомодное
 **Type:** phrase &middot; **Register:** very informal
 **Variants:** *button your lip*, *button up*
 
@@ -495,6 +525,7 @@ A rude order to stop talking — milder and more old-fashioned than *shut up*, b
 ### can it
 
 **Pronunciation:** /ˈkæn ɪt/ &middot; *KAN it*
+**Русский:** завязывай, умолкни — груб., резкое
 **Type:** phrase &middot; **Register:** very informal
 
 A brusque "stop talking" or "stop doing that," with the flavor of an old movie or an irritated uncle. It is dismissive, and it stings coming from anyone who outranks you.
@@ -510,6 +541,7 @@ A brusque "stop talking" or "stop doing that," with the flavor of an old movie o
 ### hold your tongue
 
 **Pronunciation:** /ˌhoʊld jər ˈtʌŋ/ &middot; *hohld yer TUNG*
+**Русский:** придержи язык — устар., строгий приказ замолчать
 **Type:** phrase &middot; **Register:** dated
 **Variants:** *watch your tongue*, *hold your peace*
 
@@ -526,6 +558,7 @@ A stern, old-fashioned order to stop speaking, with real authority behind it —
 ### hush
 
 **Pronunciation:** /hʌʃ/ &middot; *HUSH*
+**Русский:** тише, тс-с — мягко, ребёнку или плачущему; hush up — уже настоящий выговор
 **Type:** primary &middot; **Register:** informal
 **Variants:** *hush up*, *hush now*, *hushabye*
 
@@ -542,6 +575,7 @@ A gentle "be quiet," used with children, with someone who is crying, or when you
 ### keep it down
 
 **Pronunciation:** /ˌkip ɪt ˈdaʊn/ &middot; *keep it DOWN*
+**Русский:** потише, не шумите — не молчать, а именно тише
 **Type:** phrase &middot; **Register:** informal
 **Variants:** *keep the noise down*
 
@@ -558,6 +592,7 @@ Not "be silent" but "be quieter." It is what you say through a wall, in a movie 
 ### mum's the word
 
 **Pronunciation:** /ˌmʌmz ðə ˈwɜrd/ &middot; *mumz thuh WURD*
+**Русский:** молчок, никому ни слова — обещание сохранить тайну
 **Type:** phrase &middot; **Register:** informal
 **Variants:** *mum*
 
@@ -574,6 +609,7 @@ A promise — or a request — that something stays secret. It is most often the
 ### not a word
 
 **Pronunciation:** /ˌnɑt ə ˈwɜrd/ &middot; *not uh WURD*
+**Русский:** ни слова — приказ молчать сейчас или не говорить никому
 **Type:** phrase &middot; **Register:** neutral
 **Variants:** *not one word*, *not another word*
 
@@ -590,6 +626,7 @@ An order to say nothing at all — either right this second, or to anyone, ever.
 ### order
 
 **Pronunciation:** /ˈɔrdər/ &middot; *OR-der*
+**Русский:** к порядку! — офиц., призыв судьи или председателя
 **Type:** secondary &middot; **Register:** formal
 **Variants:** *order in the court*, *order, please*
 
@@ -606,6 +643,7 @@ The presiding officer's call for a noisy room to fall silent and get back to bus
 ### pipe down
 
 **Pronunciation:** /ˌpaɪp ˈdaʊn/ &middot; *pyp DOWN*
+**Русский:** уймись, потише там — ворчливо, о шумящих
 **Type:** phrase &middot; **Register:** informal
 
 Tells a noisy person or group to quiet down, in a cranky, old-school tone. It is what an adult says to rowdy kids, or a coach to a loud bench — never what you say to your boss.
@@ -621,6 +659,7 @@ Tells a noisy person or group to quiet down, in a cranky, old-school tone. It is
 ### put a sock in it
 
 **Pronunciation:** /ˌpʊt ə ˈsɑk ɪn ɪt/ &middot; *puut uh SOK in it*
+**Русский:** завали, помолчи уже — груб., хоть и с шуткой
 **Type:** phrase &middot; **Register:** very informal
 
 A jokey but genuinely rude way to tell someone to shut up. It works between friends and lands badly everywhere else.
@@ -636,6 +675,7 @@ A jokey but genuinely rude way to tell someone to shut up. It works between frie
 ### quiet
 
 **Pronunciation:** /ˈkwaɪət/ &middot; *KWY-uht*
+**Русский:** тихо!, тишина — простая команда; quiet down мягче
 **Type:** secondary &middot; **Register:** neutral
 **Variants:** *quiet down*, *quiet please*, *be quiet*
 
@@ -652,6 +692,7 @@ The plain command for silence. On its own it is sharp; softened with *please* or
 ### save it
 
 **Pronunciation:** /ˈseɪv ɪt/ &middot; *SAVE it*
+**Русский:** прибереги, не трать слова — мне это слушать не интересно
 **Type:** phrase &middot; **Register:** informal
 **Variants:** *save your breath*, *save it for someone who cares*
 
@@ -668,6 +709,7 @@ Stop talking, because whatever is coming — an excuse, an apology, a sales pitc
 ### shh
 
 **Pronunciation:** /ʃː/ &middot; *shhh — a long "sh" with no vowel in it*
+**Русский:** тс-с, ш-ш — призыв к тишине; тихо и повторно — успокаивающее
 **Type:** primary &middot; **Register:** neutral
 **Variants:** *sh*, *shhh*, *ssh*
 
@@ -684,6 +726,7 @@ The universal hush sound, usually delivered with a finger against the lips. It a
 ### shush
 
 **Pronunciation:** /ʃʌʃ/ &middot; *SHUSH (also /ʃʊʃ/, SHUUSH)*
+**Русский:** тише, цыц — мягче, чем shh; тж. глагол «шикать на кого-то»
 **Type:** primary &middot; **Register:** informal
 **Variants:** *shush up*
 
@@ -700,6 +743,7 @@ A word-shaped version of *shh*, used both as the command and as a regular verb (
 ### shut up
 
 **Pronunciation:** /ˌʃʌt ˈʌp/ &middot; *shut UP*
+**Русский:** заткнись — груб., оскорбительно; среди друзей также «да ладно!, не может быть!»
 **Type:** phrase &middot; **Register:** very informal
 **Variants:** *shut it*, *shut your mouth*, *shaddap*
 
@@ -716,6 +760,7 @@ The blunt, hostile order to stop talking. It is genuinely offensive from a stran
 ### silence
 
 **Pronunciation:** /ˈsaɪləns/ &middot; *SY-luhns*
+**Русский:** тишина!, молчать! — офиц., книжн., с институциональным весом
 **Type:** secondary &middot; **Register:** formal
 **Variants:** *silence, please*
 
@@ -732,6 +777,7 @@ A one-word command with institutional authority behind it — courtroom, church,
 ### zip it
 
 **Pronunciation:** /ˈzɪp ɪt/ &middot; *ZIP it*
+**Русский:** рот на замок, закрой рот — резкое, с жестом молнии по губам
 **Type:** phrase &middot; **Register:** very informal
 **Variants:** *zip your lip*, *zip it up*
 
@@ -750,6 +796,7 @@ A curt "stop talking," often paired with a zipping motion across the lips. Playf
 ### back off
 
 **Pronunciation:** /ˌbæk ˈɔf/ &middot; *bak AWF*
+**Русский:** отойди; отвали, не дави — и о дистанции, и о давлении
 **Type:** phrase &middot; **Register:** informal
 **Variants:** *back up*, *back away*
 
@@ -766,6 +813,7 @@ Tells someone to move away physically, or to stop pressuring you. Both senses ar
 ### cut it out
 
 **Pronunciation:** /ˌkʌt ɪt ˈaʊt/ &middot; *kut it OWT*
+**Русский:** прекрати, хватит — о надоедливом поведении
 **Type:** phrase &middot; **Register:** informal
 **Variants:** *cut that out*, *cut it*
 
@@ -782,6 +830,7 @@ Tells somebody to stop doing something annoying. It is a shade more familiar tha
 ### drop it
 
 **Pronunciation:** /ˈdrɑp ɪt/ &middot; *DROP it*
+**Русский:** оставь эту тему, забудь — разговор окончен; тж. собаке «брось!»
 **Type:** phrase &middot; **Register:** informal
 **Variants:** *let it drop*, *drop the subject*
 
@@ -798,6 +847,7 @@ Stop bringing this subject up. With a hard edge it means the conversation is ove
 ### enough
 
 **Pronunciation:** /ɪˈnʌf/ &middot; *ih-NUF*
+**Русский:** хватит!, довольно — предел достигнут
 **Type:** secondary &middot; **Register:** neutral
 **Variants:** *that's enough*, *enough already*, *enough is enough*
 
@@ -814,6 +864,7 @@ Calls a halt because a limit has been reached. Snapped by a parent, teacher, or 
 ### freeze
 
 **Pronunciation:** /friz/ &middot; *FREEZ*
+**Русский:** замри!, ни с места! — команда не двигаться
 **Type:** secondary &middot; **Register:** neutral
 **Variants:** *freeze right there*
 
@@ -830,6 +881,7 @@ Stop moving this instant. It is the police command of a thousand American movies
 ### give it a rest
 
 **Pronunciation:** /ˌɡɪv ɪt ə ˈrɛst/ &middot; *giv it uh REST*
+**Русский:** хватит уже, отстань — раздражённо, тема надоела
 **Type:** phrase &middot; **Register:** very informal
 **Variants:** *give it a break*
 
@@ -846,6 +898,7 @@ An exasperated "stop going on about it." It says the topic, the joke, or the nag
 ### halt
 
 **Pronunciation:** /hɔlt/ &middot; *HAWLT*
+**Русский:** стой! — офиц., воен. команда остановиться
 **Type:** secondary &middot; **Register:** formal
 **Variants:** *halt right there*
 
@@ -862,6 +915,7 @@ A formal command to stop moving, at home in the military, at a checkpoint, and i
 ### hands off
 
 **Pronunciation:** /ˌhændz ˈɔf/ &middot; *handz AWF*
+**Русский:** руки прочь, не трогай — о вещи, а не о личном пространстве
 **Type:** phrase &middot; **Register:** informal
 **Variants:** *hands off it*, *hands to yourself*
 
@@ -878,6 +932,7 @@ Don't touch that. It guards an object — a dessert, a tool, somebody else's pho
 ### hang on
 
 **Pronunciation:** /ˌhæŋ ˈɑn/ &middot; *hang ON*
+**Русский:** погоди, подожди — разг., о короткой паузе
 **Type:** phrase &middot; **Register:** informal
 **Variants:** *hang on a sec*, *hang on a minute*
 
@@ -894,6 +949,7 @@ Wait a moment — the everyday version of *hold on*, used for short delays and a
 ### hold it
 
 **Pronunciation:** /ˈhoʊld ɪt/ &middot; *HOHLD it*
+**Русский:** стоп!, стой на месте — резче и физичнее, чем wait
 **Type:** phrase &middot; **Register:** informal
 **Variants:** *hold it right there*
 
@@ -910,6 +966,7 @@ Stop right where you are — a sharper, more physical *wait*. Photographers also
 ### hold on
 
 **Pronunciation:** /ˌhoʊld ˈɑn/ &middot; *hohld ON*
+**Русский:** подожди, погоди — самый обычный способ попросить паузу
 **Type:** phrase &middot; **Register:** neutral
 **Variants:** *hold on a second*, *hold on a minute*
 
@@ -926,6 +983,7 @@ Wait — the most common way an American asks for a pause: on the phone, at a do
 ### hold the phone
 
 **Pronunciation:** /ˌhoʊld ðə ˈfoʊn/ &middot; *hohld thuh FOHN*
+**Русский:** стоп, погоди-ка — шутл., когда услышал что-то неожиданное
 **Type:** phrase &middot; **Register:** informal
 **Variants:** *hold the presses*, *stop the presses*
 
@@ -942,6 +1000,7 @@ A jokey "wait a second" used when something surprising has just been said and ne
 ### hold up
 
 **Pronunciation:** /ˌhoʊld ˈʌp/ &middot; *hohld UP*
+**Русский:** стой, погоди — часто с возражением: тут что-то не так
 **Type:** phrase &middot; **Register:** informal
 **Variants:** *hold up a sec*
 
@@ -958,6 +1017,7 @@ Wait — usually with a note of objection, as in "back up, something here is wro
 ### hold your horses
 
 **Pronunciation:** /ˌhoʊld jər ˈhɔrsɪz/ &middot; *hohld yer HOR-siz*
+**Русский:** не гони, попридержи коней — мягко, с подначкой
 **Type:** phrase &middot; **Register:** informal
 **Variants:** *hold your water*
 
@@ -974,6 +1034,7 @@ A folksy "be patient," said to someone who is rushing you. It is mild and a litt
 ### just a sec
 
 **Pronunciation:** /ˌdʒʌst ə ˈsɛk/ &middot; *just uh SEK*
+**Русский:** секундочку, минутку — разг., о совсем короткой паузе
 **Type:** phrase &middot; **Register:** informal
 **Variants:** *one sec*, *just a second*, *sec*
 
@@ -990,6 +1051,7 @@ A casual request for a very short delay. Breezier than *one moment*, and used wi
 ### knock it off
 
 **Pronunciation:** /ˌnɑk ɪt ˈɔf/ &middot; *nok it AWF*
+**Русский:** прекрати, кончай — твёрдо и с раздражением
 **Type:** phrase &middot; **Register:** informal
 **Variants:** *knock that off*
 
@@ -1006,6 +1068,7 @@ A firm "stop that," aimed at behavior that is annoying or about to get someone h
 ### lay off
 
 **Pronunciation:** /ˌleɪ ˈɔf/ &middot; *lay AWF*
+**Русский:** отстань, не придирайся — тж. с дополнением: «завязывай с кофе»
 **Type:** phrase &middot; **Register:** informal
 **Variants:** *lay off it*, *lay off him*
 
@@ -1022,6 +1085,7 @@ Stop picking on someone, or stop pushing something. It takes an object as easily
 ### not so fast
 
 **Pronunciation:** /ˌnɑt soʊ ˈfæst/ &middot; *not soh FAST*
+**Русский:** не так быстро, погоди-ка — так просто не отделаешься
 **Type:** phrase &middot; **Register:** informal
 
 Hold on — you are not getting away with that. It is aimed at somebody who is leaving, claiming a win, or trying to slip one past you, and it almost always comes with a raised eyebrow rather than a raised voice.
@@ -1037,6 +1101,7 @@ Hold on — you are not getting away with that. It is aimed at somebody who is l
 ### one moment
 
 **Pronunciation:** /ˌwʌn ˈmoʊmənt/ &middot; *wun MOH-muhnt*
+**Русский:** одну минуту, минуточку — вежливо, в сфере обслуживания
 **Type:** phrase &middot; **Register:** formal
 **Variants:** *one moment please*, *just a moment*
 
@@ -1053,6 +1118,7 @@ The polite, service-industry way to ask someone to wait. Receptionists, hosts, a
 ### quit it
 
 **Pronunciation:** /ˈkwɪt ɪt/ &middot; *KWIT it*
+**Русский:** перестань, кончай — детское, тому, кто пристаёт
 **Type:** phrase &middot; **Register:** informal
 **Variants:** *quit that*
 
@@ -1069,6 +1135,7 @@ Stop that — the playground classic, whined or snapped at somebody who keeps po
 ### sit tight
 
 **Pronunciation:** /ˌsɪt ˈtaɪt/ &middot; *sit TYT*
+**Русский:** сиди и жди — с намёком, что вопросом уже занимаются
 **Type:** phrase &middot; **Register:** informal
 
 Stay where you are and wait — usually with an implied promise that somebody else is handling it. That reassurance is what separates it from *stay put*, which is a flat order.
@@ -1084,6 +1151,7 @@ Stay where you are and wait — usually with an implied promise that somebody el
 ### stay put
 
 **Pronunciation:** /ˌsteɪ ˈpʊt/ &middot; *stay PUUT*
+**Русский:** стой на месте, никуда не уходи — плоский приказ, не обсуждается
 **Type:** phrase &middot; **Register:** informal
 
 Do not move from that spot. It is what you tell a kid in a crowded store, a hiker who called in lost, or a rug that keeps sliding — flat, practical, and not up for discussion.
@@ -1099,6 +1167,7 @@ Do not move from that spot. It is what you tell a kid in a crowded store, a hike
 ### stop
 
 **Pronunciation:** /stɑp/ &middot; *STOP*
+**Русский:** стой!, прекрати — самая простая и надёжная команда
 **Type:** secondary &middot; **Register:** neutral
 **Variants:** *stop it*, *stop that*, *stop right there*
 
@@ -1115,6 +1184,7 @@ The plainest command in the group, and the one that always works. Alone and loud
 ### that'll do
 
 **Pronunciation:** /ˈðætəl ˌdu/ &middot; *THAT-uhl doo*
+**Русский:** хватит, достаточно — спокойное «можешь остановиться»
 **Type:** phrase &middot; **Register:** informal
 **Variants:** *that will do*, *that'll do it*
 
@@ -1131,6 +1201,7 @@ A calm "that's enough" — you can stop now, either because the job is finished 
 ### time out
 
 **Pronunciation:** /ˈtaɪm ˌaʊt/ &middot; *TYM owt*
+**Русский:** тайм-аут, стоп — просьба сделать паузу; тж. наказание ребёнка
 **Type:** phrase &middot; **Register:** informal
 **Variants:** *time-out*, *timeout*, *T.O.*
 
@@ -1147,6 +1218,7 @@ Borrowed from sports: a request to pause everything for a second because somethi
 ### wait
 
 **Pronunciation:** /weɪt/ &middot; *WAYT*
+**Русский:** подожди, стой — базовая команда паузы
 **Type:** secondary &middot; **Register:** neutral
 **Variants:** *wait a minute*, *wait a second*, *wait, wait, wait*
 
@@ -1163,6 +1235,7 @@ The basic pause command. Tripled — "wait, wait, wait" — it means something h
 ### wait up
 
 **Pronunciation:** /ˌweɪt ˈʌp/ &middot; *wayt UP*
+**Русский:** подожди меня — не уходи вперёд, дай догнать
 **Type:** phrase &middot; **Register:** informal
 **Variants:** *wait up a sec*
 
@@ -1181,6 +1254,7 @@ Specifically: stop walking so I can catch up to you. It is almost always shouted
 ### break it up
 
 **Pronunciation:** /ˌbreɪk ɪt ˈʌp/ &middot; *brayk it UP*
+**Русский:** а ну разойдись!, разнять — окрик дерущимся или спорящим
 **Type:** phrase &middot; **Register:** informal
 **Variants:** *break it up, you two*
 
@@ -1197,6 +1271,7 @@ What you shout at people who are fighting or arguing, telling them to separate. 
 ### calm down
 
 **Pronunciation:** /ˌkɑm ˈdaʊn/ &middot; *kahm DOWN*
+**Русский:** успокойся — самый прямой вариант, часто только злит собеседника
 **Type:** phrase &middot; **Register:** neutral
 **Variants:** *just calm down*, *calm down now*
 
@@ -1213,6 +1288,7 @@ The plainest way to tell an upset person to get hold of themselves. It is also f
 ### chill
 
 **Pronunciation:** /tʃɪl/ &middot; *CHIL*
+**Русский:** остынь, расслабься — разг., среди своих
 **Type:** secondary &middot; **Register:** informal
 **Variants:** *chill out*, *chillax*
 
@@ -1229,6 +1305,7 @@ Tells an agitated person to calm down. It is friendly enough among peers, and in
 ### cool it
 
 **Pronunciation:** /ˈkul ɪt/ &middot; *KOOL it*
+**Русский:** остынь, потише — тому, кто заводится
 **Type:** phrase &middot; **Register:** informal
 **Variants:** *cool your jets*
 
@@ -1245,6 +1322,7 @@ Stop what you are doing and calm down, said to somebody who is getting loud, ang
 ### easy
 
 **Pronunciation:** /ˈizi/ &middot; *EE-zee*
+**Русский:** тише, спокойно, полегче — успокаивающе, животному или человеку
 **Type:** secondary &middot; **Register:** informal
 **Variants:** *easy there*, *easy now*, *easy does it*, *take it easy*
 
@@ -1261,6 +1339,7 @@ A soothing "slow down" — used with a spooked animal, an angry friend, or someb
 ### now now
 
 **Pronunciation:** /ˌnaʊ ˈnaʊ/ &middot; *now NOW*
+**Русский:** ну-ну, ну что ты — мягко, чтобы предупредить слёзы или ссору
 **Type:** phrase &middot; **Register:** informal
 **Variants:** *now, now*
 
@@ -1277,6 +1356,7 @@ A soothing two-beat used to head off tears or a squabble before it grows. It is 
 ### relax
 
 **Pronunciation:** /rɪˈlæks/ &middot; *rih-LAKS*
+**Русский:** расслабься, не нервничай — разг., может прозвучать пренебрежительно
 **Type:** secondary &middot; **Register:** informal
 **Variants:** *just relax*, *relax, relax*
 
@@ -1293,6 +1373,7 @@ Ease up — you are more wound up than the situation calls for. Between friends 
 ### settle down
 
 **Pronunciation:** /ˌsɛtəl ˈdaʊn/ &middot; *set-uhl DOWN*
+**Русский:** успокойтесь, угомонитесь — учительское, твёрдо, но не грубо
 **Type:** phrase &middot; **Register:** neutral
 **Variants:** *settle*
 
@@ -1309,6 +1390,7 @@ Calm down and get quiet — the standard teacher's phrase for a restless room an
 ### simmer down
 
 **Pronunciation:** /ˌsɪmər ˈdaʊn/ &middot; *sim-er DOWN*
+**Русский:** остынь, уймись — по-свойски, с оттенком снисходительности
 **Type:** phrase &middot; **Register:** informal
 
 Calm down, said to somebody who is worked up. It is folksier and more teasing than *settle down*, and it can come across as condescending.
@@ -1326,6 +1408,7 @@ Calm down, said to somebody who is worked up. It is folksier and more teasing th
 ### beat it
 
 **Pronunciation:** /ˈbit ɪt/ &middot; *BEET it*
+**Русский:** вали отсюда, проваливай — груб.
 **Type:** phrase &middot; **Register:** very informal
 
 Go away, and go now. It is hostile — the line a shopkeeper yells at kids loitering out front — though among friends it can be mock-hostile.
@@ -1341,6 +1424,7 @@ Go away, and go now. It is hostile — the line a shopkeeper yells at kids loite
 ### buzz off
 
 **Pronunciation:** /ˌbʌz ˈɔf/ &middot; *buz AWF*
+**Русский:** отвяжись, отвали — груб., но помягче, чем get lost
 **Type:** phrase &middot; **Register:** very informal
 
 Go away and stop bothering me. It is a little softer and more childish than *get lost*, but it is still rude.
@@ -1356,6 +1440,7 @@ Go away and stop bothering me. It is a little softer and more childish than *get
 ### clear out
 
 **Pronunciation:** /ˌklɪr ˈaʊt/ &middot; *kleer OWT*
+**Русский:** освободите помещение, расходимся — процедурно, без обиды
 **Type:** phrase &middot; **Register:** informal
 **Variants:** *clear the area*, *clear the room*
 
@@ -1372,6 +1457,7 @@ Everybody leave this space — said when a room, a building, or a beach has to b
 ### coming through
 
 **Pronunciation:** /ˌkʌmɪŋ ˈθru/ &middot; *kum-ing THROO*
+**Русский:** дайте пройти!, разрешите! — предупреждение, а не просьба
 **Type:** phrase &middot; **Register:** neutral
 **Variants:** *comin' through*
 
@@ -1388,6 +1474,7 @@ Announced rather than requested: you are moving through a crowd and people need 
 ### gangway
 
 **Pronunciation:** /ˈɡæŋweɪ/ &middot; *GANG-way*
+**Русский:** дорогу!, посторонись! — разг., старомодно-театральное
 **Type:** secondary &middot; **Register:** informal
 
 Clear a path, from the old nautical call for the ship's passageway. Today it sounds either shipboard, cartoonish, or like something shouted in a 1940s newsroom — which is usually the point.
@@ -1403,6 +1490,7 @@ Clear a path, from the old nautical call for the ship's passageway. Today it sou
 ### get lost
 
 **Pronunciation:** /ˌɡɛt ˈlɔst/ &middot; *get LAWST*
+**Русский:** катись, отвали — груб.; тж. отказ наотрез
 **Type:** phrase &middot; **Register:** very informal
 
 Go away — sharper than *beat it* and unmistakably an insult. It is also how you refuse an offer or a person outright.
@@ -1418,6 +1506,7 @@ Go away — sharper than *beat it* and unmistakably an insult. It is also how yo
 ### get out
 
 **Pronunciation:** /ˌɡɛt ˈaʊt/ &middot; *get OWT*
+**Русский:** вон отсюда! — груб.; со смехом get out of here — да ладно, не может быть!
 **Type:** phrase &middot; **Register:** very informal
 **Variants:** *get out of here*, *get outta here*
 
@@ -1434,6 +1523,7 @@ Two very different things. Said hard, it is a furious order to leave the room ri
 ### hit the road
 
 **Pronunciation:** /ˌhɪt ðə ˈroʊd/ &middot; *hit thuh ROHD*
+**Русский:** проваливай; о себе — в путь, пора трогаться
 **Type:** phrase &middot; **Register:** informal
 **Variants:** *hit the bricks*
 
@@ -1450,6 +1540,7 @@ As a directive, "leave — you're not welcome here." As a plain statement about 
 ### make way
 
 **Pronunciation:** /ˌmeɪk ˈweɪ/ &middot; *mayk WAY*
+**Русский:** дорогу!, расступитесь! — офиц. или театрально
 **Type:** phrase &middot; **Register:** formal
 **Variants:** *make way for*
 
@@ -1466,6 +1557,7 @@ A formal or theatrical call to clear a path — for a procession, a stretcher, o
 ### move
 
 **Pronunciation:** /muv/ &middot; *MOOV*
+**Русский:** отойди!, шевелись! — резко, на грани грубости
 **Type:** secondary &middot; **Register:** informal
 **Variants:** *move it*, *move along*, *get moving*
 
@@ -1482,6 +1574,7 @@ A one-word order to get out of the way or get going. It is blunt to the point of
 ### out
 
 **Pronunciation:** /aʊt/ &middot; *OWT*
+**Русский:** вон! — одно слово с указанием на дверь
 **Type:** secondary &middot; **Register:** neutral
 **Variants:** *everybody out*, *out you go*
 
@@ -1498,6 +1591,7 @@ One syllable, usually with a finger pointed at the door: leave this room or this
 ### scat
 
 **Pronunciation:** /skæt/ &middot; *SKAT*
+**Русский:** брысь!, кыш! — почти всегда животному
 **Type:** primary &middot; **Register:** informal
 
 A short, hissed shoo aimed almost entirely at animals — a cat on the counter, a dog under the table, chickens in the driveway. Turned on a person it is playful and faintly insulting, since it treats them like a stray.
@@ -1513,6 +1607,7 @@ A short, hissed shoo aimed almost entirely at animals — a cat on the counter, 
 ### scram
 
 **Pronunciation:** /skræm/ &middot; *SKRAM*
+**Русский:** катись, улепётывай — старомодно-мультяшное, чаще в шутку
 **Type:** secondary &middot; **Register:** informal
 
 Go away — an old-fashioned, slightly cartoonish shooing-off, clipped from *scramble*. It sounds like 1940s New York, and today it lands as playful more often than genuinely hostile.
@@ -1528,6 +1623,7 @@ Go away — an old-fashioned, slightly cartoonish shooing-off, clipped from *scr
 ### shoo
 
 **Pronunciation:** /ʃu/ &middot; *SHOO*
+**Русский:** кыш!, брысь! — прогоняют животных, в шутку и людей
 **Type:** primary &middot; **Register:** informal
 **Variants:** *shoo shoo*
 
@@ -1544,6 +1640,7 @@ The sound you make to drive an animal away, and — playfully — people you wan
 ### shove off
 
 **Pronunciation:** /ˌʃʌv ˈɔf/ &middot; *shuv AWF*
+**Русский:** отчаливай, проваливай — груб.; о себе — «мы отчаливаем»
 **Type:** phrase &middot; **Register:** very informal
 
 Go away — rude, and meant to be. It comes from pushing a boat off the dock and still carries that flavor, which is why the same words are also a perfectly neutral "we're heading out" when you say them about yourself. As a dismissal it is less common in American speech than *get lost* and sounds faintly vintage.
@@ -1559,6 +1656,7 @@ Go away — rude, and meant to be. It comes from pushing a boat off the dock and
 ### skedaddle
 
 **Pronunciation:** /skɪˈdædəl/ &middot; *skih-DAD-uhl*
+**Русский:** давай отсюда, сматываемся — разг., добродушно-шутливое
 **Type:** secondary &middot; **Register:** informal
 **Variants:** *skidaddle*
 
@@ -1575,6 +1673,7 @@ Get going, clear out — Civil War-era slang that survives as a fond, folksy wor
 ### stand back
 
 **Pronunciation:** /ˌstænd ˈbæk/ &middot; *stand BAK*
+**Русский:** отойдите!, отойди подальше — предупреждение об опасности, не грубость
 **Type:** phrase &middot; **Register:** neutral
 **Variants:** *stand clear*, *stand well back*
 
@@ -1591,6 +1690,7 @@ Move away from this and give it room — a fire, a downed line, a door that is a
 ### step aside
 
 **Pronunciation:** /ˌstɛp əˈsaɪd/ &middot; *step uh-SYD*
+**Русский:** посторонитесь, отойдите в сторону — нейтрально-официальное
 **Type:** phrase &middot; **Register:** neutral
 **Variants:** *step back*, *stand aside*
 
@@ -1607,6 +1707,7 @@ A neutral, official-sounding request to move out of the way. Security guards, me
 ### take a hike
 
 **Pronunciation:** /ˌteɪk ə ˈhaɪk/ &middot; *tayk uh HYK*
+**Русский:** иди гуляй, отвали — груб.-насмешливое; тж. отказ наотрез
 **Type:** phrase &middot; **Register:** very informal
 **Variants:** *take a walk*
 
@@ -1623,6 +1724,7 @@ Go away — a dismissive, half-joking brush-off that is nonetheless an insult. I
 ### vamoose
 
 **Pronunciation:** /væˈmus/ &middot; *va-MOOS (also /vəˈmus/, vuh-MOOS)*
+**Русский:** сматываемся, вали отсюда — из исп. vamos, шутл., «ковбойское»
 **Type:** secondary &middot; **Register:** informal
 **Variants:** *vamos*
 
@@ -1641,6 +1743,7 @@ Get out of here, from Spanish *vamos*. It is Old West-flavored and almost always
 ### chop chop
 
 **Pronunciation:** /ˌtʃɑp ˈtʃɑp/ &middot; *chop CHOP*
+**Русский:** живо-живо, быстренько — командно, обычно с хлопком в ладоши
 **Type:** phrase &middot; **Register:** informal
 **Variants:** *chop-chop*
 
@@ -1657,6 +1760,7 @@ Hurry up, usually delivered with two sharp claps. It is bossy by design: playful
 ### get a move on
 
 **Pronunciation:** /ˌɡɛt ə ˈmuv ɑn/ &middot; *get uh MOOV on*
+**Русский:** пошевеливайся, давай быстрее — обычный подгоняющий окрик
 **Type:** phrase &middot; **Register:** informal
 **Variants:** *get moving*, *get a move on it*
 
@@ -1673,6 +1777,7 @@ Start moving and go faster — an everyday prod that assumes the other person is
 ### hurry up
 
 **Pronunciation:** /ˌhɜri ˈʌp/ &middot; *hur-ee UP*
+**Русский:** поторопись, быстрее — самое нейтральное в группе
 **Type:** phrase &middot; **Register:** neutral
 **Variants:** *hurry*, *hurry it up*, *hurry along*
 
@@ -1689,6 +1794,7 @@ The plainest member of this group: go faster. It is neutral enough for strangers
 ### make it snappy
 
 **Pronunciation:** /ˌmeɪk ɪt ˈsnæpi/ &middot; *mayk it SNAP-ee*
+**Русский:** поживее, одна нога здесь, другая там — с гонором из старого кино
 **Type:** phrase &middot; **Register:** informal
 
 Be quick about it — a wisecracking order straight out of a 1940s detective picture. Nine times out of ten a modern American says it with a wink, because said flat it sounds like a caricature of a boss.
@@ -1704,6 +1810,7 @@ Be quick about it — a wisecracking order straight out of a 1940s detective pic
 ### on the double
 
 **Pronunciation:** /ˌɑn ðə ˈdʌbəl/ &middot; *on thuh DUB-uhl*
+**Русский:** бегом!, живо! — из воен. «бегом марш»
 **Type:** phrase &middot; **Register:** informal
 
 Immediately, at a run — from the military *double time*. Out of uniform it is deliberately jokey-officious, the tone of a parent doing a drill-sergeant voice about the laundry.
@@ -1719,6 +1826,7 @@ Immediately, at a run — from the military *double time*. Out of uniform it is 
 ### shake a leg
 
 **Pronunciation:** /ˌʃeɪk ə ˈlɛɡ/ &middot; *shayk uh LEG*
+**Русский:** шевели ногами, пошевеливайся — по-простому, старомодно
 **Type:** phrase &middot; **Register:** informal
 
 Hurry up. Folksy and a little old-fashioned — the kind of thing a parent yells up the stairs at somebody who is still not dressed.
@@ -1734,6 +1842,7 @@ Hurry up. Folksy and a little old-fashioned — the kind of thing a parent yells
 ### snap to it
 
 **Pronunciation:** /ˌsnæp ˈtu ɪt/ &middot; *snap TOO it*
+**Русский:** живо за дело!, бегом выполнять — командный тон сверху вниз
 **Type:** phrase &middot; **Register:** informal
 
 Get on it right now — a brisk, faintly military prod that normally comes from somebody who outranks you and knows it. It is bossier than *hurry up* and lands badly among peers.
@@ -1749,6 +1858,7 @@ Get on it right now — a brisk, faintly military prod that normally comes from 
 ### step on it
 
 **Pronunciation:** /ˈstɛp ɑn ɪt/ &middot; *STEP on it*
+**Русский:** жми на газ!; поднажми — буквально о педали и в переносном смысле
 **Type:** phrase &middot; **Register:** informal
 **Variants:** *step on the gas*, *put your foot down*
 
@@ -1767,6 +1877,7 @@ Drive faster — literally, step on the gas pedal. It stretches beyond cars to m
 ### after you
 
 **Pronunciation:** /ˈæftər ju/ &middot; *AF-ter yoo*
+**Русский:** после вас, проходите — вежливая уступка дороги
 **Type:** phrase &middot; **Register:** formal
 **Variants:** *after you, sir*, *you first*
 
@@ -1783,6 +1894,7 @@ A polite yielding of the right of way at a door, an elevator, or a buffet line, 
 ### be my guest
 
 **Pronunciation:** /ˌbi maɪ ˈɡɛst/ &middot; *bee my GEST*
+**Русский:** сделай одолжение, будь как дома — разрешение, порой с ироничным «валяй»
 **Type:** phrase &middot; **Register:** neutral
 
 Permission with a shrug: go right ahead, help yourself. Warm hospitality in one tone of voice and a dry "suit yourself, it won't help" in another.
@@ -1798,6 +1910,7 @@ Permission with a shrug: go right ahead, help yourself. Warm hospitality in one 
 ### by all means
 
 **Pronunciation:** /baɪ ˌɔl ˈminz/ &middot; *by awl MEENZ*
+**Русский:** конечно, разумеется, сделайте одолжение — книжн.-вежливое разрешение
 **Type:** phrase &middot; **Register:** formal
 
 An emphatic, courteous "yes, of course — go ahead." It grants permission with a touch of ceremony, and delivered flatly it curdles into sarcasm.
@@ -1813,6 +1926,7 @@ An emphatic, courteous "yes, of course — go ahead." It grants permission with 
 ### carry on
 
 **Pronunciation:** /ˌkæri ˈɑn/ &middot; *ka-ree ON*
+**Русский:** продолжайте — разрешение вернуться к делу после помехи
 **Type:** phrase &middot; **Register:** neutral
 **Variants:** *carry on then*, *as you were*
 
@@ -1829,6 +1943,7 @@ Go back to what you were doing — the standard release after an interruption, f
 ### feel free
 
 **Pronunciation:** /ˌfil ˈfri/ &middot; *feel FREE*
+**Русский:** не стесняйтесь, пожалуйста — разрешение, данное заранее
 **Type:** phrase &middot; **Register:** neutral
 **Variants:** *feel free to*
 
@@ -1845,6 +1960,7 @@ Permission granted in advance: nobody will mind if you do this. It is the office
 ### fire away
 
 **Pronunciation:** /ˌfaɪər əˈweɪ/ &middot; *fyr uh-WAY*
+**Русский:** валяй, спрашивай — приглашение задавать вопросы
 **Type:** phrase &middot; **Register:** informal
 
 Go ahead and ask — the standard invitation when somebody says they have questions for you.
@@ -1860,6 +1976,7 @@ Go ahead and ask — the standard invitation when somebody says they have questi
 ### go ahead
 
 **Pronunciation:** /ˌɡoʊ əˈhɛd/ &middot; *goh uh-HED*
+**Русский:** давай, вперёд, пожалуйста — разрешение; с нажимом — вызов «ну попробуй»
 **Type:** phrase &middot; **Register:** neutral
 **Variants:** *go on*, *go right ahead*
 
@@ -1876,6 +1993,7 @@ Permission to proceed — start talking, start eating, take the parking spot. Sa
 ### go for it
 
 **Pronunciation:** /ˌɡoʊ fər ˈɪt/ &middot; *goh fer IT*
+**Русский:** дерзай!, давай! — разрешение с воодушевлением
 **Type:** phrase &middot; **Register:** informal
 
 Encouraging permission: do it, take the shot, don't hesitate. It is a green light with enthusiasm attached, which is what separates it from a flat *go ahead*.
@@ -1891,6 +2009,7 @@ Encouraging permission: do it, take the shot, don't hesitate. It is a green ligh
 ### have at it
 
 **Pronunciation:** /ˌhæv ˈæt ɪt/ &middot; *hav AT it*
+**Русский:** давай, приступай, налетай — с передачей дела или угощения
 **Type:** phrase &middot; **Register:** informal
 **Variants:** *have at*
 
@@ -1907,6 +2026,7 @@ Go ahead and dig in, take over, or take your best shot. It usually comes with a 
 ### help yourself
 
 **Pronunciation:** /ˌhɛlp jərˈsɛlf/ &middot; *help yer-SELF*
+**Русский:** угощайтесь, берите сами — стандартная фраза хозяина
 **Type:** phrase &middot; **Register:** neutral
 **Variants:** *help yourselves*
 
@@ -1923,6 +2043,7 @@ Take what you want without asking first — the host's standard line about food,
 ### knock yourself out
 
 **Pronunciation:** /ˌnɑk jərˈsɛlf ˌaʊt/ &middot; *nok yer-SELF owt*
+**Русский:** валяй, флаг в руки — с пожатием плеч: дело твоё
 **Type:** phrase &middot; **Register:** informal
 
 Go right ahead — usually with a shrug that means "it's your time to waste" or "I'm not going to stop you." It is rarely warm, and it is never something to say to a customer.
@@ -1938,6 +2059,7 @@ Go right ahead — usually with a shrug that means "it's your time to waste" or 
 ### shoot
 
 **Pronunciation:** /ʃut/ &middot; *SHOOT*
+**Русский:** валяй, говори — разрешение задать вопрос (не междометие досады)
 **Type:** secondary &middot; **Register:** informal
 
 In this use, "go ahead and ask" — a casual green light for somebody's question. The identical word is also a mild substitute swear for frustration, which is a completely separate use.
@@ -1953,6 +2075,7 @@ In this use, "go ahead and ask" — a casual green light for somebody's question
 ### take five
 
 **Pronunciation:** /ˌteɪk ˈfaɪv/ &middot; *tayk FYV*
+**Русский:** перекур, передышка — пауза на пять минут
 **Type:** phrase &middot; **Register:** informal
 **Variants:** *take ten*, *take a breather*
 

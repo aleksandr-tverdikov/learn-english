@@ -17,6 +17,7 @@ The register of contracts, deeds, pleadings, and posted notices. Three things ru
 ### as per
 
 **Pronunciation:** /æz ˈpɜr/ &middot; weak /əz pər/ &middot; *az-PUR*
+**Русский:** согласно, в соответствии с — коммерч. канцеляризм, избыточный per; as per usual — «как всегда» (шутл.)
 **Type:** complex (two-word) &middot; **Register:** business and commercial; widely condemned by usage guides
 **Complement:** noun phrase — never a finite clause (✗ *as per we agreed*; write *as per our agreement*), never a gerund (✗ *as per shipping it Tuesday*; write *as per the Tuesday shipping date*). Before *usual* it takes no article: *as per usual*, and the phrase is frozen — you cannot extend the pattern (✗ *as per normal*, ✗ *as per always*).
 **Pattern:** *as per* [noun phrase] &middot; [clause], *as per* [noun phrase] &middot; *as per usual* (fixed)
@@ -38,9 +39,53 @@ A hybrid of English *as* and Latin *per* that grew up in nineteenth-century ship
 
 **See also:** [per](#per), [according to](11-complex-multiword.md#according-to), [in accordance with](11-complex-multiword.md#in-accordance-with), [pursuant to](11-complex-multiword.md#pursuant-to)
 
+### by and among
+
+**Pronunciation:** /ˌbaɪ ən əˈmʌŋ/ &middot; weak /baɪ ən əˈmʌŋ/ &middot; *by-and-uh-MUNG*
+**Русский:** между (тремя и более сторонами) — юр., зачин преамбулы многостороннего договора
+**Type:** complex (legal doublet) &middot; **Register:** legal — the preamble of a contract with three or more parties
+**Complement:** two or more coordinated noun phrases naming the parties, and in practice three or more — never a finite clause (✗ *by and among they signed yesterday*), never a gerund (✗ *by and among selling the plant*). Each party is normally followed by its state of organization and a defined short name: *a Delaware corporation ("Buyer")*.
+**Pattern:** THIS AGREEMENT is made *by and among* [Party A], [Party B], and [Party C]. &middot; entered into *by and among* [the parties]
+**Contrast:** The choice between this and [by and between](#by-and-between) is a headcount: American form books use *between* for two signatories and *among* for three or more. The schoolroom rule behind the convention is only half true — [between](03-place-position.md#between) is correct for any number when the relations are pairwise — but the drafting habit is real, and a reviewer will change *between* to *among* on a four-party signature block without asking. Both are doublets in which *by* alone would carry the load, and plain-language guides cut them to *among*. Distinguish [by and through](#by-and-through), which names an agent rather than the parties themselves.
+**Variants:** *among* alone is the plain replacement; *by and between* is the two-party form; *by, between and among* and *made and entered into by and among* are the fuller form-book versions
+
+Opens the preamble of a multiparty contract — a credit agreement, a shareholders' agreement, a joint venture — which is where nearly every American transactional lawyer meets it, in the first line of the document rather than in running prose.
+
+1. THIS SHAREHOLDERS AGREEMENT is made *by and among* Corbin Holdings, Inc., the Investors listed on Schedule A, and the Founders.
+2. The credit agreement was entered into *by and among* the Borrower, the Administrative Agent, and the Lenders party thereto.
+3. This Amendment is made *by and among* the three original signatories and the successor trustee.
+4. The escrow was established *by and among* buyer, seller, and the title company.
+5. Settlement was reached *by and among* the class representatives, the defendant, and its two insurers.
+6. When a fourth party joins the deal, the form book switches from *by and between* to *by and among*.
+7. The operating agreement runs *by and among* the Company and each of its Members.
+
+**See also:** [by and between](#by-and-between), [by and through](#by-and-through), [between](03-place-position.md#between), [amongst](#amongst), [by](02-core-relational.md#by)
+
+### by and between
+
+**Pronunciation:** /ˌbaɪ ən bɪˈtwin/ &middot; weak /baɪ ən bəˈtwin/ &middot; *by-and-bih-TWEEN*
+**Русский:** между (двумя сторонами) — юр., зачин преамбулы двустороннего договора
+**Type:** complex (legal doublet) &middot; **Register:** legal — the preamble of a two-party contract
+**Complement:** exactly two coordinated noun phrases joined by *and* — two parties, or two sides each made up of several persons. Never a finite clause (✗ *by and between the parties agree as follows*), never a gerund (✗ *by and between leasing the premises*).
+**Pattern:** THIS LEASE is made *by and between* [Landlord] and [Tenant]. &middot; an agreement *by and between* [Party A] and [Party B]
+**Contrast:** Identical in force to plain *between*: the *by* adds nothing at all, and every plain-language drafting manual in America strikes it. Use [by and among](#by-and-among) when three or more parties sign. Do not read *by* as naming the party who prepared the document — the phrase says nothing whatever about who drafted it, which matters because *contra proferentem* construes ambiguities against the drafter and the preamble will not tell you who that was. Distinguish [by and through](#by-and-through), the pleading formula that names counsel rather than the parties.
+**Variants:** *between* alone is the plain replacement; *made and entered into by and between* is the fuller form; *by and among* is the multiparty version
+
+The first line of the body of nearly every American lease, purchase agreement, employment contract, and settlement agreement — and the phrase most often held up as the specimen of legal doubling that could simply be deleted.
+
+1. THIS LEASE is made *by and between* Palmetto Properties, LLC, and Devon Ruiz.
+2. The agreement is *by and between* the City and the contractor named on the signature page.
+3. Made and entered into this 4th day of June, *by and between* the Seller and the Buyer.
+4. The collective bargaining agreement *by and between* the district and the teachers' union runs three years.
+5. Older deeds read "made *by and between* the party of the first part and the party of the second part."
+6. Drafting manuals tell you to delete *by and* and leave the *between* standing.
+
+**See also:** [by and among](#by-and-among), [by and through](#by-and-through), [between](03-place-position.md#between), [by](02-core-relational.md#by), [under and pursuant to](#under-and-pursuant-to)
+
 ### by and through
 
 **Pronunciation:** /ˌbaɪ ən ˈθru/ &middot; weak /baɪ ən θru/ &middot; *by-and-THROO*
+**Русский:** в лице, через — юр. формула, называет представителя: адвоката, опекуна
 **Type:** complex (legal doublet) &middot; **Register:** legal — pleadings and court filings
 **Complement:** a noun phrase naming a representative (counsel, guardian, trustee, agent) — never a clause, never a gerund. Always set off by commas inside the party designation.
 **Pattern:** [party], *by and through* [attorney, guardian, or agent], [verb].
@@ -61,6 +106,7 @@ The standard American pleading formula that introduces the lawyer, guardian, or 
 ### by order of
 
 **Pronunciation:** /baɪ ˈɔrdər ʌv/ &middot; weak /baɪ ˈɔrɾər əv/ &middot; fully reduced /baɪ ˈɔrɾɚ ə/ before a consonant &middot; *by-OR-der-uv*
+**Русский:** по приказу, по распоряжению — называет издавшую приказ инстанцию
 **Type:** complex &middot; **Register:** official and legal — signage, notices, court orders
 **Complement:** a noun phrase naming an authority, normally a title rather than a bare personal name — never a clause, never a gerund (✗ *by order of closing the road*).
 **Pattern:** *By order of* [authority]. (standing alone as a sign or notice) &middot; [clause] *by order of* [authority].
@@ -81,6 +127,7 @@ Attributes a command to the office that issued it, and does so in a form short e
 ### ex parte
 
 **Pronunciation:** /ɛks ˈpɑrti/ &middot; also /ɛks ˈpɑrteɪ/ &middot; *eks-PAR-tee*
+**Русский:** юр. в одностороннем порядке — по заявлению одной стороны, без участия другой
 **Type:** complex (Latin) &middot; **Register:** legal
 **Complement:** as a preposition, only a party's name, and only in a case title (*Ex parte Milligan*). Everywhere else in American practice it is an adjective (*an ex parte motion*) or an adverb (*the judge ruled ex parte*) and takes no object at all. Never a clause, never a gerund.
 **Pattern:** *Ex parte* [name of the applying party] (case title) &middot; an *ex parte* [motion / order / communication] (attributive) &middot; [verb] *ex parte* (adverbial)
@@ -104,14 +151,37 @@ Marks a proceeding brought by one side without the other present, or a communica
 
 **See also:** [inter](#inter), [ex](#ex), [pro](#pro), [in re](10-topic-reference-role.md#in-re)
 
+### ex rel.
+
+**Pronunciation:** /ˌɛks ˈrɛl/ &middot; the full Latin *ex relatione* is /ɛks ˌrɛləʃiˈoʊni/ &middot; *eks-REL* &middot; no weak form: quoted Latin keeps its full vowels
+**Русский:** юр. по заявлению, от имени (лат. ex relatione) — иск подан от имени государства
+**Type:** complex (Latin, always abbreviated) &middot; **Register:** legal — case names and citation
+**Complement:** the name of the relator — the private person or public officer on whose information the action is brought — standing between the nominal plaintiff and the *v.* Never a clause, never a gerund, and it does not govern an ordinary noun phrase in running prose (✗ *the suit was brought ex rel. a whistleblower*; write *on the relation of a whistleblower*).
+**Pattern:** [sovereign or nominal plaintiff] *ex rel.* [relator] v. [defendant] &middot; reported *ex rel.* [relator]
+**Contrast:** Latin *ex relatione*, "on the relation of" — that is, on the information of someone who is not the nominal plaintiff. It is the caption of the American qui tam action: under the False Claims Act the United States is the plaintiff and the whistleblower is the relator, so the case reads *United States ex rel. Schutte v. SuperValu*. Keep it clear of its shelfmates: [ex parte](#ex-parte) says only one side was heard, *sub nom.* (see [sub](#sub)) says the case was reported under a different name on the way up, and *in re* says there was no adversary at all. Americans read it aloud as "ex rel," never expanded.
+**Variants:** *ex relatione* is the full Latin and is effectively never written out; *on the relation of* is the English; *qui tam* names the kind of action rather than the caption; older habeas petitions used the same form (*United States ex rel. Jones v. Warden*)
+
+Names the person who set a lawsuit going in somebody else's name. An American meets it in the caption of a whistleblower case, in state mandamus practice where a citizen sues in the name of the state, and in habeas reports from before the 1960s.
+
+1. *United States ex rel.* Schutte v. SuperValu Inc. turned on what the defendants actually believed.
+2. The caption reads *State ex rel.* Vasquez v. Board of Elections.
+3. Habeas petitions were once styled *United States ex rel.* Jones v. Warden of Sing Sing.
+4. The relator's name stays in the caption after *ex rel.* even once the government intervenes.
+5. Ohio's mandamus docket is full of *ex rel.* captions, because the citizen sues in the name of the state.
+6. Lawyers say "ex rel" out loud; nobody says *ex relatione*.
+7. American style writes it *ex rel.* with a period and sets it roman inside a case name.
+
+**See also:** [ex parte](#ex-parte), [ex](#ex), [sub](#sub), [in re](10-topic-reference-role.md#in-re), [versus](#versus)
+
 ### hereunder
 
 **Pronunciation:** /ˌhɪrˈʌndər/ &middot; flapped /ˌhɪrˈʌnər/ &middot; *heer-UN-der*
+**Русский:** юр. по настоящему договору — «по этому документу»; дополнения не берёт
 **Type:** compound (fused *here* + *under*) &middot; **Register:** legal — contract drafting
 **Complement:** **none.** This word takes no object. Its object is already inside it: *here* means "this document," so *hereunder* is a complete phrase meaning "under this agreement." Writing *hereunder this contract* is an error, and so is *hereunder to Section 4*.
 **Pattern:** [noun phrase] *hereunder* &middot; [verb phrase] *hereunder* &middot; rights and obligations *hereunder*
 **Contrast:** *Hereunder* points at the document you are reading; [thereunder](#thereunder) points at some other instrument just named. Mixing them up changes what a contract means. The whole family is a preposition welded to a pointing word — *hereof, hereto, herein, hereby, hereinafter, hereunder, herewith, hereinabove* — and every plain-language drafting manual in America tells you to replace each of them with *under this Agreement*, *to this Agreement*, and so on.
-**Variants:** *under this Agreement* is the plain-language replacement; the *here-* family: *hereof, hereto, herein, hereby, herewith, hereinafter*
+**Variants:** *under this Agreement* is the plain-language replacement; the *here-* family, every member of which takes no object of its own: *hereof, hereto, herein, hereby, herewith, hereinafter, hereinbefore, hereinabove, heretofore*
 
 A fossil of the Old English habit of putting the object first and letting an adverb swallow it. It is the reason contract prose can refer to itself without ever naming itself, and the reason non-lawyers find contracts unreadable.
 
@@ -127,6 +197,7 @@ A fossil of the Old English habit of putting the object first and letting an adv
 ### in consideration of
 
 **Pronunciation:** /ɪn kənˌsɪdəˈreɪʃən ʌv/ &middot; weak /ɪn kənˌsɪdəˈreɪʃən əv/ &middot; *in-kun-sid-uh-RAY-shun-uv*
+**Русский:** юр. в обмен на, за встречное предоставление; книжн. ввиду, принимая во внимание
 **Type:** complex &middot; **Register:** legal in the contract sense; formal general prose in the other
 **Complement:** noun phrase or gerund — never a finite clause (✗ *in consideration of he paid the deposit*). For a clause you must write *in consideration of the fact that*, and you should usually write *because* instead. A verb after *of* takes the *-ing* form and nothing else: *in consideration of releasing all claims*, never ✗ *in consideration of to release all claims*.
 **Pattern:** *In consideration of* [noun phrase], [clause]. &middot; [clause] *in consideration of* [noun phrase] &middot; *in consideration of* [verb-ing]
@@ -149,14 +220,42 @@ The phrase that opens the operative clause of nearly every American contract and
 
 **See also:** [in exchange for](11-complex-multiword.md#in-exchange-for), [in light of](11-complex-multiword.md#in-light-of), [in view of](11-complex-multiword.md#in-view-of), [for](02-core-relational.md#for), [subject to](#subject-to)
 
+### in default of
+
+**Pronunciation:** /ɪn dɪˈfɔlt ʌv/ &middot; weak /ɪn dəˈfɔlt əv/ &middot; fully reduced /ɪn dəˈfɔlt ə/ before a consonant &middot; *in-dih-FAWLT-uv*
+**Русский:** юр. за неимением, при отсутствии — если названное лицо или действие отсутствует
+**Type:** complex &middot; **Register:** formal and legal — wills, trusts, contracts, and court rules
+**Complement:** noun phrase or gerund — never a finite clause (✗ *in default of he pays the premium*; write *in default of payment*). The *of* is a preposition, so a verb after it must be an *-ing* form: *in default of paying the premium*, never ✗ *in default of to pay the premium*. The object names the act or event that fails to happen, not the person who fails: *in default of issue*, *in default of appointment*, *in default of agreement*.
+**Pattern:** *In default of* [noun phrase], [clause]. &middot; [clause] *in default of* [noun phrase] &middot; *in default of* [verb-ing]
+**Contrast:** It means "if that does not happen," not "because somebody defaulted." The bare adverbial *in default*, with no *of*, is the other word — a defendant who never answers is *in default* — and *default on* takes the loan or obligation as its object. Its plain neighbors are [in the absence of](11-complex-multiword.md#in-the-absence-of), which is neutral about whose fault the gap is, and [failing](08-accompaniment-exception.md#failing), which is the one-word equivalent and much the shorter. Estate drafters use one collocation above all others: *in default of issue*, meaning "if he leaves no children."
+**Variants:** *failing* is the one-word equivalent; *in the absence of* and *for want of* are the plainer phrases; *in default whereof* is the older self-pointing form; *in default of appointment* and *in default of issue* are the fixed drafting collocations
+
+Sets out what happens when the first arrangement fails. It is the hinge of a will, of a power of appointment, and of every clause that has to name a fallback.
+
+**1. Wills and trusts: if the named person or class fails.** *In default of* issue, the property passes to my brother's children.
+**2. Contracts: if the required act is not done in time.** *In default of* payment within thirty days, the whole balance falls due.
+**3. Procedure: if nobody appears, or nobody agrees.** *In default of* agreement, the matter goes to arbitration.
+
+1. *In default of* issue, the remainder passes to the testator's nieces and nephews.
+2. The trust names takers *in default of* appointment, which is what saves the gift if the power is never exercised.
+3. *In default of* payment within thirty days, the entire balance becomes immediately due.
+4. *In default of* an appearance by the defendant, the clerk may enter judgment.
+5. *In default of* agreement between the two appraisers, a third is named by the court.
+6. *In default of* a written contract, the parties are left with whatever the emails prove.
+7. The policy lapses *in default of* the annual premium.
+8. *In default of* nomination by the union, the arbitrator is drawn from the standing panel.
+
+**See also:** [failing](08-accompaniment-exception.md#failing), [in the absence of](11-complex-multiword.md#in-the-absence-of), [subject to](#subject-to), [save and except](#save-and-except), [without prejudice to](#without-prejudice-to)
+
 ### in witness whereof
 
 **Pronunciation:** /ɪn ˈwɪtnəs wɛrˈʌv/ &middot; older *wh-* /ʍɛrˈʌv/ &middot; weak /ɪn ˈwɪtnəs wɛrˈəv/ &middot; *in-WIT-nis-wair-UV*
+**Русский:** юр. в удостоверение чего — застывшая формула перед подписями в договоре
 **Type:** complex (frozen formula) &middot; **Register:** legal — execution and testimonium clauses
 **Complement:** **none.** *Whereof* already contains its object — it means "of which," pointing back at the document — so the phrase is complete as it stands. It is always followed by a comma and then a full clause, never by a noun phrase (✗ *in witness whereof this deed*).
 **Pattern:** *In witness whereof*, [the parties have executed this Agreement as of the date first written above].
 **Contrast:** The *where-* family is the third leg of a three-part system: [hereunder](#hereunder) points at the document you are holding, [thereunder](#thereunder) at another one just named, and *whereof* at the thing last mentioned. Its relatives are *whereby, wherein, whereas, whereupon, wherefore, whereto*. The variant *in witness thereof* is usually a drafting slip rather than a genuine alternative — *thereof* points away from the document that is being signed, which is not what the signer means.
-**Variants:** *in testimony whereof* (state seals and notarial certificates); *witness my hand and seal* (the shorter American form)
+**Variants:** *in testimony whereof* (state seals and notarial certificates); *witness my hand and seal* (the shorter American form); the *where-* family, which likewise governs nothing: *whereof, whereby, wherein, whereas, whereupon, wherefore, whereto*
 
 The testimonium clause — the fixed line that opens the signature block of an American contract, deed, affidavit, or gubernatorial proclamation. It is not a productive preposition at all: it is a fossil you will read a thousand times and never build a new sentence with.
 
@@ -172,6 +271,7 @@ The testimonium clause — the fixed line that opens the signature block of an A
 ### save and except
 
 **Pronunciation:** /ˌseɪv ənd ɪkˈsɛpt/ &middot; weak /ˌseɪv ən ɪkˈsɛpt/ &middot; *sayv-and-ik-SEPT*
+**Русский:** юр. за исключением — дублет в актах о передаче недвижимости, = except
 **Type:** complex (legal doublet) &middot; **Register:** legal — deeds, conveyances, oil-and-gas instruments
 **Complement:** noun phrase — never a clause, never a gerund. The object is the thing carved out of the grant, and it must be described with the same precision as the grant itself.
 **Pattern:** [granting clause], *save and except* [noun phrase] &middot; *Save and except* [noun phrase], [clause].
@@ -192,8 +292,9 @@ The reservation formula of American deed drafting, and above all of Texas and Ok
 ### subject to
 
 **Pronunciation:** /ˈsʌbdʒɪkt tu/ &middot; weak /ˈsʌbdʒɪkt tə/ &middot; *SUB-jikt-too*
+**Русский:** при условии, с учётом; подчинённый (власти, юрисдикции); подверженный чему-то
 **Type:** complex &middot; **Register:** formal and legal, but fully current in general American English
-**Complement:** noun phrase or gerund — never a finite clause (✗ *subject to the board approves it*; write *subject to the board's approval* or *subject to approval by the board*). **The *to* is a preposition here, not the infinitive marker**, so a verb after it must be an *-ing* form: *subject to obtaining a permit*, never ✗ *subject to obtain a permit* — the same trap as *look forward to seeing you*, *object to being questioned*, and *accustomed to working late*. The gerund may carry its own subject in the possessive or objective case: *subject to the applicant's posting a bond*. Pronoun objects take the objective case: *subject to them*, never ✗ *subject to they*.
+**Complement:** noun phrase or gerund — never a finite clause (**subject to the board approves it*; write *subject to the board's approval* or *subject to approval by the board*). ✗ *The *to* is a preposition here, not the infinitive marker**, so a verb after it must be an *-ing* form: *subject to obtaining a permit*, never ✗ *subject to obtain a permit* — the same trap as *look forward to seeing you*, *object to being questioned*, and *accustomed to working late*. The gerund may carry its own subject in the possessive or objective case: *subject to the applicant's posting a bond*. Pronoun objects take the objective case: *subject to them*, never ✗ *subject to they*.
 **Pattern:** *Subject to* [noun phrase], [clause]. &middot; [clause] *subject to* [noun phrase] &middot; [noun] *subject to* [noun phrase] &middot; *subject to* [verb-ing]
 **Contrast:** Stress separates the preposition from the verb it looks like: the preposition and adjective are *SUB-ject* /ˈsʌbdʒɪkt/, while the verb meaning "to expose someone to something" is *sub-JECT* /səbˈdʒɛkt/ (*they subjected him to a search*). Against its neighbors, *subject to* makes the main event conditional **and revocable** — the condition can still undo it later — where *contingent on* and *dependent on* merely make it conditional up front, and [pursuant to](11-complex-multiword.md#pursuant-to) makes it authorized. *Subject to change* and *subject to availability* are fixed phrases.
 **Variants:** *contingent on* and *dependent on* are the near equivalents for the conditional sense; *subject to change*, *subject to availability*, and *subject to approval* are fixed phrases; *subject thereto* is the legal-fossil form that points back at a document already named
@@ -220,11 +321,12 @@ The most productive word in this file and the only one an ordinary American uses
 ### thereunder
 
 **Pronunciation:** /ˌðɛrˈʌndər/ &middot; flapped /ˌðɛrˈʌnər/ &middot; *thair-UN-der*
+**Русский:** юр. на его основании, по нему — отсылает к другому, ранее названному документу
 **Type:** compound (fused *there* + *under*) &middot; **Register:** legal and regulatory
 **Complement:** **none** — the object is incorporated. *There* points at a statute, contract, or provision already named, so *thereunder* means "under that." *Thereunder the statute* is an error.
 **Pattern:** [noun phrase] *thereunder* &middot; [verb phrase] *thereunder* &middot; the Act and the regulations promulgated *thereunder*
 **Contrast:** [Hereunder](#hereunder) points at the document you are reading; *thereunder* points at some other instrument just mentioned. Drafters confuse the two constantly, and the mistake is substantive, not stylistic — it can redirect an entire obligation. The *there-* family runs *thereof, thereto, therein, thereby, thereafter, thereunder, therewith, theretofore, thereupon*.
-**Variants:** *under that Agreement* / *under the Act* are the plain-language replacements; the *there-* family: *thereof, thereto, therein, thereby, therewith*
+**Variants:** *under that Agreement* / *under the Act* are the plain-language replacements; the *there-* family, all of them objectless: *thereof, thereto, therein, thereby, therewith, thereafter, theretofore, thereupon*
 
 The pointing twin of *hereunder*, and the workhorse of American regulatory citation, where the standard formula is *the Act and the regulations promulgated thereunder*.
 
@@ -240,6 +342,7 @@ The pointing twin of *hereunder*, and the workhorse of American regulatory citat
 ### under and pursuant to
 
 **Pronunciation:** /ˈʌndər ənd pərˈsuənt tu/ &middot; weak /ˈʌndər ən pərˈsuənt tə/ &middot; *UN-der-and-per-SOO-unt-too*
+**Русский:** юр. на основании, в соответствии с — дублет, полностью = pursuant to
 **Type:** complex (legal doublet) &middot; **Register:** legal
 **Complement:** a noun phrase naming an instrument or a source of authority — a statute, an agreement, an order, a section number. Never a clause, never a gerund.
 **Pattern:** [clause] *under and pursuant to* [statute / agreement / order] &middot; *Under and pursuant to* [instrument], [clause].
@@ -260,6 +363,7 @@ Derives an action from a written authority, twice over. The only reason to know 
 ### without prejudice to
 
 **Pronunciation:** /wɪˌðaʊt ˈprɛdʒədɪs tu/ &middot; also /wɪˌθaʊt/ &middot; weak *to* /tə/ &middot; *with-OUT-PREJ-uh-dis-too*
+**Русский:** юр. без ущерба для — сохраняя право, которое иначе считалось бы утраченным
 **Type:** complex &middot; **Register:** legal
 **Complement:** noun phrase or gerund — never a finite clause (✗ *without prejudice to she may appeal*; write *without prejudice to her right to appeal*). The *to* is a preposition here too, so a verb after it takes *-ing*: *without prejudice to refiling*, never ✗ *without prejudice to refile*.
 **Pattern:** *Without prejudice to* [noun phrase], [clause]. &middot; [clause] *without prejudice to* [noun phrase] &middot; dismissed *without prejudice* (adverbial, no object)
@@ -283,11 +387,12 @@ Reserves a right instead of surrendering it. It is the drafter's way of saying t
 
 ## Latin and borrowed
 
-Latin and French prepositions borrowed into English, most of them locked inside a fixed phrase and unable to govern an English noun. The test to apply is whether the word can take a noun phrase you choose yourself: *per*, *versus*, *chez*, *ex*, and *cum* can, so they are living English prepositions; *ad*, *de*, *inter*, *intra*, *pro*, *sine*, *sub*, and *ultra* cannot, and survive only as tags quoted whole, each welded to the one Latin noun it was borrowed with. Watch the Latin plurals and the fixed word order — *mutatis mutandis*, never the reverse — and remember that a Latin phrase in an American document is usually a term of art with a precise meaning, not decoration.
+Latin and French prepositions borrowed into English, most of them locked inside a fixed phrase and unable to govern an English noun. The test to apply is whether the word can take a noun phrase you choose yourself: *per*, *versus*, *chez*, *ex*, and *cum* can, so they are living English prepositions; *ad*, *apud*, *coram*, *de*, *in*, *inter*, *intra*, *pro*, *quoad*, *sensu*, *sine*, *sub*, and *ultra* cannot, and survive only as tags quoted whole, each welded to the one Latin noun it was borrowed with. Watch the Latin plurals and the fixed word order — *mutatis mutandis*, never the reverse — and remember that a Latin phrase in an American document is usually a term of art with a precise meaning, not decoration.
 
 ### ad
 
 **Pronunciation:** /æd/ &middot; weak /əd/ &middot; *AD*
+**Русский:** лат. «к, для» — живёт только в оборотах: ad hoc, ad litem, ad valorem, ad nauseam
 **Type:** simple (Latin) &middot; **Register:** legal, academic, and commercial; a bound element, never a free preposition
 **Complement:** only the Latin noun the phrase was borrowed with — *ad hoc*, *ad litem*, *ad valorem*, *ad interim*, *ad damnum*, *ad idem*, *ad nauseam*. It cannot govern an English noun phrase (✗ *ad the committee*; write *to the committee*), and it never takes a clause or a gerund.
 **Pattern:** an *ad hoc* [committee / arrangement] &middot; guardian *ad litem* &middot; *ad valorem* [tax / duty] &middot; [officer] *ad interim* &middot; the *ad damnum* clause
@@ -315,9 +420,57 @@ Latin "to, toward, for." Like *inter* and *pro* it never became a free English p
 
 **See also:** [pro](#pro), [de](#de), [sub](#sub), [to](02-core-relational.md#to), [for](02-core-relational.md#for)
 
+### apud
+
+**Pronunciation:** /ˈæpʊd/ &middot; also /ˈɑpʊd/ &middot; *AP-uud* &middot; no weak form: it is quoted Latin and keeps its full vowels
+**Русский:** лат. «у, в сочинении» — науч. цит. по, приводится по (автору, сохранившему текст)
+**Type:** simple (Latin) &middot; **Register:** scholarly citation — classics, patristics, medieval history, and bibliography
+**Complement:** the name of the author or work in whose text the quoted matter is preserved, or a full citation of it — never a clause, never a gerund. It cannot govern an ordinary English noun phrase in running prose (✗ *apud the library*): Latin's household sense went into French, not into English.
+**Pattern:** [quoted author or fragment] *apud* [the author who preserves it] &middot; quoted *apud* [work and page]
+**Contrast:** Latin *apud* is "at the house of, in the presence of, in the writings of" — the Latin twin of [chez](#chez), which kept the household sense while *apud* kept only the bibliographic one. In a footnote it does the work of *as quoted in* or *as cited in*, and it is used for an honest reason: you have seen not the original but the later author who quotes it. Keep it apart from [sensu](#sensu), which reports the meaning an author gave a name rather than the text that preserves a passage, and from [cf.](#cf), which asks the reader to compare rather than reporting where something is found.
+**Variants:** *ap.* is the abbreviation used in a critical apparatus; *as quoted in* and *as cited in* are the English equivalents most American journals now require
+
+Latin "at, among, in the works of." Only the bibliographic sense reached English, and it stayed in the disciplines that spend their days with texts surviving inside other texts.
+
+1. Heraclitus, fr. 12 Diels, *apud* Arius Didymus.
+2. The saying survives only *apud* Clement of Alexandria.
+3. Chrysippus, *apud* Plutarch, *De Stoicorum repugnantiis* 1035a.
+4. The editor prints the fragment *apud* Stobaeus and marks the attribution doubtful.
+5. Cited *apud* Migne, *Patrologia Graeca* 44, col. 1128.
+6. American law reviews want *quoted in*; *apud* now lives in classical and theological journals.
+7. Where a manuscript reading survives only in a commentary, the apparatus records it *apud* the commentator.
+
+**See also:** [sensu](#sensu), [cf.](#cf), [sub verbo](#sub-verbo), [chez](#chez), [supra](#supra)
+
+### cf.
+
+**Pronunciation:** /ˌsi ˈɛf/ &middot; *see-EFF* &middot; read aloud as the two letters, or as *compare*; the full Latin *confer* is /ˈkɑnfɜr/ and is never said
+**Русский:** ср. (сравни) — отсылка к источнику, подтверждающему мысль косвенно, по аналогии
+**Type:** marginal (a Latin imperative working as a citation signal) &middot; **Register:** scholarly and legal citation; taxonomic Latin
+**Complement:** a citation, a page or section reference, or — in a taxonomic name — the species epithet standing between genus and species. Never a finite clause (✗ *cf. the court held otherwise*; put that in a parenthetical), never a gerund. In American legal citation the Bluebook expects an explanatory parenthetical after it, because the reader cannot otherwise tell what the analogy is meant to be.
+**Pattern:** *Cf.* [citation] ([parenthetical explaining the analogy]). &middot; see [source]; *cf.* [source] &middot; [Genus] *cf.* [species] (taxonomy)
+**Contrast:** On the American citation scale it stands on the supporting side but at arm's length: *see* → *see also* → *cf.* → *but see* → [contra](#contra). *Cf.* says the authority supports the point by analogy, not directly. In taxonomy the abbreviation concedes something else entirely — doubt about a specimen — and it is paired there with *aff.*: *Genus cf. species* means "compare: probably this species, though the material will not prove it," while *Genus aff. species* means "close to that species, and probably not it." The error to avoid everywhere is writing *cf.* for *e.g.* (for example) or *i.e.* (that is); the three are not interchangeable, and *cf.* alone asks the reader to do comparative work.
+**Variants:** *aff.* (Latin *affinis*, "related to") is the taxonomic sibling; *cp.* is the older British abbreviation; *confer* is the full Latin and is never written out; *sp.* and *indet.* mark other degrees of taxonomic uncertainty
+
+Latin *confer*, "compare." Strictly it is an imperative verb, but on the page it behaves like a preposition: it stands immediately in front of a reference and governs it.
+
+**1. Citation signal: compare the authority cited, which supports the point by analogy rather than directly.** *Cf.* Restatement (Second) of Torts § 402A.
+**2. Taxonomy, between genus and species: this specimen resembles that species but cannot be identified with certainty.** The bone was catalogued as Equus *cf.* caballus.
+
+1. *Cf.* Restatement (Second) of Torts § 402A (imposing strict liability on sellers of defective products).
+2. See Gray, 118 F.3d at 1102; *cf.* Ellison, 924 F.2d at 878 (reaching the same result on other grounds).
+3. The brief cites three cases in support and one, with a *cf.*, by analogy only.
+4. The specimen was logged as Tyrannosaurus *cf.* rex until the skull could be prepared.
+5. A jaw labeled Equus *aff.* caballus is close to the modern horse and probably not the same species.
+6. Chicago style sets *cf.* roman and lowercase inside a note.
+7. A student who writes *cf.* where he means *e.g.* is promising an analogy he has not made.
+
+**See also:** [contra](#contra), [supra](#supra), [infra](#infra), [apud](#apud), [sensu](#sensu)
+
 ### chez
 
 **Pronunciation:** /ʃeɪ/ &middot; *SHAY*
+**Русский:** у (кого-то дома), в доме у — из французского, часто с оттенком шутливой манерности
 **Type:** simple (French borrowing) &middot; **Register:** literary or jocular; mildly affected in plain American prose
 **Complement:** a noun phrase naming a person, a family, a household, or an establishment — a bare personal name (*chez Marie*), a family name with the article (*chez the Bernsteins*), a possessive-marked noun phrase (*chez his grandparents*), or a French pronoun in the fixed forms *chez moi, chez nous, chez toi, chez lui, chez elle*. Never an English pronoun (✗ *chez me*; say *at my place*), never a clause, never a gerund.
 **Pattern:** *chez* [name] &middot; *chez* [moi / nous / lui / elle] &middot; *chez* [family or institution] (extended sense)
@@ -342,6 +495,7 @@ French for "at the home or establishment of," borrowed whole and never naturaliz
 ### contra
 
 **Pronunciation:** /ˈkɑntrə/ &middot; *KAHN-truh*
+**Русский:** юр. «напротив» — источник прямо опровергает сказанное; бухг. контр-, встречный
 **Type:** simple (Latin) &middot; **Register:** legal, academic, and accounting; never conversational
 **Complement:** in the citation use, a full case or source citation rather than an ordinary noun phrase. In the free use it is an adverb or a noun with no object at all (*two justices wrote contra*; *the pros and contras*). Never a clause, never a gerund.
 **Pattern:** *Contra* [citation]. (a signal introducing disagreeing authority) &middot; a *contra* [account / entry] (attributive) &middot; *pro and contra* (adverbial pair)
@@ -365,9 +519,36 @@ A Latin "against" that survives in three narrow trades and nowhere else. Note th
 
 **See also:** [against](04-movement-direction.md#against), [pro](#pro), [versus](#versus), [ex parte](#ex-parte)
 
+### coram
+
+**Pronunciation:** /ˈkɔrəm/ &middot; also /ˈkoʊræm/ &middot; *KOR-um* &middot; no weak form: quoted Latin keeps its full vowels
+**Русский:** лат. «перед, в присутствии» — только в оборотах: coram nobis, coram populo
+**Type:** simple (Latin) &middot; **Register:** legal, with one literary survival; a bound element, never a free preposition
+**Complement:** only the Latin noun fixed to it — *coram nobis*, *coram vobis*, *coram non judice*, *coram populo*. It cannot govern an English noun phrase (✗ *coram the judge*; write *before the judge*), and it never takes a clause or a gerund.
+**Pattern:** a writ of error *coram nobis* &middot; a judgment *coram non judice* &middot; *coram populo*
+**Contrast:** Latin *coram* is "in the presence of, face to face with," and English [before](05-time.md#before) took the whole job. The American survival is the writ of error *coram nobis* — "before us," meaning the court's own record — which federal courts may still issue under the All Writs Act to correct a conviction after the sentence has been served; its twin *coram vobis*, "before you," went to the reviewing court, and most states have abolished the distinction. *Coram non judice* is not a place but a verdict: it says the tribunal had no jurisdiction, so its judgment is a nullity. Distinguish [ex parte](#ex-parte), which is about who was heard rather than who did the hearing.
+**Variants:** *coram nobis*, *coram vobis*, *coram non judice*, *coram populo*; many states have replaced the writ with a single post-conviction motion
+
+Latin "in the presence of." Where an American meets it: a post-conviction petition, an old English report, and Horace's *coram populo*, "out in front of the people."
+
+**1. *Coram nobis*: before us — the writ that reopens a conviction on a fact the court never knew.** He petitioned for a writ of error *coram nobis* thirty years later.
+**2. *Coram non judice*: before one who is not a judge — of a judgment void for want of jurisdiction.** A decree entered *coram non judice* binds nobody.
+**3. *Coram populo*: in public; in front of the crowd — the literary use.** Nothing shameful was to be done *coram populo*.
+
+1. He petitioned for a writ of error *coram nobis* to clear the conviction long after the sentence had run.
+2. Korematsu's conviction was vacated on a *coram nobis* petition in 1983.
+3. Because the sentence was fully served, habeas was unavailable and only *coram nobis* remained.
+4. A judgment entered *coram non judice* is a nullity and may be attacked at any time.
+5. Most states abolished *coram vobis* when they adopted a single post-conviction statute.
+6. Horace's rule was that the horrors happen offstage, not *coram populo*.
+7. The motion is captioned as a petition for a writ of error *coram nobis* under the All Writs Act.
+
+**See also:** [ex parte](#ex-parte), [sub](#sub), [ad](#ad), [in re](10-topic-reference-role.md#in-re), [before](05-time.md#before)
+
 ### cum
 
 **Pronunciation:** /kʊm/, /kʌm/ &middot; *KUUM (rhyming with room for most Americans); KUM also heard*
+**Русский:** лат. «с» — совмещение двух ролей: кухня-столовая, актёр-режиссёр; бирж. с правом
 **Type:** simple (Latin) &middot; **Register:** formal or jocular in the compound-noun use; technical in finance; now largely avoided in American English
 **Complement:** a single bare noun, normally hyphenated to the noun before it — never a determiner of its own (✗ *a bedroom cum a study*), never a clause, never a gerund.
 **Pattern:** [noun]-*cum*-[noun] &middot; *cum* [dividend / rights / coupon] (securities)
@@ -391,6 +572,7 @@ Latin "with, combined with." The living English use is the hyphenated compound n
 ### de
 
 **Pronunciation:** /deɪ/ &middot; also /di/ &middot; *DAY*
+**Русский:** лат. «от, о» — только в оборотах: de facto, de jure, de novo, de minimis
 **Type:** simple (Latin) &middot; **Register:** legal, academic, and journalistic; a bound element inside fixed phrases
 **Complement:** only the Latin noun fixed to it — *de facto*, *de jure*, *de novo*, *de minimis*, *de bene esse*. It cannot govern an English noun phrase (✗ *de the record*; write *from the record*), and it never takes a clause or a gerund. The *de* of French borrowings (*coup de grâce*, *de rigueur*, *de trop*) is a different word doing a different job and is not this entry.
 **Pattern:** *de facto* [leader / segregation / standard] &middot; *de jure* [segregation / government] &middot; review *de novo* &middot; a *de minimis* [amount / violation]
@@ -420,11 +602,12 @@ Latin "from, down from, concerning." It never became a free English preposition,
 ### ex
 
 **Pronunciation:** /ɛks/ &middot; *EKS*
+**Русский:** лат. «из» — торг. с места отгрузки (франко); бирж. без права; из источника, от
 **Type:** simple (Latin) &middot; **Register:** commercial, financial, legal, and technical
 **Complement:** it depends on the sense. In the shipping and securities senses, a **bare noun with no determiner** — *ex works*, *ex dividend*, never ✗ *ex the works*. In the provenance sense the object is an ordinary noun phrase and takes its determiner normally — *ex the Sackler collection*, *ex a Distorted Humor mare*. In the frozen phrases (*ex officio*, *ex post facto*, *ex rel.*) the noun is Latin and fixed. Never a clause, never a gerund.
 **Pattern:** *ex* [named delivery point] (shipping) &middot; *ex* [dividend / rights / coupon] (securities) &middot; *ex* [source] (provenance and pedigree)
 **Contrast:** Latin *ex* means "out of, from" and gave English *exit*, *export*, and the prefix in *ex-president*. It is the exact opposite of [cum](#cum) in securities pricing. Against plain [out of](11-complex-multiword.md#out-of) and [from](02-core-relational.md#from), which took over the whole job: *ex* survives only where a trade has frozen it into a term of art. The noun *an ex*, meaning a former spouse, is the same word turned into a noun and is not a preposition.
-**Variants:** *ex-* as a productive English prefix (*ex-wife, ex-officio, ex-directory*); *ex works, ex ship, ex quay, ex warehouse* are defined Incoterms
+**Variants:** *ex-* as a productive English prefix (*ex-wife, ex-officio, ex-directory*); *ex works, ex ship, ex quay, ex warehouse* are defined Incoterms; *ex ante* and *ex post* (before and after the event) are frozen adverbials with no object; *ex parte* and *ex rel.* have entries of their own
 
 A Latin "from" that survives in four separate trades, each of which has hardened it into a term with a precise and non-obvious meaning.
 
@@ -444,14 +627,69 @@ A Latin "from" that survives in four separate trades, each of which has hardened
 
 **See also:** [cum](#cum), [de](#de), [ex parte](#ex-parte), [from](02-core-relational.md#from), [out of](11-complex-multiword.md#out-of), [per](#per)
 
+### in (Latin)
+
+**Pronunciation:** /ɪn/ &middot; *IN* &middot; no weak form in these phrases: a speaker reaching for a Latin tag pronounces it carefully, so *in camera* is /ɪn ˈkæmərə/ and never /ən/
+**Русский:** лат. «в» — только в оборотах: in situ, in camera, in absentia, in rem, in limine
+**Type:** simple (Latin) &middot; **Register:** legal, scientific, and scholarly; a bound element inside fixed phrases, never a free preposition
+**Complement:** only the Latin noun the phrase was borrowed with — *in situ*, *in vitro*, *in vivo*, *in camera*, *in absentia*, *in rem*, *in personam*, *in limine*, *in loco parentis*, *in extremis*, *in toto*. It never takes a clause or a gerund (✗ *in camera reviewing the file*), and it cannot govern an English noun phrase: that work belongs to English [in](01-core-in-on-at.md#in), a different and fully living word with its own entry in the core file.
+**Pattern:** examined *in situ* &middot; grown *in vitro* &middot; heard *in camera* &middot; tried *in absentia* &middot; a motion *in limine* &middot; proceedings *in rem*
+**Contrast:** English *in* and Latin *in* are the same ancient word arriving twice, but only the English one governs a noun phrase you choose for yourself; the Latin one is welded to its noun and quoted whole, exactly as [ad](#ad), [de](#de), [pro](#pro), and [sub](#sub) are. Learn the tags in pairs, because each is a fork in the road: *in vitro* (in glass, in a dish) against *in vivo* (in a living animal); *in rem* (against a thing, and good against the world) against *in personam* (against a person, and good only against that person); *in situ* (still in its original place) against *ex situ*. And mind the false friend: *in camera* means "in chambers," out of public view — the reverse of what "on camera" suggests to an American ear.
+**Variants:** the English prefix *in-* is a different element; [in re](10-topic-reference-role.md#in-re) has its own entry in the reference file; American style now sets *in vitro*, *in situ*, and *in absentia* roman rather than italic
+
+Latin "in, on, into." It never became a free preposition in English — English already had its own *in* — but the phrases it is locked inside are among the most-used Latin tags in American courtrooms and laboratories.
+
+**1. *In situ*, *in vitro*, *in vivo*: where a thing sits, or where a procedure happens.** The compound was screened *in vitro* first.
+**2. *In camera*: in the judge's chambers; out of public view.** The documents were reviewed *in camera*.
+**3. *In absentia*: with the person not present.** He was convicted *in absentia*.
+**4. *In rem* and *in personam*: against a thing; against a person.** Forfeiture is an action *in rem*.
+**5. *In limine*: at the threshold — of a motion made before trial to keep evidence out.** Counsel moved *in limine* to exclude the photographs.
+**6. *In loco parentis*: in the place of a parent.** The school stands *in loco parentis* on the trip.
+
+1. The tumor was still *in situ* and had not breached the wall of the colon.
+2. The compound was screened *in vitro* long before any animal work began.
+3. Results *in vivo* were far weaker than the cell-culture data had promised.
+4. The judge read the disputed memos *in camera* before ruling on privilege.
+5. He was tried and convicted *in absentia* and learned of the sentence from a newspaper.
+6. Her degree was conferred *in absentia*; she was already in Chile.
+7. Civil forfeiture is brought *in rem*, against the car itself rather than its owner.
+8. The court lacked *in personam* jurisdiction over the Nevada seller.
+9. Defense counsel filed a motion *in limine* to keep the prior conviction out of evidence.
+10. A boarding school stands *in loco parentis* while the term is running.
+
+**See also:** [ad](#ad), [de](#de), [sub](#sub), [in re](10-topic-reference-role.md#in-re), [in](01-core-in-on-at.md#in)
+
+### infra
+
+**Pronunciation:** /ˈɪnfrə/ &middot; *IN-fruh* &middot; no weak form: it is read as a quoted Latin tag, with a clear first vowel
+**Русский:** книжн., юр. ниже (по тексту) — отсылка вперёд, к ещё не сказанному
+**Type:** marginal (a Latin adverb standing before a citation reference) &middot; **Register:** scholarly and legal citation
+**Complement:** a reference to a place later in the same document — a note number, a part, a page range, a chapter — standing immediately after it: *infra note 40*, *infra Part III.B*. It cannot govern an ordinary noun phrase (✗ *infra the statute*; write *below, where the statute is discussed*), and it never takes a clause or a gerund. Used alone after a verb (*discussed infra*) it is a plain adverb with no object at all, and that is its commonest shape.
+**Pattern:** see *infra* [note / Part / pages] &middot; [proposition], discussed *infra* &middot; *infra* Chapter 4
+**Contrast:** The pair is [supra](#supra), earlier in this document, against *infra*, later in it — and neither ever points outside the document you are holding; for another work you use a short-form citation instead. American legal citation is stricter than it looks: the Bluebook allows *supra* and *infra* for books, articles, and legislative history, but not for cases, statutes, or constitutions, which take short forms and *id.* Scientific and general publishers have replaced both with *above* and *below*, and most American editors now prefer the English.
+**Variants:** *below* is the plain equivalent and the one modern American style prefers; *vide infra* ("see below") in older scholarship; *ut infra* ("as below") in older legal writing
+
+Latin "below." It points the reader down the page, or forward through the article, to something the writer has not said yet — a promise of proof rather than a citation of it.
+
+1. See *infra* note 42 and accompanying text.
+2. The point is developed *infra* Part III.
+3. That objection is taken up *infra*, at pages 118–24.
+4. *Infra* Chapter 6 collects the state statutes.
+5. The footnote reads simply "But see *infra* note 91."
+6. Journals ask authors to write *below* in the text and keep *infra* for the notes.
+7. A brief that cites a case *infra* has usually mis-cited it; the Bluebook wants a short form instead.
+
+**See also:** [supra](#supra), [cf.](#cf), [contra](#contra), [sub verbo](#sub-verbo), [apud](#apud)
+
 ### inter
 
 **Pronunciation:** /ˈɪntər/ &middot; flapped /ˈɪnər/ &middot; *IN-ter*
+**Русский:** лат. «между, среди» — inter alia «среди прочего», inter vivos, inter partes
 **Type:** simple (Latin) &middot; **Register:** legal and academic; not a free preposition in English
 **Complement:** only the Latin noun that the phrase fixes to it — *inter alia*, *inter se*, *inter vivos*, *inter partes*. It cannot govern an English noun phrase (✗ *inter the parties*; write *between the parties*), and it never takes a clause.
 **Pattern:** *inter alia* &middot; *inter se* &middot; an *inter vivos* [trust / gift / transfer] &middot; binding *inter partes*
 **Contrast:** The homograph *inter* meaning "to bury" is a different word with different stress — the verb is *in-TUR* /ɪnˈtɜr/ (*they interred him on Tuesday*), the Latin preposition *IN-ter*. Against [intra](#intra): *inter-* crosses between separate things, *intra-* stays inside one, and the entire reach of federal power in America has turned on the difference between *interstate* and *intrastate* commerce. The living English descendants are the prefix *inter-* and the preposition *between*.
-**Variants:** *inter-* as a productive English prefix (*interstate, international, interlock*); *inter alios* ("among other people," as against *inter alia*, "among other things")
+**Variants:** *inter-* as a productive English prefix (*interstate, international, interlock*); *inter alia* ("among other things") and *inter alios* ("among other people") are the two genders of one tag, and the neuter *inter alia* is the one an American reads daily
 
 Latin "between, among." English took the prefix and left the preposition, which now appears only inside a handful of legal tags — but those tags are common enough that any American who reads a court opinion meets *inter alia* within a page or two.
 
@@ -474,6 +712,7 @@ Latin "between, among." English took the prefix and left the preposition, which 
 ### intra
 
 **Pronunciation:** /ˈɪntrə/ &middot; *IN-truh*
+**Русский:** лат. «внутри» — intra vires «в пределах полномочий»; как приставка intra- «внутри-»
 **Type:** simple (Latin) &middot; **Register:** legal and technical; a prefix in English far more often than a preposition
 **Complement:** only the fixed Latin nouns *vires* and *muros*. It cannot govern an English noun phrase (✗ *intra the company*; write *within the company*), and it never takes a clause or a gerund. Everywhere else in English it is the bound prefix *intra-*.
 **Pattern:** *intra vires* &middot; *intra*-[noun] as a prefix (*intracompany, intrastate, intravenous, intramural*)
@@ -498,6 +737,7 @@ Latin "within, inside." It never became a free preposition in English at all; it
 ### mutatis mutandis
 
 **Pronunciation:** /mjuˈtɑtɪs mjuˈtɑndɪs/ &middot; also /mjuˈteɪtɪs mjuˈtændɪs/ &middot; *myoo-TAH-tis myoo-TAHN-dis*
+**Русский:** с необходимыми изменениями — юр., книжн.: правило переносится на новый случай
 **Type:** marginal (a Latin ablative absolute working as an adverbial) &middot; **Register:** legal and academic
 **Complement:** **none.** It takes no object at all. It modifies a whole clause — usually one saying that a rule applies somewhere new — and it is never followed by a noun phrase or a clause of its own. Where a target has to be named, the preposition doing that work is [to](02-core-relational.md#to): *applies mutatis mutandis to the Subsidiary*.
 **Pattern:** [clause], *mutatis mutandis*. &middot; [rule] applies *mutatis mutandis* to [noun phrase].
@@ -518,11 +758,12 @@ Latin for "the things that must be changed having been changed." It transplants 
 ### per
 
 **Pronunciation:** /pɜr/ &middot; weak /pər/ &middot; *PUR*
+**Русский:** за, на, с (каждого) — распределительное: per person «с человека»; согласно, по; посредством
 **Type:** simple (Latin, fully naturalized) &middot; **Register:** neutral in the distributive sense; business or formal in the "according to" sense
 **Complement:** in the distributive sense, a **bare singular count noun with no article** — *per person*, *per mile*, *per year*, never *per a person*. In the "according to" sense, a full noun phrase with a determiner is normal — *per the contract*, *per your email*. Never a finite clause (✗ *per we discussed*; write *per our discussion*), never a gerund.
 **Pattern:** [amount] *per* [unit] &middot; *Per* [noun phrase], [clause]. &middot; [clause] *per* [noun phrase] &middot; [Latin noun]: *per capita, per diem, per se, per stirpes*
 **Contrast:** The distributive *per* competes with the indefinite article — *sixty miles an hour*, *twice a week* — which is what Americans actually say; *per* is what the label, the invoice, and the speedometer print. In the "according to" sense it competes with [according to](11-complex-multiword.md#according-to) and [in accordance with](11-complex-multiword.md#in-accordance-with) and is the shortest of the three, though some readers still hear it as businessese. [As per](#as-per) is this same word with a redundant *as* bolted on. The clipped *per usual* is an American joke made out of *as per usual*.
-**Variants:** *a* / *an* is the everyday spoken equivalent in the distributive sense; *p.a.* abbreviates *per annum* on financial documents
+**Variants:** *a* / *an* is the everyday spoken equivalent in the distributive sense; *p.a.* abbreviates *per annum* on financial documents; the frozen Latin phrases built on it — *per se*, *per capita*, *per diem*, *per stirpes*, *per curiam* — take no object of their own, and *per procurationem* has an entry below
 
 The one Latin preposition that became ordinary English. Four senses, and they sit at very different heights of formality — the first is on every gas pump in the country, the fourth is in the probate code.
 
@@ -549,6 +790,7 @@ The one Latin preposition that became ordinary English. Four senses, and they si
 ### per annum
 
 **Pronunciation:** /pər ˈænəm/ &middot; rarely /pɜr ˈɑnəm/ &middot; *per-AN-um*
+**Русский:** в год, годовых — фин./юр. о ставке; дополнения не берёт, объект уже внутри
 **Type:** complex (frozen Latin adverbial) &middot; **Register:** formal, financial, and legal
 **Complement:** **none** — *annum* is already the object of *per*, so the phrase is complete. It attaches to a rate or an amount that comes before it and cannot govern anything of its own (✗ *per annum the loan*).
 **Pattern:** [rate or amount] *per annum* &middot; [amount] *per annum*, [clause] &middot; interest at [rate] *per annum*
@@ -566,14 +808,37 @@ Fixes a rate to an annual period, in the one register where the difference betwe
 
 **See also:** [per](#per), [as per](#as-per), [of](02-core-relational.md#of)
 
+### per procurationem
+
+**Pronunciation:** /pər ˌproʊkjʊræsiˈoʊnəm/ &middot; almost always said as the letters *p.p.* /ˌpi ˈpi/ &middot; *per-proh-kyoo-rah-see-OH-nem*
+**Русский:** по доверенности, за (p.p. перед подписью) — письмо подписано другим лицом
+**Type:** complex (Latin) &middot; **Register:** formal and commercial — signature blocks, correspondence, and older negotiable instruments
+**Complement:** the name of the principal on whose authority the signature is given — never a clause, never a gerund. It stands immediately before that name in the signature block, with the agent's own signature above or beside it.
+**Pattern:** [agent's signature] &middot; *p.p.* [name of the principal] &middot; signed *per pro* [firm name]
+**Contrast:** The Latin is "through the agency of," and the strict form is *agent signs, p.p. principal*: the abbreviation names the person who is bound, not the person holding the pen. Office practice on both sides of the Atlantic inverted it decades ago, so letters now go out as *p.p. [the assistant's name]*, and no one reads the abbreviation strictly any more. Distinguish [by and through](#by-and-through), the litigation formula that names the lawyer through whom a party appears, and [on behalf of](11-complex-multiword.md#on-behalf-of), the plain modern English that every American style guide recommends instead. Do not confuse it with *per curiam*, an opinion issued by the court as a body rather than by a named judge.
+**Variants:** *p.p.*, *pp.*, *per pro*, *per proc.* are the written forms; *for* and *on behalf of* are the plain replacements; *attorney-in-fact* names the underlying authority a *p.p.* signature claims
+
+Latin "by the agency of." An American meets it as the little *p.p.* typed beside a signature on a letter that its signer did not write, and on old bills of exchange accepted by a clerk.
+
+1. The letter went out *p.p.* the managing partner, who was in Geneva that week.
+2. Her assistant signed the acknowledgment *per pro* the department chair.
+3. Bills of exchange were once accepted *per procurationem* by a clerk holding written authority.
+4. A signature *p.p.* binds the principal only so far as the authority actually granted reaches.
+5. Bank forms still ask whether the signer executes in person or *per pro*.
+6. Plain-language guides say to drop the *p.p.* and type *for* before the principal's name.
+7. Anyone taking a bill signed *per procurationem* was on notice to ask what the agent's authority was.
+
+**See also:** [by and through](#by-and-through), [on behalf of](11-complex-multiword.md#on-behalf-of), [vice](#vice), [per](#per), [pro](#pro)
+
 ### pro
 
 **Pronunciation:** /proʊ/ &middot; *PROH*
+**Русский:** лат. «за, вместо» — pro bono, pro rata, pro tempore, pro forma, pro se, pro hac vice
 **Type:** simple (Latin) &middot; **Register:** legal and technical inside fixed phrases; the free word is an adverb or a noun, not a preposition
 **Complement:** only the Latin noun that the phrase fixes to it — *pro bono*, *pro rata*, *pro tempore*, *pro forma*, *pro se*, *pro hac vice*. It cannot govern an English noun phrase (✗ *pro the plaintiff*; write *for the plaintiff*), and it never takes a clause.
 **Pattern:** *pro bono* &middot; *pro rata* &middot; *pro se* &middot; *pro tem* &middot; *the pros and cons* (nouns, not prepositions)
 **Contrast:** Latin *pro* means "for, on behalf of, in proportion to" and is the *pro-* of *pronoun* and *proponent*; English [for](02-core-relational.md#for) took over its entire job, which is why the free preposition never survived. Against [contra](#contra), its Latin opposite, and note that the everyday pair is *pros and cons*, both of them nouns. Watch the American shortenings: *pro bono publico* is always cut to *pro bono*, *pro tempore* to *pro tem*, and *pro hac vice* is said *proh-hahk-VEE-chay* or *-VY-see* depending on where the speaker went to law school.
-**Variants:** *pro-* as an English prefix (*pro-rate, pro-forma* as adjectives); *pro tem* is the usual clipping of *pro tempore*
+**Variants:** *pro-* as an English prefix (*pro-rate, pro-forma* as adjectives); *pro tem* is the usual clipping of *pro tempore*; *pro tanto* ("to that extent") and *nunc pro tunc* ("now for then," of an order backdated to correct the record) are frozen adverbials that govern nothing
 
 A Latin "for" that never made it into free English but is preserved intact inside a set of phrases every American lawyer uses daily and every American voter has heard at least once. Six of them carry the whole word.
 
@@ -599,9 +864,57 @@ A Latin "for" that never made it into free English but is preserved intact insid
 
 **See also:** [contra](#contra), [ad](#ad), [for](02-core-relational.md#for), [ex parte](#ex-parte), [sine](#sine), [vice](#vice)
 
+### quoad
+
+**Pronunciation:** /ˈkwoʊæd/ &middot; also /ˈkwoʊɑd/ &middot; *KWOH-ad* &middot; no weak form: quoted Latin keeps its full vowels
+**Русский:** устар., юр. что касается, в отношении — quoad hoc «в этой части, применительно к этому»
+**Type:** simple (Latin) &middot; **Register:** legal, ecclesiastical, and academic; rare in American writing and archaic where it appears
+**Complement:** in modern use only the Latin noun fixed to it — *quoad hoc*, *quoad sacra*, *quoad omnia*, *quoad ultra*. Older English legal prose let it take an ordinary noun phrase (*quoad the plaintiff*), a use no longer current; it never takes a clause or a gerund.
+**Pattern:** true *quoad hoc* &middot; a parish *quoad sacra* (Scots ecclesiastical) &middot; *quoad ultra* denied (Scots pleading)
+**Contrast:** Latin "as to, so far as concerns." The living English is [as to](10-topic-reference-role.md#as-to) or [with respect to](10-topic-reference-role.md#with-respect-to), and an American brief will say "as to this point." The one phrase worth knowing is *quoad hoc*, which fences a proposition off to the single point at hand: a rule true *quoad hoc* is not true generally, and the concession dies the moment the facts change. Scottish practice keeps two more — a parish *quoad sacra* is erected for church purposes only and not for civil ones, and *quoad ultra* closes a pleading by denying everything not already admitted. It has nothing to do with the canon-law *quoad hunc* / *quoad hanc*, a finding about one particular spouse.
+**Variants:** *quoad hoc*, *quoad sacra*, *quoad omnia*, *quoad ultra* are the surviving phrases; *as to* and *as regards* are the modern English
+
+Latin "as far as, with respect to." English took *as to* and left *quoad* to the old reports, the Scottish church courts, and the occasional scholar reaching for a fence around a claim.
+
+1. The concession binds him *quoad hoc* and no further.
+2. The statute is preempted *quoad hoc*, though the rest of the scheme survives untouched.
+3. The chapel was erected as a parish *quoad sacra* in 1843.
+4. The defenses admit the contract and *quoad ultra* deny the pursuer's averments.
+5. Older reports say a release operates *quoad* the covenants only.
+6. A finding good *quoad omnia* would settle far more than this record can support.
+7. American courts write "as to this" and leave *quoad hoc* to the nineteenth-century reporters.
+
+**See also:** [as to](10-topic-reference-role.md#as-to), [with respect to](10-topic-reference-role.md#with-respect-to), [sensu](#sensu), [coram](#coram), [ad](#ad)
+
+### sensu
+
+**Pronunciation:** /ˈsɛnsu/ &middot; also /ˈsɛnsju/ &middot; *SEN-soo* &middot; no weak form: it is quoted Latin, spoken with care
+**Русский:** науч. «в смысле» — sensu stricto / sensu lato «в узком / широком смысле»
+**Type:** simple (a Latin ablative working as a preposition) &middot; **Register:** scientific — taxonomy and systematics above all; also scholarly prose
+**Complement:** either a fixed Latin adjective (*sensu stricto*, *sensu lato*, *sensu amplo*) or the name of the author whose usage is meant, normally with a year: *sensu Simpson 1945*. Never a clause, never a gerund, and it cannot govern an ordinary English noun phrase (✗ *sensu the definition above*; write *in the sense given above*).
+**Pattern:** [taxon] *sensu stricto* &middot; [taxon] *sensu lato* &middot; [taxon] *sensu* [author, year]
+**Contrast:** The pair carries the whole meaning: *sensu stricto* (s.s.) is the narrow circumscription of a name, *sensu lato* (s.l.) the broad one, so a genus *sensu lato* swallows what a genus *sensu stricto* leaves out. Adding an author's name instead says "as that author used the name," which is how a systematist cites a disputed circumscription without endorsing it. Keep it apart from [cf.](#cf), which flags doubt about identifying a specimen rather than disagreement about a definition, and from [apud](#apud), which reports where a text is preserved rather than what a name was taken to mean.
+**Variants:** *s.s.* and *s.l.* are the standard abbreviations; *sensu auctorum* ("in the sense of authors generally"); *sensu Smith non Jones* pins the usage to one author against another
+
+Latin "in the sense of." It exists because a name means different things in different hands, and a scientist who uses one has to say whose meaning he is borrowing.
+
+**1. With *stricto* or *lato*: in the narrow or the broad circumscription of a name.** Used *sensu stricto*, the family takes in three genera.
+**2. With an author's name: in the sense that author gave the term.** The specimens key out to Canis lupus *sensu* Nowak 1995.
+
+1. Aster *sensu lato* once held nearly every North American species now placed elsewhere.
+2. Used *sensu stricto* the family takes in three genera; *sensu lato*, more than forty.
+3. The specimens key out to Canis lupus *sensu* Nowak 1995.
+4. She uses "modernism" *sensu stricto*, meaning the years between 1910 and 1930.
+5. The name is applied here *sensu* Simpson, not *sensu* Gregory.
+6. Field guides give the species *sensu lato* and leave the arguments to the monographs.
+7. A record published *sensu* an author whose types were later lost is worth very little.
+
+**See also:** [cf.](#cf), [apud](#apud), [quoad](#quoad), [sub verbo](#sub-verbo), [per](#per)
+
 ### sine
 
 **Pronunciation:** /ˈsaɪni/ &middot; also /ˈsɪneɪ/ &middot; *SY-nee*
+**Русский:** лат. «без» — sine die «без назначения даты», sine qua non «непременное условие»
 **Type:** simple (Latin) &middot; **Register:** legal and academic; no free use in English
 **Complement:** only the Latin noun fixed to it — *sine die*, *sine qua non*, *sine prole*. It cannot take an English noun phrase (✗ *sine a date*; write *without a date*), and it never takes a clause.
 **Pattern:** adjourn *sine die* &middot; a *sine qua non* of [noun phrase] &middot; [name] died *sine prole*
@@ -627,11 +940,12 @@ Alive in exactly three phrases. *Sine die* ends a session with no return date fi
 ### sub
 
 **Pronunciation:** /sʌb/ &middot; weak /səb/ &middot; *SUB*
+**Русский:** лат. «под» — sub judice «в производстве суда», sub nomine, sub rosa «тайно»
 **Type:** simple (Latin) &middot; **Register:** legal and academic; a bound element and, far more often, an English prefix
 **Complement:** only the Latin noun fixed to it — *sub judice*, *sub silentio*, *sub nomine*, *sub rosa*, *sub modo*. It cannot govern an English noun phrase (✗ *sub the statute*; write *under the statute*), and it never takes a clause or a gerund. Everywhere else in English it is the bound prefix *sub-*.
 **Pattern:** a matter *sub judice* &middot; overruled *sub silentio* &middot; reported *sub nom.* [case name] &middot; kept *sub rosa*
 **Contrast:** Latin *sub* is "under," and English [under](04-movement-direction.md#under) took the entire job — which is why *hereunder* and *thereunder* are built on the English word and not on this one. In American citation *sub nom.* is the workhorse, marking a case that changed names on the way up — as happens whenever a suit against an official in his official capacity is decided under his successor's name. *Sub silentio* is a term of criticism: it says a court abandoned a holding without admitting it. *Sub rosa* has escaped law altogether and now just means "in secret." One transatlantic warning: *sub judice* in Britain names a real reporting restriction that bars comment on a pending case, while in the United States the First Amendment leaves commentators free, so an American who says a matter is *sub judice* is declining to comment, not citing a rule.
-**Variants:** *sub-* as a productive English prefix (*subcontract, sublease, subsidiary*); *sub nom.* is the standard citation abbreviation; *subpoena* is *sub poena*, "under penalty," fused into a single word
+**Variants:** *sub-* as a productive English prefix (*subcontract, sublease, subsidiary*); *sub nom.* is the standard citation abbreviation for *sub nomine* and governs the case name; *sub verbo* / *s.v.* has an entry of its own; *subpoena* is *sub poena*, "under penalty," fused into a single word
 
 Latin "under." English kept the prefix and kept *under*, and left the bare preposition to four courtroom and citation tags — one of which, *sub rosa*, has walked out of the courthouse into ordinary speech.
 
@@ -652,9 +966,54 @@ Latin "under." English kept the prefix and kept *under*, and left the bare prepo
 
 **See also:** [ad](#ad), [de](#de), [ultra](#ultra), [under](04-movement-direction.md#under), [hereunder](#hereunder)
 
+### sub verbo
+
+**Pronunciation:** /sʌb ˈvɜrboʊ/ &middot; nearly always cited as *s.v.* /ˌɛs ˈvi/ &middot; *sub-VUR-boh*
+**Русский:** библиогр. «под словом» — в словарной статье на такое-то слово; сокр. s.v.
+**Type:** complex (Latin) &middot; **Register:** scholarly citation — dictionaries, encyclopedias, and other alphabetically arranged reference works
+**Complement:** the headword being cited, normally in quotation marks: *s.v. "estoppel"*. Never a clause, never a gerund. Two or more headwords take the plural abbreviation *s.vv.*
+**Pattern:** [reference work], *s.v.* "[headword]" &middot; *sub verbo* [headword] &middot; *s.vv.* "[word]," "[word]"
+**Contrast:** The point of it is practical: a dictionary or encyclopedia repaginates with every edition, so you cite the entry rather than the page, and the reader finds it in any printing. The competing Latin is *sub voce*, "under the word," which means the same thing and shares the abbreviation. Distinguish the other *sub* tags — *sub nom.* points at a case name and *sub judice* at a pending matter (see [sub](#sub)) — and note the division of labor with [apud](#apud), which points at an author who preserves a text rather than at a word in a reference book.
+**Variants:** *s.v.* is the usual written form and *s.vv.* the plural; *sub voce* is the equally correct Latin behind the same abbreviation; *under* is the plain English replacement
+
+Latin "under the word." It is the citation form for anything arranged alphabetically, and the one Latin tag a humanities student uses before learning any of the others.
+
+1. *Oxford English Dictionary*, 3rd ed., *s.v.* "preposition."
+2. Black's Law Dictionary, 11th ed., *s.v.* "estoppel."
+3. The definition appears in Webster's Second, *s.v.* "gerund."
+4. See the Encyclopaedia Britannica, *s.v.* "Pelagianism," for the fuller history.
+5. Chicago style asks for *s.v.* rather than a page number in an alphabetically arranged work.
+6. The note cites two entries at once: *s.vv.* "tort," "trespass."
+7. Spelled out in full, the citation reads *sub verbo* "consideration," which almost nobody writes any more.
+
+**See also:** [sub](#sub), [supra](#supra), [cf.](#cf), [apud](#apud), [sensu](#sensu)
+
+### supra
+
+**Pronunciation:** /ˈsuprə/ &middot; older /ˈsjuprə/ &middot; *SOO-pruh* &middot; no weak form: it is read as a quoted Latin tag
+**Русский:** книжн., юр. выше (по тексту) — отсылка назад, к уже сказанному в этом же тексте
+**Type:** marginal (a Latin adverb standing before a citation reference) &middot; **Register:** scholarly and legal citation
+**Complement:** a reference to a place earlier in the same document — a note number, a part, a page — standing immediately after it, and in the Bluebook short form an author's name immediately before it: *Ackerman, supra note 14, at 22*. Never an ordinary noun phrase (✗ *supra the opinion*), never a clause, never a gerund. Standing alone after a verb (*as noted supra*) it is an adverb with no object at all.
+**Pattern:** [author], *supra* note [n], at [page] &middot; see *supra* Part II &middot; discussed *supra*
+**Contrast:** *Supra* points earlier in the document you are reading and [infra](#infra) later in it. American legal citation is strict about what it may point at: books, articles, and legislative history take *supra*, but cases, statutes, and constitutions take short forms and *id.* instead. And keep it apart from the objectless tags that share its footnote — *ibid.* and *id.* ("in the same place," the source just cited), *passim* ("scattered throughout," after a page range), *et seq.* ("and the following," after the first section of a run), and *op. cit.* None of those governs anything: they are adverbs, not prepositions, which is why none of them has an entry of its own here.
+**Variants:** *above* is the plain equivalent, and Chicago prefers it in humanities prose; *vide supra* ("see above") in older scholarship; *op. cit.* and *loc. cit.* are the older short forms that *supra* displaced in American style
+
+Latin "above." It sends the reader back to something already on the page, and in an American law review it is the commonest Latin word in the footnotes by a wide margin.
+
+1. Ackerman, *supra* note 14, at 22.
+2. See *supra* Part II.B for the full argument.
+3. The definition given *supra* controls throughout this Article.
+4. As noted *supra*, the agency never published the rule.
+5. *Supra* note 3 collects the conflicting circuit decisions.
+6. The Bluebook forbids *supra* for cases, so a short form does the work instead.
+7. Chicago style would rather you wrote "see above" than *supra* in the text.
+
+**See also:** [infra](#infra), [cf.](#cf), [contra](#contra), [sub verbo](#sub-verbo), [apud](#apud)
+
 ### ultra
 
 **Pronunciation:** /ˈʌltrə/ &middot; *UL-truh*
+**Русский:** лат. «сверх, за пределами» — ultra vires «с превышением полномочий»; ultra petita
 **Type:** simple (Latin) &middot; **Register:** legal; a prefix and a stand-alone adjective in English far more often than a preposition
 **Complement:** only the fixed Latin noun *vires* — and, in older writing, *petita*. It cannot govern an English noun phrase (✗ *ultra its powers*; write *beyond its powers*), and it never takes a clause or a gerund. As an English word *ultra* is either a prefix (*ultraviolet*) or an adjective meaning "extreme" (*an ultra position*), and neither of those is a preposition at all.
 **Pattern:** an act *ultra vires* &middot; the *ultra vires* [doctrine / defense] &middot; *ultra*-[adjective] as a prefix
@@ -681,6 +1040,7 @@ Latin "beyond, on the far side of." It reached English as a prefix and as a one-
 ### versus
 
 **Pronunciation:** /ˈvɜrsəs/ &middot; casual /ˈvɜrsəz/ &middot; *VUR-sus*
+**Русский:** против — юр. в названии дела; в спорте; в сравнении с, или (сокр. vs., v.)
 **Type:** simple (Latin, fully naturalized) &middot; **Register:** neutral; formal in legal citation
 **Complement:** noun phrase or gerund — never a finite clause (✗ *versus he stayed home*; write *versus his staying home*). Because it coordinates, the two sides should be the same kind of phrase: *speed versus accuracy*, *driving versus flying*.
 **Pattern:** [noun phrase] *versus* [noun phrase] &middot; [gerund] *versus* [gerund] &middot; [case name] *v.* [case name] &middot; [team] *vs.* [team]
@@ -707,6 +1067,7 @@ Latin "turned toward, against," from *vertere*. It is the most thoroughly natura
 ### vice
 
 **Pronunciation:** /ˈvaɪsi/ &middot; also /ˈvaɪs/ &middot; *VY-see*
+**Русский:** лат. вместо, на место (кого-то) — в списках назначений: сменяя такого-то
 **Type:** simple (Latin) &middot; **Register:** formal and official; rare, and now confined to military, diplomatic, and civil-service appointment notices
 **Complement:** a proper name or a title naming the predecessor — never a clause, never a gerund. It is always parenthetical, set off by commas, and it never begins a sentence.
 **Pattern:** [appointment], *vice* [name of the person replaced], [reason for the vacancy].
@@ -731,6 +1092,7 @@ Words that dropped out of English between Chaucer and the Civil War, plus the me
 ### afore
 
 **Pronunciation:** /əˈfɔr/ &middot; weak /əˈfɚ/ &middot; clipped /fɔr/, written *'fore* &middot; *uh-FOR*
+**Русский:** устар., диал. до, прежде (о времени); мор. впереди, ближе к носу судна
 **Type:** simple &middot; **Register:** archaic; surviving in nautical usage, in Southern and Appalachian speech, and inside frozen legal compounds
 **Complement:** noun phrase or a pronoun in the objective case (*afore me*). As a **conjunction** — a separate job — it takes a full finite clause (*afore he comes*), and that use is still heard in rural speech; the preposition itself never takes a clause.
 **Pattern:** *afore* [noun phrase] &middot; *afore the mast* (nautical) &middot; the *afore*[said / mentioned] [noun] (fused, no longer a preposition)
@@ -755,6 +1117,7 @@ Where an American meets it: hymns and the King James Bible, Twain and Hardy rend
 ### amidst
 
 **Pronunciation:** /əˈmɪdst/ &middot; *uh-MIDST*
+**Русский:** книжн. среди, посреди — вариант amid, чаще о шуме, обстановке, положении дел
 **Type:** compound (*a-* + *midst*) &middot; **Register:** literary; not archaic, but the marked member of its pair
 **Complement:** noun phrase — characteristically a mass noun, a plural, or an abstract noun. Never a finite clause (✗ *amidst he was speaking*; write *while he was speaking*), and never a bare gerund clause (✗ *amidst being questioned*) — though a deverbal noun with a determiner is perfectly normal, since it is a noun and not a verb form: *amidst the shouting*, *amidst the fighting*. It is a preposition only: unlike [o'er](#oer) it has no adverbial use and must have an object.
 **Pattern:** *Amidst* [noun phrase], [clause]. &middot; [clause] *amidst* [noun phrase]
@@ -778,6 +1141,7 @@ Places something inside a surrounding mass or a surrounding condition. The choic
 ### amongst
 
 **Pronunciation:** /əˈmʌŋst/ &middot; *uh-MUNGST*
+**Русский:** книжн., брит. среди, между — вариант among, о группе отдельных лиц
 **Type:** compound (*a-* + *mong* + a parasitic *-st*) &middot; **Register:** literary; in American prose it reads as an affectation
 **Complement:** a plural noun phrase, a collective noun, or a mass of individuals — never a singular count noun (✗ *amongst the tree*), never a clause, never a gerund. Pronoun objects take the objective case: *amongst us*, never ✗ *amongst we*. Like *among*, it is a preposition only — it has no adverbial life and cannot stand without an object, unlike [o'er](#oer) and [withal](#withal).
 **Pattern:** *Amongst* [plural noun phrase], [clause]. &middot; [clause] *amongst* [plural noun phrase] &middot; divided *amongst* [plural noun phrase]
@@ -802,6 +1166,7 @@ Puts something inside a plurality of separate individuals, without singling any 
 ### betwixt
 
 **Pronunciation:** /bɪˈtwɪkst/ &middot; *bih-TWIKST*
+**Русский:** устар. между; в застывшем betwixt and between — «ни то ни сё, ни рыба ни мясо»
 **Type:** compound &middot; **Register:** archaic; alive in American English inside one fixed phrase only
 **Complement:** two coordinated noun phrases joined by *and*, or one plural noun phrase — never a clause, never a gerund. In the fixed phrase *betwixt and between* it takes **no object at all** and is no longer a preposition.
 **Pattern:** *betwixt* [noun phrase] and [noun phrase] &middot; *betwixt* [plural noun phrase] &middot; *betwixt and between* (fixed adverbial, objectless)
@@ -822,9 +1187,32 @@ Where you meet it: Shakespeare, the King James Bible ("that there be no strife b
 
 **See also:** ['twixt](#twixt), [between](03-place-position.md#between), [amongst](#amongst), [inter](#inter)
 
+### fast by
+
+**Pronunciation:** /ˌfæst ˈbaɪ/ &middot; weak /ˌfæs ˈbaɪ/ &middot; the *t* drops between the consonants, as in *last night* &middot; *fast-BY*
+**Русский:** устар. вплотную к, у самого — fast здесь «крепко, вплотную», а не «быстро»
+**Type:** complex &middot; **Register:** archaic and literary — the King James Bible, Milton, ballads, and eighteenth-century topographical prose
+**Complement:** a noun phrase naming a place, a landmark, or a person — never a finite clause (✗ *fast by the river runs*), never a gerund (✗ *fast by crossing the ford*). The two words cannot be separated by a modifier (✗ *fast right by the gate*), and the object cannot be dropped: unlike [o'er](#oer) this phrase has no adverbial life.
+**Pattern:** [clause] *fast by* [place] &middot; *Fast by* [place], [clause].
+**Contrast:** The trap is the modern sense of *fast*. This is the *fast* of *hold fast* and *stuck fast* — firm, close, immovable — so *fast by the river* means "right at the river," never "quickly past it." Its surviving twin is *hard by*, the same construction with a different intensifier and the only member of the family a modern American ever meets; both were driven out by *close by*, *right beside*, and [beside](03-place-position.md#beside). Where a poet wanted the sense in fewer syllables he reached for [nigh unto](#nigh-unto) or bare *nigh* instead.
+**Variants:** *hard by* is the surviving twin and is treated in the place file; *fast beside* appears in some older texts; *close by* and *right by* are the plain modern words
+
+Where you meet it: Milton, whose invocation puts Siloa's brook *fast by* the oracle of God; the King James Bible; Bunyan; and the county histories of the eighteenth century, which used it the way a modern guidebook uses *just off*.
+
+1. The mill stood *fast by* the ford, and the road ran past its door.
+2. Milton's opening invocation places the brook *fast by* the oracle of God.
+3. They camped *fast by* the river and were gone before light.
+4. *Fast by* the churchyard wall there was a stone with no name on it.
+5. The cottage lay *fast by* the shore, close enough to hear the surf all night.
+6. Older county histories put the abbey *fast by* the bridge, where the parking lot is now.
+7. He kept his horse *fast by* the door in case the night went badly.
+
+**See also:** [nigh unto](#nigh-unto), [beside](03-place-position.md#beside), [near](03-place-position.md#near), [afore](#afore), [forby](#forby)
+
 ### forby
 
 **Pronunciation:** /fɔrˈbaɪ/ &middot; also /ˈfɔrbaɪ/ &middot; *for-BY*
+**Русский:** диал. (шотл.) кроме, вдобавок к; устар. мимо, вдоль
 **Type:** compound &middot; **Register:** archaic and regional — Scots and northern English; effectively unknown in America
 **Complement:** noun phrase — never a clause, never a gerund. In the "moreover" sense it stands alone as an **adverb** with no object, usually at the end of the clause.
 **Pattern:** *forby* [noun phrase] &middot; [clause], and [noun phrase] *forby*. (adverbial)
@@ -848,6 +1236,7 @@ Where you meet it: Burns, Scott, Stevenson, Hogg, and Hardy. That is the whole l
 ### 'gainst
 
 **Pronunciation:** /ɡɛnst/ &middot; also /ɡeɪnst/ &middot; *GENST*
+**Русский:** поэт. против, о — стяжённое against, апостроф отмечает пропущенный слог
 **Type:** simple (a clipped form of *against*) &middot; **Register:** poetic and archaic; it exists to save a syllable
 **Complement:** noun phrase or a pronoun in the objective case — never a clause, never a gerund. Identical to [against](04-movement-direction.md#against) in every respect except length, and like *against* it is a preposition only: it has none of the adverbial use that [o'er](#oer) keeps, so it can never stand without an object.
 **Pattern:** *'gainst* [noun phrase] — in verse, wherever the meter wants one syllable where *against* would give two.
@@ -868,6 +1257,7 @@ Where you meet it: Shakespeare, Milton, Keats, the metrical psalms, and the hymn
 ### maugre
 
 **Pronunciation:** /ˈmɔɡər/ &middot; also /ˈmɑɡər/ &middot; *MAW-gur*
+**Русский:** устар. несмотря на, вопреки — с оттенком вызова и презрения, «назло»
 **Type:** simple (from Old French *maugré*, "ill will") &middot; **Register:** archaic; dead in every register of modern American English
 **Complement:** noun phrase — never a clause, never a gerund. It cannot be strengthened by *of*: ✗ *maugre of his pride*.
 **Pattern:** *Maugre* [noun phrase], [clause]. &middot; [clause] *maugre* [noun phrase]
@@ -888,6 +1278,7 @@ Where you meet it: Chaucer, Spenser's *Faerie Queene*, and Shakespeare — Olivi
 ### midst
 
 **Pronunciation:** /mɪdst/ &middot; also /mɪtst/ &middot; *MIDST*
+**Русский:** поэт. посреди, среди; сущ. в оборотах in the midst of, in our midst «среди нас»
 **Type:** simple as a preposition; a noun in its ordinary modern use &middot; **Register:** poetic as a preposition; the noun inside *in the midst of* is ordinary formal English
 **Complement:** as a preposition, a noun phrase — never a clause, never a gerund. Note carefully that in the far commoner phrase *in the midst of*, *midst* is a **noun**, and *in* and *of* are the prepositions doing the work.
 **Pattern:** *midst* [noun phrase] (poetic) &middot; *in the midst of* [noun phrase] (the ordinary construction) &middot; in our / their *midst*
@@ -911,6 +1302,7 @@ Where you meet it: hymns, the Book of Common Prayer ("In the midst of life we ar
 ### neath
 
 **Pronunciation:** /niθ/ &middot; *NEETH*
+**Русский:** поэт. под — стяжённое beneath, только ради размера стиха
 **Type:** simple (a clipped form of *beneath*) &middot; **Register:** poetic and archaic — hymnbooks, nineteenth-century verse, and old college songs
 **Complement:** noun phrase — never a clause, never a gerund. It must have an object: unlike [o'er](#oer), it kept none of the adverbial use of its parent, so ✗ *the valley lay 'neath* is not English.
 **Pattern:** *'neath* [noun phrase] — in verse, wherever the meter wants one syllable where *beneath* would give two.
@@ -928,9 +1320,36 @@ Nothing but a shorter *beneath*. It has no meaning of its own, only a syllable c
 
 **See also:** [o'er](#oer), ['gainst](#gainst), [under](04-movement-direction.md#under), [midst](#midst)
 
+### nigh unto
+
+**Pronunciation:** /ˌnaɪ ˈʌntu/ &middot; weak /naɪ ˈʌntə/ &middot; *ny-UN-too*
+**Русский:** устар. близ, вплотную к — о месте, времени или состоянии: sick nigh unto death
+**Type:** complex (*nigh* + the archaic *unto*) &middot; **Register:** archaic and biblical; alive in American speech only as a deliberately folksy intensifier
+**Complement:** a noun phrase naming a place, a time, a state, or a quantity — *nigh unto death*, *nigh unto midnight*, *nigh unto fifty years*. Never a finite clause (✗ *nigh unto he died*), and a gerund after it is dialect at best (*nigh unto finishing the job* belongs to backcountry speech, not to writing). Before an adjective or a bare number (*nigh unto impossible*, *nigh unto sixty*) it means "almost," and there it is an intensifier rather than a preposition.
+**Pattern:** *nigh unto* [noun phrase] &middot; sick *nigh unto* death &middot; *nigh unto* [number or adjective] (intensifying)
+**Contrast:** *Nigh* is the old positive of *near* — *nigh, near, next* were once positive, comparative, and superlative of one word, which is why *near* still feels like a comparative — and [unto](04-movement-direction.md#unto) is the archaic *to* that the King James Bible preserved. Put together they mean "close to." Keep the two living descendants apart: [nigh](05-time.md#nigh) in *nigh on* and *nigh onto* hedges a stretch of time (*nigh on forty years*) and is treated in the time file, while *nigh unto* is the biblical form and reaches for proximity, condition, or degree. Modern prose says *near*, *close to*, or *almost*.
+**Variants:** bare *nigh* (*nigh the house*); *nigh on* and *nigh on to* are the commoner American forms for durations; *well-nigh* is the fossilized adverb; *anigh* and *anear* are the dialect relatives, which belong to the place file
+
+Where you meet it: the King James Bible — Epaphroditus was "sick nigh unto death" — hymnody, nineteenth-century sermons, and the folk register of the rural South and Midwest, where a speaker uses it knowing perfectly well that it is old.
+
+**1. Close to, in space or in time.** The old church stood *nigh unto* the crossroads.
+**2. Close to a state or condition — above all in the biblical *sick nigh unto death*.** He was sick *nigh unto* death for a week.
+**3. Almost — before a number or an adjective, in folksy American speech.** Getting a straight answer out of him is *nigh unto* impossible.
+
+1. He was sick *nigh unto* death and did not know anyone for a week.
+2. The old church stood *nigh unto* the crossroads, with the graveyard behind it.
+3. She has worked that farm *nigh unto* fifty years.
+4. The creek came up *nigh unto* the porch steps before it crested.
+5. Getting a straight answer out of him is *nigh unto* impossible.
+6. *Nigh unto* midnight the wind dropped and the rain came on.
+7. The old man was *nigh unto* ninety and still drove himself to church.
+
+**See also:** [nigh](05-time.md#nigh), [unto](04-movement-direction.md#unto), [fast by](#fast-by), [afore](#afore), [near](03-place-position.md#near)
+
 ### o'er
 
 **Pronunciation:** /ɔr/ &middot; also disyllabic /ˈoʊər/ &middot; *OR*
+**Русский:** поэт. над, через, по — стяжённое over, только ради размера стиха
 **Type:** simple (a contracted form of *over*) &middot; **Register:** poetic and archaic — and yet every American hears it several times a year
 **Complement:** noun phrase — never a clause, never a gerund. Like [over](04-movement-direction.md#over), it can also be an **adverb** with no object at all (*the battle o'er*), and in verse that objectless use is often postposed.
 **Pattern:** *o'er* [noun phrase] &middot; [noun phrase] *o'er* (adverbial, postposed in verse)
@@ -955,9 +1374,32 @@ Where you meet it: "O'er the ramparts we watched" and "O'er the land of the free
 
 **See also:** [over](04-movement-direction.md#over), [neath](#neath), ['gainst](#gainst), ['twixt](#twixt)
 
+### 'pon
+
+**Pronunciation:** /pɑn/ &middot; weak /pən/ &middot; *PAHN*
+**Русский:** поэт., диал. на — стяжённое upon; в божбе 'pon my word «честное слово»
+**Type:** simple (a clipped form of *upon*) &middot; **Register:** poetic, archaic, and dialectal — verse, ballads, oaths, and the represented speech of the rural South
+**Complement:** a noun phrase or an objective-case pronoun (*'pon it*, *'pon him*) — never a clause, never a gerund. It must have an object: unlike [o'er](#oer) it kept none of its parent's adverbial use, so ✗ *the lamp was set 'pon* is not English.
+**Pattern:** *'pon* [noun phrase] &middot; *'pon my word* / *'pon my soul* (fixed oaths, where the object is frozen in place)
+**Contrast:** Nothing but a shorter [upon](01-core-in-on-at.md#upon), which is itself an emphatic [on](01-core-in-on-at.md#on) — so the ordinary word is two syllables of history away. Its companions are the other metrical clippings, ['gainst](#gainst), ['neath](#neath), ['twixt](#twixt), and [o'er](#oer), and like them it exists to save a beat. Where a modern American has actually met it is the mild oath *'pon my word*, in stage-Victorian and stage-Southern dialogue, and there it is barely felt as a preposition at all.
+**Variants:** *'pon* with the apostrophe is the standard spelling; *pon* without it in later printings; *upon* is the full form; *'pon my word*, *'pon my soul*, and Regency *'pon rep* are the fixed oaths
+
+A contraction that lives on the same shelf as *o'er* and *'neath*: it says nothing that *upon* does not, and it says it in one syllable instead of two. Where it is not verse it is dialect, and in both places the shortening is the whole point.
+
+1. He laid his hand *'pon* the Book and swore.
+2. *'Pon* my word, I have never heard the like.
+3. A light came *'pon* the water and was gone again.
+4. She set the lamp *'pon* the sill for him to see from the road.
+5. *'Pon* my soul, the man has not changed in thirty years.
+6. The ballad has him ride *'pon* a milk-white steed.
+7. All that was left *'pon* the table was a note and a key.
+
+**See also:** [upon](01-core-in-on-at.md#upon), [on](01-core-in-on-at.md#on), [o'er](#oer), ['gainst](#gainst), [neath](#neath)
+
 ### sith
 
 **Pronunciation:** /sɪθ/ &middot; *SITH*
+**Русский:** устар. с тех пор как; поскольку, раз уж (причинное)
 **Type:** simple &middot; **Register:** archaic; extinct since about 1650
 **Complement:** as a preposition, a noun phrase naming a time (*sith that day*). It was far commoner as a **conjunction** taking a full finite clause (*sith you will not hear me*), and nearly every surviving example is of that kind. It never takes a gerund.
 **Pattern:** *sith* [noun phrase] (preposition) &middot; *sith* [clause] (conjunction — the usual case)
@@ -978,9 +1420,32 @@ Where you meet it: Shakespeare — Claudius asks the courtiers to stay "sith nor
 
 **See also:** [since](05-time.md#since), [ere](05-time.md#ere), [afore](#afore), [betwixt](#betwixt)
 
+### thorough
+
+**Pronunciation:** /ˈθʌroʊ/ &middot; weak /ˈθʌrə/ &middot; *THUR-oh*
+**Русский:** устар. (шексп.) сквозь, через — старший двойник through; след в слове thoroughfare
+**Type:** simple (the older two-syllable form of *through*) &middot; **Register:** archaic; dead as a preposition since the seventeenth century, and now a homograph of the ordinary adjective
+**Complement:** a noun phrase — never a clause, never a gerund. Note what the modern word does instead: *thorough* today is an adjective (*a thorough search*) and takes no object at all, which is exactly why the preposition is unusable — a modern reader meets it, takes it for the adjective, and the sentence collapses.
+**Pattern:** *thorough* [noun phrase] (archaic) &middot; *thorough*-[noun] in the fused survivals (*thoroughfare*, *thoroughbred*)
+**Contrast:** [Through](04-movement-direction.md#through) and *thorough* are one Old English word, *þurh*, that split on the number of syllables: the short form kept the prepositional job, and the long form drifted into the adjective meaning "carried all the way through," hence "complete." Shakespeare still has the preposition — the fairy in *A Midsummer Night's Dream* goes "Thorough bush, thorough brier" — and it dies out with his generation. What is left is the fossil inside *thoroughfare*, a way that goes all the way through, along with *thoroughbred* and *thoroughgoing*, and the political nickname *Thorough* for Strafford's policy under Charles I.
+**Variants:** *through* is the modern preposition; *thro'* and *thru* are respellings of *through*, not of this word; *thoroughfare*, *thoroughbred*, *thoroughgoing* are the fused survivals
+
+Where you meet it: Shakespeare and his contemporaries, the metrical psalms, and the occasional Tudor statute. Nowhere later, and never in a modern sentence — the adjective has taken the spelling over completely.
+
+1. "*Thorough* bush, *thorough* brier," says the fairy, meaning through both of them.
+2. They rode *thorough* the wood and out at the far side of it.
+3. The old statute speaks of goods carried *thorough* the realm.
+4. *Thorough* frost and fire the pilgrims went.
+5. A thoroughfare is simply a way *thorough* — a road that goes all the way out the other end.
+6. Editors who modernize the spelling to *through* lose the extra syllable the line was built on.
+7. Strafford's policy took its nickname from the word: *Thorough*, meaning carried all the way.
+
+**See also:** [through](04-movement-direction.md#through), [o'er](#oer), [neath](#neath), [afore](#afore), ['twixt](#twixt)
+
 ### 'twixt
 
 **Pronunciation:** /twɪkst/ &middot; *TWIKST*
+**Русский:** поэт. между — стяжённое betwixt, только ради размера стиха
 **Type:** compound (clipped from *betwixt*) &middot; **Register:** poetic and archaic
 **Complement:** two coordinated noun phrases joined by *and*, or one plural noun phrase — never a clause, never a gerund.
 **Pattern:** *'twixt* [noun phrase] and [noun phrase] &middot; *'twixt* [plural noun phrase]
@@ -1001,6 +1466,7 @@ Where you meet it: two proverbs — *'twixt the devil and the deep blue sea* and
 ### withal
 
 **Pronunciation:** /wɪˈðɔl/ &middot; also /wɪˈθɔl/ &middot; *with-AWL*
+**Русский:** устар. с (постпозитивный предлог, объект назван раньше); к тому же; тем не менее
 **Type:** postpositive as a preposition; adverb in its commoner use &middot; **Register:** archaic and literary
 **Complement:** **its object comes first and is separated from it.** *Withal* is a stranded [with](02-core-relational.md#with) whose object has already appeared earlier in the clause: *the tools he worked withal* means "the tools he worked with." It can never be followed by a noun phrase (✗ *withal a knife*) and never takes a clause. In the adverbial use it has no object at all.
 **Pattern:** [noun phrase] ... *withal* (postpositive preposition) &middot; [clause], [adjective] *withal* (adverb) &middot; *withal*, [clause] (adverb, sentence-initial)
@@ -1027,6 +1493,7 @@ A survival of the Old English habit of letting a preposition follow its object. 
 ### without (= outside)
 
 **Pronunciation:** /wɪˈðaʊt/ &middot; also /wɪˈθaʊt/ &middot; weak /wəˈðaʊt/ &middot; *with-OUT*
+**Русский:** устар. вне, снаружи, за пределами — утраченный смысл, противоположность within
 **Type:** compound &middot; **Register:** archaic and literary; alive in one legal collocation
 **Complement:** a noun phrase naming a place or a boundary — never a clause, never a gerund. It also occurs as an **adverb** with no object at all, chiefly as a stage direction (*a noise without*). This is a different sense from the everyday privative *without*, which has its own entry.
 **Pattern:** *without* [place or boundary] &middot; within and *without* [noun phrase] (the surviving legal pair) &middot; [noise / knocking] *without* (adverbial stage direction)

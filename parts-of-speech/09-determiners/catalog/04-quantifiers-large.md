@@ -21,6 +21,7 @@ One note on scope, since every determiner has exactly one home in this catalog. 
 ### many
 
 **Pronunciation:** /ˈmɛni/ &middot; *MEN-ee*
+**Русский:** много, многие — только с исчисляемыми во мн. ч.; с неисчисляемыми нужно much
 **Type:** quantifier &middot; **Position:** central when it opens the noun phrase (*many people*); **postdeterminer** after a central determiner (*the many problems*, *her many friends*, *these many years*) &middot; **Register:** neutral — the standard written form; in plain affirmative speech Americans usually reach for *a lot of*
 **Goes with:** plural countable nouns only — *many people*, *many reasons*, *many times*. Never an uncountable noun (✗ *many information*, ✗ *many money*, ✗ *many advice* — use *much* or *a lot of*) and never a singular countable noun (✗ *many reason*). The single exception is the fixed frame *many a* + singular noun, which has its own entry below.
 **With *of*:** *of* is **required** before another determiner or a pronoun — *many of the students*, *many of my friends*, *many of them*. Never ✗ *many the students*. No *of* before a bare plural: *many students*.
@@ -44,6 +45,7 @@ Marks a large but unspecified number of countable things.
 ### many a
 
 **Pronunciation:** /ˈmɛni ə/ &middot; *MEN-ee uh* &middot; the *a* keeps its weak /ə/ and never takes stress here
+**Русский:** не один, многие — книжн./устар.: большое число, но существительное в ед. числе
 **Type:** quantifier &middot; **Position:** predeterminer — the article *a* is locked inside the phrase, so no other determiner can appear: ✗ *many a the student* &middot; **Register:** formal, literary, or deliberately old-fashioned; alive in proverbs, sermons, and sports commentary
 **Goes with:** **singular** countable nouns only — *many a time*, *many a young writer*, *many a night*. Never a plural noun (✗ *many a times*) and never an uncountable noun (✗ *many a money*). This is the one corner of English where *many* takes a singular, and the singular runs through the whole clause: *Many a student **has** asked that question*, never ✗ *have asked*.
 **With *of*:** never takes an *of*-phrase — ✗ *many a of the students*. Before a vowel sound the article changes as usual: *many an evening*. The only *of*-adjacent form is the archaic pronoun *many a one*.
@@ -65,6 +67,7 @@ Names a large number of countable things while treating them grammatically one a
 ### more
 
 **Pronunciation:** /mɔr/ &middot; *MOR*
+**Русский:** больше, ещё — сравнительная степень much и many
 **Type:** quantifier, comparative &middot; **Position:** central when it opens the noun phrase (*more time*); **postdeterminer** after a determiner or a numeral (*some more coffee*, *no more excuses*, *two more days*, *many more people*) &middot; **Register:** neutral
 **Goes with:** **both** plural countable nouns (*more chairs*, *more people*) **and** uncountable nouns (*more time*, *more money*). This is what makes it easy: *more* is the comparative of both *many* and *much*, so it is one of the few quantifiers here that never asks you to decide countability. It does not take a bare singular countable noun (✗ *more chair*).
 **With *of*:** *of* is **required** before another determiner or a pronoun — *more of the cake*, *more of my time*, *more of them*. Never ✗ *more the cake*. No *of* before a bare noun: *more cake*.
@@ -87,6 +90,7 @@ Names a larger number or amount than something else — than a stated comparison
 ### most
 
 **Pronunciation:** /moʊst/ &middot; *MOHST*
+**Русский:** большинство, большая часть — больше половины
 **Type:** quantifier, superlative &middot; **Position:** central when it opens the noun phrase (*most people*); after *the* it forms the superlative of quantity (*the most points*) &middot; **Register:** neutral
 **Goes with:** **both** plural countable nouns (*most people*, *most cities*) **and** uncountable nouns (*most information*, *most traffic*). It does not take a bare singular countable noun (✗ *most city*), though *most of the city* is fine, because *of* reattaches it to an already-determined phrase.
 **With *of*:** **required** before another determiner or a pronoun — *most of the students*, *most of my time*, *most of them*. ✗ *most the students* is not standard written English. No *of* before a bare noun: *most people*.
@@ -108,6 +112,7 @@ Names the majority — more than half, and usually a good deal more than half. B
 ### much
 
 **Pronunciation:** /mʌtʃ/ &middot; *MUCH*
+**Русский:** много — только с неисчисляемыми; в утверждении звучит книжно, в речи a lot of
 **Type:** quantifier &middot; **Position:** central — it opens the noun phrase (*much time*); the identical degree adverb is a different animal (*much better*, *thanks very much*) &middot; **Register:** neutral in questions and negatives; in a plain affirmative statement it is formal enough to sound stilted in American speech
 **Goes with:** uncountable nouns only — *much time*, *much money*, *much information*. Never a plural countable noun (✗ *much books*, ✗ *much people* — use *many*) and never a singular countable noun (✗ *much book*).
 **With *of*:** *of* is **required** before another determiner or a pronoun — *much of the report*, *much of my time*, *much of it*. Never ✗ *much the report*. Bare *much* takes no *of* before a bare noun: *much time*.
@@ -133,6 +138,7 @@ These are the phrases that actually carry large quantity in American conversatio
 ### a bunch of
 
 **Pronunciation:** /ə ˈbʌntʃ əv/ &middot; *uh BUNCH uhv* &middot; casually /ə ˈbʌntʃə/, "a buncha"
+**Русский:** куча, полно — разг.: много чего угодно, без оценки размера
 **Type:** quantifier (partitive phrase) &middot; **Position:** central — the whole phrase fills the determiner slot &middot; **Register:** informal American; everywhere in speech, out of place in formal writing
 **Goes with:** plural countable nouns (*a bunch of people*, *a bunch of emails*) and, in casual American speech, uncountable nouns as well (*a bunch of money*, *a bunch of work*, *a bunch of time*). The literal use is a different thing: *a bunch of grapes*, *a bunch of keys*, *a bunch of flowers* name a physical cluster, and there *bunch* is an ordinary head noun — the giveaway is that it pluralizes and takes its own modifiers (*three big bunches of grapes*), which the quantifier never does.
 **With *of*:** *of* is obligatory and welded to the phrase — ✗ *a bunch people*. Nothing changes before another determiner or a pronoun: *a bunch of the emails*, *a bunch of them*.
@@ -154,6 +160,7 @@ Names a large, uncounted quantity in casual speech — the conversational equiva
 ### a lot of
 
 **Pronunciation:** /ə ˈlɑt əv/ &middot; *uh LOT uhv* &middot; in ordinary speech the *t* flaps and *of* reduces to /ə/: /ə ˈlɑɾə/, "a lotta"
+**Русский:** много — нейтральный универсал: и с исчисляемыми, и с неисчисляемыми
 **Type:** quantifier (partitive phrase) &middot; **Position:** central &middot; **Register:** neutral to informal — the default in American speech and in most everyday writing; formal prose prefers *much*, *many*, *a great deal of*, or *a large number of*
 **Goes with:** **both** plural countable nouns (*a lot of people*) **and** uncountable nouns (*a lot of money*). That coverage is the whole reason it took over the spoken language: it spares the speaker the *much/many* decision. Not used with a bare singular countable noun (✗ *a lot of chair*).
 **With *of*:** *of* is obligatory before a noun and cannot be dropped — ✗ *a lot people*. It stays put before another determiner or a pronoun: *a lot of the money*, *a lot of them*. Bare *a lot* with no *of* is either a pronoun (*I have a lot*) or an adverb (*It helped a lot*, *a lot better*).
@@ -175,6 +182,7 @@ Names a large quantity of anything, countable or not, without measuring it. It i
 ### lots of
 
 **Pronunciation:** /ˈlɑts əv/ &middot; *LOTS uhv* &middot; casually /ˈlɑtsə/
+**Русский:** много, полно — разг., чуть проще и теплее, чем a lot of
 **Type:** quantifier (partitive phrase) &middot; **Position:** central &middot; **Register:** informal and conversational — a step more casual than *a lot of*, and the form adults use talking to children
 **Goes with:** **both** plural countable nouns (*lots of friends*) **and** uncountable nouns (*lots of sugar*). Never a bare singular countable noun (✗ *lots of chair*).
 **With *of*:** *of* is obligatory before a noun — ✗ *lots people*. It stays before another determiner or a pronoun: *lots of the candy*, *lots of them*. Bare *lots* is a pronoun (*We have lots*).
@@ -196,6 +204,7 @@ A casual, warm-toned *a lot of*. It reports a big quantity and makes no attempt 
 ### plenty of
 
 **Pronunciation:** /ˈplɛnti əv/ &middot; *PLEN-tee uhv* &middot; the *nt* commonly reduces in American speech: /ˈplɛni ə/, "plenny a"
+**Русский:** полно, вдоволь — много и притом достаточно, с запасом
 **Type:** quantifier (partitive phrase) &middot; **Position:** central &middot; **Register:** neutral to informal; usable almost anywhere short of a legal brief
 **Goes with:** **both** plural countable nouns (*plenty of chairs*, *plenty of reasons*) **and** uncountable nouns (*plenty of room*, *plenty of time*). Never a bare singular countable noun (✗ *plenty of chair*).
 **With *of*:** *of* is obligatory before a noun — ✗ *plenty chairs*. Bare *plenty* is a pronoun (*We have plenty*) or, in casual American speech, an adverb meaning "quite" (*plenty big*, *plenty warm enough*).
@@ -217,6 +226,7 @@ Marks a quantity that is large and, more to the point, sufficient — as much as
 ### quite a lot of
 
 **Pronunciation:** /ˌkwaɪt ə ˈlɑt əv/ &middot; *kwyt uh LOT uhv*
+**Русский:** довольно много — заметно большое количество, с лёгким удивлением
 **Type:** quantifier (partitive phrase) &middot; **Position:** central &middot; **Register:** neutral to informal; a shade more measured and more British-sounding than plain *a lot of*
 **Goes with:** **both** plural countable nouns (*quite a lot of people*) **and** uncountable nouns (*quite a lot of money*). Never a bare singular countable noun.
 **With *of*:** *of* is obligatory before a noun — ✗ *quite a lot people*. Bare *quite a lot* is a pronoun (*She's read quite a lot*) or an adverb (*It helped quite a lot*).
@@ -242,6 +252,7 @@ Almost everything in this section takes uncountable nouns, and this is where the
 ### a body of
 
 **Pronunciation:** /ə ˈbɑdi əv/ &middot; *uh BOD-ee uhv* &middot; the article is the weak /ə/ and *of* reduces to /ə/ in ordinary speech: /ə ˈbɑdi ə/
+**Русский:** свод, корпус — большой связный массив данных, знаний, работ
 **Type:** quantifier (partitive phrase) &middot; **Position:** central &middot; **Register:** neutral to formal; standard in academic, legal, and journalistic prose
 **Goes with:** uncountable abstract nouns that name something accumulated — *a body of evidence*, *a body of work*, *a body of research*, *a body of law*, *a body of knowledge*, *a body of literature*. It reaches a plural only when the plural is itself being treated as one collection (*a body of laws*, *a body of texts*); ordinary countable plurals are out (✗ *a body of chairs*, ✗ *a body of emails*), and so are physical substances (✗ *a body of sugar*). The literal senses are a different word: *a body of water* is a geographic term and *a body of troops* an older military one, and in both *body* is a real head noun that pluralizes freely — *two bodies of water*.
 **With *of*:** *of* is obligatory — ✗ *a body evidence*. It stays before another determiner: *a body of the case law that predates the statute*.
@@ -263,6 +274,7 @@ Names a large, accumulated, coherent mass of evidence, work, or knowledge — qu
 ### a deal of
 
 **Pronunciation:** /ə ˈdil əv/ &middot; *uh DEEL uhv* &middot; the article is the weak /ə/, never /eɪ/, and *of* reduces to /əv/ or a bare /ə/
+**Русский:** изрядно, немало — устар./диал., голый предок a good deal of
 **Type:** quantifier (partitive phrase) &middot; **Position:** central &middot; **Register:** **archaic and dialectal**. The bare form dropped out of standard American English in the nineteenth century and survives now only in period prose, in reported country speech, and in British and Irish dialect. With an adjective wedged in, the same phrase is perfectly current: *a good deal of*, *a great deal of*
 **Goes with:** uncountable nouns — *a deal of trouble*, *a deal of money*, *a deal of talk*. Never a plural countable noun: ✗ *a deal of people*, ✗ *a deal of reasons*. Never a bare singular countable noun.
 **With *of*:** *of* is obligatory — ✗ *a deal trouble*. It stays before another determiner: *a deal of the money was gone*.
@@ -284,6 +296,7 @@ The bare ancestor of *a good deal of* — a large amount of something uncountabl
 ### a fair amount of
 
 **Pronunciation:** /ə ˌfɛr əˈmaʊnt əv/ &middot; *uh fair uh-MOWNT uhv*
+**Русский:** довольно много, порядочно — немало, но без изумления
 **Type:** quantifier (partitive phrase) &middot; **Position:** central &middot; **Register:** neutral; common in speech and in unfussy writing
 **Goes with:** uncountable nouns — *a fair amount of money*, *a fair amount of work*, *a fair amount of rain*. For countable things the parallel phrase is *a fair number of* — *a fair number of people*, never ✗ *a fair amount of people* in careful writing.
 **With *of*:** *of* is obligatory — ✗ *a fair amount money*. It stays before another determiner: *a fair amount of the budget*, *a fair amount of it*.
@@ -305,6 +318,7 @@ Names a quantity that is respectably large without being remarkable — more tha
 ### a good deal of
 
 **Pronunciation:** /ə ˌɡʊd ˈdil əv/ &middot; *uh good DEEL uhv*
+**Русский:** немало, изрядно — существенное количество неисчисляемого
 **Type:** quantifier (partitive phrase) &middot; **Position:** central &middot; **Register:** neutral, leaning slightly formal or writerly
 **Goes with:** **uncountable nouns only** — *a good deal of money*, *a good deal of trouble*, *a good deal of attention*. Never a plural countable noun: ✗ *a good deal of people*, ✗ *a good deal of problems*. The countable partner is *a good many*, which takes a plural noun and no *of*.
 **With *of*:** *of* is obligatory — ✗ *a good deal money*. It stays before another determiner or a pronoun: *a good deal of the money*, *a good deal of it*.
@@ -326,6 +340,7 @@ Names a substantial amount of something uncountable, presented as worth noticing
 ### a great deal of
 
 **Pronunciation:** /ə ˌɡreɪt ˈdil əv/ &middot; *uh grayt DEEL uhv*
+**Русский:** очень много, весьма значительное количество — книжн., с неисчисляемыми
 **Type:** quantifier (partitive phrase) &middot; **Position:** central &middot; **Register:** neutral to formal — the standard written phrase where speech would say *a lot of*
 **Goes with:** **uncountable nouns only** — *a great deal of money*, *a great deal of evidence*, *a great deal of effort*. Never a plural countable noun: ✗ *a great deal of people*, ✗ *a great deal of studies*. The countable partner is *a great many*.
 **With *of*:** *of* is obligatory — ✗ *a great deal money*. It stays before another determiner or a pronoun: *a great deal of the evidence*, *a great deal of it*.
@@ -347,6 +362,7 @@ Names a large amount of something uncountable. In edited American prose it is th
 ### a large amount of
 
 **Pronunciation:** /ə ˌlɑrdʒ əˈmaʊnt əv/ &middot; *uh larj uh-MOWNT uhv*
+**Русский:** большое количество — с неисчисляемыми; книжн. и деловой стиль
 **Type:** quantifier (partitive phrase) &middot; **Position:** central &middot; **Register:** neutral to formal; standard in reports, science writing, and journalism
 **Goes with:** **uncountable nouns only** — *a large amount of money*, *a large amount of data*, *a large amount of water*. Never a plural countable noun: ✗ *a large amount of people*, ✗ *a large amount of errors*. The countable phrase is *a large number of*. Two nouns cause trouble here because they feel plural but are grammatically uncountable in English — *data* and *traffic* — so *a large amount of data* is correct.
 **With *of*:** *of* is obligatory — ✗ *a large amount money*. It stays before another determiner or a pronoun: *a large amount of the funding*, *a large amount of it*.
@@ -368,6 +384,7 @@ Names a large measured quantity of something uncountable. The adjective is freel
 ### a wealth of
 
 **Pronunciation:** /ə ˈwɛlθ əv/ &middot; *uh WELTH uhv*
+**Русский:** богатство, изобилие — много и притом ценного, с одобрением
 **Type:** quantifier (partitive phrase) &middot; **Position:** central &middot; **Register:** neutral to formal; a favorite of book jackets and job applications
 **Goes with:** uncountable nouns (*a wealth of experience*, *a wealth of detail*, *a wealth of information*) and plural countable nouns (*a wealth of options*, *a wealth of resources*). Never a bare singular countable noun.
 **With *of*:** *of* is obligatory — ✗ *a wealth information*. It stays before another determiner: *a wealth of the material we collected*.
@@ -389,6 +406,7 @@ Names a large and valuable supply of something — the size of the quantity and 
 ### an excess of
 
 **Pronunciation:** /ən ɪkˈsɛs əv/ &middot; *uhn ik-SESS uhv* &middot; the article is the weak /ən/; the noun keeps its stress on the second syllable, while the attributive adjective in *excess baggage* moves it to the first, /ˈɛksɛs/
+**Русский:** избыток, излишек — больше, чем следует
 **Type:** quantifier (partitive phrase) &middot; **Position:** central &middot; **Register:** neutral to formal; common in medicine, finance, statistics, and careful prose
 **Goes with:** uncountable nouns above all — *an excess of caution*, *an excess of zeal*, *an excess of moisture*, *an excess of enthusiasm*. It takes a plural countable noun when the count is being measured against an expected figure, which is the statistical use — *an excess of deaths over the seasonal average*, *an excess of applications*. Never a bare singular countable noun: ✗ *an excess of chair*.
 **With *of*:** *of* is obligatory — ✗ *an excess caution*. Do not confuse it with the approximator *in excess of*, which attaches to a number and means "more than" (*in excess of $2 million*); that one is homed with the [numerals](07-numerals-multipliers.md#upwards-of-in-excess-of).
@@ -410,6 +428,7 @@ Names a quantity past the right one — large, and larger than it should be.
 ### any amount of
 
 **Pronunciation:** /ˌɛni əˈmaʊnt əv/ &middot; *en-ee uh-MOWNT uhv*
+**Русский:** сколько угодно — неограниченно много, говорящий не считает
 **Type:** quantifier (partitive phrase) &middot; **Position:** central &middot; **Register:** neutral
 **Goes with:** uncountable nouns — *any amount of money*, *any amount of time*, *any amount of trouble*. The countable partner is *any number of* — *any number of reasons* — and in American English that one is far the more common of the two.
 **With *of*:** *of* is obligatory — ✗ *any amount money*. Before another determiner it holds: *any amount of the profit*.
@@ -431,6 +450,7 @@ Names an unlimited or indefinitely large amount — "as much as it takes, and th
 ### quite a bit of
 
 **Pronunciation:** /ˌkwaɪt ə ˈbɪt əv/ &middot; *kwyt uh BIT uhv* &middot; both little words are weak — *a* /ə/ and *of* /əv/, and in ordinary speech the *t* flaps and *of* reduces: /ˌkwaɪt ə ˈbɪɾə/, "quite a bidda"
+**Русский:** порядочно, немало — разг., с неисчисляемыми: больше, чем кажется
 **Type:** quantifier (partitive phrase) &middot; **Position:** central &middot; **Register:** neutral to informal; very common in American speech and unremarkable in ordinary writing
 **Goes with:** **uncountable nouns only** — *quite a bit of money*, *quite a bit of time*, *quite a bit of work*. Never a plural countable noun (✗ *quite a bit of people*, ✗ *quite a bit of reasons* — the countable phrase is *quite a few*) and never a bare singular countable noun (✗ *quite a bit of chair*).
 **With *of*:** *of* is obligatory and welded to the phrase — ✗ *quite a bit money*. It stays before another determiner or a pronoun: *quite a bit of the money*, *quite a bit of it*. Bare *quite a bit* with no *of* is either a pronoun (*She knows quite a bit*) or an adverb (*It helped quite a bit*, *quite a bit better*).
@@ -451,11 +471,12 @@ Names a large amount of something uncountable, with the speaker mildly registeri
 
 ## Large numbers of countable things
 
-Everything here takes a plural countable noun, and most of them take nothing else — feed *a large number of*, *a good many*, or *quite a few* an uncountable noun and the sentence breaks. A few entries carry a documented exception and say so in their own **Goes with** line: *a majority of* reaches a singular mass that names a share (*a majority of the vote*); *a multitude of* and *a plethora of* admit an uncountable in elevated or technical style; and *a wave of* takes an abstract mass naming a feeling that arrives all at once (*a wave of relief*). Three others restrict the **kind** of plural they will accept rather than admitting more — *a bevy of*, *droves of*, and *hordes of* count people and animals and sound wrong applied to objects. Two further rules run through the section. The *number* phrases mirror the *amount* phrases exactly (*a large number of errors* against *a large amount of data*), and the numeral phrases obey one fixed alternation: **after a number the word is singular with no *of*** (*two dozen eggs*, *three hundred people*), but **standing alone as a quantifier it is plural and requires *of*** (*dozens of eggs*, *hundreds of people*).
+Everything here takes a plural countable noun, and most of them take nothing else — feed *a large number of*, *a good many*, or *quite a few* an uncountable noun and the sentence breaks. A few entries carry a documented exception and say so in their own **Goes with** line: *a majority of* reaches a singular mass that names a share (*a majority of the vote*); *a multitude of* and *a plethora of* admit an uncountable in elevated or technical style; and *a wave of* takes an abstract mass naming a feeling that arrives all at once (*a wave of relief*). Three others restrict the **kind** of plural they will accept rather than admitting more — *a bevy of*, *droves of*, and *hordes of* count people and animals and sound wrong applied to objects. Two further rules run through the section. The *number* phrases mirror the *amount* phrases exactly (*a large number of errors* against *a large amount of data*), and the numeral phrases obey one fixed alternation: ✗ *after a number the word is singular with no *of*** (*two dozen eggs*, *three hundred people*), but ✗ *standing alone as a quantifier it is plural and requires *of*** (*dozens of eggs*, *hundreds of people*).
 
 ### a bevy of
 
 **Pronunciation:** /ə ˈbɛvi əv/ &middot; *uh BEV-ee uhv*
+**Русский:** стайка, целая группа — журн., о группе людей или живых существ
 **Type:** quantifier (partitive phrase) &middot; **Position:** central &middot; **Register:** informal to journalistic and faintly jocular — a headline and society-page word. Applied to women (*a bevy of beauties*) it is dated and now reads as leering, which is worth knowing before anyone uses it that way
 **Goes with:** plural countable nouns, and above all ones naming people or animals — *a bevy of aides*, *a bevy of celebrities*, *a bevy of quail*. Loose journalism extends it to things (*a bevy of new features*), which is standard enough but flattens the word. Never an uncountable noun: ✗ *a bevy of information*. Never a bare singular countable noun.
 **With *of*:** *of* is obligatory — ✗ *a bevy lawyers*. It stays before another determiner: *a bevy of the usual consultants*.
@@ -477,6 +498,7 @@ Names a sizable group of people or creatures arriving together, in a light journ
 ### a good many
 
 **Pronunciation:** /ə ˌɡʊd ˈmɛni/ &middot; *uh good MEN-ee*
+**Русский:** немало, порядочно — с исчисляемыми; чуть старомодный, простецкий оттенок
 **Type:** quantifier &middot; **Position:** central &middot; **Register:** neutral, with a homespun or slightly old-fashioned flavor; common in Southern and Midwestern speech
 **Goes with:** plural countable nouns only — *a good many people*, *a good many years*, *a good many of the houses*. Never an uncountable noun: ✗ *a good many money*, ✗ *a good many information*. The uncountable partner is *a good deal of*.
 **With *of*:** *of* is **required** before another determiner or a pronoun — *a good many of the applicants*, *a good many of them*. No *of* before a bare plural: *a good many applicants*, never ✗ *a good many of applicants*.
@@ -498,6 +520,7 @@ Names a sizable number of countable things, with a note of the speaker having ta
 ### a great many
 
 **Pronunciation:** /ə ˌɡreɪt ˈmɛni/ &middot; *uh grayt MEN-ee*
+**Русский:** весьма многие, великое множество — усиленное many
 **Type:** quantifier &middot; **Position:** central &middot; **Register:** neutral to formal; at home in written English and in careful speech
 **Goes with:** plural countable nouns only — *a great many people*, *a great many books*. Never an uncountable noun: ✗ *a great many evidence*, ✗ *a great many money*. The uncountable partner is *a great deal of*.
 **With *of*:** *of* is **required** before another determiner or a pronoun — *a great many of the delegates*, *a great many of them*. No *of* before a bare plural: *a great many delegates*.
@@ -519,6 +542,7 @@ Names an emphatically large number of countable things — *many*, with the volu
 ### a host of
 
 **Pronunciation:** /ə ˈhoʊst əv/ &middot; *uh HOHST uhv*
+**Русский:** масса, целый ряд — много и разного, чаще всего проблем
 **Type:** quantifier (partitive phrase) &middot; **Position:** central &middot; **Register:** neutral to formal; a staple of journalism and business writing
 **Goes with:** plural countable nouns — *a host of problems*, *a host of reasons*, *a host of new rules*. It does not take uncountable nouns in careful writing (✗ *a host of information*), and never a bare singular countable noun.
 **With *of*:** *of* is obligatory — ✗ *a host problems*. It stays before another determiner: *a host of the issues we raised*.
@@ -540,6 +564,7 @@ Names a large and varied number of countable things arriving together, most ofte
 ### a large number of
 
 **Pronunciation:** /ə ˌlɑrdʒ ˈnʌmbɚ əv/ &middot; *uh larj NUM-ber uhv*
+**Русский:** большое число — с исчисляемыми; книжн., научный и деловой стиль
 **Type:** quantifier (partitive phrase) &middot; **Position:** central &middot; **Register:** neutral to formal; the standard phrase in academic, technical, and business writing
 **Goes with:** **plural countable nouns only** — *a large number of students*, *a large number of errors*, *a large number of the applicants*. Never an uncountable noun: ✗ *a large number of money*, ✗ *a large number of information*. The uncountable phrase is *a large amount of*.
 **With *of*:** *of* is obligatory — ✗ *a large number students*. It stays before another determiner or a pronoun: *a large number of the applicants*, *a large number of them*.
@@ -561,6 +586,7 @@ Names a large count of individual things, stated with enough formality to surviv
 ### a majority of
 
 **Pronunciation:** /ə məˈdʒɔrəɾi əv/ &middot; *uh muh-JOR-uh-tee uhv*
+**Русский:** большинство — подсчитанная бо́льшая часть, более половины
 **Type:** quantifier (partitive phrase) &middot; **Position:** central &middot; **Register:** neutral to formal; standard in reporting, polling, and law
 **Goes with:** plural countable nouns — *a majority of voters*, *a majority of the states*, *a majority of them*. It also takes a singular mass that names a share rather than a count (*a majority of the vote*, *a majority of the budget*), and there the verb goes singular. It never takes an ordinary uncountable substance: ✗ *a majority of water*.
 **With *of*:** *of* is obligatory — ✗ *a majority voters*. The noun after *of* is normally definite or generic: *a majority of the committee*, *a majority of Americans*.
@@ -582,6 +608,7 @@ Names more than half of a set — the counted larger part, as opposed to the imp
 ### a multiplicity of
 
 **Pronunciation:** /ə ˌmʌltəˈplɪsəɾi əv/ &middot; *uh mul-tuh-PLISS-uh-tee uhv* &middot; the *t* of *-city* flaps to /ɾ/ in American speech, exactly as in *majority* and *variety*
+**Русский:** множественность, многообразие — книжн.: много и притом разного рода
 **Type:** quantifier (partitive phrase) &middot; **Position:** central &middot; **Register:** formal and technical — academic prose, engineering, and legal drafting. In ordinary writing it is heavy and faintly bureaucratic, and an editor will usually cut it to *many* or *a variety of*
 **Goes with:** plural countable nouns — *a multiplicity of factors*, *a multiplicity of causes*, *a multiplicity of forms*. Uncountable nouns read as an error in careful prose: ✗ *a multiplicity of information*. Never a bare singular countable noun.
 **With *of*:** *of* is obligatory — ✗ *a multiplicity factors*. It stays before another determiner: *a multiplicity of the same objections*.
@@ -603,6 +630,7 @@ Names a large number of things of many different kinds — number and diversity 
 ### a multitude of
 
 **Pronunciation:** /ə ˈmʌltəˌtud əv/ &middot; *uh MUL-tuh-tood uhv*
+**Русский:** множество, тьма — книжн.: очень много, воспринятое как толпа
 **Type:** quantifier (partitive phrase) &middot; **Position:** central &middot; **Register:** formal or literary; slightly grand for everyday speech
 **Goes with:** plural countable nouns — *a multitude of reasons*, *a multitude of small decisions*. Uncountable nouns appear with it only in elevated or biblical style; the plural is the norm. Never a bare singular countable noun.
 **With *of*:** *of* is obligatory — ✗ *a multitude reasons*. It stays before another determiner: *a multitude of the smaller towns*.
@@ -624,6 +652,7 @@ Names a very large number of countable things, viewed as a crowd rather than a l
 ### a plethora of
 
 **Pronunciation:** /ə ˈplɛθərə əv/ &middot; *uh PLETH-uh-ruh uhv* &middot; stress falls on the **first** syllable; the common /pləˈθɔrə/ is a mispronunciation
+**Русский:** переизбыток — книжн.: не просто много, а больше, чем нужно
 **Type:** quantifier (partitive phrase) &middot; **Position:** central &middot; **Register:** formal, often self-consciously so; heavily overused in business and marketing prose
 **Goes with:** plural countable nouns — *a plethora of options*, *a plethora of choices*. Uncountable nouns occur (*a plethora of information*) but are less established. Never a bare singular countable noun.
 **With *of*:** *of* is obligatory — ✗ *a plethora options*. Bare *plethora* without an article is nonstandard in American English: ✗ *plethora of options*.
@@ -645,6 +674,7 @@ Names a large number of things, in careful use an unhelpfully large number — a
 ### a range of
 
 **Pronunciation:** /ə ˈreɪndʒ əv/ &middot; *uh RAYNJ uhv* &middot; *of* reduces to /ə/ in ordinary speech: /ə ˈreɪndʒə/
+**Русский:** ряд, диапазон — набор вещей, различающихся по степени
 **Type:** quantifier (partitive phrase) &middot; **Position:** central &middot; **Register:** neutral to formal; a workhorse of business, policy, medical, and academic prose
 **Goes with:** plural countable nouns — *a range of options*, *a range of services*, *a range of temperatures*. It takes an uncountable noun only where that noun names something measurable along a scale (*a range of motion*, *a range of experience*); ✗ *a range of information* is odd. Never a bare singular countable noun.
 **With *of*:** *of* is obligatory — ✗ *a range options*. It stays before another determiner: *a range of the products we already carry*.
@@ -666,6 +696,7 @@ Names a set of things spread out along some scale — several to many, differing
 ### a series of
 
 **Pronunciation:** /ə ˈsɪriz əv/ &middot; *uh SEER-eez uhv* &middot; the noun is spelled and pronounced the same in the singular and the plural — *one series*, *two series*; there is no ✗ *a serie*
+**Русский:** серия, ряд — несколько подряд, одно за другим
 **Type:** quantifier (partitive phrase) &middot; **Position:** central &middot; **Register:** neutral; at home everywhere from news copy to a lab report
 **Goes with:** plural countable nouns naming events, steps, or items that follow one another — *a series of meetings*, *a series of errors*, *a series of storms*. Never an uncountable noun: ✗ *a series of information*, ✗ *a series of trouble*. Never a bare singular countable noun.
 **With *of*:** *of* is obligatory — ✗ *a series meetings*. It stays before another determiner: *a series of the same complaints*.
@@ -687,6 +718,7 @@ Names a number of things arriving one after another — quantity with sequence a
 ### a slew of
 
 **Pronunciation:** /ə ˈslu əv/ &middot; *uh SLOO uhv*
+**Русский:** куча, целый ворох — разг. амер.: много сразу
 **Type:** quantifier (partitive phrase) &middot; **Position:** central &middot; **Register:** informal to journalistic American; common in news writing, rare outside North America
 **Goes with:** plural countable nouns — *a slew of complaints*, *a slew of new hires*. Not used with uncountable nouns (✗ *a slew of money*) and never with a bare singular countable noun.
 **With *of*:** *of* is obligatory — ✗ *a slew complaints*. It stays before another determiner: *a slew of the smaller banks*.
@@ -708,6 +740,7 @@ Names a large number of countable things appearing at once, in a briskly informa
 ### a variety of
 
 **Pronunciation:** /ə vəˈraɪəɾi əv/ &middot; *uh vuh-RY-uh-tee uhv* &middot; the first syllable of *variety* is the weak /və/, never /væ/, and the *t* flaps to /ɾ/
+**Русский:** разные, целый ряд — сначала разнообразие, потом количество
 **Type:** quantifier (partitive phrase) &middot; **Position:** central &middot; **Register:** neutral; standard in every register short of poetry, and one of the commonest hedges in American writing
 **Goes with:** plural countable nouns — *a variety of reasons*, *a variety of products*, *a variety of ways*. Uncountables only when the noun names a kind rather than a substance: *a variety of music* is fine, ✗ *a variety of water* is not. It does take a singular countable noun in the unrelated botanical sense, where *a variety of apple* names one cultivar and means the opposite of a large quantity.
 **With *of*:** *of* is obligatory — ✗ *a variety reasons*. It stays before another determiner: *a variety of the same excuses*.
@@ -729,6 +762,7 @@ Names a number of things of different kinds — diversity first, quantity second
 ### a wave of
 
 **Pronunciation:** /ə ˈweɪv əv/ &middot; *uh WAYV uhv* &middot; *of* reduces to /ə/ in speech: /ə ˈweɪvə/
+**Русский:** волна — наплыв чего-либо; с абстрактным сущ. — нахлынувшее чувство
 **Type:** quantifier (partitive phrase) &middot; **Position:** central &middot; **Register:** neutral; a staple of news writing and completely at home in speech
 **Goes with:** plural countable nouns naming events, people, or arrivals — *a wave of layoffs*, *a wave of immigrants*, *a wave of protests* — and, just as commonly, **abstract uncountable nouns naming a feeling that comes over someone**: *a wave of relief*, *a wave of nausea*, *a wave of nostalgia*. It does not quantify ordinary masses: ✗ *a wave of money* is odd, and *a wave of water* is literal rather than quantitative.
 **With *of*:** *of* is obligatory — ✗ *a wave layoffs*. It stays before another determiner: *a wave of the same complaints*.
@@ -750,11 +784,12 @@ Names a large number of things arriving together in a surge that rises and passe
 ### dozens of
 
 **Pronunciation:** /ˈdʌzənz əv/ &middot; *DUZ-uhnz uhv*
+**Русский:** десятки — неопределённо много, счёт на десятки
 **Type:** quantifier (indefinite numeral phrase) &middot; **Position:** central &middot; **Register:** neutral
 **Goes with:** plural countable nouns only — *dozens of emails*, *dozens of people*. Never an uncountable noun: ✗ *dozens of information*, ✗ *dozens of furniture*, ✗ *dozens of money*. Never a bare singular countable noun.
-**With *of*:** *of* is **obligatory** in this plural quantifier — ✗ *dozens emails*. The exact numeral behaves in the opposite way: after a number, *dozen* is **singular and takes no *of*** — *two dozen eggs*, *three dozen roses*. ✗ *two dozens of eggs* breaks both halves of the rule at once.
+✗ *With *of*:** *of* is **obligatory** in this plural quantifier — ✗ *dozens emails*. The exact numeral behaves in the opposite way: after a number, *dozen* is ✗ *singular and takes no *of*** — *two dozen eggs*, *three dozen roses*. ✗ *two dozens of eggs* breaks both halves of the rule at once.
 **Pattern:** *dozens of* [plural countable] &middot; *dozens of* [the/these + plural] &middot; *dozens upon dozens of* [plural] &middot; compare [number] *dozen* [plural noun]
-**Contrast:** This is the governing rule for the whole *dozen / hundred / thousand / million* family: **after a number, singular and no *of*** (*two dozen*, *three hundred*, *five thousand*); **alone as a quantifier, plural and *of* required** (*dozens of*, *hundreds of*, *thousands of*). *Dozens of* claims an indefinite number in the tens — more than a handful, fewer than a hundred — and no one is expected to have counted. The one place the numeral and the quantifier meet is *a dozen*, which means exactly twelve except in the loose idiom *a dozen times*. Bare *dozens* is also a pronoun, with the *of*-phrase left understood: *Dozens were turned away at the door.*
+**Contrast:** This is the governing rule for the whole *dozen / hundred / thousand / million* family: ✗ *after a number, singular and no *of*** (*two dozen*, *three hundred*, *five thousand*); ✗ *alone as a quantifier, plural and *of* required** (*dozens of*, *hundreds of*, *thousands of*). *Dozens of* claims an indefinite number in the tens — more than a handful, fewer than a hundred — and no one is expected to have counted. The one place the numeral and the quantifier meet is *a dozen*, which means exactly twelve except in the loose idiom *a dozen times*. Bare *dozens* is also a pronoun, with the *of*-phrase left understood: *Dozens were turned away at the door.*
 **Variants:** *dozens upon dozens of*, *several dozen*, *a dozen*, *half a dozen*
 
 Names an indefinite number in the tens, offered as a large one.
@@ -771,6 +806,7 @@ Names an indefinite number in the tens, offered as a large one.
 ### droves of
 
 **Pronunciation:** /ˈdroʊvz əv/ &middot; *DROHVZ uhv*
+**Русский:** толпы, валом — о людях или животных, движущихся массой
 **Type:** quantifier (partitive phrase) &middot; **Position:** central &middot; **Register:** neutral to informal and mildly vivid; common in journalism, since the word still pictures livestock being driven along a road
 **Goes with:** **plural countable nouns naming people or animals only** — *droves of tourists*, *droves of voters*, *droves of cattle*. Never an uncountable noun (✗ *droves of money*) and, in careful use, never inanimate things: ✗ *droves of emails* reads as a mixed metaphor.
 **With *of*:** *of* is obligatory in the determiner use — ✗ *droves tourists*. The far commoner construction is the **adverbial** *in droves*, which takes no noun at all and modifies the verb — *They left in droves* — and is a prepositional phrase, not a determiner: it cannot be moved in front of a noun (✗ *in droves people left*). The singular *a drove of* survives mainly for livestock.
@@ -792,6 +828,7 @@ Names a large number of people or animals moving together in one direction.
 ### hordes of
 
 **Pronunciation:** /ˈhɔrdz əv/ &middot; *HORDZ uhv* &middot; a homophone of *hoards* (stockpiles); the two spellings are not interchangeable
+**Русский:** полчища, орды — неодобр.: большая беспорядочная толпа
 **Type:** quantifier (partitive phrase) &middot; **Position:** central &middot; **Register:** informal to journalistic; vivid and mildly disapproving — the crowd it names is one the speaker would rather avoid
 **Goes with:** **plural countable nouns naming people or animals** — *hordes of shoppers*, *hordes of tourists*, *hordes of mosquitoes*. Never an uncountable noun (✗ *hordes of traffic*) and not naturally used of inanimate objects (✗ *hordes of emails*).
 **With *of*:** *of* is obligatory — ✗ *hordes tourists*. The singular *a horde of* is equally common and means the same thing: *a horde of reporters*. Bare *hordes* works as a pronoun only in headline style: *Hordes descended on the outlet mall.*
@@ -813,9 +850,10 @@ Names a large, disorderly crowd of people or animals, with the speaker's disappr
 ### hundreds of
 
 **Pronunciation:** /ˈhʌndrədz əv/ &middot; *HUN-dridz uhv*
+**Русский:** сотни — неопределённо много, счёт на сотни
 **Type:** quantifier (indefinite numeral phrase) &middot; **Position:** central &middot; **Register:** neutral
 **Goes with:** plural countable nouns only — *hundreds of people*, *hundreds of dollars*, *hundreds of miles*. Never an uncountable noun: ✗ *hundreds of money*, ✗ *hundreds of water*. Never a bare singular countable noun.
-**With *of*:** *of* is **obligatory** — ✗ *hundreds people*. The exact numeral takes the opposite treatment: after a number, *hundred* stays **singular with no *of*** — *three hundred people*, ✗ *three hundreds of people*.
+✗ *With *of*:** *of* is **obligatory** — ✗ *hundreds people*. The exact numeral takes the opposite treatment: after a number, *hundred* stays ✗ *singular with no *of*** — *three hundred people*, ✗ *three hundreds of people*.
 **Pattern:** *hundreds of* [plural countable] &middot; *hundreds of* [the/these + plural] &middot; *hundreds and hundreds of* [plural] &middot; *hundreds of thousands of* [plural] &middot; compare [number] *hundred* [plural noun]
 **Contrast:** Same alternation as *dozens of* and *thousands of*: plural plus *of* for the vague quantity, singular and bare after an exact number. *Hundreds of* is genuinely vague — it covers anything from about two hundred to just under a thousand, and speakers reach for it precisely because they have not counted. The stacked form *hundreds of thousands of* is standard and means what it says; each *of* is required. Bare *hundreds* is a pronoun in the same way as *dozens* and *thousands*: *Hundreds were still waiting at midnight.*
 **Variants:** *hundreds and hundreds of*, *several hundred*, *hundreds of thousands of*, *a hundred*
@@ -834,9 +872,10 @@ Names an indefinite number in the hundreds, presented as a large one.
 ### millions of
 
 **Pronunciation:** /ˈmɪljənz əv/ &middot; *MIL-yuhnz uhv* &middot; *of* is unstressed and commonly reduces to /ə/
+**Русский:** миллионы — букв.; в гиперболе разг. «уйма, тьма»
 **Type:** quantifier (indefinite numeral phrase) &middot; **Position:** central &middot; **Register:** neutral in the literal sense; informal and hyperbolic in the *millions of times* sense
 **Goes with:** **plural countable nouns only** — *millions of people*, *millions of dollars*, *millions of years*. Never an uncountable noun: ✗ *millions of money*, ✗ *millions of information*, ✗ *millions of traffic*. Never a bare singular countable noun.
-**With *of*:** *of* is **obligatory** — ✗ *millions people*. After an exact number the word goes **singular and takes no *of***: *two million people*, ✗ *two millions of people*. *Billions of* behaves identically (*three billion dollars*, *billions of dollars*).
+✗ *With *of*:** *of* is **obligatory** — ✗ *millions people*. After an exact number the word goes ✗ *singular and takes no *of***: *two million people*, ✗ *two millions of people*. *Billions of* behaves identically (*three billion dollars*, *billions of dollars*).
 **Pattern:** *millions of* [plural countable] &middot; *millions of* [the/these + plural] &middot; *millions upon millions of* [plural] &middot; *tens of millions of* [plural] &middot; compare [number] *million* [plural noun]
 **Contrast:** The top of the *dozen / hundred / thousand / million* series, obeying the same alternation as the rest of it: plural plus *of* for a vague quantity, singular and bare after an exact figure. Two of its uses are not counts at all — the plain hyperbole of *millions of times* and the singular *a million* in *I have a million things to do*, which reports exasperation rather than a number and belongs with *a zillion* and *umpteen*. Agreement is plural when the phrase counts things (*Millions of ballots **were** mailed*) but singular when a figure names one sum or one span (*Two million dollars **is** a lot to write off*). Bare *millions* is also a pronoun: *Millions were watching.*
 **Variants:** *millions upon millions of*, *tens of millions of*, *billions of*, *several million*, *a million (hyperbolic)*
@@ -855,6 +894,7 @@ Names an indefinite number in the millions — and, loosely, any number the spea
 ### quite a few
 
 **Pronunciation:** /ˌkwaɪt ə ˈfju/ &middot; *kwyt uh FYOO*
+**Русский:** немало, порядочно — с исчисляемыми: больше, чем можно было ожидать
 **Type:** quantifier &middot; **Position:** central &middot; **Register:** neutral to informal; very common in American speech and unremarkable in writing
 **Goes with:** plural countable nouns only — *quite a few people*, *quite a few times*. Never an uncountable noun: ✗ *quite a few money*, ✗ *quite a few advice*. The uncountable partner is [quite a bit of](#quite-a-bit-of).
 **With *of*:** *of* is **required** before another determiner or a pronoun — *quite a few of the guests*, *quite a few of them*. No *of* before a bare plural: *quite a few guests*.
@@ -876,6 +916,7 @@ Names a large number of countable things — noticeably more than the listener m
 ### scores of
 
 **Pronunciation:** /ˈskɔrz əv/ &middot; *SKORZ uhv*
+**Русский:** десятки — книжн./журн., счёт на дюжины, почти всегда о людях
 **Type:** quantifier (indefinite numeral phrase) &middot; **Position:** central &middot; **Register:** literary and journalistic; slightly elevated and almost always about people or events
 **Goes with:** plural countable nouns only — *scores of protesters*, *scores of injuries*. Never an uncountable noun: ✗ *scores of damage*. Never a bare singular countable noun.
 **With *of*:** *of* is **obligatory** — ✗ *scores protesters*. As an exact numeral, *score* means twenty and stays singular with no *of*, but that use is archaic and survives mainly in the biblical *three score and ten* and in Lincoln's *four score and seven years ago*.
@@ -897,9 +938,10 @@ Names an indefinite number in the dozens, in a raised journalistic or literary r
 ### thousands of
 
 **Pronunciation:** /ˈθaʊzəndz əv/ &middot; *THOW-zuhndz uhv*
+**Русский:** тысячи — неопределённо много, счёт на тысячи
 **Type:** quantifier (indefinite numeral phrase) &middot; **Position:** central &middot; **Register:** neutral
 **Goes with:** plural countable nouns only — *thousands of people*, *thousands of dollars*, *thousands of years*. Never an uncountable noun: ✗ *thousands of money*, ✗ *thousands of traffic*. Never a bare singular countable noun.
-**With *of*:** *of* is **obligatory** — ✗ *thousands people*. After an exact number, *thousand* is **singular with no *of***: *five thousand people*, ✗ *five thousands of people*.
+✗ *With *of*:** *of* is **obligatory** — ✗ *thousands people*. After an exact number, *thousand* is ✗ *singular with no *of***: *five thousand people*, ✗ *five thousands of people*.
 **Pattern:** *thousands of* [plural countable] &middot; *thousands of* [the/these + plural] &middot; *tens of thousands of* [plural] &middot; *hundreds of thousands of* [plural] &middot; compare [number] *thousand* [plural noun]
 **Contrast:** The last member of the *dozen / hundred / thousand* family, with the same alternation: plural plus *of* when the number is vague, singular and bare after an exact figure. The stacked forms are standard and productive — *tens of thousands of*, *hundreds of thousands of*, and on up to *millions of* and *billions of*, each keeping its own *of*. American English also uses *thousands* alone as a pronoun (*Thousands were left without water*).
 **Variants:** *tens of thousands of*, *hundreds of thousands of*, *millions of*, *billions of*, *several thousand*
@@ -918,6 +960,7 @@ Names an indefinite number in the thousands, presented as a very large one.
 ### umpteen
 
 **Pronunciation:** /ˌʌmpˈtin/ &middot; *ump-TEEN*
+**Русский:** невесть сколько, сто раз — разг., шутливо-раздражённое «сбился со счёта»
 **Type:** quantifier (indefinite numeral) &middot; **Position:** central, in the numeral slot; like a numeral it is also a **postdeterminer** after a central determiner — *the umpteen forms they made us sign*, *his umpteen cousins* &middot; **Register:** informal and exasperated; current in speech, out of place in formal writing
 **Goes with:** **plural countable nouns only** — *umpteen times*, *umpteen forms*, *umpteen reasons*. Never an uncountable noun (✗ *umpteen money*, ✗ *umpteen advice*) and never a singular countable noun (✗ *umpteen excuse*), because it behaves grammatically as a plural number word.
 **With *of*:** no *of* before a bare noun — *umpteen times*, never ✗ *umpteen of times*. The partitive *umpteen of the forms* is possible on the numeral pattern but rare; speakers say *umpteen forms*.
@@ -943,6 +986,7 @@ These seven are **adjectives**, not determiners, and the difference is testable.
 ### abundant
 
 **Pronunciation:** /əˈbʌndənt/ &middot; *uh-BUN-duhnt*
+**Русский:** обильный, изобильный — прилагательное: много и легко доступно
 **Type:** adjective with quantifying force — not a true determiner &middot; **Position:** attributive (*abundant evidence*, *the abundant wildlife*) or predicative (*rainfall was abundant that spring*) &middot; **Register:** neutral to formal; common in science and nature writing
 **Goes with:** uncountable nouns (*abundant evidence*, *abundant sunshine*, *abundant rainfall*) and plural countable nouns (*abundant resources*, *abundant opportunities*). With a singular countable noun it needs an article and reads oddly unless the noun is mass-like: *an abundant harvest* works, ✗ *an abundant chair* does not.
 **With *of*:** the adjective takes no *of*-phrase — ✗ *abundant of evidence*. The noun it is built on does: *an abundance of evidence*, *an abundance of options*, and that phrase is a full partitive quantifier.
@@ -964,6 +1008,7 @@ Describes a supply that is large and easily had. Unlike the *of*-phrases in this
 ### ample
 
 **Pronunciation:** /ˈæmpəl/ &middot; *AM-pul*
+**Русский:** достаточный с запасом, обильный — хватает на всё и ещё остаётся
 **Type:** adjective with quantifying force — not a true determiner &middot; **Position:** attributive almost always (*ample time*, *ample parking*, *the ample evidence*); predicative use is possible but stiff &middot; **Register:** neutral to formal
 **Goes with:** uncountable nouns (*ample time*, *ample evidence*, *ample room*, *ample warning*) and plural countable nouns (*ample opportunities*, *ample supplies*). With a singular countable it takes an article and shifts toward the physical sense of "roomy": *an ample kitchen*.
 **With *of*:** takes no *of*-phrase — ✗ *ample of time*. The idea is expressed instead by *plenty of* or *an abundance of*.
@@ -985,6 +1030,7 @@ Describes a quantity that is large enough for the purpose with room left over.
 ### considerable
 
 **Pronunciation:** /kənˈsɪdərəbəl/ &middot; *kuhn-SID-er-uh-bul* &middot; the first syllable is unstressed and reduced, /kən/, never /kɑn/
+**Русский:** значительный, немалый — книжн., с неисчисляемыми
 **Type:** adjective with quantifying force — not a true determiner &middot; **Position:** attributive (*considerable damage*, *the considerable expense*) or predicative (*the damage was considerable*) &middot; **Register:** formal to neutral — the written stand-in for *a lot of* in front of a mass noun; in speech Americans say *a lot of*
 **Goes with:** **uncountable nouns** above all — *considerable time*, *considerable damage*, *considerable expense*, *considerable evidence*, *considerable experience*. It reaches plural countable nouns only when the plural names an aggregate or an abstract quantity rather than a set of individual objects — *considerable resources*, *considerable sums*, *considerable delays*, *considerable difficulties* are all standard, while ordinary concrete plurals are not: ✗ *considerable chairs*, ✗ *considerable emails*, where the word you want is *numerous* or *a lot of*. With a singular countable noun it takes an article and shifts from "much" to "large": *a considerable sum*, *a considerable distance*.
 **With *of*:** takes no *of*-phrase — ✗ *considerable of the damage*. To pick a part out of a determined phrase you must switch words: *much of the damage*, *a good deal of the damage*. The fixed phrase *of considerable* + noun exists as a formal predicate (*a matter of considerable importance*).
@@ -1006,6 +1052,7 @@ Describes a large amount of something uncountable, in the register a report or a
 ### copious
 
 **Pronunciation:** /ˈkoʊpiəs/ &middot; *KOH-pee-uhs*
+**Русский:** обильный, в большом объёме — книжн.
 **Type:** adjective with quantifying force — not a true determiner &middot; **Position:** attributive (*copious notes*, *her copious correspondence*); predicative is rare and bookish &middot; **Register:** formal and slightly literary; in speech Americans say *tons of* or *a lot of*
 **Goes with:** uncountable nouns (*copious rainfall*, *copious bleeding*) and plural countable nouns (*copious notes*, *copious footnotes*). It is unusually collocation-bound: *copious notes*, *copious amounts of*, and *copious quantities of* account for most real uses.
 **With *of*:** takes no *of*-phrase of its own — ✗ *copious of notes* — but it very often modifies one: *copious amounts of coffee*, *copious quantities of data*.
@@ -1027,6 +1074,7 @@ Describes something produced or supplied in great volume.
 ### countless
 
 **Pronunciation:** /ˈkaʊntləs/ &middot; *KOWNT-luhs*
+**Русский:** бесчисленный, несчётный — эмфатическое many, а не оценка
 **Type:** adjective with quantifying force — not a true determiner &middot; **Position:** attributive only (*countless times*, *the countless small decisions*); it has no predicative use — ✗ *the errors were countless* is at best strained &middot; **Register:** neutral, with a rhetorical lift; fine in speech and in writing
 **Goes with:** **plural countable nouns only** — *countless times*, *countless hours*, *countless people*. Never an uncountable noun: ✗ *countless information*, ✗ *countless money*, ✗ *countless damage*. The word literally means "too many to count," so it needs something countable to fail to count.
 **With *of*:** takes no *of*-phrase — ✗ *countless of the applicants*. Before a determined phrase you need a different word: *many of the applicants*, *any number of the applicants*.
@@ -1048,6 +1096,7 @@ Describes a number so large the speaker will not attempt it — an emphatic *man
 ### myriad
 
 **Pronunciation:** /ˈmɪriəd/ &middot; *MIR-ee-uhd*
+**Русский:** мириады, несметное множество — книжн.: много и разного
 **Type:** adjective and noun with quantifying force — not a true determiner &middot; **Position:** attributive with no article at all (*myriad problems*) or as the head of a partitive phrase (*a myriad of problems*) &middot; **Register:** formal or literary in both constructions
 **Goes with:** plural countable nouns in both patterns — *myriad options*, *a myriad of options*. Uncountable use is rare and reads as a stretch (*myriad information* is odd). Never a bare singular countable noun.
 **With *of*:** the two constructions split on exactly this point. Bare *myriad* takes **no** *of* — *myriad reasons*, ✗ *myriad of reasons* without an article. The noun construction **requires** both an article and *of* — *a myriad of reasons*. Both are standard, despite a long-lived complaint that the *of* version is an error; the noun use is in fact the older of the two by centuries.
@@ -1069,6 +1118,7 @@ Describes a great and varied number of countable things.
 ### numerous
 
 **Pronunciation:** /ˈnumərəs/ &middot; *NOO-mer-uhs*
+**Русский:** многочисленный — книжн. замена many
 **Type:** adjective with quantifying force — not a true determiner &middot; **Position:** attributive (*numerous errors*, *his numerous absences*) or predicative (*the errors were numerous*) &middot; **Register:** formal — the written stand-in for *many* in reports, legal writing, and journalism
 **Goes with:** **plural countable nouns only** — *numerous complaints*, *numerous occasions*, *numerous studies*. Never an uncountable noun: ✗ *numerous information*, ✗ *numerous evidence*, ✗ *numerous progress*. For uncountables the formal equivalents are *much*, [considerable](#considerable), and *a great deal of*.
 **With *of*:** takes no *of*-phrase in standard American usage — ✗ *numerous of the students*. To pick a subset out of a determined phrase you must switch words: *many of the students*, *a large number of the students*.
@@ -1094,6 +1144,7 @@ Sufficiency is a large quantity measured against a need rather than against zero
 ### enough
 
 **Pronunciation:** /əˈnʌf/ &middot; *uh-NUF* &middot; carefully /ɪˈnʌf/; the first syllable is always reduced, never /iː/
+**Русский:** достаточно, хватает — ровно столько, сколько нужно; not enough — не хватает
 **Type:** quantifier (sufficiency) &middot; **Position:** central determiner before the noun (*enough time*); in formal and fixed usage it may also **follow** the noun (*time enough*, *reason enough*, *money enough*), which no other determiner in English can do; as a degree adverb it follows its adjective (*good enough*) &middot; **Register:** neutral
 **Goes with:** **both** plural countable nouns (*enough chairs*, *enough volunteers*) **and** uncountable nouns (*enough time*, *enough money*). Not used with a bare singular countable noun (✗ *enough chair*).
 **With *of*:** *of* is **required** before another determiner or a pronoun — *enough of the food*, *enough of my time*, *enough of this*, *enough of them*. No *of* before a bare noun: *enough food*.
@@ -1115,6 +1166,7 @@ Marks a quantity that meets the need exactly — as much or as many as is requir
 ### sufficient
 
 **Pronunciation:** /səˈfɪʃənt/ &middot; *suh-FISH-uhnt*
+**Русский:** достаточный — книжн./юр. вариант enough
 **Type:** adjective with quantifying force — not a true determiner &middot; **Position:** attributive (*sufficient evidence*, *sufficient funds*) or predicative (*the evidence was sufficient*) &middot; **Register:** formal — legal, medical, financial, and academic writing; in speech Americans say *enough*
 **Goes with:** uncountable nouns (*sufficient evidence*, *sufficient time*, *sufficient cause*) and plural countable nouns (*sufficient funds*, *sufficient resources*, *sufficient grounds*). Not used with a bare singular countable noun.
 **With *of*:** takes no *of*-phrase — ✗ *sufficient of the evidence*; the repair is *enough of the evidence*. The abstract noun *a sufficiency of* exists but is rare and archaic.
@@ -1140,6 +1192,7 @@ Hyperbole, all of it, and nearly all built on the same frame: a noun of bulk —
 ### a heap of
 
 **Pronunciation:** /ə ˈhip əv/ &middot; *uh HEEP uhv* &middot; in casual speech *of* reduces to /ə/: /ə ˈhipə/, "a heapa trouble"
+**Русский:** куча, уйма — разг. амер. с южным, деревенским оттенком
 **Type:** quantifier (partitive phrase) &middot; **Position:** central &middot; **Register:** informal American with a Southern and rural flavor — ordinary in speech across the South and the lower Midwest, common in country lyrics and in reported dialect, and out of place in formal writing. It is the **domestic singular** and is not the same animal as the Australian and British plural [heaps of](#heaps-of)
 **Goes with:** **both** uncountable nouns (*a heap of trouble*, *a heap of money*, *a heap of work*) **and** plural countable nouns (*a heap of problems*, *a heap of folks*). The literal sense is an ordinary noun and pluralizes freely: *a heap of laundry*, *two heaps of gravel*. Never a bare singular countable noun: ✗ *a heap of chair*.
 **With *of*:** *of* is obligatory — ✗ *a heap trouble*. Bare *a heap* is an adverb in the same register (*I like it a heap*, *a heap better*), which is regional and dated and not a determiner.
@@ -1161,6 +1214,7 @@ Names a large quantity of anything, countable or not, in an informal and distinc
 ### heaps of
 
 **Pronunciation:** /ˈhips əv/ &middot; *HEEPS uhv*
+**Русский:** куча, полно — разг., преим. брит./австрал.; амер. аналог tons of
 **Type:** quantifier (partitive phrase) &middot; **Position:** central &middot; **Register:** informal; chiefly Australian, New Zealand, and British. Americans understand it and read it as foreign — the domestic equivalent is *tons of*
 **Goes with:** **both** plural countable nouns (*heaps of people*) **and** uncountable nouns (*heaps of time*, *heaps of room*). Never a bare singular countable noun.
 **With *of*:** *of* is obligatory before a noun — ✗ *heaps people*. Bare *heaps* is a pronoun or adverb in the same dialects (*Thanks heaps*, *heaps better*), and that use does not travel to American English at all.
@@ -1182,6 +1236,7 @@ Names a large quantity of anything, countable or not, in casual non-American spe
 ### loads of
 
 **Pronunciation:** /ˈloʊdz əv/ &middot; *LOHDZ uhv*
+**Русский:** куча, масса — разг., брит. по происхождению, но понятно и в США
 **Type:** quantifier (partitive phrase) &middot; **Position:** central &middot; **Register:** informal; British-leaning but widely used and fully understood in the United States
 **Goes with:** **both** plural countable nouns (*loads of people*) **and** uncountable nouns (*loads of money*, *loads of time*). Never a bare singular countable noun.
 **With *of*:** *of* is obligatory before a noun — ✗ *loads people*. Bare *loads* is a pronoun (*We've got loads*) and, in British usage, an adverb (*loads better*), which Americans generally avoid.
@@ -1203,6 +1258,7 @@ Names a large casual quantity of anything, countable or not.
 ### masses of
 
 **Pronunciation:** /ˈmæsəz əv/ &middot; *MASS-uhz uhv*
+**Русский:** масса, уйма — разг., преим. брит.
 **Type:** quantifier (partitive phrase) &middot; **Position:** central &middot; **Register:** informal; chiefly British, understood but uncommon in American speech
 **Goes with:** **both** plural countable nouns (*masses of people*) **and** uncountable nouns (*masses of paperwork*, *masses of data*). Never a bare singular countable noun.
 **With *of*:** *of* is obligatory before a noun — ✗ *masses people*. Bare *masses* is an ordinary plural noun (*the masses*, meaning ordinary people), not a quantifier.
@@ -1224,6 +1280,7 @@ Names a large, shapeless quantity of anything, countable or not.
 ### no end of
 
 **Pronunciation:** /ˌnoʊ ˈɛnd əv/ &middot; *noh END uhv*
+**Русский:** уйма, конца-краю нет — чаще о неприятностях
 **Type:** quantifier (partitive phrase) &middot; **Position:** central &middot; **Register:** informal to conversational; slightly old-fashioned but alive
 **Goes with:** **both** uncountable nouns (*no end of trouble*, *no end of fun*) **and** plural countable nouns (*no end of problems*, *no end of excuses*). It strongly favors abstract nouns naming trouble or pleasure; it is odd with concrete objects (✗ *no end of chairs*).
 **With *of*:** *of* is obligatory and cannot be dropped — ✗ *no end trouble*. Note that the *no* attaches to *end*, not to the noun after *of*, which is why the phrase is not a negative.
@@ -1245,6 +1302,7 @@ Names a large and seemingly inexhaustible quantity — most often of trouble, an
 ### oodles of
 
 **Pronunciation:** /ˈudəlz əv/ &middot; *OO-dulz uhv*
+**Русский:** уйма, навалом — разг., шутливо-умильное
 **Type:** quantifier (partitive phrase) &middot; **Position:** central &middot; **Register:** informal and jocular; dated-cute, American in origin, used with a wink
 **Goes with:** **both** uncountable nouns (*oodles of time*, *oodles of money*) **and** plural countable nouns (*oodles of cookies*). It gravitates to pleasant things — time, money, charm, fun — and sounds wrong with unpleasant ones (✗ *oodles of debt*).
 **With *of*:** *of* is obligatory — ✗ *oodles time*. There is no singular ✗ *an oodle*; the word exists only in this plural quantifier frame.
@@ -1266,6 +1324,7 @@ Names a large and pleasing quantity of anything, in a deliberately light registe
 ### tons of
 
 **Pronunciation:** /ˈtʌnz əv/ &middot; *TUNZ uhv*
+**Русский:** куча, вагон, море — разг. амер., главное гиперболическое «много»
 **Type:** quantifier (partitive phrase) &middot; **Position:** central &middot; **Register:** informal American — the default hyperbolic quantifier in US speech
 **Goes with:** **both** plural countable nouns (*tons of people*, *tons of emails*) **and** uncountable nouns (*tons of money*, *tons of work*, *tons of time*). Never a bare singular countable noun.
 **With *of*:** *of* is obligatory — ✗ *tons people*. The singular *a ton of* is equally common and equally figurative (*a ton of work*), and both stay before another determiner: *tons of the leftover paint*.
@@ -1291,6 +1350,7 @@ Two quantity words in American English go **after** the noun instead of in front
 ### aplenty
 
 **Pronunciation:** /əˈplɛnti/ &middot; *uh-PLEN-tee* &middot; the first syllable is always the weak /ə/, never /eɪ/; the *nt* commonly reduces in American speech to /əˈplɛni/, "a-plenny"
+**Русский:** в изобилии, хоть отбавляй — книжн., ставится после существительного
 **Type:** quantifier, **postpositive** &middot; **Position:** **after** the noun it quantifies — *reasons aplenty*, *food aplenty* — and never before it: ✗ *aplenty reasons*. It attaches to a bare noun and brings no determiner slot of its own &middot; **Register:** literary and a little archaic; alive in journalism reaching for a flourish, in sports writing, and in travel and cookbook prose. Nobody says it at a kitchen table. The hyphenated *a-plenty* is the older spelling and now reads as period or country-music styling
 **Goes with:** plural countable nouns (*reasons aplenty*, *bargains aplenty*) and uncountable nouns (*food aplenty*, *trouble aplenty*, *rain aplenty*). Never a singular countable noun: ✗ *a reason aplenty*.
 **With *of*:** it never takes *of* — ✗ *aplenty of food*. The *of*-phrase equivalent is *plenty of*, which is the same word in the ordinary prenominal position: *plenty of food* = *food aplenty*.
@@ -1312,6 +1372,7 @@ Marks a large and sufficient quantity, tacked onto the end of the noun for effec
 ### galore
 
 **Pronunciation:** /ɡəˈlɔr/ &middot; *guh-LOR* &middot; stress on the second syllable; the first is the weak /ɡə/, never /ɡeɪ/
+**Русский:** навалом, в изобилии — разг., шутл.; ставится после существительного
 **Type:** quantifier, **postpositive** &middot; **Position:** **after** the noun it quantifies — *bargains galore*, *whiskey galore* — and never before it: ✗ *galore bargains*. It attaches to a bare noun and does not combine with a determiner of its own: ✗ *the bargains galore* &middot; **Register:** informal and jocular; a headline, advertising, menu, and flyer word. Common in American English, but always with a wink — a store advertises *savings galore*, an annual report does not
 **Goes with:** plural countable nouns (*bargains galore*, *prizes galore*, *options galore*) and uncountable nouns (*fun galore*, *whiskey galore*). Never a singular countable noun: ✗ *a prize galore*. It strongly prefers **welcome** things; *problems galore* is possible but lands as sarcasm.
 **With *of*:** it never takes *of* — ✗ *galore of bargains*. The prenominal equivalents are *plenty of*, *lots of*, and *tons of*.
@@ -1337,6 +1398,7 @@ Every word in this section means "a lot," and not one of them is neutral. Some b
 ### a mess of
 
 **Pronunciation:** /ə ˈmɛs əv/ &middot; *uh MESS uhv* &middot; casually /ə ˈmɛsə/, "a messa"
+**Русский:** куча, целая гора — диал. (Юг, Аппалачи); о еде — сколько хватит на стол
 **Type:** quantifier (partitive phrase) &middot; **Position:** central &middot; **Register:** **regional American** — Southern, Appalachian, and rural Midwestern. Ordinary in speech there and instantly marked as dialect anywhere else, though it is understood nationally from fiction, film, and food writing
 **Goes with:** **both** plural countable nouns (*a mess of catfish*, *a mess of kids*) **and** uncountable nouns (*a mess of trouble*, *a mess of money*). It has one specialized use that is not a quantifier at all but a food term: *a mess of greens*, *a mess of beans*, *a mess of fish* names as much as gets cooked and put on the table at one meal, and *mess* there is an ordinary countable noun (*two messes of collards*). Never a bare singular countable noun: ✗ *a mess of chair*.
 **With *of*:** *of* is obligatory — ✗ *a mess trouble*. It stays before another determiner: *a mess of the paperwork*.
@@ -1358,6 +1420,7 @@ A large quantity of anything, in Southern and Appalachian speech — and, in the
 ### a passel of
 
 **Pronunciation:** /ə ˈpæsəl əv/ &middot; *uh PASS-ul uhv* &middot; casually /ə ˈpæsələ/, "a passela"
+**Русский:** куча, орава — диал. амер., обычно о детях, родне или животных
 **Type:** quantifier (partitive phrase) &middot; **Position:** central &middot; **Register:** **regional American** — Appalachian, Southern, and Western. It is also a stock ingredient of folksy and frontier writing, where it tends to be laid on thick. Understood nationally, produced regionally, and never neutral
 **Goes with:** plural countable nouns above all, and especially people and animals — *a passel of kids*, *a passel of hound dogs*, *a passel of lawyers*. Uncountables occur (*a passel of trouble*) but the plural is the norm. Never a bare singular countable noun.
 **With *of*:** *of* is obligatory — ✗ *a passel kids*. It stays before another determiner: *a passel of them*.
@@ -1379,6 +1442,7 @@ A large number of countable things — usually children, relatives, or animals �
 ### a power of
 
 **Pronunciation:** /ə ˈpaʊɚ əv/ &middot; *uh POW-er uhv* &middot; *of* reduces to /ə/: /ə ˈpaʊɚə/
+**Русский:** уйма, страсть сколько — устар./диал.; ныне живо лишь в a power of good
 **Type:** quantifier (partitive phrase) &middot; **Position:** central &middot; **Register:** **dialectal and old-fashioned** — Southern and Appalachian American, and the Irish and British country speech the American use descends from. In present-day American English it survives almost entirely inside the fixed phrase *a power of good*; anything past that reads as period writing or as dialect
 **Goes with:** uncountable nouns above all — *a power of good*, *a power of money*, *a power of trouble*, *a power of work*. Plural countables are rare and strictly dialectal (*a power of people*). Never a bare singular countable noun.
 **With *of*:** *of* is obligatory — ✗ *a power good*. Keep it clear of the ordinary noun *power* taking a complement, where *power* is the real head and means authority: *the power of the press*, *a power of attorney*, *the power of the purse*.
@@ -1400,6 +1464,7 @@ A great deal of something uncountable, in older rural American and Irish-descend
 ### a right smart of
 
 **Pronunciation:** /ə ˌraɪt ˈsmɑrt əv/ &middot; *uh ryt SMART uhv* &middot; *right* here is the intensifying adverb "very" and is unstressed; the phrase carries its main stress on *smart*
+**Русский:** изрядно, порядочно — диал. (Аппалачи и Верхний Юг)
 **Type:** quantifier (partitive phrase) &middot; **Position:** central &middot; **Register:** **regional American — Appalachian and Upper South**, chiefly Virginia, West Virginia, Kentucky, Tennessee, and the Carolinas. Ordinary in older speech there, unknown to most Americans elsewhere, and never written outside dialogue and dialect reporting
 **Goes with:** **both** uncountable nouns (*a right smart of money*, *a right smart of work*, *a right smart of snow*) **and** plural countable nouns (*a right smart of people*). Never a bare singular countable noun.
 **With *of*:** *of* is obligatory in the quantifier — ✗ *a right smart money*. Bare *a right smart* with no *of* is the pronoun or the adverb in the same dialects: *We got a right smart done today*, *It rained right smart last night*.
@@ -1421,6 +1486,7 @@ A considerable quantity or number, in Appalachian and Upper South speech.
 ### a shitload of
 
 **Pronunciation:** /ə ˈʃɪtˌloʊd əv/ &middot; *uh SHIT-lohd uhv* &middot; casually /ə ˈʃɪtloʊdə/, "a shitloada"
+**Русский:** до хрена, до хренища — груб., обсценное: очень много
 **Type:** quantifier (partitive phrase) &middot; **Position:** central &middot; **Register:** **vulgar slang** — obscene, and common in American casual speech among adults who know each other, in comedy, in fiction, and online. **Never in**: any classroom, any workplace where you are not certain of the room, customer-facing speech, a job interview, a court filing, an academic paper, a business email, or a first conversation with anybody. The softened *a crapload of* and *a buttload of* are mildly vulgar rather than obscene and clear some of those bars but none of the formal ones; *a boatload of* and *a truckload of* are not vulgar at all and are the safe way to say the same thing
 **Goes with:** **both** plural countable nouns (*a shitload of emails*, *a shitload of people*) **and** uncountable nouns (*a shitload of money*, *a shitload of work*). Never a bare singular countable noun.
 **With *of*:** *of* is obligatory — ✗ *a shitload money*. The plural *shitloads of* exists and is equally obscene. It stays before another determiner: *a shitload of the paperwork*.
@@ -1442,6 +1508,7 @@ A very large quantity of anything, countable or not, in vulgar American slang.
 ### a sight of
 
 **Pronunciation:** /ə ˈsaɪt əv/ &middot; *uh SYT uhv* &middot; *of* reduces to /ə/ and the *t* flaps: /ə ˈsaɪɾə/
+**Русский:** страсть сколько, уйма — устар./диал. амер.
 **Type:** quantifier (partitive phrase) &middot; **Position:** central &middot; **Register:** **regional and old-fashioned American** — Southern, Appalachian, and older rural New England, and British dialect before that. Alive chiefly in the speech of older speakers; the piece of it most Americans still hear is the adverbial *a sight better*
 **Goes with:** **both** uncountable nouns (*a sight of money*, *a sight of trouble*) **and** plural countable nouns (*a sight of people*). Never a bare singular countable noun.
 **With *of*:** *of* is obligatory in the quantifier — ✗ *a sight money*. Bare *a sight* is the commoner survival and is an **adverb** of degree in front of a comparative: *a sight better*, *a sight more sense*, *a durn sight worse*. That use is not a determiner.
@@ -1463,6 +1530,7 @@ A great deal of something, countable or not, in older regional American speech.
 ### beaucoup
 
 **Pronunciation:** /ˈboʊku/ &middot; *BOH-koo* &middot; also /ˌbuˈku/, *boo-KOO*, which is the pronunciation behind the eye-spellings *boocoo* and *boo-koo*; the French original is /boˈku/
+**Русский:** море, навалом — амер. сленг из французского, армейского происхождения
 **Type:** quantifier &middot; **Position:** central and **bare** — it fills the determiner slot with no article in front of it and no *of* after it: *beaucoup bucks*, never ✗ *a beaucoup of bucks* &middot; **Register:** **slang, borrowed from French**. It entered American English through servicemen stationed in France and came home again from Vietnam, and it is still strongly associated with the military, with veterans, and with Southern speech. Jocular everywhere else, and not written outside dialogue and casual prose
 **Goes with:** **both** plural countable nouns (*beaucoup problems*, *beaucoup people*) **and** uncountable nouns (*beaucoup money*, *beaucoup trouble*). The commonest collocations are about money — *beaucoup bucks*, *beaucoup dollars*. Never a bare singular countable noun: ✗ *beaucoup problem*.
 **With *of*:** it takes **no** *of* — ✗ *beaucoup of money* — and no article. This is where the French original and the American slang part company: French *beaucoup de* requires its preposition, and a speaker who carries it over produces ✗ *beaucoup of*, which is not the English idiom.
@@ -1484,6 +1552,7 @@ A lot of anything, countable or not, in American slang borrowed from French and 
 ### hella
 
 **Pronunciation:** /ˈhɛlə/ &middot; *HELL-uh* &middot; the second syllable is the weak /ə/; there is no /r/ in it
+**Русский:** до фига, уйма — сленг Северной Калифорнии; также усилитель «очень»
 **Type:** quantifier, and a degree adverb in its other job &middot; **Position:** as a quantifier, central and **bare** — no article, no *of*: *hella people*, *hella money*. As a degree adverb it precedes an adjective or another adverb (*hella good*, *hella fast*), which is not a determiner use at all &middot; **Register:** **regional American slang — Northern California**. It was born in the Bay Area and spread nationally through music and the internet without losing its accent: in the Bay Area it is ordinary casual speech, elsewhere it is either borrowed or performed, and older speakers everywhere hear it as teenage. Not used in writing outside dialogue and social media
 **Goes with:** **both** plural countable nouns (*hella people*, *hella cars*) **and** uncountable nouns (*hella money*, *hella traffic*, *hella work*). Never a bare singular countable noun: ✗ *hella car*.
 **With *of*:** it takes **no** *of* — ✗ *hella of people* — and no article: ✗ *a hella people*.
@@ -1505,6 +1574,7 @@ A lot of anything, countable or not, in Northern California slang.
 ### mad
 
 **Pronunciation:** /mæd/ &middot; *MAD* &middot; identical to the ordinary adjective *mad*; only the grammar tells them apart
+**Русский:** немерено, куча — сленг Нью-Йорка: очень много
 **Type:** quantifier &middot; **Position:** central and **bare** — no article, no *of*: *mad people*, *mad respect*. It cannot follow a determiner in this sense, and the moment one appears the meaning flips: *the mad people* is about insanity, not about numbers &middot; **Register:** **regional American slang — New York City**, out of hip-hop and Black and Latino youth speech of the 1980s and 1990s and spread from there. Still strongly New York-flavored. Casual speech only; nothing about it belongs in writing that is not quoting somebody
 **Goes with:** **both** plural countable nouns (*mad people*, *mad cars*) **and** uncountable nouns (*mad money*, *mad respect*, *mad love*, *mad traffic*). Never a bare singular countable noun: ✗ *mad car*.
 **With *of*:** it takes **no** *of* — ✗ *mad of people* — and no article: ✗ *a mad people*.
@@ -1530,6 +1600,7 @@ These are the large-quantity forms an American meets in reading rather than in c
 ### a parcel of
 
 **Pronunciation:** /ə ˈpɑrsəl əv/ &middot; *uh PAR-sul uhv* &middot; *of* reduces to /ə/: /ə ˈpɑrsələ/
+**Русский:** свора, сборище — устар. и презр.: a parcel of lies «сплошное враньё»
 **Type:** quantifier (partitive phrase) &middot; **Position:** central &middot; **Register:** **archaic**, and wherever it survives, **contemptuous**. In present-day American English it is alive only in the dismissive frame *a parcel of lies*, *a parcel of fools*, *a parcel of nonsense*, and even there it sounds like a quotation. Its country descendant [a passel of](#a-passel-of) is the living form of the same word
 **Goes with:** plural countable nouns naming people held in contempt (*a parcel of rogues*, *a parcel of fools*, *a parcel of idlers*) and uncountable nouns naming falsehood or foolishness (*a parcel of lies*, *a parcel of nonsense*). It is not used of neutral things: *a parcel of chairs* reads as the literal noun, a wrapped package of them.
 **With *of*:** *of* is obligatory — ✗ *a parcel lies*. The literal noun is a separate and thoroughly current word — *a parcel of land*, *a parcel from the post office* — and there *parcel* pluralizes freely and carries no scorn.
@@ -1551,6 +1622,7 @@ A collection of people or claims the speaker holds in contempt — archaic, and 
 ### enow
 
 **Pronunciation:** /əˈnaʊ/ &middot; *uh-NOW* &middot; it rhymes with *now*, not with *know*, and the first syllable is the weak /ə/ exactly as in *enough*
+**Русский:** устар. форма enough — довольно, вдоволь; встречается только в цитатах
 **Type:** quantifier (sufficiency) &middot; **Position:** before its noun (*enow provisions*) or, far more often in verse, **after** it — *Paradise enow*, *gold enow* — exactly as *enough* once could and still can in a few fixed phrases &middot; **Register:** **archaic**. It is the old northern English and Scots form of *enough*, dead in American English since the nineteenth century and alive now only in quotation — above all in FitzGerald's *Rubáiyát of Omar Khayyám*, which is where nearly every American who knows the word learned it
 **Goes with:** **both** plural countable nouns (*friends enow*, *books enow*) **and** uncountable nouns (*gold enow*, *trouble enow*). Historically *enow* was the plural-countable form and *enough* the mass form — *books enow* beside *bread enough* — the same countability split that separates *many* from *much*; but the distinction had broken down before the word died, and the surviving quotations do not observe it.
 **With *of*:** in the surviving quotations it takes no *of*-phrase. Its modern replacement does: *enough of the money*, *enough of them*.
@@ -1572,6 +1644,7 @@ The archaic form of *enough* — a sufficient or plentiful quantity, met today o
 ### full many a
 
 **Pronunciation:** /ˌfʊl ˈmɛni ə/ &middot; *fool MEN-ee uh* &middot; *full* here has the vowel of *pull*, /fʊl/, and is unstressed; the phrase carries its stress on *many*, and the article stays the weak /ə/
+**Русский:** устар., поэт. усиление many a — «весьма многие», по одному
 **Type:** quantifier &middot; **Position:** predeterminer — the article *a* is locked inside the phrase, so nothing may precede it: ✗ *the full many a gem* &middot; **Register:** **archaic and poetic**. It is a verse intensification of [many a](#many-a), at home in eighteenth- and nineteenth-century English poetry, and the line most Americans have met it in is Gray's *Elegy Written in a Country Churchyard*. No living register produces it
 **Goes with:** **singular** countable nouns only, exactly as *many a* does — *full many a gem*, *full many a flower*, *full many a time*. Never a plural (✗ *full many a gems*) and never an uncountable noun. The singular runs through the whole clause: *Full many a flower **is** born to blush unseen.*
 **With *of*:** it never takes *of* — ✗ *full many a of them*. Before a vowel sound the article changes as usual: *full many an hour*.
@@ -1593,6 +1666,7 @@ A poetic intensification of *many a* — a great number of things, considered on
 ### many and many a
 
 **Pronunciation:** /ˌmɛni ən ˈmɛni ə/ &middot; *MEN-ee uhn MEN-ee uh* &middot; the linking *and* is always the weak /ən/ or a bare /n/, never the full /ænd/; the second *many* carries the main stress
+**Русский:** устар., лит.: «много-много раз» — эмфатический повтор many a
 **Type:** quantifier &middot; **Position:** predeterminer, with the article *a* locked inside the phrase — nothing may precede it &middot; **Register:** **archaic and literary**; a reduplication used in nineteenth-century verse and storytelling for emphasis and rhythm. Poe's "It was many and many a year ago, / In a kingdom by the sea" is the line that keeps it in circulation. Living speakers produce it only in a deliberately storybook voice
 **Goes with:** **singular** countable nouns only — *many and many a year*, *many and many a time*, *many and many a night* — with a strong preference for nouns of time. Plural and uncountable nouns are both impossible: ✗ *many and many a years*, ✗ *many and many a money*. Singular agreement runs through the clause.
 **With *of*:** it never takes *of* — ✗ *many and many a of them*. Before a vowel sound the article changes: *many and many an hour*.
@@ -1614,6 +1688,7 @@ An emphatic, repeated *many a* — a great many occasions, one after another, in
 ### many's the
 
 **Pronunciation:** /ˈmɛniz ðə/ &middot; *MEN-eez thuh* &middot; the contracted *'s* is /z/ and the article is the weak /ðə/, becoming /ði/ only before a vowel
+**Русский:** сколько раз бывало… — разг.-старомодный зачин о множестве случаев
 **Type:** quantifier in a fixed clause frame &middot; **Position:** predeterminer inside a **fronted** noun phrase: the phrase opens the sentence and a relative clause completes it — *Many's the night I fell asleep at that desk*. It cannot appear anywhere else in the sentence &middot; **Register:** **old-fashioned but not dead** — still produced by living American speakers reaching for a folksy, reminiscent tone, and common in older fiction and in Irish and Irish-American speech. It is the one form in this section you might actually hear said out loud
 **Goes with:** **singular** countable nouns only — *many's the night*, *many's the time*, *many's the man*, *many's the story* — with nouns of time dominating. Never a plural (✗ *many's the nights*) and never an uncountable noun.
 **With *of*:** it never takes *of*. The frame instead requires a clause: *many's the* + singular noun + a relative clause, with the relative pronoun usually left out — *Many's the time I have wondered* rather than *Many's the time that I have wondered*.
@@ -1639,6 +1714,7 @@ Three of the four phrases here name a **threshold** rather than an impression. A
 ### a plurality of
 
 **Pronunciation:** /ə plʊˈræləɾi əv/ &middot; *uh pluh-RAL-uh-tee uhv* &middot; the *t* flaps to /ɾ/ in American speech, as it does in *majority* and *variety*
+**Русский:** относительное большинство голосов — юр./полит.; в патентах «более одного»
 **Type:** quantifier (partitive phrase) &middot; **Position:** central &middot; **Register:** **technical** — election law and political reporting in the first sense, patent drafting in the second. Outside those two worlds an American meets it on election night and nowhere else
 **Goes with:** plural countable nouns — *a plurality of voters*, *a plurality of the votes cast*, *a plurality of the members*. In patent claims it takes any countable noun at all: *a plurality of apertures*. Never an uncountable noun: ✗ *a plurality of money*.
 **With *of*:** *of* is obligatory — ✗ *a plurality voters*. The noun after *of* is normally definite or generic: *a plurality of the votes*, *a plurality of Americans*. Bare *a plurality* is common with the set understood: *She won a plurality.*
@@ -1662,6 +1738,7 @@ Names the largest share of a vote or a group — and, in patent drafting, nothin
 ### a quorum of
 
 **Pronunciation:** /ə ˈkwɔrəm əv/ &middot; *uh KWOR-uhm uhv* &middot; *of* reduces to /ə/: /ə ˈkwɔrəmə/
+**Русский:** кворум — число членов, необходимое для правомочности заседания
 **Type:** quantifier (partitive phrase) &middot; **Position:** central &middot; **Register:** **technical** — parliamentary procedure, corporate governance, statutes, and the minutes of any body that meets and votes. Neutral inside that world and out of place outside it
 **Goes with:** plural countable nouns naming the members of a defined body — *a quorum of the board*, *a quorum of members*, *a quorum of the senate*. It cannot take an uncountable noun (✗ *a quorum of money*) and cannot take a set with no membership rule behind it (✗ *a quorum of customers*).
 **With *of*:** *of* is obligatory when the body is named — ✗ *a quorum the board*. Bare *a quorum* with the body understood is the commoner form in practice: *We have a quorum*, *A quorum was present*, *The meeting lacked a quorum*.
@@ -1683,6 +1760,7 @@ The number of a body's members that must be present before it can transact busin
 ### a supermajority of
 
 **Pronunciation:** /ə ˌsupɚməˈdʒɔrəɾi əv/ &middot; *uh soo-per-muh-JOR-uh-tee uhv* &middot; main stress on *-jor-*, secondary stress on *su-*; the *t* flaps to /ɾ/ as in *majority*
+**Русский:** квалифицированное большинство — доля больше простого большинства
 **Type:** quantifier (partitive phrase) &middot; **Position:** central &middot; **Register:** **technical** — constitutional and corporate law, legislative reporting, and bylaws. It has become common enough in political journalism since the 1970s that most Americans meet it every budget season
 **Goes with:** plural countable nouns naming members or votes — *a supermajority of the senate*, *a supermajority of shareholders*, *a supermajority of the votes cast*. Never an uncountable noun: ✗ *a supermajority of support*.
 **With *of*:** *of* is obligatory when the body is named — ✗ *a supermajority the senate*. Bare *a supermajority* is common with the body understood: *The amendment needs a supermajority.*
@@ -1704,6 +1782,7 @@ A share of a body larger than a simple majority, at a level fixed by statute, ch
 ### so much of … as
 
 **Pronunciation:** /ˌsoʊ ˈmʌtʃ əv … æz/ &middot; *soh MUCH uhv … AZ* &middot; read aloud, the *as* is normally weak, /əz/, and *of* reduces to /əv/ or /ə/
+**Русский:** юр.: в той части, в какой… — только та часть, которая отвечает условию
 **Type:** quantifier in a correlative frame &middot; **Position:** central — *so much* fills the determiner slot and the *as*-clause that completes it follows the noun &middot; **Register:** **legal and formal** — the ordinary drafting idiom of statutes, wills, appropriations, and contracts, and stiff to the point of parody anywhere else. Plain-language drafting is steadily replacing it with *the part of … that*
 **Goes with:** uncountable nouns and mass-like abstractions in the *much* version — *so much of the fund as remains*, *so much of the Act as relates to fees*. The countable version is *so many … as*: *so many of the directors as are present*. Never a bare singular countable noun.
 **With *of*:** *of* is **obligatory**, and so is the *as*-clause: both halves are required. ✗ *so much of the fund* alone is incomplete, and *so much as* by itself is a different construction entirely, an emphatic negative-polarity item meaning "even" (*he never so much as looked at it*).

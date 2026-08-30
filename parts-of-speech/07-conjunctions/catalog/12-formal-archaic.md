@@ -15,6 +15,7 @@ Words for *but* and *although* that have been promoted into formal registers. Th
 ### albeit
 
 **Pronunciation:** /ɔlˈbiɪt/, /ælˈbiɪt/ &middot; *awl-BEE-it, al-BEE-it*
+**Русский:** хотя и — книжн., присоединяет уступительный оборот, а не полное придаточное
 **Type:** subordinating &middot; **Register:** formal
 **Clause type:** reduced concessive clause — normally a phrase, not a full clause
 **Pattern:** [main clause], *albeit* [adjective / adverb / noun phrase / prepositional phrase]. &middot; [article] [adjective], *albeit* [adjective], [noun]. &middot; [main clause], *albeit* *that* [clause] (rare and dated).
@@ -35,6 +36,7 @@ A formal concessive meaning *although it be*. Its one distinguishing habit is th
 ### be that as it may
 
 **Pronunciation:** /ˌbi ðæt əz ɪt ˈmeɪ/ &middot; *bee-that-uhz-it-MAY*
+**Русский:** как бы то ни было — книжн., уступает предыдущий довод и всё же настаивает на своём
 **Type:** conjunctive adverb (fixed phrase) &middot; **Register:** formal
 **Clause type:** sentence adverbial of concession — modifies the whole following clause
 **Pattern:** [clause]. *Be that as it may*, [clause]. &middot; [clause]; *be that as it may*, [clause].
@@ -54,6 +56,7 @@ A frozen subjunctive clause — literally *let that be as it may be* — used to
 ### howsoever
 
 **Pronunciation:** /ˌhaʊsoʊˈɛvər/ &middot; *how-soh-EV-er*
+**Русский:** как бы ни, каким бы образом ни — книжн./устар., усиленная форма however
 **Type:** subordinating &middot; **Register:** formal, archaic-leaning
 **Clause type:** adverbial clause of concessive condition ("no matter how")
 **Pattern:** *Howsoever* [subject] [verb], [main clause]. &middot; *Howsoever* [adjective/adverb] [subject] (*may be*), [main clause]. &middot; [main clause] *howsoever* [subject] [verb]. &middot; [noun/participle] *howsoever* [prepositional phrase] (legal boilerplate, no commas).
@@ -73,6 +76,7 @@ The emphatic *-soever* form of *however* in its subordinating sense: *no matter 
 ### much as
 
 **Pronunciation:** /ˈmʌtʃ æz/ &middot; /ˈmʌtʃ əz/ &middot; *MUCH az*
+**Русский:** как ни, при всём том что — книжн., уступка по степени: «хотя очень»
 **Type:** subordinating &middot; **Register:** formal, literary
 **Clause type:** adverbial clause of concession (= *although … very much*)
 **Pattern:** *Much as* [subject] [verb], [main clause]. &middot; [main clause], *much as* [subject] [verb]. &middot; *As much as* [subject] [verb], [main clause].
@@ -93,6 +97,7 @@ A concessive that concedes an **intensity**: *Much as I admire her, I cannot vot
 ### notwithstanding
 
 **Pronunciation:** /ˌnɑtwɪθˈstændɪŋ/, /ˌnɑtwɪðˈstændɪŋ/ &middot; *not-with-STAN-ding*
+**Русский:** несмотря на — юр., книжн.; может стоять и после своего дополнения
 **Type:** subordinating (with *that*); preposition and postposition elsewhere &middot; **Register:** formal, legal
 **Clause type:** adverbial clause of concession with *that*; otherwise a concessive prepositional phrase
 **Pattern:** *Notwithstanding* [noun phrase], [main clause]. &middot; [noun phrase] *notwithstanding*, [main clause]. &middot; *Notwithstanding that* [clause], [main clause]. &middot; [main clause] *notwithstanding* [noun phrase].
@@ -113,6 +118,7 @@ The heavyweight concessive of American legal drafting, where *notwithstanding an
 ### whilst
 
 **Pronunciation:** /waɪlst/ &middot; *WHYLST*
+**Русский:** пока; тогда как — брит. вариант while, в американском английском не пишут
 **Type:** subordinating &middot; **Register:** formal — **British, not American**
 **Clause type:** adverbial clause of time (simultaneity) or of contrast
 **Pattern:** *Whilst* [subject] [verb], [main clause]. &middot; [main clause] *whilst* [subject] [verb] (simultaneity). &middot; [main clause], *whilst* [subject] [verb] (contrast). &middot; [main clause] *whilst* [-ing phrase / reduced clause].
@@ -137,6 +143,7 @@ The *-asmuch* family plus the two purpose conjunctions that still turn up in ser
 ### forasmuch as
 
 **Pronunciation:** /ˌfɔrəzˈmʌtʃ æz/ &middot; /ˌfɔrəzˈmʌtʃ əz/ &middot; *for-uhz-MUCH az*
+**Русский:** поскольку, ввиду того что — устар., книжн., язык Библии и старых актов
 **Type:** subordinating &middot; **Register:** archaic, legal and liturgical
 **Clause type:** adverbial clause of cause
 **Pattern:** *Forasmuch as* [clause], [main clause]. &middot; [main clause], *forasmuch as* [clause] (rare).
@@ -157,6 +164,7 @@ A causal conjunction meaning *seeing that*, *since*. Where *inasmuch as* narrowe
 ### in that
 
 **Pronunciation:** /ɪn ˈðæt/ &middot; /ɪn ðət/ &middot; *in-THAT*
+**Русский:** тем, что; в том отношении, что — книжн., указывает, в чём именно верно сказанное
 **Type:** subordinating &middot; **Register:** formal
 **Clause type:** adverbial clause of cause or respect
 **Pattern:** [main clause] *in that* [clause].
@@ -176,6 +184,7 @@ A formal causal conjunction that specifies the *respect* in which the main claus
 ### inasmuch as
 
 **Pronunciation:** /ˌɪnəzˈmʌtʃ æz/ &middot; /ˌɪnəzˈmʌtʃ əz/ &middot; *in-uhz-MUCH az*
+**Русский:** поскольку; в той мере, в какой — книжн., причина или степень
 **Type:** subordinating &middot; **Register:** formal
 **Clause type:** adverbial clause of cause, or of degree/respect
 **Pattern:** *Inasmuch as* [clause], [main clause]. &middot; [main clause] *inasmuch as* [clause].
@@ -196,6 +205,7 @@ Two related senses: *because* (*Inasmuch as the plaintiff failed to appear, the 
 ### insomuch as
 
 **Pronunciation:** /ˌɪnsəˈmʌtʃ æz/ &middot; /ˌɪnsəˈmʌtʃ əz/ &middot; *in-suh-MUCH az*
+**Русский:** настолько, что; до такой степени, что — устар., книжн., вводит следствие
 **Type:** subordinating &middot; **Register:** archaic, formal
 **Clause type:** adverbial clause of result or degree
 **Pattern:** [main clause], *insomuch that* [clause]. &middot; [main clause] *insomuch as* [clause].
@@ -215,6 +225,7 @@ Means *to such a degree that* — it introduces the **result** of what the main 
 ### lest
 
 **Pronunciation:** /lɛst/ &middot; *LEST*
+**Русский:** чтобы не; как бы не — книжн., отрицательная цель, требует сослагательного наклонения
 **Type:** subordinating &middot; **Register:** formal, literary
 **Clause type:** adverbial clause of negative purpose, or complement of an expression of fear
 **Pattern:** [main clause] *lest* [subject] [**bare verb**]. &middot; [main clause] *lest* [subject] *should* [verb]. &middot; *Lest* [subject] [bare verb], [main clause].
@@ -235,6 +246,7 @@ Introduces the outcome to be **avoided**, so it is inherently negative: *lest* a
 ### to the end that
 
 **Pronunciation:** /tə ði ˈɛnd ðæt/ &middot; *tuh-thee-END-that*
+**Русский:** с тем чтобы, дабы — юр., книжн.; в придаточном обычно may/shall/should
 **Type:** subordinating &middot; **Register:** formal, legal
 **Clause type:** adverbial clause of purpose
 **Pattern:** [main clause] *to the end that* [subject] *may/might/shall/should* [verb]. &middot; [main clause], *to the end that* [clause]. &middot; *To the end that* [subject] *may/might/shall/should* [verb], [main clause].
@@ -259,6 +271,7 @@ The exceptive conjunctions: ways of saying *except* that outrank *except*. Sever
 ### but
 
 **Pronunciation:** /bʌt/ &middot; /bət/ &middot; *BUT*
+**Русский:** кроме, за исключением — книжн., в оборотах none but, nothing but, no choice but
 **Type:** quasi-coordinator — exceptive; prepositional before a noun phrase &middot; **Register:** formal, literary
 **Clause type:** exceptive phrase; before a bare infinitive it introduces a reduced clause
 **Pattern:** [no one / none / nothing / nobody / all / who] *but* [noun phrase]. &middot; [nothing / no choice / no option] *but* [bare infinitive].
@@ -279,6 +292,7 @@ This is not the FANBOYS *but* — it means **except**, and it survives in fixed 
 ### but for
 
 **Pronunciation:** /bʌt ˈfɔr/ &middot; /bət ˈfɔr/ &middot; *but-FOR*
+**Русский:** если бы не — юр., книжн., называет обстоятельство, без которого исход был бы иным
 **Type:** quasi-coordinator — counterfactual prepositional connective; not a clause introducer &middot; **Register:** formal, legal
 **Clause type:** counterfactual conditional phrase; the main clause carries *would* or *would have*
 **Pattern:** *But for* [noun phrase], [main clause with *would* / *would have*]. &middot; [main clause with *would* / *would have*] *but for* [noun phrase].
@@ -299,6 +313,7 @@ The counterfactual *but*: it names the one circumstance whose absence would have
 ### but that
 
 **Pronunciation:** /bʌt ˈðæt/ &middot; /bət ˈðæt/ &middot; *but-THAT*
+**Русский:** что (после отрицаемого сомнения); если бы не — книжн., устар.
 **Type:** subordinating &middot; **Register:** formal, archaic
 **Clause type:** noun clause after a negated expression of doubt; or adverbial clause of exception
 **Pattern:** [negated doubt/denial] *but that* [clause]. &middot; *But that* [clause], [main clause]. &middot; [not so ADJ] *but that* [clause].
@@ -318,6 +333,7 @@ Three formal uses. After a negated verb of doubting or denying it simply fills i
 ### except as otherwise provided
 
 **Pronunciation:** /ɪkˈsɛpt əz ˈʌðərwaɪz prəˈvaɪdɪd/ &middot; *ik-SEPT az UH-ther-wize pruh-VY-did*
+**Русский:** если иное не предусмотрено — юр., стандартная договорная оговорка
 **Type:** subordinating — reduced exceptive clause &middot; **Register:** formal, legal
 **Clause type:** reduced adverbial clause of exception; the *as* clause stands in for whatever the other provision says
 **Pattern:** *Except as otherwise provided* [in Section X / herein], [main clause]. &middot; *Unless otherwise provided* [in X], [main clause]. &middot; [main clause] *except as otherwise provided in* [X].
@@ -338,6 +354,7 @@ The standard American drafting formula for making one provision yield to another
 ### except that
 
 **Pronunciation:** /ɪkˈsɛpt ðæt/ &middot; /ɪkˈsɛpt ðət/ &middot; *ik-SEPT that*
+**Русский:** кроме того что, за исключением того что — нейтр.-книжн., вычитает одну деталь
 **Type:** subordinating &middot; **Register:** neutral to formal (bare *except* is informal)
 **Clause type:** adverbial clause of exception
 **Pattern:** [main clause], *except that* [clause]. &middot; [main clause] *except that* [clause]. &middot; *Except that* [clause], [main clause].
@@ -358,6 +375,7 @@ The everyday exceptive conjunction and the modern replacement for *save that*. I
 ### provided always that
 
 **Pronunciation:** /prəˈvaɪdɪd ˈɔlweɪz ðæt/ &middot; *pruh-VY-did AWL-wayz that*
+**Русский:** при условии, что — юр., оговорка, ограничивающая только что сказанное
 **Type:** subordinating &middot; **Register:** formal, legal
 **Clause type:** adverbial clause of condition (a proviso limiting the clause before it)
 **Pattern:** [main clause]; *provided always that* [clause]. &middot; [main clause]; *provided, however, that* [clause]. &middot; [main clause], *provided that* [clause].
@@ -377,6 +395,7 @@ The contract proviso: a condition attached after the fact to cut back the grant 
 ### provided further that
 
 **Pronunciation:** /prəˈvaɪdɪd ˈfɜrðər ðæt/ &middot; /prəˈvaɪdɪd ˈfɜrðər ðət/ &middot; *pruh-VY-did FUR-ther that*
+**Русский:** и при этом при условии, что — юр., вторая оговорка, добавленная к первой
 **Type:** subordinating &middot; **Register:** formal, legal
 **Clause type:** adverbial clause of condition — a **second** proviso stacked on the first
 **Pattern:** [main clause]; *provided that* [clause]; *provided further that* [clause]. &middot; [main clause]; *provided further, however, that* [clause].
@@ -396,6 +415,7 @@ The marker of a **stacked** proviso: it adds a second condition to the one just 
 ### provided, however, that
 
 **Pronunciation:** /prəˈvaɪdɪd haʊˈɛvər ðæt/ &middot; *pruh-VY-did how-EV-er that*
+**Русский:** при условии, однако, что — юр., оговорка, отбирающая часть только что данного
 **Type:** subordinating &middot; **Register:** formal, legal
 **Clause type:** adverbial clause of condition — an **adversative** proviso cutting back what precedes
 **Pattern:** [main clause]; *provided, however, that* [clause]. &middot; [main clause]; *provided, however, that* [clause]; *and provided further that* [clause].
@@ -415,6 +435,7 @@ The adversative proviso: *however* announces that the condition about to be stat
 ### save
 
 **Pronunciation:** /seɪv/ &middot; *SAYV*
+**Русский:** кроме, за исключением — книжн., лит., при all, none, nothing; чаще как save for
 **Type:** quasi-coordinator — exceptive; prepositional before a noun phrase &middot; **Register:** formal, literary
 **Clause type:** exceptive phrase subtracted from the main clause
 **Pattern:** [all / every / none / nothing / no one] [predicate] *save* [noun phrase]. &middot; [main clause] *save for* [noun phrase]. &middot; [main clause], *save for* [noun phrase].
@@ -434,6 +455,7 @@ The literary *except*. It sits between the exhaustive word (*all*, *every*, *non
 ### save and except
 
 **Pronunciation:** /ˌseɪv ənd ɪkˈsɛpt/ &middot; /ˌseɪv n̩ ɪkˈsɛpt/ &middot; *sayv-and-ik-SEPT*
+**Русский:** за исключением — юр., парная формула в актах на недвижимость и недра
 **Type:** quasi-coordinator — exceptive; subordinating with *that* &middot; **Register:** formal, legal
 **Clause type:** exceptive phrase carving one thing out of a larger grant; with *that*, an adverbial clause of exception
 **Pattern:** [grant of the whole] *save and except* [noun phrase]. &middot; [grant], *save and except that* [clause]. &middot; *SAVE AND EXCEPTING* therefrom [description of the parcel reserved].
@@ -453,6 +475,7 @@ A legal doublet: *save* is the native English exceptive and *except* the Latin-d
 ### save that
 
 **Pronunciation:** /ˈseɪv ðæt/ &middot; *SAYV that*
+**Русский:** за исключением того, что — книжн., юр., клаузальный вариант save (= except that)
 **Type:** subordinating &middot; **Register:** formal, legal, literary
 **Clause type:** adverbial clause of exception
 **Pattern:** [main clause], *save that* [clause]. &middot; *Save that* [clause], [main clause].
@@ -476,6 +499,7 @@ Two connectives that limit or scale a claim rather than assert it outright. Both
 ### according as
 
 **Pronunciation:** /əˈkɔrdɪŋ æz/ &middot; /əˈkɔrdɪŋ əz/ &middot; *uh-KOR-ding az*
+**Русский:** смотря по тому, как; в зависимости от того — устар., книжн., соответствие
 **Type:** subordinating &middot; **Register:** archaic, formal
 **Clause type:** adverbial clause of proportion or correspondence
 **Pattern:** [main clause] *according as* [clause]. &middot; *According as* [clause], [main clause].
@@ -496,6 +520,7 @@ Sets up a correspondence: the main clause varies **in step with** the subordinat
 ### insofar as
 
 **Pronunciation:** /ˌɪnsəˈfɑr æz/ &middot; /ˌɪnsəˈfɑr əz/ &middot; *in-suh-FAR az*
+**Русский:** постольку, поскольку; в той мере, в какой — книжн., ограничивает утверждение
 **Type:** subordinating &middot; **Register:** formal
 **Clause type:** adverbial clause of degree or extent
 **Pattern:** [main clause] *insofar as* [clause]. &middot; *Insofar as* [clause], [main clause].
@@ -519,6 +544,7 @@ A closed set built on one pattern: *where-* plus a preposition, meaning *preposi
 ### whence
 
 **Pronunciation:** /wɛns/, /hwɛns/ &middot; *WENSS*
+**Русский:** откуда — устар., лит.; предлог «от» уже заключён в самом слове
 **Type:** subordinating — relative adverb; also interrogative &middot; **Register:** archaic, literary
 **Clause type:** relative clause of place/source, or interrogative noun clause
 **Pattern:** [noun phrase] *whence* [clause]. &middot; [verb of knowing/saying] *whence* [clause]. &middot; *Whence* [verb] [subject]? &middot; [main clause], *whence* [clause].
@@ -539,6 +565,7 @@ Means *from where* or *from which* — the *from* is already inside the word. Th
 ### whensoever
 
 **Pronunciation:** /ˌwɛnsoʊˈɛvər/, /ˌhwɛnsoʊˈɛvər/ &middot; *wen-soh-EV-er*
+**Русский:** когда бы ни — устар., юр. канцелярит, усиленное whenever
 **Type:** subordinating &middot; **Register:** archaic, formal — alive in legal boilerplate
 **Clause type:** adverbial clause of indefinite time ("at whatever time", "no matter when")
 **Pattern:** *Whensoever* [clause], [main clause]. &middot; [main clause] *whensoever* [clause]. &middot; [noun phrase] *whensoever* [participle / prepositional phrase] (boilerplate, no commas).
@@ -558,6 +585,7 @@ The *-soever* form of *whenever*: *at whatever time*. Like the rest of its famil
 ### whereas
 
 **Pronunciation:** /wɛrˈæz/ &middot; /wərˈæz/ &middot; *wair-AZ*
+**Русский:** принимая во внимание, что — юр., зачин преамбулы договора (не «тогда как»)
 **Type:** subordinating &middot; **Register:** formal, legal
 **Clause type:** recital clause — a stacked background statement, not joined to a main clause
 **Pattern:** *WHEREAS*, [clause]; &middot; *WHEREAS*, [clause]; *NOW, THEREFORE*, [operative clause]. &middot; *Whereas* [clause], [resolving clause].
@@ -577,6 +605,7 @@ Two different words share this spelling. The everyday one is the contrastive sub
 ### whereat
 
 **Pronunciation:** /wɛrˈæt/ &middot; *wair-AT*
+**Русский:** на что, в ответ на что — устар., лит., реакция на только что случившееся
 **Type:** subordinating — relative adverb &middot; **Register:** archaic, literary
 **Clause type:** sentence-relative clause of reaction or point in time
 **Pattern:** [clause], *whereat* [clause].
@@ -596,6 +625,7 @@ Means *at which* — most often *at which point*, introducing somebody's reactio
 ### whereby
 
 **Pronunciation:** /wɛrˈbaɪ/ &middot; *wair-BY*
+**Русский:** посредством чего, благодаря чему — книжн., при слове со значением механизма
 **Type:** subordinating — relative adverb &middot; **Register:** formal
 **Clause type:** relative clause modifying a noun of mechanism (*system*, *process*, *arrangement*)
 **Pattern:** [noun phrase] *whereby* [clause]. &middot; [noun phrase], *whereby* [clause] (nonrestrictive, rarer).
@@ -616,6 +646,7 @@ Means *by which* or *by means of which*, and it is by a wide margin the healthie
 ### wherefore
 
 **Pronunciation:** /ˈwɛrfɔr/ &middot; *WAIR-fore*
+**Русский:** почему; вследствие чего — устар.; в юр. — зачин просительной части иска
 **Type:** conjunctive adverb (legal); interrogative adverb (archaic) &middot; **Register:** archaic, legal
 **Clause type:** sentence adverbial of consequence; or interrogative noun clause of reason
 **Pattern:** [clause]; *wherefore*, [clause]. &middot; [clause]. *Wherefore*, [clause]. &middot; *WHEREFORE*, [petitioner] prays [clause]. &middot; *Wherefore* [verb] [subject]?
@@ -635,6 +666,7 @@ Means *for what reason* (the archaic question word) or *for which reason* (the l
 ### wherein
 
 **Pronunciation:** /wɛrˈɪn/ &middot; *wair-IN*
+**Русский:** в котором; в чём именно — книжн., юр.
 **Type:** subordinating — relative adverb &middot; **Register:** formal, legal
 **Clause type:** relative clause of place or respect; or interrogative noun clause
 **Pattern:** [noun phrase] *wherein* [clause]. &middot; [main clause] *wherein* [clause].
@@ -655,6 +687,7 @@ Means *in which* — either literally inside something (*a contract wherein the 
 ### whereinto
 
 **Pronunciation:** /ˌwɛrɪnˈtu/ &middot; *wair-in-TOO*
+**Русский:** куда, во что — устар., библ., юр.; динамическая пара к wherein
 **Type:** subordinating — relative adverb &middot; **Register:** archaic, biblical, legal
 **Clause type:** relative clause of entry or destination (*into which*)
 **Pattern:** [noun phrase] *whereinto* [clause]. &middot; [noun phrase], *whereinto* [clause] (nonrestrictive). &middot; [noun phrase] *whereinto* *to* [verb] (rare).
@@ -674,6 +707,7 @@ Means *into which* — the motion counterpart of **wherein**, which is static: *
 ### whereof
 
 **Pronunciation:** /wɛrˈʌv/, /wɛrˈɑv/ &middot; *wair-UV*
+**Русский:** которого, о котором — устар., юр.; живёт в формуле in witness whereof
 **Type:** subordinating — relative adverb &middot; **Register:** archaic, legal
 **Clause type:** relative clause modifying a noun (*of which*, *of whom*)
 **Pattern:** [noun phrase] *whereof* [clause]. &middot; IN WITNESS *WHEREOF*, [clause].
@@ -693,6 +727,7 @@ Means *of which* or *of whom*. Nearly all of its modern life is inside one froze
 ### whereon
 
 **Pronunciation:** /wɛrˈɑn/, /wɛrˈɔn/ &middot; *wair-ON*
+**Русский:** на котором — устар., юр.; и буквально, и переносно («на чём основано»)
 **Type:** subordinating — relative adverb &middot; **Register:** archaic, legal
 **Clause type:** relative clause of location or basis (*on which*)
 **Pattern:** [noun phrase] *whereon* [clause]. &middot; [noun phrase] *whereon* *to* [verb]. &middot; [noun phrase], *whereon* [clause] (nonrestrictive).
@@ -713,6 +748,7 @@ Means *on which*, both physically (*the rock whereon the church is built*) and a
 ### whereto
 
 **Pronunciation:** /wɛrˈtu/ &middot; *wair-TOO*
+**Русский:** к которому, куда; для чего — устар., юр.
 **Type:** subordinating — relative adverb; also interrogative &middot; **Register:** archaic, legal
 **Clause type:** relative clause of destination or purpose (*to which*); or interrogative noun clause (*to what end*)
 **Pattern:** [noun phrase] *whereto* [clause]. &middot; [noun phrase] *whereto* [subject] [*is/are* + past participle]. &middot; *Whereto* [verb] [subject]? (interrogative).
@@ -732,6 +768,7 @@ Means *to which*, and in its older sense *to what end*. It is the destination re
 ### whereupon
 
 **Pronunciation:** /ˌwɛrəˈpɑn/ &middot; *wair-uh-PON*
+**Русский:** после чего, вслед за чем — книжн., второе событие, вызванное первым
 **Type:** subordinating — sentence-relative adverb &middot; **Register:** formal, literary
 **Clause type:** sentence-relative clause of immediate sequence
 **Pattern:** [clause], *whereupon* [clause].
@@ -751,6 +788,7 @@ Means *immediately after which* — it chains a second event onto the first and 
 ### wherewith
 
 **Pronunciation:** /wɛrˈwɪθ/, /wɛrˈwɪð/ &middot; *wair-WITH*
+**Русский:** чем, посредством чего — устар., лит.; обычно о недостающем средстве
 **Type:** subordinating — relative adverb &middot; **Register:** archaic, literary
 **Clause type:** relative clause of means, usually followed by *to* + infinitive
 **Pattern:** [noun phrase] *wherewith* *to* [verb]. &middot; [noun phrase] *wherewith* [clause].
@@ -770,6 +808,7 @@ Means *with which* or *by means of which*, and it almost always names the resour
 ### whither
 
 **Pronunciation:** /ˈwɪðər/ &middot; *WITH-er*
+**Русский:** куда — устар., лит.; произносится со звонким th, не путать с wither
 **Type:** subordinating — relative adverb; also interrogative &middot; **Register:** archaic, literary
 **Clause type:** relative clause of destination, or interrogative noun clause
 **Pattern:** *Whither* [clause], [main clause]. &middot; [noun phrase] *whither* [clause]. &middot; [verb of knowing/saying] *whither* [clause]. &middot; *Whither* [noun phrase]?
@@ -793,6 +832,7 @@ The joinery of a contract. Only some of these are conjunctions; the rest are pre
 ### by reason whereof
 
 **Pronunciation:** /baɪ ˈrizən wɛrˈʌv/ &middot; *by-REE-zuhn wair-UV*
+**Русский:** вследствие чего — юр., устар., в исковых заявлениях старого образца
 **Type:** conjunctive adverb (fixed legal phrase) — sentence-relative &middot; **Register:** formal, legal, archaic-leaning
 **Clause type:** sentence-relative connective of consequence — points back at the whole statement before it
 **Pattern:** [clause], *by reason whereof* [clause]. &middot; [clause]; *by reason whereof*, [clause].
@@ -812,6 +852,7 @@ Old pleading language for *by reason of which*: it names the facts just recited 
 ### hereby
 
 **Pronunciation:** /hɪrˈbaɪ/, /ˈhɪrbaɪ/ &middot; *heer-BY*
+**Русский:** настоящим — юр., «этим самым документом»; делает действие совершаемым, а не описанным
 **Type:** performative adverb — not a conjunction &middot; **Register:** formal, legal
 **Clause type:** sentence adverbial of instrument; marks its own clause as the act rather than a report of the act
 **Pattern:** [subject] *hereby* [performative verb] [object]. &middot; [subject] *is hereby* [past participle]. &middot; [noun phrase] *herein* / *hereto* / *hereof* / *hereunder* — the same *here-* slot with a different preposition.
@@ -832,6 +873,7 @@ The *here-* family is the mirror of the *there-* family under **therefor**: *her
 ### hereinafter
 
 **Pronunciation:** /ˌhɪrɪnˈæftər/ &middot; *heer-in-AF-ter*
+**Русский:** далее по тексту, в дальнейшем именуемый — юр.
 **Type:** cataphoric adverb — not a conjunction &middot; **Register:** formal, legal
 **Clause type:** adverbial pro-form meaning *later in this document*; most often inside a defining parenthetical
 **Pattern:** [full name] (*hereinafter* "[short name]"). &middot; [full name] (*hereinafter referred to as* "[short name]"). &middot; the [noun] described *hereinafter*.
@@ -851,6 +893,7 @@ The *here-* family is the mirror of the *there-* family under **therefor**: *her
 ### hereinbefore
 
 **Pronunciation:** /ˌhɪrɪnbɪˈfɔr/ &middot; *heer-in-bee-FOR*
+**Русский:** выше по тексту, ранее в настоящем документе — юр., устар.
 **Type:** anaphoric adverb — not a conjunction &middot; **Register:** formal, legal, archaic-leaning
 **Clause type:** adverbial pro-form meaning *earlier in this document*
 **Pattern:** the [noun] *hereinbefore* [past participle]. &middot; as *hereinbefore* [provided / described / set forth]. &middot; except as *hereinbefore* provided, [main clause].
@@ -870,6 +913,7 @@ The *here-* family is the mirror of the *there-* family under **therefor**: *her
 ### hereupon
 
 **Pronunciation:** /ˌhɪrəˈpɑn/, /ˌhɪrəˈpɔn/ &middot; *heer-uh-PON*
+**Русский:** тут же, вслед за этим — устар., книжн., от «этого» момента повествования
 **Type:** conjunctive adverb &middot; **Register:** archaic, formal
 **Clause type:** sentence adverbial of immediate sequence (= *immediately after this*)
 **Pattern:** [clause]. *Hereupon* [clause]. &middot; [clause]; *hereupon*, [clause]. &middot; *Hereupon* [subject] [verb].
@@ -889,6 +933,7 @@ The third member of the *upon* trio: **whereupon** is the relative that has to s
 ### in lieu of
 
 **Pronunciation:** /ɪn ˈlu əv/ &middot; /ɪn ˈlu ə/ &middot; *in-LOO uhv*
+**Русский:** вместо, взамен — книжн., юр.; не «ввиду» — это частая ошибка
 **Type:** quasi-coordinator — prepositional connective; not a clause introducer &middot; **Register:** formal, legal
 **Clause type:** prepositional phrase of substitution (= *instead of*) modifying the main clause
 **Pattern:** [main clause] *in lieu of* [noun phrase / -ing form]. &middot; *In lieu of* [noun phrase], [main clause]. &middot; [noun] *in lieu of* [noun].
@@ -909,6 +954,7 @@ French *lieu* is "place," so *in lieu of X* is *in the place of X*: one thing is
 ### in witness whereof
 
 **Pronunciation:** /ɪn ˈwɪtnəs wɛrˈʌv/ &middot; *in-WIT-nuhs wair-UV*
+**Русский:** в удостоверение чего — юр., формула перед подписями сторон
 **Type:** sentence adverbial (fixed legal formula) — not a conjunction &middot; **Register:** formal, legal
 **Clause type:** attestation formula opening the execution clause of an instrument
 **Pattern:** *IN WITNESS WHEREOF*, [parties] have executed this [instrument] as of [date]. &middot; *IN WITNESS WHEREOF*, I have hereunto set my hand and seal.
@@ -928,6 +974,7 @@ French *lieu* is "place," so *in lieu of X* is *in the place of X*: one thing is
 ### including but not limited to
 
 **Pronunciation:** /ɪnˈkludɪŋ bʌt nɑt ˈlɪmɪtɪd tu/ &middot; /ɪnˈkludɪŋ bət nɑt ˈlɪmɪtɪd tə/ &middot; *in-KLOO-ding but not LIM-it-id too*
+**Русский:** включая, но не ограничиваясь — юр., перечень заведомо неполон
 **Type:** quasi-coordinator — prepositional connective introducing a nonexhaustive list &middot; **Register:** formal, legal
 **Clause type:** prepositional phrase of exemplification attached to the general noun before it
 **Pattern:** [general noun], *including but not limited to*, [examples]. &middot; [general noun] *including without limitation* [examples]. &middot; [general noun], *including, but not limited to*, [examples].
@@ -947,6 +994,7 @@ The drafter's insurance policy: it announces that the examples to follow do not 
 ### know all men by these presents
 
 **Pronunciation:** /ˌnoʊ ɔl ˈmɛn baɪ ðiz ˈprɛzənts/ &middot; *noh-awl-MEN by theez PREZ-uhnts*
+**Русский:** настоящим доводится до всеобщего сведения — юр., устар., зачин доверенности
 **Type:** performative formula (imperative clause) — not a conjunction &middot; **Register:** archaic, legal
 **Clause type:** attestation formula opening a deed, bond, or power of attorney; followed by a *that* clause
 **Pattern:** *KNOW ALL MEN BY THESE PRESENTS*, that [clause]. &middot; *KNOW ALL MEN BY THESE PRESENTS*: [clause]. &middot; *KNOW ALL PERSONS BY THESE PRESENTS*, that [clause].
@@ -966,6 +1014,7 @@ The old opener of a deed, bond, or power of attorney, matching **in witness wher
 ### now, therefore
 
 **Pronunciation:** /ˌnaʊ ˈðɛrfɔr/ &middot; *now-THAIR-fore*
+**Русский:** исходя из вышеизложенного — юр., переход от преамбулы к обязательствам договора
 **Type:** conjunctive adverb (fixed legal formula) &middot; **Register:** formal, legal
 **Clause type:** sentence adverbial marking the transition from recitals to operative provisions
 **Pattern:** *NOW, THEREFORE*, in consideration of [X], the parties agree as follows: &middot; *NOW, THEREFORE*, BE IT RESOLVED that [clause].
@@ -985,6 +1034,7 @@ The hinge of a contract or resolution: it closes the stack of *WHEREAS* recitals
 ### per
 
 **Pronunciation:** /pɜr/ &middot; /pər/ &middot; *PUR*
+**Русский:** согласно, по (per Section 12); в расчёте на (per annum) — книжн., деловой жаргон
 **Type:** quasi-coordinator — prepositional connective; not a clause introducer &middot; **Register:** formal, business jargon
 **Clause type:** prepositional phrase of source or authority modifying the main clause
 **Pattern:** *Per* [noun phrase], [main clause]. &middot; [main clause] *per* [noun phrase]. &middot; *As per* [noun phrase], [main clause].
@@ -1004,6 +1054,7 @@ Two jobs. The old distributive one is *for each* (*five percent per annum*). The
 ### pursuant to
 
 **Pronunciation:** /pərˈsuənt tu/ &middot; /pərˈsuənt tə/ &middot; *per-SOO-uhnt too*
+**Русский:** во исполнение, в соответствии с — юр., со ссылкой на норму или пункт
 **Type:** quasi-coordinator — prepositional connective; not a clause introducer &middot; **Register:** formal, legal
 **Clause type:** prepositional phrase of authority modifying the main clause
 **Pattern:** *Pursuant to* [noun phrase], [main clause]. &middot; [main clause] *pursuant to* [noun phrase].
@@ -1023,6 +1074,7 @@ Means *under the authority of* or *in accordance with*, and it is the standard w
 ### subject to
 
 **Pronunciation:** /ˈsʌbdʒɪkt tu/ &middot; /ˈsʌbdʒɪkt tə/ &middot; *SUB-jikt too*
+**Русский:** с учётом, при условии соблюдения — юр.; противоположность notwithstanding
 **Type:** quasi-coordinator — prepositional connective; not a clause introducer &middot; **Register:** formal, legal
 **Clause type:** prepositional phrase of condition or subordination modifying the main clause
 **Pattern:** *Subject to* [noun phrase], [main clause]. &middot; [main clause], *subject to* [noun phrase].
@@ -1042,6 +1094,7 @@ The mirror image of **notwithstanding**: *subject to Section 4* means Section 4 
 ### thence
 
 **Pronunciation:** /ðɛns/ &middot; *THENSS*
+**Русский:** оттуда, далее — устар., лит.; в межевых описаниях земли — живое рабочее слово
 **Type:** anaphoric adverb of source — not a conjunction &middot; **Register:** archaic and literary in prose; fully alive in deeds and surveys
 **Clause type:** adverbial pro-form meaning *from there* / *from that*; continues a route or a chain of reasoning
 **Pattern:** [clause], *thence* *to* [place]. &middot; [clause] and *thence* [direction / prepositional phrase]. &middot; *THENCE* [bearing] [distance] *to* [monument] (survey call). &middot; [clause]; *thence* [clause] (the old inferential sense).
@@ -1062,6 +1115,7 @@ The demonstrative member of the little set that **whence** and **whither** belon
 ### thereby
 
 **Pronunciation:** /ˌðɛrˈbaɪ/, /ˈðɛrbaɪ/ &middot; *thair-BY*
+**Русский:** тем самым, посредством этого — книжн., называет механизм полученного результата
 **Type:** conjunctive adverb &middot; **Register:** formal
 **Clause type:** sentence adverbial of result; most often heads a participial phrase
 **Pattern:** [clause], *thereby* [-ing phrase]. &middot; [clause] and *thereby* [verb phrase]. &middot; [clause]; *thereby* [clause].
@@ -1081,6 +1135,7 @@ Means *by that means* — it names the mechanism by which the main clause produc
 ### therefor
 
 **Pronunciation:** /ðɛrˈfɔr/ &middot; *thair-FOR*
+**Русский:** за это, для этого — юр., «for it»; не путать с therefore («поэтому»)
 **Type:** anaphoric pro-adverb — not a true conjunction &middot; **Register:** formal, legal
 **Clause type:** adverbial pro-form standing for *preposition + it/that*; binds the clause to something already named
 **Pattern:** [noun phrase] *therefor* (= *for it* / *for that*). &middot; [verb] [object] *therefor*. &middot; [noun phrase] *thereto* / *therein* / *thereof* / *thereunder* — the same slot with a different preposition.
@@ -1100,6 +1155,7 @@ A whole family of legal pro-adverbs: *there-* plus a preposition, meaning that p
 ### theretofore
 
 **Pronunciation:** /ˌðɛrtəˈfɔr/ &middot; *thair-tuh-FOR*
+**Русский:** до того времени — юр., книжн.; отсчёт от момента в прошлом, а не от «сейчас»
 **Type:** anaphoric adverb — not a conjunction &middot; **Register:** formal, legal, archaic-leaning
 **Clause type:** adverbial pro-form of time meaning *before that time*, anchored to a past reference point rather than to now
 **Pattern:** [past-tense clause] *theretofore* [past participle]. &middot; the [noun] *theretofore* [held / paid / existing]. &middot; [main clause], as *theretofore* provided.
@@ -1119,6 +1175,7 @@ A whole family of legal pro-adverbs: *there-* plus a preposition, meaning that p
 ### thereupon
 
 **Pronunciation:** /ˌðɛrəˈpɑn/ &middot; *thair-uh-PON*
+**Русский:** вслед за тем; на этом основании — книжн., юр.
 **Type:** conjunctive adverb &middot; **Register:** formal, legal, literary
 **Clause type:** sentence adverbial of immediate sequence or consequence
 **Pattern:** [clause]. *Thereupon*, [clause]. &middot; [clause]; *thereupon* [clause]. &middot; [clause] and *thereupon* [verb phrase].
@@ -1138,6 +1195,7 @@ Means *immediately after that* or *on that basis*. It is the free-standing twin 
 ### therewithal
 
 **Pronunciation:** /ˌðɛrwɪˈðɔl/, /ˌðɛrwɪˈθɔl/ &middot; *thair-with-AWL*
+**Русский:** вместе с тем; вслед за тем; к тому же — устар., поэт.
 **Type:** conjunctive adverb &middot; **Register:** archaic, literary
 **Clause type:** sentence adverbial of accompaniment or immediate sequence (= *with that*, *thereupon*, *besides*)
 **Pattern:** [clause]; *therewithal* [clause]. &middot; [clause], and *therewithal* [verb phrase]. &middot; [clause]. *Therewithal*, [clause].
@@ -1157,6 +1215,7 @@ Means *immediately after that* or *on that basis*. It is the free-standing twin 
 ### without limiting the generality of the foregoing
 
 **Pronunciation:** /wɪˌðaʊt ˈlɪmɪtɪŋ ðə ˌdʒɛnəˈrælɪti əv ðə fɔrˈɡoʊɪŋ/ &middot; *with-OWT LIM-it-ing thuh jen-uh-RAL-uh-tee uhv thuh for-GOH-ing*
+**Русский:** не ограничивая общности вышеизложенного — юр., канцелярская формула
 **Type:** conjunctive adverb (fixed legal formula) &middot; **Register:** formal, legal
 **Clause type:** sentence adverbial tying a specific provision back to the general one before it
 **Pattern:** [general provision]. *Without limiting the generality of the foregoing*, [specific provision]. &middot; [general provision]; *without limiting the generality of the foregoing*, [specific provision].
@@ -1176,6 +1235,7 @@ The long-form cousin of **including but not limited to**: it lets a drafter give
 ### witnesseth
 
 **Pronunciation:** /ˈwɪtnəsɪθ/, /ˈwɪtnəsəθ/ &middot; *WIT-nuh-sith*
+**Русский:** удостоверяет — устар., юр., заголовок перед преамбулой договора (форма на -eth)
 **Type:** archaic verb form used as a formulaic heading — not a conjunction &middot; **Register:** archaic, legal
 **Clause type:** structural heading standing between the parties clause and the recitals
 **Pattern:** THIS [instrument], made [date], between [parties], *WITNESSETH*: &middot; THIS [instrument] *WITNESSETH that* [clause].
@@ -1199,6 +1259,7 @@ Dead in speech, permanent in print. You will not write these, but you will read 
 ### an
 
 **Pronunciation:** /æn/ &middot; /ən/ &middot; *AN*
+**Русский:** если — устар., шекспировское; не путать с артиклем an
 **Type:** subordinating &middot; **Register:** archaic
 **Clause type:** adverbial clause of condition
 **Pattern:** *An* [clause], [main clause]. &middot; [main clause], *an* [clause].
@@ -1218,6 +1279,7 @@ The archaic conditional *if*, everywhere in Shakespeare and Middle English (*an 
 ### anent
 
 **Pronunciation:** /əˈnɛnt/ &middot; *uh-NENT*
+**Русский:** касательно, относительно — устар., шотл., юр.
 **Type:** quasi-coordinator — prepositional connective; not a clause introducer &middot; **Register:** archaic; chiefly Scots and Scottish legal
 **Clause type:** prepositional phrase of topic (= *concerning*, *about*) modifying the main clause
 **Pattern:** *Anent* [noun phrase], [main clause]. &middot; [main clause] *anent* [noun phrase]. &middot; [noun of writing or speech] *anent* [noun phrase].
@@ -1238,6 +1300,7 @@ Means *concerning* or *about*. It is Scots and northern English rather than gene
 ### as touching
 
 **Pronunciation:** /əz ˈtʌtʃɪŋ/ &middot; /æz ˈtʌtʃɪŋ/ &middot; *az-TUCH-ing*
+**Русский:** что касается, относительно — устар., библ.
 **Type:** quasi-coordinator — prepositional connective; not a clause introducer &middot; **Register:** archaic, biblical
 **Clause type:** prepositional phrase of topic (= *concerning*, *as regards*) modifying the main clause
 **Pattern:** *As touching* [noun phrase], [main clause]. &middot; [main clause] *as touching* [noun phrase]. &middot; *Touching* [noun phrase], [main clause].
@@ -1258,6 +1321,7 @@ The King James Bible's way of announcing a change of subject: *As touching the r
 ### eftsoons
 
 **Pronunciation:** /ɛftˈsunz/ &middot; *eft-SOONZ*
+**Русский:** вскоре после того; снова — устар., поэт.
 **Type:** conjunctive adverb &middot; **Register:** archaic, poetic
 **Clause type:** sentence adverbial of immediate sequence or repetition (= *soon afterward*, *again*)
 **Pattern:** [clause]. *Eftsoons* [clause]. &middot; [clause], and *eftsoons* [verb phrase]. &middot; [clause]; *eftsoons* [clause].
@@ -1277,6 +1341,7 @@ Old English *eft* ("again") plus *soon*: *soon afterward*, or simply *again*. It
 ### ere
 
 **Pronunciation:** /ɛr/ &middot; *AIR*
+**Русский:** прежде чем, до — устар., поэт.
 **Type:** subordinating; also prepositional before a noun phrase &middot; **Register:** archaic, poetic
 **Clause type:** adverbial clause of time (anteriority)
 **Pattern:** *Ere* [clause], [main clause]. &middot; [main clause] *ere* [clause]. &middot; *ere* [noun phrase].
@@ -1297,6 +1362,7 @@ Simply *before*, in time. It is the standard poetic and scriptural form and is c
 ### except
 
 **Pronunciation:** /ɪkˈsɛpt/ &middot; *ik-SEPT*
+**Русский:** если не, разве что — устар. (= unless), библ.; требует сослагательного наклонения
 **Type:** subordinating &middot; **Register:** archaic (in this sense)
 **Clause type:** adverbial clause of negative condition (= *unless*)
 **Pattern:** *Except* [subject] [**bare verb**], [main clause]. &middot; [main clause] *except* [subject] [bare verb].
@@ -1316,6 +1382,7 @@ This is the archaic *except* meaning **unless**, not the everyday one meaning *a
 ### for that
 
 **Pronunciation:** /fɔr ˈðæt/ &middot; /fər ˈðæt/ &middot; *for-THAT*
+**Русский:** потому что — устар., ранненовоанглийское because
 **Type:** subordinating &middot; **Register:** archaic
 **Clause type:** adverbial clause of cause
 **Pattern:** [main clause] *for that* [clause]. &middot; *For that* [clause], [main clause]. &middot; [main clause], *for that* [clause].
@@ -1336,6 +1403,7 @@ The Early Modern English *because*, built from the causal *for* plus the complem
 ### howbeit
 
 **Pronunciation:** /haʊˈbiɪt/ &middot; *how-BEE-it*
+**Русский:** тем не менее, однако — устар., библ.
 **Type:** conjunctive adverb; occasionally subordinating &middot; **Register:** archaic
 **Clause type:** sentence adverbial of concession; or adverbial clause of concession
 **Pattern:** [clause]. *Howbeit*, [clause]. &middot; [clause]; *howbeit*, [clause]. &middot; *Howbeit* [clause], [main clause].
@@ -1355,6 +1423,7 @@ The Early Modern English *because*, built from the causal *for* plus the complem
 ### less'n
 
 **Pronunciation:** /ˈlɛsən/ &middot; *LESS-uhn*
+**Русский:** если не, разве что — диал., простореч. (Юг, Аппалачи, Озарк) = unless
 **Type:** subordinating &middot; **Register:** dialectal, nonstandard — Southern, Appalachian, and Ozark speech
 **Clause type:** adverbial clause of negative condition (= *unless*)
 **Pattern:** [main clause] *less'n* [clause]. &middot; *Less'n* [clause], [main clause].
@@ -1375,6 +1444,7 @@ The Early Modern English *because*, built from the causal *for* plus the complem
 ### maugre
 
 **Pronunciation:** /ˈmɔɡər/ &middot; *MAW-gur*
+**Русский:** вопреки, несмотря на — устар., поэт.
 **Type:** quasi-coordinator — prepositional connective; not a clause introducer &middot; **Register:** archaic, poetic
 **Clause type:** concessive prepositional phrase (= *in spite of*)
 **Pattern:** *Maugre* [noun phrase], [main clause]. &middot; [main clause] *maugre* [noun phrase]. &middot; *maugre* [possessive] *teeth* (the fixed old idiom).
@@ -1394,6 +1464,7 @@ From Old French *maugré*, "ill will" — literally *in the teeth of*, hence *in
 ### natheless
 
 **Pronunciation:** /ˈneɪθləs/, /ˈnæθləs/ &middot; *NAYTH-luhs*
+**Русский:** тем не менее — устар., поэт., прямой предок nevertheless
 **Type:** conjunctive adverb &middot; **Register:** archaic, poetic
 **Clause type:** sentence adverbial of concession (= *nevertheless*)
 **Pattern:** [clause]; *natheless* [clause]. &middot; [clause]. *Natheless*, [clause]. &middot; *Natheless* [subject] [verb].
@@ -1413,6 +1484,7 @@ Old English *ná þe lǽs*, "none the less" — the direct ancestor of *neverthe
 ### sith
 
 **Pronunciation:** /sɪθ/ &middot; *SITH*
+**Русский:** поскольку; с тех пор как — устар., предок since
 **Type:** subordinating &middot; **Register:** archaic
 **Clause type:** adverbial clause of cause or of time
 **Pattern:** *Sith* [clause], [main clause]. &middot; [main clause] *sith* [clause].
@@ -1433,6 +1505,7 @@ The Middle and Early Modern English ancestor of *since*, and it carries the same
 ### so soon as
 
 **Pronunciation:** /soʊ ˈsun æz/ &middot; /soʊ ˈsun əz/ &middot; *soh-SOON az*
+**Русский:** как только — устар., старая форма as soon as
 **Type:** subordinating &middot; **Register:** archaic
 **Clause type:** adverbial clause of time (immediate anteriority)
 **Pattern:** *So soon as* [clause], [main clause]. &middot; [main clause] *so soon as* [clause].
@@ -1452,6 +1525,7 @@ The older form of *as soon as*, standard through the eighteenth century and stil
 ### verily
 
 **Pronunciation:** /ˈvɛrəli/ &middot; *VAIR-uh-lee*
+**Русский:** истинно, воистину — устар., библ., ручается за сказанное вслед
 **Type:** emphatic sentence adverb — not a conjunction &middot; **Register:** archaic, biblical
 **Clause type:** discourse-initial sentence adverbial of assertion — vouches for the clause it opens
 **Pattern:** *Verily* [subject] [verb]. &middot; *Verily*, [clause]. &middot; *Verily, verily*, I say unto you, [clause].
@@ -1471,6 +1545,7 @@ The older form of *as soon as*, standard through the eighteenth century and stil
 ### whenas
 
 **Pronunciation:** /wɛnˈæz/, /hwɛnˈæz/ &middot; *wen-AZ*
+**Русский:** когда; тогда как — устар., поэт., елизаветинское
 **Type:** subordinating &middot; **Register:** archaic, poetic
 **Clause type:** adverbial clause of time; occasionally of cause or contrast (= *whereas*)
 **Pattern:** *Whenas* [clause], [main clause]. &middot; [main clause] *whenas* [clause].
@@ -1490,6 +1565,7 @@ The older form of *as soon as*, standard through the eighteenth century and stil
 ### without
 
 **Pronunciation:** /wɪˈðaʊt/, /wɪˈθaʊt/ &middot; *with-OWT*
+**Русский:** если не, пока не — устар., диал. союз (= unless); не путать с предлогом «без»
 **Type:** subordinating &middot; **Register:** archaic, regional
 **Clause type:** adverbial clause of negative condition (= *unless*)
 **Pattern:** [main clause] *without* [clause]. &middot; *Without* [clause], [main clause].
@@ -1514,6 +1590,7 @@ The abbreviations that introduce a restatement, an example, or a list. Their Ame
 ### confer
 
 **Pronunciation:** /kənˈfɜr/ &middot; /ˌsi ˈɛf/ &middot; *kuhn-FUR, see-EF*
+**Русский:** ср., сравни — лат. cf., отсылка к источнику, с которым стоит сопоставить
 **Type:** reader-directive cross-reference marker — not a conjunction &middot; **Register:** formal, scholarly, legal
 **Clause type:** stands outside the clause structure; points the reader at a differing or comparable source
 **Pattern:** [claim] (*cf.* [source]). &middot; [claim]; *cf.* [source]. &middot; *Cf.* [source], which reaches the opposite conclusion.
@@ -1533,6 +1610,7 @@ Latin *confer*, the imperative "compare." It tells the reader to look at another
 ### ergo
 
 **Pronunciation:** /ˈɜrɡoʊ/, /ˈɛrɡoʊ/ &middot; *UR-goh, AIR-goh*
+**Русский:** следовательно, итак — лат.; строгий вывод, часто с шутливо-напыщенным оттенком
 **Type:** conjunctive adverb &middot; **Register:** formal, or deliberately jokey
 **Clause type:** sentence adverbial of logical consequence
 **Pattern:** [clause]; *ergo*, [clause]. &middot; [clause]. *Ergo*, [clause]. &middot; [premise] — *ergo*, [conclusion].
@@ -1552,6 +1630,7 @@ Latin for *therefore*, and unlike most Latin survivals it is spoken aloud as oft
 ### et alii
 
 **Pronunciation:** /ɛt ˈeɪliaɪ/ &middot; /ɛt ˈæl/ &middot; *et-AY-lee-eye, et-AL*
+**Русский:** и др., и другие — лат. et al., заменяет остальные фамилии в списке
 **Type:** quasi-coordinator — abbreviated coordination closing a list of names &middot; **Register:** formal, scholarly, legal
 **Clause type:** closes a noun phrase; stands in for the remaining coordinates of a list of people
 **Pattern:** [Name] *et al.*, [year]. &middot; [Name] *et al.* [verb]. &middot; [Name] v. [Name] *et al.* (case caption).
@@ -1571,6 +1650,7 @@ Latin *and others*, and the only member of this section that actually coordinate
 ### exempli gratia
 
 **Pronunciation:** /ɪɡˌzɛmpli ˈɡrɑtiə/ &middot; *eg-ZEM-plee GRAH-tee-uh*
+**Русский:** например — лат. e.g., вводит выборочный, заведомо неполный перечень
 **Type:** conjunctive adverb — appositional &middot; **Register:** formal
 **Clause type:** appositional phrase introducing an illustrative sample
 **Pattern:** [clause] — *e.g.*, [examples]. &middot; [clause] (*e.g.*, [examples]). &middot; [noun phrase], *e.g.*, [examples].
@@ -1590,6 +1670,7 @@ Latin *for the sake of example*, and it introduces a **partial** list — a samp
 ### id est
 
 **Pronunciation:** /ɪd ˈɛst/ &middot; *id-EST*
+**Русский:** то есть — лат. i.e., вводит уточняющий пересказ, а не пример
 **Type:** conjunctive adverb — appositional &middot; **Register:** formal
 **Clause type:** appositional phrase introducing a restatement of what precedes
 **Pattern:** [clause] — *i.e.*, [restatement]. &middot; [clause] (*i.e.*, [restatement]). &middot; [noun phrase], *i.e.*, [restatement].
@@ -1609,6 +1690,7 @@ Latin *that is*. It introduces a **restatement**: the same thing said again more
 ### imprimis
 
 **Pronunciation:** /ɪmˈpraɪmɪs/, /ɪmˈprimɪs/ &middot; *im-PRY-mis, im-PREE-mis*
+**Русский:** во-первых, прежде всего — лат., устар., зачин старой описи или завещания
 **Type:** enumerative discourse marker — not a conjunction &middot; **Register:** archaic, legal
 **Clause type:** opens the first item of a formal enumeration; stands outside the clause it introduces
 **Pattern:** *Imprimis*, [first item]. *Item*, [second item]. &middot; *Imprimis*: [first item].
@@ -1628,6 +1710,7 @@ Latin *in the first place* — the opening marker of the old itemized will, inve
 ### inter alia
 
 **Pronunciation:** /ˌɪntər ˈeɪliə/, /ˌɪntər ˈɑliə/ &middot; *in-ter-AY-lee-uh*
+**Русский:** среди прочего — лат., юр.; подчёркивает, что перечень неполон
 **Type:** parenthetical adverbial phrase — not a conjunction &middot; **Register:** formal, legal, scholarly
 **Clause type:** parenthetical adverbial meaning *among other things*; marks the list around it as incomplete
 **Pattern:** [verb], *inter alia*, [object]. &middot; [subject], *inter alia*, [predicate]. &middot; [noun phrase] (*inter alia*).
@@ -1648,6 +1731,7 @@ Latin *among other things*, and in force the exact opposite of **videlicet**: *v
 ### item
 
 **Pronunciation:** /ˈaɪtəm/ &middot; *EYE-tuhm*
+**Русский:** также, пункт — лат., устар., зачин каждой следующей статьи описи; отсюда сущ. item
 **Type:** enumerative discourse marker — not a conjunction &middot; **Register:** archaic, legal
 **Clause type:** opens each entry after the first in a formal enumeration
 **Pattern:** *Imprimis*, [first entry]. *Item*, [next entry]. *Item*, [next entry]. &middot; *Item*: [entry] (inventory or account).
@@ -1667,6 +1751,7 @@ Latin *likewise* — the word that opened every entry after the first in a will,
 ### nota bene
 
 **Pronunciation:** /ˌnoʊtə ˈbɛneɪ/, /ˌnoʊtə ˈbini/ &middot; *noh-tuh-BEN-ay, noh-tuh-BEE-nee*
+**Русский:** нотабене, заметь хорошо — лат. N.B., помета «обратите внимание»
 **Type:** reader-directive marker — not a conjunction &middot; **Register:** formal
 **Clause type:** stands outside the clause structure; flags the note that follows
 **Pattern:** *N.B.*: [clause]. &middot; *N.B.* — [clause]. &middot; *Nota bene*: [clause].
@@ -1686,6 +1771,7 @@ Latin *note well*, an imperative addressed to the reader. It is included here be
 ### quod vide
 
 **Pronunciation:** /kwɑd ˈvaɪdi/ &middot; /ˌkju ˈvi/ &middot; *kwod-VY-dee, kyoo-VEE*
+**Русский:** смотри там же — лат. q.v., отсылка к другой статье того же издания
 **Type:** reader-directive cross-reference marker — not a conjunction &middot; **Register:** formal, scholarly
 **Clause type:** stands outside the clause; sends the reader to an entry elsewhere in the same work
 **Pattern:** [term] (*q.v.*). &middot; [term], *q.v.* &middot; [two terms] (*qq.v.*).
@@ -1705,6 +1791,7 @@ Latin *quod vide*, "which see" — an instruction to go and look up the term jus
 ### to wit
 
 **Pronunciation:** /tə ˈwɪt/, /tu ˈwɪt/ &middot; *tuh-WIT*
+**Русский:** а именно — юр., английская калька videlicet
 **Type:** conjunctive adverb — appositional &middot; **Register:** formal, legal
 **Clause type:** appositional phrase naming exactly what the preceding noun refers to
 **Pattern:** [noun phrase], *to wit*, [specification]. &middot; [clause], *to wit*: [list].
@@ -1724,6 +1811,7 @@ The English calque of **videlicet**, from the old verb *wit*, meaning *to know*.
 ### videlicet
 
 **Pronunciation:** /vɪˈdɛləsɛt/, /vaɪˈdɛlɪsɛt/ &middot; *vih-DEL-ih-set*
+**Русский:** а именно — лат. viz., вводит полный перечень (ср. e.g. — выборочный)
 **Type:** conjunctive adverb — appositional &middot; **Register:** formal, scholarly, legal
 **Clause type:** appositional phrase introducing a complete specification or list
 **Pattern:** [noun phrase], *viz.*, [full list]. &middot; [clause], *viz.* [specification].

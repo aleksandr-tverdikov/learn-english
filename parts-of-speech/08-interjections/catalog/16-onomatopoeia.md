@@ -11,6 +11,7 @@ What unites this group is that the word does not name a sound so much as perform
 ### bang
 
 **Pronunciation:** /bæŋ/ &middot; *BANG*  
+**Русский:** бах / бам — выстрел, хлопнувшая дверь, удар твёрдого о твёрдое
 **Type:** onomatopoeic &middot; **Register:** informal  
 **Variants:** *bang bang*, *baaang*, *ka-bang*
 
@@ -27,6 +28,7 @@ The sound of a gunshot, a slammed door, or anything hard meeting anything hard. 
 ### bonk
 
 **Pronunciation:** /bɑŋk/ &middot; *BONK*  
+**Русский:** тюк / бум — лёгкий глухой стук, обычно по голове; всегда с комическим оттенком
 **Type:** onomatopoeic &middot; **Register:** informal  
 **Variants:** *bonk bonk*, *bonk!*, *bop*
 
@@ -43,6 +45,7 @@ A light, hollow knock, usually on somebody's head. It is inherently comic: a bon
 ### boom
 
 **Pronunciation:** /bum/ &middot; *BOOM*  
+**Русский:** бум / бабах — гулкий взрыв, гром; тж. «и вуаля» о деле, доведённом до конца
 **Type:** onomatopoeic &middot; **Register:** informal  
 **Variants:** *kaboom*, *ka-boom*, *boom boom*, *badaboom*
 
@@ -59,6 +62,7 @@ A deep explosion or a rolling, distant crash — thunder, fireworks, a demolitio
 ### clang
 
 **Pronunciation:** /klæŋ/ &middot; *CLANG*  
+**Русский:** бряк / лязг — металл о металл; clank — дребезг, clunk — глухо и намертво
 **Type:** onomatopoeic &middot; **Register:** informal  
 **Variants:** *clang clang*, *clank*, *clunk*, *clangity-clang*
 
@@ -75,6 +79,7 @@ Metal hitting metal — a dropped wrench, a cell door, a bell. The three forms a
 ### crash
 
 **Pronunciation:** /kræʃ/ &middot; *KRASH*  
+**Русский:** трах / грохот — что-то большое разом падает или разбивается
 **Type:** onomatopoeic &middot; **Register:** informal  
 **Variants:** *craaash*, *crash bang*, *crashhh*
 
@@ -91,6 +96,7 @@ Something big breaking or falling all at once — dishes, a shelf, two cars. Dro
 ### knock knock
 
 **Pronunciation:** /ˈnɑk ˌnɑk/ &middot; *NOK-nok*  
+**Русский:** тук-тук — стук в дверь, произнесённый вслух; зачин анекдота-«тук-тук»
 **Type:** onomatopoeic &middot; **Register:** informal  
 **Variants:** *knock-knock*, *knock knock knock*
 
@@ -107,6 +113,7 @@ The sound of rapping on a door, said out loud instead of actually knocking — u
 ### pow
 
 **Pronunciation:** /paʊ/ &middot; *POW*  
+**Русский:** бац / бах — комиксовый звук удара кулаком, внезапный сильный удар
 **Type:** onomatopoeic &middot; **Register:** informal  
 **Variants:** *kapow*, *ka-pow*, *blam*, *ka-blam*, *powie*
 
@@ -123,6 +130,7 @@ A comic-book punch — the sound of a fist landing, printed in big letters. Amer
 ### smack
 
 **Pronunciation:** /smæk/ &middot; *SMAK*  
+**Русский:** шлёп / чмок — звонкий шлепок ладонью либо мокрый звук губ
 **Type:** onomatopoeic &middot; **Register:** informal  
 **Variants:** *smack smack*, *smaack*
 
@@ -139,6 +147,7 @@ A flat, open-handed slap — or the wet sound of lips, whether kissing or chewin
 ### splat
 
 **Pronunciation:** /splæt/ &middot; *SPLAT*  
+**Русский:** шмяк / плюх — мягкое и мокрое ударяется о плоскую поверхность
 **Type:** onomatopoeic &middot; **Register:** informal  
 **Variants:** *splatt*, *ker-splat*, *splat!*
 
@@ -155,6 +164,7 @@ Something soft and wet hitting a flat surface — a dropped tomato, a bug on the
 ### tap tap
 
 **Pronunciation:** /ˈtæp ˌtæp/ &middot; *TAP-tap*  
+**Русский:** тук-тук — лёгкое быстрое постукивание, чтобы деликатно вклиниться
 **Type:** onomatopoeic &middot; **Register:** neutral  
 **Variants:** *tap-tap*, *tap tap tap*, *rap rap*, *rat-a-tat*, *rat-a-tat-tat*
 
@@ -171,6 +181,7 @@ A light, quick knocking — on a door, a shoulder, a microphone. Said out loud, 
 ### thud
 
 **Pronunciation:** /θʌd/ &middot; *THUD*  
+**Русский:** бух / глухой удар — тяжёлое падение без звона; thump — с отскоком, о сердце
 **Type:** onomatopoeic &middot; **Register:** informal  
 **Variants:** *thump*, *thud thud*, *whump*, *ker-thud*
 
@@ -187,6 +198,7 @@ A heavy, dull impact with no ring to it — a body hitting the floor, a book dro
 ### whack
 
 **Pronunciation:** /wæk/ &middot; *WAK*  
+**Русский:** хрясь / шмяк — сильный удар чем-то длинным или плоским
 **Type:** onomatopoeic &middot; **Register:** informal  
 **Variants:** *thwack*, *whap*, *whop*, *whack!*
 
@@ -203,6 +215,7 @@ A hard swat with something long or flat — a bat, a stick, a rolled-up magazine
 ### wham
 
 **Pronunciation:** /wæm/ &middot; *WAM*  
+**Русский:** бам / трах — внезапное сильное столкновение, которого никто не ждал
 **Type:** onomatopoeic &middot; **Register:** informal  
 **Variants:** *whammo*, *wham-o*, *whamm*
 
@@ -219,6 +232,7 @@ A sudden violent collision, almost always one nobody saw coming. It is the favor
 ### whomp
 
 **Pronunciation:** /wɑmp/ or /wʌmp/ &middot; *WAHMP* or *WUHMP*  
+**Русский:** бух / ух — тяжёлый мягкий удар с весом (не путать с womp womp)
 **Type:** onomatopoeic &middot; **Register:** informal  
 **Variants:** *whump*, *ka-whomp*, *whomp!*
 
@@ -237,6 +251,7 @@ A big, soft-edged impact with real weight behind it — a mattress dropped, a ro
 ### drip
 
 **Pronunciation:** /drɪp/ &middot; *DRIP*  
+**Русский:** кап / кап-кап — вода падает по капле; тж. о том, что сочится мучительно медленно
 **Type:** onomatopoeic &middot; **Register:** neutral  
 **Variants:** *drip drip*, *drip-drip-drip*, *drip, drip*
 
@@ -253,6 +268,7 @@ Water falling one drop at a time. Repeated, it is the sound of a leak you cannot
 ### fizz
 
 **Pronunciation:** /fɪz/ &middot; *FIZ*  
+**Русский:** пшш / шипение — газировка, пузырьки; fizzle — то же, но выдыхается, сходит на нет
 **Type:** onomatopoeic &middot; **Register:** informal  
 **Variants:** *fizzz*, *fsss*, *fizzle*
 
@@ -269,6 +285,7 @@ The hiss of carbonation — a can opening, soda over ice, a tablet dissolving. *
 ### glug
 
 **Pronunciation:** /ɡlʌɡ/ &middot; *GLUG*  
+**Русский:** буль-буль — жидкость выливается из горлышка толчками
 **Type:** onomatopoeic &middot; **Register:** informal  
 **Variants:** *glug glug*, *glug-glug-glug*, *gluglug*
 
@@ -285,6 +302,7 @@ Liquid coming out of a narrow opening in gulps — a jug emptying, a bottle bein
 ### plop
 
 **Pronunciation:** /plɑp/ &middot; *PLOP*  
+**Русский:** плюх / бульк — мелкое падает в жидкость или приземляется без церемоний
 **Type:** onomatopoeic &middot; **Register:** informal  
 **Variants:** *kerplop*, *kerplunk*, *plop plop*, *ploop*
 
@@ -301,6 +319,7 @@ A small round thing dropping into liquid, or, more loosely, anything landing wit
 ### sizzle
 
 **Pronunciation:** /ˈsɪzəl/ &middot; *SIZ-uhl*  
+**Русский:** шшш / шкворчание — жир шипит на раскалённой сковороде
 **Type:** onomatopoeic &middot; **Register:** informal  
 **Variants:** *sizzzle*, *tssss*, *ssss*
 
@@ -317,6 +336,7 @@ Fat hitting a hot pan. It is the sound of cooking going right, and Americans bor
 ### splash
 
 **Pronunciation:** /splæʃ/ &middot; *SPLASH*  
+**Русский:** плюх / плеск — что-то падает в воду с брызгами; splish-splash — плюх-плюх
 **Type:** onomatopoeic &middot; **Register:** informal  
 **Variants:** *sploosh*, *kersplash*, *splish-splash*, *splish splash*
 
@@ -335,6 +355,7 @@ Something hitting water hard enough to throw it. *Sploosh* is bigger and sillier
 ### chomp
 
 **Pronunciation:** /tʃɑmp/ &middot; *CHOMP*  
+**Русский:** ам / хрум — большой решительный укус, челюсти смыкаются с силой
 **Type:** onomatopoeic &middot; **Register:** informal  
 **Variants:** *chomp chomp*, *chomp-chomp*, *chompchomp*
 
@@ -351,6 +372,7 @@ A big, deliberate bite with the jaw closing hard. It is the sound of cartoon eat
 ### crunch
 
 **Pronunciation:** /krʌntʃ/ &middot; *KRUNCH*  
+**Русский:** хрусть / хруст — что-то хрупкое поддаётся: чипсы, гравий, мёрзлый снег
 **Type:** onomatopoeic &middot; **Register:** informal  
 **Variants:** *crunch crunch*, *kruntch*, *scrunch*
 
@@ -367,6 +389,7 @@ The sound of something brittle giving way — chips, gravel underfoot, frozen sn
 ### gulp
 
 **Pronunciation:** /ɡʌlp/ &middot; *GULP*  
+**Русский:** глоть / ой — тяжёлый глоток; отдельно стоящее gulp почти всегда означает испуг
 **Type:** onomatopoeic &middot; **Register:** informal  
 **Variants:** *gulp gulp*, *gullp*, *gulp!*
 
@@ -383,6 +406,7 @@ Swallowing hard — either a big drink or the dry swallow of somebody who has ju
 ### mmm
 
 **Pronunciation:** /m̩ː/ (a long hum with the lips closed — no vowel in it) &middot; *MMM*  
+**Русский:** ммм — довольное мычание с закрытым ртом, почти всегда о вкусе или запахе
 **Type:** onomatopoeic &middot; **Register:** neutral  
 **Variants:** *mmmm*, *mm*, *mmmmm*, *mm-mmm*
 
@@ -399,6 +423,7 @@ A closed-lip hum of pleasure, nearly always about taste or smell. Stretched out,
 ### munch
 
 **Pronunciation:** /mʌntʃ/ &middot; *MUNCH*  
+**Русский:** хрум-хрум — размеренное неспешное жевание, перекус, а не еда всерьёз
 **Type:** onomatopoeic &middot; **Register:** informal  
 **Variants:** *munch munch*, *munch-munch*, *munchmunch*
 
@@ -415,6 +440,7 @@ Steady, unhurried chewing — snacking rather than eating a meal. Doubled, it is
 ### nom
 
 **Pronunciation:** /nɑm/ &middot; *NOM*  
+**Русский:** ням / ням-ням — радостное жадное поедание; интернет-жаргон, нарочито детское
 **Type:** onomatopoeic &middot; **Register:** internet/text  
 **Variants:** *nom nom*, *nom nom nom*, *om nom nom*, *omnomnom*
 
@@ -431,6 +457,7 @@ Happy, greedy eating, borrowed from Cookie Monster and now standard online. It i
 ### slurp
 
 **Pronunciation:** /slɝp/ &middot; *SLURP*  
+**Русский:** хлюп / сёрбанье — шумное прихлёбывание; в США читается как дурные манеры
 **Type:** onomatopoeic &middot; **Register:** informal  
 **Variants:** *slurp slurp*, *slurrrp*, *sluuurp*
 
@@ -447,6 +474,7 @@ Drinking or eating noisily through pursed lips — soup, noodles, the last inch 
 ### yum
 
 **Pronunciation:** /jʌm/ &middot; *YUM*  
+**Русский:** ням / вкуснятина — о еде, которая выглядит или оказалась вкусной
 **Type:** onomatopoeic &middot; **Register:** informal  
 **Variants:** *yum yum*, *yummy*, *yum-yum*, *yummers*
 
@@ -465,6 +493,7 @@ Said about food that looks or tastes good — before the first bite as often as 
 ### achoo
 
 **Pronunciation:** /əˈtʃu/ &middot; *uh-CHOO*  
+**Русский:** апчхи — чиханье; в ответ полагается сказать bless you
 **Type:** onomatopoeic &middot; **Register:** neutral  
 **Variants:** *ah-choo*, *atchoo*, *kerchoo*, *hachoo*
 
@@ -481,6 +510,7 @@ A sneeze, written down — and also the word Americans say out loud to imitate o
 ### ahem
 
 **Pronunciation:** /əˈhɛm/ &middot; *uh-HEM*  
+**Русский:** кхм — нарочитое покашливание: привлечь внимание или деликатно поправить
 **Type:** onomatopoeic &middot; **Register:** neutral  
 **Variants:** *a-hem*, *ahem-ahem*, *hem*, *hem-hem*
 
@@ -497,6 +527,7 @@ A deliberate throat-clearing used as a signal rather than a real cough. It asks 
 ### burp
 
 **Pronunciation:** /bɝp/ &middot; *BURP*  
+**Русский:** рыг — слово вместо звука отрыжки, сказанное в шутку; разг.
 **Type:** onomatopoeic &middot; **Register:** informal  
 **Variants:** *urp*, *buuurp*, *berp*, *belch*
 
@@ -513,6 +544,7 @@ The word said in place of the noise, usually by or about the person who just mad
 ### cough
 
 **Pronunciation:** /kɔf/ or /kɑf/ &middot; *KAWF* or *KOFF*  
+**Русский:** кхе-кхе — притворный кашель, которым нарочито плохо прячут несказанное; сарказм
 **Type:** onomatopoeic &middot; **Register:** informal  
 **Variants:** *cough cough*, *koff koff*, *ahem*
 
@@ -529,6 +561,7 @@ A fake cough that badly and deliberately hides a word you are pretending not to 
 ### hiccup
 
 **Pronunciation:** /ˈhɪkʌp/ or /ˈhɪkəp/ &middot; *HIK-up*  
+**Русский:** ик / икота — слово вместо самого спазма; краткое hic — знак, что персонаж выпил
 **Type:** onomatopoeic &middot; **Register:** informal  
 **Variants:** *hic*, *hiccough*, *hic!*, *hiccup hiccup*
 
@@ -545,6 +578,7 @@ The word for the spasm, said out loud in place of it. The short form *hic* is th
 ### snort
 
 **Pronunciation:** /snɔrt/ &middot; *SNORT*  
+**Русский:** фырк / хмык — короткий смешок через нос: смешно и глупо одновременно
 **Type:** onomatopoeic &middot; **Register:** informal  
 **Variants:** *snrk*, *snerk*, *snort laugh*
 
@@ -563,6 +597,7 @@ A sharp laugh out through the nose, written as a stage direction. It signals amu
 ### bwahaha
 
 **Pronunciation:** /bwɑhɑˈhɑ/ &middot; *bwah-hah-HAH*  
+**Русский:** муа-ха-ха / бу-га-га — злодейский театральный хохот, всегда наполовину в шутку
 **Type:** onomatopoeic &middot; **Register:** informal  
 **Variants:** *mwahaha*, *muahaha*, *bwahahaha*, *mwah-ha-ha*
 
@@ -579,6 +614,7 @@ The villain laugh — big, theatrical, and always at least partly a joke about b
 ### ha
 
 **Pronunciation:** /hɑ/ &middot; *HAH*  
+**Русский:** ха! — один резкий смешок: «я же говорил», «попался», «да ну бросьте»
 **Type:** onomatopoeic &middot; **Register:** informal  
 **Variants:** *hah*, *ha!*
 
@@ -595,6 +631,7 @@ A single hard laugh — which, on its own, rarely means something was funny. Dep
 ### haha
 
 **Pronunciation:** /ˈhɑhɑ/ &middot; *HAH-hah*  
+**Русский:** ха-ха — смех на письме; длина = искренность, а «ха ха» через пробел читается как сарказм
 **Type:** onomatopoeic &middot; **Register:** informal  
 **Variants:** *ha ha*, *hahaha*, *ha-ha*, *hahahaha*
 
@@ -611,6 +648,7 @@ Written laughter, where the length is the message: *haha* is polite acknowledgme
 ### har har
 
 **Pronunciation:** /ˈhɑr ˌhɑr/ &middot; *HAR-har*  
+**Русский:** ха-ха, очень смешно — фальшивый плоский смешок: шутка не удалась; всегда сарказм
 **Type:** onomatopoeic &middot; **Register:** informal  
 **Variants:** *har-har*, *har har har*, *har de har har*
 
@@ -627,6 +665,7 @@ A fake, flat laugh that means the joke was not funny. It is always sarcastic —
 ### hee-hee
 
 **Pronunciation:** /ˈhihi/ &middot; *HEE-hee*  
+**Русский:** хи-хи — тонкий смешок с озорством; tee-hee — то же, но с нарочитым умилением
 **Type:** onomatopoeic &middot; **Register:** informal  
 **Variants:** *heehee*, *hee hee*, *tee-hee*, *teehee*
 
@@ -643,6 +682,7 @@ A high, giggly laugh — mischief rather than comedy. *Tee-hee* is the same laug
 ### heh
 
 **Pronunciation:** /hɛ/ &middot; *HEH*  
+**Русский:** хе / хех — тихий короткий смешок, лёгкое веселье, часто над своей же шуткой
 **Type:** onomatopoeic &middot; **Register:** informal  
 **Variants:** *heh heh*, *hehe*, *hehehe*, *heh.*
 
@@ -659,6 +699,7 @@ A small, low, one-breath laugh. It means mild amusement at most, and it is very 
 ### ho ho ho
 
 **Pronunciation:** /ˈhoʊ hoʊ ˌhoʊ/ &middot; *HOH-hoh-hoh*  
+**Русский:** хо-хо-хо — раскатистый смех, сегодня почти монополия Санта-Клауса
 **Type:** onomatopoeic &middot; **Register:** informal  
 **Variants:** *ho ho*, *ho-ho-ho*, *hohoho*
 
@@ -675,6 +716,7 @@ The deep belly laugh, now almost entirely the property of Santa Claus. Any other
 ### mwah
 
 **Pronunciation:** /mwɑ/ &middot; *MWAH*  
+**Русский:** чмок — звук поцелуя, обычно воздушного; им заканчивают звонок или сообщение
 **Type:** onomatopoeic &middot; **Register:** informal  
 **Variants:** *muah*, *mwuah*, *mwah mwah*, *muah!*
 
@@ -691,6 +733,7 @@ The sound of a kiss, usually one blown rather than given. It ends phone calls be
 ### smooch
 
 **Pronunciation:** /smutʃ/ &middot; *SMOOCH*  
+**Русский:** чмок / чмоки — громкий шутливый поцелуй, теплее и дурашливее, чем mwah
 **Type:** onomatopoeic &middot; **Register:** informal  
 **Variants:** *smooch smooch*, *smoochies*, *smoocharoo*
 
@@ -709,6 +752,7 @@ A loud, playful kiss — the word said instead of the kiss, or written where the
 ### beep
 
 **Pronunciation:** /bip/ &middot; *BEEP*  
+**Русский:** бип / пик — короткий электронный сигнал; beep beep — «посторонись» из-за руля
 **Type:** onomatopoeic &middot; **Register:** neutral  
 **Variants:** *beep beep*, *beeep*, *bip*, *beep boop*
 
@@ -725,6 +769,7 @@ A short electronic tone — a microwave, a truck backing up, a car horn. Doubled
 ### buzz
 
 **Pronunciation:** /bʌz/ &middot; *BUZ*  
+**Русский:** жжж / бзз — низкое вибрирующее гудение: пчела, телефон; bzzt — сигнал «неверно»
 **Type:** onomatopoeic &middot; **Register:** neutral  
 **Variants:** *bzzz*, *bzzt*, *buzz buzz*, *bzz*
 
@@ -741,6 +786,7 @@ A low vibrating hum — a bee, a phone face-down on a table, a bad fluorescent l
 ### click
 
 **Pronunciation:** /klɪk/ &middot; *KLIK*  
+**Русский:** щёлк / клац — короткий сухой щелчок механизма; clickety-clack — цок-цок, стук колёс
 **Type:** onomatopoeic &middot; **Register:** neutral  
 **Variants:** *click click*, *clack*, *clickety-clack*, *click-click*
 
@@ -757,6 +803,7 @@ The small hard snap of a mechanism — a latch, a pen, a mouse button, a seatbel
 ### creak
 
 **Pronunciation:** /krik/ &middot; *KREEK*  
+**Русский:** скрип — протяжный скрип старого дерева или несмазанной петли
 **Type:** onomatopoeic &middot; **Register:** informal  
 **Variants:** *creeeak*, *creak creak*, *crrreak*
 
@@ -773,6 +820,7 @@ The long dry complaint of old wood or an unoiled hinge. It is the standard sound
 ### ding
 
 **Pronunciation:** /dɪŋ/ &middot; *DING*  
+**Русский:** динь — одиночный чистый сигнал; ding ding ding — «в точку, правильный ответ»
 **Type:** onomatopoeic &middot; **Register:** neutral  
 **Variants:** *ding ding*, *ding ding ding*, *ting*, *diiing*
 
@@ -789,6 +837,7 @@ A single clear bell tone — an elevator, a kitchen timer, a notification. Three
 ### ding-dong
 
 **Pronunciation:** /ˈdɪŋ ˌdɔŋ/ &middot; *DING-dawng*  
+**Русский:** динь-дон — дверной звонок в два тона; вслух — «к вам пришли» или «это я»
 **Type:** onomatopoeic &middot; **Register:** informal  
 **Variants:** *ding dong*, *dingdong*, *ding-dong ding-dong*
 
@@ -805,6 +854,7 @@ A doorbell, in its two tones. Said out loud it means "someone is at the door," o
 ### hiss
 
 **Pronunciation:** /hɪs/ &middot; *HISS*  
+**Русский:** шшш / шипение — змея, спускающее колесо, рассерженная кошка; тж. шиканье публики
 **Type:** onomatopoeic &middot; **Register:** informal  
 **Variants:** *hissss*, *ssss*, *sss*
 
@@ -821,6 +871,7 @@ A long *s* — a snake, a leaking tire, a radiator, or a cat that has had enough
 ### honk
 
 **Pronunciation:** /hɑŋk/ &middot; *HONK*  
+**Русский:** би-бип / гудок — автомобильный клаксон; тж. крик гуся (га-га)
 **Type:** onomatopoeic &middot; **Register:** informal  
 **Variants:** *honk honk*, *hooonk*, *hoooonk*
 
@@ -837,6 +888,7 @@ A car horn — and also a goose. Said out loud, it usually reports that somebody
 ### ka-ching
 
 **Pronunciation:** /kəˈtʃɪŋ/ &middot; *kuh-CHING*  
+**Русский:** дзынь кассы — звук открывшегося кассового ящика: «деньги пошли»
 **Type:** onomatopoeic &middot; **Register:** informal  
 **Variants:** *cha-ching*, *ker-ching*, *ka-ching ka-ching*
 
@@ -853,6 +905,7 @@ An old cash register drawer flying open — the sound of money being made. Nobod
 ### plink
 
 **Pronunciation:** /plɪŋk/ &middot; *PLINK*  
+**Русский:** тюк / дзинь — тонкий высокий звук: капля, одна клавиша, камешек; plunk — потяжелее
 **Type:** onomatopoeic &middot; **Register:** informal  
 **Variants:** *plunk*, *plink plink*, *plinka-plink*
 
@@ -869,6 +922,7 @@ A small, thin, high sound — one piano key, a pebble on a windshield, a drop la
 ### pop
 
 **Pronunciation:** /pɑp/ &middot; *POP*  
+**Русский:** хлоп / чпок — короткий резкий хлопок: шарик, пробка, сустав, пузырь
 **Type:** onomatopoeic &middot; **Register:** neutral  
 **Variants:** *pop pop*, *pop!*, *popopop*, *poppop*
 
@@ -885,6 +939,7 @@ A small sharp burst — a balloon, a cork, a knuckle, a bubble. Repeated fast, i
 ### ring
 
 **Pronunciation:** /rɪŋ/ &middot; *RING*  
+**Русский:** дзинь / динь-динь — звонок телефона или колокольчика; ring ring уже отдаёт ретро
 **Type:** onomatopoeic &middot; **Register:** neutral  
 **Variants:** *ring ring*, *riiing*, *brring*, *ring-a-ling*
 
@@ -901,6 +956,7 @@ A telephone or a hand bell, said out loud where the sound would go. *Ring ring* 
 ### snap
 
 **Pronunciation:** /snæp/ &middot; *SNAP*  
+**Русский:** щёлк / хрусть — чистый быстрый разлом; тж. щелчок пальцами со значением «живее!»
 **Type:** onomatopoeic &middot; **Register:** neutral  
 **Variants:** *snap snap*, *snapp*, *snap!*
 
@@ -917,6 +973,7 @@ A quick clean break, or a snap of the fingers. As a sound effect it marks the ex
 ### squeak
 
 **Pronunciation:** /skwik/ &middot; *SKWEEK*  
+**Русский:** пи / скрип — тонкий писк мышки, кроссовок по паркету, несмазанной петли
 **Type:** onomatopoeic &middot; **Register:** informal  
 **Variants:** *squeek*, *squeak squeak*, *skweek*
 
@@ -933,6 +990,7 @@ A high thin noise out of something small or unlubricated — a mouse, a sneaker 
 ### tick-tock
 
 **Pronunciation:** /ˈtɪk ˌtɑk/ &middot; *TIK-tok*  
+**Русский:** тик-так — часы; вслух почти всегда значит «время на исходе, поторопись»
 **Type:** onomatopoeic &middot; **Register:** informal  
 **Variants:** *tick tock*, *tick-tock tick-tock*, *tick tick tick*
 
@@ -949,6 +1007,7 @@ A clock. Said out loud it almost never describes an actual sound — it is a way
 ### twang
 
 **Pronunciation:** /twæŋ/ &middot; *TWANG*  
+**Русский:** бряньк / дзынь — отпущенная струна или резинка; тж. гнусавинка южного выговора
 **Type:** onomatopoeic &middot; **Register:** informal  
 **Variants:** *twaaang*, *twang twang*, *twanggg*
 
@@ -967,6 +1026,7 @@ A plucked string letting go — a guitar, a rubber band, a bowstring. The same w
 ### boing
 
 **Pronunciation:** /bɔɪŋ/ &middot; *BOYNG*  
+**Русский:** прыг / бо-о-инг — звук пружины и отскока; мультяшный и потому всегда комичный
 **Type:** onomatopoeic &middot; **Register:** informal  
 **Variants:** *sproing*, *boing boing*, *boink*, *boi-oi-oing*
 
@@ -983,6 +1043,7 @@ A spring, or something bouncing off one — a mattress, a diving board, a coiled
 ### poof
 
 **Pronunciation:** /pʊf/ or /puf/ &middot; *PUUF* or *POOF*  
+**Русский:** пуф / фьють — и нет его: звук исчезновения; на деле чаще не звучит ничего
 **Type:** onomatopoeic &middot; **Register:** informal  
 **Variants:** *poof!*, *pouf*, *puff*
 
@@ -999,6 +1060,7 @@ The sound of something vanishing in a small cloud — a magic trick, a struck ma
 ### vroom
 
 **Pronunciation:** /vrum/ &middot; *VROOM*  
+**Русский:** вр-р / брум-брум — рёв мотора; дети так возят игрушечную машинку
 **Type:** onomatopoeic &middot; **Register:** informal  
 **Variants:** *vroom vroom*, *vrooom*, *brrm*, *brum brum*, *vroom-vroom*
 
@@ -1015,6 +1077,7 @@ An engine revving. Children say it while pushing a toy car; adults say it about 
 ### whiz
 
 **Pronunciation:** /wɪz/ &middot; *WIZ*  
+**Русский:** вжик — мелкое проносится мимо так быстро, что слышно, но не видно
 **Type:** onomatopoeic &middot; **Register:** informal  
 **Variants:** *whizz*, *whizzz*, *whiz-bang*
 
@@ -1031,6 +1094,7 @@ Something small going past fast enough to be heard and not seen — an arrow, a 
 ### whoosh
 
 **Pronunciation:** /wʊʃ/ or /wuʃ/ &middot; *WUUSH* or *WOOSH*  
+**Русский:** вжух / ш-ш-ш — порыв воздуха или стремительный пролёт мимо
 **Type:** onomatopoeic &middot; **Register:** informal  
 **Variants:** *woosh*, *whooosh*, *swoosh*, *swish*
 
@@ -1047,6 +1111,7 @@ A rush of air or a fast pass — a door opening, a bus going by, a basketball dr
 ### zap
 
 **Pronunciation:** /zæp/ &middot; *ZAP*  
+**Русский:** бзз / щёлк — удар током, лазер; тж. «разогреть в микроволновке», сделать вмиг
 **Type:** onomatopoeic &middot; **Register:** informal  
 **Variants:** *zzap*, *zap zap*, *zzzap*
 
@@ -1063,6 +1128,7 @@ Electricity — a shock off a doorknob, a laser, a bug light. It also covers any
 ### zing
 
 **Pronunciation:** /zɪŋ/ &middot; *ZING*  
+**Русский:** вжик / «в точку!» — звенящий пролёт; чаще ярлык на метко ввёрнутую колкость
 **Type:** onomatopoeic &middot; **Register:** informal  
 **Variants:** *zinnng*, *zing!*, *zing zing*
 
@@ -1081,6 +1147,7 @@ A bright singing sound — something small flying past, a struck wire — and, f
 ### ba-dum-tss
 
 **Pronunciation:** /ˌbɑ dəm ˈts/ &middot; *bah-dum-TSS* (the last beat is a hissed cymbal, not a real syllable)  
+**Русский:** та-дам-тсс — барабанная сбивка после плоского каламбура; русского слова нет
 **Type:** onomatopoeic &middot; **Register:** informal  
 **Variants:** *ba-dum-tish*, *badum-tss*, *ba-dum-ching*, *ba dum tss*
 
@@ -1097,6 +1164,7 @@ The drum rimshot that lands after a bad pun. It is said or typed either by the p
 ### dun dun dun
 
 **Pronunciation:** /ˌdʌn dʌn ˈdʌn/ &middot; *dun-dun-DUN*  
+**Русский:** та-да-дам — три драматических аккорда после «сенсационного» открытия; иронично
 **Type:** onomatopoeic &middot; **Register:** informal  
 **Variants:** *dun dun duuun*, *duhn duhn duhn*, *dun dun DUNNN*, *dun-dun-dun*
 
@@ -1113,6 +1181,7 @@ The three dramatic orchestra hits that follow a shocking revelation. It is nearl
 ### ta-da
 
 **Pronunciation:** /tɑˈdɑ/ &middot; *tah-DAH*  
+**Русский:** та-дам! — фанфара, которой торжественно предъявляют результат
 **Type:** onomatopoeic &middot; **Register:** informal  
 **Variants:** *tada*, *ta-daa*, *ta-dah*, *ta-daaa*
 
@@ -1129,6 +1198,7 @@ The little fanfare you sing when you reveal something you are proud of. It can b
 ### womp womp
 
 **Pronunciation:** /ˈwɑmp ˌwɑmp/ &middot; *WOMP-womp*  
+**Русский:** пу-пу-пуу — «грустный тромбон», звук неудачи и разочарования
 **Type:** onomatopoeic &middot; **Register:** informal  
 **Variants:** *wah-wah*, *wah wah waaah*, *wamp wamp*, *whomp whomp*
 
@@ -1147,6 +1217,7 @@ The sad trombone — the sound of failure, played over somebody's disappointment
 ### baa
 
 **Pronunciation:** /bɑ/ or /bæ/ &middot; *BAH* or *BA*  
+**Русский:** бе-е — овца; тж. о тех, кто бездумно повторяет за всеми; детск.
 **Type:** onomatopoeic &middot; **Register:** childish  
 **Variants:** *baaa*, *ba-a-a*, *bah*
 
@@ -1163,6 +1234,7 @@ A sheep. It lives in picture books and petting zoos, and it gets borrowed for pe
 ### chirp
 
 **Pronunciation:** /tʃɝp/ &middot; *CHURP*  
+**Русский:** чирик / цвирк — птичка, сверчок; chirp chirp — сверчки в гробовой тишине после шутки
 **Type:** onomatopoeic &middot; **Register:** neutral  
 **Variants:** *tweet*, *cheep*, *chirp chirp*, *tweet tweet*, *chirp-chirp*
 
@@ -1179,6 +1251,7 @@ A small bird, a cricket, or a smoke detector with a dying battery. Said into a s
 ### cock-a-doodle-doo
 
 **Pronunciation:** /ˌkɑk ə ˌdudəl ˈdu/ &middot; *kok-uh-DOO-dul-DOO*  
+**Русский:** кукареку — петух; у взрослых — «подъём» или «неприлично рано»; детск.
 **Type:** onomatopoeic &middot; **Register:** childish  
 **Variants:** *cockadoodledoo*, *cock a doodle doo*, *cock-a-doodle-dooo*
 
@@ -1195,6 +1268,7 @@ A rooster. It is the standard American version of the crow, learned in early chi
 ### grr
 
 **Pronunciation:** /ɡr̩/ (a growled *r* with no vowel in it) &middot; *GRR*  
+**Русский:** р-р-р / гррр — рычание; у человека — полушутливое ворчание с досады
 **Type:** onomatopoeic &middot; **Register:** informal  
 **Variants:** *grrr*, *grrrr*, *grrrrrr*
 
@@ -1211,6 +1285,7 @@ A growl. Out of a dog it is a warning; out of a person it is a small, half-jokin
 ### hoot
 
 **Pronunciation:** /hut/ &middot; *HOOT*  
+**Русский:** ух-ух / угу — крик совы; знак ночи, леса и полной тишины
 **Type:** onomatopoeic &middot; **Register:** informal  
 **Variants:** *hoo*, *hoo-hoo*, *who-who*, *hoot hoot*
 
@@ -1227,6 +1302,7 @@ An owl. American children learn it as *hoo, hoo*, and the sound is shorthand for
 ### meow
 
 **Pronunciation:** /miˈaʊ/ &middot; *mee-OW*  
+**Русский:** мяу — кошка; о человеке — пометка «вот это коготки», о ехидном выпаде
 **Type:** onomatopoeic &middot; **Register:** informal  
 **Variants:** *mew*, *miaow*, *meow meow*, *mrow*
 
@@ -1243,6 +1319,7 @@ A cat. Said by one person about another, it flags that somebody just made a catt
 ### moo
 
 **Pronunciation:** /mu/ &middot; *MOO*  
+**Русский:** му — корова; детск., одно из первых звукоподражаний
 **Type:** onomatopoeic &middot; **Register:** childish  
 **Variants:** *mooo*, *moo moo*, *mooooo*
 
@@ -1259,6 +1336,7 @@ A cow. It is a barnyard-and-toddler word through and through, and one of the fir
 ### neigh
 
 **Pronunciation:** /neɪ/ &middot; *NAY*  
+**Русский:** иго-го — лошадь; детск.
 **Type:** onomatopoeic &middot; **Register:** childish  
 **Variants:** *neighhh*, *neigh neigh*, *nay*
 
@@ -1275,6 +1353,7 @@ A horse. Children say it; adults imitating a horse usually skip the word and do 
 ### oink
 
 **Pronunciation:** /ɔɪŋk/ &middot; *OYNK*  
+**Русский:** хрю / хрю-хрю — свинья; о человеке — упрёк в жадности или манерах; детск.
 **Type:** onomatopoeic &middot; **Register:** childish  
 **Variants:** *oink oink*, *oinkoink*
 
@@ -1291,6 +1370,7 @@ A pig. Outside the barnyard, saying *oink oink* at somebody is a small insult ab
 ### purr
 
 **Pronunciation:** /pɝ/ &middot; *PUR*  
+**Русский:** мур / мурлыканье — довольная кошка; о моторе — «работает как часы»
 **Type:** onomatopoeic &middot; **Register:** informal  
 **Variants:** *purrr*, *prrr*, *purr purr*
 
@@ -1307,6 +1387,7 @@ The rumble of a contented cat. Said of an engine it means the thing is running b
 ### quack
 
 **Pronunciation:** /kwæk/ &middot; *KWAK*  
+**Русский:** кря / кря-кря — утка; тж. о пустой нескончаемой болтовне; детск.
 **Type:** onomatopoeic &middot; **Register:** childish  
 **Variants:** *quack quack*, *quackquack*
 
@@ -1323,6 +1404,7 @@ A duck. It mostly stays at the pond and in picture books, though *quack quack* a
 ### rawr
 
 **Pronunciation:** /rɔr/ &middot; *RAWR*  
+**Русский:** р-р-р / рык — рык крупного зверя; в написании rawr — игриво и слегка заигрывающе
 **Type:** onomatopoeic &middot; **Register:** informal  
 **Variants:** *roar*, *rawrr*, *raar*, *rawr!*
 
@@ -1339,6 +1421,7 @@ A big animal roaring — a lion, a dinosaur, a monster in a game of pretend. Spe
 ### ribbit
 
 **Pronunciation:** /ˈrɪbɪt/ &middot; *RIB-it*  
+**Русский:** ква / ква-ква — лягушка; детск.
 **Type:** onomatopoeic &middot; **Register:** childish  
 **Variants:** *ribbit ribbit*, *ribbet*, *rivet*
 
@@ -1355,6 +1438,7 @@ A frog. It is the standard American frog sound, even though only some frogs actu
 ### woof
 
 **Pronunciation:** /wʊf/ &middot; *WUUF*  
+**Русский:** гав / гав-гав — собака; arf, ruff — тявканье помельче, bow-wow — детское «гав-гав»
 **Type:** onomatopoeic &middot; **Register:** informal  
 **Variants:** *arf*, *bow-wow*, *ruff*, *woof woof*
 

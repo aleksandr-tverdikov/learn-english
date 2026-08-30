@@ -2,6 +2,8 @@
 
 > A preposition is a word (or fixed group of words) that links a noun, pronoun, or -ing form to the rest of the sentence and shows a relationship of time, place, direction, cause, manner, or a more abstract connection.
 
+> **📖 Looking for a specific preposition?** This file covers the *grammar*. The *lexicon* — **[1,297 entries](catalog/README.md)** across 13 categories, each with a **complement** line saying what may and may not follow it, numbered senses, a pattern, and the reduced pronunciation you actually hear — lives in the **[Preposition Dictionary](catalog/README.md)**. There is also an **[audio browser](catalog/browse.html)** you can search and listen to.
+
 ## 1. What it does
 
 A preposition never works alone. It takes an object — almost always a noun phrase, a pronoun, or a gerund — and the two together form a **prepositional phrase**. That phrase then does a job in the sentence: it modifies a verb, a noun, an adjective, or a whole clause. The preposition itself is the piece that names the relationship; the object is the thing being related to.

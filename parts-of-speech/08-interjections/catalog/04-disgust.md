@@ -15,6 +15,7 @@ Reactions to something the senses reject — a taste, a smell, a texture — and
 ### barf
 
 **Pronunciation:** /bɑrf/ &middot; *BARF*
+**Русский:** фу! / гадость какая — разг., от «блевать»: о тошнотворном или приторно-слащавом
 **Type:** secondary &middot; **Register:** informal
 
 A blunt "that's revolting," borrowed from the verb meaning to vomit. As an interjection it answers something genuinely nauseating or, more often, something merely tacky or sappy; it peaked in 1980s teen slang, so today it lands as jokey or slightly dated.
@@ -30,6 +31,7 @@ A blunt "that's revolting," borrowed from the verb meaning to vomit. As an inter
 ### blech
 
 **Pronunciation:** /blɛx/, also /blɛk/ &middot; *BLEKH*
+**Русский:** фу-у! / бэ-э! — протяжный звук тошноты: мерзкий вкус или запах
 **Type:** primary &middot; **Register:** informal
 **Variants:** *blecch*, *blegh*, *bleah*
 
@@ -46,6 +48,7 @@ A drawn-out noise of nausea — the sound of someone tasting something foul. It 
 ### bleh
 
 **Pronunciation:** /blɛ/ &middot; *BLEH*
+**Русский:** ну такое / так себе — вялое «не нравится»; тж. о самочувствии: кисло, никак
 **Type:** primary &middot; **Register:** informal
 **Variants:** *blah*
 
@@ -62,6 +65,7 @@ A limp, unenthusiastic noise: not real disgust so much as "I don't like it and I
 ### ew
 
 **Pronunciation:** /iu/, also /ju/ &middot; *EE-oo — one gliding syllable, not two; or simply yoo*
+**Русский:** фу! — основной американский возглас брезгливости: грязное, склизкое, а тж. «жуть»
 **Type:** primary &middot; **Register:** informal
 **Variants:** *eww*, *ewww*, *ewwww*, *euw*
 
@@ -78,6 +82,7 @@ The default American expression of disgust, especially at something dirty, slimy
 ### gag me
 
 **Pronunciation:** /ˈɡæɡ mi/ &middot; *GAG-mee*
+**Русский:** меня сейчас стошнит — устар. сленг 1980-х; сегодня только как шутливая цитата
 **Type:** phrase &middot; **Register:** dated
 **Variants:** *gag me with a spoon*
 
@@ -94,6 +99,7 @@ A theatrical "that makes me want to throw up," originally California Valley-girl
 ### gah
 
 **Pronunciation:** /ɡɑ/, also /ɡæ/ &middot; *GAH*
+**Русский:** тьфу ты! / а-а! — короткий сдавленный рык: брезгливость пополам с досадой
 **Type:** primary &middot; **Register:** informal
 **Variants:** *gahh*, *ggah*
 
@@ -110,6 +116,7 @@ A short, strangled grunt of exasperated revulsion — the sound of patience runn
 ### grody
 
 **Pronunciation:** /ˈɡroʊdi/ &middot; *GROH-dee*
+**Русский:** гадость / мерзость — устар. калифорнийский подростковый сленг ок. 1980 г.
 **Type:** secondary &middot; **Register:** dated
 **Variants:** *groady*, *grody to the max*
 
@@ -126,6 +133,7 @@ Southern California teen slang of about 1980 for "disgusting," probably a chewed
 ### gross
 
 **Pronunciation:** /ɡroʊs/ &middot; *GROHSS*
+**Русский:** фу! / мерзость — самое ходовое «противно»: и о грязи, и о чьём-то поведении
 **Type:** secondary &middot; **Register:** informal
 
 An adjective used as a one-word verdict of disgust. It covers physical revulsion — spoiled food, bodily fluids — and social or moral distaste, such as a creepy comment or a tacky move, and it is the most common everyday American word for both.
@@ -141,6 +149,7 @@ An adjective used as a one-word verdict of disgust. It covers physical revulsion
 ### ick
 
 **Pronunciation:** /ɪk/ &middot; *IK*
+**Русский:** фу! / бр-р — короткое сдержанное «противно»; the ick — внезапно пропавшая симпатия
 **Type:** primary &middot; **Register:** informal
 **Variants:** *ickk*, *ik*
 
@@ -157,6 +166,7 @@ A short, clipped sound of distaste — smaller and more contained than *ew*. In 
 ### icky
 
 **Pronunciation:** /ˈɪki/ &middot; *IK-ee*
+**Русский:** бяка / фу, кака — детск.: липкое, склизкое; у взрослых звучит нарочито по-детски
 **Type:** secondary &middot; **Register:** childish
 
 The adjective built on *ick*, used as an exclamation mostly by and to small children, or by adults being deliberately cute. It covers sticky, slimy, unpleasantly messy things, and also a vague feeling of unease.
@@ -172,6 +182,7 @@ The adjective built on *ick*, used as an exclamation mostly by and to small chil
 ### nasty
 
 **Pronunciation:** /ˈnæsti/ &middot; *NAS-tee*
+**Русский:** гадость / мерзость — о грязном или невкусном; телеснее, чем gross
 **Type:** secondary &middot; **Register:** informal
 **Variants:** *nassty*, *straight-up nasty*
 
@@ -188,6 +199,7 @@ An adjective thrown down as a verdict: filthy, or foul-tasting, or both. It is m
 ### P.U.
 
 **Pronunciation:** /ˌpi ˈju/ &middot; *pee-YOO*
+**Русский:** фу-у! / ну и вонища — только о дурном запахе, обычно с зажатым носом
 **Type:** primary &middot; **Register:** informal
 **Variants:** *pee-yew*, *pee-you*, *peeyew*, *PU*, *pew*
 
@@ -204,6 +216,7 @@ Said about a bad smell and nothing else. Despite the spelling it is not an abbre
 ### ptooey
 
 **Pronunciation:** /ˈtui/, also /pəˈtui/ &middot; *TOO-ee, or puh-TOO-ee*
+**Русский:** тьфу! — письменное изображение плевка: гадкий вкус или жест презрения
 **Type:** onomatopoeic &middot; **Register:** informal
 **Variants:** *ptui*, *ptoo*, *ptooie*
 
@@ -220,6 +233,7 @@ The written sound of spitting something out — used literally for a bad taste a
 ### ugh
 
 **Pronunciation:** /ʌɡ/, also /ʌx/ &middot; *UHG*
+**Русский:** фу! / у-у-у / ох — тяжёлый стон отвращения, усталости или досады
 **Type:** primary &middot; **Register:** informal
 **Variants:** *ughh*, *ughhh*, *uggh*
 
@@ -236,6 +250,7 @@ A heavy groan of disgust, weariness, or distaste, and the workhorse of the whole
 ### yech
 
 **Pronunciation:** /jɛx/, also /jɛk/ &middot; *YEKH*
+**Русский:** фу! / бэ-э — устар.: то же, что yuck, с привкусом комиксов середины XX в.
 **Type:** primary &middot; **Register:** dated
 **Variants:** *yecch*, *yeccch*, *yechh*
 
@@ -252,6 +267,7 @@ A gargled noise of disgust, close to *yuck* but ending in the same scraping /x/ 
 ### yuck
 
 **Pronunciation:** /jʌk/ &middot; *YUK*
+**Русский:** фу! / фу, гадость — простое и сильное «противно»: вкус, запах, на ощупь
 **Type:** primary &middot; **Register:** informal
 **Variants:** *yuk*, *yukk*, *yucch*
 
@@ -268,6 +284,7 @@ A plain, forceful "that is disgusting," used freely by children and adults alike
 ### yucky
 
 **Pronunciation:** /ˈjʌki/ &middot; *YUK-ee*
+**Русский:** бяка / фу — детск.; во взрослой речи звучит нарочито сюсюкающе
 **Type:** secondary &middot; **Register:** childish
 
 The adjective built on *yuck*, used as an exclamation mainly with small children. From an adult in an adult setting it sounds deliberately babyish.
@@ -287,6 +304,7 @@ Aimed at an idea, a claim, or a person's self-importance. Nearly all of these li
 ### as if
 
 **Pronunciation:** /æz ˈɪf/ &middot; *az-IF*
+**Русский:** ага, щас! / как же! — «этого никогда не будет», насмешливый отказ поверить
 **Type:** phrase &middot; **Register:** informal
 
 A flat refusal to grant that something could ever happen — "you must be joking." It exploded into general use with the 1995 film *Clueless* and is still current, though it usually carries a knowing 1990s flavor.
@@ -302,6 +320,7 @@ A flat refusal to grant that something could ever happen — "you must be joking
 ### bah
 
 **Pronunciation:** /bɑ/, also /bæ/ &middot; *BAH*
+**Русский:** пфф! / вот ещё! — устар. презрительное фырканье: «пустое, не стоит внимания»
 **Type:** primary &middot; **Register:** dated
 **Variants:** *bahh*
 
@@ -318,6 +337,7 @@ A curt noise of contempt or refusal, thrown at an idea the speaker considers wor
 ### bah humbug
 
 **Pronunciation:** /ˌbɑ ˈhʌmˌbʌɡ/ &middot; *bah-HUM-bug*
+**Русский:** вот ещё, чепуха! — ворчание на рождественское веселье; цитата из Диккенса
 **Type:** phrase &middot; **Register:** informal
 **Variants:** *humbug*
 
@@ -334,6 +354,7 @@ A quotation from Scrooge in Dickens's *A Christmas Carol*, used almost entirely 
 ### big deal
 
 **Pronunciation:** /ˌbɪɡ ˈdil/ &middot; *big-DEEL*
+**Русский:** подумаешь! / велика важность — сарк. обесценивание чужого достижения
 **Type:** phrase &middot; **Register:** informal
 **Variants:** *big whoop*, *big fat deal*
 
@@ -350,6 +371,7 @@ Sarcastic dismissal of something the other person clearly considers impressive o
 ### come off it
 
 **Pronunciation:** /ˌkʌm ˈɔf ɪt/ &middot; *kum-AWF-it*
+**Русский:** да брось! / не заливай — тому, кто рисуется или преувеличивает
 **Type:** phrase &middot; **Register:** informal
 **Variants:** *oh, come off it*
 
@@ -366,6 +388,7 @@ Said to someone who is exaggerating, posturing, or pretending: drop the act. It 
 ### feh
 
 **Pronunciation:** /fɛ/ &middot; *FEH*
+**Русский:** фи! / тьфу — регион. (из идиша, Нью-Йорк): «дрянь, не стоит и слова»
 **Type:** primary &middot; **Register:** regional
 
 A dismissive Yiddish exhalation meaning roughly "worthless, not worth my breath." It entered American English through New York speech and is most at home there; it carries a shrug of disdain rather than heat.
@@ -381,6 +404,7 @@ A dismissive Yiddish exhalation meaning roughly "worthless, not worth my breath.
 ### get real
 
 **Pronunciation:** /ˌɡɛt ˈril/ &middot; *get-REEL*
+**Русский:** очнись! / спустись на землю — резкое «хватит себя обманывать»
 **Type:** phrase &middot; **Register:** informal
 
 An order to stop kidding yourself, aimed at someone whose claim or plan strikes the speaker as delusional. It is blunter and more confrontational than *come on*.
@@ -396,6 +420,7 @@ An order to stop kidding yourself, aimed at someone whose claim or plan strikes 
 ### give me a break
 
 **Pronunciation:** /ˌɡɪv mi ə ˈbreɪk/ &middot; *giv-mee-uh-BRAYK*
+**Русский:** да ладно! / хватит уже! — протест против нелепого, несправедливого или лживого
 **Type:** phrase &middot; **Register:** informal
 **Variants:** *gimme a break*, *oh, give me a break*
 
@@ -412,6 +437,7 @@ A protest at something the speaker finds absurd, unfair, or transparently false.
 ### la-di-da
 
 **Pronunciation:** /ˌlɑ diˈdɑ/ &middot; *lah-dee-DAH*
+**Русский:** ой-ой-ой, какие мы! / ути-пути — насмешливый распев тому, кто важничает
 **Type:** primary &middot; **Register:** informal
 **Variants:** *la-de-da*, *la-di-dah*, *well, la-di-da*
 
@@ -428,6 +454,7 @@ Mock-fancy singsong aimed at somebody putting on airs. The syllables mean nothin
 ### meh
 
 **Pronunciation:** /mɛ/ &middot; *MEH*
+**Русский:** ну такое / да всё равно — вердикт полного безразличия: «не впечатлило»
 **Type:** primary &middot; **Register:** informal
 **Variants:** *mehh*, *meh.*
 
@@ -444,6 +471,7 @@ A verdict of complete indifference: not bad enough to complain about, not good e
 ### oh please
 
 **Pronunciation:** /oʊ ˈpliz/ &middot; *oh-PLEEZ*
+**Русский:** ой, да брось! / ну конечно! — сарк. недоверие с оттенком превосходства
 **Type:** phrase &middot; **Register:** informal
 **Variants:** *puh-lease*, *puh-leeze*, *please*
 
@@ -460,6 +488,7 @@ Sarcastic disbelief with a whiff of superiority — "you cannot expect me to swa
 ### pfft
 
 **Pronunciation:** /pft/ &middot; *pfft* — not speech: no vowel at all, just lips pressed together and a short puff of air released through them; the *psh* spelling is /pʃ/, *pshh*
+**Русский:** пфф! / пшш — фырканье сквозь губы: «ерунда», «да кому это надо», «ни за что»
 **Type:** onomatopoeic &middot; **Register:** informal
 **Variants:** *pff*, *pft*, *psh*, *pssh*, *phht*
 
@@ -476,6 +505,7 @@ The sound of air pushed dismissively through the lips: "that's nothing," "who ca
 ### phooey
 
 **Pronunciation:** /ˈfui/ &middot; *FOO-ee*
+**Русский:** тьфу! / ерунда — устар., мягкое и мультяшное: «чушь» или «вот досада»
 **Type:** primary &middot; **Register:** dated
 **Variants:** *phooie*, *fooey*
 
@@ -492,6 +522,7 @@ An old-fashioned noise of disgust or rejection, originally a spitting sound turn
 ### pshaw
 
 **Pronunciation:** /ʃɔ/, also /pʃɔ/ &middot; *SHAW*
+**Русский:** пф! / фи! — устар. (XIX — нач. XX в.); сегодня только в стилизации или в шутку
 **Type:** primary &middot; **Register:** dated
 
 A scornful puff dismissing something as foolish or beneath notice. It belongs to nineteenth- and early twentieth-century speech; Americans today use it only in period writing or as a deliberate joke.
@@ -507,6 +538,7 @@ A scornful puff dismissing something as foolish or beneath notice. It belongs to
 ### so what
 
 **Pronunciation:** /soʊ ˈwʌt/ &middot; *soh-WUT*
+**Русский:** ну и что? / и что с того? — очень фам. вызов; со старшими звучит как дерзость
 **Type:** phrase &middot; **Register:** very informal
 
 A challenge denying that the other person's point carries any weight. It can be defensive — "yes, I did, and?" — or contemptuous. Do not mistake it for a neutral request for relevance: said to a manager, a customer, or anyone senior to you it reads as open insolence, and it is one of the fastest ways to turn a disagreement into a fight.
@@ -522,6 +554,7 @@ A challenge denying that the other person's point carries any weight. It can be 
 ### spare me
 
 **Pronunciation:** /ˈspɛr mi/ &middot; *SPAIR-mee*
+**Русский:** избавь меня! / не надо только — «слышать этого не желаю»
 **Type:** phrase &middot; **Register:** informal
 **Variants:** *oh, spare me*, *spare me the details*
 
@@ -538,6 +571,7 @@ A challenge denying that the other person's point carries any weight. It can be 
 ### whatever
 
 **Pronunciation:** /wʌtˈɛvər/ &middot; *wut-EV-er*
+**Русский:** да без разницы / ну и ладно — презрительное «разговор окончен»
 **Type:** secondary &middot; **Register:** very informal
 **Variants:** *whatevs*, *whatev*, *whateverrr*
 
@@ -554,6 +588,7 @@ A dismissal that ends the conversation: I am no longer engaging with this, and I
 ### who cares
 
 **Pronunciation:** /ˌhu ˈkɛrz/ &middot; *hoo-KAIRZ*
+**Русский:** кому какое дело / да кому это надо — отрицание важности самой темы, не довода
 **Type:** phrase &middot; **Register:** very informal
 **Variants:** *who cares?*, *like anyone cares*, *nobody cares*
 
@@ -570,6 +605,7 @@ A flat denial that the subject matters to anyone. Written with a question mark i
 ### whoop-de-doo
 
 **Pronunciation:** /ˌwʊpdiˈdu/, also /ˌhʊpdiˈdu/ &middot; *wuup-dee-DOO*
+**Русский:** ура-ура (сарк.) / вот это да! — деланое ликование ровным голосом: «не впечатлён»
 **Type:** phrase &middot; **Register:** informal
 **Variants:** *whoop-de-do*, *whoopty-doo*, *whoop-dee-doo*
 
@@ -586,6 +622,7 @@ Mock celebration. You say it in a deadpan voice to show that whatever was just a
 ### yeah right
 
 **Pronunciation:** /jɛə ˈraɪt/ &middot; *yeah-RITE*
+**Русский:** ага, конечно / ну да, ну да — сарк. недоверие; всё держится на интонации
 **Type:** phrase &middot; **Register:** informal
 **Variants:** *yeah, right*, *riiight*, *oh, right*
 
@@ -606,6 +643,7 @@ Public and semi-public censure — the sounds you make at a performance, a rule-
 ### boo
 
 **Pronunciation:** /bu/ &middot; *BOO*
+**Русский:** у-у-у! / фу! — публичное освистывание: актёра, судьи, политика
 **Type:** primary &middot; **Register:** informal
 **Variants:** *booo*, *boooo*, *boo-hiss*
 
@@ -622,6 +660,7 @@ The standard American noise of public disapproval, shouted at a performer, a ref
 ### harrumph
 
 **Pronunciation:** /həˈrʌmf/ &middot; *huh-RUMF*
+**Русский:** кхм-кхм! / гм! — важное покашливание-ворчание чванливого недовольства
 **Type:** onomatopoeic &middot; **Register:** informal
 **Variants:** *harumph*, *hurrumph*
 
@@ -638,6 +677,7 @@ A loud throat-clearing grunt of pompous disapproval — the noise of a self-impo
 ### hiss
 
 **Pronunciation:** /hɪs/ &middot; *HISS*
+**Русский:** ш-ш-ш! / шиканье — театральное освистывание злодея; сегодня почти всегда в шутку
 **Type:** onomatopoeic &middot; **Register:** informal
 **Variants:** *hisss*, *boo-hiss*
 
@@ -654,6 +694,7 @@ The theatrical sound of disapproval, aimed especially at a villain. In modern Am
 ### humph
 
 **Pronunciation:** /hm̩f/ &middot; *HMF* — usually not a spoken word at all but a two-part nasal grunt with the lips shut, released at the end; read off the page it becomes /hʌmf/, *HUMF*
+**Русский:** хмф! / хм! — короткое носовое хмыканье: недоверие, обида, надутое недовольство
 **Type:** onomatopoeic &middot; **Register:** informal
 **Variants:** *hmph*, *hmmph*, *humpf*
 
@@ -670,6 +711,7 @@ A short nasal grunt of skepticism, offense, or sulky disapproval — the sound o
 ### shame on you
 
 **Pronunciation:** /ˈʃeɪm ɔn ju/ &middot; *SHAYM-on-yoo*
+**Русский:** как тебе не стыдно! / стыдись! — прямой нравственный упрёк
 **Type:** phrase &middot; **Register:** neutral
 **Variants:** *for shame*, *shame*
 
@@ -686,6 +728,7 @@ A direct moral rebuke: your behavior was wrong and you should feel bad about it.
 ### tsk
 
 **Pronunciation:** /ǀ/ — a dental click, made by sucking the tongue off the front teeth; there is no vowel. Read aloud from the page it becomes /tɪsk/ &middot; *TISK*
+**Русский:** ц-ц-ц / ай-я-яй — цоканье языком в знак осуждения; удвоенное звучит нравоучительно
 **Type:** onomatopoeic &middot; **Register:** informal
 **Variants:** *tsk-tsk*, *tsk tsk*, *tsktsk*
 
@@ -702,6 +745,7 @@ The little clicking sound of disapproval — schoolteacherly, faintly smug, and 
 ### tut
 
 **Pronunciation:** /ǀ/ — the same dental click as *tsk*, not a spoken syllable; read aloud from the page it becomes /tʌt/ &middot; *TUT*
+**Русский:** ай-яй-яй / ц-ц — брит. вариант tsk; американцы его пишут, но почти не произносят
 **Type:** onomatopoeic &middot; **Register:** regional (chiefly British; in American use mostly a written spelling)
 **Variants:** *tut-tut*, *tut tut*
 
@@ -722,6 +766,7 @@ One-word verdicts that a statement is false or empty. They run from grandfatherl
 ### balderdash
 
 **Pronunciation:** /ˈbɔldərˌdæʃ/ &middot; *BAWL-der-dash*
+**Русский:** вздор! / чепуха! — устар., книжн.; сегодня только с наигранным возмущением
 **Type:** secondary &middot; **Register:** dated
 
 Nonsense, announced in the grandest register the language offers. The word is nineteenth-century and sounds it; an American who says it out loud today is performing indignation rather than feeling it, usually with an eyebrow up. Its one modern home outside of jokes is the board game named after it.
@@ -737,6 +782,7 @@ Nonsense, announced in the grandest register the language offers. The word is ni
 ### baloney
 
 **Pronunciation:** /bəˈloʊni/ &middot; *buh-LOH-nee*
+**Русский:** враньё / чепуха — разг., приличная замена крепким словам; звучит «по-дедовски»
 **Type:** secondary &middot; **Register:** informal
 **Variants:** *boloney*, *bologna*
 
@@ -753,6 +799,7 @@ Nonsense, announced in the grandest register the language offers. The word is ni
 ### bull
 
 **Pronunciation:** /bʊl/ &middot; *BUUL*
+**Русский:** брехня / туфта — очень фам., усечённое bullshit: мягче, но не для клиента
 **Type:** secondary &middot; **Register:** very informal
 **Variants:** *bullcrap*, *B.S.*
 
@@ -769,6 +816,7 @@ A short, blunt "that isn't true," clipped from *bullshit*. It is milder than the
 ### bullshit
 
 **Pronunciation:** /ˈbʊlˌʃɪt/ &middot; *BUUL-shit*
+**Русский:** херня / брехня собачья — груб., сильнейшее бытовое «это враньё»
 **Type:** secondary &middot; **Register:** vulgar
 **Variants:** *bullshit!*, *B.S.*
 
@@ -785,6 +833,7 @@ The strongest everyday way to reject a claim as a lie or as empty talk. It is ge
 ### bunk
 
 **Pronunciation:** /bʌŋk/ &middot; *BUNK*
+**Русский:** неправда / пустышка — сухо, без красок; отсюда глагол debunk «развенчать»
 **Type:** secondary &middot; **Register:** informal
 **Variants:** *bunkum*, *a lot of bunk*, *pure bunk*
 
@@ -801,6 +850,7 @@ A short, dry "that is not true." It is clipped from *bunkum*, which came from a 
 ### garbage
 
 **Pronunciation:** /ˈɡɑrbɪdʒ/ &middot; *GAR-bij*
+**Русский:** дрянь / полная халтура — и о лжи, и о плохо сделанной работе; звучит обидно
 **Type:** secondary &middot; **Register:** informal
 **Variants:** *hot garbage*, *pure garbage*, *trash*
 
@@ -817,6 +867,7 @@ A short, dry "that is not true." It is clipped from *bunkum*, which came from a 
 ### hogwash
 
 **Pronunciation:** /ˈhɔɡˌwɔʃ/, also /ˈhɑɡˌwɑʃ/ &middot; *HAWG-wosh*
+**Русский:** чушь! / ерунда! — устар., крепко, но вполне прилично; букв. пойло для свиней
 **Type:** secondary &middot; **Register:** dated
 
 Nonsense — literally the slop fed to pigs. It is emphatic, old-fashioned, and completely clean, which makes it a favorite of people who don't swear.
@@ -832,6 +883,7 @@ Nonsense — literally the slop fed to pigs. It is emphatic, old-fashioned, and 
 ### hooey
 
 **Pronunciation:** /ˈhui/ &middot; *HOO-ee*
+**Русский:** чепуха / ерунда — устар., простонародно-американское; обычно «a bunch of hooey»
 **Type:** secondary &middot; **Register:** dated
 
 Nonsense, in a folksy American register that has not really moved since the 1920s. It is almost always preceded by *a bunch of* or *a lot of* rather than standing alone, and it is mild enough to say in front of absolutely anyone. Note that it rhymes with *phooey* and is one letter away from it, but the two do different jobs: *phooey* rejects a situation, *hooey* rejects a claim.
@@ -847,6 +899,7 @@ Nonsense, in a folksy American register that has not really moved since the 1920
 ### horsefeathers
 
 **Pronunciation:** /ˈhɔrsˌfɛðərz/ &middot; *HORSE-feth-erz*
+**Русский:** чушь собачья — устар., приличная замена horseshit (1920-е); сегодня только шутка
 **Type:** secondary &middot; **Register:** dated
 
 A 1920s minced substitute for *horseshit*, coined so the sentiment could be expressed in company and preserved by the 1932 Marx Brothers film of the same name. Nobody rejects anything with it seriously now; it is a joke about a particular kind of old-fashioned bluster, and it is completely clean.
@@ -862,6 +915,7 @@ A 1920s minced substitute for *horseshit*, coined so the sentiment could be expr
 ### malarkey
 
 **Pronunciation:** /məˈlɑrki/ &middot; *muh-LAR-kee*
+**Русский:** байки / болтовня — устар., беззлобно-снисходительно о выдумках и преувеличениях
 **Type:** secondary &middot; **Register:** dated
 **Variants:** *malarky*
 
@@ -878,6 +932,7 @@ Foolish talk, exaggeration, or nonsense — dismissive but affectionate, the wor
 ### nonsense
 
 **Pronunciation:** /ˈnɑnˌsɛns/ &middot; *NON-sens*
+**Русский:** чепуха / вздор — нейтр.: (1) «это неправда»; (2) тепло: «да бросьте, что вы»
 **Type:** secondary &middot; **Register:** neutral
 
 Two uses. (1) A flat rejection of what was just said as untrue or unreasonable — unlike the rest of this group, it is perfectly usable in a formal setting. (2) A warm brushing-away of someone's self-criticism, worry, or excessive politeness, where it means "don't be silly, of course not."
@@ -894,6 +949,7 @@ Two uses. (1) A flat rejection of what was just said as untrue or unreasonable �
 ### poppycock
 
 **Pronunciation:** /ˈpɑpiˌkɑk/ &middot; *POP-ee-kok*
+**Русский:** вздор / чепуха — устар., с театральной барской ноткой; сегодня для комизма
 **Type:** secondary &middot; **Register:** dated
 
 Nonsense, delivered with a theatrical, old-money flourish. It comes from a Dutch phrase for soft dung, though no American who says it knows that. Today it is used mainly for comic effect.
@@ -913,6 +969,7 @@ Reactions to somebody else's misstep, and refusals of sympathy dressed up as sym
 ### awkward
 
 **Pronunciation:** /ˈɔkwərd/ &middot; *AWK-werd*
+**Русский:** неловко / вот это неудобно вышло — реплика наблюдателя о чужом промахе
 **Type:** secondary &middot; **Register:** informal
 
 The one-word label for a moment that has just gone wrong socially, said by someone watching rather than by the person suffering. Stretching the first syllable (*aaawkward*) is standard and turns it into a joke everyone is in on; said flat and quietly, it is a small cruelty, because it tells the room that the moment was bad enough to name.
@@ -928,6 +985,7 @@ The one-word label for a moment that has just gone wrong socially, said by someo
 ### big yikes
 
 **Pronunciation:** /ˌbɪɡ ˈjaɪks/ &middot; *big-YIKES*
+**Русский:** вообще жесть / ой-ёй-ёй — интернет: усиленное yikes о чужом позоре
 **Type:** phrase &middot; **Register:** internet/text
 
 An intensified *yikes*: not merely awkward but genuinely bad, and almost always about somebody else's embarrassing or offensive behavior. It is young and online, and spoken aloud by anyone much over thirty-five it sounds borrowed.
@@ -943,6 +1001,7 @@ An intensified *yikes*: not merely awkward but genuinely bad, and almost always 
 ### boo hoo
 
 **Pronunciation:** /ˌbu ˈhu/ &middot; *boo-HOO*
+**Русский:** уа-уа / бедняжка (сарк.) — изображённый плач: «твои жалобы меня не трогают»
 **Type:** onomatopoeic &middot; **Register:** informal
 **Variants:** *boo-hoo*, *boohoo*
 
@@ -959,6 +1018,7 @@ Written crying, used almost entirely as sarcasm: your complaint does not move me
 ### cringe
 
 **Pronunciation:** /krɪndʒ/ &middot; *KRINJ*
+**Русский:** кринж / испанский стыд — интернет: «стыдно смотреть», о чужой неловкости
 **Type:** secondary &middot; **Register:** internet/text
 **Variants:** *cringey*, *cringy*
 
@@ -975,6 +1035,7 @@ A one-word verdict that something is embarrassing to witness. It began online as
 ### cry me a river
 
 **Pronunciation:** /ˌkraɪ mi ə ˈrɪvər/ &middot; *kry-mee-uh-RIV-er*
+**Русский:** поплачь мне тут / горе-то какое — злой отказ сочувствовать, резче boo hoo
 **Type:** phrase &middot; **Register:** very informal
 
 An elaborate refusal of sympathy, from the 1953 song title: keep crying, I still don't care. It is sharper and more openly hostile than *boo hoo* — a deliberate insult, not a tease, and it ends the conversation it is aimed at.
@@ -990,6 +1051,7 @@ An elaborate refusal of sympathy, from the 1953 song title: keep crying, I still
 ### oof
 
 **Pronunciation:** /ʊf/, also /uf/ &middot; *UUF*
+**Русский:** ох / ух — сочувственная гримаса о чужой беде: «больно», «неловко вышло»
 **Type:** primary &middot; **Register:** informal
 **Variants:** *ooof*, *oooof*
 
@@ -1006,6 +1068,7 @@ Originally the sound of taking a blow to the stomach; online it has become the s
 ### sad
 
 **Pronunciation:** /sæd/ &middot; *SAD*
+**Русский:** убого / жалкое зрелище — интернет: с виду сочувствие, на деле приговор
 **Type:** secondary &middot; **Register:** internet/text
 
 A clipped one-word judgment meaning "pathetic," tacked onto a description of somebody's behavior. It has the shape of sympathy but is nearly always a put-down, and the terse delivery is strongly associated with social media posts.
@@ -1021,6 +1084,7 @@ A clipped one-word judgment meaning "pathetic," tacked onto a description of som
 ### sucks to be you
 
 **Pronunciation:** /ˌsʌks tə ˈbi ju/ &middot; *suks-tuh-BEE-yoo*
+**Русский:** не повезло тебе / твои проблемы — очень фам., нарочитый отказ в сочувствии
 **Type:** phrase &middot; **Register:** very informal
 **Variants:** *sucks to suck*, *sucks for you*
 
@@ -1037,6 +1101,7 @@ Sympathy withheld on purpose: the problem is real, and it is entirely yours. Bet
 ### wah
 
 **Pronunciation:** /wɑ/ &middot; *WAH*
+**Русский:** уа-уа / ну поплачь — передразнивание детского плача: «нытик»
 **Type:** onomatopoeic &middot; **Register:** very informal
 **Variants:** *waah*, *waaah*
 
@@ -1053,6 +1118,7 @@ A mocking imitation of a baby's cry, used to dismiss someone's complaint as whin
 ### womp womp
 
 **Pronunciation:** /ˌwɑmp ˈwɑmp/ &middot; *womp-WOMP*
+**Русский:** пам-пам-пам («грустный тромбон») — чужую неудачу переводят в шутку, а не в сочувствие
 **Type:** onomatopoeic &middot; **Register:** very informal
 **Variants:** *womp*, *wamp wamp*, *womp womp womp*
 
@@ -1069,6 +1135,7 @@ The written form of the descending "sad trombone" sting from old television, typ
 ### yeesh
 
 **Pronunciation:** /jiʃ/ &middot; *YEESH*
+**Русский:** ой-ёй / ну и ну — лёгкая гримаса с оттенком неодобрения; мягче, чем yikes
 **Type:** primary &middot; **Register:** informal
 
 A wince with a little disapproval folded into it — somewhere between *yikes* and *sheesh*. It answers something excessive, unpleasant, or clumsily handled, and it is the mildest thing in this section: it registers that something was bad without accusing anyone of much.
@@ -1084,6 +1151,7 @@ A wince with a little disapproval folded into it — somewhere between *yikes* a
 ### yikes
 
 **Pronunciation:** /jaɪks/ &middot; *YIKES*
+**Русский:** ой-ёй! / ух ты — гримаса: чаще брезгливое «ну это ты зря», реже испуг
 **Type:** primary &middot; **Register:** informal
 **Variants:** *yipes*
 

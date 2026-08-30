@@ -10,7 +10,7 @@ The second thing to watch is that almost every word here moonlights as an **adve
 
 Finally, the complement rule, which is where the real errors live. **Not one of these prepositions takes a *that*-clause.** You cannot write *into he was late* or *past she arrived* — the same rule that blocks *despite he was late* and *due to he was late* over in [cause and purpose](06-cause-purpose.md). What they do take is noun phrases and objective-case pronouns (*past **me***, *toward **them***). A subset noted entry by entry also takes a **gerund** (*advised **against** going*, *a step **toward** solving it*, *talked me **out of** quitting*, ***upon** signing*), and a gerund is what these prepositions want wherever a verb is called for — never a bare infinitive. A few — [into](#into), [over](#over), and [up to](#up-to) in one extraposed frame — take a nominal ***wh*-clause** (*look **into** what happened*, *a fight **over** who pays*, *it's **up to** you how we split it*), which is a noun phrase in disguise rather than an exception to the ban. Pronoun case matters here and is frequently botched in coordination: *walked past Ellen and **me***, never *and I*.
 
-**Owned by other files.** Seven movement-capable prepositions have their homes elsewhere and are cross-referenced rather than repeated: [to](02-core-relational.md#to) (the destination preposition proper — *toward* aims, *to* arrives), [from](02-core-relational.md#from) (the source preposition proper), [by](02-core-relational.md#by) (motion past something), [for](02-core-relational.md#for) (destination of a departure — *left for the airport*, *bound for Denver*), [at](01-core-in-on-at.md#at) (a target, as in *threw a rock at the window*), [in](01-core-in-on-at.md#in), and [on](01-core-in-on-at.md#on). The purely static vertical prepositions — *above*, *below*, *beneath*, *underneath* — belong to the location group; only [under](#under) and [atop](#atop) appear here, because those are the two members of that set that take motion freely (*swam **under** the bridge*, *scrambled **atop** the boulder*). Two more words are split between files rather than duplicated: [beyond](#beyond) is here in its spatial sense and in [the time file](05-time.md#beyond) for *beyond midnight*, and *after* in its pursuit sense (*ran **after** the bus*) is noted with the sequencing preposition [after](05-time.md#after). Multi-word phrases that are only incidentally directional — *by way of*, *next to*, *on top of* — live in [complex and multi-word prepositions](11-complex-multiword.md); the three whose whole job is direction, [en route to](#en-route-to), [in the direction of](#in-the-direction-of), and [out from under](#out-from-under), are written out here.
+**Owned by other files.** Seven movement-capable prepositions have their homes elsewhere and are cross-referenced rather than repeated: [to](02-core-relational.md#to) (the destination preposition proper — *toward* aims, *to* arrives), [from](02-core-relational.md#from) (the source preposition proper), [by](02-core-relational.md#by) (motion past something), [for](02-core-relational.md#for) (destination of a departure — *left for the airport*, *bound for Denver*), [at](01-core-in-on-at.md#at) (a target, as in *threw a rock at the window*), [in](01-core-in-on-at.md#in), and [on](01-core-in-on-at.md#on). The purely static vertical prepositions — *above*, *below*, *beneath*, *underneath* — belong to the location group; only [under](#under) and [atop](#atop) appear here, because those are the two members of that set that take motion freely (*swam **under** the bridge*, *scrambled **atop** the boulder*). Two more words are split between files rather than duplicated: [beyond](#beyond) is here in its spatial sense and in [the time file](05-time.md#beyond) for *beyond midnight*, and *after* in its pursuit sense (*ran **after** the bus*) is noted with the sequencing preposition [after](05-time.md#after). Multi-word phrases that are only incidentally directional — *by way of*, *next to*, *on top of* — live in [complex and multi-word prepositions](11-complex-multiword.md); the ones whose whole job is direction — [en route to](#en-route-to), [on the way to](#on-the-way-to), [in the direction of](#in-the-direction-of), [clear of](#clear-of), and [out from under](#out-from-under) — are written out here.
 
 ---
 
@@ -21,6 +21,7 @@ Where the motion is headed, and what it hits when it gets there.
 ### aboard
 
 **Pronunciation:** /əˈbɔrd/ &middot; *uh-BORD*
+**Русский:** на борт, на борту — только о судне, самолёте, поезде; и движение, и положение сразу
 **Type:** compound (*a-* "on" + *board*, fused — the *board* is a ship's side) &middot; **Register:** neutral, but tied to transport; formal or ceremonial outside it
 **Complement:** noun phrase only — a vehicle or vessel. No gerunds, no clauses, no ordinary places: *aboard the terminal* is wrong. It is also a bare adverb with no object at all (*All aboard!*, *Welcome aboard*), which is the usual test for telling the two uses apart.
 **Pattern:** [verb of motion] *aboard* [vessel / vehicle] &middot; [verb] [object] *aboard* [vessel / vehicle] &middot; *aboard* [vessel / vehicle], [main clause]
@@ -46,6 +47,7 @@ The vessel preposition. It began as sailors' vocabulary and spread to trains, bu
 ### against
 
 **Pronunciation:** /əˈɡɛnst/ &middot; *uh-GENST*; also /əˈɡeɪnst/ *uh-GAYNST* (minority American, standard British); casual /əˈɡɛns/ &middot; *uh-GENS*, with the final *t* dropped before a consonant (*against the wall*)
+**Русский:** об, о (с силой) — соприкосновение с нажимом; против (противодействие); на фоне чего-то
 **Type:** simple &middot; **Register:** neutral
 **Complement:** noun phrase, objective pronoun, or gerund (*advised against going*) — never a finite clause. Write *against the idea that he was lying*, not *against he was lying*.
 **Pattern:** [verb of motion] *against* [noun phrase] &middot; [verb] [object] *against* [noun phrase] &middot; *against* [verb-ing] &middot; stranded: *the wall he threw it* **against**
@@ -78,6 +80,7 @@ Motion that terminates in forcible contact, or motion that pushes back on an opp
 ### as far as
 
 **Pronunciation:** /æz ˈfɑr æz/ &middot; *az-FAR-az*; weak /əz ˈfɑr əz/ &middot; *uhz-FAR-uhz*
+**Русский:** до (самого) — крайняя точка движения, протяжённости или охвата
 **Type:** complex (three words) &middot; **Register:** neutral
 **Complement:** noun phrase or objective pronoun only. **With a clause it stops being a preposition and becomes a conjunction** (*as far as I know*, *as far as anyone can tell*) — a different construction with a different meaning.
 **Pattern:** [verb of motion] *as far as* [noun phrase] &middot; [measurement] *as far as* [noun phrase]
@@ -101,6 +104,7 @@ Names the limit of a movement or an extent: the point where the walking, the dri
 ### atop
 
 **Pronunciation:** /əˈtɑp/ &middot; *uh-TAHP*; also /əˈtɔp/ &middot; *uh-TAWP* in the regions where the cot–caught merger settles on the rounded vowel — the same variation you hear in *on*, *onto*, and *upon*. The vowel is the one in *top*, so speakers who keep the two apart use /ɑ/ here
+**Русский:** на вершине, на верх — сверху чего-то; перен. на первом месте в списке или иерархии
 **Type:** compound (*a-* "on" + *top*, fused — the same *a-* that built *aboard*, *ashore*, *astride*, *away*) &middot; **Register:** neutral to formal; commonest in journalism, sports writing, and physical description
 **Complement:** noun phrase or objective pronoun only — no gerunds, no clauses of any kind. It is one of the most restricted prepositions in this file: it wants a concrete object that has a top. Unlike *aboard*, *around*, and *along*, it has **no bare adverb use** — *he stood atop* with nothing after it is not English.
 **Pattern:** [verb of motion] *atop* [noun phrase] &middot; [verb] [object] *atop* [noun phrase] &middot; [noun] *atop* [noun phrase] (*the flag atop the dome*) &middot; *sit / perch / sit atop* [noun phrase]
@@ -128,6 +132,7 @@ The summit preposition. It was built the same way as *aboard* and *ashore* — a
 ### back to
 
 **Pronunciation:** /ˈbæk tu/ &middot; *BAK-too*; weak /ˈbæk tə/ &middot; *BAK-tuh*
+**Русский:** обратно в/к — возвращение к месту, состоянию, занятию или в прошлое
 **Type:** complex (adverb *back* + preposition *to*, fixed as a unit) &middot; **Register:** neutral
 **Complement:** noun phrase, objective pronoun, or gerund (*back to working nights*) — never a finite clause.
 **Pattern:** [verb of motion] *back to* [noun phrase] &middot; [verb] [object] *back to* [noun phrase] &middot; *back to* [verb-ing] &middot; *dates back to* [year]
@@ -154,6 +159,7 @@ Return motion — to a place, a state, an activity, or a point in the past. The 
 ### down to
 
 **Pronunciation:** /ˈdaʊn tu/ &middot; *DOWN-too*; weak /ˈdaʊn tə/ &middot; *DOWN-tuh*
+**Русский:** вниз до; вплоть до — движение к нижней точке; снижение до уровня; включая мелочи
 **Type:** complex (two words) &middot; **Register:** neutral
 **Complement:** noun phrase, objective pronoun, or gerund (*came down to choosing between two*) — never a finite clause.
 **Pattern:** [verb of motion] *down to* [noun phrase] &middot; [verb] [object] *down to* [noun phrase] &middot; *everything down to* [noun phrase]
@@ -177,6 +183,7 @@ Motion to a lower place, a farther-along point, or a smaller amount. The "lower"
 ### en route to
 
 **Pronunciation:** /ˌɑn ˈrut tu/ &middot; *ahn-ROOT-too*; also /ˌɛn ˈrut tu/ &middot; *en-ROOT-too*. Weak /ˌɑn ˈrut tə/ &middot; *ahn-ROOT-tuh*, with the same *to* → /tə/ reduction as [up to](#up-to) and [back to](#back-to). **The *route* here is /rut/ — *ROOT*, never the American /raʊt/ *ROWT***. ✗*en ROWT* is the pronunciation error to avoid
+**Русский:** по пути в/к, следуя в — в дороге к пункту назначения (офиц., книжн.)
 **Type:** complex (three words — the French borrowing *en route* plus English [to](02-core-relational.md#to)) &middot; **Register:** neutral to formal; standard in travel, shipping, aviation, and news writing
 **Complement:** noun phrase or objective pronoun — a destination or an outcome. A **gerund** is idiomatic in the figurative "on the way to achieving" sense that sportswriting made common (*en route to winning her third title*), but never a finite clause: *en route to he arrived* is not English. Strip the *to* and bare *en route* is an **adverb** with no object at all (*the parts are en route*), which is the test for telling the two uses apart.
 **Pattern:** [be / verb of motion] *en route to* [destination] &middot; [clause], *en route to* [destination] &middot; *en route to* [verb-ing] (figurative)
@@ -203,6 +210,7 @@ The in-transit preposition. English already owns *to*, *toward*, and *on the way
 ### in the direction of
 
 **Pronunciation:** /ɪn ðə dəˈrɛkʃən əv/ &middot; *in-thuh-duh-REK-shun-uv*; weak /ɪn ðə dəˈrɛkʃən ə/ &middot; *in-thuh-duh-REK-shun-uh* — the final *of* reduces to a bare schwa in every ordinary use, exactly as it does in [out of](#out-of) and [off of](#off-of). Both /dəˈrɛkʃən/ and /daɪˈrɛkʃən/ are standard American, and the unstressed /də-/ is the commoner one inside this phrase
+**Русский:** в направлении, в сторону — по курсу к чему-то, без обещания дойти
 **Type:** complex (four words: preposition + determiner + noun + preposition) &middot; **Register:** neutral, but four syllables longer than the word it replaces; in political and official prose it is usually a hedge
 **Complement:** noun phrase or objective pronoun — the object belongs to the final *of*. It also takes a nominal ***wh*-clause** (*in the direction of where the shots came from*), which is a noun phrase in disguise; it **never takes a *that*-clause**. A gerund is grammatical but graceless (*a move in the direction of settling*) — write *toward settling*.
 **Pattern:** [verb of motion] *in the direction of* [noun phrase] &middot; *point / gesture / nod / look / turn in the direction of* [noun phrase] &middot; *a step / a move in the direction of* [noun phrase]
@@ -228,6 +236,7 @@ The long form of *toward*, useful mainly for pointing rather than going. Because
 ### in to
 
 **Pronunciation:** /ˌɪn ˈtu/ &middot; *in-TOO*; weak /ɪn tə/ &middot; *in-tuh*
+**Русский:** не предлог: частица глагола in + to — «сдал in to», «зашёл in to поговорить»; не into
 **Type:** complex (two words) — strictly the adverb/particle *in* plus the preposition or infinitive marker [to](02-core-relational.md#to), not a preposition in its own right &middot; **Register:** neutral
 **Complement:** whatever the following *to* takes — a noun phrase or objective pronoun when *to* is a preposition (*turned it in to the clerk*), or a bare verb when *to* is the infinitive marker (*came in to talk*). Never a finite clause.
 **Pattern:** [verb + *in*] *to* [noun phrase] &middot; [verb + *in*] *to* [bare verb] &middot; [verb] [object] *in to* [noun phrase]
@@ -248,6 +257,7 @@ Not a preposition, but the counterpart the *onto* / *on to* pair makes everyone 
 ### into
 
 **Pronunciation:** /ˈɪntu/ &middot; *IN-too*; weak /ˈɪntə/ &middot; *IN-tuh*; casual /ˈɪnə/ &middot; *IN-uh*
+**Русский:** в (внутрь) — движение внутрь, в отличие от статического in; врезаться в; превратиться в
 **Type:** compound (*in* + *to*, fused) &middot; **Register:** neutral
 **Complement:** noun phrase, objective pronoun, gerund (*got into arguing about it*), or a **wh-clause** in the inquiry sense (*an investigation into what went wrong*, *look into how this happened*) — never a *that*-clause.
 **Pattern:** [verb of motion] *into* [noun phrase] &middot; [verb] [object] *into* [noun phrase] &middot; *into* [wh-clause] &middot; stranded: *the room she walked* **into**; *what did you get yourself* **into**?
@@ -283,9 +293,36 @@ The general preposition of entry — motion from outside to inside, with the bou
 
 **See also:** [in](01-core-in-on-at.md#in), [in to](#in-to), [onto](#onto), [out of](#out-of), [to](02-core-relational.md#to), [through](#through)
 
+### on the way to
+
+**Pronunciation:** /ɑn ðə ˈweɪ tu/ &middot; *ahn-thuh-WAY-too*; weak /ən ðə ˈweɪ tə/ &middot; *uhn-thuh-WAY-tuh* — *on* and the final *to* both fall to schwa, so the whole phrase is one unstressed run around a single stressed *WAY*. Casual speech goes further, to /ənə ˈweɪ tə/ &middot; *uh-nuh-WAY-tuh*
+**Русский:** по пути в/к — по дороге к цели, попутно; перен. на пути к результату
+**Type:** complex (four words: preposition + determiner + noun + preposition) &middot; **Register:** neutral — the plain-English everyday equivalent of [en route to](#en-route-to)
+**Complement:** noun phrase, objective pronoun, or **gerund** in the figurative sense (*on the way to becoming a nurse*) — never a finite clause: ✗*on the way to he arrived*. **The *to* here is a preposition, not an infinitive marker**, so a verb after it has to be an *-ing* form: ✗*on the way to become a nurse* is the error to avoid, the same trap that catches *look forward to* and *object to*. Strip the *to* and bare *on the way* is an adverbial with no object at all (*the parts are on the way*), which is the test for telling the two uses apart.
+**Pattern:** [be / verb of motion] *on the way to* [destination] &middot; [clause], *on the way to* [destination] &middot; *on the way to* [verb-ing] &middot; [verb] [object] *on the way to* [destination]
+**Variants:** *on my / your / his / her / our / their way to* — the possessive version is at least as common as the definite article and means the same thing (*she called on her way to the airport*). *On the road to* is the same frame with a different noun and is now almost entirely figurative (*on the road to recovery*).
+**Contrast:** *On the way to* and [en route to](#en-route-to) mean the same thing; *en route to* is the shorter and more official one, and *on the way to* is what Americans say out loud. Against plain [to](02-core-relational.md#to): *drove to the airport* reports the whole trip, while *on the way to the airport* frames it as a stretch in the middle of one. Against [toward](#toward): *toward* names a bearing and promises no destination, while *on the way to* names the destination and says only that you have not reached it yet.
+
+The plain-English in-transit phrase, and one of the highest-frequency multiword prepositions in American speech. Its literal job is to locate something inside a trip that has started and not finished, which is why so much of its work is incidental (*grab coffee on the way to the airport*). Its figurative sense — partway to an outcome — is where the common advanced error lives, because that *to* is a preposition and takes a gerund.
+
+**1. In transit to a destination.** We're *on the way to* the hospital now.
+**2. Passed or done during a trip; lying along the route.** There's a good diner *on the way to* the lake.
+**3. Partway to an outcome or a state (figurative).** He's *on the way to* a full recovery.
+
+1. Call me when you're *on the way to* the airport. *(1)*
+2. The truck broke down *on the way to* the job site. *(1)*
+3. We can pick up the cake *on the way to* your mother's. *(2)*
+4. There's a hardware store *on the way to* the trailhead. *(2)*
+5. The team is well *on the way to* a losing season. *(3)*
+6. She's *on the way to* becoming the youngest partner the firm has had. *(3 — gerund complement)*
+7. Compare the objectless adverbial: don't worry, the parts are *on the way*. *(no object — not this preposition)*
+
+**See also:** [en route to](#en-route-to), [to](02-core-relational.md#to), [toward](#toward), [up to](#up-to), [via](#via), [in the direction of](#in-the-direction-of)
+
 ### on to
 
 **Pronunciation:** /ˌɑn ˈtu/ &middot; *ahn-TOO*; weak /ˈɑn tə/ &middot; *AHN-tuh*
+**Русский:** не предлог: частица глагола on + to — «держаться on to», «перейти on to»; не onto
 **Type:** complex (two words) — strictly the adverb/particle *on* plus the preposition [to](02-core-relational.md#to), not a preposition in its own right &middot; **Register:** neutral
 **Complement:** whatever *to* takes — noun phrase, objective pronoun, or gerund (*moved on to fixing the roof*) — never a finite clause.
 **Pattern:** [verb + *on*] *to* [noun phrase] &middot; *hold on to* [noun phrase] &middot; *pass* [object] *on to* [noun phrase] &middot; *move on to* [noun phrase]
@@ -306,6 +343,7 @@ Not a preposition, but the single most useful non-entry in this file: American w
 ### onto
 
 **Pronunciation:** /ˈɑntu/ &middot; *AHN-too*; also /ˈɔntu/ *AWN-too*; weak /ˈɑntə/ &middot; *AHN-tuh*
+**Русский:** на (поверхность) — движение на поверхность, в отличие от статического on
 **Type:** compound (*on* + *to*, fused) &middot; **Register:** neutral
 **Complement:** noun phrase or objective pronoun. Gerunds are marginal — *onto winning* is not idiomatic. Never a finite clause.
 **Pattern:** [verb of motion] *onto* [noun phrase] &middot; [verb] [object] *onto* [noun phrase] &middot; stranded: *the ledge he climbed* **onto**
@@ -332,6 +370,7 @@ The surface counterpart of [into](#into): motion that ends with the moving thing
 ### toward
 
 **Pronunciation:** /tɔrd/ &middot; *TORD* (the normal American pronunciation — one syllable); also /təˈwɔrd/ &middot; *tuh-WORD*, /ˈtoʊərd/ &middot; *TOH-erd*. **The one-syllable /tɔrd/ is itself the reduced form** — it is what Americans say in ordinary connected speech, and the two-syllable /təˈwɔrd/ is the careful or emphatic pronunciation, not the other way around. The *-s* of *towards* does not change any of this
+**Русский:** к, по направлению к — направление, обращённость, приближение во времени, отношение к кому-то
 **Type:** simple &middot; **Register:** neutral
 **Complement:** noun phrase, objective pronoun, or gerund (*a step toward solving it*) — never a finite clause.
 **Pattern:** [verb of motion] *toward* [noun phrase] &middot; [noun] *toward* [noun phrase] (*his attitude toward the job*) &middot; *toward* [verb-ing]
@@ -362,6 +401,7 @@ Direction without commitment to arrival — which makes it the preposition of ai
 ### unto
 
 **Pronunciation:** /ˈʌntu/ &middot; *UN-too*; weak /ˈʌntə/ &middot; *UN-tuh*
+**Русский:** устар., библ. к, до — стилизованная замена to; в живой речи только в застывших оборотах
 **Type:** compound (*un-* + *to*, on the model of *until*) &middot; **Register:** archaic and biblical; literary
 **Complement:** noun phrase or objective pronoun only — no gerunds, no clauses.
 **Pattern:** [verb] *unto* [noun phrase] &middot; [noun] *unto* [noun phrase] (*a law unto himself*)
@@ -385,6 +425,7 @@ The King James Bible preserved *unto* long after ordinary English dropped it, wh
 ### up to
 
 **Pronunciation:** /ˈʌp tu/ &middot; *UP-too*; weak /ˈʌp tə/ &middot; *UP-tuh*
+**Русский:** до, вплоть до — предел; разг. «замышлять что-то», «дело за кем-то», «быть в состоянии»
 **Type:** complex (two words) &middot; **Register:** neutral
 **Complement:** noun phrase, objective pronoun, or gerund (*not up to driving tonight*); a wh-clause only in the "someone's choice" sense with extraposition (*it's up to you how we split it*). Never a bare *that*-clause.
 **Pattern:** [verb of motion] *up to* [noun phrase] &middot; *up to* [number] &middot; *be up to* [noun phrase / verb-ing] &middot; *it's up to* [pronoun] &middot; stranded: *what are you* **up to**?
@@ -420,6 +461,7 @@ Motion as far as a point — and then, by an easy extension, a maximum, a standa
 ### upon
 
 **Pronunciation:** /əˈpɑn/ &middot; *uh-PAHN*; also /əˈpɔn/ &middot; *uh-PAWN*. The first syllable is **already reduced** and there is no further weak form: it is /ə/, never the full /ʌp/ of [up](#up), and ✗*UP-on* is the commonest mispronunciation among learners who see the spelling before they hear the word
+**Русский:** на — книжн. вариант on; также «сразу после (чего-то)» и «наткнуться на»
 **Type:** compound (*up* + *on*, fused) &middot; **Register:** formal, literary, or fixed-phrase; in plain modern prose [on](01-core-in-on-at.md#on) is the default
 **Complement:** noun phrase, objective pronoun, or **gerund** (*upon signing the contract*) — never a finite clause. The gerund pattern is the one place *upon* beats *on* in modern American writing.
 **Pattern:** [verb] *upon* [noun phrase] &middot; *Upon* [noun phrase / verb-ing], [main clause] &middot; [noun] *upon* [same noun] (*row upon row*)
@@ -450,11 +492,12 @@ The elevated twin of *on*, and — in its motion sense — a near-synonym of [on
 
 ## Source and departure
 
-Where the motion starts, and what it leaves behind.
+Where the motion starts, and what it leaves behind. English builds these freely by stacking [from](02-core-relational.md#from) onto another preposition, and four of the entries below are stacks of exactly that kind: [from before](#from-before), [from off](#from-off), [from out](#from-out), and [out from under](#out-from-under). Two of them, together with the dialect form [outen](#outen), are here to be recognized in reading rather than used in writing; each entry says which, and says why.
 
 ### away from
 
 **Pronunciation:** /əˈweɪ frʌm/ &middot; *uh-WAY-frum*; weak /əˈweɪ frəm/ &middot; *uh-WAY-fruhm*
+**Русский:** от, прочь от — удаление от точки; на расстоянии от; перен. уход от чего-то, избегание
 **Type:** complex (adverb *away* + preposition *from*) &middot; **Register:** neutral
 **Complement:** noun phrase, objective pronoun, or gerund (*moving away from using coal*) — never a finite clause.
 **Pattern:** [verb of motion] *away from* [noun phrase] &middot; [measurement] *away from* [noun phrase] (*two blocks away from the station*) &middot; *away from* [verb-ing]
@@ -478,9 +521,112 @@ The direct opposite of [toward](#toward): motion whose whole point is that the g
 
 **See also:** [from](02-core-relational.md#from), [toward](#toward), [out of](#out-of), [off](#off), [past](#past)
 
+### clear of
+
+**Pronunciation:** /ˈklɪr əv/ &middot; *KLEER-uv*; weak /ˈklɪr ə/ &middot; *KLEER-uh* — the *of* drops to a bare schwa in every ordinary use, exactly as it does in [out of](#out-of) and [off of](#off-of). The stress never leaves *clear*, and ✗*kleer-UV* is the mistake to avoid
+**Русский:** в стороне от, подальше от — на безопасном расстоянии; свободный от долга или подозрения
+**Type:** complex (the adjective *clear* + [of](02-core-relational.md#of), fixed as a unit) &middot; **Register:** neutral; standard in aviation, maritime, traffic, and safety writing, and in the everyday warning *steer clear of*
+**Complement:** noun phrase, objective pronoun, or **gerund** in the avoidance sense (*steer clear of asking him about it*) — never a finite clause: ✗*clear of he was involved*. **The *to*-infinitive is impossible here**, because the *of* is a preposition: ✗*steer clear of to ask him* and ✗*steer clear of ask him* are both wrong, and only *steer clear of asking him* is English. With no object at all, *clear* is an adjective or an adverb (*the runway is clear*, *she got clear*), which is the test for telling the two uses apart.
+**Pattern:** *steer / stay / keep clear of* [noun phrase] &middot; [verb of motion] *clear of* [noun phrase] (*pull, swing, haul, get clear of*) &middot; *be clear of* [noun phrase] &middot; *clear of* [verb-ing]
+**Contrast:** Against [away from](#away-from): *away from* says only that the gap is widening, while *clear of* says a specific hazard has been escaped completely — *the plane banked away from the ridge* reports the motion, *the plane was clear of the ridge* reports that the ridge no longer mattered. Against [out of](#out-of): *out of* needs an enclosure to exit, *clear of* needs only something to be obstructed or endangered by. Against [past](#past): *past the barge* is merely beyond it; *clear of the barge* is far enough beyond it to be safe.
+
+The safe-distance preposition. The adjective *clear* — "unobstructed, free" — hardened onto *of* and now works as a single unit, with one idea running through all of it: something dangerous, obstructing, or entangling has been left far enough behind to stop counting. That is why controllers, dispatchers, and safety notices are built on the phrase, and why its commonest everyday shape is a warning rather than a report.
+
+**1. Moving to a safe distance from a hazard or an obstruction.** The tug pulled *clear of* the pilings.
+**2. At a safe distance from; no longer touching or threatened by.** The wingtip was barely *clear of* the hangar door.
+**3. Free of an entanglement, a debt, or a suspicion (figurative).** Two more payments and she'll be *clear of* the loan.
+**4. Deliberately avoiding, with steer, stay, or keep.** Steer *clear of* that intersection at five o'clock.
+
+1. The ferry swung *clear of* the barge with about a yard to spare. *(1)*
+2. He dragged the mower *clear of* the burning shed. *(1)*
+3. Wait until the truck is *clear of* the crosswalk before you turn. *(2)*
+4. The scaffolding has to stay eight feet *clear of* the power line. *(2)*
+5. By March the company was finally *clear of* the receivership. *(3)*
+6. He never got *clear of* the rumor, even after the charges were dropped. *(3)*
+7. Stay *clear of* the tracks until the gates go back up. *(4)*
+8. My advice is to steer *clear of* asking him about the sale. *(4 — gerund complement)*
+
+**See also:** [away from](#away-from), [out of](#out-of), [past](#past), [off](#off), [out from under](#out-from-under), [of](02-core-relational.md#of)
+
+### from before
+
+**Pronunciation:** /frʌm bɪˈfɔr/ &middot; *frum-bee-FOR*; weak /frəm bəˈfɔr/ &middot; *fruhm-buh-FOR* — both words reduce, so in running speech the phrase is two schwas leading into the stressed *-FOR*. *From* is never stressed here unless the source is being contrasted with some other source
+**Русский:** книжн. из пространства перед чем-то; о времени — «ещё до», «с времён до чего-то»
+**Type:** complex (a preposition stack: [from](02-core-relational.md#from) + *before* in its "in front of" sense) &middot; **Register:** the spatial sense is formal, literary, and rare; the temporal sense (*from before the war*) is neutral and completely ordinary in American speech
+**Complement:** noun phrase or objective pronoun — the object belongs to *before*. **A gerund is marginal** (*from before joining the firm*) and reads badly; rewrite with a noun (*from before her time at the firm*). **With a finite clause the *before* stops being a preposition and becomes a conjunction** — *I've known him from before he moved here* is good English, but there *from* governs a whole subordinate clause, which is a different construction from *from before the war*.
+**Pattern:** [verb of motion] *from before* [noun phrase] &middot; [verb] [object] *from before* [person] &middot; [noun] *from before* [period] &middot; *rise / step / clear / snatch from before* [noun phrase]
+**Contrast:** The spatial sense is built exactly like [out from under](#out-from-under) and like *from behind*: a position preposition with [from](02-core-relational.md#from) stacked on the front to mark that position as the source. Against plain [from](02-core-relational.md#from): *took it from him* makes the person the source, *took it from before him* makes the space in front of him the source. American writers use the spatial sense sparingly, because readers hear the temporal *before* first and have to back up. For the temporal preposition on its own see [before (time)](05-time.md#before); for the spatial one see [before (place)](03-place-position.md#before).
+
+Two senses that share a spelling and almost nothing else. The spatial stack is old and formal — a waiter clears a plate *from before* a guest, a figure rises *from before* a fire — and it survives mostly in literary description and in the reporting of ceremony. The temporal one is everyday American English and means simply "dating from earlier than": *a photo from before the fire*, *records from before the merger*. Only context separates them, which is why the spatial use needs a physical verb around it to be readable at all.
+
+**1. Away from a position in front of something.** He rose *from before* the hearth.
+**2. Taking something out of the space in front of a person.** She lifted the untouched plate *from before* him.
+**3. Dating from a time earlier than.** A photograph *from before* the fire.
+
+1. The dog had to be coaxed *from before* the oven door. *(1)*
+2. The guard stepped *from before* the gate and waved them through. *(1)*
+3. A waiter cleared the cups *from before* the two of them without a word. *(2)*
+4. He pulled the microphone *from before* her face. *(2)*
+5. Everything in the album is *from before* the divorce. *(3)*
+6. She still has letters *from before* the family left Poland. *(3)*
+7. Compare the clause version, where *before* is a conjunction: I've known him *from before* he moved to Denver. *(not this preposition)*
+
+**See also:** [from](02-core-relational.md#from), [before (place)](03-place-position.md#before), [before (time)](05-time.md#before), [out from under](#out-from-under), [away from](#away-from), [from off](#from-off)
+
+### from off
+
+**Pronunciation:** /frʌm ˈɔf/ &middot; *frum-AWF*; weak /frəm ˈɔf/ &middot; *fruhm-AWF* — *from* reduces to /frəm/ and the stress lands on *off*, which has no weak form of its own (see [off](#off)). Speakers with the cot–caught merger say /frəm ˈɑf/ &middot; *fruhm-AHF*
+**Русский:** устар., библ. и диал. с (поверхности) — то же, что off, но с упором на отделение
+**Type:** complex (a preposition stack: [from](02-core-relational.md#from) + [off](#off)) &middot; **Register:** **archaic and biblical** in writing, and **regional** in American speech — ordinary in Appalachian, Southern, and older rural New England varieties. It is not standard edited American English in any register
+**Complement:** noun phrase or objective pronoun only — the object belongs to *off*. No gerunds and no clauses of any kind: ✗*from off he left it there*. Neither half can be stranded on its own; the stack moves as a unit.
+**Pattern:** [verb of motion] *from off* [surface] &middot; [verb] [object] *from off* [surface] &middot; *take / lift / wipe / sweep / roll from off* [noun phrase]
+**Contrast:** Against plain [off](#off), which means precisely the same thing: *took the book off the shelf* and *took the book from off the shelf* differ in register and in nothing else, and the *from* buys a modern writer nothing at all. Against [off of](#off-of): both are two-word doublets of *off*, but *off of* is unremarkable modern speech while *from off* sounds either scriptural or rural. Against [from](02-core-relational.md#from) alone: *from the shelf* is neutral about contact, *from off the shelf* insists the thing had been resting on the surface.
+
+A preposition stack that standard American English has retired. It was ordinary in Early Modern English, and the King James Bible preserved it — *I will destroy it from off the face of the earth*, *wipe away tears from off all faces* — which is why it still reads as scripture rather than as merely old. It also survives as living regional speech in parts of the South and Appalachia, where it carries no archaic flavor whatever. Recognize it in reading and in dialogue; in your own writing use *off*.
+
+**1. Away from a surface it had been resting on.** He took the crown *from off* his head.
+**2. Away from a surface, in regional American speech.** Get that cat *from off* the table.
+
+1. The stone was rolled *from off* the mouth of the tomb. *(1 — biblical register)*
+2. The promise is that every tear will be wiped *from off* their faces. *(1 — biblical register)*
+3. Dust was blown *from off* the ledger before anyone would open it. *(1 — deliberately archaic)*
+4. She lifted the kettle *from off* the stove and set it on a trivet. *(2)*
+5. Get your boots *from off* the good chair. *(2)*
+6. He bought the melons *from off* a truck parked by the highway. *(2)*
+7. Edited American prose writes every one of these with plain *off*. *(register note)*
+
+**See also:** [off](#off), [off of](#off-of), [from out](#from-out), [from](02-core-relational.md#from), [out of](#out-of), [away from](#away-from)
+
+### from out
+
+**Pronunciation:** /frʌm ˈaʊt/ &middot; *frum-OWT*; weak /frəm ˈaʊt/ &middot; *fruhm-OWT*. With the *of* of the variant attached, the last two words run together exactly as they do in [out of](#out-of): /frəm ˈaʊɾə/ &middot; *fruhm-OW-duh*, the casual *outta*
+**Русский:** книжн., поэт. из (изнутри) — усиленное out of; разг. from out of «(взялся) из ниоткуда»
+**Type:** complex (a preposition stack: [from](02-core-relational.md#from) + [out](#out); the variant adds [of](02-core-relational.md#of) on the end) &middot; **Register:** bare *from out* is **literary and archaic** — nineteenth-century verse and heightened prose. *From out of* is not literary at all: it is ordinary informal American speech. Edited prose deletes the *from* from both
+**Complement:** noun phrase or objective pronoun only. No gerunds, no clauses: ✗*from out of he was hiding*. Note that bare *from out* takes a **wider** object range than bare [out](#out) does on its own — modern *out* as a preposition is restricted to openings (*out the window*), while the verse form goes anywhere (*from out the shadows*, *from out the depths*), and that mismatch is itself part of what marks it as archaic. *From out of* simply takes the full range of [out of](#out-of).
+**Pattern:** [verb of motion] *from out* [noun phrase] &middot; [verb of motion] *from out of* [noun phrase] &middot; *come / rise / step / emerge from out of* [noun phrase] &middot; *from out of nowhere*
+**Variants:** *from out of* — the living American form and the one you actually hear (*it came from out of nowhere*, *pulled it from out of the drawer*). Bare *from out* is the literary one. Both are redundant against plain [out of](#out-of), and a copy editor will cut the *from*.
+**Contrast:** Against [out of](#out-of), which says the same thing in two words: *she stepped out of the shadows* is the plain sentence, and *she stepped from out of the shadows* adds emphasis on the origin plus a little theater. Against [from](02-core-relational.md#from): *from* names an origin without requiring an enclosure, while the stack insists there was something to come out of. Note that the commonest American instance is a frozen phrase — *out of nowhere* with *from* in front of it — where nobody hears the redundancy at all.
+
+Two related stacks with quite different lives. Bare *from out* belongs to poetry and nineteenth-century prose (*from out the shadows*, *from out the depths*), and reaching for it today is a deliberate effect that reads as pastiche if it misses. *From out of* is not archaic in the least; it is everyday spoken American English, where the doubled source marking adds emphasis. Both get cut in edited writing, and both are worth recognizing on sight.
+
+**1. Out of, with the origin emphasized, in literary style.** A voice came *from out* the dark.
+**2. Out of, with emphasis, in ordinary speech.** He pulled a receipt *from out of* his wallet.
+**3. The frozen phrase, of something sudden and unexplained.** The truck came *from out of* nowhere.
+
+1. A single light showed *from out* the fog. *(1)*
+2. A cry came *from out* the depths of the canyon. *(1)*
+3. She fished the spare key *from out of* the flowerpot. *(2)*
+4. He dragged the box *from out of* the crawl space. *(2)*
+5. A dog appeared *from out of* the corn and sat down in the road. *(3)*
+6. The offer came *from out of* nowhere three days before the deadline. *(3)*
+7. Edited prose deletes the *from* in every one of these. *(register note)*
+
+**See also:** [out of](#out-of), [out](#out), [from off](#from-off), [from](02-core-relational.md#from), [away from](#away-from), [off of](#off-of)
+
 ### off
 
 **Pronunciation:** /ɔf/ &middot; *AWF*; also /ɑf/ *AHF* for speakers with the cot–caught merger. **No weak form** — *off* keeps its full vowel even when unstressed, which is why [off of](#off-of) reduces in its second word (*offa* /ˈɔfə/) and never in its first
+**Русский:** с (поверхности), прочь с — отделение от поверхности; сойти с дороги; жить на какие-то средства
 **Type:** simple &middot; **Register:** neutral; the "obtain from a person" sense is informal
 **Complement:** noun phrase or objective pronoun; a gerund only in the "sustained by" sense (*lives off selling parts*). Never a finite clause.
 **Pattern:** [verb of motion] *off* [noun phrase] &middot; [verb] [object] *off* [noun phrase] &middot; stranded: *the shelf it fell* **off**
@@ -516,6 +662,7 @@ Separation from a surface, and by extension from a route, a habit, or a supply. 
 ### off of
 
 **Pronunciation:** /ˈɔf əv/ &middot; *AWF-uv*; weak /ˈɔf ə/ &middot; *AWF-uh*
+**Русский:** разг. с (поверхности) — то же, что off; of лишнее, в письменной речи его убирают
 **Type:** complex (two words) &middot; **Register:** informal — normal in American speech, widely edited out of formal writing
 **Complement:** noun phrase or objective pronoun only.
 **Pattern:** [verb of motion] *off of* [noun phrase] &middot; [verb] [object] *off of* [noun phrase]
@@ -535,6 +682,7 @@ The redundant doublet of *off*. Worth an entry only because learners hear it con
 ### out
 
 **Pronunciation:** /aʊt/ &middot; *OWT*; the final *t* flaps to /ɾ/ before a vowel — *out an open window* /ˌaʊɾ ən/ — which is the same reduction that turns *out of* into *outta*
+**Русский:** в, через (наружу) — как предлог только с проёмами: out the window «в окно», out the door «в дверь»
 **Type:** simple &middot; **Register:** neutral; the "along" sense is informal and regional
 **Complement:** noun phrase only, and only a narrow set of them — openings and routes (*the window*, *the door*, *the driveway*, *the highway*). It cannot take a gerund or a clause, and it cannot take most ordinary nouns: *out the building* is wrong; you need [out of](#out-of).
 **Pattern:** [verb of motion] *out* [opening] &middot; [verb] [object] *out* [opening]
@@ -557,6 +705,7 @@ Chiefly an adverb and a particle; a preposition only in the opening construction
 ### out from under
 
 **Pronunciation:** /ˌaʊt frəm ˈʌndər/ &middot; *owt-frum-UN-der* — the stress lands on *under*, and *from* is always the weak /frəm/, never the full /frʌm/; casual /ˌaʊt frəm ˈʌnɚ/ &middot; *owt-frum-UN-ner*, with the *d* dropped after the nasal exactly as in [under](#under)
+**Русский:** из-под — движение из-под чего-то; перен. избавиться от груза, долга, чужой опеки
 **Type:** complex (three words stacked: the particle *out* + [from](02-core-relational.md#from) + [under](#under)) &middot; **Register:** neutral; the figurative "free of a burden" sense is the commoner one in American writing
 **Complement:** noun phrase or objective pronoun only — the object belongs to *under*. No gerunds, no clauses of any kind: write *out from under the mortgage*, never *out from under he owed money*. Unlike [out](#out) and [under](#under) on their own, the stack has **no bare adverb use** — *he finally got out from under* with nothing after it is heard in speech but leaves the object to be understood, not deleted.
 **Pattern:** [verb of motion] *out from under* [noun phrase] &middot; *get / dig / climb / crawl / haul out from under* [noun phrase] &middot; [verb] [object] *out from under* [noun phrase] &middot; *be out from under* [burden]
@@ -581,6 +730,7 @@ One of the few genuinely productive preposition stacks left in English, and Amer
 ### out of
 
 **Pronunciation:** /ˈaʊt əv/ &middot; *OWT-uv*; weak /ˈaʊɾ ə/ &middot; *OW-duh* (the casual spelling *outta*)
+**Русский:** из (изнутри) — выход наружу; из материала; из чувства (из страха); «без» — запас кончился
 **Type:** complex (two words) &middot; **Register:** neutral
 **Complement:** noun phrase, objective pronoun, or gerund (*talked me out of quitting*) — never a finite clause.
 **Pattern:** [verb of motion] *out of* [noun phrase] &middot; [verb] [object] *out of* [noun phrase] &middot; *out of* [verb-ing] &middot; [number] *out of* [number] &middot; stranded: *the mess we got* **out of**
@@ -613,6 +763,29 @@ The general preposition of exit — and then, through the metaphor of a containe
 
 **See also:** [out](#out), [into](#into), [off](#off), [away from](#away-from), [from](02-core-relational.md#from), [in](01-core-in-on-at.md#in)
 
+### outen
+
+**Pronunciation:** /ˈaʊtən/ &middot; *OW-tun*; commonly /ˈaʊʔn̩/ &middot; *OW-tn*, with a glottal stop and a syllabic *n*, and between vowels the *t* flaps to *OW-dun*. **No weak form** — this is a spoken form that carries its own stress, and the *out* keeps its full diphthong exactly as it does in [out](#out)
+**Русский:** диал., прост. (юг США) из — местное произношение out of, нестандартное
+**Type:** simple in shape, but historically [out of](#out-of) worn down — the *of* reduced onto the end as a syllabic *-en*, the same erosion that gives casual *outta* &middot; **Register:** **dialectal and nonstandard.** Recorded chiefly for the South and South Midland — Appalachia, the Ozarks, and rural Pennsylvania. It reaches print almost only as eye-dialect in fiction, folklore collections, and song lyrics, and it is never standard edited English
+**Complement:** noun phrase or objective pronoun only. No gerunds, no clauses. It has no adverb use and is not stranded: ✗*that's the barn he came outen* is not how the speakers who have the form use it.
+**Pattern:** [verb of motion] *outen* [noun phrase] &middot; *come / get / take / drink outen* [noun phrase] &middot; [verb] [object] *outen* [noun phrase]
+**Contrast:** *Outen* is [out of](#out-of) in a regional pronunciation that acquired its own spelling — *he came outen the barn* is *he came out of the barn*, with nothing added. Compare the parallel dialect respellings *offen* (= *off of*), *ahind* (= *behind*), and *ontil* (= *until*). **Do not confuse it with the Pennsylvania Dutch English verb** *outen*, "put out, turn off" (*outen the light*): that word takes a direct object and heads no prepositional phrase, and the two have nothing to do with each other in use.
+
+A regional American form of *out of*, listed here so readers can identify it and writers know to leave it alone. Where it lives it is ordinary speech and carries no stigma; outside those areas — in edited prose, or in a classroom — it will be read as an error, and the honest advice is to recognize it and write *out of*. It is included for the same reason [athwart](#athwart) is: you will meet it in reading, not because anyone should reach for it.
+
+**1. Out of; from inside something.** He came *outen* the smokehouse with a ham.
+**2. Made from; drawn from a source.** The whistle was cut *outen* a willow branch.
+
+1. The kids came running *outen* the barn when the truck pulled in. *(1)*
+2. Get *outen* my kitchen with those boots on. *(1)*
+3. She drank the water right *outen* the dipper. *(1)*
+4. The handle was whittled *outen* a piece of hickory. *(2)*
+5. Nothing good ever came *outen* that hollow, he told us. *(2)*
+6. Standard American English writes every one of these with *out of*. *(register note)*
+
+**See also:** [out of](#out-of), [out](#out), [off of](#off-of), [from off](#from-off), [out from under](#out-from-under), [from](02-core-relational.md#from)
+
 ---
 
 ## Path, route, and traversal
@@ -622,6 +795,7 @@ The middle of the journey: the surface crossed, the tunnel entered, the line fol
 ### across
 
 **Pronunciation:** /əˈkrɔs/ &middot; *uh-KRAWSS*; also /əˈkrɑs/ &middot; *uh-KRAHSS*. **No separate weak form** — the first syllable is already the reduced /ə/ and the stress never leaves *-cross*, which is true of the whole *a-* family here (*aboard*, *atop*, *along*, *alongside*, *astride*, *athwart*, *around*). The regional form *acrost* /əˈkrɔst/ is nonstandard.
+**Русский:** через, поперёк — с одной стороны на другую; на той стороне; по всей площади
 **Type:** simple &middot; **Register:** neutral
 **Complement:** noun phrase or objective pronoun only — no gerunds, no clauses. It is also a **bare adverb** with no object at all (*we paddled across*, *go across at Fifth*), which is the usual test for telling the two uses apart.
 **Pattern:** [verb of motion] *across* [noun phrase] &middot; [noun] *across* [noun phrase] (*the diner across the street*) &middot; stranded: *the river we swam* **across**
@@ -650,6 +824,7 @@ Motion from one edge of a surface to the opposite edge. Once the crossing is com
 ### along
 
 **Pronunciation:** /əˈlɔŋ/ &middot; *uh-LAWNG*; also /əˈlɑŋ/ &middot; *uh-LAHNG*. **No separate weak form** — like [across](#across), the first syllable is already /ə/ and cannot reduce further
+**Русский:** вдоль, по — следуя по длине чего-то; перен. по линии рассуждения или развития
 **Type:** simple &middot; **Register:** neutral
 **Complement:** noun phrase or objective pronoun only. It requires a **linear** object — a road, a river, a wall, a coast, a fence. *Along the room* is wrong; *across the room* is right.
 **Pattern:** [verb of motion] *along* [linear noun phrase] &middot; [noun] *along* [linear noun phrase] &middot; stranded: *the road we walked* **along**
@@ -675,6 +850,7 @@ Motion that follows the length of something linear, or position strung out over 
 ### alongside
 
 **Pronunciation:** /əˌlɔŋˈsaɪd/ &middot; *uh-lawng-SYDE*; also /əˌlɑŋˈsaɪd/ *uh-lahng-SYDE*
+**Русский:** рядом с, борт о борт — вплотную и параллельно; перен. вместе с, наряду с
 **Type:** compound (*along* + *side*, fused) &middot; **Register:** neutral
 **Complement:** noun phrase or objective pronoun, and a **gerund** in the "in addition to" sense (*alongside running the shop, she does the books*) — never a finite clause. Write *alongside the claim that he lied*, never *alongside he lied*. It is also a **bare adverb** with no object at all (*the tug came alongside*, *she stayed alongside the whole way*), which is the usual test for telling the two uses apart.
 **Pattern:** [verb of motion] *alongside* [noun phrase] &middot; [noun] *alongside* [noun phrase] &middot; *work / serve / fight / run alongside* [person] &middot; *pull / come alongside* [vessel or vehicle] &middot; *alongside* [verb-ing]
@@ -703,6 +879,7 @@ The nautical word that came ashore. A ship comes *alongside* a pier — parallel
 ### around
 
 **Pronunciation:** /əˈraʊnd/ &middot; *uh-ROWND*; casual /əˈraʊn/ &middot; *uh-ROWN*, with the final *d* dropped before a consonant
+**Русский:** вокруг, по — круговое движение и окружение; бесцельно по; разг. «около, примерно»
 **Type:** simple &middot; **Register:** neutral
 **Complement:** noun phrase, objective pronoun, or gerund in the abstract "centered on" sense (*built around getting the timing right*). Never a finite clause.
 **Pattern:** [verb of motion] *around* [noun phrase] &middot; [noun] *around* [noun phrase] &middot; *around* [number / time] &middot; stranded: *the block we walked* **around**
@@ -735,9 +912,36 @@ It is just as busy outside this word class, as an **adverb** (*turn around*, *st
 
 **See also:** [past](#past), [through](#through), [across](#across), [along](#along), [over](#over), [astride](#astride), [athwart](#athwart)
 
+### aslant
+
+**Pronunciation:** /əˈslænt/ &middot; *uh-SLANT*. **No separate weak form** — the first syllable is already the reduced /ə/ and the stress never leaves *-slant*, which holds for the whole *a-* family in this file (*aboard*, *atop*, *across*, *along*, *astride*, *athwart*)
+**Русский:** книжн., поэт. наискось через — по диагонали поверх чего-то
+**Type:** compound (*a-* "on" + *slant*, fused — the same *a-* that built *aboard*, *atop*, and *astride*) &middot; **Register:** literary and poetic, and archaic outside verse and heightened description; rare in ordinary American prose
+**Complement:** noun phrase or objective pronoun only — no gerunds, no clauses of any kind: ✗*aslant the roof was leaking*. With no object it is an **adverb** or a predicate **adjective** (*the blind hangs aslant*, *her hat sat aslant*), and that objectless use is in fact its commoner modern life, so the object test matters more here than the word's frequency would suggest.
+**Pattern:** [verb of motion] *aslant* [noun phrase] &middot; *lie / fall / lean / grow aslant* [noun phrase] &middot; [noun] *aslant* [noun phrase]
+**Variants:** *aslant of* turns up in older prose and adds nothing. The relatives *slantwise*, *slantways*, and *aslope* are adverbs only and take no object at all.
+**Contrast:** *Aslant* and [athwart](#athwart) are the two crosswise words in this file and both are literary; the difference is the angle and the intent. *Athwart* crosses squarely and usually obstructs, while *aslant* crosses on a diagonal and usually does not. Against [across](#across): *across* is the ordinary modern word and says nothing about angle, which is why it is almost always the better choice. Against [along](#along): *along* follows a line, *aslant* cuts one obliquely. In plain American prose write *across* or *at an angle across*.
+
+An old crosswise word, one of the *a-* family built by fusing a worn-down preposition onto a noun. Modern American English keeps it alive mainly as an adverb or a predicate adjective; the prepositional use covered here has retreated to poetry, nature writing, and deliberately heightened description. Most readers have met it in a single line of Shakespeare — the willow that grows *aslant* a brook in *Hamlet* — and that is roughly the register it still occupies.
+
+**1. Across at a slant; diagonally over.** A shadow fell *aslant* the porch.
+**2. Leaning or growing across, of something rooted or resting.** A birch leaned *aslant* the trail.
+**3. Cutting obliquely across an argument or an account (figurative, rare).** The finding runs *aslant* the official version.
+
+1. Late light lay *aslant* the kitchen floor. *(1)*
+2. Rain drove *aslant* the windshield the whole way over the pass. *(1)*
+3. A ladder stood *aslant* the barn wall, one foot in the mud. *(1)*
+4. In *Hamlet* the willow grows *aslant* a brook, which is where most readers meet the word. *(2)*
+5. A fallen cottonwood lay *aslant* the creek and we crossed on it. *(2)*
+6. Her account runs *aslant* everything the report concluded. *(3)*
+7. Compare the bare adverb: the gate hangs *aslant* and will not latch. *(no object — not this preposition)*
+
+**See also:** [athwart](#athwart), [across](#across), [astride](#astride), [along](#along), [over](#over), [around](#around)
+
 ### astride
 
 **Pronunciation:** /əˈstraɪd/ &middot; *uh-STRYDE*
+**Русский:** верхом на — с ногой по обе стороны; по обе стороны границы или рубежа
 **Type:** compound (*a-* "on" + *stride*, fused — the same *a-* as *aboard*, *atop*, *ashore*) &middot; **Register:** neutral to literary; fully everyday only with horses, bikes, fences, and shoulders
 **Complement:** noun phrase or objective pronoun only — no gerunds, no clauses. It also has a bare adverb use in older prose (*he rode astride* rather than sidesaddle), but the preposition is what you meet in modern American writing, and it always has an object.
 **Pattern:** [verb of motion] *astride* [noun phrase] &middot; *sit / stand / swing / climb astride* [noun phrase] &middot; [noun] *astride* [noun phrase] (*a town astride the border*)
@@ -761,6 +965,7 @@ The straddling preposition — one leg on each side, and by extension one part o
 ### athwart
 
 **Pronunciation:** /əˈθwɔrt/ &middot; *uh-THWORT*
+**Русский:** книжн., мор. поперёк — крест-накрест, часто как преграда; перен. вопреки, наперекор
 **Type:** simple &middot; **Register:** literary, nautical, and archaic — rare in ordinary American prose
 **Complement:** noun phrase or objective pronoun only — no gerunds, no clauses of any kind.
 **Pattern:** [verb] *athwart* [noun phrase] &middot; *lie / stand / run athwart* [noun phrase]
@@ -782,6 +987,7 @@ An old word for "crosswise," surviving chiefly in sailing (*athwart the deck*, *
 ### beyond
 
 **Pronunciation:** /biˈjɑnd/ &middot; *bee-YAHND*; weak /bəˈjɑnd/ &middot; *buh-YAHND* — the first syllable reduces to a schwa in every unstressed use
+**Русский:** за, дальше — по ту сторону; мимо и дальше; сверх возможностей, за пределами чего-то
 **Type:** compound (*be-* + *yond*, the old word for "that place over there") &middot; **Register:** neutral to literary
 **Complement:** noun phrase or objective pronoun; a **gerund only in a closed set** of "past the point of" idioms (*beyond caring*, *beyond saving*, *beyond repairing*) — you cannot invent new ones. **Never a finite clause:** write *beyond the fact that he was there*, never *beyond he was there*. *Beyond* is also a bare **adverb** (*the fields beyond*) and a **noun** (*the great beyond*); as always, the object is the test.
 **Pattern:** [verb of motion] *beyond* [noun phrase] &middot; [noun] *beyond* [noun phrase] &middot; *go / stretch / extend / reach beyond* [noun phrase] &middot; *beyond* [verb-ing] (closed set) &middot; *far / well beyond* [noun phrase]
@@ -811,6 +1017,7 @@ The far-side preposition. Where *past* reports the crossing, *beyond* describes 
 ### down
 
 **Pronunciation:** /daʊn/ &middot; *DOWN*. **No weak form** — the diphthong keeps its full quality even unstressed, so *down* is always audible; the same is true of its opposite, [up](#up)
+**Русский:** вниз по — сверху вниз вдоль чего-то; но также просто «по (улице)», без вертикали
 **Type:** simple &middot; **Register:** neutral
 **Complement:** noun phrase or objective pronoun only — no gerunds, no clauses. (The look-alike *down to* does take a gerund; see [down to](#down-to).)
 **Pattern:** [verb of motion] *down* [noun phrase] &middot; [verb] [object] *down* [noun phrase] &middot; stranded: *the hill we rolled* **down**
@@ -842,6 +1049,7 @@ Motion from a higher point to a lower one along a path — and then, with the ve
 ### over
 
 **Pronunciation:** /ˈoʊvər/ &middot; *OH-ver*. **No true weak form** — the stressed /oʊ/ keeps its full quality however fast you talk, which is why *over* is always audible where [of](02-core-relational.md#of) and [to](02-core-relational.md#to) vanish. What does happen is that the second syllable goes syllabic and swallows a following *the*: *over the hill* runs together as /ˈoʊvɚðə/ &middot; *OH-vruh-thuh*
+**Русский:** над, через, по — поверх и на ту сторону; свыше (числа); в течение (периода); по (радио, сети)
 **Type:** simple &middot; **Register:** neutral
 **Complement:** noun phrase, objective pronoun, gerund (*argued over paying the bill*), or a **wh-clause** in the dispute sense (*a fight over who gets the house*) — never a *that*-clause.
 **Pattern:** [verb of motion] *over* [noun phrase] &middot; [verb] [object] *over* [noun phrase] &middot; *over* [wh-clause] &middot; stranded: *the fence he jumped* **over**
@@ -888,6 +1096,7 @@ Along with [into](#into), the widest-ranging preposition in this file. The core 
 ### past
 
 **Pronunciation:** /pæst/ &middot; *PAST*; casual /pæs/ &middot; *PASS*, with the final *t* dropped before a consonant (*past the store*) — which is one reason the ✗*passed* misspelling below is so persistent: in speech the two words are often identical
+**Русский:** мимо — мимо точки в движении или положении; о часах «столько-то минут после» (ten past three)
 **Type:** simple &middot; **Register:** neutral
 **Complement:** noun phrase, objective pronoun, or gerund in the "beyond the point of" sense (*past caring*, *past worrying about it*) — never a finite clause.
 **Pattern:** [verb of motion] *past* [noun phrase] &middot; [verb] [object] *past* [noun phrase] &middot; [minutes] *past* [hour] &middot; *be past* [verb-ing] &middot; stranded: *the store we drove* **past**
@@ -916,6 +1125,7 @@ Motion that goes beyond a point without stopping, and then position beyond that 
 ### through
 
 **Pronunciation:** /θru/ &middot; *THROO*; weak /θrə/ &middot; *thruh* in rapid speech before a consonant (*through the door*)
+**Русский:** через, сквозь — насквозь; на протяжении всего периода; посредством; амер. «по … включительно»
 **Type:** simple &middot; **Register:** neutral; the "finished" sense is informal
 **Complement:** noun phrase, objective pronoun, or gerund (*got through cleaning the garage*) — never a finite clause.
 **Pattern:** [verb of motion] *through* [noun phrase] &middot; [verb] [object] *through* [noun phrase] &middot; [day] *through* [day] &middot; stranded: *the tunnel we came* **through**
@@ -951,6 +1161,7 @@ Outside this word class, *through* is an **adverb** (*let me through*, *the bull
 ### throughout
 
 **Pronunciation:** /θruˈaʊt/ &middot; *throo-OWT*; weak /θrəˈaʊt/ &middot; *thruh-OWT* — the stress sits on the second syllable, so the first reduces in connected speech
+**Русский:** по всему, на протяжении всего — в каждой части пространства, периода или группы
 **Type:** compound (*through* + *out*, fused) &middot; **Register:** neutral to formal
 **Complement:** noun phrase or objective pronoun only — no gerunds, no clauses. It needs an object with **extent**: a space, a period, or a group. *Throughout the box* is odd; *throughout the building* is right.
 **Pattern:** [verb] *throughout* [noun phrase of space or time] &middot; *Throughout* [noun phrase], [main clause]
@@ -974,6 +1185,7 @@ Complete penetration of a space, a period, or a population — "in every part of
 ### under
 
 **Pronunciation:** /ˈʌndər/ &middot; *UN-der*; casual /ˈʌnɚ/ &middot; *UN-ner*, with the *d* dropped after the nasal in rapid speech (*under the bed*)
+**Русский:** под — под чем-то; меньше (числа, возраста); под властью или по условиям; в процессе чего-то
 **Type:** simple &middot; **Register:** neutral
 **Complement:** noun phrase or objective pronoun only — no gerunds, no clauses. Write *under the assumption that he'd agree*, never *under he'd agree*.
 **Pattern:** [verb of motion] *under* [noun phrase] &middot; [verb] [object] *under* [noun phrase] &middot; *under* [number] &middot; stranded: *the bed it rolled* **under**
@@ -1011,6 +1223,7 @@ Motion to or position in a place lower than something, usually with the upper th
 ### up
 
 **Pronunciation:** /ʌp/ &middot; *UP*. **No weak form** — the vowel is already lax and does not reduce further, which is why in [up to](#up-to) only the second word weakens (*UP-tuh*, never *uh-TOO*)
+**Русский:** вверх по — снизу вверх вдоль чего-то; против течения; но также просто «по (улице)», без вертикали
 **Type:** simple &middot; **Register:** neutral
 **Complement:** noun phrase or objective pronoun only — no gerunds, no clauses. (The look-alike *up to* does take a gerund; see [up to](#up-to).)
 **Pattern:** [verb of motion] *up* [noun phrase] &middot; [verb] [object] *up* [noun phrase] &middot; stranded: *the hill we ran* **up**
@@ -1040,6 +1253,7 @@ Motion from a lower point to a higher one along a path, or simply motion along a
 ### via
 
 **Pronunciation:** /ˈvaɪə/ &middot; *VY-uh* (the majority American form); also /ˈviə/ &middot; *VEE-uh*. Both are current in American English.
+**Русский:** через, посредством — маршрутом через пункт; через канал, среду или посредника
 **Type:** simple (from Latin *via*, "by way of the road") &middot; **Register:** neutral to formal; standard in travel, logistics, and technical writing
 **Complement:** noun phrase only. Gerunds (*via emailing him*) are awkward and better rewritten (*by emailing him*). Never a clause.
 **Pattern:** [motion or transmission] *via* [place / route] &middot; [action] *via* [medium or intermediary]
@@ -1065,7 +1279,7 @@ The route preposition: it marks the waypoint between a start and a finish. Its s
 
 Three groups of words look like they belong in this file and do not. The test is the same as everywhere else: **a preposition has an object; these do not.**
 
-**The *-ward* forms.** *Homeward, upward, downward, forward, backward, onward, inward, outward, seaward, skyward, northward, heavenward* are **adverbs and adjectives**, not prepositions. You can write *the ship turned homeward*, but not *the ship turned homeward the harbor* — with a named destination you need a real preposition (*toward home*, *to the harbor*). On the *-s*: **American English prefers the bare *-ward* form for the adverb** (*moved forward*, *glanced upward*, *stepped backward*), while British English leans to *-wards*; both are acceptable in the United States, but be consistent. As an **adjective the *-s* is always wrong**: *an upward trend*, never *an upwards trend*. The one member of the family that did become a preposition is [toward](#toward), which took an object and never let go.
+**The *-ward* forms.** *Homeward, upward, downward, forward, backward, onward, inward, outward, seaward, skyward, northward, heavenward* are **adverbs and adjectives**, not prepositions. You can write *the ship turned homeward*, but not *the ship turned homeward the harbor* — with a named destination you need a real preposition (*toward home*, *to the harbor*). On the *-s*: ✗ *American English prefers the bare *-ward* form for the adverb** (*moved forward*, *glanced upward*, *stepped backward*), while British English leans to *-wards*; both are acceptable in the United States, but be consistent. As an ✗ *adjective the *-s* is always wrong**: *an upward trend*, never *an upwards trend*. The one member of the family that did become a preposition is [toward](#toward), which took an object and never let go.
 
 **The bare adverbs and particles.** *Up, down, over, through, past, around, off, out, back, along, alongside, aboard, aside, apart, away, forth* all appear with no object at all — *sit down*, *the deal fell through*, *a truck rumbled past*, *come along*, *step aside*. In that position they are adverbs, or particles belonging to the verb. The moment a noun phrase follows, check which it is: *He ran **up** the hill* (preposition — *up the hill* is a unit, and you can front it: *Up the hill he ran*) versus *He ran **up** a big tab* (particle — you can split it: *He ran a big tab up*). That movement test is the reliable one.
 
@@ -1075,6 +1289,6 @@ Three groups of words look like they belong in this file and do not. The test is
 
 ## Headword index
 
-[aboard](#aboard) &middot; [across](#across) &middot; [against](#against) &middot; [along](#along) &middot; [alongside](#alongside) *(and alongside of)* &middot; [around](#around) *(and round)* &middot; [as far as](#as-far-as) &middot; [astride](#astride) &middot; [athwart](#athwart) &middot; [atop](#atop) &middot; [away from](#away-from) &middot; [back to](#back-to) &middot; [beyond](#beyond) &middot; [down](#down) &middot; [down to](#down-to) &middot; [en route to](#en-route-to) &middot; [in the direction of](#in-the-direction-of) &middot; [in to](#in-to) &middot; [into](#into) &middot; [off](#off) &middot; [off of](#off-of) &middot; [on to](#on-to) &middot; [onto](#onto) &middot; [out](#out) &middot; [out from under](#out-from-under) &middot; [out of](#out-of) &middot; [over](#over) &middot; [past](#past) &middot; [through](#through) *(and thru)* &middot; [throughout](#throughout) &middot; [toward](#toward) *(and towards)* &middot; [under](#under) &middot; [unto](#unto) &middot; [up](#up) &middot; [up to](#up-to) &middot; [upon](#upon) &middot; [via](#via)
+[aboard](#aboard) &middot; [across](#across) &middot; [against](#against) &middot; [along](#along) &middot; [alongside](#alongside) *(and alongside of)* &middot; [around](#around) *(and round)* &middot; [as far as](#as-far-as) &middot; [aslant](#aslant) &middot; [astride](#astride) &middot; [athwart](#athwart) &middot; [atop](#atop) &middot; [away from](#away-from) &middot; [back to](#back-to) &middot; [beyond](#beyond) &middot; [clear of](#clear-of) &middot; [down](#down) &middot; [down to](#down-to) &middot; [en route to](#en-route-to) &middot; [from before](#from-before) &middot; [from off](#from-off) &middot; [from out](#from-out) *(and from out of)* &middot; [in the direction of](#in-the-direction-of) &middot; [in to](#in-to) &middot; [into](#into) &middot; [off](#off) &middot; [off of](#off-of) &middot; [on the way to](#on-the-way-to) &middot; [on to](#on-to) &middot; [onto](#onto) &middot; [out](#out) &middot; [out from under](#out-from-under) &middot; [out of](#out-of) &middot; [outen](#outen) &middot; [over](#over) &middot; [past](#past) &middot; [through](#through) *(and thru)* &middot; [throughout](#throughout) &middot; [toward](#toward) *(and towards)* &middot; [under](#under) &middot; [unto](#unto) &middot; [up](#up) &middot; [up to](#up-to) &middot; [upon](#upon) &middot; [via](#via)
 
-**37 entries.** Cross-referenced to their home files: [to](02-core-relational.md#to), [from](02-core-relational.md#from), [by](02-core-relational.md#by), [for](02-core-relational.md#for), [at](01-core-in-on-at.md#at), [in](01-core-in-on-at.md#in), [on](01-core-in-on-at.md#on). *Beyond* appears in both this file (spatial and figurative) and [the time file](05-time.md#beyond) (temporal); the two entries divide the word rather than repeat it.
+**44 entries.** Cross-referenced to their home files: [to](02-core-relational.md#to), [from](02-core-relational.md#from), [by](02-core-relational.md#by), [for](02-core-relational.md#for), [at](01-core-in-on-at.md#at), [in](01-core-in-on-at.md#in), [on](01-core-in-on-at.md#on). *Beyond* appears in both this file (spatial and figurative) and [the time file](05-time.md#beyond) (temporal); the two entries divide the word rather than repeat it.
