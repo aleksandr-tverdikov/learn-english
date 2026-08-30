@@ -1,0 +1,179 @@
+<!DOCTYPE html>
+<html lang="en"><head>
+<meta charset="utf-8"><meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Plurals made by changing the vowel</title>
+<style>
+:root{--bg:#faf9f7;--surface:#fff;--surface2:#f2f0ec;--border:#e2ded6;--text:#1a1815;
+--dim:#5f594f;--faint:#8a8377;--accent:#8a5a3b;--measure:72ch}
+@media(prefers-color-scheme:dark){:root{--bg:#14140f;--surface:#1d1d17;--surface2:#25251d;
+--border:#33332a;--text:#eeeae1;--dim:#a8a293;--faint:#7d776b;--accent:#d09b72}}
+:root[data-theme=dark]{--bg:#14140f;--surface:#1d1d17;--surface2:#25251d;--border:#33332a;
+--text:#eeeae1;--dim:#a8a293;--faint:#7d776b;--accent:#d09b72}
+:root[data-theme=light]{--bg:#faf9f7;--surface:#fff;--surface2:#f2f0ec;--border:#e2ded6;
+--text:#1a1815;--dim:#5f594f;--faint:#8a8377;--accent:#8a5a3b}
+*{box-sizing:border-box}
+body{margin:0;background:var(--bg);color:var(--text);
+font:17px/1.72 ui-serif,Georgia,"Iowan Old Style",Palatino,serif;-webkit-font-smoothing:antialiased}
+.wrap{max-width:min(var(--measure),100%);margin:0 auto;padding:0 22px}
+nav.crumb{border-bottom:1px solid var(--border);padding:13px 0;font-size:13.5px;
+font-family:-apple-system,BlinkMacSystemFont,"Segoe UI",sans-serif;position:sticky;top:0;background:var(--bg);z-index:20}
+nav.crumb .wrap{max-width:none;display:flex;gap:9px;align-items:center;flex-wrap:wrap}
+nav.crumb a{color:var(--dim);text-decoration:none}
+nav.crumb a:hover{color:var(--accent)}
+nav.crumb .sep{color:var(--faint)}
+main{padding:8px 0 80px}
+h1{font-size:clamp(28px,5vw,38px);line-height:1.15;letter-spacing:-.015em;margin:34px 0 18px}
+h2{font-size:25px;margin:46px 0 14px;letter-spacing:-.01em;padding-bottom:7px;border-bottom:1px solid var(--border)}
+h3{font-size:19px;margin:34px 0 10px;color:var(--accent)}
+h4{font-size:16px;margin:24px 0 8px;font-family:-apple-system,sans-serif}
+p{margin:0 0 16px}
+a{color:var(--accent)}
+.hash{opacity:0;margin-left:8px;font-weight:400;font-size:.65em;text-decoration:none;color:var(--faint)}
+h2:hover .hash,h3:hover .hash{opacity:1}
+blockquote{margin:0 0 20px;padding:14px 18px;background:var(--surface2);
+border-left:3px solid var(--accent);border-radius:0 8px 8px 0}
+blockquote p:last-child{margin-bottom:0}
+ol,ul{margin:0 0 18px;padding-left:26px}
+li{margin-bottom:8px}
+li>ul,li>ol{margin:8px 0 0}
+code{font-family:ui-monospace,SFMono-Regular,Menlo,Consolas,monospace;font-size:.87em;
+background:var(--surface2);padding:1px 5px;border-radius:4px}
+pre{background:var(--surface2);border:1px solid var(--border);border-radius:9px;
+padding:15px 17px;overflow-x:auto;margin:0 0 20px}
+pre code{background:none;padding:0;font-size:13px;line-height:1.6}
+.tw{overflow-x:auto;margin:0 0 22px;border:1px solid var(--border);border-radius:9px}
+table{border-collapse:collapse;width:100%;font-size:15px;
+font-family:-apple-system,BlinkMacSystemFont,"Segoe UI",sans-serif}
+th,td{padding:10px 14px;border-bottom:1px solid var(--border);vertical-align:top}
+th{background:var(--surface2);font-size:12px;text-transform:uppercase;
+letter-spacing:.06em;color:var(--dim);font-weight:700;white-space:nowrap}
+tbody tr:last-child td{border-bottom:none}
+hr{border:none;border-top:1px solid var(--border);margin:38px 0}
+details{background:var(--surface2);border:1px solid var(--border);border-radius:9px;
+padding:13px 17px;margin:0 0 20px}
+summary{cursor:pointer;font-weight:600;font-family:-apple-system,sans-serif;font-size:15px}
+details[open] summary{margin-bottom:12px}
+del{color:var(--faint)}
+dl.fields{margin:0 0 20px;padding:0}
+dl.fields dt{font-family:-apple-system,BlinkMacSystemFont,"Segoe UI",sans-serif;
+font-size:11px;letter-spacing:.11em;text-transform:uppercase;color:var(--faint);
+font-weight:700;margin:14px 0 4px}
+dl.fields dt:first-child{margin-top:0}
+dl.fields dd{margin:0;font-size:16px;color:var(--dim);line-height:1.62}
+dl.fields dd em{color:var(--text)}
+dl.fields dt.ru{color:var(--accent)}
+dl.fields dd strong{color:var(--text)}
+.toc{background:var(--surface2);border:1px solid var(--border);border-radius:10px;
+padding:16px 20px;margin:26px 0 34px;font-family:-apple-system,sans-serif;font-size:14px}
+.toc b{display:block;font-size:11px;letter-spacing:.12em;text-transform:uppercase;
+color:var(--faint);margin-bottom:9px}
+.toc a{display:block;padding:3px 0;color:var(--dim);text-decoration:none}
+.toc a:hover{color:var(--accent)}
+.themebtn{position:fixed;right:18px;bottom:18px;z-index:60;font-family:-apple-system,sans-serif;
+font-size:12.5px;font-weight:600;cursor:pointer;background:var(--surface);border:1px solid var(--border);
+border-radius:99px;padding:9px 16px;color:var(--text)}
+@media(max-width:600px){body{font-size:16px}.wrap{padding:0 17px}}
+</style></head><body>
+<nav class="crumb"><div class="wrap"><a href="../../../index.html">Learn English</a><span class="sep">/</span><a href="../../README.html">Parts of speech</a><span class="sep">/</span><a href="../README.html">01-nouns</a><span class="sep">/</span><span>catalog</span></div></nav>
+<main><div class="wrap"><h1 id="plurals-made-by-changing-the-vowel">Plurals made by changing the vowel<a class="hash" href="#plurals-made-by-changing-the-vowel" aria-label="link">#</a></h1>
+<blockquote><p>No ending at all — the vowel inside the word changes: <em>foot → feet</em>, <em>mouse → mice</em>. Seven nouns, and that is the entire list.</p></blockquote>
+<p><a href="../README.html">← The grammar of nouns</a> &middot; <a href="README.html">All groups</a></p>
+<p>These are the oldest plurals in English, older than the <em>-s</em> that took over everything else. A prehistoric ending containing an <em>i</em> pulled the vowel of the preceding syllable forward in the mouth, then the ending itself wore away, leaving only the changed vowel behind to carry the meaning. Grammarians call it <strong>i-mutation</strong>. What matters for a learner is that the list is <strong>closed and complete: seven nouns</strong>. Nothing new ever joins it — <em>mongoose</em> was borrowed from Marathi long after the process died, which is why its plural is <em>mongooses</em>, and a computer <em>mouse</em> only became <em>mice</em> because the animal word was already irregular.</p>
+<p>The seven divide into three sound patterns: /ʊ/ → /iː/ (<em>foot</em>, <em>tooth</em>, <em>goose</em> — the last with /uː/), /æ/ → /ɛ/ (<em>man</em>), and /aʊ/ → /aɪ/ (<em>mouse</em>, <em>louse</em>). <em>Woman</em> is the one that catches everybody, because the change you hear is in the <strong>first</strong> syllable — /ˈwʊmən/ → /ˈwɪmɪn/ — while the spelling changes in the second.</p>
+<hr>
+<h3 id="man">man<a class="hash" href="#man" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/mæn/ &middot; <em>man</em></dd><dt>Русский</dt><dd>мужчина; человек</dd><dt>Plural</dt><dd><em>men</em> /mɛn/</dd><dt>Countability</dt><dd>countable</dd><dt>Agreement</dt><dd>plural verb — <em>the men are waiting</em></dd><dt>Pattern</dt><dd>vowel change /æ/ → /ɛ/</dd><dt>Group</dt><dd>1</dd><dt>Type</dt><dd>concrete</dd><dt>Contrast</dt><dd>✗ <em>mans</em> is never a noun plural. <em>Man's</em> with an apostrophe is the possessive (<em>one man's opinion</em>), and <em>mans</em> exists only as a verb (<em>he mans the desk on Fridays</em>).</dd></dl>
+<p>An adult male human — and, in older or more formal usage, a human being of any sex. Every compound ending in <em>-man</em> pluralizes the same way, and in all of them the syllable is reduced to /-mən/ in the singular and /-mɛn/ or, in fast speech, also /-mən/ in the plural.</p>
+<p><strong>1. An adult male human.</strong> The core, everyday sense. (мужчина)</p>
+<ol><li>A <em>man</em> in a gray coat asked for directions.</li><li>Three <em>men</em> were waiting by the gate.</li><li>She trusts that <em>man</em> completely.</li></ol>
+<p><strong>2. A human being; people in general.</strong> Older and now marked. <em>Man</em> without an article, meaning humanity, survives in fixed phrases and formal writing, but modern American usage prefers <em>humans</em>, <em>people</em>, or <em>humankind</em> — <em>early humans</em>, not <em>early man</em>, in current science writing. (человек; человечество)</p>
+<ol start="4"><li><em>Man</em> has always looked at the stars and wondered.</li><li>It is the oldest tool <em>man</em> ever made.</li></ol>
+<p><strong>3. In compounds.</strong> <em>-man</em> compounds inherit the irregular plural whole: <em>policeman → policemen</em>, <em>fireman → firemen</em>, <em>salesman → salesmen</em>. Note that many are now routinely replaced by neutral forms in American English — <em>police officer</em>, <em>firefighter</em>, <em>salesperson</em> — and those take a regular <em>-s</em>. (в составе сложных слов)</p>
+<ol start="6"><li>Two <em>firemen</em> carried the ladder between them.</li><li>The <em>chairmen</em> of both committees signed the letter.</li><li>Both <em>salespeople</em> met their quota. <em>(neutral form, regular plural)</em></li></ol>
+<p><strong>4. As a form of address, and as an interjection.</strong> Informal and very common in American speech, addressed to anyone regardless of sex. (чувак; ну ты даёшь)</p>
+<ol start="9"><li>Hey, <em>man</em>, can you move your car?</li><li>Oh <em>man</em>, I completely forgot.</li></ol>
+<dl class="fields"><dt>See also</dt><dd><a href="#woman">woman</a> &middot; <a href="02-en-and-suppletive.html#person">person</a></dd></dl>
+<hr>
+<h3 id="woman">woman<a class="hash" href="#woman" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/ˈwʊmən/ &middot; <em>WUUM-uhn</em></dd><dt>Русский</dt><dd>женщина</dd><dt>Plural</dt><dd><em>women</em> /ˈwɪmɪn/ &middot; <em>WIM-in</em></dd><dt>Countability</dt><dd>countable</dd><dt>Agreement</dt><dd>plural verb — <em>the women are waiting</em></dd><dt>Pattern</dt><dd>vowel change /ʊ/ → /ɪ/ in the <strong>first</strong> syllable</dd><dt>Group</dt><dd>1</dd><dt>Type</dt><dd>concrete</dd><dt>Contrast</dt><dd>The trap is the sound, not the spelling. The written change is <em>-a-</em> → <em>-e-</em> in the <strong>second</strong> syllable, but the change you actually hear is /ʊ/ → /ɪ/ in the <strong>first</strong>: <em>WUUM-uhn</em> → <em>WIM-in</em>. Say the plural wrong and it sounds like the singular.</dd></dl>
+<p>An adult female human. The most mispronounced plural in the language for learners, because the spelling and the sound change in different places.</p>
+<p><strong>1. An adult female human.</strong> The core, everyday sense. (женщина)</p>
+<ol><li>A <em>woman</em> at the next table recognized him.</li><li>Four <em>women</em> founded the company.</li><li>The <em>women</em> in my family all live past ninety.</li></ol>
+<p><strong>2. Women collectively, as a group in society.</strong> Usually plural and without an article. (женщины)</p>
+<ol start="4"><li><em>Women</em> were admitted to the college in 1972.</li><li>The magazine is written for <em>women</em> over forty.</li></ol>
+<p><strong>3. In compounds.</strong> Same behavior as <em>-man</em>: <em>businesswoman → businesswomen</em>, <em>spokeswoman → spokeswomen</em>. (в составе сложных слов)</p>
+<ol start="6"><li>Both <em>congresswomen</em> voted against the bill.</li><li>The <em>saleswomen</em> worked on commission.</li></ol>
+<dl class="fields"><dt>See also</dt><dd><a href="#man">man</a></dd></dl>
+<hr>
+<h3 id="foot">foot<a class="hash" href="#foot" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/fʊt/ &middot; <em>fut</em></dd><dt>Русский</dt><dd>нога, ступня; фут (мера длины)</dd><dt>Plural</dt><dd><em>feet</em> /fiːt/ &middot; <em>feet</em></dd><dt>Countability</dt><dd>countable</dd><dt>Agreement</dt><dd>plural verb — <em>my feet hurt</em></dd><dt>Pattern</dt><dd>vowel change /ʊ/ → /iː/</dd><dt>Group</dt><dd>1</dd><dt>Type</dt><dd>concrete</dd><dt>Contrast</dt><dd><em>Foots</em> is not a plural. But note the fixed measurement phrase: before a noun, Americans say <em>a six-<strong>foot</strong> fence</em>, singular — the hyphenated modifier never takes the plural.</dd></dl>
+<p>The body part below the ankle; also a unit of length equal to twelve inches, and by extension the bottom of anything upright.</p>
+<p><strong>1. The body part.</strong> (ступня, нога)</p>
+<ol><li>He broke his <em>foot</em> playing basketball.</li><li>My <em>feet</em> are killing me after that walk.</li><li>She stood barefoot, both <em>feet</em> in the cold sand.</li></ol>
+<p><strong>2. A unit of length — twelve inches.</strong> In this sense American speech often keeps <em>foot</em> even where a plural is expected, especially with a following inches figure: <em>five foot ten</em>. As a modifier before a noun it is always singular. (фут)</p>
+<ol start="4"><li>The ceiling is nine <em>feet</em> high.</li><li>He's six <em>foot</em> two. <em>(conversational; also</em> six feet two*)*</li><li>They built a ten-<em>foot</em> wall around the property.</li></ol>
+<p><strong>3. The bottom or base of something.</strong> Of a hill, a bed, a page, a staircase. (подножие, низ)</p>
+<ol start="7"><li>The cabin sits at the <em>foot</em> of the mountain.</li><li>A note at the <em>foot</em> of the page explains the symbol.</li><li>She left her slippers at the <em>foot</em> of the bed.</li></ol>
+<p><strong>4. In fixed expressions.</strong> These do not vary — learn them whole. (в устойчивых выражениях)</p>
+<ol start="10"><li>I think I got off on the wrong <em>foot</em> with her.</li><li>He put his <em>foot</em> in his mouth again at dinner.</li><li>We'll have to go on <em>foot</em> from here.</li></ol>
+<dl class="fields"><dt>See also</dt><dd><a href="#tooth">tooth</a> &middot; <a href="#goose">goose</a></dd></dl>
+<hr>
+<h3 id="tooth">tooth<a class="hash" href="#tooth" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/tuːθ/ &middot; <em>tooth</em></dd><dt>Русский</dt><dd>зуб</dd><dt>Plural</dt><dd><em>teeth</em> /tiːθ/ &middot; <em>teeth</em></dd><dt>Countability</dt><dd>countable</dd><dt>Agreement</dt><dd>plural verb — <em>her teeth are straight</em></dd><dt>Pattern</dt><dd>vowel change /uː/ → /iː/</dd><dt>Group</dt><dd>1</dd><dt>Type</dt><dd>concrete</dd><dt>Contrast</dt><dd>✗ <em>tooths</em> does not exist. The adjective is <em>toothed</em>, and the verb <em>teethe</em> /tiːð/ — with a voiced <em>th</em> — means to grow one's first teeth.</dd></dl>
+<p>One of the hard structures in the mouth; also, by extension, any of the projecting points on a comb, a saw, or a gear.</p>
+<p><strong>1. The body part.</strong> (зуб)</p>
+<ol><li>The dentist pulled one <em>tooth</em> and filled two others.</li><li>Brush your <em>teeth</em> before bed.</li><li>She knocked out a front <em>tooth</em> in the fall.</li></ol>
+<p><strong>2. A projecting point on a tool or machine.</strong> (зубец, зуб)</p>
+<ol start="4"><li>Two <em>teeth</em> were missing from the comb.</li><li>The gear's <em>teeth</em> had worn smooth after years of use.</li></ol>
+<p><strong>3. In fixed expressions.</strong> (в устойчивых выражениях)</p>
+<ol start="6"><li>He was fighting <em>tooth</em> and nail to keep the house.</li><li>The new law has no <em>teeth</em> — nobody enforces it.</li><li>I'm lying through my <em>teeth</em> and she knows it.</li></ol>
+<dl class="fields"><dt>See also</dt><dd><a href="#foot">foot</a></dd></dl>
+<hr>
+<h3 id="goose">goose<a class="hash" href="#goose" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/ɡuːs/ &middot; <em>goos</em></dd><dt>Русский</dt><dd>гусь</dd><dt>Plural</dt><dd><em>geese</em> /ɡiːs/ &middot; <em>gees</em></dd><dt>Countability</dt><dd>countable</dd><dt>Agreement</dt><dd>plural verb — <em>the geese are flying south</em></dd><dt>Pattern</dt><dd>vowel change /uː/ → /iː/</dd><dt>Group</dt><dd>1</dd><dt>Type</dt><dd>concrete</dd><dt>Contrast</dt><dd><em>Mongoose</em> is <strong>not</strong> related to this word — it came from Marathi centuries later — so its plural is <em>mongooses</em>, never ✗ <em>mongeese</em>. Likewise <em>moose</em> is unchanged in the plural: <em>one moose, two moose</em>.</dd></dl>
+<p>A large water bird; also, informally, a foolish person.</p>
+<p><strong>1. The bird.</strong> (гусь)</p>
+<ol><li>A <em>goose</em> nested by the pond every spring.</li><li>Canada <em>geese</em> covered the entire soccer field.</li><li>We roasted a <em>goose</em> for the holiday.</li></ol>
+<p><strong>2. A silly person.</strong> Dated but still heard, affectionate rather than harsh. (глупыш, дурачок)</p>
+<ol start="4"><li>Don't be such a <em>goose</em> — of course they invited you.</li></ol>
+<p><strong>3. In fixed expressions.</strong> (в устойчивых выражениях)</p>
+<ol start="5"><li>Her skin broke out in <em>goose</em> bumps. <em>(also</em> goosebumps*; the modifier stays singular)*</li><li>That was a wild <em>goose</em> chase — the address didn't even exist.</li><li>What's good for the <em>goose</em> is good for the gander.</li></ol>
+<dl class="fields"><dt>See also</dt><dd><a href="#foot">foot</a> &middot; <a href="#tooth">tooth</a></dd></dl>
+<hr>
+<h3 id="mouse">mouse<a class="hash" href="#mouse" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/maʊs/ &middot; <em>mows</em> (rhymes with <em>house</em>)</dd><dt>Русский</dt><dd>мышь</dd><dt>Plural</dt><dd><em>mice</em> /maɪs/ &middot; <em>myse</em></dd><dt>Countability</dt><dd>countable</dd><dt>Agreement</dt><dd>plural verb — <em>the mice are in the attic</em></dd><dt>Pattern</dt><dd>vowel change /aʊ/ → /aɪ/</dd><dt>Group</dt><dd>1</dd><dt>Type</dt><dd>concrete</dd><dt>Variants</dt><dd>computer sense: <em>mice</em> is standard, <em>mouses</em> is occasionally used by manufacturers</dd><dt>Contrast</dt><dd>The noun ends in a voiceless /s/; the verb <em>mouse</em> and the plural of the unrelated verb sense can voice it. Compare <em>house</em> /haʊs/ (noun) with <em>houses</em> /ˈhaʊzɪz/ — the same voicing shift, though <em>house</em> is a regular plural.</dd></dl>
+<p>The small rodent; also the hand-held pointing device, which inherited the animal's irregular plural.</p>
+<p><strong>1. The rodent.</strong> (мышь)</p>
+<ol><li>A <em>mouse</em> ran across the kitchen floor.</li><li>We caught three <em>mice</em> in the garage last week.</li><li>The cat brought a dead <em>mouse</em> to the door.</li></ol>
+<p><strong>2. The computer device.</strong> Named for its resemblance to the animal, and it took the animal's plural with it. (компьютерная мышь)</p>
+<ol start="4"><li>My <em>mouse</em> stopped scrolling.</li><li>The lab replaced all the keyboards and <em>mice</em>.</li></ol>
+<p><strong>3. A timid person.</strong> Usually in the fixed adjective <em>mousy</em>, or as a direct comparison. (тихоня, робкий человек)</p>
+<ol start="6"><li>She was quiet as a <em>mouse</em> all through dinner.</li></ol>
+<dl class="fields"><dt>See also</dt><dd><a href="#louse">louse</a></dd></dl>
+<hr>
+<h3 id="louse">louse<a class="hash" href="#louse" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/laʊs/ &middot; <em>lows</em> (rhymes with <em>house</em>)</dd><dt>Русский</dt><dd>вошь; подлец</dd><dt>Plural</dt><dd><em>lice</em> /laɪs/ &middot; <em>lyse</em></dd><dt>Countability</dt><dd>countable</dd><dt>Agreement</dt><dd>plural verb — <em>head lice are common in schools</em></dd><dt>Pattern</dt><dd>vowel change /aʊ/ → /aɪ/</dd><dt>Group</dt><dd>1</dd><dt>Type</dt><dd>concrete</dd><dt>Variants</dt><dd>in the 'contemptible person' sense the plural is regular — <em>louses</em></dd><dt>Contrast</dt><dd>The two senses take different plurals. Insects are <em>lice</em>; people are <em>louses</em>. The related phrasal verb <em>louse up</em> means to ruin something.</dd></dl>
+<p>The parasitic insect — in practice almost always plural — and, informally, a contemptible person.</p>
+<p><strong>1. The insect.</strong> Nearly always encountered as the plural <em>lice</em>, and most often in the compound <em>head lice</em>. (вошь)</p>
+<ol><li>The school sent a note home about head <em>lice</em>.</li><li>A single <em>louse</em> can lay several eggs a day.</li><li>The shelter treated the dogs for <em>lice</em> and fleas.</li></ol>
+<p><strong>2. A contemptible person.</strong> Informal and dated, but instantly understood. This sense takes the regular plural. (подлец, мерзавец)</p>
+<ol start="4"><li>That <em>louse</em> never paid back a cent.</li><li>The two of them are absolute <em>louses</em>.</li></ol>
+<p><strong>3. louse up — to ruin.</strong> Informal, always with <em>up</em>. (испортить, завалить)</p>
+<ol start="6"><li>Don't <em>louse</em> up the interview by showing up late.</li></ol>
+<dl class="fields"><dt>See also</dt><dd><a href="#mouse">mouse</a></dd></dl>
+<hr>
+<h3 id="mongoose">mongoose<a class="hash" href="#mongoose" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/ˈmɑːŋɡuːs/ &middot; <em>MAHNG-goos</em></dd><dt>Русский</dt><dd>мангуст</dd><dt>Plural</dt><dd><em>mongooses</em> /ˈmɑːŋɡuːsɪz/</dd><dt>Countability</dt><dd>countable</dd><dt>Agreement</dt><dd>plural verb — <em>mongooses hunt snakes</em></dd><dt>Pattern</dt><dd>regular <em>-es</em> despite the ending</dd><dt>Group</dt><dd>1 (trap)</dd><dt>Type</dt><dd>concrete</dd><dt>Contrast</dt><dd>✗ <em>mongeese</em> is the classic false analogy and is always wrong. The word has nothing to do with <em>goose</em>: it came into English from Marathi <em>maṅgūs</em>, long after i-mutation had stopped operating.</dd></dl>
+<p>A small carnivorous mammal of Africa and Asia, famous for killing snakes. Listed here only because it is the trap that the <em>goose → geese</em> pattern sets.</p>
+<p><strong>1. The animal.</strong> (мангуст)</p>
+<ol><li>A <em>mongoose</em> killed the cobra in the courtyard.</li><li><em>Mongooses</em> were introduced to the islands and devastated the birds.</li><li>The zoo's two <em>mongooses</em> share an enclosure.</li><li>He wrote a story about a <em>mongoose</em> named Rikki-Tikki-Tavi.</li><li>Unlike <em>geese</em>, <em>mongooses</em> take a perfectly regular plural.</li></ol>
+<dl class="fields"><dt>See also</dt><dd><a href="#goose">goose</a></dd></dl></div></main>
+<button class="themebtn" id="themeBtn">Dark</button>
+<script>
+const tb=document.getElementById('themeBtn');
+function setTheme(x){document.documentElement.dataset.theme=x;tb.textContent=x==='dark'?'Light':'Dark';
+ try{localStorage.setItem('site-theme',x)}catch(e){}}
+tb.onclick=()=>setTheme(document.documentElement.dataset.theme==='dark'?'light':'dark');
+try{const s=localStorage.getItem('site-theme');
+ setTheme(s||(matchMedia('(prefers-color-scheme: dark)').matches?'dark':'light'))}catch(e){setTheme('light')}
+</script></body></html>

@@ -2,6 +2,8 @@
 
 > A noun is a word that names a person, animal, place, thing, substance, quality, action, or idea.
 
+[← All parts of speech](../README.md) &middot; **[The Noun Dictionary](catalog/README.md)** &middot; [browse & listen](catalog/browse.html)
+
 ## 1. What it does
 
 A noun's core job is **naming**. Whenever English needs to point at something — a physical object, a location, a feeling, an event, a category — a noun does the pointing. Because nouns name things, they are the words that most often serve as the participants in a sentence: who did it, what got done, and to whom.

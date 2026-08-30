@@ -1,0 +1,232 @@
+<!DOCTYPE html>
+<html lang="en"><head>
+<meta charset="utf-8"><meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Nationality nouns</title>
+<style>
+:root{--bg:#faf9f7;--surface:#fff;--surface2:#f2f0ec;--border:#e2ded6;--text:#1a1815;
+--dim:#5f594f;--faint:#8a8377;--accent:#8a5a3b;--measure:72ch}
+@media(prefers-color-scheme:dark){:root{--bg:#14140f;--surface:#1d1d17;--surface2:#25251d;
+--border:#33332a;--text:#eeeae1;--dim:#a8a293;--faint:#7d776b;--accent:#d09b72}}
+:root[data-theme=dark]{--bg:#14140f;--surface:#1d1d17;--surface2:#25251d;--border:#33332a;
+--text:#eeeae1;--dim:#a8a293;--faint:#7d776b;--accent:#d09b72}
+:root[data-theme=light]{--bg:#faf9f7;--surface:#fff;--surface2:#f2f0ec;--border:#e2ded6;
+--text:#1a1815;--dim:#5f594f;--faint:#8a8377;--accent:#8a5a3b}
+*{box-sizing:border-box}
+body{margin:0;background:var(--bg);color:var(--text);
+font:17px/1.72 ui-serif,Georgia,"Iowan Old Style",Palatino,serif;-webkit-font-smoothing:antialiased}
+.wrap{max-width:min(var(--measure),100%);margin:0 auto;padding:0 22px}
+nav.crumb{border-bottom:1px solid var(--border);padding:13px 0;font-size:13.5px;
+font-family:-apple-system,BlinkMacSystemFont,"Segoe UI",sans-serif;position:sticky;top:0;background:var(--bg);z-index:20}
+nav.crumb .wrap{max-width:none;display:flex;gap:9px;align-items:center;flex-wrap:wrap}
+nav.crumb a{color:var(--dim);text-decoration:none}
+nav.crumb a:hover{color:var(--accent)}
+nav.crumb .sep{color:var(--faint)}
+main{padding:8px 0 80px}
+h1{font-size:clamp(28px,5vw,38px);line-height:1.15;letter-spacing:-.015em;margin:34px 0 18px}
+h2{font-size:25px;margin:46px 0 14px;letter-spacing:-.01em;padding-bottom:7px;border-bottom:1px solid var(--border)}
+h3{font-size:19px;margin:34px 0 10px;color:var(--accent)}
+h4{font-size:16px;margin:24px 0 8px;font-family:-apple-system,sans-serif}
+p{margin:0 0 16px}
+a{color:var(--accent)}
+.hash{opacity:0;margin-left:8px;font-weight:400;font-size:.65em;text-decoration:none;color:var(--faint)}
+h2:hover .hash,h3:hover .hash{opacity:1}
+blockquote{margin:0 0 20px;padding:14px 18px;background:var(--surface2);
+border-left:3px solid var(--accent);border-radius:0 8px 8px 0}
+blockquote p:last-child{margin-bottom:0}
+ol,ul{margin:0 0 18px;padding-left:26px}
+li{margin-bottom:8px}
+li>ul,li>ol{margin:8px 0 0}
+code{font-family:ui-monospace,SFMono-Regular,Menlo,Consolas,monospace;font-size:.87em;
+background:var(--surface2);padding:1px 5px;border-radius:4px}
+pre{background:var(--surface2);border:1px solid var(--border);border-radius:9px;
+padding:15px 17px;overflow-x:auto;margin:0 0 20px}
+pre code{background:none;padding:0;font-size:13px;line-height:1.6}
+.tw{overflow-x:auto;margin:0 0 22px;border:1px solid var(--border);border-radius:9px}
+table{border-collapse:collapse;width:100%;font-size:15px;
+font-family:-apple-system,BlinkMacSystemFont,"Segoe UI",sans-serif}
+th,td{padding:10px 14px;border-bottom:1px solid var(--border);vertical-align:top}
+th{background:var(--surface2);font-size:12px;text-transform:uppercase;
+letter-spacing:.06em;color:var(--dim);font-weight:700;white-space:nowrap}
+tbody tr:last-child td{border-bottom:none}
+hr{border:none;border-top:1px solid var(--border);margin:38px 0}
+details{background:var(--surface2);border:1px solid var(--border);border-radius:9px;
+padding:13px 17px;margin:0 0 20px}
+summary{cursor:pointer;font-weight:600;font-family:-apple-system,sans-serif;font-size:15px}
+details[open] summary{margin-bottom:12px}
+del{color:var(--faint)}
+dl.fields{margin:0 0 20px;padding:0}
+dl.fields dt{font-family:-apple-system,BlinkMacSystemFont,"Segoe UI",sans-serif;
+font-size:11px;letter-spacing:.11em;text-transform:uppercase;color:var(--faint);
+font-weight:700;margin:14px 0 4px}
+dl.fields dt:first-child{margin-top:0}
+dl.fields dd{margin:0;font-size:16px;color:var(--dim);line-height:1.62}
+dl.fields dd em{color:var(--text)}
+dl.fields dt.ru{color:var(--accent)}
+dl.fields dd strong{color:var(--text)}
+.toc{background:var(--surface2);border:1px solid var(--border);border-radius:10px;
+padding:16px 20px;margin:26px 0 34px;font-family:-apple-system,sans-serif;font-size:14px}
+.toc b{display:block;font-size:11px;letter-spacing:.12em;text-transform:uppercase;
+color:var(--faint);margin-bottom:9px}
+.toc a{display:block;padding:3px 0;color:var(--dim);text-decoration:none}
+.toc a:hover{color:var(--accent)}
+.themebtn{position:fixed;right:18px;bottom:18px;z-index:60;font-family:-apple-system,sans-serif;
+font-size:12.5px;font-weight:600;cursor:pointer;background:var(--surface);border:1px solid var(--border);
+border-radius:99px;padding:9px 16px;color:var(--text)}
+@media(max-width:600px){body{font-size:16px}.wrap{padding:0 17px}}
+</style></head><body>
+<nav class="crumb"><div class="wrap"><a href="../../../index.html">Learn English</a><span class="sep">/</span><a href="../../README.html">Parts of speech</a><span class="sep">/</span><a href="../README.html">01-nouns</a><span class="sep">/</span><span>catalog</span></div></nav>
+<main><div class="wrap"><h1 id="nationality-nouns">Nationality nouns<a class="hash" href="#nationality-nouns" aria-label="link">#</a></h1>
+<blockquote><p><em>Two Americans</em>, <em>two Japanese</em>, <em>two Spaniards</em> — but never ✗ <em>two Japaneses</em> and never ✗ <em>two Englishes</em>. Four endings, four different grammars.</p></blockquote>
+<p><a href="../README.html">← The grammar of nouns</a> &middot; <a href="README.html">All groups</a></p>
+<p>Nationality words are adjectives, nouns, or both, and which one depends entirely on the ending. Four patterns cover almost every country, and picking the wrong one produces some of the most recognizable learner errors in English.</p>
+<p><strong>Pattern 1 — <em>-an</em>, <em>-ian</em>, <em>-i</em>: fully countable nouns.</strong> <em>An American, two Americans. A Russian, three Russians. An Israeli, two Israelis.</em> These behave like any ordinary noun and give learners no trouble.</p>
+<p><strong>Pattern 2 — <em>-ese</em>, <em>-ss</em>: invariable.</strong> <em>One Japanese, two Japanese</em> — no <em>-s</em> ever. ✗ <em>Two Chineses</em> is wrong. In modern American English the noun use even in the singular sounds dated, and <em>a Japanese person</em> or <em>a Chinese student</em> is preferred. The collective <em>the Japanese</em> is fully normal.</p>
+<p><strong>Pattern 3 — <em>-ish</em>, <em>-ch</em>, <em>-sh</em>: adjective only, with a separate noun.</strong> <em>English</em> is not a noun for a person: ✗ <em>two Englishes</em> is wrong, and ✗ <em>an English</em> is wrong. You need <em>an Englishman</em>, <em>a Briton</em>, or <em>an English person</em>. Same for <em>Spanish → a Spaniard</em>, <em>Danish → a Dane</em>, <em>Polish → a Pole</em>, <em>Turkish → a Turk</em>, <em>French → a Frenchman</em>, <em>Dutch → a Dutchman</em>.</p>
+<p><strong>Pattern 4 — the collective <em>the</em> + adjective.</strong> <em>The French are</em>, <em>the Dutch are</em>, <em>the Japanese are</em>. Always plural, always with <em>the</em>, meaning the people as a whole.</p>
+<p>One further note: nationality words are always <strong>capitalized</strong> in English, unlike in Russian, French, or Spanish. <em>an American</em>, not ✗ <em>an american</em>.</p>
+<hr>
+<h3 id="american">American<a class="hash" href="#american" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/əˈmɛrɪkən/ &middot; <em>uh-MER-ih-kuhn</em></dd><dt>Русский</dt><dd>американец, американка</dd><dt>Plural</dt><dd><em>Americans</em> — regular</dd><dt>Countability</dt><dd>countable</dd><dt>Agreement</dt><dd>plural verb — <em>Americans are direct</em></dd><dt>Pattern</dt><dd><em>-an</em> → fully countable</dd><dt>Group</dt><dd>20</dd><dt>Type</dt><dd>concrete</dd><dt>Contrast</dt><dd>Always capitalized. The collective is <em>Americans</em> rather than ✗ <em>the American</em>; the <em>the</em> + adjective pattern belongs to the <em>-ish</em> and <em>-ese</em> groups.</dd></dl>
+<p>A person from the United States; also the adjective.</p>
+<p><strong>1. A person from the United States.</strong> (американец)</p>
+<ol><li>She married an <em>American</em>.</li><li>Two <em>Americans</em> were on the flight.</li><li>Most <em>Americans</em> have never held a passport.</li><li>He's an <em>American</em> living in Berlin.</li></ol>
+<p><strong>2. As an adjective.</strong> (американский)</p>
+<ol start="5"><li><em>American</em> English differs from British in more than spelling.</li></ol>
+<dl class="fields"><dt>See also</dt><dd><a href="#russian">Russian</a> &middot; <a href="#japanese">Japanese</a></dd></dl>
+<hr>
+<h3 id="russian">Russian<a class="hash" href="#russian" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/ˈrʌʃən/ &middot; <em>RUSH-uhn</em></dd><dt>Русский</dt><dd>русский, россиянин</dd><dt>Plural</dt><dd><em>Russians</em> — regular</dd><dt>Countability</dt><dd>countable</dd><dt>Agreement</dt><dd>plural verb — <em>Russians take their tea seriously</em></dd><dt>Pattern</dt><dd><em>-an</em> → fully countable</dd><dt>Group</dt><dd>20</dd><dt>Type</dt><dd>concrete</dd><dt>Contrast</dt><dd>Note that English uses one word where Russian distinguishes <em>русский</em> (ethnic) and <em>россиянин</em> (citizen). Context alone carries that difference in English.</dd></dl>
+<p>A person from Russia; the language; also the adjective.</p>
+<p><strong>1. A person from Russia.</strong> (русский, россиянин)</p>
+<ol><li>Three <em>Russians</em> took the top places.</li><li>She married a <em>Russian</em>.</li><li>The <em>Russians</em> he met were all engineers.</li></ol>
+<p><strong>2. The language.</strong> Uncountable. (русский язык)</p>
+<ol start="4"><li>He speaks fluent <em>Russian</em>.</li><li><em>Russian</em> is written in the Cyrillic alphabet.</li></ol>
+<dl class="fields"><dt>See also</dt><dd><a href="#american">American</a> &middot; <a href="#german">German</a></dd></dl>
+<hr>
+<h3 id="german">German<a class="hash" href="#german" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/ˈdʒɜːrmən/ &middot; <em>JUR-muhn</em></dd><dt>Русский</dt><dd>немец, немка</dd><dt>Plural</dt><dd><em>Germans</em> — regular</dd><dt>Countability</dt><dd>countable</dd><dt>Agreement</dt><dd>plural verb — <em>Germans value punctuality</em></dd><dt>Pattern</dt><dd><em>-an</em> → fully countable</dd><dt>Group</dt><dd>20</dd><dt>Type</dt><dd>concrete</dd><dt>Contrast</dt><dd>Do not confuse with <em>germane</em>, an unrelated adjective meaning 'relevant'.</dd></dl>
+<p>A person from Germany; the language; also the adjective.</p>
+<p><strong>1. A person from Germany.</strong> (немец)</p>
+<ol><li>Two <em>Germans</em> joined the expedition.</li><li>He's a <em>German</em> from Hamburg.</li><li>The <em>Germans</em> on the team spoke perfect English.</li></ol>
+<p><strong>2. The language.</strong> Uncountable. (немецкий язык)</p>
+<ol start="4"><li>She studied <em>German</em> for six years.</li><li><em>German</em> nouns are all capitalized.</li></ol>
+<dl class="fields"><dt>See also</dt><dd><a href="#russian">Russian</a> &middot; <a href="#dutch">Dutch</a></dd></dl>
+<hr>
+<h3 id="israeli">Israeli<a class="hash" href="#israeli" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/ɪzˈreɪli/ &middot; <em>iz-RAY-lee</em></dd><dt>Русский</dt><dd>израильтянин</dd><dt>Plural</dt><dd><em>Israelis</em> — regular</dd><dt>Countability</dt><dd>countable</dd><dt>Agreement</dt><dd>plural verb — <em>Israelis serve in the military</em></dd><dt>Pattern</dt><dd><em>-i</em> → fully countable</dd><dt>Group</dt><dd>20</dd><dt>Type</dt><dd>concrete</dd><dt>Contrast</dt><dd>The <em>-i</em> nationality words take a plain <em>-s</em>: <em>Israelis</em>, <em>Iraqis</em>, <em>Pakistanis</em>, <em>Saudis</em>, <em>Yemenis</em>. Distinguish <em>Israeli</em> (a citizen of Israel) from <em>Israelite</em> (an ancient Hebrew) and <em>Jewish</em> (a religion and ethnicity) — three different words.</dd></dl>
+<p>A person from Israel; also the adjective.</p>
+<p><strong>1. A person from Israel.</strong> (израильтянин)</p>
+<ol><li>Two <em>Israelis</em> were on the panel.</li><li>She's an <em>Israeli</em> who grew up in Haifa.</li><li>Most <em>Israelis</em> speak some English.</li><li>The <em>Israelis</em> and the Jordanians signed the accord.</li><li>He's an <em>Israeli</em> citizen by birth.</li></ol>
+<dl class="fields"><dt>See also</dt><dd><a href="#american">American</a></dd></dl>
+<hr>
+<h3 id="japanese">Japanese<a class="hash" href="#japanese" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/ˌdʒæpəˈniːz/ &middot; <em>jap-uh-NEEZ</em></dd><dt>Русский</dt><dd>японец, японка</dd><dt>Plural</dt><dd><em>Japanese</em> — unchanged</dd><dt>Countability</dt><dd>countable but invariable</dd><dt>Agreement</dt><dd>plural verb — <em>the Japanese are famously polite</em></dd><dt>Pattern</dt><dd><em>-ese</em> → invariable</dd><dt>Group</dt><dd>20</dd><dt>Type</dt><dd>concrete</dd><dt>Variants</dt><dd><em>a Japanese person</em> is now preferred over the bare noun <em>a Japanese</em></dd><dt>Contrast</dt><dd>✗ <em>Japaneses</em> is always wrong. The singular noun — <em>a Japanese</em> — is grammatical but sounds dated and slightly impersonal in modern American English; say <em>a Japanese person</em>, <em>a Japanese woman</em>, <em>a Japanese colleague</em>. The collective <em>the Japanese</em> is perfectly normal.</dd></dl>
+<p>A person from Japan; the language; also the adjective.</p>
+<p><strong>1. A person from Japan.</strong> Invariable. (японец)</p>
+<ol><li>Two <em>Japanese</em> were staying at the hotel.</li><li>She's a <em>Japanese</em> student at the university.</li><li>The <em>Japanese</em> are famously polite to visitors.</li></ol>
+<p><strong>2. The language.</strong> Uncountable. (японский язык)</p>
+<ol start="4"><li>He reads <em>Japanese</em> but can't speak it.</li><li><em>Japanese</em> uses three writing systems at once.</li></ol>
+<dl class="fields"><dt>See also</dt><dd><a href="#chinese">Chinese</a> &middot; <a href="#portuguese">Portuguese</a></dd></dl>
+<hr>
+<h3 id="chinese">Chinese<a class="hash" href="#chinese" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/tʃaɪˈniːz/ &middot; <em>chy-NEEZ</em></dd><dt>Русский</dt><dd>китаец, китаянка</dd><dt>Plural</dt><dd><em>Chinese</em> — unchanged</dd><dt>Countability</dt><dd>countable but invariable</dd><dt>Agreement</dt><dd>plural verb — <em>the Chinese have a long tradition of it</em></dd><dt>Pattern</dt><dd><em>-ese</em> → invariable</dd><dt>Group</dt><dd>20</dd><dt>Type</dt><dd>concrete</dd><dt>Variants</dt><dd><em>a Chinese person</em> is preferred over the bare noun</dd><dt>Contrast</dt><dd>✗ <em>Chineses</em> is always wrong. Note that <em>Chinese</em> covers several distinct spoken languages — <em>Mandarin</em>, <em>Cantonese</em> — which share a writing system.</dd></dl>
+<p>A person from China; the language; also the adjective.</p>
+<p><strong>1. A person from China.</strong> Invariable. (китаец)</p>
+<ol><li>Three <em>Chinese</em> were in the delegation.</li><li>He married a <em>Chinese</em> woman he met in Beijing.</li><li>The <em>Chinese</em> have been making paper for two thousand years.</li></ol>
+<p><strong>2. The language.</strong> Uncountable. (китайский язык)</p>
+<ol start="4"><li>She's learning <em>Chinese</em>.</li><li>Written <em>Chinese</em> is the same across dialects.</li></ol>
+<dl class="fields"><dt>See also</dt><dd><a href="#japanese">Japanese</a> &middot; <a href="#portuguese">Portuguese</a></dd></dl>
+<hr>
+<h3 id="portuguese">Portuguese<a class="hash" href="#portuguese" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/ˌpɔːrtʃəˈɡiːz/ &middot; <em>por-chuh-GEEZ</em></dd><dt>Русский</dt><dd>португалец, португалка</dd><dt>Plural</dt><dd><em>Portuguese</em> — unchanged</dd><dt>Countability</dt><dd>countable but invariable</dd><dt>Agreement</dt><dd>plural verb — <em>the Portuguese settled the coast</em></dd><dt>Pattern</dt><dd><em>-ese</em> → invariable</dd><dt>Group</dt><dd>20</dd><dt>Type</dt><dd>concrete</dd><dt>Contrast</dt><dd>✗ <em>Portugueses</em> is wrong. Note that <em>Portuguese</em> is the language of Brazil as well as Portugal, and Brazilian Portuguese differs enough to be worth naming.</dd></dl>
+<p>A person from Portugal; the language; also the adjective.</p>
+<p><strong>1. A person from Portugal.</strong> Invariable. (португалец)</p>
+<ol><li>Two <em>Portuguese</em> joined the crew.</li><li>She's <em>Portuguese</em>, not Spanish.</li><li>The <em>Portuguese</em> reached India by sea in 1498.</li></ol>
+<p><strong>2. The language.</strong> Uncountable. (португальский язык)</p>
+<ol start="4"><li>He speaks <em>Portuguese</em> and Spanish.</li><li>Brazilian <em>Portuguese</em> sounds quite different.</li></ol>
+<dl class="fields"><dt>See also</dt><dd><a href="#japanese">Japanese</a> &middot; <a href="#chinese">Chinese</a></dd></dl>
+<hr>
+<h3 id="swiss">Swiss<a class="hash" href="#swiss" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/swɪs/ &middot; <em>swis</em></dd><dt>Русский</dt><dd>швейцарец, швейцарка</dd><dt>Plural</dt><dd><em>Swiss</em> — unchanged</dd><dt>Countability</dt><dd>countable but invariable</dd><dt>Agreement</dt><dd>plural verb — <em>the Swiss are famously neutral</em></dd><dt>Pattern</dt><dd><em>-ss</em> → invariable</dd><dt>Group</dt><dd>20</dd><dt>Type</dt><dd>concrete</dd><dt>Contrast</dt><dd>✗ <em>Swisses</em> is wrong. Switzerland has four national languages, so <em>Swiss</em> names a nationality, never a language — ✗ <em>she speaks Swiss</em> is wrong; say <em>Swiss German</em> or <em>French</em>.</dd></dl>
+<p>A person from Switzerland; also the adjective.</p>
+<p><strong>1. A person from Switzerland.</strong> Invariable. (швейцарец)</p>
+<ol><li>Two <em>Swiss</em> were on the climbing team.</li><li>He's <em>Swiss</em>, from the Italian-speaking part.</li><li>The <em>Swiss</em> voted on it in a referendum.</li><li>Several <em>Swiss</em> work at the laboratory.</li></ol>
+<p><strong>2. As an adjective.</strong> (швейцарский)</p>
+<ol start="5"><li><em>Swiss</em> watches are the obvious example.</li></ol>
+<dl class="fields"><dt>See also</dt><dd><a href="#japanese">Japanese</a> &middot; <a href="#french">French</a></dd></dl>
+<hr>
+<h3 id="english">English<a class="hash" href="#english" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/ˈɪŋɡlɪʃ/ &middot; <em>ING-glish</em></dd><dt>Русский</dt><dd>английский; англичанин</dd><dt>Plural</dt><dd><em>the English</em> (collective) &middot; for individuals: <em>Englishmen</em>, <em>English people</em>, <em>Britons</em></dd><dt>Countability</dt><dd>the adjective is not a countable noun for a person</dd><dt>Agreement</dt><dd>plural verb — <em>the English drink a lot of tea</em></dd><dt>Pattern</dt><dd><em>-ish</em> → adjective, with a separate noun</dd><dt>Group</dt><dd>20</dd><dt>Type</dt><dd>concrete and abstract</dd><dt>Contrast</dt><dd>✗ <em>An English</em> and ✗ <em>two Englishes</em> are both wrong for people. Say <em>an Englishman</em>, <em>an English person</em>, or <em>a Briton</em>. Note also that <em>English</em> and <em>British</em> are not synonyms: <em>English</em> means from England, <em>British</em> from the United Kingdom, which includes Scotland and Wales.</dd></dl>
+<p>The language; the people of England; also the adjective.</p>
+<p><strong>1. The language.</strong> Uncountable. (английский язык)</p>
+<ol><li><em>English</em> is spoken in more countries than any other language.</li><li>She teaches <em>English</em> to adults.</li></ol>
+<p><strong>2. The people of England.</strong> Collective, with <em>the</em>. (англичане)</p>
+<ol start="3"><li>The <em>English</em> take their gardens seriously.</li><li>Two <em>English</em> people were ahead of us in line.</li><li>He's an <em>Englishman</em> married to a Scot.</li></ol>
+<dl class="fields"><dt>See also</dt><dd><a href="#french">French</a> &middot; <a href="#spanish">Spanish</a></dd></dl>
+<hr>
+<h3 id="french">French<a class="hash" href="#french" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/frɛntʃ/ &middot; <em>french</em></dd><dt>Русский</dt><dd>французский; француз</dd><dt>Plural</dt><dd><em>the French</em> (collective) &middot; for individuals: <em>Frenchmen</em>, <em>French people</em></dd><dt>Countability</dt><dd>the adjective is not a countable noun for a person</dd><dt>Agreement</dt><dd>plural verb — <em>the French eat later than we do</em></dd><dt>Pattern</dt><dd><em>-ch</em> → adjective, with a separate noun</dd><dt>Group</dt><dd>20</dd><dt>Type</dt><dd>concrete and abstract</dd><dt>Contrast</dt><dd>✗ <em>A French</em> and ✗ <em>two Frenches</em> are wrong. Say <em>a Frenchman</em>, <em>a Frenchwoman</em>, or <em>a French person</em> — the last being the neutral modern choice.</dd></dl>
+<p>The language; the people of France; also the adjective.</p>
+<p><strong>1. The language.</strong> Uncountable. (французский язык)</p>
+<ol><li>He studied <em>French</em> for eight years.</li><li><em>French</em> is an official language of Canada.</li></ol>
+<p><strong>2. The people of France.</strong> Collective, with <em>the</em>. (французы)</p>
+<ol start="3"><li>The <em>French</em> eat dinner much later.</li><li>Three <em>French</em> people were staying at the inn.</li><li>She married a <em>Frenchman</em> from Lyon.</li></ol>
+<dl class="fields"><dt>See also</dt><dd><a href="#english">English</a> &middot; <a href="#dutch">Dutch</a></dd></dl>
+<hr>
+<h3 id="dutch">Dutch<a class="hash" href="#dutch" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/dʌtʃ/ &middot; <em>duch</em></dd><dt>Русский</dt><dd>голландский; голландец</dd><dt>Plural</dt><dd><em>the Dutch</em> (collective) &middot; for individuals: <em>Dutchmen</em>, <em>Dutch people</em></dd><dt>Countability</dt><dd>the adjective is not a countable noun for a person</dd><dt>Agreement</dt><dd>plural verb — <em>the Dutch are the tallest people in Europe</em></dd><dt>Pattern</dt><dd><em>-ch</em> → adjective, with a separate noun</dd><dt>Group</dt><dd>20</dd><dt>Type</dt><dd>concrete and abstract</dd><dt>Contrast</dt><dd>✗ <em>A Dutch</em> and ✗ <em>two Dutches</em> are wrong. The country is the <em>Netherlands</em>; <em>Holland</em> is strictly only two of its provinces, though it is widely used for the whole. The people are <em>the Dutch</em>, never ✗ <em>the Netherlanders</em> in ordinary speech.</dd></dl>
+<p>The language; the people of the Netherlands; also the adjective.</p>
+<p><strong>1. The language.</strong> Uncountable. (нидерландский язык)</p>
+<ol><li><em>Dutch</em> is close to German in structure.</li><li>She learned <em>Dutch</em> in two years.</li></ol>
+<p><strong>2. The people of the Netherlands.</strong> Collective, with <em>the</em>. (голландцы)</p>
+<ol start="3"><li>The <em>Dutch</em> are the tallest people in Europe.</li><li>Two <em>Dutch</em> students shared the apartment.</li></ol>
+<p><strong>3. In fixed expressions.</strong> (в устойчивых выражениях)</p>
+<ol start="5"><li>Let's go <em>Dutch</em> and split the bill.</li></ol>
+<dl class="fields"><dt>See also</dt><dd><a href="#french">French</a> &middot; <a href="#german">German</a></dd></dl>
+<hr>
+<h3 id="spanish">Spanish<a class="hash" href="#spanish" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/ˈspænɪʃ/ &middot; <em>SPAN-ish</em></dd><dt>Русский</dt><dd>испанский; испанец</dd><dt>Plural</dt><dd><em>the Spanish</em> (collective) &middot; for individuals: <em>Spaniards</em>, <em>Spanish people</em></dd><dt>Countability</dt><dd>the adjective is not a countable noun for a person</dd><dt>Agreement</dt><dd>plural verb — <em>the Spanish eat dinner very late</em></dd><dt>Pattern</dt><dd><em>-ish</em> → adjective, with a separate noun</dd><dt>Group</dt><dd>20</dd><dt>Type</dt><dd>concrete and abstract</dd><dt>Contrast</dt><dd>✗ <em>A Spanish</em> is wrong for a person — the noun is <em>a Spaniard</em>, which is unusual enough that many learners have never met it. Note also that <em>Spanish</em> and <em>Hispanic</em> and <em>Latino</em> are not interchangeable: <em>Spanish</em> means from Spain.</dd></dl>
+<p>The language; the people of Spain; also the adjective.</p>
+<p><strong>1. The language.</strong> Uncountable. (испанский язык)</p>
+<ol><li><em>Spanish</em> is the second language of the United States.</li><li>He speaks <em>Spanish</em> at home.</li></ol>
+<p><strong>2. The people of Spain.</strong> Collective, with <em>the</em>. (испанцы)</p>
+<ol start="3"><li>The <em>Spanish</em> eat dinner very late.</li><li>Two <em>Spaniards</em> won medals that day.</li><li>She married a <em>Spaniard</em> from Seville.</li></ol>
+<dl class="fields"><dt>See also</dt><dd><a href="#english">English</a> &middot; <a href="#polish">Polish</a></dd></dl>
+<hr>
+<h3 id="polish">Polish<a class="hash" href="#polish" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/ˈpoʊlɪʃ/ &middot; <em>POH-lish</em> — with a long <em>o</em></dd><dt>Русский</dt><dd>польский; поляк</dd><dt>Plural</dt><dd><em>the Polish</em> / <em>the Poles</em> (collective) &middot; for individuals: <em>a Pole</em>, <em>a Polish person</em></dd><dt>Countability</dt><dd>the adjective is not a countable noun for a person</dd><dt>Agreement</dt><dd>plural verb — <em>the Poles have a long literary tradition</em></dd><dt>Pattern</dt><dd><em>-ish</em> → adjective, with a separate noun</dd><dt>Group</dt><dd>20</dd><dt>Type</dt><dd>concrete and abstract</dd><dt>Contrast</dt><dd>The pronunciation is the trap: the nationality <em>Polish</em> is <em>POH-lish</em> with a long <em>o</em>, while the unrelated noun <em>polish</em> meaning shine is <em>PAH-lish</em> with a short one. The noun for a person is <em>a Pole</em>, and ✗ <em>a Polish</em> is wrong.</dd></dl>
+<p>The language; the people of Poland; also the adjective.</p>
+<p><strong>1. The language.</strong> Uncountable. (польский язык)</p>
+<ol><li><em>Polish</em> has seven grammatical cases.</li><li>She grew up speaking <em>Polish</em> at home.</li></ol>
+<p><strong>2. The people of Poland.</strong> (поляки)</p>
+<ol start="3"><li>Two <em>Poles</em> were on the research team.</li><li>The <em>Polish</em> community here is large.</li><li>He's a <em>Pole</em> who has lived in Chicago for thirty years.</li></ol>
+<dl class="fields"><dt>See also</dt><dd><a href="#spanish">Spanish</a> &middot; <a href="#danish">Danish</a></dd></dl>
+<hr>
+<h3 id="danish">Danish<a class="hash" href="#danish" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/ˈdeɪnɪʃ/ &middot; <em>DAY-nish</em></dd><dt>Русский</dt><dd>датский; датчанин</dd><dt>Plural</dt><dd><em>the Danes</em> (collective) &middot; for individuals: <em>a Dane</em>, <em>a Danish person</em></dd><dt>Countability</dt><dd>the adjective is not a countable noun for a person</dd><dt>Agreement</dt><dd>plural verb — <em>the Danes cycle everywhere</em></dd><dt>Pattern</dt><dd><em>-ish</em> → adjective, with a separate noun</dd><dt>Group</dt><dd>20</dd><dt>Type</dt><dd>concrete and abstract</dd><dt>Contrast</dt><dd>✗ <em>A Danish</em> meaning a person is wrong — though <em>a Danish</em> is perfectly correct for the pastry, which makes this one genuinely confusing. The person is <em>a Dane</em>. Compare <em>Swedish → a Swede</em>, <em>Finnish → a Finn</em>, <em>Turkish → a Turk</em>.</dd></dl>
+<p>The language; the people of Denmark; also the adjective, and a pastry.</p>
+<p><strong>1. The language.</strong> Uncountable. (датский язык)</p>
+<ol><li><em>Danish</em> is hard to pronounce even for other Scandinavians.</li></ol>
+<p><strong>2. The people of Denmark.</strong> (датчане)</p>
+<ol start="2"><li>The <em>Danes</em> cycle everywhere, in any weather.</li><li>Two <em>Danes</em> finished ahead of him.</li><li>She's a <em>Dane</em> who studied in Boston.</li></ol>
+<p><strong>3. A pastry.</strong> Countable, American English. (датская выпечка)</p>
+<ol start="5"><li>He had a coffee and a <em>Danish</em>.</li></ol>
+<dl class="fields"><dt>See also</dt><dd><a href="#polish">Polish</a> &middot; <a href="#turkish">Turkish</a></dd></dl>
+<hr>
+<h3 id="turkish">Turkish<a class="hash" href="#turkish" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/ˈtɜːrkɪʃ/ &middot; <em>TUR-kish</em></dd><dt>Русский</dt><dd>турецкий; турок</dd><dt>Plural</dt><dd><em>the Turks</em> (collective) &middot; for individuals: <em>a Turk</em>, <em>a Turkish person</em></dd><dt>Countability</dt><dd>the adjective is not a countable noun for a person</dd><dt>Agreement</dt><dd>plural verb — <em>the Turks have been trading here for centuries</em></dd><dt>Pattern</dt><dd><em>-ish</em> → adjective, with a separate noun</dd><dt>Group</dt><dd>20</dd><dt>Type</dt><dd>concrete and abstract</dd><dt>Contrast</dt><dd>✗ <em>A Turkish</em> is wrong for a person — the noun is <em>a Turk</em>. Note that <em>Turkish</em> is the language and <em>Turkey</em> the country, which is spelled identically to the bird.</dd></dl>
+<p>The language; the people of Turkey; also the adjective.</p>
+<p><strong>1. The language.</strong> Uncountable. (турецкий язык)</p>
+<ol><li><em>Turkish</em> has vowel harmony throughout.</li><li>He learned <em>Turkish</em> while working in Istanbul.</li></ol>
+<p><strong>2. The people of Turkey.</strong> (турки)</p>
+<ol start="3"><li>Two <em>Turks</em> opened the restaurant.</li><li>The <em>Turks</em> have been trading on this coast for centuries.</li><li>She's a <em>Turk</em> born in Germany.</li></ol>
+<dl class="fields"><dt>See also</dt><dd><a href="#danish">Danish</a> &middot; <a href="#polish">Polish</a></dd></dl></div></main>
+<button class="themebtn" id="themeBtn">Dark</button>
+<script>
+const tb=document.getElementById('themeBtn');
+function setTheme(x){document.documentElement.dataset.theme=x;tb.textContent=x==='dark'?'Light':'Dark';
+ try{localStorage.setItem('site-theme',x)}catch(e){}}
+tb.onclick=()=>setTheme(document.documentElement.dataset.theme==='dark'?'light':'dark');
+try{const s=localStorage.getItem('site-theme');
+ setTheme(s||(matchMedia('(prefers-color-scheme: dark)').matches?'dark':'light'))}catch(e){setTheme('light')}
+</script></body></html>

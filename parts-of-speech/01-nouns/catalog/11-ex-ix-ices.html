@@ -1,0 +1,160 @@
+<!DOCTYPE html>
+<html lang="en"><head>
+<meta charset="utf-8"><meta name="viewport" content="width=device-width, initial-scale=1">
+<title>-ex and -ix → -ices</title>
+<style>
+:root{--bg:#faf9f7;--surface:#fff;--surface2:#f2f0ec;--border:#e2ded6;--text:#1a1815;
+--dim:#5f594f;--faint:#8a8377;--accent:#8a5a3b;--measure:72ch}
+@media(prefers-color-scheme:dark){:root{--bg:#14140f;--surface:#1d1d17;--surface2:#25251d;
+--border:#33332a;--text:#eeeae1;--dim:#a8a293;--faint:#7d776b;--accent:#d09b72}}
+:root[data-theme=dark]{--bg:#14140f;--surface:#1d1d17;--surface2:#25251d;--border:#33332a;
+--text:#eeeae1;--dim:#a8a293;--faint:#7d776b;--accent:#d09b72}
+:root[data-theme=light]{--bg:#faf9f7;--surface:#fff;--surface2:#f2f0ec;--border:#e2ded6;
+--text:#1a1815;--dim:#5f594f;--faint:#8a8377;--accent:#8a5a3b}
+*{box-sizing:border-box}
+body{margin:0;background:var(--bg);color:var(--text);
+font:17px/1.72 ui-serif,Georgia,"Iowan Old Style",Palatino,serif;-webkit-font-smoothing:antialiased}
+.wrap{max-width:min(var(--measure),100%);margin:0 auto;padding:0 22px}
+nav.crumb{border-bottom:1px solid var(--border);padding:13px 0;font-size:13.5px;
+font-family:-apple-system,BlinkMacSystemFont,"Segoe UI",sans-serif;position:sticky;top:0;background:var(--bg);z-index:20}
+nav.crumb .wrap{max-width:none;display:flex;gap:9px;align-items:center;flex-wrap:wrap}
+nav.crumb a{color:var(--dim);text-decoration:none}
+nav.crumb a:hover{color:var(--accent)}
+nav.crumb .sep{color:var(--faint)}
+main{padding:8px 0 80px}
+h1{font-size:clamp(28px,5vw,38px);line-height:1.15;letter-spacing:-.015em;margin:34px 0 18px}
+h2{font-size:25px;margin:46px 0 14px;letter-spacing:-.01em;padding-bottom:7px;border-bottom:1px solid var(--border)}
+h3{font-size:19px;margin:34px 0 10px;color:var(--accent)}
+h4{font-size:16px;margin:24px 0 8px;font-family:-apple-system,sans-serif}
+p{margin:0 0 16px}
+a{color:var(--accent)}
+.hash{opacity:0;margin-left:8px;font-weight:400;font-size:.65em;text-decoration:none;color:var(--faint)}
+h2:hover .hash,h3:hover .hash{opacity:1}
+blockquote{margin:0 0 20px;padding:14px 18px;background:var(--surface2);
+border-left:3px solid var(--accent);border-radius:0 8px 8px 0}
+blockquote p:last-child{margin-bottom:0}
+ol,ul{margin:0 0 18px;padding-left:26px}
+li{margin-bottom:8px}
+li>ul,li>ol{margin:8px 0 0}
+code{font-family:ui-monospace,SFMono-Regular,Menlo,Consolas,monospace;font-size:.87em;
+background:var(--surface2);padding:1px 5px;border-radius:4px}
+pre{background:var(--surface2);border:1px solid var(--border);border-radius:9px;
+padding:15px 17px;overflow-x:auto;margin:0 0 20px}
+pre code{background:none;padding:0;font-size:13px;line-height:1.6}
+.tw{overflow-x:auto;margin:0 0 22px;border:1px solid var(--border);border-radius:9px}
+table{border-collapse:collapse;width:100%;font-size:15px;
+font-family:-apple-system,BlinkMacSystemFont,"Segoe UI",sans-serif}
+th,td{padding:10px 14px;border-bottom:1px solid var(--border);vertical-align:top}
+th{background:var(--surface2);font-size:12px;text-transform:uppercase;
+letter-spacing:.06em;color:var(--dim);font-weight:700;white-space:nowrap}
+tbody tr:last-child td{border-bottom:none}
+hr{border:none;border-top:1px solid var(--border);margin:38px 0}
+details{background:var(--surface2);border:1px solid var(--border);border-radius:9px;
+padding:13px 17px;margin:0 0 20px}
+summary{cursor:pointer;font-weight:600;font-family:-apple-system,sans-serif;font-size:15px}
+details[open] summary{margin-bottom:12px}
+del{color:var(--faint)}
+dl.fields{margin:0 0 20px;padding:0}
+dl.fields dt{font-family:-apple-system,BlinkMacSystemFont,"Segoe UI",sans-serif;
+font-size:11px;letter-spacing:.11em;text-transform:uppercase;color:var(--faint);
+font-weight:700;margin:14px 0 4px}
+dl.fields dt:first-child{margin-top:0}
+dl.fields dd{margin:0;font-size:16px;color:var(--dim);line-height:1.62}
+dl.fields dd em{color:var(--text)}
+dl.fields dt.ru{color:var(--accent)}
+dl.fields dd strong{color:var(--text)}
+.toc{background:var(--surface2);border:1px solid var(--border);border-radius:10px;
+padding:16px 20px;margin:26px 0 34px;font-family:-apple-system,sans-serif;font-size:14px}
+.toc b{display:block;font-size:11px;letter-spacing:.12em;text-transform:uppercase;
+color:var(--faint);margin-bottom:9px}
+.toc a{display:block;padding:3px 0;color:var(--dim);text-decoration:none}
+.toc a:hover{color:var(--accent)}
+.themebtn{position:fixed;right:18px;bottom:18px;z-index:60;font-family:-apple-system,sans-serif;
+font-size:12.5px;font-weight:600;cursor:pointer;background:var(--surface);border:1px solid var(--border);
+border-radius:99px;padding:9px 16px;color:var(--text)}
+@media(max-width:600px){body{font-size:16px}.wrap{padding:0 17px}}
+</style></head><body>
+<nav class="crumb"><div class="wrap"><a href="../../../index.html">Learn English</a><span class="sep">/</span><a href="../../README.html">Parts of speech</a><span class="sep">/</span><a href="../README.html">01-nouns</a><span class="sep">/</span><span>catalog</span></div></nav>
+<main><div class="wrap"><h1 id="-ex-and--ix---ices"><em>-ex</em> and <em>-ix</em> → <em>-ices</em><a class="hash" href="#-ex-and--ix---ices" aria-label="link">#</a></h1>
+<blockquote><p><em>Index → indices</em>, <em>matrix → matrices</em>. The technical plural and the everyday plural often coexist — and mean slightly different things.</p></blockquote>
+<p><a href="../README.html">← The grammar of nouns</a> &middot; <a href="README.html">All groups</a></p>
+<p>Latin nouns ending in <em>-ex</em> or <em>-ix</em> formed their plural in <em>-ices</em>, pronounced /-ɪsiːz/ — <em>indices</em> is <em>IN-duh-seez</em>, <em>matrices</em> is <em>MAY-truh-seez</em>. Note that the stress moves back to the first syllable and the vowel of the ending changes.</p>
+<p>Most of these words also have a perfectly good regular plural, and English has put the two to work on <strong>different meanings</strong>. <em>Indexes</em> are the lists at the back of books; <em>indices</em> are subscripts and economic measures. <em>Appendixes</em> are the organ; <em>appendices</em> are the sections at the end of a report. Where such a split exists, this file notes it — using the wrong one is not ungrammatical, but it reads as slightly off to anyone who knows the distinction.</p>
+<hr>
+<h3 id="index">index<a class="hash" href="#index" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/ˈɪndɛks/ &middot; <em>IN-deks</em></dd><dt>Русский</dt><dd>указатель; индекс</dd><dt>Plural</dt><dd><em>indexes</em> (books) &middot; <em>indices</em> /ˈɪndəsiːz/ (mathematics, economics)</dd><dt>Countability</dt><dd>countable</dd><dt>Agreement</dt><dd>plural verb — <em>the indices have risen</em></dd><dt>Pattern</dt><dd>Latin <em>-ex</em> → <em>-ices</em>, split by sense</dd><dt>Group</dt><dd>11</dd><dt>Type</dt><dd>concrete and abstract</dd><dt>Variants</dt><dd><em>indexes</em> (alphabetical lists) &middot; <em>indices</em> (numerical measures, subscripts)</dd><dt>Contrast</dt><dd>The split is real and worth keeping. The list at the back of a book has <em>indexes</em>; stock markets and mathematics have <em>indices</em>. Both are correct in either sense, but the convention is well established.</dd></dl>
+<p>An alphabetical list of topics; also a number measuring something over time.</p>
+<p><strong>1. An alphabetical list in a book.</strong> Plural <em>indexes</em>. (указатель)</p>
+<ol><li>Look it up in the <em>index</em>.</li><li>Both <em>indexes</em> run to forty pages.</li><li>The book has no <em>index</em>, which is unforgivable.</li></ol>
+<p><strong>2. A measure or ratio.</strong> Plural <em>indices</em>. (индекс)</p>
+<ol start="4"><li>The consumer price <em>index</em> rose again.</li><li>All the major <em>indices</em> closed lower.</li><li>Several economic <em>indices</em> point to a slowdown.</li></ol>
+<p><strong>3. In mathematics — a subscript or exponent.</strong> Plural <em>indices</em>. (показатель, индекс)</p>
+<ol start="7"><li>The <em>indices</em> run from one to n.</li></ol>
+<p><strong>4. index finger.</strong> (указательный палец)</p>
+<ol start="8"><li>She tapped the map with her <em>index</em> finger.</li></ol>
+<dl class="fields"><dt>See also</dt><dd><a href="#appendix">appendix</a> &middot; <a href="#matrix">matrix</a></dd></dl>
+<hr>
+<h3 id="appendix">appendix<a class="hash" href="#appendix" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/əˈpɛndɪks/ &middot; <em>uh-PEN-diks</em></dd><dt>Русский</dt><dd>приложение; аппендикс</dd><dt>Plural</dt><dd><em>appendices</em> /əˈpɛndɪsiːz/ (documents) &middot; <em>appendixes</em> (the organ)</dd><dt>Countability</dt><dd>countable</dd><dt>Agreement</dt><dd>plural verb — <em>the appendices follow the bibliography</em></dd><dt>Pattern</dt><dd>Latin <em>-ix</em> → <em>-ices</em>, split by sense</dd><dt>Group</dt><dd>11</dd><dt>Type</dt><dd>concrete and abstract</dd><dt>Variants</dt><dd><em>appendices</em> (sections of a document) &middot; <em>appendixes</em> (body parts)</dd><dt>Contrast</dt><dd>Documents get <em>appendices</em>; surgeons remove <em>appendixes</em>. The distinction is conventional rather than absolute, but it is consistently observed in both publishing and medicine.</dd></dl>
+<p>A section added at the end of a document; also the small organ attached to the intestine.</p>
+<p><strong>1. A supplementary section of a document.</strong> Plural <em>appendices</em>. (приложение)</p>
+<ol><li>The data is in <em>Appendix</em> C.</li><li>Three <em>appendices</em> follow the main report.</li><li>Full transcripts appear in the <em>appendices</em>.</li></ol>
+<p><strong>2. The organ.</strong> Plural <em>appendixes</em>. (аппендикс)</p>
+<ol start="4"><li>His <em>appendix</em> burst on a Sunday night.</li><li>The surgeon has removed hundreds of <em>appendixes</em>.</li></ol>
+<dl class="fields"><dt>See also</dt><dd><a href="#index">index</a> &middot; <a href="08-latin-um-a.html#addendum">addendum</a></dd></dl>
+<hr>
+<h3 id="matrix">matrix<a class="hash" href="#matrix" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/ˈmeɪtrɪks/ &middot; <em>MAY-triks</em></dd><dt>Русский</dt><dd>матрица</dd><dt>Plural</dt><dd><em>matrices</em> /ˈmeɪtrɪsiːz/ &middot; <em>MAY-truh-seez</em> — also <em>matrixes</em></dd><dt>Countability</dt><dd>countable</dd><dt>Agreement</dt><dd>plural verb — <em>the matrices are invertible</em></dd><dt>Pattern</dt><dd>Latin <em>-ix</em> → <em>-ices</em></dd><dt>Group</dt><dd>11</dd><dt>Type</dt><dd>concrete and abstract</dd><dt>Variants</dt><dd><em>matrices</em> in mathematics and science; <em>matrixes</em> occasionally in general use</dd><dt>Contrast</dt><dd>In mathematics <em>matrices</em> is effectively obligatory — ✗ <em>matrixes</em> will look wrong in any technical context.</dd></dl>
+<p>A rectangular array of numbers; a surrounding medium or structure in which something develops.</p>
+<p><strong>1. In mathematics.</strong> (матрица)</p>
+<ol><li>Multiply the two <em>matrices</em> in that order.</li><li>The <em>matrix</em> has three rows and four columns.</li><li>Not all <em>matrices</em> can be inverted.</li></ol>
+<p><strong>2. A grid used for organizing information.</strong> Business use. (матрица, таблица)</p>
+<ol start="4"><li>We built a decision <em>matrix</em> to compare vendors.</li><li>Both risk <em>matrices</em> used the same scale.</li></ol>
+<p><strong>3. A surrounding structure in which something forms.</strong> Geology, biology. (среда, основа)</p>
+<ol start="6"><li>The crystals grew in a <em>matrix</em> of soft clay.</li></ol>
+<dl class="fields"><dt>See also</dt><dd><a href="#index">index</a> &middot; <a href="#vertex">vertex</a></dd></dl>
+<hr>
+<h3 id="vertex">vertex<a class="hash" href="#vertex" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/ˈvɜːrtɛks/ &middot; <em>VUR-teks</em></dd><dt>Русский</dt><dd>вершина (угла, фигуры)</dd><dt>Plural</dt><dd><em>vertices</em> /ˈvɜːrtɪsiːz/ &middot; <em>VUR-tuh-seez</em> — also <em>vertexes</em></dd><dt>Countability</dt><dd>countable</dd><dt>Agreement</dt><dd>plural verb — <em>the vertices are connected by edges</em></dd><dt>Pattern</dt><dd>Latin <em>-ex</em> → <em>-ices</em></dd><dt>Group</dt><dd>11</dd><dt>Type</dt><dd>concrete and abstract</dd><dt>Variants</dt><dd><em>vertices</em> in mathematics and computer graphics</dd><dt>Contrast</dt><dd>Do not confuse with <em>vortex</em>, a whirling mass — the two differ by one letter and mean entirely different things.</dd></dl>
+<p>A point where lines or edges meet; the highest point of a shape.</p>
+<p><strong>1. A corner point in geometry.</strong> (вершина)</p>
+<ol><li>A triangle has three <em>vertices</em>.</li><li>Label each <em>vertex</em> with a letter.</li><li>The cube's eight <em>vertices</em> are equally spaced.</li></ol>
+<p><strong>2. A node in a graph or 3-D model.</strong> (узел, вершина графа)</p>
+<ol start="4"><li>The model contains two million <em>vertices</em>.</li><li>Each <em>vertex</em> stores a position and a color.</li></ol>
+<dl class="fields"><dt>See also</dt><dd><a href="#apex">apex</a> &middot; <a href="#vortex">vortex</a></dd></dl>
+<hr>
+<h3 id="apex">apex<a class="hash" href="#apex" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/ˈeɪpɛks/ &middot; <em>AY-peks</em></dd><dt>Русский</dt><dd>вершина, верхушка</dd><dt>Plural</dt><dd><em>apexes</em> — usual &middot; <em>apices</em> /ˈeɪpɪsiːz/</dd><dt>Countability</dt><dd>countable</dd><dt>Agreement</dt><dd>plural verb — <em>the apexes align</em></dd><dt>Pattern</dt><dd>Latin <em>-ex</em> → <em>-ices</em>, now mostly regular</dd><dt>Group</dt><dd>11</dd><dt>Type</dt><dd>concrete and abstract</dd><dt>Variants</dt><dd><em>apexes</em> is standard in American English; <em>apices</em> is technical and rare</dd></dl>
+<p>The highest point of something; the peak of a career or process.</p>
+<p><strong>1. The highest point.</strong> (вершина)</p>
+<ol><li>The <em>apex</em> of the roof is forty feet up.</li><li>Both <em>apexes</em> meet at the ridge line.</li><li>The trail follows the <em>apex</em> of the ridge.</li></ol>
+<p><strong>2. The peak of a career or development.</strong> Figurative. (пик, расцвет)</p>
+<ol start="4"><li>She was at the <em>apex</em> of her career.</li><li>The empire reached its <em>apex</em> in the third century.</li></ol>
+<p><strong>3. In driving and racing.</strong> (апекс поворота)</p>
+<ol start="6"><li>Clip the <em>apex</em> of the corner and accelerate out.</li></ol>
+<dl class="fields"><dt>See also</dt><dd><a href="#vertex">vertex</a></dd></dl>
+<hr>
+<h3 id="vortex">vortex<a class="hash" href="#vortex" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/ˈvɔːrtɛks/ &middot; <em>VOR-teks</em></dd><dt>Русский</dt><dd>вихрь, водоворот</dd><dt>Plural</dt><dd><em>vortices</em> /ˈvɔːrtɪsiːz/ &middot; <em>VOR-tuh-seez</em> — also <em>vortexes</em></dd><dt>Countability</dt><dd>countable</dd><dt>Agreement</dt><dd>plural verb — <em>the vortices form behind the wing</em></dd><dt>Pattern</dt><dd>Latin <em>-ex</em> → <em>-ices</em></dd><dt>Group</dt><dd>11</dd><dt>Type</dt><dd>concrete and abstract</dd><dt>Variants</dt><dd><em>vortices</em> in physics and meteorology; <em>vortexes</em> in general use</dd><dt>Contrast</dt><dd>Not to be confused with <em>vertex</em>, a corner point. The weather term <em>polar vortex</em> has made this word familiar to every American who watches a winter forecast.</dd></dl>
+<p>A whirling mass of fluid or air; figuratively, something that draws things in.</p>
+<p><strong>1. A whirling mass.</strong> (вихрь, водоворот)</p>
+<ol><li>A <em>vortex</em> formed as the water drained.</li><li><em>Vortices</em> trail from the wingtips.</li><li>The polar <em>vortex</em> pushed cold air south.</li></ol>
+<p><strong>2. Something that pulls people in.</strong> Figurative. (водоворот)</p>
+<ol start="4"><li>He was caught in a <em>vortex</em> of debt and litigation.</li><li>The scandal became a <em>vortex</em> that swallowed three careers.</li></ol>
+<dl class="fields"><dt>See also</dt><dd><a href="#vertex">vertex</a></dd></dl>
+<hr>
+<h3 id="codex">codex<a class="hash" href="#codex" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/ˈkoʊdɛks/ &middot; <em>KOH-deks</em></dd><dt>Русский</dt><dd>кодекс, рукописная книга</dd><dt>Plural</dt><dd><em>codices</em> /ˈkoʊdɪsiːz/ &middot; <em>KOH-duh-seez</em> — also <em>codexes</em></dd><dt>Countability</dt><dd>countable</dd><dt>Agreement</dt><dd>plural verb — <em>the codices are kept in the vault</em></dd><dt>Pattern</dt><dd>Latin <em>-ex</em> → <em>-ices</em></dd><dt>Group</dt><dd>11</dd><dt>Type</dt><dd>concrete</dd><dt>Variants</dt><dd><em>codices</em> is standard in scholarship</dd><dt>Contrast</dt><dd>A <em>codex</em> is a book with pages, as opposed to a scroll — the format that replaced the scroll in late antiquity.</dd></dl>
+<p>An ancient manuscript in book form.</p>
+<p><strong>1. The manuscript.</strong> (кодекс, древняя книга)</p>
+<ol><li>The library holds a fourth-century <em>codex</em>.</li><li>Several Maya <em>codices</em> survived the burnings.</li><li>Each <em>codex</em> was copied by hand.</li><li>The <em>codex</em> replaced the scroll by the fourth century.</li><li>Two <em>codices</em> were reunited after five hundred years.</li></ol>
+<dl class="fields"><dt>See also</dt><dd><a href="#matrix">matrix</a></dd></dl></div></main>
+<button class="themebtn" id="themeBtn">Dark</button>
+<script>
+const tb=document.getElementById('themeBtn');
+function setTheme(x){document.documentElement.dataset.theme=x;tb.textContent=x==='dark'?'Light':'Dark';
+ try{localStorage.setItem('site-theme',x)}catch(e){}}
+tb.onclick=()=>setTheme(document.documentElement.dataset.theme==='dark'?'light':'dark');
+try{const s=localStorage.getItem('site-theme');
+ setTheme(s||(matchMedia('(prefers-color-scheme: dark)').matches?'dark':'light'))}catch(e){setTheme('light')}
+</script></body></html>

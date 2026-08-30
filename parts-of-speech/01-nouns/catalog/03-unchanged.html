@@ -1,0 +1,346 @@
+<!DOCTYPE html>
+<html lang="en"><head>
+<meta charset="utf-8"><meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Plurals that look exactly like the singular</title>
+<style>
+:root{--bg:#faf9f7;--surface:#fff;--surface2:#f2f0ec;--border:#e2ded6;--text:#1a1815;
+--dim:#5f594f;--faint:#8a8377;--accent:#8a5a3b;--measure:72ch}
+@media(prefers-color-scheme:dark){:root{--bg:#14140f;--surface:#1d1d17;--surface2:#25251d;
+--border:#33332a;--text:#eeeae1;--dim:#a8a293;--faint:#7d776b;--accent:#d09b72}}
+:root[data-theme=dark]{--bg:#14140f;--surface:#1d1d17;--surface2:#25251d;--border:#33332a;
+--text:#eeeae1;--dim:#a8a293;--faint:#7d776b;--accent:#d09b72}
+:root[data-theme=light]{--bg:#faf9f7;--surface:#fff;--surface2:#f2f0ec;--border:#e2ded6;
+--text:#1a1815;--dim:#5f594f;--faint:#8a8377;--accent:#8a5a3b}
+*{box-sizing:border-box}
+body{margin:0;background:var(--bg);color:var(--text);
+font:17px/1.72 ui-serif,Georgia,"Iowan Old Style",Palatino,serif;-webkit-font-smoothing:antialiased}
+.wrap{max-width:min(var(--measure),100%);margin:0 auto;padding:0 22px}
+nav.crumb{border-bottom:1px solid var(--border);padding:13px 0;font-size:13.5px;
+font-family:-apple-system,BlinkMacSystemFont,"Segoe UI",sans-serif;position:sticky;top:0;background:var(--bg);z-index:20}
+nav.crumb .wrap{max-width:none;display:flex;gap:9px;align-items:center;flex-wrap:wrap}
+nav.crumb a{color:var(--dim);text-decoration:none}
+nav.crumb a:hover{color:var(--accent)}
+nav.crumb .sep{color:var(--faint)}
+main{padding:8px 0 80px}
+h1{font-size:clamp(28px,5vw,38px);line-height:1.15;letter-spacing:-.015em;margin:34px 0 18px}
+h2{font-size:25px;margin:46px 0 14px;letter-spacing:-.01em;padding-bottom:7px;border-bottom:1px solid var(--border)}
+h3{font-size:19px;margin:34px 0 10px;color:var(--accent)}
+h4{font-size:16px;margin:24px 0 8px;font-family:-apple-system,sans-serif}
+p{margin:0 0 16px}
+a{color:var(--accent)}
+.hash{opacity:0;margin-left:8px;font-weight:400;font-size:.65em;text-decoration:none;color:var(--faint)}
+h2:hover .hash,h3:hover .hash{opacity:1}
+blockquote{margin:0 0 20px;padding:14px 18px;background:var(--surface2);
+border-left:3px solid var(--accent);border-radius:0 8px 8px 0}
+blockquote p:last-child{margin-bottom:0}
+ol,ul{margin:0 0 18px;padding-left:26px}
+li{margin-bottom:8px}
+li>ul,li>ol{margin:8px 0 0}
+code{font-family:ui-monospace,SFMono-Regular,Menlo,Consolas,monospace;font-size:.87em;
+background:var(--surface2);padding:1px 5px;border-radius:4px}
+pre{background:var(--surface2);border:1px solid var(--border);border-radius:9px;
+padding:15px 17px;overflow-x:auto;margin:0 0 20px}
+pre code{background:none;padding:0;font-size:13px;line-height:1.6}
+.tw{overflow-x:auto;margin:0 0 22px;border:1px solid var(--border);border-radius:9px}
+table{border-collapse:collapse;width:100%;font-size:15px;
+font-family:-apple-system,BlinkMacSystemFont,"Segoe UI",sans-serif}
+th,td{padding:10px 14px;border-bottom:1px solid var(--border);vertical-align:top}
+th{background:var(--surface2);font-size:12px;text-transform:uppercase;
+letter-spacing:.06em;color:var(--dim);font-weight:700;white-space:nowrap}
+tbody tr:last-child td{border-bottom:none}
+hr{border:none;border-top:1px solid var(--border);margin:38px 0}
+details{background:var(--surface2);border:1px solid var(--border);border-radius:9px;
+padding:13px 17px;margin:0 0 20px}
+summary{cursor:pointer;font-weight:600;font-family:-apple-system,sans-serif;font-size:15px}
+details[open] summary{margin-bottom:12px}
+del{color:var(--faint)}
+dl.fields{margin:0 0 20px;padding:0}
+dl.fields dt{font-family:-apple-system,BlinkMacSystemFont,"Segoe UI",sans-serif;
+font-size:11px;letter-spacing:.11em;text-transform:uppercase;color:var(--faint);
+font-weight:700;margin:14px 0 4px}
+dl.fields dt:first-child{margin-top:0}
+dl.fields dd{margin:0;font-size:16px;color:var(--dim);line-height:1.62}
+dl.fields dd em{color:var(--text)}
+dl.fields dt.ru{color:var(--accent)}
+dl.fields dd strong{color:var(--text)}
+.toc{background:var(--surface2);border:1px solid var(--border);border-radius:10px;
+padding:16px 20px;margin:26px 0 34px;font-family:-apple-system,sans-serif;font-size:14px}
+.toc b{display:block;font-size:11px;letter-spacing:.12em;text-transform:uppercase;
+color:var(--faint);margin-bottom:9px}
+.toc a{display:block;padding:3px 0;color:var(--dim);text-decoration:none}
+.toc a:hover{color:var(--accent)}
+.themebtn{position:fixed;right:18px;bottom:18px;z-index:60;font-family:-apple-system,sans-serif;
+font-size:12.5px;font-weight:600;cursor:pointer;background:var(--surface);border:1px solid var(--border);
+border-radius:99px;padding:9px 16px;color:var(--text)}
+@media(max-width:600px){body{font-size:16px}.wrap{padding:0 17px}}
+</style></head><body>
+<nav class="crumb"><div class="wrap"><a href="../../../index.html">Learn English</a><span class="sep">/</span><a href="../../README.html">Parts of speech</a><span class="sep">/</span><a href="../README.html">01-nouns</a><span class="sep">/</span><span>catalog</span></div></nav>
+<main><div class="wrap"><h1 id="plurals-that-look-exactly-like-the-singular">Plurals that look exactly like the singular<a class="hash" href="#plurals-that-look-exactly-like-the-singular" aria-label="link">#</a></h1>
+<blockquote><p><em>One sheep, two sheep.</em> No ending, no vowel change — only the surrounding words tell you which you mean.</p></blockquote>
+<p><a href="../README.html">← The grammar of nouns</a> &middot; <a href="README.html">All groups</a></p>
+<p>For these nouns the plural is spelled and pronounced exactly like the singular. Nothing on the word itself marks number, so the <strong>determiner and the verb carry the whole load</strong>: <em>this sheep is</em> versus <em>these sheep are</em>. Get the verb wrong and the sentence becomes ambiguous rather than merely incorrect.</p>
+<p>Three groups meet here. <strong>Animals</strong> that people hunt, herd, or fish for — <em>deer</em>, <em>sheep</em>, <em>fish</em>, <em>moose</em>, <em>trout</em> — a pattern old enough that new game animals still join it. <strong>Nouns already ending in <em>-s</em></strong> whose <em>-s</em> is part of the stem, not a plural ending: <em>series</em>, <em>species</em>, <em>corps</em>, <em>headquarters</em>. And <strong>numerals after a number</strong>: <em>three dozen eggs</em>, <em>two hundred people</em> — but <em>dozens of eggs</em> once the number is vague.</p>
+<hr>
+<h3 id="sheep">sheep<a class="hash" href="#sheep" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/ʃiːp/ &middot; <em>sheep</em></dd><dt>Русский</dt><dd>овца, овцы</dd><dt>Plural</dt><dd><em>sheep</em> — unchanged</dd><dt>Countability</dt><dd>countable</dd><dt>Agreement</dt><dd>depends on meaning — <em>this sheep is</em> / <em>these sheep are</em></dd><dt>Pattern</dt><dd>zero plural</dd><dt>Group</dt><dd>3</dd><dt>Type</dt><dd>concrete</dd><dt>Contrast</dt><dd>✗ <em>sheeps</em> is always wrong. The meat is <em>mutton</em> and the young animal is a <em>lamb</em>, both separate words. Compare <em>goat</em>, which is perfectly regular: <em>goats</em>.</dd></dl>
+<p>The woolly farm animal; figuratively, a person who follows without thinking.</p>
+<p><strong>1. The animal.</strong> (овца)</p>
+<ol><li>A <em>sheep</em> wandered onto the road.</li><li>Forty <em>sheep</em> grazed on the far slope.</li><li>These <em>sheep</em> are ready for shearing.</li><li>The farm keeps <em>sheep</em> for wool rather than meat.</li></ol>
+<p><strong>2. A follower, someone easily led.</strong> Mildly contemptuous. (стадо, безвольные люди)</p>
+<ol start="5"><li>They follow whatever the ads tell them, like <em>sheep</em>.</li></ol>
+<p><strong>3. In fixed expressions.</strong> (в устойчивых выражениях)</p>
+<ol start="6"><li>He was the black <em>sheep</em> of the family.</li><li>That's a wolf in <em>sheep</em>'s clothing.</li></ol>
+<dl class="fields"><dt>See also</dt><dd><a href="#deer">deer</a> &middot; <a href="#fish">fish</a></dd></dl>
+<hr>
+<h3 id="deer">deer<a class="hash" href="#deer" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/dɪr/ &middot; <em>deer</em></dd><dt>Русский</dt><dd>олень</dd><dt>Plural</dt><dd><em>deer</em> — unchanged</dd><dt>Countability</dt><dd>countable</dd><dt>Agreement</dt><dd>depends on meaning — <em>a deer was</em> / <em>the deer were</em></dd><dt>Pattern</dt><dd>zero plural</dd><dt>Group</dt><dd>3</dd><dt>Type</dt><dd>concrete</dd><dt>Contrast</dt><dd>✗ <em>deers</em> is wrong. The word once meant any wild animal, which is why it kept the old unmarked plural. Note <em>reindeer</em> and <em>roe deer</em> follow it, but <em>antelope</em> allows both <em>antelope</em> and <em>antelopes</em>.</dd></dl>
+<p>The hoofed woodland animal.</p>
+<p><strong>1. The animal.</strong> (олень)</p>
+<ol><li>A <em>deer</em> crossed in front of the car.</li><li>Three <em>deer</em> were standing at the edge of the field.</li><li><em>Deer</em> eat everything I plant.</li><li>The <em>deer</em> was gone before I could get my phone out.</li><li>Hunters took two <em>deer</em> that season.</li></ol>
+<dl class="fields"><dt>See also</dt><dd><a href="#sheep">sheep</a> &middot; <a href="#moose">moose</a></dd></dl>
+<hr>
+<h3 id="fish">fish<a class="hash" href="#fish" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/fɪʃ/ &middot; <em>fish</em></dd><dt>Русский</dt><dd>рыба</dd><dt>Plural</dt><dd><em>fish</em> — unchanged &middot; <em>fishes</em> /ˈfɪʃɪz/ for species</dd><dt>Countability</dt><dd>countable, and uncountable as food</dd><dt>Agreement</dt><dd>depends on meaning — <em>the fish is</em> / <em>the fish are</em></dd><dt>Pattern</dt><dd>zero plural, with a marked regular plural for kinds</dd><dt>Group</dt><dd>3</dd><dt>Type</dt><dd>concrete</dd><dt>Variants</dt><dd><em>fish</em> (individuals) &middot; <em>fishes</em> (distinct species)</dd><dt>Contrast</dt><dd>The two plurals mean different things. <em>Six fish</em> is six animals; <em>the fishes of the Caribbean</em> is a set of species. As food the word is uncountable: <em>we ate fish</em>, never ✗ <em>we ate a fish</em> unless you mean the whole animal.</dd></dl>
+<p>The aquatic animal, and its flesh as food.</p>
+<p><strong>1. Individual animals.</strong> Unchanged plural. (рыба, рыбы)</p>
+<ol><li>I caught four <em>fish</em> before lunch.</li><li>The <em>fish</em> in this tank are all the same age.</li><li>A single <em>fish</em> jumped clear of the water.</li></ol>
+<p><strong>2. Species or kinds — fishes.</strong> Biology, and formal or literary writing. (виды рыб)</p>
+<ol start="4"><li>The book catalogs the <em>fishes</em> of the Great Lakes.</li></ol>
+<p><strong>3. As food — uncountable.</strong> (рыба как еда)</p>
+<ol start="5"><li>We're having <em>fish</em> for dinner.</li><li>She doesn't eat <em>fish</em> or shellfish.</li></ol>
+<p><strong>4. In fixed expressions.</strong> (в устойчивых выражениях)</p>
+<ol start="7"><li>There are plenty more <em>fish</em> in the sea.</li><li>He was a big <em>fish</em> in a small pond.</li><li>I felt like a <em>fish</em> out of water at that party.</li></ol>
+<dl class="fields"><dt>See also</dt><dd><a href="#sheep">sheep</a> &middot; <a href="#salmon">salmon</a></dd></dl>
+<hr>
+<h3 id="moose">moose<a class="hash" href="#moose" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/muːs/ &middot; <em>moos</em></dd><dt>Русский</dt><dd>лось</dd><dt>Plural</dt><dd><em>moose</em> — unchanged</dd><dt>Countability</dt><dd>countable</dd><dt>Agreement</dt><dd>depends on meaning — <em>a moose was</em> / <em>the moose were</em></dd><dt>Pattern</dt><dd>zero plural</dd><dt>Group</dt><dd>3</dd><dt>Type</dt><dd>concrete</dd><dt>Contrast</dt><dd>✗ <em>meese</em> is a joke, never a real plural — the word is Algonquian, not Germanic, so the <em>goose → geese</em> pattern cannot touch it. ✗ <em>mooses</em> is also wrong.</dd></dl>
+<p>The large northern deer. The American animal; the European one is called an <em>elk</em>.</p>
+<p><strong>1. The animal.</strong> (лось)</p>
+<ol><li>A <em>moose</em> stood in the middle of the highway.</li><li>Two <em>moose</em> were feeding in the shallows.</li><li><em>Moose</em> are far more dangerous than most tourists expect.</li><li>We saw a bull <em>moose</em> at dawn.</li><li>The park counts its <em>moose</em> by helicopter every winter.</li></ol>
+<dl class="fields"><dt>See also</dt><dd><a href="#deer">deer</a> &middot; <a href="01-vowel-change.html#goose">goose</a></dd></dl>
+<hr>
+<h3 id="elk">elk<a class="hash" href="#elk" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/ɛlk/ &middot; <em>elk</em></dd><dt>Русский</dt><dd>вапити; лось (в Европе)</dd><dt>Plural</dt><dd><em>elk</em> — unchanged &middot; <em>elks</em> also occurs</dd><dt>Countability</dt><dd>countable</dd><dt>Agreement</dt><dd>depends on meaning — <em>the elk is</em> / <em>the elk are</em></dd><dt>Pattern</dt><dd>zero plural</dd><dt>Group</dt><dd>3</dd><dt>Type</dt><dd>concrete</dd><dt>Variants</dt><dd><em>elk</em> (usual) &middot; <em>elks</em> (less common, and the fraternal order is <em>the Elks</em>)</dd><dt>Contrast</dt><dd>The word means different animals on different continents. In North America an <em>elk</em> is the wapiti; in Europe <em>elk</em> is the animal Americans call a <em>moose</em>.</dd></dl>
+<p>The large deer of North America and northern Eurasia.</p>
+<p><strong>1. The animal.</strong> (вапити, лось)</p>
+<ol><li>A herd of <em>elk</em> moved down into the valley.</li><li>We heard an <em>elk</em> bugling before sunrise.</li><li><em>Elk</em> were reintroduced to the region in the 1990s.</li><li>The photograph shows a single <em>elk</em> against the snow.</li><li>Hunters may take one <em>elk</em> per season.</li></ol>
+<dl class="fields"><dt>See also</dt><dd><a href="#moose">moose</a> &middot; <a href="#deer">deer</a></dd></dl>
+<hr>
+<h3 id="bison">bison<a class="hash" href="#bison" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/ˈbaɪsən/ &middot; <em>BY-suhn</em></dd><dt>Русский</dt><dd>бизон, зубр</dd><dt>Plural</dt><dd><em>bison</em> — unchanged</dd><dt>Countability</dt><dd>countable</dd><dt>Agreement</dt><dd>depends on meaning — <em>a bison was</em> / <em>the bison were</em></dd><dt>Pattern</dt><dd>zero plural</dd><dt>Group</dt><dd>3</dd><dt>Type</dt><dd>concrete</dd><dt>Contrast</dt><dd><em>Buffalo</em> is the everyday American word for the same animal and allows three plurals — <em>buffalo</em>, <em>buffaloes</em>, <em>buffalos</em> — while <em>bison</em> allows only one.</dd></dl>
+<p>The large shaggy-shouldered bovine of the North American plains.</p>
+<p><strong>1. The animal.</strong> (бизон)</p>
+<ol><li>A single <em>bison</em> blocked the park road for an hour.</li><li>Thousands of <em>bison</em> once crossed these plains.</li><li>The herd's <em>bison</em> are tagged and tracked.</li><li><em>Bison</em> meat is leaner than beef.</li><li>She photographed a <em>bison</em> calf beside its mother.</li></ol>
+<dl class="fields"><dt>See also</dt><dd><a href="#buffalo">buffalo</a></dd></dl>
+<hr>
+<h3 id="buffalo">buffalo<a class="hash" href="#buffalo" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/ˈbʌfəloʊ/ &middot; <em>BUH-fuh-loh</em></dd><dt>Русский</dt><dd>буйвол; бизон</dd><dt>Plural</dt><dd><em>buffalo</em> &middot; <em>buffaloes</em> &middot; <em>buffalos</em> — all three accepted</dd><dt>Countability</dt><dd>countable</dd><dt>Agreement</dt><dd>depends on meaning — <em>the buffalo is</em> / <em>the buffalo are</em></dd><dt>Pattern</dt><dd>zero plural, with two regular alternatives</dd><dt>Group</dt><dd>3</dd><dt>Type</dt><dd>concrete</dd><dt>Variants</dt><dd><em>buffalo</em> is commonest in American usage; <em>buffaloes</em> is the usual written plural elsewhere</dd><dt>Contrast</dt><dd>Unusually, all three plurals are correct. American speakers overwhelmingly use the unchanged form for the animal of the plains.</dd></dl>
+<p>The North American bison, or the water buffalo of Asia and Africa.</p>
+<p><strong>1. The animal.</strong> (буйвол, бизон)</p>
+<ol><li>A herd of <em>buffalo</em> grazed near the river.</li><li>The reserve protects several hundred <em>buffalo</em>.</li><li>Water <em>buffaloes</em> pull the plows here.</li><li>One <em>buffalo</em> wandered onto the airstrip.</li></ol>
+<p><strong>2. In compounds and place names.</strong> (в составе названий)</p>
+<ol start="5"><li>She ordered <em>buffalo</em> wings and a side salad.</li></ol>
+<p><strong>3. As a verb — to intimidate or bewilder.</strong> Informal American. (сбивать с толку, запугивать)</p>
+<ol start="6"><li>Don't let the paperwork <em>buffalo</em> you.</li></ol>
+<dl class="fields"><dt>See also</dt><dd><a href="#bison">bison</a></dd></dl>
+<hr>
+<h3 id="swine">swine<a class="hash" href="#swine" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/swaɪn/ &middot; <em>swyne</em></dd><dt>Русский</dt><dd>свинья; подлец</dd><dt>Plural</dt><dd><em>swine</em> — unchanged &middot; <em>swines</em> in the insult sense</dd><dt>Countability</dt><dd>countable</dd><dt>Agreement</dt><dd>plural verb — <em>swine are susceptible to the virus</em></dd><dt>Pattern</dt><dd>zero plural</dd><dt>Group</dt><dd>3</dd><dt>Type</dt><dd>concrete</dd><dt>Variants</dt><dd><em>swine</em> (animals, formal or veterinary) &middot; <em>swines</em> (occasionally, of people)</dd><dt>Contrast</dt><dd>The ordinary American word for the animal is <em>pig</em> or <em>hog</em>; <em>swine</em> survives in farming, veterinary, and biblical contexts, and as an insult.</dd></dl>
+<p>Pigs collectively, especially as livestock; also a contemptible person.</p>
+<p><strong>1. The animals.</strong> Farming and veterinary usage. (свиньи)</p>
+<ol><li>The outbreak spread quickly among the <em>swine</em>.</li><li><em>Swine</em> were kept behind the barn.</li><li>The disease is named <em>swine</em> flu for a reason.</li></ol>
+<p><strong>2. A contemptible person.</strong> Chiefly British in flavor but understood everywhere. (свинья, подлец)</p>
+<ol start="4"><li>That <em>swine</em> left without paying.</li><li>The pair of them are absolute <em>swines</em>.</li></ol>
+<p><strong>3. In fixed expressions.</strong> (в устойчивых выражениях)</p>
+<ol start="6"><li>Don't cast pearls before <em>swine</em>.</li></ol>
+<dl class="fields"><dt>See also</dt><dd><a href="#sheep">sheep</a></dd></dl>
+<hr>
+<h3 id="salmon">salmon<a class="hash" href="#salmon" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/ˈsæmən/ &middot; <em>SAM-uhn</em> — the <em>l</em> is silent</dd><dt>Русский</dt><dd>лосось, сёмга</dd><dt>Plural</dt><dd><em>salmon</em> — unchanged</dd><dt>Countability</dt><dd>countable, and uncountable as food</dd><dt>Agreement</dt><dd>depends on meaning — <em>the salmon is</em> / <em>the salmon are</em></dd><dt>Pattern</dt><dd>zero plural</dd><dt>Group</dt><dd>3</dd><dt>Type</dt><dd>concrete</dd><dt>Contrast</dt><dd>The <em>l</em> is never pronounced — /ˈsæmən/, not ✗ /ˈsælmən/. Same silent <em>l</em> as in <em>almond</em> for many speakers, and in <em>calm</em> and <em>palm</em>.</dd></dl>
+<p>The pink-fleshed migratory fish, and its flesh as food.</p>
+<p><strong>1. The fish.</strong> (лосось)</p>
+<ol><li>A <em>salmon</em> leapt at the base of the falls.</li><li>Thousands of <em>salmon</em> return to this river each fall.</li><li>The <em>salmon</em> were running early that year.</li></ol>
+<p><strong>2. As food — uncountable.</strong> (лосось как еда)</p>
+<ol start="4"><li>We had grilled <em>salmon</em> and rice.</li><li>Smoked <em>salmon</em> is the one thing he'll always eat.</li></ol>
+<p><strong>3. As a color.</strong> Attributive. (лососёвый цвет)</p>
+<ol start="6"><li>She wore a <em>salmon</em> pink dress.</li></ol>
+<dl class="fields"><dt>See also</dt><dd><a href="#fish">fish</a> &middot; <a href="#trout">trout</a></dd></dl>
+<hr>
+<h3 id="trout">trout<a class="hash" href="#trout" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/traʊt/ &middot; <em>trowt</em></dd><dt>Русский</dt><dd>форель</dd><dt>Plural</dt><dd><em>trout</em> — unchanged &middot; <em>trouts</em> rarely, for species</dd><dt>Countability</dt><dd>countable, and uncountable as food</dd><dt>Agreement</dt><dd>depends on meaning — <em>the trout is</em> / <em>the trout are</em></dd><dt>Pattern</dt><dd>zero plural</dd><dt>Group</dt><dd>3</dd><dt>Type</dt><dd>concrete</dd><dt>Contrast</dt><dd>Like <em>fish</em>, the marked plural <em>trouts</em> appears only when distinguishing kinds, and even then most writers prefer <em>trout species</em>.</dd></dl>
+<p>The freshwater game fish.</p>
+<p><strong>1. The fish.</strong> (форель)</p>
+<ol><li>He caught six <em>trout</em> before noon.</li><li>The stream is stocked with <em>trout</em> every spring.</li><li>A large <em>trout</em> rose to the fly.</li><li>These <em>trout</em> are all hatchery fish.</li></ol>
+<p><strong>2. As food.</strong> (форель как еда)</p>
+<ol start="5"><li>We ate <em>trout</em> cooked over the fire.</li></ol>
+<dl class="fields"><dt>See also</dt><dd><a href="#salmon">salmon</a> &middot; <a href="#cod">cod</a></dd></dl>
+<hr>
+<h3 id="cod">cod<a class="hash" href="#cod" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/kɑːd/ &middot; <em>kahd</em></dd><dt>Русский</dt><dd>треска</dd><dt>Plural</dt><dd><em>cod</em> — unchanged &middot; <em>cods</em> rarely, for species</dd><dt>Countability</dt><dd>countable, and uncountable as food</dd><dt>Agreement</dt><dd>depends on meaning — <em>the cod is</em> / <em>the cod are</em></dd><dt>Pattern</dt><dd>zero plural</dd><dt>Group</dt><dd>3</dd><dt>Type</dt><dd>concrete</dd><dt>Contrast</dt><dd>Compare <em>haddock</em>, <em>mackerel</em>, and <em>herring</em>, which behave the same way. Fish names are the most productive corner of the zero-plural pattern.</dd></dl>
+<p>The cold-water food fish of the North Atlantic.</p>
+<p><strong>1. The fish.</strong> (треска)</p>
+<ol><li>The boats brought in three hundred <em>cod</em>.</li><li>A single <em>cod</em> can weigh forty pounds.</li><li><em>Cod</em> have been fished here for five centuries.</li></ol>
+<p><strong>2. As food.</strong> (треска как еда)</p>
+<ol start="4"><li>Fried <em>cod</em> is on the menu every Friday.</li><li>She ordered the <em>cod</em> with potatoes.</li></ol>
+<dl class="fields"><dt>See also</dt><dd><a href="#trout">trout</a> &middot; <a href="#fish">fish</a></dd></dl>
+<hr>
+<h3 id="shrimp">shrimp<a class="hash" href="#shrimp" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/ʃrɪmp/ &middot; <em>shrimp</em></dd><dt>Русский</dt><dd>креветка</dd><dt>Plural</dt><dd><em>shrimp</em> — unchanged &middot; <em>shrimps</em> also used</dd><dt>Countability</dt><dd>countable, and uncountable as food</dd><dt>Agreement</dt><dd>depends on meaning — <em>the shrimp is</em> / <em>the shrimp are</em></dd><dt>Pattern</dt><dd>zero plural, with a regular alternative</dd><dt>Group</dt><dd>3</dd><dt>Type</dt><dd>concrete</dd><dt>Variants</dt><dd>American English strongly prefers <em>shrimp</em> for both numbers</dd><dt>Contrast</dt><dd><em>Shrimps</em> is not wrong but sounds foreign to American ears. In the 'small person' sense the plural is always regular: <em>shrimps</em>.</dd></dl>
+<p>The small edible crustacean; informally, a very small person.</p>
+<p><strong>1. The animal, and the food.</strong> (креветка)</p>
+<ol><li>We ordered a pound of <em>shrimp</em>.</li><li>The <em>shrimp</em> were still frozen solid.</li><li>He grills <em>shrimp</em> on skewers.</li><li>A single <em>shrimp</em> had escaped the net.</li></ol>
+<p><strong>2. A small person.</strong> Informal, teasing or insulting. (коротышка)</p>
+<ol start="5"><li>Watch who you're calling a <em>shrimp</em>.</li></ol>
+<dl class="fields"><dt>See also</dt><dd><a href="#squid">squid</a></dd></dl>
+<hr>
+<h3 id="squid">squid<a class="hash" href="#squid" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/skwɪd/ &middot; <em>skwid</em></dd><dt>Русский</dt><dd>кальмар</dd><dt>Plural</dt><dd><em>squid</em> — unchanged &middot; <em>squids</em> for species or individuals</dd><dt>Countability</dt><dd>countable, and uncountable as food</dd><dt>Agreement</dt><dd>depends on meaning — <em>the squid is</em> / <em>the squid are</em></dd><dt>Pattern</dt><dd>zero plural, with a regular alternative</dd><dt>Group</dt><dd>3</dd><dt>Type</dt><dd>concrete</dd><dt>Variants</dt><dd><em>squid</em> is usual for catch and food; <em>squids</em> appears in biology</dd></dl>
+<p>The ten-armed marine mollusk, and its flesh as food.</p>
+<p><strong>1. The animal.</strong> (кальмар)</p>
+<ol><li>The boat landed two tons of <em>squid</em>.</li><li>Giant <em>squid</em> live far below the surface.</li><li>A <em>squid</em> can change color in an instant.</li></ol>
+<p><strong>2. As food.</strong> Usually on menus under the Italian name <em>calamari</em>. (кальмар как еда)</p>
+<ol start="4"><li>Fried <em>squid</em> came with a lemon wedge.</li><li>She won't eat <em>squid</em> or octopus.</li></ol>
+<dl class="fields"><dt>See also</dt><dd><a href="#shrimp">shrimp</a> &middot; <a href="06-latin-us-i.html#octopus">octopus</a></dd></dl>
+<hr>
+<h3 id="grouse">grouse<a class="hash" href="#grouse" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/ɡraʊs/ &middot; <em>grows</em> (rhymes with <em>house</em>)</dd><dt>Русский</dt><dd>тетерев, куропатка</dd><dt>Plural</dt><dd><em>grouse</em> — unchanged</dd><dt>Countability</dt><dd>countable</dd><dt>Agreement</dt><dd>depends on meaning — <em>the grouse is</em> / <em>the grouse are</em></dd><dt>Pattern</dt><dd>zero plural</dd><dt>Group</dt><dd>3</dd><dt>Type</dt><dd>concrete</dd><dt>Contrast</dt><dd>Despite rhyming with <em>mouse</em> and <em>louse</em>, this bird never becomes ✗ <em>grice</em>. It is also a verb meaning 'to complain', and that verb is perfectly regular: <em>grouses, groused, grousing</em>.</dd></dl>
+<p>The plump game bird of moors and northern forests.</p>
+<p><strong>1. The bird.</strong> (тетерев)</p>
+<ol><li>A <em>grouse</em> burst out of the heather.</li><li>They shot four <em>grouse</em> that afternoon.</li><li><em>Grouse</em> nest directly on the ground.</li></ol>
+<p><strong>2. As a verb — to grumble.</strong> Informal, always regular. (ворчать, жаловаться)</p>
+<ol start="4"><li>He <em>grouses</em> about the weather every single morning.</li><li>She <em>groused</em> all the way home.</li></ol>
+<dl class="fields"><dt>See also</dt><dd><a href="#quail">quail</a> &middot; <a href="01-vowel-change.html#mouse">mouse</a></dd></dl>
+<hr>
+<h3 id="quail">quail<a class="hash" href="#quail" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/kweɪl/ &middot; <em>kwayl</em></dd><dt>Русский</dt><dd>перепел</dd><dt>Plural</dt><dd><em>quail</em> — unchanged &middot; <em>quails</em> also correct</dd><dt>Countability</dt><dd>countable</dd><dt>Agreement</dt><dd>depends on meaning — <em>the quail is</em> / <em>the quail are</em></dd><dt>Pattern</dt><dd>zero plural, with a regular alternative</dd><dt>Group</dt><dd>3</dd><dt>Type</dt><dd>concrete</dd><dt>Contrast</dt><dd>The unrelated verb <em>quail</em> 'to lose courage' is regular: <em>quails, quailed, quailing</em>.</dd></dl>
+<p>The small ground-dwelling game bird.</p>
+<p><strong>1. The bird.</strong> (перепел)</p>
+<ol><li>A covey of <em>quail</em> scattered into the brush.</li><li>We roasted two <em>quail</em> for dinner.</li><li><em>Quail</em> are common along the fence lines here.</li><li>She spotted a single <em>quail</em> on the path.</li></ol>
+<p><strong>2. As a verb — to flinch.</strong> Formal or literary. (дрогнуть, оробеть)</p>
+<ol start="5"><li>He <em>quailed</em> under the judge's stare.</li></ol>
+<dl class="fields"><dt>See also</dt><dd><a href="#grouse">grouse</a></dd></dl>
+<hr>
+<h3 id="series">series<a class="hash" href="#series" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/ˈsɪriːz/ &middot; <em>SEER-eez</em></dd><dt>Русский</dt><dd>серия, ряд</dd><dt>Plural</dt><dd><em>series</em> — unchanged</dd><dt>Countability</dt><dd>countable</dd><dt>Agreement</dt><dd>depends on meaning — <em>this series is</em> / <em>these series are</em></dd><dt>Pattern</dt><dd>invariable, the <em>-s</em> is part of the stem</dd><dt>Group</dt><dd>3</dd><dt>Type</dt><dd>abstract</dd><dt>Contrast</dt><dd>The <em>-s</em> is <strong>not</strong> a plural ending — it belongs to the Latin stem. So a single one is <em>a series</em>, never ✗ <em>a serie</em>, and several are still <em>series</em>. The verb tells you which: <em>a series of talks <strong>is</strong> planned</em> versus <em>both series <strong>are</strong> sold out</em>.</dd></dl>
+<p>A number of things or events coming one after another; a set of related broadcasts or publications.</p>
+<p><strong>1. A sequence of related things or events.</strong> Takes a singular verb when the sequence is treated as one unit. (серия, ряд)</p>
+<ol><li>A <em>series</em> of small errors caused the outage.</li><li>This <em>series</em> of lectures is open to the public.</li><li>She published a <em>series</em> of essays on the subject.</li></ol>
+<p><strong>2. A set of television programs or books.</strong> (сериал; серия книг)</p>
+<ol start="4"><li>The <em>series</em> was canceled after two seasons.</li><li>Both <em>series</em> are streaming now.</li><li>He's read every book in the <em>series</em>.</li></ol>
+<p><strong>3. In sports — a set of games between the same teams.</strong> (серия матчей)</p>
+<ol start="7"><li>The <em>series</em> goes to whoever wins tonight.</li></ol>
+<dl class="fields"><dt>See also</dt><dd><a href="#species">species</a></dd></dl>
+<hr>
+<h3 id="species">species<a class="hash" href="#species" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/ˈspiːʃiːz/ &middot; <em>SPEE-sheez</em></dd><dt>Русский</dt><dd>вид (биологический)</dd><dt>Plural</dt><dd><em>species</em> — unchanged</dd><dt>Countability</dt><dd>countable</dd><dt>Agreement</dt><dd>depends on meaning — <em>this species is</em> / <em>these species are</em></dd><dt>Pattern</dt><dd>invariable, the <em>-s</em> is part of the stem</dd><dt>Group</dt><dd>3</dd><dt>Type</dt><dd>abstract</dd><dt>Contrast</dt><dd>✗ <em>a specie</em> is wrong — <em>specie</em> is a separate word meaning coined money. The singular is <em>a species</em>, with the <em>-s</em>.</dd></dl>
+<p>A group of organisms capable of interbreeding; more loosely, a kind or type.</p>
+<p><strong>1. A biological kind.</strong> (вид)</p>
+<ol><li>This <em>species</em> is found only on one island.</li><li>Over two hundred <em>species</em> were recorded in the survey.</li><li>The <em>species</em> has been extinct since the 1930s.</li><li>Several <em>species</em> of oak grow in the park.</li></ol>
+<p><strong>2. A type or sort, figuratively.</strong> Slightly formal. (разновидность)</p>
+<ol start="5"><li>It is a <em>species</em> of argument that convinces nobody.</li></ol>
+<dl class="fields"><dt>See also</dt><dd><a href="#series">series</a></dd></dl>
+<hr>
+<h3 id="aircraft">aircraft<a class="hash" href="#aircraft" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/ˈɛrkræft/ &middot; <em>AIR-kraft</em></dd><dt>Русский</dt><dd>самолёт, летательный аппарат</dd><dt>Plural</dt><dd><em>aircraft</em> — unchanged</dd><dt>Countability</dt><dd>countable</dd><dt>Agreement</dt><dd>depends on meaning — <em>the aircraft is</em> / <em>the aircraft are</em></dd><dt>Pattern</dt><dd>zero plural</dd><dt>Group</dt><dd>3</dd><dt>Type</dt><dd>concrete</dd><dt>Contrast</dt><dd>✗ <em>aircrafts</em> is wrong. Every <em>-craft</em> compound behaves the same way: <em>spacecraft</em>, <em>watercraft</em>, <em>hovercraft</em>. The standalone noun <em>craft</em> meaning 'a skill' is different and takes a regular plural: <em>traditional crafts</em>.</dd></dl>
+<p>A machine capable of flight.</p>
+<p><strong>1. A flying machine.</strong> (летательный аппарат)</p>
+<ol><li>The <em>aircraft</em> landed safely on one engine.</li><li>Six <em>aircraft</em> were parked on the apron.</li><li>All <em>aircraft</em> are grounded until the storm passes.</li><li>It is the largest <em>aircraft</em> ever built.</li><li>Two <em>aircraft</em> were reported missing.</li></ol>
+<dl class="fields"><dt>See also</dt><dd><a href="#craft">craft</a> &middot; <a href="#offspring">offspring</a></dd></dl>
+<hr>
+<h3 id="craft">craft<a class="hash" href="#craft" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/kræft/ &middot; <em>kraft</em></dd><dt>Русский</dt><dd>ремесло; судно</dd><dt>Plural</dt><dd><em>crafts</em> (skills, trades) &middot; <em>craft</em> — unchanged (boats, aircraft)</dd><dt>Countability</dt><dd>countable</dd><dt>Agreement</dt><dd>depends on meaning — <em>the craft is</em> / <em>the craft are</em></dd><dt>Pattern</dt><dd>regular in one sense, zero plural in the other</dd><dt>Group</dt><dd>3</dd><dt>Type</dt><dd>concrete and abstract</dd><dt>Variants</dt><dd><em>crafts</em> (a skill or trade) &middot; <em>craft</em> (a vessel)</dd><dt>Contrast</dt><dd>Two senses, two plurals. Skills and handmade trades are <em>crafts</em>; boats and flying machines are <em>craft</em>, unchanged. <em>Small craft warnings</em> means several boats, not several skills.</dd></dl>
+<p>A skill or trade; also a boat or other vessel.</p>
+<p><strong>1. A skill or handmade trade.</strong> Regular plural. (ремесло, ремёсла)</p>
+<ol><li>Weaving is a <em>craft</em> that takes years to learn.</li><li>The fair features traditional <em>crafts</em> from the region.</li><li>She takes her <em>craft</em> seriously.</li></ol>
+<p><strong>2. A vessel — boat or aircraft.</strong> Unchanged plural. (судно, суда)</p>
+<ol start="4"><li>Small <em>craft</em> were advised to stay in port.</li><li>A single <em>craft</em> approached the dock.</li></ol>
+<p><strong>3. Cunning, skill in deceiving.</strong> Uncountable, and the source of <em>crafty</em>. (хитрость)</p>
+<ol start="6"><li>He got the contract by pure <em>craft</em>.</li></ol>
+<dl class="fields"><dt>See also</dt><dd><a href="#aircraft">aircraft</a></dd></dl>
+<hr>
+<h3 id="offspring">offspring<a class="hash" href="#offspring" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/ˈɔːfsprɪŋ/ &middot; <em>AWF-spring</em></dd><dt>Русский</dt><dd>потомство, потомок</dd><dt>Plural</dt><dd><em>offspring</em> — unchanged</dd><dt>Countability</dt><dd>countable</dd><dt>Agreement</dt><dd>depends on meaning — <em>the offspring is</em> / <em>the offspring are</em></dd><dt>Pattern</dt><dd>zero plural</dd><dt>Group</dt><dd>3</dd><dt>Type</dt><dd>concrete</dd><dt>Contrast</dt><dd>✗ <em>offsprings</em> is wrong. The word covers any number, and about people it is either formal-scientific or jokey — ordinary speech says <em>children</em>.</dd></dl>
+<p>The young of a person, animal, or plant.</p>
+<p><strong>1. The young of an animal.</strong> Scientific and neutral. (потомство)</p>
+<ol><li>The pair produced four <em>offspring</em> in three years.</li><li>A single <em>offspring</em> survived the winter.</li><li>Their <em>offspring</em> are marked and released.</li></ol>
+<p><strong>2. Someone's children.</strong> Formal, or humorous. (отпрыски)</p>
+<ol start="4"><li>He arrived with his three <em>offspring</em> in tow.</li><li>The estate passed to her <em>offspring</em>.</li></ol>
+<p><strong>3. Something produced by something else.</strong> Figurative. (порождение)</p>
+<ol start="6"><li>The company is the <em>offspring</em> of two failed startups.</li></ol>
+<dl class="fields"><dt>See also</dt><dd><a href="#aircraft">aircraft</a></dd></dl>
+<hr>
+<h3 id="means">means<a class="hash" href="#means" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/miːnz/ &middot; <em>meenz</em></dd><dt>Русский</dt><dd>средство, способ; средства</dd><dt>Plural</dt><dd><em>means</em> — unchanged</dd><dt>Countability</dt><dd>countable</dd><dt>Agreement</dt><dd>depends on meaning — <em>one means is</em> / <em>several means are</em></dd><dt>Pattern</dt><dd>invariable, the <em>-s</em> is part of the stem</dd><dt>Group</dt><dd>3</dd><dt>Type</dt><dd>abstract</dd><dt>Contrast</dt><dd>✗ <em>a mean</em> is wrong in this sense — <em>a mean</em> is a mathematical average. Singular and plural are both <em>means</em>: <em>a means to an end</em>, <em>all available means</em>. The separate sense 'money, resources' is always plural.</dd></dl>
+<p>A method or instrument for achieving something; also, financial resources.</p>
+<p><strong>1. A method or way.</strong> Singular and plural identical; the article and verb disambiguate. (средство, способ)</p>
+<ol><li>Email is the fastest <em>means</em> of reaching her.</li><li>Every <em>means</em> was tried before they gave up.</li><li>All <em>means</em> of escape were blocked.</li><li>It was simply a <em>means</em> to an end.</li></ol>
+<p><strong>2. Financial resources.</strong> Always plural. (средства, достаток)</p>
+<ol start="5"><li>They live well beyond their <em>means</em>.</li><li>A family of modest <em>means</em> paid for the whole thing.</li></ol>
+<p><strong>3. In fixed expressions.</strong> (в устойчивых выражениях)</p>
+<ol start="7"><li>By all <em>means</em>, take the last one.</li><li>By no <em>means</em> is this settled.</li></ol>
+<dl class="fields"><dt>See also</dt><dd><a href="#series">series</a> &middot; <a href="#headquarters">headquarters</a></dd></dl>
+<hr>
+<h3 id="headquarters">headquarters<a class="hash" href="#headquarters" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/ˈhɛdkwɔːrtərz/ &middot; <em>HED-kwor-turz</em></dd><dt>Русский</dt><dd>штаб-квартира, главный офис</dd><dt>Plural</dt><dd><em>headquarters</em> — unchanged</dd><dt>Countability</dt><dd>countable</dd><dt>Agreement</dt><dd>either — <em>the headquarters is</em> (the building) / <em>are</em> (the people)</dd><dt>Pattern</dt><dd>invariable, always written with <em>-s</em></dd><dt>Group</dt><dd>3</dd><dt>Type</dt><dd>concrete</dd><dt>Contrast</dt><dd>✗ <em>a headquarter</em> does not exist as a noun. One organization has <em>a headquarters</em>, and two organizations have <em>two headquarters</em>. American usage leans toward a singular verb when the building is meant.</dd></dl>
+<p>The main office or command center of an organization.</p>
+<p><strong>1. The main office of an organization.</strong> (штаб-квартира)</p>
+<ol><li>The company's <em>headquarters</em> is in Denver.</li><li>Both <em>headquarters</em> were evacuated.</li><li>They moved <em>headquarters</em> twice in five years.</li><li>Police <em>headquarters</em> has issued a statement.</li></ol>
+<p><strong>2. A military command center.</strong> (штаб)</p>
+<ol start="5"><li>Orders came down from <em>headquarters</em> that morning.</li></ol>
+<dl class="fields"><dt>See also</dt><dd><a href="#means">means</a> &middot; <a href="#barracks">barracks</a></dd></dl>
+<hr>
+<h3 id="barracks">barracks<a class="hash" href="#barracks" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/ˈbærəks/ &middot; <em>BAR-uhks</em></dd><dt>Русский</dt><dd>казарма</dd><dt>Plural</dt><dd><em>barracks</em> — unchanged</dd><dt>Countability</dt><dd>countable</dd><dt>Agreement</dt><dd>either — <em>the barracks is</em> / <em>are</em></dd><dt>Pattern</dt><dd>invariable, always written with <em>-s</em></dd><dt>Group</dt><dd>3</dd><dt>Type</dt><dd>concrete</dd><dt>Contrast</dt><dd>✗ <em>a barrack</em> is rare and sounds wrong to American ears. One building is <em>a barracks</em>; several are <em>barracks</em>.</dd></dl>
+<p>A building or group of buildings housing soldiers.</p>
+<p><strong>1. Military housing.</strong> (казарма)</p>
+<ol><li>The new <em>barracks</em> was finished in the spring.</li><li>Three <em>barracks</em> stood along the eastern fence.</li><li>Recruits were confined to <em>barracks</em> for a week.</li><li>The old <em>barracks</em> have been converted into apartments.</li><li>He shared a <em>barracks</em> with forty other men.</li></ol>
+<dl class="fields"><dt>See also</dt><dd><a href="#headquarters">headquarters</a> &middot; <a href="#crossroads">crossroads</a></dd></dl>
+<hr>
+<h3 id="crossroads">crossroads<a class="hash" href="#crossroads" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/ˈkrɔːsroʊdz/ &middot; <em>KRAWS-rohdz</em></dd><dt>Русский</dt><dd>перекрёсток; распутье</dd><dt>Plural</dt><dd><em>crossroads</em> — unchanged</dd><dt>Countability</dt><dd>countable</dd><dt>Agreement</dt><dd>usually singular — <em>a crossroads is</em></dd><dt>Pattern</dt><dd>invariable, always written with <em>-s</em></dd><dt>Group</dt><dd>3</dd><dt>Type</dt><dd>concrete and abstract</dd><dt>Contrast</dt><dd>✗ <em>a crossroad</em> exists but is much rarer; the standard singular keeps the <em>-s</em>. The figurative sense is nearly always singular: <em>at a crossroads</em>.</dd></dl>
+<p>A place where roads meet; figuratively, a point of decision.</p>
+<p><strong>1. A road junction.</strong> (перекрёсток)</p>
+<ol><li>Turn left at the <em>crossroads</em>.</li><li>The village grew up around a <em>crossroads</em>.</li><li>Two <em>crossroads</em> farther on, you'll see the sign.</li></ol>
+<p><strong>2. A decisive moment.</strong> Figurative, and very common. (распутье, переломный момент)</p>
+<ol start="4"><li>The company is at a <em>crossroads</em>.</li><li>She found herself at a <em>crossroads</em> after graduation.</li><li>We stand at a <em>crossroads</em> in this negotiation.</li></ol>
+<dl class="fields"><dt>See also</dt><dd><a href="#barracks">barracks</a></dd></dl>
+<hr>
+<h3 id="corps">corps<a class="hash" href="#corps" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/kɔːr/ &middot; <em>kor</em> — the <em>ps</em> is silent, like <em>core</em></dd><dt>Русский</dt><dd>корпус (войсковой); служба</dd><dt>Plural</dt><dd><em>corps</em> /kɔːrz/ &middot; <em>korz</em> — spelled the same, pronounced with a /z/</dd><dt>Countability</dt><dd>countable</dd><dt>Agreement</dt><dd>either — <em>the corps is</em> / <em>are</em></dd><dt>Pattern</dt><dd>invariable in spelling, distinguished only in sound</dd><dt>Group</dt><dd>3</dd><dt>Type</dt><dd>concrete</dd><dt>Contrast</dt><dd>The trap is the pronunciation. Never say ✗ /kɔːrps/ — the <em>p</em> and <em>s</em> are both silent in the singular, so it sounds exactly like <em>core</em>. In the plural you add only a /z/. Do not confuse it with <em>corpse</em> /kɔːrps/, a dead body, where the <em>p</em> <strong>is</strong> pronounced.</dd></dl>
+<p>A branch of the military, or an organized body of people with a shared function.</p>
+<p><strong>1. A military formation or branch.</strong> (корпус, род войск)</p>
+<ol><li>He served in the Marine <em>Corps</em> for eight years.</li><li>Two <em>corps</em> advanced along the river.</li><li>The Army <em>Corps</em> of Engineers built the levee.</li></ol>
+<p><strong>2. An organized group with a common activity.</strong> (корпус, служба)</p>
+<ol start="4"><li>The press <em>corps</em> filed into the briefing room.</li><li>She joined the Peace <em>Corps</em> after college.</li><li>The diplomatic <em>corps</em> was invited to the reception.</li></ol>
+<dl class="fields"><dt>See also</dt><dd><a href="#headquarters">headquarters</a></dd></dl>
+<hr>
+<h3 id="dozen">dozen<a class="hash" href="#dozen" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/ˈdʌzən/ &middot; <em>DUZ-uhn</em></dd><dt>Русский</dt><dd>дюжина</dd><dt>Plural</dt><dd><em>dozen</em> after a number &middot; <em>dozens</em> when vague</dd><dt>Countability</dt><dd>countable</dd><dt>Agreement</dt><dd>plural verb — <em>two dozen eggs are enough</em></dd><dt>Pattern</dt><dd>zero plural after a numeral</dd><dt>Group</dt><dd>3</dd><dt>Type</dt><dd>abstract</dd><dt>Contrast</dt><dd>The rule is exact and catches everyone. After a specific number, no <em>-s</em> and no <em>of</em>: <em>three dozen eggs</em>. Without a number, add both: <em>dozens of eggs</em>. The same rule governs <em>hundred</em>, <em>thousand</em>, <em>million</em>, and <em>score</em>.</dd></dl>
+<p>A group of twelve.</p>
+<p><strong>1. After a specific number — unchanged, no <em>of</em>.</strong> (дюжина)</p>
+<ol><li>We need three <em>dozen</em> eggs for the recipe.</li><li>She bought two <em>dozen</em> roses.</li><li>A half <em>dozen</em> people were waiting.</li></ol>
+<p><strong>2. Without a number — plural, with <em>of</em>.</strong> (десятки)</p>
+<ol start="4"><li><em>Dozens</em> of complaints arrived that week.</li><li>He has <em>dozens</em> of excuses and none of them work.</li></ol>
+<p><strong>3. In fixed expressions.</strong> (в устойчивых выражениях)</p>
+<ol start="6"><li>Cheap sunglasses are a dime a <em>dozen</em> around here.</li><li>We talked nineteen to the <em>dozen</em> the whole drive.</li></ol>
+<dl class="fields"><dt>See also</dt><dd><a href="#hundred">hundred</a></dd></dl>
+<hr>
+<h3 id="hundred">hundred<a class="hash" href="#hundred" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/ˈhʌndrəd/ &middot; <em>HUN-druhd</em></dd><dt>Русский</dt><dd>сто, сотня</dd><dt>Plural</dt><dd><em>hundred</em> after a number &middot; <em>hundreds</em> when vague</dd><dt>Countability</dt><dd>countable</dd><dt>Agreement</dt><dd>plural verb — <em>two hundred people were there</em></dd><dt>Pattern</dt><dd>zero plural after a numeral</dd><dt>Group</dt><dd>3</dd><dt>Type</dt><dd>abstract</dd><dt>Contrast</dt><dd>Identical to <em>dozen</em>: ✗ <em>two hundreds people</em> and ✗ <em>hundred of people</em> are both wrong. Say <em>two hundred people</em> or <em>hundreds of people</em>. <em>Thousand</em>, <em>million</em>, and <em>billion</em> follow the same rule.</dd></dl>
+<p>The number 100.</p>
+<p><strong>1. After a specific number — unchanged, no <em>of</em>.</strong> (сто)</p>
+<ol><li>Two <em>hundred</em> people attended.</li><li>The repair cost five <em>hundred</em> dollars.</li><li>It's about three <em>hundred</em> miles from here.</li></ol>
+<p><strong>2. Without a number — plural, with <em>of</em>.</strong> (сотни)</p>
+<ol start="4"><li><em>Hundreds</em> of birds settled on the water.</li><li>She has read <em>hundreds</em> of these applications.</li></ol>
+<p><strong>3. In fixed expressions.</strong> (в устойчивых выражениях)</p>
+<ol start="6"><li>I'm feeling a <em>hundred</em> percent better today.</li><li>The odds were a <em>hundred</em> to one.</li></ol>
+<dl class="fields"><dt>See also</dt><dd><a href="#dozen">dozen</a></dd></dl></div></main>
+<button class="themebtn" id="themeBtn">Dark</button>
+<script>
+const tb=document.getElementById('themeBtn');
+function setTheme(x){document.documentElement.dataset.theme=x;tb.textContent=x==='dark'?'Light':'Dark';
+ try{localStorage.setItem('site-theme',x)}catch(e){}}
+tb.onclick=()=>setTheme(document.documentElement.dataset.theme==='dark'?'light':'dark');
+try{const s=localStorage.getItem('site-theme');
+ setTheme(s||(matchMedia('(prefers-color-scheme: dark)').matches?'dark':'light'))}catch(e){setTheme('light')}
+</script></body></html>

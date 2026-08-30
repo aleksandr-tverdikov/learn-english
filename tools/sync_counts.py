@@ -11,7 +11,7 @@ from lib import ROOT, parse_catalog_file
 from catalogs import CATALOGS
 
 os.chdir(ROOT)
-WORD = {'02-pronouns': 'pronouns', '06-prepositions': 'prepositions',
+WORD = {'01-nouns': 'nouns', '02-pronouns': 'pronouns', '06-prepositions': 'prepositions',
         '07-conjunctions': 'conjunctions', '08-interjections': 'interjections',
         '09-determiners': 'determiners', 'reporting-verbs': 'reporting verbs'}
 live, by_dir = {}, {}

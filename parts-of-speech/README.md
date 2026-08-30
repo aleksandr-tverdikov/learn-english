@@ -1,6 +1,6 @@
 # Parts of Speech
 
-The nine word classes of American English, one folder each. Every folder holds a grammar reference; six of them also hold a dictionary of the words in that class.
+The nine word classes of American English, one folder each. Every folder holds a grammar reference; seven of them also hold a dictionary of the words in that class.
 
 [← Back to the library](../README.md) &middot; [Pronunciation guide](../10-pronunciation/README.md)
 
@@ -8,7 +8,7 @@ The nine word classes of American English, one folder each. Every folder holds a
 
 | # | Class | Grammar reference | Dictionary |
 |---|---|---|---|
-| 1 | Nouns | [01-nouns](01-nouns/README.md) | — |
+| 1 | Nouns | [01-nouns](01-nouns/README.md) | **[308 entries](01-nouns/catalog/README.md)** &middot; [browse](01-nouns/catalog/browse.html) |
 | 2 | Pronouns | [02-pronouns](02-pronouns/README.md) | **[512 entries](02-pronouns/catalog/README.md)** &middot; [browse](02-pronouns/catalog/browse.html) |
 | 3 | Verbs | [03-verbs](03-verbs/README.md) | **[1,291 verbs](03-verbs/catalog/README.md)** &middot; [browse](03-verbs/catalog/browse.html) |
 | 4 | Adjectives | [04-adjectives](04-adjectives/README.md) | — |
@@ -24,7 +24,7 @@ Traditional grammar counts eight parts of speech and files *the*, *my*, *some*, 
 
 Every folder has a `README.md` covering the same ten sections: what the class does, its types, forms and inflection, position and word order, rules and patterns, common mistakes, American English notes, tricky cases, a quick reference, and practice exercises with answers.
 
-Five folders also have a `catalog/` subfolder — the **lexicon** rather than the grammar. These are the five **closed classes**, where the full list of words is finite and can actually be written down:
+Seven folders also have a `catalog/` subfolder — the **lexicon** rather than the grammar. Five of them are the **closed classes**, where the full list of words is finite and can actually be written down:
 
 ```
 07-conjunctions/
@@ -36,7 +36,7 @@ Five folders also have a `catalog/` subfolder — the **lexicon** rather than th
     data/            the same entries as JSON
 ```
 
-Nouns, adjectives, and adverbs get no dictionary because they are **open classes** — new ones enter the language constantly, so no list could ever be complete. The five closed classes each have one. **Verbs** are an open class, but the *irregular* ones are a finite set, so they get a catalog of their own.
+Adjectives and adverbs get no dictionary because they are **open classes** — new ones enter the language constantly, so no list could ever be complete. **Verbs** and **nouns** are open classes too, but the parts of them that *misbehave* are finite, and those are exactly what a learner has to memorize. So each gets a catalog of that finite part: for verbs, the irregular ones; for nouns, the irregular plurals, the uncountables, and the sets that force their own verb agreement. Neither catalog tries to list every verb or every noun, because neither could.
 
 ## Suggested reading order
 

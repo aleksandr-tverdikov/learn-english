@@ -1,0 +1,210 @@
+<!DOCTYPE html>
+<html lang="en"><head>
+<meta charset="utf-8"><meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Latin -um → -a</title>
+<style>
+:root{--bg:#faf9f7;--surface:#fff;--surface2:#f2f0ec;--border:#e2ded6;--text:#1a1815;
+--dim:#5f594f;--faint:#8a8377;--accent:#8a5a3b;--measure:72ch}
+@media(prefers-color-scheme:dark){:root{--bg:#14140f;--surface:#1d1d17;--surface2:#25251d;
+--border:#33332a;--text:#eeeae1;--dim:#a8a293;--faint:#7d776b;--accent:#d09b72}}
+:root[data-theme=dark]{--bg:#14140f;--surface:#1d1d17;--surface2:#25251d;--border:#33332a;
+--text:#eeeae1;--dim:#a8a293;--faint:#7d776b;--accent:#d09b72}
+:root[data-theme=light]{--bg:#faf9f7;--surface:#fff;--surface2:#f2f0ec;--border:#e2ded6;
+--text:#1a1815;--dim:#5f594f;--faint:#8a8377;--accent:#8a5a3b}
+*{box-sizing:border-box}
+body{margin:0;background:var(--bg);color:var(--text);
+font:17px/1.72 ui-serif,Georgia,"Iowan Old Style",Palatino,serif;-webkit-font-smoothing:antialiased}
+.wrap{max-width:min(var(--measure),100%);margin:0 auto;padding:0 22px}
+nav.crumb{border-bottom:1px solid var(--border);padding:13px 0;font-size:13.5px;
+font-family:-apple-system,BlinkMacSystemFont,"Segoe UI",sans-serif;position:sticky;top:0;background:var(--bg);z-index:20}
+nav.crumb .wrap{max-width:none;display:flex;gap:9px;align-items:center;flex-wrap:wrap}
+nav.crumb a{color:var(--dim);text-decoration:none}
+nav.crumb a:hover{color:var(--accent)}
+nav.crumb .sep{color:var(--faint)}
+main{padding:8px 0 80px}
+h1{font-size:clamp(28px,5vw,38px);line-height:1.15;letter-spacing:-.015em;margin:34px 0 18px}
+h2{font-size:25px;margin:46px 0 14px;letter-spacing:-.01em;padding-bottom:7px;border-bottom:1px solid var(--border)}
+h3{font-size:19px;margin:34px 0 10px;color:var(--accent)}
+h4{font-size:16px;margin:24px 0 8px;font-family:-apple-system,sans-serif}
+p{margin:0 0 16px}
+a{color:var(--accent)}
+.hash{opacity:0;margin-left:8px;font-weight:400;font-size:.65em;text-decoration:none;color:var(--faint)}
+h2:hover .hash,h3:hover .hash{opacity:1}
+blockquote{margin:0 0 20px;padding:14px 18px;background:var(--surface2);
+border-left:3px solid var(--accent);border-radius:0 8px 8px 0}
+blockquote p:last-child{margin-bottom:0}
+ol,ul{margin:0 0 18px;padding-left:26px}
+li{margin-bottom:8px}
+li>ul,li>ol{margin:8px 0 0}
+code{font-family:ui-monospace,SFMono-Regular,Menlo,Consolas,monospace;font-size:.87em;
+background:var(--surface2);padding:1px 5px;border-radius:4px}
+pre{background:var(--surface2);border:1px solid var(--border);border-radius:9px;
+padding:15px 17px;overflow-x:auto;margin:0 0 20px}
+pre code{background:none;padding:0;font-size:13px;line-height:1.6}
+.tw{overflow-x:auto;margin:0 0 22px;border:1px solid var(--border);border-radius:9px}
+table{border-collapse:collapse;width:100%;font-size:15px;
+font-family:-apple-system,BlinkMacSystemFont,"Segoe UI",sans-serif}
+th,td{padding:10px 14px;border-bottom:1px solid var(--border);vertical-align:top}
+th{background:var(--surface2);font-size:12px;text-transform:uppercase;
+letter-spacing:.06em;color:var(--dim);font-weight:700;white-space:nowrap}
+tbody tr:last-child td{border-bottom:none}
+hr{border:none;border-top:1px solid var(--border);margin:38px 0}
+details{background:var(--surface2);border:1px solid var(--border);border-radius:9px;
+padding:13px 17px;margin:0 0 20px}
+summary{cursor:pointer;font-weight:600;font-family:-apple-system,sans-serif;font-size:15px}
+details[open] summary{margin-bottom:12px}
+del{color:var(--faint)}
+dl.fields{margin:0 0 20px;padding:0}
+dl.fields dt{font-family:-apple-system,BlinkMacSystemFont,"Segoe UI",sans-serif;
+font-size:11px;letter-spacing:.11em;text-transform:uppercase;color:var(--faint);
+font-weight:700;margin:14px 0 4px}
+dl.fields dt:first-child{margin-top:0}
+dl.fields dd{margin:0;font-size:16px;color:var(--dim);line-height:1.62}
+dl.fields dd em{color:var(--text)}
+dl.fields dt.ru{color:var(--accent)}
+dl.fields dd strong{color:var(--text)}
+.toc{background:var(--surface2);border:1px solid var(--border);border-radius:10px;
+padding:16px 20px;margin:26px 0 34px;font-family:-apple-system,sans-serif;font-size:14px}
+.toc b{display:block;font-size:11px;letter-spacing:.12em;text-transform:uppercase;
+color:var(--faint);margin-bottom:9px}
+.toc a{display:block;padding:3px 0;color:var(--dim);text-decoration:none}
+.toc a:hover{color:var(--accent)}
+.themebtn{position:fixed;right:18px;bottom:18px;z-index:60;font-family:-apple-system,sans-serif;
+font-size:12.5px;font-weight:600;cursor:pointer;background:var(--surface);border:1px solid var(--border);
+border-radius:99px;padding:9px 16px;color:var(--text)}
+@media(max-width:600px){body{font-size:16px}.wrap{padding:0 17px}}
+</style></head><body>
+<nav class="crumb"><div class="wrap"><a href="../../../index.html">Learn English</a><span class="sep">/</span><a href="../../README.html">Parts of speech</a><span class="sep">/</span><a href="../README.html">01-nouns</a><span class="sep">/</span><span>catalog</span></div></nav>
+<main><div class="wrap"><h1 id="latin--um---a">Latin <em>-um</em> → <em>-a</em><a class="hash" href="#latin--um---a" aria-label="link">#</a></h1>
+<blockquote><p><em>Datum → data</em>, <em>medium → media</em>. The plural often ends up feeling like a singular — which is why <em>data is</em> and <em>media is</em> are now normal American English.</p></blockquote>
+<p><a href="../README.html">← The grammar of nouns</a> &middot; <a href="README.html">All groups</a></p>
+<p>Latin neuter nouns in <em>-um</em> took <em>-a</em> in the plural, and English borrowed many of them for scholarly and technical use. What makes this group interesting is not the ending but what happened afterward: because the <em>-a</em> form does not look plural to an English speaker, several of these plurals have <strong>quietly turned into singular mass nouns</strong>.</p>
+<p><em>Data</em> is the clearest case. In scientific writing it still takes a plural verb — <em>the data are inconsistent</em> — but in ordinary American English <em>the data is inconsistent</em> is now standard and unremarkable. <em>Media</em> has gone further: <em>the media is biased</em> is normal, and <em>mediums</em> has split off as a separate plural for fortune-tellers. <em>Agenda</em> has completed the journey — it is now a singular noun with the regular plural <em>agendas</em>, and its Latin singular <em>agendum</em> has vanished.</p>
+<p>Meanwhile many <em>-um</em> words never took the Latin plural at all: <em>album</em>, <em>stadium</em>, <em>museum</em>, <em>forum</em>, and <em>asylum</em> are all perfectly regular.</p>
+<hr>
+<h3 id="datum">datum<a class="hash" href="#datum" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/ˈdeɪtəm/ &middot; <em>DAY-tuhm</em></dd><dt>Русский</dt><dd>данные; исходная точка</dd><dt>Plural</dt><dd><em>data</em> /ˈdeɪtə/ &middot; <em>DAY-tuh</em> — also /ˈdætə/ <em>DAT-uh</em></dd><dt>Countability</dt><dd><em>data</em> is countable in science, uncountable in general use</dd><dt>Agreement</dt><dd>either — <em>the data are</em> (science) / <em>the data is</em> (general)</dd><dt>Pattern</dt><dd>Latin <em>-um</em> → <em>-a</em></dd><dt>Group</dt><dd>8</dd><dt>Type</dt><dd>abstract</dd><dt>Variants</dt><dd>both /ˈdeɪtə/ and /ˈdætə/ are standard in American English</dd><dt>Contrast</dt><dd>The singular <em>datum</em> is now rare outside surveying and statistics; almost nobody says <em>one datum</em>. For the plural, both verbs are defensible: journals still require <em>the data are</em>, while everyday and business English overwhelmingly says <em>the data is</em>. Neither is an error, but know your audience.</dd></dl>
+<p>Facts and figures collected for reference or analysis.</p>
+<p><strong>1. Information collected for analysis.</strong> Usually treated as a mass noun. (данные)</p>
+<ol><li>The <em>data</em> is stored on three separate servers.</li><li>All the <em>data</em> was lost in the crash.</li><li>We need more <em>data</em> before deciding.</li></ol>
+<p><strong>2. In scientific writing — a plural.</strong> (данные, мн. ч.)</p>
+<ol start="4"><li>The <em>data</em> are consistent with the hypothesis.</li><li>These <em>data</em> were collected over six years.</li></ol>
+<p><strong>3. A single fact — datum.</strong> Rare, technical. (единица данных; репер)</p>
+<ol start="6"><li>Each <em>datum</em> is timestamped at collection.</li><li>Elevations are measured from a fixed <em>datum</em>.</li></ol>
+<dl class="fields"><dt>See also</dt><dd><a href="#medium">medium</a> &middot; <a href="10-greek-on-a.html#criterion">criterion</a></dd></dl>
+<hr>
+<h3 id="medium">medium<a class="hash" href="#medium" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/ˈmiːdiəm/ &middot; <em>MEE-dee-uhm</em></dd><dt>Русский</dt><dd>средство, среда; медиум</dd><dt>Plural</dt><dd><em>media</em> /ˈmiːdiə/ (channels, materials) &middot; <em>mediums</em> (psychics, sizes)</dd><dt>Countability</dt><dd>countable</dd><dt>Agreement</dt><dd>either — <em>the media is</em> (the press as one body) / <em>are</em> (the outlets)</dd><dt>Pattern</dt><dd>Latin <em>-um</em> → <em>-a</em>, split by sense</dd><dt>Group</dt><dd>8</dd><dt>Type</dt><dd>concrete and abstract</dd><dt>Variants</dt><dd><em>media</em> (communication, art materials, biology) &middot; <em>mediums</em> (spiritualists, clothing sizes)</dd><dt>Contrast</dt><dd>The plural depends entirely on the sense. Channels of communication and artistic materials take <em>media</em>; people who claim to contact the dead, and shirt sizes, take <em>mediums</em>. When <em>media</em> means the press, American English treats it as singular: <em>the media is covering it closely</em>.</dd></dl>
+<p>A means of communication or expression; a substance something exists in; also a person who claims to contact spirits.</p>
+<p><strong>1. A channel of communication.</strong> Plural <em>media</em>, often treated as a singular mass noun. (средства массовой информации)</p>
+<ol><li>Television is still a powerful <em>medium</em>.</li><li>The <em>media</em> has moved on to the next story.</li><li>Social <em>media</em> changed how the campaign was run.</li></ol>
+<p><strong>2. A material an artist works in.</strong> (материал, техника)</p>
+<ol start="4"><li>Oil is her preferred <em>medium</em>.</li><li>He works across several <em>media</em>.</li></ol>
+<p><strong>3. A substance in which something grows or travels.</strong> Science. (среда)</p>
+<ol start="6"><li>The bacteria were grown in a nutrient <em>medium</em>.</li><li>Sound needs a <em>medium</em> to travel through.</li></ol>
+<p><strong>4. A person claiming to contact the dead.</strong> Plural <em>mediums</em>. (медиум)</p>
+<ol start="8"><li>Two <em>mediums</em> were hired for the show.</li></ol>
+<p><strong>5. A middle size or degree.</strong> (средний размер)</p>
+<ol start="9"><li>I'll take the <em>medium</em> in blue.</li></ol>
+<dl class="fields"><dt>See also</dt><dd><a href="#datum">datum</a></dd></dl>
+<hr>
+<h3 id="bacterium">bacterium<a class="hash" href="#bacterium" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/bækˈtɪriəm/ &middot; <em>bak-TEER-ee-uhm</em></dd><dt>Русский</dt><dd>бактерия</dd><dt>Plural</dt><dd><em>bacteria</em> /bækˈtɪriə/ &middot; <em>bak-TEER-ee-uh</em></dd><dt>Countability</dt><dd>countable</dd><dt>Agreement</dt><dd>plural verb in careful use — <em>bacteria are present</em></dd><dt>Pattern</dt><dd>Latin <em>-um</em> → <em>-a</em></dd><dt>Group</dt><dd>8</dd><dt>Type</dt><dd>concrete</dd><dt>Contrast</dt><dd>✗ <em>A bacteria</em> for one organism is extremely common in speech and still considered an error in writing — the singular is <em>bacterium</em>. Note that <em>bacteria</em> keeps its plural verb far more reliably than <em>data</em> does, because the singular is still in active use.</dd></dl>
+<p>A single-celled microorganism.</p>
+<p><strong>1. The organism.</strong> (бактерия)</p>
+<ol><li>This <em>bacterium</em> survives in boiling water.</li><li><em>Bacteria</em> are responsible for the smell.</li><li>Most <em>bacteria</em> in the gut are harmless.</li><li>A single <em>bacterium</em> can divide every twenty minutes.</li><li>The sample contained three species of <em>bacteria</em>.</li></ol>
+<dl class="fields"><dt>See also</dt><dd><a href="06-latin-us-i.html#fungus">fungus</a> &middot; <a href="07-latin-a-ae.html#amoeba">amoeba</a></dd></dl>
+<hr>
+<h3 id="curriculum">curriculum<a class="hash" href="#curriculum" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/kəˈrɪkjələm/ &middot; <em>kuh-RIK-yuh-luhm</em></dd><dt>Русский</dt><dd>учебная программа</dd><dt>Plural</dt><dd><em>curricula</em> /kəˈrɪkjələ/ — also <em>curriculums</em></dd><dt>Countability</dt><dd>countable</dd><dt>Agreement</dt><dd>plural verb — <em>the curricula were revised</em></dd><dt>Pattern</dt><dd>Latin <em>-um</em> → <em>-a</em></dd><dt>Group</dt><dd>8</dd><dt>Type</dt><dd>abstract</dd><dt>Variants</dt><dd><em>curricula</em> is commoner in education writing; <em>curriculums</em> is accepted</dd><dt>Contrast</dt><dd>Note the Latin phrase <em>curriculum vitae</em> — a résumé — whose plural is <em>curricula vitae</em>. Americans usually just say <em>CV</em> or <em>résumé</em>.</dd></dl>
+<p>The subjects taught by a school or in a program.</p>
+<p><strong>1. A course of study.</strong> (учебная программа)</p>
+<ol><li>The <em>curriculum</em> changes every four years.</li><li>Both <em>curricula</em> emphasize writing.</li><li>Music was cut from the <em>curriculum</em>.</li><li>State <em>curriculums</em> vary widely.</li><li>She helped design the new science <em>curriculum</em>.</li></ol>
+<dl class="fields"><dt>See also</dt><dd><a href="06-latin-us-i.html#syllabus">syllabus</a></dd></dl>
+<hr>
+<h3 id="memorandum">memorandum<a class="hash" href="#memorandum" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/ˌmɛməˈrændəm/ &middot; <em>mem-uh-RAN-duhm</em></dd><dt>Русский</dt><dd>меморандум, служебная записка</dd><dt>Plural</dt><dd><em>memoranda</em> /ˌmɛməˈrændə/ — also <em>memorandums</em></dd><dt>Countability</dt><dd>countable</dd><dt>Agreement</dt><dd>plural verb — <em>the memoranda were filed</em></dd><dt>Pattern</dt><dd>Latin <em>-um</em> → <em>-a</em></dd><dt>Group</dt><dd>8</dd><dt>Type</dt><dd>concrete</dd><dt>Variants</dt><dd>both plurals are correct; the shortened <em>memo</em> / <em>memos</em> is far commoner in speech</dd><dt>Contrast</dt><dd>In everyday American offices nobody says <em>memorandum</em> — they say <em>memo</em>. The full form survives in law and diplomacy, as in <em>memorandum of understanding</em>.</dd></dl>
+<p>A written record or communication, especially within an organization.</p>
+<p><strong>1. An official note.</strong> (меморандум)</p>
+<ol><li>The <em>memorandum</em> was circulated to all partners.</li><li>Internal <em>memoranda</em> were subpoenaed.</li><li>Both sides signed a <em>memorandum</em> of understanding.</li><li>She filed the <em>memorandums</em> by date.</li><li>A confidential <em>memorandum</em> leaked to the press.</li></ol>
+<dl class="fields"><dt>See also</dt><dd><a href="05-o-plurals.html#memo">memo</a></dd></dl>
+<hr>
+<h3 id="referendum">referendum<a class="hash" href="#referendum" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/ˌrɛfəˈrɛndəm/ &middot; <em>ref-uh-REN-duhm</em></dd><dt>Русский</dt><dd>референдум</dd><dt>Plural</dt><dd><em>referendums</em> — usual &middot; <em>referenda</em></dd><dt>Countability</dt><dd>countable</dd><dt>Agreement</dt><dd>plural verb — <em>both referendums failed</em></dd><dt>Pattern</dt><dd>Latin <em>-um</em> → <em>-a</em></dd><dt>Group</dt><dd>8</dd><dt>Type</dt><dd>abstract</dd><dt>Variants</dt><dd><em>referendums</em> is preferred in American English and in most style guides</dd><dt>Contrast</dt><dd>Grammarians argue that <em>referenda</em> is technically wrong because the Latin word is a gerund, not a neuter noun. In practice both appear; <em>referendums</em> is safer.</dd></dl>
+<p>A direct popular vote on a single question.</p>
+<p><strong>1. A public vote.</strong> (референдум)</p>
+<ol><li>The <em>referendum</em> passed by four points.</li><li>Two <em>referendums</em> are on the November ballot.</li><li>Voters rejected the <em>referendum</em>.</li><li>Several <em>referenda</em> were held that decade.</li></ol>
+<p><strong>2. Figuratively — a test of public opinion.</strong> (проверка общественного мнения)</p>
+<ol start="5"><li>The election became a <em>referendum</em> on the mayor.</li></ol>
+<dl class="fields"><dt>See also</dt><dd><a href="#millennium">millennium</a></dd></dl>
+<hr>
+<h3 id="millennium">millennium<a class="hash" href="#millennium" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/mɪˈlɛniəm/ &middot; <em>mih-LEN-ee-uhm</em></dd><dt>Русский</dt><dd>тысячелетие</dd><dt>Plural</dt><dd><em>millennia</em> /mɪˈlɛniə/ — also <em>millenniums</em></dd><dt>Countability</dt><dd>countable</dd><dt>Agreement</dt><dd>plural verb — <em>three millennia have passed</em></dd><dt>Pattern</dt><dd>Latin <em>-um</em> → <em>-a</em></dd><dt>Group</dt><dd>8</dd><dt>Type</dt><dd>abstract</dd><dt>Variants</dt><dd><em>millennia</em> is much commoner</dd><dt>Contrast</dt><dd>Two <em>l</em>'s and two <em>n</em>'s — the commonest misspelling in the word is ✗ <em>millenium</em>. It comes from <em>mille</em> 'thousand' and <em>annus</em> 'year'.</dd></dl>
+<p>A period of a thousand years.</p>
+<p><strong>1. A thousand-year period.</strong> (тысячелетие)</p>
+<ol><li>The site has been occupied for two <em>millennia</em>.</li><li>A new <em>millennium</em> began in 2001.</li><li>These traditions go back <em>millennia</em>.</li><li>The stone has stood here for three <em>millennia</em>.</li><li>Historians divide the <em>millennium</em> into four periods.</li></ol>
+<dl class="fields"><dt>See also</dt><dd><a href="#referendum">referendum</a></dd></dl>
+<hr>
+<h3 id="stratum">stratum<a class="hash" href="#stratum" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/ˈstreɪtəm/ &middot; <em>STRAY-tuhm</em> — also /ˈstrætəm/</dd><dt>Русский</dt><dd>слой, пласт</dd><dt>Plural</dt><dd><em>strata</em> /ˈstreɪtə/ &middot; <em>STRAY-tuh</em></dd><dt>Countability</dt><dd>countable</dd><dt>Agreement</dt><dd>plural verb — <em>the strata are clearly visible</em></dd><dt>Pattern</dt><dd>Latin <em>-um</em> → <em>-a</em></dd><dt>Group</dt><dd>8</dd><dt>Type</dt><dd>concrete and abstract</dd><dt>Variants</dt><dd>✗ <em>stratums</em> is rare and best avoided</dd><dt>Contrast</dt><dd>✗ <em>A strata</em> for one layer is a common error — the singular is <em>stratum</em>. The related <em>stratosphere</em> comes from the same root.</dd></dl>
+<p>A layer, especially of rock or of society.</p>
+<p><strong>1. A layer of rock or soil.</strong> Geology. (пласт, слой)</p>
+<ol><li>Each <em>stratum</em> represents thousands of years.</li><li>The <em>strata</em> are tilted almost vertically.</li><li>Fossils appear in the lower <em>strata</em>.</li></ol>
+<p><strong>2. A level of society.</strong> Figurative. (слой общества)</p>
+<ol start="4"><li>The policy affects every <em>stratum</em> of society.</li><li>All social <em>strata</em> were represented in the survey.</li></ol>
+<dl class="fields"><dt>See also</dt><dd><a href="#erratum">erratum</a></dd></dl>
+<hr>
+<h3 id="erratum">erratum<a class="hash" href="#erratum" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/ɪˈrɑːtəm/ &middot; <em>ih-RAH-tuhm</em> — also /ɪˈreɪtəm/</dd><dt>Русский</dt><dd>опечатка, список опечаток</dd><dt>Plural</dt><dd><em>errata</em> /ɪˈrɑːtə/</dd><dt>Countability</dt><dd>countable</dd><dt>Agreement</dt><dd>plural verb — <em>the errata are listed at the back</em></dd><dt>Pattern</dt><dd>Latin <em>-um</em> → <em>-a</em></dd><dt>Group</dt><dd>8</dd><dt>Type</dt><dd>concrete</dd><dt>Variants</dt><dd>✗ <em>erratums</em> is not used</dd><dt>Contrast</dt><dd>In practice the word appears almost only in the plural, and often as the fixed phrase <em>errata sheet</em> — the slip of corrections tucked into a printed book.</dd></dl>
+<p>An error in printing or writing, listed as a correction.</p>
+<p><strong>1. A published correction.</strong> (опечатка)</p>
+<ol><li>A single <em>erratum</em> was noted in the second printing.</li><li>The <em>errata</em> are listed on the last page.</li><li>The publisher issued an <em>errata</em> sheet.</li><li>Twelve <em>errata</em> were found after publication.</li><li>Each <em>erratum</em> gives the page and the corrected text.</li></ol>
+<dl class="fields"><dt>See also</dt><dd><a href="#stratum">stratum</a> &middot; <a href="#addendum">addendum</a></dd></dl>
+<hr>
+<h3 id="addendum">addendum<a class="hash" href="#addendum" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/əˈdɛndəm/ &middot; <em>uh-DEN-duhm</em></dd><dt>Русский</dt><dd>дополнение, приложение</dd><dt>Plural</dt><dd><em>addenda</em> /əˈdɛndə/ — also <em>addendums</em></dd><dt>Countability</dt><dd>countable</dd><dt>Agreement</dt><dd>plural verb — <em>the addenda were attached</em></dd><dt>Pattern</dt><dd>Latin <em>-um</em> → <em>-a</em></dd><dt>Group</dt><dd>8</dd><dt>Type</dt><dd>concrete</dd><dt>Variants</dt><dd><em>addenda</em> is commoner in formal and legal writing</dd></dl>
+<p>Something added, especially to a document or book.</p>
+<p><strong>1. An added section or clause.</strong> (дополнение)</p>
+<ol><li>The contract includes a two-page <em>addendum</em>.</li><li>Both <em>addenda</em> were signed separately.</li><li>An <em>addendum</em> clarifies the delivery terms.</li><li>Several <em>addendums</em> were added over the years.</li><li>The <em>addenda</em> appear after the index.</li></ol>
+<dl class="fields"><dt>See also</dt><dd><a href="#erratum">erratum</a> &middot; <a href="11-ex-ix-ices.html#appendix">appendix</a></dd></dl>
+<hr>
+<h3 id="symposium">symposium<a class="hash" href="#symposium" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/sɪmˈpoʊziəm/ &middot; <em>sim-POH-zee-uhm</em></dd><dt>Русский</dt><dd>симпозиум</dd><dt>Plural</dt><dd><em>symposia</em> /sɪmˈpoʊziə/ — also <em>symposiums</em></dd><dt>Countability</dt><dd>countable</dd><dt>Agreement</dt><dd>plural verb — <em>both symposia were canceled</em></dd><dt>Pattern</dt><dd>Latin <em>-um</em> → <em>-a</em></dd><dt>Group</dt><dd>8</dd><dt>Type</dt><dd>abstract</dd><dt>Variants</dt><dd>both plurals are standard in American academic use</dd><dt>Contrast</dt><dd>From Greek by way of Latin, originally a drinking party — literally 'drinking together'.</dd></dl>
+<p>An academic conference or meeting on a particular subject.</p>
+<p><strong>1. A scholarly meeting.</strong> (симпозиум)</p>
+<ol><li>She presented at a <em>symposium</em> in Chicago.</li><li>Two <em>symposia</em> are scheduled for the fall.</li><li>The <em>symposium</em> runs for three days.</li><li>Papers from both <em>symposiums</em> will be published.</li><li>A <em>symposium</em> on climate policy opens Monday.</li></ol>
+<dl class="fields"><dt>See also</dt><dd><a href="#forum">forum</a></dd></dl>
+<hr>
+<h3 id="forum">forum<a class="hash" href="#forum" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/ˈfɔːrəm/ &middot; <em>FOR-uhm</em></dd><dt>Русский</dt><dd>форум</dd><dt>Plural</dt><dd><em>forums</em> — usual &middot; <em>fora</em> in classical contexts</dd><dt>Countability</dt><dd>countable</dd><dt>Agreement</dt><dd>plural verb — <em>the forums are moderated</em></dd><dt>Pattern</dt><dd>regular <em>-s</em> despite the Latin origin</dd><dt>Group</dt><dd>8 (trap)</dd><dt>Type</dt><dd>concrete and abstract</dd><dt>Variants</dt><dd><em>forums</em> everywhere in modern English; <em>fora</em> only of Roman marketplaces</dd><dt>Contrast</dt><dd>Although Latin, this word takes a regular English plural in every ordinary use. <em>Fora</em> sounds precious outside archaeology. The same is true of <em>album → albums</em>, <em>stadium → stadiums</em>, <em>museum → museums</em>, and <em>asylum → asylums</em>.</dd></dl>
+<p>A place or occasion for public discussion; also an online discussion board.</p>
+<p><strong>1. A place for public discussion.</strong> (форум)</p>
+<ol><li>The town hall is a <em>forum</em> for local complaints.</li><li>Several public <em>forums</em> were held before the vote.</li><li>This is not the right <em>forum</em> for that argument.</li></ol>
+<p><strong>2. An online discussion board.</strong> (интернет-форум)</p>
+<ol start="4"><li>He posts on three different <em>forums</em>.</li><li>The <em>forums</em> are moderated by volunteers.</li></ol>
+<p><strong>3. The public square of a Roman town.</strong> Plural <em>fora</em>. (форум, площадь)</p>
+<ol start="6"><li>The imperial <em>fora</em> lie north of the Colosseum.</li></ol>
+<dl class="fields"><dt>See also</dt><dd><a href="#symposium">symposium</a> &middot; <a href="#stadium">stadium</a></dd></dl>
+<hr>
+<h3 id="stadium">stadium<a class="hash" href="#stadium" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/ˈsteɪdiəm/ &middot; <em>STAY-dee-uhm</em></dd><dt>Русский</dt><dd>стадион</dd><dt>Plural</dt><dd><em>stadiums</em> — usual &middot; <em>stadia</em> rarely</dd><dt>Countability</dt><dd>countable</dd><dt>Agreement</dt><dd>plural verb — <em>both stadiums were sold out</em></dd><dt>Pattern</dt><dd>regular <em>-s</em> despite the Latin origin</dd><dt>Group</dt><dd>8 (trap)</dd><dt>Type</dt><dd>concrete</dd><dt>Variants</dt><dd><em>stadiums</em> is standard American English; <em>stadia</em> is chiefly British and technical</dd><dt>Contrast</dt><dd>✗ <em>Stadia</em> sounds odd to American ears in ordinary use, though it appears in architecture writing. Use <em>stadiums</em>.</dd></dl>
+<p>A large enclosed sports ground with seating.</p>
+<p><strong>1. The building.</strong> (стадион)</p>
+<ol><li>The <em>stadium</em> holds seventy thousand people.</li><li>Both <em>stadiums</em> were built for the same tournament.</li><li>They're tearing down the old <em>stadium</em>.</li><li>Four new <em>stadiums</em> opened that year.</li><li>The <em>stadium</em> was half empty by the fourth quarter.</li></ol>
+<dl class="fields"><dt>See also</dt><dd><a href="#forum">forum</a> &middot; <a href="#museum">museum</a></dd></dl>
+<hr>
+<h3 id="museum">museum<a class="hash" href="#museum" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/mjuˈziːəm/ &middot; <em>myoo-ZEE-uhm</em></dd><dt>Русский</dt><dd>музей</dd><dt>Plural</dt><dd><em>museums</em> /mjuˈziːəmz/ — regular</dd><dt>Countability</dt><dd>countable</dd><dt>Agreement</dt><dd>plural verb — <em>the museums are free on Sundays</em></dd><dt>Pattern</dt><dd>regular <em>-s</em> despite the Latin origin</dd><dt>Group</dt><dd>8 (trap)</dd><dt>Type</dt><dd>concrete</dd><dt>Contrast</dt><dd>✗ <em>Musea</em> is never used. Note the stress: <em>myoo-ZEE-uhm</em>, on the second syllable, not ✗ <em>MYOO-zee-uhm</em>.</dd></dl>
+<p>A building where objects of interest are displayed.</p>
+<p><strong>1. The institution.</strong> (музей)</p>
+<ol><li>The <em>museum</em> opens at ten.</li><li>All the city <em>museums</em> are free on the first Sunday.</li><li>She works at a natural history <em>museum</em>.</li><li>Both <em>museums</em> closed for renovation.</li><li>The painting moved to a private <em>museum</em>.</li></ol>
+<dl class="fields"><dt>See also</dt><dd><a href="#stadium">stadium</a> &middot; <a href="#forum">forum</a></dd></dl></div></main>
+<button class="themebtn" id="themeBtn">Dark</button>
+<script>
+const tb=document.getElementById('themeBtn');
+function setTheme(x){document.documentElement.dataset.theme=x;tb.textContent=x==='dark'?'Light':'Dark';
+ try{localStorage.setItem('site-theme',x)}catch(e){}}
+tb.onclick=()=>setTheme(document.documentElement.dataset.theme==='dark'?'light':'dark');
+try{const s=localStorage.getItem('site-theme');
+ setTheme(s||(matchMedia('(prefers-color-scheme: dark)').matches?'dark':'light'))}catch(e){setTheme('light')}
+</script></body></html>

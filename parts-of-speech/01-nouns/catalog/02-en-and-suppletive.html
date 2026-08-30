@@ -1,0 +1,157 @@
+<!DOCTYPE html>
+<html lang="en"><head>
+<meta charset="utf-8"><meta name="viewport" content="width=device-width, initial-scale=1">
+<title>The -en plurals and the odd ones left over</title>
+<style>
+:root{--bg:#faf9f7;--surface:#fff;--surface2:#f2f0ec;--border:#e2ded6;--text:#1a1815;
+--dim:#5f594f;--faint:#8a8377;--accent:#8a5a3b;--measure:72ch}
+@media(prefers-color-scheme:dark){:root{--bg:#14140f;--surface:#1d1d17;--surface2:#25251d;
+--border:#33332a;--text:#eeeae1;--dim:#a8a293;--faint:#7d776b;--accent:#d09b72}}
+:root[data-theme=dark]{--bg:#14140f;--surface:#1d1d17;--surface2:#25251d;--border:#33332a;
+--text:#eeeae1;--dim:#a8a293;--faint:#7d776b;--accent:#d09b72}
+:root[data-theme=light]{--bg:#faf9f7;--surface:#fff;--surface2:#f2f0ec;--border:#e2ded6;
+--text:#1a1815;--dim:#5f594f;--faint:#8a8377;--accent:#8a5a3b}
+*{box-sizing:border-box}
+body{margin:0;background:var(--bg);color:var(--text);
+font:17px/1.72 ui-serif,Georgia,"Iowan Old Style",Palatino,serif;-webkit-font-smoothing:antialiased}
+.wrap{max-width:min(var(--measure),100%);margin:0 auto;padding:0 22px}
+nav.crumb{border-bottom:1px solid var(--border);padding:13px 0;font-size:13.5px;
+font-family:-apple-system,BlinkMacSystemFont,"Segoe UI",sans-serif;position:sticky;top:0;background:var(--bg);z-index:20}
+nav.crumb .wrap{max-width:none;display:flex;gap:9px;align-items:center;flex-wrap:wrap}
+nav.crumb a{color:var(--dim);text-decoration:none}
+nav.crumb a:hover{color:var(--accent)}
+nav.crumb .sep{color:var(--faint)}
+main{padding:8px 0 80px}
+h1{font-size:clamp(28px,5vw,38px);line-height:1.15;letter-spacing:-.015em;margin:34px 0 18px}
+h2{font-size:25px;margin:46px 0 14px;letter-spacing:-.01em;padding-bottom:7px;border-bottom:1px solid var(--border)}
+h3{font-size:19px;margin:34px 0 10px;color:var(--accent)}
+h4{font-size:16px;margin:24px 0 8px;font-family:-apple-system,sans-serif}
+p{margin:0 0 16px}
+a{color:var(--accent)}
+.hash{opacity:0;margin-left:8px;font-weight:400;font-size:.65em;text-decoration:none;color:var(--faint)}
+h2:hover .hash,h3:hover .hash{opacity:1}
+blockquote{margin:0 0 20px;padding:14px 18px;background:var(--surface2);
+border-left:3px solid var(--accent);border-radius:0 8px 8px 0}
+blockquote p:last-child{margin-bottom:0}
+ol,ul{margin:0 0 18px;padding-left:26px}
+li{margin-bottom:8px}
+li>ul,li>ol{margin:8px 0 0}
+code{font-family:ui-monospace,SFMono-Regular,Menlo,Consolas,monospace;font-size:.87em;
+background:var(--surface2);padding:1px 5px;border-radius:4px}
+pre{background:var(--surface2);border:1px solid var(--border);border-radius:9px;
+padding:15px 17px;overflow-x:auto;margin:0 0 20px}
+pre code{background:none;padding:0;font-size:13px;line-height:1.6}
+.tw{overflow-x:auto;margin:0 0 22px;border:1px solid var(--border);border-radius:9px}
+table{border-collapse:collapse;width:100%;font-size:15px;
+font-family:-apple-system,BlinkMacSystemFont,"Segoe UI",sans-serif}
+th,td{padding:10px 14px;border-bottom:1px solid var(--border);vertical-align:top}
+th{background:var(--surface2);font-size:12px;text-transform:uppercase;
+letter-spacing:.06em;color:var(--dim);font-weight:700;white-space:nowrap}
+tbody tr:last-child td{border-bottom:none}
+hr{border:none;border-top:1px solid var(--border);margin:38px 0}
+details{background:var(--surface2);border:1px solid var(--border);border-radius:9px;
+padding:13px 17px;margin:0 0 20px}
+summary{cursor:pointer;font-weight:600;font-family:-apple-system,sans-serif;font-size:15px}
+details[open] summary{margin-bottom:12px}
+del{color:var(--faint)}
+dl.fields{margin:0 0 20px;padding:0}
+dl.fields dt{font-family:-apple-system,BlinkMacSystemFont,"Segoe UI",sans-serif;
+font-size:11px;letter-spacing:.11em;text-transform:uppercase;color:var(--faint);
+font-weight:700;margin:14px 0 4px}
+dl.fields dt:first-child{margin-top:0}
+dl.fields dd{margin:0;font-size:16px;color:var(--dim);line-height:1.62}
+dl.fields dd em{color:var(--text)}
+dl.fields dt.ru{color:var(--accent)}
+dl.fields dd strong{color:var(--text)}
+.toc{background:var(--surface2);border:1px solid var(--border);border-radius:10px;
+padding:16px 20px;margin:26px 0 34px;font-family:-apple-system,sans-serif;font-size:14px}
+.toc b{display:block;font-size:11px;letter-spacing:.12em;text-transform:uppercase;
+color:var(--faint);margin-bottom:9px}
+.toc a{display:block;padding:3px 0;color:var(--dim);text-decoration:none}
+.toc a:hover{color:var(--accent)}
+.themebtn{position:fixed;right:18px;bottom:18px;z-index:60;font-family:-apple-system,sans-serif;
+font-size:12.5px;font-weight:600;cursor:pointer;background:var(--surface);border:1px solid var(--border);
+border-radius:99px;padding:9px 16px;color:var(--text)}
+@media(max-width:600px){body{font-size:16px}.wrap{padding:0 17px}}
+</style></head><body>
+<nav class="crumb"><div class="wrap"><a href="../../../index.html">Learn English</a><span class="sep">/</span><a href="../../README.html">Parts of speech</a><span class="sep">/</span><a href="../README.html">01-nouns</a><span class="sep">/</span><span>catalog</span></div></nav>
+<main><div class="wrap"><h1 id="the--en-plurals-and-the-odd-ones-left-over">The <em>-en</em> plurals and the odd ones left over<a class="hash" href="#the--en-plurals-and-the-odd-ones-left-over" aria-label="link">#</a></h1>
+<blockquote><p><em>Child → children</em>, <em>ox → oxen</em>, and a handful of nouns whose plural is a different word entirely: <em>person → people</em>, <em>die → dice</em>, <em>penny → pence</em>.</p></blockquote>
+<p><a href="../README.html">← The grammar of nouns</a> &middot; <a href="README.html">All groups</a></p>
+<p>Old English had a whole class of nouns that made their plural with <em>-an</em>. Modern English has <strong>three survivors</strong> — <em>children</em>, <em>oxen</em>, and the specialized <em>brethren</em> — and even those are not clean: <em>children</em> is a double plural, <em>-r</em> from the old plural plus <em>-en</em> added on top when the original ending stopped being recognizable.</p>
+<p>Grouped with them here are the <strong>suppletive</strong> plurals, where the plural is not a modified form of the singular but a completely different word. <em>Person → people</em> is the one that matters daily; <em>die → dice</em> and <em>penny → pence</em> are narrower but catch learners because the "regular" forms also exist with different meanings.</p>
+<hr>
+<h3 id="child">child<a class="hash" href="#child" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/tʃaɪld/ &middot; <em>chylde</em></dd><dt>Русский</dt><dd>ребёнок</dd><dt>Plural</dt><dd><em>children</em> /ˈtʃɪldrən/ &middot; <em>CHIL-druhn</em></dd><dt>Countability</dt><dd>countable</dd><dt>Agreement</dt><dd>plural verb — <em>the children are asleep</em></dd><dt>Pattern</dt><dd><em>-ren</em> (a double plural)</dd><dt>Group</dt><dd>2</dd><dt>Type</dt><dd>concrete</dd><dt>Contrast</dt><dd>The vowel shortens in the plural: singular /aɪ/ as in <em>mild</em>, plural /ɪ/ as in <em>chill</em>. Saying ✗ /ˈtʃaɪldrən/ is the commonest learner error. ✗ <em>childs</em> and ✗ <em>childrens</em> are both wrong — the possessive is <em>children's</em>.</dd></dl>
+<p>A young human, or anyone's son or daughter at any age.</p>
+<p><strong>1. A young human being.</strong> (ребёнок)</p>
+<ol><li>The <em>child</em> fell asleep in the car.</li><li>Six <em>children</em> were playing in the yard.</li><li>She has been teaching young <em>children</em> for twenty years.</li></ol>
+<p><strong>2. A son or daughter, regardless of age.</strong> Here <em>child</em> says nothing about age — a sixty-year-old is still someone's child. (сын или дочь)</p>
+<ol start="4"><li>Both of their <em>children</em> live overseas now.</li><li>He is the only <em>child</em> of a famous architect.</li></ol>
+<p><strong>3. Someone shaped by a particular time or place.</strong> Figurative, usually followed by <em>of</em>. (дитя, порождение)</p>
+<ol start="6"><li>She's a <em>child</em> of the nineties and it shows.</li><li>The whole design is a <em>child</em> of its era.</li></ol>
+<dl class="fields"><dt>See also</dt><dd><a href="#person">person</a></dd></dl>
+<hr>
+<h3 id="ox">ox<a class="hash" href="#ox" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/ɑːks/ &middot; <em>ahks</em></dd><dt>Русский</dt><dd>вол, бык</dd><dt>Plural</dt><dd><em>oxen</em> /ˈɑːksən/ &middot; <em>AHK-suhn</em></dd><dt>Countability</dt><dd>countable</dd><dt>Agreement</dt><dd>plural verb — <em>the oxen were yoked together</em></dd><dt>Pattern</dt><dd><em>-en</em></dd><dt>Group</dt><dd>2</dd><dt>Type</dt><dd>concrete</dd><dt>Contrast</dt><dd>✗ <em>oxes</em> is wrong. This is the last fully regular <em>-en</em> plural in the language. Note that <em>box → boxes</em> and <em>fox → foxes</em> are perfectly regular — only <em>ox</em> takes <em>-en</em>.</dd></dl>
+<p>A domesticated bull used for pulling loads; more broadly, cattle of the genus <em>Bos</em>.</p>
+<p><strong>1. The draft animal.</strong> (вол)</p>
+<ol><li>A single <em>ox</em> can pull an astonishing weight.</li><li>Two <em>oxen</em> dragged the cart out of the mud.</li><li>The museum has a wagon with a full <em>oxen</em> team.</li></ol>
+<p><strong>2. In compounds and comparisons.</strong> (в сравнениях)</p>
+<ol start="4"><li>He's as strong as an <em>ox</em>.</li><li>The <em>oxen</em> were yoked in pairs before dawn.</li></ol>
+<dl class="fields"><dt>See also</dt><dd><a href="#child">child</a></dd></dl>
+<hr>
+<h3 id="brother">brother<a class="hash" href="#brother" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/ˈbrʌðər/ &middot; <em>BRUH-thur</em></dd><dt>Русский</dt><dd>брат</dd><dt>Plural</dt><dd><em>brothers</em> /ˈbrʌðərz/ &middot; also <em>brethren</em> /ˈbrɛðrɪn/ in religious use</dd><dt>Countability</dt><dd>countable</dd><dt>Agreement</dt><dd>plural verb — <em>my brothers live nearby</em></dd><dt>Pattern</dt><dd>regular <em>-s</em>, with an archaic <em>-en</em> plural surviving in one sense</dd><dt>Group</dt><dd>2</dd><dt>Type</dt><dd>concrete</dd><dt>Variants</dt><dd><em>brothers</em> (family) &middot; <em>brethren</em> (a religious or fraternal body)</dd><dt>Contrast</dt><dd>The two plurals are <strong>not</strong> interchangeable. Family members are always <em>brothers</em>. <em>Brethren</em> refers to fellow members of a church, order, or society, and using it of your siblings sounds like a joke.</dd></dl>
+<p>A male sibling; by extension, a fellow member of a group.</p>
+<p><strong>1. A male sibling.</strong> Always <em>brothers</em> in the plural. (брат)</p>
+<ol><li>My <em>brother</em> teaches high school chemistry.</li><li>She has three <em>brothers</em> and no sisters.</li><li>The two <em>brothers</em> opened a restaurant together.</li></ol>
+<p><strong>2. A fellow member of a community.</strong> Of a church, union, or fraternity. This is the sense that keeps the old plural <em>brethren</em>. (собрат)</p>
+<ol start="4"><li>The <em>brethren</em> gathered for the evening service.</li><li>He addressed his union <em>brothers</em> and sisters.</li></ol>
+<p><strong>3. As a form of address, and as an exclamation.</strong> Informal American speech. (брат, братан; ну и ну)</p>
+<ol start="6"><li>Thanks, <em>brother</em> — I owe you one.</li><li>Oh <em>brother</em>, here we go again.</li></ol>
+<dl class="fields"><dt>See also</dt><dd><a href="#child">child</a></dd></dl>
+<hr>
+<h3 id="person">person<a class="hash" href="#person" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/ˈpɜːrsən/ &middot; <em>PUR-suhn</em></dd><dt>Русский</dt><dd>человек</dd><dt>Plural</dt><dd><em>people</em> /ˈpiːpəl/ &middot; also <em>persons</em> /ˈpɜːrsənz/ in legal and official use</dd><dt>Countability</dt><dd>countable</dd><dt>Agreement</dt><dd>plural verb — <em>people are waiting</em></dd><dt>Pattern</dt><dd>suppletive — the plural is a different word</dd><dt>Group</dt><dd>2</dd><dt>Type</dt><dd>concrete</dd><dt>Variants</dt><dd><em>people</em> (normal) &middot; <em>persons</em> (legal, official, signage)</dd><dt>Contrast</dt><dd><em>People</em> is the everyday plural of <em>person</em>. <em>Persons</em> is not wrong, but it is confined to law, police reports, and signs — <em>maximum occupancy 40 persons</em>. Separately, <em>people</em> has its own singular sense meaning 'a nation', and that one pluralizes regularly: <em>the peoples of the Pacific</em>.</dd></dl>
+<p>A human being. The word every learner needs and the plural nobody guesses.</p>
+<p><strong>1. A human being.</strong> (человек)</p>
+<ol><li>One <em>person</em> was waiting at the counter.</li><li>Twelve <em>people</em> signed up for the class.</li><li>She's the kindest <em>person</em> I know.</li></ol>
+<p><strong>2. persons — the official plural.</strong> Legal documents, notices, and law enforcement. In ordinary speech it sounds stiff or bureaucratic. (лица)</p>
+<ol start="4"><li>The elevator holds eight <em>persons</em>.</li><li>Police are looking for two <em>persons</em> of interest.</li></ol>
+<p><strong>3. people — a nation or ethnic group.</strong> A separate countable noun with a regular plural. (народ)</p>
+<ol start="6"><li>The Sámi are an indigenous <em>people</em> of northern Europe.</li><li>The exhibit covers the <em>peoples</em> of the Pacific Northwest.</li></ol>
+<p><strong>4. In grammar — first, second, third person.</strong> (лицо)</p>
+<ol start="8"><li>Spanish marks <em>person</em> on every verb ending.</li></ol>
+<dl class="fields"><dt>See also</dt><dd><a href="#child">child</a></dd></dl>
+<hr>
+<h3 id="die">die<a class="hash" href="#die" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/daɪ/ &middot; <em>dy</em></dd><dt>Русский</dt><dd>игральная кость; штамп</dd><dt>Plural</dt><dd><em>dice</em> /daɪs/ (gaming) &middot; <em>dies</em> /daɪz/ (tools)</dd><dt>Countability</dt><dd>countable</dd><dt>Agreement</dt><dd>plural verb — <em>the dice are loaded</em></dd><dt>Pattern</dt><dd>suppletive in the gaming sense, regular in the tool sense</dd><dt>Group</dt><dd>2</dd><dt>Type</dt><dd>concrete</dd><dt>Variants</dt><dd>in casual American English <em>dice</em> is now often used for the singular too — <em>roll a dice</em></dd><dt>Contrast</dt><dd>Two different plurals for two different senses. Gaming cubes: <em>dice</em>. Metal-shaping tools: <em>dies</em>. And be careful with the unrelated verb <em>die</em> 'to stop living', whose forms are <em>dies, died, dying</em>.</dd></dl>
+<p>A small numbered cube used in games; also, in manufacturing, a shaped tool for cutting or stamping.</p>
+<p><strong>1. A gaming cube.</strong> Strictly the singular is <em>die</em>, but most American speakers say <em>a dice</em>, and <em>die</em> now sounds bookish outside board-game instructions. (игральная кость)</p>
+<ol><li>Roll the <em>dice</em> and move that many spaces.</li><li>He rolled a six on a single <em>die</em>.</li><li>Both <em>dice</em> came up threes.</li></ol>
+<p><strong>2. A shaping or cutting tool.</strong> Regular plural. (штамп, матрица)</p>
+<ol start="4"><li>The shop cut new <em>dies</em> for the replacement parts.</li><li>A hardened steel <em>die</em> stamps the pattern.</li></ol>
+<p><strong>3. In fixed expressions.</strong> (в устойчивых выражениях)</p>
+<ol start="6"><li>The <em>die</em> is cast — there's no going back now.</li><li>It was a roll of the <em>dice</em>, and it paid off.</li></ol>
+<dl class="fields"><dt>See also</dt><dd><a href="#penny">penny</a></dd></dl>
+<hr>
+<h3 id="penny">penny<a class="hash" href="#penny" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/ˈpɛni/ &middot; <em>PEN-ee</em></dd><dt>Русский</dt><dd>пенни, цент</dd><dt>Plural</dt><dd><em>pennies</em> /ˈpɛniz/ (coins) &middot; <em>pence</em> /pɛns/ (a British sum of money)</dd><dt>Countability</dt><dd>countable</dd><dt>Agreement</dt><dd>plural verb — <em>the pennies were in a jar</em></dd><dt>Pattern</dt><dd>regular <em>-ies</em> for objects, suppletive <em>pence</em> for amounts</dd><dt>Group</dt><dd>2</dd><dt>Type</dt><dd>concrete</dd><dt>Variants</dt><dd>American English uses <em>pennies</em> almost exclusively; <em>pence</em> belongs to British money</dd><dt>Contrast</dt><dd>The split is objects versus amounts. Count the coins and you have <em>pennies</em>; state a price and British English uses <em>pence</em>. In the United States the coin is a <em>penny</em> but the unit is a <em>cent</em>, so <em>pence</em> is rare in American speech outside quoting a British price.</dd></dl>
+<p>The one-cent coin in the United States, or the British unit worth one hundredth of a pound.</p>
+<p><strong>1. The coin as an object.</strong> (монета в один цент)</p>
+<ol><li>There were forty <em>pennies</em> at the bottom of the jar.</li><li>He paid the last dollar in <em>pennies</em>, which the cashier did not enjoy.</li><li>I found a <em>penny</em> on the sidewalk.</li></ol>
+<p><strong>2. An amount of British money.</strong> (пенс)</p>
+<ol start="4"><li>The stamp cost sixty <em>pence</em>.</li></ol>
+<p><strong>3. In fixed expressions.</strong> Very frequent in American speech. (в устойчивых выражениях)</p>
+<ol start="5"><li>A <em>penny</em> saved is a <em>penny</em> earned.</li><li>It didn't cost me a <em>penny</em>.</li><li>Then the <em>penny</em> dropped and I understood what she meant.</li><li>He pinches <em>pennies</em> but drives a new car.</li></ol>
+<dl class="fields"><dt>See also</dt><dd><a href="#die">die</a></dd></dl></div></main>
+<button class="themebtn" id="themeBtn">Dark</button>
+<script>
+const tb=document.getElementById('themeBtn');
+function setTheme(x){document.documentElement.dataset.theme=x;tb.textContent=x==='dark'?'Light':'Dark';
+ try{localStorage.setItem('site-theme',x)}catch(e){}}
+tb.onclick=()=>setTheme(document.documentElement.dataset.theme==='dark'?'light':'dark');
+try{const s=localStorage.getItem('site-theme');
+ setTheme(s||(matchMedia('(prefers-color-scheme: dark)').matches?'dark':'light'))}catch(e){setTheme('light')}
+</script></body></html>

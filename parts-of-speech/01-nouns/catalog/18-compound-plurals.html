@@ -1,0 +1,186 @@
+<!DOCTYPE html>
+<html lang="en"><head>
+<meta charset="utf-8"><meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Plurals of compound nouns</title>
+<style>
+:root{--bg:#faf9f7;--surface:#fff;--surface2:#f2f0ec;--border:#e2ded6;--text:#1a1815;
+--dim:#5f594f;--faint:#8a8377;--accent:#8a5a3b;--measure:72ch}
+@media(prefers-color-scheme:dark){:root{--bg:#14140f;--surface:#1d1d17;--surface2:#25251d;
+--border:#33332a;--text:#eeeae1;--dim:#a8a293;--faint:#7d776b;--accent:#d09b72}}
+:root[data-theme=dark]{--bg:#14140f;--surface:#1d1d17;--surface2:#25251d;--border:#33332a;
+--text:#eeeae1;--dim:#a8a293;--faint:#7d776b;--accent:#d09b72}
+:root[data-theme=light]{--bg:#faf9f7;--surface:#fff;--surface2:#f2f0ec;--border:#e2ded6;
+--text:#1a1815;--dim:#5f594f;--faint:#8a8377;--accent:#8a5a3b}
+*{box-sizing:border-box}
+body{margin:0;background:var(--bg);color:var(--text);
+font:17px/1.72 ui-serif,Georgia,"Iowan Old Style",Palatino,serif;-webkit-font-smoothing:antialiased}
+.wrap{max-width:min(var(--measure),100%);margin:0 auto;padding:0 22px}
+nav.crumb{border-bottom:1px solid var(--border);padding:13px 0;font-size:13.5px;
+font-family:-apple-system,BlinkMacSystemFont,"Segoe UI",sans-serif;position:sticky;top:0;background:var(--bg);z-index:20}
+nav.crumb .wrap{max-width:none;display:flex;gap:9px;align-items:center;flex-wrap:wrap}
+nav.crumb a{color:var(--dim);text-decoration:none}
+nav.crumb a:hover{color:var(--accent)}
+nav.crumb .sep{color:var(--faint)}
+main{padding:8px 0 80px}
+h1{font-size:clamp(28px,5vw,38px);line-height:1.15;letter-spacing:-.015em;margin:34px 0 18px}
+h2{font-size:25px;margin:46px 0 14px;letter-spacing:-.01em;padding-bottom:7px;border-bottom:1px solid var(--border)}
+h3{font-size:19px;margin:34px 0 10px;color:var(--accent)}
+h4{font-size:16px;margin:24px 0 8px;font-family:-apple-system,sans-serif}
+p{margin:0 0 16px}
+a{color:var(--accent)}
+.hash{opacity:0;margin-left:8px;font-weight:400;font-size:.65em;text-decoration:none;color:var(--faint)}
+h2:hover .hash,h3:hover .hash{opacity:1}
+blockquote{margin:0 0 20px;padding:14px 18px;background:var(--surface2);
+border-left:3px solid var(--accent);border-radius:0 8px 8px 0}
+blockquote p:last-child{margin-bottom:0}
+ol,ul{margin:0 0 18px;padding-left:26px}
+li{margin-bottom:8px}
+li>ul,li>ol{margin:8px 0 0}
+code{font-family:ui-monospace,SFMono-Regular,Menlo,Consolas,monospace;font-size:.87em;
+background:var(--surface2);padding:1px 5px;border-radius:4px}
+pre{background:var(--surface2);border:1px solid var(--border);border-radius:9px;
+padding:15px 17px;overflow-x:auto;margin:0 0 20px}
+pre code{background:none;padding:0;font-size:13px;line-height:1.6}
+.tw{overflow-x:auto;margin:0 0 22px;border:1px solid var(--border);border-radius:9px}
+table{border-collapse:collapse;width:100%;font-size:15px;
+font-family:-apple-system,BlinkMacSystemFont,"Segoe UI",sans-serif}
+th,td{padding:10px 14px;border-bottom:1px solid var(--border);vertical-align:top}
+th{background:var(--surface2);font-size:12px;text-transform:uppercase;
+letter-spacing:.06em;color:var(--dim);font-weight:700;white-space:nowrap}
+tbody tr:last-child td{border-bottom:none}
+hr{border:none;border-top:1px solid var(--border);margin:38px 0}
+details{background:var(--surface2);border:1px solid var(--border);border-radius:9px;
+padding:13px 17px;margin:0 0 20px}
+summary{cursor:pointer;font-weight:600;font-family:-apple-system,sans-serif;font-size:15px}
+details[open] summary{margin-bottom:12px}
+del{color:var(--faint)}
+dl.fields{margin:0 0 20px;padding:0}
+dl.fields dt{font-family:-apple-system,BlinkMacSystemFont,"Segoe UI",sans-serif;
+font-size:11px;letter-spacing:.11em;text-transform:uppercase;color:var(--faint);
+font-weight:700;margin:14px 0 4px}
+dl.fields dt:first-child{margin-top:0}
+dl.fields dd{margin:0;font-size:16px;color:var(--dim);line-height:1.62}
+dl.fields dd em{color:var(--text)}
+dl.fields dt.ru{color:var(--accent)}
+dl.fields dd strong{color:var(--text)}
+.toc{background:var(--surface2);border:1px solid var(--border);border-radius:10px;
+padding:16px 20px;margin:26px 0 34px;font-family:-apple-system,sans-serif;font-size:14px}
+.toc b{display:block;font-size:11px;letter-spacing:.12em;text-transform:uppercase;
+color:var(--faint);margin-bottom:9px}
+.toc a{display:block;padding:3px 0;color:var(--dim);text-decoration:none}
+.toc a:hover{color:var(--accent)}
+.themebtn{position:fixed;right:18px;bottom:18px;z-index:60;font-family:-apple-system,sans-serif;
+font-size:12.5px;font-weight:600;cursor:pointer;background:var(--surface);border:1px solid var(--border);
+border-radius:99px;padding:9px 16px;color:var(--text)}
+@media(max-width:600px){body{font-size:16px}.wrap{padding:0 17px}}
+</style></head><body>
+<nav class="crumb"><div class="wrap"><a href="../../../index.html">Learn English</a><span class="sep">/</span><a href="../../README.html">Parts of speech</a><span class="sep">/</span><a href="../README.html">01-nouns</a><span class="sep">/</span><span>catalog</span></div></nav>
+<main><div class="wrap"><h1 id="plurals-of-compound-nouns">Plurals of compound nouns<a class="hash" href="#plurals-of-compound-nouns" aria-label="link">#</a></h1>
+<blockquote><p><em>Mothers-in-law</em>, not ✗ <em>mother-in-laws</em>. Pluralize the noun that carries the meaning — which is usually not the last word.</p></blockquote>
+<p><a href="../README.html">← The grammar of nouns</a> &middot; <a href="README.html">All groups</a></p>
+<p>A compound noun made of several words pluralizes on its <strong>head</strong> — the noun that names what the thing actually is. In <em>mother-in-law</em> the thing is a mother, so the plural is <em>mothers-in-law</em>. In <em>passerby</em> the thing is someone who passes, so it is <em>passersby</em>.</p>
+<p>The rule in three cases:</p>
+<p><strong>Noun + preposition phrase → pluralize the first noun.</strong> <em>mothers-in-law</em>, <em>editors-in-chief</em>, <em>chiefs of staff</em>, <em>maids of honor</em>, <em>passersby</em>, <em>hangers-on</em>.</p>
+<p><strong>Noun + postposed adjective → pluralize the noun.</strong> <em>attorneys general</em>, <em>courts-martial</em>, <em>notaries public</em>, <em>poets laureate</em>. These come from French and Latin word order, where the adjective follows. In American English the regular <em>attorney generals</em> is also widely accepted and increasingly common.</p>
+<p><strong>Solid compounds and <em>-ful</em> words → pluralize the end.</strong> When the compound is written as one word, it takes a normal plural at the end: <em>cupfuls</em>, <em>spoonfuls</em>, <em>handfuls</em>, <em>bookcases</em>, <em>toothbrushes</em>. Note that <em>two spoonfuls</em> means two spoon-loads, while <em>two spoons full</em> means two separate spoons, each full.</p>
+<hr>
+<h3 id="mother-in-law">mother-in-law<a class="hash" href="#mother-in-law" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/ˈmʌðər ɪn lɔː/ &middot; <em>MUTH-ur-in-law</em></dd><dt>Русский</dt><dd>тёща, свекровь</dd><dt>Plural</dt><dd><em>mothers-in-law</em> — pluralize <em>mother</em></dd><dt>Countability</dt><dd>countable</dd><dt>Agreement</dt><dd>plural verb — <em>both mothers-in-law were invited</em></dd><dt>Pattern</dt><dd>noun + preposition phrase</dd><dt>Group</dt><dd>18</dd><dt>Type</dt><dd>concrete</dd><dt>Contrast</dt><dd>✗ <em>Mother-in-laws</em> is the commonest error. The possessive, however, does go at the end: <em>my mother-in-law's house</em>. All the in-law terms follow: <em>fathers-in-law</em>, <em>brothers-in-law</em>, <em>sisters-in-law</em>, <em>sons-in-law</em>, <em>daughters-in-law</em>.</dd></dl>
+<p>The mother of one's spouse.</p>
+<p><strong>1. The relative.</strong> (тёща, свекровь)</p>
+<ol><li>My <em>mother-in-law</em> is staying for two weeks.</li><li>Both <em>mothers-in-law</em> sat at the same table.</li><li>She gets along well with her <em>mother-in-law</em>.</li><li>The two <em>mothers-in-law</em> had never met.</li><li>His <em>mother-in-law</em>'s house is around the corner.</li></ol>
+<dl class="fields"><dt>See also</dt><dd><a href="#brother-in-law">brother-in-law</a> &middot; <a href="#passerby">passerby</a></dd></dl>
+<hr>
+<h3 id="brother-in-law">brother-in-law<a class="hash" href="#brother-in-law" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/ˈbrʌðər ɪn lɔː/ &middot; <em>BRUTH-ur-in-law</em></dd><dt>Русский</dt><dd>шурин, деверь, зять</dd><dt>Plural</dt><dd><em>brothers-in-law</em> — pluralize <em>brother</em></dd><dt>Countability</dt><dd>countable</dd><dt>Agreement</dt><dd>plural verb — <em>his brothers-in-law both work there</em></dd><dt>Pattern</dt><dd>noun + preposition phrase</dd><dt>Group</dt><dd>18</dd><dt>Type</dt><dd>concrete</dd><dt>Contrast</dt><dd>✗ <em>Brother-in-laws</em> is wrong. English uses one term where Russian distinguishes several relationships — the brother of your spouse and the husband of your sister are both <em>brother-in-law</em>.</dd></dl>
+<p>The brother of one's spouse, or the husband of one's sibling.</p>
+<p><strong>1. The relative.</strong> (шурин, деверь, зять)</p>
+<ol><li>My <em>brother-in-law</em> fixed the car.</li><li>Both <em>brothers-in-law</em> work for the same company.</li><li>He introduced me to his <em>brother-in-law</em>.</li><li>Her three <em>brothers-in-law</em> were all at the wedding.</li><li>I borrowed my <em>brother-in-law</em>'s truck.</li></ol>
+<dl class="fields"><dt>See also</dt><dd><a href="#mother-in-law">mother-in-law</a></dd></dl>
+<hr>
+<h3 id="passerby">passerby<a class="hash" href="#passerby" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/ˈpæsərbaɪ/ &middot; <em>PAS-ur-by</em></dd><dt>Русский</dt><dd>прохожий</dd><dt>Plural</dt><dd><em>passersby</em> /ˈpæsərzbaɪ/ — pluralize <em>passer</em></dd><dt>Countability</dt><dd>countable</dd><dt>Agreement</dt><dd>plural verb — <em>passersby stopped to look</em></dd><dt>Pattern</dt><dd>noun + adverb</dd><dt>Group</dt><dd>18</dd><dt>Type</dt><dd>concrete</dd><dt>Variants</dt><dd>also written <em>passer-by</em> / <em>passers-by</em></dd><dt>Contrast</dt><dd>✗ <em>Passerbys</em> is wrong. The <em>-s</em> goes on <em>passer</em>, the noun, not on <em>by</em>, which is an adverb.</dd></dl>
+<p>Someone who happens to be walking past.</p>
+<p><strong>1. A person walking past.</strong> (прохожий)</p>
+<ol><li>A <em>passerby</em> called an ambulance.</li><li>Several <em>passersby</em> stopped to help.</li><li>The <em>passersby</em> barely glanced at him.</li><li>One <em>passerby</em> filmed the whole thing.</li><li>Police are asking <em>passersby</em> to come forward.</li></ol>
+<dl class="fields"><dt>See also</dt><dd><a href="#hanger-on">hanger-on</a> &middot; <a href="#mother-in-law">mother-in-law</a></dd></dl>
+<hr>
+<h3 id="hanger-on">hanger-on<a class="hash" href="#hanger-on" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/ˌhæŋər ˈɑːn/ &middot; <em>hang-ur-AHN</em></dd><dt>Русский</dt><dd>приживала, прихлебатель</dd><dt>Plural</dt><dd><em>hangers-on</em> — pluralize <em>hanger</em></dd><dt>Countability</dt><dd>countable</dd><dt>Agreement</dt><dd>plural verb — <em>the hangers-on were asked to leave</em></dd><dt>Pattern</dt><dd>noun + adverb</dd><dt>Group</dt><dd>18</dd><dt>Type</dt><dd>concrete</dd><dt>Contrast</dt><dd>✗ <em>Hanger-ons</em> is wrong. Same structure as <em>passersby</em> and <em>runners-up</em>: the noun comes first and takes the plural.</dd></dl>
+<p>Someone who attaches themselves to a person or group for advantage.</p>
+<p><strong>1. An unwanted follower.</strong> (прихлебатель)</p>
+<ol><li>He arrived with a dozen <em>hangers-on</em>.</li><li>The band's <em>hangers-on</em> filled the dressing room.</li><li>Every celebrity attracts <em>hangers-on</em>.</li><li>One <em>hanger-on</em> had been there for years.</li><li>Security cleared out the <em>hangers-on</em>.</li></ol>
+<dl class="fields"><dt>See also</dt><dd><a href="#runner-up">runner-up</a> &middot; <a href="#passerby">passerby</a></dd></dl>
+<hr>
+<h3 id="runner-up">runner-up<a class="hash" href="#runner-up" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/ˌrʌnər ˈʌp/ &middot; <em>run-ur-UP</em></dd><dt>Русский</dt><dd>занявший второе место</dd><dt>Plural</dt><dd><em>runners-up</em> — pluralize <em>runner</em></dd><dt>Countability</dt><dd>countable</dd><dt>Agreement</dt><dd>plural verb — <em>the runners-up each received a medal</em></dd><dt>Pattern</dt><dd>noun + adverb</dd><dt>Group</dt><dd>18</dd><dt>Type</dt><dd>concrete</dd><dt>Contrast</dt><dd>✗ <em>Runner-ups</em> is wrong, though it is often heard. The person is a <em>runner</em>, so <em>runner</em> takes the plural.</dd></dl>
+<p>Someone who finishes second in a competition.</p>
+<p><strong>1. The second-place finisher.</strong> (занявший второе место)</p>
+<ol><li>The <em>runner-up</em> received a cash prize.</li><li>Both <em>runners-up</em> were from the same school.</li><li>She was <em>runner-up</em> two years running.</li><li>The three <em>runners-up</em> will advance to the final.</li><li>Prizes go to the winner and the <em>runner-up</em>.</li></ol>
+<dl class="fields"><dt>See also</dt><dd><a href="#hanger-on">hanger-on</a></dd></dl>
+<hr>
+<h3 id="attorney-general">attorney general<a class="hash" href="#attorney-general" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/əˌtɜːrni ˈdʒɛnərəl/ &middot; <em>uh-TUR-nee JEN-ur-uhl</em></dd><dt>Русский</dt><dd>генеральный прокурор</dd><dt>Plural</dt><dd><em>attorneys general</em> — traditional &middot; <em>attorney generals</em> — also accepted</dd><dt>Countability</dt><dd>countable</dd><dt>Agreement</dt><dd>plural verb — <em>the attorneys general filed jointly</em></dd><dt>Pattern</dt><dd>noun + postposed adjective</dd><dt>Group</dt><dd>18</dd><dt>Type</dt><dd>concrete</dd><dt>Variants</dt><dd><em>attorneys general</em> in legal and formal writing; <em>attorney generals</em> is common in American journalism</dd><dt>Contrast</dt><dd><em>General</em> here is an adjective, not the military rank — the phrase means 'general attorney' in French word order. The traditional plural puts the <em>-s</em> on <em>attorney</em>. Both forms now appear in edited American prose.</dd></dl>
+<p>The chief legal officer of a state or country.</p>
+<p><strong>1. The office holder.</strong> (генеральный прокурор)</p>
+<ol><li>The <em>attorney general</em> declined to comment.</li><li>Twelve <em>attorneys general</em> signed the brief.</li><li>Both <em>attorney generals</em> were appointed the same year.</li><li>She served as <em>attorney general</em> for six years.</li><li>State <em>attorneys general</em> sued jointly.</li></ol>
+<dl class="fields"><dt>See also</dt><dd><a href="#court-martial">court-martial</a> &middot; <a href="#notary-public">notary public</a></dd></dl>
+<hr>
+<h3 id="court-martial">court-martial<a class="hash" href="#court-martial" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/ˌkɔːrt ˈmɑːrʃəl/ &middot; <em>kort-MAR-shuhl</em></dd><dt>Русский</dt><dd>военный трибунал</dd><dt>Plural</dt><dd><em>courts-martial</em> — traditional &middot; <em>court-martials</em> — also used</dd><dt>Countability</dt><dd>countable</dd><dt>Agreement</dt><dd>plural verb — <em>both courts-martial were held in secret</em></dd><dt>Pattern</dt><dd>noun + postposed adjective</dd><dt>Group</dt><dd>18</dd><dt>Type</dt><dd>concrete</dd><dt>Variants</dt><dd><em>courts-martial</em> is standard in military and legal writing</dd><dt>Contrast</dt><dd><em>Martial</em> is the adjective, so the noun <em>court</em> takes the plural. As a verb the compound is regular: <em>he was court-martialed</em>.</dd></dl>
+<p>A military court.</p>
+<p><strong>1. The military tribunal.</strong> (военный трибунал)</p>
+<ol><li>He faced a <em>court-martial</em> for disobeying orders.</li><li>Two <em>courts-martial</em> were convened that month.</li><li>The <em>court-martial</em> found him not guilty.</li><li>Both <em>courts-martial</em> were closed to the press.</li></ol>
+<p><strong>2. As a verb.</strong> Regular. (отдать под трибунал)</p>
+<ol start="5"><li>Three officers were <em>court-martialed</em>.</li></ol>
+<dl class="fields"><dt>See also</dt><dd><a href="#attorney-general">attorney general</a></dd></dl>
+<hr>
+<h3 id="notary-public">notary public<a class="hash" href="#notary-public" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/ˌnoʊtəri ˈpʌblɪk/ &middot; <em>NOH-tuh-ree PUB-lik</em></dd><dt>Русский</dt><dd>нотариус</dd><dt>Plural</dt><dd><em>notaries public</em> — traditional &middot; <em>notary publics</em> — also used</dd><dt>Countability</dt><dd>countable</dd><dt>Agreement</dt><dd>plural verb — <em>the notaries public are licensed by the state</em></dd><dt>Pattern</dt><dd>noun + postposed adjective</dd><dt>Group</dt><dd>18</dd><dt>Type</dt><dd>concrete</dd><dt>Variants</dt><dd><em>notaries public</em> in legal writing; <em>notary publics</em> in casual use</dd></dl>
+<p>An official authorized to witness signatures on documents.</p>
+<p><strong>1. The official.</strong> (нотариус)</p>
+<ol><li>You'll need a <em>notary public</em> for that form.</li><li>Both <em>notaries public</em> were unavailable.</li><li>Most banks have a <em>notary public</em> on staff.</li><li><em>Notaries public</em> are commissioned by the state.</li><li>The document was signed before a <em>notary public</em>.</li></ol>
+<dl class="fields"><dt>See also</dt><dd><a href="#attorney-general">attorney general</a></dd></dl>
+<hr>
+<h3 id="editor-in-chief">editor-in-chief<a class="hash" href="#editor-in-chief" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/ˌɛdɪtər ɪn ˈtʃiːf/ &middot; <em>ED-ih-tur-in-CHEEF</em></dd><dt>Русский</dt><dd>главный редактор</dd><dt>Plural</dt><dd><em>editors-in-chief</em> — pluralize <em>editor</em></dd><dt>Countability</dt><dd>countable</dd><dt>Agreement</dt><dd>plural verb — <em>the editors-in-chief met annually</em></dd><dt>Pattern</dt><dd>noun + preposition phrase</dd><dt>Group</dt><dd>18</dd><dt>Type</dt><dd>concrete</dd><dt>Variants</dt><dd><em>editor-in-chiefs</em> occurs but is nonstandard</dd><dt>Contrast</dt><dd>Compare <em>commander-in-chief → commanders-in-chief</em>, which follows the same pattern.</dd></dl>
+<p>The person with final authority over a publication.</p>
+<p><strong>1. The senior editor.</strong> (главный редактор)</p>
+<ol><li>The <em>editor-in-chief</em> rejected the piece.</li><li>Both <em>editors-in-chief</em> resigned the same week.</li><li>She was named <em>editor-in-chief</em> at thirty-two.</li><li>The <em>editors-in-chief</em> of four journals signed the statement.</li><li>He reports directly to the <em>editor-in-chief</em>.</li></ol>
+<dl class="fields"><dt>See also</dt><dd><a href="#chief-of-staff">chief of staff</a></dd></dl>
+<hr>
+<h3 id="chief-of-staff">chief of staff<a class="hash" href="#chief-of-staff" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/ˌtʃiːf əv ˈstæf/ &middot; <em>cheef-uhv-STAF</em></dd><dt>Русский</dt><dd>глава администрации; начальник штаба</dd><dt>Plural</dt><dd><em>chiefs of staff</em> — pluralize <em>chief</em></dd><dt>Countability</dt><dd>countable</dd><dt>Agreement</dt><dd>plural verb — <em>the chiefs of staff were briefed</em></dd><dt>Pattern</dt><dd>noun + preposition phrase</dd><dt>Group</dt><dd>18</dd><dt>Type</dt><dd>concrete</dd><dt>Contrast</dt><dd>✗ <em>Chief of staffs</em> is wrong. The Joint Chiefs of Staff is the fixed name of the American military body.</dd></dl>
+<p>The senior aide to an executive, or a senior military officer.</p>
+<p><strong>1. A senior aide.</strong> (глава администрации)</p>
+<ol><li>The <em>chief of staff</em> controls the schedule.</li><li>Three <em>chiefs of staff</em> served in four years.</li><li>She was promoted to <em>chief of staff</em> in March.</li></ol>
+<p><strong>2. A senior military officer.</strong> (начальник штаба)</p>
+<ol start="4"><li>The Joint <em>Chiefs of Staff</em> met at the Pentagon.</li><li>Both <em>chiefs of staff</em> opposed the plan.</li></ol>
+<dl class="fields"><dt>See also</dt><dd><a href="#editor-in-chief">editor-in-chief</a></dd></dl>
+<hr>
+<h3 id="spoonful">spoonful<a class="hash" href="#spoonful" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/ˈspuːnfʊl/ &middot; <em>SPOON-fuul</em></dd><dt>Русский</dt><dd>ложка (как мера)</dd><dt>Plural</dt><dd><em>spoonfuls</em> — pluralize the end</dd><dt>Countability</dt><dd>countable</dd><dt>Agreement</dt><dd>plural verb — <em>two spoonfuls are enough</em></dd><dt>Pattern</dt><dd>solid compound → regular <em>-s</em></dd><dt>Group</dt><dd>18</dd><dt>Type</dt><dd>abstract</dd><dt>Variants</dt><dd><em>spoonsful</em> is an older form, now rare</dd><dt>Contrast</dt><dd><em>Two spoonfuls</em> means two spoon-loads from one spoon. <em>Two spoons full</em> means two separate spoons, each full. The same distinction runs through <em>cupfuls</em>, <em>handfuls</em>, <em>mouthfuls</em>, and <em>armfuls</em>.</dd></dl>
+<p>The amount a spoon will hold.</p>
+<p><strong>1. A measure.</strong> (ложка чего-либо)</p>
+<ol><li>Add two <em>spoonfuls</em> of sugar.</li><li>One <em>spoonful</em> is plenty.</li><li>She took three <em>spoonfuls</em> and stopped.</li><li>A <em>spoonful</em> of medicine helps it go down.</li><li>Both <em>spoonfuls</em> went into the same cup.</li></ol>
+<dl class="fields"><dt>See also</dt><dd><a href="#handful">handful</a></dd></dl>
+<hr>
+<h3 id="handful">handful<a class="hash" href="#handful" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/ˈhændfʊl/ &middot; <em>HAND-fuul</em></dd><dt>Русский</dt><dd>горсть; горстка</dd><dt>Plural</dt><dd><em>handfuls</em> — pluralize the end</dd><dt>Countability</dt><dd>countable</dd><dt>Agreement</dt><dd>plural verb — <em>a few handfuls are enough</em></dd><dt>Pattern</dt><dd>solid compound → regular <em>-s</em></dd><dt>Group</dt><dd>18</dd><dt>Type</dt><dd>abstract</dd><dt>Contrast</dt><dd>✗ <em>Handsful</em> is archaic. Note the very common figurative sense: <em>a handful</em> meaning a small number, or a difficult person.</dd></dl>
+<p>The amount a hand will hold; a small number; a difficult person.</p>
+<p><strong>1. What a hand holds.</strong> (горсть)</p>
+<ol><li>He threw a <em>handful</em> of seed across the row.</li><li>Two <em>handfuls</em> of flour should do it.</li></ol>
+<p><strong>2. A small number.</strong> Figurative. (горстка)</p>
+<ol start="3"><li>Only a <em>handful</em> of people showed up.</li><li>A <em>handful</em> of companies control the market.</li></ol>
+<p><strong>3. Someone difficult to manage.</strong> Informal. (сущее наказание)</p>
+<ol start="5"><li>That child is a real <em>handful</em>.</li></ol>
+<dl class="fields"><dt>See also</dt><dd><a href="#spoonful">spoonful</a></dd></dl></div></main>
+<button class="themebtn" id="themeBtn">Dark</button>
+<script>
+const tb=document.getElementById('themeBtn');
+function setTheme(x){document.documentElement.dataset.theme=x;tb.textContent=x==='dark'?'Light':'Dark';
+ try{localStorage.setItem('site-theme',x)}catch(e){}}
+tb.onclick=()=>setTheme(document.documentElement.dataset.theme==='dark'?'light':'dark');
+try{const s=localStorage.getItem('site-theme');
+ setTheme(s||(matchMedia('(prefers-color-scheme: dark)').matches?'dark':'light'))}catch(e){setTheme('light')}
+</script></body></html>

@@ -1,0 +1,416 @@
+<!DOCTYPE html>
+<html lang="en"><head>
+<meta charset="utf-8"><meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Uncountable nouns</title>
+<style>
+:root{--bg:#faf9f7;--surface:#fff;--surface2:#f2f0ec;--border:#e2ded6;--text:#1a1815;
+--dim:#5f594f;--faint:#8a8377;--accent:#8a5a3b;--measure:72ch}
+@media(prefers-color-scheme:dark){:root{--bg:#14140f;--surface:#1d1d17;--surface2:#25251d;
+--border:#33332a;--text:#eeeae1;--dim:#a8a293;--faint:#7d776b;--accent:#d09b72}}
+:root[data-theme=dark]{--bg:#14140f;--surface:#1d1d17;--surface2:#25251d;--border:#33332a;
+--text:#eeeae1;--dim:#a8a293;--faint:#7d776b;--accent:#d09b72}
+:root[data-theme=light]{--bg:#faf9f7;--surface:#fff;--surface2:#f2f0ec;--border:#e2ded6;
+--text:#1a1815;--dim:#5f594f;--faint:#8a8377;--accent:#8a5a3b}
+*{box-sizing:border-box}
+body{margin:0;background:var(--bg);color:var(--text);
+font:17px/1.72 ui-serif,Georgia,"Iowan Old Style",Palatino,serif;-webkit-font-smoothing:antialiased}
+.wrap{max-width:min(var(--measure),100%);margin:0 auto;padding:0 22px}
+nav.crumb{border-bottom:1px solid var(--border);padding:13px 0;font-size:13.5px;
+font-family:-apple-system,BlinkMacSystemFont,"Segoe UI",sans-serif;position:sticky;top:0;background:var(--bg);z-index:20}
+nav.crumb .wrap{max-width:none;display:flex;gap:9px;align-items:center;flex-wrap:wrap}
+nav.crumb a{color:var(--dim);text-decoration:none}
+nav.crumb a:hover{color:var(--accent)}
+nav.crumb .sep{color:var(--faint)}
+main{padding:8px 0 80px}
+h1{font-size:clamp(28px,5vw,38px);line-height:1.15;letter-spacing:-.015em;margin:34px 0 18px}
+h2{font-size:25px;margin:46px 0 14px;letter-spacing:-.01em;padding-bottom:7px;border-bottom:1px solid var(--border)}
+h3{font-size:19px;margin:34px 0 10px;color:var(--accent)}
+h4{font-size:16px;margin:24px 0 8px;font-family:-apple-system,sans-serif}
+p{margin:0 0 16px}
+a{color:var(--accent)}
+.hash{opacity:0;margin-left:8px;font-weight:400;font-size:.65em;text-decoration:none;color:var(--faint)}
+h2:hover .hash,h3:hover .hash{opacity:1}
+blockquote{margin:0 0 20px;padding:14px 18px;background:var(--surface2);
+border-left:3px solid var(--accent);border-radius:0 8px 8px 0}
+blockquote p:last-child{margin-bottom:0}
+ol,ul{margin:0 0 18px;padding-left:26px}
+li{margin-bottom:8px}
+li>ul,li>ol{margin:8px 0 0}
+code{font-family:ui-monospace,SFMono-Regular,Menlo,Consolas,monospace;font-size:.87em;
+background:var(--surface2);padding:1px 5px;border-radius:4px}
+pre{background:var(--surface2);border:1px solid var(--border);border-radius:9px;
+padding:15px 17px;overflow-x:auto;margin:0 0 20px}
+pre code{background:none;padding:0;font-size:13px;line-height:1.6}
+.tw{overflow-x:auto;margin:0 0 22px;border:1px solid var(--border);border-radius:9px}
+table{border-collapse:collapse;width:100%;font-size:15px;
+font-family:-apple-system,BlinkMacSystemFont,"Segoe UI",sans-serif}
+th,td{padding:10px 14px;border-bottom:1px solid var(--border);vertical-align:top}
+th{background:var(--surface2);font-size:12px;text-transform:uppercase;
+letter-spacing:.06em;color:var(--dim);font-weight:700;white-space:nowrap}
+tbody tr:last-child td{border-bottom:none}
+hr{border:none;border-top:1px solid var(--border);margin:38px 0}
+details{background:var(--surface2);border:1px solid var(--border);border-radius:9px;
+padding:13px 17px;margin:0 0 20px}
+summary{cursor:pointer;font-weight:600;font-family:-apple-system,sans-serif;font-size:15px}
+details[open] summary{margin-bottom:12px}
+del{color:var(--faint)}
+dl.fields{margin:0 0 20px;padding:0}
+dl.fields dt{font-family:-apple-system,BlinkMacSystemFont,"Segoe UI",sans-serif;
+font-size:11px;letter-spacing:.11em;text-transform:uppercase;color:var(--faint);
+font-weight:700;margin:14px 0 4px}
+dl.fields dt:first-child{margin-top:0}
+dl.fields dd{margin:0;font-size:16px;color:var(--dim);line-height:1.62}
+dl.fields dd em{color:var(--text)}
+dl.fields dt.ru{color:var(--accent)}
+dl.fields dd strong{color:var(--text)}
+.toc{background:var(--surface2);border:1px solid var(--border);border-radius:10px;
+padding:16px 20px;margin:26px 0 34px;font-family:-apple-system,sans-serif;font-size:14px}
+.toc b{display:block;font-size:11px;letter-spacing:.12em;text-transform:uppercase;
+color:var(--faint);margin-bottom:9px}
+.toc a{display:block;padding:3px 0;color:var(--dim);text-decoration:none}
+.toc a:hover{color:var(--accent)}
+.themebtn{position:fixed;right:18px;bottom:18px;z-index:60;font-family:-apple-system,sans-serif;
+font-size:12.5px;font-weight:600;cursor:pointer;background:var(--surface);border:1px solid var(--border);
+border-radius:99px;padding:9px 16px;color:var(--text)}
+@media(max-width:600px){body{font-size:16px}.wrap{padding:0 17px}}
+</style></head><body>
+<nav class="crumb"><div class="wrap"><a href="../../../index.html">Learn English</a><span class="sep">/</span><a href="../../README.html">Parts of speech</a><span class="sep">/</span><a href="../README.html">01-nouns</a><span class="sep">/</span><span>catalog</span></div></nav>
+<main><div class="wrap"><h1 id="uncountable-nouns">Uncountable nouns<a class="hash" href="#uncountable-nouns" aria-label="link">#</a></h1>
+<blockquote><p>✗ <em>an information</em>, ✗ <em>two advices</em>, ✗ <em>many furnitures</em>. These nouns have no plural and take no <em>a</em> — you count them with <em>a piece of</em>, <em>an item of</em>, <em>a bit of</em>.</p></blockquote>
+<p><a href="../README.html">← The grammar of nouns</a> &middot; <a href="README.html">All groups</a></p>
+<p>An uncountable noun names something English treats as a mass rather than as separate units. Three consequences follow, and every one of them produces a predictable learner error:</p>
+<ol><li><strong>No plural.</strong> ✗ <em>informations</em>, ✗ <em>advices</em>, ✗ <em>furnitures</em>, ✗ <em>equipments</em>.</li><li><strong>No <em>a</em> or <em>an</em>.</strong> ✗ <em>an advice</em>, ✗ <em>a homework</em>. Use <em>some</em>, or nothing at all.</li><li><strong>A singular verb.</strong> <em>The news <strong>is</strong> good.</em> <em>This furniture <strong>is</strong> expensive.</em></li></ol>
+<p>To count them you need a <strong>partitive</strong> — a separate countable noun that packages the mass: <em>a piece of advice</em>, <em>an item of clothing</em>, <em>a bit of luck</em>, <em>two slices of bread</em>. Each entry below gives the partitive that native speakers actually use, because the wrong one is as noticeable as no partitive at all: <em>a piece of furniture</em> is normal, ✗ <em>a slice of furniture</em> is not.</p>
+<p>Two warnings. First, countability is a property of a <strong>sense</strong>, not of a word — many nouns here have a countable sense too, and those are cross-referenced to <a href="14-dual-category.html">dual-category nouns</a>. Second, countability does not transfer between languages: <em>information</em>, <em>advice</em>, and <em>furniture</em> are all countable in Russian and uncountable in English, which is exactly why they are the errors you hear most.</p>
+<hr>
+<h3 id="information">information<a class="hash" href="#information" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/ˌɪnfərˈmeɪʃən/ &middot; <em>in-fur-MAY-shuhn</em></dd><dt>Русский</dt><dd>информация, сведения</dd><dt>Countability</dt><dd>uncountable — no plural, no <em>a</em></dd><dt>Agreement</dt><dd>singular verb — <em>the information is out of date</em></dd><dt>Counted with</dt><dd><em>a piece of information</em>, <em>a bit of information</em>, <em>an item of information</em></dd><dt>Type</dt><dd>abstract</dd><dt>Contrast</dt><dd>✗ <em>informations</em> and ✗ <em>an information</em> are among the most frequent errors made by speakers of Russian, French, German, and Spanish, in all of which the word is countable. English has no plural for it at all.</dd></dl>
+<p>Facts or knowledge provided about something.</p>
+<p><strong>1. Facts provided or learned.</strong> (информация)</p>
+<ol><li>This <em>information</em> is confidential.</li><li>We need more <em>information</em> before deciding.</li><li>She gave me one useful piece of <em>information</em>.</li><li>All the <em>information</em> is on the website.</li></ol>
+<p><strong>2. Data held by a system.</strong> (данные, сведения)</p>
+<ol start="5"><li>The form collects personal <em>information</em>.</li><li>Several pieces of <em>information</em> were missing from the file.</li></ol>
+<dl class="fields"><dt>See also</dt><dd><a href="#advice">advice</a> &middot; <a href="#knowledge">knowledge</a> &middot; <a href="08-latin-um-a.html#datum">data</a></dd></dl>
+<hr>
+<h3 id="advice">advice<a class="hash" href="#advice" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/ədˈvaɪs/ &middot; <em>uhd-VYSE</em> — noun, with /s/</dd><dt>Русский</dt><dd>совет, советы</dd><dt>Countability</dt><dd>uncountable — no plural, no <em>a</em></dd><dt>Agreement</dt><dd>singular verb — <em>her advice was excellent</em></dd><dt>Counted with</dt><dd><em>a piece of advice</em>, <em>a word of advice</em>, <em>some advice</em></dd><dt>Type</dt><dd>abstract</dd><dt>Contrast</dt><dd>✗ <em>advices</em> and ✗ <em>an advice</em> are wrong. Note also the noun/verb pair: the noun <em>advice</em> /ədˈvaɪs/ ends in /s/, the verb <em>advise</em> /ədˈvaɪz/ in /z/. Different spelling, different sound, constantly confused.</dd></dl>
+<p>Guidance or recommendations about what someone should do.</p>
+<p><strong>1. Recommendations about what to do.</strong> (совет)</p>
+<ol><li>Let me give you one piece of <em>advice</em>.</li><li>Her <em>advice</em> was to wait a week.</li><li>He never takes <em>advice</em> from anyone.</li><li>I need some <em>advice</em> about the contract.</li></ol>
+<p><strong>2. Professional or expert guidance.</strong> (консультация)</p>
+<ol start="5"><li>Seek legal <em>advice</em> before signing.</li><li>The best <em>advice</em> I ever got came from my first boss.</li></ol>
+<dl class="fields"><dt>See also</dt><dd><a href="#information">information</a> &middot; <a href="16-singular-with-s.html#news">news</a></dd></dl>
+<hr>
+<h3 id="furniture">furniture<a class="hash" href="#furniture" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/ˈfɜːrnɪtʃər/ &middot; <em>FUR-nih-chur</em></dd><dt>Русский</dt><dd>мебель</dd><dt>Countability</dt><dd>uncountable — no plural, no <em>a</em></dd><dt>Agreement</dt><dd>singular verb — <em>the furniture is being delivered</em></dd><dt>Counted with</dt><dd><em>a piece of furniture</em>, <em>an item of furniture</em></dd><dt>Type</dt><dd>concrete</dd><dt>Contrast</dt><dd>✗ <em>furnitures</em> and ✗ <em>a furniture</em> are wrong. This is the classic example of an uncountable noun naming things you can obviously count individually — English packages them as a mass anyway. To name one, use the specific word: <em>a chair</em>, <em>a table</em>, <em>a desk</em>.</dd></dl>
+<p>The movable objects that make a room usable — chairs, tables, beds.</p>
+<p><strong>1. Household objects.</strong> (мебель)</p>
+<ol><li>All the <em>furniture</em> is being delivered Thursday.</li><li>They bought one piece of <em>furniture</em> in ten years.</li><li>The apartment came with <em>furniture</em>.</li><li>Office <em>furniture</em> costs more than you think.</li></ol>
+<p><strong>2. Attributive.</strong> (мебельный)</p>
+<ol start="5"><li>There's a <em>furniture</em> store on the corner.</li><li>Several pieces of <em>furniture</em> were damaged in the move.</li></ol>
+<dl class="fields"><dt>See also</dt><dd><a href="#equipment">equipment</a> &middot; <a href="#luggage">luggage</a></dd></dl>
+<hr>
+<h3 id="luggage">luggage<a class="hash" href="#luggage" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/ˈlʌɡɪdʒ/ &middot; <em>LUG-ij</em></dd><dt>Русский</dt><dd>багаж</dd><dt>Countability</dt><dd>uncountable — no plural, no <em>a</em></dd><dt>Agreement</dt><dd>singular verb — <em>the luggage is on the carousel</em></dd><dt>Counted with</dt><dd><em>a piece of luggage</em>, <em>a bag</em>, <em>a suitcase</em></dd><dt>Type</dt><dd>concrete</dd><dt>Variants</dt><dd><em>baggage</em> is a near synonym, equally uncountable</dd><dt>Contrast</dt><dd>✗ <em>luggages</em> and ✗ <em>a luggage</em> are wrong. For a single item say <em>a bag</em> or <em>a suitcase</em>. <em>Baggage</em> has the same grammar and an extra figurative sense — <em>emotional baggage</em>.</dd></dl>
+<p>Suitcases and bags taken on a journey.</p>
+<p><strong>1. Bags for travel.</strong> (багаж)</p>
+<ol><li>My <em>luggage</em> never arrived.</li><li>How many pieces of <em>luggage</em> are you checking?</li><li>Leave your <em>luggage</em> by the door.</li><li>All <em>luggage</em> must be screened.</li></ol>
+<p><strong>2. Attributive.</strong> (багажный)</p>
+<ol start="5"><li>Meet me at the <em>luggage</em> claim.</li><li>The <em>luggage</em> rack was already full.</li></ol>
+<dl class="fields"><dt>See also</dt><dd><a href="#furniture">furniture</a> &middot; <a href="#equipment">equipment</a></dd></dl>
+<hr>
+<h3 id="equipment">equipment<a class="hash" href="#equipment" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/ɪˈkwɪpmənt/ &middot; <em>ih-KWIP-muhnt</em></dd><dt>Русский</dt><dd>оборудование, снаряжение</dd><dt>Countability</dt><dd>uncountable — no plural, no <em>a</em></dd><dt>Agreement</dt><dd>singular verb — <em>the equipment is expensive</em></dd><dt>Counted with</dt><dd><em>a piece of equipment</em>, <em>an item of equipment</em></dd><dt>Type</dt><dd>concrete</dd><dt>Contrast</dt><dd>✗ <em>equipments</em> is wrong. Compare <em>machinery</em> and <em>gear</em>, which behave the same way, and <em>tools</em>, <em>machines</em>, and <em>devices</em>, which are perfectly countable.</dd></dl>
+<p>The tools and machines needed for a particular purpose.</p>
+<p><strong>1. Tools and machinery for a purpose.</strong> (оборудование)</p>
+<ol><li>The lab's <em>equipment</em> is twenty years old.</li><li>We need one more piece of <em>equipment</em>.</li><li>All the diving <em>equipment</em> is included.</li><li>Safety <em>equipment</em> must be worn at all times.</li></ol>
+<p><strong>2. Attributive.</strong> (оборудования)</p>
+<ol start="5"><li><em>Equipment</em> failure caused the delay.</li><li>Several pieces of <em>equipment</em> went missing.</li></ol>
+<dl class="fields"><dt>See also</dt><dd><a href="#furniture">furniture</a> &middot; <a href="#machinery">machinery</a></dd></dl>
+<hr>
+<h3 id="homework">homework<a class="hash" href="#homework" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/ˈhoʊmwɜːrk/ &middot; <em>HOHM-wurk</em></dd><dt>Русский</dt><dd>домашнее задание</dd><dt>Countability</dt><dd>uncountable — no plural, no <em>a</em></dd><dt>Agreement</dt><dd>singular verb — <em>the homework is due Friday</em></dd><dt>Counted with</dt><dd><em>a piece of homework</em>, <em>an assignment</em></dd><dt>Type</dt><dd>abstract</dd><dt>Contrast</dt><dd>✗ <em>homeworks</em> and ✗ <em>a homework</em> are wrong. For one task say <em>an assignment</em>. Note that <em>work</em> itself is uncountable in the same way, but <em>works</em> exists with different meanings — see <a href="14-dual-category.html#work">work</a>.</dd></dl>
+<p>School work assigned to be done at home.</p>
+<p><strong>1. School assignments.</strong> (домашнее задание)</p>
+<ol><li>Have you finished your <em>homework</em>?</li><li>The <em>homework</em> is due on Friday.</li><li>She never does any <em>homework</em>.</li><li>That's three assignments' worth of <em>homework</em>.</li></ol>
+<p><strong>2. Figuratively — preparation.</strong> (подготовка)</p>
+<ol start="5"><li>He clearly hadn't done his <em>homework</em> before the meeting.</li><li>Do your <em>homework</em> on the company before you interview.</li></ol>
+<dl class="fields"><dt>See also</dt><dd><a href="14-dual-category.html#work">work</a> &middot; <a href="#research">research</a></dd></dl>
+<hr>
+<h3 id="research">research<a class="hash" href="#research" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/ˈriːsɜːrtʃ/ &middot; <em>REE-surch</em> — also /rɪˈsɜːrtʃ/ <em>rih-SURCH</em></dd><dt>Русский</dt><dd>исследование, исследования</dd><dt>Countability</dt><dd>uncountable — no plural in standard use</dd><dt>Agreement</dt><dd>singular verb — <em>the research is ongoing</em></dd><dt>Counted with</dt><dd><em>a piece of research</em>, <em>a study</em></dd><dt>Type</dt><dd>abstract</dd><dt>Variants</dt><dd><em>researches</em> exists in older and some technical writing but sounds dated</dd><dt>Contrast</dt><dd>✗ <em>researches</em> is best avoided; say <em>studies</em> for countable units. American English stresses the noun on the first syllable and the verb on the second: <em>REE-surch</em> the noun, <em>rih-SURCH</em> the verb — though both stresses are heard for both.</dd></dl>
+<p>Systematic investigation to establish facts.</p>
+<p><strong>1. Systematic investigation.</strong> (исследование)</p>
+<ol><li>Her <em>research</em> focuses on sleep and memory.</li><li>More <em>research</em> is needed.</li><li>The <em>research</em> was funded by the university.</li><li>He published two pieces of <em>research</em> that year.</li></ol>
+<p><strong>2. Looking into something informally.</strong> (изучение вопроса)</p>
+<ol start="5"><li>I did some <em>research</em> before buying the car.</li><li>A little <em>research</em> would have saved them a lot of money.</li></ol>
+<dl class="fields"><dt>See also</dt><dd><a href="#homework">homework</a> &middot; <a href="#evidence">evidence</a></dd></dl>
+<hr>
+<h3 id="evidence">evidence<a class="hash" href="#evidence" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/ˈɛvɪdəns/ &middot; <em>EV-ih-duhns</em></dd><dt>Русский</dt><dd>доказательства, улики</dd><dt>Countability</dt><dd>uncountable — no plural, no <em>a</em></dd><dt>Agreement</dt><dd>singular verb — <em>the evidence is overwhelming</em></dd><dt>Counted with</dt><dd><em>a piece of evidence</em>, <em>an item of evidence</em></dd><dt>Type</dt><dd>abstract</dd><dt>Contrast</dt><dd>✗ <em>evidences</em> and ✗ <em>an evidence</em> are wrong in ordinary use. Note the fixed legal phrase <em>Exhibit A</em> for a numbered item, and that <em>proof</em> is likewise uncountable.</dd></dl>
+<p>Facts or objects supporting a conclusion.</p>
+<p><strong>1. Facts supporting a belief.</strong> (доказательства)</p>
+<ol><li>The <em>evidence</em> is overwhelming.</li><li>There is no <em>evidence</em> that it works.</li><li>Every piece of <em>evidence</em> points the same way.</li><li>New <em>evidence</em> emerged last month.</li></ol>
+<p><strong>2. Material used in a legal case.</strong> (улики)</p>
+<ol start="5"><li>The <em>evidence</em> was ruled inadmissible.</li><li>Police collected three items of <em>evidence</em> from the scene.</li></ol>
+<dl class="fields"><dt>See also</dt><dd><a href="#research">research</a> &middot; <a href="#proof">proof</a></dd></dl>
+<hr>
+<h3 id="proof">proof<a class="hash" href="#proof" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/pruːf/ &middot; <em>proof</em></dd><dt>Русский</dt><dd>доказательство</dd><dt>Countability</dt><dd>uncountable in the main sense; countable as a printed draft</dd><dt>Agreement</dt><dd>singular verb — <em>the proof is conclusive</em></dd><dt>Counted with</dt><dd><em>a piece of proof</em></dd><dt>Type</dt><dd>abstract</dd><dt>Contrast</dt><dd>In the sense 'evidence' the word is uncountable — ✗ <em>two proofs that he was there</em>. In mathematics and printing it is countable: <em>a proof</em>, <em>two proofs</em>. Related to <a href="#evidence">evidence</a> but stronger: evidence supports, proof settles.</dd></dl>
+<p>Facts establishing that something is true.</p>
+<p><strong>1. Conclusive evidence.</strong> Uncountable. (доказательство)</p>
+<ol><li>Do you have any <em>proof</em> of that?</li><li>The receipt is <em>proof</em> of purchase.</li><li>There is no <em>proof</em> either way.</li></ol>
+<p><strong>2. A demonstration in mathematics or logic.</strong> Countable. (доказательство теоремы)</p>
+<ol start="4"><li>The <em>proof</em> runs to eighty pages.</li><li>Both <em>proofs</em> rely on the same lemma.</li></ol>
+<p><strong>3. A trial print of a text or photograph.</strong> Countable. (корректура, пробный оттиск)</p>
+<ol start="6"><li>She marked up the <em>proofs</em> in red.</li></ol>
+<dl class="fields"><dt>See also</dt><dd><a href="#evidence">evidence</a></dd></dl>
+<hr>
+<h3 id="knowledge">knowledge<a class="hash" href="#knowledge" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/ˈnɑːlɪdʒ/ &middot; <em>NAH-lij</em> — the <em>k</em> is silent</dd><dt>Русский</dt><dd>знание, знания</dd><dt>Countability</dt><dd>uncountable — no plural</dd><dt>Agreement</dt><dd>singular verb — <em>his knowledge is impressive</em></dd><dt>Counted with</dt><dd><em>a body of knowledge</em>, <em>an area of knowledge</em></dd><dt>Type</dt><dd>abstract</dd><dt>Variants</dt><dd>takes <em>a</em> only when modified — <em>a good knowledge of Spanish</em></dd><dt>Contrast</dt><dd>✗ <em>knowledges</em> is wrong. The one place <em>a</em> appears is before a modified <em>knowledge of</em> something: <em>a working knowledge of French</em>, <em>a deep knowledge of the subject</em>. That construction is standard and worth learning as a unit.</dd></dl>
+<p>Facts, information, and skills acquired through experience or education.</p>
+<p><strong>1. What someone knows.</strong> (знания)</p>
+<ol><li>His <em>knowledge</em> of the period is remarkable.</li><li>She has a working <em>knowledge</em> of three languages.</li><li>The job requires <em>knowledge</em> of both systems.</li></ol>
+<p><strong>2. Awareness of a fact.</strong> (осведомлённость)</p>
+<ol start="4"><li>To my <em>knowledge</em>, nobody has complained.</li><li>It happened without my <em>knowledge</em>.</li></ol>
+<p><strong>3. Human understanding in general.</strong> (познание)</p>
+<ol start="6"><li>Scientific <em>knowledge</em> advances by argument.</li></ol>
+<dl class="fields"><dt>See also</dt><dd><a href="#information">information</a> &middot; <a href="#advice">advice</a></dd></dl>
+<hr>
+<h3 id="money">money<a class="hash" href="#money" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/ˈmʌni/ &middot; <em>MUN-ee</em></dd><dt>Русский</dt><dd>деньги</dd><dt>Countability</dt><dd>uncountable — no plural in ordinary use</dd><dt>Agreement</dt><dd>singular verb — <em>the money is gone</em></dd><dt>Counted with</dt><dd><em>a sum of money</em>, <em>an amount of money</em></dd><dt>Type</dt><dd>concrete and abstract</dd><dt>Variants</dt><dd><em>monies</em> (also <em>moneys</em>) exists in legal and financial writing, meaning separate sums</dd><dt>Contrast</dt><dd>The trap for Russian speakers is agreement: Russian <em>деньги</em> is plural, English <em>money</em> is singular. Say <em>the money <strong>is</strong> on the table</em>, never ✗ <em>the money are</em>. The technical plural <em>monies</em> means distinct funds, not banknotes.</dd></dl>
+<p>A medium of exchange; wealth.</p>
+<p><strong>1. Currency and wealth.</strong> (деньги)</p>
+<ol><li>The <em>money</em> is already in your account.</li><li>How much <em>money</em> do you need?</li><li>All the <em>money</em> was spent on repairs.</li><li>They raised a large sum of <em>money</em>.</li></ol>
+<p><strong>2. In legal and financial use — monies.</strong> (денежные суммы)</p>
+<ol start="5"><li>All <em>monies</em> received must be recorded separately.</li></ol>
+<p><strong>3. In fixed expressions.</strong> (в устойчивых выражениях)</p>
+<ol start="6"><li>That's the best value for <em>money</em> in the store.</li><li><em>Money</em> doesn't grow on trees.</li></ol>
+<dl class="fields"><dt>See also</dt><dd><a href="#cash">cash</a> &middot; <a href="#wealth">wealth</a></dd></dl>
+<hr>
+<h3 id="cash">cash<a class="hash" href="#cash" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/kæʃ/ &middot; <em>kash</em></dd><dt>Русский</dt><dd>наличные</dd><dt>Countability</dt><dd>uncountable — no plural, no <em>a</em></dd><dt>Agreement</dt><dd>singular verb — <em>the cash is in the safe</em></dd><dt>Counted with</dt><dd><em>an amount of cash</em>, <em>a sum of cash</em></dd><dt>Type</dt><dd>concrete</dd><dt>Contrast</dt><dd>✗ <em>cashes</em> is wrong as a noun. <em>Cash</em> means physical money specifically, as opposed to cards or credit — <em>do you take cash?</em></dd></dl>
+<p>Money in the form of coins and notes.</p>
+<p><strong>1. Physical money.</strong> (наличные)</p>
+<ol><li>I don't have any <em>cash</em> on me.</li><li>The <em>cash</em> is kept in the safe overnight.</li><li>He paid <em>cash</em> for the whole thing.</li><li>They found a large amount of <em>cash</em> in the trunk.</li></ol>
+<p><strong>2. Available funds.</strong> Business use. (денежные средства)</p>
+<ol start="5"><li>The company is short of <em>cash</em> this quarter.</li><li><em>Cash</em> flow is the real problem.</li></ol>
+<dl class="fields"><dt>See also</dt><dd><a href="#money">money</a></dd></dl>
+<hr>
+<h3 id="bread">bread<a class="hash" href="#bread" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/brɛd/ &middot; <em>bred</em></dd><dt>Русский</dt><dd>хлеб</dd><dt>Countability</dt><dd>uncountable — no plural, no <em>a</em></dd><dt>Agreement</dt><dd>singular verb — <em>the bread is fresh</em></dd><dt>Counted with</dt><dd><em>a loaf of bread</em>, <em>a slice of bread</em>, <em>a piece of bread</em></dd><dt>Type</dt><dd>concrete</dd><dt>Variants</dt><dd><em>breads</em> occurs when contrasting types — <em>the breads of Italy</em></dd><dt>Contrast</dt><dd>✗ <em>a bread</em> is wrong for one loaf — say <em>a loaf of bread</em>. The partitive matters: <em>a slice</em> for a cut piece, <em>a loaf</em> for the whole thing. Most foods behave this way: <em>a slice of cheese</em>, <em>a bar of chocolate</em>, <em>a grain of rice</em>.</dd></dl>
+<p>The baked food made from flour.</p>
+<p><strong>1. The food.</strong> (хлеб)</p>
+<ol><li>We're out of <em>bread</em>.</li><li>Buy a loaf of <em>bread</em> on the way home.</li><li>She toasted two slices of <em>bread</em>.</li><li>Fresh <em>bread</em> was cooling on the rack.</li></ol>
+<p><strong>2. Types of bread, contrasted.</strong> Countable. (сорта хлеба)</p>
+<ol start="5"><li>The bakery makes a dozen different <em>breads</em>.</li></ol>
+<p><strong>3. In fixed expressions.</strong> (в устойчивых выражениях)</p>
+<ol start="6"><li>Teaching is her <em>bread</em> and butter.</li></ol>
+<dl class="fields"><dt>See also</dt><dd><a href="04-f-to-ves.html#loaf">loaf</a> &middot; <a href="#rice">rice</a></dd></dl>
+<hr>
+<h3 id="rice">rice<a class="hash" href="#rice" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/raɪs/ &middot; <em>ryse</em></dd><dt>Русский</dt><dd>рис</dd><dt>Countability</dt><dd>uncountable — no plural, no <em>a</em></dd><dt>Agreement</dt><dd>singular verb — <em>the rice is ready</em></dd><dt>Counted with</dt><dd><em>a grain of rice</em>, <em>a cup of rice</em>, <em>a bowl of rice</em></dd><dt>Type</dt><dd>concrete</dd><dt>Contrast</dt><dd>✗ <em>rices</em> is wrong. Grains and powders are uncountable in English: <em>rice</em>, <em>flour</em>, <em>sugar</em>, <em>salt</em>, <em>sand</em>, <em>dust</em>. Count them with <em>a grain of</em> or a measure.</dd></dl>
+<p>The cereal grain.</p>
+<p><strong>1. The food.</strong> (рис)</p>
+<ol><li>The <em>rice</em> is almost done.</li><li>Add two cups of <em>rice</em> to the pot.</li><li>Not a single grain of <em>rice</em> was left.</li><li>Brown <em>rice</em> takes longer to cook.</li><li>They serve <em>rice</em> with everything.</li></ol>
+<dl class="fields"><dt>See also</dt><dd><a href="#bread">bread</a> &middot; <a href="#sugar">sugar</a></dd></dl>
+<hr>
+<h3 id="sugar">sugar<a class="hash" href="#sugar" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/ˈʃʊɡər/ &middot; <em>SHUUG-ur</em></dd><dt>Русский</dt><dd>сахар</dd><dt>Countability</dt><dd>uncountable — no plural, no <em>a</em></dd><dt>Agreement</dt><dd>singular verb — <em>the sugar is in the cupboard</em></dd><dt>Counted with</dt><dd><em>a spoonful of sugar</em>, <em>a cube of sugar</em>, <em>a bag of sugar</em></dd><dt>Type</dt><dd>concrete</dd><dt>Variants</dt><dd><em>sugars</em> is used technically for types of sugar in chemistry and nutrition labels</dd><dt>Contrast</dt><dd>✗ <em>a sugar</em> is wrong for the substance, though in a café <em>two sugars</em> is a normal way to ask for two spoonfuls or packets — a common informal exception.</dd></dl>
+<p>The sweet crystalline substance.</p>
+<p><strong>1. The substance.</strong> (сахар)</p>
+<ol><li>There's no <em>sugar</em> left.</li><li>Add a spoonful of <em>sugar</em>.</li><li>She takes her coffee without <em>sugar</em>.</li><li>Too much <em>sugar</em> is bad for your teeth.</li></ol>
+<p><strong>2. Types of sugar.</strong> Technical, countable. (сахара́)</p>
+<ol start="5"><li>The label lists three added <em>sugars</em>.</li></ol>
+<p><strong>3. Informally — servings of sugar.</strong> (порции сахара)</p>
+<ol start="6"><li>Two <em>sugars</em>, please.</li></ol>
+<dl class="fields"><dt>See also</dt><dd><a href="#rice">rice</a> &middot; <a href="#salt">salt</a></dd></dl>
+<hr>
+<h3 id="salt">salt<a class="hash" href="#salt" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/sɔːlt/ &middot; <em>sawlt</em></dd><dt>Русский</dt><dd>соль</dd><dt>Countability</dt><dd>uncountable — no plural, no <em>a</em></dd><dt>Agreement</dt><dd>singular verb — <em>the salt is on the table</em></dd><dt>Counted with</dt><dd><em>a pinch of salt</em>, <em>a grain of salt</em>, <em>a teaspoon of salt</em></dd><dt>Type</dt><dd>concrete</dd><dt>Variants</dt><dd><em>salts</em> is countable in chemistry, meaning ionic compounds, and in <em>bath salts</em>, <em>smelling salts</em></dd><dt>Contrast</dt><dd>✗ <em>a salt</em> is wrong for the seasoning. In chemistry <em>a salt</em> is any compound of that class, and there the plural is normal.</dd></dl>
+<p>The white crystalline seasoning; in chemistry, an ionic compound.</p>
+<p><strong>1. The seasoning.</strong> (соль)</p>
+<ol><li>Pass the <em>salt</em>, please.</li><li>Add a pinch of <em>salt</em> to the water.</li><li>There's too much <em>salt</em> in this soup.</li></ol>
+<p><strong>2. In chemistry — countable.</strong> (соль как соединение)</p>
+<ol start="4"><li>Sodium chloride is one of many <em>salts</em>.</li></ol>
+<p><strong>3. In fixed expressions.</strong> (в устойчивых выражениях)</p>
+<ol start="5"><li>Take his story with a grain of <em>salt</em>.</li><li>She's the <em>salt</em> of the earth.</li></ol>
+<dl class="fields"><dt>See also</dt><dd><a href="#sugar">sugar</a></dd></dl>
+<hr>
+<h3 id="water">water<a class="hash" href="#water" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/ˈwɔːtər/ &middot; <em>WAW-tur</em></dd><dt>Русский</dt><dd>вода</dd><dt>Countability</dt><dd>uncountable — no plural in the ordinary sense</dd><dt>Agreement</dt><dd>singular verb — <em>the water is cold</em></dd><dt>Counted with</dt><dd><em>a glass of water</em>, <em>a bottle of water</em>, <em>a drop of water</em></dd><dt>Type</dt><dd>concrete</dd><dt>Variants</dt><dd><em>waters</em> is used of large bodies of water and in fixed phrases — <em>territorial waters</em>, <em>troubled waters</em></dd><dt>Contrast</dt><dd>✗ <em>a water</em> is wrong in careful English, though ordering <em>two waters</em> in a restaurant is normal informal usage, meaning two glasses or bottles. Liquids generally behave this way: <em>milk</em>, <em>coffee</em>, <em>oil</em>, <em>wine</em>.</dd></dl>
+<p>The liquid.</p>
+<p><strong>1. The liquid.</strong> (вода)</p>
+<ol><li>The <em>water</em> is too cold to swim in.</li><li>Bring me a glass of <em>water</em>.</li><li>All the <em>water</em> had evaporated.</li><li>Drinking <em>water</em> is scarce here.</li></ol>
+<p><strong>2. Bodies of water — waters.</strong> (воды)</p>
+<ol start="5"><li>The ship entered international <em>waters</em>.</li><li>Fish spawn in these <em>waters</em> every spring.</li></ol>
+<p><strong>3. In fixed expressions.</strong> (в устойчивых выражениях)</p>
+<ol start="7"><li>That's water under the bridge now.</li><li>He's in hot <em>water</em> with his boss.</li></ol>
+<dl class="fields"><dt>See also</dt><dd><a href="#air">air</a> &middot; <a href="#milk">milk</a></dd></dl>
+<hr>
+<h3 id="milk">milk<a class="hash" href="#milk" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/mɪlk/ &middot; <em>milk</em></dd><dt>Русский</dt><dd>молоко</dd><dt>Countability</dt><dd>uncountable — no plural, no <em>a</em></dd><dt>Agreement</dt><dd>singular verb — <em>the milk has gone bad</em></dd><dt>Counted with</dt><dd><em>a glass of milk</em>, <em>a carton of milk</em>, <em>a gallon of milk</em></dd><dt>Type</dt><dd>concrete</dd><dt>Variants</dt><dd><em>milks</em> is used of types — <em>plant milks</em>, <em>nut milks</em></dd><dt>Contrast</dt><dd>✗ <em>a milk</em> is wrong for the substance. The plural has recently become normal for varieties: <em>oat and almond milks</em>.</dd></dl>
+<p>The white liquid produced by mammals, and plant-based substitutes.</p>
+<p><strong>1. The liquid.</strong> (молоко)</p>
+<ol><li>The <em>milk</em> has gone bad.</li><li>Pick up a gallon of <em>milk</em>.</li><li>She drinks her coffee with <em>milk</em>.</li><li>There's no <em>milk</em> left.</li></ol>
+<p><strong>2. Types of milk.</strong> Countable, recent usage. (виды молока)</p>
+<ol start="5"><li>The café stocks four different plant <em>milks</em>.</li></ol>
+<p><strong>3. In fixed expressions.</strong> (в устойчивых выражениях)</p>
+<ol start="6"><li>It's no use crying over spilled <em>milk</em>.</li></ol>
+<dl class="fields"><dt>See also</dt><dd><a href="#water">water</a></dd></dl>
+<hr>
+<h3 id="air">air<a class="hash" href="#air" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/ɛr/ &middot; <em>air</em></dd><dt>Русский</dt><dd>воздух</dd><dt>Countability</dt><dd>uncountable — no plural in the main sense</dd><dt>Agreement</dt><dd>singular verb — <em>the air is dry today</em></dd><dt>Counted with</dt><dd><em>a breath of air</em>, <em>a lungful of air</em></dd><dt>Type</dt><dd>concrete and abstract</dd><dt>Variants</dt><dd><em>airs</em> means affected manners — <em>putting on airs</em></dd><dt>Contrast</dt><dd>✗ <em>an air</em> is wrong for the gas, but <em>an air of</em> meaning an appearance or manner is standard: <em>an air of confidence</em>. The plural <em>airs</em> survives only in <em>put on airs</em>, meaning to behave pretentiously.</dd></dl>
+<p>The gas we breathe; also a manner or appearance.</p>
+<p><strong>1. The gas.</strong> (воздух)</p>
+<ol><li>The <em>air</em> is thinner at this altitude.</li><li>Let some fresh <em>air</em> in.</li><li>There's no <em>air</em> in this tire.</li></ol>
+<p><strong>2. A manner or appearance.</strong> Countable with <em>an</em>. (вид, манера)</p>
+<ol start="4"><li>She has an <em>air</em> of complete authority.</li><li>The house has an <em>air</em> of neglect.</li></ol>
+<p><strong>3. Affected manners — airs.</strong> (жеманство)</p>
+<ol start="6"><li>He's been putting on <em>airs</em> since the promotion.</li></ol>
+<dl class="fields"><dt>See also</dt><dd><a href="#water">water</a> &middot; <a href="#weather">weather</a></dd></dl>
+<hr>
+<h3 id="weather">weather<a class="hash" href="#weather" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/ˈwɛðər/ &middot; <em>WETH-ur</em></dd><dt>Русский</dt><dd>погода</dd><dt>Countability</dt><dd>uncountable — no plural, no <em>a</em></dd><dt>Agreement</dt><dd>singular verb — <em>the weather is improving</em></dd><dt>Counted with</dt><dd><em>a spell of weather</em>, <em>a stretch of weather</em></dd><dt>Type</dt><dd>abstract</dd><dt>Contrast</dt><dd>✗ <em>a weather</em> and ✗ <em>weathers</em> are wrong. Note that <em>whether</em> is a different word entirely, pronounced the same by most Americans. For one instance of bad weather, say <em>a storm</em> or <em>a spell of bad weather</em>.</dd></dl>
+<p>The state of the atmosphere at a place and time.</p>
+<p><strong>1. Atmospheric conditions.</strong> (погода)</p>
+<ol><li>The <em>weather</em> is supposed to improve tomorrow.</li><li>We had terrible <em>weather</em> the whole week.</li><li>What's the <em>weather</em> like there?</li><li>Bad <em>weather</em> delayed every flight.</li></ol>
+<p><strong>2. In fixed expressions.</strong> (в устойчивых выражениях)</p>
+<ol start="5"><li>She's feeling a little under the <em>weather</em> today.</li><li>They weathered the storm together.</li></ol>
+<dl class="fields"><dt>See also</dt><dd><a href="#air">air</a> &middot; <a href="#traffic">traffic</a></dd></dl>
+<hr>
+<h3 id="traffic">traffic<a class="hash" href="#traffic" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/ˈtræfɪk/ &middot; <em>TRAF-ik</em></dd><dt>Русский</dt><dd>движение, трафик</dd><dt>Countability</dt><dd>uncountable — no plural, no <em>a</em></dd><dt>Agreement</dt><dd>singular verb — <em>the traffic is terrible</em></dd><dt>Counted with</dt><dd><em>a lot of traffic</em>, <em>heavy traffic</em></dd><dt>Type</dt><dd>abstract</dd><dt>Contrast</dt><dd>✗ <em>traffics</em> and ✗ <em>a traffic</em> are wrong. The verb <em>traffic</em> meaning to trade illegally does inflect — <em>trafficking</em>, <em>trafficked</em> — with a <em>k</em> inserted before the ending.</dd></dl>
+<p>Vehicles moving on a road; also the movement of data or goods.</p>
+<p><strong>1. Vehicles on the road.</strong> (дорожное движение)</p>
+<ol><li>The <em>traffic</em> was terrible this morning.</li><li>There's heavy <em>traffic</em> on the bridge.</li><li>We sat in <em>traffic</em> for an hour.</li></ol>
+<p><strong>2. Movement of data or people.</strong> (трафик)</p>
+<ol start="4"><li>Web <em>traffic</em> doubled after the article.</li><li>Airport <em>traffic</em> peaks in July.</li></ol>
+<p><strong>3. Illegal trade.</strong> (незаконная торговля)</p>
+<ol start="6"><li>The <em>traffic</em> in stolen art is worth billions.</li></ol>
+<dl class="fields"><dt>See also</dt><dd><a href="#weather">weather</a></dd></dl>
+<hr>
+<h3 id="music">music<a class="hash" href="#music" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/ˈmjuːzɪk/ &middot; <em>MYOO-zik</em></dd><dt>Русский</dt><dd>музыка</dd><dt>Countability</dt><dd>uncountable — no plural, no <em>a</em></dd><dt>Agreement</dt><dd>singular verb — <em>the music was too loud</em></dd><dt>Counted with</dt><dd><em>a piece of music</em>, <em>a song</em>, <em>a work</em></dd><dt>Type</dt><dd>abstract</dd><dt>Contrast</dt><dd>✗ <em>musics</em> and ✗ <em>a music</em> are wrong. For one item say <em>a piece of music</em>, <em>a song</em>, or <em>a track</em>. Compare <em>poetry</em> (uncountable) with <em>poem</em> (countable) — the same pairing.</dd></dl>
+<p>Organized sound as an art form.</p>
+<p><strong>1. The art form and its sound.</strong> (музыка)</p>
+<ol><li>The <em>music</em> was far too loud.</li><li>She studies classical <em>music</em>.</li><li>He wrote the <em>music</em> for three films.</li><li>They played two pieces of <em>music</em> by the same composer.</li></ol>
+<p><strong>2. Written notation.</strong> (ноты)</p>
+<ol start="5"><li>Bring your <em>music</em> to rehearsal.</li></ol>
+<p><strong>3. In fixed expressions.</strong> (в устойчивых выражениях)</p>
+<ol start="6"><li>That's <em>music</em> to my ears.</li><li>Sooner or later he'll have to face the <em>music</em>.</li></ol>
+<dl class="fields"><dt>See also</dt><dd><a href="#poetry">poetry</a></dd></dl>
+<hr>
+<h3 id="poetry">poetry<a class="hash" href="#poetry" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/ˈpoʊətri/ &middot; <em>POH-uh-tree</em></dd><dt>Русский</dt><dd>поэзия, стихи</dd><dt>Countability</dt><dd>uncountable — no plural, no <em>a</em></dd><dt>Agreement</dt><dd>singular verb — <em>her poetry is difficult</em></dd><dt>Counted with</dt><dd><em>a poem</em>, <em>a piece of poetry</em>, <em>a line of poetry</em></dd><dt>Type</dt><dd>abstract</dd><dt>Contrast</dt><dd>✗ <em>poetries</em> and ✗ <em>a poetry</em> are wrong. The countable partner is <em>poem</em>: <em>she wrote three poems</em>, not ✗ <em>three poetries</em>. The same pattern runs through <em>literature/novel</em>, <em>music/song</em>, <em>art/painting</em>.</dd></dl>
+<p>Literature written in verse.</p>
+<p><strong>1. Verse as an art form.</strong> (поэзия)</p>
+<ol><li>Her <em>poetry</em> is hard to read aloud.</li><li>He studied twentieth-century <em>poetry</em>.</li><li>She published one book of <em>poetry</em>.</li><li>There is real <em>poetry</em> in his prose.</li></ol>
+<p><strong>2. Individual works — use <em>poem</em>.</strong> (стихотворение)</p>
+<ol start="5"><li>She wrote four <em>poems</em> that winter.</li></ol>
+<dl class="fields"><dt>See also</dt><dd><a href="#music">music</a> &middot; <a href="#literature">literature</a></dd></dl>
+<hr>
+<h3 id="literature">literature<a class="hash" href="#literature" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/ˈlɪtərətʃər/ &middot; <em>LIT-ur-uh-chur</em></dd><dt>Русский</dt><dd>литература</dd><dt>Countability</dt><dd>uncountable — no plural, no <em>a</em></dd><dt>Agreement</dt><dd>singular verb — <em>the literature is extensive</em></dd><dt>Counted with</dt><dd><em>a work of literature</em>, <em>a body of literature</em></dd><dt>Type</dt><dd>abstract</dd><dt>Contrast</dt><dd>✗ <em>literatures</em> is wrong in ordinary use, though comparative scholars do write <em>the literatures of Europe</em>. The academic sense — all published work on a subject — is also uncountable: <em>the literature on this topic</em>.</dd></dl>
+<p>Written works of artistic value; also the body of published work on a subject.</p>
+<p><strong>1. Artistic writing.</strong> (литература)</p>
+<ol><li>She teaches American <em>literature</em>.</li><li>It is a genuine work of <em>literature</em>.</li><li>Russian <em>literature</em> of that period is extraordinary.</li></ol>
+<p><strong>2. Published research on a subject.</strong> Academic. (научная литература)</p>
+<ol start="4"><li>The <em>literature</em> on sleep is enormous.</li><li>Nothing in the <em>literature</em> supports that claim.</li></ol>
+<p><strong>3. Printed material, brochures.</strong> (печатные материалы)</p>
+<ol start="6"><li>They handed out <em>literature</em> at the entrance.</li></ol>
+<dl class="fields"><dt>See also</dt><dd><a href="#poetry">poetry</a> &middot; <a href="#research">research</a></dd></dl>
+<hr>
+<h3 id="progress">progress<a class="hash" href="#progress" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/ˈprɑːɡrɛs/ &middot; <em>PRAH-gres</em> — noun; the verb is /prəˈɡrɛs/ <em>pruh-GRES</em></dd><dt>Русский</dt><dd>прогресс, продвижение</dd><dt>Countability</dt><dd>uncountable — no plural, no <em>a</em></dd><dt>Agreement</dt><dd>singular verb — <em>progress has been slow</em></dd><dt>Counted with</dt><dd><em>a piece of progress</em> is unnatural — use <em>a step forward</em>, <em>an advance</em></dd><dt>Type</dt><dd>abstract</dd><dt>Contrast</dt><dd>✗ <em>progresses</em> and ✗ <em>a progress</em> are wrong as nouns. Note the stress shift between noun and verb — <em>PRAH-gres</em> for the noun, <em>pruh-GRES</em> for the verb — a pattern shared by <em>record</em>, <em>permit</em>, <em>contrast</em>, and many others.</dd></dl>
+<p>Forward movement toward a goal.</p>
+<p><strong>1. Advancement toward a goal.</strong> (прогресс)</p>
+<ol><li><em>Progress</em> has been slower than expected.</li><li>She's making good <em>progress</em> in Spanish.</li><li>Little <em>progress</em> was made at the meeting.</li><li>Any <em>progress</em> on the report?</li></ol>
+<p><strong>2. In fixed expressions.</strong> (в устойчивых выражениях)</p>
+<ol start="5"><li>The building is a work in <em>progress</em>.</li><li>The meeting is already in <em>progress</em>.</li></ol>
+<dl class="fields"><dt>See also</dt><dd><a href="#research">research</a></dd></dl>
+<hr>
+<h3 id="machinery">machinery<a class="hash" href="#machinery" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/məˈʃiːnəri/ &middot; <em>muh-SHEE-nuh-ree</em></dd><dt>Русский</dt><dd>механизмы, оборудование</dd><dt>Countability</dt><dd>uncountable — no plural, no <em>a</em></dd><dt>Agreement</dt><dd>singular verb — <em>the machinery is idle</em></dd><dt>Counted with</dt><dd><em>a piece of machinery</em>, <em>a machine</em></dd><dt>Type</dt><dd>concrete and abstract</dd><dt>Contrast</dt><dd>✗ <em>machineries</em> is wrong. The countable partner is <em>machine</em>: <em>three machines</em>, not ✗ <em>three machineries</em>.</dd></dl>
+<p>Machines collectively; also the organizational structure of something.</p>
+<p><strong>1. Machines as a mass.</strong> (механизмы)</p>
+<ol><li>Heavy <em>machinery</em> is not allowed on this road.</li><li>All the <em>machinery</em> has been sold.</li><li>One piece of <em>machinery</em> failed and stopped the line.</li></ol>
+<p><strong>2. The workings of an organization.</strong> Figurative. (аппарат, механизм)</p>
+<ol start="4"><li>The <em>machinery</em> of government moves slowly.</li><li>He knows the party <em>machinery</em> inside out.</li></ol>
+<dl class="fields"><dt>See also</dt><dd><a href="#equipment">equipment</a></dd></dl>
+<hr>
+<h3 id="jewelry">jewelry<a class="hash" href="#jewelry" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/ˈdʒuːəlri/ &middot; <em>JOO-uhl-ree</em></dd><dt>Русский</dt><dd>украшения, ювелирные изделия</dd><dt>Countability</dt><dd>uncountable — no plural, no <em>a</em></dd><dt>Agreement</dt><dd>singular verb — <em>the jewelry is insured</em></dd><dt>Counted with</dt><dd><em>a piece of jewelry</em>, <em>an item of jewelry</em></dd><dt>Type</dt><dd>concrete</dd><dt>Variants</dt><dd>the British spelling is <em>jewellery</em>, with an extra <em>le</em></dd><dt>Contrast</dt><dd>✗ <em>jewelries</em> is wrong. The countable partner is <em>jewel</em>, or the specific item: <em>a ring</em>, <em>a necklace</em>.</dd></dl>
+<p>Ornaments worn on the body.</p>
+<p><strong>1. Ornaments.</strong> (украшения)</p>
+<ol><li>All her <em>jewelry</em> is insured.</li><li>He gave her one piece of <em>jewelry</em> a year.</li><li>The <em>jewelry</em> was stolen in the burglary.</li><li>She never wears <em>jewelry</em> to work.</li></ol>
+<p><strong>2. Attributive.</strong> (ювелирный)</p>
+<ol start="5"><li>There's a <em>jewelry</em> store on the third floor.</li></ol>
+<dl class="fields"><dt>See also</dt><dd><a href="#clothing">clothing</a></dd></dl>
+<hr>
+<h3 id="clothing">clothing<a class="hash" href="#clothing" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/ˈkloʊðɪŋ/ &middot; <em>KLOH-thing</em></dd><dt>Русский</dt><dd>одежда</dd><dt>Countability</dt><dd>uncountable — no plural, no <em>a</em></dd><dt>Agreement</dt><dd>singular verb — <em>warm clothing is essential</em></dd><dt>Counted with</dt><dd><em>an item of clothing</em>, <em>a piece of clothing</em>, <em>a garment</em></dd><dt>Type</dt><dd>concrete</dd><dt>Contrast</dt><dd>Distinguish from <em>clothes</em>, which is a plural-only noun taking a plural verb — see <a href="15-plural-only.html#clothes">clothes</a>. <em>Clothing</em> is uncountable and singular; <em>clothes</em> is plural and has no singular. ✗ <em>a clothing</em> and ✗ <em>a clothes</em> are both wrong.</dd></dl>
+<p>Garments collectively.</p>
+<p><strong>1. Garments as a mass.</strong> (одежда)</p>
+<ol><li>Warm <em>clothing</em> is essential at that altitude.</li><li>Each item of <em>clothing</em> is labeled.</li><li>The charity collects used <em>clothing</em>.</li><li>Protective <em>clothing</em> must be worn.</li></ol>
+<p><strong>2. Attributive.</strong> (одёжный)</p>
+<ol start="5"><li>She works for a <em>clothing</em> company.</li></ol>
+<dl class="fields"><dt>See also</dt><dd><a href="15-plural-only.html#clothes">clothes</a> &middot; <a href="#jewelry">jewelry</a></dd></dl>
+<hr>
+<h3 id="software">software<a class="hash" href="#software" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/ˈsɔːftwɛr/ &middot; <em>SAWFT-wair</em></dd><dt>Русский</dt><dd>программное обеспечение</dd><dt>Countability</dt><dd>uncountable — no plural, no <em>a</em></dd><dt>Agreement</dt><dd>singular verb — <em>the software is outdated</em></dd><dt>Counted with</dt><dd><em>a piece of software</em>, <em>a program</em>, <em>an application</em></dd><dt>Type</dt><dd>abstract</dd><dt>Contrast</dt><dd>✗ <em>softwares</em> is wrong, and it is one of the most frequent errors in technical writing by non-native speakers. For one item say <em>a program</em>, <em>an app</em>, or <em>a piece of software</em>. <em>Hardware</em> behaves identically.</dd></dl>
+<p>Computer programs collectively.</p>
+<p><strong>1. Computer programs.</strong> (программное обеспечение)</p>
+<ol><li>The <em>software</em> is out of date.</li><li>They wrote a piece of <em>software</em> to handle it.</li><li>All the <em>software</em> is licensed annually.</li><li>New <em>software</em> was installed overnight.</li></ol>
+<p><strong>2. Attributive.</strong> (программный)</p>
+<ol start="5"><li>She works as a <em>software</em> engineer.</li></ol>
+<dl class="fields"><dt>See also</dt><dd><a href="#equipment">equipment</a></dd></dl>
+<hr>
+<h3 id="garbage">garbage<a class="hash" href="#garbage" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/ˈɡɑːrbɪdʒ/ &middot; <em>GAR-bij</em></dd><dt>Русский</dt><dd>мусор</dd><dt>Countability</dt><dd>uncountable — no plural, no <em>a</em></dd><dt>Agreement</dt><dd>singular verb — <em>the garbage is collected on Tuesdays</em></dd><dt>Counted with</dt><dd><em>a bag of garbage</em>, <em>a piece of garbage</em></dd><dt>Type</dt><dd>concrete and abstract</dd><dt>Variants</dt><dd><em>trash</em> and <em>rubbish</em> are synonyms with identical grammar; <em>garbage</em> and <em>trash</em> are American, <em>rubbish</em> British</dd><dt>Contrast</dt><dd>✗ <em>garbages</em> is wrong. All the waste words are uncountable: <em>garbage</em>, <em>trash</em>, <em>rubbish</em>, <em>litter</em>, <em>waste</em>.</dd></dl>
+<p>Waste material; also nonsense.</p>
+<p><strong>1. Waste.</strong> (мусор)</p>
+<ol><li>Take out the <em>garbage</em>.</li><li>The <em>garbage</em> is collected on Tuesdays.</li><li>There were three bags of <em>garbage</em> by the curb.</li></ol>
+<p><strong>2. Nonsense or worthless material.</strong> Informal. (чушь)</p>
+<ol start="4"><li>That article is complete <em>garbage</em>.</li><li>He talks a lot of <em>garbage</em>.</li></ol>
+<p><strong>3. Attributive.</strong> (мусорный)</p>
+<ol start="6"><li>The <em>garbage</em> truck comes at six in the morning.</li></ol>
+<dl class="fields"><dt>See also</dt><dd><a href="#equipment">equipment</a></dd></dl>
+<hr>
+<h3 id="wealth">wealth<a class="hash" href="#wealth" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/wɛlθ/ &middot; <em>welth</em></dd><dt>Русский</dt><dd>богатство</dd><dt>Countability</dt><dd>uncountable — no plural, no <em>a</em></dd><dt>Agreement</dt><dd>singular verb — <em>his wealth is largely inherited</em></dd><dt>Counted with</dt><dd><em>an amount of wealth</em>, <em>a fortune</em></dd><dt>Type</dt><dd>abstract</dd><dt>Contrast</dt><dd>✗ <em>wealths</em> is wrong. Note the fixed phrase <em>a wealth of</em>, meaning an abundance — <em>a wealth of experience</em> — which is standard despite the uncountability.</dd></dl>
+<p>An abundance of money or valuable possessions.</p>
+<p><strong>1. Riches.</strong> (богатство)</p>
+<ol><li>His <em>wealth</em> is mostly inherited.</li><li>The country's <em>wealth</em> comes from oil.</li><li><em>Wealth</em> is very unevenly distributed here.</li></ol>
+<p><strong>2. An abundance of something.</strong> Fixed phrase <em>a wealth of</em>. (изобилие)</p>
+<ol start="4"><li>She brings a <em>wealth</em> of experience to the role.</li><li>The archive holds a <em>wealth</em> of unpublished material.</li></ol>
+<dl class="fields"><dt>See also</dt><dd><a href="#money">money</a> &middot; <a href="#cash">cash</a></dd></dl>
+<hr>
+<h3 id="luck">luck<a class="hash" href="#luck" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/lʌk/ &middot; <em>luk</em></dd><dt>Русский</dt><dd>удача, везение</dd><dt>Countability</dt><dd>uncountable — no plural, no <em>a</em></dd><dt>Agreement</dt><dd>singular verb — <em>his luck has run out</em></dd><dt>Counted with</dt><dd><em>a stroke of luck</em>, <em>a bit of luck</em>, <em>a piece of luck</em></dd><dt>Type</dt><dd>abstract</dd><dt>Contrast</dt><dd>✗ <em>lucks</em> and ✗ <em>a luck</em> are wrong. The idiomatic partitive is <em>a stroke of luck</em>. Compare <em>chance</em>, which is countable: <em>a chance</em>, <em>two chances</em>.</dd></dl>
+<p>Success or failure apparently brought by chance.</p>
+<p><strong>1. Good fortune.</strong> (удача)</p>
+<ol><li>We had a real stroke of <em>luck</em>.</li><li>His <em>luck</em> finally ran out.</li><li>With any <em>luck</em>, we'll be there by six.</li><li>Good <em>luck</em> on the exam.</li></ol>
+<p><strong>2. Chance as a force.</strong> (везение, случай)</p>
+<ol start="5"><li>It was pure <em>luck</em> that anyone noticed.</li></ol>
+<p><strong>3. In fixed expressions.</strong> (в устойчивых выражениях)</p>
+<ol start="6"><li>Better <em>luck</em> next time.</li><li>Just my <em>luck</em> — the store was closed.</li></ol>
+<dl class="fields"><dt>See also</dt><dd><a href="#wealth">wealth</a></dd></dl>
+<hr>
+<h3 id="feedback">feedback<a class="hash" href="#feedback" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/ˈfiːdbæk/ &middot; <em>FEED-bak</em></dd><dt>Русский</dt><dd>обратная связь, отзыв</dd><dt>Countability</dt><dd>uncountable — no plural, no <em>a</em></dd><dt>Agreement</dt><dd>singular verb — <em>the feedback was positive</em></dd><dt>Counted with</dt><dd><em>a piece of feedback</em>, <em>a comment</em></dd><dt>Type</dt><dd>abstract</dd><dt>Contrast</dt><dd>✗ <em>feedbacks</em> and ✗ <em>a feedback</em> are wrong, and both are extremely common in business email written by non-native speakers. Say <em>some feedback</em>, <em>a piece of feedback</em>, or <em>comments</em>.</dd></dl>
+<p>Reactions and comments given about something, used to guide improvement.</p>
+<p><strong>1. Comments on performance or work.</strong> (обратная связь)</p>
+<ol><li>The <em>feedback</em> was overwhelmingly positive.</li><li>Could you give me some <em>feedback</em> on the draft?</li><li>We got one useful piece of <em>feedback</em>.</li><li>Customer <em>feedback</em> shaped the redesign.</li></ol>
+<p><strong>2. In electronics — the squeal from a microphone.</strong> (акустическая обратная связь)</p>
+<ol start="5"><li>There was <em>feedback</em> every time he stepped forward.</li></ol>
+<dl class="fields"><dt>See also</dt><dd><a href="#advice">advice</a> &middot; <a href="#information">information</a></dd></dl></div></main>
+<button class="themebtn" id="themeBtn">Dark</button>
+<script>
+const tb=document.getElementById('themeBtn');
+function setTheme(x){document.documentElement.dataset.theme=x;tb.textContent=x==='dark'?'Light':'Dark';
+ try{localStorage.setItem('site-theme',x)}catch(e){}}
+tb.onclick=()=>setTheme(document.documentElement.dataset.theme==='dark'?'light':'dark');
+try{const s=localStorage.getItem('site-theme');
+ setTheme(s||(matchMedia('(prefers-color-scheme: dark)').matches?'dark':'light'))}catch(e){setTheme('light')}
+</script></body></html>

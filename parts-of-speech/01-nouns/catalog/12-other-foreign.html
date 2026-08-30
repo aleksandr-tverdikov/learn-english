@@ -1,0 +1,186 @@
+<!DOCTYPE html>
+<html lang="en"><head>
+<meta charset="utf-8"><meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Plurals borrowed from other languages</title>
+<style>
+:root{--bg:#faf9f7;--surface:#fff;--surface2:#f2f0ec;--border:#e2ded6;--text:#1a1815;
+--dim:#5f594f;--faint:#8a8377;--accent:#8a5a3b;--measure:72ch}
+@media(prefers-color-scheme:dark){:root{--bg:#14140f;--surface:#1d1d17;--surface2:#25251d;
+--border:#33332a;--text:#eeeae1;--dim:#a8a293;--faint:#7d776b;--accent:#d09b72}}
+:root[data-theme=dark]{--bg:#14140f;--surface:#1d1d17;--surface2:#25251d;--border:#33332a;
+--text:#eeeae1;--dim:#a8a293;--faint:#7d776b;--accent:#d09b72}
+:root[data-theme=light]{--bg:#faf9f7;--surface:#fff;--surface2:#f2f0ec;--border:#e2ded6;
+--text:#1a1815;--dim:#5f594f;--faint:#8a8377;--accent:#8a5a3b}
+*{box-sizing:border-box}
+body{margin:0;background:var(--bg);color:var(--text);
+font:17px/1.72 ui-serif,Georgia,"Iowan Old Style",Palatino,serif;-webkit-font-smoothing:antialiased}
+.wrap{max-width:min(var(--measure),100%);margin:0 auto;padding:0 22px}
+nav.crumb{border-bottom:1px solid var(--border);padding:13px 0;font-size:13.5px;
+font-family:-apple-system,BlinkMacSystemFont,"Segoe UI",sans-serif;position:sticky;top:0;background:var(--bg);z-index:20}
+nav.crumb .wrap{max-width:none;display:flex;gap:9px;align-items:center;flex-wrap:wrap}
+nav.crumb a{color:var(--dim);text-decoration:none}
+nav.crumb a:hover{color:var(--accent)}
+nav.crumb .sep{color:var(--faint)}
+main{padding:8px 0 80px}
+h1{font-size:clamp(28px,5vw,38px);line-height:1.15;letter-spacing:-.015em;margin:34px 0 18px}
+h2{font-size:25px;margin:46px 0 14px;letter-spacing:-.01em;padding-bottom:7px;border-bottom:1px solid var(--border)}
+h3{font-size:19px;margin:34px 0 10px;color:var(--accent)}
+h4{font-size:16px;margin:24px 0 8px;font-family:-apple-system,sans-serif}
+p{margin:0 0 16px}
+a{color:var(--accent)}
+.hash{opacity:0;margin-left:8px;font-weight:400;font-size:.65em;text-decoration:none;color:var(--faint)}
+h2:hover .hash,h3:hover .hash{opacity:1}
+blockquote{margin:0 0 20px;padding:14px 18px;background:var(--surface2);
+border-left:3px solid var(--accent);border-radius:0 8px 8px 0}
+blockquote p:last-child{margin-bottom:0}
+ol,ul{margin:0 0 18px;padding-left:26px}
+li{margin-bottom:8px}
+li>ul,li>ol{margin:8px 0 0}
+code{font-family:ui-monospace,SFMono-Regular,Menlo,Consolas,monospace;font-size:.87em;
+background:var(--surface2);padding:1px 5px;border-radius:4px}
+pre{background:var(--surface2);border:1px solid var(--border);border-radius:9px;
+padding:15px 17px;overflow-x:auto;margin:0 0 20px}
+pre code{background:none;padding:0;font-size:13px;line-height:1.6}
+.tw{overflow-x:auto;margin:0 0 22px;border:1px solid var(--border);border-radius:9px}
+table{border-collapse:collapse;width:100%;font-size:15px;
+font-family:-apple-system,BlinkMacSystemFont,"Segoe UI",sans-serif}
+th,td{padding:10px 14px;border-bottom:1px solid var(--border);vertical-align:top}
+th{background:var(--surface2);font-size:12px;text-transform:uppercase;
+letter-spacing:.06em;color:var(--dim);font-weight:700;white-space:nowrap}
+tbody tr:last-child td{border-bottom:none}
+hr{border:none;border-top:1px solid var(--border);margin:38px 0}
+details{background:var(--surface2);border:1px solid var(--border);border-radius:9px;
+padding:13px 17px;margin:0 0 20px}
+summary{cursor:pointer;font-weight:600;font-family:-apple-system,sans-serif;font-size:15px}
+details[open] summary{margin-bottom:12px}
+del{color:var(--faint)}
+dl.fields{margin:0 0 20px;padding:0}
+dl.fields dt{font-family:-apple-system,BlinkMacSystemFont,"Segoe UI",sans-serif;
+font-size:11px;letter-spacing:.11em;text-transform:uppercase;color:var(--faint);
+font-weight:700;margin:14px 0 4px}
+dl.fields dt:first-child{margin-top:0}
+dl.fields dd{margin:0;font-size:16px;color:var(--dim);line-height:1.62}
+dl.fields dd em{color:var(--text)}
+dl.fields dt.ru{color:var(--accent)}
+dl.fields dd strong{color:var(--text)}
+.toc{background:var(--surface2);border:1px solid var(--border);border-radius:10px;
+padding:16px 20px;margin:26px 0 34px;font-family:-apple-system,sans-serif;font-size:14px}
+.toc b{display:block;font-size:11px;letter-spacing:.12em;text-transform:uppercase;
+color:var(--faint);margin-bottom:9px}
+.toc a{display:block;padding:3px 0;color:var(--dim);text-decoration:none}
+.toc a:hover{color:var(--accent)}
+.themebtn{position:fixed;right:18px;bottom:18px;z-index:60;font-family:-apple-system,sans-serif;
+font-size:12.5px;font-weight:600;cursor:pointer;background:var(--surface);border:1px solid var(--border);
+border-radius:99px;padding:9px 16px;color:var(--text)}
+@media(max-width:600px){body{font-size:16px}.wrap{padding:0 17px}}
+</style></head><body>
+<nav class="crumb"><div class="wrap"><a href="../../../index.html">Learn English</a><span class="sep">/</span><a href="../../README.html">Parts of speech</a><span class="sep">/</span><a href="../README.html">01-nouns</a><span class="sep">/</span><span>catalog</span></div></nav>
+<main><div class="wrap"><h1 id="plurals-borrowed-from-other-languages">Plurals borrowed from other languages<a class="hash" href="#plurals-borrowed-from-other-languages" aria-label="link">#</a></h1>
+<blockquote><p><em>Graffito → graffiti</em>, <em>cherub → cherubim</em>, <em>bureau → bureaux</em>. Italian, Hebrew, and French plurals that English kept.</p></blockquote>
+<p><a href="../README.html">← The grammar of nouns</a> &middot; <a href="README.html">All groups</a></p>
+<p>Latin and Greek supply most of English's foreign plurals, but not all. A smaller set came from <strong>Italian</strong> (<em>graffiti</em>, <em>tempi</em>, <em>virtuosi</em>, <em>paparazzi</em>), <strong>Hebrew</strong> (<em>cherubim</em>, <em>seraphim</em>, <em>kibbutzim</em>), and <strong>French</strong> (<em>bureaux</em>, <em>châteaux</em>, <em>tableaux</em>).</p>
+<p>They share a pattern of behavior. In each case the borrowed plural is used by specialists, a regular English plural is available to everyone else, and — with the Italian ones especially — <strong>the foreign plural has often been reinterpreted as a singular mass noun</strong>. Almost nobody says <em>a graffito</em>; people say <em>graffiti</em> and treat it as uncountable, exactly as happened to <em>data</em>. The French plurals are the opposite case: <em>bureaux</em> and <em>châteaux</em> are spelled differently but pronounced identically to their singulars, so the distinction exists only in writing.</p>
+<hr>
+<h3 id="graffito">graffito<a class="hash" href="#graffito" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/ɡrəˈfiːtoʊ/ &middot; <em>gruh-FEE-toh</em></dd><dt>Русский</dt><dd>граффити, настенная надпись</dd><dt>Plural</dt><dd><em>graffiti</em> /ɡrəˈfiːti/ &middot; <em>gruh-FEE-tee</em></dd><dt>Countability</dt><dd><em>graffiti</em> is now usually uncountable</dd><dt>Agreement</dt><dd>usually singular — <em>graffiti is a problem here</em></dd><dt>Pattern</dt><dd>Italian <em>-o</em> → <em>-i</em></dd><dt>Group</dt><dd>12</dd><dt>Type</dt><dd>concrete</dd><dt>Variants</dt><dd>the singular <em>graffito</em> survives only in archaeology and art history</dd><dt>Contrast</dt><dd>Strictly <em>graffiti</em> is plural and <em>graffito</em> singular. In practice English has made <em>graffiti</em> a mass noun taking a singular verb, and <em>graffito</em> sounds like a technical term. Both <em>graffiti is everywhere</em> and <em>the graffiti are political</em> can be defended; the first is far commoner.</dd></dl>
+<p>Words or drawings scratched or sprayed on a wall.</p>
+<p><strong>1. Wall writing, as a mass phenomenon.</strong> Uncountable in ordinary use. (граффити)</p>
+<ol><li><em>Graffiti</em> covers the whole underpass.</li><li>The city spends millions removing <em>graffiti</em>.</li><li>Political <em>graffiti</em> appeared overnight.</li></ol>
+<p><strong>2. A single inscription.</strong> Technical. (отдельная надпись)</p>
+<ol start="4"><li>A Roman <em>graffito</em> on the wall names a gladiator.</li><li>The <em>graffiti</em> in the excavated house are mostly obscene.</li></ol>
+<dl class="fields"><dt>See also</dt><dd><a href="#tempo">tempo</a> &middot; <a href="#paparazzo">paparazzo</a></dd></dl>
+<hr>
+<h3 id="tempo">tempo<a class="hash" href="#tempo" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/ˈtɛmpoʊ/ &middot; <em>TEM-poh</em></dd><dt>Русский</dt><dd>темп</dd><dt>Plural</dt><dd><em>tempos</em> — usual &middot; <em>tempi</em> /ˈtɛmpi/ in music</dd><dt>Countability</dt><dd>countable</dd><dt>Agreement</dt><dd>plural verb — <em>the tempi vary between movements</em></dd><dt>Pattern</dt><dd>Italian <em>-o</em> → <em>-i</em></dd><dt>Group</dt><dd>12</dd><dt>Type</dt><dd>abstract</dd><dt>Variants</dt><dd><em>tempos</em> in general use; <em>tempi</em> among classical musicians</dd><dt>Contrast</dt><dd>Both are correct. <em>Tempi</em> signals a classical-music context; using it about a basketball game would sound strange.</dd></dl>
+<p>The speed at which music is played, or at which anything proceeds.</p>
+<p><strong>1. Musical speed.</strong> (темп)</p>
+<ol><li>The conductor took the second movement at a brisk <em>tempo</em>.</li><li>His <em>tempi</em> are famously fast.</li><li>Both <em>tempos</em> are marked in the score.</li></ol>
+<p><strong>2. The pace of any activity.</strong> (темп, ритм)</p>
+<ol start="4"><li>The <em>tempo</em> of the negotiations picked up.</li><li>She controls the <em>tempo</em> of the whole game.</li></ol>
+<dl class="fields"><dt>See also</dt><dd><a href="#virtuoso">virtuoso</a> &middot; <a href="05-o-plurals.html#solo">solo</a></dd></dl>
+<hr>
+<h3 id="virtuoso">virtuoso<a class="hash" href="#virtuoso" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/ˌvɜːrtʃuˈoʊsoʊ/ &middot; <em>vur-choo-OH-soh</em></dd><dt>Русский</dt><dd>виртуоз</dd><dt>Plural</dt><dd><em>virtuosos</em> — usual &middot; <em>virtuosi</em> /ˌvɜːrtʃuˈoʊsi/</dd><dt>Countability</dt><dd>countable</dd><dt>Agreement</dt><dd>plural verb — <em>the virtuosi were all under twenty</em></dd><dt>Pattern</dt><dd>Italian <em>-o</em> → <em>-i</em></dd><dt>Group</dt><dd>12</dd><dt>Type</dt><dd>concrete</dd><dt>Variants</dt><dd><em>virtuosos</em> is commoner in American English; <em>virtuosi</em> is used in classical criticism</dd></dl>
+<p>Someone with outstanding technical skill, especially in music.</p>
+<p><strong>1. A highly skilled performer.</strong> (виртуоз)</p>
+<ol><li>She was a <em>virtuoso</em> by the age of twelve.</li><li>Three <em>virtuosos</em> shared the stage.</li><li>The competition attracts <em>virtuosi</em> from every continent.</li></ol>
+<p><strong>2. Attributive — displaying great skill.</strong> (виртуозный)</p>
+<ol start="4"><li>It was a <em>virtuoso</em> performance from start to finish.</li><li>His closing argument was a <em>virtuoso</em> piece of work.</li></ol>
+<dl class="fields"><dt>See also</dt><dd><a href="#tempo">tempo</a></dd></dl>
+<hr>
+<h3 id="paparazzo">paparazzo<a class="hash" href="#paparazzo" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/ˌpɑːpəˈrɑːtsoʊ/ &middot; <em>pah-puh-RAHT-soh</em></dd><dt>Русский</dt><dd>папарацци</dd><dt>Plural</dt><dd><em>paparazzi</em> /ˌpɑːpəˈrɑːtsi/ &middot; <em>pah-puh-RAHT-see</em></dd><dt>Countability</dt><dd>countable</dd><dt>Agreement</dt><dd>plural verb — <em>the paparazzi were waiting outside</em></dd><dt>Pattern</dt><dd>Italian <em>-o</em> → <em>-i</em></dd><dt>Group</dt><dd>12</dd><dt>Type</dt><dd>concrete</dd><dt>Variants</dt><dd>the singular <em>paparazzo</em> is rare; most speakers use <em>paparazzi</em> for any number</dd><dt>Contrast</dt><dd>Like <em>graffiti</em>, the plural has largely swallowed the singular. Strictly one photographer is <em>a paparazzo</em>, but ✗ <em>a paparazzi</em> is now very common in speech.</dd></dl>
+<p>A freelance photographer who pursues celebrities.</p>
+<p><strong>1. The photographer.</strong> (папарацци)</p>
+<ol><li>The <em>paparazzi</em> followed her car from the airport.</li><li>A single <em>paparazzo</em> waited by the stage door.</li><li>She has sued three <em>paparazzi</em> this year.</li><li><em>Paparazzi</em> photographs sell for enormous sums.</li><li>The restaurant has a back entrance to avoid the <em>paparazzi</em>.</li></ol>
+<dl class="fields"><dt>See also</dt><dd><a href="#graffito">graffito</a></dd></dl>
+<hr>
+<h3 id="cherub">cherub<a class="hash" href="#cherub" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/ˈtʃɛrəb/ &middot; <em>CHER-uhb</em></dd><dt>Русский</dt><dd>херувим; ангелочек</dd><dt>Plural</dt><dd><em>cherubim</em> /ˈtʃɛrəbɪm/ (biblical) &middot; <em>cherubs</em> (art, children)</dd><dt>Countability</dt><dd>countable</dd><dt>Agreement</dt><dd>plural verb — <em>the cherubim guard the ark</em></dd><dt>Pattern</dt><dd>Hebrew <em>-im</em></dd><dt>Group</dt><dd>12</dd><dt>Type</dt><dd>concrete</dd><dt>Variants</dt><dd><em>cherubim</em> (angels of scripture) &middot; <em>cherubs</em> (chubby winged children in art, or a sweet-looking child)</dd><dt>Contrast</dt><dd>✗ <em>Cherubims</em> is a double plural — the <em>-im</em> is already the plural ending — though it appears in older translations of the Bible. The two plurals divide by register: solemn <em>cherubim</em>, everyday <em>cherubs</em>.</dd></dl>
+<p>An angelic being of the second order; in art, a chubby winged child.</p>
+<p><strong>1. A biblical angel.</strong> Plural <em>cherubim</em>. (херувим)</p>
+<ol><li>Two <em>cherubim</em> were carved above the ark.</li><li>The <em>cherubim</em> stand between heaven and earth.</li></ol>
+<p><strong>2. A winged child in painting or sculpture.</strong> Plural <em>cherubs</em>. (путти, ангелочек)</p>
+<ol start="3"><li>The ceiling is covered in gold <em>cherubs</em>.</li><li>A stone <em>cherub</em> sits on each gatepost.</li></ol>
+<p><strong>3. A sweet-faced child.</strong> Affectionate. (ангелочек)</p>
+<ol start="5"><li>She was a perfect <em>cherub</em> until she turned three.</li></ol>
+<dl class="fields"><dt>See also</dt><dd><a href="#seraph">seraph</a> &middot; <a href="#kibbutz">kibbutz</a></dd></dl>
+<hr>
+<h3 id="seraph">seraph<a class="hash" href="#seraph" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/ˈsɛrəf/ &middot; <em>SER-uhf</em></dd><dt>Русский</dt><dd>серафим</dd><dt>Plural</dt><dd><em>seraphim</em> /ˈsɛrəfɪm/ — also <em>seraphs</em></dd><dt>Countability</dt><dd>countable</dd><dt>Agreement</dt><dd>plural verb — <em>the seraphim sang</em></dd><dt>Pattern</dt><dd>Hebrew <em>-im</em></dd><dt>Group</dt><dd>12</dd><dt>Type</dt><dd>concrete</dd><dt>Variants</dt><dd><em>seraphim</em> in scripture and poetry; <em>seraphs</em> in general use</dd><dt>Contrast</dt><dd>✗ <em>Seraphims</em> is a double plural. The adjective is <em>seraphic</em>, meaning blissfully serene.</dd></dl>
+<p>An angelic being of the highest order.</p>
+<p><strong>1. The angel.</strong> (серафим)</p>
+<ol><li>The <em>seraphim</em> have six wings each.</li><li>A single <em>seraph</em> stood before the throne.</li><li>Painters place <em>seraphs</em> at the top of the composition.</li><li>The hymn describes <em>seraphim</em> covering their faces.</li><li>Her expression was almost <em>seraphic</em>.</li></ol>
+<dl class="fields"><dt>See also</dt><dd><a href="#cherub">cherub</a></dd></dl>
+<hr>
+<h3 id="kibbutz">kibbutz<a class="hash" href="#kibbutz" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/kɪˈbʊts/ &middot; <em>kih-BUUTS</em></dd><dt>Русский</dt><dd>кибуц</dd><dt>Plural</dt><dd><em>kibbutzim</em> /ˌkɪbʊtˈsiːm/ &middot; <em>kib-uut-SEEM</em> — also <em>kibbutzes</em></dd><dt>Countability</dt><dd>countable</dd><dt>Agreement</dt><dd>plural verb — <em>the kibbutzim were founded in the 1920s</em></dd><dt>Pattern</dt><dd>Hebrew <em>-im</em></dd><dt>Group</dt><dd>12</dd><dt>Type</dt><dd>concrete</dd><dt>Variants</dt><dd><em>kibbutzim</em> is standard; <em>kibbutzes</em> occurs in casual English</dd><dt>Contrast</dt><dd>Note the stress shift: <em>kih-BUUTS</em> in the singular, <em>kib-uut-SEEM</em> in the plural, with the stress on the ending.</dd></dl>
+<p>A collective community in Israel, traditionally agricultural.</p>
+<p><strong>1. The community.</strong> (кибуц)</p>
+<ol><li>He grew up on a <em>kibbutz</em> in the north.</li><li>Most <em>kibbutzim</em> have privatized since the 1990s.</li><li>The <em>kibbutz</em> runs a dairy and a guest house.</li><li>Several <em>kibbutzim</em> were founded by the same group.</li><li>Volunteers came from Europe to work on the <em>kibbutz</em>.</li></ol>
+<dl class="fields"><dt>See also</dt><dd><a href="#cherub">cherub</a></dd></dl>
+<hr>
+<h3 id="bureau">bureau<a class="hash" href="#bureau" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/ˈbjʊroʊ/ &middot; <em>BYUUR-oh</em></dd><dt>Русский</dt><dd>бюро; комод</dd><dt>Plural</dt><dd><em>bureaus</em> — usual in American English &middot; <em>bureaux</em> /ˈbjʊroʊz/</dd><dt>Countability</dt><dd>countable</dd><dt>Agreement</dt><dd>plural verb — <em>both bureaus reported the same figures</em></dd><dt>Pattern</dt><dd>French <em>-x</em></dd><dt>Group</dt><dd>12</dd><dt>Type</dt><dd>concrete</dd><dt>Variants</dt><dd><em>bureaus</em> is standard American; <em>bureaux</em> is chiefly British</dd><dt>Contrast</dt><dd>The two plurals are pronounced identically — /ˈbjʊroʊz/ — so the choice is purely a spelling one. American style guides prefer <em>bureaus</em>.</dd></dl>
+<p>A government department or news office; also a chest of drawers.</p>
+<p><strong>1. An office or agency.</strong> (бюро, ведомство)</p>
+<ol><li>The Federal <em>Bureau</em> of Investigation opened a case.</li><li>Both news <em>bureaus</em> were closed to save money.</li><li>She runs the paper's Tokyo <em>bureau</em>.</li></ol>
+<p><strong>2. A chest of drawers.</strong> American usage. (комод)</p>
+<ol start="4"><li>His keys were on top of the <em>bureau</em>.</li><li>They bought two matching <em>bureaus</em>.</li></ol>
+<dl class="fields"><dt>See also</dt><dd><a href="#plateau">plateau</a> &middot; <a href="#tableau">tableau</a></dd></dl>
+<hr>
+<h3 id="plateau">plateau<a class="hash" href="#plateau" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/plæˈtoʊ/ &middot; <em>pla-TOH</em></dd><dt>Русский</dt><dd>плато; плато (в развитии)</dd><dt>Plural</dt><dd><em>plateaus</em> — usual &middot; <em>plateaux</em> /plæˈtoʊz/</dd><dt>Countability</dt><dd>countable</dd><dt>Agreement</dt><dd>plural verb — <em>the plateaus rise sharply</em></dd><dt>Pattern</dt><dd>French <em>-x</em></dd><dt>Group</dt><dd>12</dd><dt>Type</dt><dd>concrete and abstract</dd><dt>Variants</dt><dd><em>plateaus</em> is standard American; <em>plateaux</em> is chiefly British</dd></dl>
+<p>An area of level high ground; a period of no change after growth.</p>
+<p><strong>1. A flat elevated landform.</strong> (плато)</p>
+<ol><li>The road climbs onto a high <em>plateau</em>.</li><li>These <em>plateaus</em> were carved by ancient rivers.</li><li>The <em>plateau</em> stretches for two hundred miles.</li></ol>
+<p><strong>2. A period of no further progress.</strong> Figurative and very common. (плато, застой)</p>
+<ol start="4"><li>Sales have hit a <em>plateau</em>.</li><li>Learners often reach a <em>plateau</em> after the first year.</li><li>Both <em>plateaus</em> lasted about six months.</li></ol>
+<dl class="fields"><dt>See also</dt><dd><a href="#bureau">bureau</a></dd></dl>
+<hr>
+<h3 id="tableau">tableau<a class="hash" href="#tableau" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/tæˈbloʊ/ &middot; <em>ta-BLOH</em></dd><dt>Русский</dt><dd>живая картина; сцена</dd><dt>Plural</dt><dd><em>tableaux</em> /tæˈbloʊz/ — also <em>tableaus</em></dd><dt>Countability</dt><dd>countable</dd><dt>Agreement</dt><dd>plural verb — <em>the tableaux were staged in silence</em></dd><dt>Pattern</dt><dd>French <em>-x</em></dd><dt>Group</dt><dd>12</dd><dt>Type</dt><dd>concrete</dd><dt>Variants</dt><dd><em>tableaux</em> is commoner than <em>tableaus</em>, unlike <em>bureaus</em> and <em>plateaus</em></dd><dt>Contrast</dt><dd>This is the one French plural in the group where the <em>-x</em> spelling still dominates in American English.</dd></dl>
+<p>A striking arrangement of people or objects, as if in a picture.</p>
+<p><strong>1. A staged scene of motionless figures.</strong> (живая картина)</p>
+<ol><li>The pageant ended with a <em>tableau</em> of the founding.</li><li>Three <em>tableaux</em> were performed without a word.</li></ol>
+<p><strong>2. Any vivid scene.</strong> Figurative. (сцена, картина)</p>
+<ol start="3"><li>The kitchen was a <em>tableau</em> of total disaster.</li><li>He described a <em>tableau</em> of families waiting in the rain.</li><li>Both <em>tableaux</em> stayed with me for years.</li></ol>
+<dl class="fields"><dt>See also</dt><dd><a href="#bureau">bureau</a> &middot; <a href="#plateau">plateau</a></dd></dl>
+<hr>
+<h3 id="schema">schema<a class="hash" href="#schema" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/ˈskiːmə/ &middot; <em>SKEE-muh</em></dd><dt>Русский</dt><dd>схема</dd><dt>Plural</dt><dd><em>schemas</em> — usual &middot; <em>schemata</em> /ˈskiːmətə/</dd><dt>Countability</dt><dd>countable</dd><dt>Agreement</dt><dd>plural verb — <em>the schemas were merged</em></dd><dt>Pattern</dt><dd>Greek <em>-ma</em> → <em>-mata</em></dd><dt>Group</dt><dd>12</dd><dt>Type</dt><dd>abstract</dd><dt>Variants</dt><dd><em>schemas</em> in computing and psychology; <em>schemata</em> in philosophy and formal scholarship</dd><dt>Contrast</dt><dd><em>Schemas</em> is now overwhelmingly the commoner plural, especially in databases, where <em>database schemas</em> is the fixed phrase.</dd></dl>
+<p>An outline, plan, or underlying structure.</p>
+<p><strong>1. A structural plan.</strong> Computing. (схема)</p>
+<ol><li>The database <em>schema</em> changed in version three.</li><li>Both <em>schemas</em> need to be migrated.</li><li>He validates the file against a JSON <em>schema</em>.</li></ol>
+<p><strong>2. A mental framework.</strong> Psychology. (когнитивная схема)</p>
+<ol start="4"><li>Children build <em>schemas</em> to organize experience.</li><li>The <em>schemata</em> proposed by Kant are not empirical.</li></ol>
+<dl class="fields"><dt>See also</dt><dd><a href="11-ex-ix-ices.html#matrix">matrix</a></dd></dl></div></main>
+<button class="themebtn" id="themeBtn">Dark</button>
+<script>
+const tb=document.getElementById('themeBtn');
+function setTheme(x){document.documentElement.dataset.theme=x;tb.textContent=x==='dark'?'Light':'Dark';
+ try{localStorage.setItem('site-theme',x)}catch(e){}}
+tb.onclick=()=>setTheme(document.documentElement.dataset.theme==='dark'?'light':'dark');
+try{const s=localStorage.getItem('site-theme');
+ setTheme(s||(matchMedia('(prefers-color-scheme: dark)').matches?'dark':'light'))}catch(e){setTheme('light')}
+</script></body></html>

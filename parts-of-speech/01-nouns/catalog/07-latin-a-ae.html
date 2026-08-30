@@ -1,0 +1,157 @@
+<!DOCTYPE html>
+<html lang="en"><head>
+<meta charset="utf-8"><meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Latin -a → -ae</title>
+<style>
+:root{--bg:#faf9f7;--surface:#fff;--surface2:#f2f0ec;--border:#e2ded6;--text:#1a1815;
+--dim:#5f594f;--faint:#8a8377;--accent:#8a5a3b;--measure:72ch}
+@media(prefers-color-scheme:dark){:root{--bg:#14140f;--surface:#1d1d17;--surface2:#25251d;
+--border:#33332a;--text:#eeeae1;--dim:#a8a293;--faint:#7d776b;--accent:#d09b72}}
+:root[data-theme=dark]{--bg:#14140f;--surface:#1d1d17;--surface2:#25251d;--border:#33332a;
+--text:#eeeae1;--dim:#a8a293;--faint:#7d776b;--accent:#d09b72}
+:root[data-theme=light]{--bg:#faf9f7;--surface:#fff;--surface2:#f2f0ec;--border:#e2ded6;
+--text:#1a1815;--dim:#5f594f;--faint:#8a8377;--accent:#8a5a3b}
+*{box-sizing:border-box}
+body{margin:0;background:var(--bg);color:var(--text);
+font:17px/1.72 ui-serif,Georgia,"Iowan Old Style",Palatino,serif;-webkit-font-smoothing:antialiased}
+.wrap{max-width:min(var(--measure),100%);margin:0 auto;padding:0 22px}
+nav.crumb{border-bottom:1px solid var(--border);padding:13px 0;font-size:13.5px;
+font-family:-apple-system,BlinkMacSystemFont,"Segoe UI",sans-serif;position:sticky;top:0;background:var(--bg);z-index:20}
+nav.crumb .wrap{max-width:none;display:flex;gap:9px;align-items:center;flex-wrap:wrap}
+nav.crumb a{color:var(--dim);text-decoration:none}
+nav.crumb a:hover{color:var(--accent)}
+nav.crumb .sep{color:var(--faint)}
+main{padding:8px 0 80px}
+h1{font-size:clamp(28px,5vw,38px);line-height:1.15;letter-spacing:-.015em;margin:34px 0 18px}
+h2{font-size:25px;margin:46px 0 14px;letter-spacing:-.01em;padding-bottom:7px;border-bottom:1px solid var(--border)}
+h3{font-size:19px;margin:34px 0 10px;color:var(--accent)}
+h4{font-size:16px;margin:24px 0 8px;font-family:-apple-system,sans-serif}
+p{margin:0 0 16px}
+a{color:var(--accent)}
+.hash{opacity:0;margin-left:8px;font-weight:400;font-size:.65em;text-decoration:none;color:var(--faint)}
+h2:hover .hash,h3:hover .hash{opacity:1}
+blockquote{margin:0 0 20px;padding:14px 18px;background:var(--surface2);
+border-left:3px solid var(--accent);border-radius:0 8px 8px 0}
+blockquote p:last-child{margin-bottom:0}
+ol,ul{margin:0 0 18px;padding-left:26px}
+li{margin-bottom:8px}
+li>ul,li>ol{margin:8px 0 0}
+code{font-family:ui-monospace,SFMono-Regular,Menlo,Consolas,monospace;font-size:.87em;
+background:var(--surface2);padding:1px 5px;border-radius:4px}
+pre{background:var(--surface2);border:1px solid var(--border);border-radius:9px;
+padding:15px 17px;overflow-x:auto;margin:0 0 20px}
+pre code{background:none;padding:0;font-size:13px;line-height:1.6}
+.tw{overflow-x:auto;margin:0 0 22px;border:1px solid var(--border);border-radius:9px}
+table{border-collapse:collapse;width:100%;font-size:15px;
+font-family:-apple-system,BlinkMacSystemFont,"Segoe UI",sans-serif}
+th,td{padding:10px 14px;border-bottom:1px solid var(--border);vertical-align:top}
+th{background:var(--surface2);font-size:12px;text-transform:uppercase;
+letter-spacing:.06em;color:var(--dim);font-weight:700;white-space:nowrap}
+tbody tr:last-child td{border-bottom:none}
+hr{border:none;border-top:1px solid var(--border);margin:38px 0}
+details{background:var(--surface2);border:1px solid var(--border);border-radius:9px;
+padding:13px 17px;margin:0 0 20px}
+summary{cursor:pointer;font-weight:600;font-family:-apple-system,sans-serif;font-size:15px}
+details[open] summary{margin-bottom:12px}
+del{color:var(--faint)}
+dl.fields{margin:0 0 20px;padding:0}
+dl.fields dt{font-family:-apple-system,BlinkMacSystemFont,"Segoe UI",sans-serif;
+font-size:11px;letter-spacing:.11em;text-transform:uppercase;color:var(--faint);
+font-weight:700;margin:14px 0 4px}
+dl.fields dt:first-child{margin-top:0}
+dl.fields dd{margin:0;font-size:16px;color:var(--dim);line-height:1.62}
+dl.fields dd em{color:var(--text)}
+dl.fields dt.ru{color:var(--accent)}
+dl.fields dd strong{color:var(--text)}
+.toc{background:var(--surface2);border:1px solid var(--border);border-radius:10px;
+padding:16px 20px;margin:26px 0 34px;font-family:-apple-system,sans-serif;font-size:14px}
+.toc b{display:block;font-size:11px;letter-spacing:.12em;text-transform:uppercase;
+color:var(--faint);margin-bottom:9px}
+.toc a{display:block;padding:3px 0;color:var(--dim);text-decoration:none}
+.toc a:hover{color:var(--accent)}
+.themebtn{position:fixed;right:18px;bottom:18px;z-index:60;font-family:-apple-system,sans-serif;
+font-size:12.5px;font-weight:600;cursor:pointer;background:var(--surface);border:1px solid var(--border);
+border-radius:99px;padding:9px 16px;color:var(--text)}
+@media(max-width:600px){body{font-size:16px}.wrap{padding:0 17px}}
+</style></head><body>
+<nav class="crumb"><div class="wrap"><a href="../../../index.html">Learn English</a><span class="sep">/</span><a href="../../README.html">Parts of speech</a><span class="sep">/</span><a href="../README.html">01-nouns</a><span class="sep">/</span><span>catalog</span></div></nav>
+<main><div class="wrap"><h1 id="latin--a---ae">Latin <em>-a</em> → <em>-ae</em><a class="hash" href="#latin--a---ae" aria-label="link">#</a></h1>
+<blockquote><p><em>Larva → larvae</em>, <em>vertebra → vertebrae</em>. A small group, and for several of them the plain English <em>-s</em> has already won.</p></blockquote>
+<p><a href="../README.html">← The grammar of nouns</a> &middot; <a href="README.html">All groups</a></p>
+<p>Latin first-declension nouns ending in <em>-a</em> took <em>-ae</em> in the plural, pronounced /iː/ in American English — <em>larvae</em> is <em>LAR-vee</em>, <em>vertebrae</em> is <em>VUR-tuh-bree</em>. English kept the ending mostly in <strong>biology and anatomy</strong>, where the Latin plural is still the professional norm.</p>
+<p>Outside those fields the pattern is retreating. <em>Formulas</em> has almost completely displaced <em>formulae</em> in American English, <em>antennas</em> is standard for anything electronic, and only <em>larvae</em>, <em>vertebrae</em>, and <em>algae</em> still resist. A useful test: if the word belongs to a laboratory, expect <em>-ae</em>; if it belongs to daily life, expect <em>-s</em>.</p>
+<hr>
+<h3 id="larva">larva<a class="hash" href="#larva" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/ˈlɑːrvə/ &middot; <em>LAR-vuh</em></dd><dt>Русский</dt><dd>личинка</dd><dt>Plural</dt><dd><em>larvae</em> /ˈlɑːrviː/ &middot; <em>LAR-vee</em></dd><dt>Countability</dt><dd>countable</dd><dt>Agreement</dt><dd>plural verb — <em>the larvae hatch in spring</em></dd><dt>Pattern</dt><dd>Latin <em>-a</em> → <em>-ae</em></dd><dt>Group</dt><dd>7</dd><dt>Type</dt><dd>concrete</dd><dt>Variants</dt><dd>✗ <em>larvas</em> is not used in scientific or general writing</dd><dt>Contrast</dt><dd>This is one of the <em>-ae</em> plurals with no regular competitor at all. The adjective is <em>larval</em>.</dd></dl>
+<p>The immature form of an insect or other animal.</p>
+<p><strong>1. The immature stage.</strong> (личинка)</p>
+<ol><li>The <em>larva</em> burrows into the wood.</li><li>Mosquito <em>larvae</em> live in standing water.</li><li>Thousands of <em>larvae</em> hatched overnight.</li><li>A single <em>larva</em> can destroy an entire leaf.</li><li>The <em>larvae</em> were collected for the study.</li></ol>
+<dl class="fields"><dt>See also</dt><dd><a href="#vertebra">vertebra</a> &middot; <a href="#alga">alga</a></dd></dl>
+<hr>
+<h3 id="vertebra">vertebra<a class="hash" href="#vertebra" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/ˈvɜːrtəbrə/ &middot; <em>VUR-tuh-bruh</em></dd><dt>Русский</dt><dd>позвонок</dd><dt>Plural</dt><dd><em>vertebrae</em> /ˈvɜːrtəbreɪ/ &middot; <em>VUR-tuh-bray</em> — also /-briː/</dd><dt>Countability</dt><dd>countable</dd><dt>Agreement</dt><dd>plural verb — <em>the vertebrae are fused</em></dd><dt>Pattern</dt><dd>Latin <em>-a</em> → <em>-ae</em></dd><dt>Group</dt><dd>7</dd><dt>Type</dt><dd>concrete</dd><dt>Variants</dt><dd>both /-breɪ/ and /-briː/ are accepted in American English</dd><dt>Contrast</dt><dd>✗ <em>A vertebrae</em> for one bone is a very common error — the singular is <em>vertebra</em>, without the <em>e</em>. The adjective is <em>vertebral</em>, and <em>vertebrate</em> is a separate noun meaning an animal with a backbone.</dd></dl>
+<p>One of the bones of the spine.</p>
+<p><strong>1. A spinal bone.</strong> (позвонок)</p>
+<ol><li>He cracked a <em>vertebra</em> in the accident.</li><li>The human spine has thirty-three <em>vertebrae</em>.</li><li>Two <em>vertebrae</em> had fused together.</li><li>The lowest <em>vertebra</em> takes the most load.</li><li>X-rays showed damage to several <em>vertebrae</em>.</li></ol>
+<dl class="fields"><dt>See also</dt><dd><a href="#larva">larva</a></dd></dl>
+<hr>
+<h3 id="alga">alga<a class="hash" href="#alga" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/ˈælɡə/ &middot; <em>AL-guh</em></dd><dt>Русский</dt><dd>водоросль</dd><dt>Plural</dt><dd><em>algae</em> /ˈældʒiː/ &middot; <em>AL-jee</em></dd><dt>Countability</dt><dd>countable, and usually used as a plural mass noun</dd><dt>Agreement</dt><dd>plural verb — <em>algae are blooming in the lake</em></dd><dt>Pattern</dt><dd>Latin <em>-a</em> → <em>-ae</em></dd><dt>Group</dt><dd>7</dd><dt>Type</dt><dd>concrete</dd><dt>Contrast</dt><dd>The singular <em>alga</em> is almost never used — in practice the word is <em>algae</em>, and the <em>g</em> changes sound between them: /ɡ/ in <em>AL-guh</em>, /dʒ/ in <em>AL-jee</em>. Most speakers treat <em>algae</em> as a mass noun taking a singular verb in casual speech: <em>algae is covering the pond</em>.</dd></dl>
+<p>Simple photosynthetic organisms living mainly in water.</p>
+<p><strong>1. The organisms.</strong> (водоросли)</p>
+<ol><li>Green <em>algae</em> covered the surface of the pond.</li><li>A single <em>alga</em> is invisible without a microscope.</li><li><em>Algae</em> bloom when the water warms.</li><li>The tank needs cleaning — the <em>algae</em> are back.</li><li>Some <em>algae</em> produce toxins dangerous to dogs.</li></ol>
+<dl class="fields"><dt>See also</dt><dd><a href="#larva">larva</a> &middot; <a href="#amoeba">amoeba</a></dd></dl>
+<hr>
+<h3 id="formula">formula<a class="hash" href="#formula" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/ˈfɔːrmjələ/ &middot; <em>FOR-myuh-luh</em></dd><dt>Русский</dt><dd>формула; смесь для детского питания</dd><dt>Plural</dt><dd><em>formulas</em> — usual &middot; <em>formulae</em> /ˈfɔːrmjəliː/ in mathematics</dd><dt>Countability</dt><dd>countable, and uncountable in the baby-food sense</dd><dt>Agreement</dt><dd>plural verb — <em>the formulas are equivalent</em></dd><dt>Pattern</dt><dd>Latin <em>-a</em> → <em>-ae</em>, now mostly replaced by <em>-s</em></dd><dt>Group</dt><dd>7</dd><dt>Type</dt><dd>concrete and abstract</dd><dt>Variants</dt><dd><em>formulas</em> dominates American English; <em>formulae</em> survives in mathematical writing</dd><dt>Contrast</dt><dd>Both are correct, but <em>formulas</em> is now the default even in most technical prose. In American English <em>formula</em> also means infant milk, and in that sense it is uncountable: <em>we're out of formula</em>.</dd></dl>
+<p>A rule expressed in symbols; a fixed method; also infant milk.</p>
+<p><strong>1. A mathematical or chemical rule.</strong> (формула)</p>
+<ol><li>Apply the quadratic <em>formula</em>.</li><li>Both <em>formulas</em> give the same answer.</li><li>The book lists all the relevant <em>formulae</em>.</li></ol>
+<p><strong>2. A fixed method or recipe for success.</strong> (рецепт, схема)</p>
+<ol start="4"><li>There is no <em>formula</em> for a good marriage.</li><li>The studio keeps reusing the same <em>formula</em>.</li></ol>
+<p><strong>3. Infant milk.</strong> Uncountable, American English. (детская смесь)</p>
+<ol start="6"><li>The baby takes <em>formula</em> at night.</li></ol>
+<dl class="fields"><dt>See also</dt><dd><a href="#antenna">antenna</a></dd></dl>
+<hr>
+<h3 id="antenna">antenna<a class="hash" href="#antenna" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/ænˈtɛnə/ &middot; <em>an-TEN-uh</em></dd><dt>Русский</dt><dd>антенна; усик (насекомого)</dd><dt>Plural</dt><dd><em>antennas</em> (electronics) &middot; <em>antennae</em> /ænˈtɛniː/ (biology)</dd><dt>Countability</dt><dd>countable</dd><dt>Agreement</dt><dd>plural verb — <em>the antennas were replaced</em></dd><dt>Pattern</dt><dd>Latin <em>-a</em> → <em>-ae</em>, split by sense</dd><dt>Group</dt><dd>7</dd><dt>Type</dt><dd>concrete</dd><dt>Variants</dt><dd><em>antennas</em> (radio, television) &middot; <em>antennae</em> (insects, and figuratively)</dd><dt>Contrast</dt><dd>The plural depends on the meaning, and this split is consistent. Metal on a roof: <em>antennas</em>. Feelers on a bug: <em>antennae</em>. The figurative sense — sensitivity to something — takes <em>antennae</em>.</dd></dl>
+<p>A metal device for sending or receiving signals; also a sensory feeler on an insect.</p>
+<p><strong>1. A radio or television aerial.</strong> (антенна)</p>
+<ol><li>The <em>antenna</em> on the roof came down in the storm.</li><li>Both <em>antennas</em> need to point the same way.</li><li>Cell <em>antennas</em> are hidden inside the steeple.</li></ol>
+<p><strong>2. An insect's feeler.</strong> (усик)</p>
+<ol start="4"><li>The beetle waved its <em>antennae</em>.</li><li>A moth's <em>antennae</em> detect scent from miles away.</li></ol>
+<p><strong>3. Figuratively — sensitivity to something.</strong> Always <em>antennae</em>. (чутьё)</p>
+<ol start="6"><li>Her political <em>antennae</em> are extremely good.</li></ol>
+<dl class="fields"><dt>See also</dt><dd><a href="#formula">formula</a></dd></dl>
+<hr>
+<h3 id="nebula">nebula<a class="hash" href="#nebula" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/ˈnɛbjələ/ &middot; <em>NEB-yuh-luh</em></dd><dt>Русский</dt><dd>туманность</dd><dt>Plural</dt><dd><em>nebulae</em> /ˈnɛbjəliː/ &middot; <em>NEB-yuh-lee</em> — also <em>nebulas</em></dd><dt>Countability</dt><dd>countable</dd><dt>Agreement</dt><dd>plural verb — <em>the nebulae are visible in infrared</em></dd><dt>Pattern</dt><dd>Latin <em>-a</em> → <em>-ae</em></dd><dt>Group</dt><dd>7</dd><dt>Type</dt><dd>concrete</dd><dt>Variants</dt><dd><em>nebulae</em> is preferred in astronomy; <em>nebulas</em> is accepted</dd><dt>Contrast</dt><dd>The related adjective <em>nebulous</em> means vague — a figurative extension of 'cloudy'.</dd></dl>
+<p>A cloud of gas and dust in space.</p>
+<p><strong>1. The astronomical object.</strong> (туманность)</p>
+<ol><li>The Orion <em>Nebula</em> is visible with binoculars.</li><li>Several <em>nebulae</em> appear in the same field of view.</li><li>A <em>nebula</em> is where new stars form.</li><li>These <em>nebulae</em> glow in ultraviolet light.</li><li>The telescope photographed a planetary <em>nebula</em>.</li></ol>
+<dl class="fields"><dt>See also</dt><dd><a href="#alga">alga</a></dd></dl>
+<hr>
+<h3 id="amoeba">amoeba<a class="hash" href="#amoeba" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/əˈmiːbə/ &middot; <em>uh-MEE-buh</em></dd><dt>Русский</dt><dd>амёба</dd><dt>Plural</dt><dd><em>amoebas</em> — usual &middot; <em>amoebae</em> /əˈmiːbiː/</dd><dt>Countability</dt><dd>countable</dd><dt>Agreement</dt><dd>plural verb — <em>the amoebas divide</em></dd><dt>Pattern</dt><dd>Latin <em>-a</em> → <em>-ae</em>, now mostly <em>-s</em></dd><dt>Group</dt><dd>7</dd><dt>Type</dt><dd>concrete</dd><dt>Variants</dt><dd><em>amoebas</em> is commoner in American English; the British spelling is <em>amoeba</em> or <em>amœba</em></dd><dt>Contrast</dt><dd>Both plurals are correct. The adjective <em>amoebic</em> appears in <em>amoebic dysentery</em>.</dd></dl>
+<p>The single-celled organism that moves by changing shape.</p>
+<p><strong>1. The organism.</strong> (амёба)</p>
+<ol><li>An <em>amoeba</em> has no fixed shape.</li><li>The slide showed dozens of <em>amoebas</em>.</li><li><em>Amoebae</em> reproduce by simple division.</li><li>A rare <em>amoeba</em> caused the infection.</li></ol>
+<p><strong>2. Figuratively — something shapeless.</strong> (нечто аморфное)</p>
+<ol start="5"><li>The committee is an <em>amoeba</em> — it changes shape every month.</li></ol>
+<dl class="fields"><dt>See also</dt><dd><a href="#alga">alga</a> &middot; <a href="08-latin-um-a.html#bacterium">bacterium</a></dd></dl>
+<hr>
+<h3 id="alumna">alumna<a class="hash" href="#alumna" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/əˈlʌmnə/ &middot; <em>uh-LUM-nuh</em></dd><dt>Русский</dt><dd>выпускница</dd><dt>Plural</dt><dd><em>alumnae</em> /əˈlʌmniː/ &middot; <em>uh-LUM-nee</em></dd><dt>Countability</dt><dd>countable</dd><dt>Agreement</dt><dd>plural verb — <em>the alumnae established the fund</em></dd><dt>Pattern</dt><dd>Latin <em>-a</em> → <em>-ae</em></dd><dt>Group</dt><dd>7</dd><dt>Type</dt><dd>concrete</dd><dt>Variants</dt><dd>the informal sex-neutral <em>alum</em> / <em>alums</em> is now very common in American usage</dd><dt>Contrast</dt><dd>Four forms to keep straight, and the two plurals differ by a single sound: <em>alumni</em> /-naɪ/ for men or a mixed group, <em>alumnae</em> /-niː/ for women only. Mixed groups always take <em>alumni</em>.</dd></dl>
+<p>A woman who is a former student of a school or college.</p>
+<p><strong>1. A female graduate.</strong> (выпускница)</p>
+<ol><li>She is an <em>alumna</em> of the same college.</li><li>The <em>alumnae</em> organized the reunion.</li><li>Three <em>alumnae</em> sit on the board.</li><li>As an <em>alumna</em>, she gets the newsletter.</li><li>Both <em>alumnae</em> spoke at the ceremony.</li></ol>
+<dl class="fields"><dt>See also</dt><dd><a href="06-latin-us-i.html#alumnus">alumnus</a></dd></dl></div></main>
+<button class="themebtn" id="themeBtn">Dark</button>
+<script>
+const tb=document.getElementById('themeBtn');
+function setTheme(x){document.documentElement.dataset.theme=x;tb.textContent=x==='dark'?'Light':'Dark';
+ try{localStorage.setItem('site-theme',x)}catch(e){}}
+tb.onclick=()=>setTheme(document.documentElement.dataset.theme==='dark'?'light':'dark');
+try{const s=localStorage.getItem('site-theme');
+ setTheme(s||(matchMedia('(prefers-color-scheme: dark)').matches?'dark':'light'))}catch(e){setTheme('light')}
+</script></body></html>

@@ -6,7 +6,7 @@ Traditional grammar counts **eight parts of speech**: nouns, pronouns, verbs, ad
 
 The nine word-class folders live under **[parts-of-speech/](parts-of-speech/README.md)**; the [pronunciation guide](10-pronunciation/README.md) sits alongside them, since how English sounds is not a word class.
 
-Each class folder is a self-contained README with the same ten sections: what the class does, its types, forms and inflection, position and word order, rules and patterns, common mistakes, American English notes, tricky cases, a quick reference, and practice. The five **closed classes** — pronouns, prepositions, conjunctions, interjections, determiners — additionally have a `catalog/` holding a complete dictionary of that class.
+Each class folder is a self-contained README with the same ten sections: what the class does, its types, forms and inflection, position and word order, rules and patterns, common mistakes, American English notes, tricky cases, a quick reference, and practice. The five **closed classes** — pronouns, prepositions, conjunctions, interjections, determiners — additionally have a `catalog/` holding a complete dictionary of that class. **Verbs** and **nouns** are open classes, but each has a catalog covering the finite part that has to be memorized: the irregular verbs, and the irregular plurals and uncountables.
 
 ## The nine classes
 
@@ -21,6 +21,18 @@ Each class folder is a self-contained README with the same ten sections: what th
 | 7 | Conjunctions | Joins words, phrases, and clauses and marks the logical relationship between them | *and, but, or, because, although, if, either…or, that* | [Conjunctions](parts-of-speech/07-conjunctions/README.md) |
 | 8 | Interjections | Stands outside the sentence structure to express emotion, reaction, or contact | *ouch, wow, huh, uh-huh, um, yikes, oh my god* | [Interjections](parts-of-speech/08-interjections/README.md) |
 | 9 | Determiners | Opens a noun phrase and answers "which one?" or "how much / how many?" | *the, a, this, my, some, every, three, which, all* | [Determiners](parts-of-speech/09-determiners/README.md) |
+
+## The Noun Dictionary
+
+**[01-nouns/catalog/](parts-of-speech/01-nouns/catalog/README.md)** — **308 nouns** in 20 groups. Nouns are an open class, so this is deliberately *not* a list of nouns: it is a list of the nouns that **do not behave**, which is the part you actually have to learn. Three systems, grouped by what goes wrong:
+
+- **Irregular plurals** (groups 1–12), organized by how the form changes rather than alphabetically — the seven vowel-change plurals (*foot/feet*), the *-en* survivors (*child/children*), the zero plurals (*sheep*, *deer*, *series*), *-f → -ves* with its traps (*thief/thieves* but *chief/chiefs*), the *-o* rule, and the borrowed Latin, Greek, Italian, Hebrew, and French plurals
+- **Countability** (groups 13–16) — the uncountables that break learners (✗ *an information*, ✗ *two advices*), the nouns that are both with **different meanings** (*a hair* vs *hair*), the plural-only nouns (*scissors*, *jeans*), and the *-s* nouns that take a singular verb (*the news **is***, *physics **is***)
+- **Agreement and counting** (groups 17–20) — collective nouns and the American/British split (*the team **is*** vs *the team **are***), compound plurals (*mothers-in-law*), the partitives that let you count the uncountable (*a piece of advice*, *a pinch of salt*), and nationality nouns (*two Japanese*, but *two Spaniards*)
+
+Every entry carries General American pronunciation for **both** forms, since the plural is often where the sound changes: *woman* /ˈwʊmən/ → *women* /ˈwɪmɪn/, *analysis* → *analyses* /-siːz/, *corpus* → *corpora*. Traps are called out explicitly — ✗ *octopi*, ✗ *rooves*, ✗ *criterias*, ✗ *a phenomena*, ✗ *mongeese*.
+
+**[Open the audio browser](parts-of-speech/01-nouns/catalog/browse.html)** — all 308, searchable, click any noun to hear it.
 
 ## Irregular & Phrasal Verbs
 

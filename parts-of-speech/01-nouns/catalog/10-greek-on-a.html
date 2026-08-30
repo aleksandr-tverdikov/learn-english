@@ -1,0 +1,128 @@
+<!DOCTYPE html>
+<html lang="en"><head>
+<meta charset="utf-8"><meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Greek -on → -a</title>
+<style>
+:root{--bg:#faf9f7;--surface:#fff;--surface2:#f2f0ec;--border:#e2ded6;--text:#1a1815;
+--dim:#5f594f;--faint:#8a8377;--accent:#8a5a3b;--measure:72ch}
+@media(prefers-color-scheme:dark){:root{--bg:#14140f;--surface:#1d1d17;--surface2:#25251d;
+--border:#33332a;--text:#eeeae1;--dim:#a8a293;--faint:#7d776b;--accent:#d09b72}}
+:root[data-theme=dark]{--bg:#14140f;--surface:#1d1d17;--surface2:#25251d;--border:#33332a;
+--text:#eeeae1;--dim:#a8a293;--faint:#7d776b;--accent:#d09b72}
+:root[data-theme=light]{--bg:#faf9f7;--surface:#fff;--surface2:#f2f0ec;--border:#e2ded6;
+--text:#1a1815;--dim:#5f594f;--faint:#8a8377;--accent:#8a5a3b}
+*{box-sizing:border-box}
+body{margin:0;background:var(--bg);color:var(--text);
+font:17px/1.72 ui-serif,Georgia,"Iowan Old Style",Palatino,serif;-webkit-font-smoothing:antialiased}
+.wrap{max-width:min(var(--measure),100%);margin:0 auto;padding:0 22px}
+nav.crumb{border-bottom:1px solid var(--border);padding:13px 0;font-size:13.5px;
+font-family:-apple-system,BlinkMacSystemFont,"Segoe UI",sans-serif;position:sticky;top:0;background:var(--bg);z-index:20}
+nav.crumb .wrap{max-width:none;display:flex;gap:9px;align-items:center;flex-wrap:wrap}
+nav.crumb a{color:var(--dim);text-decoration:none}
+nav.crumb a:hover{color:var(--accent)}
+nav.crumb .sep{color:var(--faint)}
+main{padding:8px 0 80px}
+h1{font-size:clamp(28px,5vw,38px);line-height:1.15;letter-spacing:-.015em;margin:34px 0 18px}
+h2{font-size:25px;margin:46px 0 14px;letter-spacing:-.01em;padding-bottom:7px;border-bottom:1px solid var(--border)}
+h3{font-size:19px;margin:34px 0 10px;color:var(--accent)}
+h4{font-size:16px;margin:24px 0 8px;font-family:-apple-system,sans-serif}
+p{margin:0 0 16px}
+a{color:var(--accent)}
+.hash{opacity:0;margin-left:8px;font-weight:400;font-size:.65em;text-decoration:none;color:var(--faint)}
+h2:hover .hash,h3:hover .hash{opacity:1}
+blockquote{margin:0 0 20px;padding:14px 18px;background:var(--surface2);
+border-left:3px solid var(--accent);border-radius:0 8px 8px 0}
+blockquote p:last-child{margin-bottom:0}
+ol,ul{margin:0 0 18px;padding-left:26px}
+li{margin-bottom:8px}
+li>ul,li>ol{margin:8px 0 0}
+code{font-family:ui-monospace,SFMono-Regular,Menlo,Consolas,monospace;font-size:.87em;
+background:var(--surface2);padding:1px 5px;border-radius:4px}
+pre{background:var(--surface2);border:1px solid var(--border);border-radius:9px;
+padding:15px 17px;overflow-x:auto;margin:0 0 20px}
+pre code{background:none;padding:0;font-size:13px;line-height:1.6}
+.tw{overflow-x:auto;margin:0 0 22px;border:1px solid var(--border);border-radius:9px}
+table{border-collapse:collapse;width:100%;font-size:15px;
+font-family:-apple-system,BlinkMacSystemFont,"Segoe UI",sans-serif}
+th,td{padding:10px 14px;border-bottom:1px solid var(--border);vertical-align:top}
+th{background:var(--surface2);font-size:12px;text-transform:uppercase;
+letter-spacing:.06em;color:var(--dim);font-weight:700;white-space:nowrap}
+tbody tr:last-child td{border-bottom:none}
+hr{border:none;border-top:1px solid var(--border);margin:38px 0}
+details{background:var(--surface2);border:1px solid var(--border);border-radius:9px;
+padding:13px 17px;margin:0 0 20px}
+summary{cursor:pointer;font-weight:600;font-family:-apple-system,sans-serif;font-size:15px}
+details[open] summary{margin-bottom:12px}
+del{color:var(--faint)}
+dl.fields{margin:0 0 20px;padding:0}
+dl.fields dt{font-family:-apple-system,BlinkMacSystemFont,"Segoe UI",sans-serif;
+font-size:11px;letter-spacing:.11em;text-transform:uppercase;color:var(--faint);
+font-weight:700;margin:14px 0 4px}
+dl.fields dt:first-child{margin-top:0}
+dl.fields dd{margin:0;font-size:16px;color:var(--dim);line-height:1.62}
+dl.fields dd em{color:var(--text)}
+dl.fields dt.ru{color:var(--accent)}
+dl.fields dd strong{color:var(--text)}
+.toc{background:var(--surface2);border:1px solid var(--border);border-radius:10px;
+padding:16px 20px;margin:26px 0 34px;font-family:-apple-system,sans-serif;font-size:14px}
+.toc b{display:block;font-size:11px;letter-spacing:.12em;text-transform:uppercase;
+color:var(--faint);margin-bottom:9px}
+.toc a{display:block;padding:3px 0;color:var(--dim);text-decoration:none}
+.toc a:hover{color:var(--accent)}
+.themebtn{position:fixed;right:18px;bottom:18px;z-index:60;font-family:-apple-system,sans-serif;
+font-size:12.5px;font-weight:600;cursor:pointer;background:var(--surface);border:1px solid var(--border);
+border-radius:99px;padding:9px 16px;color:var(--text)}
+@media(max-width:600px){body{font-size:16px}.wrap{padding:0 17px}}
+</style></head><body>
+<nav class="crumb"><div class="wrap"><a href="../../../index.html">Learn English</a><span class="sep">/</span><a href="../../README.html">Parts of speech</a><span class="sep">/</span><a href="../README.html">01-nouns</a><span class="sep">/</span><span>catalog</span></div></nav>
+<main><div class="wrap"><h1 id="greek--on---a">Greek <em>-on</em> → <em>-a</em><a class="hash" href="#greek--on---a" aria-label="link">#</a></h1>
+<blockquote><p><em>Criterion → criteria</em>, <em>phenomenon → phenomena</em>. A group of four, and two of them are among the most misused words in English.</p></blockquote>
+<p><a href="../README.html">← The grammar of nouns</a> &middot; <a href="README.html">All groups</a></p>
+<p>Greek neuter nouns in <em>-on</em> took <em>-a</em> in the plural. English borrowed only a handful, but two of them — <em>criterion</em> and <em>phenomenon</em> — appear constantly in academic and journalistic writing, and both are routinely used wrong.</p>
+<p>The error is always the same: <strong>the plural gets used as a singular.</strong> ✗ <em>This criteria is important</em> and ✗ <em>An interesting phenomena</em> are both wrong, because <em>criteria</em> and <em>phenomena</em> are plural. The singulars are <em>criterion</em> and <em>phenomenon</em>, and a correctly used one sounds surprising precisely because it is so rarely heard.</p>
+<p>Compare the identical drift in <a href="08-latin-um-a.html#datum">datum → data</a>. The difference is that <em>data</em> has genuinely completed the change and is now accepted as a mass noun, while <em>criteria</em> and <em>phenomena</em> have not — using them as singulars is still marked as an error in edited prose.</p>
+<hr>
+<h3 id="criterion">criterion<a class="hash" href="#criterion" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/kraɪˈtɪriən/ &middot; <em>kry-TEER-ee-uhn</em></dd><dt>Русский</dt><dd>критерий</dd><dt>Plural</dt><dd><em>criteria</em> /kraɪˈtɪriə/ &middot; <em>kry-TEER-ee-uh</em></dd><dt>Countability</dt><dd>countable</dd><dt>Agreement</dt><dd>plural verb — <em>the criteria are strict</em></dd><dt>Pattern</dt><dd>Greek <em>-on</em> → <em>-a</em></dd><dt>Group</dt><dd>10</dd><dt>Type</dt><dd>abstract</dd><dt>Variants</dt><dd>✗ <em>criterias</em> is doubly wrong — a plural made from a plural</dd><dt>Contrast</dt><dd>✗ <em>This criteria</em> is wrong; say <em>this criterion</em> for one, <em>these criteria</em> for several. The plural takes a plural verb: <em>the criteria <strong>are</strong> listed below</em>, not ✗ <em>is listed</em>.</dd></dl>
+<p>A standard by which something is judged.</p>
+<p><strong>1. A standard of judgment.</strong> (критерий)</p>
+<ol><li>Cost was the only <em>criterion</em> that mattered.</li><li>The application meets all five <em>criteria</em>.</li><li>What <em>criteria</em> are you using to decide?</li><li>Each <em>criterion</em> is weighted differently.</li><li>These <em>criteria</em> have not changed since 1998.</li></ol>
+<dl class="fields"><dt>See also</dt><dd><a href="#phenomenon">phenomenon</a> &middot; <a href="08-latin-um-a.html#datum">datum</a></dd></dl>
+<hr>
+<h3 id="phenomenon">phenomenon<a class="hash" href="#phenomenon" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/fəˈnɑːmənɑːn/ &middot; <em>fuh-NAH-muh-nahn</em></dd><dt>Русский</dt><dd>явление, феномен</dd><dt>Plural</dt><dd><em>phenomena</em> /fəˈnɑːmənə/ &middot; <em>fuh-NAH-muh-nuh</em></dd><dt>Countability</dt><dd>countable</dd><dt>Agreement</dt><dd>plural verb — <em>these phenomena are unexplained</em></dd><dt>Pattern</dt><dd>Greek <em>-on</em> → <em>-a</em></dd><dt>Group</dt><dd>10</dd><dt>Type</dt><dd>abstract</dd><dt>Variants</dt><dd><em>phenomenons</em> is used only of remarkable people — <em>he is one of the great phenomenons of the sport</em></dd><dt>Contrast</dt><dd>✗ <em>A phenomena</em> is wrong. One is <em>a phenomenon</em>; several are <em>phenomena</em>. The exception is the 'extraordinary person' sense, which takes the English plural <em>phenomenons</em>.</dd></dl>
+<p>An observable fact or event, especially a remarkable one.</p>
+<p><strong>1. Something observed.</strong> Science and general use. (явление)</p>
+<ol><li>The northern lights are a well-studied <em>phenomenon</em>.</li><li>Several <em>phenomena</em> remain unexplained.</li><li>Migration is a <em>phenomenon</em> found across species.</li></ol>
+<p><strong>2. A trend or occurrence in society.</strong> (феномен)</p>
+<ol start="4"><li>Remote work became a global <em>phenomenon</em>.</li><li>These cultural <em>phenomena</em> deserve serious study.</li></ol>
+<p><strong>3. A remarkably talented person.</strong> Plural <em>phenomenons</em>. (феномен, самородок)</p>
+<ol start="6"><li>At nineteen she was already a <em>phenomenon</em>.</li></ol>
+<dl class="fields"><dt>See also</dt><dd><a href="#criterion">criterion</a></dd></dl>
+<hr>
+<h3 id="automaton">automaton<a class="hash" href="#automaton" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/ɔːˈtɑːmətɑːn/ &middot; <em>aw-TAH-muh-tahn</em></dd><dt>Русский</dt><dd>автомат, робот</dd><dt>Plural</dt><dd><em>automata</em> /ɔːˈtɑːmətə/ — also <em>automatons</em></dd><dt>Countability</dt><dd>countable</dd><dt>Agreement</dt><dd>plural verb — <em>the automata were built in the 1700s</em></dd><dt>Pattern</dt><dd>Greek <em>-on</em> → <em>-a</em></dd><dt>Group</dt><dd>10</dd><dt>Type</dt><dd>concrete</dd><dt>Variants</dt><dd><em>automata</em> in computer science and horology; <em>automatons</em> in general use</dd></dl>
+<p>A self-operating machine; figuratively, a person acting mechanically.</p>
+<p><strong>1. A self-operating machine.</strong> (автомат)</p>
+<ol><li>The museum displays an eighteenth-century <em>automaton</em> that writes.</li><li>Clockwork <em>automata</em> were the wonder of their age.</li><li>Finite <em>automata</em> are a foundation of computer science.</li></ol>
+<p><strong>2. A person acting without thought.</strong> Figurative. (робот, автомат)</p>
+<ol start="4"><li>After twelve hours he was working like an <em>automaton</em>.</li><li>The staff had been reduced to <em>automatons</em>.</li></ol>
+<dl class="fields"><dt>See also</dt><dd><a href="#phenomenon">phenomenon</a></dd></dl>
+<hr>
+<h3 id="ganglion">ganglion<a class="hash" href="#ganglion" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/ˈɡæŋɡliən/ &middot; <em>GANG-glee-uhn</em></dd><dt>Русский</dt><dd>ганглий, нервный узел</dd><dt>Plural</dt><dd><em>ganglia</em> /ˈɡæŋɡliə/ — also <em>ganglions</em></dd><dt>Countability</dt><dd>countable</dd><dt>Agreement</dt><dd>plural verb — <em>the ganglia are clustered near the spine</em></dd><dt>Pattern</dt><dd>Greek <em>-on</em> → <em>-a</em></dd><dt>Group</dt><dd>10</dd><dt>Type</dt><dd>concrete</dd><dt>Variants</dt><dd><em>ganglia</em> in anatomy; <em>ganglions</em> for the cyst on a wrist</dd></dl>
+<p>A cluster of nerve cell bodies; also a harmless cyst near a joint.</p>
+<p><strong>1. A nerve cluster.</strong> Anatomy. (нервный узел)</p>
+<ol><li>The basal <em>ganglia</em> control movement.</li><li>Each <em>ganglion</em> relays signals to the spinal cord.</li><li>Sensory <em>ganglia</em> lie just outside the cord.</li></ol>
+<p><strong>2. A cyst on a tendon.</strong> Usually <em>ganglions</em>. (ганглий, киста)</p>
+<ol start="4"><li>She had a <em>ganglion</em> removed from her wrist.</li><li>Both <em>ganglions</em> disappeared on their own.</li></ol>
+<dl class="fields"><dt>See also</dt><dd><a href="#automaton">automaton</a></dd></dl></div></main>
+<button class="themebtn" id="themeBtn">Dark</button>
+<script>
+const tb=document.getElementById('themeBtn');
+function setTheme(x){document.documentElement.dataset.theme=x;tb.textContent=x==='dark'?'Light':'Dark';
+ try{localStorage.setItem('site-theme',x)}catch(e){}}
+tb.onclick=()=>setTheme(document.documentElement.dataset.theme==='dark'?'light':'dark');
+try{const s=localStorage.getItem('site-theme');
+ setTheme(s||(matchMedia('(prefers-color-scheme: dark)').matches?'dark':'light'))}catch(e){setTheme('light')}
+</script></body></html>

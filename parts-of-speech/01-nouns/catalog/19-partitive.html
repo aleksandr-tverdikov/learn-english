@@ -1,0 +1,267 @@
+<!DOCTYPE html>
+<html lang="en"><head>
+<meta charset="utf-8"><meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Partitive nouns — how to count the uncountable</title>
+<style>
+:root{--bg:#faf9f7;--surface:#fff;--surface2:#f2f0ec;--border:#e2ded6;--text:#1a1815;
+--dim:#5f594f;--faint:#8a8377;--accent:#8a5a3b;--measure:72ch}
+@media(prefers-color-scheme:dark){:root{--bg:#14140f;--surface:#1d1d17;--surface2:#25251d;
+--border:#33332a;--text:#eeeae1;--dim:#a8a293;--faint:#7d776b;--accent:#d09b72}}
+:root[data-theme=dark]{--bg:#14140f;--surface:#1d1d17;--surface2:#25251d;--border:#33332a;
+--text:#eeeae1;--dim:#a8a293;--faint:#7d776b;--accent:#d09b72}
+:root[data-theme=light]{--bg:#faf9f7;--surface:#fff;--surface2:#f2f0ec;--border:#e2ded6;
+--text:#1a1815;--dim:#5f594f;--faint:#8a8377;--accent:#8a5a3b}
+*{box-sizing:border-box}
+body{margin:0;background:var(--bg);color:var(--text);
+font:17px/1.72 ui-serif,Georgia,"Iowan Old Style",Palatino,serif;-webkit-font-smoothing:antialiased}
+.wrap{max-width:min(var(--measure),100%);margin:0 auto;padding:0 22px}
+nav.crumb{border-bottom:1px solid var(--border);padding:13px 0;font-size:13.5px;
+font-family:-apple-system,BlinkMacSystemFont,"Segoe UI",sans-serif;position:sticky;top:0;background:var(--bg);z-index:20}
+nav.crumb .wrap{max-width:none;display:flex;gap:9px;align-items:center;flex-wrap:wrap}
+nav.crumb a{color:var(--dim);text-decoration:none}
+nav.crumb a:hover{color:var(--accent)}
+nav.crumb .sep{color:var(--faint)}
+main{padding:8px 0 80px}
+h1{font-size:clamp(28px,5vw,38px);line-height:1.15;letter-spacing:-.015em;margin:34px 0 18px}
+h2{font-size:25px;margin:46px 0 14px;letter-spacing:-.01em;padding-bottom:7px;border-bottom:1px solid var(--border)}
+h3{font-size:19px;margin:34px 0 10px;color:var(--accent)}
+h4{font-size:16px;margin:24px 0 8px;font-family:-apple-system,sans-serif}
+p{margin:0 0 16px}
+a{color:var(--accent)}
+.hash{opacity:0;margin-left:8px;font-weight:400;font-size:.65em;text-decoration:none;color:var(--faint)}
+h2:hover .hash,h3:hover .hash{opacity:1}
+blockquote{margin:0 0 20px;padding:14px 18px;background:var(--surface2);
+border-left:3px solid var(--accent);border-radius:0 8px 8px 0}
+blockquote p:last-child{margin-bottom:0}
+ol,ul{margin:0 0 18px;padding-left:26px}
+li{margin-bottom:8px}
+li>ul,li>ol{margin:8px 0 0}
+code{font-family:ui-monospace,SFMono-Regular,Menlo,Consolas,monospace;font-size:.87em;
+background:var(--surface2);padding:1px 5px;border-radius:4px}
+pre{background:var(--surface2);border:1px solid var(--border);border-radius:9px;
+padding:15px 17px;overflow-x:auto;margin:0 0 20px}
+pre code{background:none;padding:0;font-size:13px;line-height:1.6}
+.tw{overflow-x:auto;margin:0 0 22px;border:1px solid var(--border);border-radius:9px}
+table{border-collapse:collapse;width:100%;font-size:15px;
+font-family:-apple-system,BlinkMacSystemFont,"Segoe UI",sans-serif}
+th,td{padding:10px 14px;border-bottom:1px solid var(--border);vertical-align:top}
+th{background:var(--surface2);font-size:12px;text-transform:uppercase;
+letter-spacing:.06em;color:var(--dim);font-weight:700;white-space:nowrap}
+tbody tr:last-child td{border-bottom:none}
+hr{border:none;border-top:1px solid var(--border);margin:38px 0}
+details{background:var(--surface2);border:1px solid var(--border);border-radius:9px;
+padding:13px 17px;margin:0 0 20px}
+summary{cursor:pointer;font-weight:600;font-family:-apple-system,sans-serif;font-size:15px}
+details[open] summary{margin-bottom:12px}
+del{color:var(--faint)}
+dl.fields{margin:0 0 20px;padding:0}
+dl.fields dt{font-family:-apple-system,BlinkMacSystemFont,"Segoe UI",sans-serif;
+font-size:11px;letter-spacing:.11em;text-transform:uppercase;color:var(--faint);
+font-weight:700;margin:14px 0 4px}
+dl.fields dt:first-child{margin-top:0}
+dl.fields dd{margin:0;font-size:16px;color:var(--dim);line-height:1.62}
+dl.fields dd em{color:var(--text)}
+dl.fields dt.ru{color:var(--accent)}
+dl.fields dd strong{color:var(--text)}
+.toc{background:var(--surface2);border:1px solid var(--border);border-radius:10px;
+padding:16px 20px;margin:26px 0 34px;font-family:-apple-system,sans-serif;font-size:14px}
+.toc b{display:block;font-size:11px;letter-spacing:.12em;text-transform:uppercase;
+color:var(--faint);margin-bottom:9px}
+.toc a{display:block;padding:3px 0;color:var(--dim);text-decoration:none}
+.toc a:hover{color:var(--accent)}
+.themebtn{position:fixed;right:18px;bottom:18px;z-index:60;font-family:-apple-system,sans-serif;
+font-size:12.5px;font-weight:600;cursor:pointer;background:var(--surface);border:1px solid var(--border);
+border-radius:99px;padding:9px 16px;color:var(--text)}
+@media(max-width:600px){body{font-size:16px}.wrap{padding:0 17px}}
+</style></head><body>
+<nav class="crumb"><div class="wrap"><a href="../../../index.html">Learn English</a><span class="sep">/</span><a href="../../README.html">Parts of speech</a><span class="sep">/</span><a href="../README.html">01-nouns</a><span class="sep">/</span><span>catalog</span></div></nav>
+<main><div class="wrap"><h1 id="partitive-nouns--how-to-count-the-uncountable">Partitive nouns — how to count the uncountable<a class="hash" href="#partitive-nouns--how-to-count-the-uncountable" aria-label="link">#</a></h1>
+<blockquote><p><em>A piece of advice</em>, <em>a slice of bread</em>, <em>a bar of soap</em>, <em>a pinch of salt</em>. The uncountable noun cannot take a number, so a countable one carries it.</p></blockquote>
+<p><a href="../README.html">← The grammar of nouns</a> &middot; <a href="README.html">All groups</a></p>
+<p>An <a href="13-uncountable.html">uncountable noun</a> cannot follow a number: ✗ <em>two advices</em>, ✗ <em>three breads</em>. To count it you insert a <strong>partitive</strong> — a countable noun naming a portion, joined by <em>of</em>. The number then attaches to the partitive: <em>two <strong>pieces</strong> of advice</em>, <em>three <strong>slices</strong> of bread</em>.</p>
+<p>Agreement follows the partitive, not the mass noun: <em>a piece of information <strong>is</strong> missing</em>, <em>two pieces of information <strong>are</strong> missing</em>.</p>
+<p>The hard part is not the structure but the <strong>choice</strong>. English is fussy about which partitive goes with which noun, and the wrong one is immediately noticeable even though it is perfectly logical. <em>A piece of furniture</em> is right; ✗ <em>a slice of furniture</em> is not. <em>A bar of soap</em>, but ✗ <em>a bar of shampoo</em>. There is no rule — these are collocations, learned as pairs.</p>
+<p><em>Piece</em> is the general-purpose fallback and works with a great many abstract nouns: <em>a piece of advice, information, news, evidence, luck, work, music, research</em>. When you are unsure, <em>piece</em> is the safest choice.</p>
+<hr>
+<h3 id="piece">piece<a class="hash" href="#piece" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/piːs/ &middot; <em>pees</em></dd><dt>Русский</dt><dd>кусок; штука</dd><dt>Countability</dt><dd>countable</dd><dt>Agreement</dt><dd>follows the partitive — <em>a piece is</em> / <em>two pieces are</em></dd><dt>Type</dt><dd>concrete and abstract</dd><dt>Contrast</dt><dd>The all-purpose partitive, and the right default for abstract nouns: <em>a piece of advice, information, news, evidence, luck, music, research, work, furniture, equipment, cake, paper</em>. When no more specific word comes to mind, <em>piece</em> is almost never wrong.</dd></dl>
+<p>A portion or unit of something.</p>
+<p><strong>1. With abstract uncountables.</strong> (единица чего-либо)</p>
+<ol><li>Let me give you a <em>piece</em> of advice.</li><li>That's a useful <em>piece</em> of information.</li><li>Two <em>pieces</em> of evidence were missing.</li></ol>
+<p><strong>2. With physical materials.</strong> (кусок)</p>
+<ol start="4"><li>Hand me a <em>piece</em> of paper.</li><li>He cut three <em>pieces</em> of wood to length.</li><li>There's one <em>piece</em> of cake left.</li></ol>
+<p><strong>3. A created work.</strong> (произведение)</p>
+<ol start="7"><li>She wrote a <em>piece</em> for the local paper.</li><li>It's a beautiful <em>piece</em> of music.</li></ol>
+<dl class="fields"><dt>See also</dt><dd><a href="#slice">slice</a> &middot; <a href="#bit">bit</a></dd></dl>
+<hr>
+<h3 id="bit">bit<a class="hash" href="#bit" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/bɪt/ &middot; <em>bit</em></dd><dt>Русский</dt><dd>немного, кусочек</dd><dt>Countability</dt><dd>countable</dd><dt>Agreement</dt><dd>follows the partitive — <em>a bit is</em> / <em>two bits are</em></dd><dt>Type</dt><dd>abstract</dd><dt>Contrast</dt><dd><em>A bit of</em> is the informal, smaller-sounding alternative to <em>a piece of</em>: <em>a bit of advice</em> is friendlier than <em>a piece of advice</em>. It also works as an adverb meaning 'slightly' — <em>a bit tired</em>.</dd></dl>
+<p>A small amount or portion.</p>
+<p><strong>1. A small amount.</strong> (немного)</p>
+<ol><li>Give me a <em>bit</em> of time.</li><li>There's a <em>bit</em> of cheese left.</li><li>He needs a <em>bit</em> of luck.</li><li>She told me a few <em>bits</em> of news.</li></ol>
+<p><strong>2. As an intensifier — a bit.</strong> (немного, слегка)</p>
+<ol start="5"><li>I'm a <em>bit</em> tired.</li><li>That's a <em>bit</em> much.</li></ol>
+<dl class="fields"><dt>See also</dt><dd><a href="#piece">piece</a></dd></dl>
+<hr>
+<h3 id="slice">slice<a class="hash" href="#slice" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/slaɪs/ &middot; <em>slyse</em></dd><dt>Русский</dt><dd>ломтик, кусок</dd><dt>Countability</dt><dd>countable</dd><dt>Agreement</dt><dd>follows the partitive — <em>a slice is</em> / <em>two slices are</em></dd><dt>Type</dt><dd>concrete</dd><dt>Contrast</dt><dd><em>Slice</em> means a thin flat piece cut from something larger, so it collocates with bread, cheese, pizza, cake, meat, and lemon — but not with soap or furniture.</dd></dl>
+<p>A thin flat piece cut from something.</p>
+<p><strong>1. A cut piece of food.</strong> (ломтик)</p>
+<ol><li>She toasted two <em>slices</em> of bread.</li><li>Add a <em>slice</em> of lemon.</li><li>There are three <em>slices</em> of pizza left.</li><li>He cut a thin <em>slice</em> of cheese.</li></ol>
+<p><strong>2. A share or portion.</strong> Figurative. (доля)</p>
+<ol start="5"><li>Everyone wants a <em>slice</em> of the profits.</li></ol>
+<dl class="fields"><dt>See also</dt><dd><a href="#piece">piece</a> &middot; <a href="04-f-to-ves.html#loaf">loaf</a></dd></dl>
+<hr>
+<h3 id="bar">bar<a class="hash" href="#bar" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/bɑːr/ &middot; <em>bar</em></dd><dt>Русский</dt><dd>плитка, брусок</dd><dt>Countability</dt><dd>countable</dd><dt>Agreement</dt><dd>follows the partitive — <em>a bar is</em> / <em>two bars are</em></dd><dt>Type</dt><dd>concrete</dd><dt>Contrast</dt><dd><em>Bar</em> collocates tightly: <em>a bar of soap</em>, <em>a bar of chocolate</em>, <em>a bar of gold</em>, <em>a bar of music</em>. It does not extend to liquids or powders.</dd></dl>
+<p>A solid rectangular block of something.</p>
+<p><strong>1. A block of a solid substance.</strong> (плитка, брусок)</p>
+<ol><li>We need another <em>bar</em> of soap.</li><li>He ate a whole <em>bar</em> of chocolate.</li><li>Two <em>bars</em> of gold were recovered.</li></ol>
+<p><strong>2. A unit of music.</strong> (такт)</p>
+<ol start="4"><li>The melody enters after four <em>bars</em>.</li></ol>
+<p><strong>3. A long rigid piece of metal.</strong> (перекладина, прут)</p>
+<ol start="5"><li>Iron <em>bars</em> covered the window.</li></ol>
+<dl class="fields"><dt>See also</dt><dd><a href="#piece">piece</a> &middot; <a href="#lump">lump</a></dd></dl>
+<hr>
+<h3 id="sheet">sheet<a class="hash" href="#sheet" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/ʃiːt/ &middot; <em>sheet</em></dd><dt>Русский</dt><dd>лист</dd><dt>Countability</dt><dd>countable</dd><dt>Agreement</dt><dd>follows the partitive — <em>a sheet is</em> / <em>two sheets are</em></dd><dt>Type</dt><dd>concrete</dd><dt>Contrast</dt><dd><em>A sheet of</em> is used for thin flat materials: paper, glass, metal, ice, plastic. For paper, both <em>a sheet of paper</em> and <em>a piece of paper</em> are normal.</dd></dl>
+<p>A thin flat piece of material.</p>
+<p><strong>1. A flat piece of material.</strong> (лист)</p>
+<ol><li>Bring me a <em>sheet</em> of paper.</li><li>Two <em>sheets</em> of glass were delivered.</li><li>A <em>sheet</em> of ice covered the road.</li><li>He cut a <em>sheet</em> of plywood in half.</li></ol>
+<p><strong>2. Bedding.</strong> (простыня)</p>
+<ol start="5"><li>The <em>sheets</em> need changing.</li></ol>
+<dl class="fields"><dt>See also</dt><dd><a href="#piece">piece</a></dd></dl>
+<hr>
+<h3 id="pair">pair<a class="hash" href="#pair" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/pɛr/ &middot; <em>pair</em></dd><dt>Русский</dt><dd>пара</dd><dt>Countability</dt><dd>countable</dd><dt>Agreement</dt><dd>singular when <em>pair</em> is the head — <em>a pair of scissors is missing</em></dd><dt>Type</dt><dd>concrete</dd><dt>Contrast</dt><dd>The obligatory partitive for <a href="15-plural-only.html">plural-only two-part nouns</a>: <em>a pair of scissors, pants, jeans, glasses, binoculars, pliers</em>. Note the agreement: <em>a pair of scissors <strong>is</strong> on the desk</em> — the verb follows <em>pair</em>, not <em>scissors</em>.</dd></dl>
+<p>A set of two matching things, or one object with two joined parts.</p>
+<p><strong>1. With plural-only objects.</strong> (пара — о парных предметах)</p>
+<ol><li>Hand me a <em>pair</em> of scissors.</li><li>She bought two <em>pairs</em> of jeans.</li><li>A <em>pair</em> of glasses was left on the table.</li></ol>
+<p><strong>2. Two matching items.</strong> (пара)</p>
+<ol start="4"><li>He owns six <em>pairs</em> of shoes.</li><li>One <em>pair</em> of socks was missing.</li></ol>
+<p><strong>3. Two people or animals together.</strong> (пара)</p>
+<ol start="6"><li>A <em>pair</em> of hawks nests on the roof.</li></ol>
+<dl class="fields"><dt>See also</dt><dd><a href="15-plural-only.html#scissors">scissors</a></dd></dl>
+<hr>
+<h3 id="bunch">bunch<a class="hash" href="#bunch" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/bʌntʃ/ &middot; <em>bunch</em></dd><dt>Русский</dt><dd>пучок, гроздь, связка</dd><dt>Countability</dt><dd>countable</dd><dt>Agreement</dt><dd>singular as a unit — <em>a bunch of grapes is</em>; plural with people — <em>a bunch of people are</em></dd><dt>Type</dt><dd>concrete</dd><dt>Contrast</dt><dd><em>Bunch</em> collocates with things naturally growing or tied together: <em>grapes</em>, <em>bananas</em>, <em>flowers</em>, <em>keys</em>, <em>herbs</em>. Informally in American English <em>a bunch of</em> also just means 'a lot of', and then takes a plural verb: <em>a bunch of people <strong>are</strong> waiting</em>.</dd></dl>
+<p>A group of things growing or fastened together.</p>
+<p><strong>1. Things grouped together.</strong> (гроздь, пучок)</p>
+<ol><li>Buy a <em>bunch</em> of bananas.</li><li>She brought a <em>bunch</em> of flowers.</li><li>Two <em>bunches</em> of grapes were left.</li><li>He pulled out a <em>bunch</em> of keys.</li></ol>
+<p><strong>2. Informally — a lot of.</strong> American. (куча, много)</p>
+<ol start="5"><li>A <em>bunch</em> of people are waiting outside.</li><li>I have a whole <em>bunch</em> of things to do.</li></ol>
+<dl class="fields"><dt>See also</dt><dd><a href="#pair">pair</a></dd></dl>
+<hr>
+<h3 id="pinch">pinch<a class="hash" href="#pinch" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/pɪntʃ/ &middot; <em>pinch</em></dd><dt>Русский</dt><dd>щепотка</dd><dt>Countability</dt><dd>countable</dd><dt>Agreement</dt><dd>follows the partitive — <em>a pinch is</em> / <em>two pinches are</em></dd><dt>Type</dt><dd>concrete</dd><dt>Contrast</dt><dd>Used almost exclusively of dry seasonings: <em>a pinch of salt</em>, <em>a pinch of pepper</em>, <em>a pinch of cinnamon</em>. Literally the amount held between finger and thumb.</dd></dl>
+<p>A very small amount, held between finger and thumb.</p>
+<p><strong>1. A small quantity of a powder.</strong> (щепотка)</p>
+<ol><li>Add a <em>pinch</em> of salt.</li><li>Two <em>pinches</em> of saffron is plenty.</li><li>Just a <em>pinch</em> of cinnamon on top.</li></ol>
+<p><strong>2. In fixed expressions.</strong> (в устойчивых выражениях)</p>
+<ol start="4"><li>Take what he says with a <em>pinch</em> of salt.</li><li>In a <em>pinch</em>, you could use butter instead.</li></ol>
+<dl class="fields"><dt>See also</dt><dd><a href="#grain">grain</a> &middot; <a href="#drop">drop</a></dd></dl>
+<hr>
+<h3 id="drop">drop<a class="hash" href="#drop" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/drɑːp/ &middot; <em>drahp</em></dd><dt>Русский</dt><dd>капля</dd><dt>Countability</dt><dd>countable</dd><dt>Agreement</dt><dd>follows the partitive — <em>a drop is</em> / <em>two drops are</em></dd><dt>Type</dt><dd>concrete</dd><dt>Contrast</dt><dd>The standard partitive for liquids in small quantity: <em>a drop of water</em>, <em>a drop of blood</em>, <em>a drop of oil</em>. For larger amounts use <em>a glass of</em>, <em>a cup of</em>, <em>a bottle of</em>.</dd></dl>
+<p>A small round quantity of liquid.</p>
+<p><strong>1. A small quantity of liquid.</strong> (капля)</p>
+<ol><li>Add two <em>drops</em> of vanilla.</li><li>There's not a <em>drop</em> of milk left.</li><li>A <em>drop</em> of blood fell on the paper.</li><li>Put three <em>drops</em> in each eye.</li></ol>
+<p><strong>2. A small amount generally.</strong> (капелька)</p>
+<ol start="5"><li>He hasn't had a <em>drop</em> to drink all evening.</li></ol>
+<dl class="fields"><dt>See also</dt><dd><a href="#pinch">pinch</a> &middot; <a href="14-dual-category.html#glass">glass</a></dd></dl>
+<hr>
+<h3 id="grain">grain<a class="hash" href="#grain" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/ɡreɪn/ &middot; <em>grayn</em></dd><dt>Русский</dt><dd>зерно, крупинка</dd><dt>Countability</dt><dd>countable</dd><dt>Agreement</dt><dd>follows the partitive — <em>a grain is</em> / <em>two grains are</em></dd><dt>Type</dt><dd>concrete</dd><dt>Contrast</dt><dd>The partitive for very small hard particles: <em>a grain of rice</em>, <em>a grain of sand</em>, <em>a grain of salt</em>, <em>a grain of truth</em>.</dd></dl>
+<p>A single small hard particle.</p>
+<p><strong>1. A single particle.</strong> (крупинка, зерно)</p>
+<ol><li>Not a single <em>grain</em> of rice was left.</li><li><em>Grains</em> of sand worked into everything.</li><li>A few <em>grains</em> of salt fell on the counter.</li></ol>
+<p><strong>2. A tiny amount, figuratively.</strong> (крупица)</p>
+<ol start="4"><li>There isn't a <em>grain</em> of truth in it.</li></ol>
+<p><strong>3. The direction of fibers in wood.</strong> (волокно, текстура)</p>
+<ol start="5"><li>Cut along the <em>grain</em>, not across it.</li></ol>
+<dl class="fields"><dt>See also</dt><dd><a href="#pinch">pinch</a> &middot; <a href="13-uncountable.html#rice">rice</a></dd></dl>
+<hr>
+<h3 id="lump">lump<a class="hash" href="#lump" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/lʌmp/ &middot; <em>lump</em></dd><dt>Русский</dt><dd>кусок, комок</dd><dt>Countability</dt><dd>countable</dd><dt>Agreement</dt><dd>follows the partitive — <em>a lump is</em> / <em>two lumps are</em></dd><dt>Type</dt><dd>concrete</dd><dt>Contrast</dt><dd>Used of shapeless solid masses: <em>a lump of sugar</em>, <em>a lump of coal</em>, <em>a lump of clay</em>, <em>a lump of dough</em>. Compare <em>bar</em>, which implies a regular rectangular shape.</dd></dl>
+<p>A compact shapeless mass.</p>
+<p><strong>1. A shapeless mass.</strong> (кусок, комок)</p>
+<ol><li>Two <em>lumps</em> of sugar, please.</li><li>He threw a <em>lump</em> of coal on the fire.</li><li>She rolled the <em>lump</em> of dough flat.</li></ol>
+<p><strong>2. A swelling on the body.</strong> (шишка, уплотнение)</p>
+<ol start="4"><li>The doctor found a small <em>lump</em>.</li></ol>
+<p><strong>3. In fixed expressions.</strong> (в устойчивых выражениях)</p>
+<ol start="5"><li>I got a <em>lump</em> in my throat just watching it.</li></ol>
+<dl class="fields"><dt>See also</dt><dd><a href="#bar">bar</a> &middot; <a href="#piece">piece</a></dd></dl>
+<hr>
+<h3 id="bottle">bottle<a class="hash" href="#bottle" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/ˈbɑːtəl/ &middot; <em>BAH-tuhl</em></dd><dt>Русский</dt><dd>бутылка</dd><dt>Countability</dt><dd>countable</dd><dt>Agreement</dt><dd>follows the partitive — <em>a bottle is</em> / <em>two bottles are</em></dd><dt>Type</dt><dd>concrete</dd><dt>Contrast</dt><dd>Container partitives are the easiest group, because the container is visible: <em>a bottle of wine</em>, <em>a can of soup</em>, <em>a jar of honey</em>, <em>a carton of milk</em>, <em>a bag of flour</em>, <em>a box of cereal</em>, <em>a tube of toothpaste</em>.</dd></dl>
+<p>The container, and the amount it holds.</p>
+<p><strong>1. The amount a bottle holds.</strong> (бутылка чего-либо)</p>
+<ol><li>We opened a <em>bottle</em> of wine.</li><li>Buy two <em>bottles</em> of olive oil.</li><li>He drank a whole <em>bottle</em> of water.</li></ol>
+<p><strong>2. The container itself.</strong> (бутылка)</p>
+<ol start="4"><li>Put the empty <em>bottles</em> in the recycling.</li><li>The <em>bottle</em> is made of thick green glass.</li></ol>
+<dl class="fields"><dt>See also</dt><dd><a href="#can">can</a> &middot; <a href="#drop">drop</a></dd></dl>
+<hr>
+<h3 id="can">can<a class="hash" href="#can" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/kæn/ &middot; <em>kan</em></dd><dt>Русский</dt><dd>банка, консервная банка</dd><dt>Countability</dt><dd>countable</dd><dt>Agreement</dt><dd>follows the partitive — <em>a can is</em> / <em>two cans are</em></dd><dt>Type</dt><dd>concrete</dd><dt>Variants</dt><dd>the British word for the food container is <em>tin</em></dd><dt>Contrast</dt><dd>American <em>can</em>, British <em>tin</em>, for the same sealed metal container. Both languages say <em>a can of soda</em>.</dd></dl>
+<p>The metal container, and the amount it holds.</p>
+<p><strong>1. The amount a can holds.</strong> (банка чего-либо)</p>
+<ol><li>Add a <em>can</em> of crushed tomatoes.</li><li>We bought three <em>cans</em> of soup.</li><li>He drank a <em>can</em> of soda.</li></ol>
+<p><strong>2. The container itself.</strong> (жестяная банка)</p>
+<ol start="4"><li>The empty <em>cans</em> go in the blue bin.</li><li>Open the <em>can</em> carefully — the edge is sharp.</li></ol>
+<dl class="fields"><dt>See also</dt><dd><a href="#bottle">bottle</a> &middot; <a href="#jar">jar</a></dd></dl>
+<hr>
+<h3 id="jar">jar<a class="hash" href="#jar" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/dʒɑːr/ &middot; <em>jar</em></dd><dt>Русский</dt><dd>банка (стеклянная)</dd><dt>Countability</dt><dd>countable</dd><dt>Agreement</dt><dd>follows the partitive — <em>a jar is</em> / <em>two jars are</em></dd><dt>Type</dt><dd>concrete</dd><dt>Contrast</dt><dd>A <em>jar</em> is wide-mouthed, usually glass, and holds thick or solid food: <em>a jar of honey</em>, <em>a jar of jam</em>, <em>a jar of pickles</em>. A <em>bottle</em> is narrow-necked and holds liquid.</dd></dl>
+<p>The wide-mouthed container, and the amount it holds.</p>
+<p><strong>1. The amount a jar holds.</strong> (банка чего-либо)</p>
+<ol><li>There's half a <em>jar</em> of jam left.</li><li>Two <em>jars</em> of honey came from one hive.</li><li>She opened a <em>jar</em> of pickles.</li></ol>
+<p><strong>2. The container itself.</strong> (банка)</p>
+<ol start="4"><li>The <em>jars</em> are sterilized before filling.</li><li>He keeps screws in an old <em>jar</em>.</li></ol>
+<dl class="fields"><dt>See also</dt><dd><a href="#can">can</a> &middot; <a href="#bottle">bottle</a></dd></dl>
+<hr>
+<h3 id="carton">carton<a class="hash" href="#carton" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/ˈkɑːrtən/ &middot; <em>KAR-tuhn</em></dd><dt>Русский</dt><dd>пакет, коробка</dd><dt>Countability</dt><dd>countable</dd><dt>Agreement</dt><dd>follows the partitive — <em>a carton is</em> / <em>two cartons are</em></dd><dt>Type</dt><dd>concrete</dd><dt>Contrast</dt><dd>In American English <em>a carton of milk</em> and <em>a carton of eggs</em> are both standard, though the containers are quite different. For juice, <em>a carton</em> is the paper container and <em>a bottle</em> the plastic one.</dd></dl>
+<p>The cardboard container, and the amount it holds.</p>
+<p><strong>1. The amount a carton holds.</strong> (пакет, упаковка)</p>
+<ol><li>Pick up a <em>carton</em> of milk.</li><li>Two <em>cartons</em> of eggs should be enough.</li><li>He drank half a <em>carton</em> of juice.</li></ol>
+<p><strong>2. The container itself.</strong> (картонная коробка)</p>
+<ol start="4"><li>Flatten the <em>cartons</em> before recycling.</li><li>The <em>carton</em> was leaking at the bottom.</li></ol>
+<dl class="fields"><dt>See also</dt><dd><a href="#bottle">bottle</a> &middot; <a href="#pack">pack</a></dd></dl>
+<hr>
+<h3 id="pack">pack<a class="hash" href="#pack" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/pæk/ &middot; <em>pak</em></dd><dt>Русский</dt><dd>пачка, упаковка</dd><dt>Countability</dt><dd>countable</dd><dt>Agreement</dt><dd>follows the partitive — <em>a pack is</em> / <em>two packs are</em></dd><dt>Type</dt><dd>concrete</dd><dt>Variants</dt><dd><em>packet</em> is the usual British word for a small pack</dd><dt>Contrast</dt><dd>Also a collective noun for animals — <em>a pack of wolves</em>, <em>a pack of dogs</em> — and a group of playing cards.</dd></dl>
+<p>A wrapped package, and the amount it holds.</p>
+<p><strong>1. A wrapped quantity.</strong> (пачка)</p>
+<ol><li>Buy a <em>pack</em> of batteries.</li><li>Two <em>packs</em> of gum were in his pocket.</li><li>She opened a fresh <em>pack</em> of cards.</li></ol>
+<p><strong>2. A group of animals.</strong> (стая)</p>
+<ol start="4"><li>A <em>pack</em> of wolves crossed the ridge.</li></ol>
+<p><strong>3. A backpack.</strong> (рюкзак)</p>
+<ol start="5"><li>He shouldered his <em>pack</em> and started walking.</li></ol>
+<dl class="fields"><dt>See also</dt><dd><a href="#carton">carton</a> &middot; <a href="17-collective.html#herd">herd</a></dd></dl>
+<hr>
+<h3 id="loaf">loaf<a class="hash" href="#loaf" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/loʊf/ &middot; <em>lohf</em></dd><dt>Русский</dt><dd>буханка</dd><dt>Countability</dt><dd>countable</dd><dt>Agreement</dt><dd>follows the partitive — <em>a loaf is</em> / <em>two loaves are</em></dd><dt>Type</dt><dd>concrete</dd><dt>Contrast</dt><dd>The obligatory partitive for <a href="13-uncountable.html#bread">bread</a>, which is uncountable: ✗ <em>two breads</em> is wrong, <em>two loaves of bread</em> is right. Note the irregular plural <em>loaves</em> — see <a href="04-f-to-ves.html#loaf">loaf</a>.</dd></dl>
+<p>A shaped mass of bread.</p>
+<p><strong>1. A whole bread.</strong> (буханка)</p>
+<ol><li>Pick up a <em>loaf</em> of bread.</li><li>Two <em>loaves</em> were still warm.</li><li>She bakes a <em>loaf</em> every Sunday.</li><li>Half a <em>loaf</em> is better than none.</li><li>He cut the <em>loaf</em> into thick slices.</li></ol>
+<dl class="fields"><dt>See also</dt><dd><a href="13-uncountable.html#bread">bread</a> &middot; <a href="#slice">slice</a></dd></dl>
+<hr>
+<h3 id="cup">cup<a class="hash" href="#cup" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/kʌp/ &middot; <em>kup</em></dd><dt>Русский</dt><dd>чашка; стакан (мера)</dd><dt>Countability</dt><dd>countable</dd><dt>Agreement</dt><dd>follows the partitive — <em>a cup is</em> / <em>two cups are</em></dd><dt>Type</dt><dd>concrete</dd><dt>Contrast</dt><dd>In American recipes <em>a cup</em> is a fixed measure — eight fluid ounces — not just a drinking vessel. This is why American recipes measure flour and sugar by volume where European ones use weight.</dd></dl>
+<p>The drinking vessel, and the amount it holds; in cooking, a fixed measure.</p>
+<p><strong>1. A drink's worth.</strong> (чашка)</p>
+<ol><li>She made a <em>cup</em> of tea.</li><li>Two <em>cups</em> of coffee is my limit.</li><li>He drank three <em>cups</em> of water.</li></ol>
+<p><strong>2. A cooking measure.</strong> American. (стакан как мера)</p>
+<ol start="4"><li>Add two <em>cups</em> of flour.</li><li>The recipe calls for a <em>cup</em> of sugar.</li></ol>
+<p><strong>3. A trophy.</strong> (кубок)</p>
+<ol start="6"><li>They lifted the <em>cup</em> for the third year running.</li></ol>
+<dl class="fields"><dt>See also</dt><dd><a href="#bottle">bottle</a> &middot; <a href="18-compound-plurals.html#spoonful">spoonful</a></dd></dl></div></main>
+<button class="themebtn" id="themeBtn">Dark</button>
+<script>
+const tb=document.getElementById('themeBtn');
+function setTheme(x){document.documentElement.dataset.theme=x;tb.textContent=x==='dark'?'Light':'Dark';
+ try{localStorage.setItem('site-theme',x)}catch(e){}}
+tb.onclick=()=>setTheme(document.documentElement.dataset.theme==='dark'?'light':'dark');
+try{const s=localStorage.getItem('site-theme');
+ setTheme(s||(matchMedia('(prefers-color-scheme: dark)').matches?'dark':'light'))}catch(e){setTheme('light')}
+</script></body></html>

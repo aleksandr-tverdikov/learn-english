@@ -1,0 +1,240 @@
+<!DOCTYPE html>
+<html lang="en"><head>
+<meta charset="utf-8"><meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Plural-only nouns (pluralia tantum)</title>
+<style>
+:root{--bg:#faf9f7;--surface:#fff;--surface2:#f2f0ec;--border:#e2ded6;--text:#1a1815;
+--dim:#5f594f;--faint:#8a8377;--accent:#8a5a3b;--measure:72ch}
+@media(prefers-color-scheme:dark){:root{--bg:#14140f;--surface:#1d1d17;--surface2:#25251d;
+--border:#33332a;--text:#eeeae1;--dim:#a8a293;--faint:#7d776b;--accent:#d09b72}}
+:root[data-theme=dark]{--bg:#14140f;--surface:#1d1d17;--surface2:#25251d;--border:#33332a;
+--text:#eeeae1;--dim:#a8a293;--faint:#7d776b;--accent:#d09b72}
+:root[data-theme=light]{--bg:#faf9f7;--surface:#fff;--surface2:#f2f0ec;--border:#e2ded6;
+--text:#1a1815;--dim:#5f594f;--faint:#8a8377;--accent:#8a5a3b}
+*{box-sizing:border-box}
+body{margin:0;background:var(--bg);color:var(--text);
+font:17px/1.72 ui-serif,Georgia,"Iowan Old Style",Palatino,serif;-webkit-font-smoothing:antialiased}
+.wrap{max-width:min(var(--measure),100%);margin:0 auto;padding:0 22px}
+nav.crumb{border-bottom:1px solid var(--border);padding:13px 0;font-size:13.5px;
+font-family:-apple-system,BlinkMacSystemFont,"Segoe UI",sans-serif;position:sticky;top:0;background:var(--bg);z-index:20}
+nav.crumb .wrap{max-width:none;display:flex;gap:9px;align-items:center;flex-wrap:wrap}
+nav.crumb a{color:var(--dim);text-decoration:none}
+nav.crumb a:hover{color:var(--accent)}
+nav.crumb .sep{color:var(--faint)}
+main{padding:8px 0 80px}
+h1{font-size:clamp(28px,5vw,38px);line-height:1.15;letter-spacing:-.015em;margin:34px 0 18px}
+h2{font-size:25px;margin:46px 0 14px;letter-spacing:-.01em;padding-bottom:7px;border-bottom:1px solid var(--border)}
+h3{font-size:19px;margin:34px 0 10px;color:var(--accent)}
+h4{font-size:16px;margin:24px 0 8px;font-family:-apple-system,sans-serif}
+p{margin:0 0 16px}
+a{color:var(--accent)}
+.hash{opacity:0;margin-left:8px;font-weight:400;font-size:.65em;text-decoration:none;color:var(--faint)}
+h2:hover .hash,h3:hover .hash{opacity:1}
+blockquote{margin:0 0 20px;padding:14px 18px;background:var(--surface2);
+border-left:3px solid var(--accent);border-radius:0 8px 8px 0}
+blockquote p:last-child{margin-bottom:0}
+ol,ul{margin:0 0 18px;padding-left:26px}
+li{margin-bottom:8px}
+li>ul,li>ol{margin:8px 0 0}
+code{font-family:ui-monospace,SFMono-Regular,Menlo,Consolas,monospace;font-size:.87em;
+background:var(--surface2);padding:1px 5px;border-radius:4px}
+pre{background:var(--surface2);border:1px solid var(--border);border-radius:9px;
+padding:15px 17px;overflow-x:auto;margin:0 0 20px}
+pre code{background:none;padding:0;font-size:13px;line-height:1.6}
+.tw{overflow-x:auto;margin:0 0 22px;border:1px solid var(--border);border-radius:9px}
+table{border-collapse:collapse;width:100%;font-size:15px;
+font-family:-apple-system,BlinkMacSystemFont,"Segoe UI",sans-serif}
+th,td{padding:10px 14px;border-bottom:1px solid var(--border);vertical-align:top}
+th{background:var(--surface2);font-size:12px;text-transform:uppercase;
+letter-spacing:.06em;color:var(--dim);font-weight:700;white-space:nowrap}
+tbody tr:last-child td{border-bottom:none}
+hr{border:none;border-top:1px solid var(--border);margin:38px 0}
+details{background:var(--surface2);border:1px solid var(--border);border-radius:9px;
+padding:13px 17px;margin:0 0 20px}
+summary{cursor:pointer;font-weight:600;font-family:-apple-system,sans-serif;font-size:15px}
+details[open] summary{margin-bottom:12px}
+del{color:var(--faint)}
+dl.fields{margin:0 0 20px;padding:0}
+dl.fields dt{font-family:-apple-system,BlinkMacSystemFont,"Segoe UI",sans-serif;
+font-size:11px;letter-spacing:.11em;text-transform:uppercase;color:var(--faint);
+font-weight:700;margin:14px 0 4px}
+dl.fields dt:first-child{margin-top:0}
+dl.fields dd{margin:0;font-size:16px;color:var(--dim);line-height:1.62}
+dl.fields dd em{color:var(--text)}
+dl.fields dt.ru{color:var(--accent)}
+dl.fields dd strong{color:var(--text)}
+.toc{background:var(--surface2);border:1px solid var(--border);border-radius:10px;
+padding:16px 20px;margin:26px 0 34px;font-family:-apple-system,sans-serif;font-size:14px}
+.toc b{display:block;font-size:11px;letter-spacing:.12em;text-transform:uppercase;
+color:var(--faint);margin-bottom:9px}
+.toc a{display:block;padding:3px 0;color:var(--dim);text-decoration:none}
+.toc a:hover{color:var(--accent)}
+.themebtn{position:fixed;right:18px;bottom:18px;z-index:60;font-family:-apple-system,sans-serif;
+font-size:12.5px;font-weight:600;cursor:pointer;background:var(--surface);border:1px solid var(--border);
+border-radius:99px;padding:9px 16px;color:var(--text)}
+@media(max-width:600px){body{font-size:16px}.wrap{padding:0 17px}}
+</style></head><body>
+<nav class="crumb"><div class="wrap"><a href="../../../index.html">Learn English</a><span class="sep">/</span><a href="../../README.html">Parts of speech</a><span class="sep">/</span><a href="../README.html">01-nouns</a><span class="sep">/</span><span>catalog</span></div></nav>
+<main><div class="wrap"><h1 id="plural-only-nouns-pluralia-tantum">Plural-only nouns (<em>pluralia tantum</em>)<a class="hash" href="#plural-only-nouns-pluralia-tantum" aria-label="link">#</a></h1>
+<blockquote><p><em>Scissors</em>, <em>jeans</em>, <em>clothes</em>. Always plural, always a plural verb, and no singular exists — to count them you need <em>a pair of</em>.</p></blockquote>
+<p><a href="../README.html">← The grammar of nouns</a> &middot; <a href="README.html">All groups</a></p>
+<p>These nouns exist only in the plural. There is no ✗ <em>a scissor</em>, no ✗ <em>a jean</em>, no ✗ <em>a clothe</em>. They take a plural verb — <em>the scissors <strong>are</strong> on the desk</em> — and they cannot follow <em>a</em> or a number directly.</p>
+<p>Two families account for nearly all of them:</p>
+<p><strong>Two-part objects.</strong> Tools and garments made of two joined halves: <em>scissors</em>, <em>pliers</em>, <em>tongs</em>, <em>tweezers</em>, <em>binoculars</em>, <em>glasses</em>, <em>pants</em>, <em>jeans</em>, <em>shorts</em>, <em>pajamas</em>. These are counted with <strong>a pair of</strong> — <em>a pair of scissors</em>, <em>two pairs of jeans</em> — and note that <em>pair</em> is what the verb then agrees with: <em>a pair of scissors <strong>is</strong> missing</em>.</p>
+<p><strong>Collections and remainders.</strong> Nouns naming an aggregate: <em>clothes</em>, <em>goods</em>, <em>belongings</em>, <em>savings</em>, <em>surroundings</em>, <em>remains</em>, <em>outskirts</em>, <em>premises</em>, <em>stairs</em>, <em>thanks</em>, <em>congratulations</em>. These take no <em>pair of</em>; you simply use them plural, or find a different word — <em>a garment</em> for one item of <em>clothes</em>, <em>a step</em> for one of the <em>stairs</em>.</p>
+<hr>
+<h3 id="scissors">scissors<a class="hash" href="#scissors" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/ˈsɪzərz/ &middot; <em>SIZ-urz</em></dd><dt>Русский</dt><dd>ножницы</dd><dt>Countability</dt><dd>plural only — no singular</dd><dt>Agreement</dt><dd>plural verb — <em>the scissors are blunt</em></dd><dt>Counted with</dt><dd><em>a pair of scissors</em>, <em>two pairs of scissors</em></dd><dt>Type</dt><dd>concrete</dd><dt>Contrast</dt><dd>✗ <em>a scissor</em> and ✗ <em>two scissors</em> are both wrong. Say <em>a pair of scissors</em>. When <em>pair</em> is the head, the verb goes singular: <em>a pair of scissors <strong>is</strong> missing</em>.</dd></dl>
+<p>The two-bladed cutting tool.</p>
+<p><strong>1. The tool.</strong> (ножницы)</p>
+<ol><li>The <em>scissors</em> are in the top drawer.</li><li>Hand me a pair of <em>scissors</em>.</li><li>These <em>scissors</em> don't cut anything anymore.</li><li>She keeps three pairs of <em>scissors</em> in the studio.</li><li>Kitchen <em>scissors</em> work better for that.</li></ol>
+<dl class="fields"><dt>See also</dt><dd><a href="#pliers">pliers</a> &middot; <a href="#pants">pants</a></dd></dl>
+<hr>
+<h3 id="pants">pants<a class="hash" href="#pants" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/pænts/ &middot; <em>pants</em></dd><dt>Русский</dt><dd>брюки, штаны</dd><dt>Countability</dt><dd>plural only — no singular</dd><dt>Agreement</dt><dd>plural verb — <em>these pants are too long</em></dd><dt>Counted with</dt><dd><em>a pair of pants</em>, <em>two pairs of pants</em></dd><dt>Type</dt><dd>concrete</dd><dt>Variants</dt><dd>American <em>pants</em> = British <em>trousers</em>; British <em>pants</em> means underwear</dd><dt>Contrast</dt><dd>✗ <em>a pant</em> is wrong except in the clothing trade, where <em>pant</em> appears as a singular in catalogs. Note the transatlantic trap: asking a British person about your <em>pants</em> is asking about your underwear.</dd></dl>
+<p>The garment covering the legs.</p>
+<p><strong>1. The garment.</strong> (брюки)</p>
+<ol><li>These <em>pants</em> are too long.</li><li>He bought two pairs of <em>pants</em>.</li><li>Your <em>pants</em> are in the dryer.</li><li>She wore black <em>pants</em> and a gray sweater.</li></ol>
+<p><strong>2. In fixed expressions.</strong> (в устойчивых выражениях)</p>
+<ol start="5"><li>He was caught with his <em>pants</em> down.</li><li>She wears the <em>pants</em> in that family.</li></ol>
+<dl class="fields"><dt>See also</dt><dd><a href="#jeans">jeans</a> &middot; <a href="#shorts">shorts</a></dd></dl>
+<hr>
+<h3 id="jeans">jeans<a class="hash" href="#jeans" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/dʒiːnz/ &middot; <em>jeenz</em></dd><dt>Русский</dt><dd>джинсы</dd><dt>Countability</dt><dd>plural only — no singular</dd><dt>Agreement</dt><dd>plural verb — <em>my jeans are torn</em></dd><dt>Counted with</dt><dd><em>a pair of jeans</em>, <em>three pairs of jeans</em></dd><dt>Type</dt><dd>concrete</dd><dt>Contrast</dt><dd>✗ <em>a jean</em> is wrong, though <em>jean</em> exists as the name of the fabric. Named for Genoa, the Italian city where the cloth was made.</dd></dl>
+<p>Trousers made of denim.</p>
+<p><strong>1. The garment.</strong> (джинсы)</p>
+<ol><li>My <em>jeans</em> are torn at the knee.</li><li>She owns four pairs of <em>jeans</em>.</li><li>These <em>jeans</em> shrank in the wash.</li><li>He wears <em>jeans</em> to the office.</li><li>A good pair of <em>jeans</em> lasts for years.</li></ol>
+<dl class="fields"><dt>See also</dt><dd><a href="#pants">pants</a> &middot; <a href="#shorts">shorts</a></dd></dl>
+<hr>
+<h3 id="shorts">shorts<a class="hash" href="#shorts" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/ʃɔːrts/ &middot; <em>shorts</em></dd><dt>Русский</dt><dd>шорты</dd><dt>Countability</dt><dd>plural only — no singular</dd><dt>Agreement</dt><dd>plural verb — <em>the shorts are in the wash</em></dd><dt>Counted with</dt><dd><em>a pair of shorts</em></dd><dt>Type</dt><dd>concrete</dd><dt>Contrast</dt><dd>✗ <em>a short</em> means something else entirely — a short film, or an electrical fault.</dd></dl>
+<p>Trousers ending above the knee.</p>
+<p><strong>1. The garment.</strong> (шорты)</p>
+<ol><li>He wore <em>shorts</em> all summer.</li><li>Pack two pairs of <em>shorts</em>.</li><li>These <em>shorts</em> have no pockets.</li><li>Her running <em>shorts</em> were still damp.</li><li>It's too cold for <em>shorts</em>.</li></ol>
+<dl class="fields"><dt>See also</dt><dd><a href="#pants">pants</a> &middot; <a href="#jeans">jeans</a></dd></dl>
+<hr>
+<h3 id="glasses">glasses<a class="hash" href="#glasses" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/ˈɡlæsɪz/ &middot; <em>GLAS-iz</em></dd><dt>Русский</dt><dd>очки</dd><dt>Countability</dt><dd>plural only in this sense — no singular</dd><dt>Agreement</dt><dd>plural verb — <em>my glasses are broken</em></dd><dt>Counted with</dt><dd><em>a pair of glasses</em></dd><dt>Type</dt><dd>concrete</dd><dt>Variants</dt><dd>also <em>eyeglasses</em>, <em>spectacles</em>; informally <em>specs</em></dd><dt>Contrast</dt><dd>✗ <em>a glasses</em> is wrong; say <em>a pair of glasses</em>. Do not confuse with the countable <em>a glass</em>, a drinking vessel — see <a href="14-dual-category.html#glass">glass</a>.</dd></dl>
+<p>Lenses worn to correct vision.</p>
+<p><strong>1. Eyewear.</strong> (очки)</p>
+<ol><li>My <em>glasses</em> are on the table.</li><li>She needs a new pair of <em>glasses</em>.</li><li>These <em>glasses</em> keep sliding down my nose.</li><li>He can't read without his <em>glasses</em>.</li><li>Reading <em>glasses</em> are cheap at the drugstore.</li></ol>
+<dl class="fields"><dt>See also</dt><dd><a href="14-dual-category.html#glass">glass</a> &middot; <a href="#binoculars">binoculars</a></dd></dl>
+<hr>
+<h3 id="binoculars">binoculars<a class="hash" href="#binoculars" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/bɪˈnɑːkjələrz/ &middot; <em>bih-NAH-kyuh-lurz</em></dd><dt>Русский</dt><dd>бинокль</dd><dt>Countability</dt><dd>plural only — no singular</dd><dt>Agreement</dt><dd>plural verb — <em>the binoculars are in the car</em></dd><dt>Counted with</dt><dd><em>a pair of binoculars</em></dd><dt>Type</dt><dd>concrete</dd><dt>Contrast</dt><dd>✗ <em>a binocular</em> is wrong as a noun, though <em>binocular</em> exists as an adjective — <em>binocular vision</em>.</dd></dl>
+<p>The two-barreled optical instrument.</p>
+<p><strong>1. The instrument.</strong> (бинокль)</p>
+<ol><li>The <em>binoculars</em> are in the glove compartment.</li><li>Bring a pair of <em>binoculars</em> if you have one.</li><li>These <em>binoculars</em> aren't powerful enough.</li><li>She watched the birds through <em>binoculars</em>.</li><li>Both pairs of <em>binoculars</em> were left behind.</li></ol>
+<dl class="fields"><dt>See also</dt><dd><a href="#glasses">glasses</a></dd></dl>
+<hr>
+<h3 id="pliers">pliers<a class="hash" href="#pliers" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/ˈplaɪərz/ &middot; <em>PLY-urz</em></dd><dt>Русский</dt><dd>плоскогубцы</dd><dt>Countability</dt><dd>plural only — no singular</dd><dt>Agreement</dt><dd>plural verb — <em>the pliers are in the toolbox</em></dd><dt>Counted with</dt><dd><em>a pair of pliers</em></dd><dt>Type</dt><dd>concrete</dd><dt>Contrast</dt><dd>✗ <em>a plier</em> is wrong. Every two-handled tool behaves this way: <em>pliers</em>, <em>tongs</em>, <em>tweezers</em>, <em>shears</em>, <em>clippers</em>, <em>forceps</em>.</dd></dl>
+<p>The gripping tool.</p>
+<p><strong>1. The tool.</strong> (плоскогубцы)</p>
+<ol><li>The <em>pliers</em> are in the bottom of the toolbox.</li><li>Hand me those <em>pliers</em>.</li><li>Needle-nose <em>pliers</em> would work better.</li><li>He bought a pair of <em>pliers</em> at the hardware store.</li><li>These <em>pliers</em> have a wire cutter built in.</li></ol>
+<dl class="fields"><dt>See also</dt><dd><a href="#scissors">scissors</a> &middot; <a href="#tweezers">tweezers</a></dd></dl>
+<hr>
+<h3 id="tweezers">tweezers<a class="hash" href="#tweezers" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/ˈtwiːzərz/ &middot; <em>TWEE-zurz</em></dd><dt>Русский</dt><dd>пинцет</dd><dt>Countability</dt><dd>plural only — no singular</dd><dt>Agreement</dt><dd>plural verb — <em>the tweezers are too blunt</em></dd><dt>Counted with</dt><dd><em>a pair of tweezers</em></dd><dt>Type</dt><dd>concrete</dd><dt>Contrast</dt><dd>✗ <em>a tweezer</em> is wrong, though it appears in some product listings.</dd></dl>
+<p>The small pincers for gripping tiny objects.</p>
+<p><strong>1. The tool.</strong> (пинцет)</p>
+<ol><li>The <em>tweezers</em> are in the medicine cabinet.</li><li>She pulled the splinter out with <em>tweezers</em>.</li><li>A good pair of <em>tweezers</em> costs almost nothing.</li><li>These <em>tweezers</em> don't line up properly.</li><li>Bring <em>tweezers</em> — there are thorns everywhere.</li></ol>
+<dl class="fields"><dt>See also</dt><dd><a href="#pliers">pliers</a></dd></dl>
+<hr>
+<h3 id="clothes">clothes<a class="hash" href="#clothes" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/kloʊz/ &middot; <em>klohz</em> — usually one syllable, rhyming with <em>close</em></dd><dt>Русский</dt><dd>одежда</dd><dt>Countability</dt><dd>plural only — no singular</dd><dt>Agreement</dt><dd>plural verb — <em>my clothes are still wet</em></dd><dt>Counted with</dt><dd><em>an item of clothing</em>, <em>a garment</em> — never ✗ <em>a pair of clothes</em></dd><dt>Type</dt><dd>concrete</dd><dt>Contrast</dt><dd>✗ <em>a clothe</em> does not exist, and ✗ <em>clothes is</em> is wrong. For one item, switch to the uncountable <a href="13-uncountable.html#clothing">clothing</a>: <em>an item of clothing</em>. Most Americans pronounce this as one syllable, identical to the verb <em>close</em>.</dd></dl>
+<p>Garments worn on the body.</p>
+<p><strong>1. Garments.</strong> (одежда)</p>
+<ol><li>My <em>clothes</em> are still in the dryer.</li><li>She packed enough <em>clothes</em> for a week.</li><li>All his <em>clothes</em> smell like smoke.</li><li>Warm <em>clothes</em> are essential up there.</li><li>He spends too much money on <em>clothes</em>.</li></ol>
+<dl class="fields"><dt>See also</dt><dd><a href="13-uncountable.html#clothing">clothing</a> &middot; <a href="#goods">goods</a></dd></dl>
+<hr>
+<h3 id="goods">goods<a class="hash" href="#goods" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/ɡʊdz/ &middot; <em>guudz</em></dd><dt>Русский</dt><dd>товары</dd><dt>Countability</dt><dd>plural only in this sense — no singular</dd><dt>Agreement</dt><dd>plural verb — <em>the goods were delivered</em></dd><dt>Counted with</dt><dd><em>an item of goods</em> is unnatural — use <em>a product</em>, <em>an item</em></dd><dt>Type</dt><dd>concrete</dd><dt>Contrast</dt><dd>✗ <em>a good</em> meaning one product is wrong in ordinary English, though economists do write <em>a public good</em>. The everyday singular is <em>a product</em> or <em>an item</em>.</dd></dl>
+<p>Articles for sale or transport.</p>
+<p><strong>1. Merchandise.</strong> (товары)</p>
+<ol><li>The <em>goods</em> were delivered on Friday.</li><li>Stolen <em>goods</em> were found in the garage.</li><li>Electronic <em>goods</em> are taxed differently.</li><li>All <em>goods</em> must clear customs.</li></ol>
+<p><strong>2. In fixed expressions.</strong> (в устойчивых выражениях)</p>
+<ol start="5"><li>He finally delivered the <em>goods</em>.</li><li>Police caught her with the <em>goods</em>.</li></ol>
+<dl class="fields"><dt>See also</dt><dd><a href="#belongings">belongings</a> &middot; <a href="#clothes">clothes</a></dd></dl>
+<hr>
+<h3 id="belongings">belongings<a class="hash" href="#belongings" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/bɪˈlɔːŋɪŋz/ &middot; <em>bih-LAWNG-ingz</em></dd><dt>Русский</dt><dd>вещи, пожитки</dd><dt>Countability</dt><dd>plural only — no singular</dd><dt>Agreement</dt><dd>plural verb — <em>her belongings were boxed up</em></dd><dt>Counted with</dt><dd><em>an item</em>, <em>a possession</em></dd><dt>Type</dt><dd>concrete</dd><dt>Contrast</dt><dd>✗ <em>a belonging</em> is wrong. Usually appears as <em>personal belongings</em>.</dd></dl>
+<p>The things a person owns and carries.</p>
+<p><strong>1. Personal possessions.</strong> (личные вещи)</p>
+<ol><li>Please take all personal <em>belongings</em> with you.</li><li>Her <em>belongings</em> fit in two suitcases.</li><li>The <em>belongings</em> were returned to the family.</li><li>He lost most of his <em>belongings</em> in the fire.</li><li>Leave your <em>belongings</em> at the front desk.</li></ol>
+<dl class="fields"><dt>See also</dt><dd><a href="#goods">goods</a> &middot; <a href="#savings">savings</a></dd></dl>
+<hr>
+<h3 id="savings">savings<a class="hash" href="#savings" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/ˈseɪvɪŋz/ &middot; <em>SAY-vingz</em></dd><dt>Русский</dt><dd>сбережения</dd><dt>Countability</dt><dd>plural only in this sense</dd><dt>Agreement</dt><dd>plural verb — <em>my savings are gone</em></dd><dt>Counted with</dt><dd><em>an amount of savings</em></dd><dt>Type</dt><dd>abstract</dd><dt>Variants</dt><dd><em>a saving</em> exists meaning a reduction in cost — <em>a saving of ten percent</em></dd><dt>Contrast</dt><dd>Money set aside is always <em>savings</em>, plural. But <em>a saving</em> meaning an economy or reduction is countable and singular: <em>that's a saving of forty dollars</em>. Americans often say <em>a savings</em> in that sense, which sounds odd to British ears.</dd></dl>
+<p>Money set aside; also reductions in cost.</p>
+<p><strong>1. Money set aside.</strong> Plural only. (сбережения)</p>
+<ol><li>Their <em>savings</em> are in a separate account.</li><li>He spent his entire <em>savings</em> on the trip.</li><li>My <em>savings</em> aren't earning much interest.</li></ol>
+<p><strong>2. A reduction in cost.</strong> Countable. (экономия)</p>
+<ol start="4"><li>That's a <em>savings</em> of nearly two hundred dollars.</li><li>The changes produced real <em>savings</em>.</li></ol>
+<dl class="fields"><dt>See also</dt><dd><a href="#belongings">belongings</a></dd></dl>
+<hr>
+<h3 id="surroundings">surroundings<a class="hash" href="#surroundings" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/səˈraʊndɪŋz/ &middot; <em>suh-ROWN-dingz</em></dd><dt>Русский</dt><dd>окружение, обстановка</dd><dt>Countability</dt><dd>plural only — no singular</dd><dt>Agreement</dt><dd>plural verb — <em>the surroundings are pleasant</em></dd><dt>Counted with</dt><dd>— use <em>an environment</em>, <em>a setting</em></dd><dt>Type</dt><dd>abstract</dd><dt>Contrast</dt><dd>✗ <em>a surrounding</em> is wrong as a noun; <em>surrounding</em> exists only as an adjective — <em>the surrounding countryside</em>.</dd></dl>
+<p>The things and conditions around someone.</p>
+<p><strong>1. The environment around a place or person.</strong> (окружение)</p>
+<ol><li>The hotel is comfortable and the <em>surroundings</em> are beautiful.</li><li>He works best in quiet <em>surroundings</em>.</li><li>Take a moment to look at your <em>surroundings</em>.</li><li>The animals adapted to their new <em>surroundings</em>.</li><li>She grew up in modest <em>surroundings</em>.</li></ol>
+<dl class="fields"><dt>See also</dt><dd><a href="#outskirts">outskirts</a></dd></dl>
+<hr>
+<h3 id="outskirts">outskirts<a class="hash" href="#outskirts" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/ˈaʊtskɜːrts/ &middot; <em>OWT-skurts</em></dd><dt>Русский</dt><dd>окраина</dd><dt>Countability</dt><dd>plural only — no singular</dd><dt>Agreement</dt><dd>plural verb — <em>the outskirts are industrial</em></dd><dt>Counted with</dt><dd>— use <em>the edge of town</em></dd><dt>Type</dt><dd>concrete</dd><dt>Contrast</dt><dd>✗ <em>an outskirt</em> is wrong. Almost always in the phrase <em>on the outskirts of</em>.</dd></dl>
+<p>The outer parts of a town or city.</p>
+<p><strong>1. The outer edge of a town.</strong> (окраина)</p>
+<ol><li>They live on the <em>outskirts</em> of Chicago.</li><li>The factory is out on the <em>outskirts</em>.</li><li>The <em>outskirts</em> are mostly warehouses now.</li><li>Fighting reached the <em>outskirts</em> of the capital.</li><li>Cheap housing is all on the <em>outskirts</em>.</li></ol>
+<dl class="fields"><dt>See also</dt><dd><a href="#surroundings">surroundings</a> &middot; <a href="#premises">premises</a></dd></dl>
+<hr>
+<h3 id="premises">premises<a class="hash" href="#premises" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/ˈprɛmɪsɪz/ &middot; <em>PREM-ih-siz</em></dd><dt>Русский</dt><dd>помещение, здание</dd><dt>Countability</dt><dd>plural only in this sense</dd><dt>Agreement</dt><dd>plural verb — <em>the premises are locked</em></dd><dt>Counted with</dt><dd>— use <em>a building</em>, <em>a property</em></dd><dt>Type</dt><dd>concrete</dd><dt>Variants</dt><dd><em>a premise</em> exists, but means a proposition in an argument — a completely different word</dd><dt>Contrast</dt><dd>The two senses are unrelated. A building is <em>the premises</em>, always plural, even for one building. An assumption in logic is <em>a premise</em>, singular, plural <em>premises</em> — spelled the same, so context does all the work.</dd></dl>
+<p>A building and its grounds; separately, a proposition in an argument.</p>
+<p><strong>1. A building and its land.</strong> Plural only. (помещение)</p>
+<ol><li>No smoking on the <em>premises</em>.</li><li>The <em>premises</em> were searched at dawn.</li><li>They were escorted off the <em>premises</em>.</li><li>The company moved to new <em>premises</em> last year.</li></ol>
+<p><strong>2. A proposition in an argument.</strong> Countable, singular <em>premise</em>. (посылка, предпосылка)</p>
+<ol start="5"><li>The argument rests on a false <em>premise</em>.</li><li>Both <em>premises</em> are questionable.</li></ol>
+<dl class="fields"><dt>See also</dt><dd><a href="#outskirts">outskirts</a></dd></dl>
+<hr>
+<h3 id="remains">remains<a class="hash" href="#remains" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/rɪˈmeɪnz/ &middot; <em>rih-MAYNZ</em></dd><dt>Русский</dt><dd>остатки; останки</dd><dt>Countability</dt><dd>plural only — no singular</dd><dt>Agreement</dt><dd>plural verb — <em>the remains were identified</em></dd><dt>Counted with</dt><dd>— use <em>a fragment</em>, <em>a trace</em></dd><dt>Type</dt><dd>concrete</dd><dt>Contrast</dt><dd>✗ <em>a remain</em> is wrong. Note the related but distinct <em>remainder</em>, which is countable and singular: <em>the remainder of the money</em>.</dd></dl>
+<p>What is left of something; a dead body.</p>
+<p><strong>1. What is left over.</strong> (остатки)</p>
+<ol><li>The <em>remains</em> of dinner were still on the table.</li><li>Archaeologists found the <em>remains</em> of a Roman wall.</li><li>Only the <em>remains</em> of the foundation are visible.</li></ol>
+<p><strong>2. A dead body.</strong> Formal. (останки)</p>
+<ol start="4"><li>The <em>remains</em> were flown home for burial.</li><li>Human <em>remains</em> were discovered at the site.</li></ol>
+<dl class="fields"><dt>See also</dt><dd><a href="#belongings">belongings</a></dd></dl>
+<hr>
+<h3 id="stairs">stairs<a class="hash" href="#stairs" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/stɛrz/ &middot; <em>stairz</em></dd><dt>Русский</dt><dd>лестница, ступени</dd><dt>Countability</dt><dd>plural in normal use</dd><dt>Agreement</dt><dd>plural verb — <em>the stairs are steep</em></dd><dt>Counted with</dt><dd><em>a flight of stairs</em>; one step is <em>a stair</em> or <em>a step</em></dd><dt>Type</dt><dd>concrete</dd><dt>Variants</dt><dd><em>a stair</em> for one step exists but <em>step</em> is far commoner</dd><dt>Contrast</dt><dd>A staircase is <em>the stairs</em>, plural, and takes a plural verb. Use <em>a flight of stairs</em> to count staircases: <em>three flights of stairs</em>.</dd></dl>
+<p>A set of steps between levels.</p>
+<p><strong>1. The set of steps.</strong> (лестница)</p>
+<ol><li>The <em>stairs</em> are steep and narrow.</li><li>She fell down the <em>stairs</em>.</li><li>Take the <em>stairs</em> — the elevator is broken.</li><li>There are two flights of <em>stairs</em> to the attic.</li><li>He was waiting at the top of the <em>stairs</em>.</li></ol>
+<dl class="fields"><dt>See also</dt><dd><a href="#premises">premises</a></dd></dl>
+<hr>
+<h3 id="thanks">thanks<a class="hash" href="#thanks" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/θæŋks/ &middot; <em>thangks</em></dd><dt>Русский</dt><dd>благодарность, спасибо</dd><dt>Countability</dt><dd>plural only — no singular in this sense</dd><dt>Agreement</dt><dd>plural verb — <em>thanks are due to everyone involved</em></dd><dt>Counted with</dt><dd>— use <em>a word of thanks</em></dd><dt>Type</dt><dd>abstract</dd><dt>Variants</dt><dd>the uncountable <em>gratitude</em> covers the same ground formally</dd><dt>Contrast</dt><dd>✗ <em>a thank</em> is wrong except in the compound <em>a thank-you</em>. As an interjection <em>thanks</em> is fixed and never singular.</dd></dl>
+<p>An expression of gratitude.</p>
+<p><strong>1. Gratitude expressed.</strong> (благодарность)</p>
+<ol><li>Our <em>thanks</em> go to everyone who helped.</li><li>She got no <em>thanks</em> for any of it.</li><li><em>Thanks</em> are due to the whole crew.</li></ol>
+<p><strong>2. As an interjection.</strong> (спасибо)</p>
+<ol start="4"><li><em>Thanks</em> for the ride.</li><li>No <em>thanks</em>, I've already eaten.</li></ol>
+<p><strong>3. thanks to — because of.</strong> Fixed phrase. (благодаря)</p>
+<ol start="6"><li><em>Thanks</em> to her, we finished on time.</li></ol>
+<dl class="fields"><dt>See also</dt><dd><a href="#congratulations">congratulations</a></dd></dl>
+<hr>
+<h3 id="congratulations">congratulations<a class="hash" href="#congratulations" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/kənˌɡrætʃəˈleɪʃənz/ &middot; <em>kuhn-grach-uh-LAY-shuhnz</em></dd><dt>Русский</dt><dd>поздравления</dd><dt>Countability</dt><dd>plural only — no singular in this sense</dd><dt>Agreement</dt><dd>plural verb — <em>congratulations are in order</em></dd><dt>Counted with</dt><dd>— use <em>a word of congratulation</em></dd><dt>Type</dt><dd>abstract</dd><dt>Contrast</dt><dd>✗ <em>congratulation</em> in the singular is wrong as a greeting — it must be <em>congratulations</em>. Note the /tʃ/ sound in the middle: <em>kuhn-GRACH-</em>, not ✗ <em>kuhn-GRAT-</em>.</dd></dl>
+<p>An expression of praise for an achievement.</p>
+<p><strong>1. Praise for an achievement.</strong> (поздравления)</p>
+<ol><li><em>Congratulations</em> on the new job.</li><li><em>Congratulations</em> are in order.</li><li>He sent his <em>congratulations</em> by email.</li><li>Please pass on my <em>congratulations</em> to the team.</li><li>She accepted the <em>congratulations</em> graciously.</li></ol>
+<dl class="fields"><dt>See also</dt><dd><a href="#thanks">thanks</a></dd></dl></div></main>
+<button class="themebtn" id="themeBtn">Dark</button>
+<script>
+const tb=document.getElementById('themeBtn');
+function setTheme(x){document.documentElement.dataset.theme=x;tb.textContent=x==='dark'?'Light':'Dark';
+ try{localStorage.setItem('site-theme',x)}catch(e){}}
+tb.onclick=()=>setTheme(document.documentElement.dataset.theme==='dark'?'light':'dark');
+try{const s=localStorage.getItem('site-theme');
+ setTheme(s||(matchMedia('(prefers-color-scheme: dark)').matches?'dark':'light'))}catch(e){setTheme('light')}
+</script></body></html>

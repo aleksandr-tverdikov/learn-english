@@ -19,6 +19,7 @@ CLASSES = [
 ]
 
 BLURBS = {
+    '01-nouns': 'An open class, so only the parts that are finite are listed: every irregular plural, the uncountables that break learners, and the nouns that quietly force a plural verb.',
     '08-interjections': 'Every reaction word in the language — from <em>ouch</em> and <em>wow</em> to regional, archaic, internet, and profane forms, each with a register label saying who can say it where.',
     '07-conjunctions': 'Every connector, with the clause type it builds, a substitutable pattern, and the comma rule for that specific word.',
     '06-prepositions': 'The most polysemous class in English. Senses are numbered, and every entry says what may and may not follow it.',

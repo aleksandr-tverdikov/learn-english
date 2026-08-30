@@ -1,0 +1,244 @@
+<!DOCTYPE html>
+<html lang="en"><head>
+<meta charset="utf-8"><meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Greek -is → -es</title>
+<style>
+:root{--bg:#faf9f7;--surface:#fff;--surface2:#f2f0ec;--border:#e2ded6;--text:#1a1815;
+--dim:#5f594f;--faint:#8a8377;--accent:#8a5a3b;--measure:72ch}
+@media(prefers-color-scheme:dark){:root{--bg:#14140f;--surface:#1d1d17;--surface2:#25251d;
+--border:#33332a;--text:#eeeae1;--dim:#a8a293;--faint:#7d776b;--accent:#d09b72}}
+:root[data-theme=dark]{--bg:#14140f;--surface:#1d1d17;--surface2:#25251d;--border:#33332a;
+--text:#eeeae1;--dim:#a8a293;--faint:#7d776b;--accent:#d09b72}
+:root[data-theme=light]{--bg:#faf9f7;--surface:#fff;--surface2:#f2f0ec;--border:#e2ded6;
+--text:#1a1815;--dim:#5f594f;--faint:#8a8377;--accent:#8a5a3b}
+*{box-sizing:border-box}
+body{margin:0;background:var(--bg);color:var(--text);
+font:17px/1.72 ui-serif,Georgia,"Iowan Old Style",Palatino,serif;-webkit-font-smoothing:antialiased}
+.wrap{max-width:min(var(--measure),100%);margin:0 auto;padding:0 22px}
+nav.crumb{border-bottom:1px solid var(--border);padding:13px 0;font-size:13.5px;
+font-family:-apple-system,BlinkMacSystemFont,"Segoe UI",sans-serif;position:sticky;top:0;background:var(--bg);z-index:20}
+nav.crumb .wrap{max-width:none;display:flex;gap:9px;align-items:center;flex-wrap:wrap}
+nav.crumb a{color:var(--dim);text-decoration:none}
+nav.crumb a:hover{color:var(--accent)}
+nav.crumb .sep{color:var(--faint)}
+main{padding:8px 0 80px}
+h1{font-size:clamp(28px,5vw,38px);line-height:1.15;letter-spacing:-.015em;margin:34px 0 18px}
+h2{font-size:25px;margin:46px 0 14px;letter-spacing:-.01em;padding-bottom:7px;border-bottom:1px solid var(--border)}
+h3{font-size:19px;margin:34px 0 10px;color:var(--accent)}
+h4{font-size:16px;margin:24px 0 8px;font-family:-apple-system,sans-serif}
+p{margin:0 0 16px}
+a{color:var(--accent)}
+.hash{opacity:0;margin-left:8px;font-weight:400;font-size:.65em;text-decoration:none;color:var(--faint)}
+h2:hover .hash,h3:hover .hash{opacity:1}
+blockquote{margin:0 0 20px;padding:14px 18px;background:var(--surface2);
+border-left:3px solid var(--accent);border-radius:0 8px 8px 0}
+blockquote p:last-child{margin-bottom:0}
+ol,ul{margin:0 0 18px;padding-left:26px}
+li{margin-bottom:8px}
+li>ul,li>ol{margin:8px 0 0}
+code{font-family:ui-monospace,SFMono-Regular,Menlo,Consolas,monospace;font-size:.87em;
+background:var(--surface2);padding:1px 5px;border-radius:4px}
+pre{background:var(--surface2);border:1px solid var(--border);border-radius:9px;
+padding:15px 17px;overflow-x:auto;margin:0 0 20px}
+pre code{background:none;padding:0;font-size:13px;line-height:1.6}
+.tw{overflow-x:auto;margin:0 0 22px;border:1px solid var(--border);border-radius:9px}
+table{border-collapse:collapse;width:100%;font-size:15px;
+font-family:-apple-system,BlinkMacSystemFont,"Segoe UI",sans-serif}
+th,td{padding:10px 14px;border-bottom:1px solid var(--border);vertical-align:top}
+th{background:var(--surface2);font-size:12px;text-transform:uppercase;
+letter-spacing:.06em;color:var(--dim);font-weight:700;white-space:nowrap}
+tbody tr:last-child td{border-bottom:none}
+hr{border:none;border-top:1px solid var(--border);margin:38px 0}
+details{background:var(--surface2);border:1px solid var(--border);border-radius:9px;
+padding:13px 17px;margin:0 0 20px}
+summary{cursor:pointer;font-weight:600;font-family:-apple-system,sans-serif;font-size:15px}
+details[open] summary{margin-bottom:12px}
+del{color:var(--faint)}
+dl.fields{margin:0 0 20px;padding:0}
+dl.fields dt{font-family:-apple-system,BlinkMacSystemFont,"Segoe UI",sans-serif;
+font-size:11px;letter-spacing:.11em;text-transform:uppercase;color:var(--faint);
+font-weight:700;margin:14px 0 4px}
+dl.fields dt:first-child{margin-top:0}
+dl.fields dd{margin:0;font-size:16px;color:var(--dim);line-height:1.62}
+dl.fields dd em{color:var(--text)}
+dl.fields dt.ru{color:var(--accent)}
+dl.fields dd strong{color:var(--text)}
+.toc{background:var(--surface2);border:1px solid var(--border);border-radius:10px;
+padding:16px 20px;margin:26px 0 34px;font-family:-apple-system,sans-serif;font-size:14px}
+.toc b{display:block;font-size:11px;letter-spacing:.12em;text-transform:uppercase;
+color:var(--faint);margin-bottom:9px}
+.toc a{display:block;padding:3px 0;color:var(--dim);text-decoration:none}
+.toc a:hover{color:var(--accent)}
+.themebtn{position:fixed;right:18px;bottom:18px;z-index:60;font-family:-apple-system,sans-serif;
+font-size:12.5px;font-weight:600;cursor:pointer;background:var(--surface);border:1px solid var(--border);
+border-radius:99px;padding:9px 16px;color:var(--text)}
+@media(max-width:600px){body{font-size:16px}.wrap{padding:0 17px}}
+</style></head><body>
+<nav class="crumb"><div class="wrap"><a href="../../../index.html">Learn English</a><span class="sep">/</span><a href="../../README.html">Parts of speech</a><span class="sep">/</span><a href="../README.html">01-nouns</a><span class="sep">/</span><span>catalog</span></div></nav>
+<main><div class="wrap"><h1 id="greek--is---es">Greek <em>-is</em> → <em>-es</em><a class="hash" href="#greek--is---es" aria-label="link">#</a></h1>
+<blockquote><p><em>Analysis → analyses</em>, <em>crisis → crises</em>. The spelling change is small; the sound change is not — the plural ends in /-siːz/, <em>SEEZ</em>.</p></blockquote>
+<p><a href="../README.html">← The grammar of nouns</a> &middot; <a href="README.html">All groups</a></p>
+<p>This is the most <strong>regular</strong> of the foreign plural patterns and the most <strong>mispronounced</strong>. Every noun here ends in <em>-sis</em> /-sɪs/ in the singular and <em>-ses</em> /-siːz/ in the plural. Nothing else changes.</p>
+<p>The trap is that the two forms look almost identical on the page while sounding clearly different in speech:</p>
+<ul><li><em>analysis</em> /əˈnæləsɪs/ → <em>analyses</em> /əˈnæləsiːz/ — <em>uh-NAL-uh-sis</em> → <em>uh-NAL-uh-seez</em></li><li><em>crisis</em> /ˈkraɪsɪs/ → <em>crises</em> /ˈkraɪsiːz/ — <em>KRY-sis</em> → <em>KRY-seez</em></li><li><em>thesis</em> /ˈθiːsɪs/ → <em>theses</em> /ˈθiːsiːz/ — <em>THEE-sis</em> → <em>THEE-seez</em></li></ul>
+<p>Unlike the Latin groups, this pattern admits <strong>no regular alternative</strong>. ✗ <em>Analysises</em>, ✗ <em>crisises</em>, and ✗ <em>thesises</em> are all wrong, and there is no context in which they are acceptable. Learn the sound and the whole group follows.</p>
+<p>One further trap: <em>axes</em> is the plural of both <em>axis</em> /ˈæksiːz/ and <em>ax</em> /ˈæksɪz/, distinguished only in pronunciation.</p>
+<hr>
+<h3 id="analysis">analysis<a class="hash" href="#analysis" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/əˈnæləsɪs/ &middot; <em>uh-NAL-uh-sis</em></dd><dt>Русский</dt><dd>анализ</dd><dt>Plural</dt><dd><em>analyses</em> /əˈnæləsiːz/ &middot; <em>uh-NAL-uh-seez</em></dd><dt>Countability</dt><dd>countable, and uncountable as an activity</dd><dt>Agreement</dt><dd>plural verb — <em>the analyses agree</em></dd><dt>Pattern</dt><dd>Greek <em>-sis</em> → <em>-ses</em></dd><dt>Group</dt><dd>9</dd><dt>Type</dt><dd>abstract</dd><dt>Contrast</dt><dd>✗ <em>analysises</em> is wrong. Note also the verb <em>analyze</em> and the adjective <em>analytical</em>, which change the <em>s</em> to a <em>z</em> sound.</dd></dl>
+<p>Detailed examination of something; the result of that examination.</p>
+<p><strong>1. Detailed examination.</strong> (анализ)</p>
+<ol><li>Her <em>analysis</em> of the data took three weeks.</li><li>Both <em>analyses</em> reached the same conclusion.</li><li>Further <em>analysis</em> is needed.</li></ol>
+<p><strong>2. A written or spoken account of that examination.</strong> (разбор)</p>
+<ol start="4"><li>The paper offers a careful <em>analysis</em> of the failure.</li><li>Independent <em>analyses</em> were commissioned from two firms.</li></ol>
+<p><strong>3. In fixed expressions.</strong> (в устойчивых выражениях)</p>
+<ol start="6"><li>In the final <em>analysis</em>, it came down to money.</li></ol>
+<dl class="fields"><dt>See also</dt><dd><a href="#basis">basis</a> &middot; <a href="#hypothesis">hypothesis</a></dd></dl>
+<hr>
+<h3 id="basis">basis<a class="hash" href="#basis" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/ˈbeɪsɪs/ &middot; <em>BAY-sis</em></dd><dt>Русский</dt><dd>основа, основание</dd><dt>Plural</dt><dd><em>bases</em> /ˈbeɪsiːz/ &middot; <em>BAY-seez</em></dd><dt>Countability</dt><dd>countable</dd><dt>Agreement</dt><dd>plural verb — <em>the bases for the claim are weak</em></dd><dt>Pattern</dt><dd>Greek <em>-sis</em> → <em>-ses</em></dd><dt>Group</dt><dd>9</dd><dt>Type</dt><dd>abstract</dd><dt>Contrast</dt><dd><em>Bases</em> is the plural of both <em>basis</em> /ˈbeɪsiːz/ and <em>base</em> /ˈbeɪsɪz/ — a genuine ambiguity in writing, resolved only by sound or context. ✗ <em>Basises</em> is wrong.</dd></dl>
+<p>The foundation or starting point for something.</p>
+<p><strong>1. A foundation or underlying reason.</strong> (основание)</p>
+<ol><li>There is no <em>basis</em> for that accusation.</li><li>The <em>bases</em> of the two theories are quite different.</li><li>His argument has a solid factual <em>basis</em>.</li></ol>
+<p><strong>2. A regular arrangement — on a … basis.</strong> Extremely common in business English. (на основе, на условиях)</p>
+<ol start="4"><li>She works there on a part-time <em>basis</em>.</li><li>Meetings are held on a monthly <em>basis</em>.</li><li>Employees are hired on a contract <em>basis</em>.</li></ol>
+<dl class="fields"><dt>See also</dt><dd><a href="#analysis">analysis</a> &middot; <a href="#axis">axis</a></dd></dl>
+<hr>
+<h3 id="crisis">crisis<a class="hash" href="#crisis" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/ˈkraɪsɪs/ &middot; <em>KRY-sis</em></dd><dt>Русский</dt><dd>кризис</dd><dt>Plural</dt><dd><em>crises</em> /ˈkraɪsiːz/ &middot; <em>KRY-seez</em></dd><dt>Countability</dt><dd>countable</dd><dt>Agreement</dt><dd>plural verb — <em>the crises overlapped</em></dd><dt>Pattern</dt><dd>Greek <em>-sis</em> → <em>-ses</em></dd><dt>Group</dt><dd>9</dd><dt>Type</dt><dd>abstract</dd><dt>Contrast</dt><dd>✗ <em>crisises</em> is wrong. The adjective is <em>critical</em>, from the same Greek root meaning 'to decide' — a crisis is originally the turning point at which a decision must be made.</dd></dl>
+<p>A time of intense difficulty or danger.</p>
+<p><strong>1. A time of serious difficulty.</strong> (кризис)</p>
+<ol><li>The country faced its worst financial <em>crisis</em> in decades.</li><li>Two <em>crises</em> hit the company in the same quarter.</li><li>She handles a <em>crisis</em> better than anyone I know.</li></ol>
+<p><strong>2. A turning point in an illness or situation.</strong> (перелом, критический момент)</p>
+<ol start="4"><li>The fever broke and the <em>crisis</em> passed.</li></ol>
+<p><strong>3. Attributive.</strong> (кризисный)</p>
+<ol start="5"><li>They set up a <em>crisis</em> hotline within a day.</li><li>Both <em>crises</em> were handled by the same team.</li></ol>
+<dl class="fields"><dt>See also</dt><dd><a href="#thesis">thesis</a> &middot; <a href="#diagnosis">diagnosis</a></dd></dl>
+<hr>
+<h3 id="thesis">thesis<a class="hash" href="#thesis" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/ˈθiːsɪs/ &middot; <em>THEE-sis</em></dd><dt>Русский</dt><dd>тезис; диссертация</dd><dt>Plural</dt><dd><em>theses</em> /ˈθiːsiːz/ &middot; <em>THEE-seez</em></dd><dt>Countability</dt><dd>countable</dd><dt>Agreement</dt><dd>plural verb — <em>both theses were defended</em></dd><dt>Pattern</dt><dd>Greek <em>-sis</em> → <em>-ses</em></dd><dt>Group</dt><dd>9</dd><dt>Type</dt><dd>abstract</dd><dt>Contrast</dt><dd>✗ <em>thesises</em> is wrong. In American universities a <em>thesis</em> is usually a master's project and a <em>dissertation</em> the doctoral one — the reverse of British usage.</dd></dl>
+<p>A statement put forward as a proposition; a long piece of academic writing.</p>
+<p><strong>1. A proposition to be defended.</strong> (тезис)</p>
+<ol><li>His central <em>thesis</em> is that the war was avoidable.</li><li>The two <em>theses</em> contradict each other.</li></ol>
+<p><strong>2. A long academic paper.</strong> (диссертация, дипломная работа)</p>
+<ol start="3"><li>She finished her master's <em>thesis</em> in April.</li><li>All <em>theses</em> are archived in the library.</li><li>He defends his <em>thesis</em> next month.</li></ol>
+<p><strong>3. In fixed expressions.</strong> (в устойчивых выражениях)</p>
+<ol start="6"><li>The argument moves from <em>thesis</em> to antithesis to synthesis.</li></ol>
+<dl class="fields"><dt>See also</dt><dd><a href="#hypothesis">hypothesis</a> &middot; <a href="#synopsis">synopsis</a></dd></dl>
+<hr>
+<h3 id="hypothesis">hypothesis<a class="hash" href="#hypothesis" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/haɪˈpɑːθəsɪs/ &middot; <em>hy-PAH-thuh-sis</em></dd><dt>Русский</dt><dd>гипотеза</dd><dt>Plural</dt><dd><em>hypotheses</em> /haɪˈpɑːθəsiːz/ &middot; <em>hy-PAH-thuh-seez</em></dd><dt>Countability</dt><dd>countable</dd><dt>Agreement</dt><dd>plural verb — <em>the hypotheses were tested separately</em></dd><dt>Pattern</dt><dd>Greek <em>-sis</em> → <em>-ses</em></dd><dt>Group</dt><dd>9</dd><dt>Type</dt><dd>abstract</dd><dt>Contrast</dt><dd>✗ <em>hypothesises</em> is wrong. Note the stress falls on the second syllable in both forms. The adjective is <em>hypothetical</em>.</dd></dl>
+<p>A proposed explanation, put forward to be tested.</p>
+<p><strong>1. A testable proposal.</strong> (гипотеза)</p>
+<ol><li>The <em>hypothesis</em> was not supported by the data.</li><li>Several competing <em>hypotheses</em> remain.</li><li>We tested each <em>hypothesis</em> independently.</li><li>Her <em>hypothesis</em> turned out to be right.</li></ol>
+<p><strong>2. A guess or assumption.</strong> More general. (предположение)</p>
+<ol start="5"><li>That's a reasonable working <em>hypothesis</em>.</li></ol>
+<dl class="fields"><dt>See also</dt><dd><a href="#thesis">thesis</a> &middot; <a href="#analysis">analysis</a></dd></dl>
+<hr>
+<h3 id="diagnosis">diagnosis<a class="hash" href="#diagnosis" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/ˌdaɪəɡˈnoʊsɪs/ &middot; <em>dy-uhg-NOH-sis</em></dd><dt>Русский</dt><dd>диагноз</dd><dt>Plural</dt><dd><em>diagnoses</em> /ˌdaɪəɡˈnoʊsiːz/ &middot; <em>dy-uhg-NOH-seez</em></dd><dt>Countability</dt><dd>countable</dd><dt>Agreement</dt><dd>plural verb — <em>the two diagnoses conflicted</em></dd><dt>Pattern</dt><dd>Greek <em>-sis</em> → <em>-ses</em></dd><dt>Group</dt><dd>9</dd><dt>Type</dt><dd>abstract</dd><dt>Contrast</dt><dd>✗ <em>diagnosises</em> is wrong. The verb is <em>diagnose</em> and the adjective <em>diagnostic</em>.</dd></dl>
+<p>Identification of an illness or a problem.</p>
+<p><strong>1. Identification of a disease.</strong> (диагноз)</p>
+<ol><li>The <em>diagnosis</em> took months to reach.</li><li>Both <em>diagnoses</em> pointed to the same condition.</li><li>She sought a second opinion on the <em>diagnosis</em>.</li><li>Early <em>diagnosis</em> improves survival dramatically.</li></ol>
+<p><strong>2. Identification of any problem.</strong> Extended use. (постановка диагноза, определение проблемы)</p>
+<ol start="5"><li>The engineer's <em>diagnosis</em> was a failed sensor.</li></ol>
+<dl class="fields"><dt>See also</dt><dd><a href="#prognosis">prognosis</a> &middot; <a href="#crisis">crisis</a></dd></dl>
+<hr>
+<h3 id="prognosis">prognosis<a class="hash" href="#prognosis" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/prɑːɡˈnoʊsɪs/ &middot; <em>prahg-NOH-sis</em></dd><dt>Русский</dt><dd>прогноз (медицинский)</dd><dt>Plural</dt><dd><em>prognoses</em> /prɑːɡˈnoʊsiːz/ &middot; <em>prahg-NOH-seez</em></dd><dt>Countability</dt><dd>countable</dd><dt>Agreement</dt><dd>plural verb — <em>the prognoses were guarded</em></dd><dt>Pattern</dt><dd>Greek <em>-sis</em> → <em>-ses</em></dd><dt>Group</dt><dd>9</dd><dt>Type</dt><dd>abstract</dd><dt>Contrast</dt><dd>A <em>diagnosis</em> says what is wrong; a <em>prognosis</em> says what will happen next. They are constantly confused.</dd></dl>
+<p>A forecast of how an illness or situation will develop.</p>
+<p><strong>1. A medical forecast.</strong> (прогноз болезни)</p>
+<ol><li>The <em>prognosis</em> is good if treatment starts now.</li><li>Both <em>prognoses</em> were cautiously optimistic.</li><li>Doctors gave a poor <em>prognosis</em>.</li></ol>
+<p><strong>2. A forecast about anything.</strong> (прогноз)</p>
+<ol start="4"><li>The <em>prognosis</em> for the industry is bleak.</li><li>Analysts offered wildly different <em>prognoses</em>.</li></ol>
+<dl class="fields"><dt>See also</dt><dd><a href="#diagnosis">diagnosis</a></dd></dl>
+<hr>
+<h3 id="emphasis">emphasis<a class="hash" href="#emphasis" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/ˈɛmfəsɪs/ &middot; <em>EM-fuh-sis</em></dd><dt>Русский</dt><dd>акцент, ударение</dd><dt>Plural</dt><dd><em>emphases</em> /ˈɛmfəsiːz/ &middot; <em>EM-fuh-seez</em></dd><dt>Countability</dt><dd>countable, and uncountable in general use</dd><dt>Agreement</dt><dd>plural verb — <em>the emphases differ between the two editions</em></dd><dt>Pattern</dt><dd>Greek <em>-sis</em> → <em>-ses</em></dd><dt>Group</dt><dd>9</dd><dt>Type</dt><dd>abstract</dd><dt>Contrast</dt><dd>✗ <em>emphasises</em> is wrong as a noun plural — <em>emphasises</em> is the British spelling of the verb <em>emphasizes</em>. Americans write <em>emphasizes</em>.</dd></dl>
+<p>Special importance given to something; stress placed on a word.</p>
+<p><strong>1. Special importance or attention.</strong> Usually uncountable. (акцент, упор)</p>
+<ol><li>The school places great <em>emphasis</em> on writing.</li><li>The <em>emphasis</em> has shifted to prevention.</li><li>Different departments have different <em>emphases</em>.</li></ol>
+<p><strong>2. Stress on a syllable or word.</strong> (ударение)</p>
+<ol start="4"><li>Put the <em>emphasis</em> on the second syllable.</li><li>The italics indicate <em>emphasis</em>.</li></ol>
+<dl class="fields"><dt>See also</dt><dd><a href="#analysis">analysis</a> &middot; <a href="#synthesis">synthesis</a></dd></dl>
+<hr>
+<h3 id="axis">axis<a class="hash" href="#axis" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/ˈæksɪs/ &middot; <em>AK-sis</em></dd><dt>Русский</dt><dd>ось</dd><dt>Plural</dt><dd><em>axes</em> /ˈæksiːz/ &middot; <em>AK-seez</em></dd><dt>Countability</dt><dd>countable</dd><dt>Agreement</dt><dd>plural verb — <em>both axes are labeled</em></dd><dt>Pattern</dt><dd>Greek <em>-is</em> → <em>-es</em></dd><dt>Group</dt><dd>9</dd><dt>Type</dt><dd>concrete and abstract</dd><dt>Contrast</dt><dd><em>Axes</em> is also the plural of <em>ax</em> — but pronounced differently: <em>AK-seez</em> for axes of rotation, <em>AK-siz</em> for the chopping tools. In writing only context tells them apart.</dd></dl>
+<p>A line about which something rotates, or a reference line on a graph.</p>
+<p><strong>1. A line of rotation.</strong> (ось вращения)</p>
+<ol><li>The Earth turns on its <em>axis</em> once a day.</li><li>The planet's <em>axis</em> is tilted 23 degrees.</li></ol>
+<p><strong>2. A reference line on a graph.</strong> (ось координат)</p>
+<ol start="3"><li>Label both <em>axes</em> before you plot anything.</li><li>Time goes on the horizontal <em>axis</em>.</li><li>The vertical <em>axis</em> shows temperature.</li></ol>
+<p><strong>3. An alliance between countries.</strong> Historical and political. (ось, блок)</p>
+<ol start="6"><li>The <em>Axis</em> powers signed the pact in 1940.</li></ol>
+<dl class="fields"><dt>See also</dt><dd><a href="#basis">basis</a></dd></dl>
+<hr>
+<h3 id="oasis">oasis<a class="hash" href="#oasis" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/oʊˈeɪsɪs/ &middot; <em>oh-AY-sis</em></dd><dt>Русский</dt><dd>оазис</dd><dt>Plural</dt><dd><em>oases</em> /oʊˈeɪsiːz/ &middot; <em>oh-AY-seez</em></dd><dt>Countability</dt><dd>countable</dd><dt>Agreement</dt><dd>plural verb — <em>the oases are days apart</em></dd><dt>Pattern</dt><dd>Greek <em>-is</em> → <em>-es</em></dd><dt>Group</dt><dd>9</dd><dt>Type</dt><dd>concrete and abstract</dd><dt>Contrast</dt><dd>✗ <em>oasises</em> is wrong. Note the stress on the second syllable in both forms.</dd></dl>
+<p>A fertile place in a desert; figuratively, any refuge.</p>
+<p><strong>1. A watered place in a desert.</strong> (оазис)</p>
+<ol><li>The caravan reached the <em>oasis</em> by nightfall.</li><li>Several <em>oases</em> lie along the old trade route.</li><li>Palm trees mark the <em>oasis</em> from miles away.</li></ol>
+<p><strong>2. A place of relief or calm.</strong> Figurative and very common. (оазис, отдушина)</p>
+<ol start="4"><li>The garden is an <em>oasis</em> in the middle of the city.</li><li>Her office was an <em>oasis</em> of quiet.</li><li>These parks are <em>oases</em> for people with no yard.</li></ol>
+<dl class="fields"><dt>See also</dt><dd><a href="#axis">axis</a></dd></dl>
+<hr>
+<h3 id="parenthesis">parenthesis<a class="hash" href="#parenthesis" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/pəˈrɛnθəsɪs/ &middot; <em>puh-REN-thuh-sis</em></dd><dt>Русский</dt><dd>скобка; вводное слово</dd><dt>Plural</dt><dd><em>parentheses</em> /pəˈrɛnθəsiːz/ &middot; <em>puh-REN-thuh-seez</em></dd><dt>Countability</dt><dd>countable</dd><dt>Agreement</dt><dd>plural verb — <em>the parentheses are unbalanced</em></dd><dt>Pattern</dt><dd>Greek <em>-sis</em> → <em>-ses</em></dd><dt>Group</dt><dd>9</dd><dt>Type</dt><dd>concrete and abstract</dd><dt>Contrast</dt><dd>In everyday American speech the punctuation marks are usually just called <em>parens</em> or <em>round brackets</em>. The singular refers to one mark, so a pair is always <em>parentheses</em>.</dd></dl>
+<p>A round bracket; also a word or phrase inserted as an aside.</p>
+<p><strong>1. The punctuation mark.</strong> Almost always plural, since they come in pairs. (скобка)</p>
+<ol><li>Put the date in <em>parentheses</em>.</li><li>Close the <em>parenthesis</em> after the citation.</li><li>The formula has three sets of <em>parentheses</em>.</li></ol>
+<p><strong>2. An inserted aside.</strong> (вводное замечание)</p>
+<ol start="4"><li>The whole clause is a <em>parenthesis</em> and can be cut.</li><li>His speech was full of <em>parentheses</em> and digressions.</li></ol>
+<dl class="fields"><dt>See also</dt><dd><a href="#ellipsis">ellipsis</a></dd></dl>
+<hr>
+<h3 id="ellipsis">ellipsis<a class="hash" href="#ellipsis" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/ɪˈlɪpsɪs/ &middot; <em>ih-LIP-sis</em></dd><dt>Русский</dt><dd>многоточие; эллипсис</dd><dt>Plural</dt><dd><em>ellipses</em> /ɪˈlɪpsiːz/ &middot; <em>ih-LIP-seez</em></dd><dt>Countability</dt><dd>countable</dd><dt>Agreement</dt><dd>plural verb — <em>the ellipses mark omitted text</em></dd><dt>Pattern</dt><dd>Greek <em>-sis</em> → <em>-ses</em></dd><dt>Group</dt><dd>9</dd><dt>Type</dt><dd>concrete and abstract</dd><dt>Contrast</dt><dd><em>Ellipses</em> is also the plural of <em>ellipse</em>, the oval shape — and the two are pronounced differently: <em>ih-LIP-seez</em> for both, in fact, which makes them true homophones distinguished only by context.</dd></dl>
+<p>The three dots marking omitted words; also the omission itself.</p>
+<p><strong>1. The punctuation mark.</strong> (многоточие)</p>
+<ol><li>Use an <em>ellipsis</em> to show you cut part of the quote.</li><li>The page is littered with <em>ellipses</em>.</li></ol>
+<p><strong>2. Omission of words that are understood.</strong> Grammar. (эллипсис)</p>
+<ol start="3"><li>"Coming?" is an <em>ellipsis</em> of "Are you coming?"</li><li>English allows <em>ellipsis</em> after auxiliary verbs.</li><li>Both <em>ellipses</em> make the sentence hard to parse.</li></ol>
+<dl class="fields"><dt>See also</dt><dd><a href="#parenthesis">parenthesis</a></dd></dl>
+<hr>
+<h3 id="synopsis">synopsis<a class="hash" href="#synopsis" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/sɪˈnɑːpsɪs/ &middot; <em>sih-NAHP-sis</em></dd><dt>Русский</dt><dd>краткое изложение, синопсис</dd><dt>Plural</dt><dd><em>synopses</em> /sɪˈnɑːpsiːz/ &middot; <em>sih-NAHP-seez</em></dd><dt>Countability</dt><dd>countable</dd><dt>Agreement</dt><dd>plural verb — <em>the synopses are one page each</em></dd><dt>Pattern</dt><dd>Greek <em>-sis</em> → <em>-ses</em></dd><dt>Group</dt><dd>9</dd><dt>Type</dt><dd>abstract</dd><dt>Contrast</dt><dd>✗ <em>synopsises</em> is wrong.</dd></dl>
+<p>A brief summary of a book, film, or argument.</p>
+<p><strong>1. A summary.</strong> (краткое изложение)</p>
+<ol><li>Send a one-page <em>synopsis</em> with the manuscript.</li><li>All the <em>synopses</em> were written by the same intern.</li><li>The <em>synopsis</em> gives away the ending.</li><li>He read the <em>synopsis</em> instead of the book.</li><li>Both <em>synopses</em> leave out the subplot.</li></ol>
+<dl class="fields"><dt>See also</dt><dd><a href="#thesis">thesis</a></dd></dl>
+<hr>
+<h3 id="synthesis">synthesis<a class="hash" href="#synthesis" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/ˈsɪnθəsɪs/ &middot; <em>SIN-thuh-sis</em></dd><dt>Русский</dt><dd>синтез</dd><dt>Plural</dt><dd><em>syntheses</em> /ˈsɪnθəsiːz/ &middot; <em>SIN-thuh-seez</em></dd><dt>Countability</dt><dd>countable, and uncountable as a process</dd><dt>Agreement</dt><dd>plural verb — <em>the syntheses were repeated</em></dd><dt>Pattern</dt><dd>Greek <em>-sis</em> → <em>-ses</em></dd><dt>Group</dt><dd>9</dd><dt>Type</dt><dd>abstract</dd><dt>Contrast</dt><dd>✗ <em>synthesises</em> is wrong as a noun. The verb is <em>synthesize</em>.</dd></dl>
+<p>The combination of parts into a whole; in chemistry, the making of a compound.</p>
+<p><strong>1. A combining of ideas.</strong> (синтез)</p>
+<ol><li>The book is a <em>synthesis</em> of thirty years of research.</li><li>Both <em>syntheses</em> draw on the same sources.</li></ol>
+<p><strong>2. In chemistry.</strong> (синтез вещества)</p>
+<ol start="3"><li>The <em>synthesis</em> takes four steps.</li><li>Several <em>syntheses</em> of the drug have been published.</li><li>Protein <em>synthesis</em> happens in the ribosome.</li></ol>
+<dl class="fields"><dt>See also</dt><dd><a href="#analysis">analysis</a> &middot; <a href="#thesis">thesis</a></dd></dl>
+<hr>
+<h3 id="neurosis">neurosis<a class="hash" href="#neurosis" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/nʊˈroʊsɪs/ &middot; <em>nuu-ROH-sis</em></dd><dt>Русский</dt><dd>невроз</dd><dt>Plural</dt><dd><em>neuroses</em> /nʊˈroʊsiːz/ &middot; <em>nuu-ROH-seez</em></dd><dt>Countability</dt><dd>countable</dd><dt>Agreement</dt><dd>plural verb — <em>his neuroses are well documented</em></dd><dt>Pattern</dt><dd>Greek <em>-sis</em> → <em>-ses</em></dd><dt>Group</dt><dd>9</dd><dt>Type</dt><dd>abstract</dd><dt>Contrast</dt><dd>No longer a formal clinical term, but common in everyday and literary use. Compare <em>psychosis → psychoses</em>, which is still clinical.</dd></dl>
+<p>A relatively mild mental or emotional disturbance.</p>
+<p><strong>1. The condition.</strong> (невроз)</p>
+<ol><li>The <em>neurosis</em> had built up over years.</li><li>Both <em>neuroses</em> trace back to the same event.</li><li>He writes about his <em>neuroses</em> with real humor.</li></ol>
+<p><strong>2. Loosely — an anxious obsession.</strong> Informal. (навязчивая тревога)</p>
+<ol start="4"><li>Her <em>neurosis</em> about punctuality drives everyone crazy.</li><li>The whole industry runs on collective <em>neuroses</em>.</li></ol>
+<dl class="fields"><dt>See also</dt><dd><a href="#diagnosis">diagnosis</a></dd></dl>
+<hr>
+<h3 id="metamorphosis">metamorphosis<a class="hash" href="#metamorphosis" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/ˌmɛtəˈmɔːrfəsɪs/ &middot; <em>met-uh-MOR-fuh-sis</em></dd><dt>Русский</dt><dd>метаморфоза, превращение</dd><dt>Plural</dt><dd><em>metamorphoses</em> /ˌmɛtəˈmɔːrfəsiːz/ &middot; <em>met-uh-MOR-fuh-seez</em></dd><dt>Countability</dt><dd>countable</dd><dt>Agreement</dt><dd>plural verb — <em>the metamorphoses take weeks</em></dd><dt>Pattern</dt><dd>Greek <em>-sis</em> → <em>-ses</em></dd><dt>Group</dt><dd>9</dd><dt>Type</dt><dd>concrete and abstract</dd><dt>Contrast</dt><dd>The stress is on the third syllable — <em>met-uh-MOR-fuh-sis</em> — not on <em>-morph-</em> alone.</dd></dl>
+<p>A complete change of form; in biology, the transformation of a larva into an adult.</p>
+<p><strong>1. In biology.</strong> (метаморфоза)</p>
+<ol><li>The <em>metamorphosis</em> from caterpillar to butterfly takes two weeks.</li><li>Insect <em>metamorphoses</em> follow a fixed sequence.</li><li>The tadpole begins its <em>metamorphosis</em> in spring.</li></ol>
+<p><strong>2. A dramatic change in anything.</strong> Figurative. (превращение)</p>
+<ol start="4"><li>The neighborhood has undergone a complete <em>metamorphosis</em>.</li><li>Her <em>metamorphosis</em> from intern to editor took four years.</li></ol>
+<dl class="fields"><dt>See also</dt><dd><a href="#crisis">crisis</a></dd></dl></div></main>
+<button class="themebtn" id="themeBtn">Dark</button>
+<script>
+const tb=document.getElementById('themeBtn');
+function setTheme(x){document.documentElement.dataset.theme=x;tb.textContent=x==='dark'?'Light':'Dark';
+ try{localStorage.setItem('site-theme',x)}catch(e){}}
+tb.onclick=()=>setTheme(document.documentElement.dataset.theme==='dark'?'light':'dark');
+try{const s=localStorage.getItem('site-theme');
+ setTheme(s||(matchMedia('(prefers-color-scheme: dark)').matches?'dark':'light'))}catch(e){setTheme('light')}
+</script></body></html>

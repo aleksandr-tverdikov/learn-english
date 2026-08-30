@@ -1,0 +1,311 @@
+<!DOCTYPE html>
+<html lang="en"><head>
+<meta charset="utf-8"><meta name="viewport" content="width=device-width, initial-scale=1">
+<title>When -f becomes -ves</title>
+<style>
+:root{--bg:#faf9f7;--surface:#fff;--surface2:#f2f0ec;--border:#e2ded6;--text:#1a1815;
+--dim:#5f594f;--faint:#8a8377;--accent:#8a5a3b;--measure:72ch}
+@media(prefers-color-scheme:dark){:root{--bg:#14140f;--surface:#1d1d17;--surface2:#25251d;
+--border:#33332a;--text:#eeeae1;--dim:#a8a293;--faint:#7d776b;--accent:#d09b72}}
+:root[data-theme=dark]{--bg:#14140f;--surface:#1d1d17;--surface2:#25251d;--border:#33332a;
+--text:#eeeae1;--dim:#a8a293;--faint:#7d776b;--accent:#d09b72}
+:root[data-theme=light]{--bg:#faf9f7;--surface:#fff;--surface2:#f2f0ec;--border:#e2ded6;
+--text:#1a1815;--dim:#5f594f;--faint:#8a8377;--accent:#8a5a3b}
+*{box-sizing:border-box}
+body{margin:0;background:var(--bg);color:var(--text);
+font:17px/1.72 ui-serif,Georgia,"Iowan Old Style",Palatino,serif;-webkit-font-smoothing:antialiased}
+.wrap{max-width:min(var(--measure),100%);margin:0 auto;padding:0 22px}
+nav.crumb{border-bottom:1px solid var(--border);padding:13px 0;font-size:13.5px;
+font-family:-apple-system,BlinkMacSystemFont,"Segoe UI",sans-serif;position:sticky;top:0;background:var(--bg);z-index:20}
+nav.crumb .wrap{max-width:none;display:flex;gap:9px;align-items:center;flex-wrap:wrap}
+nav.crumb a{color:var(--dim);text-decoration:none}
+nav.crumb a:hover{color:var(--accent)}
+nav.crumb .sep{color:var(--faint)}
+main{padding:8px 0 80px}
+h1{font-size:clamp(28px,5vw,38px);line-height:1.15;letter-spacing:-.015em;margin:34px 0 18px}
+h2{font-size:25px;margin:46px 0 14px;letter-spacing:-.01em;padding-bottom:7px;border-bottom:1px solid var(--border)}
+h3{font-size:19px;margin:34px 0 10px;color:var(--accent)}
+h4{font-size:16px;margin:24px 0 8px;font-family:-apple-system,sans-serif}
+p{margin:0 0 16px}
+a{color:var(--accent)}
+.hash{opacity:0;margin-left:8px;font-weight:400;font-size:.65em;text-decoration:none;color:var(--faint)}
+h2:hover .hash,h3:hover .hash{opacity:1}
+blockquote{margin:0 0 20px;padding:14px 18px;background:var(--surface2);
+border-left:3px solid var(--accent);border-radius:0 8px 8px 0}
+blockquote p:last-child{margin-bottom:0}
+ol,ul{margin:0 0 18px;padding-left:26px}
+li{margin-bottom:8px}
+li>ul,li>ol{margin:8px 0 0}
+code{font-family:ui-monospace,SFMono-Regular,Menlo,Consolas,monospace;font-size:.87em;
+background:var(--surface2);padding:1px 5px;border-radius:4px}
+pre{background:var(--surface2);border:1px solid var(--border);border-radius:9px;
+padding:15px 17px;overflow-x:auto;margin:0 0 20px}
+pre code{background:none;padding:0;font-size:13px;line-height:1.6}
+.tw{overflow-x:auto;margin:0 0 22px;border:1px solid var(--border);border-radius:9px}
+table{border-collapse:collapse;width:100%;font-size:15px;
+font-family:-apple-system,BlinkMacSystemFont,"Segoe UI",sans-serif}
+th,td{padding:10px 14px;border-bottom:1px solid var(--border);vertical-align:top}
+th{background:var(--surface2);font-size:12px;text-transform:uppercase;
+letter-spacing:.06em;color:var(--dim);font-weight:700;white-space:nowrap}
+tbody tr:last-child td{border-bottom:none}
+hr{border:none;border-top:1px solid var(--border);margin:38px 0}
+details{background:var(--surface2);border:1px solid var(--border);border-radius:9px;
+padding:13px 17px;margin:0 0 20px}
+summary{cursor:pointer;font-weight:600;font-family:-apple-system,sans-serif;font-size:15px}
+details[open] summary{margin-bottom:12px}
+del{color:var(--faint)}
+dl.fields{margin:0 0 20px;padding:0}
+dl.fields dt{font-family:-apple-system,BlinkMacSystemFont,"Segoe UI",sans-serif;
+font-size:11px;letter-spacing:.11em;text-transform:uppercase;color:var(--faint);
+font-weight:700;margin:14px 0 4px}
+dl.fields dt:first-child{margin-top:0}
+dl.fields dd{margin:0;font-size:16px;color:var(--dim);line-height:1.62}
+dl.fields dd em{color:var(--text)}
+dl.fields dt.ru{color:var(--accent)}
+dl.fields dd strong{color:var(--text)}
+.toc{background:var(--surface2);border:1px solid var(--border);border-radius:10px;
+padding:16px 20px;margin:26px 0 34px;font-family:-apple-system,sans-serif;font-size:14px}
+.toc b{display:block;font-size:11px;letter-spacing:.12em;text-transform:uppercase;
+color:var(--faint);margin-bottom:9px}
+.toc a{display:block;padding:3px 0;color:var(--dim);text-decoration:none}
+.toc a:hover{color:var(--accent)}
+.themebtn{position:fixed;right:18px;bottom:18px;z-index:60;font-family:-apple-system,sans-serif;
+font-size:12.5px;font-weight:600;cursor:pointer;background:var(--surface);border:1px solid var(--border);
+border-radius:99px;padding:9px 16px;color:var(--text)}
+@media(max-width:600px){body{font-size:16px}.wrap{padding:0 17px}}
+</style></head><body>
+<nav class="crumb"><div class="wrap"><a href="../../../index.html">Learn English</a><span class="sep">/</span><a href="../../README.html">Parts of speech</a><span class="sep">/</span><a href="../README.html">01-nouns</a><span class="sep">/</span><span>catalog</span></div></nav>
+<main><div class="wrap"><h1 id="when--f-becomes--ves">When <em>-f</em> becomes <em>-ves</em><a class="hash" href="#when--f-becomes--ves" aria-label="link">#</a></h1>
+<blockquote><p><em>Knife → knives</em>, <em>leaf → leaves</em>. The final /f/ voices to /v/ — but only for about two dozen words, and <em>roof</em>, <em>chief</em>, and <em>belief</em> are not among them.</p></blockquote>
+<p><a href="../README.html">← The grammar of nouns</a> &middot; <a href="README.html">All groups</a></p>
+<p>A noun ending in <em>-f</em> or <em>-fe</em> sometimes changes it to <em>-ves</em> in the plural. The sound change is the real event: voiceless /f/ becomes voiced /v/ between two voiced sounds. English spelling then follows the sound.</p>
+<p>The catch is that the change stopped being productive centuries ago, so <strong>there is no rule you can apply to a new word</strong> — there is only a list. Roughly two dozen nouns take <em>-ves</em>; every other <em>-f</em> noun takes a plain <em>-s</em>. The most common learner error is over-applying the pattern: ✗ <em>rooves</em>, ✗ <em>chieves</em>, ✗ <em>believes</em>. This file gives the <em>-ves</em> list first, then the traps that look like they belong to it and do not.</p>
+<hr>
+<h3 id="knife">knife<a class="hash" href="#knife" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/naɪf/ &middot; <em>nyfe</em> — the <em>k</em> is silent</dd><dt>Русский</dt><dd>нож</dd><dt>Plural</dt><dd><em>knives</em> /naɪvz/ &middot; <em>nyvez</em></dd><dt>Countability</dt><dd>countable</dd><dt>Agreement</dt><dd>plural verb — <em>the knives are in the drawer</em></dd><dt>Pattern</dt><dd><em>-fe</em> → <em>-ves</em></dd><dt>Group</dt><dd>4</dd><dt>Type</dt><dd>concrete</dd><dt>Contrast</dt><dd>✗ <em>knifes</em> is wrong as a noun plural — but it is right as a <strong>verb</strong>: <em>he knifes through the water</em>. The silent <em>k</em> survives from Old English, where it was pronounced.</dd></dl>
+<p>The cutting tool or weapon.</p>
+<p><strong>1. The cutting implement.</strong> (нож)</p>
+<ol><li>Hand me the bread <em>knife</em>.</li><li>All the <em>knives</em> need sharpening.</li><li>He cut the rope with a pocket <em>knife</em>.</li></ol>
+<p><strong>2. A weapon.</strong> (нож как оружие)</p>
+<ol start="4"><li>The man was carrying a <em>knife</em>.</li><li>Police recovered two <em>knives</em> at the scene.</li></ol>
+<p><strong>3. In fixed expressions.</strong> (в устойчивых выражениях)</p>
+<ol start="6"><li>You could cut the tension with a <em>knife</em>.</li><li>She went under the <em>knife</em> last Tuesday.</li><li>That remark was a <em>knife</em> in the back.</li></ol>
+<dl class="fields"><dt>See also</dt><dd><a href="#wife">wife</a> &middot; <a href="#life">life</a></dd></dl>
+<hr>
+<h3 id="wife">wife<a class="hash" href="#wife" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/waɪf/ &middot; <em>wyfe</em></dd><dt>Русский</dt><dd>жена</dd><dt>Plural</dt><dd><em>wives</em> /waɪvz/ &middot; <em>wyvez</em></dd><dt>Countability</dt><dd>countable</dd><dt>Agreement</dt><dd>plural verb — <em>their wives are coming</em></dd><dt>Pattern</dt><dd><em>-fe</em> → <em>-ves</em></dd><dt>Group</dt><dd>4</dd><dt>Type</dt><dd>concrete</dd><dt>Contrast</dt><dd>✗ <em>wifes</em> is always wrong. The possessive singular is <em>wife's</em> and the possessive plural <em>wives'</em> — three forms that sound alike in speech and are constantly confused in writing.</dd></dl>
+<p>A married woman, considered in relation to her spouse.</p>
+<p><strong>1. A married woman.</strong> (жена)</p>
+<ol><li>His <em>wife</em> teaches at the community college.</li><li>Both <em>wives</em> kept their own last names.</li><li>She is the <em>wife</em> of a well-known journalist.</li><li>The couples brought their <em>wives</em> and husbands.</li></ol>
+<p><strong>2. In compounds.</strong> <em>Housewife</em> and <em>midwife</em> follow the same plural. (в составе сложных слов)</p>
+<ol start="5"><li>Two <em>midwives</em> were on duty that night.</li></ol>
+<p><strong>3. In fixed expressions.</strong> (в устойчивых выражениях)</p>
+<ol start="6"><li>That's an old <em>wives</em>' tale — there's no evidence for it.</li></ol>
+<dl class="fields"><dt>See also</dt><dd><a href="#knife">knife</a></dd></dl>
+<hr>
+<h3 id="life">life<a class="hash" href="#life" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/laɪf/ &middot; <em>lyfe</em></dd><dt>Русский</dt><dd>жизнь</dd><dt>Plural</dt><dd><em>lives</em> /laɪvz/ &middot; <em>lyvez</em></dd><dt>Countability</dt><dd>countable, and uncountable in the abstract</dd><dt>Agreement</dt><dd>plural verb — <em>their lives were changed</em></dd><dt>Pattern</dt><dd><em>-fe</em> → <em>-ves</em></dd><dt>Group</dt><dd>4</dd><dt>Type</dt><dd>concrete and abstract</dd><dt>Contrast</dt><dd>The plural noun <em>lives</em> /laɪvz/ and the verb <em>lives</em> /lɪvz/ (<em>she lives here</em>) are spelled identically and pronounced differently. Long /aɪ/ for the noun, short /ɪ/ for the verb.</dd></dl>
+<p>The condition of being alive; the period of someone's existence; a way of living.</p>
+<p><strong>1. The state of being alive.</strong> Often uncountable. (жизнь)</p>
+<ol><li>Doctors fought to save his <em>life</em>.</li><li>Three <em>lives</em> were lost in the fire.</li><li>There is no <em>life</em> on that moon.</li></ol>
+<p><strong>2. The period of someone's existence.</strong> (жизнь как срок)</p>
+<ol start="4"><li>She spent her whole <em>life</em> in the same town.</li><li>Their <em>lives</em> changed completely after the move.</li></ol>
+<p><strong>3. A way of living.</strong> (образ жизни)</p>
+<ol start="6"><li>He wanted a quieter <em>life</em>.</li><li>City <em>life</em> never suited them.</li></ol>
+<p><strong>4. Energy, liveliness.</strong> Uncountable. (оживление, энергия)</p>
+<ol start="8"><li>There was no <em>life</em> in the room at all.</li></ol>
+<p><strong>5. In fixed expressions.</strong> (в устойчивых выражениях)</p>
+<ol start="9"><li>Not on your <em>life</em>.</li><li>She's the <em>life</em> of the party.</li></ol>
+<dl class="fields"><dt>See also</dt><dd><a href="#knife">knife</a> &middot; <a href="#wife">wife</a></dd></dl>
+<hr>
+<h3 id="leaf">leaf<a class="hash" href="#leaf" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/liːf/ &middot; <em>leef</em></dd><dt>Русский</dt><dd>лист</dd><dt>Plural</dt><dd><em>leaves</em> /liːvz/ &middot; <em>leevez</em></dd><dt>Countability</dt><dd>countable</dd><dt>Agreement</dt><dd>plural verb — <em>the leaves are turning</em></dd><dt>Pattern</dt><dd><em>-f</em> → <em>-ves</em></dd><dt>Group</dt><dd>4</dd><dt>Type</dt><dd>concrete</dd><dt>Contrast</dt><dd>The plural noun <em>leaves</em> and the verb <em>leaves</em> (<em>she leaves at six</em>) are identical in both spelling and sound. Only the syntax tells them apart. <em>Leafs</em> is correct only as a verb — <em>he leafs through the magazine</em> — and in the team name <em>Maple Leafs</em>.</dd></dl>
+<p>The flat green growth on a plant; also a sheet of paper or a hinged section of a table.</p>
+<p><strong>1. Part of a plant.</strong> (лист растения)</p>
+<ol><li>A single <em>leaf</em> drifted onto the windshield.</li><li>The <em>leaves</em> turn red in early October.</li><li>We raked <em>leaves</em> all afternoon.</li></ol>
+<p><strong>2. A sheet of paper in a book.</strong> Formal or technical. (лист бумаги)</p>
+<ol start="4"><li>Several <em>leaves</em> had been torn from the notebook.</li></ol>
+<p><strong>3. A hinged or removable section of a table.</strong> (раздвижная доска стола)</p>
+<ol start="5"><li>Add both <em>leaves</em> and the table seats ten.</li></ol>
+<p><strong>4. In fixed expressions.</strong> (в устойчивых выражениях)</p>
+<ol start="6"><li>I'm turning over a new <em>leaf</em> this year.</li><li>She took a <em>leaf</em> out of his book and asked for a raise.</li></ol>
+<dl class="fields"><dt>See also</dt><dd><a href="#loaf">loaf</a> &middot; <a href="#sheaf">sheaf</a></dd></dl>
+<hr>
+<h3 id="loaf">loaf<a class="hash" href="#loaf" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/loʊf/ &middot; <em>lohf</em></dd><dt>Русский</dt><dd>буханка, батон</dd><dt>Plural</dt><dd><em>loaves</em> /loʊvz/ &middot; <em>lohvez</em></dd><dt>Countability</dt><dd>countable</dd><dt>Agreement</dt><dd>plural verb — <em>the loaves are cooling</em></dd><dt>Pattern</dt><dd><em>-f</em> → <em>-ves</em></dd><dt>Group</dt><dd>4</dd><dt>Type</dt><dd>concrete</dd><dt>Contrast</dt><dd>✗ <em>loafs</em> is wrong as a noun — but right as a verb meaning 'to idle': <em>he loafs around all weekend</em>.</dd></dl>
+<p>A shaped mass of bread, or of anything baked in that shape.</p>
+<p><strong>1. A shaped quantity of bread.</strong> <em>Loaf</em> is the standard counter for uncountable <em>bread</em>. (буханка)</p>
+<ol><li>Pick up a <em>loaf</em> of bread on your way home.</li><li>Two <em>loaves</em> were still in the oven.</li><li>She bakes four <em>loaves</em> every Sunday.</li></ol>
+<p><strong>2. Other food in that shape.</strong> (изделие в форме батона)</p>
+<ol start="4"><li>He made a meat <em>loaf</em> for dinner.</li><li>Both sugar <em>loaves</em> were wrapped in blue paper.</li></ol>
+<p><strong>3. As a verb — to idle.</strong> Regular. (бездельничать)</p>
+<ol start="6"><li>They <em>loafed</em> on the porch until it got dark.</li></ol>
+<dl class="fields"><dt>See also</dt><dd><a href="#leaf">leaf</a> &middot; <a href="13-uncountable.html#bread">bread</a></dd></dl>
+<hr>
+<h3 id="thief">thief<a class="hash" href="#thief" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/θiːf/ &middot; <em>theef</em></dd><dt>Русский</dt><dd>вор</dd><dt>Plural</dt><dd><em>thieves</em> /θiːvz/ &middot; <em>theevez</em></dd><dt>Countability</dt><dd>countable</dd><dt>Agreement</dt><dd>plural verb — <em>the thieves were caught</em></dd><dt>Pattern</dt><dd><em>-f</em> → <em>-ves</em></dd><dt>Group</dt><dd>4</dd><dt>Type</dt><dd>concrete</dd><dt>Contrast</dt><dd>✗ <em>thiefs</em> is wrong. Note the sharp contrast with <em>chief → chiefs</em>, which is regular despite rhyming perfectly.</dd></dl>
+<p>Someone who steals.</p>
+<p><strong>1. Someone who steals.</strong> (вор)</p>
+<ol><li>A <em>thief</em> took the bicycle from the porch.</li><li>The <em>thieves</em> were arrested the next morning.</li><li>Police believe the same <em>thief</em> hit four houses.</li><li>Car <em>thieves</em> target this neighborhood.</li></ol>
+<p><strong>2. In fixed expressions.</strong> (в устойчивых выражениях)</p>
+<ol start="5"><li>There is honor among <em>thieves</em>, supposedly.</li><li>He came like a <em>thief</em> in the night.</li></ol>
+<dl class="fields"><dt>See also</dt><dd><a href="#chief">chief</a> &middot; <a href="#wolf">wolf</a></dd></dl>
+<hr>
+<h3 id="wolf">wolf<a class="hash" href="#wolf" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/wʊlf/ &middot; <em>wuulf</em></dd><dt>Русский</dt><dd>волк</dd><dt>Plural</dt><dd><em>wolves</em> /wʊlvz/ &middot; <em>wuulvez</em></dd><dt>Countability</dt><dd>countable</dd><dt>Agreement</dt><dd>plural verb — <em>the wolves are howling</em></dd><dt>Pattern</dt><dd><em>-f</em> → <em>-ves</em></dd><dt>Group</dt><dd>4</dd><dt>Type</dt><dd>concrete</dd><dt>Contrast</dt><dd>✗ <em>wolfs</em> is wrong as a noun — but correct as a verb: <em>he wolfs down his lunch</em>.</dd></dl>
+<p>The wild canine.</p>
+<p><strong>1. The animal.</strong> (волк)</p>
+<ol><li>A <em>wolf</em> crossed the ridge at dusk.</li><li><em>Wolves</em> were reintroduced to the park in 1995.</li><li>The pack's <em>wolves</em> travel enormous distances.</li></ol>
+<p><strong>2. A predatory or greedy person.</strong> Figurative. (хищник, волк)</p>
+<ol start="4"><li>He's a <em>wolf</em> in the boardroom.</li></ol>
+<p><strong>3. In fixed expressions.</strong> (в устойчивых выражениях)</p>
+<ol start="5"><li>That's a <em>wolf</em> in sheep's clothing.</li><li>They were keeping the <em>wolf</em> from the door.</li><li>Don't cry <em>wolf</em> unless you mean it.</li></ol>
+<p><strong>8.</strong> As a verb — to eat fast. (жадно есть)</p>
+<ol start="8"><li>He <em>wolfed</em> down two sandwiches.</li></ol>
+<dl class="fields"><dt>See also</dt><dd><a href="#thief">thief</a> &middot; <a href="#calf">calf</a></dd></dl>
+<hr>
+<h3 id="shelf">shelf<a class="hash" href="#shelf" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/ʃɛlf/ &middot; <em>shelf</em></dd><dt>Русский</dt><dd>полка</dd><dt>Plural</dt><dd><em>shelves</em> /ʃɛlvz/ &middot; <em>shelvez</em></dd><dt>Countability</dt><dd>countable</dd><dt>Agreement</dt><dd>plural verb — <em>the shelves are full</em></dd><dt>Pattern</dt><dd><em>-f</em> → <em>-ves</em></dd><dt>Group</dt><dd>4</dd><dt>Type</dt><dd>concrete</dd><dt>Contrast</dt><dd>✗ <em>shelfs</em> is wrong as a noun — but right as a verb meaning 'to postpone': <em>the studio shelfs the project</em>. More commonly the verb appears as <em>shelved</em>.</dd></dl>
+<p>A flat board for holding objects; also a ledge of rock.</p>
+<p><strong>1. A board for storage.</strong> (полка)</p>
+<ol><li>Put the box on the top <em>shelf</em>.</li><li>All the <em>shelves</em> were empty by noon.</li><li>He built the <em>shelves</em> himself.</li></ol>
+<p><strong>2. A ledge of rock or ice.</strong> (шельф, уступ)</p>
+<ol start="4"><li>The continental <em>shelf</em> drops away sharply here.</li></ol>
+<p><strong>3. In fixed expressions.</strong> (в устойчивых выражениях)</p>
+<ol start="5"><li>The plan has been on the <em>shelf</em> for years.</li><li>Check the <em>shelf</em> life before you buy it.</li></ol>
+<dl class="fields"><dt>See also</dt><dd><a href="#half">half</a></dd></dl>
+<hr>
+<h3 id="calf">calf<a class="hash" href="#calf" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/kæf/ &middot; <em>kaf</em> — the <em>l</em> is silent</dd><dt>Русский</dt><dd>телёнок; икра (ноги)</dd><dt>Plural</dt><dd><em>calves</em> /kævz/ &middot; <em>kavez</em></dd><dt>Countability</dt><dd>countable</dd><dt>Agreement</dt><dd>plural verb — <em>the calves were born in spring</em></dd><dt>Pattern</dt><dd><em>-f</em> → <em>-ves</em></dd><dt>Group</dt><dd>4</dd><dt>Type</dt><dd>concrete</dd><dt>Contrast</dt><dd>The <em>l</em> is silent, as in <em>half</em>, <em>palm</em>, and <em>calm</em>. Two unrelated meanings share the word and the plural: the young animal and the muscle at the back of the lower leg.</dd></dl>
+<p>A young cow or other large mammal; also the back of the lower leg.</p>
+<p><strong>1. A young animal.</strong> (телёнок)</p>
+<ol><li>The <em>calf</em> was born just before dawn.</li><li>Six <em>calves</em> were sold at auction.</li><li>Whale <em>calves</em> stay close to their mothers.</li></ol>
+<p><strong>2. The muscle at the back of the lower leg.</strong> (икра ноги)</p>
+<ol start="4"><li>He pulled a <em>calf</em> muscle running.</li><li>My <em>calves</em> ache after that climb.</li></ol>
+<dl class="fields"><dt>See also</dt><dd><a href="#half">half</a> &middot; <a href="#wolf">wolf</a></dd></dl>
+<hr>
+<h3 id="half">half<a class="hash" href="#half" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/hæf/ &middot; <em>haf</em> — the <em>l</em> is silent</dd><dt>Русский</dt><dd>половина</dd><dt>Plural</dt><dd><em>halves</em> /hævz/ &middot; <em>havez</em></dd><dt>Countability</dt><dd>countable</dd><dt>Agreement</dt><dd>plural verb — <em>both halves are equal</em></dd><dt>Pattern</dt><dd><em>-f</em> → <em>-ves</em></dd><dt>Group</dt><dd>4</dd><dt>Type</dt><dd>abstract</dd><dt>Contrast</dt><dd>✗ <em>halfs</em> is wrong. The verb is <em>halve</em> /hæv/ with a voiced <em>v</em> even in the singular: <em>halve the recipe</em>.</dd></dl>
+<p>One of two equal parts.</p>
+<p><strong>1. One of two equal parts.</strong> (половина)</p>
+<ol><li>Cut the apple in <em>half</em>.</li><li>Both <em>halves</em> of the class scored the same.</li><li>She gave me <em>half</em> of her sandwich.</li></ol>
+<p><strong>2. One of two periods in a game.</strong> (тайм, половина игры)</p>
+<ol start="4"><li>They scored twice in the second <em>half</em>.</li><li>Neither team looked sharp in the opening <em>halves</em>.</li></ol>
+<p><strong>3. In fixed expressions.</strong> (в устойчивых выражениях)</p>
+<ol start="6"><li>He doesn't know the <em>half</em> of it.</li><li>Let's go halves on the check. <em>(fixed plural)</em></li></ol>
+<dl class="fields"><dt>See also</dt><dd><a href="#calf">calf</a> &middot; <a href="#shelf">shelf</a></dd></dl>
+<hr>
+<h3 id="self">self<a class="hash" href="#self" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/sɛlf/ &middot; <em>self</em></dd><dt>Русский</dt><dd>сам, самость, личность</dd><dt>Plural</dt><dd><em>selves</em> /sɛlvz/ &middot; <em>selvez</em></dd><dt>Countability</dt><dd>countable</dd><dt>Agreement</dt><dd>plural verb — <em>their better selves were on display</em></dd><dt>Pattern</dt><dd><em>-f</em> → <em>-ves</em></dd><dt>Group</dt><dd>4</dd><dt>Type</dt><dd>abstract</dd><dt>Contrast</dt><dd>Every reflexive pronoun inherits this plural: <em>myself → ourselves</em>, <em>yourself → yourselves</em>, <em>himself/herself/itself → themselves</em>. ✗ <em>themselfs</em> and ✗ <em>ourselfs</em> are always wrong.</dd></dl>
+<p>A person's essential being; the whole of what someone is.</p>
+<p><strong>1. A person's essential nature.</strong> (сущность, личность)</p>
+<ol><li>She's finally back to her old <em>self</em>.</li><li>Their public and private <em>selves</em> barely resemble each other.</li><li>He wasn't quite himself — a different <em>self</em> entirely.</li></ol>
+<p><strong>2. In reflexive pronouns.</strong> (в возвратных местоимениях)</p>
+<ol start="4"><li>We poured <em>ourselves</em> some coffee.</li><li>Help <em>yourselves</em> to the food.</li><li>They taught <em>themselves</em> to code.</li></ol>
+<dl class="fields"><dt>See also</dt><dd><a href="#shelf">shelf</a></dd></dl>
+<hr>
+<h3 id="sheaf">sheaf<a class="hash" href="#sheaf" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/ʃiːf/ &middot; <em>sheef</em></dd><dt>Русский</dt><dd>сноп; пачка</dd><dt>Plural</dt><dd><em>sheaves</em> /ʃiːvz/ &middot; <em>sheevez</em></dd><dt>Countability</dt><dd>countable</dd><dt>Agreement</dt><dd>plural verb — <em>the sheaves were stacked</em></dd><dt>Pattern</dt><dd><em>-f</em> → <em>-ves</em></dd><dt>Group</dt><dd>4</dd><dt>Type</dt><dd>concrete</dd><dt>Contrast</dt><dd>✗ <em>sheafs</em> is wrong. Compare the near-identical-looking <em>chief → chiefs</em>, which is regular.</dd></dl>
+<p>A bundle of grain stalks, or of papers.</p>
+<p><strong>1. A bundle of cut grain.</strong> (сноп)</p>
+<ol><li>The <em>sheaves</em> were stacked in the field.</li><li>Each <em>sheaf</em> was tied with twine.</li></ol>
+<p><strong>2. A bundle of papers.</strong> (пачка бумаг)</p>
+<ol start="3"><li>She dropped a <em>sheaf</em> of documents on the desk.</li><li>He arrived carrying <em>sheaves</em> of printouts.</li><li>A thick <em>sheaf</em> of letters sat unopened.</li></ol>
+<dl class="fields"><dt>See also</dt><dd><a href="#leaf">leaf</a></dd></dl>
+<hr>
+<h3 id="elf">elf<a class="hash" href="#elf" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/ɛlf/ &middot; <em>elf</em></dd><dt>Русский</dt><dd>эльф</dd><dt>Plural</dt><dd><em>elves</em> /ɛlvz/ &middot; <em>elvez</em></dd><dt>Countability</dt><dd>countable</dd><dt>Agreement</dt><dd>plural verb — <em>the elves were busy</em></dd><dt>Pattern</dt><dd><em>-f</em> → <em>-ves</em></dd><dt>Group</dt><dd>4</dd><dt>Type</dt><dd>concrete</dd><dt>Contrast</dt><dd>✗ <em>elfs</em> is wrong. The adjective is <em>elfin</em> or <em>elvish</em>.</dd></dl>
+<p>A small mythical humanlike creature.</p>
+<p><strong>1. The mythical creature.</strong> (эльф)</p>
+<ol><li>In the story, an <em>elf</em> guards the bridge.</li><li>The <em>elves</em> work through the night.</li><li>He dressed as an <em>elf</em> for the school play.</li><li>Tolkien's <em>elves</em> are tall and grave, not small.</li><li>Every mall has a Santa and two <em>elves</em> by December.</li></ol>
+<dl class="fields"><dt>See also</dt><dd><a href="#dwarf">dwarf</a></dd></dl>
+<hr>
+<h3 id="dwarf">dwarf<a class="hash" href="#dwarf" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/dwɔːrf/ &middot; <em>dworf</em></dd><dt>Русский</dt><dd>гном, карлик</dd><dt>Plural</dt><dd><em>dwarfs</em> &middot; <em>dwarves</em> /dwɔːrvz/ — both accepted</dd><dt>Countability</dt><dd>countable</dd><dt>Agreement</dt><dd>plural verb — <em>the dwarves were mining</em></dd><dt>Pattern</dt><dd><em>-f</em> → <em>-ves</em> optionally</dd><dt>Group</dt><dd>4</dd><dt>Type</dt><dd>concrete</dd><dt>Variants</dt><dd><em>dwarfs</em> (astronomy, and the traditional plural) &middot; <em>dwarves</em> (fantasy fiction, after Tolkien)</dd><dt>Contrast</dt><dd>Both plurals are correct, and usage has split by topic. Astronomy says <em>white dwarfs</em>; fantasy says <em>dwarves</em>, a spelling Tolkien popularized. Referring to people, <em>person of short stature</em> is the neutral modern term.</dd></dl>
+<p>A mythical small humanlike being; in astronomy, a small dense star.</p>
+<p><strong>1. In myth and fantasy.</strong> (гном)</p>
+<ol><li>Seven <em>dwarfs</em> live in the cottage.</li><li>The <em>dwarves</em> forged the blade underground.</li></ol>
+<p><strong>2. In astronomy.</strong> Always <em>dwarfs</em>. (карликовая звезда)</p>
+<ol start="3"><li>The sun will become a white <em>dwarf</em>.</li><li>Red <em>dwarfs</em> are the most common stars in the galaxy.</li></ol>
+<p><strong>3. As a verb — to make something look small.</strong> (затмевать, превосходить размером)</p>
+<ol start="5"><li>The new tower <em>dwarfs</em> everything around it.</li></ol>
+<dl class="fields"><dt>See also</dt><dd><a href="#elf">elf</a></dd></dl>
+<hr>
+<h3 id="hoof">hoof<a class="hash" href="#hoof" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/hʊf/ &middot; <em>huuf</em> — also /huːf/</dd><dt>Русский</dt><dd>копыто</dd><dt>Plural</dt><dd><em>hooves</em> /hʊvz/ &middot; <em>hoofs</em> also correct</dd><dt>Countability</dt><dd>countable</dd><dt>Agreement</dt><dd>plural verb — <em>the hooves were trimmed</em></dd><dt>Pattern</dt><dd><em>-f</em> → <em>-ves</em> optionally</dd><dt>Group</dt><dd>4</dd><dt>Type</dt><dd>concrete</dd><dt>Variants</dt><dd><em>hooves</em> is now much commoner in American English than <em>hoofs</em></dd></dl>
+<p>The horny foot of a horse, cow, or similar animal.</p>
+<p><strong>1. The animal's foot.</strong> (копыто)</p>
+<ol><li>The horse had a stone lodged in its <em>hoof</em>.</li><li>You could hear <em>hooves</em> on the gravel.</li><li>The farrier trimmed all four <em>hooves</em>.</li><li>A single <em>hoof</em> print was visible in the mud.</li></ol>
+<p><strong>2. In fixed expressions.</strong> (в устойчивых выражениях)</p>
+<ol start="5"><li>He wrote the whole speech on the <em>hoof</em>.</li></ol>
+<dl class="fields"><dt>See also</dt><dd><a href="#scarf">scarf</a> &middot; <a href="#dwarf">dwarf</a></dd></dl>
+<hr>
+<h3 id="scarf">scarf<a class="hash" href="#scarf" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/skɑːrf/ &middot; <em>skarf</em></dd><dt>Русский</dt><dd>шарф, платок</dd><dt>Plural</dt><dd><em>scarves</em> /skɑːrvz/ &middot; <em>scarfs</em> also correct</dd><dt>Countability</dt><dd>countable</dd><dt>Agreement</dt><dd>plural verb — <em>the scarves are on sale</em></dd><dt>Pattern</dt><dd><em>-f</em> → <em>-ves</em> optionally</dd><dt>Group</dt><dd>4</dd><dt>Type</dt><dd>concrete</dd><dt>Variants</dt><dd><em>scarves</em> is the usual plural; <em>scarfs</em> is the plural of the carpentry sense and of the verb</dd><dt>Contrast</dt><dd>As a verb <em>scarf</em> means to eat quickly, and it is regular: <em>he scarfs down his food</em>.</dd></dl>
+<p>A length of cloth worn around the neck or head.</p>
+<p><strong>1. The garment.</strong> (шарф)</p>
+<ol><li>She wrapped a wool <em>scarf</em> around her neck.</li><li>All the <em>scarves</em> were half price.</li><li>He lost another <em>scarf</em> on the train.</li><li>A silk <em>scarf</em> was folded on the chair.</li></ol>
+<p><strong>2. As a verb — to eat fast.</strong> Informal American. (уплетать)</p>
+<ol start="5"><li>They <em>scarfed</em> down the pizza in four minutes.</li></ol>
+<dl class="fields"><dt>See also</dt><dd><a href="#hoof">hoof</a></dd></dl>
+<hr>
+<h3 id="wharf">wharf<a class="hash" href="#wharf" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/wɔːrf/ &middot; <em>worf</em></dd><dt>Русский</dt><dd>пристань, причал</dd><dt>Plural</dt><dd><em>wharves</em> /wɔːrvz/ &middot; <em>wharfs</em> also correct</dd><dt>Countability</dt><dd>countable</dd><dt>Agreement</dt><dd>plural verb — <em>the wharves were rebuilt</em></dd><dt>Pattern</dt><dd><em>-f</em> → <em>-ves</em> optionally</dd><dt>Group</dt><dd>4</dd><dt>Type</dt><dd>concrete</dd><dt>Variants</dt><dd>American English accepts both; <em>wharves</em> is somewhat commoner</dd></dl>
+<p>A structure at the edge of water where ships tie up.</p>
+<p><strong>1. The dock structure.</strong> (причал)</p>
+<ol><li>The ship tied up at the north <em>wharf</em>.</li><li>All the <em>wharves</em> were rebuilt after the storm.</li><li>Fishermen sell straight off the <em>wharf</em>.</li><li>Two <em>wharves</em> remain from the original port.</li><li>We walked the length of the <em>wharf</em> at sunset.</li></ol>
+<dl class="fields"><dt>See also</dt><dd><a href="#hoof">hoof</a></dd></dl>
+<hr>
+<h3 id="staff">staff<a class="hash" href="#staff" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/stæf/ &middot; <em>staf</em></dd><dt>Русский</dt><dd>персонал; посох; нотный стан</dd><dt>Plural</dt><dd><em>staffs</em> (groups of people) &middot; <em>staves</em> /steɪvz/ (rods, music)</dd><dt>Countability</dt><dd>countable, and treated as a group in the 'employees' sense</dd><dt>Agreement</dt><dd>either — <em>the staff is</em> (the body) / <em>are</em> (the individuals)</dd><dt>Pattern</dt><dd>regular in one sense, <em>-ves</em> with a vowel change in the other</dd><dt>Group</dt><dd>4</dd><dt>Type</dt><dd>collective</dd><dt>Variants</dt><dd><em>staffs</em> (personnel) &middot; <em>staves</em> (walking sticks, barrel slats, musical staves)</dd><dt>Contrast</dt><dd>Two plurals for two senses, and the irregular one also changes its vowel: /æ/ → /eɪ/. Employees are <em>staffs</em>; wooden rods and musical staves are <em>staves</em>.</dd></dl>
+<p>The people who work for an organization; also a long stick, or the set of lines music is written on.</p>
+<p><strong>1. Employees, collectively.</strong> (персонал)</p>
+<ol><li>The <em>staff</em> is meeting at nine. <em>(the body as one unit)</em></li><li>The <em>staff</em> are divided about the proposal. <em>(the individuals)</em></li><li>Both hospitals' <em>staffs</em> were consulted.</li><li>She joined the <em>staff</em> last March.</li></ol>
+<p><strong>2. A long stick or rod.</strong> (посох)</p>
+<ol start="5"><li>The shepherd leaned on his <em>staff</em>.</li><li>Barrels are built from curved <em>staves</em>.</li></ol>
+<p><strong>3. The five lines of written music.</strong> (нотный стан)</p>
+<ol start="7"><li>Write the melody on the upper <em>staves</em>.</li></ol>
+<dl class="fields"><dt>See also</dt><dd><a href="17-collective.html#team">team</a></dd></dl>
+<hr>
+<h3 id="chief">chief<a class="hash" href="#chief" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/tʃiːf/ &middot; <em>cheef</em></dd><dt>Русский</dt><dd>глава, начальник, вождь</dd><dt>Plural</dt><dd><em>chiefs</em> /tʃiːfs/ — regular</dd><dt>Countability</dt><dd>countable</dd><dt>Agreement</dt><dd>plural verb — <em>the chiefs were present</em></dd><dt>Pattern</dt><dd>regular <em>-s</em> despite the <em>-ief</em> ending</dd><dt>Group</dt><dd>4 (trap)</dd><dt>Type</dt><dd>concrete</dd><dt>Contrast</dt><dd>✗ <em>chieves</em> is the classic over-application of the <em>-ves</em> rule. <em>Thief</em> becomes <em>thieves</em>, but <em>chief</em> does not — the two rhyme perfectly and behave differently. There is no way to predict it; it must be memorized.</dd></dl>
+<p>A leader, or the head of an organization.</p>
+<p><strong>1. A leader or head.</strong> (глава, начальник)</p>
+<ol><li>The <em>chief</em> of police gave a statement.</li><li>Both fire <em>chiefs</em> attended the hearing.</li><li>She was promoted to <em>chief</em> of surgery.</li><li>Tribal <em>chiefs</em> signed the agreement.</li><li>Three <em>chiefs</em> of staff have held the post this year.</li></ol>
+<dl class="fields"><dt>See also</dt><dd><a href="#thief">thief</a> &middot; <a href="#roof">roof</a></dd></dl>
+<hr>
+<h3 id="roof">roof<a class="hash" href="#roof" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/ruːf/ &middot; <em>roof</em> — also /rʊf/</dd><dt>Русский</dt><dd>крыша</dd><dt>Plural</dt><dd><em>roofs</em> /ruːfs/ — regular</dd><dt>Countability</dt><dd>countable</dd><dt>Agreement</dt><dd>plural verb — <em>the roofs were damaged</em></dd><dt>Pattern</dt><dd>regular <em>-s</em> despite the <em>-oof</em> ending</dd><dt>Group</dt><dd>4 (trap)</dd><dt>Type</dt><dd>concrete</dd><dt>Variants</dt><dd>✗ <em>rooves</em> is an old spelling now considered an error in American English</dd><dt>Contrast</dt><dd>Compare <em>hoof → hooves</em>, which rhymes and does take <em>-ves</em>. <em>Roof</em> does not. ✗ <em>Rooves</em> will be marked wrong.</dd></dl>
+<p>The covering on top of a building.</p>
+<p><strong>1. The top covering of a building.</strong> (крыша)</p>
+<ol><li>The <em>roof</em> leaks whenever it rains hard.</li><li>Several <em>roofs</em> were torn off in the storm.</li><li>They're replacing the <em>roof</em> this summer.</li><li>Red tile <em>roofs</em> line the whole street.</li></ol>
+<p><strong>2. In fixed expressions.</strong> (в устойчивых выражениях)</p>
+<ol start="5"><li>He hit the <em>roof</em> when he saw the bill.</li><li>We all live under the same <em>roof</em>.</li></ol>
+<dl class="fields"><dt>See also</dt><dd><a href="#chief">chief</a> &middot; <a href="#belief">belief</a></dd></dl>
+<hr>
+<h3 id="belief">belief<a class="hash" href="#belief" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/bɪˈliːf/ &middot; <em>bih-LEEF</em></dd><dt>Русский</dt><dd>вера, убеждение</dd><dt>Plural</dt><dd><em>beliefs</em> /bɪˈliːfs/ — regular</dd><dt>Countability</dt><dd>countable, and uncountable in the sense 'faith'</dd><dt>Agreement</dt><dd>plural verb — <em>her beliefs are firm</em></dd><dt>Pattern</dt><dd>regular <em>-s</em> despite the <em>-ief</em> ending</dd><dt>Group</dt><dd>4 (trap)</dd><dt>Type</dt><dd>abstract</dd><dt>Contrast</dt><dd>✗ <em>believes</em> is not the noun plural — it is the verb <em>believe</em> in the third person: <em>he believes</em>. The noun is <em>beliefs</em> with an /f/, the verb <em>believes</em> with a /v/. Compare <em>thief → thieves</em>, which does change.</dd></dl>
+<p>Something accepted as true; confidence that something is so.</p>
+<p><strong>1. Something held to be true.</strong> Countable. (убеждение)</p>
+<ol><li>Her religious <em>beliefs</em> are private.</li><li>It is a widely held <em>belief</em> that the building is haunted.</li><li>Their political <em>beliefs</em> have not changed in forty years.</li></ol>
+<p><strong>2. Faith or confidence.</strong> Uncountable. (вера)</p>
+<ol start="4"><li>He acted out of <em>belief</em> in the cause.</li><li>She lost all <em>belief</em> in the process.</li></ol>
+<p><strong>3. In fixed expressions.</strong> (в устойчивых выражениях)</p>
+<ol start="6"><li>The crowd was beyond <em>belief</em>.</li></ol>
+<dl class="fields"><dt>See also</dt><dd><a href="#roof">roof</a> &middot; <a href="#chief">chief</a></dd></dl>
+<hr>
+<h3 id="handkerchief">handkerchief<a class="hash" href="#handkerchief" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/ˈhæŋkərtʃɪf/ &middot; <em>HANG-kur-chif</em> — the <em>d</em> is silent</dd><dt>Русский</dt><dd>носовой платок</dd><dt>Plural</dt><dd><em>handkerchiefs</em> &middot; <em>handkerchieves</em> rarely</dd><dt>Countability</dt><dd>countable</dd><dt>Agreement</dt><dd>plural verb — <em>the handkerchiefs were folded</em></dd><dt>Pattern</dt><dd>regular <em>-s</em> preferred</dd><dt>Group</dt><dd>4</dd><dt>Type</dt><dd>concrete</dd><dt>Variants</dt><dd><em>handkerchiefs</em> is standard in American English; <em>handkerchieves</em> is dated</dd><dt>Contrast</dt><dd>The <em>d</em> is silent and the first syllable is <em>hank-</em>, not ✗ <em>hand-</em>. Both plurals appear in dictionaries, but write <em>handkerchiefs</em>.</dd></dl>
+<p>A small square of cloth for wiping the nose or face.</p>
+<p><strong>1. The cloth square.</strong> (носовой платок)</p>
+<ol><li>He offered her a clean <em>handkerchief</em>.</li><li>Three folded <em>handkerchiefs</em> lay in the drawer.</li><li>She kept a <em>handkerchief</em> in her sleeve.</li><li>Silk <em>handkerchiefs</em> were part of the uniform.</li><li>The magician pulled four <em>handkerchiefs</em> from his fist.</li></ol>
+<dl class="fields"><dt>See also</dt><dd><a href="#chief">chief</a> &middot; <a href="#scarf">scarf</a></dd></dl></div></main>
+<button class="themebtn" id="themeBtn">Dark</button>
+<script>
+const tb=document.getElementById('themeBtn');
+function setTheme(x){document.documentElement.dataset.theme=x;tb.textContent=x==='dark'?'Light':'Dark';
+ try{localStorage.setItem('site-theme',x)}catch(e){}}
+tb.onclick=()=>setTheme(document.documentElement.dataset.theme==='dark'?'light':'dark');
+try{const s=localStorage.getItem('site-theme');
+ setTheme(s||(matchMedia('(prefers-color-scheme: dark)').matches?'dark':'light'))}catch(e){setTheme('light')}
+</script></body></html>

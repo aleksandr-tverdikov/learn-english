@@ -8,6 +8,20 @@ one row — nothing else in the pipeline needs to change.
 
 CATALOGS = [
     dict(
+        slug='01-nouns',
+        dir='parts-of-speech/01-nouns/catalog',
+        title='The Noun Dictionary',
+        eyebrow='01 &middot; Nouns',
+        lede='the nouns that do not behave — irregular plurals, uncountables, and the sets that force their own agreement',
+        accent='#4b4f8a', accent_dark='#9aa0e0',
+        tag_fields=['countability', 'type', 'agreement'],
+        fields=[('plural', 'Plural'), ('singular', 'Singular'),
+                ('countability', 'Countability'), ('agreement', 'Agreement'),
+                ('counted with', 'Counted with'), ('pattern', 'Pattern'),
+                ('group', 'Group'), ('type', 'Type'), ('contrast', 'Contrast'),
+                ('variants', 'Variants')],
+    ),
+    dict(
         slug='08-interjections',
         dir='parts-of-speech/08-interjections/catalog',
         title='The Interjection Dictionary',

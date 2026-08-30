@@ -1,0 +1,242 @@
+<!DOCTYPE html>
+<html lang="en"><head>
+<meta charset="utf-8"><meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Collective nouns</title>
+<style>
+:root{--bg:#faf9f7;--surface:#fff;--surface2:#f2f0ec;--border:#e2ded6;--text:#1a1815;
+--dim:#5f594f;--faint:#8a8377;--accent:#8a5a3b;--measure:72ch}
+@media(prefers-color-scheme:dark){:root{--bg:#14140f;--surface:#1d1d17;--surface2:#25251d;
+--border:#33332a;--text:#eeeae1;--dim:#a8a293;--faint:#7d776b;--accent:#d09b72}}
+:root[data-theme=dark]{--bg:#14140f;--surface:#1d1d17;--surface2:#25251d;--border:#33332a;
+--text:#eeeae1;--dim:#a8a293;--faint:#7d776b;--accent:#d09b72}
+:root[data-theme=light]{--bg:#faf9f7;--surface:#fff;--surface2:#f2f0ec;--border:#e2ded6;
+--text:#1a1815;--dim:#5f594f;--faint:#8a8377;--accent:#8a5a3b}
+*{box-sizing:border-box}
+body{margin:0;background:var(--bg);color:var(--text);
+font:17px/1.72 ui-serif,Georgia,"Iowan Old Style",Palatino,serif;-webkit-font-smoothing:antialiased}
+.wrap{max-width:min(var(--measure),100%);margin:0 auto;padding:0 22px}
+nav.crumb{border-bottom:1px solid var(--border);padding:13px 0;font-size:13.5px;
+font-family:-apple-system,BlinkMacSystemFont,"Segoe UI",sans-serif;position:sticky;top:0;background:var(--bg);z-index:20}
+nav.crumb .wrap{max-width:none;display:flex;gap:9px;align-items:center;flex-wrap:wrap}
+nav.crumb a{color:var(--dim);text-decoration:none}
+nav.crumb a:hover{color:var(--accent)}
+nav.crumb .sep{color:var(--faint)}
+main{padding:8px 0 80px}
+h1{font-size:clamp(28px,5vw,38px);line-height:1.15;letter-spacing:-.015em;margin:34px 0 18px}
+h2{font-size:25px;margin:46px 0 14px;letter-spacing:-.01em;padding-bottom:7px;border-bottom:1px solid var(--border)}
+h3{font-size:19px;margin:34px 0 10px;color:var(--accent)}
+h4{font-size:16px;margin:24px 0 8px;font-family:-apple-system,sans-serif}
+p{margin:0 0 16px}
+a{color:var(--accent)}
+.hash{opacity:0;margin-left:8px;font-weight:400;font-size:.65em;text-decoration:none;color:var(--faint)}
+h2:hover .hash,h3:hover .hash{opacity:1}
+blockquote{margin:0 0 20px;padding:14px 18px;background:var(--surface2);
+border-left:3px solid var(--accent);border-radius:0 8px 8px 0}
+blockquote p:last-child{margin-bottom:0}
+ol,ul{margin:0 0 18px;padding-left:26px}
+li{margin-bottom:8px}
+li>ul,li>ol{margin:8px 0 0}
+code{font-family:ui-monospace,SFMono-Regular,Menlo,Consolas,monospace;font-size:.87em;
+background:var(--surface2);padding:1px 5px;border-radius:4px}
+pre{background:var(--surface2);border:1px solid var(--border);border-radius:9px;
+padding:15px 17px;overflow-x:auto;margin:0 0 20px}
+pre code{background:none;padding:0;font-size:13px;line-height:1.6}
+.tw{overflow-x:auto;margin:0 0 22px;border:1px solid var(--border);border-radius:9px}
+table{border-collapse:collapse;width:100%;font-size:15px;
+font-family:-apple-system,BlinkMacSystemFont,"Segoe UI",sans-serif}
+th,td{padding:10px 14px;border-bottom:1px solid var(--border);vertical-align:top}
+th{background:var(--surface2);font-size:12px;text-transform:uppercase;
+letter-spacing:.06em;color:var(--dim);font-weight:700;white-space:nowrap}
+tbody tr:last-child td{border-bottom:none}
+hr{border:none;border-top:1px solid var(--border);margin:38px 0}
+details{background:var(--surface2);border:1px solid var(--border);border-radius:9px;
+padding:13px 17px;margin:0 0 20px}
+summary{cursor:pointer;font-weight:600;font-family:-apple-system,sans-serif;font-size:15px}
+details[open] summary{margin-bottom:12px}
+del{color:var(--faint)}
+dl.fields{margin:0 0 20px;padding:0}
+dl.fields dt{font-family:-apple-system,BlinkMacSystemFont,"Segoe UI",sans-serif;
+font-size:11px;letter-spacing:.11em;text-transform:uppercase;color:var(--faint);
+font-weight:700;margin:14px 0 4px}
+dl.fields dt:first-child{margin-top:0}
+dl.fields dd{margin:0;font-size:16px;color:var(--dim);line-height:1.62}
+dl.fields dd em{color:var(--text)}
+dl.fields dt.ru{color:var(--accent)}
+dl.fields dd strong{color:var(--text)}
+.toc{background:var(--surface2);border:1px solid var(--border);border-radius:10px;
+padding:16px 20px;margin:26px 0 34px;font-family:-apple-system,sans-serif;font-size:14px}
+.toc b{display:block;font-size:11px;letter-spacing:.12em;text-transform:uppercase;
+color:var(--faint);margin-bottom:9px}
+.toc a{display:block;padding:3px 0;color:var(--dim);text-decoration:none}
+.toc a:hover{color:var(--accent)}
+.themebtn{position:fixed;right:18px;bottom:18px;z-index:60;font-family:-apple-system,sans-serif;
+font-size:12.5px;font-weight:600;cursor:pointer;background:var(--surface);border:1px solid var(--border);
+border-radius:99px;padding:9px 16px;color:var(--text)}
+@media(max-width:600px){body{font-size:16px}.wrap{padding:0 17px}}
+</style></head><body>
+<nav class="crumb"><div class="wrap"><a href="../../../index.html">Learn English</a><span class="sep">/</span><a href="../../README.html">Parts of speech</a><span class="sep">/</span><a href="../README.html">01-nouns</a><span class="sep">/</span><span>catalog</span></div></nav>
+<main><div class="wrap"><h1 id="collective-nouns">Collective nouns<a class="hash" href="#collective-nouns" aria-label="link">#</a></h1>
+<blockquote><p><em>The team is winning</em> in America; <em>the team are winning</em> in Britain. One noun, one group, two grammars — and <em>police</em> is plural everywhere.</p></blockquote>
+<p><a href="../README.html">← The grammar of nouns</a> &middot; <a href="README.html">All groups</a></p>
+<p>A collective noun names a group as a unit: <em>team</em>, <em>family</em>, <em>committee</em>, <em>jury</em>, <em>audience</em>. The grammatical question is whether the group counts as one thing or as many people, and <strong>this is the clearest grammatical difference between American and British English.</strong></p>
+<p><strong>American English treats them as singular.</strong> <em>The team <strong>is</strong> playing well. The committee <strong>has</strong> decided. My family <strong>is</strong> coming for Thanksgiving.</em> This is the default and the safe choice in American writing.</p>
+<p><strong>British English commonly treats them as plural</strong> when the members are acting individually: <em>the team <strong>are</strong> playing well</em>, <em>the government <strong>have</strong> announced</em>. To American ears this sounds wrong; to British ears the American version can sound wrong in the opposite direction.</p>
+<p>Americans do use a plural verb when the sentence forces attention onto the individuals — <em>the jury <strong>were</strong> unable to agree among themselves</em> — but the ordinary choice is singular. There is one absolute exception: <strong>police</strong> is always plural, in every variety of English. ✗ <em>The police is investigating</em> is wrong everywhere.</p>
+<p>Two constructions deserve their own note, because they behave in exactly opposite ways: <em>the number of X <strong>is</strong></em>, singular, but <em>a number of X <strong>are</strong></em>, plural.</p>
+<hr>
+<h3 id="team">team<a class="hash" href="#team" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/tiːm/ &middot; <em>teem</em></dd><dt>Русский</dt><dd>команда</dd><dt>Countability</dt><dd>countable</dd><dt>Agreement</dt><dd>singular in American English — <em>the team is winning</em></dd><dt>Type</dt><dd>collective</dd><dt>Contrast</dt><dd><em>The team <strong>is</strong> winning</em> is American; <em>the team <strong>are</strong> winning</em> is British. Both are correct in their own variety. Use the singular in American writing.</dd></dl>
+<p>A group of people working or playing together.</p>
+<p><strong>1. A sports side.</strong> (спортивная команда)</p>
+<ol><li>The <em>team</em> is playing better than last season.</li><li>Both <em>teams</em> were exhausted by the fourth quarter.</li><li>She made the <em>team</em> on her first try.</li></ol>
+<p><strong>2. A group working together.</strong> (рабочая группа)</p>
+<ol start="4"><li>Our <em>team</em> is handling the migration.</li><li>Three <em>teams</em> are competing for the contract.</li><li>He built a <em>team</em> of twelve engineers.</li></ol>
+<dl class="fields"><dt>See also</dt><dd><a href="#family">family</a> &middot; <a href="04-f-to-ves.html#staff">staff</a></dd></dl>
+<hr>
+<h3 id="family">family<a class="hash" href="#family" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/ˈfæməli/ &middot; <em>FAM-uh-lee</em></dd><dt>Русский</dt><dd>семья</dd><dt>Countability</dt><dd>countable</dd><dt>Agreement</dt><dd>singular in American English — <em>my family is coming</em></dd><dt>Type</dt><dd>collective</dd><dt>Contrast</dt><dd>Americans say <em>my family <strong>is</strong> coming for the holidays</em>; the British often say <em>are</em>. Note that <em>family</em> is also a rank in biological classification, above genus.</dd></dl>
+<p>A group of related people; also a taxonomic rank.</p>
+<p><strong>1. Related people.</strong> (семья)</p>
+<ol><li>My <em>family</em> is coming for Thanksgiving.</li><li>Three <em>families</em> share the building.</li><li>The whole <em>family</em> was at the wedding.</li></ol>
+<p><strong>2. A group of related things.</strong> (семейство)</p>
+<ol start="4"><li>Oaks belong to the beech <em>family</em>.</li><li>Both language <em>families</em> are unrelated to each other.</li></ol>
+<p><strong>3. Attributive.</strong> (семейный)</p>
+<ol start="6"><li>It's a <em>family</em> business, now in its third generation.</li></ol>
+<dl class="fields"><dt>See also</dt><dd><a href="#team">team</a> &middot; <a href="#couple">couple</a></dd></dl>
+<hr>
+<h3 id="government">government<a class="hash" href="#government" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/ˈɡʌvərnmənt/ &middot; <em>GUV-urn-muhnt</em> — the first <em>n</em> is often dropped in speech</dd><dt>Русский</dt><dd>правительство</dd><dt>Countability</dt><dd>countable</dd><dt>Agreement</dt><dd>singular in American English — <em>the government is considering it</em></dd><dt>Type</dt><dd>collective</dd><dt>Contrast</dt><dd>✗ <em>The government are</em> is British, not American. Note that the first <em>n</em> is commonly unpronounced — <em>GUV-ur-muhnt</em> — but retained in careful speech.</dd></dl>
+<p>The body governing a state or organization.</p>
+<p><strong>1. The governing body.</strong> (правительство)</p>
+<ol><li>The <em>government</em> is considering new rules.</li><li>Both <em>governments</em> signed the treaty.</li><li>The federal <em>government</em> employs two million people.</li></ol>
+<p><strong>2. The activity of governing.</strong> Uncountable. (управление, власть)</p>
+<ol start="4"><li><em>Government</em> is harder than campaigning.</li><li>She studied <em>government</em> and economics.</li></ol>
+<dl class="fields"><dt>See also</dt><dd><a href="#committee">committee</a> &middot; <a href="#public">public</a></dd></dl>
+<hr>
+<h3 id="committee">committee<a class="hash" href="#committee" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/kəˈmɪti/ &middot; <em>kuh-MIT-ee</em></dd><dt>Русский</dt><dd>комитет, комиссия</dd><dt>Countability</dt><dd>countable</dd><dt>Agreement</dt><dd>singular in American English — <em>the committee has decided</em></dd><dt>Type</dt><dd>collective</dd><dt>Contrast</dt><dd>Note the spelling: two <em>m</em>'s, two <em>t</em>'s, two <em>e</em>'s. Stress falls on the middle syllable.</dd></dl>
+<p>A group appointed to decide or advise on something.</p>
+<p><strong>1. The group.</strong> (комитет)</p>
+<ol><li>The <em>committee</em> has decided to postpone the vote.</li><li>Both <em>committees</em> met the same afternoon.</li><li>She chairs the finance <em>committee</em>.</li><li>The <em>committee</em> meets on the first Monday of the month.</li></ol>
+<p><strong>2. In fixed expressions.</strong> (в устойчивых выражениях)</p>
+<ol start="5"><li>A camel is a horse designed by <em>committee</em>.</li></ol>
+<dl class="fields"><dt>See also</dt><dd><a href="#government">government</a> &middot; <a href="#jury">jury</a></dd></dl>
+<hr>
+<h3 id="jury">jury<a class="hash" href="#jury" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/ˈdʒʊri/ &middot; <em>JUUR-ee</em></dd><dt>Русский</dt><dd>присяжные, жюри</dd><dt>Countability</dt><dd>countable</dd><dt>Agreement</dt><dd>usually singular in American English — <em>the jury has reached a verdict</em></dd><dt>Type</dt><dd>collective</dd><dt>Contrast</dt><dd>Americans use the plural when the members are acting separately: <em>the jury <strong>were</strong> unable to agree among themselves</em>. When the group acts as one, singular: <em>the jury <strong>has</strong> reached a verdict</em>.</dd></dl>
+<p>A body of people sworn to give a verdict; also a panel of judges in a competition.</p>
+<p><strong>1. In a courtroom.</strong> (присяжные)</p>
+<ol><li>The <em>jury</em> has reached a verdict.</li><li>Both <em>juries</em> deadlocked.</li><li>The <em>jury</em> were divided among themselves.</li><li>She was called for <em>jury</em> duty.</li></ol>
+<p><strong>2. A panel judging a competition.</strong> (жюри)</p>
+<ol start="5"><li>The <em>jury</em> awarded first prize unanimously.</li></ol>
+<p><strong>3. In fixed expressions.</strong> (в устойчивых выражениях)</p>
+<ol start="6"><li>The <em>jury</em> is still out on whether it works.</li></ol>
+<dl class="fields"><dt>See also</dt><dd><a href="#committee">committee</a> &middot; <a href="#audience">audience</a></dd></dl>
+<hr>
+<h3 id="audience">audience<a class="hash" href="#audience" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/ˈɔːdiəns/ &middot; <em>AW-dee-uhns</em></dd><dt>Русский</dt><dd>аудитория, зрители</dd><dt>Countability</dt><dd>countable</dd><dt>Agreement</dt><dd>singular in American English — <em>the audience was silent</em></dd><dt>Type</dt><dd>collective</dd><dt>Contrast</dt><dd>Note the separate sense 'a formal meeting with an important person', which is countable and unrelated to crowds: <em>an audience with the pope</em>.</dd></dl>
+<p>The people watching or listening; also a formal interview.</p>
+<p><strong>1. Spectators or listeners.</strong> (зрители, слушатели)</p>
+<ol><li>The <em>audience</em> was completely silent.</li><li>Both <em>audiences</em> reacted the same way.</li><li>She writes for a general <em>audience</em>.</li><li>The <em>audience</em> applauded for five minutes.</li></ol>
+<p><strong>2. A formal meeting with someone important.</strong> (аудиенция)</p>
+<ol start="5"><li>He was granted an <em>audience</em> with the ambassador.</li></ol>
+<dl class="fields"><dt>See also</dt><dd><a href="#crowd">crowd</a> &middot; <a href="#public">public</a></dd></dl>
+<hr>
+<h3 id="crowd">crowd<a class="hash" href="#crowd" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/kraʊd/ &middot; <em>krowd</em></dd><dt>Русский</dt><dd>толпа</dd><dt>Countability</dt><dd>countable</dd><dt>Agreement</dt><dd>singular in American English — <em>the crowd was getting restless</em></dd><dt>Type</dt><dd>collective</dd><dt>Contrast</dt><dd>Unlike <em>team</em> or <em>committee</em>, <em>crowd</em> names an unorganized group, so the plural verb is rarer even in British English.</dd></dl>
+<p>A large group of people gathered together.</p>
+<p><strong>1. A large gathering.</strong> (толпа)</p>
+<ol><li>The <em>crowd</em> was getting restless.</li><li>Both <em>crowds</em> were peaceful.</li><li>A <em>crowd</em> had formed outside the courthouse.</li><li>She hates <em>crowds</em>.</li></ol>
+<p><strong>2. A particular social set.</strong> Informal. (компания, круг)</p>
+<ol start="5"><li>He started running with a different <em>crowd</em>.</li></ol>
+<dl class="fields"><dt>See also</dt><dd><a href="#audience">audience</a> &middot; <a href="#public">public</a></dd></dl>
+<hr>
+<h3 id="public">public<a class="hash" href="#public" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/ˈpʌblɪk/ &middot; <em>PUB-lik</em></dd><dt>Русский</dt><dd>общественность, публика</dd><dt>Countability</dt><dd>uncountable, used with <em>the</em></dd><dt>Agreement</dt><dd>either — <em>the public is entitled to know</em> / <em>the public are being asked to stay indoors</em></dd><dt>Type</dt><dd>collective</dd><dt>Contrast</dt><dd>Almost always <em>the public</em>, never ✗ <em>a public</em> in this sense. American English tends to the singular verb, but the plural is common when individual people are meant.</dd></dl>
+<p>Ordinary people considered as a whole.</p>
+<p><strong>1. People in general.</strong> (общественность)</p>
+<ol><li>The <em>public</em> is entitled to know.</li><li>The <em>public</em> are being asked to avoid the area.</li><li>This part of the building is closed to the <em>public</em>.</li><li>She has never spoken about it in <em>public</em>.</li></ol>
+<p><strong>2. A particular set of people.</strong> With a modifier. (публика, аудитория)</p>
+<ol start="5"><li>The museum has built a loyal <em>public</em>.</li></ol>
+<dl class="fields"><dt>See also</dt><dd><a href="#crowd">crowd</a> &middot; <a href="#police">police</a></dd></dl>
+<hr>
+<h3 id="police">police<a class="hash" href="#police" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/pəˈliːs/ &middot; <em>puh-LEES</em></dd><dt>Русский</dt><dd>полиция</dd><dt>Countability</dt><dd>plural only — no singular, no plural <em>-s</em></dd><dt>Agreement</dt><dd><strong>always plural</strong> — <em>the police are investigating</em></dd><dt>Counted with</dt><dd><em>a police officer</em>, <em>two police officers</em></dd><dt>Type</dt><dd>collective</dd><dt>Contrast</dt><dd>✗ <em>The police is investigating</em> is wrong in every variety of English, and ✗ <em>a police</em> for one officer is wrong too — say <em>a police officer</em>, <em>a cop</em>, or <em>an officer</em>. This is the one collective noun with no singular option at all.</dd></dl>
+<p>The civil force responsible for law enforcement.</p>
+<p><strong>1. The force, or its officers.</strong> Always plural. (полиция)</p>
+<ol><li>The <em>police</em> are investigating the incident.</li><li><em>Police</em> have released a description.</li><li>Call the <em>police</em>.</li><li>Two <em>police</em> officers were at the door.</li></ol>
+<p><strong>2. Attributive.</strong> (полицейский)</p>
+<ol start="5"><li>A <em>police</em> car blocked the intersection.</li><li>The <em>police</em> report has not been released.</li></ol>
+<dl class="fields"><dt>See also</dt><dd><a href="#public">public</a> &middot; <a href="04-f-to-ves.html#staff">staff</a></dd></dl>
+<hr>
+<h3 id="couple">couple<a class="hash" href="#couple" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/ˈkʌpəl/ &middot; <em>KUP-uhl</em></dd><dt>Русский</dt><dd>пара</dd><dt>Countability</dt><dd>countable</dd><dt>Agreement</dt><dd>either — <em>the couple is expecting</em> / <em>the couple were arguing</em></dd><dt>Type</dt><dd>collective</dd><dt>Variants</dt><dd><em>a couple of</em> is standard; <em>a couple</em> without <em>of</em> is informal American — <em>a couple things</em></dd><dt>Contrast</dt><dd>Two people romantically together take either verb; American English leans singular for the unit, plural when they act separately. Note that <em>a couple of</em> meaning 'a few' takes a plural verb: <em>a couple of people <strong>are</strong> waiting</em>.</dd></dl>
+<p>Two people together; also an approximate small number.</p>
+<p><strong>1. Two people in a relationship.</strong> (пара)</p>
+<ol><li>The <em>couple</em> is expecting their first child.</li><li>The <em>couple</em> were arguing in the parking lot.</li><li>Three <em>couples</em> came to dinner.</li></ol>
+<p><strong>2. An approximate small number.</strong> With <em>of</em>, plural verb. (пара, несколько)</p>
+<ol start="4"><li>A <em>couple</em> of people are still waiting.</li><li>It'll take a <em>couple</em> of days.</li><li>Give me a <em>couple</em> more minutes. <em>(informal, without</em> of*)*</li></ol>
+<dl class="fields"><dt>See also</dt><dd><a href="#family">family</a> &middot; <a href="#number">number</a></dd></dl>
+<hr>
+<h3 id="number">number<a class="hash" href="#number" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/ˈnʌmbər/ &middot; <em>NUM-bur</em></dd><dt>Русский</dt><dd>число, количество</dd><dt>Countability</dt><dd>countable</dd><dt>Agreement</dt><dd><strong>depends on the article</strong> — <em>the number of X is</em> / <em>a number of X are</em></dd><dt>Type</dt><dd>collective</dd><dt>Contrast</dt><dd>This is the most useful agreement rule in the language, and the two halves are exact opposites. <em><strong>The</strong> number of applicants <strong>is</strong> rising</em> — one number, singular. <em><strong>A</strong> number of applicants <strong>are</strong> waiting</em> — <em>a number of</em> just means 'several', plural. Getting this backward is one of the commonest errors in edited prose.</dd></dl>
+<p>A quantity or figure; a quantity of things.</p>
+<p><strong>1. the number of — a singular quantity.</strong> (число, количество)</p>
+<ol><li>The <em>number</em> of applicants is rising every year.</li><li>The <em>number</em> of errors was small.</li></ol>
+<p><strong>2. a number of — meaning 'several'.</strong> Plural. (ряд, несколько)</p>
+<ol start="3"><li>A <em>number</em> of people are still waiting outside.</li><li>A <em>number</em> of problems have come up.</li></ol>
+<p><strong>3. A figure or numeral.</strong> (число, номер)</p>
+<ol start="5"><li>Pick a <em>number</em> between one and ten.</li><li>What's your phone <em>number</em>?</li></ol>
+<dl class="fields"><dt>See also</dt><dd><a href="#couple">couple</a> &middot; <a href="#majority">majority</a></dd></dl>
+<hr>
+<h3 id="majority">majority<a class="hash" href="#majority" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/məˈdʒɔːrəti/ &middot; <em>muh-JOR-uh-tee</em></dd><dt>Русский</dt><dd>большинство</dd><dt>Countability</dt><dd>countable</dd><dt>Agreement</dt><dd>depends on what follows — <em>the majority is</em> (as a unit) / <em>the majority of voters are</em> (individuals)</dd><dt>Type</dt><dd>collective</dd><dt>Contrast</dt><dd>The verb follows the noun after <em>of</em>. <em>The majority of the members <strong>are</strong> opposed</em> — plural, because <em>members</em> is plural. <em>A two-thirds majority <strong>is</strong> required</em> — singular, because it is one threshold. Same rule for <em>minority</em>, <em>percentage</em>, and <em>half</em>.</dd></dl>
+<p>More than half of a group.</p>
+<p><strong>1. More than half of a group of people.</strong> Plural verb when <em>of</em> + plural noun follows. (большинство)</p>
+<ol><li>The <em>majority</em> of voters are undecided.</li><li>A <em>majority</em> of the committee were against it.</li></ol>
+<p><strong>2. A margin of victory, or a required threshold.</strong> Singular. (большинство голосов)</p>
+<ol start="3"><li>A two-thirds <em>majority</em> is required to amend the rules.</li><li>Her <em>majority</em> was just four hundred votes.</li><li>The party lost its <em>majority</em> in the last election.</li></ol>
+<dl class="fields"><dt>See also</dt><dd><a href="#number">number</a></dd></dl>
+<hr>
+<h3 id="herd">herd<a class="hash" href="#herd" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/hɜːrd/ &middot; <em>hurd</em></dd><dt>Русский</dt><dd>стадо</dd><dt>Countability</dt><dd>countable</dd><dt>Agreement</dt><dd>singular in American English — <em>the herd is moving north</em></dd><dt>Counted with</dt><dd><em>a herd of cattle</em>, <em>a herd of elephants</em></dd><dt>Type</dt><dd>collective</dd><dt>Contrast</dt><dd>The collective noun must match the animal: <em>a herd of</em> cattle, horses, elephants, deer; <em>a flock of</em> birds or sheep; <em>a school of</em> fish; <em>a pack of</em> wolves or dogs; <em>a swarm of</em> bees or insects; <em>a pride of</em> lions.</dd></dl>
+<p>A large group of hoofed animals.</p>
+<p><strong>1. A group of animals.</strong> (стадо)</p>
+<ol><li>The <em>herd</em> is moving toward the river.</li><li>Two <em>herds</em> graze on the same land.</li><li>A <em>herd</em> of elephants crossed the road.</li><li>He keeps a <em>herd</em> of forty dairy cows.</li></ol>
+<p><strong>2. A crowd of people.</strong> Disapproving. (стадо, толпа)</p>
+<ol start="5"><li>She has never followed the <em>herd</em>.</li></ol>
+<dl class="fields"><dt>See also</dt><dd><a href="#flock">flock</a> &middot; <a href="#school">school</a></dd></dl>
+<hr>
+<h3 id="flock">flock<a class="hash" href="#flock" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/flɑːk/ &middot; <em>flahk</em></dd><dt>Русский</dt><dd>стая, отара</dd><dt>Countability</dt><dd>countable</dd><dt>Agreement</dt><dd>singular in American English — <em>the flock is heading south</em></dd><dt>Counted with</dt><dd><em>a flock of birds</em>, <em>a flock of sheep</em></dd><dt>Type</dt><dd>collective</dd><dt>Contrast</dt><dd>Used of birds and of sheep, and — by extension from the shepherd metaphor — of a congregation.</dd></dl>
+<p>A group of birds or sheep.</p>
+<p><strong>1. A group of birds or sheep.</strong> (стая, отара)</p>
+<ol><li>A <em>flock</em> of geese passed overhead.</li><li>The <em>flock</em> is heading south early this year.</li><li>Two <em>flocks</em> were grazing on the hillside.</li><li>He tends a <em>flock</em> of two hundred sheep.</li></ol>
+<p><strong>2. A congregation.</strong> Figurative. (паства)</p>
+<ol start="5"><li>The pastor knows every member of his <em>flock</em>.</li></ol>
+<dl class="fields"><dt>See also</dt><dd><a href="#herd">herd</a> &middot; <a href="#school">school</a></dd></dl>
+<hr>
+<h3 id="school">school<a class="hash" href="#school" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/skuːl/ &middot; <em>skool</em></dd><dt>Русский</dt><dd>косяк (рыб); школа</dd><dt>Countability</dt><dd>countable</dd><dt>Agreement</dt><dd>singular in American English — <em>the school is moving away from the boat</em></dd><dt>Counted with</dt><dd><em>a school of fish</em></dd><dt>Type</dt><dd>collective</dd><dt>Contrast</dt><dd>Unrelated to the educational sense despite the identical spelling — this <em>school</em> comes from a Dutch word meaning 'crowd'. The related term <em>shoal</em> means the same thing.</dd></dl>
+<p>A large group of fish swimming together.</p>
+<p><strong>1. A group of fish.</strong> (косяк)</p>
+<ol><li>A <em>school</em> of tuna passed beneath the boat.</li><li>The <em>school</em> is moving into deeper water.</li><li>Two <em>schools</em> merged into one enormous mass.</li><li>Divers filmed a <em>school</em> of hammerheads.</li><li>Small fish form <em>schools</em> for protection.</li></ol>
+<dl class="fields"><dt>See also</dt><dd><a href="#herd">herd</a> &middot; <a href="#flock">flock</a></dd></dl>
+<hr>
+<h3 id="swarm">swarm<a class="hash" href="#swarm" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/swɔːrm/ &middot; <em>sworm</em></dd><dt>Русский</dt><dd>рой</dd><dt>Countability</dt><dd>countable</dd><dt>Agreement</dt><dd>singular in American English — <em>the swarm is moving toward the orchard</em></dd><dt>Counted with</dt><dd><em>a swarm of bees</em>, <em>a swarm of insects</em></dd><dt>Type</dt><dd>collective</dd><dt>Contrast</dt><dd>Used of insects, and figuratively of any fast-moving mass of people.</dd></dl>
+<p>A large group of insects moving together.</p>
+<p><strong>1. A mass of insects.</strong> (рой)</p>
+<ol><li>A <em>swarm</em> of bees settled in the chimney.</li><li>The <em>swarm</em> is heading for the orchard.</li><li>Two <em>swarms</em> left the hive that week.</li><li><em>Swarms</em> of locusts destroyed the crop.</li></ol>
+<p><strong>2. A crowd of people.</strong> Figurative. (толпа)</p>
+<ol start="5"><li>A <em>swarm</em> of reporters met him at the airport.</li></ol>
+<dl class="fields"><dt>See also</dt><dd><a href="#herd">herd</a> &middot; <a href="#flock">flock</a></dd></dl></div></main>
+<button class="themebtn" id="themeBtn">Dark</button>
+<script>
+const tb=document.getElementById('themeBtn');
+function setTheme(x){document.documentElement.dataset.theme=x;tb.textContent=x==='dark'?'Light':'Dark';
+ try{localStorage.setItem('site-theme',x)}catch(e){}}
+tb.onclick=()=>setTheme(document.documentElement.dataset.theme==='dark'?'light':'dark');
+try{const s=localStorage.getItem('site-theme');
+ setTheme(s||(matchMedia('(prefers-color-scheme: dark)').matches?'dark':'light'))}catch(e){setTheme('light')}
+</script></body></html>

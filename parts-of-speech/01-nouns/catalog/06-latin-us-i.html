@@ -1,0 +1,222 @@
+<!DOCTYPE html>
+<html lang="en"><head>
+<meta charset="utf-8"><meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Latin -us → -i</title>
+<style>
+:root{--bg:#faf9f7;--surface:#fff;--surface2:#f2f0ec;--border:#e2ded6;--text:#1a1815;
+--dim:#5f594f;--faint:#8a8377;--accent:#8a5a3b;--measure:72ch}
+@media(prefers-color-scheme:dark){:root{--bg:#14140f;--surface:#1d1d17;--surface2:#25251d;
+--border:#33332a;--text:#eeeae1;--dim:#a8a293;--faint:#7d776b;--accent:#d09b72}}
+:root[data-theme=dark]{--bg:#14140f;--surface:#1d1d17;--surface2:#25251d;--border:#33332a;
+--text:#eeeae1;--dim:#a8a293;--faint:#7d776b;--accent:#d09b72}
+:root[data-theme=light]{--bg:#faf9f7;--surface:#fff;--surface2:#f2f0ec;--border:#e2ded6;
+--text:#1a1815;--dim:#5f594f;--faint:#8a8377;--accent:#8a5a3b}
+*{box-sizing:border-box}
+body{margin:0;background:var(--bg);color:var(--text);
+font:17px/1.72 ui-serif,Georgia,"Iowan Old Style",Palatino,serif;-webkit-font-smoothing:antialiased}
+.wrap{max-width:min(var(--measure),100%);margin:0 auto;padding:0 22px}
+nav.crumb{border-bottom:1px solid var(--border);padding:13px 0;font-size:13.5px;
+font-family:-apple-system,BlinkMacSystemFont,"Segoe UI",sans-serif;position:sticky;top:0;background:var(--bg);z-index:20}
+nav.crumb .wrap{max-width:none;display:flex;gap:9px;align-items:center;flex-wrap:wrap}
+nav.crumb a{color:var(--dim);text-decoration:none}
+nav.crumb a:hover{color:var(--accent)}
+nav.crumb .sep{color:var(--faint)}
+main{padding:8px 0 80px}
+h1{font-size:clamp(28px,5vw,38px);line-height:1.15;letter-spacing:-.015em;margin:34px 0 18px}
+h2{font-size:25px;margin:46px 0 14px;letter-spacing:-.01em;padding-bottom:7px;border-bottom:1px solid var(--border)}
+h3{font-size:19px;margin:34px 0 10px;color:var(--accent)}
+h4{font-size:16px;margin:24px 0 8px;font-family:-apple-system,sans-serif}
+p{margin:0 0 16px}
+a{color:var(--accent)}
+.hash{opacity:0;margin-left:8px;font-weight:400;font-size:.65em;text-decoration:none;color:var(--faint)}
+h2:hover .hash,h3:hover .hash{opacity:1}
+blockquote{margin:0 0 20px;padding:14px 18px;background:var(--surface2);
+border-left:3px solid var(--accent);border-radius:0 8px 8px 0}
+blockquote p:last-child{margin-bottom:0}
+ol,ul{margin:0 0 18px;padding-left:26px}
+li{margin-bottom:8px}
+li>ul,li>ol{margin:8px 0 0}
+code{font-family:ui-monospace,SFMono-Regular,Menlo,Consolas,monospace;font-size:.87em;
+background:var(--surface2);padding:1px 5px;border-radius:4px}
+pre{background:var(--surface2);border:1px solid var(--border);border-radius:9px;
+padding:15px 17px;overflow-x:auto;margin:0 0 20px}
+pre code{background:none;padding:0;font-size:13px;line-height:1.6}
+.tw{overflow-x:auto;margin:0 0 22px;border:1px solid var(--border);border-radius:9px}
+table{border-collapse:collapse;width:100%;font-size:15px;
+font-family:-apple-system,BlinkMacSystemFont,"Segoe UI",sans-serif}
+th,td{padding:10px 14px;border-bottom:1px solid var(--border);vertical-align:top}
+th{background:var(--surface2);font-size:12px;text-transform:uppercase;
+letter-spacing:.06em;color:var(--dim);font-weight:700;white-space:nowrap}
+tbody tr:last-child td{border-bottom:none}
+hr{border:none;border-top:1px solid var(--border);margin:38px 0}
+details{background:var(--surface2);border:1px solid var(--border);border-radius:9px;
+padding:13px 17px;margin:0 0 20px}
+summary{cursor:pointer;font-weight:600;font-family:-apple-system,sans-serif;font-size:15px}
+details[open] summary{margin-bottom:12px}
+del{color:var(--faint)}
+dl.fields{margin:0 0 20px;padding:0}
+dl.fields dt{font-family:-apple-system,BlinkMacSystemFont,"Segoe UI",sans-serif;
+font-size:11px;letter-spacing:.11em;text-transform:uppercase;color:var(--faint);
+font-weight:700;margin:14px 0 4px}
+dl.fields dt:first-child{margin-top:0}
+dl.fields dd{margin:0;font-size:16px;color:var(--dim);line-height:1.62}
+dl.fields dd em{color:var(--text)}
+dl.fields dt.ru{color:var(--accent)}
+dl.fields dd strong{color:var(--text)}
+.toc{background:var(--surface2);border:1px solid var(--border);border-radius:10px;
+padding:16px 20px;margin:26px 0 34px;font-family:-apple-system,sans-serif;font-size:14px}
+.toc b{display:block;font-size:11px;letter-spacing:.12em;text-transform:uppercase;
+color:var(--faint);margin-bottom:9px}
+.toc a{display:block;padding:3px 0;color:var(--dim);text-decoration:none}
+.toc a:hover{color:var(--accent)}
+.themebtn{position:fixed;right:18px;bottom:18px;z-index:60;font-family:-apple-system,sans-serif;
+font-size:12.5px;font-weight:600;cursor:pointer;background:var(--surface);border:1px solid var(--border);
+border-radius:99px;padding:9px 16px;color:var(--text)}
+@media(max-width:600px){body{font-size:16px}.wrap{padding:0 17px}}
+</style></head><body>
+<nav class="crumb"><div class="wrap"><a href="../../../index.html">Learn English</a><span class="sep">/</span><a href="../../README.html">Parts of speech</a><span class="sep">/</span><a href="../README.html">01-nouns</a><span class="sep">/</span><span>catalog</span></div></nav>
+<main><div class="wrap"><h1 id="latin--us---i">Latin <em>-us</em> → <em>-i</em><a class="hash" href="#latin--us---i" aria-label="link">#</a></h1>
+<blockquote><p><em>Cactus → cacti</em>, <em>fungus → fungi</em>. A real pattern with a short membership list — and <em>virus</em>, <em>campus</em>, and <em>bonus</em> are not in it.</p></blockquote>
+<p><a href="../README.html">← The grammar of nouns</a> &middot; <a href="README.html">All groups</a></p>
+<p>Latin second-declension nouns ending in <em>-us</em> formed their plural in <em>-i</em>, and English kept that plural for words it borrowed as technical vocabulary. The pattern is real but <strong>narrow</strong>: it applies only to a specific list of learned borrowings, and even inside that list English usually also permits a regular <em>-es</em> plural, sometimes preferring it.</p>
+<p>Three cautions. First, most <em>-us</em> words in English are <strong>not</strong> Latin second declension at all — <em>virus</em>, <em>campus</em>, <em>bonus</em>, <em>status</em>, <em>census</em>, <em>chorus</em>, <em>circus</em>, <em>bus</em> — and take a plain <em>-es</em>. Second, a few come from other declensions and pluralize differently: <em>corpus → corpora</em>, <em>genus → genera</em>, <em>opus → opera</em>. Third, <em>octopus</em> is Greek, not Latin, so ✗ <em>octopi</em> has no historical basis at all, however often it is said.</p>
+<p>Pronunciation is worth its own note. The <em>-i</em> plural is /aɪ/ in American English — <em>cacti</em> is <em>KAK-ty</em>, <em>fungi</em> is <em>FUN-jy</em> or <em>FUN-gy</em>, <em>alumni</em> is <em>uh-LUM-ny</em>.</p>
+<hr>
+<h3 id="cactus">cactus<a class="hash" href="#cactus" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/ˈkæktəs/ &middot; <em>KAK-tuhs</em></dd><dt>Русский</dt><dd>кактус</dd><dt>Plural</dt><dd><em>cacti</em> /ˈkæktaɪ/ &middot; <em>KAK-ty</em> — also <em>cactuses</em></dd><dt>Countability</dt><dd>countable</dd><dt>Agreement</dt><dd>plural verb — <em>the cacti are blooming</em></dd><dt>Pattern</dt><dd>Latin <em>-us</em> → <em>-i</em></dd><dt>Group</dt><dd>6</dd><dt>Type</dt><dd>concrete</dd><dt>Variants</dt><dd><em>cacti</em> (commoner in writing) &middot; <em>cactuses</em> (commoner in speech)</dd><dt>Contrast</dt><dd>Both plurals are fully correct. <em>Cacti</em> sounds more botanical; <em>cactuses</em> sounds more casual, and neither will be marked wrong.</dd></dl>
+<p>The spiny desert plant.</p>
+<p><strong>1. The plant.</strong> (кактус)</p>
+<ol><li>A single <em>cactus</em> stood beside the road.</li><li>The greenhouse holds two hundred <em>cacti</em>.</li><li>She waters her <em>cactuses</em> about once a month.</li><li>Some <em>cacti</em> live for centuries.</li><li>He knocked the <em>cactus</em> off the windowsill.</li></ol>
+<dl class="fields"><dt>See also</dt><dd><a href="#fungus">fungus</a> &middot; <a href="#nucleus">nucleus</a></dd></dl>
+<hr>
+<h3 id="fungus">fungus<a class="hash" href="#fungus" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/ˈfʌŋɡəs/ &middot; <em>FUNG-guhs</em></dd><dt>Русский</dt><dd>гриб, грибок</dd><dt>Plural</dt><dd><em>fungi</em> /ˈfʌndʒaɪ/ &middot; <em>FUN-jy</em> — also /ˈfʌŋɡaɪ/, and <em>funguses</em></dd><dt>Countability</dt><dd>countable, and uncountable in the mass sense</dd><dt>Agreement</dt><dd>plural verb — <em>these fungi are edible</em></dd><dt>Pattern</dt><dd>Latin <em>-us</em> → <em>-i</em></dd><dt>Group</dt><dd>6</dd><dt>Type</dt><dd>concrete</dd><dt>Variants</dt><dd><em>fungi</em> is standard in science and general use; <em>funguses</em> is rare</dd><dt>Contrast</dt><dd>Two pronunciations of the plural coexist in American English — <em>FUN-jy</em> and <em>FUN-gy</em> — and both are accepted. The adjective is <em>fungal</em>.</dd></dl>
+<p>An organism of the kingdom that includes mushrooms, molds, and yeasts.</p>
+<p><strong>1. The organism.</strong> (гриб, грибок)</p>
+<ol><li>This <em>fungus</em> grows only on dead wood.</li><li>Several <em>fungi</em> were identified in the sample.</li><li><em>Fungi</em> are neither plants nor animals.</li><li>A <em>fungus</em> had spread across the ceiling.</li></ol>
+<p><strong>2. An infection.</strong> Medical. (грибковая инфекция)</p>
+<ol start="5"><li>He's treating a <em>fungus</em> on his foot.</li></ol>
+<dl class="fields"><dt>See also</dt><dd><a href="#cactus">cactus</a> &middot; <a href="08-latin-um-a.html#bacterium">bacterium</a></dd></dl>
+<hr>
+<h3 id="nucleus">nucleus<a class="hash" href="#nucleus" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/ˈnuːkliəs/ &middot; <em>NOO-klee-uhs</em></dd><dt>Русский</dt><dd>ядро</dd><dt>Plural</dt><dd><em>nuclei</em> /ˈnuːkliaɪ/ &middot; <em>NOO-klee-y</em> — also <em>nucleuses</em>, rarely</dd><dt>Countability</dt><dd>countable</dd><dt>Agreement</dt><dd>plural verb — <em>the nuclei divide</em></dd><dt>Pattern</dt><dd>Latin <em>-us</em> → <em>-i</em></dd><dt>Group</dt><dd>6</dd><dt>Type</dt><dd>concrete and abstract</dd><dt>Variants</dt><dd><em>nuclei</em> is standard in every technical field</dd><dt>Contrast</dt><dd>Americans say /ˈnuːkliəs/, without the /j/ of British <em>NYOO-</em>. The adjective is <em>nuclear</em> — famously mispronounced ✗ <em>NOO-kyuh-lur</em> instead of <em>NOO-klee-ur</em>.</dd></dl>
+<p>The central part of an atom or a cell; figuratively, the core of a group.</p>
+<p><strong>1. In physics and biology.</strong> (ядро)</p>
+<ol><li>The <em>nucleus</em> contains protons and neutrons.</li><li>All the cell <em>nuclei</em> were stained blue.</li><li>Atomic <em>nuclei</em> fuse under enormous pressure.</li></ol>
+<p><strong>2. The central core of a group or plan.</strong> Figurative. (ядро, основа)</p>
+<ol start="4"><li>Those four players formed the <em>nucleus</em> of the team.</li><li>A small <em>nucleus</em> of volunteers ran the whole event.</li></ol>
+<dl class="fields"><dt>See also</dt><dd><a href="#radius">radius</a> &middot; <a href="#cactus">cactus</a></dd></dl>
+<hr>
+<h3 id="radius">radius<a class="hash" href="#radius" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/ˈreɪdiəs/ &middot; <em>RAY-dee-uhs</em></dd><dt>Русский</dt><dd>радиус</dd><dt>Plural</dt><dd><em>radii</em> /ˈreɪdiaɪ/ &middot; <em>RAY-dee-y</em> — also <em>radiuses</em></dd><dt>Countability</dt><dd>countable</dd><dt>Agreement</dt><dd>plural verb — <em>the radii are equal</em></dd><dt>Pattern</dt><dd>Latin <em>-us</em> → <em>-i</em></dd><dt>Group</dt><dd>6</dd><dt>Type</dt><dd>concrete and abstract</dd><dt>Variants</dt><dd><em>radii</em> in mathematics; <em>radiuses</em> occasionally elsewhere</dd><dt>Contrast</dt><dd>Note the double <em>i</em> in <em>radii</em> — the stem ends in <em>i</em> and the plural adds another. Same in <em>genii</em>. The word is also a bone in the forearm, with the same plural.</dd></dl>
+<p>The distance from the center of a circle to its edge; also a bone in the forearm.</p>
+<p><strong>1. In geometry.</strong> (радиус)</p>
+<ol><li>Measure the <em>radius</em> of the circle.</li><li>The two <em>radii</em> meet at the center.</li><li>Draw <em>radii</em> every thirty degrees.</li></ol>
+<p><strong>2. A surrounding area.</strong> Very common in everyday use. (радиус, округа)</p>
+<ol start="4"><li>There's no gas station within a ten-mile <em>radius</em>.</li><li>Police searched a two-block <em>radius</em>.</li></ol>
+<p><strong>3. The forearm bone.</strong> (лучевая кость)</p>
+<ol start="6"><li>She fractured her <em>radius</em> in the fall.</li></ol>
+<dl class="fields"><dt>See also</dt><dd><a href="#nucleus">nucleus</a></dd></dl>
+<hr>
+<h3 id="alumnus">alumnus<a class="hash" href="#alumnus" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/əˈlʌmnəs/ &middot; <em>uh-LUM-nuhs</em></dd><dt>Русский</dt><dd>выпускник</dd><dt>Plural</dt><dd><em>alumni</em> /əˈlʌmnaɪ/ &middot; <em>uh-LUM-ny</em></dd><dt>Countability</dt><dd>countable</dd><dt>Agreement</dt><dd>plural verb — <em>the alumni were invited</em></dd><dt>Pattern</dt><dd>Latin <em>-us</em> → <em>-i</em></dd><dt>Group</dt><dd>6</dd><dt>Type</dt><dd>concrete</dd><dt>Variants</dt><dd><em>alumnus</em> (one man) &middot; <em>alumna</em> (one woman) &middot; <em>alumni</em> (men, or a mixed group) &middot; <em>alumnae</em> (women only) &middot; <em>alum</em> / <em>alums</em> (informal, sex-neutral)</dd><dt>Contrast</dt><dd>This word has a full Latin gender system that English kept, and it trips everybody. Note especially that ✗ <em>an alumni</em> is wrong for one person — say <em>an alumnus</em>, <em>an alumna</em>, or informally <em>an alum</em>. Mixed groups take <em>alumni</em>.</dd></dl>
+<p>A former student of a school or college.</p>
+<p><strong>1. A former student.</strong> (выпускник)</p>
+<ol><li>He is an <em>alumnus</em> of the same program.</li><li>The <em>alumni</em> meet every October.</li><li>She is an <em>alumna</em> of the class of 1998.</li><li>Both <em>alumnae</em> endowed scholarships.</li></ol>
+<p><strong>2. Informally — alum.</strong> Sex-neutral and increasingly standard in American usage. (выпускник, выпускница)</p>
+<ol start="5"><li>Two <em>alums</em> now run the company.</li></ol>
+<p><strong>3. Extended to any former member.</strong> Of a company, team, or show. (бывший участник)</p>
+<ol start="6"><li>The show's <em>alumni</em> include three future stars.</li></ol>
+<dl class="fields"><dt>See also</dt><dd><a href="#stimulus">stimulus</a></dd></dl>
+<hr>
+<h3 id="stimulus">stimulus<a class="hash" href="#stimulus" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/ˈstɪmjələs/ &middot; <em>STIM-yuh-luhs</em></dd><dt>Русский</dt><dd>стимул, раздражитель</dd><dt>Plural</dt><dd><em>stimuli</em> /ˈstɪmjəlaɪ/ &middot; <em>STIM-yuh-ly</em></dd><dt>Countability</dt><dd>countable, and uncountable in the economic sense</dd><dt>Agreement</dt><dd>plural verb — <em>the stimuli were randomized</em></dd><dt>Pattern</dt><dd>Latin <em>-us</em> → <em>-i</em></dd><dt>Group</dt><dd>6</dd><dt>Type</dt><dd>abstract</dd><dt>Variants</dt><dd>✗ <em>stimuluses</em> is not used</dd><dt>Contrast</dt><dd>In economics the word is usually uncountable and singular — <em>the stimulus package</em>, <em>federal stimulus</em> — while in psychology it is countable and the plural <em>stimuli</em> is everywhere.</dd></dl>
+<p>Something that provokes a reaction.</p>
+<p><strong>1. In psychology and biology.</strong> (раздражитель)</p>
+<ol><li>The subject responds to a visual <em>stimulus</em>.</li><li>All <em>stimuli</em> were presented in random order.</li><li>Painful <em>stimuli</em> produce the fastest reflex.</li></ol>
+<p><strong>2. Economic support intended to spur growth.</strong> Usually uncountable. (стимул, стимулирующие меры)</p>
+<ol start="4"><li>Congress passed a second round of <em>stimulus</em>.</li><li>The checks were meant as <em>stimulus</em> for local business.</li></ol>
+<p><strong>3. Anything that encourages activity.</strong> General use. (толчок, стимул)</p>
+<ol start="6"><li>The prize was a real <em>stimulus</em> to finish the work.</li></ol>
+<dl class="fields"><dt>See also</dt><dd><a href="#alumnus">alumnus</a> &middot; <a href="#syllabus">syllabus</a></dd></dl>
+<hr>
+<h3 id="syllabus">syllabus<a class="hash" href="#syllabus" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/ˈsɪləbəs/ &middot; <em>SIL-uh-buhs</em></dd><dt>Русский</dt><dd>программа курса, силлабус</dd><dt>Plural</dt><dd><em>syllabi</em> /ˈsɪləbaɪ/ &middot; <em>syllabuses</em> — both correct</dd><dt>Countability</dt><dd>countable</dd><dt>Agreement</dt><dd>plural verb — <em>the syllabi are posted online</em></dd><dt>Pattern</dt><dd>Latin <em>-us</em> → <em>-i</em></dd><dt>Group</dt><dd>6</dd><dt>Type</dt><dd>concrete</dd><dt>Variants</dt><dd><em>syllabi</em> and <em>syllabuses</em> are both fully standard in American academic use</dd><dt>Contrast</dt><dd>The Latin form is actually the result of a copying error in a Renaissance text, so the <em>-i</em> plural has no ancient authority — which has not stopped it from becoming standard.</dd></dl>
+<p>The outline of topics and requirements for a course.</p>
+<p><strong>1. A course outline.</strong> (программа курса)</p>
+<ol><li>The <em>syllabus</em> lists every assignment and due date.</li><li>All <em>syllabi</em> must be submitted before term starts.</li><li>She reads the <em>syllabus</em> on the first day.</li><li>Both <em>syllabuses</em> cover the same material.</li><li>It isn't on the <em>syllabus</em>, so it isn't on the exam.</li></ol>
+<dl class="fields"><dt>See also</dt><dd><a href="#stimulus">stimulus</a> &middot; <a href="#focus">focus</a></dd></dl>
+<hr>
+<h3 id="focus">focus<a class="hash" href="#focus" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/ˈfoʊkəs/ &middot; <em>FOH-kuhs</em></dd><dt>Русский</dt><dd>фокус; средоточие</dd><dt>Plural</dt><dd><em>foci</em> /ˈfoʊsaɪ/ &middot; <em>FOH-sy</em> — also <em>focuses</em></dd><dt>Countability</dt><dd>countable, and uncountable in the 'attention' sense</dd><dt>Agreement</dt><dd>plural verb — <em>the two foci of an ellipse are fixed</em></dd><dt>Pattern</dt><dd>Latin <em>-us</em> → <em>-i</em></dd><dt>Group</dt><dd>6</dd><dt>Type</dt><dd>concrete and abstract</dd><dt>Variants</dt><dd><em>foci</em> in mathematics and medicine; <em>focuses</em> everywhere else</dd><dt>Contrast</dt><dd>Usage has split cleanly by field. Geometry and pathology say <em>foci</em>; ordinary writing says <em>focuses</em>. Note the <em>c</em> is pronounced /s/ in <em>foci</em>, not /k/.</dd></dl>
+<p>The center of interest or activity; the point at which rays converge.</p>
+<p><strong>1. Attention or emphasis.</strong> Usually uncountable. (внимание, средоточие)</p>
+<ol><li>Her <em>focus</em> was entirely on the deadline.</li><li>The report shifts <em>focus</em> halfway through.</li><li>Safety became the main <em>focus</em> of the meeting.</li></ol>
+<p><strong>2. In optics and photography.</strong> (фокус)</p>
+<ol start="4"><li>The picture is out of <em>focus</em>.</li><li>Bring the far edge into <em>focus</em>.</li></ol>
+<p><strong>3. In mathematics and medicine — foci.</strong> (фокусы)</p>
+<ol start="6"><li>An ellipse has two <em>foci</em>.</li><li>Several <em>foci</em> of infection were identified.</li></ol>
+<dl class="fields"><dt>See also</dt><dd><a href="#syllabus">syllabus</a> &middot; <a href="#radius">radius</a></dd></dl>
+<hr>
+<h3 id="octopus">octopus<a class="hash" href="#octopus" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/ˈɑːktəpəs/ &middot; <em>AHK-tuh-puhs</em></dd><dt>Русский</dt><dd>осьминог</dd><dt>Plural</dt><dd><em>octopuses</em> &middot; <em>octopodes</em> /ɑːkˈtɑːpədiːz/ in strict Greek</dd><dt>Countability</dt><dd>countable, and uncountable as food</dd><dt>Agreement</dt><dd>plural verb — <em>the octopuses were moved to a larger tank</em></dd><dt>Pattern</dt><dd>Greek, not Latin — regular <em>-es</em></dd><dt>Group</dt><dd>6 (trap)</dd><dt>Type</dt><dd>concrete</dd><dt>Variants</dt><dd><em>octopuses</em> is standard; <em>octopi</em> is common but has no basis; <em>octopodes</em> is technically correct and sounds absurd</dd><dt>Contrast</dt><dd>✗ <em>Octopi</em> is the most confidently mispronounced plural in English. The word is <strong>Greek</strong>, so the Latin <em>-us → -i</em> rule never applied to it. If you want the historical plural it is <em>octopodes</em>; if you want to be understood, say <em>octopuses</em>.</dd></dl>
+<p>The eight-armed marine mollusk.</p>
+<p><strong>1. The animal.</strong> (осьминог)</p>
+<ol><li>An <em>octopus</em> escaped through a two-inch gap.</li><li>The aquarium keeps three <em>octopuses</em>.</li><li><em>Octopuses</em> can solve simple puzzles.</li><li>A giant Pacific <em>octopus</em> can weigh a hundred pounds.</li></ol>
+<p><strong>2. As food.</strong> Uncountable. (осьминог как еда)</p>
+<ol start="5"><li>Grilled <em>octopus</em> was the best thing on the menu.</li></ol>
+<dl class="fields"><dt>See also</dt><dd><a href="#virus">virus</a> &middot; <a href="03-unchanged.html#squid">squid</a></dd></dl>
+<hr>
+<h3 id="virus">virus<a class="hash" href="#virus" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/ˈvaɪrəs/ &middot; <em>VY-ruhs</em></dd><dt>Русский</dt><dd>вирус</dd><dt>Plural</dt><dd><em>viruses</em> /ˈvaɪrəsɪz/ — regular</dd><dt>Countability</dt><dd>countable</dd><dt>Agreement</dt><dd>plural verb — <em>these viruses mutate quickly</em></dd><dt>Pattern</dt><dd>regular <em>-es</em> despite the Latin look</dd><dt>Group</dt><dd>6 (trap)</dd><dt>Type</dt><dd>concrete</dd><dt>Contrast</dt><dd>✗ <em>Viri</em> and ✗ <em>virii</em> are both wrong and always have been. In Latin <em>virus</em> was a mass noun meaning 'poison' and had no plural at all, so English simply made a regular one. The same goes for <em>campus → campuses</em>, <em>bonus → bonuses</em>, <em>status → statuses</em>, <em>census → censuses</em>.</dd></dl>
+<p>An infectious agent; also a malicious computer program.</p>
+<p><strong>1. The infectious agent.</strong> (вирус)</p>
+<ol><li>The <em>virus</em> spreads through the air.</li><li>Several <em>viruses</em> circulate every winter.</li><li>A new <em>virus</em> was identified in the region.</li></ol>
+<p><strong>2. A malicious program.</strong> (компьютерный вирус)</p>
+<ol start="4"><li>His laptop picked up a <em>virus</em>.</li><li>The company scans for <em>viruses</em> nightly.</li></ol>
+<p><strong>3. Figuratively — something that spreads.</strong> (зараза)</p>
+<ol start="6"><li>The rumor spread through the office like a <em>virus</em>.</li></ol>
+<dl class="fields"><dt>See also</dt><dd><a href="#octopus">octopus</a> &middot; <a href="#campus">campus</a></dd></dl>
+<hr>
+<h3 id="campus">campus<a class="hash" href="#campus" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/ˈkæmpəs/ &middot; <em>KAM-puhs</em></dd><dt>Русский</dt><dd>кампус, территория учебного заведения</dd><dt>Plural</dt><dd><em>campuses</em> /ˈkæmpəsɪz/ — regular</dd><dt>Countability</dt><dd>countable</dd><dt>Agreement</dt><dd>plural verb — <em>both campuses are closed</em></dd><dt>Pattern</dt><dd>regular <em>-es</em> despite the Latin look</dd><dt>Group</dt><dd>6 (trap)</dd><dt>Type</dt><dd>concrete</dd><dt>Contrast</dt><dd>✗ <em>campi</em> is a joke, not a plural. Latin <em>campus</em> meant 'field', and English borrowed it whole in the eighteenth century without its Latin inflection.</dd></dl>
+<p>The grounds of a university, college, or large company.</p>
+<p><strong>1. University grounds.</strong> (кампус)</p>
+<ol><li>She lives on <em>campus</em>.</li><li>The university has three <em>campuses</em>.</li><li>Both <em>campuses</em> were built in the 1960s.</li><li>There's a bookstore in the middle of <em>campus</em>.</li></ol>
+<p><strong>2. A corporate site.</strong> (территория компании)</p>
+<ol start="5"><li>The company's <em>campus</em> holds eight thousand employees.</li></ol>
+<dl class="fields"><dt>See also</dt><dd><a href="#virus">virus</a> &middot; <a href="#bonus">bonus</a></dd></dl>
+<hr>
+<h3 id="bonus">bonus<a class="hash" href="#bonus" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/ˈboʊnəs/ &middot; <em>BOH-nuhs</em></dd><dt>Русский</dt><dd>премия, бонус</dd><dt>Plural</dt><dd><em>bonuses</em> /ˈboʊnəsɪz/ — regular</dd><dt>Countability</dt><dd>countable</dd><dt>Agreement</dt><dd>plural verb — <em>the bonuses were paid in March</em></dd><dt>Pattern</dt><dd>regular <em>-es</em> despite the Latin look</dd><dt>Group</dt><dd>6 (trap)</dd><dt>Type</dt><dd>abstract</dd><dt>Contrast</dt><dd>✗ <em>boni</em> is wrong. Latin <em>bonus</em> is an adjective meaning 'good', not a second-declension noun, so it never had this plural.</dd></dl>
+<p>Extra payment, or any welcome extra.</p>
+<p><strong>1. Extra payment.</strong> (премия)</p>
+<ol><li>Everyone got a year-end <em>bonus</em>.</li><li>The <em>bonuses</em> were smaller than last year.</li><li>She negotiated a signing <em>bonus</em>.</li></ol>
+<p><strong>2. Any welcome extra.</strong> (приятное дополнение)</p>
+<ol start="4"><li>Free parking is an added <em>bonus</em>.</li><li>The view was a <em>bonus</em> nobody expected.</li></ol>
+<dl class="fields"><dt>See also</dt><dd><a href="#campus">campus</a> &middot; <a href="#virus">virus</a></dd></dl>
+<hr>
+<h3 id="corpus">corpus<a class="hash" href="#corpus" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/ˈkɔːrpəs/ &middot; <em>KOR-puhs</em></dd><dt>Русский</dt><dd>корпус (текстов), свод</dd><dt>Plural</dt><dd><em>corpora</em> /ˈkɔːrpərə/ &middot; <em>KOR-pur-uh</em> — also <em>corpuses</em></dd><dt>Countability</dt><dd>countable</dd><dt>Agreement</dt><dd>plural verb — <em>the corpora are freely available</em></dd><dt>Pattern</dt><dd>Latin third declension → <em>-ora</em></dd><dt>Group</dt><dd>6</dd><dt>Type</dt><dd>abstract</dd><dt>Variants</dt><dd><em>corpora</em> in linguistics and scholarship; <em>corpuses</em> occasionally</dd><dt>Contrast</dt><dd>Not ✗ <em>corpi</em>. This is a different Latin declension from <em>cactus</em>, and it gives <em>-ora</em>. Compare <em>genus → genera</em> and <em>opus → opera</em>, which behave the same way.</dd></dl>
+<p>A body of writings or data collected for study.</p>
+<p><strong>1. A collection of texts or data.</strong> (корпус текстов)</p>
+<ol><li>The <em>corpus</em> contains a billion words of American English.</li><li>Both <em>corpora</em> are annotated for part of speech.</li><li>Linguists build <em>corpora</em> from newspapers and transcripts.</li><li>She searched the <em>corpus</em> for every use of the word.</li></ol>
+<p><strong>2. The complete works of an author.</strong> (полное собрание)</p>
+<ol start="5"><li>His entire <em>corpus</em> fits in one volume.</li></ol>
+<dl class="fields"><dt>See also</dt><dd><a href="#genus">genus</a></dd></dl>
+<hr>
+<h3 id="genus">genus<a class="hash" href="#genus" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/ˈdʒiːnəs/ &middot; <em>JEE-nuhs</em></dd><dt>Русский</dt><dd>род (биологический)</dd><dt>Plural</dt><dd><em>genera</em> /ˈdʒɛnərə/ &middot; <em>JEN-ur-uh</em></dd><dt>Countability</dt><dd>countable</dd><dt>Agreement</dt><dd>plural verb — <em>these genera are closely related</em></dd><dt>Pattern</dt><dd>Latin third declension → <em>-era</em></dd><dt>Group</dt><dd>6</dd><dt>Type</dt><dd>abstract</dd><dt>Contrast</dt><dd>Note the vowel shift: singular <em>JEE-nuhs</em>, plural <em>JEN-ur-uh</em>. Not ✗ <em>genuses</em> in scientific writing, and never ✗ <em>geni</em>. In classification a genus sits above a species.</dd></dl>
+<p>A rank in biological classification, above species and below family.</p>
+<p><strong>1. The taxonomic rank.</strong> (род)</p>
+<ol><li>All these plants belong to the same <em>genus</em>.</li><li>Several <em>genera</em> were reclassified last year.</li><li>The <em>genus</em> includes about forty species.</li><li>Two <em>genera</em> of beetle live only on this mountain.</li><li>He named a new <em>genus</em> after his teacher.</li></ol>
+<dl class="fields"><dt>See also</dt><dd><a href="#corpus">corpus</a> &middot; <a href="03-unchanged.html#species">species</a></dd></dl></div></main>
+<button class="themebtn" id="themeBtn">Dark</button>
+<script>
+const tb=document.getElementById('themeBtn');
+function setTheme(x){document.documentElement.dataset.theme=x;tb.textContent=x==='dark'?'Light':'Dark';
+ try{localStorage.setItem('site-theme',x)}catch(e){}}
+tb.onclick=()=>setTheme(document.documentElement.dataset.theme==='dark'?'light':'dark');
+try{const s=localStorage.getItem('site-theme');
+ setTheme(s||(matchMedia('(prefers-color-scheme: dark)').matches?'dark':'light'))}catch(e){setTheme('light')}
+</script></body></html>
