@@ -1,0 +1,641 @@
+<!DOCTYPE html>
+<html lang="en"><head>
+<meta charset="utf-8"><meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Core vocabulary: landscape and geography</title>
+<style>
+:root{--bg:#faf9f7;--surface:#fff;--surface2:#f2f0ec;--border:#e2ded6;--text:#1a1815;
+--dim:#5f594f;--faint:#8a8377;--accent:#8a5a3b;--measure:72ch}
+@media(prefers-color-scheme:dark){:root{--bg:#14140f;--surface:#1d1d17;--surface2:#25251d;
+--border:#33332a;--text:#eeeae1;--dim:#a8a293;--faint:#7d776b;--accent:#d09b72}}
+:root[data-theme=dark]{--bg:#14140f;--surface:#1d1d17;--surface2:#25251d;--border:#33332a;
+--text:#eeeae1;--dim:#a8a293;--faint:#7d776b;--accent:#d09b72}
+:root[data-theme=light]{--bg:#faf9f7;--surface:#fff;--surface2:#f2f0ec;--border:#e2ded6;
+--text:#1a1815;--dim:#5f594f;--faint:#8a8377;--accent:#8a5a3b}
+*{box-sizing:border-box}
+body{margin:0;background:var(--bg);color:var(--text);
+font:17px/1.72 ui-serif,Georgia,"Iowan Old Style",Palatino,serif;-webkit-font-smoothing:antialiased}
+.wrap{max-width:min(var(--measure),100%);margin:0 auto;padding:0 22px}
+nav.crumb{border-bottom:1px solid var(--border);padding:13px 0;font-size:13.5px;
+font-family:-apple-system,BlinkMacSystemFont,"Segoe UI",sans-serif;position:sticky;top:0;background:var(--bg);z-index:20}
+nav.crumb .wrap{max-width:none;display:flex;gap:9px;align-items:center;flex-wrap:wrap}
+nav.crumb a{color:var(--dim);text-decoration:none}
+nav.crumb a:hover{color:var(--accent)}
+nav.crumb .sep{color:var(--faint)}
+main{padding:8px 0 80px}
+h1{font-size:clamp(28px,5vw,38px);line-height:1.15;letter-spacing:-.015em;margin:34px 0 18px}
+h2{font-size:25px;margin:46px 0 14px;letter-spacing:-.01em;padding-bottom:7px;border-bottom:1px solid var(--border)}
+h3{font-size:19px;margin:34px 0 10px;color:var(--accent)}
+h4{font-size:16px;margin:24px 0 8px;font-family:-apple-system,sans-serif}
+p{margin:0 0 16px}
+a{color:var(--accent)}
+.hash{opacity:0;margin-left:8px;font-weight:400;font-size:.65em;text-decoration:none;color:var(--faint)}
+h2:hover .hash,h3:hover .hash{opacity:1}
+blockquote{margin:0 0 20px;padding:14px 18px;background:var(--surface2);
+border-left:3px solid var(--accent);border-radius:0 8px 8px 0}
+blockquote p:last-child{margin-bottom:0}
+ol,ul{margin:0 0 18px;padding-left:26px}
+li{margin-bottom:8px}
+li>ul,li>ol{margin:8px 0 0}
+code{font-family:ui-monospace,SFMono-Regular,Menlo,Consolas,monospace;font-size:.87em;
+background:var(--surface2);padding:1px 5px;border-radius:4px}
+pre{background:var(--surface2);border:1px solid var(--border);border-radius:9px;
+padding:15px 17px;overflow-x:auto;margin:0 0 20px}
+pre code{background:none;padding:0;font-size:13px;line-height:1.6}
+.tw{overflow-x:auto;margin:0 0 22px;border:1px solid var(--border);border-radius:9px}
+table{border-collapse:collapse;width:100%;font-size:15px;
+font-family:-apple-system,BlinkMacSystemFont,"Segoe UI",sans-serif}
+th,td{padding:10px 14px;border-bottom:1px solid var(--border);vertical-align:top}
+th{background:var(--surface2);font-size:12px;text-transform:uppercase;
+letter-spacing:.06em;color:var(--dim);font-weight:700;white-space:nowrap}
+tbody tr:last-child td{border-bottom:none}
+hr{border:none;border-top:1px solid var(--border);margin:38px 0}
+details{background:var(--surface2);border:1px solid var(--border);border-radius:9px;
+padding:13px 17px;margin:0 0 20px}
+summary{cursor:pointer;font-weight:600;font-family:-apple-system,sans-serif;font-size:15px}
+details[open] summary{margin-bottom:12px}
+del{color:var(--faint)}
+dl.fields{margin:0 0 20px;padding:0}
+dl.fields dt{font-family:-apple-system,BlinkMacSystemFont,"Segoe UI",sans-serif;
+font-size:11px;letter-spacing:.11em;text-transform:uppercase;color:var(--faint);
+font-weight:700;margin:14px 0 4px}
+dl.fields dt:first-child{margin-top:0}
+dl.fields dd{margin:0;font-size:16px;color:var(--dim);line-height:1.62}
+dl.fields dd em{color:var(--text)}
+dl.fields dt.ru{color:var(--accent)}
+dl.fields dd strong{color:var(--text)}
+.toc{background:var(--surface2);border:1px solid var(--border);border-radius:10px;
+padding:16px 20px;margin:26px 0 34px;font-family:-apple-system,sans-serif;font-size:14px}
+.toc b{display:block;font-size:11px;letter-spacing:.12em;text-transform:uppercase;
+color:var(--faint);margin-bottom:9px}
+.toc a{display:block;padding:3px 0;color:var(--dim);text-decoration:none}
+.toc a:hover{color:var(--accent)}
+.themebtn{position:fixed;right:18px;bottom:18px;z-index:60;font-family:-apple-system,sans-serif;
+font-size:12.5px;font-weight:600;cursor:pointer;background:var(--surface);border:1px solid var(--border);
+border-radius:99px;padding:9px 16px;color:var(--text)}
+@media(max-width:600px){body{font-size:16px}.wrap{padding:0 17px}}
+</style></head><body>
+<nav class="crumb"><div class="wrap"><a href="../../../index.html">Learn English</a><span class="sep">/</span><a href="../../README.html">Parts of speech</a><span class="sep">/</span><a href="../README.html">01-nouns</a><span class="sep">/</span><span>catalog</span></div></nav>
+<main><div class="wrap"><h1 id="core-vocabulary-landscape-and-geography">Core vocabulary: landscape and geography<a class="hash" href="#core-vocabulary-landscape-and-geography" aria-label="link">#</a></h1>
+<blockquote><p>The everyday nouns of landscape and geography — pronunciation, Russian, plural, and three examples each.</p></blockquote>
+<p><a href="../README.html">← The grammar of nouns</a> &middot; <a href="README.html">All groups</a></p>
+<p>Part of the <strong>core-vocabulary tier</strong>. Groups 1–23 cover the nouns that misbehave; this tier covers the nouns you simply need to know. Entries are deliberately lean, because a regular countable noun has no grammatical story to tell. A <strong>Contrast</strong> line appears only where the word hides a genuine trap.</p>
+<p>Where a word in this field <em>does</em> misbehave, it lives in the grammar tier instead and is not repeated here.</p>
+<hr>
+<h3 id="mountain">mountain<a class="hash" href="#mountain" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/ˈmaʊntən/ &middot; <em>MOWN-tuhn</em></dd><dt>Русский</dt><dd>гора</dd><dt>Plural</dt><dd><em>mountains</em></dd><dt>Countability</dt><dd>countable</dd></dl>
+<p>A very high, steep piece of land, much taller than a hill.</p>
+<ol><li>We hiked to the top of the <em>mountain</em> before noon.</li><li>The <em>mountains</em> were still covered in snow in May.</li><li>There's a cabin about halfway up the <em>mountain</em>.</li></ol>
+<hr>
+<h3 id="hill">hill<a class="hash" href="#hill" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/hɪl/ &middot; <em>HIL</em></dd><dt>Русский</dt><dd>холм, возвышенность</dd><dt>Plural</dt><dd><em>hills</em></dd><dt>Countability</dt><dd>countable</dd></dl>
+<p>A raised area of land, lower and less steep than a mountain.</p>
+<ol><li>Their house sits on a <em>hill</em> overlooking the river.</li><li>The road climbs a series of steep <em>hills</em>.</li><li>We sledded down the <em>hill</em> behind the school.</li></ol>
+<hr>
+<h3 id="valley">valley<a class="hash" href="#valley" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/ˈvæli/ &middot; <em>VAL-ee</em></dd><dt>Русский</dt><dd>долина</dd><dt>Plural</dt><dd><em>valleys</em></dd><dt>Countability</dt><dd>countable</dd></dl>
+<p>The low land between hills or mountains, often with a river running through it.</p>
+<ol><li>The whole <em>valley</em> fills with fog in the early morning.</li><li>Most of the farms in this <em>valley</em> grow corn.</li><li>Two <em>valleys</em> meet just south of town.</li></ol>
+<hr>
+<h3 id="canyon">canyon<a class="hash" href="#canyon" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/ˈkænjən/ &middot; <em>KAN-yuhn</em></dd><dt>Русский</dt><dd>каньон, глубокое ущелье</dd><dt>Plural</dt><dd><em>canyons</em></dd><dt>Countability</dt><dd>countable</dd></dl>
+<p>A deep, narrow valley with steep rock walls, usually cut by a river.</p>
+<ol><li>The trail drops a thousand feet into the <em>canyon</em>.</li><li>You can hear your own echo across the <em>canyon</em>.</li><li>Narrow <em>canyons</em> like this one flood fast when it rains upstream.</li></ol>
+<hr>
+<h3 id="gorge">gorge<a class="hash" href="#gorge" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/ɡɔːrdʒ/ &middot; <em>GORJ</em></dd><dt>Русский</dt><dd>ущелье, теснина</dd><dt>Plural</dt><dd><em>gorges</em></dd><dt>Countability</dt><dd>countable</dd></dl>
+<p>A narrow valley with steep sides, usually with a stream at the bottom.</p>
+<ol><li>A wooden bridge crosses the <em>gorge</em> at its narrowest point.</li><li>The river cut this <em>gorge</em> over millions of years.</li><li>Both <em>gorges</em> are closed to hikers in winter.</li></ol>
+<hr>
+<h3 id="ravine">ravine<a class="hash" href="#ravine" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/rəˈviːn/ &middot; <em>ruh-VEEN</em></dd><dt>Русский</dt><dd>овраг, узкое ущелье</dd><dt>Plural</dt><dd><em>ravines</em></dd><dt>Countability</dt><dd>countable</dd><dt>Contrast</dt><dd>Stressed on the second syllable, which rhymes with <em>seen</em>, not <em>wine</em>: ruh-VEEN.</dd></dl>
+<p>A small, steep-sided valley cut into the ground by running water.</p>
+<ol><li>The dog chased a rabbit down into the <em>ravine</em>.</li><li>Rainwater drains into a <em>ravine</em> behind the houses.</li><li>We followed the <em>ravine</em> until it opened onto a meadow.</li></ol>
+<hr>
+<h3 id="peak">peak<a class="hash" href="#peak" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/piːk/ &middot; <em>PEEK</em></dd><dt>Русский</dt><dd>вершина, пик</dd><dt>Plural</dt><dd><em>peaks</em></dd><dt>Countability</dt><dd>countable</dd><dt>Contrast</dt><dd>Sounds exactly like <em>peek</em> (быстро взглянуть).</dd></dl>
+<p>The pointed top of a mountain.</p>
+<ol><li>Three snowy <em>peaks</em> rise above the tree line.</li><li>Clouds hid the <em>peak</em> all afternoon.</li><li>From here you can see the highest <em>peak</em> in the state.</li></ol>
+<hr>
+<h3 id="summit">summit<a class="hash" href="#summit" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/ˈsʌmɪt/ &middot; <em>SUM-it</em></dd><dt>Русский</dt><dd>вершина (горы)</dd><dt>Plural</dt><dd><em>summits</em></dd><dt>Countability</dt><dd>countable</dd></dl>
+<p>The highest point of a mountain.</p>
+<ol><li>They reached the <em>summit</em> just after sunrise.</li><li>The last mile to the <em>summit</em> is all loose rock.</li><li>Bad weather turned us back well below the <em>summit</em>.</li></ol>
+<hr>
+<h3 id="ridge">ridge<a class="hash" href="#ridge" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/rɪdʒ/ &middot; <em>RIJ</em></dd><dt>Русский</dt><dd>хребет, гребень (горы)</dd><dt>Plural</dt><dd><em>ridges</em></dd><dt>Countability</dt><dd>countable</dd></dl>
+<p>A long, narrow strip of high land along the top of hills or mountains.</p>
+<ol><li>The trail follows the <em>ridge</em> for about four miles.</li><li>The wind hits hard once you're up on the <em>ridge</em>.</li><li>A line of pines grows along the <em>ridge</em>.</li></ol>
+<hr>
+<h3 id="slope">slope<a class="hash" href="#slope" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/sloʊp/ &middot; <em>SLOHP</em></dd><dt>Русский</dt><dd>склон</dd><dt>Plural</dt><dd><em>slopes</em></dd><dt>Countability</dt><dd>countable</dd></dl>
+<p>A surface of ground that goes up or down at an angle.</p>
+<ol><li>Wildflowers cover the southern <em>slope</em> in June.</li><li>The <em>slope</em> was too steep to drive up.</li><li>They planted grapes on the <em>slopes</em> above the lake.</li></ol>
+<hr>
+<h3 id="bluff">bluff<a class="hash" href="#bluff" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/blʌf/ &middot; <em>BLUF</em></dd><dt>Русский</dt><dd>обрыв, крутой берег</dd><dt>Plural</dt><dd><em>bluffs</em></dd><dt>Countability</dt><dd>countable</dd></dl>
+<p>A steep cliff or bank, especially one above a river or the sea.</p>
+<ol><li>The old lighthouse stands on a <em>bluff</em> above the bay.</li><li>Erosion has eaten away part of the <em>bluff</em>.</li><li>We watched the sunset from the <em>bluffs</em>.</li></ol>
+<hr>
+<h3 id="dune">dune<a class="hash" href="#dune" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/duːn/ &middot; <em>DOON</em></dd><dt>Русский</dt><dd>дюна, песчаный холм</dd><dt>Plural</dt><dd><em>dunes</em></dd><dt>Countability</dt><dd>countable</dd><dt>Contrast</dt><dd>Americans say DOON; the British say DYOON.</dd></dl>
+<p>A hill of sand formed by the wind, usually near a beach or in a desert.</p>
+<ol><li>The kids were rolling down the <em>dunes</em> all afternoon.</li><li>A boardwalk crosses the <em>dune</em> to the beach.</li><li>The wind slowly moves these <em>dunes</em> inland.</li></ol>
+<hr>
+<h3 id="crater">crater<a class="hash" href="#crater" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/ˈkreɪtər/ &middot; <em>KRAY-tur</em></dd><dt>Русский</dt><dd>кратер, воронка</dd><dt>Plural</dt><dd><em>craters</em></dd><dt>Countability</dt><dd>countable</dd></dl>
+<p>A large round hole in the ground made by an explosion, an impact, or a volcano.</p>
+<ol><li>A shallow lake fills the old <em>crater</em>.</li><li>The meteor left a <em>crater</em> half a mile wide.</li><li>Steam rises from the <em>crater</em> on clear mornings.</li></ol>
+<hr>
+<h3 id="cave">cave<a class="hash" href="#cave" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/keɪv/ &middot; <em>KAYV</em></dd><dt>Русский</dt><dd>пещера</dd><dt>Plural</dt><dd><em>caves</em></dd><dt>Countability</dt><dd>countable</dd></dl>
+<p>A large natural hole in the side of a hill or under the ground.</p>
+<ol><li>Bats live in the <em>cave</em> year-round.</li><li>We took a flashlight into the <em>cave</em>.</li><li>Early people painted animals on the walls of these <em>caves</em>.</li></ol>
+<hr>
+<h3 id="boulder">boulder<a class="hash" href="#boulder" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/ˈboʊldər/ &middot; <em>BOHL-dur</em></dd><dt>Русский</dt><dd>валун, большой камень</dd><dt>Plural</dt><dd><em>boulders</em></dd><dt>Countability</dt><dd>countable</dd><dt>Contrast</dt><dd>Pronounced exactly like <em>bolder</em> (смелее).</dd></dl>
+<p>A very large rock, especially one that has been moved by water or ice.</p>
+<ol><li>A <em>boulder</em> the size of a car blocked the road.</li><li>The kids were climbing on the <em>boulders</em> by the creek.</li><li>We ate lunch in the shade of a <em>boulder</em>.</li></ol>
+<hr>
+<h3 id="pebble">pebble<a class="hash" href="#pebble" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/ˈpebəl/ &middot; <em>PEB-uhl</em></dd><dt>Русский</dt><dd>галька, камешек</dd><dt>Plural</dt><dd><em>pebbles</em></dd><dt>Countability</dt><dd>countable</dd></dl>
+<p>A small, smooth stone found on a beach or in a stream.</p>
+<ol><li>The beach is covered in gray <em>pebbles</em>.</li><li>A <em>pebble</em> got stuck in my shoe.</li><li>She tossed a <em>pebble</em> into the water and watched the rings spread.</li></ol>
+<hr>
+<h3 id="hillside">hillside<a class="hash" href="#hillside" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/ˈhɪlsaɪd/ &middot; <em>HIL-syd</em></dd><dt>Русский</dt><dd>склон холма</dd><dt>Plural</dt><dd><em>hillsides</em></dd><dt>Countability</dt><dd>countable</dd></dl>
+<p>The sloping side of a hill.</p>
+<ol><li>Sheep were grazing on the <em>hillside</em>.</li><li>The fire burned a whole <em>hillside</em> of brush.</li><li>Their vineyard runs down the <em>hillside</em> to the road.</li></ol>
+<hr>
+<h3 id="range">range<a class="hash" href="#range" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/reɪndʒ/ &middot; <em>RAYNJ</em></dd><dt>Русский</dt><dd>горная цепь, хребет</dd><dt>Plural</dt><dd><em>ranges</em></dd><dt>Countability</dt><dd>countable</dd></dl>
+<p>A line or group of mountains or hills.</p>
+<ol><li>The <em>range</em> runs north to south for three hundred miles.</li><li>Snow stays on the higher <em>ranges</em> into July.</li><li>A storm was building over the coastal <em>range</em>.</li></ol>
+<hr>
+<h3 id="landslide">landslide<a class="hash" href="#landslide" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/ˈlændslaɪd/ &middot; <em>LAND-slyd</em></dd><dt>Русский</dt><dd>оползень</dd><dt>Plural</dt><dd><em>landslides</em></dd><dt>Countability</dt><dd>countable</dd></dl>
+<p>A mass of earth and rock that slides suddenly down a slope.</p>
+<ol><li>A <em>landslide</em> closed the highway for three days.</li><li>Heavy rain triggered <em>landslides</em> all over the county.</li><li>You can still see where the <em>landslide</em> tore through the trees.</li></ol>
+<hr>
+<h3 id="ground">ground<a class="hash" href="#ground" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/ɡraʊnd/ &middot; <em>GROWND</em></dd><dt>Русский</dt><dd>земля, поверхность земли</dd><dt>Countability</dt><dd>uncountable</dd></dl>
+<p>The solid surface of the earth that you walk on.</p>
+<ol><li>The <em>ground</em> was still frozen in early April.</li><li>He dropped his keys on the <em>ground</em>.</li><li>Roots spread out just under the <em>ground</em>.</li></ol>
+<hr>
+<h3 id="earth">earth<a class="hash" href="#earth" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/ɜːrθ/ &middot; <em>URTH</em></dd><dt>Русский</dt><dd>земля, почва</dd><dt>Countability</dt><dd>uncountable</dd></dl>
+<p>Soil or ground, the material that plants grow in.</p>
+<ol><li>He dug a hole and packed the <em>earth</em> back down.</li><li>The smell of damp <em>earth</em> filled the air after the rain.</li><li>They covered the seeds with a thin layer of <em>earth</em>.</li></ol>
+<hr>
+<h3 id="land">land<a class="hash" href="#land" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/lænd/ &middot; <em>LAND</em></dd><dt>Русский</dt><dd>земля, суша</dd><dt>Countability</dt><dd>uncountable</dd></dl>
+<p>The solid part of the earth's surface, as opposed to the sea.</p>
+<ol><li>After six weeks at sea they finally sighted <em>land</em>.</li><li>His family has farmed this <em>land</em> for a century.</li><li>Most of the <em>land</em> east of the river is protected.</li></ol>
+<hr>
+<h3 id="terrain">terrain<a class="hash" href="#terrain" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/təˈreɪn/ &middot; <em>tuh-RAYN</em></dd><dt>Русский</dt><dd>местность, рельеф</dd><dt>Countability</dt><dd>uncountable</dd><dt>Contrast</dt><dd>Stress falls on the second syllable: tuh-RAYN, not TER-rayn.</dd></dl>
+<p>Land of a particular kind, thought of in terms of its physical features.</p>
+<ol><li>The <em>terrain</em> gets rocky past the second bridge.</li><li>This truck handles rough <em>terrain</em> well.</li><li>Flat, open <em>terrain</em> makes the wind feel colder.</li></ol>
+<hr>
+<h3 id="landscape">landscape<a class="hash" href="#landscape" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/ˈlændskeɪp/ &middot; <em>LAND-skayp</em></dd><dt>Русский</dt><dd>пейзаж, ландшафт</dd><dt>Plural</dt><dd><em>landscapes</em></dd><dt>Countability</dt><dd>countable</dd></dl>
+<p>Everything you can see when you look across an area of land.</p>
+<ol><li>The <em>landscape</em> changes completely once you cross the pass.</li><li>She paints desert <em>landscapes</em>.</li><li>Wind turbines have changed the <em>landscape</em> around here.</li></ol>
+<hr>
+<h3 id="scenery">scenery<a class="hash" href="#scenery" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/ˈsiːnəri/ &middot; <em>SEE-nuh-ree</em></dd><dt>Русский</dt><dd>пейзаж, живописные виды</dd><dt>Countability</dt><dd>uncountable</dd></dl>
+<p>The natural features of an area, especially when they are beautiful.</p>
+<ol><li>The drive is slow, but the <em>scenery</em> is worth it.</li><li>We kept stopping to take pictures of the <em>scenery</em>.</li><li>You get better <em>scenery</em> on the north side of the lake.</li></ol>
+<hr>
+<h3 id="horizon">horizon<a class="hash" href="#horizon" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/həˈraɪzən/ &middot; <em>huh-RY-zuhn</em></dd><dt>Русский</dt><dd>горизонт</dd><dt>Plural</dt><dd><em>horizons</em></dd><dt>Countability</dt><dd>countable</dd><dt>Contrast</dt><dd>Stressed on the second syllable: huh-RY-zuhn, not HOR-ih-zuhn.</dd></dl>
+<p>The line where the land or sea seems to meet the sky.</p>
+<ol><li>A ship appeared on the <em>horizon</em> just before dark.</li><li>The sun was already below the <em>horizon</em>.</li><li>You can see storms coming from miles off on a flat <em>horizon</em>.</li></ol>
+<hr>
+<h3 id="altitude">altitude<a class="hash" href="#altitude" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/ˈæltɪtuːd/ &middot; <em>AL-tih-tood</em></dd><dt>Русский</dt><dd>высота (над уровнем моря)</dd><dt>Plural</dt><dd><em>altitudes</em></dd><dt>Countability</dt><dd>countable</dd><dt>Contrast</dt><dd>Americans say AL-tih-tood; the British say AL-tih-tyood.</dd></dl>
+<p>The height of a place or object above sea level.</p>
+<ol><li>At this <em>altitude</em> the air is noticeably thinner.</li><li>The trail gains two thousand feet of <em>altitude</em> in three miles.</li><li>Some people get headaches at high <em>altitude</em>.</li></ol>
+<hr>
+<h3 id="plain">plain<a class="hash" href="#plain" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/pleɪn/ &middot; <em>PLAYN</em></dd><dt>Русский</dt><dd>равнина</dd><dt>Plural</dt><dd><em>plains</em></dd><dt>Countability</dt><dd>countable</dd><dt>Contrast</dt><dd>Sounds exactly like <em>plane</em> (самолёт).</dd></dl>
+<p>A large area of flat land with few trees.</p>
+<ol><li>The road runs straight across the <em>plain</em> for fifty miles.</li><li>Herds of bison once covered these <em>plains</em>.</li><li>A thunderstorm was visible far out on the <em>plain</em>.</li></ol>
+<hr>
+<h3 id="prairie">prairie<a class="hash" href="#prairie" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/ˈpreri/ &middot; <em>PRAIR-ee</em></dd><dt>Русский</dt><dd>прерия, степь</dd><dt>Plural</dt><dd><em>prairies</em></dd><dt>Countability</dt><dd>countable</dd></dl>
+<p>A wide area of flat grassland in North America.</p>
+<ol><li>Tall grass covered the <em>prairie</em> as far as you could see.</li><li>Their farm sits on open <em>prairie</em>.</li><li>The <em>prairies</em> turn gold in late summer.</li></ol>
+<hr>
+<h3 id="desert">desert<a class="hash" href="#desert" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/ˈdezərt/ &middot; <em>DEZ-urt</em></dd><dt>Русский</dt><dd>пустыня</dd><dt>Plural</dt><dd><em>deserts</em></dd><dt>Countability</dt><dd>countable</dd><dt>Contrast</dt><dd>The noun is DEZ-urt; the verb <em>desert</em> (покинуть) is dih-ZURT, and so is <em>dessert</em> (десерт).</dd></dl>
+<p>A large dry area with little rain and almost no plants.</p>
+<ol><li>Nights in the <em>desert</em> get surprisingly cold.</li><li>They drove across the <em>desert</em> at night to avoid the heat.</li><li>Some of the world's <em>deserts</em> are growing every year.</li></ol>
+<hr>
+<h3 id="tundra">tundra<a class="hash" href="#tundra" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/ˈtʌndrə/ &middot; <em>TUN-druh</em></dd><dt>Русский</dt><dd>тундра</dd><dt>Countability</dt><dd>uncountable</dd></dl>
+<p>The flat, treeless land in the far north where the ground stays frozen.</p>
+<ol><li>Nothing but moss and low shrubs grows on the <em>tundra</em>.</li><li>Caribou cross the <em>tundra</em> twice a year.</li><li>The <em>tundra</em> thaws only a few inches deep in summer.</li></ol>
+<hr>
+<h3 id="savanna">savanna<a class="hash" href="#savanna" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/səˈvænə/ &middot; <em>suh-VAN-uh</em></dd><dt>Русский</dt><dd>саванна</dd><dt>Plural</dt><dd><em>savannas</em></dd><dt>Countability</dt><dd>countable</dd></dl>
+<p>A wide, flat grassland in a hot region, with a few scattered trees.</p>
+<ol><li>Elephants move across the <em>savanna</em> looking for water.</li><li>The <em>savanna</em> turns brown in the dry season.</li><li>Acacia trees dot the open <em>savanna</em>.</li></ol>
+<hr>
+<h3 id="field">field<a class="hash" href="#field" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/fiːld/ &middot; <em>FEELD</em></dd><dt>Русский</dt><dd>поле</dd><dt>Plural</dt><dd><em>fields</em></dd><dt>Countability</dt><dd>countable</dd></dl>
+<p>An open piece of land, usually used for growing crops or keeping animals.</p>
+<ol><li>The <em>field</em> behind the barn is planted in soybeans.</li><li>Cows were standing in the far <em>field</em>.</li><li>We cut through a <em>field</em> to get back to the road.</li></ol>
+<hr>
+<h3 id="meadow">meadow<a class="hash" href="#meadow" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/ˈmedoʊ/ &middot; <em>MED-oh</em></dd><dt>Русский</dt><dd>луг</dd><dt>Plural</dt><dd><em>meadows</em></dd><dt>Countability</dt><dd>countable</dd><dt>Contrast</dt><dd>The <em>ea</em> is /e/ as in <em>bed</em>: MED-oh, never MEE-doh.</dd></dl>
+<p>A field covered in grass and wildflowers.</p>
+<ol><li>A creek runs along the edge of the <em>meadow</em>.</li><li>Deer come out into the <em>meadow</em> at dusk.</li><li>The high <em>meadows</em> are full of flowers in July.</li></ol>
+<hr>
+<h3 id="pasture">pasture<a class="hash" href="#pasture" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/ˈpæstʃər/ &middot; <em>PAS-chur</em></dd><dt>Русский</dt><dd>пастбище</dd><dt>Plural</dt><dd><em>pastures</em></dd><dt>Countability</dt><dd>countable</dd></dl>
+<p>A field of grass where farm animals feed.</p>
+<ol><li>The horses are out in the back <em>pasture</em>.</li><li>He moves the cattle to a new <em>pasture</em> every week.</li><li>Half the farm is <em>pasture</em> and half is corn.</li></ol>
+<hr>
+<h3 id="grass">grass<a class="hash" href="#grass" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/ɡræs/ &middot; <em>GRAS</em></dd><dt>Русский</dt><dd>трава</dd><dt>Countability</dt><dd>uncountable</dd><dt>Contrast</dt><dd>Americans say GRAS, rhyming with <em>pass</em>; the British say GRAHSS.</dd></dl>
+<p>The common green plant with thin leaves that covers lawns and fields.</p>
+<ol><li>The <em>grass</em> is knee-high along the fence.</li><li>We sat on the <em>grass</em> and waited for the fireworks.</li><li>Rain finally turned the <em>grass</em> green again.</li></ol>
+<hr>
+<h3 id="wilderness">wilderness<a class="hash" href="#wilderness" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/ˈwɪldərnəs/ &middot; <em>WIL-dur-nuhs</em></dd><dt>Русский</dt><dd>дикая природа, глушь</dd><dt>Countability</dt><dd>uncountable</dd><dt>Contrast</dt><dd>The first syllable is WIL- with a short /ɪ/, not WYLD- as in <em>wild</em>.</dd></dl>
+<p>A large wild area of land where no one lives and nothing is farmed.</p>
+<ol><li>They spent a week in the <em>wilderness</em> with no phone service.</li><li>This part of the state is still true <em>wilderness</em>.</li><li>The trail leaves the road and heads straight into the <em>wilderness</em>.</li></ol>
+<hr>
+<h3 id="countryside">countryside<a class="hash" href="#countryside" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/ˈkʌntrisaɪd/ &middot; <em>KUN-tree-syd</em></dd><dt>Русский</dt><dd>сельская местность</dd><dt>Countability</dt><dd>uncountable</dd><dt>Contrast</dt><dd>The <em>cou</em> is /ʌ/ as in <em>cut</em>: KUN-tree-syd, not KOWN-tree-syd.</dd></dl>
+<p>Land outside cities and towns, with farms, fields, and small villages.</p>
+<ol><li>We drove through miles of open <em>countryside</em>.</li><li>She grew up in the <em>countryside</em> south of here.</li><li>The <em>countryside</em> is beautiful in the fall.</li></ol>
+<hr>
+<h3 id="forest">forest<a class="hash" href="#forest" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/ˈfɔːrɪst/ &middot; <em>FOR-ist</em></dd><dt>Русский</dt><dd>лес</dd><dt>Plural</dt><dd><em>forests</em></dd><dt>Countability</dt><dd>countable</dd></dl>
+<p>A large area thickly covered with trees.</p>
+<ol><li>A dirt road cuts through the <em>forest</em>.</li><li>Most of the state's <em>forests</em> are protected.</li><li>It gets dark early inside the <em>forest</em>.</li></ol>
+<hr>
+<h3 id="jungle">jungle<a class="hash" href="#jungle" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/ˈdʒʌŋɡəl/ &middot; <em>JUNG-guhl</em></dd><dt>Русский</dt><dd>джунгли</dd><dt>Plural</dt><dd><em>jungles</em></dd><dt>Countability</dt><dd>countable</dd></dl>
+<p>A thick tropical forest with dense plants growing close together.</p>
+<ol><li>The village is a two-day walk into the <em>jungle</em>.</li><li>Everything in the <em>jungle</em> was wet and green.</li><li>They cleared a strip of <em>jungle</em> for a landing strip.</li></ol>
+<hr>
+<h3 id="rainforest">rainforest<a class="hash" href="#rainforest" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/ˈreɪnfɔːrɪst/ &middot; <em>RAYN-for-ist</em></dd><dt>Русский</dt><dd>тропический лес, дождевой лес</dd><dt>Plural</dt><dd><em>rainforests</em></dd><dt>Countability</dt><dd>countable</dd></dl>
+<p>A dense forest in a warm region that gets very heavy rainfall.</p>
+<ol><li>The <em>rainforest</em> here gets over a hundred inches of rain a year.</li><li>Logging has cut into the <em>rainforest</em> for decades.</li><li>Half the world's species live in tropical <em>rainforests</em>.</li></ol>
+<hr>
+<h3 id="grove">grove<a class="hash" href="#grove" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/ɡroʊv/ &middot; <em>GROHV</em></dd><dt>Русский</dt><dd>роща</dd><dt>Plural</dt><dd><em>groves</em></dd><dt>Countability</dt><dd>countable</dd></dl>
+<p>A small group of trees growing together, often planted for fruit.</p>
+<ol><li>There's an orange <em>grove</em> just past the county line.</li><li>We parked in the shade of an olive <em>grove</em>.</li><li>Cold weather ruined half the <em>groves</em> that winter.</li></ol>
+<hr>
+<h3 id="bush">bush<a class="hash" href="#bush" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/bʊʃ/ &middot; <em>BUUSH</em></dd><dt>Русский</dt><dd>куст, кустарник</dd><dt>Plural</dt><dd><em>bushes</em></dd><dt>Countability</dt><dd>countable</dd><dt>Contrast</dt><dd>The vowel is /ʊ/ as in <em>put</em>, not /ʌ/ as in <em>but</em>.</dd></dl>
+<p>A woody plant smaller than a tree, with branches close to the ground.</p>
+<ol><li>A rabbit darted under the <em>bush</em>.</li><li>The <em>bushes</em> along the fence need trimming.</li><li>Berries grow on low <em>bushes</em> all through these woods.</li></ol>
+<hr>
+<h3 id="moss">moss<a class="hash" href="#moss" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/mɔːs/ &middot; <em>MAWS</em></dd><dt>Русский</dt><dd>мох</dd><dt>Countability</dt><dd>uncountable</dd></dl>
+<p>A soft green plant that grows in a flat layer on damp rocks and trees.</p>
+<ol><li><em>Moss</em> covers the north side of every trunk.</li><li>The stones by the creek are slick with <em>moss</em>.</li><li>Thick <em>moss</em> grows on the roof of the old cabin.</li></ol>
+<hr>
+<h3 id="clearing">clearing<a class="hash" href="#clearing" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/ˈklɪrɪŋ/ &middot; <em>KLEER-ing</em></dd><dt>Русский</dt><dd>поляна, прогалина</dd><dt>Plural</dt><dd><em>clearings</em></dd><dt>Countability</dt><dd>countable</dd></dl>
+<p>An open space in a forest where there are no trees.</p>
+<ol><li>We pitched the tent in a small <em>clearing</em>.</li><li>A deer stepped out into the <em>clearing</em>.</li><li>There are two <em>clearings</em> along the trail where you can camp.</li></ol>
+<hr>
+<h3 id="trail">trail<a class="hash" href="#trail" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/treɪl/ &middot; <em>TRAYL</em></dd><dt>Русский</dt><dd>тропа, тропинка</dd><dt>Plural</dt><dd><em>trails</em></dd><dt>Countability</dt><dd>countable</dd></dl>
+<p>A rough path through the countryside or the woods.</p>
+<ol><li>The <em>trail</em> to the falls is about two miles.</li><li>Bikes aren't allowed on this <em>trail</em>.</li><li>Several <em>trails</em> start from the same parking lot.</li></ol>
+<hr>
+<h3 id="sea">sea<a class="hash" href="#sea" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/siː/ &middot; <em>SEE</em></dd><dt>Русский</dt><dd>море</dd><dt>Plural</dt><dd><em>seas</em></dd><dt>Countability</dt><dd>countable</dd><dt>Contrast</dt><dd>Sounds exactly like <em>see</em> (видеть).</dd></dl>
+<p>A large area of salt water, smaller than an ocean.</p>
+<ol><li>The <em>sea</em> was rough all week.</li><li>Their house looks out over the <em>sea</em>.</li><li>He spent thirty years at <em>sea</em>.</li></ol>
+<hr>
+<h3 id="ocean">ocean<a class="hash" href="#ocean" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/ˈoʊʃən/ &middot; <em>OH-shuhn</em></dd><dt>Русский</dt><dd>океан</dd><dt>Plural</dt><dd><em>oceans</em></dd><dt>Countability</dt><dd>countable</dd></dl>
+<p>One of the very large areas of salt water that cover most of the earth.</p>
+<ol><li>We could hear the <em>ocean</em> from the porch.</li><li>Plastic ends up in the <em>ocean</em> no matter where you throw it away.</li><li>The world's <em>oceans</em> are warming faster than expected.</li></ol>
+<hr>
+<h3 id="lake">lake<a class="hash" href="#lake" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/leɪk/ &middot; <em>LAYK</em></dd><dt>Русский</dt><dd>озеро</dd><dt>Plural</dt><dd><em>lakes</em></dd><dt>Countability</dt><dd>countable</dd></dl>
+<p>A large area of water surrounded by land.</p>
+<ol><li>The <em>lake</em> freezes solid by January.</li><li>We rented a cabin on the <em>lake</em>.</li><li>There are hundreds of small <em>lakes</em> in this part of the state.</li></ol>
+<hr>
+<h3 id="pond">pond<a class="hash" href="#pond" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/pɑːnd/ &middot; <em>PAHND</em></dd><dt>Русский</dt><dd>пруд</dd><dt>Plural</dt><dd><em>ponds</em></dd><dt>Countability</dt><dd>countable</dd></dl>
+<p>A small area of still water, smaller than a lake.</p>
+<ol><li>Frogs sing by the <em>pond</em> every night in spring.</li><li>He keeps ducks on a little <em>pond</em> behind the house.</li><li>Both <em>ponds</em> dried up during the drought.</li></ol>
+<hr>
+<h3 id="river">river<a class="hash" href="#river" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/ˈrɪvər/ &middot; <em>RIV-ur</em></dd><dt>Русский</dt><dd>река</dd><dt>Plural</dt><dd><em>rivers</em></dd><dt>Countability</dt><dd>countable</dd></dl>
+<p>A large natural stream of water flowing toward the sea or a lake.</p>
+<ol><li>The <em>river</em> runs right through downtown.</li><li>Two <em>rivers</em> meet just north of the bridge.</li><li>Heavy rain pushed the <em>river</em> over its banks.</li></ol>
+<hr>
+<h3 id="stream">stream<a class="hash" href="#stream" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/striːm/ &middot; <em>STREEM</em></dd><dt>Русский</dt><dd>ручей, поток</dd><dt>Plural</dt><dd><em>streams</em></dd><dt>Countability</dt><dd>countable</dd></dl>
+<p>A small, narrow river.</p>
+<ol><li>A cold <em>stream</em> runs behind the cabin.</li><li>We crossed three <em>streams</em> on the way up.</li><li>The <em>stream</em> dries up completely by August.</li></ol>
+<hr>
+<h3 id="creek">creek<a class="hash" href="#creek" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/kriːk/ &middot; <em>KREEK</em></dd><dt>Русский</dt><dd>ручей, речка</dd><dt>Plural</dt><dd><em>creeks</em></dd><dt>Countability</dt><dd>countable</dd><dt>Contrast</dt><dd><em>Creek</em> is the everyday American word for a small stream; British English usually says <em>stream</em> or <em>brook</em>.</dd></dl>
+<p>A small stream.</p>
+<ol><li>The kids caught crawfish in the <em>creek</em>.</li><li>Our property line follows the <em>creek</em>.</li><li>Several <em>creeks</em> feed into the river here.</li></ol>
+<hr>
+<h3 id="brook">brook<a class="hash" href="#brook" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/brʊk/ &middot; <em>BRUUK</em></dd><dt>Русский</dt><dd>ручей</dd><dt>Plural</dt><dd><em>brooks</em></dd><dt>Countability</dt><dd>countable</dd></dl>
+<p>A small stream, especially one in the woods or a meadow.</p>
+<ol><li>A <em>brook</em> runs along the bottom of the field.</li><li>You can hear the <em>brook</em> from the back bedroom.</li><li>Two <em>brooks</em> join just below the old mill.</li></ol>
+<hr>
+<h3 id="waterfall">waterfall<a class="hash" href="#waterfall" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/ˈwɔːtərfɔːl/ &middot; <em>WAW-tur-fawl</em></dd><dt>Русский</dt><dd>водопад</dd><dt>Plural</dt><dd><em>waterfalls</em></dd><dt>Countability</dt><dd>countable</dd></dl>
+<p>A place where a river or stream falls over a steep drop.</p>
+<ol><li>You can hear the <em>waterfall</em> long before you see it.</li><li>The <em>waterfall</em> freezes into a column of ice each winter.</li><li>There are three <em>waterfalls</em> along this stretch of river.</li></ol>
+<hr>
+<h3 id="rapids">rapids<a class="hash" href="#rapids" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/ˈræpɪdz/ &middot; <em>RAP-idz</em></dd><dt>Русский</dt><dd>пороги (речные), быстрина</dd><dt>Plural</dt><dd><em>rapids</em></dd><dt>Countability</dt><dd>countable</dd><dt>Contrast</dt><dd>Always plural: <em>the rapids</em>, never "a rapid".</dd></dl>
+<p>A stretch of river where the water runs fast over rocks.</p>
+<ol><li>We carried the canoe around the <em>rapids</em>.</li><li>The <em>rapids</em> below the bridge are dangerous in spring.</li><li>He's run these <em>rapids</em> dozens of times.</li></ol>
+<hr>
+<h3 id="canal">canal<a class="hash" href="#canal" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/kəˈnæl/ &middot; <em>kuh-NAL</em></dd><dt>Русский</dt><dd>канал (искусственный)</dd><dt>Plural</dt><dd><em>canals</em></dd><dt>Countability</dt><dd>countable</dd></dl>
+<p>A long, narrow channel dug to carry water or boats.</p>
+<ol><li>Barges still move grain along the <em>canal</em>.</li><li>The <em>canal</em> was drained for repairs.</li><li>A network of <em>canals</em> irrigates the whole valley.</li></ol>
+<hr>
+<h3 id="reservoir">reservoir<a class="hash" href="#reservoir" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/ˈrezərvwɑːr/ &middot; <em>REZ-ur-vwahr</em></dd><dt>Русский</dt><dd>водохранилище</dd><dt>Plural</dt><dd><em>reservoirs</em></dd><dt>Countability</dt><dd>countable</dd><dt>Contrast</dt><dd>The French ending <em>-voir</em> is said VWAHR: REZ-ur-vwahr.</dd></dl>
+<p>A lake, often man-made, where water is stored for later use.</p>
+<ol><li>The <em>reservoir</em> is down twenty feet after two dry years.</li><li>Fishing is allowed on the lower <em>reservoir</em>.</li><li>The city gets its drinking water from three <em>reservoirs</em>.</li></ol>
+<hr>
+<h3 id="basin">basin<a class="hash" href="#basin" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/ˈbeɪsən/ &middot; <em>BAY-suhn</em></dd><dt>Русский</dt><dd>бассейн (реки), котловина</dd><dt>Plural</dt><dd><em>basins</em></dd><dt>Countability</dt><dd>countable</dd></dl>
+<p>The whole area of land that drains into a particular river, or a wide hollow in the land.</p>
+<ol><li>Snowmelt from the whole <em>basin</em> feeds this river.</li><li>The town sits in a shallow <em>basin</em> between two ridges.</li><li>Rainfall across the <em>basin</em> has dropped five years running.</li></ol>
+<hr>
+<h3 id="tributary">tributary<a class="hash" href="#tributary" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/ˈtrɪbjəteri/ &middot; <em>TRIB-yuh-teh-ree</em></dd><dt>Русский</dt><dd>приток (реки)</dd><dt>Plural</dt><dd><em>tributaries</em></dd><dt>Countability</dt><dd>countable</dd></dl>
+<p>A stream or river that flows into a larger one.</p>
+<ol><li>This creek is a <em>tributary</em> of the river that runs through town.</li><li>Dozens of small <em>tributaries</em> feed the lake.</li><li>Pollution in one <em>tributary</em> affects the whole system.</li></ol>
+<hr>
+<h3 id="puddle">puddle<a class="hash" href="#puddle" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/ˈpʌdəl/ &middot; <em>PUD-uhl</em></dd><dt>Русский</dt><dd>лужа</dd><dt>Plural</dt><dd><em>puddles</em></dd><dt>Countability</dt><dd>countable</dd></dl>
+<p>A small pool of water lying on the ground after rain.</p>
+<ol><li>The kids jumped in every <em>puddle</em> on the way home.</li><li>A <em>puddle</em> had formed at the bottom of the driveway.</li><li>By noon the <em>puddles</em> had dried up.</li></ol>
+<hr>
+<h3 id="geyser">geyser<a class="hash" href="#geyser" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/ˈɡaɪzər/ &middot; <em>GY-zur</em></dd><dt>Русский</dt><dd>гейзер</dd><dt>Plural</dt><dd><em>geysers</em></dd><dt>Countability</dt><dd>countable</dd><dt>Contrast</dt><dd>Americans say GY-zur; the British say GEE-zur.</dd></dl>
+<p>A natural spring that shoots hot water and steam into the air.</p>
+<ol><li>The <em>geyser</em> goes off about every ninety minutes.</li><li>Steam drifts over the <em>geysers</em> all morning.</li><li>We waited an hour to watch the <em>geyser</em> erupt.</li></ol>
+<hr>
+<h3 id="bay">bay<a class="hash" href="#bay" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/beɪ/ &middot; <em>BAY</em></dd><dt>Русский</dt><dd>залив, бухта</dd><dt>Plural</dt><dd><em>bays</em></dd><dt>Countability</dt><dd>countable</dd></dl>
+<p>A part of the sea or a lake that curves into the land.</p>
+<ol><li>Sailboats filled the <em>bay</em> all weekend.</li><li>Fog rolls in across the <em>bay</em> most evenings.</li><li>Small <em>bays</em> along this coast make good anchorages.</li></ol>
+<hr>
+<h3 id="cove">cove<a class="hash" href="#cove" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/koʊv/ &middot; <em>KOHV</em></dd><dt>Русский</dt><dd>бухточка, небольшая бухта</dd><dt>Plural</dt><dd><em>coves</em></dd><dt>Countability</dt><dd>countable</dd></dl>
+<p>A small sheltered bay.</p>
+<ol><li>We anchored in a quiet <em>cove</em> for the night.</li><li>There's a swimming beach in the next <em>cove</em> over.</li><li>Seals haul out on the rocks in these <em>coves</em>.</li></ol>
+<hr>
+<h3 id="inlet">inlet<a class="hash" href="#inlet" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/ˈɪnlet/ &middot; <em>IN-let</em></dd><dt>Русский</dt><dd>узкий залив, бухта</dd><dt>Plural</dt><dd><em>inlets</em></dd><dt>Countability</dt><dd>countable</dd></dl>
+<p>A narrow strip of water reaching from the sea into the land.</p>
+<ol><li>An <em>inlet</em> cuts a mile inland from the harbor.</li><li>Fishing boats tie up in the <em>inlet</em>.</li><li>The tide runs fast through the narrow <em>inlet</em>.</li></ol>
+<hr>
+<h3 id="harbor">harbor<a class="hash" href="#harbor" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/ˈhɑːrbər/ &middot; <em>HAHR-bur</em></dd><dt>Русский</dt><dd>гавань, порт</dd><dt>Plural</dt><dd><em>harbors</em></dd><dt>Countability</dt><dd>countable</dd><dt>Contrast</dt><dd>American spelling <em>harbor</em>; British spelling <em>harbour</em>.</dd></dl>
+<p>A sheltered area of water where ships can stay safely.</p>
+<ol><li>Dozens of boats were moored in the <em>harbor</em>.</li><li>The storm passed and the <em>harbor</em> went quiet again.</li><li>Both <em>harbors</em> are too shallow for large ships.</li></ol>
+<hr>
+<h3 id="lagoon">lagoon<a class="hash" href="#lagoon" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/ləˈɡuːn/ &middot; <em>luh-GOON</em></dd><dt>Русский</dt><dd>лагуна</dd><dt>Plural</dt><dd><em>lagoons</em></dd><dt>Countability</dt><dd>countable</dd></dl>
+<p>A shallow area of salt water separated from the sea by sand or rock.</p>
+<ol><li>The water in the <em>lagoon</em> is warm and perfectly still.</li><li>A thin strip of sand separates the <em>lagoon</em> from the ocean.</li><li>Fish spawn in the shallow <em>lagoons</em>.</li></ol>
+<hr>
+<h3 id="coast">coast<a class="hash" href="#coast" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/koʊst/ &middot; <em>KOHST</em></dd><dt>Русский</dt><dd>побережье, морской берег</dd><dt>Plural</dt><dd><em>coasts</em></dd><dt>Countability</dt><dd>countable</dd></dl>
+<p>The land right next to the sea.</p>
+<ol><li>We drove up the <em>coast</em> as far as the state line.</li><li>Storms hit this <em>coast</em> every fall.</li><li>Both <em>coasts</em> were under a wind advisory.</li></ol>
+<hr>
+<h3 id="shore">shore<a class="hash" href="#shore" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/ʃɔːr/ &middot; <em>SHOR</em></dd><dt>Русский</dt><dd>берег (моря, озера)</dd><dt>Plural</dt><dd><em>shores</em></dd><dt>Countability</dt><dd>countable</dd></dl>
+<p>The land along the edge of a sea, lake, or wide river.</p>
+<ol><li>They walked along the <em>shore</em> looking for shells.</li><li>A row of cabins sits on the north <em>shore</em>.</li><li>Waves pushed driftwood up onto the <em>shore</em>.</li></ol>
+<hr>
+<h3 id="shoreline">shoreline<a class="hash" href="#shoreline" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/ˈʃɔːrlaɪn/ &middot; <em>SHOR-lyn</em></dd><dt>Русский</dt><dd>береговая линия</dd><dt>Plural</dt><dd><em>shorelines</em></dd><dt>Countability</dt><dd>countable</dd></dl>
+<p>The line where a body of water meets the land.</p>
+<ol><li>Erosion has moved the <em>shoreline</em> back thirty feet.</li><li>The whole <em>shoreline</em> is public here.</li><li>Both <em>shorelines</em> are lined with pines.</li></ol>
+<hr>
+<h3 id="beach">beach<a class="hash" href="#beach" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/biːtʃ/ &middot; <em>BEECH</em></dd><dt>Русский</dt><dd>пляж</dd><dt>Plural</dt><dd><em>beaches</em></dd><dt>Countability</dt><dd>countable</dd><dt>Contrast</dt><dd>Sounds exactly like <em>beech</em> (бук, дерево).</dd></dl>
+<p>An area of sand or small stones next to the sea or a lake.</p>
+<ol><li>The <em>beach</em> was empty except for a couple of joggers.</li><li>We spent the whole day at the <em>beach</em>.</li><li>Public <em>beaches</em> close at ten.</li></ol>
+<hr>
+<h3 id="bank">bank<a class="hash" href="#bank" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/bæŋk/ &middot; <em>BANGK</em></dd><dt>Русский</dt><dd>берег (реки)</dd><dt>Plural</dt><dd><em>banks</em></dd><dt>Countability</dt><dd>countable</dd><dt>Contrast</dt><dd>Identical to <em>bank</em> (банк) — only the context tells you which one is meant.</dd></dl>
+<p>The land along the side of a river or lake.</p>
+<ol><li>Willows grow all along the <em>bank</em>.</li><li>The river rose over its <em>banks</em> overnight.</li><li>We fished from the far <em>bank</em>.</li></ol>
+<hr>
+<h3 id="delta">delta<a class="hash" href="#delta" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/ˈdeltə/ &middot; <em>DEL-tuh</em></dd><dt>Русский</dt><dd>дельта (реки)</dd><dt>Plural</dt><dd><em>deltas</em></dd><dt>Countability</dt><dd>countable</dd></dl>
+<p>The flat, fan-shaped area of land where a river splits before entering the sea.</p>
+<ol><li>Rice grows all across the <em>delta</em>.</li><li>The <em>delta</em> is crossed by dozens of small channels.</li><li>Sediment keeps building up at the mouth of the <em>delta</em>.</li></ol>
+<hr>
+<h3 id="estuary">estuary<a class="hash" href="#estuary" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/ˈestʃueri/ &middot; <em>ES-choo-eh-ree</em></dd><dt>Русский</dt><dd>эстуарий, устье реки</dd><dt>Plural</dt><dd><em>estuaries</em></dd><dt>Countability</dt><dd>countable</dd></dl>
+<p>The wide part of a river where it meets the sea and fresh water mixes with salt.</p>
+<ol><li>Birds stop in the <em>estuary</em> on their way south.</li><li>Oysters grow well in the <em>estuary</em>.</li><li>Runoff from the city drains into the <em>estuary</em>.</li></ol>
+<hr>
+<h3 id="strait">strait<a class="hash" href="#strait" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/streɪt/ &middot; <em>STRAYT</em></dd><dt>Русский</dt><dd>пролив</dd><dt>Plural</dt><dd><em>straits</em></dd><dt>Countability</dt><dd>countable</dd><dt>Contrast</dt><dd>Sounds exactly like <em>straight</em> (прямой).</dd></dl>
+<p>A narrow passage of water joining two larger areas of sea.</p>
+<ol><li>Ferries cross the <em>strait</em> every hour.</li><li>The <em>strait</em> is only three miles wide at that point.</li><li>Ice closes the <em>straits</em> for part of the winter.</li></ol>
+<hr>
+<h3 id="channel">channel<a class="hash" href="#channel" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/ˈtʃænəl/ &middot; <em>CHAN-uhl</em></dd><dt>Русский</dt><dd>пролив; русло, фарватер</dd><dt>Plural</dt><dd><em>channels</em></dd><dt>Countability</dt><dd>countable</dd></dl>
+<p>A narrow stretch of water between two seas, or the deeper part of a river where boats pass.</p>
+<ol><li>The ferry crosses the <em>channel</em> in about an hour.</li><li>Dredgers keep the shipping <em>channel</em> open.</li><li>Storms have shifted the <em>channel</em> twice in ten years.</li></ol>
+<hr>
+<h3 id="tide">tide<a class="hash" href="#tide" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/taɪd/ &middot; <em>TYD</em></dd><dt>Русский</dt><dd>прилив и отлив</dd><dt>Plural</dt><dd><em>tides</em></dd><dt>Countability</dt><dd>countable</dd><dt>Contrast</dt><dd>Sounds exactly like <em>tied</em> (связанный).</dd></dl>
+<p>The regular rise and fall of the sea during the day.</p>
+<ol><li>The <em>tide</em> comes in fast here, so watch your gear.</li><li>We launched the boat at high <em>tide</em>.</li><li>The <em>tides</em> are strongest around a full moon.</li></ol>
+<hr>
+<h3 id="wave">wave<a class="hash" href="#wave" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/weɪv/ &middot; <em>WAYV</em></dd><dt>Русский</dt><dd>волна</dd><dt>Plural</dt><dd><em>waves</em></dd><dt>Countability</dt><dd>countable</dd></dl>
+<p>A raised line of water moving across the surface of the sea.</p>
+<ol><li><em>Waves</em> were breaking over the seawall.</li><li>One <em>wave</em> knocked him right off the board.</li><li>The <em>waves</em> are usually flat in the morning.</li></ol>
+<hr>
+<h3 id="current">current<a class="hash" href="#current" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/ˈkɜːrənt/ &middot; <em>KUR-uhnt</em></dd><dt>Русский</dt><dd>течение</dd><dt>Plural</dt><dd><em>currents</em></dd><dt>Countability</dt><dd>countable</dd><dt>Contrast</dt><dd>Sounds exactly like <em>currant</em> (смородина).</dd></dl>
+<p>A steady flow of water moving in one direction in a river or the sea.</p>
+<ol><li>The <em>current</em> is strong in the middle of the river.</li><li>Swimmers get pulled out by the <em>current</em> every summer.</li><li>Warm ocean <em>currents</em> keep this coast mild.</li></ol>
+<hr>
+<h3 id="surf">surf<a class="hash" href="#surf" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/sɜːrf/ &middot; <em>SURF</em></dd><dt>Русский</dt><dd>прибой</dd><dt>Countability</dt><dd>uncountable</dd><dt>Contrast</dt><dd>Sounds exactly like <em>serf</em> (крепостной).</dd></dl>
+<p>The waves breaking on the shore, and the white foam they make.</p>
+<ol><li>The <em>surf</em> was too rough to swim in.</li><li>We could hear the <em>surf</em> from the parking lot.</li><li>Kids were playing in the <em>surf</em> all afternoon.</li></ol>
+<hr>
+<h3 id="coral">coral<a class="hash" href="#coral" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/ˈkɔːrəl/ &middot; <em>KOR-uhl</em></dd><dt>Русский</dt><dd>коралл</dd><dt>Plural</dt><dd><em>corals</em></dd><dt>Countability</dt><dd>countable, and uncountable as a substance</dd></dl>
+<p>A hard substance formed in warm seas by tiny animals, often brightly colored.</p>
+<ol><li>Warmer water is killing the <em>coral</em>.</li><li>She wore a necklace of red <em>coral</em>.</li><li>Divers counted a dozen kinds of <em>coral</em> on one dive.</li></ol>
+<hr>
+<h3 id="shell">shell<a class="hash" href="#shell" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/ʃel/ &middot; <em>SHEL</em></dd><dt>Русский</dt><dd>раковина, ракушка</dd><dt>Plural</dt><dd><em>shells</em></dd><dt>Countability</dt><dd>countable</dd></dl>
+<p>The hard outer covering of a sea creature such as a clam or a snail.</p>
+<ol><li>She collected <em>shells</em> along the waterline.</li><li>A crab was living in an empty <em>shell</em>.</li><li>The beach is covered in broken <em>shells</em>.</li></ol>
+<hr>
+<h3 id="wetland">wetland<a class="hash" href="#wetland" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/ˈwetlænd/ &middot; <em>WET-land</em></dd><dt>Русский</dt><dd>заболоченные земли, водно-болотные угодья</dd><dt>Plural</dt><dd><em>wetlands</em></dd><dt>Countability</dt><dd>countable</dd></dl>
+<p>An area of land that is covered with shallow water for much of the year.</p>
+<ol><li>The <em>wetland</em> filters runoff before it reaches the bay.</li><li>Developers drained these <em>wetlands</em> fifty years ago.</li><li>Herons nest in the <em>wetland</em> just east of town.</li></ol>
+<hr>
+<h3 id="marsh">marsh<a class="hash" href="#marsh" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/mɑːrʃ/ &middot; <em>MAHRSH</em></dd><dt>Русский</dt><dd>болото, топь (с травой)</dd><dt>Plural</dt><dd><em>marshes</em></dd><dt>Countability</dt><dd>countable</dd></dl>
+<p>Low, soft, wet ground covered with grasses and reeds.</p>
+<ol><li>Red-winged blackbirds nest in the <em>marsh</em>.</li><li>A boardwalk runs out across the salt <em>marsh</em>.</li><li>The <em>marshes</em> flood every spring.</li></ol>
+<hr>
+<h3 id="swamp">swamp<a class="hash" href="#swamp" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/swɑːmp/ &middot; <em>SWAHMP</em></dd><dt>Русский</dt><dd>болото, топь (с деревьями)</dd><dt>Plural</dt><dd><em>swamps</em></dd><dt>Countability</dt><dd>countable</dd></dl>
+<p>An area of low, wet ground with trees growing in it.</p>
+<ol><li>Cypress trees stand right in the middle of the <em>swamp</em>.</li><li>Mosquitoes come off the <em>swamp</em> by the thousands.</li><li>They built a boardwalk through the <em>swamp</em>.</li></ol>
+<hr>
+<h3 id="bog">bog<a class="hash" href="#bog" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/bɑːɡ/ &middot; <em>BAHG</em></dd><dt>Русский</dt><dd>болото, трясина</dd><dt>Plural</dt><dd><em>bogs</em></dd><dt>Countability</dt><dd>countable</dd></dl>
+<p>An area of soft, wet, spongy ground made of decaying plants.</p>
+<ol><li>Cranberries grow in a <em>bog</em> like this one.</li><li>My boot came off in the <em>bog</em>.</li><li>Peat has been building up in these <em>bogs</em> for thousands of years.</li></ol>
+<hr>
+<h3 id="glacier">glacier<a class="hash" href="#glacier" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/ˈɡleɪʃər/ &middot; <em>GLAY-shur</em></dd><dt>Русский</dt><dd>ледник</dd><dt>Plural</dt><dd><em>glaciers</em></dd><dt>Countability</dt><dd>countable</dd><dt>Contrast</dt><dd>Americans say GLAY-shur; the British say GLASS-ee-ur.</dd></dl>
+<p>A huge mass of ice that moves very slowly down a valley.</p>
+<ol><li>The <em>glacier</em> has retreated half a mile in twenty years.</li><li>Meltwater from the <em>glacier</em> feeds the river.</li><li>Most of the <em>glaciers</em> in the park are shrinking.</li></ol>
+<hr>
+<h3 id="iceberg">iceberg<a class="hash" href="#iceberg" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/ˈaɪsbɜːrɡ/ &middot; <em>YS-burg</em></dd><dt>Русский</dt><dd>айсберг</dd><dt>Plural</dt><dd><em>icebergs</em></dd><dt>Countability</dt><dd>countable</dd></dl>
+<p>A very large piece of ice floating in the sea.</p>
+<ol><li>An <em>iceberg</em> drifted past the harbor entrance.</li><li>Most of an <em>iceberg</em> sits below the surface.</li><li><em>Icebergs</em> break off the glacier every summer.</li></ol>
+<hr>
+<h3 id="avalanche">avalanche<a class="hash" href="#avalanche" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/ˈævəlæntʃ/ &middot; <em>AV-uh-lanch</em></dd><dt>Русский</dt><dd>лавина, снежная лавина</dd><dt>Plural</dt><dd><em>avalanches</em></dd><dt>Countability</dt><dd>countable</dd></dl>
+<p>A large mass of snow and ice that suddenly slides down a mountain.</p>
+<ol><li>An <em>avalanche</em> buried a mile of the highway.</li><li>The <em>avalanche</em> risk is high after a heavy snowfall.</li><li>Two skiers set off a small <em>avalanche</em>.</li></ol>
+<hr>
+<h3 id="island">island<a class="hash" href="#island" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/ˈaɪlənd/ &middot; <em>Y-luhnd</em></dd><dt>Русский</dt><dd>остров</dd><dt>Plural</dt><dd><em>islands</em></dd><dt>Countability</dt><dd>countable</dd><dt>Contrast</dt><dd>The <em>s</em> is silent: Y-luhnd.</dd></dl>
+<p>A piece of land completely surrounded by water.</p>
+<ol><li>The <em>island</em> is a forty-minute ferry ride from the mainland.</li><li>There are hundreds of small <em>islands</em> in the bay.</li><li>Only twelve people live on the <em>island</em> year-round.</li></ol>
+<hr>
+<h3 id="peninsula">peninsula<a class="hash" href="#peninsula" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/pəˈnɪnsələ/ &middot; <em>puh-NIN-suh-luh</em></dd><dt>Русский</dt><dd>полуостров</dd><dt>Plural</dt><dd><em>peninsulas</em></dd><dt>Countability</dt><dd>countable</dd></dl>
+<p>A piece of land almost surrounded by water, joined to the mainland at one end.</p>
+<ol><li>The whole <em>peninsula</em> is a state park.</li><li>One road runs the length of the <em>peninsula</em>.</li><li>Both <em>peninsulas</em> are popular with birdwatchers.</li></ol>
+<hr>
+<h3 id="continent">continent<a class="hash" href="#continent" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/ˈkɑːntɪnənt/ &middot; <em>KAHN-tih-nuhnt</em></dd><dt>Русский</dt><dd>континент, материк</dd><dt>Plural</dt><dd><em>continents</em></dd><dt>Countability</dt><dd>countable</dd></dl>
+<p>One of the seven great masses of land on the earth.</p>
+<ol><li>She's been to five <em>continents</em> so far.</li><li>The two <em>continents</em> were joined millions of years ago.</li><li>Rail lines cross the <em>continent</em> from coast to coast.</li></ol>
+<hr>
+<h3 id="equator">equator<a class="hash" href="#equator" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/ɪˈkweɪtər/ &middot; <em>ih-KWAY-tur</em></dd><dt>Русский</dt><dd>экватор</dd><dt>Plural</dt><dd><em>equators</em></dd><dt>Countability</dt><dd>countable</dd></dl>
+<p>The imaginary line around the middle of the earth, halfway between the poles.</p>
+<ol><li>The country sits right on the <em>equator</em>.</li><li>Days and nights are the same length at the <em>equator</em>.</li><li>We crossed the <em>equator</em> on the third day out.</li></ol>
+<hr>
+<h3 id="pole">pole<a class="hash" href="#pole" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/poʊl/ &middot; <em>POHL</em></dd><dt>Русский</dt><dd>полюс</dd><dt>Plural</dt><dd><em>poles</em></dd><dt>Countability</dt><dd>countable</dd><dt>Contrast</dt><dd>Sounds exactly like <em>poll</em> (опрос).</dd></dl>
+<p>Either of the two points at the very top and bottom of the earth.</p>
+<ol><li>Ice is melting at both <em>poles</em>.</li><li>The expedition reached the <em>pole</em> in January.</li><li>A compass needle points toward the magnetic <em>pole</em>.</li></ol>
+<hr>
+<h3 id="region">region<a class="hash" href="#region" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/ˈriːdʒən/ &middot; <em>REE-juhn</em></dd><dt>Русский</dt><dd>регион, область, край</dd><dt>Plural</dt><dd><em>regions</em></dd><dt>Countability</dt><dd>countable</dd></dl>
+<p>A large area of a country or of the world with its own character.</p>
+<ol><li>Wine from this <em>region</em> is mostly red.</li><li>Dry <em>regions</em> are getting drier.</li><li>The whole <em>region</em> was under a flood watch.</li></ol>
+<hr>
+<h3 id="border">border<a class="hash" href="#border" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/ˈbɔːrdər/ &middot; <em>BOR-dur</em></dd><dt>Русский</dt><dd>граница</dd><dt>Plural</dt><dd><em>borders</em></dd><dt>Countability</dt><dd>countable</dd></dl>
+<p>The line separating two countries, states, or areas.</p>
+<ol><li>The river forms the <em>border</em> between the two states.</li><li>We crossed the <em>border</em> around midnight.</li><li>Both <em>borders</em> run through heavy forest.</li></ol>
+<hr>
+<h3 id="nature">nature<a class="hash" href="#nature" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/ˈneɪtʃər/ &middot; <em>NAY-chur</em></dd><dt>Русский</dt><dd>природа</dd><dt>Countability</dt><dd>uncountable</dd></dl>
+<p>The physical world of plants, animals, and landscapes, apart from people.</p>
+<ol><li>He'd rather spend a weekend out in <em>nature</em> than in a city.</li><li><em>Nature</em> takes an abandoned field back within a few years.</li><li>Kids need more time outdoors in <em>nature</em>.</li></ol>
+<hr>
+<h3 id="environment">environment<a class="hash" href="#environment" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/ɪnˈvaɪrənmənt/ &middot; <em>in-VY-ruhn-muhnt</em></dd><dt>Русский</dt><dd>окружающая среда</dd><dt>Countability</dt><dd>uncountable</dd><dt>Contrast</dt><dd>Stressed on the second syllable, which rhymes with <em>fire</em>: in-VY-ruhn-muhnt.</dd></dl>
+<p>The natural world, especially as it is affected by human activity.</p>
+<ol><li>The plant was fined for polluting the <em>environment</em>.</li><li>Plastics stay in the <em>environment</em> for centuries.</li><li>Voters around here care a lot about the <em>environment</em>.</li></ol>
+<hr>
+<h3 id="habitat">habitat<a class="hash" href="#habitat" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/ˈhæbɪtæt/ &middot; <em>HAB-ih-tat</em></dd><dt>Русский</dt><dd>среда обитания</dd><dt>Plural</dt><dd><em>habitats</em></dd><dt>Countability</dt><dd>countable</dd></dl>
+<p>The natural place where a particular animal or plant lives.</p>
+<ol><li>Logging destroyed the owl's <em>habitat</em>.</li><li>These wetlands are prime <em>habitat</em> for migrating birds.</li><li>Different <em>habitats</em> support very different species.</li></ol>
+<hr>
+<h3 id="ecosystem">ecosystem<a class="hash" href="#ecosystem" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/ˈiːkoʊsɪstəm/ &middot; <em>EE-koh-sis-tuhm</em></dd><dt>Русский</dt><dd>экосистема</dd><dt>Plural</dt><dd><em>ecosystems</em></dd><dt>Countability</dt><dd>countable</dd></dl>
+<p>All the plants and animals of an area together with the environment they live in.</p>
+<ol><li>One invasive species can upset the whole <em>ecosystem</em>.</li><li>The reef <em>ecosystem</em> is recovering slowly.</li><li>Coastal <em>ecosystems</em> are especially fragile.</li></ol>
+<hr>
+<h3 id="wildlife">wildlife<a class="hash" href="#wildlife" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/ˈwaɪldlaɪf/ &middot; <em>WYLD-lyf</em></dd><dt>Русский</dt><dd>дикая природа, дикие животные</dd><dt>Countability</dt><dd>uncountable</dd></dl>
+<p>Animals and birds living free in their natural surroundings.</p>
+<ol><li>The park is full of <em>wildlife</em>.</li><li>Slow down at dusk, because that's when <em>wildlife</em> crosses the road.</li><li>The refuge protects <em>wildlife</em> along the whole river.</li></ol>
+<hr>
+<h3 id="lava">lava<a class="hash" href="#lava" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/ˈlɑːvə/ &middot; <em>LAH-vuh</em></dd><dt>Русский</dt><dd>лава</dd><dt>Countability</dt><dd>uncountable</dd></dl>
+<p>Hot liquid rock that flows out of a volcano.</p>
+<ol><li><em>Lava</em> was still glowing at the base of the cone.</li><li>The village sits on old <em>lava</em>.</li><li>Cooled <em>lava</em> forms sharp black rock.</li></ol>
+<hr>
+<h3 id="fossil">fossil<a class="hash" href="#fossil" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/ˈfɑːsəl/ &middot; <em>FAH-suhl</em></dd><dt>Русский</dt><dd>окаменелость, ископаемое</dd><dt>Plural</dt><dd><em>fossils</em></dd><dt>Countability</dt><dd>countable</dd></dl>
+<p>The remains or shape of an ancient plant or animal preserved in rock.</p>
+<ol><li>Kids find <em>fossils</em> in the shale along the creek.</li><li>The museum has a dinosaur <em>fossil</em> in the lobby.</li><li>This whole cliff is packed with shell <em>fossils</em>.</li></ol>
+<hr>
+<h3 id="earthquake">earthquake<a class="hash" href="#earthquake" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/ˈɜːrθkweɪk/ &middot; <em>URTH-kwayk</em></dd><dt>Русский</dt><dd>землетрясение</dd><dt>Plural</dt><dd><em>earthquakes</em></dd><dt>Countability</dt><dd>countable</dd></dl>
+<p>A sudden violent shaking of the ground.</p>
+<ol><li>The <em>earthquake</em> woke everybody up around three in the morning.</li><li>Small <em>earthquakes</em> happen here almost weekly.</li><li>The bridge was rebuilt after the <em>earthquake</em>.</li></ol>
+<hr>
+<h3 id="flood">flood<a class="hash" href="#flood" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/flʌd/ &middot; <em>FLUD</em></dd><dt>Русский</dt><dd>наводнение, паводок</dd><dt>Plural</dt><dd><em>floods</em></dd><dt>Countability</dt><dd>countable</dd><dt>Contrast</dt><dd>The <em>oo</em> is /ʌ/ as in <em>blood</em>: FLUD, not FLOOD.</dd></dl>
+<p>A large amount of water covering land that is usually dry.</p>
+<ol><li>The <em>flood</em> reached the second floor of some houses.</li><li>Spring <em>floods</em> are normal along this river.</li><li><em>Flood</em> damage ran into the millions.</li></ol>
+<hr>
+<h3 id="drought">drought<a class="hash" href="#drought" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/draʊt/ &middot; <em>DROWT</em></dd><dt>Русский</dt><dd>засуха</dd><dt>Plural</dt><dd><em>droughts</em></dd><dt>Countability</dt><dd>countable</dd><dt>Contrast</dt><dd>The <em>gh</em> is silent and <em>ou</em> is /aʊ/: DROWT, rhyming with <em>out</em>.</dd></dl>
+<p>A long period with little or no rain.</p>
+<ol><li>The <em>drought</em> has lasted three summers now.</li><li>Reservoirs are low after a year of <em>drought</em>.</li><li>Farmers lost most of the crop to the <em>drought</em>.</li></ol>
+<hr>
+<h3 id="wildfire">wildfire<a class="hash" href="#wildfire" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/ˈwaɪldfaɪrr/ &middot; <em>WYLD-fyr</em></dd><dt>Русский</dt><dd>лесной пожар, природный пожар</dd><dt>Plural</dt><dd><em>wildfires</em></dd><dt>Countability</dt><dd>countable</dd></dl>
+<p>A large fire that spreads quickly through forest or grassland.</p>
+<ol><li>Smoke from the <em>wildfire</em> reached three states.</li><li><em>Wildfires</em> start earlier in the year than they used to.</li><li>The <em>wildfire</em> burned for six weeks before it was contained.</li></ol>
+<hr>
+<h3 id="sky">sky<a class="hash" href="#sky" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/skaɪ/ &middot; <em>SKY</em></dd><dt>Русский</dt><dd>небо</dd><dt>Plural</dt><dd><em>skies</em></dd><dt>Countability</dt><dd>countable</dd></dl>
+<p>The space above the earth that you see when you look up.</p>
+<ol><li>The <em>sky</em> turned orange right before the storm.</li><li>There wasn't a cloud in the <em>sky</em> all week.</li><li>Clear <em>skies</em> are forecast through Sunday.</li></ol>
+<hr>
+<h3 id="sunrise">sunrise<a class="hash" href="#sunrise" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/ˈsʌnraɪz/ &middot; <em>SUN-ryz</em></dd><dt>Русский</dt><dd>восход солнца, рассвет</dd><dt>Plural</dt><dd><em>sunrises</em></dd><dt>Countability</dt><dd>countable</dd></dl>
+<p>The time in the morning when the sun appears above the horizon.</p>
+<ol><li>We were on the road before <em>sunrise</em>.</li><li>The <em>sunrise</em> over the lake was worth getting up for.</li><li>In midsummer <em>sunrise</em> comes just after four.</li></ol>
+<hr>
+<h3 id="sunset">sunset<a class="hash" href="#sunset" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/ˈsʌnset/ &middot; <em>SUN-set</em></dd><dt>Русский</dt><dd>закат, заход солнца</dd><dt>Plural</dt><dd><em>sunsets</em></dd><dt>Countability</dt><dd>countable</dd></dl>
+<p>The time in the evening when the sun goes down below the horizon.</p>
+<ol><li>The park closes at <em>sunset</em>.</li><li>We watched the <em>sunset</em> from the end of the pier.</li><li>Winter <em>sunsets</em> here are early and quick.</li></ol></div></main>
+<button class="themebtn" id="themeBtn">Dark</button>
+<script>
+const tb=document.getElementById('themeBtn');
+function setTheme(x){document.documentElement.dataset.theme=x;tb.textContent=x==='dark'?'Light':'Dark';
+ try{localStorage.setItem('site-theme',x)}catch(e){}}
+tb.onclick=()=>setTheme(document.documentElement.dataset.theme==='dark'?'light':'dark');
+try{const s=localStorage.getItem('site-theme');
+ setTheme(s||(matchMedia('(prefers-color-scheme: dark)').matches?'dark':'light'))}catch(e){setTheme('light')}
+</script></body></html>

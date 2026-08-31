@@ -1,0 +1,476 @@
+<!DOCTYPE html>
+<html lang="en"><head>
+<meta charset="utf-8"><meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Core vocabulary: materials and substances</title>
+<style>
+:root{--bg:#faf9f7;--surface:#fff;--surface2:#f2f0ec;--border:#e2ded6;--text:#1a1815;
+--dim:#5f594f;--faint:#8a8377;--accent:#8a5a3b;--measure:72ch}
+@media(prefers-color-scheme:dark){:root{--bg:#14140f;--surface:#1d1d17;--surface2:#25251d;
+--border:#33332a;--text:#eeeae1;--dim:#a8a293;--faint:#7d776b;--accent:#d09b72}}
+:root[data-theme=dark]{--bg:#14140f;--surface:#1d1d17;--surface2:#25251d;--border:#33332a;
+--text:#eeeae1;--dim:#a8a293;--faint:#7d776b;--accent:#d09b72}
+:root[data-theme=light]{--bg:#faf9f7;--surface:#fff;--surface2:#f2f0ec;--border:#e2ded6;
+--text:#1a1815;--dim:#5f594f;--faint:#8a8377;--accent:#8a5a3b}
+*{box-sizing:border-box}
+body{margin:0;background:var(--bg);color:var(--text);
+font:17px/1.72 ui-serif,Georgia,"Iowan Old Style",Palatino,serif;-webkit-font-smoothing:antialiased}
+.wrap{max-width:min(var(--measure),100%);margin:0 auto;padding:0 22px}
+nav.crumb{border-bottom:1px solid var(--border);padding:13px 0;font-size:13.5px;
+font-family:-apple-system,BlinkMacSystemFont,"Segoe UI",sans-serif;position:sticky;top:0;background:var(--bg);z-index:20}
+nav.crumb .wrap{max-width:none;display:flex;gap:9px;align-items:center;flex-wrap:wrap}
+nav.crumb a{color:var(--dim);text-decoration:none}
+nav.crumb a:hover{color:var(--accent)}
+nav.crumb .sep{color:var(--faint)}
+main{padding:8px 0 80px}
+h1{font-size:clamp(28px,5vw,38px);line-height:1.15;letter-spacing:-.015em;margin:34px 0 18px}
+h2{font-size:25px;margin:46px 0 14px;letter-spacing:-.01em;padding-bottom:7px;border-bottom:1px solid var(--border)}
+h3{font-size:19px;margin:34px 0 10px;color:var(--accent)}
+h4{font-size:16px;margin:24px 0 8px;font-family:-apple-system,sans-serif}
+p{margin:0 0 16px}
+a{color:var(--accent)}
+.hash{opacity:0;margin-left:8px;font-weight:400;font-size:.65em;text-decoration:none;color:var(--faint)}
+h2:hover .hash,h3:hover .hash{opacity:1}
+blockquote{margin:0 0 20px;padding:14px 18px;background:var(--surface2);
+border-left:3px solid var(--accent);border-radius:0 8px 8px 0}
+blockquote p:last-child{margin-bottom:0}
+ol,ul{margin:0 0 18px;padding-left:26px}
+li{margin-bottom:8px}
+li>ul,li>ol{margin:8px 0 0}
+code{font-family:ui-monospace,SFMono-Regular,Menlo,Consolas,monospace;font-size:.87em;
+background:var(--surface2);padding:1px 5px;border-radius:4px}
+pre{background:var(--surface2);border:1px solid var(--border);border-radius:9px;
+padding:15px 17px;overflow-x:auto;margin:0 0 20px}
+pre code{background:none;padding:0;font-size:13px;line-height:1.6}
+.tw{overflow-x:auto;margin:0 0 22px;border:1px solid var(--border);border-radius:9px}
+table{border-collapse:collapse;width:100%;font-size:15px;
+font-family:-apple-system,BlinkMacSystemFont,"Segoe UI",sans-serif}
+th,td{padding:10px 14px;border-bottom:1px solid var(--border);vertical-align:top}
+th{background:var(--surface2);font-size:12px;text-transform:uppercase;
+letter-spacing:.06em;color:var(--dim);font-weight:700;white-space:nowrap}
+tbody tr:last-child td{border-bottom:none}
+hr{border:none;border-top:1px solid var(--border);margin:38px 0}
+details{background:var(--surface2);border:1px solid var(--border);border-radius:9px;
+padding:13px 17px;margin:0 0 20px}
+summary{cursor:pointer;font-weight:600;font-family:-apple-system,sans-serif;font-size:15px}
+details[open] summary{margin-bottom:12px}
+del{color:var(--faint)}
+dl.fields{margin:0 0 20px;padding:0}
+dl.fields dt{font-family:-apple-system,BlinkMacSystemFont,"Segoe UI",sans-serif;
+font-size:11px;letter-spacing:.11em;text-transform:uppercase;color:var(--faint);
+font-weight:700;margin:14px 0 4px}
+dl.fields dt:first-child{margin-top:0}
+dl.fields dd{margin:0;font-size:16px;color:var(--dim);line-height:1.62}
+dl.fields dd em{color:var(--text)}
+dl.fields dt.ru{color:var(--accent)}
+dl.fields dd strong{color:var(--text)}
+.toc{background:var(--surface2);border:1px solid var(--border);border-radius:10px;
+padding:16px 20px;margin:26px 0 34px;font-family:-apple-system,sans-serif;font-size:14px}
+.toc b{display:block;font-size:11px;letter-spacing:.12em;text-transform:uppercase;
+color:var(--faint);margin-bottom:9px}
+.toc a{display:block;padding:3px 0;color:var(--dim);text-decoration:none}
+.toc a:hover{color:var(--accent)}
+.themebtn{position:fixed;right:18px;bottom:18px;z-index:60;font-family:-apple-system,sans-serif;
+font-size:12.5px;font-weight:600;cursor:pointer;background:var(--surface);border:1px solid var(--border);
+border-radius:99px;padding:9px 16px;color:var(--text)}
+@media(max-width:600px){body{font-size:16px}.wrap{padding:0 17px}}
+</style></head><body>
+<nav class="crumb"><div class="wrap"><a href="../../../index.html">Learn English</a><span class="sep">/</span><a href="../../README.html">Parts of speech</a><span class="sep">/</span><a href="../README.html">01-nouns</a><span class="sep">/</span><span>catalog</span></div></nav>
+<main><div class="wrap"><h1 id="core-vocabulary-materials-and-substances">Core vocabulary: materials and substances<a class="hash" href="#core-vocabulary-materials-and-substances" aria-label="link">#</a></h1>
+<blockquote><p>The everyday nouns of materials and substances — pronunciation, Russian, plural, and three examples each.</p></blockquote>
+<p><a href="../README.html">← The grammar of nouns</a> &middot; <a href="README.html">All groups</a></p>
+<p>Part of the <strong>core-vocabulary tier</strong>. Groups 1–23 cover the nouns that misbehave; this tier covers the nouns you simply need to know. Entries are deliberately lean, because a regular countable noun has no grammatical story to tell. A <strong>Contrast</strong> line appears only where the word hides a genuine trap.</p>
+<p>Where a word in this field <em>does</em> misbehave, it lives in the grammar tier instead and is not repeated here.</p>
+<hr>
+<h3 id="metal">metal<a class="hash" href="#metal" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/ˈmetəl/ &middot; <em>MET-uhl</em></dd><dt>Русский</dt><dd>металл</dd><dt>Plural</dt><dd><em>metals</em></dd><dt>Countability</dt><dd>countable, and uncountable as a substance</dd><dt>Contrast</dt><dd>In American English the t is flapped, so <em>metal</em> sounds exactly like <em>medal</em> — only context separates them.</dd></dl>
+<p>A hard, shiny material such as iron, gold, or copper that conducts heat and electricity.</p>
+<ol><li>The handle is <em>metal</em>, so it gets hot fast.</li><li>Copper and zinc are both <em>metals</em>.</li><li>You can hear the <em>metal</em> creaking when a truck crosses the bridge.</li></ol>
+<hr>
+<h3 id="aluminum">aluminum<a class="hash" href="#aluminum" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/əˈluːmɪnəm/ &middot; <em>uh-LOO-mih-nuhm</em></dd><dt>Русский</dt><dd>алюминий</dd><dt>Countability</dt><dd>uncountable</dd><dt>Contrast</dt><dd>Americans write <em>aluminum</em> (uh-LOO-mih-nuhm); the British write <em>aluminium</em> (al-yoo-MIN-ee-uhm), with an extra syllable.</dd></dl>
+<p>A light, silvery metal used for cans, foil, and airplane parts.</p>
+<ol><li>Put the <em>aluminum</em> cans in the blue bin.</li><li>The ladder is <em>aluminum</em>, so it's easy to carry.</li><li><em>Aluminum</em> siding was on every house in that neighborhood.</li></ol>
+<hr>
+<h3 id="copper">copper<a class="hash" href="#copper" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/ˈkɑːpər/ &middot; <em>KAH-pur</em></dd><dt>Русский</dt><dd>медь</dd><dt>Countability</dt><dd>uncountable</dd></dl>
+<p>A reddish-brown metal used mainly for wiring and water pipes.</p>
+<ol><li>The plumber replaced the old pipes with <em>copper</em>.</li><li><em>Copper</em> turns green after years outdoors.</li><li>Scrap <em>copper</em> is worth real money right now.</li></ol>
+<hr>
+<h3 id="brass">brass<a class="hash" href="#brass" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/bræs/ &middot; <em>BRAS</em></dd><dt>Русский</dt><dd>латунь</dd><dt>Countability</dt><dd>uncountable</dd></dl>
+<p>A yellow metal made from copper and zinc.</p>
+<ol><li>The door handles are solid <em>brass</em>.</li><li>She polishes the <em>brass</em> on the boat every spring.</li><li>A <em>brass</em> band played in the park all afternoon.</li></ol>
+<hr>
+<h3 id="bronze">bronze<a class="hash" href="#bronze" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/brɑːnz/ &middot; <em>BRAHNZ</em></dd><dt>Русский</dt><dd>бронза</dd><dt>Countability</dt><dd>uncountable</dd></dl>
+<p>A brown metal made from copper and tin, used for statues and medals.</p>
+<ol><li>The statue in the square is <em>bronze</em>.</li><li>He took home the <em>bronze</em> in the 400 meters.</li><li><em>Bronze</em> darkens as it ages.</li></ol>
+<hr>
+<h3 id="tin">tin<a class="hash" href="#tin" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/tɪn/ &middot; <em>TIN</em></dd><dt>Русский</dt><dd>олово</dd><dt>Countability</dt><dd>uncountable</dd><dt>Contrast</dt><dd>In American English <em>tin</em> is the metal; the British also use <em>a tin</em> for what Americans call <em>a can</em>.</dd></dl>
+<p>A soft, silvery metal, often used as a coating on other metals.</p>
+<ol><li>The roof is <em>tin</em>, so the rain is deafening.</li><li>Solder is mostly <em>tin</em> and lead.</li><li>The old toy soldiers were cast from <em>tin</em>.</li></ol>
+<hr>
+<h3 id="lead">lead<a class="hash" href="#lead" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/led/ &middot; <em>LED</em></dd><dt>Русский</dt><dd>свинец</dd><dt>Countability</dt><dd>uncountable</dd><dt>Contrast</dt><dd>The metal <em>lead</em> is said LED, like the past tense <em>led</em> — not LEED, which is the verb <em>to lead</em>.</dd></dl>
+<p>A heavy, soft, gray metal that is poisonous to people.</p>
+<ol><li>Older houses may still have <em>lead</em> paint.</li><li>The water tested positive for <em>lead</em>.</li><li><em>Lead</em> is surprisingly heavy for its size.</li></ol>
+<hr>
+<h3 id="zinc">zinc<a class="hash" href="#zinc" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/zɪŋk/ &middot; <em>ZINGK</em></dd><dt>Русский</dt><dd>цинк</dd><dt>Countability</dt><dd>uncountable</dd></dl>
+<p>A bluish-white metal used to coat steel and in some medicines.</p>
+<ol><li>Galvanized nails are coated in <em>zinc</em>.</li><li>She takes <em>zinc</em> whenever she feels a cold coming on.</li><li>The <em>zinc</em> keeps the steel from rusting.</li></ol>
+<hr>
+<h3 id="nickel">nickel<a class="hash" href="#nickel" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/ˈnɪkəl/ &middot; <em>NIK-uhl</em></dd><dt>Русский</dt><dd>никель; монета в 5 центов</dd><dt>Plural</dt><dd><em>nickels</em></dd><dt>Countability</dt><dd>both — countable and uncountable with different meanings</dd><dt>Contrast</dt><dd>Uncountable as the metal (<em>plated in nickel</em>), countable as the coin (<em>two nickels</em>).</dd></dl>
+<p>A hard silvery metal, and also the American five-cent coin.</p>
+<ol><li>The faucet is plated in <em>nickel</em>.</li><li>I found two <em>nickels</em> under the car seat.</li><li>Some people get a rash from the <em>nickel</em> in cheap earrings.</li></ol>
+<hr>
+<h3 id="titanium">titanium<a class="hash" href="#titanium" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/taɪˈteɪniəm/ &middot; <em>ty-TAY-nee-uhm</em></dd><dt>Русский</dt><dd>титан (металл)</dd><dt>Countability</dt><dd>uncountable</dd></dl>
+<p>A strong, light metal used in aircraft, tools, and medical implants.</p>
+<ol><li>His new hip is <em>titanium</em>.</li><li>The frame is <em>titanium</em>, which is why the bike is so light.</li><li><em>Titanium</em> is hard on drill bits.</li></ol>
+<hr>
+<h3 id="mercury">mercury<a class="hash" href="#mercury" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/ˈmɜːrkjəri/ &middot; <em>MUR-kyuh-ree</em></dd><dt>Русский</dt><dd>ртуть</dd><dt>Countability</dt><dd>uncountable</dd></dl>
+<p>A silvery metal that is liquid at room temperature and highly toxic.</p>
+<ol><li>Old thermometers were filled with <em>mercury</em>.</li><li>Some fish carry high levels of <em>mercury</em>.</li><li>Never touch spilled <em>mercury</em> with your hands.</li></ol>
+<hr>
+<h3 id="chrome">chrome<a class="hash" href="#chrome" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/kroʊm/ &middot; <em>KROHM</em></dd><dt>Русский</dt><dd>хром (покрытие)</dd><dt>Countability</dt><dd>uncountable</dd></dl>
+<p>A shiny metal coating put on metal parts for looks and protection.</p>
+<ol><li>The bumper is all <em>chrome</em>.</li><li>He spent Sunday polishing the <em>chrome</em> on his bike.</li><li>The <em>chrome</em> has started to peel around the mirror.</li></ol>
+<hr>
+<h3 id="rust">rust<a class="hash" href="#rust" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/rʌst/ &middot; <em>RUST</em></dd><dt>Русский</dt><dd>ржавчина</dd><dt>Countability</dt><dd>uncountable</dd></dl>
+<p>The reddish-brown flaky coating that forms on iron when it gets wet.</p>
+<ol><li>There's <em>rust</em> along the bottom of the door.</li><li>A little <em>rust</em> on the tools won't hurt anything.</li><li>Salt on the roads eats cars alive with <em>rust</em>.</li></ol>
+<hr>
+<h3 id="oak">oak<a class="hash" href="#oak" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/oʊk/ &middot; <em>OHK</em></dd><dt>Русский</dt><dd>дуб (дерево и древесина)</dd><dt>Plural</dt><dd><em>oaks</em></dd><dt>Countability</dt><dd>countable, and uncountable as a substance</dd></dl>
+<p>A large hardwood tree, or the strong wood that comes from it.</p>
+<ol><li>The table is solid <em>oak</em>.</li><li>There's a hundred-year-old <em>oak</em> in the front yard.</li><li><em>Oak</em> floors hold up better than pine.</li></ol>
+<hr>
+<h3 id="pine">pine<a class="hash" href="#pine" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/paɪn/ &middot; <em>PYN</em></dd><dt>Русский</dt><dd>сосна (дерево и древесина)</dd><dt>Plural</dt><dd><em>pines</em></dd><dt>Countability</dt><dd>countable, and uncountable as a substance</dd></dl>
+<p>An evergreen tree with needles, or the soft pale wood it produces.</p>
+<ol><li>The shelves are cheap <em>pine</em>.</li><li>The whole cabin smells like <em>pine</em>.</li><li>They planted <em>pines</em> along the fence line.</li></ol>
+<hr>
+<h3 id="maple">maple<a class="hash" href="#maple" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/ˈmeɪpəl/ &middot; <em>MAY-puhl</em></dd><dt>Русский</dt><dd>клён (дерево и древесина)</dd><dt>Plural</dt><dd><em>maples</em></dd><dt>Countability</dt><dd>countable, and uncountable as a substance</dd></dl>
+<p>A shade tree known for its syrup and its hard, pale wood.</p>
+<ol><li>The cutting board is <em>maple</em>.</li><li>The <em>maples</em> turn bright red in October.</li><li><em>Maple</em> is harder than pine, so it doesn't dent as easily.</li></ol>
+<hr>
+<h3 id="cedar">cedar<a class="hash" href="#cedar" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/ˈsiːdər/ &middot; <em>SEE-dur</em></dd><dt>Русский</dt><dd>кедр; кедровая древесина</dd><dt>Plural</dt><dd><em>cedars</em></dd><dt>Countability</dt><dd>countable, and uncountable as a substance</dd></dl>
+<p>An evergreen tree with fragrant wood that resists rot.</p>
+<ol><li>We built the deck out of <em>cedar</em>.</li><li>The closet is lined with <em>cedar</em> to keep the moths out.</li><li>A row of <em>cedars</em> blocks the wind off the lake.</li></ol>
+<hr>
+<h3 id="timber">timber<a class="hash" href="#timber" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/ˈtɪmbər/ &middot; <em>TIM-bur</em></dd><dt>Русский</dt><dd>лесоматериал; строевой лес</dd><dt>Countability</dt><dd>uncountable</dd><dt>Contrast</dt><dd>Americans say <em>lumber</em> for cut boards and keep <em>timber</em> for standing trees or heavy beams; British English uses <em>timber</em> for both.</dd></dl>
+<p>Trees or heavy cut wood used for building.</p>
+<ol><li>The company owns thousands of acres of <em>timber</em>.</li><li>Heavy <em>timber</em> holds up the whole roof.</li><li><em>Timber</em> prices jumped last spring.</li></ol>
+<hr>
+<h3 id="bamboo">bamboo<a class="hash" href="#bamboo" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/bæmˈbuː/ &middot; <em>bam-BOO</em></dd><dt>Русский</dt><dd>бамбук</dd><dt>Countability</dt><dd>uncountable</dd><dt>Contrast</dt><dd>Stress falls on the second syllable: bam-BOO.</dd></dl>
+<p>A tall, fast-growing grass with hard hollow stems used as a material.</p>
+<ol><li>The floors are <em>bamboo</em>.</li><li><em>Bamboo</em> grows so fast it takes over the yard.</li><li>The cutting board is made of <em>bamboo</em>.</li></ol>
+<hr>
+<h3 id="bark">bark<a class="hash" href="#bark" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/bɑːrk/ &middot; <em>BARK</em></dd><dt>Русский</dt><dd>кора (дерева)</dd><dt>Countability</dt><dd>uncountable</dd></dl>
+<p>The tough outer covering of a tree trunk and its branches.</p>
+<ol><li>The deer stripped the <em>bark</em> off the young trees.</li><li><em>Bark</em> mulch keeps the weeds down.</li><li>You can tell a birch by its white <em>bark</em>.</li></ol>
+<hr>
+<h3 id="charcoal">charcoal<a class="hash" href="#charcoal" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/ˈtʃɑːrkoʊl/ &middot; <em>CHAR-kohl</em></dd><dt>Русский</dt><dd>древесный уголь</dd><dt>Countability</dt><dd>uncountable</dd></dl>
+<p>A black form of carbon made by burning wood slowly, used as fuel.</p>
+<ol><li>Light the <em>charcoal</em> half an hour before you cook.</li><li>We're out of <em>charcoal</em> for the grill.</li><li>She sketched the whole portrait in <em>charcoal</em>.</li></ol>
+<hr>
+<h3 id="hardwood">hardwood<a class="hash" href="#hardwood" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/ˈhɑːrdwʊd/ &middot; <em>HARD-wuud</em></dd><dt>Русский</dt><dd>древесина твёрдых пород</dd><dt>Countability</dt><dd>uncountable</dd></dl>
+<p>Dense wood from broad-leaved trees such as oak or maple.</p>
+<ol><li>The apartment has <em>hardwood</em> floors.</li><li><em>Hardwood</em> burns longer than pine.</li><li>Refinishing the <em>hardwood</em> took a week.</li></ol>
+<hr>
+<h3 id="nylon">nylon<a class="hash" href="#nylon" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/ˈnaɪlɑːn/ &middot; <em>NY-lahn</em></dd><dt>Русский</dt><dd>нейлон</dd><dt>Countability</dt><dd>uncountable</dd></dl>
+<p>A strong artificial fiber used in rope, brushes, and clothing.</p>
+<ol><li>The tent is lightweight <em>nylon</em>.</li><li><em>Nylon</em> dries fast, which is why hikers like it.</li><li>The strap is <em>nylon</em> webbing.</li></ol>
+<hr>
+<h3 id="canvas">canvas<a class="hash" href="#canvas" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/ˈkænvəs/ &middot; <em>KAN-vuhs</em></dd><dt>Русский</dt><dd>брезент, парусина; холст</dd><dt>Plural</dt><dd><em>canvases</em></dd><dt>Countability</dt><dd>both — countable and uncountable with different meanings</dd><dt>Contrast</dt><dd>One s: <em>canvas</em> is the cloth. <em>Canvass</em>, with two, is the verb for going door to door.</dd></dl>
+<p>Strong, coarse cloth used for tents and bags, or a piece of it stretched for painting.</p>
+<ol><li>The bag is heavy <em>canvas</em>.</li><li>There were half-finished <em>canvases</em> all over the studio.</li><li>The awning is faded <em>canvas</em>.</li></ol>
+<hr>
+<h3 id="felt">felt<a class="hash" href="#felt" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/felt/ &middot; <em>FELT</em></dd><dt>Русский</dt><dd>войлок, фетр</dd><dt>Countability</dt><dd>uncountable</dd><dt>Contrast</dt><dd>Written and said exactly like <em>felt</em>, the past tense of <em>feel</em> — only the sentence tells you which one it is.</dd></dl>
+<p>A thick cloth made by pressing wool fibers together instead of weaving them.</p>
+<ol><li>The pool table is covered in green <em>felt</em>.</li><li>Cut the shapes out of <em>felt</em>.</li><li>There's a piece of <em>felt</em> under each chair leg.</li></ol>
+<hr>
+<h3 id="yarn">yarn<a class="hash" href="#yarn" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/jɑːrn/ &middot; <em>YARN</em></dd><dt>Русский</dt><dd>пряжа</dd><dt>Plural</dt><dd><em>yarns</em></dd><dt>Countability</dt><dd>countable, and uncountable as a substance</dd></dl>
+<p>Thick spun fiber used for knitting.</p>
+<ol><li>She bought <em>yarn</em> for a baby blanket.</li><li>The cat got into the <em>yarn</em> again.</li><li>That shop carries hand-dyed <em>yarns</em>.</li></ol>
+<hr>
+<h3 id="fleece">fleece<a class="hash" href="#fleece" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/fliːs/ &middot; <em>FLEES</em></dd><dt>Русский</dt><dd>флис; овечья шерсть</dd><dt>Countability</dt><dd>uncountable</dd></dl>
+<p>A soft, warm synthetic fabric, or the woolly coat of a sheep.</p>
+<ol><li>The jacket is lined with <em>fleece</em>.</li><li><em>Fleece</em> dries faster than wool.</li><li>He pulled on a <em>fleece</em> pullover and went out.</li></ol>
+<hr>
+<h3 id="flannel">flannel<a class="hash" href="#flannel" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/ˈflænəl/ &middot; <em>FLAN-uhl</em></dd><dt>Русский</dt><dd>фланель</dd><dt>Countability</dt><dd>uncountable</dd></dl>
+<p>A soft, brushed cotton cloth used for shirts and sheets.</p>
+<ol><li>He lives in <em>flannel</em> shirts all winter.</li><li>We put the <em>flannel</em> sheets on in November.</li><li><em>Flannel</em> gets softer every time you wash it.</li></ol>
+<hr>
+<h3 id="cashmere">cashmere<a class="hash" href="#cashmere" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/ˈkæʒmɪr/ &middot; <em>KAZH-meer</em></dd><dt>Русский</dt><dd>кашемир</dd><dt>Countability</dt><dd>uncountable</dd></dl>
+<p>A very fine, soft wool from a kind of goat.</p>
+<ol><li>The sweater is <em>cashmere</em>, so hand-wash it.</li><li><em>Cashmere</em> is warm without being bulky.</li><li>A good <em>cashmere</em> scarf lasts for years.</li></ol>
+<hr>
+<h3 id="plastic">plastic<a class="hash" href="#plastic" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/ˈplæstɪk/ &middot; <em>PLAS-tik</em></dd><dt>Русский</dt><dd>пластик, пластмасса</dd><dt>Plural</dt><dd><em>plastics</em></dd><dt>Countability</dt><dd>countable, and uncountable as a substance</dd></dl>
+<p>A light artificial material that can be molded into almost any shape.</p>
+<ol><li>The whole toy is cheap <em>plastic</em>.</li><li>Paper or <em>plastic</em>?</li><li>Some <em>plastics</em> can't be recycled at all.</li></ol>
+<hr>
+<h3 id="rubber">rubber<a class="hash" href="#rubber" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/ˈrʌbər/ &middot; <em>RUH-bur</em></dd><dt>Русский</dt><dd>резина, каучук</dd><dt>Countability</dt><dd>uncountable</dd><dt>Contrast</dt><dd>In American English <em>rubber</em> is the material; in British English <em>a rubber</em> is also a pencil eraser.</dd></dl>
+<p>A stretchy, waterproof material made from tree sap or produced synthetically.</p>
+<ol><li>The soles are thick <em>rubber</em>.</li><li><em>Rubber</em> cracks when it gets old.</li><li>Put a <em>rubber</em> mat down in the tub.</li></ol>
+<hr>
+<h3 id="vinyl">vinyl<a class="hash" href="#vinyl" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/ˈvaɪnəl/ &middot; <em>VY-nuhl</em></dd><dt>Русский</dt><dd>винил</dd><dt>Countability</dt><dd>uncountable</dd><dt>Contrast</dt><dd>Said VY-nuhl, with the first syllable like <em>vine</em> — not VIN-il.</dd></dl>
+<p>A tough plastic used for flooring, siding, and records.</p>
+<ol><li>The kitchen floor is <em>vinyl</em>.</li><li>He still buys his music on <em>vinyl</em>.</li><li><em>Vinyl</em> siding never needs painting.</li></ol>
+<hr>
+<h3 id="silicone">silicone<a class="hash" href="#silicone" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/ˈsɪlɪkoʊn/ &middot; <em>SIL-ih-kohn</em></dd><dt>Русский</dt><dd>силикон</dd><dt>Countability</dt><dd>uncountable</dd><dt>Contrast</dt><dd><em>Silicone</em> (SIL-ih-kohn) is the rubbery material; <em>silicon</em> (SIL-ih-kun) is the element in computer chips.</dd></dl>
+<p>A rubbery synthetic material used for seals, molds, and bakeware.</p>
+<ol><li>Run a bead of <em>silicone</em> around the tub.</li><li>The spatula is <em>silicone</em>, so it won't melt.</li><li><em>Silicone</em> caulk takes a day to cure.</li></ol>
+<hr>
+<h3 id="latex">latex<a class="hash" href="#latex" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/ˈleɪteks/ &middot; <em>LAY-teks</em></dd><dt>Русский</dt><dd>латекс</dd><dt>Countability</dt><dd>uncountable</dd><dt>Contrast</dt><dd>The first syllable is like <em>late</em>: LAY-teks.</dd></dl>
+<p>A milky liquid from rubber trees, and the paint or rubber made from it.</p>
+<ol><li>We used <em>latex</em> paint on the walls.</li><li>Some people are allergic to <em>latex</em> gloves.</li><li><em>Latex</em> cleans up with plain water.</li></ol>
+<hr>
+<h3 id="fiberglass">fiberglass<a class="hash" href="#fiberglass" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/ˈfaɪbərɡlæs/ &middot; <em>FY-bur-glas</em></dd><dt>Русский</dt><dd>стекловолокно, стеклопластик</dd><dt>Countability</dt><dd>uncountable</dd><dt>Contrast</dt><dd>American spelling <em>fiberglass</em>; British <em>fibreglass</em>.</dd></dl>
+<p>A material of fine glass threads, used for insulation and boat hulls.</p>
+<ol><li>The attic is insulated with <em>fiberglass</em>.</li><li>The hull is <em>fiberglass</em>, not wood.</li><li>Wear gloves — <em>fiberglass</em> itches for days.</li></ol>
+<hr>
+<h3 id="acrylic">acrylic<a class="hash" href="#acrylic" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/əˈkrɪlɪk/ &middot; <em>uh-KRIL-ik</em></dd><dt>Русский</dt><dd>акрил</dd><dt>Plural</dt><dd><em>acrylics</em></dd><dt>Countability</dt><dd>countable, and uncountable as a substance</dd></dl>
+<p>A clear plastic, or the fast-drying paint made from it.</p>
+<ol><li>The tub surround is <em>acrylic</em>.</li><li>She paints in <em>acrylics</em> now instead of oils.</li><li>The sweater is <em>acrylic</em>, not wool.</li></ol>
+<hr>
+<h3 id="stone">stone<a class="hash" href="#stone" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/stoʊn/ &middot; <em>STOHN</em></dd><dt>Русский</dt><dd>камень (материал и кусок)</dd><dt>Plural</dt><dd><em>stones</em></dd><dt>Countability</dt><dd>countable, and uncountable as a substance</dd></dl>
+<p>Hard mineral material from the ground, or a piece of it.</p>
+<ol><li>The old church is built of <em>stone</em>.</li><li>He skipped <em>stones</em> across the pond.</li><li>There's a <em>stone</em> wall along the property line.</li></ol>
+<hr>
+<h3 id="rock">rock<a class="hash" href="#rock" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/rɑːk/ &middot; <em>RAHK</em></dd><dt>Русский</dt><dd>камень; горная порода</dd><dt>Plural</dt><dd><em>rocks</em></dd><dt>Countability</dt><dd>countable, and uncountable as a substance</dd></dl>
+<p>The hard material that makes up the earth's surface, or a loose piece of it.</p>
+<ol><li>They hit solid <em>rock</em> two feet down.</li><li>Somebody threw a <em>rock</em> through the window.</li><li>The kids climbed all over the <em>rocks</em>.</li></ol>
+<hr>
+<h3 id="marble">marble<a class="hash" href="#marble" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/ˈmɑːrbəl/ &middot; <em>MAR-buhl</em></dd><dt>Русский</dt><dd>мрамор; стеклянный шарик</dd><dt>Plural</dt><dd><em>marbles</em></dd><dt>Countability</dt><dd>both — countable and uncountable with different meanings</dd><dt>Contrast</dt><dd>Uncountable as the stone (<em>a marble floor</em>), countable as the little glass ball (<em>a bag of marbles</em>).</dd></dl>
+<p>A hard stone that polishes to a smooth shine, or a small glass ball.</p>
+<ol><li>The countertops are <em>marble</em>.</li><li>He found a jar of his father's old <em>marbles</em>.</li><li>The lobby floor is white <em>marble</em>.</li></ol>
+<hr>
+<h3 id="granite">granite<a class="hash" href="#granite" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/ˈɡrænɪt/ &middot; <em>GRAN-it</em></dd><dt>Русский</dt><dd>гранит</dd><dt>Countability</dt><dd>uncountable</dd></dl>
+<p>A very hard speckled rock used for counters and monuments.</p>
+<ol><li>They put in <em>granite</em> counters.</li><li>The steps are worn <em>granite</em>.</li><li><em>Granite</em> is nearly impossible to scratch.</li></ol>
+<hr>
+<h3 id="clay">clay<a class="hash" href="#clay" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/kleɪ/ &middot; <em>KLAY</em></dd><dt>Русский</dt><dd>глина</dd><dt>Countability</dt><dd>uncountable</dd></dl>
+<p>Sticky earth that hardens when it is dried or fired.</p>
+<ol><li>The soil out here is heavy <em>clay</em>.</li><li>She threw a bowl out of <em>clay</em>.</li><li><em>Clay</em> holds water instead of draining.</li></ol>
+<hr>
+<h3 id="quartz">quartz<a class="hash" href="#quartz" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/kwɔːrts/ &middot; <em>KWORTS</em></dd><dt>Русский</dt><dd>кварц</dd><dt>Countability</dt><dd>uncountable</dd><dt>Contrast</dt><dd>One syllable, KWORTS — the qu says KW.</dd></dl>
+<p>A hard, glassy mineral found in many rocks and used in watches.</p>
+<ol><li>There's a vein of white <em>quartz</em> running through the rock.</li><li>The watch is <em>quartz</em>, not mechanical.</li><li><em>Quartz</em> countertops are engineered, not quarried.</li></ol>
+<hr>
+<h3 id="slate">slate<a class="hash" href="#slate" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/sleɪt/ &middot; <em>SLAYT</em></dd><dt>Русский</dt><dd>сланец; шифер</dd><dt>Countability</dt><dd>uncountable</dd></dl>
+<p>A gray rock that splits into flat sheets, used for roofs and floors.</p>
+<ol><li>The roof is original <em>slate</em>.</li><li>The patio is laid with <em>slate</em>.</li><li><em>Slate</em> cracks if you drop something heavy on it.</li></ol>
+<hr>
+<h3 id="gravel">gravel<a class="hash" href="#gravel" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/ˈɡrævəl/ &middot; <em>GRAV-uhl</em></dd><dt>Русский</dt><dd>гравий, щебень</dd><dt>Countability</dt><dd>uncountable</dd></dl>
+<p>Small loose stones used for roads and driveways.</p>
+<ol><li>The driveway is just <em>gravel</em>.</li><li>You can hear the <em>gravel</em> crunch when a car pulls in.</li><li>They spread fresh <em>gravel</em> on the road last week.</li></ol>
+<hr>
+<h3 id="coal">coal<a class="hash" href="#coal" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/koʊl/ &middot; <em>KOHL</em></dd><dt>Русский</dt><dd>уголь (каменный)</dd><dt>Countability</dt><dd>uncountable</dd></dl>
+<p>A black rock burned as fuel.</p>
+<ol><li>The plant still burns <em>coal</em>.</li><li>His grandfather mined <em>coal</em> in West Virginia.</li><li><em>Coal</em> dust got into everything.</li></ol>
+<hr>
+<h3 id="chalk">chalk<a class="hash" href="#chalk" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/tʃɔːk/ &middot; <em>CHAWK</em></dd><dt>Русский</dt><dd>мел</dd><dt>Countability</dt><dd>uncountable</dd><dt>Contrast</dt><dd>The l is silent: CHAWK, rhyming with <em>talk</em>.</dd></dl>
+<p>A soft white rock, or the sticks of it used for writing.</p>
+<ol><li>There's no <em>chalk</em> left at the board.</li><li>The kids drew all over the driveway with <em>chalk</em>.</li><li>Climbers put <em>chalk</em> on their hands for grip.</li></ol>
+<hr>
+<h3 id="mineral">mineral<a class="hash" href="#mineral" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/ˈmɪnərəl/ &middot; <em>MIN-ur-uhl</em></dd><dt>Русский</dt><dd>минерал</dd><dt>Plural</dt><dd><em>minerals</em></dd><dt>Countability</dt><dd>countable</dd></dl>
+<p>A natural solid substance found in the ground, such as quartz or salt.</p>
+<ol><li>The rock is full of shiny <em>minerals</em>.</li><li>Spinach is a good source of iron and other <em>minerals</em>.</li><li>The well water has a strong <em>mineral</em> taste.</li></ol>
+<hr>
+<h3 id="sulfur">sulfur<a class="hash" href="#sulfur" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/ˈsʌlfər/ &middot; <em>SUL-fur</em></dd><dt>Русский</dt><dd>сера</dd><dt>Countability</dt><dd>uncountable</dd><dt>Contrast</dt><dd>Americans spell it <em>sulfur</em>; the British write <em>sulphur</em>. Both are said SUL-fur.</dd></dl>
+<p>A yellow chemical element that smells of rotten eggs when it burns.</p>
+<ol><li>The hot springs reek of <em>sulfur</em>.</li><li><em>Sulfur</em> is used to make matches.</li><li>There's <em>sulfur</em> in the well water.</li></ol>
+<hr>
+<h3 id="asbestos">asbestos<a class="hash" href="#asbestos" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/æsˈbestəs/ &middot; <em>as-BES-tuhs</em></dd><dt>Русский</dt><dd>асбест</dd><dt>Countability</dt><dd>uncountable</dd><dt>Contrast</dt><dd>Stress on the second syllable: as-BES-tuhs.</dd></dl>
+<p>A fibrous mineral once used for insulation, now known to cause cancer.</p>
+<ol><li>The old pipes are wrapped in <em>asbestos</em>.</li><li>They had to test the building for <em>asbestos</em>.</li><li><em>Asbestos</em> removal costs a fortune.</li></ol>
+<hr>
+<h3 id="ivory">ivory<a class="hash" href="#ivory" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/ˈaɪvəri/ &middot; <em>EYE-vuh-ree</em></dd><dt>Русский</dt><dd>слоновая кость</dd><dt>Countability</dt><dd>uncountable</dd></dl>
+<p>The hard, creamy-white substance of elephant tusks.</p>
+<ol><li>The handle is carved <em>ivory</em>.</li><li>Selling <em>ivory</em> is illegal almost everywhere now.</li><li>The walls are painted a soft <em>ivory</em>.</li></ol>
+<hr>
+<h3 id="mud">mud<a class="hash" href="#mud" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/mʌd/ &middot; <em>MUD</em></dd><dt>Русский</dt><dd>грязь, слякоть</dd><dt>Countability</dt><dd>uncountable</dd></dl>
+<p>Wet, soft earth.</p>
+<ol><li>The truck is covered in <em>mud</em>.</li><li>Take your boots off — there's <em>mud</em> all over them.</li><li>The field turns to <em>mud</em> every spring.</li></ol>
+<hr>
+<h3 id="soil">soil<a class="hash" href="#soil" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/sɔɪl/ &middot; <em>SOYL</em></dd><dt>Русский</dt><dd>почва, грунт</dd><dt>Countability</dt><dd>uncountable</dd></dl>
+<p>The top layer of earth in which plants grow.</p>
+<ol><li>The <em>soil</em> here is too sandy for tomatoes.</li><li>Add compost to improve the <em>soil</em>.</li><li>Erosion has washed away the best <em>soil</em>.</li></ol>
+<hr>
+<h3 id="acid">acid<a class="hash" href="#acid" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/ˈæsɪd/ &middot; <em>AS-id</em></dd><dt>Русский</dt><dd>кислота</dd><dt>Plural</dt><dd><em>acids</em></dd><dt>Countability</dt><dd>countable, and uncountable as a substance</dd></dl>
+<p>A chemical that tastes sour and can burn or dissolve other substances.</p>
+<ol><li>Battery <em>acid</em> ate a hole in the floor mat.</li><li>Lemon juice is a mild <em>acid</em>.</li><li>Some <em>acids</em> will burn right through metal.</li></ol>
+<hr>
+<h3 id="chemical">chemical<a class="hash" href="#chemical" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/ˈkemɪkəl/ &middot; <em>KEM-ih-kuhl</em></dd><dt>Русский</dt><dd>химикат, химическое вещество</dd><dt>Plural</dt><dd><em>chemicals</em></dd><dt>Countability</dt><dd>countable</dd><dt>Contrast</dt><dd>The ch says K: KEM-ih-kuhl.</dd></dl>
+<p>A substance produced by or used in chemistry.</p>
+<ol><li>The pool needs <em>chemicals</em> every week.</li><li>A truck spilled some kind of <em>chemical</em> on the highway.</li><li>Read the label before you mix <em>chemicals</em>.</li></ol>
+<hr>
+<h3 id="ammonia">ammonia<a class="hash" href="#ammonia" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/əˈmoʊniə/ &middot; <em>uh-MOH-nee-uh</em></dd><dt>Русский</dt><dd>аммиак; нашатырный спирт</dd><dt>Countability</dt><dd>uncountable</dd><dt>Contrast</dt><dd>Stress on the second syllable: uh-MOH-nee-uh.</dd></dl>
+<p>A colorless gas with a sharp smell, used dissolved in water as a cleaner.</p>
+<ol><li>The cage smelled of <em>ammonia</em>.</li><li>She cleans the windows with <em>ammonia</em>.</li><li><em>Ammonia</em> fumes will make your eyes water.</li></ol>
+<hr>
+<h3 id="hydrogen">hydrogen<a class="hash" href="#hydrogen" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/ˈhaɪdrədʒən/ &middot; <em>HY-druh-juhn</em></dd><dt>Русский</dt><dd>водород</dd><dt>Countability</dt><dd>uncountable</dd></dl>
+<p>The lightest chemical element, a colorless gas.</p>
+<ol><li>Water is <em>hydrogen</em> and oxygen.</li><li>The city bought a few buses that run on <em>hydrogen</em>.</li><li><em>Hydrogen</em> burns with almost no visible flame.</li></ol>
+<hr>
+<h3 id="oxygen">oxygen<a class="hash" href="#oxygen" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/ˈɑːksɪdʒən/ &middot; <em>AHK-sih-juhn</em></dd><dt>Русский</dt><dd>кислород</dd><dt>Countability</dt><dd>uncountable</dd></dl>
+<p>The gas in the air that living things need in order to breathe.</p>
+<ol><li>She's on <em>oxygen</em> at night.</li><li>There's less <em>oxygen</em> at that altitude.</li><li>A fire needs fuel and <em>oxygen</em>.</li></ol>
+<hr>
+<h3 id="carbon">carbon<a class="hash" href="#carbon" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/ˈkɑːrbən/ &middot; <em>KAR-buhn</em></dd><dt>Русский</dt><dd>углерод</dd><dt>Countability</dt><dd>uncountable</dd></dl>
+<p>A chemical element found in coal, diamonds, and every living thing.</p>
+<ol><li>Diamonds are pure <em>carbon</em>.</li><li>The bike frame is <em>carbon</em> fiber.</li><li>They're trying to cut <em>carbon</em> emissions in half.</li></ol>
+<hr>
+<h3 id="nitrogen">nitrogen<a class="hash" href="#nitrogen" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/ˈnaɪtrədʒən/ &middot; <em>NY-truh-juhn</em></dd><dt>Русский</dt><dd>азот</dd><dt>Countability</dt><dd>uncountable</dd></dl>
+<p>The colorless gas that makes up most of the air.</p>
+<ol><li><em>Nitrogen</em> is about eighty percent of the atmosphere.</li><li>The fertilizer is high in <em>nitrogen</em>.</li><li>The shop fills the tires with <em>nitrogen</em>.</li></ol>
+<hr>
+<h3 id="gasoline">gasoline<a class="hash" href="#gasoline" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/ˈɡæsəliːn/ &middot; <em>GAS-uh-leen</em></dd><dt>Русский</dt><dd>бензин</dd><dt>Countability</dt><dd>uncountable</dd><dt>Contrast</dt><dd>Americans say <em>gasoline</em>, usually shortened to <em>gas</em>; the British say <em>petrol</em>.</dd></dl>
+<p>The liquid fuel that most cars run on.</p>
+<ol><li><em>Gasoline</em> is up another twenty cents.</li><li>The mower ran out of <em>gasoline</em>.</li><li>Don't store <em>gasoline</em> in the house.</li></ol>
+<hr>
+<h3 id="fuel">fuel<a class="hash" href="#fuel" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/ˈfjuːəl/ &middot; <em>FYOO-uhl</em></dd><dt>Русский</dt><dd>топливо, горючее</dd><dt>Plural</dt><dd><em>fuels</em></dd><dt>Countability</dt><dd>countable, and uncountable as a substance</dd></dl>
+<p>Any material burned to produce heat or power.</p>
+<ol><li>The plane took on <em>fuel</em> in Denver.</li><li>Coal and oil are fossil <em>fuels</em>.</li><li><em>Fuel</em> costs eat up most of the budget.</li></ol>
+<hr>
+<h3 id="wax">wax<a class="hash" href="#wax" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/wæks/ &middot; <em>WAKS</em></dd><dt>Русский</dt><dd>воск; парафин</dd><dt>Countability</dt><dd>uncountable</dd></dl>
+<p>A soft solid that melts easily, used in candles and polish.</p>
+<ol><li>There's <em>wax</em> all over the tablecloth.</li><li>He put a coat of <em>wax</em> on the car.</li><li>Ear <em>wax</em> had built up and muffled her hearing.</li></ol>
+<hr>
+<h3 id="dye">dye<a class="hash" href="#dye" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/daɪ/ &middot; <em>DY</em></dd><dt>Русский</dt><dd>краситель, краска (для ткани, волос)</dd><dt>Plural</dt><dd><em>dyes</em></dd><dt>Countability</dt><dd>countable, and uncountable as a substance</dd><dt>Contrast</dt><dd><em>Dye</em> sounds exactly like <em>die</em>; only the spelling separates them.</dd></dl>
+<p>A substance used to change the color of cloth or hair.</p>
+<ol><li>The <em>dye</em> ran and turned the whole load pink.</li><li>She uses a <em>dye</em> to cover the gray.</li><li>Some food <em>dyes</em> are banned in Europe.</li></ol>
+<hr>
+<h3 id="poison">poison<a class="hash" href="#poison" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/ˈpɔɪzən/ &middot; <em>POY-zuhn</em></dd><dt>Русский</dt><dd>яд, отрава</dd><dt>Plural</dt><dd><em>poisons</em></dd><dt>Countability</dt><dd>countable, and uncountable as a substance</dd></dl>
+<p>A substance that causes illness or death if it gets into the body.</p>
+<ol><li>Keep the rat <em>poison</em> away from the dog.</li><li>Those berries are <em>poison</em>.</li><li>Most household <em>poisons</em> are stored under the sink.</li></ol>
+<hr>
+<h3 id="diesel">diesel<a class="hash" href="#diesel" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/ˈdiːzəl/ &middot; <em>DEE-zuhl</em></dd><dt>Русский</dt><dd>дизельное топливо, солярка</dd><dt>Countability</dt><dd>uncountable</dd><dt>Contrast</dt><dd>The s is said as a Z: DEE-zuhl.</dd></dl>
+<p>A heavy fuel oil burned in truck and bus engines.</p>
+<ol><li>The truck takes <em>diesel</em>, not gas.</li><li><em>Diesel</em> costs more than regular right now.</li><li>You can smell the <em>diesel</em> from the parking lot.</li></ol>
+<hr>
+<h3 id="mortar">mortar<a class="hash" href="#mortar" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/ˈmɔːrtər/ &middot; <em>MOR-tur</em></dd><dt>Русский</dt><dd>строительный раствор</dd><dt>Countability</dt><dd>uncountable</dd></dl>
+<p>The paste of cement and sand that holds bricks or stones together.</p>
+<ol><li>The <em>mortar</em> between the bricks is crumbling.</li><li>He scraped out the old <em>mortar</em> and repacked it.</li><li>Fresh <em>mortar</em> has to stay damp while it cures.</li></ol>
+<hr>
+<h3 id="asphalt">asphalt<a class="hash" href="#asphalt" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/ˈæsfɔːlt/ &middot; <em>AS-fawlt</em></dd><dt>Русский</dt><dd>асфальт</dd><dt>Countability</dt><dd>uncountable</dd></dl>
+<p>The black sticky material mixed with gravel to surface roads.</p>
+<ol><li>The <em>asphalt</em> softens in the heat.</li><li>They repaved the lot with fresh <em>asphalt</em>.</li><li>You can smell the <em>asphalt</em> from a block away.</li></ol>
+<hr>
+<h3 id="tar">tar<a class="hash" href="#tar" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/tɑːr/ &middot; <em>TAR</em></dd><dt>Русский</dt><dd>смола, дёготь, гудрон</dd><dt>Countability</dt><dd>uncountable</dd></dl>
+<p>A thick, black, sticky substance made from coal or oil.</p>
+<ol><li>There's <em>tar</em> stuck to the bottom of my shoe.</li><li>They spread hot <em>tar</em> across the roof.</li><li>Cigarette smoke leaves <em>tar</em> in your lungs.</li></ol>
+<hr>
+<h3 id="liquid">liquid<a class="hash" href="#liquid" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/ˈlɪkwɪd/ &middot; <em>LIK-wid</em></dd><dt>Русский</dt><dd>жидкость</dd><dt>Plural</dt><dd><em>liquids</em></dd><dt>Countability</dt><dd>countable, and uncountable as a substance</dd></dl>
+<p>A substance that flows freely, such as water or oil.</p>
+<ol><li>Don't set any <em>liquid</em> down near the laptop.</li><li>You can't take <em>liquids</em> through security.</li><li>The medicine comes as a pill or a <em>liquid</em>.</li></ol>
+<hr>
+<h3 id="substance">substance<a class="hash" href="#substance" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/ˈsʌbstəns/ &middot; <em>SUB-stuhns</em></dd><dt>Русский</dt><dd>вещество</dd><dt>Plural</dt><dd><em>substances</em></dd><dt>Countability</dt><dd>countable</dd></dl>
+<p>A particular kind of material with definite properties.</p>
+<ol><li>There was a sticky <em>substance</em> on the door handle.</li><li>Bleach and ammonia are both dangerous <em>substances</em>.</li><li>The lab identified the <em>substance</em> as ordinary sugar.</li></ol>
+<hr>
+<h3 id="material">material<a class="hash" href="#material" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/məˈtɪriəl/ &middot; <em>muh-TEER-ee-uhl</em></dd><dt>Русский</dt><dd>материал</dd><dt>Plural</dt><dd><em>materials</em></dd><dt>Countability</dt><dd>countable, and uncountable as a substance</dd></dl>
+<p>Any substance from which something is made.</p>
+<ol><li>What <em>material</em> is the roof made of?</li><li>They ran out of building <em>materials</em> halfway through.</li><li>The jacket is made of a waterproof <em>material</em>.</li></ol>
+<hr>
+<h3 id="compound">compound<a class="hash" href="#compound" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/ˈkɑːmpaʊnd/ &middot; <em>KAHM-pownd</em></dd><dt>Русский</dt><dd>соединение (химическое); состав</dd><dt>Plural</dt><dd><em>compounds</em></dd><dt>Countability</dt><dd>countable</dd><dt>Contrast</dt><dd>The noun is stressed on the first syllable, KAHM-pownd; the verb <em>to compound</em> is stressed on the second, kuhm-POWND.</dd></dl>
+<p>A substance made of two or more elements chemically combined.</p>
+<ol><li>Water is a <em>compound</em> of hydrogen and oxygen.</li><li>The soil test turned up several <em>compounds</em> nobody expected.</li><li>Salt is a simple <em>compound</em>.</li></ol>
+<hr>
+<h3 id="element">element<a class="hash" href="#element" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/ˈeləmənt/ &middot; <em>EL-uh-muhnt</em></dd><dt>Русский</dt><dd>химический элемент</dd><dt>Plural</dt><dd><em>elements</em></dd><dt>Countability</dt><dd>countable</dd></dl>
+<p>A pure substance that cannot be broken down into anything simpler.</p>
+<ol><li>Gold is an <em>element</em>; brass is not.</li><li>About ninety <em>elements</em> occur in nature.</li><li>Carbon is the <em>element</em> all life is built on.</li></ol>
+<hr>
+<h3 id="vapor">vapor<a class="hash" href="#vapor" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/ˈveɪpər/ &middot; <em>VAY-pur</em></dd><dt>Русский</dt><dd>пар, испарения</dd><dt>Plural</dt><dd><em>vapors</em></dd><dt>Countability</dt><dd>countable, and uncountable as a substance</dd><dt>Contrast</dt><dd>Americans write <em>vapor</em>; the British write <em>vapour</em>.</dd></dl>
+<p>A substance in gas form that is normally a liquid or a solid.</p>
+<ol><li>Water <em>vapor</em> condenses on the cold glass.</li><li>The paint <em>vapors</em> gave everybody a headache.</li><li>You could see the <em>vapor</em> rising off the lake.</li></ol>
+<hr>
+<h3 id="cardboard">cardboard<a class="hash" href="#cardboard" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/ˈkɑːrdbɔːrd/ &middot; <em>KARD-bord</em></dd><dt>Русский</dt><dd>картон</dd><dt>Countability</dt><dd>uncountable</dd></dl>
+<p>Stiff, thick paper used for boxes and packing.</p>
+<ol><li>Break the <em>cardboard</em> down before you recycle it.</li><li>The whole thing showed up in a <em>cardboard</em> box.</li><li>Wet <em>cardboard</em> falls apart in your hands.</li></ol>
+<hr>
+<h3 id="porcelain">porcelain<a class="hash" href="#porcelain" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/ˈpɔːrsəlɪn/ &middot; <em>POR-suh-lin</em></dd><dt>Русский</dt><dd>фарфор</dd><dt>Countability</dt><dd>uncountable</dd><dt>Contrast</dt><dd>Usually three syllables in American speech, POR-suh-lin, with the middle one very light.</dd></dl>
+<p>A hard, white ceramic used for fine dishes and bathroom fixtures.</p>
+<ol><li>The sink is old <em>porcelain</em>.</li><li>She collects <em>porcelain</em> figurines.</li><li><em>Porcelain</em> chips if you drop something heavy in the sink.</li></ol>
+<hr>
+<h3 id="ceramic">ceramic<a class="hash" href="#ceramic" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/səˈræmɪk/ &middot; <em>suh-RAM-ik</em></dd><dt>Русский</dt><dd>керамика</dd><dt>Plural</dt><dd><em>ceramics</em></dd><dt>Countability</dt><dd>countable, and uncountable as a substance</dd><dt>Contrast</dt><dd>Stress on the second syllable: suh-RAM-ik.</dd></dl>
+<p>Hard material made by firing clay, or objects made from it.</p>
+<ol><li>The mug is <em>ceramic</em>, not plastic.</li><li>She sells her <em>ceramics</em> at the farmers market.</li><li><em>Ceramic</em> tile stays cold underfoot.</li></ol></div></main>
+<button class="themebtn" id="themeBtn">Dark</button>
+<script>
+const tb=document.getElementById('themeBtn');
+function setTheme(x){document.documentElement.dataset.theme=x;tb.textContent=x==='dark'?'Light':'Dark';
+ try{localStorage.setItem('site-theme',x)}catch(e){}}
+tb.onclick=()=>setTheme(document.documentElement.dataset.theme==='dark'?'light':'dark');
+try{const s=localStorage.getItem('site-theme');
+ setTheme(s||(matchMedia('(prefers-color-scheme: dark)').matches?'dark':'light'))}catch(e){setTheme('light')}
+</script></body></html>

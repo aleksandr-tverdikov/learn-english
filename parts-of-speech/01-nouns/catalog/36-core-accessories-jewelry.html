@@ -1,0 +1,526 @@
+<!DOCTYPE html>
+<html lang="en"><head>
+<meta charset="utf-8"><meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Core vocabulary: accessories and jewelry</title>
+<style>
+:root{--bg:#faf9f7;--surface:#fff;--surface2:#f2f0ec;--border:#e2ded6;--text:#1a1815;
+--dim:#5f594f;--faint:#8a8377;--accent:#8a5a3b;--measure:72ch}
+@media(prefers-color-scheme:dark){:root{--bg:#14140f;--surface:#1d1d17;--surface2:#25251d;
+--border:#33332a;--text:#eeeae1;--dim:#a8a293;--faint:#7d776b;--accent:#d09b72}}
+:root[data-theme=dark]{--bg:#14140f;--surface:#1d1d17;--surface2:#25251d;--border:#33332a;
+--text:#eeeae1;--dim:#a8a293;--faint:#7d776b;--accent:#d09b72}
+:root[data-theme=light]{--bg:#faf9f7;--surface:#fff;--surface2:#f2f0ec;--border:#e2ded6;
+--text:#1a1815;--dim:#5f594f;--faint:#8a8377;--accent:#8a5a3b}
+*{box-sizing:border-box}
+body{margin:0;background:var(--bg);color:var(--text);
+font:17px/1.72 ui-serif,Georgia,"Iowan Old Style",Palatino,serif;-webkit-font-smoothing:antialiased}
+.wrap{max-width:min(var(--measure),100%);margin:0 auto;padding:0 22px}
+nav.crumb{border-bottom:1px solid var(--border);padding:13px 0;font-size:13.5px;
+font-family:-apple-system,BlinkMacSystemFont,"Segoe UI",sans-serif;position:sticky;top:0;background:var(--bg);z-index:20}
+nav.crumb .wrap{max-width:none;display:flex;gap:9px;align-items:center;flex-wrap:wrap}
+nav.crumb a{color:var(--dim);text-decoration:none}
+nav.crumb a:hover{color:var(--accent)}
+nav.crumb .sep{color:var(--faint)}
+main{padding:8px 0 80px}
+h1{font-size:clamp(28px,5vw,38px);line-height:1.15;letter-spacing:-.015em;margin:34px 0 18px}
+h2{font-size:25px;margin:46px 0 14px;letter-spacing:-.01em;padding-bottom:7px;border-bottom:1px solid var(--border)}
+h3{font-size:19px;margin:34px 0 10px;color:var(--accent)}
+h4{font-size:16px;margin:24px 0 8px;font-family:-apple-system,sans-serif}
+p{margin:0 0 16px}
+a{color:var(--accent)}
+.hash{opacity:0;margin-left:8px;font-weight:400;font-size:.65em;text-decoration:none;color:var(--faint)}
+h2:hover .hash,h3:hover .hash{opacity:1}
+blockquote{margin:0 0 20px;padding:14px 18px;background:var(--surface2);
+border-left:3px solid var(--accent);border-radius:0 8px 8px 0}
+blockquote p:last-child{margin-bottom:0}
+ol,ul{margin:0 0 18px;padding-left:26px}
+li{margin-bottom:8px}
+li>ul,li>ol{margin:8px 0 0}
+code{font-family:ui-monospace,SFMono-Regular,Menlo,Consolas,monospace;font-size:.87em;
+background:var(--surface2);padding:1px 5px;border-radius:4px}
+pre{background:var(--surface2);border:1px solid var(--border);border-radius:9px;
+padding:15px 17px;overflow-x:auto;margin:0 0 20px}
+pre code{background:none;padding:0;font-size:13px;line-height:1.6}
+.tw{overflow-x:auto;margin:0 0 22px;border:1px solid var(--border);border-radius:9px}
+table{border-collapse:collapse;width:100%;font-size:15px;
+font-family:-apple-system,BlinkMacSystemFont,"Segoe UI",sans-serif}
+th,td{padding:10px 14px;border-bottom:1px solid var(--border);vertical-align:top}
+th{background:var(--surface2);font-size:12px;text-transform:uppercase;
+letter-spacing:.06em;color:var(--dim);font-weight:700;white-space:nowrap}
+tbody tr:last-child td{border-bottom:none}
+hr{border:none;border-top:1px solid var(--border);margin:38px 0}
+details{background:var(--surface2);border:1px solid var(--border);border-radius:9px;
+padding:13px 17px;margin:0 0 20px}
+summary{cursor:pointer;font-weight:600;font-family:-apple-system,sans-serif;font-size:15px}
+details[open] summary{margin-bottom:12px}
+del{color:var(--faint)}
+dl.fields{margin:0 0 20px;padding:0}
+dl.fields dt{font-family:-apple-system,BlinkMacSystemFont,"Segoe UI",sans-serif;
+font-size:11px;letter-spacing:.11em;text-transform:uppercase;color:var(--faint);
+font-weight:700;margin:14px 0 4px}
+dl.fields dt:first-child{margin-top:0}
+dl.fields dd{margin:0;font-size:16px;color:var(--dim);line-height:1.62}
+dl.fields dd em{color:var(--text)}
+dl.fields dt.ru{color:var(--accent)}
+dl.fields dd strong{color:var(--text)}
+.toc{background:var(--surface2);border:1px solid var(--border);border-radius:10px;
+padding:16px 20px;margin:26px 0 34px;font-family:-apple-system,sans-serif;font-size:14px}
+.toc b{display:block;font-size:11px;letter-spacing:.12em;text-transform:uppercase;
+color:var(--faint);margin-bottom:9px}
+.toc a{display:block;padding:3px 0;color:var(--dim);text-decoration:none}
+.toc a:hover{color:var(--accent)}
+.themebtn{position:fixed;right:18px;bottom:18px;z-index:60;font-family:-apple-system,sans-serif;
+font-size:12.5px;font-weight:600;cursor:pointer;background:var(--surface);border:1px solid var(--border);
+border-radius:99px;padding:9px 16px;color:var(--text)}
+@media(max-width:600px){body{font-size:16px}.wrap{padding:0 17px}}
+</style></head><body>
+<nav class="crumb"><div class="wrap"><a href="../../../index.html">Learn English</a><span class="sep">/</span><a href="../../README.html">Parts of speech</a><span class="sep">/</span><a href="../README.html">01-nouns</a><span class="sep">/</span><span>catalog</span></div></nav>
+<main><div class="wrap"><h1 id="core-vocabulary-accessories-and-jewelry">Core vocabulary: accessories and jewelry<a class="hash" href="#core-vocabulary-accessories-and-jewelry" aria-label="link">#</a></h1>
+<blockquote><p>The everyday nouns of accessories and jewelry — pronunciation, Russian, plural, and three examples each.</p></blockquote>
+<p><a href="../README.html">← The grammar of nouns</a> &middot; <a href="README.html">All groups</a></p>
+<p>Part of the <strong>core-vocabulary tier</strong>. Groups 1–23 cover the nouns that misbehave; this tier covers the nouns you simply need to know. Entries are deliberately lean, because a regular countable noun has no grammatical story to tell. A <strong>Contrast</strong> line appears only where the word hides a genuine trap.</p>
+<p>Where a word in this field <em>does</em> misbehave, it lives in the grammar tier instead and is not repeated here.</p>
+<hr>
+<h3 id="purse">purse<a class="hash" href="#purse" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/pɜːrs/ &middot; <em>PURS</em></dd><dt>Русский</dt><dd>дамская сумочка, сумка</dd><dt>Plural</dt><dd><em>purses</em></dd><dt>Countability</dt><dd>countable</dd><dt>Contrast</dt><dd>In American English a purse is what the British call a handbag; a British purse is a small wallet for coins.</dd></dl>
+<p>A small bag a woman carries money and personal things in.</p>
+<ol><li>She dug through her <em>purse</em> looking for her keys.</li><li>Someone grabbed her <em>purse</em> right off the back of the chair.</li><li>All the <em>purses</em> on that rack are half off.</li></ol>
+<hr>
+<h3 id="handbag">handbag<a class="hash" href="#handbag" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/ˈhændbæɡ/ &middot; <em>HAND-bag</em></dd><dt>Русский</dt><dd>сумочка, дамская сумка</dd><dt>Plural</dt><dd><em>handbags</em></dd><dt>Countability</dt><dd>countable</dd></dl>
+<p>A woman's bag for keys, money, and small personal items.</p>
+<ol><li>She set her <em>handbag</em> down on the counter and forgot it.</li><li>The store sells shoes and <em>handbags</em> on the second floor.</li><li>That designer <em>handbag</em> costs more than my rent.</li></ol>
+<hr>
+<h3 id="backpack">backpack<a class="hash" href="#backpack" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/ˈbækpæk/ &middot; <em>BAK-pak</em></dd><dt>Русский</dt><dd>рюкзак</dd><dt>Plural</dt><dd><em>backpacks</em></dd><dt>Countability</dt><dd>countable</dd><dt>Contrast</dt><dd>Americans say backpack; the British usually say rucksack.</dd></dl>
+<p>A bag carried on your back with two shoulder straps.</p>
+<ol><li>He threw his <em>backpack</em> in the back seat and got in.</li><li>The kids' <em>backpacks</em> are lined up by the front door.</li><li>My laptop fits in the front pocket of my <em>backpack</em>.</li></ol>
+<hr>
+<h3 id="suitcase">suitcase<a class="hash" href="#suitcase" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/ˈsuːtkeɪs/ &middot; <em>SOOT-kays</em></dd><dt>Русский</dt><dd>чемодан</dd><dt>Plural</dt><dd><em>suitcases</em></dd><dt>Countability</dt><dd>countable</dd></dl>
+<p>A stiff rectangular case for carrying clothes when you travel.</p>
+<ol><li>My <em>suitcase</em> was the last one off the belt.</li><li>We packed two <em>suitcases</em> for a week in Florida.</li><li>The airline lost his <em>suitcase</em> somewhere in Denver.</li></ol>
+<hr>
+<h3 id="briefcase">briefcase<a class="hash" href="#briefcase" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/ˈbriːfkeɪs/ &middot; <em>BREEF-kays</em></dd><dt>Русский</dt><dd>портфель, кейс</dd><dt>Plural</dt><dd><em>briefcases</em></dd><dt>Countability</dt><dd>countable</dd></dl>
+<p>A flat case for carrying papers and a laptop to work.</p>
+<ol><li>He still carries the leather <em>briefcase</em> he got in law school.</li><li>She snapped her <em>briefcase</em> shut and stood up.</li><li>The bins were full of laptops and <em>briefcases</em>.</li></ol>
+<hr>
+<h3 id="wallet">wallet<a class="hash" href="#wallet" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/ˈwɑːlət/ &middot; <em>WAH-lut</em></dd><dt>Русский</dt><dd>бумажник, кошелёк</dd><dt>Plural</dt><dd><em>wallets</em></dd><dt>Countability</dt><dd>countable</dd></dl>
+<p>A small folding case for cards and paper money.</p>
+<ol><li>I left my <em>wallet</em> in my other jacket.</li><li>He pulled an old photo out of his <em>wallet</em>.</li><li>Somebody stole two <em>wallets</em> out of the locker room.</li></ol>
+<hr>
+<h3 id="tote-bag">tote bag<a class="hash" href="#tote-bag" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/ˈtoʊt bæɡ/ &middot; <em>TOHT-bag</em></dd><dt>Русский</dt><dd>сумка-шоппер, тканевая сумка</dd><dt>Plural</dt><dd><em>tote bags</em></dd><dt>Countability</dt><dd>countable</dd></dl>
+<p>A large open bag with two handles, usually cloth.</p>
+<ol><li>She keeps a canvas <em>tote bag</em> in the car for groceries.</li><li>The museum was handing out free <em>tote bags</em>.</li><li>Everything I need for the beach fits in one <em>tote bag</em>.</li></ol>
+<hr>
+<h3 id="pouch">pouch<a class="hash" href="#pouch" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/paʊtʃ/ &middot; <em>POWCH</em></dd><dt>Русский</dt><dd>мешочек, футляр</dd><dt>Plural</dt><dd><em>pouches</em></dd><dt>Countability</dt><dd>countable</dd></dl>
+<p>A small soft bag that closes at the top.</p>
+<ol><li>The camera came with a padded <em>pouch</em>.</li><li>She keeps her makeup in a little zip <em>pouch</em>.</li><li>There are two mesh <em>pouches</em> inside the lid.</li></ol>
+<hr>
+<h3 id="satchel">satchel<a class="hash" href="#satchel" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/ˈsætʃəl/ &middot; <em>SACH-uhl</em></dd><dt>Русский</dt><dd>сумка через плечо, ранец</dd><dt>Plural</dt><dd><em>satchels</em></dd><dt>Countability</dt><dd>countable</dd></dl>
+<p>A stiff shoulder bag with a flap that folds over the top.</p>
+<ol><li>He wore a beat-up leather <em>satchel</em> across his chest.</li><li>Her books barely fit in that <em>satchel</em>.</li><li>The shop sells handmade <em>satchels</em>.</li></ol>
+<hr>
+<h3 id="duffel-bag">duffel bag<a class="hash" href="#duffel-bag" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/ˈdʌfəl bæɡ/ &middot; <em>DUF-uhl-bag</em></dd><dt>Русский</dt><dd>спортивная сумка, баул</dd><dt>Plural</dt><dd><em>duffel bags</em></dd><dt>Countability</dt><dd>countable</dd><dt>Contrast</dt><dd>Also spelled duffle; the two spellings sound exactly the same.</dd></dl>
+<p>A long soft cylindrical bag for clothes or gym gear.</p>
+<ol><li>He shoved everything into a <em>duffel bag</em> and left.</li><li>Two <em>duffel bags</em> were already in the trunk.</li><li>My gym clothes live in a <em>duffel bag</em> in the car.</li></ol>
+<hr>
+<h3 id="fanny-pack">fanny pack<a class="hash" href="#fanny-pack" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/ˈfæni pæk/ &middot; <em>FAN-ee-pak</em></dd><dt>Русский</dt><dd>поясная сумка</dd><dt>Plural</dt><dd><em>fanny packs</em></dd><dt>Countability</dt><dd>countable</dd><dt>Contrast</dt><dd>American only — the British call it a bum bag, and the word fanny is vulgar in the UK.</dd></dl>
+<p>A small bag worn on a strap around the waist.</p>
+<ol><li>He wore a <em>fanny pack</em> the whole trip and didn't care.</li><li><em>Fanny packs</em> are apparently back in style.</li><li>Keep your passport in the <em>fanny pack</em>, not your pocket.</li></ol>
+<hr>
+<h3 id="carry-on">carry-on<a class="hash" href="#carry-on" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/ˈkæri ɑːn/ &middot; <em>KAR-ee-ahn</em></dd><dt>Русский</dt><dd>ручная кладь</dd><dt>Plural</dt><dd><em>carry-ons</em></dd><dt>Countability</dt><dd>countable</dd></dl>
+<p>A small bag you take with you into the cabin of a plane.</p>
+<ol><li>I only travel with a <em>carry-on</em>.</li><li>Your <em>carry-on</em> has to fit under the seat in front of you.</li><li>They charge extra for <em>carry-ons</em> on that airline now.</li></ol>
+<hr>
+<h3 id="ring">ring<a class="hash" href="#ring" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/rɪŋ/ &middot; <em>RING</em></dd><dt>Русский</dt><dd>кольцо, перстень</dd><dt>Plural</dt><dd><em>rings</em></dd><dt>Countability</dt><dd>countable</dd></dl>
+<p>A circular band of metal worn on a finger.</p>
+<ol><li>She still wears her grandmother's <em>ring</em>.</li><li>He lost his wedding <em>ring</em> at the beach.</li><li>The case was full of cheap silver <em>rings</em>.</li></ol>
+<hr>
+<h3 id="necklace">necklace<a class="hash" href="#necklace" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/ˈnekləs/ &middot; <em>NEK-lus</em></dd><dt>Русский</dt><dd>ожерелье, цепочка</dd><dt>Plural</dt><dd><em>necklaces</em></dd><dt>Countability</dt><dd>countable</dd><dt>Contrast</dt><dd>The ending is unstressed and sounds like -lus, not like the word lace.</dd></dl>
+<p>A chain or string of beads worn around the neck.</p>
+<ol><li>He gave her a pearl <em>necklace</em> for their anniversary.</li><li>The clasp on my <em>necklace</em> keeps coming undone.</li><li>She had three thin gold <em>necklaces</em> on at once.</li></ol>
+<hr>
+<h3 id="bracelet">bracelet<a class="hash" href="#bracelet" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/ˈbreɪslət/ &middot; <em>BRAYS-lut</em></dd><dt>Русский</dt><dd>браслет</dd><dt>Plural</dt><dd><em>bracelets</em></dd><dt>Countability</dt><dd>countable</dd></dl>
+<p>A band or chain worn around the wrist.</p>
+<ol><li>She wears a thin silver <em>bracelet</em> on her left wrist.</li><li>The <em>bracelet</em> was a gift from her sister.</li><li>He bought two beaded <em>bracelets</em> at the market.</li></ol>
+<hr>
+<h3 id="earring">earring<a class="hash" href="#earring" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/ˈɪrɪŋ/ &middot; <em>EER-ing</em></dd><dt>Русский</dt><dd>серьга</dd><dt>Plural</dt><dd><em>earrings</em></dd><dt>Countability</dt><dd>countable</dd></dl>
+<p>A piece of jewelry worn in or on the ear.</p>
+<ol><li>I lost one <em>earring</em> somewhere in the car.</li><li>She has small gold <em>earrings</em> in today.</li><li>Those <em>earrings</em> are way too heavy for me.</li></ol>
+<hr>
+<h3 id="pendant">pendant<a class="hash" href="#pendant" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/ˈpendənt/ &middot; <em>PEN-dunt</em></dd><dt>Русский</dt><dd>кулон, подвеска</dd><dt>Plural</dt><dd><em>pendants</em></dd><dt>Countability</dt><dd>countable</dd></dl>
+<p>An ornament that hangs from a chain around the neck.</p>
+<ol><li>The chain holds a small silver <em>pendant</em>.</li><li>She never takes the <em>pendant</em> off, even to swim.</li><li>The case had a row of jade <em>pendants</em>.</li></ol>
+<hr>
+<h3 id="brooch">brooch<a class="hash" href="#brooch" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/broʊtʃ/ &middot; <em>BROHCH</em></dd><dt>Русский</dt><dd>брошь</dd><dt>Plural</dt><dd><em>brooches</em></dd><dt>Countability</dt><dd>countable</dd><dt>Contrast</dt><dd>Spelled with oo but pronounced to rhyme with coach.</dd></dl>
+<p>A decorative pin fastened to clothing.</p>
+<ol><li>She pinned a <em>brooch</em> to her collar.</li><li>The <em>brooch</em> belonged to his grandmother.</li><li>Antique <em>brooches</em> sell well at that shop.</li></ol>
+<hr>
+<h3 id="locket">locket<a class="hash" href="#locket" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/ˈlɑːkət/ &middot; <em>LAH-kut</em></dd><dt>Русский</dt><dd>медальон</dd><dt>Plural</dt><dd><em>lockets</em></dd><dt>Countability</dt><dd>countable</dd></dl>
+<p>A small case on a chain that opens to hold a photo.</p>
+<ol><li>There's a tiny photo of her dad inside the <em>locket</em>.</li><li>She wore a heart-shaped <em>locket</em> every single day.</li><li>That shop repairs old <em>lockets</em>.</li></ol>
+<hr>
+<h3 id="chain">chain<a class="hash" href="#chain" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/tʃeɪn/ &middot; <em>CHAYN</em></dd><dt>Русский</dt><dd>цепочка, цепь</dd><dt>Plural</dt><dd><em>chains</em></dd><dt>Countability</dt><dd>countable</dd></dl>
+<p>A line of connected metal links worn as jewelry.</p>
+<ol><li>He wears a thick gold <em>chain</em> under his shirt.</li><li>The <em>chain</em> broke and the pendant fell off.</li><li>She keeps both rings on a <em>chain</em> around her neck.</li></ol>
+<hr>
+<h3 id="bead">bead<a class="hash" href="#bead" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/biːd/ &middot; <em>BEED</em></dd><dt>Русский</dt><dd>бусина, бисер</dd><dt>Plural</dt><dd><em>beads</em></dd><dt>Countability</dt><dd>countable</dd></dl>
+<p>A small ball with a hole through it, strung to make jewelry.</p>
+<ol><li>One <em>bead</em> rolled under the couch and disappeared.</li><li>The dress is covered in tiny glass <em>beads</em>.</li><li>She strung the <em>beads</em> onto a wire.</li></ol>
+<hr>
+<h3 id="gem">gem<a class="hash" href="#gem" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/dʒem/ &middot; <em>JEM</em></dd><dt>Русский</dt><dd>драгоценный камень, самоцвет</dd><dt>Plural</dt><dd><em>gems</em></dd><dt>Countability</dt><dd>countable</dd></dl>
+<p>A cut and polished stone used in jewelry.</p>
+<ol><li>The ring has a small green <em>gem</em> in the center.</li><li>He collects rough <em>gems</em> and cuts them himself.</li><li>That <em>gem</em> is almost certainly glass.</li></ol>
+<hr>
+<h3 id="jewel">jewel<a class="hash" href="#jewel" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/ˈdʒuːəl/ &middot; <em>JOO-uhl</em></dd><dt>Русский</dt><dd>драгоценный камень, драгоценность</dd><dt>Plural</dt><dd><em>jewels</em></dd><dt>Countability</dt><dd>countable</dd><dt>Contrast</dt><dd>Americans write jewelry; the British write jewellery.</dd></dl>
+<p>A precious stone, or a piece of jewelry containing one.</p>
+<ol><li>One <em>jewel</em> was missing from the crown.</li><li>The <em>jewels</em> were locked in a hotel safe.</li><li>She finally sold the last of her mother's <em>jewels</em>.</li></ol>
+<hr>
+<h3 id="diamond">diamond<a class="hash" href="#diamond" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/ˈdaɪrmənd/ &middot; <em>DY-uh-muhnd</em></dd><dt>Русский</dt><dd>бриллиант, алмаз</dd><dt>Plural</dt><dd><em>diamonds</em></dd><dt>Countability</dt><dd>countable</dd></dl>
+<p>A very hard, clear precious stone.</p>
+<ol><li>The <em>diamond</em> on her ring is tiny but it's real.</li><li>He can't tell <em>diamonds</em> from cubic zirconia.</li><li>They set a single <em>diamond</em> in a plain gold band.</li></ol>
+<hr>
+<h3 id="pearl">pearl<a class="hash" href="#pearl" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/pɜːrl/ &middot; <em>PURL</em></dd><dt>Русский</dt><dd>жемчужина, жемчуг</dd><dt>Plural</dt><dd><em>pearls</em></dd><dt>Countability</dt><dd>countable</dd><dt>Contrast</dt><dd>The ea here has the vowel of girl, not the vowel of ear.</dd></dl>
+<p>A small round white gem that forms inside an oyster.</p>
+<ol><li>She wore a single <em>pearl</em> on a thin chain.</li><li>My grandmother left me her <em>pearls</em>.</li><li>That <em>pearl</em> is cultured, not natural.</li></ol>
+<hr>
+<h3 id="ruby">ruby<a class="hash" href="#ruby" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/ˈruːbi/ &middot; <em>ROO-bee</em></dd><dt>Русский</dt><dd>рубин</dd><dt>Plural</dt><dd><em>rubies</em></dd><dt>Countability</dt><dd>countable</dd></dl>
+<p>A deep red precious stone.</p>
+<ol><li>The ring has a dark red <em>ruby</em> set in gold.</li><li>He can't afford real <em>rubies</em>.</li><li>That <em>ruby</em> came out of a mine in Burma.</li></ol>
+<hr>
+<h3 id="emerald">emerald<a class="hash" href="#emerald" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/ˈemərəld/ &middot; <em>EM-uh-ruhld</em></dd><dt>Русский</dt><dd>изумруд</dd><dt>Plural</dt><dd><em>emeralds</em></dd><dt>Countability</dt><dd>countable</dd></dl>
+<p>A bright green precious stone.</p>
+<ol><li>She picked out a ring with a small <em>emerald</em>.</li><li>The necklace has <em>emeralds</em> set all the way around.</li><li>That <em>emerald</em> has a chip in the corner.</li></ol>
+<hr>
+<h3 id="sapphire">sapphire<a class="hash" href="#sapphire" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/ˈsæfaɪrr/ &middot; <em>SAF-eye-ur</em></dd><dt>Русский</dt><dd>сапфир</dd><dt>Plural</dt><dd><em>sapphires</em></dd><dt>Countability</dt><dd>countable</dd></dl>
+<p>A blue precious stone.</p>
+<ol><li>Her engagement ring has a blue <em>sapphire</em> instead of a diamond.</li><li>The bracelet is set with tiny <em>sapphires</em>.</li><li>He paid way too much for that <em>sapphire</em>.</li></ol>
+<hr>
+<h3 id="gold">gold<a class="hash" href="#gold" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/ɡoʊld/ &middot; <em>GOHLD</em></dd><dt>Русский</dt><dd>золото</dd><dt>Countability</dt><dd>uncountable</dd></dl>
+<p>A yellow precious metal used for coins and jewelry.</p>
+<ol><li>The ring is fourteen-karat <em>gold</em>.</li><li>She only wears <em>gold</em>, never silver.</li><li>The price of <em>gold</em> went up again this week.</li></ol>
+<hr>
+<h3 id="silver">silver<a class="hash" href="#silver" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/ˈsɪlvər/ &middot; <em>SIL-vur</em></dd><dt>Русский</dt><dd>серебро</dd><dt>Countability</dt><dd>uncountable</dd></dl>
+<p>A shiny white precious metal used for jewelry and utensils.</p>
+<ol><li>The chain is real <em>silver</em>, not plated.</li><li><em>Silver</em> tarnishes if you don't wear it.</li><li>She likes <em>silver</em> better than gold.</li></ol>
+<hr>
+<h3 id="platinum">platinum<a class="hash" href="#platinum" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/ˈplætənəm/ &middot; <em>PLAT-uh-nuhm</em></dd><dt>Русский</dt><dd>платина</dd><dt>Countability</dt><dd>uncountable</dd></dl>
+<p>A heavy silver-white metal, more expensive than gold.</p>
+<ol><li>Their wedding bands are <em>platinum</em>.</li><li><em>Platinum</em> costs more than gold right now.</li><li>He had the setting made in <em>platinum</em>.</li></ol>
+<hr>
+<h3 id="jade">jade<a class="hash" href="#jade" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/dʒeɪd/ &middot; <em>JAYD</em></dd><dt>Русский</dt><dd>нефрит, жадеит</dd><dt>Countability</dt><dd>uncountable</dd></dl>
+<p>A hard green stone carved into jewelry and ornaments.</p>
+<ol><li>She wears a <em>jade</em> bracelet her mother gave her.</li><li>The little elephant is carved from <em>jade</em>.</li><li>Good <em>jade</em> is not cheap.</li></ol>
+<hr>
+<h3 id="amber">amber<a class="hash" href="#amber" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/ˈæmbər/ &middot; <em>AM-bur</em></dd><dt>Русский</dt><dd>янтарь</dd><dt>Countability</dt><dd>uncountable</dd></dl>
+<p>Hard yellow-brown fossilized tree resin used in jewelry.</p>
+<ol><li>The beads are real <em>amber</em>, not plastic.</li><li>There's an insect trapped in that piece of <em>amber</em>.</li><li><em>Amber</em> feels warm against your skin.</li></ol>
+<hr>
+<h3 id="turquoise">turquoise<a class="hash" href="#turquoise" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/ˈtɜːrkɔɪz/ &middot; <em>TUR-koyz</em></dd><dt>Русский</dt><dd>бирюза</dd><dt>Countability</dt><dd>uncountable</dd><dt>Contrast</dt><dd>In American English the qu is usually just a k sound: TUR-koyz.</dd></dl>
+<p>A blue-green stone used in silver jewelry.</p>
+<ol><li>The ring is silver with a big chunk of <em>turquoise</em>.</li><li>She sells <em>turquoise</em> jewelry at the market on weekends.</li><li>Real <em>turquoise</em> has dark veins running through it.</li></ol>
+<hr>
+<h3 id="crystal">crystal<a class="hash" href="#crystal" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/ˈkrɪstəl/ &middot; <em>KRIS-tuhl</em></dd><dt>Русский</dt><dd>кристалл; хрусталь</dd><dt>Plural</dt><dd><em>crystals</em></dd><dt>Countability</dt><dd>both — countable and uncountable with different meanings</dd></dl>
+<p>A single piece of a clear mineral, or the fine cut glass used for good glassware.</p>
+<ol><li>She hung a <em>crystal</em> in the kitchen window.</li><li>The bowl is heavy lead <em>crystal</em>.</li><li>He keeps a few quartz <em>crystals</em> on his desk.</li></ol>
+<hr>
+<h3 id="carat">carat<a class="hash" href="#carat" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/ˈkærət/ &middot; <em>KAR-ut</em></dd><dt>Русский</dt><dd>карат (мера веса камня)</dd><dt>Plural</dt><dd><em>carats</em></dd><dt>Countability</dt><dd>countable</dd><dt>Contrast</dt><dd>Sounds exactly like carrot; the spelling karat is used for the purity of gold.</dd></dl>
+<p>The unit of weight used for precious stones.</p>
+<ol><li>The stone is just under one <em>carat</em>.</li><li>The jeweler said it was a full <em>carat</em>.</li><li>He has no idea how many <em>carats</em> that ring is.</li></ol>
+<hr>
+<h3 id="bangle">bangle<a class="hash" href="#bangle" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/ˈbæŋɡəl/ &middot; <em>BANG-guhl</em></dd><dt>Русский</dt><dd>браслет-обруч</dd><dt>Plural</dt><dd><em>bangles</em></dd><dt>Countability</dt><dd>countable</dd></dl>
+<p>A stiff bracelet that slides over the hand.</p>
+<ol><li>She wears a stack of gold <em>bangles</em> on one arm.</li><li>The <em>bangle</em> slid right off her wrist.</li><li>He brought her a silver <em>bangle</em> back from India.</li></ol>
+<hr>
+<h3 id="anklet">anklet<a class="hash" href="#anklet" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/ˈæŋklət/ &middot; <em>ANG-klut</em></dd><dt>Русский</dt><dd>браслет на щиколотку</dd><dt>Plural</dt><dd><em>anklets</em></dd><dt>Countability</dt><dd>countable</dd></dl>
+<p>A chain or band worn around the ankle.</p>
+<ol><li>She wore a thin gold <em>anklet</em> all summer.</li><li>The <em>anklet</em> has a little bell on it.</li><li>They sell beaded <em>anklets</em> on the boardwalk.</li></ol>
+<hr>
+<h3 id="tiara">tiara<a class="hash" href="#tiara" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/tiˈærə/ &middot; <em>tee-AR-uh</em></dd><dt>Русский</dt><dd>тиара, диадема</dd><dt>Plural</dt><dd><em>tiaras</em></dd><dt>Countability</dt><dd>countable</dd></dl>
+<p>A small jeweled crown worn on the front of the head.</p>
+<ol><li>The little girl refused to take off her plastic <em>tiara</em>.</li><li>She wore a <em>tiara</em> at the wedding and pulled it off.</li><li>The museum has three antique <em>tiaras</em> on display.</li></ol>
+<hr>
+<h3 id="crown">crown<a class="hash" href="#crown" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/kraʊn/ &middot; <em>KROWN</em></dd><dt>Русский</dt><dd>корона, венец</dd><dt>Plural</dt><dd><em>crowns</em></dd><dt>Countability</dt><dd>countable</dd></dl>
+<p>A circular ornament worn on the head by a king or queen.</p>
+<ol><li>The <em>crown</em> is a lot heavier than it looks.</li><li>Both <em>crowns</em> are behind glass at the museum.</li><li>He put a paper <em>crown</em> on his head at dinner.</li></ol>
+<hr>
+<h3 id="stud">stud<a class="hash" href="#stud" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/stʌd/ &middot; <em>STUD</em></dd><dt>Русский</dt><dd>серьга-гвоздик; заклёпка</dd><dt>Plural</dt><dd><em>studs</em></dd><dt>Countability</dt><dd>countable</dd></dl>
+<p>A small earring that sits flat against the ear, or a metal knob on clothing.</p>
+<ol><li>She only wears small diamond <em>studs</em>.</li><li>One <em>stud</em> fell out of my ear at the gym.</li><li>The jacket has metal <em>studs</em> down both sleeves.</li></ol>
+<hr>
+<h3 id="hoop">hoop<a class="hash" href="#hoop" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/huːp/ &middot; <em>HOOP</em></dd><dt>Русский</dt><dd>серьга-кольцо; обруч</dd><dt>Plural</dt><dd><em>hoops</em></dd><dt>Countability</dt><dd>countable</dd></dl>
+<p>A large circular earring, or any ring-shaped band.</p>
+<ol><li>She wore big gold <em>hoops</em> to the party.</li><li>One <em>hoop</em> got caught in her scarf.</li><li>Small <em>hoops</em> are easier to sleep in.</li></ol>
+<hr>
+<h3 id="rhinestone">rhinestone<a class="hash" href="#rhinestone" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/ˈraɪnstoʊn/ &middot; <em>RYN-stohn</em></dd><dt>Русский</dt><dd>страз, искусственный камень</dd><dt>Plural</dt><dd><em>rhinestones</em></dd><dt>Countability</dt><dd>countable</dd><dt>Contrast</dt><dd>The h after the r is silent: RYN-stohn.</dd></dl>
+<p>A piece of cut glass that imitates a diamond.</p>
+<ol><li>The jacket is covered in <em>rhinestones</em>.</li><li>One <em>rhinestone</em> fell off the strap.</li><li>Those aren't diamonds, they're <em>rhinestones</em>.</li></ol>
+<hr>
+<h3 id="watch">watch<a class="hash" href="#watch" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/wɑːtʃ/ &middot; <em>WAHCH</em></dd><dt>Русский</dt><dd>часы (наручные)</dd><dt>Plural</dt><dd><em>watches</em></dd><dt>Countability</dt><dd>countable</dd><dt>Contrast</dt><dd>Singular in English even though the Russian часы is plural: one watch, two watches.</dd></dl>
+<p>A small clock worn on the wrist or carried in a pocket.</p>
+<ol><li>My <em>watch</em> is running five minutes fast.</li><li>He collects old mechanical <em>watches</em>.</li><li>She got a <em>watch</em> for graduation.</li></ol>
+<hr>
+<h3 id="wristwatch">wristwatch<a class="hash" href="#wristwatch" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/ˈrɪstwɑːtʃ/ &middot; <em>RIST-wahch</em></dd><dt>Русский</dt><dd>наручные часы</dd><dt>Plural</dt><dd><em>wristwatches</em></dd><dt>Countability</dt><dd>countable</dd><dt>Contrast</dt><dd>The w in wrist is silent: RIST-wahch.</dd></dl>
+<p>A watch worn on a strap around the wrist.</p>
+<ol><li>He still wears a <em>wristwatch</em> instead of checking his phone.</li><li>The <em>wristwatch</em> was a gift from his wife.</li><li>Both <em>wristwatches</em> need new batteries.</li></ol>
+<hr>
+<h3 id="bow">bow<a class="hash" href="#bow" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/boʊ/ &middot; <em>BOH</em></dd><dt>Русский</dt><dd>бант, лента</dd><dt>Plural</dt><dd><em>bows</em></dd><dt>Countability</dt><dd>countable</dd><dt>Contrast</dt><dd>This bow rhymes with go; the bow that means bending forward rhymes with cow.</dd></dl>
+<p>A knot with two loops, tied for decoration.</p>
+<ol><li>She tied a red <em>bow</em> around the box.</li><li>The dress has a <em>bow</em> at the waist.</li><li>There were paper <em>bows</em> taped to every chair.</li></ol>
+<hr>
+<h3 id="umbrella">umbrella<a class="hash" href="#umbrella" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/ʌmˈbrelə/ &middot; <em>um-BREL-uh</em></dd><dt>Русский</dt><dd>зонт</dd><dt>Plural</dt><dd><em>umbrellas</em></dd><dt>Countability</dt><dd>countable</dd></dl>
+<p>A folding cloth canopy on a frame that keeps rain off you.</p>
+<ol><li>Take an <em>umbrella</em>, it's supposed to rain all afternoon.</li><li>The wind turned my <em>umbrella</em> inside out.</li><li>There are three broken <em>umbrellas</em> by the door.</li></ol>
+<hr>
+<h3 id="wig">wig<a class="hash" href="#wig" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/wɪɡ/ &middot; <em>WIG</em></dd><dt>Русский</dt><dd>парик</dd><dt>Plural</dt><dd><em>wigs</em></dd><dt>Countability</dt><dd>countable</dd></dl>
+<p>A covering of artificial or real hair worn on the head.</p>
+<ol><li>She wore a bright red <em>wig</em> to the party.</li><li>The <em>wig</em> looked surprisingly real.</li><li>The theater keeps a whole rack of <em>wigs</em> backstage.</li></ol>
+<hr>
+<h3 id="ribbon">ribbon<a class="hash" href="#ribbon" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/ˈrɪbən/ &middot; <em>RIB-uhn</em></dd><dt>Русский</dt><dd>лента, ленточка</dd><dt>Plural</dt><dd><em>ribbons</em></dd><dt>Countability</dt><dd>countable, and uncountable as a substance</dd></dl>
+<p>A narrow strip of cloth used for tying or decorating.</p>
+<ol><li>She tied her hair back with a <em>ribbon</em>.</li><li>The box came wrapped in gold <em>ribbon</em>.</li><li>He saved the <em>ribbons</em> from every present she ever gave him.</li></ol>
+<hr>
+<h3 id="barrette">barrette<a class="hash" href="#barrette" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/bəˈret/ &middot; <em>buh-RET</em></dd><dt>Русский</dt><dd>заколка для волос</dd><dt>Plural</dt><dd><em>barrettes</em></dd><dt>Countability</dt><dd>countable</dd><dt>Contrast</dt><dd>A French borrowing — the stress falls on the second syllable: buh-RET.</dd></dl>
+<p>A clip that holds hair back on one side of the head.</p>
+<ol><li>She clipped her bangs back with a <em>barrette</em>.</li><li>The <em>barrette</em> snapped in half.</li><li>There are <em>barrettes</em> all over the bathroom counter.</li></ol>
+<hr>
+<h3 id="scrunchie">scrunchie<a class="hash" href="#scrunchie" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/ˈskrʌntʃi/ &middot; <em>SKRUN-chee</em></dd><dt>Русский</dt><dd>резинка для волос (объёмная)</dd><dt>Plural</dt><dd><em>scrunchies</em></dd><dt>Countability</dt><dd>countable</dd></dl>
+<p>A cloth-covered elastic band for tying hair.</p>
+<ol><li>She always has a <em>scrunchie</em> on her wrist.</li><li>The <em>scrunchie</em> left a crease in her hair.</li><li><em>Scrunchies</em> somehow came back in style.</li></ol>
+<hr>
+<h3 id="cane">cane<a class="hash" href="#cane" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/keɪn/ &middot; <em>KAYN</em></dd><dt>Русский</dt><dd>трость</dd><dt>Plural</dt><dd><em>canes</em></dd><dt>Countability</dt><dd>countable</dd></dl>
+<p>A stick used to help you walk.</p>
+<ol><li>He's been walking with a <em>cane</em> since the surgery.</li><li>Her <em>cane</em> is leaning against the chair.</li><li>The gift shop downstairs even sells <em>canes</em>.</li></ol>
+<hr>
+<h3 id="keychain">keychain<a class="hash" href="#keychain" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/ˈkiːtʃeɪn/ &middot; <em>KEE-chayn</em></dd><dt>Русский</dt><dd>брелок</dd><dt>Plural</dt><dd><em>keychains</em></dd><dt>Countability</dt><dd>countable</dd></dl>
+<p>A ring or small ornament that holds keys together.</p>
+<ol><li>She has a little plastic <em>keychain</em> shaped like a cactus.</li><li>My keys came off the <em>keychain</em> again.</li><li>He collects <em>keychains</em> from every state he visits.</li></ol>
+<hr>
+<h3 id="lanyard">lanyard<a class="hash" href="#lanyard" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/ˈlænjərd/ &middot; <em>LAN-yurd</em></dd><dt>Русский</dt><dd>шнурок для бейджа</dd><dt>Plural</dt><dd><em>lanyards</em></dd><dt>Countability</dt><dd>countable</dd></dl>
+<p>A cord worn around the neck to hold a badge or keys.</p>
+<ol><li>Everyone at the conference wore a <em>lanyard</em>.</li><li>His badge hangs from a blue <em>lanyard</em>.</li><li>They ran out of <em>lanyards</em> at check-in.</li></ol>
+<hr>
+<h3 id="badge">badge<a class="hash" href="#badge" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/bædʒ/ &middot; <em>BAJ</em></dd><dt>Русский</dt><dd>значок, бейдж, удостоверение</dd><dt>Plural</dt><dd><em>badges</em></dd><dt>Countability</dt><dd>countable</dd></dl>
+<p>A small card or piece of metal worn to show who you are.</p>
+<ol><li>You need a <em>badge</em> to get past the front desk.</li><li>He flashed his <em>badge</em> and walked right in.</li><li>Visitor <em>badges</em> are at the security desk.</li></ol>
+<hr>
+<h3 id="accessory">accessory<a class="hash" href="#accessory" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/əkˈsesəri/ &middot; <em>uhk-SES-uh-ree</em></dd><dt>Русский</dt><dd>аксессуар</dd><dt>Plural</dt><dd><em>accessories</em></dd><dt>Countability</dt><dd>countable</dd><dt>Contrast</dt><dd>The cc is pronounced ks: uhk-SES-uh-ree, not uh-SES-uh-ree.</dd></dl>
+<p>Something like a bag, belt, or scarf worn to complete an outfit.</p>
+<ol><li>A scarf is the only <em>accessory</em> she ever wears.</li><li>The store carries bags, belts, and other <em>accessories</em>.</li><li>The right <em>accessory</em> can pull a whole outfit together.</li></ol>
+<hr>
+<h3 id="trinket">trinket<a class="hash" href="#trinket" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/ˈtrɪŋkət/ &middot; <em>TRING-kut</em></dd><dt>Русский</dt><dd>безделушка, побрякушка</dd><dt>Plural</dt><dd><em>trinkets</em></dd><dt>Countability</dt><dd>countable</dd></dl>
+<p>A small cheap ornament or piece of jewelry.</p>
+<ol><li>The shelf is covered in <em>trinkets</em> from her travels.</li><li>He bought a cheap <em>trinket</em> at the airport.</li><li>Most of what's in the box is just <em>trinkets</em>.</li></ol>
+<hr>
+<h3 id="souvenir">souvenir<a class="hash" href="#souvenir" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/ˌsuːvəˈnɪr/ &middot; <em>soo-vuh-NEER</em></dd><dt>Русский</dt><dd>сувенир</dd><dt>Plural</dt><dd><em>souvenirs</em></dd><dt>Countability</dt><dd>countable</dd><dt>Contrast</dt><dd>In American English the stress falls on the last syllable: soo-vuh-NEER.</dd></dl>
+<p>Something you keep or buy to remember a place or an event.</p>
+<ol><li>She brings back a <em>souvenir</em> from every trip.</li><li>The shop is full of overpriced <em>souvenirs</em>.</li><li>I kept the ticket stub as a <em>souvenir</em>.</li></ol>
+<hr>
+<h3 id="lens">lens<a class="hash" href="#lens" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/lenz/ &middot; <em>LENZ</em></dd><dt>Русский</dt><dd>линза, стекло очков</dd><dt>Plural</dt><dd><em>lenses</em></dd><dt>Countability</dt><dd>countable</dd><dt>Contrast</dt><dd>Lens is already singular despite the s on the end; the plural is lenses.</dd></dl>
+<p>A curved piece of glass or plastic that focuses light.</p>
+<ol><li>One <em>lens</em> popped right out of my glasses.</li><li>He wears contact <em>lenses</em> now instead of frames.</li><li>The <em>lenses</em> fog up every time I come inside.</li></ol>
+<hr>
+<h3 id="makeup">makeup<a class="hash" href="#makeup" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/ˈmeɪkʌp/ &middot; <em>MAYK-up</em></dd><dt>Русский</dt><dd>макияж, декоративная косметика</dd><dt>Countability</dt><dd>uncountable</dd></dl>
+<p>Colored products put on the face to change how it looks.</p>
+<ol><li>She doesn't wear much <em>makeup</em>.</li><li>He took the stage <em>makeup</em> off with a wipe.</li><li>All her <em>makeup</em> is in a bag under the sink.</li></ol>
+<hr>
+<h3 id="lipstick">lipstick<a class="hash" href="#lipstick" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/ˈlɪpstɪk/ &middot; <em>LIP-stik</em></dd><dt>Русский</dt><dd>губная помада</dd><dt>Plural</dt><dd><em>lipsticks</em></dd><dt>Countability</dt><dd>countable, and uncountable as a substance</dd></dl>
+<p>Colored wax in a small tube, put on the lips.</p>
+<ol><li>She put on <em>lipstick</em> in the elevator.</li><li>There's <em>lipstick</em> on the rim of the coffee cup.</li><li>She has about ten <em>lipsticks</em> in the exact same shade.</li></ol>
+<hr>
+<h3 id="mascara">mascara<a class="hash" href="#mascara" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/mæˈskærə/ &middot; <em>ma-SKAR-uh</em></dd><dt>Русский</dt><dd>тушь для ресниц</dd><dt>Countability</dt><dd>uncountable</dd></dl>
+<p>A dark cosmetic brushed onto the eyelashes.</p>
+<ol><li>Her <em>mascara</em> ran halfway through the movie.</li><li>I need to buy new <em>mascara</em>.</li><li>She never leaves the house without <em>mascara</em>.</li></ol>
+<hr>
+<h3 id="eyeliner">eyeliner<a class="hash" href="#eyeliner" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/ˈaɪlaɪnər/ &middot; <em>EYE-ly-nur</em></dd><dt>Русский</dt><dd>подводка для глаз</dd><dt>Countability</dt><dd>uncountable</dd></dl>
+<p>A cosmetic drawn in a line along the edge of the eyelid.</p>
+<ol><li>She wears heavy black <em>eyeliner</em>.</li><li>My <em>eyeliner</em> smudged in the heat.</li><li>He borrowed her <em>eyeliner</em> for the show.</li></ol>
+<hr>
+<h3 id="eyeshadow">eyeshadow<a class="hash" href="#eyeshadow" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/ˈaɪʃædoʊ/ &middot; <em>EYE-shad-oh</em></dd><dt>Русский</dt><dd>тени для век</dd><dt>Countability</dt><dd>uncountable</dd></dl>
+<p>Colored powder or cream put on the eyelids.</p>
+<ol><li>She dusted on a little gold <em>eyeshadow</em>.</li><li>The <em>eyeshadow</em> creased by noon.</li><li>That <em>eyeshadow</em> is too dark for daytime.</li></ol>
+<hr>
+<h3 id="blush">blush<a class="hash" href="#blush" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/blʌʃ/ &middot; <em>BLUSH</em></dd><dt>Русский</dt><dd>румяна</dd><dt>Countability</dt><dd>uncountable</dd></dl>
+<p>Pink or red powder put on the cheeks.</p>
+<ol><li>She added a little <em>blush</em> to her cheeks.</li><li>That <em>blush</em> is way too pink for her.</li><li>I ran out of <em>blush</em> two weeks ago.</li></ol>
+<hr>
+<h3 id="powder">powder<a class="hash" href="#powder" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/ˈpaʊdər/ &middot; <em>POW-dur</em></dd><dt>Русский</dt><dd>пудра</dd><dt>Countability</dt><dd>uncountable</dd></dl>
+<p>Fine dry cosmetic dust patted onto the skin.</p>
+<ol><li>She set her makeup with translucent <em>powder</em>.</li><li>There's <em>powder</em> all over the bathroom counter.</li><li>He shook baby <em>powder</em> into his shoes.</li></ol>
+<hr>
+<h3 id="concealer">concealer<a class="hash" href="#concealer" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/kənˈsiːlər/ &middot; <em>kuhn-SEE-lur</em></dd><dt>Русский</dt><dd>консилер, корректор</dd><dt>Countability</dt><dd>uncountable</dd></dl>
+<p>A thick cosmetic used to cover spots and dark circles.</p>
+<ol><li>A little <em>concealer</em> hides the dark circles.</li><li>Her <em>concealer</em> is a shade too light.</li><li>I dab <em>concealer</em> under my eyes every morning.</li></ol>
+<hr>
+<h3 id="perfume">perfume<a class="hash" href="#perfume" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/ˈpɜːrfjuːm/ &middot; <em>PUR-fyoom</em></dd><dt>Русский</dt><dd>духи</dd><dt>Plural</dt><dd><em>perfumes</em></dd><dt>Countability</dt><dd>countable, and uncountable as a substance</dd><dt>Contrast</dt><dd>As a noun the stress is on the first syllable, PUR-fyoom; as a verb it moves to the second, pur-FYOOM.</dd></dl>
+<p>A sweet-smelling liquid put on the skin.</p>
+<ol><li>She wears the same <em>perfume</em> her mother wore.</li><li>The whole elevator smelled like <em>perfume</em>.</li><li>He gave her a bottle of French <em>perfume</em>.</li></ol>
+<hr>
+<h3 id="cologne">cologne<a class="hash" href="#cologne" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/kəˈloʊn/ &middot; <em>kuh-LOHN</em></dd><dt>Русский</dt><dd>одеколон</dd><dt>Countability</dt><dd>uncountable</dd><dt>Contrast</dt><dd>The g is silent: kuh-LOHN.</dd></dl>
+<p>A light scented liquid, usually worn by men.</p>
+<ol><li>He wears way too much <em>cologne</em>.</li><li>The bathroom smelled like cheap <em>cologne</em>.</li><li>She bought him <em>cologne</em> for his birthday again.</li></ol>
+<hr>
+<h3 id="fragrance">fragrance<a class="hash" href="#fragrance" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/ˈfreɪɡrəns/ &middot; <em>FRAY-gruhns</em></dd><dt>Русский</dt><dd>аромат, парфюм</dd><dt>Plural</dt><dd><em>fragrances</em></dd><dt>Countability</dt><dd>countable, and uncountable as a substance</dd></dl>
+<p>A pleasant smell, or a product made to give one.</p>
+<ol><li>The brand launched a new <em>fragrance</em> this spring.</li><li>This lotion has no added <em>fragrance</em>.</li><li>They carry all the major <em>fragrances</em> here.</li></ol>
+<hr>
+<h3 id="deodorant">deodorant<a class="hash" href="#deodorant" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/diˈoʊdərənt/ &middot; <em>dee-OH-dur-uhnt</em></dd><dt>Русский</dt><dd>дезодорант</dd><dt>Countability</dt><dd>uncountable</dd></dl>
+<p>A product put under the arms to stop body odor.</p>
+<ol><li>I completely forgot to put on <em>deodorant</em>.</li><li>This <em>deodorant</em> doesn't last all day.</li><li>Grab some <em>deodorant</em> while you're at the store.</li></ol>
+<hr>
+<h3 id="conditioner">conditioner<a class="hash" href="#conditioner" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/kənˈdɪʃənər/ &middot; <em>kuhn-DISH-uh-nur</em></dd><dt>Русский</dt><dd>кондиционер для волос</dd><dt>Countability</dt><dd>uncountable</dd></dl>
+<p>A cream put on hair after shampoo to soften it.</p>
+<ol><li>Leave the <em>conditioner</em> in for two minutes.</li><li>She uses <em>conditioner</em> every time she washes her hair.</li><li>The <em>conditioner</em> bottle is almost empty.</li></ol>
+<hr>
+<h3 id="lotion">lotion<a class="hash" href="#lotion" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/ˈloʊʃən/ &middot; <em>LOH-shuhn</em></dd><dt>Русский</dt><dd>лосьон, крем для тела</dd><dt>Plural</dt><dd><em>lotions</em></dd><dt>Countability</dt><dd>countable, and uncountable as a substance</dd></dl>
+<p>A thin cream rubbed into the skin.</p>
+<ol><li>Put some <em>lotion</em> on your hands, they're cracked.</li><li>This <em>lotion</em> smells like coconut.</li><li>The drugstore had about ten different <em>lotions</em>.</li></ol>
+<hr>
+<h3 id="moisturizer">moisturizer<a class="hash" href="#moisturizer" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/ˈmɔɪstʃəraɪzər/ &middot; <em>MOYS-chuh-ry-zur</em></dd><dt>Русский</dt><dd>увлажняющий крем</dd><dt>Plural</dt><dd><em>moisturizers</em></dd><dt>Countability</dt><dd>countable, and uncountable as a substance</dd><dt>Contrast</dt><dd>American spelling; the British write moisturiser.</dd></dl>
+<p>A cream that keeps the skin from drying out.</p>
+<ol><li>She puts on <em>moisturizer</em> every night.</li><li>This <em>moisturizer</em> is too heavy for summer.</li><li>Try one of the lighter <em>moisturizers</em>.</li></ol>
+<hr>
+<h3 id="sunscreen">sunscreen<a class="hash" href="#sunscreen" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/ˈsʌnskriːn/ &middot; <em>SUN-skreen</em></dd><dt>Русский</dt><dd>солнцезащитный крем</dd><dt>Countability</dt><dd>uncountable</dd></dl>
+<p>A cream that protects the skin from burning in the sun.</p>
+<ol><li>Put on <em>sunscreen</em> before you go out.</li><li>The <em>sunscreen</em> washed right off in the water.</li><li>He never wears <em>sunscreen</em> and it shows.</li></ol>
+<hr>
+<h3 id="manicure">manicure<a class="hash" href="#manicure" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/ˈmænəkjʊr/ &middot; <em>MAN-ih-kyoor</em></dd><dt>Русский</dt><dd>маникюр</dd><dt>Plural</dt><dd><em>manicures</em></dd><dt>Countability</dt><dd>countable</dd></dl>
+<p>A treatment that cleans, shapes, and paints the fingernails.</p>
+<ol><li>She got a <em>manicure</em> the day before the wedding.</li><li>The <em>manicure</em> lasted about four days.</li><li><em>Manicures</em> are twenty dollars at that place.</li></ol>
+<hr>
+<h3 id="pedicure">pedicure<a class="hash" href="#pedicure" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/ˈpedəkjʊr/ &middot; <em>PED-ih-kyoor</em></dd><dt>Русский</dt><dd>педикюр</dd><dt>Plural</dt><dd><em>pedicures</em></dd><dt>Countability</dt><dd>countable</dd></dl>
+<p>A treatment that cleans, shapes, and paints the toenails.</p>
+<ol><li>She treats herself to a <em>pedicure</em> once a month.</li><li>The <em>pedicure</em> was worth every penny.</li><li>They do <em>pedicures</em> in the back room.</li></ol>
+<hr>
+<h3 id="floss">floss<a class="hash" href="#floss" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/flɔːs/ &middot; <em>FLAWS</em></dd><dt>Русский</dt><dd>зубная нить</dd><dt>Countability</dt><dd>uncountable</dd></dl>
+<p>Thin thread used to clean between the teeth.</p>
+<ol><li>The dentist gave me a free spool of <em>floss</em>.</li><li>There's <em>floss</em> in the medicine cabinet.</li><li>He owns <em>floss</em> but he never uses it.</li></ol>
+<hr>
+<h3 id="mouthwash">mouthwash<a class="hash" href="#mouthwash" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/ˈmaʊθwɑːʃ/ &middot; <em>MOWTH-wahsh</em></dd><dt>Русский</dt><dd>ополаскиватель для рта</dd><dt>Countability</dt><dd>uncountable</dd></dl>
+<p>A liquid you rinse your mouth with to clean it.</p>
+<ol><li>He rinsed with <em>mouthwash</em> on his way out the door.</li><li>That <em>mouthwash</em> burns.</li><li>We're out of <em>mouthwash</em> again.</li></ol>
+<hr>
+<h3 id="hairbrush">hairbrush<a class="hash" href="#hairbrush" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/ˈherbrʌʃ/ &middot; <em>HAIR-brush</em></dd><dt>Русский</dt><dd>щётка для волос</dd><dt>Plural</dt><dd><em>hairbrushes</em></dd><dt>Countability</dt><dd>countable</dd></dl>
+<p>A brush with stiff bristles used on the hair.</p>
+<ol><li>Have you seen my <em>hairbrush</em>?</li><li>The <em>hairbrush</em> is full of hair again.</li><li>She keeps two <em>hairbrushes</em> in her bag.</li></ol>
+<hr>
+<h3 id="hairspray">hairspray<a class="hash" href="#hairspray" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/ˈherspreɪ/ &middot; <em>HAIR-spray</em></dd><dt>Русский</dt><dd>лак для волос</dd><dt>Countability</dt><dd>uncountable</dd></dl>
+<p>A sticky liquid sprayed on hair to hold it in place.</p>
+<ol><li>She went through half a can of <em>hairspray</em>.</li><li>The <em>hairspray</em> made his hair crunchy.</li><li>Don't use <em>hairspray</em> near an open flame.</li></ol>
+<hr>
+<h3 id="balm">balm<a class="hash" href="#balm" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/bɑːm/ &middot; <em>BAHM</em></dd><dt>Русский</dt><dd>бальзам, мазь</dd><dt>Plural</dt><dd><em>balms</em></dd><dt>Countability</dt><dd>countable, and uncountable as a substance</dd><dt>Contrast</dt><dd>The l is silent: BAHM, rhyming with calm.</dd></dl>
+<p>A thick soothing cream, especially for the lips or skin.</p>
+<ol><li>She keeps lip <em>balm</em> in every coat pocket.</li><li>This <em>balm</em> actually helps with chapped lips.</li><li>That shop sells handmade <em>balms</em> and soaps.</li></ol>
+<hr>
+<h3 id="cosmetics">cosmetics<a class="hash" href="#cosmetics" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/kɑːzˈmetɪks/ &middot; <em>kahz-MET-iks</em></dd><dt>Русский</dt><dd>косметика</dd><dt>Countability</dt><dd>uncountable</dd><dt>Contrast</dt><dd>Used only in the plural — cosmetics, never a cosmetic.</dd></dl>
+<p>Products used on the face and body to improve appearance.</p>
+<ol><li>She sells <em>cosmetics</em> at a counter in the mall.</li><li>The <em>cosmetics</em> aisle is on the left, past the pharmacy.</li><li>He's allergic to most <em>cosmetics</em>.</li></ol>
+<hr>
+<h3 id="toiletries">toiletries<a class="hash" href="#toiletries" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/ˈtɔɪlətriz/ &middot; <em>TOY-luh-treez</em></dd><dt>Русский</dt><dd>туалетные принадлежности</dd><dt>Countability</dt><dd>uncountable</dd><dt>Contrast</dt><dd>Almost always plural — say toiletries, not a toiletry.</dd></dl>
+<p>Everyday items like soap, shampoo, and toothpaste.</p>
+<ol><li>Pack your <em>toiletries</em> in a separate bag.</li><li>The hotel provides basic <em>toiletries</em>.</li><li>Security made him throw out half his <em>toiletries</em>.</li></ol>
+<hr>
+<h3 id="clippers">clippers<a class="hash" href="#clippers" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/ˈklɪpərz/ &middot; <em>KLIP-urz</em></dd><dt>Русский</dt><dd>машинка для стрижки; щипчики</dd><dt>Countability</dt><dd>uncountable</dd><dt>Contrast</dt><dd>Always plural, like scissors: a pair of clippers, never a clipper.</dd></dl>
+<p>A tool with two blades for cutting hair or nails.</p>
+<ol><li>He cuts his own hair with <em>clippers</em>.</li><li>The nail <em>clippers</em> are in the top drawer.</li><li>These <em>clippers</em> need to be oiled.</li></ol>
+<hr>
+<h3 id="compact">compact<a class="hash" href="#compact" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/ˈkɑːmpækt/ &middot; <em>KAHM-pakt</em></dd><dt>Русский</dt><dd>пудреница</dd><dt>Plural</dt><dd><em>compacts</em></dd><dt>Countability</dt><dd>countable</dd><dt>Contrast</dt><dd>The noun stresses the first syllable, KAHM-pakt; the adjective stresses the second, kuhm-PAKT.</dd></dl>
+<p>A small flat case holding face powder and a mirror.</p>
+<ol><li>She snapped the <em>compact</em> shut and put it away.</li><li>The <em>compact</em> has a little mirror inside the lid.</li><li>Her purse was full of old <em>compacts</em>.</li></ol>
+<hr>
+<h3 id="aftershave">aftershave<a class="hash" href="#aftershave" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/ˈæftərʃeɪv/ &middot; <em>AF-tur-shayv</em></dd><dt>Русский</dt><dd>лосьон после бритья</dd><dt>Plural</dt><dd><em>aftershaves</em></dd><dt>Countability</dt><dd>countable, and uncountable as a substance</dd></dl>
+<p>A scented liquid put on the face after shaving.</p>
+<ol><li>He splashed on some <em>aftershave</em> and grabbed his keys.</li><li>That <em>aftershave</em> smells exactly like my grandfather.</li><li>The gift set came with soap and two <em>aftershaves</em>.</li></ol></div></main>
+<button class="themebtn" id="themeBtn">Dark</button>
+<script>
+const tb=document.getElementById('themeBtn');
+function setTheme(x){document.documentElement.dataset.theme=x;tb.textContent=x==='dark'?'Light':'Dark';
+ try{localStorage.setItem('site-theme',x)}catch(e){}}
+tb.onclick=()=>setTheme(document.documentElement.dataset.theme==='dark'?'light':'dark');
+try{const s=localStorage.getItem('site-theme');
+ setTheme(s||(matchMedia('(prefers-color-scheme: dark)').matches?'dark':'light'))}catch(e){setTheme('light')}
+</script></body></html>

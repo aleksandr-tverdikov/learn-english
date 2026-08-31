@@ -1,0 +1,111 @@
+<!DOCTYPE html>
+<html lang="en"><head>
+<meta charset="utf-8"><meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Core vocabulary: sea life</title>
+<style>
+:root{--bg:#faf9f7;--surface:#fff;--surface2:#f2f0ec;--border:#e2ded6;--text:#1a1815;
+--dim:#5f594f;--faint:#8a8377;--accent:#8a5a3b;--measure:72ch}
+@media(prefers-color-scheme:dark){:root{--bg:#14140f;--surface:#1d1d17;--surface2:#25251d;
+--border:#33332a;--text:#eeeae1;--dim:#a8a293;--faint:#7d776b;--accent:#d09b72}}
+:root[data-theme=dark]{--bg:#14140f;--surface:#1d1d17;--surface2:#25251d;--border:#33332a;
+--text:#eeeae1;--dim:#a8a293;--faint:#7d776b;--accent:#d09b72}
+:root[data-theme=light]{--bg:#faf9f7;--surface:#fff;--surface2:#f2f0ec;--border:#e2ded6;
+--text:#1a1815;--dim:#5f594f;--faint:#8a8377;--accent:#8a5a3b}
+*{box-sizing:border-box}
+body{margin:0;background:var(--bg);color:var(--text);
+font:17px/1.72 ui-serif,Georgia,"Iowan Old Style",Palatino,serif;-webkit-font-smoothing:antialiased}
+.wrap{max-width:min(var(--measure),100%);margin:0 auto;padding:0 22px}
+nav.crumb{border-bottom:1px solid var(--border);padding:13px 0;font-size:13.5px;
+font-family:-apple-system,BlinkMacSystemFont,"Segoe UI",sans-serif;position:sticky;top:0;background:var(--bg);z-index:20}
+nav.crumb .wrap{max-width:none;display:flex;gap:9px;align-items:center;flex-wrap:wrap}
+nav.crumb a{color:var(--dim);text-decoration:none}
+nav.crumb a:hover{color:var(--accent)}
+nav.crumb .sep{color:var(--faint)}
+main{padding:8px 0 80px}
+h1{font-size:clamp(28px,5vw,38px);line-height:1.15;letter-spacing:-.015em;margin:34px 0 18px}
+h2{font-size:25px;margin:46px 0 14px;letter-spacing:-.01em;padding-bottom:7px;border-bottom:1px solid var(--border)}
+h3{font-size:19px;margin:34px 0 10px;color:var(--accent)}
+h4{font-size:16px;margin:24px 0 8px;font-family:-apple-system,sans-serif}
+p{margin:0 0 16px}
+a{color:var(--accent)}
+.hash{opacity:0;margin-left:8px;font-weight:400;font-size:.65em;text-decoration:none;color:var(--faint)}
+h2:hover .hash,h3:hover .hash{opacity:1}
+blockquote{margin:0 0 20px;padding:14px 18px;background:var(--surface2);
+border-left:3px solid var(--accent);border-radius:0 8px 8px 0}
+blockquote p:last-child{margin-bottom:0}
+ol,ul{margin:0 0 18px;padding-left:26px}
+li{margin-bottom:8px}
+li>ul,li>ol{margin:8px 0 0}
+code{font-family:ui-monospace,SFMono-Regular,Menlo,Consolas,monospace;font-size:.87em;
+background:var(--surface2);padding:1px 5px;border-radius:4px}
+pre{background:var(--surface2);border:1px solid var(--border);border-radius:9px;
+padding:15px 17px;overflow-x:auto;margin:0 0 20px}
+pre code{background:none;padding:0;font-size:13px;line-height:1.6}
+.tw{overflow-x:auto;margin:0 0 22px;border:1px solid var(--border);border-radius:9px}
+table{border-collapse:collapse;width:100%;font-size:15px;
+font-family:-apple-system,BlinkMacSystemFont,"Segoe UI",sans-serif}
+th,td{padding:10px 14px;border-bottom:1px solid var(--border);vertical-align:top}
+th{background:var(--surface2);font-size:12px;text-transform:uppercase;
+letter-spacing:.06em;color:var(--dim);font-weight:700;white-space:nowrap}
+tbody tr:last-child td{border-bottom:none}
+hr{border:none;border-top:1px solid var(--border);margin:38px 0}
+details{background:var(--surface2);border:1px solid var(--border);border-radius:9px;
+padding:13px 17px;margin:0 0 20px}
+summary{cursor:pointer;font-weight:600;font-family:-apple-system,sans-serif;font-size:15px}
+details[open] summary{margin-bottom:12px}
+del{color:var(--faint)}
+dl.fields{margin:0 0 20px;padding:0}
+dl.fields dt{font-family:-apple-system,BlinkMacSystemFont,"Segoe UI",sans-serif;
+font-size:11px;letter-spacing:.11em;text-transform:uppercase;color:var(--faint);
+font-weight:700;margin:14px 0 4px}
+dl.fields dt:first-child{margin-top:0}
+dl.fields dd{margin:0;font-size:16px;color:var(--dim);line-height:1.62}
+dl.fields dd em{color:var(--text)}
+dl.fields dt.ru{color:var(--accent)}
+dl.fields dd strong{color:var(--text)}
+.toc{background:var(--surface2);border:1px solid var(--border);border-radius:10px;
+padding:16px 20px;margin:26px 0 34px;font-family:-apple-system,sans-serif;font-size:14px}
+.toc b{display:block;font-size:11px;letter-spacing:.12em;text-transform:uppercase;
+color:var(--faint);margin-bottom:9px}
+.toc a{display:block;padding:3px 0;color:var(--dim);text-decoration:none}
+.toc a:hover{color:var(--accent)}
+.themebtn{position:fixed;right:18px;bottom:18px;z-index:60;font-family:-apple-system,sans-serif;
+font-size:12.5px;font-weight:600;cursor:pointer;background:var(--surface);border:1px solid var(--border);
+border-radius:99px;padding:9px 16px;color:var(--text)}
+@media(max-width:600px){body{font-size:16px}.wrap{padding:0 17px}}
+</style></head><body>
+<nav class="crumb"><div class="wrap"><a href="../../../index.html">Learn English</a><span class="sep">/</span><a href="../../README.html">Parts of speech</a><span class="sep">/</span><a href="../README.html">01-nouns</a><span class="sep">/</span><span>catalog</span></div></nav>
+<main><div class="wrap"><h1 id="core-vocabulary-sea-life">Core vocabulary: sea life<a class="hash" href="#core-vocabulary-sea-life" aria-label="link">#</a></h1>
+<blockquote><p>The everyday nouns of sea life — pronunciation, Russian, plural, and three examples each.</p></blockquote>
+<p><a href="../README.html">← The grammar of nouns</a> &middot; <a href="README.html">All groups</a></p>
+<p>Part of the <strong>core-vocabulary tier</strong>. Groups 1–23 cover the nouns that misbehave; this tier covers the nouns you simply need to know. Entries are deliberately lean, because a regular countable noun has no grammatical story to tell. A <strong>Contrast</strong> line appears only where the word hides a genuine trap.</p>
+<p>Where a word in this field <em>does</em> misbehave, it lives in the grammar tier instead and is not repeated here.</p>
+<hr>
+<h3 id="porpoise">porpoise<a class="hash" href="#porpoise" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/ˈpɔːrpəs/ &middot; <em>POR-puhs</em></dd><dt>Русский</dt><dd>морская свинья (китообразное)</dd><dt>Plural</dt><dd><em>porpoises</em></dd><dt>Countability</dt><dd>countable</dd><dt>Contrast</dt><dd>The ending is said like the word <em>purpose</em>, not 'poyz'.</dd></dl>
+<p>A small sea mammal like a dolphin but shorter, with a blunt nose.</p>
+<ol><li><em>Porpoises</em> are stockier than dolphins and have blunter faces.</li><li>We spotted a <em>porpoise</em> in the bay at dawn.</li><li>The crew pulled in the nets to avoid catching a <em>porpoise</em>.</li></ol>
+<hr>
+<h3 id="sea-lion">sea lion<a class="hash" href="#sea-lion" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/ˈsiː ˌlaɪrn/ &middot; <em>SEE-ly-uhn</em></dd><dt>Русский</dt><dd>морской лев</dd><dt>Plural</dt><dd><em>sea lions</em></dd><dt>Countability</dt><dd>countable</dd></dl>
+<p>A large seal with visible ear flaps that can walk on its front flippers.</p>
+<ol><li>The <em>sea lions</em> down at the pier are a tourist attraction.</li><li>A <em>sea lion</em> can move surprisingly fast on land.</li><li>You can hear the <em>sea lions</em> barking from three blocks away.</li></ol>
+<hr>
+<h3 id="manatee">manatee<a class="hash" href="#manatee" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/ˈmænəti/ &middot; <em>MAN-uh-tee</em></dd><dt>Русский</dt><dd>ламантин</dd><dt>Plural</dt><dd><em>manatees</em></dd><dt>Countability</dt><dd>countable</dd></dl>
+<p>A slow, heavy plant-eating sea mammal of warm shallow water.</p>
+<ol><li><em>Manatees</em> gather in the warm water near the power plant.</li><li>A <em>manatee</em> can eat a tenth of its body weight in a day.</li><li>We rented kayaks and paddled out to see the <em>manatees</em>.</li></ol>
+<hr>
+<h3 id="narwhal">narwhal<a class="hash" href="#narwhal" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/ˈnɑːrwɑːl/ &middot; <em>NAR-wahl</em></dd><dt>Русский</dt><dd>нарвал</dd><dt>Plural</dt><dd><em>narwhals</em></dd><dt>Countability</dt><dd>countable</dd><dt>Contrast</dt><dd>The <em>h</em> is silent: NAR-wahl.</dd></dl>
+<p>An Arctic whale whose long straight tusk sticks out from its head.</p>
+<ol><li>A <em>narwhal</em>'s tusk is really one giant tooth.</li><li><em>Narwhals</em> live under the Arctic ice year-round.</li><li>Sailors used to sell <em>narwhal</em> tusks as unicorn horns.</li></ol></div></main>
+<button class="themebtn" id="themeBtn">Dark</button>
+<script>
+const tb=document.getElementById('themeBtn');
+function setTheme(x){document.documentElement.dataset.theme=x;tb.textContent=x==='dark'?'Light':'Dark';
+ try{localStorage.setItem('site-theme',x)}catch(e){}}
+tb.onclick=()=>setTheme(document.documentElement.dataset.theme==='dark'?'light':'dark');
+try{const s=localStorage.getItem('site-theme');
+ setTheme(s||(matchMedia('(prefers-color-scheme: dark)').matches?'dark':'light'))}catch(e){setTheme('light')}
+</script></body></html>

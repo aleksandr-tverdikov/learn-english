@@ -1,0 +1,716 @@
+<!DOCTYPE html>
+<html lang="en"><head>
+<meta charset="utf-8"><meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Core vocabulary: the body</title>
+<style>
+:root{--bg:#faf9f7;--surface:#fff;--surface2:#f2f0ec;--border:#e2ded6;--text:#1a1815;
+--dim:#5f594f;--faint:#8a8377;--accent:#8a5a3b;--measure:72ch}
+@media(prefers-color-scheme:dark){:root{--bg:#14140f;--surface:#1d1d17;--surface2:#25251d;
+--border:#33332a;--text:#eeeae1;--dim:#a8a293;--faint:#7d776b;--accent:#d09b72}}
+:root[data-theme=dark]{--bg:#14140f;--surface:#1d1d17;--surface2:#25251d;--border:#33332a;
+--text:#eeeae1;--dim:#a8a293;--faint:#7d776b;--accent:#d09b72}
+:root[data-theme=light]{--bg:#faf9f7;--surface:#fff;--surface2:#f2f0ec;--border:#e2ded6;
+--text:#1a1815;--dim:#5f594f;--faint:#8a8377;--accent:#8a5a3b}
+*{box-sizing:border-box}
+body{margin:0;background:var(--bg);color:var(--text);
+font:17px/1.72 ui-serif,Georgia,"Iowan Old Style",Palatino,serif;-webkit-font-smoothing:antialiased}
+.wrap{max-width:min(var(--measure),100%);margin:0 auto;padding:0 22px}
+nav.crumb{border-bottom:1px solid var(--border);padding:13px 0;font-size:13.5px;
+font-family:-apple-system,BlinkMacSystemFont,"Segoe UI",sans-serif;position:sticky;top:0;background:var(--bg);z-index:20}
+nav.crumb .wrap{max-width:none;display:flex;gap:9px;align-items:center;flex-wrap:wrap}
+nav.crumb a{color:var(--dim);text-decoration:none}
+nav.crumb a:hover{color:var(--accent)}
+nav.crumb .sep{color:var(--faint)}
+main{padding:8px 0 80px}
+h1{font-size:clamp(28px,5vw,38px);line-height:1.15;letter-spacing:-.015em;margin:34px 0 18px}
+h2{font-size:25px;margin:46px 0 14px;letter-spacing:-.01em;padding-bottom:7px;border-bottom:1px solid var(--border)}
+h3{font-size:19px;margin:34px 0 10px;color:var(--accent)}
+h4{font-size:16px;margin:24px 0 8px;font-family:-apple-system,sans-serif}
+p{margin:0 0 16px}
+a{color:var(--accent)}
+.hash{opacity:0;margin-left:8px;font-weight:400;font-size:.65em;text-decoration:none;color:var(--faint)}
+h2:hover .hash,h3:hover .hash{opacity:1}
+blockquote{margin:0 0 20px;padding:14px 18px;background:var(--surface2);
+border-left:3px solid var(--accent);border-radius:0 8px 8px 0}
+blockquote p:last-child{margin-bottom:0}
+ol,ul{margin:0 0 18px;padding-left:26px}
+li{margin-bottom:8px}
+li>ul,li>ol{margin:8px 0 0}
+code{font-family:ui-monospace,SFMono-Regular,Menlo,Consolas,monospace;font-size:.87em;
+background:var(--surface2);padding:1px 5px;border-radius:4px}
+pre{background:var(--surface2);border:1px solid var(--border);border-radius:9px;
+padding:15px 17px;overflow-x:auto;margin:0 0 20px}
+pre code{background:none;padding:0;font-size:13px;line-height:1.6}
+.tw{overflow-x:auto;margin:0 0 22px;border:1px solid var(--border);border-radius:9px}
+table{border-collapse:collapse;width:100%;font-size:15px;
+font-family:-apple-system,BlinkMacSystemFont,"Segoe UI",sans-serif}
+th,td{padding:10px 14px;border-bottom:1px solid var(--border);vertical-align:top}
+th{background:var(--surface2);font-size:12px;text-transform:uppercase;
+letter-spacing:.06em;color:var(--dim);font-weight:700;white-space:nowrap}
+tbody tr:last-child td{border-bottom:none}
+hr{border:none;border-top:1px solid var(--border);margin:38px 0}
+details{background:var(--surface2);border:1px solid var(--border);border-radius:9px;
+padding:13px 17px;margin:0 0 20px}
+summary{cursor:pointer;font-weight:600;font-family:-apple-system,sans-serif;font-size:15px}
+details[open] summary{margin-bottom:12px}
+del{color:var(--faint)}
+dl.fields{margin:0 0 20px;padding:0}
+dl.fields dt{font-family:-apple-system,BlinkMacSystemFont,"Segoe UI",sans-serif;
+font-size:11px;letter-spacing:.11em;text-transform:uppercase;color:var(--faint);
+font-weight:700;margin:14px 0 4px}
+dl.fields dt:first-child{margin-top:0}
+dl.fields dd{margin:0;font-size:16px;color:var(--dim);line-height:1.62}
+dl.fields dd em{color:var(--text)}
+dl.fields dt.ru{color:var(--accent)}
+dl.fields dd strong{color:var(--text)}
+.toc{background:var(--surface2);border:1px solid var(--border);border-radius:10px;
+padding:16px 20px;margin:26px 0 34px;font-family:-apple-system,sans-serif;font-size:14px}
+.toc b{display:block;font-size:11px;letter-spacing:.12em;text-transform:uppercase;
+color:var(--faint);margin-bottom:9px}
+.toc a{display:block;padding:3px 0;color:var(--dim);text-decoration:none}
+.toc a:hover{color:var(--accent)}
+.themebtn{position:fixed;right:18px;bottom:18px;z-index:60;font-family:-apple-system,sans-serif;
+font-size:12.5px;font-weight:600;cursor:pointer;background:var(--surface);border:1px solid var(--border);
+border-radius:99px;padding:9px 16px;color:var(--text)}
+@media(max-width:600px){body{font-size:16px}.wrap{padding:0 17px}}
+</style></head><body>
+<nav class="crumb"><div class="wrap"><a href="../../../index.html">Learn English</a><span class="sep">/</span><a href="../../README.html">Parts of speech</a><span class="sep">/</span><a href="../README.html">01-nouns</a><span class="sep">/</span><span>catalog</span></div></nav>
+<main><div class="wrap"><h1 id="core-vocabulary-the-body">Core vocabulary: the body<a class="hash" href="#core-vocabulary-the-body" aria-label="link">#</a></h1>
+<blockquote><p>The everyday nouns of the body — pronunciation, Russian, plural, and three examples each.</p></blockquote>
+<p><a href="../README.html">← The grammar of nouns</a> &middot; <a href="README.html">All groups</a></p>
+<p>Part of the <strong>core-vocabulary tier</strong>. Groups 1–23 cover the nouns that misbehave; this tier covers the nouns you simply need to know. Entries are deliberately lean, because a regular countable noun has no grammatical story to tell. A <strong>Contrast</strong> line appears only where the word hides a genuine trap.</p>
+<p>Where a word in this field <em>does</em> misbehave, it lives in the grammar tier instead and is not repeated here.</p>
+<hr>
+<h3 id="body">body<a class="hash" href="#body" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/ˈbɑːdi/ &middot; <em>BAH-dee</em></dd><dt>Русский</dt><dd>тело</dd><dt>Plural</dt><dd><em>bodies</em></dd><dt>Countability</dt><dd>countable</dd></dl>
+<p>The whole physical structure of a person or animal.</p>
+<ol><li>Yoga taught me how my <em>body</em> actually works.</li><li>Cold water is a shock to the <em>body</em>.</li><li>Their <em>bodies</em> were still sore from Saturday's game.</li></ol>
+<hr>
+<h3 id="arm">arm<a class="hash" href="#arm" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/ɑːrm/ &middot; <em>AHRM</em></dd><dt>Русский</dt><dd>рука (от плеча до кисти)</dd><dt>Plural</dt><dd><em>arms</em></dd><dt>Countability</dt><dd>countable</dd><dt>Contrast</dt><dd>Russian рука covers the whole limb; English splits it — the arm ends at the wrist, and the hand takes over from there.</dd></dl>
+<p>The limb that runs from the shoulder down to the hand.</p>
+<ol><li>He broke his <em>arm</em> falling off a ladder.</li><li>She carried the groceries in both <em>arms</em>.</li><li>Put your <em>arm</em> around her for the photo.</li></ol>
+<hr>
+<h3 id="leg">leg<a class="hash" href="#leg" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/leɡ/ &middot; <em>LEG</em></dd><dt>Русский</dt><dd>нога</dd><dt>Plural</dt><dd><em>legs</em></dd><dt>Countability</dt><dd>countable</dd><dt>Contrast</dt><dd>Russian нога covers the whole limb; the English leg stops at the ankle, and below that it is the foot.</dd></dl>
+<p>One of the two limbs a person stands and walks on.</p>
+<ol><li>My <em>legs</em> were killing me after the hike.</li><li>He crossed his <em>legs</em> and leaned back.</li><li>She hurt her left <em>leg</em> playing soccer.</li></ol>
+<hr>
+<h3 id="hand">hand<a class="hash" href="#hand" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/hænd/ &middot; <em>HAND</em></dd><dt>Русский</dt><dd>рука, кисть руки</dd><dt>Plural</dt><dd><em>hands</em></dd><dt>Countability</dt><dd>countable</dd><dt>Contrast</dt><dd>Never use hand for the whole рука — you hold a bag in your hand but carry a child in your arms.</dd></dl>
+<p>The part of the body below the wrist, with fingers and a thumb.</p>
+<ol><li>Wash your <em>hands</em> before dinner.</li><li>He shook my <em>hand</em> and introduced himself.</li><li>Her <em>hands</em> were freezing without gloves.</li></ol>
+<hr>
+<h3 id="finger">finger<a class="hash" href="#finger" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/ˈfɪŋɡər/ &middot; <em>FING-gur</em></dd><dt>Русский</dt><dd>палец (на руке)</dd><dt>Plural</dt><dd><em>fingers</em></dd><dt>Countability</dt><dd>countable</dd><dt>Contrast</dt><dd>English counts the thumb separately, so a hand has four fingers plus a thumb; and a палец on the foot is a toe, never a finger.</dd></dl>
+<p>One of the four long jointed parts of the hand, not counting the thumb.</p>
+<ol><li>I cut my <em>finger</em> chopping onions.</li><li>She ran a <em>finger</em> down the map.</li><li>His <em>fingers</em> were stained with ink.</li></ol>
+<hr>
+<h3 id="thumb">thumb<a class="hash" href="#thumb" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/θʌm/ &middot; <em>THUM</em></dd><dt>Русский</dt><dd>большой палец руки</dd><dt>Plural</dt><dd><em>thumbs</em></dd><dt>Countability</dt><dd>countable</dd><dt>Contrast</dt><dd>The b is silent: THUM, one syllable.</dd></dl>
+<p>The short thick digit set apart from the other four on the hand.</p>
+<ol><li>He hit his <em>thumb</em> with the hammer.</li><li>She scrolled through the photos with her <em>thumb</em>.</li><li>Both <em>thumbs</em> were sore from texting all day.</li></ol>
+<hr>
+<h3 id="toe">toe<a class="hash" href="#toe" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/toʊ/ &middot; <em>TOH</em></dd><dt>Русский</dt><dd>палец (на ноге)</dd><dt>Plural</dt><dd><em>toes</em></dd><dt>Countability</dt><dd>countable</dd></dl>
+<p>One of the five digits at the end of the foot.</p>
+<ol><li>I stubbed my <em>toe</em> on the coffee table.</li><li>Sand got in between my <em>toes</em>.</li><li>He can touch his <em>toes</em> without bending his knees.</li></ol>
+<hr>
+<h3 id="knee">knee<a class="hash" href="#knee" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/niː/ &middot; <em>NEE</em></dd><dt>Русский</dt><dd>колено</dd><dt>Plural</dt><dd><em>knees</em></dd><dt>Countability</dt><dd>countable</dd><dt>Contrast</dt><dd>The k is silent: NEE. Same silent k in knuckle and knife.</dd></dl>
+<p>The joint in the middle of the leg where it bends.</p>
+<ol><li>My <em>knee</em> still hurts from the fall.</li><li>He got down on one <em>knee</em> to propose.</li><li>She scraped both <em>knees</em> on the pavement.</li></ol>
+<hr>
+<h3 id="elbow">elbow<a class="hash" href="#elbow" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/ˈelboʊ/ &middot; <em>EL-boh</em></dd><dt>Русский</dt><dd>локоть</dd><dt>Plural</dt><dd><em>elbows</em></dd><dt>Countability</dt><dd>countable</dd></dl>
+<p>The joint in the middle of the arm where it bends.</p>
+<ol><li>He rested his <em>elbows</em> on the table.</li><li>I banged my <em>elbow</em> on the door frame.</li><li>She nudged me with her <em>elbow</em>.</li></ol>
+<hr>
+<h3 id="shoulder">shoulder<a class="hash" href="#shoulder" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/ˈʃoʊldər/ &middot; <em>SHOHL-dur</em></dd><dt>Русский</dt><dd>плечо</dd><dt>Plural</dt><dd><em>shoulders</em></dd><dt>Countability</dt><dd>countable</dd></dl>
+<p>The joint where the arm meets the body.</p>
+<ol><li>He carried the bag on one <em>shoulder</em>.</li><li>My <em>shoulders</em> get tight after a day at the desk.</li><li>She tapped him on the <em>shoulder</em>.</li></ol>
+<hr>
+<h3 id="wrist">wrist<a class="hash" href="#wrist" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/rɪst/ &middot; <em>RIST</em></dd><dt>Русский</dt><dd>запястье</dd><dt>Plural</dt><dd><em>wrists</em></dd><dt>Countability</dt><dd>countable</dd><dt>Contrast</dt><dd>The w is silent: RIST. Same silent w in wrinkle and write.</dd></dl>
+<p>The joint between the hand and the arm.</p>
+<ol><li>She wears her watch on her left <em>wrist</em>.</li><li>I sprained my <em>wrist</em> playing tennis.</li><li>The bracelet hung loose around his <em>wrist</em>.</li></ol>
+<hr>
+<h3 id="ankle">ankle<a class="hash" href="#ankle" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/ˈæŋkəl/ &middot; <em>ANG-kul</em></dd><dt>Русский</dt><dd>лодыжка, щиколотка</dd><dt>Plural</dt><dd><em>ankles</em></dd><dt>Countability</dt><dd>countable</dd></dl>
+<p>The joint between the foot and the leg.</p>
+<ol><li>He twisted his <em>ankle</em> on the trail.</li><li>The water was up to our <em>ankles</em>.</li><li>She has a tattoo just above her <em>ankle</em>.</li></ol>
+<hr>
+<h3 id="hip">hip<a class="hash" href="#hip" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/hɪp/ &middot; <em>HIP</em></dd><dt>Русский</dt><dd>бедро (тазобедренный сустав)</dd><dt>Plural</dt><dd><em>hips</em></dd><dt>Countability</dt><dd>countable</dd></dl>
+<p>The joint on either side of the body where the leg meets the trunk.</p>
+<ol><li>She broke her <em>hip</em> in the fall.</li><li>He stood there with his hands on his <em>hips</em>.</li><li>The baby rode on her <em>hip</em> all afternoon.</li></ol>
+<hr>
+<h3 id="waist">waist<a class="hash" href="#waist" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/weɪst/ &middot; <em>WAYST</em></dd><dt>Русский</dt><dd>талия</dd><dt>Plural</dt><dd><em>waists</em></dd><dt>Countability</dt><dd>countable</dd><dt>Contrast</dt><dd>Sounds exactly like waste.</dd></dl>
+<p>The narrow part of the body between the ribs and the hips.</p>
+<ol><li>These jeans are too tight in the <em>waist</em>.</li><li>He put an arm around her <em>waist</em>.</li><li>The water came up to my <em>waist</em>.</li></ol>
+<hr>
+<h3 id="chest">chest<a class="hash" href="#chest" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/tʃest/ &middot; <em>CHEST</em></dd><dt>Русский</dt><dd>грудь, грудная клетка</dd><dt>Plural</dt><dd><em>chests</em></dd><dt>Countability</dt><dd>countable</dd></dl>
+<p>The front of the body between the neck and the stomach.</p>
+<ol><li>He felt a sharp pain in his <em>chest</em>.</li><li>The kid crossed his arms over his <em>chest</em>.</li><li>I have a cold and it went straight to my <em>chest</em>.</li></ol>
+<hr>
+<h3 id="back">back<a class="hash" href="#back" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/bæk/ &middot; <em>BAK</em></dd><dt>Русский</dt><dd>спина</dd><dt>Plural</dt><dd><em>backs</em></dd><dt>Countability</dt><dd>countable</dd></dl>
+<p>The rear surface of the body from the shoulders to the hips.</p>
+<ol><li>My <em>back</em> has been sore all week.</li><li>He lay on his <em>back</em> and stared at the ceiling.</li><li>Lift with your legs, not your <em>back</em>.</li></ol>
+<hr>
+<h3 id="stomach">stomach<a class="hash" href="#stomach" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/ˈstʌmək/ &middot; <em>STUH-muk</em></dd><dt>Русский</dt><dd>желудок; живот</dd><dt>Plural</dt><dd><em>stomachs</em></dd><dt>Countability</dt><dd>countable</dd><dt>Contrast</dt><dd>The ch is a plain k sound: STUH-muk, never stow-match.</dd></dl>
+<p>The organ that digests food, or the front of the body below the chest.</p>
+<ol><li>Don't take these pills on an empty <em>stomach</em>.</li><li>My <em>stomach</em> growled through the whole meeting.</li><li>He sleeps on his <em>stomach</em>.</li></ol>
+<hr>
+<h3 id="belly">belly<a class="hash" href="#belly" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/ˈbeli/ &middot; <em>BEL-ee</em></dd><dt>Русский</dt><dd>живот, брюхо (разг.)</dd><dt>Plural</dt><dd><em>bellies</em></dd><dt>Countability</dt><dd>countable</dd></dl>
+<p>The soft front part of the body below the chest, in casual speech.</p>
+<ol><li>The dog rolled over for a <em>belly</em> rub.</li><li>He laughed until his <em>belly</em> hurt.</li><li>She felt the baby kick in her <em>belly</em>.</li></ol>
+<hr>
+<h3 id="neck">neck<a class="hash" href="#neck" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/nek/ &middot; <em>NEK</em></dd><dt>Русский</dt><dd>шея</dd><dt>Plural</dt><dd><em>necks</em></dd><dt>Countability</dt><dd>countable</dd></dl>
+<p>The part of the body joining the head to the shoulders.</p>
+<ol><li>I slept wrong and my <em>neck</em> is stiff.</li><li>She wore a thin gold chain around her <em>neck</em>.</li><li>The giraffe stretched its <em>neck</em> toward the leaves.</li></ol>
+<hr>
+<h3 id="throat">throat<a class="hash" href="#throat" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/θroʊt/ &middot; <em>THROHT</em></dd><dt>Русский</dt><dd>горло</dd><dt>Plural</dt><dd><em>throats</em></dd><dt>Countability</dt><dd>countable</dd></dl>
+<p>The passage inside the neck that food and air pass through.</p>
+<ol><li>I have a sore <em>throat</em>.</li><li>Something caught in his <em>throat</em> and he coughed.</li><li>Drink some tea, it will soothe your <em>throat</em>.</li></ol>
+<hr>
+<h3 id="face">face<a class="hash" href="#face" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/feɪs/ &middot; <em>FAYSS</em></dd><dt>Русский</dt><dd>лицо</dd><dt>Plural</dt><dd><em>faces</em></dd><dt>Countability</dt><dd>countable</dd></dl>
+<p>The front of the head, from the forehead to the chin.</p>
+<ol><li>He splashed cold water on his <em>face</em>.</li><li>I never forget a <em>face</em>.</li><li>Their <em>faces</em> lit up when they saw the cake.</li></ol>
+<hr>
+<h3 id="eye">eye<a class="hash" href="#eye" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/aɪ/ &middot; <em>EYE</em></dd><dt>Русский</dt><dd>глаз</dd><dt>Plural</dt><dd><em>eyes</em></dd><dt>Countability</dt><dd>countable</dd><dt>Contrast</dt><dd>Sounds exactly like the pronoun I.</dd></dl>
+<p>The organ you see with.</p>
+<ol><li>She has her mother's <em>eyes</em>.</li><li>Something got in my <em>eye</em>.</li><li>Keep an <em>eye</em> on the kids by the pool.</li></ol>
+<hr>
+<h3 id="ear">ear<a class="hash" href="#ear" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/ɪr/ &middot; <em>EER</em></dd><dt>Русский</dt><dd>ухо</dd><dt>Plural</dt><dd><em>ears</em></dd><dt>Countability</dt><dd>countable</dd></dl>
+<p>The organ you hear with, on either side of the head.</p>
+<ol><li>He whispered something in her <em>ear</em>.</li><li>My <em>ears</em> popped on the flight.</li><li>The dog perked up its <em>ears</em>.</li></ol>
+<hr>
+<h3 id="nose">nose<a class="hash" href="#nose" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/noʊz/ &middot; <em>NOHZ</em></dd><dt>Русский</dt><dd>нос</dd><dt>Plural</dt><dd><em>noses</em></dd><dt>Countability</dt><dd>countable</dd><dt>Contrast</dt><dd>Sounds exactly like knows.</dd></dl>
+<p>The part of the face you breathe and smell through.</p>
+<ol><li>Her <em>nose</em> ran all morning.</li><li>He broke his <em>nose</em> in a fight.</li><li>The smell went straight up my <em>nose</em>.</li></ol>
+<hr>
+<h3 id="mouth">mouth<a class="hash" href="#mouth" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/maʊθ/ &middot; <em>MOWTH</em></dd><dt>Русский</dt><dd>рот</dd><dt>Plural</dt><dd><em>mouths</em></dd><dt>Countability</dt><dd>countable</dd><dt>Contrast</dt><dd>The singular ends in a voiceless th, but the plural mouths ends in a voiced th plus z: MOWTHZ.</dd></dl>
+<p>The opening in the face used for eating and speaking.</p>
+<ol><li>Don't talk with your <em>mouth</em> full.</li><li>He opened his <em>mouth</em> to argue, then stopped.</li><li>Cover your <em>mouth</em> when you cough.</li></ol>
+<hr>
+<h3 id="lip">lip<a class="hash" href="#lip" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/lɪp/ &middot; <em>LIP</em></dd><dt>Русский</dt><dd>губа</dd><dt>Plural</dt><dd><em>lips</em></dd><dt>Countability</dt><dd>countable</dd></dl>
+<p>Either of the two soft edges of the mouth.</p>
+<ol><li>My <em>lips</em> crack every winter.</li><li>She bit her <em>lip</em> and said nothing.</li><li>He had a cut on his upper <em>lip</em>.</li></ol>
+<hr>
+<h3 id="tongue">tongue<a class="hash" href="#tongue" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/tʌŋ/ &middot; <em>TUNG</em></dd><dt>Русский</dt><dd>язык (орган)</dd><dt>Plural</dt><dd><em>tongues</em></dd><dt>Countability</dt><dd>countable</dd><dt>Contrast</dt><dd>The -gue is just a single ng sound: TUNG, one syllable.</dd></dl>
+<p>The muscular organ in the mouth used for tasting and speaking.</p>
+<ol><li>I burned my <em>tongue</em> on the coffee.</li><li>The dog's <em>tongue</em> was hanging out.</li><li>Stick out your <em>tongue</em> and say ah.</li></ol>
+<hr>
+<h3 id="chin">chin<a class="hash" href="#chin" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/tʃɪn/ &middot; <em>CHIN</em></dd><dt>Русский</dt><dd>подбородок</dd><dt>Plural</dt><dd><em>chins</em></dd><dt>Countability</dt><dd>countable</dd></dl>
+<p>The front of the jaw, below the mouth.</p>
+<ol><li>He rested his <em>chin</em> on his hand.</li><li>She has a small scar on her <em>chin</em>.</li><li>Keep your <em>chin</em> up, it will get easier.</li></ol>
+<hr>
+<h3 id="cheek">cheek<a class="hash" href="#cheek" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/tʃiːk/ &middot; <em>CHEEK</em></dd><dt>Русский</dt><dd>щека</dd><dt>Plural</dt><dd><em>cheeks</em></dd><dt>Countability</dt><dd>countable</dd></dl>
+<p>Either side of the face below the eye.</p>
+<ol><li>The baby's <em>cheeks</em> were bright red.</li><li>He kissed her on the <em>cheek</em>.</li><li>Tears ran down her <em>cheeks</em>.</li></ol>
+<hr>
+<h3 id="forehead">forehead<a class="hash" href="#forehead" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/ˈfɔːrhed/ &middot; <em>FOR-hed</em></dd><dt>Русский</dt><dd>лоб</dd><dt>Plural</dt><dd><em>foreheads</em></dd><dt>Countability</dt><dd>countable</dd><dt>Contrast</dt><dd>Two pronunciations circulate: FOR-hed is the usual American one, while the older FOR-id still turns up.</dd></dl>
+<p>The part of the face above the eyebrows and below the hairline.</p>
+<ol><li>She put a hand on his <em>forehead</em> to check for fever.</li><li>Sweat ran down my <em>forehead</em>.</li><li>He has a bruise across his <em>forehead</em>.</li></ol>
+<hr>
+<h3 id="eyebrow">eyebrow<a class="hash" href="#eyebrow" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/ˈaɪbraʊ/ &middot; <em>EYE-brow</em></dd><dt>Русский</dt><dd>бровь</dd><dt>Plural</dt><dd><em>eyebrows</em></dd><dt>Countability</dt><dd>countable</dd></dl>
+<p>The line of hair growing above each eye.</p>
+<ol><li>She raised an <em>eyebrow</em> but said nothing.</li><li>He has thick dark <em>eyebrows</em>.</li><li>She gets her <em>eyebrows</em> done every few weeks.</li></ol>
+<hr>
+<h3 id="eyelash">eyelash<a class="hash" href="#eyelash" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/ˈaɪlæʃ/ &middot; <em>EYE-lash</em></dd><dt>Русский</dt><dd>ресница</dd><dt>Plural</dt><dd><em>eyelashes</em></dd><dt>Countability</dt><dd>countable</dd></dl>
+<p>One of the short hairs growing on the edge of the eyelid.</p>
+<ol><li>An <em>eyelash</em> got in my eye.</li><li>Her <em>eyelashes</em> are impossibly long.</li><li>He blinked and an <em>eyelash</em> landed on his cheek.</li></ol>
+<hr>
+<h3 id="eyelid">eyelid<a class="hash" href="#eyelid" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/ˈaɪlɪd/ &middot; <em>EYE-lid</em></dd><dt>Русский</dt><dd>веко</dd><dt>Plural</dt><dd><em>eyelids</em></dd><dt>Countability</dt><dd>countable</dd></dl>
+<p>The fold of skin that closes over the eye.</p>
+<ol><li>His <em>eyelids</em> were getting heavy.</li><li>She has a twitch in her left <em>eyelid</em>.</li><li>The doctor gently lifted my <em>eyelid</em>.</li></ol>
+<hr>
+<h3 id="jaw">jaw<a class="hash" href="#jaw" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/dʒɔː/ &middot; <em>JAW</em></dd><dt>Русский</dt><dd>челюсть</dd><dt>Plural</dt><dd><em>jaws</em></dd><dt>Countability</dt><dd>countable</dd></dl>
+<p>The bone structure of the mouth that holds the teeth.</p>
+<ol><li>He clenched his <em>jaw</em> and said nothing.</li><li>She broke her <em>jaw</em> in the accident.</li><li>My <em>jaw</em> aches from chewing gum all day.</li></ol>
+<hr>
+<h3 id="skull">skull<a class="hash" href="#skull" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/skʌl/ &middot; <em>SKUL</em></dd><dt>Русский</dt><dd>череп</dd><dt>Plural</dt><dd><em>skulls</em></dd><dt>Countability</dt><dd>countable</dd></dl>
+<p>The bony frame of the head that protects the brain.</p>
+<ol><li>The X-ray showed a crack in his <em>skull</em>.</li><li>A helmet protects your <em>skull</em>.</li><li>They found animal <em>skulls</em> in the cave.</li></ol>
+<hr>
+<h3 id="brain">brain<a class="hash" href="#brain" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/breɪn/ &middot; <em>BRAYN</em></dd><dt>Русский</dt><dd>мозг (головной)</dd><dt>Plural</dt><dd><em>brains</em></dd><dt>Countability</dt><dd>countable</dd></dl>
+<p>The organ inside the head that controls thought and movement.</p>
+<ol><li>Your <em>brain</em> burns a surprising number of calories.</li><li>The scan showed no damage to his <em>brain</em>.</li><li>Sleep gives the <em>brain</em> time to sort things out.</li></ol>
+<hr>
+<h3 id="heart">heart<a class="hash" href="#heart" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/hɑːrt/ &middot; <em>HAHRT</em></dd><dt>Русский</dt><dd>сердце</dd><dt>Plural</dt><dd><em>hearts</em></dd><dt>Countability</dt><dd>countable</dd><dt>Contrast</dt><dd>Heart has the ah of car; hurt has the ur of her. Two different words.</dd></dl>
+<p>The organ that pumps blood around the body.</p>
+<ol><li>My <em>heart</em> was pounding.</li><li>He has a <em>heart</em> condition.</li><li>The runner's <em>heart</em> rate dropped fast.</li></ol>
+<hr>
+<h3 id="lung">lung<a class="hash" href="#lung" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/lʌŋ/ &middot; <em>LUNG</em></dd><dt>Русский</dt><dd>лёгкое</dd><dt>Plural</dt><dd><em>lungs</em></dd><dt>Countability</dt><dd>countable</dd></dl>
+<p>Either of the two organs in the chest used for breathing.</p>
+<ol><li>He filled his <em>lungs</em> with cold air.</li><li>Smoking damages the <em>lungs</em>.</li><li>She has an infection in one <em>lung</em>.</li></ol>
+<hr>
+<h3 id="liver">liver<a class="hash" href="#liver" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/ˈlɪvər/ &middot; <em>LIV-ur</em></dd><dt>Русский</dt><dd>печень</dd><dt>Plural</dt><dd><em>livers</em></dd><dt>Countability</dt><dd>countable</dd></dl>
+<p>The large organ that cleans the blood and helps digestion.</p>
+<ol><li>Too much alcohol wrecks your <em>liver</em>.</li><li>The tests showed his <em>liver</em> was fine.</li><li>The <em>liver</em> filters everything you drink.</li></ol>
+<hr>
+<h3 id="kidney">kidney<a class="hash" href="#kidney" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/ˈkɪdni/ &middot; <em>KID-nee</em></dd><dt>Русский</dt><dd>почка</dd><dt>Plural</dt><dd><em>kidneys</em></dd><dt>Countability</dt><dd>countable</dd></dl>
+<p>Either of the two organs that filter waste out of the blood.</p>
+<ol><li>He donated a <em>kidney</em> to his brother.</li><li>Both <em>kidneys</em> were starting to fail.</li><li>Drink water, it is easier on your <em>kidneys</em>.</li></ol>
+<hr>
+<h3 id="bone">bone<a class="hash" href="#bone" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/boʊn/ &middot; <em>BOHN</em></dd><dt>Русский</dt><dd>кость</dd><dt>Plural</dt><dd><em>bones</em></dd><dt>Countability</dt><dd>countable, and uncountable as a substance</dd></dl>
+<p>One of the hard pieces that make up the skeleton.</p>
+<ol><li>He broke a <em>bone</em> in his foot.</li><li>The soup is made with beef <em>bones</em>.</li><li>The handle is carved from <em>bone</em>.</li></ol>
+<hr>
+<h3 id="muscle">muscle<a class="hash" href="#muscle" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/ˈmʌsəl/ &middot; <em>MUS-ul</em></dd><dt>Русский</dt><dd>мышца</dd><dt>Plural</dt><dd><em>muscles</em></dd><dt>Countability</dt><dd>countable, and uncountable as a substance</dd><dt>Contrast</dt><dd>The c is silent: MUS-ul, exactly like the shellfish mussel.</dd></dl>
+<p>Tissue that contracts to move part of the body.</p>
+<ol><li>I pulled a <em>muscle</em> in my back.</li><li>He has been putting on <em>muscle</em> since January.</li><li>Your heart is a <em>muscle</em> too.</li></ol>
+<hr>
+<h3 id="skin">skin<a class="hash" href="#skin" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/skɪn/ &middot; <em>SKIN</em></dd><dt>Русский</dt><dd>кожа</dd><dt>Plural</dt><dd><em>skins</em></dd><dt>Countability</dt><dd>countable, and uncountable as a substance</dd></dl>
+<p>The outer covering of the body.</p>
+<ol><li>My <em>skin</em> gets dry every winter.</li><li>Sunscreen protects your <em>skin</em>.</li><li>The lotion left my <em>skin</em> greasy.</li></ol>
+<hr>
+<h3 id="blood">blood<a class="hash" href="#blood" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/blʌd/ &middot; <em>BLUD</em></dd><dt>Русский</dt><dd>кровь</dd><dt>Countability</dt><dd>uncountable</dd><dt>Contrast</dt><dd>The oo sounds like the u in flood, not like food: BLUD.</dd></dl>
+<p>The red liquid the heart pumps through the body.</p>
+<ol><li>There was <em>blood</em> all over the towel.</li><li>They took a sample of my <em>blood</em>.</li><li>The sight of <em>blood</em> made him dizzy.</li></ol>
+<hr>
+<h3 id="nerve">nerve<a class="hash" href="#nerve" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/nɜːrv/ &middot; <em>NURV</em></dd><dt>Русский</dt><dd>нерв</dd><dt>Plural</dt><dd><em>nerves</em></dd><dt>Countability</dt><dd>both — countable and uncountable with different meanings</dd><dt>Contrast</dt><dd>Countable for the fibers; uncountable when it means courage — it takes some nerve to ask.</dd></dl>
+<p>A fiber that carries signals between the brain and the rest of the body.</p>
+<ol><li>The dentist hit a <em>nerve</em>.</li><li>A pinched <em>nerve</em> in his neck caused the pain.</li><li>The <em>nerves</em> in your fingertips are unusually sensitive.</li></ol>
+<hr>
+<h3 id="vein">vein<a class="hash" href="#vein" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/veɪn/ &middot; <em>VAYN</em></dd><dt>Русский</dt><dd>вена</dd><dt>Plural</dt><dd><em>veins</em></dd><dt>Countability</dt><dd>countable</dd><dt>Contrast</dt><dd>Sounds exactly like vain and vane.</dd></dl>
+<p>A tube that carries blood back toward the heart.</p>
+<ol><li>The nurse couldn't find a <em>vein</em>.</li><li>Blue <em>veins</em> showed through her skin.</li><li>Blood returns to the heart through the <em>veins</em>.</li></ol>
+<hr>
+<h3 id="artery">artery<a class="hash" href="#artery" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/ˈɑːrtəri/ &middot; <em>AHR-tuh-ree</em></dd><dt>Русский</dt><dd>артерия</dd><dt>Plural</dt><dd><em>arteries</em></dd><dt>Countability</dt><dd>countable</dd></dl>
+<p>A tube that carries blood away from the heart.</p>
+<ol><li>Cholesterol builds up in the <em>arteries</em>.</li><li>The bullet missed the main <em>artery</em>.</li><li>An <em>artery</em> has thicker walls than a vein.</li></ol>
+<hr>
+<h3 id="rib">rib<a class="hash" href="#rib" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/rɪb/ &middot; <em>RIB</em></dd><dt>Русский</dt><dd>ребро</dd><dt>Plural</dt><dd><em>ribs</em></dd><dt>Countability</dt><dd>countable</dd></dl>
+<p>One of the curved bones that form the cage around the chest.</p>
+<ol><li>He cracked a <em>rib</em> snowboarding.</li><li>You can count her <em>ribs</em>.</li><li>The dog got kicked in the <em>ribs</em>.</li></ol>
+<hr>
+<h3 id="spine">spine<a class="hash" href="#spine" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/spaɪn/ &middot; <em>SPYNE</em></dd><dt>Русский</dt><dd>позвоночник</dd><dt>Plural</dt><dd><em>spines</em></dd><dt>Countability</dt><dd>countable</dd></dl>
+<p>The column of small bones running down the middle of the back.</p>
+<ol><li>An injury to the <em>spine</em> can be permanent.</li><li>She has a slight curve in her <em>spine</em>.</li><li>He felt a chill run down his <em>spine</em>.</li></ol>
+<hr>
+<h3 id="joint">joint<a class="hash" href="#joint" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/dʒɔɪnt/ &middot; <em>JOYNT</em></dd><dt>Русский</dt><dd>сустав</dd><dt>Plural</dt><dd><em>joints</em></dd><dt>Countability</dt><dd>countable</dd></dl>
+<p>A place where two bones meet and the body can bend.</p>
+<ol><li>My <em>joints</em> ache when it rains.</li><li>The knee is the biggest <em>joint</em> in the body.</li><li>Arthritis inflames the <em>joints</em>.</li></ol>
+<hr>
+<h3 id="nail">nail<a class="hash" href="#nail" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/neɪl/ &middot; <em>NAYL</em></dd><dt>Русский</dt><dd>ноготь</dd><dt>Plural</dt><dd><em>nails</em></dd><dt>Countability</dt><dd>countable</dd></dl>
+<p>The hard covering on the end of a finger or toe.</p>
+<ol><li>I broke a <em>nail</em> opening the box.</li><li>She bites her <em>nails</em> when she is nervous.</li><li>Keep your <em>nails</em> short for climbing.</li></ol>
+<hr>
+<h3 id="fingernail">fingernail<a class="hash" href="#fingernail" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/ˈfɪŋɡərneɪl/ &middot; <em>FING-gur-nayl</em></dd><dt>Русский</dt><dd>ноготь (на руке)</dd><dt>Plural</dt><dd><em>fingernails</em></dd><dt>Countability</dt><dd>countable</dd></dl>
+<p>The hard covering on the end of a finger.</p>
+<ol><li>He chewed his <em>fingernails</em> down to nothing.</li><li>There was dirt under her <em>fingernails</em>.</li><li>A <em>fingernail</em> takes about six months to grow out.</li></ol>
+<hr>
+<h3 id="palm">palm<a class="hash" href="#palm" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/pɑːm/ &middot; <em>PAHM</em></dd><dt>Русский</dt><dd>ладонь</dd><dt>Plural</dt><dd><em>palms</em></dd><dt>Countability</dt><dd>countable</dd><dt>Contrast</dt><dd>The l is silent: PAHM. Same word as the palm tree.</dd></dl>
+<p>The inner surface of the hand.</p>
+<ol><li>She read the lines on my <em>palm</em>.</li><li>He pressed his <em>palms</em> together.</li><li>The coin was hidden in his <em>palm</em>.</li></ol>
+<hr>
+<h3 id="fist">fist<a class="hash" href="#fist" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/fɪst/ &middot; <em>FIST</em></dd><dt>Русский</dt><dd>кулак</dd><dt>Plural</dt><dd><em>fists</em></dd><dt>Countability</dt><dd>countable</dd></dl>
+<p>A hand with the fingers curled tightly into the palm.</p>
+<ol><li>He slammed his <em>fist</em> on the table.</li><li>The baby's tiny <em>fists</em> were clenched.</li><li>She kept the note crumpled in her <em>fist</em>.</li></ol>
+<hr>
+<h3 id="thigh">thigh<a class="hash" href="#thigh" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/θaɪ/ &middot; <em>THY</em></dd><dt>Русский</dt><dd>бедро (верхняя часть ноги)</dd><dt>Plural</dt><dd><em>thighs</em></dd><dt>Countability</dt><dd>countable</dd><dt>Contrast</dt><dd>The -gh is silent: THY, rhyming with my.</dd></dl>
+<p>The part of the leg between the hip and the knee.</p>
+<ol><li>He tore a muscle in his <em>thigh</em>.</li><li>The seat belt cut into my <em>thighs</em>.</li><li>Chicken <em>thighs</em> stay juicier than breasts.</li></ol>
+<hr>
+<h3 id="shin">shin<a class="hash" href="#shin" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/ʃɪn/ &middot; <em>SHIN</em></dd><dt>Русский</dt><dd>голень</dd><dt>Plural</dt><dd><em>shins</em></dd><dt>Countability</dt><dd>countable</dd></dl>
+<p>The front of the leg between the knee and the ankle.</p>
+<ol><li>He kicked me in the <em>shin</em>.</li><li>I banged my <em>shin</em> on the bed frame.</li><li>Soccer players wear pads over their <em>shins</em>.</li></ol>
+<hr>
+<h3 id="heel">heel<a class="hash" href="#heel" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/hiːl/ &middot; <em>HEEL</em></dd><dt>Русский</dt><dd>пятка</dd><dt>Plural</dt><dd><em>heels</em></dd><dt>Countability</dt><dd>countable</dd><dt>Contrast</dt><dd>Sounds exactly like heal.</dd></dl>
+<p>The rounded back part of the foot.</p>
+<ol><li>My <em>heel</em> blistered on the second day.</li><li>He turned on his <em>heel</em> and walked out.</li><li>These shoes rub my <em>heels</em>.</li></ol>
+<hr>
+<h3 id="sole">sole<a class="hash" href="#sole" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/soʊl/ &middot; <em>SOHL</em></dd><dt>Русский</dt><dd>ступня, подошва стопы</dd><dt>Plural</dt><dd><em>soles</em></dd><dt>Countability</dt><dd>countable</dd><dt>Contrast</dt><dd>Sounds exactly like soul.</dd></dl>
+<p>The underside of the foot.</p>
+<ol><li>The <em>soles</em> of my feet were burning on the hot sand.</li><li>He has a splinter in the <em>sole</em> of his foot.</li><li>Walking barefoot toughens up your <em>soles</em>.</li></ol>
+<hr>
+<h3 id="buttock">buttock<a class="hash" href="#buttock" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/ˈbʌtək/ &middot; <em>BUT-uk</em></dd><dt>Русский</dt><dd>ягодица</dd><dt>Plural</dt><dd><em>buttocks</em></dd><dt>Countability</dt><dd>countable</dd></dl>
+<p>Either of the two fleshy parts of the body you sit on.</p>
+<ol><li>He landed hard on one <em>buttock</em>.</li><li>The shot goes into the <em>buttock</em>.</li><li>She has a bruise across both <em>buttocks</em>.</li></ol>
+<hr>
+<h3 id="breast">breast<a class="hash" href="#breast" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/brest/ &middot; <em>BREST</em></dd><dt>Русский</dt><dd>грудь (женская), молочная железа</dd><dt>Plural</dt><dd><em>breasts</em></dd><dt>Countability</dt><dd>countable</dd></dl>
+<p>Either of the two soft round parts on the front of a woman's chest.</p>
+<ol><li>She found a lump in her left <em>breast</em>.</li><li><em>Breast</em> screening usually starts at forty.</li><li>The baby nursed at her <em>breast</em>.</li></ol>
+<hr>
+<h3 id="nipple">nipple<a class="hash" href="#nipple" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/ˈnɪpəl/ &middot; <em>NIP-ul</em></dd><dt>Русский</dt><dd>сосок</dd><dt>Plural</dt><dd><em>nipples</em></dd><dt>Countability</dt><dd>countable</dd><dt>Contrast</dt><dd>Americans call the rubber top of a baby bottle a nipple; British English says teat.</dd></dl>
+<p>The small raised point in the middle of the breast.</p>
+<ol><li>The baby would not latch onto the <em>nipple</em>.</li><li>She had a rash around one <em>nipple</em>.</li><li>The bottle came with two spare <em>nipples</em>.</li></ol>
+<hr>
+<h3 id="navel">navel<a class="hash" href="#navel" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/ˈneɪvəl/ &middot; <em>NAY-vul</em></dd><dt>Русский</dt><dd>пупок</dd><dt>Plural</dt><dd><em>navels</em></dd><dt>Countability</dt><dd>countable</dd><dt>Contrast</dt><dd>Sounds exactly like naval. In ordinary speech Americans say belly button.</dd></dl>
+<p>The small hollow in the middle of the stomach.</p>
+<ol><li>She has a piercing in her <em>navel</em>.</li><li>The scar runs just below the <em>navel</em>.</li><li>The doctor measured down from the <em>navel</em>.</li></ol>
+<hr>
+<h3 id="abdomen">abdomen<a class="hash" href="#abdomen" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/ˈæbdəmən/ &middot; <em>AB-duh-mun</em></dd><dt>Русский</dt><dd>живот, брюшная полость</dd><dt>Plural</dt><dd><em>abdomens</em></dd><dt>Countability</dt><dd>countable</dd><dt>Contrast</dt><dd>Americans usually stress the first syllable: AB-duh-mun.</dd></dl>
+<p>The part of the body between the chest and the hips, holding the digestive organs.</p>
+<ol><li>The pain is low in the <em>abdomen</em>.</li><li>He was stabbed in the <em>abdomen</em>.</li><li>She felt a tightness across her <em>abdomen</em>.</li></ol>
+<hr>
+<h3 id="torso">torso<a class="hash" href="#torso" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/ˈtɔːrsoʊ/ &middot; <em>TOR-soh</em></dd><dt>Русский</dt><dd>туловище, торс</dd><dt>Plural</dt><dd><em>torsos</em></dd><dt>Countability</dt><dd>countable</dd></dl>
+<p>The trunk of the body, without the head, arms, or legs.</p>
+<ol><li>The statue is just a <em>torso</em>, no head or arms.</li><li>He has tattoos across his whole <em>torso</em>.</li><li>The scan covered the <em>torso</em> only.</li></ol>
+<hr>
+<h3 id="limb">limb<a class="hash" href="#limb" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/lɪm/ &middot; <em>LIM</em></dd><dt>Русский</dt><dd>конечность</dd><dt>Plural</dt><dd><em>limbs</em></dd><dt>Countability</dt><dd>countable</dd><dt>Contrast</dt><dd>The b is silent: LIM.</dd></dl>
+<p>An arm or a leg.</p>
+<ol><li>The accident cost him a <em>limb</em>.</li><li>Surgeons reattached the severed <em>limb</em>.</li><li>Cold weather makes your <em>limbs</em> stiff.</li></ol>
+<hr>
+<h3 id="flesh">flesh<a class="hash" href="#flesh" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/fleʃ/ &middot; <em>FLESH</em></dd><dt>Русский</dt><dd>плоть, мягкие ткани</dd><dt>Countability</dt><dd>uncountable</dd></dl>
+<p>The soft tissue of the body between the skin and the bones.</p>
+<ol><li>The blade cut into the <em>flesh</em> of his palm.</li><li>Mosquitoes went straight for any exposed <em>flesh</em>.</li><li>The bruise showed dark against pale <em>flesh</em>.</li></ol>
+<hr>
+<h3 id="cartilage">cartilage<a class="hash" href="#cartilage" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/ˈkɑːrtəlɪdʒ/ &middot; <em>KAHR-tuh-lij</em></dd><dt>Русский</dt><dd>хрящ</dd><dt>Countability</dt><dd>uncountable</dd></dl>
+<p>The firm flexible tissue found in joints, the nose, and the ears.</p>
+<ol><li>He tore the <em>cartilage</em> in his knee.</li><li>Your nose is mostly <em>cartilage</em>, not bone.</li><li><em>Cartilage</em> heals slowly because it has no blood supply.</li></ol>
+<hr>
+<h3 id="tendon">tendon<a class="hash" href="#tendon" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/ˈtendən/ &middot; <em>TEN-dun</em></dd><dt>Русский</dt><dd>сухожилие</dd><dt>Plural</dt><dd><em>tendons</em></dd><dt>Countability</dt><dd>countable</dd></dl>
+<p>A tough cord that attaches a muscle to a bone.</p>
+<ol><li>He ruptured a <em>tendon</em> in his ankle.</li><li>You can feel the <em>tendons</em> on the back of your hand.</li><li>The <em>tendon</em> runs from the calf down to the heel.</li></ol>
+<hr>
+<h3 id="ligament">ligament<a class="hash" href="#ligament" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/ˈlɪɡəmənt/ &middot; <em>LIG-uh-munt</em></dd><dt>Русский</dt><dd>связка</dd><dt>Plural</dt><dd><em>ligaments</em></dd><dt>Countability</dt><dd>countable</dd></dl>
+<p>A band of tissue that holds two bones together at a joint.</p>
+<ol><li>She tore a <em>ligament</em> in her knee.</li><li><em>Ligaments</em> hold the joint in place.</li><li>A stretched <em>ligament</em> takes months to heal.</li></ol>
+<hr>
+<h3 id="tissue">tissue<a class="hash" href="#tissue" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/ˈtɪʃuː/ &middot; <em>TISH-oo</em></dd><dt>Русский</dt><dd>ткань (организма)</dd><dt>Plural</dt><dd><em>tissues</em></dd><dt>Countability</dt><dd>both — countable and uncountable with different meanings</dd><dt>Contrast</dt><dd>Uncountable for body material; countable for the paper kind — hand me a tissue.</dd></dl>
+<p>The material that the parts of a body are made of.</p>
+<ol><li>Scar <em>tissue</em> built up around the wound.</li><li>The burn destroyed the surrounding <em>tissue</em>.</li><li>The lab grows human <em>tissue</em> in a dish.</li></ol>
+<hr>
+<h3 id="organ">organ<a class="hash" href="#organ" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/ˈɔːrɡən/ &middot; <em>OR-gun</em></dd><dt>Русский</dt><dd>орган</dd><dt>Plural</dt><dd><em>organs</em></dd><dt>Countability</dt><dd>countable</dd></dl>
+<p>A part of the body with a particular job, such as the heart or the liver.</p>
+<ol><li>The liver is the largest internal <em>organ</em>.</li><li>He is registered as an <em>organ</em> donor.</li><li>Alcohol damages several <em>organs</em> at once.</li></ol>
+<hr>
+<h3 id="gland">gland<a class="hash" href="#gland" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/ɡlænd/ &middot; <em>GLAND</em></dd><dt>Русский</dt><dd>железа</dd><dt>Plural</dt><dd><em>glands</em></dd><dt>Countability</dt><dd>countable</dd></dl>
+<p>An organ that produces a substance the body uses or releases.</p>
+<ol><li>The <em>glands</em> in my neck are swollen.</li><li>The thyroid is a small <em>gland</em> at the base of the throat.</li><li>Sweat <em>glands</em> cover most of the body.</li></ol>
+<hr>
+<h3 id="cell">cell<a class="hash" href="#cell" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/sel/ &middot; <em>SEL</em></dd><dt>Русский</dt><dd>клетка</dd><dt>Plural</dt><dd><em>cells</em></dd><dt>Countability</dt><dd>countable</dd><dt>Contrast</dt><dd>Sounds exactly like sell.</dd></dl>
+<p>The smallest living unit that bodies are built from.</p>
+<ol><li>The body replaces old <em>cells</em> constantly.</li><li>A single <em>cell</em> divides into two.</li><li>Red blood <em>cells</em> carry oxygen.</li></ol>
+<hr>
+<h3 id="skeleton">skeleton<a class="hash" href="#skeleton" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/ˈskelətən/ &middot; <em>SKEL-uh-tun</em></dd><dt>Русский</dt><dd>скелет</dd><dt>Plural</dt><dd><em>skeletons</em></dd><dt>Countability</dt><dd>countable</dd></dl>
+<p>All the bones of a body taken together.</p>
+<ol><li>A human <em>skeleton</em> has 206 bones.</li><li>They found a <em>skeleton</em> buried under the floor.</li><li>The museum has a dinosaur <em>skeleton</em> in the lobby.</li></ol>
+<hr>
+<h3 id="temple">temple<a class="hash" href="#temple" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/ˈtempəl/ &middot; <em>TEM-pul</em></dd><dt>Русский</dt><dd>висок</dd><dt>Plural</dt><dd><em>temples</em></dd><dt>Countability</dt><dd>countable</dd><dt>Contrast</dt><dd>Spelled and pronounced exactly like the religious building; only context separates them.</dd></dl>
+<p>The flat area on either side of the forehead, beside the eye.</p>
+<ol><li>She rubbed her <em>temples</em> to fight off the headache.</li><li>Gray hair started at his <em>temples</em>.</li><li>The blow landed on his <em>temple</em>.</li></ol>
+<hr>
+<h3 id="scalp">scalp<a class="hash" href="#scalp" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/skælp/ &middot; <em>SKALP</em></dd><dt>Русский</dt><dd>кожа головы</dd><dt>Plural</dt><dd><em>scalps</em></dd><dt>Countability</dt><dd>countable</dd></dl>
+<p>The skin on top of the head, where the hair grows.</p>
+<ol><li>The cut on his <em>scalp</em> bled a lot.</li><li>That shampoo leaves my <em>scalp</em> itchy.</li><li>Sunburn on the <em>scalp</em> is easy to get.</li></ol>
+<hr>
+<h3 id="beard">beard<a class="hash" href="#beard" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/bɪrd/ &middot; <em>BEERD</em></dd><dt>Русский</dt><dd>борода</dd><dt>Plural</dt><dd><em>beards</em></dd><dt>Countability</dt><dd>countable</dd><dt>Contrast</dt><dd>Rhymes with weird, not with heard.</dd></dl>
+<p>The hair that grows on a man's chin and cheeks.</p>
+<ol><li>He grew a <em>beard</em> over the winter.</li><li>There was food in his <em>beard</em>.</li><li>She likes him better without the <em>beard</em>.</li></ol>
+<hr>
+<h3 id="mustache">mustache<a class="hash" href="#mustache" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/ˈmʌstæʃ/ &middot; <em>MUS-tash</em></dd><dt>Русский</dt><dd>усы</dd><dt>Plural</dt><dd><em>mustaches</em></dd><dt>Countability</dt><dd>countable</dd><dt>Contrast</dt><dd>Americans write mustache, the British moustache. English keeps it singular where Russian усы is plural: he has a mustache.</dd></dl>
+<p>The hair a man grows on his upper lip.</p>
+<ol><li>He shaved off his <em>mustache</em>.</li><li>Milk left a <em>mustache</em> on the kid's lip.</li><li>The old photo shows him with a thick <em>mustache</em>.</li></ol>
+<hr>
+<h3 id="eyeball">eyeball<a class="hash" href="#eyeball" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/ˈaɪbɔːl/ &middot; <em>EYE-bawl</em></dd><dt>Русский</dt><dd>глазное яблоко</dd><dt>Plural</dt><dd><em>eyeballs</em></dd><dt>Countability</dt><dd>countable</dd></dl>
+<p>The whole round part of the eye inside the socket.</p>
+<ol><li>The doctor shined a light on his <em>eyeball</em>.</li><li>Her <em>eyeballs</em> were bloodshot.</li><li>The pressure inside the <em>eyeball</em> was too high.</li></ol>
+<hr>
+<h3 id="pupil">pupil<a class="hash" href="#pupil" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/ˈpjuːpəl/ &middot; <em>PYOO-pul</em></dd><dt>Русский</dt><dd>зрачок</dd><dt>Plural</dt><dd><em>pupils</em></dd><dt>Countability</dt><dd>countable</dd><dt>Contrast</dt><dd>Same word as pupil meaning a school student.</dd></dl>
+<p>The black opening in the middle of the eye that light passes through.</p>
+<ol><li>The doctor checked whether his <em>pupils</em> were reacting.</li><li>Her <em>pupils</em> went huge in the dark room.</li><li>One <em>pupil</em> was larger than the other.</li></ol>
+<hr>
+<h3 id="iris">iris<a class="hash" href="#iris" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/ˈaɪrɪs/ &middot; <em>EYE-ris</em></dd><dt>Русский</dt><dd>радужка (глаза)</dd><dt>Plural</dt><dd><em>irises</em></dd><dt>Countability</dt><dd>countable</dd></dl>
+<p>The colored ring around the pupil of the eye.</p>
+<ol><li>She has a ring of gold around each <em>iris</em>.</li><li>The <em>iris</em> opens and closes to control the light.</li><li>His <em>irises</em> are almost black.</li></ol>
+<hr>
+<h3 id="eardrum">eardrum<a class="hash" href="#eardrum" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/ˈɪrdrʌm/ &middot; <em>EER-drum</em></dd><dt>Русский</dt><dd>барабанная перепонка</dd><dt>Plural</dt><dd><em>eardrums</em></dd><dt>Countability</dt><dd>countable</dd></dl>
+<p>The thin piece of skin inside the ear that vibrates with sound.</p>
+<ol><li>The blast ruptured his <em>eardrum</em>.</li><li>Loud music can damage your <em>eardrums</em>.</li><li>The doctor looked at my <em>eardrum</em> with a light.</li></ol>
+<hr>
+<h3 id="nostril">nostril<a class="hash" href="#nostril" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/ˈnɑːstrəl/ &middot; <em>NAHS-trul</em></dd><dt>Русский</dt><dd>ноздря</dd><dt>Plural</dt><dd><em>nostrils</em></dd><dt>Countability</dt><dd>countable</dd></dl>
+<p>Either of the two openings at the bottom of the nose.</p>
+<ol><li>One <em>nostril</em> is always more blocked than the other.</li><li>He flared his <em>nostrils</em>.</li><li>The spray goes into each <em>nostril</em>.</li></ol>
+<hr>
+<h3 id="gum">gum<a class="hash" href="#gum" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/ɡʌm/ &middot; <em>GUM</em></dd><dt>Русский</dt><dd>десна</dd><dt>Plural</dt><dd><em>gums</em></dd><dt>Countability</dt><dd>countable</dd><dt>Contrast</dt><dd>The chewing kind of gum is uncountable: a piece of gum, never a gum.</dd></dl>
+<p>The firm pink flesh around the base of the teeth.</p>
+<ol><li>My <em>gums</em> bleed when I floss.</li><li>The dentist said my <em>gums</em> look healthy.</li><li>Cold water hurts his <em>gums</em>.</li></ol>
+<hr>
+<h3 id="molar">molar<a class="hash" href="#molar" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/ˈmoʊlər/ &middot; <em>MOH-lur</em></dd><dt>Русский</dt><dd>коренной зуб</dd><dt>Plural</dt><dd><em>molars</em></dd><dt>Countability</dt><dd>countable</dd></dl>
+<p>One of the wide flat teeth at the back of the mouth used for grinding.</p>
+<ol><li>The dentist pulled a <em>molar</em>.</li><li>He cracked a <em>molar</em> on a popcorn kernel.</li><li><em>Molars</em> do most of the chewing.</li></ol>
+<hr>
+<h3 id="tonsil">tonsil<a class="hash" href="#tonsil" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/ˈtɑːnsəl/ &middot; <em>TAHN-sul</em></dd><dt>Русский</dt><dd>миндалина, гланда</dd><dt>Plural</dt><dd><em>tonsils</em></dd><dt>Countability</dt><dd>countable</dd></dl>
+<p>Either of the two small masses of tissue at the back of the throat.</p>
+<ol><li>They took out her <em>tonsils</em> when she was six.</li><li>His <em>tonsils</em> are swollen again.</li><li>The infection settled in one <em>tonsil</em>.</li></ol>
+<hr>
+<h3 id="windpipe">windpipe<a class="hash" href="#windpipe" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/ˈwɪndpaɪp/ &middot; <em>WIND-pype</em></dd><dt>Русский</dt><dd>трахея, дыхательное горло</dd><dt>Plural</dt><dd><em>windpipes</em></dd><dt>Countability</dt><dd>countable</dd></dl>
+<p>The tube that carries air from the throat down to the lungs.</p>
+<ol><li>A piece of food went down his <em>windpipe</em>.</li><li>The smoke burned her <em>windpipe</em>.</li><li>The surgeon opened the <em>windpipe</em> so he could breathe.</li></ol>
+<hr>
+<h3 id="intestine">intestine<a class="hash" href="#intestine" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/ɪnˈtestɪn/ &middot; <em>in-TES-tin</em></dd><dt>Русский</dt><dd>кишка, кишечник</dd><dt>Plural</dt><dd><em>intestines</em></dd><dt>Countability</dt><dd>countable</dd></dl>
+<p>The long tube below the stomach where food is digested and absorbed.</p>
+<ol><li>The infection was in his small <em>intestine</em>.</li><li>The large <em>intestine</em> absorbs water.</li><li>Human <em>intestines</em> are surprisingly long.</li></ol>
+<hr>
+<h3 id="bowel">bowel<a class="hash" href="#bowel" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/ˈbaʊrl/ &middot; <em>BOW-ul</em></dd><dt>Русский</dt><dd>кишечник</dd><dt>Plural</dt><dd><em>bowels</em></dd><dt>Countability</dt><dd>countable</dd></dl>
+<p>The intestine, especially the lower part of it.</p>
+<ol><li>He has trouble with his <em>bowels</em>.</li><li>The surgeon removed part of the <em>bowel</em>.</li><li><em>Bowel</em> problems run in the family.</li></ol>
+<hr>
+<h3 id="gut">gut<a class="hash" href="#gut" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/ɡʌt/ &middot; <em>GUT</em></dd><dt>Русский</dt><dd>кишечник; живот (разг.)</dd><dt>Plural</dt><dd><em>guts</em></dd><dt>Countability</dt><dd>countable</dd></dl>
+<p>The stomach and intestines, in informal speech.</p>
+<ol><li>He took a punch in the <em>gut</em>.</li><li>The fish was cleaned and its <em>guts</em> thrown out.</li><li>Bacteria in the <em>gut</em> help you digest food.</li></ol>
+<hr>
+<h3 id="bladder">bladder<a class="hash" href="#bladder" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/ˈblædər/ &middot; <em>BLAD-ur</em></dd><dt>Русский</dt><dd>мочевой пузырь</dd><dt>Plural</dt><dd><em>bladders</em></dd><dt>Countability</dt><dd>countable</dd></dl>
+<p>The organ that holds urine before it leaves the body.</p>
+<ol><li>Coffee irritates my <em>bladder</em>.</li><li>The infection was in her <em>bladder</em>.</li><li>He has a small <em>bladder</em> and stops at every rest area.</li></ol>
+<hr>
+<h3 id="spleen">spleen<a class="hash" href="#spleen" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/spliːn/ &middot; <em>SPLEEN</em></dd><dt>Русский</dt><dd>селезёнка</dd><dt>Plural</dt><dd><em>spleens</em></dd><dt>Countability</dt><dd>countable</dd></dl>
+<p>The organ near the stomach that filters blood and fights infection.</p>
+<ol><li>The accident ruptured his <em>spleen</em>.</li><li>Surgeons had to remove her <em>spleen</em>.</li><li>The <em>spleen</em> clears out old blood cells.</li></ol>
+<hr>
+<h3 id="pancreas">pancreas<a class="hash" href="#pancreas" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/ˈpæŋkriəs/ &middot; <em>PANG-kree-us</em></dd><dt>Русский</dt><dd>поджелудочная железа</dd><dt>Plural</dt><dd><em>pancreases</em></dd><dt>Countability</dt><dd>countable</dd></dl>
+<p>The gland behind the stomach that makes insulin and digestive juices.</p>
+<ol><li>The <em>pancreas</em> makes insulin.</li><li>Heavy drinking can inflame the <em>pancreas</em>.</li><li>They found a tumor on his <em>pancreas</em>.</li></ol>
+<hr>
+<h3 id="gallbladder">gallbladder<a class="hash" href="#gallbladder" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/ˈɡɔːlblædər/ &middot; <em>GAWL-blad-ur</em></dd><dt>Русский</dt><dd>жёлчный пузырь</dd><dt>Plural</dt><dd><em>gallbladders</em></dd><dt>Countability</dt><dd>countable</dd></dl>
+<p>The small organ under the liver that stores bile.</p>
+<ol><li>They took out my <em>gallbladder</em> last year.</li><li>Fatty food set off her <em>gallbladder</em>.</li><li>The <em>gallbladder</em> stores bile until you eat.</li></ol>
+<hr>
+<h3 id="womb">womb<a class="hash" href="#womb" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/wuːm/ &middot; <em>WOOM</em></dd><dt>Русский</dt><dd>матка</dd><dt>Plural</dt><dd><em>wombs</em></dd><dt>Countability</dt><dd>countable</dd><dt>Contrast</dt><dd>The b is silent and the o says oo: WOOM.</dd></dl>
+<p>The organ in a woman's body where a baby grows.</p>
+<ol><li>The baby moved in her <em>womb</em>.</li><li>Twins share a <em>womb</em> for nine months.</li><li>The scan showed the <em>womb</em> was healthy.</li></ol>
+<hr>
+<h3 id="ovary">ovary<a class="hash" href="#ovary" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/ˈoʊvəri/ &middot; <em>OH-vuh-ree</em></dd><dt>Русский</dt><dd>яичник</dd><dt>Plural</dt><dd><em>ovaries</em></dd><dt>Countability</dt><dd>countable</dd></dl>
+<p>Either of the two organs in a woman's body that produce eggs.</p>
+<ol><li>The cyst was on her left <em>ovary</em>.</li><li>The <em>ovaries</em> release one egg a month.</li><li>The surgeon removed both <em>ovaries</em>.</li></ol>
+<hr>
+<h3 id="saliva">saliva<a class="hash" href="#saliva" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/səˈlaɪvə/ &middot; <em>suh-LY-vuh</em></dd><dt>Русский</dt><dd>слюна</dd><dt>Countability</dt><dd>uncountable</dd></dl>
+<p>The clear liquid produced in the mouth.</p>
+<ol><li>The smell filled my mouth with <em>saliva</em>.</li><li>The test uses a <em>saliva</em> sample.</li><li><em>Saliva</em> starts breaking food down before you swallow.</li></ol>
+<hr>
+<h3 id="sweat">sweat<a class="hash" href="#sweat" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/swet/ &middot; <em>SWET</em></dd><dt>Русский</dt><dd>пот</dd><dt>Countability</dt><dd>uncountable</dd></dl>
+<p>The salty liquid the skin gives off when the body is hot.</p>
+<ol><li><em>Sweat</em> was running into my eyes.</li><li>His shirt was soaked with <em>sweat</em>.</li><li><em>Sweat</em> cools you down as it evaporates.</li></ol>
+<hr>
+<h3 id="tear">tear<a class="hash" href="#tear" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/tɪr/ &middot; <em>TEER</em></dd><dt>Русский</dt><dd>слеза</dd><dt>Plural</dt><dd><em>tears</em></dd><dt>Countability</dt><dd>countable</dd><dt>Contrast</dt><dd>This tear rhymes with here; the unrelated verb tear, meaning rip, rhymes with air.</dd></dl>
+<p>A drop of the liquid that comes from the eye when you cry.</p>
+<ol><li>A <em>tear</em> ran down her cheek.</li><li>He wiped away a <em>tear</em>.</li><li>The onions had all of us in <em>tears</em>.</li></ol>
+<hr>
+<h3 id="breath">breath<a class="hash" href="#breath" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/breθ/ &middot; <em>BRETH</em></dd><dt>Русский</dt><dd>дыхание, вдох</dd><dt>Plural</dt><dd><em>breaths</em></dd><dt>Countability</dt><dd>countable</dd><dt>Contrast</dt><dd>The noun breath has a short e and a voiceless th; the verb breathe has a long ee and a voiced th.</dd></dl>
+<p>One movement of air into or out of the lungs.</p>
+<ol><li>Take a deep <em>breath</em>.</li><li>He was out of <em>breath</em> after one flight of stairs.</li><li>She held her <em>breath</em> underwater.</li></ol>
+<hr>
+<h3 id="pulse">pulse<a class="hash" href="#pulse" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/pʌls/ &middot; <em>PULS</em></dd><dt>Русский</dt><dd>пульс</dd><dt>Plural</dt><dd><em>pulses</em></dd><dt>Countability</dt><dd>countable</dd></dl>
+<p>The regular beat of blood that you can feel in an artery.</p>
+<ol><li>The nurse took my <em>pulse</em>.</li><li>His <em>pulse</em> was weak but steady.</li><li>She could feel her <em>pulse</em> in her ears.</li></ol>
+<hr>
+<h3 id="knuckle">knuckle<a class="hash" href="#knuckle" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/ˈnʌkəl/ &middot; <em>NUK-ul</em></dd><dt>Русский</dt><dd>костяшка (пальца)</dd><dt>Plural</dt><dd><em>knuckles</em></dd><dt>Countability</dt><dd>countable</dd><dt>Contrast</dt><dd>The k is silent: NUK-ul.</dd></dl>
+<p>A joint in the finger, especially where the finger meets the hand.</p>
+<ol><li>He cracked his <em>knuckles</em>.</li><li>Her <em>knuckles</em> were white on the steering wheel.</li><li>He skinned a <em>knuckle</em> on the engine block.</li></ol>
+<hr>
+<h3 id="armpit">armpit<a class="hash" href="#armpit" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/ˈɑːrmpɪt/ &middot; <em>AHRM-pit</em></dd><dt>Русский</dt><dd>подмышка</dd><dt>Plural</dt><dd><em>armpits</em></dd><dt>Countability</dt><dd>countable</dd></dl>
+<p>The hollow under the arm where it joins the body.</p>
+<ol><li>Deodorant goes under the <em>armpit</em>.</li><li>He had a rash in his <em>armpit</em>.</li><li>Her shirt was soaked at the <em>armpits</em>.</li></ol>
+<hr>
+<h3 id="collarbone">collarbone<a class="hash" href="#collarbone" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/ˈkɑːlərboʊn/ &middot; <em>KAH-lur-bohn</em></dd><dt>Русский</dt><dd>ключица</dd><dt>Plural</dt><dd><em>collarbones</em></dd><dt>Countability</dt><dd>countable</dd></dl>
+<p>Either of the two bones running from the shoulder to the base of the neck.</p>
+<ol><li>He broke his <em>collarbone</em> in the crash.</li><li>You can see her <em>collarbones</em> in that dress.</li><li>The strap dug into my <em>collarbone</em>.</li></ol>
+<hr>
+<h3 id="kneecap">kneecap<a class="hash" href="#kneecap" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/ˈniːkæp/ &middot; <em>NEE-kap</em></dd><dt>Русский</dt><dd>коленная чашечка</dd><dt>Plural</dt><dd><em>kneecaps</em></dd><dt>Countability</dt><dd>countable</dd></dl>
+<p>The small round bone at the front of the knee.</p>
+<ol><li>The surgeon replaced his <em>kneecap</em>.</li><li>She landed on her <em>kneecaps</em>.</li><li>A blow to the <em>kneecap</em> is agony.</li></ol>
+<hr>
+<h3 id="spinal-cord">spinal cord<a class="hash" href="#spinal-cord" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/ˈspaɪnəl kɔːrd/ &middot; <em>SPY-nul KORD</em></dd><dt>Русский</dt><dd>спинной мозг</dd><dt>Plural</dt><dd><em>spinal cords</em></dd><dt>Countability</dt><dd>countable</dd><dt>Contrast</dt><dd>Cord, not chord — the two sound identical but only cord is the body part.</dd></dl>
+<p>The thick bundle of nerves running down inside the spine.</p>
+<ol><li>The injury damaged his <em>spinal cord</em>.</li><li>The <em>spinal cord</em> carries signals from the brain to the body.</li><li>Nerves branch off the <em>spinal cord</em> all the way down.</li></ol>
+<hr>
+<h3 id="marrow">marrow<a class="hash" href="#marrow" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/ˈmeroʊ/ &middot; <em>MER-oh</em></dd><dt>Русский</dt><dd>костный мозг</dd><dt>Countability</dt><dd>uncountable</dd></dl>
+<p>The soft tissue inside bones where blood cells are made.</p>
+<ol><li>He needs a bone <em>marrow</em> transplant.</li><li><em>Marrow</em> makes new blood cells every day.</li><li>The doctors tested her <em>marrow</em> for cancer.</li></ol>
+<hr>
+<h3 id="pore">pore<a class="hash" href="#pore" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/pɔːr/ &middot; <em>POR</em></dd><dt>Русский</dt><dd>пора (на коже)</dd><dt>Plural</dt><dd><em>pores</em></dd><dt>Countability</dt><dd>countable</dd><dt>Contrast</dt><dd>Sounds exactly like pour.</dd></dl>
+<p>One of the tiny openings in the skin that sweat comes out of.</p>
+<ol><li>Hot water opens your <em>pores</em>.</li><li>That cream clogged my <em>pores</em>.</li><li>Sweat comes out through the <em>pores</em>.</li></ol>
+<hr>
+<h3 id="wrinkle">wrinkle<a class="hash" href="#wrinkle" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/ˈrɪŋkəl/ &middot; <em>RING-kul</em></dd><dt>Русский</dt><dd>морщина</dd><dt>Plural</dt><dd><em>wrinkles</em></dd><dt>Countability</dt><dd>countable</dd><dt>Contrast</dt><dd>The w is silent: RING-kul.</dd></dl>
+<p>A small line in the skin that comes with age.</p>
+<ol><li>She has fine <em>wrinkles</em> around her eyes.</li><li>The cream promises to smooth out <em>wrinkles</em>.</li><li>A deep <em>wrinkle</em> ran across his forehead.</li></ol>
+<hr>
+<h3 id="freckle">freckle<a class="hash" href="#freckle" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/ˈfrekəl/ &middot; <em>FREK-ul</em></dd><dt>Русский</dt><dd>веснушка</dd><dt>Plural</dt><dd><em>freckles</em></dd><dt>Countability</dt><dd>countable</dd></dl>
+<p>A small light brown spot on the skin, usually from the sun.</p>
+<ol><li>He has <em>freckles</em> across his nose.</li><li>Summer brings out her <em>freckles</em>.</li><li>A single <em>freckle</em> sat on her cheek.</li></ol>
+<hr>
+<h3 id="dimple">dimple<a class="hash" href="#dimple" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/ˈdɪmpəl/ &middot; <em>DIM-pul</em></dd><dt>Русский</dt><dd>ямочка (на щеке)</dd><dt>Plural</dt><dd><em>dimples</em></dd><dt>Countability</dt><dd>countable</dd></dl>
+<p>A small hollow in the cheek or chin that shows when someone smiles.</p>
+<ol><li>She has a <em>dimple</em> in one cheek.</li><li>His <em>dimples</em> show when he smiles.</li><li>The baby has a <em>dimple</em> on her chin.</li></ol>
+<hr>
+<h3 id="mole">mole<a class="hash" href="#mole" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/moʊl/ &middot; <em>MOHL</em></dd><dt>Русский</dt><dd>родинка</dd><dt>Plural</dt><dd><em>moles</em></dd><dt>Countability</dt><dd>countable</dd><dt>Contrast</dt><dd>Same word as the burrowing animal.</dd></dl>
+<p>A small dark permanent spot on the skin.</p>
+<ol><li>The doctor removed a <em>mole</em> from his back.</li><li>She has a small <em>mole</em> above her lip.</li><li>Watch any <em>mole</em> that changes shape or color.</li></ol>
+<hr>
+<h3 id="complexion">complexion<a class="hash" href="#complexion" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/kəmˈplekʃən/ &middot; <em>kum-PLEK-shun</em></dd><dt>Русский</dt><dd>цвет лица</dd><dt>Plural</dt><dd><em>complexions</em></dd><dt>Countability</dt><dd>countable</dd></dl>
+<p>The natural color and condition of the skin on someone's face.</p>
+<ol><li>She has a fair <em>complexion</em>.</li><li>The medication cleared up his <em>complexion</em>.</li><li>Sleep does more for your <em>complexion</em> than any cream.</li></ol>
+<hr>
+<h3 id="fingertip">fingertip<a class="hash" href="#fingertip" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/ˈfɪŋɡərtɪp/ &middot; <em>FING-gur-tip</em></dd><dt>Русский</dt><dd>кончик пальца</dd><dt>Plural</dt><dd><em>fingertips</em></dd><dt>Countability</dt><dd>countable</dd></dl>
+<p>The end of a finger, past the last joint.</p>
+<ol><li>He touched the screen with one <em>fingertip</em>.</li><li>Her <em>fingertips</em> were numb from the cold.</li><li>There are nerve endings all over your <em>fingertips</em>.</li></ol>
+<hr>
+<h3 id="forearm">forearm<a class="hash" href="#forearm" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/ˈfɔːrɑːrm/ &middot; <em>FOR-ahrm</em></dd><dt>Русский</dt><dd>предплечье</dd><dt>Plural</dt><dd><em>forearms</em></dd><dt>Countability</dt><dd>countable</dd></dl>
+<p>The part of the arm between the elbow and the wrist.</p>
+<ol><li>He has a tattoo on his left <em>forearm</em>.</li><li>She blocked the ball with her <em>forearm</em>.</li><li>His <em>forearms</em> got huge from climbing.</li></ol>
+<hr>
+<h3 id="lap">lap<a class="hash" href="#lap" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/læp/ &middot; <em>LAP</em></dd><dt>Русский</dt><dd>колени (сидящего человека)</dd><dt>Plural</dt><dd><em>laps</em></dd><dt>Countability</dt><dd>countable</dd><dt>Contrast</dt><dd>Russian на коленях is the English lap, not knees — a child sits on your lap.</dd></dl>
+<p>The flat surface formed by the upper legs when a person is sitting.</p>
+<ol><li>The cat fell asleep in my <em>lap</em>.</li><li>She held the baby on her <em>lap</em>.</li><li>He balanced the plate on his <em>lap</em>.</li></ol>
+<hr>
+<h3 id="groin">groin<a class="hash" href="#groin" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/ɡrɔɪn/ &middot; <em>GROYN</em></dd><dt>Русский</dt><dd>пах</dd><dt>Plural</dt><dd><em>groins</em></dd><dt>Countability</dt><dd>countable</dd></dl>
+<p>The area where the legs meet the front of the body.</p>
+<ol><li>He pulled a muscle in his <em>groin</em>.</li><li>The pain started in his <em>groin</em>.</li><li><em>Groin</em> injuries end a lot of seasons early.</li></ol>
+<hr>
+<h3 id="pelvis">pelvis<a class="hash" href="#pelvis" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/ˈpelvɪs/ &middot; <em>PEL-vis</em></dd><dt>Русский</dt><dd>таз</dd><dt>Plural</dt><dd><em>pelvises</em></dd><dt>Countability</dt><dd>countable</dd></dl>
+<p>The ring of bone at the base of the spine that the legs attach to.</p>
+<ol><li>The X-ray showed a fractured <em>pelvis</em>.</li><li>The baby's head has to pass through the <em>pelvis</em>.</li><li>She landed on her <em>pelvis</em> and couldn't get up.</li></ol>
+<hr>
+<h3 id="sinus">sinus<a class="hash" href="#sinus" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/ˈsaɪnəs/ &middot; <em>SY-nus</em></dd><dt>Русский</dt><dd>пазуха (носовая)</dd><dt>Plural</dt><dd><em>sinuses</em></dd><dt>Countability</dt><dd>countable</dd></dl>
+<p>One of the hollow spaces in the bones around the nose.</p>
+<ol><li>My <em>sinuses</em> are killing me today.</li><li>The infection spread to his <em>sinuses</em>.</li><li>Cold air clears out my <em>sinuses</em>.</li></ol>
+<hr>
+<h3 id="colon">colon<a class="hash" href="#colon" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/ˈkoʊlən/ &middot; <em>KOH-lun</em></dd><dt>Русский</dt><dd>толстая кишка</dd><dt>Plural</dt><dd><em>colons</em></dd><dt>Countability</dt><dd>countable</dd><dt>Contrast</dt><dd>Same word as the punctuation mark.</dd></dl>
+<p>The main part of the large intestine.</p>
+<ol><li>He is scheduled for a <em>colon</em> screening.</li><li>The surgeon removed part of the <em>colon</em>.</li><li>Fiber keeps the <em>colon</em> working.</li></ol>
+<hr>
+<h3 id="diaphragm">diaphragm<a class="hash" href="#diaphragm" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/ˈdaɪrfræm/ &middot; <em>DY-uh-fram</em></dd><dt>Русский</dt><dd>диафрагма</dd><dt>Plural</dt><dd><em>diaphragms</em></dd><dt>Countability</dt><dd>countable</dd><dt>Contrast</dt><dd>The g is silent: DY-uh-fram.</dd></dl>
+<p>The sheet of muscle below the lungs that moves when you breathe.</p>
+<ol><li>Singers learn to breathe from the <em>diaphragm</em>.</li><li>The <em>diaphragm</em> pulls air into the lungs.</li><li>A spasm in the <em>diaphragm</em> is what causes hiccups.</li></ol>
+<hr>
+<h3 id="fat">fat<a class="hash" href="#fat" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/fæt/ &middot; <em>FAT</em></dd><dt>Русский</dt><dd>жир (в организме)</dd><dt>Countability</dt><dd>uncountable</dd></dl>
+<p>The soft tissue under the skin that stores energy.</p>
+<ol><li>Running burns <em>fat</em> slowly.</li><li>He has lost a lot of body <em>fat</em> this year.</li><li><em>Fat</em> under the skin helps keep you warm.</li></ol>
+<hr>
+<h3 id="earlobe">earlobe<a class="hash" href="#earlobe" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/ˈɪrloʊb/ &middot; <em>EER-lohb</em></dd><dt>Русский</dt><dd>мочка уха</dd><dt>Plural</dt><dd><em>earlobes</em></dd><dt>Countability</dt><dd>countable</dd></dl>
+<p>The soft hanging part at the bottom of the ear.</p>
+<ol><li>She has three piercings in one <em>earlobe</em>.</li><li>He tugged at his <em>earlobe</em> while he thought.</li><li>My <em>earlobes</em> were bright red from the cold.</li></ol>
+<hr>
+<h3 id="cheekbone">cheekbone<a class="hash" href="#cheekbone" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/ˈtʃiːkboʊn/ &middot; <em>CHEEK-bohn</em></dd><dt>Русский</dt><dd>скула</dd><dt>Plural</dt><dd><em>cheekbones</em></dd><dt>Countability</dt><dd>countable</dd></dl>
+<p>Either of the two bones just below the eyes.</p>
+<ol><li>She has high <em>cheekbones</em>.</li><li>The punch broke his <em>cheekbone</em>.</li><li>Shadows fell under his <em>cheekbones</em>.</li></ol>
+<hr>
+<h3 id="hamstring">hamstring<a class="hash" href="#hamstring" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/ˈhæmstrɪŋ/ &middot; <em>HAM-string</em></dd><dt>Русский</dt><dd>подколенное сухожилие</dd><dt>Plural</dt><dd><em>hamstrings</em></dd><dt>Countability</dt><dd>countable</dd></dl>
+<p>One of the tendons or muscles at the back of the thigh.</p>
+<ol><li>He pulled a <em>hamstring</em> in the first quarter.</li><li><em>Hamstring</em> injuries take weeks to heal.</li><li>Stretch your <em>hamstrings</em> before you run.</li></ol></div></main>
+<button class="themebtn" id="themeBtn">Dark</button>
+<script>
+const tb=document.getElementById('themeBtn');
+function setTheme(x){document.documentElement.dataset.theme=x;tb.textContent=x==='dark'?'Light':'Dark';
+ try{localStorage.setItem('site-theme',x)}catch(e){}}
+tb.onclick=()=>setTheme(document.documentElement.dataset.theme==='dark'?'light':'dark');
+try{const s=localStorage.getItem('site-theme');
+ setTheme(s||(matchMedia('(prefers-color-scheme: dark)').matches?'dark':'light'))}catch(e){setTheme('light')}
+</script></body></html>

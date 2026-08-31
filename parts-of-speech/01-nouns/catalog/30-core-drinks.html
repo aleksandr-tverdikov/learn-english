@@ -1,0 +1,636 @@
+<!DOCTYPE html>
+<html lang="en"><head>
+<meta charset="utf-8"><meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Core vocabulary: drinks</title>
+<style>
+:root{--bg:#faf9f7;--surface:#fff;--surface2:#f2f0ec;--border:#e2ded6;--text:#1a1815;
+--dim:#5f594f;--faint:#8a8377;--accent:#8a5a3b;--measure:72ch}
+@media(prefers-color-scheme:dark){:root{--bg:#14140f;--surface:#1d1d17;--surface2:#25251d;
+--border:#33332a;--text:#eeeae1;--dim:#a8a293;--faint:#7d776b;--accent:#d09b72}}
+:root[data-theme=dark]{--bg:#14140f;--surface:#1d1d17;--surface2:#25251d;--border:#33332a;
+--text:#eeeae1;--dim:#a8a293;--faint:#7d776b;--accent:#d09b72}
+:root[data-theme=light]{--bg:#faf9f7;--surface:#fff;--surface2:#f2f0ec;--border:#e2ded6;
+--text:#1a1815;--dim:#5f594f;--faint:#8a8377;--accent:#8a5a3b}
+*{box-sizing:border-box}
+body{margin:0;background:var(--bg);color:var(--text);
+font:17px/1.72 ui-serif,Georgia,"Iowan Old Style",Palatino,serif;-webkit-font-smoothing:antialiased}
+.wrap{max-width:min(var(--measure),100%);margin:0 auto;padding:0 22px}
+nav.crumb{border-bottom:1px solid var(--border);padding:13px 0;font-size:13.5px;
+font-family:-apple-system,BlinkMacSystemFont,"Segoe UI",sans-serif;position:sticky;top:0;background:var(--bg);z-index:20}
+nav.crumb .wrap{max-width:none;display:flex;gap:9px;align-items:center;flex-wrap:wrap}
+nav.crumb a{color:var(--dim);text-decoration:none}
+nav.crumb a:hover{color:var(--accent)}
+nav.crumb .sep{color:var(--faint)}
+main{padding:8px 0 80px}
+h1{font-size:clamp(28px,5vw,38px);line-height:1.15;letter-spacing:-.015em;margin:34px 0 18px}
+h2{font-size:25px;margin:46px 0 14px;letter-spacing:-.01em;padding-bottom:7px;border-bottom:1px solid var(--border)}
+h3{font-size:19px;margin:34px 0 10px;color:var(--accent)}
+h4{font-size:16px;margin:24px 0 8px;font-family:-apple-system,sans-serif}
+p{margin:0 0 16px}
+a{color:var(--accent)}
+.hash{opacity:0;margin-left:8px;font-weight:400;font-size:.65em;text-decoration:none;color:var(--faint)}
+h2:hover .hash,h3:hover .hash{opacity:1}
+blockquote{margin:0 0 20px;padding:14px 18px;background:var(--surface2);
+border-left:3px solid var(--accent);border-radius:0 8px 8px 0}
+blockquote p:last-child{margin-bottom:0}
+ol,ul{margin:0 0 18px;padding-left:26px}
+li{margin-bottom:8px}
+li>ul,li>ol{margin:8px 0 0}
+code{font-family:ui-monospace,SFMono-Regular,Menlo,Consolas,monospace;font-size:.87em;
+background:var(--surface2);padding:1px 5px;border-radius:4px}
+pre{background:var(--surface2);border:1px solid var(--border);border-radius:9px;
+padding:15px 17px;overflow-x:auto;margin:0 0 20px}
+pre code{background:none;padding:0;font-size:13px;line-height:1.6}
+.tw{overflow-x:auto;margin:0 0 22px;border:1px solid var(--border);border-radius:9px}
+table{border-collapse:collapse;width:100%;font-size:15px;
+font-family:-apple-system,BlinkMacSystemFont,"Segoe UI",sans-serif}
+th,td{padding:10px 14px;border-bottom:1px solid var(--border);vertical-align:top}
+th{background:var(--surface2);font-size:12px;text-transform:uppercase;
+letter-spacing:.06em;color:var(--dim);font-weight:700;white-space:nowrap}
+tbody tr:last-child td{border-bottom:none}
+hr{border:none;border-top:1px solid var(--border);margin:38px 0}
+details{background:var(--surface2);border:1px solid var(--border);border-radius:9px;
+padding:13px 17px;margin:0 0 20px}
+summary{cursor:pointer;font-weight:600;font-family:-apple-system,sans-serif;font-size:15px}
+details[open] summary{margin-bottom:12px}
+del{color:var(--faint)}
+dl.fields{margin:0 0 20px;padding:0}
+dl.fields dt{font-family:-apple-system,BlinkMacSystemFont,"Segoe UI",sans-serif;
+font-size:11px;letter-spacing:.11em;text-transform:uppercase;color:var(--faint);
+font-weight:700;margin:14px 0 4px}
+dl.fields dt:first-child{margin-top:0}
+dl.fields dd{margin:0;font-size:16px;color:var(--dim);line-height:1.62}
+dl.fields dd em{color:var(--text)}
+dl.fields dt.ru{color:var(--accent)}
+dl.fields dd strong{color:var(--text)}
+.toc{background:var(--surface2);border:1px solid var(--border);border-radius:10px;
+padding:16px 20px;margin:26px 0 34px;font-family:-apple-system,sans-serif;font-size:14px}
+.toc b{display:block;font-size:11px;letter-spacing:.12em;text-transform:uppercase;
+color:var(--faint);margin-bottom:9px}
+.toc a{display:block;padding:3px 0;color:var(--dim);text-decoration:none}
+.toc a:hover{color:var(--accent)}
+.themebtn{position:fixed;right:18px;bottom:18px;z-index:60;font-family:-apple-system,sans-serif;
+font-size:12.5px;font-weight:600;cursor:pointer;background:var(--surface);border:1px solid var(--border);
+border-radius:99px;padding:9px 16px;color:var(--text)}
+@media(max-width:600px){body{font-size:16px}.wrap{padding:0 17px}}
+</style></head><body>
+<nav class="crumb"><div class="wrap"><a href="../../../index.html">Learn English</a><span class="sep">/</span><a href="../../README.html">Parts of speech</a><span class="sep">/</span><a href="../README.html">01-nouns</a><span class="sep">/</span><span>catalog</span></div></nav>
+<main><div class="wrap"><h1 id="core-vocabulary-drinks">Core vocabulary: drinks<a class="hash" href="#core-vocabulary-drinks" aria-label="link">#</a></h1>
+<blockquote><p>The everyday nouns of drinks — pronunciation, Russian, plural, and three examples each.</p></blockquote>
+<p><a href="../README.html">← The grammar of nouns</a> &middot; <a href="README.html">All groups</a></p>
+<p>Part of the <strong>core-vocabulary tier</strong>. Groups 1–23 cover the nouns that misbehave; this tier covers the nouns you simply need to know. Entries are deliberately lean, because a regular countable noun has no grammatical story to tell. A <strong>Contrast</strong> line appears only where the word hides a genuine trap.</p>
+<p>Where a word in this field <em>does</em> misbehave, it lives in the grammar tier instead and is not repeated here.</p>
+<hr>
+<h3 id="drink">drink<a class="hash" href="#drink" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/drɪŋk/ &middot; <em>DRINGK</em></dd><dt>Русский</dt><dd>напиток; выпивка</dd><dt>Plural</dt><dd><em>drinks</em></dd><dt>Countability</dt><dd>both — countable and uncountable with different meanings</dd></dl>
+<p>A liquid you swallow, especially one served in a glass or a cup.</p>
+<ol><li>Can I get you a <em>drink</em> while you wait?</li><li>They serve food and <em>drinks</em> until midnight.</li><li>No food or <em>drink</em> is allowed past this point.</li></ol>
+<hr>
+<h3 id="brew">brew<a class="hash" href="#brew" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/bruː/ &middot; <em>BROO</em></dd><dt>Русский</dt><dd>напиток (заваренный или сваренный); пиво</dd><dt>Plural</dt><dd><em>brews</em></dd><dt>Countability</dt><dd>countable</dd></dl>
+<p>A drink made by steeping or fermenting something, especially coffee or beer.</p>
+<ol><li>She put on a fresh <em>brew</em> before the meeting.</li><li>The bar has a dozen local <em>brews</em> on the menu.</li><li>That's a strong <em>brew</em> — I'd add some milk.</li></ol>
+<hr>
+<h3 id="refill">refill<a class="hash" href="#refill" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/ˈriːfɪl/ &middot; <em>REE-fil</em></dd><dt>Русский</dt><dd>добавка, вторая порция</dd><dt>Plural</dt><dd><em>refills</em></dd><dt>Countability</dt><dd>countable</dd><dt>Contrast</dt><dd>The stress moves: the noun is REE-fil, the verb is ree-FIL.</dd></dl>
+<p>Another serving of a drink poured into the same cup or glass.</p>
+<ol><li>Would you like a <em>refill</em> on your coffee?</li><li><em>Refills</em> are free, so help yourself.</li><li>He asked for a <em>refill</em> and went back to his book.</li></ol>
+<hr>
+<h3 id="thirst">thirst<a class="hash" href="#thirst" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/θɜːrst/ &middot; <em>THURST</em></dd><dt>Русский</dt><dd>жажда</dd><dt>Countability</dt><dd>uncountable</dd></dl>
+<p>The feeling of needing something to drink.</p>
+<ol><li>Nothing quenches <em>thirst</em> like cold water on a hot day.</li><li>Salty food only makes your <em>thirst</em> worse.</li><li>By the end of the hike, <em>thirst</em> was all anyone talked about.</li></ol>
+<hr>
+<h3 id="espresso">espresso<a class="hash" href="#espresso" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/eˈspresoʊ/ &middot; <em>es-PRES-oh</em></dd><dt>Русский</dt><dd>эспрессо</dd><dt>Plural</dt><dd><em>espressos</em></dd><dt>Countability</dt><dd>countable, and uncountable as food</dd><dt>Contrast</dt><dd>There is no x in it: espresso, never 'expresso'.</dd></dl>
+<p>Strong coffee made by forcing hot water through finely ground beans.</p>
+<ol><li>He drinks a double <em>espresso</em> every morning.</li><li>That machine pulls a great <em>espresso</em>.</li><li>Two <em>espressos</em> and the check, please.</li></ol>
+<hr>
+<h3 id="latte">latte<a class="hash" href="#latte" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/ˈlɑːteɪ/ &middot; <em>LAH-tay</em></dd><dt>Русский</dt><dd>латте (кофе с молоком)</dd><dt>Plural</dt><dd><em>lattes</em></dd><dt>Countability</dt><dd>countable</dd></dl>
+<p>Espresso mixed with a lot of steamed milk.</p>
+<ol><li>She stops for a <em>latte</em> on the way to work.</li><li>Can I get an oat milk <em>latte</em>, please?</li><li>Two <em>lattes</em> cost more than my lunch did.</li></ol>
+<hr>
+<h3 id="cappuccino">cappuccino<a class="hash" href="#cappuccino" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/ˌkæpəˈtʃiːnoʊ/ &middot; <em>kap-uh-CHEE-noh</em></dd><dt>Русский</dt><dd>капучино</dd><dt>Plural</dt><dd><em>cappuccinos</em></dd><dt>Countability</dt><dd>countable</dd><dt>Contrast</dt><dd>The double c sounds like ch: kap-uh-CHEE-noh.</dd></dl>
+<p>Espresso topped with steamed and foamed milk.</p>
+<ol><li>He ordered a <em>cappuccino</em> and sat by the window.</li><li>The <em>cappuccino</em> here comes with a little cocoa on top.</li><li>We had <em>cappuccinos</em> after dinner.</li></ol>
+<hr>
+<h3 id="mocha">mocha<a class="hash" href="#mocha" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/ˈmoʊkə/ &middot; <em>MOH-kuh</em></dd><dt>Русский</dt><dd>мокко (кофе с шоколадом)</dd><dt>Plural</dt><dd><em>mochas</em></dd><dt>Countability</dt><dd>countable, and uncountable as food</dd><dt>Contrast</dt><dd>The ch is a k sound: MOH-kuh.</dd></dl>
+<p>A coffee drink flavored with chocolate.</p>
+<ol><li>She gets a <em>mocha</em> whenever it snows.</li><li>The <em>mocha</em> was too sweet for me.</li><li>They make their <em>mochas</em> with real chocolate.</li></ol>
+<hr>
+<h3 id="decaf">decaf<a class="hash" href="#decaf" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/ˈdiːkæf/ &middot; <em>DEE-kaf</em></dd><dt>Русский</dt><dd>кофе без кофеина</dd><dt>Countability</dt><dd>uncountable</dd></dl>
+<p>Coffee with the caffeine taken out.</p>
+<ol><li>After eight I switch to <em>decaf</em>.</li><li>Is this pot regular or <em>decaf</em>?</li><li>She can't sleep unless it's <em>decaf</em>.</li></ol>
+<hr>
+<h3 id="chai">chai<a class="hash" href="#chai" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/tʃaɪ/ &middot; <em>CHY</em></dd><dt>Русский</dt><dd>чай масала (индийский чай со специями)</dd><dt>Countability</dt><dd>uncountable</dd></dl>
+<p>Black tea brewed with milk and spices.</p>
+<ol><li>The café makes its <em>chai</em> from scratch.</li><li>I like <em>chai</em> better than plain black tea.</li><li>There's cardamom and ginger in this <em>chai</em>.</li></ol>
+<hr>
+<h3 id="cocoa">cocoa<a class="hash" href="#cocoa" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/ˈkoʊkoʊ/ &middot; <em>KOH-koh</em></dd><dt>Русский</dt><dd>какао</dd><dt>Countability</dt><dd>uncountable</dd><dt>Contrast</dt><dd>Two syllables only, KOH-koh — the final -oa is just 'oh'.</dd></dl>
+<p>A hot drink made from chocolate powder and milk or water.</p>
+<ol><li>The kids came in from the snow and asked for <em>cocoa</em>.</li><li>She makes <em>cocoa</em> with a pinch of salt in it.</li><li>There's a mug of <em>cocoa</em> on the counter for you.</li></ol>
+<hr>
+<h3 id="tea-bag">tea bag<a class="hash" href="#tea-bag" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/ˈtiː bæɡ/ &middot; <em>TEE-bag</em></dd><dt>Русский</dt><dd>чайный пакетик</dd><dt>Plural</dt><dd><em>tea bags</em></dd><dt>Countability</dt><dd>countable</dd></dl>
+<p>A small paper bag of tea leaves for steeping in a cup.</p>
+<ol><li>Leave the <em>tea bag</em> in for three minutes.</li><li>We're out of <em>tea bags</em> again.</li><li>She squeezed the <em>tea bag</em> against the spoon.</li></ol>
+<hr>
+<h3 id="caffeine">caffeine<a class="hash" href="#caffeine" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/kæˈfiːn/ &middot; <em>ka-FEEN</em></dd><dt>Русский</dt><dd>кофеин</dd><dt>Countability</dt><dd>uncountable</dd><dt>Contrast</dt><dd>Stress the second syllable, and -ei- sounds like ee: ka-FEEN.</dd></dl>
+<p>The stimulant found in coffee, tea, and many sodas.</p>
+<ol><li>I cut out <em>caffeine</em> after lunch and started sleeping better.</li><li>There's more <em>caffeine</em> in this than in a shot of espresso.</li><li><em>Caffeine</em> hits her hard.</li></ol>
+<hr>
+<h3 id="pop">pop<a class="hash" href="#pop" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/pɑːp/ &middot; <em>PAHP</em></dd><dt>Русский</dt><dd>газировка (в северных штатах)</dd><dt>Plural</dt><dd><em>pops</em></dd><dt>Countability</dt><dd>countable, and uncountable as food</dd><dt>Contrast</dt><dd>Regional: the Midwest says pop, the coasts say soda, and much of the South says coke.</dd></dl>
+<p>A fizzy soft drink, in Midwestern and Northwestern speech.</p>
+<ol><li>Grab me a <em>pop</em> while you're up.</li><li>In Michigan they call it <em>pop</em>, not soda.</li><li>There's a cooler full of <em>pops</em> on the porch.</li></ol>
+<hr>
+<h3 id="cola">cola<a class="hash" href="#cola" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/ˈkoʊlə/ &middot; <em>KOH-luh</em></dd><dt>Русский</dt><dd>кола</dd><dt>Plural</dt><dd><em>colas</em></dd><dt>Countability</dt><dd>countable, and uncountable as food</dd></dl>
+<p>A dark brown sweet fizzy drink.</p>
+<ol><li>He mixes rum with <em>cola</em>.</li><li>The diner still serves <em>cola</em> in a glass bottle.</li><li>Diet <em>colas</em> all taste the same to me.</li></ol>
+<hr>
+<h3 id="soft-drink">soft drink<a class="hash" href="#soft-drink" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/ˈsɔːft drɪŋk/ &middot; <em>SAWFT-dringk</em></dd><dt>Русский</dt><dd>безалкогольный напиток, газировка</dd><dt>Plural</dt><dd><em>soft drinks</em></dd><dt>Countability</dt><dd>countable</dd><dt>Contrast</dt><dd>In everyday speech Americans say soda or pop; the British say fizzy drink.</dd></dl>
+<p>A cold nonalcoholic drink, usually sweet and fizzy.</p>
+<ol><li>The ticket includes a hot dog and a <em>soft drink</em>.</li><li>They stopped selling <em>soft drinks</em> in the school cafeteria.</li><li>I'll just have a <em>soft drink</em>, thanks.</li></ol>
+<hr>
+<h3 id="lemonade">lemonade<a class="hash" href="#lemonade" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/ˌleməˈneɪd/ &middot; <em>lem-uh-NAYD</em></dd><dt>Русский</dt><dd>лимонад (напиток из лимонного сока)</dd><dt>Plural</dt><dd><em>lemonades</em></dd><dt>Countability</dt><dd>countable, and uncountable as food</dd><dt>Contrast</dt><dd>American lemonade is a still lemon drink; British lemonade is a clear fizzy soda.</dd></dl>
+<p>A cold drink made from lemon juice, water, and sugar.</p>
+<ol><li>The kids set up a <em>lemonade</em> stand on the corner.</li><li>She made a pitcher of <em>lemonade</em> for the barbecue.</li><li>Two <em>lemonades</em>, please — extra ice.</li></ol>
+<hr>
+<h3 id="iced-tea">iced tea<a class="hash" href="#iced-tea" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/ˌaɪst ˈtiː/ &middot; <em>eyest-TEE</em></dd><dt>Русский</dt><dd>холодный чай, чай со льдом</dd><dt>Plural</dt><dd><em>iced teas</em></dd><dt>Countability</dt><dd>countable, and uncountable as food</dd><dt>Contrast</dt><dd>Written iced, not 'ice' — the -d is spelled but barely audible.</dd></dl>
+<p>Cold tea served over ice, often sweetened.</p>
+<ol><li>She drinks unsweetened <em>iced tea</em> all summer.</li><li>Can we get two <em>iced teas</em> to go?</li><li>The <em>iced tea</em> here comes with a lemon wedge.</li></ol>
+<hr>
+<h3 id="root-beer">root beer<a class="hash" href="#root-beer" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/ˈruːt bɪr/ &middot; <em>ROOT-beer</em></dd><dt>Русский</dt><dd>рутбир (сладкая газировка на кореньях)</dd><dt>Plural</dt><dd><em>root beers</em></dd><dt>Countability</dt><dd>countable, and uncountable as food</dd></dl>
+<p>A sweet American soft drink flavored with roots and spices.</p>
+<ol><li><em>Root beer</em> floats were the best part of summer.</li><li>The place brews its own <em>root beer</em>.</li><li>He ordered a <em>root beer</em> and a burger.</li></ol>
+<hr>
+<h3 id="seltzer">seltzer<a class="hash" href="#seltzer" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/ˈseltsər/ &middot; <em>SELT-sur</em></dd><dt>Русский</dt><dd>газированная вода без сахара</dd><dt>Plural</dt><dd><em>seltzers</em></dd><dt>Countability</dt><dd>countable, and uncountable as food</dd><dt>Contrast</dt><dd>Americans say seltzer or sparkling water; the British say fizzy water or soda water.</dd></dl>
+<p>Plain carbonated water, sometimes lightly flavored with fruit.</p>
+<ol><li>She keeps a case of lime <em>seltzer</em> in the garage.</li><li>Can I get a <em>seltzer</em> with lime?</li><li><em>Seltzer</em> is the only thing that got me off soda.</li></ol>
+<hr>
+<h3 id="tonic">tonic<a class="hash" href="#tonic" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/ˈtɑːnɪk/ &middot; <em>TAH-nik</em></dd><dt>Русский</dt><dd>тоник (газированный напиток с хинином)</dd><dt>Plural</dt><dd><em>tonics</em></dd><dt>Countability</dt><dd>countable, and uncountable as food</dd></dl>
+<p>A bitter fizzy mixer usually served with gin.</p>
+<ol><li>He ordered a gin and <em>tonic</em> with extra lime.</li><li>We're out of <em>tonic</em> — use club soda.</li><li><em>Tonic</em> has a bitterness that plain soda doesn't.</li></ol>
+<hr>
+<h3 id="milkshake">milkshake<a class="hash" href="#milkshake" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/ˈmɪlkʃeɪk/ &middot; <em>MILK-shayk</em></dd><dt>Русский</dt><dd>молочный коктейль</dd><dt>Plural</dt><dd><em>milkshakes</em></dd><dt>Countability</dt><dd>countable</dd></dl>
+<p>A thick cold drink of milk blended with ice cream.</p>
+<ol><li>He got a chocolate <em>milkshake</em> with two straws.</li><li>Their <em>milkshakes</em> are so thick you need a spoon.</li><li>A burger and a <em>milkshake</em> — that's the whole menu.</li></ol>
+<hr>
+<h3 id="kombucha">kombucha<a class="hash" href="#kombucha" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/kɑːmˈbuːtʃə/ &middot; <em>kahm-BOO-chuh</em></dd><dt>Русский</dt><dd>комбуча (напиток из чайного гриба)</dd><dt>Countability</dt><dd>uncountable</dd></dl>
+<p>A slightly fizzy fermented tea drink.</p>
+<ol><li>He brews his own <em>kombucha</em> in the basement.</li><li><em>Kombucha</em> tastes like vinegar the first time you try it.</li><li>There's ginger <em>kombucha</em> on tap at the co-op.</li></ol>
+<hr>
+<h3 id="beer">beer<a class="hash" href="#beer" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/bɪr/ &middot; <em>BEER</em></dd><dt>Русский</dt><dd>пиво</dd><dt>Plural</dt><dd><em>beers</em></dd><dt>Countability</dt><dd>countable, and uncountable as food</dd></dl>
+<p>An alcoholic drink brewed from grain and hops.</p>
+<ol><li>He grabbed a cold <em>beer</em> out of the fridge.</li><li>We split a pitcher and a couple of <em>beers</em>.</li><li>There's <em>beer</em> in the cooler if you want one.</li></ol>
+<hr>
+<h3 id="ale">ale<a class="hash" href="#ale" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/eɪl/ &middot; <em>AYL</em></dd><dt>Русский</dt><dd>эль (сорт пива)</dd><dt>Plural</dt><dd><em>ales</em></dd><dt>Countability</dt><dd>countable, and uncountable as food</dd></dl>
+<p>A beer brewed with yeast that ferments at warm temperatures.</p>
+<ol><li>The pub has six <em>ales</em> on tap.</li><li>He prefers a brown <em>ale</em> to a lager.</li><li>This <em>ale</em> is fruitier than I expected.</li></ol>
+<hr>
+<h3 id="lager">lager<a class="hash" href="#lager" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/ˈlɑːɡər/ &middot; <em>LAH-gur</em></dd><dt>Русский</dt><dd>лагер (светлое пиво низового брожения)</dd><dt>Plural</dt><dd><em>lagers</em></dd><dt>Countability</dt><dd>countable, and uncountable as food</dd></dl>
+<p>A light, crisp beer fermented cold and stored before serving.</p>
+<ol><li>A cold <em>lager</em> is perfect after mowing the lawn.</li><li>Most American <em>lagers</em> taste pretty similar to me.</li><li>She ordered a <em>lager</em> and a basket of fries.</li></ol>
+<hr>
+<h3 id="stout">stout<a class="hash" href="#stout" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/staʊt/ &middot; <em>STOWT</em></dd><dt>Русский</dt><dd>стаут (тёмное плотное пиво)</dd><dt>Plural</dt><dd><em>stouts</em></dd><dt>Countability</dt><dd>countable, and uncountable as food</dd></dl>
+<p>A dark, heavy beer made with roasted malt.</p>
+<ol><li>He nursed a <em>stout</em> by the fireplace.</li><li>The brewery is known for its chocolate <em>stout</em>.</li><li><em>Stouts</em> are too heavy for me in the summer.</li></ol>
+<hr>
+<h3 id="draft">draft<a class="hash" href="#draft" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/dræft/ &middot; <em>DRAFT</em></dd><dt>Русский</dt><dd>разливное пиво</dd><dt>Countability</dt><dd>uncountable</dd><dt>Contrast</dt><dd>Americans spell it draft, the British draught; both sound the same.</dd></dl>
+<p>Beer served from a keg rather than from a bottle or can.</p>
+<ol><li>They've got eight beers on <em>draft</em>.</li><li>Is the IPA on <em>draft</em> or only in bottles?</li><li><em>Draft</em> always tastes fresher to me.</li></ol>
+<hr>
+<h3 id="keg">keg<a class="hash" href="#keg" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/keɡ/ &middot; <em>KEG</em></dd><dt>Русский</dt><dd>кега, бочонок (для пива)</dd><dt>Plural</dt><dd><em>kegs</em></dd><dt>Countability</dt><dd>countable</dd></dl>
+<p>A small metal barrel that beer is stored and served from.</p>
+<ol><li>They tapped the <em>keg</em> around nine.</li><li>We went through three <em>kegs</em> at the party.</li><li>The <em>keg</em> is almost empty — it's mostly foam now.</li></ol>
+<hr>
+<h3 id="barrel">barrel<a class="hash" href="#barrel" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/ˈbærəl/ &middot; <em>BAIR-ul</em></dd><dt>Русский</dt><dd>бочка</dd><dt>Plural</dt><dd><em>barrels</em></dd><dt>Countability</dt><dd>countable</dd></dl>
+<p>A large round wooden container used to age wine or whiskey.</p>
+<ol><li>The whiskey sat in oak <em>barrels</em> for twelve years.</li><li>They rolled the <em>barrel</em> down into the cellar.</li><li>This wine was aged in a used bourbon <em>barrel</em>.</li></ol>
+<hr>
+<h3 id="malt">malt<a class="hash" href="#malt" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/mɔːlt/ &middot; <em>MAWLT</em></dd><dt>Русский</dt><dd>солод</dd><dt>Countability</dt><dd>uncountable</dd></dl>
+<p>Grain that has been sprouted and dried, used to brew beer and whiskey.</p>
+<ol><li>You can taste the roasted <em>malt</em> in a good stout.</li><li>The brewery buys its <em>malt</em> from a farm upstate.</li><li>Single <em>malt</em> costs twice as much as a blend.</li></ol>
+<hr>
+<h3 id="champagne">champagne<a class="hash" href="#champagne" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/ʃæmˈpeɪn/ &middot; <em>sham-PAYN</em></dd><dt>Русский</dt><dd>шампанское</dd><dt>Plural</dt><dd><em>champagnes</em></dd><dt>Countability</dt><dd>countable, and uncountable as food</dd><dt>Contrast</dt><dd>The ch is sh and the stress falls on the second syllable: sham-PAYN.</dd></dl>
+<p>A sparkling white wine, usually served at celebrations.</p>
+<ol><li>They opened a bottle of <em>champagne</em> at midnight.</li><li>There's <em>champagne</em> chilling in the ice bucket.</li><li>We toasted the couple with <em>champagne</em>.</li></ol>
+<hr>
+<h3 id="sherry">sherry<a class="hash" href="#sherry" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/ˈʃeri/ &middot; <em>SHEHR-ee</em></dd><dt>Русский</dt><dd>херес</dd><dt>Plural</dt><dd><em>sherries</em></dd><dt>Countability</dt><dd>countable, and uncountable as food</dd></dl>
+<p>A strong fortified wine from southern Spain.</p>
+<ol><li>Her grandmother kept a bottle of <em>sherry</em> in the cabinet.</li><li>The recipe calls for a splash of dry <em>sherry</em>.</li><li>They served <em>sherry</em> before dinner.</li></ol>
+<hr>
+<h3 id="vermouth">vermouth<a class="hash" href="#vermouth" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/vərˈmuːθ/ &middot; <em>vur-MOOTH</em></dd><dt>Русский</dt><dd>вермут</dd><dt>Countability</dt><dd>uncountable</dd><dt>Contrast</dt><dd>Stress the second syllable: vur-MOOTH.</dd></dl>
+<p>A fortified wine flavored with herbs, used mostly in cocktails.</p>
+<ol><li>A martini is mostly gin with a little <em>vermouth</em>.</li><li>Keep the <em>vermouth</em> in the fridge once it's open.</li><li>He poured out the <em>vermouth</em> and swirled the glass.</li></ol>
+<hr>
+<h3 id="vineyard">vineyard<a class="hash" href="#vineyard" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/ˈvɪnjərd/ &middot; <em>VIN-yurd</em></dd><dt>Русский</dt><dd>виноградник</dd><dt>Plural</dt><dd><em>vineyards</em></dd><dt>Countability</dt><dd>countable</dd><dt>Contrast</dt><dd>Short first syllable, VIN-yurd, even though it's spelled with vine.</dd></dl>
+<p>A field where grapes are grown for wine.</p>
+<ol><li>They bought a small <em>vineyard</em> in Sonoma.</li><li>The <em>vineyards</em> turn gold in October.</li><li>He walked us through the <em>vineyard</em> before the tasting.</li></ol>
+<hr>
+<h3 id="winery">winery<a class="hash" href="#winery" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/ˈwaɪnəri/ &middot; <em>WY-nuh-ree</em></dd><dt>Русский</dt><dd>винодельня</dd><dt>Plural</dt><dd><em>wineries</em></dd><dt>Countability</dt><dd>countable</dd></dl>
+<p>A place where wine is made and often sold.</p>
+<ol><li>We toured three <em>wineries</em> in one afternoon.</li><li>The <em>winery</em> opens for tastings at eleven.</li><li>She works at a small family <em>winery</em>.</li></ol>
+<hr>
+<h3 id="vintage">vintage<a class="hash" href="#vintage" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/ˈvɪntɪdʒ/ &middot; <em>VIN-tij</em></dd><dt>Русский</dt><dd>год урожая (о вине)</dd><dt>Plural</dt><dd><em>vintages</em></dd><dt>Countability</dt><dd>countable</dd></dl>
+<p>The year in which a wine's grapes were harvested.</p>
+<ol><li>Nineteen eighty-two was a famous <em>vintage</em>.</li><li>He can name the <em>vintage</em> just by tasting it.</li><li>Older <em>vintages</em> cost a fortune.</li></ol>
+<hr>
+<h3 id="cellar">cellar<a class="hash" href="#cellar" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/ˈselər/ &middot; <em>SEL-ur</em></dd><dt>Русский</dt><dd>погреб, винный подвал</dd><dt>Plural</dt><dd><em>cellars</em></dd><dt>Countability</dt><dd>countable</dd><dt>Contrast</dt><dd>Sounds exactly like seller.</dd></dl>
+<p>An underground room where wine is stored.</p>
+<ol><li>The restaurant keeps two thousand bottles in its <em>cellar</em>.</li><li>He went down to the <em>cellar</em> for another bottle.</li><li>Their wine <em>cellar</em> stays cool all summer.</li></ol>
+<hr>
+<h3 id="alcohol">alcohol<a class="hash" href="#alcohol" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/ˈælkəhɔːl/ &middot; <em>AL-kuh-hawl</em></dd><dt>Русский</dt><dd>алкоголь, спирт</dd><dt>Countability</dt><dd>uncountable</dd></dl>
+<p>The substance in beer, wine, and liquor that makes people drunk.</p>
+<ol><li>He gave up <em>alcohol</em> in January.</li><li>There's no <em>alcohol</em> at the reception.</li><li>The label says fourteen percent <em>alcohol</em>.</li></ol>
+<hr>
+<h3 id="liquor">liquor<a class="hash" href="#liquor" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/ˈlɪkər/ &middot; <em>LIK-ur</em></dd><dt>Русский</dt><dd>крепкий алкоголь (водка, виски и т. п.)</dd><dt>Countability</dt><dd>uncountable</dd><dt>Contrast</dt><dd>Spelled -quor but pronounced LIK-ur; don't confuse it with liqueur (lih-KUR), which is sweet.</dd></dl>
+<p>Strong distilled alcohol such as vodka, whiskey, or rum.</p>
+<ol><li>The store sells beer and wine but no <em>liquor</em>.</li><li>He keeps the <em>liquor</em> on the top shelf.</li><li>They ran out of <em>liquor</em> before midnight.</li></ol>
+<hr>
+<h3 id="liqueur">liqueur<a class="hash" href="#liqueur" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/lɪˈkɜːr/ &middot; <em>lih-KUR</em></dd><dt>Русский</dt><dd>ликёр</dd><dt>Plural</dt><dd><em>liqueurs</em></dd><dt>Countability</dt><dd>countable, and uncountable as food</dd><dt>Contrast</dt><dd>A near-twin of liquor on paper only: liqueur is lih-KUR and sweet, liquor is LIK-ur and strong.</dd></dl>
+<p>A sweet, strongly flavored alcoholic drink usually sipped after a meal.</p>
+<ol><li>She poured a coffee <em>liqueur</em> over the ice cream.</li><li>The shelf was full of fruit <em>liqueurs</em>.</li><li>This <em>liqueur</em> is far too sweet to drink straight.</li></ol>
+<hr>
+<h3 id="booze">booze<a class="hash" href="#booze" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/buːz/ &middot; <em>BOOZ</em></dd><dt>Русский</dt><dd>выпивка, спиртное (разг.)</dd><dt>Countability</dt><dd>uncountable</dd></dl>
+<p>Alcoholic drink, in casual speech.</p>
+<ol><li>Somebody needs to bring the <em>booze</em>.</li><li>There was plenty of food but not much <em>booze</em>.</li><li>He swore off <em>booze</em> for a year.</li></ol>
+<hr>
+<h3 id="whiskey">whiskey<a class="hash" href="#whiskey" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/ˈwɪski/ &middot; <em>WIS-kee</em></dd><dt>Русский</dt><dd>виски</dd><dt>Plural</dt><dd><em>whiskeys</em></dd><dt>Countability</dt><dd>countable, and uncountable as food</dd><dt>Contrast</dt><dd>American and Irish makers spell it whiskey; Scottish and Canadian makers spell it whisky.</dd></dl>
+<p>A strong drink distilled from grain and aged in wooden barrels.</p>
+<ol><li>He takes his <em>whiskey</em> neat.</li><li>The bar carries forty different <em>whiskeys</em>.</li><li>A little <em>whiskey</em> in the coffee wouldn't hurt.</li></ol>
+<hr>
+<h3 id="bourbon">bourbon<a class="hash" href="#bourbon" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/ˈbɜːrbən/ &middot; <em>BUR-bun</em></dd><dt>Русский</dt><dd>бурбон (американский виски)</dd><dt>Plural</dt><dd><em>bourbons</em></dd><dt>Countability</dt><dd>countable, and uncountable as food</dd><dt>Contrast</dt><dd>Say BUR-bun, not 'bor-BON'.</dd></dl>
+<p>An American whiskey made mostly from corn.</p>
+<ol><li>He poured two fingers of <em>bourbon</em>.</li><li>Most <em>bourbon</em> comes out of Kentucky.</li><li>They aged the <em>bourbon</em> for eight years.</li></ol>
+<hr>
+<h3 id="vodka">vodka<a class="hash" href="#vodka" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/ˈvɑːdkə/ &middot; <em>VAHD-kuh</em></dd><dt>Русский</dt><dd>водка</dd><dt>Plural</dt><dd><em>vodkas</em></dd><dt>Countability</dt><dd>countable, and uncountable as food</dd></dl>
+<p>A clear, nearly tasteless spirit distilled from grain or potatoes.</p>
+<ol><li>She keeps the <em>vodka</em> in the freezer.</li><li><em>Vodka</em> and soda is her usual drink.</li><li>They had us taste four different <em>vodkas</em>.</li></ol>
+<hr>
+<h3 id="gin">gin<a class="hash" href="#gin" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/dʒɪn/ &middot; <em>JIN</em></dd><dt>Русский</dt><dd>джин</dd><dt>Plural</dt><dd><em>gins</em></dd><dt>Countability</dt><dd>countable, and uncountable as food</dd><dt>Contrast</dt><dd>The g is soft — jin, not a hard g.</dd></dl>
+<p>A clear spirit flavored with juniper berries.</p>
+<ol><li>He ordered a <em>gin</em> and tonic.</li><li><em>Gin</em> tastes like a pine tree to me.</li><li>The bar makes its own <em>gin</em> in the back.</li></ol>
+<hr>
+<h3 id="rum">rum<a class="hash" href="#rum" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/rʌm/ &middot; <em>RUM</em></dd><dt>Русский</dt><dd>ром</dd><dt>Plural</dt><dd><em>rums</em></dd><dt>Countability</dt><dd>countable, and uncountable as food</dd></dl>
+<p>A spirit distilled from sugarcane or molasses.</p>
+<ol><li>He mixed dark <em>rum</em> with pineapple juice.</li><li>There's <em>rum</em> in the cake, so watch out.</li><li>The shop stocks aged <em>rums</em> from all over the Caribbean.</li></ol>
+<hr>
+<h3 id="tequila">tequila<a class="hash" href="#tequila" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/təˈkiːlə/ &middot; <em>tuh-KEE-luh</em></dd><dt>Русский</dt><dd>текила</dd><dt>Plural</dt><dd><em>tequilas</em></dd><dt>Countability</dt><dd>countable, and uncountable as food</dd><dt>Contrast</dt><dd>The qu is just a k sound: tuh-KEE-luh.</dd></dl>
+<p>A Mexican spirit distilled from the agave plant.</p>
+<ol><li>One more <em>tequila</em> and I'm going home.</li><li>Good <em>tequila</em> is meant to be sipped, not shot.</li><li>They lined up four <em>tequilas</em> on the bar.</li></ol>
+<hr>
+<h3 id="brandy">brandy<a class="hash" href="#brandy" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/ˈbrændi/ &middot; <em>BRAN-dee</em></dd><dt>Русский</dt><dd>бренди</dd><dt>Plural</dt><dd><em>brandies</em></dd><dt>Countability</dt><dd>countable, and uncountable as food</dd></dl>
+<p>A strong drink distilled from wine or fruit.</p>
+<ol><li>He warmed his hands around a glass of <em>brandy</em>.</li><li>She added a spoonful of <em>brandy</em> to the sauce.</li><li>The shop stocks several French <em>brandies</em>.</li></ol>
+<hr>
+<h3 id="cognac">cognac<a class="hash" href="#cognac" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/ˈkoʊnjæk/ &middot; <em>KOHN-yak</em></dd><dt>Русский</dt><dd>коньяк</dd><dt>Plural</dt><dd><em>cognacs</em></dd><dt>Countability</dt><dd>countable, and uncountable as food</dd><dt>Contrast</dt><dd>The gn sounds like ny: KOHN-yak.</dd></dl>
+<p>A fine brandy from a region of western France.</p>
+<ol><li>They finished the meal with <em>cognac</em>.</li><li>He keeps an expensive <em>cognac</em> for guests.</li><li>That <em>cognac</em> was older than I am.</li></ol>
+<hr>
+<h3 id="sake">sake<a class="hash" href="#sake" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/ˈsɑːki/ &middot; <em>SAH-kee</em></dd><dt>Русский</dt><dd>саке (японское рисовое вино)</dd><dt>Countability</dt><dd>uncountable</dd><dt>Contrast</dt><dd>Two syllables, SAH-kee — not like the sake in 'for heaven's sake'.</dd></dl>
+<p>A Japanese alcoholic drink brewed from rice.</p>
+<ol><li>They served the <em>sake</em> warm in tiny cups.</li><li><em>Sake</em> goes well with sushi.</li><li>He ordered a bottle of cold <em>sake</em>.</li></ol>
+<hr>
+<h3 id="moonshine">moonshine<a class="hash" href="#moonshine" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/ˈmuːnʃaɪn/ &middot; <em>MOON-shyne</em></dd><dt>Русский</dt><dd>самогон</dd><dt>Countability</dt><dd>uncountable</dd></dl>
+<p>Strong homemade liquor produced illegally.</p>
+<ol><li>His grandfather made <em>moonshine</em> in the woods.</li><li>That <em>moonshine</em> could strip paint.</li><li>They hid the <em>moonshine</em> under the floorboards.</li></ol>
+<hr>
+<h3 id="distillery">distillery<a class="hash" href="#distillery" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/dɪˈstɪləri/ &middot; <em>dih-STIL-uh-ree</em></dd><dt>Русский</dt><dd>винокурня, ликёро-водочный завод</dd><dt>Plural</dt><dd><em>distilleries</em></dd><dt>Countability</dt><dd>countable</dd></dl>
+<p>A factory where spirits such as whiskey are made.</p>
+<ol><li>We toured a <em>distillery</em> outside Louisville.</li><li>The <em>distillery</em> hands out samples at the end.</li><li>Several small <em>distilleries</em> have opened downtown.</li></ol>
+<hr>
+<h3 id="brewery">brewery<a class="hash" href="#brewery" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/ˈbruːəri/ &middot; <em>BROO-uh-ree</em></dd><dt>Русский</dt><dd>пивоварня</dd><dt>Plural</dt><dd><em>breweries</em></dd><dt>Countability</dt><dd>countable</dd></dl>
+<p>A place where beer is made.</p>
+<ol><li>There's a new <em>brewery</em> on Third Street.</li><li>The <em>brewery</em> serves food until ten.</li><li>Local <em>breweries</em> have taken over the neighborhood.</li></ol>
+<hr>
+<h3 id="cocktail">cocktail<a class="hash" href="#cocktail" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/ˈkɑːkteɪl/ &middot; <em>KAHK-tayl</em></dd><dt>Русский</dt><dd>коктейль</dd><dt>Plural</dt><dd><em>cocktails</em></dd><dt>Countability</dt><dd>countable</dd></dl>
+<p>A mixed drink of liquor with juice, soda, or other flavors.</p>
+<ol><li>She ordered a <em>cocktail</em> with grapefruit and gin.</li><li><em>Cocktails</em> are half price until seven.</li><li>He makes a mean <em>cocktail</em>.</li></ol>
+<hr>
+<h3 id="martini">martini<a class="hash" href="#martini" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/mɑːrˈtiːni/ &middot; <em>mar-TEE-nee</em></dd><dt>Русский</dt><dd>мартини (коктейль из джина и вермута)</dd><dt>Plural</dt><dd><em>martinis</em></dd><dt>Countability</dt><dd>countable</dd></dl>
+<p>A cocktail of gin or vodka with a little vermouth.</p>
+<ol><li>He likes his <em>martini</em> with three olives.</li><li>Two <em>martinis</em> and I'm done for the night.</li><li>The <em>martini</em> came out in a chilled glass.</li></ol>
+<hr>
+<h3 id="margarita">margarita<a class="hash" href="#margarita" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/ˌmɑːrɡəˈriːtə/ &middot; <em>mar-guh-REE-tuh</em></dd><dt>Русский</dt><dd>маргарита (коктейль с текилой)</dd><dt>Plural</dt><dd><em>margaritas</em></dd><dt>Countability</dt><dd>countable</dd></dl>
+<p>A tequila cocktail made with lime and served with salt on the rim.</p>
+<ol><li>They ordered a pitcher of <em>margaritas</em>.</li><li>Her <em>margarita</em> came with salt around the rim.</li><li>Frozen <em>margaritas</em> give me a headache.</li></ol>
+<hr>
+<h3 id="mojito">mojito<a class="hash" href="#mojito" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/moʊˈhiːtoʊ/ &middot; <em>moh-HEE-toh</em></dd><dt>Русский</dt><dd>мохито</dd><dt>Plural</dt><dd><em>mojitos</em></dd><dt>Countability</dt><dd>countable</dd><dt>Contrast</dt><dd>The Spanish j sounds like h: moh-HEE-toh.</dd></dl>
+<p>A Cuban cocktail of rum, lime, sugar, and mint.</p>
+<ol><li>He muddled mint for the <em>mojitos</em>.</li><li>A cold <em>mojito</em> on the porch is summer to me.</li><li>Their <em>mojito</em> is more soda than rum.</li></ol>
+<hr>
+<h3 id="sangria">sangria<a class="hash" href="#sangria" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/sæŋˈɡriːə/ &middot; <em>sang-GREE-uh</em></dd><dt>Русский</dt><dd>сангрия</dd><dt>Plural</dt><dd><em>sangrias</em></dd><dt>Countability</dt><dd>countable, and uncountable as food</dd></dl>
+<p>A Spanish drink of red wine mixed with fruit and juice.</p>
+<ol><li>She made a pitcher of <em>sangria</em> for the party.</li><li>The <em>sangria</em> had orange slices floating in it.</li><li>We split a pitcher of white <em>sangria</em>.</li></ol>
+<hr>
+<h3 id="punch">punch<a class="hash" href="#punch" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/pʌntʃ/ &middot; <em>PUNCH</em></dd><dt>Русский</dt><dd>пунш</dd><dt>Countability</dt><dd>uncountable</dd></dl>
+<p>A sweet drink of juice mixed in a large bowl, sometimes with alcohol.</p>
+<ol><li>Somebody spiked the <em>punch</em>.</li><li>There's <em>punch</em> and cookies in the back.</li><li>She ladled <em>punch</em> into paper cups.</li></ol>
+<hr>
+<h3 id="eggnog">eggnog<a class="hash" href="#eggnog" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/ˈeɡnɑːɡ/ &middot; <em>EG-nahg</em></dd><dt>Русский</dt><dd>эгног (яично-молочный напиток)</dd><dt>Countability</dt><dd>uncountable</dd></dl>
+<p>A thick holiday drink of milk, eggs, sugar, and often rum.</p>
+<ol><li>He drinks <em>eggnog</em> straight from the carton in December.</li><li>The <em>eggnog</em> had a little too much rum in it.</li><li>Stores start stocking <em>eggnog</em> right after Thanksgiving.</li></ol>
+<hr>
+<h3 id="nightcap">nightcap<a class="hash" href="#nightcap" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/ˈnaɪtkæp/ &middot; <em>NYTE-kap</em></dd><dt>Русский</dt><dd>рюмка на ночь</dd><dt>Plural</dt><dd><em>nightcaps</em></dd><dt>Countability</dt><dd>countable</dd></dl>
+<p>A drink taken just before going to bed.</p>
+<ol><li>They had a <em>nightcap</em> by the fire.</li><li>Come up for a <em>nightcap</em>.</li><li>One <em>nightcap</em> turned into three.</li></ol>
+<hr>
+<h3 id="mixer">mixer<a class="hash" href="#mixer" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/ˈmɪksər/ &middot; <em>MIK-sur</em></dd><dt>Русский</dt><dd>безалкогольный компонент коктейля (сок, тоник и т. п.)</dd><dt>Plural</dt><dd><em>mixers</em></dd><dt>Countability</dt><dd>countable</dd></dl>
+<p>A nonalcoholic drink added to liquor in a cocktail.</p>
+<ol><li>We have the vodka but no <em>mixers</em>.</li><li>Cranberry juice is the only <em>mixer</em> in the house.</li><li>Pick up some <em>mixers</em> on your way over.</li></ol>
+<hr>
+<h3 id="chaser">chaser<a class="hash" href="#chaser" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/ˈtʃeɪsər/ &middot; <em>CHAY-sur</em></dd><dt>Русский</dt><dd>запивка (после крепкого напитка)</dd><dt>Plural</dt><dd><em>chasers</em></dd><dt>Countability</dt><dd>countable</dd></dl>
+<p>A mild drink swallowed right after a shot of liquor.</p>
+<ol><li>He took the shot and grabbed a beer as a <em>chaser</em>.</li><li>Can I get a water <em>chaser</em> with that?</li><li><em>Chasers</em> make the whiskey go down easier.</li></ol>
+<hr>
+<h3 id="ginger-ale">ginger ale<a class="hash" href="#ginger-ale" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/ˌdʒɪndʒər ˈeɪl/ &middot; <em>jin-jur-AYL</em></dd><dt>Русский</dt><dd>имбирный лимонад</dd><dt>Plural</dt><dd><em>ginger ales</em></dd><dt>Countability</dt><dd>countable, and uncountable as food</dd></dl>
+<p>A sweet fizzy soft drink flavored with ginger.</p>
+<ol><li>Flight attendants pour a lot of <em>ginger ale</em>.</li><li>She drinks <em>ginger ale</em> when her stomach is upset.</li><li>Two <em>ginger ales</em> and a coffee, please.</li></ol>
+<hr>
+<h3 id="garnish">garnish<a class="hash" href="#garnish" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/ˈɡɑːrnɪʃ/ &middot; <em>GAR-nish</em></dd><dt>Русский</dt><dd>украшение (для напитка или блюда)</dd><dt>Plural</dt><dd><em>garnishes</em></dd><dt>Countability</dt><dd>countable</dd></dl>
+<p>A small piece of fruit or herb added to a drink for looks and flavor.</p>
+<ol><li>The <em>garnish</em> was a twist of orange peel.</li><li>He lined up the <em>garnishes</em> before the dinner rush.</li><li>Skip the <em>garnish</em> — I just want the drink.</li></ol>
+<hr>
+<h3 id="shaker">shaker<a class="hash" href="#shaker" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/ˈʃeɪkər/ &middot; <em>SHAY-kur</em></dd><dt>Русский</dt><dd>шейкер</dd><dt>Plural</dt><dd><em>shakers</em></dd><dt>Countability</dt><dd>countable</dd></dl>
+<p>A metal container for mixing a cocktail with ice.</p>
+<ol><li>He rattled the <em>shaker</em> for a good ten seconds.</li><li>The bar had two <em>shakers</em> going at once.</li><li>Pour it straight out of the <em>shaker</em> through a strainer.</li></ol>
+<hr>
+<h3 id="mug">mug<a class="hash" href="#mug" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/mʌɡ/ &middot; <em>MUG</em></dd><dt>Русский</dt><dd>кружка</dd><dt>Plural</dt><dd><em>mugs</em></dd><dt>Countability</dt><dd>countable</dd></dl>
+<p>A large cup with a handle, used for hot drinks.</p>
+<ol><li>He drinks out of the same chipped <em>mug</em> every morning.</li><li>The cupboard is full of <em>mugs</em> from other cities.</li><li>She warmed her hands on the <em>mug</em>.</li></ol>
+<hr>
+<h3 id="wineglass">wineglass<a class="hash" href="#wineglass" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/ˈwaɪnɡlæs/ &middot; <em>WYNE-glas</em></dd><dt>Русский</dt><dd>бокал для вина</dd><dt>Plural</dt><dd><em>wineglasses</em></dd><dt>Countability</dt><dd>countable</dd></dl>
+<p>A glass with a stem, made for drinking wine.</p>
+<ol><li>She rinsed the <em>wineglasses</em> by hand.</li><li>He knocked over a <em>wineglass</em> reaching for the bread.</li><li>The <em>wineglass</em> was filled a little too full.</li></ol>
+<hr>
+<h3 id="tumbler">tumbler<a class="hash" href="#tumbler" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/ˈtʌmblər/ &middot; <em>TUM-blur</em></dd><dt>Русский</dt><dd>стакан (без ножки)</dd><dt>Plural</dt><dd><em>tumblers</em></dd><dt>Countability</dt><dd>countable</dd></dl>
+<p>A straight-sided drinking glass with no stem or handle.</p>
+<ol><li>He poured the whiskey into a heavy <em>tumbler</em>.</li><li>We drink water out of old jars and <em>tumblers</em>.</li><li>The <em>tumbler</em> left a ring on the table.</li></ol>
+<hr>
+<h3 id="shot-glass">shot glass<a class="hash" href="#shot-glass" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/ˈʃɑːt ɡlæs/ &middot; <em>SHAHT-glas</em></dd><dt>Русский</dt><dd>стопка, рюмка</dd><dt>Plural</dt><dd><em>shot glasses</em></dd><dt>Countability</dt><dd>countable</dd></dl>
+<p>A very small glass holding a single measure of liquor.</p>
+<ol><li>He collects <em>shot glasses</em> from every state he visits.</li><li>Fill the <em>shot glass</em> to the line.</li><li>She measured the syrup with a <em>shot glass</em>.</li></ol>
+<hr>
+<h3 id="pitcher">pitcher<a class="hash" href="#pitcher" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/ˈpɪtʃər/ &middot; <em>PICH-ur</em></dd><dt>Русский</dt><dd>кувшин</dd><dt>Plural</dt><dd><em>pitchers</em></dd><dt>Countability</dt><dd>countable</dd><dt>Contrast</dt><dd>Americans say pitcher where the British say jug.</dd></dl>
+<p>A large container with a handle and a spout for pouring drinks.</p>
+<ol><li>They brought out a <em>pitcher</em> of iced tea.</li><li>We ordered a <em>pitcher</em> for the table.</li><li>There are two <em>pitchers</em> of water on the counter.</li></ol>
+<hr>
+<h3 id="jug">jug<a class="hash" href="#jug" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/dʒʌɡ/ &middot; <em>JUG</em></dd><dt>Русский</dt><dd>кувшин, большая ёмкость</dd><dt>Plural</dt><dd><em>jugs</em></dd><dt>Countability</dt><dd>countable</dd></dl>
+<p>A big container with a narrow mouth and a handle.</p>
+<ol><li>He carried a <em>jug</em> of water out to the field.</li><li>We bought a <em>jug</em> of cider at the farm.</li><li>Empty <em>jugs</em> were stacked by the door.</li></ol>
+<hr>
+<h3 id="carafe">carafe<a class="hash" href="#carafe" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/kəˈræf/ &middot; <em>kuh-RAF</em></dd><dt>Русский</dt><dd>графин</dd><dt>Plural</dt><dd><em>carafes</em></dd><dt>Countability</dt><dd>countable</dd></dl>
+<p>An open glass container for serving wine or water at the table.</p>
+<ol><li>They left a <em>carafe</em> of water on the table.</li><li>We ordered a half <em>carafe</em> of the house red.</li><li>The <em>carafe</em> was already empty.</li></ol>
+<hr>
+<h3 id="flask">flask<a class="hash" href="#flask" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/flæsk/ &middot; <em>FLASK</em></dd><dt>Русский</dt><dd>фляжка</dd><dt>Plural</dt><dd><em>flasks</em></dd><dt>Countability</dt><dd>countable</dd><dt>Contrast</dt><dd>American English uses the vowel of cat; British English uses the long ah of father.</dd></dl>
+<p>A flat pocket bottle for carrying liquor.</p>
+<ol><li>He had a <em>flask</em> in his coat pocket.</li><li>She filled the <em>flask</em> before the game.</li><li>Someone passed a <em>flask</em> around at halftime.</li></ol>
+<hr>
+<h3 id="teapot">teapot<a class="hash" href="#teapot" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/ˈtiːpɑːt/ &middot; <em>TEE-paht</em></dd><dt>Русский</dt><dd>заварочный чайник</dd><dt>Plural</dt><dd><em>teapots</em></dd><dt>Countability</dt><dd>countable</dd></dl>
+<p>A pot with a spout and a lid for brewing and pouring tea.</p>
+<ol><li>She warmed the <em>teapot</em> before adding the leaves.</li><li>The <em>teapot</em> has a chip on the spout.</li><li>He set two <em>teapots</em> on the tray.</li></ol>
+<hr>
+<h3 id="kettle">kettle<a class="hash" href="#kettle" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/ˈketl/ &middot; <em>KET-ul</em></dd><dt>Русский</dt><dd>чайник (для кипячения воды)</dd><dt>Plural</dt><dd><em>kettles</em></dd><dt>Countability</dt><dd>countable</dd></dl>
+<p>A covered pot used to boil water.</p>
+<ol><li>Put the <em>kettle</em> on, would you?</li><li>The <em>kettle</em> started whistling.</li><li>We keep an electric <em>kettle</em> next to the sink.</li></ol>
+<hr>
+<h3 id="saucer">saucer<a class="hash" href="#saucer" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/ˈsɔːsər/ &middot; <em>SAW-sur</em></dd><dt>Русский</dt><dd>блюдце</dd><dt>Plural</dt><dd><em>saucers</em></dd><dt>Countability</dt><dd>countable</dd></dl>
+<p>The small plate a cup sits on.</p>
+<ol><li>He set the cup back down on the <em>saucer</em>.</li><li>The <em>saucers</em> don't match the cups.</li><li>Coffee had spilled into the <em>saucer</em>.</li></ol>
+<hr>
+<h3 id="coffeemaker">coffeemaker<a class="hash" href="#coffeemaker" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/ˈkɔːfimeɪkər/ &middot; <em>KAW-fee-may-kur</em></dd><dt>Русский</dt><dd>кофеварка</dd><dt>Plural</dt><dd><em>coffeemakers</em></dd><dt>Countability</dt><dd>countable</dd></dl>
+<p>A machine that brews coffee automatically.</p>
+<ol><li>The <em>coffeemaker</em> starts at six every morning.</li><li>Our <em>coffeemaker</em> finally died last week.</li><li>Hotel rooms all have those tiny <em>coffeemakers</em>.</li></ol>
+<hr>
+<h3 id="blender">blender<a class="hash" href="#blender" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/ˈblendər/ &middot; <em>BLEN-dur</em></dd><dt>Русский</dt><dd>блендер</dd><dt>Plural</dt><dd><em>blenders</em></dd><dt>Countability</dt><dd>countable</dd></dl>
+<p>An electric machine that mixes drinks and crushes ice.</p>
+<ol><li>She threw everything into the <em>blender</em>.</li><li>The <em>blender</em> woke up the whole house.</li><li>You need a strong <em>blender</em> for frozen drinks.</li></ol>
+<hr>
+<h3 id="cooler">cooler<a class="hash" href="#cooler" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/ˈkuːlər/ &middot; <em>KOO-lur</em></dd><dt>Русский</dt><dd>сумка-холодильник, переносной холодильник</dd><dt>Plural</dt><dd><em>coolers</em></dd><dt>Countability</dt><dd>countable</dd></dl>
+<p>An insulated box for keeping drinks cold.</p>
+<ol><li>The beer's in the <em>cooler</em> on the porch.</li><li>We packed two <em>coolers</em> for the drive.</li><li>Somebody left the <em>cooler</em> open all night.</li></ol>
+<hr>
+<h3 id="straw">straw<a class="hash" href="#straw" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/strɔː/ &middot; <em>STRAW</em></dd><dt>Русский</dt><dd>трубочка, соломинка</dd><dt>Plural</dt><dd><em>straws</em></dd><dt>Countability</dt><dd>countable</dd></dl>
+<p>A thin tube for drinking from a glass or cup.</p>
+<ol><li>Can I get a <em>straw</em> with that?</li><li>The café switched to paper <em>straws</em>.</li><li>He was chewing on his <em>straw</em> the whole time.</li></ol>
+<hr>
+<h3 id="coaster">coaster<a class="hash" href="#coaster" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/ˈkoʊstər/ &middot; <em>KOH-stur</em></dd><dt>Русский</dt><dd>подставка под стакан</dd><dt>Plural</dt><dd><em>coasters</em></dd><dt>Countability</dt><dd>countable</dd></dl>
+<p>A small mat that a glass sits on to protect the table.</p>
+<ol><li>Use a <em>coaster</em>, please.</li><li>The bar's <em>coasters</em> have the logo printed on them.</li><li>She slid a <em>coaster</em> under his glass.</li></ol>
+<hr>
+<h3 id="lid">lid<a class="hash" href="#lid" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/lɪd/ &middot; <em>LID</em></dd><dt>Русский</dt><dd>крышка</dd><dt>Plural</dt><dd><em>lids</em></dd><dt>Countability</dt><dd>countable</dd></dl>
+<p>A cover that fits on top of a cup or container.</p>
+<ol><li>The <em>lid</em> wasn't on tight and it spilled.</li><li>He snapped a <em>lid</em> onto the to-go cup.</li><li>The <em>lids</em> are over by the milk and sugar.</li></ol>
+<hr>
+<h3 id="cork">cork<a class="hash" href="#cork" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/kɔːrk/ &middot; <em>KORK</em></dd><dt>Русский</dt><dd>пробка (винная)</dd><dt>Plural</dt><dd><em>corks</em></dd><dt>Countability</dt><dd>countable</dd></dl>
+<p>The stopper in the neck of a wine bottle.</p>
+<ol><li>The <em>cork</em> broke off in the bottle.</li><li>He smelled the <em>cork</em> out of habit.</li><li>She saves the <em>corks</em> in a big jar.</li></ol>
+<hr>
+<h3 id="corkscrew">corkscrew<a class="hash" href="#corkscrew" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/ˈkɔːrkskruː/ &middot; <em>KORK-skroo</em></dd><dt>Русский</dt><dd>штопор</dd><dt>Plural</dt><dd><em>corkscrews</em></dd><dt>Countability</dt><dd>countable</dd></dl>
+<p>A tool for pulling corks out of bottles.</p>
+<ol><li>Does anybody have a <em>corkscrew</em>?</li><li>The <em>corkscrew</em> is in the drawer by the stove.</li><li>He got the wine open without a <em>corkscrew</em>.</li></ol>
+<hr>
+<h3 id="tap">tap<a class="hash" href="#tap" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/tæp/ &middot; <em>TAP</em></dd><dt>Русский</dt><dd>кран (пивной)</dd><dt>Plural</dt><dd><em>taps</em></dd><dt>Countability</dt><dd>countable</dd></dl>
+<p>The valve that beer is poured from at a bar.</p>
+<ol><li>They have twenty beers on <em>tap</em>.</li><li>The bartender cleaned the <em>taps</em> before opening.</li><li>This one's fresh off the <em>tap</em>.</li></ol>
+<hr>
+<h3 id="faucet">faucet<a class="hash" href="#faucet" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/ˈfɔːsɪt/ &middot; <em>FAW-sit</em></dd><dt>Русский</dt><dd>водопроводный кран</dd><dt>Plural</dt><dd><em>faucets</em></dd><dt>Countability</dt><dd>countable</dd><dt>Contrast</dt><dd>Americans say faucet; the British say tap.</dd></dl>
+<p>The fixture that water comes out of at a sink.</p>
+<ol><li>He filled the glass straight from the <em>faucet</em>.</li><li>The kitchen <em>faucet</em> is dripping again.</li><li>Both <em>faucets</em> need new washers.</li></ol>
+<hr>
+<h3 id="ice">ice<a class="hash" href="#ice" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/aɪs/ &middot; <em>YSE</em></dd><dt>Русский</dt><dd>лёд</dd><dt>Countability</dt><dd>uncountable</dd></dl>
+<p>Frozen water, added to drinks to make them cold.</p>
+<ol><li>Can I get that with no <em>ice</em>?</li><li>There's <em>ice</em> in the freezer.</li><li>The <em>ice</em> melted and watered down my drink.</li></ol>
+<hr>
+<h3 id="foam">foam<a class="hash" href="#foam" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/foʊm/ &middot; <em>FOHM</em></dd><dt>Русский</dt><dd>пена</dd><dt>Countability</dt><dd>uncountable</dd></dl>
+<p>The layer of tiny bubbles on top of a drink.</p>
+<ol><li>That beer was mostly <em>foam</em>.</li><li>She likes extra <em>foam</em> on her cappuccino.</li><li><em>Foam</em> spilled over the rim of the glass.</li></ol>
+<hr>
+<h3 id="fizz">fizz<a class="hash" href="#fizz" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/fɪz/ &middot; <em>FIZ</em></dd><dt>Русский</dt><dd>газы, шипучесть (в напитке)</dd><dt>Countability</dt><dd>uncountable</dd></dl>
+<p>The bubbles and hiss of a carbonated drink.</p>
+<ol><li>The soda lost its <em>fizz</em> overnight.</li><li>There's still a little <em>fizz</em> left in it.</li><li>I like the <em>fizz</em> more than the flavor.</li></ol>
+<hr>
+<h3 id="bubble">bubble<a class="hash" href="#bubble" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/ˈbʌbl/ &middot; <em>BUB-ul</em></dd><dt>Русский</dt><dd>пузырёк</dd><dt>Plural</dt><dd><em>bubbles</em></dd><dt>Countability</dt><dd>countable</dd></dl>
+<p>A small ball of gas rising through a liquid.</p>
+<ol><li><em>Bubbles</em> rose to the top of the glass.</li><li>Champagne has finer <em>bubbles</em> than soda.</li><li>He watched a single <em>bubble</em> drift up the side.</li></ol>
+<hr>
+<h3 id="sip">sip<a class="hash" href="#sip" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/sɪp/ &middot; <em>SIP</em></dd><dt>Русский</dt><dd>маленький глоток</dd><dt>Plural</dt><dd><em>sips</em></dd><dt>Countability</dt><dd>countable</dd></dl>
+<p>A small amount of drink taken into the mouth at once.</p>
+<ol><li>She took a <em>sip</em> and made a face.</li><li>He finished the whole cup in tiny <em>sips</em>.</li><li>One <em>sip</em> was enough to tell it had gone bad.</li></ol>
+<hr>
+<h3 id="gulp">gulp<a class="hash" href="#gulp" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/ɡʌlp/ &middot; <em>GULP</em></dd><dt>Русский</dt><dd>большой глоток</dd><dt>Plural</dt><dd><em>gulps</em></dd><dt>Countability</dt><dd>countable</dd></dl>
+<p>A large swallow of a drink.</p>
+<ol><li>He drank the water in three <em>gulps</em>.</li><li>She took a <em>gulp</em> of coffee and ran for the door.</li><li>One long <em>gulp</em> and the glass was empty.</li></ol>
+<hr>
+<h3 id="swig">swig<a class="hash" href="#swig" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/swɪɡ/ &middot; <em>SWIG</em></dd><dt>Русский</dt><dd>глоток (прямо из бутылки)</dd><dt>Plural</dt><dd><em>swigs</em></dd><dt>Countability</dt><dd>countable</dd></dl>
+<p>A big mouthful drunk straight from a bottle.</p>
+<ol><li>He took a <em>swig</em> from the bottle and passed it on.</li><li>She had a quick <em>swig</em> of water between songs.</li><li>A couple of <em>swigs</em> later, the flask was empty.</li></ol>
+<hr>
+<h3 id="pint">pint<a class="hash" href="#pint" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/paɪnt/ &middot; <em>PYNT</em></dd><dt>Русский</dt><dd>пинта (около 0,47 л)</dd><dt>Plural</dt><dd><em>pints</em></dd><dt>Countability</dt><dd>countable</dd><dt>Contrast</dt><dd>Say PYNT, with the vowel of pie — not like mint or hint.</dd></dl>
+<p>A measure of about half a liter, the usual glass of beer.</p>
+<ol><li>He ordered a <em>pint</em> of the local IPA.</li><li>Two <em>pints</em> and we called it a night.</li><li>A <em>pint</em> of milk costs next to nothing here.</li></ol>
+<hr>
+<h3 id="quart">quart<a class="hash" href="#quart" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/kwɔːrt/ &middot; <em>KWORT</em></dd><dt>Русский</dt><dd>кварта (0,95 л)</dd><dt>Plural</dt><dd><em>quarts</em></dd><dt>Countability</dt><dd>countable</dd></dl>
+<p>An American measure of liquid equal to two pints.</p>
+<ol><li>Pick up a <em>quart</em> of milk on your way home.</li><li>The recipe calls for two <em>quarts</em> of cider.</li><li>They only had the small <em>quart</em> size left.</li></ol>
+<hr>
+<h3 id="gallon">gallon<a class="hash" href="#gallon" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/ˈɡælən/ &middot; <em>GAL-un</em></dd><dt>Русский</dt><dd>галлон (3,8 л)</dd><dt>Plural</dt><dd><em>gallons</em></dd><dt>Countability</dt><dd>countable</dd></dl>
+<p>An American measure of liquid equal to four quarts.</p>
+<ol><li>We go through a <em>gallon</em> of juice a week.</li><li>He bought two <em>gallons</em> of water for the trip.</li><li>A <em>gallon</em> of milk is heavier than it looks.</li></ol>
+<hr>
+<h3 id="liter">liter<a class="hash" href="#liter" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/ˈliːtər/ &middot; <em>LEE-tur</em></dd><dt>Русский</dt><dd>литр</dd><dt>Plural</dt><dd><em>liters</em></dd><dt>Countability</dt><dd>countable</dd><dt>Contrast</dt><dd>American spelling liter; British spelling litre.</dd></dl>
+<p>A metric measure of liquid, a little more than a quart.</p>
+<ol><li>The bottle holds two <em>liters</em>.</li><li>Doctors tell you to drink about two <em>liters</em> of water a day.</li><li>A <em>liter</em> is a little more than a quart.</li></ol>
+<hr>
+<h3 id="round">round<a class="hash" href="#round" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/raʊnd/ &middot; <em>ROWND</em></dd><dt>Русский</dt><dd>угощение (по напитку каждому в компании)</dd><dt>Plural</dt><dd><em>rounds</em></dd><dt>Countability</dt><dd>countable</dd></dl>
+<p>A drink bought for everyone in the group at the same time.</p>
+<ol><li>This <em>round</em> is on me.</li><li>They bought three <em>rounds</em> before dinner even arrived.</li><li>It's your turn to get the next <em>round</em>.</li></ol>
+<hr>
+<h3 id="six-pack">six-pack<a class="hash" href="#six-pack" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/ˈsɪks pæk/ &middot; <em>SIKS-pak</em></dd><dt>Русский</dt><dd>упаковка из шести банок (бутылок)</dd><dt>Plural</dt><dd><em>six-packs</em></dd><dt>Countability</dt><dd>countable</dd></dl>
+<p>Six cans or bottles of a drink sold together.</p>
+<ol><li>Grab a <em>six-pack</em> on your way over.</li><li>He brought two <em>six-packs</em> to the cookout.</li><li>A <em>six-pack</em> of that costs twelve bucks now.</li></ol>
+<hr>
+<h3 id="bartender">bartender<a class="hash" href="#bartender" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/ˈbɑːrtendər/ &middot; <em>BAR-ten-dur</em></dd><dt>Русский</dt><dd>бармен</dd><dt>Plural</dt><dd><em>bartenders</em></dd><dt>Countability</dt><dd>countable</dd></dl>
+<p>Someone who mixes and serves drinks at a bar.</p>
+<ol><li>The <em>bartender</em> remembered my order.</li><li>She worked as a <em>bartender</em> all through college.</li><li>Two <em>bartenders</em> were handling the whole room.</li></ol>
+<hr>
+<h3 id="barista">barista<a class="hash" href="#barista" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/bəˈriːstə/ &middot; <em>buh-REE-stuh</em></dd><dt>Русский</dt><dd>бариста</dd><dt>Plural</dt><dd><em>baristas</em></dd><dt>Countability</dt><dd>countable</dd></dl>
+<p>Someone who makes coffee drinks in a café.</p>
+<ol><li>The <em>barista</em> spelled my name wrong again.</li><li>He trained as a <em>barista</em> in Seattle.</li><li>Two <em>baristas</em> were working the morning rush.</li></ol>
+<hr>
+<h3 id="café">café<a class="hash" href="#café" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/kæˈfeɪ/ &middot; <em>ka-FAY</em></dd><dt>Русский</dt><dd>кафе</dd><dt>Plural</dt><dd><em>cafés</em></dd><dt>Countability</dt><dd>countable</dd><dt>Contrast</dt><dd>Americans stress the second syllable, ka-FAY; the British often say CAF-ay.</dd></dl>
+<p>A small place that serves coffee and light food.</p>
+<ol><li>There's a <em>café</em> on the corner with good pastries.</li><li>She writes at the same <em>café</em> every afternoon.</li><li>The <em>cafés</em> downtown all close by six.</li></ol>
+<hr>
+<h3 id="pub">pub<a class="hash" href="#pub" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/pʌb/ &middot; <em>PUB</em></dd><dt>Русский</dt><dd>паб, пивная</dd><dt>Plural</dt><dd><em>pubs</em></dd><dt>Countability</dt><dd>countable</dd></dl>
+<p>A place that serves beer and simple food.</p>
+<ol><li>We met at a <em>pub</em> near the station.</li><li>The <em>pub</em> has trivia night on Wednesdays.</li><li>There are three <em>pubs</em> on this block alone.</li></ol>
+<hr>
+<h3 id="happy-hour">happy hour<a class="hash" href="#happy-hour" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/ˌhæpi ˈaʊrr/ &middot; <em>hap-ee-OW-ur</em></dd><dt>Русский</dt><dd>счастливый час (время скидок на напитки)</dd><dt>Plural</dt><dd><em>happy hours</em></dd><dt>Countability</dt><dd>countable</dd></dl>
+<p>The early-evening stretch when a bar sells drinks cheap.</p>
+<ol><li><em>Happy hour</em> runs from four to six.</li><li>We got there just in time for <em>happy hour</em>.</li><li>Their <em>happy hour</em> prices are the best downtown.</li></ol>
+<hr>
+<h3 id="tab">tab<a class="hash" href="#tab" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/tæb/ &middot; <em>TAB</em></dd><dt>Русский</dt><dd>счёт (в баре или кафе)</dd><dt>Plural</dt><dd><em>tabs</em></dd><dt>Countability</dt><dd>countable</dd></dl>
+<p>A running bill for drinks that you settle when you leave.</p>
+<ol><li>Can I start a <em>tab</em>?</li><li>He closed out his <em>tab</em> and left.</li><li>Put it on my <em>tab</em>.</li></ol>
+<hr>
+<h3 id="hangover">hangover<a class="hash" href="#hangover" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/ˈhæŋoʊvər/ &middot; <em>HANG-oh-vur</em></dd><dt>Русский</dt><dd>похмелье</dd><dt>Plural</dt><dd><em>hangovers</em></dd><dt>Countability</dt><dd>countable</dd></dl>
+<p>The headache and sickness that follow drinking too much.</p>
+<ol><li>He woke up with a terrible <em>hangover</em>.</li><li>Water before bed helps with the <em>hangover</em>.</li><li><em>Hangovers</em> get worse as you get older.</li></ol>
+<hr>
+<h3 id="aroma">aroma<a class="hash" href="#aroma" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/əˈroʊmə/ &middot; <em>uh-ROH-muh</em></dd><dt>Русский</dt><dd>аромат, запах</dd><dt>Plural</dt><dd><em>aromas</em></dd><dt>Countability</dt><dd>countable</dd></dl>
+<p>A strong pleasant smell, especially of food or drink.</p>
+<ol><li>The <em>aroma</em> of fresh coffee filled the kitchen.</li><li>This wine has an <em>aroma</em> of cherry and smoke.</li><li>Different <em>aromas</em> come out as it warms up.</li></ol></div></main>
+<button class="themebtn" id="themeBtn">Dark</button>
+<script>
+const tb=document.getElementById('themeBtn');
+function setTheme(x){document.documentElement.dataset.theme=x;tb.textContent=x==='dark'?'Light':'Dark';
+ try{localStorage.setItem('site-theme',x)}catch(e){}}
+tb.onclick=()=>setTheme(document.documentElement.dataset.theme==='dark'?'light':'dark');
+try{const s=localStorage.getItem('site-theme');
+ setTheme(s||(matchMedia('(prefers-color-scheme: dark)').matches?'dark':'light'))}catch(e){setTheme('light')}
+</script></body></html>

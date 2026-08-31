@@ -1,0 +1,171 @@
+<!DOCTYPE html>
+<html lang="en"><head>
+<meta charset="utf-8"><meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Core vocabulary: business and commerce</title>
+<style>
+:root{--bg:#faf9f7;--surface:#fff;--surface2:#f2f0ec;--border:#e2ded6;--text:#1a1815;
+--dim:#5f594f;--faint:#8a8377;--accent:#8a5a3b;--measure:72ch}
+@media(prefers-color-scheme:dark){:root{--bg:#14140f;--surface:#1d1d17;--surface2:#25251d;
+--border:#33332a;--text:#eeeae1;--dim:#a8a293;--faint:#7d776b;--accent:#d09b72}}
+:root[data-theme=dark]{--bg:#14140f;--surface:#1d1d17;--surface2:#25251d;--border:#33332a;
+--text:#eeeae1;--dim:#a8a293;--faint:#7d776b;--accent:#d09b72}
+:root[data-theme=light]{--bg:#faf9f7;--surface:#fff;--surface2:#f2f0ec;--border:#e2ded6;
+--text:#1a1815;--dim:#5f594f;--faint:#8a8377;--accent:#8a5a3b}
+*{box-sizing:border-box}
+body{margin:0;background:var(--bg);color:var(--text);
+font:17px/1.72 ui-serif,Georgia,"Iowan Old Style",Palatino,serif;-webkit-font-smoothing:antialiased}
+.wrap{max-width:min(var(--measure),100%);margin:0 auto;padding:0 22px}
+nav.crumb{border-bottom:1px solid var(--border);padding:13px 0;font-size:13.5px;
+font-family:-apple-system,BlinkMacSystemFont,"Segoe UI",sans-serif;position:sticky;top:0;background:var(--bg);z-index:20}
+nav.crumb .wrap{max-width:none;display:flex;gap:9px;align-items:center;flex-wrap:wrap}
+nav.crumb a{color:var(--dim);text-decoration:none}
+nav.crumb a:hover{color:var(--accent)}
+nav.crumb .sep{color:var(--faint)}
+main{padding:8px 0 80px}
+h1{font-size:clamp(28px,5vw,38px);line-height:1.15;letter-spacing:-.015em;margin:34px 0 18px}
+h2{font-size:25px;margin:46px 0 14px;letter-spacing:-.01em;padding-bottom:7px;border-bottom:1px solid var(--border)}
+h3{font-size:19px;margin:34px 0 10px;color:var(--accent)}
+h4{font-size:16px;margin:24px 0 8px;font-family:-apple-system,sans-serif}
+p{margin:0 0 16px}
+a{color:var(--accent)}
+.hash{opacity:0;margin-left:8px;font-weight:400;font-size:.65em;text-decoration:none;color:var(--faint)}
+h2:hover .hash,h3:hover .hash{opacity:1}
+blockquote{margin:0 0 20px;padding:14px 18px;background:var(--surface2);
+border-left:3px solid var(--accent);border-radius:0 8px 8px 0}
+blockquote p:last-child{margin-bottom:0}
+ol,ul{margin:0 0 18px;padding-left:26px}
+li{margin-bottom:8px}
+li>ul,li>ol{margin:8px 0 0}
+code{font-family:ui-monospace,SFMono-Regular,Menlo,Consolas,monospace;font-size:.87em;
+background:var(--surface2);padding:1px 5px;border-radius:4px}
+pre{background:var(--surface2);border:1px solid var(--border);border-radius:9px;
+padding:15px 17px;overflow-x:auto;margin:0 0 20px}
+pre code{background:none;padding:0;font-size:13px;line-height:1.6}
+.tw{overflow-x:auto;margin:0 0 22px;border:1px solid var(--border);border-radius:9px}
+table{border-collapse:collapse;width:100%;font-size:15px;
+font-family:-apple-system,BlinkMacSystemFont,"Segoe UI",sans-serif}
+th,td{padding:10px 14px;border-bottom:1px solid var(--border);vertical-align:top}
+th{background:var(--surface2);font-size:12px;text-transform:uppercase;
+letter-spacing:.06em;color:var(--dim);font-weight:700;white-space:nowrap}
+tbody tr:last-child td{border-bottom:none}
+hr{border:none;border-top:1px solid var(--border);margin:38px 0}
+details{background:var(--surface2);border:1px solid var(--border);border-radius:9px;
+padding:13px 17px;margin:0 0 20px}
+summary{cursor:pointer;font-weight:600;font-family:-apple-system,sans-serif;font-size:15px}
+details[open] summary{margin-bottom:12px}
+del{color:var(--faint)}
+dl.fields{margin:0 0 20px;padding:0}
+dl.fields dt{font-family:-apple-system,BlinkMacSystemFont,"Segoe UI",sans-serif;
+font-size:11px;letter-spacing:.11em;text-transform:uppercase;color:var(--faint);
+font-weight:700;margin:14px 0 4px}
+dl.fields dt:first-child{margin-top:0}
+dl.fields dd{margin:0;font-size:16px;color:var(--dim);line-height:1.62}
+dl.fields dd em{color:var(--text)}
+dl.fields dt.ru{color:var(--accent)}
+dl.fields dd strong{color:var(--text)}
+.toc{background:var(--surface2);border:1px solid var(--border);border-radius:10px;
+padding:16px 20px;margin:26px 0 34px;font-family:-apple-system,sans-serif;font-size:14px}
+.toc b{display:block;font-size:11px;letter-spacing:.12em;text-transform:uppercase;
+color:var(--faint);margin-bottom:9px}
+.toc a{display:block;padding:3px 0;color:var(--dim);text-decoration:none}
+.toc a:hover{color:var(--accent)}
+.themebtn{position:fixed;right:18px;bottom:18px;z-index:60;font-family:-apple-system,sans-serif;
+font-size:12.5px;font-weight:600;cursor:pointer;background:var(--surface);border:1px solid var(--border);
+border-radius:99px;padding:9px 16px;color:var(--text)}
+@media(max-width:600px){body{font-size:16px}.wrap{padding:0 17px}}
+</style></head><body>
+<nav class="crumb"><div class="wrap"><a href="../../../index.html">Learn English</a><span class="sep">/</span><a href="../../README.html">Parts of speech</a><span class="sep">/</span><a href="../README.html">01-nouns</a><span class="sep">/</span><span>catalog</span></div></nav>
+<main><div class="wrap"><h1 id="core-vocabulary-business-and-commerce">Core vocabulary: business and commerce<a class="hash" href="#core-vocabulary-business-and-commerce" aria-label="link">#</a></h1>
+<blockquote><p>The everyday nouns of business and commerce — pronunciation, Russian, plural, and three examples each.</p></blockquote>
+<p><a href="../README.html">← The grammar of nouns</a> &middot; <a href="README.html">All groups</a></p>
+<p>Part of the <strong>core-vocabulary tier</strong>. Groups 1–23 cover the nouns that misbehave; this tier covers the nouns you simply need to know. Entries are deliberately lean, because a regular countable noun has no grammatical story to tell. A <strong>Contrast</strong> line appears only where the word hides a genuine trap.</p>
+<p>Where a word in this field <em>does</em> misbehave, it lives in the grammar tier instead and is not repeated here.</p>
+<hr>
+<h3 id="trade">trade<a class="hash" href="#trade" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/treɪd/ &middot; <em>TRAYD</em></dd><dt>Русский</dt><dd>торговля; ремесло</dd><dt>Plural</dt><dd><em>trades</em></dd><dt>Countability</dt><dd>both — countable and uncountable with different meanings</dd></dl>
+<p>The buying and selling of goods, or a skilled job learned by training.</p>
+<ol><li><em>Trade</em> between the two countries has doubled since 2019.</li><li>He learned a <em>trade</em> instead of going to college.</li><li>The new tariffs hurt small shops that live on cross-border <em>trade</em>.</li></ol>
+<hr>
+<h3 id="industry">industry<a class="hash" href="#industry" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/ˈɪndəstri/ &middot; <em>IN-duh-stree</em></dd><dt>Русский</dt><dd>отрасль; промышленность</dd><dt>Plural</dt><dd><em>industries</em></dd><dt>Countability</dt><dd>both — countable and uncountable with different meanings</dd></dl>
+<p>A branch of business that makes one kind of product, or manufacturing as a whole.</p>
+<ol><li>She spent twenty years in the music <em>industry</em>.</li><li>Heavy <em>industry</em> still employs a lot of people up north.</li><li>Several <em>industries</em> were hit hard by the shutdown.</li></ol>
+<hr>
+<h3 id="corporation">corporation<a class="hash" href="#corporation" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/ˌkɔːrpəˈreɪʃən/ &middot; <em>kor-puh-RAY-shun</em></dd><dt>Русский</dt><dd>корпорация, акционерное общество</dd><dt>Plural</dt><dd><em>corporations</em></dd><dt>Countability</dt><dd>countable</dd></dl>
+<p>A large business that the law treats as a single person.</p>
+<ol><li>The <em>corporation</em> moved its head office to Texas.</li><li>Big <em>corporations</em> pay far less tax than most people think.</li><li>She left a huge <em>corporation</em> to run a bakery.</li></ol>
+<hr>
+<h3 id="firm">firm<a class="hash" href="#firm" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/fɜːrm/ &middot; <em>FURM</em></dd><dt>Русский</dt><dd>фирма, компания</dd><dt>Plural</dt><dd><em>firms</em></dd><dt>Countability</dt><dd>countable</dd></dl>
+<p>A company, especially one that sells professional services.</p>
+<ol><li>He works for a law <em>firm</em> downtown.</li><li>The <em>firm</em> has offices in six cities.</li><li>Two accounting <em>firms</em> bid on the audit.</li></ol>
+<hr>
+<h3 id="factory">factory<a class="hash" href="#factory" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/ˈfæktəri/ &middot; <em>FAK-tuh-ree</em></dd><dt>Русский</dt><dd>фабрика, завод</dd><dt>Plural</dt><dd><em>factories</em></dd><dt>Countability</dt><dd>countable</dd></dl>
+<p>A building where goods are made by machine in large numbers.</p>
+<ol><li>Her father worked at the <em>factory</em> for thirty years.</li><li>The <em>factory</em> runs three shifts a day.</li><li>Half the <em>factories</em> along the river closed in the nineties.</li></ol>
+<hr>
+<h3 id="warehouse">warehouse<a class="hash" href="#warehouse" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/ˈwerhaʊs/ &middot; <em>WAIR-howss</em></dd><dt>Русский</dt><dd>склад</dd><dt>Plural</dt><dd><em>warehouses</em></dd><dt>Countability</dt><dd>countable</dd></dl>
+<p>A large building where goods are stored before they are sold or shipped.</p>
+<ol><li>Your order is still sitting in the <em>warehouse</em> in Memphis.</li><li>They rented a <em>warehouse</em> out by the airport.</li><li>Both <em>warehouses</em> are full through the holidays.</li></ol>
+<hr>
+<h3 id="franchise">franchise<a class="hash" href="#franchise" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/ˈfræntʃaɪz/ &middot; <em>FRAN-chyze</em></dd><dt>Русский</dt><dd>франшиза; франчайзинговая точка</dd><dt>Plural</dt><dd><em>franchises</em></dd><dt>Countability</dt><dd>countable</dd></dl>
+<p>The right to run a business under a big company's name, or a store run that way.</p>
+<ol><li>He bought a pizza <em>franchise</em> in Tulsa.</li><li>The <em>franchise</em> costs about two hundred thousand up front.</li><li>There are over forty <em>franchises</em> in the state.</li></ol>
+<hr>
+<h3 id="partnership">partnership<a class="hash" href="#partnership" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/ˈpɑːrtnərʃɪp/ &middot; <em>PART-nur-ship</em></dd><dt>Русский</dt><dd>партнёрство; товарищество</dd><dt>Plural</dt><dd><em>partnerships</em></dd><dt>Countability</dt><dd>countable</dd></dl>
+<p>A business owned by two or more people, or a working tie between companies.</p>
+<ol><li>The two of them formed a <em>partnership</em> right out of school.</li><li>The <em>partnership</em> fell apart over money.</li><li>We have <em>partnerships</em> with three local farms.</li></ol>
+<hr>
+<h3 id="competition">competition<a class="hash" href="#competition" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/ˌkɑːmpəˈtɪʃən/ &middot; <em>kahm-puh-TISH-un</em></dd><dt>Русский</dt><dd>конкуренция; конкурс</dd><dt>Plural</dt><dd><em>competitions</em></dd><dt>Countability</dt><dd>both — countable and uncountable with different meanings</dd></dl>
+<p>Rivalry between sellers, or an organized contest.</p>
+<ol><li>There's a lot of <em>competition</em> in the coffee business.</li><li>We keep an eye on what the <em>competition</em> is charging.</li><li>She won a baking <em>competition</em> at the state fair.</li></ol>
+<hr>
+<h3 id="executive">executive<a class="hash" href="#executive" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/ɪɡˈzekjətɪv/ &middot; <em>ig-ZEK-yuh-tiv</em></dd><dt>Русский</dt><dd>руководитель, топ-менеджер</dd><dt>Plural</dt><dd><em>executives</em></dd><dt>Countability</dt><dd>countable</dd></dl>
+<p>A senior person who helps run a company and makes the big decisions.</p>
+<ol><li>The <em>executive</em> who hired me is retiring.</li><li>Three <em>executives</em> resigned in the same week.</li><li>She's an <em>executive</em> at a software company.</li></ol>
+<hr>
+<h3 id="supplier">supplier<a class="hash" href="#supplier" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/səˈplaɪrr/ &middot; <em>suh-PLY-ur</em></dd><dt>Русский</dt><dd>поставщик</dd><dt>Plural</dt><dd><em>suppliers</em></dd><dt>Countability</dt><dd>countable</dd></dl>
+<p>A company that provides goods or materials to another company.</p>
+<ol><li>Our main <em>supplier</em> raised prices again.</li><li>We switched <em>suppliers</em> after the delays.</li><li>The <em>supplier</em> ships out of Ohio.</li></ol>
+<hr>
+<h3 id="vendor">vendor<a class="hash" href="#vendor" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/ˈvendər/ &middot; <em>VEN-dur</em></dd><dt>Русский</dt><dd>поставщик; торговец, продавец</dd><dt>Plural</dt><dd><em>vendors</em></dd><dt>Countability</dt><dd>countable</dd></dl>
+<p>A person or company that sells something, especially to a business or on the street.</p>
+<ol><li>A street <em>vendor</em> was selling hot dogs on the corner.</li><li>We pay our <em>vendors</em> within thirty days.</li><li>The software <em>vendor</em> handles all the updates.</li></ol>
+<hr>
+<h3 id="retailer">retailer<a class="hash" href="#retailer" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/ˈriːteɪlər/ &middot; <em>REE-tay-lur</em></dd><dt>Русский</dt><dd>розничный продавец, ритейлер</dd><dt>Plural</dt><dd><em>retailers</em></dd><dt>Countability</dt><dd>countable</dd></dl>
+<p>A business that sells goods directly to the public.</p>
+<ol><li>The <em>retailer</em> is closing forty stores.</li><li>Online <em>retailers</em> took most of the holiday traffic.</li><li>We sell through one big <em>retailer</em> and our own site.</li></ol>
+<hr>
+<h3 id="manufacturer">manufacturer<a class="hash" href="#manufacturer" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/ˌmænjəˈfæktʃərər/ &middot; <em>man-yuh-FAK-chur-ur</em></dd><dt>Русский</dt><dd>производитель, изготовитель</dd><dt>Plural</dt><dd><em>manufacturers</em></dd><dt>Countability</dt><dd>countable</dd></dl>
+<p>A company that makes goods in large quantities.</p>
+<ol><li>The <em>manufacturer</em> covers the parts for two years.</li><li>Most of these <em>manufacturers</em> are overseas.</li><li>Call the <em>manufacturer</em> before you take it apart.</li></ol>
+<hr>
+<h3 id="buyer">buyer<a class="hash" href="#buyer" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/ˈbaɪrr/ &middot; <em>BY-ur</em></dd><dt>Русский</dt><dd>покупатель; закупщик</dd><dt>Plural</dt><dd><em>buyers</em></dd><dt>Countability</dt><dd>countable</dd></dl>
+<p>Someone who buys something, or whose job is buying stock for a store.</p>
+<ol><li>The house had three <em>buyers</em> interested in one weekend.</li><li>She's a <em>buyer</em> for a department store.</li><li>We finally found a <em>buyer</em> for the truck.</li></ol>
+<hr>
+<h3 id="career">career<a class="hash" href="#career" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/kəˈrɪr/ &middot; <em>kuh-REER</em></dd><dt>Русский</dt><dd>карьера, профессиональный путь</dd><dt>Plural</dt><dd><em>careers</em></dd><dt>Countability</dt><dd>countable</dd><dt>Contrast</dt><dd>Don't mix up <em>career</em> (kuh-REER) with carrier (KA-ree-ur), a company that hauls freight.</dd></dl>
+<p>The series of jobs a person holds over a working life.</p>
+<ol><li>She spent her whole <em>career</em> in banking.</li><li>Teaching is a good <em>career</em> if you can live with the pay.</li><li>Both <em>careers</em> took off after they moved west.</li></ol></div></main>
+<button class="themebtn" id="themeBtn">Dark</button>
+<script>
+const tb=document.getElementById('themeBtn');
+function setTheme(x){document.documentElement.dataset.theme=x;tb.textContent=x==='dark'?'Light':'Dark';
+ try{localStorage.setItem('site-theme',x)}catch(e){}}
+tb.onclick=()=>setTheme(document.documentElement.dataset.theme==='dark'?'light':'dark');
+try{const s=localStorage.getItem('site-theme');
+ setTheme(s||(matchMedia('(prefers-color-scheme: dark)').matches?'dark':'light'))}catch(e){setTheme('light')}
+</script></body></html>

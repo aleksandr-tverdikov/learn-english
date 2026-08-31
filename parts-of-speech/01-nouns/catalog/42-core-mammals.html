@@ -1,0 +1,651 @@
+<!DOCTYPE html>
+<html lang="en"><head>
+<meta charset="utf-8"><meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Core vocabulary: mammals</title>
+<style>
+:root{--bg:#faf9f7;--surface:#fff;--surface2:#f2f0ec;--border:#e2ded6;--text:#1a1815;
+--dim:#5f594f;--faint:#8a8377;--accent:#8a5a3b;--measure:72ch}
+@media(prefers-color-scheme:dark){:root{--bg:#14140f;--surface:#1d1d17;--surface2:#25251d;
+--border:#33332a;--text:#eeeae1;--dim:#a8a293;--faint:#7d776b;--accent:#d09b72}}
+:root[data-theme=dark]{--bg:#14140f;--surface:#1d1d17;--surface2:#25251d;--border:#33332a;
+--text:#eeeae1;--dim:#a8a293;--faint:#7d776b;--accent:#d09b72}
+:root[data-theme=light]{--bg:#faf9f7;--surface:#fff;--surface2:#f2f0ec;--border:#e2ded6;
+--text:#1a1815;--dim:#5f594f;--faint:#8a8377;--accent:#8a5a3b}
+*{box-sizing:border-box}
+body{margin:0;background:var(--bg);color:var(--text);
+font:17px/1.72 ui-serif,Georgia,"Iowan Old Style",Palatino,serif;-webkit-font-smoothing:antialiased}
+.wrap{max-width:min(var(--measure),100%);margin:0 auto;padding:0 22px}
+nav.crumb{border-bottom:1px solid var(--border);padding:13px 0;font-size:13.5px;
+font-family:-apple-system,BlinkMacSystemFont,"Segoe UI",sans-serif;position:sticky;top:0;background:var(--bg);z-index:20}
+nav.crumb .wrap{max-width:none;display:flex;gap:9px;align-items:center;flex-wrap:wrap}
+nav.crumb a{color:var(--dim);text-decoration:none}
+nav.crumb a:hover{color:var(--accent)}
+nav.crumb .sep{color:var(--faint)}
+main{padding:8px 0 80px}
+h1{font-size:clamp(28px,5vw,38px);line-height:1.15;letter-spacing:-.015em;margin:34px 0 18px}
+h2{font-size:25px;margin:46px 0 14px;letter-spacing:-.01em;padding-bottom:7px;border-bottom:1px solid var(--border)}
+h3{font-size:19px;margin:34px 0 10px;color:var(--accent)}
+h4{font-size:16px;margin:24px 0 8px;font-family:-apple-system,sans-serif}
+p{margin:0 0 16px}
+a{color:var(--accent)}
+.hash{opacity:0;margin-left:8px;font-weight:400;font-size:.65em;text-decoration:none;color:var(--faint)}
+h2:hover .hash,h3:hover .hash{opacity:1}
+blockquote{margin:0 0 20px;padding:14px 18px;background:var(--surface2);
+border-left:3px solid var(--accent);border-radius:0 8px 8px 0}
+blockquote p:last-child{margin-bottom:0}
+ol,ul{margin:0 0 18px;padding-left:26px}
+li{margin-bottom:8px}
+li>ul,li>ol{margin:8px 0 0}
+code{font-family:ui-monospace,SFMono-Regular,Menlo,Consolas,monospace;font-size:.87em;
+background:var(--surface2);padding:1px 5px;border-radius:4px}
+pre{background:var(--surface2);border:1px solid var(--border);border-radius:9px;
+padding:15px 17px;overflow-x:auto;margin:0 0 20px}
+pre code{background:none;padding:0;font-size:13px;line-height:1.6}
+.tw{overflow-x:auto;margin:0 0 22px;border:1px solid var(--border);border-radius:9px}
+table{border-collapse:collapse;width:100%;font-size:15px;
+font-family:-apple-system,BlinkMacSystemFont,"Segoe UI",sans-serif}
+th,td{padding:10px 14px;border-bottom:1px solid var(--border);vertical-align:top}
+th{background:var(--surface2);font-size:12px;text-transform:uppercase;
+letter-spacing:.06em;color:var(--dim);font-weight:700;white-space:nowrap}
+tbody tr:last-child td{border-bottom:none}
+hr{border:none;border-top:1px solid var(--border);margin:38px 0}
+details{background:var(--surface2);border:1px solid var(--border);border-radius:9px;
+padding:13px 17px;margin:0 0 20px}
+summary{cursor:pointer;font-weight:600;font-family:-apple-system,sans-serif;font-size:15px}
+details[open] summary{margin-bottom:12px}
+del{color:var(--faint)}
+dl.fields{margin:0 0 20px;padding:0}
+dl.fields dt{font-family:-apple-system,BlinkMacSystemFont,"Segoe UI",sans-serif;
+font-size:11px;letter-spacing:.11em;text-transform:uppercase;color:var(--faint);
+font-weight:700;margin:14px 0 4px}
+dl.fields dt:first-child{margin-top:0}
+dl.fields dd{margin:0;font-size:16px;color:var(--dim);line-height:1.62}
+dl.fields dd em{color:var(--text)}
+dl.fields dt.ru{color:var(--accent)}
+dl.fields dd strong{color:var(--text)}
+.toc{background:var(--surface2);border:1px solid var(--border);border-radius:10px;
+padding:16px 20px;margin:26px 0 34px;font-family:-apple-system,sans-serif;font-size:14px}
+.toc b{display:block;font-size:11px;letter-spacing:.12em;text-transform:uppercase;
+color:var(--faint);margin-bottom:9px}
+.toc a{display:block;padding:3px 0;color:var(--dim);text-decoration:none}
+.toc a:hover{color:var(--accent)}
+.themebtn{position:fixed;right:18px;bottom:18px;z-index:60;font-family:-apple-system,sans-serif;
+font-size:12.5px;font-weight:600;cursor:pointer;background:var(--surface);border:1px solid var(--border);
+border-radius:99px;padding:9px 16px;color:var(--text)}
+@media(max-width:600px){body{font-size:16px}.wrap{padding:0 17px}}
+</style></head><body>
+<nav class="crumb"><div class="wrap"><a href="../../../index.html">Learn English</a><span class="sep">/</span><a href="../../README.html">Parts of speech</a><span class="sep">/</span><a href="../README.html">01-nouns</a><span class="sep">/</span><span>catalog</span></div></nav>
+<main><div class="wrap"><h1 id="core-vocabulary-mammals">Core vocabulary: mammals<a class="hash" href="#core-vocabulary-mammals" aria-label="link">#</a></h1>
+<blockquote><p>The everyday nouns of mammals — pronunciation, Russian, plural, and three examples each.</p></blockquote>
+<p><a href="../README.html">← The grammar of nouns</a> &middot; <a href="README.html">All groups</a></p>
+<p>Part of the <strong>core-vocabulary tier</strong>. Groups 1–23 cover the nouns that misbehave; this tier covers the nouns you simply need to know. Entries are deliberately lean, because a regular countable noun has no grammatical story to tell. A <strong>Contrast</strong> line appears only where the word hides a genuine trap.</p>
+<p>Where a word in this field <em>does</em> misbehave, it lives in the grammar tier instead and is not repeated here.</p>
+<hr>
+<h3 id="dog">dog<a class="hash" href="#dog" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/dɔːɡ/ &middot; <em>DAWG</em></dd><dt>Русский</dt><dd>собака, пёс</dd><dt>Plural</dt><dd><em>dogs</em></dd><dt>Countability</dt><dd>countable</dd></dl>
+<p>A domestic animal kept as a pet or a working animal, related to the wolf.</p>
+<ol><li>Our <em>dog</em> barks at every delivery truck.</li><li>She walks her <em>dog</em> before work every morning.</li><li>Two <em>dogs</em> got loose in the neighborhood last night.</li></ol>
+<hr>
+<h3 id="cat">cat<a class="hash" href="#cat" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/kæt/ &middot; <em>KAT</em></dd><dt>Русский</dt><dd>кошка, кот</dd><dt>Plural</dt><dd><em>cats</em></dd><dt>Countability</dt><dd>countable</dd></dl>
+<p>A small furry animal commonly kept as a household pet.</p>
+<ol><li>The <em>cat</em> knocked my glass off the counter.</li><li>He's allergic to <em>cats</em>.</li><li>Our <em>cat</em> sleeps on the warm laundry.</li></ol>
+<hr>
+<h3 id="horse">horse<a class="hash" href="#horse" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/hɔːrs/ &middot; <em>HORS</em></dd><dt>Русский</dt><dd>лошадь, конь</dd><dt>Plural</dt><dd><em>horses</em></dd><dt>Countability</dt><dd>countable</dd><dt>Contrast</dt><dd>Homophone of hoarse (having a rough voice) — same sound, different word.</dd></dl>
+<p>A large hoofed animal that people ride and use to pull loads.</p>
+<ol><li>She's been riding <em>horses</em> since she was six.</li><li>The <em>horse</em> wouldn't go anywhere near the trailer.</li><li>They keep three <em>horses</em> on ten acres.</li></ol>
+<hr>
+<h3 id="cow">cow<a class="hash" href="#cow" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/kaʊ/ &middot; <em>KOW</em></dd><dt>Русский</dt><dd>корова</dd><dt>Plural</dt><dd><em>cows</em></dd><dt>Countability</dt><dd>countable</dd></dl>
+<p>A full-grown female of the cattle, kept for milk and beef.</p>
+<ol><li>The <em>cows</em> were already back in the barn.</li><li>A <em>cow</em> can drink thirty gallons of water a day.</li><li>He grew up milking <em>cows</em> before school.</li></ol>
+<hr>
+<h3 id="bull">bull<a class="hash" href="#bull" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/bʊl/ &middot; <em>BUUL</em></dd><dt>Русский</dt><dd>бык</dd><dt>Plural</dt><dd><em>bulls</em></dd><dt>Countability</dt><dd>countable</dd></dl>
+<p>An adult male of the cattle, usually kept for breeding.</p>
+<ol><li>Don't cut across that field — there's a <em>bull</em> in it.</li><li>The <em>bull</em> got out through a broken gate.</li><li>They sold two <em>bulls</em> at the auction.</li></ol>
+<hr>
+<h3 id="pig">pig<a class="hash" href="#pig" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/pɪɡ/ &middot; <em>PIG</em></dd><dt>Русский</dt><dd>свинья</dd><dt>Plural</dt><dd><em>pigs</em></dd><dt>Countability</dt><dd>countable</dd></dl>
+<p>A farm animal with a broad snout, raised for pork.</p>
+<ol><li>The <em>pigs</em> got into the feed shed again.</li><li>He raises <em>pigs</em> on a small farm upstate.</li><li>A <em>pig</em> is a lot smarter than most people think.</li></ol>
+<hr>
+<h3 id="goat">goat<a class="hash" href="#goat" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/ɡoʊt/ &middot; <em>GOHT</em></dd><dt>Русский</dt><dd>коза, козёл</dd><dt>Plural</dt><dd><em>goats</em></dd><dt>Countability</dt><dd>countable</dd></dl>
+<p>A horned farm animal kept for milk, meat, and wool.</p>
+<ol><li>The <em>goats</em> ate half the garden.</li><li>She milks the <em>goat</em> twice a day.</li><li>A neighbor's <em>goats</em> keep the brush down.</li></ol>
+<hr>
+<h3 id="donkey">donkey<a class="hash" href="#donkey" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/ˈdɑːŋki/ &middot; <em>DAHNG-kee</em></dd><dt>Русский</dt><dd>осёл</dd><dt>Plural</dt><dd><em>donkeys</em></dd><dt>Countability</dt><dd>countable</dd></dl>
+<p>A small long-eared relative of the horse, used to carry loads.</p>
+<ol><li>A <em>donkey</em> was tied up outside the store.</li><li><em>Donkeys</em> are calmer than people expect.</li><li>They use a <em>donkey</em> to pack supplies up the trail.</li></ol>
+<hr>
+<h3 id="mule">mule<a class="hash" href="#mule" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/mjuːl/ &middot; <em>MYOOL</em></dd><dt>Русский</dt><dd>мул</dd><dt>Plural</dt><dd><em>mules</em></dd><dt>Countability</dt><dd>countable</dd></dl>
+<p>The offspring of a donkey and a horse, bred for hauling.</p>
+<ol><li>The outfitters run <em>mules</em> down into the canyon.</li><li>That <em>mule</em> carried sixty pounds all day.</li><li>A <em>mule</em> is stronger than it looks.</li></ol>
+<hr>
+<h3 id="pony">pony<a class="hash" href="#pony" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/ˈpoʊni/ &middot; <em>POH-nee</em></dd><dt>Русский</dt><dd>пони</dd><dt>Plural</dt><dd><em>ponies</em></dd><dt>Countability</dt><dd>countable</dd><dt>Contrast</dt><dd>A pony is a small adult horse, not a baby one — a young horse is a foal.</dd></dl>
+<p>A small breed of horse, short even when fully grown.</p>
+<ol><li>She got a <em>pony</em> for her eighth birthday.</li><li>The kids took turns on the <em>pony</em>.</li><li>Three <em>ponies</em> were grazing by the fence.</li></ol>
+<hr>
+<h3 id="mare">mare<a class="hash" href="#mare" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/mer/ &middot; <em>MAIR</em></dd><dt>Русский</dt><dd>кобыла</dd><dt>Plural</dt><dd><em>mares</em></dd><dt>Countability</dt><dd>countable</dd></dl>
+<p>An adult female horse.</p>
+<ol><li>The gray <em>mare</em> is due to foal in April.</li><li>He bought the <em>mare</em> at a spring sale.</li><li>Both <em>mares</em> came in from the field on their own.</li></ol>
+<hr>
+<h3 id="stallion">stallion<a class="hash" href="#stallion" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/ˈstæljən/ &middot; <em>STAL-yuhn</em></dd><dt>Русский</dt><dd>жеребец</dd><dt>Plural</dt><dd><em>stallions</em></dd><dt>Countability</dt><dd>countable</dd></dl>
+<p>An adult male horse kept for breeding.</p>
+<ol><li>The <em>stallion</em> is kept in a separate paddock.</li><li>They flew the <em>stallion</em> in from Kentucky.</li><li><em>Stallions</em> need experienced handling.</li></ol>
+<hr>
+<h3 id="ram">ram<a class="hash" href="#ram" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/ræm/ &middot; <em>RAM</em></dd><dt>Русский</dt><dd>баран</dd><dt>Plural</dt><dd><em>rams</em></dd><dt>Countability</dt><dd>countable</dd></dl>
+<p>An adult male sheep.</p>
+<ol><li>The <em>ram</em> butted the gate until it opened.</li><li>He keeps one <em>ram</em> with about forty ewes.</li><li>Two <em>rams</em> were fighting on the hillside.</li></ol>
+<hr>
+<h3 id="ewe">ewe<a class="hash" href="#ewe" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/juː/ &middot; <em>YOO</em></dd><dt>Русский</dt><dd>овца (самка)</dd><dt>Plural</dt><dd><em>ewes</em></dd><dt>Countability</dt><dd>countable</dd><dt>Contrast</dt><dd>Pronounced exactly like you — the e and the w are silent.</dd></dl>
+<p>An adult female sheep.</p>
+<ol><li>Each <em>ewe</em> had twin lambs this spring.</li><li>The <em>ewes</em> are kept in the lower pasture.</li><li>That <em>ewe</em> won't let anyone near her lamb.</li></ol>
+<hr>
+<h3 id="sow">sow<a class="hash" href="#sow" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/saʊ/ &middot; <em>SOW</em></dd><dt>Русский</dt><dd>свиноматка, свинья (самка)</dd><dt>Plural</dt><dd><em>sows</em></dd><dt>Countability</dt><dd>countable</dd><dt>Contrast</dt><dd>The animal is SOW, rhyming with now; the verb sow (to plant seed) is SOH, rhyming with go.</dd></dl>
+<p>An adult female pig, especially one kept for breeding.</p>
+<ol><li>The <em>sow</em> had a litter of eleven.</li><li>They moved the <em>sow</em> into a clean pen.</li><li>Two <em>sows</em> were rooting around in the mud.</li></ol>
+<hr>
+<h3 id="camel">camel<a class="hash" href="#camel" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/ˈkæməl/ &middot; <em>KAM-uhl</em></dd><dt>Русский</dt><dd>верблюд</dd><dt>Plural</dt><dd><em>camels</em></dd><dt>Countability</dt><dd>countable</dd></dl>
+<p>A large desert animal with one or two humps on its back.</p>
+<ol><li>We rode <em>camels</em> out to the dunes.</li><li>A <em>camel</em> can go for days without drinking.</li><li>The <em>camel</em> knelt down so we could climb on.</li></ol>
+<hr>
+<h3 id="llama">llama<a class="hash" href="#llama" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/ˈlɑːmə/ &middot; <em>LAH-muh</em></dd><dt>Русский</dt><dd>лама</dd><dt>Plural</dt><dd><em>llamas</em></dd><dt>Countability</dt><dd>countable</dd><dt>Contrast</dt><dd>The double l is a single /l/ sound: LAH-muh.</dd></dl>
+<p>A South American pack animal with a long neck and thick wool.</p>
+<ol><li>They keep two <em>llamas</em> to guard the sheep.</li><li>A <em>llama</em> will spit at you if you crowd it.</li><li>The <em>llamas</em> followed us the whole way up.</li></ol>
+<hr>
+<h3 id="alpaca">alpaca<a class="hash" href="#alpaca" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/ælˈpækə/ &middot; <em>al-PAK-uh</em></dd><dt>Русский</dt><dd>альпака</dd><dt>Plural</dt><dd><em>alpacas</em></dd><dt>Countability</dt><dd>countable</dd></dl>
+<p>A small South American animal related to the llama, raised for its soft wool.</p>
+<ol><li>The farm keeps about thirty <em>alpacas</em>.</li><li>An <em>alpaca</em> is smaller and softer than a llama.</li><li>She sells yarn from her own <em>alpacas</em>.</li></ol>
+<hr>
+<h3 id="yak">yak<a class="hash" href="#yak" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/jæk/ &middot; <em>YAK</em></dd><dt>Русский</dt><dd>як</dd><dt>Plural</dt><dd><em>yaks</em></dd><dt>Countability</dt><dd>countable</dd></dl>
+<p>A long-haired ox of the Central Asian mountains.</p>
+<ol><li><em>Yaks</em> carried our gear over the pass.</li><li>A <em>yak</em> handles thin air far better than a horse.</li><li>We passed a herd of <em>yaks</em> outside the village.</li></ol>
+<hr>
+<h3 id="hamster">hamster<a class="hash" href="#hamster" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/ˈhæmstər/ &middot; <em>HAM-stur</em></dd><dt>Русский</dt><dd>хомяк</dd><dt>Plural</dt><dd><em>hamsters</em></dd><dt>Countability</dt><dd>countable</dd></dl>
+<p>A small pet rodent with pouched cheeks and a very short tail.</p>
+<ol><li>Her <em>hamster</em> runs on its wheel all night.</li><li>We're watching the neighbor's <em>hamster</em> this week.</li><li><em>Hamsters</em> stuff their cheeks until they're round.</li></ol>
+<hr>
+<h3 id="guinea-pig">guinea pig<a class="hash" href="#guinea-pig" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/ˈɡɪni pɪɡ/ &middot; <em>GIN-ee pig</em></dd><dt>Русский</dt><dd>морская свинка</dd><dt>Plural</dt><dd><em>guinea pigs</em></dd><dt>Countability</dt><dd>countable</dd><dt>Contrast</dt><dd>Guinea is said GIN-ee, with a silent u.</dd></dl>
+<p>A small tailless pet rodent with a round body and short legs.</p>
+<ol><li>The classroom keeps two <em>guinea pigs</em>.</li><li>A <em>guinea pig</em> squeaks the second it hears the fridge open.</li><li>He cleans the <em>guinea pig</em> cage on Sundays.</li></ol>
+<hr>
+<h3 id="ferret">ferret<a class="hash" href="#ferret" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/ˈferɪt/ &middot; <em>FAIR-it</em></dd><dt>Русский</dt><dd>хорёк</dd><dt>Plural</dt><dd><em>ferrets</em></dd><dt>Countability</dt><dd>countable</dd></dl>
+<p>A long slender animal of the weasel family, often kept as a pet.</p>
+<ol><li>His <em>ferret</em> sleeps most of the day.</li><li><em>Ferrets</em> can squeeze through amazingly small gaps.</li><li>She lets the <em>ferret</em> out to run around the room.</li></ol>
+<hr>
+<h3 id="hound">hound<a class="hash" href="#hound" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/haʊnd/ &middot; <em>HOWND</em></dd><dt>Русский</dt><dd>гончая, охотничья собака</dd><dt>Plural</dt><dd><em>hounds</em></dd><dt>Countability</dt><dd>countable</dd></dl>
+<p>A dog bred for hunting by scent or by sight.</p>
+<ol><li>The <em>hounds</em> picked up the trail right away.</li><li>He keeps a couple of <em>hounds</em> for rabbit hunting.</li><li>That <em>hound</em> has the saddest face I've ever seen.</li></ol>
+<hr>
+<h3 id="bunny">bunny<a class="hash" href="#bunny" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/ˈbʌni/ &middot; <em>BUN-ee</em></dd><dt>Русский</dt><dd>кролик, зайчик</dd><dt>Plural</dt><dd><em>bunnies</em></dd><dt>Countability</dt><dd>countable</dd></dl>
+<p>A rabbit, especially a young one — the affectionate everyday word.</p>
+<ol><li>The kids saw a <em>bunny</em> under the porch.</li><li>She drew a <em>bunny</em> on the birthday card.</li><li>There were three <em>bunnies</em> in the nest.</li></ol>
+<hr>
+<h3 id="pet">pet<a class="hash" href="#pet" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/pet/ &middot; <em>PET</em></dd><dt>Русский</dt><dd>домашнее животное, питомец</dd><dt>Plural</dt><dd><em>pets</em></dd><dt>Countability</dt><dd>countable</dd></dl>
+<p>An animal kept at home for company.</p>
+<ol><li>The building doesn't allow <em>pets</em>.</li><li>Their first <em>pet</em> was a rescue cat.</li><li>He talks to his <em>pet</em> like it's a coworker.</li></ol>
+<hr>
+<h3 id="cattle">cattle<a class="hash" href="#cattle" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/ˈkætəl/ &middot; <em>KAT-uhl</em></dd><dt>Русский</dt><dd>крупный рогатый скот</dd><dt>Countability</dt><dd>uncountable</dd><dt>Contrast</dt><dd>Always plural — no a cattle and no cattles; a single animal is a cow, a bull, or a head of cattle.</dd></dl>
+<p>Cows and bulls kept together as farm animals.</p>
+<ol><li>The <em>cattle</em> were moved to higher ground.</li><li>He runs about two hundred head of <em>cattle</em>.</li><li><em>Cattle</em> graze that valley all summer.</li></ol>
+<hr>
+<h3 id="livestock">livestock<a class="hash" href="#livestock" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/ˈlaɪvstɑːk/ &middot; <em>LYVE-stahk</em></dd><dt>Русский</dt><dd>скот, домашний скот</dd><dt>Countability</dt><dd>uncountable</dd><dt>Contrast</dt><dd>No plural form — never livestocks.</dd></dl>
+<p>Farm animals raised for food, work, or sale.</p>
+<ol><li>The storm killed <em>livestock</em> across three counties.</li><li>Feed prices hit anyone who raises <em>livestock</em>.</li><li>They insure the <em>livestock</em> every year.</li></ol>
+<hr>
+<h3 id="bear">bear<a class="hash" href="#bear" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/ber/ &middot; <em>BAIR</em></dd><dt>Русский</dt><dd>медведь</dd><dt>Plural</dt><dd><em>bears</em></dd><dt>Countability</dt><dd>countable</dd><dt>Contrast</dt><dd>Homophone of bare (uncovered).</dd></dl>
+<p>A large heavy wild animal with thick fur and strong claws.</p>
+<ol><li>A <em>bear</em> went through our cooler overnight.</li><li><em>Bears</em> come down to the river when the salmon run.</li><li>Hang your food where the <em>bears</em> can't reach it.</li></ol>
+<hr>
+<h3 id="lion">lion<a class="hash" href="#lion" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/ˈlaɪrn/ &middot; <em>LY-uhn</em></dd><dt>Русский</dt><dd>лев</dd><dt>Plural</dt><dd><em>lions</em></dd><dt>Countability</dt><dd>countable</dd></dl>
+<p>A large wild cat of Africa; the male grows a heavy mane.</p>
+<ol><li>We heard a <em>lion</em> somewhere out in the dark.</li><li><em>Lions</em> hunt mostly at night.</li><li>The <em>lion</em> barely looked up at us.</li></ol>
+<hr>
+<h3 id="lioness">lioness<a class="hash" href="#lioness" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/ˈlaɪrnəs/ &middot; <em>LY-uh-nis</em></dd><dt>Русский</dt><dd>львица</dd><dt>Plural</dt><dd><em>lionesses</em></dd><dt>Countability</dt><dd>countable</dd></dl>
+<p>A female lion.</p>
+<ol><li>The <em>lioness</em> does most of the hunting.</li><li>Two <em>lionesses</em> were lying in the shade.</li><li>A <em>lioness</em> will take on anything that comes near her cubs.</li></ol>
+<hr>
+<h3 id="tiger">tiger<a class="hash" href="#tiger" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/ˈtaɪɡər/ &middot; <em>TY-gur</em></dd><dt>Русский</dt><dd>тигр</dd><dt>Plural</dt><dd><em>tigers</em></dd><dt>Countability</dt><dd>countable</dd></dl>
+<p>A big striped wild cat from Asia.</p>
+<ol><li>There are more <em>tigers</em> in captivity than in the wild.</li><li>The <em>tiger</em> paced along the fence.</li><li>A <em>tiger</em> can bring down an animal twice its size.</li></ol>
+<hr>
+<h3 id="leopard">leopard<a class="hash" href="#leopard" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/ˈlepərd/ &middot; <em>LEP-urd</em></dd><dt>Русский</dt><dd>леопард</dd><dt>Plural</dt><dd><em>leopards</em></dd><dt>Countability</dt><dd>countable</dd><dt>Contrast</dt><dd>Two syllables, LEP-urd — not lee-oh-pard.</dd></dl>
+<p>A large spotted wild cat of Africa and Asia.</p>
+<ol><li>A <em>leopard</em> had dragged the kill up into a tree.</li><li><em>Leopards</em> are almost impossible to spot.</li><li>The <em>leopard</em> moved without making a sound.</li></ol>
+<hr>
+<h3 id="cheetah">cheetah<a class="hash" href="#cheetah" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/ˈtʃiːtə/ &middot; <em>CHEE-tuh</em></dd><dt>Русский</dt><dd>гепард</dd><dt>Plural</dt><dd><em>cheetahs</em></dd><dt>Countability</dt><dd>countable</dd></dl>
+<p>A slender spotted cat, the fastest animal on land.</p>
+<ol><li>A <em>cheetah</em> can hit sixty miles an hour.</li><li>We watched a <em>cheetah</em> cross the road ahead of us.</li><li><em>Cheetahs</em> tire out after about half a minute.</li></ol>
+<hr>
+<h3 id="jaguar">jaguar<a class="hash" href="#jaguar" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/ˈdʒæɡwɑːr/ &middot; <em>JAG-wahr</em></dd><dt>Русский</dt><dd>ягуар</dd><dt>Plural</dt><dd><em>jaguars</em></dd><dt>Countability</dt><dd>countable</dd><dt>Contrast</dt><dd>Americans say JAG-wahr; the British say JAG-yoo-ur.</dd></dl>
+<p>A powerful spotted cat of Central and South America.</p>
+<ol><li>A <em>jaguar</em> turned up on a trail camera.</li><li><em>Jaguars</em> bite hard enough to crack bone.</li><li>The <em>jaguar</em> swam straight across the river.</li></ol>
+<hr>
+<h3 id="cougar">cougar<a class="hash" href="#cougar" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/ˈkuːɡər/ &middot; <em>KOO-gur</em></dd><dt>Русский</dt><dd>пума, кугуар</dd><dt>Plural</dt><dd><em>cougars</em></dd><dt>Countability</dt><dd>countable</dd><dt>Contrast</dt><dd>The same animal as a mountain lion or a puma — all three names are used in the US.</dd></dl>
+<p>A large tan wild cat of the Americas.</p>
+<ol><li>A <em>cougar</em> was spotted near the trailhead.</li><li><em>Cougars</em> mostly stay away from people.</li><li>He's lived here thirty years and never seen a <em>cougar</em>.</li></ol>
+<hr>
+<h3 id="lynx">lynx<a class="hash" href="#lynx" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/lɪŋks/ &middot; <em>LINKS</em></dd><dt>Русский</dt><dd>рысь</dd><dt>Plural</dt><dd><em>lynxes</em></dd><dt>Countability</dt><dd>countable</dd><dt>Contrast</dt><dd>Sounds exactly like links.</dd></dl>
+<p>A short-tailed wild cat with tufted ears and very wide paws.</p>
+<ol><li>A <em>lynx</em> crossed the snowmobile track.</li><li><em>Lynxes</em> follow the hares north.</li><li>The <em>lynx</em> stood still and stared at us.</li></ol>
+<hr>
+<h3 id="hyena">hyena<a class="hash" href="#hyena" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/haɪˈiːnə/ &middot; <em>hy-EE-nuh</em></dd><dt>Русский</dt><dd>гиена</dd><dt>Plural</dt><dd><em>hyenas</em></dd><dt>Countability</dt><dd>countable</dd></dl>
+<p>A dog-like African animal that hunts and scavenges in groups.</p>
+<ol><li><em>Hyenas</em> kept us awake most of the night.</li><li>A <em>hyena</em> dragged the bone off into the grass.</li><li>The <em>hyena</em> has a bite that can crush bone.</li></ol>
+<hr>
+<h3 id="jackal">jackal<a class="hash" href="#jackal" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/ˈdʒækəl/ &middot; <em>JAK-uhl</em></dd><dt>Русский</dt><dd>шакал</dd><dt>Plural</dt><dd><em>jackals</em></dd><dt>Countability</dt><dd>countable</dd></dl>
+<p>A small wild dog of Africa and Asia.</p>
+<ol><li><em>Jackals</em> were calling across the valley.</li><li>A <em>jackal</em> slipped past the camp before dawn.</li><li>The <em>jackal</em> waited for the lions to finish.</li></ol>
+<hr>
+<h3 id="coyote">coyote<a class="hash" href="#coyote" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/kaɪˈoʊti/ &middot; <em>ky-OH-tee</em></dd><dt>Русский</dt><dd>койот</dd><dt>Plural</dt><dd><em>coyotes</em></dd><dt>Countability</dt><dd>countable</dd><dt>Contrast</dt><dd>Two American pronunciations: ky-OH-tee, and KY-oht mostly in the West.</dd></dl>
+<p>A wild dog of North America, smaller than a wolf.</p>
+<ol><li><em>Coyotes</em> were howling behind the house.</li><li>Keep the cat in — there are <em>coyotes</em> around.</li><li>A <em>coyote</em> trotted right across the road.</li></ol>
+<hr>
+<h3 id="fox">fox<a class="hash" href="#fox" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/fɑːks/ &middot; <em>FAHKS</em></dd><dt>Русский</dt><dd>лиса, лисица</dd><dt>Plural</dt><dd><em>foxes</em></dd><dt>Countability</dt><dd>countable</dd></dl>
+<p>A small wild dog with a pointed face and a bushy tail.</p>
+<ol><li>A <em>fox</em> got into the chicken coop.</li><li>We see <em>foxes</em> in the yard all the time now.</li><li>The <em>fox</em> froze, then bolted.</li></ol>
+<hr>
+<h3 id="hare">hare<a class="hash" href="#hare" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/her/ &middot; <em>HAIR</em></dd><dt>Русский</dt><dd>заяц</dd><dt>Plural</dt><dd><em>hares</em></dd><dt>Countability</dt><dd>countable</dd><dt>Contrast</dt><dd>Homophone of hair; and a hare is bigger and faster than a rabbit, and lives above ground.</dd></dl>
+<p>A long-eared animal like a large rabbit, with longer legs and no burrow.</p>
+<ol><li>A <em>hare</em> took off across the field.</li><li><em>Hares</em> turn white here in the winter.</li><li>The dog chased a <em>hare</em> halfway to the road.</li></ol>
+<hr>
+<h3 id="elephant">elephant<a class="hash" href="#elephant" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/ˈeləfənt/ &middot; <em>EL-uh-fuhnt</em></dd><dt>Русский</dt><dd>слон</dd><dt>Plural</dt><dd><em>elephants</em></dd><dt>Countability</dt><dd>countable</dd></dl>
+<p>The largest land animal, with a long trunk and thick gray skin.</p>
+<ol><li>The <em>elephants</em> came down to the water at dusk.</li><li>An <em>elephant</em> can hear sounds we can't.</li><li>We watched a young <em>elephant</em> stick close to its mother.</li></ol>
+<hr>
+<h3 id="rhinoceros">rhinoceros<a class="hash" href="#rhinoceros" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/raɪˈnɑːsərəs/ &middot; <em>ry-NAH-sur-uhs</em></dd><dt>Русский</dt><dd>носорог</dd><dt>Plural</dt><dd><em>rhinoceroses</em></dd><dt>Countability</dt><dd>countable</dd><dt>Contrast</dt><dd>Stress the second syllable, and the h after the r is silent.</dd></dl>
+<p>A huge thick-skinned animal with one or two horns on its nose.</p>
+<ol><li>There were two <em>rhinoceroses</em> at the water hole.</li><li>A <em>rhinoceros</em> sees poorly but hears everything.</li><li>The <em>rhinoceros</em> turned and walked off.</li></ol>
+<hr>
+<h3 id="zebra">zebra<a class="hash" href="#zebra" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/ˈziːbrə/ &middot; <em>ZEE-bruh</em></dd><dt>Русский</dt><dd>зебра</dd><dt>Plural</dt><dd><em>zebras</em></dd><dt>Countability</dt><dd>countable</dd><dt>Contrast</dt><dd>Americans say ZEE-bruh; the British say ZEB-ruh.</dd></dl>
+<p>An African animal like a horse, covered in black and white stripes.</p>
+<ol><li>A herd of <em>zebras</em> crossed right in front of us.</li><li>No two <em>zebras</em> have the same stripes.</li><li>The <em>zebra</em> wouldn't let the truck get any closer.</li></ol>
+<hr>
+<h3 id="gazelle">gazelle<a class="hash" href="#gazelle" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/ɡəˈzel/ &middot; <em>guh-ZEL</em></dd><dt>Русский</dt><dd>газель</dd><dt>Plural</dt><dd><em>gazelles</em></dd><dt>Countability</dt><dd>countable</dd></dl>
+<p>A small graceful antelope of Africa and Asia.</p>
+<ol><li>A herd of <em>gazelles</em> scattered at the sound.</li><li>The <em>gazelle</em> bounded away in long jumps.</li><li><em>Gazelles</em> can outrun almost everything but a cheetah.</li></ol>
+<hr>
+<h3 id="monkey">monkey<a class="hash" href="#monkey" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/ˈmʌŋki/ &middot; <em>MUNG-kee</em></dd><dt>Русский</dt><dd>обезьяна (с хвостом)</dd><dt>Plural</dt><dd><em>monkeys</em></dd><dt>Countability</dt><dd>countable</dd><dt>Contrast</dt><dd>Monkeys have tails; apes such as gorillas and chimps do not — English keeps the two words apart.</dd></dl>
+<p>A small tree-climbing primate with a long tail.</p>
+<ol><li><em>Monkeys</em> were going through the trash cans.</li><li>A <em>monkey</em> grabbed the crackers right out of my hand.</li><li>Don't feed the <em>monkeys</em> at the temple.</li></ol>
+<hr>
+<h3 id="ape">ape<a class="hash" href="#ape" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/eɪp/ &middot; <em>AYP</em></dd><dt>Русский</dt><dd>человекообразная обезьяна</dd><dt>Plural</dt><dd><em>apes</em></dd><dt>Countability</dt><dd>countable</dd><dt>Contrast</dt><dd>Russian обезьяна covers both, but in English an ape has no tail and a monkey does.</dd></dl>
+<p>A large tailless primate such as a gorilla or a chimpanzee.</p>
+<ol><li>Gorillas and chimps are <em>apes</em>, not monkeys.</li><li>The <em>apes</em> have a whole hillside to themselves.</li><li>An <em>ape</em> can learn hundreds of signs.</li></ol>
+<hr>
+<h3 id="gorilla">gorilla<a class="hash" href="#gorilla" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/ɡəˈrɪlə/ &middot; <em>guh-RIL-uh</em></dd><dt>Русский</dt><dd>горилла</dd><dt>Plural</dt><dd><em>gorillas</em></dd><dt>Countability</dt><dd>countable</dd><dt>Contrast</dt><dd>Sounds just like guerrilla (an irregular fighter) — same pronunciation, different spelling.</dd></dl>
+<p>The largest ape, a heavy black-haired animal from central Africa.</p>
+<ol><li>A silverback <em>gorilla</em> came out of the trees.</li><li><em>Gorillas</em> eat mostly leaves and stems.</li><li>The <em>gorilla</em> sat down and ignored us completely.</li></ol>
+<hr>
+<h3 id="chimpanzee">chimpanzee<a class="hash" href="#chimpanzee" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/ˌtʃɪmpænˈziː/ &middot; <em>chim-pan-ZEE</em></dd><dt>Русский</dt><dd>шимпанзе</dd><dt>Plural</dt><dd><em>chimpanzees</em></dd><dt>Countability</dt><dd>countable</dd><dt>Contrast</dt><dd>Stress the last syllable: chim-pan-ZEE.</dd></dl>
+<p>A small African ape, the closest animal relative to humans.</p>
+<ol><li><em>Chimpanzees</em> use sticks to fish for termites.</li><li>A young <em>chimpanzee</em> was climbing on the ropes.</li><li>The <em>chimpanzee</em> recognized herself in the mirror.</li></ol>
+<hr>
+<h3 id="baboon">baboon<a class="hash" href="#baboon" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/bæˈbuːn/ &middot; <em>ba-BOON</em></dd><dt>Русский</dt><dd>бабуин, павиан</dd><dt>Plural</dt><dd><em>baboons</em></dd><dt>Countability</dt><dd>countable</dd></dl>
+<p>A large ground-living monkey with a long doglike face.</p>
+<ol><li><em>Baboons</em> raided the camp kitchen.</li><li>A <em>baboon</em> was sitting on the hood of the truck.</li><li>Roll your windows up or the <em>baboons</em> will get in.</li></ol>
+<hr>
+<h3 id="orangutan">orangutan<a class="hash" href="#orangutan" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/əˈræŋətæn/ &middot; <em>uh-RANG-uh-tan</em></dd><dt>Русский</dt><dd>орангутан</dd><dt>Plural</dt><dd><em>orangutans</em></dd><dt>Countability</dt><dd>countable</dd></dl>
+<p>A large red-haired ape from the forests of Borneo and Sumatra.</p>
+<ol><li><em>Orangutans</em> spend almost their whole lives in trees.</li><li>An <em>orangutan</em> was untying the knot with her fingers.</li><li>The <em>orangutan</em> watched us for a long time.</li></ol>
+<hr>
+<h3 id="kangaroo">kangaroo<a class="hash" href="#kangaroo" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/ˌkæŋɡəˈruː/ &middot; <em>kang-guh-ROO</em></dd><dt>Русский</dt><dd>кенгуру</dd><dt>Plural</dt><dd><em>kangaroos</em></dd><dt>Countability</dt><dd>countable</dd></dl>
+<p>An Australian animal that hops on strong back legs and carries its young in a pouch.</p>
+<ol><li><em>Kangaroos</em> were all over the golf course.</li><li>A <em>kangaroo</em> can clear a fence from a standstill.</li><li>We hit the brakes for a <em>kangaroo</em> in the road.</li></ol>
+<hr>
+<h3 id="koala">koala<a class="hash" href="#koala" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/koʊˈɑːlə/ &middot; <em>koh-AH-luh</em></dd><dt>Русский</dt><dd>коала</dd><dt>Plural</dt><dd><em>koalas</em></dd><dt>Countability</dt><dd>countable</dd></dl>
+<p>A small gray Australian animal that lives in trees and eats eucalyptus leaves.</p>
+<ol><li>A <em>koala</em> was asleep in the fork of the tree.</li><li><em>Koalas</em> sleep about twenty hours a day.</li><li>We finally spotted a <em>koala</em> on the third try.</li></ol>
+<hr>
+<h3 id="panda">panda<a class="hash" href="#panda" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/ˈpændə/ &middot; <em>PAN-duh</em></dd><dt>Русский</dt><dd>панда</dd><dt>Plural</dt><dd><em>pandas</em></dd><dt>Countability</dt><dd>countable</dd></dl>
+<p>A large black-and-white bear from China that lives on bamboo.</p>
+<ol><li>The zoo's <em>panda</em> had a cub last spring.</li><li><em>Pandas</em> eat bamboo almost all day long.</li><li>There was a line out the door to see the <em>panda</em>.</li></ol>
+<hr>
+<h3 id="sloth">sloth<a class="hash" href="#sloth" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/slɔːθ/ &middot; <em>SLAWTH</em></dd><dt>Русский</dt><dd>ленивец</dd><dt>Plural</dt><dd><em>sloths</em></dd><dt>Countability</dt><dd>countable</dd><dt>Contrast</dt><dd>Two American pronunciations, SLAWTH and SLOHTH; both are standard.</dd></dl>
+<p>A very slow tree-dwelling animal of Central and South America.</p>
+<ol><li>A <em>sloth</em> was hanging right over the trail.</li><li><em>Sloths</em> come down from the tree about once a week.</li><li>The <em>sloth</em> took a full minute to move one arm.</li></ol>
+<hr>
+<h3 id="squirrel">squirrel<a class="hash" href="#squirrel" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/ˈskwɜːrəl/ &middot; <em>SKWUR-uhl</em></dd><dt>Русский</dt><dd>белка</dd><dt>Plural</dt><dd><em>squirrels</em></dd><dt>Countability</dt><dd>countable</dd><dt>Contrast</dt><dd>Americans squeeze it into one syllable, SKWURL; the British say SKWIR-uhl.</dd></dl>
+<p>A small bushy-tailed rodent that lives in trees.</p>
+<ol><li><em>Squirrels</em> got into the attic again.</li><li>A <em>squirrel</em> was digging up the flower bed.</li><li>The dog lives to chase <em>squirrels</em>.</li></ol>
+<hr>
+<h3 id="chipmunk">chipmunk<a class="hash" href="#chipmunk" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/ˈtʃɪpmʌŋk/ &middot; <em>CHIP-munk</em></dd><dt>Русский</dt><dd>бурундук</dd><dt>Plural</dt><dd><em>chipmunks</em></dd><dt>Countability</dt><dd>countable</dd></dl>
+<p>A small striped ground squirrel of North America.</p>
+<ol><li>A <em>chipmunk</em> darted under the deck.</li><li><em>Chipmunks</em> stuff their cheeks until they're round.</li><li>We counted four <em>chipmunks</em> on the wood pile.</li></ol>
+<hr>
+<h3 id="rat">rat<a class="hash" href="#rat" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/ræt/ &middot; <em>RAT</em></dd><dt>Русский</dt><dd>крыса</dd><dt>Plural</dt><dd><em>rats</em></dd><dt>Countability</dt><dd>countable</dd></dl>
+<p>A large rodent with a long bare tail, common in cities.</p>
+<ol><li>They found <em>rats</em> behind the dumpster.</li><li>A <em>rat</em> ran along the subway track.</li><li>The building has a <em>rat</em> problem.</li></ol>
+<hr>
+<h3 id="groundhog">groundhog<a class="hash" href="#groundhog" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/ˈɡraʊndhɔːɡ/ &middot; <em>GROWND-hawg</em></dd><dt>Русский</dt><dd>сурок (лесной)</dd><dt>Plural</dt><dd><em>groundhogs</em></dd><dt>Countability</dt><dd>countable</dd></dl>
+<p>A stocky burrowing rodent of North America.</p>
+<ol><li>A <em>groundhog</em> dug a hole under the shed.</li><li><em>Groundhogs</em> can flatten a garden in a week.</li><li>The <em>groundhog</em> stood up on its back legs.</li></ol>
+<hr>
+<h3 id="beaver">beaver<a class="hash" href="#beaver" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/ˈbiːvər/ &middot; <em>BEE-vur</em></dd><dt>Русский</dt><dd>бобр</dd><dt>Plural</dt><dd><em>beavers</em></dd><dt>Countability</dt><dd>countable</dd></dl>
+<p>A large rodent with a flat tail that dams streams with cut wood.</p>
+<ol><li><em>Beavers</em> dammed the creek behind the house.</li><li>A <em>beaver</em> had taken down three young trees.</li><li>The <em>beaver</em> slapped its tail and went under.</li></ol>
+<hr>
+<h3 id="otter">otter<a class="hash" href="#otter" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/ˈɑːtər/ &middot; <em>AH-tur</em></dd><dt>Русский</dt><dd>выдра</dd><dt>Plural</dt><dd><em>otters</em></dd><dt>Countability</dt><dd>countable</dd></dl>
+<p>A playful river or sea animal with thick fur and webbed feet.</p>
+<ol><li><em>Otters</em> were floating on their backs in the kelp.</li><li>An <em>otter</em> came up holding a crab.</li><li>We watched the <em>otters</em> slide down the bank.</li></ol>
+<hr>
+<h3 id="badger">badger<a class="hash" href="#badger" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/ˈbædʒər/ &middot; <em>BAJ-ur</em></dd><dt>Русский</dt><dd>барсук</dd><dt>Plural</dt><dd><em>badgers</em></dd><dt>Countability</dt><dd>countable</dd></dl>
+<p>A heavy burrowing animal with a striped face and powerful claws.</p>
+<ol><li>A <em>badger</em> had dug up half the pasture.</li><li><em>Badgers</em> are a lot stronger than they look.</li><li>The dog knew better than to bother the <em>badger</em>.</li></ol>
+<hr>
+<h3 id="skunk">skunk<a class="hash" href="#skunk" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/skʌŋk/ &middot; <em>SKUNK</em></dd><dt>Русский</dt><dd>скунс</dd><dt>Plural</dt><dd><em>skunks</em></dd><dt>Countability</dt><dd>countable</dd></dl>
+<p>A black-and-white animal that sprays a terrible smell when threatened.</p>
+<ol><li>Our dog got sprayed by a <em>skunk</em>.</li><li>You can smell a <em>skunk</em> a block away.</li><li><em>Skunks</em> come out around dusk.</li></ol>
+<hr>
+<h3 id="raccoon">raccoon<a class="hash" href="#raccoon" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/ræˈkuːn/ &middot; <em>ra-KOON</em></dd><dt>Русский</dt><dd>енот</dd><dt>Plural</dt><dd><em>raccoons</em></dd><dt>Countability</dt><dd>countable</dd></dl>
+<p>A gray animal with a black face mask and a ringed tail that raids garbage.</p>
+<ol><li><em>Raccoons</em> tipped over the trash cans again.</li><li>A <em>raccoon</em> was washing something in the birdbath.</li><li>The <em>raccoon</em> got the latch open somehow.</li></ol>
+<hr>
+<h3 id="opossum">opossum<a class="hash" href="#opossum" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/əˈpɑːsəm/ &middot; <em>uh-PAH-suhm</em></dd><dt>Русский</dt><dd>опоссум</dd><dt>Plural</dt><dd><em>opossums</em></dd><dt>Countability</dt><dd>countable</dd><dt>Contrast</dt><dd>In everyday American speech it is usually shortened to possum, PAH-suhm.</dd></dl>
+<p>A gray North American marsupial that plays dead when it is threatened.</p>
+<ol><li>An <em>opossum</em> was sitting on the fence.</li><li><em>Opossums</em> eat a huge number of ticks.</li><li>The <em>opossum</em> froze in the headlights.</li></ol>
+<hr>
+<h3 id="porcupine">porcupine<a class="hash" href="#porcupine" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/ˈpɔːrkjəpaɪn/ &middot; <em>POR-kyuh-pine</em></dd><dt>Русский</dt><dd>дикобраз</dd><dt>Plural</dt><dd><em>porcupines</em></dd><dt>Countability</dt><dd>countable</dd></dl>
+<p>A rodent covered in sharp quills.</p>
+<ol><li>The dog came home full of <em>porcupine</em> quills.</li><li>A <em>porcupine</em> was up in the apple tree.</li><li><em>Porcupines</em> chew on anything salty.</li></ol>
+<hr>
+<h3 id="hedgehog">hedgehog<a class="hash" href="#hedgehog" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/ˈhedʒhɔːɡ/ &middot; <em>HEJ-hawg</em></dd><dt>Русский</dt><dd>ёж</dd><dt>Plural</dt><dd><em>hedgehogs</em></dd><dt>Countability</dt><dd>countable</dd></dl>
+<p>A small spiny animal that rolls into a ball when frightened.</p>
+<ol><li>A <em>hedgehog</em> was curled up under the hedge.</li><li><em>Hedgehogs</em> are common in English gardens.</li><li>She keeps a <em>hedgehog</em> as a pet.</li></ol>
+<hr>
+<h3 id="bat">bat<a class="hash" href="#bat" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/bæt/ &middot; <em>BAT</em></dd><dt>Русский</dt><dd>летучая мышь</dd><dt>Plural</dt><dd><em>bats</em></dd><dt>Countability</dt><dd>countable</dd><dt>Contrast</dt><dd>Same word as a baseball bat — only context tells you which.</dd></dl>
+<p>The only mammal that truly flies, active at night.</p>
+<ol><li><em>Bats</em> come out from under the bridge at sunset.</li><li>A <em>bat</em> got into the house through the chimney.</li><li><em>Bats</em> eat an enormous number of mosquitoes.</li></ol>
+<hr>
+<h3 id="weasel">weasel<a class="hash" href="#weasel" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/ˈwiːzəl/ &middot; <em>WEE-zuhl</em></dd><dt>Русский</dt><dd>ласка (зверёк)</dd><dt>Plural</dt><dd><em>weasels</em></dd><dt>Countability</dt><dd>countable</dd></dl>
+<p>A small slim predator with a long body and short legs.</p>
+<ol><li>A <em>weasel</em> got into the henhouse.</li><li><em>Weasels</em> can fit through a gap the width of a quarter.</li><li>The <em>weasel</em> disappeared into the stone wall.</li></ol>
+<hr>
+<h3 id="whale">whale<a class="hash" href="#whale" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/weɪl/ &middot; <em>WAYL</em></dd><dt>Русский</dt><dd>кит</dd><dt>Plural</dt><dd><em>whales</em></dd><dt>Countability</dt><dd>countable</dd><dt>Contrast</dt><dd>Homophone of wail (a long cry).</dd></dl>
+<p>A huge sea mammal that breathes through a hole on top of its head.</p>
+<ol><li>We saw two <em>whales</em> off the point.</li><li>A gray <em>whale</em> surfaced right next to the boat.</li><li><em>Whales</em> migrate past here every spring.</li></ol>
+<hr>
+<h3 id="dolphin">dolphin<a class="hash" href="#dolphin" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/ˈdɑːlfɪn/ &middot; <em>DAHL-fin</em></dd><dt>Русский</dt><dd>дельфин</dd><dt>Plural</dt><dd><em>dolphins</em></dd><dt>Countability</dt><dd>countable</dd></dl>
+<p>A small sea mammal with a beaked snout, known for being intelligent.</p>
+<ol><li><em>Dolphins</em> were riding the wake behind us.</li><li>A <em>dolphin</em> jumped clear out of the water.</li><li>There's a pod of <em>dolphins</em> out past the buoy.</li></ol>
+<hr>
+<h3 id="seal">seal<a class="hash" href="#seal" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/siːl/ &middot; <em>SEEL</em></dd><dt>Русский</dt><dd>тюлень</dd><dt>Plural</dt><dd><em>seals</em></dd><dt>Countability</dt><dd>countable</dd><dt>Contrast</dt><dd>Spelled and said like the seal on a package — only context separates them.</dd></dl>
+<p>A sea mammal with flippers that comes ashore to rest and breed.</p>
+<ol><li><em>Seals</em> were sunning themselves on the rocks.</li><li>A <em>seal</em> followed the boat for half a mile.</li><li>The <em>seals</em> bark all night down at the harbor.</li></ol>
+<hr>
+<h3 id="walrus">walrus<a class="hash" href="#walrus" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/ˈwɔːlrəs/ &middot; <em>WAWL-ruhs</em></dd><dt>Русский</dt><dd>морж</dd><dt>Plural</dt><dd><em>walruses</em></dd><dt>Countability</dt><dd>countable</dd></dl>
+<p>A big Arctic sea mammal with long tusks and thick whiskers.</p>
+<ol><li>A <em>walrus</em> hauled itself up onto the ice.</li><li><em>Walruses</em> use their tusks to climb out of the water.</li><li>The <em>walrus</em> must have weighed a ton.</li></ol>
+<hr>
+<h3 id="orca">orca<a class="hash" href="#orca" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/ˈɔːrkə/ &middot; <em>OR-kuh</em></dd><dt>Русский</dt><dd>косатка</dd><dt>Plural</dt><dd><em>orcas</em></dd><dt>Countability</dt><dd>countable</dd><dt>Contrast</dt><dd>Also called a killer whale, though it is really the largest dolphin.</dd></dl>
+<p>A large black-and-white sea mammal that hunts in family groups.</p>
+<ol><li>A pod of <em>orcas</em> went past the ferry.</li><li><em>Orcas</em> hunt together the way wolves do.</li><li>The <em>orca</em> rolled over on its side.</li></ol>
+<hr>
+<h3 id="mammal">mammal<a class="hash" href="#mammal" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/ˈmæməl/ &middot; <em>MAM-uhl</em></dd><dt>Русский</dt><dd>млекопитающее</dd><dt>Plural</dt><dd><em>mammals</em></dd><dt>Countability</dt><dd>countable</dd></dl>
+<p>A warm-blooded animal that has hair and feeds its young on milk.</p>
+<ol><li>Whales are <em>mammals</em>, not fish.</li><li>Bats are the only <em>mammals</em> that really fly.</li><li>Every <em>mammal</em> on the list is nocturnal.</li></ol>
+<hr>
+<h3 id="rodent">rodent<a class="hash" href="#rodent" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/ˈroʊdənt/ &middot; <em>ROH-duhnt</em></dd><dt>Русский</dt><dd>грызун</dd><dt>Plural</dt><dd><em>rodents</em></dd><dt>Countability</dt><dd>countable</dd></dl>
+<p>A gnawing animal such as a mouse, a rat, or a squirrel.</p>
+<ol><li>The house had a <em>rodent</em> problem all winter.</li><li><em>Rodents</em> have to chew constantly to wear their teeth down.</li><li>Rats and squirrels are both <em>rodents</em>.</li></ol>
+<hr>
+<h3 id="primate">primate<a class="hash" href="#primate" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/ˈpraɪmeɪt/ &middot; <em>PRY-mayt</em></dd><dt>Русский</dt><dd>примат</dd><dt>Plural</dt><dd><em>primates</em></dd><dt>Countability</dt><dd>countable</dd></dl>
+<p>An animal of the group that includes monkeys, apes, and humans.</p>
+<ol><li><em>Primates</em> have hands that can grip.</li><li>Humans are <em>primates</em> too.</li><li>The center studies how <em>primates</em> solve problems.</li></ol>
+<hr>
+<h3 id="marsupial">marsupial<a class="hash" href="#marsupial" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/mɑːrˈsuːpiəl/ &middot; <em>mar-SOO-pee-uhl</em></dd><dt>Русский</dt><dd>сумчатое (животное)</dd><dt>Plural</dt><dd><em>marsupials</em></dd><dt>Countability</dt><dd>countable</dd></dl>
+<p>A mammal that carries its young in a pouch.</p>
+<ol><li>Kangaroos and koalas are <em>marsupials</em>.</li><li>Most <em>marsupials</em> live in Australia.</li><li>The opossum is North America's only <em>marsupial</em>.</li></ol>
+<hr>
+<h3 id="predator">predator<a class="hash" href="#predator" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/ˈpredətər/ &middot; <em>PRED-uh-tur</em></dd><dt>Русский</dt><dd>хищник</dd><dt>Plural</dt><dd><em>predators</em></dd><dt>Countability</dt><dd>countable</dd></dl>
+<p>An animal that hunts and eats other animals.</p>
+<ol><li>Wolves are the main <em>predator</em> here.</li><li>Deer freeze the moment they sense a <em>predator</em>.</li><li>The island has almost no <em>predators</em>.</li></ol>
+<hr>
+<h3 id="prey">prey<a class="hash" href="#prey" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/preɪ/ &middot; <em>PRAY</em></dd><dt>Русский</dt><dd>добыча (жертва хищника)</dd><dt>Countability</dt><dd>uncountable</dd><dt>Contrast</dt><dd>Homophone of pray (to speak to God), and it has no plural — never preys.</dd></dl>
+<p>The animals that a predator hunts and eats.</p>
+<ol><li>Owls hunt small <em>prey</em> at night.</li><li>The cat dropped its <em>prey</em> on the doormat.</li><li>A cheetah has to get close to its <em>prey</em> first.</li></ol>
+<hr>
+<h3 id="carnivore">carnivore<a class="hash" href="#carnivore" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/ˈkɑːrnəvɔːr/ &middot; <em>KAR-nuh-vor</em></dd><dt>Русский</dt><dd>хищник, плотоядное животное</dd><dt>Plural</dt><dd><em>carnivores</em></dd><dt>Countability</dt><dd>countable</dd></dl>
+<p>An animal that lives on meat.</p>
+<ol><li>Cats are strict <em>carnivores</em>.</li><li>The park's big <em>carnivores</em> are bears and wolves.</li><li>A <em>carnivore</em> needs far more territory than a deer does.</li></ol>
+<hr>
+<h3 id="herbivore">herbivore<a class="hash" href="#herbivore" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/ˈɜːrbəvɔːr/ &middot; <em>UR-buh-vor</em></dd><dt>Русский</dt><dd>травоядное животное</dd><dt>Plural</dt><dd><em>herbivores</em></dd><dt>Countability</dt><dd>countable</dd><dt>Contrast</dt><dd>Americans drop the h: UR-buh-vor; the British say HUR-bi-vor.</dd></dl>
+<p>An animal that lives on plants.</p>
+<ol><li>Cows and deer are <em>herbivores</em>.</li><li>A <em>herbivore</em> spends most of the day eating.</li><li>The valley supports a lot of large <em>herbivores</em>.</li></ol>
+<hr>
+<h3 id="beast">beast<a class="hash" href="#beast" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/biːst/ &middot; <em>BEEST</em></dd><dt>Русский</dt><dd>зверь</dd><dt>Plural</dt><dd><em>beasts</em></dd><dt>Countability</dt><dd>countable</dd></dl>
+<p>A large or wild animal, especially a frightening one.</p>
+<ol><li>Something big moved in the brush — some kind of <em>beast</em>.</li><li>The dog is a gentle <em>beast</em> despite his size.</li><li>The old stories are full of <em>beasts</em> in the woods.</li></ol>
+<hr>
+<h3 id="buck">buck<a class="hash" href="#buck" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/bʌk/ &middot; <em>BUK</em></dd><dt>Русский</dt><dd>самец (оленя, кролика)</dd><dt>Plural</dt><dd><em>bucks</em></dd><dt>Countability</dt><dd>countable</dd></dl>
+<p>An adult male deer, rabbit, or goat.</p>
+<ol><li>He counted six <em>bucks</em> from the stand.</li><li>A <em>buck</em> stepped out of the treeline.</li><li>The <em>bucks</em> lose their antlers every winter.</li></ol>
+<hr>
+<h3 id="doe">doe<a class="hash" href="#doe" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/doʊ/ &middot; <em>DOH</em></dd><dt>Русский</dt><dd>самка оленя, крольчиха</dd><dt>Plural</dt><dd><em>does</em></dd><dt>Countability</dt><dd>countable</dd><dt>Contrast</dt><dd>Homophone of dough; the plural does is spelled like the verb does but said DOHZ.</dd></dl>
+<p>An adult female deer, rabbit, or goat.</p>
+<ol><li>A <em>doe</em> and two fawns crossed the road.</li><li>The <em>does</em> stay together most of the year.</li><li>That <em>doe</em> comes through the yard every evening.</li></ol>
+<hr>
+<h3 id="stag">stag<a class="hash" href="#stag" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/stæɡ/ &middot; <em>STAG</em></dd><dt>Русский</dt><dd>олень-самец</dd><dt>Plural</dt><dd><em>stags</em></dd><dt>Countability</dt><dd>countable</dd></dl>
+<p>A fully grown male deer with antlers.</p>
+<ol><li>A <em>stag</em> was standing at the edge of the field.</li><li><em>Stags</em> fight over territory in the fall.</li><li>The <em>stag</em> watched us and didn't move.</li></ol>
+<hr>
+<h3 id="puppy">puppy<a class="hash" href="#puppy" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/ˈpʌpi/ &middot; <em>PUP-ee</em></dd><dt>Русский</dt><dd>щенок</dd><dt>Plural</dt><dd><em>puppies</em></dd><dt>Countability</dt><dd>countable</dd></dl>
+<p>A very young dog.</p>
+<ol><li>The <em>puppy</em> chewed straight through a phone cord.</li><li>They're giving away <em>puppies</em> at the shelter.</li><li>A <em>puppy</em> sleeps about eighteen hours a day.</li></ol>
+<hr>
+<h3 id="pup">pup<a class="hash" href="#pup" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/pʌp/ &middot; <em>PUP</em></dd><dt>Русский</dt><dd>щенок; детёныш (тюленя, волка)</dd><dt>Plural</dt><dd><em>pups</em></dd><dt>Countability</dt><dd>countable</dd></dl>
+<p>A young dog, seal, wolf, or similar animal.</p>
+<ol><li>The seal <em>pups</em> stay on the beach for weeks.</li><li>She was just a <em>pup</em> when we got her.</li><li>Three wolf <em>pups</em> came out of the den.</li></ol>
+<hr>
+<h3 id="kitten">kitten<a class="hash" href="#kitten" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/ˈkɪtən/ &middot; <em>KIT-uhn</em></dd><dt>Русский</dt><dd>котёнок</dd><dt>Plural</dt><dd><em>kittens</em></dd><dt>Countability</dt><dd>countable</dd></dl>
+<p>A very young cat.</p>
+<ol><li>The <em>kittens</em> aren't old enough to leave their mother.</li><li>A <em>kitten</em> showed up on our porch.</li><li>He fostered six <em>kittens</em> last spring.</li></ol>
+<hr>
+<h3 id="foal">foal<a class="hash" href="#foal" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/foʊl/ &middot; <em>FOHL</em></dd><dt>Русский</dt><dd>жеребёнок</dd><dt>Plural</dt><dd><em>foals</em></dd><dt>Countability</dt><dd>countable</dd></dl>
+<p>A horse in its first year.</p>
+<ol><li>The <em>foal</em> was standing within an hour.</li><li>Two <em>foals</em> were born the same week.</li><li>She hand-raised the <em>foal</em> after its mother died.</li></ol>
+<hr>
+<h3 id="colt">colt<a class="hash" href="#colt" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/koʊlt/ &middot; <em>KOHLT</em></dd><dt>Русский</dt><dd>жеребёнок (самец)</dd><dt>Plural</dt><dd><em>colts</em></dd><dt>Countability</dt><dd>countable</dd><dt>Contrast</dt><dd>The o is the OH of bolt, not the AH of cot.</dd></dl>
+<p>A young male horse.</p>
+<ol><li>The <em>colt</em> wouldn't leave his mother's side.</li><li>They sold the <em>colt</em> as a yearling.</li><li>Both <em>colts</em> are out in the far pasture.</li></ol>
+<hr>
+<h3 id="piglet">piglet<a class="hash" href="#piglet" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/ˈpɪɡlət/ &middot; <em>PIG-lit</em></dd><dt>Русский</dt><dd>поросёнок</dd><dt>Plural</dt><dd><em>piglets</em></dd><dt>Countability</dt><dd>countable</dd></dl>
+<p>A very young pig.</p>
+<ol><li>The sow had nine <em>piglets</em>.</li><li>A <em>piglet</em> squeezed under the fence.</li><li>The <em>piglets</em> follow her everywhere.</li></ol>
+<hr>
+<h3 id="cub">cub<a class="hash" href="#cub" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/kʌb/ &middot; <em>KUB</em></dd><dt>Русский</dt><dd>детёныш (медведя, льва и др.)</dd><dt>Plural</dt><dd><em>cubs</em></dd><dt>Countability</dt><dd>countable</dd></dl>
+<p>The young of a bear, lion, fox, or similar animal.</p>
+<ol><li>A bear and two <em>cubs</em> came through the campground.</li><li>The lion <em>cubs</em> were play-fighting all afternoon.</li><li>Never get between a bear and her <em>cub</em>.</li></ol>
+<hr>
+<h3 id="fawn">fawn<a class="hash" href="#fawn" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/fɔːn/ &middot; <em>FAWN</em></dd><dt>Русский</dt><dd>оленёнок</dd><dt>Plural</dt><dd><em>fawns</em></dd><dt>Countability</dt><dd>countable</dd></dl>
+<p>A deer in its first year, usually still spotted.</p>
+<ol><li>A <em>fawn</em> was curled up in the tall grass.</li><li>The doe left her <em>fawn</em> while she fed.</li><li>Two <em>fawns</em> followed her across the yard.</li></ol>
+<hr>
+<h3 id="burrow">burrow<a class="hash" href="#burrow" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/ˈbɜːroʊ/ &middot; <em>BUR-oh</em></dd><dt>Русский</dt><dd>нора</dd><dt>Plural</dt><dd><em>burrows</em></dd><dt>Countability</dt><dd>countable</dd><dt>Contrast</dt><dd>Sounds the same as borough, a district of a city.</dd></dl>
+<p>A hole or tunnel that an animal digs to live in.</p>
+<ol><li>Rabbits had <em>burrows</em> all through the hillside.</li><li>The prairie dogs dove into their <em>burrows</em>.</li><li>He stepped in a <em>burrow</em> and twisted his ankle.</li></ol>
+<hr>
+<h3 id="lair">lair<a class="hash" href="#lair" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/ler/ &middot; <em>LAIR</em></dd><dt>Русский</dt><dd>логово</dd><dt>Plural</dt><dd><em>lairs</em></dd><dt>Countability</dt><dd>countable</dd><dt>Contrast</dt><dd>One syllable, LAIR — not the two syllables of layer.</dd></dl>
+<p>The resting place of a wild animal, especially a large predator.</p>
+<ol><li>The tracks led back toward the <em>lair</em>.</li><li>A wolf will move its <em>lair</em> if people come near.</li><li>They finally located the animal's <em>lair</em>.</li></ol>
+<hr>
+<h3 id="kennel">kennel<a class="hash" href="#kennel" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/ˈkenəl/ &middot; <em>KEN-uhl</em></dd><dt>Русский</dt><dd>конура; питомник</dd><dt>Plural</dt><dd><em>kennels</em></dd><dt>Countability</dt><dd>countable</dd></dl>
+<p>A shelter for a dog, or a business that boards dogs.</p>
+<ol><li>We board the dog at a <em>kennel</em> when we travel.</li><li>He built a <em>kennel</em> out back.</li><li>The <em>kennel</em> was full over the holidays.</li></ol>
+<hr>
+<h3 id="stable">stable<a class="hash" href="#stable" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/ˈsteɪbəl/ &middot; <em>STAY-buhl</em></dd><dt>Русский</dt><dd>конюшня</dd><dt>Plural</dt><dd><em>stables</em></dd><dt>Countability</dt><dd>countable</dd><dt>Contrast</dt><dd>Spelled like the adjective stable (steady); the horse building is a separate noun.</dd></dl>
+<p>A building where horses are kept.</p>
+<ol><li>She mucks out the <em>stable</em> every morning.</li><li>The <em>stables</em> are behind the main house.</li><li>We keep the horse at a <em>stable</em> down the road.</li></ol>
+<hr>
+<h3 id="hutch">hutch<a class="hash" href="#hutch" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/hʌtʃ/ &middot; <em>HUCH</em></dd><dt>Русский</dt><dd>клетка для кроликов</dd><dt>Plural</dt><dd><em>hutches</em></dd><dt>Countability</dt><dd>countable</dd></dl>
+<p>A wooden cage for rabbits or other small pets.</p>
+<ol><li>The rabbits live in a <em>hutch</em> by the garage.</li><li>He built the <em>hutch</em> out of scrap lumber.</li><li>Both <em>hutches</em> need new wire.</li></ol>
+<hr>
+<h3 id="cage">cage<a class="hash" href="#cage" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/keɪdʒ/ &middot; <em>KAYJ</em></dd><dt>Русский</dt><dd>клетка</dd><dt>Plural</dt><dd><em>cages</em></dd><dt>Countability</dt><dd>countable</dd></dl>
+<p>An enclosure of bars or wire for keeping an animal in.</p>
+<ol><li>The hamster <em>cage</em> needs cleaning.</li><li>She won't keep a rabbit in a <em>cage</em> that small.</li><li>The <em>cages</em> at the shelter were all full.</li></ol>
+<hr>
+<h3 id="hide">hide<a class="hash" href="#hide" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/haɪd/ &middot; <em>HYDE</em></dd><dt>Русский</dt><dd>шкура</dd><dt>Plural</dt><dd><em>hides</em></dd><dt>Countability</dt><dd>countable, and uncountable as a substance</dd><dt>Contrast</dt><dd>Same form as the verb hide (to conceal); the noun means an animal's skin.</dd></dl>
+<p>The skin of a large animal, especially once it is taken off for leather.</p>
+<ol><li>They stretched the <em>hide</em> out to dry.</li><li>Buffalo <em>hides</em> were shipped east by the ton.</li><li>The boots are made from cow <em>hide</em>.</li></ol>
+<hr>
+<h3 id="mane">mane<a class="hash" href="#mane" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/meɪn/ &middot; <em>MAYN</em></dd><dt>Русский</dt><dd>грива</dd><dt>Plural</dt><dd><em>manes</em></dd><dt>Countability</dt><dd>countable</dd><dt>Contrast</dt><dd>Homophone of main (chief, principal).</dd></dl>
+<p>The long hair along the neck of a horse or a male lion.</p>
+<ol><li>She braided the horse's <em>mane</em>.</li><li>A male lion grows a darker <em>mane</em> as he ages.</li><li>Their <em>manes</em> were full of tangles.</li></ol>
+<hr>
+<h3 id="whisker">whisker<a class="hash" href="#whisker" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/ˈwɪskər/ &middot; <em>WIS-kur</em></dd><dt>Русский</dt><dd>ус (у животного), вибрисса</dd><dt>Plural</dt><dd><em>whiskers</em></dd><dt>Countability</dt><dd>countable</dd><dt>Contrast</dt><dd>Nearly always plural for an animal: a cat has whiskers, and a single one is a whisker.</dd></dl>
+<p>One of the long stiff hairs that grow near an animal's mouth.</p>
+<ol><li>The cat's <em>whiskers</em> twitched.</li><li>A seal uses its <em>whiskers</em> to find fish.</li><li>One <em>whisker</em> had been broken off.</li></ol>
+<hr>
+<h3 id="tail">tail<a class="hash" href="#tail" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/teɪl/ &middot; <em>TAYL</em></dd><dt>Русский</dt><dd>хвост</dd><dt>Plural</dt><dd><em>tails</em></dd><dt>Countability</dt><dd>countable</dd><dt>Contrast</dt><dd>Homophone of tale (a story).</dd></dl>
+<p>The part that sticks out at the back end of an animal.</p>
+<ol><li>The dog's <em>tail</em> knocked everything off the table.</li><li>Squirrels use their <em>tails</em> for balance.</li><li>He stepped on the cat's <em>tail</em> by accident.</li></ol>
+<hr>
+<h3 id="paw">paw<a class="hash" href="#paw" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/pɔː/ &middot; <em>PAW</em></dd><dt>Русский</dt><dd>лапа</dd><dt>Plural</dt><dd><em>paws</em></dd><dt>Countability</dt><dd>countable</dd></dl>
+<p>The foot of an animal that has claws and soft pads.</p>
+<ol><li>The dog gave me his <em>paw</em>.</li><li>She checked the puppy's <em>paws</em> for cuts.</li><li>There were muddy <em>paw</em> prints all over the couch.</li></ol>
+<hr>
+<h3 id="claw">claw<a class="hash" href="#claw" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/klɔː/ &middot; <em>KLAW</em></dd><dt>Русский</dt><dd>коготь</dd><dt>Plural</dt><dd><em>claws</em></dd><dt>Countability</dt><dd>countable</dd></dl>
+<p>A sharp curved nail on an animal's foot.</p>
+<ol><li>The cat sank her <em>claws</em> into the arm of the chair.</li><li>A bear's <em>claws</em> are as long as your fingers.</li><li>He clipped the dog's <em>claws</em> a little too short.</li></ol>
+<hr>
+<h3 id="fang">fang<a class="hash" href="#fang" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/fæŋ/ &middot; <em>FANG</em></dd><dt>Русский</dt><dd>клык</dd><dt>Plural</dt><dd><em>fangs</em></dd><dt>Countability</dt><dd>countable</dd></dl>
+<p>A long pointed tooth used for gripping or tearing.</p>
+<ol><li>The wolf bared its <em>fangs</em>.</li><li>One <em>fang</em> was chipped.</li><li>You could see the dog's <em>fangs</em> when he yawned.</li></ol>
+<hr>
+<h3 id="snout">snout<a class="hash" href="#snout" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/snaʊt/ &middot; <em>SNOWT</em></dd><dt>Русский</dt><dd>морда, рыло</dd><dt>Plural</dt><dd><em>snouts</em></dd><dt>Countability</dt><dd>countable</dd></dl>
+<p>The long nose and jaws that stick out from an animal's face.</p>
+<ol><li>The pig pushed its <em>snout</em> under the fence.</li><li>A bear's <em>snout</em> is its best tool.</li><li>Their <em>snouts</em> were black with mud.</li></ol>
+<hr>
+<h3 id="muzzle">muzzle<a class="hash" href="#muzzle" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/ˈmʌzəl/ &middot; <em>MUZ-uhl</em></dd><dt>Русский</dt><dd>морда; намордник</dd><dt>Plural</dt><dd><em>muzzles</em></dd><dt>Countability</dt><dd>countable</dd><dt>Contrast</dt><dd>Two meanings: the animal's own nose and mouth, and the strap you buckle over them.</dd></dl>
+<p>An animal's nose and mouth, or a strap that fits over them.</p>
+<ol><li>The dog rested his <em>muzzle</em> on my knee.</li><li>The horse's <em>muzzle</em> had gone gray with age.</li><li>They put a <em>muzzle</em> on him at the vet.</li></ol>
+<hr>
+<h3 id="horn">horn<a class="hash" href="#horn" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/hɔːrn/ &middot; <em>HORN</em></dd><dt>Русский</dt><dd>рог</dd><dt>Plural</dt><dd><em>horns</em></dd><dt>Countability</dt><dd>countable</dd></dl>
+<p>A hard pointed growth on the head of cattle, goats, or sheep.</p>
+<ol><li>The goat caught its <em>horns</em> in the fence.</li><li>A bull's <em>horns</em> curve forward.</li><li>One <em>horn</em> had broken off years ago.</li></ol>
+<hr>
+<h3 id="antler">antler<a class="hash" href="#antler" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/ˈæntlər/ &middot; <em>ANT-lur</em></dd><dt>Русский</dt><dd>рог (оленя)</dd><dt>Plural</dt><dd><em>antlers</em></dd><dt>Countability</dt><dd>countable</dd><dt>Contrast</dt><dd>Antlers are branched, grow on deer, and drop off each year; horns are unbranched and permanent.</dd></dl>
+<p>One of the branched bony growths on a deer's head.</p>
+<ol><li>The buck's <em>antlers</em> had eight points.</li><li>He found a shed <em>antler</em> in the woods.</li><li><em>Antlers</em> grow back bigger every year.</li></ol>
+<hr>
+<h3 id="tusk">tusk<a class="hash" href="#tusk" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/tʌsk/ &middot; <em>TUSK</em></dd><dt>Русский</dt><dd>бивень, клык</dd><dt>Plural</dt><dd><em>tusks</em></dd><dt>Countability</dt><dd>countable</dd></dl>
+<p>A very long tooth that sticks out of an animal's mouth.</p>
+<ol><li>The elephant's <em>tusks</em> were nearly six feet long.</li><li>A walrus uses its <em>tusks</em> to haul out onto the ice.</li><li>One <em>tusk</em> was worn down to a stub.</li></ol></div></main>
+<button class="themebtn" id="themeBtn">Dark</button>
+<script>
+const tb=document.getElementById('themeBtn');
+function setTheme(x){document.documentElement.dataset.theme=x;tb.textContent=x==='dark'?'Light':'Dark';
+ try{localStorage.setItem('site-theme',x)}catch(e){}}
+tb.onclick=()=>setTheme(document.documentElement.dataset.theme==='dark'?'light':'dark');
+try{const s=localStorage.getItem('site-theme');
+ setTheme(s||(matchMedia('(prefers-color-scheme: dark)').matches?'dark':'light'))}catch(e){setTheme('light')}
+</script></body></html>

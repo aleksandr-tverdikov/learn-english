@@ -1,0 +1,511 @@
+<!DOCTYPE html>
+<html lang="en"><head>
+<meta charset="utf-8"><meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Core vocabulary: furniture</title>
+<style>
+:root{--bg:#faf9f7;--surface:#fff;--surface2:#f2f0ec;--border:#e2ded6;--text:#1a1815;
+--dim:#5f594f;--faint:#8a8377;--accent:#8a5a3b;--measure:72ch}
+@media(prefers-color-scheme:dark){:root{--bg:#14140f;--surface:#1d1d17;--surface2:#25251d;
+--border:#33332a;--text:#eeeae1;--dim:#a8a293;--faint:#7d776b;--accent:#d09b72}}
+:root[data-theme=dark]{--bg:#14140f;--surface:#1d1d17;--surface2:#25251d;--border:#33332a;
+--text:#eeeae1;--dim:#a8a293;--faint:#7d776b;--accent:#d09b72}
+:root[data-theme=light]{--bg:#faf9f7;--surface:#fff;--surface2:#f2f0ec;--border:#e2ded6;
+--text:#1a1815;--dim:#5f594f;--faint:#8a8377;--accent:#8a5a3b}
+*{box-sizing:border-box}
+body{margin:0;background:var(--bg);color:var(--text);
+font:17px/1.72 ui-serif,Georgia,"Iowan Old Style",Palatino,serif;-webkit-font-smoothing:antialiased}
+.wrap{max-width:min(var(--measure),100%);margin:0 auto;padding:0 22px}
+nav.crumb{border-bottom:1px solid var(--border);padding:13px 0;font-size:13.5px;
+font-family:-apple-system,BlinkMacSystemFont,"Segoe UI",sans-serif;position:sticky;top:0;background:var(--bg);z-index:20}
+nav.crumb .wrap{max-width:none;display:flex;gap:9px;align-items:center;flex-wrap:wrap}
+nav.crumb a{color:var(--dim);text-decoration:none}
+nav.crumb a:hover{color:var(--accent)}
+nav.crumb .sep{color:var(--faint)}
+main{padding:8px 0 80px}
+h1{font-size:clamp(28px,5vw,38px);line-height:1.15;letter-spacing:-.015em;margin:34px 0 18px}
+h2{font-size:25px;margin:46px 0 14px;letter-spacing:-.01em;padding-bottom:7px;border-bottom:1px solid var(--border)}
+h3{font-size:19px;margin:34px 0 10px;color:var(--accent)}
+h4{font-size:16px;margin:24px 0 8px;font-family:-apple-system,sans-serif}
+p{margin:0 0 16px}
+a{color:var(--accent)}
+.hash{opacity:0;margin-left:8px;font-weight:400;font-size:.65em;text-decoration:none;color:var(--faint)}
+h2:hover .hash,h3:hover .hash{opacity:1}
+blockquote{margin:0 0 20px;padding:14px 18px;background:var(--surface2);
+border-left:3px solid var(--accent);border-radius:0 8px 8px 0}
+blockquote p:last-child{margin-bottom:0}
+ol,ul{margin:0 0 18px;padding-left:26px}
+li{margin-bottom:8px}
+li>ul,li>ol{margin:8px 0 0}
+code{font-family:ui-monospace,SFMono-Regular,Menlo,Consolas,monospace;font-size:.87em;
+background:var(--surface2);padding:1px 5px;border-radius:4px}
+pre{background:var(--surface2);border:1px solid var(--border);border-radius:9px;
+padding:15px 17px;overflow-x:auto;margin:0 0 20px}
+pre code{background:none;padding:0;font-size:13px;line-height:1.6}
+.tw{overflow-x:auto;margin:0 0 22px;border:1px solid var(--border);border-radius:9px}
+table{border-collapse:collapse;width:100%;font-size:15px;
+font-family:-apple-system,BlinkMacSystemFont,"Segoe UI",sans-serif}
+th,td{padding:10px 14px;border-bottom:1px solid var(--border);vertical-align:top}
+th{background:var(--surface2);font-size:12px;text-transform:uppercase;
+letter-spacing:.06em;color:var(--dim);font-weight:700;white-space:nowrap}
+tbody tr:last-child td{border-bottom:none}
+hr{border:none;border-top:1px solid var(--border);margin:38px 0}
+details{background:var(--surface2);border:1px solid var(--border);border-radius:9px;
+padding:13px 17px;margin:0 0 20px}
+summary{cursor:pointer;font-weight:600;font-family:-apple-system,sans-serif;font-size:15px}
+details[open] summary{margin-bottom:12px}
+del{color:var(--faint)}
+dl.fields{margin:0 0 20px;padding:0}
+dl.fields dt{font-family:-apple-system,BlinkMacSystemFont,"Segoe UI",sans-serif;
+font-size:11px;letter-spacing:.11em;text-transform:uppercase;color:var(--faint);
+font-weight:700;margin:14px 0 4px}
+dl.fields dt:first-child{margin-top:0}
+dl.fields dd{margin:0;font-size:16px;color:var(--dim);line-height:1.62}
+dl.fields dd em{color:var(--text)}
+dl.fields dt.ru{color:var(--accent)}
+dl.fields dd strong{color:var(--text)}
+.toc{background:var(--surface2);border:1px solid var(--border);border-radius:10px;
+padding:16px 20px;margin:26px 0 34px;font-family:-apple-system,sans-serif;font-size:14px}
+.toc b{display:block;font-size:11px;letter-spacing:.12em;text-transform:uppercase;
+color:var(--faint);margin-bottom:9px}
+.toc a{display:block;padding:3px 0;color:var(--dim);text-decoration:none}
+.toc a:hover{color:var(--accent)}
+.themebtn{position:fixed;right:18px;bottom:18px;z-index:60;font-family:-apple-system,sans-serif;
+font-size:12.5px;font-weight:600;cursor:pointer;background:var(--surface);border:1px solid var(--border);
+border-radius:99px;padding:9px 16px;color:var(--text)}
+@media(max-width:600px){body{font-size:16px}.wrap{padding:0 17px}}
+</style></head><body>
+<nav class="crumb"><div class="wrap"><a href="../../../index.html">Learn English</a><span class="sep">/</span><a href="../../README.html">Parts of speech</a><span class="sep">/</span><a href="../README.html">01-nouns</a><span class="sep">/</span><span>catalog</span></div></nav>
+<main><div class="wrap"><h1 id="core-vocabulary-furniture">Core vocabulary: furniture<a class="hash" href="#core-vocabulary-furniture" aria-label="link">#</a></h1>
+<blockquote><p>The everyday nouns of furniture — pronunciation, Russian, plural, and three examples each.</p></blockquote>
+<p><a href="../README.html">← The grammar of nouns</a> &middot; <a href="README.html">All groups</a></p>
+<p>Part of the <strong>core-vocabulary tier</strong>. Groups 1–23 cover the nouns that misbehave; this tier covers the nouns you simply need to know. Entries are deliberately lean, because a regular countable noun has no grammatical story to tell. A <strong>Contrast</strong> line appears only where the word hides a genuine trap.</p>
+<p>Where a word in this field <em>does</em> misbehave, it lives in the grammar tier instead and is not repeated here.</p>
+<hr>
+<h3 id="chair">chair<a class="hash" href="#chair" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/tʃer/ &middot; <em>CHAIR</em></dd><dt>Русский</dt><dd>стул; кресло</dd><dt>Plural</dt><dd><em>chairs</em></dd><dt>Countability</dt><dd>countable</dd></dl>
+<p>A seat for one person, usually with a back and four legs.</p>
+<ol><li>Pull up a <em>chair</em> and sit with us.</li><li>We need two more <em>chairs</em> for the dinner table.</li><li>He tipped his <em>chair</em> back and put his feet up.</li></ol>
+<hr>
+<h3 id="table">table<a class="hash" href="#table" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/ˈteɪbəl/ &middot; <em>TAY-buhl</em></dd><dt>Русский</dt><dd>стол</dd><dt>Plural</dt><dd><em>tables</em></dd><dt>Countability</dt><dd>countable</dd></dl>
+<p>A piece of furniture with a flat top on legs.</p>
+<ol><li>Set the <em>table</em> — dinner's almost ready.</li><li>All the <em>tables</em> by the window were taken.</li><li>She left her keys on the kitchen <em>table</em>.</li></ol>
+<hr>
+<h3 id="coffee-table">coffee table<a class="hash" href="#coffee-table" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/ˈkɔːfi ˌteɪbəl/ &middot; <em>KAW-fee TAY-buhl</em></dd><dt>Русский</dt><dd>журнальный столик</dd><dt>Plural</dt><dd><em>coffee tables</em></dd><dt>Countability</dt><dd>countable</dd></dl>
+<p>A low table placed in front of a sofa.</p>
+<ol><li>There were magazines stacked all over the <em>coffee table</em>.</li><li>We found a <em>coffee table</em> at a yard sale for twenty bucks.</li><li>The kids kept banging their heads on the <em>coffee table</em>.</li></ol>
+<hr>
+<h3 id="desk">desk<a class="hash" href="#desk" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/desk/ &middot; <em>DESK</em></dd><dt>Русский</dt><dd>письменный стол; парта</dd><dt>Plural</dt><dd><em>desks</em></dd><dt>Countability</dt><dd>countable</dd></dl>
+<p>A table for writing, reading, or working at a computer.</p>
+<ol><li>My <em>desk</em> is buried under paperwork.</li><li>The classroom had thirty <em>desks</em> in neat rows.</li><li>She keeps a photo of her kids on her <em>desk</em>.</li></ol>
+<hr>
+<h3 id="sofa">sofa<a class="hash" href="#sofa" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/ˈsoʊfə/ &middot; <em>SOH-fuh</em></dd><dt>Русский</dt><dd>диван</dd><dt>Plural</dt><dd><em>sofas</em></dd><dt>Countability</dt><dd>countable</dd></dl>
+<p>A long padded seat for two or more people.</p>
+<ol><li>The cat sheds all over the <em>sofa</em>.</li><li>They're looking at <em>sofas</em> for the new apartment.</li><li>He fell asleep on the <em>sofa</em> watching the game.</li></ol>
+<hr>
+<h3 id="couch">couch<a class="hash" href="#couch" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/kaʊtʃ/ &middot; <em>KOWCH</em></dd><dt>Русский</dt><dd>диван, кушетка</dd><dt>Plural</dt><dd><em>couches</em></dd><dt>Countability</dt><dd>countable</dd></dl>
+<p>A sofa; the usual everyday word for one in American homes.</p>
+<ol><li>You can crash on the <em>couch</em> if it's too late to drive.</li><li>We moved both <em>couches</em> to get the rug underneath.</li><li>There's about four dollars in change under the <em>couch</em> cushions.</li></ol>
+<hr>
+<h3 id="armchair">armchair<a class="hash" href="#armchair" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/ˈɑːrmtʃer/ &middot; <em>ARM-chair</em></dd><dt>Русский</dt><dd>кресло</dd><dt>Plural</dt><dd><em>armchairs</em></dd><dt>Countability</dt><dd>countable</dd></dl>
+<p>A comfortable chair with supports for the arms.</p>
+<ol><li>Grandpa always sat in the same <em>armchair</em> by the fire.</li><li>The two <em>armchairs</em> face each other across the rug.</li><li>She curled up in the <em>armchair</em> with a book.</li></ol>
+<hr>
+<h3 id="rocking-chair">rocking chair<a class="hash" href="#rocking-chair" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/ˈrɑːkɪŋ tʃer/ &middot; <em>RAH-king CHAIR</em></dd><dt>Русский</dt><dd>кресло-качалка</dd><dt>Plural</dt><dd><em>rocking chairs</em></dd><dt>Countability</dt><dd>countable</dd></dl>
+<p>A chair on curved runners that rocks back and forth.</p>
+<ol><li>She rocked the baby to sleep in the old <em>rocking chair</em>.</li><li>There are two <em>rocking chairs</em> out on the front porch.</li><li>The <em>rocking chair</em> creaks every time you lean back.</li></ol>
+<hr>
+<h3 id="stool">stool<a class="hash" href="#stool" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/stuːl/ &middot; <em>STOOL</em></dd><dt>Русский</dt><dd>табурет</dd><dt>Plural</dt><dd><em>stools</em></dd><dt>Countability</dt><dd>countable</dd></dl>
+<p>A backless seat, often tall enough for a counter or bar.</p>
+<ol><li>He sat on a <em>stool</em> at the end of the bar.</li><li>We bought three <em>stools</em> for the kitchen island.</li><li>Stand on the <em>stool</em> if you can't reach the top shelf.</li></ol>
+<hr>
+<h3 id="bench">bench<a class="hash" href="#bench" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/bentʃ/ &middot; <em>BENCH</em></dd><dt>Русский</dt><dd>скамейка, лавка</dd><dt>Plural</dt><dd><em>benches</em></dd><dt>Countability</dt><dd>countable</dd></dl>
+<p>A long seat for several people, usually without a back.</p>
+<ol><li>We ate lunch on a <em>bench</em> in the park.</li><li>The <em>benches</em> in the hallway were bolted to the wall.</li><li>There's a storage <em>bench</em> by the back door for shoes.</li></ol>
+<hr>
+<h3 id="recliner">recliner<a class="hash" href="#recliner" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/rɪˈklaɪnər/ &middot; <em>rih-KLY-nur</em></dd><dt>Русский</dt><dd>кресло с откидной спинкой</dd><dt>Plural</dt><dd><em>recliners</em></dd><dt>Countability</dt><dd>countable</dd></dl>
+<p>An armchair whose back tilts and whose footrest lifts up.</p>
+<ol><li>Dad claimed the <em>recliner</em> the second he walked in.</li><li>The theater has heated <em>recliners</em> now.</li><li>He leaned the <em>recliner</em> all the way back and dozed off.</li></ol>
+<hr>
+<h3 id="loveseat">loveseat<a class="hash" href="#loveseat" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/ˈlʌvsiːt/ &middot; <em>LUV-seet</em></dd><dt>Русский</dt><dd>небольшой двухместный диван</dd><dt>Plural</dt><dd><em>loveseats</em></dd><dt>Countability</dt><dd>countable</dd></dl>
+<p>A small sofa built for exactly two people.</p>
+<ol><li>The apartment's too small for a full couch, so we got a <em>loveseat</em>.</li><li>Both <em>loveseats</em> were on clearance.</li><li>She sat on the <em>loveseat</em> across from the window.</li></ol>
+<hr>
+<h3 id="ottoman">ottoman<a class="hash" href="#ottoman" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/ˈɑːtəmən/ &middot; <em>AH-tuh-muhn</em></dd><dt>Русский</dt><dd>пуф, банкетка</dd><dt>Plural</dt><dd><em>ottomans</em></dd><dt>Countability</dt><dd>countable</dd></dl>
+<p>A low padded seat with no back, often used as a footrest.</p>
+<ol><li>Put your feet up on the <em>ottoman</em>.</li><li>The <em>ottoman</em> opens up and there's storage inside.</li><li>They use two small <em>ottomans</em> instead of a coffee table.</li></ol>
+<hr>
+<h3 id="seat">seat<a class="hash" href="#seat" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/siːt/ &middot; <em>SEET</em></dd><dt>Русский</dt><dd>сиденье; место</dd><dt>Plural</dt><dd><em>seats</em></dd><dt>Countability</dt><dd>countable</dd></dl>
+<p>The part of a chair you sit on, or a place to sit.</p>
+<ol><li>The <em>seat</em> on that chair is starting to sag.</li><li>Save me a <em>seat</em> if you get there first.</li><li>All the good <em>seats</em> were gone by seven.</li></ol>
+<hr>
+<h3 id="cushion">cushion<a class="hash" href="#cushion" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/ˈkʊʃən/ &middot; <em>KUUSH-uhn</em></dd><dt>Русский</dt><dd>диванная подушка</dd><dt>Plural</dt><dd><em>cushions</em></dd><dt>Countability</dt><dd>countable</dd></dl>
+<p>A soft padded bag used to sit on or lean against.</p>
+<ol><li>I found the remote under a <em>cushion</em>.</li><li>The couch <em>cushions</em> need to be flipped.</li><li>She propped a <em>cushion</em> behind her back.</li></ol>
+<hr>
+<h3 id="highchair">highchair<a class="hash" href="#highchair" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/ˈhaɪtʃer/ &middot; <em>HY-chair</em></dd><dt>Русский</dt><dd>детский стульчик для кормления</dd><dt>Plural</dt><dd><em>highchairs</em></dd><dt>Countability</dt><dd>countable</dd></dl>
+<p>A tall chair with a tray where a baby sits to eat.</p>
+<ol><li>Can we get a <em>highchair</em> for the baby?</li><li>He threw half his dinner off the <em>highchair</em>.</li><li>The restaurant only had two <em>highchairs</em>.</li></ol>
+<hr>
+<h3 id="console">console<a class="hash" href="#console" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/ˈkɑːnsoʊl/ &middot; <em>KAHN-sohl</em></dd><dt>Русский</dt><dd>консольный столик</dd><dt>Plural</dt><dd><em>consoles</em></dd><dt>Countability</dt><dd>countable</dd><dt>Contrast</dt><dd>Stress shifts between the noun and the verb: the table is a KAHN-sohl, but to comfort someone is kuhn-SOHL.</dd></dl>
+<p>A narrow table that stands against a wall.</p>
+<ol><li>We keep the mail in a basket on the hall <em>console</em>.</li><li>A pair of lamps sits on the <em>console</em> behind the sofa.</li><li>Both <em>consoles</em> were too deep for that narrow hallway.</li></ol>
+<hr>
+<h3 id="bed">bed<a class="hash" href="#bed" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/bed/ &middot; <em>BED</em></dd><dt>Русский</dt><dd>кровать, постель</dd><dt>Plural</dt><dd><em>beds</em></dd><dt>Countability</dt><dd>countable</dd></dl>
+<p>A piece of furniture you sleep on.</p>
+<ol><li>Make your <em>bed</em> before you leave.</li><li>The room has two twin <em>beds</em>.</li><li>I was still in <em>bed</em> when he called.</li></ol>
+<hr>
+<h3 id="mattress">mattress<a class="hash" href="#mattress" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/ˈmætrəs/ &middot; <em>MAT-ruhs</em></dd><dt>Русский</dt><dd>матрас</dd><dt>Plural</dt><dd><em>mattresses</em></dd><dt>Countability</dt><dd>countable</dd></dl>
+<p>The thick padded pad you lie on, resting on a bed frame.</p>
+<ol><li>This <em>mattress</em> is way too soft for my back.</li><li>They deliver the <em>mattress</em> on Saturday.</li><li>We flip the <em>mattresses</em> twice a year.</li></ol>
+<hr>
+<h3 id="headboard">headboard<a class="hash" href="#headboard" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/ˈhedbɔːrd/ &middot; <em>HED-bord</em></dd><dt>Русский</dt><dd>изголовье кровати, спинка кровати</dd><dt>Plural</dt><dd><em>headboards</em></dd><dt>Countability</dt><dd>countable</dd></dl>
+<p>The upright panel at the head end of a bed.</p>
+<ol><li>She leaned against the <em>headboard</em> and read for a while.</li><li>The bed came without a <em>headboard</em>.</li><li>They make <em>headboards</em> out of old barn wood.</li></ol>
+<hr>
+<h3 id="bunk-bed">bunk bed<a class="hash" href="#bunk-bed" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/ˈbʌŋk bed/ &middot; <em>BUNGK BED</em></dd><dt>Русский</dt><dd>двухъярусная кровать</dd><dt>Plural</dt><dd><em>bunk beds</em></dd><dt>Countability</dt><dd>countable</dd></dl>
+<p>Two beds built one above the other.</p>
+<ol><li>The boys share a <em>bunk bed</em>.</li><li>I always called top on the <em>bunk bed</em>.</li><li>The cabins have four <em>bunk beds</em> each.</li></ol>
+<hr>
+<h3 id="crib">crib<a class="hash" href="#crib" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/krɪb/ &middot; <em>KRIB</em></dd><dt>Русский</dt><dd>детская кроватка</dd><dt>Plural</dt><dd><em>cribs</em></dd><dt>Countability</dt><dd>countable</dd><dt>Contrast</dt><dd>American <em>crib</em> is British <em>cot</em> — and an American <em>cot</em> is something else entirely.</dd></dl>
+<p>A baby's bed with high barred sides.</p>
+<ol><li>He finally fell asleep in his <em>crib</em>.</li><li>We're assembling the <em>crib</em> this weekend.</li><li>Older <em>cribs</em> don't meet the current safety rules.</li></ol>
+<hr>
+<h3 id="cot">cot<a class="hash" href="#cot" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/kɑːt/ &middot; <em>KAHT</em></dd><dt>Русский</dt><dd>раскладушка, походная кровать</dd><dt>Plural</dt><dd><em>cots</em></dd><dt>Countability</dt><dd>countable</dd><dt>Contrast</dt><dd>In American English a <em>cot</em> is a folding camp bed; in British English it means a baby's crib.</dd></dl>
+<p>A light folding bed, easy to set up and put away.</p>
+<ol><li>We put a <em>cot</em> in the office for guests.</li><li>The shelter set up a hundred <em>cots</em> in the gym.</li><li>A <em>cot</em> is fine — I can sleep anywhere.</li></ol>
+<hr>
+<h3 id="cradle">cradle<a class="hash" href="#cradle" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/ˈkreɪdəl/ &middot; <em>KRAY-duhl</em></dd><dt>Русский</dt><dd>колыбель, люлька</dd><dt>Plural</dt><dd><em>cradles</em></dd><dt>Countability</dt><dd>countable</dd></dl>
+<p>A small bed for a newborn that rocks from side to side.</p>
+<ol><li>The baby slept in a <em>cradle</em> beside their bed.</li><li>He carved the <em>cradle</em> himself.</li><li>Antique <em>cradles</em> sell for a lot at auction.</li></ol>
+<hr>
+<h3 id="futon">futon<a class="hash" href="#futon" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/ˈfuːtɑːn/ &middot; <em>FOO-tahn</em></dd><dt>Русский</dt><dd>футон, диван-кровать</dd><dt>Plural</dt><dd><em>futons</em></dd><dt>Countability</dt><dd>countable</dd></dl>
+<p>A padded mattress on a frame that folds out from a couch into a bed.</p>
+<ol><li>I slept on their <em>futon</em> for three months.</li><li>The <em>futon</em> folds flat in about ten seconds.</li><li>College apartments are full of secondhand <em>futons</em>.</li></ol>
+<hr>
+<h3 id="hammock">hammock<a class="hash" href="#hammock" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/ˈhæmək/ &middot; <em>HAM-uhk</em></dd><dt>Русский</dt><dd>гамак</dd><dt>Plural</dt><dd><em>hammocks</em></dd><dt>Countability</dt><dd>countable</dd></dl>
+<p>A hanging bed of cloth or netting slung between two supports.</p>
+<ol><li>He spent the whole afternoon in the <em>hammock</em>.</li><li>We strung a <em>hammock</em> between two trees.</li><li>The porch has two <em>hammocks</em> and not much else.</li></ol>
+<hr>
+<h3 id="nightstand">nightstand<a class="hash" href="#nightstand" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/ˈnaɪtstænd/ &middot; <em>NYT-stand</em></dd><dt>Русский</dt><dd>прикроватная тумбочка</dd><dt>Plural</dt><dd><em>nightstands</em></dd><dt>Countability</dt><dd>countable</dd><dt>Contrast</dt><dd>The <em>gh</em> is silent, exactly as in <em>night</em>: NYT-stand.</dd></dl>
+<p>A small table next to a bed.</p>
+<ol><li>My glasses are on the <em>nightstand</em>.</li><li>There's a matching <em>nightstand</em> on each side of the bed.</li><li>She keeps a glass of water and a book on her <em>nightstand</em>.</li></ol>
+<hr>
+<h3 id="dresser">dresser<a class="hash" href="#dresser" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/ˈdresər/ &middot; <em>DRES-ur</em></dd><dt>Русский</dt><dd>комод</dd><dt>Plural</dt><dd><em>dressers</em></dd><dt>Countability</dt><dd>countable</dd><dt>Contrast</dt><dd>American <em>dresser</em> is British <em>chest of drawers</em>.</dd></dl>
+<p>A low chest of drawers for clothes, usually in a bedroom.</p>
+<ol><li>Your socks are in the top drawer of the <em>dresser</em>.</li><li>We refinished an old <em>dresser</em> we found at a thrift store.</li><li>Both <em>dressers</em> are too big for that room.</li></ol>
+<hr>
+<h3 id="wardrobe">wardrobe<a class="hash" href="#wardrobe" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/ˈwɔːrdroʊb/ &middot; <em>WOR-drohb</em></dd><dt>Русский</dt><dd>платяной шкаф; гардероб</dd><dt>Plural</dt><dd><em>wardrobes</em></dd><dt>Countability</dt><dd>countable</dd><dt>Contrast</dt><dd>In the US a <em>wardrobe</em> is a freestanding piece of furniture; built-in storage in the wall is a <em>closet</em>.</dd></dl>
+<p>A tall freestanding cupboard for hanging clothes.</p>
+<ol><li>The old house has no closets, just a <em>wardrobe</em> in each room.</li><li>They hauled the <em>wardrobe</em> up two flights of stairs.</li><li>Antique <em>wardrobes</em> barely fit through modern doorways.</li></ol>
+<hr>
+<h3 id="armoire">armoire<a class="hash" href="#armoire" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/ɑːrmˈwɑːr/ &middot; <em>arm-WAHR</em></dd><dt>Русский</dt><dd>большой платяной шкаф</dd><dt>Plural</dt><dd><em>armoires</em></dd><dt>Countability</dt><dd>countable</dd><dt>Contrast</dt><dd>A French borrowing: <em>-oire</em> is said /wɑːr/, so it ends like the word <em>war</em>.</dd></dl>
+<p>A large ornate cabinet for clothes or a television.</p>
+<ol><li>The TV is hidden inside that <em>armoire</em>.</li><li>She inherited a walnut <em>armoire</em> from her grandmother.</li><li>Two <em>armoires</em> took up most of the bedroom.</li></ol>
+<hr>
+<h3 id="vanity">vanity<a class="hash" href="#vanity" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/ˈvænəti/ &middot; <em>VAN-uh-tee</em></dd><dt>Русский</dt><dd>туалетный столик; тумба с раковиной</dd><dt>Plural</dt><dd><em>vanities</em></dd><dt>Countability</dt><dd>countable</dd></dl>
+<p>A dressing table with a mirror, or a bathroom cabinet built under the sink.</p>
+<ol><li>The bathroom <em>vanity</em> has a cracked countertop.</li><li>She sat at the <em>vanity</em> doing her hair.</li><li>We're replacing both <em>vanities</em> next month.</li></ol>
+<hr>
+<h3 id="pillow">pillow<a class="hash" href="#pillow" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/ˈpɪloʊ/ &middot; <em>PIL-oh</em></dd><dt>Русский</dt><dd>подушка</dd><dt>Plural</dt><dd><em>pillows</em></dd><dt>Countability</dt><dd>countable</dd></dl>
+<p>A cloth bag filled with soft material that you rest your head on.</p>
+<ol><li>This <em>pillow</em> is completely flat.</li><li>He sleeps with three <em>pillows</em>.</li><li>She cried into her <em>pillow</em>.</li></ol>
+<hr>
+<h3 id="pillowcase">pillowcase<a class="hash" href="#pillowcase" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/ˈpɪloʊkeɪs/ &middot; <em>PIL-oh-kayss</em></dd><dt>Русский</dt><dd>наволочка</dd><dt>Plural</dt><dd><em>pillowcases</em></dd><dt>Countability</dt><dd>countable</dd></dl>
+<p>The removable cloth cover that slips over a pillow.</p>
+<ol><li>Put a clean <em>pillowcase</em> on before your mother gets here.</li><li>The <em>pillowcases</em> don't match the sheets.</li><li>He used a <em>pillowcase</em> to carry his laundry.</li></ol>
+<hr>
+<h3 id="blanket">blanket<a class="hash" href="#blanket" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/ˈblæŋkɪt/ &middot; <em>BLANG-kit</em></dd><dt>Русский</dt><dd>одеяло, плед</dd><dt>Plural</dt><dd><em>blankets</em></dd><dt>Countability</dt><dd>countable</dd><dt>Contrast</dt><dd>The <em>n</em> before <em>k</em> is pronounced /ŋ/, so it sounds like BLANG-kit, not BLAN-kit.</dd></dl>
+<p>A large piece of thick cloth used to keep warm in bed.</p>
+<ol><li>Grab an extra <em>blanket</em> — it's freezing tonight.</li><li>There are wool <em>blankets</em> in the hall closet.</li><li>She wrapped a <em>blanket</em> around her shoulders.</li></ol>
+<hr>
+<h3 id="quilt">quilt<a class="hash" href="#quilt" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/kwɪlt/ &middot; <em>KWILT</em></dd><dt>Русский</dt><dd>стёганое одеяло, лоскутное одеяло</dd><dt>Plural</dt><dd><em>quilts</em></dd><dt>Countability</dt><dd>countable</dd></dl>
+<p>A thick bed cover made of two layers stitched together with padding between.</p>
+<ol><li>My grandmother made this <em>quilt</em> by hand.</li><li>The <em>quilts</em> hanging on the wall are all family heirlooms.</li><li>He pulled the <em>quilt</em> up to his chin.</li></ol>
+<hr>
+<h3 id="comforter">comforter<a class="hash" href="#comforter" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/ˈkʌmfərtər/ &middot; <em>KUM-fur-tur</em></dd><dt>Русский</dt><dd>толстое стёганое одеяло</dd><dt>Plural</dt><dd><em>comforters</em></dd><dt>Countability</dt><dd>countable</dd><dt>Contrast</dt><dd>American <em>comforter</em> is roughly the British <em>duvet</em> — and Americans sell duvets separately, as a cover.</dd></dl>
+<p>A thick padded bed cover, usually filled with down or synthetic fiber.</p>
+<ol><li>The <em>comforter</em> barely fits in the washing machine.</li><li>We got a new <em>comforter</em> set on sale.</li><li>Down <em>comforters</em> are warm but expensive.</li></ol>
+<hr>
+<h3 id="duvet">duvet<a class="hash" href="#duvet" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/duːˈveɪ/ &middot; <em>doo-VAY</em></dd><dt>Русский</dt><dd>пуховое одеяло</dd><dt>Plural</dt><dd><em>duvets</em></dd><dt>Countability</dt><dd>countable</dd><dt>Contrast</dt><dd>A French borrowing: the final <em>t</em> is silent and the stress falls on the second syllable — doo-VAY.</dd></dl>
+<p>A soft quilt filled with down, used with a removable cover.</p>
+<ol><li>The <em>duvet</em> cover is in the wash.</li><li>She shook out the <em>duvet</em> and remade the bed.</li><li>Hotel <em>duvets</em> are always too hot for me.</li></ol>
+<hr>
+<h3 id="bedspread">bedspread<a class="hash" href="#bedspread" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/ˈbedspred/ &middot; <em>BED-spred</em></dd><dt>Русский</dt><dd>покрывало</dd><dt>Plural</dt><dd><em>bedspreads</em></dd><dt>Countability</dt><dd>countable</dd></dl>
+<p>A decorative cover laid over a made bed.</p>
+<ol><li>The motel <em>bedspread</em> had seen better days.</li><li>She smoothed the <em>bedspread</em> and stepped back.</li><li>All the <em>bedspreads</em> in the catalog were beige.</li></ol>
+<hr>
+<h3 id="bedding">bedding<a class="hash" href="#bedding" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/ˈbedɪŋ/ &middot; <em>BED-ing</em></dd><dt>Русский</dt><dd>постельные принадлежности</dd><dt>Countability</dt><dd>uncountable</dd><dt>Contrast</dt><dd>Uncountable: <em>some bedding</em>, <em>a lot of bedding</em> — never <em>a bedding</em> or <em>beddings</em>.</dd></dl>
+<p>Sheets, blankets, and pillows taken together.</p>
+<ol><li>Bring your own <em>bedding</em> if you're staying over.</li><li>All the <em>bedding</em> needs to be washed after the trip.</li><li>The camp provides cots but no <em>bedding</em>.</li></ol>
+<hr>
+<h3 id="linen">linen<a class="hash" href="#linen" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/ˈlɪnən/ &middot; <em>LIN-uhn</em></dd><dt>Русский</dt><dd>лён (ткань); постельное и столовое бельё</dd><dt>Countability</dt><dd>uncountable</dd></dl>
+<p>Cloth woven from flax, or the household cloth goods made from it.</p>
+<ol><li>The tablecloth is heavy <em>linen</em>.</li><li>Fresh <em>linen</em> is stored in the hall closet.</li><li>He wore a rumpled <em>linen</em> jacket.</li></ol>
+<hr>
+<h3 id="bookcase">bookcase<a class="hash" href="#bookcase" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/ˈbʊkkeɪs/ &middot; <em>BUUK-kayss</em></dd><dt>Русский</dt><dd>книжный шкаф</dd><dt>Plural</dt><dd><em>bookcases</em></dd><dt>Countability</dt><dd>countable</dd></dl>
+<p>A piece of furniture with shelves for books.</p>
+<ol><li>The <em>bookcase</em> runs the whole length of the wall.</li><li>We anchored the <em>bookcases</em> so they can't tip over.</li><li>There's a <em>bookcase</em> in every room of that house.</li></ol>
+<hr>
+<h3 id="trunk">trunk<a class="hash" href="#trunk" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/trʌŋk/ &middot; <em>TRUNGK</em></dd><dt>Русский</dt><dd>сундук, дорожный сундук</dd><dt>Plural</dt><dd><em>trunks</em></dd><dt>Countability</dt><dd>countable</dd></dl>
+<p>A large reinforced case or box for storing or carrying belongings.</p>
+<ol><li>Her old costumes are in a <em>trunk</em> in the basement.</li><li>The attic was full of dusty <em>trunks</em>.</li><li>He sat on the <em>trunk</em> to get the lid to close.</li></ol>
+<hr>
+<h3 id="locker">locker<a class="hash" href="#locker" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/ˈlɑːkər/ &middot; <em>LAH-kur</em></dd><dt>Русский</dt><dd>запирающийся шкафчик</dd><dt>Plural</dt><dd><em>lockers</em></dd><dt>Countability</dt><dd>countable</dd></dl>
+<p>A tall narrow cupboard that locks, used in schools and gyms.</p>
+<ol><li>My books are still in my <em>locker</em>.</li><li>The <em>lockers</em> line both sides of the hallway.</li><li>You need a quarter to use the <em>locker</em> at the pool.</li></ol>
+<hr>
+<h3 id="sideboard">sideboard<a class="hash" href="#sideboard" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/ˈsaɪdbɔːrd/ &middot; <em>SYD-bord</em></dd><dt>Русский</dt><dd>буфет, сервант</dd><dt>Plural</dt><dd><em>sideboards</em></dd><dt>Countability</dt><dd>countable</dd></dl>
+<p>A long low cabinet in a dining room for dishes and linens.</p>
+<ol><li>The good china lives in the <em>sideboard</em>.</li><li>She set the desserts out on the <em>sideboard</em>.</li><li>Old <em>sideboards</em> are heavy as anything.</li></ol>
+<hr>
+<h3 id="shelving">shelving<a class="hash" href="#shelving" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/ˈʃelvɪŋ/ &middot; <em>SHEL-ving</em></dd><dt>Русский</dt><dd>стеллажи, полки</dd><dt>Countability</dt><dd>uncountable</dd><dt>Contrast</dt><dd>Uncountable, unlike the countable <em>shelf</em>: <em>a lot of shelving</em>, never <em>a shelving</em>.</dd></dl>
+<p>Shelves considered together, or the material they are made from.</p>
+<ol><li>We put up metal <em>shelving</em> along the garage wall.</li><li>The basement needs more <em>shelving</em>.</li><li>Adjustable <em>shelving</em> costs a little more but it's worth it.</li></ol>
+<hr>
+<h3 id="basket">basket<a class="hash" href="#basket" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/ˈbæskɪt/ &middot; <em>BAS-kit</em></dd><dt>Русский</dt><dd>корзина</dd><dt>Plural</dt><dd><em>baskets</em></dd><dt>Countability</dt><dd>countable</dd></dl>
+<p>A container woven from cane, wire, or plastic strips.</p>
+<ol><li>Toss the mail in the <em>basket</em> by the door.</li><li>She lines the <em>baskets</em> with cloth napkins.</li><li>There's a wicker <em>basket</em> under the bench for hats and gloves.</li></ol>
+<hr>
+<h3 id="hamper">hamper<a class="hash" href="#hamper" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/ˈhæmpər/ &middot; <em>HAM-pur</em></dd><dt>Русский</dt><dd>корзина для грязного белья</dd><dt>Plural</dt><dd><em>hampers</em></dd><dt>Countability</dt><dd>countable</dd><dt>Contrast</dt><dd>In American English a <em>hamper</em> holds dirty laundry; in British English it's a basket of food given as a gift.</dd></dl>
+<p>A tall lidded basket for dirty laundry.</p>
+<ol><li>Put your shirt in the <em>hamper</em>, not on the floor.</li><li>The <em>hamper</em> is overflowing again.</li><li>We keep separate <em>hampers</em> for darks and whites.</li></ol>
+<hr>
+<h3 id="bin">bin<a class="hash" href="#bin" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/bɪn/ &middot; <em>BIN</em></dd><dt>Русский</dt><dd>контейнер, ящик для хранения</dd><dt>Plural</dt><dd><em>bins</em></dd><dt>Countability</dt><dd>countable</dd><dt>Contrast</dt><dd>In the US a <em>bin</em> is a storage container; in British English <em>the bin</em> means the trash can.</dd></dl>
+<p>A deep container for storing or sorting things.</p>
+<ol><li>The winter clothes are in a plastic <em>bin</em> in the attic.</li><li>Label the <em>bins</em> so we know what's in them.</li><li>He dumped the toys into the storage <em>bin</em>.</li></ol>
+<hr>
+<h3 id="hanger">hanger<a class="hash" href="#hanger" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/ˈhæŋər/ &middot; <em>HANG-ur</em></dd><dt>Русский</dt><dd>вешалка-плечики</dd><dt>Plural</dt><dd><em>hangers</em></dd><dt>Countability</dt><dd>countable</dd><dt>Contrast</dt><dd>No /ɡ/ sound: it rhymes with <em>banger</em>, not with <em>finger</em>.</dd></dl>
+<p>A shaped frame with a hook that a garment hangs from.</p>
+<ol><li>There aren't enough <em>hangers</em> in this closet.</li><li>Put your jacket on a <em>hanger</em> so it doesn't wrinkle.</li><li>The dry cleaner gave everything back on wire <em>hangers</em>.</li></ol>
+<hr>
+<h3 id="hook">hook<a class="hash" href="#hook" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/hʊk/ &middot; <em>HUUK</em></dd><dt>Русский</dt><dd>крючок</dd><dt>Plural</dt><dd><em>hooks</em></dd><dt>Countability</dt><dd>countable</dd></dl>
+<p>A curved piece of metal or plastic for hanging things on.</p>
+<ol><li>Your keys are on the <em>hook</em> by the door.</li><li>We screwed a row of <em>hooks</em> into the wall for backpacks.</li><li>The robe hangs on a <em>hook</em> behind the bathroom door.</li></ol>
+<hr>
+<h3 id="wastebasket">wastebasket<a class="hash" href="#wastebasket" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/ˈweɪstbæskɪt/ &middot; <em>WAYST-bas-kit</em></dd><dt>Русский</dt><dd>мусорная корзина</dd><dt>Plural</dt><dd><em>wastebaskets</em></dd><dt>Countability</dt><dd>countable</dd></dl>
+<p>A small container for paper and other dry trash.</p>
+<ol><li>He crumpled the letter and tossed it in the <em>wastebasket</em>.</li><li>Every office has a <em>wastebasket</em> under the desk.</li><li>The cleaners empty the <em>wastebaskets</em> at night.</li></ol>
+<hr>
+<h3 id="drapes">drapes<a class="hash" href="#drapes" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/dreɪps/ &middot; <em>DRAYPS</em></dd><dt>Русский</dt><dd>плотные шторы, портьеры</dd><dt>Plural</dt><dd><em>drapes</em></dd><dt>Countability</dt><dd>countable</dd><dt>Contrast</dt><dd>Nearly always plural in American English; the singular <em>drape</em> for one panel is rare in speech.</dd></dl>
+<p>Heavy lined curtains that hang to the floor.</p>
+<ol><li>The <em>drapes</em> in the dining room block out all the light.</li><li>They had the <em>drapes</em> custom made.</li><li>Velvet <em>drapes</em> collect an incredible amount of dust.</li></ol>
+<hr>
+<h3 id="rug">rug<a class="hash" href="#rug" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/rʌɡ/ &middot; <em>RUG</em></dd><dt>Русский</dt><dd>коврик, небольшой ковёр</dd><dt>Plural</dt><dd><em>rugs</em></dd><dt>Countability</dt><dd>countable</dd></dl>
+<p>A loose piece of thick fabric covering part of a floor.</p>
+<ol><li>The <em>rug</em> keeps sliding around on the wood floor.</li><li>She bought two matching <em>rugs</em> for the bedroom.</li><li>Just sweep it under the <em>rug</em> — nobody will notice.</li></ol>
+<hr>
+<h3 id="mat">mat<a class="hash" href="#mat" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/mæt/ &middot; <em>MAT</em></dd><dt>Русский</dt><dd>коврик, подстилка</dd><dt>Plural</dt><dd><em>mats</em></dd><dt>Countability</dt><dd>countable</dd></dl>
+<p>A small flat piece of material placed on the floor for a specific purpose.</p>
+<ol><li>Wipe your feet on the <em>mat</em>.</li><li>We keep a rubber <em>mat</em> in front of the sink.</li><li>The bath <em>mats</em> are in the linen closet.</li></ol>
+<hr>
+<h3 id="doormat">doormat<a class="hash" href="#doormat" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/ˈdɔːrmæt/ &middot; <em>DOR-mat</em></dd><dt>Русский</dt><dd>дверной коврик</dd><dt>Plural</dt><dd><em>doormats</em></dd><dt>Countability</dt><dd>countable</dd></dl>
+<p>A rough mat outside a door for cleaning your shoes.</p>
+<ol><li>The spare key is not under the <em>doormat</em> — that's the first place people look.</li><li>Our <em>doormat</em> says GO AWAY, which the neighbors find hilarious.</li><li>They sell those <em>doormats</em> at the hardware store.</li></ol>
+<hr>
+<h3 id="placemat">placemat<a class="hash" href="#placemat" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/ˈpleɪsmæt/ &middot; <em>PLAYSS-mat</em></dd><dt>Русский</dt><dd>салфетка под тарелку</dd><dt>Plural</dt><dd><em>placemats</em></dd><dt>Countability</dt><dd>countable</dd></dl>
+<p>A small mat set under each person's plate at the table.</p>
+<ol><li>Set a <em>placemat</em> at every seat.</li><li>The vinyl <em>placemats</em> wipe clean in a second.</li><li>She made a <em>placemat</em> out of scrap fabric.</li></ol>
+<hr>
+<h3 id="towel">towel<a class="hash" href="#towel" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/ˈtaʊrl/ &middot; <em>TOW-uhl</em></dd><dt>Русский</dt><dd>полотенце</dd><dt>Plural</dt><dd><em>towels</em></dd><dt>Countability</dt><dd>countable</dd><dt>Contrast</dt><dd>Two syllables, rhyming with <em>vowel</em>; keep it distinct from <em>tower</em>, which ends in an r sound.</dd></dl>
+<p>A piece of absorbent cloth for drying yourself or something else.</p>
+<ol><li>There's a clean <em>towel</em> in the bathroom for you.</li><li>The beach <em>towels</em> are still in the car.</li><li>He dried his hands on a dish <em>towel</em>.</li></ol>
+<hr>
+<h3 id="fabric">fabric<a class="hash" href="#fabric" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/ˈfæbrɪk/ &middot; <em>FAB-rik</em></dd><dt>Русский</dt><dd>ткань, материя</dd><dt>Plural</dt><dd><em>fabrics</em></dd><dt>Countability</dt><dd>countable, and uncountable as a substance</dd></dl>
+<p>Cloth made by weaving or knitting.</p>
+<ol><li>We picked a heavy <em>fabric</em> for the curtains.</li><li>The store carries upholstery <em>fabrics</em> by the yard.</li><li>That <em>fabric</em> wrinkles if you look at it wrong.</li></ol>
+<hr>
+<h3 id="cloth">cloth<a class="hash" href="#cloth" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/klɔːθ/ &middot; <em>KLAWTH</em></dd><dt>Русский</dt><dd>ткань; тряпка</dd><dt>Plural</dt><dd><em>cloths</em></dd><dt>Countability</dt><dd>countable, and uncountable as a substance</dd><dt>Contrast</dt><dd>Ends in the voiceless /θ/ and the plural is <em>cloths</em> — quite different from <em>clothes</em>, which sounds like <em>close</em>.</dd></dl>
+<p>Woven material, or a small piece of it used for cleaning.</p>
+<ol><li>Wipe the counter with a damp <em>cloth</em>.</li><li>The chair is covered in coarse brown <em>cloth</em>.</li><li>Keep a few clean <em>cloths</em> under the sink.</li></ol>
+<hr>
+<h3 id="upholstery">upholstery<a class="hash" href="#upholstery" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/ʌpˈhoʊlstəri/ &middot; <em>up-HOHL-stuh-ree</em></dd><dt>Русский</dt><dd>обивка (мебели)</dd><dt>Countability</dt><dd>uncountable</dd><dt>Contrast</dt><dd>Four syllables with the stress on the second — up-HOHL-stuh-ree, not UP-hol-stry.</dd></dl>
+<p>The padding and fabric covering a piece of soft furniture.</p>
+<ol><li>The <em>upholstery</em> on that chair is worn through at the arms.</li><li>Leather <em>upholstery</em> costs extra.</li><li>He does <em>upholstery</em> work out of his garage.</li></ol>
+<hr>
+<h3 id="lamp">lamp<a class="hash" href="#lamp" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/læmp/ &middot; <em>LAMP</em></dd><dt>Русский</dt><dd>лампа, светильник</dd><dt>Plural</dt><dd><em>lamps</em></dd><dt>Countability</dt><dd>countable</dd></dl>
+<p>A device holding a bulb that gives light in a room.</p>
+<ol><li>Turn on the <em>lamp</em> — you'll ruin your eyes.</li><li>There's a reading <em>lamp</em> beside the bed.</li><li>Both <em>lamps</em> in the living room need new bulbs.</li></ol>
+<hr>
+<h3 id="lampshade">lampshade<a class="hash" href="#lampshade" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/ˈlæmpʃeɪd/ &middot; <em>LAMP-shayd</em></dd><dt>Русский</dt><dd>абажур</dd><dt>Plural</dt><dd><em>lampshades</em></dd><dt>Countability</dt><dd>countable</dd></dl>
+<p>The cover over a bulb that softens or directs the light.</p>
+<ol><li>The cat knocked the <em>lampshade</em> crooked again.</li><li>A paper <em>lampshade</em> yellows over time.</li><li>They sell replacement <em>lampshades</em> at the hardware store.</li></ol>
+<hr>
+<h3 id="chandelier">chandelier<a class="hash" href="#chandelier" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/ˌʃændəˈlɪr/ &middot; <em>shan-duh-LEER</em></dd><dt>Русский</dt><dd>люстра</dd><dt>Plural</dt><dd><em>chandeliers</em></dd><dt>Countability</dt><dd>countable</dd><dt>Contrast</dt><dd>The <em>ch</em> is said /ʃ/ like <em>sh</em>, and the stress lands on the last syllable: shan-duh-LEER.</dd></dl>
+<p>A large branched light fixture that hangs from the ceiling.</p>
+<ol><li>A crystal <em>chandelier</em> hangs over the dining table.</li><li>Cleaning the <em>chandelier</em> takes half a day.</li><li>The lobby had two enormous <em>chandeliers</em>.</li></ol>
+<hr>
+<h3 id="bulb">bulb<a class="hash" href="#bulb" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/bʌlb/ &middot; <em>BULB</em></dd><dt>Русский</dt><dd>лампочка</dd><dt>Plural</dt><dd><em>bulbs</em></dd><dt>Countability</dt><dd>countable</dd></dl>
+<p>The glass part of a lamp that produces light.</p>
+<ol><li>The <em>bulb</em> in the hallway burned out.</li><li>We switched all the <em>bulbs</em> over to LEDs.</li><li>Get a sixty-watt <em>bulb</em> while you're at the store.</li></ol>
+<hr>
+<h3 id="fixture">fixture<a class="hash" href="#fixture" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/ˈfɪkstʃər/ &middot; <em>FIKS-chur</em></dd><dt>Русский</dt><dd>встроенный светильник; сантехнический прибор</dd><dt>Plural</dt><dd><em>fixtures</em></dd><dt>Countability</dt><dd>countable</dd></dl>
+<p>Something attached permanently to a building, such as a light or a sink.</p>
+<ol><li>The ceiling <em>fixture</em> is original to the house.</li><li>We replaced all the bathroom <em>fixtures</em>.</li><li>The price includes the appliances but not the light <em>fixtures</em>.</li></ol>
+<hr>
+<h3 id="mirror">mirror<a class="hash" href="#mirror" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/ˈmɪrər/ &middot; <em>MIH-rur</em></dd><dt>Русский</dt><dd>зеркало</dd><dt>Plural</dt><dd><em>mirrors</em></dd><dt>Countability</dt><dd>countable</dd><dt>Contrast</dt><dd>Two syllables, both r sounds pronounced: MIH-rur, not MEER.</dd></dl>
+<p>A piece of glass with a backing that reflects what is in front of it.</p>
+<ol><li>There's a full-length <em>mirror</em> on the closet door.</li><li>She checked her hair in the <em>mirror</em> one more time.</li><li>The gym has <em>mirrors</em> on every wall.</li></ol>
+<hr>
+<h3 id="vase">vase<a class="hash" href="#vase" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/veɪs/ &middot; <em>VAYSS</em></dd><dt>Русский</dt><dd>ваза</dd><dt>Plural</dt><dd><em>vases</em></dd><dt>Countability</dt><dd>countable</dd><dt>Contrast</dt><dd>Americans say VAYSS, rhyming with <em>face</em>; the British say VAHZ.</dd></dl>
+<p>A container for holding cut flowers.</p>
+<ol><li>Put the roses in a <em>vase</em> before they wilt.</li><li>He knocked over the <em>vase</em> reaching for the remote.</li><li>The shelf is lined with little glass <em>vases</em>.</li></ol>
+<hr>
+<h3 id="painting">painting<a class="hash" href="#painting" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/ˈpeɪntɪŋ/ &middot; <em>PAYN-ting</em></dd><dt>Русский</dt><dd>картина; живопись</dd><dt>Plural</dt><dd><em>paintings</em></dd><dt>Countability</dt><dd>both — countable and uncountable with different meanings</dd></dl>
+<p>A picture made with paint, or the art of making such pictures.</p>
+<ol><li>There's a big <em>painting</em> of the coast over the fireplace.</li><li>She sold three <em>paintings</em> at the fair.</li><li>He took up <em>painting</em> after he retired.</li></ol>
+<hr>
+<h3 id="picture">picture<a class="hash" href="#picture" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/ˈpɪktʃər/ &middot; <em>PIK-chur</em></dd><dt>Русский</dt><dd>картина, изображение, фотография</dd><dt>Plural</dt><dd><em>pictures</em></dd><dt>Countability</dt><dd>countable</dd><dt>Contrast</dt><dd>PIK-chur — do not confuse it with <em>pitcher</em> (PICH-ur), the jug you pour from.</dd></dl>
+<p>A painting, drawing, or photograph, especially one hung on a wall.</p>
+<ol><li>That <em>picture</em> has been crooked for a year.</li><li>The hallway is covered in <em>pictures</em> of the grandkids.</li><li>He hung a <em>picture</em> to cover the hole in the plaster.</li></ol>
+<hr>
+<h3 id="poster">poster<a class="hash" href="#poster" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/ˈpoʊstər/ &middot; <em>POH-stur</em></dd><dt>Русский</dt><dd>плакат, постер</dd><dt>Plural</dt><dd><em>posters</em></dd><dt>Countability</dt><dd>countable</dd></dl>
+<p>A large printed sheet put on a wall for decoration or advertising.</p>
+<ol><li>He still has a band <em>poster</em> from high school on his wall.</li><li>The <em>posters</em> were held up with tape and prayer.</li><li>She framed a movie <em>poster</em> for the hallway.</li></ol>
+<hr>
+<h3 id="clock">clock<a class="hash" href="#clock" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/klɑːk/ &middot; <em>KLAHK</em></dd><dt>Русский</dt><dd>часы (настенные, настольные)</dd><dt>Plural</dt><dd><em>clocks</em></dd><dt>Countability</dt><dd>countable</dd><dt>Contrast</dt><dd>A <em>clock</em> stands or hangs; the one you wear is a <em>watch</em>. Countable, unlike Russian <em>часы</em>: <em>a clock</em>, <em>two clocks</em>.</dd></dl>
+<p>A device that shows the time, standing on a surface or hung on a wall.</p>
+<ol><li>The kitchen <em>clock</em> runs five minutes fast.</li><li>We had to reset all the <em>clocks</em> after the power went out.</li><li>There's an old grandfather <em>clock</em> in the hall.</li></ol>
+<hr>
+<h3 id="candle">candle<a class="hash" href="#candle" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/ˈkændəl/ &middot; <em>KAN-duhl</em></dd><dt>Русский</dt><dd>свеча</dd><dt>Plural</dt><dd><em>candles</em></dd><dt>Countability</dt><dd>countable</dd></dl>
+<p>A stick of wax with a wick, burned for light or scent.</p>
+<ol><li>Light a <em>candle</em> — the power's out.</li><li>She burns scented <em>candles</em> in the bathroom.</li><li>The <em>candle</em> dripped wax all over the tablecloth.</li></ol>
+<hr>
+<h3 id="candlestick">candlestick<a class="hash" href="#candlestick" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/ˈkændəlstɪk/ &middot; <em>KAN-duhl-stik</em></dd><dt>Русский</dt><dd>подсвечник</dd><dt>Plural</dt><dd><em>candlesticks</em></dd><dt>Countability</dt><dd>countable</dd></dl>
+<p>A holder with a socket for one candle.</p>
+<ol><li>A brass <em>candlestick</em> sat at each end of the table.</li><li>The silver <em>candlesticks</em> only come out for company.</li><li>She polished the <em>candlestick</em> until it gleamed.</li></ol>
+<hr>
+<h3 id="ornament">ornament<a class="hash" href="#ornament" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/ˈɔːrnəmənt/ &middot; <em>OR-nuh-muhnt</em></dd><dt>Русский</dt><dd>украшение; ёлочная игрушка</dd><dt>Plural</dt><dd><em>ornaments</em></dd><dt>Countability</dt><dd>countable</dd></dl>
+<p>A small decorative object, especially one hung on a Christmas tree.</p>
+<ol><li>One glass <em>ornament</em> broke on the way down from the attic.</li><li>The tree is loaded with homemade <em>ornaments</em>.</li><li>She keeps each <em>ornament</em> wrapped in tissue paper.</li></ol>
+<hr>
+<h3 id="decoration">decoration<a class="hash" href="#decoration" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/ˌdekəˈreɪʃən/ &middot; <em>dek-uh-RAY-shuhn</em></dd><dt>Русский</dt><dd>украшение; оформление</dd><dt>Plural</dt><dd><em>decorations</em></dd><dt>Countability</dt><dd>both — countable and uncountable with different meanings</dd></dl>
+<p>An object added to make a place look nicer, or the act of decorating.</p>
+<ol><li>The <em>decorations</em> stay up until after New Year's.</li><li>That vase is just <em>decoration</em> — nobody puts flowers in it.</li><li>We hung one <em>decoration</em> in every window.</li></ol>
+<hr>
+<h3 id="decor">decor<a class="hash" href="#decor" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/deɪˈkɔːr/ &middot; <em>day-KOR</em></dd><dt>Русский</dt><dd>убранство, декор</dd><dt>Countability</dt><dd>uncountable</dd><dt>Contrast</dt><dd>A French borrowing with the stress on the second syllable — day-KOR, not DAY-kor.</dd></dl>
+<p>The overall style and furnishings of a room.</p>
+<ol><li>The <em>decor</em> hasn't changed since the seventies.</li><li>She has a real eye for <em>decor</em>.</li><li>The restaurant's <em>decor</em> is all dark wood and brass.</li></ol>
+<hr>
+<h3 id="antique">antique<a class="hash" href="#antique" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/ænˈtiːk/ &middot; <em>an-TEEK</em></dd><dt>Русский</dt><dd>антикварная вещь, старинный предмет</dd><dt>Plural</dt><dd><em>antiques</em></dd><dt>Countability</dt><dd>countable</dd><dt>Contrast</dt><dd>Stress on the second syllable and <em>-que</em> is just /k/: an-TEEK, not AN-tikw.</dd></dl>
+<p>An old object valued for its age and craftsmanship.</p>
+<ol><li>That desk is a genuine <em>antique</em>.</li><li>They sell <em>antiques</em> out of a barn off the highway.</li><li>Half the furniture in the house is an <em>antique</em> of some kind.</li></ol>
+<hr>
+<h3 id="furnishings">furnishings<a class="hash" href="#furnishings" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/ˈfɜːrnɪʃɪŋz/ &middot; <em>FUR-nish-ingz</em></dd><dt>Русский</dt><dd>обстановка, предметы интерьера</dd><dt>Plural</dt><dd><em>furnishings</em></dd><dt>Countability</dt><dd>countable</dd><dt>Contrast</dt><dd>Always plural and takes a plural verb: <em>the furnishings are</em>, never <em>a furnishing</em>.</dd></dl>
+<p>The furniture, curtains, and fittings that make up a room.</p>
+<ol><li>The apartment comes with all the <em>furnishings</em>.</li><li>They spent more on <em>furnishings</em> than on the car.</li><li>The <em>furnishings</em> were sold off piece by piece.</li></ol>
+<hr>
+<h3 id="knob">knob<a class="hash" href="#knob" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/nɑːb/ &middot; <em>NAHB</em></dd><dt>Русский</dt><dd>круглая ручка</dd><dt>Plural</dt><dd><em>knobs</em></dd><dt>Countability</dt><dd>countable</dd><dt>Contrast</dt><dd>The <em>k</em> is silent, as in <em>knife</em> and <em>knee</em>: NAHB.</dd></dl>
+<p>A round handle you turn or pull.</p>
+<ol><li>The <em>knob</em> on the oven is missing.</li><li>New cabinet <em>knobs</em> can change the whole look of a kitchen.</li><li>He turned the <em>knob</em> slowly so it wouldn't creak.</li></ol>
+<hr>
+<h3 id="latch">latch<a class="hash" href="#latch" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/lætʃ/ &middot; <em>LACH</em></dd><dt>Русский</dt><dd>щеколда, защёлка</dd><dt>Plural</dt><dd><em>latches</em></dd><dt>Countability</dt><dd>countable</dd></dl>
+<p>A simple fastening that holds a door, gate, or lid shut.</p>
+<ol><li>Make sure the <em>latch</em> catches or the gate blows open.</li><li>The <em>latch</em> on the toolbox is broken.</li><li>Childproof <em>latches</em> went on every low cabinet.</li></ol>
+<hr>
+<h3 id="screw">screw<a class="hash" href="#screw" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/skruː/ &middot; <em>SKROO</em></dd><dt>Русский</dt><dd>шуруп, винт</dd><dt>Plural</dt><dd><em>screws</em></dd><dt>Countability</dt><dd>countable</dd></dl>
+<p>A pointed metal fastener with a spiral thread, turned with a screwdriver.</p>
+<ol><li>One <em>screw</em> is missing from the shelf bracket.</li><li>The bookcase came with a bag of <em>screws</em> and no instructions.</li><li>Don't overtighten the <em>screw</em> or you'll strip the wood.</li></ol>
+<hr>
+<h3 id="hardware">hardware<a class="hash" href="#hardware" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/ˈhɑːrdwer/ &middot; <em>HARD-wair</em></dd><dt>Русский</dt><dd>фурнитура, скобяные изделия</dd><dt>Countability</dt><dd>uncountable</dd><dt>Contrast</dt><dd>Uncountable: <em>some hardware</em>, <em>a piece of hardware</em> — never <em>a hardware</em> or <em>hardwares</em>.</dd></dl>
+<p>The metal fittings of furniture and buildings — handles, hinges, screws, and locks.</p>
+<ol><li>The dresser is solid, but the <em>hardware</em> is cheap.</li><li>We picked up some <em>hardware</em> at the store on the corner.</li><li>All the <em>hardware</em> in the kitchen is brushed nickel.</li></ol>
+<hr>
+<h3 id="rod">rod<a class="hash" href="#rod" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/rɑːd/ &middot; <em>RAHD</em></dd><dt>Русский</dt><dd>штанга; карниз для штор</dd><dt>Plural</dt><dd><em>rods</em></dd><dt>Countability</dt><dd>countable</dd></dl>
+<p>A long thin bar, especially the one a curtain hangs from.</p>
+<ol><li>The curtain <em>rod</em> pulled right out of the drywall.</li><li>We need a longer <em>rod</em> for that window.</li><li>Both closet <em>rods</em> are sagging under all those clothes.</li></ol>
+<hr>
+<h3 id="molding">molding<a class="hash" href="#molding" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/ˈmoʊldɪŋ/ &middot; <em>MOHL-ding</em></dd><dt>Русский</dt><dd>молдинг, декоративный багет</dd><dt>Plural</dt><dd><em>moldings</em></dd><dt>Countability</dt><dd>countable</dd><dt>Contrast</dt><dd>American spelling <em>molding</em>; the British write <em>moulding</em>, with the same pronunciation.</dd></dl>
+<p>A shaped strip of wood or plaster running along a wall or ceiling as trim.</p>
+<ol><li>The crown <em>molding</em> is what sold us on the house.</li><li>They matched the new <em>molding</em> to the original.</li><li>All the <em>moldings</em> were painted over about six times.</li></ol></div></main>
+<button class="themebtn" id="themeBtn">Dark</button>
+<script>
+const tb=document.getElementById('themeBtn');
+function setTheme(x){document.documentElement.dataset.theme=x;tb.textContent=x==='dark'?'Light':'Dark';
+ try{localStorage.setItem('site-theme',x)}catch(e){}}
+tb.onclick=()=>setTheme(document.documentElement.dataset.theme==='dark'?'light':'dark');
+try{const s=localStorage.getItem('site-theme');
+ setTheme(s||(matchMedia('(prefers-color-scheme: dark)').matches?'dark':'light'))}catch(e){setTheme('light')}
+</script></body></html>

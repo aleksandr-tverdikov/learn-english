@@ -1,0 +1,466 @@
+<!DOCTYPE html>
+<html lang="en"><head>
+<meta charset="utf-8"><meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Core vocabulary: tools and hardware</title>
+<style>
+:root{--bg:#faf9f7;--surface:#fff;--surface2:#f2f0ec;--border:#e2ded6;--text:#1a1815;
+--dim:#5f594f;--faint:#8a8377;--accent:#8a5a3b;--measure:72ch}
+@media(prefers-color-scheme:dark){:root{--bg:#14140f;--surface:#1d1d17;--surface2:#25251d;
+--border:#33332a;--text:#eeeae1;--dim:#a8a293;--faint:#7d776b;--accent:#d09b72}}
+:root[data-theme=dark]{--bg:#14140f;--surface:#1d1d17;--surface2:#25251d;--border:#33332a;
+--text:#eeeae1;--dim:#a8a293;--faint:#7d776b;--accent:#d09b72}
+:root[data-theme=light]{--bg:#faf9f7;--surface:#fff;--surface2:#f2f0ec;--border:#e2ded6;
+--text:#1a1815;--dim:#5f594f;--faint:#8a8377;--accent:#8a5a3b}
+*{box-sizing:border-box}
+body{margin:0;background:var(--bg);color:var(--text);
+font:17px/1.72 ui-serif,Georgia,"Iowan Old Style",Palatino,serif;-webkit-font-smoothing:antialiased}
+.wrap{max-width:min(var(--measure),100%);margin:0 auto;padding:0 22px}
+nav.crumb{border-bottom:1px solid var(--border);padding:13px 0;font-size:13.5px;
+font-family:-apple-system,BlinkMacSystemFont,"Segoe UI",sans-serif;position:sticky;top:0;background:var(--bg);z-index:20}
+nav.crumb .wrap{max-width:none;display:flex;gap:9px;align-items:center;flex-wrap:wrap}
+nav.crumb a{color:var(--dim);text-decoration:none}
+nav.crumb a:hover{color:var(--accent)}
+nav.crumb .sep{color:var(--faint)}
+main{padding:8px 0 80px}
+h1{font-size:clamp(28px,5vw,38px);line-height:1.15;letter-spacing:-.015em;margin:34px 0 18px}
+h2{font-size:25px;margin:46px 0 14px;letter-spacing:-.01em;padding-bottom:7px;border-bottom:1px solid var(--border)}
+h3{font-size:19px;margin:34px 0 10px;color:var(--accent)}
+h4{font-size:16px;margin:24px 0 8px;font-family:-apple-system,sans-serif}
+p{margin:0 0 16px}
+a{color:var(--accent)}
+.hash{opacity:0;margin-left:8px;font-weight:400;font-size:.65em;text-decoration:none;color:var(--faint)}
+h2:hover .hash,h3:hover .hash{opacity:1}
+blockquote{margin:0 0 20px;padding:14px 18px;background:var(--surface2);
+border-left:3px solid var(--accent);border-radius:0 8px 8px 0}
+blockquote p:last-child{margin-bottom:0}
+ol,ul{margin:0 0 18px;padding-left:26px}
+li{margin-bottom:8px}
+li>ul,li>ol{margin:8px 0 0}
+code{font-family:ui-monospace,SFMono-Regular,Menlo,Consolas,monospace;font-size:.87em;
+background:var(--surface2);padding:1px 5px;border-radius:4px}
+pre{background:var(--surface2);border:1px solid var(--border);border-radius:9px;
+padding:15px 17px;overflow-x:auto;margin:0 0 20px}
+pre code{background:none;padding:0;font-size:13px;line-height:1.6}
+.tw{overflow-x:auto;margin:0 0 22px;border:1px solid var(--border);border-radius:9px}
+table{border-collapse:collapse;width:100%;font-size:15px;
+font-family:-apple-system,BlinkMacSystemFont,"Segoe UI",sans-serif}
+th,td{padding:10px 14px;border-bottom:1px solid var(--border);vertical-align:top}
+th{background:var(--surface2);font-size:12px;text-transform:uppercase;
+letter-spacing:.06em;color:var(--dim);font-weight:700;white-space:nowrap}
+tbody tr:last-child td{border-bottom:none}
+hr{border:none;border-top:1px solid var(--border);margin:38px 0}
+details{background:var(--surface2);border:1px solid var(--border);border-radius:9px;
+padding:13px 17px;margin:0 0 20px}
+summary{cursor:pointer;font-weight:600;font-family:-apple-system,sans-serif;font-size:15px}
+details[open] summary{margin-bottom:12px}
+del{color:var(--faint)}
+dl.fields{margin:0 0 20px;padding:0}
+dl.fields dt{font-family:-apple-system,BlinkMacSystemFont,"Segoe UI",sans-serif;
+font-size:11px;letter-spacing:.11em;text-transform:uppercase;color:var(--faint);
+font-weight:700;margin:14px 0 4px}
+dl.fields dt:first-child{margin-top:0}
+dl.fields dd{margin:0;font-size:16px;color:var(--dim);line-height:1.62}
+dl.fields dd em{color:var(--text)}
+dl.fields dt.ru{color:var(--accent)}
+dl.fields dd strong{color:var(--text)}
+.toc{background:var(--surface2);border:1px solid var(--border);border-radius:10px;
+padding:16px 20px;margin:26px 0 34px;font-family:-apple-system,sans-serif;font-size:14px}
+.toc b{display:block;font-size:11px;letter-spacing:.12em;text-transform:uppercase;
+color:var(--faint);margin-bottom:9px}
+.toc a{display:block;padding:3px 0;color:var(--dim);text-decoration:none}
+.toc a:hover{color:var(--accent)}
+.themebtn{position:fixed;right:18px;bottom:18px;z-index:60;font-family:-apple-system,sans-serif;
+font-size:12.5px;font-weight:600;cursor:pointer;background:var(--surface);border:1px solid var(--border);
+border-radius:99px;padding:9px 16px;color:var(--text)}
+@media(max-width:600px){body{font-size:16px}.wrap{padding:0 17px}}
+</style></head><body>
+<nav class="crumb"><div class="wrap"><a href="../../../index.html">Learn English</a><span class="sep">/</span><a href="../../README.html">Parts of speech</a><span class="sep">/</span><a href="../README.html">01-nouns</a><span class="sep">/</span><span>catalog</span></div></nav>
+<main><div class="wrap"><h1 id="core-vocabulary-tools-and-hardware">Core vocabulary: tools and hardware<a class="hash" href="#core-vocabulary-tools-and-hardware" aria-label="link">#</a></h1>
+<blockquote><p>The everyday nouns of tools and hardware — pronunciation, Russian, plural, and three examples each.</p></blockquote>
+<p><a href="../README.html">← The grammar of nouns</a> &middot; <a href="README.html">All groups</a></p>
+<p>Part of the <strong>core-vocabulary tier</strong>. Groups 1–23 cover the nouns that misbehave; this tier covers the nouns you simply need to know. Entries are deliberately lean, because a regular countable noun has no grammatical story to tell. A <strong>Contrast</strong> line appears only where the word hides a genuine trap.</p>
+<p>Where a word in this field <em>does</em> misbehave, it lives in the grammar tier instead and is not repeated here.</p>
+<hr>
+<h3 id="tool">tool<a class="hash" href="#tool" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/tuːl/ &middot; <em>TOOL</em></dd><dt>Русский</dt><dd>инструмент</dd><dt>Plural</dt><dd><em>tools</em></dd><dt>Countability</dt><dd>countable</dd></dl>
+<p>A device held in the hand and used to do a particular job.</p>
+<ol><li>Every <em>tool</em> in the garage has its own hook on the wall.</li><li>You'll need a few basic <em>tools</em> to put this together.</li><li>A screwdriver is the one <em>tool</em> I use almost every day.</li></ol>
+<hr>
+<h3 id="toolbox">toolbox<a class="hash" href="#toolbox" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/ˈtuːlbɑːks/ &middot; <em>TOOL-bahks</em></dd><dt>Русский</dt><dd>ящик для инструментов</dd><dt>Plural</dt><dd><em>toolboxes</em></dd><dt>Countability</dt><dd>countable</dd></dl>
+<p>A box with a handle for carrying and storing tools.</p>
+<ol><li>His <em>toolbox</em> weighs a ton.</li><li>There's a flashlight in the bottom of the <em>toolbox</em>.</li><li>Both <em>toolboxes</em> were sitting open on the tailgate.</li></ol>
+<hr>
+<h3 id="kit">kit<a class="hash" href="#kit" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/kɪt/ &middot; <em>KIT</em></dd><dt>Русский</dt><dd>набор, комплект</dd><dt>Plural</dt><dd><em>kits</em></dd><dt>Countability</dt><dd>countable</dd></dl>
+<p>A set of tools or parts packaged together for one purpose.</p>
+<ol><li>I keep a small repair <em>kit</em> under the seat.</li><li>The shelf came as a <em>kit</em> with all the screws included.</li><li>They sell first-aid <em>kits</em> right by the register.</li></ol>
+<hr>
+<h3 id="saw">saw<a class="hash" href="#saw" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/sɔː/ &middot; <em>SAW</em></dd><dt>Русский</dt><dd>пила</dd><dt>Plural</dt><dd><em>saws</em></dd><dt>Countability</dt><dd>countable</dd><dt>Contrast</dt><dd>Sounds exactly like saw, the past tense of see.</dd></dl>
+<p>A tool with a toothed blade for cutting wood, metal, or stone.</p>
+<ol><li>This <em>saw</em> is too dull to cut anything.</li><li>He cut the board in half with a hand <em>saw</em>.</li><li>The shop had <em>saws</em> hanging along the back wall.</li></ol>
+<hr>
+<h3 id="hacksaw">hacksaw<a class="hash" href="#hacksaw" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/ˈhæksɔː/ &middot; <em>HAK-saw</em></dd><dt>Русский</dt><dd>ножовка по металлу</dd><dt>Plural</dt><dd><em>hacksaws</em></dd><dt>Countability</dt><dd>countable</dd></dl>
+<p>A saw with a fine blade held in a frame, used for cutting metal.</p>
+<ol><li>A <em>hacksaw</em> will go right through that bolt.</li><li>I broke two blades on the <em>hacksaw</em>.</li><li>Both <em>hacksaws</em> need new blades.</li></ol>
+<hr>
+<h3 id="chainsaw">chainsaw<a class="hash" href="#chainsaw" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/ˈtʃeɪnsɔː/ &middot; <em>CHAYN-saw</em></dd><dt>Русский</dt><dd>бензопила, цепная пила</dd><dt>Plural</dt><dd><em>chainsaws</em></dd><dt>Countability</dt><dd>countable</dd></dl>
+<p>A power saw whose teeth run around a moving chain.</p>
+<ol><li>He cleared the fallen tree with a <em>chainsaw</em>.</li><li>Don't start the <em>chainsaw</em> without safety glasses.</li><li>After the storm you could hear <em>chainsaws</em> all over the neighborhood.</li></ol>
+<hr>
+<h3 id="drill">drill<a class="hash" href="#drill" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/drɪl/ &middot; <em>DRIL</em></dd><dt>Русский</dt><dd>дрель</dd><dt>Plural</dt><dd><em>drills</em></dd><dt>Countability</dt><dd>countable</dd></dl>
+<p>A tool that spins a pointed bit to make holes.</p>
+<ol><li>Can I borrow your <em>drill</em> for an hour?</li><li>The battery on my cordless <em>drill</em> is dead.</li><li>They keep the <em>drills</em> locked in the back.</li></ol>
+<hr>
+<h3 id="drill-bit">drill bit<a class="hash" href="#drill-bit" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/ˈdrɪl bɪt/ &middot; <em>DRIL-bit</em></dd><dt>Русский</dt><dd>сверло</dd><dt>Plural</dt><dd><em>drill bits</em></dd><dt>Countability</dt><dd>countable</dd></dl>
+<p>The removable cutting piece that a drill turns to make a hole.</p>
+<ol><li>You need a smaller <em>drill bit</em> for that screw.</li><li>The <em>drill bit</em> snapped off inside the wall.</li><li>I bought a set of <em>drill bits</em> on sale.</li></ol>
+<hr>
+<h3 id="blade">blade<a class="hash" href="#blade" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/bleɪd/ &middot; <em>BLAYD</em></dd><dt>Русский</dt><dd>лезвие; полотно (пилы)</dd><dt>Plural</dt><dd><em>blades</em></dd><dt>Countability</dt><dd>countable</dd></dl>
+<p>The flat cutting part of a knife, saw, or similar tool.</p>
+<ol><li>Change the <em>blade</em> before you cut the tile.</li><li>The <em>blade</em> on this saw is chipped.</li><li>Razor <em>blades</em> are behind the counter.</li></ol>
+<hr>
+<h3 id="chisel">chisel<a class="hash" href="#chisel" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/ˈtʃɪzəl/ &middot; <em>CHIZ-ul</em></dd><dt>Русский</dt><dd>стамеска, зубило</dd><dt>Plural</dt><dd><em>chisels</em></dd><dt>Countability</dt><dd>countable</dd></dl>
+<p>A tool with a flat sharpened end, struck to cut wood or stone.</p>
+<ol><li>He shaped the joint with a <em>chisel</em> and a hammer.</li><li>Keep the <em>chisel</em> sharp or it will tear the wood.</li><li>A set of wood <em>chisels</em> makes a good gift.</li></ol>
+<hr>
+<h3 id="file">file<a class="hash" href="#file" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/faɪl/ &middot; <em>FYL</em></dd><dt>Русский</dt><dd>напильник</dd><dt>Plural</dt><dd><em>files</em></dd><dt>Countability</dt><dd>countable</dd></dl>
+<p>A metal hand tool with a rough surface for smoothing metal or wood.</p>
+<ol><li>Run a <em>file</em> over that edge so it doesn't cut you.</li><li>He smoothed the weld with a flat <em>file</em>.</li><li>The metal <em>files</em> are in the second drawer.</li></ol>
+<hr>
+<h3 id="sledgehammer">sledgehammer<a class="hash" href="#sledgehammer" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/ˈsledʒhæmər/ &middot; <em>SLEJ-ham-ur</em></dd><dt>Русский</dt><dd>кувалда</dd><dt>Plural</dt><dd><em>sledgehammers</em></dd><dt>Countability</dt><dd>countable</dd></dl>
+<p>A large heavy hammer swung with both hands.</p>
+<ol><li>It took a <em>sledgehammer</em> to break up the old steps.</li><li>Don't swing that <em>sledgehammer</em> near the window.</li><li>The rental yard had <em>sledgehammers</em> by the door.</li></ol>
+<hr>
+<h3 id="crowbar">crowbar<a class="hash" href="#crowbar" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/ˈkroʊbɑːr/ &middot; <em>KROH-bar</em></dd><dt>Русский</dt><dd>лом, монтировка</dd><dt>Plural</dt><dd><em>crowbars</em></dd><dt>Countability</dt><dd>countable</dd></dl>
+<p>A heavy iron bar with a flattened end, used to pry things apart.</p>
+<ol><li>Use a <em>crowbar</em> to pull those old boards off.</li><li>He pried the lid open with a <em>crowbar</em>.</li><li>There were two <em>crowbars</em> in the back of the truck.</li></ol>
+<hr>
+<h3 id="ax">ax<a class="hash" href="#ax" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/æks/ &middot; <em>AKS</em></dd><dt>Русский</dt><dd>топор</dd><dt>Plural</dt><dd><em>axes</em></dd><dt>Countability</dt><dd>countable</dd><dt>Contrast</dt><dd>Americans write ax or axe; the British write only axe. The plural axes is AK-siz — the plural of axis is AK-seez.</dd></dl>
+<p>A tool with a heavy blade on a handle, used for chopping wood.</p>
+<ol><li>He split the firewood with an <em>ax</em>.</li><li>The <em>ax</em> is hanging in the shed.</li><li>Both <em>axes</em> needed sharpening.</li></ol>
+<hr>
+<h3 id="clamp">clamp<a class="hash" href="#clamp" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/klæmp/ &middot; <em>KLAMP</em></dd><dt>Русский</dt><dd>струбцина, зажим</dd><dt>Plural</dt><dd><em>clamps</em></dd><dt>Countability</dt><dd>countable</dd></dl>
+<p>A device that squeezes two things together and holds them.</p>
+<ol><li>Put a <em>clamp</em> on the joint while the glue dries.</li><li>The <em>clamp</em> left a mark in the wood.</li><li>I need two more <em>clamps</em> for this.</li></ol>
+<hr>
+<h3 id="vise">vise<a class="hash" href="#vise" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/vaɪs/ &middot; <em>VYS</em></dd><dt>Русский</dt><dd>тиски</dd><dt>Plural</dt><dd><em>vises</em></dd><dt>Countability</dt><dd>countable</dd><dt>Contrast</dt><dd>Americans spell it vise, the British vice. Either way it sounds like vice.</dd></dl>
+<p>A heavy clamp fixed to a bench that grips a workpiece.</p>
+<ol><li>He held the pipe in a <em>vise</em> while he cut it.</li><li>Every workbench should have a <em>vise</em> bolted to it.</li><li>The shop had <em>vises</em> on all four benches.</li></ol>
+<hr>
+<h3 id="socket">socket<a class="hash" href="#socket" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/ˈsɑːkət/ &middot; <em>SAH-kit</em></dd><dt>Русский</dt><dd>торцевая головка (для ключа)</dd><dt>Plural</dt><dd><em>sockets</em></dd><dt>Countability</dt><dd>countable</dd></dl>
+<p>A hollow metal cap that fits over a nut or bolt head and turns on a handle.</p>
+<ol><li>Grab the half-inch <em>socket</em> for that nut.</li><li>The <em>socket</em> wouldn't fit over the bolt head.</li><li>Half the <em>sockets</em> are missing from the set.</li></ol>
+<hr>
+<h3 id="bolt">bolt<a class="hash" href="#bolt" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/boʊlt/ &middot; <em>BOHLT</em></dd><dt>Русский</dt><dd>болт</dd><dt>Plural</dt><dd><em>bolts</em></dd><dt>Countability</dt><dd>countable</dd></dl>
+<p>A thick metal pin with a head and a thread, fastened with a nut.</p>
+<ol><li>Tighten the <em>bolt</em> until it's snug.</li><li>One <em>bolt</em> had rusted solid.</li><li>Four <em>bolts</em> hold the seat to the floor.</li></ol>
+<hr>
+<h3 id="washer">washer<a class="hash" href="#washer" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/ˈwɑːʃər/ &middot; <em>WAH-shur</em></dd><dt>Русский</dt><dd>шайба; прокладка (в кране)</dd><dt>Plural</dt><dd><em>washers</em></dd><dt>Countability</dt><dd>countable</dd></dl>
+<p>A flat ring placed under a nut or bolt to spread the pressure.</p>
+<ol><li>Put a <em>washer</em> under the bolt head.</li><li>The faucet was leaking because of a worn <em>washer</em>.</li><li>The bag had a hundred <em>washers</em> in it.</li></ol>
+<hr>
+<h3 id="rivet">rivet<a class="hash" href="#rivet" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/ˈrɪvɪt/ &middot; <em>RIV-it</em></dd><dt>Русский</dt><dd>заклёпка</dd><dt>Plural</dt><dd><em>rivets</em></dd><dt>Countability</dt><dd>countable</dd></dl>
+<p>A metal pin hammered flat at both ends to join two pieces permanently.</p>
+<ol><li>A <em>rivet</em> holds the handle to the blade.</li><li>One <em>rivet</em> popped and the bracket came loose.</li><li>The old bridge is held together with <em>rivets</em>.</li></ol>
+<hr>
+<h3 id="stapler">stapler<a class="hash" href="#stapler" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/ˈsteɪplər/ &middot; <em>STAY-plur</em></dd><dt>Русский</dt><dd>степлер</dd><dt>Plural</dt><dd><em>staplers</em></dd><dt>Countability</dt><dd>countable</dd></dl>
+<p>A tool that drives staples into paper or into a surface.</p>
+<ol><li>The <em>stapler</em> is out of staples.</li><li>He used a heavy-duty <em>stapler</em> on the insulation.</li><li>There are two <em>staplers</em> in the supply closet.</li></ol>
+<hr>
+<h3 id="anchor">anchor<a class="hash" href="#anchor" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/ˈæŋkər/ &middot; <em>ANG-kur</em></dd><dt>Русский</dt><dd>дюбель, анкер</dd><dt>Plural</dt><dd><em>anchors</em></dd><dt>Countability</dt><dd>countable</dd><dt>Contrast</dt><dd>The ch is a hard k: ANG-kur.</dd></dl>
+<p>A sleeve pushed into a wall so a screw can grip where there is no wood.</p>
+<ol><li>Use a drywall <em>anchor</em> if there's no stud.</li><li>The <em>anchor</em> pulled right out of the plaster.</li><li>The mirror came with four <em>anchors</em> and screws.</li></ol>
+<hr>
+<h3 id="bracket">bracket<a class="hash" href="#bracket" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/ˈbrækɪt/ &middot; <em>BRAK-it</em></dd><dt>Русский</dt><dd>кронштейн</dd><dt>Plural</dt><dd><em>brackets</em></dd><dt>Countability</dt><dd>countable</dd></dl>
+<p>An angled support fixed to a wall to carry a shelf or fixture.</p>
+<ol><li>The shelf sits on two metal <em>brackets</em>.</li><li>One <em>bracket</em> was bent, so the shelf sagged.</li><li>Screw the <em>bracket</em> into a stud.</li></ol>
+<hr>
+<h3 id="clip">clip<a class="hash" href="#clip" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/klɪp/ &middot; <em>KLIP</em></dd><dt>Русский</dt><dd>зажим, клипса, скоба</dd><dt>Plural</dt><dd><em>clips</em></dd><dt>Countability</dt><dd>countable</dd></dl>
+<p>A small springy fitting that grips something and holds it in place.</p>
+<ol><li>A plastic <em>clip</em> holds the wire in place.</li><li>The <em>clip</em> snapped when I pulled too hard.</li><li>Those <em>clips</em> keep the hose from sliding off.</li></ol>
+<hr>
+<h3 id="spring">spring<a class="hash" href="#spring" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/sprɪŋ/ &middot; <em>SPRING</em></dd><dt>Русский</dt><dd>пружина</dd><dt>Plural</dt><dd><em>springs</em></dd><dt>Countability</dt><dd>countable</dd></dl>
+<p>A coil of metal that pushes back when you press or stretch it.</p>
+<ol><li>The <em>spring</em> in the screen door is worn out.</li><li>A broken <em>spring</em> is why the gate won't close.</li><li>Garage door <em>springs</em> are dangerous to replace.</li></ol>
+<hr>
+<h3 id="gear">gear<a class="hash" href="#gear" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/ɡɪr/ &middot; <em>GEER</em></dd><dt>Русский</dt><dd>шестерня; снаряжение, оснастка</dd><dt>Plural</dt><dd><em>gears</em></dd><dt>Countability</dt><dd>both — countable and uncountable with different meanings</dd><dt>Contrast</dt><dd>A toothed wheel is countable (two gears); equipment is uncountable (a lot of gear, never 'gears').</dd></dl>
+<p>A toothed wheel that turns another one; also equipment for an activity.</p>
+<ol><li>One <em>gear</em> inside the drill was stripped.</li><li>Bring your own safety <em>gear</em> to the job site.</li><li>The <em>gears</em> grind if you shift too fast.</li></ol>
+<hr>
+<h3 id="wedge">wedge<a class="hash" href="#wedge" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/wedʒ/ &middot; <em>WEJ</em></dd><dt>Русский</dt><dd>клин</dd><dt>Plural</dt><dd><em>wedges</em></dd><dt>Countability</dt><dd>countable</dd></dl>
+<p>A block that is thick at one end and thin at the other, driven in to split or hold.</p>
+<ol><li>Drive a <em>wedge</em> into the crack to split the log.</li><li>He used a <em>wedge</em> to hold the door open.</li><li>A couple of <em>wedges</em> will level that post.</li></ol>
+<hr>
+<h3 id="padlock">padlock<a class="hash" href="#padlock" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/ˈpædlɑːk/ &middot; <em>PAD-lahk</em></dd><dt>Русский</dt><dd>навесной замок</dd><dt>Plural</dt><dd><em>padlocks</em></dd><dt>Countability</dt><dd>countable</dd></dl>
+<p>A detachable lock with a U-shaped bar that passes through a hasp or chain.</p>
+<ol><li>There's a <em>padlock</em> on the gate.</li><li>I cut the <em>padlock</em> off with a hacksaw.</li><li>Both <em>padlocks</em> use the same combination.</li></ol>
+<hr>
+<h3 id="rope">rope<a class="hash" href="#rope" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/roʊp/ &middot; <em>ROHP</em></dd><dt>Русский</dt><dd>верёвка, канат</dd><dt>Plural</dt><dd><em>ropes</em></dd><dt>Countability</dt><dd>countable, and uncountable as a substance</dd></dl>
+<p>Thick cord made by twisting fibers together.</p>
+<ol><li>Tie the ladder down with a <em>rope</em>.</li><li>The <em>rope</em> frayed where it rubbed the edge.</li><li>They sell <em>rope</em> by the foot.</li></ol>
+<hr>
+<h3 id="wire">wire<a class="hash" href="#wire" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/ˈwaɪrr/ &middot; <em>WY-ur</em></dd><dt>Русский</dt><dd>проволока; провод</dd><dt>Plural</dt><dd><em>wires</em></dd><dt>Countability</dt><dd>countable, and uncountable as a substance</dd></dl>
+<p>A thin flexible strand of metal, often used to carry electricity.</p>
+<ol><li>A loose <em>wire</em> was causing the short.</li><li>Run the <em>wire</em> along the baseboard.</li><li>Twist the two <em>wires</em> together and cap them.</li></ol>
+<hr>
+<h3 id="cable">cable<a class="hash" href="#cable" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/ˈkeɪbəl/ &middot; <em>KAY-bul</em></dd><dt>Русский</dt><dd>кабель; трос</dd><dt>Plural</dt><dd><em>cables</em></dd><dt>Countability</dt><dd>countable, and uncountable as a substance</dd></dl>
+<p>A thick wire or bundle of wires inside a protective covering.</p>
+<ol><li>The <em>cable</em> runs under the floor.</li><li>We pulled two hundred feet of <em>cable</em> through the attic.</li><li>Label both <em>cables</em> before you unplug them.</li></ol>
+<hr>
+<h3 id="extension-cord">extension cord<a class="hash" href="#extension-cord" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/ɪkˈstenʃən kɔːrd/ &middot; <em>ik-STEN-shun KORD</em></dd><dt>Русский</dt><dd>удлинитель</dd><dt>Plural</dt><dd><em>extension cords</em></dd><dt>Countability</dt><dd>countable</dd><dt>Contrast</dt><dd>American extension cord; the British say extension lead.</dd></dl>
+<p>A length of flexible cord that carries power farther from an outlet.</p>
+<ol><li>Run an <em>extension cord</em> out to the driveway.</li><li>That <em>extension cord</em> isn't rated for outdoor use.</li><li>We needed two <em>extension cords</em> to reach the shed.</li></ol>
+<hr>
+<h3 id="fuse">fuse<a class="hash" href="#fuse" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/fjuːz/ &middot; <em>FYOOZ</em></dd><dt>Русский</dt><dd>предохранитель</dd><dt>Plural</dt><dd><em>fuses</em></dd><dt>Countability</dt><dd>countable</dd></dl>
+<p>A safety part that melts and breaks a circuit when the current is too high.</p>
+<ol><li>A blown <em>fuse</em> killed the whole circuit.</li><li>Replace the <em>fuse</em> with the same rating.</li><li>Older houses have <em>fuses</em> instead of breakers.</li></ol>
+<hr>
+<h3 id="hose">hose<a class="hash" href="#hose" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/hoʊz/ &middot; <em>HOHZ</em></dd><dt>Русский</dt><dd>шланг</dd><dt>Plural</dt><dd><em>hoses</em></dd><dt>Countability</dt><dd>countable, and uncountable as a substance</dd></dl>
+<p>A flexible tube that carries water or air.</p>
+<ol><li>The garden <em>hose</em> is kinked.</li><li>Screw the <em>hose</em> onto the spigot.</li><li>Both <em>hoses</em> leak at the coupling.</li></ol>
+<hr>
+<h3 id="nozzle">nozzle<a class="hash" href="#nozzle" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/ˈnɑːzəl/ &middot; <em>NAH-zul</em></dd><dt>Русский</dt><dd>насадка, сопло</dd><dt>Plural</dt><dd><em>nozzles</em></dd><dt>Countability</dt><dd>countable</dd></dl>
+<p>The narrow end fitted to a hose or sprayer to shape the stream.</p>
+<ol><li>Put the <em>nozzle</em> on the end of the hose.</li><li>The <em>nozzle</em> was clogged with dried paint.</li><li>The sprayer came with three <em>nozzles</em>.</li></ol>
+<hr>
+<h3 id="valve">valve<a class="hash" href="#valve" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/vælv/ &middot; <em>VALV</em></dd><dt>Русский</dt><dd>вентиль, клапан</dd><dt>Plural</dt><dd><em>valves</em></dd><dt>Countability</dt><dd>countable</dd></dl>
+<p>A fitting that opens and closes to control the flow in a pipe.</p>
+<ol><li>Shut the <em>valve</em> before you cut the line.</li><li>The <em>valve</em> under the sink is corroded.</li><li>There are shutoff <em>valves</em> on both sides.</li></ol>
+<hr>
+<h3 id="pump">pump<a class="hash" href="#pump" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/pʌmp/ &middot; <em>PUMP</em></dd><dt>Русский</dt><dd>насос</dd><dt>Plural</dt><dd><em>pumps</em></dd><dt>Countability</dt><dd>countable</dd></dl>
+<p>A machine that moves liquid or air from one place to another.</p>
+<ol><li>The sump <em>pump</em> runs every time it rains.</li><li>The <em>pump</em> burned out after ten years.</li><li>They keep two <em>pumps</em> in the basement.</li></ol>
+<hr>
+<h3 id="duct-tape">duct tape<a class="hash" href="#duct-tape" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/ˈdʌkt teɪp/ &middot; <em>DUKT-tayp</em></dd><dt>Русский</dt><dd>армированный скотч</dd><dt>Countability</dt><dd>uncountable</dd></dl>
+<p>Strong cloth-backed sticky tape used for quick repairs.</p>
+<ol><li>He fixed the mirror with <em>duct tape</em>.</li><li>There's a roll of <em>duct tape</em> in the truck.</li><li>He wrapped the handle in <em>duct tape</em>.</li></ol>
+<hr>
+<h3 id="adhesive">adhesive<a class="hash" href="#adhesive" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/ədˈhiːsɪv/ &middot; <em>ud-HEE-siv</em></dd><dt>Русский</dt><dd>клей, клеящий состав</dd><dt>Plural</dt><dd><em>adhesives</em></dd><dt>Countability</dt><dd>countable, and uncountable as a substance</dd></dl>
+<p>A substance made to bond materials together.</p>
+<ol><li>This <em>adhesive</em> works on metal and plastic.</li><li>Spread the <em>adhesive</em> evenly before you set the tile.</li><li>They carry industrial <em>adhesives</em> in the back.</li></ol>
+<hr>
+<h3 id="varnish">varnish<a class="hash" href="#varnish" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/ˈvɑːrnɪʃ/ &middot; <em>VAR-nish</em></dd><dt>Русский</dt><dd>лак</dd><dt>Plural</dt><dd><em>varnishes</em></dd><dt>Countability</dt><dd>countable, and uncountable as a substance</dd></dl>
+<p>A clear coating brushed on wood to give it a hard shiny surface.</p>
+<ol><li>Put a coat of <em>varnish</em> on the tabletop.</li><li>The <em>varnish</em> yellowed over the years.</li><li>Marine <em>varnishes</em> hold up better outdoors.</li></ol>
+<hr>
+<h3 id="putty">putty<a class="hash" href="#putty" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/ˈpʌti/ &middot; <em>PUT-ee</em></dd><dt>Русский</dt><dd>шпаклёвка, замазка</dd><dt>Countability</dt><dd>uncountable</dd></dl>
+<p>A soft paste that hardens, used to fill holes and set glass.</p>
+<ol><li>Fill the nail holes with <em>putty</em>.</li><li>The <em>putty</em> has to dry before you sand it.</li><li>He smoothed the <em>putty</em> with his thumb.</li></ol>
+<hr>
+<h3 id="caulk">caulk<a class="hash" href="#caulk" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/kɔːk/ &middot; <em>KAWK</em></dd><dt>Русский</dt><dd>герметик</dd><dt>Countability</dt><dd>uncountable</dd><dt>Contrast</dt><dd>The l is silent — caulk rhymes with talk.</dd></dl>
+<p>A flexible filler squeezed into seams to keep water and air out.</p>
+<ol><li>Run a bead of <em>caulk</em> along the tub.</li><li>The old <em>caulk</em> was black with mildew.</li><li>Let the <em>caulk</em> cure overnight.</li></ol>
+<hr>
+<h3 id="solder">solder<a class="hash" href="#solder" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/ˈsɑːdər/ &middot; <em>SAH-dur</em></dd><dt>Русский</dt><dd>припой</dd><dt>Countability</dt><dd>uncountable</dd><dt>Contrast</dt><dd>Americans drop the l: SAH-dur, not SOL-dur.</dd></dl>
+<p>A soft metal melted to join two pieces of metal or wire.</p>
+<ol><li>Heat the joint before you apply the <em>solder</em>.</li><li>The <em>solder</em> didn't flow into the seam.</li><li>Use lead-free <em>solder</em> on water lines.</li></ol>
+<hr>
+<h3 id="grease">grease<a class="hash" href="#grease" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/ɡriːs/ &middot; <em>GREES</em></dd><dt>Русский</dt><dd>смазка</dd><dt>Countability</dt><dd>uncountable</dd></dl>
+<p>Thick oily material put on moving parts to reduce friction.</p>
+<ol><li>Pack the wheel hub with <em>grease</em>.</li><li>There was <em>grease</em> all over his hands.</li><li>A little <em>grease</em> will stop that squeak.</li></ol>
+<hr>
+<h3 id="sandpaper">sandpaper<a class="hash" href="#sandpaper" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/ˈsændpeɪpər/ &middot; <em>SAND-pay-pur</em></dd><dt>Русский</dt><dd>наждачная бумага</dd><dt>Countability</dt><dd>uncountable</dd></dl>
+<p>Stiff paper coated with grit, rubbed on a surface to smooth it.</p>
+<ol><li>Smooth the edge with fine <em>sandpaper</em>.</li><li>I'm out of <em>sandpaper</em>.</li><li>Wrap the <em>sandpaper</em> around a block of wood.</li></ol>
+<hr>
+<h3 id="sander">sander<a class="hash" href="#sander" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/ˈsændər/ &middot; <em>SAN-dur</em></dd><dt>Русский</dt><dd>шлифовальная машинка</dd><dt>Plural</dt><dd><em>sanders</em></dd><dt>Countability</dt><dd>countable</dd></dl>
+<p>A power tool that smooths a surface with moving sandpaper.</p>
+<ol><li>The belt <em>sander</em> took the finish off fast.</li><li>Wear a mask when you run the <em>sander</em>.</li><li>Both <em>sanders</em> need new pads.</li></ol>
+<hr>
+<h3 id="router">router<a class="hash" href="#router" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/ˈraʊtər/ &middot; <em>ROW-tur</em></dd><dt>Русский</dt><dd>фрезер (по дереву)</dd><dt>Plural</dt><dd><em>routers</em></dd><dt>Countability</dt><dd>countable</dd><dt>Contrast</dt><dd>In America it rhymes with out: ROW-tur. The British say ROO-tur.</dd></dl>
+<p>A power tool with a spinning bit that cuts grooves and shaped edges in wood.</p>
+<ol><li>He rounded the edge with a <em>router</em>.</li><li>The <em>router</em> left burn marks in the oak.</li><li>Both <em>routers</em> take the same bits.</li></ol>
+<hr>
+<h3 id="generator">generator<a class="hash" href="#generator" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/ˈdʒenəreɪtər/ &middot; <em>JEN-uh-ray-tur</em></dd><dt>Русский</dt><dd>генератор</dd><dt>Plural</dt><dd><em>generators</em></dd><dt>Countability</dt><dd>countable</dd></dl>
+<p>A machine that burns fuel to make electricity.</p>
+<ol><li>We ran the fridge off a <em>generator</em> for three days.</li><li>The <em>generator</em> is loud but reliable.</li><li>Portable <em>generators</em> sold out before the storm.</li></ol>
+<hr>
+<h3 id="motor">motor<a class="hash" href="#motor" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/ˈmoʊtər/ &middot; <em>MOH-tur</em></dd><dt>Русский</dt><dd>мотор, электродвигатель</dd><dt>Plural</dt><dd><em>motors</em></dd><dt>Countability</dt><dd>countable</dd></dl>
+<p>A machine that turns electricity or fuel into movement.</p>
+<ol><li>The <em>motor</em> on the fan is burned out.</li><li>You can hear the <em>motor</em> struggling.</li><li>Small electric <em>motors</em> are cheap to replace.</li></ol>
+<hr>
+<h3 id="machine">machine<a class="hash" href="#machine" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/məˈʃiːn/ &middot; <em>muh-SHEEN</em></dd><dt>Русский</dt><dd>машина, станок</dd><dt>Plural</dt><dd><em>machines</em></dd><dt>Countability</dt><dd>countable</dd><dt>Contrast</dt><dd>The ch sounds like sh: muh-SHEEN.</dd></dl>
+<p>A powered device with moving parts that does a particular kind of work.</p>
+<ol><li>This <em>machine</em> hasn't been serviced in years.</li><li>Shut the <em>machine</em> off before you clean it.</li><li>The shop is full of old <em>machines</em>.</li></ol>
+<hr>
+<h3 id="device">device<a class="hash" href="#device" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/dɪˈvaɪs/ &middot; <em>dih-VYS</em></dd><dt>Русский</dt><dd>устройство, приспособление</dd><dt>Plural</dt><dd><em>devices</em></dd><dt>Countability</dt><dd>countable</dd></dl>
+<p>A piece of equipment made for a specific purpose.</p>
+<ol><li>It's a simple <em>device</em> with one moving part.</li><li>Every safety <em>device</em> on the saw had been removed.</li><li>These <em>devices</em> measure moisture inside a wall.</li></ol>
+<hr>
+<h3 id="workbench">workbench<a class="hash" href="#workbench" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/ˈwɜːrkbentʃ/ &middot; <em>WURK-bench</em></dd><dt>Русский</dt><dd>верстак</dd><dt>Plural</dt><dd><em>workbenches</em></dd><dt>Countability</dt><dd>countable</dd></dl>
+<p>A sturdy table where tools are used and things are built.</p>
+<ol><li>He built a <em>workbench</em> out of scrap lumber.</li><li>Clear the <em>workbench</em> before you start.</li><li>Both <em>workbenches</em> have a vise on the end.</li></ol>
+<hr>
+<h3 id="workshop">workshop<a class="hash" href="#workshop" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/ˈwɜːrkʃɑːp/ &middot; <em>WURK-shahp</em></dd><dt>Русский</dt><dd>мастерская</dd><dt>Plural</dt><dd><em>workshops</em></dd><dt>Countability</dt><dd>countable</dd></dl>
+<p>A room or building where things are made and repaired with tools.</p>
+<ol><li>His <em>workshop</em> is out behind the garage.</li><li>The <em>workshop</em> smells like sawdust.</li><li>They rent <em>workshops</em> to local woodworkers.</li></ol>
+<hr>
+<h3 id="stepladder">stepladder<a class="hash" href="#stepladder" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/ˈsteplædər/ &middot; <em>STEP-lad-ur</em></dd><dt>Русский</dt><dd>стремянка</dd><dt>Plural</dt><dd><em>stepladders</em></dd><dt>Countability</dt><dd>countable</dd></dl>
+<p>A folding ladder with flat steps that stands on its own.</p>
+<ol><li>Grab the <em>stepladder</em> from the garage.</li><li>Don't stand on the top step of a <em>stepladder</em>.</li><li>Both <em>stepladders</em> are aluminum.</li></ol>
+<hr>
+<h3 id="roller">roller<a class="hash" href="#roller" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/ˈroʊlər/ &middot; <em>ROH-lur</em></dd><dt>Русский</dt><dd>валик (малярный)</dd><dt>Plural</dt><dd><em>rollers</em></dd><dt>Countability</dt><dd>countable</dd></dl>
+<p>A covered cylinder on a handle, rolled over a surface to spread paint.</p>
+<ol><li>A <em>roller</em> covers a wall much faster than a brush.</li><li>Load the <em>roller</em> evenly.</li><li>The <em>rollers</em> are in the paint aisle.</li></ol>
+<hr>
+<h3 id="plunger">plunger<a class="hash" href="#plunger" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/ˈplʌndʒər/ &middot; <em>PLUN-jur</em></dd><dt>Русский</dt><dd>вантуз</dd><dt>Plural</dt><dd><em>plungers</em></dd><dt>Countability</dt><dd>countable</dd></dl>
+<p>A rubber cup on a stick used to push a blockage through a drain.</p>
+<ol><li>Every apartment needs a <em>plunger</em>.</li><li>He cleared the drain with a <em>plunger</em>.</li><li>There are <em>plungers</em> in the cleaning closet.</li></ol>
+<hr>
+<h3 id="shovel">shovel<a class="hash" href="#shovel" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/ˈʃʌvəl/ &middot; <em>SHUV-ul</em></dd><dt>Русский</dt><dd>лопата</dd><dt>Plural</dt><dd><em>shovels</em></dd><dt>Countability</dt><dd>countable</dd></dl>
+<p>A tool with a broad blade and a long handle for digging and lifting.</p>
+<ol><li>Grab a <em>shovel</em> and start digging.</li><li>The <em>shovel</em> handle snapped.</li><li>Both <em>shovels</em> are in the truck bed.</li></ol>
+<hr>
+<h3 id="rake">rake<a class="hash" href="#rake" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/reɪk/ &middot; <em>RAYK</em></dd><dt>Русский</dt><dd>грабли</dd><dt>Plural</dt><dd><em>rakes</em></dd><dt>Countability</dt><dd>countable</dd></dl>
+<p>A long-handled tool with teeth, used to gather leaves or level soil.</p>
+<ol><li>I need a <em>rake</em> for all these leaves.</li><li>The <em>rake</em> lost half its teeth.</li><li>Garden <em>rakes</em> are on sale this week.</li></ol>
+<hr>
+<h3 id="wheelbarrow">wheelbarrow<a class="hash" href="#wheelbarrow" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/ˈwiːlbæroʊ/ &middot; <em>WEEL-ba-roh</em></dd><dt>Русский</dt><dd>тачка</dd><dt>Plural</dt><dd><em>wheelbarrows</em></dd><dt>Countability</dt><dd>countable</dd></dl>
+<p>A small open cart with one wheel and two handles for moving loads.</p>
+<ol><li>Load the dirt into the <em>wheelbarrow</em>.</li><li>The <em>wheelbarrow</em> has a flat tire.</li><li>They had two <em>wheelbarrows</em> going all afternoon.</li></ol>
+<hr>
+<h3 id="tape-measure">tape measure<a class="hash" href="#tape-measure" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/ˈteɪp meʒər/ &middot; <em>TAYP-mezh-ur</em></dd><dt>Русский</dt><dd>рулетка</dd><dt>Plural</dt><dd><em>tape measures</em></dd><dt>Countability</dt><dd>countable</dd></dl>
+<p>A flexible marked strip that rolls into a case, used to measure length.</p>
+<ol><li>Where's the <em>tape measure</em>?</li><li>The <em>tape measure</em> snapped back and got my finger.</li><li>I own four <em>tape measures</em> and can never find one.</li></ol>
+<hr>
+<h3 id="ruler">ruler<a class="hash" href="#ruler" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/ˈruːlər/ &middot; <em>ROO-lur</em></dd><dt>Русский</dt><dd>линейка</dd><dt>Plural</dt><dd><em>rulers</em></dd><dt>Countability</dt><dd>countable</dd></dl>
+<p>A straight strip marked with units, used to measure and draw lines.</p>
+<ol><li>Draw the line against a <em>ruler</em>.</li><li>A metal <em>ruler</em> works better than plastic.</li><li>The <em>rulers</em> are in the desk drawer.</li></ol>
+<hr>
+<h3 id="level">level<a class="hash" href="#level" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/ˈlevəl/ &middot; <em>LEV-ul</em></dd><dt>Русский</dt><dd>уровень (строительный)</dd><dt>Plural</dt><dd><em>levels</em></dd><dt>Countability</dt><dd>countable</dd></dl>
+<p>A tool with a bubble in liquid that shows whether a surface is flat or upright.</p>
+<ol><li>Set the <em>level</em> on top of the shelf.</li><li>The bubble in the <em>level</em> is off center.</li><li>Laser <em>levels</em> have gotten cheap.</li></ol>
+<hr>
+<h3 id="gauge">gauge<a class="hash" href="#gauge" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/ɡeɪdʒ/ &middot; <em>GAYJ</em></dd><dt>Русский</dt><dd>измерительный прибор, манометр</dd><dt>Plural</dt><dd><em>gauges</em></dd><dt>Countability</dt><dd>countable</dd><dt>Contrast</dt><dd>Spelled g-a-u-g-e but said GAYJ, rhyming with page.</dd></dl>
+<p>An instrument that shows a measurement such as pressure or thickness.</p>
+<ol><li>Check the tire pressure with a <em>gauge</em>.</li><li>The <em>gauge</em> reads sixty pounds.</li><li>Both <em>gauges</em> were stuck at zero.</li></ol>
+<hr>
+<h3 id="lathe">lathe<a class="hash" href="#lathe" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/leɪð/ &middot; <em>LAYTH</em></dd><dt>Русский</dt><dd>токарный станок</dd><dt>Plural</dt><dd><em>lathes</em></dd><dt>Countability</dt><dd>countable</dd><dt>Contrast</dt><dd>The th is voiced — lathe rhymes with bathe, not with path.</dd></dl>
+<p>A machine that spins a piece of wood or metal while a tool shapes it.</p>
+<ol><li>He turned the table leg on a <em>lathe</em>.</li><li>The <em>lathe</em> in the shop is older than I am.</li><li>Metal <em>lathes</em> take up a lot of floor space.</li></ol>
+<hr>
+<h3 id="torch">torch<a class="hash" href="#torch" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/tɔːrtʃ/ &middot; <em>TORCH</em></dd><dt>Русский</dt><dd>горелка, паяльная лампа</dd><dt>Plural</dt><dd><em>torches</em></dd><dt>Countability</dt><dd>countable</dd><dt>Contrast</dt><dd>In America a torch makes a flame; in Britain a torch is what Americans call a flashlight.</dd></dl>
+<p>A tool that burns gas in a hot flame for soldering, welding, or heating.</p>
+<ol><li>He heated the pipe with a <em>torch</em> before soldering it.</li><li>Keep the <em>torch</em> away from anything flammable.</li><li>The plumber carried two <em>torches</em> in his kit.</li></ol>
+<hr>
+<h3 id="jack">jack<a class="hash" href="#jack" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/dʒæk/ &middot; <em>JAK</em></dd><dt>Русский</dt><dd>домкрат</dd><dt>Plural</dt><dd><em>jacks</em></dd><dt>Countability</dt><dd>countable</dd></dl>
+<p>A device that lifts a heavy object a short distance off the ground.</p>
+<ol><li>Put the <em>jack</em> under the frame, not the body panel.</li><li>The <em>jack</em> slipped and the car dropped.</li><li>Both <em>jacks</em> are rated for two tons.</li></ol>
+<hr>
+<h3 id="pulley">pulley<a class="hash" href="#pulley" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/ˈpʊli/ &middot; <em>PUUL-ee</em></dd><dt>Русский</dt><dd>блок, шкив</dd><dt>Plural</dt><dd><em>pulleys</em></dd><dt>Countability</dt><dd>countable</dd><dt>Contrast</dt><dd>The first syllable sounds like pull: PUUL-ee, not PYOO-lee.</dd></dl>
+<p>A grooved wheel that a rope or belt runs over to lift or drive something.</p>
+<ol><li>A <em>pulley</em> makes the load feel half as heavy.</li><li>The rope came off the <em>pulley</em>.</li><li>The system runs on two <em>pulleys</em> and a cable.</li></ol>
+<hr>
+<h3 id="lever">lever<a class="hash" href="#lever" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/ˈlevər/ &middot; <em>LEV-ur</em></dd><dt>Русский</dt><dd>рычаг</dd><dt>Plural</dt><dd><em>levers</em></dd><dt>Countability</dt><dd>countable</dd><dt>Contrast</dt><dd>Americans usually say LEV-ur; the British say LEE-vur.</dd></dl>
+<p>A bar that turns on a fixed point to move a heavy load with less force.</p>
+<ol><li>Use a long bar as a <em>lever</em> and it'll move.</li><li>The <em>lever</em> on the side releases the blade.</li><li>There are two <em>levers</em> under the seat.</li></ol>
+<hr>
+<h3 id="scaffold">scaffold<a class="hash" href="#scaffold" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/ˈskæfəld/ &middot; <em>SKAF-uld</em></dd><dt>Русский</dt><dd>строительные леса</dd><dt>Plural</dt><dd><em>scaffolds</em></dd><dt>Countability</dt><dd>countable</dd><dt>Contrast</dt><dd>The second syllable is reduced: SKAF-uld, not skaf-FOLD.</dd></dl>
+<p>A temporary frame of poles and planks that workers stand on.</p>
+<ol><li>They put up a <em>scaffold</em> along the whole wall.</li><li>Don't climb the <em>scaffold</em> without a harness.</li><li>The <em>scaffolds</em> came down after the siding was finished.</li></ol>
+<hr>
+<h3 id="lumber">lumber<a class="hash" href="#lumber" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/ˈlʌmbər/ &middot; <em>LUM-bur</em></dd><dt>Русский</dt><dd>пиломатериалы, доски</dd><dt>Countability</dt><dd>uncountable</dd><dt>Contrast</dt><dd>American lumber; the British say timber. Uncountable — never 'a lumber' or 'lumbers'.</dd></dl>
+<p>Wood that has been sawn into boards for building.</p>
+<ol><li>The <em>lumber</em> is stacked behind the shed.</li><li>The price of <em>lumber</em> went up again.</li><li>We need enough <em>lumber</em> for a twelve-foot deck.</li></ol>
+<hr>
+<h3 id="plywood">plywood<a class="hash" href="#plywood" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/ˈplaɪwʊd/ &middot; <em>PLY-wuud</em></dd><dt>Русский</dt><dd>фанера</dd><dt>Countability</dt><dd>uncountable</dd></dl>
+<p>Board made of thin layers of wood glued together.</p>
+<ol><li>Cover the window with a sheet of <em>plywood</em>.</li><li>The floor is just <em>plywood</em> for now.</li><li>Half-inch <em>plywood</em> should be strong enough.</li></ol>
+<hr>
+<h3 id="plank">plank<a class="hash" href="#plank" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/plæŋk/ &middot; <em>PLANGK</em></dd><dt>Русский</dt><dd>доска (толстая)</dd><dt>Plural</dt><dd><em>planks</em></dd><dt>Countability</dt><dd>countable</dd></dl>
+<p>A long thick flat piece of sawn wood.</p>
+<ol><li>One <em>plank</em> on the deck is rotting.</li><li>He walked out on a <em>plank</em> laid across the joists.</li><li>The <em>planks</em> were warped from the rain.</li></ol>
+<hr>
+<h3 id="cement">cement<a class="hash" href="#cement" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/səˈment/ &middot; <em>suh-MENT</em></dd><dt>Русский</dt><dd>цемент</dd><dt>Countability</dt><dd>uncountable</dd><dt>Contrast</dt><dd>Stressed on the second syllable: suh-MENT.</dd></dl>
+<p>A gray powder that hardens when mixed with water, used to bind concrete.</p>
+<ol><li>Mix the <em>cement</em> with sand and water.</li><li>A bag of <em>cement</em> weighs about ninety pounds.</li><li>The <em>cement</em> set faster than we expected.</li></ol>
+<hr>
+<h3 id="steel">steel<a class="hash" href="#steel" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/stiːl/ &middot; <em>STEEL</em></dd><dt>Русский</dt><dd>сталь</dd><dt>Countability</dt><dd>uncountable</dd><dt>Contrast</dt><dd>Sounds exactly like steal, to take something that isn't yours.</dd></dl>
+<p>A hard strong metal made from iron and carbon.</p>
+<ol><li>The frame is welded <em>steel</em>.</li><li>Bare <em>steel</em> rusts if you don't paint it.</li><li>Stainless <em>steel</em> costs more but lasts.</li></ol>
+<hr>
+<h3 id="box-cutter">box cutter<a class="hash" href="#box-cutter" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/ˈbɑːks kʌtər/ &middot; <em>BAHKS-kut-ur</em></dd><dt>Русский</dt><dd>канцелярский нож</dd><dt>Plural</dt><dd><em>box cutters</em></dd><dt>Countability</dt><dd>countable</dd></dl>
+<p>A knife with a short sliding blade, used to open cartons.</p>
+<ol><li>Open the carton with a <em>box cutter</em>.</li><li>The blade on the <em>box cutter</em> is dull.</li><li>They handed out <em>box cutters</em> on the loading dock.</li></ol></div></main>
+<button class="themebtn" id="themeBtn">Dark</button>
+<script>
+const tb=document.getElementById('themeBtn');
+function setTheme(x){document.documentElement.dataset.theme=x;tb.textContent=x==='dark'?'Light':'Dark';
+ try{localStorage.setItem('site-theme',x)}catch(e){}}
+tb.onclick=()=>setTheme(document.documentElement.dataset.theme==='dark'?'light':'dark');
+try{const s=localStorage.getItem('site-theme');
+ setTheme(s||(matchMedia('(prefers-color-scheme: dark)').matches?'dark':'light'))}catch(e){setTheme('light')}
+</script></body></html>

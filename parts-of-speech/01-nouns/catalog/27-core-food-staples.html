@@ -1,0 +1,706 @@
+<!DOCTYPE html>
+<html lang="en"><head>
+<meta charset="utf-8"><meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Core vocabulary: food and meals</title>
+<style>
+:root{--bg:#faf9f7;--surface:#fff;--surface2:#f2f0ec;--border:#e2ded6;--text:#1a1815;
+--dim:#5f594f;--faint:#8a8377;--accent:#8a5a3b;--measure:72ch}
+@media(prefers-color-scheme:dark){:root{--bg:#14140f;--surface:#1d1d17;--surface2:#25251d;
+--border:#33332a;--text:#eeeae1;--dim:#a8a293;--faint:#7d776b;--accent:#d09b72}}
+:root[data-theme=dark]{--bg:#14140f;--surface:#1d1d17;--surface2:#25251d;--border:#33332a;
+--text:#eeeae1;--dim:#a8a293;--faint:#7d776b;--accent:#d09b72}
+:root[data-theme=light]{--bg:#faf9f7;--surface:#fff;--surface2:#f2f0ec;--border:#e2ded6;
+--text:#1a1815;--dim:#5f594f;--faint:#8a8377;--accent:#8a5a3b}
+*{box-sizing:border-box}
+body{margin:0;background:var(--bg);color:var(--text);
+font:17px/1.72 ui-serif,Georgia,"Iowan Old Style",Palatino,serif;-webkit-font-smoothing:antialiased}
+.wrap{max-width:min(var(--measure),100%);margin:0 auto;padding:0 22px}
+nav.crumb{border-bottom:1px solid var(--border);padding:13px 0;font-size:13.5px;
+font-family:-apple-system,BlinkMacSystemFont,"Segoe UI",sans-serif;position:sticky;top:0;background:var(--bg);z-index:20}
+nav.crumb .wrap{max-width:none;display:flex;gap:9px;align-items:center;flex-wrap:wrap}
+nav.crumb a{color:var(--dim);text-decoration:none}
+nav.crumb a:hover{color:var(--accent)}
+nav.crumb .sep{color:var(--faint)}
+main{padding:8px 0 80px}
+h1{font-size:clamp(28px,5vw,38px);line-height:1.15;letter-spacing:-.015em;margin:34px 0 18px}
+h2{font-size:25px;margin:46px 0 14px;letter-spacing:-.01em;padding-bottom:7px;border-bottom:1px solid var(--border)}
+h3{font-size:19px;margin:34px 0 10px;color:var(--accent)}
+h4{font-size:16px;margin:24px 0 8px;font-family:-apple-system,sans-serif}
+p{margin:0 0 16px}
+a{color:var(--accent)}
+.hash{opacity:0;margin-left:8px;font-weight:400;font-size:.65em;text-decoration:none;color:var(--faint)}
+h2:hover .hash,h3:hover .hash{opacity:1}
+blockquote{margin:0 0 20px;padding:14px 18px;background:var(--surface2);
+border-left:3px solid var(--accent);border-radius:0 8px 8px 0}
+blockquote p:last-child{margin-bottom:0}
+ol,ul{margin:0 0 18px;padding-left:26px}
+li{margin-bottom:8px}
+li>ul,li>ol{margin:8px 0 0}
+code{font-family:ui-monospace,SFMono-Regular,Menlo,Consolas,monospace;font-size:.87em;
+background:var(--surface2);padding:1px 5px;border-radius:4px}
+pre{background:var(--surface2);border:1px solid var(--border);border-radius:9px;
+padding:15px 17px;overflow-x:auto;margin:0 0 20px}
+pre code{background:none;padding:0;font-size:13px;line-height:1.6}
+.tw{overflow-x:auto;margin:0 0 22px;border:1px solid var(--border);border-radius:9px}
+table{border-collapse:collapse;width:100%;font-size:15px;
+font-family:-apple-system,BlinkMacSystemFont,"Segoe UI",sans-serif}
+th,td{padding:10px 14px;border-bottom:1px solid var(--border);vertical-align:top}
+th{background:var(--surface2);font-size:12px;text-transform:uppercase;
+letter-spacing:.06em;color:var(--dim);font-weight:700;white-space:nowrap}
+tbody tr:last-child td{border-bottom:none}
+hr{border:none;border-top:1px solid var(--border);margin:38px 0}
+details{background:var(--surface2);border:1px solid var(--border);border-radius:9px;
+padding:13px 17px;margin:0 0 20px}
+summary{cursor:pointer;font-weight:600;font-family:-apple-system,sans-serif;font-size:15px}
+details[open] summary{margin-bottom:12px}
+del{color:var(--faint)}
+dl.fields{margin:0 0 20px;padding:0}
+dl.fields dt{font-family:-apple-system,BlinkMacSystemFont,"Segoe UI",sans-serif;
+font-size:11px;letter-spacing:.11em;text-transform:uppercase;color:var(--faint);
+font-weight:700;margin:14px 0 4px}
+dl.fields dt:first-child{margin-top:0}
+dl.fields dd{margin:0;font-size:16px;color:var(--dim);line-height:1.62}
+dl.fields dd em{color:var(--text)}
+dl.fields dt.ru{color:var(--accent)}
+dl.fields dd strong{color:var(--text)}
+.toc{background:var(--surface2);border:1px solid var(--border);border-radius:10px;
+padding:16px 20px;margin:26px 0 34px;font-family:-apple-system,sans-serif;font-size:14px}
+.toc b{display:block;font-size:11px;letter-spacing:.12em;text-transform:uppercase;
+color:var(--faint);margin-bottom:9px}
+.toc a{display:block;padding:3px 0;color:var(--dim);text-decoration:none}
+.toc a:hover{color:var(--accent)}
+.themebtn{position:fixed;right:18px;bottom:18px;z-index:60;font-family:-apple-system,sans-serif;
+font-size:12.5px;font-weight:600;cursor:pointer;background:var(--surface);border:1px solid var(--border);
+border-radius:99px;padding:9px 16px;color:var(--text)}
+@media(max-width:600px){body{font-size:16px}.wrap{padding:0 17px}}
+</style></head><body>
+<nav class="crumb"><div class="wrap"><a href="../../../index.html">Learn English</a><span class="sep">/</span><a href="../../README.html">Parts of speech</a><span class="sep">/</span><a href="../README.html">01-nouns</a><span class="sep">/</span><span>catalog</span></div></nav>
+<main><div class="wrap"><h1 id="core-vocabulary-food-and-meals">Core vocabulary: food and meals<a class="hash" href="#core-vocabulary-food-and-meals" aria-label="link">#</a></h1>
+<blockquote><p>The everyday nouns of food and meals — pronunciation, Russian, plural, and three examples each.</p></blockquote>
+<p><a href="../README.html">← The grammar of nouns</a> &middot; <a href="README.html">All groups</a></p>
+<p>Part of the <strong>core-vocabulary tier</strong>. Groups 1–23 cover the nouns that misbehave; this tier covers the nouns you simply need to know. Entries are deliberately lean, because a regular countable noun has no grammatical story to tell. A <strong>Contrast</strong> line appears only where the word hides a genuine trap.</p>
+<p>Where a word in this field <em>does</em> misbehave, it lives in the grammar tier instead and is not repeated here.</p>
+<hr>
+<h3 id="food">food<a class="hash" href="#food" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/fuːd/ &middot; <em>FOOD</em></dd><dt>Русский</dt><dd>еда, пища</dd><dt>Countability</dt><dd>uncountable</dd></dl>
+<p>Anything people or animals eat to stay alive.</p>
+<ol><li>We spent way too much on <em>food</em> this month.</li><li>The <em>food</em> at that place is nothing special.</li><li>There's plenty of <em>food</em> in the fridge.</li></ol>
+<hr>
+<h3 id="meal">meal<a class="hash" href="#meal" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/miːl/ &middot; <em>MEEL</em></dd><dt>Русский</dt><dd>приём пищи, еда</dd><dt>Plural</dt><dd><em>meals</em></dd><dt>Countability</dt><dd>countable</dd></dl>
+<p>An occasion when food is eaten, such as breakfast or dinner.</p>
+<ol><li>Dinner is the only <em>meal</em> we eat together.</li><li>He hasn't had a hot <em>meal</em> in days.</li><li>Skipping <em>meals</em> isn't going to help.</li></ol>
+<hr>
+<h3 id="breakfast">breakfast<a class="hash" href="#breakfast" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/ˈbrekfəst/ &middot; <em>BREK-fuhst</em></dd><dt>Русский</dt><dd>завтрак</dd><dt>Plural</dt><dd><em>breakfasts</em></dd><dt>Countability</dt><dd>countable</dd><dt>Contrast</dt><dd>Written break + fast but said BREK-fuhst — the first syllable rhymes with wreck, not with brake.</dd></dl>
+<p>The first meal of the day, eaten in the morning.</p>
+<ol><li>I never eat <em>breakfast</em> before eight.</li><li>They serve <em>breakfast</em> until eleven on weekends.</li><li>We had eggs and toast for <em>breakfast</em>.</li></ol>
+<hr>
+<h3 id="lunch">lunch<a class="hash" href="#lunch" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/lʌntʃ/ &middot; <em>LUHNCH</em></dd><dt>Русский</dt><dd>обед (дневной)</dd><dt>Plural</dt><dd><em>lunches</em></dd><dt>Countability</dt><dd>countable</dd></dl>
+<p>A meal eaten in the middle of the day.</p>
+<ol><li>Let's grab <em>lunch</em> after the meeting.</li><li>She brings <em>lunch</em> from home every day.</li><li>The place is packed at <em>lunch</em>.</li></ol>
+<hr>
+<h3 id="dinner">dinner<a class="hash" href="#dinner" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/ˈdɪnər/ &middot; <em>DIN-ur</em></dd><dt>Русский</dt><dd>ужин, главный приём пищи</dd><dt>Plural</dt><dd><em>dinners</em></dd><dt>Countability</dt><dd>countable</dd></dl>
+<p>The main meal of the day, usually eaten in the evening.</p>
+<ol><li><em>Dinner</em> is ready in ten minutes.</li><li>They invited us over for <em>dinner</em> on Saturday.</li><li>He cooks <em>dinner</em> most nights.</li></ol>
+<hr>
+<h3 id="supper">supper<a class="hash" href="#supper" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/ˈsʌpər/ &middot; <em>SUP-ur</em></dd><dt>Русский</dt><dd>ужин (лёгкий, поздний)</dd><dt>Plural</dt><dd><em>suppers</em></dd><dt>Countability</dt><dd>countable</dd></dl>
+<p>A light evening meal, especially one eaten late.</p>
+<ol><li>My grandmother still calls the evening meal <em>supper</em>.</li><li>We had soup and bread for <em>supper</em>.</li><li>The kids get a snack before <em>supper</em>.</li></ol>
+<hr>
+<h3 id="brunch">brunch<a class="hash" href="#brunch" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/brʌntʃ/ &middot; <em>BRUHNCH</em></dd><dt>Русский</dt><dd>поздний завтрак, бранч</dd><dt>Plural</dt><dd><em>brunches</em></dd><dt>Countability</dt><dd>countable</dd></dl>
+<p>A late-morning meal that takes the place of both breakfast and lunch.</p>
+<ol><li>We're meeting friends for <em>brunch</em> on Sunday.</li><li>That café does a great <em>brunch</em>.</li><li><em>Brunch</em> usually runs until two.</li></ol>
+<hr>
+<h3 id="snack">snack<a class="hash" href="#snack" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/snæk/ &middot; <em>SNAK</em></dd><dt>Русский</dt><dd>перекус, закуска</dd><dt>Plural</dt><dd><em>snacks</em></dd><dt>Countability</dt><dd>countable</dd></dl>
+<p>A small amount of food eaten between meals.</p>
+<ol><li>Grab a <em>snack</em> before we head out.</li><li>The kids need <em>snacks</em> for the road trip.</li><li>I keep <em>snacks</em> in my desk drawer.</li></ol>
+<hr>
+<h3 id="dessert">dessert<a class="hash" href="#dessert" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/dɪˈzɜːrt/ &middot; <em>dih-ZURT</em></dd><dt>Русский</dt><dd>десерт, сладкое</dd><dt>Plural</dt><dd><em>desserts</em></dd><dt>Countability</dt><dd>countable, and uncountable as food</dd><dt>Contrast</dt><dd>Two s's and stress on the second syllable — dih-ZURT. With one s, desert (DEZ-urt) is the sandy place.</dd></dl>
+<p>Sweet food served at the end of a meal.</p>
+<ol><li>We were too full for <em>dessert</em>.</li><li>She made a chocolate cake for <em>dessert</em>.</li><li>The restaurant has amazing <em>desserts</em>.</li></ol>
+<hr>
+<h3 id="appetizer">appetizer<a class="hash" href="#appetizer" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/ˈæpətaɪzər/ &middot; <em>AP-uh-ty-zur</em></dd><dt>Русский</dt><dd>закуска (перед основным блюдом)</dd><dt>Plural</dt><dd><em>appetizers</em></dd><dt>Countability</dt><dd>countable</dd><dt>Contrast</dt><dd>Americans say appetizer; the British say starter.</dd></dl>
+<p>A small dish served before the main course.</p>
+<ol><li>We ordered a couple of <em>appetizers</em> to share.</li><li>The wings are the best <em>appetizer</em> here.</li><li><em>Appetizers</em> are half price during happy hour.</li></ol>
+<hr>
+<h3 id="course">course<a class="hash" href="#course" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/kɔːrs/ &middot; <em>KORS</em></dd><dt>Русский</dt><dd>блюдо (в составе обеда), подача</dd><dt>Plural</dt><dd><em>courses</em></dd><dt>Countability</dt><dd>countable</dd><dt>Contrast</dt><dd>Sounds exactly like coarse (грубый) — only the spelling differs.</dd></dl>
+<p>One of the separate parts of a meal, served one after another.</p>
+<ol><li>The main <em>course</em> was salmon.</li><li>Dinner was three <em>courses</em> and took two hours.</li><li>Soup came first, then the fish <em>course</em>.</li></ol>
+<hr>
+<h3 id="dish">dish<a class="hash" href="#dish" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/dɪʃ/ &middot; <em>DISH</em></dd><dt>Русский</dt><dd>блюдо (кушанье)</dd><dt>Plural</dt><dd><em>dishes</em></dd><dt>Countability</dt><dd>countable</dd></dl>
+<p>A particular kind of prepared food.</p>
+<ol><li>Lasagna is her signature <em>dish</em>.</li><li>Each of us brought a <em>dish</em> to the potluck.</li><li>The menu has a few vegetarian <em>dishes</em>.</li></ol>
+<hr>
+<h3 id="recipe">recipe<a class="hash" href="#recipe" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/ˈresəpi/ &middot; <em>RES-uh-pee</em></dd><dt>Русский</dt><dd>рецепт (кулинарный)</dd><dt>Plural</dt><dd><em>recipes</em></dd><dt>Countability</dt><dd>countable</dd><dt>Contrast</dt><dd>Three syllables, RES-uh-pee — the final e is pronounced, so it does not rhyme with ripe.</dd></dl>
+<p>A set of instructions for cooking a particular dish.</p>
+<ol><li>Can you send me the <em>recipe</em> for that soup?</li><li>I followed the <em>recipe</em> exactly and it still came out flat.</li><li>She has a whole box of her mother's <em>recipes</em>.</li></ol>
+<hr>
+<h3 id="ingredient">ingredient<a class="hash" href="#ingredient" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/ɪnˈɡriːdiənt/ &middot; <em>in-GREE-dee-uhnt</em></dd><dt>Русский</dt><dd>ингредиент, составная часть</dd><dt>Plural</dt><dd><em>ingredients</em></dd><dt>Countability</dt><dd>countable</dd></dl>
+<p>One of the foods that go into a dish.</p>
+<ol><li>You only need five <em>ingredients</em> for this.</li><li>Butter is the key <em>ingredient</em>.</li><li>Check the <em>ingredients</em> on the label.</li></ol>
+<hr>
+<h3 id="portion">portion<a class="hash" href="#portion" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/ˈpɔːrʃn/ &middot; <em>POR-shuhn</em></dd><dt>Русский</dt><dd>порция</dd><dt>Plural</dt><dd><em>portions</em></dd><dt>Countability</dt><dd>countable</dd></dl>
+<p>The amount of food served to one person.</p>
+<ol><li>The <em>portions</em> here are huge.</li><li>He asked for a smaller <em>portion</em>.</li><li>Split it into four <em>portions</em>.</li></ol>
+<hr>
+<h3 id="buffet">buffet<a class="hash" href="#buffet" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/bəˈfeɪ/ &middot; <em>buh-FAY</em></dd><dt>Русский</dt><dd>шведский стол</dd><dt>Plural</dt><dd><em>buffets</em></dd><dt>Countability</dt><dd>countable</dd><dt>Contrast</dt><dd>The final t is silent and the stress falls on the second syllable — buh-FAY.</dd></dl>
+<p>A meal where guests serve themselves from a table of dishes.</p>
+<ol><li>The hotel puts out a breakfast <em>buffet</em>.</li><li>He went back to the <em>buffet</em> three times.</li><li><em>Buffets</em> are cheaper for a big group.</li></ol>
+<hr>
+<h3 id="picnic">picnic<a class="hash" href="#picnic" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/ˈpɪknɪk/ &middot; <em>PIK-nik</em></dd><dt>Русский</dt><dd>пикник</dd><dt>Plural</dt><dd><em>picnics</em></dd><dt>Countability</dt><dd>countable</dd></dl>
+<p>A meal eaten outdoors, away from home.</p>
+<ol><li>We had a <em>picnic</em> by the lake.</li><li>Rain ruined the <em>picnic</em>.</li><li>They pack the same <em>picnic</em> every year.</li></ol>
+<hr>
+<h3 id="leftovers">leftovers<a class="hash" href="#leftovers" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/ˈleftoʊvərz/ &middot; <em>LEFT-oh-vurz</em></dd><dt>Русский</dt><dd>остатки еды</dd><dt>Plural</dt><dd><em>leftovers</em></dd><dt>Countability</dt><dd>countable</dd><dt>Contrast</dt><dd>Used only in the plural as a noun; before another noun it drops the s — leftover pizza.</dd></dl>
+<p>Food that remains after a meal and is eaten later.</p>
+<ol><li>We ate <em>leftovers</em> all week.</li><li>Put the <em>leftovers</em> in the fridge.</li><li>There weren't any <em>leftovers</em>.</li></ol>
+<hr>
+<h3 id="entrée">entrée<a class="hash" href="#entrée" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/ˈɑːntreɪ/ &middot; <em>AHN-tray</em></dd><dt>Русский</dt><dd>основное блюдо (в США)</dd><dt>Plural</dt><dd><em>entrées</em></dd><dt>Countability</dt><dd>countable</dd><dt>Contrast</dt><dd>In the US an entrée is the main course; in France and Britain it is the starter.</dd></dl>
+<p>The main dish of a meal in an American restaurant.</p>
+<ol><li>The <em>entrées</em> all come with a side salad.</li><li>He picked the cheapest <em>entrée</em> on the menu.</li><li>Our <em>entrées</em> arrived before the appetizers.</li></ol>
+<hr>
+<h3 id="takeout">takeout<a class="hash" href="#takeout" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/ˈteɪkaʊt/ &middot; <em>TAYK-owt</em></dd><dt>Русский</dt><dd>еда навынос</dd><dt>Countability</dt><dd>uncountable</dd><dt>Contrast</dt><dd>Americans say takeout; the British say takeaway.</dd></dl>
+<p>Cooked food bought at a restaurant to eat somewhere else.</p>
+<ol><li>We got Chinese <em>takeout</em>.</li><li>There's <em>takeout</em> in the fridge.</li><li>She orders <em>takeout</em> three nights a week.</li></ol>
+<hr>
+<h3 id="staple">staple<a class="hash" href="#staple" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/ˈsteɪpl/ &middot; <em>STAY-puhl</em></dd><dt>Русский</dt><dd>основной продукт питания</dd><dt>Plural</dt><dd><em>staples</em></dd><dt>Countability</dt><dd>countable</dd></dl>
+<p>A basic food that people eat regularly and depend on.</p>
+<ol><li>Rice is a <em>staple</em> in half the world.</li><li>Bread and potatoes were the <em>staples</em> of his childhood.</li><li>Beans are a cheap <em>staple</em>.</li></ol>
+<hr>
+<h3 id="flour">flour<a class="hash" href="#flour" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/ˈflaʊrr/ &middot; <em>FLOW-ur</em></dd><dt>Русский</dt><dd>мука</dd><dt>Countability</dt><dd>uncountable</dd><dt>Contrast</dt><dd>Pronounced exactly like flower (цветок) — FLOW-ur.</dd></dl>
+<p>A powder made by grinding grain, used for baking.</p>
+<ol><li>Add the <em>flour</em> a little at a time.</li><li>We're out of <em>flour</em> again.</li><li>This bread is made with whole wheat <em>flour</em>.</li></ol>
+<hr>
+<h3 id="wheat">wheat<a class="hash" href="#wheat" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/wiːt/ &middot; <em>WEET</em></dd><dt>Русский</dt><dd>пшеница</dd><dt>Countability</dt><dd>uncountable</dd></dl>
+<p>A grain used to make most bread and pasta.</p>
+<ol><li>This bread is made from whole <em>wheat</em>.</li><li><em>Wheat</em> prices went up again.</li><li>She can't eat <em>wheat</em>.</li></ol>
+<hr>
+<h3 id="corn">corn<a class="hash" href="#corn" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/kɔːrn/ &middot; <em>KORN</em></dd><dt>Русский</dt><dd>кукуруза</dd><dt>Countability</dt><dd>uncountable</dd><dt>Contrast</dt><dd>In the US corn means кукуруза; the British call that maize, and their corn means grain in general.</dd></dl>
+<p>A tall grain plant with large yellow kernels, eaten as a vegetable.</p>
+<ol><li>We grilled <em>corn</em> on the cob.</li><li>The fields around here are all <em>corn</em>.</li><li>Add a can of <em>corn</em> to the soup.</li></ol>
+<hr>
+<h3 id="rye">rye<a class="hash" href="#rye" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/raɪ/ &middot; <em>RY</em></dd><dt>Русский</dt><dd>рожь, ржаной хлеб</dd><dt>Countability</dt><dd>uncountable</dd><dt>Contrast</dt><dd>One syllable, RY — a homophone of wry.</dd></dl>
+<p>A grain used to make dark bread, and the bread made from it.</p>
+<ol><li>He ordered pastrami on <em>rye</em>.</li><li><em>Rye</em> grows in poorer soil than wheat.</li><li>The <em>rye</em> has caraway seeds in it.</li></ol>
+<hr>
+<h3 id="oatmeal">oatmeal<a class="hash" href="#oatmeal" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/ˈoʊtmiːl/ &middot; <em>OHT-meel</em></dd><dt>Русский</dt><dd>овсянка, овсяная каша</dd><dt>Countability</dt><dd>uncountable</dd><dt>Contrast</dt><dd>Americans say oatmeal; the British call the same dish porridge.</dd></dl>
+<p>A hot breakfast dish made from oats cooked in water or milk.</p>
+<ol><li>I have <em>oatmeal</em> almost every morning.</li><li>Put some brown sugar on your <em>oatmeal</em>.</li><li>The <em>oatmeal</em> got cold while we talked.</li></ol>
+<hr>
+<h3 id="cereal">cereal<a class="hash" href="#cereal" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/ˈsɪriəl/ &middot; <em>SEER-ee-uhl</em></dd><dt>Русский</dt><dd>хлопья на завтрак; злак</dd><dt>Plural</dt><dd><em>cereals</em></dd><dt>Countability</dt><dd>both — countable and uncountable with different meanings</dd><dt>Contrast</dt><dd>Sounds exactly like serial (серийный) — SEER-ee-uhl.</dd></dl>
+<p>Breakfast food made from grain, or a grain crop.</p>
+<ol><li>The kids eat <em>cereal</em> every morning.</li><li>We're out of milk, so no <em>cereal</em>.</li><li>Wheat and rice are the world's main <em>cereals</em>.</li></ol>
+<hr>
+<h3 id="pasta">pasta<a class="hash" href="#pasta" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/ˈpɑːstə/ &middot; <em>PAH-stuh</em></dd><dt>Русский</dt><dd>макаронные изделия, паста</dd><dt>Countability</dt><dd>uncountable</dd><dt>Contrast</dt><dd>Americans say PAH-stuh; the British say PASS-tuh.</dd></dl>
+<p>Food made from flour and water in shapes such as spaghetti or penne.</p>
+<ol><li>We're having <em>pasta</em> tonight.</li><li>Cook the <em>pasta</em> until it's just tender.</li><li>There's a great <em>pasta</em> place near the office.</li></ol>
+<hr>
+<h3 id="noodle">noodle<a class="hash" href="#noodle" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/ˈnuːdl/ &middot; <em>NOO-duhl</em></dd><dt>Русский</dt><dd>лапша</dd><dt>Plural</dt><dd><em>noodles</em></dd><dt>Countability</dt><dd>countable</dd></dl>
+<p>A long thin strip of pasta or dough, usually boiled.</p>
+<ol><li>The soup is mostly broth and <em>noodles</em>.</li><li>He ate a whole bowl of <em>noodles</em>.</li><li>Don't overcook the <em>noodles</em>.</li></ol>
+<hr>
+<h3 id="spaghetti">spaghetti<a class="hash" href="#spaghetti" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/spəˈɡeti/ &middot; <em>spuh-GET-ee</em></dd><dt>Русский</dt><dd>спагетти</dd><dt>Countability</dt><dd>uncountable</dd><dt>Contrast</dt><dd>Uncountable in English — the spaghetti is ready, never are ready.</dd></dl>
+<p>Pasta in the form of long thin strings.</p>
+<ol><li>We had <em>spaghetti</em> and meatballs.</li><li>The <em>spaghetti</em> is almost done.</li><li>He twirled the <em>spaghetti</em> around his fork.</li></ol>
+<hr>
+<h3 id="yeast">yeast<a class="hash" href="#yeast" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/jiːst/ &middot; <em>YEEST</em></dd><dt>Русский</dt><dd>дрожжи</dd><dt>Countability</dt><dd>uncountable</dd><dt>Contrast</dt><dd>Uncountable and singular in English, though Russian дрожжи is plural — the yeast is fresh.</dd></dl>
+<p>A living substance used to make bread rise.</p>
+<ol><li>The recipe calls for a packet of <em>yeast</em>.</li><li>The <em>yeast</em> was dead, so nothing rose.</li><li>Bread without <em>yeast</em> comes out flat.</li></ol>
+<hr>
+<h3 id="dough">dough<a class="hash" href="#dough" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/doʊ/ &middot; <em>DOH</em></dd><dt>Русский</dt><dd>тесто</dd><dt>Countability</dt><dd>uncountable</dd><dt>Contrast</dt><dd>The ough is a plain OH — DOH, exactly like doe.</dd></dl>
+<p>A thick mixture of flour and liquid that is baked into bread.</p>
+<ol><li>Let the <em>dough</em> rise for an hour.</li><li>The <em>dough</em> was too sticky to work with.</li><li>She rolled the <em>dough</em> into a ball.</li></ol>
+<hr>
+<h3 id="batter">batter<a class="hash" href="#batter" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/ˈbætər/ &middot; <em>BAT-ur</em></dd><dt>Русский</dt><dd>жидкое тесто, кляр</dd><dt>Countability</dt><dd>uncountable</dd></dl>
+<p>A thin liquid mixture of flour, eggs, and milk used for frying or baking.</p>
+<ol><li>Pour the <em>batter</em> into the hot pan.</li><li>The <em>batter</em> should be smooth, not lumpy.</li><li>She dipped the fish in <em>batter</em>.</li></ol>
+<hr>
+<h3 id="toast">toast<a class="hash" href="#toast" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/toʊst/ &middot; <em>TOHST</em></dd><dt>Русский</dt><dd>тост, поджаренный хлеб</dd><dt>Countability</dt><dd>uncountable</dd><dt>Contrast</dt><dd>Uncountable — a piece of toast, never a toast. A toast means тост-здравица.</dd></dl>
+<p>Bread that has been browned by heat.</p>
+<ol><li>Two slices of <em>toast</em>, please.</li><li>The <em>toast</em> burned while I was on the phone.</li><li>She had <em>toast</em> with jam for breakfast.</li></ol>
+<hr>
+<h3 id="sandwich">sandwich<a class="hash" href="#sandwich" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/ˈsænwɪtʃ/ &middot; <em>SAN-wich</em></dd><dt>Русский</dt><dd>бутерброд, сэндвич</dd><dt>Plural</dt><dd><em>sandwiches</em></dd><dt>Countability</dt><dd>countable</dd><dt>Contrast</dt><dd>The d is usually dropped in speech — SAN-wich.</dd></dl>
+<p>Two slices of bread with a filling between them.</p>
+<ol><li>I packed a <em>sandwich</em> for the trip.</li><li>He makes the best turkey <em>sandwiches</em>.</li><li>Do you want your <em>sandwich</em> toasted?</li></ol>
+<hr>
+<h3 id="bun">bun<a class="hash" href="#bun" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/bʌn/ &middot; <em>BUHN</em></dd><dt>Русский</dt><dd>булочка</dd><dt>Plural</dt><dd><em>buns</em></dd><dt>Countability</dt><dd>countable</dd></dl>
+<p>A small round bread roll, often sweet or used for a sandwich.</p>
+<ol><li>The burger <em>buns</em> are in the freezer.</li><li>She warmed the <em>buns</em> in the oven.</li><li>This <em>bun</em> is stale.</li></ol>
+<hr>
+<h3 id="bagel">bagel<a class="hash" href="#bagel" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/ˈbeɪɡl/ &middot; <em>BAY-guhl</em></dd><dt>Русский</dt><dd>бублик, бейгл</dd><dt>Plural</dt><dd><em>bagels</em></dd><dt>Countability</dt><dd>countable</dd></dl>
+<p>A dense ring-shaped bread roll that is boiled before it is baked.</p>
+<ol><li>I'll take a <em>bagel</em> with cream cheese.</li><li>The <em>bagels</em> here are the real thing.</li><li>He toasted half a <em>bagel</em> for breakfast.</li></ol>
+<hr>
+<h3 id="muffin">muffin<a class="hash" href="#muffin" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/ˈmʌfɪn/ &middot; <em>MUHF-in</em></dd><dt>Русский</dt><dd>маффин, кекс</dd><dt>Plural</dt><dd><em>muffins</em></dd><dt>Countability</dt><dd>countable</dd></dl>
+<p>A small sweet cake baked in a cup-shaped mold.</p>
+<ol><li>She baked blueberry <em>muffins</em>.</li><li>I grabbed a <em>muffin</em> on the way in.</li><li>The <em>muffins</em> came out dry.</li></ol>
+<hr>
+<h3 id="croissant">croissant<a class="hash" href="#croissant" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/krəˈsɑːnt/ &middot; <em>kruh-SAHNT</em></dd><dt>Русский</dt><dd>круассан</dd><dt>Plural</dt><dd><em>croissants</em></dd><dt>Countability</dt><dd>countable</dd><dt>Contrast</dt><dd>A French word: the stress is on the second syllable — kruh-SAHNT, not KROY-sant.</dd></dl>
+<p>A light, flaky crescent-shaped roll of buttery pastry.</p>
+<ol><li>He had a <em>croissant</em> and black coffee.</li><li>The <em>croissants</em> are still warm.</li><li>They sell almond <em>croissants</em> on weekends.</li></ol>
+<hr>
+<h3 id="doughnut">doughnut<a class="hash" href="#doughnut" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/ˈdoʊnʌt/ &middot; <em>DOH-nut</em></dd><dt>Русский</dt><dd>пончик</dd><dt>Plural</dt><dd><em>doughnuts</em></dd><dt>Countability</dt><dd>countable</dd><dt>Contrast</dt><dd>The ough is just OH — DOH-nut. Usually spelled donut in the US.</dd></dl>
+<p>A small ring of sweet fried dough.</p>
+<ol><li>He brought <em>doughnuts</em> to the office.</li><li>There's one <em>doughnut</em> left in the box.</li><li>The glazed <em>doughnuts</em> always go first.</li></ol>
+<hr>
+<h3 id="pancake">pancake<a class="hash" href="#pancake" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/ˈpænkeɪk/ &middot; <em>PAN-kayk</em></dd><dt>Русский</dt><dd>блин, оладья</dd><dt>Plural</dt><dd><em>pancakes</em></dd><dt>Countability</dt><dd>countable</dd></dl>
+<p>A thin flat cake of batter fried on both sides.</p>
+<ol><li>We make <em>pancakes</em> every Sunday.</li><li>Pour some syrup on your <em>pancakes</em>.</li><li>He flipped the <em>pancake</em> too early.</li></ol>
+<hr>
+<h3 id="waffle">waffle<a class="hash" href="#waffle" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/ˈwɑːfl/ &middot; <em>WAH-fuhl</em></dd><dt>Русский</dt><dd>вафля</dd><dt>Plural</dt><dd><em>waffles</em></dd><dt>Countability</dt><dd>countable</dd></dl>
+<p>A crisp batter cake baked in a grid-patterned iron.</p>
+<ol><li>The hotel has a <em>waffle</em> maker at breakfast.</li><li>She loves <em>waffles</em> with strawberries.</li><li>My <em>waffle</em> stuck to the iron.</li></ol>
+<hr>
+<h3 id="cookie">cookie<a class="hash" href="#cookie" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/ˈkʊki/ &middot; <em>KUUK-ee</em></dd><dt>Русский</dt><dd>печенье</dd><dt>Plural</dt><dd><em>cookies</em></dd><dt>Countability</dt><dd>countable</dd><dt>Contrast</dt><dd>Americans say cookie; the British call it a biscuit.</dd></dl>
+<p>A small flat sweet baked cake.</p>
+<ol><li>The <em>cookies</em> are still in the oven.</li><li>He ate three <em>cookies</em> before dinner.</li><li>She sent us a tin of homemade <em>cookies</em>.</li></ol>
+<hr>
+<h3 id="cracker">cracker<a class="hash" href="#cracker" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/ˈkrækər/ &middot; <em>KRAK-ur</em></dd><dt>Русский</dt><dd>крекер</dd><dt>Plural</dt><dd><em>crackers</em></dd><dt>Countability</dt><dd>countable</dd></dl>
+<p>A thin, dry, salty baked wafer.</p>
+<ol><li>We had cheese and <em>crackers</em> before dinner.</li><li>The <em>crackers</em> went soft in the humidity.</li><li>He crumbled a <em>cracker</em> into his soup.</li></ol>
+<hr>
+<h3 id="cake">cake<a class="hash" href="#cake" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/keɪk/ &middot; <em>KAYK</em></dd><dt>Русский</dt><dd>торт, кекс</dd><dt>Plural</dt><dd><em>cakes</em></dd><dt>Countability</dt><dd>countable, and uncountable as food</dd></dl>
+<p>A sweet baked food made from flour, sugar, eggs, and fat.</p>
+<ol><li>She made a carrot <em>cake</em> for his birthday.</li><li>There's still half a <em>cake</em> on the counter.</li><li>Would you like a piece of <em>cake</em>?</li></ol>
+<hr>
+<h3 id="pie">pie<a class="hash" href="#pie" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/paɪ/ &middot; <em>PY</em></dd><dt>Русский</dt><dd>пирог</dd><dt>Plural</dt><dd><em>pies</em></dd><dt>Countability</dt><dd>countable, and uncountable as food</dd></dl>
+<p>A baked dish of fruit or meat inside a pastry crust.</p>
+<ol><li>My mom makes an apple <em>pie</em> every fall.</li><li>Save me a slice of <em>pie</em>.</li><li>The <em>pies</em> sold out by noon.</li></ol>
+<hr>
+<h3 id="pastry">pastry<a class="hash" href="#pastry" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/ˈpeɪstri/ &middot; <em>PAY-stree</em></dd><dt>Русский</dt><dd>выпечка; тесто для выпечки</dd><dt>Plural</dt><dd><em>pastries</em></dd><dt>Countability</dt><dd>both — countable and uncountable with different meanings</dd></dl>
+<p>Dough of flour, fat, and water used for baking, or a sweet item made from it.</p>
+<ol><li>Roll the <em>pastry</em> out thin.</li><li>They put out coffee and <em>pastries</em>.</li><li>He picked a <em>pastry</em> from the case.</li></ol>
+<hr>
+<h3 id="crust">crust<a class="hash" href="#crust" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/krʌst/ &middot; <em>KRUHST</em></dd><dt>Русский</dt><dd>корка, корочка; основа пирога</dd><dt>Plural</dt><dd><em>crusts</em></dd><dt>Countability</dt><dd>countable</dd></dl>
+<p>The hard outer layer of bread, or the pastry shell of a pie.</p>
+<ol><li>He always leaves the <em>crust</em> on his plate.</li><li>The bread has a nice thick <em>crust</em>.</li><li>This pizza has a thin <em>crust</em>.</li></ol>
+<hr>
+<h3 id="crumb">crumb<a class="hash" href="#crumb" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/krʌm/ &middot; <em>KRUHM</em></dd><dt>Русский</dt><dd>крошка</dd><dt>Plural</dt><dd><em>crumbs</em></dd><dt>Countability</dt><dd>countable</dd><dt>Contrast</dt><dd>The b is silent — KRUHM.</dd></dl>
+<p>A tiny piece of bread or cake that breaks off.</p>
+<ol><li>There were <em>crumbs</em> all over the counter.</li><li>He brushed the <em>crumbs</em> off his shirt.</li><li>Not a <em>crumb</em> was left.</li></ol>
+<hr>
+<h3 id="tortilla">tortilla<a class="hash" href="#tortilla" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/tɔːrˈtiːə/ &middot; <em>tor-TEE-uh</em></dd><dt>Русский</dt><dd>тортилья, лепёшка</dd><dt>Plural</dt><dd><em>tortillas</em></dd><dt>Countability</dt><dd>countable</dd><dt>Contrast</dt><dd>The ll is said like y — tor-TEE-uh, never tor-TILL-uh.</dd></dl>
+<p>A thin flat round bread made from corn or wheat flour.</p>
+<ol><li>Warm the <em>tortillas</em> before you fill them.</li><li>He wrapped the eggs in a <em>tortilla</em>.</li><li>The <em>tortillas</em> come twelve to a pack.</li></ol>
+<hr>
+<h3 id="butter">butter<a class="hash" href="#butter" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/ˈbʌtər/ &middot; <em>BUHT-ur</em></dd><dt>Русский</dt><dd>сливочное масло</dd><dt>Countability</dt><dd>uncountable</dd></dl>
+<p>A soft yellow fat made from cream, spread on bread or used in cooking.</p>
+<ol><li>Put some <em>butter</em> on the toast.</li><li>Melt the <em>butter</em> over low heat.</li><li>We're out of <em>butter</em>.</li></ol>
+<hr>
+<h3 id="cheese">cheese<a class="hash" href="#cheese" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/tʃiːz/ &middot; <em>CHEEZ</em></dd><dt>Русский</dt><dd>сыр</dd><dt>Plural</dt><dd><em>cheeses</em></dd><dt>Countability</dt><dd>countable, and uncountable as food</dd></dl>
+<p>A solid food made from milk.</p>
+<ol><li>There's <em>cheese</em> and crackers in the kitchen.</li><li>He put extra <em>cheese</em> on the pizza.</li><li>The store carries about forty <em>cheeses</em>.</li></ol>
+<hr>
+<h3 id="egg">egg<a class="hash" href="#egg" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/eɡ/ &middot; <em>EG</em></dd><dt>Русский</dt><dd>яйцо</dd><dt>Plural</dt><dd><em>eggs</em></dd><dt>Countability</dt><dd>countable</dd></dl>
+<p>The oval object laid by a hen, eaten as food.</p>
+<ol><li>How do you want your <em>eggs</em>?</li><li>The recipe calls for two <em>eggs</em>.</li><li>He cracked an <em>egg</em> into the pan.</li></ol>
+<hr>
+<h3 id="yogurt">yogurt<a class="hash" href="#yogurt" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/ˈjoʊɡərt/ &middot; <em>YOH-gurt</em></dd><dt>Русский</dt><dd>йогурт</dd><dt>Plural</dt><dd><em>yogurts</em></dd><dt>Countability</dt><dd>countable, and uncountable as food</dd><dt>Contrast</dt><dd>Americans say YOH-gurt; the British say YOG-urt and often spell it yoghurt.</dd></dl>
+<p>A thick, slightly sour food made from fermented milk.</p>
+<ol><li>She has <em>yogurt</em> and fruit for breakfast.</li><li>Grab a couple of <em>yogurts</em> while you're there.</li><li>This <em>yogurt</em> is past its date.</li></ol>
+<hr>
+<h3 id="cream">cream<a class="hash" href="#cream" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/kriːm/ &middot; <em>KREEM</em></dd><dt>Русский</dt><dd>сливки</dd><dt>Countability</dt><dd>uncountable</dd></dl>
+<p>The thick fatty part of milk.</p>
+<ol><li>Do you take <em>cream</em> in your coffee?</li><li>Whip the <em>cream</em> until it holds a peak.</li><li>The sauce needs a little <em>cream</em>.</li></ol>
+<hr>
+<h3 id="dairy">dairy<a class="hash" href="#dairy" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/ˈderi/ &middot; <em>DAIR-ee</em></dd><dt>Русский</dt><dd>молочные продукты</dd><dt>Countability</dt><dd>uncountable</dd><dt>Contrast</dt><dd>DAIR-ee. Do not mix it up with diary (DY-uh-ree, дневник) — the letters are nearly the same.</dd></dl>
+<p>Milk and the foods made from it.</p>
+<ol><li>He cut out <em>dairy</em> completely.</li><li>The <em>dairy</em> aisle is in the back.</li><li>She can't digest <em>dairy</em>.</li></ol>
+<hr>
+<h3 id="jam">jam<a class="hash" href="#jam" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/dʒæm/ &middot; <em>JAM</em></dd><dt>Русский</dt><dd>варенье, джем</dd><dt>Countability</dt><dd>uncountable</dd></dl>
+<p>A sweet spread made by boiling fruit with sugar.</p>
+<ol><li>She put <em>jam</em> on her toast.</li><li>We made strawberry <em>jam</em> last summer.</li><li>There's a jar of <em>jam</em> in the pantry.</li></ol>
+<hr>
+<h3 id="jelly">jelly<a class="hash" href="#jelly" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/ˈdʒeli/ &middot; <em>JEL-ee</em></dd><dt>Русский</dt><dd>джем без кусочков фруктов</dd><dt>Countability</dt><dd>uncountable</dd><dt>Contrast</dt><dd>In the US jelly is a seedless fruit spread; the wobbly British dessert called jelly is Jell-O here.</dd></dl>
+<p>A clear fruit spread made from strained juice, with no pieces of fruit in it.</p>
+<ol><li>He wanted peanut butter and <em>jelly</em>.</li><li>The grape <em>jelly</em> is almost gone.</li><li>She spread <em>jelly</em> on the bread.</li></ol>
+<hr>
+<h3 id="honey">honey<a class="hash" href="#honey" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/ˈhʌni/ &middot; <em>HUHN-ee</em></dd><dt>Русский</dt><dd>мёд</dd><dt>Countability</dt><dd>uncountable</dd><dt>Contrast</dt><dd>The o sounds like UH — HUHN-ee, not HOH-nee.</dd></dl>
+<p>A thick sweet substance made by bees.</p>
+<ol><li>He stirred <em>honey</em> into his tea.</li><li>Local <em>honey</em> tastes completely different.</li><li>There's a jar of <em>honey</em> in the cupboard.</li></ol>
+<hr>
+<h3 id="syrup">syrup<a class="hash" href="#syrup" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/ˈsɪrəp/ &middot; <em>SIR-uhp</em></dd><dt>Русский</dt><dd>сироп</dd><dt>Countability</dt><dd>uncountable</dd></dl>
+<p>A thick sweet liquid poured over food or added to drinks.</p>
+<ol><li>Pass the maple <em>syrup</em>.</li><li>The pancakes were swimming in <em>syrup</em>.</li><li>Add a splash of <em>syrup</em> to the coffee.</li></ol>
+<hr>
+<h3 id="sauce">sauce<a class="hash" href="#sauce" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/sɔːs/ &middot; <em>SAWS</em></dd><dt>Русский</dt><dd>соус</dd><dt>Plural</dt><dd><em>sauces</em></dd><dt>Countability</dt><dd>countable, and uncountable as food</dd><dt>Contrast</dt><dd>SAWS has no r in it — keep it apart from source (SORS).</dd></dl>
+<p>A thick liquid served with or poured over food.</p>
+<ol><li>The <em>sauce</em> needs more salt.</li><li>He puts hot <em>sauce</em> on everything.</li><li>There are three dipping <em>sauces</em>.</li></ol>
+<hr>
+<h3 id="gravy">gravy<a class="hash" href="#gravy" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/ˈɡreɪvi/ &middot; <em>GRAY-vee</em></dd><dt>Русский</dt><dd>подливка, мясной соус</dd><dt>Countability</dt><dd>uncountable</dd></dl>
+<p>A sauce made from the juices of cooked meat.</p>
+<ol><li>Pour the <em>gravy</em> over the potatoes.</li><li>The turkey came with <em>gravy</em> and stuffing.</li><li>She makes <em>gravy</em> from scratch.</li></ol>
+<hr>
+<h3 id="ketchup">ketchup<a class="hash" href="#ketchup" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/ˈketʃəp/ &middot; <em>KECH-uhp</em></dd><dt>Русский</dt><dd>кетчуп</dd><dt>Countability</dt><dd>uncountable</dd></dl>
+<p>A thick sweet tomato sauce eaten with fries and burgers.</p>
+<ol><li>He puts <em>ketchup</em> on his eggs.</li><li>Can you pass the <em>ketchup</em>?</li><li>The <em>ketchup</em> bottle is empty.</li></ol>
+<hr>
+<h3 id="mustard">mustard<a class="hash" href="#mustard" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/ˈmʌstərd/ &middot; <em>MUHS-turd</em></dd><dt>Русский</dt><dd>горчица</dd><dt>Countability</dt><dd>uncountable</dd></dl>
+<p>A sharp yellow or brown sauce made from mustard seeds.</p>
+<ol><li>I'll take <em>mustard</em> on that, no mayo.</li><li>The <em>mustard</em> is in the door of the fridge.</li><li>He likes spicy brown <em>mustard</em>.</li></ol>
+<hr>
+<h3 id="mayonnaise">mayonnaise<a class="hash" href="#mayonnaise" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/ˈmeɪrneɪz/ &middot; <em>MAY-uh-nayz</em></dd><dt>Русский</dt><dd>майонез</dd><dt>Countability</dt><dd>uncountable</dd></dl>
+<p>A thick pale sauce made from eggs and oil.</p>
+<ol><li>Hold the <em>mayonnaise</em>, please.</li><li>She mixed the tuna with a little <em>mayonnaise</em>.</li><li>There's <em>mayonnaise</em> on the sandwich already.</li></ol>
+<hr>
+<h3 id="vinegar">vinegar<a class="hash" href="#vinegar" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/ˈvɪnɪɡər/ &middot; <em>VIN-uh-gur</em></dd><dt>Русский</dt><dd>уксус</dd><dt>Countability</dt><dd>uncountable</dd></dl>
+<p>A sour liquid used in cooking and in salad dressing.</p>
+<ol><li>Add a splash of <em>vinegar</em> to the dressing.</li><li>The pickles sit in <em>vinegar</em> for a week.</li><li>This <em>vinegar</em> smells like apples.</li></ol>
+<hr>
+<h3 id="spice">spice<a class="hash" href="#spice" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/spaɪs/ &middot; <em>SPYS</em></dd><dt>Русский</dt><dd>специя, пряность</dd><dt>Plural</dt><dd><em>spices</em></dd><dt>Countability</dt><dd>countable, and uncountable as a substance</dd></dl>
+<p>A strong-tasting dried part of a plant used to flavor food.</p>
+<ol><li>The <em>spices</em> are in the cabinet by the stove.</li><li>Cinnamon is my favorite <em>spice</em>.</li><li>This curry has too much <em>spice</em> for me.</li></ol>
+<hr>
+<h3 id="herb">herb<a class="hash" href="#herb" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/ɜːrb/ &middot; <em>URB</em></dd><dt>Русский</dt><dd>пряная трава, зелень</dd><dt>Plural</dt><dd><em>herbs</em></dd><dt>Countability</dt><dd>countable</dd><dt>Contrast</dt><dd>In American English the h is silent — URB, and you say an herb. The British pronounce the h.</dd></dl>
+<p>A plant whose leaves are used to flavor food.</p>
+<ol><li>Fresh <em>herbs</em> make a huge difference.</li><li>She grows <em>herbs</em> on the windowsill.</li><li>Basil is the only <em>herb</em> I can keep alive.</li></ol>
+<hr>
+<h3 id="cinnamon">cinnamon<a class="hash" href="#cinnamon" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/ˈsɪnəmən/ &middot; <em>SIN-uh-muhn</em></dd><dt>Русский</dt><dd>корица</dd><dt>Countability</dt><dd>uncountable</dd></dl>
+<p>A sweet brown spice made from tree bark.</p>
+<ol><li>Sprinkle <em>cinnamon</em> on the oatmeal.</li><li>The kitchen smelled like <em>cinnamon</em>.</li><li>She adds <em>cinnamon</em> to her coffee.</li></ol>
+<hr>
+<h3 id="pepper">pepper<a class="hash" href="#pepper" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/ˈpepər/ &middot; <em>PEP-ur</em></dd><dt>Русский</dt><dd>перец</dd><dt>Plural</dt><dd><em>peppers</em></dd><dt>Countability</dt><dd>both — countable and uncountable with different meanings</dd></dl>
+<p>A hot-tasting powder used to season food, or a hollow vegetable of the same name.</p>
+<ol><li>Add salt and <em>pepper</em> to taste.</li><li>She stuffed three <em>peppers</em> with rice.</li><li>There's too much <em>pepper</em> in this soup.</li></ol>
+<hr>
+<h3 id="seasoning">seasoning<a class="hash" href="#seasoning" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/ˈsiːzənɪŋ/ &middot; <em>SEE-zuh-ning</em></dd><dt>Русский</dt><dd>приправа</dd><dt>Countability</dt><dd>uncountable</dd></dl>
+<p>Salt, pepper, herbs, or spices added to food for flavor.</p>
+<ol><li>The chicken needs more <em>seasoning</em>.</li><li>She rubbed <em>seasoning</em> into the meat.</li><li>The <em>seasoning</em> is what makes this dish.</li></ol>
+<hr>
+<h3 id="flavor">flavor<a class="hash" href="#flavor" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/ˈfleɪvər/ &middot; <em>FLAY-vur</em></dd><dt>Русский</dt><dd>вкус, привкус</dd><dt>Plural</dt><dd><em>flavors</em></dd><dt>Countability</dt><dd>countable, and uncountable as a substance</dd><dt>Contrast</dt><dd>American spelling flavor; British flavour.</dd></dl>
+<p>The particular taste of a food or drink.</p>
+<ol><li>This soup has no <em>flavor</em> at all.</li><li>They have thirty-one <em>flavors</em> of ice cream.</li><li>The <em>flavor</em> gets stronger as it sits.</li></ol>
+<hr>
+<h3 id="filling">filling<a class="hash" href="#filling" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/ˈfɪlɪŋ/ &middot; <em>FIL-ing</em></dd><dt>Русский</dt><dd>начинка</dd><dt>Plural</dt><dd><em>fillings</em></dd><dt>Countability</dt><dd>countable</dd></dl>
+<p>The food put inside a pie, sandwich, or pastry.</p>
+<ol><li>The pie <em>filling</em> was too runny.</li><li>What <em>filling</em> do you want in your omelet?</li><li>These pastries have three different <em>fillings</em>.</li></ol>
+<hr>
+<h3 id="beef">beef<a class="hash" href="#beef" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/biːf/ &middot; <em>BEEF</em></dd><dt>Русский</dt><dd>говядина</dd><dt>Countability</dt><dd>uncountable</dd><dt>Contrast</dt><dd>Uncountable, and the animal has a different name: cow for the animal, beef for the meat.</dd></dl>
+<p>Meat from a cow.</p>
+<ol><li>This stew takes about two pounds of <em>beef</em>.</li><li>Ground <em>beef</em> is cheaper this week.</li><li>He gave up <em>beef</em> years ago.</li></ol>
+<hr>
+<h3 id="pork">pork<a class="hash" href="#pork" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/pɔːrk/ &middot; <em>PORK</em></dd><dt>Русский</dt><dd>свинина</dd><dt>Countability</dt><dd>uncountable</dd></dl>
+<p>Meat from a pig.</p>
+<ol><li>We're having <em>pork</em> chops tonight.</li><li>The <em>pork</em> needs another ten minutes.</li><li>Roast <em>pork</em> is her specialty.</li></ol>
+<hr>
+<h3 id="ham">ham<a class="hash" href="#ham" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/hæm/ &middot; <em>HAM</em></dd><dt>Русский</dt><dd>ветчина</dd><dt>Countability</dt><dd>uncountable</dd></dl>
+<p>Salted or smoked meat from the leg of a pig.</p>
+<ol><li>She sliced the <em>ham</em> thin.</li><li>We had <em>ham</em> for Easter dinner.</li><li>There's <em>ham</em> and cheese in the fridge.</li></ol>
+<hr>
+<h3 id="bacon">bacon<a class="hash" href="#bacon" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/ˈbeɪkən/ &middot; <em>BAY-kuhn</em></dd><dt>Русский</dt><dd>бекон</dd><dt>Countability</dt><dd>uncountable</dd><dt>Contrast</dt><dd>Uncountable — three strips of bacon, never three bacons.</dd></dl>
+<p>Salted or smoked meat from the back or sides of a pig.</p>
+<ol><li>The <em>bacon</em> is in the pan.</li><li>He wants extra <em>bacon</em> on the burger.</li><li>The whole house smelled like <em>bacon</em>.</li></ol>
+<hr>
+<h3 id="sausage">sausage<a class="hash" href="#sausage" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/ˈsɔːsɪdʒ/ &middot; <em>SAW-sij</em></dd><dt>Русский</dt><dd>сосиска, колбаса</dd><dt>Plural</dt><dd><em>sausages</em></dd><dt>Countability</dt><dd>countable, and uncountable as food</dd></dl>
+<p>Ground meat and seasoning packed into a thin skin.</p>
+<ol><li>We grilled <em>sausages</em> and peppers.</li><li>He had eggs and <em>sausage</em> for breakfast.</li><li>The Italian <em>sausage</em> is spicy.</li></ol>
+<hr>
+<h3 id="steak">steak<a class="hash" href="#steak" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/steɪk/ &middot; <em>STAYK</em></dd><dt>Русский</dt><dd>стейк, кусок мяса</dd><dt>Plural</dt><dd><em>steaks</em></dd><dt>Countability</dt><dd>countable</dd><dt>Contrast</dt><dd>The ea sounds like AY — STAYK, a homophone of stake (кол).</dd></dl>
+<p>A thick flat piece of meat, usually beef, cut for grilling or frying.</p>
+<ol><li>He grilled a <em>steak</em> for dinner.</li><li>How do you want your <em>steak</em> cooked?</li><li>The <em>steaks</em> were on sale.</li></ol>
+<hr>
+<h3 id="turkey">turkey<a class="hash" href="#turkey" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/ˈtɜːrki/ &middot; <em>TUR-kee</em></dd><dt>Русский</dt><dd>индейка</dd><dt>Plural</dt><dd><em>turkeys</em></dd><dt>Countability</dt><dd>countable, and uncountable as food</dd></dl>
+<p>A large bird raised for food, and its meat.</p>
+<ol><li>The <em>turkey</em> takes about four hours.</li><li>He made sandwiches with the leftover <em>turkey</em>.</li><li>They roast two <em>turkeys</em> every Thanksgiving.</li></ol>
+<hr>
+<h3 id="seafood">seafood<a class="hash" href="#seafood" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/ˈsiːfuːd/ &middot; <em>SEE-food</em></dd><dt>Русский</dt><dd>морепродукты</dd><dt>Countability</dt><dd>uncountable</dd><dt>Contrast</dt><dd>Uncountable in English, though Russian морепродукты is plural — seafood is expensive, not are.</dd></dl>
+<p>Fish and shellfish eaten as food.</p>
+<ol><li>The restaurant is known for its <em>seafood</em>.</li><li>She's allergic to <em>seafood</em>.</li><li>We ate <em>seafood</em> every night on the coast.</li></ol>
+<hr>
+<h3 id="roast">roast<a class="hash" href="#roast" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/roʊst/ &middot; <em>ROHST</em></dd><dt>Русский</dt><dd>жаркое, запечённое мясо</dd><dt>Plural</dt><dd><em>roasts</em></dd><dt>Countability</dt><dd>countable</dd></dl>
+<p>A large piece of meat cooked in an oven.</p>
+<ol><li>She put a <em>roast</em> in the oven at noon.</li><li>The <em>roast</em> came out perfectly.</li><li>Sunday <em>roasts</em> were a family tradition.</li></ol>
+<hr>
+<h3 id="hamburger">hamburger<a class="hash" href="#hamburger" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/ˈhæmbɜːrɡər/ &middot; <em>HAM-bur-gur</em></dd><dt>Русский</dt><dd>гамбургер</dd><dt>Plural</dt><dd><em>hamburgers</em></dd><dt>Countability</dt><dd>countable</dd></dl>
+<p>A flat cake of ground beef served in a round bun.</p>
+<ol><li>He ordered a <em>hamburger</em> and fries.</li><li>The <em>hamburgers</em> are on the grill.</li><li>This place makes a decent <em>hamburger</em>.</li></ol>
+<hr>
+<h3 id="hot-dog">hot dog<a class="hash" href="#hot-dog" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/ˈhɑːt dɔːɡ/ &middot; <em>HAHT-dawg</em></dd><dt>Русский</dt><dd>хот-дог</dd><dt>Plural</dt><dd><em>hot dogs</em></dd><dt>Countability</dt><dd>countable</dd></dl>
+<p>A cooked sausage served in a long soft bun.</p>
+<ol><li>We had <em>hot dogs</em> at the game.</li><li>He put mustard on his <em>hot dog</em>.</li><li>The stand sells <em>hot dogs</em> for two bucks.</li></ol>
+<hr>
+<h3 id="pizza">pizza<a class="hash" href="#pizza" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/ˈpiːtsə/ &middot; <em>PEET-suh</em></dd><dt>Русский</dt><dd>пицца</dd><dt>Plural</dt><dd><em>pizzas</em></dd><dt>Countability</dt><dd>countable, and uncountable as food</dd><dt>Contrast</dt><dd>The zz sounds like ts — PEET-suh.</dd></dl>
+<p>A flat round bread baked with tomato sauce, cheese, and toppings.</p>
+<ol><li>Let's just order <em>pizza</em>.</li><li>There's cold <em>pizza</em> in the fridge.</li><li>We split two <em>pizzas</em> between six of us.</li></ol>
+<hr>
+<h3 id="salad">salad<a class="hash" href="#salad" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/ˈsæləd/ &middot; <em>SAL-uhd</em></dd><dt>Русский</dt><dd>салат</dd><dt>Plural</dt><dd><em>salads</em></dd><dt>Countability</dt><dd>countable, and uncountable as food</dd></dl>
+<p>A cold dish of raw vegetables, or of other foods mixed with dressing.</p>
+<ol><li>I'll just have a <em>salad</em>.</li><li>She brought a potato <em>salad</em> to the picnic.</li><li>The <em>salads</em> here are enormous.</li></ol>
+<hr>
+<h3 id="stew">stew<a class="hash" href="#stew" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/stuː/ &middot; <em>STOO</em></dd><dt>Русский</dt><dd>рагу, тушёное мясо</dd><dt>Plural</dt><dd><em>stews</em></dd><dt>Countability</dt><dd>countable, and uncountable as food</dd><dt>Contrast</dt><dd>Americans say STOO; the British say STYOO.</dd></dl>
+<p>A dish of meat and vegetables cooked slowly in liquid.</p>
+<ol><li>The <em>stew</em> simmered all afternoon.</li><li>Beef <em>stew</em> is his cold-weather standby.</li><li>There's <em>stew</em> left over from last night.</li></ol>
+<hr>
+<h3 id="broth">broth<a class="hash" href="#broth" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/brɔːθ/ &middot; <em>BRAWTH</em></dd><dt>Русский</dt><dd>бульон</dd><dt>Countability</dt><dd>uncountable</dd></dl>
+<p>A thin soup made by boiling meat, fish, or vegetables in water.</p>
+<ol><li>Simmer the rice in chicken <em>broth</em>.</li><li>He lived on <em>broth</em> for a week after surgery.</li><li>The <em>broth</em> was salty but good.</li></ol>
+<hr>
+<h3 id="casserole">casserole<a class="hash" href="#casserole" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/ˈkæsəroʊl/ &middot; <em>KAS-uh-rohl</em></dd><dt>Русский</dt><dd>запеканка</dd><dt>Plural</dt><dd><em>casseroles</em></dd><dt>Countability</dt><dd>countable</dd></dl>
+<p>A dish of food baked slowly in a deep pan.</p>
+<ol><li>She brought a green bean <em>casserole</em>.</li><li>The <em>casserole</em> needs another twenty minutes.</li><li>Church potlucks are all <em>casseroles</em>.</li></ol>
+<hr>
+<h3 id="omelet">omelet<a class="hash" href="#omelet" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/ˈɑːmlət/ &middot; <em>AHM-lit</em></dd><dt>Русский</dt><dd>омлет</dd><dt>Plural</dt><dd><em>omelets</em></dd><dt>Countability</dt><dd>countable</dd><dt>Contrast</dt><dd>American spelling omelet; British omelette. Both are said AHM-lit.</dd></dl>
+<p>Beaten eggs cooked flat in a pan and folded over a filling.</p>
+<ol><li>He made a cheese <em>omelet</em>.</li><li>The <em>omelet</em> stuck to the pan.</li><li>She orders the same <em>omelet</em> every time.</li></ol>
+<hr>
+<h3 id="barbecue">barbecue<a class="hash" href="#barbecue" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/ˈbɑːrbɪkjuː/ &middot; <em>BAR-bih-kyoo</em></dd><dt>Русский</dt><dd>барбекю; мясо на гриле</dd><dt>Plural</dt><dd><em>barbecues</em></dd><dt>Countability</dt><dd>both — countable and uncountable with different meanings</dd></dl>
+<p>Meat cooked slowly over fire or smoke, or the outdoor party where it is served.</p>
+<ol><li>They're having a <em>barbecue</em> on Saturday.</li><li>Texas <em>barbecue</em> is a whole different thing.</li><li>We went to three <em>barbecues</em> that summer.</li></ol>
+<hr>
+<h3 id="dumpling">dumpling<a class="hash" href="#dumpling" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/ˈdʌmplɪŋ/ &middot; <em>DUHMP-ling</em></dd><dt>Русский</dt><dd>клёцка, пельмень</dd><dt>Plural</dt><dd><em>dumplings</em></dd><dt>Countability</dt><dd>countable</dd></dl>
+<p>A small ball or pocket of dough, boiled or steamed, often with a filling.</p>
+<ol><li>We ordered a plate of <em>dumplings</em>.</li><li>The chicken soup had <em>dumplings</em> in it.</li><li>Each <em>dumpling</em> was folded by hand.</li></ol>
+<hr>
+<h3 id="wrap">wrap<a class="hash" href="#wrap" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/ræp/ &middot; <em>RAP</em></dd><dt>Русский</dt><dd>ролл, лаваш с начинкой</dd><dt>Plural</dt><dd><em>wraps</em></dd><dt>Countability</dt><dd>countable</dd><dt>Contrast</dt><dd>The w is silent — RAP, exactly like the music.</dd></dl>
+<p>A sandwich made by rolling a filling inside a soft flatbread.</p>
+<ol><li>He got a chicken <em>wrap</em> for lunch.</li><li>The <em>wraps</em> are cheaper than the sandwiches.</li><li>She cut the <em>wrap</em> in half.</li></ol>
+<hr>
+<h3 id="burrito">burrito<a class="hash" href="#burrito" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/bəˈriːtoʊ/ &middot; <em>buh-REE-toh</em></dd><dt>Русский</dt><dd>буррито</dd><dt>Plural</dt><dd><em>burritos</em></dd><dt>Countability</dt><dd>countable</dd></dl>
+<p>A tortilla rolled around beans, rice, and meat.</p>
+<ol><li>He can eat a whole <em>burrito</em> in five minutes.</li><li>The <em>burritos</em> here are the size of your arm.</li><li>She got a breakfast <em>burrito</em>.</li></ol>
+<hr>
+<h3 id="lasagna">lasagna<a class="hash" href="#lasagna" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/ləˈzɑːnjə/ &middot; <em>luh-ZAHN-yuh</em></dd><dt>Русский</dt><dd>лазанья</dd><dt>Countability</dt><dd>uncountable</dd><dt>Contrast</dt><dd>The gn sounds like ny — luh-ZAHN-yuh. Americans spell it lasagna, the British lasagne.</dd></dl>
+<p>A baked dish of flat pasta layered with sauce and cheese.</p>
+<ol><li>The <em>lasagna</em> has to rest before you cut it.</li><li>She froze half the <em>lasagna</em>.</li><li>His <em>lasagna</em> is legendary.</li></ol>
+<hr>
+<h3 id="sushi">sushi<a class="hash" href="#sushi" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/ˈsuːʃi/ &middot; <em>SOO-shee</em></dd><dt>Русский</dt><dd>суши</dd><dt>Countability</dt><dd>uncountable</dd></dl>
+<p>A Japanese dish of vinegared rice served with raw fish or vegetables.</p>
+<ol><li>We're getting <em>sushi</em> tonight.</li><li>The <em>sushi</em> was surprisingly good.</li><li>He's never tried <em>sushi</em>.</li></ol>
+<hr>
+<h3 id="curry">curry<a class="hash" href="#curry" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/ˈkɜːri/ &middot; <em>KUR-ee</em></dd><dt>Русский</dt><dd>карри (блюдо)</dd><dt>Plural</dt><dd><em>curries</em></dd><dt>Countability</dt><dd>countable, and uncountable as food</dd></dl>
+<p>A dish of meat or vegetables cooked in a spiced sauce.</p>
+<ol><li>She made a chickpea <em>curry</em>.</li><li>The <em>curry</em> was hotter than I expected.</li><li>They serve six different <em>curries</em>.</li></ol>
+<hr>
+<h3 id="salsa">salsa<a class="hash" href="#salsa" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/ˈsɑːlsə/ &middot; <em>SAHL-suh</em></dd><dt>Русский</dt><dd>сальса (соус)</dd><dt>Countability</dt><dd>uncountable</dd></dl>
+<p>A spicy sauce of chopped tomatoes, onions, and peppers.</p>
+<ol><li>Put the <em>salsa</em> on the table.</li><li>This <em>salsa</em> is way too hot.</li><li>She makes her own <em>salsa</em> in the summer.</li></ol>
+<hr>
+<h3 id="vegetable">vegetable<a class="hash" href="#vegetable" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/ˈvedʒtəbl/ &middot; <em>VEJ-tuh-buhl</em></dd><dt>Русский</dt><dd>овощ</dd><dt>Plural</dt><dd><em>vegetables</em></dd><dt>Countability</dt><dd>countable</dd><dt>Contrast</dt><dd>Three syllables in speech — VEJ-tuh-buhl. The e after the g disappears.</dd></dl>
+<p>A plant or part of a plant eaten as food.</p>
+<ol><li>Eat your <em>vegetables</em>.</li><li>The soup is mostly <em>vegetables</em>.</li><li>He grows every <em>vegetable</em> he eats.</li></ol>
+<hr>
+<h3 id="produce">produce<a class="hash" href="#produce" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/ˈproʊduːs/ &middot; <em>PROH-doos</em></dd><dt>Русский</dt><dd>свежие овощи и фрукты</dd><dt>Countability</dt><dd>uncountable</dd><dt>Contrast</dt><dd>The noun is stressed on the first syllable, PROH-doos; the verb is pruh-DOOS.</dd></dl>
+<p>Fresh fruit and vegetables sold in a store.</p>
+<ol><li>The <em>produce</em> here is always fresh.</li><li>She works in the <em>produce</em> section.</li><li>Local <em>produce</em> costs more in winter.</li></ol>
+<hr>
+<h3 id="onion">onion<a class="hash" href="#onion" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/ˈʌnjən/ &middot; <em>UHN-yuhn</em></dd><dt>Русский</dt><dd>лук репчатый</dd><dt>Plural</dt><dd><em>onions</em></dd><dt>Countability</dt><dd>countable</dd><dt>Contrast</dt><dd>Starts with UH, not OH — UHN-yuhn.</dd></dl>
+<p>A round vegetable with a strong smell, made of layers.</p>
+<ol><li>Chop an <em>onion</em> and toss it in the pan.</li><li><em>Onions</em> always make me cry.</li><li>She left the <em>onions</em> out of the salad.</li></ol>
+<hr>
+<h3 id="garlic">garlic<a class="hash" href="#garlic" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/ˈɡɑːrlɪk/ &middot; <em>GAR-lik</em></dd><dt>Русский</dt><dd>чеснок</dd><dt>Countability</dt><dd>uncountable</dd></dl>
+<p>A strong-smelling bulb used in cooking.</p>
+<ol><li>Mince two cloves of <em>garlic</em>.</li><li>The whole apartment smells like <em>garlic</em>.</li><li>He doesn't cook anything without <em>garlic</em>.</li></ol>
+<hr>
+<h3 id="bean">bean<a class="hash" href="#bean" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/biːn/ &middot; <em>BEEN</em></dd><dt>Русский</dt><dd>боб, фасоль</dd><dt>Plural</dt><dd><em>beans</em></dd><dt>Countability</dt><dd>countable</dd></dl>
+<p>The edible seed of certain plants, eaten as a vegetable.</p>
+<ol><li>Soak the <em>beans</em> overnight.</li><li>The chili has three kinds of <em>beans</em>.</li><li>He ate rice and <em>beans</em> every day.</li></ol>
+<hr>
+<h3 id="pea">pea<a class="hash" href="#pea" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/piː/ &middot; <em>PEE</em></dd><dt>Русский</dt><dd>горошина, горох</dd><dt>Plural</dt><dd><em>peas</em></dd><dt>Countability</dt><dd>countable</dd></dl>
+<p>A small round green seed eaten as a vegetable.</p>
+<ol><li>The kids push the <em>peas</em> around their plates.</li><li>Add a cup of frozen <em>peas</em>.</li><li>Not a single <em>pea</em> got eaten.</li></ol>
+<hr>
+<h3 id="lentil">lentil<a class="hash" href="#lentil" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/ˈlentl/ &middot; <em>LEN-tuhl</em></dd><dt>Русский</dt><dd>чечевица</dd><dt>Plural</dt><dd><em>lentils</em></dd><dt>Countability</dt><dd>countable</dd></dl>
+<p>A small flat dried seed cooked as food.</p>
+<ol><li><em>Lentils</em> cook faster than beans.</li><li>She made a <em>lentil</em> soup.</li><li>Rinse the <em>lentils</em> before cooking.</li></ol>
+<hr>
+<h3 id="nut">nut<a class="hash" href="#nut" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/nʌt/ &middot; <em>NUHT</em></dd><dt>Русский</dt><dd>орех</dd><dt>Plural</dt><dd><em>nuts</em></dd><dt>Countability</dt><dd>countable</dd></dl>
+<p>A dry fruit with a hard shell and an edible kernel inside.</p>
+<ol><li>She's allergic to <em>nuts</em>.</li><li>There are mixed <em>nuts</em> on the counter.</li><li>He cracked a <em>nut</em> with his teeth.</li></ol>
+<hr>
+<h3 id="fries">fries<a class="hash" href="#fries" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/fraɪz/ &middot; <em>FRYZ</em></dd><dt>Русский</dt><dd>картофель фри</dd><dt>Plural</dt><dd><em>fries</em></dd><dt>Countability</dt><dd>countable</dd><dt>Contrast</dt><dd>Almost always plural. Americans say fries; the British say chips.</dd></dl>
+<p>Long thin strips of potato fried until crisp.</p>
+<ol><li>He ordered a burger and <em>fries</em>.</li><li>The <em>fries</em> were cold.</li><li>Do you want <em>fries</em> with that?</li></ol>
+<hr>
+<h3 id="chip">chip<a class="hash" href="#chip" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/tʃɪp/ &middot; <em>CHIP</em></dd><dt>Русский</dt><dd>чипсы (амер.)</dd><dt>Plural</dt><dd><em>chips</em></dd><dt>Countability</dt><dd>countable</dd><dt>Contrast</dt><dd>American chips are British crisps; what the British call chips, Americans call fries.</dd></dl>
+<p>A thin crisp slice of potato fried and eaten as a snack.</p>
+<ol><li>He opened a bag of <em>chips</em>.</li><li>There's salsa but no <em>chips</em>.</li><li>One <em>chip</em> fell behind the couch.</li></ol>
+<hr>
+<h3 id="popcorn">popcorn<a class="hash" href="#popcorn" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/ˈpɑːpkɔːrn/ &middot; <em>PAHP-korn</em></dd><dt>Русский</dt><dd>попкорн</dd><dt>Countability</dt><dd>uncountable</dd><dt>Contrast</dt><dd>Uncountable — a bag of popcorn, never two popcorns.</dd></dl>
+<p>Corn kernels heated until they burst open, eaten as a snack.</p>
+<ol><li>We made <em>popcorn</em> for the movie.</li><li>The <em>popcorn</em> burned in the microwave.</li><li>He ate an entire bucket of <em>popcorn</em>.</li></ol>
+<hr>
+<h3 id="chocolate">chocolate<a class="hash" href="#chocolate" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/ˈtʃɔːklət/ &middot; <em>CHAWK-lit</em></dd><dt>Русский</dt><dd>шоколад</dd><dt>Plural</dt><dd><em>chocolates</em></dd><dt>Countability</dt><dd>countable, and uncountable as food</dd><dt>Contrast</dt><dd>Two syllables in normal speech — CHAWK-lit, not cho-co-late.</dd></dl>
+<p>A sweet brown food made from cacao beans.</p>
+<ol><li>She keeps dark <em>chocolate</em> in her desk.</li><li>The <em>chocolate</em> melted in the car.</li><li>He bought a box of <em>chocolates</em>.</li></ol>
+<hr>
+<h3 id="candy">candy<a class="hash" href="#candy" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/ˈkændi/ &middot; <em>KAN-dee</em></dd><dt>Русский</dt><dd>конфеты, сладости</dd><dt>Countability</dt><dd>uncountable</dd><dt>Contrast</dt><dd>Uncountable in the US — a piece of candy. The British say sweets, which is plural.</dd></dl>
+<p>Sweet food made mainly of sugar.</p>
+<ol><li>The kids came back with bags of <em>candy</em>.</li><li>He gave up <em>candy</em> for a month.</li><li>There's a bowl of <em>candy</em> by the door.</li></ol>
+<hr>
+<h3 id="ice-cream">ice cream<a class="hash" href="#ice-cream" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/ˈaɪs ˌkriːm/ &middot; <em>ICE-kreem</em></dd><dt>Русский</dt><dd>мороженое</dd><dt>Countability</dt><dd>uncountable</dd></dl>
+<p>A sweet frozen food made from cream and sugar.</p>
+<ol><li>We got <em>ice cream</em> after the game.</li><li>The <em>ice cream</em> melted before he finished it.</li><li>She likes <em>ice cream</em> with hot fudge.</li></ol>
+<hr>
+<h3 id="pudding">pudding<a class="hash" href="#pudding" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/ˈpʊdɪŋ/ &middot; <em>PUUD-ing</em></dd><dt>Русский</dt><dd>пудинг (кремообразный десерт)</dd><dt>Plural</dt><dd><em>puddings</em></dd><dt>Countability</dt><dd>countable, and uncountable as food</dd><dt>Contrast</dt><dd>In the US pudding is one specific creamy dessert; in Britain pudding can mean dessert in general.</dd></dl>
+<p>A soft, creamy sweet dish eaten cold.</p>
+<ol><li>The kids each got a cup of <em>pudding</em>.</li><li>She made chocolate <em>pudding</em> from scratch.</li><li>There's <em>pudding</em> in the lunchbox.</li></ol>
+<hr>
+<h3 id="frosting">frosting<a class="hash" href="#frosting" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/ˈfrɔːstɪŋ/ &middot; <em>FRAW-sting</em></dd><dt>Русский</dt><dd>глазурь для торта</dd><dt>Countability</dt><dd>uncountable</dd><dt>Contrast</dt><dd>Americans say frosting; the British say icing.</dd></dl>
+<p>A sweet coating spread over a cake.</p>
+<ol><li>The cake had chocolate <em>frosting</em>.</li><li>He licked the <em>frosting</em> off the beater.</li><li>Let it cool before you add the <em>frosting</em>.</li></ol>
+<hr>
+<h3 id="juice">juice<a class="hash" href="#juice" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/dʒuːs/ &middot; <em>JOOS</em></dd><dt>Русский</dt><dd>сок</dd><dt>Countability</dt><dd>uncountable</dd></dl>
+<p>The liquid squeezed from fruit or vegetables.</p>
+<ol><li>Pour yourself some orange <em>juice</em>.</li><li>The <em>juice</em> is in the fridge door.</li><li>She squeezed the <em>juice</em> of two lemons.</li></ol>
+<hr>
+<h3 id="tea">tea<a class="hash" href="#tea" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/tiː/ &middot; <em>TEE</em></dd><dt>Русский</dt><dd>чай</dd><dt>Countability</dt><dd>uncountable</dd></dl>
+<p>A hot drink made by pouring boiling water over dried leaves.</p>
+<ol><li>I'll make a pot of <em>tea</em>.</li><li>He drinks <em>tea</em> instead of coffee.</li><li>The <em>tea</em> went cold.</li></ol>
+<hr>
+<h3 id="soda">soda<a class="hash" href="#soda" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/ˈsoʊdə/ &middot; <em>SOH-duh</em></dd><dt>Русский</dt><dd>газировка</dd><dt>Plural</dt><dd><em>sodas</em></dd><dt>Countability</dt><dd>countable, and uncountable as a substance</dd><dt>Contrast</dt><dd>Called soda or pop in the US, a fizzy drink in Britain.</dd></dl>
+<p>A sweet fizzy soft drink.</p>
+<ol><li>He drinks too much <em>soda</em>.</li><li>Grab a couple of <em>sodas</em> from the cooler.</li><li>The <em>soda</em> went flat.</li></ol>
+<hr>
+<h3 id="cider">cider<a class="hash" href="#cider" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/ˈsaɪdər/ &middot; <em>SY-dur</em></dd><dt>Русский</dt><dd>сидр; яблочный сок (амер.)</dd><dt>Plural</dt><dd><em>ciders</em></dd><dt>Countability</dt><dd>countable, and uncountable as a substance</dd><dt>Contrast</dt><dd>In the US cider is usually the non-alcoholic apple drink; in Britain cider is alcoholic.</dd></dl>
+<p>A drink made from pressed apples.</p>
+<ol><li>They serve hot <em>cider</em> in the fall.</li><li>He bought a gallon of <em>cider</em> at the orchard.</li><li>The <em>ciders</em> on tap are all local.</li></ol>
+<hr>
+<h3 id="smoothie">smoothie<a class="hash" href="#smoothie" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/ˈsmuːði/ &middot; <em>SMOO-thee</em></dd><dt>Русский</dt><dd>смузи</dd><dt>Plural</dt><dd><em>smoothies</em></dd><dt>Countability</dt><dd>countable</dd></dl>
+<p>A thick cold drink made from blended fruit.</p>
+<ol><li>She makes a <em>smoothie</em> every morning.</li><li>The banana <em>smoothie</em> is the best one.</li><li>They sell <em>smoothies</em> at the gym.</li></ol>
+<hr>
+<h3 id="beverage">beverage<a class="hash" href="#beverage" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/ˈbevərɪdʒ/ &middot; <em>BEV-ur-ij</em></dd><dt>Русский</dt><dd>напиток</dd><dt>Plural</dt><dd><em>beverages</em></dd><dt>Countability</dt><dd>countable</dd></dl>
+<p>A drink of any kind.</p>
+<ol><li><em>Beverages</em> are included with the meal.</li><li>He ordered a cold <em>beverage</em>.</li><li>The machine sells snacks and <em>beverages</em>.</li></ol>
+<hr>
+<h3 id="calorie">calorie<a class="hash" href="#calorie" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/ˈkæləri/ &middot; <em>KAL-uh-ree</em></dd><dt>Русский</dt><dd>калория</dd><dt>Plural</dt><dd><em>calories</em></dd><dt>Countability</dt><dd>countable</dd></dl>
+<p>A unit for measuring the energy in food.</p>
+<ol><li>This bar has three hundred <em>calories</em>.</li><li>He counts every <em>calorie</em>.</li><li>The label lists <em>calories</em> per serving.</li></ol>
+<hr>
+<h3 id="protein">protein<a class="hash" href="#protein" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/ˈproʊtiːn/ &middot; <em>PROH-teen</em></dd><dt>Русский</dt><dd>белок, протеин</dd><dt>Plural</dt><dd><em>proteins</em></dd><dt>Countability</dt><dd>countable, and uncountable as a substance</dd><dt>Contrast</dt><dd>PROH-teen — the ei is just EE, and the word has two syllables.</dd></dl>
+<p>A substance in food such as meat, beans, and eggs that the body needs to build tissue.</p>
+<ol><li>Eggs are a cheap source of <em>protein</em>.</li><li>She doesn't get enough <em>protein</em>.</li><li>The shake has twenty grams of <em>protein</em>.</li></ol>
+<hr>
+<h3 id="fiber">fiber<a class="hash" href="#fiber" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/ˈfaɪbər/ &middot; <em>FY-bur</em></dd><dt>Русский</dt><dd>клетчатка</dd><dt>Countability</dt><dd>uncountable</dd><dt>Contrast</dt><dd>American spelling fiber; British fibre. Both are said FY-bur.</dd></dl>
+<p>The part of plant food that the body cannot digest but needs.</p>
+<ol><li>Beans are high in <em>fiber</em>.</li><li>He needs more <em>fiber</em> in his diet.</li><li>The cereal box brags about its <em>fiber</em>.</li></ol></div></main>
+<button class="themebtn" id="themeBtn">Dark</button>
+<script>
+const tb=document.getElementById('themeBtn');
+function setTheme(x){document.documentElement.dataset.theme=x;tb.textContent=x==='dark'?'Light':'Dark';
+ try{localStorage.setItem('site-theme',x)}catch(e){}}
+tb.onclick=()=>setTheme(document.documentElement.dataset.theme==='dark'?'light':'dark');
+try{const s=localStorage.getItem('site-theme');
+ setTheme(s||(matchMedia('(prefers-color-scheme: dark)').matches?'dark':'light'))}catch(e){setTheme('light')}
+</script></body></html>

@@ -1,0 +1,621 @@
+<!DOCTYPE html>
+<html lang="en"><head>
+<meta charset="utf-8"><meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Core vocabulary: fruit and vegetables</title>
+<style>
+:root{--bg:#faf9f7;--surface:#fff;--surface2:#f2f0ec;--border:#e2ded6;--text:#1a1815;
+--dim:#5f594f;--faint:#8a8377;--accent:#8a5a3b;--measure:72ch}
+@media(prefers-color-scheme:dark){:root{--bg:#14140f;--surface:#1d1d17;--surface2:#25251d;
+--border:#33332a;--text:#eeeae1;--dim:#a8a293;--faint:#7d776b;--accent:#d09b72}}
+:root[data-theme=dark]{--bg:#14140f;--surface:#1d1d17;--surface2:#25251d;--border:#33332a;
+--text:#eeeae1;--dim:#a8a293;--faint:#7d776b;--accent:#d09b72}
+:root[data-theme=light]{--bg:#faf9f7;--surface:#fff;--surface2:#f2f0ec;--border:#e2ded6;
+--text:#1a1815;--dim:#5f594f;--faint:#8a8377;--accent:#8a5a3b}
+*{box-sizing:border-box}
+body{margin:0;background:var(--bg);color:var(--text);
+font:17px/1.72 ui-serif,Georgia,"Iowan Old Style",Palatino,serif;-webkit-font-smoothing:antialiased}
+.wrap{max-width:min(var(--measure),100%);margin:0 auto;padding:0 22px}
+nav.crumb{border-bottom:1px solid var(--border);padding:13px 0;font-size:13.5px;
+font-family:-apple-system,BlinkMacSystemFont,"Segoe UI",sans-serif;position:sticky;top:0;background:var(--bg);z-index:20}
+nav.crumb .wrap{max-width:none;display:flex;gap:9px;align-items:center;flex-wrap:wrap}
+nav.crumb a{color:var(--dim);text-decoration:none}
+nav.crumb a:hover{color:var(--accent)}
+nav.crumb .sep{color:var(--faint)}
+main{padding:8px 0 80px}
+h1{font-size:clamp(28px,5vw,38px);line-height:1.15;letter-spacing:-.015em;margin:34px 0 18px}
+h2{font-size:25px;margin:46px 0 14px;letter-spacing:-.01em;padding-bottom:7px;border-bottom:1px solid var(--border)}
+h3{font-size:19px;margin:34px 0 10px;color:var(--accent)}
+h4{font-size:16px;margin:24px 0 8px;font-family:-apple-system,sans-serif}
+p{margin:0 0 16px}
+a{color:var(--accent)}
+.hash{opacity:0;margin-left:8px;font-weight:400;font-size:.65em;text-decoration:none;color:var(--faint)}
+h2:hover .hash,h3:hover .hash{opacity:1}
+blockquote{margin:0 0 20px;padding:14px 18px;background:var(--surface2);
+border-left:3px solid var(--accent);border-radius:0 8px 8px 0}
+blockquote p:last-child{margin-bottom:0}
+ol,ul{margin:0 0 18px;padding-left:26px}
+li{margin-bottom:8px}
+li>ul,li>ol{margin:8px 0 0}
+code{font-family:ui-monospace,SFMono-Regular,Menlo,Consolas,monospace;font-size:.87em;
+background:var(--surface2);padding:1px 5px;border-radius:4px}
+pre{background:var(--surface2);border:1px solid var(--border);border-radius:9px;
+padding:15px 17px;overflow-x:auto;margin:0 0 20px}
+pre code{background:none;padding:0;font-size:13px;line-height:1.6}
+.tw{overflow-x:auto;margin:0 0 22px;border:1px solid var(--border);border-radius:9px}
+table{border-collapse:collapse;width:100%;font-size:15px;
+font-family:-apple-system,BlinkMacSystemFont,"Segoe UI",sans-serif}
+th,td{padding:10px 14px;border-bottom:1px solid var(--border);vertical-align:top}
+th{background:var(--surface2);font-size:12px;text-transform:uppercase;
+letter-spacing:.06em;color:var(--dim);font-weight:700;white-space:nowrap}
+tbody tr:last-child td{border-bottom:none}
+hr{border:none;border-top:1px solid var(--border);margin:38px 0}
+details{background:var(--surface2);border:1px solid var(--border);border-radius:9px;
+padding:13px 17px;margin:0 0 20px}
+summary{cursor:pointer;font-weight:600;font-family:-apple-system,sans-serif;font-size:15px}
+details[open] summary{margin-bottom:12px}
+del{color:var(--faint)}
+dl.fields{margin:0 0 20px;padding:0}
+dl.fields dt{font-family:-apple-system,BlinkMacSystemFont,"Segoe UI",sans-serif;
+font-size:11px;letter-spacing:.11em;text-transform:uppercase;color:var(--faint);
+font-weight:700;margin:14px 0 4px}
+dl.fields dt:first-child{margin-top:0}
+dl.fields dd{margin:0;font-size:16px;color:var(--dim);line-height:1.62}
+dl.fields dd em{color:var(--text)}
+dl.fields dt.ru{color:var(--accent)}
+dl.fields dd strong{color:var(--text)}
+.toc{background:var(--surface2);border:1px solid var(--border);border-radius:10px;
+padding:16px 20px;margin:26px 0 34px;font-family:-apple-system,sans-serif;font-size:14px}
+.toc b{display:block;font-size:11px;letter-spacing:.12em;text-transform:uppercase;
+color:var(--faint);margin-bottom:9px}
+.toc a{display:block;padding:3px 0;color:var(--dim);text-decoration:none}
+.toc a:hover{color:var(--accent)}
+.themebtn{position:fixed;right:18px;bottom:18px;z-index:60;font-family:-apple-system,sans-serif;
+font-size:12.5px;font-weight:600;cursor:pointer;background:var(--surface);border:1px solid var(--border);
+border-radius:99px;padding:9px 16px;color:var(--text)}
+@media(max-width:600px){body{font-size:16px}.wrap{padding:0 17px}}
+</style></head><body>
+<nav class="crumb"><div class="wrap"><a href="../../../index.html">Learn English</a><span class="sep">/</span><a href="../../README.html">Parts of speech</a><span class="sep">/</span><a href="../README.html">01-nouns</a><span class="sep">/</span><span>catalog</span></div></nav>
+<main><div class="wrap"><h1 id="core-vocabulary-fruit-and-vegetables">Core vocabulary: fruit and vegetables<a class="hash" href="#core-vocabulary-fruit-and-vegetables" aria-label="link">#</a></h1>
+<blockquote><p>The everyday nouns of fruit and vegetables — pronunciation, Russian, plural, and three examples each.</p></blockquote>
+<p><a href="../README.html">← The grammar of nouns</a> &middot; <a href="README.html">All groups</a></p>
+<p>Part of the <strong>core-vocabulary tier</strong>. Groups 1–23 cover the nouns that misbehave; this tier covers the nouns you simply need to know. Entries are deliberately lean, because a regular countable noun has no grammatical story to tell. A <strong>Contrast</strong> line appears only where the word hides a genuine trap.</p>
+<p>Where a word in this field <em>does</em> misbehave, it lives in the grammar tier instead and is not repeated here.</p>
+<hr>
+<h3 id="apple">apple<a class="hash" href="#apple" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/ˈæpəl/ &middot; <em>AP-ul</em></dd><dt>Русский</dt><dd>яблоко</dd><dt>Plural</dt><dd><em>apples</em></dd><dt>Countability</dt><dd>countable</dd></dl>
+<p>A round, firm fruit with red, green, or yellow skin and white flesh.</p>
+<ol><li>I put an <em>apple</em> in her lunchbox every morning.</li><li>These <em>apples</em> came from the orchard down the road.</li><li>He ate half an <em>apple</em> and threw the rest away.</li></ol>
+<hr>
+<h3 id="banana">banana<a class="hash" href="#banana" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/bəˈnænə/ &middot; <em>buh-NAN-uh</em></dd><dt>Русский</dt><dd>банан</dd><dt>Plural</dt><dd><em>bananas</em></dd><dt>Countability</dt><dd>countable</dd></dl>
+<p>A long curved tropical fruit with soft flesh and thick yellow skin.</p>
+<ol><li>Slice a <em>banana</em> into your cereal.</li><li>The <em>bananas</em> went brown in three days.</li><li>She's allergic to <em>bananas</em>, so skip the smoothie.</li></ol>
+<hr>
+<h3 id="orange">orange<a class="hash" href="#orange" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/ˈɔːrɪndʒ/ &middot; <em>OR-inj</em></dd><dt>Русский</dt><dd>апельсин</dd><dt>Plural</dt><dd><em>oranges</em></dd><dt>Countability</dt><dd>countable</dd></dl>
+<p>A round citrus fruit with thick skin and sweet juicy segments.</p>
+<ol><li>I peeled an <em>orange</em> for the kids.</li><li>The <em>oranges</em> in this bag are seedless.</li><li>Fresh-squeezed <em>orange</em> juice costs twice as much.</li></ol>
+<hr>
+<h3 id="pear">pear<a class="hash" href="#pear" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/per/ &middot; <em>PAIR</em></dd><dt>Русский</dt><dd>груша</dd><dt>Plural</dt><dd><em>pears</em></dd><dt>Countability</dt><dd>countable</dd><dt>Contrast</dt><dd>Sounds exactly like pair and pare.</dd></dl>
+<p>A sweet fruit that is narrow at the top and rounded at the bottom.</p>
+<ol><li>That <em>pear</em> isn't ripe yet — give it two more days.</li><li>We poached the <em>pears</em> in red wine.</li><li>She packed a <em>pear</em> and a granola bar.</li></ol>
+<hr>
+<h3 id="peach">peach<a class="hash" href="#peach" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/piːtʃ/ &middot; <em>PEECH</em></dd><dt>Русский</dt><dd>персик</dd><dt>Plural</dt><dd><em>peaches</em></dd><dt>Countability</dt><dd>countable</dd></dl>
+<p>A soft round fruit with fuzzy skin and a large pit.</p>
+<ol><li>Georgia <em>peaches</em> show up around the end of June.</li><li>The <em>peach</em> was so juicy it ran down my arm.</li><li>I'll take a slice of <em>peach</em> pie.</li></ol>
+<hr>
+<h3 id="plum">plum<a class="hash" href="#plum" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/plʌm/ &middot; <em>PLUM</em></dd><dt>Русский</dt><dd>слива</dd><dt>Plural</dt><dd><em>plums</em></dd><dt>Countability</dt><dd>countable</dd></dl>
+<p>A small smooth-skinned fruit with sweet flesh and a single pit.</p>
+<ol><li>The <em>plums</em> are on sale this week.</li><li>He bit into a <em>plum</em> and made a face.</li><li>These <em>plums</em> are better cooked than raw.</li></ol>
+<hr>
+<h3 id="grape">grape<a class="hash" href="#grape" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/ɡreɪp/ &middot; <em>GRAYP</em></dd><dt>Русский</dt><dd>виноградина; мн. виноград</dd><dt>Plural</dt><dd><em>grapes</em></dd><dt>Countability</dt><dd>countable</dd></dl>
+<p>A small round fruit that grows in bunches on a vine.</p>
+<ol><li>The kids finished a whole bag of <em>grapes</em>.</li><li>Don't give whole <em>grapes</em> to a toddler.</li><li>One <em>grape</em> rolled under the table.</li></ol>
+<hr>
+<h3 id="cherry">cherry<a class="hash" href="#cherry" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/ˈtʃeri/ &middot; <em>CHEH-ree</em></dd><dt>Русский</dt><dd>вишня, черешня</dd><dt>Plural</dt><dd><em>cherries</em></dd><dt>Countability</dt><dd>countable</dd></dl>
+<p>A small round red fruit with a pit and a long stem.</p>
+<ol><li>We picked <em>cherries</em> until our hands were purple.</li><li>There's one <em>cherry</em> left on top of the sundae.</li><li><em>Cherries</em> don't stay good for long.</li></ol>
+<hr>
+<h3 id="strawberry">strawberry<a class="hash" href="#strawberry" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/ˈstrɔːberi/ &middot; <em>STRAW-beh-ree</em></dd><dt>Русский</dt><dd>клубника, земляника</dd><dt>Plural</dt><dd><em>strawberries</em></dd><dt>Countability</dt><dd>countable</dd></dl>
+<p>A soft red fruit with tiny seeds on the outside.</p>
+<ol><li>The <em>strawberries</em> at the farmers market are worth the drive.</li><li>She dipped a <em>strawberry</em> in melted chocolate.</li><li>I'm making <em>strawberry</em> shortcake for Sunday.</li></ol>
+<hr>
+<h3 id="blueberry">blueberry<a class="hash" href="#blueberry" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/ˈbluːberi/ &middot; <em>BLOO-beh-ree</em></dd><dt>Русский</dt><dd>черника, голубика</dd><dt>Plural</dt><dd><em>blueberries</em></dd><dt>Countability</dt><dd>countable</dd></dl>
+<p>A small dark blue berry that grows on a bush.</p>
+<ol><li>Add a cup of <em>blueberries</em> to the batter.</li><li>I froze the <em>blueberries</em> so they'd last.</li><li>He picked a <em>blueberry</em> off the top of his pancake.</li></ol>
+<hr>
+<h3 id="raspberry">raspberry<a class="hash" href="#raspberry" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/ˈræzberi/ &middot; <em>RAZ-beh-ree</em></dd><dt>Русский</dt><dd>малина</dd><dt>Plural</dt><dd><em>raspberries</em></dd><dt>Countability</dt><dd>countable</dd><dt>Contrast</dt><dd>The p is silent: RAZ-beh-ree, never 'rasp-berry'.</dd></dl>
+<p>A soft red berry made up of many tiny sections.</p>
+<ol><li><em>Raspberries</em> get moldy almost overnight.</li><li>There's a <em>raspberry</em> stain on your shirt.</li><li>We planted <em>raspberries</em> along the back fence.</li></ol>
+<hr>
+<h3 id="blackberry">blackberry<a class="hash" href="#blackberry" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/ˈblækberi/ &middot; <em>BLAK-beh-ree</em></dd><dt>Русский</dt><dd>ежевика</dd><dt>Plural</dt><dd><em>blackberries</em></dd><dt>Countability</dt><dd>countable</dd></dl>
+<p>A dark purple-black berry that grows on a thorny bush.</p>
+<ol><li>Wild <em>blackberries</em> grow all along that trail.</li><li>She got scratched reaching for a <em>blackberry</em>.</li><li>The <em>blackberries</em> turned the pie almost black.</li></ol>
+<hr>
+<h3 id="lemon">lemon<a class="hash" href="#lemon" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/ˈlemən/ &middot; <em>LEH-mun</em></dd><dt>Русский</dt><dd>лимон</dd><dt>Plural</dt><dd><em>lemons</em></dd><dt>Countability</dt><dd>countable</dd></dl>
+<p>A yellow citrus fruit with very sour juice.</p>
+<ol><li>Squeeze half a <em>lemon</em> over the fish.</li><li>The <em>lemons</em> were the size of softballs.</li><li>Can I get water with <em>lemon</em>?</li></ol>
+<hr>
+<h3 id="lime">lime<a class="hash" href="#lime" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/laɪm/ &middot; <em>LYME</em></dd><dt>Русский</dt><dd>лайм</dd><dt>Plural</dt><dd><em>limes</em></dd><dt>Countability</dt><dd>countable</dd></dl>
+<p>A small green citrus fruit with sour juice.</p>
+<ol><li>Every taco stand puts a <em>lime</em> wedge on the plate.</li><li>We ran out of <em>limes</em> halfway through the party.</li><li>Roll the <em>lime</em> before you cut it and you'll get more juice.</li></ol>
+<hr>
+<h3 id="grapefruit">grapefruit<a class="hash" href="#grapefruit" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/ˈɡreɪpfruːt/ &middot; <em>GRAYP-froot</em></dd><dt>Русский</dt><dd>грейпфрут</dd><dt>Plural</dt><dd><em>grapefruits</em></dd><dt>Countability</dt><dd>countable, and uncountable as food</dd></dl>
+<p>A large yellow or pink citrus fruit with a slightly bitter taste.</p>
+<ol><li>He eats half a <em>grapefruit</em> every morning.</li><li><em>Grapefruit</em> interferes with some medications.</li><li>These <em>grapefruits</em> are pink all the way through.</li></ol>
+<hr>
+<h3 id="pineapple">pineapple<a class="hash" href="#pineapple" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/ˈpaɪnæpəl/ &middot; <em>PYNE-ap-ul</em></dd><dt>Русский</dt><dd>ананас</dd><dt>Plural</dt><dd><em>pineapples</em></dd><dt>Countability</dt><dd>countable, and uncountable as food</dd></dl>
+<p>A large tropical fruit with rough skin and sweet yellow flesh.</p>
+<ol><li>The <em>pineapple</em> was still green at the top.</li><li>Grilled <em>pineapple</em> is better than it sounds.</li><li>We bought two <em>pineapples</em> for the party.</li></ol>
+<hr>
+<h3 id="watermelon">watermelon<a class="hash" href="#watermelon" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/ˈwɔːtərmelən/ &middot; <em>WAW-tur-meh-lun</em></dd><dt>Русский</dt><dd>арбуз</dd><dt>Plural</dt><dd><em>watermelons</em></dd><dt>Countability</dt><dd>countable, and uncountable as food</dd></dl>
+<p>A very large green fruit with sweet red flesh and black seeds.</p>
+<ol><li>Nothing beats cold <em>watermelon</em> in August.</li><li>He carried the <em>watermelon</em> out to the car.</li><li>The <em>watermelons</em> were stacked up by the door.</li></ol>
+<hr>
+<h3 id="melon">melon<a class="hash" href="#melon" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/ˈmelən/ &middot; <em>MEH-lun</em></dd><dt>Русский</dt><dd>дыня</dd><dt>Plural</dt><dd><em>melons</em></dd><dt>Countability</dt><dd>countable, and uncountable as food</dd></dl>
+<p>A large round fruit with a thick skin and sweet soft flesh.</p>
+<ol><li>Cut the <em>melon</em> into cubes.</li><li>The <em>melons</em> weren't ripe yet.</li><li>She had <em>melon</em> and yogurt for breakfast.</li></ol>
+<hr>
+<h3 id="cantaloupe">cantaloupe<a class="hash" href="#cantaloupe" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/ˈkæntəloʊp/ &middot; <em>KAN-tuh-lope</em></dd><dt>Русский</dt><dd>дыня канталупа</dd><dt>Plural</dt><dd><em>cantaloupes</em></dd><dt>Countability</dt><dd>countable, and uncountable as food</dd></dl>
+<p>A melon with rough netted skin and orange flesh.</p>
+<ol><li>A ripe <em>cantaloupe</em> smells sweet at the stem end.</li><li>We ate half the <em>cantaloupe</em> standing at the counter.</li><li>The <em>cantaloupes</em> were two for five dollars.</li></ol>
+<hr>
+<h3 id="apricot">apricot<a class="hash" href="#apricot" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/ˈæprɪkɑːt/ &middot; <em>AP-rih-kaht</em></dd><dt>Русский</dt><dd>абрикос</dd><dt>Plural</dt><dd><em>apricots</em></dd><dt>Countability</dt><dd>countable</dd><dt>Contrast</dt><dd>Americans say AP-rih-kaht; the British say AY-prih-kot.</dd></dl>
+<p>A small orange fruit with soft flesh and a single pit.</p>
+<ol><li>Dried <em>apricots</em> keep for months.</li><li>She spread <em>apricot</em> jam on her toast.</li><li>One <em>apricot</em> isn't much of a snack.</li></ol>
+<hr>
+<h3 id="nectarine">nectarine<a class="hash" href="#nectarine" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/ˌnektəˈriːn/ &middot; <em>nek-tuh-REEN</em></dd><dt>Русский</dt><dd>нектарин</dd><dt>Plural</dt><dd><em>nectarines</em></dd><dt>Countability</dt><dd>countable</dd></dl>
+<p>A peach-like fruit with smooth skin instead of fuzz.</p>
+<ol><li>A <em>nectarine</em> is basically a peach without the fuzz.</li><li>The <em>nectarines</em> were dripping ripe.</li><li>He packed a <em>nectarine</em> in his bag.</li></ol>
+<hr>
+<h3 id="kiwi">kiwi<a class="hash" href="#kiwi" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/ˈkiːwiː/ &middot; <em>KEE-wee</em></dd><dt>Русский</dt><dd>киви</dd><dt>Plural</dt><dd><em>kiwis</em></dd><dt>Countability</dt><dd>countable</dd></dl>
+<p>A small brown fuzzy fruit with green flesh and tiny black seeds.</p>
+<ol><li>Cut the <em>kiwi</em> in half and eat it with a spoon.</li><li><em>Kiwis</em> are cheaper than they used to be.</li><li>The <em>kiwi</em> was too sour to finish.</li></ol>
+<hr>
+<h3 id="papaya">papaya<a class="hash" href="#papaya" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/pəˈpaɪr/ &middot; <em>puh-PY-uh</em></dd><dt>Русский</dt><dd>папайя</dd><dt>Plural</dt><dd><em>papayas</em></dd><dt>Countability</dt><dd>countable, and uncountable as food</dd></dl>
+<p>A tropical fruit with orange flesh and dark seeds in the center.</p>
+<ol><li>Squeeze lime over the <em>papaya</em>.</li><li><em>Papayas</em> ripen fast on the counter.</li><li>I'd never tried <em>papaya</em> before that trip.</li></ol>
+<hr>
+<h3 id="pomegranate">pomegranate<a class="hash" href="#pomegranate" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/ˈpɑːməɡrænət/ &middot; <em>PAH-muh-gran-it</em></dd><dt>Русский</dt><dd>гранат (плод)</dd><dt>Plural</dt><dd><em>pomegranates</em></dd><dt>Countability</dt><dd>countable</dd></dl>
+<p>A round red fruit full of juicy seeds in white membrane.</p>
+<ol><li>Getting the seeds out of a <em>pomegranate</em> is a project.</li><li><em>Pomegranate</em> juice stains everything.</li><li>She bought two <em>pomegranates</em> for the salad.</li></ol>
+<hr>
+<h3 id="fig">fig<a class="hash" href="#fig" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/fɪɡ/ &middot; <em>FIG</em></dd><dt>Русский</dt><dd>инжир, фига</dd><dt>Plural</dt><dd><em>figs</em></dd><dt>Countability</dt><dd>countable</dd></dl>
+<p>A soft sweet fruit with many tiny seeds inside.</p>
+<ol><li>Fresh <em>figs</em> are only around for a few weeks.</li><li>He ate a <em>fig</em> right off the tree.</li><li>Dried <em>figs</em> are good with sharp cheese.</li></ol>
+<hr>
+<h3 id="date">date<a class="hash" href="#date" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/deɪt/ &middot; <em>DAYT</em></dd><dt>Русский</dt><dd>финик</dd><dt>Plural</dt><dd><em>dates</em></dd><dt>Countability</dt><dd>countable</dd><dt>Contrast</dt><dd>Spelled and pronounced exactly like date 'calendar day' — only context separates them.</dd></dl>
+<p>A very sweet sticky brown fruit that grows on a palm tree.</p>
+<ol><li><em>Dates</em> are sweet enough to use instead of sugar.</li><li>She stuffed each <em>date</em> with an almond.</li><li>There's a bag of <em>dates</em> in the pantry.</li></ol>
+<hr>
+<h3 id="raisin">raisin<a class="hash" href="#raisin" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/ˈreɪzən/ &middot; <em>RAY-zun</em></dd><dt>Русский</dt><dd>изюминка; мн. изюм</dd><dt>Plural</dt><dd><em>raisins</em></dd><dt>Countability</dt><dd>countable</dd></dl>
+<p>A dried grape.</p>
+<ol><li>Pick the <em>raisins</em> out if you don't like them.</li><li>There's one <em>raisin</em> stuck to the bottom of the box.</li><li><em>Raisins</em> are just dried grapes.</li></ol>
+<hr>
+<h3 id="prune">prune<a class="hash" href="#prune" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/pruːn/ &middot; <em>PROON</em></dd><dt>Русский</dt><dd>чернослив</dd><dt>Plural</dt><dd><em>prunes</em></dd><dt>Countability</dt><dd>countable</dd></dl>
+<p>A dried plum.</p>
+<ol><li>My grandfather ate <em>prunes</em> every morning.</li><li>A <em>prune</em> is just a dried plum.</li><li>The recipe calls for chopped <em>prunes</em>.</li></ol>
+<hr>
+<h3 id="cranberry">cranberry<a class="hash" href="#cranberry" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/ˈkrænberi/ &middot; <em>KRAN-beh-ree</em></dd><dt>Русский</dt><dd>клюква</dd><dt>Plural</dt><dd><em>cranberries</em></dd><dt>Countability</dt><dd>countable</dd></dl>
+<p>A small hard red berry with a very tart taste.</p>
+<ol><li><em>Cranberries</em> are too tart to eat raw.</li><li>We make the <em>cranberry</em> sauce from scratch.</li><li>She dropped a <em>cranberry</em> into her glass.</li></ol>
+<hr>
+<h3 id="coconut">coconut<a class="hash" href="#coconut" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/ˈkoʊkənʌt/ &middot; <em>KOH-kuh-nut</em></dd><dt>Русский</dt><dd>кокос, кокосовый орех</dd><dt>Plural</dt><dd><em>coconuts</em></dd><dt>Countability</dt><dd>countable, and uncountable as food</dd></dl>
+<p>A large tropical nut with a hard shell, white flesh, and liquid inside.</p>
+<ol><li>He cracked the <em>coconut</em> open on the driveway.</li><li>The cake had shredded <em>coconut</em> on top.</li><li><em>Coconuts</em> wash up on the beach here.</li></ol>
+<hr>
+<h3 id="berry">berry<a class="hash" href="#berry" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/ˈberi/ &middot; <em>BEH-ree</em></dd><dt>Русский</dt><dd>ягода</dd><dt>Plural</dt><dd><em>berries</em></dd><dt>Countability</dt><dd>countable</dd><dt>Contrast</dt><dd>In General American, berry sounds the same as bury.</dd></dl>
+<p>A small soft round fruit with seeds and no pit.</p>
+<ol><li>Don't eat any <em>berry</em> you can't identify.</li><li>The <em>berries</em> were gone by mid-July.</li><li>She topped the oatmeal with fresh <em>berries</em>.</li></ol>
+<hr>
+<h3 id="currant">currant<a class="hash" href="#currant" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/ˈkɜːrənt/ &middot; <em>KUR-unt</em></dd><dt>Русский</dt><dd>смородина</dd><dt>Plural</dt><dd><em>currants</em></dd><dt>Countability</dt><dd>countable</dd><dt>Contrast</dt><dd>Homophone of current (an electric current; the current situation).</dd></dl>
+<p>A very small red, black, or white berry used in jams and baking.</p>
+<ol><li>Black <em>currants</em> are hard to find in US stores.</li><li>The scone had exactly one <em>currant</em> in it.</li><li><em>Currants</em> make a good jam.</li></ol>
+<hr>
+<h3 id="tangerine">tangerine<a class="hash" href="#tangerine" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/ˌtændʒəˈriːn/ &middot; <em>tan-juh-REEN</em></dd><dt>Русский</dt><dd>мандарин</dd><dt>Plural</dt><dd><em>tangerines</em></dd><dt>Countability</dt><dd>countable</dd></dl>
+<p>A small citrus fruit with loose skin that peels off easily.</p>
+<ol><li>He peeled a <em>tangerine</em> in one piece.</li><li><em>Tangerines</em> show up in stores around the holidays.</li><li>The <em>tangerine</em> was much easier to peel than the orange.</li></ol>
+<hr>
+<h3 id="rhubarb">rhubarb<a class="hash" href="#rhubarb" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/ˈruːbɑːrb/ &middot; <em>ROO-barb</em></dd><dt>Русский</dt><dd>ревень</dd><dt>Countability</dt><dd>uncountable</dd></dl>
+<p>A plant with thick red stalks that are cooked and sweetened like fruit.</p>
+<ol><li><em>Rhubarb</em> is far too sour to eat on its own.</li><li>She grows <em>rhubarb</em> along the back fence.</li><li>Strawberry and <em>rhubarb</em> pie is the whole reason for summer.</li></ol>
+<hr>
+<h3 id="guava">guava<a class="hash" href="#guava" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/ˈɡwɑːvə/ &middot; <em>GWAH-vuh</em></dd><dt>Русский</dt><dd>гуава</dd><dt>Plural</dt><dd><em>guavas</em></dd><dt>Countability</dt><dd>countable, and uncountable as food</dd></dl>
+<p>A sweet tropical fruit with pink or white flesh and small seeds.</p>
+<ol><li><em>Guava</em> juice is on every menu down there.</li><li>He brought back a whole bag of <em>guavas</em>.</li><li>The <em>guava</em> smelled ripe from across the room.</li></ol>
+<hr>
+<h3 id="plantain">plantain<a class="hash" href="#plantain" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/ˈplæntən/ &middot; <em>PLAN-tun</em></dd><dt>Русский</dt><dd>плантан, овощной банан</dd><dt>Plural</dt><dd><em>plantains</em></dd><dt>Countability</dt><dd>countable, and uncountable as food</dd><dt>Contrast</dt><dd>Two syllables in American English: PLAN-tun, not 'plan-TAIN'.</dd></dl>
+<p>A large starchy relative of the banana that is cooked before eating.</p>
+<ol><li>Fried <em>plantains</em> came with every plate.</li><li>A <em>plantain</em> looks like a banana but has to be cooked.</li><li>She sliced the <em>plantain</em> thin and fried it in oil.</li></ol>
+<hr>
+<h3 id="carrot">carrot<a class="hash" href="#carrot" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/ˈkerət/ &middot; <em>KEHR-ut</em></dd><dt>Русский</dt><dd>морковь, морковка</dd><dt>Plural</dt><dd><em>carrots</em></dd><dt>Countability</dt><dd>countable</dd></dl>
+<p>A long orange root vegetable that grows underground.</p>
+<ol><li>She fed the horse a <em>carrot</em>.</li><li>Chop the <em>carrots</em> into coins.</li><li>There's one sad <em>carrot</em> left in the drawer.</li></ol>
+<hr>
+<h3 id="cabbage">cabbage<a class="hash" href="#cabbage" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/ˈkæbɪdʒ/ &middot; <em>KAB-ij</em></dd><dt>Русский</dt><dd>капуста</dd><dt>Plural</dt><dd><em>cabbages</em></dd><dt>Countability</dt><dd>countable, and uncountable as food</dd></dl>
+<p>A round vegetable made of tightly packed green or purple leaves.</p>
+<ol><li>Shred the <em>cabbage</em> for the slaw.</li><li>The <em>cabbages</em> were the size of basketballs.</li><li><em>Cabbage</em> keeps in the fridge for weeks.</li></ol>
+<hr>
+<h3 id="lettuce">lettuce<a class="hash" href="#lettuce" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/ˈletəs/ &middot; <em>LEH-tus</em></dd><dt>Русский</dt><dd>салат-латук</dd><dt>Plural</dt><dd><em>lettuces</em></dd><dt>Countability</dt><dd>countable, and uncountable as food</dd><dt>Contrast</dt><dd>Sounds like 'let us' run together: LEH-tus, with no stress on the second syllable.</dd></dl>
+<p>A leafy green vegetable eaten raw in salads and sandwiches.</p>
+<ol><li>The <em>lettuce</em> went limp in the bag.</li><li>Put some <em>lettuce</em> and tomato on it.</li><li>They grow <em>lettuces</em> in the greenhouse all winter.</li></ol>
+<hr>
+<h3 id="spinach">spinach<a class="hash" href="#spinach" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/ˈspɪnɪtʃ/ &middot; <em>SPIN-ich</em></dd><dt>Русский</dt><dd>шпинат</dd><dt>Countability</dt><dd>uncountable</dd></dl>
+<p>A dark green leafy vegetable eaten raw or cooked.</p>
+<ol><li><em>Spinach</em> cooks down to almost nothing.</li><li>You've got <em>spinach</em> in your teeth.</li><li>I threw a handful of <em>spinach</em> into the smoothie.</li></ol>
+<hr>
+<h3 id="broccoli">broccoli<a class="hash" href="#broccoli" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/ˈbrɑːkəli/ &middot; <em>BRAH-kuh-lee</em></dd><dt>Русский</dt><dd>брокколи</dd><dt>Countability</dt><dd>uncountable</dd></dl>
+<p>A green vegetable with a thick stalk and dense flowering heads.</p>
+<ol><li>The kids will eat <em>broccoli</em> if there's cheese on it.</li><li>Steam the <em>broccoli</em> for about four minutes.</li><li>Half the <em>broccoli</em> went straight into the trash.</li></ol>
+<hr>
+<h3 id="cauliflower">cauliflower<a class="hash" href="#cauliflower" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/ˈkɔːlɪflaʊrr/ &middot; <em>KAW-lih-flow-ur</em></dd><dt>Русский</dt><dd>цветная капуста</dd><dt>Plural</dt><dd><em>cauliflowers</em></dd><dt>Countability</dt><dd>countable, and uncountable as food</dd></dl>
+<p>A vegetable with a large white head of tightly packed flower buds.</p>
+<ol><li><em>Cauliflower</em> rice is not rice.</li><li>Roast the whole <em>cauliflower</em> at 425.</li><li>The <em>cauliflowers</em> were on sale two for one.</li></ol>
+<hr>
+<h3 id="cucumber">cucumber<a class="hash" href="#cucumber" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/ˈkjuːkʌmbər/ &middot; <em>KYOO-kum-bur</em></dd><dt>Русский</dt><dd>огурец</dd><dt>Plural</dt><dd><em>cucumbers</em></dd><dt>Countability</dt><dd>countable, and uncountable as food</dd></dl>
+<p>A long green vegetable with watery flesh, usually eaten raw.</p>
+<ol><li>Slice the <em>cucumber</em> as thin as you can.</li><li><em>Cucumbers</em> from the garden taste completely different.</li><li>He put <em>cucumber</em> in the water pitcher.</li></ol>
+<hr>
+<h3 id="celery">celery<a class="hash" href="#celery" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/ˈseləri/ &middot; <em>SEH-luh-ree</em></dd><dt>Русский</dt><dd>сельдерей</dd><dt>Countability</dt><dd>uncountable</dd></dl>
+<p>A vegetable with long pale green stalks eaten raw or in soups.</p>
+<ol><li><em>Celery</em> is basically crunchy water.</li><li>Chop two stalks of <em>celery</em> into the pot.</li><li>She dipped the <em>celery</em> in peanut butter.</li></ol>
+<hr>
+<h3 id="mushroom">mushroom<a class="hash" href="#mushroom" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/ˈmʌʃruːm/ &middot; <em>MUSH-room</em></dd><dt>Русский</dt><dd>гриб</dd><dt>Plural</dt><dd><em>mushrooms</em></dd><dt>Countability</dt><dd>countable</dd></dl>
+<p>A fungus with a stem and a rounded cap, many kinds of which are eaten.</p>
+<ol><li>Sauté the <em>mushrooms</em> until they brown.</li><li>Don't pick a <em>mushroom</em> unless you know what it is.</li><li>He picked the <em>mushrooms</em> off his pizza.</li></ol>
+<hr>
+<h3 id="eggplant">eggplant<a class="hash" href="#eggplant" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/ˈeɡplænt/ &middot; <em>EG-plant</em></dd><dt>Русский</dt><dd>баклажан</dd><dt>Plural</dt><dd><em>eggplants</em></dd><dt>Countability</dt><dd>countable, and uncountable as food</dd><dt>Contrast</dt><dd>British English calls this an aubergine.</dd></dl>
+<p>A large dark purple vegetable with soft white flesh.</p>
+<ol><li>Salt the <em>eggplant</em> first to draw out the water.</li><li><em>Eggplants</em> bruise easily, so handle them gently.</li><li>She grilled the <em>eggplant</em> in thick slices.</li></ol>
+<hr>
+<h3 id="radish">radish<a class="hash" href="#radish" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/ˈrædɪʃ/ &middot; <em>RAD-ish</em></dd><dt>Русский</dt><dd>редиска, редис</dd><dt>Plural</dt><dd><em>radishes</em></dd><dt>Countability</dt><dd>countable</dd></dl>
+<p>A small round red root vegetable with a sharp peppery taste.</p>
+<ol><li><em>Radishes</em> add a little bite to the salad.</li><li>He ate a <em>radish</em> with butter and salt.</li><li>The <em>radishes</em> came up in three weeks.</li></ol>
+<hr>
+<h3 id="beet">beet<a class="hash" href="#beet" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/biːt/ &middot; <em>BEET</em></dd><dt>Русский</dt><dd>свёкла</dd><dt>Plural</dt><dd><em>beets</em></dd><dt>Countability</dt><dd>countable</dd><dt>Contrast</dt><dd>Homophone of beat. British English says beetroot for the vegetable.</dd></dl>
+<p>A round dark red root vegetable with an earthy sweet taste.</p>
+<ol><li>Roasted <em>beets</em> turn everything on the plate pink.</li><li>She grated a raw <em>beet</em> into the salad.</li><li><em>Beets</em> taste like dirt to some people.</li></ol>
+<hr>
+<h3 id="turnip">turnip<a class="hash" href="#turnip" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/ˈtɜːrnɪp/ &middot; <em>TUR-nip</em></dd><dt>Русский</dt><dd>репа</dd><dt>Plural</dt><dd><em>turnips</em></dd><dt>Countability</dt><dd>countable</dd></dl>
+<p>A round white and purple root vegetable with a slightly bitter taste.</p>
+<ol><li><em>Turnips</em> store well through the winter.</li><li>Mash the <em>turnip</em> in with the potatoes.</li><li>He'd never cooked a <em>turnip</em> before that night.</li></ol>
+<hr>
+<h3 id="squash">squash<a class="hash" href="#squash" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/skwɑːʃ/ &middot; <em>SKWAHSH</em></dd><dt>Русский</dt><dd>тыква, кабачок</dd><dt>Plural</dt><dd><em>squashes</em></dd><dt>Countability</dt><dd>countable, and uncountable as food</dd></dl>
+<p>Any of several thick-skinned vegetables from the gourd family.</p>
+<ol><li>Butternut <em>squash</em> soup is on the menu all fall.</li><li>The <em>squash</em> took forty minutes to roast.</li><li><em>Squashes</em> keep for months in a cool basement.</li></ol>
+<hr>
+<h3 id="pumpkin">pumpkin<a class="hash" href="#pumpkin" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/ˈpʌmpkɪn/ &middot; <em>PUMP-kin</em></dd><dt>Русский</dt><dd>тыква</dd><dt>Plural</dt><dd><em>pumpkins</em></dd><dt>Countability</dt><dd>countable, and uncountable as food</dd></dl>
+<p>A large round orange squash used for pies and Halloween carving.</p>
+<ol><li>We carved the <em>pumpkin</em> the night before.</li><li><em>Pumpkin</em> pie is the only reason for November.</li><li>The <em>pumpkins</em> were rotting on the porch.</li></ol>
+<hr>
+<h3 id="asparagus">asparagus<a class="hash" href="#asparagus" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/əˈsperəɡəs/ &middot; <em>uh-SPEH-ruh-gus</em></dd><dt>Русский</dt><dd>спаржа</dd><dt>Countability</dt><dd>uncountable</dd></dl>
+<p>A vegetable with thin green spears eaten cooked.</p>
+<ol><li>Snap the woody ends off the <em>asparagus</em>.</li><li><em>Asparagus</em> is only really good in the spring.</li><li>He grilled the <em>asparagus</em> with olive oil and salt.</li></ol>
+<hr>
+<h3 id="artichoke">artichoke<a class="hash" href="#artichoke" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/ˈɑːrtɪtʃoʊk/ &middot; <em>AR-tih-choke</em></dd><dt>Русский</dt><dd>артишок</dd><dt>Plural</dt><dd><em>artichokes</em></dd><dt>Countability</dt><dd>countable</dd></dl>
+<p>A vegetable with tough overlapping leaves and a soft edible center.</p>
+<ol><li>Eating a whole <em>artichoke</em> takes patience.</li><li>The <em>artichokes</em> were the size of grapefruit.</li><li>She put marinated <em>artichoke</em> hearts on the pizza.</li></ol>
+<hr>
+<h3 id="kale">kale<a class="hash" href="#kale" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/keɪl/ &middot; <em>KAYL</em></dd><dt>Русский</dt><dd>кудрявая капуста, кейл</dd><dt>Countability</dt><dd>uncountable</dd></dl>
+<p>A dark green leafy vegetable with tough curly leaves.</p>
+<ol><li>Massage the <em>kale</em> before you dress it.</li><li><em>Kale</em> chips are surprisingly good.</li><li>He grows <em>kale</em> well into December.</li></ol>
+<hr>
+<h3 id="leek">leek<a class="hash" href="#leek" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/liːk/ &middot; <em>LEEK</em></dd><dt>Русский</dt><dd>лук-порей</dd><dt>Plural</dt><dd><em>leeks</em></dd><dt>Countability</dt><dd>countable</dd><dt>Contrast</dt><dd>Homophone of leak.</dd></dl>
+<p>A vegetable like a large mild onion with a long white stem.</p>
+<ol><li>Rinse the <em>leeks</em> well — they hold a lot of grit.</li><li>Potato and <em>leek</em> soup is about as easy as it gets.</li><li>Slice the white part of the <em>leek</em> and discard the rest.</li></ol>
+<hr>
+<h3 id="scallion">scallion<a class="hash" href="#scallion" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/ˈskæljən/ &middot; <em>SKAL-yun</em></dd><dt>Русский</dt><dd>зелёный лук</dd><dt>Plural</dt><dd><em>scallions</em></dd><dt>Countability</dt><dd>countable</dd><dt>Contrast</dt><dd>Also called a green onion in the US; British English says spring onion.</dd></dl>
+<p>A young onion with a small white bulb and long green leaves.</p>
+<ol><li>Sprinkle chopped <em>scallions</em> over the top.</li><li>Use the green part of the <em>scallion</em> too.</li><li><em>Scallions</em> keep growing if you stand them in water.</li></ol>
+<hr>
+<h3 id="shallot">shallot<a class="hash" href="#shallot" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/ˈʃælət/ &middot; <em>SHAL-ut</em></dd><dt>Русский</dt><dd>лук-шалот</dd><dt>Plural</dt><dd><em>shallots</em></dd><dt>Countability</dt><dd>countable</dd></dl>
+<p>A small mild onion that grows in a cluster of bulbs.</p>
+<ol><li>One <em>shallot</em>, minced fine.</li><li><em>Shallots</em> are milder than regular onions.</li><li>The vinaigrette is just oil, vinegar, and <em>shallot</em>.</li></ol>
+<hr>
+<h3 id="parsnip">parsnip<a class="hash" href="#parsnip" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/ˈpɑːrsnɪp/ &middot; <em>PARS-nip</em></dd><dt>Русский</dt><dd>пастернак</dd><dt>Plural</dt><dd><em>parsnips</em></dd><dt>Countability</dt><dd>countable</dd></dl>
+<p>A pale root vegetable that looks like a carrot and tastes sweeter.</p>
+<ol><li><em>Parsnips</em> get sweeter after a frost.</li><li>Roast the <em>parsnips</em> along with the carrots.</li><li>That's not a white carrot, it's a <em>parsnip</em>.</li></ol>
+<hr>
+<h3 id="yam">yam<a class="hash" href="#yam" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/jæm/ &middot; <em>YAM</em></dd><dt>Русский</dt><dd>ямс, батат</dd><dt>Plural</dt><dd><em>yams</em></dd><dt>Countability</dt><dd>countable, and uncountable as food</dd></dl>
+<p>A starchy root vegetable with sweet orange or white flesh.</p>
+<ol><li>Candied <em>yams</em> show up at every Thanksgiving.</li><li>She baked a <em>yam</em> for lunch.</li><li>Most <em>yams</em> sold in US stores are actually sweet potatoes.</li></ol>
+<hr>
+<h3 id="okra">okra<a class="hash" href="#okra" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/ˈoʊkrə/ &middot; <em>OH-kruh</em></dd><dt>Русский</dt><dd>окра, бамия</dd><dt>Countability</dt><dd>uncountable</dd></dl>
+<p>A green ridged pod eaten as a vegetable, especially in Southern cooking.</p>
+<ol><li><em>Okra</em> gets slimy if you cook it wrong.</li><li>Fried <em>okra</em> is a Southern staple.</li><li>She threw a handful of <em>okra</em> into the gumbo.</li></ol>
+<hr>
+<h3 id="arugula">arugula<a class="hash" href="#arugula" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/əˈruːɡjələ/ &middot; <em>uh-ROO-gyuh-luh</em></dd><dt>Русский</dt><dd>руккола</dd><dt>Countability</dt><dd>uncountable</dd><dt>Contrast</dt><dd>British English calls this rocket.</dd></dl>
+<p>A salad green with a sharp peppery flavor.</p>
+<ol><li><em>Arugula</em> has a peppery bite to it.</li><li>Toss the <em>arugula</em> with lemon juice and olive oil.</li><li>He picked the <em>arugula</em> off his pizza.</li></ol>
+<hr>
+<h3 id="sprout">sprout<a class="hash" href="#sprout" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/spraʊt/ &middot; <em>SPROWT</em></dd><dt>Русский</dt><dd>росток, побег</dd><dt>Plural</dt><dd><em>sprouts</em></dd><dt>Countability</dt><dd>countable</dd></dl>
+<p>A young shoot from a seed, often eaten raw.</p>
+<ol><li>Add the bean <em>sprouts</em> at the very end.</li><li>A single <em>sprout</em> had pushed through the soil.</li><li>The <em>sprouts</em> went bad after two days in the fridge.</li></ol>
+<hr>
+<h3 id="chickpea">chickpea<a class="hash" href="#chickpea" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/ˈtʃɪkpiː/ &middot; <em>CHIK-pee</em></dd><dt>Русский</dt><dd>нут</dd><dt>Plural</dt><dd><em>chickpeas</em></dd><dt>Countability</dt><dd>countable</dd></dl>
+<p>A round pale bean used in hummus, stews, and salads.</p>
+<ol><li>Hummus is just <em>chickpeas</em>, tahini, and lemon.</li><li>Drain the <em>chickpeas</em> but save the liquid.</li><li>One <em>chickpea</em> rolled off the cutting board.</li></ol>
+<hr>
+<h3 id="soybean">soybean<a class="hash" href="#soybean" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/ˈsɔɪbiːn/ &middot; <em>SOY-been</em></dd><dt>Русский</dt><dd>соевый боб; мн. соя</dd><dt>Plural</dt><dd><em>soybeans</em></dd><dt>Countability</dt><dd>countable</dd></dl>
+<p>A bean grown for oil, animal feed, and foods like tofu.</p>
+<ol><li><em>Soybeans</em> are the biggest crop in this county.</li><li>The whole field was planted in <em>soybeans</em>.</li><li>Tofu is made from <em>soybeans</em>.</li></ol>
+<hr>
+<h3 id="seaweed">seaweed<a class="hash" href="#seaweed" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/ˈsiːwiːd/ &middot; <em>SEE-weed</em></dd><dt>Русский</dt><dd>морские водоросли</dd><dt>Countability</dt><dd>uncountable</dd></dl>
+<p>A plant that grows in the sea, some kinds of which are eaten.</p>
+<ol><li>The rice was wrapped in <em>seaweed</em>.</li><li><em>Seaweed</em> salad comes with the lunch special.</li><li>Dried <em>seaweed</em> keeps forever in the pantry.</li></ol>
+<hr>
+<h3 id="basil">basil<a class="hash" href="#basil" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/ˈbeɪzəl/ &middot; <em>BAY-zul</em></dd><dt>Русский</dt><dd>базилик</dd><dt>Countability</dt><dd>uncountable</dd><dt>Contrast</dt><dd>Americans say BAY-zul; the British say BAZ-ul.</dd></dl>
+<p>A herb with soft green leaves and a sweet, slightly peppery smell.</p>
+<ol><li>Tear the <em>basil</em> — don't chop it.</li><li>The <em>basil</em> on the porch died in one cold night.</li><li>Tomato, mozzarella, and <em>basil</em>, and that's it.</li></ol>
+<hr>
+<h3 id="parsley">parsley<a class="hash" href="#parsley" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/ˈpɑːrsli/ &middot; <em>PARS-lee</em></dd><dt>Русский</dt><dd>петрушка</dd><dt>Countability</dt><dd>uncountable</dd></dl>
+<p>A herb with flat or curly green leaves used fresh in cooking.</p>
+<ol><li><em>Parsley</em> is more than a garnish.</li><li>Chop a handful of <em>parsley</em> over the top.</li><li>The <em>parsley</em> wilted in the bag on the way home.</li></ol>
+<hr>
+<h3 id="mint">mint<a class="hash" href="#mint" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/mɪnt/ &middot; <em>MINT</em></dd><dt>Русский</dt><dd>мята; мятная конфета</dd><dt>Plural</dt><dd><em>mints</em></dd><dt>Countability</dt><dd>both — countable and uncountable with different meanings</dd><dt>Contrast</dt><dd>Uncountable as the plant or flavor (some mint), countable as the candy (two mints).</dd></dl>
+<p>A herb with a strong cool taste, or a small candy flavored with it.</p>
+<ol><li>There's <em>mint</em> growing all over the yard.</li><li>He put a sprig of <em>mint</em> in the iced tea.</li><li>She keeps <em>mints</em> in her purse.</li></ol>
+<hr>
+<h3 id="cilantro">cilantro<a class="hash" href="#cilantro" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/sɪˈlɑːntroʊ/ &middot; <em>sih-LAHN-troh</em></dd><dt>Русский</dt><dd>кинза</dd><dt>Countability</dt><dd>uncountable</dd><dt>Contrast</dt><dd>American English for the fresh leaves; the British call them coriander.</dd></dl>
+<p>The fresh green leaves of the coriander plant, used in cooking.</p>
+<ol><li>Some people think <em>cilantro</em> tastes like soap.</li><li>Hold the <em>cilantro</em> on mine, please.</li><li>She threw a handful of <em>cilantro</em> into the salsa.</li></ol>
+<hr>
+<h3 id="thyme">thyme<a class="hash" href="#thyme" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/taɪm/ &middot; <em>TYME</em></dd><dt>Русский</dt><dd>тимьян, чабрец</dd><dt>Countability</dt><dd>uncountable</dd><dt>Contrast</dt><dd>Homophone of time — the h is silent and the y is a long I.</dd></dl>
+<p>A herb with tiny leaves and a strong earthy smell.</p>
+<ol><li>Add a few sprigs of <em>thyme</em> to the pot.</li><li>The chicken was roasted with lemon and <em>thyme</em>.</li><li><em>Thyme</em> dries better than most herbs.</li></ol>
+<hr>
+<h3 id="rosemary">rosemary<a class="hash" href="#rosemary" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/ˈroʊzmeri/ &middot; <em>ROHZ-meh-ree</em></dd><dt>Русский</dt><dd>розмарин</dd><dt>Countability</dt><dd>uncountable</dd></dl>
+<p>A herb with stiff needle-like leaves and a piney smell.</p>
+<ol><li><em>Rosemary</em> grows into a whole bush out here.</li><li>She rubbed the lamb with garlic and <em>rosemary</em>.</li><li>A little <em>rosemary</em> goes a long way.</li></ol>
+<hr>
+<h3 id="sage">sage<a class="hash" href="#sage" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/seɪdʒ/ &middot; <em>SAYJ</em></dd><dt>Русский</dt><dd>шалфей</dd><dt>Countability</dt><dd>uncountable</dd></dl>
+<p>A herb with soft gray-green leaves and a strong savory taste.</p>
+<ol><li>Brown the butter with a few leaves of <em>sage</em>.</li><li>The stuffing needs more <em>sage</em>.</li><li><em>Sage</em> has a fuzzy gray-green leaf you can spot anywhere.</li></ol>
+<hr>
+<h3 id="oregano">oregano<a class="hash" href="#oregano" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/əˈreɡənoʊ/ &middot; <em>uh-REH-guh-noh</em></dd><dt>Русский</dt><dd>орегано, душица</dd><dt>Countability</dt><dd>uncountable</dd><dt>Contrast</dt><dd>Americans stress the second syllable, uh-REH-guh-noh; the British say or-ih-GAH-noh.</dd></dl>
+<p>A herb with small strong-smelling leaves, used dried in Italian cooking.</p>
+<ol><li>Sprinkle dried <em>oregano</em> over the sauce.</li><li><em>Oregano</em> is what makes it taste like pizza.</li><li>She keeps <em>oregano</em> and basil right by the stove.</li></ol>
+<hr>
+<h3 id="dill">dill<a class="hash" href="#dill" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/dɪl/ &middot; <em>DIL</em></dd><dt>Русский</dt><dd>укроп</dd><dt>Countability</dt><dd>uncountable</dd></dl>
+<p>A herb with feathery leaves used with fish, potatoes, and pickles.</p>
+<ol><li><em>Dill</em> goes in almost every pickle recipe.</li><li>He chopped <em>dill</em> into the yogurt sauce.</li><li>The <em>dill</em> went to seed in the heat.</li></ol>
+<hr>
+<h3 id="chive">chive<a class="hash" href="#chive" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/tʃaɪv/ &middot; <em>CHYVE</em></dd><dt>Русский</dt><dd>шнитт-лук, лук-резанец</dd><dt>Plural</dt><dd><em>chives</em></dd><dt>Countability</dt><dd>countable</dd></dl>
+<p>A thin hollow green leaf with a mild onion taste, usually used chopped.</p>
+<ol><li>Snip some <em>chives</em> over the eggs.</li><li><em>Chives</em> come back every spring on their own.</li><li>There's a single <em>chive</em> laid across the top as garnish.</li></ol>
+<hr>
+<h3 id="ginger">ginger<a class="hash" href="#ginger" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/ˈdʒɪndʒər/ &middot; <em>JIN-jur</em></dd><dt>Русский</dt><dd>имбирь</dd><dt>Countability</dt><dd>uncountable</dd></dl>
+<p>A knobby root with a hot spicy taste, used fresh or dried.</p>
+<ol><li>Grate a little fresh <em>ginger</em> into the sauce.</li><li><em>Ginger</em> settles my stomach.</li><li>The recipe calls for ground <em>ginger</em>, not fresh.</li></ol>
+<hr>
+<h3 id="saffron">saffron<a class="hash" href="#saffron" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/ˈsæfrən/ &middot; <em>SAF-run</em></dd><dt>Русский</dt><dd>шафран</dd><dt>Countability</dt><dd>uncountable</dd></dl>
+<p>A very expensive yellow spice made from the threads of a crocus flower.</p>
+<ol><li><em>Saffron</em> costs more per ounce than gold.</li><li>A pinch of <em>saffron</em> turns the whole pot yellow.</li><li>She brought back real <em>saffron</em> from Spain.</li></ol>
+<hr>
+<h3 id="vanilla">vanilla<a class="hash" href="#vanilla" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/vəˈnɪlə/ &middot; <em>vuh-NIL-uh</em></dd><dt>Русский</dt><dd>ваниль</dd><dt>Countability</dt><dd>uncountable</dd></dl>
+<p>A sweet flavoring made from the dried pods of a tropical orchid.</p>
+<ol><li>Use real <em>vanilla</em>, not the imitation kind.</li><li>A teaspoon of <em>vanilla</em> goes in at the very end.</li><li><em>Vanilla</em> comes from an orchid, believe it or not.</li></ol>
+<hr>
+<h3 id="nutmeg">nutmeg<a class="hash" href="#nutmeg" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/ˈnʌtmeɡ/ &middot; <em>NUT-meg</em></dd><dt>Русский</dt><dd>мускатный орех</dd><dt>Plural</dt><dd><em>nutmegs</em></dd><dt>Countability</dt><dd>countable, and uncountable as food</dd></dl>
+<p>A hard brown seed grated as a warm sweet spice.</p>
+<ol><li>Grate a little <em>nutmeg</em> over the eggnog.</li><li>Whole <em>nutmegs</em> hold their flavor much longer than ground.</li><li>Too much <em>nutmeg</em> will ruin the whole thing.</li></ol>
+<hr>
+<h3 id="turmeric">turmeric<a class="hash" href="#turmeric" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/ˈtɜːrmərɪk/ &middot; <em>TUR-muh-rik</em></dd><dt>Русский</dt><dd>куркума</dd><dt>Countability</dt><dd>uncountable</dd><dt>Contrast</dt><dd>The first r is often dropped in speech: TOO-muh-rik is as common as TUR-muh-rik.</dd></dl>
+<p>A bright yellow spice made from a root, common in curry.</p>
+<ol><li><em>Turmeric</em> will stain your cutting board yellow.</li><li>Add a teaspoon of <em>turmeric</em> to the rice.</li><li>She takes <em>turmeric</em> for her joints.</li></ol>
+<hr>
+<h3 id="peanut">peanut<a class="hash" href="#peanut" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/ˈpiːnʌt/ &middot; <em>PEE-nut</em></dd><dt>Русский</dt><dd>арахис</dd><dt>Plural</dt><dd><em>peanuts</em></dd><dt>Countability</dt><dd>countable</dd></dl>
+<p>A small oval seed in a thin shell, eaten roasted or made into butter.</p>
+<ol><li><em>Peanuts</em> aren't really nuts — they're legumes.</li><li>The flight attendant handed out <em>peanuts</em>.</li><li>He shelled a <em>peanut</em> and ate it.</li></ol>
+<hr>
+<h3 id="walnut">walnut<a class="hash" href="#walnut" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/ˈwɔːlnʌt/ &middot; <em>WAWL-nut</em></dd><dt>Русский</dt><dd>грецкий орех</dd><dt>Plural</dt><dd><em>walnuts</em></dd><dt>Countability</dt><dd>countable</dd></dl>
+<p>A nut with a wrinkled kernel inside a hard round shell.</p>
+<ol><li>Toast the <em>walnuts</em> before you add them.</li><li>There's a <em>walnut</em> tree in the back yard.</li><li><em>Walnuts</em> go rancid if you leave them out.</li></ol>
+<hr>
+<h3 id="almond">almond<a class="hash" href="#almond" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/ˈɑːmənd/ &middot; <em>AH-mund</em></dd><dt>Русский</dt><dd>миндаль</dd><dt>Plural</dt><dd><em>almonds</em></dd><dt>Countability</dt><dd>countable</dd><dt>Contrast</dt><dd>The l is silent: AH-mund.</dd></dl>
+<p>A flat oval nut with a light brown skin and a mild sweet taste.</p>
+<ol><li>A handful of <em>almonds</em> holds me until lunch.</li><li><em>Almond</em> milk is in the cooler section.</li><li>She dropped an <em>almond</em> into the batter by accident.</li></ol>
+<hr>
+<h3 id="cashew">cashew<a class="hash" href="#cashew" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/ˈkæʃuː/ &middot; <em>KASH-oo</em></dd><dt>Русский</dt><dd>кешью</dd><dt>Plural</dt><dd><em>cashews</em></dd><dt>Countability</dt><dd>countable</dd></dl>
+<p>A curved, kidney-shaped nut with a soft, buttery texture.</p>
+<ol><li><em>Cashews</em> are the first thing gone from the mixed nuts.</li><li>He roasted the <em>cashews</em> with a little salt.</li><li>There was one <em>cashew</em> left in the jar.</li></ol>
+<hr>
+<h3 id="pecan">pecan<a class="hash" href="#pecan" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/pɪˈkɑːn/ &middot; <em>pih-KAHN</em></dd><dt>Русский</dt><dd>пекан</dd><dt>Plural</dt><dd><em>pecans</em></dd><dt>Countability</dt><dd>countable</dd><dt>Contrast</dt><dd>US pronunciations vary: pih-KAHN is most common, but PEE-kan is widespread in the South.</dd></dl>
+<p>A long nut with a smooth shell, grown mostly in the southern US.</p>
+<ol><li><em>Pecan</em> pie is the whole point of Thanksgiving.</li><li>The <em>pecans</em> fall all over the driveway in October.</li><li>She toasted a cup of <em>pecans</em> for the salad.</li></ol>
+<hr>
+<h3 id="hazelnut">hazelnut<a class="hash" href="#hazelnut" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/ˈheɪzəlnʌt/ &middot; <em>HAY-zul-nut</em></dd><dt>Русский</dt><dd>фундук, лесной орех</dd><dt>Plural</dt><dd><em>hazelnuts</em></dd><dt>Countability</dt><dd>countable</dd></dl>
+<p>A small round nut with a hard shell and a sweet, toasty flavor.</p>
+<ol><li>That spread is mostly sugar and <em>hazelnuts</em>.</li><li>He ordered a <em>hazelnut</em> latte.</li><li>Crack the <em>hazelnut</em> and rub the skin off.</li></ol>
+<hr>
+<h3 id="pistachio">pistachio<a class="hash" href="#pistachio" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/pɪˈstæʃioʊ/ &middot; <em>pih-STASH-ee-oh</em></dd><dt>Русский</dt><dd>фисташка</dd><dt>Plural</dt><dd><em>pistachios</em></dd><dt>Countability</dt><dd>countable</dd></dl>
+<p>A small green nut sold in a shell that splits open on one side.</p>
+<ol><li><em>Pistachios</em> are worth the effort.</li><li>She ate a whole bag of <em>pistachios</em> watching the game.</li><li>One <em>pistachio</em> wouldn't open at all.</li></ol>
+<hr>
+<h3 id="chestnut">chestnut<a class="hash" href="#chestnut" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/ˈtʃesnʌt/ &middot; <em>CHES-nut</em></dd><dt>Русский</dt><dd>каштан</dd><dt>Plural</dt><dd><em>chestnuts</em></dd><dt>Countability</dt><dd>countable</dd><dt>Contrast</dt><dd>The t of chest is silent: CHES-nut.</dd></dl>
+<p>A large glossy brown nut that is roasted or boiled before eating.</p>
+<ol><li>Roasted <em>chestnuts</em> smell like winter.</li><li>Score each <em>chestnut</em> before you roast it.</li><li><em>Chestnuts</em> are starchy rather than oily like other nuts.</li></ol>
+<hr>
+<h3 id="acorn">acorn<a class="hash" href="#acorn" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/ˈeɪkɔːrn/ &middot; <em>AY-korn</em></dd><dt>Русский</dt><dd>жёлудь</dd><dt>Plural</dt><dd><em>acorns</em></dd><dt>Countability</dt><dd>countable</dd></dl>
+<p>The nut of an oak tree, sitting in a small rough cup.</p>
+<ol><li>The squirrels buried <em>acorns</em> all over the lawn.</li><li>An <em>acorn</em> hit the roof and woke me up.</li><li>The <em>acorns</em> were thick under the old oak.</li></ol>
+<hr>
+<h3 id="seed">seed<a class="hash" href="#seed" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/siːd/ &middot; <em>SEED</em></dd><dt>Русский</dt><dd>семя, семечко</dd><dt>Plural</dt><dd><em>seeds</em></dd><dt>Countability</dt><dd>countable</dd></dl>
+<p>The small hard part of a plant from which a new plant grows.</p>
+<ol><li>Save the <em>seeds</em> and plant them next spring.</li><li>There's a <em>seed</em> stuck in my teeth.</li><li>Sunflower <em>seeds</em> are the standard dugout snack.</li></ol>
+<hr>
+<h3 id="sunflower">sunflower<a class="hash" href="#sunflower" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/ˈsʌnflaʊrr/ &middot; <em>SUN-flow-ur</em></dd><dt>Русский</dt><dd>подсолнух, подсолнечник</dd><dt>Plural</dt><dd><em>sunflowers</em></dd><dt>Countability</dt><dd>countable</dd></dl>
+<p>A tall plant with a large yellow flower and edible seeds.</p>
+<ol><li>The <em>sunflowers</em> were taller than the fence.</li><li>She planted a row of <em>sunflowers</em> along the driveway.</li><li><em>Sunflower</em> oil has almost no flavor of its own.</li></ol>
+<hr>
+<h3 id="sesame">sesame<a class="hash" href="#sesame" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/ˈsesəmi/ &middot; <em>SEH-suh-mee</em></dd><dt>Русский</dt><dd>кунжут, сезам</dd><dt>Countability</dt><dd>uncountable</dd></dl>
+<p>A plant whose small flat seeds are used on bread and pressed for oil.</p>
+<ol><li>Sprinkle <em>sesame</em> seeds on top before baking.</li><li>The dressing is soy sauce and <em>sesame</em> oil.</li><li><em>Sesame</em> burns fast, so watch the pan.</li></ol>
+<hr>
+<h3 id="kernel">kernel<a class="hash" href="#kernel" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/ˈkɜːrnəl/ &middot; <em>KUR-nul</em></dd><dt>Русский</dt><dd>ядро (ореха), зерно</dd><dt>Plural</dt><dd><em>kernels</em></dd><dt>Countability</dt><dd>countable</dd><dt>Contrast</dt><dd>Homophone of colonel.</dd></dl>
+<p>The soft edible part inside a nut, or a single grain of corn or wheat.</p>
+<ol><li>A few <em>kernels</em> never pop.</li><li>Cut the <em>kernels</em> off the cob with a sharp knife.</li><li>One popcorn <em>kernel</em> got stuck in my tooth.</li></ol>
+<hr>
+<h3 id="oat">oat<a class="hash" href="#oat" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/oʊt/ &middot; <em>OHT</em></dd><dt>Русский</dt><dd>овсяное зерно; мн. овёс</dd><dt>Plural</dt><dd><em>oats</em></dd><dt>Countability</dt><dd>countable</dd></dl>
+<p>A grain grown for food and animal feed, usually eaten as oatmeal.</p>
+<ol><li>Steel-cut <em>oats</em> take longer but taste better.</li><li>He eats <em>oats</em> every single morning.</li><li><em>Oat</em> milk froths better than almond.</li></ol>
+<hr>
+<h3 id="barley">barley<a class="hash" href="#barley" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/ˈbɑːrli/ &middot; <em>BAR-lee</em></dd><dt>Русский</dt><dd>ячмень</dd><dt>Countability</dt><dd>uncountable</dd></dl>
+<p>A grain used in soups, animal feed, and brewing beer.</p>
+<ol><li><em>Barley</em> makes the soup thick and filling.</li><li>Most <em>barley</em> around here goes to the breweries.</li><li>Add a half cup of pearl <em>barley</em>.</li></ol>
+<hr>
+<h3 id="root">root<a class="hash" href="#root" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/ruːt/ &middot; <em>ROOT</em></dd><dt>Русский</dt><dd>корень</dd><dt>Plural</dt><dd><em>roots</em></dd><dt>Countability</dt><dd>countable</dd></dl>
+<p>The part of a plant that grows underground and takes in water.</p>
+<ol><li>The plant's <em>roots</em> had filled the whole pot.</li><li>Ginger <em>root</em> keeps for weeks in the freezer.</li><li>He pulled the weed out by the <em>root</em>.</li></ol>
+<hr>
+<h3 id="stem">stem<a class="hash" href="#stem" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/stem/ &middot; <em>STEM</em></dd><dt>Русский</dt><dd>стебель</dd><dt>Plural</dt><dd><em>stems</em></dd><dt>Countability</dt><dd>countable</dd></dl>
+<p>The thin part of a plant that supports leaves, flowers, or fruit.</p>
+<ol><li>Cut the <em>stems</em> at an angle.</li><li>Pull the <em>stem</em> off the strawberry first.</li><li>The <em>stems</em> are tougher than the leaves.</li></ol>
+<hr>
+<h3 id="peel">peel<a class="hash" href="#peel" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/piːl/ &middot; <em>PEEL</em></dd><dt>Русский</dt><dd>кожура, кожица</dd><dt>Plural</dt><dd><em>peels</em></dd><dt>Countability</dt><dd>countable</dd></dl>
+<p>The outer skin of a fruit or vegetable.</p>
+<ol><li>Don't throw out the lemon <em>peel</em> — zest it first.</li><li>He slipped on a banana <em>peel</em>, which I thought only happened in cartoons.</li><li>Compost the <em>peels</em> instead of trashing them.</li></ol>
+<hr>
+<h3 id="rind">rind<a class="hash" href="#rind" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/raɪnd/ &middot; <em>RYND</em></dd><dt>Русский</dt><dd>корка, толстая кожура</dd><dt>Plural</dt><dd><em>rinds</em></dd><dt>Countability</dt><dd>countable</dd></dl>
+<p>The thick hard outer layer of some fruits, vegetables, or cheeses.</p>
+<ol><li>Cut the <em>rind</em> off the watermelon.</li><li>Save the parmesan <em>rind</em> for soup.</li><li>The <em>rinds</em> all went into the compost.</li></ol>
+<hr>
+<h3 id="pit">pit<a class="hash" href="#pit" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/pɪt/ &middot; <em>PIT</em></dd><dt>Русский</dt><dd>косточка (плода)</dd><dt>Plural</dt><dd><em>pits</em></dd><dt>Countability</dt><dd>countable</dd><dt>Contrast</dt><dd>American English for the hard seed; British English says stone.</dd></dl>
+<p>The single hard seed in the middle of a peach, cherry, or similar fruit.</p>
+<ol><li>Watch out for the <em>pit</em> in the middle.</li><li>She spit the cherry <em>pits</em> into a napkin.</li><li>Remove the <em>pit</em> before you blend it.</li></ol>
+<hr>
+<h3 id="core">core<a class="hash" href="#core" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/kɔːr/ &middot; <em>KOR</em></dd><dt>Русский</dt><dd>сердцевина, огрызок</dd><dt>Plural</dt><dd><em>cores</em></dd><dt>Countability</dt><dd>countable</dd></dl>
+<p>The hard central part of a fruit that holds the seeds.</p>
+<ol><li>Cut around the <em>core</em> of the apple.</li><li>He tossed the <em>core</em> out the car window.</li><li>The <em>cores</em> go in the compost bin.</li></ol>
+<hr>
+<h3 id="stalk">stalk<a class="hash" href="#stalk" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/stɔːk/ &middot; <em>STAWK</em></dd><dt>Русский</dt><dd>стебель, черешок</dd><dt>Plural</dt><dd><em>stalks</em></dd><dt>Countability</dt><dd>countable</dd><dt>Contrast</dt><dd>The l is silent: STAWK.</dd></dl>
+<p>The main thick stem of a plant, or one long piece of celery or rhubarb.</p>
+<ol><li>Trim the ends off the celery <em>stalks</em>.</li><li>One <em>stalk</em> of celery has almost no calories.</li><li>The corn <em>stalks</em> were taller than the barn.</li></ol>
+<hr>
+<h3 id="vine">vine<a class="hash" href="#vine" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/vaɪn/ &middot; <em>VYNE</em></dd><dt>Русский</dt><dd>лоза, вьющееся растение</dd><dt>Plural</dt><dd><em>vines</em></dd><dt>Countability</dt><dd>countable</dd></dl>
+<p>A plant with a long climbing or trailing stem, such as a grape plant.</p>
+<ol><li>The tomatoes ripened on the <em>vine</em>.</li><li><em>Vines</em> had grown right over the fence.</li><li>He trained the <em>vine</em> up a trellis.</li></ol>
+<hr>
+<h3 id="orchard">orchard<a class="hash" href="#orchard" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/ˈɔːrtʃərd/ &middot; <em>OR-churd</em></dd><dt>Русский</dt><dd>фруктовый сад</dd><dt>Plural</dt><dd><em>orchards</em></dd><dt>Countability</dt><dd>countable</dd></dl>
+<p>A piece of land planted with fruit trees.</p>
+<ol><li>We drove out to the apple <em>orchard</em> on Saturday.</li><li>The <em>orchards</em> bloom in late April.</li><li>Her family has run that <em>orchard</em> for sixty years.</li></ol>
+<hr>
+<h3 id="harvest">harvest<a class="hash" href="#harvest" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/ˈhɑːrvɪst/ &middot; <em>HAR-vist</em></dd><dt>Русский</dt><dd>урожай, сбор урожая</dd><dt>Plural</dt><dd><em>harvests</em></dd><dt>Countability</dt><dd>countable</dd></dl>
+<p>The gathering of a crop, or the amount gathered.</p>
+<ol><li>The <em>harvest</em> came in early this year.</li><li>Two bad <em>harvests</em> in a row nearly ruined them.</li><li>Everybody works straight through the <em>harvest</em>.</li></ol>
+<hr>
+<h3 id="crop">crop<a class="hash" href="#crop" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/krɑːp/ &middot; <em>KRAHP</em></dd><dt>Русский</dt><dd>сельскохозяйственная культура, урожай</dd><dt>Plural</dt><dd><em>crops</em></dd><dt>Countability</dt><dd>countable</dd></dl>
+<p>A plant grown in large amounts for food, or the amount produced in a season.</p>
+<ol><li>Corn is the biggest <em>crop</em> in the state.</li><li>The <em>crops</em> need rain badly.</li><li>They rotate <em>crops</em> to keep the soil healthy.</li></ol></div></main>
+<button class="themebtn" id="themeBtn">Dark</button>
+<script>
+const tb=document.getElementById('themeBtn');
+function setTheme(x){document.documentElement.dataset.theme=x;tb.textContent=x==='dark'?'Light':'Dark';
+ try{localStorage.setItem('site-theme',x)}catch(e){}}
+tb.onclick=()=>setTheme(document.documentElement.dataset.theme==='dark'?'light':'dark');
+try{const s=localStorage.getItem('site-theme');
+ setTheme(s||(matchMedia('(prefers-color-scheme: dark)').matches?'dark':'light'))}catch(e){setTheme('light')}
+</script></body></html>

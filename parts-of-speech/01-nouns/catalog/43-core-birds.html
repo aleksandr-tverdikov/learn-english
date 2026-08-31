@@ -1,0 +1,636 @@
+<!DOCTYPE html>
+<html lang="en"><head>
+<meta charset="utf-8"><meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Core vocabulary: birds</title>
+<style>
+:root{--bg:#faf9f7;--surface:#fff;--surface2:#f2f0ec;--border:#e2ded6;--text:#1a1815;
+--dim:#5f594f;--faint:#8a8377;--accent:#8a5a3b;--measure:72ch}
+@media(prefers-color-scheme:dark){:root{--bg:#14140f;--surface:#1d1d17;--surface2:#25251d;
+--border:#33332a;--text:#eeeae1;--dim:#a8a293;--faint:#7d776b;--accent:#d09b72}}
+:root[data-theme=dark]{--bg:#14140f;--surface:#1d1d17;--surface2:#25251d;--border:#33332a;
+--text:#eeeae1;--dim:#a8a293;--faint:#7d776b;--accent:#d09b72}
+:root[data-theme=light]{--bg:#faf9f7;--surface:#fff;--surface2:#f2f0ec;--border:#e2ded6;
+--text:#1a1815;--dim:#5f594f;--faint:#8a8377;--accent:#8a5a3b}
+*{box-sizing:border-box}
+body{margin:0;background:var(--bg);color:var(--text);
+font:17px/1.72 ui-serif,Georgia,"Iowan Old Style",Palatino,serif;-webkit-font-smoothing:antialiased}
+.wrap{max-width:min(var(--measure),100%);margin:0 auto;padding:0 22px}
+nav.crumb{border-bottom:1px solid var(--border);padding:13px 0;font-size:13.5px;
+font-family:-apple-system,BlinkMacSystemFont,"Segoe UI",sans-serif;position:sticky;top:0;background:var(--bg);z-index:20}
+nav.crumb .wrap{max-width:none;display:flex;gap:9px;align-items:center;flex-wrap:wrap}
+nav.crumb a{color:var(--dim);text-decoration:none}
+nav.crumb a:hover{color:var(--accent)}
+nav.crumb .sep{color:var(--faint)}
+main{padding:8px 0 80px}
+h1{font-size:clamp(28px,5vw,38px);line-height:1.15;letter-spacing:-.015em;margin:34px 0 18px}
+h2{font-size:25px;margin:46px 0 14px;letter-spacing:-.01em;padding-bottom:7px;border-bottom:1px solid var(--border)}
+h3{font-size:19px;margin:34px 0 10px;color:var(--accent)}
+h4{font-size:16px;margin:24px 0 8px;font-family:-apple-system,sans-serif}
+p{margin:0 0 16px}
+a{color:var(--accent)}
+.hash{opacity:0;margin-left:8px;font-weight:400;font-size:.65em;text-decoration:none;color:var(--faint)}
+h2:hover .hash,h3:hover .hash{opacity:1}
+blockquote{margin:0 0 20px;padding:14px 18px;background:var(--surface2);
+border-left:3px solid var(--accent);border-radius:0 8px 8px 0}
+blockquote p:last-child{margin-bottom:0}
+ol,ul{margin:0 0 18px;padding-left:26px}
+li{margin-bottom:8px}
+li>ul,li>ol{margin:8px 0 0}
+code{font-family:ui-monospace,SFMono-Regular,Menlo,Consolas,monospace;font-size:.87em;
+background:var(--surface2);padding:1px 5px;border-radius:4px}
+pre{background:var(--surface2);border:1px solid var(--border);border-radius:9px;
+padding:15px 17px;overflow-x:auto;margin:0 0 20px}
+pre code{background:none;padding:0;font-size:13px;line-height:1.6}
+.tw{overflow-x:auto;margin:0 0 22px;border:1px solid var(--border);border-radius:9px}
+table{border-collapse:collapse;width:100%;font-size:15px;
+font-family:-apple-system,BlinkMacSystemFont,"Segoe UI",sans-serif}
+th,td{padding:10px 14px;border-bottom:1px solid var(--border);vertical-align:top}
+th{background:var(--surface2);font-size:12px;text-transform:uppercase;
+letter-spacing:.06em;color:var(--dim);font-weight:700;white-space:nowrap}
+tbody tr:last-child td{border-bottom:none}
+hr{border:none;border-top:1px solid var(--border);margin:38px 0}
+details{background:var(--surface2);border:1px solid var(--border);border-radius:9px;
+padding:13px 17px;margin:0 0 20px}
+summary{cursor:pointer;font-weight:600;font-family:-apple-system,sans-serif;font-size:15px}
+details[open] summary{margin-bottom:12px}
+del{color:var(--faint)}
+dl.fields{margin:0 0 20px;padding:0}
+dl.fields dt{font-family:-apple-system,BlinkMacSystemFont,"Segoe UI",sans-serif;
+font-size:11px;letter-spacing:.11em;text-transform:uppercase;color:var(--faint);
+font-weight:700;margin:14px 0 4px}
+dl.fields dt:first-child{margin-top:0}
+dl.fields dd{margin:0;font-size:16px;color:var(--dim);line-height:1.62}
+dl.fields dd em{color:var(--text)}
+dl.fields dt.ru{color:var(--accent)}
+dl.fields dd strong{color:var(--text)}
+.toc{background:var(--surface2);border:1px solid var(--border);border-radius:10px;
+padding:16px 20px;margin:26px 0 34px;font-family:-apple-system,sans-serif;font-size:14px}
+.toc b{display:block;font-size:11px;letter-spacing:.12em;text-transform:uppercase;
+color:var(--faint);margin-bottom:9px}
+.toc a{display:block;padding:3px 0;color:var(--dim);text-decoration:none}
+.toc a:hover{color:var(--accent)}
+.themebtn{position:fixed;right:18px;bottom:18px;z-index:60;font-family:-apple-system,sans-serif;
+font-size:12.5px;font-weight:600;cursor:pointer;background:var(--surface);border:1px solid var(--border);
+border-radius:99px;padding:9px 16px;color:var(--text)}
+@media(max-width:600px){body{font-size:16px}.wrap{padding:0 17px}}
+</style></head><body>
+<nav class="crumb"><div class="wrap"><a href="../../../index.html">Learn English</a><span class="sep">/</span><a href="../../README.html">Parts of speech</a><span class="sep">/</span><a href="../README.html">01-nouns</a><span class="sep">/</span><span>catalog</span></div></nav>
+<main><div class="wrap"><h1 id="core-vocabulary-birds">Core vocabulary: birds<a class="hash" href="#core-vocabulary-birds" aria-label="link">#</a></h1>
+<blockquote><p>The everyday nouns of birds — pronunciation, Russian, plural, and three examples each.</p></blockquote>
+<p><a href="../README.html">← The grammar of nouns</a> &middot; <a href="README.html">All groups</a></p>
+<p>Part of the <strong>core-vocabulary tier</strong>. Groups 1–23 cover the nouns that misbehave; this tier covers the nouns you simply need to know. Entries are deliberately lean, because a regular countable noun has no grammatical story to tell. A <strong>Contrast</strong> line appears only where the word hides a genuine trap.</p>
+<p>Where a word in this field <em>does</em> misbehave, it lives in the grammar tier instead and is not repeated here.</p>
+<hr>
+<h3 id="bird">bird<a class="hash" href="#bird" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/bɜːrd/ &middot; <em>BURD</em></dd><dt>Русский</dt><dd>птица</dd><dt>Plural</dt><dd><em>birds</em></dd><dt>Countability</dt><dd>countable</dd></dl>
+<p>An animal with feathers, two wings, and a beak.</p>
+<ol><li>A <em>bird</em> hit the window and knocked itself out.</li><li>There were hundreds of <em>birds</em> sitting on the wire outside.</li><li>She keeps a <em>bird</em> in a cage by the kitchen window.</li></ol>
+<hr>
+<h3 id="eagle">eagle<a class="hash" href="#eagle" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/ˈiːɡəl/ &middot; <em>EE-gul</em></dd><dt>Русский</dt><dd>орёл</dd><dt>Plural</dt><dd><em>eagles</em></dd><dt>Countability</dt><dd>countable</dd></dl>
+<p>A large bird of prey with a hooked beak and very good eyesight.</p>
+<ol><li>An <em>eagle</em> circled over the canyon for almost an hour.</li><li>Two bald <em>eagles</em> nest on the island every spring.</li><li>The <em>eagle</em> dropped out of the sky and grabbed a fish.</li></ol>
+<hr>
+<h3 id="hawk">hawk<a class="hash" href="#hawk" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/hɔːk/ &middot; <em>HAWK</em></dd><dt>Русский</dt><dd>ястреб</dd><dt>Plural</dt><dd><em>hawks</em></dd><dt>Countability</dt><dd>countable</dd></dl>
+<p>A medium-sized bird of prey that hunts small animals by day.</p>
+<ol><li>A <em>hawk</em> was sitting on the fence post, watching the field.</li><li><em>Hawks</em> around here go after squirrels and rabbits.</li><li>We saw a red-tailed <em>hawk</em> on the drive up.</li></ol>
+<hr>
+<h3 id="falcon">falcon<a class="hash" href="#falcon" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/ˈfælkən/ &middot; <em>FAL-kun</em></dd><dt>Русский</dt><dd>сокол</dd><dt>Plural</dt><dd><em>falcons</em></dd><dt>Countability</dt><dd>countable</dd></dl>
+<p>A fast bird of prey with long pointed wings.</p>
+<ol><li>A <em>falcon</em> can dive faster than any other bird.</li><li>The city has a pair of <em>falcons</em> nesting on the courthouse.</li><li>He trained the <em>falcon</em> to come back to his glove.</li></ol>
+<hr>
+<h3 id="owl">owl<a class="hash" href="#owl" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/aʊl/ &middot; <em>OWL</em></dd><dt>Русский</dt><dd>сова</dd><dt>Plural</dt><dd><em>owls</em></dd><dt>Countability</dt><dd>countable</dd></dl>
+<p>A night bird with large forward-facing eyes and a flat face.</p>
+<ol><li>An <em>owl</em> was hooting somewhere behind the barn.</li><li><em>Owls</em> hunt at night, so you rarely see them.</li><li>We found an <em>owl</em> pellet under the big pine.</li></ol>
+<hr>
+<h3 id="vulture">vulture<a class="hash" href="#vulture" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/ˈvʌltʃər/ &middot; <em>VUL-chur</em></dd><dt>Русский</dt><dd>гриф, стервятник</dd><dt>Plural</dt><dd><em>vultures</em></dd><dt>Countability</dt><dd>countable</dd></dl>
+<p>A large bird that feeds on dead animals.</p>
+<ol><li>A couple of <em>vultures</em> were circling over the highway.</li><li>The <em>vulture</em> waited until the coyote left.</li><li><em>Vultures</em> clean up carcasses that would otherwise rot.</li></ol>
+<hr>
+<h3 id="crow">crow<a class="hash" href="#crow" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/kroʊ/ &middot; <em>KROH</em></dd><dt>Русский</dt><dd>ворона</dd><dt>Plural</dt><dd><em>crows</em></dd><dt>Countability</dt><dd>countable</dd></dl>
+<p>A large black bird with a harsh call.</p>
+<ol><li>A <em>crow</em> landed on the mailbox and stared at me.</li><li><em>Crows</em> remember faces, which is a little unsettling.</li><li>The <em>crow</em> dropped a walnut on the road so a car would crack it.</li></ol>
+<hr>
+<h3 id="raven">raven<a class="hash" href="#raven" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/ˈreɪvən/ &middot; <em>RAY-vun</em></dd><dt>Русский</dt><dd>ворон</dd><dt>Plural</dt><dd><em>ravens</em></dd><dt>Countability</dt><dd>countable</dd></dl>
+<p>A large black bird like a crow but bigger, with a deeper call.</p>
+<ol><li>A <em>raven</em> is much bigger than a crow, and its call is deeper.</li><li><em>Ravens</em> nested on the cliff above the trail.</li><li>The <em>raven</em> followed us for half a mile, hoping for scraps.</li></ol>
+<hr>
+<h3 id="sparrow">sparrow<a class="hash" href="#sparrow" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/ˈsperoʊ/ &middot; <em>SPAIR-oh</em></dd><dt>Русский</dt><dd>воробей</dd><dt>Plural</dt><dd><em>sparrows</em></dd><dt>Countability</dt><dd>countable</dd></dl>
+<p>A small brown and gray bird common in towns and gardens.</p>
+<ol><li>A <em>sparrow</em> built a nest in the gutter.</li><li><em>Sparrows</em> were fighting over crumbs on the patio.</li><li>There is always a <em>sparrow</em> or two under the feeder.</li></ol>
+<hr>
+<h3 id="pigeon">pigeon<a class="hash" href="#pigeon" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/ˈpɪdʒən/ &middot; <em>PIJ-un</em></dd><dt>Русский</dt><dd>голубь (городской)</dd><dt>Plural</dt><dd><em>pigeons</em></dd><dt>Countability</dt><dd>countable</dd><dt>Contrast</dt><dd>Two syllables, not three: PIJ-un, never pi-JEE-on. The g is soft.</dd></dl>
+<p>A gray city bird with a small head and a fat body.</p>
+<ol><li>A <em>pigeon</em> was walking around the subway platform.</li><li>The old man feeds the <em>pigeons</em> in the square every morning.</li><li>A <em>pigeon</em> got into the warehouse and could not find its way out.</li></ol>
+<hr>
+<h3 id="dove">dove<a class="hash" href="#dove" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/dʌv/ &middot; <em>DUV</em></dd><dt>Русский</dt><dd>голубь (символ мира)</dd><dt>Plural</dt><dd><em>doves</em></dd><dt>Countability</dt><dd>countable</dd><dt>Contrast</dt><dd>The bird rhymes with love: /dʌv/. The identically spelled past tense of dive is /doʊv/, rhyming with stove.</dd></dl>
+<p>A small pale pigeon, often used as a symbol of peace.</p>
+<ol><li>A <em>dove</em> landed on the windowsill and cooed.</li><li>Two white <em>doves</em> were released at the wedding.</li><li>The <em>dove</em> is a symbol of peace in a lot of countries.</li></ol>
+<hr>
+<h3 id="robin">robin<a class="hash" href="#robin" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/ˈrɑːbən/ &middot; <em>RAH-bun</em></dd><dt>Русский</dt><dd>малиновка; амер. странствующий дрозд</dd><dt>Plural</dt><dd><em>robins</em></dd><dt>Countability</dt><dd>countable</dd></dl>
+<p>A common garden bird with a red or orange breast.</p>
+<ol><li>A <em>robin</em> was pulling a worm out of the lawn.</li><li><em>Robins</em> show up in the yard as soon as the ground thaws.</li><li>We watched a <em>robin</em> feed her chicks all afternoon.</li></ol>
+<hr>
+<h3 id="swan">swan<a class="hash" href="#swan" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/swɑːn/ &middot; <em>SWAHN</em></dd><dt>Русский</dt><dd>лебедь</dd><dt>Plural</dt><dd><em>swans</em></dd><dt>Countability</dt><dd>countable</dd><dt>Contrast</dt><dd>The a is /ɑː/: SWAHN rhymes with on, not with man.</dd></dl>
+<p>A large white water bird with a long curved neck.</p>
+<ol><li>A <em>swan</em> glided past us without making a sound.</li><li>Two <em>swans</em> have nested on the lake for years.</li><li>The <em>swan</em> hissed when we got too close to the nest.</li></ol>
+<hr>
+<h3 id="penguin">penguin<a class="hash" href="#penguin" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/ˈpeŋɡwɪn/ &middot; <em>PENG-gwin</em></dd><dt>Русский</dt><dd>пингвин</dd><dt>Plural</dt><dd><em>penguins</em></dd><dt>Countability</dt><dd>countable</dd></dl>
+<p>A flightless black and white sea bird of the southern hemisphere.</p>
+<ol><li>The zoo just opened a new <em>penguin</em> exhibit.</li><li><em>Penguins</em> cannot fly, but they swim beautifully.</li><li>A <em>penguin</em> waddled up to the glass and stared at my son.</li></ol>
+<hr>
+<h3 id="ostrich">ostrich<a class="hash" href="#ostrich" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/ˈɑːstrɪtʃ/ &middot; <em>AH-strich</em></dd><dt>Русский</dt><dd>страус</dd><dt>Plural</dt><dd><em>ostriches</em></dd><dt>Countability</dt><dd>countable</dd></dl>
+<p>A very large flightless African bird that runs fast.</p>
+<ol><li>An <em>ostrich</em> can outrun a horse over open ground.</li><li>They raise <em>ostriches</em> on a farm outside of town.</li><li>The <em>ostrich</em> laid an egg the size of a football.</li></ol>
+<hr>
+<h3 id="parrot">parrot<a class="hash" href="#parrot" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/ˈperət/ &middot; <em>PAIR-ut</em></dd><dt>Русский</dt><dd>попугай</dd><dt>Plural</dt><dd><em>parrots</em></dd><dt>Countability</dt><dd>countable</dd></dl>
+<p>A brightly colored tropical bird with a curved beak that can copy speech.</p>
+<ol><li>Their <em>parrot</em> says hello every time the doorbell rings.</li><li><em>Parrots</em> can live for fifty years or more.</li><li>The <em>parrot</em> bit my finger when I got too close.</li></ol>
+<hr>
+<h3 id="parakeet">parakeet<a class="hash" href="#parakeet" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/ˈperəkiːt/ &middot; <em>PAIR-uh-keet</em></dd><dt>Русский</dt><dd>волнистый попугайчик</dd><dt>Plural</dt><dd><em>parakeets</em></dd><dt>Countability</dt><dd>countable</dd></dl>
+<p>A small parrot with a long tail, often kept as a pet.</p>
+<ol><li>She keeps two <em>parakeets</em> in a cage by the window.</li><li>The <em>parakeet</em> escaped and spent the night on the curtain rod.</li><li>A green <em>parakeet</em> was chirping in the pet store.</li></ol>
+<hr>
+<h3 id="cockatoo">cockatoo<a class="hash" href="#cockatoo" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/ˌkɑːkəˈtuː/ &middot; <em>kah-kuh-TOO</em></dd><dt>Русский</dt><dd>какаду</dd><dt>Plural</dt><dd><em>cockatoos</em></dd><dt>Countability</dt><dd>countable</dd></dl>
+<p>A large parrot with a crest that it can raise on its head.</p>
+<ol><li>The <em>cockatoo</em> raised its crest when the dog walked in.</li><li><em>Cockatoos</em> are loud enough to wake the neighbors.</li><li>He taught his <em>cockatoo</em> to whistle the theme song.</li></ol>
+<hr>
+<h3 id="macaw">macaw<a class="hash" href="#macaw" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/məˈkɔː/ &middot; <em>muh-KAW</em></dd><dt>Русский</dt><dd>ара (попугай)</dd><dt>Plural</dt><dd><em>macaws</em></dd><dt>Countability</dt><dd>countable</dd><dt>Contrast</dt><dd>Stress falls on the second syllable: muh-KAW.</dd></dl>
+<p>A big long-tailed parrot from Central and South America.</p>
+<ol><li>A blue and gold <em>macaw</em> sat on the trainer's arm.</li><li><em>Macaws</em> need a lot of space and a lot of attention.</li><li>The <em>macaw</em> screamed every time the phone rang.</li></ol>
+<hr>
+<h3 id="peacock">peacock<a class="hash" href="#peacock" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/ˈpiːkɑːk/ &middot; <em>PEE-kahk</em></dd><dt>Русский</dt><dd>павлин</dd><dt>Plural</dt><dd><em>peacocks</em></dd><dt>Countability</dt><dd>countable</dd></dl>
+<p>A male bird with a huge fan-shaped tail of blue and green feathers.</p>
+<ol><li>A <em>peacock</em> spread its tail right in front of the tourists.</li><li><em>Peacocks</em> wander loose all over the hotel grounds.</li><li>The <em>peacock</em> let out that awful cry at five in the morning.</li></ol>
+<hr>
+<h3 id="seagull">seagull<a class="hash" href="#seagull" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/ˈsiːɡʌl/ &middot; <em>SEE-gul</em></dd><dt>Русский</dt><dd>чайка</dd><dt>Plural</dt><dd><em>seagulls</em></dd><dt>Countability</dt><dd>countable</dd></dl>
+<p>A gray and white sea bird common along coasts.</p>
+<ol><li>A <em>seagull</em> stole a fry right out of my hand.</li><li>The <em>seagulls</em> follow the fishing boats back into the harbor.</li><li>One <em>seagull</em> landed on the roof of the car.</li></ol>
+<hr>
+<h3 id="gull">gull<a class="hash" href="#gull" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/ɡʌl/ &middot; <em>GUL</em></dd><dt>Русский</dt><dd>чайка</dd><dt>Plural</dt><dd><em>gulls</em></dd><dt>Countability</dt><dd>countable</dd></dl>
+<p>A sea bird of the same family as the seagull.</p>
+<ol><li>A <em>gull</em> was riding the wind over the pier.</li><li><em>Gulls</em> nest on the rocks at the end of the beach.</li><li>The <em>gull</em> dropped a clam on the parking lot to break it open.</li></ol>
+<hr>
+<h3 id="stork">stork<a class="hash" href="#stork" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/stɔːrk/ &middot; <em>STORK</em></dd><dt>Русский</dt><dd>аист</dd><dt>Plural</dt><dd><em>storks</em></dd><dt>Countability</dt><dd>countable</dd></dl>
+<p>A tall wading bird with long legs and a long straight bill.</p>
+<ol><li>A <em>stork</em> was standing in the shallow water.</li><li><em>Storks</em> nest on chimneys in a lot of old towns.</li><li>In the old story, a <em>stork</em> brings the baby.</li></ol>
+<hr>
+<h3 id="crane">crane<a class="hash" href="#crane" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/kreɪn/ &middot; <em>KRAYN</em></dd><dt>Русский</dt><dd>журавль</dd><dt>Plural</dt><dd><em>cranes</em></dd><dt>Countability</dt><dd>countable</dd><dt>Contrast</dt><dd>The same word also means a lifting machine on a building site; only context tells you which.</dd></dl>
+<p>A tall long-necked bird that lives in wetlands.</p>
+<ol><li>A <em>crane</em> took off from the marsh as we drove by.</li><li>Thousands of <em>cranes</em> stop here on their way south.</li><li>The <em>crane</em> stood on one leg for almost ten minutes.</li></ol>
+<hr>
+<h3 id="heron">heron<a class="hash" href="#heron" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/ˈherən/ &middot; <em>HAIR-un</em></dd><dt>Русский</dt><dd>цапля</dd><dt>Plural</dt><dd><em>herons</em></dd><dt>Countability</dt><dd>countable</dd></dl>
+<p>A wading bird with long legs and a sharp bill that spears fish.</p>
+<ol><li>A blue <em>heron</em> was standing dead still at the edge of the pond.</li><li><em>Herons</em> nest in the tall trees along the river.</li><li>The <em>heron</em> speared a fish and swallowed it whole.</li></ol>
+<hr>
+<h3 id="pelican">pelican<a class="hash" href="#pelican" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/ˈpelɪkən/ &middot; <em>PEL-ih-kun</em></dd><dt>Русский</dt><dd>пеликан</dd><dt>Plural</dt><dd><em>pelicans</em></dd><dt>Countability</dt><dd>countable</dd></dl>
+<p>A large water bird with a pouch under its bill for holding fish.</p>
+<ol><li>A <em>pelican</em> dove straight into the surf.</li><li><em>Pelicans</em> line up on the railing at the end of the pier.</li><li>The <em>pelican</em> had a fish flopping around in its pouch.</li></ol>
+<hr>
+<h3 id="swallow">swallow<a class="hash" href="#swallow" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/ˈswɑːloʊ/ &middot; <em>SWAH-loh</em></dd><dt>Русский</dt><dd>ласточка</dd><dt>Plural</dt><dd><em>swallows</em></dd><dt>Countability</dt><dd>countable</dd><dt>Contrast</dt><dd>Spelled and said exactly like the verb swallow (to send food down your throat).</dd></dl>
+<p>A small fast bird with pointed wings and a forked tail.</p>
+<ol><li>A <em>swallow</em> built a mud nest under the eaves.</li><li><em>Swallows</em> come back to the barn every April.</li><li>The <em>swallow</em> caught a bug in midair.</li></ol>
+<hr>
+<h3 id="woodpecker">woodpecker<a class="hash" href="#woodpecker" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/ˈwʊdpekər/ &middot; <em>WUUD-pek-ur</em></dd><dt>Русский</dt><dd>дятел</dd><dt>Plural</dt><dd><em>woodpeckers</em></dd><dt>Countability</dt><dd>countable</dd></dl>
+<p>A bird that hammers holes in trees with its beak to find insects.</p>
+<ol><li>A <em>woodpecker</em> has been hammering on the siding since dawn.</li><li><em>Woodpeckers</em> drill holes to get at insects under the bark.</li><li>The <em>woodpecker</em> left a row of neat holes in the dead tree.</li></ol>
+<hr>
+<h3 id="hummingbird">hummingbird<a class="hash" href="#hummingbird" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/ˈhʌmɪŋbɜːrd/ &middot; <em>HUM-ing-burd</em></dd><dt>Русский</dt><dd>колибри</dd><dt>Plural</dt><dd><em>hummingbirds</em></dd><dt>Countability</dt><dd>countable</dd></dl>
+<p>A tiny bird that hovers in front of flowers and beats its wings very fast.</p>
+<ol><li>A <em>hummingbird</em> hovered at the feeder for a few seconds.</li><li><em>Hummingbirds</em> beat their wings so fast you can barely see them.</li><li>We put out sugar water to bring the <em>hummingbirds</em> in.</li></ol>
+<hr>
+<h3 id="canary">canary<a class="hash" href="#canary" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/kəˈneri/ &middot; <em>kuh-NAIR-ee</em></dd><dt>Русский</dt><dd>канарейка</dd><dt>Plural</dt><dd><em>canaries</em></dd><dt>Countability</dt><dd>countable</dd><dt>Contrast</dt><dd>Stress on the middle syllable: kuh-NAIR-ee, not CAN-uh-ree.</dd></dl>
+<p>A small yellow songbird often kept in a cage.</p>
+<ol><li>Their <em>canary</em> sings all morning.</li><li>Miners used to carry <em>canaries</em> down into the shafts.</li><li>The <em>canary</em> stopped singing when we turned on the vacuum.</li></ol>
+<hr>
+<h3 id="finch">finch<a class="hash" href="#finch" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/fɪntʃ/ &middot; <em>FINCH</em></dd><dt>Русский</dt><dd>вьюрок, зяблик</dd><dt>Plural</dt><dd><em>finches</em></dd><dt>Countability</dt><dd>countable</dd></dl>
+<p>A small seed-eating songbird with a short thick beak.</p>
+<ol><li>A <em>finch</em> was picking seeds off the ground.</li><li><em>Finches</em> took over the feeder by the garage.</li><li>The little yellow <em>finch</em> comes back every summer.</li></ol>
+<hr>
+<h3 id="goldfinch">goldfinch<a class="hash" href="#goldfinch" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/ˈɡoʊldfɪntʃ/ &middot; <em>GOHLD-finch</em></dd><dt>Русский</dt><dd>щегол</dd><dt>Plural</dt><dd><em>goldfinches</em></dd><dt>Countability</dt><dd>countable</dd></dl>
+<p>A small bright yellow finch with black markings.</p>
+<ol><li>A <em>goldfinch</em> landed on the thistle feeder.</li><li><em>Goldfinches</em> turn bright yellow in the spring.</li><li>We counted six <em>goldfinches</em> in the yard this morning.</li></ol>
+<hr>
+<h3 id="nightingale">nightingale<a class="hash" href="#nightingale" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/ˈnaɪtɪŋɡeɪl/ &middot; <em>NY-ting-gayl</em></dd><dt>Русский</dt><dd>соловей</dd><dt>Plural</dt><dd><em>nightingales</em></dd><dt>Countability</dt><dd>countable</dd></dl>
+<p>A small brown bird famous for singing at night.</p>
+<ol><li>A <em>nightingale</em> was singing somewhere in the dark.</li><li><em>Nightingales</em> are famous for their song, not their looks.</li><li>He said the <em>nightingale</em> kept him awake half the night.</li></ol>
+<hr>
+<h3 id="cuckoo">cuckoo<a class="hash" href="#cuckoo" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/ˈkuːkuː/ &middot; <em>KOO-koo</em></dd><dt>Русский</dt><dd>кукушка</dd><dt>Plural</dt><dd><em>cuckoos</em></dd><dt>Countability</dt><dd>countable</dd></dl>
+<p>A bird that lays its eggs in other birds' nests and calls its own name.</p>
+<ol><li>A <em>cuckoo</em> was calling from the woods.</li><li><em>Cuckoos</em> lay their eggs in other birds' nests.</li><li>The clock has a little wooden <em>cuckoo</em> that pops out on the hour.</li></ol>
+<hr>
+<h3 id="magpie">magpie<a class="hash" href="#magpie" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/ˈmæɡpaɪ/ &middot; <em>MAG-py</em></dd><dt>Русский</dt><dd>сорока</dd><dt>Plural</dt><dd><em>magpies</em></dd><dt>Countability</dt><dd>countable</dd></dl>
+<p>A noisy black and white bird with a long tail.</p>
+<ol><li>A <em>magpie</em> carried off a piece of foil from the trash.</li><li><em>Magpies</em> are smart enough to recognize themselves in a mirror.</li><li>The <em>magpie</em> sat on the fence, chattering at the cat.</li></ol>
+<hr>
+<h3 id="starling">starling<a class="hash" href="#starling" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/ˈstɑːrlɪŋ/ &middot; <em>STAR-ling</em></dd><dt>Русский</dt><dd>скворец</dd><dt>Plural</dt><dd><em>starlings</em></dd><dt>Countability</dt><dd>countable</dd></dl>
+<p>A dark speckled bird that flies in huge flocks and copies other sounds.</p>
+<ol><li>A <em>starling</em> was picking at the grass by the curb.</li><li>Thousands of <em>starlings</em> wheeled over the field at dusk.</li><li>The <em>starling</em> can imitate a car alarm almost perfectly.</li></ol>
+<hr>
+<h3 id="jay">jay<a class="hash" href="#jay" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/dʒeɪ/ &middot; <em>JAY</em></dd><dt>Русский</dt><dd>сойка</dd><dt>Plural</dt><dd><em>jays</em></dd><dt>Countability</dt><dd>countable</dd></dl>
+<p>A loud, bold bird of the crow family, often blue in North America.</p>
+<ol><li>A blue <em>jay</em> chased the squirrel off the feeder.</li><li><em>Jays</em> scream when there is a hawk around.</li><li>The <em>jay</em> buried an acorn in the flower bed.</li></ol>
+<hr>
+<h3 id="blackbird">blackbird<a class="hash" href="#blackbird" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/ˈblækbɜːrd/ &middot; <em>BLAK-burd</em></dd><dt>Русский</dt><dd>чёрный дрозд</dd><dt>Plural</dt><dd><em>blackbirds</em></dd><dt>Countability</dt><dd>countable</dd></dl>
+<p>A common black songbird.</p>
+<ol><li>A <em>blackbird</em> was singing on the fence post.</li><li><em>Blackbirds</em> fill the marsh in the spring.</li><li>The <em>blackbird</em> flew off as soon as I opened the door.</li></ol>
+<hr>
+<h3 id="bluebird">bluebird<a class="hash" href="#bluebird" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/ˈbluːbɜːrd/ &middot; <em>BLOO-burd</em></dd><dt>Русский</dt><dd>сиалия, «синяя птица» (сев.-амер.)</dd><dt>Plural</dt><dd><em>bluebirds</em></dd><dt>Countability</dt><dd>countable</dd></dl>
+<p>A small North American songbird with bright blue feathers.</p>
+<ol><li>A <em>bluebird</em> took over the box we put up last year.</li><li><em>Bluebirds</em> are back, so spring must be close.</li><li>The <em>bluebird</em> sat on the wire for a long time.</li></ol>
+<hr>
+<h3 id="cardinal">cardinal<a class="hash" href="#cardinal" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/ˈkɑːrdənəl/ &middot; <em>KAR-duh-nul</em></dd><dt>Русский</dt><dd>кардинал (птица)</dd><dt>Plural</dt><dd><em>cardinals</em></dd><dt>Countability</dt><dd>countable</dd></dl>
+<p>A North American songbird; the male is bright red with a crest.</p>
+<ol><li>A male <em>cardinal</em> is impossible to miss against the snow.</li><li><em>Cardinals</em> come to the feeder all winter.</li><li>The <em>cardinal</em> was singing from the top of the maple.</li></ol>
+<hr>
+<h3 id="wren">wren<a class="hash" href="#wren" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/ren/ &middot; <em>REN</em></dd><dt>Русский</dt><dd>крапивник</dd><dt>Plural</dt><dd><em>wrens</em></dd><dt>Countability</dt><dd>countable</dd><dt>Contrast</dt><dd>The w is silent: REN, one syllable.</dd></dl>
+<p>A very small brown bird with a short upright tail and a loud song.</p>
+<ol><li>A <em>wren</em> built a nest in the flowerpot.</li><li><em>Wrens</em> are tiny, but they are unbelievably loud.</li><li>The <em>wren</em> scolded me the whole time I was on the porch.</li></ol>
+<hr>
+<h3 id="lark">lark<a class="hash" href="#lark" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/lɑːrk/ &middot; <em>LARK</em></dd><dt>Русский</dt><dd>жаворонок</dd><dt>Plural</dt><dd><em>larks</em></dd><dt>Countability</dt><dd>countable</dd></dl>
+<p>A brown field bird that sings while flying high in the air.</p>
+<ol><li>A <em>lark</em> rose straight up over the field, singing.</li><li><em>Larks</em> nest right on the ground.</li><li>We heard a <em>lark</em> long before we saw it.</li></ol>
+<hr>
+<h3 id="kingfisher">kingfisher<a class="hash" href="#kingfisher" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/ˈkɪŋfɪʃər/ &middot; <em>KING-fish-ur</em></dd><dt>Русский</dt><dd>зимородок</dd><dt>Plural</dt><dd><em>kingfishers</em></dd><dt>Countability</dt><dd>countable</dd></dl>
+<p>A brightly colored bird that dives into water to catch fish.</p>
+<ol><li>A <em>kingfisher</em> was perched on a branch over the creek.</li><li><em>Kingfishers</em> hunt by dropping straight into the water.</li><li>The <em>kingfisher</em> rattled as it flew downstream.</li></ol>
+<hr>
+<h3 id="puffin">puffin<a class="hash" href="#puffin" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/ˈpʌfɪn/ &middot; <em>PUF-in</em></dd><dt>Русский</dt><dd>тупик (птица)</dd><dt>Plural</dt><dd><em>puffins</em></dd><dt>Countability</dt><dd>countable</dd></dl>
+<p>A small black and white sea bird with a large brightly striped bill.</p>
+<ol><li>We took a boat out to see the <em>puffins</em>.</li><li>A <em>puffin</em> landed with three fish in its beak.</li><li><em>Puffins</em> nest in burrows on the cliffs.</li></ol>
+<hr>
+<h3 id="albatross">albatross<a class="hash" href="#albatross" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/ˈælbətrɔːs/ &middot; <em>AL-buh-traws</em></dd><dt>Русский</dt><dd>альбатрос</dd><dt>Plural</dt><dd><em>albatrosses</em></dd><dt>Countability</dt><dd>countable</dd></dl>
+<p>A very large sea bird with long narrow wings that glides for hours.</p>
+<ol><li>An <em>albatross</em> followed the ship for two days.</li><li><em>Albatrosses</em> can glide for hours without flapping.</li><li>The <em>albatross</em> has the longest wingspan of any bird.</li></ol>
+<hr>
+<h3 id="condor">condor<a class="hash" href="#condor" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/ˈkɑːndɔːr/ &middot; <em>KAHN-dor</em></dd><dt>Русский</dt><dd>кондор</dd><dt>Plural</dt><dd><em>condors</em></dd><dt>Countability</dt><dd>countable</dd></dl>
+<p>A very large vulture of the American mountains.</p>
+<ol><li>A wild <em>condor</em> passed right over the canyon rim.</li><li>There were only a couple dozen <em>condors</em> left in the wild.</li><li>The <em>condor</em> is slowly coming back from near extinction.</li></ol>
+<hr>
+<h3 id="buzzard">buzzard<a class="hash" href="#buzzard" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/ˈbʌzərd/ &middot; <em>BUZ-urd</em></dd><dt>Русский</dt><dd>канюк; амер. гриф-падальщик</dd><dt>Plural</dt><dd><em>buzzards</em></dd><dt>Countability</dt><dd>countable</dd><dt>Contrast</dt><dd>In American English a buzzard is usually a vulture; in British English it is a kind of hawk.</dd></dl>
+<p>A broad-winged bird of prey; in American usage often a vulture.</p>
+<ol><li>A <em>buzzard</em> was picking at something on the shoulder of the road.</li><li><em>Buzzards</em> were circling over the field all afternoon.</li><li>The <em>buzzard</em> took off when the truck came around the bend.</li></ol>
+<hr>
+<h3 id="osprey">osprey<a class="hash" href="#osprey" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/ˈɑːspri/ &middot; <em>AH-spree</em></dd><dt>Русский</dt><dd>скопа</dd><dt>Plural</dt><dd><em>ospreys</em></dd><dt>Countability</dt><dd>countable</dd></dl>
+<p>A large fish-eating bird of prey found near water.</p>
+<ol><li>An <em>osprey</em> dropped feet first into the lake and came up with a fish.</li><li><em>Ospreys</em> build huge nests on top of power poles.</li><li>The <em>osprey</em> has been fishing this stretch of river all summer.</li></ol>
+<hr>
+<h3 id="emu">emu<a class="hash" href="#emu" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/ˈiːmjuː/ &middot; <em>EE-myoo</em></dd><dt>Русский</dt><dd>эму</dd><dt>Plural</dt><dd><em>emus</em></dd><dt>Countability</dt><dd>countable</dd></dl>
+<p>A large flightless Australian bird, second in height only to the ostrich.</p>
+<ol><li>An <em>emu</em> got loose from the farm and walked down the highway.</li><li><em>Emus</em> are the second tallest birds in the world.</li><li>The <em>emu</em> pecked at my shoelaces.</li></ol>
+<hr>
+<h3 id="toucan">toucan<a class="hash" href="#toucan" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/ˈtuːkæn/ &middot; <em>TOO-kan</em></dd><dt>Русский</dt><dd>тукан</dd><dt>Plural</dt><dd><em>toucans</em></dd><dt>Countability</dt><dd>countable</dd><dt>Contrast</dt><dd>Sounds like the words two can: TOO-kan.</dd></dl>
+<p>A tropical American bird with an enormous colorful bill.</p>
+<ol><li>A <em>toucan</em> landed in the tree above our table.</li><li><em>Toucans</em> use that huge bill to reach fruit on thin branches.</li><li>The <em>toucan</em> tossed the berry into the air and caught it.</li></ol>
+<hr>
+<h3 id="rooster">rooster<a class="hash" href="#rooster" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/ˈruːstər/ &middot; <em>ROO-stur</em></dd><dt>Русский</dt><dd>петух</dd><dt>Plural</dt><dd><em>roosters</em></dd><dt>Countability</dt><dd>countable</dd><dt>Contrast</dt><dd>American English says rooster; British English usually says cock or cockerel.</dd></dl>
+<p>An adult male chicken.</p>
+<ol><li>The <em>rooster</em> starts crowing around four in the morning.</li><li>They keep one <em>rooster</em> and a dozen hens.</li><li>Two <em>roosters</em> in the same pen is asking for a fight.</li></ol>
+<hr>
+<h3 id="hen">hen<a class="hash" href="#hen" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/hen/ &middot; <em>HEN</em></dd><dt>Русский</dt><dd>курица (несушка)</dd><dt>Plural</dt><dd><em>hens</em></dd><dt>Countability</dt><dd>countable</dd></dl>
+<p>An adult female chicken, or the female of some other birds.</p>
+<ol><li>One <em>hen</em> is laying an egg almost every day.</li><li>The <em>hens</em> got out and were all over the driveway.</li><li>A <em>hen</em> will sit on the eggs for about three weeks.</li></ol>
+<hr>
+<h3 id="chick">chick<a class="hash" href="#chick" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/tʃɪk/ &middot; <em>CHIK</em></dd><dt>Русский</dt><dd>птенец, цыплёнок</dd><dt>Plural</dt><dd><em>chicks</em></dd><dt>Countability</dt><dd>countable</dd></dl>
+<p>A very young bird, especially a young chicken.</p>
+<ol><li>A <em>chick</em> poked its head out of the shell.</li><li>All twelve <em>chicks</em> hatched over two days.</li><li>The mother bird kept bringing worms back to the <em>chick</em>.</li></ol>
+<hr>
+<h3 id="duckling">duckling<a class="hash" href="#duckling" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/ˈdʌklɪŋ/ &middot; <em>DUK-ling</em></dd><dt>Русский</dt><dd>утёнок</dd><dt>Plural</dt><dd><em>ducklings</em></dd><dt>Countability</dt><dd>countable</dd></dl>
+<p>A young duck.</p>
+<ol><li>A <em>duckling</em> was trailing behind the others.</li><li>Nine <em>ducklings</em> followed their mother into the water.</li><li>The <em>duckling</em> was all fuzz and feet.</li></ol>
+<hr>
+<h3 id="gosling">gosling<a class="hash" href="#gosling" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/ˈɡɑːzlɪŋ/ &middot; <em>GAHZ-ling</em></dd><dt>Русский</dt><dd>гусёнок</dd><dt>Plural</dt><dd><em>goslings</em></dd><dt>Countability</dt><dd>countable</dd><dt>Contrast</dt><dd>The o is /ɑː/, not the /uː/ of goose: GAHZ-ling.</dd></dl>
+<p>A young goose.</p>
+<ol><li>A <em>gosling</em> was grazing on the lawn by the pond.</li><li>The geese hissed whenever anyone got near the <em>goslings</em>.</li><li>That <em>gosling</em> is almost as big as its parents now.</li></ol>
+<hr>
+<h3 id="cygnet">cygnet<a class="hash" href="#cygnet" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/ˈsɪɡnɪt/ &middot; <em>SIG-nit</em></dd><dt>Русский</dt><dd>лебедёнок</dd><dt>Plural</dt><dd><em>cygnets</em></dd><dt>Countability</dt><dd>countable</dd><dt>Contrast</dt><dd>Sounds exactly like signet (a signet ring): the c is /s/ and the g is hard.</dd></dl>
+<p>A young swan.</p>
+<ol><li>A <em>cygnet</em> is gray for the first year.</li><li>The pair had five <em>cygnets</em> riding on their backs.</li><li>The <em>cygnet</em> stayed close to its mother the whole time.</li></ol>
+<hr>
+<h3 id="drake">drake<a class="hash" href="#drake" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/dreɪk/ &middot; <em>DRAYK</em></dd><dt>Русский</dt><dd>селезень</dd><dt>Plural</dt><dd><em>drakes</em></dd><dt>Countability</dt><dd>countable</dd></dl>
+<p>A male duck.</p>
+<ol><li>The <em>drake</em> has the green head; the female is brown.</li><li>Two <em>drakes</em> were chasing each other across the pond.</li><li>A <em>drake</em> landed in the decoys about twenty yards out.</li></ol>
+<hr>
+<h3 id="gander">gander<a class="hash" href="#gander" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/ˈɡændər/ &middot; <em>GAN-dur</em></dd><dt>Русский</dt><dd>гусак</dd><dt>Plural</dt><dd><em>ganders</em></dd><dt>Countability</dt><dd>countable</dd></dl>
+<p>A male goose.</p>
+<ol><li>The <em>gander</em> hissed and came at me with his neck out.</li><li>One <em>gander</em> can guard a whole yard.</li><li>The <em>ganders</em> were fighting over territory by the water.</li></ol>
+<hr>
+<h3 id="mockingbird">mockingbird<a class="hash" href="#mockingbird" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/ˈmɑːkɪŋbɜːrd/ &middot; <em>MAH-king-burd</em></dd><dt>Русский</dt><dd>пересмешник</dd><dt>Plural</dt><dd><em>mockingbirds</em></dd><dt>Countability</dt><dd>countable</dd></dl>
+<p>A gray North American songbird that imitates other birds and sounds.</p>
+<ol><li>A <em>mockingbird</em> sang outside my window until two in the morning.</li><li><em>Mockingbirds</em> can copy car alarms and cell phones.</li><li>The <em>mockingbird</em> dive-bombed the cat.</li></ol>
+<hr>
+<h3 id="chickadee">chickadee<a class="hash" href="#chickadee" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/ˈtʃɪkədiː/ &middot; <em>CHIK-uh-dee</em></dd><dt>Русский</dt><dd>гаичка, синица (сев.-амер.)</dd><dt>Plural</dt><dd><em>chickadees</em></dd><dt>Countability</dt><dd>countable</dd></dl>
+<p>A small North American bird with a black cap, named for its call.</p>
+<ol><li>A <em>chickadee</em> grabbed one seed and flew off with it.</li><li><em>Chickadees</em> stay all winter, even in the cold.</li><li>The <em>chickadee</em> landed right on my hand.</li></ol>
+<hr>
+<h3 id="loon">loon<a class="hash" href="#loon" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/luːn/ &middot; <em>LOON</em></dd><dt>Русский</dt><dd>гагара</dd><dt>Plural</dt><dd><em>loons</em></dd><dt>Countability</dt><dd>countable</dd></dl>
+<p>A diving water bird of northern lakes with a haunting call.</p>
+<ol><li>A <em>loon</em> called out across the lake at sunset.</li><li><em>Loons</em> dive and stay under for a surprisingly long time.</li><li>We watched a <em>loon</em> carry its chick on its back.</li></ol>
+<hr>
+<h3 id="dodo">dodo<a class="hash" href="#dodo" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/ˈdoʊdoʊ/ &middot; <em>DOH-doh</em></dd><dt>Русский</dt><dd>дронт, додо</dd><dt>Plural</dt><dd><em>dodos</em></dd><dt>Countability</dt><dd>countable</dd></dl>
+<p>A large flightless bird that died out in the seventeenth century.</p>
+<ol><li>The <em>dodo</em> has been extinct for over three hundred years.</li><li><em>Dodos</em> had no natural predators until sailors arrived.</li><li>The museum has a model of a <em>dodo</em> in the entryway.</li></ol>
+<hr>
+<h3 id="seabird">seabird<a class="hash" href="#seabird" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/ˈsiːbɜːrd/ &middot; <em>SEE-burd</em></dd><dt>Русский</dt><dd>морская птица</dd><dt>Plural</dt><dd><em>seabirds</em></dd><dt>Countability</dt><dd>countable</dd></dl>
+<p>A bird that lives on or near the ocean.</p>
+<ol><li>A <em>seabird</em> was riding the wind above the cliffs.</li><li><em>Seabirds</em> nest by the thousands on that island.</li><li>The oil spill killed every <em>seabird</em> along the coast.</li></ol>
+<hr>
+<h3 id="songbird">songbird<a class="hash" href="#songbird" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/ˈsɔːŋbɜːrd/ &middot; <em>SAWNG-burd</em></dd><dt>Русский</dt><dd>певчая птица</dd><dt>Plural</dt><dd><em>songbirds</em></dd><dt>Countability</dt><dd>countable</dd></dl>
+<p>A bird known for its musical call.</p>
+<ol><li>A <em>songbird</em> woke us up at first light.</li><li><em>Songbirds</em> are disappearing from a lot of the country.</li><li>The cat has killed more than one <em>songbird</em> this summer.</li></ol>
+<hr>
+<h3 id="waterfowl">waterfowl<a class="hash" href="#waterfowl" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/ˈwɔːtərfaʊl/ &middot; <em>WAW-tur-fowl</em></dd><dt>Русский</dt><dd>водоплавающая птица</dd><dt>Plural</dt><dd><em>waterfowl</em></dd><dt>Countability</dt><dd>countable</dd><dt>Contrast</dt><dd>The plural is normally waterfowl, unchanged — not waterfowls.</dd></dl>
+<p>A bird that swims and lives on water, such as a duck or a goose.</p>
+<ol><li>The refuge protects <em>waterfowl</em> on their way south.</li><li>A single <em>waterfowl</em> was left on the frozen pond.</li><li>Hunting <em>waterfowl</em> here requires a separate permit.</li></ol>
+<hr>
+<h3 id="fowl">fowl<a class="hash" href="#fowl" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/faʊl/ &middot; <em>FOWL</em></dd><dt>Русский</dt><dd>домашняя или дикая птица (как дичь)</dd><dt>Plural</dt><dd><em>fowl</em></dd><dt>Countability</dt><dd>countable</dd><dt>Contrast</dt><dd>Sounds exactly like foul (unfair, disgusting), and the plural is usually fowl, unchanged.</dd></dl>
+<p>A bird kept for meat and eggs, or a wild bird hunted for food.</p>
+<ol><li>The pond was full of wild <em>fowl</em>.</li><li>They keep a few <em>fowl</em> out behind the barn.</li><li>The recipe works with any kind of <em>fowl</em>.</li></ol>
+<hr>
+<h3 id="raptor">raptor<a class="hash" href="#raptor" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/ˈræptər/ &middot; <em>RAP-tur</em></dd><dt>Русский</dt><dd>хищная птица</dd><dt>Plural</dt><dd><em>raptors</em></dd><dt>Countability</dt><dd>countable</dd></dl>
+<p>A bird that hunts other animals, such as a hawk, eagle, or owl.</p>
+<ol><li>A <em>raptor</em> was perched on the light pole over the interstate.</li><li><em>Raptors</em> have hooked beaks and very sharp talons.</li><li>The center takes in injured <em>raptors</em> and releases them.</li></ol>
+<hr>
+<h3 id="bird-of-prey">bird of prey<a class="hash" href="#bird-of-prey" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/ˌbɜːrd əv ˈpreɪ/ &middot; <em>burd-uv-PRAY</em></dd><dt>Русский</dt><dd>хищная птица</dd><dt>Plural</dt><dd><em>birds of prey</em></dd><dt>Countability</dt><dd>countable</dd><dt>Contrast</dt><dd>The plural is birds of prey — the s goes on bird, not on prey.</dd></dl>
+<p>A bird that kills and eats other animals.</p>
+<ol><li>A <em>bird of prey</em> was working the field along the fence line.</li><li>Hawks, eagles, and owls are all <em>birds of prey</em>.</li><li>The <em>bird of prey</em> dropped on the mouse without a sound.</li></ol>
+<hr>
+<h3 id="feather">feather<a class="hash" href="#feather" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/ˈfeðər/ &middot; <em>FE-thur</em></dd><dt>Русский</dt><dd>перо</dd><dt>Plural</dt><dd><em>feathers</em></dd><dt>Countability</dt><dd>countable</dd><dt>Contrast</dt><dd>The ea is short: FE-thur, rhyming with weather, not with either.</dd></dl>
+<p>One of the light growths that cover a bird's body.</p>
+<ol><li>A single <em>feather</em> drifted down onto the deck.</li><li>The pillow is stuffed with duck <em>feathers</em>.</li><li>She found a blue jay <em>feather</em> on the trail.</li></ol>
+<hr>
+<h3 id="wingspan">wingspan<a class="hash" href="#wingspan" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/ˈwɪŋspæn/ &middot; <em>WING-span</em></dd><dt>Русский</dt><dd>размах крыльев</dd><dt>Plural</dt><dd><em>wingspans</em></dd><dt>Countability</dt><dd>countable</dd></dl>
+<p>The distance from the tip of one wing to the tip of the other.</p>
+<ol><li>That eagle had a six-foot <em>wingspan</em>.</li><li>A condor has the biggest <em>wingspan</em> of any bird on the continent.</li><li>Their <em>wingspans</em> can reach almost ten feet.</li></ol>
+<hr>
+<h3 id="beak">beak<a class="hash" href="#beak" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/biːk/ &middot; <em>BEEK</em></dd><dt>Русский</dt><dd>клюв</dd><dt>Plural</dt><dd><em>beaks</em></dd><dt>Countability</dt><dd>countable</dd></dl>
+<p>The hard pointed mouth part of a bird.</p>
+<ol><li>The bird had a worm in its <em>beak</em>.</li><li>Parrots crack seeds with their <em>beaks</em>.</li><li>It cleaned its feathers with the tip of its <em>beak</em>.</li></ol>
+<hr>
+<h3 id="bill">bill<a class="hash" href="#bill" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/bɪl/ &middot; <em>BIL</em></dd><dt>Русский</dt><dd>клюв (плоский, у водоплавающих)</dd><dt>Plural</dt><dd><em>bills</em></dd><dt>Countability</dt><dd>countable</dd><dt>Contrast</dt><dd>The same word also means a bill you pay and, in American English, a banknote (a ten-dollar bill).</dd></dl>
+<p>A bird's beak, especially a flat wide one.</p>
+<ol><li>A duck's <em>bill</em> is flat and wide.</li><li>The pelican's <em>bill</em> holds more than its stomach does.</li><li>Some birds have long, curved <em>bills</em> for reaching into flowers.</li></ol>
+<hr>
+<h3 id="talon">talon<a class="hash" href="#talon" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/ˈtælən/ &middot; <em>TAL-un</em></dd><dt>Русский</dt><dd>коготь (хищной птицы)</dd><dt>Plural</dt><dd><em>talons</em></dd><dt>Countability</dt><dd>countable</dd></dl>
+<p>A claw on a bird of prey.</p>
+<ol><li>The hawk sank a <em>talon</em> into the rabbit.</li><li>Owls carry prey in their <em>talons</em>.</li><li>One <em>talon</em> was broken off at the tip.</li></ol>
+<hr>
+<h3 id="crest">crest<a class="hash" href="#crest" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/krest/ &middot; <em>KREST</em></dd><dt>Русский</dt><dd>хохолок, гребень</dd><dt>Plural</dt><dd><em>crests</em></dd><dt>Countability</dt><dd>countable</dd></dl>
+<p>A tuft of feathers on top of a bird's head.</p>
+<ol><li>The bird raised its <em>crest</em> when it got excited.</li><li>Cardinals have a pointed <em>crest</em> on the head.</li><li>Both <em>crests</em> went up the moment the dog appeared.</li></ol>
+<hr>
+<h3 id="plumage">plumage<a class="hash" href="#plumage" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/ˈpluːmɪdʒ/ &middot; <em>PLOO-mij</em></dd><dt>Русский</dt><dd>оперение</dd><dt>Countability</dt><dd>uncountable</dd><dt>Contrast</dt><dd>Uncountable: bright plumage, never a plumage or plumages.</dd></dl>
+<p>All the feathers covering a bird.</p>
+<ol><li>The male's <em>plumage</em> is much brighter than the female's.</li><li>Winter <em>plumage</em> is duller and better for hiding.</li><li>Its <em>plumage</em> was still wet from the rain.</li></ol>
+<hr>
+<h3 id="down">down<a class="hash" href="#down" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/daʊn/ &middot; <em>DOWN</em></dd><dt>Русский</dt><dd>пух</dd><dt>Countability</dt><dd>uncountable</dd><dt>Contrast</dt><dd>Uncountable: some down, never a down or downs. Spelled like the direction word down.</dd></dl>
+<p>The soft fine feathers under a bird's outer feathers.</p>
+<ol><li>The chicks are covered in soft gray <em>down</em>.</li><li>The jacket is filled with goose <em>down</em>.</li><li><em>Down</em> is warmer than any synthetic filling.</li></ol>
+<hr>
+<h3 id="quill">quill<a class="hash" href="#quill" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/kwɪl/ &middot; <em>KWIL</em></dd><dt>Русский</dt><dd>маховое перо; гусиное перо (для письма)</dd><dt>Plural</dt><dd><em>quills</em></dd><dt>Countability</dt><dd>countable</dd></dl>
+<p>A large stiff feather, or a pen made from one.</p>
+<ol><li>A single <em>quill</em> had fallen out of the wing.</li><li>People used to write with goose <em>quills</em>.</li><li>The <em>quill</em> was stiff and hollow at the base.</li></ol>
+<hr>
+<h3 id="migration">migration<a class="hash" href="#migration" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/maɪˈɡreɪʃən/ &middot; <em>my-GRAY-shun</em></dd><dt>Русский</dt><dd>миграция, перелёт (птиц)</dd><dt>Plural</dt><dd><em>migrations</em></dd><dt>Countability</dt><dd>countable</dd></dl>
+<p>The seasonal journey birds make from one region to another.</p>
+<ol><li>The fall <em>migration</em> starts in late August.</li><li>Their yearly <em>migration</em> covers eight thousand miles.</li><li>Storms can throw whole <em>migrations</em> off course.</li></ol>
+<hr>
+<h3 id="flight">flight<a class="hash" href="#flight" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/flaɪt/ &middot; <em>FLYT</em></dd><dt>Русский</dt><dd>полёт</dd><dt>Plural</dt><dd><em>flights</em></dd><dt>Countability</dt><dd>countable</dd></dl>
+<p>The act or manner of flying through the air.</p>
+<ol><li>The owl's <em>flight</em> is completely silent.</li><li>We tracked the bird's <em>flight</em> until it went behind the trees.</li><li>A pelican's <em>flight</em> looks awkward until it hits the water.</li></ol>
+<hr>
+<h3 id="roost">roost<a class="hash" href="#roost" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/ruːst/ &middot; <em>ROOST</em></dd><dt>Русский</dt><dd>насест</dd><dt>Plural</dt><dd><em>roosts</em></dd><dt>Countability</dt><dd>countable</dd></dl>
+<p>A branch, bar, or place where birds settle to sleep.</p>
+<ol><li>The chickens went back to the <em>roost</em> at dusk.</li><li>Crows use the same <em>roost</em> every night.</li><li>There were a hundred birds on that one <em>roost</em>.</li></ol>
+<hr>
+<h3 id="molt">molt<a class="hash" href="#molt" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/moʊlt/ &middot; <em>MOHLT</em></dd><dt>Русский</dt><dd>линька</dd><dt>Plural</dt><dd><em>molts</em></dd><dt>Countability</dt><dd>countable</dd><dt>Contrast</dt><dd>American spelling molt; British English writes moult, said the same way.</dd></dl>
+<p>The period when a bird sheds old feathers and grows new ones.</p>
+<ol><li>The annual <em>molt</em> leaves them looking half bald.</li><li>Most ducks go through one <em>molt</em> a year.</li><li>After the <em>molt</em>, the feathers come in bright again.</li></ol>
+<hr>
+<h3 id="chirp">chirp<a class="hash" href="#chirp" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/tʃɜːrp/ &middot; <em>CHURP</em></dd><dt>Русский</dt><dd>чириканье, щебет</dd><dt>Plural</dt><dd><em>chirps</em></dd><dt>Countability</dt><dd>countable</dd></dl>
+<p>A short high sound made by a small bird.</p>
+<ol><li>There was a <em>chirp</em> from somewhere in the bushes.</li><li>You could hear the <em>chirps</em> of the chicks inside the box.</li><li>One sharp <em>chirp</em> and the whole flock lifted off.</li></ol>
+<hr>
+<h3 id="tweet">tweet<a class="hash" href="#tweet" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/twiːt/ &middot; <em>TWEET</em></dd><dt>Русский</dt><dd>чирик, щебет</dd><dt>Plural</dt><dd><em>tweets</em></dd><dt>Countability</dt><dd>countable</dd><dt>Contrast</dt><dd>Far more common now as an online post, but the bird sound is the original meaning.</dd></dl>
+<p>A short high sound made by a small bird.</p>
+<ol><li>A <em>tweet</em> came from the nest above the door.</li><li>The little <em>tweets</em> got louder when the mother came back.</li><li>I heard one <em>tweet</em> and then nothing.</li></ol>
+<hr>
+<h3 id="birdsong">birdsong<a class="hash" href="#birdsong" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/ˈbɜːrdsɔːŋ/ &middot; <em>BURD-sawng</em></dd><dt>Русский</dt><dd>пение птиц</dd><dt>Countability</dt><dd>uncountable</dd><dt>Contrast</dt><dd>Uncountable: a lot of birdsong, never a birdsong or birdsongs.</dd></dl>
+<p>The musical sound made by singing birds.</p>
+<ol><li>The morning was full of <em>birdsong</em>.</li><li><em>Birdsong</em> woke me up before my alarm did.</li><li>You can barely hear the <em>birdsong</em> over the traffic.</li></ol>
+<hr>
+<h3 id="birdcall">birdcall<a class="hash" href="#birdcall" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/ˈbɜːrdkɔːl/ &middot; <em>BURD-kawl</em></dd><dt>Русский</dt><dd>птичий крик; манок</dd><dt>Plural</dt><dd><em>birdcalls</em></dd><dt>Countability</dt><dd>countable</dd></dl>
+<p>The characteristic cry of a particular bird, or a device that imitates it.</p>
+<ol><li>He can imitate almost any <em>birdcall</em>.</li><li>The app identifies <em>birdcalls</em> from a recording.</li><li>That <em>birdcall</em> belongs to a barred owl.</li></ol>
+<hr>
+<h3 id="hoot">hoot<a class="hash" href="#hoot" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/huːt/ &middot; <em>HOOT</em></dd><dt>Русский</dt><dd>уханье (совы)</dd><dt>Plural</dt><dd><em>hoots</em></dd><dt>Countability</dt><dd>countable</dd></dl>
+<p>The low call of an owl.</p>
+<ol><li>A <em>hoot</em> came from the woods behind the house.</li><li>We counted four <em>hoots</em> and then silence.</li><li>The owl gave one long <em>hoot</em> and flew off.</li></ol>
+<hr>
+<h3 id="caw">caw<a class="hash" href="#caw" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/kɔː/ &middot; <em>KAW</em></dd><dt>Русский</dt><dd>карканье</dd><dt>Plural</dt><dd><em>caws</em></dd><dt>Countability</dt><dd>countable</dd></dl>
+<p>The harsh cry of a crow or rook.</p>
+<ol><li>A single <em>caw</em> echoed across the field.</li><li>The <em>caws</em> got louder as more crows arrived.</li><li>One <em>caw</em> from the lookout and the flock was gone.</li></ol>
+<hr>
+<h3 id="quack">quack<a class="hash" href="#quack" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/kwæk/ &middot; <em>KWAK</em></dd><dt>Русский</dt><dd>кряканье</dd><dt>Plural</dt><dd><em>quacks</em></dd><dt>Countability</dt><dd>countable</dd></dl>
+<p>The sound a duck makes.</p>
+<ol><li>We heard a <em>quack</em> from the reeds.</li><li>The <em>quacks</em> got frantic when the bread came out.</li><li>A loud <em>quack</em> woke the whole campsite.</li></ol>
+<hr>
+<h3 id="cluck">cluck<a class="hash" href="#cluck" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/klʌk/ &middot; <em>KLUK</em></dd><dt>Русский</dt><dd>кудахтанье</dd><dt>Plural</dt><dd><em>clucks</em></dd><dt>Countability</dt><dd>countable</dd></dl>
+<p>The short low sound a hen makes.</p>
+<ol><li>There was a soft <em>cluck</em> from inside the coop.</li><li>The <em>clucks</em> stopped the second the door opened.</li><li>A hen gives a low <em>cluck</em> to call her chicks.</li></ol>
+<hr>
+<h3 id="squawk">squawk<a class="hash" href="#squawk" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/skwɔːk/ &middot; <em>SKWAWK</em></dd><dt>Русский</dt><dd>резкий крик (птицы)</dd><dt>Plural</dt><dd><em>squawks</em></dd><dt>Countability</dt><dd>countable</dd></dl>
+<p>A loud harsh cry made by a bird.</p>
+<ol><li>The parrot let out a <em>squawk</em> that made everyone jump.</li><li>The gulls answered with <em>squawks</em> from all over the roof.</li><li>She heard a <em>squawk</em> and found the cat under the birdcage.</li></ol>
+<hr>
+<h3 id="screech">screech<a class="hash" href="#screech" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/skriːtʃ/ &middot; <em>SKREECH</em></dd><dt>Русский</dt><dd>визгливый крик, вопль</dd><dt>Plural</dt><dd><em>screeches</em></dd><dt>Countability</dt><dd>countable</dd></dl>
+<p>A loud, high, unpleasant cry.</p>
+<ol><li>The owl let out a <em>screech</em> that carried across the whole valley.</li><li>The <em>screeches</em> went on most of the night.</li><li>That <em>screech</em> is a barn owl, not a person.</li></ol>
+<hr>
+<h3 id="coo">coo<a class="hash" href="#coo" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/kuː/ &middot; <em>KOO</em></dd><dt>Русский</dt><dd>воркование</dd><dt>Plural</dt><dd><em>coos</em></dd><dt>Countability</dt><dd>countable</dd></dl>
+<p>The soft low sound a dove or pigeon makes.</p>
+<ol><li>There was a soft <em>coo</em> from the ledge above the window.</li><li>The <em>coos</em> of the pigeons carried down the alley.</li><li>He heard a low <em>coo</em> and found a dove on the sill.</li></ol>
+<hr>
+<h3 id="hatchling">hatchling<a class="hash" href="#hatchling" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/ˈhætʃlɪŋ/ &middot; <em>HACH-ling</em></dd><dt>Русский</dt><dd>только что вылупившийся птенец</dd><dt>Plural</dt><dd><em>hatchlings</em></dd><dt>Countability</dt><dd>countable</dd></dl>
+<p>A bird that has just come out of its egg.</p>
+<ol><li>The <em>hatchling</em> was blind and completely bald.</li><li>All six <em>hatchlings</em> need feeding every twenty minutes.</li><li>A <em>hatchling</em> cannot keep itself warm.</li></ol>
+<hr>
+<h3 id="fledgling">fledgling<a class="hash" href="#fledgling" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/ˈfledʒlɪŋ/ &middot; <em>FLEJ-ling</em></dd><dt>Русский</dt><dd>слёток, оперившийся птенец</dd><dt>Plural</dt><dd><em>fledglings</em></dd><dt>Countability</dt><dd>countable</dd></dl>
+<p>A young bird that has just grown its flight feathers.</p>
+<ol><li>A <em>fledgling</em> was hopping around the yard, unable to fly yet.</li><li><em>Fledglings</em> often look abandoned when the parents are close by.</li><li>The <em>fledgling</em> finally made it up onto the fence.</li></ol>
+<hr>
+<h3 id="birdwatching">birdwatching<a class="hash" href="#birdwatching" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/ˈbɜːrdwɑːtʃɪŋ/ &middot; <em>BURD-wah-ching</em></dd><dt>Русский</dt><dd>наблюдение за птицами</dd><dt>Countability</dt><dd>uncountable</dd><dt>Contrast</dt><dd>Uncountable: some birdwatching, never a birdwatching.</dd></dl>
+<p>The hobby of looking for and identifying wild birds.</p>
+<ol><li>He got into <em>birdwatching</em> after he retired.</li><li><em>Birdwatching</em> is a lot more work than it sounds.</li><li>We do a little <em>birdwatching</em> whenever we are at the coast.</li></ol>
+<hr>
+<h3 id="birder">birder<a class="hash" href="#birder" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/ˈbɜːrdər/ &middot; <em>BUR-dur</em></dd><dt>Русский</dt><dd>любитель наблюдать за птицами, бёрдер</dd><dt>Plural</dt><dd><em>birders</em></dd><dt>Countability</dt><dd>countable</dd></dl>
+<p>Someone whose hobby is finding and identifying wild birds.</p>
+<ol><li>A <em>birder</em> stopped us on the trail to point out an owl.</li><li><em>Birders</em> line up at the marsh before sunrise.</li><li>She is a serious <em>birder</em> with a life list of six hundred.</li></ol>
+<hr>
+<h3 id="ornithology">ornithology<a class="hash" href="#ornithology" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/ˌɔːrnəˈθɑːlədʒi/ &middot; <em>or-nuh-THAH-luh-jee</em></dd><dt>Русский</dt><dd>орнитология</dd><dt>Countability</dt><dd>uncountable</dd><dt>Contrast</dt><dd>Stress on the third syllable: or-nuh-THAH-luh-jee, and the th is the sound in thin.</dd></dl>
+<p>The scientific study of birds.</p>
+<ol><li>He studied <em>ornithology</em> in graduate school.</li><li><em>Ornithology</em> has changed a lot since DNA testing.</li><li>She teaches <em>ornithology</em> at the state university.</li></ol>
+<hr>
+<h3 id="ornithologist">ornithologist<a class="hash" href="#ornithologist" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/ˌɔːrnəˈθɑːlədʒɪst/ &middot; <em>or-nuh-THAH-luh-jist</em></dd><dt>Русский</dt><dd>орнитолог</dd><dt>Plural</dt><dd><em>ornithologists</em></dd><dt>Countability</dt><dd>countable</dd></dl>
+<p>A scientist who studies birds.</p>
+<ol><li>An <em>ornithologist</em> came out to band the chicks.</li><li>Two <em>ornithologists</em> spent the summer counting nests.</li><li>The <em>ornithologist</em> identified the bird from a five-second recording.</li></ol>
+<hr>
+<h3 id="aviary">aviary<a class="hash" href="#aviary" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/ˈeɪvieri/ &middot; <em>AY-vee-air-ee</em></dd><dt>Русский</dt><dd>вольер для птиц, птичник</dd><dt>Plural</dt><dd><em>aviaries</em></dd><dt>Countability</dt><dd>countable</dd></dl>
+<p>A large cage or building where birds are kept.</p>
+<ol><li>The zoo's <em>aviary</em> is under a huge net.</li><li>You can walk right through the <em>aviary</em> and the birds land on you.</li><li>Both <em>aviaries</em> were closed for cleaning.</li></ol>
+<hr>
+<h3 id="birdcage">birdcage<a class="hash" href="#birdcage" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/ˈbɜːrdkeɪdʒ/ &middot; <em>BURD-kayj</em></dd><dt>Русский</dt><dd>птичья клетка</dd><dt>Plural</dt><dd><em>birdcages</em></dd><dt>Countability</dt><dd>countable</dd></dl>
+<p>A cage for keeping a pet bird.</p>
+<ol><li>The <em>birdcage</em> hangs in the corner by the window.</li><li>He cleans the <em>birdcage</em> every Saturday.</li><li>There were two empty <em>birdcages</em> in the garage.</li></ol>
+<hr>
+<h3 id="birdhouse">birdhouse<a class="hash" href="#birdhouse" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/ˈbɜːrdhaʊs/ &middot; <em>BURD-hows</em></dd><dt>Русский</dt><dd>скворечник</dd><dt>Plural</dt><dd><em>birdhouses</em></dd><dt>Countability</dt><dd>countable</dd></dl>
+<p>A small wooden box put up outdoors for wild birds to nest in.</p>
+<ol><li>We nailed a <em>birdhouse</em> to the fence post.</li><li>Something is nesting in the <em>birdhouse</em> already.</li><li>He builds <em>birdhouses</em> out of scrap lumber.</li></ol>
+<hr>
+<h3 id="birdbath">birdbath<a class="hash" href="#birdbath" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/ˈbɜːrdbæθ/ &middot; <em>BURD-bath</em></dd><dt>Русский</dt><dd>птичья купальня (чаша с водой в саду)</dd><dt>Plural</dt><dd><em>birdbaths</em></dd><dt>Countability</dt><dd>countable</dd></dl>
+<p>A shallow basin of water in a yard for birds to drink and wash in.</p>
+<ol><li>The <em>birdbath</em> freezes solid in January.</li><li>Three sparrows were splashing around in the <em>birdbath</em>.</li><li>Change the water in the <em>birdbath</em> every couple of days.</li></ol>
+<hr>
+<h3 id="birdseed">birdseed<a class="hash" href="#birdseed" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/ˈbɜːrdsiːd/ &middot; <em>BURD-seed</em></dd><dt>Русский</dt><dd>корм для птиц</dd><dt>Countability</dt><dd>uncountable</dd><dt>Contrast</dt><dd>Uncountable: a bag of birdseed, never a birdseed or birdseeds.</dd></dl>
+<p>A mixture of seeds sold as food for birds.</p>
+<ol><li>We are out of <em>birdseed</em> again.</li><li>The squirrels get more <em>birdseed</em> than the birds do.</li><li>A twenty-pound bag of <em>birdseed</em> lasts about a month.</li></ol>
+<hr>
+<h3 id="bird-feeder">bird feeder<a class="hash" href="#bird-feeder" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/ˈbɜːrd ˌfiːdər/ &middot; <em>BURD-fee-dur</em></dd><dt>Русский</dt><dd>кормушка для птиц</dd><dt>Plural</dt><dd><em>bird feeders</em></dd><dt>Countability</dt><dd>countable</dd></dl>
+<p>A container hung outdoors that holds seed for wild birds.</p>
+<ol><li>A bear knocked the <em>bird feeder</em> off the pole.</li><li>We keep two <em>bird feeders</em> going all winter.</li><li>The <em>bird feeder</em> is empty again.</li></ol>
+<hr>
+<h3 id="coop">coop<a class="hash" href="#coop" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/kuːp/ &middot; <em>KOOP</em></dd><dt>Русский</dt><dd>курятник</dd><dt>Plural</dt><dd><em>coops</em></dd><dt>Countability</dt><dd>countable</dd><dt>Contrast</dt><dd>One syllable, KOOP. Do not read it as co-op, a cooperative, which is KOH-ahp.</dd></dl>
+<p>A small building or pen where chickens are kept.</p>
+<ol><li>He locks the <em>coop</em> at night to keep the raccoons out.</li><li>Both <em>coops</em> need new roofs.</li><li>The hens go back into the <em>coop</em> on their own at dusk.</li></ol>
+<hr>
+<h3 id="droppings">droppings<a class="hash" href="#droppings" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/ˈdrɑːpɪŋz/ &middot; <em>DRAH-pingz</em></dd><dt>Русский</dt><dd>птичий помёт</dd><dt>Countability</dt><dd>uncountable</dd><dt>Contrast</dt><dd>Always plural in form: the droppings are, never a dropping.</dd></dl>
+<p>The solid waste that birds and small animals leave behind.</p>
+<ol><li>There were <em>droppings</em> all over the porch railing.</li><li>Bird <em>droppings</em> will eat right through car paint.</li><li>He scraped the <em>droppings</em> off the windshield.</li></ol>
+<hr>
+<h3 id="wishbone">wishbone<a class="hash" href="#wishbone" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/ˈwɪʃboʊn/ &middot; <em>WISH-bohn</em></dd><dt>Русский</dt><dd>вилочка (грудная кость птицы)</dd><dt>Plural</dt><dd><em>wishbones</em></dd><dt>Countability</dt><dd>countable</dd></dl>
+<p>The V-shaped bone in a bird's chest, pulled apart for luck.</p>
+<ol><li>The kids fought over who got to pull the <em>wishbone</em>.</li><li>We dried the <em>wishbone</em> on the windowsill.</li><li>Two <em>wishbones</em> were still sitting on the counter.</li></ol>
+<hr>
+<h3 id="scarecrow">scarecrow<a class="hash" href="#scarecrow" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/ˈskerkroʊ/ &middot; <em>SKAIR-kroh</em></dd><dt>Русский</dt><dd>пугало</dd><dt>Plural</dt><dd><em>scarecrows</em></dd><dt>Countability</dt><dd>countable</dd></dl>
+<p>A figure dressed in old clothes, put in a field to frighten birds away.</p>
+<ol><li>The <em>scarecrow</em> in the garden has not fooled a single crow.</li><li>They put up two <em>scarecrows</em> along the corn rows.</li><li>The <em>scarecrow</em> was wearing my old jacket.</li></ol>
+<hr>
+<h3 id="pecking-order">pecking order<a class="hash" href="#pecking-order" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/ˈpekɪŋ ˌɔːrdər/ &middot; <em>PEK-ing OR-dur</em></dd><dt>Русский</dt><dd>иерархия, «порядок клевания»</dd><dt>Plural</dt><dd><em>pecking orders</em></dd><dt>Countability</dt><dd>countable</dd></dl>
+<p>The order of rank in a group, originally among hens in a flock.</p>
+<ol><li>There is a clear <em>pecking order</em> in the henhouse.</li><li>New hires figure out the <em>pecking order</em> pretty fast.</li><li>Every team develops a <em>pecking order</em>, whether anyone admits it or not.</li></ol></div></main>
+<button class="themebtn" id="themeBtn">Dark</button>
+<script>
+const tb=document.getElementById('themeBtn');
+function setTheme(x){document.documentElement.dataset.theme=x;tb.textContent=x==='dark'?'Light':'Dark';
+ try{localStorage.setItem('site-theme',x)}catch(e){}}
+tb.onclick=()=>setTheme(document.documentElement.dataset.theme==='dark'?'light':'dark');
+try{const s=localStorage.getItem('site-theme');
+ setTheme(s||(matchMedia('(prefers-color-scheme: dark)').matches?'dark':'light'))}catch(e){setTheme('light')}
+</script></body></html>

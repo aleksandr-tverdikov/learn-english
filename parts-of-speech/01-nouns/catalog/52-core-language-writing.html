@@ -1,0 +1,181 @@
+<!DOCTYPE html>
+<html lang="en"><head>
+<meta charset="utf-8"><meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Core vocabulary: language and writing</title>
+<style>
+:root{--bg:#faf9f7;--surface:#fff;--surface2:#f2f0ec;--border:#e2ded6;--text:#1a1815;
+--dim:#5f594f;--faint:#8a8377;--accent:#8a5a3b;--measure:72ch}
+@media(prefers-color-scheme:dark){:root{--bg:#14140f;--surface:#1d1d17;--surface2:#25251d;
+--border:#33332a;--text:#eeeae1;--dim:#a8a293;--faint:#7d776b;--accent:#d09b72}}
+:root[data-theme=dark]{--bg:#14140f;--surface:#1d1d17;--surface2:#25251d;--border:#33332a;
+--text:#eeeae1;--dim:#a8a293;--faint:#7d776b;--accent:#d09b72}
+:root[data-theme=light]{--bg:#faf9f7;--surface:#fff;--surface2:#f2f0ec;--border:#e2ded6;
+--text:#1a1815;--dim:#5f594f;--faint:#8a8377;--accent:#8a5a3b}
+*{box-sizing:border-box}
+body{margin:0;background:var(--bg);color:var(--text);
+font:17px/1.72 ui-serif,Georgia,"Iowan Old Style",Palatino,serif;-webkit-font-smoothing:antialiased}
+.wrap{max-width:min(var(--measure),100%);margin:0 auto;padding:0 22px}
+nav.crumb{border-bottom:1px solid var(--border);padding:13px 0;font-size:13.5px;
+font-family:-apple-system,BlinkMacSystemFont,"Segoe UI",sans-serif;position:sticky;top:0;background:var(--bg);z-index:20}
+nav.crumb .wrap{max-width:none;display:flex;gap:9px;align-items:center;flex-wrap:wrap}
+nav.crumb a{color:var(--dim);text-decoration:none}
+nav.crumb a:hover{color:var(--accent)}
+nav.crumb .sep{color:var(--faint)}
+main{padding:8px 0 80px}
+h1{font-size:clamp(28px,5vw,38px);line-height:1.15;letter-spacing:-.015em;margin:34px 0 18px}
+h2{font-size:25px;margin:46px 0 14px;letter-spacing:-.01em;padding-bottom:7px;border-bottom:1px solid var(--border)}
+h3{font-size:19px;margin:34px 0 10px;color:var(--accent)}
+h4{font-size:16px;margin:24px 0 8px;font-family:-apple-system,sans-serif}
+p{margin:0 0 16px}
+a{color:var(--accent)}
+.hash{opacity:0;margin-left:8px;font-weight:400;font-size:.65em;text-decoration:none;color:var(--faint)}
+h2:hover .hash,h3:hover .hash{opacity:1}
+blockquote{margin:0 0 20px;padding:14px 18px;background:var(--surface2);
+border-left:3px solid var(--accent);border-radius:0 8px 8px 0}
+blockquote p:last-child{margin-bottom:0}
+ol,ul{margin:0 0 18px;padding-left:26px}
+li{margin-bottom:8px}
+li>ul,li>ol{margin:8px 0 0}
+code{font-family:ui-monospace,SFMono-Regular,Menlo,Consolas,monospace;font-size:.87em;
+background:var(--surface2);padding:1px 5px;border-radius:4px}
+pre{background:var(--surface2);border:1px solid var(--border);border-radius:9px;
+padding:15px 17px;overflow-x:auto;margin:0 0 20px}
+pre code{background:none;padding:0;font-size:13px;line-height:1.6}
+.tw{overflow-x:auto;margin:0 0 22px;border:1px solid var(--border);border-radius:9px}
+table{border-collapse:collapse;width:100%;font-size:15px;
+font-family:-apple-system,BlinkMacSystemFont,"Segoe UI",sans-serif}
+th,td{padding:10px 14px;border-bottom:1px solid var(--border);vertical-align:top}
+th{background:var(--surface2);font-size:12px;text-transform:uppercase;
+letter-spacing:.06em;color:var(--dim);font-weight:700;white-space:nowrap}
+tbody tr:last-child td{border-bottom:none}
+hr{border:none;border-top:1px solid var(--border);margin:38px 0}
+details{background:var(--surface2);border:1px solid var(--border);border-radius:9px;
+padding:13px 17px;margin:0 0 20px}
+summary{cursor:pointer;font-weight:600;font-family:-apple-system,sans-serif;font-size:15px}
+details[open] summary{margin-bottom:12px}
+del{color:var(--faint)}
+dl.fields{margin:0 0 20px;padding:0}
+dl.fields dt{font-family:-apple-system,BlinkMacSystemFont,"Segoe UI",sans-serif;
+font-size:11px;letter-spacing:.11em;text-transform:uppercase;color:var(--faint);
+font-weight:700;margin:14px 0 4px}
+dl.fields dt:first-child{margin-top:0}
+dl.fields dd{margin:0;font-size:16px;color:var(--dim);line-height:1.62}
+dl.fields dd em{color:var(--text)}
+dl.fields dt.ru{color:var(--accent)}
+dl.fields dd strong{color:var(--text)}
+.toc{background:var(--surface2);border:1px solid var(--border);border-radius:10px;
+padding:16px 20px;margin:26px 0 34px;font-family:-apple-system,sans-serif;font-size:14px}
+.toc b{display:block;font-size:11px;letter-spacing:.12em;text-transform:uppercase;
+color:var(--faint);margin-bottom:9px}
+.toc a{display:block;padding:3px 0;color:var(--dim);text-decoration:none}
+.toc a:hover{color:var(--accent)}
+.themebtn{position:fixed;right:18px;bottom:18px;z-index:60;font-family:-apple-system,sans-serif;
+font-size:12.5px;font-weight:600;cursor:pointer;background:var(--surface);border:1px solid var(--border);
+border-radius:99px;padding:9px 16px;color:var(--text)}
+@media(max-width:600px){body{font-size:16px}.wrap{padding:0 17px}}
+</style></head><body>
+<nav class="crumb"><div class="wrap"><a href="../../../index.html">Learn English</a><span class="sep">/</span><a href="../../README.html">Parts of speech</a><span class="sep">/</span><a href="../README.html">01-nouns</a><span class="sep">/</span><span>catalog</span></div></nav>
+<main><div class="wrap"><h1 id="core-vocabulary-language-and-writing">Core vocabulary: language and writing<a class="hash" href="#core-vocabulary-language-and-writing" aria-label="link">#</a></h1>
+<blockquote><p>The everyday nouns of language and writing — pronunciation, Russian, plural, and three examples each.</p></blockquote>
+<p><a href="../README.html">← The grammar of nouns</a> &middot; <a href="README.html">All groups</a></p>
+<p>Part of the <strong>core-vocabulary tier</strong>. Groups 1–23 cover the nouns that misbehave; this tier covers the nouns you simply need to know. Entries are deliberately lean, because a regular countable noun has no grammatical story to tell. A <strong>Contrast</strong> line appears only where the word hides a genuine trap.</p>
+<p>Where a word in this field <em>does</em> misbehave, it lives in the grammar tier instead and is not repeated here.</p>
+<hr>
+<h3 id="marker">marker<a class="hash" href="#marker" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/ˈmɑːrkər/ &middot; <em>MAR-kur</em></dd><dt>Русский</dt><dd>маркер, фломастер</dd><dt>Plural</dt><dd><em>markers</em></dd><dt>Countability</dt><dd>countable</dd><dt>Contrast</dt><dd>American; the British usually say felt-tip or marker pen.</dd></dl>
+<p>A pen with a thick felt tip that writes in bold color.</p>
+<ol><li>Somebody used a permanent <em>marker</em> on the whiteboard.</li><li>Label the box with a black <em>marker</em>.</li><li>Half these <em>markers</em> are dried out.</li></ol>
+<hr>
+<h3 id="highlighter">highlighter<a class="hash" href="#highlighter" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/ˈhaɪlaɪtər/ &middot; <em>HY-ly-tur</em></dd><dt>Русский</dt><dd>маркер-выделитель, текстовыделитель</dd><dt>Plural</dt><dd><em>highlighters</em></dd><dt>Countability</dt><dd>countable</dd></dl>
+<p>A pen with bright see-through ink for marking text you want to find again.</p>
+<ol><li>She went through the contract with a yellow <em>highlighter</em>.</li><li>My <em>highlighter</em> bled through the page.</li><li>I keep three <em>highlighters</em> in different colors.</li></ol>
+<hr>
+<h3 id="crayon">crayon<a class="hash" href="#crayon" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/ˈkreɪɑːn/ &middot; <em>KRAY-ahn</em></dd><dt>Русский</dt><dd>восковой мелок</dd><dt>Plural</dt><dd><em>crayons</em></dd><dt>Countability</dt><dd>countable</dd></dl>
+<p>A stick of colored wax that children draw with.</p>
+<ol><li>He drew the whole family in <em>crayon</em>.</li><li>There's a melted <em>crayon</em> in the back seat.</li><li>The restaurant hands out <em>crayons</em> with the kids' menu.</li></ol>
+<hr>
+<h3 id="ink">ink<a class="hash" href="#ink" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/ɪŋk/ &middot; <em>INGK</em></dd><dt>Русский</dt><dd>чернила</dd><dt>Countability</dt><dd>uncountable</dd></dl>
+<p>The colored liquid that pens and printers write with.</p>
+<ol><li>The printer is out of <em>ink</em> again.</li><li>Sign it in blue or black <em>ink</em>.</li><li>The rain smeared the <em>ink</em> on the envelope.</li></ol>
+<hr>
+<h3 id="stamp">stamp<a class="hash" href="#stamp" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/stæmp/ &middot; <em>STAMP</em></dd><dt>Русский</dt><dd>почтовая марка</dd><dt>Plural</dt><dd><em>stamps</em></dd><dt>Countability</dt><dd>countable</dd></dl>
+<p>A small printed square you stick on mail to pay for delivery.</p>
+<ol><li>This letter needs another <em>stamp</em>.</li><li>He's collected <em>stamps</em> since he was a kid.</li><li>A book of <em>stamps</em> went up in price again.</li></ol>
+<hr>
+<h3 id="punctuation">punctuation<a class="hash" href="#punctuation" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/ˌpʌŋktʃuˈeɪʃən/ &middot; <em>puhngk-choo-AY-shuhn</em></dd><dt>Русский</dt><dd>пунктуация, знаки препинания</dd><dt>Countability</dt><dd>uncountable</dd></dl>
+<p>The marks such as commas and periods that break writing into readable pieces.</p>
+<ol><li>Your <em>punctuation</em> is all over the place in this paragraph.</li><li>The text came through with no <em>punctuation</em> at all.</li><li>We spent a whole week on <em>punctuation</em> rules.</li></ol>
+<hr>
+<h3 id="period">period<a class="hash" href="#period" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/ˈpɪriəd/ &middot; <em>PEER-ee-uhd</em></dd><dt>Русский</dt><dd>точка (знак препинания)</dd><dt>Plural</dt><dd><em>periods</em></dd><dt>Countability</dt><dd>countable</dd><dt>Contrast</dt><dd>American; the British call this mark a full stop.</dd></dl>
+<p>The dot that ends a sentence.</p>
+<ol><li>You forgot the <em>period</em> at the end of that line.</li><li>Put a <em>period</em> there, not a comma.</li><li>He writes in short sentences with a lot of <em>periods</em>.</li></ol>
+<hr>
+<h3 id="comma">comma<a class="hash" href="#comma" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/ˈkɑːmə/ &middot; <em>KAH-muh</em></dd><dt>Русский</dt><dd>запятая</dd><dt>Plural</dt><dd><em>commas</em></dd><dt>Countability</dt><dd>countable</dd></dl>
+<p>The mark that separates parts of a sentence.</p>
+<ol><li>You need a <em>comma</em> before the word and.</li><li>She took out half the <em>commas</em> in my draft.</li><li>One <em>comma</em> changes the whole meaning of that sentence.</li></ol>
+<hr>
+<h3 id="semicolon">semicolon<a class="hash" href="#semicolon" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/ˈsemiˌkoʊlən/ &middot; <em>SEM-ee-koh-luhn</em></dd><dt>Русский</dt><dd>точка с запятой</dd><dt>Plural</dt><dd><em>semicolons</em></dd><dt>Countability</dt><dd>countable</dd></dl>
+<p>The mark that joins two closely related sentences.</p>
+<ol><li>A <em>semicolon</em> would work better than a period there.</li><li>Nobody in the office knows how to use a <em>semicolon</em>.</li><li>Her writing is full of <em>semicolons</em>.</li></ol>
+<hr>
+<h3 id="apostrophe">apostrophe<a class="hash" href="#apostrophe" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/əˈpɑːstrəfi/ &middot; <em>uh-PAHS-truh-fee</em></dd><dt>Русский</dt><dd>апостроф</dd><dt>Plural</dt><dd><em>apostrophes</em></dd><dt>Countability</dt><dd>countable</dd><dt>Contrast</dt><dd>Four syllables with the stress in the middle: uh-PAHS-truh-fee.</dd></dl>
+<p>The raised mark used in contractions and to show possession.</p>
+<ol><li>It's spelled with an <em>apostrophe</em> between the t and the s.</li><li>You left the <em>apostrophe</em> out of don't.</li><li>Ordinary plurals don't take <em>apostrophes</em>.</li></ol>
+<hr>
+<h3 id="hyphen">hyphen<a class="hash" href="#hyphen" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/ˈhaɪfən/ &middot; <em>HY-fuhn</em></dd><dt>Русский</dt><dd>дефис</dd><dt>Plural</dt><dd><em>hyphens</em></dd><dt>Countability</dt><dd>countable</dd><dt>Contrast</dt><dd>A hyphen (-) joins words; the longer dash (—) sets a phrase off from the rest.</dd></dl>
+<p>The short line that joins two words into one.</p>
+<ol><li>Is well-known written with a <em>hyphen</em>?</li><li>Her last name has a <em>hyphen</em> in it.</li><li>American style drops the <em>hyphens</em> in a lot of these words.</li></ol>
+<hr>
+<h3 id="asterisk">asterisk<a class="hash" href="#asterisk" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/ˈæstərɪsk/ &middot; <em>AS-tuh-risk</em></dd><dt>Русский</dt><dd>звёздочка (знак *)</dd><dt>Plural</dt><dd><em>asterisks</em></dd><dt>Countability</dt><dd>countable</dd><dt>Contrast</dt><dd>Ends in -risk: AS-tuh-risk. AS-tuh-riks is a very common slip.</dd></dl>
+<p>The star-shaped mark used to flag a note or an exception.</p>
+<ol><li>The cheap fares all have an <em>asterisk</em> next to them.</li><li>Put an <em>asterisk</em> by the ones you're not sure about.</li><li>The fine print is marked with <em>asterisks</em>.</li></ol>
+<hr>
+<h3 id="slash">slash<a class="hash" href="#slash" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/slæʃ/ &middot; <em>SLASH</em></dd><dt>Русский</dt><dd>косая черта, слэш</dd><dt>Plural</dt><dd><em>slashes</em></dd><dt>Countability</dt><dd>countable</dd><dt>Contrast</dt><dd>The line leaning forward is a slash; the one leaning the other way is a backslash.</dd></dl>
+<p>The forward-leaning line used between alternatives or in web addresses.</p>
+<ol><li>Write and/or with a <em>slash</em> between them.</li><li>There's an extra <em>slash</em> in that link.</li><li>The date is written with <em>slashes</em>.</li></ol>
+<hr>
+<h3 id="underscore">underscore<a class="hash" href="#underscore" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/ˈʌndərskɔːr/ &middot; <em>UHN-dur-skor</em></dd><dt>Русский</dt><dd>нижнее подчёркивание (знак _)</dd><dt>Plural</dt><dd><em>underscores</em></dd><dt>Countability</dt><dd>countable</dd></dl>
+<p>The low line used in file names and usernames in place of a space.</p>
+<ol><li>My username has an <em>underscore</em> in it.</li><li>Use an <em>underscore</em> instead of a space in the file name.</li><li>The address has two <em>underscores</em>.</li></ol>
+<hr>
+<h3 id="ampersand">ampersand<a class="hash" href="#ampersand" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/ˈæmpərsænd/ &middot; <em>AM-pur-sand</em></dd><dt>Русский</dt><dd>амперсанд (знак &amp;)</dd><dt>Plural</dt><dd><em>ampersands</em></dd><dt>Countability</dt><dd>countable</dd></dl>
+<p>The symbol that stands for the word and.</p>
+<ol><li>The company name is written with an <em>ampersand</em>.</li><li>Use an <em>ampersand</em> only if the logo does.</li><li>Old shop signs are full of <em>ampersands</em>.</li></ol>
+<hr>
+<h3 id="exclamation-point">exclamation point<a class="hash" href="#exclamation-point" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/ˌekskləˈmeɪʃən pɔɪnt/ &middot; <em>eks-kluh-MAY-shuhn point</em></dd><dt>Русский</dt><dd>восклицательный знак</dd><dt>Plural</dt><dd><em>exclamation points</em></dd><dt>Countability</dt><dd>countable</dd><dt>Contrast</dt><dd>American; the British say exclamation mark.</dd></dl>
+<p>The mark that shows a shout, surprise, or strong feeling.</p>
+<ol><li>One <em>exclamation point</em> is plenty.</li><li>She ends every text with an <em>exclamation point</em>.</li><li>The email had three <em>exclamation points</em> in the subject line.</li></ol>
+<hr>
+<h3 id="question-mark">question mark<a class="hash" href="#question-mark" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/ˈkwestʃən mɑːrk/ &middot; <em>KWES-chuhn mark</em></dd><dt>Русский</dt><dd>вопросительный знак</dd><dt>Plural</dt><dd><em>question marks</em></dd><dt>Countability</dt><dd>countable</dd></dl>
+<p>The mark that ends a question.</p>
+<ol><li>You left off the <em>question mark</em>.</li><li>That sentence needs a <em>question mark</em>, not a period.</li><li>His notes are covered in <em>question marks</em>.</li></ol>
+<hr>
+<h3 id="quotation-mark">quotation mark<a class="hash" href="#quotation-mark" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/kwoʊˈteɪʃən mɑːrk/ &middot; <em>kwoh-TAY-shuhn mark</em></dd><dt>Русский</dt><dd>кавычка</dd><dt>Plural</dt><dd><em>quotation marks</em></dd><dt>Countability</dt><dd>countable</dd><dt>Contrast</dt><dd>Americans use double marks where the British often use single ones.</dd></dl>
+<p>One of the pair of marks that enclose someone's exact words.</p>
+<ol><li>Put his exact words in <em>quotation marks</em>.</li><li>She made <em>quotation marks</em> in the air with her fingers.</li><li>The closing <em>quotation mark</em> is missing.</li></ol></div></main>
+<button class="themebtn" id="themeBtn">Dark</button>
+<script>
+const tb=document.getElementById('themeBtn');
+function setTheme(x){document.documentElement.dataset.theme=x;tb.textContent=x==='dark'?'Light':'Dark';
+ try{localStorage.setItem('site-theme',x)}catch(e){}}
+tb.onclick=()=>setTheme(document.documentElement.dataset.theme==='dark'?'light':'dark');
+try{const s=localStorage.getItem('site-theme');
+ setTheme(s||(matchMedia('(prefers-color-scheme: dark)').matches?'dark':'light'))}catch(e){setTheme('light')}
+</script></body></html>

@@ -1,0 +1,631 @@
+<!DOCTYPE html>
+<html lang="en"><head>
+<meta charset="utf-8"><meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Core vocabulary: clothing</title>
+<style>
+:root{--bg:#faf9f7;--surface:#fff;--surface2:#f2f0ec;--border:#e2ded6;--text:#1a1815;
+--dim:#5f594f;--faint:#8a8377;--accent:#8a5a3b;--measure:72ch}
+@media(prefers-color-scheme:dark){:root{--bg:#14140f;--surface:#1d1d17;--surface2:#25251d;
+--border:#33332a;--text:#eeeae1;--dim:#a8a293;--faint:#7d776b;--accent:#d09b72}}
+:root[data-theme=dark]{--bg:#14140f;--surface:#1d1d17;--surface2:#25251d;--border:#33332a;
+--text:#eeeae1;--dim:#a8a293;--faint:#7d776b;--accent:#d09b72}
+:root[data-theme=light]{--bg:#faf9f7;--surface:#fff;--surface2:#f2f0ec;--border:#e2ded6;
+--text:#1a1815;--dim:#5f594f;--faint:#8a8377;--accent:#8a5a3b}
+*{box-sizing:border-box}
+body{margin:0;background:var(--bg);color:var(--text);
+font:17px/1.72 ui-serif,Georgia,"Iowan Old Style",Palatino,serif;-webkit-font-smoothing:antialiased}
+.wrap{max-width:min(var(--measure),100%);margin:0 auto;padding:0 22px}
+nav.crumb{border-bottom:1px solid var(--border);padding:13px 0;font-size:13.5px;
+font-family:-apple-system,BlinkMacSystemFont,"Segoe UI",sans-serif;position:sticky;top:0;background:var(--bg);z-index:20}
+nav.crumb .wrap{max-width:none;display:flex;gap:9px;align-items:center;flex-wrap:wrap}
+nav.crumb a{color:var(--dim);text-decoration:none}
+nav.crumb a:hover{color:var(--accent)}
+nav.crumb .sep{color:var(--faint)}
+main{padding:8px 0 80px}
+h1{font-size:clamp(28px,5vw,38px);line-height:1.15;letter-spacing:-.015em;margin:34px 0 18px}
+h2{font-size:25px;margin:46px 0 14px;letter-spacing:-.01em;padding-bottom:7px;border-bottom:1px solid var(--border)}
+h3{font-size:19px;margin:34px 0 10px;color:var(--accent)}
+h4{font-size:16px;margin:24px 0 8px;font-family:-apple-system,sans-serif}
+p{margin:0 0 16px}
+a{color:var(--accent)}
+.hash{opacity:0;margin-left:8px;font-weight:400;font-size:.65em;text-decoration:none;color:var(--faint)}
+h2:hover .hash,h3:hover .hash{opacity:1}
+blockquote{margin:0 0 20px;padding:14px 18px;background:var(--surface2);
+border-left:3px solid var(--accent);border-radius:0 8px 8px 0}
+blockquote p:last-child{margin-bottom:0}
+ol,ul{margin:0 0 18px;padding-left:26px}
+li{margin-bottom:8px}
+li>ul,li>ol{margin:8px 0 0}
+code{font-family:ui-monospace,SFMono-Regular,Menlo,Consolas,monospace;font-size:.87em;
+background:var(--surface2);padding:1px 5px;border-radius:4px}
+pre{background:var(--surface2);border:1px solid var(--border);border-radius:9px;
+padding:15px 17px;overflow-x:auto;margin:0 0 20px}
+pre code{background:none;padding:0;font-size:13px;line-height:1.6}
+.tw{overflow-x:auto;margin:0 0 22px;border:1px solid var(--border);border-radius:9px}
+table{border-collapse:collapse;width:100%;font-size:15px;
+font-family:-apple-system,BlinkMacSystemFont,"Segoe UI",sans-serif}
+th,td{padding:10px 14px;border-bottom:1px solid var(--border);vertical-align:top}
+th{background:var(--surface2);font-size:12px;text-transform:uppercase;
+letter-spacing:.06em;color:var(--dim);font-weight:700;white-space:nowrap}
+tbody tr:last-child td{border-bottom:none}
+hr{border:none;border-top:1px solid var(--border);margin:38px 0}
+details{background:var(--surface2);border:1px solid var(--border);border-radius:9px;
+padding:13px 17px;margin:0 0 20px}
+summary{cursor:pointer;font-weight:600;font-family:-apple-system,sans-serif;font-size:15px}
+details[open] summary{margin-bottom:12px}
+del{color:var(--faint)}
+dl.fields{margin:0 0 20px;padding:0}
+dl.fields dt{font-family:-apple-system,BlinkMacSystemFont,"Segoe UI",sans-serif;
+font-size:11px;letter-spacing:.11em;text-transform:uppercase;color:var(--faint);
+font-weight:700;margin:14px 0 4px}
+dl.fields dt:first-child{margin-top:0}
+dl.fields dd{margin:0;font-size:16px;color:var(--dim);line-height:1.62}
+dl.fields dd em{color:var(--text)}
+dl.fields dt.ru{color:var(--accent)}
+dl.fields dd strong{color:var(--text)}
+.toc{background:var(--surface2);border:1px solid var(--border);border-radius:10px;
+padding:16px 20px;margin:26px 0 34px;font-family:-apple-system,sans-serif;font-size:14px}
+.toc b{display:block;font-size:11px;letter-spacing:.12em;text-transform:uppercase;
+color:var(--faint);margin-bottom:9px}
+.toc a{display:block;padding:3px 0;color:var(--dim);text-decoration:none}
+.toc a:hover{color:var(--accent)}
+.themebtn{position:fixed;right:18px;bottom:18px;z-index:60;font-family:-apple-system,sans-serif;
+font-size:12.5px;font-weight:600;cursor:pointer;background:var(--surface);border:1px solid var(--border);
+border-radius:99px;padding:9px 16px;color:var(--text)}
+@media(max-width:600px){body{font-size:16px}.wrap{padding:0 17px}}
+</style></head><body>
+<nav class="crumb"><div class="wrap"><a href="../../../index.html">Learn English</a><span class="sep">/</span><a href="../../README.html">Parts of speech</a><span class="sep">/</span><a href="../README.html">01-nouns</a><span class="sep">/</span><span>catalog</span></div></nav>
+<main><div class="wrap"><h1 id="core-vocabulary-clothing">Core vocabulary: clothing<a class="hash" href="#core-vocabulary-clothing" aria-label="link">#</a></h1>
+<blockquote><p>The everyday nouns of clothing — pronunciation, Russian, plural, and three examples each.</p></blockquote>
+<p><a href="../README.html">← The grammar of nouns</a> &middot; <a href="README.html">All groups</a></p>
+<p>Part of the <strong>core-vocabulary tier</strong>. Groups 1–23 cover the nouns that misbehave; this tier covers the nouns you simply need to know. Entries are deliberately lean, because a regular countable noun has no grammatical story to tell. A <strong>Contrast</strong> line appears only where the word hides a genuine trap.</p>
+<p>Where a word in this field <em>does</em> misbehave, it lives in the grammar tier instead and is not repeated here.</p>
+<hr>
+<h3 id="shirt">shirt<a class="hash" href="#shirt" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/ʃɜːrt/ &middot; <em>SHURT</em></dd><dt>Русский</dt><dd>рубашка</dd><dt>Plural</dt><dd><em>shirts</em></dd><dt>Countability</dt><dd>countable</dd></dl>
+<p>A garment for the upper body, usually with a collar and buttons down the front.</p>
+<ol><li>He ironed a white <em>shirt</em> for the interview.</li><li>All my <em>shirts</em> are still in the dryer.</li><li>You've got ketchup on your <em>shirt</em>.</li></ol>
+<hr>
+<h3 id="blouse">blouse<a class="hash" href="#blouse" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/blaʊs/ &middot; <em>BLOWSS</em></dd><dt>Русский</dt><dd>блузка</dd><dt>Plural</dt><dd><em>blouses</em></dd><dt>Countability</dt><dd>countable</dd><dt>Contrast</dt><dd>Americans end it with an s sound, rhyming with house; the British end it with a z sound.</dd></dl>
+<p>A loose shirt worn by women.</p>
+<ol><li>She wore a silk <em>blouse</em> under her blazer.</li><li>The store had <em>blouses</em> on sale for twenty bucks.</li><li>That <em>blouse</em> looks great with those pants.</li></ol>
+<hr>
+<h3 id="t-shirt">t-shirt<a class="hash" href="#t-shirt" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/ˈtiː ʃɜːrt/ &middot; <em>TEE-shurt</em></dd><dt>Русский</dt><dd>футболка</dd><dt>Plural</dt><dd><em>t-shirts</em></dd><dt>Countability</dt><dd>countable</dd></dl>
+<p>A light cotton shirt with short sleeves and no collar.</p>
+<ol><li>He sleeps in an old <em>t-shirt</em> and shorts.</li><li>They handed out free <em>t-shirts</em> at the race.</li><li>Can you grab me a clean <em>t-shirt</em>?</li></ol>
+<hr>
+<h3 id="sweater">sweater<a class="hash" href="#sweater" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/ˈswetər/ &middot; <em>SWET-ur</em></dd><dt>Русский</dt><dd>свитер</dd><dt>Plural</dt><dd><em>sweaters</em></dd><dt>Countability</dt><dd>countable</dd><dt>Contrast</dt><dd>The ea sounds like the e in bed, not like the ea in sweet. What Americans call a sweater the British usually call a jumper.</dd></dl>
+<p>A knitted garment worn on the upper body for warmth.</p>
+<ol><li>Bring a <em>sweater</em> — it gets cold at night.</li><li>She knits <em>sweaters</em> for her grandkids.</li><li>My <em>sweater</em> shrank in the wash.</li></ol>
+<hr>
+<h3 id="sweatshirt">sweatshirt<a class="hash" href="#sweatshirt" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/ˈswetʃɜːrt/ &middot; <em>SWET-shurt</em></dd><dt>Русский</dt><dd>толстовка</dd><dt>Plural</dt><dd><em>sweatshirts</em></dd><dt>Countability</dt><dd>countable</dd></dl>
+<p>A loose heavy cotton top with long sleeves, worn casually.</p>
+<ol><li>He threw on a <em>sweatshirt</em> and went for a run.</li><li>The team sells <em>sweatshirts</em> at every home game.</li><li>Her <em>sweatshirt</em> had the college logo across the front.</li></ol>
+<hr>
+<h3 id="hoodie">hoodie<a class="hash" href="#hoodie" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/ˈhʊdi/ &middot; <em>HUUD-ee</em></dd><dt>Русский</dt><dd>худи, толстовка с капюшоном</dd><dt>Plural</dt><dd><em>hoodies</em></dd><dt>Countability</dt><dd>countable</dd></dl>
+<p>A sweatshirt with a hood.</p>
+<ol><li>He pulled his <em>hoodie</em> up when it started raining.</li><li>Half the class showed up in <em>hoodies</em>.</li><li>That gray <em>hoodie</em> is my favorite thing to wear.</li></ol>
+<hr>
+<h3 id="pullover">pullover<a class="hash" href="#pullover" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/ˈpʊloʊvər/ &middot; <em>PUUL-oh-vur</em></dd><dt>Русский</dt><dd>пуловер, свитер без застёжки</dd><dt>Plural</dt><dd><em>pullovers</em></dd><dt>Countability</dt><dd>countable</dd></dl>
+<p>A sweater that you put on over your head, with no opening at the front.</p>
+<ol><li>She bought a wool <em>pullover</em> for the trip.</li><li>The store had <em>pullovers</em> in three colors.</li><li>This <em>pullover</em> is a little tight in the shoulders.</li></ol>
+<hr>
+<h3 id="cardigan">cardigan<a class="hash" href="#cardigan" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/ˈkɑːrdɪɡən/ &middot; <em>KAR-dih-gun</em></dd><dt>Русский</dt><dd>кардиган</dd><dt>Plural</dt><dd><em>cardigans</em></dd><dt>Countability</dt><dd>countable</dd></dl>
+<p>A knitted sweater that opens down the front and fastens with buttons.</p>
+<ol><li>He wore a gray <em>cardigan</em> over his shirt.</li><li>She has <em>cardigans</em> in every color.</li><li>Button up your <em>cardigan</em> — it's chilly in here.</li></ol>
+<hr>
+<h3 id="jacket">jacket<a class="hash" href="#jacket" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/ˈdʒækɪt/ &middot; <em>JAK-it</em></dd><dt>Русский</dt><dd>куртка, пиджак</dd><dt>Plural</dt><dd><em>jackets</em></dd><dt>Countability</dt><dd>countable</dd></dl>
+<p>A short coat worn on the upper body.</p>
+<ol><li>Grab your <em>jacket</em>, it's windy out.</li><li>He keeps his keys in his <em>jacket</em> pocket.</li><li>Both <em>jackets</em> were left on the back of the chair.</li></ol>
+<hr>
+<h3 id="coat">coat<a class="hash" href="#coat" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/koʊt/ &middot; <em>KOHT</em></dd><dt>Русский</dt><dd>пальто</dd><dt>Plural</dt><dd><em>coats</em></dd><dt>Countability</dt><dd>countable</dd></dl>
+<p>A long outer garment worn over other clothes for warmth.</p>
+<ol><li>She hung her <em>coat</em> by the door.</li><li>The <em>coats</em> are in the front closet.</li><li>You'll need a heavier <em>coat</em> in Chicago.</li></ol>
+<hr>
+<h3 id="overcoat">overcoat<a class="hash" href="#overcoat" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/ˈoʊvərkoʊt/ &middot; <em>OH-vur-koht</em></dd><dt>Русский</dt><dd>пальто (поверх костюма)</dd><dt>Plural</dt><dd><em>overcoats</em></dd><dt>Countability</dt><dd>countable</dd></dl>
+<p>A long heavy coat worn over a suit or other clothes in cold weather.</p>
+<ol><li>He buttoned his <em>overcoat</em> against the wind.</li><li>That old wool <em>overcoat</em> still fits him.</li><li>Most of the men wore dark <em>overcoats</em>.</li></ol>
+<hr>
+<h3 id="raincoat">raincoat<a class="hash" href="#raincoat" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/ˈreɪnkoʊt/ &middot; <em>RAYN-koht</em></dd><dt>Русский</dt><dd>плащ, дождевик</dd><dt>Plural</dt><dd><em>raincoats</em></dd><dt>Countability</dt><dd>countable</dd></dl>
+<p>A waterproof coat that keeps you dry in wet weather.</p>
+<ol><li>Take a <em>raincoat</em> — it's supposed to pour.</li><li>Her yellow <em>raincoat</em> was easy to spot in the crowd.</li><li>The kids left their <em>raincoats</em> at school again.</li></ol>
+<hr>
+<h3 id="trench-coat">trench coat<a class="hash" href="#trench-coat" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/ˈtrentʃ koʊt/ &middot; <em>TRENCH-koht</em></dd><dt>Русский</dt><dd>тренч, плащ с поясом</dd><dt>Plural</dt><dd><em>trench coats</em></dd><dt>Countability</dt><dd>countable</dd></dl>
+<p>A long belted raincoat with a wide collar.</p>
+<ol><li>He showed up in a tan <em>trench coat</em>.</li><li>That <em>trench coat</em> has been in style for decades.</li><li>The rack by the door was full of <em>trench coats</em>.</li></ol>
+<hr>
+<h3 id="windbreaker">windbreaker<a class="hash" href="#windbreaker" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/ˈwɪndbreɪkər/ &middot; <em>WIND-bray-kur</em></dd><dt>Русский</dt><dd>ветровка</dd><dt>Plural</dt><dd><em>windbreakers</em></dd><dt>Countability</dt><dd>countable</dd></dl>
+<p>A light jacket that keeps out the wind.</p>
+<ol><li>She zipped up her <em>windbreaker</em> at the top of the hill.</li><li>A thin <em>windbreaker</em> is enough for this weather.</li><li>The whole team wore matching <em>windbreakers</em>.</li></ol>
+<hr>
+<h3 id="parka">parka<a class="hash" href="#parka" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/ˈpɑːrkə/ &middot; <em>PAR-kuh</em></dd><dt>Русский</dt><dd>парка, тёплая куртка с капюшоном</dd><dt>Plural</dt><dd><em>parkas</em></dd><dt>Countability</dt><dd>countable</dd></dl>
+<p>A heavy hooded winter coat.</p>
+<ol><li>You need a real <em>parka</em> for a winter like this.</li><li>He shook the snow off his <em>parka</em> in the hallway.</li><li>The store sold out of <em>parkas</em> by November.</li></ol>
+<hr>
+<h3 id="vest">vest<a class="hash" href="#vest" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/vest/ &middot; <em>VEST</em></dd><dt>Русский</dt><dd>жилет</dd><dt>Plural</dt><dd><em>vests</em></dd><dt>Countability</dt><dd>countable</dd><dt>Contrast</dt><dd>An American vest is a British waistcoat; a British vest is what Americans call an undershirt.</dd></dl>
+<p>A sleeveless garment worn over a shirt, often as part of a suit.</p>
+<ol><li>He wore a three-piece suit with a matching <em>vest</em>.</li><li>The crew put on orange safety <em>vests</em>.</li><li>A down <em>vest</em> keeps your core warm without the bulk.</li></ol>
+<hr>
+<h3 id="blazer">blazer<a class="hash" href="#blazer" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/ˈbleɪzər/ &middot; <em>BLAY-zur</em></dd><dt>Русский</dt><dd>блейзер, пиджак</dd><dt>Plural</dt><dd><em>blazers</em></dd><dt>Countability</dt><dd>countable</dd></dl>
+<p>A tailored jacket worn as part of an outfit but not with matching pants.</p>
+<ol><li>She threw a <em>blazer</em> on over her t-shirt.</li><li>He owns two navy <em>blazers</em> and wears them constantly.</li><li>A <em>blazer</em> and jeans is fine for this office.</li></ol>
+<hr>
+<h3 id="suit">suit<a class="hash" href="#suit" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/suːt/ &middot; <em>SOOT</em></dd><dt>Русский</dt><dd>костюм (деловой)</dd><dt>Plural</dt><dd><em>suits</em></dd><dt>Countability</dt><dd>countable</dd><dt>Contrast</dt><dd>Say SOOT in American English, and don't confuse it with suite /swiːt/, a set of rooms.</dd></dl>
+<p>A set of matching jacket and pants or skirt worn together.</p>
+<ol><li>He wore a dark gray <em>suit</em> to the wedding.</li><li>Her <em>suits</em> are all custom made.</li><li>You don't need a <em>suit</em> for this interview.</li></ol>
+<hr>
+<h3 id="tuxedo">tuxedo<a class="hash" href="#tuxedo" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/tʌkˈsiːdoʊ/ &middot; <em>tuk-SEE-doh</em></dd><dt>Русский</dt><dd>смокинг</dd><dt>Plural</dt><dd><em>tuxedos</em></dd><dt>Countability</dt><dd>countable</dd><dt>Contrast</dt><dd>Americans say tuxedo, or tux for short; the British say dinner jacket.</dd></dl>
+<p>A formal black suit worn by men at evening events.</p>
+<ol><li>He rented a <em>tuxedo</em> for the wedding.</li><li>The waiters all wore <em>tuxedos</em>.</li><li>His <em>tuxedo</em> still had the tag on the sleeve.</li></ol>
+<hr>
+<h3 id="uniform">uniform<a class="hash" href="#uniform" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/ˈjuːnɪfɔːrm/ &middot; <em>YOO-nih-form</em></dd><dt>Русский</dt><dd>форма, униформа</dd><dt>Plural</dt><dd><em>uniforms</em></dd><dt>Countability</dt><dd>countable</dd></dl>
+<p>A set of clothes worn by all the members of a school, team, or organization.</p>
+<ol><li>The nurses on that floor wear blue <em>uniforms</em>.</li><li>He still has his old army <em>uniform</em> in a box.</li><li>Her school makes everyone wear a <em>uniform</em>.</li></ol>
+<hr>
+<h3 id="dress">dress<a class="hash" href="#dress" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/dres/ &middot; <em>DRESS</em></dd><dt>Русский</dt><dd>платье</dd><dt>Plural</dt><dd><em>dresses</em></dd><dt>Countability</dt><dd>countable</dd></dl>
+<p>A one-piece garment for women that covers the body and part of the legs.</p>
+<ol><li>She bought a red <em>dress</em> for the party.</li><li>All the bridesmaids wore the same <em>dress</em>.</li><li>These <em>dresses</em> are on the clearance rack.</li></ol>
+<hr>
+<h3 id="gown">gown<a class="hash" href="#gown" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/ɡaʊn/ &middot; <em>GOWN</em></dd><dt>Русский</dt><dd>длинное платье; мантия</dd><dt>Plural</dt><dd><em>gowns</em></dd><dt>Countability</dt><dd>countable</dd></dl>
+<p>A long formal dress, or a loose robe worn for a special purpose.</p>
+<ol><li>She wore a floor-length <em>gown</em> to the ceremony.</li><li>The graduates picked up their caps and <em>gowns</em> on Friday.</li><li>The nurse handed him a hospital <em>gown</em> and left.</li></ol>
+<hr>
+<h3 id="skirt">skirt<a class="hash" href="#skirt" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/skɜːrt/ &middot; <em>SKURT</em></dd><dt>Русский</dt><dd>юбка</dd><dt>Plural</dt><dd><em>skirts</em></dd><dt>Countability</dt><dd>countable</dd></dl>
+<p>A garment that hangs from the waist and covers part of the legs.</p>
+<ol><li>She wore a black <em>skirt</em> and a white blouse.</li><li>That <em>skirt</em> is too short for the office.</li><li>Most of her <em>skirts</em> come down to the knee.</li></ol>
+<hr>
+<h3 id="tank-top">tank top<a class="hash" href="#tank-top" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/ˈtæŋk tɑːp/ &middot; <em>TANK-tahp</em></dd><dt>Русский</dt><dd>майка (без рукавов)</dd><dt>Plural</dt><dd><em>tank tops</em></dd><dt>Countability</dt><dd>countable</dd></dl>
+<p>A sleeveless shirt with wide shoulder straps.</p>
+<ol><li>It was too hot for anything but a <em>tank top</em>.</li><li>He works out in a <em>tank top</em> and shorts.</li><li>She packed three <em>tank tops</em> for the beach.</li></ol>
+<hr>
+<h3 id="turtleneck">turtleneck<a class="hash" href="#turtleneck" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/ˈtɜːrtlnek/ &middot; <em>TUR-tul-nek</em></dd><dt>Русский</dt><dd>водолазка</dd><dt>Plural</dt><dd><em>turtlenecks</em></dd><dt>Countability</dt><dd>countable</dd><dt>Contrast</dt><dd>Americans say turtleneck; the British say polo neck.</dd></dl>
+<p>A sweater or shirt with a high collar that folds over and covers the neck.</p>
+<ol><li>He wore a black <em>turtleneck</em> under his jacket.</li><li><em>Turtlenecks</em> are back in style this year.</li><li>That <em>turtleneck</em> looks itchy.</li></ol>
+<hr>
+<h3 id="jersey">jersey<a class="hash" href="#jersey" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/ˈdʒɜːrzi/ &middot; <em>JUR-zee</em></dd><dt>Русский</dt><dd>спортивная майка, футболка команды</dd><dt>Plural</dt><dd><em>jerseys</em></dd><dt>Countability</dt><dd>countable</dd></dl>
+<p>A shirt worn by a member of a sports team, usually with a number on the back.</p>
+<ol><li>He got the goalie to sign his <em>jersey</em>.</li><li>The team is wearing their away <em>jerseys</em> tonight.</li><li>Her <em>jersey</em> had her last name across the shoulders.</li></ol>
+<hr>
+<h3 id="jumpsuit">jumpsuit<a class="hash" href="#jumpsuit" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/ˈdʒʌmpsuːt/ &middot; <em>JUMP-soot</em></dd><dt>Русский</dt><dd>комбинезон</dd><dt>Plural</dt><dd><em>jumpsuits</em></dd><dt>Countability</dt><dd>countable</dd></dl>
+<p>A one-piece garment with a top and pants joined together.</p>
+<ol><li>She wore a black <em>jumpsuit</em> to the party.</li><li>The mechanics work in heavy canvas <em>jumpsuits</em>.</li><li>That <em>jumpsuit</em> is surprisingly comfortable.</li></ol>
+<hr>
+<h3 id="robe">robe<a class="hash" href="#robe" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/roʊb/ &middot; <em>ROHB</em></dd><dt>Русский</dt><dd>халат; мантия</dd><dt>Plural</dt><dd><em>robes</em></dd><dt>Countability</dt><dd>countable</dd></dl>
+<p>A loose garment worn over other clothes or for lounging at home.</p>
+<ol><li>He shuffled into the kitchen in his <em>robe</em>.</li><li>The hotel leaves <em>robes</em> hanging in the closet.</li><li>Her <em>robe</em> was on the hook behind the bathroom door.</li></ol>
+<hr>
+<h3 id="bathrobe">bathrobe<a class="hash" href="#bathrobe" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/ˈbæθroʊb/ &middot; <em>BATH-rohb</em></dd><dt>Русский</dt><dd>банный халат</dd><dt>Plural</dt><dd><em>bathrobes</em></dd><dt>Countability</dt><dd>countable</dd></dl>
+<p>A loose robe worn before or after bathing.</p>
+<ol><li>She threw on a <em>bathrobe</em> and answered the door.</li><li>The kids ran around in their <em>bathrobes</em> after the pool.</li><li>My <em>bathrobe</em> is still damp from this morning.</li></ol>
+<hr>
+<h3 id="nightgown">nightgown<a class="hash" href="#nightgown" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/ˈnaɪtɡaʊn/ &middot; <em>NYT-gown</em></dd><dt>Русский</dt><dd>ночная рубашка</dd><dt>Plural</dt><dd><em>nightgowns</em></dd><dt>Countability</dt><dd>countable</dd></dl>
+<p>A loose dress-like garment that a woman or girl sleeps in.</p>
+<ol><li>She was still in her <em>nightgown</em> at noon.</li><li>Grandma packed two <em>nightgowns</em> for the trip.</li><li>The little girl's <em>nightgown</em> had stars all over it.</li></ol>
+<hr>
+<h3 id="cloak">cloak<a class="hash" href="#cloak" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/kloʊk/ &middot; <em>KLOHK</em></dd><dt>Русский</dt><dd>плащ, накидка</dd><dt>Plural</dt><dd><em>cloaks</em></dd><dt>Countability</dt><dd>countable</dd></dl>
+<p>A long loose outer garment with no sleeves, worn over the shoulders.</p>
+<ol><li>The actor swept onstage in a black <em>cloak</em>.</li><li>Travelers once wore heavy <em>cloaks</em> against the cold.</li><li>His <em>cloak</em> was fastened at the throat with a pin.</li></ol>
+<hr>
+<h3 id="cape">cape<a class="hash" href="#cape" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/keɪp/ &middot; <em>KAYP</em></dd><dt>Русский</dt><dd>накидка, пелерина</dd><dt>Plural</dt><dd><em>capes</em></dd><dt>Countability</dt><dd>countable</dd></dl>
+<p>A short sleeveless garment that hangs from the shoulders down the back.</p>
+<ol><li>The kid wore a superhero <em>cape</em> to school.</li><li>The barber tied a <em>cape</em> around my neck.</li><li><em>Capes</em> were everywhere at the costume party.</li></ol>
+<hr>
+<h3 id="poncho">poncho<a class="hash" href="#poncho" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/ˈpɑːntʃoʊ/ &middot; <em>PAHN-choh</em></dd><dt>Русский</dt><dd>пончо</dd><dt>Plural</dt><dd><em>ponchos</em></dd><dt>Countability</dt><dd>countable</dd></dl>
+<p>A loose outer garment made of one piece of cloth with a hole for the head.</p>
+<ol><li>They handed out plastic <em>ponchos</em> at the gate.</li><li>She pulled a <em>poncho</em> on over her backpack.</li><li>A <em>poncho</em> beats an umbrella in wind like that.</li></ol>
+<hr>
+<h3 id="shawl">shawl<a class="hash" href="#shawl" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/ʃɔːl/ &middot; <em>SHAWL</em></dd><dt>Русский</dt><dd>шаль, платок на плечи</dd><dt>Plural</dt><dd><em>shawls</em></dd><dt>Countability</dt><dd>countable</dd></dl>
+<p>A large piece of cloth worn over the shoulders or head.</p>
+<ol><li>She wrapped a wool <em>shawl</em> around her shoulders.</li><li>The vendors were selling hand-knit <em>shawls</em>.</li><li>Take a <em>shawl</em> — the church is always drafty.</li></ol>
+<hr>
+<h3 id="swimsuit">swimsuit<a class="hash" href="#swimsuit" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/ˈswɪmsuːt/ &middot; <em>SWIM-soot</em></dd><dt>Русский</dt><dd>купальник, плавки</dd><dt>Plural</dt><dd><em>swimsuits</em></dd><dt>Countability</dt><dd>countable</dd></dl>
+<p>A garment worn for swimming.</p>
+<ol><li>Don't forget your <em>swimsuit</em>.</li><li>Her <em>swimsuit</em> was still wet from yesterday.</li><li>The stores put <em>swimsuits</em> out in February.</li></ol>
+<hr>
+<h3 id="bikini">bikini<a class="hash" href="#bikini" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/bɪˈkiːni/ &middot; <em>bih-KEE-nee</em></dd><dt>Русский</dt><dd>бикини</dd><dt>Plural</dt><dd><em>bikinis</em></dd><dt>Countability</dt><dd>countable</dd></dl>
+<p>A two-piece swimsuit for women.</p>
+<ol><li>She wore a red <em>bikini</em> to the beach.</li><li>The shop had <em>bikinis</em> hanging right by the door.</li><li>That <em>bikini</em> was way more expensive than it looked.</li></ol>
+<hr>
+<h3 id="costume">costume<a class="hash" href="#costume" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/ˈkɑːstuːm/ &middot; <em>KAHS-toom</em></dd><dt>Русский</dt><dd>костюм (карнавальный, сценический)</dd><dt>Plural</dt><dd><em>costumes</em></dd><dt>Countability</dt><dd>countable</dd><dt>Contrast</dt><dd>A false friend: Russian костюм in the everyday sense is a suit. An English costume is theatrical or for a party.</dd></dl>
+<p>A set of clothes worn to look like someone or something else, as in a play or at a party.</p>
+<ol><li>His Halloween <em>costume</em> was a giant hot dog.</li><li>The theater keeps its <em>costumes</em> in the basement.</li><li>She sewed the whole <em>costume</em> herself.</li></ol>
+<hr>
+<h3 id="outfit">outfit<a class="hash" href="#outfit" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/ˈaʊtfɪt/ &middot; <em>OWT-fit</em></dd><dt>Русский</dt><dd>наряд, комплект одежды</dd><dt>Plural</dt><dd><em>outfits</em></dd><dt>Countability</dt><dd>countable</dd></dl>
+<p>A set of clothes worn together.</p>
+<ol><li>She picked out her <em>outfit</em> the night before.</li><li>He wore the same <em>outfit</em> three days in a row.</li><li>Those <em>outfits</em> are way too formal for a picnic.</li></ol>
+<hr>
+<h3 id="garment">garment<a class="hash" href="#garment" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/ˈɡɑːrmənt/ &middot; <em>GAR-munt</em></dd><dt>Русский</dt><dd>предмет одежды</dd><dt>Plural</dt><dd><em>garments</em></dd><dt>Countability</dt><dd>countable</dd></dl>
+<p>A single piece of clothing.</p>
+<ol><li>Wash this <em>garment</em> in cold water only.</li><li>The factory turns out about a thousand <em>garments</em> a day.</li><li>Every <em>garment</em> in the store is handmade.</li></ol>
+<hr>
+<h3 id="attire">attire<a class="hash" href="#attire" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/əˈtaɪrr/ &middot; <em>uh-TYR</em></dd><dt>Русский</dt><dd>одежда, наряд</dd><dt>Countability</dt><dd>uncountable</dd><dt>Contrast</dt><dd>Uncountable — say formal attire or a piece of attire, never an attire or attires.</dd></dl>
+<p>Clothing, especially of a particular kind or for a particular occasion.</p>
+<ol><li>The invitation said formal <em>attire</em>.</li><li>Business <em>attire</em> is required in the main dining room.</li><li>He showed up in hiking <em>attire</em> and nobody minded.</li></ol>
+<hr>
+<h3 id="apparel">apparel<a class="hash" href="#apparel" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/əˈpærəl/ &middot; <em>uh-PAIR-ul</em></dd><dt>Русский</dt><dd>одежда (как товар)</dd><dt>Countability</dt><dd>uncountable</dd><dt>Contrast</dt><dd>Uncountable — say an item of apparel, never an apparel or apparels.</dd></dl>
+<p>Clothing, especially as sold in stores.</p>
+<ol><li>Women's <em>apparel</em> is on the second floor.</li><li>They sell athletic <em>apparel</em> online.</li><li>Sales of winter <em>apparel</em> were up again this year.</li></ol>
+<hr>
+<h3 id="outerwear">outerwear<a class="hash" href="#outerwear" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/ˈaʊtərwer/ &middot; <em>OW-tur-wair</em></dd><dt>Русский</dt><dd>верхняя одежда</dd><dt>Countability</dt><dd>uncountable</dd><dt>Contrast</dt><dd>Uncountable — never outerwears.</dd></dl>
+<p>Clothing worn outdoors over your other clothes.</p>
+<ol><li>Leave your <em>outerwear</em> in the hall closet.</li><li>The shop specializes in winter <em>outerwear</em>.</li><li>Heavy <em>outerwear</em> is a must up north.</li></ol>
+<hr>
+<h3 id="underwear">underwear<a class="hash" href="#underwear" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/ˈʌndərwer/ &middot; <em>UN-dur-wair</em></dd><dt>Русский</dt><dd>нижнее бельё</dd><dt>Countability</dt><dd>uncountable</dd><dt>Contrast</dt><dd>Uncountable, even though бельё feels countable — say some underwear or a pair of underwear, never an underwear or underwears.</dd></dl>
+<p>Clothing worn next to the skin under your other clothes.</p>
+<ol><li>He packed a week's worth of <em>underwear</em>.</li><li>Put your dirty <em>underwear</em> in the hamper.</li><li>The store sells <em>underwear</em> three pairs to a pack.</li></ol>
+<hr>
+<h3 id="undershirt">undershirt<a class="hash" href="#undershirt" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/ˈʌndərʃɜːrt/ &middot; <em>UN-dur-shurt</em></dd><dt>Русский</dt><dd>майка (нижняя)</dd><dt>Plural</dt><dd><em>undershirts</em></dd><dt>Countability</dt><dd>countable</dd><dt>Contrast</dt><dd>An American undershirt is a British vest.</dd></dl>
+<p>A light shirt worn under another shirt, next to the skin.</p>
+<ol><li>He wears a white <em>undershirt</em> under his dress shirt.</li><li>She bought him a pack of <em>undershirts</em>.</li><li>You can see the <em>undershirt</em> through that fabric.</li></ol>
+<hr>
+<h3 id="bra">bra<a class="hash" href="#bra" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/brɑː/ &middot; <em>BRAH</em></dd><dt>Русский</dt><dd>бюстгальтер, лифчик</dd><dt>Plural</dt><dd><em>bras</em></dd><dt>Countability</dt><dd>countable</dd></dl>
+<p>An undergarment that supports a woman's breasts.</p>
+<ol><li>She bought two <em>bras</em> at the department store.</li><li>The <em>bra</em> straps kept slipping off her shoulders.</li><li>A sports <em>bra</em> is much more comfortable for running.</li></ol>
+<hr>
+<h3 id="diaper">diaper<a class="hash" href="#diaper" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/ˈdaɪpər/ &middot; <em>DY-pur</em></dd><dt>Русский</dt><dd>подгузник</dd><dt>Plural</dt><dd><em>diapers</em></dd><dt>Countability</dt><dd>countable</dd><dt>Contrast</dt><dd>Americans say diaper; the British say nappy.</dd></dl>
+<p>A thick pad of cloth or paper fastened around a baby's bottom.</p>
+<ol><li>Somebody in here needs a clean <em>diaper</em>.</li><li>We go through about ten <em>diapers</em> a day.</li><li>He learned to change a <em>diaper</em> fast.</li></ol>
+<hr>
+<h3 id="bib">bib<a class="hash" href="#bib" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/bɪb/ &middot; <em>BIB</em></dd><dt>Русский</dt><dd>слюнявчик, нагрудник</dd><dt>Plural</dt><dd><em>bibs</em></dd><dt>Countability</dt><dd>countable</dd></dl>
+<p>A piece of cloth or plastic tied under a child's chin to keep food off their clothes.</p>
+<ol><li>Put a <em>bib</em> on him before you feed him.</li><li>All the <em>bibs</em> are in the wash.</li><li>Her <em>bib</em> was covered in spaghetti sauce.</li></ol>
+<hr>
+<h3 id="shoe">shoe<a class="hash" href="#shoe" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/ʃuː/ &middot; <em>SHOO</em></dd><dt>Русский</dt><dd>туфля, ботинок</dd><dt>Plural</dt><dd><em>shoes</em></dd><dt>Countability</dt><dd>countable</dd></dl>
+<p>A covering for the foot with a firm sole, not reaching above the ankle.</p>
+<ol><li>Take your <em>shoes</em> off at the door.</li><li>He tied his <em>shoe</em> and kept running.</li><li>These <em>shoes</em> are killing my feet.</li></ol>
+<hr>
+<h3 id="boot">boot<a class="hash" href="#boot" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/buːt/ &middot; <em>BOOT</em></dd><dt>Русский</dt><dd>сапог, ботинок</dd><dt>Plural</dt><dd><em>boots</em></dd><dt>Countability</dt><dd>countable</dd><dt>Contrast</dt><dd>In Britain the boot is also the trunk of a car.</dd></dl>
+<p>A heavy shoe that covers the ankle and sometimes part of the leg.</p>
+<ol><li>She pulled on her rain <em>boots</em>.</li><li>One <em>boot</em> is still sitting by the back door.</li><li>You'll want hiking <em>boots</em> on that trail.</li></ol>
+<hr>
+<h3 id="sandal">sandal<a class="hash" href="#sandal" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/ˈsændl/ &middot; <em>SAN-dul</em></dd><dt>Русский</dt><dd>сандалия, босоножка</dd><dt>Plural</dt><dd><em>sandals</em></dd><dt>Countability</dt><dd>countable</dd></dl>
+<p>A light open shoe held on the foot by straps.</p>
+<ol><li>He wore <em>sandals</em> all summer.</li><li>One <em>sandal</em> broke on the second day of the trip.</li><li>Those <em>sandals</em> are not made for hiking.</li></ol>
+<hr>
+<h3 id="sneaker">sneaker<a class="hash" href="#sneaker" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/ˈsniːkər/ &middot; <em>SNEE-kur</em></dd><dt>Русский</dt><dd>кроссовок, кед</dd><dt>Plural</dt><dd><em>sneakers</em></dd><dt>Countability</dt><dd>countable</dd><dt>Contrast</dt><dd>Americans say sneakers; the British say trainers.</dd></dl>
+<p>A soft shoe with a rubber sole, worn for sports or casual wear.</p>
+<ol><li>He bought a new pair of <em>sneakers</em>.</li><li>My <em>sneakers</em> are completely soaked.</li><li>White <em>sneakers</em> go with almost anything.</li></ol>
+<hr>
+<h3 id="slipper">slipper<a class="hash" href="#slipper" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/ˈslɪpər/ &middot; <em>SLIP-ur</em></dd><dt>Русский</dt><dd>тапочка</dd><dt>Plural</dt><dd><em>slippers</em></dd><dt>Countability</dt><dd>countable</dd></dl>
+<p>A soft comfortable shoe worn indoors.</p>
+<ol><li>He shuffled downstairs in his <em>slippers</em>.</li><li>Keep a pair of <em>slippers</em> by the bed.</li><li>One <em>slipper</em> has gone missing again.</li></ol>
+<hr>
+<h3 id="loafer">loafer<a class="hash" href="#loafer" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/ˈloʊfər/ &middot; <em>LOH-fur</em></dd><dt>Русский</dt><dd>лоферы, туфли без шнурков</dd><dt>Plural</dt><dd><em>loafers</em></dd><dt>Countability</dt><dd>countable</dd></dl>
+<p>A flat leather shoe with no laces that you slip onto your foot.</p>
+<ol><li>He wore brown <em>loafers</em> with khakis.</li><li>That <em>loafer</em> has a hole worn through the sole.</li><li><em>Loafers</em> are a lot easier than lacing up boots.</li></ol>
+<hr>
+<h3 id="flip-flop">flip-flop<a class="hash" href="#flip-flop" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/ˈflɪpflɑːp/ &middot; <em>FLIP-flahp</em></dd><dt>Русский</dt><dd>вьетнамка, шлёпанец</dd><dt>Plural</dt><dd><em>flip-flops</em></dd><dt>Countability</dt><dd>countable</dd></dl>
+<p>A light open sandal held on by a strap between the toes.</p>
+<ol><li>She lives in <em>flip-flops</em> all summer.</li><li>One <em>flip-flop</em> floated off across the pool.</li><li>You can't wear <em>flip-flops</em> on the job site.</li></ol>
+<hr>
+<h3 id="sock">sock<a class="hash" href="#sock" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/sɑːk/ &middot; <em>SAHK</em></dd><dt>Русский</dt><dd>носок</dd><dt>Plural</dt><dd><em>socks</em></dd><dt>Countability</dt><dd>countable</dd></dl>
+<p>A soft covering for the foot worn inside a shoe.</p>
+<ol><li>He can never find two matching <em>socks</em>.</li><li>There's a hole in my <em>sock</em>.</li><li>Put on some wool <em>socks</em> if your feet are cold.</li></ol>
+<hr>
+<h3 id="stocking">stocking<a class="hash" href="#stocking" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/ˈstɑːkɪŋ/ &middot; <em>STAH-king</em></dd><dt>Русский</dt><dd>чулок</dd><dt>Plural</dt><dd><em>stockings</em></dd><dt>Countability</dt><dd>countable</dd></dl>
+<p>A close-fitting covering for the foot and leg, usually of thin material.</p>
+<ol><li>She snagged her <em>stocking</em> on the chair.</li><li>The dancers wore black <em>stockings</em>.</li><li>The kids hung their <em>stockings</em> by the fireplace.</li></ol>
+<hr>
+<h3 id="shoelace">shoelace<a class="hash" href="#shoelace" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/ˈʃuːleɪs/ &middot; <em>SHOO-layss</em></dd><dt>Русский</dt><dd>шнурок</dd><dt>Plural</dt><dd><em>shoelaces</em></dd><dt>Countability</dt><dd>countable</dd></dl>
+<p>A cord used to tie a shoe.</p>
+<ol><li>Tie your <em>shoelaces</em> before you trip.</li><li>One <em>shoelace</em> snapped this morning.</li><li>He bought new <em>shoelaces</em> for his work boots.</li></ol>
+<hr>
+<h3 id="footwear">footwear<a class="hash" href="#footwear" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/ˈfʊtwer/ &middot; <em>FUUT-wair</em></dd><dt>Русский</dt><dd>обувь</dd><dt>Countability</dt><dd>uncountable</dd><dt>Contrast</dt><dd>Uncountable — never a footwear or footwears; say a pair of shoes instead.</dd></dl>
+<p>Shoes, boots, and other coverings for the feet.</p>
+<ol><li>Closed-toe <em>footwear</em> is required in the lab.</li><li>The store carries <em>footwear</em> for the whole family.</li><li>Proper <em>footwear</em> makes a long walk much easier.</li></ol>
+<hr>
+<h3 id="hat">hat<a class="hash" href="#hat" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/hæt/ &middot; <em>HAT</em></dd><dt>Русский</dt><dd>шляпа, шапка</dd><dt>Plural</dt><dd><em>hats</em></dd><dt>Countability</dt><dd>countable</dd></dl>
+<p>A covering for the head, often with a brim.</p>
+<ol><li>Wear a <em>hat</em> — the sun is brutal today.</li><li>He collects old baseball <em>hats</em>.</li><li>Her <em>hat</em> blew off halfway down the block.</li></ol>
+<hr>
+<h3 id="cap">cap<a class="hash" href="#cap" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/kæp/ &middot; <em>KAP</em></dd><dt>Русский</dt><dd>кепка, бейсболка</dd><dt>Plural</dt><dd><em>caps</em></dd><dt>Countability</dt><dd>countable</dd></dl>
+<p>A soft flat hat, usually with a stiff curved brim at the front.</p>
+<ol><li>He wore a baseball <em>cap</em> backwards.</li><li>The team handed out free <em>caps</em> at the gate.</li><li>Take your <em>cap</em> off at the table.</li></ol>
+<hr>
+<h3 id="beanie">beanie<a class="hash" href="#beanie" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/ˈbiːni/ &middot; <em>BEE-nee</em></dd><dt>Русский</dt><dd>вязаная шапка</dd><dt>Plural</dt><dd><em>beanies</em></dd><dt>Countability</dt><dd>countable</dd></dl>
+<p>A close-fitting knitted hat worn in cold weather.</p>
+<ol><li>He pulled a <em>beanie</em> down over his ears.</li><li>She knits <em>beanies</em> for everyone every winter.</li><li>My <em>beanie</em> is in the pocket of my coat.</li></ol>
+<hr>
+<h3 id="helmet">helmet<a class="hash" href="#helmet" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/ˈhelmɪt/ &middot; <em>HEL-mit</em></dd><dt>Русский</dt><dd>шлем, каска</dd><dt>Plural</dt><dd><em>helmets</em></dd><dt>Countability</dt><dd>countable</dd></dl>
+<p>A hard hat that protects the head.</p>
+<ol><li>Always wear a <em>helmet</em> when you ride.</li><li>The workers left their <em>helmets</em> in the truck.</li><li>His <em>helmet</em> probably saved his life in that crash.</li></ol>
+<hr>
+<h3 id="hood">hood<a class="hash" href="#hood" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/hʊd/ &middot; <em>HUUD</em></dd><dt>Русский</dt><dd>капюшон</dd><dt>Plural</dt><dd><em>hoods</em></dd><dt>Countability</dt><dd>countable</dd><dt>Contrast</dt><dd>The vowel is short, like book, not like food. In American English the hood is also the front cover over a car engine.</dd></dl>
+<p>The part of a coat or sweatshirt that covers the head.</p>
+<ol><li>He put his <em>hood</em> up when it started to drizzle.</li><li>The jacket has a <em>hood</em> that zips off.</li><li>Both coats have fur-lined <em>hoods</em>.</li></ol>
+<hr>
+<h3 id="veil">veil<a class="hash" href="#veil" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/veɪl/ &middot; <em>VAYL</em></dd><dt>Русский</dt><dd>вуаль, фата</dd><dt>Plural</dt><dd><em>veils</em></dd><dt>Countability</dt><dd>countable</dd><dt>Contrast</dt><dd>Sounds exactly like vale, a valley.</dd></dl>
+<p>A piece of thin cloth worn over the face or head.</p>
+<ol><li>The bride lifted her <em>veil</em>.</li><li>The shop sells <em>veils</em> in three different lengths.</li><li>Her <em>veil</em> caught on the church door.</li></ol>
+<hr>
+<h3 id="beret">beret<a class="hash" href="#beret" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/bəˈreɪ/ &middot; <em>buh-RAY</em></dd><dt>Русский</dt><dd>берет</dd><dt>Plural</dt><dd><em>berets</em></dd><dt>Countability</dt><dd>countable</dd><dt>Contrast</dt><dd>The final t is silent, and Americans stress the second syllable: buh-RAY.</dd></dl>
+<p>A soft round flat hat with no brim.</p>
+<ol><li>She wore a red <em>beret</em> to the gallery.</li><li>The soldiers wore green <em>berets</em>.</li><li>His <em>beret</em> sat at an angle over one ear.</li></ol>
+<hr>
+<h3 id="visor">visor<a class="hash" href="#visor" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/ˈvaɪzər/ &middot; <em>VY-zur</em></dd><dt>Русский</dt><dd>козырёк; забрало</dd><dt>Plural</dt><dd><em>visors</em></dd><dt>Countability</dt><dd>countable</dd></dl>
+<p>A stiff piece at the front of a cap or helmet that shades or protects the eyes.</p>
+<ol><li>He flipped down the <em>visor</em> on his helmet.</li><li>She wore a tennis <em>visor</em> on the court.</li><li>The <em>visors</em> on those old caps are all cracked.</li></ol>
+<hr>
+<h3 id="bandana">bandana<a class="hash" href="#bandana" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/bænˈdænə/ &middot; <em>ban-DAN-uh</em></dd><dt>Русский</dt><dd>бандана, косынка</dd><dt>Plural</dt><dd><em>bandanas</em></dd><dt>Countability</dt><dd>countable</dd></dl>
+<p>A large colored square of cloth worn around the head or neck.</p>
+<ol><li>He tied a <em>bandana</em> around his forehead.</li><li>She keeps a <em>bandana</em> in her back pocket.</li><li>The stand sold <em>bandanas</em> in every color.</li></ol>
+<hr>
+<h3 id="turban">turban<a class="hash" href="#turban" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/ˈtɜːrbən/ &middot; <em>TUR-bun</em></dd><dt>Русский</dt><dd>тюрбан, чалма</dd><dt>Plural</dt><dd><em>turbans</em></dd><dt>Countability</dt><dd>countable</dd></dl>
+<p>A head covering made by winding a long piece of cloth around the head.</p>
+<ol><li>He wrapped a white <em>turban</em> around his head.</li><li>The men in the photograph are wearing <em>turbans</em>.</li><li>His <em>turban</em> matched the color of his jacket.</li></ol>
+<hr>
+<h3 id="headband">headband<a class="hash" href="#headband" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/ˈhedbænd/ &middot; <em>HED-band</em></dd><dt>Русский</dt><dd>повязка на голову, ободок</dd><dt>Plural</dt><dd><em>headbands</em></dd><dt>Countability</dt><dd>countable</dd></dl>
+<p>A strip of material worn around the head.</p>
+<ol><li>She pushed her hair back with a <em>headband</em>.</li><li>The runners all wore sweat <em>headbands</em>.</li><li>My <em>headband</em> keeps sliding off.</li></ol>
+<hr>
+<h3 id="sleeve">sleeve<a class="hash" href="#sleeve" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/sliːv/ &middot; <em>SLEEV</em></dd><dt>Русский</dt><dd>рукав</dd><dt>Plural</dt><dd><em>sleeves</em></dd><dt>Countability</dt><dd>countable</dd></dl>
+<p>The part of a garment that covers the arm.</p>
+<ol><li>He rolled up his <em>sleeves</em> and got to work.</li><li>There's a stain on your left <em>sleeve</em>.</li><li>The dress has long <em>sleeves</em> and a high collar.</li></ol>
+<hr>
+<h3 id="collar">collar<a class="hash" href="#collar" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/ˈkɑːlər/ &middot; <em>KAH-lur</em></dd><dt>Русский</dt><dd>воротник</dd><dt>Plural</dt><dd><em>collars</em></dd><dt>Countability</dt><dd>countable</dd><dt>Contrast</dt><dd>Say KAH-lur; it is not the same word as color, KUH-lur.</dd></dl>
+<p>The band of material around the neck of a shirt or coat.</p>
+<ol><li>He turned up his <em>collar</em> against the wind.</li><li>The <em>collar</em> on this shirt is fraying.</li><li>Both shirts have button-down <em>collars</em>.</li></ol>
+<hr>
+<h3 id="cuff">cuff<a class="hash" href="#cuff" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/kʌf/ &middot; <em>KUF</em></dd><dt>Русский</dt><dd>манжета</dd><dt>Plural</dt><dd><em>cuffs</em></dd><dt>Countability</dt><dd>countable</dd></dl>
+<p>The band of material at the end of a sleeve, or the turned-up bottom of a pant leg.</p>
+<ol><li>He unbuttoned his <em>cuffs</em> and rolled up his sleeves.</li><li>There was ink all over his <em>cuff</em>.</li><li>The tailor let out the <em>cuffs</em> on the pants.</li></ol>
+<hr>
+<h3 id="pocket">pocket<a class="hash" href="#pocket" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/ˈpɑːkɪt/ &middot; <em>PAH-kit</em></dd><dt>Русский</dt><dd>карман</dd><dt>Plural</dt><dd><em>pockets</em></dd><dt>Countability</dt><dd>countable</dd></dl>
+<p>A small bag sewn into a garment for carrying things.</p>
+<ol><li>He shoved his hands in his <em>pockets</em>.</li><li>My phone is in my back <em>pocket</em>.</li><li>This coat has <em>pockets</em> on the inside too.</li></ol>
+<hr>
+<h3 id="hem">hem<a class="hash" href="#hem" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/hem/ &middot; <em>HEM</em></dd><dt>Русский</dt><dd>подол, подшитый край</dd><dt>Plural</dt><dd><em>hems</em></dd><dt>Countability</dt><dd>countable</dd></dl>
+<p>The bottom edge of a garment, folded over and sewn.</p>
+<ol><li>The <em>hem</em> of her skirt came loose.</li><li>He let the <em>hem</em> down on the pants.</li><li>Both dresses need new <em>hems</em>.</li></ol>
+<hr>
+<h3 id="seam">seam<a class="hash" href="#seam" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/siːm/ &middot; <em>SEEM</em></dd><dt>Русский</dt><dd>шов</dd><dt>Plural</dt><dd><em>seams</em></dd><dt>Countability</dt><dd>countable</dd><dt>Contrast</dt><dd>Sounds exactly like seem, the verb.</dd></dl>
+<p>The line where two pieces of cloth are sewn together.</p>
+<ol><li>The <em>seam</em> split right down the side.</li><li>Check the <em>seams</em> before you buy it.</li><li>She sewed the <em>seam</em> back up by hand.</li></ol>
+<hr>
+<h3 id="lining">lining<a class="hash" href="#lining" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/ˈlaɪnɪŋ/ &middot; <em>LY-ning</em></dd><dt>Русский</dt><dd>подкладка</dd><dt>Plural</dt><dd><em>linings</em></dd><dt>Countability</dt><dd>countable</dd></dl>
+<p>A layer of material sewn inside a garment.</p>
+<ol><li>The jacket has a silk <em>lining</em>.</li><li>The <em>lining</em> of my coat is torn at the shoulder.</li><li>Winter boots with fleece <em>linings</em> are worth the money.</li></ol>
+<hr>
+<h3 id="lapel">lapel<a class="hash" href="#lapel" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/ləˈpel/ &middot; <em>luh-PEL</em></dd><dt>Русский</dt><dd>лацкан</dd><dt>Plural</dt><dd><em>lapels</em></dd><dt>Countability</dt><dd>countable</dd><dt>Contrast</dt><dd>Stress the second syllable: luh-PEL, not LAY-pel.</dd></dl>
+<p>The folded flap of cloth on the front of a jacket, joined to the collar.</p>
+<ol><li>He pinned the badge to his <em>lapel</em>.</li><li>The <em>lapels</em> on that suit are too wide.</li><li>She brushed a piece of lint off his <em>lapel</em>.</li></ol>
+<hr>
+<h3 id="strap">strap<a class="hash" href="#strap" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/stræp/ &middot; <em>STRAP</em></dd><dt>Русский</dt><dd>лямка, ремешок</dd><dt>Plural</dt><dd><em>straps</em></dd><dt>Countability</dt><dd>countable</dd></dl>
+<p>A narrow strip of material used to fasten or carry something.</p>
+<ol><li>One <em>strap</em> on her sandal broke.</li><li>Tighten the <em>straps</em> on your backpack.</li><li>The <em>strap</em> kept sliding off her shoulder.</li></ol>
+<hr>
+<h3 id="waistband">waistband<a class="hash" href="#waistband" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/ˈweɪstbænd/ &middot; <em>WAYST-band</em></dd><dt>Русский</dt><dd>пояс (на брюках, юбке)</dd><dt>Plural</dt><dd><em>waistbands</em></dd><dt>Countability</dt><dd>countable</dd><dt>Contrast</dt><dd>Waist sounds exactly like waste.</dd></dl>
+<p>The band of material at the top of pants or a skirt that fits around the waist.</p>
+<ol><li>The <em>waistband</em> on these jeans is too tight.</li><li>He tucked his shirt in behind the <em>waistband</em>.</li><li>The <em>waistbands</em> are elastic, so one size fits most.</li></ol>
+<hr>
+<h3 id="neckline">neckline<a class="hash" href="#neckline" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/ˈneklaɪn/ &middot; <em>NEK-lyn</em></dd><dt>Русский</dt><dd>вырез, горловина</dd><dt>Plural</dt><dd><em>necklines</em></dd><dt>Countability</dt><dd>countable</dd></dl>
+<p>The shape of the opening at the neck of a garment.</p>
+<ol><li>The dress has a low <em>neckline</em>.</li><li>She usually prefers a higher <em>neckline</em>.</li><li>Both tops have the same round <em>neckline</em>.</li></ol>
+<hr>
+<h3 id="pleat">pleat<a class="hash" href="#pleat" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/pliːt/ &middot; <em>PLEET</em></dd><dt>Русский</dt><dd>складка (на ткани)</dd><dt>Plural</dt><dd><em>pleats</em></dd><dt>Countability</dt><dd>countable</dd></dl>
+<p>A fold pressed or sewn into cloth.</p>
+<ol><li>Her skirt has <em>pleats</em> all the way around.</li><li>He ironed the <em>pleat</em> back into his slacks.</li><li>The <em>pleats</em> fell out after one wash.</li></ol>
+<hr>
+<h3 id="patch">patch<a class="hash" href="#patch" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/pætʃ/ &middot; <em>PACH</em></dd><dt>Русский</dt><dd>заплатка, нашивка</dd><dt>Plural</dt><dd><em>patches</em></dd><dt>Countability</dt><dd>countable</dd></dl>
+<p>A small piece of cloth sewn over a hole or onto a garment as a decoration.</p>
+<ol><li>She sewed a <em>patch</em> over the hole in his jeans.</li><li>His jacket is covered in band <em>patches</em>.</li><li>The scouts get a <em>patch</em> for every skill they learn.</li></ol>
+<hr>
+<h3 id="label">label<a class="hash" href="#label" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/ˈleɪbl/ &middot; <em>LAY-bul</em></dd><dt>Русский</dt><dd>этикетка, ярлык (на одежде)</dd><dt>Plural</dt><dd><em>labels</em></dd><dt>Countability</dt><dd>countable</dd></dl>
+<p>A small piece of material inside a garment giving its size and care instructions.</p>
+<ol><li>The <em>label</em> says dry clean only.</li><li>He cut the itchy <em>label</em> out of his shirt.</li><li>Check the <em>labels</em> before you put anything in the dryer.</li></ol>
+<hr>
+<h3 id="tag">tag<a class="hash" href="#tag" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/tæɡ/ &middot; <em>TAG</em></dd><dt>Русский</dt><dd>бирка, ценник</dd><dt>Plural</dt><dd><em>tags</em></dd><dt>Countability</dt><dd>countable</dd></dl>
+<p>A small piece of card or plastic attached to a new garment showing the price or size.</p>
+<ol><li>The <em>tag</em> is still on your sweater.</li><li>She checked the price <em>tag</em> and put it back.</li><li>Cut the <em>tags</em> off before you wear it.</li></ol>
+<hr>
+<h3 id="brim">brim<a class="hash" href="#brim" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/brɪm/ &middot; <em>BRIM</em></dd><dt>Русский</dt><dd>поля (шляпы)</dd><dt>Plural</dt><dd><em>brims</em></dd><dt>Countability</dt><dd>countable</dd></dl>
+<p>The flat edge that sticks out around the bottom of a hat.</p>
+<ol><li>He tipped the <em>brim</em> of his hat.</li><li>A wide <em>brim</em> keeps the sun off your face.</li><li>The rain ran off the <em>brims</em> of their hats.</li></ol>
+<hr>
+<h3 id="drawstring">drawstring<a class="hash" href="#drawstring" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/ˈdrɔːstrɪŋ/ &middot; <em>DRAW-string</em></dd><dt>Русский</dt><dd>шнурок-затяжка, кулиска</dd><dt>Plural</dt><dd><em>drawstrings</em></dd><dt>Countability</dt><dd>countable</dd></dl>
+<p>A cord threaded through a garment that you pull to tighten it.</p>
+<ol><li>He tightened the <em>drawstring</em> on his shorts.</li><li>The hood has a <em>drawstring</em> on each side.</li><li>Both <em>drawstrings</em> came out in the wash.</li></ol>
+<hr>
+<h3 id="buttonhole">buttonhole<a class="hash" href="#buttonhole" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/ˈbʌtnhoʊl/ &middot; <em>BUT-un-hohl</em></dd><dt>Русский</dt><dd>петля для пуговицы</dd><dt>Plural</dt><dd><em>buttonholes</em></dd><dt>Countability</dt><dd>countable</dd></dl>
+<p>The slit in a garment that a button fits through.</p>
+<ol><li>The <em>buttonhole</em> has stretched out.</li><li>He slipped a flower into his <em>buttonhole</em>.</li><li>The <em>buttonholes</em> on this shirt are hand-sewn.</li></ol>
+<hr>
+<h3 id="buckle">buckle<a class="hash" href="#buckle" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/ˈbʌkl/ &middot; <em>BUK-ul</em></dd><dt>Русский</dt><dd>пряжка</dd><dt>Plural</dt><dd><em>buckles</em></dd><dt>Countability</dt><dd>countable</dd></dl>
+<p>A metal fastener at the end of a belt or strap.</p>
+<ol><li>His belt <em>buckle</em> was the size of a saucer.</li><li>The <em>buckle</em> on my sandal came loose.</li><li>Both straps have plastic <em>buckles</em>.</li></ol>
+<hr>
+<h3 id="snap">snap<a class="hash" href="#snap" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/snæp/ &middot; <em>SNAP</em></dd><dt>Русский</dt><dd>кнопка (застёжка)</dd><dt>Plural</dt><dd><em>snaps</em></dd><dt>Countability</dt><dd>countable</dd><dt>Contrast</dt><dd>Americans call it a snap; the British call it a press stud or a popper.</dd></dl>
+<p>A fastener with two parts that press together to close a garment.</p>
+<ol><li>The shirt closes with <em>snaps</em> instead of buttons.</li><li>One <em>snap</em> on the jacket is broken.</li><li>Baby clothes with <em>snaps</em> are so much easier.</li></ol>
+<hr>
+<h3 id="clasp">clasp<a class="hash" href="#clasp" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/klæsp/ &middot; <em>KLASP</em></dd><dt>Русский</dt><dd>застёжка, защёлка</dd><dt>Plural</dt><dd><em>clasps</em></dd><dt>Countability</dt><dd>countable</dd></dl>
+<p>A fastener that holds two parts together.</p>
+<ol><li>The <em>clasp</em> on the cloak was solid silver.</li><li>She fumbled with the tiny <em>clasp</em> at the back of the dress.</li><li>Both <em>clasps</em> on the belt had rusted shut.</li></ol>
+<hr>
+<h3 id="pin">pin<a class="hash" href="#pin" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/pɪn/ &middot; <em>PIN</em></dd><dt>Русский</dt><dd>булавка</dd><dt>Plural</dt><dd><em>pins</em></dd><dt>Countability</dt><dd>countable</dd></dl>
+<p>A thin piece of metal with a sharp point, used to hold cloth together.</p>
+<ol><li>The tailor held the hem in place with <em>pins</em>.</li><li>Watch out — there's still a <em>pin</em> in that shirt.</li><li>She dropped a whole box of <em>pins</em> on the floor.</li></ol>
+<hr>
+<h3 id="fastener">fastener<a class="hash" href="#fastener" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/ˈfæsnər/ &middot; <em>FAS-nur</em></dd><dt>Русский</dt><dd>застёжка</dd><dt>Plural</dt><dd><em>fasteners</em></dd><dt>Countability</dt><dd>countable</dd><dt>Contrast</dt><dd>The t is silent: FAS-nur, like fasten, listen, and castle.</dd></dl>
+<p>Anything used to hold a garment closed, such as a button, hook, or snap.</p>
+<ol><li>The dress has a hidden <em>fastener</em> at the side.</li><li>All the <em>fasteners</em> on this jacket are plastic.</li><li>One <em>fastener</em> is missing from the cuff.</li></ol>
+<hr>
+<h3 id="belt">belt<a class="hash" href="#belt" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/belt/ &middot; <em>BELT</em></dd><dt>Русский</dt><dd>ремень, пояс</dd><dt>Plural</dt><dd><em>belts</em></dd><dt>Countability</dt><dd>countable</dd></dl>
+<p>A strip of leather or cloth worn around the waist.</p>
+<ol><li>He tightened his <em>belt</em> one more notch.</li><li>That dress comes with a matching <em>belt</em>.</li><li>His <em>belts</em> are all hanging on the closet door.</li></ol>
+<hr>
+<h3 id="cufflink">cufflink<a class="hash" href="#cufflink" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/ˈkʌflɪŋk/ &middot; <em>KUF-link</em></dd><dt>Русский</dt><dd>запонка</dd><dt>Plural</dt><dd><em>cufflinks</em></dd><dt>Countability</dt><dd>countable</dd></dl>
+<p>A small fastener used to hold together the cuffs of a dress shirt.</p>
+<ol><li>He wore silver <em>cufflinks</em> to the wedding.</li><li>One <em>cufflink</em> rolled under the dresser.</li><li>His father's <em>cufflinks</em> still fit the shirt perfectly.</li></ol>
+<hr>
+<h3 id="glove">glove<a class="hash" href="#glove" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/ɡlʌv/ &middot; <em>GLUV</em></dd><dt>Русский</dt><dd>перчатка</dd><dt>Plural</dt><dd><em>gloves</em></dd><dt>Countability</dt><dd>countable</dd><dt>Contrast</dt><dd>Rhymes with love, not with stove.</dd></dl>
+<p>A covering for the hand with a separate part for each finger.</p>
+<ol><li>Put your <em>gloves</em> on, it's freezing out there.</li><li>He lost a <em>glove</em> on the bus.</li><li>These <em>gloves</em> are too thin for skiing.</li></ol>
+<hr>
+<h3 id="mitten">mitten<a class="hash" href="#mitten" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/ˈmɪtn/ &middot; <em>MIT-un</em></dd><dt>Русский</dt><dd>варежка, рукавица</dd><dt>Plural</dt><dd><em>mittens</em></dd><dt>Countability</dt><dd>countable</dd></dl>
+<p>A hand covering with one section for the thumb and one for all the other fingers.</p>
+<ol><li>The baby kept pulling off her <em>mittens</em>.</li><li>One <em>mitten</em> always goes missing by February.</li><li>Wool <em>mittens</em> are warmer than gloves.</li></ol>
+<hr>
+<h3 id="tie">tie<a class="hash" href="#tie" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/taɪ/ &middot; <em>TY</em></dd><dt>Русский</dt><dd>галстук</dd><dt>Plural</dt><dd><em>ties</em></dd><dt>Countability</dt><dd>countable</dd></dl>
+<p>A long narrow piece of cloth worn around the neck under a shirt collar.</p>
+<ol><li>He loosened his <em>tie</em> on the way home.</li><li>She gave him a silk <em>tie</em> for his birthday.</li><li>All his <em>ties</em> hang on a rack in the closet.</li></ol>
+<hr>
+<h3 id="bow-tie">bow tie<a class="hash" href="#bow-tie" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/ˈboʊ taɪ/ &middot; <em>BOH-ty</em></dd><dt>Русский</dt><dd>галстук-бабочка</dd><dt>Plural</dt><dd><em>bow ties</em></dd><dt>Countability</dt><dd>countable</dd><dt>Contrast</dt><dd>Bow here rhymes with know, not with now.</dd></dl>
+<p>A short tie fastened at the neck in the shape of a bow.</p>
+<ol><li>He can never get a <em>bow tie</em> straight.</li><li>The waiters all wore black <em>bow ties</em>.</li><li>That <em>bow tie</em> is actually a clip-on.</li></ol>
+<hr>
+<h3 id="lace">lace<a class="hash" href="#lace" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/leɪs/ &middot; <em>LAYSS</em></dd><dt>Русский</dt><dd>кружево; шнурок</dd><dt>Plural</dt><dd><em>laces</em></dd><dt>Countability</dt><dd>both — countable and uncountable with different meanings</dd><dt>Contrast</dt><dd>The fabric is uncountable — some lace, never a lace; a shoe cord is countable — one lace, two laces.</dd></dl>
+<p>A fine open fabric with patterns of holes, or a cord for tying a shoe.</p>
+<ol><li>Her dress had <em>lace</em> around the collar.</li><li>He pulled the <em>laces</em> tight and double-knotted them.</li><li>The tablecloth was trimmed with white <em>lace</em>.</li></ol>
+<hr>
+<h3 id="cotton">cotton<a class="hash" href="#cotton" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/ˈkɑːtn/ &middot; <em>KAH-tun</em></dd><dt>Русский</dt><dd>хлопок, хлопчатобумажная ткань</dd><dt>Countability</dt><dd>uncountable</dd></dl>
+<p>A soft white fiber made into cloth and thread.</p>
+<ol><li>The shirt is a hundred percent <em>cotton</em>.</li><li><em>Cotton</em> is a lot cooler than polyester in summer.</li><li>She only buys <em>cotton</em> sheets.</li></ol>
+<hr>
+<h3 id="wool">wool<a class="hash" href="#wool" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/wʊl/ &middot; <em>WUUL</em></dd><dt>Русский</dt><dd>шерсть</dd><dt>Countability</dt><dd>uncountable</dd><dt>Contrast</dt><dd>Rhymes with full and pull, not with cool.</dd></dl>
+<p>The soft hair of sheep, used to make cloth and yarn.</p>
+<ol><li>The sweater is pure <em>wool</em>.</li><li><em>Wool</em> keeps you warm even when it's damp.</li><li>She's allergic to <em>wool</em> and can't wear it.</li></ol>
+<hr>
+<h3 id="silk">silk<a class="hash" href="#silk" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/sɪlk/ &middot; <em>SILK</em></dd><dt>Русский</dt><dd>шёлк</dd><dt>Countability</dt><dd>uncountable</dd></dl>
+<p>A fine soft cloth made from the threads produced by silkworms.</p>
+<ol><li>That scarf is real <em>silk</em>.</li><li><em>Silk</em> has to be washed by hand.</li><li>He wore a tie made of heavy <em>silk</em>.</li></ol>
+<hr>
+<h3 id="leather">leather<a class="hash" href="#leather" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/ˈleðər/ &middot; <em>LETH-ur</em></dd><dt>Русский</dt><dd>кожа (материал)</dd><dt>Countability</dt><dd>uncountable</dd><dt>Contrast</dt><dd>The ea sounds like the e in bed, and the th is voiced, as in father.</dd></dl>
+<p>Material made from animal skin, used for shoes, coats, and belts.</p>
+<ol><li>The jacket is real <em>leather</em>.</li><li><em>Leather</em> stretches out after you've worn it a while.</li><li>These boots are lined with soft <em>leather</em>.</li></ol>
+<hr>
+<h3 id="denim">denim<a class="hash" href="#denim" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/ˈdenəm/ &middot; <em>DEN-im</em></dd><dt>Русский</dt><dd>джинсовая ткань, деним</dd><dt>Countability</dt><dd>uncountable</dd></dl>
+<p>A strong cotton cloth used to make jeans and jackets.</p>
+<ol><li>The jacket is heavy <em>denim</em>.</li><li><em>Denim</em> softens up after a few washes.</li><li>She wore a <em>denim</em> skirt and sneakers.</li></ol>
+<hr>
+<h3 id="fur">fur<a class="hash" href="#fur" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/fɜːr/ &middot; <em>FUR</em></dd><dt>Русский</dt><dd>мех</dd><dt>Plural</dt><dd><em>furs</em></dd><dt>Countability</dt><dd>countable, and uncountable as a substance</dd></dl>
+<p>The thick soft hair covering an animal, used to make or line clothing.</p>
+<ol><li>The hood is trimmed with <em>fur</em>.</li><li>She inherited her grandmother's <em>furs</em>.</li><li>Fake <em>fur</em> looks almost real these days.</li></ol>
+<hr>
+<h3 id="suede">suede<a class="hash" href="#suede" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/sweɪd/ &middot; <em>SWAYD</em></dd><dt>Русский</dt><dd>замша</dd><dt>Countability</dt><dd>uncountable</dd><dt>Contrast</dt><dd>One syllable, pronounced SWAYD; the ue is not a separate sound.</dd></dl>
+<p>Soft leather with a slightly rough, velvety surface.</p>
+<ol><li>The boots are brown <em>suede</em>.</li><li><em>Suede</em> stains the second it rains.</li><li>He bought a <em>suede</em> jacket in Italy.</li></ol>
+<hr>
+<h3 id="velvet">velvet<a class="hash" href="#velvet" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/ˈvelvɪt/ &middot; <em>VEL-vit</em></dd><dt>Русский</dt><dd>бархат</dd><dt>Countability</dt><dd>uncountable</dd></dl>
+<p>A thick soft cloth with a short raised pile on one side.</p>
+<ol><li>The dress was deep red <em>velvet</em>.</li><li><em>Velvet</em> shows every fingerprint.</li><li>She lined the box with black <em>velvet</em>.</li></ol>
+<hr>
+<h3 id="polyester">polyester<a class="hash" href="#polyester" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/ˌpɑːliˈestər/ &middot; <em>pah-lee-ES-tur</em></dd><dt>Русский</dt><dd>полиэстер</dd><dt>Countability</dt><dd>uncountable</dd></dl>
+<p>A synthetic material used to make clothes.</p>
+<ol><li>The shirt is a cotton and <em>polyester</em> blend.</li><li><em>Polyester</em> barely wrinkles, which is the whole point.</li><li>That jacket is cheap <em>polyester</em> and it feels like it.</li></ol></div></main>
+<button class="themebtn" id="themeBtn">Dark</button>
+<script>
+const tb=document.getElementById('themeBtn');
+function setTheme(x){document.documentElement.dataset.theme=x;tb.textContent=x==='dark'?'Light':'Dark';
+ try{localStorage.setItem('site-theme',x)}catch(e){}}
+tb.onclick=()=>setTheme(document.documentElement.dataset.theme==='dark'?'light':'dark');
+try{const s=localStorage.getItem('site-theme');
+ setTheme(s||(matchMedia('(prefers-color-scheme: dark)').matches?'dark':'light'))}catch(e){setTheme('light')}
+</script></body></html>

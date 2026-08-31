@@ -1,0 +1,696 @@
+<!DOCTYPE html>
+<html lang="en"><head>
+<meta charset="utf-8"><meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Core vocabulary: insects and reptiles</title>
+<style>
+:root{--bg:#faf9f7;--surface:#fff;--surface2:#f2f0ec;--border:#e2ded6;--text:#1a1815;
+--dim:#5f594f;--faint:#8a8377;--accent:#8a5a3b;--measure:72ch}
+@media(prefers-color-scheme:dark){:root{--bg:#14140f;--surface:#1d1d17;--surface2:#25251d;
+--border:#33332a;--text:#eeeae1;--dim:#a8a293;--faint:#7d776b;--accent:#d09b72}}
+:root[data-theme=dark]{--bg:#14140f;--surface:#1d1d17;--surface2:#25251d;--border:#33332a;
+--text:#eeeae1;--dim:#a8a293;--faint:#7d776b;--accent:#d09b72}
+:root[data-theme=light]{--bg:#faf9f7;--surface:#fff;--surface2:#f2f0ec;--border:#e2ded6;
+--text:#1a1815;--dim:#5f594f;--faint:#8a8377;--accent:#8a5a3b}
+*{box-sizing:border-box}
+body{margin:0;background:var(--bg);color:var(--text);
+font:17px/1.72 ui-serif,Georgia,"Iowan Old Style",Palatino,serif;-webkit-font-smoothing:antialiased}
+.wrap{max-width:min(var(--measure),100%);margin:0 auto;padding:0 22px}
+nav.crumb{border-bottom:1px solid var(--border);padding:13px 0;font-size:13.5px;
+font-family:-apple-system,BlinkMacSystemFont,"Segoe UI",sans-serif;position:sticky;top:0;background:var(--bg);z-index:20}
+nav.crumb .wrap{max-width:none;display:flex;gap:9px;align-items:center;flex-wrap:wrap}
+nav.crumb a{color:var(--dim);text-decoration:none}
+nav.crumb a:hover{color:var(--accent)}
+nav.crumb .sep{color:var(--faint)}
+main{padding:8px 0 80px}
+h1{font-size:clamp(28px,5vw,38px);line-height:1.15;letter-spacing:-.015em;margin:34px 0 18px}
+h2{font-size:25px;margin:46px 0 14px;letter-spacing:-.01em;padding-bottom:7px;border-bottom:1px solid var(--border)}
+h3{font-size:19px;margin:34px 0 10px;color:var(--accent)}
+h4{font-size:16px;margin:24px 0 8px;font-family:-apple-system,sans-serif}
+p{margin:0 0 16px}
+a{color:var(--accent)}
+.hash{opacity:0;margin-left:8px;font-weight:400;font-size:.65em;text-decoration:none;color:var(--faint)}
+h2:hover .hash,h3:hover .hash{opacity:1}
+blockquote{margin:0 0 20px;padding:14px 18px;background:var(--surface2);
+border-left:3px solid var(--accent);border-radius:0 8px 8px 0}
+blockquote p:last-child{margin-bottom:0}
+ol,ul{margin:0 0 18px;padding-left:26px}
+li{margin-bottom:8px}
+li>ul,li>ol{margin:8px 0 0}
+code{font-family:ui-monospace,SFMono-Regular,Menlo,Consolas,monospace;font-size:.87em;
+background:var(--surface2);padding:1px 5px;border-radius:4px}
+pre{background:var(--surface2);border:1px solid var(--border);border-radius:9px;
+padding:15px 17px;overflow-x:auto;margin:0 0 20px}
+pre code{background:none;padding:0;font-size:13px;line-height:1.6}
+.tw{overflow-x:auto;margin:0 0 22px;border:1px solid var(--border);border-radius:9px}
+table{border-collapse:collapse;width:100%;font-size:15px;
+font-family:-apple-system,BlinkMacSystemFont,"Segoe UI",sans-serif}
+th,td{padding:10px 14px;border-bottom:1px solid var(--border);vertical-align:top}
+th{background:var(--surface2);font-size:12px;text-transform:uppercase;
+letter-spacing:.06em;color:var(--dim);font-weight:700;white-space:nowrap}
+tbody tr:last-child td{border-bottom:none}
+hr{border:none;border-top:1px solid var(--border);margin:38px 0}
+details{background:var(--surface2);border:1px solid var(--border);border-radius:9px;
+padding:13px 17px;margin:0 0 20px}
+summary{cursor:pointer;font-weight:600;font-family:-apple-system,sans-serif;font-size:15px}
+details[open] summary{margin-bottom:12px}
+del{color:var(--faint)}
+dl.fields{margin:0 0 20px;padding:0}
+dl.fields dt{font-family:-apple-system,BlinkMacSystemFont,"Segoe UI",sans-serif;
+font-size:11px;letter-spacing:.11em;text-transform:uppercase;color:var(--faint);
+font-weight:700;margin:14px 0 4px}
+dl.fields dt:first-child{margin-top:0}
+dl.fields dd{margin:0;font-size:16px;color:var(--dim);line-height:1.62}
+dl.fields dd em{color:var(--text)}
+dl.fields dt.ru{color:var(--accent)}
+dl.fields dd strong{color:var(--text)}
+.toc{background:var(--surface2);border:1px solid var(--border);border-radius:10px;
+padding:16px 20px;margin:26px 0 34px;font-family:-apple-system,sans-serif;font-size:14px}
+.toc b{display:block;font-size:11px;letter-spacing:.12em;text-transform:uppercase;
+color:var(--faint);margin-bottom:9px}
+.toc a{display:block;padding:3px 0;color:var(--dim);text-decoration:none}
+.toc a:hover{color:var(--accent)}
+.themebtn{position:fixed;right:18px;bottom:18px;z-index:60;font-family:-apple-system,sans-serif;
+font-size:12.5px;font-weight:600;cursor:pointer;background:var(--surface);border:1px solid var(--border);
+border-radius:99px;padding:9px 16px;color:var(--text)}
+@media(max-width:600px){body{font-size:16px}.wrap{padding:0 17px}}
+</style></head><body>
+<nav class="crumb"><div class="wrap"><a href="../../../index.html">Learn English</a><span class="sep">/</span><a href="../../README.html">Parts of speech</a><span class="sep">/</span><a href="../README.html">01-nouns</a><span class="sep">/</span><span>catalog</span></div></nav>
+<main><div class="wrap"><h1 id="core-vocabulary-insects-and-reptiles">Core vocabulary: insects and reptiles<a class="hash" href="#core-vocabulary-insects-and-reptiles" aria-label="link">#</a></h1>
+<blockquote><p>The everyday nouns of insects and reptiles — pronunciation, Russian, plural, and three examples each.</p></blockquote>
+<p><a href="../README.html">← The grammar of nouns</a> &middot; <a href="README.html">All groups</a></p>
+<p>Part of the <strong>core-vocabulary tier</strong>. Groups 1–23 cover the nouns that misbehave; this tier covers the nouns you simply need to know. Entries are deliberately lean, because a regular countable noun has no grammatical story to tell. A <strong>Contrast</strong> line appears only where the word hides a genuine trap.</p>
+<p>Where a word in this field <em>does</em> misbehave, it lives in the grammar tier instead and is not repeated here.</p>
+<hr>
+<h3 id="insect">insect<a class="hash" href="#insect" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/ˈɪnsekt/ &middot; <em>IN-sekt</em></dd><dt>Русский</dt><dd>насекомое</dd><dt>Plural</dt><dd><em>insects</em></dd><dt>Countability</dt><dd>countable</dd></dl>
+<p>A small animal with six legs, a body in three parts, and usually wings.</p>
+<ol><li>The porch light pulls in every <em>insect</em> in the neighborhood.</li><li>She studies <em>insects</em> that live only in caves.</li><li>Not every crawling thing is an <em>insect</em> — spiders have eight legs.</li></ol>
+<hr>
+<h3 id="bug">bug<a class="hash" href="#bug" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/bʌɡ/ &middot; <em>BUG</em></dd><dt>Русский</dt><dd>жучок, насекомое (разг.)</dd><dt>Plural</dt><dd><em>bugs</em></dd><dt>Countability</dt><dd>countable</dd><dt>Contrast</dt><dd>In casual American English bug covers almost any small creepy-crawly, including spiders — insect is the precise word.</dd></dl>
+<p>Any small crawling or flying insect, in everyday speech.</p>
+<ol><li>There's a <em>bug</em> crawling up the wall behind you.</li><li>The screen door keeps most of the <em>bugs</em> out.</li><li>Some kind of <em>bug</em> landed in my coffee.</li></ol>
+<hr>
+<h3 id="pest">pest<a class="hash" href="#pest" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/pest/ &middot; <em>PEST</em></dd><dt>Русский</dt><dd>вредитель</dd><dt>Plural</dt><dd><em>pests</em></dd><dt>Countability</dt><dd>countable</dd></dl>
+<p>An insect or animal that damages crops, food, or property.</p>
+<ol><li>Deer are the worst <em>pest</em> in this garden.</li><li>The farm loses about a tenth of its corn to <em>pests</em>.</li><li>We hired someone to deal with the <em>pests</em> in the attic.</li></ol>
+<hr>
+<h3 id="vermin">vermin<a class="hash" href="#vermin" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/ˈvɜːrmɪn/ &middot; <em>VUR-min</em></dd><dt>Русский</dt><dd>паразиты, вредные животные</dd><dt>Countability</dt><dd>uncountable</dd><dt>Contrast</dt><dd>Vermin has no plural -s but takes a plural verb: vermin are, never vermin is.</dd></dl>
+<p>Small harmful animals such as rats, mice, and lice, taken as a group.</p>
+<ol><li>The building was condemned because of <em>vermin</em>.</li><li>Those old grain sheds are full of <em>vermin</em>.</li><li><em>Vermin</em> were getting in through a gap under the siding.</li></ol>
+<hr>
+<h3 id="parasite">parasite<a class="hash" href="#parasite" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/ˈperəsaɪt/ &middot; <em>PEHR-uh-syt</em></dd><dt>Русский</dt><dd>паразит</dd><dt>Plural</dt><dd><em>parasites</em></dd><dt>Countability</dt><dd>countable</dd></dl>
+<p>An organism that lives on or in another creature and feeds off it.</p>
+<ol><li>A tapeworm is a <em>parasite</em> that lives in the gut.</li><li>The vet tested the puppy for <em>parasites</em>.</li><li>Some wasps lay eggs inside caterpillars and live as <em>parasites</em>.</li></ol>
+<hr>
+<h3 id="creature">creature<a class="hash" href="#creature" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/ˈkriːtʃər/ &middot; <em>KREE-chur</em></dd><dt>Русский</dt><dd>существо, тварь</dd><dt>Plural</dt><dd><em>creatures</em></dd><dt>Countability</dt><dd>countable</dd></dl>
+<p>Any living animal, especially one that seems strange or unfamiliar.</p>
+<ol><li>Some <em>creature</em> was scratching around under the deck all night.</li><li>Tide pools are full of tiny <em>creatures</em>.</li><li>It looked like a <em>creature</em> out of a science fiction movie.</li></ol>
+<hr>
+<h3 id="critter">critter<a class="hash" href="#critter" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/ˈkrɪtər/ &middot; <em>KRIT-ur</em></dd><dt>Русский</dt><dd>зверушка, живность (разг.)</dd><dt>Plural</dt><dd><em>critters</em></dd><dt>Countability</dt><dd>countable</dd></dl>
+<p>An informal American word for any small animal or insect.</p>
+<ol><li>Some <em>critter</em> has been digging up the flower beds.</li><li>The woods around the cabin are full of <em>critters</em>.</li><li>He caught the <em>critter</em> in a jar and let it go outside.</li></ol>
+<hr>
+<h3 id="fly">fly<a class="hash" href="#fly" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/flaɪ/ &middot; <em>FLY</em></dd><dt>Русский</dt><dd>муха</dd><dt>Plural</dt><dd><em>flies</em></dd><dt>Countability</dt><dd>countable</dd></dl>
+<p>A small flying insect with two wings that is often found around food and garbage.</p>
+<ol><li>There's a <em>fly</em> buzzing against the kitchen window.</li><li>Close the lid or you'll have <em>flies</em> all over the trash.</li><li>He swatted the <em>fly</em> with a rolled-up magazine.</li></ol>
+<hr>
+<h3 id="housefly">housefly<a class="hash" href="#housefly" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/ˈhaʊsflaɪ/ &middot; <em>HOWS-fly</em></dd><dt>Русский</dt><dd>комнатная муха</dd><dt>Plural</dt><dd><em>houseflies</em></dd><dt>Countability</dt><dd>countable</dd></dl>
+<p>The common gray fly that gets into kitchens and lands on food.</p>
+<ol><li>A single <em>housefly</em> can ruin a picnic.</li><li><em>Houseflies</em> were bouncing off the screen all afternoon.</li><li>That's just a <em>housefly</em>, not a wasp.</li></ol>
+<hr>
+<h3 id="horsefly">horsefly<a class="hash" href="#horsefly" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/ˈhɔːrsflaɪ/ &middot; <em>HORS-fly</em></dd><dt>Русский</dt><dd>слепень</dd><dt>Plural</dt><dd><em>horseflies</em></dd><dt>Countability</dt><dd>countable</dd></dl>
+<p>A large biting fly whose bite is sharply painful.</p>
+<ol><li>A <em>horsefly</em> got me on the back of the leg.</li><li>The <em>horseflies</em> down by the lake are brutal in August.</li><li>You feel a <em>horsefly</em> bite immediately.</li></ol>
+<hr>
+<h3 id="gnat">gnat<a class="hash" href="#gnat" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/næt/ &middot; <em>NAT</em></dd><dt>Русский</dt><dd>мошка</dd><dt>Plural</dt><dd><em>gnats</em></dd><dt>Countability</dt><dd>countable</dd><dt>Contrast</dt><dd>The g is silent: gnat is said exactly like nat, not with a g at the front.</dd></dl>
+<p>A very small flying insect that gathers in clouds near water or fruit.</p>
+<ol><li>A cloud of <em>gnats</em> hung over the trail.</li><li>There's a <em>gnat</em> in my wine glass.</li><li>The <em>gnats</em> came out as soon as the sun went down.</li></ol>
+<hr>
+<h3 id="midge">midge<a class="hash" href="#midge" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/mɪdʒ/ &middot; <em>MIJ</em></dd><dt>Русский</dt><dd>мошка, комарик</dd><dt>Plural</dt><dd><em>midges</em></dd><dt>Countability</dt><dd>countable</dd></dl>
+<p>A tiny two-winged fly that swarms near lakes and streams.</p>
+<ol><li><em>Midges</em> were rising off the water at dusk.</li><li>A <em>midge</em> flew straight into my eye.</li><li>The fish were feeding on <em>midges</em> all evening.</li></ol>
+<hr>
+<h3 id="maggot">maggot<a class="hash" href="#maggot" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/ˈmæɡət/ &middot; <em>MAG-uht</em></dd><dt>Русский</dt><dd>личинка мухи, опарыш</dd><dt>Plural</dt><dd><em>maggots</em></dd><dt>Countability</dt><dd>countable</dd></dl>
+<p>The soft white legless young of a fly.</p>
+<ol><li>There were <em>maggots</em> in the bottom of the trash can.</li><li>He uses a <em>maggot</em> as bait when he fishes for bluegill.</li><li>Meat left out in the heat will be full of <em>maggots</em> by morning.</li></ol>
+<hr>
+<h3 id="grub">grub<a class="hash" href="#grub" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/ɡrʌb/ &middot; <em>GRUB</em></dd><dt>Русский</dt><dd>личинка (жука)</dd><dt>Plural</dt><dd><em>grubs</em></dd><dt>Countability</dt><dd>countable</dd></dl>
+<p>The thick pale larva of a beetle, usually found in soil.</p>
+<ol><li>The lawn died because <em>grubs</em> ate the roots.</li><li>I turned over a rock and found a fat white <em>grub</em>.</li><li>Skunks dig up the yard looking for <em>grubs</em>.</li></ol>
+<hr>
+<h3 id="bee">bee<a class="hash" href="#bee" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/biː/ &middot; <em>BEE</em></dd><dt>Русский</dt><dd>пчела</dd><dt>Plural</dt><dd><em>bees</em></dd><dt>Countability</dt><dd>countable</dd><dt>Contrast</dt><dd>Bee sounds exactly like the verb be — only context tells them apart in speech.</dd></dl>
+<p>A flying insect that gathers nectar from flowers and can sting.</p>
+<ol><li>A <em>bee</em> landed on the rim of my soda can.</li><li>The lavender out front is always covered in <em>bees</em>.</li><li>He's allergic, so a <em>bee</em> sting is a real emergency.</li></ol>
+<hr>
+<h3 id="honeybee">honeybee<a class="hash" href="#honeybee" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/ˈhʌnibiː/ &middot; <em>HUN-ee-bee</em></dd><dt>Русский</dt><dd>медоносная пчела</dd><dt>Plural</dt><dd><em>honeybees</em></dd><dt>Countability</dt><dd>countable</dd></dl>
+<p>The kind of bee that people keep in hives to produce honey.</p>
+<ol><li>A single <em>honeybee</em> visits thousands of flowers a day.</li><li><em>Honeybees</em> pollinate about a third of what we eat.</li><li>That's a <em>honeybee</em>, not a wasp — look at the fuzzy body.</li></ol>
+<hr>
+<h3 id="bumblebee">bumblebee<a class="hash" href="#bumblebee" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/ˈbʌmbəlbiː/ &middot; <em>BUM-buhl-bee</em></dd><dt>Русский</dt><dd>шмель</dd><dt>Plural</dt><dd><em>bumblebees</em></dd><dt>Countability</dt><dd>countable</dd></dl>
+<p>A large round furry bee with a loud low buzz.</p>
+<ol><li>A <em>bumblebee</em> was bumping against the porch light.</li><li><em>Bumblebees</em> nest in the ground, not in hives.</li><li>The <em>bumblebee</em> was so heavy it bent the flower over.</li></ol>
+<hr>
+<h3 id="wasp">wasp<a class="hash" href="#wasp" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/wɑːsp/ &middot; <em>WAHSP</em></dd><dt>Русский</dt><dd>оса</dd><dt>Plural</dt><dd><em>wasps</em></dd><dt>Countability</dt><dd>countable</dd><dt>Contrast</dt><dd>Spelled with a but pronounced with the ah of hot: WAHSP, never WASP with the vowel of cat.</dd></dl>
+<p>A slender stinging insect with a narrow waist and a smooth body.</p>
+<ol><li>A <em>wasp</em> built a nest under the eaves.</li><li><em>Wasps</em> get aggressive around food in late summer.</li><li>Unlike a bee, a <em>wasp</em> can sting you more than once.</li></ol>
+<hr>
+<h3 id="hornet">hornet<a class="hash" href="#hornet" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/ˈhɔːrnɪt/ &middot; <em>HOR-nit</em></dd><dt>Русский</dt><dd>шершень</dd><dt>Plural</dt><dd><em>hornets</em></dd><dt>Countability</dt><dd>countable</dd></dl>
+<p>A large aggressive wasp with a powerful sting.</p>
+<ol><li>A <em>hornet</em> flew in through the open window.</li><li>Don't go near that tree — there are <em>hornets</em> in it.</li><li>A <em>hornet</em> sting hurts for hours.</li></ol>
+<hr>
+<h3 id="yellow-jacket">yellow jacket<a class="hash" href="#yellow-jacket" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/ˈjeloʊ ˌdʒækɪt/ &middot; <em>YEL-oh-jak-it</em></dd><dt>Русский</dt><dd>оса (жёлто-чёрная)</dd><dt>Plural</dt><dd><em>yellow jackets</em></dd><dt>Countability</dt><dd>countable</dd><dt>Contrast</dt><dd>Americans call this wasp a yellow jacket, not a bee — the mistake matters, because yellow jackets sting repeatedly.</dd></dl>
+<p>A small black and yellow wasp common around picnics and garbage cans.</p>
+<ol><li><em>Yellow jackets</em> were all over the soda cans.</li><li>A <em>yellow jacket</em> got into the car on the drive home.</li><li>We found a <em>yellow jacket</em> nest in the ground by the shed.</li></ol>
+<hr>
+<h3 id="hive">hive<a class="hash" href="#hive" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/haɪv/ &middot; <em>HYV</em></dd><dt>Русский</dt><dd>улей</dd><dt>Plural</dt><dd><em>hives</em></dd><dt>Countability</dt><dd>countable</dd></dl>
+<p>A structure where a colony of bees lives.</p>
+<ol><li>He keeps four <em>hives</em> behind the barn.</li><li>The whole <em>hive</em> went quiet when it got cold.</li><li>Smoke calms the bees before you open the <em>hive</em>.</li></ol>
+<hr>
+<h3 id="beehive">beehive<a class="hash" href="#beehive" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/ˈbiːhaɪv/ &middot; <em>BEE-hyv</em></dd><dt>Русский</dt><dd>пчелиный улей</dd><dt>Plural</dt><dd><em>beehives</em></dd><dt>Countability</dt><dd>countable</dd></dl>
+<p>A box or natural hollow in which bees live and store honey.</p>
+<ol><li>There's a wild <em>beehive</em> in that hollow oak.</li><li>The city lets residents keep <em>beehives</em> on the roof.</li><li>He painted each <em>beehive</em> a different color.</li></ol>
+<hr>
+<h3 id="honeycomb">honeycomb<a class="hash" href="#honeycomb" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/ˈhʌnikoʊm/ &middot; <em>HUN-ee-kohm</em></dd><dt>Русский</dt><dd>соты</dd><dt>Plural</dt><dd><em>honeycombs</em></dd><dt>Countability</dt><dd>countable, and uncountable as a substance</dd><dt>Contrast</dt><dd>The b in comb is silent: the word ends in -kohm, like comb itself.</dd></dl>
+<p>The wax structure of six-sided cells that bees build to hold honey.</p>
+<ol><li>She served the bread with a slab of <em>honeycomb</em>.</li><li>The <em>honeycomb</em> was heavy with honey.</li><li>They cut the <em>honeycombs</em> out and pressed them.</li></ol>
+<hr>
+<h3 id="beekeeper">beekeeper<a class="hash" href="#beekeeper" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/ˈbiːkiːpər/ &middot; <em>BEE-kee-pur</em></dd><dt>Русский</dt><dd>пчеловод</dd><dt>Plural</dt><dd><em>beekeepers</em></dd><dt>Countability</dt><dd>countable</dd></dl>
+<p>Someone who keeps bees for honey or for pollination.</p>
+<ol><li>A local <em>beekeeper</em> sells honey at the farmers market.</li><li><em>Beekeepers</em> lost a lot of colonies over the winter.</li><li>The <em>beekeeper</em> showed us how to lift a frame.</li></ol>
+<hr>
+<h3 id="beeswax">beeswax<a class="hash" href="#beeswax" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/ˈbiːzwæks/ &middot; <em>BEEZ-waks</em></dd><dt>Русский</dt><dd>пчелиный воск</dd><dt>Countability</dt><dd>uncountable</dd></dl>
+<p>The wax that bees make and use to build honeycomb.</p>
+<ol><li>The candles are pure <em>beeswax</em>.</li><li>She rubs <em>beeswax</em> into the cutting board.</li><li>That lip balm is mostly <em>beeswax</em> and coconut oil.</li></ol>
+<hr>
+<h3 id="pollinator">pollinator<a class="hash" href="#pollinator" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/ˈpɑːləneɪtər/ &middot; <em>PAH-luh-nay-tur</em></dd><dt>Русский</dt><dd>опылитель</dd><dt>Plural</dt><dd><em>pollinators</em></dd><dt>Countability</dt><dd>countable</dd></dl>
+<p>An insect or animal that moves pollen from flower to flower.</p>
+<ol><li>Bees are not the only <em>pollinator</em> in the garden.</li><li>They planted wildflowers to bring in <em>pollinators</em>.</li><li>Moths are important <em>pollinators</em> at night.</li></ol>
+<hr>
+<h3 id="stinger">stinger<a class="hash" href="#stinger" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/ˈstɪŋər/ &middot; <em>STING-ur</em></dd><dt>Русский</dt><dd>жало</dd><dt>Plural</dt><dd><em>stingers</em></dd><dt>Countability</dt><dd>countable</dd><dt>Contrast</dt><dd>Americans say stinger for the body part; the British usually call it a sting.</dd></dl>
+<p>The sharp part of a bee or wasp that injects venom.</p>
+<ol><li>Scrape the <em>stinger</em> out with a credit card.</li><li>A honeybee leaves its <em>stinger</em> behind and dies.</li><li>Wasps have smooth <em>stingers</em>, so they can sting again.</li></ol>
+<hr>
+<h3 id="sting">sting<a class="hash" href="#sting" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/stɪŋ/ &middot; <em>STING</em></dd><dt>Русский</dt><dd>укус (жалящего насекомого)</dd><dt>Plural</dt><dd><em>stings</em></dd><dt>Countability</dt><dd>countable</dd><dt>Contrast</dt><dd>Bees and wasps sting; mosquitoes and spiders bite. Russian укус covers both, but English never says a bee bite.</dd></dl>
+<p>A painful wound made by a bee, wasp, or scorpion.</p>
+<ol><li>The <em>sting</em> swelled up by the next morning.</li><li>He's had three wasp <em>stings</em> this summer.</li><li>A scorpion <em>sting</em> is rarely fatal in this country.</li></ol>
+<hr>
+<h3 id="bite">bite<a class="hash" href="#bite" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/baɪt/ &middot; <em>BYT</em></dd><dt>Русский</dt><dd>укус</dd><dt>Plural</dt><dd><em>bites</em></dd><dt>Countability</dt><dd>countable</dd><dt>Contrast</dt><dd>Use bite for mosquitoes, spiders, ticks, and snakes, but sting for bees and wasps.</dd></dl>
+<p>A mark or wound left where an insect or animal has bitten.</p>
+<ol><li>I woke up with three <em>bites</em> on my ankle.</li><li>Don't scratch the <em>bite</em> or it'll get infected.</li><li>A spider <em>bite</em> can take weeks to heal.</li></ol>
+<hr>
+<h3 id="ant">ant<a class="hash" href="#ant" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/ænt/ &middot; <em>ANT</em></dd><dt>Русский</dt><dd>муравей</dd><dt>Plural</dt><dd><em>ants</em></dd><dt>Countability</dt><dd>countable</dd><dt>Contrast</dt><dd>For most Americans ant sounds exactly like aunt — the word for your parent's sister.</dd></dl>
+<p>A small social insect that lives in large underground colonies.</p>
+<ol><li>There's a line of <em>ants</em> going into the pantry.</li><li>One <em>ant</em> can carry many times its own weight.</li><li>The <em>ants</em> found the sugar in about ten minutes.</li></ol>
+<hr>
+<h3 id="anthill">anthill<a class="hash" href="#anthill" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/ˈænthɪl/ &middot; <em>ANT-hil</em></dd><dt>Русский</dt><dd>муравейник</dd><dt>Plural</dt><dd><em>anthills</em></dd><dt>Countability</dt><dd>countable</dd></dl>
+<p>The mound of dirt an ant colony pushes up over its nest.</p>
+<ol><li>He stepped right on an <em>anthill</em> in flip-flops.</li><li>There are <em>anthills</em> all along the driveway.</li><li>The rain flattened the <em>anthill</em> overnight.</li></ol>
+<hr>
+<h3 id="beetle">beetle<a class="hash" href="#beetle" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/ˈbiːtəl/ &middot; <em>BEE-tuhl</em></dd><dt>Русский</dt><dd>жук</dd><dt>Plural</dt><dd><em>beetles</em></dd><dt>Countability</dt><dd>countable</dd></dl>
+<p>An insect with hard wing covers that meet in a straight line down its back.</p>
+<ol><li>A shiny green <em>beetle</em> landed on the railing.</li><li><em>Beetles</em> are the largest group of insects on earth.</li><li>The <em>beetle</em> rolled onto its back and couldn't get up.</li></ol>
+<hr>
+<h3 id="ladybug">ladybug<a class="hash" href="#ladybug" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/ˈleɪdibʌɡ/ &middot; <em>LAY-dee-bug</em></dd><dt>Русский</dt><dd>божья коровка</dd><dt>Plural</dt><dd><em>ladybugs</em></dd><dt>Countability</dt><dd>countable</dd><dt>Contrast</dt><dd>Americans say ladybug; the British say ladybird for the same insect.</dd></dl>
+<p>A small round red beetle with black spots.</p>
+<ol><li>A <em>ladybug</em> crawled across the back of my hand.</li><li><em>Ladybugs</em> eat aphids, so gardeners love them.</li><li>Every fall a few <em>ladybugs</em> get into the house.</li></ol>
+<hr>
+<h3 id="firefly">firefly<a class="hash" href="#firefly" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/ˈfaɪrrflaɪ/ &middot; <em>FYR-fly</em></dd><dt>Русский</dt><dd>светлячок</dd><dt>Plural</dt><dd><em>fireflies</em></dd><dt>Countability</dt><dd>countable</dd><dt>Contrast</dt><dd>Much of the American South and Midwest says lightning bug instead of firefly — same insect, different region.</dd></dl>
+<p>A beetle that flashes light from its abdomen on summer nights.</p>
+<ol><li>The field was full of <em>fireflies</em> after sunset.</li><li>We caught <em>fireflies</em> in a jar and let them go.</li><li>I saw the first <em>firefly</em> of the summer last night.</li></ol>
+<hr>
+<h3 id="weevil">weevil<a class="hash" href="#weevil" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/ˈwiːvəl/ &middot; <em>WEE-vuhl</em></dd><dt>Русский</dt><dd>долгоносик</dd><dt>Plural</dt><dd><em>weevils</em></dd><dt>Countability</dt><dd>countable</dd></dl>
+<p>A small beetle with a long snout that feeds on grain and seeds.</p>
+<ol><li>There were <em>weevils</em> in the bag of flour.</li><li>A single <em>weevil</em> can ruin a whole jar of rice.</li><li>Boll <em>weevils</em> wiped out the cotton crop that year.</li></ol>
+<hr>
+<h3 id="stinkbug">stinkbug<a class="hash" href="#stinkbug" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/ˈstɪŋkbʌɡ/ &middot; <em>STINK-bug</em></dd><dt>Русский</dt><dd>клоп-вонючка</dd><dt>Plural</dt><dd><em>stinkbugs</em></dd><dt>Countability</dt><dd>countable</dd></dl>
+<p>A shield-shaped bug that gives off a bad smell when disturbed.</p>
+<ol><li>Don't squash the <em>stinkbug</em> — you'll regret it.</li><li><em>Stinkbugs</em> come inside as soon as it gets cold.</li><li>I vacuumed a <em>stinkbug</em> off the curtain.</li></ol>
+<hr>
+<h3 id="butterfly">butterfly<a class="hash" href="#butterfly" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/ˈbʌtərflaɪ/ &middot; <em>BUT-ur-fly</em></dd><dt>Русский</dt><dd>бабочка</dd><dt>Plural</dt><dd><em>butterflies</em></dd><dt>Countability</dt><dd>countable</dd></dl>
+<p>An insect with large colorful wings that flies during the day.</p>
+<ol><li>A <em>butterfly</em> landed on the edge of the birdbath.</li><li>The milkweed brings <em>butterflies</em> into the yard.</li><li>She photographed the <em>butterfly</em> before it flew off.</li></ol>
+<hr>
+<h3 id="moth">moth<a class="hash" href="#moth" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/mɔːθ/ &middot; <em>MAWTH</em></dd><dt>Русский</dt><dd>мотылёк, моль</dd><dt>Plural</dt><dd><em>moths</em></dd><dt>Countability</dt><dd>countable</dd><dt>Contrast</dt><dd>The plural moths is usually said with a voiced th, like mawthz, not mawths.</dd></dl>
+<p>A dull-colored insect like a butterfly that flies mostly at night.</p>
+<ol><li>A big brown <em>moth</em> kept hitting the porch light.</li><li><em>Moths</em> got into the wool sweaters in the closet.</li><li>The <em>moth</em> left dust on my fingers.</li></ol>
+<hr>
+<h3 id="caterpillar">caterpillar<a class="hash" href="#caterpillar" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/ˈkætərpɪlər/ &middot; <em>KAT-ur-pil-ur</em></dd><dt>Русский</dt><dd>гусеница</dd><dt>Plural</dt><dd><em>caterpillars</em></dd><dt>Countability</dt><dd>countable</dd></dl>
+<p>The long soft larva of a butterfly or moth.</p>
+<ol><li>A fuzzy <em>caterpillar</em> was inching along the fence.</li><li><em>Caterpillars</em> stripped every leaf off the parsley.</li><li>The kids kept a <em>caterpillar</em> in a jar until it changed.</li></ol>
+<hr>
+<h3 id="cocoon">cocoon<a class="hash" href="#cocoon" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/kəˈkuːn/ &middot; <em>kuh-KOON</em></dd><dt>Русский</dt><dd>кокон</dd><dt>Plural</dt><dd><em>cocoons</em></dd><dt>Countability</dt><dd>countable</dd><dt>Contrast</dt><dd>The stress is on the second syllable, kuh-KOON, not on the first.</dd></dl>
+<p>The silk case a caterpillar spins around itself before becoming a moth.</p>
+<ol><li>There's a <em>cocoon</em> stuck to the underside of the leaf.</li><li>The moth came out of its <em>cocoon</em> overnight.</li><li>We found two <em>cocoons</em> in the woodpile.</li></ol>
+<hr>
+<h3 id="grasshopper">grasshopper<a class="hash" href="#grasshopper" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/ˈɡræshɑːpər/ &middot; <em>GRAS-hah-pur</em></dd><dt>Русский</dt><dd>кузнечик</dd><dt>Plural</dt><dd><em>grasshoppers</em></dd><dt>Countability</dt><dd>countable</dd></dl>
+<p>A jumping insect with long back legs that lives in grass.</p>
+<ol><li>A <em>grasshopper</em> jumped out of the mower's path.</li><li>The field was alive with <em>grasshoppers</em>.</li><li>He caught a <em>grasshopper</em> to use as bait.</li></ol>
+<hr>
+<h3 id="cricket">cricket<a class="hash" href="#cricket" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/ˈkrɪkɪt/ &middot; <em>KRIK-it</em></dd><dt>Русский</dt><dd>сверчок</dd><dt>Plural</dt><dd><em>crickets</em></dd><dt>Countability</dt><dd>countable</dd></dl>
+<p>A small dark jumping insect that chirps loudly at night.</p>
+<ol><li>A <em>cricket</em> got into the basement and chirped all night.</li><li>You could hear <em>crickets</em> through the open window.</li><li>The pet store sells <em>crickets</em> to feed to lizards.</li></ol>
+<hr>
+<h3 id="locust">locust<a class="hash" href="#locust" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/ˈloʊkəst/ &middot; <em>LOH-kuhst</em></dd><dt>Русский</dt><dd>саранча</dd><dt>Plural</dt><dd><em>locusts</em></dd><dt>Countability</dt><dd>countable</dd></dl>
+<p>A grasshopper that travels in huge destructive swarms.</p>
+<ol><li><em>Locusts</em> ate everything in the fields.</li><li>A single <em>locust</em> is harmless; a million of them are not.</li><li>The swarm of <em>locusts</em> darkened the sky.</li></ol>
+<hr>
+<h3 id="cicada">cicada<a class="hash" href="#cicada" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/sɪˈkeɪdə/ &middot; <em>sih-KAY-duh</em></dd><dt>Русский</dt><dd>цикада</dd><dt>Plural</dt><dd><em>cicadas</em></dd><dt>Countability</dt><dd>countable</dd><dt>Contrast</dt><dd>Americans say sih-KAY-duh; the British say sih-KAH-duh.</dd></dl>
+<p>A large insect that makes a loud buzzing noise on hot summer days.</p>
+<ol><li>The <em>cicadas</em> were deafening by mid-afternoon.</li><li>A <em>cicada</em> shell was stuck to the tree trunk.</li><li>This is the year the seventeen-year <em>cicadas</em> come out.</li></ol>
+<hr>
+<h3 id="dragonfly">dragonfly<a class="hash" href="#dragonfly" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/ˈdræɡənflaɪ/ &middot; <em>DRAG-uhn-fly</em></dd><dt>Русский</dt><dd>стрекоза</dd><dt>Plural</dt><dd><em>dragonflies</em></dd><dt>Countability</dt><dd>countable</dd></dl>
+<p>A fast insect with a long thin body and two pairs of clear wings.</p>
+<ol><li>A blue <em>dragonfly</em> hovered over the pond.</li><li><em>Dragonflies</em> eat mosquitoes by the hundreds.</li><li>The <em>dragonfly</em> landed on the tip of the paddle.</li></ol>
+<hr>
+<h3 id="mantis">mantis<a class="hash" href="#mantis" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/ˈmæntɪs/ &middot; <em>MAN-tis</em></dd><dt>Русский</dt><dd>богомол</dd><dt>Plural</dt><dd><em>mantises</em></dd><dt>Countability</dt><dd>countable</dd><dt>Contrast</dt><dd>It is a praying mantis, from prayer — not preying, even though the insect does prey on other insects.</dd></dl>
+<p>A long green insect that holds its front legs folded as if praying.</p>
+<ol><li>A <em>mantis</em> was sitting on the screen door.</li><li><em>Mantises</em> will eat almost any insect they can catch.</li><li>The praying <em>mantis</em> turned its head to look at me.</li></ol>
+<hr>
+<h3 id="cockroach">cockroach<a class="hash" href="#cockroach" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/ˈkɑːkroʊtʃ/ &middot; <em>KAHK-rohch</em></dd><dt>Русский</dt><dd>таракан</dd><dt>Plural</dt><dd><em>cockroaches</em></dd><dt>Countability</dt><dd>countable</dd></dl>
+<p>A flat brown insect that lives in buildings and comes out at night.</p>
+<ol><li>A <em>cockroach</em> ran under the refrigerator when I hit the light.</li><li>The apartment had <em>cockroaches</em> in every cabinet.</li><li>One <em>cockroach</em> usually means there are many more.</li></ol>
+<hr>
+<h3 id="roach">roach<a class="hash" href="#roach" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/roʊtʃ/ &middot; <em>ROHCH</em></dd><dt>Русский</dt><dd>таракан (разг.)</dd><dt>Plural</dt><dd><em>roaches</em></dd><dt>Countability</dt><dd>countable</dd></dl>
+<p>The everyday American short form of cockroach.</p>
+<ol><li>The building has a <em>roach</em> problem.</li><li>I saw a <em>roach</em> on the counter last night.</li><li>They sprayed for <em>roaches</em> twice and it still didn't help.</li></ol>
+<hr>
+<h3 id="termite">termite<a class="hash" href="#termite" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/ˈtɜːrmaɪt/ &middot; <em>TUR-myt</em></dd><dt>Русский</dt><dd>термит</dd><dt>Plural</dt><dd><em>termites</em></dd><dt>Countability</dt><dd>countable</dd><dt>Contrast</dt><dd>Stress falls on the first syllable, TUR-myt, unlike Russian термит.</dd></dl>
+<p>A pale soft insect that eats wood and destroys buildings.</p>
+<ol><li>The inspector found <em>termites</em> in the floor joists.</li><li>A <em>termite</em> colony can go undetected for years.</li><li><em>Termite</em> damage isn't covered by the insurance.</li></ol>
+<hr>
+<h3 id="earwig">earwig<a class="hash" href="#earwig" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/ˈɪrwɪɡ/ &middot; <em>EER-wig</em></dd><dt>Русский</dt><dd>уховёртка</dd><dt>Plural</dt><dd><em>earwigs</em></dd><dt>Countability</dt><dd>countable</dd></dl>
+<p>A slim brown insect with a pair of pincers at the end of its body.</p>
+<ol><li>An <em>earwig</em> fell out of the folded umbrella.</li><li><em>Earwigs</em> hide under flowerpots during the day.</li><li>The <em>earwig</em> pinched me, but it barely hurt.</li></ol>
+<hr>
+<h3 id="silverfish">silverfish<a class="hash" href="#silverfish" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/ˈsɪlvərfɪʃ/ &middot; <em>SIL-vur-fish</em></dd><dt>Русский</dt><dd>чешуйница</dd><dt>Plural</dt><dd><em>silverfish</em></dd><dt>Countability</dt><dd>countable</dd><dt>Contrast</dt><dd>The plural is silverfish, with no -es, exactly like the plural of fish.</dd></dl>
+<p>A small wingless gray insect that lives in damp places like bathrooms.</p>
+<ol><li>A <em>silverfish</em> darted across the bathroom tile.</li><li><em>Silverfish</em> had eaten the edges of the old books.</li><li>We found <em>silverfish</em> behind the baseboards.</li></ol>
+<hr>
+<h3 id="bedbug">bedbug<a class="hash" href="#bedbug" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/ˈbedbʌɡ/ &middot; <em>BED-bug</em></dd><dt>Русский</dt><dd>постельный клоп</dd><dt>Plural</dt><dd><em>bedbugs</em></dd><dt>Countability</dt><dd>countable</dd></dl>
+<p>A small flat insect that lives in mattresses and bites people at night.</p>
+<ol><li>The hotel had to close two floors because of <em>bedbugs</em>.</li><li>She checks the mattress seams for <em>bedbugs</em> in every hotel.</li><li>A single <em>bedbug</em> in your suitcase is enough to start an infestation.</li></ol>
+<hr>
+<h3 id="aphid">aphid<a class="hash" href="#aphid" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/ˈeɪfɪd/ &middot; <em>AY-fid</em></dd><dt>Русский</dt><dd>тля</dd><dt>Plural</dt><dd><em>aphids</em></dd><dt>Countability</dt><dd>countable</dd></dl>
+<p>A tiny soft insect that sucks sap and covers the stems of plants.</p>
+<ol><li>The rosebuds are covered in <em>aphids</em>.</li><li>Soapy water knocks the <em>aphids</em> off.</li><li>One ladybug will eat dozens of <em>aphids</em> a day.</li></ol>
+<hr>
+<h3 id="flea">flea<a class="hash" href="#flea" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/fliː/ &middot; <em>FLEE</em></dd><dt>Русский</dt><dd>блоха</dd><dt>Plural</dt><dd><em>fleas</em></dd><dt>Countability</dt><dd>countable</dd><dt>Contrast</dt><dd>Flea sounds exactly like flee, the verb meaning to run away.</dd></dl>
+<p>A tiny jumping insect that lives on animals and feeds on blood.</p>
+<ol><li>The dog picked up <em>fleas</em> at the kennel.</li><li>One <em>flea</em> can jump a hundred times its own length.</li><li>We had to treat the carpet for <em>fleas</em>.</li></ol>
+<hr>
+<h3 id="tick">tick<a class="hash" href="#tick" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/tɪk/ &middot; <em>TIK</em></dd><dt>Русский</dt><dd>клещ</dd><dt>Plural</dt><dd><em>ticks</em></dd><dt>Countability</dt><dd>countable</dd><dt>Contrast</dt><dd>In American English a checkmark is a check, not a tick — tick is the insect or the sound of a clock.</dd></dl>
+<p>A small blood-sucking creature that attaches itself to skin and can carry disease.</p>
+<ol><li>Check the kids for <em>ticks</em> after they come in from the woods.</li><li>He pulled a <em>tick</em> off his ankle with tweezers.</li><li><em>Ticks</em> around here carry Lyme disease.</li></ol>
+<hr>
+<h3 id="mite">mite<a class="hash" href="#mite" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/maɪt/ &middot; <em>MYT</em></dd><dt>Русский</dt><dd>клещик (микроскопический)</dd><dt>Plural</dt><dd><em>mites</em></dd><dt>Countability</dt><dd>countable</dd><dt>Contrast</dt><dd>Mite sounds exactly like might, the modal verb.</dd></dl>
+<p>A microscopic relative of the tick that lives in dust, bedding, or on plants.</p>
+<ol><li>Dust <em>mites</em> are the reason her allergies flare up indoors.</li><li>The vet found ear <em>mites</em> in both cats.</li><li>A single <em>mite</em> is too small to see.</li></ol>
+<hr>
+<h3 id="exoskeleton">exoskeleton<a class="hash" href="#exoskeleton" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/ˌeksoʊˈskelətən/ &middot; <em>ek-soh-SKEL-uh-tuhn</em></dd><dt>Русский</dt><dd>наружный скелет, экзоскелет</dd><dt>Plural</dt><dd><em>exoskeletons</em></dd><dt>Countability</dt><dd>countable</dd></dl>
+<p>The hard outer shell that supports and protects an insect's body.</p>
+<ol><li>An insect grows by shedding its <em>exoskeleton</em>.</li><li>The empty <em>exoskeleton</em> was still clinging to the bark.</li><li>Crabs and beetles both have <em>exoskeletons</em>.</li></ol>
+<hr>
+<h3 id="thorax">thorax<a class="hash" href="#thorax" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/ˈθɔːræks/ &middot; <em>THOR-aks</em></dd><dt>Русский</dt><dd>грудь (у насекомого)</dd><dt>Plural</dt><dd><em>thoraxes</em></dd><dt>Countability</dt><dd>countable</dd><dt>Contrast</dt><dd>Both thoraxes and the Latin plural thoraces are used; thoraxes is the safer everyday choice.</dd></dl>
+<p>The middle section of an insect's body, where the legs and wings attach.</p>
+<ol><li>All six legs come out of the <em>thorax</em>.</li><li>The wasp's <em>thorax</em> was banded in yellow.</li><li>You can tell the species apart by the markings on their <em>thoraxes</em>.</li></ol>
+<hr>
+<h3 id="spider">spider<a class="hash" href="#spider" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/ˈspaɪdər/ &middot; <em>SPY-dur</em></dd><dt>Русский</dt><dd>паук</dd><dt>Plural</dt><dd><em>spiders</em></dd><dt>Countability</dt><dd>countable</dd><dt>Contrast</dt><dd>A spider is not an insect — it has eight legs and no wings — though English speakers casually call it a bug.</dd></dl>
+<p>A creature with eight legs that spins webs and catches insects.</p>
+<ol><li>There's a <em>spider</em> in the corner of the ceiling.</li><li>Most <em>spiders</em> in this country are completely harmless.</li><li>She caught the <em>spider</em> in a cup and put it outside.</li></ol>
+<hr>
+<h3 id="web">web<a class="hash" href="#web" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/web/ &middot; <em>WEB</em></dd><dt>Русский</dt><dd>паутина</dd><dt>Plural</dt><dd><em>webs</em></dd><dt>Countability</dt><dd>countable</dd></dl>
+<p>The net of silk threads a spider spins to catch prey.</p>
+<ol><li>A <em>web</em> stretched right across the doorway.</li><li>The morning dew made the <em>webs</em> visible.</li><li>A moth was struggling in the <em>web</em>.</li></ol>
+<hr>
+<h3 id="spiderweb">spiderweb<a class="hash" href="#spiderweb" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/ˈspaɪdərweb/ &middot; <em>SPY-dur-web</em></dd><dt>Русский</dt><dd>паутина</dd><dt>Plural</dt><dd><em>spiderwebs</em></dd><dt>Countability</dt><dd>countable</dd><dt>Contrast</dt><dd>Americans write it as one word, spiderweb; the British normally say spider's web.</dd></dl>
+<p>A spider's web, especially a large or noticeable one.</p>
+<ol><li>I walked face-first into a <em>spiderweb</em>.</li><li>There were <em>spiderwebs</em> in every corner of the shed.</li><li>Frost outlined the <em>spiderweb</em> on the window.</li></ol>
+<hr>
+<h3 id="cobweb">cobweb<a class="hash" href="#cobweb" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/ˈkɑːbweb/ &middot; <em>KAHB-web</em></dd><dt>Русский</dt><dd>паутина (старая, пыльная)</dd><dt>Plural</dt><dd><em>cobwebs</em></dd><dt>Countability</dt><dd>countable</dd></dl>
+<p>An old dusty spider's web left hanging in a corner.</p>
+<ol><li>The ceiling was hung with <em>cobwebs</em>.</li><li>She swept a <em>cobweb</em> off the light fixture.</li><li>Nobody had been in the room for years — <em>cobwebs</em> everywhere.</li></ol>
+<hr>
+<h3 id="tarantula">tarantula<a class="hash" href="#tarantula" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/təˈræntʃələ/ &middot; <em>tuh-RAN-chuh-luh</em></dd><dt>Русский</dt><dd>тарантул</dd><dt>Plural</dt><dd><em>tarantulas</em></dd><dt>Countability</dt><dd>countable</dd><dt>Contrast</dt><dd>The -tula ending is said -chuh-luh, not -too-luh.</dd></dl>
+<p>A large hairy spider, some kinds of which are kept as pets.</p>
+<ol><li>His roommate keeps a <em>tarantula</em> in a tank.</li><li>A <em>tarantula</em> crossed the road in front of the truck.</li><li><em>Tarantulas</em> look terrifying but rarely bite people.</li></ol>
+<hr>
+<h3 id="scorpion">scorpion<a class="hash" href="#scorpion" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/ˈskɔːrpiən/ &middot; <em>SKOR-pee-uhn</em></dd><dt>Русский</dt><dd>скорпион</dd><dt>Plural</dt><dd><em>scorpions</em></dd><dt>Countability</dt><dd>countable</dd><dt>Contrast</dt><dd>Stress is on the first syllable, SKOR-pee-uhn, unlike Russian скорпион.</dd></dl>
+<p>A desert creature with claws and a curved tail that carries a sting.</p>
+<ol><li>Shake out your boots — <em>scorpions</em> crawl into them.</li><li>A <em>scorpion</em> was sitting in the bathtub.</li><li>Most <em>scorpions</em> here can hurt you but not kill you.</li></ol>
+<hr>
+<h3 id="arachnid">arachnid<a class="hash" href="#arachnid" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/əˈræknɪd/ &middot; <em>uh-RAK-nid</em></dd><dt>Русский</dt><dd>паукообразное</dd><dt>Plural</dt><dd><em>arachnids</em></dd><dt>Countability</dt><dd>countable</dd><dt>Contrast</dt><dd>The ch is a hard k sound: uh-RAK-nid.</dd></dl>
+<p>An eight-legged creature such as a spider, tick, mite, or scorpion.</p>
+<ol><li>Scorpions and spiders are both <em>arachnids</em>.</li><li>The exhibit covers insects and <em>arachnids</em> separately.</li><li>A tick is an <em>arachnid</em>, not an insect.</li></ol>
+<hr>
+<h3 id="worm">worm<a class="hash" href="#worm" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/wɜːrm/ &middot; <em>WURM</em></dd><dt>Русский</dt><dd>червь, червяк</dd><dt>Plural</dt><dd><em>worms</em></dd><dt>Countability</dt><dd>countable</dd><dt>Contrast</dt><dd>Worm and warm differ only in the vowel: WURM has the vowel of bird, WARM the vowel of for.</dd></dl>
+<p>A long soft creature with no legs that lives in soil.</p>
+<ol><li>The rain brought <em>worms</em> out onto the sidewalk.</li><li>He cut the <em>worm</em> in half for bait.</li><li>Good soil is full of <em>worms</em>.</li></ol>
+<hr>
+<h3 id="earthworm">earthworm<a class="hash" href="#earthworm" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/ˈɜːrθwɜːrm/ &middot; <em>URTH-wurm</em></dd><dt>Русский</dt><dd>дождевой червь</dd><dt>Plural</dt><dd><em>earthworms</em></dd><dt>Countability</dt><dd>countable</dd></dl>
+<p>The common brown worm that tunnels through garden soil.</p>
+<ol><li><em>Earthworms</em> aerate the soil as they dig.</li><li>I turned over a shovelful and found a dozen <em>earthworms</em>.</li><li>The compost bin is full of <em>earthworms</em>.</li></ol>
+<hr>
+<h3 id="slug">slug<a class="hash" href="#slug" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/slʌɡ/ &middot; <em>SLUG</em></dd><dt>Русский</dt><dd>слизень</dd><dt>Plural</dt><dd><em>slugs</em></dd><dt>Countability</dt><dd>countable</dd></dl>
+<p>A soft slimy creature like a snail without a shell.</p>
+<ol><li><em>Slugs</em> got into the lettuce again.</li><li>There was a <em>slug</em> on the back step this morning.</li><li>A little salt kills a <em>slug</em> instantly.</li></ol>
+<hr>
+<h3 id="snail">snail<a class="hash" href="#snail" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/sneɪl/ &middot; <em>SNAYL</em></dd><dt>Русский</dt><dd>улитка</dd><dt>Plural</dt><dd><em>snails</em></dd><dt>Countability</dt><dd>countable</dd></dl>
+<p>A slow-moving creature that carries a coiled shell on its back.</p>
+<ol><li>A <em>snail</em> left a silver trail across the patio.</li><li>The pond is full of tiny <em>snails</em>.</li><li>The kids raced two <em>snails</em> across the sidewalk.</li></ol>
+<hr>
+<h3 id="centipede">centipede<a class="hash" href="#centipede" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/ˈsentɪpiːd/ &middot; <em>SEN-tuh-peed</em></dd><dt>Русский</dt><dd>сколопендра, многоножка</dd><dt>Plural</dt><dd><em>centipedes</em></dd><dt>Countability</dt><dd>countable</dd></dl>
+<p>A long flat creature with one pair of legs on each body segment.</p>
+<ol><li>A <em>centipede</em> shot across the basement floor.</li><li><em>Centipedes</em> actually hunt other insects.</li><li>The bite of a large <em>centipede</em> is painful.</li></ol>
+<hr>
+<h3 id="millipede">millipede<a class="hash" href="#millipede" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/ˈmɪləpiːd/ &middot; <em>MIL-uh-peed</em></dd><dt>Русский</dt><dd>многоножка, кивсяк</dd><dt>Plural</dt><dd><em>millipedes</em></dd><dt>Countability</dt><dd>countable</dd></dl>
+<p>A slow round-bodied crawler with two pairs of legs on each segment.</p>
+<ol><li>A <em>millipede</em> curled into a spiral when I touched it.</li><li><em>Millipedes</em> feed on rotting leaves.</li><li>We found a <em>millipede</em> under the log.</li></ol>
+<hr>
+<h3 id="leech">leech<a class="hash" href="#leech" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/liːtʃ/ &middot; <em>LEECH</em></dd><dt>Русский</dt><dd>пиявка</dd><dt>Plural</dt><dd><em>leeches</em></dd><dt>Countability</dt><dd>countable</dd><dt>Contrast</dt><dd>Leech the animal sounds the same as leach, the verb meaning to drain away through soil.</dd></dl>
+<p>A flat worm that attaches to skin and sucks blood.</p>
+<ol><li>He came out of the pond with a <em>leech</em> on his calf.</li><li><em>Leeches</em> are still used in some kinds of surgery.</li><li>Salt makes a <em>leech</em> let go.</li></ol>
+<hr>
+<h3 id="infestation">infestation<a class="hash" href="#infestation" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/ˌɪnfeˈsteɪʃən/ &middot; <em>in-fes-TAY-shuhn</em></dd><dt>Русский</dt><dd>заражение вредителями, нашествие</dd><dt>Plural</dt><dd><em>infestations</em></dd><dt>Countability</dt><dd>countable</dd></dl>
+<p>The presence of pests in large, damaging numbers.</p>
+<ol><li>The restaurant was closed for a roach <em>infestation</em>.</li><li><em>Infestations</em> usually start in one small corner.</li><li>They caught the termite <em>infestation</em> early.</li></ol>
+<hr>
+<h3 id="exterminator">exterminator<a class="hash" href="#exterminator" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/ɪkˈstɜːrmɪneɪtər/ &middot; <em>ik-STUR-muh-nay-tur</em></dd><dt>Русский</dt><dd>дезинсектор, специалист по борьбе с вредителями</dd><dt>Plural</dt><dd><em>exterminators</em></dd><dt>Countability</dt><dd>countable</dd></dl>
+<p>Someone whose job is to kill insects and other pests in buildings.</p>
+<ol><li>The landlord finally sent an <em>exterminator</em>.</li><li><em>Exterminators</em> charge more for a whole-house treatment.</li><li>The <em>exterminator</em> said it would take two visits.</li></ol>
+<hr>
+<h3 id="insecticide">insecticide<a class="hash" href="#insecticide" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/ɪnˈsektɪsaɪd/ &middot; <em>in-SEK-tuh-syd</em></dd><dt>Русский</dt><dd>инсектицид</dd><dt>Plural</dt><dd><em>insecticides</em></dd><dt>Countability</dt><dd>countable, and uncountable as a substance</dd></dl>
+<p>A chemical made specifically to kill insects.</p>
+<ol><li>The <em>insecticide</em> killed the ants but not the eggs.</li><li>New <em>insecticides</em> are harder on bees than people realize.</li><li>Don't use <em>insecticide</em> indoors without opening a window.</li></ol>
+<hr>
+<h3 id="reptile">reptile<a class="hash" href="#reptile" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/ˈreptaɪl/ &middot; <em>REP-tyl</em></dd><dt>Русский</dt><dd>рептилия, пресмыкающееся</dd><dt>Plural</dt><dd><em>reptiles</em></dd><dt>Countability</dt><dd>countable</dd></dl>
+<p>A cold-blooded scaly animal such as a snake, lizard, or turtle.</p>
+<ol><li>A turtle is a <em>reptile</em>, not an amphibian.</li><li>The zoo's <em>reptile</em> house is kept warm year-round.</li><li><em>Reptiles</em> need an outside heat source to stay active.</li></ol>
+<hr>
+<h3 id="snake">snake<a class="hash" href="#snake" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/sneɪk/ &middot; <em>SNAYK</em></dd><dt>Русский</dt><dd>змея</dd><dt>Plural</dt><dd><em>snakes</em></dd><dt>Countability</dt><dd>countable</dd></dl>
+<p>A long legless reptile that moves by sliding along the ground.</p>
+<ol><li>A <em>snake</em> crossed the trail right in front of us.</li><li>Most <em>snakes</em> around here are not venomous.</li><li>He grabbed the rake and moved the <em>snake</em> off the porch.</li></ol>
+<hr>
+<h3 id="serpent">serpent<a class="hash" href="#serpent" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/ˈsɜːrpənt/ &middot; <em>SUR-puhnt</em></dd><dt>Русский</dt><dd>змей (книжн.)</dd><dt>Plural</dt><dd><em>serpents</em></dd><dt>Countability</dt><dd>countable</dd></dl>
+<p>A formal or literary word for a snake, especially a large or symbolic one.</p>
+<ol><li>The temple wall was carved with a coiled <em>serpent</em>.</li><li>In the story the <em>serpent</em> speaks.</li><li>Sea <em>serpents</em> show up in a lot of old sailors' tales.</li></ol>
+<hr>
+<h3 id="lizard">lizard<a class="hash" href="#lizard" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/ˈlɪzərd/ &middot; <em>LIZ-urd</em></dd><dt>Русский</dt><dd>ящерица</dd><dt>Plural</dt><dd><em>lizards</em></dd><dt>Countability</dt><dd>countable</dd></dl>
+<p>A small scaly reptile with four legs and a long tail.</p>
+<ol><li>A <em>lizard</em> was sunning itself on the wall.</li><li><em>Lizards</em> dart away the second you move.</li><li>The <em>lizard</em> dropped its tail and got away.</li></ol>
+<hr>
+<h3 id="gecko">gecko<a class="hash" href="#gecko" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/ˈɡekoʊ/ &middot; <em>GEK-oh</em></dd><dt>Русский</dt><dd>геккон</dd><dt>Plural</dt><dd><em>geckos</em></dd><dt>Countability</dt><dd>countable</dd></dl>
+<p>A small lizard with sticky feet that can climb glass and walls.</p>
+<ol><li>A <em>gecko</em> was stuck to the ceiling above the bed.</li><li><em>Geckos</em> eat the mosquitoes that get inside.</li><li>The <em>gecko</em> chirped in the middle of the night.</li></ol>
+<hr>
+<h3 id="iguana">iguana<a class="hash" href="#iguana" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/ɪˈɡwɑːnə/ &middot; <em>ih-GWAH-nuh</em></dd><dt>Русский</dt><dd>игуана</dd><dt>Plural</dt><dd><em>iguanas</em></dd><dt>Countability</dt><dd>countable</dd><dt>Contrast</dt><dd>The gua is said gwah in one syllable: ih-GWAH-nuh, not ih-goo-AH-nuh.</dd></dl>
+<p>A large tropical lizard with a ridge of spines down its back.</p>
+<ol><li>An <em>iguana</em> was sitting in the middle of the road.</li><li><em>Iguanas</em> have taken over parts of South Florida.</li><li>The <em>iguana</em> is bigger than the cat.</li></ol>
+<hr>
+<h3 id="chameleon">chameleon<a class="hash" href="#chameleon" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/kəˈmiːliən/ &middot; <em>kuh-MEE-lee-uhn</em></dd><dt>Русский</dt><dd>хамелеон</dd><dt>Plural</dt><dd><em>chameleons</em></dd><dt>Countability</dt><dd>countable</dd><dt>Contrast</dt><dd>The ch is a k sound: kuh-MEE-lee-uhn.</dd></dl>
+<p>A lizard that can change the color of its skin.</p>
+<ol><li>The <em>chameleon</em> turned nearly black when it got cold.</li><li><em>Chameleons</em> move one slow step at a time.</li><li>Each eye of a <em>chameleon</em> moves on its own.</li></ol>
+<hr>
+<h3 id="turtle">turtle<a class="hash" href="#turtle" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/ˈtɜːrtəl/ &middot; <em>TUR-tuhl</em></dd><dt>Русский</dt><dd>черепаха</dd><dt>Plural</dt><dd><em>turtles</em></dd><dt>Countability</dt><dd>countable</dd><dt>Contrast</dt><dd>In American English turtle covers land and water species alike; British English reserves turtle for sea species and says tortoise on land.</dd></dl>
+<p>A reptile with a hard shell that covers its body.</p>
+<ol><li>A <em>turtle</em> was sitting in the middle of the road.</li><li>We watched sea <em>turtles</em> come up the beach at night.</li><li>The <em>turtle</em> pulled its head into its shell.</li></ol>
+<hr>
+<h3 id="tortoise">tortoise<a class="hash" href="#tortoise" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/ˈtɔːrtəs/ &middot; <em>TOR-tuhs</em></dd><dt>Русский</dt><dd>сухопутная черепаха</dd><dt>Plural</dt><dd><em>tortoises</em></dd><dt>Countability</dt><dd>countable</dd><dt>Contrast</dt><dd>Spelled -oise but pronounced -tuhs: TOR-tuhs, never tor-TOYZ.</dd></dl>
+<p>A land turtle with a high domed shell that lives a very long time.</p>
+<ol><li>The desert <em>tortoise</em> is a protected species.</li><li>That <em>tortoise</em> is older than my grandfather.</li><li><em>Tortoises</em> eat mostly grass and leaves.</li></ol>
+<hr>
+<h3 id="crocodile">crocodile<a class="hash" href="#crocodile" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/ˈkrɑːkədaɪl/ &middot; <em>KRAH-kuh-dyl</em></dd><dt>Русский</dt><dd>крокодил</dd><dt>Plural</dt><dd><em>crocodiles</em></dd><dt>Countability</dt><dd>countable</dd></dl>
+<p>A large reptile with a long jaw and heavy scales that lives in rivers.</p>
+<ol><li>A <em>crocodile</em> slid off the bank into the water.</li><li><em>Crocodiles</em> can hold their breath for an hour.</li><li>The guide pointed out a <em>crocodile</em> we would never have seen.</li></ol>
+<hr>
+<h3 id="alligator">alligator<a class="hash" href="#alligator" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/ˈælɪɡeɪtər/ &middot; <em>AL-ih-gay-tur</em></dd><dt>Русский</dt><dd>аллигатор</dd><dt>Plural</dt><dd><em>alligators</em></dd><dt>Countability</dt><dd>countable</dd></dl>
+<p>A broad-snouted relative of the crocodile found in the American South.</p>
+<ol><li>There's an <em>alligator</em> in almost every pond down there.</li><li><em>Alligators</em> sometimes wander onto golf courses.</li><li>The <em>alligator</em> didn't move the whole time we watched.</li></ol>
+<hr>
+<h3 id="python">python<a class="hash" href="#python" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/ˈpaɪθɑːn/ &middot; <em>PY-thahn</em></dd><dt>Русский</dt><dd>питон</dd><dt>Plural</dt><dd><em>pythons</em></dd><dt>Countability</dt><dd>countable</dd><dt>Contrast</dt><dd>Americans give the second syllable a full vowel, PY-thahn; the British reduce it to PY-thuhn.</dd></dl>
+<p>A large non-venomous snake that kills by squeezing its prey.</p>
+<ol><li>The pet store had a <em>python</em> almost eight feet long.</li><li><em>Pythons</em> have spread through the Everglades.</li><li>A <em>python</em> can go weeks without eating.</li></ol>
+<hr>
+<h3 id="cobra">cobra<a class="hash" href="#cobra" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/ˈkoʊbrə/ &middot; <em>KOH-bruh</em></dd><dt>Русский</dt><dd>кобра</dd><dt>Plural</dt><dd><em>cobras</em></dd><dt>Countability</dt><dd>countable</dd></dl>
+<p>A venomous snake that spreads the skin of its neck into a hood.</p>
+<ol><li>The <em>cobra</em> raised up and spread its hood.</li><li><em>Cobras</em> are responsible for thousands of deaths a year.</li><li>He keeps a <em>cobra</em> behind two locked doors.</li></ol>
+<hr>
+<h3 id="rattlesnake">rattlesnake<a class="hash" href="#rattlesnake" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/ˈrætəlsneɪk/ &middot; <em>RAT-uhl-snayk</em></dd><dt>Русский</dt><dd>гремучая змея</dd><dt>Plural</dt><dd><em>rattlesnakes</em></dd><dt>Countability</dt><dd>countable</dd></dl>
+<p>A venomous American snake that shakes a noisy rattle on its tail.</p>
+<ol><li>We heard the <em>rattlesnake</em> before we saw it.</li><li><em>Rattlesnakes</em> come out to warm up on the rocks.</li><li>A <em>rattlesnake</em> bite needs a hospital, not a first-aid kit.</li></ol>
+<hr>
+<h3 id="viper">viper<a class="hash" href="#viper" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/ˈvaɪpər/ &middot; <em>VY-pur</em></dd><dt>Русский</dt><dd>гадюка</dd><dt>Plural</dt><dd><em>vipers</em></dd><dt>Countability</dt><dd>countable</dd></dl>
+<p>A venomous snake with long hinged fangs and a triangular head.</p>
+<ol><li>A pit <em>viper</em> struck at the boot and missed.</li><li><em>Vipers</em> have the longest fangs of any snake.</li><li>The <em>viper</em> was coiled under the rock.</li></ol>
+<hr>
+<h3 id="adder">adder<a class="hash" href="#adder" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/ˈædər/ &middot; <em>AD-ur</em></dd><dt>Русский</dt><dd>гадюка</dd><dt>Plural</dt><dd><em>adders</em></dd><dt>Countability</dt><dd>countable</dd><dt>Contrast</dt><dd>Adder is mainly a British word; Americans say rattlesnake, copperhead, or just viper.</dd></dl>
+<p>A small venomous snake of Europe and parts of Africa.</p>
+<ol><li>The only venomous snake in Britain is the <em>adder</em>.</li><li><em>Adders</em> bask on open heath in the morning.</li><li>He nearly stepped on an <em>adder</em> in the grass.</li></ol>
+<hr>
+<h3 id="boa">boa<a class="hash" href="#boa" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/ˈboʊr/ &middot; <em>BOH-uh</em></dd><dt>Русский</dt><dd>удав</dd><dt>Plural</dt><dd><em>boas</em></dd><dt>Countability</dt><dd>countable</dd></dl>
+<p>A heavy tropical snake that wraps around its prey and crushes it.</p>
+<ol><li>His brother keeps a <em>boa</em> in the garage.</li><li><em>Boas</em> give birth to live young instead of laying eggs.</li><li>The <em>boa</em> wrapped itself around the branch.</li></ol>
+<hr>
+<h3 id="anaconda">anaconda<a class="hash" href="#anaconda" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/ˌænəˈkɑːndə/ &middot; <em>an-uh-KAHN-duh</em></dd><dt>Русский</dt><dd>анаконда</dd><dt>Plural</dt><dd><em>anacondas</em></dd><dt>Countability</dt><dd>countable</dd></dl>
+<p>A very large South American snake that lives in and near water.</p>
+<ol><li>The <em>anaconda</em> is the heaviest snake in the world.</li><li><em>Anacondas</em> spend most of their time in swamps.</li><li>They filmed an <em>anaconda</em> swallowing a caiman.</li></ol>
+<hr>
+<h3 id="copperhead">copperhead<a class="hash" href="#copperhead" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/ˈkɑːpərhed/ &middot; <em>KAH-pur-hed</em></dd><dt>Русский</dt><dd>щитомордник (американский)</dd><dt>Plural</dt><dd><em>copperheads</em></dd><dt>Countability</dt><dd>countable</dd></dl>
+<p>A venomous North American snake with a coppery head and banded body.</p>
+<ol><li>A <em>copperhead</em> was lying in the leaf litter.</li><li><em>Copperheads</em> bite more people here than any other snake.</li><li>The <em>copperhead</em> blended right into the mulch.</li></ol>
+<hr>
+<h3 id="garter-snake">garter snake<a class="hash" href="#garter-snake" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/ˈɡɑːrtər ˌsneɪk/ &middot; <em>GAR-tur-snayk</em></dd><dt>Русский</dt><dd>подвязочная змея (безобидная американская)</dd><dt>Plural</dt><dd><em>garter snakes</em></dd><dt>Countability</dt><dd>countable</dd><dt>Contrast</dt><dd>The name is garter, like the elastic band, though plenty of Americans mishear it as garden snake.</dd></dl>
+<p>A small striped harmless snake common in North American yards.</p>
+<ol><li>It's just a <em>garter snake</em> — completely harmless.</li><li><em>Garter snakes</em> live under the woodpile every summer.</li><li>The kids found a <em>garter snake</em> by the compost.</li></ol>
+<hr>
+<h3 id="venom">venom<a class="hash" href="#venom" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/ˈvenəm/ &middot; <em>VEN-uhm</em></dd><dt>Русский</dt><dd>яд (змеиный, паучий)</dd><dt>Countability</dt><dd>uncountable</dd><dt>Contrast</dt><dd>Venom is injected by a bite or sting, so the animal is venomous; poison is swallowed or absorbed, so a poisonous mushroom is a different idea entirely.</dd></dl>
+<p>The poison that a snake, spider, or scorpion injects with a bite or sting.</p>
+<ol><li>The <em>venom</em> attacks the blood, not the nerves.</li><li>They milk the snakes for <em>venom</em> to make antivenom.</li><li>Only a small amount of <em>venom</em> got into the wound.</li></ol>
+<hr>
+<h3 id="antivenom">antivenom<a class="hash" href="#antivenom" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/ˌæntiˈvenəm/ &middot; <em>an-tee-VEN-uhm</em></dd><dt>Русский</dt><dd>противоядие от змеиного яда, антидот</dd><dt>Plural</dt><dd><em>antivenoms</em></dd><dt>Countability</dt><dd>countable, and uncountable as a substance</dd></dl>
+<p>A medicine that counteracts the venom of a snake or other animal.</p>
+<ol><li>The hospital had to fly in <em>antivenom</em> from Phoenix.</li><li>Different <em>antivenoms</em> work on different species.</li><li>He got the <em>antivenom</em> within an hour of the bite.</li></ol>
+<hr>
+<h3 id="snakebite">snakebite<a class="hash" href="#snakebite" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/ˈsneɪkbaɪt/ &middot; <em>SNAYK-byt</em></dd><dt>Русский</dt><dd>укус змеи</dd><dt>Plural</dt><dd><em>snakebites</em></dd><dt>Countability</dt><dd>countable</dd></dl>
+<p>A wound caused by a snake's bite.</p>
+<ol><li>Most <em>snakebites</em> happen when someone tries to move the snake.</li><li>The clinic treats a dozen <em>snakebites</em> every summer.</li><li>Don't cut a <em>snakebite</em> open — just get to a hospital.</li></ol>
+<hr>
+<h3 id="amphibian">amphibian<a class="hash" href="#amphibian" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/æmˈfɪbiən/ &middot; <em>am-FIB-ee-uhn</em></dd><dt>Русский</dt><dd>земноводное, амфибия</dd><dt>Plural</dt><dd><em>amphibians</em></dd><dt>Countability</dt><dd>countable</dd></dl>
+<p>An animal such as a frog or newt that lives both in water and on land.</p>
+<ol><li>Frogs, toads, and salamanders are all <em>amphibians</em>.</li><li><em>Amphibians</em> are disappearing faster than any other group.</li><li>An <em>amphibian</em> breathes partly through its skin.</li></ol>
+<hr>
+<h3 id="frog">frog<a class="hash" href="#frog" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/frɑːɡ/ &middot; <em>FRAHG</em></dd><dt>Русский</dt><dd>лягушка</dd><dt>Plural</dt><dd><em>frogs</em></dd><dt>Countability</dt><dd>countable</dd></dl>
+<p>A small smooth-skinned amphibian with long back legs for jumping.</p>
+<ol><li>A <em>frog</em> jumped off the dock as we walked up.</li><li>The <em>frogs</em> start calling as soon as it gets dark.</li><li>There was a tiny green <em>frog</em> on the window screen.</li></ol>
+<hr>
+<h3 id="bullfrog">bullfrog<a class="hash" href="#bullfrog" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/ˈbʊlfrɑːɡ/ &middot; <em>BUUL-frahg</em></dd><dt>Русский</dt><dd>лягушка-бык</dd><dt>Plural</dt><dd><em>bullfrogs</em></dd><dt>Countability</dt><dd>countable</dd></dl>
+<p>A large frog with a deep booming call.</p>
+<ol><li>A <em>bullfrog</em> was croaking down by the creek.</li><li><em>Bullfrogs</em> will eat anything they can fit in their mouths.</li><li>That <em>bullfrog</em> was the size of my hand.</li></ol>
+<hr>
+<h3 id="toad">toad<a class="hash" href="#toad" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/toʊd/ &middot; <em>TOHD</em></dd><dt>Русский</dt><dd>жаба</dd><dt>Plural</dt><dd><em>toads</em></dd><dt>Countability</dt><dd>countable</dd><dt>Contrast</dt><dd>Toad sounds exactly like towed, the past tense of tow.</dd></dl>
+<p>A frog-like amphibian with dry bumpy skin that lives mostly on land.</p>
+<ol><li>A fat <em>toad</em> sat under the porch light eating bugs.</li><li><em>Toads</em> don't actually give you warts.</li><li>We moved the <em>toad</em> out of the driveway.</li></ol>
+<hr>
+<h3 id="tadpole">tadpole<a class="hash" href="#tadpole" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/ˈtædpoʊl/ &middot; <em>TAD-pohl</em></dd><dt>Русский</dt><dd>головастик</dd><dt>Plural</dt><dd><em>tadpoles</em></dd><dt>Countability</dt><dd>countable</dd></dl>
+<p>The young of a frog or toad, which lives in water and has a tail.</p>
+<ol><li>The pond is full of <em>tadpoles</em> in April.</li><li>Each <em>tadpole</em> grows back legs first.</li><li>We kept <em>tadpoles</em> in a bucket until they turned into frogs.</li></ol>
+<hr>
+<h3 id="newt">newt<a class="hash" href="#newt" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/nuːt/ &middot; <em>NOOT</em></dd><dt>Русский</dt><dd>тритон</dd><dt>Plural</dt><dd><em>newts</em></dd><dt>Countability</dt><dd>countable</dd><dt>Contrast</dt><dd>Americans say NOOT; the British say NYOOT with a y sound after the n.</dd></dl>
+<p>A small amphibian like a lizard that spends much of its life in water.</p>
+<ol><li>There was an orange <em>newt</em> crossing the wet trail.</li><li><em>Newts</em> return to the same pond to breed.</li><li>The <em>newt</em> has skin you should not touch and then rub your eyes.</li></ol>
+<hr>
+<h3 id="salamander">salamander<a class="hash" href="#salamander" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/ˈsæləmændər/ &middot; <em>SAL-uh-man-dur</em></dd><dt>Русский</dt><dd>саламандра</dd><dt>Plural</dt><dd><em>salamanders</em></dd><dt>Countability</dt><dd>countable</dd><dt>Contrast</dt><dd>Stress is on the first syllable, SAL-uh-man-dur, unlike Russian саламандра.</dd></dl>
+<p>A slender amphibian with smooth moist skin and a long tail.</p>
+<ol><li>We found a <em>salamander</em> under a rotting log.</li><li><em>Salamanders</em> can regrow a lost limb.</li><li>The <em>salamander</em> slipped back into the leaves.</li></ol>
+<hr>
+<h3 id="repellent">repellent<a class="hash" href="#repellent" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/rɪˈpelənt/ &middot; <em>rih-PEL-uhnt</em></dd><dt>Русский</dt><dd>репеллент, средство от насекомых</dd><dt>Plural</dt><dd><em>repellents</em></dd><dt>Countability</dt><dd>countable, and uncountable as a substance</dd></dl>
+<p>A substance you put on skin or clothes to keep insects away.</p>
+<ol><li>Put on some <em>repellent</em> before we go down to the lake.</li><li>The strongest <em>repellents</em> contain DEET.</li><li>This <em>repellent</em> smells terrible but it works.</li></ol>
+<hr>
+<h3 id="bug-spray">bug spray<a class="hash" href="#bug-spray" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/ˈbʌɡ ˌspreɪ/ &middot; <em>BUG-spray</em></dd><dt>Русский</dt><dd>спрей от насекомых</dd><dt>Plural</dt><dd><em>bug sprays</em></dd><dt>Countability</dt><dd>countable, and uncountable as a substance</dd></dl>
+<p>The everyday American name for insect repellent or insect killer in a can.</p>
+<ol><li>Grab the <em>bug spray</em> off the shelf by the door.</li><li>We went through two cans of <em>bug spray</em> that week.</li><li>The <em>bug sprays</em> at the drugstore are all about the same.</li></ol>
+<hr>
+<h3 id="terrarium">terrarium<a class="hash" href="#terrarium" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/təˈreriəm/ &middot; <em>tuh-REH-ree-uhm</em></dd><dt>Русский</dt><dd>террариум</dd><dt>Plural</dt><dd><em>terrariums</em></dd><dt>Countability</dt><dd>countable</dd></dl>
+<p>A glass tank set up for keeping reptiles, amphibians, or plants.</p>
+<ol><li>The gecko lives in a <em>terrarium</em> on his desk.</li><li><em>Terrariums</em> need a heat lamp at one end.</li><li>She built a little <em>terrarium</em> out of an old fish tank.</li></ol>
+<hr>
+<h3 id="camouflage">camouflage<a class="hash" href="#camouflage" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/ˈkæməflɑːʒ/ &middot; <em>KAM-uh-flahzh</em></dd><dt>Русский</dt><dd>маскировка, камуфляж</dd><dt>Countability</dt><dd>uncountable</dd><dt>Contrast</dt><dd>The ending is said -flahzh, with the soft zh of measure, not -flayj.</dd></dl>
+<p>Coloring or shape that lets an animal blend into its surroundings.</p>
+<ol><li>The moth's <em>camouflage</em> makes it invisible on bark.</li><li>That lizard relies entirely on <em>camouflage</em>.</li><li>Snow gives the hare perfect <em>camouflage</em> in winter.</li></ol>
+<hr>
+<h3 id="hibernation">hibernation<a class="hash" href="#hibernation" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/ˌhaɪbərˈneɪʃən/ &middot; <em>hy-bur-NAY-shuhn</em></dd><dt>Русский</dt><dd>спячка</dd><dt>Countability</dt><dd>uncountable</dd></dl>
+<p>The deep winter sleep some animals fall into to survive the cold.</p>
+<ol><li>The turtles go into <em>hibernation</em> at the bottom of the pond.</li><li>Snakes come out of <em>hibernation</em> in early spring.</li><li><em>Hibernation</em> slows the heart down to a few beats a minute.</li></ol>
+<hr>
+<h3 id="entomologist">entomologist<a class="hash" href="#entomologist" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/ˌentəˈmɑːlədʒɪst/ &middot; <em>en-tuh-MAH-luh-jist</em></dd><dt>Русский</dt><dd>энтомолог</dd><dt>Plural</dt><dd><em>entomologists</em></dd><dt>Countability</dt><dd>countable</dd><dt>Contrast</dt><dd>An entomologist studies insects; an etymologist studies word origins — one letter apart, completely different jobs.</dd></dl>
+<p>A scientist who studies insects.</p>
+<ol><li>She trained as an <em>entomologist</em> and now works for the state.</li><li><em>Entomologists</em> identified the beetle from a photo.</li><li>The county keeps an <em>entomologist</em> on staff.</li></ol>
+<hr>
+<h3 id="mothball">mothball<a class="hash" href="#mothball" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/ˈmɔːθbɔːl/ &middot; <em>MAWTH-bawl</em></dd><dt>Русский</dt><dd>нафталиновый шарик</dd><dt>Plural</dt><dd><em>mothballs</em></dd><dt>Countability</dt><dd>countable</dd></dl>
+<p>A small white ball of chemical put in stored clothes to keep moths away.</p>
+<ol><li>The closet smelled like <em>mothballs</em>.</li><li>She tucked a <em>mothball</em> into each box of wool.</li><li>Grandma's coats always came out of storage smelling of <em>mothballs</em>.</li></ol>
+<hr>
+<h3 id="flyswatter">flyswatter<a class="hash" href="#flyswatter" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/ˈflaɪswɑːtər/ &middot; <em>FLY-swah-tur</em></dd><dt>Русский</dt><dd>мухобойка</dd><dt>Plural</dt><dd><em>flyswatters</em></dd><dt>Countability</dt><dd>countable</dd></dl>
+<p>A flat plastic paddle on a wire handle used for killing flies.</p>
+<ol><li>The <em>flyswatter</em> is hanging by the back door.</li><li>He got it on the first swing with the <em>flyswatter</em>.</li><li>We keep two <em>flyswatters</em> in the kitchen all summer.</li></ol>
+<hr>
+<h3 id="mayfly">mayfly<a class="hash" href="#mayfly" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/ˈmeɪflaɪ/ &middot; <em>MAY-fly</em></dd><dt>Русский</dt><dd>подёнка</dd><dt>Plural</dt><dd><em>mayflies</em></dd><dt>Countability</dt><dd>countable</dd></dl>
+<p>A delicate winged insect that hatches in huge numbers and lives only a day or two.</p>
+<ol><li><em>Mayflies</em> covered the bridge lights that night.</li><li>A <em>mayfly</em> has no working mouth at all.</li><li>The trout were rising for <em>mayflies</em> at dusk.</li></ol>
+<hr>
+<h3 id="skink">skink<a class="hash" href="#skink" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/skɪŋk/ &middot; <em>SKINGK</em></dd><dt>Русский</dt><dd>сцинк (ящерица)</dd><dt>Plural</dt><dd><em>skinks</em></dd><dt>Countability</dt><dd>countable</dd></dl>
+<p>A smooth shiny lizard with short legs and a long tapering tail.</p>
+<ol><li>A blue-tailed <em>skink</em> ran along the top of the wall.</li><li><em>Skinks</em> are all over the woodpile in July.</li><li>The <em>skink</em> slipped into a crack in the stone.</li></ol>
+<hr>
+<h3 id="chigger">chigger<a class="hash" href="#chigger" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/ˈtʃɪɡər/ &middot; <em>CHIG-ur</em></dd><dt>Русский</dt><dd>краснотелка (личинка клеща)</dd><dt>Plural</dt><dd><em>chiggers</em></dd><dt>Countability</dt><dd>countable</dd></dl>
+<p>A tiny reddish mite larva whose bite leaves an intensely itchy welt.</p>
+<ol><li>He picked up <em>chiggers</em> walking through the tall grass.</li><li>A <em>chigger</em> bite itches for a week.</li><li><em>Chiggers</em> are worst around the ankles and waistband.</li></ol>
+<hr>
+<h3 id="katydid">katydid<a class="hash" href="#katydid" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/ˈkeɪtidɪd/ &middot; <em>KAY-tee-did</em></dd><dt>Русский</dt><dd>кузнечик (американский зелёный)</dd><dt>Plural</dt><dd><em>katydids</em></dd><dt>Countability</dt><dd>countable</dd></dl>
+<p>A large green insect like a grasshopper that calls loudly from trees at night.</p>
+<ol><li>The <em>katydids</em> started up as soon as it got dark.</li><li>A <em>katydid</em> looks exactly like a leaf.</li><li>You can hear <em>katydids</em> through the screen all August.</li></ol>
+<hr>
+<h3 id="nymph">nymph<a class="hash" href="#nymph" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/nɪmf/ &middot; <em>NIMF</em></dd><dt>Русский</dt><dd>нимфа (личинка насекомого)</dd><dt>Plural</dt><dd><em>nymphs</em></dd><dt>Countability</dt><dd>countable</dd></dl>
+<p>A young insect that looks like a small wingless version of the adult.</p>
+<ol><li>A dragonfly <em>nymph</em> lives underwater for a year or more.</li><li>Cicada <em>nymphs</em> feed on roots in the dark.</li><li>The <em>nymph</em> climbed out of the water and split open.</li></ol>
+<hr>
+<h3 id="glowworm">glowworm<a class="hash" href="#glowworm" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/ˈɡloʊwɜːrm/ &middot; <em>GLOH-wurm</em></dd><dt>Русский</dt><dd>светляк (личинка светлячка)</dd><dt>Plural</dt><dd><em>glowworms</em></dd><dt>Countability</dt><dd>countable</dd></dl>
+<p>A wingless insect larva that gives off a steady greenish light.</p>
+<ol><li>The bank of the stream was dotted with <em>glowworms</em>.</li><li>A <em>glowworm</em> glows without flashing.</li><li><em>Glowworms</em> light up the ceiling of that cave.</li></ol>
+<hr>
+<h3 id="silkworm">silkworm<a class="hash" href="#silkworm" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/ˈsɪlkwɜːrm/ &middot; <em>SILK-wurm</em></dd><dt>Русский</dt><dd>тутовый шелкопряд</dd><dt>Plural</dt><dd><em>silkworms</em></dd><dt>Countability</dt><dd>countable</dd></dl>
+<p>The caterpillar of a moth whose cocoon is unwound to make silk.</p>
+<ol><li><em>Silkworms</em> eat nothing but mulberry leaves.</li><li>One <em>silkworm</em> cocoon yields a single unbroken thread.</li><li>The class raised <em>silkworms</em> as a science project.</li></ol>
+<hr>
+<h3 id="sea-turtle">sea turtle<a class="hash" href="#sea-turtle" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/ˈsiː ˌtɜːrtəl/ &middot; <em>SEE-tur-tuhl</em></dd><dt>Русский</dt><dd>морская черепаха</dd><dt>Plural</dt><dd><em>sea turtles</em></dd><dt>Countability</dt><dd>countable</dd></dl>
+<p>A large ocean turtle with flippers instead of legs.</p>
+<ol><li>A <em>sea turtle</em> surfaced right next to the boat.</li><li><em>Sea turtles</em> come back to the beach where they hatched.</li><li>Volunteers marked the <em>sea turtle</em> nests with stakes.</li></ol></div></main>
+<button class="themebtn" id="themeBtn">Dark</button>
+<script>
+const tb=document.getElementById('themeBtn');
+function setTheme(x){document.documentElement.dataset.theme=x;tb.textContent=x==='dark'?'Light':'Dark';
+ try{localStorage.setItem('site-theme',x)}catch(e){}}
+tb.onclick=()=>setTheme(document.documentElement.dataset.theme==='dark'?'light':'dark');
+try{const s=localStorage.getItem('site-theme');
+ setTheme(s||(matchMedia('(prefers-color-scheme: dark)').matches?'dark':'light'))}catch(e){setTheme('light')}
+</script></body></html>

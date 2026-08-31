@@ -1,0 +1,571 @@
+<!DOCTYPE html>
+<html lang="en"><head>
+<meta charset="utf-8"><meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Core vocabulary: work and the office</title>
+<style>
+:root{--bg:#faf9f7;--surface:#fff;--surface2:#f2f0ec;--border:#e2ded6;--text:#1a1815;
+--dim:#5f594f;--faint:#8a8377;--accent:#8a5a3b;--measure:72ch}
+@media(prefers-color-scheme:dark){:root{--bg:#14140f;--surface:#1d1d17;--surface2:#25251d;
+--border:#33332a;--text:#eeeae1;--dim:#a8a293;--faint:#7d776b;--accent:#d09b72}}
+:root[data-theme=dark]{--bg:#14140f;--surface:#1d1d17;--surface2:#25251d;--border:#33332a;
+--text:#eeeae1;--dim:#a8a293;--faint:#7d776b;--accent:#d09b72}
+:root[data-theme=light]{--bg:#faf9f7;--surface:#fff;--surface2:#f2f0ec;--border:#e2ded6;
+--text:#1a1815;--dim:#5f594f;--faint:#8a8377;--accent:#8a5a3b}
+*{box-sizing:border-box}
+body{margin:0;background:var(--bg);color:var(--text);
+font:17px/1.72 ui-serif,Georgia,"Iowan Old Style",Palatino,serif;-webkit-font-smoothing:antialiased}
+.wrap{max-width:min(var(--measure),100%);margin:0 auto;padding:0 22px}
+nav.crumb{border-bottom:1px solid var(--border);padding:13px 0;font-size:13.5px;
+font-family:-apple-system,BlinkMacSystemFont,"Segoe UI",sans-serif;position:sticky;top:0;background:var(--bg);z-index:20}
+nav.crumb .wrap{max-width:none;display:flex;gap:9px;align-items:center;flex-wrap:wrap}
+nav.crumb a{color:var(--dim);text-decoration:none}
+nav.crumb a:hover{color:var(--accent)}
+nav.crumb .sep{color:var(--faint)}
+main{padding:8px 0 80px}
+h1{font-size:clamp(28px,5vw,38px);line-height:1.15;letter-spacing:-.015em;margin:34px 0 18px}
+h2{font-size:25px;margin:46px 0 14px;letter-spacing:-.01em;padding-bottom:7px;border-bottom:1px solid var(--border)}
+h3{font-size:19px;margin:34px 0 10px;color:var(--accent)}
+h4{font-size:16px;margin:24px 0 8px;font-family:-apple-system,sans-serif}
+p{margin:0 0 16px}
+a{color:var(--accent)}
+.hash{opacity:0;margin-left:8px;font-weight:400;font-size:.65em;text-decoration:none;color:var(--faint)}
+h2:hover .hash,h3:hover .hash{opacity:1}
+blockquote{margin:0 0 20px;padding:14px 18px;background:var(--surface2);
+border-left:3px solid var(--accent);border-radius:0 8px 8px 0}
+blockquote p:last-child{margin-bottom:0}
+ol,ul{margin:0 0 18px;padding-left:26px}
+li{margin-bottom:8px}
+li>ul,li>ol{margin:8px 0 0}
+code{font-family:ui-monospace,SFMono-Regular,Menlo,Consolas,monospace;font-size:.87em;
+background:var(--surface2);padding:1px 5px;border-radius:4px}
+pre{background:var(--surface2);border:1px solid var(--border);border-radius:9px;
+padding:15px 17px;overflow-x:auto;margin:0 0 20px}
+pre code{background:none;padding:0;font-size:13px;line-height:1.6}
+.tw{overflow-x:auto;margin:0 0 22px;border:1px solid var(--border);border-radius:9px}
+table{border-collapse:collapse;width:100%;font-size:15px;
+font-family:-apple-system,BlinkMacSystemFont,"Segoe UI",sans-serif}
+th,td{padding:10px 14px;border-bottom:1px solid var(--border);vertical-align:top}
+th{background:var(--surface2);font-size:12px;text-transform:uppercase;
+letter-spacing:.06em;color:var(--dim);font-weight:700;white-space:nowrap}
+tbody tr:last-child td{border-bottom:none}
+hr{border:none;border-top:1px solid var(--border);margin:38px 0}
+details{background:var(--surface2);border:1px solid var(--border);border-radius:9px;
+padding:13px 17px;margin:0 0 20px}
+summary{cursor:pointer;font-weight:600;font-family:-apple-system,sans-serif;font-size:15px}
+details[open] summary{margin-bottom:12px}
+del{color:var(--faint)}
+dl.fields{margin:0 0 20px;padding:0}
+dl.fields dt{font-family:-apple-system,BlinkMacSystemFont,"Segoe UI",sans-serif;
+font-size:11px;letter-spacing:.11em;text-transform:uppercase;color:var(--faint);
+font-weight:700;margin:14px 0 4px}
+dl.fields dt:first-child{margin-top:0}
+dl.fields dd{margin:0;font-size:16px;color:var(--dim);line-height:1.62}
+dl.fields dd em{color:var(--text)}
+dl.fields dt.ru{color:var(--accent)}
+dl.fields dd strong{color:var(--text)}
+.toc{background:var(--surface2);border:1px solid var(--border);border-radius:10px;
+padding:16px 20px;margin:26px 0 34px;font-family:-apple-system,sans-serif;font-size:14px}
+.toc b{display:block;font-size:11px;letter-spacing:.12em;text-transform:uppercase;
+color:var(--faint);margin-bottom:9px}
+.toc a{display:block;padding:3px 0;color:var(--dim);text-decoration:none}
+.toc a:hover{color:var(--accent)}
+.themebtn{position:fixed;right:18px;bottom:18px;z-index:60;font-family:-apple-system,sans-serif;
+font-size:12.5px;font-weight:600;cursor:pointer;background:var(--surface);border:1px solid var(--border);
+border-radius:99px;padding:9px 16px;color:var(--text)}
+@media(max-width:600px){body{font-size:16px}.wrap{padding:0 17px}}
+</style></head><body>
+<nav class="crumb"><div class="wrap"><a href="../../../index.html">Learn English</a><span class="sep">/</span><a href="../../README.html">Parts of speech</a><span class="sep">/</span><a href="../README.html">01-nouns</a><span class="sep">/</span><span>catalog</span></div></nav>
+<main><div class="wrap"><h1 id="core-vocabulary-work-and-the-office">Core vocabulary: work and the office<a class="hash" href="#core-vocabulary-work-and-the-office" aria-label="link">#</a></h1>
+<blockquote><p>The everyday nouns of work and the office — pronunciation, Russian, plural, and three examples each.</p></blockquote>
+<p><a href="../README.html">← The grammar of nouns</a> &middot; <a href="README.html">All groups</a></p>
+<p>Part of the <strong>core-vocabulary tier</strong>. Groups 1–23 cover the nouns that misbehave; this tier covers the nouns you simply need to know. Entries are deliberately lean, because a regular countable noun has no grammatical story to tell. A <strong>Contrast</strong> line appears only where the word hides a genuine trap.</p>
+<p>Where a word in this field <em>does</em> misbehave, it lives in the grammar tier instead and is not repeated here.</p>
+<hr>
+<h3 id="workplace">workplace<a class="hash" href="#workplace" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/ˈwɜːrkpleɪs/ &middot; <em>WURK-playss</em></dd><dt>Русский</dt><dd>рабочее место, место работы</dd><dt>Plural</dt><dd><em>workplaces</em></dd><dt>Countability</dt><dd>countable</dd></dl>
+<p>The place where a person does their job.</p>
+<ol><li>Cell phones aren't allowed in the <em>workplace</em>.</li><li>The company is trying to make the <em>workplace</em> safer.</li><li>These rules apply in most American <em>workplaces</em>.</li></ol>
+<hr>
+<h3 id="cubicle">cubicle<a class="hash" href="#cubicle" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/ˈkjuːbɪkəl/ &middot; <em>KYOO-bih-kuhl</em></dd><dt>Русский</dt><dd>рабочая кабинка (в офисе)</dd><dt>Plural</dt><dd><em>cubicles</em></dd><dt>Countability</dt><dd>countable</dd></dl>
+<p>A small work area separated from the rest of an office by low walls.</p>
+<ol><li>He spends nine hours a day in a <em>cubicle</em>.</li><li>Somebody taped a birthday sign to her <em>cubicle</em>.</li><li>They tore out the <em>cubicles</em> and went open-plan.</li></ol>
+<hr>
+<h3 id="front-desk">front desk<a class="hash" href="#front-desk" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/ˈfrʌnt desk/ &middot; <em>FRUNT-desk</em></dd><dt>Русский</dt><dd>стойка регистрации, ресепшен</dd><dt>Plural</dt><dd><em>front desks</em></dd><dt>Countability</dt><dd>countable</dd></dl>
+<p>The counter near the entrance where visitors check in.</p>
+<ol><li>Leave your name at the <em>front desk</em>.</li><li>The <em>front desk</em> called up to say my ride was here.</li><li>Both <em>front desks</em> were empty at that hour.</li></ol>
+<hr>
+<h3 id="receptionist">receptionist<a class="hash" href="#receptionist" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/rɪˈsepʃənɪst/ &middot; <em>rih-SEP-shuh-nist</em></dd><dt>Русский</dt><dd>администратор, секретарь на ресепшене</dd><dt>Plural</dt><dd><em>receptionists</em></dd><dt>Countability</dt><dd>countable</dd></dl>
+<p>Someone whose job is to greet visitors and answer the phone at an office.</p>
+<ol><li>The <em>receptionist</em> buzzed us in.</li><li>Ask the <em>receptionist</em> for a visitor badge.</li><li>They hired two more <em>receptionists</em> for the clinic.</li></ol>
+<hr>
+<h3 id="cafeteria">cafeteria<a class="hash" href="#cafeteria" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/ˌkæfəˈtɪriə/ &middot; <em>kaf-uh-TEER-ee-uh</em></dd><dt>Русский</dt><dd>столовая</dd><dt>Plural</dt><dd><em>cafeterias</em></dd><dt>Countability</dt><dd>countable</dd></dl>
+<p>A place at a workplace or school where meals are served and eaten.</p>
+<ol><li>We had lunch in the company <em>cafeteria</em>.</li><li>The <em>cafeteria</em> closes at two.</li><li>Both <em>cafeterias</em> serve the same sandwiches.</li></ol>
+<hr>
+<h3 id="break-room">break room<a class="hash" href="#break-room" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/ˈbreɪk ruːm/ &middot; <em>BRAYK-room</em></dd><dt>Русский</dt><dd>комната отдыха (для сотрудников)</dd><dt>Plural</dt><dd><em>break rooms</em></dd><dt>Countability</dt><dd>countable</dd></dl>
+<p>A room at work where employees can eat, rest, or make coffee.</p>
+<ol><li>There's leftover pizza in the <em>break room</em>.</li><li>Somebody left a mess in the <em>break room</em> again.</li><li>The <em>break rooms</em> on both floors have microwaves.</li></ol>
+<hr>
+<h3 id="department">department<a class="hash" href="#department" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/dɪˈpɑːrtmənt/ &middot; <em>dih-PART-muhnt</em></dd><dt>Русский</dt><dd>отдел, департамент</dd><dt>Plural</dt><dd><em>departments</em></dd><dt>Countability</dt><dd>countable</dd></dl>
+<p>One of the sections a company or organization is divided into.</p>
+<ol><li>She works in the accounting <em>department</em>.</li><li>That's a question for the legal <em>department</em>.</li><li>Three <em>departments</em> share the same floor.</li></ol>
+<hr>
+<h3 id="organization">organization<a class="hash" href="#organization" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/ˌɔːrɡənəˈzeɪʃən/ &middot; <em>or-guh-nuh-ZAY-shuhn</em></dd><dt>Русский</dt><dd>организация</dd><dt>Plural</dt><dd><em>organizations</em></dd><dt>Countability</dt><dd>countable</dd><dt>Contrast</dt><dd>Americans spell it with a z; the British usually write organisation.</dd></dl>
+<p>A group of people working together for a shared purpose.</p>
+<ol><li>She runs a nonprofit <em>organization</em>.</li><li>The whole <em>organization</em> got the same email.</li><li>Several <em>organizations</em> signed the letter.</li></ol>
+<hr>
+<h3 id="printer">printer<a class="hash" href="#printer" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/ˈprɪntər/ &middot; <em>PRIN-tur</em></dd><dt>Русский</dt><dd>принтер</dd><dt>Plural</dt><dd><em>printers</em></dd><dt>Countability</dt><dd>countable</dd></dl>
+<p>A machine that puts text or images from a computer onto paper.</p>
+<ol><li>The <em>printer</em> is out of paper again.</li><li>Send it to the <em>printer</em> on the third floor.</li><li>Both <em>printers</em> are jammed.</li></ol>
+<hr>
+<h3 id="copier">copier<a class="hash" href="#copier" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/ˈkɑːpiər/ &middot; <em>KAH-pee-ur</em></dd><dt>Русский</dt><dd>копировальный аппарат, ксерокс</dd><dt>Plural</dt><dd><em>copiers</em></dd><dt>Countability</dt><dd>countable</dd><dt>Contrast</dt><dd>Also called a photocopier; Americans often just say the copy machine.</dd></dl>
+<p>A machine that makes paper copies of documents.</p>
+<ol><li>The <em>copier</em> jams every other day.</li><li>She stood at the <em>copier</em> for twenty minutes.</li><li>They finally replaced both <em>copiers</em>.</li></ol>
+<hr>
+<h3 id="paperclip">paperclip<a class="hash" href="#paperclip" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/ˈpeɪpərklɪp/ &middot; <em>PAY-pur-klip</em></dd><dt>Русский</dt><dd>скрепка</dd><dt>Plural</dt><dd><em>paperclips</em></dd><dt>Countability</dt><dd>countable</dd><dt>Contrast</dt><dd>Often written as two words: paper clip.</dd></dl>
+<p>A small bent piece of wire that holds sheets of paper together.</p>
+<ol><li>Hand me a <em>paperclip</em>.</li><li>The whole packet was held together with one <em>paperclip</em>.</li><li>There's a box of <em>paperclips</em> in the drawer.</li></ol>
+<hr>
+<h3 id="binder">binder<a class="hash" href="#binder" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/ˈbaɪndər/ &middot; <em>BYN-dur</em></dd><dt>Русский</dt><dd>папка-скоросшиватель (на кольцах)</dd><dt>Plural</dt><dd><em>binders</em></dd><dt>Countability</dt><dd>countable</dd></dl>
+<p>A stiff folder with rings inside that hold punched pages.</p>
+<ol><li>Everything for the class is in this <em>binder</em>.</li><li>She put the contract in a three-ring <em>binder</em>.</li><li>The <em>binders</em> are on the shelf by the window.</li></ol>
+<hr>
+<h3 id="folder">folder<a class="hash" href="#folder" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/ˈfoʊldər/ &middot; <em>FOHL-dur</em></dd><dt>Русский</dt><dd>папка</dd><dt>Plural</dt><dd><em>folders</em></dd><dt>Countability</dt><dd>countable</dd></dl>
+<p>A folded cover for holding loose papers, or a place for files on a computer.</p>
+<ol><li>Put the receipts in a <em>folder</em>.</li><li>I saved it in a <em>folder</em> on my desktop.</li><li>There were a dozen <em>folders</em> stacked on his chair.</li></ol>
+<hr>
+<h3 id="whiteboard">whiteboard<a class="hash" href="#whiteboard" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/ˈwaɪtbɔːrd/ &middot; <em>WYT-bord</em></dd><dt>Русский</dt><dd>маркерная доска</dd><dt>Plural</dt><dd><em>whiteboards</em></dd><dt>Countability</dt><dd>countable</dd></dl>
+<p>A smooth white panel you write on with markers that wipe off.</p>
+<ol><li>She drew the whole plan on the <em>whiteboard</em>.</li><li>Somebody erased the <em>whiteboard</em> before we finished.</li><li>Every conference room has a <em>whiteboard</em>.</li></ol>
+<hr>
+<h3 id="projector">projector<a class="hash" href="#projector" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/prəˈdʒektər/ &middot; <em>pruh-JEK-tur</em></dd><dt>Русский</dt><dd>проектор</dd><dt>Plural</dt><dd><em>projectors</em></dd><dt>Countability</dt><dd>countable</dd></dl>
+<p>A device that shines an image from a computer onto a screen or wall.</p>
+<ol><li>The <em>projector</em> won't connect to my laptop.</li><li>Dim the lights and turn on the <em>projector</em>.</li><li>Both <em>projectors</em> are booked for that hour.</li></ol>
+<hr>
+<h3 id="monitor">monitor<a class="hash" href="#monitor" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/ˈmɑːnətər/ &middot; <em>MAH-nuh-tur</em></dd><dt>Русский</dt><dd>монитор</dd><dt>Plural</dt><dd><em>monitors</em></dd><dt>Countability</dt><dd>countable</dd></dl>
+<p>The screen you look at when using a computer.</p>
+<ol><li>He works with two <em>monitors</em>.</li><li>The <em>monitor</em> keeps flickering.</li><li>IT ordered a bigger <em>monitor</em> for her desk.</li></ol>
+<hr>
+<h3 id="keyboard">keyboard<a class="hash" href="#keyboard" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/ˈkiːbɔːrd/ &middot; <em>KEE-bord</em></dd><dt>Русский</dt><dd>клавиатура</dd><dt>Plural</dt><dd><em>keyboards</em></dd><dt>Countability</dt><dd>countable</dd></dl>
+<p>The set of keys you type on to control a computer.</p>
+<ol><li>I spilled coffee on my <em>keyboard</em>.</li><li>This <em>keyboard</em> is way too loud.</li><li>They ordered new <em>keyboards</em> for the whole floor.</li></ol>
+<hr>
+<h3 id="laptop">laptop<a class="hash" href="#laptop" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/ˈlæptɑːp/ &middot; <em>LAP-tahp</em></dd><dt>Русский</dt><dd>ноутбук</dd><dt>Plural</dt><dd><em>laptops</em></dd><dt>Countability</dt><dd>countable</dd></dl>
+<p>A small portable computer that folds shut.</p>
+<ol><li>Bring your <em>laptop</em> to the meeting.</li><li>My <em>laptop</em> died halfway through the call.</li><li>The company issues <em>laptops</em> to everyone.</li></ol>
+<hr>
+<h3 id="computer">computer<a class="hash" href="#computer" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/kəmˈpjuːtər/ &middot; <em>kuhm-PYOO-tur</em></dd><dt>Русский</dt><dd>компьютер</dd><dt>Plural</dt><dd><em>computers</em></dd><dt>Countability</dt><dd>countable</dd></dl>
+<p>An electronic machine for storing information and doing work with it.</p>
+<ol><li>My <em>computer</em> is running really slow today.</li><li>Turn the <em>computer</em> off before you leave.</li><li>All the <em>computers</em> were updated overnight.</li></ol>
+<hr>
+<h3 id="notebook">notebook<a class="hash" href="#notebook" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/ˈnoʊtbʊk/ &middot; <em>NOHT-buuk</em></dd><dt>Русский</dt><dd>блокнот, тетрадь</dd><dt>Plural</dt><dd><em>notebooks</em></dd><dt>Countability</dt><dd>countable</dd></dl>
+<p>A book of blank pages for writing notes in.</p>
+<ol><li>She takes notes in a little <em>notebook</em>.</li><li>I left my <em>notebook</em> in the conference room.</li><li>There's a stack of <em>notebooks</em> in the supply closet.</li></ol>
+<hr>
+<h3 id="pen">pen<a class="hash" href="#pen" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/pen/ &middot; <em>PEN</em></dd><dt>Русский</dt><dd>ручка</dd><dt>Plural</dt><dd><em>pens</em></dd><dt>Countability</dt><dd>countable</dd></dl>
+<p>A writing instrument that uses ink.</p>
+<ol><li>Do you have a <em>pen</em> I can borrow?</li><li>The <em>pen</em> ran out halfway through the form.</li><li>Somebody keeps walking off with my <em>pens</em>.</li></ol>
+<hr>
+<h3 id="pencil">pencil<a class="hash" href="#pencil" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/ˈpensəl/ &middot; <em>PEN-suhl</em></dd><dt>Русский</dt><dd>карандаш</dd><dt>Plural</dt><dd><em>pencils</em></dd><dt>Countability</dt><dd>countable</dd></dl>
+<p>A writing instrument with a thin stick of graphite inside.</p>
+<ol><li>Fill out the form in pen, not <em>pencil</em>.</li><li>He sat there chewing on a <em>pencil</em>.</li><li>These <em>pencils</em> all need sharpening.</li></ol>
+<hr>
+<h3 id="eraser">eraser<a class="hash" href="#eraser" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/ɪˈreɪsər/ &middot; <em>ih-RAY-sur</em></dd><dt>Русский</dt><dd>ластик, стирательная резинка</dd><dt>Plural</dt><dd><em>erasers</em></dd><dt>Countability</dt><dd>countable</dd><dt>Contrast</dt><dd>American word; the British say rubber for the pencil kind.</dd></dl>
+<p>A small piece of rubber or felt used to rub out writing.</p>
+<ol><li>Is there an <em>eraser</em> on that pencil?</li><li>She rubbed the line out with an <em>eraser</em>.</li><li>The <em>erasers</em> for the whiteboard have disappeared again.</li></ol>
+<hr>
+<h3 id="envelope">envelope<a class="hash" href="#envelope" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/ˈenvəloʊp/ &middot; <em>EN-vuh-lohp</em></dd><dt>Русский</dt><dd>конверт</dd><dt>Plural</dt><dd><em>envelopes</em></dd><dt>Countability</dt><dd>countable</dd></dl>
+<p>A flat paper cover that a letter goes into for mailing.</p>
+<ol><li>He sealed the check in an <em>envelope</em>.</li><li>Write the address on the <em>envelope</em>.</li><li>There's a box of <em>envelopes</em> by the printer.</li></ol>
+<hr>
+<h3 id="calendar">calendar<a class="hash" href="#calendar" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/ˈkæləndər/ &middot; <em>KAL-uhn-dur</em></dd><dt>Русский</dt><dd>календарь</dd><dt>Plural</dt><dd><em>calendars</em></dd><dt>Countability</dt><dd>countable</dd><dt>Contrast</dt><dd>Ends in -ar, not -er, even though it sounds like -er.</dd></dl>
+<p>A chart or program showing the days of the year and what is planned on them.</p>
+<ol><li>Put it on the <em>calendar</em> so I don't forget.</li><li>My <em>calendar</em> is packed all week.</li><li>Our <em>calendars</em> never seem to line up.</li></ol>
+<hr>
+<h3 id="stationery">stationery<a class="hash" href="#stationery" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/ˈsteɪʃəneri/ &middot; <em>STAY-shuh-ner-ee</em></dd><dt>Русский</dt><dd>канцелярские товары</dd><dt>Countability</dt><dd>uncountable</dd><dt>Contrast</dt><dd>Sounds exactly like <em>stationary</em> ('not moving'); the paper one ends in -ery.</dd></dl>
+<p>Paper, envelopes, and other writing supplies.</p>
+<ol><li>The office orders all its <em>stationery</em> online.</li><li>We're out of <em>stationery</em> again.</li><li>She keeps the <em>stationery</em> in the bottom drawer.</li></ol>
+<hr>
+<h3 id="supplies">supplies<a class="hash" href="#supplies" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/səˈplaɪz/ &middot; <em>suh-PLYZ</em></dd><dt>Русский</dt><dd>принадлежности, расходные материалы</dd><dt>Plural</dt><dd><em>supplies</em></dd><dt>Countability</dt><dd>countable</dd><dt>Contrast</dt><dd>Used in the plural for office materials — <em>a supply</em> means something else.</dd></dl>
+<p>The everyday materials a workplace uses up, like paper and pens.</p>
+<ol><li>We're low on office <em>supplies</em>.</li><li>The <em>supplies</em> are kept in the closet by the copier.</li><li>Order more <em>supplies</em> before the end of the month.</li></ol>
+<hr>
+<h3 id="sticky-note">sticky note<a class="hash" href="#sticky-note" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/ˈstɪki noʊt/ &middot; <em>STIK-ee-noht</em></dd><dt>Русский</dt><dd>стикер, клейкий листок</dd><dt>Plural</dt><dd><em>sticky notes</em></dd><dt>Countability</dt><dd>countable</dd></dl>
+<p>A small square of paper with glue on one edge, used for short reminders.</p>
+<ol><li>He left a <em>sticky note</em> on my monitor.</li><li>The whole report was covered in <em>sticky notes</em>.</li><li>Write it on a <em>sticky note</em> so you remember.</li></ol>
+<hr>
+<h3 id="report">report<a class="hash" href="#report" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/rɪˈpɔːrt/ &middot; <em>rih-PORT</em></dd><dt>Русский</dt><dd>отчёт, доклад</dd><dt>Plural</dt><dd><em>reports</em></dd><dt>Countability</dt><dd>countable</dd></dl>
+<p>A written account of work done or facts found out.</p>
+<ol><li>The <em>report</em> is due Friday morning.</li><li>She wrote a twelve-page <em>report</em> on the numbers.</li><li>Nobody reads these <em>reports</em> anyway.</li></ol>
+<hr>
+<h3 id="presentation">presentation<a class="hash" href="#presentation" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/ˌprezənˈteɪʃən/ &middot; <em>prez-uhn-TAY-shuhn</em></dd><dt>Русский</dt><dd>презентация</dd><dt>Plural</dt><dd><em>presentations</em></dd><dt>Countability</dt><dd>countable</dd></dl>
+<p>A talk in which someone shows and explains information to a group.</p>
+<ol><li>I'm giving a <em>presentation</em> to the whole department.</li><li>His <em>presentation</em> ran about ten minutes long.</li><li>We sat through four <em>presentations</em> in a row.</li></ol>
+<hr>
+<h3 id="spreadsheet">spreadsheet<a class="hash" href="#spreadsheet" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/ˈspredʃiːt/ &middot; <em>SPRED-sheet</em></dd><dt>Русский</dt><dd>электронная таблица</dd><dt>Plural</dt><dd><em>spreadsheets</em></dd><dt>Countability</dt><dd>countable</dd></dl>
+<p>A computer document laid out in rows and columns for numbers.</p>
+<ol><li>Everything's tracked in one big <em>spreadsheet</em>.</li><li>She sent me the <em>spreadsheet</em> with the budget in it.</li><li>He keeps three separate <em>spreadsheets</em> for expenses.</li></ol>
+<hr>
+<h3 id="document">document<a class="hash" href="#document" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/ˈdɑːkjəmənt/ &middot; <em>DAH-kyuh-muhnt</em></dd><dt>Русский</dt><dd>документ</dd><dt>Plural</dt><dd><em>documents</em></dd><dt>Countability</dt><dd>countable</dd></dl>
+<p>A piece of writing that gives official information or a record.</p>
+<ol><li>Sign the <em>document</em> at the bottom of page two.</li><li>I can't open the <em>document</em> you sent.</li><li>Bring both <em>documents</em> to the meeting.</li></ol>
+<hr>
+<h3 id="agreement">agreement<a class="hash" href="#agreement" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/əˈɡriːmənt/ &middot; <em>uh-GREE-muhnt</em></dd><dt>Русский</dt><dd>соглашение, договорённость</dd><dt>Plural</dt><dd><em>agreements</em></dd><dt>Countability</dt><dd>countable</dd></dl>
+<p>An arrangement that two sides have accepted.</p>
+<ol><li>We finally reached an <em>agreement</em>.</li><li>The <em>agreement</em> covers the next three years.</li><li>Both <em>agreements</em> were signed the same day.</li></ol>
+<hr>
+<h3 id="payroll">payroll<a class="hash" href="#payroll" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/ˈpeɪroʊl/ &middot; <em>PAY-rohl</em></dd><dt>Русский</dt><dd>фонд оплаты труда; платёжная ведомость</dd><dt>Plural</dt><dd><em>payrolls</em></dd><dt>Countability</dt><dd>countable</dd></dl>
+<p>The list of a company's employees and the money paid to them.</p>
+<ol><li>There are forty people on the <em>payroll</em>.</li><li>Talk to <em>payroll</em> about the missing hours.</li><li>Both <em>payrolls</em> are handled by the same office.</li></ol>
+<hr>
+<h3 id="paperwork">paperwork<a class="hash" href="#paperwork" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/ˈpeɪpərwɜːrk/ &middot; <em>PAY-pur-wurk</em></dd><dt>Русский</dt><dd>документы, бумажная волокита</dd><dt>Countability</dt><dd>uncountable</dd><dt>Contrast</dt><dd>Uncountable — say <em>a lot of paperwork</em>, never <em>paperworks</em>.</dd></dl>
+<p>The forms and written records a job requires.</p>
+<ol><li>There's a mountain of <em>paperwork</em> on his desk.</li><li>I spent all morning on <em>paperwork</em>.</li><li>You can't start until the <em>paperwork</em> goes through.</li></ol>
+<hr>
+<h3 id="form">form<a class="hash" href="#form" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/fɔːrm/ &middot; <em>FORM</em></dd><dt>Русский</dt><dd>бланк, анкета</dd><dt>Plural</dt><dd><em>forms</em></dd><dt>Countability</dt><dd>countable</dd></dl>
+<p>A printed sheet with blank spaces to be filled in.</p>
+<ol><li>Fill out this <em>form</em> and bring it back.</li><li>The <em>form</em> asks for your Social Security number.</li><li>There were four <em>forms</em> to sign on my first day.</li></ol>
+<hr>
+<h3 id="survey">survey<a class="hash" href="#survey" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/ˈsɜːrveɪ/ &middot; <em>SUR-vay</em></dd><dt>Русский</dt><dd>опрос, анкетирование</dd><dt>Plural</dt><dd><em>surveys</em></dd><dt>Countability</dt><dd>countable</dd><dt>Contrast</dt><dd>Stress moves: the noun is SUR-vay, the verb <em>to survey</em> is sur-VAY.</dd></dl>
+<p>A set of questions asked of many people to collect opinions.</p>
+<ol><li>HR sent out an employee <em>survey</em>.</li><li>The <em>survey</em> takes about five minutes.</li><li>Nobody fills out these <em>surveys</em>.</li></ol>
+<hr>
+<h3 id="template">template<a class="hash" href="#template" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/ˈtempleɪt/ &middot; <em>TEM-playt</em></dd><dt>Русский</dt><dd>шаблон</dd><dt>Plural</dt><dd><em>templates</em></dd><dt>Countability</dt><dd>countable</dd></dl>
+<p>A ready-made pattern you fill in to make a document.</p>
+<ol><li>Just use the <em>template</em> instead of starting over.</li><li>The <em>template</em> already has the logo on it.</li><li>There are <em>templates</em> for all the standard letters.</li></ol>
+<hr>
+<h3 id="signature">signature<a class="hash" href="#signature" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/ˈsɪɡnətʃər/ &middot; <em>SIG-nuh-chur</em></dd><dt>Русский</dt><dd>подпись</dd><dt>Plural</dt><dd><em>signatures</em></dd><dt>Countability</dt><dd>countable</dd><dt>Contrast</dt><dd>The g is pronounced here, though it is silent in <em>sign</em>.</dd></dl>
+<p>Your name written by hand to show you agree to something.</p>
+<ol><li>We just need your <em>signature</em> here.</li><li>The <em>signature</em> on the check didn't match.</li><li>They collected <em>signatures</em> from everyone on the team.</li></ol>
+<hr>
+<h3 id="resume">resume<a class="hash" href="#resume" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/ˈrezəmeɪ/ &middot; <em>REZ-uh-may</em></dd><dt>Русский</dt><dd>резюме</dd><dt>Plural</dt><dd><em>resumes</em></dd><dt>Countability</dt><dd>countable</dd><dt>Contrast</dt><dd>Often written résumé. The noun is REZ-uh-may; the verb <em>resume</em> ('start again') is rih-ZOOM.</dd></dl>
+<p>A short written summary of your work history, sent when applying for a job.</p>
+<ol><li>Send me your <em>resume</em> and I'll pass it along.</li><li>Her <em>resume</em> is two pages long.</li><li>They got over two hundred <em>resumes</em> for one opening.</li></ol>
+<hr>
+<h3 id="cover-letter">cover letter<a class="hash" href="#cover-letter" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/ˈkʌvər ˌletər/ &middot; <em>KUH-vur-let-ur</em></dd><dt>Русский</dt><dd>сопроводительное письмо</dd><dt>Plural</dt><dd><em>cover letters</em></dd><dt>Countability</dt><dd>countable</dd></dl>
+<p>A letter sent with a resume explaining why you want the job.</p>
+<ol><li>Don't send a resume without a <em>cover letter</em>.</li><li>Her <em>cover letter</em> was better than the resume.</li><li>He rewrites the <em>cover letter</em> for every job.</li></ol>
+<hr>
+<h3 id="proposal">proposal<a class="hash" href="#proposal" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/prəˈpoʊzəl/ &middot; <em>pruh-POH-zuhl</em></dd><dt>Русский</dt><dd>предложение (деловое), заявка</dd><dt>Plural</dt><dd><em>proposals</em></dd><dt>Countability</dt><dd>countable</dd></dl>
+<p>A written plan or offer put forward for others to consider.</p>
+<ol><li>We're putting together a <em>proposal</em> for the client.</li><li>The <em>proposal</em> got turned down.</li><li>They reviewed six <em>proposals</em> before choosing one.</li></ol>
+<hr>
+<h3 id="minutes">minutes<a class="hash" href="#minutes" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/ˈmɪnəts/ &middot; <em>MIN-uhts</em></dd><dt>Русский</dt><dd>протокол (собрания)</dd><dt>Plural</dt><dd><em>minutes</em></dd><dt>Countability</dt><dd>countable</dd><dt>Contrast</dt><dd>Always plural in this meaning — never <em>a minute</em> of a meeting.</dd></dl>
+<p>The written record of what was said and decided at a meeting.</p>
+<ol><li>Who's taking the <em>minutes</em> today?</li><li>The <em>minutes</em> from last week are attached.</li><li>She reads the <em>minutes</em> out loud at the start.</li></ol>
+<hr>
+<h3 id="meeting">meeting<a class="hash" href="#meeting" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/ˈmiːtɪŋ/ &middot; <em>MEE-ting</em></dd><dt>Русский</dt><dd>встреча, совещание</dd><dt>Plural</dt><dd><em>meetings</em></dd><dt>Countability</dt><dd>countable</dd></dl>
+<p>An occasion when people come together to discuss work.</p>
+<ol><li>I've got a <em>meeting</em> at ten.</li><li>That <em>meeting</em> could have been an email.</li><li>His calendar is nothing but back-to-back <em>meetings</em>.</li></ol>
+<hr>
+<h3 id="conference">conference<a class="hash" href="#conference" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/ˈkɑːnfərəns/ &middot; <em>KAHN-fuh-ruhnss</em></dd><dt>Русский</dt><dd>конференция</dd><dt>Plural</dt><dd><em>conferences</em></dd><dt>Countability</dt><dd>countable</dd></dl>
+<p>A large organized event where people meet to hear talks about their field.</p>
+<ol><li>She's speaking at a <em>conference</em> in Denver.</li><li>The <em>conference</em> runs Tuesday through Thursday.</li><li>He goes to two or three <em>conferences</em> a year.</li></ol>
+<hr>
+<h3 id="call">call<a class="hash" href="#call" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/kɔːl/ &middot; <em>KAWL</em></dd><dt>Русский</dt><dd>звонок, созвон</dd><dt>Plural</dt><dd><em>calls</em></dd><dt>Countability</dt><dd>countable</dd></dl>
+<p>A conversation by phone or video, especially a work one.</p>
+<ol><li>I'm on a <em>call</em> until eleven.</li><li>Let's set up a <em>call</em> for Monday.</li><li>She had five <em>calls</em> back to back.</li></ol>
+<hr>
+<h3 id="deadline">deadline<a class="hash" href="#deadline" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/ˈdedlaɪn/ &middot; <em>DED-lyn</em></dd><dt>Русский</dt><dd>крайний срок, дедлайн</dd><dt>Plural</dt><dd><em>deadlines</em></dd><dt>Countability</dt><dd>countable</dd></dl>
+<p>The time by which something has to be finished.</p>
+<ol><li>The <em>deadline</em> is end of day Friday.</li><li>We missed the <em>deadline</em> by two hours.</li><li>He works better with tight <em>deadlines</em>.</li></ol>
+<hr>
+<h3 id="schedule">schedule<a class="hash" href="#schedule" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/ˈskedʒuːl/ &middot; <em>SKEJ-ool</em></dd><dt>Русский</dt><dd>расписание, график</dd><dt>Plural</dt><dd><em>schedules</em></dd><dt>Countability</dt><dd>countable</dd><dt>Contrast</dt><dd>Americans say SKEJ-ool; the British say SHED-yool.</dd></dl>
+<p>A plan showing when things will happen.</p>
+<ol><li>My <em>schedule</em> is full this week.</li><li>The project is behind <em>schedule</em>.</li><li>They post the <em>schedules</em> every Sunday night.</li></ol>
+<hr>
+<h3 id="goal">goal<a class="hash" href="#goal" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/ɡoʊl/ &middot; <em>GOHL</em></dd><dt>Русский</dt><dd>цель</dd><dt>Plural</dt><dd><em>goals</em></dd><dt>Countability</dt><dd>countable</dd></dl>
+<p>Something you are trying to achieve.</p>
+<ol><li>Our <em>goal</em> is to double sales this year.</li><li>She set a <em>goal</em> of finishing by June.</li><li>We hit all three <em>goals</em> for the quarter.</li></ol>
+<hr>
+<h3 id="update">update<a class="hash" href="#update" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/ˈʌpdeɪt/ &middot; <em>UP-dayt</em></dd><dt>Русский</dt><dd>обновление, свежая информация</dd><dt>Plural</dt><dd><em>updates</em></dd><dt>Countability</dt><dd>countable</dd><dt>Contrast</dt><dd>Stress moves: the noun is UP-dayt, the verb <em>to update</em> is up-DAYT.</dd></dl>
+<p>The latest news about how something is going.</p>
+<ol><li>Can you give me a quick <em>update</em>?</li><li>There's been no <em>update</em> since Tuesday.</li><li>He sends <em>updates</em> every Friday afternoon.</li></ol>
+<hr>
+<h3 id="review">review<a class="hash" href="#review" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/rɪˈvjuː/ &middot; <em>rih-VYOO</em></dd><dt>Русский</dt><dd>оценка, аттестация; обзор</dd><dt>Plural</dt><dd><em>reviews</em></dd><dt>Countability</dt><dd>countable</dd></dl>
+<p>A careful look at how well someone or something is doing.</p>
+<ol><li>I have my performance <em>review</em> next week.</li><li>The <em>review</em> went better than I expected.</li><li>They do <em>reviews</em> twice a year here.</li></ol>
+<hr>
+<h3 id="job">job<a class="hash" href="#job" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/dʒɑːb/ &middot; <em>JAHB</em></dd><dt>Русский</dt><dd>работа, место работы</dd><dt>Plural</dt><dd><em>jobs</em></dd><dt>Countability</dt><dd>countable</dd><dt>Contrast</dt><dd>Countable, unlike <em>work</em>: say <em>two jobs</em>, never <em>two works</em>.</dd></dl>
+<p>The paid position a person holds.</p>
+<ol><li>He got a <em>job</em> at a bank downtown.</li><li>She's been at the same <em>job</em> for eleven years.</li><li>He worked two <em>jobs</em> to pay for school.</li></ol>
+<hr>
+<h3 id="position">position<a class="hash" href="#position" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/pəˈzɪʃən/ &middot; <em>puh-ZISH-uhn</em></dd><dt>Русский</dt><dd>должность</dd><dt>Plural</dt><dd><em>positions</em></dd><dt>Countability</dt><dd>countable</dd></dl>
+<p>A particular job within an organization.</p>
+<ol><li>I'm applying for a <em>position</em> in marketing.</li><li>The <em>position</em> has been open since March.</li><li>They're filling three <em>positions</em> this fall.</li></ol>
+<hr>
+<h3 id="role">role<a class="hash" href="#role" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/roʊl/ &middot; <em>ROHL</em></dd><dt>Русский</dt><dd>роль, должность</dd><dt>Plural</dt><dd><em>roles</em></dd><dt>Countability</dt><dd>countable</dd></dl>
+<p>The job or function a person has on a team.</p>
+<ol><li>She just moved into a management <em>role</em>.</li><li>My <em>role</em> is mostly writing and editing.</li><li>The two <em>roles</em> overlap quite a bit.</li></ol>
+<hr>
+<h3 id="profession">profession<a class="hash" href="#profession" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/prəˈfeʃən/ &middot; <em>pruh-FESH-uhn</em></dd><dt>Русский</dt><dd>профессия</dd><dt>Plural</dt><dd><em>professions</em></dd><dt>Countability</dt><dd>countable</dd></dl>
+<p>A kind of work that requires training and a formal qualification.</p>
+<ol><li>Teaching is a demanding <em>profession</em>.</li><li>He left the legal <em>profession</em> at forty.</li><li>Nursing and law are very different <em>professions</em>.</li></ol>
+<hr>
+<h3 id="promotion">promotion<a class="hash" href="#promotion" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/prəˈmoʊʃən/ &middot; <em>pruh-MOH-shuhn</em></dd><dt>Русский</dt><dd>повышение (по службе)</dd><dt>Plural</dt><dd><em>promotions</em></dd><dt>Countability</dt><dd>countable</dd></dl>
+<p>A move to a more senior job in the same organization.</p>
+<ol><li>She got a <em>promotion</em> after two years.</li><li>The <em>promotion</em> came with a bigger office.</li><li>They announced three <em>promotions</em> at once.</li></ol>
+<hr>
+<h3 id="resignation">resignation<a class="hash" href="#resignation" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/ˌrezɪɡˈneɪʃən/ &middot; <em>rez-ig-NAY-shuhn</em></dd><dt>Русский</dt><dd>заявление об уходе, отставка</dd><dt>Plural</dt><dd><em>resignations</em></dd><dt>Countability</dt><dd>countable</dd><dt>Contrast</dt><dd>The g is pronounced here, though it is silent in <em>resign</em>.</dd></dl>
+<p>The act of formally quitting a job, or the letter announcing it.</p>
+<ol><li>He handed in his <em>resignation</em> on Monday.</li><li>Her <em>resignation</em> took everyone by surprise.</li><li>Two <em>resignations</em> landed in the same week.</li></ol>
+<hr>
+<h3 id="benefits">benefits<a class="hash" href="#benefits" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/ˈbenəfɪts/ &middot; <em>BEN-uh-fits</em></dd><dt>Русский</dt><dd>соцпакет, льготы (от работодателя)</dd><dt>Plural</dt><dd><em>benefits</em></dd><dt>Countability</dt><dd>countable</dd><dt>Contrast</dt><dd>Plural in this sense — <em>a benefit</em> on its own just means an advantage.</dd></dl>
+<p>The health insurance, paid leave, and other extras an employer provides.</p>
+<ol><li>The pay is average but the <em>benefits</em> are great.</li><li>Part-timers don't get <em>benefits</em>.</li><li><em>Benefits</em> kick in after ninety days.</li></ol>
+<hr>
+<h3 id="vacation">vacation<a class="hash" href="#vacation" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/veɪˈkeɪʃən/ &middot; <em>vay-KAY-shuhn</em></dd><dt>Русский</dt><dd>отпуск</dd><dt>Plural</dt><dd><em>vacations</em></dd><dt>Countability</dt><dd>countable</dd><dt>Contrast</dt><dd>American; the British say holiday for the same thing.</dd></dl>
+<p>Time off work for rest or travel.</p>
+<ol><li>I'm taking a <em>vacation</em> in August.</li><li>She's on <em>vacation</em> until the tenth.</li><li>We get three weeks of <em>vacation</em> a year.</li></ol>
+<hr>
+<h3 id="leave">leave<a class="hash" href="#leave" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/liːv/ &middot; <em>LEEV</em></dd><dt>Русский</dt><dd>отпуск (служебный), отгул</dd><dt>Countability</dt><dd>uncountable</dd><dt>Contrast</dt><dd>Uncountable in this sense — never <em>leaves</em> for time off work.</dd></dl>
+<p>Officially approved time away from work.</p>
+<ol><li>She's on maternity <em>leave</em> until March.</li><li>He took two weeks of unpaid <em>leave</em>.</li><li>You have to request <em>leave</em> a month ahead.</li></ol>
+<hr>
+<h3 id="overtime">overtime<a class="hash" href="#overtime" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/ˈoʊvərtaɪm/ &middot; <em>OH-vur-tym</em></dd><dt>Русский</dt><dd>сверхурочная работа, сверхурочные</dd><dt>Countability</dt><dd>uncountable</dd></dl>
+<p>Hours worked beyond the normal schedule, or the extra pay for them.</p>
+<ol><li>He's been working a lot of <em>overtime</em>.</li><li><em>Overtime</em> pays time and a half.</li><li>There's no <em>overtime</em> in the budget this month.</li></ol>
+<hr>
+<h3 id="shift">shift<a class="hash" href="#shift" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/ʃɪft/ &middot; <em>SHIFT</em></dd><dt>Русский</dt><dd>смена (рабочая)</dd><dt>Plural</dt><dd><em>shifts</em></dd><dt>Countability</dt><dd>countable</dd></dl>
+<p>A set period of working hours, one of several covering the day.</p>
+<ol><li>My <em>shift</em> starts at six in the morning.</li><li>She picked up an extra <em>shift</em> on Saturday.</li><li>The night <em>shifts</em> are hardest to fill.</li></ol>
+<hr>
+<h3 id="commute">commute<a class="hash" href="#commute" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/kəˈmjuːt/ &middot; <em>kuh-MYOOT</em></dd><dt>Русский</dt><dd>дорога на работу и обратно</dd><dt>Plural</dt><dd><em>commutes</em></dd><dt>Countability</dt><dd>countable</dd></dl>
+<p>The regular trip between home and work.</p>
+<ol><li>My <em>commute</em> is about forty minutes each way.</li><li>He reads on the <em>commute</em> into the city.</li><li>Long <em>commutes</em> wear people down.</li></ol>
+<hr>
+<h3 id="supervisor">supervisor<a class="hash" href="#supervisor" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/ˈsuːpərvaɪzər/ &middot; <em>SOO-pur-vy-zur</em></dd><dt>Русский</dt><dd>руководитель, непосредственный начальник</dd><dt>Plural</dt><dd><em>supervisors</em></dd><dt>Countability</dt><dd>countable</dd></dl>
+<p>The person who directs and checks another employee's work.</p>
+<ol><li>Ask your <em>supervisor</em> before you leave early.</li><li>My <em>supervisor</em> signed off on the request.</li><li>Both <em>supervisors</em> were in the meeting.</li></ol>
+<hr>
+<h3 id="coworker">coworker<a class="hash" href="#coworker" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/ˈkoʊwɜːrkər/ &middot; <em>KOH-wur-kur</em></dd><dt>Русский</dt><dd>коллега, сослуживец</dd><dt>Plural</dt><dd><em>coworkers</em></dd><dt>Countability</dt><dd>countable</dd><dt>Contrast</dt><dd>Also written co-worker.</dd></dl>
+<p>Someone you work with.</p>
+<ol><li>A <em>coworker</em> gave me a ride home.</li><li>She's friendly with everyone, but her <em>coworkers</em> barely know her.</li><li>Two <em>coworkers</em> covered my shift.</li></ol>
+<hr>
+<h3 id="intern">intern<a class="hash" href="#intern" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/ˈɪntɜːrn/ &middot; <em>IN-turn</em></dd><dt>Русский</dt><dd>стажёр, практикант</dd><dt>Plural</dt><dd><em>interns</em></dd><dt>Countability</dt><dd>countable</dd><dt>Contrast</dt><dd>Stress moves: the noun is IN-turn, the verb <em>to intern</em> is in-TURN.</dd></dl>
+<p>A student or trainee doing short-term work to gain experience.</p>
+<ol><li>The <em>intern</em> handles the scheduling.</li><li>She started here as an <em>intern</em>.</li><li>We take on four <em>interns</em> every summer.</li></ol>
+<hr>
+<h3 id="candidate">candidate<a class="hash" href="#candidate" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/ˈkændɪdət/ &middot; <em>KAN-dih-duht</em></dd><dt>Русский</dt><dd>кандидат (на должность)</dd><dt>Plural</dt><dd><em>candidates</em></dd><dt>Countability</dt><dd>countable</dd></dl>
+<p>A person being considered for a job.</p>
+<ol><li>He's the strongest <em>candidate</em> we've seen.</li><li>The <em>candidate</em> asked good questions.</li><li>They narrowed it down to three <em>candidates</em>.</li></ol>
+<hr>
+<h3 id="application">application<a class="hash" href="#application" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/ˌæpləˈkeɪʃən/ &middot; <em>ap-luh-KAY-shuhn</em></dd><dt>Русский</dt><dd>заявка, заявление (о приёме на работу)</dd><dt>Plural</dt><dd><em>applications</em></dd><dt>Countability</dt><dd>countable</dd></dl>
+<p>A formal written request for a job or a place somewhere.</p>
+<ol><li>I sent in my <em>application</em> last night.</li><li>The <em>application</em> takes about half an hour.</li><li>They got six hundred <em>applications</em> for one job.</li></ol>
+<hr>
+<h3 id="interview">interview<a class="hash" href="#interview" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/ˈɪntərvjuː/ &middot; <em>IN-tur-vyoo</em></dd><dt>Русский</dt><dd>собеседование</dd><dt>Plural</dt><dd><em>interviews</em></dd><dt>Countability</dt><dd>countable</dd></dl>
+<p>A meeting where an employer questions someone applying for a job.</p>
+<ol><li>I have an <em>interview</em> Thursday afternoon.</li><li>The <em>interview</em> lasted almost two hours.</li><li>She went through four <em>interviews</em> before the offer.</li></ol>
+<hr>
+<h3 id="offer">offer<a class="hash" href="#offer" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/ˈɔːfər/ &middot; <em>AW-fur</em></dd><dt>Русский</dt><dd>предложение (о работе)</dd><dt>Plural</dt><dd><em>offers</em></dd><dt>Countability</dt><dd>countable</dd></dl>
+<p>A formal proposal to hire someone at a stated salary.</p>
+<ol><li>She got an <em>offer</em> from a firm in Boston.</li><li>The <em>offer</em> came in below what he wanted.</li><li>He turned down two <em>offers</em> last month.</li></ol>
+<hr>
+<h3 id="training">training<a class="hash" href="#training" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/ˈtreɪnɪŋ/ &middot; <em>TRAY-ning</em></dd><dt>Русский</dt><dd>обучение, подготовка</dd><dt>Countability</dt><dd>uncountable</dd><dt>Contrast</dt><dd>Uncountable — say <em>a lot of training</em>, not <em>trainings</em>.</dd></dl>
+<p>Teaching that prepares someone to do a job.</p>
+<ol><li>New hires get two weeks of <em>training</em>.</li><li>She's still in <em>training</em>.</li><li>The <em>training</em> was mostly videos.</li></ol>
+<hr>
+<h3 id="union">union<a class="hash" href="#union" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/ˈjuːnjən/ &middot; <em>YOON-yuhn</em></dd><dt>Русский</dt><dd>профсоюз</dd><dt>Plural</dt><dd><em>unions</em></dd><dt>Countability</dt><dd>countable</dd></dl>
+<p>An organized group of workers formed to protect their rights.</p>
+<ol><li>The <em>union</em> is negotiating a new contract.</li><li>He's been in the <em>union</em> since 1998.</li><li>Two <em>unions</em> represent workers at the plant.</li></ol>
+<hr>
+<h3 id="strike">strike<a class="hash" href="#strike" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/straɪk/ &middot; <em>STRYK</em></dd><dt>Русский</dt><dd>забастовка</dd><dt>Plural</dt><dd><em>strikes</em></dd><dt>Countability</dt><dd>countable</dd></dl>
+<p>A refusal to work, used to press an employer for something.</p>
+<ol><li>The drivers went on <em>strike</em> for two weeks.</li><li>The <em>strike</em> ended with a wage increase.</li><li>There were <em>strikes</em> at three plants that summer.</li></ol>
+<hr>
+<h3 id="layoff">layoff<a class="hash" href="#layoff" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/ˈleɪɔːf/ &middot; <em>LAY-awf</em></dd><dt>Русский</dt><dd>сокращение, увольнение (по инициативе компании)</dd><dt>Plural</dt><dd><em>layoffs</em></dd><dt>Countability</dt><dd>countable</dd></dl>
+<p>The dismissal of workers because there is not enough work or money.</p>
+<ol><li>He lost his job in the last <em>layoff</em>.</li><li>The <em>layoff</em> hit the whole department.</li><li>There were <em>layoffs</em> right before the holidays.</li></ol>
+<hr>
+<h3 id="workload">workload<a class="hash" href="#workload" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/ˈwɜːrkloʊd/ &middot; <em>WURK-lohd</em></dd><dt>Русский</dt><dd>рабочая нагрузка</dd><dt>Plural</dt><dd><em>workloads</em></dd><dt>Countability</dt><dd>countable</dd></dl>
+<p>The amount of work a person is expected to do.</p>
+<ol><li>My <em>workload</em> has doubled since she left.</li><li>They finally cut back his <em>workload</em>.</li><li><em>Workloads</em> are uneven across the team.</li></ol>
+<hr>
+<h3 id="burnout">burnout<a class="hash" href="#burnout" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/ˈbɜːrnaʊt/ &middot; <em>BURN-owt</em></dd><dt>Русский</dt><dd>выгорание</dd><dt>Countability</dt><dd>uncountable</dd></dl>
+<p>Exhaustion caused by working too hard for too long.</p>
+<ol><li><em>Burnout</em> is why she quit.</li><li>There's a lot of <em>burnout</em> in that field.</li><li>He's showing every sign of <em>burnout</em>.</li></ol>
+<hr>
+<h3 id="morale">morale<a class="hash" href="#morale" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/məˈræl/ &middot; <em>muh-RAL</em></dd><dt>Русский</dt><dd>моральный дух, настрой (в коллективе)</dd><dt>Countability</dt><dd>uncountable</dd><dt>Contrast</dt><dd>Stress falls on the second syllable, muh-RAL — not the same word as <em>moral</em>.</dd></dl>
+<p>The general mood and confidence of a group of people.</p>
+<ol><li><em>Morale</em> is pretty low right now.</li><li>The bonuses did nothing for <em>morale</em>.</li><li>New management brought <em>morale</em> back up.</li></ol>
+<hr>
+<h3 id="personnel">personnel<a class="hash" href="#personnel" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/ˌpɜːrsəˈnel/ &middot; <em>pur-suh-NEL</em></dd><dt>Русский</dt><dd>персонал, кадры</dd><dt>Countability</dt><dd>uncountable</dd><dt>Contrast</dt><dd>Stress falls on the last syllable, pur-suh-NEL — don't confuse it with <em>personal</em>.</dd></dl>
+<p>The people employed by an organization.</p>
+<ol><li>All <em>personnel</em> have to badge in.</li><li><em>Personnel</em> were evacuated within minutes.</li><li>Ask <em>personnel</em> about your benefits.</li></ol>
+<hr>
+<h3 id="janitor">janitor<a class="hash" href="#janitor" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/ˈdʒænətər/ &middot; <em>JAN-uh-tur</em></dd><dt>Русский</dt><dd>уборщик, завхоз</dd><dt>Plural</dt><dd><em>janitors</em></dd><dt>Countability</dt><dd>countable</dd><dt>Contrast</dt><dd>American; the British say caretaker.</dd></dl>
+<p>Someone employed to clean and maintain a building.</p>
+<ol><li>The <em>janitor</em> let us into the room.</li><li>He worked as a <em>janitor</em> while going to school.</li><li>The <em>janitors</em> come through around eight.</li></ol>
+<hr>
+<h3 id="freelancer">freelancer<a class="hash" href="#freelancer" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/ˈfriːlænsər/ &middot; <em>FREE-lan-sur</em></dd><dt>Русский</dt><dd>фрилансер</dd><dt>Plural</dt><dd><em>freelancers</em></dd><dt>Countability</dt><dd>countable</dd></dl>
+<p>Someone who works for several clients instead of one employer.</p>
+<ol><li>She's been a <em>freelancer</em> since 2019.</li><li>We brought in a <em>freelancer</em> to finish the design.</li><li>Most of our writers are <em>freelancers</em>.</li></ol>
+<hr>
+<h3 id="contractor">contractor<a class="hash" href="#contractor" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/ˈkɑːntræktər/ &middot; <em>KAHN-trak-tur</em></dd><dt>Русский</dt><dd>подрядчик, внештатный исполнитель</dd><dt>Plural</dt><dd><em>contractors</em></dd><dt>Countability</dt><dd>countable</dd></dl>
+<p>A person or company hired to do a job without being an employee.</p>
+<ol><li>He works there as a <em>contractor</em>, not staff.</li><li>The <em>contractor</em> bills by the hour.</li><li>Half the team are <em>contractors</em>.</li></ol>
+<hr>
+<h3 id="project">project<a class="hash" href="#project" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/ˈprɑːdʒekt/ &middot; <em>PRAH-jekt</em></dd><dt>Русский</dt><dd>проект</dd><dt>Plural</dt><dd><em>projects</em></dd><dt>Countability</dt><dd>countable</dd><dt>Contrast</dt><dd>Stress moves: the noun is PRAH-jekt, the verb <em>to project</em> is pruh-JEKT.</dd></dl>
+<p>A planned piece of work with a goal and an end date.</p>
+<ol><li>I'm on a new <em>project</em> starting Monday.</li><li>The <em>project</em> is running two weeks late.</li><li>She's juggling three <em>projects</em> at once.</li></ol>
+<hr>
+<h3 id="task">task<a class="hash" href="#task" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/tæsk/ &middot; <em>TASK</em></dd><dt>Русский</dt><dd>задача</dd><dt>Plural</dt><dd><em>tasks</em></dd><dt>Countability</dt><dd>countable</dd></dl>
+<p>A single piece of work that has to be done.</p>
+<ol><li>That's the first <em>task</em> on my list.</li><li>It's a boring <em>task</em>, but somebody has to do it.</li><li>He knocked out three <em>tasks</em> before lunch.</li></ol>
+<hr>
+<h3 id="assignment">assignment<a class="hash" href="#assignment" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/əˈsaɪnmənt/ &middot; <em>uh-SYN-muhnt</em></dd><dt>Русский</dt><dd>задание, поручение</dd><dt>Plural</dt><dd><em>assignments</em></dd><dt>Countability</dt><dd>countable</dd></dl>
+<p>A job or duty given to someone.</p>
+<ol><li>She got the overseas <em>assignment</em>.</li><li>This <em>assignment</em> should take a couple of days.</li><li>He turns down <em>assignments</em> he doesn't like.</li></ol>
+<hr>
+<h3 id="duty">duty<a class="hash" href="#duty" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/ˈduːti/ &middot; <em>DOO-tee</em></dd><dt>Русский</dt><dd>обязанность</dd><dt>Plural</dt><dd><em>duties</em></dd><dt>Countability</dt><dd>countable</dd></dl>
+<p>Something you are required to do as part of a job.</p>
+<ol><li>Answering the phone isn't part of my <em>duty</em>.</li><li>Her <em>duties</em> include scheduling and payroll.</li><li>He listed all the <em>duties</em> in the job posting.</li></ol>
+<hr>
+<h3 id="process">process<a class="hash" href="#process" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/ˈprɑːses/ &middot; <em>PRAH-sess</em></dd><dt>Русский</dt><dd>процесс, порядок действий</dd><dt>Plural</dt><dd><em>processes</em></dd><dt>Countability</dt><dd>countable</dd><dt>Contrast</dt><dd>Americans say PRAH-sess; the British say PROH-sess.</dd></dl>
+<p>A set of steps followed to get something done.</p>
+<ol><li>The hiring <em>process</em> takes about a month.</li><li>We're changing the whole <em>process</em> next quarter.</li><li>Both <em>processes</em> end up in the same place.</li></ol>
+<hr>
+<h3 id="performance">performance<a class="hash" href="#performance" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/pərˈfɔːrməns/ &middot; <em>pur-FOR-muhnss</em></dd><dt>Русский</dt><dd>результативность, показатели работы</dd><dt>Plural</dt><dd><em>performances</em></dd><dt>Countability</dt><dd>both — countable and uncountable with different meanings</dd></dl>
+<p>How well someone does their work, or a single show put on for an audience.</p>
+<ol><li>Her <em>performance</em> this year has been excellent.</li><li>We talk about <em>performance</em> in the annual review.</li><li>The company's <em>performance</em> slipped in the fall.</li></ol>
+<hr>
+<h3 id="complaint">complaint<a class="hash" href="#complaint" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/kəmˈpleɪnt/ &middot; <em>kuhm-PLAYNT</em></dd><dt>Русский</dt><dd>жалоба</dd><dt>Plural</dt><dd><em>complaints</em></dd><dt>Countability</dt><dd>countable</dd></dl>
+<p>A formal statement that something is wrong or unfair.</p>
+<ol><li>A customer filed a <em>complaint</em> about the delay.</li><li>The <em>complaint</em> went straight to HR.</li><li>They've had three <em>complaints</em> about the same guy.</li></ol>
+<hr>
+<h3 id="email">email<a class="hash" href="#email" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/ˈiːmeɪl/ &middot; <em>EE-mayl</em></dd><dt>Русский</dt><dd>электронное письмо; электронная почта</dd><dt>Plural</dt><dd><em>emails</em></dd><dt>Countability</dt><dd>both — countable and uncountable with different meanings</dd></dl>
+<p>A message sent electronically, or the system for sending such messages.</p>
+<ol><li>I'll send you an <em>email</em> this afternoon.</li><li>Just let me know by <em>email</em>.</li><li>There were ninety unread <em>emails</em> after vacation.</li></ol>
+<hr>
+<h3 id="inbox">inbox<a class="hash" href="#inbox" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/ˈɪnbɑːks/ &middot; <em>IN-bahks</em></dd><dt>Русский</dt><dd>папка «Входящие»</dd><dt>Plural</dt><dd><em>inboxes</em></dd><dt>Countability</dt><dd>countable</dd></dl>
+<p>The place where incoming email messages arrive.</p>
+<ol><li>My <em>inbox</em> is out of control.</li><li>It's sitting in your <em>inbox</em> somewhere.</li><li>She keeps two separate <em>inboxes</em>.</li></ol>
+<hr>
+<h3 id="attachment">attachment<a class="hash" href="#attachment" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/əˈtætʃmənt/ &middot; <em>uh-TACH-muhnt</em></dd><dt>Русский</dt><dd>вложение (в письме)</dd><dt>Plural</dt><dd><em>attachments</em></dd><dt>Countability</dt><dd>countable</dd></dl>
+<p>A file sent along with an email.</p>
+<ol><li>You forgot the <em>attachment</em> again.</li><li>The <em>attachment</em> is too big to send.</li><li>Don't open <em>attachments</em> from people you don't know.</li></ol>
+<hr>
+<h3 id="management">management<a class="hash" href="#management" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/ˈmænɪdʒmənt/ &middot; <em>MAN-ij-muhnt</em></dd><dt>Русский</dt><dd>руководство, управление</dd><dt>Countability</dt><dd>uncountable</dd></dl>
+<p>The people who run a company, or the work of running it.</p>
+<ol><li><em>Management</em> decided to close the store.</li><li>She moved into <em>management</em> last year.</li><li>There's no trust between staff and <em>management</em>.</li></ol>
+<hr>
+<h3 id="marketing">marketing<a class="hash" href="#marketing" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/ˈmɑːrkətɪŋ/ &middot; <em>MAR-kuh-ting</em></dd><dt>Русский</dt><dd>маркетинг</dd><dt>Countability</dt><dd>uncountable</dd></dl>
+<p>The work of promoting and selling a company's products.</p>
+<ol><li>She works in <em>marketing</em>.</li><li>They spent a fortune on <em>marketing</em>.</li><li>The whole <em>marketing</em> team is remote.</li></ol>
+<hr>
+<h3 id="sales">sales<a class="hash" href="#sales" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/seɪlz/ &middot; <em>SAYLZ</em></dd><dt>Русский</dt><dd>продажи, сбыт</dd><dt>Plural</dt><dd><em>sales</em></dd><dt>Countability</dt><dd>countable</dd><dt>Contrast</dt><dd>Plural in this sense, with a plural verb: <em>sales are up</em>.</dd></dl>
+<p>The part of a business that sells, or the amount of goods sold.</p>
+<ol><li><em>Sales</em> were down last quarter.</li><li>He's been in <em>sales</em> his whole career.</li><li>The <em>sales</em> team hit its target.</li></ol>
+<hr>
+<h3 id="teamwork">teamwork<a class="hash" href="#teamwork" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/ˈtiːmwɜːrk/ &middot; <em>TEEM-wurk</em></dd><dt>Русский</dt><dd>командная работа, слаженность</dd><dt>Countability</dt><dd>uncountable</dd></dl>
+<p>People working together effectively toward a shared goal.</p>
+<ol><li>That project took real <em>teamwork</em>.</li><li>There's not much <em>teamwork</em> on that floor.</li><li>The whole training is about <em>teamwork</em>.</li></ol>
+<hr>
+<h3 id="expertise">expertise<a class="hash" href="#expertise" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/ˌekspərˈtiːz/ &middot; <em>ek-spur-TEEZ</em></dd><dt>Русский</dt><dd>компетентность, экспертные знания</dd><dt>Countability</dt><dd>uncountable</dd><dt>Contrast</dt><dd>Uncountable — never <em>expertises</em>.</dd></dl>
+<p>Deep knowledge or skill in a particular area.</p>
+<ol><li>We hired her for her <em>expertise</em> in tax law.</li><li>That's outside my <em>expertise</em>.</li><li>The team lacks <em>expertise</em> in this area.</li></ol></div></main>
+<button class="themebtn" id="themeBtn">Dark</button>
+<script>
+const tb=document.getElementById('themeBtn');
+function setTheme(x){document.documentElement.dataset.theme=x;tb.textContent=x==='dark'?'Light':'Dark';
+ try{localStorage.setItem('site-theme',x)}catch(e){}}
+tb.onclick=()=>setTheme(document.documentElement.dataset.theme==='dark'?'light':'dark');
+try{const s=localStorage.getItem('site-theme');
+ setTheme(s||(matchMedia('(prefers-color-scheme: dark)').matches?'dark':'light'))}catch(e){setTheme('light')}
+</script></body></html>

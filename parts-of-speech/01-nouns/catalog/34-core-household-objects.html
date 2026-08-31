@@ -1,0 +1,271 @@
+<!DOCTYPE html>
+<html lang="en"><head>
+<meta charset="utf-8"><meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Core vocabulary: household objects</title>
+<style>
+:root{--bg:#faf9f7;--surface:#fff;--surface2:#f2f0ec;--border:#e2ded6;--text:#1a1815;
+--dim:#5f594f;--faint:#8a8377;--accent:#8a5a3b;--measure:72ch}
+@media(prefers-color-scheme:dark){:root{--bg:#14140f;--surface:#1d1d17;--surface2:#25251d;
+--border:#33332a;--text:#eeeae1;--dim:#a8a293;--faint:#7d776b;--accent:#d09b72}}
+:root[data-theme=dark]{--bg:#14140f;--surface:#1d1d17;--surface2:#25251d;--border:#33332a;
+--text:#eeeae1;--dim:#a8a293;--faint:#7d776b;--accent:#d09b72}
+:root[data-theme=light]{--bg:#faf9f7;--surface:#fff;--surface2:#f2f0ec;--border:#e2ded6;
+--text:#1a1815;--dim:#5f594f;--faint:#8a8377;--accent:#8a5a3b}
+*{box-sizing:border-box}
+body{margin:0;background:var(--bg);color:var(--text);
+font:17px/1.72 ui-serif,Georgia,"Iowan Old Style",Palatino,serif;-webkit-font-smoothing:antialiased}
+.wrap{max-width:min(var(--measure),100%);margin:0 auto;padding:0 22px}
+nav.crumb{border-bottom:1px solid var(--border);padding:13px 0;font-size:13.5px;
+font-family:-apple-system,BlinkMacSystemFont,"Segoe UI",sans-serif;position:sticky;top:0;background:var(--bg);z-index:20}
+nav.crumb .wrap{max-width:none;display:flex;gap:9px;align-items:center;flex-wrap:wrap}
+nav.crumb a{color:var(--dim);text-decoration:none}
+nav.crumb a:hover{color:var(--accent)}
+nav.crumb .sep{color:var(--faint)}
+main{padding:8px 0 80px}
+h1{font-size:clamp(28px,5vw,38px);line-height:1.15;letter-spacing:-.015em;margin:34px 0 18px}
+h2{font-size:25px;margin:46px 0 14px;letter-spacing:-.01em;padding-bottom:7px;border-bottom:1px solid var(--border)}
+h3{font-size:19px;margin:34px 0 10px;color:var(--accent)}
+h4{font-size:16px;margin:24px 0 8px;font-family:-apple-system,sans-serif}
+p{margin:0 0 16px}
+a{color:var(--accent)}
+.hash{opacity:0;margin-left:8px;font-weight:400;font-size:.65em;text-decoration:none;color:var(--faint)}
+h2:hover .hash,h3:hover .hash{opacity:1}
+blockquote{margin:0 0 20px;padding:14px 18px;background:var(--surface2);
+border-left:3px solid var(--accent);border-radius:0 8px 8px 0}
+blockquote p:last-child{margin-bottom:0}
+ol,ul{margin:0 0 18px;padding-left:26px}
+li{margin-bottom:8px}
+li>ul,li>ol{margin:8px 0 0}
+code{font-family:ui-monospace,SFMono-Regular,Menlo,Consolas,monospace;font-size:.87em;
+background:var(--surface2);padding:1px 5px;border-radius:4px}
+pre{background:var(--surface2);border:1px solid var(--border);border-radius:9px;
+padding:15px 17px;overflow-x:auto;margin:0 0 20px}
+pre code{background:none;padding:0;font-size:13px;line-height:1.6}
+.tw{overflow-x:auto;margin:0 0 22px;border:1px solid var(--border);border-radius:9px}
+table{border-collapse:collapse;width:100%;font-size:15px;
+font-family:-apple-system,BlinkMacSystemFont,"Segoe UI",sans-serif}
+th,td{padding:10px 14px;border-bottom:1px solid var(--border);vertical-align:top}
+th{background:var(--surface2);font-size:12px;text-transform:uppercase;
+letter-spacing:.06em;color:var(--dim);font-weight:700;white-space:nowrap}
+tbody tr:last-child td{border-bottom:none}
+hr{border:none;border-top:1px solid var(--border);margin:38px 0}
+details{background:var(--surface2);border:1px solid var(--border);border-radius:9px;
+padding:13px 17px;margin:0 0 20px}
+summary{cursor:pointer;font-weight:600;font-family:-apple-system,sans-serif;font-size:15px}
+details[open] summary{margin-bottom:12px}
+del{color:var(--faint)}
+dl.fields{margin:0 0 20px;padding:0}
+dl.fields dt{font-family:-apple-system,BlinkMacSystemFont,"Segoe UI",sans-serif;
+font-size:11px;letter-spacing:.11em;text-transform:uppercase;color:var(--faint);
+font-weight:700;margin:14px 0 4px}
+dl.fields dt:first-child{margin-top:0}
+dl.fields dd{margin:0;font-size:16px;color:var(--dim);line-height:1.62}
+dl.fields dd em{color:var(--text)}
+dl.fields dt.ru{color:var(--accent)}
+dl.fields dd strong{color:var(--text)}
+.toc{background:var(--surface2);border:1px solid var(--border);border-radius:10px;
+padding:16px 20px;margin:26px 0 34px;font-family:-apple-system,sans-serif;font-size:14px}
+.toc b{display:block;font-size:11px;letter-spacing:.12em;text-transform:uppercase;
+color:var(--faint);margin-bottom:9px}
+.toc a{display:block;padding:3px 0;color:var(--dim);text-decoration:none}
+.toc a:hover{color:var(--accent)}
+.themebtn{position:fixed;right:18px;bottom:18px;z-index:60;font-family:-apple-system,sans-serif;
+font-size:12.5px;font-weight:600;cursor:pointer;background:var(--surface);border:1px solid var(--border);
+border-radius:99px;padding:9px 16px;color:var(--text)}
+@media(max-width:600px){body{font-size:16px}.wrap{padding:0 17px}}
+</style></head><body>
+<nav class="crumb"><div class="wrap"><a href="../../../index.html">Learn English</a><span class="sep">/</span><a href="../../README.html">Parts of speech</a><span class="sep">/</span><a href="../README.html">01-nouns</a><span class="sep">/</span><span>catalog</span></div></nav>
+<main><div class="wrap"><h1 id="core-vocabulary-household-objects">Core vocabulary: household objects<a class="hash" href="#core-vocabulary-household-objects" aria-label="link">#</a></h1>
+<blockquote><p>The everyday nouns of household objects — pronunciation, Russian, plural, and three examples each.</p></blockquote>
+<p><a href="../README.html">← The grammar of nouns</a> &middot; <a href="README.html">All groups</a></p>
+<p>Part of the <strong>core-vocabulary tier</strong>. Groups 1–23 cover the nouns that misbehave; this tier covers the nouns you simply need to know. Entries are deliberately lean, because a regular countable noun has no grammatical story to tell. A <strong>Contrast</strong> line appears only where the word hides a genuine trap.</p>
+<p>Where a word in this field <em>does</em> misbehave, it lives in the grammar tier instead and is not repeated here.</p>
+<hr>
+<h3 id="washing-machine">washing machine<a class="hash" href="#washing-machine" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/ˈwɑːʃɪŋ məˌʃiːn/ &middot; <em>WAH-shing muh-SHEEN</em></dd><dt>Русский</dt><dd>стиральная машина</dd><dt>Plural</dt><dd><em>washing machines</em></dd><dt>Countability</dt><dd>countable</dd></dl>
+<p>An appliance that washes clothes.</p>
+<ol><li>The <em>washing machine</em> stopped in the middle of a cycle.</li><li>He threw everything into the <em>washing machine</em> at once.</li><li>There are four <em>washing machines</em> in the basement.</li></ol>
+<hr>
+<h3 id="dryer">dryer<a class="hash" href="#dryer" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/ˈdraɪrr/ &middot; <em>DRY-ur</em></dd><dt>Русский</dt><dd>сушильная машина</dd><dt>Plural</dt><dd><em>dryers</em></dd><dt>Countability</dt><dd>countable</dd></dl>
+<p>An appliance that dries wet laundry with hot air.</p>
+<ol><li>Your jeans are still in the <em>dryer</em>.</li><li>The <em>dryer</em> takes two cycles to get towels dry.</li><li>The washers and <em>dryers</em> are on the first floor.</li></ol>
+<hr>
+<h3 id="bleach">bleach<a class="hash" href="#bleach" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/bliːtʃ/ &middot; <em>BLEECH</em></dd><dt>Русский</dt><dd>отбеливатель, хлорка</dd><dt>Countability</dt><dd>uncountable</dd></dl>
+<p>A strong chemical that whitens fabric and kills germs.</p>
+<ol><li>She cleaned the tub with <em>bleach</em>.</li><li>Never mix <em>bleach</em> with other cleaners.</li><li>A little <em>bleach</em> took the stain right out.</li></ol>
+<hr>
+<h3 id="bucket">bucket<a class="hash" href="#bucket" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/ˈbʌkɪt/ &middot; <em>BUHK-it</em></dd><dt>Русский</dt><dd>ведро</dd><dt>Plural</dt><dd><em>buckets</em></dd><dt>Countability</dt><dd>countable</dd></dl>
+<p>A round open container with a handle for carrying liquids.</p>
+<ol><li>Fill the <em>bucket</em> with warm water.</li><li>He hauled a <em>bucket</em> of soapy water upstairs.</li><li>There were two <em>buckets</em> under the leak.</li></ol>
+<hr>
+<h3 id="mop">mop<a class="hash" href="#mop" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/mɑːp/ &middot; <em>MAHP</em></dd><dt>Русский</dt><dd>швабра</dd><dt>Plural</dt><dd><em>mops</em></dd><dt>Countability</dt><dd>countable</dd></dl>
+<p>A long-handled tool for washing floors.</p>
+<ol><li>The <em>mop</em> is in the utility closet.</li><li>She wrung out the <em>mop</em> over the sink.</li><li>We use separate <em>mops</em> for the kitchen and the bathroom.</li></ol>
+<hr>
+<h3 id="broom">broom<a class="hash" href="#broom" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/bruːm/ &middot; <em>BROOM</em></dd><dt>Русский</dt><dd>метла, веник</dd><dt>Plural</dt><dd><em>brooms</em></dd><dt>Countability</dt><dd>countable</dd></dl>
+<p>A long-handled brush for sweeping floors.</p>
+<ol><li>Hand me the <em>broom</em>.</li><li>He swept the porch with an old <em>broom</em>.</li><li>The <em>brooms</em> are behind the basement door.</li></ol>
+<hr>
+<h3 id="dustpan">dustpan<a class="hash" href="#dustpan" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/ˈdʌstpæn/ &middot; <em>DUHST-pan</em></dd><dt>Русский</dt><dd>совок для мусора</dd><dt>Plural</dt><dd><em>dustpans</em></dd><dt>Countability</dt><dd>countable</dd></dl>
+<p>A flat scoop that you sweep dirt into.</p>
+<ol><li>Sweep it into the <em>dustpan</em>.</li><li>The <em>dustpan</em> cracked right down the middle.</li><li>We keep a small <em>dustpan</em> under the sink.</li></ol>
+<hr>
+<h3 id="rag">rag<a class="hash" href="#rag" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/ræɡ/ &middot; <em>RAG</em></dd><dt>Русский</dt><dd>тряпка</dd><dt>Plural</dt><dd><em>rags</em></dd><dt>Countability</dt><dd>countable</dd></dl>
+<p>A piece of old cloth used for cleaning.</p>
+<ol><li>Wipe up the spill with a <em>rag</em>.</li><li>He used an old T-shirt as a <em>rag</em>.</li><li>There's a pile of <em>rags</em> in the garage.</li></ol>
+<hr>
+<h3 id="washcloth">washcloth<a class="hash" href="#washcloth" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/ˈwɑːʃklɔːθ/ &middot; <em>WAHSH-klawth</em></dd><dt>Русский</dt><dd>мочалка, махровая салфетка</dd><dt>Plural</dt><dd><em>washcloths</em></dd><dt>Countability</dt><dd>countable</dd><dt>Contrast</dt><dd>American; the British call it a flannel.</dd></dl>
+<p>A small square cloth used for washing your body.</p>
+<ol><li>There's a clean <em>washcloth</em> on the shelf.</li><li>She wiped the baby's face with a warm <em>washcloth</em>.</li><li>The hotel left us two <em>washcloths</em>.</li></ol>
+<hr>
+<h3 id="stain">stain<a class="hash" href="#stain" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/steɪn/ &middot; <em>STAYN</em></dd><dt>Русский</dt><dd>пятно</dd><dt>Plural</dt><dd><em>stains</em></dd><dt>Countability</dt><dd>countable</dd></dl>
+<p>A dirty mark that is hard to remove.</p>
+<ol><li>There's a coffee <em>stain</em> on the rug.</li><li>The <em>stain</em> came out in the wash.</li><li>Grease <em>stains</em> are the hardest ones to get out.</li></ol>
+<hr>
+<h3 id="dirt">dirt<a class="hash" href="#dirt" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/dɜːrt/ &middot; <em>DURT</em></dd><dt>Русский</dt><dd>грязь; земля</dd><dt>Countability</dt><dd>uncountable</dd></dl>
+<p>Dust, mud, or soil that makes something unclean.</p>
+<ol><li>There's <em>dirt</em> all over the kitchen floor.</li><li>Wipe your boots — you're tracking in <em>dirt</em>.</li><li>The <em>dirt</em> washed right off.</li></ol>
+<hr>
+<h3 id="trash">trash<a class="hash" href="#trash" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/træʃ/ &middot; <em>TRASH</em></dd><dt>Русский</dt><dd>мусор</dd><dt>Countability</dt><dd>uncountable</dd><dt>Contrast</dt><dd>American; the British say rubbish. Never <em>trashes</em>.</dd></dl>
+<p>Things you throw away.</p>
+<ol><li>Take the <em>trash</em> out before you leave.</li><li>The <em>trash</em> gets picked up on Tuesdays.</li><li>There's <em>trash</em> all over the driveway.</li></ol>
+<hr>
+<h3 id="container">container<a class="hash" href="#container" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/kənˈteɪnər/ &middot; <em>kuhn-TAY-nur</em></dd><dt>Русский</dt><dd>контейнер, ёмкость</dd><dt>Plural</dt><dd><em>containers</em></dd><dt>Countability</dt><dd>countable</dd></dl>
+<p>A box, jar, or tub that holds something.</p>
+<ol><li>Store the leftovers in a plastic <em>container</em>.</li><li>This <em>container</em> doesn't have a lid.</li><li>She labeled all the <em>containers</em> in the freezer.</li></ol>
+<hr>
+<h3 id="toothbrush">toothbrush<a class="hash" href="#toothbrush" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/ˈtuːθbrʌʃ/ &middot; <em>TOOTH-bruhsh</em></dd><dt>Русский</dt><dd>зубная щётка</dd><dt>Plural</dt><dd><em>toothbrushes</em></dd><dt>Countability</dt><dd>countable</dd></dl>
+<p>A small brush for cleaning your teeth.</p>
+<ol><li>Did you pack your <em>toothbrush</em>?</li><li>My <em>toothbrush</em> is the blue one.</li><li>The dentist gave the kids new <em>toothbrushes</em>.</li></ol>
+<hr>
+<h3 id="razor">razor<a class="hash" href="#razor" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/ˈreɪzər/ &middot; <em>RAY-zur</em></dd><dt>Русский</dt><dd>бритва</dd><dt>Plural</dt><dd><em>razors</em></dd><dt>Countability</dt><dd>countable</dd></dl>
+<p>A tool with a blade for shaving hair.</p>
+<ol><li>He nicked his chin with the <em>razor</em>.</li><li>This <em>razor</em> needs a new blade.</li><li>Disposable <em>razors</em> come in packs of ten.</li></ol>
+<hr>
+<h3 id="shampoo">shampoo<a class="hash" href="#shampoo" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/ʃæmˈpuː/ &middot; <em>sham-POO</em></dd><dt>Русский</dt><dd>шампунь</dd><dt>Countability</dt><dd>uncountable</dd><dt>Contrast</dt><dd>Stress the second syllable: sham-POO.</dd></dl>
+<p>Liquid soap for washing hair.</p>
+<ol><li>We're out of <em>shampoo</em> again.</li><li>This <em>shampoo</em> smells like coconut.</li><li>She used way too much <em>shampoo</em>.</li></ol>
+<hr>
+<h3 id="comb">comb<a class="hash" href="#comb" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/koʊm/ &middot; <em>KOHM</em></dd><dt>Русский</dt><dd>расчёска, гребень</dd><dt>Plural</dt><dd><em>combs</em></dd><dt>Countability</dt><dd>countable</dd><dt>Contrast</dt><dd>The b is silent: KOHM.</dd></dl>
+<p>A flat tool with teeth for tidying hair.</p>
+<ol><li>He ran a <em>comb</em> through his hair.</li><li>There's a <em>comb</em> in the top drawer.</li><li>The <em>combs</em> were still in the package.</li></ol>
+<hr>
+<h3 id="brush">brush<a class="hash" href="#brush" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/brʌʃ/ &middot; <em>BRUHSH</em></dd><dt>Русский</dt><dd>щётка</dd><dt>Plural</dt><dd><em>brushes</em></dd><dt>Countability</dt><dd>countable</dd></dl>
+<p>A tool with stiff bristles used for cleaning, painting, or hair.</p>
+<ol><li>She scrubbed the tile with a stiff <em>brush</em>.</li><li>Use a wire <em>brush</em> on the grill.</li><li>The paint <em>brushes</em> are soaking in the sink.</li></ol>
+<hr>
+<h3 id="fan">fan<a class="hash" href="#fan" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/fæn/ &middot; <em>FAN</em></dd><dt>Русский</dt><dd>вентилятор</dd><dt>Plural</dt><dd><em>fans</em></dd><dt>Countability</dt><dd>countable</dd></dl>
+<p>A device with turning blades that moves air.</p>
+<ol><li>Turn the ceiling <em>fan</em> on.</li><li>The <em>fan</em> barely moves the air in here.</li><li>We ran two <em>fans</em> all night.</li></ol>
+<hr>
+<h3 id="heater">heater<a class="hash" href="#heater" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/ˈhiːtər/ &middot; <em>HEE-tur</em></dd><dt>Русский</dt><dd>обогреватель</dd><dt>Plural</dt><dd><em>heaters</em></dd><dt>Countability</dt><dd>countable</dd></dl>
+<p>A device that warms a room or water.</p>
+<ol><li>The space <em>heater</em> is in the closet.</li><li>Our water <em>heater</em> broke in January.</li><li>They plugged in two <em>heaters</em> to warm the basement.</li></ol>
+<hr>
+<h3 id="battery">battery<a class="hash" href="#battery" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/ˈbætəri/ &middot; <em>BAT-ur-ee</em></dd><dt>Русский</dt><dd>батарейка, аккумулятор</dd><dt>Plural</dt><dd><em>batteries</em></dd><dt>Countability</dt><dd>countable</dd></dl>
+<p>A sealed cell that stores electric power.</p>
+<ol><li>The remote needs new <em>batteries</em>.</li><li>The smoke detector <em>battery</em> is dying.</li><li>Keep spare <em>batteries</em> in the junk drawer.</li></ol>
+<hr>
+<h3 id="plug">plug<a class="hash" href="#plug" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/plʌɡ/ &middot; <em>PLUHG</em></dd><dt>Русский</dt><dd>штепсельная вилка</dd><dt>Plural</dt><dd><em>plugs</em></dd><dt>Countability</dt><dd>countable</dd></dl>
+<p>The pronged end of a cord that goes into an outlet.</p>
+<ol><li>Pull the <em>plug</em> out of the wall.</li><li>The <em>plug</em> on this lamp is loose.</li><li>European <em>plugs</em> don't fit our outlets.</li></ol>
+<hr>
+<h3 id="cord">cord<a class="hash" href="#cord" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/kɔːrd/ &middot; <em>KORD</em></dd><dt>Русский</dt><dd>шнур, провод</dd><dt>Plural</dt><dd><em>cords</em></dd><dt>Countability</dt><dd>countable</dd><dt>Contrast</dt><dd>Sounds exactly like <em>chord</em>, the musical one.</dd></dl>
+<p>An insulated wire that carries power to a device.</p>
+<ol><li>Don't trip over the <em>cord</em>.</li><li>The <em>cord</em> doesn't reach all the way down the hall.</li><li>The <em>cords</em> behind the TV are a mess.</li></ol>
+<hr>
+<h3 id="remote">remote<a class="hash" href="#remote" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/rɪˈmoʊt/ &middot; <em>rih-MOHT</em></dd><dt>Русский</dt><dd>пульт (дистанционного управления)</dd><dt>Plural</dt><dd><em>remotes</em></dd><dt>Countability</dt><dd>countable</dd></dl>
+<p>A handheld control for a TV or other device.</p>
+<ol><li>Has anybody seen the <em>remote</em>?</li><li>The <em>remote</em> fell between the couch cushions.</li><li>We have three <em>remotes</em> and I don't know what two of them do.</li></ol>
+<hr>
+<h3 id="charger">charger<a class="hash" href="#charger" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/ˈtʃɑːrdʒər/ &middot; <em>CHAR-jur</em></dd><dt>Русский</dt><dd>зарядное устройство</dd><dt>Plural</dt><dd><em>chargers</em></dd><dt>Countability</dt><dd>countable</dd></dl>
+<p>A device that supplies power to recharge a battery.</p>
+<ol><li>I left my phone <em>charger</em> at the hotel.</li><li>The <em>charger</em> is plugged in by the bed.</li><li>We keep spare <em>chargers</em> in the kitchen drawer.</li></ol>
+<hr>
+<h3 id="flashlight">flashlight<a class="hash" href="#flashlight" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/ˈflæʃlaɪt/ &middot; <em>FLASH-lyte</em></dd><dt>Русский</dt><dd>фонарик</dd><dt>Plural</dt><dd><em>flashlights</em></dd><dt>Countability</dt><dd>countable</dd><dt>Contrast</dt><dd>American; the British say torch.</dd></dl>
+<p>A small battery-powered light you carry in your hand.</p>
+<ol><li>Grab the <em>flashlight</em> — the power's out.</li><li>The <em>flashlight</em> batteries are dead.</li><li>We keep <em>flashlights</em> in every closet.</li></ol>
+<hr>
+<h3 id="hammer">hammer<a class="hash" href="#hammer" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/ˈhæmər/ &middot; <em>HAM-ur</em></dd><dt>Русский</dt><dd>молоток</dd><dt>Plural</dt><dd><em>hammers</em></dd><dt>Countability</dt><dd>countable</dd></dl>
+<p>A tool with a heavy head for driving nails.</p>
+<ol><li>Hand me the <em>hammer</em>.</li><li>He hit his thumb with the <em>hammer</em>.</li><li>There are two <em>hammers</em> in the toolbox.</li></ol>
+<hr>
+<h3 id="screwdriver">screwdriver<a class="hash" href="#screwdriver" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/ˈskruːdraɪvər/ &middot; <em>SKROO-dry-vur</em></dd><dt>Русский</dt><dd>отвёртка</dd><dt>Plural</dt><dd><em>screwdrivers</em></dd><dt>Countability</dt><dd>countable</dd></dl>
+<p>A tool for turning screws.</p>
+<ol><li>I need a small <em>screwdriver</em> for these screws.</li><li>The <em>screwdriver</em> is in the junk drawer.</li><li>The set came with six <em>screwdrivers</em>.</li></ol>
+<hr>
+<h3 id="wrench">wrench<a class="hash" href="#wrench" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/rentʃ/ &middot; <em>RENCH</em></dd><dt>Русский</dt><dd>гаечный ключ</dd><dt>Plural</dt><dd><em>wrenches</em></dd><dt>Countability</dt><dd>countable</dd><dt>Contrast</dt><dd>The w is silent; American — the British say spanner.</dd></dl>
+<p>A tool for gripping and turning nuts and bolts.</p>
+<ol><li>Tighten it with a <em>wrench</em>.</li><li>He keeps an adjustable <em>wrench</em> under the sink.</li><li>The <em>wrenches</em> hang on the pegboard.</li></ol>
+<hr>
+<h3 id="ladder">ladder<a class="hash" href="#ladder" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/ˈlædər/ &middot; <em>LAD-ur</em></dd><dt>Русский</dt><dd>лестница (приставная), стремянка</dd><dt>Plural</dt><dd><em>ladders</em></dd><dt>Countability</dt><dd>countable</dd><dt>Contrast</dt><dd>In American speech it sounds just like <em>latter</em>.</dd></dl>
+<p>A frame with rungs used for climbing.</p>
+<ol><li>Hold the <em>ladder</em> steady.</li><li>He fell off a <em>ladder</em> cleaning the gutters.</li><li>Both <em>ladders</em> are out in the garage.</li></ol>
+<hr>
+<h3 id="tape">tape<a class="hash" href="#tape" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/teɪp/ &middot; <em>TAYP</em></dd><dt>Русский</dt><dd>клейкая лента, скотч</dd><dt>Plural</dt><dd><em>tapes</em></dd><dt>Countability</dt><dd>both — countable and uncountable with different meanings</dd></dl>
+<p>Sticky material sold in rolls; a tape is also a cassette recording.</p>
+<ol><li>Hand me the <em>tape</em> — this box won't stay shut.</li><li>He patched the hose with duct <em>tape</em>.</li><li>She still has a box of old cassette <em>tapes</em>.</li></ol>
+<hr>
+<h3 id="glue">glue<a class="hash" href="#glue" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/ɡluː/ &middot; <em>GLOO</em></dd><dt>Русский</dt><dd>клей</dd><dt>Countability</dt><dd>uncountable</dd></dl>
+<p>A sticky substance used to join things together.</p>
+<ol><li>The <em>glue</em> hasn't dried yet.</li><li>One drop of <em>glue</em> will hold it.</li><li>We used wood <em>glue</em> on the chair leg.</li></ol>
+<hr>
+<h3 id="thread">thread<a class="hash" href="#thread" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/θred/ &middot; <em>THRED</em></dd><dt>Русский</dt><dd>нитка, нить</dd><dt>Plural</dt><dd><em>threads</em></dd><dt>Countability</dt><dd>countable, and uncountable as a substance</dd><dt>Contrast</dt><dd>Rhymes with <em>red</em>, not with <em>reed</em>.</dd></dl>
+<p>A thin strand used for sewing.</p>
+<ol><li>Do you have any black <em>thread</em>?</li><li>A loose <em>thread</em> was hanging off his sleeve.</li><li>She keeps spools of <em>thread</em> in an old tin.</li></ol>
+<hr>
+<h3 id="button">button<a class="hash" href="#button" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/ˈbʌtən/ &middot; <em>BUHT-uhn</em></dd><dt>Русский</dt><dd>пуговица; кнопка</dd><dt>Plural</dt><dd><em>buttons</em></dd><dt>Countability</dt><dd>countable</dd></dl>
+<p>A small disk that fastens clothing, or a control you press.</p>
+<ol><li>A <em>button</em> came off my shirt.</li><li>He pressed the <em>button</em> on the microwave.</li><li>She sewed the <em>buttons</em> back on.</li></ol>
+<hr>
+<h3 id="key">key<a class="hash" href="#key" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/kiː/ &middot; <em>KEE</em></dd><dt>Русский</dt><dd>ключ</dd><dt>Plural</dt><dd><em>keys</em></dd><dt>Countability</dt><dd>countable</dd></dl>
+<p>A shaped piece of metal that opens a lock.</p>
+<ol><li>I can't find my house <em>keys</em>.</li><li>The <em>key</em> doesn't turn anymore.</li><li>She left a spare <em>key</em> with the neighbors.</li></ol>
+<hr>
+<h3 id="chore">chore<a class="hash" href="#chore" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/tʃɔːr/ &middot; <em>CHOR</em></dd><dt>Русский</dt><dd>домашняя обязанность, дело по дому</dd><dt>Plural</dt><dd><em>chores</em></dd><dt>Countability</dt><dd>countable</dd><dt>Contrast</dt><dd>Countable, unlike uncountable <em>housework</em>: three chores, never three houseworks.</dd></dl>
+<p>A small routine job around the house.</p>
+<ol><li>The kids each have a few <em>chores</em> on Saturdays.</li><li>Folding laundry is my least favorite <em>chore</em>.</li><li>He finished his <em>chores</em> before dinner.</li></ol></div></main>
+<button class="themebtn" id="themeBtn">Dark</button>
+<script>
+const tb=document.getElementById('themeBtn');
+function setTheme(x){document.documentElement.dataset.theme=x;tb.textContent=x==='dark'?'Light':'Dark';
+ try{localStorage.setItem('site-theme',x)}catch(e){}}
+tb.onclick=()=>setTheme(document.documentElement.dataset.theme==='dark'?'light':'dark');
+try{const s=localStorage.getItem('site-theme');
+ setTheme(s||(matchMedia('(prefers-color-scheme: dark)').matches?'dark':'light'))}catch(e){setTheme('light')}
+</script></body></html>

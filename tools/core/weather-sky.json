@@ -1,0 +1,1733 @@
+[
+ {
+  "term": "sky",
+  "ipa": "skaɪ",
+  "respell": "SKY",
+  "ru": "небо",
+  "plural": "skies",
+  "countability": "countable",
+  "gloss": "The space above the earth that you see when you look up.",
+  "examples": [
+   "The *sky* turned orange right before the storm hit.",
+   "There wasn't a cloud in the *sky* all week.",
+   "Clear *skies* are in the forecast through Sunday."
+  ]
+ },
+ {
+  "term": "cloud",
+  "ipa": "klaʊd",
+  "respell": "KLOWD",
+  "ru": "облако, туча",
+  "plural": "clouds",
+  "countability": "countable",
+  "gloss": "A white or gray mass of water droplets floating in the sky.",
+  "examples": [
+   "A dark *cloud* moved in over the lake.",
+   "The *clouds* finally broke around noon.",
+   "You could see his breath turn into a little *cloud* of steam."
+  ]
+ },
+ {
+  "term": "sun",
+  "ipa": "sʌn",
+  "respell": "SUN",
+  "ru": "солнце",
+  "plural": "suns",
+  "countability": "countable",
+  "gloss": "The star that the earth goes around and that gives us light and heat.",
+  "examples": [
+   "The *sun* comes up around six this time of year.",
+   "Don't sit in the *sun* too long without a hat.",
+   "Some of those planets orbit two *suns*."
+  ],
+  "contrast": "*Sun* and *son* are perfect homophones in American English."
+ },
+ {
+  "term": "moon",
+  "ipa": "muːn",
+  "respell": "MOON",
+  "ru": "луна",
+  "plural": "moons",
+  "countability": "countable",
+  "gloss": "The large round object that circles the earth and shines at night.",
+  "examples": [
+   "There's a full *moon* tonight.",
+   "The *moon* was so bright we didn't need a flashlight.",
+   "Jupiter has dozens of *moons*."
+  ]
+ },
+ {
+  "term": "star",
+  "ipa": "stɑːr",
+  "respell": "STAHR",
+  "ru": "звезда",
+  "plural": "stars",
+  "countability": "countable",
+  "gloss": "A huge ball of burning gas that looks like a point of light at night.",
+  "examples": [
+   "Out in the desert you can see thousands of *stars*.",
+   "That bright *star* is actually Venus.",
+   "We lay on the roof and counted *stars*."
+  ]
+ },
+ {
+  "term": "sunshine",
+  "ipa": "ˈsʌnʃaɪn",
+  "respell": "SUN-shyn",
+  "ru": "солнечный свет, солнце",
+  "plural": "",
+  "countability": "uncountable",
+  "gloss": "The light and warmth that come directly from the sun.",
+  "examples": [
+   "We got two straight weeks of *sunshine*.",
+   "The kitchen gets great *sunshine* in the morning.",
+   "After all that rain, the *sunshine* felt amazing."
+  ]
+ },
+ {
+  "term": "sunlight",
+  "ipa": "ˈsʌnlaɪt",
+  "respell": "SUN-lyt",
+  "ru": "солнечный свет",
+  "plural": "",
+  "countability": "uncountable",
+  "gloss": "Natural light from the sun.",
+  "examples": [
+   "Keep the paint out of direct *sunlight*.",
+   "*Sunlight* was pouring through the blinds.",
+   "These plants need about six hours of *sunlight* a day."
+  ]
+ },
+ {
+  "term": "moonlight",
+  "ipa": "ˈmuːnlaɪt",
+  "respell": "MOON-lyt",
+  "ru": "лунный свет",
+  "plural": "",
+  "countability": "uncountable",
+  "gloss": "The light that comes from the moon at night.",
+  "examples": [
+   "We walked back to the cabin by *moonlight*.",
+   "The snow looked blue in the *moonlight*.",
+   "There was just enough *moonlight* to see the trail."
+  ]
+ },
+ {
+  "term": "ray",
+  "ipa": "reɪ",
+  "respell": "RAY",
+  "ru": "луч",
+  "plural": "rays",
+  "countability": "countable",
+  "gloss": "A narrow line of light or heat traveling from something.",
+  "examples": [
+   "A *ray* of sun came through the curtains.",
+   "Sunscreen blocks the *rays* that burn your skin.",
+   "The first *rays* hit the top of the mountain."
+  ]
+ },
+ {
+  "term": "shade",
+  "ipa": "ʃeɪd",
+  "respell": "SHAYD",
+  "ru": "тень (прохладное место)",
+  "plural": "",
+  "countability": "uncountable",
+  "gloss": "An area that is cooler and darker because something blocks the sun.",
+  "examples": [
+   "Let's eat in the *shade* — it's ninety degrees out here.",
+   "That old oak gives the whole yard *shade*.",
+   "There's no *shade* anywhere on this beach."
+  ],
+  "contrast": "Russian «тень» splits in two: *shade* is the cool area out of the sun, *shadow* is the dark shape an object casts."
+ },
+ {
+  "term": "shadow",
+  "ipa": "ˈʃædoʊ",
+  "respell": "SHAD-oh",
+  "ru": "тень (силуэт)",
+  "plural": "shadows",
+  "countability": "countable",
+  "gloss": "The dark shape made on a surface when something blocks the light.",
+  "examples": [
+   "My *shadow* was ten feet long by five o'clock.",
+   "The *shadows* got longer as the sun went down.",
+   "He stepped out of the *shadow* of the building."
+  ]
+ },
+ {
+  "term": "sunrise",
+  "ipa": "ˈsʌnraɪz",
+  "respell": "SUN-ryz",
+  "ru": "восход солнца",
+  "plural": "sunrises",
+  "countability": "countable",
+  "gloss": "The moment the sun appears above the horizon in the morning.",
+  "examples": [
+   "We were on the road before *sunrise*.",
+   "That was the best *sunrise* I've seen all summer.",
+   "The park opens at *sunrise* and closes at dark."
+  ]
+ },
+ {
+  "term": "sunset",
+  "ipa": "ˈsʌnset",
+  "respell": "SUN-set",
+  "ru": "закат",
+  "plural": "sunsets",
+  "countability": "countable",
+  "gloss": "The moment the sun goes down below the horizon in the evening.",
+  "examples": [
+   "The *sunset* over the water was unbelievable.",
+   "Be back at the dock by *sunset*.",
+   "People come out here just for the *sunsets*."
+  ]
+ },
+ {
+  "term": "dawn",
+  "ipa": "dɔːn",
+  "respell": "DAWN",
+  "ru": "рассвет, заря",
+  "plural": "dawns",
+  "countability": "countable",
+  "gloss": "The first light of the day, just before the sun comes up.",
+  "examples": [
+   "The crew starts work at *dawn*.",
+   "We drove all night and got there at *dawn*.",
+   "It was a cold, gray *dawn*."
+  ]
+ },
+ {
+  "term": "dusk",
+  "ipa": "dʌsk",
+  "respell": "DUSK",
+  "ru": "сумерки (вечерние)",
+  "plural": "",
+  "countability": "uncountable",
+  "gloss": "The dim light at the end of the day, just after sunset.",
+  "examples": [
+   "The deer come out around *dusk*.",
+   "We played ball until *dusk*.",
+   "The streetlights come on at *dusk*."
+  ]
+ },
+ {
+  "term": "twilight",
+  "ipa": "ˈtwaɪlaɪt",
+  "respell": "TWY-lyt",
+  "ru": "сумерки, полумрак",
+  "plural": "",
+  "countability": "uncountable",
+  "gloss": "The soft half-light in the sky before sunrise or after sunset.",
+  "examples": [
+   "We hiked the last mile in *twilight*.",
+   "In summer the *twilight* lasts almost an hour up here.",
+   "The lake looked silver in the *twilight*."
+  ]
+ },
+ {
+  "term": "daylight",
+  "ipa": "ˈdeɪlaɪt",
+  "respell": "DAY-lyt",
+  "ru": "дневной свет; светлое время суток",
+  "plural": "",
+  "countability": "uncountable",
+  "gloss": "The natural light of day, or the hours when it is light outside.",
+  "examples": [
+   "We only have about two hours of *daylight* left.",
+   "The colors look completely different in *daylight*.",
+   "Try to get off the mountain while there's still *daylight*."
+  ]
+ },
+ {
+  "term": "nightfall",
+  "ipa": "ˈnaɪtfɔːl",
+  "respell": "NYT-fawl",
+  "ru": "наступление темноты",
+  "plural": "",
+  "countability": "uncountable",
+  "gloss": "The time when it gets dark at the end of the day.",
+  "examples": [
+   "They wanted to reach the campground by *nightfall*.",
+   "The temperature drops fast after *nightfall*.",
+   "The search was called off at *nightfall*."
+  ]
+ },
+ {
+  "term": "horizon",
+  "ipa": "həˈraɪzən",
+  "respell": "huh-RY-zuhn",
+  "ru": "горизонт",
+  "plural": "horizons",
+  "countability": "countable",
+  "gloss": "The line where the sky seems to meet the land or the sea.",
+  "examples": [
+   "A storm was building on the *horizon*.",
+   "You could just see a ship on the *horizon*.",
+   "The sun dropped below the *horizon* at 8:14."
+  ],
+  "contrast": "The stress falls on the middle syllable — huh-RY-zuhn, not HOR-i-zon."
+ },
+ {
+  "term": "eclipse",
+  "ipa": "ɪˈklɪps",
+  "respell": "ih-KLIPS",
+  "ru": "затмение",
+  "plural": "eclipses",
+  "countability": "countable",
+  "gloss": "An event in which one body in space blocks the light of another.",
+  "examples": [
+   "Schools closed early so kids could watch the *eclipse*.",
+   "There's a lunar *eclipse* next Tuesday night.",
+   "Total solar *eclipses* are rare in any one place."
+  ]
+ },
+ {
+  "term": "forecast",
+  "ipa": "ˈfɔːrkæst",
+  "respell": "FOR-kast",
+  "ru": "прогноз (погоды)",
+  "plural": "forecasts",
+  "countability": "countable",
+  "gloss": "A statement of what the weather is expected to be.",
+  "examples": [
+   "The *forecast* says rain all weekend.",
+   "Did you check the *forecast* before you packed?",
+   "These ten-day *forecasts* are never right."
+  ]
+ },
+ {
+  "term": "climate",
+  "ipa": "ˈklaɪmət",
+  "respell": "KLY-muht",
+  "ru": "климат",
+  "plural": "climates",
+  "countability": "countable",
+  "gloss": "The usual weather a place has over many years.",
+  "examples": [
+   "Arizona has a dry *climate*.",
+   "My knees do better in a warm *climate*.",
+   "These grapes only grow in cool *climates*."
+  ]
+ },
+ {
+  "term": "atmosphere",
+  "ipa": "ˈætməsfɪr",
+  "respell": "AT-muhs-feer",
+  "ru": "атмосфера",
+  "plural": "atmospheres",
+  "countability": "countable",
+  "gloss": "The layer of gases surrounding a planet.",
+  "examples": [
+   "Most meteors burn up in the *atmosphere*.",
+   "The upper *atmosphere* is far colder than that.",
+   "Mars has a thin *atmosphere* with almost no oxygen."
+  ],
+  "contrast": "Stress the first syllable — AT-muhs-feer, unlike Russian «атмосфЕра»."
+ },
+ {
+  "term": "season",
+  "ipa": "ˈsiːzən",
+  "respell": "SEE-zuhn",
+  "ru": "время года, сезон",
+  "plural": "seasons",
+  "countability": "countable",
+  "gloss": "One of the four parts of the year, or a period with typical weather.",
+  "examples": [
+   "Fall is my favorite *season*.",
+   "We get all four *seasons* here.",
+   "Hurricane *season* runs from June through November."
+  ]
+ },
+ {
+  "term": "degree",
+  "ipa": "dɪˈɡriː",
+  "respell": "dih-GREE",
+  "ru": "градус",
+  "plural": "degrees",
+  "countability": "countable",
+  "gloss": "A unit for measuring temperature.",
+  "examples": [
+   "It's supposed to hit ninety *degrees* tomorrow.",
+   "The temperature dropped twenty *degrees* in an hour.",
+   "Water freezes at thirty-two *degrees* Fahrenheit."
+  ]
+ },
+ {
+  "term": "humidity",
+  "ipa": "hjuːˈmɪdəti",
+  "respell": "hyoo-MID-uh-tee",
+  "ru": "влажность",
+  "plural": "",
+  "countability": "uncountable",
+  "gloss": "The amount of water vapor in the air.",
+  "examples": [
+   "It's not the heat, it's the *humidity*.",
+   "The *humidity* makes my hair frizz.",
+   "August here is ninety degrees with eighty percent *humidity*."
+  ]
+ },
+ {
+  "term": "moisture",
+  "ipa": "ˈmɔɪstʃər",
+  "respell": "MOYS-chur",
+  "ru": "влага",
+  "plural": "",
+  "countability": "uncountable",
+  "gloss": "Small amounts of water in the air, in the ground, or on a surface.",
+  "examples": [
+   "There's still *moisture* in the soil from last night.",
+   "The bag keeps *moisture* out.",
+   "Wipe the *moisture* off the windows before it freezes."
+  ]
+ },
+ {
+  "term": "precipitation",
+  "ipa": "prɪˌsɪpəˈteɪʃən",
+  "respell": "prih-sip-uh-TAY-shuhn",
+  "ru": "осадки",
+  "plural": "",
+  "countability": "uncountable",
+  "gloss": "Water that falls from the sky as rain, snow, sleet, or hail.",
+  "examples": [
+   "We've had almost no *precipitation* since April.",
+   "Expect some *precipitation* by Thursday evening.",
+   "Annual *precipitation* here is about forty inches."
+  ]
+ },
+ {
+  "term": "visibility",
+  "ipa": "ˌvɪzəˈbɪləti",
+  "respell": "viz-uh-BIL-uh-tee",
+  "ru": "видимость",
+  "plural": "",
+  "countability": "uncountable",
+  "gloss": "How far you can see, given the weather conditions.",
+  "examples": [
+   "*Visibility* was down to about a hundred feet.",
+   "Flights were delayed because of poor *visibility*.",
+   "The fog lifted and *visibility* improved."
+  ]
+ },
+ {
+  "term": "barometer",
+  "ipa": "bəˈrɑːmətər",
+  "respell": "buh-RAH-muh-tur",
+  "ru": "барометр",
+  "plural": "barometers",
+  "countability": "countable",
+  "gloss": "An instrument that measures air pressure to help predict weather.",
+  "examples": [
+   "The *barometer* is falling, so expect a storm.",
+   "My grandfather had a brass *barometer* by the door.",
+   "*Barometers* were standard equipment on every ship."
+  ]
+ },
+ {
+  "term": "meteorologist",
+  "ipa": "ˌmiːtiəˈrɑːlədʒɪst",
+  "respell": "mee-tee-uh-RAH-luh-jist",
+  "ru": "метеоролог, синоптик",
+  "plural": "meteorologists",
+  "countability": "countable",
+  "gloss": "A scientist who studies and predicts the weather.",
+  "examples": [
+   "The *meteorologist* on Channel 4 got it right for once.",
+   "*Meteorologists* had been tracking the storm for days.",
+   "She trained as a *meteorologist* before going into TV."
+  ]
+ },
+ {
+  "term": "front",
+  "ipa": "frʌnt",
+  "respell": "FRUNT",
+  "ru": "атмосферный фронт",
+  "plural": "fronts",
+  "countability": "countable",
+  "gloss": "The boundary between two masses of air, which usually brings a change in weather.",
+  "examples": [
+   "A cold *front* is moving in tonight.",
+   "The *front* stalled over the valley and it rained for three days.",
+   "Warm *fronts* usually bring steady rain instead of thunderstorms."
+  ],
+  "contrast": "Spelled with an o but pronounced FRUNT, rhyming with *hunt*."
+ },
+ {
+  "term": "storm",
+  "ipa": "stɔːrm",
+  "respell": "STORM",
+  "ru": "буря, гроза, шторм",
+  "plural": "storms",
+  "countability": "countable",
+  "gloss": "A period of violent weather with strong wind and usually rain or snow.",
+  "examples": [
+   "We lost power during the *storm*.",
+   "A big *storm* is supposed to come through Friday night.",
+   "Three *storms* hit the coast in two weeks."
+  ]
+ },
+ {
+  "term": "thunderstorm",
+  "ipa": "ˈθʌndərstɔːrm",
+  "respell": "THUN-dur-storm",
+  "ru": "гроза",
+  "plural": "thunderstorms",
+  "countability": "countable",
+  "gloss": "A storm with thunder and lightning, usually with heavy rain.",
+  "examples": [
+   "A *thunderstorm* rolled through and knocked out the internet.",
+   "The dog hides under the bed during *thunderstorms*.",
+   "Afternoon *thunderstorms* are normal here in July."
+  ]
+ },
+ {
+  "term": "thunder",
+  "ipa": "ˈθʌndər",
+  "respell": "THUN-dur",
+  "ru": "гром",
+  "plural": "",
+  "countability": "uncountable",
+  "gloss": "The loud noise you hear after a flash of lightning.",
+  "examples": [
+   "The *thunder* woke up the whole house.",
+   "You could hear *thunder* off in the distance.",
+   "Count the seconds between the flash and the *thunder*."
+  ],
+  "contrast": "*Thunder* is uncountable: say \"we heard thunder\" or \"a clap of thunder\", never \"a thunder\"."
+ },
+ {
+  "term": "lightning",
+  "ipa": "ˈlaɪtnɪŋ",
+  "respell": "LYT-ning",
+  "ru": "молния",
+  "plural": "",
+  "countability": "uncountable",
+  "gloss": "A bright flash of electricity in the sky during a storm.",
+  "examples": [
+   "*Lightning* hit a tree in the neighbor's yard.",
+   "Get off the water when you see *lightning*.",
+   "There was *lightning* but almost no rain."
+  ],
+  "contrast": "Spelled *lightning*, with no e — *lightening* is a different word meaning \"making lighter\". It is also uncountable: \"a bolt of lightning\", not \"a lightning\"."
+ },
+ {
+  "term": "shower",
+  "ipa": "ˈʃaʊrr",
+  "respell": "SHOW-ur",
+  "ru": "кратковременный дождь, ливень",
+  "plural": "showers",
+  "countability": "countable",
+  "gloss": "A short period of rain or snow.",
+  "examples": [
+   "We got a quick *shower* around lunchtime.",
+   "Scattered *showers* are likely this afternoon.",
+   "The *shower* passed in about ten minutes."
+  ]
+ },
+ {
+  "term": "drizzle",
+  "ipa": "ˈdrɪzəl",
+  "respell": "DRIZ-uhl",
+  "ru": "моросящий дождь, морось",
+  "plural": "",
+  "countability": "uncountable",
+  "gloss": "Very light rain made of fine drops.",
+  "examples": [
+   "It's just *drizzle* — you don't need an umbrella.",
+   "The game went on through a steady *drizzle*.",
+   "Cold *drizzle* is somehow worse than real rain."
+  ]
+ },
+ {
+  "term": "downpour",
+  "ipa": "ˈdaʊnpɔːr",
+  "respell": "DOWN-por",
+  "ru": "ливень",
+  "plural": "downpours",
+  "countability": "countable",
+  "gloss": "A sudden, very heavy fall of rain.",
+  "examples": [
+   "We got caught in a *downpour* on the way to the car.",
+   "The *downpour* flooded the intersection in minutes.",
+   "Two *downpours* in one afternoon washed out the trail."
+  ]
+ },
+ {
+  "term": "raindrop",
+  "ipa": "ˈreɪndrɑːp",
+  "respell": "RAYN-drahp",
+  "ru": "капля дождя",
+  "plural": "raindrops",
+  "countability": "countable",
+  "gloss": "A single drop of falling rain.",
+  "examples": [
+   "The first *raindrops* hit the windshield.",
+   "A fat *raindrop* landed right on my nose.",
+   "*Raindrops* were beading up on the fresh wax."
+  ]
+ },
+ {
+  "term": "rainfall",
+  "ipa": "ˈreɪnfɔːl",
+  "respell": "RAYN-fawl",
+  "ru": "количество осадков, дождь",
+  "plural": "",
+  "countability": "uncountable",
+  "gloss": "The amount of rain that falls in a place over a period of time.",
+  "examples": [
+   "*Rainfall* was well below average last year.",
+   "Heavy *rainfall* overnight closed two roads.",
+   "The county measures *rainfall* at six different stations."
+  ]
+ },
+ {
+  "term": "rainbow",
+  "ipa": "ˈreɪnboʊ",
+  "respell": "RAYN-boh",
+  "ru": "радуга",
+  "plural": "rainbows",
+  "countability": "countable",
+  "gloss": "A curved band of colors in the sky, caused by sun shining through rain.",
+  "examples": [
+   "There was a huge *rainbow* over the field after the storm.",
+   "We saw a double *rainbow* from the porch.",
+   "*Rainbows* show up whenever the sun comes out during rain."
+  ]
+ },
+ {
+  "term": "puddle",
+  "ipa": "ˈpʌdəl",
+  "respell": "PUD-uhl",
+  "ru": "лужа",
+  "plural": "puddles",
+  "countability": "countable",
+  "gloss": "A small pool of water left on the ground after rain.",
+  "examples": [
+   "The kids went straight for the biggest *puddle*.",
+   "Watch out — that *puddle* is deeper than it looks.",
+   "There were *puddles* all over the parking lot."
+  ]
+ },
+ {
+  "term": "hail",
+  "ipa": "heɪl",
+  "respell": "HAYL",
+  "ru": "град",
+  "plural": "",
+  "countability": "uncountable",
+  "gloss": "Small balls of ice that fall from storm clouds.",
+  "examples": [
+   "*Hail* the size of quarters dented every car on the lot.",
+   "We pulled over and waited out the *hail*.",
+   "The storm brought wind, rain, and *hail*."
+  ],
+  "contrast": "*Hail* is uncountable — one piece of it is *a hailstone*, never \"a hail\"."
+ },
+ {
+  "term": "hailstone",
+  "ipa": "ˈheɪlstoʊn",
+  "respell": "HAYL-stohn",
+  "ru": "градина",
+  "plural": "hailstones",
+  "countability": "countable",
+  "gloss": "A single ball of ice that falls during a hailstorm.",
+  "examples": [
+   "A *hailstone* cracked the skylight.",
+   "Some of the *hailstones* were as big as golf balls.",
+   "He picked up a *hailstone* and held it in his palm."
+  ]
+ },
+ {
+  "term": "sleet",
+  "ipa": "sliːt",
+  "respell": "SLEET",
+  "ru": "мокрый снег, дождь со снегом",
+  "plural": "",
+  "countability": "uncountable",
+  "gloss": "Frozen or partly frozen rain that falls in cold weather.",
+  "examples": [
+   "The rain turned to *sleet* around midnight.",
+   "Driving in *sleet* is worse than driving in snow.",
+   "There was *sleet* on the steps and I almost went down."
+  ]
+ },
+ {
+  "term": "slush",
+  "ipa": "slʌʃ",
+  "respell": "SLUSH",
+  "ru": "слякоть, снежная каша",
+  "plural": "",
+  "countability": "uncountable",
+  "gloss": "Snow that has partly melted into a wet, dirty mush.",
+  "examples": [
+   "The sidewalks were nothing but gray *slush*.",
+   "My boots are soaked from all that *slush*.",
+   "By noon the snow had turned to *slush*."
+  ]
+ },
+ {
+  "term": "snowflake",
+  "ipa": "ˈsnoʊfleɪk",
+  "respell": "SNOH-flayk",
+  "ru": "снежинка",
+  "plural": "snowflakes",
+  "countability": "countable",
+  "gloss": "A single piece of falling snow.",
+  "examples": [
+   "A *snowflake* landed on her glove and melted.",
+   "Big wet *snowflakes* were coming down fast.",
+   "No two *snowflakes* are supposed to be alike."
+  ]
+ },
+ {
+  "term": "snowstorm",
+  "ipa": "ˈsnoʊstɔːrm",
+  "respell": "SNOH-storm",
+  "ru": "метель, снежная буря",
+  "plural": "snowstorms",
+  "countability": "countable",
+  "gloss": "A storm in which a lot of snow falls, usually with wind.",
+  "examples": [
+   "The *snowstorm* shut down every school in the county.",
+   "We drove home through a *snowstorm* at fifteen miles an hour.",
+   "Two *snowstorms* in one week is a lot, even for here."
+  ]
+ },
+ {
+  "term": "snowfall",
+  "ipa": "ˈsnoʊfɔːl",
+  "respell": "SNOH-fawl",
+  "ru": "снегопад",
+  "plural": "snowfalls",
+  "countability": "countable",
+  "gloss": "An occasion when snow falls, or the amount that falls.",
+  "examples": [
+   "The first *snowfall* of the year came in October.",
+   "We had a heavy *snowfall* overnight.",
+   "*Snowfalls* like that used to happen every winter."
+  ]
+ },
+ {
+  "term": "blizzard",
+  "ipa": "ˈblɪzərd",
+  "respell": "BLIZ-urd",
+  "ru": "буран, сильная метель",
+  "plural": "blizzards",
+  "countability": "countable",
+  "gloss": "A severe snowstorm with strong wind and very poor visibility.",
+  "examples": [
+   "The *blizzard* dumped two feet of snow on the city.",
+   "They were stuck at the airport for two days because of the *blizzard*.",
+   "My parents still talk about the *blizzard* of '78."
+  ]
+ },
+ {
+  "term": "flurry",
+  "ipa": "ˈflɜːri",
+  "respell": "FLUR-ee",
+  "ru": "лёгкий снегопад, снежные хлопья",
+  "plural": "flurries",
+  "countability": "countable",
+  "gloss": "A brief, light fall of snow.",
+  "examples": [
+   "We're expecting *flurries* tonight, nothing serious.",
+   "A *flurry* blew past the window and stopped.",
+   "There were *flurries* on the drive up, but nothing stuck."
+  ]
+ },
+ {
+  "term": "snowdrift",
+  "ipa": "ˈsnoʊdrɪft",
+  "respell": "SNOH-drift",
+  "ru": "сугроб",
+  "plural": "snowdrifts",
+  "countability": "countable",
+  "gloss": "A deep pile of snow formed by the wind.",
+  "examples": [
+   "There's a *snowdrift* halfway up the garage door.",
+   "The plows left *snowdrifts* at the end of every driveway.",
+   "He stepped into a *snowdrift* and sank to his knees."
+  ]
+ },
+ {
+  "term": "snowball",
+  "ipa": "ˈsnoʊbɔːl",
+  "respell": "SNOH-bawl",
+  "ru": "снежок (снежный ком)",
+  "plural": "snowballs",
+  "countability": "countable",
+  "gloss": "A ball of snow packed together in your hands.",
+  "examples": [
+   "He threw a *snowball* at his brother and missed.",
+   "The snow's too dry to make *snowballs* today.",
+   "One *snowball* hit the window and everybody froze."
+  ]
+ },
+ {
+  "term": "snowman",
+  "ipa": "ˈsnoʊmæn",
+  "respell": "SNOH-man",
+  "ru": "снеговик",
+  "plural": "snowmen",
+  "countability": "countable",
+  "gloss": "A figure of a person built out of packed snow.",
+  "examples": [
+   "The kids built a *snowman* in the front yard.",
+   "Our *snowman* lasted about three days.",
+   "There were *snowmen* on half the lawns on the street."
+  ],
+  "contrast": "Irregular plural: one *snowman*, two *snowmen* (SNOH-men)."
+ },
+ {
+  "term": "icicle",
+  "ipa": "ˈaɪsɪkəl",
+  "respell": "EYE-sih-kuhl",
+  "ru": "сосулька",
+  "plural": "icicles",
+  "countability": "countable",
+  "gloss": "A pointed piece of ice hanging down where water has frozen as it dripped.",
+  "examples": [
+   "There's a three-foot *icicle* hanging off the gutter.",
+   "Knock those *icicles* down before somebody gets hurt.",
+   "An *icicle* broke off and shattered on the steps."
+  ]
+ },
+ {
+  "term": "frost",
+  "ipa": "frɔːst",
+  "respell": "FRAWST",
+  "ru": "иней; заморозки",
+  "plural": "frosts",
+  "countability": "countable, and uncountable as a substance",
+  "gloss": "A thin white layer of ice crystals, or a night cold enough to form one.",
+  "examples": [
+   "There was *frost* on the windshield this morning.",
+   "The first hard *frost* killed the tomatoes.",
+   "Late *frosts* can ruin the whole apple crop."
+  ]
+ },
+ {
+  "term": "thaw",
+  "ipa": "θɔː",
+  "respell": "THAW",
+  "ru": "оттепель",
+  "plural": "thaws",
+  "countability": "countable",
+  "gloss": "A period of warmer weather when snow and ice melt.",
+  "examples": [
+   "We got a *thaw* in the middle of January.",
+   "The river floods every spring during the *thaw*.",
+   "A couple of *thaws* turned the yard into mud."
+  ]
+ },
+ {
+  "term": "dew",
+  "ipa": "duː",
+  "respell": "DOO",
+  "ru": "роса",
+  "plural": "",
+  "countability": "uncountable",
+  "gloss": "Drops of water that form on cool surfaces outdoors overnight.",
+  "examples": [
+   "The grass was still wet with *dew*.",
+   "Wait for the *dew* to burn off before you mow.",
+   "There was *dew* all over the tent by morning."
+  ],
+  "contrast": "Americans say DOO, a homophone of *do* and *due*; the British say DYOO."
+ },
+ {
+  "term": "frostbite",
+  "ipa": "ˈfrɔːstbaɪt",
+  "respell": "FRAWST-byt",
+  "ru": "обморожение",
+  "plural": "",
+  "countability": "uncountable",
+  "gloss": "Injury to the skin and flesh caused by extreme cold.",
+  "examples": [
+   "He got *frostbite* on two fingers.",
+   "Cover your ears or you'll risk *frostbite*.",
+   "At that wind chill, *frostbite* sets in within minutes."
+  ]
+ },
+ {
+  "term": "fog",
+  "ipa": "fɔːɡ",
+  "respell": "FAWG",
+  "ru": "туман",
+  "plural": "",
+  "countability": "uncountable",
+  "gloss": "A thick cloud of water droplets near the ground that makes it hard to see.",
+  "examples": [
+   "The *fog* was so thick I couldn't see the mailbox.",
+   "*Fog* rolls in off the bay almost every morning.",
+   "The bridge was closed because of *fog*."
+  ]
+ },
+ {
+  "term": "mist",
+  "ipa": "mɪst",
+  "respell": "MIST",
+  "ru": "лёгкий туман, дымка",
+  "plural": "",
+  "countability": "uncountable",
+  "gloss": "A thin fog, or a fine spray of tiny water drops in the air.",
+  "examples": [
+   "There was *mist* hanging over the river at sunrise.",
+   "A light *mist* was falling, barely enough to wet the road.",
+   "The *mist* burned off by nine o'clock."
+  ]
+ },
+ {
+  "term": "haze",
+  "ipa": "heɪz",
+  "respell": "HAYZ",
+  "ru": "дымка, мгла",
+  "plural": "",
+  "countability": "uncountable",
+  "gloss": "A slight cloudiness in the air from dust, smoke, or heat.",
+  "examples": [
+   "There's a *haze* over the whole valley from the wildfires.",
+   "You could barely make out the skyline through the *haze*.",
+   "Summer *haze* makes the mountains look blue."
+  ]
+ },
+ {
+  "term": "smog",
+  "ipa": "smɑːɡ",
+  "respell": "SMAHG",
+  "ru": "смог",
+  "plural": "",
+  "countability": "uncountable",
+  "gloss": "Dirty, unhealthy air over a city, made of smoke and fog.",
+  "examples": [
+   "The *smog* was bad enough that they told kids to stay inside.",
+   "You can see the *smog* sitting over the freeway.",
+   "*Smog* here is much worse in the summer."
+  ]
+ },
+ {
+  "term": "ozone",
+  "ipa": "ˈoʊzoʊn",
+  "respell": "OH-zohn",
+  "ru": "озон",
+  "plural": "",
+  "countability": "uncountable",
+  "gloss": "A form of oxygen that forms a protective layer high in the atmosphere.",
+  "examples": [
+   "The *ozone* layer blocks most of the sun's harmful rays.",
+   "*Ozone* at ground level is a pollutant, not a good thing.",
+   "They issued an *ozone* alert for the whole metro area."
+  ]
+ },
+ {
+  "term": "pollen",
+  "ipa": "ˈpɑːlən",
+  "respell": "PAH-luhn",
+  "ru": "пыльца",
+  "plural": "",
+  "countability": "uncountable",
+  "gloss": "Fine powder from plants that floats in the air in spring.",
+  "examples": [
+   "The *pollen* count is through the roof this week.",
+   "There's yellow *pollen* all over my car.",
+   "My eyes water whenever the *pollen* gets bad."
+  ]
+ },
+ {
+  "term": "wind",
+  "ipa": "wɪnd",
+  "respell": "WIND",
+  "ru": "ветер",
+  "plural": "winds",
+  "countability": "countable",
+  "gloss": "Air moving across the land or the sea.",
+  "examples": [
+   "A cold *wind* was coming off the lake.",
+   "The *wind* took my hat halfway down the block.",
+   "*Winds* of forty miles an hour knocked out the power."
+  ],
+  "contrast": "The noun is WIND (rhymes with *pinned*); the verb *to wind* a clock is WYND (rhymes with *find*)."
+ },
+ {
+  "term": "breeze",
+  "ipa": "briːz",
+  "respell": "BREEZ",
+  "ru": "лёгкий ветер, ветерок",
+  "plural": "breezes",
+  "countability": "countable",
+  "gloss": "A light, pleasant wind.",
+  "examples": [
+   "There's a nice *breeze* on the porch.",
+   "The *breeze* off the ocean keeps it from getting too hot.",
+   "Evening *breezes* make August almost bearable."
+  ]
+ },
+ {
+  "term": "gust",
+  "ipa": "ɡʌst",
+  "respell": "GUST",
+  "ru": "порыв ветра",
+  "plural": "gusts",
+  "countability": "countable",
+  "gloss": "A sudden strong rush of wind.",
+  "examples": [
+   "A *gust* blew the umbrella off the table.",
+   "*Gusts* up to sixty miles an hour are expected.",
+   "One good *gust* and the whole tent came down."
+  ]
+ },
+ {
+  "term": "gale",
+  "ipa": "ɡeɪl",
+  "respell": "GAYL",
+  "ru": "штормовой ветер",
+  "plural": "gales",
+  "countability": "countable",
+  "gloss": "A very strong wind.",
+  "examples": [
+   "A *gale* was blowing straight off the water.",
+   "The forecast has *gales* along the whole coast.",
+   "They canceled the ferry because of the *gale*."
+  ]
+ },
+ {
+  "term": "hurricane",
+  "ipa": "ˈhɜːrəkeɪn",
+  "respell": "HUR-uh-kayn",
+  "ru": "ураган",
+  "plural": "hurricanes",
+  "countability": "countable",
+  "gloss": "A very large, violent tropical storm with extremely strong circling winds.",
+  "examples": [
+   "The *hurricane* is expected to make landfall Thursday.",
+   "They boarded up the windows before the *hurricane*.",
+   "Three *hurricanes* hit the Gulf that season."
+  ],
+  "contrast": "Stress the first syllable, HUR-uh-kayn, and pronounce the last syllable fully — unlike Russian «ураган»."
+ },
+ {
+  "term": "typhoon",
+  "ipa": "taɪˈfuːn",
+  "respell": "ty-FOON",
+  "ru": "тайфун",
+  "plural": "typhoons",
+  "countability": "countable",
+  "gloss": "A hurricane that happens in the western Pacific.",
+  "examples": [
+   "The *typhoon* forced them to cancel the flight.",
+   "A *typhoon* had wiped out the docks the year before.",
+   "*Typhoons* are most common there in late summer."
+  ]
+ },
+ {
+  "term": "cyclone",
+  "ipa": "ˈsaɪkloʊn",
+  "respell": "SY-klohn",
+  "ru": "циклон",
+  "plural": "cyclones",
+  "countability": "countable",
+  "gloss": "A large system of winds spinning around a center of low pressure.",
+  "examples": [
+   "A *cyclone* was forming off the coast.",
+   "The *cyclone* brought a week of rain.",
+   "Tropical *cyclones* get their energy from warm ocean water."
+  ]
+ },
+ {
+  "term": "twister",
+  "ipa": "ˈtwɪstər",
+  "respell": "TWIS-tur",
+  "ru": "смерч, торнадо (разг.)",
+  "plural": "twisters",
+  "countability": "countable",
+  "gloss": "An informal American word for a tornado.",
+  "examples": [
+   "A *twister* took the roof clean off the barn.",
+   "They spotted a *twister* about two miles out.",
+   "*Twisters* come through this county every spring."
+  ]
+ },
+ {
+  "term": "monsoon",
+  "ipa": "mɑːnˈsuːn",
+  "respell": "mahn-SOON",
+  "ru": "муссон; сезон дождей",
+  "plural": "monsoons",
+  "countability": "countable",
+  "gloss": "A seasonal wind that brings months of heavy rain.",
+  "examples": [
+   "The *monsoon* usually starts in early July.",
+   "They lost the crop when the *monsoon* came late.",
+   "*Monsoons* dump most of the region's yearly rain."
+  ]
+ },
+ {
+  "term": "wind chill",
+  "ipa": "ˈwɪnd tʃɪl",
+  "respell": "WIND-chil",
+  "ru": "ощущаемая температура при ветре",
+  "plural": "",
+  "countability": "uncountable",
+  "gloss": "How cold the air feels on your skin once the wind is taken into account.",
+  "examples": [
+   "It's ten degrees, but the *wind chill* makes it feel like twenty below.",
+   "Watch the *wind chill* before you send the kids out.",
+   "The *wind chill* was the story on every newscast that night."
+  ]
+ },
+ {
+  "term": "chill",
+  "ipa": "tʃɪl",
+  "respell": "CHIL",
+  "ru": "прохлада, холодок",
+  "plural": "chills",
+  "countability": "countable",
+  "gloss": "An unpleasant feeling of cold in the air or in your body.",
+  "examples": [
+   "There's a *chill* in the air tonight.",
+   "Grab a jacket — you'll catch a *chill* out there.",
+   "The morning *chill* is gone by ten."
+  ]
+ },
+ {
+  "term": "heat wave",
+  "ipa": "ˈhiːt weɪv",
+  "respell": "HEET-wayv",
+  "ru": "период сильной жары",
+  "plural": "heat waves",
+  "countability": "countable",
+  "gloss": "A stretch of unusually hot weather lasting several days or more.",
+  "examples": [
+   "We're in the middle of a *heat wave*.",
+   "The *heat wave* broke on Sunday night.",
+   "Two *heat waves* in one summer is unusual for Seattle."
+  ]
+ },
+ {
+  "term": "cold snap",
+  "ipa": "ˈkoʊld snæp",
+  "respell": "KOHLD-snap",
+  "ru": "резкое похолодание",
+  "plural": "cold snaps",
+  "countability": "countable",
+  "gloss": "A short period of unusually cold weather.",
+  "examples": [
+   "That *cold snap* in April killed the blossoms.",
+   "We're getting a *cold snap* this weekend.",
+   "A couple of *cold snaps* like that and the pipes will freeze."
+  ]
+ },
+ {
+  "term": "warmth",
+  "ipa": "wɔːrmθ",
+  "respell": "WORMTH",
+  "ru": "тепло",
+  "plural": "",
+  "countability": "uncountable",
+  "gloss": "The pleasant quality of being warm.",
+  "examples": [
+   "You could feel the *warmth* coming off the sidewalk.",
+   "We stepped inside for a little *warmth*.",
+   "Wool keeps its *warmth* even when it's wet."
+  ]
+ },
+ {
+  "term": "drought",
+  "ipa": "draʊt",
+  "respell": "DROWT",
+  "ru": "засуха",
+  "plural": "droughts",
+  "countability": "countable",
+  "gloss": "A long period with little or no rain.",
+  "examples": [
+   "The *drought* has lasted three summers now.",
+   "Farmers lost most of the corn to the *drought*.",
+   "*Droughts* out west are getting longer and hotter."
+  ],
+  "contrast": "Despite the gh, it is pronounced DROWT and rhymes with *out* — not \"drawt\" or \"druft\"."
+ },
+ {
+  "term": "flood",
+  "ipa": "flʌd",
+  "respell": "FLUD",
+  "ru": "наводнение, потоп",
+  "plural": "floods",
+  "countability": "countable",
+  "gloss": "A large amount of water covering land that is usually dry.",
+  "examples": [
+   "The *flood* took out the bridge on Route 9.",
+   "They're still cleaning up after the *flood*.",
+   "*Floods* like that used to happen once a century."
+  ],
+  "contrast": "The oo here is /ʌ/: *flood* rhymes with *blood* and *mud*, not with *food*."
+ },
+ {
+  "term": "wildfire",
+  "ipa": "ˈwaɪldfaɪrr",
+  "respell": "WYLD-fyr",
+  "ru": "лесной пожар",
+  "plural": "wildfires",
+  "countability": "countable",
+  "gloss": "A large fire that spreads quickly through forest or grassland.",
+  "examples": [
+   "The *wildfire* burned forty thousand acres.",
+   "Smoke from the *wildfires* reached us three states away.",
+   "A dry summer makes a *wildfire* much more likely."
+  ]
+ },
+ {
+  "term": "avalanche",
+  "ipa": "ˈævəlæntʃ",
+  "respell": "AV-uh-lanch",
+  "ru": "лавина",
+  "plural": "avalanches",
+  "countability": "countable",
+  "gloss": "A mass of snow and ice sliding suddenly down a mountainside.",
+  "examples": [
+   "An *avalanche* closed the pass for two days.",
+   "The *avalanche* risk is high after that much fresh snow.",
+   "*Avalanches* are the main danger on that route."
+  ]
+ },
+ {
+  "term": "heatstroke",
+  "ipa": "ˈhiːtstroʊk",
+  "respell": "HEET-strohk",
+  "ru": "тепловой удар",
+  "plural": "",
+  "countability": "uncountable",
+  "gloss": "A dangerous condition caused by the body getting far too hot.",
+  "examples": [
+   "Two runners were treated for *heatstroke*.",
+   "Never leave a dog in the car — *heatstroke* happens fast.",
+   "Dizziness and confusion are warning signs of *heatstroke*."
+  ]
+ },
+ {
+  "term": "sunburn",
+  "ipa": "ˈsʌnbɜːrn",
+  "respell": "SUN-burn",
+  "ru": "солнечный ожог",
+  "plural": "sunburns",
+  "countability": "countable",
+  "gloss": "Red, sore skin caused by too much time in the sun.",
+  "examples": [
+   "I got a nasty *sunburn* on the boat.",
+   "His *sunburn* peeled for a week.",
+   "*Sunburns* that bad can do real damage."
+  ],
+  "contrast": "Americans usually say \"I got *a* sunburn\", counting it; the British more often say \"I got sunburn\", with no article."
+ },
+ {
+  "term": "glacier",
+  "ipa": "ˈɡleɪʃər",
+  "respell": "GLAY-shur",
+  "ru": "ледник",
+  "plural": "glaciers",
+  "countability": "countable",
+  "gloss": "A huge mass of ice that moves very slowly down a valley.",
+  "examples": [
+   "The *glacier* has pulled back half a mile since the sixties.",
+   "You can hike right up to the edge of the *glacier*.",
+   "Most of these *glaciers* will be gone in fifty years."
+  ],
+  "contrast": "Americans say GLAY-shur; the British say GLASS-ee-ur."
+ },
+ {
+  "term": "iceberg",
+  "ipa": "ˈaɪsbɜːrɡ",
+  "respell": "EYES-burg",
+  "ru": "айсберг",
+  "plural": "icebergs",
+  "countability": "countable",
+  "gloss": "A large piece of ice floating in the sea, broken off from a glacier.",
+  "examples": [
+   "We passed an *iceberg* the size of a house.",
+   "Most of an *iceberg* sits below the waterline.",
+   "The ship changed course to avoid the *icebergs*."
+  ]
+ },
+ {
+  "term": "spring",
+  "ipa": "sprɪŋ",
+  "respell": "SPRING",
+  "ru": "весна",
+  "plural": "springs",
+  "countability": "countable",
+  "gloss": "The season between winter and summer, when plants start to grow.",
+  "examples": [
+   "We're putting the house on the market in the *spring*.",
+   "*Spring* came early this year.",
+   "The last three *springs* have been unusually wet."
+  ]
+ },
+ {
+  "term": "summer",
+  "ipa": "ˈsʌmər",
+  "respell": "SUM-ur",
+  "ru": "лето",
+  "plural": "summers",
+  "countability": "countable",
+  "gloss": "The warmest season of the year, between spring and fall.",
+  "examples": [
+   "We spend every *summer* at my aunt's place.",
+   "It was the hottest *summer* on record.",
+   "She waited tables for three *summers* to pay for school."
+  ]
+ },
+ {
+  "term": "fall",
+  "ipa": "fɔːl",
+  "respell": "FAWL",
+  "ru": "осень",
+  "plural": "falls",
+  "countability": "countable",
+  "gloss": "The season between summer and winter, when leaves change color.",
+  "examples": [
+   "The leaves are beautiful here in the *fall*.",
+   "She starts law school this *fall*.",
+   "We've had some cold *falls* lately."
+  ],
+  "contrast": "Americans normally say *fall*; the British say *autumn*. Both are understood in the US."
+ },
+ {
+  "term": "autumn",
+  "ipa": "ˈɔːtəm",
+  "respell": "AW-tuhm",
+  "ru": "осень",
+  "plural": "autumns",
+  "countability": "countable",
+  "gloss": "The season between summer and winter; the more formal American word for fall.",
+  "examples": [
+   "The poem is set in late *autumn*.",
+   "*Autumn* in New England draws tourists from everywhere.",
+   "He painted the same hillside over several *autumns*."
+  ],
+  "contrast": "The final n is silent: AW-tuhm. It comes back only in the adjective *autumnal* (aw-TUM-nuhl)."
+ },
+ {
+  "term": "winter",
+  "ipa": "ˈwɪntər",
+  "respell": "WIN-tur",
+  "ru": "зима",
+  "plural": "winters",
+  "countability": "countable",
+  "gloss": "The coldest season of the year, between fall and spring.",
+  "examples": [
+   "*Winter* here lasts about five months.",
+   "We got through the *winter* on firewood alone.",
+   "He's lived through sixty Minnesota *winters*."
+  ]
+ },
+ {
+  "term": "solstice",
+  "ipa": "ˈsɑːlstɪs",
+  "respell": "SAHL-stis",
+  "ru": "солнцестояние",
+  "plural": "solstices",
+  "countability": "countable",
+  "gloss": "Either of the two days in the year with the longest or shortest daylight.",
+  "examples": [
+   "The summer *solstice* falls on June 21st this year.",
+   "After the winter *solstice* the days start getting longer.",
+   "The stones line up with the sun on both *solstices*."
+  ]
+ },
+ {
+  "term": "equinox",
+  "ipa": "ˈiːkwənɑːks",
+  "respell": "EE-kwuh-nahks",
+  "ru": "равноденствие",
+  "plural": "equinoxes",
+  "countability": "countable",
+  "gloss": "Either of the two days a year when day and night are about equal in length.",
+  "examples": [
+   "The fall *equinox* is around September 22nd.",
+   "Storms are common near the *equinox*.",
+   "The two *equinoxes* mark the start of spring and fall."
+  ]
+ },
+ {
+  "term": "planet",
+  "ipa": "ˈplænɪt",
+  "respell": "PLAN-it",
+  "ru": "планета",
+  "plural": "planets",
+  "countability": "countable",
+  "gloss": "A large round body in space that moves around a star.",
+  "examples": [
+   "Mars is the fourth *planet* from the sun.",
+   "There are eight *planets* in our solar system.",
+   "They think that *planet* may have water."
+  ]
+ },
+ {
+  "term": "earth",
+  "ipa": "ɜːrθ",
+  "respell": "URTH",
+  "ru": "Земля (планета)",
+  "plural": "",
+  "countability": "uncountable",
+  "gloss": "The planet we live on.",
+  "examples": [
+   "The *earth* takes a year to go around the sun.",
+   "From orbit you can actually see the curve of the *earth*.",
+   "It's the only place on *earth* where those birds nest."
+  ]
+ },
+ {
+  "term": "globe",
+  "ipa": "ɡloʊb",
+  "respell": "GLOHB",
+  "ru": "земной шар; глобус",
+  "plural": "globes",
+  "countability": "countable",
+  "gloss": "The earth seen as a whole, or a round model of it.",
+  "examples": [
+   "The company has offices all over the *globe*.",
+   "There was a dusty *globe* on the teacher's desk.",
+   "Old *globes* still show countries that don't exist anymore."
+  ]
+ },
+ {
+  "term": "universe",
+  "ipa": "ˈjuːnəvɜːrs",
+  "respell": "YOO-nuh-vurs",
+  "ru": "вселенная",
+  "plural": "universes",
+  "countability": "countable",
+  "gloss": "All of space and everything in it.",
+  "examples": [
+   "The *universe* is still expanding.",
+   "Nobody knows how big the *universe* actually is.",
+   "Some physicists argue for a whole set of parallel *universes*."
+  ]
+ },
+ {
+  "term": "galaxy",
+  "ipa": "ˈɡæləksi",
+  "respell": "GAL-uhk-see",
+  "ru": "галактика",
+  "plural": "galaxies",
+  "countability": "countable",
+  "gloss": "A huge group of stars, gas, and dust held together by gravity.",
+  "examples": [
+   "Our *galaxy* has a few hundred billion stars.",
+   "The telescope picked up *galaxies* nobody had seen before.",
+   "That smudge of light is another *galaxy*."
+  ]
+ },
+ {
+  "term": "comet",
+  "ipa": "ˈkɑːmɪt",
+  "respell": "KAH-mit",
+  "ru": "комета",
+  "plural": "comets",
+  "countability": "countable",
+  "gloss": "A body of ice and dust that travels around the sun and grows a bright tail.",
+  "examples": [
+   "The *comet* should be visible just after sunset.",
+   "That *comet* only comes back every seventy-six years.",
+   "*Comets* pick up their tails as they get close to the sun."
+  ],
+  "contrast": "Don't confuse it with the verb *commit*: the noun is KAH-mit, stressed on the first syllable; *commit* is kuh-MIT."
+ },
+ {
+  "term": "meteor",
+  "ipa": "ˈmiːtiər",
+  "respell": "MEE-tee-ur",
+  "ru": "метеор, падающая звезда",
+  "plural": "meteors",
+  "countability": "countable",
+  "gloss": "A piece of rock from space that burns as a streak of light in the sky.",
+  "examples": [
+   "We saw a *meteor* go right across the sky.",
+   "The *meteor* shower peaks around two in the morning.",
+   "You can count twenty *meteors* an hour out here."
+  ]
+ },
+ {
+  "term": "meteorite",
+  "ipa": "ˈmiːtiəraɪt",
+  "respell": "MEE-tee-uh-ryt",
+  "ru": "метеорит",
+  "plural": "meteorites",
+  "countability": "countable",
+  "gloss": "A piece of rock from space that reaches the ground without burning up.",
+  "examples": [
+   "A *meteorite* punched a hole in somebody's garage roof.",
+   "The museum has a *meteorite* you're allowed to touch.",
+   "Most *meteorites* found on earth are mostly iron."
+  ]
+ },
+ {
+  "term": "asteroid",
+  "ipa": "ˈæstərɔɪd",
+  "respell": "AS-tuh-royd",
+  "ru": "астероид",
+  "plural": "asteroids",
+  "countability": "countable",
+  "gloss": "A small rocky body that orbits the sun, much smaller than a planet.",
+  "examples": [
+   "An *asteroid* passed closer to us than the moon.",
+   "Most *asteroids* sit in a belt between Mars and Jupiter.",
+   "They named the *asteroid* after her."
+  ]
+ },
+ {
+  "term": "orbit",
+  "ipa": "ˈɔːrbɪt",
+  "respell": "OR-bit",
+  "ru": "орбита",
+  "plural": "orbits",
+  "countability": "countable",
+  "gloss": "The curved path one object takes around another in space.",
+  "examples": [
+   "The satellite is in a low *orbit*.",
+   "The moon's *orbit* isn't a perfect circle.",
+   "It completes sixteen *orbits* a day."
+  ]
+ },
+ {
+  "term": "satellite",
+  "ipa": "ˈsætəlaɪt",
+  "respell": "SAT-uh-lyt",
+  "ru": "спутник",
+  "plural": "satellites",
+  "countability": "countable",
+  "gloss": "An object placed in orbit around a planet, or a moon that orbits naturally.",
+  "examples": [
+   "The weather *satellite* sends back new images every ten minutes.",
+   "We get our internet by *satellite* out here.",
+   "There are thousands of *satellites* up there now."
+  ]
+ },
+ {
+  "term": "constellation",
+  "ipa": "ˌkɑːnstəˈleɪʃən",
+  "respell": "kahn-stuh-LAY-shuhn",
+  "ru": "созвездие",
+  "plural": "constellations",
+  "countability": "countable",
+  "gloss": "A group of stars that people picture as forming a shape.",
+  "examples": [
+   "That *constellation* is easy to find in winter.",
+   "My dad taught me a few *constellations* when I was a kid.",
+   "The app tells you which *constellation* you're looking at."
+  ]
+ },
+ {
+  "term": "crescent",
+  "ipa": "ˈkresənt",
+  "respell": "KRES-uhnt",
+  "ru": "полумесяц, серп луны",
+  "plural": "crescents",
+  "countability": "countable",
+  "gloss": "The curved shape of the moon when only a thin part of it is lit.",
+  "examples": [
+   "There was a thin *crescent* low in the western sky.",
+   "The moon was down to a *crescent* by the end of the week.",
+   "He drew two *crescents* on the chalkboard."
+  ],
+  "contrast": "The sc in the middle is a single /s/ sound: KRES-uhnt, not \"kres-KENT\"."
+ },
+ {
+  "term": "telescope",
+  "ipa": "ˈteləskoʊp",
+  "respell": "TEL-uh-skohp",
+  "ru": "телескоп",
+  "plural": "telescopes",
+  "countability": "countable",
+  "gloss": "An instrument that makes distant objects look closer, used for looking at the sky.",
+  "examples": [
+   "He got a *telescope* for his twelfth birthday.",
+   "You need a *telescope* to see the rings of Saturn.",
+   "The observatory has two big *telescopes*."
+  ]
+ },
+ {
+  "term": "astronomy",
+  "ipa": "əˈstrɑːnəmi",
+  "respell": "uh-STRAH-nuh-mee",
+  "ru": "астрономия",
+  "plural": "",
+  "countability": "uncountable",
+  "gloss": "The scientific study of stars, planets, and space.",
+  "examples": [
+   "She's taking *astronomy* as an elective.",
+   "*Astronomy* got a lot easier once we had good telescopes.",
+   "There's a great *astronomy* club at the community center."
+  ],
+  "contrast": "Don't mix it up with *astrology* (uh-STRAH-luh-jee), the business of horoscopes — *astronomy* is the science."
+ },
+ {
+  "term": "astronomer",
+  "ipa": "əˈstrɑːnəmər",
+  "respell": "uh-STRAH-nuh-mur",
+  "ru": "астроном",
+  "plural": "astronomers",
+  "countability": "countable",
+  "gloss": "A scientist who studies stars, planets, and space.",
+  "examples": [
+   "An *astronomer* at the university spotted it first.",
+   "*Astronomers* have been arguing about that for decades.",
+   "She's an *astronomer* who works mostly with radio telescopes."
+  ]
+ },
+ {
+  "term": "astronaut",
+  "ipa": "ˈæstrənɔːt",
+  "respell": "AS-truh-nawt",
+  "ru": "космонавт, астронавт",
+  "plural": "astronauts",
+  "countability": "countable",
+  "gloss": "A person trained to travel and work in space.",
+  "examples": [
+   "Every kid in that class wanted to be an *astronaut*.",
+   "The *astronauts* spent six months on the station.",
+   "A retired *astronaut* came to speak at the school."
+  ]
+ },
+ {
+  "term": "spacecraft",
+  "ipa": "ˈspeɪskræft",
+  "respell": "SPAYS-kraft",
+  "ru": "космический корабль, космический аппарат",
+  "plural": "spacecraft",
+  "countability": "countable",
+  "gloss": "A vehicle built to travel in space.",
+  "examples": [
+   "The *spacecraft* docked without any trouble.",
+   "Two unmanned *spacecraft* are already on the way.",
+   "The *spacecraft* sent back photos for eleven years."
+  ],
+  "contrast": "The plural does not change: one *spacecraft*, three *spacecraft* — like *aircraft*."
+ },
+ {
+  "term": "rocket",
+  "ipa": "ˈrɑːkɪt",
+  "respell": "RAH-kit",
+  "ru": "ракета",
+  "plural": "rockets",
+  "countability": "countable",
+  "gloss": "A vehicle or device pushed upward by burning fuel, used to reach space.",
+  "examples": [
+   "The *rocket* lifted off right on schedule.",
+   "They're testing a new *rocket* next month.",
+   "Those *rockets* can be flown back and reused."
+  ]
+ },
+ {
+  "term": "gravity",
+  "ipa": "ˈɡrævəti",
+  "respell": "GRAV-uh-tee",
+  "ru": "сила тяжести, гравитация",
+  "plural": "",
+  "countability": "uncountable",
+  "gloss": "The force that pulls objects toward each other, and things toward the earth.",
+  "examples": [
+   "*Gravity* on the moon is about a sixth of what it is here.",
+   "You don't notice *gravity* until you try to carry something heavy.",
+   "Their bones weaken without *gravity*."
+  ]
+ },
+ {
+  "term": "crater",
+  "ipa": "ˈkreɪtər",
+  "respell": "KRAY-tur",
+  "ru": "кратер",
+  "plural": "craters",
+  "countability": "countable",
+  "gloss": "A round hole in the ground made by an impact or an explosion.",
+  "examples": [
+   "You can see individual *craters* on the moon with binoculars.",
+   "The meteorite left a *crater* fifty feet wide.",
+   "The whole surface is covered in *craters*."
+  ]
+ },
+ {
+  "term": "observatory",
+  "ipa": "əbˈzɜːrvətɔːri",
+  "respell": "uhb-ZUR-vuh-tor-ee",
+  "ru": "обсерватория",
+  "plural": "observatories",
+  "countability": "countable",
+  "gloss": "A building with telescopes, used for studying the sky.",
+  "examples": [
+   "The *observatory* is open to the public on Friday nights.",
+   "They built the *observatory* on top of the mountain.",
+   "Several *observatories* tracked the same object."
+  ]
+ },
+ {
+  "term": "hemisphere",
+  "ipa": "ˈheməsfɪr",
+  "respell": "HEM-uh-sfeer",
+  "ru": "полушарие",
+  "plural": "hemispheres",
+  "countability": "countable",
+  "gloss": "One half of the earth, divided north and south or east and west.",
+  "examples": [
+   "It's winter here and summer in the southern *hemisphere*.",
+   "That plant only grows in the northern *hemisphere*.",
+   "The seasons are reversed between the two *hemispheres*."
+  ]
+ },
+ {
+  "term": "aurora",
+  "ipa": "əˈrɔːrə",
+  "respell": "uh-ROR-uh",
+  "ru": "полярное сияние",
+  "plural": "auroras",
+  "countability": "countable",
+  "gloss": "Bands of colored light that appear in the night sky near the poles.",
+  "examples": [
+   "We drove north hoping to see the *aurora*.",
+   "The *aurora* was green with streaks of purple.",
+   "Strong solar storms can push *auroras* much farther south."
+  ]
+ },
+ {
+  "term": "solar system",
+  "ipa": "ˈsoʊlər ˈsɪstəm",
+  "respell": "SOH-lur SIS-tuhm",
+  "ru": "солнечная система",
+  "plural": "solar systems",
+  "countability": "countable",
+  "gloss": "A star together with all the planets and other bodies orbiting it.",
+  "examples": [
+   "Neptune is at the far edge of our *solar system*.",
+   "The kids built a model *solar system* out of foam balls.",
+   "They've found thousands of other *solar systems*."
+  ]
+ },
+ {
+  "term": "light-year",
+  "ipa": "ˈlaɪt jɪr",
+  "respell": "LYT-yeer",
+  "ru": "световой год",
+  "plural": "light-years",
+  "countability": "countable",
+  "gloss": "The distance light travels in one year, used for measuring space.",
+  "examples": [
+   "That star is about four *light-years* away.",
+   "One *light-year* is close to six trillion miles.",
+   "The galaxy is a hundred thousand *light-years* across."
+  ],
+  "contrast": "It measures distance, not time, even though the word *year* is in it."
+ },
+ {
+  "term": "black hole",
+  "ipa": "ˌblæk ˈhoʊl",
+  "respell": "blak-HOHL",
+  "ru": "чёрная дыра",
+  "plural": "black holes",
+  "countability": "countable",
+  "gloss": "A region in space with gravity so strong that not even light can escape it.",
+  "examples": [
+   "There's a *black hole* at the center of our galaxy.",
+   "Nothing that falls into a *black hole* comes back out.",
+   "*Black holes* form when very large stars collapse."
+  ]
+ }
+]

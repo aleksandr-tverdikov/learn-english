@@ -1,0 +1,536 @@
+<!DOCTYPE html>
+<html lang="en"><head>
+<meta charset="utf-8"><meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Core vocabulary: meat, fish, and dairy</title>
+<style>
+:root{--bg:#faf9f7;--surface:#fff;--surface2:#f2f0ec;--border:#e2ded6;--text:#1a1815;
+--dim:#5f594f;--faint:#8a8377;--accent:#8a5a3b;--measure:72ch}
+@media(prefers-color-scheme:dark){:root{--bg:#14140f;--surface:#1d1d17;--surface2:#25251d;
+--border:#33332a;--text:#eeeae1;--dim:#a8a293;--faint:#7d776b;--accent:#d09b72}}
+:root[data-theme=dark]{--bg:#14140f;--surface:#1d1d17;--surface2:#25251d;--border:#33332a;
+--text:#eeeae1;--dim:#a8a293;--faint:#7d776b;--accent:#d09b72}
+:root[data-theme=light]{--bg:#faf9f7;--surface:#fff;--surface2:#f2f0ec;--border:#e2ded6;
+--text:#1a1815;--dim:#5f594f;--faint:#8a8377;--accent:#8a5a3b}
+*{box-sizing:border-box}
+body{margin:0;background:var(--bg);color:var(--text);
+font:17px/1.72 ui-serif,Georgia,"Iowan Old Style",Palatino,serif;-webkit-font-smoothing:antialiased}
+.wrap{max-width:min(var(--measure),100%);margin:0 auto;padding:0 22px}
+nav.crumb{border-bottom:1px solid var(--border);padding:13px 0;font-size:13.5px;
+font-family:-apple-system,BlinkMacSystemFont,"Segoe UI",sans-serif;position:sticky;top:0;background:var(--bg);z-index:20}
+nav.crumb .wrap{max-width:none;display:flex;gap:9px;align-items:center;flex-wrap:wrap}
+nav.crumb a{color:var(--dim);text-decoration:none}
+nav.crumb a:hover{color:var(--accent)}
+nav.crumb .sep{color:var(--faint)}
+main{padding:8px 0 80px}
+h1{font-size:clamp(28px,5vw,38px);line-height:1.15;letter-spacing:-.015em;margin:34px 0 18px}
+h2{font-size:25px;margin:46px 0 14px;letter-spacing:-.01em;padding-bottom:7px;border-bottom:1px solid var(--border)}
+h3{font-size:19px;margin:34px 0 10px;color:var(--accent)}
+h4{font-size:16px;margin:24px 0 8px;font-family:-apple-system,sans-serif}
+p{margin:0 0 16px}
+a{color:var(--accent)}
+.hash{opacity:0;margin-left:8px;font-weight:400;font-size:.65em;text-decoration:none;color:var(--faint)}
+h2:hover .hash,h3:hover .hash{opacity:1}
+blockquote{margin:0 0 20px;padding:14px 18px;background:var(--surface2);
+border-left:3px solid var(--accent);border-radius:0 8px 8px 0}
+blockquote p:last-child{margin-bottom:0}
+ol,ul{margin:0 0 18px;padding-left:26px}
+li{margin-bottom:8px}
+li>ul,li>ol{margin:8px 0 0}
+code{font-family:ui-monospace,SFMono-Regular,Menlo,Consolas,monospace;font-size:.87em;
+background:var(--surface2);padding:1px 5px;border-radius:4px}
+pre{background:var(--surface2);border:1px solid var(--border);border-radius:9px;
+padding:15px 17px;overflow-x:auto;margin:0 0 20px}
+pre code{background:none;padding:0;font-size:13px;line-height:1.6}
+.tw{overflow-x:auto;margin:0 0 22px;border:1px solid var(--border);border-radius:9px}
+table{border-collapse:collapse;width:100%;font-size:15px;
+font-family:-apple-system,BlinkMacSystemFont,"Segoe UI",sans-serif}
+th,td{padding:10px 14px;border-bottom:1px solid var(--border);vertical-align:top}
+th{background:var(--surface2);font-size:12px;text-transform:uppercase;
+letter-spacing:.06em;color:var(--dim);font-weight:700;white-space:nowrap}
+tbody tr:last-child td{border-bottom:none}
+hr{border:none;border-top:1px solid var(--border);margin:38px 0}
+details{background:var(--surface2);border:1px solid var(--border);border-radius:9px;
+padding:13px 17px;margin:0 0 20px}
+summary{cursor:pointer;font-weight:600;font-family:-apple-system,sans-serif;font-size:15px}
+details[open] summary{margin-bottom:12px}
+del{color:var(--faint)}
+dl.fields{margin:0 0 20px;padding:0}
+dl.fields dt{font-family:-apple-system,BlinkMacSystemFont,"Segoe UI",sans-serif;
+font-size:11px;letter-spacing:.11em;text-transform:uppercase;color:var(--faint);
+font-weight:700;margin:14px 0 4px}
+dl.fields dt:first-child{margin-top:0}
+dl.fields dd{margin:0;font-size:16px;color:var(--dim);line-height:1.62}
+dl.fields dd em{color:var(--text)}
+dl.fields dt.ru{color:var(--accent)}
+dl.fields dd strong{color:var(--text)}
+.toc{background:var(--surface2);border:1px solid var(--border);border-radius:10px;
+padding:16px 20px;margin:26px 0 34px;font-family:-apple-system,sans-serif;font-size:14px}
+.toc b{display:block;font-size:11px;letter-spacing:.12em;text-transform:uppercase;
+color:var(--faint);margin-bottom:9px}
+.toc a{display:block;padding:3px 0;color:var(--dim);text-decoration:none}
+.toc a:hover{color:var(--accent)}
+.themebtn{position:fixed;right:18px;bottom:18px;z-index:60;font-family:-apple-system,sans-serif;
+font-size:12.5px;font-weight:600;cursor:pointer;background:var(--surface);border:1px solid var(--border);
+border-radius:99px;padding:9px 16px;color:var(--text)}
+@media(max-width:600px){body{font-size:16px}.wrap{padding:0 17px}}
+</style></head><body>
+<nav class="crumb"><div class="wrap"><a href="../../../index.html">Learn English</a><span class="sep">/</span><a href="../../README.html">Parts of speech</a><span class="sep">/</span><a href="../README.html">01-nouns</a><span class="sep">/</span><span>catalog</span></div></nav>
+<main><div class="wrap"><h1 id="core-vocabulary-meat-fish-and-dairy">Core vocabulary: meat, fish, and dairy<a class="hash" href="#core-vocabulary-meat-fish-and-dairy" aria-label="link">#</a></h1>
+<blockquote><p>The everyday nouns of meat, fish, and dairy — pronunciation, Russian, plural, and three examples each.</p></blockquote>
+<p><a href="../README.html">← The grammar of nouns</a> &middot; <a href="README.html">All groups</a></p>
+<p>Part of the <strong>core-vocabulary tier</strong>. Groups 1–23 cover the nouns that misbehave; this tier covers the nouns you simply need to know. Entries are deliberately lean, because a regular countable noun has no grammatical story to tell. A <strong>Contrast</strong> line appears only where the word hides a genuine trap.</p>
+<p>Where a word in this field <em>does</em> misbehave, it lives in the grammar tier instead and is not repeated here.</p>
+<hr>
+<h3 id="lamb">lamb<a class="hash" href="#lamb" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/læm/ &middot; <em>LAM</em></dd><dt>Русский</dt><dd>баранина (мясо ягнёнка); ягнёнок</dd><dt>Plural</dt><dd><em>lambs</em></dd><dt>Countability</dt><dd>both — countable and uncountable with different meanings</dd><dt>Contrast</dt><dd>The b is silent — LAM, exactly like the first half of "lamp" without the p.</dd></dl>
+<p>A young sheep, or the meat that comes from one.</p>
+<ol><li>We had roast <em>lamb</em> with mint sauce for Easter.</li><li>The <em>lambs</em> were out in the field by March.</li><li><em>Lamb</em> has a stronger flavor than beef.</li></ol>
+<hr>
+<h3 id="veal">veal<a class="hash" href="#veal" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/viːl/ &middot; <em>VEEL</em></dd><dt>Русский</dt><dd>телятина</dd><dt>Countability</dt><dd>uncountable</dd></dl>
+<p>The pale meat of a young calf.</p>
+<ol><li>The restaurant is famous for its breaded <em>veal</em>.</li><li><em>Veal</em> is more delicate than beef.</li><li>A lot of people won't order <em>veal</em> on principle.</li></ol>
+<hr>
+<h3 id="mutton">mutton<a class="hash" href="#mutton" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/ˈmʌtən/ &middot; <em>MUH-tuhn</em></dd><dt>Русский</dt><dd>баранина (мясо взрослой овцы)</dd><dt>Countability</dt><dd>uncountable</dd></dl>
+<p>The meat of a fully grown sheep.</p>
+<ol><li><em>Mutton</em> is much harder to find in American stores than lamb.</li><li>The curry was made with <em>mutton</em> and potatoes.</li><li>My grandfather grew up eating <em>mutton</em> every Sunday.</li></ol>
+<hr>
+<h3 id="venison">venison<a class="hash" href="#venison" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/ˈvenəsən/ &middot; <em>VEH-nuh-suhn</em></dd><dt>Русский</dt><dd>оленина</dd><dt>Countability</dt><dd>uncountable</dd></dl>
+<p>The meat of a deer.</p>
+<ol><li>My uncle gave us a freezer full of <em>venison</em> after hunting season.</li><li><em>Venison</em> is leaner than beef, so don't overcook it.</li><li>She made chili with ground <em>venison</em>.</li></ol>
+<hr>
+<h3 id="poultry">poultry<a class="hash" href="#poultry" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/ˈpoʊltri/ &middot; <em>POHL-tree</em></dd><dt>Русский</dt><dd>домашняя птица (как мясо)</dd><dt>Countability</dt><dd>uncountable</dd></dl>
+<p>Chicken, turkey, duck and other farm birds raised for meat or eggs.</p>
+<ol><li>Wash your hands after handling raw <em>poultry</em>.</li><li>The <em>poultry</em> section is at the back of the store.</li><li>Prices for <em>poultry</em> stayed flat all year.</li></ol>
+<hr>
+<h3 id="burger">burger<a class="hash" href="#burger" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/ˈbɜːrɡər/ &middot; <em>BUR-gur</em></dd><dt>Русский</dt><dd>бургер</dd><dt>Plural</dt><dd><em>burgers</em></dd><dt>Countability</dt><dd>countable</dd></dl>
+<p>A hamburger, or any sandwich built on a similar patty.</p>
+<ol><li>Let's grab a <em>burger</em> after the game.</li><li>Their veggie <em>burgers</em> are surprisingly good.</li><li>He flipped the <em>burger</em> too early and it fell apart.</li></ol>
+<hr>
+<h3 id="cheeseburger">cheeseburger<a class="hash" href="#cheeseburger" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/ˈtʃiːzbɜːrɡər/ &middot; <em>CHEEZ-bur-gur</em></dd><dt>Русский</dt><dd>чизбургер</dd><dt>Plural</dt><dd><em>cheeseburgers</em></dd><dt>Countability</dt><dd>countable</dd></dl>
+<p>A hamburger with a slice of melted cheese on the patty.</p>
+<ol><li>One <em>cheeseburger</em>, no onions, please.</li><li>The <em>cheeseburgers</em> here come with bacon by default.</li><li>He ate half a <em>cheeseburger</em> and gave up.</li></ol>
+<hr>
+<h3 id="meatball">meatball<a class="hash" href="#meatball" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/ˈmiːtbɔːl/ &middot; <em>MEET-bawl</em></dd><dt>Русский</dt><dd>фрикаделька, тефтеля</dd><dt>Plural</dt><dd><em>meatballs</em></dd><dt>Countability</dt><dd>countable</dd></dl>
+<p>A small ball of ground meat, usually cooked in sauce or soup.</p>
+<ol><li>She rolled the <em>meatballs</em> by hand.</li><li>I'll take a <em>meatball</em> sub with extra sauce.</li><li>The <em>meatballs</em> simmered in the pot all afternoon.</li></ol>
+<hr>
+<h3 id="meatloaf">meatloaf<a class="hash" href="#meatloaf" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/ˈmiːtloʊf/ &middot; <em>MEET-lohf</em></dd><dt>Русский</dt><dd>мясной рулет (запечённый фарш)</dd><dt>Plural</dt><dd><em>meatloaves</em></dd><dt>Countability</dt><dd>countable, and uncountable as food</dd><dt>Contrast</dt><dd>Plural follows loaf → loaves: <em>meatloaves</em>, not "meatloafs".</dd></dl>
+<p>Ground meat mixed with bread and seasonings, then baked in a loaf shape.</p>
+<ol><li><em>Meatloaf</em> and mashed potatoes is classic diner food.</li><li>My mom's <em>meatloaf</em> recipe hasn't changed in forty years.</li><li>He made two <em>meatloaves</em> and froze one.</li></ol>
+<hr>
+<h3 id="patty">patty<a class="hash" href="#patty" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/ˈpæti/ &middot; <em>PA-tee</em></dd><dt>Русский</dt><dd>котлета (плоская, для бургера)</dd><dt>Plural</dt><dd><em>patties</em></dd><dt>Countability</dt><dd>countable</dd></dl>
+<p>A small flat round piece of ground meat, shaped for frying or grilling.</p>
+<ol><li>Press the <em>patty</em> down with a spatula.</li><li>These <em>patties</em> are a quarter pound each.</li><li>The burger came with two <em>patties</em> and no cheese.</li></ol>
+<hr>
+<h3 id="ground-beef">ground beef<a class="hash" href="#ground-beef" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/ˌɡraʊnd ˈbiːf/ &middot; <em>grownd-BEEF</em></dd><dt>Русский</dt><dd>говяжий фарш</dd><dt>Countability</dt><dd>uncountable</dd><dt>Contrast</dt><dd>American <em>ground beef</em> is British "minced beef" or just "mince".</dd></dl>
+<p>Beef that has been chopped very fine in a grinder.</p>
+<ol><li>Brown the <em>ground beef</em> before you add the onions.</li><li>I picked up a pound of <em>ground beef</em> for tacos.</li><li>This recipe works with <em>ground beef</em> or ground turkey.</li></ol>
+<hr>
+<h3 id="corned-beef">corned beef<a class="hash" href="#corned-beef" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/ˌkɔːrnd ˈbiːf/ &middot; <em>kornd-BEEF</em></dd><dt>Русский</dt><dd>солонина</dd><dt>Countability</dt><dd>uncountable</dd></dl>
+<p>Beef brisket cured in salt brine.</p>
+<ol><li><em>Corned beef</em> and cabbage is a St. Patrick's Day tradition here.</li><li>The deli slices their <em>corned beef</em> paper thin.</li><li>He made hash out of the leftover <em>corned beef</em>.</li></ol>
+<hr>
+<h3 id="roast-beef">roast beef<a class="hash" href="#roast-beef" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/ˌroʊst ˈbiːf/ &middot; <em>rohst-BEEF</em></dd><dt>Русский</dt><dd>ростбиф</dd><dt>Countability</dt><dd>uncountable</dd></dl>
+<p>Beef cooked in an oven in one large piece, often served sliced.</p>
+<ol><li>Sunday dinner was <em>roast beef</em> and gravy.</li><li>I'll take <em>roast beef</em> on rye with mustard.</li><li>There's cold <em>roast beef</em> left over from last night.</li></ol>
+<hr>
+<h3 id="cold-cuts">cold cuts<a class="hash" href="#cold-cuts" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/ˈkoʊld kʌts/ &middot; <em>KOHLD-kuts</em></dd><dt>Русский</dt><dd>мясная нарезка (колбасы и ветчина)</dd><dt>Plural</dt><dd><em>cold cuts</em></dd><dt>Countability</dt><dd>countable</dd><dt>Contrast</dt><dd>Used in the plural — Americans say "some <em>cold cuts</em>", almost never "a cold cut".</dd></dl>
+<p>Sliced cooked or cured meats eaten cold, usually in sandwiches.</p>
+<ol><li>Grab some <em>cold cuts</em> and a loaf of bread.</li><li>The tray was piled with <em>cold cuts</em> and cheese.</li><li>We lived on <em>cold cuts</em> the whole week we were moving.</li></ol>
+<hr>
+<h3 id="brisket">brisket<a class="hash" href="#brisket" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/ˈbrɪskɪt/ &middot; <em>BRIH-skit</em></dd><dt>Русский</dt><dd>грудинка</dd><dt>Plural</dt><dd><em>briskets</em></dd><dt>Countability</dt><dd>countable, and uncountable as food</dd></dl>
+<p>A cut of beef from the lower chest, usually cooked slowly.</p>
+<ol><li>The <em>brisket</em> smoked for twelve hours.</li><li>She braises a <em>brisket</em> every Passover.</li><li>Texas barbecue is really about the <em>brisket</em>.</li></ol>
+<hr>
+<h3 id="sirloin">sirloin<a class="hash" href="#sirloin" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/ˈsɜːrlɔɪn/ &middot; <em>SUR-loyn</em></dd><dt>Русский</dt><dd>филейная часть, оковалок</dd><dt>Plural</dt><dd><em>sirloins</em></dd><dt>Countability</dt><dd>countable, and uncountable as food</dd></dl>
+<p>A cut of beef from the back, between the ribs and the rump.</p>
+<ol><li><em>Sirloin</em> is a good compromise between price and tenderness.</li><li>He grilled two <em>sirloins</em> for dinner.</li><li>The special was a ten-ounce <em>sirloin</em> with a baked potato.</li></ol>
+<hr>
+<h3 id="tenderloin">tenderloin<a class="hash" href="#tenderloin" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/ˈtendərlɔɪn/ &middot; <em>TEN-dur-loyn</em></dd><dt>Русский</dt><dd>вырезка</dd><dt>Plural</dt><dd><em>tenderloins</em></dd><dt>Countability</dt><dd>countable, and uncountable as food</dd></dl>
+<p>The long, very tender muscle running along the backbone.</p>
+<ol><li>Pork <em>tenderloin</em> cooks in about twenty minutes.</li><li>She tied the <em>tenderloin</em> with string before roasting it.</li><li><em>Tenderloin</em> is the most expensive cut on the menu.</li></ol>
+<hr>
+<h3 id="ribeye">ribeye<a class="hash" href="#ribeye" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/ˈrɪbaɪ/ &middot; <em>RIB-eye</em></dd><dt>Русский</dt><dd>рибай (стейк из толстого края)</dd><dt>Plural</dt><dd><em>ribeyes</em></dd><dt>Countability</dt><dd>countable</dd></dl>
+<p>A steak cut from the rib section, known for its marbling.</p>
+<ol><li>He always orders the <em>ribeye</em>.</li><li>Two <em>ribeyes</em> cost more than the rest of the groceries.</li><li>A <em>ribeye</em> has enough fat that you barely need oil.</li></ol>
+<hr>
+<h3 id="chop">chop<a class="hash" href="#chop" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/tʃɑːp/ &middot; <em>CHAHP</em></dd><dt>Русский</dt><dd>отбивная (на косточке)</dd><dt>Plural</dt><dd><em>chops</em></dd><dt>Countability</dt><dd>countable</dd></dl>
+<p>A thick slice of meat, usually pork or lamb, cut with the bone still in.</p>
+<ol><li>She pan-fried two pork <em>chops</em> in butter.</li><li>The lamb <em>chop</em> was cooked perfectly.</li><li><em>Chops</em> dry out fast, so watch the heat.</li></ol>
+<hr>
+<h3 id="cutlet">cutlet<a class="hash" href="#cutlet" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/ˈkʌtlət/ &middot; <em>KUT-lit</em></dd><dt>Русский</dt><dd>эскалоп, отбивная (без кости)</dd><dt>Plural</dt><dd><em>cutlets</em></dd><dt>Countability</dt><dd>countable</dd></dl>
+<p>A thin, boneless piece of meat, often breaded and fried.</p>
+<ol><li>Pound the chicken <em>cutlets</em> until they're even.</li><li>The veal <em>cutlet</em> came with lemon on the side.</li><li>She breaded six <em>cutlets</em> and fried them in batches.</li></ol>
+<hr>
+<h3 id="loin">loin<a class="hash" href="#loin" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/lɔɪn/ &middot; <em>LOYN</em></dd><dt>Русский</dt><dd>корейка, поясничная часть</dd><dt>Plural</dt><dd><em>loins</em></dd><dt>Countability</dt><dd>countable, and uncountable as food</dd></dl>
+<p>The cut of meat from an animal's back, on either side of the spine.</p>
+<ol><li>Pork <em>loin</em> is on sale this week.</li><li>He roasted a whole <em>loin</em> with rosemary.</li><li>The butcher cut the <em>loin</em> into chops for me.</li></ol>
+<hr>
+<h3 id="shank">shank<a class="hash" href="#shank" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/ʃæŋk/ &middot; <em>SHANGK</em></dd><dt>Русский</dt><dd>голяшка, рулька</dd><dt>Plural</dt><dd><em>shanks</em></dd><dt>Countability</dt><dd>countable</dd></dl>
+<p>The lower part of an animal's leg, cooked slowly as a cut of meat.</p>
+<ol><li>Lamb <em>shanks</em> need three hours in the oven.</li><li>He braised the <em>shank</em> in red wine.</li><li>A <em>shank</em> is cheap, but you can't rush it.</li></ol>
+<hr>
+<h3 id="flank">flank<a class="hash" href="#flank" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/flæŋk/ &middot; <em>FLANGK</em></dd><dt>Русский</dt><dd>пашина (мясной отруб)</dd><dt>Plural</dt><dd><em>flanks</em></dd><dt>Countability</dt><dd>countable, and uncountable as food</dd></dl>
+<p>A lean cut of beef from the belly area below the ribs.</p>
+<ol><li><em>Flank</em> steak is best sliced against the grain.</li><li>She marinated the <em>flank</em> for two hours.</li><li>Grill the <em>flank</em> hot and fast.</li></ol>
+<hr>
+<h3 id="fillet">fillet<a class="hash" href="#fillet" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/fɪˈleɪ/ &middot; <em>fih-LAY</em></dd><dt>Русский</dt><dd>филе</dd><dt>Plural</dt><dd><em>fillets</em></dd><dt>Countability</dt><dd>countable</dd><dt>Contrast</dt><dd>Americans say fih-LAY; the British say FIL-it. Same word, and the US often spells it "filet".</dd></dl>
+<p>A boneless piece of meat or fish.</p>
+<ol><li>Two salmon <em>fillets</em>, please, and hold the sauce.</li><li>The chicken <em>fillet</em> was overcooked.</li><li>Each <em>fillet</em> takes about six minutes per side.</li></ol>
+<hr>
+<h3 id="drumstick">drumstick<a class="hash" href="#drumstick" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/ˈdrʌmstɪk/ &middot; <em>DRUM-stik</em></dd><dt>Русский</dt><dd>куриная голень (ножка)</dd><dt>Plural</dt><dd><em>drumsticks</em></dd><dt>Countability</dt><dd>countable</dd></dl>
+<p>The lower leg of a chicken or turkey, eaten as food.</p>
+<ol><li>The kids always fight over the <em>drumsticks</em>.</li><li>He grabbed a <em>drumstick</em> off the platter.</li><li><em>Drumsticks</em> are the cheapest part of the bird.</li></ol>
+<hr>
+<h3 id="wing">wing<a class="hash" href="#wing" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/wɪŋ/ &middot; <em>WING</em></dd><dt>Русский</dt><dd>крылышко (куриное)</dd><dt>Plural</dt><dd><em>wings</em></dd><dt>Countability</dt><dd>countable</dd></dl>
+<p>The arm of a bird, eaten as food, usually fried or grilled with sauce.</p>
+<ol><li>We ordered twenty <em>wings</em> for the game.</li><li>This <em>wing</em> is barely cooked.</li><li>Their buffalo <em>wings</em> are the best in town.</li></ol>
+<hr>
+<h3 id="tripe">tripe<a class="hash" href="#tripe" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/traɪp/ &middot; <em>TRYPE</em></dd><dt>Русский</dt><dd>рубец, требуха</dd><dt>Countability</dt><dd>uncountable</dd></dl>
+<p>The stomach lining of a cow or sheep, eaten as food.</p>
+<ol><li>The soup had <em>tripe</em> in it, which I wasn't expecting.</li><li><em>Tripe</em> has to be cleaned and boiled for a long time.</li><li>You'll find <em>tripe</em> in menudo and in plenty of other stews.</li></ol>
+<hr>
+<h3 id="gizzard">gizzard<a class="hash" href="#gizzard" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/ˈɡɪzərd/ &middot; <em>GIH-zurd</em></dd><dt>Русский</dt><dd>пупок (мышечный желудок птицы)</dd><dt>Plural</dt><dd><em>gizzards</em></dd><dt>Countability</dt><dd>countable</dd></dl>
+<p>A muscular part of a bird's stomach, eaten as food.</p>
+<ol><li>Fried <em>gizzards</em> are a Southern snack.</li><li>She simmered the <em>gizzard</em> with the neck to make stock.</li><li>The bag inside the turkey holds the liver and the <em>gizzard</em>.</li></ol>
+<hr>
+<h3 id="oxtail">oxtail<a class="hash" href="#oxtail" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/ˈɑːksteɪl/ &middot; <em>AHKS-tayl</em></dd><dt>Русский</dt><dd>бычий хвост</dd><dt>Plural</dt><dd><em>oxtails</em></dd><dt>Countability</dt><dd>countable, and uncountable as food</dd></dl>
+<p>The tail of a cow, cut into pieces and cooked slowly.</p>
+<ol><li><em>Oxtail</em> stew takes all afternoon and it's worth it.</li><li>She browned the <em>oxtails</em> before adding the stock.</li><li><em>Oxtail</em> used to be cheap and now it isn't.</li></ol>
+<hr>
+<h3 id="giblets">giblets<a class="hash" href="#giblets" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/ˈdʒɪbləts/ &middot; <em>JIB-lits</em></dd><dt>Русский</dt><dd>потроха (птичьи)</dd><dt>Plural</dt><dd><em>giblets</em></dd><dt>Countability</dt><dd>countable</dd><dt>Contrast</dt><dd>The g is soft — JIB-lits, not "GIB-lits". Almost always used in the plural.</dd></dl>
+<p>The heart, liver, and gizzard of a bird, packed separately inside it.</p>
+<ol><li>Don't forget to pull the <em>giblets</em> out before roasting the turkey.</li><li>She uses the <em>giblets</em> to make gravy.</li><li>The <em>giblets</em> come in a little paper bag.</li></ol>
+<hr>
+<h3 id="offal">offal<a class="hash" href="#offal" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/ˈɔːfəl/ &middot; <em>AW-fuhl</em></dd><dt>Русский</dt><dd>субпродукты, потроха</dd><dt>Countability</dt><dd>uncountable</dd><dt>Contrast</dt><dd>Sounds just like "awful" — AW-fuhl. Context is the only thing that separates them.</dd></dl>
+<p>The internal organs of an animal used as food.</p>
+<ol><li>Nose-to-tail restaurants put a lot of <em>offal</em> on the menu.</li><li><em>Offal</em> is cheap, nutritious, and unpopular.</li><li>He grew up eating <em>offal</em> and doesn't think twice about it.</li></ol>
+<hr>
+<h3 id="salami">salami<a class="hash" href="#salami" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/səˈlɑːmi/ &middot; <em>suh-LAH-mee</em></dd><dt>Русский</dt><dd>салями</dd><dt>Plural</dt><dd><em>salamis</em></dd><dt>Countability</dt><dd>countable, and uncountable as food</dd></dl>
+<p>A hard, spiced, dry-cured sausage eaten in thin slices.</p>
+<ol><li>Put a little <em>salami</em> on the cheese board.</li><li>They hang the <em>salamis</em> in the back of the shop.</li><li>He built a sandwich out of <em>salami</em>, provolone, and hot peppers.</li></ol>
+<hr>
+<h3 id="pepperoni">pepperoni<a class="hash" href="#pepperoni" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/ˌpepəˈroʊni/ &middot; <em>peh-puh-ROH-nee</em></dd><dt>Русский</dt><dd>пепперони</dd><dt>Countability</dt><dd>uncountable</dd></dl>
+<p>A spicy dry sausage, sliced thin and used mainly on pizza.</p>
+<ol><li>Half <em>pepperoni</em>, half mushroom.</li><li>The <em>pepperoni</em> curled up into little cups in the oven.</li><li>He picks the <em>pepperoni</em> off and eats it first.</li></ol>
+<hr>
+<h3 id="prosciutto">prosciutto<a class="hash" href="#prosciutto" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/prəˈʃuːtoʊ/ &middot; <em>pruh-SHOO-toh</em></dd><dt>Русский</dt><dd>прошутто (сыровяленый окорок)</dd><dt>Countability</dt><dd>uncountable</dd><dt>Contrast</dt><dd>The sci is one sh sound — pruh-SHOO-toh, never "pros-kee-OO-toh".</dd></dl>
+<p>Italian dry-cured ham served in very thin slices.</p>
+<ol><li>Wrap the melon in <em>prosciutto</em>.</li><li>Good <em>prosciutto</em> is worth the money.</li><li>She laid the <em>prosciutto</em> over the top of the pizza after it came out.</li></ol>
+<hr>
+<h3 id="pastrami">pastrami<a class="hash" href="#pastrami" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/pəˈstrɑːmi/ &middot; <em>puh-STRAH-mee</em></dd><dt>Русский</dt><dd>пастрами</dd><dt>Countability</dt><dd>uncountable</dd></dl>
+<p>Beef that has been brined, coated in spices, smoked, and steamed.</p>
+<ol><li><em>Pastrami</em> on rye with a pickle.</li><li>That deli piles the <em>pastrami</em> four inches high.</li><li>The <em>pastrami</em> was still warm when they sliced it.</li></ol>
+<hr>
+<h3 id="bologna">bologna<a class="hash" href="#bologna" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/bəˈloʊni/ &middot; <em>buh-LOH-nee</em></dd><dt>Русский</dt><dd>варёная колбаса (типа докторской)</dd><dt>Countability</dt><dd>uncountable</dd><dt>Contrast</dt><dd>Written -gna but said "-ny": buh-LOH-nee, rhyming with "pony". Often respelled "baloney".</dd></dl>
+<p>A soft, mild, finely ground sausage sold in round slices for sandwiches.</p>
+<ol><li>I ate a <em>bologna</em> sandwich every day in third grade.</li><li>Fried <em>bologna</em> is better than it sounds.</li><li>There's a pack of <em>bologna</em> in the meat drawer.</li></ol>
+<hr>
+<h3 id="jerky">jerky<a class="hash" href="#jerky" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/ˈdʒɜːrki/ &middot; <em>JUR-kee</em></dd><dt>Русский</dt><dd>вяленое мясо, джерки</dd><dt>Countability</dt><dd>uncountable</dd></dl>
+<p>Meat cut into strips, seasoned, and dried so it keeps for a long time.</p>
+<ol><li>I threw some <em>jerky</em> in my backpack for the hike.</li><li>Beef <em>jerky</em> costs a fortune at gas stations.</li><li>He makes his own <em>jerky</em> in a dehydrator.</li></ol>
+<hr>
+<h3 id="chorizo">chorizo<a class="hash" href="#chorizo" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/tʃəˈriːzoʊ/ &middot; <em>chuh-REE-zoh</em></dd><dt>Русский</dt><dd>чоризо (острая колбаса)</dd><dt>Countability</dt><dd>uncountable</dd></dl>
+<p>A spicy pork sausage seasoned heavily with paprika or chili.</p>
+<ol><li>Crumble the <em>chorizo</em> into the pan with the eggs.</li><li>There's <em>chorizo</em> in the tacos, so they're pretty spicy.</li><li>The <em>chorizo</em> left a layer of red oil in the skillet.</li></ol>
+<hr>
+<h3 id="bratwurst">bratwurst<a class="hash" href="#bratwurst" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/ˈbrɑːtwɜːrst/ &middot; <em>BRAHT-wurst</em></dd><dt>Русский</dt><dd>братвурст (жареная колбаска)</dd><dt>Plural</dt><dd><em>bratwursts</em></dd><dt>Countability</dt><dd>countable</dd><dt>Contrast</dt><dd>In English the w is a normal w — BRAHT-wurst, not the German "v" sound.</dd></dl>
+<p>A fresh German-style pork sausage, usually grilled.</p>
+<ol><li>He grilled <em>bratwursts</em> and served them with mustard.</li><li>One <em>bratwurst</em> split open on the grill.</li><li>The stand sells <em>bratwurst</em> and beer, and that's it.</li></ol>
+<hr>
+<h3 id="duck">duck<a class="hash" href="#duck" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/dʌk/ &middot; <em>DUK</em></dd><dt>Русский</dt><dd>утка (мясо утки)</dd><dt>Plural</dt><dd><em>ducks</em></dd><dt>Countability</dt><dd>countable, and uncountable as food</dd></dl>
+<p>A water bird eaten as food, or its rich dark meat.</p>
+<ol><li>The roast <em>duck</em> was the best thing on the table.</li><li><em>Duck</em> has a lot more fat than chicken.</li><li>They ordered two <em>ducks</em> for the party.</li></ol>
+<hr>
+<h3 id="rabbit">rabbit<a class="hash" href="#rabbit" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/ˈræbɪt/ &middot; <em>RA-bit</em></dd><dt>Русский</dt><dd>кролик, крольчатина</dd><dt>Plural</dt><dd><em>rabbits</em></dd><dt>Countability</dt><dd>countable, and uncountable as food</dd></dl>
+<p>A small long-eared animal, or its lean pale meat.</p>
+<ol><li><em>Rabbit</em> tastes a lot like chicken, honestly.</li><li>The stew was made with two <em>rabbits</em> and a lot of wine.</li><li>You can't buy <em>rabbit</em> at most American supermarkets.</li></ol>
+<hr>
+<h3 id="shellfish">shellfish<a class="hash" href="#shellfish" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/ˈʃelfɪʃ/ &middot; <em>SHEL-fish</em></dd><dt>Русский</dt><dd>моллюски и ракообразные</dd><dt>Plural</dt><dd><em>shellfish</em></dd><dt>Countability</dt><dd>countable</dd><dt>Contrast</dt><dd>The plural is <em>shellfish</em>, unchanged — never "shellfishes".</dd></dl>
+<p>A sea creature with a shell, such as a crab, clam, or lobster, eaten as food.</p>
+<ol><li>He has a <em>shellfish</em> allergy, so no crab cakes.</li><li>The <em>shellfish</em> were harvested that morning.</li><li>Steam the <em>shellfish</em> just until they open.</li></ol>
+<hr>
+<h3 id="lobster">lobster<a class="hash" href="#lobster" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/ˈlɑːbstər/ &middot; <em>LAHB-stur</em></dd><dt>Русский</dt><dd>омар, лобстер</dd><dt>Plural</dt><dd><em>lobsters</em></dd><dt>Countability</dt><dd>countable, and uncountable as food</dd></dl>
+<p>A large sea creature with claws, eaten as food.</p>
+<ol><li>We split a <em>lobster</em> and a bottle of white wine.</li><li>The <em>lobsters</em> were still in the tank.</li><li><em>Lobster</em> used to be considered poor people's food.</li></ol>
+<hr>
+<h3 id="crab">crab<a class="hash" href="#crab" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/kræb/ &middot; <em>KRAB</em></dd><dt>Русский</dt><dd>краб</dd><dt>Plural</dt><dd><em>crabs</em></dd><dt>Countability</dt><dd>countable, and uncountable as food</dd></dl>
+<p>A sea creature with a flat shell and claws, eaten as food.</p>
+<ol><li>We caught a dozen <em>crabs</em> off the pier.</li><li>The <em>crab</em> cakes here are mostly filler.</li><li>Fresh <em>crab</em> is worth the mess.</li></ol>
+<hr>
+<h3 id="oyster">oyster<a class="hash" href="#oyster" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/ˈɔɪstər/ &middot; <em>OY-stur</em></dd><dt>Русский</dt><dd>устрица</dd><dt>Plural</dt><dd><em>oysters</em></dd><dt>Countability</dt><dd>countable</dd></dl>
+<p>A shellfish with a rough shell, usually eaten raw.</p>
+<ol><li>A dozen <em>oysters</em> on the half shell, please.</li><li>He swallowed the <em>oyster</em> whole and made a face.</li><li>The <em>oysters</em> were briny and ice cold.</li></ol>
+<hr>
+<h3 id="clam">clam<a class="hash" href="#clam" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/klæm/ &middot; <em>KLAM</em></dd><dt>Русский</dt><dd>двустворчатый моллюск, клем</dd><dt>Plural</dt><dd><em>clams</em></dd><dt>Countability</dt><dd>countable</dd></dl>
+<p>A shellfish with two hinged shells, eaten steamed, fried, or in soup.</p>
+<ol><li>We dug <em>clams</em> on the beach at low tide.</li><li>Throw out any <em>clam</em> that won't open.</li><li>The chowder had almost no <em>clams</em> in it.</li></ol>
+<hr>
+<h3 id="mussel">mussel<a class="hash" href="#mussel" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/ˈmʌsəl/ &middot; <em>MUH-suhl</em></dd><dt>Русский</dt><dd>мидия</dd><dt>Plural</dt><dd><em>mussels</em></dd><dt>Countability</dt><dd>countable</dd><dt>Contrast</dt><dd>Sounds exactly like "muscle" (мышца) — MUH-suhl, and the c in "muscle" is silent.</dd></dl>
+<p>A small shellfish with a dark blue-black shell, usually steamed.</p>
+<ol><li>Steam the <em>mussels</em> in white wine and garlic.</li><li>Every <em>mussel</em> opened except two.</li><li>They serve <em>mussels</em> with fries, Belgian style.</li></ol>
+<hr>
+<h3 id="scallop">scallop<a class="hash" href="#scallop" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/ˈskɑːləp/ &middot; <em>SKAH-luhp</em></dd><dt>Русский</dt><dd>морской гребешок</dd><dt>Plural</dt><dd><em>scallops</em></dd><dt>Countability</dt><dd>countable</dd><dt>Contrast</dt><dd>Two pronunciations are both standard in the US: SKAH-luhp and SKAL-uhp.</dd></dl>
+<p>A shellfish with a fan-shaped shell, of which the round white muscle is eaten.</p>
+<ol><li>Sear the <em>scallops</em> about ninety seconds a side.</li><li>One <em>scallop</em> was still cold in the middle.</li><li><em>Scallops</em> go rubbery the second you overcook them.</li></ol>
+<hr>
+<h3 id="prawn">prawn<a class="hash" href="#prawn" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/prɔːn/ &middot; <em>PRAWN</em></dd><dt>Русский</dt><dd>креветка (крупная)</dd><dt>Plural</dt><dd><em>prawns</em></dd><dt>Countability</dt><dd>countable</dd><dt>Contrast</dt><dd>Americans say "shrimp" for almost everything; <em>prawn</em> is much more common in British and Australian English.</dd></dl>
+<p>A shellfish like a large shrimp, eaten as food.</p>
+<ol><li>The curry came with four enormous <em>prawns</em>.</li><li>He peeled the <em>prawn</em> and ate it in one bite.</li><li>Grilled <em>prawns</em> were the best thing we ate all trip.</li></ol>
+<hr>
+<h3 id="crawfish">crawfish<a class="hash" href="#crawfish" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/ˈkrɔːfɪʃ/ &middot; <em>KRAW-fish</em></dd><dt>Русский</dt><dd>речной рак</dd><dt>Plural</dt><dd><em>crawfish</em></dd><dt>Countability</dt><dd>countable</dd><dt>Contrast</dt><dd>Also spelled "crayfish"; the plural stays <em>crawfish</em>, with no -es.</dd></dl>
+<p>A small freshwater shellfish that looks like a tiny lobster.</p>
+<ol><li>They boiled forty pounds of <em>crawfish</em> for the party.</li><li>You suck the head and eat the tail of the <em>crawfish</em>.</li><li><em>Crawfish</em> season runs through the spring down there.</li></ol>
+<hr>
+<h3 id="anchovy">anchovy<a class="hash" href="#anchovy" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/ˈæntʃoʊvi/ &middot; <em>AN-choh-vee</em></dd><dt>Русский</dt><dd>анчоус</dd><dt>Plural</dt><dd><em>anchovies</em></dd><dt>Countability</dt><dd>countable</dd><dt>Contrast</dt><dd>Stress can fall either way in the US: AN-choh-vee and an-CHOH-vee are both heard.</dd></dl>
+<p>A very small, strongly salted fish, usually sold packed in oil.</p>
+<ol><li>Two <em>anchovies</em> melted into the sauce add a lot of depth.</li><li>She ordered the Caesar without <em>anchovy</em>.</li><li>There's a tin of <em>anchovies</em> in the back of the cabinet.</li></ol>
+<hr>
+<h3 id="sardine">sardine<a class="hash" href="#sardine" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/sɑːrˈdiːn/ &middot; <em>sar-DEEN</em></dd><dt>Русский</dt><dd>сардина</dd><dt>Plural</dt><dd><em>sardines</em></dd><dt>Countability</dt><dd>countable</dd><dt>Contrast</dt><dd>Stress falls on the second syllable: sar-DEEN, not "SAR-deen".</dd></dl>
+<p>A small oily fish, usually sold canned.</p>
+<ol><li>He eats <em>sardines</em> on toast for lunch.</li><li>The can held six <em>sardines</em> in olive oil.</li><li>One <em>sardine</em> has more calcium than you'd think.</li></ol>
+<hr>
+<h3 id="halibut">halibut<a class="hash" href="#halibut" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/ˈhæləbət/ &middot; <em>HA-luh-buht</em></dd><dt>Русский</dt><dd>палтус</dd><dt>Plural</dt><dd><em>halibut</em></dd><dt>Countability</dt><dd>countable, and uncountable as food</dd><dt>Contrast</dt><dd>The plural is usually <em>halibut</em>, unchanged.</dd></dl>
+<p>A very large flatfish with firm white meat.</p>
+<ol><li>The <em>halibut</em> was grilled with lemon and butter.</li><li>They pulled in two <em>halibut</em> that morning.</li><li><em>Halibut</em> is expensive but almost impossible to ruin.</li></ol>
+<hr>
+<h3 id="tilapia">tilapia<a class="hash" href="#tilapia" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/tɪˈlɑːpiə/ &middot; <em>tih-LAH-pee-uh</em></dd><dt>Русский</dt><dd>тиляпия</dd><dt>Plural</dt><dd><em>tilapia</em></dd><dt>Countability</dt><dd>countable, and uncountable as food</dd></dl>
+<p>A mild white farmed fish, sold cheaply as fillets.</p>
+<ol><li><em>Tilapia</em> is the cheapest fish at our store.</li><li>She baked the <em>tilapia</em> with breadcrumbs on top.</li><li>Two <em>tilapia</em> fillets feed the whole family.</li></ol>
+<hr>
+<h3 id="catfish">catfish<a class="hash" href="#catfish" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/ˈkætfɪʃ/ &middot; <em>KAT-fish</em></dd><dt>Русский</dt><dd>сом</dd><dt>Plural</dt><dd><em>catfish</em></dd><dt>Countability</dt><dd>countable, and uncountable as food</dd><dt>Contrast</dt><dd>The plural is <em>catfish</em>, unchanged.</dd></dl>
+<p>A freshwater fish with long feelers around its mouth, often fried.</p>
+<ol><li>Fried <em>catfish</em> and hush puppies is a Friday tradition.</li><li>He caught three <em>catfish</em> off the dock.</li><li><em>Catfish</em> has a muddier flavor than tilapia.</li></ol>
+<hr>
+<h3 id="flounder">flounder<a class="hash" href="#flounder" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/ˈflaʊndər/ &middot; <em>FLOWN-dur</em></dd><dt>Русский</dt><dd>камбала</dd><dt>Plural</dt><dd><em>flounder</em></dd><dt>Countability</dt><dd>countable, and uncountable as food</dd><dt>Contrast</dt><dd>The plural is <em>flounder</em>, unchanged. Don't confuse it with the verb "to flounder" (барахтаться).</dd></dl>
+<p>A flat fish that lies on the sea floor, with delicate white meat.</p>
+<ol><li>The <em>flounder</em> was so thin it cooked in four minutes.</li><li>They were catching <em>flounder</em> right off the beach.</li><li><em>Flounder</em> falls apart if you flip it too much.</li></ol>
+<hr>
+<h3 id="snapper">snapper<a class="hash" href="#snapper" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/ˈsnæpər/ &middot; <em>SNA-pur</em></dd><dt>Русский</dt><dd>луциан, снэппер (рыба)</dd><dt>Plural</dt><dd><em>snapper</em></dd><dt>Countability</dt><dd>countable, and uncountable as food</dd></dl>
+<p>A warm-water fish with firm meat, often served whole.</p>
+<ol><li>The red <em>snapper</em> came out whole with the head on.</li><li>They were selling <em>snapper</em> right off the boat.</li><li><em>Snapper</em> holds up well on the grill.</li></ol>
+<hr>
+<h3 id="grouper">grouper<a class="hash" href="#grouper" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/ˈɡruːpər/ &middot; <em>GROO-pur</em></dd><dt>Русский</dt><dd>групер (рыба)</dd><dt>Plural</dt><dd><em>grouper</em></dd><dt>Countability</dt><dd>countable, and uncountable as food</dd></dl>
+<p>A large warm-water fish with thick white meat.</p>
+<ol><li>A blackened <em>grouper</em> sandwich is the move down there.</li><li><em>Grouper</em> is meaty enough to hold together in a stew.</li><li>He hooked a <em>grouper</em> big enough to fill the cooler.</li></ol>
+<hr>
+<h3 id="eel">eel<a class="hash" href="#eel" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/iːl/ &middot; <em>EEL</em></dd><dt>Русский</dt><dd>угорь</dd><dt>Plural</dt><dd><em>eels</em></dd><dt>Countability</dt><dd>countable, and uncountable as food</dd></dl>
+<p>A long snake-like fish, often served grilled or smoked.</p>
+<ol><li>Grilled <em>eel</em> over rice is worth trying at least once.</li><li>The tank at the market was full of live <em>eels</em>.</li><li>Smoked <em>eel</em> is much fattier than I expected.</li></ol>
+<hr>
+<h3 id="caviar">caviar<a class="hash" href="#caviar" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/ˈkæviɑːr/ &middot; <em>KA-vee-ar</em></dd><dt>Русский</dt><dd>икра (осетровая, зернистая)</dd><dt>Countability</dt><dd>uncountable</dd></dl>
+<p>Salted fish eggs, especially from sturgeon, eaten as a delicacy.</p>
+<ol><li>They served <em>caviar</em> on tiny blini.</li><li>A spoonful of <em>caviar</em> costs more than the whole meal.</li><li>Real <em>caviar</em> should taste of the sea, not of salt.</li></ol>
+<hr>
+<h3 id="roe">roe<a class="hash" href="#roe" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/roʊ/ &middot; <em>ROH</em></dd><dt>Русский</dt><dd>икра (рыбья)</dd><dt>Countability</dt><dd>uncountable</dd><dt>Contrast</dt><dd>Sounds exactly like "row" (ряд) — ROH.</dd></dl>
+<p>The mass of eggs inside a female fish, eaten as food.</p>
+<ol><li>The sushi was topped with orange <em>roe</em>.</li><li>Salmon <em>roe</em> pops when you bite it.</li><li>They sell the <em>roe</em> separately from the fish.</li></ol>
+<hr>
+<h3 id="calamari">calamari<a class="hash" href="#calamari" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/ˌkɑːləˈmɑːri/ &middot; <em>kah-luh-MAH-ree</em></dd><dt>Русский</dt><dd>кальмары (как блюдо)</dd><dt>Countability</dt><dd>uncountable</dd></dl>
+<p>Squid served as food, usually cut into rings and fried.</p>
+<ol><li>We started with fried <em>calamari</em>.</li><li>The <em>calamari</em> was chewy and under-seasoned.</li><li>Their <em>calamari</em> comes with marinara on the side.</li></ol>
+<hr>
+<h3 id="lox">lox<a class="hash" href="#lox" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/lɑːks/ &middot; <em>LAHKS</em></dd><dt>Русский</dt><dd>слабосолёный лосось</dd><dt>Countability</dt><dd>uncountable</dd><dt>Contrast</dt><dd>Sounds exactly like "locks" (замки) — LAHKS.</dd></dl>
+<p>Salt-cured salmon, sliced thin and usually eaten on a bagel.</p>
+<ol><li>A bagel with cream cheese and <em>lox</em>, please.</li><li>The <em>lox</em> was sliced so thin you could see through it.</li><li>He'd never had <em>lox</em> until he moved to New York.</li></ol>
+<hr>
+<h3 id="fish-stick">fish stick<a class="hash" href="#fish-stick" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/ˈfɪʃ stɪk/ &middot; <em>FISH-stik</em></dd><dt>Русский</dt><dd>рыбная палочка</dd><dt>Plural</dt><dd><em>fish sticks</em></dd><dt>Countability</dt><dd>countable</dd><dt>Contrast</dt><dd>Called "fish fingers" in British English.</dd></dl>
+<p>A small rectangular piece of breaded fish, sold frozen.</p>
+<ol><li>Dinner was <em>fish sticks</em> and ketchup again.</li><li>He ate every <em>fish stick</em> on the plate but no vegetables.</li><li>There's a bag of <em>fish sticks</em> in the freezer.</li></ol>
+<hr>
+<h3 id="buttermilk">buttermilk<a class="hash" href="#buttermilk" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/ˈbʌtərmɪlk/ &middot; <em>BUH-tur-milk</em></dd><dt>Русский</dt><dd>пахта</dd><dt>Countability</dt><dd>uncountable</dd></dl>
+<p>The tangy liquid left after churning butter, or a cultured drink like it.</p>
+<ol><li>Soak the chicken in <em>buttermilk</em> overnight.</li><li><em>Buttermilk</em> is what makes these pancakes fluffy.</li><li>If you don't have <em>buttermilk</em>, add lemon juice to milk.</li></ol>
+<hr>
+<h3 id="curd">curd<a class="hash" href="#curd" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/kɜːrd/ &middot; <em>KURD</em></dd><dt>Русский</dt><dd>творожное зерно, сгусток (при производстве сыра)</dd><dt>Plural</dt><dd><em>curds</em></dd><dt>Countability</dt><dd>countable, and uncountable as food</dd></dl>
+<p>The soft solid part that separates from milk when it sours or is treated.</p>
+<ol><li>Cheese <em>curds</em> squeak when they're fresh.</li><li>The <em>curd</em> is cut and drained before pressing.</li><li>Poutine is fries, gravy, and cheese <em>curds</em>.</li></ol>
+<hr>
+<h3 id="whey">whey<a class="hash" href="#whey" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/weɪ/ &middot; <em>WAY</em></dd><dt>Русский</dt><dd>молочная сыворотка</dd><dt>Countability</dt><dd>uncountable</dd><dt>Contrast</dt><dd>Sounds exactly like "way" (путь) — WAY.</dd></dl>
+<p>The watery liquid left when milk separates into curds.</p>
+<ol><li>Drain off the <em>whey</em> and keep the solids.</li><li><em>Whey</em> protein is in almost every shake on the shelf.</li><li>There was a thin layer of <em>whey</em> on top of the yogurt.</li></ol>
+<hr>
+<h3 id="mozzarella">mozzarella<a class="hash" href="#mozzarella" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/ˌmɑːtsəˈrelə/ &middot; <em>mah-tsuh-REH-luh</em></dd><dt>Русский</dt><dd>моцарелла</dd><dt>Countability</dt><dd>uncountable</dd><dt>Contrast</dt><dd>The zz is a ts sound — mah-tsuh-REH-luh, not "moz-uh-REL-uh".</dd></dl>
+<p>A soft white Italian cheese that melts and stretches when heated.</p>
+<ol><li>Fresh <em>mozzarella</em> with tomatoes and basil, that's the whole dish.</li><li>The <em>mozzarella</em> browned in spots under the broiler.</li><li>Buy the <em>mozzarella</em> packed in water, not the shredded kind.</li></ol>
+<hr>
+<h3 id="ricotta">ricotta<a class="hash" href="#ricotta" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/rɪˈkɑːtə/ &middot; <em>rih-KAH-tuh</em></dd><dt>Русский</dt><dd>рикотта</dd><dt>Countability</dt><dd>uncountable</dd></dl>
+<p>A soft, mild, grainy white cheese made from whey.</p>
+<ol><li>Spread the <em>ricotta</em> between the layers of lasagna.</li><li><em>Ricotta</em> on toast with honey is a great breakfast.</li><li>The filling is <em>ricotta</em>, egg, and a lot of parsley.</li></ol>
+<hr>
+<h3 id="feta">feta<a class="hash" href="#feta" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/ˈfetə/ &middot; <em>FEH-tuh</em></dd><dt>Русский</dt><dd>фета (сыр)</dd><dt>Countability</dt><dd>uncountable</dd></dl>
+<p>A salty white cheese, traditionally Greek, that crumbles easily.</p>
+<ol><li>Crumble some <em>feta</em> over the salad.</li><li>The <em>feta</em> comes in brine, so drain it first.</li><li><em>Feta</em> is salty enough that you can skip the salt.</li></ol>
+<hr>
+<h3 id="goat-cheese">goat cheese<a class="hash" href="#goat-cheese" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/ˈɡoʊt tʃiːz/ &middot; <em>GOHT-cheez</em></dd><dt>Русский</dt><dd>козий сыр</dd><dt>Countability</dt><dd>uncountable</dd></dl>
+<p>Soft tangy cheese made from goat's milk.</p>
+<ol><li>The beet salad had <em>goat cheese</em> on it.</li><li><em>Goat cheese</em> is easier on my stomach than regular cheese.</li><li>Spread the <em>goat cheese</em> on while the toast is still warm.</li></ol>
+<hr>
+<h3 id="blue-cheese">blue cheese<a class="hash" href="#blue-cheese" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/ˈbluː tʃiːz/ &middot; <em>BLOO-cheez</em></dd><dt>Русский</dt><dd>сыр с плесенью, голубой сыр</dd><dt>Countability</dt><dd>uncountable</dd></dl>
+<p>Strong-smelling cheese streaked with blue-green mold.</p>
+<ol><li>Wings come with ranch or <em>blue cheese</em>.</li><li>The <em>blue cheese</em> was so strong it took over the salad.</li><li>He put <em>blue cheese</em> on the burger, which I'd never tried before.</li></ol>
+<hr>
+<h3 id="cottage-cheese">cottage cheese<a class="hash" href="#cottage-cheese" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/ˈkɑːtɪdʒ tʃiːz/ &middot; <em>KAH-tij-cheez</em></dd><dt>Русский</dt><dd>зернёный творог</dd><dt>Countability</dt><dd>uncountable</dd></dl>
+<p>A soft white cheese of loose curds, eaten fresh.</p>
+<ol><li>She eats <em>cottage cheese</em> with pineapple.</li><li>There's a tub of <em>cottage cheese</em> behind the milk.</li><li><em>Cottage cheese</em> is having a comeback for some reason.</li></ol>
+<hr>
+<h3 id="cream-cheese">cream cheese<a class="hash" href="#cream-cheese" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/ˈkriːm tʃiːz/ &middot; <em>KREEM-cheez</em></dd><dt>Русский</dt><dd>сливочный сыр</dd><dt>Countability</dt><dd>uncountable</dd></dl>
+<p>A soft, mild, spreadable cheese made from cream and milk.</p>
+<ol><li>Just a little <em>cream cheese</em> on the bagel, not a mountain of it.</li><li>Let the <em>cream cheese</em> come to room temperature first.</li><li>The frosting is butter, sugar, and <em>cream cheese</em>.</li></ol>
+<hr>
+<h3 id="sour-cream">sour cream<a class="hash" href="#sour-cream" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/ˌsaʊrr ˈkriːm/ &middot; <em>sow-ur-KREEM</em></dd><dt>Русский</dt><dd>сметана</dd><dt>Countability</dt><dd>uncountable</dd></dl>
+<p>Cream that has been soured with bacteria to make it thick and tangy.</p>
+<ol><li>Put a spoonful of <em>sour cream</em> on the chili.</li><li>We're out of <em>sour cream</em> — use yogurt.</li><li>The baked potato came loaded with <em>sour cream</em> and chives.</li></ol>
+<hr>
+<h3 id="whipped-cream">whipped cream<a class="hash" href="#whipped-cream" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/ˌwɪpt ˈkriːm/ &middot; <em>wipt-KREEM</em></dd><dt>Русский</dt><dd>взбитые сливки</dd><dt>Countability</dt><dd>uncountable</dd></dl>
+<p>Cream beaten until it holds soft peaks, usually sweetened.</p>
+<ol><li>Do you want <em>whipped cream</em> on that?</li><li>She made the <em>whipped cream</em> by hand, which took forever.</li><li>The pie was covered in <em>whipped cream</em>.</li></ol>
+<hr>
+<h3 id="half-and-half">half-and-half<a class="hash" href="#half-and-half" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/ˌhæf ən ˈhæf/ &middot; <em>haf-uhn-HAF</em></dd><dt>Русский</dt><dd>сливки пополам с молоком (для кофе)</dd><dt>Countability</dt><dd>uncountable</dd><dt>Contrast</dt><dd>An American product; British and Australian speakers usually just say "single cream" or "milk".</dd></dl>
+<p>A mix of equal parts milk and cream, used mainly in coffee.</p>
+<ol><li>There's <em>half-and-half</em> in the fridge if you want it.</li><li>He takes his coffee black, no <em>half-and-half</em>.</li><li>The diner puts little cups of <em>half-and-half</em> on every table.</li></ol>
+<hr>
+<h3 id="creamer">creamer<a class="hash" href="#creamer" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/ˈkriːmər/ &middot; <em>KREE-mur</em></dd><dt>Русский</dt><dd>сливки для кофе (в т. ч. сухие)</dd><dt>Countability</dt><dd>uncountable</dd></dl>
+<p>A liquid or powder added to coffee in place of cream.</p>
+<ol><li>The office only has powdered <em>creamer</em>.</li><li>She uses vanilla <em>creamer</em> in everything.</li><li>We're out of <em>creamer</em> again.</li></ol>
+<hr>
+<h3 id="gelato">gelato<a class="hash" href="#gelato" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/dʒəˈlɑːtoʊ/ &middot; <em>juh-LAH-toh</em></dd><dt>Русский</dt><dd>джелато (итальянское мороженое)</dd><dt>Countability</dt><dd>uncountable</dd><dt>Contrast</dt><dd>The g is soft — juh-LAH-toh, not "guh-LAH-toh".</dd></dl>
+<p>Italian-style frozen dessert, denser and less fatty than ice cream.</p>
+<ol><li>The <em>gelato</em> place on the corner stays open until midnight.</li><li><em>Gelato</em> is softer than ice cream because it's served warmer.</li><li>She got pistachio <em>gelato</em> and finished it in about a minute.</li></ol>
+<hr>
+<h3 id="custard">custard<a class="hash" href="#custard" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/ˈkʌstərd/ &middot; <em>KUH-sturd</em></dd><dt>Русский</dt><dd>заварной крем</dd><dt>Plural</dt><dd><em>custards</em></dd><dt>Countability</dt><dd>countable, and uncountable as food</dd></dl>
+<p>A thick sweet mixture of milk or cream cooked with eggs.</p>
+<ol><li>The tart was filled with a vanilla <em>custard</em>.</li><li>Stir the <em>custard</em> constantly or it will scramble.</li><li>Frozen <em>custard</em> is richer than soft serve.</li></ol>
+<hr>
+<h3 id="kefir">kefir<a class="hash" href="#kefir" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/kəˈfɪr/ &middot; <em>kuh-FEER</em></dd><dt>Русский</dt><dd>кефир</dd><dt>Countability</dt><dd>uncountable</dd><dt>Contrast</dt><dd>In American English the stress falls on the second syllable: kuh-FEER.</dd></dl>
+<p>A tangy fermented milk drink, thinner than yogurt.</p>
+<ol><li>He drinks a glass of <em>kefir</em> every morning.</li><li><em>Kefir</em> is thinner than yogurt and a lot more sour.</li><li>They sell plain and strawberry <em>kefir</em> at the co-op.</li></ol>
+<hr>
+<h3 id="margarine">margarine<a class="hash" href="#margarine" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/ˈmɑːrdʒərɪn/ &middot; <em>MAR-juh-rin</em></dd><dt>Русский</dt><dd>маргарин</dd><dt>Countability</dt><dd>uncountable</dd><dt>Contrast</dt><dd>The g is soft — MAR-juh-rin, even though the spelling says "gar".</dd></dl>
+<p>A butter substitute made from vegetable oil.</p>
+<ol><li>My grandmother baked with <em>margarine</em> her whole life.</li><li>This says butter, but you can use <em>margarine</em>.</li><li><em>Margarine</em> doesn't brown the way butter does.</li></ol>
+<hr>
+<h3 id="lard">lard<a class="hash" href="#lard" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/lɑːrd/ &middot; <em>LARD</em></dd><dt>Русский</dt><dd>смалец, топлёный свиной жир</dd><dt>Countability</dt><dd>uncountable</dd></dl>
+<p>Soft white fat rendered from a pig, used for cooking and baking.</p>
+<ol><li>Real tamales are made with <em>lard</em>.</li><li><em>Lard</em> makes the flakiest pie crust there is.</li><li>She keeps a tub of <em>lard</em> by the stove.</li></ol>
+<hr>
+<h3 id="lactose">lactose<a class="hash" href="#lactose" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/ˈlæktoʊs/ &middot; <em>LAK-tohs</em></dd><dt>Русский</dt><dd>лактоза (молочный сахар)</dd><dt>Countability</dt><dd>uncountable</dd></dl>
+<p>The natural sugar found in milk.</p>
+<ol><li>He can't digest <em>lactose</em>, so he drinks oat milk.</li><li>Aged cheeses have very little <em>lactose</em> left in them.</li><li>The label says the <em>lactose</em> has been removed.</li></ol>
+<hr>
+<h3 id="yolk">yolk<a class="hash" href="#yolk" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/joʊk/ &middot; <em>YOHK</em></dd><dt>Русский</dt><dd>желток</dd><dt>Plural</dt><dd><em>yolks</em></dd><dt>Countability</dt><dd>countable</dd><dt>Contrast</dt><dd>The l is silent — YOHK, sounding exactly like "yoke" (ярмо).</dd></dl>
+<p>The round yellow center of an egg.</p>
+<ol><li>The <em>yolk</em> was still runny, exactly right.</li><li>Separate the <em>yolks</em> from the whites.</li><li>He broke the <em>yolk</em> trying to flip it.</li></ol>
+<hr>
+<h3 id="egg-white">egg white<a class="hash" href="#egg-white" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/ˈeɡ waɪt/ &middot; <em>EG-wite</em></dd><dt>Русский</dt><dd>яичный белок</dd><dt>Plural</dt><dd><em>egg whites</em></dd><dt>Countability</dt><dd>countable</dd></dl>
+<p>The clear part of an egg that turns white when cooked.</p>
+<ol><li>He orders an <em>egg white</em> omelet every time.</li><li>Beat the <em>egg whites</em> until they hold peaks.</li><li>One <em>egg white</em> has almost no fat in it.</li></ol>
+<hr>
+<h3 id="eggshell">eggshell<a class="hash" href="#eggshell" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/ˈeɡʃel/ &middot; <em>EG-shel</em></dd><dt>Русский</dt><dd>яичная скорлупа</dd><dt>Plural</dt><dd><em>eggshells</em></dd><dt>Countability</dt><dd>countable</dd></dl>
+<p>The thin hard outer covering of an egg.</p>
+<ol><li>There's a piece of <em>eggshell</em> in the batter.</li><li>She puts crushed <em>eggshells</em> in the garden.</li><li>The <em>eggshell</em> cracked but the egg didn't break.</li></ol>
+<hr>
+<h3 id="meringue">meringue<a class="hash" href="#meringue" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/məˈræŋ/ &middot; <em>muh-RANG</em></dd><dt>Русский</dt><dd>безе, меренга</dd><dt>Plural</dt><dd><em>meringues</em></dd><dt>Countability</dt><dd>countable, and uncountable as food</dd><dt>Contrast</dt><dd>The -gue is silent: muh-RANG, rhyming with "rang".</dd></dl>
+<p>Egg whites beaten with sugar and baked until crisp or lightly browned.</p>
+<ol><li>The lemon pie had two inches of <em>meringue</em> on top.</li><li>She piped the <em>meringues</em> onto parchment paper.</li><li><em>Meringue</em> weeps if you make it on a humid day.</li></ol>
+<hr>
+<h3 id="quiche">quiche<a class="hash" href="#quiche" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/kiːʃ/ &middot; <em>KEESH</em></dd><dt>Русский</dt><dd>киш (открытый пирог с яйцом)</dd><dt>Plural</dt><dd><em>quiches</em></dd><dt>Countability</dt><dd>countable, and uncountable as food</dd><dt>Contrast</dt><dd>One syllable, KEESH, despite the French spelling.</dd></dl>
+<p>An open pastry shell filled with a baked mixture of eggs and cream.</p>
+<ol><li>She brought a <em>quiche</em> to the brunch.</li><li>The <em>quiche</em> is better at room temperature.</li><li>They had two <em>quiches</em> left at the end of the day.</li></ol></div></main>
+<button class="themebtn" id="themeBtn">Dark</button>
+<script>
+const tb=document.getElementById('themeBtn');
+function setTheme(x){document.documentElement.dataset.theme=x;tb.textContent=x==='dark'?'Light':'Dark';
+ try{localStorage.setItem('site-theme',x)}catch(e){}}
+tb.onclick=()=>setTheme(document.documentElement.dataset.theme==='dark'?'light':'dark');
+try{const s=localStorage.getItem('site-theme');
+ setTheme(s||(matchMedia('(prefers-color-scheme: dark)').matches?'dark':'light'))}catch(e){setTheme('light')}
+</script></body></html>

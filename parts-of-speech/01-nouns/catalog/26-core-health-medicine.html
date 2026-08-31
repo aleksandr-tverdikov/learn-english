@@ -1,0 +1,691 @@
+<!DOCTYPE html>
+<html lang="en"><head>
+<meta charset="utf-8"><meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Core vocabulary: health and medicine</title>
+<style>
+:root{--bg:#faf9f7;--surface:#fff;--surface2:#f2f0ec;--border:#e2ded6;--text:#1a1815;
+--dim:#5f594f;--faint:#8a8377;--accent:#8a5a3b;--measure:72ch}
+@media(prefers-color-scheme:dark){:root{--bg:#14140f;--surface:#1d1d17;--surface2:#25251d;
+--border:#33332a;--text:#eeeae1;--dim:#a8a293;--faint:#7d776b;--accent:#d09b72}}
+:root[data-theme=dark]{--bg:#14140f;--surface:#1d1d17;--surface2:#25251d;--border:#33332a;
+--text:#eeeae1;--dim:#a8a293;--faint:#7d776b;--accent:#d09b72}
+:root[data-theme=light]{--bg:#faf9f7;--surface:#fff;--surface2:#f2f0ec;--border:#e2ded6;
+--text:#1a1815;--dim:#5f594f;--faint:#8a8377;--accent:#8a5a3b}
+*{box-sizing:border-box}
+body{margin:0;background:var(--bg);color:var(--text);
+font:17px/1.72 ui-serif,Georgia,"Iowan Old Style",Palatino,serif;-webkit-font-smoothing:antialiased}
+.wrap{max-width:min(var(--measure),100%);margin:0 auto;padding:0 22px}
+nav.crumb{border-bottom:1px solid var(--border);padding:13px 0;font-size:13.5px;
+font-family:-apple-system,BlinkMacSystemFont,"Segoe UI",sans-serif;position:sticky;top:0;background:var(--bg);z-index:20}
+nav.crumb .wrap{max-width:none;display:flex;gap:9px;align-items:center;flex-wrap:wrap}
+nav.crumb a{color:var(--dim);text-decoration:none}
+nav.crumb a:hover{color:var(--accent)}
+nav.crumb .sep{color:var(--faint)}
+main{padding:8px 0 80px}
+h1{font-size:clamp(28px,5vw,38px);line-height:1.15;letter-spacing:-.015em;margin:34px 0 18px}
+h2{font-size:25px;margin:46px 0 14px;letter-spacing:-.01em;padding-bottom:7px;border-bottom:1px solid var(--border)}
+h3{font-size:19px;margin:34px 0 10px;color:var(--accent)}
+h4{font-size:16px;margin:24px 0 8px;font-family:-apple-system,sans-serif}
+p{margin:0 0 16px}
+a{color:var(--accent)}
+.hash{opacity:0;margin-left:8px;font-weight:400;font-size:.65em;text-decoration:none;color:var(--faint)}
+h2:hover .hash,h3:hover .hash{opacity:1}
+blockquote{margin:0 0 20px;padding:14px 18px;background:var(--surface2);
+border-left:3px solid var(--accent);border-radius:0 8px 8px 0}
+blockquote p:last-child{margin-bottom:0}
+ol,ul{margin:0 0 18px;padding-left:26px}
+li{margin-bottom:8px}
+li>ul,li>ol{margin:8px 0 0}
+code{font-family:ui-monospace,SFMono-Regular,Menlo,Consolas,monospace;font-size:.87em;
+background:var(--surface2);padding:1px 5px;border-radius:4px}
+pre{background:var(--surface2);border:1px solid var(--border);border-radius:9px;
+padding:15px 17px;overflow-x:auto;margin:0 0 20px}
+pre code{background:none;padding:0;font-size:13px;line-height:1.6}
+.tw{overflow-x:auto;margin:0 0 22px;border:1px solid var(--border);border-radius:9px}
+table{border-collapse:collapse;width:100%;font-size:15px;
+font-family:-apple-system,BlinkMacSystemFont,"Segoe UI",sans-serif}
+th,td{padding:10px 14px;border-bottom:1px solid var(--border);vertical-align:top}
+th{background:var(--surface2);font-size:12px;text-transform:uppercase;
+letter-spacing:.06em;color:var(--dim);font-weight:700;white-space:nowrap}
+tbody tr:last-child td{border-bottom:none}
+hr{border:none;border-top:1px solid var(--border);margin:38px 0}
+details{background:var(--surface2);border:1px solid var(--border);border-radius:9px;
+padding:13px 17px;margin:0 0 20px}
+summary{cursor:pointer;font-weight:600;font-family:-apple-system,sans-serif;font-size:15px}
+details[open] summary{margin-bottom:12px}
+del{color:var(--faint)}
+dl.fields{margin:0 0 20px;padding:0}
+dl.fields dt{font-family:-apple-system,BlinkMacSystemFont,"Segoe UI",sans-serif;
+font-size:11px;letter-spacing:.11em;text-transform:uppercase;color:var(--faint);
+font-weight:700;margin:14px 0 4px}
+dl.fields dt:first-child{margin-top:0}
+dl.fields dd{margin:0;font-size:16px;color:var(--dim);line-height:1.62}
+dl.fields dd em{color:var(--text)}
+dl.fields dt.ru{color:var(--accent)}
+dl.fields dd strong{color:var(--text)}
+.toc{background:var(--surface2);border:1px solid var(--border);border-radius:10px;
+padding:16px 20px;margin:26px 0 34px;font-family:-apple-system,sans-serif;font-size:14px}
+.toc b{display:block;font-size:11px;letter-spacing:.12em;text-transform:uppercase;
+color:var(--faint);margin-bottom:9px}
+.toc a{display:block;padding:3px 0;color:var(--dim);text-decoration:none}
+.toc a:hover{color:var(--accent)}
+.themebtn{position:fixed;right:18px;bottom:18px;z-index:60;font-family:-apple-system,sans-serif;
+font-size:12.5px;font-weight:600;cursor:pointer;background:var(--surface);border:1px solid var(--border);
+border-radius:99px;padding:9px 16px;color:var(--text)}
+@media(max-width:600px){body{font-size:16px}.wrap{padding:0 17px}}
+</style></head><body>
+<nav class="crumb"><div class="wrap"><a href="../../../index.html">Learn English</a><span class="sep">/</span><a href="../../README.html">Parts of speech</a><span class="sep">/</span><a href="../README.html">01-nouns</a><span class="sep">/</span><span>catalog</span></div></nav>
+<main><div class="wrap"><h1 id="core-vocabulary-health-and-medicine">Core vocabulary: health and medicine<a class="hash" href="#core-vocabulary-health-and-medicine" aria-label="link">#</a></h1>
+<blockquote><p>The everyday nouns of health and medicine — pronunciation, Russian, plural, and three examples each.</p></blockquote>
+<p><a href="../README.html">← The grammar of nouns</a> &middot; <a href="README.html">All groups</a></p>
+<p>Part of the <strong>core-vocabulary tier</strong>. Groups 1–23 cover the nouns that misbehave; this tier covers the nouns you simply need to know. Entries are deliberately lean, because a regular countable noun has no grammatical story to tell. A <strong>Contrast</strong> line appears only where the word hides a genuine trap.</p>
+<p>Where a word in this field <em>does</em> misbehave, it lives in the grammar tier instead and is not repeated here.</p>
+<hr>
+<h3 id="disease">disease<a class="hash" href="#disease" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/dɪˈziːz/ &middot; <em>dih-ZEEZ</em></dd><dt>Русский</dt><dd>болезнь, заболевание</dd><dt>Plural</dt><dd><em>diseases</em></dd><dt>Countability</dt><dd>countable</dd></dl>
+<p>A specific illness that harms the body, often with a known cause.</p>
+<ol><li>Heart <em>disease</em> runs in his family.</li><li>The vaccine wiped out a <em>disease</em> that used to kill thousands.</li><li>Doctors are still learning how these <em>diseases</em> spread.</li></ol>
+<hr>
+<h3 id="illness">illness<a class="hash" href="#illness" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/ˈɪlnəs/ &middot; <em>IL-nuhs</em></dd><dt>Русский</dt><dd>болезнь, недомогание</dd><dt>Plural</dt><dd><em>illnesses</em></dd><dt>Countability</dt><dd>countable</dd></dl>
+<p>The state of being sick, or a particular sickness.</p>
+<ol><li>She missed three weeks of work because of <em>illness</em>.</li><li>It started as a mild <em>illness</em> and turned into something serious.</li><li>Mental <em>illnesses</em> are far more common than people think.</li></ol>
+<hr>
+<h3 id="infection">infection<a class="hash" href="#infection" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/ɪnˈfekʃən/ &middot; <em>in-FEK-shuhn</em></dd><dt>Русский</dt><dd>инфекция, воспаление</dd><dt>Plural</dt><dd><em>infections</em></dd><dt>Countability</dt><dd>countable</dd></dl>
+<p>An illness caused by germs getting into the body.</p>
+<ol><li>The cut got dirty and turned into an <em>infection</em>.</li><li>She is on antibiotics for a sinus <em>infection</em>.</li><li>Ear <em>infections</em> are really common in toddlers.</li></ol>
+<hr>
+<h3 id="flu">flu<a class="hash" href="#flu" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/fluː/ &middot; <em>FLOO</em></dd><dt>Русский</dt><dd>грипп</dd><dt>Countability</dt><dd>uncountable</dd></dl>
+<p>A common viral illness with fever, aches, and a cough.</p>
+<ol><li>Half the office is out with the <em>flu</em>.</li><li>I get a <em>flu</em> shot every October.</li><li>He came down with the <em>flu</em> right before the wedding.</li></ol>
+<hr>
+<h3 id="cold">cold<a class="hash" href="#cold" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/koʊld/ &middot; <em>KOHLD</em></dd><dt>Русский</dt><dd>простуда</dd><dt>Plural</dt><dd><em>colds</em></dd><dt>Countability</dt><dd>countable</dd></dl>
+<p>A mild illness that gives you a runny nose and a sore throat.</p>
+<ol><li>I have had this <em>cold</em> for almost two weeks.</li><li>Do not kiss the baby if you are catching a <em>cold</em>.</li><li>Kids pick up six or seven <em>colds</em> a year.</li></ol>
+<hr>
+<h3 id="fever">fever<a class="hash" href="#fever" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/ˈfiːvər/ &middot; <em>FEE-vur</em></dd><dt>Русский</dt><dd>жар, повышенная температура</dd><dt>Plural</dt><dd><em>fevers</em></dd><dt>Countability</dt><dd>countable</dd></dl>
+<p>A body temperature higher than normal, usually caused by illness.</p>
+<ol><li>She is running a <em>fever</em> of 102.</li><li>Give him this if the <em>fever</em> does not break by morning.</li><li>High <em>fevers</em> in small children can be scary.</li></ol>
+<hr>
+<h3 id="cough">cough<a class="hash" href="#cough" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/kɔːf/ &middot; <em>KAWF</em></dd><dt>Русский</dt><dd>кашель</dd><dt>Plural</dt><dd><em>coughs</em></dd><dt>Countability</dt><dd>countable</dd><dt>Contrast</dt><dd>The gh is pronounced /f/ — <em>cough</em> rhymes with <em>off</em>, not with <em>dough</em> or <em>through</em>.</dd></dl>
+<p>A sudden noisy push of air from the lungs.</p>
+<ol><li>That <em>cough</em> has been hanging on since January.</li><li>He woke up with a dry <em>cough</em> and a sore throat.</li><li>Take something for the <em>cough</em> before bed.</li></ol>
+<hr>
+<h3 id="headache">headache<a class="hash" href="#headache" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/ˈhedeɪk/ &middot; <em>HED-ayk</em></dd><dt>Русский</dt><dd>головная боль</dd><dt>Plural</dt><dd><em>headaches</em></dd><dt>Countability</dt><dd>countable</dd><dt>Contrast</dt><dd>The -ache ending is /eɪk/, never /eɪtʃ/ — HED-ayk.</dd></dl>
+<p>A pain in the head.</p>
+<ol><li>I have got a splitting <em>headache</em>.</li><li>Skipping coffee gives me a <em>headache</em> by noon.</li><li>Her <em>headaches</em> got better once she started sleeping more.</li></ol>
+<hr>
+<h3 id="stomachache">stomachache<a class="hash" href="#stomachache" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/ˈstʌməkeɪk/ &middot; <em>STUH-muhk-ayk</em></dd><dt>Русский</dt><dd>боль в животе</dd><dt>Plural</dt><dd><em>stomachaches</em></dd><dt>Countability</dt><dd>countable</dd><dt>Contrast</dt><dd>The ch in <em>stomach</em> is /k/ and the first vowel is /ʌ/ — STUH-muhk, not STOH-match.</dd></dl>
+<p>A pain in the belly.</p>
+<ol><li>He stayed home from school with a <em>stomachache</em>.</li><li>That much ice cream will give you a <em>stomachache</em>.</li><li>She gets <em>stomachaches</em> whenever she is nervous.</li></ol>
+<hr>
+<h3 id="sore">sore<a class="hash" href="#sore" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/sɔːr/ &middot; <em>SOR</em></dd><dt>Русский</dt><dd>болячка, язвочка</dd><dt>Plural</dt><dd><em>sores</em></dd><dt>Countability</dt><dd>countable</dd></dl>
+<p>A small painful spot on the skin that is infected or has not healed.</p>
+<ol><li>The bandage rubbed a <em>sore</em> onto his heel.</li><li>Cold <em>sores</em> always show up at the worst time.</li><li>Keep the <em>sore</em> clean and covered.</li></ol>
+<hr>
+<h3 id="rash">rash<a class="hash" href="#rash" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/ræʃ/ &middot; <em>RASH</em></dd><dt>Русский</dt><dd>сыпь</dd><dt>Plural</dt><dd><em>rashes</em></dd><dt>Countability</dt><dd>countable</dd></dl>
+<p>An area of red, irritated spots on the skin.</p>
+<ol><li>The antibiotic gave her a <em>rash</em> all over her arms.</li><li>That <em>rash</em> looks like poison ivy.</li><li>Diaper <em>rashes</em> clear up fast with the right cream.</li></ol>
+<hr>
+<h3 id="allergy">allergy<a class="hash" href="#allergy" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/ˈælərdʒi/ &middot; <em>AL-ur-jee</em></dd><dt>Русский</dt><dd>аллергия</dd><dt>Plural</dt><dd><em>allergies</em></dd><dt>Countability</dt><dd>countable</dd><dt>Contrast</dt><dd>Stress moves in the adjective: AL-ur-jee, but uh-LUR-jik (<em>allergic</em>).</dd></dl>
+<p>A harmful reaction of the body to something that is normally harmless.</p>
+<ol><li>He has a peanut <em>allergy</em>, so read the label.</li><li>My <em>allergies</em> are brutal every spring.</li><li>Do you have any <em>allergies</em> we should know about?</li></ol>
+<hr>
+<h3 id="asthma">asthma<a class="hash" href="#asthma" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/ˈæzmə/ &middot; <em>AZ-muh</em></dd><dt>Русский</dt><dd>астма</dd><dt>Countability</dt><dd>uncountable</dd><dt>Contrast</dt><dd>The th is silent — AZ-muh, not AZ-thmuh.</dd></dl>
+<p>A condition that narrows the airways and makes breathing hard.</p>
+<ol><li>Cold air sets off his <em>asthma</em>.</li><li>She has had <em>asthma</em> since she was a kid.</li><li>Keep the inhaler handy in case the <em>asthma</em> flares up.</li></ol>
+<hr>
+<h3 id="cancer">cancer<a class="hash" href="#cancer" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/ˈkænsər/ &middot; <em>KAN-sur</em></dd><dt>Русский</dt><dd>рак (болезнь)</dd><dt>Countability</dt><dd>uncountable</dd></dl>
+<p>A disease in which abnormal cells grow out of control.</p>
+<ol><li>Her mother beat <em>cancer</em> twice.</li><li>Smoking is the leading cause of lung <em>cancer</em>.</li><li>He was treated for <em>cancer</em> last spring.</li></ol>
+<hr>
+<h3 id="pneumonia">pneumonia<a class="hash" href="#pneumonia" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/nuˈmoʊnjə/ &middot; <em>noo-MOHN-yuh</em></dd><dt>Русский</dt><dd>пневмония, воспаление лёгких</dd><dt>Countability</dt><dd>uncountable</dd><dt>Contrast</dt><dd>The p is silent — noo-MOHN-yuh.</dd></dl>
+<p>A serious infection that fills the lungs with fluid.</p>
+<ol><li>The flu turned into <em>pneumonia</em>.</li><li>He spent a week in the hospital with <em>pneumonia</em>.</li><li><em>Pneumonia</em> is especially dangerous for the elderly.</li></ol>
+<hr>
+<h3 id="diarrhea">diarrhea<a class="hash" href="#diarrhea" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/ˌdaɪrˈriːə/ &middot; <em>dy-uh-REE-uh</em></dd><dt>Русский</dt><dd>диарея, понос</dd><dt>Countability</dt><dd>uncountable</dd><dt>Contrast</dt><dd>Spelled <em>diarrhea</em> in the US, <em>diarrhoea</em> in Britain.</dd></dl>
+<p>Frequent, loose bowel movements.</p>
+<ol><li>The medication gave him <em>diarrhea</em> for two days.</li><li>Travelers often get <em>diarrhea</em> the first week abroad.</li><li>Drink plenty of water if you have <em>diarrhea</em>.</li></ol>
+<hr>
+<h3 id="nausea">nausea<a class="hash" href="#nausea" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/ˈnɔːziə/ &middot; <em>NAW-zee-uh</em></dd><dt>Русский</dt><dd>тошнота</dd><dt>Countability</dt><dd>uncountable</dd></dl>
+<p>The sick feeling you get just before you might throw up.</p>
+<ol><li>The <em>nausea</em> hit her about an hour after the treatment.</li><li>Take it with food to cut down on <em>nausea</em>.</li><li>He felt a wave of <em>nausea</em> on the boat.</li></ol>
+<hr>
+<h3 id="cramp">cramp<a class="hash" href="#cramp" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/kræmp/ &middot; <em>KRAMP</em></dd><dt>Русский</dt><dd>судорога, спазм</dd><dt>Plural</dt><dd><em>cramps</em></dd><dt>Countability</dt><dd>countable</dd></dl>
+<p>A sudden painful tightening of a muscle.</p>
+<ol><li>I got a <em>cramp</em> in my calf halfway through the race.</li><li>She gets bad <em>cramps</em> the first day of her period.</li><li>Stretch it out and the <em>cramp</em> will pass.</li></ol>
+<hr>
+<h3 id="bruise">bruise<a class="hash" href="#bruise" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/bruːz/ &middot; <em>BROOZ</em></dd><dt>Русский</dt><dd>синяк, ушиб</dd><dt>Plural</dt><dd><em>bruises</em></dd><dt>Countability</dt><dd>countable</dd><dt>Contrast</dt><dd>The ui is just /uː/ — BROOZ rhymes with <em>cruise</em>.</dd></dl>
+<p>A dark mark on the skin where blood has collected after a blow.</p>
+<ol><li>He came home with a nasty <em>bruise</em> on his shin.</li><li>The <em>bruise</em> turned yellow after a few days.</li><li>She had <em>bruises</em> up and down both arms.</li></ol>
+<hr>
+<h3 id="wound">wound<a class="hash" href="#wound" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/wuːnd/ &middot; <em>WOOND</em></dd><dt>Русский</dt><dd>рана</dd><dt>Plural</dt><dd><em>wounds</em></dd><dt>Countability</dt><dd>countable</dd><dt>Contrast</dt><dd>The noun is WOOND; the identical spelling said /waʊnd/ (rhyming with <em>found</em>) is the past tense of <em>wind</em>.</dd></dl>
+<p>An injury in which the skin is cut or torn open.</p>
+<ol><li>The <em>wound</em> needed eight stitches.</li><li>Keep the <em>wound</em> dry for the first day.</li><li>Most of his <em>wounds</em> healed without scarring.</li></ol>
+<hr>
+<h3 id="injury">injury<a class="hash" href="#injury" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/ˈɪndʒəri/ &middot; <em>IN-juh-ree</em></dd><dt>Русский</dt><dd>травма, повреждение</dd><dt>Plural</dt><dd><em>injuries</em></dd><dt>Countability</dt><dd>countable</dd></dl>
+<p>Physical harm done to the body.</p>
+<ol><li>A knee <em>injury</em> ended his season.</li><li>She walked away from the crash with minor <em>injuries</em>.</li><li>The helmet prevented a much worse <em>injury</em>.</li></ol>
+<hr>
+<h3 id="burn">burn<a class="hash" href="#burn" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/bɜːrn/ &middot; <em>BURN</em></dd><dt>Русский</dt><dd>ожог</dd><dt>Plural</dt><dd><em>burns</em></dd><dt>Countability</dt><dd>countable</dd></dl>
+<p>An injury caused by heat, fire, or chemicals.</p>
+<ol><li>He got a nasty <em>burn</em> from the oven rack.</li><li>Run cold water over the <em>burn</em>.</li><li>The <em>burns</em> on her hands took months to heal.</li></ol>
+<hr>
+<h3 id="fracture">fracture<a class="hash" href="#fracture" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/ˈfræktʃər/ &middot; <em>FRAK-chur</em></dd><dt>Русский</dt><dd>перелом, трещина в кости</dd><dt>Plural</dt><dd><em>fractures</em></dd><dt>Countability</dt><dd>countable</dd></dl>
+<p>A crack or break in a bone.</p>
+<ol><li>The X-ray showed a hairline <em>fracture</em>.</li><li>She has a <em>fracture</em> in her left wrist.</li><li>Stress <em>fractures</em> are common among runners.</li></ol>
+<hr>
+<h3 id="sprain">sprain<a class="hash" href="#sprain" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/spreɪn/ &middot; <em>SPRAYN</em></dd><dt>Русский</dt><dd>растяжение связок</dd><dt>Plural</dt><dd><em>sprains</em></dd><dt>Countability</dt><dd>countable</dd></dl>
+<p>An injury from twisting a joint too far.</p>
+<ol><li>It is just a <em>sprain</em>, not a break.</li><li>He is out two weeks with an ankle <em>sprain</em>.</li><li>Bad <em>sprains</em> can hurt worse than fractures.</li></ol>
+<hr>
+<h3 id="scar">scar<a class="hash" href="#scar" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/skɑːr/ &middot; <em>SKAHR</em></dd><dt>Русский</dt><dd>шрам, рубец</dd><dt>Plural</dt><dd><em>scars</em></dd><dt>Countability</dt><dd>countable</dd></dl>
+<p>The mark left on the skin after a wound heals.</p>
+<ol><li>He still has a <em>scar</em> above his eyebrow.</li><li>The surgery left a thin <em>scar</em>.</li><li>Her <em>scars</em> have faded a lot over the years.</li></ol>
+<hr>
+<h3 id="blister">blister<a class="hash" href="#blister" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/ˈblɪstər/ &middot; <em>BLIS-tur</em></dd><dt>Русский</dt><dd>волдырь, мозоль</dd><dt>Plural</dt><dd><em>blisters</em></dd><dt>Countability</dt><dd>countable</dd></dl>
+<p>A small bubble of fluid under the skin caused by rubbing or burning.</p>
+<ol><li>My new boots gave me a <em>blister</em>.</li><li>Do not pop the <em>blister</em> or it will get infected.</li><li>She had <em>blisters</em> on both heels after the hike.</li></ol>
+<hr>
+<h3 id="swelling">swelling<a class="hash" href="#swelling" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/ˈswelɪŋ/ &middot; <em>SWEL-ing</em></dd><dt>Русский</dt><dd>отёк, припухлость</dd><dt>Countability</dt><dd>uncountable</dd></dl>
+<p>An abnormal increase in the size of part of the body.</p>
+<ol><li>Ice will bring the <em>swelling</em> down.</li><li>There is still some <em>swelling</em> around the ankle.</li><li>The <em>swelling</em> went away after a couple of days.</li></ol>
+<hr>
+<h3 id="stroke">stroke<a class="hash" href="#stroke" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/stroʊk/ &middot; <em>STROHK</em></dd><dt>Русский</dt><dd>инсульт</dd><dt>Plural</dt><dd><em>strokes</em></dd><dt>Countability</dt><dd>countable</dd></dl>
+<p>A sudden loss of blood flow to the brain that damages it.</p>
+<ol><li>Her grandfather had a <em>stroke</em> last year.</li><li>He is relearning to walk after the <em>stroke</em>.</li><li>High blood pressure raises the risk of <em>strokes</em>.</li></ol>
+<hr>
+<h3 id="seizure">seizure<a class="hash" href="#seizure" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/ˈsiːʒər/ &middot; <em>SEE-zhur</em></dd><dt>Русский</dt><dd>припадок, судорожный приступ</dd><dt>Plural</dt><dd><em>seizures</em></dd><dt>Countability</dt><dd>countable</dd></dl>
+<p>A sudden burst of abnormal electrical activity in the brain.</p>
+<ol><li>He had a <em>seizure</em> in the parking lot.</li><li>The new medication cut her <em>seizures</em> in half.</li><li>Roll the person onto their side during a <em>seizure</em>.</li></ol>
+<hr>
+<h3 id="depression">depression<a class="hash" href="#depression" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/dɪˈpreʃən/ &middot; <em>dih-PRESH-uhn</em></dd><dt>Русский</dt><dd>депрессия</dd><dt>Countability</dt><dd>uncountable</dd></dl>
+<p>A mental illness marked by lasting sadness and loss of interest.</p>
+<ol><li>She has been in therapy for <em>depression</em> since college.</li><li><em>Depression</em> is not the same thing as a bad week.</li><li>Exercise helps his <em>depression</em> more than anything else.</li></ol>
+<hr>
+<h3 id="anxiety">anxiety<a class="hash" href="#anxiety" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/æŋˈzaɪrti/ &middot; <em>ang-ZY-uh-tee</em></dd><dt>Русский</dt><dd>тревога, тревожность</dd><dt>Countability</dt><dd>uncountable</dd><dt>Contrast</dt><dd>The x sounds like /ɡz/ — ang-ZY-uh-tee, not ank-SY-uh-tee.</dd></dl>
+<p>A strong, ongoing feeling of worry or fear.</p>
+<ol><li>Flying gives him serious <em>anxiety</em>.</li><li>She takes something for <em>anxiety</em> before presentations.</li><li><em>Anxiety</em> kept him up most of the night.</li></ol>
+<hr>
+<h3 id="addiction">addiction<a class="hash" href="#addiction" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/əˈdɪkʃən/ &middot; <em>uh-DIK-shuhn</em></dd><dt>Русский</dt><dd>зависимость, привыкание</dd><dt>Plural</dt><dd><em>addictions</em></dd><dt>Countability</dt><dd>countable</dd></dl>
+<p>A condition in which a person cannot stop using something harmful.</p>
+<ol><li>He is in recovery from a painkiller <em>addiction</em>.</li><li><em>Addiction</em> runs in some families.</li><li>The clinic treats all kinds of <em>addictions</em>.</li></ol>
+<hr>
+<h3 id="insomnia">insomnia<a class="hash" href="#insomnia" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/ɪnˈsɑːmniə/ &middot; <em>in-SAHM-nee-uh</em></dd><dt>Русский</dt><dd>бессонница</dd><dt>Countability</dt><dd>uncountable</dd></dl>
+<p>Ongoing difficulty falling asleep or staying asleep.</p>
+<ol><li>Her <em>insomnia</em> got worse after the move.</li><li>He has tried everything for <em>insomnia</em>.</li><li>Caffeine after four o'clock guarantees <em>insomnia</em>.</li></ol>
+<hr>
+<h3 id="migraine">migraine<a class="hash" href="#migraine" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/ˈmaɪɡreɪn/ &middot; <em>MY-grayn</em></dd><dt>Русский</dt><dd>мигрень</dd><dt>Plural</dt><dd><em>migraines</em></dd><dt>Countability</dt><dd>countable</dd><dt>Contrast</dt><dd>Americans say MY-grayn; the British often say MEE-grayn.</dd></dl>
+<p>A severe headache, often with nausea and sensitivity to light.</p>
+<ol><li>She had to lie down in the dark with a <em>migraine</em>.</li><li>Bright screens trigger his <em>migraines</em>.</li><li>A <em>migraine</em> can knock you out for a whole day.</li></ol>
+<hr>
+<h3 id="ulcer">ulcer<a class="hash" href="#ulcer" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/ˈʌlsər/ &middot; <em>UL-sur</em></dd><dt>Русский</dt><dd>язва</dd><dt>Plural</dt><dd><em>ulcers</em></dd><dt>Countability</dt><dd>countable</dd></dl>
+<p>A raw sore in the lining of the stomach or on the skin.</p>
+<ol><li>Stress did not cause the <em>ulcer</em> — a bacterium did.</li><li>He is on medication for a stomach <em>ulcer</em>.</li><li><em>Ulcers</em> can bleed if they are left untreated.</li></ol>
+<hr>
+<h3 id="tumor">tumor<a class="hash" href="#tumor" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/ˈtuːmər/ &middot; <em>TOO-mur</em></dd><dt>Русский</dt><dd>опухоль</dd><dt>Plural</dt><dd><em>tumors</em></dd><dt>Countability</dt><dd>countable</dd><dt>Contrast</dt><dd>Spelled <em>tumor</em> in the US, <em>tumour</em> in Britain.</dd></dl>
+<p>A lump formed by cells growing where they should not.</p>
+<ol><li>The scan found a small <em>tumor</em> on her kidney.</li><li>Most breast <em>tumors</em> turn out to be benign.</li><li>Surgeons removed the <em>tumor</em> on Tuesday.</li></ol>
+<hr>
+<h3 id="inflammation">inflammation<a class="hash" href="#inflammation" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/ˌɪnfləˈmeɪʃən/ &middot; <em>in-fluh-MAY-shuhn</em></dd><dt>Русский</dt><dd>воспаление</dd><dt>Countability</dt><dd>uncountable</dd><dt>Contrast</dt><dd>The verb is <em>inflame</em> (in-FLAYM), but the noun shifts the stress: in-fluh-MAY-shuhn.</dd></dl>
+<p>Redness, heat, and swelling in a part of the body that is hurt or infected.</p>
+<ol><li>The pills bring down <em>inflammation</em> in the joints.</li><li>There is some <em>inflammation</em> in his throat.</li><li>Chronic <em>inflammation</em> damages tissue over time.</li></ol>
+<hr>
+<h3 id="symptom">symptom<a class="hash" href="#symptom" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/ˈsɪmptəm/ &middot; <em>SIMP-tuhm</em></dd><dt>Русский</dt><dd>симптом, признак болезни</dd><dt>Plural</dt><dd><em>symptoms</em></dd><dt>Countability</dt><dd>countable</dd></dl>
+<p>A sign in the body that shows a disease is present.</p>
+<ol><li>A dry cough was the first <em>symptom</em>.</li><li>Call us if the <em>symptoms</em> get worse.</li><li>She had every <em>symptom</em> except the fever.</li></ol>
+<hr>
+<h3 id="syndrome">syndrome<a class="hash" href="#syndrome" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/ˈsɪndroʊm/ &middot; <em>SIN-drohm</em></dd><dt>Русский</dt><dd>синдром</dd><dt>Plural</dt><dd><em>syndromes</em></dd><dt>Countability</dt><dd>countable</dd></dl>
+<p>A set of symptoms that regularly occur together.</p>
+<ol><li>Typing all day gave him carpal tunnel <em>syndrome</em>.</li><li>The <em>syndrome</em> was first described in the 1960s.</li><li>Several rare <em>syndromes</em> share the same gene.</li></ol>
+<hr>
+<h3 id="epidemic">epidemic<a class="hash" href="#epidemic" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/ˌepɪˈdemɪk/ &middot; <em>ep-ih-DEM-ik</em></dd><dt>Русский</dt><dd>эпидемия</dd><dt>Plural</dt><dd><em>epidemics</em></dd><dt>Countability</dt><dd>countable</dd></dl>
+<p>A fast spread of a disease through many people in one area.</p>
+<ol><li>The city is dealing with an opioid <em>epidemic</em>.</li><li>A measles <em>epidemic</em> closed two schools.</li><li>Public health workers track <em>epidemics</em> in real time.</li></ol>
+<hr>
+<h3 id="chickenpox">chickenpox<a class="hash" href="#chickenpox" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/ˈtʃɪkɪnpɑːks/ &middot; <em>CHIK-in-pahks</em></dd><dt>Русский</dt><dd>ветряная оспа, ветрянка</dd><dt>Countability</dt><dd>uncountable</dd></dl>
+<p>A common childhood illness with itchy spots all over the body.</p>
+<ol><li>Both kids got <em>chickenpox</em> the same week.</li><li>There is a vaccine for <em>chickenpox</em> now.</li><li>He was covered in spots from <em>chickenpox</em>.</li></ol>
+<hr>
+<h3 id="arthritis">arthritis<a class="hash" href="#arthritis" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/ɑːrˈθraɪtɪs/ &middot; <em>ahr-THRY-tis</em></dd><dt>Русский</dt><dd>артрит</dd><dt>Countability</dt><dd>uncountable</dd></dl>
+<p>A condition causing pain and stiffness in the joints.</p>
+<ol><li><em>Arthritis</em> makes it hard for her to open jars.</li><li>He has had <em>arthritis</em> in his hands for years.</li><li>Cold weather makes the <em>arthritis</em> worse.</li></ol>
+<hr>
+<h3 id="concussion">concussion<a class="hash" href="#concussion" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/kənˈkʌʃən/ &middot; <em>kuhn-KUSH-uhn</em></dd><dt>Русский</dt><dd>сотрясение мозга</dd><dt>Plural</dt><dd><em>concussions</em></dd><dt>Countability</dt><dd>countable</dd><dt>Contrast</dt><dd>Americans say <em>get a concussion</em>; the British usually say <em>suffer concussion</em>, with no article.</dd></dl>
+<p>A brain injury caused by a blow to the head.</p>
+<ol><li>He got a <em>concussion</em> in the second quarter.</li><li>She is still recovering from a <em>concussion</em>.</li><li>Repeated <em>concussions</em> can cause lasting damage.</li></ol>
+<hr>
+<h3 id="fatigue">fatigue<a class="hash" href="#fatigue" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/fəˈtiːɡ/ &middot; <em>fuh-TEEG</em></dd><dt>Русский</dt><dd>усталость, утомляемость</dd><dt>Countability</dt><dd>uncountable</dd><dt>Contrast</dt><dd>French spelling, English stress: fuh-TEEG, ending in a hard /ɡ/.</dd></dl>
+<p>Extreme tiredness that rest does not fix.</p>
+<ol><li><em>Fatigue</em> is the most common side effect.</li><li>She is dealing with constant <em>fatigue</em>.</li><li>The <em>fatigue</em> hit him around week three.</li></ol>
+<hr>
+<h3 id="itch">itch<a class="hash" href="#itch" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/ɪtʃ/ &middot; <em>ICH</em></dd><dt>Русский</dt><dd>зуд</dd><dt>Plural</dt><dd><em>itches</em></dd><dt>Countability</dt><dd>countable</dd></dl>
+<p>An uncomfortable feeling on the skin that makes you want to scratch.</p>
+<ol><li>The cream stopped the <em>itch</em> right away.</li><li>I have got an <em>itch</em> right between my shoulder blades.</li><li>Bug bites leave an <em>itch</em> that lasts for days.</li></ol>
+<hr>
+<h3 id="sneeze">sneeze<a class="hash" href="#sneeze" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/sniːz/ &middot; <em>SNEEZ</em></dd><dt>Русский</dt><dd>чихание, чих</dd><dt>Plural</dt><dd><em>sneezes</em></dd><dt>Countability</dt><dd>countable</dd></dl>
+<p>A sudden, loud burst of air from the nose and mouth.</p>
+<ol><li>One <em>sneeze</em> and the whole room said bless you.</li><li>Cover your <em>sneezes</em> with your elbow.</li><li>A single <em>sneeze</em> can travel across a room.</li></ol>
+<hr>
+<h3 id="ache">ache<a class="hash" href="#ache" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/eɪk/ &middot; <em>AYK</em></dd><dt>Русский</dt><dd>ноющая боль</dd><dt>Plural</dt><dd><em>aches</em></dd><dt>Countability</dt><dd>countable</dd><dt>Contrast</dt><dd>The ch is /k/ — AYK rhymes with <em>cake</em>, not with <em>catch</em>.</dd></dl>
+<p>A dull pain that lasts a while.</p>
+<ol><li>There is a steady <em>ache</em> in my lower back.</li><li>The flu came with <em>aches</em> everywhere.</li><li>He felt a dull <em>ache</em> in his jaw.</li></ol>
+<hr>
+<h3 id="germ">germ<a class="hash" href="#germ" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/dʒɜːrm/ &middot; <em>JURM</em></dd><dt>Русский</dt><dd>микроб</dd><dt>Plural</dt><dd><em>germs</em></dd><dt>Countability</dt><dd>countable</dd></dl>
+<p>A tiny organism that can cause disease.</p>
+<ol><li>Wash your hands — <em>germs</em> are everywhere in daycare.</li><li>The wipes kill most <em>germs</em> on contact.</li><li>A single <em>germ</em> can multiply fast in warm food.</li></ol>
+<hr>
+<h3 id="medicine">medicine<a class="hash" href="#medicine" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/ˈmedəsən/ &middot; <em>MED-uh-sin</em></dd><dt>Русский</dt><dd>лекарство; медицина</dd><dt>Plural</dt><dd><em>medicines</em></dd><dt>Countability</dt><dd>both — countable and uncountable with different meanings</dd></dl>
+<p>A substance taken to treat illness, or the science of treating illness.</p>
+<ol><li>Did you take your <em>medicine</em> this morning?</li><li>She is studying <em>medicine</em> at a school in Boston.</li><li>Keep all <em>medicines</em> out of reach of children.</li></ol>
+<hr>
+<h3 id="medication">medication<a class="hash" href="#medication" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/ˌmedɪˈkeɪʃən/ &middot; <em>med-ih-KAY-shuhn</em></dd><dt>Русский</dt><dd>лекарство, медикамент</dd><dt>Plural</dt><dd><em>medications</em></dd><dt>Countability</dt><dd>countable</dd></dl>
+<p>A drug prescribed to treat a condition.</p>
+<ol><li>He is on three <em>medications</em> for his heart.</li><li>The <em>medication</em> made her drowsy.</li><li>Do not stop the <em>medication</em> without asking your doctor.</li></ol>
+<hr>
+<h3 id="drug">drug<a class="hash" href="#drug" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/drʌɡ/ &middot; <em>DRUG</em></dd><dt>Русский</dt><dd>лекарство; наркотик</dd><dt>Plural</dt><dd><em>drugs</em></dd><dt>Countability</dt><dd>countable</dd></dl>
+<p>A substance used as medicine, or an illegal substance taken for its effects.</p>
+<ol><li>The <em>drug</em> is still waiting on FDA approval.</li><li>He was arrested on <em>drug</em> charges.</li><li>New <em>drugs</em> have made the disease survivable.</li></ol>
+<hr>
+<h3 id="pill">pill<a class="hash" href="#pill" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/pɪl/ &middot; <em>PIL</em></dd><dt>Русский</dt><dd>таблетка</dd><dt>Plural</dt><dd><em>pills</em></dd><dt>Countability</dt><dd>countable</dd></dl>
+<p>A small solid piece of medicine that you swallow.</p>
+<ol><li>Take one <em>pill</em> with breakfast.</li><li>She hates swallowing <em>pills</em>.</li><li>There is one <em>pill</em> left in the bottle.</li></ol>
+<hr>
+<h3 id="tablet">tablet<a class="hash" href="#tablet" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/ˈtæblət/ &middot; <em>TAB-luht</em></dd><dt>Русский</dt><dd>таблетка</dd><dt>Plural</dt><dd><em>tablets</em></dd><dt>Countability</dt><dd>countable</dd></dl>
+<p>A flat, pressed piece of medicine.</p>
+<ol><li>Dissolve the <em>tablet</em> in a glass of water.</li><li>Two <em>tablets</em> every six hours.</li><li>The <em>tablet</em> has a line down the middle so you can split it.</li></ol>
+<hr>
+<h3 id="capsule">capsule<a class="hash" href="#capsule" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/ˈkæpsəl/ &middot; <em>KAP-suhl</em></dd><dt>Русский</dt><dd>капсула</dd><dt>Plural</dt><dd><em>capsules</em></dd><dt>Countability</dt><dd>countable</dd><dt>Contrast</dt><dd>Americans say KAP-suhl; the British say KAP-syool.</dd></dl>
+<p>A small container of medicine that dissolves in the stomach.</p>
+<ol><li>Each <em>capsule</em> has 500 milligrams.</li><li>Swallow the <em>capsules</em> whole — do not chew them.</li><li>He opened the <em>capsule</em> and mixed it into applesauce.</li></ol>
+<hr>
+<h3 id="dose">dose<a class="hash" href="#dose" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/doʊs/ &middot; <em>DOHS</em></dd><dt>Русский</dt><dd>доза</dd><dt>Plural</dt><dd><em>doses</em></dd><dt>Countability</dt><dd>countable</dd></dl>
+<p>The amount of medicine taken at one time.</p>
+<ol><li>Do not double the <em>dose</em> if you miss one.</li><li>The second <em>dose</em> comes three weeks later.</li><li>Kids get smaller <em>doses</em> than adults.</li></ol>
+<hr>
+<h3 id="prescription">prescription<a class="hash" href="#prescription" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/prɪˈskrɪpʃən/ &middot; <em>prih-SKRIP-shuhn</em></dd><dt>Русский</dt><dd>рецепт на лекарство</dd><dt>Plural</dt><dd><em>prescriptions</em></dd><dt>Countability</dt><dd>countable</dd><dt>Contrast</dt><dd>A medical <em>prescription</em>, not a cooking <em>recipe</em> — Russian «рецепт» covers both, English does not.</dd></dl>
+<p>A doctor's written order for a specific medicine.</p>
+<ol><li>I need to pick up a <em>prescription</em> at the pharmacy.</li><li>This is <em>prescription</em> strength, not what you buy off the shelf.</li><li>She has three <em>prescriptions</em> to refill.</li></ol>
+<hr>
+<h3 id="treatment">treatment<a class="hash" href="#treatment" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/ˈtriːtmənt/ &middot; <em>TREET-muhnt</em></dd><dt>Русский</dt><dd>лечение</dd><dt>Plural</dt><dd><em>treatments</em></dd><dt>Countability</dt><dd>countable</dd></dl>
+<p>Medical care given to cure or manage an illness.</p>
+<ol><li>She is starting <em>treatment</em> next Monday.</li><li>There are several <em>treatments</em> for this type of arthritis.</li><li>The <em>treatment</em> worked better than anyone expected.</li></ol>
+<hr>
+<h3 id="therapy">therapy<a class="hash" href="#therapy" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/ˈθerəpi/ &middot; <em>THER-uh-pee</em></dd><dt>Русский</dt><dd>терапия; психотерапия</dd><dt>Plural</dt><dd><em>therapies</em></dd><dt>Countability</dt><dd>both — countable and uncountable with different meanings</dd></dl>
+<p>Treatment for a physical problem, or regular sessions with a counselor.</p>
+<ol><li>He has been in <em>therapy</em> for about a year.</li><li>Physical <em>therapy</em> got her walking again.</li><li>New <em>therapies</em> are being tested right now.</li></ol>
+<hr>
+<h3 id="surgery">surgery<a class="hash" href="#surgery" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/ˈsɜːrdʒəri/ &middot; <em>SUR-juh-ree</em></dd><dt>Русский</dt><dd>операция, хирургическое вмешательство</dd><dt>Countability</dt><dd>uncountable</dd><dt>Contrast</dt><dd>In American English you <em>have surgery</em>, with no article — not <em>a surgery</em>.</dd></dl>
+<p>Medical treatment in which a doctor cuts into the body.</p>
+<ol><li>She is having <em>surgery</em> on Thursday.</li><li>He needed <em>surgery</em> to repair the tendon.</li><li>Recovery from <em>surgery</em> took about six weeks.</li></ol>
+<hr>
+<h3 id="operation">operation<a class="hash" href="#operation" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/ˌɑːpəˈreɪʃən/ &middot; <em>ah-puh-RAY-shuhn</em></dd><dt>Русский</dt><dd>операция</dd><dt>Plural</dt><dd><em>operations</em></dd><dt>Countability</dt><dd>countable</dd></dl>
+<p>A single act of surgery on a patient.</p>
+<ol><li>The <em>operation</em> lasted four hours.</li><li>He has had two <em>operations</em> on the same knee.</li><li>It is a routine <em>operation</em> these days.</li></ol>
+<hr>
+<h3 id="injection">injection<a class="hash" href="#injection" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/ɪnˈdʒekʃən/ &middot; <em>in-JEK-shuhn</em></dd><dt>Русский</dt><dd>укол, инъекция</dd><dt>Plural</dt><dd><em>injections</em></dd><dt>Countability</dt><dd>countable</dd></dl>
+<p>Medicine put into the body with a needle.</p>
+<ol><li>The <em>injection</em> stung for a second.</li><li>She gives herself <em>injections</em> twice a day.</li><li>One <em>injection</em> every three months keeps it under control.</li></ol>
+<hr>
+<h3 id="shot">shot<a class="hash" href="#shot" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/ʃɑːt/ &middot; <em>SHAHT</em></dd><dt>Русский</dt><dd>укол, прививка</dd><dt>Plural</dt><dd><em>shots</em></dd><dt>Countability</dt><dd>countable</dd><dt>Contrast</dt><dd>Americans get a <em>shot</em>; the British get a <em>jab</em>.</dd></dl>
+<p>The everyday American word for an injection, especially a vaccine.</p>
+<ol><li>I am getting my flu <em>shot</em> tomorrow.</li><li>The baby is due for two <em>shots</em> at this visit.</li><li>It is just one quick <em>shot</em> in the arm.</li></ol>
+<hr>
+<h3 id="vaccine">vaccine<a class="hash" href="#vaccine" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/vækˈsiːn/ &middot; <em>vak-SEEN</em></dd><dt>Русский</dt><dd>вакцина</dd><dt>Plural</dt><dd><em>vaccines</em></dd><dt>Countability</dt><dd>countable</dd><dt>Contrast</dt><dd>Americans stress the second syllable — vak-SEEN; the British say VAK-seen.</dd></dl>
+<p>A preparation that teaches the body to fight a specific disease.</p>
+<ol><li>The <em>vaccine</em> is free at most pharmacies.</li><li>Two <em>vaccines</em> are approved for that virus.</li><li>A single <em>vaccine</em> can cover several strains.</li></ol>
+<hr>
+<h3 id="vaccination">vaccination<a class="hash" href="#vaccination" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/ˌvæksəˈneɪʃən/ &middot; <em>vak-suh-NAY-shuhn</em></dd><dt>Русский</dt><dd>вакцинация, прививка</dd><dt>Plural</dt><dd><em>vaccinations</em></dd><dt>Countability</dt><dd>countable</dd></dl>
+<p>The act of giving someone a vaccine.</p>
+<ol><li>Bring your child's <em>vaccination</em> record.</li><li><em>Vaccinations</em> are required before kindergarten.</li><li>She is overdue for one <em>vaccination</em>.</li></ol>
+<hr>
+<h3 id="antibiotic">antibiotic<a class="hash" href="#antibiotic" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/ˌæntibaɪˈɑːtɪk/ &middot; <em>an-tee-by-AH-tik</em></dd><dt>Русский</dt><dd>антибиотик</dd><dt>Plural</dt><dd><em>antibiotics</em></dd><dt>Countability</dt><dd>countable</dd></dl>
+<p>A medicine that kills bacteria.</p>
+<ol><li>The doctor put him on <em>antibiotics</em> for ten days.</li><li><em>Antibiotics</em> do nothing for a virus.</li><li>Finish the whole course of the <em>antibiotic</em>.</li></ol>
+<hr>
+<h3 id="painkiller">painkiller<a class="hash" href="#painkiller" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/ˈpeɪnˌkɪlər/ &middot; <em>PAYN-kil-ur</em></dd><dt>Русский</dt><dd>обезболивающее</dd><dt>Plural</dt><dd><em>painkillers</em></dd><dt>Countability</dt><dd>countable</dd></dl>
+<p>A drug that reduces pain.</p>
+<ol><li>They sent her home with a mild <em>painkiller</em>.</li><li>He is trying to get off the <em>painkillers</em>.</li><li>One <em>painkiller</em> took the edge off.</li></ol>
+<hr>
+<h3 id="ointment">ointment<a class="hash" href="#ointment" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/ˈɔɪntmənt/ &middot; <em>OYNT-muhnt</em></dd><dt>Русский</dt><dd>мазь</dd><dt>Plural</dt><dd><em>ointments</em></dd><dt>Countability</dt><dd>countable, and uncountable as a substance</dd></dl>
+<p>A thick, greasy medicine that you rub on the skin.</p>
+<ol><li>Put a little <em>ointment</em> on the burn.</li><li>The pharmacist recommended an antibiotic <em>ointment</em>.</li><li>Both <em>ointments</em> are available over the counter.</li></ol>
+<hr>
+<h3 id="bandage">bandage<a class="hash" href="#bandage" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/ˈbændɪdʒ/ &middot; <em>BAN-dij</em></dd><dt>Русский</dt><dd>бинт, повязка</dd><dt>Plural</dt><dd><em>bandages</em></dd><dt>Countability</dt><dd>countable</dd></dl>
+<p>A strip of cloth wrapped around a wound.</p>
+<ol><li>Change the <em>bandage</em> every morning.</li><li>She wrapped a <em>bandage</em> around his ankle.</li><li>There are clean <em>bandages</em> in the cabinet.</li></ol>
+<hr>
+<h3 id="stitch">stitch<a class="hash" href="#stitch" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/stɪtʃ/ &middot; <em>STICH</em></dd><dt>Русский</dt><dd>шов (хирургический)</dd><dt>Plural</dt><dd><em>stitches</em></dd><dt>Countability</dt><dd>countable</dd></dl>
+<p>A loop of thread used to close a wound.</p>
+<ol><li>The cut took six <em>stitches</em>.</li><li>He goes back Friday to get the <em>stitches</em> out.</li><li>One <em>stitch</em> came loose overnight.</li></ol>
+<hr>
+<h3 id="transplant">transplant<a class="hash" href="#transplant" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/ˈtrænsplænt/ &middot; <em>TRANS-plant</em></dd><dt>Русский</dt><dd>пересадка органа, трансплантация</dd><dt>Plural</dt><dd><em>transplants</em></dd><dt>Countability</dt><dd>countable</dd><dt>Contrast</dt><dd>The noun stresses the first syllable — TRANS-plant; the verb is trans-PLANT.</dd></dl>
+<p>An operation that moves an organ from one body into another.</p>
+<ol><li>He has been on the list for a kidney <em>transplant</em> for two years.</li><li>The <em>transplant</em> was a success.</li><li>Heart <em>transplants</em> are far more common than they used to be.</li></ol>
+<hr>
+<h3 id="transfusion">transfusion<a class="hash" href="#transfusion" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/trænsˈfjuːʒən/ &middot; <em>trans-FYOO-zhuhn</em></dd><dt>Русский</dt><dd>переливание крови</dd><dt>Plural</dt><dd><em>transfusions</em></dd><dt>Countability</dt><dd>countable</dd></dl>
+<p>The process of putting donated blood into a patient.</p>
+<ol><li>She needed a <em>transfusion</em> after the delivery.</li><li>Two <em>transfusions</em> got his levels back to normal.</li><li>The <em>transfusion</em> takes about three hours.</li></ol>
+<hr>
+<h3 id="anesthesia">anesthesia<a class="hash" href="#anesthesia" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/ˌænəsˈθiːʒə/ &middot; <em>an-uhs-THEE-zhuh</em></dd><dt>Русский</dt><dd>наркоз, анестезия</dd><dt>Countability</dt><dd>uncountable</dd><dt>Contrast</dt><dd>American spelling <em>anesthesia</em>; the British write <em>anaesthesia</em>.</dd></dl>
+<p>Medicine that stops you from feeling pain during surgery.</p>
+<ol><li>He was under <em>anesthesia</em> for two hours.</li><li>Some people feel sick coming out of <em>anesthesia</em>.</li><li>The dentist used local <em>anesthesia</em>.</li></ol>
+<hr>
+<h3 id="recovery">recovery<a class="hash" href="#recovery" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/rɪˈkʌvəri/ &middot; <em>rih-KUV-uh-ree</em></dd><dt>Русский</dt><dd>выздоровление, восстановление</dd><dt>Plural</dt><dd><em>recoveries</em></dd><dt>Countability</dt><dd>countable</dd></dl>
+<p>The process of getting well again after illness or injury.</p>
+<ol><li>She made a full <em>recovery</em>.</li><li><em>Recovery</em> from the surgery takes about a month.</li><li>The doctors called it one of the fastest <em>recoveries</em> they had seen.</li></ol>
+<hr>
+<h3 id="cure">cure<a class="hash" href="#cure" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/kjʊr/ &middot; <em>KYOOR</em></dd><dt>Русский</dt><dd>лекарство от болезни, исцеление</dd><dt>Plural</dt><dd><em>cures</em></dd><dt>Countability</dt><dd>countable</dd></dl>
+<p>Something that makes a disease go away completely.</p>
+<ol><li>There is still no <em>cure</em> for the common cold.</li><li>Researchers are hunting for a <em>cure</em>.</li><li>Some <em>cures</em> are worse than the disease.</li></ol>
+<hr>
+<h3 id="remedy">remedy<a class="hash" href="#remedy" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/ˈremədi/ &middot; <em>REM-uh-dee</em></dd><dt>Русский</dt><dd>лечебное средство</dd><dt>Plural</dt><dd><em>remedies</em></dd><dt>Countability</dt><dd>countable</dd></dl>
+<p>A treatment, often a simple or homemade one, for a minor problem.</p>
+<ol><li>Honey and lemon is my grandmother's <em>remedy</em> for a sore throat.</li><li>Half these home <em>remedies</em> do not do anything.</li><li>The pharmacist suggested an over-the-counter <em>remedy</em>.</li></ol>
+<hr>
+<h3 id="checkup">checkup<a class="hash" href="#checkup" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/ˈtʃekʌp/ &middot; <em>CHEK-up</em></dd><dt>Русский</dt><dd>медосмотр, профилактический осмотр</dd><dt>Plural</dt><dd><em>checkups</em></dd><dt>Countability</dt><dd>countable</dd></dl>
+<p>A routine medical examination done when you are not sick.</p>
+<ol><li>I have got a <em>checkup</em> on the fifteenth.</li><li>Kids need a <em>checkup</em> before the school year starts.</li><li>He skipped his <em>checkups</em> for five years straight.</li></ol>
+<hr>
+<h3 id="appointment">appointment<a class="hash" href="#appointment" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/əˈpɔɪntmənt/ &middot; <em>uh-POYNT-muhnt</em></dd><dt>Русский</dt><dd>приём у врача, запись</dd><dt>Plural</dt><dd><em>appointments</em></dd><dt>Countability</dt><dd>countable</dd></dl>
+<p>An arranged time to see a doctor or other professional.</p>
+<ol><li>I have a doctor's <em>appointment</em> at ten.</li><li>Can I move my <em>appointment</em> to Friday?</li><li>She had three <em>appointments</em> in one week.</li></ol>
+<hr>
+<h3 id="scan">scan<a class="hash" href="#scan" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/skæn/ &middot; <em>SKAN</em></dd><dt>Русский</dt><dd>снимок, сканирование (КТ, МРТ)</dd><dt>Plural</dt><dd><em>scans</em></dd><dt>Countability</dt><dd>countable</dd></dl>
+<p>A detailed medical image of the inside of the body.</p>
+<ol><li>The <em>scan</em> came back clean.</li><li>They ordered a CT <em>scan</em> of his head.</li><li>Both <em>scans</em> showed the same thing.</li></ol>
+<hr>
+<h3 id="x-ray">X-ray<a class="hash" href="#x-ray" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/ˈeksreɪ/ &middot; <em>EKS-ray</em></dd><dt>Русский</dt><dd>рентген, рентгеновский снимок</dd><dt>Plural</dt><dd><em>X-rays</em></dd><dt>Countability</dt><dd>countable</dd></dl>
+<p>A photograph of the bones taken with special radiation.</p>
+<ol><li>The <em>X-ray</em> showed a clean break.</li><li>They took <em>X-rays</em> of both hands.</li><li>You will get the <em>X-ray</em> results this afternoon.</li></ol>
+<hr>
+<h3 id="temperature">temperature<a class="hash" href="#temperature" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/ˈtemprətʃər/ &middot; <em>TEM-pruh-chur</em></dd><dt>Русский</dt><dd>температура (тела)</dd><dt>Plural</dt><dd><em>temperatures</em></dd><dt>Countability</dt><dd>countable</dd><dt>Contrast</dt><dd>Usually squeezed to three syllables in American speech — TEM-pruh-chur, not TEM-per-uh-toor.</dd></dl>
+<p>How hot the body is, measured as a sign of health.</p>
+<ol><li>Let me take your <em>temperature</em>.</li><li>His <em>temperature</em> is up to 101.</li><li><em>Temperatures</em> over 104 need a doctor.</li></ol>
+<hr>
+<h3 id="vitamin">vitamin<a class="hash" href="#vitamin" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/ˈvaɪtəmɪn/ &middot; <em>VY-tuh-min</em></dd><dt>Русский</dt><dd>витамин</dd><dt>Plural</dt><dd><em>vitamins</em></dd><dt>Countability</dt><dd>countable</dd><dt>Contrast</dt><dd>Americans say VY-tuh-min; the British say VIT-uh-min.</dd></dl>
+<p>A natural substance the body needs in small amounts to stay healthy.</p>
+<ol><li>She takes a <em>vitamin</em> every morning.</li><li><em>Vitamin</em> D comes mostly from sunlight.</li><li>These <em>vitamins</em> taste like candy.</li></ol>
+<hr>
+<h3 id="supplement">supplement<a class="hash" href="#supplement" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/ˈsʌpləmənt/ &middot; <em>SUP-luh-muhnt</em></dd><dt>Русский</dt><dd>пищевая добавка, БАД</dd><dt>Plural</dt><dd><em>supplements</em></dd><dt>Countability</dt><dd>countable</dd></dl>
+<p>A pill or powder taken to add nutrients to the diet.</p>
+<ol><li>He takes an iron <em>supplement</em>.</li><li>Most <em>supplements</em> are not tested the way drugs are.</li><li>Ask your doctor before starting a new <em>supplement</em>.</li></ol>
+<hr>
+<h3 id="overdose">overdose<a class="hash" href="#overdose" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/ˈoʊvərdoʊs/ &middot; <em>OH-vur-dohs</em></dd><dt>Русский</dt><dd>передозировка</dd><dt>Plural</dt><dd><em>overdoses</em></dd><dt>Countability</dt><dd>countable</dd></dl>
+<p>A dangerous amount of a drug taken at one time.</p>
+<ol><li>He survived an <em>overdose</em> last spring.</li><li>The ER treats <em>overdoses</em> almost every night.</li><li>An <em>overdose</em> of that painkiller can stop your breathing.</li></ol>
+<hr>
+<h3 id="relief">relief<a class="hash" href="#relief" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/rɪˈliːf/ &middot; <em>rih-LEEF</em></dd><dt>Русский</dt><dd>облегчение (боли)</dd><dt>Countability</dt><dd>uncountable</dd></dl>
+<p>The easing of pain or discomfort.</p>
+<ol><li>The shot gave him instant <em>relief</em>.</li><li>She has had no <em>relief</em> from the headaches.</li><li>This cream promises fast <em>relief</em> from itching.</li></ol>
+<hr>
+<h3 id="first-aid">first aid<a class="hash" href="#first-aid" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/ˌfɜːrst ˈeɪd/ &middot; <em>furst-AYD</em></dd><dt>Русский</dt><dd>первая помощь</dd><dt>Countability</dt><dd>uncountable</dd></dl>
+<p>Basic emergency treatment given before professionals arrive.</p>
+<ol><li>Everyone on staff is trained in <em>first aid</em>.</li><li>There is a <em>first aid</em> kit under the sink.</li><li>She gave him <em>first aid</em> until the ambulance came.</li></ol>
+<hr>
+<h3 id="hospital">hospital<a class="hash" href="#hospital" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/ˈhɑːspɪtəl/ &middot; <em>HAHS-pih-tuhl</em></dd><dt>Русский</dt><dd>больница</dd><dt>Plural</dt><dd><em>hospitals</em></dd><dt>Countability</dt><dd>countable</dd><dt>Contrast</dt><dd>Americans say <em>in the hospital</em>; the British say <em>in hospital</em>, with no <em>the</em>.</dd></dl>
+<p>A place where sick and injured people are treated and stay overnight.</p>
+<ol><li>They rushed him to the <em>hospital</em>.</li><li>She works nights at a children's <em>hospital</em>.</li><li>Two <em>hospitals</em> in the county closed last year.</li></ol>
+<hr>
+<h3 id="clinic">clinic<a class="hash" href="#clinic" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/ˈklɪnɪk/ &middot; <em>KLIN-ik</em></dd><dt>Русский</dt><dd>клиника, поликлиника</dd><dt>Plural</dt><dd><em>clinics</em></dd><dt>Countability</dt><dd>countable</dd></dl>
+<p>A place where people get medical care without staying overnight.</p>
+<ol><li>There is a walk-in <em>clinic</em> two blocks from here.</li><li>The <em>clinic</em> opens at seven.</li><li>Free <em>clinics</em> fill up fast.</li></ol>
+<hr>
+<h3 id="pharmacy">pharmacy<a class="hash" href="#pharmacy" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/ˈfɑːrməsi/ &middot; <em>FAHR-muh-see</em></dd><dt>Русский</dt><dd>аптека</dd><dt>Plural</dt><dd><em>pharmacies</em></dd><dt>Countability</dt><dd>countable</dd></dl>
+<p>A place where medicines are prepared and sold.</p>
+<ol><li>The <em>pharmacy</em> closes at nine.</li><li>I will swing by the <em>pharmacy</em> on my way home.</li><li>Most <em>pharmacies</em> give flu shots now.</li></ol>
+<hr>
+<h3 id="drugstore">drugstore<a class="hash" href="#drugstore" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/ˈdrʌɡstɔːr/ &middot; <em>DRUG-stor</em></dd><dt>Русский</dt><dd>аптека (с товарами повседневного спроса)</dd><dt>Plural</dt><dd><em>drugstores</em></dd><dt>Countability</dt><dd>countable</dd><dt>Contrast</dt><dd>American <em>drugstore</em>; the British say <em>chemist's</em>.</dd></dl>
+<p>An American store that sells medicine along with everyday goods.</p>
+<ol><li>Grab some tape at the <em>drugstore</em>.</li><li>There is a <em>drugstore</em> on almost every corner.</li><li><em>Drugstores</em> here sell everything from aspirin to greeting cards.</li></ol>
+<hr>
+<h3 id="ward">ward<a class="hash" href="#ward" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/wɔːrd/ &middot; <em>WAWRD</em></dd><dt>Русский</dt><dd>отделение, палата в больнице</dd><dt>Plural</dt><dd><em>wards</em></dd><dt>Countability</dt><dd>countable</dd></dl>
+<p>A large room or section of a hospital for one type of patient.</p>
+<ol><li>She was moved to the maternity <em>ward</em>.</li><li>Visitors are not allowed on that <em>ward</em> after eight.</li><li>The children's <em>wards</em> were full.</li></ol>
+<hr>
+<h3 id="emergency">emergency<a class="hash" href="#emergency" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/ɪˈmɜːrdʒənsi/ &middot; <em>ih-MUR-juhn-see</em></dd><dt>Русский</dt><dd>экстренный случай, неотложная помощь</dd><dt>Plural</dt><dd><em>emergencies</em></dd><dt>Countability</dt><dd>countable</dd></dl>
+<p>A sudden situation that needs immediate medical help.</p>
+<ol><li>Call 911 if it is an <em>emergency</em>.</li><li>They met in the <em>emergency</em> room at two in the morning.</li><li>The clinic handles minor <em>emergencies</em>.</li></ol>
+<hr>
+<h3 id="ambulance">ambulance<a class="hash" href="#ambulance" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/ˈæmbjələns/ &middot; <em>AM-byuh-luhns</em></dd><dt>Русский</dt><dd>скорая помощь (машина)</dd><dt>Plural</dt><dd><em>ambulances</em></dd><dt>Countability</dt><dd>countable</dd></dl>
+<p>A vehicle that carries sick or injured people to the hospital.</p>
+<ol><li>The <em>ambulance</em> got there in six minutes.</li><li>Two <em>ambulances</em> were already on the scene.</li><li>Pull over when you hear an <em>ambulance</em>.</li></ol>
+<hr>
+<h3 id="paramedic">paramedic<a class="hash" href="#paramedic" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/ˌpærəˈmedɪk/ &middot; <em>pa-ruh-MED-ik</em></dd><dt>Русский</dt><dd>фельдшер скорой помощи, парамедик</dd><dt>Plural</dt><dd><em>paramedics</em></dd><dt>Countability</dt><dd>countable</dd></dl>
+<p>A trained worker who gives emergency care outside a hospital.</p>
+<ol><li>The <em>paramedics</em> got his heart started again.</li><li>A <em>paramedic</em> checked her over at the curb.</li><li>He trained as a <em>paramedic</em> right out of high school.</li></ol>
+<hr>
+<h3 id="surgeon">surgeon<a class="hash" href="#surgeon" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/ˈsɜːrdʒən/ &middot; <em>SUR-juhn</em></dd><dt>Русский</dt><dd>хирург</dd><dt>Plural</dt><dd><em>surgeons</em></dd><dt>Countability</dt><dd>countable</dd><dt>Contrast</dt><dd>The -geon is /dʒən/ with a soft g — SUR-juhn, never SUR-gee-on.</dd></dl>
+<p>A doctor who performs operations.</p>
+<ol><li>The <em>surgeon</em> said the tumor came out clean.</li><li>She is a heart <em>surgeon</em> at a teaching hospital.</li><li>Three <em>surgeons</em> were in the room.</li></ol>
+<hr>
+<h3 id="physician">physician<a class="hash" href="#physician" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/fəˈzɪʃən/ &middot; <em>fuh-ZISH-uhn</em></dd><dt>Русский</dt><dd>врач (формальное слово)</dd><dt>Plural</dt><dd><em>physicians</em></dd><dt>Countability</dt><dd>countable</dd><dt>Contrast</dt><dd>A <em>physician</em> treats people; a <em>physicist</em> studies physics — different words, different jobs.</dd></dl>
+<p>A formal word for a medical doctor.</p>
+<ol><li>Check with your primary care <em>physician</em> first.</li><li>The hospital hired six new <em>physicians</em>.</li><li>Her <em>physician</em> recommended a specialist.</li></ol>
+<hr>
+<h3 id="therapist">therapist<a class="hash" href="#therapist" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/ˈθerəpɪst/ &middot; <em>THER-uh-pist</em></dd><dt>Русский</dt><dd>психотерапевт; физиотерапевт</dd><dt>Plural</dt><dd><em>therapists</em></dd><dt>Countability</dt><dd>countable</dd><dt>Contrast</dt><dd>False friend: an American <em>therapist</em> is usually a counselor, while Russian «терапевт» means a general doctor — that is a <em>physician</em>.</dd></dl>
+<p>A trained professional who treats mental or physical problems.</p>
+<ol><li>She sees a <em>therapist</em> every other Tuesday.</li><li>The physical <em>therapist</em> gave him exercises to do at home.</li><li>Good <em>therapists</em> are booked months out.</li></ol>
+<hr>
+<h3 id="pediatrician">pediatrician<a class="hash" href="#pediatrician" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/ˌpiːdiəˈtrɪʃən/ &middot; <em>pee-dee-uh-TRISH-uhn</em></dd><dt>Русский</dt><dd>педиатр</dd><dt>Plural</dt><dd><em>pediatricians</em></dd><dt>Countability</dt><dd>countable</dd><dt>Contrast</dt><dd>Spelled <em>pediatrician</em> in the US, <em>paediatrician</em> in Britain.</dd></dl>
+<p>A doctor who treats children.</p>
+<ol><li>Our <em>pediatrician</em> wants to see him again in a week.</li><li>She is looking for a new <em>pediatrician</em>.</li><li><em>Pediatricians</em> see a lot of ear infections.</li></ol>
+<hr>
+<h3 id="psychiatrist">psychiatrist<a class="hash" href="#psychiatrist" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/səˈkaɪrtrɪst/ &middot; <em>suh-KY-uh-trist</em></dd><dt>Русский</dt><dd>психиатр</dd><dt>Plural</dt><dd><em>psychiatrists</em></dd><dt>Countability</dt><dd>countable</dd><dt>Contrast</dt><dd>The p is silent — suh-KY-uh-trist.</dd></dl>
+<p>A medical doctor who treats mental illness and can prescribe drugs.</p>
+<ol><li>A <em>psychiatrist</em> adjusted his medication.</li><li>It took two months to get in with a <em>psychiatrist</em>.</li><li><em>Psychiatrists</em> go to medical school; counselors do not.</li></ol>
+<hr>
+<h3 id="psychologist">psychologist<a class="hash" href="#psychologist" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/saɪˈkɑːlədʒɪst/ &middot; <em>sy-KAH-luh-jist</em></dd><dt>Русский</dt><dd>психолог</dd><dt>Plural</dt><dd><em>psychologists</em></dd><dt>Countability</dt><dd>countable</dd><dt>Contrast</dt><dd>Silent p again — sy-KAH-luh-jist.</dd></dl>
+<p>A specialist in the mind and behavior who provides talk therapy.</p>
+<ol><li>The school <em>psychologist</em> tested him for a learning disability.</li><li>She is a child <em>psychologist</em>.</li><li><em>Psychologists</em> usually cannot write prescriptions.</li></ol>
+<hr>
+<h3 id="pharmacist">pharmacist<a class="hash" href="#pharmacist" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/ˈfɑːrməsɪst/ &middot; <em>FAHR-muh-sist</em></dd><dt>Русский</dt><dd>фармацевт, аптекарь</dd><dt>Plural</dt><dd><em>pharmacists</em></dd><dt>Countability</dt><dd>countable</dd></dl>
+<p>A person trained to prepare and hand out medicines.</p>
+<ol><li>Ask the <em>pharmacist</em> whether you can take these together.</li><li>The <em>pharmacist</em> caught a mistake in the dosage.</li><li><em>Pharmacists</em> can give vaccines in most states.</li></ol>
+<hr>
+<h3 id="midwife">midwife<a class="hash" href="#midwife" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/ˈmɪdwaɪf/ &middot; <em>MID-wyf</em></dd><dt>Русский</dt><dd>акушерка</dd><dt>Plural</dt><dd><em>midwives</em></dd><dt>Countability</dt><dd>countable</dd><dt>Contrast</dt><dd>Irregular plural: <em>midwives</em> (MID-wyvz), never <em>midwifes</em>.</dd></dl>
+<p>A trained person who helps women give birth.</p>
+<ol><li>A <em>midwife</em> delivered both of her kids.</li><li>The <em>midwife</em> stayed the whole night.</li><li>Two <em>midwives</em> run the birth center.</li></ol>
+<hr>
+<h3 id="specialist">specialist<a class="hash" href="#specialist" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/ˈspeʃəlɪst/ &middot; <em>SPESH-uh-list</em></dd><dt>Русский</dt><dd>врач-специалист, узкий специалист</dd><dt>Plural</dt><dd><em>specialists</em></dd><dt>Countability</dt><dd>countable</dd></dl>
+<p>A doctor with expert training in one area of medicine.</p>
+<ol><li>Your doctor can refer you to a <em>specialist</em>.</li><li>She saw three <em>specialists</em> before anyone figured it out.</li><li>The <em>specialist</em> ordered more tests.</li></ol>
+<hr>
+<h3 id="insurance">insurance<a class="hash" href="#insurance" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/ɪnˈʃʊrəns/ &middot; <em>in-SHOOR-uhns</em></dd><dt>Русский</dt><dd>страховка, страхование</dd><dt>Countability</dt><dd>uncountable</dd></dl>
+<p>An arrangement in which a company pays part of your medical costs.</p>
+<ol><li>Does your <em>insurance</em> cover physical therapy?</li><li>He lost his health <em>insurance</em> when the job ended.</li><li>Bring your <em>insurance</em> card to the appointment.</li></ol>
+<hr>
+<h3 id="wheelchair">wheelchair<a class="hash" href="#wheelchair" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/ˈwiːltʃer/ &middot; <em>WEEL-chair</em></dd><dt>Русский</dt><dd>инвалидная коляска</dd><dt>Plural</dt><dd><em>wheelchairs</em></dd><dt>Countability</dt><dd>countable</dd></dl>
+<p>A chair on wheels for someone who cannot walk.</p>
+<ol><li>He has been in a <em>wheelchair</em> since the accident.</li><li>The hotel has <em>wheelchair</em> access on every floor.</li><li>There were two <em>wheelchairs</em> parked by the entrance.</li></ol>
+<hr>
+<h3 id="crutch">crutch<a class="hash" href="#crutch" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/krʌtʃ/ &middot; <em>KRUCH</em></dd><dt>Русский</dt><dd>костыль</dd><dt>Plural</dt><dd><em>crutches</em></dd><dt>Countability</dt><dd>countable</dd></dl>
+<p>A support that fits under the arm and helps you walk with an injured leg.</p>
+<ol><li>She is on <em>crutches</em> for another two weeks.</li><li>One <em>crutch</em> slipped on the wet floor.</li><li>He hobbled in on <em>crutches</em>.</li></ol>
+<hr>
+<h3 id="stretcher">stretcher<a class="hash" href="#stretcher" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/ˈstretʃər/ &middot; <em>STRECH-ur</em></dd><dt>Русский</dt><dd>носилки</dd><dt>Plural</dt><dd><em>stretchers</em></dd><dt>Countability</dt><dd>countable</dd><dt>Contrast</dt><dd>Singular in English: <em>a stretcher</em>, even though Russian «носилки» is always plural.</dd></dl>
+<p>A flat frame used to carry an injured person.</p>
+<ol><li>They carried him off the field on a <em>stretcher</em>.</li><li>The <em>stretcher</em> would not fit through the door.</li><li>Both <em>stretchers</em> were already in use.</li></ol>
+<hr>
+<h3 id="syringe">syringe<a class="hash" href="#syringe" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/səˈrɪndʒ/ &middot; <em>suh-RINJ</em></dd><dt>Русский</dt><dd>шприц</dd><dt>Plural</dt><dd><em>syringes</em></dd><dt>Countability</dt><dd>countable</dd><dt>Contrast</dt><dd>Stress falls on the second syllable — suh-RINJ, not SEER-inj.</dd></dl>
+<p>A tube with a plunger used to inject or draw out liquid.</p>
+<ol><li>The nurse filled the <em>syringe</em> and tapped out the air.</li><li>Used <em>syringes</em> go in the red container.</li><li>He measured the dose with an oral <em>syringe</em>.</li></ol>
+<hr>
+<h3 id="needle">needle<a class="hash" href="#needle" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/ˈniːdəl/ &middot; <em>NEE-duhl</em></dd><dt>Русский</dt><dd>игла (шприца)</dd><dt>Plural</dt><dd><em>needles</em></dd><dt>Countability</dt><dd>countable</dd></dl>
+<p>The thin sharp metal tube used to give an injection.</p>
+<ol><li>She looks away every time the <em>needle</em> goes in.</li><li>The <em>needles</em> are single-use.</li><li>It is a very fine <em>needle</em> — you barely feel it.</li></ol>
+<hr>
+<h3 id="thermometer">thermometer<a class="hash" href="#thermometer" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/θərˈmɑːmɪtər/ &middot; <em>thur-MAH-muh-tur</em></dd><dt>Русский</dt><dd>градусник, термометр</dd><dt>Plural</dt><dd><em>thermometers</em></dd><dt>Countability</dt><dd>countable</dd><dt>Contrast</dt><dd>Stress is on the second syllable — thur-MAH-muh-tur, not THUR-moh-mee-tur.</dd></dl>
+<p>A device that measures body temperature.</p>
+<ol><li>Where is the <em>thermometer</em>? He feels warm.</li><li>The ear <em>thermometer</em> reads in two seconds.</li><li>We keep two <em>thermometers</em> in the medicine cabinet.</li></ol>
+<hr>
+<h3 id="stethoscope">stethoscope<a class="hash" href="#stethoscope" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/ˈsteθəskoʊp/ &middot; <em>STETH-uh-skohp</em></dd><dt>Русский</dt><dd>стетоскоп, фонендоскоп</dd><dt>Plural</dt><dd><em>stethoscopes</em></dd><dt>Countability</dt><dd>countable</dd></dl>
+<p>The instrument a doctor uses to listen to the heart and lungs.</p>
+<ol><li>She warmed the <em>stethoscope</em> before putting it on his chest.</li><li>The <em>stethoscope</em> was still around her neck.</li><li>Medical students buy their own <em>stethoscopes</em>.</li></ol>
+<hr>
+<h3 id="gauze">gauze<a class="hash" href="#gauze" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/ɡɔːz/ &middot; <em>GAWZ</em></dd><dt>Русский</dt><dd>марля</dd><dt>Countability</dt><dd>uncountable</dd></dl>
+<p>Thin, loosely woven cloth used to cover wounds.</p>
+<ol><li>Cover it with <em>gauze</em> and tape it down.</li><li>We are out of <em>gauze</em> — check the other kit.</li><li>The nurse pressed a square of <em>gauze</em> against the cut.</li></ol>
+<hr>
+<h3 id="mask">mask<a class="hash" href="#mask" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/mæsk/ &middot; <em>MASK</em></dd><dt>Русский</dt><dd>медицинская маска</dd><dt>Plural</dt><dd><em>masks</em></dd><dt>Countability</dt><dd>countable</dd></dl>
+<p>A covering worn over the nose and mouth to block germs.</p>
+<ol><li>The surgeon pulled down his <em>mask</em> to talk.</li><li><em>Masks</em> are still required in the oncology wing.</li><li>She keeps a spare <em>mask</em> in her bag.</li></ol>
+<hr>
+<h3 id="cavity">cavity<a class="hash" href="#cavity" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/ˈkævəti/ &middot; <em>KAV-uh-tee</em></dd><dt>Русский</dt><dd>кариес, дырка в зубе</dd><dt>Plural</dt><dd><em>cavities</em></dd><dt>Countability</dt><dd>countable</dd></dl>
+<p>A hole in a tooth caused by decay.</p>
+<ol><li>The dentist found two <em>cavities</em>.</li><li>That <em>cavity</em> needs a filling.</li><li>Soda gave him <em>cavities</em> by the time he was ten.</li></ol>
+<hr>
+<h3 id="braces">braces<a class="hash" href="#braces" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/ˈbreɪsɪz/ &middot; <em>BRAY-siz</em></dd><dt>Русский</dt><dd>брекеты</dd><dt>Plural</dt><dd><em>braces</em></dd><dt>Countability</dt><dd>countable</dd><dt>Contrast</dt><dd>Always plural in this sense — <em>braces</em>, never <em>a brace</em> for teeth.</dd></dl>
+<p>Metal wires fitted to the teeth to straighten them.</p>
+<ol><li>She got her <em>braces</em> off last week.</li><li><em>Braces</em> were the worst part of middle school.</li><li>His <em>braces</em> cost more than the car.</li></ol>
+<hr>
+<h3 id="hygiene">hygiene<a class="hash" href="#hygiene" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/ˈhaɪdʒiːn/ &middot; <em>HY-jeen</em></dd><dt>Русский</dt><dd>гигиена</dd><dt>Countability</dt><dd>uncountable</dd></dl>
+<p>The practice of keeping clean in order to stay healthy.</p>
+<ol><li>Hand <em>hygiene</em> cuts infection rates in half.</li><li>Dental <em>hygiene</em> starts before the first tooth.</li><li><em>Hygiene</em> in the kitchen matters as much as in the clinic.</li></ol>
+<hr>
+<h3 id="diet">diet<a class="hash" href="#diet" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/ˈdaɪrt/ &middot; <em>DY-uht</em></dd><dt>Русский</dt><dd>рацион, питание; диета</dd><dt>Plural</dt><dd><em>diets</em></dd><dt>Countability</dt><dd>countable</dd><dt>Contrast</dt><dd>In English <em>diet</em> usually means what you normally eat, not only a weight-loss plan.</dd></dl>
+<p>The food a person usually eats, or a controlled eating plan.</p>
+<ol><li>A balanced <em>diet</em> beats any supplement.</li><li>He has been on a low-salt <em>diet</em> since the heart attack.</li><li>Fad <em>diets</em> rarely last past February.</li></ol>
+<hr>
+<h3 id="nutrition">nutrition<a class="hash" href="#nutrition" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/nuˈtrɪʃən/ &middot; <em>noo-TRISH-uhn</em></dd><dt>Русский</dt><dd>питание (как процесс)</dd><dt>Countability</dt><dd>uncountable</dd></dl>
+<p>The process of getting the food the body needs to stay healthy.</p>
+<ol><li>Good <em>nutrition</em> makes a real difference in recovery.</li><li>The label lists <em>nutrition</em> facts on the back.</li><li>Poor <em>nutrition</em> shows up in the bloodwork.</li></ol>
+<hr>
+<h3 id="pregnancy">pregnancy<a class="hash" href="#pregnancy" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/ˈpreɡnənsi/ &middot; <em>PREG-nuhn-see</em></dd><dt>Русский</dt><dd>беременность</dd><dt>Plural</dt><dd><em>pregnancies</em></dd><dt>Countability</dt><dd>countable</dd></dl>
+<p>The condition of carrying a developing baby.</p>
+<ol><li>She felt great through the whole <em>pregnancy</em>.</li><li>Some medications are not safe during <em>pregnancy</em>.</li><li>Both <em>pregnancies</em> were textbook.</li></ol>
+<hr>
+<h3 id="donor">donor<a class="hash" href="#donor" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/ˈdoʊnər/ &middot; <em>DOH-nur</em></dd><dt>Русский</dt><dd>донор</dd><dt>Plural</dt><dd><em>donors</em></dd><dt>Countability</dt><dd>countable</dd></dl>
+<p>A person who gives blood or an organ to someone else.</p>
+<ol><li>They finally found a matching <em>donor</em>.</li><li>He is a registered organ <em>donor</em>.</li><li>Blood <em>donors</em> get juice and cookies afterward.</li></ol>
+<hr>
+<h3 id="immunity">immunity<a class="hash" href="#immunity" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/ɪˈmjuːnəti/ &middot; <em>ih-MYOO-nuh-tee</em></dd><dt>Русский</dt><dd>иммунитет</dd><dt>Countability</dt><dd>uncountable</dd></dl>
+<p>The body's ability to resist a particular disease.</p>
+<ol><li>The shot gives you <em>immunity</em> for about a year.</li><li><em>Immunity</em> fades over time.</li><li>Kids build <em>immunity</em> by getting sick a lot.</li></ol></div></main>
+<button class="themebtn" id="themeBtn">Dark</button>
+<script>
+const tb=document.getElementById('themeBtn');
+function setTheme(x){document.documentElement.dataset.theme=x;tb.textContent=x==='dark'?'Light':'Dark';
+ try{localStorage.setItem('site-theme',x)}catch(e){}}
+tb.onclick=()=>setTheme(document.documentElement.dataset.theme==='dark'?'light':'dark');
+try{const s=localStorage.getItem('site-theme');
+ setTheme(s||(matchMedia('(prefers-color-scheme: dark)').matches?'dark':'light'))}catch(e){setTheme('light')}
+</script></body></html>

@@ -1,0 +1,466 @@
+<!DOCTYPE html>
+<html lang="en"><head>
+<meta charset="utf-8"><meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Core vocabulary: cooking and the kitchen</title>
+<style>
+:root{--bg:#faf9f7;--surface:#fff;--surface2:#f2f0ec;--border:#e2ded6;--text:#1a1815;
+--dim:#5f594f;--faint:#8a8377;--accent:#8a5a3b;--measure:72ch}
+@media(prefers-color-scheme:dark){:root{--bg:#14140f;--surface:#1d1d17;--surface2:#25251d;
+--border:#33332a;--text:#eeeae1;--dim:#a8a293;--faint:#7d776b;--accent:#d09b72}}
+:root[data-theme=dark]{--bg:#14140f;--surface:#1d1d17;--surface2:#25251d;--border:#33332a;
+--text:#eeeae1;--dim:#a8a293;--faint:#7d776b;--accent:#d09b72}
+:root[data-theme=light]{--bg:#faf9f7;--surface:#fff;--surface2:#f2f0ec;--border:#e2ded6;
+--text:#1a1815;--dim:#5f594f;--faint:#8a8377;--accent:#8a5a3b}
+*{box-sizing:border-box}
+body{margin:0;background:var(--bg);color:var(--text);
+font:17px/1.72 ui-serif,Georgia,"Iowan Old Style",Palatino,serif;-webkit-font-smoothing:antialiased}
+.wrap{max-width:min(var(--measure),100%);margin:0 auto;padding:0 22px}
+nav.crumb{border-bottom:1px solid var(--border);padding:13px 0;font-size:13.5px;
+font-family:-apple-system,BlinkMacSystemFont,"Segoe UI",sans-serif;position:sticky;top:0;background:var(--bg);z-index:20}
+nav.crumb .wrap{max-width:none;display:flex;gap:9px;align-items:center;flex-wrap:wrap}
+nav.crumb a{color:var(--dim);text-decoration:none}
+nav.crumb a:hover{color:var(--accent)}
+nav.crumb .sep{color:var(--faint)}
+main{padding:8px 0 80px}
+h1{font-size:clamp(28px,5vw,38px);line-height:1.15;letter-spacing:-.015em;margin:34px 0 18px}
+h2{font-size:25px;margin:46px 0 14px;letter-spacing:-.01em;padding-bottom:7px;border-bottom:1px solid var(--border)}
+h3{font-size:19px;margin:34px 0 10px;color:var(--accent)}
+h4{font-size:16px;margin:24px 0 8px;font-family:-apple-system,sans-serif}
+p{margin:0 0 16px}
+a{color:var(--accent)}
+.hash{opacity:0;margin-left:8px;font-weight:400;font-size:.65em;text-decoration:none;color:var(--faint)}
+h2:hover .hash,h3:hover .hash{opacity:1}
+blockquote{margin:0 0 20px;padding:14px 18px;background:var(--surface2);
+border-left:3px solid var(--accent);border-radius:0 8px 8px 0}
+blockquote p:last-child{margin-bottom:0}
+ol,ul{margin:0 0 18px;padding-left:26px}
+li{margin-bottom:8px}
+li>ul,li>ol{margin:8px 0 0}
+code{font-family:ui-monospace,SFMono-Regular,Menlo,Consolas,monospace;font-size:.87em;
+background:var(--surface2);padding:1px 5px;border-radius:4px}
+pre{background:var(--surface2);border:1px solid var(--border);border-radius:9px;
+padding:15px 17px;overflow-x:auto;margin:0 0 20px}
+pre code{background:none;padding:0;font-size:13px;line-height:1.6}
+.tw{overflow-x:auto;margin:0 0 22px;border:1px solid var(--border);border-radius:9px}
+table{border-collapse:collapse;width:100%;font-size:15px;
+font-family:-apple-system,BlinkMacSystemFont,"Segoe UI",sans-serif}
+th,td{padding:10px 14px;border-bottom:1px solid var(--border);vertical-align:top}
+th{background:var(--surface2);font-size:12px;text-transform:uppercase;
+letter-spacing:.06em;color:var(--dim);font-weight:700;white-space:nowrap}
+tbody tr:last-child td{border-bottom:none}
+hr{border:none;border-top:1px solid var(--border);margin:38px 0}
+details{background:var(--surface2);border:1px solid var(--border);border-radius:9px;
+padding:13px 17px;margin:0 0 20px}
+summary{cursor:pointer;font-weight:600;font-family:-apple-system,sans-serif;font-size:15px}
+details[open] summary{margin-bottom:12px}
+del{color:var(--faint)}
+dl.fields{margin:0 0 20px;padding:0}
+dl.fields dt{font-family:-apple-system,BlinkMacSystemFont,"Segoe UI",sans-serif;
+font-size:11px;letter-spacing:.11em;text-transform:uppercase;color:var(--faint);
+font-weight:700;margin:14px 0 4px}
+dl.fields dt:first-child{margin-top:0}
+dl.fields dd{margin:0;font-size:16px;color:var(--dim);line-height:1.62}
+dl.fields dd em{color:var(--text)}
+dl.fields dt.ru{color:var(--accent)}
+dl.fields dd strong{color:var(--text)}
+.toc{background:var(--surface2);border:1px solid var(--border);border-radius:10px;
+padding:16px 20px;margin:26px 0 34px;font-family:-apple-system,sans-serif;font-size:14px}
+.toc b{display:block;font-size:11px;letter-spacing:.12em;text-transform:uppercase;
+color:var(--faint);margin-bottom:9px}
+.toc a{display:block;padding:3px 0;color:var(--dim);text-decoration:none}
+.toc a:hover{color:var(--accent)}
+.themebtn{position:fixed;right:18px;bottom:18px;z-index:60;font-family:-apple-system,sans-serif;
+font-size:12.5px;font-weight:600;cursor:pointer;background:var(--surface);border:1px solid var(--border);
+border-radius:99px;padding:9px 16px;color:var(--text)}
+@media(max-width:600px){body{font-size:16px}.wrap{padding:0 17px}}
+</style></head><body>
+<nav class="crumb"><div class="wrap"><a href="../../../index.html">Learn English</a><span class="sep">/</span><a href="../../README.html">Parts of speech</a><span class="sep">/</span><a href="../README.html">01-nouns</a><span class="sep">/</span><span>catalog</span></div></nav>
+<main><div class="wrap"><h1 id="core-vocabulary-cooking-and-the-kitchen">Core vocabulary: cooking and the kitchen<a class="hash" href="#core-vocabulary-cooking-and-the-kitchen" aria-label="link">#</a></h1>
+<blockquote><p>The everyday nouns of cooking and the kitchen — pronunciation, Russian, plural, and three examples each.</p></blockquote>
+<p><a href="../README.html">← The grammar of nouns</a> &middot; <a href="README.html">All groups</a></p>
+<p>Part of the <strong>core-vocabulary tier</strong>. Groups 1–23 cover the nouns that misbehave; this tier covers the nouns you simply need to know. Entries are deliberately lean, because a regular countable noun has no grammatical story to tell. A <strong>Contrast</strong> line appears only where the word hides a genuine trap.</p>
+<p>Where a word in this field <em>does</em> misbehave, it lives in the grammar tier instead and is not repeated here.</p>
+<hr>
+<h3 id="kitchen">kitchen<a class="hash" href="#kitchen" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/ˈkɪtʃən/ &middot; <em>KIH-chun</em></dd><dt>Русский</dt><dd>кухня (помещение)</dd><dt>Plural</dt><dd><em>kitchens</em></dd><dt>Countability</dt><dd>countable</dd></dl>
+<p>The room where food is stored, prepared, and cooked.</p>
+<ol><li>We finally remodeled the <em>kitchen</em> last spring.</li><li>He was standing in the <em>kitchen</em> making coffee.</li><li>Most of the apartments in that building have tiny <em>kitchens</em>.</li></ol>
+<hr>
+<h3 id="stove">stove<a class="hash" href="#stove" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/stoʊv/ &middot; <em>STOHV</em></dd><dt>Русский</dt><dd>плита (кухонная)</dd><dt>Plural</dt><dd><em>stoves</em></dd><dt>Countability</dt><dd>countable</dd><dt>Contrast</dt><dd>Americans say stove or range; British English says cooker.</dd></dl>
+<p>The appliance with burners on top that you cook on.</p>
+<ol><li>There's a pot of chili on the <em>stove</em>.</li><li>Don't leave the <em>stove</em> on when you go out.</li><li>Our old <em>stove</em> only has three burners that work.</li></ol>
+<hr>
+<h3 id="oven">oven<a class="hash" href="#oven" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/ˈʌvən/ &middot; <em>UH-vun</em></dd><dt>Русский</dt><dd>духовка</dd><dt>Plural</dt><dd><em>ovens</em></dd><dt>Countability</dt><dd>countable</dd><dt>Contrast</dt><dd>Written with an o but said UH-vun, rhyming with the first part of 'lovin'.</dd></dl>
+<p>The closed compartment you bake or roast food in.</p>
+<ol><li>Preheat the <em>oven</em> to 375.</li><li>The bread's been in the <em>oven</em> for forty minutes.</li><li>Both <em>ovens</em> died the week before Thanksgiving.</li></ol>
+<hr>
+<h3 id="refrigerator">refrigerator<a class="hash" href="#refrigerator" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/rɪˈfrɪdʒəreɪtər/ &middot; <em>rih-FRIJ-uh-ray-tur</em></dd><dt>Русский</dt><dd>холодильник</dd><dt>Plural</dt><dd><em>refrigerators</em></dd><dt>Countability</dt><dd>countable</dd><dt>Contrast</dt><dd>The short form fridge is spelled with a d that the full word doesn't have.</dd></dl>
+<p>The appliance that keeps food cold.</p>
+<ol><li>Put the milk back in the <em>refrigerator</em>.</li><li>The new <em>refrigerator</em> barely fit through the door.</li><li>Restaurant <em>refrigerators</em> run all night long.</li></ol>
+<hr>
+<h3 id="fridge">fridge<a class="hash" href="#fridge" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/frɪdʒ/ &middot; <em>FRIJ</em></dd><dt>Русский</dt><dd>холодильник (разговорное)</dd><dt>Plural</dt><dd><em>fridges</em></dd><dt>Countability</dt><dd>countable</dd></dl>
+<p>An informal word for a refrigerator.</p>
+<ol><li>There's nothing in the <em>fridge</em> but ketchup.</li><li>Stick the leftovers in the <em>fridge</em>.</li><li>We keep a second <em>fridge</em> out in the garage.</li></ol>
+<hr>
+<h3 id="freezer">freezer<a class="hash" href="#freezer" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/ˈfriːzər/ &middot; <em>FREE-zur</em></dd><dt>Русский</dt><dd>морозильник, морозильная камера</dd><dt>Plural</dt><dd><em>freezers</em></dd><dt>Countability</dt><dd>countable</dd></dl>
+<p>The compartment or appliance that keeps food frozen.</p>
+<ol><li>I've got a bag of peas in the <em>freezer</em>.</li><li>The <em>freezer</em> needs defrosting again.</li><li>Chest <em>freezers</em> hold a lot more than you'd think.</li></ol>
+<hr>
+<h3 id="microwave">microwave<a class="hash" href="#microwave" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/ˈmaɪkrəweɪv/ &middot; <em>MY-kruh-wayv</em></dd><dt>Русский</dt><dd>микроволновая печь, микроволновка</dd><dt>Plural</dt><dd><em>microwaves</em></dd><dt>Countability</dt><dd>countable</dd></dl>
+<p>An oven that heats food quickly with microwave radiation.</p>
+<ol><li>Heat it in the <em>microwave</em> for two minutes.</li><li>Don't put anything metal in the <em>microwave</em>.</li><li>The dorm kitchen has two <em>microwaves</em> and one sink.</li></ol>
+<hr>
+<h3 id="dishwasher">dishwasher<a class="hash" href="#dishwasher" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/ˈdɪʃwɑːʃər/ &middot; <em>DISH-wah-shur</em></dd><dt>Русский</dt><dd>посудомоечная машина</dd><dt>Plural</dt><dd><em>dishwashers</em></dd><dt>Countability</dt><dd>countable</dd></dl>
+<p>A machine that washes dishes automatically.</p>
+<ol><li>Can you load the <em>dishwasher</em> before you leave?</li><li>The <em>dishwasher</em> is making that noise again.</li><li>Older apartments here don't come with <em>dishwashers</em>.</li></ol>
+<hr>
+<h3 id="toaster">toaster<a class="hash" href="#toaster" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/ˈtoʊstər/ &middot; <em>TOH-stur</em></dd><dt>Русский</dt><dd>тостер</dd><dt>Plural</dt><dd><em>toasters</em></dd><dt>Countability</dt><dd>countable</dd></dl>
+<p>A small appliance that browns slices of bread.</p>
+<ol><li>The <em>toaster</em> burns everything on setting five.</li><li>He dropped a bagel in the <em>toaster</em> and forgot about it.</li><li>We got two <em>toasters</em> as wedding gifts.</li></ol>
+<hr>
+<h3 id="grill">grill<a class="hash" href="#grill" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/ɡrɪl/ &middot; <em>GRIL</em></dd><dt>Русский</dt><dd>гриль, мангал</dd><dt>Plural</dt><dd><em>grills</em></dd><dt>Countability</dt><dd>countable</dd><dt>Contrast</dt><dd>In American English a grill is the outdoor barbecue; the heating element inside a US oven is the broiler, which the British call a grill.</dd></dl>
+<p>A metal frame over a fire or gas flame for cooking food outdoors.</p>
+<ol><li>Dad's out back firing up the <em>grill</em>.</li><li>We cooked the whole dinner on the <em>grill</em>.</li><li>The apartment complex has two <em>grills</em> by the pool.</li></ol>
+<hr>
+<h3 id="broiler">broiler<a class="hash" href="#broiler" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/ˈbrɔɪlər/ &middot; <em>BROY-lur</em></dd><dt>Русский</dt><dd>верхний гриль в духовке</dd><dt>Plural</dt><dd><em>broilers</em></dd><dt>Countability</dt><dd>countable</dd><dt>Contrast</dt><dd>An American broiler is a British grill; an American grill is the outdoor kind.</dd></dl>
+<p>The part of an oven that cooks food with heat from directly above.</p>
+<ol><li>Put it under the <em>broiler</em> for two minutes to brown the top.</li><li>On this stove the <em>broiler</em> is the drawer underneath.</li><li>Watch it closely — <em>broilers</em> burn things in seconds.</li></ol>
+<hr>
+<h3 id="burner">burner<a class="hash" href="#burner" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/ˈbɜːrnər/ &middot; <em>BUR-nur</em></dd><dt>Русский</dt><dd>конфорка</dd><dt>Plural</dt><dd><em>burners</em></dd><dt>Countability</dt><dd>countable</dd></dl>
+<p>One of the cooking rings or elements on top of a stove.</p>
+<ol><li>Move the pan to the back <em>burner</em>.</li><li>One <em>burner</em> on this stove never lights.</li><li>Turn the <em>burner</em> down before it boils over.</li></ol>
+<hr>
+<h3 id="sink">sink<a class="hash" href="#sink" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/sɪŋk/ &middot; <em>SINGK</em></dd><dt>Русский</dt><dd>раковина, мойка</dd><dt>Plural</dt><dd><em>sinks</em></dd><dt>Countability</dt><dd>countable</dd></dl>
+<p>The basin with a faucet where you wash dishes and hands.</p>
+<ol><li>There's a stack of dishes in the <em>sink</em>.</li><li>Just rinse it off in the <em>sink</em>.</li><li>The kitchen has a double <em>sink</em>.</li></ol>
+<hr>
+<h3 id="countertop">countertop<a class="hash" href="#countertop" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/ˈkaʊntərtɑːp/ &middot; <em>KOWN-tur-tahp</em></dd><dt>Русский</dt><dd>столешница</dd><dt>Plural</dt><dd><em>countertops</em></dd><dt>Countability</dt><dd>countable</dd></dl>
+<p>The flat working surface along a kitchen wall.</p>
+<ol><li>Wipe down the <em>countertop</em> when you're done.</li><li>Granite <em>countertops</em> were the big selling point.</li><li>Don't leave raw chicken sitting on the <em>countertop</em>.</li></ol>
+<hr>
+<h3 id="cabinet">cabinet<a class="hash" href="#cabinet" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/ˈkæbənət/ &middot; <em>KAB-uh-nut</em></dd><dt>Русский</dt><dd>шкафчик (кухонный)</dd><dt>Plural</dt><dd><em>cabinets</em></dd><dt>Countability</dt><dd>countable</dd><dt>Contrast</dt><dd>In ordinary speech it collapses to two syllables: KAB-nut.</dd></dl>
+<p>A cupboard with shelves and a door, usually mounted on a wall.</p>
+<ol><li>The glasses are in the <em>cabinet</em> above the sink.</li><li>We painted the kitchen <em>cabinets</em> white.</li><li>He couldn't reach the top <em>cabinet</em> without a chair.</li></ol>
+<hr>
+<h3 id="pantry">pantry<a class="hash" href="#pantry" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/ˈpæntri/ &middot; <em>PAN-tree</em></dd><dt>Русский</dt><dd>кладовая, шкаф для продуктов</dd><dt>Plural</dt><dd><em>pantries</em></dd><dt>Countability</dt><dd>countable</dd></dl>
+<p>A small room or closet where dry food is kept.</p>
+<ol><li>There's a box of pasta in the <em>pantry</em>.</li><li>Our <em>pantry</em> is really just a closet with shelves.</li><li>Older houses around here have walk-in <em>pantries</em>.</li></ol>
+<hr>
+<h3 id="drawer">drawer<a class="hash" href="#drawer" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/drɔːr/ &middot; <em>DRAWR</em></dd><dt>Русский</dt><dd>выдвижной ящик</dd><dt>Plural</dt><dd><em>drawers</em></dd><dt>Countability</dt><dd>countable</dd><dt>Contrast</dt><dd>One syllable in American speech — it sounds like 'draw' with an r, not DRAW-er.</dd></dl>
+<p>A sliding box built into a piece of furniture.</p>
+<ol><li>The forks are in the top <em>drawer</em>.</li><li>That <em>drawer</em> sticks every single time.</li><li>He went through all the kitchen <em>drawers</em> looking for a corkscrew.</li></ol>
+<hr>
+<h3 id="rack">rack<a class="hash" href="#rack" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/ræk/ &middot; <em>RAK</em></dd><dt>Русский</dt><dd>решётка, подставка (в духовке, для сушки)</dd><dt>Plural</dt><dd><em>racks</em></dd><dt>Countability</dt><dd>countable</dd></dl>
+<p>A frame of bars used to hold or cool things.</p>
+<ol><li>Move the oven <em>rack</em> up one position.</li><li>Let the cookies cool on a wire <em>rack</em>.</li><li>The dish <em>rack</em> by the sink is always full.</li></ol>
+<hr>
+<h3 id="grinder">grinder<a class="hash" href="#grinder" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/ˈɡraɪndər/ &middot; <em>GRYN-dur</em></dd><dt>Русский</dt><dd>мельница, кофемолка</dd><dt>Plural</dt><dd><em>grinders</em></dd><dt>Countability</dt><dd>countable</dd></dl>
+<p>A device that crushes coffee, pepper, or spices into small pieces.</p>
+<ol><li>Grind the beans fresh in a burr <em>grinder</em>.</li><li>There's a pepper <em>grinder</em> on every table.</li><li>Cheap <em>grinders</em> heat the coffee up too much.</li></ol>
+<hr>
+<h3 id="timer">timer<a class="hash" href="#timer" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/ˈtaɪmər/ &middot; <em>TY-mur</em></dd><dt>Русский</dt><dd>таймер</dd><dt>Plural</dt><dd><em>timers</em></dd><dt>Countability</dt><dd>countable</dd></dl>
+<p>A device that counts down and signals when cooking time is up.</p>
+<ol><li>Set a <em>timer</em> for twelve minutes.</li><li>The <em>timer</em> went off and nobody heard it.</li><li>I run two <em>timers</em> when I'm cooking three things at once.</li></ol>
+<hr>
+<h3 id="scale">scale<a class="hash" href="#scale" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/skeɪl/ &middot; <em>SKAYL</em></dd><dt>Русский</dt><dd>весы (кухонные)</dd><dt>Plural</dt><dd><em>scales</em></dd><dt>Countability</dt><dd>countable</dd><dt>Contrast</dt><dd>One device is a scale, singular, even though Russian весы is plural.</dd></dl>
+<p>A device for weighing ingredients.</p>
+<ol><li>A kitchen <em>scale</em> makes baking much more accurate.</li><li>Put the bowl on the <em>scale</em> and hit tare.</li><li>Digital <em>scales</em> are cheap now.</li></ol>
+<hr>
+<h3 id="pot">pot<a class="hash" href="#pot" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/pɑːt/ &middot; <em>PAHT</em></dd><dt>Русский</dt><dd>кастрюля</dd><dt>Plural</dt><dd><em>pots</em></dd><dt>Countability</dt><dd>countable</dd></dl>
+<p>A deep round container with a handle for cooking on a stove.</p>
+<ol><li>Bring a big <em>pot</em> of water to a boil.</li><li>She stirred the <em>pot</em> every few minutes.</li><li>All my <em>pots</em> are stacked in the bottom cabinet.</li></ol>
+<hr>
+<h3 id="pan">pan<a class="hash" href="#pan" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/pæn/ &middot; <em>PAN</em></dd><dt>Русский</dt><dd>сковорода; форма для выпечки</dd><dt>Plural</dt><dd><em>pans</em></dd><dt>Countability</dt><dd>countable</dd></dl>
+<p>A shallow metal container used for frying or baking.</p>
+<ol><li>Heat a little oil in the <em>pan</em>.</li><li>Pour the batter into a greased <em>pan</em>.</li><li>Nonstick <em>pans</em> don't last forever.</li></ol>
+<hr>
+<h3 id="skillet">skillet<a class="hash" href="#skillet" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/ˈskɪlɪt/ &middot; <em>SKIH-lit</em></dd><dt>Русский</dt><dd>сковорода (часто чугунная)</dd><dt>Plural</dt><dd><em>skillets</em></dd><dt>Countability</dt><dd>countable</dd></dl>
+<p>A heavy frying pan with sloping sides.</p>
+<ol><li>Brown the onions in a cast-iron <em>skillet</em>.</li><li>He fried the eggs in the same <em>skillet</em>.</li><li>Those old <em>skillets</em> only get better with age.</li></ol>
+<hr>
+<h3 id="saucepan">saucepan<a class="hash" href="#saucepan" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/ˈsɔːspæn/ &middot; <em>SAWS-pan</em></dd><dt>Русский</dt><dd>кастрюля с длинной ручкой, сотейник</dd><dt>Plural</dt><dd><em>saucepans</em></dd><dt>Countability</dt><dd>countable</dd></dl>
+<p>A small deep pan with a single long handle.</p>
+<ol><li>Melt the butter in a small <em>saucepan</em>.</li><li>The rice is in the <em>saucepan</em> on the back burner.</li><li>I only own two <em>saucepans</em>.</li></ol>
+<hr>
+<h3 id="wok">wok<a class="hash" href="#wok" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/wɑːk/ &middot; <em>WAHK</em></dd><dt>Русский</dt><dd>вок (китайская сковорода)</dd><dt>Plural</dt><dd><em>woks</em></dd><dt>Countability</dt><dd>countable</dd></dl>
+<p>A deep bowl-shaped pan used for quick, high-heat cooking.</p>
+<ol><li>Get the <em>wok</em> screaming hot before the vegetables go in.</li><li>A carbon steel <em>wok</em> costs about thirty bucks.</li><li>Most home stoves aren't hot enough for real <em>wok</em> cooking.</li></ol>
+<hr>
+<h3 id="tray">tray<a class="hash" href="#tray" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/treɪ/ &middot; <em>TRAY</em></dd><dt>Русский</dt><dd>поднос; противень</dd><dt>Plural</dt><dd><em>trays</em></dd><dt>Countability</dt><dd>countable</dd></dl>
+<p>A flat piece of metal, wood, or plastic used to carry or hold food.</p>
+<ol><li>She carried the drinks out on a <em>tray</em>.</li><li>Line the <em>tray</em> with parchment first.</li><li>The ice <em>trays</em> are in the freezer door.</li></ol>
+<hr>
+<h3 id="colander">colander<a class="hash" href="#colander" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/ˈkɑːləndər/ &middot; <em>KAH-lun-dur</em></dd><dt>Русский</dt><dd>дуршлаг</dd><dt>Plural</dt><dd><em>colanders</em></dd><dt>Countability</dt><dd>countable</dd></dl>
+<p>A bowl full of holes used for draining water off food.</p>
+<ol><li>Drain the pasta in a <em>colander</em>.</li><li>Rinse the beans in a <em>colander</em> under cold water.</li><li>We own two <em>colanders</em> and I can never find either one.</li></ol>
+<hr>
+<h3 id="strainer">strainer<a class="hash" href="#strainer" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/ˈstreɪnər/ &middot; <em>STRAY-nur</em></dd><dt>Русский</dt><dd>ситечко, сито</dd><dt>Plural</dt><dd><em>strainers</em></dd><dt>Countability</dt><dd>countable</dd></dl>
+<p>A mesh device that separates solids from a liquid.</p>
+<ol><li>Pour the stock through a fine-mesh <em>strainer</em>.</li><li>Use a <em>strainer</em> so the seeds don't get in.</li><li>Small <em>strainers</em> work better for loose tea.</li></ol>
+<hr>
+<h3 id="sieve">sieve<a class="hash" href="#sieve" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/sɪv/ &middot; <em>SIV</em></dd><dt>Русский</dt><dd>сито</dd><dt>Plural</dt><dd><em>sieves</em></dd><dt>Countability</dt><dd>countable</dd><dt>Contrast</dt><dd>Rhymes with 'give' — SIV. The -ie- is not said 'ee'.</dd></dl>
+<p>A fine mesh screen for sifting dry ingredients or straining liquids.</p>
+<ol><li>Push the sauce through a <em>sieve</em> to make it smooth.</li><li>Sift the flour through a <em>sieve</em> first.</li><li>The finest <em>sieves</em> clog almost immediately.</li></ol>
+<hr>
+<h3 id="grater">grater<a class="hash" href="#grater" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/ˈɡreɪtər/ &middot; <em>GRAY-tur</em></dd><dt>Русский</dt><dd>тёрка</dd><dt>Plural</dt><dd><em>graters</em></dd><dt>Countability</dt><dd>countable</dd><dt>Contrast</dt><dd>Sounds exactly like 'greater'.</dd></dl>
+<p>A metal tool with sharp holes for shredding food.</p>
+<ol><li>Shred the cheese on the coarse side of the <em>grater</em>.</li><li>A box <em>grater</em> is easier to clean than it looks.</li><li>Both <em>graters</em> went through the dishwasher.</li></ol>
+<hr>
+<h3 id="peeler">peeler<a class="hash" href="#peeler" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/ˈpiːlər/ &middot; <em>PEE-lur</em></dd><dt>Русский</dt><dd>овощечистка</dd><dt>Plural</dt><dd><em>peelers</em></dd><dt>Countability</dt><dd>countable</dd></dl>
+<p>A hand tool that strips the skin off vegetables and fruit.</p>
+<ol><li>Peel the carrots with a vegetable <em>peeler</em>.</li><li>A sharp <em>peeler</em> saves a lot of time.</li><li>Y-shaped <em>peelers</em> are the ones most cooks prefer.</li></ol>
+<hr>
+<h3 id="whisk">whisk<a class="hash" href="#whisk" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/wɪsk/ &middot; <em>WISK</em></dd><dt>Русский</dt><dd>венчик</dd><dt>Plural</dt><dd><em>whisks</em></dd><dt>Countability</dt><dd>countable</dd></dl>
+<p>A loop-shaped wire tool for beating eggs or cream.</p>
+<ol><li>Beat the eggs with a <em>whisk</em>.</li><li>Use a <em>whisk</em>, not a fork, or you'll get lumps.</li><li>Balloon <em>whisks</em> are the ones for whipping cream.</li></ol>
+<hr>
+<h3 id="spatula">spatula<a class="hash" href="#spatula" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/ˈspætʃələ/ &middot; <em>SPACH-uh-luh</em></dd><dt>Русский</dt><dd>лопатка (кухонная)</dd><dt>Plural</dt><dd><em>spatulas</em></dd><dt>Countability</dt><dd>countable</dd></dl>
+<p>A flat tool for flipping food or scraping a bowl.</p>
+<ol><li>Flip the pancakes with a <em>spatula</em>.</li><li>Scrape the bowl down with a rubber <em>spatula</em>.</li><li>I keep three <em>spatulas</em> in the crock by the stove.</li></ol>
+<hr>
+<h3 id="ladle">ladle<a class="hash" href="#ladle" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/ˈleɪdəl/ &middot; <em>LAY-dul</em></dd><dt>Русский</dt><dd>половник, поварёшка</dd><dt>Plural</dt><dd><em>ladles</em></dd><dt>Countability</dt><dd>countable</dd></dl>
+<p>A deep long-handled spoon for serving soup.</p>
+<ol><li>Serve the soup with a <em>ladle</em>.</li><li>He filled each bowl with two <em>ladles</em> of chili.</li><li>The <em>ladle</em> is hanging on the hook by the stove.</li></ol>
+<hr>
+<h3 id="spoon">spoon<a class="hash" href="#spoon" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/spuːn/ &middot; <em>SPOON</em></dd><dt>Русский</dt><dd>ложка</dd><dt>Plural</dt><dd><em>spoons</em></dd><dt>Countability</dt><dd>countable</dd></dl>
+<p>A utensil with a shallow bowl on a handle, used for eating and stirring.</p>
+<ol><li>Stir it with a wooden <em>spoon</em>.</li><li>I need a clean <em>spoon</em>.</li><li>All the <em>spoons</em> are dirty.</li></ol>
+<hr>
+<h3 id="fork">fork<a class="hash" href="#fork" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/fɔːrk/ &middot; <em>FORK</em></dd><dt>Русский</dt><dd>вилка</dd><dt>Plural</dt><dd><em>forks</em></dd><dt>Countability</dt><dd>countable</dd></dl>
+<p>A utensil with prongs for picking up food.</p>
+<ol><li>Test the potatoes with a <em>fork</em>.</li><li>He set a knife and <em>fork</em> at every place.</li><li>The <em>forks</em> go on the left.</li></ol>
+<hr>
+<h3 id="teaspoon">teaspoon<a class="hash" href="#teaspoon" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/ˈtiːspuːn/ &middot; <em>TEE-spoon</em></dd><dt>Русский</dt><dd>чайная ложка</dd><dt>Plural</dt><dd><em>teaspoons</em></dd><dt>Countability</dt><dd>countable</dd></dl>
+<p>A small spoon, or the amount of an ingredient it holds.</p>
+<ol><li>Add a <em>teaspoon</em> of vanilla.</li><li>That's about two <em>teaspoons</em> of salt.</li><li>Level the <em>teaspoon</em> off with the back of a knife.</li></ol>
+<hr>
+<h3 id="tablespoon">tablespoon<a class="hash" href="#tablespoon" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/ˈteɪbəlspuːn/ &middot; <em>TAY-bul-spoon</em></dd><dt>Русский</dt><dd>столовая ложка</dd><dt>Plural</dt><dd><em>tablespoons</em></dd><dt>Countability</dt><dd>countable</dd></dl>
+<p>A large spoon, or the amount of an ingredient it holds.</p>
+<ol><li>Melt two <em>tablespoons</em> of butter.</li><li>A <em>tablespoon</em> is three teaspoons.</li><li>Measure the oil with a real <em>tablespoon</em>, not a soup spoon.</li></ol>
+<hr>
+<h3 id="rolling-pin">rolling pin<a class="hash" href="#rolling-pin" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/ˈroʊlɪŋ pɪn/ &middot; <em>ROH-ling-pin</em></dd><dt>Русский</dt><dd>скалка</dd><dt>Plural</dt><dd><em>rolling pins</em></dd><dt>Countability</dt><dd>countable</dd></dl>
+<p>A cylinder used to flatten dough.</p>
+<ol><li>Roll the dough out with a <em>rolling pin</em>.</li><li>Her <em>rolling pin</em> was her grandmother's.</li><li>Marble <em>rolling pins</em> stay cold, which helps with pastry.</li></ol>
+<hr>
+<h3 id="skewer">skewer<a class="hash" href="#skewer" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/ˈskjuːər/ &middot; <em>SKYOO-ur</em></dd><dt>Русский</dt><dd>шампур, шпажка</dd><dt>Plural</dt><dd><em>skewers</em></dd><dt>Countability</dt><dd>countable</dd></dl>
+<p>A long pin that holds pieces of food together for grilling.</p>
+<ol><li>Thread the shrimp onto a <em>skewer</em>.</li><li>Soak wooden <em>skewers</em> first so they don't burn.</li><li>He pulled the meat off the <em>skewer</em> with his fork.</li></ol>
+<hr>
+<h3 id="mold">mold<a class="hash" href="#mold" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/moʊld/ &middot; <em>MOHLD</em></dd><dt>Русский</dt><dd>форма (для выпечки, желе, шоколада)</dd><dt>Plural</dt><dd><em>molds</em></dd><dt>Countability</dt><dd>countable</dd><dt>Contrast</dt><dd>American spelling is mold; British English writes mould.</dd></dl>
+<p>A hollow container that gives food its shape as it sets.</p>
+<ol><li>Pour the jelly into a <em>mold</em> and chill it overnight.</li><li>She turned the cake out of a bundt <em>mold</em>.</li><li>Silicone <em>molds</em> make it easy to get chocolate out.</li></ol>
+<hr>
+<h3 id="cutting-board">cutting board<a class="hash" href="#cutting-board" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/ˈkʌtɪŋ bɔːrd/ &middot; <em>KUH-ting-bord</em></dd><dt>Русский</dt><dd>разделочная доска</dd><dt>Plural</dt><dd><em>cutting boards</em></dd><dt>Countability</dt><dd>countable</dd><dt>Contrast</dt><dd>Americans say cutting board; British English says chopping board.</dd></dl>
+<p>A flat board you chop food on.</p>
+<ol><li>Chop the onion on a <em>cutting board</em>, not on the counter.</li><li>Use a separate <em>cutting board</em> for raw meat.</li><li>Wooden <em>cutting boards</em> need oil once in a while.</li></ol>
+<hr>
+<h3 id="mitt">mitt<a class="hash" href="#mitt" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/mɪt/ &middot; <em>MIT</em></dd><dt>Русский</dt><dd>прихватка-варежка</dd><dt>Plural</dt><dd><em>mitts</em></dd><dt>Countability</dt><dd>countable</dd></dl>
+<p>A padded glove for handling hot pans.</p>
+<ol><li>Grab an oven <em>mitt</em> before you touch that.</li><li>The <em>mitt</em> has a hole burned through the thumb.</li><li>Both <em>mitts</em> are in the drawer by the stove.</li></ol>
+<hr>
+<h3 id="apron">apron<a class="hash" href="#apron" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/ˈeɪprən/ &middot; <em>AY-prun</em></dd><dt>Русский</dt><dd>фартук</dd><dt>Plural</dt><dd><em>aprons</em></dd><dt>Countability</dt><dd>countable</dd></dl>
+<p>A garment tied over your clothes to keep them clean while cooking.</p>
+<ol><li>He tied on an <em>apron</em> before he started.</li><li>There's flour all over your <em>apron</em>.</li><li>The restaurant hands out clean <em>aprons</em> every shift.</li></ol>
+<hr>
+<h3 id="sponge">sponge<a class="hash" href="#sponge" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/spʌndʒ/ &middot; <em>SPUNJ</em></dd><dt>Русский</dt><dd>губка (для мытья посуды)</dd><dt>Plural</dt><dd><em>sponges</em></dd><dt>Countability</dt><dd>countable</dd><dt>Contrast</dt><dd>Written -onge but said SPUNJ, rhyming with 'plunge'.</dd></dl>
+<p>A soft absorbent block used for washing dishes and wiping surfaces.</p>
+<ol><li>Wipe the counter with a damp <em>sponge</em>.</li><li>That <em>sponge</em> smells — just throw it out.</li><li>I buy <em>sponges</em> in packs of six.</li></ol>
+<hr>
+<h3 id="detergent">detergent<a class="hash" href="#detergent" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/dɪˈtɜːrdʒənt/ &middot; <em>dih-TUR-junt</em></dd><dt>Русский</dt><dd>моющее средство</dd><dt>Plural</dt><dd><em>detergents</em></dd><dt>Countability</dt><dd>countable, and uncountable as a substance</dd></dl>
+<p>A soap-like cleaner used for washing dishes or clothes.</p>
+<ol><li>Add a squirt of dish <em>detergent</em> to the water.</li><li>We're completely out of <em>detergent</em>.</li><li>The store-brand <em>detergents</em> work just as well.</li></ol>
+<hr>
+<h3 id="foil">foil<a class="hash" href="#foil" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/fɔɪl/ &middot; <em>FOYL</em></dd><dt>Русский</dt><dd>фольга</dd><dt>Countability</dt><dd>uncountable</dd><dt>Contrast</dt><dd>Uncountable: a sheet of foil, never 'a foil' or 'foils' in the kitchen sense.</dd></dl>
+<p>Thin sheet metal used to wrap or cover food.</p>
+<ol><li>Cover the pan with <em>foil</em> and bake it another hour.</li><li>Wrap the potatoes in <em>foil</em> before they go on the grill.</li><li>We're out of <em>foil</em> — use parchment instead.</li></ol>
+<hr>
+<h3 id="parchment">parchment<a class="hash" href="#parchment" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/ˈpɑːrtʃmənt/ &middot; <em>PARCH-munt</em></dd><dt>Русский</dt><dd>пергамент, пергаментная бумага для выпечки</dd><dt>Countability</dt><dd>uncountable</dd></dl>
+<p>Heat-resistant paper used to line baking pans.</p>
+<ol><li>Line the sheet pan with <em>parchment</em>.</li><li>The cookies won't stick if you use <em>parchment</em>.</li><li>One roll of <em>parchment</em> lasts me a year.</li></ol>
+<hr>
+<h3 id="platter">platter<a class="hash" href="#platter" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/ˈplætər/ &middot; <em>PLA-tur</em></dd><dt>Русский</dt><dd>большое сервировочное блюдо</dd><dt>Plural</dt><dd><em>platters</em></dd><dt>Countability</dt><dd>countable</dd></dl>
+<p>A large flat plate for serving food to several people.</p>
+<ol><li>Arrange the cheese on a wooden <em>platter</em>.</li><li>He carried the turkey out on a big <em>platter</em>.</li><li>They sent over two <em>platters</em> of sandwiches.</li></ol>
+<hr>
+<h3 id="napkin">napkin<a class="hash" href="#napkin" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/ˈnæpkɪn/ &middot; <em>NAP-kin</em></dd><dt>Русский</dt><dd>салфетка</dd><dt>Plural</dt><dd><em>napkins</em></dd><dt>Countability</dt><dd>countable</dd></dl>
+<p>A piece of cloth or paper used at the table to wipe your hands and mouth.</p>
+<ol><li>Grab a <em>napkin</em> — you've got sauce on your chin.</li><li>She folded a cloth <em>napkin</em> at each place.</li><li>The <em>napkins</em> are in the top drawer.</li></ol>
+<hr>
+<h3 id="tablecloth">tablecloth<a class="hash" href="#tablecloth" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/ˈteɪbəlklɔːθ/ &middot; <em>TAY-bul-klawth</em></dd><dt>Русский</dt><dd>скатерть</dd><dt>Plural</dt><dd><em>tablecloths</em></dd><dt>Countability</dt><dd>countable</dd></dl>
+<p>A cloth spread over a table before a meal.</p>
+<ol><li>Spread a <em>tablecloth</em> over the picnic table.</li><li>Somebody spilled wine on the <em>tablecloth</em>.</li><li>They save the good <em>tablecloths</em> for holidays.</li></ol>
+<hr>
+<h3 id="silverware">silverware<a class="hash" href="#silverware" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/ˈsɪlvərwer/ &middot; <em>SIL-vur-wair</em></dd><dt>Русский</dt><dd>столовые приборы</dd><dt>Countability</dt><dd>uncountable</dd><dt>Contrast</dt><dd>Uncountable — never 'a silverware' or 'silverwares'. British English says cutlery.</dd></dl>
+<p>The knives, forks, and spoons used at a meal.</p>
+<ol><li>Set out the <em>silverware</em> while I finish the salad.</li><li>There's <em>silverware</em> in the drawer by the sink.</li><li>He ran out of clean <em>silverware</em> halfway through the party.</li></ol>
+<hr>
+<h3 id="cookware">cookware<a class="hash" href="#cookware" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/ˈkʊkwer/ &middot; <em>KOOK-wair</em></dd><dt>Русский</dt><dd>кухонная посуда (кастрюли и сковороды)</dd><dt>Countability</dt><dd>uncountable</dd><dt>Contrast</dt><dd>Uncountable, like equipment: a piece of cookware, never 'cookwares'.</dd></dl>
+<p>Pots and pans considered together.</p>
+<ol><li>They registered for a whole set of <em>cookware</em>.</li><li>Cast iron is the cheapest good <em>cookware</em> you can buy.</li><li>Most nonstick <em>cookware</em> can't go in the dishwasher.</li></ol>
+<hr>
+<h3 id="utensil">utensil<a class="hash" href="#utensil" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/juːˈtensəl/ &middot; <em>yoo-TEN-sul</em></dd><dt>Русский</dt><dd>кухонная принадлежность, столовый прибор</dd><dt>Plural</dt><dd><em>utensils</em></dd><dt>Countability</dt><dd>countable</dd><dt>Contrast</dt><dd>Stress is on the second syllable: yoo-TEN-sul.</dd></dl>
+<p>A tool used in preparing or eating food.</p>
+<ol><li>Use a wooden <em>utensil</em> so you don't scratch the pan.</li><li>The drawer is jammed with <em>utensils</em> nobody ever uses.</li><li>Bring your own <em>utensils</em> to the picnic.</li></ol>
+<hr>
+<h3 id="appliance">appliance<a class="hash" href="#appliance" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/əˈplaɪrns/ &middot; <em>uh-PLY-uns</em></dd><dt>Русский</dt><dd>бытовой прибор, бытовая техника</dd><dt>Plural</dt><dd><em>appliances</em></dd><dt>Countability</dt><dd>countable</dd></dl>
+<p>A machine designed for a household job such as cooking or washing.</p>
+<ol><li>The kitchen comes with all new <em>appliances</em>.</li><li>That <em>appliance</em> draws a lot of power.</li><li>They deliver large <em>appliances</em> on Tuesdays.</li></ol>
+<hr>
+<h3 id="chopsticks">chopsticks<a class="hash" href="#chopsticks" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/ˈtʃɑːpstɪks/ &middot; <em>CHAHP-stiks</em></dd><dt>Русский</dt><dd>палочки для еды</dd><dt>Plural</dt><dd><em>chopsticks</em></dd><dt>Countability</dt><dd>countable</dd><dt>Contrast</dt><dd>Normally plural, since you use two: a pair of chopsticks.</dd></dl>
+<p>A pair of thin sticks used for eating in much of East Asia.</p>
+<ol><li>He still can't eat with <em>chopsticks</em>.</li><li>They gave us plastic forks instead of <em>chopsticks</em>.</li><li>A pair of <em>chopsticks</em> came with every order.</li></ol>
+<hr>
+<h3 id="cooking">cooking<a class="hash" href="#cooking" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/ˈkʊkɪŋ/ &middot; <em>KOOK-ing</em></dd><dt>Русский</dt><dd>готовка, приготовление еды</dd><dt>Countability</dt><dd>uncountable</dd></dl>
+<p>The activity of preparing food, or a particular style of it.</p>
+<ol><li>He does most of the <em>cooking</em> at home.</li><li>Italian <em>cooking</em> uses far fewer ingredients than people think.</li><li><em>Cooking</em> for eight people takes some planning.</li></ol>
+<hr>
+<h3 id="baking">baking<a class="hash" href="#baking" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/ˈbeɪkɪŋ/ &middot; <em>BAY-king</em></dd><dt>Русский</dt><dd>выпечка (процесс)</dd><dt>Countability</dt><dd>uncountable</dd></dl>
+<p>The activity of cooking bread, cakes, and pastry in an oven.</p>
+<ol><li>She got into <em>baking</em> during the pandemic.</li><li><em>Baking</em> is more exact than cooking — you can't just eyeball it.</li><li>He's much better at <em>baking</em> than at anything on the stove.</li></ol>
+<hr>
+<h3 id="boil">boil<a class="hash" href="#boil" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/bɔɪl/ &middot; <em>BOYL</em></dd><dt>Русский</dt><dd>кипение (в оборотах bring to a boil)</dd><dt>Plural</dt><dd><em>boils</em></dd><dt>Countability</dt><dd>countable</dd></dl>
+<p>The state of a liquid bubbling at its highest temperature.</p>
+<ol><li>Bring the water to a <em>boil</em> before you add the pasta.</li><li>The soup came to a <em>boil</em> faster than I expected.</li><li>Turn it down as soon as you get a rolling <em>boil</em>.</li></ol>
+<hr>
+<h3 id="simmer">simmer<a class="hash" href="#simmer" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/ˈsɪmər/ &middot; <em>SIH-mur</em></dd><dt>Русский</dt><dd>слабое кипение, томление на медленном огне</dd><dt>Plural</dt><dd><em>simmers</em></dd><dt>Countability</dt><dd>countable</dd></dl>
+<p>Gentle cooking in liquid just below boiling.</p>
+<ol><li>Reduce the heat and hold it at a <em>simmer</em>.</li><li>Bring the sauce to a <em>simmer</em>, then cover it.</li><li>A slow <em>simmer</em> pulls a lot more flavor out of the bones.</li></ol>
+<hr>
+<h3 id="dressing">dressing<a class="hash" href="#dressing" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/ˈdresɪŋ/ &middot; <em>DREH-sing</em></dd><dt>Русский</dt><dd>заправка для салата</dd><dt>Plural</dt><dd><em>dressings</em></dd><dt>Countability</dt><dd>countable, and uncountable as food</dd></dl>
+<p>A sauce of oil and vinegar or cream poured over salad.</p>
+<ol><li>What kind of <em>dressing</em> do you want on your salad?</li><li>Toss the greens with the <em>dressing</em> right before you serve it.</li><li>The house <em>dressings</em> are all made from scratch.</li></ol>
+<hr>
+<h3 id="marinade">marinade<a class="hash" href="#marinade" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/ˈmerəneɪd/ &middot; <em>MEH-ruh-nayd</em></dd><dt>Русский</dt><dd>маринад</dd><dt>Plural</dt><dd><em>marinades</em></dd><dt>Countability</dt><dd>countable, and uncountable as food</dd><dt>Contrast</dt><dd>The noun is marinade (MEH-ruh-nayd); the verb is marinate (MEH-ruh-nayt).</dd></dl>
+<p>A seasoned liquid that food soaks in before cooking.</p>
+<ol><li>Let the chicken sit in the <em>marinade</em> overnight.</li><li>The <em>marinade</em> is just soy sauce, garlic, and ginger.</li><li>Acidic <em>marinades</em> will start to cook the fish.</li></ol>
+<hr>
+<h3 id="glaze">glaze<a class="hash" href="#glaze" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/ɡleɪz/ &middot; <em>GLAYZ</em></dd><dt>Русский</dt><dd>глазурь, блестящая заливка</dd><dt>Plural</dt><dd><em>glazes</em></dd><dt>Countability</dt><dd>countable, and uncountable as food</dd></dl>
+<p>A shiny coating brushed or poured over food.</p>
+<ol><li>Brush a honey <em>glaze</em> over the ham.</li><li>The donuts have a thin sugar <em>glaze</em>.</li><li>Sweet <em>glazes</em> burn if the oven's too hot.</li></ol>
+<hr>
+<h3 id="topping">topping<a class="hash" href="#topping" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/ˈtɑːpɪŋ/ &middot; <em>TAH-ping</em></dd><dt>Русский</dt><dd>начинка сверху, посыпка</dd><dt>Plural</dt><dd><em>toppings</em></dd><dt>Countability</dt><dd>countable, and uncountable as food</dd></dl>
+<p>Food put on top of another food for flavor.</p>
+<ol><li>What <em>toppings</em> do you want on the pizza?</li><li>The crumb <em>topping</em> is the best part.</li><li>Extra <em>toppings</em> are a dollar each.</li></ol>
+<hr>
+<h3 id="serving">serving<a class="hash" href="#serving" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/ˈsɜːrvɪŋ/ &middot; <em>SUR-ving</em></dd><dt>Русский</dt><dd>порция (в рецепте, на упаковке)</dd><dt>Plural</dt><dd><em>servings</em></dd><dt>Countability</dt><dd>countable</dd></dl>
+<p>One standard helping of food, as counted in a recipe.</p>
+<ol><li>This recipe makes four <em>servings</em>.</li><li>One <em>serving</em> is around 300 calories.</li><li>He went back for a second <em>serving</em>.</li></ol>
+<hr>
+<h3 id="cuisine">cuisine<a class="hash" href="#cuisine" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/kwɪˈziːn/ &middot; <em>kwih-ZEEN</em></dd><dt>Русский</dt><dd>кухня (национальная), кулинарная традиция</dd><dt>Countability</dt><dd>uncountable</dd><dt>Contrast</dt><dd>Said kwih-ZEEN: the c is a k sound and the s sounds like z.</dd></dl>
+<p>A style of cooking associated with a country or region.</p>
+<ol><li>He's obsessed with Thai <em>cuisine</em>.</li><li>The restaurant serves modern American <em>cuisine</em>.</li><li>French <em>cuisine</em> isn't all heavy sauces.</li></ol>
+<hr>
+<h3 id="taste">taste<a class="hash" href="#taste" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/teɪst/ &middot; <em>TAYST</em></dd><dt>Русский</dt><dd>вкус (ощущение); привкус</dd><dt>Plural</dt><dd><em>tastes</em></dd><dt>Countability</dt><dd>both — countable and uncountable with different meanings</dd></dl>
+<p>The sensation food produces in your mouth, or a small sample of it.</p>
+<ol><li>It has a slightly bitter <em>taste</em>.</li><li>A bad cold ruins your sense of <em>taste</em>.</li><li>Give me a <em>taste</em> before you add more salt.</li></ol>
+<hr>
+<h3 id="texture">texture<a class="hash" href="#texture" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/ˈtekstʃər/ &middot; <em>TEKS-chur</em></dd><dt>Русский</dt><dd>текстура, консистенция</dd><dt>Plural</dt><dd><em>textures</em></dd><dt>Countability</dt><dd>countable</dd></dl>
+<p>The way food feels in the mouth.</p>
+<ol><li>The bread has a nice chewy <em>texture</em>.</li><li>Overcooking ruins the <em>texture</em> of shrimp.</li><li>The two sauces have completely different <em>textures</em>.</li></ol>
+<hr>
+<h3 id="heat">heat<a class="hash" href="#heat" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/hiːt/ &middot; <em>HEET</em></dd><dt>Русский</dt><dd>огонь, нагрев (на плите)</dd><dt>Countability</dt><dd>uncountable</dd></dl>
+<p>The level of warmth used to cook something.</p>
+<ol><li>Cook it over medium <em>heat</em>.</li><li>Turn the <em>heat</em> down before it scorches.</li><li>Cast iron holds <em>heat</em> better than aluminum.</li></ol>
+<hr>
+<h3 id="steam">steam<a class="hash" href="#steam" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/stiːm/ &middot; <em>STEEM</em></dd><dt>Русский</dt><dd>пар</dd><dt>Countability</dt><dd>uncountable</dd></dl>
+<p>The hot vapor that rises from boiling water.</p>
+<ol><li>Lift the lid away from you so the <em>steam</em> doesn't burn you.</li><li>The rice finishes cooking in its own <em>steam</em>.</li><li>There was so much <em>steam</em> the windows fogged up.</li></ol>
+<hr>
+<h3 id="batch">batch<a class="hash" href="#batch" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/bætʃ/ &middot; <em>BACH</em></dd><dt>Русский</dt><dd>партия, порция (приготовленного за раз)</dd><dt>Plural</dt><dd><em>batches</em></dd><dt>Countability</dt><dd>countable</dd></dl>
+<p>An amount of food made or baked at one time.</p>
+<ol><li>The first <em>batch</em> of cookies burned.</li><li>She makes a big <em>batch</em> of soup on Sundays.</li><li>We froze two <em>batches</em> of sauce.</li></ol>
+<hr>
+<h3 id="mixture">mixture<a class="hash" href="#mixture" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/ˈmɪkstʃər/ &middot; <em>MIKS-chur</em></dd><dt>Русский</dt><dd>смесь</dd><dt>Plural</dt><dd><em>mixtures</em></dd><dt>Countability</dt><dd>countable</dd></dl>
+<p>Ingredients that have been combined together.</p>
+<ol><li>Stir the <em>mixture</em> until it's smooth.</li><li>Pour the <em>mixture</em> over the crust.</li><li>Both <em>mixtures</em> need to chill for an hour.</li></ol>
+<hr>
+<h3 id="zest">zest<a class="hash" href="#zest" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/zest/ &middot; <em>ZEST</em></dd><dt>Русский</dt><dd>цедра</dd><dt>Countability</dt><dd>uncountable</dd></dl>
+<p>The colored outer part of citrus peel, grated for flavor.</p>
+<ol><li>Add the <em>zest</em> of one lemon.</li><li>Orange <em>zest</em> makes the whole thing taste brighter.</li><li>Grate the <em>zest</em> off before you juice the fruit.</li></ol>
+<hr>
+<h3 id="stir-fry">stir-fry<a class="hash" href="#stir-fry" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/ˈstɜːrfraɪ/ &middot; <em>STUR-fry</em></dd><dt>Русский</dt><dd>блюдо, обжаренное в воке на сильном огне</dd><dt>Plural</dt><dd><em>stir-fries</em></dd><dt>Countability</dt><dd>countable</dd></dl>
+<p>A dish of small pieces cooked quickly over high heat while being stirred.</p>
+<ol><li>We had a vegetable <em>stir-fry</em> for dinner.</li><li>A <em>stir-fry</em> takes about ten minutes start to finish.</li><li>Weeknight <em>stir-fries</em> are my go-to.</li></ol></div></main>
+<button class="themebtn" id="themeBtn">Dark</button>
+<script>
+const tb=document.getElementById('themeBtn');
+function setTheme(x){document.documentElement.dataset.theme=x;tb.textContent=x==='dark'?'Light':'Dark';
+ try{localStorage.setItem('site-theme',x)}catch(e){}}
+tb.onclick=()=>setTheme(document.documentElement.dataset.theme==='dark'?'light':'dark');
+try{const s=localStorage.getItem('site-theme');
+ setTheme(s||(matchMedia('(prefers-color-scheme: dark)').matches?'dark':'light'))}catch(e){setTheme('light')}
+</script></body></html>

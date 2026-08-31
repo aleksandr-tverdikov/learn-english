@@ -1,0 +1,686 @@
+<!DOCTYPE html>
+<html lang="en"><head>
+<meta charset="utf-8"><meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Core vocabulary: money and finance</title>
+<style>
+:root{--bg:#faf9f7;--surface:#fff;--surface2:#f2f0ec;--border:#e2ded6;--text:#1a1815;
+--dim:#5f594f;--faint:#8a8377;--accent:#8a5a3b;--measure:72ch}
+@media(prefers-color-scheme:dark){:root{--bg:#14140f;--surface:#1d1d17;--surface2:#25251d;
+--border:#33332a;--text:#eeeae1;--dim:#a8a293;--faint:#7d776b;--accent:#d09b72}}
+:root[data-theme=dark]{--bg:#14140f;--surface:#1d1d17;--surface2:#25251d;--border:#33332a;
+--text:#eeeae1;--dim:#a8a293;--faint:#7d776b;--accent:#d09b72}
+:root[data-theme=light]{--bg:#faf9f7;--surface:#fff;--surface2:#f2f0ec;--border:#e2ded6;
+--text:#1a1815;--dim:#5f594f;--faint:#8a8377;--accent:#8a5a3b}
+*{box-sizing:border-box}
+body{margin:0;background:var(--bg);color:var(--text);
+font:17px/1.72 ui-serif,Georgia,"Iowan Old Style",Palatino,serif;-webkit-font-smoothing:antialiased}
+.wrap{max-width:min(var(--measure),100%);margin:0 auto;padding:0 22px}
+nav.crumb{border-bottom:1px solid var(--border);padding:13px 0;font-size:13.5px;
+font-family:-apple-system,BlinkMacSystemFont,"Segoe UI",sans-serif;position:sticky;top:0;background:var(--bg);z-index:20}
+nav.crumb .wrap{max-width:none;display:flex;gap:9px;align-items:center;flex-wrap:wrap}
+nav.crumb a{color:var(--dim);text-decoration:none}
+nav.crumb a:hover{color:var(--accent)}
+nav.crumb .sep{color:var(--faint)}
+main{padding:8px 0 80px}
+h1{font-size:clamp(28px,5vw,38px);line-height:1.15;letter-spacing:-.015em;margin:34px 0 18px}
+h2{font-size:25px;margin:46px 0 14px;letter-spacing:-.01em;padding-bottom:7px;border-bottom:1px solid var(--border)}
+h3{font-size:19px;margin:34px 0 10px;color:var(--accent)}
+h4{font-size:16px;margin:24px 0 8px;font-family:-apple-system,sans-serif}
+p{margin:0 0 16px}
+a{color:var(--accent)}
+.hash{opacity:0;margin-left:8px;font-weight:400;font-size:.65em;text-decoration:none;color:var(--faint)}
+h2:hover .hash,h3:hover .hash{opacity:1}
+blockquote{margin:0 0 20px;padding:14px 18px;background:var(--surface2);
+border-left:3px solid var(--accent);border-radius:0 8px 8px 0}
+blockquote p:last-child{margin-bottom:0}
+ol,ul{margin:0 0 18px;padding-left:26px}
+li{margin-bottom:8px}
+li>ul,li>ol{margin:8px 0 0}
+code{font-family:ui-monospace,SFMono-Regular,Menlo,Consolas,monospace;font-size:.87em;
+background:var(--surface2);padding:1px 5px;border-radius:4px}
+pre{background:var(--surface2);border:1px solid var(--border);border-radius:9px;
+padding:15px 17px;overflow-x:auto;margin:0 0 20px}
+pre code{background:none;padding:0;font-size:13px;line-height:1.6}
+.tw{overflow-x:auto;margin:0 0 22px;border:1px solid var(--border);border-radius:9px}
+table{border-collapse:collapse;width:100%;font-size:15px;
+font-family:-apple-system,BlinkMacSystemFont,"Segoe UI",sans-serif}
+th,td{padding:10px 14px;border-bottom:1px solid var(--border);vertical-align:top}
+th{background:var(--surface2);font-size:12px;text-transform:uppercase;
+letter-spacing:.06em;color:var(--dim);font-weight:700;white-space:nowrap}
+tbody tr:last-child td{border-bottom:none}
+hr{border:none;border-top:1px solid var(--border);margin:38px 0}
+details{background:var(--surface2);border:1px solid var(--border);border-radius:9px;
+padding:13px 17px;margin:0 0 20px}
+summary{cursor:pointer;font-weight:600;font-family:-apple-system,sans-serif;font-size:15px}
+details[open] summary{margin-bottom:12px}
+del{color:var(--faint)}
+dl.fields{margin:0 0 20px;padding:0}
+dl.fields dt{font-family:-apple-system,BlinkMacSystemFont,"Segoe UI",sans-serif;
+font-size:11px;letter-spacing:.11em;text-transform:uppercase;color:var(--faint);
+font-weight:700;margin:14px 0 4px}
+dl.fields dt:first-child{margin-top:0}
+dl.fields dd{margin:0;font-size:16px;color:var(--dim);line-height:1.62}
+dl.fields dd em{color:var(--text)}
+dl.fields dt.ru{color:var(--accent)}
+dl.fields dd strong{color:var(--text)}
+.toc{background:var(--surface2);border:1px solid var(--border);border-radius:10px;
+padding:16px 20px;margin:26px 0 34px;font-family:-apple-system,sans-serif;font-size:14px}
+.toc b{display:block;font-size:11px;letter-spacing:.12em;text-transform:uppercase;
+color:var(--faint);margin-bottom:9px}
+.toc a{display:block;padding:3px 0;color:var(--dim);text-decoration:none}
+.toc a:hover{color:var(--accent)}
+.themebtn{position:fixed;right:18px;bottom:18px;z-index:60;font-family:-apple-system,sans-serif;
+font-size:12.5px;font-weight:600;cursor:pointer;background:var(--surface);border:1px solid var(--border);
+border-radius:99px;padding:9px 16px;color:var(--text)}
+@media(max-width:600px){body{font-size:16px}.wrap{padding:0 17px}}
+</style></head><body>
+<nav class="crumb"><div class="wrap"><a href="../../../index.html">Learn English</a><span class="sep">/</span><a href="../../README.html">Parts of speech</a><span class="sep">/</span><a href="../README.html">01-nouns</a><span class="sep">/</span><span>catalog</span></div></nav>
+<main><div class="wrap"><h1 id="core-vocabulary-money-and-finance">Core vocabulary: money and finance<a class="hash" href="#core-vocabulary-money-and-finance" aria-label="link">#</a></h1>
+<blockquote><p>The everyday nouns of money and finance — pronunciation, Russian, plural, and three examples each.</p></blockquote>
+<p><a href="../README.html">← The grammar of nouns</a> &middot; <a href="README.html">All groups</a></p>
+<p>Part of the <strong>core-vocabulary tier</strong>. Groups 1–23 cover the nouns that misbehave; this tier covers the nouns you simply need to know. Entries are deliberately lean, because a regular countable noun has no grammatical story to tell. A <strong>Contrast</strong> line appears only where the word hides a genuine trap.</p>
+<p>Where a word in this field <em>does</em> misbehave, it lives in the grammar tier instead and is not repeated here.</p>
+<hr>
+<h3 id="dollar">dollar<a class="hash" href="#dollar" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/ˈdɑːlər/ &middot; <em>DAH-lur</em></dd><dt>Русский</dt><dd>доллар</dd><dt>Plural</dt><dd><em>dollars</em></dd><dt>Countability</dt><dd>countable</dd></dl>
+<p>The basic unit of money in the United States and several other countries.</p>
+<ol><li>I found a <em>dollar</em> in the parking lot.</li><li>He makes about ninety thousand <em>dollars</em> a year.</li><li>The <em>dollar</em> gained against the euro this week.</li></ol>
+<hr>
+<h3 id="cent">cent<a class="hash" href="#cent" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/sent/ &middot; <em>SENT</em></dd><dt>Русский</dt><dd>цент</dd><dt>Plural</dt><dd><em>cents</em></dd><dt>Countability</dt><dd>countable</dd><dt>Contrast</dt><dd>Sounds exactly like <em>sent</em> and <em>scent</em> in American English.</dd></dl>
+<p>A unit of money worth one hundredth of a dollar.</p>
+<ol><li>The pen cost ninety-nine <em>cents</em>.</li><li>I don't have a <em>cent</em> on me.</li><li>Every <em>cent</em> goes to the animal shelter.</li></ol>
+<hr>
+<h3 id="coin">coin<a class="hash" href="#coin" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/kɔɪn/ &middot; <em>KOYN</em></dd><dt>Русский</dt><dd>монета</dd><dt>Plural</dt><dd><em>coins</em></dd><dt>Countability</dt><dd>countable</dd></dl>
+<p>A flat piece of metal used as money.</p>
+<ol><li>She dropped a <em>coin</em> in the fountain.</li><li>He keeps his <em>coins</em> in a jar by the door.</li><li>The machine only takes <em>coins</em>.</li></ol>
+<hr>
+<h3 id="currency">currency<a class="hash" href="#currency" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/ˈkɜːrənsi/ &middot; <em>KUR-uhn-see</em></dd><dt>Русский</dt><dd>валюта</dd><dt>Plural</dt><dd><em>currencies</em></dd><dt>Countability</dt><dd>countable</dd></dl>
+<p>The system of money used in a particular country.</p>
+<ol><li>The local <em>currency</em> is the peso.</li><li>Several <em>currencies</em> fell against the dollar.</li><li>You can pay in either <em>currency</em>.</li></ol>
+<hr>
+<h3 id="change">change<a class="hash" href="#change" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/tʃeɪndʒ/ &middot; <em>CHAYNJ</em></dd><dt>Русский</dt><dd>сдача; мелочь</dd><dt>Countability</dt><dd>uncountable</dd><dt>Contrast</dt><dd>In the money sense it is uncountable — never <em>changes</em>.</dd></dl>
+<p>The money returned to you after paying, or coins of small value.</p>
+<ol><li>Keep the <em>change</em>.</li><li>Do you have <em>change</em> for a twenty?</li><li>I emptied the <em>change</em> out of my pockets.</li></ol>
+<hr>
+<h3 id="dime">dime<a class="hash" href="#dime" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/daɪm/ &middot; <em>DYME</em></dd><dt>Русский</dt><dd>монета в 10 центов</dd><dt>Plural</dt><dd><em>dimes</em></dd><dt>Countability</dt><dd>countable</dd></dl>
+<p>An American coin worth ten cents.</p>
+<ol><li>A phone call cost a <em>dime</em> back then.</li><li>She counted out four <em>dimes</em> for the meter.</li><li>I've got a couple of <em>dimes</em> in my pocket.</li></ol>
+<hr>
+<h3 id="quarter">quarter<a class="hash" href="#quarter" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/ˈkwɔːrtər/ &middot; <em>KWOR-tur</em></dd><dt>Русский</dt><dd>монета в 25 центов; квартал (года)</dd><dt>Plural</dt><dd><em>quarters</em></dd><dt>Countability</dt><dd>countable</dd><dt>Contrast</dt><dd>Two everyday senses: the 25-cent coin and a three-month period of a business year.</dd></dl>
+<p>An American coin worth twenty-five cents, or a three-month business period.</p>
+<ol><li>The laundry machines need <em>quarters</em>.</li><li>Sales were up in the third <em>quarter</em>.</li><li>Do you have a <em>quarter</em> for the parking meter?</li></ol>
+<hr>
+<h3 id="account">account<a class="hash" href="#account" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/əˈkaʊnt/ &middot; <em>uh-KOWNT</em></dd><dt>Русский</dt><dd>счёт (банковский)</dd><dt>Plural</dt><dd><em>accounts</em></dd><dt>Countability</dt><dd>countable</dd></dl>
+<p>An arrangement that lets you keep money at a bank.</p>
+<ol><li>I opened a checking <em>account</em> last week.</li><li>There's nothing left in my <em>account</em>.</li><li>They froze both <em>accounts</em> during the investigation.</li></ol>
+<hr>
+<h3 id="deposit">deposit<a class="hash" href="#deposit" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/dɪˈpɑːzət/ &middot; <em>dih-PAH-zut</em></dd><dt>Русский</dt><dd>вклад; взнос; залог</dd><dt>Plural</dt><dd><em>deposits</em></dd><dt>Countability</dt><dd>countable</dd></dl>
+<p>Money put into an account, or money left as security.</p>
+<ol><li>I made a <em>deposit</em> at the ATM.</li><li>The landlord kept our security <em>deposit</em>.</li><li>Direct <em>deposits</em> usually clear overnight.</li></ol>
+<hr>
+<h3 id="withdrawal">withdrawal<a class="hash" href="#withdrawal" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/wɪðˈdrɔːəl/ &middot; <em>with-DRAW-uhl</em></dd><dt>Русский</dt><dd>снятие денег со счёта</dd><dt>Plural</dt><dd><em>withdrawals</em></dd><dt>Countability</dt><dd>countable</dd></dl>
+<p>An act of taking money out of a bank account.</p>
+<ol><li>There's a limit on daily <em>withdrawals</em>.</li><li>The <em>withdrawal</em> showed up on my statement.</li><li>She made a large <em>withdrawal</em> on Friday afternoon.</li></ol>
+<hr>
+<h3 id="balance">balance<a class="hash" href="#balance" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/ˈbæləns/ &middot; <em>BAL-uhns</em></dd><dt>Русский</dt><dd>остаток на счёте, баланс</dd><dt>Plural</dt><dd><em>balances</em></dd><dt>Countability</dt><dd>countable</dd></dl>
+<p>The amount of money in an account, or the amount still owed.</p>
+<ol><li>My account <em>balance</em> is down to forty dollars.</li><li>Check your <em>balance</em> before you spend.</li><li>They pay off their credit card <em>balances</em> every month.</li></ol>
+<hr>
+<h3 id="transfer">transfer<a class="hash" href="#transfer" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/ˈtrænsfɜːr/ &middot; <em>TRANS-fur</em></dd><dt>Русский</dt><dd>перевод (денег)</dd><dt>Plural</dt><dd><em>transfers</em></dd><dt>Countability</dt><dd>countable</dd><dt>Contrast</dt><dd>Noun stress falls on the first syllable (TRANS-fer); the verb stresses the second (trans-FER).</dd></dl>
+<p>A movement of money from one account to another.</p>
+<ol><li>The wire <em>transfer</em> takes two business days.</li><li>I set up an automatic <em>transfer</em> to savings.</li><li>International <em>transfers</em> cost extra.</li></ol>
+<hr>
+<h3 id="teller">teller<a class="hash" href="#teller" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/ˈtelər/ &middot; <em>TEL-ur</em></dd><dt>Русский</dt><dd>банковский кассир, операционист</dd><dt>Plural</dt><dd><em>tellers</em></dd><dt>Countability</dt><dd>countable</dd></dl>
+<p>A bank employee who handles customers' cash at a counter.</p>
+<ol><li>The <em>teller</em> asked for my ID.</li><li>Only two <em>tellers</em> were working.</li><li>Ask a <em>teller</em> to order the cash for you.</li></ol>
+<hr>
+<h3 id="atm">ATM<a class="hash" href="#atm" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/ˌeɪ tiː ˈem/ &middot; <em>ay-tee-EM</em></dd><dt>Русский</dt><dd>банкомат</dd><dt>Plural</dt><dd><em>ATMs</em></dd><dt>Countability</dt><dd>countable</dd></dl>
+<p>A machine that lets you take cash out of your bank account.</p>
+<ol><li>There's an <em>ATM</em> in the lobby.</li><li>Most <em>ATMs</em> charge a fee if you're out of network.</li><li>The <em>ATM</em> ate my card.</li></ol>
+<hr>
+<h3 id="check">check<a class="hash" href="#check" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/tʃek/ &middot; <em>CHEK</em></dd><dt>Русский</dt><dd>чек (банковский)</dd><dt>Plural</dt><dd><em>checks</em></dd><dt>Countability</dt><dd>countable</dd><dt>Contrast</dt><dd>American spelling is <em>check</em>; British English writes <em>cheque</em> for the bank sense.</dd></dl>
+<p>A printed form ordering your bank to pay someone from your account.</p>
+<ol><li>He wrote me a <em>check</em> for the deposit.</li><li>The <em>check</em> bounced.</li><li>They still mail paper <em>checks</em>.</li></ol>
+<hr>
+<h3 id="statement">statement<a class="hash" href="#statement" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/ˈsteɪtmənt/ &middot; <em>STAYT-muhnt</em></dd><dt>Русский</dt><dd>выписка со счёта</dd><dt>Plural</dt><dd><em>statements</em></dd><dt>Countability</dt><dd>countable</dd></dl>
+<p>A record from a bank listing the activity on an account.</p>
+<ol><li>My bank <em>statement</em> came in the mail.</li><li>Go through the last three <em>statements</em>.</li><li>The charge isn't on this <em>statement</em>.</li></ol>
+<hr>
+<h3 id="interest">interest<a class="hash" href="#interest" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/ˈɪntrəst/ &middot; <em>IN-truhst</em></dd><dt>Русский</dt><dd>проценты (по вкладу или кредиту)</dd><dt>Countability</dt><dd>uncountable</dd><dt>Contrast</dt><dd>In the money sense it is uncountable — never <em>interests</em>.</dd></dl>
+<p>Money paid for the use of borrowed money, or earned on savings.</p>
+<ol><li>The loan carries eight percent <em>interest</em>.</li><li>You'll pay a lot of <em>interest</em> over thirty years.</li><li>The account earns almost no <em>interest</em>.</li></ol>
+<hr>
+<h3 id="transaction">transaction<a class="hash" href="#transaction" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/trænˈzækʃən/ &middot; <em>tran-ZAK-shuhn</em></dd><dt>Русский</dt><dd>операция, транзакция</dd><dt>Plural</dt><dd><em>transactions</em></dd><dt>Countability</dt><dd>countable</dd></dl>
+<p>A single act of paying, receiving or moving money.</p>
+<ol><li>The <em>transaction</em> was declined.</li><li>You get ten free <em>transactions</em> a month.</li><li>Every <em>transaction</em> shows up in the app right away.</li></ol>
+<hr>
+<h3 id="payment">payment<a class="hash" href="#payment" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/ˈpeɪmənt/ &middot; <em>PAY-muhnt</em></dd><dt>Русский</dt><dd>платёж, оплата</dd><dt>Plural</dt><dd><em>payments</em></dd><dt>Countability</dt><dd>countable</dd></dl>
+<p>An amount of money paid, or the act of paying it.</p>
+<ol><li>The first <em>payment</em> is due on the first of the month.</li><li>We missed two car <em>payments</em>.</li><li>He set up automatic <em>payments</em> for the utilities.</li></ol>
+<hr>
+<h3 id="receipt">receipt<a class="hash" href="#receipt" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/rɪˈsiːt/ &middot; <em>rih-SEET</em></dd><dt>Русский</dt><dd>чек, квитанция</dd><dt>Plural</dt><dd><em>receipts</em></dd><dt>Countability</dt><dd>countable</dd><dt>Contrast</dt><dd>The <em>p</em> is silent — say rih-SEET.</dd></dl>
+<p>A printed proof that you paid for something.</p>
+<ol><li>Keep the <em>receipt</em> in case you return it.</li><li>I can't find the <em>receipt</em> for the printer.</li><li>Save your <em>receipts</em> for tax season.</li></ol>
+<hr>
+<h3 id="invoice">invoice<a class="hash" href="#invoice" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/ˈɪnvɔɪs/ &middot; <em>IN-voys</em></dd><dt>Русский</dt><dd>счёт на оплату, инвойс</dd><dt>Plural</dt><dd><em>invoices</em></dd><dt>Countability</dt><dd>countable</dd></dl>
+<p>A document sent to a customer listing goods or work and the amount owed.</p>
+<ol><li>I'll send the <em>invoice</em> on Friday.</li><li>They haven't paid last month's <em>invoice</em>.</li><li>Three <em>invoices</em> are still outstanding.</li></ol>
+<hr>
+<h3 id="credit">credit<a class="hash" href="#credit" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/ˈkredət/ &middot; <em>KRED-ut</em></dd><dt>Русский</dt><dd>кредит (возможность занимать)</dd><dt>Countability</dt><dd>uncountable</dd></dl>
+<p>The ability to buy now and pay later, based on trust that you will repay.</p>
+<ol><li>Her <em>credit</em> is excellent.</li><li>We bought the couch on <em>credit</em>.</li><li>They cut off his line of <em>credit</em>.</li></ol>
+<hr>
+<h3 id="debit">debit<a class="hash" href="#debit" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/ˈdebət/ &middot; <em>DEB-ut</em></dd><dt>Русский</dt><dd>дебет; списание со счёта</dd><dt>Plural</dt><dd><em>debits</em></dd><dt>Countability</dt><dd>countable</dd></dl>
+<p>An amount taken directly out of a bank account.</p>
+<ol><li>I paid with my <em>debit</em> card.</li><li>The <em>debit</em> posted this morning.</li><li>There are two <em>debits</em> I don't recognize.</li></ol>
+<hr>
+<h3 id="credit-card">credit card<a class="hash" href="#credit-card" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/ˈkredət kɑːrd/ &middot; <em>KRED-ut KARD</em></dd><dt>Русский</dt><dd>кредитная карта</dd><dt>Plural</dt><dd><em>credit cards</em></dd><dt>Countability</dt><dd>countable</dd></dl>
+<p>A plastic card that lets you buy things with borrowed money.</p>
+<ol><li>My <em>credit card</em> got declined.</li><li>He pays off his <em>credit cards</em> every month.</li><li>They don't take that <em>credit card</em> here.</li></ol>
+<hr>
+<h3 id="credit-score">credit score<a class="hash" href="#credit-score" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/ˈkredət skɔːr/ &middot; <em>KRED-ut SKOR</em></dd><dt>Русский</dt><dd>кредитный рейтинг</dd><dt>Plural</dt><dd><em>credit scores</em></dd><dt>Countability</dt><dd>countable</dd></dl>
+<p>A number that tells lenders how reliably you repay what you borrow.</p>
+<ol><li>My <em>credit score</em> dropped forty points.</li><li>A good <em>credit score</em> gets you a better rate.</li><li><em>Credit scores</em> update about once a month.</li></ol>
+<hr>
+<h3 id="loan">loan<a class="hash" href="#loan" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/loʊn/ &middot; <em>LOHN</em></dd><dt>Русский</dt><dd>заём, ссуда, кредит</dd><dt>Plural</dt><dd><em>loans</em></dd><dt>Countability</dt><dd>countable</dd></dl>
+<p>A sum of money borrowed that must be paid back, usually with interest.</p>
+<ol><li>They took out a <em>loan</em> to fix the roof.</li><li>She's still paying off her student <em>loans</em>.</li><li>The bank approved the <em>loan</em> in a week.</li></ol>
+<hr>
+<h3 id="debt">debt<a class="hash" href="#debt" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/det/ &middot; <em>DET</em></dd><dt>Русский</dt><dd>долг, задолженность</dd><dt>Plural</dt><dd><em>debts</em></dd><dt>Countability</dt><dd>countable</dd><dt>Contrast</dt><dd>The <em>b</em> is silent — it rhymes with <em>bet</em>.</dd></dl>
+<p>Money that one person or company owes another.</p>
+<ol><li>He's finally out of <em>debt</em>.</li><li>They ran up huge <em>debts</em> on credit cards.</li><li>The company is drowning in <em>debt</em>.</li></ol>
+<hr>
+<h3 id="mortgage">mortgage<a class="hash" href="#mortgage" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/ˈmɔːrɡɪdʒ/ &middot; <em>MOR-gij</em></dd><dt>Русский</dt><dd>ипотека, ипотечный кредит</dd><dt>Plural</dt><dd><em>mortgages</em></dd><dt>Countability</dt><dd>countable</dd><dt>Contrast</dt><dd>The <em>t</em> is silent — say MOR-gij, never mort-gage.</dd></dl>
+<p>A long-term loan used to buy a house, with the house as security.</p>
+<ol><li>We refinanced the <em>mortgage</em> last spring.</li><li>Their <em>mortgage</em> payment eats half their income.</li><li><em>Mortgages</em> got a lot more expensive this year.</li></ol>
+<hr>
+<h3 id="lender">lender<a class="hash" href="#lender" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/ˈlendər/ &middot; <em>LEN-dur</em></dd><dt>Русский</dt><dd>кредитор, заимодавец</dd><dt>Plural</dt><dd><em>lenders</em></dd><dt>Countability</dt><dd>countable</dd></dl>
+<p>A person or company that lends money.</p>
+<ol><li>Shop around before you pick a <em>lender</em>.</li><li>The <em>lender</em> wanted two years of tax returns.</li><li>Several <em>lenders</em> turned him down.</li></ol>
+<hr>
+<h3 id="installment">installment<a class="hash" href="#installment" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/ɪnˈstɔːlmənt/ &middot; <em>in-STAWL-muhnt</em></dd><dt>Русский</dt><dd>взнос, платёж в рассрочку</dd><dt>Plural</dt><dd><em>installments</em></dd><dt>Countability</dt><dd>countable</dd><dt>Contrast</dt><dd>American spelling doubles the l — <em>installment</em>; the British write <em>instalment</em>.</dd></dl>
+<p>One of a series of regular payments toward a larger sum.</p>
+<ol><li>You can pay in twelve monthly <em>installments</em>.</li><li>The last <em>installment</em> is due in June.</li><li>He missed an <em>installment</em> and they called him.</li></ol>
+<hr>
+<h3 id="collateral">collateral<a class="hash" href="#collateral" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/kəˈlætərəl/ &middot; <em>kuh-LAT-ur-uhl</em></dd><dt>Русский</dt><dd>залог, обеспечение кредита</dd><dt>Countability</dt><dd>uncountable</dd></dl>
+<p>Property promised to a lender in case the borrower cannot repay.</p>
+<ol><li>He put up his truck as <em>collateral</em>.</li><li>The bank wants <em>collateral</em> for a loan that size.</li><li>Without <em>collateral</em>, the rate goes way up.</li></ol>
+<hr>
+<h3 id="creditor">creditor<a class="hash" href="#creditor" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/ˈkredətər/ &middot; <em>KRED-uh-tur</em></dd><dt>Русский</dt><dd>кредитор</dd><dt>Plural</dt><dd><em>creditors</em></dd><dt>Countability</dt><dd>countable</dd></dl>
+<p>A person or company that is owed money.</p>
+<ol><li>His <em>creditors</em> have been calling all week.</li><li>The company owes three <em>creditors</em> over a million dollars.</li><li>A <em>creditor</em> can't just take your paycheck.</li></ol>
+<hr>
+<h3 id="bankruptcy">bankruptcy<a class="hash" href="#bankruptcy" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/ˈbæŋkrəptsi/ &middot; <em>BANK-ruhpt-see</em></dd><dt>Русский</dt><dd>банкротство</dd><dt>Plural</dt><dd><em>bankruptcies</em></dd><dt>Countability</dt><dd>countable</dd></dl>
+<p>A legal state in which someone cannot pay what they owe.</p>
+<ol><li>The airline filed for <em>bankruptcy</em>.</li><li>Medical bills are a leading cause of <em>bankruptcy</em>.</li><li><em>Bankruptcies</em> spiked after the crash.</li></ol>
+<hr>
+<h3 id="default">default<a class="hash" href="#default" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/dɪˈfɔːlt/ &middot; <em>dih-FAWLT</em></dd><dt>Русский</dt><dd>дефолт, невыполнение обязательств</dd><dt>Plural</dt><dd><em>defaults</em></dd><dt>Countability</dt><dd>countable</dd></dl>
+<p>A failure to make payments that you are legally required to make.</p>
+<ol><li>The country is close to <em>default</em>.</li><li>A single <em>default</em> wrecks your credit.</li><li>Loan <em>defaults</em> rose sharply last quarter.</li></ol>
+<hr>
+<h3 id="principal">principal<a class="hash" href="#principal" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/ˈprɪnsəpəl/ &middot; <em>PRIN-suh-puhl</em></dd><dt>Русский</dt><dd>основная сумма долга</dd><dt>Countability</dt><dd>uncountable</dd><dt>Contrast</dt><dd>Sounds exactly like <em>principle</em>, a rule; the money sense is spelled <em>principal</em>.</dd></dl>
+<p>The original amount of a loan, apart from the interest on it.</p>
+<ol><li>Most of the early payments go to interest, not <em>principal</em>.</li><li>She put an extra hundred a month toward the <em>principal</em>.</li><li>The <em>principal</em> on the loan is still forty thousand.</li></ol>
+<hr>
+<h3 id="down-payment">down payment<a class="hash" href="#down-payment" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/ˌdaʊn ˈpeɪmənt/ &middot; <em>down PAY-muhnt</em></dd><dt>Русский</dt><dd>первоначальный взнос</dd><dt>Plural</dt><dd><em>down payments</em></dd><dt>Countability</dt><dd>countable</dd></dl>
+<p>The part of a price paid up front, with the rest borrowed.</p>
+<ol><li>They're saving for a <em>down payment</em> on a house.</li><li>The <em>down payment</em> was twenty percent.</li><li>Bigger <em>down payments</em> mean lower monthly costs.</li></ol>
+<hr>
+<h3 id="interest-rate">interest rate<a class="hash" href="#interest-rate" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/ˈɪntrəst reɪt/ &middot; <em>IN-truhst RAYT</em></dd><dt>Русский</dt><dd>процентная ставка</dd><dt>Plural</dt><dd><em>interest rates</em></dd><dt>Countability</dt><dd>countable</dd></dl>
+<p>The percentage charged for borrowing money or paid on savings.</p>
+<ol><li><em>Interest rates</em> went up again.</li><li>We locked in a low <em>interest rate</em>.</li><li>The <em>interest rate</em> on that card is brutal.</li></ol>
+<hr>
+<h3 id="investment">investment<a class="hash" href="#investment" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/ɪnˈvestmənt/ &middot; <em>in-VEST-muhnt</em></dd><dt>Русский</dt><dd>инвестиция, вложение</dd><dt>Plural</dt><dd><em>investments</em></dd><dt>Countability</dt><dd>countable</dd></dl>
+<p>Money put into something in the hope of earning more.</p>
+<ol><li>Real estate turned out to be a smart <em>investment</em>.</li><li>Her <em>investments</em> lost value last year.</li><li>It's a long-term <em>investment</em>.</li></ol>
+<hr>
+<h3 id="investor">investor<a class="hash" href="#investor" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/ɪnˈvestər/ &middot; <em>in-VES-tur</em></dd><dt>Русский</dt><dd>инвестор</dd><dt>Plural</dt><dd><em>investors</em></dd><dt>Countability</dt><dd>countable</dd></dl>
+<p>Someone who puts money into a business or asset to earn a return.</p>
+<ol><li><em>Investors</em> got nervous and sold.</li><li>He was an early <em>investor</em> in the company.</li><li>The pitch is aimed at small <em>investors</em>.</li></ol>
+<hr>
+<h3 id="stock">stock<a class="hash" href="#stock" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/stɑːk/ &middot; <em>STAHK</em></dd><dt>Русский</dt><dd>акция, акции</dd><dt>Plural</dt><dd><em>stocks</em></dd><dt>Countability</dt><dd>countable</dd></dl>
+<p>A share of ownership in a company that can be bought and sold.</p>
+<ol><li>Tech <em>stocks</em> took a beating today.</li><li>She owns <em>stock</em> in three airlines.</li><li>He bought the <em>stock</em> at twelve dollars a share.</li></ol>
+<hr>
+<h3 id="stock-market">stock market<a class="hash" href="#stock-market" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/ˈstɑːk ˌmɑːrkət/ &middot; <em>STAHK MAR-kut</em></dd><dt>Русский</dt><dd>фондовый рынок</dd><dt>Plural</dt><dd><em>stock markets</em></dd><dt>Countability</dt><dd>countable</dd></dl>
+<p>The system in which company shares are bought and sold.</p>
+<ol><li>The <em>stock market</em> closed down today.</li><li>He lost a lot of money in the <em>stock market</em>.</li><li>Asian <em>stock markets</em> opened lower.</li></ol>
+<hr>
+<h3 id="share">share<a class="hash" href="#share" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/ʃer/ &middot; <em>SHAIR</em></dd><dt>Русский</dt><dd>акция; доля</dd><dt>Plural</dt><dd><em>shares</em></dd><dt>Countability</dt><dd>countable</dd></dl>
+<p>One of the equal parts a company's ownership is divided into.</p>
+<ol><li>I sold half my <em>shares</em> in March.</li><li>Each <em>share</em> pays a small dividend.</li><li>They bought a hundred <em>shares</em> on Monday.</li></ol>
+<hr>
+<h3 id="bond">bond<a class="hash" href="#bond" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/bɑːnd/ &middot; <em>BAHND</em></dd><dt>Русский</dt><dd>облигация</dd><dt>Plural</dt><dd><em>bonds</em></dd><dt>Countability</dt><dd>countable</dd></dl>
+<p>A certificate showing that a government or company has borrowed from you.</p>
+<ol><li>Government <em>bonds</em> pay less, but they're safe.</li><li>The city issued <em>bonds</em> to build the stadium.</li><li>He put the money into a ten-year <em>bond</em>.</li></ol>
+<hr>
+<h3 id="dividend">dividend<a class="hash" href="#dividend" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/ˈdɪvədend/ &middot; <em>DIV-uh-dend</em></dd><dt>Русский</dt><dd>дивиденд</dd><dt>Plural</dt><dd><em>dividends</em></dd><dt>Countability</dt><dd>countable</dd></dl>
+<p>A share of a company's profits paid out to its shareholders.</p>
+<ol><li>The company raised its <em>dividend</em> again.</li><li>She lives off the <em>dividends</em>.</li><li>That stock hasn't paid a <em>dividend</em> in years.</li></ol>
+<hr>
+<h3 id="shareholder">shareholder<a class="hash" href="#shareholder" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/ˈʃerhoʊldər/ &middot; <em>SHAIR-hohl-dur</em></dd><dt>Русский</dt><dd>акционер</dd><dt>Plural</dt><dd><em>shareholders</em></dd><dt>Countability</dt><dd>countable</dd></dl>
+<p>Someone who owns shares in a company.</p>
+<ol><li><em>Shareholders</em> voted against the merger.</li><li>Every <em>shareholder</em> gets a proxy form in the mail.</li><li>The board answers to the <em>shareholders</em>.</li></ol>
+<hr>
+<h3 id="broker">broker<a class="hash" href="#broker" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/ˈbroʊkər/ &middot; <em>BROH-kur</em></dd><dt>Русский</dt><dd>брокер, посредник</dd><dt>Plural</dt><dd><em>brokers</em></dd><dt>Countability</dt><dd>countable</dd></dl>
+<p>Someone who buys and sells for other people in exchange for a fee.</p>
+<ol><li>Talk to a mortgage <em>broker</em> first.</li><li>Her <em>broker</em> called with a tip.</li><li><em>Brokers</em> take a cut of every deal.</li></ol>
+<hr>
+<h3 id="market">market<a class="hash" href="#market" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/ˈmɑːrkət/ &middot; <em>MAR-kut</em></dd><dt>Русский</dt><dd>рынок</dd><dt>Plural</dt><dd><em>markets</em></dd><dt>Countability</dt><dd>countable</dd></dl>
+<p>The overall activity of buying and selling a particular thing.</p>
+<ol><li>The <em>market</em> dropped three percent.</li><li>Emerging <em>markets</em> are volatile.</li><li>There's a strong <em>market</em> for used trucks.</li></ol>
+<hr>
+<h3 id="exchange-rate">exchange rate<a class="hash" href="#exchange-rate" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/ɪksˈtʃeɪndʒ reɪt/ &middot; <em>iks-CHAYNJ RAYT</em></dd><dt>Русский</dt><dd>обменный курс</dd><dt>Plural</dt><dd><em>exchange rates</em></dd><dt>Countability</dt><dd>countable</dd></dl>
+<p>The value of one country's money expressed in another's.</p>
+<ol><li>The <em>exchange rate</em> is terrible right now.</li><li>Check the <em>exchange rate</em> before you convert anything.</li><li><em>Exchange rates</em> move all day long.</li></ol>
+<hr>
+<h3 id="asset">asset<a class="hash" href="#asset" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/ˈæset/ &middot; <em>ASS-et</em></dd><dt>Русский</dt><dd>актив, имущество</dd><dt>Plural</dt><dd><em>assets</em></dd><dt>Countability</dt><dd>countable</dd></dl>
+<p>Something valuable that a person or company owns.</p>
+<ol><li>The court froze his <em>assets</em>.</li><li>Their biggest <em>asset</em> is the building itself.</li><li>They sold off <em>assets</em> to cover the debt.</li></ol>
+<hr>
+<h3 id="liability">liability<a class="hash" href="#liability" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/ˌlaɪrˈbɪləti/ &middot; <em>ly-uh-BIL-uh-tee</em></dd><dt>Русский</dt><dd>обязательство, пассив</dd><dt>Plural</dt><dd><em>liabilities</em></dd><dt>Countability</dt><dd>countable</dd></dl>
+<p>A debt or obligation that a person or company owes.</p>
+<ol><li>The firm's <em>liabilities</em> exceed its assets.</li><li>That old warehouse is a <em>liability</em>, not an asset.</li><li>We're reviewing every <em>liability</em> on the books.</li></ol>
+<hr>
+<h3 id="capital">capital<a class="hash" href="#capital" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/ˈkæpətəl/ &middot; <em>KAP-uh-tuhl</em></dd><dt>Русский</dt><dd>капитал</dd><dt>Countability</dt><dd>uncountable</dd><dt>Contrast</dt><dd>Financial <em>capital</em> is uncountable; a <em>capital</em> meaning a city is a different, countable word.</dd></dl>
+<p>Money available to invest in or run a business.</p>
+<ol><li>They need <em>capital</em> to expand.</li><li>The startup raised <em>capital</em> from three funds.</li><li>Most of his <em>capital</em> is tied up in real estate.</li></ol>
+<hr>
+<h3 id="equity">equity<a class="hash" href="#equity" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/ˈekwəti/ &middot; <em>EK-wuh-tee</em></dd><dt>Русский</dt><dd>доля собственности; чистая стоимость жилья</dd><dt>Countability</dt><dd>uncountable</dd></dl>
+<p>The value of what you own once the debt on it is subtracted.</p>
+<ol><li>We have a lot of <em>equity</em> in the house now.</li><li>She took a pay cut in exchange for <em>equity</em>.</li><li>They borrowed against their home <em>equity</em>.</li></ol>
+<hr>
+<h3 id="fund">fund<a class="hash" href="#fund" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/fʌnd/ &middot; <em>FUHND</em></dd><dt>Русский</dt><dd>фонд</dd><dt>Plural</dt><dd><em>funds</em></dd><dt>Countability</dt><dd>countable</dd><dt>Contrast</dt><dd>In the plural, <em>funds</em> often just means available money — insufficient <em>funds</em>.</dd></dl>
+<p>A pool of money set aside or invested for a particular purpose.</p>
+<ol><li>He moved his savings into an index <em>fund</em>.</li><li>The scholarship <em>fund</em> is out of money.</li><li><em>Funds</em> like this one charge low fees.</li></ol>
+<hr>
+<h3 id="return">return<a class="hash" href="#return" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/rɪˈtɜːrn/ &middot; <em>rih-TURN</em></dd><dt>Русский</dt><dd>доходность, отдача от вложений</dd><dt>Plural</dt><dd><em>returns</em></dd><dt>Countability</dt><dd>countable</dd></dl>
+<p>The profit made on money that was invested.</p>
+<ol><li>The fund posted a twelve percent <em>return</em>.</li><li><em>Returns</em> have been flat for two years.</li><li>You won't get that kind of <em>return</em> without risk.</li></ol>
+<hr>
+<h3 id="risk">risk<a class="hash" href="#risk" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/rɪsk/ &middot; <em>RISK</em></dd><dt>Русский</dt><dd>риск</dd><dt>Plural</dt><dd><em>risks</em></dd><dt>Countability</dt><dd>countable</dd></dl>
+<p>The chance that an investment loses money.</p>
+<ol><li>Every investment carries some <em>risk</em>.</li><li>He took a big <em>risk</em> with that money.</li><li>The <em>risks</em> are spelled out in the fine print.</li></ol>
+<hr>
+<h3 id="profit">profit<a class="hash" href="#profit" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/ˈprɑːfət/ &middot; <em>PRAH-fut</em></dd><dt>Русский</dt><dd>прибыль</dd><dt>Plural</dt><dd><em>profits</em></dd><dt>Countability</dt><dd>countable</dd><dt>Contrast</dt><dd>Sounds exactly like <em>prophet</em> in American English.</dd></dl>
+<p>The money left over after costs are subtracted from income.</p>
+<ol><li>They sold the house at a <em>profit</em>.</li><li><em>Profits</em> were up eight percent.</li><li>The store barely turns a <em>profit</em>.</li></ol>
+<hr>
+<h3 id="loss">loss<a class="hash" href="#loss" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/lɔːs/ &middot; <em>LAWS</em></dd><dt>Русский</dt><dd>убыток</dd><dt>Plural</dt><dd><em>losses</em></dd><dt>Countability</dt><dd>countable</dd></dl>
+<p>Money that a business or investor fails to get back.</p>
+<ol><li>We sold at a <em>loss</em>.</li><li>The company reported <em>losses</em> for the third year running.</li><li>He wrote the <em>loss</em> off on his taxes.</li></ol>
+<hr>
+<h3 id="revenue">revenue<a class="hash" href="#revenue" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/ˈrevənuː/ &middot; <em>REV-uh-noo</em></dd><dt>Русский</dt><dd>выручка, доход компании</dd><dt>Countability</dt><dd>uncountable</dd></dl>
+<p>All the money a business takes in before costs are subtracted.</p>
+<ol><li><em>Revenue</em> grew ten percent last year.</li><li>Most of their <em>revenue</em> comes from advertising.</li><li>Ticket sales are the museum's main source of <em>revenue</em>.</li></ol>
+<hr>
+<h3 id="income">income<a class="hash" href="#income" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/ˈɪnkʌm/ &middot; <em>IN-kum</em></dd><dt>Русский</dt><dd>доход</dd><dt>Countability</dt><dd>uncountable</dd><dt>Contrast</dt><dd>Uncountable for one person's earnings — say <em>a lot of income</em>, not <em>incomes</em>.</dd></dl>
+<p>Money that a person regularly receives from work or investments.</p>
+<ol><li>Their combined <em>income</em> is about ninety thousand.</li><li>Rent takes a third of my <em>income</em>.</li><li>He has no other source of <em>income</em>.</li></ol>
+<hr>
+<h3 id="expense">expense<a class="hash" href="#expense" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/ɪkˈspens/ &middot; <em>ik-SPENS</em></dd><dt>Русский</dt><dd>расход, затрата</dd><dt>Plural</dt><dd><em>expenses</em></dd><dt>Countability</dt><dd>countable</dd></dl>
+<p>Money that has to be spent on something.</p>
+<ol><li>Travel <em>expenses</em> are reimbursed.</li><li>Childcare is our biggest <em>expense</em>.</li><li>She submitted the <em>expense</em> report late.</li></ol>
+<hr>
+<h3 id="spending">spending<a class="hash" href="#spending" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/ˈspendɪŋ/ &middot; <em>SPEN-ding</em></dd><dt>Русский</dt><dd>расходы, траты</dd><dt>Countability</dt><dd>uncountable</dd></dl>
+<p>The act of using money, or the total amount used.</p>
+<ol><li>Consumer <em>spending</em> slowed over the summer.</li><li>They cut <em>spending</em> across the board.</li><li>Holiday <em>spending</em> hit a record this year.</li></ol>
+<hr>
+<h3 id="budget">budget<a class="hash" href="#budget" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/ˈbʌdʒət/ &middot; <em>BUJ-ut</em></dd><dt>Русский</dt><dd>бюджет, смета</dd><dt>Plural</dt><dd><em>budgets</em></dd><dt>Countability</dt><dd>countable</dd></dl>
+<p>A plan for how much money will be spent on what.</p>
+<ol><li>We blew the <em>budget</em> on the kitchen.</li><li>The city passed its <em>budget</em> last night.</li><li>Both departments cut their <em>budgets</em>.</li></ol>
+<hr>
+<h3 id="cost">cost<a class="hash" href="#cost" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/kɔːst/ &middot; <em>KAWST</em></dd><dt>Русский</dt><dd>стоимость, издержки</dd><dt>Plural</dt><dd><em>costs</em></dd><dt>Countability</dt><dd>countable</dd></dl>
+<p>The amount of money needed to buy, make or do something.</p>
+<ol><li>The <em>cost</em> of living keeps going up.</li><li>Labor <em>costs</em> doubled in two years.</li><li>They covered the <em>cost</em> of the repair.</li></ol>
+<hr>
+<h3 id="price">price<a class="hash" href="#price" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/praɪs/ &middot; <em>PRYSE</em></dd><dt>Русский</dt><dd>цена</dd><dt>Plural</dt><dd><em>prices</em></dd><dt>Countability</dt><dd>countable</dd></dl>
+<p>The amount of money you must pay for something.</p>
+<ol><li>Gas <em>prices</em> went up again.</li><li>What's the asking <em>price</em>?</li><li>He got a good <em>price</em> on the car.</li></ol>
+<hr>
+<h3 id="fee">fee<a class="hash" href="#fee" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/fiː/ &middot; <em>FEE</em></dd><dt>Русский</dt><dd>комиссия, сбор, плата</dd><dt>Plural</dt><dd><em>fees</em></dd><dt>Countability</dt><dd>countable</dd></dl>
+<p>An amount charged for a service or for the right to do something.</p>
+<ol><li>There's a twenty-dollar late <em>fee</em>.</li><li>The bank waived the <em>fee</em>.</li><li>Their <em>fees</em> are higher than everyone else's.</li></ol>
+<hr>
+<h3 id="charge">charge<a class="hash" href="#charge" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/tʃɑːrdʒ/ &middot; <em>CHARJ</em></dd><dt>Русский</dt><dd>начисление, списание, плата</dd><dt>Plural</dt><dd><em>charges</em></dd><dt>Countability</dt><dd>countable</dd></dl>
+<p>An amount of money billed or taken for something.</p>
+<ol><li>There's a <em>charge</em> on my card I don't recognize.</li><li>They dropped the delivery <em>charge</em>.</li><li>Two <em>charges</em> came through twice.</li></ol>
+<hr>
+<h3 id="tax">tax<a class="hash" href="#tax" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/tæks/ &middot; <em>TAKS</em></dd><dt>Русский</dt><dd>налог</dd><dt>Plural</dt><dd><em>taxes</em></dd><dt>Countability</dt><dd>countable</dd></dl>
+<p>Money the government requires people and businesses to pay.</p>
+<ol><li>Property <em>taxes</em> went up this year.</li><li>There's no sales <em>tax</em> in Oregon.</li><li>He does his own <em>taxes</em> every April.</li></ol>
+<hr>
+<h3 id="deduction">deduction<a class="hash" href="#deduction" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/dɪˈdʌkʃən/ &middot; <em>dih-DUK-shuhn</em></dd><dt>Русский</dt><dd>вычет (налоговый)</dd><dt>Plural</dt><dd><em>deductions</em></dd><dt>Countability</dt><dd>countable</dd></dl>
+<p>An amount subtracted from income before tax is calculated.</p>
+<ol><li>You can take a <em>deduction</em> for the home office.</li><li>Charitable <em>deductions</em> have limits.</li><li>The standard <em>deduction</em> went up again.</li></ol>
+<hr>
+<h3 id="refund">refund<a class="hash" href="#refund" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/ˈriːfʌnd/ &middot; <em>REE-fund</em></dd><dt>Русский</dt><dd>возврат денег</dd><dt>Plural</dt><dd><em>refunds</em></dd><dt>Countability</dt><dd>countable</dd><dt>Contrast</dt><dd>Noun stress falls on the first syllable (REE-fund); the verb stresses the second (ree-FUND).</dd></dl>
+<p>Money paid back to you for something returned or overpaid.</p>
+<ol><li>I'm still waiting on my tax <em>refund</em>.</li><li>They gave me a full <em>refund</em>.</li><li>No <em>refunds</em> after thirty days.</li></ol>
+<hr>
+<h3 id="inflation">inflation<a class="hash" href="#inflation" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/ɪnˈfleɪʃən/ &middot; <em>in-FLAY-shuhn</em></dd><dt>Русский</dt><dd>инфляция</dd><dt>Countability</dt><dd>uncountable</dd></dl>
+<p>A general rise in prices that makes money worth less.</p>
+<ol><li><em>Inflation</em> ate up the raise.</li><li>Groceries went up faster than <em>inflation</em>.</li><li>They're trying to bring <em>inflation</em> down.</li></ol>
+<hr>
+<h3 id="recession">recession<a class="hash" href="#recession" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/rɪˈseʃən/ &middot; <em>rih-SESH-uhn</em></dd><dt>Русский</dt><dd>рецессия, экономический спад</dd><dt>Plural</dt><dd><em>recessions</em></dd><dt>Countability</dt><dd>countable</dd></dl>
+<p>A period when an economy shrinks and jobs disappear.</p>
+<ol><li>The country slid into a <em>recession</em>.</li><li>He lost the house in the last <em>recession</em>.</li><li><em>Recessions</em> hit young workers hardest.</li></ol>
+<hr>
+<h3 id="deficit">deficit<a class="hash" href="#deficit" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/ˈdefəsət/ &middot; <em>DEF-uh-sut</em></dd><dt>Русский</dt><dd>дефицит (превышение расходов над доходами)</dd><dt>Plural</dt><dd><em>deficits</em></dd><dt>Countability</dt><dd>countable</dd></dl>
+<p>The amount by which spending exceeds income.</p>
+<ol><li>The budget <em>deficit</em> keeps growing.</li><li>They ran a <em>deficit</em> three years in a row.</li><li>Trade <em>deficits</em> were the big story that year.</li></ol>
+<hr>
+<h3 id="economy">economy<a class="hash" href="#economy" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/ɪˈkɑːnəmi/ &middot; <em>ih-KAH-nuh-mee</em></dd><dt>Русский</dt><dd>экономика</dd><dt>Plural</dt><dd><em>economies</em></dd><dt>Countability</dt><dd>countable</dd></dl>
+<p>The whole system of money, work and trade in a place.</p>
+<ol><li>The <em>economy</em> added jobs last month.</li><li>Small <em>economies</em> depend on tourism.</li><li>The whole <em>economy</em> runs on credit.</li></ol>
+<hr>
+<h3 id="finance">finance<a class="hash" href="#finance" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/ˈfaɪnæns/ &middot; <em>FY-nans</em></dd><dt>Русский</dt><dd>финансы, финансирование</dd><dt>Countability</dt><dd>uncountable</dd><dt>Contrast</dt><dd>In the plural, <em>finances</em> means a person's or company's money situation.</dd></dl>
+<p>The management of money, especially on a large scale.</p>
+<ol><li>He works in <em>finance</em>.</li><li>She's studying corporate <em>finance</em>.</li><li><em>Finance</em> isn't as glamorous as people think.</li></ol>
+<hr>
+<h3 id="salary">salary<a class="hash" href="#salary" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/ˈsæləri/ &middot; <em>SAL-uh-ree</em></dd><dt>Русский</dt><dd>оклад, зарплата</dd><dt>Plural</dt><dd><em>salaries</em></dd><dt>Countability</dt><dd>countable</dd></dl>
+<p>A fixed amount of money paid to an employee, usually monthly or yearly.</p>
+<ol><li>She negotiated a higher <em>salary</em>.</li><li><em>Salaries</em> here are below market.</li><li>His <em>salary</em> barely covers rent.</li></ol>
+<hr>
+<h3 id="paycheck">paycheck<a class="hash" href="#paycheck" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/ˈpeɪtʃek/ &middot; <em>PAY-chek</em></dd><dt>Русский</dt><dd>зарплата, получка</dd><dt>Plural</dt><dd><em>paychecks</em></dd><dt>Countability</dt><dd>countable</dd></dl>
+<p>The payment an employee receives for a period of work.</p>
+<ol><li>They live <em>paycheck</em> to <em>paycheck</em>.</li><li>My <em>paycheck</em> hits on Friday.</li><li>Two <em>paychecks</em> came up short this month.</li></ol>
+<hr>
+<h3 id="raise">raise<a class="hash" href="#raise" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/reɪz/ &middot; <em>RAYZ</em></dd><dt>Русский</dt><dd>повышение зарплаты</dd><dt>Plural</dt><dd><em>raises</em></dd><dt>Countability</dt><dd>countable</dd><dt>Contrast</dt><dd>Americans get a <em>raise</em>; the British get a <em>rise</em>.</dd></dl>
+<p>An increase in the amount someone is paid for their work.</p>
+<ol><li>I asked for a <em>raise</em> and got it.</li><li>Nobody's had a <em>raise</em> in two years.</li><li>The <em>raises</em> take effect in January.</li></ol>
+<hr>
+<h3 id="commission">commission<a class="hash" href="#commission" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/kəˈmɪʃən/ &middot; <em>kuh-MISH-uhn</em></dd><dt>Русский</dt><dd>комиссионные</dd><dt>Plural</dt><dd><em>commissions</em></dd><dt>Countability</dt><dd>countable</dd></dl>
+<p>A payment based on a percentage of what someone sells.</p>
+<ol><li>Real estate agents work on <em>commission</em>.</li><li>He made a fat <em>commission</em> on that sale.</li><li><em>Commissions</em> are paid at closing.</li></ol>
+<hr>
+<h3 id="pension">pension<a class="hash" href="#pension" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/ˈpenʃən/ &middot; <em>PEN-shuhn</em></dd><dt>Русский</dt><dd>пенсия (от работодателя)</dd><dt>Plural</dt><dd><em>pensions</em></dd><dt>Countability</dt><dd>countable</dd></dl>
+<p>Regular money paid to someone after they stop working.</p>
+<ol><li>He retired on a decent <em>pension</em>.</li><li>The company froze its <em>pension</em> plan.</li><li><em>Pensions</em> aren't as common as they used to be.</li></ol>
+<hr>
+<h3 id="retirement">retirement<a class="hash" href="#retirement" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/rɪˈtaɪrrmənt/ &middot; <em>rih-TY-ur-muhnt</em></dd><dt>Русский</dt><dd>выход на пенсию; пенсионный период</dd><dt>Countability</dt><dd>uncountable</dd></dl>
+<p>The period of life after a person stops working for good.</p>
+<ol><li>He's saving hard for <em>retirement</em>.</li><li>She took early <em>retirement</em> at fifty-eight.</li><li>Most of that money is locked up until <em>retirement</em>.</li></ol>
+<hr>
+<h3 id="premium">premium<a class="hash" href="#premium" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/ˈpriːmiəm/ &middot; <em>PREE-mee-uhm</em></dd><dt>Русский</dt><dd>страховой взнос</dd><dt>Plural</dt><dd><em>premiums</em></dd><dt>Countability</dt><dd>countable</dd></dl>
+<p>The amount paid regularly to keep an insurance policy active.</p>
+<ol><li>My <em>premium</em> went up after the accident.</li><li><em>Premiums</em> rise every single year.</li><li>They pay the <em>premium</em> monthly.</li></ol>
+<hr>
+<h3 id="policy">policy<a class="hash" href="#policy" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/ˈpɑːləsi/ &middot; <em>PAH-luh-see</em></dd><dt>Русский</dt><dd>страховой полис</dd><dt>Plural</dt><dd><em>policies</em></dd><dt>Countability</dt><dd>countable</dd><dt>Contrast</dt><dd>Two senses: an insurance contract, and a rule or course of action.</dd></dl>
+<p>A written insurance contract between a company and a customer.</p>
+<ol><li>He took out a life insurance <em>policy</em>.</li><li>Read the <em>policy</em> before you sign it.</li><li>Both <em>policies</em> expire in March.</li></ol>
+<hr>
+<h3 id="claim">claim<a class="hash" href="#claim" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/kleɪm/ &middot; <em>KLAYM</em></dd><dt>Русский</dt><dd>требование о страховой выплате</dd><dt>Plural</dt><dd><em>claims</em></dd><dt>Countability</dt><dd>countable</dd></dl>
+<p>A formal request to an insurer for money you believe you are owed.</p>
+<ol><li>She filed a <em>claim</em> after the storm.</li><li>The insurer denied the <em>claim</em>.</li><li><em>Claims</em> take about three weeks to process.</li></ol>
+<hr>
+<h3 id="deductible">deductible<a class="hash" href="#deductible" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/dɪˈdʌktəbəl/ &middot; <em>dih-DUK-tuh-buhl</em></dd><dt>Русский</dt><dd>франшиза (сумма, которую платит сам застрахованный)</dd><dt>Plural</dt><dd><em>deductibles</em></dd><dt>Countability</dt><dd>countable</dd></dl>
+<p>The amount you pay yourself before insurance starts paying.</p>
+<ol><li>My <em>deductible</em> is two thousand dollars.</li><li>A higher <em>deductible</em> means a lower premium.</li><li><em>Deductibles</em> reset every January.</li></ol>
+<hr>
+<h3 id="rent">rent<a class="hash" href="#rent" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/rent/ &middot; <em>RENT</em></dd><dt>Русский</dt><dd>арендная плата</dd><dt>Countability</dt><dd>uncountable</dd></dl>
+<p>Money paid regularly for the use of a home or other property.</p>
+<ol><li><em>Rent</em> is due on the first.</li><li>They raised the <em>rent</em> again.</li><li>Half my paycheck goes to <em>rent</em>.</li></ol>
+<hr>
+<h3 id="landlord">landlord<a class="hash" href="#landlord" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/ˈlændlɔːrd/ &middot; <em>LAND-lord</em></dd><dt>Русский</dt><dd>арендодатель, домовладелец</dd><dt>Plural</dt><dd><em>landlords</em></dd><dt>Countability</dt><dd>countable</dd></dl>
+<p>A person who owns property and rents it out to others.</p>
+<ol><li>Our <em>landlord</em> finally fixed the heat.</li><li>Some <em>landlords</em> won't take pets.</li><li>The <em>landlord</em> kept the deposit.</li></ol>
+<hr>
+<h3 id="tenant">tenant<a class="hash" href="#tenant" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/ˈtenənt/ &middot; <em>TEN-uhnt</em></dd><dt>Русский</dt><dd>арендатор, квартиросъёмщик</dd><dt>Plural</dt><dd><em>tenants</em></dd><dt>Countability</dt><dd>countable</dd></dl>
+<p>A person who pays rent to live in or use a property.</p>
+<ol><li>The <em>tenants</em> upstairs are loud.</li><li>He's been a good <em>tenant</em> for six years.</li><li>The <em>tenant</em> gave thirty days' notice.</li></ol>
+<hr>
+<h3 id="lease">lease<a class="hash" href="#lease" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/liːs/ &middot; <em>LEES</em></dd><dt>Русский</dt><dd>договор аренды</dd><dt>Plural</dt><dd><em>leases</em></dd><dt>Countability</dt><dd>countable</dd></dl>
+<p>A contract that lets someone use property for a set time in return for payment.</p>
+<ol><li>Our <em>lease</em> is up in August.</li><li>She signed a two-year <em>lease</em>.</li><li>Most <em>leases</em> here run twelve months.</li></ol>
+<hr>
+<h3 id="discount">discount<a class="hash" href="#discount" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/ˈdɪskaʊnt/ &middot; <em>DIS-kownt</em></dd><dt>Русский</dt><dd>скидка</dd><dt>Plural</dt><dd><em>discounts</em></dd><dt>Countability</dt><dd>countable</dd><dt>Contrast</dt><dd>Noun stress falls on the first syllable (DIS-count); the verb usually stresses the second.</dd></dl>
+<p>An amount taken off the usual price.</p>
+<ol><li>Students get a ten percent <em>discount</em>.</li><li>They're offering deep <em>discounts</em> this week.</li><li>I bought it at a <em>discount</em>.</li></ol>
+<hr>
+<h3 id="bargain">bargain<a class="hash" href="#bargain" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/ˈbɑːrɡən/ &middot; <em>BAR-gun</em></dd><dt>Русский</dt><dd>выгодная покупка</dd><dt>Plural</dt><dd><em>bargains</em></dd><dt>Countability</dt><dd>countable</dd></dl>
+<p>Something bought for much less than it is worth.</p>
+<ol><li>Forty bucks for that coat is a <em>bargain</em>.</li><li>She hunts for <em>bargains</em> at estate sales.</li><li>It seemed like a <em>bargain</em> until it broke.</li></ol>
+<hr>
+<h3 id="coupon">coupon<a class="hash" href="#coupon" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/ˈkuːpɑːn/ &middot; <em>KOO-pahn</em></dd><dt>Русский</dt><dd>купон, талон на скидку</dd><dt>Plural</dt><dd><em>coupons</em></dd><dt>Countability</dt><dd>countable</dd></dl>
+<p>A printed or digital slip that gives you money off a purchase.</p>
+<ol><li>I had a <em>coupon</em> for a free coffee.</li><li>She clips <em>coupons</em> every Sunday.</li><li>The <em>coupon</em> expired yesterday.</li></ol>
+<hr>
+<h3 id="purchase">purchase<a class="hash" href="#purchase" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/ˈpɜːrtʃəs/ &middot; <em>PUR-chuhs</em></dd><dt>Русский</dt><dd>покупка, приобретение</dd><dt>Plural</dt><dd><em>purchases</em></dd><dt>Countability</dt><dd>countable</dd></dl>
+<p>Something bought, or the act of buying it.</p>
+<ol><li>It was an impulse <em>purchase</em>.</li><li>Keep receipts for all major <em>purchases</em>.</li><li>The <em>purchase</em> went through this morning.</li></ol>
+<hr>
+<h3 id="subscription">subscription<a class="hash" href="#subscription" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/səbˈskrɪpʃən/ &middot; <em>suhb-SKRIP-shuhn</em></dd><dt>Русский</dt><dd>подписка</dd><dt>Plural</dt><dd><em>subscriptions</em></dd><dt>Countability</dt><dd>countable</dd></dl>
+<p>A regular payment for ongoing access to a service.</p>
+<ol><li>I canceled my streaming <em>subscription</em>.</li><li><em>Subscriptions</em> renew automatically.</li><li>The <em>subscription</em> runs about ten dollars a month.</li></ol>
+<hr>
+<h3 id="estimate">estimate<a class="hash" href="#estimate" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/ˈestəmət/ &middot; <em>ES-tuh-mut</em></dd><dt>Русский</dt><dd>смета, предварительный расчёт</dd><dt>Plural</dt><dd><em>estimates</em></dd><dt>Countability</dt><dd>countable</dd><dt>Contrast</dt><dd>The noun ends in a weak ES-tuh-mut; the verb ends in a full ES-tuh-mayt.</dd></dl>
+<p>A statement of what a job is likely to cost.</p>
+<ol><li>I got three <em>estimates</em> for the roof.</li><li>The <em>estimate</em> came in way over budget.</li><li>Their <em>estimate</em> didn't include labor.</li></ol>
+<hr>
+<h3 id="fortune">fortune<a class="hash" href="#fortune" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/ˈfɔːrtʃən/ &middot; <em>FOR-chuhn</em></dd><dt>Русский</dt><dd>состояние, богатство</dd><dt>Plural</dt><dd><em>fortunes</em></dd><dt>Countability</dt><dd>countable</dd></dl>
+<p>A very large amount of money.</p>
+<ol><li>He made a <em>fortune</em> in real estate.</li><li>That dress cost a small <em>fortune</em>.</li><li>Family <em>fortunes</em> rarely last three generations.</li></ol>
+<hr>
+<h3 id="inheritance">inheritance<a class="hash" href="#inheritance" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/ɪnˈherətəns/ &middot; <em>in-HAIR-uh-tuhns</em></dd><dt>Русский</dt><dd>наследство</dd><dt>Plural</dt><dd><em>inheritances</em></dd><dt>Countability</dt><dd>countable</dd></dl>
+<p>Money or property received from someone who has died.</p>
+<ol><li>She spent her whole <em>inheritance</em> on the boat.</li><li>He's waiting on an <em>inheritance</em> from an aunt.</li><li>Large <em>inheritances</em> get taxed.</li></ol>
+<hr>
+<h3 id="fraud">fraud<a class="hash" href="#fraud" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/frɔːd/ &middot; <em>FRAWD</em></dd><dt>Русский</dt><dd>мошенничество</dd><dt>Countability</dt><dd>uncountable</dd></dl>
+<p>The crime of getting money by deceiving people.</p>
+<ol><li>He was convicted of wire <em>fraud</em>.</li><li>The bank flagged the charge as <em>fraud</em>.</li><li><em>Fraud</em> costs the industry billions a year.</li></ol>
+<hr>
+<h3 id="scam">scam<a class="hash" href="#scam" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/skæm/ &middot; <em>SKAM</em></dd><dt>Русский</dt><dd>афера, мошенническая схема</dd><dt>Plural</dt><dd><em>scams</em></dd><dt>Countability</dt><dd>countable</dd></dl>
+<p>A dishonest scheme for taking someone's money.</p>
+<ol><li>It turned out to be a <em>scam</em>.</li><li>Phone <em>scams</em> target older people.</li><li>Don't fall for that <em>scam</em>.</li></ol>
+<hr>
+<h3 id="audit">audit<a class="hash" href="#audit" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/ˈɔːdət/ &middot; <em>AW-dut</em></dd><dt>Русский</dt><dd>аудит, проверка отчётности</dd><dt>Plural</dt><dd><em>audits</em></dd><dt>Countability</dt><dd>countable</dd></dl>
+<p>An official examination of financial records.</p>
+<ol><li>The company is under <em>audit</em>.</li><li>He got hit with a tax <em>audit</em>.</li><li>Annual <em>audits</em> are required by law.</li></ol>
+<hr>
+<h3 id="accounting">accounting<a class="hash" href="#accounting" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/əˈkaʊntɪŋ/ &middot; <em>uh-KOWN-ting</em></dd><dt>Русский</dt><dd>бухгалтерский учёт</dd><dt>Countability</dt><dd>uncountable</dd></dl>
+<p>The work of keeping and checking financial records.</p>
+<ol><li>She majored in <em>accounting</em>.</li><li>Send the invoice down to <em>accounting</em>.</li><li>Their <em>accounting</em> was a mess.</li></ol>
+<hr>
+<h3 id="millionaire">millionaire<a class="hash" href="#millionaire" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/ˌmɪljəˈner/ &middot; <em>mil-yuh-NAIR</em></dd><dt>Русский</dt><dd>миллионер</dd><dt>Plural</dt><dd><em>millionaires</em></dd><dt>Countability</dt><dd>countable</dd></dl>
+<p>A person who has at least a million dollars.</p>
+<ol><li>He became a <em>millionaire</em> overnight.</li><li>The town has more <em>millionaires</em> than you'd think.</li><li>She's a self-made <em>millionaire</em>.</li></ol>
+<hr>
+<h3 id="entrepreneur">entrepreneur<a class="hash" href="#entrepreneur" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/ˌɑːntrəprəˈnɜːr/ &middot; <em>ahn-truh-pruh-NUR</em></dd><dt>Русский</dt><dd>предприниматель</dd><dt>Plural</dt><dd><em>entrepreneurs</em></dd><dt>Countability</dt><dd>countable</dd><dt>Contrast</dt><dd>French spelling, English stress — ahn-truh-pruh-NUR, with the accent on the last syllable.</dd></dl>
+<p>Someone who starts a business and takes on its financial risk.</p>
+<ol><li>She's a serial <em>entrepreneur</em>.</li><li>The city is full of young <em>entrepreneurs</em>.</li><li>Every <em>entrepreneur</em> I know has failed at least once.</li></ol>
+<hr>
+<h3 id="consumer">consumer<a class="hash" href="#consumer" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/kənˈsuːmər/ &middot; <em>kuhn-SOO-mur</em></dd><dt>Русский</dt><dd>потребитель</dd><dt>Plural</dt><dd><em>consumers</em></dd><dt>Countability</dt><dd>countable</dd></dl>
+<p>A person who buys goods and services for personal use.</p>
+<ol><li><em>Consumers</em> are spending less this year.</li><li>The law is there to protect the <em>consumer</em>.</li><li><em>Consumer</em> prices rose again in July.</li></ol>
+<hr>
+<h3 id="contract">contract<a class="hash" href="#contract" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/ˈkɑːntrækt/ &middot; <em>KAHN-trakt</em></dd><dt>Русский</dt><dd>договор, контракт</dd><dt>Plural</dt><dd><em>contracts</em></dd><dt>Countability</dt><dd>countable</dd><dt>Contrast</dt><dd>Noun stress falls on the first syllable (KAHN-trakt); the verb stresses the second (kuhn-TRAKT).</dd></dl>
+<p>A legally binding agreement between two or more parties.</p>
+<ol><li>Read the <em>contract</em> before you sign it.</li><li>Both <em>contracts</em> expire in June.</li><li>They're renegotiating the <em>contract</em>.</li></ol>
+<hr>
+<h3 id="warranty">warranty<a class="hash" href="#warranty" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/ˈwɔːrənti/ &middot; <em>WOR-uhn-tee</em></dd><dt>Русский</dt><dd>гарантия (на товар)</dd><dt>Plural</dt><dd><em>warranties</em></dd><dt>Countability</dt><dd>countable</dd></dl>
+<p>A maker's written promise to repair or replace a faulty product.</p>
+<ol><li>The <em>warranty</em> covers parts and labor.</li><li>It's still under <em>warranty</em>.</li><li>Extended <em>warranties</em> are usually a bad deal.</li></ol>
+<hr>
+<h3 id="guarantee">guarantee<a class="hash" href="#guarantee" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/ˌɡerənˈtiː/ &middot; <em>gair-uhn-TEE</em></dd><dt>Русский</dt><dd>гарантия, поручительство</dd><dt>Plural</dt><dd><em>guarantees</em></dd><dt>Countability</dt><dd>countable</dd><dt>Contrast</dt><dd>The <em>u</em> after the g is silent, and the stress lands on the last syllable.</dd></dl>
+<p>A firm promise that something will happen or be made good.</p>
+<ol><li>There's no <em>guarantee</em> it'll work.</li><li>The store offers a money-back <em>guarantee</em>.</li><li><em>Guarantees</em> like that aren't worth much.</li></ol>
+<hr>
+<h3 id="merger">merger<a class="hash" href="#merger" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/ˈmɜːrdʒər/ &middot; <em>MUR-jur</em></dd><dt>Русский</dt><dd>слияние компаний</dd><dt>Plural</dt><dd><em>mergers</em></dd><dt>Countability</dt><dd>countable</dd></dl>
+<p>The joining of two companies into one.</p>
+<ol><li>The <em>merger</em> fell apart at the last minute.</li><li>Regulators blocked the <em>merger</em>.</li><li>There have been three <em>mergers</em> in the industry this year.</li></ol>
+<hr>
+<h3 id="grant">grant<a class="hash" href="#grant" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/ɡrænt/ &middot; <em>GRANT</em></dd><dt>Русский</dt><dd>грант, безвозмездная субсидия</dd><dt>Plural</dt><dd><em>grants</em></dd><dt>Countability</dt><dd>countable</dd></dl>
+<p>Money given for a specific purpose that does not have to be paid back.</p>
+<ol><li>The lab runs on federal <em>grants</em>.</li><li>She won a <em>grant</em> to study abroad.</li><li>The <em>grant</em> pays for equipment only.</li></ol>
+<hr>
+<h3 id="startup">startup<a class="hash" href="#startup" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/ˈstɑːrtʌp/ &middot; <em>START-up</em></dd><dt>Русский</dt><dd>стартап</dd><dt>Plural</dt><dd><em>startups</em></dd><dt>Countability</dt><dd>countable</dd></dl>
+<p>A young company built to grow fast, usually on investors' money.</p>
+<ol><li>She left the bank for a <em>startup</em>.</li><li>Most <em>startups</em> fail within five years.</li><li>The <em>startup</em> raised ten million dollars.</li></ol>
+<hr>
+<h3 id="turnover">turnover<a class="hash" href="#turnover" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/ˈtɜːrnoʊvər/ &middot; <em>TUR-noh-vur</em></dd><dt>Русский</dt><dd>текучка кадров; оборот</dd><dt>Countability</dt><dd>uncountable</dd><dt>Contrast</dt><dd>In American business English <em>turnover</em> usually means staff churn; the British use it for sales revenue.</dd></dl>
+<p>The rate at which employees leave and are replaced, or the money a business takes in.</p>
+<ol><li><em>Turnover</em> in that department is brutal.</li><li>High <em>turnover</em> costs more than people think.</li><li>They cut <em>turnover</em> by raising starting pay.</li></ol>
+<hr>
+<h3 id="poverty">poverty<a class="hash" href="#poverty" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/ˈpɑːvərti/ &middot; <em>PAH-vur-tee</em></dd><dt>Русский</dt><dd>бедность, нищета</dd><dt>Countability</dt><dd>uncountable</dd></dl>
+<p>The state of having very little money.</p>
+<ol><li>Millions of people live in <em>poverty</em>.</li><li>The program is aimed at reducing <em>poverty</em>.</li><li>He grew up in real <em>poverty</em>.</li></ol>
+<hr>
+<h3 id="benefit">benefit<a class="hash" href="#benefit" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/ˈbenəfɪt/ &middot; <em>BEN-uh-fit</em></dd><dt>Русский</dt><dd>льгота, пособие</dd><dt>Plural</dt><dd><em>benefits</em></dd><dt>Countability</dt><dd>countable</dd></dl>
+<p>Money or services given by an employer or the government beyond wages.</p>
+<ol><li>The job comes with good <em>benefits</em>.</li><li>He's collecting unemployment <em>benefits</em>.</li><li>Health <em>benefits</em> start after ninety days.</li></ol>
+<hr>
+<h3 id="allowance">allowance<a class="hash" href="#allowance" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/əˈlaʊrns/ &middot; <em>uh-LOW-uhns</em></dd><dt>Русский</dt><dd>карманные деньги; денежное содержание</dd><dt>Plural</dt><dd><em>allowances</em></dd><dt>Countability</dt><dd>countable</dd></dl>
+<p>An amount of money given regularly for a particular purpose.</p>
+<ol><li>The kids get a weekly <em>allowance</em>.</li><li>There's a travel <em>allowance</em> with the job.</li><li><em>Allowances</em> haven't gone up in years.</li></ol>
+<hr>
+<h3 id="donation">donation<a class="hash" href="#donation" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/doʊˈneɪʃən/ &middot; <em>doh-NAY-shuhn</em></dd><dt>Русский</dt><dd>пожертвование</dd><dt>Plural</dt><dd><em>donations</em></dd><dt>Countability</dt><dd>countable</dd></dl>
+<p>Money or goods given to help a person or organization.</p>
+<ol><li>They're collecting <em>donations</em> for the shelter.</li><li>One anonymous <em>donation</em> covered the whole thing.</li><li>Your <em>donation</em> is tax-deductible.</li></ol>
+<hr>
+<h3 id="charity">charity<a class="hash" href="#charity" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/ˈtʃerəti/ &middot; <em>CHAIR-uh-tee</em></dd><dt>Русский</dt><dd>благотворительная организация; благотворительность</dd><dt>Plural</dt><dd><em>charities</em></dd><dt>Countability</dt><dd>countable</dd></dl>
+<p>An organization that raises money to help people in need.</p>
+<ol><li>She gives to three <em>charities</em> every year.</li><li>The <em>charity</em> runs almost entirely on volunteers.</li><li>Half the proceeds go to <em>charity</em>.</li></ol>
+<hr>
+<h3 id="tip">tip<a class="hash" href="#tip" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/tɪp/ &middot; <em>TIP</em></dd><dt>Русский</dt><dd>чаевые</dd><dt>Plural</dt><dd><em>tips</em></dd><dt>Countability</dt><dd>countable</dd></dl>
+<p>Extra money given to someone for good service.</p>
+<ol><li>Leave a decent <em>tip</em>.</li><li>Servers here live on <em>tips</em>.</li><li>The <em>tip</em> is already included in the total.</li></ol>
+<hr>
+<h3 id="value">value<a class="hash" href="#value" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/ˈvæljuː/ &middot; <em>VAL-yoo</em></dd><dt>Русский</dt><dd>стоимость, ценность</dd><dt>Plural</dt><dd><em>values</em></dd><dt>Countability</dt><dd>countable</dd></dl>
+<p>How much something is worth in money.</p>
+<ol><li>The house lost <em>value</em> after the flood.</li><li>Property <em>values</em> are climbing again.</li><li>The car's resale <em>value</em> is low.</li></ol>
+<hr>
+<h3 id="sum">sum<a class="hash" href="#sum" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/sʌm/ &middot; <em>SUM</em></dd><dt>Русский</dt><dd>сумма</dd><dt>Plural</dt><dd><em>sums</em></dd><dt>Countability</dt><dd>countable</dd><dt>Contrast</dt><dd>Sounds exactly like <em>some</em>.</dd></dl>
+<p>An amount of money.</p>
+<ol><li>He owes a substantial <em>sum</em>.</li><li>They paid the <em>sum</em> in full.</li><li>Huge <em>sums</em> went missing from the account.</li></ol>
+<hr>
+<h3 id="fine">fine<a class="hash" href="#fine" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/faɪn/ &middot; <em>FYNE</em></dd><dt>Русский</dt><dd>штраф</dd><dt>Plural</dt><dd><em>fines</em></dd><dt>Countability</dt><dd>countable</dd></dl>
+<p>Money you must pay as a penalty for breaking a rule or law.</p>
+<ol><li>The parking <em>fine</em> was seventy-five dollars.</li><li><em>Fines</em> double if you don't pay in thirty days.</li><li>She got a <em>fine</em> for the expired registration.</li></ol></div></main>
+<button class="themebtn" id="themeBtn">Dark</button>
+<script>
+const tb=document.getElementById('themeBtn');
+function setTheme(x){document.documentElement.dataset.theme=x;tb.textContent=x==='dark'?'Light':'Dark';
+ try{localStorage.setItem('site-theme',x)}catch(e){}}
+tb.onclick=()=>setTheme(document.documentElement.dataset.theme==='dark'?'light':'dark');
+try{const s=localStorage.getItem('site-theme');
+ setTheme(s||(matchMedia('(prefers-color-scheme: dark)').matches?'dark':'light'))}catch(e){setTheme('light')}
+</script></body></html>

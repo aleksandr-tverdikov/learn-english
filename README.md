@@ -24,12 +24,18 @@ Each class folder is a self-contained README with the same ten sections: what th
 
 ## The Noun Dictionary
 
-**[01-nouns/catalog/](parts-of-speech/01-nouns/catalog/README.md)** — **799 nouns** in 24 groups. Nouns are an open class, so this is deliberately *not* a list of nouns: it is a list of the nouns that **do not behave**, which is the part you actually have to learn. Three systems, grouped by what goes wrong:
+**[01-nouns/catalog/](parts-of-speech/01-nouns/catalog/README.md)** — **3,052 nouns** in 50 groups, built in **two tiers**, because nouns are an open class and the two halves of the problem are different.
+
+The **grammar tier** (groups 1–23, 694 entries) covers the nouns that *misbehave* — the part a learner has to memorize because no rule predicts it. Each gets the full treatment: numbered senses, contrast notes, a dozen examples. Three systems, grouped by what goes wrong:
 
 - **Irregular plurals** (groups 1–12), organized by how the form changes rather than alphabetically — the seven vowel-change plurals (*foot/feet*), the *-en* survivors (*child/children*), the zero plurals (*sheep*, *deer*, *series*), *-f → -ves* with its traps (*thief/thieves* but *chief/chiefs*), the *-o* rule, and the borrowed Latin, Greek, Italian, Hebrew, and French plurals
 - **Countability** (groups 13–16) — the uncountables that break learners (✗ *an information*, ✗ *two advices*), the nouns that are both with **different meanings** (*a hair* vs *hair*), the plural-only nouns (*scissors*, *jeans*), and the *-s* nouns that take a singular verb (*the news **is***, *physics **is***)
 - **Agreement and counting** (groups 17–20) — collective nouns and the American/British split (*the team **is*** vs *the team **are***), compound plurals (*mothers-in-law*), the partitives that let you count the uncountable (*a piece of advice*, *a pinch of salt*), and nationality nouns (*two Japanese*, but *two Spaniards*)
 - **Naming and marking** (groups 21–23) — the collective nouns for animals (*a pride of lions*, *a murder of crows*), the gender pairs and which of them are dying (*actor* has swallowed *actress*; *firefighter* has replaced *fireman*), and proper nouns and brand names, where the capital letter is the whole grammar (*aspirin* lost its trademark; *Kleenex* has not)
+
+The **core-vocabulary tier** (groups 24–55, 2,358 entries) covers the nouns you simply need to *know*: frequent, regular, countable words organized by semantic field — the body, health, food, the house, clothing, tools, materials, landscape, weather, animals, money, work, and the rest. A regular noun like *doctor* has no grammatical story, so these entries are deliberately lean: pronunciation, Russian, plural, countability, a one-line gloss, three examples. A **Contrast** line appears only where the word hides a real trap — *plumber* has a silent *b*, *rapids* is always plural, Americans play *sports* where the British play *sport*.
+
+A word never appears in both tiers: if it misbehaves, the full entry wins and the lean one is dropped.
 
 Every entry carries General American pronunciation for **both** forms, since the plural is often where the sound changes: *woman* /ˈwʊmən/ → *women* /ˈwɪmɪn/, *analysis* → *analyses* /-siːz/, *corpus* → *corpora*. Traps are called out explicitly — ✗ *octopi*, ✗ *rooves*, ✗ *criterias*, ✗ *a phenomena*, ✗ *mongeese*.
 
