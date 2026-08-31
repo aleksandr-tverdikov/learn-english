@@ -1,0 +1,617 @@
+<!DOCTYPE html>
+<html lang="en"><head>
+<meta charset="utf-8"><meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Core vocabulary: people, family, and work</title>
+<style>
+:root{--bg:#faf9f7;--surface:#fff;--surface2:#f2f0ec;--border:#e2ded6;--text:#1a1815;
+--dim:#5f594f;--faint:#8a8377;--accent:#8a5a3b;--measure:72ch}
+@media(prefers-color-scheme:dark){:root{--bg:#14140f;--surface:#1d1d17;--surface2:#25251d;
+--border:#33332a;--text:#eeeae1;--dim:#a8a293;--faint:#7d776b;--accent:#d09b72}}
+:root[data-theme=dark]{--bg:#14140f;--surface:#1d1d17;--surface2:#25251d;--border:#33332a;
+--text:#eeeae1;--dim:#a8a293;--faint:#7d776b;--accent:#d09b72}
+:root[data-theme=light]{--bg:#faf9f7;--surface:#fff;--surface2:#f2f0ec;--border:#e2ded6;
+--text:#1a1815;--dim:#5f594f;--faint:#8a8377;--accent:#8a5a3b}
+*{box-sizing:border-box}
+body{margin:0;background:var(--bg);color:var(--text);
+font:17px/1.72 ui-serif,Georgia,"Iowan Old Style",Palatino,serif;-webkit-font-smoothing:antialiased}
+.wrap{max-width:min(var(--measure),100%);margin:0 auto;padding:0 22px}
+nav.crumb{border-bottom:1px solid var(--border);padding:13px 0;font-size:13.5px;
+font-family:-apple-system,BlinkMacSystemFont,"Segoe UI",sans-serif;position:sticky;top:0;background:var(--bg);z-index:20}
+nav.crumb .wrap{max-width:none;display:flex;gap:9px;align-items:center;flex-wrap:wrap}
+nav.crumb a{color:var(--dim);text-decoration:none}
+nav.crumb a:hover{color:var(--accent)}
+nav.crumb .sep{color:var(--faint)}
+main{padding:8px 0 80px}
+h1{font-size:clamp(28px,5vw,38px);line-height:1.15;letter-spacing:-.015em;margin:34px 0 18px}
+h2{font-size:25px;margin:46px 0 14px;letter-spacing:-.01em;padding-bottom:7px;border-bottom:1px solid var(--border)}
+h3{font-size:19px;margin:34px 0 10px;color:var(--accent)}
+h4{font-size:16px;margin:24px 0 8px;font-family:-apple-system,sans-serif}
+p{margin:0 0 16px}
+a{color:var(--accent)}
+.hash{opacity:0;margin-left:8px;font-weight:400;font-size:.65em;text-decoration:none;color:var(--faint)}
+h2:hover .hash,h3:hover .hash{opacity:1}
+blockquote{margin:0 0 20px;padding:14px 18px;background:var(--surface2);
+border-left:3px solid var(--accent);border-radius:0 8px 8px 0}
+blockquote p:last-child{margin-bottom:0}
+ol,ul{margin:0 0 18px;padding-left:26px}
+li{margin-bottom:8px}
+li>ul,li>ol{margin:8px 0 0}
+code{font-family:ui-monospace,SFMono-Regular,Menlo,Consolas,monospace;font-size:.87em;
+background:var(--surface2);padding:1px 5px;border-radius:4px}
+pre{background:var(--surface2);border:1px solid var(--border);border-radius:9px;
+padding:15px 17px;overflow-x:auto;margin:0 0 20px}
+pre code{background:none;padding:0;font-size:13px;line-height:1.6}
+.tw{overflow-x:auto;margin:0 0 22px;border:1px solid var(--border);border-radius:9px}
+table{border-collapse:collapse;width:100%;font-size:15px;
+font-family:-apple-system,BlinkMacSystemFont,"Segoe UI",sans-serif}
+th,td{padding:10px 14px;border-bottom:1px solid var(--border);vertical-align:top}
+th{background:var(--surface2);font-size:12px;text-transform:uppercase;
+letter-spacing:.06em;color:var(--dim);font-weight:700;white-space:nowrap}
+tbody tr:last-child td{border-bottom:none}
+hr{border:none;border-top:1px solid var(--border);margin:38px 0}
+details{background:var(--surface2);border:1px solid var(--border);border-radius:9px;
+padding:13px 17px;margin:0 0 20px}
+summary{cursor:pointer;font-weight:600;font-family:-apple-system,sans-serif;font-size:15px}
+details[open] summary{margin-bottom:12px}
+del{color:var(--faint)}
+dl.fields{margin:0 0 20px;padding:0}
+dl.fields dt{font-family:-apple-system,BlinkMacSystemFont,"Segoe UI",sans-serif;
+font-size:11px;letter-spacing:.11em;text-transform:uppercase;color:var(--faint);
+font-weight:700;margin:14px 0 4px}
+dl.fields dt:first-child{margin-top:0}
+dl.fields dd{margin:0;font-size:16px;color:var(--dim);line-height:1.62}
+dl.fields dd em{color:var(--text)}
+dl.fields dt.ru{color:var(--accent)}
+dl.fields dd strong{color:var(--text)}
+.toc{background:var(--surface2);border:1px solid var(--border);border-radius:10px;
+padding:16px 20px;margin:26px 0 34px;font-family:-apple-system,sans-serif;font-size:14px}
+.toc b{display:block;font-size:11px;letter-spacing:.12em;text-transform:uppercase;
+color:var(--faint);margin-bottom:9px}
+.toc a{display:block;padding:3px 0;color:var(--dim);text-decoration:none}
+.toc a:hover{color:var(--accent)}
+.themebtn{position:fixed;right:18px;bottom:18px;z-index:60;font-family:-apple-system,sans-serif;
+font-size:12.5px;font-weight:600;cursor:pointer;background:var(--surface);border:1px solid var(--border);
+border-radius:99px;padding:9px 16px;color:var(--text)}
+@media(max-width:600px){body{font-size:16px}.wrap{padding:0 17px}}
+</style></head><body>
+<nav class="crumb"><div class="wrap"><a href="../../../index.html">Learn English</a><span class="sep">/</span><a href="../../README.html">Parts of speech</a><span class="sep">/</span><a href="../README.html">01-nouns</a><span class="sep">/</span><span>catalog</span></div></nav>
+<main><div class="wrap"><h1 id="core-vocabulary-people-family-and-work">Core vocabulary: people, family, and work<a class="hash" href="#core-vocabulary-people-family-and-work" aria-label="link">#</a></h1>
+<blockquote><p>The everyday nouns for people — relatives, roles, and professions. Regular, countable, and no traps, which is exactly why they get a shorter entry.</p></blockquote>
+<p><a href="../README.html">← The grammar of nouns</a> &middot; <a href="README.html">All groups</a></p>
+<p>Groups 1–23 cover the nouns that <strong>misbehave</strong>. This group and the ones after it cover the nouns you simply need to <strong>know</strong>: frequent, well-behaved words with regular plurals and no grammatical surprises.</p>
+<p>Because there is no story to tell about the grammar of <em>doctor</em>, these entries are deliberately lean — pronunciation, Russian, plural, countability, a one-line gloss, and three examples. Where a word does hide something (<em>suspect</em> shifts its stress, <em>plumber</em> has a silent <em>b</em>, <em>immigrant</em> is the mirror image of <em>emigrant</em>), a <strong>Contrast</strong> line says so.</p>
+<p>Nouns for people are overwhelmingly countable and take regular <em>-s</em>. The exceptions already have their own entries: <a href="01-vowel-change.html#man">man</a>, <a href="01-vowel-change.html#woman">woman</a>, <a href="02-en-and-suppletive.html#child">child</a>, <a href="02-en-and-suppletive.html#person">person</a>, and the <a href="22-gender-pairs.html">gender pairs</a>.</p>
+<hr>
+<h3 id="mother">mother<a class="hash" href="#mother" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/ˈmʌðər/ &middot; <em>MUTH-ur</em></dd><dt>Русский</dt><dd>мать</dd><dt>Plural</dt><dd><em>mothers</em></dd><dt>Countability</dt><dd>countable</dd></dl>
+<p>A female parent.</p>
+<ol><li>His <em>mother</em> still lives in the same house.</li><li>Both <em>mothers</em> waited outside the classroom.</li><li>She became a <em>mother</em> at twenty-six.</li></ol>
+<hr>
+<h3 id="father">father<a class="hash" href="#father" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/ˈfɑːðər/ &middot; <em>FAH-thur</em></dd><dt>Русский</dt><dd>отец</dd><dt>Plural</dt><dd><em>fathers</em></dd><dt>Countability</dt><dd>countable</dd></dl>
+<p>A male parent.</p>
+<ol><li>Her <em>father</em> taught her to drive.</li><li>Both <em>fathers</em> coached the team.</li><li>He became a <em>father</em> last spring.</li></ol>
+<hr>
+<h3 id="parent">parent<a class="hash" href="#parent" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/ˈpɛrənt/ &middot; <em>PER-uhnt</em></dd><dt>Русский</dt><dd>родитель</dd><dt>Plural</dt><dd><em>parents</em></dd><dt>Countability</dt><dd>countable</dd></dl>
+<p>A mother or father.</p>
+<ol><li>Every <em>parent</em> signed the form.</li><li>Her <em>parents</em> moved here in 1998.</li><li>A <em>parent</em> has to be present.</li></ol>
+<hr>
+<h3 id="son">son<a class="hash" href="#son" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/sʌn/ &middot; <em>sun</em></dd><dt>Русский</dt><dd>сын</dd><dt>Plural</dt><dd><em>sons</em></dd><dt>Countability</dt><dd>countable</dd><dt>Contrast</dt><dd>A homophone of <em>sun</em>, the star.</dd></dl>
+<p>A male child.</p>
+<ol><li>Their <em>son</em> is at college in Boston.</li><li>Both <em>sons</em> went into medicine.</li><li>He has one <em>son</em> and two daughters.</li></ol>
+<hr>
+<h3 id="daughter">daughter<a class="hash" href="#daughter" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/ˈdɔːtər/ &middot; <em>DAW-tur</em></dd><dt>Русский</dt><dd>дочь</dd><dt>Plural</dt><dd><em>daughters</em></dd><dt>Countability</dt><dd>countable</dd></dl>
+<p>A female child.</p>
+<ol><li>Their <em>daughter</em> plays the violin.</li><li>Both <em>daughters</em> live abroad now.</li><li>She is the youngest <em>daughter</em> of four.</li></ol>
+<hr>
+<h3 id="sister">sister<a class="hash" href="#sister" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/ˈsɪstər/ &middot; <em>SIS-tur</em></dd><dt>Русский</dt><dd>сестра</dd><dt>Plural</dt><dd><em>sisters</em></dd><dt>Countability</dt><dd>countable</dd></dl>
+<p>A female sibling.</p>
+<ol><li>My <em>sister</em> is three years older.</li><li>Both <em>sisters</em> run the business.</li><li>She has no brothers and two <em>sisters</em>.</li></ol>
+<hr>
+<h3 id="baby">baby<a class="hash" href="#baby" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/ˈbeɪbi/ &middot; <em>BAY-bee</em></dd><dt>Русский</dt><dd>младенец, малыш</dd><dt>Plural</dt><dd><em>babies</em></dd><dt>Countability</dt><dd>countable</dd></dl>
+<p>A very young child.</p>
+<ol><li>The <em>baby</em> slept the whole flight.</li><li>Both <em>babies</em> were born the same week.</li><li>She is expecting a <em>baby</em> in June.</li></ol>
+<hr>
+<h3 id="grandmother">grandmother<a class="hash" href="#grandmother" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/ˈɡrænmʌðər/ &middot; <em>GRAN-muth-ur</em></dd><dt>Русский</dt><dd>бабушка</dd><dt>Plural</dt><dd><em>grandmothers</em></dd><dt>Countability</dt><dd>countable</dd></dl>
+<p>The mother of one's parent.</p>
+<ol><li>His <em>grandmother</em> is ninety-one.</li><li>Both <em>grandmothers</em> came to the wedding.</li><li>She learned the recipe from her <em>grandmother</em>.</li></ol>
+<hr>
+<h3 id="grandfather">grandfather<a class="hash" href="#grandfather" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/ˈɡrænfɑːðər/ &middot; <em>GRAN-fah-thur</em></dd><dt>Русский</dt><dd>дедушка</dd><dt>Plural</dt><dd><em>grandfathers</em></dd><dt>Countability</dt><dd>countable</dd></dl>
+<p>The father of one's parent.</p>
+<ol><li>Her <em>grandfather</em> built this house.</li><li>Both <em>grandfathers</em> served in the war.</li><li>He was named after his <em>grandfather</em>.</li></ol>
+<hr>
+<h3 id="grandson">grandson<a class="hash" href="#grandson" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/ˈɡrænsʌn/ &middot; <em>GRAN-sun</em></dd><dt>Русский</dt><dd>внук</dd><dt>Plural</dt><dd><em>grandsons</em></dd><dt>Countability</dt><dd>countable</dd></dl>
+<p>The son of one's child.</p>
+<ol><li>Their <em>grandson</em> visits every summer.</li><li>Both <em>grandsons</em> are in high school.</li><li>She left the farm to her <em>grandson</em>.</li></ol>
+<hr>
+<h3 id="granddaughter">granddaughter<a class="hash" href="#granddaughter" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/ˈɡrændɔːtər/ &middot; <em>GRAN-daw-tur</em></dd><dt>Русский</dt><dd>внучка</dd><dt>Plural</dt><dd><em>granddaughters</em></dd><dt>Countability</dt><dd>countable</dd></dl>
+<p>The daughter of one's child.</p>
+<ol><li>His <em>granddaughter</em> is learning Spanish.</li><li>Both <em>granddaughters</em> were at the party.</li><li>She has four <em>granddaughters</em> and no grandsons.</li></ol>
+<hr>
+<h3 id="aunt">aunt<a class="hash" href="#aunt" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/ænt/ &middot; <em>ant</em></dd><dt>Русский</dt><dd>тётя</dd><dt>Plural</dt><dd><em>aunts</em></dd><dt>Countability</dt><dd>countable</dd></dl>
+<p>The sister of one's parent, or an uncle's wife.</p>
+<ol><li>My <em>aunt</em> lives in Portland.</li><li>Both <em>aunts</em> sent birthday cards.</li><li>She stayed with her <em>aunt</em> for a month.</li></ol>
+<hr>
+<h3 id="uncle">uncle<a class="hash" href="#uncle" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/ˈʌŋkəl/ &middot; <em>UNG-kuhl</em></dd><dt>Русский</dt><dd>дядя</dd><dt>Plural</dt><dd><em>uncles</em></dd><dt>Countability</dt><dd>countable</dd></dl>
+<p>The brother of one's parent, or an aunt's husband.</p>
+<ol><li>His <em>uncle</em> got him the job.</li><li>Both <em>uncles</em> are farmers.</li><li>She named her son after her <em>uncle</em>.</li></ol>
+<hr>
+<h3 id="cousin">cousin<a class="hash" href="#cousin" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/ˈkʌzən/ &middot; <em>KUZ-uhn</em></dd><dt>Русский</dt><dd>двоюродный брат, двоюродная сестра</dd><dt>Plural</dt><dd><em>cousins</em></dd><dt>Countability</dt><dd>countable</dd><dt>Contrast</dt><dd>English uses one word regardless of sex, unlike Russian.</dd></dl>
+<p>The child of one's aunt or uncle.</p>
+<ol><li>My <em>cousin</em> is visiting from Chicago.</li><li>All my <em>cousins</em> live within an hour of here.</li><li>He and I are first <em>cousins</em>.</li></ol>
+<hr>
+<h3 id="relative">relative<a class="hash" href="#relative" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/ˈrɛlətɪv/ &middot; <em>REL-uh-tiv</em></dd><dt>Русский</dt><dd>родственник</dd><dt>Plural</dt><dd><em>relatives</em></dd><dt>Countability</dt><dd>countable</dd></dl>
+<p>Someone connected by blood or marriage.</p>
+<ol><li>Distant <em>relatives</em> came from three states.</li><li>Every <em>relative</em> was invited.</li><li>She has no close <em>relatives</em> left.</li></ol>
+<hr>
+<h3 id="twin">twin<a class="hash" href="#twin" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/twɪn/ &middot; <em>twin</em></dd><dt>Русский</dt><dd>близнец</dd><dt>Plural</dt><dd><em>twins</em></dd><dt>Countability</dt><dd>countable</dd></dl>
+<p>One of two children born at the same birth.</p>
+<ol><li>Her <em>twin</em> lives in Denver.</li><li>The <em>twins</em> were born eight minutes apart.</li><li>He has a <em>twin</em> brother.</li></ol>
+<hr>
+<h3 id="sibling">sibling<a class="hash" href="#sibling" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/ˈsɪblɪŋ/ &middot; <em>SIB-ling</em></dd><dt>Русский</dt><dd>брат или сестра</dd><dt>Plural</dt><dd><em>siblings</em></dd><dt>Countability</dt><dd>countable</dd><dt>Contrast</dt><dd>A useful sex-neutral cover term, commoner in writing than in speech.</dd></dl>
+<p>A brother or sister.</p>
+<ol><li>She has four <em>siblings</em>.</li><li>Both <em>siblings</em> went to the same school.</li><li>A <em>sibling</em> discount applies.</li></ol>
+<hr>
+<h3 id="spouse">spouse<a class="hash" href="#spouse" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/spaʊs/ &middot; <em>spows</em></dd><dt>Русский</dt><dd>супруг, супруга</dd><dt>Plural</dt><dd><em>spouses</em></dd><dt>Countability</dt><dd>countable</dd></dl>
+<p>A husband or wife.</p>
+<ol><li>Each employee may add one <em>spouse</em> to the plan.</li><li>Both <em>spouses</em> must sign.</li><li>Her <em>spouse</em> works for the same company.</li></ol>
+<hr>
+<h3 id="boy">boy<a class="hash" href="#boy" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/bɔɪ/ &middot; <em>boy</em></dd><dt>Русский</dt><dd>мальчик</dd><dt>Plural</dt><dd><em>boys</em></dd><dt>Countability</dt><dd>countable</dd></dl>
+<p>A male child.</p>
+<ol><li>The <em>boy</em> next door mows our lawn.</li><li>Both <em>boys</em> are on the swim team.</li><li>A <em>boy</em> of about ten answered the door.</li></ol>
+<hr>
+<h3 id="girl">girl<a class="hash" href="#girl" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/ɡɜːrl/ &middot; <em>gurl</em></dd><dt>Русский</dt><dd>девочка</dd><dt>Plural</dt><dd><em>girls</em></dd><dt>Countability</dt><dd>countable</dd></dl>
+<p>A female child.</p>
+<ol><li>The <em>girl</em> in the front row asked a question.</li><li>Both <em>girls</em> play soccer.</li><li>A <em>girl</em> of six can read this.</li></ol>
+<hr>
+<h3 id="adult">adult<a class="hash" href="#adult" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/əˈdʌlt/ &middot; <em>uh-DULT</em></dd><dt>Русский</dt><dd>взрослый</dd><dt>Plural</dt><dd><em>adults</em></dd><dt>Countability</dt><dd>countable</dd><dt>Contrast</dt><dd>Also stressed on the first syllable, <em>AD-ult</em>; both are standard.</dd></dl>
+<p>A fully grown person.</p>
+<ol><li>Two <em>adults</em> and three children, please.</li><li>Every <em>adult</em> in the room had voted.</li><li>She moved here as an <em>adult</em>.</li></ol>
+<hr>
+<h3 id="teenager">teenager<a class="hash" href="#teenager" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/ˈtiːneɪdʒər/ &middot; <em>TEEN-ay-jur</em></dd><dt>Русский</dt><dd>подросток</dd><dt>Plural</dt><dd><em>teenagers</em></dd><dt>Countability</dt><dd>countable</dd></dl>
+<p>Someone between thirteen and nineteen.</p>
+<ol><li>Two <em>teenagers</em> were waiting at the bus stop.</li><li>Every <em>teenager</em> here has a phone.</li><li>She was a <em>teenager</em> when the wall came down.</li></ol>
+<hr>
+<h3 id="kid">kid<a class="hash" href="#kid" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/kɪd/ &middot; <em>kid</em></dd><dt>Русский</dt><dd>ребёнок</dd><dt>Plural</dt><dd><em>kids</em></dd><dt>Countability</dt><dd>countable</dd><dt>Contrast</dt><dd>Also a young goat, which is where the word came from.</dd></dl>
+<p>A child. Informal.</p>
+<ol><li>The <em>kids</em> are still asleep.</li><li>Both <em>kids</em> go to the same school.</li><li>He was a quiet <em>kid</em>.</li></ol>
+<hr>
+<h3 id="friend">friend<a class="hash" href="#friend" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/frɛnd/ &middot; <em>frend</em></dd><dt>Русский</dt><dd>друг, подруга</dd><dt>Plural</dt><dd><em>friends</em></dd><dt>Countability</dt><dd>countable</dd></dl>
+<p>Someone you like and know well.</p>
+<ol><li>An old <em>friend</em> called last night.</li><li>Both <em>friends</em> moved away the same year.</li><li>She is a close <em>friend</em> of the family.</li></ol>
+<hr>
+<h3 id="neighbor">neighbor<a class="hash" href="#neighbor" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/ˈneɪbər/ &middot; <em>NAY-bur</em></dd><dt>Русский</dt><dd>сосед</dd><dt>Plural</dt><dd><em>neighbors</em></dd><dt>Countability</dt><dd>countable</dd><dt>Contrast</dt><dd>The British spelling is <em>neighbour</em>.</dd></dl>
+<p>Someone living next to or near you.</p>
+<ol><li>Our <em>neighbor</em> has three dogs.</li><li>Both <em>neighbors</em> complained about the noise.</li><li>She barely knows her <em>neighbors</em>.</li></ol>
+<hr>
+<h3 id="stranger">stranger<a class="hash" href="#stranger" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/ˈstreɪndʒər/ &middot; <em>STRAYN-jur</em></dd><dt>Русский</dt><dd>незнакомец</dd><dt>Plural</dt><dd><em>strangers</em></dd><dt>Countability</dt><dd>countable</dd></dl>
+<p>Someone you do not know.</p>
+<ol><li>A <em>stranger</em> stopped to help.</li><li>Two <em>strangers</em> shared the table.</li><li>She is no <em>stranger</em> to hard work.</li></ol>
+<hr>
+<h3 id="guest">guest<a class="hash" href="#guest" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/ɡɛst/ &middot; <em>gest</em></dd><dt>Русский</dt><dd>гость</dd><dt>Plural</dt><dd><em>guests</em></dd><dt>Countability</dt><dd>countable</dd></dl>
+<p>Someone invited to a place or event.</p>
+<ol><li>Both <em>guests</em> arrived late.</li><li>The hotel can hold four hundred <em>guests</em>.</li><li>She was a <em>guest</em> on the show twice.</li></ol>
+<hr>
+<h3 id="visitor">visitor<a class="hash" href="#visitor" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/ˈvɪzɪtər/ &middot; <em>VIZ-ih-tur</em></dd><dt>Русский</dt><dd>посетитель</dd><dt>Plural</dt><dd><em>visitors</em></dd><dt>Countability</dt><dd>countable</dd></dl>
+<p>Someone who comes to a place.</p>
+<ol><li>The museum had two million <em>visitors</em> last year.</li><li>Both <em>visitors</em> signed in at the desk.</li><li>A <em>visitor</em> is waiting in the lobby.</li></ol>
+<hr>
+<h3 id="customer">customer<a class="hash" href="#customer" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/ˈkʌstəmər/ &middot; <em>KUS-tuh-mur</em></dd><dt>Русский</dt><dd>клиент, покупатель</dd><dt>Plural</dt><dd><em>customers</em></dd><dt>Countability</dt><dd>countable</dd></dl>
+<p>Someone who buys goods or services.</p>
+<ol><li>The <em>customer</em> asked for a refund.</li><li>Both <em>customers</em> left good reviews.</li><li>We serve about three hundred <em>customers</em> a day.</li></ol>
+<hr>
+<h3 id="client">client<a class="hash" href="#client" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/ˈklaɪənt/ &middot; <em>KLY-uhnt</em></dd><dt>Русский</dt><dd>клиент</dd><dt>Plural</dt><dd><em>clients</em></dd><dt>Countability</dt><dd>countable</dd><dt>Contrast</dt><dd>A <em>client</em> buys services; a <em>customer</em> buys goods.</dd></dl>
+<p>Someone who uses professional services.</p>
+<ol><li>Her <em>client</em> wants the contract redrafted.</li><li>Both <em>clients</em> pay monthly.</li><li>He has a <em>client</em> meeting at four.</li></ol>
+<hr>
+<h3 id="patient">patient<a class="hash" href="#patient" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/ˈpeɪʃənt/ &middot; <em>PAY-shuhnt</em></dd><dt>Русский</dt><dd>пациент</dd><dt>Plural</dt><dd><em>patients</em></dd><dt>Countability</dt><dd>countable</dd><dt>Contrast</dt><dd>A homophone of the plural of <em>patience</em> — see <a href="13-uncountable.html#patience">patience</a>.</dd></dl>
+<p>Someone receiving medical treatment.</p>
+<ol><li>The <em>patient</em> was discharged on Friday.</li><li>Both <em>patients</em> responded well.</li><li>She sees about twenty <em>patients</em> a day.</li></ol>
+<hr>
+<h3 id="student">student<a class="hash" href="#student" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/ˈstuːdənt/ &middot; <em>STOO-duhnt</em></dd><dt>Русский</dt><dd>студент, ученик</dd><dt>Plural</dt><dd><em>students</em></dd><dt>Countability</dt><dd>countable</dd></dl>
+<p>Someone studying at a school or university.</p>
+<ol><li>Both <em>students</em> passed with distinction.</li><li>The class has nineteen <em>students</em>.</li><li>She was a <em>student</em> here in the nineties.</li></ol>
+<hr>
+<h3 id="teacher">teacher<a class="hash" href="#teacher" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/ˈtiːtʃər/ &middot; <em>TEE-chur</em></dd><dt>Русский</dt><dd>учитель</dd><dt>Plural</dt><dd><em>teachers</em></dd><dt>Countability</dt><dd>countable</dd></dl>
+<p>Someone whose job is teaching.</p>
+<ol><li>Her <em>teacher</em> recommended the book.</li><li>Both <em>teachers</em> retired the same year.</li><li>He is a <em>teacher</em> at the middle school.</li></ol>
+<hr>
+<h3 id="colleague">colleague<a class="hash" href="#colleague" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/ˈkɑːliːɡ/ &middot; <em>KAH-leeg</em></dd><dt>Русский</dt><dd>коллега</dd><dt>Plural</dt><dd><em>colleagues</em></dd><dt>Countability</dt><dd>countable</dd></dl>
+<p>Someone you work with.</p>
+<ol><li>A <em>colleague</em> covered my shift.</li><li>Both <em>colleagues</em> were promoted.</li><li>She stays in touch with old <em>colleagues</em>.</li></ol>
+<hr>
+<h3 id="boss">boss<a class="hash" href="#boss" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/bɔːs/ &middot; <em>baws</em></dd><dt>Русский</dt><dd>начальник</dd><dt>Plural</dt><dd><em>bosses</em></dd><dt>Countability</dt><dd>countable</dd></dl>
+<p>The person in charge of you at work. Informal.</p>
+<ol><li>My <em>boss</em> approved the time off.</li><li>Both <em>bosses</em> wanted the report by Friday.</li><li>She is her own <em>boss</em> now.</li></ol>
+<hr>
+<h3 id="employee">employee<a class="hash" href="#employee" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/ɪmˈplɔɪiː/ &middot; <em>im-PLOY-ee</em></dd><dt>Русский</dt><dd>сотрудник, работник</dd><dt>Plural</dt><dd><em>employees</em></dd><dt>Countability</dt><dd>countable</dd></dl>
+<p>Someone who works for a company.</p>
+<ol><li>The firm has nine hundred <em>employees</em>.</li><li>Every <em>employee</em> gets the same benefits.</li><li>Both <em>employees</em> filed complaints.</li></ol>
+<hr>
+<h3 id="employer">employer<a class="hash" href="#employer" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/ɪmˈplɔɪər/ &middot; <em>im-PLOY-ur</em></dd><dt>Русский</dt><dd>работодатель</dd><dt>Plural</dt><dd><em>employers</em></dd><dt>Countability</dt><dd>countable</dd></dl>
+<p>A person or company that employs people.</p>
+<ol><li>Her <em>employer</em> covers the insurance.</li><li>Both <em>employers</em> offered the same salary.</li><li>A good <em>employer</em> is hard to find.</li></ol>
+<hr>
+<h3 id="manager">manager<a class="hash" href="#manager" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/ˈmænɪdʒər/ &middot; <em>MAN-ih-jur</em></dd><dt>Русский</dt><dd>менеджер, руководитель</dd><dt>Plural</dt><dd><em>managers</em></dd><dt>Countability</dt><dd>countable</dd></dl>
+<p>Someone who runs a team or business.</p>
+<ol><li>The <em>manager</em> approved the discount.</li><li>Both <em>managers</em> report to the same director.</li><li>She was made <em>manager</em> after two years.</li></ol>
+<hr>
+<h3 id="worker">worker<a class="hash" href="#worker" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/ˈwɜːrkər/ &middot; <em>WUR-kur</em></dd><dt>Русский</dt><dd>работник, рабочий</dd><dt>Plural</dt><dd><em>workers</em></dd><dt>Countability</dt><dd>countable</dd></dl>
+<p>Someone who does a job, especially manual.</p>
+<ol><li>Construction <em>workers</em> start at six.</li><li>Both <em>workers</em> were injured.</li><li>Every <em>worker</em> wears a hard hat.</li></ol>
+<hr>
+<h3 id="owner">owner<a class="hash" href="#owner" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/ˈoʊnər/ &middot; <em>OH-nur</em></dd><dt>Русский</dt><dd>владелец, хозяин</dd><dt>Plural</dt><dd><em>owners</em></dd><dt>Countability</dt><dd>countable</dd></dl>
+<p>Someone who owns something.</p>
+<ol><li>The <em>owner</em> refused to sell.</li><li>Both <em>owners</em> signed the agreement.</li><li>Dog <em>owners</em> must use the side gate.</li></ol>
+<hr>
+<h3 id="member">member<a class="hash" href="#member" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/ˈmɛmbər/ &middot; <em>MEM-bur</em></dd><dt>Русский</dt><dd>член, участник</dd><dt>Plural</dt><dd><em>members</em></dd><dt>Countability</dt><dd>countable</dd></dl>
+<p>Someone belonging to a group.</p>
+<ol><li>Every <em>member</em> voted.</li><li>Both <em>members</em> resigned in protest.</li><li>She has been a <em>member</em> since 2010.</li></ol>
+<hr>
+<h3 id="leader">leader<a class="hash" href="#leader" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/ˈliːdər/ &middot; <em>LEE-dur</em></dd><dt>Русский</dt><dd>лидер, руководитель</dd><dt>Plural</dt><dd><em>leaders</em></dd><dt>Countability</dt><dd>countable</dd></dl>
+<p>Someone who leads a group.</p>
+<ol><li>The <em>leader</em> of the opposition spoke first.</li><li>Both <em>leaders</em> met privately.</li><li>She emerged as the natural <em>leader</em>.</li></ol>
+<hr>
+<h3 id="citizen">citizen<a class="hash" href="#citizen" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/ˈsɪtɪzən/ &middot; <em>SIT-ih-zuhn</em></dd><dt>Русский</dt><dd>гражданин</dd><dt>Plural</dt><dd><em>citizens</em></dd><dt>Countability</dt><dd>countable</dd></dl>
+<p>A legally recognized member of a country.</p>
+<ol><li>Both <em>citizens</em> voted by mail.</li><li>Every <em>citizen</em> over eighteen may vote.</li><li>She became a <em>citizen</em> last year.</li></ol>
+<hr>
+<h3 id="resident">resident<a class="hash" href="#resident" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/ˈrɛzɪdənt/ &middot; <em>REZ-ih-duhnt</em></dd><dt>Русский</dt><dd>житель</dd><dt>Plural</dt><dd><em>residents</em></dd><dt>Countability</dt><dd>countable</dd></dl>
+<p>Someone who lives in a place.</p>
+<ol><li>Local <em>residents</em> opposed the plan.</li><li>Both <em>residents</em> have parking permits.</li><li>She has been a <em>resident</em> here for decades.</li></ol>
+<hr>
+<h3 id="passenger">passenger<a class="hash" href="#passenger" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/ˈpæsɪndʒər/ &middot; <em>PAS-in-jur</em></dd><dt>Русский</dt><dd>пассажир</dd><dt>Plural</dt><dd><em>passengers</em></dd><dt>Countability</dt><dd>countable</dd></dl>
+<p>Someone traveling in a vehicle but not driving.</p>
+<ol><li>The plane carried two hundred <em>passengers</em>.</li><li>Both <em>passengers</em> were unhurt.</li><li>A <em>passenger</em> pulled the emergency cord.</li></ol>
+<hr>
+<h3 id="driver">driver<a class="hash" href="#driver" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/ˈdraɪvər/ &middot; <em>DRY-vur</em></dd><dt>Русский</dt><dd>водитель</dd><dt>Plural</dt><dd><em>drivers</em></dd><dt>Countability</dt><dd>countable</dd></dl>
+<p>Someone who drives a vehicle.</p>
+<ol><li>The <em>driver</em> stopped at the light.</li><li>Both <em>drivers</em> were cited.</li><li>She is a careful <em>driver</em>.</li></ol>
+<hr>
+<h3 id="tourist">tourist<a class="hash" href="#tourist" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/ˈtʊrɪst/ &middot; <em>TUUR-ist</em></dd><dt>Русский</dt><dd>турист</dd><dt>Plural</dt><dd><em>tourists</em></dd><dt>Countability</dt><dd>countable</dd></dl>
+<p>Someone traveling for pleasure.</p>
+<ol><li>The square was full of <em>tourists</em>.</li><li>Both <em>tourists</em> had lost their passports.</li><li>A <em>tourist</em> asked us for directions.</li></ol>
+<hr>
+<h3 id="immigrant">immigrant<a class="hash" href="#immigrant" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/ˈɪmɪɡrənt/ &middot; <em>IM-ih-gruhnt</em></dd><dt>Русский</dt><dd>иммигрант</dd><dt>Plural</dt><dd><em>immigrants</em></dd><dt>Countability</dt><dd>countable</dd><dt>Contrast</dt><dd>An <em>immigrant</em> comes in; an <em>emigrant</em> goes out. Same person, different vantage point.</dd></dl>
+<p>Someone who has moved to another country to live.</p>
+<ol><li>Both <em>immigrants</em> became citizens.</li><li>The city was built by <em>immigrants</em>.</li><li>Her grandparents were <em>immigrants</em> from Poland.</li></ol>
+<hr>
+<h3 id="refugee">refugee<a class="hash" href="#refugee" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/ˌrɛfjʊˈdʒiː/ &middot; <em>ref-yuu-JEE</em></dd><dt>Русский</dt><dd>беженец</dd><dt>Plural</dt><dd><em>refugees</em></dd><dt>Countability</dt><dd>countable</dd></dl>
+<p>Someone forced to leave their country.</p>
+<ol><li>The camp holds forty thousand <em>refugees</em>.</li><li>Both <em>refugees</em> were granted asylum.</li><li>She arrived as a <em>refugee</em> at seven.</li></ol>
+<hr>
+<h3 id="volunteer">volunteer<a class="hash" href="#volunteer" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/ˌvɑːlənˈtɪr/ &middot; <em>vah-luhn-TEER</em></dd><dt>Русский</dt><dd>доброволец, волонтёр</dd><dt>Plural</dt><dd><em>volunteers</em></dd><dt>Countability</dt><dd>countable</dd></dl>
+<p>Someone who works without pay.</p>
+<ol><li>Two hundred <em>volunteers</em> sorted donations.</li><li>Both <em>volunteers</em> worked all weekend.</li><li>She has been a <em>volunteer</em> for years.</li></ol>
+<hr>
+<h3 id="expert">expert<a class="hash" href="#expert" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/ˈɛkspɜːrt/ &middot; <em>EK-spurt</em></dd><dt>Русский</dt><dd>эксперт, специалист</dd><dt>Plural</dt><dd><em>experts</em></dd><dt>Countability</dt><dd>countable</dd></dl>
+<p>Someone with deep knowledge of a subject.</p>
+<ol><li>Both <em>experts</em> disagreed on the cause.</li><li>She is an <em>expert</em> on medieval manuscripts.</li><li>No <em>expert</em> predicted this.</li></ol>
+<hr>
+<h3 id="beginner">beginner<a class="hash" href="#beginner" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/bɪˈɡɪnər/ &middot; <em>bih-GIN-ur</em></dd><dt>Русский</dt><dd>новичок</dd><dt>Plural</dt><dd><em>beginners</em></dd><dt>Countability</dt><dd>countable</dd></dl>
+<p>Someone starting to learn something.</p>
+<ol><li>The class is for <em>beginners</em>.</li><li>Both <em>beginners</em> picked it up quickly.</li><li>Every <em>expert</em> was once a <em>beginner</em>.</li></ol>
+<hr>
+<h3 id="winner">winner<a class="hash" href="#winner" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/ˈwɪnər/ &middot; <em>WIN-ur</em></dd><dt>Русский</dt><dd>победитель</dd><dt>Plural</dt><dd><em>winners</em></dd><dt>Countability</dt><dd>countable</dd></dl>
+<p>Someone who wins.</p>
+<ol><li>The <em>winner</em> takes the whole prize.</li><li>Both <em>winners</em> were first-time entrants.</li><li>She was the clear <em>winner</em>.</li></ol>
+<hr>
+<h3 id="victim">victim<a class="hash" href="#victim" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/ˈvɪktɪm/ &middot; <em>VIK-tim</em></dd><dt>Русский</dt><dd>жертва, пострадавший</dd><dt>Plural</dt><dd><em>victims</em></dd><dt>Countability</dt><dd>countable</dd></dl>
+<p>Someone harmed by a crime or accident.</p>
+<ol><li>Both <em>victims</em> were treated at the scene.</li><li>The <em>victim</em> declined to press charges.</li><li>Flood <em>victims</em> received emergency housing.</li></ol>
+<hr>
+<h3 id="witness">witness<a class="hash" href="#witness" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/ˈwɪtnəs/ &middot; <em>WIT-nuhs</em></dd><dt>Русский</dt><dd>свидетель</dd><dt>Plural</dt><dd><em>witnesses</em></dd><dt>Countability</dt><dd>countable</dd></dl>
+<p>Someone who saw something happen.</p>
+<ol><li>Three <em>witnesses</em> gave statements.</li><li>Both <em>witnesses</em> described the same car.</li><li>A <em>witness</em> came forward a week later.</li></ol>
+<hr>
+<h3 id="suspect">suspect<a class="hash" href="#suspect" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/ˈsʌspɛkt/ &middot; <em>SUS-pekt</em></dd><dt>Русский</dt><dd>подозреваемый</dd><dt>Plural</dt><dd><em>suspects</em></dd><dt>Countability</dt><dd>countable</dd><dt>Contrast</dt><dd>Noun stress on the first syllable, <em>SUS-pekt</em>; the verb is <em>suh-SPEKT</em>.</dd></dl>
+<p>Someone believed to have committed a crime.</p>
+<ol><li>Police released the <em>suspect</em> without charge.</li><li>Both <em>suspects</em> were arrested Tuesday.</li><li>A <em>suspect</em> is in custody.</li></ol>
+<hr>
+<h3 id="criminal">criminal<a class="hash" href="#criminal" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/ˈkrɪmɪnəl/ &middot; <em>KRIM-ih-nuhl</em></dd><dt>Русский</dt><dd>преступник</dd><dt>Plural</dt><dd><em>criminals</em></dd><dt>Countability</dt><dd>countable</dd></dl>
+<p>Someone who has committed a crime.</p>
+<ol><li>Both <em>criminals</em> were caught within a week.</li><li>The <em>criminal</em> pleaded guilty.</li><li>Career <em>criminals</em> are a small minority.</li></ol>
+<hr>
+<h3 id="prisoner">prisoner<a class="hash" href="#prisoner" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/ˈprɪzənər/ &middot; <em>PRIZ-uh-nur</em></dd><dt>Русский</dt><dd>заключённый</dd><dt>Plural</dt><dd><em>prisoners</em></dd><dt>Countability</dt><dd>countable</dd></dl>
+<p>Someone kept in prison or captivity.</p>
+<ol><li>Both <em>prisoners</em> were released early.</li><li>The <em>prisoner</em> appealed the sentence.</li><li>Two hundred <em>prisoners</em> work in the kitchen.</li></ol>
+<hr>
+<h3 id="doctor">doctor<a class="hash" href="#doctor" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/ˈdɑːktər/ &middot; <em>DAHK-tur</em></dd><dt>Русский</dt><dd>врач, доктор</dd><dt>Plural</dt><dd><em>doctors</em></dd><dt>Countability</dt><dd>countable</dd></dl>
+<p>Someone qualified to treat sick people.</p>
+<ol><li>She's a <em>doctor</em> at the county hospital.</li><li>Both <em>doctors</em> recommended surgery.</li><li>You should see a <em>doctor</em> about that.</li></ol>
+<hr>
+<h3 id="nurse">nurse<a class="hash" href="#nurse" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/nɜːrs/ &middot; <em>nurs</em></dd><dt>Русский</dt><dd>медсестра, медбрат</dd><dt>Plural</dt><dd><em>nurses</em></dd><dt>Countability</dt><dd>countable</dd></dl>
+<p>Someone trained to care for the sick.</p>
+<ol><li>The <em>nurse</em> checked his blood pressure.</li><li>Both <em>nurses</em> worked a double shift.</li><li>She trained as a <em>nurse</em> in Manila.</li></ol>
+<hr>
+<h3 id="lawyer">lawyer<a class="hash" href="#lawyer" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/ˈlɔːjər/ &middot; <em>LAW-yur</em></dd><dt>Русский</dt><dd>юрист, адвокат</dd><dt>Plural</dt><dd><em>lawyers</em></dd><dt>Countability</dt><dd>countable</dd></dl>
+<p>Someone qualified to practice law.</p>
+<ol><li>Her <em>lawyer</em> advised her to settle.</li><li>Both <em>lawyers</em> filed the same motion.</li><li>He has been a <em>lawyer</em> for thirty years.</li></ol>
+<hr>
+<h3 id="judge">judge<a class="hash" href="#judge" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/dʒʌdʒ/ &middot; <em>juj</em></dd><dt>Русский</dt><dd>судья</dd><dt>Plural</dt><dd><em>judges</em></dd><dt>Countability</dt><dd>countable</dd></dl>
+<p>Someone who decides cases in court.</p>
+<ol><li>The <em>judge</em> dismissed the case.</li><li>Both <em>judges</em> dissented.</li><li>She was appointed <em>judge</em> in 2015.</li></ol>
+<hr>
+<h3 id="engineer">engineer<a class="hash" href="#engineer" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/ˌɛndʒɪˈnɪr/ &middot; <em>en-jih-NEER</em></dd><dt>Русский</dt><dd>инженер</dd><dt>Plural</dt><dd><em>engineers</em></dd><dt>Countability</dt><dd>countable</dd></dl>
+<p>Someone who designs or builds machines and structures.</p>
+<ol><li>Both <em>engineers</em> signed off on the design.</li><li>She works as a software <em>engineer</em>.</li><li>The <em>engineer</em> found the fault in an hour.</li></ol>
+<hr>
+<h3 id="scientist">scientist<a class="hash" href="#scientist" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/ˈsaɪəntɪst/ &middot; <em>SY-uhn-tist</em></dd><dt>Русский</dt><dd>учёный</dd><dt>Plural</dt><dd><em>scientists</em></dd><dt>Countability</dt><dd>countable</dd></dl>
+<p>Someone who works in science.</p>
+<ol><li>Both <em>scientists</em> published the same year.</li><li>Two hundred <em>scientists</em> signed the letter.</li><li>She is a <em>scientist</em> at the national lab.</li></ol>
+<hr>
+<h3 id="professor">professor<a class="hash" href="#professor" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/prəˈfɛsər/ &middot; <em>pruh-FES-ur</em></dd><dt>Русский</dt><dd>профессор</dd><dt>Plural</dt><dd><em>professors</em></dd><dt>Countability</dt><dd>countable</dd></dl>
+<p>A senior university teacher.</p>
+<ol><li>Both <em>professors</em> are on sabbatical.</li><li>Her <em>professor</em> wrote the recommendation.</li><li>He became a <em>professor</em> at thirty-four.</li></ol>
+<hr>
+<h3 id="accountant">accountant<a class="hash" href="#accountant" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/əˈkaʊntənt/ &middot; <em>uh-KOWN-tuhnt</em></dd><dt>Русский</dt><dd>бухгалтер</dd><dt>Plural</dt><dd><em>accountants</em></dd><dt>Countability</dt><dd>countable</dd></dl>
+<p>Someone who keeps or inspects financial records.</p>
+<ol><li>Her <em>accountant</em> filed the return.</li><li>Both <em>accountants</em> flagged the same entry.</li><li>He works as an <em>accountant</em> downtown.</li></ol>
+<hr>
+<h3 id="architect">architect<a class="hash" href="#architect" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/ˈɑːrkɪtɛkt/ &middot; <em>AR-kih-tekt</em></dd><dt>Русский</dt><dd>архитектор</dd><dt>Plural</dt><dd><em>architects</em></dd><dt>Countability</dt><dd>countable</dd></dl>
+<p>Someone who designs buildings.</p>
+<ol><li>The <em>architect</em> revised the plans twice.</li><li>Both <em>architects</em> trained in Chicago.</li><li>She is the <em>architect</em> of the whole reform.</li></ol>
+<hr>
+<h3 id="designer">designer<a class="hash" href="#designer" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/dɪˈzaɪnər/ &middot; <em>dih-ZY-nur</em></dd><dt>Русский</dt><dd>дизайнер</dd><dt>Plural</dt><dd><em>designers</em></dd><dt>Countability</dt><dd>countable</dd></dl>
+<p>Someone who plans the look of something.</p>
+<ol><li>Both <em>designers</em> submitted concepts.</li><li>The <em>designer</em> chose a darker palette.</li><li>She works as a graphic <em>designer</em>.</li></ol>
+<hr>
+<h3 id="journalist">journalist<a class="hash" href="#journalist" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/ˈdʒɜːrnəlɪst/ &middot; <em>JUR-nuh-list</em></dd><dt>Русский</dt><dd>журналист</dd><dt>Plural</dt><dd><em>journalists</em></dd><dt>Countability</dt><dd>countable</dd></dl>
+<p>Someone who writes for news media.</p>
+<ol><li>Both <em>journalists</em> were denied entry.</li><li>The <em>journalist</em> protected her source.</li><li>Forty <em>journalists</em> covered the trial.</li></ol>
+<hr>
+<h3 id="editor">editor<a class="hash" href="#editor" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/ˈɛdɪtər/ &middot; <em>ED-ih-tur</em></dd><dt>Русский</dt><dd>редактор</dd><dt>Plural</dt><dd><em>editors</em></dd><dt>Countability</dt><dd>countable</dd></dl>
+<p>Someone who prepares text for publication.</p>
+<ol><li>Her <em>editor</em> cut two chapters.</li><li>Both <em>editors</em> left the same month.</li><li>He worked as a copy <em>editor</em> for years.</li></ol>
+<hr>
+<h3 id="writer">writer<a class="hash" href="#writer" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/ˈraɪtər/ &middot; <em>RY-tur</em></dd><dt>Русский</dt><dd>писатель</dd><dt>Plural</dt><dd><em>writers</em></dd><dt>Countability</dt><dd>countable</dd></dl>
+<p>Someone who writes for a living.</p>
+<ol><li>Both <em>writers</em> were nominated.</li><li>She is a <em>writer</em> and a translator.</li><li>The <em>writer</em> spent six years on the book.</li></ol>
+<hr>
+<h3 id="author">author<a class="hash" href="#author" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/ˈɔːθər/ &middot; <em>AW-thur</em></dd><dt>Русский</dt><dd>автор</dd><dt>Plural</dt><dd><em>authors</em></dd><dt>Countability</dt><dd>countable</dd></dl>
+<p>The writer of a particular book or text.</p>
+<ol><li>Both <em>authors</em> signed copies.</li><li>The <em>author</em> declined to comment.</li><li>She is the <em>author</em> of four novels.</li></ol>
+<hr>
+<h3 id="artist">artist<a class="hash" href="#artist" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/ˈɑːrtɪst/ &middot; <em>AR-tist</em></dd><dt>Русский</dt><dd>художник, артист</dd><dt>Plural</dt><dd><em>artists</em></dd><dt>Countability</dt><dd>countable</dd></dl>
+<p>Someone who makes art.</p>
+<ol><li>Both <em>artists</em> shared the studio.</li><li>The <em>artist</em> works mainly in charcoal.</li><li>Forty <em>artists</em> exhibited that year.</li></ol>
+<hr>
+<h3 id="musician">musician<a class="hash" href="#musician" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/mjuˈzɪʃən/ &middot; <em>myoo-ZISH-uhn</em></dd><dt>Русский</dt><dd>музыкант</dd><dt>Plural</dt><dd><em>musicians</em></dd><dt>Countability</dt><dd>countable</dd></dl>
+<p>Someone who plays or writes music.</p>
+<ol><li>Both <em>musicians</em> studied here.</li><li>The <em>musician</em> tuned up between sets.</li><li>She is a session <em>musician</em>.</li></ol>
+<hr>
+<h3 id="singer">singer<a class="hash" href="#singer" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/ˈsɪŋər/ &middot; <em>SING-ur</em></dd><dt>Русский</dt><dd>певец, певица</dd><dt>Plural</dt><dd><em>singers</em></dd><dt>Countability</dt><dd>countable</dd></dl>
+<p>Someone who sings.</p>
+<ol><li>Both <em>singers</em> lost their voices.</li><li>The <em>singer</em> wrote all her own material.</li><li>He is a backup <em>singer</em>.</li></ol>
+<hr>
+<h3 id="dancer">dancer<a class="hash" href="#dancer" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/ˈdænsər/ &middot; <em>DAN-sur</em></dd><dt>Русский</dt><dd>танцор, танцовщица</dd><dt>Plural</dt><dd><em>dancers</em></dd><dt>Countability</dt><dd>countable</dd></dl>
+<p>Someone who dances.</p>
+<ol><li>Both <em>dancers</em> trained from childhood.</li><li>The <em>dancer</em> injured her ankle.</li><li>Forty <em>dancers</em> auditioned.</li></ol>
+<hr>
+<h3 id="photographer">photographer<a class="hash" href="#photographer" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/fəˈtɑːɡrəfər/ &middot; <em>fuh-TAH-gruh-fur</em></dd><dt>Русский</dt><dd>фотограф</dd><dt>Plural</dt><dd><em>photographers</em></dd><dt>Countability</dt><dd>countable</dd><dt>Contrast</dt><dd>Stress on the second syllable, unlike <em>PHOTOgraph</em>.</dd></dl>
+<p>Someone who takes photographs.</p>
+<ol><li>Both <em>photographers</em> were accredited.</li><li>The <em>photographer</em> waited two hours for the light.</li><li>She is a wedding <em>photographer</em>.</li></ol>
+<hr>
+<h3 id="cook">cook<a class="hash" href="#cook" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/kʊk/ &middot; <em>kuuk</em></dd><dt>Русский</dt><dd>повар</dd><dt>Plural</dt><dd><em>cooks</em></dd><dt>Countability</dt><dd>countable</dd></dl>
+<p>Someone who prepares food.</p>
+<ol><li>Both <em>cooks</em> start at five in the morning.</li><li>He is a terrible <em>cook</em>.</li><li>The <em>cook</em> burned the sauce.</li></ol>
+<hr>
+<h3 id="farmer">farmer<a class="hash" href="#farmer" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/ˈfɑːrmər/ &middot; <em>FAR-mur</em></dd><dt>Русский</dt><dd>фермер</dd><dt>Plural</dt><dd><em>farmers</em></dd><dt>Countability</dt><dd>countable</dd></dl>
+<p>Someone who runs a farm.</p>
+<ol><li>Both <em>farmers</em> lost the whole crop.</li><li>The <em>farmer</em> sells directly at the market.</li><li>Local <em>farmers</em> met with the county.</li></ol>
+<hr>
+<h3 id="mechanic">mechanic<a class="hash" href="#mechanic" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/məˈkænɪk/ &middot; <em>muh-KAN-ik</em></dd><dt>Русский</dt><dd>механик, автослесарь</dd><dt>Plural</dt><dd><em>mechanics</em></dd><dt>Countability</dt><dd>countable</dd></dl>
+<p>Someone who repairs machines and vehicles.</p>
+<ol><li>The <em>mechanic</em> found a cracked hose.</li><li>Both <em>mechanics</em> quoted the same price.</li><li>She is a diesel <em>mechanic</em>.</li></ol>
+<hr>
+<h3 id="plumber">plumber<a class="hash" href="#plumber" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/ˈplʌmər/ &middot; <em>PLUM-ur</em></dd><dt>Русский</dt><dd>сантехник</dd><dt>Plural</dt><dd><em>plumbers</em></dd><dt>Countability</dt><dd>countable</dd><dt>Contrast</dt><dd>The <em>b</em> is silent, as in <em>thumb</em> and <em>comb</em>.</dd></dl>
+<p>Someone who installs and repairs pipes.</p>
+<ol><li>The <em>plumber</em> comes Thursday.</li><li>Both <em>plumbers</em> were booked solid.</li><li>A good <em>plumber</em> is worth waiting for.</li></ol>
+<hr>
+<h3 id="electrician">electrician<a class="hash" href="#electrician" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/ɪˌlɛkˈtrɪʃən/ &middot; <em>ih-lek-TRISH-uhn</em></dd><dt>Русский</dt><dd>электрик</dd><dt>Plural</dt><dd><em>electricians</em></dd><dt>Countability</dt><dd>countable</dd></dl>
+<p>Someone who installs and repairs wiring.</p>
+<ol><li>The <em>electrician</em> replaced the panel.</li><li>Both <em>electricians</em> were licensed.</li><li>We need an <em>electrician</em> before the inspection.</li></ol>
+<hr>
+<h3 id="carpenter">carpenter<a class="hash" href="#carpenter" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/ˈkɑːrpəntər/ &middot; <em>KAR-puhn-tur</em></dd><dt>Русский</dt><dd>плотник, столяр</dd><dt>Plural</dt><dd><em>carpenters</em></dd><dt>Countability</dt><dd>countable</dd></dl>
+<p>Someone who works with wood.</p>
+<ol><li>The <em>carpenter</em> built the whole staircase.</li><li>Both <em>carpenters</em> worked from the same drawing.</li><li>She trained as a <em>carpenter</em>.</li></ol>
+<hr>
+<h3 id="guard">guard<a class="hash" href="#guard" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/ɡɑːrd/ &middot; <em>gard</em></dd><dt>Русский</dt><dd>охранник</dd><dt>Plural</dt><dd><em>guards</em></dd><dt>Countability</dt><dd>countable</dd></dl>
+<p>Someone who protects a place or person.</p>
+<ol><li>Both <em>guards</em> were at the gate.</li><li>A <em>guard</em> checked our bags.</li><li>Night <em>guards</em> patrol every hour.</li></ol>
+<hr>
+<h3 id="soldier">soldier<a class="hash" href="#soldier" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/ˈsoʊldʒər/ &middot; <em>SOHL-jur</em></dd><dt>Русский</dt><dd>солдат</dd><dt>Plural</dt><dd><em>soldiers</em></dd><dt>Countability</dt><dd>countable</dd><dt>Contrast</dt><dd>The <em>l</em> is pronounced, unlike in <em>salmon</em> or <em>calf</em>.</dd></dl>
+<p>A member of an army.</p>
+<ol><li>Both <em>soldiers</em> were decorated.</li><li>Two hundred <em>soldiers</em> were deployed.</li><li>He was a <em>soldier</em> for eight years.</li></ol>
+<hr>
+<h3 id="pilot">pilot<a class="hash" href="#pilot" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/ˈpaɪlət/ &middot; <em>PY-luht</em></dd><dt>Русский</dt><dd>пилот, лётчик</dd><dt>Plural</dt><dd><em>pilots</em></dd><dt>Countability</dt><dd>countable</dd></dl>
+<p>Someone who flies an aircraft.</p>
+<ol><li>Both <em>pilots</em> were commended.</li><li>The <em>pilot</em> diverted to Denver.</li><li>She trained as a <em>pilot</em> at nineteen.</li></ol>
+<hr>
+<h3 id="captain">captain<a class="hash" href="#captain" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/ˈkæptɪn/ &middot; <em>KAP-tin</em></dd><dt>Русский</dt><dd>капитан</dd><dt>Plural</dt><dd><em>captains</em></dd><dt>Countability</dt><dd>countable</dd></dl>
+<p>The person in charge of a ship, aircraft, or team.</p>
+<ol><li>The <em>captain</em> addressed the passengers.</li><li>Both <em>captains</em> shook hands.</li><li>She was made <em>captain</em> in her second season.</li></ol>
+<hr>
+<h3 id="officer">officer<a class="hash" href="#officer" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/ˈɔːfɪsər/ &middot; <em>AW-fih-sur</em></dd><dt>Русский</dt><dd>офицер, сотрудник</dd><dt>Plural</dt><dd><em>officers</em></dd><dt>Countability</dt><dd>countable</dd></dl>
+<p>Someone holding a position of authority.</p>
+<ol><li>Two <em>officers</em> responded to the call.</li><li>Both <em>officers</em> were promoted.</li><li>She is a commissioned <em>officer</em>.</li></ol>
+<hr>
+<h3 id="agent">agent<a class="hash" href="#agent" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/ˈeɪdʒənt/ &middot; <em>AY-juhnt</em></dd><dt>Русский</dt><dd>агент</dd><dt>Plural</dt><dd><em>agents</em></dd><dt>Countability</dt><dd>countable</dd></dl>
+<p>Someone who acts on behalf of another.</p>
+<ol><li>Her <em>agent</em> negotiated the deal.</li><li>Both <em>agents</em> were federal.</li><li>A travel <em>agent</em> booked the whole trip.</li></ol>
+<hr>
+<h3 id="secretary">secretary<a class="hash" href="#secretary" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/ˈsɛkrətɛri/ &middot; <em>SEK-ruh-ter-ee</em></dd><dt>Русский</dt><dd>секретарь</dd><dt>Plural</dt><dd><em>secretaries</em></dd><dt>Countability</dt><dd>countable</dd></dl>
+<p>Someone who handles correspondence and records.</p>
+<ol><li>The <em>secretary</em> took the minutes.</li><li>Both <em>secretaries</em> job-share.</li><li>She was hired as a legal <em>secretary</em>.</li></ol>
+<hr>
+<h3 id="assistant">assistant<a class="hash" href="#assistant" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/əˈsɪstənt/ &middot; <em>uh-SIS-tuhnt</em></dd><dt>Русский</dt><dd>помощник, ассистент</dd><dt>Plural</dt><dd><em>assistants</em></dd><dt>Countability</dt><dd>countable</dd></dl>
+<p>Someone who helps another in their work.</p>
+<ol><li>Her <em>assistant</em> handles the calendar.</li><li>Both <em>assistants</em> were let go.</li><li>He works as a research <em>assistant</em>.</li></ol>
+<hr>
+<h3 id="clerk">clerk<a class="hash" href="#clerk" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/klɜːrk/ &middot; <em>klurk</em></dd><dt>Русский</dt><dd>клерк, служащий</dd><dt>Plural</dt><dd><em>clerks</em></dd><dt>Countability</dt><dd>countable</dd><dt>Contrast</dt><dd>American /klɜːrk/; the British pronunciation is <em>klark</em>.</dd></dl>
+<p>Someone who keeps records or serves customers.</p>
+<ol><li>The <em>clerk</em> stamped the form.</li><li>Both <em>clerks</em> worked the front counter.</li><li>She is a filing <em>clerk</em>.</li></ol>
+<hr>
+<h3 id="cashier">cashier<a class="hash" href="#cashier" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/kæˈʃɪr/ &middot; <em>ka-SHEER</em></dd><dt>Русский</dt><dd>кассир</dd><dt>Plural</dt><dd><em>cashiers</em></dd><dt>Countability</dt><dd>countable</dd></dl>
+<p>Someone who handles payments in a shop.</p>
+<ol><li>The <em>cashier</em> asked for identification.</li><li>Both <em>cashiers</em> closed their registers.</li><li>He works as a <em>cashier</em> on weekends.</li></ol>
+<hr>
+<h3 id="dentist">dentist<a class="hash" href="#dentist" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/ˈdɛntɪst/ &middot; <em>DEN-tist</em></dd><dt>Русский</dt><dd>стоматолог</dd><dt>Plural</dt><dd><em>dentists</em></dd><dt>Countability</dt><dd>countable</dd></dl>
+<p>Someone who treats teeth.</p>
+<ol><li>The <em>dentist</em> filled two cavities.</li><li>Both <em>dentists</em> share the practice.</li><li>She goes to the <em>dentist</em> twice a year.</li></ol>
+<hr>
+<h3 id="coach">coach<a class="hash" href="#coach" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/koʊtʃ/ &middot; <em>kohch</em></dd><dt>Русский</dt><dd>тренер</dd><dt>Plural</dt><dd><em>coaches</em></dd><dt>Countability</dt><dd>countable</dd></dl>
+<p>Someone who trains a team or person.</p>
+<ol><li>Both <em>coaches</em> were fired.</li><li>The <em>coach</em> changed the whole lineup.</li><li>She hired a career <em>coach</em>.</li></ol>
+<hr>
+<h3 id="athlete">athlete<a class="hash" href="#athlete" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/ˈæθliːt/ &middot; <em>ATH-leet</em></dd><dt>Русский</dt><dd>спортсмен</dd><dt>Plural</dt><dd><em>athletes</em></dd><dt>Countability</dt><dd>countable</dd><dt>Contrast</dt><dd>Two syllables, <em>ATH-leet</em>, not three.</dd></dl>
+<p>Someone who competes in sports.</p>
+<ol><li>Both <em>athletes</em> set records.</li><li>Two thousand <em>athletes</em> competed.</li><li>She was a serious <em>athlete</em> in college.</li></ol>
+<hr>
+<h3 id="director">director<a class="hash" href="#director" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/dəˈrɛktər/ &middot; <em>duh-REK-tur</em></dd><dt>Русский</dt><dd>директор; режиссёр</dd><dt>Plural</dt><dd><em>directors</em></dd><dt>Countability</dt><dd>countable</dd></dl>
+<p>Someone who manages an organization or a film.</p>
+<ol><li>The <em>director</em> approved the budget.</li><li>Both <em>directors</em> were nominated.</li><li>She is the <em>director</em> of the whole program.</li></ol>
+<hr>
+<h3 id="consultant">consultant<a class="hash" href="#consultant" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/kənˈsʌltənt/ &middot; <em>kuhn-SUL-tuhnt</em></dd><dt>Русский</dt><dd>консультант</dd><dt>Plural</dt><dd><em>consultants</em></dd><dt>Countability</dt><dd>countable</dd></dl>
+<p>An expert paid to advise.</p>
+<ol><li>Both <em>consultants</em> billed by the hour.</li><li>The <em>consultant</em> recommended restructuring.</li><li>She works as an independent <em>consultant</em>.</li></ol>
+<hr>
+<h3 id="developer">developer<a class="hash" href="#developer" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/dɪˈvɛləpər/ &middot; <em>dih-VEL-uh-pur</em></dd><dt>Русский</dt><dd>разработчик; застройщик</dd><dt>Plural</dt><dd><em>developers</em></dd><dt>Countability</dt><dd>countable</dd></dl>
+<p>Someone who builds software, or who builds property.</p>
+<ol><li>Both <em>developers</em> pushed the same fix.</li><li>The <em>developer</em> bought the whole block.</li><li>She is a front-end <em>developer</em>.</li></ol>
+<hr>
+<h3 id="programmer">programmer<a class="hash" href="#programmer" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/ˈproʊɡræmər/ &middot; <em>PROH-gram-ur</em></dd><dt>Русский</dt><dd>программист</dd><dt>Plural</dt><dd><em>programmers</em></dd><dt>Countability</dt><dd>countable</dd></dl>
+<p>Someone who writes computer code.</p>
+<ol><li>Both <em>programmers</em> worked remotely.</li><li>The <em>programmer</em> rewrote the module.</li><li>She has been a <em>programmer</em> since 2012.</li></ol>
+<hr>
+<h3 id="analyst">analyst<a class="hash" href="#analyst" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/ˈænəlɪst/ &middot; <em>AN-uh-list</em></dd><dt>Русский</dt><dd>аналитик</dd><dt>Plural</dt><dd><em>analysts</em></dd><dt>Countability</dt><dd>countable</dd></dl>
+<p>Someone who examines data or situations.</p>
+<ol><li>Both <em>analysts</em> revised their forecasts.</li><li>The <em>analyst</em> flagged the discrepancy.</li><li>She is a policy <em>analyst</em>.</li></ol>
+<hr>
+<h3 id="technician">technician<a class="hash" href="#technician" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/tɛkˈnɪʃən/ &middot; <em>tek-NISH-uhn</em></dd><dt>Русский</dt><dd>техник</dd><dt>Plural</dt><dd><em>technicians</em></dd><dt>Countability</dt><dd>countable</dd></dl>
+<p>Someone skilled in the practical side of a field.</p>
+<ol><li>Both <em>technicians</em> were on call.</li><li>A lab <em>technician</em> ran the samples.</li><li>The <em>technician</em> replaced the sensor.</li></ol>
+<hr>
+<h3 id="librarian">librarian<a class="hash" href="#librarian" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/laɪˈbrɛriən/ &middot; <em>ly-BRER-ee-uhn</em></dd><dt>Русский</dt><dd>библиотекарь</dd><dt>Plural</dt><dd><em>librarians</em></dd><dt>Countability</dt><dd>countable</dd></dl>
+<p>Someone who works in a library.</p>
+<ol><li>The <em>librarian</em> found it in ten seconds.</li><li>Both <em>librarians</em> run the archive.</li><li>She trained as a reference <em>librarian</em>.</li></ol>
+<hr>
+<h3 id="translator">translator<a class="hash" href="#translator" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/trænsˈleɪtər/ &middot; <em>trans-LAY-tur</em></dd><dt>Русский</dt><dd>переводчик</dd><dt>Plural</dt><dd><em>translators</em></dd><dt>Countability</dt><dd>countable</dd><dt>Contrast</dt><dd>A <em>translator</em> works with text; an <em>interpreter</em> works with speech.</dd></dl>
+<p>Someone who converts writing into another language.</p>
+<ol><li>Both <em>translators</em> worked from the same draft.</li><li>The <em>translator</em> kept the rhythm of the original.</li><li>She is a literary <em>translator</em>.</li></ol>
+<hr>
+<h3 id="interpreter">interpreter<a class="hash" href="#interpreter" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/ɪnˈtɜːrprətər/ &middot; <em>in-TUR-pruh-tur</em></dd><dt>Русский</dt><dd>устный переводчик</dd><dt>Plural</dt><dd><em>interpreters</em></dd><dt>Countability</dt><dd>countable</dd></dl>
+<p>Someone who translates speech as it happens.</p>
+<ol><li>Both <em>interpreters</em> worked in shifts.</li><li>The court provided an <em>interpreter</em>.</li><li>She works as a conference <em>interpreter</em>.</li></ol></div></main>
+<button class="themebtn" id="themeBtn">Dark</button>
+<script>
+const tb=document.getElementById('themeBtn');
+function setTheme(x){document.documentElement.dataset.theme=x;tb.textContent=x==='dark'?'Light':'Dark';
+ try{localStorage.setItem('site-theme',x)}catch(e){}}
+tb.onclick=()=>setTheme(document.documentElement.dataset.theme==='dark'?'light':'dark');
+try{const s=localStorage.getItem('site-theme');
+ setTheme(s||(matchMedia('(prefers-color-scheme: dark)').matches?'dark':'light'))}catch(e){setTheme('light')}
+</script></body></html>

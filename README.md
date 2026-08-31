@@ -24,7 +24,7 @@ Each class folder is a self-contained README with the same ten sections: what th
 
 ## The Noun Dictionary
 
-**[01-nouns/catalog/](parts-of-speech/01-nouns/catalog/README.md)** — **694 nouns** in 23 groups. Nouns are an open class, so this is deliberately *not* a list of nouns: it is a list of the nouns that **do not behave**, which is the part you actually have to learn. Three systems, grouped by what goes wrong:
+**[01-nouns/catalog/](parts-of-speech/01-nouns/catalog/README.md)** — **799 nouns** in 24 groups. Nouns are an open class, so this is deliberately *not* a list of nouns: it is a list of the nouns that **do not behave**, which is the part you actually have to learn. Three systems, grouped by what goes wrong:
 
 - **Irregular plurals** (groups 1–12), organized by how the form changes rather than alphabetically — the seven vowel-change plurals (*foot/feet*), the *-en* survivors (*child/children*), the zero plurals (*sheep*, *deer*, *series*), *-f → -ves* with its traps (*thief/thieves* but *chief/chiefs*), the *-o* rule, and the borrowed Latin, Greek, Italian, Hebrew, and French plurals
 - **Countability** (groups 13–16) — the uncountables that break learners (✗ *an information*, ✗ *two advices*), the nouns that are both with **different meanings** (*a hair* vs *hair*), the plural-only nouns (*scissors*, *jeans*), and the *-s* nouns that take a singular verb (*the news **is***, *physics **is***)
