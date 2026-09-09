@@ -1,0 +1,406 @@
+<!DOCTYPE html>
+<html lang="en"><head>
+<meta charset="utf-8"><meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Core vocabulary: mind and thought</title>
+<style>
+:root{--bg:#faf9f7;--surface:#fff;--surface2:#f2f0ec;--border:#e2ded6;--text:#1a1815;
+--dim:#5f594f;--faint:#8a8377;--accent:#8a5a3b;--measure:72ch}
+@media(prefers-color-scheme:dark){:root{--bg:#14140f;--surface:#1d1d17;--surface2:#25251d;
+--border:#33332a;--text:#eeeae1;--dim:#a8a293;--faint:#7d776b;--accent:#d09b72}}
+:root[data-theme=dark]{--bg:#14140f;--surface:#1d1d17;--surface2:#25251d;--border:#33332a;
+--text:#eeeae1;--dim:#a8a293;--faint:#7d776b;--accent:#d09b72}
+:root[data-theme=light]{--bg:#faf9f7;--surface:#fff;--surface2:#f2f0ec;--border:#e2ded6;
+--text:#1a1815;--dim:#5f594f;--faint:#8a8377;--accent:#8a5a3b}
+*{box-sizing:border-box}
+body{margin:0;background:var(--bg);color:var(--text);
+font:17px/1.72 ui-serif,Georgia,"Iowan Old Style",Palatino,serif;-webkit-font-smoothing:antialiased}
+.wrap{max-width:min(var(--measure),100%);margin:0 auto;padding:0 22px}
+nav.crumb{border-bottom:1px solid var(--border);padding:13px 0;font-size:13.5px;
+font-family:-apple-system,BlinkMacSystemFont,"Segoe UI",sans-serif;position:sticky;top:0;background:var(--bg);z-index:20}
+nav.crumb .wrap{max-width:none;display:flex;gap:9px;align-items:center;flex-wrap:wrap}
+nav.crumb a{color:var(--dim);text-decoration:none}
+nav.crumb a:hover{color:var(--accent)}
+nav.crumb .sep{color:var(--faint)}
+main{padding:8px 0 80px}
+h1{font-size:clamp(28px,5vw,38px);line-height:1.15;letter-spacing:-.015em;margin:34px 0 18px}
+h2{font-size:25px;margin:46px 0 14px;letter-spacing:-.01em;padding-bottom:7px;border-bottom:1px solid var(--border)}
+h3{font-size:19px;margin:34px 0 10px;color:var(--accent)}
+h4{font-size:16px;margin:24px 0 8px;font-family:-apple-system,sans-serif}
+p{margin:0 0 16px}
+a{color:var(--accent)}
+.hash{opacity:0;margin-left:8px;font-weight:400;font-size:.65em;text-decoration:none;color:var(--faint)}
+h2:hover .hash,h3:hover .hash{opacity:1}
+blockquote{margin:0 0 20px;padding:14px 18px;background:var(--surface2);
+border-left:3px solid var(--accent);border-radius:0 8px 8px 0}
+blockquote p:last-child{margin-bottom:0}
+ol,ul{margin:0 0 18px;padding-left:26px}
+li{margin-bottom:8px}
+li>ul,li>ol{margin:8px 0 0}
+code{font-family:ui-monospace,SFMono-Regular,Menlo,Consolas,monospace;font-size:.87em;
+background:var(--surface2);padding:1px 5px;border-radius:4px}
+pre{background:var(--surface2);border:1px solid var(--border);border-radius:9px;
+padding:15px 17px;overflow-x:auto;margin:0 0 20px}
+pre code{background:none;padding:0;font-size:13px;line-height:1.6}
+.tw{overflow-x:auto;margin:0 0 22px;border:1px solid var(--border);border-radius:9px}
+table{border-collapse:collapse;width:100%;font-size:15px;
+font-family:-apple-system,BlinkMacSystemFont,"Segoe UI",sans-serif}
+th,td{padding:10px 14px;border-bottom:1px solid var(--border);vertical-align:top}
+th{background:var(--surface2);font-size:12px;text-transform:uppercase;
+letter-spacing:.06em;color:var(--dim);font-weight:700;white-space:nowrap}
+tbody tr:last-child td{border-bottom:none}
+hr{border:none;border-top:1px solid var(--border);margin:38px 0}
+details{background:var(--surface2);border:1px solid var(--border);border-radius:9px;
+padding:13px 17px;margin:0 0 20px}
+summary{cursor:pointer;font-weight:600;font-family:-apple-system,sans-serif;font-size:15px}
+details[open] summary{margin-bottom:12px}
+del{color:var(--faint)}
+dl.fields{margin:0 0 20px;padding:0}
+dl.fields dt{font-family:-apple-system,BlinkMacSystemFont,"Segoe UI",sans-serif;
+font-size:11px;letter-spacing:.11em;text-transform:uppercase;color:var(--faint);
+font-weight:700;margin:14px 0 4px}
+dl.fields dt:first-child{margin-top:0}
+dl.fields dd{margin:0;font-size:16px;color:var(--dim);line-height:1.62}
+dl.fields dd em{color:var(--text)}
+dl.fields dt.ru{color:var(--accent)}
+dl.fields dd strong{color:var(--text)}
+.toc{background:var(--surface2);border:1px solid var(--border);border-radius:10px;
+padding:16px 20px;margin:26px 0 34px;font-family:-apple-system,sans-serif;font-size:14px}
+.toc b{display:block;font-size:11px;letter-spacing:.12em;text-transform:uppercase;
+color:var(--faint);margin-bottom:9px}
+.toc a{display:block;padding:3px 0;color:var(--dim);text-decoration:none}
+.toc a:hover{color:var(--accent)}
+.themebtn{position:fixed;right:18px;bottom:18px;z-index:60;font-family:-apple-system,sans-serif;
+font-size:12.5px;font-weight:600;cursor:pointer;background:var(--surface);border:1px solid var(--border);
+border-radius:99px;padding:9px 16px;color:var(--text)}
+@media(max-width:600px){body{font-size:16px}.wrap{padding:0 17px}}
+</style></head><body>
+<nav class="crumb"><div class="wrap"><a href="../../../index.html">Learn English</a><span class="sep">/</span><a href="../../README.html">Parts of speech</a><span class="sep">/</span><a href="../README.html">01-nouns</a><span class="sep">/</span><span>catalog</span></div></nav>
+<main><div class="wrap"><h1 id="core-vocabulary-mind-and-thought">Core vocabulary: mind and thought<a class="hash" href="#core-vocabulary-mind-and-thought" aria-label="link">#</a></h1>
+<blockquote><p>The everyday nouns of mind and thought — pronunciation, Russian, plural, and three examples each.</p></blockquote>
+<p><a href="../README.html">← The grammar of nouns</a> &middot; <a href="README.html">All groups</a></p>
+<p>Part of the <strong>core-vocabulary tier</strong>. Groups 1–23 cover the nouns that misbehave; this tier covers the nouns you simply need to know. Entries are deliberately lean, because a regular countable noun has no grammatical story to tell. A <strong>Contrast</strong> line appears only where the word hides a genuine trap.</p>
+<p>Where a word in this field <em>does</em> misbehave, it lives in the grammar tier instead and is not repeated here.</p>
+<hr>
+<h3 id="mind">mind<a class="hash" href="#mind" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/maɪnd/ &middot; <em>MYND</em></dd><dt>Русский</dt><dd>разум, ум</dd><dt>Plural</dt><dd><em>minds</em></dd><dt>Countability</dt><dd>countable</dd></dl>
+<p>The part of a person that thinks, feels, and remembers.</p>
+<ol><li>Something was on her <em>mind</em> all afternoon.</li><li>He has one of the sharpest <em>minds</em> in the department.</li><li>I've changed my <em>mind</em> about the job offer.</li></ol>
+<hr>
+<h3 id="idea">idea<a class="hash" href="#idea" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/aɪˈdiːə/ &middot; <em>eye-DEE-uh</em></dd><dt>Русский</dt><dd>идея, мысль</dd><dt>Plural</dt><dd><em>ideas</em></dd><dt>Countability</dt><dd>countable</dd></dl>
+<p>A thought or plan that forms in someone's mind.</p>
+<ol><li>That's a great <em>idea</em> for a birthday present.</li><li>She came to the meeting full of <em>ideas</em>.</li><li>I have no <em>idea</em> where he went.</li></ol>
+<hr>
+<h3 id="opinion">opinion<a class="hash" href="#opinion" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/əˈpɪnjən/ &middot; <em>uh-PIN-yuhn</em></dd><dt>Русский</dt><dd>мнение, взгляд</dd><dt>Plural</dt><dd><em>opinions</em></dd><dt>Countability</dt><dd>countable</dd></dl>
+<p>What a person thinks or believes about something.</p>
+<ol><li>In my <em>opinion</em>, the second draft is much better.</li><li>People have strong <em>opinions</em> about the new law.</li><li>The doctor wants a second <em>opinion</em> before operating.</li></ol>
+<hr>
+<h3 id="reason">reason<a class="hash" href="#reason" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/ˈriːzən/ &middot; <em>REE-zuhn</em></dd><dt>Русский</dt><dd>причина, довод; разум</dd><dt>Plural</dt><dd><em>reasons</em></dd><dt>Countability</dt><dd>both — countable and uncountable with different meanings</dd></dl>
+<p>A cause or explanation for something; also the human power of logical thought.</p>
+<ol><li>There's a good <em>reason</em> the store closed early.</li><li>He gave three <em>reasons</em> for turning down the offer.</li><li>Fear had driven him beyond the point of <em>reason</em>.</li></ol>
+<hr>
+<h3 id="logic">logic<a class="hash" href="#logic" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/ˈlɑːdʒɪk/ &middot; <em>LAH-jik</em></dd><dt>Русский</dt><dd>логика</dd><dt>Countability</dt><dd>uncountable</dd></dl>
+<p>A sensible way of thinking in which each step follows from the last.</p>
+<ol><li>I can't follow the <em>logic</em> of that argument.</li><li>There's a certain <em>logic</em> to doing the hard part first.</li><li>She studied <em>logic</em> her freshman year.</li></ol>
+<hr>
+<h3 id="sense">sense<a class="hash" href="#sense" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/sɛns/ &middot; <em>SENS</em></dd><dt>Русский</dt><dd>чувство (ощущение); смысл, здравый смысл</dd><dt>Plural</dt><dd><em>senses</em></dd><dt>Countability</dt><dd>both — countable and uncountable with different meanings</dd></dl>
+<p>One of the body's powers of perception, or practical good judgment.</p>
+<ol><li>A dog's <em>sense</em> of smell is remarkable.</li><li>The cold water woke up all five of his <em>senses</em>.</li><li>Have the <em>sense</em> to wear a coat when it's ten degrees out.</li></ol>
+<hr>
+<h3 id="wisdom">wisdom<a class="hash" href="#wisdom" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/ˈwɪzdəm/ &middot; <em>WIZ-duhm</em></dd><dt>Русский</dt><dd>мудрость</dd><dt>Countability</dt><dd>uncountable</dd></dl>
+<p>Good judgment that comes from knowledge and long experience.</p>
+<ol><li>Her grandmother passed on a lot of quiet <em>wisdom</em>.</li><li>I question the <em>wisdom</em> of borrowing that much money.</li><li>There's real <em>wisdom</em> in knowing when to stop.</li></ol>
+<hr>
+<h3 id="intellect">intellect<a class="hash" href="#intellect" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/ˈɪntəlɛkt/ &middot; <em>IN-tuh-lekt</em></dd><dt>Русский</dt><dd>интеллект, ум</dd><dt>Countability</dt><dd>uncountable</dd></dl>
+<p>The power of the mind to think, reason, and understand.</p>
+<ol><li>The job demands both <em>intellect</em> and patience.</li><li>He was admired for his <em>intellect</em> rather than his charm.</li><li>Age had not dulled her <em>intellect</em> at all.</li></ol>
+<hr>
+<h3 id="notion">notion<a class="hash" href="#notion" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/ˈnoʊʃən/ &middot; <em>NOH-shuhn</em></dd><dt>Русский</dt><dd>представление, понятие</dd><dt>Plural</dt><dd><em>notions</em></dd><dt>Countability</dt><dd>countable</dd></dl>
+<p>An idea or belief, often a vague or mistaken one.</p>
+<ol><li>He had some romantic <em>notion</em> of life on a farm.</li><li>Where did you get these <em>notions</em> about me?</li><li>I haven't the faintest <em>notion</em> what she meant.</li></ol>
+<hr>
+<h3 id="understanding">understanding<a class="hash" href="#understanding" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/ˌʌndərˈstændɪŋ/ &middot; <em>un-dur-STAN-ding</em></dd><dt>Русский</dt><dd>понимание</dd><dt>Countability</dt><dd>uncountable</dd></dl>
+<p>Knowledge of how something works or what someone means.</p>
+<ol><li>She has a deep <em>understanding</em> of how children learn.</li><li>My <em>understanding</em> is that the office closes at five.</li><li>The two sides showed little <em>understanding</em> of each other.</li></ol>
+<hr>
+<h3 id="comprehension">comprehension<a class="hash" href="#comprehension" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/ˌkɑːmprɪˈhɛnʃən/ &middot; <em>kahm-prih-HEN-shuhn</em></dd><dt>Русский</dt><dd>понимание, осмысление</dd><dt>Countability</dt><dd>uncountable</dd></dl>
+<p>The ability to understand something, especially something written or heard.</p>
+<ol><li>Reading <em>comprehension</em> is tested every spring.</li><li>The speed of the change was beyond my <em>comprehension</em>.</li><li>He stared at the form in total lack of <em>comprehension</em>.</li></ol>
+<hr>
+<h3 id="insight">insight<a class="hash" href="#insight" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/ˈɪnsaɪt/ &middot; <em>IN-syt</em></dd><dt>Русский</dt><dd>проницательность; понимание, озарение</dd><dt>Plural</dt><dd><em>insights</em></dd><dt>Countability</dt><dd>both — countable and uncountable with different meanings</dd></dl>
+<p>The ability to see the truth of something clearly, or a particular clear realization.</p>
+<ol><li>The book gives real <em>insight</em> into small-town life.</li><li>Her comments offered a few useful <em>insights</em>.</li><li>It takes <em>insight</em> to spot a problem that early.</li></ol>
+<hr>
+<h3 id="imagination">imagination<a class="hash" href="#imagination" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/ɪˌmædʒəˈneɪʃən/ &middot; <em>ih-ma-juh-NAY-shuhn</em></dd><dt>Русский</dt><dd>воображение</dd><dt>Countability</dt><dd>uncountable</dd></dl>
+<p>The ability to form pictures and ideas in the mind.</p>
+<ol><li>The story really captured my daughter's <em>imagination</em>.</li><li>Use your <em>imagination</em> and the box becomes a spaceship.</li><li>None of it was real; it was all in his <em>imagination</em>.</li></ol>
+<hr>
+<h3 id="creativity">creativity<a class="hash" href="#creativity" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/ˌkriːeɪˈtɪvəti/ &middot; <em>kree-ay-TIV-uh-tee</em></dd><dt>Русский</dt><dd>творчество, креативность</dd><dt>Countability</dt><dd>uncountable</dd></dl>
+<p>The ability to make new things or think of original ideas.</p>
+<ol><li>The job rewards <em>creativity</em> more than speed.</li><li>Long meetings kill <em>creativity</em>.</li><li>There's a lot of <em>creativity</em> in her cooking.</li></ol>
+<hr>
+<h3 id="conclusion">conclusion<a class="hash" href="#conclusion" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/kənˈkluːʒən/ &middot; <em>kuhn-KLOO-zhuhn</em></dd><dt>Русский</dt><dd>вывод, заключение</dd><dt>Plural</dt><dd><em>conclusions</em></dd><dt>Countability</dt><dd>countable</dd></dl>
+<p>A decision or opinion reached after thinking about the facts.</p>
+<ol><li>I came to the <em>conclusion</em> that he was lying.</li><li>Don't jump to <em>conclusions</em> before you hear the whole story.</li><li>The report's <em>conclusion</em> surprised everybody.</li></ol>
+<hr>
+<h3 id="assumption">assumption<a class="hash" href="#assumption" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/əˈsʌmpʃən/ &middot; <em>uh-SUMP-shuhn</em></dd><dt>Русский</dt><dd>предположение, допущение</dd><dt>Plural</dt><dd><em>assumptions</em></dd><dt>Countability</dt><dd>countable</dd></dl>
+<p>Something you accept as true without proof.</p>
+<ol><li>I made the <em>assumption</em> that she was driving.</li><li>The whole plan rests on two shaky <em>assumptions</em>.</li><li>Working on the <em>assumption</em> that it rains, bring an umbrella.</li></ol>
+<hr>
+<h3 id="guess">guess<a class="hash" href="#guess" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/ɡɛs/ &middot; <em>GES</em></dd><dt>Русский</dt><dd>догадка, предположение</dd><dt>Plural</dt><dd><em>guesses</em></dd><dt>Countability</dt><dd>countable</dd><dt>Contrast</dt><dd>The u is silent — <em>guess</em> rhymes with <em>mess</em>, not with the start of <em>guest house</em>.</dd></dl>
+<p>An answer or opinion given without knowing for certain.</p>
+<ol><li>My <em>guess</em> is that traffic held them up.</li><li>You get three <em>guesses</em>.</li><li>It was a lucky <em>guess</em>, nothing more.</li></ol>
+<hr>
+<h3 id="reasoning">reasoning<a class="hash" href="#reasoning" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/ˈriːzənɪŋ/ &middot; <em>REE-zuh-ning</em></dd><dt>Русский</dt><dd>рассуждение, ход мысли</dd><dt>Countability</dt><dd>uncountable</dd></dl>
+<p>The process of thinking about something in a logical way.</p>
+<ol><li>Walk me through your <em>reasoning</em> on this.</li><li>The <em>reasoning</em> behind the rule is never explained.</li><li>Her <em>reasoning</em> was sound, but the facts were wrong.</li></ol>
+<hr>
+<h3 id="attention">attention<a class="hash" href="#attention" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/əˈtɛnʃən/ &middot; <em>uh-TEN-shuhn</em></dd><dt>Русский</dt><dd>внимание</dd><dt>Countability</dt><dd>uncountable</dd></dl>
+<p>The act of watching, listening to, or thinking about something carefully.</p>
+<ol><li>Could I have your <em>attention</em> for a minute?</li><li>The problem needs immediate <em>attention</em>.</li><li>She pays close <em>attention</em> to detail.</li></ol>
+<hr>
+<h3 id="awareness">awareness<a class="hash" href="#awareness" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/əˈwɛrnəs/ &middot; <em>uh-WAIR-nuhs</em></dd><dt>Русский</dt><dd>осведомлённость, осознание</dd><dt>Countability</dt><dd>uncountable</dd></dl>
+<p>Knowledge that something exists or is happening.</p>
+<ol><li>The campaign raised <em>awareness</em> of the disease.</li><li>He had no <em>awareness</em> of how loud he was talking.</li><li>There's growing <em>awareness</em> of the problem downtown.</li></ol>
+<hr>
+<h3 id="consciousness">consciousness<a class="hash" href="#consciousness" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/ˈkɑːnʃəsnəs/ &middot; <em>KAHN-shuhs-nuhs</em></dd><dt>Русский</dt><dd>сознание</dd><dt>Countability</dt><dd>uncountable</dd><dt>Contrast</dt><dd>The sc spells a single /ʃ/ sound: KAHN-shuhs-nuhs, not "kon-skus".</dd></dl>
+<p>The state of being awake and able to think and perceive.</p>
+<ol><li>She lost <em>consciousness</em> for about a minute.</li><li>He slowly regained <em>consciousness</em> in the ambulance.</li><li>The memory floated up into <em>consciousness</em> years later.</li></ol>
+<hr>
+<h3 id="perception">perception<a class="hash" href="#perception" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/pərˈsɛpʃən/ &middot; <em>pur-SEP-shuhn</em></dd><dt>Русский</dt><dd>восприятие; представление</dd><dt>Plural</dt><dd><em>perceptions</em></dd><dt>Countability</dt><dd>both — countable and uncountable with different meanings</dd></dl>
+<p>The way you notice things with your senses, or an opinion about what something is like.</p>
+<ol><li>Alcohol slows your <em>perception</em> of distance.</li><li>Public <em>perceptions</em> of the mayor have shifted.</li><li>Depth <em>perception</em> is tested at the eye exam.</li></ol>
+<hr>
+<h3 id="impression">impression<a class="hash" href="#impression" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/ɪmˈprɛʃən/ &middot; <em>im-PRESH-uhn</em></dd><dt>Русский</dt><dd>впечатление</dd><dt>Plural</dt><dd><em>impressions</em></dd><dt>Countability</dt><dd>countable</dd></dl>
+<p>An idea or feeling you get about someone or something.</p>
+<ol><li>My first <em>impression</em> of him was completely wrong.</li><li>Write down your <em>impressions</em> while they're fresh.</li><li>I got the <em>impression</em> she wanted to leave.</li></ol>
+<hr>
+<h3 id="viewpoint">viewpoint<a class="hash" href="#viewpoint" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/ˈvjuːpɔɪnt/ &middot; <em>VYOO-poynt</em></dd><dt>Русский</dt><dd>точка зрения</dd><dt>Plural</dt><dd><em>viewpoints</em></dd><dt>Countability</dt><dd>countable</dd></dl>
+<p>The position from which someone judges a matter.</p>
+<ol><li>The article ignores the tenants' <em>viewpoint</em>.</li><li>Both <em>viewpoints</em> deserve a hearing.</li><li>Try to see it from my <em>viewpoint</em> for a second.</li></ol>
+<hr>
+<h3 id="outlook">outlook<a class="hash" href="#outlook" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/ˈaʊtlʊk/ &middot; <em>OWT-luuk</em></dd><dt>Русский</dt><dd>мировоззрение, взгляд на жизнь</dd><dt>Plural</dt><dd><em>outlooks</em></dd><dt>Countability</dt><dd>countable</dd></dl>
+<p>A person's general attitude toward life, or the way things are expected to turn out.</p>
+<ol><li>She has a cheerful <em>outlook</em> even on bad days.</li><li>The two brothers have completely different <em>outlooks</em>.</li><li>The economic <em>outlook</em> improved over the summer.</li></ol>
+<hr>
+<h3 id="mindset">mindset<a class="hash" href="#mindset" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/ˈmaɪndsɛt/ &middot; <em>MYND-set</em></dd><dt>Русский</dt><dd>образ мышления, настрой</dd><dt>Plural</dt><dd><em>mindsets</em></dd><dt>Countability</dt><dd>countable</dd></dl>
+<p>A fixed way of thinking that shapes how someone reacts.</p>
+<ol><li>Switching to a team <em>mindset</em> took him a while.</li><li>Old <em>mindsets</em> die hard in this business.</li><li>You need a different <em>mindset</em> for long races.</li></ol>
+<hr>
+<h3 id="bias">bias<a class="hash" href="#bias" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/ˈbaɪrs/ &middot; <em>BY-uhs</em></dd><dt>Русский</dt><dd>предвзятость, предубеждение</dd><dt>Plural</dt><dd><em>biases</em></dd><dt>Countability</dt><dd>countable</dd></dl>
+<p>An unfair preference for or against someone or something.</p>
+<ol><li>The study tried to correct for <em>bias</em> in the sample.</li><li>We all carry <em>biases</em> we're not aware of.</li><li>There's a clear <em>bias</em> toward older applicants.</li></ol>
+<hr>
+<h3 id="prejudice">prejudice<a class="hash" href="#prejudice" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/ˈprɛdʒədɪs/ &middot; <em>PREJ-uh-dis</em></dd><dt>Русский</dt><dd>предрассудок, предубеждение</dd><dt>Countability</dt><dd>uncountable</dd></dl>
+<p>An unfair opinion about a group of people formed without knowing them.</p>
+<ol><li>He grew up surrounded by <em>prejudice</em>.</li><li>The law was written to fight racial <em>prejudice</em>.</li><li><em>Prejudice</em> against renters is still common here.</li></ol>
+<hr>
+<h3 id="stereotype">stereotype<a class="hash" href="#stereotype" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/ˈstɛriətaɪp/ &middot; <em>STER-ee-uh-typ</em></dd><dt>Русский</dt><dd>стереотип</dd><dt>Plural</dt><dd><em>stereotypes</em></dd><dt>Countability</dt><dd>countable</dd></dl>
+<p>A fixed and oversimplified idea of what a type of person is like.</p>
+<ol><li>The movie plays on an old <em>stereotype</em>.</li><li>These <em>stereotypes</em> are hard to shake.</li><li>She doesn't fit the <em>stereotype</em> at all.</li></ol>
+<hr>
+<h3 id="expectation">expectation<a class="hash" href="#expectation" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/ˌɛkspɛkˈteɪʃən/ &middot; <em>ek-spek-TAY-shuhn</em></dd><dt>Русский</dt><dd>ожидание</dd><dt>Plural</dt><dd><em>expectations</em></dd><dt>Countability</dt><dd>countable</dd></dl>
+<p>A belief that something will happen or that someone will behave a certain way.</p>
+<ol><li>The movie fell short of my <em>expectation</em>.</li><li>His parents had high <em>expectations</em> for him.</li><li>There's an <em>expectation</em> that everyone helps clean up.</li></ol>
+<hr>
+<h3 id="recollection">recollection<a class="hash" href="#recollection" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/ˌrɛkəˈlɛkʃən/ &middot; <em>rek-uh-LEK-shuhn</em></dd><dt>Русский</dt><dd>воспоминание</dd><dt>Plural</dt><dd><em>recollections</em></dd><dt>Countability</dt><dd>countable</dd></dl>
+<p>Something remembered, or the act of remembering it.</p>
+<ol><li>I have no <em>recollection</em> of signing that form.</li><li>His <em>recollections</em> of the war filled two notebooks.</li><li>My <em>recollection</em> is that the meeting was on a Tuesday.</li></ol>
+<hr>
+<h3 id="amnesia">amnesia<a class="hash" href="#amnesia" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/æmˈniːʒə/ &middot; <em>am-NEE-zhuh</em></dd><dt>Русский</dt><dd>амнезия, потеря памяти</dd><dt>Countability</dt><dd>uncountable</dd></dl>
+<p>Loss of memory, usually after an injury or an illness.</p>
+<ol><li>The fall left him with temporary <em>amnesia</em>.</li><li>She woke up with <em>amnesia</em> and no ID.</li><li><em>Amnesia</em> in the movies rarely matches the real thing.</li></ol>
+<hr>
+<h3 id="personality">personality<a class="hash" href="#personality" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/ˌpɜːrsəˈnæləti/ &middot; <em>pur-suh-NAL-uh-tee</em></dd><dt>Русский</dt><dd>личность, характер</dd><dt>Plural</dt><dd><em>personalities</em></dd><dt>Countability</dt><dd>countable</dd></dl>
+<p>The set of qualities that makes one person different from another.</p>
+<ol><li>She has a warm, outgoing <em>personality</em>.</li><li>The two roommates had clashing <em>personalities</em>.</li><li>The dog's <em>personality</em> changed after the surgery.</li></ol>
+<hr>
+<h3 id="temperament">temperament<a class="hash" href="#temperament" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/ˈtɛmpərəmənt/ &middot; <em>TEM-pur-uh-muhnt</em></dd><dt>Русский</dt><dd>темперамент, нрав</dd><dt>Plural</dt><dd><em>temperaments</em></dd><dt>Countability</dt><dd>countable</dd></dl>
+<p>A person's or animal's natural way of feeling and behaving.</p>
+<ol><li>He has the <em>temperament</em> of a good goalie.</li><li>The breed is known for its gentle <em>temperament</em>.</li><li>Their <em>temperaments</em> are as different as night and day.</li></ol>
+<hr>
+<h3 id="trait">trait<a class="hash" href="#trait" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/treɪt/ &middot; <em>TRAYT</em></dd><dt>Русский</dt><dd>черта (характера)</dd><dt>Plural</dt><dd><em>traits</em></dd><dt>Countability</dt><dd>countable</dd></dl>
+<p>A particular quality that forms part of someone's character.</p>
+<ol><li>Stubbornness is a family <em>trait</em>.</li><li>Employers look for <em>traits</em> like reliability.</li><li>Curiosity is his best <em>trait</em>.</li></ol>
+<hr>
+<h3 id="identity">identity<a class="hash" href="#identity" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/aɪˈdɛntəti/ &middot; <em>eye-DEN-tuh-tee</em></dd><dt>Русский</dt><dd>личность; самосознание</dd><dt>Plural</dt><dd><em>identities</em></dd><dt>Countability</dt><dd>countable</dd></dl>
+<p>Who a person is, or the sense of belonging that shapes that.</p>
+<ol><li>The thief stole her <em>identity</em> and opened three cards.</li><li>Teenagers are busy forming their <em>identities</em>.</li><li>Baseball is part of the town's <em>identity</em>.</li></ol>
+<hr>
+<h3 id="ego">ego<a class="hash" href="#ego" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/ˈiːɡoʊ/ &middot; <em>EE-goh</em></dd><dt>Русский</dt><dd>самолюбие, эго</dd><dt>Plural</dt><dd><em>egos</em></dd><dt>Countability</dt><dd>countable</dd></dl>
+<p>A person's sense of their own importance.</p>
+<ol><li>That review bruised his <em>ego</em>.</li><li>The band broke up over clashing <em>egos</em>.</li><li>She has no <em>ego</em> about being corrected.</li></ol>
+<hr>
+<h3 id="integrity">integrity<a class="hash" href="#integrity" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/ɪnˈtɛɡrəti/ &middot; <em>in-TEG-ruh-tee</em></dd><dt>Русский</dt><dd>честность, порядочность</dd><dt>Countability</dt><dd>uncountable</dd></dl>
+<p>The quality of being honest and holding to strong moral principles.</p>
+<ol><li>He's a man of real <em>integrity</em>.</li><li>The job calls for judgment and <em>integrity</em>.</li><li>She kept her <em>integrity</em> even when it cost her.</li></ol>
+<hr>
+<h3 id="commitment">commitment<a class="hash" href="#commitment" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/kəˈmɪtmənt/ &middot; <em>kuh-MIT-muhnt</em></dd><dt>Русский</dt><dd>обязательство; приверженность</dd><dt>Plural</dt><dd><em>commitments</em></dd><dt>Countability</dt><dd>both — countable and uncountable with different meanings</dd></dl>
+<p>A promise to do something, or loyal devotion to a cause.</p>
+<ol><li>He made a firm <em>commitment</em> to be there.</li><li>I have three <em>commitments</em> on Saturday already.</li><li>The company's <em>commitment</em> to safety is written on the wall.</li></ol>
+<hr>
+<h3 id="intention">intention<a class="hash" href="#intention" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/ɪnˈtɛnʃən/ &middot; <em>in-TEN-shuhn</em></dd><dt>Русский</dt><dd>намерение</dd><dt>Plural</dt><dd><em>intentions</em></dd><dt>Countability</dt><dd>countable</dd></dl>
+<p>What a person plans or means to do.</p>
+<ol><li>I had every <em>intention</em> of calling you back.</li><li>His <em>intentions</em> were good even if the result wasn't.</li><li>She announced her <em>intention</em> to run for mayor.</li></ol>
+<hr>
+<h3 id="purpose">purpose<a class="hash" href="#purpose" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/ˈpɜːrpəs/ &middot; <em>PUR-puhs</em></dd><dt>Русский</dt><dd>цель, назначение</dd><dt>Plural</dt><dd><em>purposes</em></dd><dt>Countability</dt><dd>countable</dd></dl>
+<p>The reason something is done or exists.</p>
+<ol><li>What's the <em>purpose</em> of this form?</li><li>The room serves two <em>purposes</em>.</li><li>Volunteering gave him a sense of <em>purpose</em>.</li></ol>
+<hr>
+<h3 id="plan">plan<a class="hash" href="#plan" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/plæn/ &middot; <em>PLAN</em></dd><dt>Русский</dt><dd>план</dd><dt>Plural</dt><dd><em>plans</em></dd><dt>Countability</dt><dd>countable</dd></dl>
+<p>An arrangement worked out in advance for doing something.</p>
+<ol><li>We need a <em>plan</em> before we start knocking down walls.</li><li>Their weekend <em>plans</em> fell apart on Friday night.</li><li>The <em>plan</em> is to leave around six.</li></ol>
+<hr>
+<h3 id="decision">decision<a class="hash" href="#decision" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/dɪˈsɪʒən/ &middot; <em>dih-SIZH-uhn</em></dd><dt>Русский</dt><dd>решение</dd><dt>Plural</dt><dd><em>decisions</em></dd><dt>Countability</dt><dd>countable</dd></dl>
+<p>A choice made after thinking about the options.</p>
+<ol><li>Moving here was the best <em>decision</em> I ever made.</li><li>He makes <em>decisions</em> too quickly.</li><li>The <em>decision</em> is entirely yours.</li></ol>
+<hr>
+<h3 id="choice">choice<a class="hash" href="#choice" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/tʃɔɪs/ &middot; <em>CHOYS</em></dd><dt>Русский</dt><dd>выбор</dd><dt>Plural</dt><dd><em>choices</em></dd><dt>Countability</dt><dd>countable</dd></dl>
+<p>An act of picking one thing rather than another.</p>
+<ol><li>You made the right <em>choice</em>.</li><li>The menu offers plenty of vegetarian <em>choices</em>.</li><li>I had no <em>choice</em> but to walk home.</li></ol>
+<hr>
+<h3 id="wish">wish<a class="hash" href="#wish" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/wɪʃ/ &middot; <em>WISH</em></dd><dt>Русский</dt><dd>желание</dd><dt>Plural</dt><dd><em>wishes</em></dd><dt>Countability</dt><dd>countable</dd></dl>
+<p>Something you want to happen, or a hope expressed for someone.</p>
+<ol><li>Her one <em>wish</em> was to see her grandson graduate.</li><li>Best <em>wishes</em> on the new job.</li><li>Blow out the candles and make a <em>wish</em>.</li></ol>
+<hr>
+<h3 id="habit">habit<a class="hash" href="#habit" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/ˈhæbɪt/ &middot; <em>HA-bit</em></dd><dt>Русский</dt><dd>привычка</dd><dt>Plural</dt><dd><em>habits</em></dd><dt>Countability</dt><dd>countable</dd></dl>
+<p>Something a person does regularly, often without thinking about it.</p>
+<ol><li>Biting your nails is a hard <em>habit</em> to break.</li><li>She has good study <em>habits</em>.</li><li>I got into the <em>habit</em> of walking after dinner.</li></ol>
+<hr>
+<h3 id="disappointment">disappointment<a class="hash" href="#disappointment" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/ˌdɪsəˈpɔɪntmənt/ &middot; <em>dis-uh-POYNT-muhnt</em></dd><dt>Русский</dt><dd>разочарование</dd><dt>Plural</dt><dd><em>disappointments</em></dd><dt>Countability</dt><dd>both — countable and uncountable with different meanings</dd></dl>
+<p>The sad feeling of not getting what you hoped for, or something that causes it.</p>
+<ol><li>The concert was a huge <em>disappointment</em>.</li><li>Life is full of small <em>disappointments</em>.</li><li>To his <em>disappointment</em>, nobody came.</li></ol>
+<hr>
+<h3 id="astonishment">astonishment<a class="hash" href="#astonishment" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/əˈstɑːnɪʃmənt/ &middot; <em>uh-STAH-nish-muhnt</em></dd><dt>Русский</dt><dd>изумление</dd><dt>Countability</dt><dd>uncountable</dd></dl>
+<p>Very great surprise.</p>
+<ol><li>To my <em>astonishment</em>, he agreed on the spot.</li><li>She stared at the bill in <em>astonishment</em>.</li><li>There was <em>astonishment</em> in the room when the score went up.</li></ol>
+<hr>
+<h3 id="certainty">certainty<a class="hash" href="#certainty" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/ˈsɜːrtənti/ &middot; <em>SUR-tuhn-tee</em></dd><dt>Русский</dt><dd>уверенность; несомненность</dd><dt>Plural</dt><dd><em>certainties</em></dd><dt>Countability</dt><dd>both — countable and uncountable with different meanings</dd></dl>
+<p>The state of being completely sure, or something known for sure.</p>
+<ol><li>Nobody can say with any <em>certainty</em> what happened.</li><li>Death and taxes are the only <em>certainties</em>.</li><li>I can't answer that with <em>certainty</em>.</li></ol>
+<hr>
+<h3 id="dream">dream<a class="hash" href="#dream" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/driːm/ &middot; <em>DREEM</em></dd><dt>Русский</dt><dd>сон, сновидение; мечта</dd><dt>Plural</dt><dd><em>dreams</em></dd><dt>Countability</dt><dd>countable</dd></dl>
+<p>A series of images in the mind during sleep, or a strong hope for the future.</p>
+<ol><li>I had a strange <em>dream</em> about my old school.</li><li>Her <em>dreams</em> of playing pro ball ended with the injury.</li><li>Owning a boat was always his <em>dream</em>.</li></ol>
+<hr>
+<h3 id="nightmare">nightmare<a class="hash" href="#nightmare" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/ˈnaɪtmɛr/ &middot; <em>NYT-mair</em></dd><dt>Русский</dt><dd>кошмар</dd><dt>Plural</dt><dd><em>nightmares</em></dd><dt>Countability</dt><dd>countable</dd></dl>
+<p>A frightening dream, or a terrible experience.</p>
+<ol><li>He woke up from a <em>nightmare</em> soaked in sweat.</li><li>The kid has <em>nightmares</em> after scary movies.</li><li>The drive home was an absolute <em>nightmare</em>.</li></ol>
+<hr>
+<h3 id="daydream">daydream<a class="hash" href="#daydream" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/ˈdeɪdriːm/ &middot; <em>DAY-dreem</em></dd><dt>Русский</dt><dd>мечта, грёзы</dd><dt>Plural</dt><dd><em>daydreams</em></dd><dt>Countability</dt><dd>countable</dd></dl>
+<p>Pleasant thoughts that take your mind off the present.</p>
+<ol><li>She drifted into a <em>daydream</em> during the lecture.</li><li>His <em>daydreams</em> usually involve a beach.</li><li>A <em>daydream</em> about quitting got him through the shift.</li></ol>
+<hr>
+<h3 id="fantasy">fantasy<a class="hash" href="#fantasy" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/ˈfæntəsi/ &middot; <em>FAN-tuh-see</em></dd><dt>Русский</dt><dd>фантазия, вымысел</dd><dt>Plural</dt><dd><em>fantasies</em></dd><dt>Countability</dt><dd>both — countable and uncountable with different meanings</dd></dl>
+<p>An imagined situation that is pleasant but unlikely.</p>
+<ol><li>Winning the lottery is a common <em>fantasy</em>.</li><li>His <em>fantasies</em> about the job didn't match the reality.</li><li>The whole plan was pure <em>fantasy</em>.</li></ol>
+<hr>
+<h3 id="illusion">illusion<a class="hash" href="#illusion" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/ɪˈluːʒən/ &middot; <em>ih-LOO-zhuhn</em></dd><dt>Русский</dt><dd>иллюзия</dd><dt>Plural</dt><dd><em>illusions</em></dd><dt>Countability</dt><dd>countable</dd></dl>
+<p>A false appearance or a false belief about something.</p>
+<ol><li>The mirror creates the <em>illusion</em> of a bigger room.</li><li>He lost his <em>illusions</em> about the business fast.</li><li>I'm under no <em>illusion</em> that this will be easy.</li></ol>
+<hr>
+<h3 id="delusion">delusion<a class="hash" href="#delusion" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/dɪˈluːʒən/ &middot; <em>dih-LOO-zhuhn</em></dd><dt>Русский</dt><dd>заблуждение; бред</dd><dt>Plural</dt><dd><em>delusions</em></dd><dt>Countability</dt><dd>countable</dd><dt>Contrast</dt><dd>An <em>illusion</em> fools the eye; a <em>delusion</em> is a false belief a person holds on to.</dd></dl>
+<p>A firm false belief held despite clear evidence.</p>
+<ol><li>He has <em>delusions</em> of being a great singer.</li><li>The <em>delusion</em> was a symptom of the illness.</li><li>She's living under a serious <em>delusion</em> about the cost.</li></ol>
+<hr>
+<h3 id="hallucination">hallucination<a class="hash" href="#hallucination" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/həˌluːsɪˈneɪʃən/ &middot; <em>huh-loo-sih-NAY-shuhn</em></dd><dt>Русский</dt><dd>галлюцинация</dd><dt>Plural</dt><dd><em>hallucinations</em></dd><dt>Countability</dt><dd>countable</dd></dl>
+<p>Something a person sees or hears that is not really there.</p>
+<ol><li>The fever gave him <em>hallucinations</em>.</li><li>She reported a <em>hallucination</em> the first night on the drug.</li><li>Sleep loss can cause mild <em>hallucinations</em>.</li></ol>
+<hr>
+<h3 id="trance">trance<a class="hash" href="#trance" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/træns/ &middot; <em>TRANS</em></dd><dt>Русский</dt><dd>транс</dd><dt>Plural</dt><dd><em>trances</em></dd><dt>Countability</dt><dd>countable</dd></dl>
+<p>A sleeplike state in which a person is not fully aware of what is around them.</p>
+<ol><li>He drove the last hour in a kind of <em>trance</em>.</li><li>The drumming put the dancers into <em>trances</em>.</li><li>She stared at the screen in a <em>trance</em>.</li></ol>
+<hr>
+<h3 id="hypnosis">hypnosis<a class="hash" href="#hypnosis" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/hɪpˈnoʊsɪs/ &middot; <em>hip-NOH-sis</em></dd><dt>Русский</dt><dd>гипноз</dd><dt>Countability</dt><dd>uncountable</dd></dl>
+<p>A sleeplike state induced by another person in which someone responds to suggestions.</p>
+<ol><li>He quit smoking with the help of <em>hypnosis</em>.</li><li>Under <em>hypnosis</em>, she recalled the address.</li><li><em>Hypnosis</em> is sometimes used for pain.</li></ol>
+<hr>
+<h3 id="coma">coma<a class="hash" href="#coma" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/ˈkoʊmə/ &middot; <em>KOH-muh</em></dd><dt>Русский</dt><dd>кома</dd><dt>Plural</dt><dd><em>comas</em></dd><dt>Countability</dt><dd>countable</dd></dl>
+<p>A long deep unconsciousness caused by injury or illness.</p>
+<ol><li>He was in a <em>coma</em> for six days.</li><li>Two of the patients came out of their <em>comas</em>.</li><li>The stroke put her into a <em>coma</em>.</li></ol>
+<hr>
+<h3 id="sanity">sanity<a class="hash" href="#sanity" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/ˈsænəti/ &middot; <em>SA-nuh-tee</em></dd><dt>Русский</dt><dd>психическое здоровье, рассудок</dd><dt>Countability</dt><dd>uncountable</dd></dl>
+<p>The condition of having a healthy, sound mind.</p>
+<ol><li>Long walks are what keep my <em>sanity</em> intact.</li><li>The court ordered a test of his <em>sanity</em>.</li><li>After three days of noise I feared for my <em>sanity</em>.</li></ol>
+<hr>
+<h3 id="nap">nap<a class="hash" href="#nap" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/næp/ &middot; <em>NAP</em></dd><dt>Русский</dt><dd>короткий сон, дремота</dd><dt>Plural</dt><dd><em>naps</em></dd><dt>Countability</dt><dd>countable</dd></dl>
+<p>A short sleep, usually during the day.</p>
+<ol><li>I took a twenty-minute <em>nap</em> after lunch.</li><li>The baby still takes two <em>naps</em> a day.</li><li>A quick <em>nap</em> fixed my headache.</li></ol>
+<hr>
+<h3 id="relaxation">relaxation<a class="hash" href="#relaxation" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/ˌriːlækˈseɪʃən/ &middot; <em>ree-lak-SAY-shuhn</em></dd><dt>Русский</dt><dd>расслабление, отдых</dd><dt>Countability</dt><dd>uncountable</dd></dl>
+<p>The state of being calm and free from work or worry.</p>
+<ol><li>Fishing is pure <em>relaxation</em> for him.</li><li>The class teaches breathing and <em>relaxation</em>.</li><li>She needs a weekend of real <em>relaxation</em>.</li></ol>
+<hr>
+<h3 id="distraction">distraction<a class="hash" href="#distraction" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/dɪˈstrækʃən/ &middot; <em>dih-STRAK-shuhn</em></dd><dt>Русский</dt><dd>отвлечение; помеха</dd><dt>Plural</dt><dd><em>distractions</em></dd><dt>Countability</dt><dd>both — countable and uncountable with different meanings</dd></dl>
+<p>Something that takes your attention away, or the state of being unable to focus.</p>
+<ol><li>The phone is my biggest <em>distraction</em> at work.</li><li>He studies at the library to avoid <em>distractions</em>.</li><li>Driving takes attention, not <em>distraction</em>.</li></ol></div></main>
+<button class="themebtn" id="themeBtn">Dark</button>
+<script>
+const tb=document.getElementById('themeBtn');
+function setTheme(x){document.documentElement.dataset.theme=x;tb.textContent=x==='dark'?'Light':'Dark';
+ try{localStorage.setItem('site-theme',x)}catch(e){}}
+tb.onclick=()=>setTheme(document.documentElement.dataset.theme==='dark'?'light':'dark');
+try{const s=localStorage.getItem('site-theme');
+ setTheme(s||(matchMedia('(prefers-color-scheme: dark)').matches?'dark':'light'))}catch(e){setTheme('light')}
+</script></body></html>

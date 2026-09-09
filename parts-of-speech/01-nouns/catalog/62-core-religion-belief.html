@@ -1,0 +1,791 @@
+<!DOCTYPE html>
+<html lang="en"><head>
+<meta charset="utf-8"><meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Core vocabulary: religion and belief</title>
+<style>
+:root{--bg:#faf9f7;--surface:#fff;--surface2:#f2f0ec;--border:#e2ded6;--text:#1a1815;
+--dim:#5f594f;--faint:#8a8377;--accent:#8a5a3b;--measure:72ch}
+@media(prefers-color-scheme:dark){:root{--bg:#14140f;--surface:#1d1d17;--surface2:#25251d;
+--border:#33332a;--text:#eeeae1;--dim:#a8a293;--faint:#7d776b;--accent:#d09b72}}
+:root[data-theme=dark]{--bg:#14140f;--surface:#1d1d17;--surface2:#25251d;--border:#33332a;
+--text:#eeeae1;--dim:#a8a293;--faint:#7d776b;--accent:#d09b72}
+:root[data-theme=light]{--bg:#faf9f7;--surface:#fff;--surface2:#f2f0ec;--border:#e2ded6;
+--text:#1a1815;--dim:#5f594f;--faint:#8a8377;--accent:#8a5a3b}
+*{box-sizing:border-box}
+body{margin:0;background:var(--bg);color:var(--text);
+font:17px/1.72 ui-serif,Georgia,"Iowan Old Style",Palatino,serif;-webkit-font-smoothing:antialiased}
+.wrap{max-width:min(var(--measure),100%);margin:0 auto;padding:0 22px}
+nav.crumb{border-bottom:1px solid var(--border);padding:13px 0;font-size:13.5px;
+font-family:-apple-system,BlinkMacSystemFont,"Segoe UI",sans-serif;position:sticky;top:0;background:var(--bg);z-index:20}
+nav.crumb .wrap{max-width:none;display:flex;gap:9px;align-items:center;flex-wrap:wrap}
+nav.crumb a{color:var(--dim);text-decoration:none}
+nav.crumb a:hover{color:var(--accent)}
+nav.crumb .sep{color:var(--faint)}
+main{padding:8px 0 80px}
+h1{font-size:clamp(28px,5vw,38px);line-height:1.15;letter-spacing:-.015em;margin:34px 0 18px}
+h2{font-size:25px;margin:46px 0 14px;letter-spacing:-.01em;padding-bottom:7px;border-bottom:1px solid var(--border)}
+h3{font-size:19px;margin:34px 0 10px;color:var(--accent)}
+h4{font-size:16px;margin:24px 0 8px;font-family:-apple-system,sans-serif}
+p{margin:0 0 16px}
+a{color:var(--accent)}
+.hash{opacity:0;margin-left:8px;font-weight:400;font-size:.65em;text-decoration:none;color:var(--faint)}
+h2:hover .hash,h3:hover .hash{opacity:1}
+blockquote{margin:0 0 20px;padding:14px 18px;background:var(--surface2);
+border-left:3px solid var(--accent);border-radius:0 8px 8px 0}
+blockquote p:last-child{margin-bottom:0}
+ol,ul{margin:0 0 18px;padding-left:26px}
+li{margin-bottom:8px}
+li>ul,li>ol{margin:8px 0 0}
+code{font-family:ui-monospace,SFMono-Regular,Menlo,Consolas,monospace;font-size:.87em;
+background:var(--surface2);padding:1px 5px;border-radius:4px}
+pre{background:var(--surface2);border:1px solid var(--border);border-radius:9px;
+padding:15px 17px;overflow-x:auto;margin:0 0 20px}
+pre code{background:none;padding:0;font-size:13px;line-height:1.6}
+.tw{overflow-x:auto;margin:0 0 22px;border:1px solid var(--border);border-radius:9px}
+table{border-collapse:collapse;width:100%;font-size:15px;
+font-family:-apple-system,BlinkMacSystemFont,"Segoe UI",sans-serif}
+th,td{padding:10px 14px;border-bottom:1px solid var(--border);vertical-align:top}
+th{background:var(--surface2);font-size:12px;text-transform:uppercase;
+letter-spacing:.06em;color:var(--dim);font-weight:700;white-space:nowrap}
+tbody tr:last-child td{border-bottom:none}
+hr{border:none;border-top:1px solid var(--border);margin:38px 0}
+details{background:var(--surface2);border:1px solid var(--border);border-radius:9px;
+padding:13px 17px;margin:0 0 20px}
+summary{cursor:pointer;font-weight:600;font-family:-apple-system,sans-serif;font-size:15px}
+details[open] summary{margin-bottom:12px}
+del{color:var(--faint)}
+dl.fields{margin:0 0 20px;padding:0}
+dl.fields dt{font-family:-apple-system,BlinkMacSystemFont,"Segoe UI",sans-serif;
+font-size:11px;letter-spacing:.11em;text-transform:uppercase;color:var(--faint);
+font-weight:700;margin:14px 0 4px}
+dl.fields dt:first-child{margin-top:0}
+dl.fields dd{margin:0;font-size:16px;color:var(--dim);line-height:1.62}
+dl.fields dd em{color:var(--text)}
+dl.fields dt.ru{color:var(--accent)}
+dl.fields dd strong{color:var(--text)}
+.toc{background:var(--surface2);border:1px solid var(--border);border-radius:10px;
+padding:16px 20px;margin:26px 0 34px;font-family:-apple-system,sans-serif;font-size:14px}
+.toc b{display:block;font-size:11px;letter-spacing:.12em;text-transform:uppercase;
+color:var(--faint);margin-bottom:9px}
+.toc a{display:block;padding:3px 0;color:var(--dim);text-decoration:none}
+.toc a:hover{color:var(--accent)}
+.themebtn{position:fixed;right:18px;bottom:18px;z-index:60;font-family:-apple-system,sans-serif;
+font-size:12.5px;font-weight:600;cursor:pointer;background:var(--surface);border:1px solid var(--border);
+border-radius:99px;padding:9px 16px;color:var(--text)}
+@media(max-width:600px){body{font-size:16px}.wrap{padding:0 17px}}
+</style></head><body>
+<nav class="crumb"><div class="wrap"><a href="../../../index.html">Learn English</a><span class="sep">/</span><a href="../../README.html">Parts of speech</a><span class="sep">/</span><a href="../README.html">01-nouns</a><span class="sep">/</span><span>catalog</span></div></nav>
+<main><div class="wrap"><h1 id="core-vocabulary-religion-and-belief">Core vocabulary: religion and belief<a class="hash" href="#core-vocabulary-religion-and-belief" aria-label="link">#</a></h1>
+<blockquote><p>The everyday nouns of religion and belief — pronunciation, Russian, plural, and three examples each.</p></blockquote>
+<p><a href="../README.html">← The grammar of nouns</a> &middot; <a href="README.html">All groups</a></p>
+<p>Part of the <strong>core-vocabulary tier</strong>. Groups 1–23 cover the nouns that misbehave; this tier covers the nouns you simply need to know. Entries are deliberately lean, because a regular countable noun has no grammatical story to tell. A <strong>Contrast</strong> line appears only where the word hides a genuine trap.</p>
+<p>Where a word in this field <em>does</em> misbehave, it lives in the grammar tier instead and is not repeated here.</p>
+<hr>
+<h3 id="church">church<a class="hash" href="#church" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/tʃɜːrtʃ/ &middot; <em>CHURCH</em></dd><dt>Русский</dt><dd>церковь, храм</dd><dt>Plural</dt><dd><em>churches</em></dd><dt>Countability</dt><dd>countable</dd></dl>
+<p>A building where Christians meet to worship.</p>
+<ol><li>There's a little white <em>church</em> at the end of the road.</li><li>We go to <em>church</em> every Sunday morning.</li><li>Half the <em>churches</em> in town run a food pantry.</li></ol>
+<hr>
+<h3 id="synagogue">synagogue<a class="hash" href="#synagogue" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/ˈsɪnəɡɑːɡ/ &middot; <em>SIN-uh-gahg</em></dd><dt>Русский</dt><dd>синагога</dd><dt>Plural</dt><dd><em>synagogues</em></dd><dt>Countability</dt><dd>countable</dd></dl>
+<p>A building where Jews gather for prayer and study.</p>
+<ol><li>Her family belongs to a <em>synagogue</em> downtown.</li><li>The <em>synagogue</em> holds classes on Wednesday evenings.</li><li>Both <em>synagogues</em> took part in the memorial service.</li></ol>
+<hr>
+<h3 id="chapel">chapel<a class="hash" href="#chapel" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/ˈtʃæpəl/ &middot; <em>CHAP-uhl</em></dd><dt>Русский</dt><dd>часовня, капелла</dd><dt>Plural</dt><dd><em>chapels</em></dd><dt>Countability</dt><dd>countable</dd></dl>
+<p>A small place of worship, often inside a larger building.</p>
+<ol><li>The hospital has a quiet <em>chapel</em> on the first floor.</li><li>They were married in a tiny <em>chapel</em> in the mountains.</li><li>Most of the college <em>chapels</em> are open to the public.</li></ol>
+<hr>
+<h3 id="monastery">monastery<a class="hash" href="#monastery" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/ˈmɑːnəsteri/ &middot; <em>MAH-nuh-steh-ree</em></dd><dt>Русский</dt><dd>монастырь (мужской)</dd><dt>Plural</dt><dd><em>monasteries</em></dd><dt>Countability</dt><dd>countable</dd></dl>
+<p>A building where monks live and work together.</p>
+<ol><li>The <em>monastery</em> sits high above the valley.</li><li>He spent two years at a <em>monastery</em> in Kentucky.</li><li>Several <em>monasteries</em> in the area make and sell cheese.</li></ol>
+<hr>
+<h3 id="convent">convent<a class="hash" href="#convent" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/ˈkɑːnvent/ &middot; <em>KAHN-vent</em></dd><dt>Русский</dt><dd>женский монастырь</dd><dt>Plural</dt><dd><em>convents</em></dd><dt>Countability</dt><dd>countable</dd></dl>
+<p>A building where nuns live together.</p>
+<ol><li>Her aunt entered a <em>convent</em> at nineteen.</li><li>The old <em>convent</em> is now a school.</li><li>Two <em>convents</em> closed when the sisters grew too few.</li></ol>
+<hr>
+<h3 id="sanctuary">sanctuary<a class="hash" href="#sanctuary" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/ˈsæŋktʃueri/ &middot; <em>SANGK-choo-eh-ree</em></dd><dt>Русский</dt><dd>святилище; убежище</dd><dt>Plural</dt><dd><em>sanctuaries</em></dd><dt>Countability</dt><dd>countable</dd></dl>
+<p>The holy main room of a place of worship, or any place of safety.</p>
+<ol><li>The choir sang from the back of the <em>sanctuary</em>.</li><li>The old church became a <em>sanctuary</em> for people with nowhere to go.</li><li>These islands are <em>sanctuaries</em> for nesting birds.</li></ol>
+<hr>
+<h3 id="pulpit">pulpit<a class="hash" href="#pulpit" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/ˈpʊlpɪt/ &middot; <em>PUUL-pit</em></dd><dt>Русский</dt><dd>кафедра (проповедника), амвон</dd><dt>Plural</dt><dd><em>pulpits</em></dd><dt>Countability</dt><dd>countable</dd><dt>Contrast</dt><dd>The first syllable has the vowel of 'pull', not of 'pulp': PUUL-pit.</dd></dl>
+<p>The raised platform a preacher speaks from in a church.</p>
+<ol><li>He stepped up to the <em>pulpit</em> and opened his notes.</li><li>The <em>pulpit</em> is carved out of dark oak.</li><li>Politics is preached from a lot of <em>pulpits</em> these days.</li></ol>
+<hr>
+<h3 id="altar">altar<a class="hash" href="#altar" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/ˈɔːltər/ &middot; <em>AWL-tur</em></dd><dt>Русский</dt><dd>алтарь, престол</dd><dt>Plural</dt><dd><em>altars</em></dd><dt>Countability</dt><dd>countable</dd><dt>Contrast</dt><dd>Sounds exactly like the verb 'alter' (изменять). The noun ends in -ar.</dd></dl>
+<p>A raised table used for religious ceremonies.</p>
+<ol><li>Two candles burned on the <em>altar</em>.</li><li>She walked up to the <em>altar</em> in her mother's dress.</li><li>The museum displays stone <em>altars</em> from ancient temples.</li></ol>
+<hr>
+<h3 id="pew">pew<a class="hash" href="#pew" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/pjuː/ &middot; <em>PYOO</em></dd><dt>Русский</dt><dd>церковная скамья</dd><dt>Plural</dt><dd><em>pews</em></dd><dt>Countability</dt><dd>countable</dd></dl>
+<p>A long wooden bench for people to sit on in a church.</p>
+<ol><li>We squeezed into the last <em>pew</em> in the back.</li><li>There's a hymnbook in the rack on every <em>pew</em>.</li><li>The <em>pews</em> were packed for the Christmas service.</li></ol>
+<hr>
+<h3 id="cemetery">cemetery<a class="hash" href="#cemetery" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/ˈseməteri/ &middot; <em>SEM-uh-teh-ree</em></dd><dt>Русский</dt><dd>кладбище</dd><dt>Plural</dt><dd><em>cemeteries</em></dd><dt>Countability</dt><dd>countable</dd><dt>Contrast</dt><dd>Spelled with three e's and no a: c-e-m-e-t-e-r-y.</dd></dl>
+<p>A piece of ground where dead people are buried.</p>
+<ol><li>His grandparents are buried in the town <em>cemetery</em>.</li><li>We drove past a small country <em>cemetery</em>.</li><li>Two of the city's <em>cemeteries</em> date from the 1800s.</li></ol>
+<hr>
+<h3 id="tomb">tomb<a class="hash" href="#tomb" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/tuːm/ &middot; <em>TOOM</em></dd><dt>Русский</dt><dd>гробница, склеп</dd><dt>Plural</dt><dd><em>tombs</em></dd><dt>Countability</dt><dd>countable</dd><dt>Contrast</dt><dd>The b is silent; the word rhymes with 'room', not with 'bomb'.</dd></dl>
+<p>A stone structure built to hold a dead body.</p>
+<ol><li>The <em>tomb</em> was sealed for two thousand years.</li><li>Visitors leave coins on the <em>tomb</em>.</li><li>Archaeologists opened three <em>tombs</em> that winter.</li></ol>
+<hr>
+<h3 id="priest">priest<a class="hash" href="#priest" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/priːst/ &middot; <em>PREEST</em></dd><dt>Русский</dt><dd>священник; жрец</dd><dt>Plural</dt><dd><em>priests</em></dd><dt>Countability</dt><dd>countable</dd></dl>
+<p>A man trained to lead religious services in a church or temple.</p>
+<ol><li>A young <em>priest</em> heard her confession.</li><li>The <em>priest</em> blessed the bread and the wine.</li><li>Two <em>priests</em> were sent to the new parish.</li></ol>
+<hr>
+<h3 id="pastor">pastor<a class="hash" href="#pastor" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/ˈpæstər/ &middot; <em>PASS-tur</em></dd><dt>Русский</dt><dd>пастор</dd><dt>Plural</dt><dd><em>pastors</em></dd><dt>Countability</dt><dd>countable</dd></dl>
+<p>A Christian leader in charge of a local church.</p>
+<ol><li>Our <em>pastor</em> has been here for twelve years.</li><li>The <em>pastor</em> visited him in the hospital.</li><li>Several <em>pastors</em> spoke at the rally.</li></ol>
+<hr>
+<h3 id="rabbi">rabbi<a class="hash" href="#rabbi" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/ˈræbaɪ/ &middot; <em>RAB-eye</em></dd><dt>Русский</dt><dd>раввин</dd><dt>Plural</dt><dd><em>rabbis</em></dd><dt>Countability</dt><dd>countable</dd><dt>Contrast</dt><dd>The last syllable rhymes with 'eye': RAB-eye, not 'RAB-ee'.</dd></dl>
+<p>A Jewish religious leader and teacher.</p>
+<ol><li>The <em>rabbi</em> welcomed everyone in Hebrew and English.</li><li>She studied with a <em>rabbi</em> for a year before converting.</li><li>Local <em>rabbis</em> signed the letter together.</li></ol>
+<hr>
+<h3 id="imam">imam<a class="hash" href="#imam" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/ɪˈmɑːm/ &middot; <em>ih-MAHM</em></dd><dt>Русский</dt><dd>имам</dd><dt>Plural</dt><dd><em>imams</em></dd><dt>Countability</dt><dd>countable</dd></dl>
+<p>A Muslim leader who directs prayers in a mosque.</p>
+<ol><li>The <em>imam</em> gave a short talk after prayers.</li><li>He asked the <em>imam</em> what the verse meant.</li><li>Two <em>imams</em> joined the interfaith meeting.</li></ol>
+<hr>
+<h3 id="monk">monk<a class="hash" href="#monk" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/mʌŋk/ &middot; <em>MUNGK</em></dd><dt>Русский</dt><dd>монах</dd><dt>Plural</dt><dd><em>monks</em></dd><dt>Countability</dt><dd>countable</dd></dl>
+<p>A man who lives in a religious community under strict rules.</p>
+<ol><li>A <em>monk</em> met us at the gate.</li><li>He lived as a <em>monk</em> for eight years.</li><li>The <em>monks</em> get up at four in the morning.</li></ol>
+<hr>
+<h3 id="bishop">bishop<a class="hash" href="#bishop" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/ˈbɪʃəp/ &middot; <em>BISH-uhp</em></dd><dt>Русский</dt><dd>епископ</dd><dt>Plural</dt><dd><em>bishops</em></dd><dt>Countability</dt><dd>countable</dd></dl>
+<p>A senior Christian clergyman in charge of many churches.</p>
+<ol><li>The <em>bishop</em> came to confirm the teenagers.</li><li>A letter from the <em>bishop</em> was read aloud.</li><li>The <em>bishops</em> meet twice a year.</li></ol>
+<hr>
+<h3 id="pope">pope<a class="hash" href="#pope" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/poʊp/ &middot; <em>POHP</em></dd><dt>Русский</dt><dd>папа римский</dd><dt>Plural</dt><dd><em>popes</em></dd><dt>Countability</dt><dd>countable</dd></dl>
+<p>The head of the Roman Catholic Church.</p>
+<ol><li>The <em>pope</em> spoke to the crowd from the balcony.</li><li>She waited six hours to see the <em>pope</em>.</li><li>Several <em>popes</em> are buried beneath the church.</li></ol>
+<hr>
+<h3 id="preacher">preacher<a class="hash" href="#preacher" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/ˈpriːtʃər/ &middot; <em>PREE-chur</em></dd><dt>Русский</dt><dd>проповедник</dd><dt>Plural</dt><dd><em>preachers</em></dd><dt>Countability</dt><dd>countable</dd></dl>
+<p>Someone who gives religious talks to a group of people.</p>
+<ol><li>The <em>preacher</em> spoke for almost an hour.</li><li>His father was a country <em>preacher</em>.</li><li>Street <em>preachers</em> stand on that corner every Saturday.</li></ol>
+<hr>
+<h3 id="chaplain">chaplain<a class="hash" href="#chaplain" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/ˈtʃæplɪn/ &middot; <em>CHAP-lin</em></dd><dt>Русский</dt><dd>капеллан, священник (в армии, больнице, тюрьме)</dd><dt>Plural</dt><dd><em>chaplains</em></dd><dt>Countability</dt><dd>countable</dd><dt>Contrast</dt><dd>The second syllable is a weak -lin, not 'plane': CHAP-lin.</dd></dl>
+<p>A clergy member who serves an army unit, hospital, prison, or school.</p>
+<ol><li>The hospital <em>chaplain</em> sat with the family all night.</li><li>He served as an army <em>chaplain</em> in the 1990s.</li><li>The prison employs two full-time <em>chaplains</em>.</li></ol>
+<hr>
+<h3 id="missionary">missionary<a class="hash" href="#missionary" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/ˈmɪʃəneri/ &middot; <em>MISH-uh-neh-ree</em></dd><dt>Русский</dt><dd>миссионер</dd><dt>Plural</dt><dd><em>missionaries</em></dd><dt>Countability</dt><dd>countable</dd></dl>
+<p>Someone sent to another place to spread a religion and help people.</p>
+<ol><li>Her parents worked as a <em>missionary</em> couple in Brazil.</li><li>A <em>missionary</em> built the first school in the village.</li><li>Young <em>missionaries</em> knocked on our door Saturday morning.</li></ol>
+<hr>
+<h3 id="evangelist">evangelist<a class="hash" href="#evangelist" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/ɪˈvændʒəlɪst/ &middot; <em>ih-VAN-juh-list</em></dd><dt>Русский</dt><dd>евангелист, проповедник</dd><dt>Plural</dt><dd><em>evangelists</em></dd><dt>Countability</dt><dd>countable</dd></dl>
+<p>A preacher who travels around trying to convert people to Christianity.</p>
+<ol><li>A traveling <em>evangelist</em> filled the stadium.</li><li>The <em>evangelist</em> broadcasts his sermons on the radio.</li><li>TV <em>evangelists</em> raised millions that year.</li></ol>
+<hr>
+<h3 id="prophet">prophet<a class="hash" href="#prophet" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/ˈprɑːfɪt/ &middot; <em>PRAH-fit</em></dd><dt>Русский</dt><dd>пророк</dd><dt>Plural</dt><dd><em>prophets</em></dd><dt>Countability</dt><dd>countable</dd><dt>Contrast</dt><dd>Sounds exactly like 'profit' (прибыль); only the spelling differs.</dd></dl>
+<p>A person believed to speak messages from God.</p>
+<ol><li>The <em>prophet</em> warned the city to change its ways.</li><li>He read the words of an ancient <em>prophet</em>.</li><li>The <em>prophets</em> are quoted throughout the book.</li></ol>
+<hr>
+<h3 id="saint">saint<a class="hash" href="#saint" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/seɪnt/ &middot; <em>SAYNT</em></dd><dt>Русский</dt><dd>святой, святая</dd><dt>Plural</dt><dd><em>saints</em></dd><dt>Countability</dt><dd>countable</dd></dl>
+<p>A person officially recognized as holy after death.</p>
+<ol><li>She was made a <em>saint</em> four centuries later.</li><li>There's a statue of the <em>saint</em> by the door.</li><li>The church is named after two <em>saints</em>.</li></ol>
+<hr>
+<h3 id="disciple">disciple<a class="hash" href="#disciple" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/dɪˈsaɪpəl/ &middot; <em>dih-SY-puhl</em></dd><dt>Русский</dt><dd>ученик, последователь</dd><dt>Plural</dt><dd><em>disciples</em></dd><dt>Countability</dt><dd>countable</dd><dt>Contrast</dt><dd>Stress falls on the second syllable, unlike 'discipline' (DISS-uh-plin).</dd></dl>
+<p>A follower who learns from and believes in a teacher or leader.</p>
+<ol><li>He was a <em>disciple</em> of the old master painter.</li><li>The story tells how one <em>disciple</em> doubted.</li><li>Twelve <em>disciples</em> sat down at the table.</li></ol>
+<hr>
+<h3 id="apostle">apostle<a class="hash" href="#apostle" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/əˈpɑːsəl/ &middot; <em>uh-PAH-suhl</em></dd><dt>Русский</dt><dd>апостол</dd><dt>Plural</dt><dd><em>apostles</em></dd><dt>Countability</dt><dd>countable</dd><dt>Contrast</dt><dd>The t is silent: uh-PAH-suhl.</dd></dl>
+<p>One of the first followers sent out to teach a religion.</p>
+<ol><li>The letter was written by an <em>apostle</em>.</li><li>That window shows the <em>apostle</em> with a set of keys.</li><li>The <em>apostles</em> traveled from town to town.</li></ol>
+<hr>
+<h3 id="believer">believer<a class="hash" href="#believer" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/bɪˈliːvər/ &middot; <em>bih-LEE-vur</em></dd><dt>Русский</dt><dd>верующий</dd><dt>Plural</dt><dd><em>believers</em></dd><dt>Countability</dt><dd>countable</dd></dl>
+<p>Someone who accepts a religion or idea as true.</p>
+<ol><li>She's a firm <em>believer</em> in second chances.</li><li>The speaker was preaching to <em>believers</em> only.</li><li>Millions of <em>believers</em> fast during that month.</li></ol>
+<hr>
+<h3 id="congregation">congregation<a class="hash" href="#congregation" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/ˌkɑːŋɡrɪˈɡeɪʃən/ &middot; <em>kahng-grih-GAY-shuhn</em></dd><dt>Русский</dt><dd>прихожане, паства, община</dd><dt>Plural</dt><dd><em>congregations</em></dd><dt>Countability</dt><dd>countable</dd></dl>
+<p>The group of people who attend a particular place of worship.</p>
+<ol><li>The whole <em>congregation</em> stood to sing.</li><li>Our <em>congregation</em> has grown by fifty families.</li><li>Small rural <em>congregations</em> are shrinking every year.</li></ol>
+<hr>
+<h3 id="pilgrim">pilgrim<a class="hash" href="#pilgrim" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/ˈpɪlɡrɪm/ &middot; <em>PIL-grim</em></dd><dt>Русский</dt><dd>паломник, пилигрим</dd><dt>Plural</dt><dd><em>pilgrims</em></dd><dt>Countability</dt><dd>countable</dd></dl>
+<p>Someone who travels to a holy place for religious reasons.</p>
+<ol><li>A tired <em>pilgrim</em> asked for water at the door.</li><li>Every <em>pilgrim</em> carries a small shell as a sign.</li><li>Thousands of <em>pilgrims</em> walk the road each spring.</li></ol>
+<hr>
+<h3 id="martyr">martyr<a class="hash" href="#martyr" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/ˈmɑːrtər/ &middot; <em>MAR-tur</em></dd><dt>Русский</dt><dd>мученик</dd><dt>Plural</dt><dd><em>martyrs</em></dd><dt>Countability</dt><dd>countable</dd><dt>Contrast</dt><dd>The -yr sounds like -ter: MAR-tur, not 'mar-TEER'.</dd></dl>
+<p>Someone killed because of their religious or political beliefs.</p>
+<ol><li>He died a <em>martyr</em> at the age of thirty.</li><li>The church honors her as a <em>martyr</em>.</li><li>Statues of the <em>martyrs</em> stand along the wall.</li></ol>
+<hr>
+<h3 id="atheist">atheist<a class="hash" href="#atheist" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/ˈeɪθiɪst/ &middot; <em>AY-thee-ist</em></dd><dt>Русский</dt><dd>атеист</dd><dt>Plural</dt><dd><em>atheists</em></dd><dt>Countability</dt><dd>countable</dd><dt>Contrast</dt><dd>First syllable is AY-, not 'AH-': AY-thee-ist.</dd></dl>
+<p>Someone who believes that no god exists.</p>
+<ol><li>He's been an <em>atheist</em> since college.</li><li>The <em>atheist</em> and the priest ended up friends.</li><li><em>Atheists</em> make up a small share of the population.</li></ol>
+<hr>
+<h3 id="agnostic">agnostic<a class="hash" href="#agnostic" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/æɡˈnɑːstɪk/ &middot; <em>ag-NAH-stik</em></dd><dt>Русский</dt><dd>агностик</dd><dt>Plural</dt><dd><em>agnostics</em></dd><dt>Countability</dt><dd>countable</dd></dl>
+<p>Someone who thinks it is impossible to know whether a god exists.</p>
+<ol><li>She calls herself an <em>agnostic</em> rather than an atheist.</li><li>As an <em>agnostic</em>, he avoids the question entirely.</li><li>Both <em>agnostics</em> and believers filled out the survey.</li></ol>
+<hr>
+<h3 id="clergy">clergy<a class="hash" href="#clergy" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/ˈklɜːrdʒi/ &middot; <em>KLUR-jee</em></dd><dt>Русский</dt><dd>духовенство, священнослужители</dd><dt>Countability</dt><dd>uncountable</dd><dt>Contrast</dt><dd>No plural form, and it takes a plural verb: 'the clergy were', not 'was'.</dd></dl>
+<p>The people ordained to lead religious services, taken as a group.</p>
+<ol><li>Members of the <em>clergy</em> were invited to speak.</li><li>The <em>clergy</em> have asked the city for help.</li><li>He left the <em>clergy</em> after twenty years.</li></ol>
+<hr>
+<h3 id="sinner">sinner<a class="hash" href="#sinner" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/ˈsɪnər/ &middot; <em>SIN-ur</em></dd><dt>Русский</dt><dd>грешник</dd><dt>Plural</dt><dd><em>sinners</em></dd><dt>Countability</dt><dd>countable</dd></dl>
+<p>A person who breaks religious or moral law.</p>
+<ol><li>He called himself a <em>sinner</em> in need of mercy.</li><li>The sermon was aimed at every <em>sinner</em> in the room.</li><li><em>Sinners</em> and saints sat in the same pews.</li></ol>
+<hr>
+<h3 id="convert">convert<a class="hash" href="#convert" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/ˈkɑːnvɜːrt/ &middot; <em>KAHN-vurt</em></dd><dt>Русский</dt><dd>новообращённый</dd><dt>Plural</dt><dd><em>converts</em></dd><dt>Countability</dt><dd>countable</dd><dt>Contrast</dt><dd>The noun stresses the first syllable (KAHN-vurt); the verb stresses the second (kuhn-VURT).</dd></dl>
+<p>Someone who has changed to a new religion or belief.</p>
+<ol><li>He's a recent <em>convert</em> to Islam.</li><li>The church welcomed the new <em>convert</em> by name.</li><li>Most of the <em>converts</em> were young adults.</li></ol>
+<hr>
+<h3 id="witch">witch<a class="hash" href="#witch" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/wɪtʃ/ &middot; <em>WICH</em></dd><dt>Русский</dt><dd>ведьма, колдунья</dd><dt>Plural</dt><dd><em>witches</em></dd><dt>Countability</dt><dd>countable</dd><dt>Contrast</dt><dd>For most Americans this sounds exactly like 'which'.</dd></dl>
+<p>A woman believed to have magic powers.</p>
+<ol><li>In the story a <em>witch</em> curses the whole village.</li><li>She dressed as a <em>witch</em> for Halloween.</li><li>Twenty people were hanged as <em>witches</em>.</li></ol>
+<hr>
+<h3 id="christian">Christian<a class="hash" href="#christian" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/ˈkrɪstʃən/ &middot; <em>KRIS-chuhn</em></dd><dt>Русский</dt><dd>христианин, христианка</dd><dt>Plural</dt><dd><em>Christians</em></dd><dt>Countability</dt><dd>countable</dd></dl>
+<p>A person who follows the religion based on Jesus Christ.</p>
+<ol><li>He was raised a <em>Christian</em> but stopped going to church.</li><li>As a <em>Christian</em>, she takes the commandment seriously.</li><li><em>Christians</em> make up most of the town.</li></ol>
+<hr>
+<h3 id="catholic">Catholic<a class="hash" href="#catholic" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/ˈkæθəlɪk/ &middot; <em>KATH-uh-lik</em></dd><dt>Русский</dt><dd>католик, католичка</dd><dt>Plural</dt><dd><em>Catholics</em></dd><dt>Countability</dt><dd>countable</dd></dl>
+<p>A member of the Christian church led by the pope.</p>
+<ol><li>Her husband is a <em>Catholic</em> from Boston.</li><li>He was the first <em>Catholic</em> elected president.</li><li><em>Catholics</em> and Protestants share the holiday.</li></ol>
+<hr>
+<h3 id="protestant">Protestant<a class="hash" href="#protestant" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/ˈprɑːtəstənt/ &middot; <em>PRAH-tuh-stuhnt</em></dd><dt>Русский</dt><dd>протестант</dd><dt>Plural</dt><dd><em>Protestants</em></dd><dt>Countability</dt><dd>countable</dd><dt>Contrast</dt><dd>Stress is on the first syllable, unlike the verb 'protest' (pruh-TEST).</dd></dl>
+<p>A member of a Christian church that separated from Rome.</p>
+<ol><li>Most of her neighbors are <em>Protestants</em>.</li><li>His grandfather was a <em>Protestant</em> from a small Ohio town.</li><li>American <em>Protestants</em> belong to dozens of denominations.</li></ol>
+<hr>
+<h3 id="muslim">Muslim<a class="hash" href="#muslim" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/ˈmʌzləm/ &middot; <em>MUZ-luhm</em></dd><dt>Русский</dt><dd>мусульманин, мусульманка</dd><dt>Plural</dt><dd><em>Muslims</em></dd><dt>Countability</dt><dd>countable</dd></dl>
+<p>A person who follows the religion of Islam.</p>
+<ol><li>A <em>Muslim</em> at my office explained the fast to me.</li><li>She's the first <em>Muslim</em> on the city council.</li><li><em>Muslims</em> pray five times a day.</li></ol>
+<hr>
+<h3 id="jew">Jew<a class="hash" href="#jew" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/dʒuː/ &middot; <em>JOO</em></dd><dt>Русский</dt><dd>еврей, иудей</dd><dt>Plural</dt><dd><em>Jews</em></dd><dt>Countability</dt><dd>countable</dd></dl>
+<p>A member of the Jewish people or a follower of Judaism.</p>
+<ol><li>His grandfather was a <em>Jew</em> from Odessa.</li><li>As a <em>Jew</em>, he grew up going to synagogue.</li><li><em>Jews</em> around the world celebrate the holiday.</li></ol>
+<hr>
+<h3 id="buddhist">Buddhist<a class="hash" href="#buddhist" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/ˈbuːdɪst/ &middot; <em>BOO-dist</em></dd><dt>Русский</dt><dd>буддист</dd><dt>Plural</dt><dd><em>Buddhists</em></dd><dt>Countability</dt><dd>countable</dd><dt>Contrast</dt><dd>The dd is one sound and the h is silent: BOO-dist.</dd></dl>
+<p>A person who follows the teachings of the Buddha.</p>
+<ol><li>She became a <em>Buddhist</em> in her forties.</li><li>A <em>Buddhist</em> from the temple led the meditation.</li><li><em>Buddhists</em> in the area share one small temple.</li></ol>
+<hr>
+<h3 id="hindu">Hindu<a class="hash" href="#hindu" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/ˈhɪnduː/ &middot; <em>HIN-doo</em></dd><dt>Русский</dt><dd>индуист</dd><dt>Plural</dt><dd><em>Hindus</em></dd><dt>Countability</dt><dd>countable</dd></dl>
+<p>A person who follows the religion of Hinduism.</p>
+<ol><li>Our doctor is a <em>Hindu</em> from Chennai.</li><li>A <em>Hindu</em> runs the shop next door.</li><li>Many <em>Hindus</em> do not eat beef.</li></ol>
+<hr>
+<h3 id="religion">religion<a class="hash" href="#religion" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/rɪˈlɪdʒən/ &middot; <em>rih-LIJ-uhn</em></dd><dt>Русский</dt><dd>религия</dd><dt>Plural</dt><dd><em>religions</em></dd><dt>Countability</dt><dd>both — countable and uncountable with different meanings</dd></dl>
+<p>Belief in and worship of a god, or an organized system of such belief.</p>
+<ol><li>They never argue about politics or <em>religion</em>.</li><li>Islam is the second largest <em>religion</em> in the world.</li><li>The class compares five world <em>religions</em>.</li></ol>
+<hr>
+<h3 id="christianity">Christianity<a class="hash" href="#christianity" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/ˌkrɪstʃiˈænəti/ &middot; <em>kris-chee-AN-uh-tee</em></dd><dt>Русский</dt><dd>христианство</dd><dt>Countability</dt><dd>uncountable</dd></dl>
+<p>The religion based on the life and teachings of Jesus Christ.</p>
+<ol><li><em>Christianity</em> spread quickly through the empire.</li><li>He converted to <em>Christianity</em> as an adult.</li><li>The course covers the early history of <em>Christianity</em>.</li></ol>
+<hr>
+<h3 id="islam">Islam<a class="hash" href="#islam" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/ɪsˈlɑːm/ &middot; <em>iss-LAHM</em></dd><dt>Русский</dt><dd>ислам</dd><dt>Countability</dt><dd>uncountable</dd></dl>
+<p>The religion of Muslims, based on the teachings of Muhammad.</p>
+<ol><li><em>Islam</em> is practiced by well over a billion people.</li><li>She wrote her thesis on art in early <em>Islam</em>.</li><li>He learned about <em>Islam</em> from a friend at work.</li></ol>
+<hr>
+<h3 id="judaism">Judaism<a class="hash" href="#judaism" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/ˈdʒuːdiɪzəm/ &middot; <em>JOO-dee-iz-uhm</em></dd><dt>Русский</dt><dd>иудаизм</dd><dt>Countability</dt><dd>uncountable</dd></dl>
+<p>The religion of the Jewish people.</p>
+<ol><li><em>Judaism</em> is one of the oldest living religions.</li><li>She converted to <em>Judaism</em> before the wedding.</li><li>The exhibit traces <em>Judaism</em> in America.</li></ol>
+<hr>
+<h3 id="buddhism">Buddhism<a class="hash" href="#buddhism" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/ˈbuːdɪzəm/ &middot; <em>BOO-diz-uhm</em></dd><dt>Русский</dt><dd>буддизм</dd><dt>Countability</dt><dd>uncountable</dd></dl>
+<p>The religion based on the teachings of the Buddha.</p>
+<ol><li><em>Buddhism</em> reached China along the trade routes.</li><li>He got interested in <em>Buddhism</em> through meditation.</li><li><em>Buddhism</em> has many different schools.</li></ol>
+<hr>
+<h3 id="hinduism">Hinduism<a class="hash" href="#hinduism" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/ˈhɪnduɪzəm/ &middot; <em>HIN-doo-iz-uhm</em></dd><dt>Русский</dt><dd>индуизм</dd><dt>Countability</dt><dd>uncountable</dd></dl>
+<p>The main religion of India, with many gods and sacred texts.</p>
+<ol><li><em>Hinduism</em> has no single founder.</li><li>The festival comes out of <em>Hinduism</em>.</li><li>She teaches a class on <em>Hinduism</em> and its texts.</li></ol>
+<hr>
+<h3 id="denomination">denomination<a class="hash" href="#denomination" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/dɪˌnɑːməˈneɪʃən/ &middot; <em>dih-nah-muh-NAY-shuhn</em></dd><dt>Русский</dt><dd>конфессия, деноминация</dd><dt>Plural</dt><dd><em>denominations</em></dd><dt>Countability</dt><dd>countable</dd></dl>
+<p>A branch of a religion with its own organization and beliefs.</p>
+<ol><li>Their <em>denomination</em> ordains women.</li><li>He switched to a smaller <em>denomination</em>.</li><li>Twelve Christian <em>denominations</em> signed the letter.</li></ol>
+<hr>
+<h3 id="sect">sect<a class="hash" href="#sect" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/sekt/ &middot; <em>SEKT</em></dd><dt>Русский</dt><dd>секта, религиозное течение</dd><dt>Plural</dt><dd><em>sects</em></dd><dt>Countability</dt><dd>countable</dd></dl>
+<p>A small religious group that has broken away from a larger one.</p>
+<ol><li>The <em>sect</em> keeps to itself in the hills.</li><li>A strict <em>sect</em> founded the settlement in 1830.</li><li>Rival <em>sects</em> have argued over the text for centuries.</li></ol>
+<hr>
+<h3 id="cult">cult<a class="hash" href="#cult" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/kʌlt/ &middot; <em>KULT</em></dd><dt>Русский</dt><dd>культ, секта</dd><dt>Plural</dt><dd><em>cults</em></dd><dt>Countability</dt><dd>countable</dd></dl>
+<p>A religious group with unusual beliefs and a powerful leader.</p>
+<ol><li>Her brother joined a <em>cult</em> in his twenties.</li><li>The <em>cult</em> cut its members off from their families.</li><li>Reporters spent years investigating both <em>cults</em>.</li></ol>
+<hr>
+<h3 id="theology">theology<a class="hash" href="#theology" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/θiˈɑːlədʒi/ &middot; <em>thee-AH-luh-jee</em></dd><dt>Русский</dt><dd>богословие, теология</dd><dt>Countability</dt><dd>uncountable</dd></dl>
+<p>The study of God and religious belief.</p>
+<ol><li>He studied <em>theology</em> before going to law school.</li><li>Her <em>theology</em> is more forgiving than his.</li><li>The argument is about <em>theology</em>, not politics.</li></ol>
+<hr>
+<h3 id="doctrine">doctrine<a class="hash" href="#doctrine" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/ˈdɑːktrɪn/ &middot; <em>DAHK-trin</em></dd><dt>Русский</dt><dd>доктрина, вероучение</dd><dt>Plural</dt><dd><em>doctrines</em></dd><dt>Countability</dt><dd>countable</dd></dl>
+<p>A belief or set of beliefs taught by a church or other authority.</p>
+<ol><li>The <em>doctrine</em> has not changed in centuries.</li><li>He questioned one <em>doctrine</em> and was asked to leave.</li><li>The two churches differ on several <em>doctrines</em>.</li></ol>
+<hr>
+<h3 id="dogma">dogma<a class="hash" href="#dogma" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/ˈdɔːɡmə/ &middot; <em>DAWG-muh</em></dd><dt>Русский</dt><dd>догма, догмат</dd><dt>Countability</dt><dd>uncountable</dd></dl>
+<p>Belief that a group insists is true and refuses to question.</p>
+<ol><li>He has no patience for religious <em>dogma</em>.</li><li>The article attacks economic <em>dogma</em> as much as church <em>dogma</em>.</li><li>What began as an idea hardened into <em>dogma</em>.</li></ol>
+<hr>
+<h3 id="creed">creed<a class="hash" href="#creed" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/kriːd/ &middot; <em>KREED</em></dd><dt>Русский</dt><dd>вероучение, символ веры</dd><dt>Plural</dt><dd><em>creeds</em></dd><dt>Countability</dt><dd>countable</dd></dl>
+<p>A short statement of the beliefs of a religion.</p>
+<ol><li>The congregation recited the <em>creed</em> together.</li><li>Honesty was the old man's whole <em>creed</em>.</li><li>The two churches use slightly different <em>creeds</em>.</li></ol>
+<hr>
+<h3 id="faith">faith<a class="hash" href="#faith" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/feɪθ/ &middot; <em>FAYTH</em></dd><dt>Русский</dt><dd>вера; вероисповедание</dd><dt>Plural</dt><dd><em>faiths</em></dd><dt>Countability</dt><dd>both — countable and uncountable with different meanings</dd></dl>
+<p>Strong belief without proof, or a particular religion.</p>
+<ol><li>She kept her <em>faith</em> through all of it.</li><li>He was raised in the Jewish <em>faith</em>.</li><li>Leaders of several <em>faiths</em> attended the service.</li></ol>
+<hr>
+<h3 id="bible">Bible<a class="hash" href="#bible" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/ˈbaɪbəl/ &middot; <em>BY-buhl</em></dd><dt>Русский</dt><dd>Библия</dd><dt>Plural</dt><dd><em>Bibles</em></dd><dt>Countability</dt><dd>countable</dd></dl>
+<p>The holy book of Christianity.</p>
+<ol><li>There's a <em>Bible</em> in the drawer of every nightstand.</li><li>He read the whole <em>Bible</em> in a year.</li><li>The hotel gave away hundreds of <em>Bibles</em>.</li></ol>
+<hr>
+<h3 id="scripture">scripture<a class="hash" href="#scripture" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/ˈskrɪptʃər/ &middot; <em>SKRIP-chur</em></dd><dt>Русский</dt><dd>священное писание</dd><dt>Countability</dt><dd>uncountable</dd></dl>
+<p>The sacred writings of a religion.</p>
+<ol><li>He backed up every point with <em>scripture</em>.</li><li>The passage is one of the best known in <em>scripture</em>.</li><li>They study <em>scripture</em> on Tuesday nights.</li></ol>
+<hr>
+<h3 id="gospel">gospel<a class="hash" href="#gospel" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/ˈɡɑːspəl/ &middot; <em>GAH-spuhl</em></dd><dt>Русский</dt><dd>евангелие</dd><dt>Plural</dt><dd><em>gospels</em></dd><dt>Countability</dt><dd>countable</dd></dl>
+<p>One of the four books telling the life of Jesus, or the message itself.</p>
+<ol><li>She read a few verses from the <em>gospel</em>.</li><li>He preached the <em>gospel</em> for forty years.</li><li>The four <em>gospels</em> tell the story differently.</li></ol>
+<hr>
+<h3 id="testament">testament<a class="hash" href="#testament" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/ˈtestəmənt/ &middot; <em>TESS-tuh-muhnt</em></dd><dt>Русский</dt><dd>завет (Ветхий, Новый)</dd><dt>Plural</dt><dd><em>testaments</em></dd><dt>Countability</dt><dd>countable</dd></dl>
+<p>Either of the two main parts of the Christian Bible.</p>
+<ol><li>That story comes from the Old <em>Testament</em>.</li><li>He knows the New <em>Testament</em> almost by heart.</li><li>The class reads both <em>testaments</em> in translation.</li></ol>
+<hr>
+<h3 id="commandment">commandment<a class="hash" href="#commandment" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/kəˈmændmənt/ &middot; <em>kuh-MAND-muhnt</em></dd><dt>Русский</dt><dd>заповедь</dd><dt>Plural</dt><dd><em>commandments</em></dd><dt>Countability</dt><dd>countable</dd></dl>
+<p>A rule given by God that people must obey.</p>
+<ol><li>Which <em>commandment</em> comes first?</li><li>He broke the <em>commandment</em> about bearing false witness.</li><li>The Ten <em>Commandments</em> were carved on the wall.</li></ol>
+<hr>
+<h3 id="parable">parable<a class="hash" href="#parable" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/ˈperəbəl/ &middot; <em>PAIR-uh-buhl</em></dd><dt>Русский</dt><dd>притча</dd><dt>Plural</dt><dd><em>parables</em></dd><dt>Countability</dt><dd>countable</dd></dl>
+<p>A short story told to teach a moral or religious lesson.</p>
+<ol><li>He answered with a <em>parable</em> about a lost sheep.</li><li>The <em>parable</em> of the good Samaritan is famous.</li><li>Jesus taught in <em>parables</em>.</li></ol>
+<hr>
+<h3 id="psalm">psalm<a class="hash" href="#psalm" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/sɑːm/ &middot; <em>SAHM</em></dd><dt>Русский</dt><dd>псалом</dd><dt>Plural</dt><dd><em>psalms</em></dd><dt>Countability</dt><dd>countable</dd><dt>Contrast</dt><dd>Both the p and the l are silent: SAHM.</dd></dl>
+<p>A sacred song or poem, especially one from the Book of Psalms.</p>
+<ol><li>She read a <em>psalm</em> at the funeral.</li><li>The choir sang a <em>psalm</em> in Latin.</li><li>There are a hundred and fifty <em>psalms</em>.</li></ol>
+<hr>
+<h3 id="quran">Quran<a class="hash" href="#quran" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/kəˈrɑːn/ &middot; <em>kuh-RAHN</em></dd><dt>Русский</dt><dd>Коран</dd><dt>Plural</dt><dd><em>Qurans</em></dd><dt>Countability</dt><dd>countable</dd><dt>Contrast</dt><dd>Also spelled 'Koran' in older American books; the pronunciation is the same.</dd></dl>
+<p>The holy book of Islam.</p>
+<ol><li>He keeps a <em>Quran</em> on the top shelf.</li><li>She has memorized long passages of the <em>Quran</em>.</li><li>The mosque hands out free <em>Qurans</em> in English.</li></ol>
+<hr>
+<h3 id="torah">Torah<a class="hash" href="#torah" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/ˈtɔːrə/ &middot; <em>TAW-ruh</em></dd><dt>Русский</dt><dd>Тора</dd><dt>Countability</dt><dd>uncountable</dd></dl>
+<p>The first five books of the Hebrew Bible, holy to Jews.</p>
+<ol><li>The <em>Torah</em> is read aloud on Saturday mornings.</li><li>He studies <em>Torah</em> every week with a partner.</li><li>The scroll of the <em>Torah</em> is written by hand.</li></ol>
+<hr>
+<h3 id="sermon">sermon<a class="hash" href="#sermon" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/ˈsɜːrmən/ &middot; <em>SUR-muhn</em></dd><dt>Русский</dt><dd>проповедь</dd><dt>Plural</dt><dd><em>sermons</em></dd><dt>Countability</dt><dd>countable</dd></dl>
+<p>A talk on a religious or moral subject given in a service.</p>
+<ol><li>The <em>sermon</em> ran long and the kids got restless.</li><li>Her <em>sermon</em> was about forgiving your neighbors.</li><li>He posts his <em>sermons</em> online every week.</li></ol>
+<hr>
+<h3 id="prayer">prayer<a class="hash" href="#prayer" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/prer/ &middot; <em>PRAIR</em></dd><dt>Русский</dt><dd>молитва</dd><dt>Plural</dt><dd><em>prayers</em></dd><dt>Countability</dt><dd>both — countable and uncountable with different meanings</dd><dt>Contrast</dt><dd>One syllable in American English, rhyming with 'there' — not two syllables like 'player'.</dd></dl>
+<p>Words spoken to God, or the act of speaking to God.</p>
+<ol><li>She said a short <em>prayer</em> before the meal.</li><li>The family turned to <em>prayer</em> that night.</li><li>Our <em>prayers</em> are with you.</li></ol>
+<hr>
+<h3 id="worship">worship<a class="hash" href="#worship" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/ˈwɜːrʃɪp/ &middot; <em>WUR-ship</em></dd><dt>Русский</dt><dd>поклонение, богослужение</dd><dt>Countability</dt><dd>uncountable</dd></dl>
+<p>The showing of love and respect for a god through prayer and ceremony.</p>
+<ol><li>The building has been used for <em>worship</em> since 1840.</li><li>Sunday <em>worship</em> starts at ten.</li><li>The law protects freedom of <em>worship</em>.</li></ol>
+<hr>
+<h3 id="blessing">blessing<a class="hash" href="#blessing" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/ˈblesɪŋ/ &middot; <em>BLESS-ing</em></dd><dt>Русский</dt><dd>благословение</dd><dt>Plural</dt><dd><em>blessings</em></dd><dt>Countability</dt><dd>countable</dd></dl>
+<p>God's favor, or words asking for it.</p>
+<ol><li>The priest gave the couple his <em>blessing</em>.</li><li>Losing that job turned out to be a <em>blessing</em>.</li><li>She counts her <em>blessings</em> every night.</li></ol>
+<hr>
+<h3 id="baptism">baptism<a class="hash" href="#baptism" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/ˈbæptɪzəm/ &middot; <em>BAP-tiz-uhm</em></dd><dt>Русский</dt><dd>крещение</dd><dt>Plural</dt><dd><em>baptisms</em></dd><dt>Countability</dt><dd>countable</dd></dl>
+<p>A Christian ceremony in which water is used to accept someone into the church.</p>
+<ol><li>The whole family came for the <em>baptism</em>.</li><li>His <em>baptism</em> took place in a river.</li><li>The church records list every <em>baptism</em> since 1902.</li></ol>
+<hr>
+<h3 id="communion">communion<a class="hash" href="#communion" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/kəˈmjuːnjən/ &middot; <em>kuh-MYOON-yuhn</em></dd><dt>Русский</dt><dd>причастие</dd><dt>Countability</dt><dd>uncountable</dd></dl>
+<p>The Christian ceremony of sharing bread and wine.</p>
+<ol><li>They take <em>communion</em> on the first Sunday of the month.</li><li>She received her first <em>communion</em> at eight.</li><li><em>Communion</em> is offered at the end of the service.</li></ol>
+<hr>
+<h3 id="ritual">ritual<a class="hash" href="#ritual" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/ˈrɪtʃuəl/ &middot; <em>RICH-oo-uhl</em></dd><dt>Русский</dt><dd>ритуал, обряд</dd><dt>Plural</dt><dd><em>rituals</em></dd><dt>Countability</dt><dd>countable</dd></dl>
+<p>A set of actions always performed the same way, often for religious reasons.</p>
+<ol><li>The <em>ritual</em> has been passed down for generations.</li><li>Coffee on the porch is his morning <em>ritual</em>.</li><li>The book describes wedding <em>rituals</em> around the world.</li></ol>
+<hr>
+<h3 id="rite">rite<a class="hash" href="#rite" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/raɪt/ &middot; <em>RYTE</em></dd><dt>Русский</dt><dd>обряд</dd><dt>Plural</dt><dd><em>rites</em></dd><dt>Countability</dt><dd>countable</dd><dt>Contrast</dt><dd>Sounds exactly like 'right' and 'write'.</dd></dl>
+<p>A formal religious ceremony with fixed words and actions.</p>
+<ol><li>The priest performed the last <em>rite</em> at the bedside.</li><li>Getting a driver's license is an American <em>rite</em> of passage.</li><li>Burial <em>rites</em> differ from culture to culture.</li></ol>
+<hr>
+<h3 id="ceremony">ceremony<a class="hash" href="#ceremony" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/ˈserəmoʊni/ &middot; <em>SEH-ruh-moh-nee</em></dd><dt>Русский</dt><dd>церемония, обряд</dd><dt>Plural</dt><dd><em>ceremonies</em></dd><dt>Countability</dt><dd>countable</dd><dt>Contrast</dt><dd>Americans give the third syllable a full 'moh': SEH-ruh-moh-nee; the British say SERR-uh-muh-nee.</dd></dl>
+<p>A formal event held to mark an important occasion.</p>
+<ol><li>The wedding <em>ceremony</em> lasted twenty minutes.</li><li>She spoke at the graduation <em>ceremony</em>.</li><li>Both <em>ceremonies</em> were held outdoors.</li></ol>
+<hr>
+<h3 id="offering">offering<a class="hash" href="#offering" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/ˈɔːfərɪŋ/ &middot; <em>AW-fur-ing</em></dd><dt>Русский</dt><dd>приношение, пожертвование</dd><dt>Plural</dt><dd><em>offerings</em></dd><dt>Countability</dt><dd>countable</dd></dl>
+<p>Money or a gift presented as part of worship.</p>
+<ol><li>They collect the <em>offering</em> halfway through the service.</li><li>He dropped a folded bill into the <em>offering</em>.</li><li>Small <em>offerings</em> of fruit were left at the shrine.</li></ol>
+<hr>
+<h3 id="tithe">tithe<a class="hash" href="#tithe" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/taɪð/ &middot; <em>TYTHE</em></dd><dt>Русский</dt><dd>десятина (десятая часть дохода церкви)</dd><dt>Plural</dt><dd><em>tithes</em></dd><dt>Countability</dt><dd>countable</dd><dt>Contrast</dt><dd>The th is voiced, as in 'bathe', not as in 'thin'.</dd></dl>
+<p>A tenth of a person's income given to a church.</p>
+<ol><li>He pays a <em>tithe</em> every month.</li><li>The <em>tithe</em> keeps the building running.</li><li><em>Tithes</em> used to be collected in grain.</li></ol>
+<hr>
+<h3 id="alms">alms<a class="hash" href="#alms" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/ɑːmz/ &middot; <em>AHMZ</em></dd><dt>Русский</dt><dd>милостыня, подаяние</dd><dt>Countability</dt><dd>uncountable</dd><dt>Contrast</dt><dd>The l is silent, and there is no singular form 'alm'.</dd></dl>
+<p>Money or food given to poor people as a religious duty.</p>
+<ol><li>Giving <em>alms</em> is one of the pillars of Islam.</li><li>Beggars sat by the gate asking for <em>alms</em>.</li><li>The monks lived entirely on <em>alms</em>.</li></ol>
+<hr>
+<h3 id="meditation">meditation<a class="hash" href="#meditation" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/ˌmedɪˈteɪʃən/ &middot; <em>meh-dih-TAY-shuhn</em></dd><dt>Русский</dt><dd>медитация</dd><dt>Countability</dt><dd>uncountable</dd></dl>
+<p>The practice of sitting quietly and focusing the mind.</p>
+<ol><li>He does twenty minutes of <em>meditation</em> every morning.</li><li><em>Meditation</em> helped her sleep better.</li><li>The retreat teaches <em>meditation</em> to beginners.</li></ol>
+<hr>
+<h3 id="fasting">fasting<a class="hash" href="#fasting" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/ˈfæstɪŋ/ &middot; <em>FASS-ting</em></dd><dt>Русский</dt><dd>пост, воздержание от пищи</dd><dt>Countability</dt><dd>uncountable</dd></dl>
+<p>Going without food, often for religious reasons.</p>
+<ol><li><em>Fasting</em> during daylight hours is required that month.</li><li>The doctor asked whether the <em>fasting</em> was safe for him.</li><li>She gave up <em>fasting</em> after her surgery.</li></ol>
+<hr>
+<h3 id="funeral">funeral<a class="hash" href="#funeral" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/ˈfjuːnərəl/ &middot; <em>FYOO-nur-uhl</em></dd><dt>Русский</dt><dd>похороны</dd><dt>Plural</dt><dd><em>funerals</em></dd><dt>Countability</dt><dd>countable</dd><dt>Contrast</dt><dd>English uses a singular 'a funeral' where Russian uses the plural 'похороны'.</dd></dl>
+<p>The ceremony held when someone is buried or cremated.</p>
+<ol><li>The <em>funeral</em> is at eleven on Thursday.</li><li>Almost the whole town came to the <em>funeral</em>.</li><li>He's been to three <em>funerals</em> this year.</li></ol>
+<hr>
+<h3 id="vigil">vigil<a class="hash" href="#vigil" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/ˈvɪdʒəl/ &middot; <em>VIJ-uhl</em></dd><dt>Русский</dt><dd>бдение; ночное дежурство</dd><dt>Plural</dt><dd><em>vigils</em></dd><dt>Countability</dt><dd>countable</dd></dl>
+<p>A period of staying awake to pray or to remember someone.</p>
+<ol><li>Hundreds gathered for a candlelight <em>vigil</em>.</li><li>She kept a <em>vigil</em> by his hospital bed.</li><li><em>Vigils</em> were held in a dozen cities.</li></ol>
+<hr>
+<h3 id="cross">cross<a class="hash" href="#cross" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/krɔːs/ &middot; <em>KRAWSS</em></dd><dt>Русский</dt><dd>крест</dd><dt>Plural</dt><dd><em>crosses</em></dd><dt>Countability</dt><dd>countable</dd></dl>
+<p>An upright shape with a bar across it, the main symbol of Christianity.</p>
+<ol><li>She wears a small gold <em>cross</em>.</li><li>A wooden <em>cross</em> stands on the hill.</li><li>White <em>crosses</em> mark the graves.</li></ol>
+<hr>
+<h3 id="crucifix">crucifix<a class="hash" href="#crucifix" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/ˈkruːsəfɪks/ &middot; <em>KROO-suh-fiks</em></dd><dt>Русский</dt><dd>распятие</dd><dt>Plural</dt><dd><em>crucifixes</em></dd><dt>Countability</dt><dd>countable</dd></dl>
+<p>A cross with a figure of Jesus on it.</p>
+<ol><li>A <em>crucifix</em> hung above the door.</li><li>He held the <em>crucifix</em> in both hands.</li><li>The shop sells rosaries and <em>crucifixes</em>.</li></ol>
+<hr>
+<h3 id="incense">incense<a class="hash" href="#incense" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/ˈɪnsens/ &middot; <em>IN-senss</em></dd><dt>Русский</dt><dd>благовония, ладан</dd><dt>Countability</dt><dd>uncountable</dd><dt>Contrast</dt><dd>The noun stresses the first syllable (IN-senss); the verb 'to incense' (привести в ярость) stresses the second (in-SENSS).</dd></dl>
+<p>A substance burned to make a sweet smell during worship.</p>
+<ol><li>The whole church smelled of <em>incense</em>.</li><li>She lit a stick of <em>incense</em> on the shelf.</li><li>They burn <em>incense</em> before the morning chant.</li></ol>
+<hr>
+<h3 id="icon">icon<a class="hash" href="#icon" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/ˈaɪkɑːn/ &middot; <em>EYE-kahn</em></dd><dt>Русский</dt><dd>икона</dd><dt>Plural</dt><dd><em>icons</em></dd><dt>Countability</dt><dd>countable</dd></dl>
+<p>A painted religious image, especially in Orthodox churches.</p>
+<ol><li>An old <em>icon</em> hung in the corner of the room.</li><li>The <em>icon</em> is painted on wood with gold leaf.</li><li>The museum holds two hundred Russian <em>icons</em>.</li></ol>
+<hr>
+<h3 id="idol">idol<a class="hash" href="#idol" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/ˈaɪdəl/ &middot; <em>EYE-duhl</em></dd><dt>Русский</dt><dd>идол, кумир</dd><dt>Plural</dt><dd><em>idols</em></dd><dt>Countability</dt><dd>countable</dd><dt>Contrast</dt><dd>Sounds exactly like 'idle' (праздный, незанятый).</dd></dl>
+<p>A statue worshipped as a god, or a person admired too much.</p>
+<ol><li>The prophet told them to break the <em>idol</em>.</li><li>That guitarist was his <em>idol</em> growing up.</li><li>Stone <em>idols</em> were found under the temple floor.</li></ol>
+<hr>
+<h3 id="relic">relic<a class="hash" href="#relic" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/ˈrelɪk/ &middot; <em>REL-ik</em></dd><dt>Русский</dt><dd>реликвия, мощи</dd><dt>Plural</dt><dd><em>relics</em></dd><dt>Countability</dt><dd>countable</dd></dl>
+<p>An object kept because it belonged to a holy person or an earlier time.</p>
+<ol><li>The church claims to hold a <em>relic</em> of the saint.</li><li>That typewriter is a <em>relic</em> from another century.</li><li>The <em>relics</em> are kept in a locked case.</li></ol>
+<hr>
+<h3 id="rosary">rosary<a class="hash" href="#rosary" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/ˈroʊzəri/ &middot; <em>ROH-zuh-ree</em></dd><dt>Русский</dt><dd>чётки; молитва по чёткам</dd><dt>Plural</dt><dd><em>rosaries</em></dd><dt>Countability</dt><dd>countable</dd></dl>
+<p>A string of beads used to count prayers, or the set of prayers itself.</p>
+<ol><li>She keeps a <em>rosary</em> in her purse.</li><li>They said the <em>rosary</em> together every evening.</li><li>He carved wooden <em>rosaries</em> to sell at the market.</li></ol>
+<hr>
+<h3 id="ark">ark<a class="hash" href="#ark" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/ɑːrk/ &middot; <em>ARK</em></dd><dt>Русский</dt><dd>ковчег</dd><dt>Plural</dt><dd><em>arks</em></dd><dt>Countability</dt><dd>countable</dd><dt>Contrast</dt><dd>Sounds exactly like 'arc' (дуга).</dd></dl>
+<p>A large boat or sacred chest described in the Bible.</p>
+<ol><li>The children drew animals lining up for the <em>ark</em>.</li><li>The scrolls are kept in the <em>ark</em> at the front of the synagogue.</li><li>Model <em>arks</em> are a favorite in Sunday school.</li></ol>
+<hr>
+<h3 id="yarmulke">yarmulke<a class="hash" href="#yarmulke" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/ˈjɑːməkə/ &middot; <em>YAH-muh-kuh</em></dd><dt>Русский</dt><dd>ермолка, кипа</dd><dt>Plural</dt><dd><em>yarmulkes</em></dd><dt>Countability</dt><dd>countable</dd><dt>Contrast</dt><dd>The r in the spelling is not pronounced: YAH-muh-kuh.</dd></dl>
+<p>A small round cap worn by Jewish men.</p>
+<ol><li>He put on a <em>yarmulke</em> before entering.</li><li>Her son's <em>yarmulke</em> is held on with a clip.</li><li>A basket of <em>yarmulkes</em> sits by the door.</li></ol>
+<hr>
+<h3 id="god">god<a class="hash" href="#god" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/ɡɑːd/ &middot; <em>GAHD</em></dd><dt>Русский</dt><dd>бог</dd><dt>Plural</dt><dd><em>gods</em></dd><dt>Countability</dt><dd>countable</dd></dl>
+<p>A being believed to have power over nature and human life.</p>
+<ol><li>He prayed to a <em>god</em> he wasn't sure existed.</li><li>Thunder was said to be the voice of a <em>god</em>.</li><li>The Greeks had dozens of <em>gods</em>.</li></ol>
+<hr>
+<h3 id="goddess">goddess<a class="hash" href="#goddess" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/ˈɡɑːdəs/ &middot; <em>GAH-diss</em></dd><dt>Русский</dt><dd>богиня</dd><dt>Plural</dt><dd><em>goddesses</em></dd><dt>Countability</dt><dd>countable</dd></dl>
+<p>A female god.</p>
+<ol><li>The temple was built for a <em>goddess</em> of the harvest.</li><li>She was named after a <em>goddess</em>.</li><li>Statues of three <em>goddesses</em> line the hall.</li></ol>
+<hr>
+<h3 id="deity">deity<a class="hash" href="#deity" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/ˈdiːəti/ &middot; <em>DEE-uh-tee</em></dd><dt>Русский</dt><dd>божество</dd><dt>Plural</dt><dd><em>deities</em></dd><dt>Countability</dt><dd>countable</dd><dt>Contrast</dt><dd>The first syllable is DEE-, not 'DAY-'.</dd></dl>
+<p>A god or goddess.</p>
+<ol><li>Each village honored a local <em>deity</em>.</li><li>The carving shows a <em>deity</em> with four arms.</li><li>Hundreds of <em>deities</em> appear in the old stories.</li></ol>
+<hr>
+<h3 id="savior">savior<a class="hash" href="#savior" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/ˈseɪvjər/ &middot; <em>SAYV-yur</em></dd><dt>Русский</dt><dd>спаситель</dd><dt>Plural</dt><dd><em>saviors</em></dd><dt>Countability</dt><dd>countable</dd><dt>Contrast</dt><dd>American spelling is 'savior'; the British write 'saviour'.</dd></dl>
+<p>Someone who rescues people from danger or from sin.</p>
+<ol><li>Christians call Jesus their <em>savior</em>.</li><li>The new coach was treated like a <em>savior</em>.</li><li>The town has had a few would-be <em>saviors</em> over the years.</li></ol>
+<hr>
+<h3 id="messiah">messiah<a class="hash" href="#messiah" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/məˈsaɪr/ &middot; <em>muh-SY-uh</em></dd><dt>Русский</dt><dd>мессия</dd><dt>Plural</dt><dd><em>messiahs</em></dd><dt>Countability</dt><dd>countable</dd></dl>
+<p>A leader expected to come and save a people.</p>
+<ol><li>They believed the <em>messiah</em> would come in their lifetime.</li><li>Voters were looking for a <em>messiah</em>, not a manager.</li><li>History is full of false <em>messiahs</em>.</li></ol>
+<hr>
+<h3 id="soul">soul<a class="hash" href="#soul" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/soʊl/ &middot; <em>SOHL</em></dd><dt>Русский</dt><dd>душа</dd><dt>Plural</dt><dd><em>souls</em></dd><dt>Countability</dt><dd>countable</dd><dt>Contrast</dt><dd>Sounds exactly like 'sole' (подошва; единственный).</dd></dl>
+<p>The spiritual part of a person, believed to live on after death.</p>
+<ol><li>She prayed for his <em>soul</em>.</li><li>There wasn't a <em>soul</em> on the street.</li><li>The old hymn is about lost <em>souls</em> finding their way home.</li></ol>
+<hr>
+<h3 id="spirit">spirit<a class="hash" href="#spirit" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/ˈspɪrɪt/ &middot; <em>SPIH-rit</em></dd><dt>Русский</dt><dd>дух</dd><dt>Plural</dt><dd><em>spirits</em></dd><dt>Countability</dt><dd>countable</dd></dl>
+<p>A being without a body, or the non-physical part of a person.</p>
+<ol><li>They believe a <em>spirit</em> watches over the house.</li><li>His body was weak but his <em>spirit</em> wasn't.</li><li>The story is full of forest <em>spirits</em>.</li></ol>
+<hr>
+<h3 id="angel">angel<a class="hash" href="#angel" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/ˈeɪndʒəl/ &middot; <em>AYN-juhl</em></dd><dt>Русский</dt><dd>ангел</dd><dt>Plural</dt><dd><em>angels</em></dd><dt>Countability</dt><dd>countable</dd><dt>Contrast</dt><dd>AYN-juhl, not to be confused with 'angle' (ANG-guhl, угол).</dd></dl>
+<p>A spiritual being that serves as a messenger of God.</p>
+<ol><li>An <em>angel</em> appears to the shepherds in the story.</li><li>The nurse was an absolute <em>angel</em>.</li><li>Carved <em>angels</em> look down from the ceiling.</li></ol>
+<hr>
+<h3 id="devil">devil<a class="hash" href="#devil" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/ˈdevəl/ &middot; <em>DEV-uhl</em></dd><dt>Русский</dt><dd>дьявол, чёрт</dd><dt>Plural</dt><dd><em>devils</em></dd><dt>Countability</dt><dd>countable</dd></dl>
+<p>An evil spirit, or the chief evil spirit in Christianity.</p>
+<ol><li>He says the <em>devil</em> is in the details.</li><li>The painting shows a <em>devil</em> with a pitchfork.</li><li>Little <em>devils</em>, she called the twins.</li></ol>
+<hr>
+<h3 id="demon">demon<a class="hash" href="#demon" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/ˈdiːmən/ &middot; <em>DEE-muhn</em></dd><dt>Русский</dt><dd>демон, бес</dd><dt>Plural</dt><dd><em>demons</em></dd><dt>Countability</dt><dd>countable</dd></dl>
+<p>An evil spirit believed to harm or possess people.</p>
+<ol><li>The priest claimed to have driven out a <em>demon</em>.</li><li>In the film a <em>demon</em> haunts the family.</li><li>He's still fighting his own <em>demons</em>.</li></ol>
+<hr>
+<h3 id="ghost">ghost<a class="hash" href="#ghost" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/ɡoʊst/ &middot; <em>GOHST</em></dd><dt>Русский</dt><dd>призрак, привидение</dd><dt>Plural</dt><dd><em>ghosts</em></dd><dt>Countability</dt><dd>countable</dd><dt>Contrast</dt><dd>The h after the g is silent: GOHST.</dd></dl>
+<p>The spirit of a dead person, believed to appear to the living.</p>
+<ol><li>She swears she saw a <em>ghost</em> on the stairs.</li><li>The hotel is supposed to have a <em>ghost</em>.</li><li>He doesn't believe in <em>ghosts</em>.</li></ol>
+<hr>
+<h3 id="heaven">heaven<a class="hash" href="#heaven" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/ˈhevən/ &middot; <em>HEV-uhn</em></dd><dt>Русский</dt><dd>рай, небеса</dd><dt>Countability</dt><dd>uncountable</dd></dl>
+<p>The place where God lives and good people are believed to go after death.</p>
+<ol><li>She believes her mother is in <em>heaven</em>.</li><li>That first cup of coffee was <em>heaven</em>.</li><li>Thank <em>heaven</em> you called.</li></ol>
+<hr>
+<h3 id="hell">hell<a class="hash" href="#hell" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/hel/ &middot; <em>HEL</em></dd><dt>Русский</dt><dd>ад</dd><dt>Countability</dt><dd>uncountable</dd></dl>
+<p>The place of punishment after death in some religions.</p>
+<ol><li>The sermon was mostly about <em>hell</em>.</li><li>That drive in August was pure <em>hell</em>.</li><li>He went through <em>hell</em> to get here.</li></ol>
+<hr>
+<h3 id="paradise">paradise<a class="hash" href="#paradise" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/ˈperədaɪs/ &middot; <em>PAIR-uh-dyce</em></dd><dt>Русский</dt><dd>рай</dd><dt>Countability</dt><dd>uncountable</dd></dl>
+<p>A perfect place of happiness, especially the home of the blessed after death.</p>
+<ol><li>The garden is described as <em>paradise</em>.</li><li>They believe the faithful enter <em>paradise</em>.</li><li>Two weeks on that island was <em>paradise</em>.</li></ol>
+<hr>
+<h3 id="afterlife">afterlife<a class="hash" href="#afterlife" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/ˈæftərlaɪf/ &middot; <em>AF-tur-lyfe</em></dd><dt>Русский</dt><dd>загробная жизнь</dd><dt>Countability</dt><dd>uncountable</dd></dl>
+<p>Life believed to continue after death.</p>
+<ol><li>He doesn't believe in the <em>afterlife</em>.</li><li>The book is about what different religions say about the <em>afterlife</em>.</li><li>Her faith in the <em>afterlife</em> comforted the family.</li></ol>
+<hr>
+<h3 id="resurrection">resurrection<a class="hash" href="#resurrection" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/ˌrezəˈrekʃən/ &middot; <em>rez-uh-REK-shuhn</em></dd><dt>Русский</dt><dd>воскресение, воскрешение</dd><dt>Countability</dt><dd>uncountable</dd></dl>
+<p>The act of coming back to life after death.</p>
+<ol><li>Easter celebrates the <em>resurrection</em>.</li><li>The whole faith rests on the <em>resurrection</em>.</li><li>The sermon focused on the <em>resurrection</em> and what it means.</li></ol>
+<hr>
+<h3 id="salvation">salvation<a class="hash" href="#salvation" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/sælˈveɪʃən/ &middot; <em>sal-VAY-shuhn</em></dd><dt>Русский</dt><dd>спасение (души)</dd><dt>Countability</dt><dd>uncountable</dd></dl>
+<p>Being saved from sin and its punishment.</p>
+<ol><li>The preacher spoke about <em>salvation</em> through faith.</li><li>She found <em>salvation</em> in the church basement, she says.</li><li>That loan was his <em>salvation</em>.</li></ol>
+<hr>
+<h3 id="sin">sin<a class="hash" href="#sin" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/sɪn/ &middot; <em>SIN</em></dd><dt>Русский</dt><dd>грех</dd><dt>Plural</dt><dd><em>sins</em></dd><dt>Countability</dt><dd>countable</dd></dl>
+<p>An act that breaks a religious or moral law.</p>
+<ol><li>Lying to her was his worst <em>sin</em>.</li><li>It's a <em>sin</em> to waste food like that.</li><li>He confessed his <em>sins</em> and asked for forgiveness.</li></ol>
+<hr>
+<h3 id="grace">grace<a class="hash" href="#grace" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/ɡreɪs/ &middot; <em>GRAYSS</em></dd><dt>Русский</dt><dd>благодать; милость</dd><dt>Countability</dt><dd>uncountable</dd></dl>
+<p>God's free kindness toward people who do not earn it.</p>
+<ol><li>The hymn is about <em>grace</em> and forgiveness.</li><li>He believes he was saved by <em>grace</em> alone.</li><li>They prayed for the <em>grace</em> to forgive him.</li></ol>
+<hr>
+<h3 id="mercy">mercy<a class="hash" href="#mercy" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/ˈmɜːrsi/ &middot; <em>MUR-see</em></dd><dt>Русский</dt><dd>милосердие, пощада</dd><dt>Countability</dt><dd>uncountable</dd></dl>
+<p>Kindness shown to someone you have the power to punish.</p>
+<ol><li>The prisoner begged for <em>mercy</em>.</li><li>She showed him no <em>mercy</em> in the debate.</li><li>God's <em>mercy</em> is the theme of the whole psalm.</li></ol>
+<hr>
+<h3 id="forgiveness">forgiveness<a class="hash" href="#forgiveness" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/fərˈɡɪvnəs/ &middot; <em>fur-GIV-niss</em></dd><dt>Русский</dt><dd>прощение</dd><dt>Countability</dt><dd>uncountable</dd></dl>
+<p>The act of stopping being angry at someone for a wrong.</p>
+<ol><li>He asked his brother for <em>forgiveness</em>.</li><li><em>Forgiveness</em> took her years.</li><li>The whole sermon was about <em>forgiveness</em>.</li></ol>
+<hr>
+<h3 id="miracle">miracle<a class="hash" href="#miracle" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/ˈmɪrəkəl/ &middot; <em>MIH-ruh-kuhl</em></dd><dt>Русский</dt><dd>чудо</dd><dt>Plural</dt><dd><em>miracles</em></dd><dt>Countability</dt><dd>countable</dd></dl>
+<p>An event that cannot be explained by natural law, seen as the work of God.</p>
+<ol><li>The doctors called her recovery a <em>miracle</em>.</li><li>It's a <em>miracle</em> nobody was hurt.</li><li>The gospel describes several <em>miracles</em>.</li></ol>
+<hr>
+<h3 id="prophecy">prophecy<a class="hash" href="#prophecy" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/ˈprɑːfəsi/ &middot; <em>PRAH-fuh-see</em></dd><dt>Русский</dt><dd>пророчество</dd><dt>Plural</dt><dd><em>prophecies</em></dd><dt>Countability</dt><dd>countable</dd><dt>Contrast</dt><dd>The noun 'prophecy' ends in -see; the verb 'prophesy' ends in -sigh.</dd></dl>
+<p>A statement about what will happen, said to come from God.</p>
+<ol><li>The old <em>prophecy</em> mentioned a great flood.</li><li>His <em>prophecy</em> turned out to be right.</li><li>The book is full of <em>prophecies</em> about the end of the world.</li></ol>
+<hr>
+<h3 id="revelation">revelation<a class="hash" href="#revelation" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/ˌrevəˈleɪʃən/ &middot; <em>rev-uh-LAY-shuhn</em></dd><dt>Русский</dt><dd>откровение</dd><dt>Plural</dt><dd><em>revelations</em></dd><dt>Countability</dt><dd>countable</dd></dl>
+<p>A truth made known, especially one believed to come from God.</p>
+<ol><li>He described the moment as a <em>revelation</em>.</li><li>The prophet claimed a <em>revelation</em> from God.</li><li>The report contained some ugly <em>revelations</em>.</li></ol>
+<hr>
+<h3 id="curse">curse<a class="hash" href="#curse" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/kɜːrs/ &middot; <em>KURS</em></dd><dt>Русский</dt><dd>проклятие</dd><dt>Plural</dt><dd><em>curses</em></dd><dt>Countability</dt><dd>countable</dd></dl>
+<p>Words meant to bring evil on someone, or the evil that follows.</p>
+<ol><li>The family believed there was a <em>curse</em> on the house.</li><li>Fame turned out to be a <em>curse</em>.</li><li>The novel is full of ancient <em>curses</em>.</li></ol>
+<hr>
+<h3 id="superstition">superstition<a class="hash" href="#superstition" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/ˌsuːpərˈstɪʃən/ &middot; <em>soo-pur-STISH-uhn</em></dd><dt>Русский</dt><dd>суеверие</dd><dt>Plural</dt><dd><em>superstitions</em></dd><dt>Countability</dt><dd>countable</dd></dl>
+<p>A belief that certain actions bring good or bad luck.</p>
+<ol><li>Not walking under ladders is an old <em>superstition</em>.</li><li>He calls it tradition; she calls it <em>superstition</em>.</li><li>Baseball players have all kinds of <em>superstitions</em>.</li></ol>
+<hr>
+<h3 id="myth">myth<a class="hash" href="#myth" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/mɪθ/ &middot; <em>MITH</em></dd><dt>Русский</dt><dd>миф</dd><dt>Plural</dt><dd><em>myths</em></dd><dt>Countability</dt><dd>countable</dd></dl>
+<p>An old story about gods and heroes, or a widely believed false idea.</p>
+<ol><li>The <em>myth</em> explains where fire came from.</li><li>That's a <em>myth</em> — sugar doesn't make kids hyper.</li><li>The class reads Greek <em>myths</em> all semester.</li></ol>
+<hr>
+<h3 id="fate">fate<a class="hash" href="#fate" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/feɪt/ &middot; <em>FAYT</em></dd><dt>Русский</dt><dd>судьба, рок; участь</dd><dt>Plural</dt><dd><em>fates</em></dd><dt>Countability</dt><dd>both — countable and uncountable with different meanings</dd></dl>
+<p>The power believed to decide events, or what happens to a particular person.</p>
+<ol><li>She believes everything happens by <em>fate</em>.</li><li>He met the same <em>fate</em> as his father.</li><li>The <em>fates</em> of the two families were tied together.</li></ol>
+<hr>
+<h3 id="karma">karma<a class="hash" href="#karma" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/ˈkɑːrmə/ &middot; <em>KAR-muh</em></dd><dt>Русский</dt><dd>карма</dd><dt>Countability</dt><dd>uncountable</dd></dl>
+<p>The belief that a person's actions decide what happens to them later.</p>
+<ol><li>He says his good <em>karma</em> finally caught up with him.</li><li><em>Karma</em> is central to both Hinduism and Buddhism.</li><li>Cutting people off in traffic is bad <em>karma</em>.</li></ol>
+<hr>
+<h3 id="reincarnation">reincarnation<a class="hash" href="#reincarnation" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/ˌriːɪnkɑːrˈneɪʃən/ &middot; <em>ree-in-kar-NAY-shuhn</em></dd><dt>Русский</dt><dd>реинкарнация, перевоплощение</dd><dt>Countability</dt><dd>uncountable</dd></dl>
+<p>The belief that a soul is born again in a new body after death.</p>
+<ol><li><em>Reincarnation</em> is a central idea in Hinduism.</li><li>She half believes in <em>reincarnation</em>.</li><li>The film plays with the idea of <em>reincarnation</em>.</li></ol>
+<hr>
+<h3 id="enlightenment">enlightenment<a class="hash" href="#enlightenment" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/ɪnˈlaɪtənmənt/ &middot; <em>in-LY-tuhn-muhnt</em></dd><dt>Русский</dt><dd>просветление</dd><dt>Countability</dt><dd>uncountable</dd></dl>
+<p>A state of complete spiritual understanding.</p>
+<ol><li>The Buddha is said to have reached <em>enlightenment</em> under a tree.</li><li>He spent years searching for <em>enlightenment</em>.</li><li><em>Enlightenment</em>, the teacher said, is not a prize.</li></ol>
+<hr>
+<h3 id="nirvana">nirvana<a class="hash" href="#nirvana" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/nɪrˈvɑːnə/ &middot; <em>nur-VAH-nuh</em></dd><dt>Русский</dt><dd>нирвана</dd><dt>Countability</dt><dd>uncountable</dd></dl>
+<p>In Buddhism, the perfect peace reached when suffering and desire end.</p>
+<ol><li>The goal is to reach <em>nirvana</em>.</li><li>For him a quiet Sunday is <em>nirvana</em>.</li><li>The book explains what <em>nirvana</em> actually means.</li></ol>
+<hr>
+<h3 id="devotion">devotion<a class="hash" href="#devotion" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/dɪˈvoʊʃən/ &middot; <em>dih-VOH-shuhn</em></dd><dt>Русский</dt><dd>преданность; набожность</dd><dt>Countability</dt><dd>uncountable</dd></dl>
+<p>Deep love and loyalty, especially toward a god or a person.</p>
+<ol><li>Her <em>devotion</em> to her students was obvious.</li><li>The shrine is a place of quiet <em>devotion</em>.</li><li>He cared for his wife with total <em>devotion</em>.</li></ol>
+<hr>
+<h3 id="blasphemy">blasphemy<a class="hash" href="#blasphemy" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/ˈblæsfəmi/ &middot; <em>BLASS-fuh-mee</em></dd><dt>Русский</dt><dd>богохульство</dd><dt>Countability</dt><dd>uncountable</dd><dt>Contrast</dt><dd>Stress falls on the first syllable: BLASS-fuh-mee, not 'blas-FEE-mee'.</dd></dl>
+<p>Speech that shows disrespect for God or sacred things.</p>
+<ol><li>He was accused of <em>blasphemy</em>.</li><li>Around here, criticizing the team is <em>blasphemy</em>.</li><li>The law against <em>blasphemy</em> was repealed long ago.</li></ol>
+<hr>
+<h3 id="purgatory">purgatory<a class="hash" href="#purgatory" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/ˈpɜːrɡətɔːri/ &middot; <em>PUR-guh-taw-ree</em></dd><dt>Русский</dt><dd>чистилище</dd><dt>Countability</dt><dd>uncountable</dd></dl>
+<p>In Catholic belief, a place where souls are cleansed before heaven.</p>
+<ol><li>Catholic teaching describes <em>purgatory</em> as temporary.</li><li>The airport at midnight felt like <em>purgatory</em>.</li><li>Souls in <em>purgatory</em> are prayed for by the living.</li></ol>
+<hr>
+<h3 id="apocalypse">apocalypse<a class="hash" href="#apocalypse" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/əˈpɑːkəlɪps/ &middot; <em>uh-PAH-kuh-lips</em></dd><dt>Русский</dt><dd>апокалипсис, конец света</dd><dt>Plural</dt><dd><em>apocalypses</em></dd><dt>Countability</dt><dd>countable</dd></dl>
+<p>The complete destruction of the world, especially as described in the Bible.</p>
+<ol><li>The book describes the <em>apocalypse</em> in strange images.</li><li>Half of Hollywood has filmed some kind of <em>apocalypse</em>.</li><li>The two novels imagine very different <em>apocalypses</em>.</li></ol>
+<hr>
+<h3 id="temptation">temptation<a class="hash" href="#temptation" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/tempˈteɪʃən/ &middot; <em>temp-TAY-shuhn</em></dd><dt>Русский</dt><dd>искушение, соблазн</dd><dt>Plural</dt><dd><em>temptations</em></dd><dt>Countability</dt><dd>countable</dd></dl>
+<p>A strong wish to do something you know is wrong.</p>
+<ol><li>He gave in to <em>temptation</em> and bought it anyway.</li><li>The story is about resisting <em>temptation</em>.</li><li>The city is full of <em>temptations</em>.</li></ol>
+<hr>
+<h3 id="conscience">conscience<a class="hash" href="#conscience" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/ˈkɑːnʃəns/ &middot; <em>KAHN-shuhns</em></dd><dt>Русский</dt><dd>совесть</dd><dt>Plural</dt><dd><em>consciences</em></dd><dt>Countability</dt><dd>countable</dd><dt>Contrast</dt><dd>Do not confuse with 'conscious' (KAHN-shuhs, в сознании) — different word, different ending.</dd></dl>
+<p>The inner sense that tells a person right from wrong.</p>
+<ol><li>His <em>conscience</em> wouldn't let him keep the money.</li><li>She has a clear <em>conscience</em> about it.</li><li>The decision weighed on both their <em>consciences</em>.</li></ol>
+<hr>
+<h3 id="omen">omen<a class="hash" href="#omen" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/ˈoʊmən/ &middot; <em>OH-muhn</em></dd><dt>Русский</dt><dd>предзнаменование, знамение</dd><dt>Plural</dt><dd><em>omens</em></dd><dt>Countability</dt><dd>countable</dd></dl>
+<p>A sign believed to show what will happen in the future.</p>
+<ol><li>A black cat was once considered a bad <em>omen</em>.</li><li>Rain on your wedding day is a good <em>omen</em> in some places.</li><li>The sailors read the clouds for <em>omens</em>.</li></ol>
+<hr>
+<h3 id="taboo">taboo<a class="hash" href="#taboo" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/təˈbuː/ &middot; <em>tuh-BOO</em></dd><dt>Русский</dt><dd>табу, строгий запрет</dd><dt>Plural</dt><dd><em>taboos</em></dd><dt>Countability</dt><dd>countable</dd></dl>
+<p>Something a culture forbids people to do or even mention.</p>
+<ol><li>Talking about money is still a <em>taboo</em> in her family.</li><li>Eating pork is a <em>taboo</em> in several religions.</li><li>The film breaks a few old <em>taboos</em>.</li></ol>
+<hr>
+<h3 id="magic">magic<a class="hash" href="#magic" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/ˈmædʒɪk/ &middot; <em>MAJ-ik</em></dd><dt>Русский</dt><dd>магия, волшебство</dd><dt>Countability</dt><dd>uncountable</dd><dt>Contrast</dt><dd>Uncountable: you say 'she does magic', never 'magics'.</dd></dl>
+<p>The use of supposed supernatural power to make things happen.</p>
+<ol><li>The villagers believed she worked <em>magic</em>.</li><li>He does card <em>magic</em> at birthday parties.</li><li>It looked like <em>magic</em> from where I was standing.</li></ol>
+<hr>
+<h3 id="witchcraft">witchcraft<a class="hash" href="#witchcraft" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/ˈwɪtʃkræft/ &middot; <em>WICH-kraft</em></dd><dt>Русский</dt><dd>колдовство, ведовство</dd><dt>Countability</dt><dd>uncountable</dd></dl>
+<p>The practice of magic, especially harmful magic.</p>
+<ol><li>She was accused of <em>witchcraft</em> in 1692.</li><li>The trials for <em>witchcraft</em> lasted a year.</li><li>Belief in <em>witchcraft</em> was widespread at the time.</li></ol>
+<hr>
+<h3 id="astrology">astrology<a class="hash" href="#astrology" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/əˈstrɑːlədʒi/ &middot; <em>uh-STRAH-luh-jee</em></dd><dt>Русский</dt><dd>астрология</dd><dt>Countability</dt><dd>uncountable</dd><dt>Contrast</dt><dd>Astrology is about horoscopes; astronomy (uh-STRAH-nuh-mee) is the science of the stars.</dd></dl>
+<p>The belief that the stars and planets influence people's lives.</p>
+<ol><li>She reads about <em>astrology</em> but doesn't take it seriously.</li><li><em>Astrology</em> columns still run in some newspapers.</li><li>He can't tell <em>astrology</em> from astronomy.</li></ol>
+<hr>
+<h3 id="sabbath">Sabbath<a class="hash" href="#sabbath" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/ˈsæbəθ/ &middot; <em>SAB-uhth</em></dd><dt>Русский</dt><dd>суббота (день покоя), шаббат</dd><dt>Countability</dt><dd>uncountable</dd></dl>
+<p>The weekly day of rest and worship in Judaism and Christianity.</p>
+<ol><li>They don't drive on the <em>Sabbath</em>.</li><li>The store used to close for the <em>Sabbath</em>.</li><li>Keeping the <em>Sabbath</em> is one of the commandments.</li></ol>
+<hr>
+<h3 id="easter">Easter<a class="hash" href="#easter" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/ˈiːstər/ &middot; <em>EE-stur</em></dd><dt>Русский</dt><dd>Пасха (христианская)</dd><dt>Countability</dt><dd>uncountable</dd></dl>
+<p>The Christian holiday celebrating the return of Jesus to life.</p>
+<ol><li>We always dye eggs before <em>Easter</em>.</li><li><em>Easter</em> falls in late March this year.</li><li>The kids hunt for candy on <em>Easter</em> morning.</li></ol>
+<hr>
+<h3 id="christmas">Christmas<a class="hash" href="#christmas" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/ˈkrɪsməs/ &middot; <em>KRISS-muhss</em></dd><dt>Русский</dt><dd>Рождество</dd><dt>Countability</dt><dd>uncountable</dd><dt>Contrast</dt><dd>The t is silent: KRISS-muhss.</dd></dl>
+<p>The Christian holiday celebrating the birth of Jesus.</p>
+<ol><li>We drive to my parents' house every <em>Christmas</em>.</li><li>The store puts up decorations before <em>Christmas</em>.</li><li><em>Christmas</em> is on a Wednesday this year.</li></ol>
+<hr>
+<h3 id="ramadan">Ramadan<a class="hash" href="#ramadan" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/ˈrɑːmədɑːn/ &middot; <em>RAH-muh-dahn</em></dd><dt>Русский</dt><dd>Рамадан</dd><dt>Countability</dt><dd>uncountable</dd></dl>
+<p>The Muslim holy month of fasting from dawn to sunset.</p>
+<ol><li><em>Ramadan</em> begins next week.</li><li>He fasts every day during <em>Ramadan</em>.</li><li>The mosque serves a free meal each night of <em>Ramadan</em>.</li></ol>
+<hr>
+<h3 id="passover">Passover<a class="hash" href="#passover" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/ˈpæsoʊvər/ &middot; <em>PASS-oh-vur</em></dd><dt>Русский</dt><dd>Песах, еврейская Пасха</dd><dt>Countability</dt><dd>uncountable</dd></dl>
+<p>The Jewish holiday remembering the escape from slavery in Egypt.</p>
+<ol><li>The whole family gathers for <em>Passover</em>.</li><li>She cleans the kitchen before <em>Passover</em>.</li><li><em>Passover</em> lasts eight days.</li></ol>
+<hr>
+<h3 id="hanukkah">Hanukkah<a class="hash" href="#hanukkah" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/ˈhɑːnəkə/ &middot; <em>HAH-nuh-kuh</em></dd><dt>Русский</dt><dd>Ханука</dd><dt>Countability</dt><dd>uncountable</dd></dl>
+<p>The Jewish festival of lights, lasting eight nights.</p>
+<ol><li>They light one more candle each night of <em>Hanukkah</em>.</li><li><em>Hanukkah</em> starts in December this year.</li><li>We ate potato pancakes for <em>Hanukkah</em>.</li></ol></div></main>
+<button class="themebtn" id="themeBtn">Dark</button>
+<script>
+const tb=document.getElementById('themeBtn');
+function setTheme(x){document.documentElement.dataset.theme=x;tb.textContent=x==='dark'?'Light':'Dark';
+ try{localStorage.setItem('site-theme',x)}catch(e){}}
+tb.onclick=()=>setTheme(document.documentElement.dataset.theme==='dark'?'light':'dark');
+try{const s=localStorage.getItem('site-theme');
+ setTheme(s||(matchMedia('(prefers-color-scheme: dark)').matches?'dark':'light'))}catch(e){setTheme('light')}
+</script></body></html>

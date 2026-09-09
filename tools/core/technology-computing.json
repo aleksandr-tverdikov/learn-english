@@ -1,0 +1,2142 @@
+[
+ {
+  "term": "app",
+  "ipa": "æp",
+  "respell": "AP",
+  "ru": "приложение",
+  "plural": "apps",
+  "countability": "countable",
+  "gloss": "A program you run on a phone, tablet, or computer.",
+  "examples": [
+   "I downloaded a banking *app* last night.",
+   "There are too many *apps* on my phone.",
+   "The weather *app* says it's going to rain."
+  ]
+ },
+ {
+  "term": "program",
+  "ipa": "ˈproʊɡræm",
+  "respell": "PROH-gram",
+  "ru": "программа",
+  "plural": "programs",
+  "countability": "countable",
+  "gloss": "A set of instructions that tells a computer what to do.",
+  "examples": [
+   "He wrote a small *program* to sort the files.",
+   "Some of these *programs* won't run on my old laptop.",
+   "The *program* crashed as soon as I opened it."
+  ],
+  "contrast": "American spelling is *program*; British English writes *programme* for a TV show or a plan, but *program* for software."
+ },
+ {
+  "term": "browser",
+  "ipa": "ˈbraʊzər",
+  "respell": "BROW-zur",
+  "ru": "браузер",
+  "plural": "browsers",
+  "countability": "countable",
+  "gloss": "The program you use to look at pages on the internet.",
+  "examples": [
+   "Open your *browser* and go to the site.",
+   "Most *browsers* will warn you about that page.",
+   "My *browser* keeps freezing when I have too many tabs open."
+  ]
+ },
+ {
+  "term": "website",
+  "ipa": "ˈwɛbsaɪt",
+  "respell": "WEB-syte",
+  "ru": "сайт, веб-сайт",
+  "plural": "websites",
+  "countability": "countable",
+  "gloss": "A set of connected pages on the internet kept in one place.",
+  "examples": [
+   "Their *website* is down again.",
+   "I compared prices on three different *websites*.",
+   "You can book the whole trip on the airline's *website*."
+  ]
+ },
+ {
+  "term": "internet",
+  "ipa": "ˈɪntərnɛt",
+  "respell": "IN-tur-net",
+  "ru": "интернет",
+  "plural": "",
+  "countability": "uncountable",
+  "gloss": "The worldwide network that connects computers to each other.",
+  "examples": [
+   "The *internet* went out during the storm.",
+   "She found the recipe on the *internet*.",
+   "We have no *internet* at the cabin."
+  ]
+ },
+ {
+  "term": "server",
+  "ipa": "ˈsɜːrvər",
+  "respell": "SUR-vur",
+  "ru": "сервер",
+  "plural": "servers",
+  "countability": "countable",
+  "gloss": "A powerful computer that stores files or runs services for other computers.",
+  "examples": [
+   "The *server* went down for about an hour.",
+   "All the photos are backed up on our *servers*.",
+   "IT is moving the database to a new *server* this weekend."
+  ]
+ },
+ {
+  "term": "network",
+  "ipa": "ˈnɛtwɜːrk",
+  "respell": "NET-wurk",
+  "ru": "сеть",
+  "plural": "networks",
+  "countability": "countable",
+  "gloss": "A group of computers or devices connected so they can share information.",
+  "examples": [
+   "The office *network* is running slowly today.",
+   "Don't join public *networks* without a VPN.",
+   "Our printer is on the same *network* as the laptops."
+  ]
+ },
+ {
+  "term": "connection",
+  "ipa": "kəˈnɛkʃən",
+  "respell": "kuh-NEK-shun",
+  "ru": "соединение, подключение",
+  "plural": "connections",
+  "countability": "countable",
+  "gloss": "A link that lets one device exchange information with another.",
+  "examples": [
+   "My *connection* keeps dropping during video calls.",
+   "Hotel *connections* are usually pretty slow.",
+   "Check your *connection* before you blame the app."
+  ]
+ },
+ {
+  "term": "signal",
+  "ipa": "ˈsɪɡnəl",
+  "respell": "SIG-nul",
+  "ru": "сигнал",
+  "plural": "signals",
+  "countability": "countable",
+  "gloss": "A wave or pulse that carries information to a phone, radio, or other device.",
+  "examples": [
+   "There's no *signal* out here in the canyon.",
+   "The *signal* gets weak in the basement.",
+   "Cell *signals* are much better since they put up the new tower."
+  ]
+ },
+ {
+  "term": "bandwidth",
+  "ipa": "ˈbændwɪdθ",
+  "respell": "BAND-width",
+  "ru": "пропускная способность",
+  "plural": "",
+  "countability": "uncountable",
+  "gloss": "The amount of data a connection can carry in a given time.",
+  "examples": [
+   "Streaming in 4K eats a lot of *bandwidth*.",
+   "We don't have enough *bandwidth* for four people working from home.",
+   "The video call is using most of our *bandwidth*."
+  ]
+ },
+ {
+  "term": "broadband",
+  "ipa": "ˈbrɔːdbænd",
+  "respell": "BRAWD-band",
+  "ru": "широкополосный интернет",
+  "plural": "",
+  "countability": "uncountable",
+  "gloss": "A fast, always-on internet connection.",
+  "examples": [
+   "*Broadband* still hasn't reached a lot of rural counties.",
+   "We pay sixty dollars a month for *broadband*.",
+   "You'll need *broadband* to work from home."
+  ]
+ },
+ {
+  "term": "hotspot",
+  "ipa": "ˈhɑːtspɑːt",
+  "respell": "HAHT-spaht",
+  "ru": "точка доступа (Wi-Fi)",
+  "plural": "hotspots",
+  "countability": "countable",
+  "gloss": "A place or a device that gives nearby phones and laptops internet access.",
+  "examples": [
+   "I turned my phone into a *hotspot* so we could work on the train.",
+   "The airport has free *hotspots* near every gate.",
+   "The coffee shop's *hotspot* needs a password."
+  ]
+ },
+ {
+  "term": "domain",
+  "ipa": "doʊˈmeɪn",
+  "respell": "doh-MAYN",
+  "ru": "домен",
+  "plural": "domains",
+  "countability": "countable",
+  "gloss": "The name that identifies a website, like the part after the www.",
+  "examples": [
+   "We bought the *domain* before we even had a logo.",
+   "Short *domains* are almost all taken.",
+   "The *domain* expires next March, so renew it."
+  ]
+ },
+ {
+  "term": "link",
+  "ipa": "lɪŋk",
+  "respell": "LINK",
+  "ru": "ссылка",
+  "plural": "links",
+  "countability": "countable",
+  "gloss": "A word or image you click to go to another page or file.",
+  "examples": [
+   "Just send me the *link*.",
+   "Half the *links* on that page are broken.",
+   "Don't click a *link* from an email you weren't expecting."
+  ]
+ },
+ {
+  "term": "page",
+  "ipa": "peɪdʒ",
+  "respell": "PAYJ",
+  "ru": "страница",
+  "plural": "pages",
+  "countability": "countable",
+  "gloss": "One screen of content on a website.",
+  "examples": [
+   "The *page* takes forever to load.",
+   "I bookmarked a few *pages* about the topic.",
+   "Scroll to the bottom of the *page* and hit Submit."
+  ]
+ },
+ {
+  "term": "bookmark",
+  "ipa": "ˈbʊkmɑːrk",
+  "respell": "BUUK-mark",
+  "ru": "закладка",
+  "plural": "bookmarks",
+  "countability": "countable",
+  "gloss": "A saved link that lets you return to a page quickly.",
+  "examples": [
+   "Save it as a *bookmark* so you don't lose it.",
+   "My *bookmarks* are a complete mess.",
+   "I have a *bookmark* for the company intranet."
+  ]
+ },
+ {
+  "term": "blog",
+  "ipa": "blɑːɡ",
+  "respell": "BLAHG",
+  "ru": "блог",
+  "plural": "blogs",
+  "countability": "countable",
+  "gloss": "A website where someone posts articles or diary entries regularly.",
+  "examples": [
+   "She started a cooking *blog* during the pandemic.",
+   "A couple of tech *blogs* covered the story.",
+   "His *blog* gets about ten thousand readers a month."
+  ]
+ },
+ {
+  "term": "platform",
+  "ipa": "ˈplætfɔːrm",
+  "respell": "PLAT-form",
+  "ru": "платформа",
+  "plural": "platforms",
+  "countability": "countable",
+  "gloss": "A system or service that other software and users are built around.",
+  "examples": [
+   "The video *platform* changed its rules again.",
+   "We publish on three different *platforms*.",
+   "It's the biggest *platform* for freelance work."
+  ]
+ },
+ {
+  "term": "feed",
+  "ipa": "fiːd",
+  "respell": "FEED",
+  "ru": "лента (новостей)",
+  "plural": "feeds",
+  "countability": "countable",
+  "gloss": "The stream of new posts or updates a site shows you.",
+  "examples": [
+   "My *feed* is nothing but ads lately.",
+   "I muted a few accounts to clean up my *feeds*.",
+   "Her post showed up at the top of my *feed*."
+  ]
+ },
+ {
+  "term": "profile",
+  "ipa": "ˈproʊfaɪl",
+  "respell": "PROH-fyle",
+  "ru": "профиль",
+  "plural": "profiles",
+  "countability": "countable",
+  "gloss": "The page that holds your name, photo, and details on a site.",
+  "examples": [
+   "Update your *profile* with the new job title.",
+   "A lot of these *profiles* are fake.",
+   "I couldn't find her *profile* anywhere."
+  ]
+ },
+ {
+  "term": "avatar",
+  "ipa": "ˈævətɑːr",
+  "respell": "AV-uh-tar",
+  "ru": "аватар",
+  "plural": "avatars",
+  "countability": "countable",
+  "gloss": "A small picture or figure that stands for you online.",
+  "examples": [
+   "Pick an *avatar* for your account.",
+   "Their *avatars* all look like cartoon animals.",
+   "He still uses a photo of his dog as his *avatar*."
+  ]
+ },
+ {
+  "term": "username",
+  "ipa": "ˈjuːzərneɪm",
+  "respell": "YOO-zur-naym",
+  "ru": "имя пользователя, логин",
+  "plural": "usernames",
+  "countability": "countable",
+  "gloss": "The name you type to identify yourself to a computer system.",
+  "examples": [
+   "I forgot my *username* for that site.",
+   "*Usernames* have to be at least six characters.",
+   "Your *username* is your work email address."
+  ]
+ },
+ {
+  "term": "password",
+  "ipa": "ˈpæswɜːrd",
+  "respell": "PAS-wurd",
+  "ru": "пароль",
+  "plural": "passwords",
+  "countability": "countable",
+  "gloss": "A secret word or string that lets you into an account.",
+  "examples": [
+   "Change your *password* every few months.",
+   "Don't write your *passwords* on a sticky note.",
+   "The *password* has to include a number."
+  ]
+ },
+ {
+  "term": "login",
+  "ipa": "ˈlɔːɡɪn",
+  "respell": "LAWG-in",
+  "ru": "логин, вход в систему",
+  "plural": "logins",
+  "countability": "countable",
+  "gloss": "The act of signing in, or the name and password you use to do it.",
+  "examples": [
+   "The *login* failed three times in a row.",
+   "We issue *logins* to new hires on their first day.",
+   "Use your company *login* to get into the system."
+  ],
+  "contrast": "One word as a noun (*a login*), two words as a verb (*log in to the system*). Same for *log out* and *a logout*."
+ },
+ {
+  "term": "user",
+  "ipa": "ˈjuːzər",
+  "respell": "YOO-zur",
+  "ru": "пользователь",
+  "plural": "users",
+  "countability": "countable",
+  "gloss": "A person who uses a computer, program, or service.",
+  "examples": [
+   "The app has about two million *users*.",
+   "Every *user* gets ten gigabytes of free storage.",
+   "*Users* complained about the new layout right away."
+  ]
+ },
+ {
+  "term": "subscriber",
+  "ipa": "səbˈskraɪbər",
+  "respell": "sub-SKRY-bur",
+  "ru": "подписчик",
+  "plural": "subscribers",
+  "countability": "countable",
+  "gloss": "Someone who pays for or signs up to receive a service regularly.",
+  "examples": [
+   "The channel passed a million *subscribers* last week.",
+   "*Subscribers* get the newsletter a day early.",
+   "She's a *subscriber* to three streaming services."
+  ]
+ },
+ {
+  "term": "follower",
+  "ipa": "ˈfɑːloʊrr",
+  "respell": "FAH-loh-ur",
+  "ru": "подписчик (в соцсети)",
+  "plural": "followers",
+  "countability": "countable",
+  "gloss": "Someone who has chosen to see another person's posts online.",
+  "examples": [
+   "He gained ten thousand *followers* in a month.",
+   "Most of her *followers* are from overseas.",
+   "One *follower* pointed out the typo right away."
+  ]
+ },
+ {
+  "term": "notification",
+  "ipa": "ˌnoʊtɪfɪˈkeɪʃən",
+  "respell": "noh-tuh-fuh-KAY-shun",
+  "ru": "уведомление",
+  "plural": "notifications",
+  "countability": "countable",
+  "gloss": "A short message a device shows to tell you something has happened.",
+  "examples": [
+   "I turned off *notifications* for that group chat.",
+   "A *notification* popped up in the middle of my presentation.",
+   "You'll get a *notification* when the package ships."
+  ]
+ },
+ {
+  "term": "alert",
+  "ipa": "əˈlɜːrt",
+  "respell": "uh-LURT",
+  "ru": "оповещение, предупреждение",
+  "plural": "alerts",
+  "countability": "countable",
+  "gloss": "A warning message sent to tell you about something important.",
+  "examples": [
+   "I set up an *alert* for that word on my phone.",
+   "The bank sends *alerts* for any charge over a hundred dollars.",
+   "A weather *alert* woke everybody up at two in the morning."
+  ]
+ },
+ {
+  "term": "spam",
+  "ipa": "spæm",
+  "respell": "SPAM",
+  "ru": "спам",
+  "plural": "",
+  "countability": "uncountable",
+  "gloss": "Unwanted email or messages sent out in huge numbers.",
+  "examples": [
+   "My inbox is full of *spam*.",
+   "That message got filtered as *spam*.",
+   "We get less *spam* since they updated the filter."
+  ]
+ },
+ {
+  "term": "emoji",
+  "ipa": "ɪˈmoʊdʒi",
+  "respell": "ih-MOH-jee",
+  "ru": "эмодзи, смайлик",
+  "plural": "emojis",
+  "countability": "countable",
+  "gloss": "A tiny picture used in messages to show a feeling or thing.",
+  "examples": [
+   "He answered with a thumbs-up *emoji*.",
+   "She uses way too many *emojis*.",
+   "There's an *emoji* for almost everything now."
+  ],
+  "contrast": "Two syllables in the middle: ih-MOH-jee, not \"ee-mo-JYE.\" The usual American plural is *emojis*."
+ },
+ {
+  "term": "hashtag",
+  "ipa": "ˈhæʃtæɡ",
+  "respell": "HASH-tag",
+  "ru": "хештег",
+  "plural": "hashtags",
+  "countability": "countable",
+  "gloss": "A word after a # sign used to label a post.",
+  "examples": [
+   "The *hashtag* was trending all afternoon.",
+   "Don't put fifteen *hashtags* on one photo.",
+   "They made up a *hashtag* for the conference."
+  ]
+ },
+ {
+  "term": "meme",
+  "ipa": "miːm",
+  "respell": "MEEM",
+  "ru": "мем",
+  "plural": "memes",
+  "countability": "countable",
+  "gloss": "A funny image or phrase that spreads quickly online.",
+  "examples": [
+   "That *meme* was everywhere last summer.",
+   "Half the *memes* he posts are ten years old.",
+   "Somebody turned the press conference into a *meme*."
+  ],
+  "contrast": "One syllable, rhyming with *seem*. Not \"MAY-may\" or \"MEE-mee.\""
+ },
+ {
+  "term": "selfie",
+  "ipa": "ˈsɛlfi",
+  "respell": "SEL-fee",
+  "ru": "селфи",
+  "plural": "selfies",
+  "countability": "countable",
+  "gloss": "A photo you take of yourself, usually with a phone.",
+  "examples": [
+   "She took a *selfie* in front of the fountain.",
+   "My camera roll is nothing but *selfies*.",
+   "He posted a *selfie* from the summit."
+  ]
+ },
+ {
+  "term": "chat",
+  "ipa": "tʃæt",
+  "respell": "CHAT",
+  "ru": "чат",
+  "plural": "chats",
+  "countability": "countable",
+  "gloss": "A conversation typed back and forth in real time online.",
+  "examples": [
+   "Ask the question in the *chat*.",
+   "I have about nine group *chats* going.",
+   "The support *chat* connected me to a real person."
+  ]
+ },
+ {
+  "term": "voicemail",
+  "ipa": "ˈvɔɪsmeɪl",
+  "respell": "VOYS-mayl",
+  "ru": "голосовое сообщение (на автоответчике)",
+  "plural": "voicemails",
+  "countability": "countable",
+  "gloss": "A recorded spoken message left for someone who didn't answer.",
+  "examples": [
+   "I left you a *voicemail* this morning.",
+   "He never checks his *voicemails*.",
+   "Her *voicemail* was four minutes long."
+  ]
+ },
+ {
+  "term": "ringtone",
+  "ipa": "ˈrɪŋtoʊn",
+  "respell": "RING-tohn",
+  "ru": "рингтон, мелодия звонка",
+  "plural": "ringtones",
+  "countability": "countable",
+  "gloss": "The sound a phone makes when someone calls.",
+  "examples": [
+   "That *ringtone* drives me crazy.",
+   "You can download new *ringtones* for free.",
+   "I set a special *ringtone* for my mom."
+  ]
+ },
+ {
+  "term": "podcast",
+  "ipa": "ˈpɑːdkæst",
+  "respell": "PAHD-kast",
+  "ru": "подкаст",
+  "plural": "podcasts",
+  "countability": "countable",
+  "gloss": "An audio show you download or stream in episodes.",
+  "examples": [
+   "I listen to a history *podcast* on my commute.",
+   "There are *podcasts* about absolutely everything.",
+   "Their *podcast* comes out every Tuesday."
+  ]
+ },
+ {
+  "term": "playlist",
+  "ipa": "ˈpleɪlɪst",
+  "respell": "PLAY-list",
+  "ru": "плейлист",
+  "plural": "playlists",
+  "countability": "countable",
+  "gloss": "A saved list of songs or videos played one after another.",
+  "examples": [
+   "She made a *playlist* for the road trip.",
+   "My workout *playlists* are all from 2015.",
+   "Add that song to the *playlist*."
+  ]
+ },
+ {
+  "term": "streaming",
+  "ipa": "ˈstriːmɪŋ",
+  "respell": "STREE-ming",
+  "ru": "потоковое вещание",
+  "plural": "",
+  "countability": "uncountable",
+  "gloss": "Playing video or music straight from the internet instead of downloading it.",
+  "examples": [
+   "*Streaming* has pretty much replaced cable.",
+   "The *streaming* kept stopping to buffer.",
+   "We spend more on *streaming* than we ever did on movies."
+  ]
+ },
+ {
+  "term": "download",
+  "ipa": "ˈdaʊnloʊd",
+  "respell": "DOWN-lohd",
+  "ru": "загрузка, скачанный файл",
+  "plural": "downloads",
+  "countability": "countable",
+  "gloss": "A file copied from the internet onto your device.",
+  "examples": [
+   "The *download* is taking forever.",
+   "Clear out your *downloads* folder once in a while.",
+   "The app has over a billion *downloads*."
+  ],
+  "contrast": "As a noun the stress is on the first syllable, DOWN-lohd; as a verb it moves back: down-LOHD the file."
+ },
+ {
+  "term": "upload",
+  "ipa": "ˈʌploʊd",
+  "respell": "UP-lohd",
+  "ru": "загрузка (на сервер)",
+  "plural": "uploads",
+  "countability": "countable",
+  "gloss": "A file sent from your device to the internet.",
+  "examples": [
+   "The *upload* failed halfway through.",
+   "Video *uploads* are limited to two gigabytes.",
+   "Wait for the *upload* to finish before you close the tab."
+  ]
+ },
+ {
+  "term": "upgrade",
+  "ipa": "ˈʌpɡreɪd",
+  "respell": "UP-grayd",
+  "ru": "обновление, апгрейд",
+  "plural": "upgrades",
+  "countability": "countable",
+  "gloss": "A newer or better version of something you already have.",
+  "examples": [
+   "The memory *upgrade* made a huge difference.",
+   "Both *upgrades* are free for existing customers.",
+   "I'm due for a phone *upgrade* in June."
+  ],
+  "contrast": "Noun stress falls on the first syllable (UP-grayd); the verb takes it on the second (up-GRAYD)."
+ },
+ {
+  "term": "version",
+  "ipa": "ˈvɜːrʒən",
+  "respell": "VUR-zhun",
+  "ru": "версия",
+  "plural": "versions",
+  "countability": "countable",
+  "gloss": "One particular form of a program or document among several.",
+  "examples": [
+   "Which *version* of the app are you running?",
+   "Older *versions* don't support this file type.",
+   "The new *version* fixed the crash."
+  ]
+ },
+ {
+  "term": "feature",
+  "ipa": "ˈfiːtʃər",
+  "respell": "FEE-chur",
+  "ru": "функция, возможность",
+  "plural": "features",
+  "countability": "countable",
+  "gloss": "Something a product can do, offered as part of it.",
+  "examples": [
+   "The best *feature* is the offline mode.",
+   "They added three new *features* in this release.",
+   "That *feature* is only in the paid plan."
+  ]
+ },
+ {
+  "term": "interface",
+  "ipa": "ˈɪntərfeɪs",
+  "respell": "IN-tur-fays",
+  "ru": "интерфейс",
+  "plural": "interfaces",
+  "countability": "countable",
+  "gloss": "The part of a program you see and interact with.",
+  "examples": [
+   "The *interface* is clean and easy to learn.",
+   "Their *interfaces* look the same on the phone and the web.",
+   "A confusing *interface* will cost you customers."
+  ]
+ },
+ {
+  "term": "menu",
+  "ipa": "ˈmɛnjuː",
+  "respell": "MEN-yoo",
+  "ru": "меню",
+  "plural": "menus",
+  "countability": "countable",
+  "gloss": "A list of choices a program shows you to pick from.",
+  "examples": [
+   "Open the *menu* in the top right corner.",
+   "The settings are buried three *menus* deep.",
+   "Pick Export from the File *menu*."
+  ]
+ },
+ {
+  "term": "icon",
+  "ipa": "ˈaɪkɑːn",
+  "respell": "EYE-kahn",
+  "ru": "значок, иконка",
+  "plural": "icons",
+  "countability": "countable",
+  "gloss": "A small picture on a screen that stands for a file or program.",
+  "examples": [
+   "Double-click the *icon* on your desktop.",
+   "The *icons* are too small to see on this monitor.",
+   "There's a little gear *icon* for settings."
+  ]
+ },
+ {
+  "term": "cursor",
+  "ipa": "ˈkɜːrsər",
+  "respell": "KUR-sur",
+  "ru": "курсор",
+  "plural": "cursors",
+  "countability": "countable",
+  "gloss": "The moving mark on a screen that shows where you are typing or pointing.",
+  "examples": [
+   "The *cursor* froze in the middle of the screen.",
+   "You can make *cursors* bigger in the accessibility settings.",
+   "Put the *cursor* at the end of the line."
+  ]
+ },
+ {
+  "term": "shortcut",
+  "ipa": "ˈʃɔːrtkʌt",
+  "respell": "SHORT-kut",
+  "ru": "сочетание клавиш; ярлык",
+  "plural": "shortcuts",
+  "countability": "countable",
+  "gloss": "A quick key combination or link that saves you steps.",
+  "examples": [
+   "There's a keyboard *shortcut* for that.",
+   "He knows every *shortcut* in the program.",
+   "I made a *shortcut* to the folder on my desktop."
+  ]
+ },
+ {
+  "term": "plugin",
+  "ipa": "ˈplʌɡɪn",
+  "respell": "PLUG-in",
+  "ru": "плагин",
+  "plural": "plugins",
+  "countability": "countable",
+  "gloss": "A small piece of software that adds a feature to a bigger program.",
+  "examples": [
+   "Install the *plugin* and restart the browser.",
+   "Too many *plugins* will slow the site down.",
+   "There's a *plugin* that does the formatting for you."
+  ]
+ },
+ {
+  "term": "extension",
+  "ipa": "ɪkˈstɛnʃən",
+  "respell": "ik-STEN-shun",
+  "ru": "расширение (браузера)",
+  "plural": "extensions",
+  "countability": "countable",
+  "gloss": "An add-on that gives a browser or program extra abilities.",
+  "examples": [
+   "I use an ad-blocking *extension*.",
+   "Some *extensions* can read everything you type.",
+   "The *extension* stopped working after the update."
+  ]
+ },
+ {
+  "term": "layout",
+  "ipa": "ˈleɪaʊt",
+  "respell": "LAY-owt",
+  "ru": "макет, расположение элементов",
+  "plural": "layouts",
+  "countability": "countable",
+  "gloss": "The way things are arranged on a page or screen.",
+  "examples": [
+   "The new *layout* is much easier to read.",
+   "They tested four different *layouts*.",
+   "The *layout* falls apart on a narrow screen."
+  ]
+ },
+ {
+  "term": "font",
+  "ipa": "fɑːnt",
+  "respell": "FAHNT",
+  "ru": "шрифт",
+  "plural": "fonts",
+  "countability": "countable",
+  "gloss": "A set of letters and numbers in one particular design.",
+  "examples": [
+   "Pick a *font* that's easy to read.",
+   "I have hundreds of *fonts* installed.",
+   "The *font* is too small for a slide."
+  ]
+ },
+ {
+  "term": "clipboard",
+  "ipa": "ˈklɪpbɔːrd",
+  "respell": "KLIP-bord",
+  "ru": "буфер обмена",
+  "plural": "clipboards",
+  "countability": "countable",
+  "gloss": "The temporary place a computer keeps whatever you last copied.",
+  "examples": [
+   "The link is already on your *clipboard*.",
+   "Phones and computers keep separate *clipboards*.",
+   "Copying the password put it on the *clipboard*."
+  ]
+ },
+ {
+  "term": "screenshot",
+  "ipa": "ˈskriːnʃɑːt",
+  "respell": "SKREEN-shaht",
+  "ru": "скриншот, снимок экрана",
+  "plural": "screenshots",
+  "countability": "countable",
+  "gloss": "A picture of whatever is on your screen at that moment.",
+  "examples": [
+   "Send me a *screenshot* of the error.",
+   "I took a few *screenshots* for the bug report.",
+   "The *screenshot* was too blurry to read."
+  ]
+ },
+ {
+  "term": "thumbnail",
+  "ipa": "ˈθʌmneɪl",
+  "respell": "THUM-nayl",
+  "ru": "миниатюра, эскиз",
+  "plural": "thumbnails",
+  "countability": "countable",
+  "gloss": "A small version of an image used as a preview.",
+  "examples": [
+   "Click the *thumbnail* to see the full photo.",
+   "The *thumbnails* load before the video does.",
+   "A good *thumbnail* gets more clicks."
+  ],
+  "contrast": "The *b* is silent: THUM-nayl, the same *thumb* sound as in the finger."
+ },
+ {
+  "term": "audio",
+  "ipa": "ˈɔːdioʊ",
+  "respell": "AW-dee-oh",
+  "ru": "звук, аудио",
+  "plural": "",
+  "countability": "uncountable",
+  "gloss": "Sound that has been recorded or is being sent electronically.",
+  "examples": [
+   "The *audio* cut out about halfway through.",
+   "The video is fine but the *audio* is terrible.",
+   "Can everyone hear the *audio*?"
+  ]
+ },
+ {
+  "term": "image",
+  "ipa": "ˈɪmɪdʒ",
+  "respell": "IM-ij",
+  "ru": "изображение, картинка",
+  "plural": "images",
+  "countability": "countable",
+  "gloss": "A picture stored or shown on a screen.",
+  "examples": [
+   "The *image* is too big to email.",
+   "Compress the *images* before you upload them.",
+   "Right-click the *image* and save it."
+  ]
+ },
+ {
+  "term": "pixel",
+  "ipa": "ˈpɪksəl",
+  "respell": "PIK-sul",
+  "ru": "пиксель",
+  "plural": "pixels",
+  "countability": "countable",
+  "gloss": "One of the tiny dots that make up a picture on a screen.",
+  "examples": [
+   "Zoom in far enough and you can see every *pixel*.",
+   "The screen is about two million *pixels*.",
+   "There's a dead *pixel* in the corner of my monitor."
+  ]
+ },
+ {
+  "term": "resolution",
+  "ipa": "ˌrɛzəˈluːʃən",
+  "respell": "rez-uh-LOO-shun",
+  "ru": "разрешение (экрана)",
+  "plural": "resolutions",
+  "countability": "countable",
+  "gloss": "How much detail a screen or image holds, counted in pixels.",
+  "examples": [
+   "Shoot it at the highest *resolution* you can.",
+   "The two monitors run at different *resolutions*.",
+   "Low *resolution* looks awful on a big TV."
+  ]
+ },
+ {
+  "term": "graphics",
+  "ipa": "ˈɡræfɪks",
+  "respell": "GRAF-iks",
+  "ru": "графика",
+  "plural": "",
+  "countability": "uncountable",
+  "gloss": "The pictures and visual effects a computer produces.",
+  "examples": [
+   "The *graphics* in that game are stunning.",
+   "You'll need a better card if you want smooth *graphics*.",
+   "The *graphics* look dated now."
+  ]
+ },
+ {
+  "term": "security",
+  "ipa": "sɪˈkjʊrəti",
+  "respell": "sih-KYUUR-uh-tee",
+  "ru": "безопасность (защита данных)",
+  "plural": "",
+  "countability": "uncountable",
+  "gloss": "Protection of computers and data from theft or damage.",
+  "examples": [
+   "The bank spends a fortune on *security*.",
+   "Weak passwords are a *security* problem.",
+   "*Security* is everybody's job, not just IT's."
+  ]
+ },
+ {
+  "term": "privacy",
+  "ipa": "ˈpraɪvəsi",
+  "respell": "PRY-vuh-see",
+  "ru": "конфиденциальность, приватность",
+  "plural": "",
+  "countability": "uncountable",
+  "gloss": "The right to keep your personal information from being seen or shared.",
+  "examples": [
+   "Read the *privacy* policy before you sign up.",
+   "People care a lot more about *privacy* than they used to.",
+   "The app collects data with no regard for *privacy*."
+  ],
+  "contrast": "American PRY-vuh-see; British speakers usually say PRIV-uh-see with a short *i*."
+ },
+ {
+  "term": "firewall",
+  "ipa": "ˈfaɪrrwɔːl",
+  "respell": "FYRE-wawl",
+  "ru": "брандмауэр, файрвол",
+  "plural": "firewalls",
+  "countability": "countable",
+  "gloss": "Software or hardware that blocks unwanted traffic into a network.",
+  "examples": [
+   "The *firewall* is blocking that port.",
+   "Corporate *firewalls* won't let you reach the site.",
+   "Turn the *firewall* back on when you're done testing."
+  ]
+ },
+ {
+  "term": "encryption",
+  "ipa": "ɪnˈkrɪpʃən",
+  "respell": "in-KRIP-shun",
+  "ru": "шифрование",
+  "plural": "",
+  "countability": "uncountable",
+  "gloss": "The scrambling of data so that only the right person can read it.",
+  "examples": [
+   "The messages use end-to-end *encryption*.",
+   "Without *encryption*, anyone on the network can read it.",
+   "*Encryption* is on by default now."
+  ]
+ },
+ {
+  "term": "hacker",
+  "ipa": "ˈhækər",
+  "respell": "HAK-ur",
+  "ru": "хакер",
+  "plural": "hackers",
+  "countability": "countable",
+  "gloss": "Someone who breaks into computer systems.",
+  "examples": [
+   "A *hacker* got into the payroll system.",
+   "*Hackers* stole millions of customer records.",
+   "The company hired a *hacker* to test its defenses."
+  ]
+ },
+ {
+  "term": "malware",
+  "ipa": "ˈmælwɛr",
+  "respell": "MAL-wair",
+  "ru": "вредоносное ПО",
+  "plural": "",
+  "countability": "uncountable",
+  "gloss": "Software written to damage a computer or steal from it.",
+  "examples": [
+   "The laptop is full of *malware*.",
+   "That download turned out to be *malware*.",
+   "Most *malware* comes in through email attachments."
+  ]
+ },
+ {
+  "term": "antivirus",
+  "ipa": "ˌæntiˈvaɪrəs",
+  "respell": "an-tee-VY-rus",
+  "ru": "антивирус",
+  "plural": "antiviruses",
+  "countability": "countable",
+  "gloss": "A program that finds and removes harmful software.",
+  "examples": [
+   "Run the *antivirus* before you open that file.",
+   "Free *antiviruses* are good enough for most people.",
+   "My *antivirus* flagged the installer."
+  ]
+ },
+ {
+  "term": "phishing",
+  "ipa": "ˈfɪʃɪŋ",
+  "respell": "FISH-ing",
+  "ru": "фишинг",
+  "plural": "",
+  "countability": "uncountable",
+  "gloss": "Tricking people into giving up passwords or card numbers with fake messages.",
+  "examples": [
+   "That email is *phishing* — don't click anything.",
+   "The company runs *phishing* tests on its own staff.",
+   "*Phishing* still causes most break-ins."
+  ],
+  "contrast": "Pronounced exactly like *fishing*; only the spelling differs."
+ },
+ {
+  "term": "bot",
+  "ipa": "bɑːt",
+  "respell": "BAHT",
+  "ru": "бот",
+  "plural": "bots",
+  "countability": "countable",
+  "gloss": "A program that runs automatically, often pretending to be a person.",
+  "examples": [
+   "A *bot* answers the first message on their support line.",
+   "Half the accounts liking that post are *bots*.",
+   "The *bot* books the tickets the second they go on sale."
+  ]
+ },
+ {
+  "term": "code",
+  "ipa": "koʊd",
+  "respell": "KOHD",
+  "ru": "код (программный)",
+  "plural": "codes",
+  "countability": "both — countable and uncountable with different meanings",
+  "gloss": "The written instructions that make up a computer program.",
+  "examples": [
+   "She writes *code* eight hours a day.",
+   "There's a lot of old *code* nobody understands anymore.",
+   "The bug was three lines of *code*."
+  ]
+ },
+ {
+  "term": "algorithm",
+  "ipa": "ˈælɡərɪðəm",
+  "respell": "AL-guh-rih-thum",
+  "ru": "алгоритм",
+  "plural": "algorithms",
+  "countability": "countable",
+  "gloss": "A step-by-step method a computer follows to solve a problem.",
+  "examples": [
+   "The *algorithm* decides what shows up in your feed.",
+   "Their sorting *algorithms* are open source.",
+   "Nobody outside the company knows how the *algorithm* works."
+  ],
+  "contrast": "Four syllables, ending in -rih-thum. Note the *th* spelling, unlike *logarithm*'s cousin *rhythm*."
+ },
+ {
+  "term": "script",
+  "ipa": "skrɪpt",
+  "respell": "SKRIPT",
+  "ru": "скрипт, сценарий",
+  "plural": "scripts",
+  "countability": "countable",
+  "gloss": "A short program that automates a task.",
+  "examples": [
+   "I wrote a *script* to rename all the files.",
+   "These *scripts* run every night at two.",
+   "The backup *script* failed silently."
+  ]
+ },
+ {
+  "term": "function",
+  "ipa": "ˈfʌŋkʃən",
+  "respell": "FUNK-shun",
+  "ru": "функция (в программировании)",
+  "plural": "functions",
+  "countability": "countable",
+  "gloss": "A named block of code that does one job and can be reused.",
+  "examples": [
+   "Pull that logic out into its own *function*.",
+   "The file has about forty *functions* in it.",
+   "The *function* returns an empty list if nothing matches."
+  ]
+ },
+ {
+  "term": "variable",
+  "ipa": "ˈvɛriəbəl",
+  "respell": "VAIR-ee-uh-bul",
+  "ru": "переменная",
+  "plural": "variables",
+  "countability": "countable",
+  "gloss": "A named place in a program where a value is stored.",
+  "examples": [
+   "Give the *variable* a name that means something.",
+   "All these *variables* are global, which is asking for trouble.",
+   "The *variable* was never initialized."
+  ]
+ },
+ {
+  "term": "array",
+  "ipa": "əˈreɪ",
+  "respell": "uh-RAY",
+  "ru": "массив",
+  "plural": "arrays",
+  "countability": "countable",
+  "gloss": "An ordered list of values stored under one name.",
+  "examples": [
+   "Loop through the *array* and print each name.",
+   "You can nest *arrays* inside each other.",
+   "The *array* starts at index zero."
+  ]
+ },
+ {
+  "term": "string",
+  "ipa": "strɪŋ",
+  "respell": "STRING",
+  "ru": "строка (текстовая)",
+  "plural": "strings",
+  "countability": "countable",
+  "gloss": "A piece of text handled as a single value by a program.",
+  "examples": [
+   "Wrap the *string* in quotation marks.",
+   "Compare the two *strings* before you save.",
+   "The date is stored as a *string*, not a number."
+  ]
+ },
+ {
+  "term": "syntax",
+  "ipa": "ˈsɪntæks",
+  "respell": "SIN-taks",
+  "ru": "синтаксис",
+  "plural": "",
+  "countability": "uncountable",
+  "gloss": "The rules for how code or sentences must be written.",
+  "examples": [
+   "The *syntax* is a little different in this language.",
+   "One missing bracket and the *syntax* breaks.",
+   "It's a *syntax* error on line twelve."
+  ]
+ },
+ {
+  "term": "compiler",
+  "ipa": "kəmˈpaɪlər",
+  "respell": "kum-PY-lur",
+  "ru": "компилятор",
+  "plural": "compilers",
+  "countability": "countable",
+  "gloss": "A program that turns human-written code into something a machine can run.",
+  "examples": [
+   "The *compiler* caught the mistake right away.",
+   "Different *compilers* give different warnings.",
+   "The *compiler* takes about a minute on this machine."
+  ]
+ },
+ {
+  "term": "library",
+  "ipa": "ˈlaɪbrɛri",
+  "respell": "LY-brair-ee",
+  "ru": "библиотека (программная)",
+  "plural": "libraries",
+  "countability": "countable",
+  "gloss": "A collection of ready-made code that other programs can use.",
+  "examples": [
+   "There's a *library* that already does that.",
+   "The project depends on about sixty *libraries*.",
+   "That *library* hasn't been updated in years."
+  ],
+  "contrast": "Three syllables in careful American speech: LY-brair-ee. \"LY-berry\" is common but considered sloppy."
+ },
+ {
+  "term": "framework",
+  "ipa": "ˈfreɪmwɜːrk",
+  "respell": "FRAYM-wurk",
+  "ru": "фреймворк, каркас",
+  "plural": "frameworks",
+  "countability": "countable",
+  "gloss": "A ready-made structure that programs are built on top of.",
+  "examples": [
+   "They rebuilt the site on a modern *framework*.",
+   "New *frameworks* come out every six months.",
+   "The *framework* handles all the routing for you."
+  ]
+ },
+ {
+  "term": "command",
+  "ipa": "kəˈmænd",
+  "respell": "kuh-MAND",
+  "ru": "команда",
+  "plural": "commands",
+  "countability": "countable",
+  "gloss": "An instruction typed in to make a computer do something.",
+  "examples": [
+   "Type the *command* exactly as it's written.",
+   "I never remember the *commands* for that tool.",
+   "One *command* wipes the whole folder, so be careful."
+  ]
+ },
+ {
+  "term": "prompt",
+  "ipa": "prɑːmpt",
+  "respell": "PRAHMPT",
+  "ru": "промпт, текстовый запрос",
+  "plural": "prompts",
+  "countability": "countable",
+  "gloss": "The text you type to tell a program or an AI model what you want.",
+  "examples": [
+   "A clearer *prompt* gets a much better answer.",
+   "He keeps a file of *prompts* he reuses.",
+   "The *prompt* was too vague, so the output was too."
+  ]
+ },
+ {
+  "term": "input",
+  "ipa": "ˈɪnpʊt",
+  "respell": "IN-puut",
+  "ru": "ввод, входные данные",
+  "plural": "",
+  "countability": "uncountable",
+  "gloss": "Information put into a computer for it to work on.",
+  "examples": [
+   "The program waits for *input* from the keyboard.",
+   "Bad *input* gives you bad results.",
+   "It takes plain text as *input*."
+  ]
+ },
+ {
+  "term": "output",
+  "ipa": "ˈaʊtpʊt",
+  "respell": "OWT-puut",
+  "ru": "вывод, выходные данные",
+  "plural": "",
+  "countability": "uncountable",
+  "gloss": "What a computer or program produces after it processes something.",
+  "examples": [
+   "Save the *output* to a file.",
+   "The *output* was full of warnings.",
+   "Compare the *output* against the sample."
+  ]
+ },
+ {
+  "term": "error",
+  "ipa": "ˈɛrər",
+  "respell": "EH-rur",
+  "ru": "ошибка",
+  "plural": "errors",
+  "countability": "countable",
+  "gloss": "A mistake that stops a program from working correctly.",
+  "examples": [
+   "I got an *error* when I tried to save.",
+   "The log is full of the same *errors*.",
+   "The *error* message wasn't very helpful."
+  ]
+ },
+ {
+  "term": "glitch",
+  "ipa": "ɡlɪtʃ",
+  "respell": "GLICH",
+  "ru": "сбой, глюк",
+  "plural": "glitches",
+  "countability": "countable",
+  "gloss": "A small, usually brief fault in a system.",
+  "examples": [
+   "It was just a *glitch* — it works now.",
+   "There were a few *glitches* on launch day.",
+   "A *glitch* in the app charged me twice."
+  ]
+ },
+ {
+  "term": "cache",
+  "ipa": "kæʃ",
+  "respell": "KASH",
+  "ru": "кэш",
+  "plural": "caches",
+  "countability": "countable",
+  "gloss": "A store of data kept nearby so it can be fetched again quickly.",
+  "examples": [
+   "Clear your *cache* and try again.",
+   "The *caches* fill up over time.",
+   "The page is being served from the *cache*."
+  ],
+  "contrast": "Pronounced exactly like *cash*. It is not \"ka-SHAY\" — that is the separate word *cachet*."
+ },
+ {
+  "term": "lag",
+  "ipa": "læɡ",
+  "respell": "LAG",
+  "ru": "задержка, лаг",
+  "plural": "",
+  "countability": "uncountable",
+  "gloss": "A delay between an action and the system's response.",
+  "examples": [
+   "There's a lot of *lag* on this connection.",
+   "The *lag* makes the game unplayable.",
+   "A little *lag* on video calls is normal."
+  ]
+ },
+ {
+  "term": "data",
+  "ipa": "ˈdeɪtə",
+  "respell": "DAY-tuh",
+  "ru": "данные",
+  "plural": "",
+  "countability": "uncountable",
+  "gloss": "Facts and figures stored or processed by a computer.",
+  "examples": [
+   "We lost three days of *data*.",
+   "The *data* shows a clear pattern.",
+   "They sell your *data* to advertisers."
+  ],
+  "contrast": "Treated as uncountable in everyday American English: *the data is clear*. The old Latin singular *datum* survives only in formal writing."
+ },
+ {
+  "term": "database",
+  "ipa": "ˈdeɪtəbeɪs",
+  "respell": "DAY-tuh-bays",
+  "ru": "база данных",
+  "plural": "databases",
+  "countability": "countable",
+  "gloss": "An organized store of information a computer can search.",
+  "examples": [
+   "Everything goes into one *database*.",
+   "The two *databases* don't talk to each other.",
+   "The *database* has about four million rows."
+  ]
+ },
+ {
+  "term": "byte",
+  "ipa": "baɪt",
+  "respell": "BYTE",
+  "ru": "байт",
+  "plural": "bytes",
+  "countability": "countable",
+  "gloss": "A basic unit of computer storage, made of eight bits.",
+  "examples": [
+   "One character takes up about a *byte*.",
+   "The file is only nine hundred *bytes*.",
+   "Every *byte* counts on a device that small."
+  ],
+  "contrast": "Sounds exactly like *bite*. The spelling with *y* keeps the two words apart in writing."
+ },
+ {
+  "term": "gigabyte",
+  "ipa": "ˈɡɪɡəbaɪt",
+  "respell": "GIG-uh-byte",
+  "ru": "гигабайт",
+  "plural": "gigabytes",
+  "countability": "countable",
+  "gloss": "A unit of storage equal to about a billion bytes.",
+  "examples": [
+   "The movie is four *gigabytes*.",
+   "My plan gives me twenty *gigabytes* a month.",
+   "One *gigabyte* doesn't go very far anymore."
+  ],
+  "contrast": "Both g's are hard, as in *give*: GIG-uh-byte, never \"JIG-uh-byte.\""
+ },
+ {
+  "term": "storage",
+  "ipa": "ˈstɔːrɪdʒ",
+  "respell": "STOR-ij",
+  "ru": "хранилище (памяти), место для данных",
+  "plural": "",
+  "countability": "uncountable",
+  "gloss": "Space on a device or online where files are kept.",
+  "examples": [
+   "I'm out of *storage* on my phone.",
+   "Cloud *storage* is cheap now.",
+   "The laptop comes with a terabyte of *storage*."
+  ]
+ },
+ {
+  "term": "drive",
+  "ipa": "draɪv",
+  "respell": "DRYVE",
+  "ru": "накопитель, диск",
+  "plural": "drives",
+  "countability": "countable",
+  "gloss": "A device that stores data, or a piece of storage the computer treats as one unit.",
+  "examples": [
+   "Back everything up to an external *drive*.",
+   "The server has eight *drives* in it.",
+   "The *drive* died without any warning."
+  ]
+ },
+ {
+  "term": "hard drive",
+  "ipa": "ˌhɑːrd ˈdraɪv",
+  "respell": "hard DRYVE",
+  "ru": "жёсткий диск",
+  "plural": "hard drives",
+  "countability": "countable",
+  "gloss": "The main storage device inside a computer.",
+  "examples": [
+   "The *hard drive* is almost full.",
+   "Old *hard drives* make a clicking noise before they fail.",
+   "I replaced the *hard drive* with a faster one."
+  ]
+ },
+ {
+  "term": "disk",
+  "ipa": "dɪsk",
+  "respell": "DISK",
+  "ru": "диск",
+  "plural": "disks",
+  "countability": "countable",
+  "gloss": "A flat piece of storage that a computer reads and writes data on.",
+  "examples": [
+   "The *disk* is running out of space.",
+   "Both *disks* are mirrored, so nothing is lost.",
+   "Copy the file to the *disk* first."
+  ],
+  "contrast": "American computing uses *disk* with a k; *disc* with a c is for music and movies — a compact disc."
+ },
+ {
+  "term": "backup",
+  "ipa": "ˈbækʌp",
+  "respell": "BAK-up",
+  "ru": "резервная копия",
+  "plural": "backups",
+  "countability": "countable",
+  "gloss": "A spare copy of files kept in case the original is lost.",
+  "examples": [
+   "Luckily we had a *backup* from Friday.",
+   "The *backups* run automatically overnight.",
+   "Make a *backup* before you upgrade."
+  ],
+  "contrast": "One word as a noun (*a backup*), two words as a verb (*back up your files*)."
+ },
+ {
+  "term": "desktop",
+  "ipa": "ˈdɛsktɑːp",
+  "respell": "DESK-tahp",
+  "ru": "настольный компьютер, десктоп",
+  "plural": "desktops",
+  "countability": "countable",
+  "gloss": "A computer built to sit on a desk rather than be carried around.",
+  "examples": [
+   "He does all his editing on a *desktop*.",
+   "The office still runs on *desktops*.",
+   "A *desktop* gives you more power for the money than a laptop."
+  ]
+ },
+ {
+  "term": "phone",
+  "ipa": "foʊn",
+  "respell": "FOHN",
+  "ru": "телефон",
+  "plural": "phones",
+  "countability": "countable",
+  "gloss": "A device for talking to someone at a distance, now usually a handheld one.",
+  "examples": [
+   "My *phone* died in the middle of the call.",
+   "Please put your *phones* away during the exam.",
+   "She left her *phone* in the car."
+  ]
+ },
+ {
+  "term": "smartphone",
+  "ipa": "ˈsmɑːrtfoʊn",
+  "respell": "SMART-fohn",
+  "ru": "смартфон",
+  "plural": "smartphones",
+  "countability": "countable",
+  "gloss": "A phone that also runs apps and connects to the internet.",
+  "examples": [
+   "Almost everyone here has a *smartphone*.",
+   "New *smartphones* come out every fall.",
+   "The camera on that *smartphone* is better than my old one."
+  ]
+ },
+ {
+  "term": "cellphone",
+  "ipa": "ˈsɛlfoʊn",
+  "respell": "SEL-fohn",
+  "ru": "мобильный телефон, сотовый",
+  "plural": "cellphones",
+  "countability": "countable",
+  "gloss": "A phone that works over a wireless network instead of a wire.",
+  "examples": [
+   "Give me a call on my *cellphone*.",
+   "*Cellphones* aren't allowed on the factory floor.",
+   "There's no *cellphone* service in the mountains."
+  ],
+  "contrast": "Americans say *cellphone* or just *cell*; British speakers say *mobile* or *mobile phone*."
+ },
+ {
+  "term": "smartwatch",
+  "ipa": "ˈsmɑːrtwɑːtʃ",
+  "respell": "SMART-wahch",
+  "ru": "умные часы",
+  "plural": "smartwatches",
+  "countability": "countable",
+  "gloss": "A watch that runs apps and connects to your phone.",
+  "examples": [
+   "His *smartwatch* tracks his heart rate.",
+   "*Smartwatches* have to be charged almost every night.",
+   "I got a *smartwatch* for my birthday."
+  ]
+ },
+ {
+  "term": "camera",
+  "ipa": "ˈkæmərə",
+  "respell": "KAM-uh-ruh",
+  "ru": "камера, фотоаппарат",
+  "plural": "cameras",
+  "countability": "countable",
+  "gloss": "A device that takes photographs or video.",
+  "examples": [
+   "The *camera* on this phone is incredible.",
+   "There are security *cameras* at every entrance.",
+   "Turn your *camera* on so we can see you."
+  ]
+ },
+ {
+  "term": "webcam",
+  "ipa": "ˈwɛbkæm",
+  "respell": "WEB-kam",
+  "ru": "веб-камера",
+  "plural": "webcams",
+  "countability": "countable",
+  "gloss": "A small camera used for video calls and streaming.",
+  "examples": [
+   "My *webcam* stopped working before the interview.",
+   "Cheap *webcams* look terrible in low light.",
+   "Cover the *webcam* when you're not using it."
+  ]
+ },
+ {
+  "term": "speaker",
+  "ipa": "ˈspiːkər",
+  "respell": "SPEE-kur",
+  "ru": "динамик, колонка",
+  "plural": "speakers",
+  "countability": "countable",
+  "gloss": "A device that turns an electrical signal into sound.",
+  "examples": [
+   "The *speaker* on my laptop is tinny.",
+   "He hooked up a pair of *speakers* in the garage.",
+   "Put it on *speaker* so everyone can hear."
+  ]
+ },
+ {
+  "term": "microphone",
+  "ipa": "ˈmaɪkrəfoʊn",
+  "respell": "MY-kruh-fohn",
+  "ru": "микрофон",
+  "plural": "microphones",
+  "countability": "countable",
+  "gloss": "A device that picks up sound and turns it into a signal.",
+  "examples": [
+   "Your *microphone* is muted.",
+   "They set up two *microphones* on the stage.",
+   "Speak a little closer to the *microphone*."
+  ]
+ },
+ {
+  "term": "headset",
+  "ipa": "ˈhɛdsɛt",
+  "respell": "HED-set",
+  "ru": "гарнитура",
+  "plural": "headsets",
+  "countability": "countable",
+  "gloss": "Headphones with a microphone attached, worn over the head.",
+  "examples": [
+   "Support staff wear a *headset* all day.",
+   "The company bought new *headsets* for everyone.",
+   "My *headset* cuts out every few minutes."
+  ]
+ },
+ {
+  "term": "earbuds",
+  "ipa": "ˈɪrbʌdz",
+  "respell": "EER-budz",
+  "ru": "наушники-вкладыши",
+  "plural": "earbuds",
+  "countability": "countable",
+  "gloss": "Small headphones that sit inside the ear.",
+  "examples": [
+   "I lost one of my *earbuds* on the bus.",
+   "These *earbuds* last about six hours on a charge.",
+   "He had *earbuds* in and didn't hear me."
+  ]
+ },
+ {
+  "term": "scanner",
+  "ipa": "ˈskænər",
+  "respell": "SKAN-ur",
+  "ru": "сканер",
+  "plural": "scanners",
+  "countability": "countable",
+  "gloss": "A machine that turns a paper document or photo into a computer file.",
+  "examples": [
+   "Put the form in the *scanner* face down.",
+   "The library has two *scanners* by the front desk.",
+   "The *scanner* jammed on the third page."
+  ]
+ },
+ {
+  "term": "calculator",
+  "ipa": "ˈkælkjəleɪtər",
+  "respell": "KAL-kyuh-lay-tur",
+  "ru": "калькулятор",
+  "plural": "calculators",
+  "countability": "countable",
+  "gloss": "A small device or program that does arithmetic.",
+  "examples": [
+   "You can't use a *calculator* on this section of the test.",
+   "The store sells graphing *calculators* for eighty dollars.",
+   "There's a *calculator* built into your phone."
+  ]
+ },
+ {
+  "term": "drone",
+  "ipa": "droʊn",
+  "respell": "DROHN",
+  "ru": "дрон, беспилотник",
+  "plural": "drones",
+  "countability": "countable",
+  "gloss": "An aircraft flown with no pilot on board.",
+  "examples": [
+   "A *drone* filmed the whole wedding from above.",
+   "*Drones* are banned within five miles of the airport.",
+   "He crashed his *drone* into a tree."
+  ]
+ },
+ {
+  "term": "robot",
+  "ipa": "ˈroʊbɑːt",
+  "respell": "ROH-baht",
+  "ru": "робот",
+  "plural": "robots",
+  "countability": "countable",
+  "gloss": "A machine that can carry out tasks on its own.",
+  "examples": [
+   "A *robot* welds the doors on the assembly line.",
+   "The warehouse uses *robots* to move the shelves around.",
+   "We have a little *robot* that vacuums the floor."
+  ]
+ },
+ {
+  "term": "sensor",
+  "ipa": "ˈsɛnsər",
+  "respell": "SEN-sur",
+  "ru": "датчик, сенсор",
+  "plural": "sensors",
+  "countability": "countable",
+  "gloss": "A device that detects light, heat, movement, or another condition.",
+  "examples": [
+   "The *sensor* turns the lights on when you walk in.",
+   "The car is covered in *sensors*.",
+   "A dirty *sensor* gives you a false reading."
+  ]
+ },
+ {
+  "term": "laser",
+  "ipa": "ˈleɪzər",
+  "respell": "LAY-zur",
+  "ru": "лазер",
+  "plural": "lasers",
+  "countability": "countable",
+  "gloss": "A device that makes a narrow, very strong beam of light.",
+  "examples": [
+   "The *laser* cuts through steel like paper.",
+   "Surgeons use *lasers* for that procedure now.",
+   "A *laser* reads the code at the checkout."
+  ]
+ },
+ {
+  "term": "touchscreen",
+  "ipa": "ˈtʌtʃskriːn",
+  "respell": "TUCH-skreen",
+  "ru": "сенсорный экран",
+  "plural": "touchscreens",
+  "countability": "countable",
+  "gloss": "A screen you control by touching it with your fingers.",
+  "examples": [
+   "The *touchscreen* in the car is hard to use while driving.",
+   "*Touchscreens* don't work well with gloves on.",
+   "The *touchscreen* stopped responding in the cold."
+  ]
+ },
+ {
+  "term": "display",
+  "ipa": "dɪˈspleɪ",
+  "respell": "dih-SPLAY",
+  "ru": "дисплей, экран",
+  "plural": "displays",
+  "countability": "countable",
+  "gloss": "The screen that shows what a device is doing.",
+  "examples": [
+   "The *display* is bright enough to read in the sun.",
+   "He runs three *displays* on his desk.",
+   "The *display* cracked when I dropped it."
+  ]
+ },
+ {
+  "term": "processor",
+  "ipa": "ˈprɑːsɛsər",
+  "respell": "PRAH-ses-ur",
+  "ru": "процессор",
+  "plural": "processors",
+  "countability": "countable",
+  "gloss": "The chip that does the main work inside a computer.",
+  "examples": [
+   "The new *processor* is twice as fast.",
+   "These *processors* run hot under load.",
+   "A faster *processor* won't help if you're short on memory."
+  ]
+ },
+ {
+  "term": "microchip",
+  "ipa": "ˈmaɪkroʊtʃɪp",
+  "respell": "MY-kroh-chip",
+  "ru": "микрочип, микросхема",
+  "plural": "microchips",
+  "countability": "countable",
+  "gloss": "A tiny piece of silicon holding an electronic circuit.",
+  "examples": [
+   "There's a *microchip* in every credit card now.",
+   "The shortage of *microchips* shut down car factories.",
+   "The vet put a *microchip* in the dog."
+  ]
+ },
+ {
+  "term": "motherboard",
+  "ipa": "ˈmʌðərbɔːrd",
+  "respell": "MUTH-ur-bord",
+  "ru": "материнская плата",
+  "plural": "motherboards",
+  "countability": "countable",
+  "gloss": "The main circuit board that everything else in a computer plugs into.",
+  "examples": [
+   "The *motherboard* is fried.",
+   "These *motherboards* have four memory slots.",
+   "Replacing the *motherboard* costs almost as much as a new machine."
+  ]
+ },
+ {
+  "term": "transistor",
+  "ipa": "trænˈzɪstər",
+  "respell": "tran-ZIS-tur",
+  "ru": "транзистор",
+  "plural": "transistors",
+  "countability": "countable",
+  "gloss": "A tiny electronic part that switches or strengthens a signal.",
+  "examples": [
+   "A modern chip holds billions of *transistors*.",
+   "One burned-out *transistor* killed the whole board.",
+   "The *transistor* replaced the vacuum tube."
+  ]
+ },
+ {
+  "term": "circuit",
+  "ipa": "ˈsɜːrkɪt",
+  "respell": "SUR-kit",
+  "ru": "электрическая цепь, схема",
+  "plural": "circuits",
+  "countability": "countable",
+  "gloss": "A closed path that electricity flows around.",
+  "examples": [
+   "The *circuit* trips whenever we run the heater.",
+   "He tests *circuits* for a living.",
+   "A broken wire opens the *circuit*."
+  ],
+  "contrast": "The *ui* is just a short *i*: SUR-kit, rhyming with *work it*."
+ },
+ {
+  "term": "semiconductor",
+  "ipa": "ˌsɛmikənˈdʌktər",
+  "respell": "sem-ee-kun-DUK-tur",
+  "ru": "полупроводник",
+  "plural": "semiconductors",
+  "countability": "countable",
+  "gloss": "A material that conducts electricity only under certain conditions, used to make chips.",
+  "examples": [
+   "Silicon is the most common *semiconductor*.",
+   "*Semiconductors* are made in enormous clean rooms.",
+   "The *semiconductor* industry is worth hundreds of billions."
+  ]
+ },
+ {
+  "term": "silicon",
+  "ipa": "ˈsɪlɪkən",
+  "respell": "SIL-ih-kun",
+  "ru": "кремний",
+  "plural": "",
+  "countability": "uncountable",
+  "gloss": "The element that computer chips are made from.",
+  "examples": [
+   "Chips are cut from a wafer of *silicon*.",
+   "*Silicon* is the second most common element in the earth's crust.",
+   "They melt sand to get pure *silicon*."
+  ],
+  "contrast": "Do not confuse with *silicone*, the rubbery sealant, which ends in an extra *e* and a long *ohn* sound."
+ },
+ {
+  "term": "adapter",
+  "ipa": "əˈdæptər",
+  "respell": "uh-DAP-tur",
+  "ru": "адаптер, переходник",
+  "plural": "adapters",
+  "countability": "countable",
+  "gloss": "A small part that lets one kind of plug or device work with another.",
+  "examples": [
+   "You'll need an *adapter* for European outlets.",
+   "I keep a drawer full of *adapters*.",
+   "The laptop came with a power *adapter*."
+  ],
+  "contrast": "Americans usually spell it *adapter*; the spelling *adaptor* is more common in Britain."
+ },
+ {
+  "term": "port",
+  "ipa": "pɔːrt",
+  "respell": "PORT",
+  "ru": "порт, разъём",
+  "plural": "ports",
+  "countability": "countable",
+  "gloss": "A socket on a device where a cable plugs in.",
+  "examples": [
+   "Plug the drive into the *port* on the left.",
+   "The laptop only has two *ports*.",
+   "The charging *port* is full of lint."
+  ]
+ },
+ {
+  "term": "hub",
+  "ipa": "hʌb",
+  "respell": "HUB",
+  "ru": "хаб, разветвитель",
+  "plural": "hubs",
+  "countability": "countable",
+  "gloss": "A device that gives you several extra ports from one connection.",
+  "examples": [
+   "I plug everything into one *hub*.",
+   "Cheap *hubs* can't supply enough power.",
+   "The *hub* gives me four extra USB ports."
+  ]
+ },
+ {
+  "term": "modem",
+  "ipa": "ˈmoʊdɛm",
+  "respell": "MOH-dem",
+  "ru": "модем",
+  "plural": "modems",
+  "countability": "countable",
+  "gloss": "The box that connects your home network to your internet provider.",
+  "examples": [
+   "Unplug the *modem* for ten seconds and plug it back in.",
+   "The company rents *modems* for ten dollars a month.",
+   "The *modem* has been blinking red all morning."
+  ]
+ },
+ {
+  "term": "cartridge",
+  "ipa": "ˈkɑːrtrɪdʒ",
+  "respell": "KAR-trij",
+  "ru": "картридж",
+  "plural": "cartridges",
+  "countability": "countable",
+  "gloss": "A small container that slides into a machine, such as one holding printer ink.",
+  "examples": [
+   "The black *cartridge* is empty again.",
+   "Replacement *cartridges* cost more than the printer did.",
+   "Shake the *cartridge* before you put it in."
+  ]
+ },
+ {
+  "term": "controller",
+  "ipa": "kənˈtroʊlər",
+  "respell": "kun-TROH-lur",
+  "ru": "контроллер, геймпад",
+  "plural": "controllers",
+  "countability": "countable",
+  "gloss": "A handheld device used to control a game or machine.",
+  "examples": [
+   "The *controller* needs new batteries.",
+   "We only have two *controllers*, so somebody has to sit out.",
+   "He threw the *controller* across the room."
+  ]
+ },
+ {
+  "term": "gadget",
+  "ipa": "ˈɡædʒɪt",
+  "respell": "GAJ-it",
+  "ru": "гаджет, устройство",
+  "plural": "gadgets",
+  "countability": "countable",
+  "gloss": "A small clever device that does one particular job.",
+  "examples": [
+   "He buys every new *gadget* that comes out.",
+   "The kitchen drawer is full of *gadgets* we never use.",
+   "It's a handy little *gadget* for opening jars."
+  ]
+ },
+ {
+  "term": "engine",
+  "ipa": "ˈɛndʒɪn",
+  "respell": "EN-jin",
+  "ru": "двигатель, мотор",
+  "plural": "engines",
+  "countability": "countable",
+  "gloss": "A machine that turns fuel or electricity into movement.",
+  "examples": [
+   "The *engine* wouldn't start this morning.",
+   "Jet *engines* are tested for thousands of hours.",
+   "Listen to the *engine* when you're idling."
+  ]
+ },
+ {
+  "term": "television",
+  "ipa": "ˈtɛləvɪʒən",
+  "respell": "TEL-uh-vizh-un",
+  "ru": "телевизор; телевидение",
+  "plural": "televisions",
+  "countability": "both — countable and uncountable with different meanings",
+  "gloss": "The set you watch programs on, or the medium of broadcasting itself.",
+  "examples": [
+   "They bought a bigger *television* for the basement.",
+   "The store had forty *televisions* on the wall.",
+   "He works in *television*."
+  ]
+ },
+ {
+  "term": "technology",
+  "ipa": "tɛkˈnɑːlədʒi",
+  "respell": "tek-NAH-luh-jee",
+  "ru": "технология, техника",
+  "plural": "technologies",
+  "countability": "both — countable and uncountable with different meanings",
+  "gloss": "Scientific knowledge used to make machines and tools, or one particular such method.",
+  "examples": [
+   "*Technology* changes faster than the law does.",
+   "Two new *technologies* came out of that lab.",
+   "The hospital invested in imaging *technology*."
+  ]
+ },
+ {
+  "term": "innovation",
+  "ipa": "ˌɪnəˈveɪʃən",
+  "respell": "in-uh-VAY-shun",
+  "ru": "инновация, нововведение",
+  "plural": "innovations",
+  "countability": "both — countable and uncountable with different meanings",
+  "gloss": "The making of new things or methods, or a new thing itself.",
+  "examples": [
+   "The company is known for *innovation*.",
+   "The last decade brought a few real *innovations*.",
+   "Their biggest *innovation* was the touch interface."
+  ]
+ },
+ {
+  "term": "invention",
+  "ipa": "ɪnˈvɛnʃən",
+  "respell": "in-VEN-shun",
+  "ru": "изобретение",
+  "plural": "inventions",
+  "countability": "countable",
+  "gloss": "Something new that someone has made for the first time.",
+  "examples": [
+   "The wheel is the classic example of an *invention*.",
+   "Most of his *inventions* never made it to market.",
+   "Her *invention* cuts the process from an hour to five minutes."
+  ]
+ },
+ {
+  "term": "engineering",
+  "ipa": "ˌɛndʒɪˈnɪrɪŋ",
+  "respell": "en-juh-NEER-ing",
+  "ru": "инженерное дело, техника",
+  "plural": "",
+  "countability": "uncountable",
+  "gloss": "The use of science to design and build machines, structures, and systems.",
+  "examples": [
+   "She studied electrical *engineering*.",
+   "The bridge is a marvel of *engineering*.",
+   "*Engineering* jobs are in demand right now."
+  ]
+ },
+ {
+  "term": "prototype",
+  "ipa": "ˈproʊtətaɪp",
+  "respell": "PROH-tuh-type",
+  "ru": "прототип, опытный образец",
+  "plural": "prototypes",
+  "countability": "countable",
+  "gloss": "The first working model of something, built to test the idea.",
+  "examples": [
+   "They built a *prototype* out of cardboard and tape.",
+   "The first two *prototypes* both failed.",
+   "The *prototype* is nowhere near ready to sell."
+  ]
+ },
+ {
+  "term": "blueprint",
+  "ipa": "ˈbluːprɪnt",
+  "respell": "BLOO-print",
+  "ru": "чертёж, план",
+  "plural": "blueprints",
+  "countability": "countable",
+  "gloss": "A detailed technical drawing showing how something is to be built.",
+  "examples": [
+   "The *blueprint* is spread out on the table.",
+   "The city keeps *blueprints* of every building downtown.",
+   "The wiring doesn't match the *blueprint*."
+  ]
+ },
+ {
+  "term": "patent",
+  "ipa": "ˈpætənt",
+  "respell": "PAT-unt",
+  "ru": "патент",
+  "plural": "patents",
+  "countability": "countable",
+  "gloss": "A legal right that stops others from copying an invention.",
+  "examples": [
+   "They filed a *patent* on the design.",
+   "The company holds thousands of *patents*.",
+   "The *patent* runs out in three years."
+  ],
+  "contrast": "Americans say PAT-unt with a short *a*; British speakers usually say PAY-tunt."
+ },
+ {
+  "term": "laboratory",
+  "ipa": "ˈlæbrətɔːri",
+  "respell": "LAB-ruh-tor-ee",
+  "ru": "лаборатория",
+  "plural": "laboratories",
+  "countability": "countable",
+  "gloss": "A room fitted out for scientific work or testing.",
+  "examples": [
+   "The sample went to the *laboratory* on Monday.",
+   "The university has six research *laboratories*.",
+   "No food or drink in the *laboratory*."
+  ],
+  "contrast": "American stress is on the first syllable, LAB-ruh-tor-ee; the British say luh-BOR-uh-tree."
+ },
+ {
+  "term": "automation",
+  "ipa": "ˌɔːtəˈmeɪʃən",
+  "respell": "aw-tuh-MAY-shun",
+  "ru": "автоматизация",
+  "plural": "",
+  "countability": "uncountable",
+  "gloss": "The use of machines and software to do work people used to do.",
+  "examples": [
+   "*Automation* cut the crew from twelve people to three.",
+   "The plant runs almost entirely on *automation*.",
+   "*Automation* is coming for a lot of office work."
+  ]
+ },
+ {
+  "term": "robotics",
+  "ipa": "roʊˈbɑːtɪks",
+  "respell": "roh-BAH-tiks",
+  "ru": "робототехника",
+  "plural": "",
+  "countability": "uncountable",
+  "gloss": "The branch of engineering that deals with building robots.",
+  "examples": [
+   "*Robotics* is her field.",
+   "The high school has a *robotics* club.",
+   "*Robotics* has changed manufacturing completely."
+  ],
+  "contrast": "Like *physics* and *economics*, it takes a singular verb: *robotics is*, not *robotics are*."
+ },
+ {
+  "term": "system",
+  "ipa": "ˈsɪstəm",
+  "respell": "SIS-tum",
+  "ru": "система",
+  "plural": "systems",
+  "countability": "countable",
+  "gloss": "A set of parts working together as a whole.",
+  "examples": [
+   "The whole *system* went down for two hours.",
+   "The two *systems* don't share data.",
+   "Log in to the *system* with your work account."
+  ]
+ },
+ {
+  "term": "component",
+  "ipa": "kəmˈpoʊnənt",
+  "respell": "kum-POH-nunt",
+  "ru": "компонент, деталь",
+  "plural": "components",
+  "countability": "countable",
+  "gloss": "One of the parts that something larger is made of.",
+  "examples": [
+   "The failed *component* costs four dollars.",
+   "Most of the *components* are made overseas.",
+   "Every *component* is tested before it ships."
+  ]
+ },
+ {
+  "term": "module",
+  "ipa": "ˈmɑːdʒuːl",
+  "respell": "MAH-jool",
+  "ru": "модуль",
+  "plural": "modules",
+  "countability": "countable",
+  "gloss": "A self-contained part that fits together with others to make a whole.",
+  "examples": [
+   "Each *module* can be replaced on its own.",
+   "The course is split into six *modules*.",
+   "The memory *module* wasn't seated properly."
+  ]
+ },
+ {
+  "term": "installation",
+  "ipa": "ˌɪnstəˈleɪʃən",
+  "respell": "in-stuh-LAY-shun",
+  "ru": "установка",
+  "plural": "installations",
+  "countability": "both — countable and uncountable with different meanings",
+  "gloss": "The act of putting equipment or software in place, or a system that has been put in place.",
+  "examples": [
+   "*Installation* takes about ten minutes.",
+   "They handle *installations* all over the state.",
+   "The *installation* failed halfway through."
+  ]
+ },
+ {
+  "term": "maintenance",
+  "ipa": "ˈmeɪntənəns",
+  "respell": "MAYN-tuh-nuns",
+  "ru": "обслуживание, техобслуживание",
+  "plural": "",
+  "countability": "uncountable",
+  "gloss": "The work of keeping equipment in good working order.",
+  "examples": [
+   "The site is down for scheduled *maintenance*.",
+   "Regular *maintenance* keeps the machines running.",
+   "*Maintenance* costs more than we budgeted."
+  ],
+  "contrast": "Spelled *maintenance*, not \"maintainance\" — the verb *maintain* loses its *ai* in the noun."
+ },
+ {
+  "term": "setup",
+  "ipa": "ˈsɛtʌp",
+  "respell": "SET-up",
+  "ru": "настройка, конфигурация",
+  "plural": "setups",
+  "countability": "countable",
+  "gloss": "The way equipment is arranged and configured, or the process of arranging it.",
+  "examples": [
+   "His home office *setup* cost more than his car.",
+   "Both *setups* use the same software.",
+   "*Setup* took about twenty minutes."
+  ],
+  "contrast": "One word as a noun (*a setup*), two words as a verb (*set up the printer*)."
+ },
+ {
+  "term": "frequency",
+  "ipa": "ˈfriːkwənsi",
+  "respell": "FREE-kwun-see",
+  "ru": "частота",
+  "plural": "frequencies",
+  "countability": "both — countable and uncountable with different meanings",
+  "gloss": "The number of times a wave repeats each second, or how often something happens.",
+  "examples": [
+   "The radio broadcasts on a low *frequency*.",
+   "Emergency crews use their own *frequencies*.",
+   "Higher *frequency* means shorter range."
+  ]
+ }
+]

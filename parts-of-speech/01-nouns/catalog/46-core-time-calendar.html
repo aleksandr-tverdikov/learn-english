@@ -1,0 +1,841 @@
+<!DOCTYPE html>
+<html lang="en"><head>
+<meta charset="utf-8"><meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Core vocabulary: time and the calendar</title>
+<style>
+:root{--bg:#faf9f7;--surface:#fff;--surface2:#f2f0ec;--border:#e2ded6;--text:#1a1815;
+--dim:#5f594f;--faint:#8a8377;--accent:#8a5a3b;--measure:72ch}
+@media(prefers-color-scheme:dark){:root{--bg:#14140f;--surface:#1d1d17;--surface2:#25251d;
+--border:#33332a;--text:#eeeae1;--dim:#a8a293;--faint:#7d776b;--accent:#d09b72}}
+:root[data-theme=dark]{--bg:#14140f;--surface:#1d1d17;--surface2:#25251d;--border:#33332a;
+--text:#eeeae1;--dim:#a8a293;--faint:#7d776b;--accent:#d09b72}
+:root[data-theme=light]{--bg:#faf9f7;--surface:#fff;--surface2:#f2f0ec;--border:#e2ded6;
+--text:#1a1815;--dim:#5f594f;--faint:#8a8377;--accent:#8a5a3b}
+*{box-sizing:border-box}
+body{margin:0;background:var(--bg);color:var(--text);
+font:17px/1.72 ui-serif,Georgia,"Iowan Old Style",Palatino,serif;-webkit-font-smoothing:antialiased}
+.wrap{max-width:min(var(--measure),100%);margin:0 auto;padding:0 22px}
+nav.crumb{border-bottom:1px solid var(--border);padding:13px 0;font-size:13.5px;
+font-family:-apple-system,BlinkMacSystemFont,"Segoe UI",sans-serif;position:sticky;top:0;background:var(--bg);z-index:20}
+nav.crumb .wrap{max-width:none;display:flex;gap:9px;align-items:center;flex-wrap:wrap}
+nav.crumb a{color:var(--dim);text-decoration:none}
+nav.crumb a:hover{color:var(--accent)}
+nav.crumb .sep{color:var(--faint)}
+main{padding:8px 0 80px}
+h1{font-size:clamp(28px,5vw,38px);line-height:1.15;letter-spacing:-.015em;margin:34px 0 18px}
+h2{font-size:25px;margin:46px 0 14px;letter-spacing:-.01em;padding-bottom:7px;border-bottom:1px solid var(--border)}
+h3{font-size:19px;margin:34px 0 10px;color:var(--accent)}
+h4{font-size:16px;margin:24px 0 8px;font-family:-apple-system,sans-serif}
+p{margin:0 0 16px}
+a{color:var(--accent)}
+.hash{opacity:0;margin-left:8px;font-weight:400;font-size:.65em;text-decoration:none;color:var(--faint)}
+h2:hover .hash,h3:hover .hash{opacity:1}
+blockquote{margin:0 0 20px;padding:14px 18px;background:var(--surface2);
+border-left:3px solid var(--accent);border-radius:0 8px 8px 0}
+blockquote p:last-child{margin-bottom:0}
+ol,ul{margin:0 0 18px;padding-left:26px}
+li{margin-bottom:8px}
+li>ul,li>ol{margin:8px 0 0}
+code{font-family:ui-monospace,SFMono-Regular,Menlo,Consolas,monospace;font-size:.87em;
+background:var(--surface2);padding:1px 5px;border-radius:4px}
+pre{background:var(--surface2);border:1px solid var(--border);border-radius:9px;
+padding:15px 17px;overflow-x:auto;margin:0 0 20px}
+pre code{background:none;padding:0;font-size:13px;line-height:1.6}
+.tw{overflow-x:auto;margin:0 0 22px;border:1px solid var(--border);border-radius:9px}
+table{border-collapse:collapse;width:100%;font-size:15px;
+font-family:-apple-system,BlinkMacSystemFont,"Segoe UI",sans-serif}
+th,td{padding:10px 14px;border-bottom:1px solid var(--border);vertical-align:top}
+th{background:var(--surface2);font-size:12px;text-transform:uppercase;
+letter-spacing:.06em;color:var(--dim);font-weight:700;white-space:nowrap}
+tbody tr:last-child td{border-bottom:none}
+hr{border:none;border-top:1px solid var(--border);margin:38px 0}
+details{background:var(--surface2);border:1px solid var(--border);border-radius:9px;
+padding:13px 17px;margin:0 0 20px}
+summary{cursor:pointer;font-weight:600;font-family:-apple-system,sans-serif;font-size:15px}
+details[open] summary{margin-bottom:12px}
+del{color:var(--faint)}
+dl.fields{margin:0 0 20px;padding:0}
+dl.fields dt{font-family:-apple-system,BlinkMacSystemFont,"Segoe UI",sans-serif;
+font-size:11px;letter-spacing:.11em;text-transform:uppercase;color:var(--faint);
+font-weight:700;margin:14px 0 4px}
+dl.fields dt:first-child{margin-top:0}
+dl.fields dd{margin:0;font-size:16px;color:var(--dim);line-height:1.62}
+dl.fields dd em{color:var(--text)}
+dl.fields dt.ru{color:var(--accent)}
+dl.fields dd strong{color:var(--text)}
+.toc{background:var(--surface2);border:1px solid var(--border);border-radius:10px;
+padding:16px 20px;margin:26px 0 34px;font-family:-apple-system,sans-serif;font-size:14px}
+.toc b{display:block;font-size:11px;letter-spacing:.12em;text-transform:uppercase;
+color:var(--faint);margin-bottom:9px}
+.toc a{display:block;padding:3px 0;color:var(--dim);text-decoration:none}
+.toc a:hover{color:var(--accent)}
+.themebtn{position:fixed;right:18px;bottom:18px;z-index:60;font-family:-apple-system,sans-serif;
+font-size:12.5px;font-weight:600;cursor:pointer;background:var(--surface);border:1px solid var(--border);
+border-radius:99px;padding:9px 16px;color:var(--text)}
+@media(max-width:600px){body{font-size:16px}.wrap{padding:0 17px}}
+</style></head><body>
+<nav class="crumb"><div class="wrap"><a href="../../../index.html">Learn English</a><span class="sep">/</span><a href="../../README.html">Parts of speech</a><span class="sep">/</span><a href="../README.html">01-nouns</a><span class="sep">/</span><span>catalog</span></div></nav>
+<main><div class="wrap"><h1 id="core-vocabulary-time-and-the-calendar">Core vocabulary: time and the calendar<a class="hash" href="#core-vocabulary-time-and-the-calendar" aria-label="link">#</a></h1>
+<blockquote><p>The everyday nouns of time and the calendar — pronunciation, Russian, plural, and three examples each.</p></blockquote>
+<p><a href="../README.html">← The grammar of nouns</a> &middot; <a href="README.html">All groups</a></p>
+<p>Part of the <strong>core-vocabulary tier</strong>. Groups 1–23 cover the nouns that misbehave; this tier covers the nouns you simply need to know. Entries are deliberately lean, because a regular countable noun has no grammatical story to tell. A <strong>Contrast</strong> line appears only where the word hides a genuine trap.</p>
+<p>Where a word in this field <em>does</em> misbehave, it lives in the grammar tier instead and is not repeated here.</p>
+<hr>
+<h3 id="second">second<a class="hash" href="#second" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/ˈsɛkənd/ &middot; <em>SEK-uhnd</em></dd><dt>Русский</dt><dd>секунда</dd><dt>Plural</dt><dd><em>seconds</em></dd><dt>Countability</dt><dd>countable</dd></dl>
+<p>A unit of time equal to one sixtieth of a minute.</p>
+<ol><li>Give me a <em>second</em> to find my keys.</li><li>The whole thing took about thirty <em>seconds</em>.</li><li>He beat his old record by two <em>seconds</em>.</li></ol>
+<hr>
+<h3 id="minute">minute<a class="hash" href="#minute" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/ˈmɪnɪt/ &middot; <em>MIN-it</em></dd><dt>Русский</dt><dd>минута</dd><dt>Plural</dt><dd><em>minutes</em></dd><dt>Countability</dt><dd>countable</dd><dt>Contrast</dt><dd>The noun is MIN-it, but the adjective <em>minute</em> (крошечный) is my-NOOT, with the stress on the second syllable.</dd></dl>
+<p>A unit of time equal to sixty seconds.</p>
+<ol><li>The bus leaves in five <em>minutes</em>.</li><li>Do you have a <em>minute</em> to talk?</li><li>Wait a <em>minute</em> — that isn't what she said.</li></ol>
+<hr>
+<h3 id="hour">hour<a class="hash" href="#hour" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/ˈaʊrr/ &middot; <em>OW-ur</em></dd><dt>Русский</dt><dd>час</dd><dt>Plural</dt><dd><em>hours</em></dd><dt>Countability</dt><dd>countable</dd><dt>Contrast</dt><dd>The h is silent, so the word takes <em>an</em>, not <em>a</em>: an hour.</dd></dl>
+<p>A unit of time equal to sixty minutes.</p>
+<ol><li>The flight takes about three <em>hours</em>.</li><li>She studies for an <em>hour</em> every evening.</li><li>We waited in line for half an <em>hour</em>.</li></ol>
+<hr>
+<h3 id="day">day<a class="hash" href="#day" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/deɪ/ &middot; <em>DAY</em></dd><dt>Русский</dt><dd>день; сутки</dd><dt>Plural</dt><dd><em>days</em></dd><dt>Countability</dt><dd>countable</dd></dl>
+<p>A period of twenty-four hours, or the light part of it.</p>
+<ol><li>I'll call you in a couple of <em>days</em>.</li><li>What a beautiful <em>day</em> it is.</li><li>She works six <em>days</em> a week.</li></ol>
+<hr>
+<h3 id="week">week<a class="hash" href="#week" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/wiːk/ &middot; <em>WEEK</em></dd><dt>Русский</dt><dd>неделя</dd><dt>Plural</dt><dd><em>weeks</em></dd><dt>Countability</dt><dd>countable</dd><dt>Contrast</dt><dd><em>Week</em> and <em>weak</em> (слабый) are perfect homophones in American English.</dd></dl>
+<p>A period of seven days.</p>
+<ol><li>We're going to Chicago next <em>week</em>.</li><li>The class meets twice a <em>week</em>.</li><li>I've been sick for two <em>weeks</em>.</li></ol>
+<hr>
+<h3 id="month">month<a class="hash" href="#month" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/mʌnθ/ &middot; <em>MUNTH</em></dd><dt>Русский</dt><dd>месяц</dd><dt>Plural</dt><dd><em>months</em></dd><dt>Countability</dt><dd>countable</dd></dl>
+<p>One of the twelve periods that a year is divided into.</p>
+<ol><li>My lease is up at the end of the <em>month</em>.</li><li>The baby is only three <em>months</em> old.</li><li>It rained almost every day last <em>month</em>.</li></ol>
+<hr>
+<h3 id="year">year<a class="hash" href="#year" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/jɪr/ &middot; <em>YEER</em></dd><dt>Русский</dt><dd>год</dd><dt>Plural</dt><dd><em>years</em></dd><dt>Countability</dt><dd>countable</dd></dl>
+<p>A period of twelve months.</p>
+<ol><li>She moved to Texas two <em>years</em> ago.</li><li>This has been a good <em>year</em> for the company.</li><li>He saved all <em>year</em> for the trip.</li></ol>
+<hr>
+<h3 id="decade">decade<a class="hash" href="#decade" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/ˈdɛkeɪd/ &middot; <em>DEK-ayd</em></dd><dt>Русский</dt><dd>десятилетие</dd><dt>Plural</dt><dd><em>decades</em></dd><dt>Countability</dt><dd>countable</dd><dt>Contrast</dt><dd>Stress the first syllable — DEK-ayd, unlike Russian «декАда». It also means ten years, not ten days.</dd></dl>
+<p>A period of ten years.</p>
+<ol><li>The house hasn't been painted in <em>decades</em>.</li><li>She spent a <em>decade</em> teaching high school.</li><li>Crime has dropped over the past <em>decade</em>.</li></ol>
+<hr>
+<h3 id="century">century<a class="hash" href="#century" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/ˈsɛntʃəri/ &middot; <em>SEN-chuh-ree</em></dd><dt>Русский</dt><dd>век, столетие</dd><dt>Plural</dt><dd><em>centuries</em></dd><dt>Countability</dt><dd>countable</dd></dl>
+<p>A period of one hundred years.</p>
+<ol><li>The church is more than four <em>centuries</em> old.</li><li>Photography changed art in the last <em>century</em>.</li><li>This bridge has stood for over a <em>century</em>.</li></ol>
+<hr>
+<h3 id="fortnight">fortnight<a class="hash" href="#fortnight" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/ˈfɔːrtnaɪt/ &middot; <em>FORT-nyt</em></dd><dt>Русский</dt><dd>две недели</dd><dt>Plural</dt><dd><em>fortnights</em></dd><dt>Countability</dt><dd>countable</dd><dt>Contrast</dt><dd>Mainly British. Americans understand <em>fortnight</em> but almost always say <em>two weeks</em>.</dd></dl>
+<p>A period of two weeks.</p>
+<ol><li>They stayed with us for a <em>fortnight</em>.</li><li>The results come back within a <em>fortnight</em>.</li><li>He wrote to her every <em>fortnight</em> that summer.</li></ol>
+<hr>
+<h3 id="eon">eon<a class="hash" href="#eon" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/ˈiːɑːn/ &middot; <em>EE-ahn</em></dd><dt>Русский</dt><dd>эон, целая вечность</dd><dt>Plural</dt><dd><em>eons</em></dd><dt>Countability</dt><dd>countable</dd></dl>
+<p>An extremely long period of time.</p>
+<ol><li>These rocks formed <em>eons</em> ago.</li><li>It feels like an <em>eon</em> since we last talked.</li><li>The river took <em>eons</em> to carve the canyon.</li></ol>
+<hr>
+<h3 id="era">era<a class="hash" href="#era" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/ˈɪrə/ &middot; <em>EER-uh</em></dd><dt>Русский</dt><dd>эра, эпоха</dd><dt>Plural</dt><dd><em>eras</em></dd><dt>Countability</dt><dd>countable</dd></dl>
+<p>A long stretch of history with a particular character.</p>
+<ol><li>The telephone opened a new <em>era</em> in communication.</li><li>That song belongs to a different <em>era</em>.</li><li>Both <em>eras</em> produced great architecture.</li></ol>
+<hr>
+<h3 id="epoch">epoch<a class="hash" href="#epoch" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/ˈɛpək/ &middot; <em>EP-uhk</em></dd><dt>Русский</dt><dd>эпоха</dd><dt>Plural</dt><dd><em>epochs</em></dd><dt>Countability</dt><dd>countable</dd><dt>Contrast</dt><dd>The ch is said like k, and the word is stressed on the first syllable — EP-uhk, unlike Russian «эпОха».</dd></dl>
+<p>A distinct period in history or in the development of something.</p>
+<ol><li>The moon landing marked an <em>epoch</em> in space travel.</li><li>Geologists divide the past into <em>epochs</em>.</li><li>We're living through an <em>epoch</em> of rapid change.</li></ol>
+<hr>
+<h3 id="age">age<a class="hash" href="#age" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/eɪdʒ/ &middot; <em>AYJ</em></dd><dt>Русский</dt><dd>возраст; эпоха</dd><dt>Plural</dt><dd><em>ages</em></dd><dt>Countability</dt><dd>countable</dd></dl>
+<p>How old someone or something is, or a long period of history.</p>
+<ol><li>She learned to read at the <em>age</em> of four.</li><li>Children under the <em>age</em> of twelve get in free.</li><li>It took <em>ages</em> to get through security.</li></ol>
+<hr>
+<h3 id="generation">generation<a class="hash" href="#generation" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/ˌdʒɛnəˈreɪʃən/ &middot; <em>jen-uh-RAY-shuhn</em></dd><dt>Русский</dt><dd>поколение</dd><dt>Plural</dt><dd><em>generations</em></dd><dt>Countability</dt><dd>countable</dd></dl>
+<p>All the people born and living at about the same time.</p>
+<ol><li>My grandmother's <em>generation</em> saved everything.</li><li>The farm has been in the family for four <em>generations</em>.</li><li>This <em>generation</em> grew up with smartphones.</li></ol>
+<hr>
+<h3 id="lifetime">lifetime<a class="hash" href="#lifetime" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/ˈlaɪftaɪm/ &middot; <em>LYF-tym</em></dd><dt>Русский</dt><dd>жизнь, срок жизни</dd><dt>Plural</dt><dd><em>lifetimes</em></dd><dt>Countability</dt><dd>countable</dd></dl>
+<p>The whole length of a person's life.</p>
+<ol><li>He saw the country change in his <em>lifetime</em>.</li><li>That was the trip of a <em>lifetime</em>.</li><li>The pan is supposed to last a <em>lifetime</em>.</li></ol>
+<hr>
+<h3 id="lifespan">lifespan<a class="hash" href="#lifespan" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/ˈlaɪfspæn/ &middot; <em>LYF-span</em></dd><dt>Русский</dt><dd>продолжительность жизни</dd><dt>Plural</dt><dd><em>lifespans</em></dd><dt>Countability</dt><dd>countable</dd></dl>
+<p>The length of time a person, animal, or thing lives or lasts.</p>
+<ol><li>A housefly has a very short <em>lifespan</em>.</li><li>Average <em>lifespans</em> have risen steadily.</li><li>The roof has a <em>lifespan</em> of about thirty years.</li></ol>
+<hr>
+<h3 id="duration">duration<a class="hash" href="#duration" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/dʊˈreɪʃən/ &middot; <em>duu-RAY-shuhn</em></dd><dt>Русский</dt><dd>продолжительность, длительность</dd><dt>Countability</dt><dd>uncountable</dd></dl>
+<p>The length of time something continues.</p>
+<ol><li>Please stay seated for the <em>duration</em> of the flight.</li><li>The <em>duration</em> of the course is six weeks.</li><li>He said nothing for the whole <em>duration</em> of the meeting.</li></ol>
+<hr>
+<h3 id="interval">interval<a class="hash" href="#interval" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/ˈɪntərvəl/ &middot; <em>IN-tur-vuhl</em></dd><dt>Русский</dt><dd>интервал, промежуток</dd><dt>Plural</dt><dd><em>intervals</em></dd><dt>Countability</dt><dd>countable</dd></dl>
+<p>A period of time between two events.</p>
+<ol><li>Take one pill at four-hour <em>intervals</em>.</li><li>There was a long <em>interval</em> between the two storms.</li><li>Buses run at ten-minute <em>intervals</em>.</li></ol>
+<hr>
+<h3 id="span">span<a class="hash" href="#span" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/spæn/ &middot; <em>SPAN</em></dd><dt>Русский</dt><dd>промежуток времени, отрезок</dd><dt>Plural</dt><dd><em>spans</em></dd><dt>Countability</dt><dd>countable</dd></dl>
+<p>The length of time that something lasts or covers.</p>
+<ol><li>She wrote four novels in the <em>span</em> of a year.</li><li>His attention <em>span</em> is about ten minutes.</li><li>The study covers a <em>span</em> of two decades.</li></ol>
+<hr>
+<h3 id="moment">moment<a class="hash" href="#moment" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/ˈmoʊmənt/ &middot; <em>MOH-muhnt</em></dd><dt>Русский</dt><dd>момент, миг</dd><dt>Plural</dt><dd><em>moments</em></dd><dt>Countability</dt><dd>countable</dd></dl>
+<p>A very short period of time.</p>
+<ol><li>Could you wait a <em>moment</em>?</li><li>For a <em>moment</em> I thought he was serious.</li><li>We had a few quiet <em>moments</em> before the guests arrived.</li></ol>
+<hr>
+<h3 id="instant">instant<a class="hash" href="#instant" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/ˈɪnstənt/ &middot; <em>IN-stuhnt</em></dd><dt>Русский</dt><dd>мгновение</dd><dt>Plural</dt><dd><em>instants</em></dd><dt>Countability</dt><dd>countable</dd></dl>
+<p>An extremely short moment of time.</p>
+<ol><li>The lights went out in an <em>instant</em>.</li><li>For an <em>instant</em> nobody moved.</li><li>She knew his voice the <em>instant</em> he spoke.</li></ol>
+<hr>
+<h3 id="jiffy">jiffy<a class="hash" href="#jiffy" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/ˈdʒɪfi/ &middot; <em>JIF-ee</em></dd><dt>Русский</dt><dd>миг, минуточка</dd><dt>Plural</dt><dd><em>jiffies</em></dd><dt>Countability</dt><dd>countable</dd></dl>
+<p>A very short time, used mostly in casual speech.</p>
+<ol><li>I'll be back in a <em>jiffy</em>.</li><li>The soup heats up in a <em>jiffy</em>.</li><li>He had the tire changed in a <em>jiffy</em>.</li></ol>
+<hr>
+<h3 id="term">term<a class="hash" href="#term" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/tɜːrm/ &middot; <em>TURM</em></dd><dt>Русский</dt><dd>срок; семестр</dd><dt>Plural</dt><dd><em>terms</em></dd><dt>Countability</dt><dd>countable</dd></dl>
+<p>A fixed period, such as a school session or a time in office.</p>
+<ol><li>The senator is serving her second <em>term</em>.</li><li>Grades come out at the end of the <em>term</em>.</li><li>He signed on for a five-year <em>term</em>.</li></ol>
+<hr>
+<h3 id="semester">semester<a class="hash" href="#semester" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/səˈmɛstər/ &middot; <em>suh-MES-tur</em></dd><dt>Русский</dt><dd>семестр</dd><dt>Plural</dt><dd><em>semesters</em></dd><dt>Countability</dt><dd>countable</dd></dl>
+<p>One of the two main periods that an American school year is divided into.</p>
+<ol><li>I'm taking chemistry next <em>semester</em>.</li><li>She studied abroad for a <em>semester</em>.</li><li>Both <em>semesters</em> end with final exams.</li></ol>
+<hr>
+<h3 id="trimester">trimester<a class="hash" href="#trimester" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/traɪˈmɛstər/ &middot; <em>try-MES-tur</em></dd><dt>Русский</dt><dd>триместр</dd><dt>Plural</dt><dd><em>trimesters</em></dd><dt>Countability</dt><dd>countable</dd></dl>
+<p>One of three periods that a pregnancy or a school year is divided into.</p>
+<ol><li>She felt tired all through the first <em>trimester</em>.</li><li>The baby grows fast in the third <em>trimester</em>.</li><li>That school splits the year into three <em>trimesters</em>.</li></ol>
+<hr>
+<h3 id="session">session<a class="hash" href="#session" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/ˈsɛʃən/ &middot; <em>SESH-uhn</em></dd><dt>Русский</dt><dd>занятие, сеанс; заседание</dd><dt>Plural</dt><dd><em>sessions</em></dd><dt>Countability</dt><dd>countable</dd></dl>
+<p>A period spent on one activity, or a formal meeting.</p>
+<ol><li>We booked an hour-long therapy <em>session</em>.</li><li>The legislature is in <em>session</em> until June.</li><li>The band recorded three <em>sessions</em> last week.</li></ol>
+<hr>
+<h3 id="phase">phase<a class="hash" href="#phase" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/feɪz/ &middot; <em>FAYZ</em></dd><dt>Русский</dt><dd>фаза, этап</dd><dt>Plural</dt><dd><em>phases</em></dd><dt>Countability</dt><dd>countable</dd><dt>Contrast</dt><dd><em>Phase</em> and <em>faze</em> (смущать, выбивать из колеи) sound exactly alike.</dd></dl>
+<p>One stage in a process of change or development.</p>
+<ol><li>The project is entering its final <em>phase</em>.</li><li>It's just a <em>phase</em> — he'll grow out of it.</li><li>The moon goes through eight <em>phases</em>.</li></ol>
+<hr>
+<h3 id="stage">stage<a class="hash" href="#stage" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/steɪdʒ/ &middot; <em>STAYJ</em></dd><dt>Русский</dt><dd>этап, стадия</dd><dt>Plural</dt><dd><em>stages</em></dd><dt>Countability</dt><dd>countable</dd></dl>
+<p>One step in a longer process.</p>
+<ol><li>The illness was caught at an early <em>stage</em>.</li><li>We'll do the remodel in three <em>stages</em>.</li><li>At this <em>stage</em> nothing has been decided.</li></ol>
+<hr>
+<h3 id="cycle">cycle<a class="hash" href="#cycle" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/ˈsaɪkəl/ &middot; <em>SY-kuhl</em></dd><dt>Русский</dt><dd>цикл</dd><dt>Plural</dt><dd><em>cycles</em></dd><dt>Countability</dt><dd>countable</dd></dl>
+<p>A series of events that repeat in the same order.</p>
+<ol><li>The washing machine is running a short <em>cycle</em>.</li><li>The news <em>cycle</em> moves fast these days.</li><li>These insects have a two-year life <em>cycle</em>.</li></ol>
+<hr>
+<h3 id="morning">morning<a class="hash" href="#morning" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/ˈmɔːrnɪŋ/ &middot; <em>MOR-ning</em></dd><dt>Русский</dt><dd>утро</dd><dt>Plural</dt><dd><em>mornings</em></dd><dt>Countability</dt><dd>countable</dd><dt>Contrast</dt><dd><em>Morning</em> and <em>mourning</em> (траур) are perfect homophones in American English.</dd></dl>
+<p>The part of the day from sunrise until noon.</p>
+<ol><li>I drink coffee every <em>morning</em>.</li><li>The appointment is Tuesday <em>morning</em>.</li><li>Cold <em>mornings</em> make it hard to get up.</li></ol>
+<hr>
+<h3 id="afternoon">afternoon<a class="hash" href="#afternoon" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/ˌæftərˈnuːn/ &middot; <em>af-tur-NOON</em></dd><dt>Русский</dt><dd>вторая половина дня</dd><dt>Plural</dt><dd><em>afternoons</em></dd><dt>Countability</dt><dd>countable</dd></dl>
+<p>The part of the day between noon and evening.</p>
+<ol><li>Let's meet Friday <em>afternoon</em>.</li><li>She naps most <em>afternoons</em>.</li><li>It rained all <em>afternoon</em>.</li></ol>
+<hr>
+<h3 id="evening">evening<a class="hash" href="#evening" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/ˈiːvnɪŋ/ &middot; <em>EEV-ning</em></dd><dt>Русский</dt><dd>вечер</dd><dt>Plural</dt><dd><em>evenings</em></dd><dt>Countability</dt><dd>countable</dd><dt>Contrast</dt><dd>Two syllables, not three — EEV-ning. The middle e is not pronounced.</dd></dl>
+<p>The part of the day between the end of the afternoon and bedtime.</p>
+<ol><li>We usually eat at six in the <em>evening</em>.</li><li>He teaches two <em>evenings</em> a week.</li><li>It was a warm summer <em>evening</em>.</li></ol>
+<hr>
+<h3 id="night">night<a class="hash" href="#night" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/naɪt/ &middot; <em>NYT</em></dd><dt>Русский</dt><dd>ночь</dd><dt>Plural</dt><dd><em>nights</em></dd><dt>Countability</dt><dd>countable</dd><dt>Contrast</dt><dd><em>Night</em> and <em>knight</em> (рыцарь) are perfect homophones; the k and the gh are both silent.</dd></dl>
+<p>The dark part of every twenty-four hours.</p>
+<ol><li>The baby cried all <em>night</em>.</li><li>We stayed two <em>nights</em> in Denver.</li><li>Drive carefully at <em>night</em>.</li></ol>
+<hr>
+<h3 id="midnight">midnight<a class="hash" href="#midnight" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/ˈmɪdnaɪt/ &middot; <em>MID-nyt</em></dd><dt>Русский</dt><dd>полночь</dd><dt>Countability</dt><dd>uncountable</dd></dl>
+<p>Twelve o'clock at night.</p>
+<ol><li>The store closes at <em>midnight</em>.</li><li>We talked until well past <em>midnight</em>.</li><li>The new rules take effect at <em>midnight</em>.</li></ol>
+<hr>
+<h3 id="noon">noon<a class="hash" href="#noon" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/nuːn/ &middot; <em>NOON</em></dd><dt>Русский</dt><dd>полдень</dd><dt>Countability</dt><dd>uncountable</dd></dl>
+<p>Twelve o'clock in the middle of the day.</p>
+<ol><li>Checkout is at <em>noon</em>.</li><li>By <em>noon</em> the temperature hit ninety.</li><li>The parade starts a little before <em>noon</em>.</li></ol>
+<hr>
+<h3 id="midday">midday<a class="hash" href="#midday" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/ˈmɪddeɪ/ &middot; <em>MID-day</em></dd><dt>Русский</dt><dd>полдень, середина дня</dd><dt>Countability</dt><dd>uncountable</dd></dl>
+<p>The middle part of the day, around twelve o'clock.</p>
+<ol><li>The heat is worst at <em>midday</em>.</li><li>We took a <em>midday</em> break in the shade.</li><li>By <em>midday</em> the fog had burned off.</li></ol>
+<hr>
+<h3 id="daybreak">daybreak<a class="hash" href="#daybreak" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/ˈdeɪbreɪk/ &middot; <em>DAY-brayk</em></dd><dt>Русский</dt><dd>рассвет</dd><dt>Countability</dt><dd>uncountable</dd></dl>
+<p>The time when light first appears in the morning.</p>
+<ol><li>The crew set out at <em>daybreak</em>.</li><li>Birds start singing before <em>daybreak</em>.</li><li>We hiked from <em>daybreak</em> until dark.</li></ol>
+<hr>
+<h3 id="sundown">sundown<a class="hash" href="#sundown" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/ˈsʌndaʊn/ &middot; <em>SUN-down</em></dd><dt>Русский</dt><dd>закат, заход солнца</dd><dt>Countability</dt><dd>uncountable</dd></dl>
+<p>The time when the sun goes below the horizon.</p>
+<ol><li>Be home before <em>sundown</em>.</li><li>The temperature drops fast after <em>sundown</em>.</li><li>They fish from dawn to <em>sundown</em>.</li></ol>
+<hr>
+<h3 id="daytime">daytime<a class="hash" href="#daytime" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/ˈdeɪtaɪm/ &middot; <em>DAY-tym</em></dd><dt>Русский</dt><dd>дневное время</dd><dt>Countability</dt><dd>uncountable</dd></dl>
+<p>The hours between sunrise and sunset.</p>
+<ol><li>Raccoons rarely come out in the <em>daytime</em>.</li><li><em>Daytime</em> temperatures are staying near freezing.</li><li>He works nights and sleeps in the <em>daytime</em>.</li></ol>
+<hr>
+<h3 id="nighttime">nighttime<a class="hash" href="#nighttime" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/ˈnaɪttaɪm/ &middot; <em>NYT-tym</em></dd><dt>Русский</dt><dd>ночное время</dd><dt>Countability</dt><dd>uncountable</dd></dl>
+<p>The hours of darkness.</p>
+<ol><li><em>Nighttime</em> is when the bakery gets busy.</li><li>She's afraid of the <em>nighttime</em> noises outside.</li><li>The park is closed at <em>nighttime</em>.</li></ol>
+<hr>
+<h3 id="eve">eve<a class="hash" href="#eve" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/iːv/ &middot; <em>EEV</em></dd><dt>Русский</dt><dd>канун</dd><dt>Plural</dt><dd><em>eves</em></dd><dt>Countability</dt><dd>countable</dd></dl>
+<p>The day or evening before an important day or event.</p>
+<ol><li>They arrived on the <em>eve</em> of the wedding.</li><li>The team practiced hard on the <em>eve</em> of the big game.</li><li>Talks broke down on the <em>eve</em> of the deadline.</li></ol>
+<hr>
+<h3 id="today">today<a class="hash" href="#today" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/təˈdeɪ/ &middot; <em>tuh-DAY</em></dd><dt>Русский</dt><dd>сегодняшний день</dd><dt>Countability</dt><dd>uncountable</dd></dl>
+<p>This present day.</p>
+<ol><li><em>Today</em> is my last day of work.</li><li><em>Today</em> has been a long one.</li><li>The paper never came <em>today</em>.</li></ol>
+<hr>
+<h3 id="tomorrow">tomorrow<a class="hash" href="#tomorrow" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/təˈmɔːroʊ/ &middot; <em>tuh-MOR-oh</em></dd><dt>Русский</dt><dd>завтрашний день</dd><dt>Countability</dt><dd>uncountable</dd></dl>
+<p>The day after today.</p>
+<ol><li><em>Tomorrow</em> is supposed to be sunny.</li><li>Let's finish this <em>tomorrow</em>.</li><li><em>Tomorrow</em> never seems to come.</li></ol>
+<hr>
+<h3 id="yesterday">yesterday<a class="hash" href="#yesterday" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/ˈjɛstərdeɪ/ &middot; <em>YES-tur-day</em></dd><dt>Русский</dt><dd>вчерашний день</dd><dt>Countability</dt><dd>uncountable</dd></dl>
+<p>The day before today.</p>
+<ol><li><em>Yesterday</em> was busier than usual.</li><li>I mailed the check <em>yesterday</em>.</li><li>It seems like <em>yesterday</em> that they were kids.</li></ol>
+<hr>
+<h3 id="tonight">tonight<a class="hash" href="#tonight" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/təˈnaɪt/ &middot; <em>tuh-NYT</em></dd><dt>Русский</dt><dd>сегодняшний вечер, сегодняшняя ночь</dd><dt>Countability</dt><dd>uncountable</dd></dl>
+<p>The night of the present day.</p>
+<ol><li><em>Tonight</em> is the season finale.</li><li>We're eating out <em>tonight</em>.</li><li><em>Tonight</em> should be clear and cold.</li></ol>
+<hr>
+<h3 id="weekend">weekend<a class="hash" href="#weekend" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/ˈwiːkɛnd/ &middot; <em>WEEK-end</em></dd><dt>Русский</dt><dd>выходные</dd><dt>Plural</dt><dd><em>weekends</em></dd><dt>Countability</dt><dd>countable</dd></dl>
+<p>Saturday and Sunday, when most people don't work.</p>
+<ol><li>We're driving up for the <em>weekend</em>.</li><li>He works most <em>weekends</em>.</li><li>Have a good <em>weekend</em>.</li></ol>
+<hr>
+<h3 id="weekday">weekday<a class="hash" href="#weekday" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/ˈwiːkdeɪ/ &middot; <em>WEEK-day</em></dd><dt>Русский</dt><dd>будний день</dd><dt>Plural</dt><dd><em>weekdays</em></dd><dt>Countability</dt><dd>countable</dd></dl>
+<p>Any day from Monday through Friday.</p>
+<ol><li>The clinic is open on <em>weekdays</em> only.</li><li>Traffic is worse on a <em>weekday</em>.</li><li>She swims every <em>weekday</em> morning.</li></ol>
+<hr>
+<h3 id="workday">workday<a class="hash" href="#workday" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/ˈwɜːrkdeɪ/ &middot; <em>WURK-day</em></dd><dt>Русский</dt><dd>рабочий день</dd><dt>Plural</dt><dd><em>workdays</em></dd><dt>Countability</dt><dd>countable</dd><dt>Contrast</dt><dd>Americans write <em>workday</em>; the British usually say <em>working day</em>.</dd></dl>
+<p>A day people go to work, or the hours worked in one day.</p>
+<ol><li>My <em>workday</em> starts at seven.</li><li>It was a long <em>workday</em>.</li><li>Most <em>workdays</em> end around five.</li></ol>
+<hr>
+<h3 id="workweek">workweek<a class="hash" href="#workweek" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/ˈwɜːrkwiːk/ &middot; <em>WURK-week</em></dd><dt>Русский</dt><dd>рабочая неделя</dd><dt>Plural</dt><dd><em>workweeks</em></dd><dt>Countability</dt><dd>countable</dd><dt>Contrast</dt><dd>American; the British say <em>working week</em>.</dd></dl>
+<p>The days and hours a person works in a week.</p>
+<ol><li>They moved to a four-day <em>workweek</em>.</li><li>A standard <em>workweek</em> is forty hours.</li><li>Long <em>workweeks</em> wore him out.</li></ol>
+<hr>
+<h3 id="holiday">holiday<a class="hash" href="#holiday" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/ˈhɑːlədeɪ/ &middot; <em>HAH-luh-day</em></dd><dt>Русский</dt><dd>праздник, праздничный день</dd><dt>Plural</dt><dd><em>holidays</em></dd><dt>Countability</dt><dd>countable</dd><dt>Contrast</dt><dd>In American English a <em>holiday</em> is a праздник; in British English it also means отпуск, which Americans call a <em>vacation</em>.</dd></dl>
+<p>A day when most people don't work, usually to mark something.</p>
+<ol><li>The bank is closed for the <em>holiday</em>.</li><li>Thanksgiving is my favorite <em>holiday</em>.</li><li>We get ten paid <em>holidays</em> a year.</li></ol>
+<hr>
+<h3 id="birthday">birthday<a class="hash" href="#birthday" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/ˈbɜːrθdeɪ/ &middot; <em>BURTH-day</em></dd><dt>Русский</dt><dd>день рождения</dd><dt>Plural</dt><dd><em>birthdays</em></dd><dt>Countability</dt><dd>countable</dd></dl>
+<p>The yearly return of the date on which someone was born.</p>
+<ol><li>Her <em>birthday</em> is in April.</li><li>We threw him a surprise <em>birthday</em> party.</li><li>The twins share the same <em>birthday</em>.</li></ol>
+<hr>
+<h3 id="anniversary">anniversary<a class="hash" href="#anniversary" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/ˌænəˈvɜːrsəri/ &middot; <em>an-uh-VUR-suh-ree</em></dd><dt>Русский</dt><dd>годовщина</dd><dt>Plural</dt><dd><em>anniversaries</em></dd><dt>Countability</dt><dd>countable</dd></dl>
+<p>The yearly return of the date of a past event.</p>
+<ol><li>They celebrated their tenth wedding <em>anniversary</em>.</li><li>The town marked the <em>anniversary</em> of the fire.</li><li>We never forget those two <em>anniversaries</em>.</li></ol>
+<hr>
+<h3 id="festival">festival<a class="hash" href="#festival" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/ˈfɛstəvəl/ &middot; <em>FES-tuh-vuhl</em></dd><dt>Русский</dt><dd>фестиваль; народное гулянье</dd><dt>Plural</dt><dd><em>festivals</em></dd><dt>Countability</dt><dd>countable</dd></dl>
+<p>A time of public celebration with music, food, or performances.</p>
+<ol><li>The town holds a strawberry <em>festival</em> every June.</li><li>We saw three bands at the <em>festival</em>.</li><li>Summer <em>festivals</em> draw big crowds.</li></ol>
+<hr>
+<h3 id="feast">feast<a class="hash" href="#feast" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/fiːst/ &middot; <em>FEEST</em></dd><dt>Русский</dt><dd>пир; церковный праздник</dd><dt>Plural</dt><dd><em>feasts</em></dd><dt>Countability</dt><dd>countable</dd></dl>
+<p>A large special meal, or a religious day of celebration.</p>
+<ol><li>Grandma put together a real <em>feast</em>.</li><li>The village holds a <em>feast</em> after the harvest.</li><li>Their calendar is full of <em>feasts</em> and fasts.</li></ol>
+<hr>
+<h3 id="jubilee">jubilee<a class="hash" href="#jubilee" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/ˈdʒuːbəliː/ &middot; <em>JOO-buh-lee</em></dd><dt>Русский</dt><dd>юбилей</dd><dt>Plural</dt><dd><em>jubilees</em></dd><dt>Countability</dt><dd>countable</dd><dt>Contrast</dt><dd>Stress the first syllable — JOO-buh-lee, unlike Russian «юбилЕй».</dd></dl>
+<p>A special anniversary, usually of twenty-five or fifty years.</p>
+<ol><li>The college is planning its <em>jubilee</em>.</li><li>A parade marked the queen's <em>jubilee</em>.</li><li>Both <em>jubilees</em> drew thousands of visitors.</li></ol>
+<hr>
+<h3 id="milestone">milestone<a class="hash" href="#milestone" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/ˈmaɪlstoʊn/ &middot; <em>MYL-stohn</em></dd><dt>Русский</dt><dd>веха</dd><dt>Plural</dt><dd><em>milestones</em></dd><dt>Countability</dt><dd>countable</dd></dl>
+<p>An important point or achievement along a longer path.</p>
+<ol><li>Her first solo flight was a real <em>milestone</em>.</li><li>The baby has hit all the usual <em>milestones</em>.</li><li>Turning fifty felt like a <em>milestone</em>.</li></ol>
+<hr>
+<h3 id="timeline">timeline<a class="hash" href="#timeline" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/ˈtaɪmlaɪn/ &middot; <em>TYM-lyn</em></dd><dt>Русский</dt><dd>хронология; график по срокам</dd><dt>Plural</dt><dd><em>timelines</em></dd><dt>Countability</dt><dd>countable</dd></dl>
+<p>A plan or diagram showing when things happen, in order.</p>
+<ol><li>Here's the <em>timeline</em> for the renovation.</li><li>The <em>timeline</em> lists every event of that year.</li><li>Both <em>timelines</em> end with the same deadline.</li></ol>
+<hr>
+<h3 id="chronology">chronology<a class="hash" href="#chronology" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/krəˈnɑːlədʒi/ &middot; <em>kruh-NAH-luh-jee</em></dd><dt>Русский</dt><dd>хронология</dd><dt>Plural</dt><dd><em>chronologies</em></dd><dt>Countability</dt><dd>countable</dd><dt>Contrast</dt><dd>The ch is said like k, and the stress falls on the second syllable — kruh-NAH-luh-jee.</dd></dl>
+<p>The order in which events happened, or a record of that order.</p>
+<ol><li>The report includes a <em>chronology</em> of the accident.</li><li>Nobody could agree on the <em>chronology</em> of that night.</li><li>The book ends with a detailed <em>chronology</em>.</li></ol>
+<hr>
+<h3 id="diary">diary<a class="hash" href="#diary" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/ˈdaɪrri/ &middot; <em>DY-uh-ree</em></dd><dt>Русский</dt><dd>дневник</dd><dt>Plural</dt><dd><em>diaries</em></dd><dt>Countability</dt><dd>countable</dd><dt>Contrast</dt><dd>For Americans a <em>diary</em> is a дневник; the British also use the word for ежедневник, which Americans call a <em>planner</em>.</dd></dl>
+<p>A book in which someone writes down what happens each day.</p>
+<ol><li>She kept a <em>diary</em> all through high school.</li><li>His war <em>diary</em> was published years later.</li><li>Old <em>diaries</em> fill the bottom drawer.</li></ol>
+<hr>
+<h3 id="planner">planner<a class="hash" href="#planner" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/ˈplænər/ &middot; <em>PLAN-ur</em></dd><dt>Русский</dt><dd>ежедневник, планер</dd><dt>Plural</dt><dd><em>planners</em></dd><dt>Countability</dt><dd>countable</dd></dl>
+<p>A book or app for writing down appointments and tasks by date.</p>
+<ol><li>She writes every assignment in her <em>planner</em>.</li><li>I bought a new <em>planner</em> for the school year.</li><li>Paper <em>planners</em> are popular again.</li></ol>
+<hr>
+<h3 id="timetable">timetable<a class="hash" href="#timetable" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/ˈtaɪmteɪbəl/ &middot; <em>TYM-tay-buhl</em></dd><dt>Русский</dt><dd>расписание</dd><dt>Plural</dt><dd><em>timetables</em></dd><dt>Countability</dt><dd>countable</dd></dl>
+<p>A list showing when things are supposed to happen.</p>
+<ol><li>The train <em>timetable</em> changed in the spring.</li><li>We're behind on our <em>timetable</em>.</li><li>Both <em>timetables</em> were posted online.</li></ol>
+<hr>
+<h3 id="reminder">reminder<a class="hash" href="#reminder" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/rɪˈmaɪndər/ &middot; <em>rih-MYN-dur</em></dd><dt>Русский</dt><dd>напоминание</dd><dt>Plural</dt><dd><em>reminders</em></dd><dt>Countability</dt><dd>countable</dd></dl>
+<p>Something that makes you remember to do something.</p>
+<ol><li>Set a <em>reminder</em> on your phone.</li><li>The dentist sent a <em>reminder</em> about my appointment.</li><li>Sticky notes work better for me than digital <em>reminders</em>.</li></ol>
+<hr>
+<h3 id="countdown">countdown<a class="hash" href="#countdown" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/ˈkaʊntdaʊn/ &middot; <em>KOWNT-down</em></dd><dt>Русский</dt><dd>обратный отсчёт</dd><dt>Plural</dt><dd><em>countdowns</em></dd><dt>Countability</dt><dd>countable</dd></dl>
+<p>A count backward to the moment something starts.</p>
+<ol><li>The <em>countdown</em> to launch began at noon.</li><li>Everyone joined the <em>countdown</em> to midnight.</li><li>The app runs <em>countdowns</em> for each exam.</li></ol>
+<hr>
+<h3 id="expiration">expiration<a class="hash" href="#expiration" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/ˌɛkspəˈreɪʃən/ &middot; <em>ek-spuh-RAY-shuhn</em></dd><dt>Русский</dt><dd>истечение срока</dd><dt>Countability</dt><dd>uncountable</dd><dt>Contrast</dt><dd>Americans say <em>expiration date</em>; the British say <em>expiry date</em>.</dd></dl>
+<p>The point at which something stops being valid.</p>
+<ol><li>Check the <em>expiration</em> date on the milk.</li><li>The card is close to <em>expiration</em>.</li><li><em>Expiration</em> of the lease is in June.</li></ol>
+<hr>
+<h3 id="leap-year">leap year<a class="hash" href="#leap-year" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/ˈliːp ˌjɪr/ &middot; <em>LEEP-yeer</em></dd><dt>Русский</dt><dd>високосный год</dd><dt>Plural</dt><dd><em>leap years</em></dd><dt>Countability</dt><dd>countable</dd></dl>
+<p>A year with an extra day in February, coming once every four years.</p>
+<ol><li>This is a <em>leap year</em>, so February has twenty-nine days.</li><li>She was born on the last day of a <em>leap year</em>.</li><li><em>Leap years</em> keep the calendar in step with the seasons.</li></ol>
+<hr>
+<h3 id="time-zone">time zone<a class="hash" href="#time-zone" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/ˈtaɪm ˌzoʊn/ &middot; <em>TYM-zohn</em></dd><dt>Русский</dt><dd>часовой пояс</dd><dt>Plural</dt><dd><em>time zones</em></dd><dt>Countability</dt><dd>countable</dd></dl>
+<p>A region in which all the clocks are set to the same time.</p>
+<ol><li>The country spans four <em>time zones</em>.</li><li>I keep forgetting the <em>time zone</em> difference.</li><li>Set your phone to the local <em>time zone</em>.</li></ol>
+<hr>
+<h3 id="monday">Monday<a class="hash" href="#monday" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/ˈmʌndeɪ/ &middot; <em>MUN-day</em></dd><dt>Русский</dt><dd>понедельник</dd><dt>Plural</dt><dd><em>Mondays</em></dd><dt>Countability</dt><dd>countable</dd></dl>
+<p>The day of the week after Sunday, when the workweek usually starts.</p>
+<ol><li>The report is due <em>Monday</em> morning.</li><li>Nobody around here likes <em>Mondays</em>.</li><li>We start the new schedule on <em>Monday</em>.</li></ol>
+<hr>
+<h3 id="wednesday">Wednesday<a class="hash" href="#wednesday" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/ˈwɛnzdeɪ/ &middot; <em>WENZ-day</em></dd><dt>Русский</dt><dd>среда</dd><dt>Plural</dt><dd><em>Wednesdays</em></dd><dt>Countability</dt><dd>countable</dd><dt>Contrast</dt><dd>Spelled Wed-nes-day but said WENZ-day; the first d and the middle e are silent.</dd></dl>
+<p>The day of the week between Tuesday and Thursday.</p>
+<ol><li>Trash pickup is on <em>Wednesday</em>.</li><li>She has piano lessons every <em>Wednesday</em>.</li><li>Two <em>Wednesdays</em> a month the office closes early.</li></ol>
+<hr>
+<h3 id="thursday">Thursday<a class="hash" href="#thursday" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/ˈθɜːrzdeɪ/ &middot; <em>THURZ-day</em></dd><dt>Русский</dt><dd>четверг</dd><dt>Plural</dt><dd><em>Thursdays</em></dd><dt>Countability</dt><dd>countable</dd></dl>
+<p>The day of the week between Wednesday and Friday.</p>
+<ol><li>The show airs on <em>Thursday</em> nights.</li><li>We meet the first <em>Thursday</em> of every month.</li><li><em>Thursdays</em> are always busy at the shop.</li></ol>
+<hr>
+<h3 id="friday">Friday<a class="hash" href="#friday" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/ˈfraɪdeɪ/ &middot; <em>FRY-day</em></dd><dt>Русский</dt><dd>пятница</dd><dt>Plural</dt><dd><em>Fridays</em></dd><dt>Countability</dt><dd>countable</dd></dl>
+<p>The day of the week between Thursday and Saturday.</p>
+<ol><li>The office closes early on <em>Friday</em>.</li><li>Payday is every other <em>Friday</em>.</li><li><em>Fridays</em> in summer are casual around here.</li></ol>
+<hr>
+<h3 id="saturday">Saturday<a class="hash" href="#saturday" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/ˈsætərdeɪ/ &middot; <em>SAT-ur-day</em></dd><dt>Русский</dt><dd>суббота</dd><dt>Plural</dt><dd><em>Saturdays</em></dd><dt>Countability</dt><dd>countable</dd></dl>
+<p>The day of the week between Friday and Sunday.</p>
+<ol><li>We do laundry on <em>Saturday</em>.</li><li>The farmers market runs every <em>Saturday</em>.</li><li>He works most <em>Saturdays</em>.</li></ol>
+<hr>
+<h3 id="sunday">Sunday<a class="hash" href="#sunday" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/ˈsʌndeɪ/ &middot; <em>SUN-day</em></dd><dt>Русский</dt><dd>воскресенье</dd><dt>Plural</dt><dd><em>Sundays</em></dd><dt>Countability</dt><dd>countable</dd></dl>
+<p>The day of the week between Saturday and Monday.</p>
+<ol><li>Dinner at my parents' is a <em>Sunday</em> tradition.</li><li>The paper is thickest on <em>Sunday</em>.</li><li><em>Sundays</em> always feel too short.</li></ol>
+<hr>
+<h3 id="february">February<a class="hash" href="#february" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/ˈfɛbjuˌɛri/ &middot; <em>FEB-yoo-air-ee</em></dd><dt>Русский</dt><dd>февраль</dd><dt>Plural</dt><dd><em>Februaries</em></dd><dt>Countability</dt><dd>countable</dd><dt>Contrast</dt><dd>Most Americans drop the first r — FEB-yoo-air-ee, not FEB-roo-air-ee.</dd></dl>
+<p>The second month of the year, with twenty-eight or twenty-nine days.</p>
+<ol><li><em>February</em> is the coldest month here.</li><li>Her birthday falls in early <em>February</em>.</li><li>The last two <em>Februaries</em> were unusually mild.</li></ol>
+<hr>
+<h3 id="march">March<a class="hash" href="#march" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/mɑːrtʃ/ &middot; <em>MARCH</em></dd><dt>Русский</dt><dd>март</dd><dt>Plural</dt><dd><em>Marches</em></dd><dt>Countability</dt><dd>countable</dd></dl>
+<p>The third month of the year.</p>
+<ol><li>The snow usually melts by <em>March</em>.</li><li>We're moving at the end of <em>March</em>.</li><li>Spring break falls in <em>March</em> this year.</li></ol>
+<hr>
+<h3 id="april">April<a class="hash" href="#april" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/ˈeɪprəl/ &middot; <em>AY-pruhl</em></dd><dt>Русский</dt><dd>апрель</dd><dt>Plural</dt><dd><em>Aprils</em></dd><dt>Countability</dt><dd>countable</dd></dl>
+<p>The fourth month of the year.</p>
+<ol><li>Taxes are due in <em>April</em>.</li><li><em>April</em> here means rain and mud.</li><li>The wedding is set for late <em>April</em>.</li></ol>
+<hr>
+<h3 id="may">May<a class="hash" href="#may" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/meɪ/ &middot; <em>MAY</em></dd><dt>Русский</dt><dd>май</dd><dt>Plural</dt><dd><em>Mays</em></dd><dt>Countability</dt><dd>countable</dd></dl>
+<p>The fifth month of the year.</p>
+<ol><li>Graduation is the third week of <em>May</em>.</li><li>The garden looks best in <em>May</em>.</li><li>We planted the tomatoes in early <em>May</em>.</li></ol>
+<hr>
+<h3 id="june">June<a class="hash" href="#june" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/dʒuːn/ &middot; <em>JOON</em></dd><dt>Русский</dt><dd>июнь</dd><dt>Plural</dt><dd><em>Junes</em></dd><dt>Countability</dt><dd>countable</dd></dl>
+<p>The sixth month of the year.</p>
+<ol><li>School lets out in <em>June</em>.</li><li>Most weddings around here are in <em>June</em>.</li><li><em>June</em> was hotter than usual this year.</li></ol>
+<hr>
+<h3 id="july">July<a class="hash" href="#july" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/dʒʊˈlaɪ/ &middot; <em>juu-LY</em></dd><dt>Русский</dt><dd>июль</dd><dt>Plural</dt><dd><em>Julys</em></dd><dt>Countability</dt><dd>countable</dd><dt>Contrast</dt><dd>The stress falls on the second syllable — juu-LY, unlike Russian «Июль».</dd></dl>
+<p>The seventh month of the year.</p>
+<ol><li>We go to the lake every <em>July</em>.</li><li><em>July</em> is the busiest month for the shop.</li><li>The fireworks are on the fourth of <em>July</em>.</li></ol>
+<hr>
+<h3 id="august">August<a class="hash" href="#august" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/ˈɔːɡəst/ &middot; <em>AW-guhst</em></dd><dt>Русский</dt><dd>август</dd><dt>Plural</dt><dd><em>Augusts</em></dd><dt>Countability</dt><dd>countable</dd><dt>Contrast</dt><dd>The month is AW-guhst; the rare adjective <em>august</em> (величественный) is aw-GUST.</dd></dl>
+<p>The eighth month of the year.</p>
+<ol><li><em>August</em> is unbearably humid here.</li><li>The store has a big sale every <em>August</em>.</li><li>School starts in late <em>August</em>.</li></ol>
+<hr>
+<h3 id="september">September<a class="hash" href="#september" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/sɛpˈtɛmbər/ &middot; <em>sep-TEM-bur</em></dd><dt>Русский</dt><dd>сентябрь</dd><dt>Plural</dt><dd><em>Septembers</em></dd><dt>Countability</dt><dd>countable</dd></dl>
+<p>The ninth month of the year.</p>
+<ol><li>Classes start the first week of <em>September</em>.</li><li><em>September</em> is my favorite month.</li><li>The leaves begin to turn in late <em>September</em>.</li></ol>
+<hr>
+<h3 id="october">October<a class="hash" href="#october" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/ɑːkˈtoʊbər/ &middot; <em>ahk-TOH-bur</em></dd><dt>Русский</dt><dd>октябрь</dd><dt>Plural</dt><dd><em>Octobers</em></dd><dt>Countability</dt><dd>countable</dd></dl>
+<p>The tenth month of the year.</p>
+<ol><li>The apples are ripe in <em>October</em>.</li><li>We turn the heat on in <em>October</em>.</li><li>Two <em>Octobers</em> ago we had snow before Halloween.</li></ol>
+<hr>
+<h3 id="november">November<a class="hash" href="#november" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/noʊˈvɛmbər/ &middot; <em>noh-VEM-bur</em></dd><dt>Русский</dt><dd>ноябрь</dd><dt>Plural</dt><dd><em>Novembers</em></dd><dt>Countability</dt><dd>countable</dd></dl>
+<p>The eleventh month of the year.</p>
+<ol><li>Elections are held in <em>November</em>.</li><li><em>November</em> is gray and rainy here.</li><li>The lodge opens for the season in <em>November</em>.</li></ol>
+<hr>
+<h3 id="december">December<a class="hash" href="#december" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/dɪˈsɛmbər/ &middot; <em>dih-SEM-bur</em></dd><dt>Русский</dt><dd>декабрь</dd><dt>Plural</dt><dd><em>Decembers</em></dd><dt>Countability</dt><dd>countable</dd></dl>
+<p>The twelfth and last month of the year.</p>
+<ol><li><em>December</em> is our busiest month.</li><li>The days are shortest in late <em>December</em>.</li><li>We fly home every <em>December</em>.</li></ol>
+<hr>
+<h3 id="alarm">alarm<a class="hash" href="#alarm" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/əˈlɑːrm/ &middot; <em>uh-LARM</em></dd><dt>Русский</dt><dd>будильник; сигнал тревоги</dd><dt>Plural</dt><dd><em>alarms</em></dd><dt>Countability</dt><dd>countable</dd></dl>
+<p>A device or sound that wakes you up or warns you.</p>
+<ol><li>My <em>alarm</em> goes off at six.</li><li>The fire <em>alarm</em> went off during class.</li><li>He sets three <em>alarms</em> every night.</li></ol>
+<hr>
+<h3 id="stopwatch">stopwatch<a class="hash" href="#stopwatch" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/ˈstɑːpwɑːtʃ/ &middot; <em>STAHP-wahch</em></dd><dt>Русский</dt><dd>секундомер</dd><dt>Plural</dt><dd><em>stopwatches</em></dd><dt>Countability</dt><dd>countable</dd></dl>
+<p>A watch used to measure exactly how long something takes.</p>
+<ol><li>The coach timed each lap with a <em>stopwatch</em>.</li><li>My phone has a <em>stopwatch</em> built in.</li><li>The two <em>stopwatches</em> showed different times.</li></ol>
+<hr>
+<h3 id="hourglass">hourglass<a class="hash" href="#hourglass" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/ˈaʊrrɡlæs/ &middot; <em>OW-ur-glas</em></dd><dt>Русский</dt><dd>песочные часы</dd><dt>Plural</dt><dd><em>hourglasses</em></dd><dt>Countability</dt><dd>countable</dd><dt>Contrast</dt><dd>The h is silent, as in <em>hour</em> — OW-ur-glas.</dd></dl>
+<p>A glass timer in which sand runs from the top half into the bottom.</p>
+<ol><li>The board game came with a small <em>hourglass</em>.</li><li>The sand ran out of the <em>hourglass</em> in three minutes.</li><li>The shop sells antique <em>hourglasses</em>.</li></ol>
+<hr>
+<h3 id="sundial">sundial<a class="hash" href="#sundial" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/ˈsʌndaɪrl/ &middot; <em>SUN-dy-uhl</em></dd><dt>Русский</dt><dd>солнечные часы</dd><dt>Plural</dt><dd><em>sundials</em></dd><dt>Countability</dt><dd>countable</dd></dl>
+<p>A device that shows the time by the shadow the sun casts.</p>
+<ol><li>There's a stone <em>sundial</em> in the garden.</li><li>A <em>sundial</em> is useless on a cloudy day.</li><li>Old gardens often have <em>sundials</em>.</li></ol>
+<hr>
+<h3 id="pendulum">pendulum<a class="hash" href="#pendulum" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/ˈpɛndʒələm/ &middot; <em>PEN-juh-luhm</em></dd><dt>Русский</dt><dd>маятник</dd><dt>Plural</dt><dd><em>pendulums</em></dd><dt>Countability</dt><dd>countable</dd></dl>
+<p>A hanging weight that swings back and forth, often to keep a clock running.</p>
+<ol><li>The <em>pendulum</em> in the hall clock stopped.</li><li>He watched the <em>pendulum</em> swing for a while.</li><li>Grandfather clocks use heavy <em>pendulums</em>.</li></ol>
+<hr>
+<h3 id="dial">dial<a class="hash" href="#dial" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/ˈdaɪrl/ &middot; <em>DY-uhl</em></dd><dt>Русский</dt><dd>циферблат; круглый регулятор</dd><dt>Plural</dt><dd><em>dials</em></dd><dt>Countability</dt><dd>countable</dd></dl>
+<p>The marked face of a clock or a round control you turn.</p>
+<ol><li>The watch has a plain black <em>dial</em>.</li><li>Turn the <em>dial</em> to set the oven.</li><li>The old radio had two <em>dials</em> on the front.</li></ol>
+<hr>
+<h3 id="chime">chime<a class="hash" href="#chime" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/tʃaɪm/ &middot; <em>CHYM</em></dd><dt>Русский</dt><dd>бой часов, перезвон</dd><dt>Plural</dt><dd><em>chimes</em></dd><dt>Countability</dt><dd>countable</dd></dl>
+<p>A ringing sound made by a clock or a set of bells.</p>
+<ol><li>The clock struck the hour with a soft <em>chime</em>.</li><li>We could hear the <em>chimes</em> of the church bells.</li><li>Their doorbell has an old-fashioned <em>chime</em>.</li></ol>
+<hr>
+<h3 id="snooze">snooze<a class="hash" href="#snooze" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/snuːz/ &middot; <em>SNOOZ</em></dd><dt>Русский</dt><dd>дремота; кнопка повтора сигнала</dd><dt>Plural</dt><dd><em>snoozes</em></dd><dt>Countability</dt><dd>countable</dd></dl>
+<p>A short light sleep, or the alarm button that delays waking up.</p>
+<ol><li>He took a quick <em>snooze</em> after lunch.</li><li>I hit <em>snooze</em> three times this morning.</li><li>Short <em>snoozes</em> just leave me groggy.</li></ol>
+<hr>
+<h3 id="break">break<a class="hash" href="#break" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/breɪk/ &middot; <em>BRAYK</em></dd><dt>Русский</dt><dd>перерыв</dd><dt>Plural</dt><dd><em>breaks</em></dd><dt>Countability</dt><dd>countable</dd><dt>Contrast</dt><dd><em>Break</em> and <em>brake</em> (тормоз) are perfect homophones in American English.</dd></dl>
+<p>A short period of rest from work or activity.</p>
+<ol><li>Let's take a ten-minute <em>break</em>.</li><li>She reads during her lunch <em>break</em>.</li><li>The teachers get two <em>breaks</em> a day.</li></ol>
+<hr>
+<h3 id="recess">recess<a class="hash" href="#recess" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/ˈriːsɛs/ &middot; <em>REE-ses</em></dd><dt>Русский</dt><dd>перемена (в школе); перерыв в заседании</dd><dt>Plural</dt><dd><em>recesses</em></dd><dt>Countability</dt><dd>countable</dd><dt>Contrast</dt><dd>Americans stress the first syllable — REE-ses; the British say ri-SESS.</dd></dl>
+<p>A break during a school day or a formal meeting.</p>
+<ol><li>The kids play kickball at <em>recess</em>.</li><li>The judge called a short <em>recess</em>.</li><li>Congress is on summer <em>recess</em>.</li></ol>
+<hr>
+<h3 id="intermission">intermission<a class="hash" href="#intermission" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/ˌɪntərˈmɪʃən/ &middot; <em>in-tur-MISH-uhn</em></dd><dt>Русский</dt><dd>антракт</dd><dt>Plural</dt><dd><em>intermissions</em></dd><dt>Countability</dt><dd>countable</dd><dt>Contrast</dt><dd>The American word; the British call the same break an <em>interval</em>.</dd></dl>
+<p>A short break in the middle of a play, concert, or movie.</p>
+<ol><li>We got drinks at <em>intermission</em>.</li><li>The play has one twenty-minute <em>intermission</em>.</li><li>Both <em>intermissions</em> were short.</li></ol>
+<hr>
+<h3 id="pause">pause<a class="hash" href="#pause" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/pɔːz/ &middot; <em>PAWZ</em></dd><dt>Русский</dt><dd>пауза</dd><dt>Plural</dt><dd><em>pauses</em></dd><dt>Countability</dt><dd>countable</dd><dt>Contrast</dt><dd><em>Pause</em> and <em>paws</em> (лапы) sound exactly alike.</dd></dl>
+<p>A short stop in speaking or in doing something.</p>
+<ol><li>There was a long <em>pause</em> before she answered.</li><li>He spoke with awkward <em>pauses</em>.</li><li>After a brief <em>pause</em>, the music started again.</li></ol>
+<hr>
+<h3 id="delay">delay<a class="hash" href="#delay" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/dɪˈleɪ/ &middot; <em>dih-LAY</em></dd><dt>Русский</dt><dd>задержка, опоздание</dd><dt>Plural</dt><dd><em>delays</em></dd><dt>Countability</dt><dd>countable</dd></dl>
+<p>A period of waiting caused by something running late.</p>
+<ol><li>Snow caused a two-hour <em>delay</em>.</li><li>There were long <em>delays</em> at the airport.</li><li>The work is going ahead without further <em>delay</em>.</li></ol>
+<hr>
+<h3 id="gap">gap<a class="hash" href="#gap" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/ɡæp/ &middot; <em>GAP</em></dd><dt>Русский</dt><dd>промежуток, перерыв</dd><dt>Plural</dt><dd><em>gaps</em></dd><dt>Countability</dt><dd>countable</dd></dl>
+<p>An empty stretch of time between two things.</p>
+<ol><li>There's a three-year <em>gap</em> between the sisters.</li><li>He took a <em>gap</em> year before college.</li><li>Fill the <em>gaps</em> in your schedule with study time.</li></ol>
+<hr>
+<h3 id="lull">lull<a class="hash" href="#lull" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/lʌl/ &middot; <em>LUL</em></dd><dt>Русский</dt><dd>затишье</dd><dt>Plural</dt><dd><em>lulls</em></dd><dt>Countability</dt><dd>countable</dd></dl>
+<p>A quiet period between busier ones.</p>
+<ol><li>We fixed the roof during a <em>lull</em> in the storm.</li><li>There was a <em>lull</em> in the conversation.</li><li>Business has <em>lulls</em> every January.</li></ol>
+<hr>
+<h3 id="respite">respite<a class="hash" href="#respite" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/ˈrɛspɪt/ &middot; <em>RES-pit</em></dd><dt>Русский</dt><dd>передышка</dd><dt>Plural</dt><dd><em>respites</em></dd><dt>Countability</dt><dd>countable</dd><dt>Contrast</dt><dd>Americans say RES-pit, with the stress up front; the British often say ri-SPYT.</dd></dl>
+<p>A short break from something difficult or unpleasant.</p>
+<ol><li>The rain gave us a brief <em>respite</em> from the heat.</li><li>Caregivers need a <em>respite</em> now and then.</li><li>There was no <em>respite</em> from the noise all week.</li></ol>
+<hr>
+<h3 id="hiatus">hiatus<a class="hash" href="#hiatus" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/haɪˈeɪtəs/ &middot; <em>hy-AY-tuhs</em></dd><dt>Русский</dt><dd>перерыв, пауза</dd><dt>Plural</dt><dd><em>hiatuses</em></dd><dt>Countability</dt><dd>countable</dd></dl>
+<p>A pause during which something stops for a while.</p>
+<ol><li>The band is on <em>hiatus</em> until next spring.</li><li>She came back to work after a two-year <em>hiatus</em>.</li><li>The show returned from its <em>hiatus</em> in June.</li></ol>
+<hr>
+<h3 id="layover">layover<a class="hash" href="#layover" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/ˈleɪoʊvər/ &middot; <em>LAY-oh-vur</em></dd><dt>Русский</dt><dd>стыковка, ожидание пересадки</dd><dt>Plural</dt><dd><em>layovers</em></dd><dt>Countability</dt><dd>countable</dd><dt>Contrast</dt><dd>American; the British say <em>stopover</em>.</dd></dl>
+<p>A wait between two flights or legs of a trip.</p>
+<ol><li>We have a four-hour <em>layover</em> in Atlanta.</li><li>Short <em>layovers</em> are risky in winter.</li><li>I slept through the whole <em>layover</em>.</li></ol>
+<hr>
+<h3 id="downtime">downtime<a class="hash" href="#downtime" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/ˈdaʊntaɪm/ &middot; <em>DOWN-tym</em></dd><dt>Русский</dt><dd>простой; свободное время</dd><dt>Countability</dt><dd>uncountable</dd></dl>
+<p>Time when work stops, or free time for resting.</p>
+<ol><li>The outage caused hours of <em>downtime</em>.</li><li>I need some <em>downtime</em> this weekend.</li><li>There's very little <em>downtime</em> on this job.</li></ol>
+<hr>
+<h3 id="timeout">timeout<a class="hash" href="#timeout" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/ˈtaɪmaʊt/ &middot; <em>TYM-owt</em></dd><dt>Русский</dt><dd>тайм-аут, перерыв</dd><dt>Plural</dt><dd><em>timeouts</em></dd><dt>Countability</dt><dd>countable</dd></dl>
+<p>A short break called during a game or activity.</p>
+<ol><li>The coach called a <em>timeout</em>.</li><li>Each team gets three <em>timeouts</em> per half.</li><li>She put her son in <em>timeout</em> for hitting.</li></ol>
+<hr>
+<h3 id="halftime">halftime<a class="hash" href="#halftime" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/ˈhæftaɪm/ &middot; <em>HAF-tym</em></dd><dt>Русский</dt><dd>перерыв между таймами</dd><dt>Countability</dt><dd>uncountable</dd><dt>Contrast</dt><dd>The l is silent — HAF-tym, just as in <em>half</em>.</dd></dl>
+<p>The break in the middle of a sports game.</p>
+<ol><li>The band plays at <em>halftime</em>.</li><li>We were down by ten at <em>halftime</em>.</li><li><em>Halftime</em> lasts fifteen minutes.</li></ol>
+<hr>
+<h3 id="interim">interim<a class="hash" href="#interim" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/ˈɪntərəm/ &middot; <em>IN-tur-uhm</em></dd><dt>Русский</dt><dd>промежуточный период</dd><dt>Countability</dt><dd>uncountable</dd></dl>
+<p>The stretch of time between two events.</p>
+<ol><li>In the <em>interim</em>, keep working on the draft.</li><li>Nothing much changed in the <em>interim</em>.</li><li>She ran the department in the <em>interim</em>.</li></ol>
+<hr>
+<h3 id="meantime">meantime<a class="hash" href="#meantime" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/ˈmiːntaɪm/ &middot; <em>MEEN-tym</em></dd><dt>Русский</dt><dd>промежуток времени (in the meantime — тем временем)</dd><dt>Countability</dt><dd>uncountable</dd></dl>
+<p>The time between now and some later event.</p>
+<ol><li>The doctor is running late; in the <em>meantime</em>, fill out this form.</li><li>Dinner is at eight; in the <em>meantime</em>, help yourself to bread.</li><li>We move in Friday, and in the <em>meantime</em> we're staying with friends.</li></ol>
+<hr>
+<h3 id="aftermath">aftermath<a class="hash" href="#aftermath" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/ˈæftərmæθ/ &middot; <em>AF-tur-math</em></dd><dt>Русский</dt><dd>последствия; период после события</dd><dt>Countability</dt><dd>uncountable</dd></dl>
+<p>The period and conditions that follow a bad event.</p>
+<ol><li>The town rebuilt in the <em>aftermath</em> of the flood.</li><li>In the <em>aftermath</em>, everyone looked for someone to blame.</li><li>The <em>aftermath</em> of the storm dragged on for months.</li></ol>
+<hr>
+<h3 id="bedtime">bedtime<a class="hash" href="#bedtime" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/ˈbɛdtaɪm/ &middot; <em>BED-tym</em></dd><dt>Русский</dt><dd>время сна</dd><dt>Plural</dt><dd><em>bedtimes</em></dd><dt>Countability</dt><dd>countable</dd></dl>
+<p>The time when someone usually goes to sleep.</p>
+<ol><li>It's past your <em>bedtime</em>.</li><li>We read a story every night at <em>bedtime</em>.</li><li>The two kids have different <em>bedtimes</em>.</li></ol>
+<hr>
+<h3 id="lunchtime">lunchtime<a class="hash" href="#lunchtime" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/ˈlʌntʃtaɪm/ &middot; <em>LUNCH-tym</em></dd><dt>Русский</dt><dd>обеденное время</dd><dt>Countability</dt><dd>uncountable</dd></dl>
+<p>The time in the middle of the day when people eat lunch.</p>
+<ol><li>Call me at <em>lunchtime</em>.</li><li>The line gets long right around <em>lunchtime</em>.</li><li>He skipped <em>lunchtime</em> to finish the report.</li></ol>
+<hr>
+<h3 id="dinnertime">dinnertime<a class="hash" href="#dinnertime" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/ˈdɪnərtaɪm/ &middot; <em>DIN-ur-tym</em></dd><dt>Русский</dt><dd>время ужина</dd><dt>Countability</dt><dd>uncountable</dd></dl>
+<p>The time in the evening when people eat dinner.</p>
+<ol><li>Be home by <em>dinnertime</em>.</li><li>The phone always rings at <em>dinnertime</em>.</li><li>We talk about our day at <em>dinnertime</em>.</li></ol>
+<hr>
+<h3 id="curfew">curfew<a class="hash" href="#curfew" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/ˈkɜːrfjuː/ &middot; <em>KUR-fyoo</em></dd><dt>Русский</dt><dd>комендантский час</dd><dt>Plural</dt><dd><em>curfews</em></dd><dt>Countability</dt><dd>countable</dd></dl>
+<p>A rule requiring people to be home or off the streets by a set time.</p>
+<ol><li>My <em>curfew</em> was eleven o'clock in high school.</li><li>The city set a <em>curfew</em> after the flooding.</li><li>Both towns lifted their <em>curfews</em> last week.</li></ol>
+<hr>
+<h3 id="springtime">springtime<a class="hash" href="#springtime" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/ˈsprɪŋtaɪm/ &middot; <em>SPRING-tym</em></dd><dt>Русский</dt><dd>весенняя пора</dd><dt>Countability</dt><dd>uncountable</dd></dl>
+<p>The season of spring.</p>
+<ol><li>The orchard is beautiful in <em>springtime</em>.</li><li><em>Springtime</em> here means mud and rain.</li><li>They always visit in the <em>springtime</em>.</li></ol>
+<hr>
+<h3 id="summertime">summertime<a class="hash" href="#summertime" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/ˈsʌmərtaɪm/ &middot; <em>SUM-ur-tym</em></dd><dt>Русский</dt><dd>летняя пора</dd><dt>Countability</dt><dd>uncountable</dd></dl>
+<p>The season of summer.</p>
+<ol><li>In the <em>summertime</em> we swim every day.</li><li><em>Summertime</em> traffic near the beach is terrible.</li><li>The shop stays open later in <em>summertime</em>.</li></ol>
+<hr>
+<h3 id="wintertime">wintertime<a class="hash" href="#wintertime" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/ˈwɪntərtaɪm/ &middot; <em>WIN-tur-tym</em></dd><dt>Русский</dt><dd>зимняя пора</dd><dt>Countability</dt><dd>uncountable</dd></dl>
+<p>The season of winter.</p>
+<ol><li>The mountain road is closed in <em>wintertime</em>.</li><li><em>Wintertime</em> means shoveling every week.</li><li>Heating bills double in the <em>wintertime</em>.</li></ol>
+<hr>
+<h3 id="wartime">wartime<a class="hash" href="#wartime" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/ˈwɔːrtaɪm/ &middot; <em>WOR-tym</em></dd><dt>Русский</dt><dd>военное время</dd><dt>Countability</dt><dd>uncountable</dd></dl>
+<p>A period during which a country is at war.</p>
+<ol><li>Her grandmother grew up in <em>wartime</em>.</li><li><em>Wartime</em> rationing limited sugar and gas.</li><li>These photographs date from <em>wartime</em>.</li></ol>
+<hr>
+<h3 id="peacetime">peacetime<a class="hash" href="#peacetime" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/ˈpiːstaɪm/ &middot; <em>PEES-tym</em></dd><dt>Русский</dt><dd>мирное время</dd><dt>Countability</dt><dd>uncountable</dd></dl>
+<p>A period during which a country is not at war.</p>
+<ol><li>The base was quiet in <em>peacetime</em>.</li><li><em>Peacetime</em> budgets are much smaller.</li><li>He served in both war and <em>peacetime</em>.</li></ol>
+<hr>
+<h3 id="childhood">childhood<a class="hash" href="#childhood" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/ˈtʃaɪldhʊd/ &middot; <em>CHYLD-huud</em></dd><dt>Русский</dt><dd>детство</dd><dt>Plural</dt><dd><em>childhoods</em></dd><dt>Countability</dt><dd>countable</dd></dl>
+<p>The time of a person's life when they are a child.</p>
+<ol><li>She had a happy <em>childhood</em> on a farm.</li><li><em>Childhood</em> friends still write to him.</li><li>Their <em>childhoods</em> could not have been more different.</li></ol>
+<hr>
+<h3 id="infancy">infancy<a class="hash" href="#infancy" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/ˈɪnfənsi/ &middot; <em>IN-fuhn-see</em></dd><dt>Русский</dt><dd>младенчество</dd><dt>Countability</dt><dd>uncountable</dd></dl>
+<p>The earliest period of a baby's life.</p>
+<ol><li>He was adopted in <em>infancy</em>.</li><li>The condition is usually caught in <em>infancy</em>.</li><li>The technology is still in its <em>infancy</em>.</li></ol>
+<hr>
+<h3 id="adolescence">adolescence<a class="hash" href="#adolescence" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/ˌædəˈlɛsəns/ &middot; <em>ad-uh-LES-uhns</em></dd><dt>Русский</dt><dd>подростковый возраст, отрочество</dd><dt>Countability</dt><dd>uncountable</dd></dl>
+<p>The years between childhood and adulthood.</p>
+<ol><li><em>Adolescence</em> was rough for both of them.</li><li>The book is about a boy in early <em>adolescence</em>.</li><li>Sleep patterns change during <em>adolescence</em>.</li></ol>
+<hr>
+<h3 id="youth">youth<a class="hash" href="#youth" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/juːθ/ &middot; <em>YOOTH</em></dd><dt>Русский</dt><dd>юность; молодой человек</dd><dt>Plural</dt><dd><em>youths</em></dd><dt>Countability</dt><dd>both — countable and uncountable with different meanings</dd></dl>
+<p>The time when someone is young, or, as a countable noun, a young person.</p>
+<ol><li>He played guitar in his <em>youth</em>.</li><li>Three <em>youths</em> were seen leaving the store.</li><li>The program keeps <em>youth</em> out of trouble after school.</li></ol>
+<hr>
+<h3 id="adulthood">adulthood<a class="hash" href="#adulthood" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/əˈdʌlthʊd/ &middot; <em>uh-DULT-huud</em></dd><dt>Русский</dt><dd>взрослая жизнь, зрелость</dd><dt>Countability</dt><dd>uncountable</dd></dl>
+<p>The part of life after a person has grown up.</p>
+<ol><li>She reached <em>adulthood</em> before her parents divorced.</li><li>Many friendships fade in <em>adulthood</em>.</li><li>The illness usually appears in early <em>adulthood</em>.</li></ol>
+<hr>
+<h3 id="prime">prime<a class="hash" href="#prime" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/praɪm/ &middot; <em>PRYM</em></dd><dt>Русский</dt><dd>расцвет сил</dd><dt>Countability</dt><dd>uncountable</dd></dl>
+<p>The best and strongest years of someone's life or career.</p>
+<ol><li>He was a great runner in his <em>prime</em>.</li><li>The company is past its <em>prime</em>.</li><li>She's in the <em>prime</em> of her career.</li></ol>
+<hr>
+<h3 id="heyday">heyday<a class="hash" href="#heyday" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/ˈheɪdeɪ/ &middot; <em>HAY-day</em></dd><dt>Русский</dt><dd>расцвет, лучшие годы</dd><dt>Countability</dt><dd>uncountable</dd></dl>
+<p>The period when someone or something was most successful.</p>
+<ol><li>In its <em>heyday</em>, the mill employed two thousand people.</li><li>The theater's <em>heyday</em> was in the 1930s.</li><li>Radio drama had its <em>heyday</em> long before television.</li></ol>
+<hr>
+<h3 id="antiquity">antiquity<a class="hash" href="#antiquity" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/ænˈtɪkwəti/ &middot; <em>an-TIK-wuh-tee</em></dd><dt>Русский</dt><dd>древность, античность</dd><dt>Countability</dt><dd>uncountable</dd></dl>
+<p>Ancient times, especially the age of Greece and Rome.</p>
+<ol><li>The custom dates back to <em>antiquity</em>.</li><li>Scholars of <em>antiquity</em> still argue about the text.</li><li>Olive oil has been traded since <em>antiquity</em>.</li></ol>
+<hr>
+<h3 id="dynasty">dynasty<a class="hash" href="#dynasty" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/ˈdaɪnəsti/ &middot; <em>DY-nuh-stee</em></dd><dt>Русский</dt><dd>династия</dd><dt>Plural</dt><dd><em>dynasties</em></dd><dt>Countability</dt><dd>countable</dd><dt>Contrast</dt><dd>Americans say DY-nuh-stee; the British say DIN-uh-stee.</dd></dl>
+<p>A line of rulers or leaders from the same family.</p>
+<ol><li>The <em>dynasty</em> ruled for three hundred years.</li><li>That team built a <em>dynasty</em> in the 1990s.</li><li>Several <em>dynasties</em> rose and fell in the valley.</li></ol>
+<hr>
+<h3 id="reign">reign<a class="hash" href="#reign" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/reɪn/ &middot; <em>RAYN</em></dd><dt>Русский</dt><dd>правление, царствование</dd><dt>Plural</dt><dd><em>reigns</em></dd><dt>Countability</dt><dd>countable</dd><dt>Contrast</dt><dd><em>Reign</em>, <em>rain</em> and <em>rein</em> (повод) all sound exactly alike.</dd></dl>
+<p>The period during which a king or queen rules.</p>
+<ol><li>The cathedral was built during her <em>reign</em>.</li><li>His <em>reign</em> lasted only two years.</li><li>Both <em>reigns</em> ended in war.</li></ol>
+<hr>
+<h3 id="past">past<a class="hash" href="#past" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/pæst/ &middot; <em>PAST</em></dd><dt>Русский</dt><dd>прошлое</dd><dt>Countability</dt><dd>uncountable</dd></dl>
+<p>The time before now.</p>
+<ol><li>You can't change the <em>past</em>.</li><li>In the <em>past</em>, letters took weeks to arrive.</li><li>She rarely talks about her <em>past</em>.</li></ol>
+<hr>
+<h3 id="present">present<a class="hash" href="#present" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/ˈprɛzənt/ &middot; <em>PREZ-uhnt</em></dd><dt>Русский</dt><dd>настоящее, настоящее время</dd><dt>Countability</dt><dd>uncountable</dd><dt>Contrast</dt><dd>The noun is PREZ-uhnt; the verb <em>present</em> (представлять) is pri-ZENT.</dd></dl>
+<p>The time that is happening now.</p>
+<ol><li>Try to live in the <em>present</em>.</li><li>Up to the <em>present</em>, nobody has complained.</li><li>The <em>present</em> is all we really have.</li></ol>
+<hr>
+<h3 id="future">future<a class="hash" href="#future" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/ˈfjuːtʃər/ &middot; <em>FYOO-chur</em></dd><dt>Русский</dt><dd>будущее</dd><dt>Countability</dt><dd>uncountable</dd></dl>
+<p>The time that is still to come.</p>
+<ol><li>Nobody knows what the <em>future</em> holds.</li><li>In the near <em>future</em> we'll need a bigger office.</li><li>She's saving for the <em>future</em>.</li></ol>
+<hr>
+<h3 id="eternity">eternity<a class="hash" href="#eternity" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/ɪˈtɜːrnəti/ &middot; <em>ih-TUR-nuh-tee</em></dd><dt>Русский</dt><dd>вечность</dd><dt>Countability</dt><dd>uncountable</dd></dl>
+<p>Time without end, or a period that feels endless.</p>
+<ol><li>The wait felt like an <em>eternity</em>.</li><li>They promised to love each other for <em>eternity</em>.</li><li>Those ten minutes seemed like an <em>eternity</em>.</li></ol>
+<hr>
+<h3 id="frequency">frequency<a class="hash" href="#frequency" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/ˈfriːkwənsi/ &middot; <em>FREE-kwuhn-see</em></dd><dt>Русский</dt><dd>частота (повторения)</dd><dt>Countability</dt><dd>uncountable</dd></dl>
+<p>How often something happens.</p>
+<ol><li>The storms are increasing in <em>frequency</em>.</li><li>He calls home with surprising <em>frequency</em>.</li><li>The <em>frequency</em> of the meetings dropped to once a month.</li></ol>
+<hr>
+<h3 id="routine">routine<a class="hash" href="#routine" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/ruːˈtiːn/ &middot; <em>roo-TEEN</em></dd><dt>Русский</dt><dd>распорядок, привычный режим</dd><dt>Plural</dt><dd><em>routines</em></dd><dt>Countability</dt><dd>countable</dd><dt>Contrast</dt><dd>The stress falls on the second syllable — roo-TEEN, unlike Russian «рутИна», and the English word is neutral, not negative.</dd></dl>
+<p>A regular way of doing things in the same order.</p>
+<ol><li>My morning <em>routine</em> takes about an hour.</li><li>The kids do better with a <em>routine</em>.</li><li>New <em>routines</em> take a few weeks to stick.</li></ol>
+<hr>
+<h3 id="punctuality">punctuality<a class="hash" href="#punctuality" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/ˌpʌŋktʃuˈæləti/ &middot; <em>punk-choo-AL-uh-tee</em></dd><dt>Русский</dt><dd>пунктуальность</dd><dt>Countability</dt><dd>uncountable</dd></dl>
+<p>The habit of arriving or doing things exactly on time.</p>
+<ol><li><em>Punctuality</em> matters a lot in this office.</li><li>He's known for his <em>punctuality</em>.</li><li>Her <em>punctuality</em> has slipped since the baby came.</li></ol>
+<hr>
+<h3 id="tardiness">tardiness<a class="hash" href="#tardiness" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/ˈtɑːrdinəs/ &middot; <em>TAR-dee-nuhs</em></dd><dt>Русский</dt><dd>опоздания, непунктуальность</dd><dt>Countability</dt><dd>uncountable</dd></dl>
+<p>The habit of being late.</p>
+<ol><li>The school sent a letter about her <em>tardiness</em>.</li><li>Repeated <em>tardiness</em> can cost you the job.</li><li><em>Tardiness</em> counts against his grade.</li></ol>
+<hr>
+<h3 id="urgency">urgency<a class="hash" href="#urgency" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/ˈɜːrdʒənsi/ &middot; <em>UR-juhn-see</em></dd><dt>Русский</dt><dd>срочность</dd><dt>Countability</dt><dd>uncountable</dd></dl>
+<p>The quality of needing to be dealt with right away.</p>
+<ol><li>There's a real <em>urgency</em> to fixing the roof.</li><li>He spoke with growing <em>urgency</em>.</li><li>The letter had a note of <em>urgency</em> to it.</li></ol>
+<hr>
+<h3 id="hurry">hurry<a class="hash" href="#hurry" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/ˈhɜːri/ &middot; <em>HUR-ee</em></dd><dt>Русский</dt><dd>спешка</dd><dt>Countability</dt><dd>uncountable</dd></dl>
+<p>The state of needing to move or act fast.</p>
+<ol><li>What's the <em>hurry</em>?</li><li>We left the house in a <em>hurry</em>.</li><li>There's no <em>hurry</em> — take your time.</li></ol>
+<hr>
+<h3 id="rush">rush<a class="hash" href="#rush" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/rʌʃ/ &middot; <em>RUSH</em></dd><dt>Русский</dt><dd>спешка; наплыв, час пик</dd><dt>Countability</dt><dd>uncountable</dd></dl>
+<p>A period of hurrying, or a sudden busy stretch of time.</p>
+<ol><li>Avoid the morning <em>rush</em> if you can.</li><li>There's no <em>rush</em> on the paperwork.</li><li>The store hires extra help for the holiday <em>rush</em>.</li></ol>
+<hr>
+<h3 id="wait">wait<a class="hash" href="#wait" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/weɪt/ &middot; <em>WAYT</em></dd><dt>Русский</dt><dd>ожидание</dd><dt>Plural</dt><dd><em>waits</em></dd><dt>Countability</dt><dd>countable</dd><dt>Contrast</dt><dd><em>Wait</em> and <em>weight</em> (вес) are perfect homophones in American English.</dd></dl>
+<p>A period spent waiting for something.</p>
+<ol><li>It was a two-hour <em>wait</em> at the clinic.</li><li>The <em>wait</em> for a table was worth it.</li><li>Long <em>waits</em> frustrate customers.</li></ol>
+<hr>
+<h3 id="occasion">occasion<a class="hash" href="#occasion" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/əˈkeɪʒən/ &middot; <em>uh-KAY-zhuhn</em></dd><dt>Русский</dt><dd>случай, повод; событие</dd><dt>Plural</dt><dd><em>occasions</em></dd><dt>Countability</dt><dd>countable</dd></dl>
+<p>A particular time when something happens, often a special one.</p>
+<ol><li>We save this wine for special <em>occasions</em>.</li><li>I've met him on several <em>occasions</em>.</li><li>Her graduation was quite an <em>occasion</em>.</li></ol>
+<hr>
+<h3 id="event">event<a class="hash" href="#event" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/ɪˈvɛnt/ &middot; <em>ih-VENT</em></dd><dt>Русский</dt><dd>событие; мероприятие</dd><dt>Plural</dt><dd><em>events</em></dd><dt>Countability</dt><dd>countable</dd></dl>
+<p>Something that happens, especially something planned or important.</p>
+<ol><li>The fundraiser is our biggest <em>event</em> of the year.</li><li><em>Events</em> moved faster than anyone expected.</li><li>In the <em>event</em> of rain, we'll move indoors.</li></ol>
+<hr>
+<h3 id="onset">onset<a class="hash" href="#onset" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/ˈɑːnsɛt/ &middot; <em>AHN-set</em></dd><dt>Русский</dt><dd>начало, наступление</dd><dt>Countability</dt><dd>uncountable</dd></dl>
+<p>The beginning of something, usually something unpleasant.</p>
+<ol><li>The <em>onset</em> of winter came early this year.</li><li>Symptoms appear within days of <em>onset</em>.</li><li>The <em>onset</em> of the illness was sudden.</li></ol>
+<hr>
+<h3 id="outset">outset<a class="hash" href="#outset" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/ˈaʊtsɛt/ &middot; <em>OWT-set</em></dd><dt>Русский</dt><dd>начало</dd><dt>Countability</dt><dd>uncountable</dd></dl>
+<p>The very beginning of something.</p>
+<ol><li>From the <em>outset</em>, the plan was too expensive.</li><li>She warned us at the <em>outset</em>.</li><li>At the <em>outset</em> nobody knew what to expect.</li></ol>
+<hr>
+<h3 id="beginning">beginning<a class="hash" href="#beginning" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/bɪˈɡɪnɪŋ/ &middot; <em>bih-GIN-ing</em></dd><dt>Русский</dt><dd>начало</dd><dt>Plural</dt><dd><em>beginnings</em></dd><dt>Countability</dt><dd>countable</dd></dl>
+<p>The first part or point of something.</p>
+<ol><li>Start at the <em>beginning</em> of the chapter.</li><li>The <em>beginning</em> of the movie is slow.</li><li>Great companies often have humble <em>beginnings</em>.</li></ol>
+<hr>
+<h3 id="start">start<a class="hash" href="#start" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/stɑːrt/ &middot; <em>START</em></dd><dt>Русский</dt><dd>начало, старт</dd><dt>Plural</dt><dd><em>starts</em></dd><dt>Countability</dt><dd>countable</dd></dl>
+<p>The point at which something begins.</p>
+<ol><li>We got off to a bad <em>start</em>.</li><li>The race has a staggered <em>start</em>.</li><li>After two false <em>starts</em>, the engine caught.</li></ol>
+<hr>
+<h3 id="end">end<a class="hash" href="#end" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/ɛnd/ &middot; <em>END</em></dd><dt>Русский</dt><dd>конец, окончание</dd><dt>Plural</dt><dd><em>ends</em></dd><dt>Countability</dt><dd>countable</dd></dl>
+<p>The final part or point of something.</p>
+<ol><li>Stay until the <em>end</em> of the meeting.</li><li>Rent is due at the <em>end</em> of the month.</li><li>Both <em>ends</em> of the trip went smoothly.</li></ol>
+<hr>
+<h3 id="tenure">tenure<a class="hash" href="#tenure" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/ˈtɛnjər/ &middot; <em>TEN-yur</em></dd><dt>Русский</dt><dd>срок пребывания в должности</dd><dt>Countability</dt><dd>uncountable</dd></dl>
+<p>The period during which someone holds a job or an office.</p>
+<ol><li>Crime fell during her <em>tenure</em> as mayor.</li><li>He earned <em>tenure</em> after six years of teaching.</li><li>His <em>tenure</em> at the company was short.</li></ol>
+<hr>
+<h3 id="sabbatical">sabbatical<a class="hash" href="#sabbatical" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/səˈbætɪkəl/ &middot; <em>suh-BAT-ih-kuhl</em></dd><dt>Русский</dt><dd>творческий отпуск, длительный отпуск</dd><dt>Plural</dt><dd><em>sabbaticals</em></dd><dt>Countability</dt><dd>countable</dd></dl>
+<p>A long break from work, usually for study or travel.</p>
+<ol><li>She's on <em>sabbatical</em> in Italy this year.</li><li>The professor took a <em>sabbatical</em> to finish his book.</li><li>Few companies offer <em>sabbaticals</em>.</li></ol>
+<hr>
+<h3 id="furlough">furlough<a class="hash" href="#furlough" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/ˈfɜːrloʊ/ &middot; <em>FUR-loh</em></dd><dt>Русский</dt><dd>вынужденный неоплачиваемый отпуск; увольнительная</dd><dt>Plural</dt><dd><em>furloughs</em></dd><dt>Countability</dt><dd>countable</dd><dt>Contrast</dt><dd>The ough is said like oh — FUR-loh, not FUR-luff.</dd></dl>
+<p>A period when workers are sent home without pay, or leave granted to a soldier.</p>
+<ol><li>Thousands of staff were put on <em>furlough</em>.</li><li>He came home on a two-week <em>furlough</em>.</li><li>The <em>furloughs</em> ended when the funding came through.</li></ol>
+<hr>
+<h3 id="probation">probation<a class="hash" href="#probation" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/proʊˈbeɪʃən/ &middot; <em>proh-BAY-shuhn</em></dd><dt>Русский</dt><dd>испытательный срок</dd><dt>Countability</dt><dd>uncountable</dd></dl>
+<p>A trial period at a new job, or supervision ordered instead of prison.</p>
+<ol><li>New hires are on <em>probation</em> for ninety days.</li><li>He got two years of <em>probation</em> instead of jail.</li><li>She finished her <em>probation</em> without a single complaint.</li></ol></div></main>
+<button class="themebtn" id="themeBtn">Dark</button>
+<script>
+const tb=document.getElementById('themeBtn');
+function setTheme(x){document.documentElement.dataset.theme=x;tb.textContent=x==='dark'?'Light':'Dark';
+ try{localStorage.setItem('site-theme',x)}catch(e){}}
+tb.onclick=()=>setTheme(document.documentElement.dataset.theme==='dark'?'light':'dark');
+try{const s=localStorage.getItem('site-theme');
+ setTheme(s||(matchMedia('(prefers-color-scheme: dark)').matches?'dark':'light'))}catch(e){setTheme('light')}
+</script></body></html>

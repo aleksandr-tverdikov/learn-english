@@ -24,7 +24,7 @@ Each class folder is a self-contained README with the same ten sections: what th
 
 ## The Noun Dictionary
 
-**[01-nouns/catalog/](parts-of-speech/01-nouns/catalog/README.md)** — **3,052 nouns** in 50 groups, built in **two tiers**, because nouns are an open class and the two halves of the problem are different.
+**[01-nouns/catalog/](parts-of-speech/01-nouns/catalog/README.md)** — **5,976 nouns** in 50 groups, built in **two tiers**, because nouns are an open class and the two halves of the problem are different.
 
 The **grammar tier** (groups 1–23, 694 entries) covers the nouns that *misbehave* — the part a learner has to memorize because no rule predicts it. Each gets the full treatment: numbered senses, contrast notes, a dozen examples. Three systems, grouped by what goes wrong:
 
@@ -33,7 +33,7 @@ The **grammar tier** (groups 1–23, 694 entries) covers the nouns that *misbeha
 - **Agreement and counting** (groups 17–20) — collective nouns and the American/British split (*the team **is*** vs *the team **are***), compound plurals (*mothers-in-law*), the partitives that let you count the uncountable (*a piece of advice*, *a pinch of salt*), and nationality nouns (*two Japanese*, but *two Spaniards*)
 - **Naming and marking** (groups 21–23) — the collective nouns for animals (*a pride of lions*, *a murder of crows*), the gender pairs and which of them are dying (*actor* has swallowed *actress*; *firefighter* has replaced *fireman*), and proper nouns and brand names, where the capital letter is the whole grammar (*aspirin* lost its trademark; *Kleenex* has not)
 
-The **core-vocabulary tier** (groups 24–55, 2,358 entries) covers the nouns you simply need to *know*: frequent, regular, countable words organized by semantic field — the body, health, food, the house, clothing, tools, materials, landscape, weather, animals, money, work, and the rest. A regular noun like *doctor* has no grammatical story, so these entries are deliberately lean: pronunciation, Russian, plural, countability, a one-line gloss, three examples. A **Contrast** line appears only where the word hides a real trap — *plumber* has a silent *b*, *rapids* is always plural, Americans play *sports* where the British play *sport*.
+The **core-vocabulary tier** (groups 24–108, 5,282 entries) covers the nouns you simply need to *know*: frequent, regular, countable words organized by semantic field — the body, health, food, the house, clothing, tools, materials, landscape, weather, animals, money, work, time, measurement, law, government, science, technology, transport, travel, war, religion, art, education, and the rest. A regular noun like *doctor* has no grammatical story, so these entries are deliberately lean: pronunciation, Russian, plural, countability, a one-line gloss, three examples. A **Contrast** line appears only where the word hides a real trap — *plumber* has a silent *b*, *rapids* is always plural, Americans play *sports* where the British play *sport*.
 
 A word never appears in both tiers: if it misbehaves, the full entry wins and the lean one is dropped.
 

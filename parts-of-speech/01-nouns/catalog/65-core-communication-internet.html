@@ -1,0 +1,296 @@
+<!DOCTYPE html>
+<html lang="en"><head>
+<meta charset="utf-8"><meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Core vocabulary: communication and the internet</title>
+<style>
+:root{--bg:#faf9f7;--surface:#fff;--surface2:#f2f0ec;--border:#e2ded6;--text:#1a1815;
+--dim:#5f594f;--faint:#8a8377;--accent:#8a5a3b;--measure:72ch}
+@media(prefers-color-scheme:dark){:root{--bg:#14140f;--surface:#1d1d17;--surface2:#25251d;
+--border:#33332a;--text:#eeeae1;--dim:#a8a293;--faint:#7d776b;--accent:#d09b72}}
+:root[data-theme=dark]{--bg:#14140f;--surface:#1d1d17;--surface2:#25251d;--border:#33332a;
+--text:#eeeae1;--dim:#a8a293;--faint:#7d776b;--accent:#d09b72}
+:root[data-theme=light]{--bg:#faf9f7;--surface:#fff;--surface2:#f2f0ec;--border:#e2ded6;
+--text:#1a1815;--dim:#5f594f;--faint:#8a8377;--accent:#8a5a3b}
+*{box-sizing:border-box}
+body{margin:0;background:var(--bg);color:var(--text);
+font:17px/1.72 ui-serif,Georgia,"Iowan Old Style",Palatino,serif;-webkit-font-smoothing:antialiased}
+.wrap{max-width:min(var(--measure),100%);margin:0 auto;padding:0 22px}
+nav.crumb{border-bottom:1px solid var(--border);padding:13px 0;font-size:13.5px;
+font-family:-apple-system,BlinkMacSystemFont,"Segoe UI",sans-serif;position:sticky;top:0;background:var(--bg);z-index:20}
+nav.crumb .wrap{max-width:none;display:flex;gap:9px;align-items:center;flex-wrap:wrap}
+nav.crumb a{color:var(--dim);text-decoration:none}
+nav.crumb a:hover{color:var(--accent)}
+nav.crumb .sep{color:var(--faint)}
+main{padding:8px 0 80px}
+h1{font-size:clamp(28px,5vw,38px);line-height:1.15;letter-spacing:-.015em;margin:34px 0 18px}
+h2{font-size:25px;margin:46px 0 14px;letter-spacing:-.01em;padding-bottom:7px;border-bottom:1px solid var(--border)}
+h3{font-size:19px;margin:34px 0 10px;color:var(--accent)}
+h4{font-size:16px;margin:24px 0 8px;font-family:-apple-system,sans-serif}
+p{margin:0 0 16px}
+a{color:var(--accent)}
+.hash{opacity:0;margin-left:8px;font-weight:400;font-size:.65em;text-decoration:none;color:var(--faint)}
+h2:hover .hash,h3:hover .hash{opacity:1}
+blockquote{margin:0 0 20px;padding:14px 18px;background:var(--surface2);
+border-left:3px solid var(--accent);border-radius:0 8px 8px 0}
+blockquote p:last-child{margin-bottom:0}
+ol,ul{margin:0 0 18px;padding-left:26px}
+li{margin-bottom:8px}
+li>ul,li>ol{margin:8px 0 0}
+code{font-family:ui-monospace,SFMono-Regular,Menlo,Consolas,monospace;font-size:.87em;
+background:var(--surface2);padding:1px 5px;border-radius:4px}
+pre{background:var(--surface2);border:1px solid var(--border);border-radius:9px;
+padding:15px 17px;overflow-x:auto;margin:0 0 20px}
+pre code{background:none;padding:0;font-size:13px;line-height:1.6}
+.tw{overflow-x:auto;margin:0 0 22px;border:1px solid var(--border);border-radius:9px}
+table{border-collapse:collapse;width:100%;font-size:15px;
+font-family:-apple-system,BlinkMacSystemFont,"Segoe UI",sans-serif}
+th,td{padding:10px 14px;border-bottom:1px solid var(--border);vertical-align:top}
+th{background:var(--surface2);font-size:12px;text-transform:uppercase;
+letter-spacing:.06em;color:var(--dim);font-weight:700;white-space:nowrap}
+tbody tr:last-child td{border-bottom:none}
+hr{border:none;border-top:1px solid var(--border);margin:38px 0}
+details{background:var(--surface2);border:1px solid var(--border);border-radius:9px;
+padding:13px 17px;margin:0 0 20px}
+summary{cursor:pointer;font-weight:600;font-family:-apple-system,sans-serif;font-size:15px}
+details[open] summary{margin-bottom:12px}
+del{color:var(--faint)}
+dl.fields{margin:0 0 20px;padding:0}
+dl.fields dt{font-family:-apple-system,BlinkMacSystemFont,"Segoe UI",sans-serif;
+font-size:11px;letter-spacing:.11em;text-transform:uppercase;color:var(--faint);
+font-weight:700;margin:14px 0 4px}
+dl.fields dt:first-child{margin-top:0}
+dl.fields dd{margin:0;font-size:16px;color:var(--dim);line-height:1.62}
+dl.fields dd em{color:var(--text)}
+dl.fields dt.ru{color:var(--accent)}
+dl.fields dd strong{color:var(--text)}
+.toc{background:var(--surface2);border:1px solid var(--border);border-radius:10px;
+padding:16px 20px;margin:26px 0 34px;font-family:-apple-system,sans-serif;font-size:14px}
+.toc b{display:block;font-size:11px;letter-spacing:.12em;text-transform:uppercase;
+color:var(--faint);margin-bottom:9px}
+.toc a{display:block;padding:3px 0;color:var(--dim);text-decoration:none}
+.toc a:hover{color:var(--accent)}
+.themebtn{position:fixed;right:18px;bottom:18px;z-index:60;font-family:-apple-system,sans-serif;
+font-size:12.5px;font-weight:600;cursor:pointer;background:var(--surface);border:1px solid var(--border);
+border-radius:99px;padding:9px 16px;color:var(--text)}
+@media(max-width:600px){body{font-size:16px}.wrap{padding:0 17px}}
+</style></head><body>
+<nav class="crumb"><div class="wrap"><a href="../../../index.html">Learn English</a><span class="sep">/</span><a href="../../README.html">Parts of speech</a><span class="sep">/</span><a href="../README.html">01-nouns</a><span class="sep">/</span><span>catalog</span></div></nav>
+<main><div class="wrap"><h1 id="core-vocabulary-communication-and-the-internet">Core vocabulary: communication and the internet<a class="hash" href="#core-vocabulary-communication-and-the-internet" aria-label="link">#</a></h1>
+<blockquote><p>The everyday nouns of communication and the internet — pronunciation, Russian, plural, and three examples each.</p></blockquote>
+<p><a href="../README.html">← The grammar of nouns</a> &middot; <a href="README.html">All groups</a></p>
+<p>Part of the <strong>core-vocabulary tier</strong>. Groups 1–23 cover the nouns that misbehave; this tier covers the nouns you simply need to know. Entries are deliberately lean, because a regular countable noun has no grammatical story to tell. A <strong>Contrast</strong> line appears only where the word hides a genuine trap.</p>
+<p>Where a word in this field <em>does</em> misbehave, it lives in the grammar tier instead and is not repeated here.</p>
+<hr>
+<h3 id="wifi">wifi<a class="hash" href="#wifi" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/ˈwaɪfaɪ/ &middot; <em>WY-fy</em></dd><dt>Русский</dt><dd>вайфай, беспроводной интернет</dd><dt>Countability</dt><dd>uncountable</dd></dl>
+<p>A wireless connection that lets devices reach the internet.</p>
+<ol><li>Does the hotel have free <em>wifi</em>?</li><li>The <em>wifi</em> keeps cutting out in the back bedroom.</li><li>I gave my neighbor the <em>wifi</em> password.</li></ol>
+<hr>
+<h3 id="click">click<a class="hash" href="#click" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/klɪk/ &middot; <em>KLIK</em></dd><dt>Русский</dt><dd>щелчок, клик</dd><dt>Plural</dt><dd><em>clicks</em></dd><dt>Countability</dt><dd>countable</dd></dl>
+<p>One press of a mouse button, or one visit made by clicking a link.</p>
+<ol><li>The whole form takes about three <em>clicks</em>.</li><li>Every <em>click</em> on that ad costs the company money.</li><li>One more <em>click</em> and you're done.</li></ol>
+<hr>
+<h3 id="homepage">homepage<a class="hash" href="#homepage" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/ˈhoʊmpeɪdʒ/ &middot; <em>HOHM-payj</em></dd><dt>Русский</dt><dd>главная страница (сайта)</dd><dt>Plural</dt><dd><em>homepages</em></dd><dt>Countability</dt><dd>countable</dd></dl>
+<p>The first page you see when you open a website.</p>
+<ol><li>The sale is right there on the <em>homepage</em>.</li><li>They redesigned the <em>homepage</em> last spring.</li><li>Most <em>homepages</em> load in under two seconds.</li></ol>
+<hr>
+<h3 id="hacking">hacking<a class="hash" href="#hacking" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/ˈhækɪŋ/ &middot; <em>HAK-ing</em></dd><dt>Русский</dt><dd>взлом (компьютерный)</dd><dt>Countability</dt><dd>uncountable</dd></dl>
+<p>The act of breaking into computer systems without permission.</p>
+<ol><li>He got two years in prison for <em>hacking</em>.</li><li>The report blames <em>hacking</em> for the outage.</li><li><em>Hacking</em> into a school's grade system is still a crime.</li></ol>
+<hr>
+<h3 id="provider">provider<a class="hash" href="#provider" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/prəˈvaɪdər/ &middot; <em>pruh-VY-dur</em></dd><dt>Русский</dt><dd>провайдер, поставщик услуг</dd><dt>Plural</dt><dd><em>providers</em></dd><dt>Countability</dt><dd>countable</dd></dl>
+<p>A company that sells internet or phone service.</p>
+<ol><li>We switched <em>providers</em> to save thirty dollars a month.</li><li>My internet <em>provider</em> raised the price again.</li><li>There's only one <em>provider</em> in this whole town.</li></ol>
+<hr>
+<h3 id="roaming">roaming<a class="hash" href="#roaming" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/ˈroʊmɪŋ/ &middot; <em>ROH-ming</em></dd><dt>Русский</dt><dd>роуминг</dd><dt>Countability</dt><dd>uncountable</dd></dl>
+<p>The use of a phone on another company's network, usually in another country.</p>
+<ol><li>Turn off <em>roaming</em> before you land.</li><li><em>Roaming</em> charges cost her two hundred dollars.</li><li>The plan includes <em>roaming</em> in Canada and Mexico.</li></ol>
+<hr>
+<h3 id="sender">sender<a class="hash" href="#sender" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/ˈsɛndər/ &middot; <em>SEN-dur</em></dd><dt>Русский</dt><dd>отправитель</dd><dt>Plural</dt><dd><em>senders</em></dd><dt>Countability</dt><dd>countable</dd></dl>
+<p>The person or address that a message comes from.</p>
+<ol><li>Always check the <em>sender</em> before you open an attachment.</li><li>The <em>sender</em> used a fake company name.</li><li>You can block <em>senders</em> you don't recognize.</li></ol>
+<hr>
+<h3 id="recipient">recipient<a class="hash" href="#recipient" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/rɪˈsɪpiənt/ &middot; <em>rih-SIP-ee-unt</em></dd><dt>Русский</dt><dd>получатель, адресат</dd><dt>Plural</dt><dd><em>recipients</em></dd><dt>Countability</dt><dd>countable</dd></dl>
+<p>The person a message or package is sent to.</p>
+<ol><li>Add the <em>recipient</em> before you hit send.</li><li>The email went out to two thousand <em>recipients</em>.</li><li>The <em>recipient</em> never picked up the package.</li></ol>
+<hr>
+<h3 id="post">post<a class="hash" href="#post" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/poʊst/ &middot; <em>POHST</em></dd><dt>Русский</dt><dd>пост, публикация</dd><dt>Plural</dt><dd><em>posts</em></dd><dt>Countability</dt><dd>countable</dd></dl>
+<p>Something written or shared on a website for others to see.</p>
+<ol><li>Her <em>post</em> about the storm got shared everywhere.</li><li>He deletes his <em>posts</em> after a few days.</li><li>That was the first <em>post</em> on the whole page.</li></ol>
+<hr>
+<h3 id="comment">comment<a class="hash" href="#comment" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/ˈkɑːmɛnt/ &middot; <em>KAH-ment</em></dd><dt>Русский</dt><dd>комментарий</dd><dt>Plural</dt><dd><em>comments</em></dd><dt>Countability</dt><dd>countable</dd></dl>
+<p>A short written response left under a post or article.</p>
+<ol><li>Read the <em>comments</em> if you want to lose your faith in people.</li><li>She left a nice <em>comment</em> on my photo.</li><li>The paper turned off <em>comments</em> on that story.</li></ol>
+<hr>
+<h3 id="reply">reply<a class="hash" href="#reply" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/rɪˈplaɪ/ &middot; <em>rih-PLY</em></dd><dt>Русский</dt><dd>ответ</dd><dt>Plural</dt><dd><em>replies</em></dd><dt>Countability</dt><dd>countable</dd></dl>
+<p>An answer sent back to a message or comment.</p>
+<ol><li>I sent it Monday and still haven't gotten a <em>reply</em>.</li><li>His <em>replies</em> are always one word long.</li><li>Send a quick <em>reply</em> so she knows you saw it.</li></ol>
+<hr>
+<h3 id="messenger">messenger<a class="hash" href="#messenger" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/ˈmɛsəndʒər/ &middot; <em>MES-un-jur</em></dd><dt>Русский</dt><dd>мессенджер; посыльный</dd><dt>Plural</dt><dd><em>messengers</em></dd><dt>Countability</dt><dd>countable</dd></dl>
+<p>An app for sending messages, or a person who carries messages.</p>
+<ol><li>Send me the address on <em>messenger</em>.</li><li>A bike <em>messenger</em> dropped off the contract.</li><li>She uses two different <em>messengers</em> for work and family.</li></ol>
+<hr>
+<h3 id="troll">troll<a class="hash" href="#troll" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/troʊl/ &middot; <em>TROHL</em></dd><dt>Русский</dt><dd>тролль (интернет-провокатор)</dd><dt>Plural</dt><dd><em>trolls</em></dd><dt>Countability</dt><dd>countable</dd></dl>
+<p>Someone who posts rude things online just to upset people.</p>
+<ol><li>Don't feed the <em>troll</em>.</li><li>The <em>trolls</em> found her post within an hour.</li><li>One <em>troll</em> can ruin a whole comment section.</li></ol>
+<hr>
+<h3 id="chatbot">chatbot<a class="hash" href="#chatbot" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/ˈtʃætbɑːt/ &middot; <em>CHAT-baht</em></dd><dt>Русский</dt><dd>чат-бот</dd><dt>Plural</dt><dd><em>chatbots</em></dd><dt>Countability</dt><dd>countable</dd></dl>
+<p>A program that holds a typed conversation with a person.</p>
+<ol><li>The <em>chatbot</em> couldn't answer my question.</li><li>Most airlines make you fight a <em>chatbot</em> first.</li><li>They replaced two support agents with <em>chatbots</em>.</li></ol>
+<hr>
+<h3 id="paywall">paywall<a class="hash" href="#paywall" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/ˈpeɪwɔːl/ &middot; <em>PAY-wawl</em></dd><dt>Русский</dt><dd>платный доступ, пейволл</dd><dt>Plural</dt><dd><em>paywalls</em></dd><dt>Countability</dt><dd>countable</dd></dl>
+<p>A block on a website that makes you pay before you can read more.</p>
+<ol><li>The article is behind a <em>paywall</em>.</li><li>Most big papers put up a <em>paywall</em> years ago.</li><li>Some <em>paywalls</em> let you read three stories a month.</li></ol>
+<hr>
+<h3 id="clickbait">clickbait<a class="hash" href="#clickbait" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/ˈklɪkbeɪt/ &middot; <em>KLIK-bayt</em></dd><dt>Русский</dt><dd>кликбейт (завлекающие заголовки)</dd><dt>Countability</dt><dd>uncountable</dd></dl>
+<p>Headlines written to make people click, not to tell them anything.</p>
+<ol><li>That headline is pure <em>clickbait</em>.</li><li>The site runs on <em>clickbait</em> and ads.</li><li>I stopped reading anything that looks like <em>clickbait</em>.</li></ol>
+<hr>
+<h3 id="livestream">livestream<a class="hash" href="#livestream" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/ˈlaɪvstriːm/ &middot; <em>LYVE-streem</em></dd><dt>Русский</dt><dd>прямая трансляция</dd><dt>Plural</dt><dd><em>livestreams</em></dd><dt>Countability</dt><dd>countable</dd></dl>
+<p>A video broadcast over the internet as it happens.</p>
+<ol><li>The church puts a <em>livestream</em> up every Sunday.</li><li>Her <em>livestream</em> had four thousand people watching.</li><li>They ran two <em>livestreams</em> at the same time.</li></ol>
+<hr>
+<h3 id="like">like<a class="hash" href="#like" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/laɪk/ &middot; <em>LYKE</em></dd><dt>Русский</dt><dd>лайк, отметка «нравится»</dd><dt>Plural</dt><dd><em>likes</em></dd><dt>Countability</dt><dd>countable</dd></dl>
+<p>A click that shows you approve of a post.</p>
+<ol><li>The photo got two hundred <em>likes</em> overnight.</li><li>He counts every <em>like</em> on every post.</li><li>One <em>like</em> from her and he was happy all day.</li></ol>
+<hr>
+<h3 id="setting">setting<a class="hash" href="#setting" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/ˈsɛtɪŋ/ &middot; <em>SET-ing</em></dd><dt>Русский</dt><dd>настройка</dd><dt>Plural</dt><dd><em>settings</em></dd><dt>Countability</dt><dd>countable</dd></dl>
+<p>One of the choices you can change to control how something works.</p>
+<ol><li>Change that <em>setting</em> and the noise stops.</li><li>All my <em>settings</em> got wiped in the update.</li><li>There's a <em>setting</em> to turn off autoplay.</li></ol>
+<hr>
+<h3 id="option">option<a class="hash" href="#option" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/ˈɑːpʃən/ &middot; <em>AHP-shun</em></dd><dt>Русский</dt><dd>вариант, опция</dd><dt>Plural</dt><dd><em>options</em></dd><dt>Countability</dt><dd>countable</dd></dl>
+<p>One of the choices available to you.</p>
+<ol><li>Pick the second <em>option</em> on the list.</li><li>You have three <em>options</em> for shipping.</li><li>Canceling isn't really an <em>option</em> right now.</li></ol>
+<hr>
+<h3 id="megabyte">megabyte<a class="hash" href="#megabyte" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/ˈmɛɡəbaɪt/ &middot; <em>MEG-uh-byte</em></dd><dt>Русский</dt><dd>мегабайт</dd><dt>Plural</dt><dd><em>megabytes</em></dd><dt>Countability</dt><dd>countable</dd></dl>
+<p>A unit of computer storage equal to about a million bytes.</p>
+<ol><li>The email bounced because the file was over ten <em>megabytes</em>.</li><li>A photo is usually a few <em>megabytes</em>.</li><li>One <em>megabyte</em> used to feel like a lot.</li></ol>
+<hr>
+<h3 id="telephone">telephone<a class="hash" href="#telephone" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/ˈtɛləfoʊn/ &middot; <em>TEL-uh-fohn</em></dd><dt>Русский</dt><dd>телефон</dd><dt>Plural</dt><dd><em>telephones</em></dd><dt>Countability</dt><dd>countable</dd></dl>
+<p>A device for speaking to someone far away over a line or network.</p>
+<ol><li>There's a <em>telephone</em> on the wall by the register.</li><li>The old <em>telephones</em> in the building still work.</li><li>He wrote down the <em>telephone</em> number on a napkin.</li></ol>
+<hr>
+<h3 id="text">text<a class="hash" href="#text" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/tɛkst/ &middot; <em>TEKST</em></dd><dt>Русский</dt><dd>СМС, текстовое сообщение</dd><dt>Plural</dt><dd><em>texts</em></dd><dt>Countability</dt><dd>countable</dd></dl>
+<p>A short written message sent from one phone to another.</p>
+<ol><li>Send me a <em>text</em> when you land.</li><li>I have four unread <em>texts</em> from my mom.</li><li>His last <em>text</em> just said okay.</li></ol>
+<hr>
+<h3 id="contact">contact<a class="hash" href="#contact" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/ˈkɑːntækt/ &middot; <em>KAHN-takt</em></dd><dt>Русский</dt><dd>контакт (запись в телефоне)</dd><dt>Plural</dt><dd><em>contacts</em></dd><dt>Countability</dt><dd>countable</dd><dt>Contrast</dt><dd>The noun is stressed on the first syllable, KAHN-takt; the verb is kun-TAKT.</dd></dl>
+<p>A person whose phone number or address you have saved.</p>
+<ol><li>Add me as a <em>contact</em> so I don't go to spam.</li><li>I lost all my <em>contacts</em> when the phone died.</li><li>She has a <em>contact</em> at the newspaper.</li></ol>
+<hr>
+<h3 id="directory">directory<a class="hash" href="#directory" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/dəˈrɛktəri/ &middot; <em>duh-REK-tuh-ree</em></dd><dt>Русский</dt><dd>справочник; каталог (папок)</dd><dt>Plural</dt><dd><em>directories</em></dd><dt>Countability</dt><dd>countable</dd></dl>
+<p>A list of names, numbers, or files arranged in order.</p>
+<ol><li>Her number isn't in the <em>directory</em>.</li><li>The building <em>directory</em> is next to the elevator.</li><li>The files are in two different <em>directories</em>.</li></ol>
+<hr>
+<h3 id="operator">operator<a class="hash" href="#operator" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/ˈɑːpəreɪtər/ &middot; <em>AH-puh-ray-tur</em></dd><dt>Русский</dt><dd>оператор (связи)</dd><dt>Plural</dt><dd><em>operators</em></dd><dt>Countability</dt><dd>countable</dd></dl>
+<p>A person or company that connects or manages phone calls and service.</p>
+<ol><li>Press zero to reach an <em>operator</em>.</li><li>The <em>operator</em> put me through to billing.</li><li>Three <em>operators</em> share the same tower.</li></ol>
+<hr>
+<h3 id="interference">interference<a class="hash" href="#interference" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/ˌɪntərˈfɪrəns/ &middot; <em>in-tur-FEER-uns</em></dd><dt>Русский</dt><dd>помехи</dd><dt>Countability</dt><dd>uncountable</dd></dl>
+<p>Unwanted signals that disturb a radio, phone, or wireless connection.</p>
+<ol><li>The microwave causes <em>interference</em> with the wifi.</li><li>There's too much <em>interference</em> to hear you.</li><li>Power lines can create <em>interference</em>.</li></ol>
+<hr>
+<h3 id="receiver">receiver<a class="hash" href="#receiver" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/rɪˈsiːvər/ &middot; <em>rih-SEE-vur</em></dd><dt>Русский</dt><dd>трубка (телефонная); приёмник</dd><dt>Plural</dt><dd><em>receivers</em></dd><dt>Countability</dt><dd>countable</dd></dl>
+<p>The part of a phone you hold to your ear, or a device that picks up signals.</p>
+<ol><li>She picked up the <em>receiver</em> and said nothing.</li><li>The radio <em>receiver</em> needs a new antenna.</li><li>Both <em>receivers</em> were off the hook.</li></ol>
+<hr>
+<h3 id="message">message<a class="hash" href="#message" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/ˈmɛsɪdʒ/ &middot; <em>MES-ij</em></dd><dt>Русский</dt><dd>сообщение</dd><dt>Plural</dt><dd><em>messages</em></dd><dt>Countability</dt><dd>countable</dd></dl>
+<p>A piece of information sent from one person to another.</p>
+<ol><li>I left a <em>message</em> with his secretary.</li><li>She sent three <em>messages</em> before I woke up.</li><li>The <em>message</em> never went through.</li></ol>
+<hr>
+<h3 id="letter">letter<a class="hash" href="#letter" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/ˈlɛtər/ &middot; <em>LET-ur</em></dd><dt>Русский</dt><dd>письмо</dd><dt>Plural</dt><dd><em>letters</em></dd><dt>Countability</dt><dd>countable</dd></dl>
+<p>A written message sent to someone, usually by mail.</p>
+<ol><li>He wrote her a <em>letter</em> every week that summer.</li><li>The <em>letters</em> were tied with a ribbon in a shoebox.</li><li>A <em>letter</em> from the IRS is never good news.</li></ol>
+<hr>
+<h3 id="package">package<a class="hash" href="#package" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/ˈpækɪdʒ/ &middot; <em>PAK-ij</em></dd><dt>Русский</dt><dd>посылка, бандероль</dd><dt>Plural</dt><dd><em>packages</em></dd><dt>Countability</dt><dd>countable</dd></dl>
+<p>Something wrapped or boxed and sent through the mail.</p>
+<ol><li>A <em>package</em> is sitting on the porch.</li><li>Two <em>packages</em> went to the wrong house.</li><li>The <em>package</em> should get there by Thursday.</li></ol>
+<hr>
+<h3 id="delivery">delivery<a class="hash" href="#delivery" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/dɪˈlɪvəri/ &middot; <em>dih-LIV-uh-ree</em></dd><dt>Русский</dt><dd>доставка</dd><dt>Plural</dt><dd><em>deliveries</em></dd><dt>Countability</dt><dd>countable</dd></dl>
+<p>The bringing of mail, packages, or goods to a place.</p>
+<ol><li>The <em>delivery</em> is running a day late.</li><li>They make <em>deliveries</em> twice a week.</li><li>Free <em>delivery</em> on orders over thirty dollars.</li></ol>
+<hr>
+<h3 id="fax">fax<a class="hash" href="#fax" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/fæks/ &middot; <em>FAKS</em></dd><dt>Русский</dt><dd>факс</dd><dt>Plural</dt><dd><em>faxes</em></dd><dt>Countability</dt><dd>countable</dd></dl>
+<p>A copy of a document sent over a phone line, or the machine that sends it.</p>
+<ol><li>The clinic still wants the form by <em>fax</em>.</li><li>Two <em>faxes</em> came in overnight.</li><li>Nobody in the office knows how to work the <em>fax</em>.</li></ol>
+<hr>
+<h3 id="announcement">announcement<a class="hash" href="#announcement" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/əˈnaʊnsmənt/ &middot; <em>uh-NOWNS-munt</em></dd><dt>Русский</dt><dd>объявление, сообщение</dd><dt>Plural</dt><dd><em>announcements</em></dd><dt>Countability</dt><dd>countable</dd></dl>
+<p>A public statement telling people something has happened or will happen.</p>
+<ol><li>They made the <em>announcement</em> over the intercom.</li><li>The morning <em>announcements</em> take five minutes.</li><li>We're expecting an <em>announcement</em> from the mayor today.</li></ol>
+<hr>
+<h3 id="notice">notice<a class="hash" href="#notice" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/ˈnoʊtɪs/ &middot; <em>NOH-tus</em></dd><dt>Русский</dt><dd>уведомление, объявление</dd><dt>Plural</dt><dd><em>notices</em></dd><dt>Countability</dt><dd>countable</dd></dl>
+<p>A written or printed statement giving information or a warning.</p>
+<ol><li>There's a <em>notice</em> posted on the front door.</li><li>The bank mailed <em>notices</em> to every account holder.</li><li>We got a <em>notice</em> that rent is going up.</li></ol>
+<hr>
+<h3 id="conversation">conversation<a class="hash" href="#conversation" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/ˌkɑːnvərˈseɪʃən/ &middot; <em>kahn-vur-SAY-shun</em></dd><dt>Русский</dt><dd>разговор, беседа</dd><dt>Plural</dt><dd><em>conversations</em></dd><dt>Countability</dt><dd>countable</dd></dl>
+<p>A talk between two or more people.</p>
+<ol><li>We had a long <em>conversation</em> about the move.</li><li>I overheard two <em>conversations</em> about layoffs.</li><li>That's a <em>conversation</em> for another day.</li></ol>
+<hr>
+<h3 id="response">response<a class="hash" href="#response" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/rɪˈspɑːns/ &middot; <em>rih-SPAHNS</em></dd><dt>Русский</dt><dd>ответ, отклик</dd><dt>Plural</dt><dd><em>responses</em></dd><dt>Countability</dt><dd>countable</dd></dl>
+<p>Something said, written, or done as an answer or reaction.</p>
+<ol><li>Her <em>response</em> came within the hour.</li><li>We got over five hundred <em>responses</em> to the survey.</li><li>There's been no <em>response</em> from the company.</li></ol>
+<hr>
+<h3 id="rumor">rumor<a class="hash" href="#rumor" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/ˈruːmər/ &middot; <em>ROO-mur</em></dd><dt>Русский</dt><dd>слух</dd><dt>Plural</dt><dd><em>rumors</em></dd><dt>Countability</dt><dd>countable</dd><dt>Contrast</dt><dd>American spelling rumor; British rumour.</dd></dl>
+<p>A story people pass around that may not be true.</p>
+<ol><li>There's a <em>rumor</em> that the plant is closing.</li><li><em>Rumors</em> spread through the office by lunchtime.</li><li>He heard the <em>rumor</em> from three different people.</li></ol>
+<hr>
+<h3 id="support">support<a class="hash" href="#support" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/səˈpɔːrt/ &middot; <em>suh-PORT</em></dd><dt>Русский</dt><dd>поддержка, техподдержка</dd><dt>Countability</dt><dd>uncountable</dd></dl>
+<p>Help given to customers who have trouble with a product or service.</p>
+<ol><li>I was on hold with <em>support</em> for forty minutes.</li><li>Technical <em>support</em> is only open on weekdays.</li><li>Their customer <em>support</em> is the reason I stayed.</li></ol>
+<hr>
+<h3 id="tutorial">tutorial<a class="hash" href="#tutorial" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/tuːˈtɔːriəl/ &middot; <em>too-TOR-ee-ul</em></dd><dt>Русский</dt><dd>обучающее руководство, туториал</dd><dt>Plural</dt><dd><em>tutorials</em></dd><dt>Countability</dt><dd>countable</dd></dl>
+<p>A lesson or guide that shows you step by step how to do something.</p>
+<ol><li>I fixed the sink by watching a <em>tutorial</em>.</li><li>The app opens with a short <em>tutorial</em>.</li><li>There are hundreds of <em>tutorials</em> for that program.</li></ol>
+<hr>
+<h3 id="search">search<a class="hash" href="#search" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/sɜːrtʃ/ &middot; <em>SURCH</em></dd><dt>Русский</dt><dd>поиск</dd><dt>Plural</dt><dd><em>searches</em></dd><dt>Countability</dt><dd>countable</dd></dl>
+<p>An attempt to find something, especially by typing words into a website.</p>
+<ol><li>A quick <em>search</em> turned up her phone number.</li><li>The site logs every <em>search</em> you make.</li><li>Two <em>searches</em> gave me completely different results.</li></ol></div></main>
+<button class="themebtn" id="themeBtn">Dark</button>
+<script>
+const tb=document.getElementById('themeBtn');
+function setTheme(x){document.documentElement.dataset.theme=x;tb.textContent=x==='dark'?'Light':'Dark';
+ try{localStorage.setItem('site-theme',x)}catch(e){}}
+tb.onclick=()=>setTheme(document.documentElement.dataset.theme==='dark'?'light':'dark');
+try{const s=localStorage.getItem('site-theme');
+ setTheme(s||(matchMedia('(prefers-color-scheme: dark)').matches?'dark':'light'))}catch(e){setTheme('light')}
+</script></body></html>

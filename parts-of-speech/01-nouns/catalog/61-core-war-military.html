@@ -1,0 +1,706 @@
+<!DOCTYPE html>
+<html lang="en"><head>
+<meta charset="utf-8"><meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Core vocabulary: war and the military</title>
+<style>
+:root{--bg:#faf9f7;--surface:#fff;--surface2:#f2f0ec;--border:#e2ded6;--text:#1a1815;
+--dim:#5f594f;--faint:#8a8377;--accent:#8a5a3b;--measure:72ch}
+@media(prefers-color-scheme:dark){:root{--bg:#14140f;--surface:#1d1d17;--surface2:#25251d;
+--border:#33332a;--text:#eeeae1;--dim:#a8a293;--faint:#7d776b;--accent:#d09b72}}
+:root[data-theme=dark]{--bg:#14140f;--surface:#1d1d17;--surface2:#25251d;--border:#33332a;
+--text:#eeeae1;--dim:#a8a293;--faint:#7d776b;--accent:#d09b72}
+:root[data-theme=light]{--bg:#faf9f7;--surface:#fff;--surface2:#f2f0ec;--border:#e2ded6;
+--text:#1a1815;--dim:#5f594f;--faint:#8a8377;--accent:#8a5a3b}
+*{box-sizing:border-box}
+body{margin:0;background:var(--bg);color:var(--text);
+font:17px/1.72 ui-serif,Georgia,"Iowan Old Style",Palatino,serif;-webkit-font-smoothing:antialiased}
+.wrap{max-width:min(var(--measure),100%);margin:0 auto;padding:0 22px}
+nav.crumb{border-bottom:1px solid var(--border);padding:13px 0;font-size:13.5px;
+font-family:-apple-system,BlinkMacSystemFont,"Segoe UI",sans-serif;position:sticky;top:0;background:var(--bg);z-index:20}
+nav.crumb .wrap{max-width:none;display:flex;gap:9px;align-items:center;flex-wrap:wrap}
+nav.crumb a{color:var(--dim);text-decoration:none}
+nav.crumb a:hover{color:var(--accent)}
+nav.crumb .sep{color:var(--faint)}
+main{padding:8px 0 80px}
+h1{font-size:clamp(28px,5vw,38px);line-height:1.15;letter-spacing:-.015em;margin:34px 0 18px}
+h2{font-size:25px;margin:46px 0 14px;letter-spacing:-.01em;padding-bottom:7px;border-bottom:1px solid var(--border)}
+h3{font-size:19px;margin:34px 0 10px;color:var(--accent)}
+h4{font-size:16px;margin:24px 0 8px;font-family:-apple-system,sans-serif}
+p{margin:0 0 16px}
+a{color:var(--accent)}
+.hash{opacity:0;margin-left:8px;font-weight:400;font-size:.65em;text-decoration:none;color:var(--faint)}
+h2:hover .hash,h3:hover .hash{opacity:1}
+blockquote{margin:0 0 20px;padding:14px 18px;background:var(--surface2);
+border-left:3px solid var(--accent);border-radius:0 8px 8px 0}
+blockquote p:last-child{margin-bottom:0}
+ol,ul{margin:0 0 18px;padding-left:26px}
+li{margin-bottom:8px}
+li>ul,li>ol{margin:8px 0 0}
+code{font-family:ui-monospace,SFMono-Regular,Menlo,Consolas,monospace;font-size:.87em;
+background:var(--surface2);padding:1px 5px;border-radius:4px}
+pre{background:var(--surface2);border:1px solid var(--border);border-radius:9px;
+padding:15px 17px;overflow-x:auto;margin:0 0 20px}
+pre code{background:none;padding:0;font-size:13px;line-height:1.6}
+.tw{overflow-x:auto;margin:0 0 22px;border:1px solid var(--border);border-radius:9px}
+table{border-collapse:collapse;width:100%;font-size:15px;
+font-family:-apple-system,BlinkMacSystemFont,"Segoe UI",sans-serif}
+th,td{padding:10px 14px;border-bottom:1px solid var(--border);vertical-align:top}
+th{background:var(--surface2);font-size:12px;text-transform:uppercase;
+letter-spacing:.06em;color:var(--dim);font-weight:700;white-space:nowrap}
+tbody tr:last-child td{border-bottom:none}
+hr{border:none;border-top:1px solid var(--border);margin:38px 0}
+details{background:var(--surface2);border:1px solid var(--border);border-radius:9px;
+padding:13px 17px;margin:0 0 20px}
+summary{cursor:pointer;font-weight:600;font-family:-apple-system,sans-serif;font-size:15px}
+details[open] summary{margin-bottom:12px}
+del{color:var(--faint)}
+dl.fields{margin:0 0 20px;padding:0}
+dl.fields dt{font-family:-apple-system,BlinkMacSystemFont,"Segoe UI",sans-serif;
+font-size:11px;letter-spacing:.11em;text-transform:uppercase;color:var(--faint);
+font-weight:700;margin:14px 0 4px}
+dl.fields dt:first-child{margin-top:0}
+dl.fields dd{margin:0;font-size:16px;color:var(--dim);line-height:1.62}
+dl.fields dd em{color:var(--text)}
+dl.fields dt.ru{color:var(--accent)}
+dl.fields dd strong{color:var(--text)}
+.toc{background:var(--surface2);border:1px solid var(--border);border-radius:10px;
+padding:16px 20px;margin:26px 0 34px;font-family:-apple-system,sans-serif;font-size:14px}
+.toc b{display:block;font-size:11px;letter-spacing:.12em;text-transform:uppercase;
+color:var(--faint);margin-bottom:9px}
+.toc a{display:block;padding:3px 0;color:var(--dim);text-decoration:none}
+.toc a:hover{color:var(--accent)}
+.themebtn{position:fixed;right:18px;bottom:18px;z-index:60;font-family:-apple-system,sans-serif;
+font-size:12.5px;font-weight:600;cursor:pointer;background:var(--surface);border:1px solid var(--border);
+border-radius:99px;padding:9px 16px;color:var(--text)}
+@media(max-width:600px){body{font-size:16px}.wrap{padding:0 17px}}
+</style></head><body>
+<nav class="crumb"><div class="wrap"><a href="../../../index.html">Learn English</a><span class="sep">/</span><a href="../../README.html">Parts of speech</a><span class="sep">/</span><a href="../README.html">01-nouns</a><span class="sep">/</span><span>catalog</span></div></nav>
+<main><div class="wrap"><h1 id="core-vocabulary-war-and-the-military">Core vocabulary: war and the military<a class="hash" href="#core-vocabulary-war-and-the-military" aria-label="link">#</a></h1>
+<blockquote><p>The everyday nouns of war and the military — pronunciation, Russian, plural, and three examples each.</p></blockquote>
+<p><a href="../README.html">← The grammar of nouns</a> &middot; <a href="README.html">All groups</a></p>
+<p>Part of the <strong>core-vocabulary tier</strong>. Groups 1–23 cover the nouns that misbehave; this tier covers the nouns you simply need to know. Entries are deliberately lean, because a regular countable noun has no grammatical story to tell. A <strong>Contrast</strong> line appears only where the word hides a genuine trap.</p>
+<p>Where a word in this field <em>does</em> misbehave, it lives in the grammar tier instead and is not repeated here.</p>
+<hr>
+<h3 id="warfare">warfare<a class="hash" href="#warfare" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/ˈwɔːrfɛr/ &middot; <em>WAWR-fair</em></dd><dt>Русский</dt><dd>военные действия, ведение войны</dd><dt>Countability</dt><dd>uncountable</dd></dl>
+<p>The activity of fighting a war, or a particular way of fighting one.</p>
+<ol><li>Trench <em>warfare</em> defined the First World War.</li><li>The rebels turned to guerrilla <em>warfare</em>.</li><li>Chemical <em>warfare</em> is banned by treaty.</li></ol>
+<hr>
+<h3 id="battle">battle<a class="hash" href="#battle" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/ˈbætəl/ &middot; <em>BAT-uhl</em></dd><dt>Русский</dt><dd>битва, сражение</dd><dt>Plural</dt><dd><em>battles</em></dd><dt>Countability</dt><dd>countable</dd></dl>
+<p>A fight between two armies in one place at one time.</p>
+<ol><li>The <em>battle</em> lasted three days.</li><li>He died in <em>battle</em>.</li><li>Several <em>battles</em> were fought along the river.</li></ol>
+<hr>
+<h3 id="combat">combat<a class="hash" href="#combat" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/ˈkɑːmbæt/ &middot; <em>KAHM-bat</em></dd><dt>Русский</dt><dd>бой, боевые действия</dd><dt>Countability</dt><dd>uncountable</dd><dt>Contrast</dt><dd>The noun is stressed on the first syllable, KAHM-bat; the verb to combat is kuhm-BAT.</dd></dl>
+<p>Actual fighting between armed forces.</p>
+<ol><li>She saw <em>combat</em> on two deployments.</li><li>The unit trained for close <em>combat</em>.</li><li>He was wounded in <em>combat</em>.</li></ol>
+<hr>
+<h3 id="conflict">conflict<a class="hash" href="#conflict" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/ˈkɑːnflɪkt/ &middot; <em>KAHN-flikt</em></dd><dt>Русский</dt><dd>конфликт</dd><dt>Plural</dt><dd><em>conflicts</em></dd><dt>Countability</dt><dd>countable</dd><dt>Contrast</dt><dd>The noun is stressed KAHN-flikt; the verb to conflict is kuhn-FLIKT.</dd></dl>
+<p>A serious disagreement or period of fighting between groups.</p>
+<ol><li>The <em>conflict</em> has displaced millions.</li><li>Diplomats worked for months to end the <em>conflict</em>.</li><li>Armed <em>conflicts</em> broke out in three provinces.</li></ol>
+<hr>
+<h3 id="invasion">invasion<a class="hash" href="#invasion" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/ɪnˈveɪʒən/ &middot; <em>in-VAY-zhuhn</em></dd><dt>Русский</dt><dd>вторжение</dd><dt>Plural</dt><dd><em>invasions</em></dd><dt>Countability</dt><dd>countable</dd></dl>
+<p>The act of entering another country by force with an army.</p>
+<ol><li>The <em>invasion</em> began before dawn.</li><li>They resisted the <em>invasion</em> for months.</li><li>Both <em>invasions</em> failed within weeks.</li></ol>
+<hr>
+<h3 id="attack">attack<a class="hash" href="#attack" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/əˈtæk/ &middot; <em>uh-TAK</em></dd><dt>Русский</dt><dd>атака, нападение</dd><dt>Plural</dt><dd><em>attacks</em></dd><dt>Countability</dt><dd>countable</dd></dl>
+<p>An act of violence aimed at hurting an enemy.</p>
+<ol><li>The <em>attack</em> came from the north.</li><li>Two <em>attacks</em> were repelled that night.</li><li>They launched a surprise <em>attack</em> on the airfield.</li></ol>
+<hr>
+<h3 id="offensive">offensive<a class="hash" href="#offensive" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/əˈfɛnsɪv/ &middot; <em>uh-FEN-siv</em></dd><dt>Русский</dt><dd>наступление</dd><dt>Plural</dt><dd><em>offensives</em></dd><dt>Countability</dt><dd>countable</dd></dl>
+<p>A large planned attack by an army over a wide area.</p>
+<ol><li>The spring <em>offensive</em> pushed the front back fifty miles.</li><li>Both <em>offensives</em> stalled in the mud.</li><li>The army launched a major <em>offensive</em> in October.</li></ol>
+<hr>
+<h3 id="retreat">retreat<a class="hash" href="#retreat" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/rɪˈtriːt/ &middot; <em>rih-TREET</em></dd><dt>Русский</dt><dd>отступление</dd><dt>Plural</dt><dd><em>retreats</em></dd><dt>Countability</dt><dd>countable</dd></dl>
+<p>A movement away from an enemy because fighting on is impossible.</p>
+<ol><li>The general ordered a <em>retreat</em>.</li><li>The <em>retreat</em> turned into a rout.</li><li>Their <em>retreats</em> were always well organized.</li></ol>
+<hr>
+<h3 id="siege">siege<a class="hash" href="#siege" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/siːdʒ/ &middot; <em>SEEJ</em></dd><dt>Русский</dt><dd>осада</dd><dt>Plural</dt><dd><em>sieges</em></dd><dt>Countability</dt><dd>countable</dd><dt>Contrast</dt><dd>Spelled with -ie- but pronounced SEEJ, rhyming with liege.</dd></dl>
+<p>An operation in which an army surrounds a place to force it to give up.</p>
+<ol><li>The <em>siege</em> lasted nine hundred days.</li><li>The city fell after a long <em>siege</em>.</li><li>Medieval <em>sieges</em> could drag on for years.</li></ol>
+<hr>
+<h3 id="ambush">ambush<a class="hash" href="#ambush" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/ˈæmbʊʃ/ &middot; <em>AM-buush</em></dd><dt>Русский</dt><dd>засада</dd><dt>Plural</dt><dd><em>ambushes</em></dd><dt>Countability</dt><dd>countable</dd></dl>
+<p>A surprise attack from a hidden position.</p>
+<ol><li>The patrol walked into an <em>ambush</em>.</li><li>They set an <em>ambush</em> along the mountain road.</li><li>Two <em>ambushes</em> were reported that week.</li></ol>
+<hr>
+<h3 id="truce">truce<a class="hash" href="#truce" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/truːs/ &middot; <em>TROOS</em></dd><dt>Русский</dt><dd>перемирие</dd><dt>Plural</dt><dd><em>truces</em></dd><dt>Countability</dt><dd>countable</dd></dl>
+<p>A temporary agreement between enemies to stop fighting.</p>
+<ol><li>The two armies agreed to a <em>truce</em>.</li><li>The <em>truce</em> held through the winter.</li><li>Short <em>truces</em> let both sides collect their dead.</li></ol>
+<hr>
+<h3 id="surrender">surrender<a class="hash" href="#surrender" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/səˈrɛndər/ &middot; <em>suh-REN-dur</em></dd><dt>Русский</dt><dd>капитуляция, сдача</dd><dt>Countability</dt><dd>uncountable</dd></dl>
+<p>The act of giving up and stopping all resistance to an enemy.</p>
+<ol><li>The general demanded unconditional <em>surrender</em>.</li><li><em>Surrender</em> was the only option left.</li><li>The city's <em>surrender</em> ended the siege.</li></ol>
+<hr>
+<h3 id="victory">victory<a class="hash" href="#victory" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/ˈvɪktəri/ &middot; <em>VIK-tuh-ree</em></dd><dt>Русский</dt><dd>победа</dd><dt>Plural</dt><dd><em>victories</em></dd><dt>Countability</dt><dd>countable</dd></dl>
+<p>Success in a battle or a war.</p>
+<ol><li>The <em>victory</em> cost thousands of lives.</li><li>They celebrated the <em>victory</em> in the streets.</li><li>A string of <em>victories</em> turned the war around.</li></ol>
+<hr>
+<h3 id="defeat">defeat<a class="hash" href="#defeat" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/dɪˈfiːt/ &middot; <em>dih-FEET</em></dd><dt>Русский</dt><dd>поражение</dd><dt>Plural</dt><dd><em>defeats</em></dd><dt>Countability</dt><dd>countable</dd></dl>
+<p>A loss in a battle, a war, or a contest.</p>
+<ol><li>The <em>defeat</em> ended the campaign.</li><li>He never recovered from that <em>defeat</em>.</li><li>A series of <em>defeats</em> forced them to negotiate.</li></ol>
+<hr>
+<h3 id="casualty">casualty<a class="hash" href="#casualty" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/ˈkæʒuəlti/ &middot; <em>KAZH-oo-uhl-tee</em></dd><dt>Русский</dt><dd>потери; убитый или раненый</dd><dt>Plural</dt><dd><em>casualties</em></dd><dt>Countability</dt><dd>countable</dd><dt>Contrast</dt><dd>Casualties covers both the dead and the wounded, not only the dead.</dd></dl>
+<p>A person killed or wounded in a war or an accident.</p>
+<ol><li>The battle produced heavy <em>casualties</em>.</li><li>Civilian <em>casualties</em> rose sharply that spring.</li><li>Every <em>casualty</em> was flown out by helicopter.</li></ol>
+<hr>
+<h3 id="massacre">massacre<a class="hash" href="#massacre" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/ˈmæsəkər/ &middot; <em>MAS-uh-kur</em></dd><dt>Русский</dt><dd>резня, бойня</dd><dt>Plural</dt><dd><em>massacres</em></dd><dt>Countability</dt><dd>countable</dd><dt>Contrast</dt><dd>Ends in -cre but sounds like -ker: MAS-uh-kur.</dd></dl>
+<p>The killing of many helpless people at one time.</p>
+<ol><li>The <em>massacre</em> shocked the world.</li><li>Survivors described the <em>massacre</em> in detail.</li><li>Both <em>massacres</em> were later investigated.</li></ol>
+<hr>
+<h3 id="genocide">genocide<a class="hash" href="#genocide" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/ˈdʒɛnəsaɪd/ &middot; <em>JEN-uh-syde</em></dd><dt>Русский</dt><dd>геноцид</dd><dt>Countability</dt><dd>uncountable</dd></dl>
+<p>The deliberate killing of a whole national, ethnic, or religious group.</p>
+<ol><li>The court called it <em>genocide</em>.</li><li><em>Genocide</em> is a crime under international law.</li><li>Two officials were charged with <em>genocide</em>.</li></ol>
+<hr>
+<h3 id="uprising">uprising<a class="hash" href="#uprising" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/ˈʌpraɪzɪŋ/ &middot; <em>UP-ry-zing</em></dd><dt>Русский</dt><dd>восстание</dd><dt>Plural</dt><dd><em>uprisings</em></dd><dt>Countability</dt><dd>countable</dd></dl>
+<p>A sudden rising of ordinary people against those in power.</p>
+<ol><li>The <em>uprising</em> began in the capital.</li><li>The army put down the <em>uprising</em> in three days.</li><li>Several <em>uprisings</em> followed the election.</li></ol>
+<hr>
+<h3 id="resistance">resistance<a class="hash" href="#resistance" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/rɪˈzɪstəns/ &middot; <em>rih-ZIS-tuhns</em></dd><dt>Русский</dt><dd>сопротивление</dd><dt>Countability</dt><dd>uncountable</dd></dl>
+<p>Armed opposition to an invading or occupying force.</p>
+<ol><li>They met fierce <em>resistance</em> at the bridge.</li><li>The town fell without <em>resistance</em>.</li><li>His father fought in the <em>resistance</em>.</li></ol>
+<hr>
+<h3 id="occupation">occupation<a class="hash" href="#occupation" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/ˌɑːkjəˈpeɪʃən/ &middot; <em>ah-kyuh-PAY-shuhn</em></dd><dt>Русский</dt><dd>оккупация</dd><dt>Countability</dt><dd>uncountable</dd></dl>
+<p>Control of a country or region by a foreign army.</p>
+<ol><li>The <em>occupation</em> lasted four years.</li><li>Life under <em>occupation</em> was grim.</li><li>They resisted the <em>occupation</em> from the first day.</li></ol>
+<hr>
+<h3 id="conquest">conquest<a class="hash" href="#conquest" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/ˈkɑːŋkwɛst/ &middot; <em>KAHNG-kwest</em></dd><dt>Русский</dt><dd>завоевание</dd><dt>Plural</dt><dd><em>conquests</em></dd><dt>Countability</dt><dd>countable</dd></dl>
+<p>The taking of land or a people by military force.</p>
+<ol><li>The Norman <em>conquest</em> changed England forever.</li><li>Their <em>conquest</em> of the valley took a month.</li><li>He wrote about the Spanish <em>conquests</em> in the Americas.</li></ol>
+<hr>
+<h3 id="blockade">blockade<a class="hash" href="#blockade" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/blɑːˈkeɪd/ &middot; <em>blah-KAYD</em></dd><dt>Русский</dt><dd>блокада</dd><dt>Plural</dt><dd><em>blockades</em></dd><dt>Countability</dt><dd>countable</dd></dl>
+<p>The sealing off of a place so that supplies cannot get in or out.</p>
+<ol><li>The naval <em>blockade</em> cut off all supplies.</li><li>They ran the <em>blockade</em> at night.</li><li>Both <em>blockades</em> were lifted after the treaty.</li></ol>
+<hr>
+<h3 id="threat">threat<a class="hash" href="#threat" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/θrɛt/ &middot; <em>THRET</em></dd><dt>Русский</dt><dd>угроза</dd><dt>Plural</dt><dd><em>threats</em></dd><dt>Countability</dt><dd>countable</dd></dl>
+<p>Something that could cause harm, or a warning that harm is coming.</p>
+<ol><li>The missiles were seen as a serious <em>threat</em>.</li><li>He made <em>threats</em> against the neighboring state.</li><li>The <em>threat</em> of invasion never went away.</li></ol>
+<hr>
+<h3 id="aggression">aggression<a class="hash" href="#aggression" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/əˈɡrɛʃən/ &middot; <em>uh-GRESH-uhn</em></dd><dt>Русский</dt><dd>агрессия</dd><dt>Countability</dt><dd>uncountable</dd></dl>
+<p>An unprovoked attack on another country or person.</p>
+<ol><li>The invasion was condemned as an act of <em>aggression</em>.</li><li>They accused their neighbor of open <em>aggression</em>.</li><li>The treaty was meant to prevent <em>aggression</em>.</li></ol>
+<hr>
+<h3 id="atrocity">atrocity<a class="hash" href="#atrocity" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/əˈtrɑːsəti/ &middot; <em>uh-TRAH-suh-tee</em></dd><dt>Русский</dt><dd>зверство, злодеяние</dd><dt>Plural</dt><dd><em>atrocities</em></dd><dt>Countability</dt><dd>countable</dd></dl>
+<p>An extremely cruel and violent act, especially in wartime.</p>
+<ol><li>Reporters documented the <em>atrocities</em>.</li><li>The <em>atrocity</em> was denied by the government for years.</li><li>Both sides committed <em>atrocities</em>.</li></ol>
+<hr>
+<h3 id="navy">navy<a class="hash" href="#navy" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/ˈneɪvi/ &middot; <em>NAY-vee</em></dd><dt>Русский</dt><dd>военно-морской флот</dd><dt>Plural</dt><dd><em>navies</em></dd><dt>Countability</dt><dd>countable</dd></dl>
+<p>The branch of a country's armed forces that fights at sea.</p>
+<ol><li>He joined the <em>navy</em> at eighteen.</li><li>The <em>navy</em> sent three ships to the region.</li><li>Both <em>navies</em> patrolled the strait.</li></ol>
+<hr>
+<h3 id="infantry">infantry<a class="hash" href="#infantry" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/ˈɪnfəntri/ &middot; <em>IN-fuhn-tree</em></dd><dt>Русский</dt><dd>пехота</dd><dt>Countability</dt><dd>uncountable</dd></dl>
+<p>Soldiers who fight on foot.</p>
+<ol><li>The <em>infantry</em> advanced behind the tanks.</li><li>He served in the <em>infantry</em> for six years.</li><li><em>Infantry</em> took the heaviest losses that day.</li></ol>
+<hr>
+<h3 id="cavalry">cavalry<a class="hash" href="#cavalry" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/ˈkævəlri/ &middot; <em>KAV-uhl-ree</em></dd><dt>Русский</dt><dd>кавалерия, конница</dd><dt>Countability</dt><dd>uncountable</dd><dt>Contrast</dt><dd>Do not confuse cavalry (KAV-uhl-ree) with Calvary (KAL-vuh-ree), the hill.</dd></dl>
+<p>Soldiers who fight on horseback, or in modern armies in light vehicles.</p>
+<ol><li>The <em>cavalry</em> charged across the open field.</li><li>He rode with the <em>cavalry</em> for two years.</li><li>Modern <em>cavalry</em> units use helicopters.</li></ol>
+<hr>
+<h3 id="artillery">artillery<a class="hash" href="#artillery" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/ɑːrˈtɪləri/ &middot; <em>ahr-TIL-uh-ree</em></dd><dt>Русский</dt><dd>артиллерия</dd><dt>Countability</dt><dd>uncountable</dd></dl>
+<p>Large guns used on land, or the troops who operate them.</p>
+<ol><li>The <em>artillery</em> pounded the ridge for an hour.</li><li>Heavy <em>artillery</em> was brought up overnight.</li><li>He served in the <em>artillery</em>.</li></ol>
+<hr>
+<h3 id="squad">squad<a class="hash" href="#squad" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/skwɑːd/ &middot; <em>SKWAHD</em></dd><dt>Русский</dt><dd>отделение (воен.), группа</dd><dt>Plural</dt><dd><em>squads</em></dd><dt>Countability</dt><dd>countable</dd></dl>
+<p>The smallest army unit, usually about eight to twelve soldiers.</p>
+<ol><li>A <em>squad</em> of eight men held the corner.</li><li>The <em>squad</em> moved through the village house by house.</li><li>Two <em>squads</em> were sent ahead.</li></ol>
+<hr>
+<h3 id="platoon">platoon<a class="hash" href="#platoon" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/pləˈtuːn/ &middot; <em>pluh-TOON</em></dd><dt>Русский</dt><dd>взвод</dd><dt>Plural</dt><dd><em>platoons</em></dd><dt>Countability</dt><dd>countable</dd></dl>
+<p>An army unit of roughly thirty soldiers, led by a lieutenant.</p>
+<ol><li>His <em>platoon</em> lost four men that day.</li><li>The lieutenant led a <em>platoon</em> of thirty.</li><li>Three <em>platoons</em> make up a rifle company.</li></ol>
+<hr>
+<h3 id="battalion">battalion<a class="hash" href="#battalion" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/bəˈtæljən/ &middot; <em>buh-TAL-yuhn</em></dd><dt>Русский</dt><dd>батальон</dd><dt>Plural</dt><dd><em>battalions</em></dd><dt>Countability</dt><dd>countable</dd></dl>
+<p>An army unit of several hundred soldiers.</p>
+<ol><li>The <em>battalion</em> moved out at dawn.</li><li>Two <em>battalions</em> were sent to the front.</li><li>He commanded a <em>battalion</em> in the war.</li></ol>
+<hr>
+<h3 id="regiment">regiment<a class="hash" href="#regiment" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/ˈrɛdʒəmənt/ &middot; <em>REJ-uh-muhnt</em></dd><dt>Русский</dt><dd>полк</dd><dt>Plural</dt><dd><em>regiments</em></dd><dt>Countability</dt><dd>countable</dd></dl>
+<p>A large army unit made up of several battalions.</p>
+<ol><li>The <em>regiment</em> was raised in 1861.</li><li>His grandfather served in the same <em>regiment</em>.</li><li>Three <em>regiments</em> took part in the attack.</li></ol>
+<hr>
+<h3 id="brigade">brigade<a class="hash" href="#brigade" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/brɪˈɡeɪd/ &middot; <em>brih-GAYD</em></dd><dt>Русский</dt><dd>бригада</dd><dt>Plural</dt><dd><em>brigades</em></dd><dt>Countability</dt><dd>countable</dd></dl>
+<p>An army unit of several thousand soldiers.</p>
+<ol><li>The <em>brigade</em> held the ridge for two days.</li><li>A fresh <em>brigade</em> arrived from the south.</li><li>Two armored <em>brigades</em> joined the assault.</li></ol>
+<hr>
+<h3 id="division">division<a class="hash" href="#division" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/dɪˈvɪʒən/ &middot; <em>dih-VIZH-uhn</em></dd><dt>Русский</dt><dd>дивизия</dd><dt>Plural</dt><dd><em>divisions</em></dd><dt>Countability</dt><dd>countable</dd></dl>
+<p>A large army unit made up of several brigades.</p>
+<ol><li>An armored <em>division</em> crossed the border.</li><li>The <em>division</em> suffered heavy losses.</li><li>Four <em>divisions</em> were committed to the offensive.</li></ol>
+<hr>
+<h3 id="fleet">fleet<a class="hash" href="#fleet" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/fliːt/ &middot; <em>FLEET</em></dd><dt>Русский</dt><dd>флот, эскадра</dd><dt>Plural</dt><dd><em>fleets</em></dd><dt>Countability</dt><dd>countable</dd></dl>
+<p>A group of warships under one command.</p>
+<ol><li>The <em>fleet</em> sailed at first light.</li><li>Half the <em>fleet</em> was sunk in the harbor.</li><li>Both <em>fleets</em> met off the coast.</li></ol>
+<hr>
+<h3 id="militia">militia<a class="hash" href="#militia" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/məˈlɪʃə/ &middot; <em>muh-LISH-uh</em></dd><dt>Русский</dt><dd>ополчение, вооружённое формирование</dd><dt>Plural</dt><dd><em>militias</em></dd><dt>Countability</dt><dd>countable</dd><dt>Contrast</dt><dd>The -tia is said like -sha: muh-LISH-uh.</dd></dl>
+<p>An armed group of ordinary citizens rather than professional soldiers.</p>
+<ol><li>A local <em>militia</em> guarded the bridge.</li><li>The <em>militia</em> refused to disarm.</li><li>Rival <em>militias</em> controlled the port.</li></ol>
+<hr>
+<h3 id="general">general<a class="hash" href="#general" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/ˈdʒɛnərəl/ &middot; <em>JEN-ur-uhl</em></dd><dt>Русский</dt><dd>генерал</dd><dt>Plural</dt><dd><em>generals</em></dd><dt>Countability</dt><dd>countable</dd></dl>
+<p>An officer of the highest rank in an army.</p>
+<ol><li>The <em>general</em> addressed the troops.</li><li>Two <em>generals</em> were relieved of command.</li><li>She was the first woman promoted to <em>general</em> in that branch.</li></ol>
+<hr>
+<h3 id="colonel">colonel<a class="hash" href="#colonel" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/ˈkɜːrnəl/ &middot; <em>KUR-nuhl</em></dd><dt>Русский</dt><dd>полковник</dd><dt>Plural</dt><dd><em>colonels</em></dd><dt>Countability</dt><dd>countable</dd><dt>Contrast</dt><dd>Spelled with an l but pronounced KUR-nuhl, exactly like kernel.</dd></dl>
+<p>A senior army officer ranking just below a general.</p>
+<ol><li>The <em>colonel</em> signed the order himself.</li><li>Two <em>colonels</em> were flown in that morning.</li><li>He retired as a <em>colonel</em>.</li></ol>
+<hr>
+<h3 id="sergeant">sergeant<a class="hash" href="#sergeant" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/ˈsɑːrdʒənt/ &middot; <em>SAR-juhnt</em></dd><dt>Русский</dt><dd>сержант</dd><dt>Plural</dt><dd><em>sergeants</em></dd><dt>Countability</dt><dd>countable</dd><dt>Contrast</dt><dd>Spelled ser- but pronounced SAR-.</dd></dl>
+<p>A non-commissioned officer ranking above a corporal.</p>
+<ol><li>The <em>sergeant</em> barked at the recruits.</li><li>Both <em>sergeants</em> had served ten years.</li><li>She made <em>sergeant</em> in three years.</li></ol>
+<hr>
+<h3 id="lieutenant">lieutenant<a class="hash" href="#lieutenant" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/luːˈtɛnənt/ &middot; <em>loo-TEN-uhnt</em></dd><dt>Русский</dt><dd>лейтенант</dd><dt>Plural</dt><dd><em>lieutenants</em></dd><dt>Countability</dt><dd>countable</dd><dt>Contrast</dt><dd>Americans say loo-TEN-uhnt; the British say lef-TEN-uhnt.</dd></dl>
+<p>A junior officer who usually commands a platoon.</p>
+<ol><li>The <em>lieutenant</em> took over when the captain fell.</li><li>Two <em>lieutenants</em> led the patrol.</li><li>He was promoted to <em>lieutenant</em> last spring.</li></ol>
+<hr>
+<h3 id="admiral">admiral<a class="hash" href="#admiral" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/ˈædmərəl/ &middot; <em>AD-mur-uhl</em></dd><dt>Русский</dt><dd>адмирал</dd><dt>Plural</dt><dd><em>admirals</em></dd><dt>Countability</dt><dd>countable</dd></dl>
+<p>An officer of the highest rank in a navy.</p>
+<ol><li>The <em>admiral</em> ordered the fleet to withdraw.</li><li>Three <em>admirals</em> testified before the committee.</li><li>He rose to <em>admiral</em> before he was fifty.</li></ol>
+<hr>
+<h3 id="private">private<a class="hash" href="#private" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/ˈpraɪvət/ &middot; <em>PRY-vuht</em></dd><dt>Русский</dt><dd>рядовой</dd><dt>Plural</dt><dd><em>privates</em></dd><dt>Countability</dt><dd>countable</dd></dl>
+<p>A soldier of the lowest rank in an army.</p>
+<ol><li>He enlisted as a <em>private</em>.</li><li>Two <em>privates</em> stood guard at the gate.</li><li>The <em>private</em> saluted and stepped back.</li></ol>
+<hr>
+<h3 id="commander">commander<a class="hash" href="#commander" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/kəˈmændər/ &middot; <em>kuh-MAN-dur</em></dd><dt>Русский</dt><dd>командир</dd><dt>Plural</dt><dd><em>commanders</em></dd><dt>Countability</dt><dd>countable</dd></dl>
+<p>The officer in charge of a military unit or operation.</p>
+<ol><li>The <em>commander</em> ordered the men to dig in.</li><li>Both <em>commanders</em> met under a white flag.</li><li>She is the <em>commander</em> of the base.</li></ol>
+<hr>
+<h3 id="recruit">recruit<a class="hash" href="#recruit" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/rɪˈkruːt/ &middot; <em>rih-KROOT</em></dd><dt>Русский</dt><dd>новобранец, призывник</dd><dt>Plural</dt><dd><em>recruits</em></dd><dt>Countability</dt><dd>countable</dd></dl>
+<p>Someone who has just joined the armed forces.</p>
+<ol><li>The new <em>recruits</em> arrived on Monday.</li><li>Every <em>recruit</em> gets a haircut on the first day.</li><li>He was still a <em>recruit</em> when the war started.</li></ol>
+<hr>
+<h3 id="marine">marine<a class="hash" href="#marine" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/məˈriːn/ &middot; <em>muh-REEN</em></dd><dt>Русский</dt><dd>морской пехотинец</dd><dt>Plural</dt><dd><em>marines</em></dd><dt>Countability</dt><dd>countable</dd></dl>
+<p>A soldier trained to fight both at sea and on land.</p>
+<ol><li>Her brother is a <em>marine</em>.</li><li>The <em>marines</em> landed at dawn.</li><li>He trained as a <em>marine</em> for three months.</li></ol>
+<hr>
+<h3 id="warrior">warrior<a class="hash" href="#warrior" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/ˈwɔːriər/ &middot; <em>WAWR-ee-ur</em></dd><dt>Русский</dt><dd>воин</dd><dt>Plural</dt><dd><em>warriors</em></dd><dt>Countability</dt><dd>countable</dd></dl>
+<p>A brave fighter, especially in an army of long ago.</p>
+<ol><li>The tribe's <em>warriors</em> painted their faces before battle.</li><li>He was buried as a <em>warrior</em>.</li><li>Ancient <em>warriors</em> fought with bronze weapons.</li></ol>
+<hr>
+<h3 id="knight">knight<a class="hash" href="#knight" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/naɪt/ &middot; <em>NYTE</em></dd><dt>Русский</dt><dd>рыцарь</dd><dt>Plural</dt><dd><em>knights</em></dd><dt>Countability</dt><dd>countable</dd><dt>Contrast</dt><dd>The k is silent; it sounds exactly like night.</dd></dl>
+<p>An armored soldier on horseback in medieval Europe.</p>
+<ol><li>The <em>knight</em> wore a full suit of armor.</li><li>Two <em>knights</em> fought on horseback.</li><li>A <em>knight</em> swore loyalty to his lord.</li></ol>
+<hr>
+<h3 id="spy">spy<a class="hash" href="#spy" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/spaɪ/ &middot; <em>SPY</em></dd><dt>Русский</dt><dd>шпион</dd><dt>Plural</dt><dd><em>spies</em></dd><dt>Countability</dt><dd>countable</dd></dl>
+<p>Someone who secretly collects information about an enemy.</p>
+<ol><li>He was arrested as a <em>spy</em>.</li><li>Both sides ran <em>spies</em> in the capital.</li><li>The <em>spy</em> passed the plans to his handler.</li></ol>
+<hr>
+<h3 id="sniper">sniper<a class="hash" href="#sniper" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/ˈsnaɪpər/ &middot; <em>SNY-pur</em></dd><dt>Русский</dt><dd>снайпер</dd><dt>Plural</dt><dd><em>snipers</em></dd><dt>Countability</dt><dd>countable</dd></dl>
+<p>A soldier trained to shoot accurately from a hidden position far away.</p>
+<ol><li>A <em>sniper</em> pinned them down for an hour.</li><li><em>Snipers</em> covered the rooftops.</li><li>The <em>sniper</em> fired only once.</li></ol>
+<hr>
+<h3 id="civilian">civilian<a class="hash" href="#civilian" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/səˈvɪljən/ &middot; <em>suh-VIL-yuhn</em></dd><dt>Русский</dt><dd>гражданское лицо, мирный житель</dd><dt>Plural</dt><dd><em>civilians</em></dd><dt>Countability</dt><dd>countable</dd></dl>
+<p>Someone who is not a member of the armed forces or the police.</p>
+<ol><li>Hundreds of <em>civilians</em> fled the city.</li><li>The bomb killed twelve <em>civilians</em>.</li><li>The base employs both soldiers and <em>civilians</em>.</li></ol>
+<hr>
+<h3 id="enemy">enemy<a class="hash" href="#enemy" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/ˈɛnəmi/ &middot; <em>EN-uh-mee</em></dd><dt>Русский</dt><dd>враг, противник</dd><dt>Plural</dt><dd><em>enemies</em></dd><dt>Countability</dt><dd>countable</dd></dl>
+<p>A person or country you are fighting against.</p>
+<ol><li>The <em>enemy</em> held the high ground.</li><li>They were surrounded by <em>enemies</em> on three sides.</li><li>He never saw the <em>enemy</em> up close.</li></ol>
+<hr>
+<h3 id="traitor">traitor<a class="hash" href="#traitor" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/ˈtreɪtər/ &middot; <em>TRAY-tur</em></dd><dt>Русский</dt><dd>предатель, изменник</dd><dt>Plural</dt><dd><em>traitors</em></dd><dt>Countability</dt><dd>countable</dd></dl>
+<p>Someone who betrays his own country or side.</p>
+<ol><li>He was shot as a <em>traitor</em>.</li><li>The papers called her a <em>traitor</em>.</li><li><em>Traitors</em> were hanged at the city gate.</li></ol>
+<hr>
+<h3 id="rebel">rebel<a class="hash" href="#rebel" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/ˈrɛbəl/ &middot; <em>REB-uhl</em></dd><dt>Русский</dt><dd>повстанец, мятежник</dd><dt>Plural</dt><dd><em>rebels</em></dd><dt>Countability</dt><dd>countable</dd><dt>Contrast</dt><dd>The noun is REB-uhl; the verb to rebel is rih-BEL.</dd></dl>
+<p>Someone who fights against the government of his own country.</p>
+<ol><li>The <em>rebels</em> controlled half the country.</li><li>A captured <em>rebel</em> gave up their position.</li><li>Government troops pushed the <em>rebels</em> back.</li></ol>
+<hr>
+<h3 id="mercenary">mercenary<a class="hash" href="#mercenary" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/ˈmɜːrsəneri/ &middot; <em>MUR-suh-ner-ee</em></dd><dt>Русский</dt><dd>наёмник</dd><dt>Plural</dt><dd><em>mercenaries</em></dd><dt>Countability</dt><dd>countable</dd></dl>
+<p>A soldier who fights for any country that pays him.</p>
+<ol><li>The company hired <em>mercenaries</em> to guard the mine.</li><li>He fought as a <em>mercenary</em> in three wars.</li><li>Foreign <em>mercenaries</em> were blamed for the raid.</li></ol>
+<hr>
+<h3 id="guerrilla">guerrilla<a class="hash" href="#guerrilla" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/ɡəˈrɪlə/ &middot; <em>guh-RIL-uh</em></dd><dt>Русский</dt><dd>партизан</dd><dt>Plural</dt><dd><em>guerrillas</em></dd><dt>Countability</dt><dd>countable</dd><dt>Contrast</dt><dd>Pronounced exactly like gorilla; only the spelling differs.</dd></dl>
+<p>A member of a small unofficial armed group that attacks and hides.</p>
+<ol><li>The <em>guerrillas</em> attacked at night and vanished.</li><li>A handful of <em>guerrillas</em> held up the convoy.</li><li><em>Guerrillas</em> controlled the mountain passes.</li></ol>
+<hr>
+<h3 id="terrorist">terrorist<a class="hash" href="#terrorist" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/ˈtɛrərɪst/ &middot; <em>TER-ur-ist</em></dd><dt>Русский</dt><dd>террорист</dd><dt>Plural</dt><dd><em>terrorists</em></dd><dt>Countability</dt><dd>countable</dd></dl>
+<p>Someone who uses violence against civilians for political ends.</p>
+<ol><li>Three <em>terrorists</em> were killed in the raid.</li><li>The <em>terrorist</em> was tried in a civilian court.</li><li><em>Terrorists</em> claimed responsibility for the bombing.</li></ol>
+<hr>
+<h3 id="paratrooper">paratrooper<a class="hash" href="#paratrooper" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/ˈpærətruːpər/ &middot; <em>PA-ruh-troo-pur</em></dd><dt>Русский</dt><dd>десантник, парашютист-десантник</dd><dt>Plural</dt><dd><em>paratroopers</em></dd><dt>Countability</dt><dd>countable</dd></dl>
+<p>A soldier trained to drop into battle by parachute.</p>
+<ol><li>The <em>paratroopers</em> jumped just after midnight.</li><li>He trained as a <em>paratrooper</em>.</li><li>Two hundred <em>paratroopers</em> landed behind the lines.</li></ol>
+<hr>
+<h3 id="scout">scout<a class="hash" href="#scout" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/skaʊt/ &middot; <em>SKOWT</em></dd><dt>Русский</dt><dd>разведчик</dd><dt>Plural</dt><dd><em>scouts</em></dd><dt>Countability</dt><dd>countable</dd></dl>
+<p>A soldier sent ahead to gather information about the enemy.</p>
+<ol><li>The <em>scout</em> returned with a map of the valley.</li><li><em>Scouts</em> reported enemy tanks on the road.</li><li>They sent a <em>scout</em> ahead of the column.</li></ol>
+<hr>
+<h3 id="rifle">rifle<a class="hash" href="#rifle" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/ˈraɪfəl/ &middot; <em>RY-fuhl</em></dd><dt>Русский</dt><dd>винтовка</dd><dt>Plural</dt><dd><em>rifles</em></dd><dt>Countability</dt><dd>countable</dd></dl>
+<p>A long gun fired from the shoulder.</p>
+<ol><li>Each soldier carried a <em>rifle</em> and sixty rounds.</li><li>He cleaned his <em>rifle</em> every evening.</li><li>The <em>rifles</em> were stacked in the corner.</li></ol>
+<hr>
+<h3 id="pistol">pistol<a class="hash" href="#pistol" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/ˈpɪstəl/ &middot; <em>PIS-tuhl</em></dd><dt>Русский</dt><dd>пистолет</dd><dt>Plural</dt><dd><em>pistols</em></dd><dt>Countability</dt><dd>countable</dd></dl>
+<p>A small gun held and fired with one hand.</p>
+<ol><li>The officer drew his <em>pistol</em>.</li><li>A <em>pistol</em> lay on the table.</li><li>Both <em>pistols</em> were loaded.</li></ol>
+<hr>
+<h3 id="revolver">revolver<a class="hash" href="#revolver" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/rɪˈvɑːlvər/ &middot; <em>rih-VAHL-vur</em></dd><dt>Русский</dt><dd>револьвер</dd><dt>Plural</dt><dd><em>revolvers</em></dd><dt>Countability</dt><dd>countable</dd></dl>
+<p>A pistol with a turning cylinder that holds several rounds.</p>
+<ol><li>He carried an old six-shot <em>revolver</em>.</li><li>The <em>revolver</em> held six rounds.</li><li><em>Revolvers</em> were standard issue back then.</li></ol>
+<hr>
+<h3 id="shotgun">shotgun<a class="hash" href="#shotgun" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/ˈʃɑːtɡʌn/ &middot; <em>SHAHT-guhn</em></dd><dt>Русский</dt><dd>дробовик, ружьё</dd><dt>Plural</dt><dd><em>shotguns</em></dd><dt>Countability</dt><dd>countable</dd></dl>
+<p>A long gun that fires a spray of small pellets.</p>
+<ol><li>The farmer kept a <em>shotgun</em> behind the door.</li><li>He fired the <em>shotgun</em> into the air.</li><li>Two <em>shotguns</em> were found in the truck.</li></ol>
+<hr>
+<h3 id="cannon">cannon<a class="hash" href="#cannon" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/ˈkænən/ &middot; <em>KAN-uhn</em></dd><dt>Русский</dt><dd>пушка, орудие</dd><dt>Plural</dt><dd><em>cannons</em></dd><dt>Countability</dt><dd>countable</dd><dt>Contrast</dt><dd>Sounds exactly like canon, a body of rules or works.</dd></dl>
+<p>A large heavy gun mounted on a carriage or a vehicle.</p>
+<ol><li>The fort's <em>cannons</em> faced the harbor.</li><li>A single <em>cannon</em> stands in the town square.</li><li>They dragged the <em>cannon</em> up the hill.</li></ol>
+<hr>
+<h3 id="bullet">bullet<a class="hash" href="#bullet" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/ˈbʊlɪt/ &middot; <em>BUUL-it</em></dd><dt>Русский</dt><dd>пуля</dd><dt>Plural</dt><dd><em>bullets</em></dd><dt>Countability</dt><dd>countable</dd></dl>
+<p>The small piece of metal fired from a gun.</p>
+<ol><li>A <em>bullet</em> went straight through the door.</li><li>He still carries the <em>bullet</em> in his shoulder.</li><li><em>Bullets</em> pinged off the wall above them.</li></ol>
+<hr>
+<h3 id="gunpowder">gunpowder<a class="hash" href="#gunpowder" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/ˈɡʌnpaʊdər/ &middot; <em>GUHN-pow-dur</em></dd><dt>Русский</dt><dd>порох</dd><dt>Countability</dt><dd>uncountable</dd></dl>
+<p>An explosive powder used to fire guns and blast rock.</p>
+<ol><li>The cellar smelled of <em>gunpowder</em>.</li><li><em>Gunpowder</em> was invented in China.</li><li>They stored the <em>gunpowder</em> in a stone vault.</li></ol>
+<hr>
+<h3 id="bomb">bomb<a class="hash" href="#bomb" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/bɑːm/ &middot; <em>BAHM</em></dd><dt>Русский</dt><dd>бомба</dd><dt>Plural</dt><dd><em>bombs</em></dd><dt>Countability</dt><dd>countable</dd><dt>Contrast</dt><dd>The final b is silent: BAHM, rhyming with mom.</dd></dl>
+<p>A container of explosive designed to blow up and destroy.</p>
+<ol><li>The <em>bomb</em> fell two blocks away.</li><li><em>Bombs</em> destroyed most of the old town.</li><li>Engineers defused the <em>bomb</em> at dawn.</li></ol>
+<hr>
+<h3 id="grenade">grenade<a class="hash" href="#grenade" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/ɡrəˈneɪd/ &middot; <em>gruh-NAYD</em></dd><dt>Русский</dt><dd>граната</dd><dt>Plural</dt><dd><em>grenades</em></dd><dt>Countability</dt><dd>countable</dd></dl>
+<p>A small bomb thrown by hand or fired from a launcher.</p>
+<ol><li>He threw a <em>grenade</em> into the bunker.</li><li>Each man carried four <em>grenades</em>.</li><li>The <em>grenade</em> failed to go off.</li></ol>
+<hr>
+<h3 id="missile">missile<a class="hash" href="#missile" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/ˈmɪsəl/ &middot; <em>MIS-uhl</em></dd><dt>Русский</dt><dd>ракета (боевая)</dd><dt>Plural</dt><dd><em>missiles</em></dd><dt>Countability</dt><dd>countable</dd><dt>Contrast</dt><dd>Americans say MIS-uhl, rhyming with thistle; the British say MIS-eye-uhl.</dd></dl>
+<p>A weapon that flies to its target under its own power.</p>
+<ol><li>The <em>missile</em> hit the power station.</li><li>They fired six <em>missiles</em> in one night.</li><li>Each <em>missile</em> carries a single warhead.</li></ol>
+<hr>
+<h3 id="warhead">warhead<a class="hash" href="#warhead" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/ˈwɔːrhɛd/ &middot; <em>WAWR-hed</em></dd><dt>Русский</dt><dd>боеголовка</dd><dt>Plural</dt><dd><em>warheads</em></dd><dt>Countability</dt><dd>countable</dd></dl>
+<p>The explosive front section of a missile or torpedo.</p>
+<ol><li>The treaty limits the number of nuclear <em>warheads</em>.</li><li>Each rocket carries a conventional <em>warhead</em>.</li><li>The <em>warhead</em> never detonated.</li></ol>
+<hr>
+<h3 id="mine">mine<a class="hash" href="#mine" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/maɪn/ &middot; <em>MYNE</em></dd><dt>Русский</dt><dd>мина</dd><dt>Plural</dt><dd><em>mines</em></dd><dt>Countability</dt><dd>countable</dd><dt>Contrast</dt><dd>Same spelling and sound as mine, a coal mine, and as the possessive mine.</dd></dl>
+<p>A hidden explosive that goes off when someone steps on it or drives over it.</p>
+<ol><li>The truck hit a <em>mine</em> on the dirt road.</li><li>They cleared the <em>mines</em> one by one.</li><li>A single <em>mine</em> can close a road for days.</li></ol>
+<hr>
+<h3 id="explosive">explosive<a class="hash" href="#explosive" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/ɪkˈsploʊsɪv/ &middot; <em>ik-SPLOH-siv</em></dd><dt>Русский</dt><dd>взрывчатка, взрывчатое вещество</dd><dt>Plural</dt><dd><em>explosives</em></dd><dt>Countability</dt><dd>countable</dd></dl>
+<p>A substance that can be made to blow up.</p>
+<ol><li>They packed the bridge with <em>explosives</em>.</li><li>Dogs are trained to smell <em>explosives</em>.</li><li>A powerful <em>explosive</em> was used in the attack.</li></ol>
+<hr>
+<h3 id="shrapnel">shrapnel<a class="hash" href="#shrapnel" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/ˈʃræpnəl/ &middot; <em>SHRAP-nuhl</em></dd><dt>Русский</dt><dd>осколки (снаряда)</dd><dt>Countability</dt><dd>uncountable</dd><dt>Contrast</dt><dd>Uncountable: a piece of shrapnel, never shrapnels.</dd></dl>
+<p>Small pieces of metal thrown out by an exploding shell or bomb.</p>
+<ol><li>He still has <em>shrapnel</em> in his leg.</li><li><em>Shrapnel</em> tore through the canvas.</li><li>The blast sprayed <em>shrapnel</em> across the street.</li></ol>
+<hr>
+<h3 id="sword">sword<a class="hash" href="#sword" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/sɔːrd/ &middot; <em>SAWRD</em></dd><dt>Русский</dt><dd>меч, шпага</dd><dt>Plural</dt><dd><em>swords</em></dd><dt>Countability</dt><dd>countable</dd><dt>Contrast</dt><dd>The w is silent: SAWRD.</dd></dl>
+<p>A weapon with a long metal blade and a handle.</p>
+<ol><li>The officer wore a ceremonial <em>sword</em>.</li><li>He drew his <em>sword</em> and waited.</li><li>Their <em>swords</em> clashed in the courtyard.</li></ol>
+<hr>
+<h3 id="dagger">dagger<a class="hash" href="#dagger" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/ˈdæɡər/ &middot; <em>DAG-ur</em></dd><dt>Русский</dt><dd>кинжал</dd><dt>Plural</dt><dd><em>daggers</em></dd><dt>Countability</dt><dd>countable</dd></dl>
+<p>A short pointed knife used as a weapon.</p>
+<ol><li>A <em>dagger</em> hung from his belt.</li><li>The museum displays Roman <em>daggers</em>.</li><li>She hid a <em>dagger</em> in her sleeve.</li></ol>
+<hr>
+<h3 id="spear">spear<a class="hash" href="#spear" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/spɪr/ &middot; <em>SPEER</em></dd><dt>Русский</dt><dd>копьё</dd><dt>Plural</dt><dd><em>spears</em></dd><dt>Countability</dt><dd>countable</dd></dl>
+<p>A long pole with a sharp point, thrown or thrust at an enemy.</p>
+<ol><li>The warriors carried short <em>spears</em>.</li><li>He threw the <em>spear</em> with both hands.</li><li>Their <em>spears</em> had iron tips.</li></ol>
+<hr>
+<h3 id="arrow">arrow<a class="hash" href="#arrow" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/ˈæroʊ/ &middot; <em>AR-oh</em></dd><dt>Русский</dt><dd>стрела</dd><dt>Plural</dt><dd><em>arrows</em></dd><dt>Countability</dt><dd>countable</dd></dl>
+<p>A thin pointed stick shot from a bow.</p>
+<ol><li>An <em>arrow</em> struck him in the shoulder.</li><li>The archers loosed their <em>arrows</em>.</li><li>He pulled the <em>arrow</em> out of the tree.</li></ol>
+<hr>
+<h3 id="shield">shield<a class="hash" href="#shield" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/ʃiːld/ &middot; <em>SHEELD</em></dd><dt>Русский</dt><dd>щит</dd><dt>Plural</dt><dd><em>shields</em></dd><dt>Countability</dt><dd>countable</dd></dl>
+<p>A broad piece of metal or wood held up to block blows.</p>
+<ol><li>He raised his <em>shield</em> against the blow.</li><li>Their <em>shields</em> formed a solid wall.</li><li>The <em>shield</em> was made of wood and leather.</li></ol>
+<hr>
+<h3 id="armor">armor<a class="hash" href="#armor" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/ˈɑːrmər/ &middot; <em>AHR-mur</em></dd><dt>Русский</dt><dd>броня, доспехи</dd><dt>Countability</dt><dd>uncountable</dd><dt>Contrast</dt><dd>American spelling armor; British armour.</dd></dl>
+<p>A hard protective covering worn in battle or fitted to a vehicle.</p>
+<ol><li>The tank's front <em>armor</em> is six inches thick.</li><li>Knights wore heavy <em>armor</em> into battle.</li><li>Body <em>armor</em> saved his life.</li></ol>
+<hr>
+<h3 id="trigger">trigger<a class="hash" href="#trigger" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/ˈtrɪɡər/ &middot; <em>TRIG-ur</em></dd><dt>Русский</dt><dd>спусковой крючок</dd><dt>Plural</dt><dd><em>triggers</em></dd><dt>Countability</dt><dd>countable</dd></dl>
+<p>The small lever you pull to fire a gun.</p>
+<ol><li>He put his finger on the <em>trigger</em>.</li><li>Never touch the <em>trigger</em> until you are ready.</li><li>The <em>trigger</em> was jammed with sand.</li></ol>
+<hr>
+<h3 id="arsenal">arsenal<a class="hash" href="#arsenal" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/ˈɑːrsənəl/ &middot; <em>AHR-suh-nuhl</em></dd><dt>Русский</dt><dd>арсенал</dd><dt>Plural</dt><dd><em>arsenals</em></dd><dt>Countability</dt><dd>countable</dd></dl>
+<p>A store of weapons, or all the weapons a country has.</p>
+<ol><li>The country's nuclear <em>arsenal</em> has shrunk.</li><li>They raided the government <em>arsenal</em>.</li><li>Both <em>arsenals</em> were destroyed in the raid.</li></ol>
+<hr>
+<h3 id="tank">tank<a class="hash" href="#tank" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/tæŋk/ &middot; <em>TANK</em></dd><dt>Русский</dt><dd>танк</dd><dt>Plural</dt><dd><em>tanks</em></dd><dt>Countability</dt><dd>countable</dd></dl>
+<p>An armored fighting vehicle that moves on tracks and carries a big gun.</p>
+<ol><li>A column of <em>tanks</em> rolled through the square.</li><li>The <em>tank</em> threw a track in the mud.</li><li>Fifty <em>tanks</em> were lost in a single day.</li></ol>
+<hr>
+<h3 id="helicopter">helicopter<a class="hash" href="#helicopter" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/ˈhɛlɪkɑːptər/ &middot; <em>HEL-ih-kahp-tur</em></dd><dt>Русский</dt><dd>вертолёт</dd><dt>Plural</dt><dd><em>helicopters</em></dd><dt>Countability</dt><dd>countable</dd></dl>
+<p>An aircraft lifted by spinning blades above it.</p>
+<ol><li>A <em>helicopter</em> lifted the wounded out.</li><li>Two <em>helicopters</em> circled the compound.</li><li>He flew <em>helicopters</em> during the war.</li></ol>
+<hr>
+<h3 id="bomber">bomber<a class="hash" href="#bomber" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/ˈbɑːmər/ &middot; <em>BAH-mur</em></dd><dt>Русский</dt><dd>бомбардировщик</dd><dt>Plural</dt><dd><em>bombers</em></dd><dt>Countability</dt><dd>countable</dd><dt>Contrast</dt><dd>The b in bomb- is silent: BAH-mur.</dd></dl>
+<p>A military aircraft built to drop bombs.</p>
+<ol><li>The <em>bombers</em> came in at ten thousand feet.</li><li>A single <em>bomber</em> was shot down.</li><li>Heavy <em>bombers</em> struck the rail yards.</li></ol>
+<hr>
+<h3 id="fighter">fighter<a class="hash" href="#fighter" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/ˈfaɪtər/ &middot; <em>FY-tur</em></dd><dt>Русский</dt><dd>истребитель</dd><dt>Plural</dt><dd><em>fighters</em></dd><dt>Countability</dt><dd>countable</dd></dl>
+<p>A fast military aircraft built to attack other aircraft.</p>
+<ol><li>Two <em>fighters</em> escorted the transport.</li><li>The <em>fighter</em> rolled and dove.</li><li>Enemy <em>fighters</em> met them over the channel.</li></ol>
+<hr>
+<h3 id="drone">drone<a class="hash" href="#drone" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/droʊn/ &middot; <em>DROHN</em></dd><dt>Русский</dt><dd>беспилотник, дрон</dd><dt>Plural</dt><dd><em>drones</em></dd><dt>Countability</dt><dd>countable</dd></dl>
+<p>An aircraft flown without a pilot on board.</p>
+<ol><li>A <em>drone</em> circled overhead for hours.</li><li><em>Drones</em> now do most of the reconnaissance.</li><li>They shot the <em>drone</em> down with a rifle.</li></ol>
+<hr>
+<h3 id="warship">warship<a class="hash" href="#warship" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/ˈwɔːrʃɪp/ &middot; <em>WAWR-ship</em></dd><dt>Русский</dt><dd>военный корабль</dd><dt>Plural</dt><dd><em>warships</em></dd><dt>Countability</dt><dd>countable</dd></dl>
+<p>A ship armed and built for fighting.</p>
+<ol><li>Three <em>warships</em> entered the harbor.</li><li>The <em>warship</em> fired a warning shot.</li><li>Foreign <em>warships</em> patrolled the strait.</li></ol>
+<hr>
+<h3 id="battleship">battleship<a class="hash" href="#battleship" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/ˈbætəlʃɪp/ &middot; <em>BAT-uhl-ship</em></dd><dt>Русский</dt><dd>линкор</dd><dt>Plural</dt><dd><em>battleships</em></dd><dt>Countability</dt><dd>countable</dd></dl>
+<p>A very large warship with heavy guns and thick armor.</p>
+<ol><li>The <em>battleship</em> was sunk in the harbor.</li><li><em>Battleships</em> were once the pride of every navy.</li><li>He served aboard a <em>battleship</em>.</li></ol>
+<hr>
+<h3 id="destroyer">destroyer<a class="hash" href="#destroyer" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/dɪˈstrɔɪrr/ &middot; <em>dih-STROY-ur</em></dd><dt>Русский</dt><dd>эсминец</dd><dt>Plural</dt><dd><em>destroyers</em></dd><dt>Countability</dt><dd>countable</dd></dl>
+<p>A fast warship used to protect larger ships.</p>
+<ol><li>The <em>destroyer</em> escorted the convoy.</li><li>Two <em>destroyers</em> were hit by torpedoes.</li><li>He was posted to a <em>destroyer</em> in the Pacific.</li></ol>
+<hr>
+<h3 id="submarine">submarine<a class="hash" href="#submarine" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/ˈsʌbməriːn/ &middot; <em>SUB-muh-reen</em></dd><dt>Русский</dt><dd>подводная лодка</dd><dt>Plural</dt><dd><em>submarines</em></dd><dt>Countability</dt><dd>countable</dd></dl>
+<p>A ship that can travel under the water.</p>
+<ol><li>A <em>submarine</em> sank two freighters that night.</li><li>The <em>submarine</em> stayed down for eighteen hours.</li><li>Nuclear <em>submarines</em> can stay at sea for months.</li></ol>
+<hr>
+<h3 id="carrier">carrier<a class="hash" href="#carrier" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/ˈkæriər/ &middot; <em>KA-ree-ur</em></dd><dt>Русский</dt><dd>авианосец</dd><dt>Plural</dt><dd><em>carriers</em></dd><dt>Countability</dt><dd>countable</dd></dl>
+<p>A warship with a flat deck that aircraft take off from and land on.</p>
+<ol><li>The <em>carrier</em> launched forty planes.</li><li>Two <em>carriers</em> were sent to the region.</li><li>He landed on the <em>carrier</em> in heavy seas.</li></ol>
+<hr>
+<h3 id="convoy">convoy<a class="hash" href="#convoy" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/ˈkɑːnvɔɪ/ &middot; <em>KAHN-voy</em></dd><dt>Русский</dt><dd>конвой, колонна</dd><dt>Plural</dt><dd><em>convoys</em></dd><dt>Countability</dt><dd>countable</dd></dl>
+<p>A group of vehicles or ships traveling together for protection.</p>
+<ol><li>The <em>convoy</em> left the base at dawn.</li><li>Submarines attacked the <em>convoy</em> at night.</li><li>Supply <em>convoys</em> ran twice a week.</li></ol>
+<hr>
+<h3 id="parachute">parachute<a class="hash" href="#parachute" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/ˈpærəʃuːt/ &middot; <em>PA-ruh-shoot</em></dd><dt>Русский</dt><dd>парашют</dd><dt>Plural</dt><dd><em>parachutes</em></dd><dt>Countability</dt><dd>countable</dd><dt>Contrast</dt><dd>The ch sounds like sh: PA-ruh-shoot.</dd></dl>
+<p>A large cloth canopy that slows a fall through the air.</p>
+<ol><li>His <em>parachute</em> opened at eight hundred feet.</li><li>They dropped supplies by <em>parachute</em>.</li><li>Both <em>parachutes</em> failed to open.</li></ol>
+<hr>
+<h3 id="fort">fort<a class="hash" href="#fort" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/fɔːrt/ &middot; <em>FAWRT</em></dd><dt>Русский</dt><dd>форт, укрепление</dd><dt>Plural</dt><dd><em>forts</em></dd><dt>Countability</dt><dd>countable</dd></dl>
+<p>A strong building or position held by soldiers.</p>
+<ol><li>The <em>fort</em> guarded the river crossing.</li><li>Soldiers built a wooden <em>fort</em> on the ridge.</li><li>Three <em>forts</em> were abandoned that winter.</li></ol>
+<hr>
+<h3 id="fortress">fortress<a class="hash" href="#fortress" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/ˈfɔːrtrəs/ &middot; <em>FAWR-truhs</em></dd><dt>Русский</dt><dd>крепость</dd><dt>Plural</dt><dd><em>fortresses</em></dd><dt>Countability</dt><dd>countable</dd></dl>
+<p>A large, heavily defended building or town.</p>
+<ol><li>The <em>fortress</em> had never been taken.</li><li>They laid siege to the <em>fortress</em> for a year.</li><li>Mountain <em>fortresses</em> guarded the pass.</li></ol>
+<hr>
+<h3 id="bunker">bunker<a class="hash" href="#bunker" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/ˈbʌŋkər/ &middot; <em>BUNG-kur</em></dd><dt>Русский</dt><dd>бункер, блиндаж</dd><dt>Plural</dt><dd><em>bunkers</em></dd><dt>Countability</dt><dd>countable</dd></dl>
+<p>A shelter built underground or of thick concrete to survive attack.</p>
+<ol><li>They took shelter in a concrete <em>bunker</em>.</li><li>The <em>bunker</em> survived the bombing.</li><li>Machine-gun <em>bunkers</em> covered the beach.</li></ol>
+<hr>
+<h3 id="trench">trench<a class="hash" href="#trench" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/trɛntʃ/ &middot; <em>TRENCH</em></dd><dt>Русский</dt><dd>окоп, траншея</dd><dt>Plural</dt><dd><em>trenches</em></dd><dt>Countability</dt><dd>countable</dd></dl>
+<p>A long narrow ditch dug for soldiers to fight from.</p>
+<ol><li>The men dug a <em>trench</em> along the ridge.</li><li>Life in the <em>trenches</em> was miserable.</li><li>A shell collapsed part of the <em>trench</em>.</li></ol>
+<hr>
+<h3 id="base">base<a class="hash" href="#base" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/beɪs/ &middot; <em>BAYS</em></dd><dt>Русский</dt><dd>база (военная)</dd><dt>Plural</dt><dd><em>bases</em></dd><dt>Countability</dt><dd>countable</dd><dt>Contrast</dt><dd>Sounds exactly like bass, the low musical part.</dd></dl>
+<p>A place where armed forces are stationed and supplied.</p>
+<ol><li>The planes returned to <em>base</em> before dark.</li><li>There are two air <em>bases</em> in the state.</li><li>He grew up on a military <em>base</em>.</li></ol>
+<hr>
+<h3 id="battlefield">battlefield<a class="hash" href="#battlefield" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/ˈbætəlfiːld/ &middot; <em>BAT-uhl-feeld</em></dd><dt>Русский</dt><dd>поле боя</dd><dt>Plural</dt><dd><em>battlefields</em></dd><dt>Countability</dt><dd>countable</dd></dl>
+<p>The ground on which a battle is fought.</p>
+<ol><li>The <em>battlefield</em> is a national park today.</li><li>Medics worked on the <em>battlefield</em> under fire.</li><li>He visited the old <em>battlefields</em> in France.</li></ol>
+<hr>
+<h3 id="outpost">outpost<a class="hash" href="#outpost" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/ˈaʊtpoʊst/ &middot; <em>OWT-pohst</em></dd><dt>Русский</dt><dd>застава, аванпост</dd><dt>Plural</dt><dd><em>outposts</em></dd><dt>Countability</dt><dd>countable</dd></dl>
+<p>A small military post far from the main force.</p>
+<ol><li>A dozen men held the <em>outpost</em>.</li><li>The <em>outpost</em> was overrun before dawn.</li><li>Remote <em>outposts</em> were supplied by air.</li></ol>
+<hr>
+<h3 id="mission">mission<a class="hash" href="#mission" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/ˈmɪʃən/ &middot; <em>MISH-uhn</em></dd><dt>Русский</dt><dd>задание, боевая задача</dd><dt>Plural</dt><dd><em>missions</em></dd><dt>Countability</dt><dd>countable</dd></dl>
+<p>A particular military job that a person or unit is sent to do.</p>
+<ol><li>He flew thirty <em>missions</em> over Germany.</li><li>The <em>mission</em> was called off at the last minute.</li><li>Their <em>mission</em> was to blow up the bridge.</li></ol>
+<hr>
+<h3 id="strategy">strategy<a class="hash" href="#strategy" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/ˈstrætədʒi/ &middot; <em>STRAT-uh-jee</em></dd><dt>Русский</dt><dd>стратегия</dd><dt>Plural</dt><dd><em>strategies</em></dd><dt>Countability</dt><dd>countable</dd></dl>
+<p>A general plan for winning a war or reaching a long-term goal.</p>
+<ol><li>The new <em>strategy</em> focused on the coast.</li><li>Their <em>strategy</em> was simply to outlast the enemy.</li><li>Both <em>strategies</em> had obvious weaknesses.</li></ol>
+<hr>
+<h3 id="maneuver">maneuver<a class="hash" href="#maneuver" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/məˈnuːvər/ &middot; <em>muh-NOO-vur</em></dd><dt>Русский</dt><dd>манёвр</dd><dt>Plural</dt><dd><em>maneuvers</em></dd><dt>Countability</dt><dd>countable</dd><dt>Contrast</dt><dd>American spelling maneuver; British manoeuvre.</dd></dl>
+<p>A planned movement of troops, ships, or vehicles.</p>
+<ol><li>It was a bold <em>maneuver</em> that nearly worked.</li><li>The fleet is on <em>maneuvers</em> off the coast.</li><li>A simple flanking <em>maneuver</em> won the battle.</li></ol>
+<hr>
+<h3 id="parade">parade<a class="hash" href="#parade" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/pəˈreɪd/ &middot; <em>puh-RAYD</em></dd><dt>Русский</dt><dd>парад</dd><dt>Plural</dt><dd><em>parades</em></dd><dt>Countability</dt><dd>countable</dd></dl>
+<p>A formal march of troops in front of onlookers.</p>
+<ol><li>The victory <em>parade</em> filled the avenue.</li><li>Troops marched in the <em>parade</em> for two hours.</li><li>The town holds two <em>parades</em> every year.</li></ol>
+<hr>
+<h3 id="reconnaissance">reconnaissance<a class="hash" href="#reconnaissance" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/rɪˈkɑːnəsəns/ &middot; <em>rih-KAH-nuh-suhns</em></dd><dt>Русский</dt><dd>разведка (военная)</dd><dt>Countability</dt><dd>uncountable</dd><dt>Contrast</dt><dd>Stress falls on the second syllable: rih-KAH-nuh-suhns.</dd></dl>
+<p>The work of gathering information about enemy positions.</p>
+<ol><li>They flew a <em>reconnaissance</em> mission over the port.</li><li><em>Reconnaissance</em> showed no tanks in the valley.</li><li>Aerial <em>reconnaissance</em> was their only source.</li></ol>
+<hr>
+<h3 id="sabotage">sabotage<a class="hash" href="#sabotage" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/ˈsæbətɑːʒ/ &middot; <em>SAB-uh-tahzh</em></dd><dt>Русский</dt><dd>саботаж, диверсия</dd><dt>Countability</dt><dd>uncountable</dd><dt>Contrast</dt><dd>The ending sounds like -tahzh.</dd></dl>
+<p>Deliberate damage done to equipment or works to hinder an enemy.</p>
+<ol><li>The explosion was blamed on <em>sabotage</em>.</li><li><em>Sabotage</em> slowed production for weeks.</li><li>They suspected <em>sabotage</em> at the rail yard.</li></ol>
+<hr>
+<h3 id="command">command<a class="hash" href="#command" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/kəˈmænd/ &middot; <em>kuh-MAND</em></dd><dt>Русский</dt><dd>приказ; командование</dd><dt>Plural</dt><dd><em>commands</em></dd><dt>Countability</dt><dd>both — countable and uncountable with different meanings</dd></dl>
+<p>An order given to be obeyed, or authority over a military force.</p>
+<ol><li>The soldiers waited for the <em>command</em> to fire.</li><li>She took <em>command</em> of the regiment in March.</li><li>He shouted a few sharp <em>commands</em> and the line moved.</li></ol>
+<hr>
+<h3 id="deployment">deployment<a class="hash" href="#deployment" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/dɪˈplɔɪmənt/ &middot; <em>dih-PLOY-muhnt</em></dd><dt>Русский</dt><dd>развёртывание; служебная командировка</dd><dt>Plural</dt><dd><em>deployments</em></dd><dt>Countability</dt><dd>countable</dd></dl>
+<p>The sending of troops to a place where they are needed.</p>
+<ol><li>This is his third <em>deployment</em> overseas.</li><li>The <em>deployment</em> was extended by six months.</li><li>Long <em>deployments</em> are hard on families.</li></ol>
+<hr>
+<h3 id="conscription">conscription<a class="hash" href="#conscription" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/kənˈskrɪpʃən/ &middot; <em>kuhn-SKRIP-shuhn</em></dd><dt>Русский</dt><dd>воинская повинность, призыв</dd><dt>Countability</dt><dd>uncountable</dd></dl>
+<p>A law requiring people to serve in the armed forces.</p>
+<ol><li><em>Conscription</em> ended in 1973.</li><li>Thousands left the country to avoid <em>conscription</em>.</li><li>The government reintroduced <em>conscription</em> last year.</li></ol>
+<hr>
+<h3 id="target">target<a class="hash" href="#target" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/ˈtɑːrɡət/ &middot; <em>TAHR-guht</em></dd><dt>Русский</dt><dd>цель, мишень</dd><dt>Plural</dt><dd><em>targets</em></dd><dt>Countability</dt><dd>countable</dd></dl>
+<p>The thing or place that an attack or shot is aimed at.</p>
+<ol><li>The bridge was the primary <em>target</em>.</li><li>They hit both <em>targets</em> on the first pass.</li><li>Civilians should never be a <em>target</em>.</li></ol>
+<hr>
+<h3 id="evacuation">evacuation<a class="hash" href="#evacuation" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/ɪˌvækjuˈeɪʃən/ &middot; <em>ih-vak-yoo-AY-shuhn</em></dd><dt>Русский</dt><dd>эвакуация</dd><dt>Plural</dt><dd><em>evacuations</em></dd><dt>Countability</dt><dd>countable</dd></dl>
+<p>The moving of people away from a dangerous place.</p>
+<ol><li>The <em>evacuation</em> of the city took three days.</li><li>Two <em>evacuations</em> were ordered that month.</li><li>The <em>evacuation</em> saved thousands of lives.</li></ol>
+<hr>
+<h3 id="honor">honor<a class="hash" href="#honor" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/ˈɑːnər/ &middot; <em>AH-nur</em></dd><dt>Русский</dt><dd>честь</dd><dt>Countability</dt><dd>uncountable</dd><dt>Contrast</dt><dd>The h is silent: AH-nur. American spelling honor; British honour.</dd></dl>
+<p>Strong respect for what is right, and the good name it earns.</p>
+<ol><li>He served with <em>honor</em> for twenty years.</li><li>There is no <em>honor</em> in shooting prisoners.</li><li>He fought for the <em>honor</em> of his regiment.</li></ol>
+<hr>
+<h3 id="valor">valor<a class="hash" href="#valor" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/ˈvælər/ &middot; <em>VAL-ur</em></dd><dt>Русский</dt><dd>доблесть, отвага</dd><dt>Countability</dt><dd>uncountable</dd><dt>Contrast</dt><dd>American spelling valor; British valour.</dd></dl>
+<p>Great courage shown in battle.</p>
+<ol><li>He received a medal for <em>valor</em>.</li><li>The award recognizes <em>valor</em> in combat.</li><li>Her <em>valor</em> under fire became a legend in the unit.</li></ol>
+<hr>
+<h3 id="sacrifice">sacrifice<a class="hash" href="#sacrifice" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/ˈsækrəfaɪs/ &middot; <em>SAK-ruh-fyse</em></dd><dt>Русский</dt><dd>жертва, самопожертвование</dd><dt>Plural</dt><dd><em>sacrifices</em></dd><dt>Countability</dt><dd>countable</dd></dl>
+<p>Something valuable given up for the sake of others or a cause.</p>
+<ol><li>Their <em>sacrifice</em> is remembered every year.</li><li>The war demanded enormous <em>sacrifices</em>.</li><li>He made the ultimate <em>sacrifice</em>.</li></ol>
+<hr>
+<h3 id="salute">salute<a class="hash" href="#salute" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/səˈluːt/ &middot; <em>suh-LOOT</em></dd><dt>Русский</dt><dd>воинское приветствие, отдание чести</dd><dt>Plural</dt><dd><em>salutes</em></dd><dt>Countability</dt><dd>countable</dd></dl>
+<p>A formal gesture of respect made to an officer or a flag.</p>
+<ol><li>The private gave a crisp <em>salute</em>.</li><li>A twenty-one-gun <em>salute</em> honored the fallen.</li><li>He returned the <em>salute</em> without a word.</li></ol>
+<hr>
+<h3 id="rank">rank<a class="hash" href="#rank" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/ræŋk/ &middot; <em>RANK</em></dd><dt>Русский</dt><dd>воинское звание</dd><dt>Plural</dt><dd><em>ranks</em></dd><dt>Countability</dt><dd>countable</dd></dl>
+<p>A person's official position in the armed forces.</p>
+<ol><li>She holds the <em>rank</em> of major.</li><li>He rose through the <em>ranks</em> quickly.</li><li>Officers of every <em>rank</em> attended the ceremony.</li></ol>
+<hr>
+<h3 id="medal">medal<a class="hash" href="#medal" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/ˈmɛdəl/ &middot; <em>MED-uhl</em></dd><dt>Русский</dt><dd>медаль</dd><dt>Plural</dt><dd><em>medals</em></dd><dt>Countability</dt><dd>countable</dd><dt>Contrast</dt><dd>Sounds exactly like meddle, to interfere.</dd></dl>
+<p>A small metal award given for bravery or service.</p>
+<ol><li>He was awarded a <em>medal</em> for bravery.</li><li>Her <em>medals</em> are in a box in the attic.</li><li>The <em>medal</em> is the country's highest honor.</li></ol>
+<hr>
+<h3 id="destruction">destruction<a class="hash" href="#destruction" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/dɪˈstrʌkʃən/ &middot; <em>dih-STRUK-shuhn</em></dd><dt>Русский</dt><dd>разрушение, уничтожение</dd><dt>Countability</dt><dd>uncountable</dd></dl>
+<p>The act of ruining something completely.</p>
+<ol><li>The <em>destruction</em> was total.</li><li>Photographs showed the <em>destruction</em> of the old quarter.</li><li>Weapons of mass <em>destruction</em> were never found.</li></ol>
+<hr>
+<h3 id="rubble">rubble<a class="hash" href="#rubble" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/ˈrʌbəl/ &middot; <em>RUB-uhl</em></dd><dt>Русский</dt><dd>обломки, развалины, щебень</dd><dt>Countability</dt><dd>uncountable</dd><dt>Contrast</dt><dd>Uncountable: a pile of rubble, never rubbles.</dd></dl>
+<p>Broken stone and brick left after a building falls down.</p>
+<ol><li>The whole street was reduced to <em>rubble</em>.</li><li>Rescuers dug through the <em>rubble</em> all night.</li><li>Children played in the <em>rubble</em>.</li></ol>
+<hr>
+<h3 id="explosion">explosion<a class="hash" href="#explosion" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/ɪkˈsploʊʒən/ &middot; <em>ik-SPLOH-zhuhn</em></dd><dt>Русский</dt><dd>взрыв</dd><dt>Plural</dt><dd><em>explosions</em></dd><dt>Countability</dt><dd>countable</dd></dl>
+<p>A sudden violent bursting that throws out force and noise.</p>
+<ol><li>The <em>explosion</em> shattered every window on the block.</li><li>Two <em>explosions</em> were heard near the port.</li><li>The <em>explosion</em> left a crater ten feet wide.</li></ol>
+<hr>
+<h3 id="gunfire">gunfire<a class="hash" href="#gunfire" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/ˈɡʌnfaɪrr/ &middot; <em>GUHN-fyr</em></dd><dt>Русский</dt><dd>стрельба, огонь из оружия</dd><dt>Countability</dt><dd>uncountable</dd></dl>
+<p>The shooting of guns, or the noise it makes.</p>
+<ol><li><em>Gunfire</em> broke out near the market.</li><li>They heard <em>gunfire</em> all night.</li><li>The <em>gunfire</em> died down toward morning.</li></ol>
+<hr>
+<h3 id="ration">ration<a class="hash" href="#ration" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/ˈræʃən/ &middot; <em>RASH-uhn</em></dd><dt>Русский</dt><dd>паёк, рацион</dd><dt>Plural</dt><dd><em>rations</em></dd><dt>Countability</dt><dd>countable</dd><dt>Contrast</dt><dd>Rhymes with fashion, not with nation.</dd></dl>
+<p>A fixed amount of food allowed to one person for one period.</p>
+<ol><li>The men were down to half <em>rations</em>.</li><li>Each soldier carried three days' <em>rations</em>.</li><li>The daily <em>ration</em> was one can of meat and a loaf.</li></ol>
+<hr>
+<h3 id="airstrike">airstrike<a class="hash" href="#airstrike" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/ˈɛrstraɪk/ &middot; <em>AIR-stryke</em></dd><dt>Русский</dt><dd>авиаудар</dd><dt>Plural</dt><dd><em>airstrikes</em></dd><dt>Countability</dt><dd>countable</dd></dl>
+<p>An attack made by military aircraft on a ground target.</p>
+<ol><li>An <em>airstrike</em> destroyed the convoy.</li><li>Two <em>airstrikes</em> hit the airfield before noon.</li><li>The <em>airstrike</em> was called off at the last minute.</li></ol></div></main>
+<button class="themebtn" id="themeBtn">Dark</button>
+<script>
+const tb=document.getElementById('themeBtn');
+function setTheme(x){document.documentElement.dataset.theme=x;tb.textContent=x==='dark'?'Light':'Dark';
+ try{localStorage.setItem('site-theme',x)}catch(e){}}
+tb.onclick=()=>setTheme(document.documentElement.dataset.theme==='dark'?'light':'dark');
+try{const s=localStorage.getItem('site-theme');
+ setTheme(s||(matchMedia('(prefers-color-scheme: dark)').matches?'dark':'light'))}catch(e){setTheme('light')}
+</script></body></html>

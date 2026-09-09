@@ -1,0 +1,746 @@
+<!DOCTYPE html>
+<html lang="en"><head>
+<meta charset="utf-8"><meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Core vocabulary: events and celebrations</title>
+<style>
+:root{--bg:#faf9f7;--surface:#fff;--surface2:#f2f0ec;--border:#e2ded6;--text:#1a1815;
+--dim:#5f594f;--faint:#8a8377;--accent:#8a5a3b;--measure:72ch}
+@media(prefers-color-scheme:dark){:root{--bg:#14140f;--surface:#1d1d17;--surface2:#25251d;
+--border:#33332a;--text:#eeeae1;--dim:#a8a293;--faint:#7d776b;--accent:#d09b72}}
+:root[data-theme=dark]{--bg:#14140f;--surface:#1d1d17;--surface2:#25251d;--border:#33332a;
+--text:#eeeae1;--dim:#a8a293;--faint:#7d776b;--accent:#d09b72}
+:root[data-theme=light]{--bg:#faf9f7;--surface:#fff;--surface2:#f2f0ec;--border:#e2ded6;
+--text:#1a1815;--dim:#5f594f;--faint:#8a8377;--accent:#8a5a3b}
+*{box-sizing:border-box}
+body{margin:0;background:var(--bg);color:var(--text);
+font:17px/1.72 ui-serif,Georgia,"Iowan Old Style",Palatino,serif;-webkit-font-smoothing:antialiased}
+.wrap{max-width:min(var(--measure),100%);margin:0 auto;padding:0 22px}
+nav.crumb{border-bottom:1px solid var(--border);padding:13px 0;font-size:13.5px;
+font-family:-apple-system,BlinkMacSystemFont,"Segoe UI",sans-serif;position:sticky;top:0;background:var(--bg);z-index:20}
+nav.crumb .wrap{max-width:none;display:flex;gap:9px;align-items:center;flex-wrap:wrap}
+nav.crumb a{color:var(--dim);text-decoration:none}
+nav.crumb a:hover{color:var(--accent)}
+nav.crumb .sep{color:var(--faint)}
+main{padding:8px 0 80px}
+h1{font-size:clamp(28px,5vw,38px);line-height:1.15;letter-spacing:-.015em;margin:34px 0 18px}
+h2{font-size:25px;margin:46px 0 14px;letter-spacing:-.01em;padding-bottom:7px;border-bottom:1px solid var(--border)}
+h3{font-size:19px;margin:34px 0 10px;color:var(--accent)}
+h4{font-size:16px;margin:24px 0 8px;font-family:-apple-system,sans-serif}
+p{margin:0 0 16px}
+a{color:var(--accent)}
+.hash{opacity:0;margin-left:8px;font-weight:400;font-size:.65em;text-decoration:none;color:var(--faint)}
+h2:hover .hash,h3:hover .hash{opacity:1}
+blockquote{margin:0 0 20px;padding:14px 18px;background:var(--surface2);
+border-left:3px solid var(--accent);border-radius:0 8px 8px 0}
+blockquote p:last-child{margin-bottom:0}
+ol,ul{margin:0 0 18px;padding-left:26px}
+li{margin-bottom:8px}
+li>ul,li>ol{margin:8px 0 0}
+code{font-family:ui-monospace,SFMono-Regular,Menlo,Consolas,monospace;font-size:.87em;
+background:var(--surface2);padding:1px 5px;border-radius:4px}
+pre{background:var(--surface2);border:1px solid var(--border);border-radius:9px;
+padding:15px 17px;overflow-x:auto;margin:0 0 20px}
+pre code{background:none;padding:0;font-size:13px;line-height:1.6}
+.tw{overflow-x:auto;margin:0 0 22px;border:1px solid var(--border);border-radius:9px}
+table{border-collapse:collapse;width:100%;font-size:15px;
+font-family:-apple-system,BlinkMacSystemFont,"Segoe UI",sans-serif}
+th,td{padding:10px 14px;border-bottom:1px solid var(--border);vertical-align:top}
+th{background:var(--surface2);font-size:12px;text-transform:uppercase;
+letter-spacing:.06em;color:var(--dim);font-weight:700;white-space:nowrap}
+tbody tr:last-child td{border-bottom:none}
+hr{border:none;border-top:1px solid var(--border);margin:38px 0}
+details{background:var(--surface2);border:1px solid var(--border);border-radius:9px;
+padding:13px 17px;margin:0 0 20px}
+summary{cursor:pointer;font-weight:600;font-family:-apple-system,sans-serif;font-size:15px}
+details[open] summary{margin-bottom:12px}
+del{color:var(--faint)}
+dl.fields{margin:0 0 20px;padding:0}
+dl.fields dt{font-family:-apple-system,BlinkMacSystemFont,"Segoe UI",sans-serif;
+font-size:11px;letter-spacing:.11em;text-transform:uppercase;color:var(--faint);
+font-weight:700;margin:14px 0 4px}
+dl.fields dt:first-child{margin-top:0}
+dl.fields dd{margin:0;font-size:16px;color:var(--dim);line-height:1.62}
+dl.fields dd em{color:var(--text)}
+dl.fields dt.ru{color:var(--accent)}
+dl.fields dd strong{color:var(--text)}
+.toc{background:var(--surface2);border:1px solid var(--border);border-radius:10px;
+padding:16px 20px;margin:26px 0 34px;font-family:-apple-system,sans-serif;font-size:14px}
+.toc b{display:block;font-size:11px;letter-spacing:.12em;text-transform:uppercase;
+color:var(--faint);margin-bottom:9px}
+.toc a{display:block;padding:3px 0;color:var(--dim);text-decoration:none}
+.toc a:hover{color:var(--accent)}
+.themebtn{position:fixed;right:18px;bottom:18px;z-index:60;font-family:-apple-system,sans-serif;
+font-size:12.5px;font-weight:600;cursor:pointer;background:var(--surface);border:1px solid var(--border);
+border-radius:99px;padding:9px 16px;color:var(--text)}
+@media(max-width:600px){body{font-size:16px}.wrap{padding:0 17px}}
+</style></head><body>
+<nav class="crumb"><div class="wrap"><a href="../../../index.html">Learn English</a><span class="sep">/</span><a href="../../README.html">Parts of speech</a><span class="sep">/</span><a href="../README.html">01-nouns</a><span class="sep">/</span><span>catalog</span></div></nav>
+<main><div class="wrap"><h1 id="core-vocabulary-events-and-celebrations">Core vocabulary: events and celebrations<a class="hash" href="#core-vocabulary-events-and-celebrations" aria-label="link">#</a></h1>
+<blockquote><p>The everyday nouns of events and celebrations — pronunciation, Russian, plural, and three examples each.</p></blockquote>
+<p><a href="../README.html">← The grammar of nouns</a> &middot; <a href="README.html">All groups</a></p>
+<p>Part of the <strong>core-vocabulary tier</strong>. Groups 1–23 cover the nouns that misbehave; this tier covers the nouns you simply need to know. Entries are deliberately lean, because a regular countable noun has no grammatical story to tell. A <strong>Contrast</strong> line appears only where the word hides a genuine trap.</p>
+<p>Where a word in this field <em>does</em> misbehave, it lives in the grammar tier instead and is not repeated here.</p>
+<hr>
+<h3 id="bridesmaid">bridesmaid<a class="hash" href="#bridesmaid" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/ˈbraɪdzmeɪd/ &middot; <em>BRYDZ-mayd</em></dd><dt>Русский</dt><dd>подружка невесты</dd><dt>Plural</dt><dd><em>bridesmaids</em></dd><dt>Countability</dt><dd>countable</dd></dl>
+<p>A woman who stands with the bride during a wedding and helps her prepare for it.</p>
+<ol><li>She asked her sister to be a <em>bridesmaid</em>.</li><li>All six <em>bridesmaids</em> wore navy blue.</li><li>Being a <em>bridesmaid</em> turned out to be more work than I expected.</li></ol>
+<hr>
+<h3 id="groom">groom<a class="hash" href="#groom" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/ɡruːm/ &middot; <em>GROOM</em></dd><dt>Русский</dt><dd>жених (на свадьбе)</dd><dt>Plural</dt><dd><em>grooms</em></dd><dt>Countability</dt><dd>countable</dd></dl>
+<p>The man who is getting married on his wedding day.</p>
+<ol><li>The <em>groom</em> looked nervous at the altar.</li><li>The bride and <em>groom</em> cut the cake together.</li><li>Traditionally the <em>groom</em> doesn't see the dress beforehand.</li></ol>
+<hr>
+<h3 id="groomsman">groomsman<a class="hash" href="#groomsman" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/ˈɡruːmzmən/ &middot; <em>GROOMZ-muhn</em></dd><dt>Русский</dt><dd>друг жениха, свидетель</dd><dt>Plural</dt><dd><em>groomsmen</em></dd><dt>Countability</dt><dd>countable</dd><dt>Contrast</dt><dd>Irregular plural: <em>groomsman</em> → <em>groomsmen</em>, like <em>man</em> → <em>men</em>. Both endings sound the same, /mən/.</dd></dl>
+<p>A man who stands with the groom during a wedding.</p>
+<ol><li>He was a <em>groomsman</em> at his roommate's wedding.</li><li>The <em>groomsmen</em> rented matching gray suits.</li><li>One <em>groomsman</em> forgot the rings in the hotel room.</li></ol>
+<hr>
+<h3 id="newlywed">newlywed<a class="hash" href="#newlywed" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/ˈnuːliwɛd/ &middot; <em>NOO-lee-wed</em></dd><dt>Русский</dt><dd>молодожён</dd><dt>Plural</dt><dd><em>newlyweds</em></dd><dt>Countability</dt><dd>countable</dd></dl>
+<p>A person who has recently gotten married.</p>
+<ol><li>The <em>newlyweds</em> left for Hawaii the next morning.</li><li>As a <em>newlywed</em>, she was still getting used to her new last name.</li><li>The hotel gave the <em>newlyweds</em> a free upgrade.</li></ol>
+<hr>
+<h3 id="vow">vow<a class="hash" href="#vow" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/vaʊ/ &middot; <em>VOW</em></dd><dt>Русский</dt><dd>клятва, обет</dd><dt>Plural</dt><dd><em>vows</em></dd><dt>Countability</dt><dd>countable</dd></dl>
+<p>A serious promise, especially one made publicly at a wedding.</p>
+<ol><li>They wrote their own <em>vows</em> instead of using the traditional ones.</li><li>He broke his <em>vow</em> to quit smoking.</li><li>The couple renewed their <em>vows</em> on their tenth anniversary.</li></ol>
+<hr>
+<h3 id="usher">usher<a class="hash" href="#usher" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/ˈʌʃər/ &middot; <em>UH-shur</em></dd><dt>Русский</dt><dd>распорядитель, капельдинер</dd><dt>Plural</dt><dd><em>ushers</em></dd><dt>Countability</dt><dd>countable</dd></dl>
+<p>A person who shows guests to their seats at a wedding, theater, or church.</p>
+<ol><li>An <em>usher</em> walked my grandmother down the aisle to her seat.</li><li>The <em>ushers</em> handed out programs at the door.</li><li>Ask the <em>usher</em> where section C is.</li></ol>
+<hr>
+<h3 id="officiant">officiant<a class="hash" href="#officiant" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/əˈfɪʃiənt/ &middot; <em>uh-FISH-ee-uhnt</em></dd><dt>Русский</dt><dd>ведущий церемонии</dd><dt>Plural</dt><dd><em>officiants</em></dd><dt>Countability</dt><dd>countable</dd></dl>
+<p>The person who leads a wedding or other ceremony and makes it official.</p>
+<ol><li>Their <em>officiant</em> was a friend who got ordained online.</li><li>The <em>officiant</em> asked everyone to be seated.</li><li>You'll need to give the marriage license to the <em>officiant</em>.</li></ol>
+<hr>
+<h3 id="registry">registry<a class="hash" href="#registry" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/ˈrɛdʒɪstri/ &middot; <em>REJ-ih-stree</em></dd><dt>Русский</dt><dd>список желаемых подарков (свадебный)</dd><dt>Plural</dt><dd><em>registries</em></dd><dt>Countability</dt><dd>countable</dd></dl>
+<p>A list of gifts a couple has asked for, kept at a store or website.</p>
+<ol><li>Their <em>registry</em> is at Target if you want to send something.</li><li>We picked the towels off the <em>registry</em>.</li><li>Most couples set up two or three <em>registries</em>.</li></ol>
+<hr>
+<h3 id="elopement">elopement<a class="hash" href="#elopement" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/ɪˈloʊpmənt/ &middot; <em>ih-LOHP-muhnt</em></dd><dt>Русский</dt><dd>тайное бракосочетание</dd><dt>Plural</dt><dd><em>elopements</em></dd><dt>Countability</dt><dd>countable</dd></dl>
+<p>A wedding held secretly or with almost no guests, often away from home.</p>
+<ol><li>Their <em>elopement</em> shocked both families.</li><li>After pricing out a big reception, they opted for an <em>elopement</em>.</li><li>Small <em>elopements</em> in the mountains have gotten popular.</li></ol>
+<hr>
+<h3 id="corsage">corsage<a class="hash" href="#corsage" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/kɔːrˈsɑːʒ/ &middot; <em>kor-SAHZH</em></dd><dt>Русский</dt><dd>букетик цветов на запястье (для бала)</dd><dt>Plural</dt><dd><em>corsages</em></dd><dt>Countability</dt><dd>countable</dd><dt>Contrast</dt><dd>The -sage ending is /ʒ/, like the middle of <em>measure</em> — kor-SAHZH, not kor-SAJ.</dd></dl>
+<p>A small arrangement of flowers worn on the wrist or pinned to a dress at a formal event.</p>
+<ol><li>He bought her a white <em>corsage</em> for the prom.</li><li>The mothers of the bride and groom both wore <em>corsages</em>.</li><li>Her <em>corsage</em> was starting to wilt by the last dance.</li></ol>
+<hr>
+<h3 id="ballroom">ballroom<a class="hash" href="#ballroom" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/ˈbɔːlruːm/ &middot; <em>BAWL-room</em></dd><dt>Русский</dt><dd>бальный зал</dd><dt>Plural</dt><dd><em>ballrooms</em></dd><dt>Countability</dt><dd>countable</dd></dl>
+<p>A large room used for formal dances and big events.</p>
+<ol><li>The reception is in the hotel <em>ballroom</em>.</li><li>Both <em>ballrooms</em> were booked that weekend.</li><li>They cleared the <em>ballroom</em> floor for dancing at nine.</li></ol>
+<hr>
+<h3 id="celebration">celebration<a class="hash" href="#celebration" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/ˌsɛləˈbreɪʃən/ &middot; <em>sel-uh-BRAY-shuhn</em></dd><dt>Русский</dt><dd>празднование, торжество</dd><dt>Plural</dt><dd><em>celebrations</em></dd><dt>Countability</dt><dd>countable</dd></dl>
+<p>An occasion or event held to mark something happy or important.</p>
+<ol><li>The whole town turned out for the <em>celebration</em>.</li><li>There were <em>celebrations</em> in the streets after the win.</li><li>Dinner turned into a <em>celebration</em> when she announced the promotion.</li></ol>
+<hr>
+<h3 id="gala">gala<a class="hash" href="#gala" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/ˈɡeɪlə/ &middot; <em>GAY-luh</em></dd><dt>Русский</dt><dd>гала-вечер, торжественный приём</dd><dt>Plural</dt><dd><em>galas</em></dd><dt>Countability</dt><dd>countable</dd><dt>Contrast</dt><dd>Americans normally say GAY-luh, not GAH-luh.</dd></dl>
+<p>A large formal party, usually held to raise money for a cause.</p>
+<ol><li>The museum's annual <em>gala</em> raised half a million dollars.</li><li>She wore a floor-length gown to the <em>gala</em>.</li><li>Charity <em>galas</em> fill the calendar every fall.</li></ol>
+<hr>
+<h3 id="ball">ball<a class="hash" href="#ball" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/bɔːl/ &middot; <em>BAWL</em></dd><dt>Русский</dt><dd>бал</dd><dt>Plural</dt><dd><em>balls</em></dd><dt>Countability</dt><dd>countable</dd></dl>
+<p>A large formal party with dancing.</p>
+<ol><li>The charity <em>ball</em> is black tie.</li><li>She's been to two <em>balls</em> this season.</li><li>The governor's inaugural <em>ball</em> was held downtown.</li></ol>
+<hr>
+<h3 id="bash">bash<a class="hash" href="#bash" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/bæʃ/ &middot; <em>BASH</em></dd><dt>Русский</dt><dd>шумная вечеринка (разг.)</dd><dt>Plural</dt><dd><em>bashes</em></dd><dt>Countability</dt><dd>countable</dd></dl>
+<p>A big, lively party.</p>
+<ol><li>They threw a huge <em>bash</em> for his fiftieth.</li><li>The company <em>bash</em> is at a rented warehouse this year.</li><li>Their New Year's <em>bashes</em> are the stuff of legend.</li></ol>
+<hr>
+<h3 id="shindig">shindig<a class="hash" href="#shindig" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/ˈʃɪndɪɡ/ &middot; <em>SHIN-dig</em></dd><dt>Русский</dt><dd>гулянка, вечеринка (разг.)</dd><dt>Plural</dt><dd><em>shindigs</em></dd><dt>Countability</dt><dd>countable</dd></dl>
+<p>A noisy, informal party, often with music and dancing.</p>
+<ol><li>The neighbors are throwing some kind of <em>shindig</em> tonight.</li><li>It was a real <em>shindig</em> — a band, a bonfire, the works.</li><li>Their backyard <em>shindigs</em> draw half the block.</li></ol>
+<hr>
+<h3 id="dance">dance<a class="hash" href="#dance" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/dæns/ &middot; <em>DANSS</em></dd><dt>Русский</dt><dd>танцевальный вечер, танцы</dd><dt>Plural</dt><dd><em>dances</em></dd><dt>Countability</dt><dd>countable</dd></dl>
+<p>A social event where people come to dance.</p>
+<ol><li>There's a <em>dance</em> at the school gym on Friday.</li><li>She went to every <em>dance</em> her senior year.</li><li>The fire department holds a <em>dance</em> every spring.</li></ol>
+<hr>
+<h3 id="masquerade">masquerade<a class="hash" href="#masquerade" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/ˌmæskəˈreɪd/ &middot; <em>mas-kuh-RAYD</em></dd><dt>Русский</dt><dd>маскарад</dd><dt>Plural</dt><dd><em>masquerades</em></dd><dt>Countability</dt><dd>countable</dd></dl>
+<p>A party where guests wear masks and costumes.</p>
+<ol><li>The Halloween <em>masquerade</em> is at the old opera house.</li><li>Guests at the <em>masquerade</em> didn't take off their masks until midnight.</li><li>She's been to <em>masquerades</em> in Venice and New Orleans.</li></ol>
+<hr>
+<h3 id="luau">luau<a class="hash" href="#luau" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/ˈluːaʊ/ &middot; <em>LOO-ow</em></dd><dt>Русский</dt><dd>луау (гавайская вечеринка)</dd><dt>Plural</dt><dd><em>luaus</em></dd><dt>Countability</dt><dd>countable</dd></dl>
+<p>A Hawaiian outdoor feast with roast pork, music, and dancing.</p>
+<ol><li>The resort puts on a <em>luau</em> every Thursday night.</li><li>We went to a <em>luau</em> on the beach at sunset.</li><li>Tourist <em>luaus</em> are pricey but fun.</li></ol>
+<hr>
+<h3 id="fiesta">fiesta<a class="hash" href="#fiesta" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/fiˈɛstə/ &middot; <em>fee-ES-tuh</em></dd><dt>Русский</dt><dd>фиеста, народный праздник</dd><dt>Plural</dt><dd><em>fiestas</em></dd><dt>Countability</dt><dd>countable</dd></dl>
+<p>A lively public celebration, especially in Spanish-speaking communities.</p>
+<ol><li>The city's spring <em>fiesta</em> fills ten blocks downtown.</li><li>There was music and dancing all week during the <em>fiesta</em>.</li><li>Local <em>fiestas</em> draw crowds from three counties.</li></ol>
+<hr>
+<h3 id="housewarming">housewarming<a class="hash" href="#housewarming" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/ˈhaʊswɔːrmɪŋ/ &middot; <em>HOWSS-wor-ming</em></dd><dt>Русский</dt><dd>новоселье</dd><dt>Plural</dt><dd><em>housewarmings</em></dd><dt>Countability</dt><dd>countable</dd></dl>
+<p>A party held to celebrate moving into a new home.</p>
+<ol><li>We're having a <em>housewarming</em> once the boxes are unpacked.</li><li>She brought a plant as a <em>housewarming</em> gift.</li><li>They've thrown two <em>housewarmings</em> in three years.</li></ol>
+<hr>
+<h3 id="potluck">potluck<a class="hash" href="#potluck" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/ˈpɑːtlʌk/ &middot; <em>PAHT-luk</em></dd><dt>Русский</dt><dd>обед вскладчину</dd><dt>Plural</dt><dd><em>potlucks</em></dd><dt>Countability</dt><dd>countable</dd></dl>
+<p>A meal or party where every guest brings a dish to share.</p>
+<ol><li>The office <em>potluck</em> is Wednesday — sign up for a dish.</li><li>I always bring my mom's casserole to <em>potlucks</em>.</li><li>It's a <em>potluck</em>, so nobody has to cook for thirty people.</li></ol>
+<hr>
+<h3 id="cookout">cookout<a class="hash" href="#cookout" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/ˈkʊkaʊt/ &middot; <em>KUUK-owt</em></dd><dt>Русский</dt><dd>пикник с грилем</dd><dt>Plural</dt><dd><em>cookouts</em></dd><dt>Countability</dt><dd>countable</dd></dl>
+<p>An outdoor party where food is grilled and eaten.</p>
+<ol><li>We're doing a <em>cookout</em> in the backyard on the Fourth.</li><li>There were three <em>cookouts</em> on our street that weekend.</li><li>Bring a folding chair to the <em>cookout</em>.</li></ol>
+<hr>
+<h3 id="sleepover">sleepover<a class="hash" href="#sleepover" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/ˈsliːpoʊvər/ &middot; <em>SLEEP-oh-vur</em></dd><dt>Русский</dt><dd>ночёвка у друзей</dd><dt>Plural</dt><dd><em>sleepovers</em></dd><dt>Countability</dt><dd>countable</dd></dl>
+<p>A party at which children stay overnight at a friend's house.</p>
+<ol><li>She's at a <em>sleepover</em> at Emma's tonight.</li><li>Four girls came for the birthday <em>sleepover</em>.</li><li><em>Sleepovers</em> mean nobody gets any sleep.</li></ol>
+<hr>
+<h3 id="playdate">playdate<a class="hash" href="#playdate" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/ˈpleɪdeɪt/ &middot; <em>PLAY-dayt</em></dd><dt>Русский</dt><dd>детская встреча для игр</dd><dt>Plural</dt><dd><em>playdates</em></dd><dt>Countability</dt><dd>countable</dd></dl>
+<p>An arranged time for two young children to play together, set up by their parents.</p>
+<ol><li>We set up a <em>playdate</em> with the boy from her class.</li><li>Our kids have <em>playdates</em> every Tuesday afternoon.</li><li>The <em>playdate</em> ended in tears over a toy truck.</li></ol>
+<hr>
+<h3 id="get-together">get-together<a class="hash" href="#get-together" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/ˈɡɛttəɡɛðər/ &middot; <em>GET-tuh-geth-ur</em></dd><dt>Русский</dt><dd>посиделки, встреча</dd><dt>Plural</dt><dd><em>get-togethers</em></dd><dt>Countability</dt><dd>countable</dd></dl>
+<p>A small, informal social gathering of friends or family.</p>
+<ol><li>It's just a little <em>get-together</em>, nothing fancy.</li><li>We have family <em>get-togethers</em> twice a year.</li><li>The <em>get-together</em> was moved inside because of the rain.</li></ol>
+<hr>
+<h3 id="meetup">meetup<a class="hash" href="#meetup" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/ˈmiːtʌp/ &middot; <em>MEET-up</em></dd><dt>Русский</dt><dd>встреча по интересам</dd><dt>Plural</dt><dd><em>meetups</em></dd><dt>Countability</dt><dd>countable</dd></dl>
+<p>An informal gathering of people who share an interest, usually arranged online.</p>
+<ol><li>There's a photography <em>meetup</em> downtown on Thursdays.</li><li>He's organized dozens of coding <em>meetups</em>.</li><li>The <em>meetup</em> is at a coffee shop on Third Street.</li></ol>
+<hr>
+<h3 id="hangout">hangout<a class="hash" href="#hangout" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/ˈhæŋaʊt/ &middot; <em>HANG-owt</em></dd><dt>Русский</dt><dd>тусовка; место сбора</dd><dt>Plural</dt><dd><em>hangouts</em></dd><dt>Countability</dt><dd>countable</dd></dl>
+<p>A relaxed get-together, or the place where a group regularly spends time.</p>
+<ol><li>It's a casual <em>hangout</em>, not a real party.</li><li>That diner was our <em>hangout</em> all through high school.</li><li>The park is one of their usual <em>hangouts</em>.</li></ol>
+<hr>
+<h3 id="homecoming">homecoming<a class="hash" href="#homecoming" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/ˈhoʊmkʌmɪŋ/ &middot; <em>HOHM-kum-ing</em></dd><dt>Русский</dt><dd>школьный осенний праздник (встреча выпускников)</dd><dt>Plural</dt><dd><em>homecomings</em></dd><dt>Countability</dt><dd>countable</dd></dl>
+<p>An annual fall celebration at an American school or college, with a football game, a parade, and a dance.</p>
+<ol><li>She's on the <em>homecoming</em> court this year.</li><li>The <em>homecoming</em> game drew the biggest crowd of the season.</li><li>Alumni come back for <em>homecoming</em> every October.</li></ol>
+<hr>
+<h3 id="luncheon">luncheon<a class="hash" href="#luncheon" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/ˈlʌntʃən/ &middot; <em>LUN-chuhn</em></dd><dt>Русский</dt><dd>торжественный обед</dd><dt>Plural</dt><dd><em>luncheons</em></dd><dt>Countability</dt><dd>countable</dd></dl>
+<p>A formal lunch held for a group, often with speeches.</p>
+<ol><li>The awards <em>luncheon</em> starts at noon.</li><li>She spoke at two <em>luncheons</em> last month.</li><li>The <em>luncheon</em> is thirty dollars a plate.</li></ol>
+<hr>
+<h3 id="banquet">banquet<a class="hash" href="#banquet" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/ˈbæŋkwɪt/ &middot; <em>BANG-kwit</em></dd><dt>Русский</dt><dd>банкет</dd><dt>Plural</dt><dd><em>banquets</em></dd><dt>Countability</dt><dd>countable</dd></dl>
+<p>A large formal dinner for many people, usually to honor someone or mark an occasion.</p>
+<ol><li>The team's end-of-season <em>banquet</em> is at the Hilton.</li><li>He's given speeches at plenty of these <em>banquets</em>.</li><li>The <em>banquet</em> hall seats four hundred.</li></ol>
+<hr>
+<h3 id="carnival">carnival<a class="hash" href="#carnival" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/ˈkɑːrnəvəl/ &middot; <em>KAR-nuh-vuhl</em></dd><dt>Русский</dt><dd>ярмарка с аттракционами; карнавал</dd><dt>Plural</dt><dd><em>carnivals</em></dd><dt>Countability</dt><dd>countable</dd></dl>
+<p>A traveling show with rides, games, and food stands, or a public festival with costumes and parades.</p>
+<ol><li>The <em>carnival</em> sets up in the mall parking lot every June.</li><li>She won a stuffed bear at the <em>carnival</em>.</li><li>Small-town <em>carnivals</em> still run the same rides they did decades ago.</li></ol>
+<hr>
+<h3 id="fair">fair<a class="hash" href="#fair" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/fɛr/ &middot; <em>FAIR</em></dd><dt>Русский</dt><dd>ярмарка</dd><dt>Plural</dt><dd><em>fairs</em></dd><dt>Countability</dt><dd>countable</dd><dt>Contrast</dt><dd>Sounds exactly like <em>fare</em> (the price of a ride). Both are /fɛr/.</dd></dl>
+<p>A public event with exhibits, competitions, food, and entertainment.</p>
+<ol><li>We go to the state <em>fair</em> every August.</li><li>Her pie won a blue ribbon at the county <em>fair</em>.</li><li>Craft <em>fairs</em> pop up all over town before the holidays.</li></ol>
+<hr>
+<h3 id="bazaar">bazaar<a class="hash" href="#bazaar" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/bəˈzɑːr/ &middot; <em>buh-ZAR</em></dd><dt>Русский</dt><dd>благотворительная распродажа, базар</dd><dt>Plural</dt><dd><em>bazaars</em></dd><dt>Countability</dt><dd>countable</dd><dt>Contrast</dt><dd>Nearly identical in sound to <em>bizarre</em> (strange): buh-ZAR vs. bih-ZAR. Different words entirely.</dd></dl>
+<p>A sale of donated or handmade goods held to raise money, or an open market.</p>
+<ol><li>The church holds a holiday <em>bazaar</em> the first weekend of December.</li><li>She bought a knitted scarf at the school <em>bazaar</em>.</li><li><em>Bazaars</em> like that raise a surprising amount for the food bank.</li></ol>
+<hr>
+<h3 id="circus">circus<a class="hash" href="#circus" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/ˈsɜːrkəs/ &middot; <em>SUR-kuhs</em></dd><dt>Русский</dt><dd>цирк</dd><dt>Plural</dt><dd><em>circuses</em></dd><dt>Countability</dt><dd>countable</dd></dl>
+<p>A traveling show with acrobats, clowns, and performing acts.</p>
+<ol><li>The <em>circus</em> is in town for three nights.</li><li>He ran off and joined the <em>circus</em> at nineteen.</li><li>Traveling <em>circuses</em> aren't what they were fifty years ago.</li></ol>
+<hr>
+<h3 id="festivity">festivity<a class="hash" href="#festivity" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/fɛˈstɪvəti/ &middot; <em>fes-TIV-uh-tee</em></dd><dt>Русский</dt><dd>празднество, гулянья</dd><dt>Plural</dt><dd><em>festivities</em></dd><dt>Countability</dt><dd>countable</dd></dl>
+<p>The activities and events that make up a celebration.</p>
+<ol><li>The <em>festivities</em> kick off with a parade at ten.</li><li>Rain cut the <em>festivities</em> short.</li><li>She missed most of the <em>festivity</em> because of a late flight.</li></ol>
+<hr>
+<h3 id="afterparty">afterparty<a class="hash" href="#afterparty" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/ˈæftərpɑːrti/ &middot; <em>AF-tur-par-tee</em></dd><dt>Русский</dt><dd>афтепати (вечеринка после мероприятия)</dd><dt>Plural</dt><dd><em>afterparties</em></dd><dt>Countability</dt><dd>countable</dd></dl>
+<p>A smaller party held right after a bigger event ends.</p>
+<ol><li>There's an <em>afterparty</em> at a bar down the block.</li><li>The <em>afterparties</em> usually run later than the show itself.</li><li>Only about twenty people made it to the <em>afterparty</em>.</li></ol>
+<hr>
+<h3 id="hostess">hostess<a class="hash" href="#hostess" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/ˈhoʊstəs/ &middot; <em>HOHSS-tuhs</em></dd><dt>Русский</dt><dd>хозяйка (принимающая гостей)</dd><dt>Plural</dt><dd><em>hostesses</em></dd><dt>Countability</dt><dd>countable</dd></dl>
+<p>A woman who invites and takes care of guests at an event.</p>
+<ol><li>Bring the <em>hostess</em> a bottle of wine.</li><li>She's a wonderful <em>hostess</em> — nobody's glass stayed empty.</li><li>The <em>hostesses</em> greeted everyone at the door.</li></ol>
+<hr>
+<h3 id="attendee">attendee<a class="hash" href="#attendee" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/əˌtɛnˈdiː/ &middot; <em>uh-ten-DEE</em></dd><dt>Русский</dt><dd>участник, присутствующий</dd><dt>Plural</dt><dd><em>attendees</em></dd><dt>Countability</dt><dd>countable</dd></dl>
+<p>A person who is present at an event or meeting.</p>
+<ol><li>Every <em>attendee</em> got a name tag at the door.</li><li>There were over four hundred <em>attendees</em> this year.</li><li>One <em>attendee</em> asked a question nobody could answer.</li></ol>
+<hr>
+<h3 id="participant">participant<a class="hash" href="#participant" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/pɑːrˈtɪsəpənt/ &middot; <em>par-TISS-uh-puhnt</em></dd><dt>Русский</dt><dd>участник</dd><dt>Plural</dt><dd><em>participants</em></dd><dt>Countability</dt><dd>countable</dd></dl>
+<p>A person who takes an active part in an event or activity.</p>
+<ol><li>Each <em>participant</em> gets a T-shirt and a race number.</li><li><em>Participants</em> should arrive by eight.</li><li>She was a <em>participant</em>, not just a spectator.</li></ol>
+<hr>
+<h3 id="invitation">invitation<a class="hash" href="#invitation" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/ˌɪnvəˈteɪʃən/ &middot; <em>in-vuh-TAY-shuhn</em></dd><dt>Русский</dt><dd>приглашение</dd><dt>Plural</dt><dd><em>invitations</em></dd><dt>Countability</dt><dd>countable</dd></dl>
+<p>A written or spoken request asking someone to come to an event.</p>
+<ol><li>The <em>invitation</em> said seven o'clock, dinner to follow.</li><li>We mailed out a hundred and twenty <em>invitations</em>.</li><li>Thanks for the <em>invitation</em> — we'd love to come.</li></ol>
+<hr>
+<h3 id="invite">invite<a class="hash" href="#invite" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/ˈɪnvaɪt/ &middot; <em>IN-vyt</em></dd><dt>Русский</dt><dd>приглашение (разг.)</dd><dt>Plural</dt><dd><em>invites</em></dd><dt>Countability</dt><dd>countable</dd><dt>Contrast</dt><dd>Stress moves with the part of speech: the noun is IN-vyt, the verb <em>to invite</em> is in-VYT.</dd></dl>
+<p>An invitation (informal).</p>
+<ol><li>Did you get an <em>invite</em> to the party?</li><li>She sent the <em>invites</em> out by text.</li><li>I never got an <em>invite</em>, so I stayed home.</li></ol>
+<hr>
+<h3 id="seating">seating<a class="hash" href="#seating" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/ˈsiːtɪŋ/ &middot; <em>SEE-ting</em></dd><dt>Русский</dt><dd>рассадка, места для сидения</dd><dt>Countability</dt><dd>uncountable</dd></dl>
+<p>The seats at an event, or the arrangement of who sits where.</p>
+<ol><li><em>Seating</em> is first come, first served.</li><li>We spent an entire evening on the <em>seating</em> chart.</li><li>There's outdoor <em>seating</em> for another fifty guests.</li></ol>
+<hr>
+<h3 id="catering">catering<a class="hash" href="#catering" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/ˈkeɪtərɪŋ/ &middot; <em>KAY-tur-ing</em></dd><dt>Русский</dt><dd>кейтеринг, обслуживание питанием</dd><dt>Countability</dt><dd>uncountable</dd></dl>
+<p>The business of providing food and drink for an event.</p>
+<ol><li><em>Catering</em> was the biggest line item in the budget.</li><li>They do <em>catering</em> for weddings and corporate parties.</li><li>The <em>catering</em> ran out of chicken before the last table was served.</li></ol>
+<hr>
+<h3 id="caterer">caterer<a class="hash" href="#caterer" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/ˈkeɪtərər/ &middot; <em>KAY-tur-ur</em></dd><dt>Русский</dt><dd>организатор питания на мероприятии</dd><dt>Plural</dt><dd><em>caterers</em></dd><dt>Countability</dt><dd>countable</dd></dl>
+<p>A person or company hired to supply food and drink at an event.</p>
+<ol><li>We booked the <em>caterer</em> six months out.</li><li>Three <em>caterers</em> gave us quotes.</li><li>The <em>caterer</em> set up two buffet lines.</li></ol>
+<hr>
+<h3 id="refreshment">refreshment<a class="hash" href="#refreshment" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/rɪˈfrɛʃmənt/ &middot; <em>rih-FRESH-muhnt</em></dd><dt>Русский</dt><dd>угощение, закуски и напитки</dd><dt>Plural</dt><dd><em>refreshments</em></dd><dt>Countability</dt><dd>countable</dd></dl>
+<p>Light food and drink served at an event.</p>
+<ol><li><em>Refreshments</em> will be served in the lobby afterward.</li><li>There's a table of <em>refreshments</em> by the window.</li><li>He stepped out for a <em>refreshment</em> between speakers.</li></ol>
+<hr>
+<h3 id="theme">theme<a class="hash" href="#theme" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/θiːm/ &middot; <em>THEEM</em></dd><dt>Русский</dt><dd>тема (оформления праздника)</dd><dt>Plural</dt><dd><em>themes</em></dd><dt>Countability</dt><dd>countable</dd></dl>
+<p>The subject or style that an event's decorations and costumes follow.</p>
+<ol><li>The party has a 1920s <em>theme</em>.</li><li>Her birthday <em>themes</em> have gotten more elaborate every year.</li><li>Pick a <em>theme</em> and the decorations get a lot easier.</li></ol>
+<hr>
+<h3 id="entertainment">entertainment<a class="hash" href="#entertainment" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/ˌɛntərˈteɪnmənt/ &middot; <em>en-tur-TAYN-muhnt</em></dd><dt>Русский</dt><dd>развлечения</dd><dt>Countability</dt><dd>uncountable</dd></dl>
+<p>Music, shows, or activities provided to amuse people at an event.</p>
+<ol><li>The <em>entertainment</em> for the evening is a jazz trio.</li><li>They hired a magician for <em>entertainment</em>.</li><li>Half the budget went to food and the other half to <em>entertainment</em>.</li></ol>
+<hr>
+<h3 id="emcee">emcee<a class="hash" href="#emcee" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/ˌɛmˈsiː/ &middot; <em>em-SEE</em></dd><dt>Русский</dt><dd>ведущий мероприятия</dd><dt>Plural</dt><dd><em>emcees</em></dd><dt>Countability</dt><dd>countable</dd></dl>
+<p>The person who introduces the speakers or acts at an event and keeps it moving.</p>
+<ol><li>The <em>emcee</em> cracked a few jokes before the awards.</li><li>They needed an <em>emcee</em> for the fundraiser.</li><li>Both <em>emcees</em> wore tuxedos.</li></ol>
+<hr>
+<h3 id="guestbook">guestbook<a class="hash" href="#guestbook" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/ˈɡɛstbʊk/ &middot; <em>GEST-buuk</em></dd><dt>Русский</dt><dd>книга гостей</dd><dt>Plural</dt><dd><em>guestbooks</em></dd><dt>Countability</dt><dd>countable</dd></dl>
+<p>A book that visitors to an event sign, often leaving a short message.</p>
+<ol><li>Please sign the <em>guestbook</em> on your way in.</li><li>The <em>guestbook</em> sat on a small table by the door.</li><li>They keep the wedding <em>guestbooks</em> from both ceremonies.</li></ol>
+<hr>
+<h3 id="card">card<a class="hash" href="#card" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/kɑːrd/ &middot; <em>KARD</em></dd><dt>Русский</dt><dd>открытка (поздравительная)</dd><dt>Plural</dt><dd><em>cards</em></dd><dt>Countability</dt><dd>countable</dd></dl>
+<p>A folded piece of stiff paper with a printed message, sent to mark an occasion.</p>
+<ol><li>Don't forget to sign the birthday <em>card</em>.</li><li>She still has every <em>card</em> he ever sent her.</li><li>We got about forty holiday <em>cards</em> this year.</li></ol>
+<hr>
+<h3 id="favor">favor<a class="hash" href="#favor" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/ˈfeɪvər/ &middot; <em>FAY-vur</em></dd><dt>Русский</dt><dd>сувенир гостям (на празднике)</dd><dt>Plural</dt><dd><em>favors</em></dd><dt>Countability</dt><dd>countable</dd><dt>Contrast</dt><dd>American spelling <em>favor</em>; British English writes <em>favour</em>. Same pronunciation.</dd></dl>
+<p>A small gift given to each guest at a party or wedding.</p>
+<ol><li>The party <em>favors</em> were little bags of candy.</li><li>Each guest took a <em>favor</em> from the table on the way out.</li><li>We're making the wedding <em>favors</em> ourselves.</li></ol>
+<hr>
+<h3 id="gift">gift<a class="hash" href="#gift" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/ɡɪft/ &middot; <em>GIFT</em></dd><dt>Русский</dt><dd>подарок</dd><dt>Plural</dt><dd><em>gifts</em></dd><dt>Countability</dt><dd>countable</dd></dl>
+<p>Something given to someone to mark an occasion.</p>
+<ol><li>The <em>gifts</em> piled up on the table by the door.</li><li>It's a small <em>gift</em>, but I hope you like it.</li><li>She opened her <em>gifts</em> after the cake.</li></ol>
+<hr>
+<h3 id="keepsake">keepsake<a class="hash" href="#keepsake" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/ˈkiːpseɪk/ &middot; <em>KEEP-sayk</em></dd><dt>Русский</dt><dd>сувенир на память</dd><dt>Plural</dt><dd><em>keepsakes</em></dd><dt>Countability</dt><dd>countable</dd></dl>
+<p>A small object kept to remember a person or an occasion.</p>
+<ol><li>She saved a pressed flower from the bouquet as a <em>keepsake</em>.</li><li>The box was full of <em>keepsakes</em> from their travels.</li><li>He gave each grandchild a <em>keepsake</em> from the house.</li></ol>
+<hr>
+<h3 id="balloon">balloon<a class="hash" href="#balloon" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/bəˈluːn/ &middot; <em>buh-LOON</em></dd><dt>Русский</dt><dd>воздушный шарик</dd><dt>Plural</dt><dd><em>balloons</em></dd><dt>Countability</dt><dd>countable</dd></dl>
+<p>A thin rubber bag filled with air or gas, used as a decoration at parties.</p>
+<ol><li>The kids tied <em>balloons</em> to the mailbox.</li><li>One <em>balloon</em> popped and made the baby cry.</li><li>We ordered a dozen helium <em>balloons</em> for the party.</li></ol>
+<hr>
+<h3 id="streamer">streamer<a class="hash" href="#streamer" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/ˈstriːmər/ &middot; <em>STREE-mur</em></dd><dt>Русский</dt><dd>серпантин, бумажная лента</dd><dt>Plural</dt><dd><em>streamers</em></dd><dt>Countability</dt><dd>countable</dd></dl>
+<p>A long, narrow strip of colored paper hung up as a party decoration.</p>
+<ol><li>They taped orange and black <em>streamers</em> across the doorway.</li><li>A <em>streamer</em> had come loose and was hanging over the punch bowl.</li><li><em>Streamers</em> and balloons took about an hour to put up.</li></ol>
+<hr>
+<h3 id="confetti">confetti<a class="hash" href="#confetti" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/kənˈfɛti/ &middot; <em>kuhn-FET-ee</em></dd><dt>Русский</dt><dd>конфетти</dd><dt>Countability</dt><dd>uncountable</dd><dt>Contrast</dt><dd>Uncountable in English despite the Italian plural ending: <em>the confetti was everywhere</em>, never <em>confettis</em>.</dd></dl>
+<p>Small bits of colored paper thrown into the air at celebrations.</p>
+<ol><li><em>Confetti</em> rained down when the clock hit midnight.</li><li>We were finding <em>confetti</em> in the carpet for weeks.</li><li>The guests threw <em>confetti</em> as the couple came out.</li></ol>
+<hr>
+<h3 id="banner">banner<a class="hash" href="#banner" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/ˈbænər/ &middot; <em>BAN-ur</em></dd><dt>Русский</dt><dd>транспарант, растяжка</dd><dt>Plural</dt><dd><em>banners</em></dd><dt>Countability</dt><dd>countable</dd></dl>
+<p>A long strip of cloth or paper with a message on it, hung up at an event.</p>
+<ol><li>A <em>banner</em> over the stage read WELCOME HOME.</li><li>They hung <em>banners</em> along the parade route.</li><li>The <em>banner</em> came loose in the wind.</li></ol>
+<hr>
+<h3 id="centerpiece">centerpiece<a class="hash" href="#centerpiece" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/ˈsɛntərpiːs/ &middot; <em>SEN-tur-peess</em></dd><dt>Русский</dt><dd>украшение в центре стола</dd><dt>Plural</dt><dd><em>centerpieces</em></dd><dt>Countability</dt><dd>countable</dd><dt>Contrast</dt><dd>American spelling <em>centerpiece</em>; British English writes <em>centrepiece</em>.</dd></dl>
+<p>A decoration placed in the middle of a table at a formal meal.</p>
+<ol><li>Each <em>centerpiece</em> was a low bowl of white roses.</li><li>Guests were told to take the <em>centerpieces</em> home.</li><li>The <em>centerpiece</em> was so tall nobody could see across the table.</li></ol>
+<hr>
+<h3 id="garland">garland<a class="hash" href="#garland" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/ˈɡɑːrlənd/ &middot; <em>GAR-luhnd</em></dd><dt>Русский</dt><dd>гирлянда</dd><dt>Plural</dt><dd><em>garlands</em></dd><dt>Countability</dt><dd>countable</dd></dl>
+<p>A rope of flowers or greenery hung up or worn as decoration.</p>
+<ol><li>A pine <em>garland</em> ran along the stair railing.</li><li>They draped <em>garlands</em> over every doorway.</li><li>The <em>garland</em> smelled like cedar all through December.</li></ol>
+<hr>
+<h3 id="piñata">piñata<a class="hash" href="#piñata" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/pɪnˈjɑːtə/ &middot; <em>pin-YAH-tuh</em></dd><dt>Русский</dt><dd>пиньята</dd><dt>Plural</dt><dd><em>piñatas</em></dd><dt>Countability</dt><dd>countable</dd><dt>Contrast</dt><dd>The ñ is pronounced like the ny in <em>canyon</em>: pin-YAH-tuh, not pin-AH-tuh.</dd></dl>
+<p>A hanging paper figure filled with candy that children hit with a stick until it breaks open.</p>
+<ol><li>The kids lined up to swing at the <em>piñata</em>.</li><li>We filled the <em>piñata</em> with chocolate and little toys.</li><li>They sell <em>piñatas</em> shaped like every cartoon character you can think of.</li></ol>
+<hr>
+<h3 id="tassel">tassel<a class="hash" href="#tassel" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/ˈtæsəl/ &middot; <em>TASS-uhl</em></dd><dt>Русский</dt><dd>кисточка (на шапочке выпускника)</dd><dt>Plural</dt><dd><em>tassels</em></dd><dt>Countability</dt><dd>countable</dd></dl>
+<p>A bunch of hanging threads tied at one end, worn on a graduation cap or used as trim.</p>
+<ol><li>Move your <em>tassel</em> to the left side after they call your name.</li><li>The graduates threw their caps, <em>tassels</em> and all.</li><li>Her <em>tassel</em> kept swinging into her face.</li></ol>
+<hr>
+<h3 id="firework">firework<a class="hash" href="#firework" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/ˈfaɪrrwɜːrk/ &middot; <em>FYR-wurk</em></dd><dt>Русский</dt><dd>фейерверк (обычно мн. ч.)</dd><dt>Plural</dt><dd><em>fireworks</em></dd><dt>Countability</dt><dd>countable</dd><dt>Contrast</dt><dd>Almost always plural in American speech: people say <em>the fireworks</em>, rarely <em>a firework</em>.</dd></dl>
+<p>A device that explodes in the sky with colored light and noise at a celebration.</p>
+<ol><li>The <em>fireworks</em> start at dusk down by the river.</li><li>We watched the <em>fireworks</em> from the roof.</li><li>A single <em>firework</em> went off early and startled everyone.</li></ol>
+<hr>
+<h3 id="firecracker">firecracker<a class="hash" href="#firecracker" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/ˈfaɪrrkrækər/ &middot; <em>FYR-krak-ur</em></dd><dt>Русский</dt><dd>петарда</dd><dt>Plural</dt><dd><em>firecrackers</em></dd><dt>Countability</dt><dd>countable</dd></dl>
+<p>A small paper tube that makes a loud bang when it explodes.</p>
+<ol><li>Someone set off a <em>firecracker</em> in the alley.</li><li><em>Firecrackers</em> are illegal in this county.</li><li>The dog hides under the bed whenever she hears a <em>firecracker</em>.</li></ol>
+<hr>
+<h3 id="sparkler">sparkler<a class="hash" href="#sparkler" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/ˈspɑːrklər/ &middot; <em>SPARK-lur</em></dd><dt>Русский</dt><dd>бенгальский огонь</dd><dt>Plural</dt><dd><em>sparklers</em></dd><dt>Countability</dt><dd>countable</dd></dl>
+<p>A thin stick that burns slowly with bright sparks, held in the hand at celebrations.</p>
+<ol><li>The guests held <em>sparklers</em> as the couple left.</li><li>Give each kid one <em>sparkler</em> and stand back.</li><li>The <em>sparkler</em> burned out before I could get a picture.</li></ol>
+<hr>
+<h3 id="bonfire">bonfire<a class="hash" href="#bonfire" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/ˈbɑːnfaɪrr/ &middot; <em>BAHN-fyr</em></dd><dt>Русский</dt><dd>костёр</dd><dt>Plural</dt><dd><em>bonfires</em></dd><dt>Countability</dt><dd>countable</dd></dl>
+<p>A large outdoor fire built for a celebration or gathering.</p>
+<ol><li>They built a <em>bonfire</em> on the beach after the game.</li><li>We sat around the <em>bonfire</em> until it burned down to coals.</li><li>Homecoming week always ends with a <em>bonfire</em>.</li></ol>
+<hr>
+<h3 id="fanfare">fanfare<a class="hash" href="#fanfare" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/ˈfænfɛr/ &middot; <em>FAN-fair</em></dd><dt>Русский</dt><dd>фанфары; торжественная шумиха</dd><dt>Plural</dt><dd><em>fanfares</em></dd><dt>Countability</dt><dd>countable</dd></dl>
+<p>A short loud burst of trumpet music, or the noisy attention around an event.</p>
+<ol><li>A <em>fanfare</em> announced the arrival of the guest of honor.</li><li>The building opened with a lot of <em>fanfare</em> and a ribbon cutting.</li><li>The old theater closed quietly, without <em>fanfare</em>.</li></ol>
+<hr>
+<h3 id="cheer">cheer<a class="hash" href="#cheer" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/tʃɪr/ &middot; <em>CHEER</em></dd><dt>Русский</dt><dd>приветственный возглас</dd><dt>Plural</dt><dd><em>cheers</em></dd><dt>Countability</dt><dd>countable</dd></dl>
+<p>A loud shout of approval or encouragement from a crowd.</p>
+<ol><li>A <em>cheer</em> went up when the doors finally opened.</li><li>You could hear the <em>cheers</em> three blocks away.</li><li>The announcement was met with a <em>cheer</em> from the back of the room.</li></ol>
+<hr>
+<h3 id="chant">chant<a class="hash" href="#chant" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/tʃænt/ &middot; <em>CHANT</em></dd><dt>Русский</dt><dd>скандирование, речёвка</dd><dt>Plural</dt><dd><em>chants</em></dd><dt>Countability</dt><dd>countable</dd></dl>
+<p>Words or a phrase repeated over and over by a crowd.</p>
+<ol><li>The <em>chant</em> started in one corner and spread through the stadium.</li><li>Marchers kept up the same <em>chants</em> for two miles.</li><li>You could barely make out the words of the <em>chant</em>.</li></ol>
+<hr>
+<h3 id="ovation">ovation<a class="hash" href="#ovation" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/oʊˈveɪʃən/ &middot; <em>oh-VAY-shuhn</em></dd><dt>Русский</dt><dd>овация</dd><dt>Plural</dt><dd><em>ovations</em></dd><dt>Countability</dt><dd>countable</dd></dl>
+<p>Long, enthusiastic clapping from an audience.</p>
+<ol><li>She got a standing <em>ovation</em> that lasted four minutes.</li><li>The band came back for an encore after two <em>ovations</em>.</li><li>The <em>ovation</em> died down only when the lights came up.</li></ol>
+<hr>
+<h3 id="float">float<a class="hash" href="#float" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/floʊt/ &middot; <em>FLOHT</em></dd><dt>Русский</dt><dd>платформа на параде</dd><dt>Plural</dt><dd><em>floats</em></dd><dt>Countability</dt><dd>countable</dd></dl>
+<p>A decorated platform on wheels that is driven in a parade.</p>
+<ol><li>The senior class built a <em>float</em> out of chicken wire and tissue paper.</li><li>Twelve <em>floats</em> rolled down Main Street.</li><li>Kids on the <em>float</em> threw candy to the crowd.</li></ol>
+<hr>
+<h3 id="procession">procession<a class="hash" href="#procession" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/prəˈsɛʃən/ &middot; <em>pruh-SESH-uhn</em></dd><dt>Русский</dt><dd>процессия</dd><dt>Plural</dt><dd><em>processions</em></dd><dt>Countability</dt><dd>countable</dd></dl>
+<p>A line of people or vehicles moving forward together in a formal or solemn way.</p>
+<ol><li>The funeral <em>procession</em> stretched for half a mile.</li><li>A candlelit <em>procession</em> wound through the square.</li><li>Both <em>processions</em> met in front of the church.</li></ol>
+<hr>
+<h3 id="matinee">matinee<a class="hash" href="#matinee" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/ˌmætəˈneɪ/ &middot; <em>mat-uh-NAY</em></dd><dt>Русский</dt><dd>дневной сеанс, дневной спектакль</dd><dt>Plural</dt><dd><em>matinees</em></dd><dt>Countability</dt><dd>countable</dd></dl>
+<p>A performance or movie showing held in the afternoon.</p>
+<ol><li>We caught the two o'clock <em>matinee</em>.</li><li><em>Matinee</em> tickets are five dollars cheaper.</li><li>The Sunday <em>matinee</em> is usually packed with families.</li></ol>
+<hr>
+<h3 id="screening">screening<a class="hash" href="#screening" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/ˈskriːnɪŋ/ &middot; <em>SKREE-ning</em></dd><dt>Русский</dt><dd>показ фильма</dd><dt>Plural</dt><dd><em>screenings</em></dd><dt>Countability</dt><dd>countable</dd></dl>
+<p>An occasion when a movie is shown to an audience.</p>
+<ol><li>There's a <em>screening</em> of the documentary at seven.</li><li>The festival added two more <em>screenings</em> after the first sold out.</li><li>The director spoke after the <em>screening</em>.</li></ol>
+<hr>
+<h3 id="expo">expo<a class="hash" href="#expo" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/ˈɛkspoʊ/ &middot; <em>EKS-poh</em></dd><dt>Русский</dt><dd>выставка, экспо</dd><dt>Plural</dt><dd><em>expos</em></dd><dt>Countability</dt><dd>countable</dd></dl>
+<p>A large public exhibition where companies show their products.</p>
+<ol><li>The auto <em>expo</em> takes over the whole convention center.</li><li>She hands out samples at three or four <em>expos</em> a year.</li><li>Admission to the <em>expo</em> is free on Sunday.</li></ol>
+<hr>
+<h3 id="auction">auction<a class="hash" href="#auction" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/ˈɔːkʃən/ &middot; <em>AWK-shuhn</em></dd><dt>Русский</dt><dd>аукцион</dd><dt>Plural</dt><dd><em>auctions</em></dd><dt>Countability</dt><dd>countable</dd></dl>
+<p>A public sale where things go to whoever offers the most money.</p>
+<ol><li>The silent <em>auction</em> raised nine thousand dollars.</li><li>He buys most of his tools at farm <em>auctions</em>.</li><li>The painting sold at <em>auction</em> for far more than expected.</li></ol>
+<hr>
+<h3 id="raffle">raffle<a class="hash" href="#raffle" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/ˈræfəl/ &middot; <em>RAF-uhl</em></dd><dt>Русский</dt><dd>розыгрыш, лотерея (благотворительная)</dd><dt>Plural</dt><dd><em>raffles</em></dd><dt>Countability</dt><dd>countable</dd></dl>
+<p>A way of raising money in which people buy numbered tickets and one is drawn to win a prize.</p>
+<ol><li>I bought five tickets for the <em>raffle</em>.</li><li>The <em>raffle</em> prize was a weekend at a cabin.</li><li>They run <em>raffles</em> at every home game.</li></ol>
+<hr>
+<h3 id="telethon">telethon<a class="hash" href="#telethon" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/ˈtɛləθɑːn/ &middot; <em>TEL-uh-thahn</em></dd><dt>Русский</dt><dd>телемарафон</dd><dt>Plural</dt><dd><em>telethons</em></dd><dt>Countability</dt><dd>countable</dd></dl>
+<p>A long television broadcast that asks viewers to call in and donate money.</p>
+<ol><li>The <em>telethon</em> ran for eighteen straight hours.</li><li>Those <em>telethons</em> used to be a Labor Day tradition.</li><li>Volunteers answered phones during the <em>telethon</em>.</li></ol>
+<hr>
+<h3 id="contest">contest<a class="hash" href="#contest" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/ˈkɑːntɛst/ &middot; <em>KAHN-test</em></dd><dt>Русский</dt><dd>конкурс, состязание</dd><dt>Plural</dt><dd><em>contests</em></dd><dt>Countability</dt><dd>countable</dd><dt>Contrast</dt><dd>Stress moves with the part of speech: the noun is KAHN-test, the verb <em>to contest</em> is kuhn-TEST.</dd></dl>
+<p>An event in which people compete to win a prize.</p>
+<ol><li>She won the pie-eating <em>contest</em> two years running.</li><li>The station runs <em>contests</em> all week long.</li><li>It wasn't much of a <em>contest</em> — he led from the start.</li></ol>
+<hr>
+<h3 id="tournament">tournament<a class="hash" href="#tournament" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/ˈtɜːrnəmənt/ &middot; <em>TUR-nuh-muhnt</em></dd><dt>Русский</dt><dd>турнир</dd><dt>Plural</dt><dd><em>tournaments</em></dd><dt>Countability</dt><dd>countable</dd><dt>Contrast</dt><dd>First syllable is TUR-, not TOOR- or tour-: TUR-nuh-muhnt.</dd></dl>
+<p>A competition in which players or teams play a series of games until one wins.</p>
+<ol><li>The chess <em>tournament</em> runs all weekend.</li><li>They've won three <em>tournaments</em> this season.</li><li>He got knocked out in the first round of the <em>tournament</em>.</li></ol>
+<hr>
+<h3 id="pageant">pageant<a class="hash" href="#pageant" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/ˈpædʒənt/ &middot; <em>PAJ-uhnt</em></dd><dt>Русский</dt><dd>конкурс красоты; пышное представление</dd><dt>Plural</dt><dd><em>pageants</em></dd><dt>Countability</dt><dd>countable</dd><dt>Contrast</dt><dd>The -ea- is short: PAJ-uhnt, not PAY-juhnt.</dd></dl>
+<p>A public show or competition, especially one judging beauty and talent.</p>
+<ol><li>She competed in her first <em>pageant</em> at sixteen.</li><li>The church puts on a Christmas <em>pageant</em> every year.</li><li>Small-town <em>pageants</em> still crown a queen at the fair.</li></ol>
+<hr>
+<h3 id="award">award<a class="hash" href="#award" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/əˈwɔːrd/ &middot; <em>uh-WORD</em></dd><dt>Русский</dt><dd>награда, премия</dd><dt>Plural</dt><dd><em>awards</em></dd><dt>Countability</dt><dd>countable</dd></dl>
+<p>A prize or honor given to someone for an achievement.</p>
+<ol><li>He picked up an <em>award</em> for best teacher.</li><li>The <em>awards</em> are handed out at the end of the banquet.</li><li>Her film won three <em>awards</em> at the festival.</li></ol>
+<hr>
+<h3 id="prize">prize<a class="hash" href="#prize" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/praɪz/ &middot; <em>PRYZ</em></dd><dt>Русский</dt><dd>приз</dd><dt>Plural</dt><dd><em>prizes</em></dd><dt>Countability</dt><dd>countable</dd></dl>
+<p>Something given to the winner of a contest or game.</p>
+<ol><li>First <em>prize</em> is a hundred dollars and a trophy.</li><li>There are <em>prizes</em> for every age group.</li><li>She took home the grand <em>prize</em>.</li></ol>
+<hr>
+<h3 id="trophy">trophy<a class="hash" href="#trophy" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/ˈtroʊfi/ &middot; <em>TROH-fee</em></dd><dt>Русский</dt><dd>кубок, приз</dd><dt>Plural</dt><dd><em>trophies</em></dd><dt>Countability</dt><dd>countable</dd></dl>
+<p>A metal cup or figure given as a prize for winning.</p>
+<ol><li>The <em>trophy</em> sits on the mantel next to his photo.</li><li>There's a whole case of <em>trophies</em> in the school lobby.</li><li>They lifted the <em>trophy</em> at center court.</li></ol>
+<hr>
+<h3 id="honoree">honoree<a class="hash" href="#honoree" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/ˌɑːnəˈriː/ &middot; <em>ah-nuh-REE</em></dd><dt>Русский</dt><dd>чествуемый, лауреат</dd><dt>Plural</dt><dd><em>honorees</em></dd><dt>Countability</dt><dd>countable</dd><dt>Contrast</dt><dd>The h is silent, as in <em>honor</em> and <em>hour</em>: ah-nuh-REE.</dd></dl>
+<p>The person an event or award is meant to honor.</p>
+<ol><li>The <em>honoree</em> sat at the head table.</li><li>This year's <em>honorees</em> were all volunteers.</li><li>They kept the party a secret from the <em>honoree</em>.</li></ol>
+<hr>
+<h3 id="finalist">finalist<a class="hash" href="#finalist" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/ˈfaɪnəlɪst/ &middot; <em>FY-nuh-list</em></dd><dt>Русский</dt><dd>финалист</dd><dt>Plural</dt><dd><em>finalists</em></dd><dt>Countability</dt><dd>countable</dd></dl>
+<p>A person or team that reaches the last round of a competition.</p>
+<ol><li>She was one of five <em>finalists</em> for the scholarship.</li><li>The three <em>finalists</em> performed again on Friday.</li><li>Being a <em>finalist</em> alone was a big deal for him.</li></ol>
+<hr>
+<h3 id="birth">birth<a class="hash" href="#birth" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/bɜːrθ/ &middot; <em>BURTH</em></dd><dt>Русский</dt><dd>рождение</dd><dt>Plural</dt><dd><em>births</em></dd><dt>Countability</dt><dd>countable</dd><dt>Contrast</dt><dd>Sounds exactly like <em>berth</em> (a bed on a ship or a docking space). Both are /bɜːrθ/.</dd></dl>
+<p>The occasion of a baby coming into the world.</p>
+<ol><li>They celebrated the <em>birth</em> of their first grandchild.</li><li>There were four <em>births</em> at the hospital that night.</li><li>He was there for the <em>birth</em> of both his kids.</li></ol>
+<hr>
+<h3 id="childbirth">childbirth<a class="hash" href="#childbirth" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/ˈtʃaɪldbɜːrθ/ &middot; <em>CHYLD-burth</em></dd><dt>Русский</dt><dd>роды</dd><dt>Countability</dt><dd>uncountable</dd></dl>
+<p>The process of giving birth to a baby.</p>
+<ol><li>She took a class on <em>childbirth</em> in her seventh month.</li><li>His great-grandmother died in <em>childbirth</em>.</li><li>Natural <em>childbirth</em> was what they'd planned on.</li></ol>
+<hr>
+<h3 id="christening">christening<a class="hash" href="#christening" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/ˈkrɪsənɪŋ/ &middot; <em>KRISS-uh-ning</em></dd><dt>Русский</dt><dd>крестины</dd><dt>Plural</dt><dd><em>christenings</em></dd><dt>Countability</dt><dd>countable</dd><dt>Contrast</dt><dd>The t is silent: KRISS-uh-ning, not KRIST-uh-ning.</dd></dl>
+<p>A ceremony at which a baby is baptized and given a name.</p>
+<ol><li>The <em>christening</em> is on Sunday after the late service.</li><li>She wore the same gown to her <em>christening</em> that her mother wore.</li><li>There were two <em>christenings</em> that morning.</li></ol>
+<hr>
+<h3 id="coronation">coronation<a class="hash" href="#coronation" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/ˌkɔːrəˈneɪʃən/ &middot; <em>kor-uh-NAY-shuhn</em></dd><dt>Русский</dt><dd>коронация</dd><dt>Plural</dt><dd><em>coronations</em></dd><dt>Countability</dt><dd>countable</dd></dl>
+<p>The ceremony at which a crown is placed on a new king or queen.</p>
+<ol><li>Millions watched the <em>coronation</em> on television.</li><li>The <em>coronation</em> took place in the abbey.</li><li>There have been only a handful of <em>coronations</em> in the last century.</li></ol>
+<hr>
+<h3 id="launch">launch<a class="hash" href="#launch" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/lɔːntʃ/ &middot; <em>LAWNCH</em></dd><dt>Русский</dt><dd>запуск, презентация</dd><dt>Plural</dt><dd><em>launches</em></dd><dt>Countability</dt><dd>countable</dd></dl>
+<p>An event marking the start of something new, such as a product or a book.</p>
+<ol><li>The book <em>launch</em> is at the bookstore on Tenth.</li><li>They've done three product <em>launches</em> this year.</li><li>Half the office came to the <em>launch</em>.</li></ol>
+<hr>
+<h3 id="opening">opening<a class="hash" href="#opening" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/ˈoʊpənɪŋ/ &middot; <em>OH-puh-ning</em></dd><dt>Русский</dt><dd>открытие (мероприятие)</dd><dt>Plural</dt><dd><em>openings</em></dd><dt>Countability</dt><dd>countable</dd></dl>
+<p>An event celebrating the first day a business, show, or exhibit is open to the public.</p>
+<ol><li>The gallery <em>opening</em> is Thursday from six to nine.</li><li>We went to the <em>opening</em> of the new restaurant downtown.</li><li>Gallery <em>openings</em> usually mean free wine and cheese.</li></ol>
+<hr>
+<h3 id="groundbreaking">groundbreaking<a class="hash" href="#groundbreaking" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/ˈɡraʊndbreɪkɪŋ/ &middot; <em>GROWND-bray-king</em></dd><dt>Русский</dt><dd>церемония закладки первого камня</dd><dt>Plural</dt><dd><em>groundbreakings</em></dd><dt>Countability</dt><dd>countable</dd></dl>
+<p>A ceremony held to mark the start of construction, at which the first shovel of dirt is turned.</p>
+<ol><li>The <em>groundbreaking</em> for the new library is next Tuesday.</li><li>The mayor spoke at the <em>groundbreaking</em>.</li><li>There have been two <em>groundbreakings</em> on that block this year.</li></ol>
+<hr>
+<h3 id="unveiling">unveiling<a class="hash" href="#unveiling" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/ʌnˈveɪlɪŋ/ &middot; <em>un-VAY-ling</em></dd><dt>Русский</dt><dd>торжественное открытие (памятника), презентация</dd><dt>Plural</dt><dd><em>unveilings</em></dd><dt>Countability</dt><dd>countable</dd></dl>
+<p>A ceremony at which a cover is removed from a statue, plaque, or new product for the first time.</p>
+<ol><li>The <em>unveiling</em> of the memorial drew a large crowd.</li><li>There was applause at the <em>unveiling</em>.</li><li>The company staggers its <em>unveilings</em> across the year.</li></ol>
+<hr>
+<h3 id="debut">debut<a class="hash" href="#debut" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/deɪˈbjuː/ &middot; <em>day-BYOO</em></dd><dt>Русский</dt><dd>дебют</dd><dt>Plural</dt><dd><em>debuts</em></dd><dt>Countability</dt><dd>countable</dd><dt>Contrast</dt><dd>The t is silent, from French: day-BYOO, not day-BUTT.</dd></dl>
+<p>A person's or thing's first public appearance.</p>
+<ol><li>She made her stage <em>debut</em> at nineteen.</li><li>The album <em>debut</em> was set for the fall.</li><li>Both <em>debuts</em> got good reviews.</li></ol>
+<hr>
+<h3 id="showcase">showcase<a class="hash" href="#showcase" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/ˈʃoʊkeɪs/ &middot; <em>SHOH-kayss</em></dd><dt>Русский</dt><dd>смотр, показ (мероприятие)</dd><dt>Plural</dt><dd><em>showcases</em></dd><dt>Countability</dt><dd>countable</dd></dl>
+<p>An event that presents someone's or something's best work to an audience.</p>
+<ol><li>The spring <em>showcase</em> gives every student ten minutes on stage.</li><li>The festival is a <em>showcase</em> for new directors.</li><li>They hold two <em>showcases</em> a year for local bands.</li></ol>
+<hr>
+<h3 id="initiation">initiation<a class="hash" href="#initiation" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/ɪˌnɪʃiˈeɪʃən/ &middot; <em>ih-nish-ee-AY-shuhn</em></dd><dt>Русский</dt><dd>посвящение, инициация</dd><dt>Plural</dt><dd><em>initiations</em></dd><dt>Countability</dt><dd>countable</dd></dl>
+<p>A ceremony that makes someone a full member of a group.</p>
+<ol><li>The fraternity's <em>initiation</em> takes place in the fall.</li><li><em>Initiations</em> on campus are much more closely watched now.</li><li>He wouldn't say a word about the <em>initiation</em>.</li></ol>
+<hr>
+<h3 id="induction">induction<a class="hash" href="#induction" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/ɪnˈdʌkʃən/ &middot; <em>in-DUK-shuhn</em></dd><dt>Русский</dt><dd>торжественное введение (в должность, в зал славы)</dd><dt>Plural</dt><dd><em>inductions</em></dd><dt>Countability</dt><dd>countable</dd></dl>
+<p>A formal ceremony admitting someone to an office, an organization, or a hall of fame.</p>
+<ol><li>His <em>induction</em> into the Hall of Fame is in July.</li><li>The <em>induction</em> ceremony lasted two hours.</li><li>There were six <em>inductions</em> that evening.</li></ol>
+<hr>
+<h3 id="farewell">farewell<a class="hash" href="#farewell" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/ˌfɛrˈwɛl/ &middot; <em>fair-WEL</em></dd><dt>Русский</dt><dd>прощание, проводы</dd><dt>Plural</dt><dd><em>farewells</em></dd><dt>Countability</dt><dd>countable</dd></dl>
+<p>An act or occasion of saying goodbye to someone who is leaving.</p>
+<ol><li>They threw a <em>farewell</em> for her last day at the office.</li><li>It was a quiet <em>farewell</em> at the airport gate.</li><li>Long <em>farewells</em> always make him uncomfortable.</li></ol>
+<hr>
+<h3 id="send-off">send-off<a class="hash" href="#send-off" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/ˈsɛndɔːf/ &middot; <em>SEND-awf</em></dd><dt>Русский</dt><dd>проводы</dd><dt>Plural</dt><dd><em>send-offs</em></dd><dt>Countability</dt><dd>countable</dd></dl>
+<p>A show of good wishes for someone who is leaving or starting something new.</p>
+<ol><li>The whole team gave him a great <em>send-off</em>.</li><li>She got a proper <em>send-off</em> on her last day.</li><li>The <em>send-offs</em> for the graduating class run all week.</li></ol>
+<hr>
+<h3 id="welcome">welcome<a class="hash" href="#welcome" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/ˈwɛlkəm/ &middot; <em>WEL-kuhm</em></dd><dt>Русский</dt><dd>приём, встреча гостя</dd><dt>Plural</dt><dd><em>welcomes</em></dd><dt>Countability</dt><dd>countable</dd></dl>
+<p>The greeting or reception someone gets when they arrive.</p>
+<ol><li>The troops came home to a hero's <em>welcome</em>.</li><li>She gave us a warm <em>welcome</em> at the door.</li><li>New students get a <em>welcome</em> from the dean on the first day.</li></ol>
+<hr>
+<h3 id="greeting">greeting<a class="hash" href="#greeting" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/ˈɡriːtɪŋ/ &middot; <em>GREE-ting</em></dd><dt>Русский</dt><dd>приветствие</dd><dt>Plural</dt><dd><em>greetings</em></dd><dt>Countability</dt><dd>countable</dd></dl>
+<p>Words or an action used to welcome someone or mark an occasion.</p>
+<ol><li>He gave me a quick <em>greeting</em> and moved on to the next guest.</li><li>The card carried <em>greetings</em> from the whole family.</li><li>A handshake is the standard <em>greeting</em> here.</li></ol>
+<hr>
+<h3 id="proclamation">proclamation<a class="hash" href="#proclamation" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/ˌprɑːkləˈmeɪʃən/ &middot; <em>prahk-luh-MAY-shuhn</em></dd><dt>Русский</dt><dd>провозглашение, официальное объявление</dd><dt>Plural</dt><dd><em>proclamations</em></dd><dt>Countability</dt><dd>countable</dd></dl>
+<p>An official public announcement, often read aloud at a ceremony.</p>
+<ol><li>The mayor read a <em>proclamation</em> declaring it Founders Day.</li><li>The city issues several such <em>proclamations</em> every year.</li><li>A framed copy of the <em>proclamation</em> hangs in the lobby.</li></ol>
+<hr>
+<h3 id="tribute">tribute<a class="hash" href="#tribute" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/ˈtrɪbjuːt/ &middot; <em>TRIB-yoot</em></dd><dt>Русский</dt><dd>дань уважения</dd><dt>Plural</dt><dd><em>tributes</em></dd><dt>Countability</dt><dd>countable</dd></dl>
+<p>Something said or done to show respect and admiration for someone.</p>
+<ol><li>The concert was a <em>tribute</em> to her late husband.</li><li><em>Tributes</em> poured in from all over the state.</li><li>He paid <em>tribute</em> to the volunteers in his speech.</li></ol>
+<hr>
+<h3 id="commemoration">commemoration<a class="hash" href="#commemoration" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/kəˌmɛməˈreɪʃən/ &middot; <em>kuh-mem-uh-RAY-shuhn</em></dd><dt>Русский</dt><dd>чествование памяти, поминовение</dd><dt>Plural</dt><dd><em>commemorations</em></dd><dt>Countability</dt><dd>countable</dd></dl>
+<p>A ceremony or event held to remember an important person or occasion.</p>
+<ol><li>The town held a <em>commemoration</em> of the flood's fiftieth year.</li><li><em>Commemorations</em> were held in a dozen cities.</li><li>A short <em>commemoration</em> was added to the program.</li></ol>
+<hr>
+<h3 id="remembrance">remembrance<a class="hash" href="#remembrance" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/rɪˈmɛmbrəns/ &middot; <em>rih-MEM-bruhnss</em></dd><dt>Русский</dt><dd>память, поминовение</dd><dt>Countability</dt><dd>uncountable</dd></dl>
+<p>The act of remembering and honoring someone who has died.</p>
+<ol><li>The candles were lit in <em>remembrance</em> of the victims.</li><li>The bench was placed there in <em>remembrance</em> of her father.</li><li>A moment of <em>remembrance</em> opened the ceremony.</li></ol>
+<hr>
+<h3 id="burial">burial<a class="hash" href="#burial" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/ˈbɛriəl/ &middot; <em>BAIR-ee-uhl</em></dd><dt>Русский</dt><dd>погребение, захоронение</dd><dt>Plural</dt><dd><em>burials</em></dd><dt>Countability</dt><dd>countable</dd><dt>Contrast</dt><dd>The vowel is the same as in <em>berry</em>, even though it's spelled with u: BAIR-ee-uhl, from <em>bury</em> (BAIR-ee).</dd></dl>
+<p>The act or ceremony of placing a dead body in the ground.</p>
+<ol><li>The <em>burial</em> took place the following morning.</li><li>Only family came to the <em>burial</em>.</li><li>Records of hundreds of <em>burials</em> are kept at the church.</li></ol>
+<hr>
+<h3 id="cremation">cremation<a class="hash" href="#cremation" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/krɪˈmeɪʃən/ &middot; <em>krih-MAY-shuhn</em></dd><dt>Русский</dt><dd>кремация</dd><dt>Plural</dt><dd><em>cremations</em></dd><dt>Countability</dt><dd>countable</dd></dl>
+<p>The burning of a dead body to ashes instead of burying it.</p>
+<ol><li>He'd asked for <em>cremation</em> rather than a burial.</li><li><em>Cremations</em> now outnumber burials in most states.</li><li>The <em>cremation</em> was followed by a small memorial service.</li></ol>
+<hr>
+<h3 id="casket">casket<a class="hash" href="#casket" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/ˈkæskɪt/ &middot; <em>KASS-kit</em></dd><dt>Русский</dt><dd>гроб</dd><dt>Plural</dt><dd><em>caskets</em></dd><dt>Countability</dt><dd>countable</dd><dt>Contrast</dt><dd><em>Casket</em> is the usual American word; British English says <em>coffin</em>.</dd></dl>
+<p>A long box in which a dead body is buried.</p>
+<ol><li>The <em>casket</em> was closed during the service.</li><li>They chose a simple pine <em>casket</em>.</li><li>Six men carried the <em>casket</em> down the church steps.</li></ol>
+<hr>
+<h3 id="coffin">coffin<a class="hash" href="#coffin" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/ˈkɔːfɪn/ &middot; <em>KAW-fin</em></dd><dt>Русский</dt><dd>гроб</dd><dt>Plural</dt><dd><em>coffins</em></dd><dt>Countability</dt><dd>countable</dd></dl>
+<p>A box in which a dead body is buried or cremated.</p>
+<ol><li>The <em>coffin</em> was lowered into the grave.</li><li>Rows of plain wooden <em>coffins</em> stood in the yard.</li><li>They draped a flag over the <em>coffin</em>.</li></ol>
+<hr>
+<h3 id="urn">urn<a class="hash" href="#urn" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/ɜːrn/ &middot; <em>URN</em></dd><dt>Русский</dt><dd>урна (для праха)</dd><dt>Plural</dt><dd><em>urns</em></dd><dt>Countability</dt><dd>countable</dd><dt>Contrast</dt><dd>Sounds exactly like <em>earn</em> (to be paid). Both are /ɜːrn/.</dd></dl>
+<p>A container that holds the ashes of a person who has been cremated.</p>
+<ol><li>The <em>urn</em> sits on the shelf above the fireplace.</li><li>They picked out a simple brass <em>urn</em>.</li><li>Two <em>urns</em> were buried side by side.</li></ol>
+<hr>
+<h3 id="pallbearer">pallbearer<a class="hash" href="#pallbearer" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/ˈpɔːlbɛrər/ &middot; <em>PAWL-bair-ur</em></dd><dt>Русский</dt><dd>несущий гроб</dd><dt>Plural</dt><dd><em>pallbearers</em></dd><dt>Countability</dt><dd>countable</dd></dl>
+<p>One of the people who carry the casket at a funeral.</p>
+<ol><li>His three sons served as <em>pallbearers</em>.</li><li>She asked me to be a <em>pallbearer</em>.</li><li>The <em>pallbearers</em> waited by the hearse.</li></ol>
+<hr>
+<h3 id="mourner">mourner<a class="hash" href="#mourner" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/ˈmɔːrnər/ &middot; <em>MOR-nur</em></dd><dt>Русский</dt><dd>скорбящий, участник похорон</dd><dt>Plural</dt><dd><em>mourners</em></dd><dt>Countability</dt><dd>countable</dd></dl>
+<p>A person who attends a funeral or grieves for someone who has died.</p>
+<ol><li>About two hundred <em>mourners</em> filled the church.</li><li>One <em>mourner</em> laid a single rose on the casket.</li><li>The <em>mourners</em> walked slowly to the graveside.</li></ol>
+<hr>
+<h3 id="eulogy">eulogy<a class="hash" href="#eulogy" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/ˈjuːlədʒi/ &middot; <em>YOO-luh-jee</em></dd><dt>Русский</dt><dd>надгробная речь</dd><dt>Plural</dt><dd><em>eulogies</em></dd><dt>Countability</dt><dd>countable</dd></dl>
+<p>A speech praising someone who has just died.</p>
+<ol><li>His daughter gave the <em>eulogy</em>.</li><li>There were three short <em>eulogies</em> instead of one long one.</li><li>She couldn't get through the <em>eulogy</em> without stopping.</li></ol>
+<hr>
+<h3 id="condolence">condolence<a class="hash" href="#condolence" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/kənˈdoʊləns/ &middot; <em>kuhn-DOH-luhnss</em></dd><dt>Русский</dt><dd>соболезнование</dd><dt>Plural</dt><dd><em>condolences</em></dd><dt>Countability</dt><dd>countable</dd></dl>
+<p>An expression of sympathy to someone whose family member or friend has died.</p>
+<ol><li>Please accept my <em>condolences</em>.</li><li>Cards and <em>condolences</em> arrived all week.</li><li>He offered a quiet word of <em>condolence</em> at the door.</li></ol>
+<hr>
+<h3 id="wake">wake<a class="hash" href="#wake" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/weɪk/ &middot; <em>WAYK</em></dd><dt>Русский</dt><dd>поминки (перед похоронами)</dd><dt>Plural</dt><dd><em>wakes</em></dd><dt>Countability</dt><dd>countable</dd></dl>
+<p>A gathering held before or after a funeral where people remember the person who died.</p>
+<ol><li>The <em>wake</em> is at the funeral home from four to eight.</li><li>Half the town came to the <em>wake</em>.</li><li>Irish <em>wakes</em> in his family went on all night.</li></ol>
+<hr>
+<h3 id="grave">grave<a class="hash" href="#grave" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/ɡreɪv/ &middot; <em>GRAYV</em></dd><dt>Русский</dt><dd>могила</dd><dt>Plural</dt><dd><em>graves</em></dd><dt>Countability</dt><dd>countable</dd></dl>
+<p>A hole in the ground where a dead body is buried, and the spot marking it.</p>
+<ol><li>She visits his <em>grave</em> every spring.</li><li>Rows of <em>graves</em> stretched over the hillside.</li><li>There were fresh flowers on the <em>grave</em>.</li></ol>
+<hr>
+<h3 id="graveyard">graveyard<a class="hash" href="#graveyard" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/ˈɡreɪvjɑːrd/ &middot; <em>GRAYV-yard</em></dd><dt>Русский</dt><dd>кладбище</dd><dt>Plural</dt><dd><em>graveyards</em></dd><dt>Countability</dt><dd>countable</dd></dl>
+<p>A piece of ground where people are buried, usually next to a church.</p>
+<ol><li>The old <em>graveyard</em> behind the chapel dates to 1790.</li><li>We cut through the <em>graveyard</em> on the way to school.</li><li>There are two <em>graveyards</em> on that road.</li></ol>
+<hr>
+<h3 id="gravestone">gravestone<a class="hash" href="#gravestone" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/ˈɡreɪvstoʊn/ &middot; <em>GRAYV-stohn</em></dd><dt>Русский</dt><dd>надгробие</dd><dt>Plural</dt><dd><em>gravestones</em></dd><dt>Countability</dt><dd>countable</dd></dl>
+<p>A stone marking a grave, carved with the dead person's name.</p>
+<ol><li>The <em>gravestone</em> had worn smooth over two centuries.</li><li>Some of the <em>gravestones</em> were leaning badly.</li><li>They ordered a granite <em>gravestone</em> in the spring.</li></ol>
+<hr>
+<h3 id="headstone">headstone<a class="hash" href="#headstone" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/ˈhɛdstoʊn/ &middot; <em>HED-stohn</em></dd><dt>Русский</dt><dd>надгробный камень</dd><dt>Plural</dt><dd><em>headstones</em></dd><dt>Countability</dt><dd>countable</dd></dl>
+<p>The upright stone placed at the head of a grave.</p>
+<ol><li>The <em>headstone</em> won't be set until the ground settles.</li><li>Someone had left pebbles on top of the <em>headstone</em>.</li><li>Most of the <em>headstones</em> face east.</li></ol>
+<hr>
+<h3 id="tombstone">tombstone<a class="hash" href="#tombstone" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/ˈtuːmstoʊn/ &middot; <em>TOOM-stohn</em></dd><dt>Русский</dt><dd>надгробная плита</dd><dt>Plural</dt><dd><em>tombstones</em></dd><dt>Countability</dt><dd>countable</dd><dt>Contrast</dt><dd>The b in <em>tomb</em> is silent, and the vowel is long: TOOM-stohn.</dd></dl>
+<p>A stone slab that marks a grave and carries an inscription.</p>
+<ol><li>The <em>tombstone</em> just gave a name and two dates.</li><li>Kids used to make rubbings of the old <em>tombstones</em>.</li><li>Ivy had grown up over half the <em>tombstone</em>.</li></ol>
+<hr>
+<h3 id="epitaph">epitaph<a class="hash" href="#epitaph" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/ˈɛpətæf/ &middot; <em>EP-uh-taf</em></dd><dt>Русский</dt><dd>эпитафия</dd><dt>Plural</dt><dd><em>epitaphs</em></dd><dt>Countability</dt><dd>countable</dd></dl>
+<p>The words carved on a gravestone in memory of the person buried there.</p>
+<ol><li>His <em>epitaph</em> was a single line from a poem.</li><li>She read the <em>epitaphs</em> on every stone in the row.</li><li>They argued for weeks about the <em>epitaph</em>.</li></ol>
+<hr>
+<h3 id="mausoleum">mausoleum<a class="hash" href="#mausoleum" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/ˌmɔːsəˈliːəm/ &middot; <em>maw-suh-LEE-uhm</em></dd><dt>Русский</dt><dd>мавзолей, фамильный склеп</dd><dt>Plural</dt><dd><em>mausoleums</em></dd><dt>Countability</dt><dd>countable</dd><dt>Contrast</dt><dd>Plural is usually <em>mausoleums</em> in American English; the Latin <em>mausolea</em> is rare and formal.</dd></dl>
+<p>A stone building that holds the bodies or ashes of the dead.</p>
+<ol><li>The family <em>mausoleum</em> stands at the top of the hill.</li><li>Marble <em>mausoleums</em> line the oldest section of the cemetery.</li><li>The <em>mausoleum</em> is locked except on visiting days.</li></ol>
+<hr>
+<h3 id="crypt">crypt<a class="hash" href="#crypt" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/krɪpt/ &middot; <em>KRIPT</em></dd><dt>Русский</dt><dd>склеп</dd><dt>Plural</dt><dd><em>crypts</em></dd><dt>Countability</dt><dd>countable</dd></dl>
+<p>An underground room, usually beneath a church, where people are buried.</p>
+<ol><li>The bishops are buried in the <em>crypt</em>.</li><li>Stairs led down to the <em>crypt</em> below the altar.</li><li>The cathedral's <em>crypts</em> are open to visitors.</li></ol>
+<hr>
+<h3 id="shroud">shroud<a class="hash" href="#shroud" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/ʃraʊd/ &middot; <em>SHROWD</em></dd><dt>Русский</dt><dd>саван</dd><dt>Plural</dt><dd><em>shrouds</em></dd><dt>Countability</dt><dd>countable</dd></dl>
+<p>A cloth used to wrap a dead body for burial.</p>
+<ol><li>The body was wrapped in a plain linen <em>shroud</em>.</li><li>Green burials use a simple <em>shroud</em> instead of a casket.</li><li>The museum displayed two ancient <em>shrouds</em>.</li></ol>
+<hr>
+<h3 id="undertaker">undertaker<a class="hash" href="#undertaker" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/ˈʌndərteɪkər/ &middot; <em>UN-dur-tay-kur</em></dd><dt>Русский</dt><dd>гробовщик</dd><dt>Plural</dt><dd><em>undertakers</em></dd><dt>Countability</dt><dd>countable</dd></dl>
+<p>A person whose job is to prepare the dead for burial and arrange funerals.</p>
+<ol><li>The <em>undertaker</em> met the family at the door.</li><li>His grandfather was the town <em>undertaker</em> for forty years.</li><li>Two <em>undertakers</em> handled all the arrangements.</li></ol>
+<hr>
+<h3 id="mortician">mortician<a class="hash" href="#mortician" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/mɔːrˈtɪʃən/ &middot; <em>mor-TISH-uhn</em></dd><dt>Русский</dt><dd>сотрудник похоронного бюро</dd><dt>Plural</dt><dd><em>morticians</em></dd><dt>Countability</dt><dd>countable</dd></dl>
+<p>A person trained to prepare bodies and run a funeral home.</p>
+<ol><li>The <em>mortician</em> walked them through the options.</li><li>She trained as a <em>mortician</em> after nursing school.</li><li>Local <em>morticians</em> met to discuss the new rules.</li></ol>
+<hr>
+<h3 id="bereavement">bereavement<a class="hash" href="#bereavement" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/bɪˈriːvmənt/ &middot; <em>bih-REEV-muhnt</em></dd><dt>Русский</dt><dd>тяжёлая утрата</dd><dt>Countability</dt><dd>uncountable</dd></dl>
+<p>The state of having lost someone close to you through death.</p>
+<ol><li>The company gives three days of <em>bereavement</em> leave.</li><li>He took time off for <em>bereavement</em> after his mother died.</li><li><em>Bereavement</em> affects people in very different ways.</li></ol>
+<hr>
+<h3 id="viewing">viewing<a class="hash" href="#viewing" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/ˈvjuːɪŋ/ &middot; <em>VYOO-ing</em></dd><dt>Русский</dt><dd>прощание с покойным</dd><dt>Plural</dt><dd><em>viewings</em></dd><dt>Countability</dt><dd>countable</dd></dl>
+<p>A time before a funeral when people come to see the body and pay their respects.</p>
+<ol><li>The <em>viewing</em> is Thursday evening at the funeral home.</li><li>They held two <em>viewings</em>, one in the afternoon and one at night.</li><li>A long line formed outside the <em>viewing</em>.</li></ol>
+<hr>
+<h3 id="observance">observance<a class="hash" href="#observance" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/əbˈzɜːrvəns/ &middot; <em>uhb-ZUR-vuhnss</em></dd><dt>Русский</dt><dd>соблюдение обычая; празднование</dd><dt>Plural</dt><dd><em>observances</em></dd><dt>Countability</dt><dd>countable</dd></dl>
+<p>The keeping of a custom or holiday, or a ceremony held to mark one.</p>
+<ol><li>The town holds a quiet <em>observance</em> every November.</li><li>Religious <em>observances</em> fill the calendar that month.</li><li>The <em>observance</em> lasted about twenty minutes.</li></ol>
+<hr>
+<h3 id="camp">camp<a class="hash" href="#camp" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/kæmp/ &middot; <em>KAMP</em></dd><dt>Русский</dt><dd>лагерь</dd><dt>Plural</dt><dd><em>camps</em></dd><dt>Countability</dt><dd>countable</dd></dl>
+<p>A place and program where children stay for part of the summer to do activities together.</p>
+<ol><li>He goes to <em>camp</em> in Maine for three weeks every July.</li><li>There are soccer <em>camps</em> and music <em>camps</em> all summer.</li><li>She met her best friend at <em>camp</em>.</li></ol></div></main>
+<button class="themebtn" id="themeBtn">Dark</button>
+<script>
+const tb=document.getElementById('themeBtn');
+function setTheme(x){document.documentElement.dataset.theme=x;tb.textContent=x==='dark'?'Light':'Dark';
+ try{localStorage.setItem('site-theme',x)}catch(e){}}
+tb.onclick=()=>setTheme(document.documentElement.dataset.theme==='dark'?'light':'dark');
+try{const s=localStorage.getItem('site-theme');
+ setTheme(s||(matchMedia('(prefers-color-scheme: dark)').matches?'dark':'light'))}catch(e){setTheme('light')}
+</script></body></html>

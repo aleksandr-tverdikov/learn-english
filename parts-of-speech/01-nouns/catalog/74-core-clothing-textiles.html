@@ -1,0 +1,761 @@
+<!DOCTYPE html>
+<html lang="en"><head>
+<meta charset="utf-8"><meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Core vocabulary: fabric and textiles</title>
+<style>
+:root{--bg:#faf9f7;--surface:#fff;--surface2:#f2f0ec;--border:#e2ded6;--text:#1a1815;
+--dim:#5f594f;--faint:#8a8377;--accent:#8a5a3b;--measure:72ch}
+@media(prefers-color-scheme:dark){:root{--bg:#14140f;--surface:#1d1d17;--surface2:#25251d;
+--border:#33332a;--text:#eeeae1;--dim:#a8a293;--faint:#7d776b;--accent:#d09b72}}
+:root[data-theme=dark]{--bg:#14140f;--surface:#1d1d17;--surface2:#25251d;--border:#33332a;
+--text:#eeeae1;--dim:#a8a293;--faint:#7d776b;--accent:#d09b72}
+:root[data-theme=light]{--bg:#faf9f7;--surface:#fff;--surface2:#f2f0ec;--border:#e2ded6;
+--text:#1a1815;--dim:#5f594f;--faint:#8a8377;--accent:#8a5a3b}
+*{box-sizing:border-box}
+body{margin:0;background:var(--bg);color:var(--text);
+font:17px/1.72 ui-serif,Georgia,"Iowan Old Style",Palatino,serif;-webkit-font-smoothing:antialiased}
+.wrap{max-width:min(var(--measure),100%);margin:0 auto;padding:0 22px}
+nav.crumb{border-bottom:1px solid var(--border);padding:13px 0;font-size:13.5px;
+font-family:-apple-system,BlinkMacSystemFont,"Segoe UI",sans-serif;position:sticky;top:0;background:var(--bg);z-index:20}
+nav.crumb .wrap{max-width:none;display:flex;gap:9px;align-items:center;flex-wrap:wrap}
+nav.crumb a{color:var(--dim);text-decoration:none}
+nav.crumb a:hover{color:var(--accent)}
+nav.crumb .sep{color:var(--faint)}
+main{padding:8px 0 80px}
+h1{font-size:clamp(28px,5vw,38px);line-height:1.15;letter-spacing:-.015em;margin:34px 0 18px}
+h2{font-size:25px;margin:46px 0 14px;letter-spacing:-.01em;padding-bottom:7px;border-bottom:1px solid var(--border)}
+h3{font-size:19px;margin:34px 0 10px;color:var(--accent)}
+h4{font-size:16px;margin:24px 0 8px;font-family:-apple-system,sans-serif}
+p{margin:0 0 16px}
+a{color:var(--accent)}
+.hash{opacity:0;margin-left:8px;font-weight:400;font-size:.65em;text-decoration:none;color:var(--faint)}
+h2:hover .hash,h3:hover .hash{opacity:1}
+blockquote{margin:0 0 20px;padding:14px 18px;background:var(--surface2);
+border-left:3px solid var(--accent);border-radius:0 8px 8px 0}
+blockquote p:last-child{margin-bottom:0}
+ol,ul{margin:0 0 18px;padding-left:26px}
+li{margin-bottom:8px}
+li>ul,li>ol{margin:8px 0 0}
+code{font-family:ui-monospace,SFMono-Regular,Menlo,Consolas,monospace;font-size:.87em;
+background:var(--surface2);padding:1px 5px;border-radius:4px}
+pre{background:var(--surface2);border:1px solid var(--border);border-radius:9px;
+padding:15px 17px;overflow-x:auto;margin:0 0 20px}
+pre code{background:none;padding:0;font-size:13px;line-height:1.6}
+.tw{overflow-x:auto;margin:0 0 22px;border:1px solid var(--border);border-radius:9px}
+table{border-collapse:collapse;width:100%;font-size:15px;
+font-family:-apple-system,BlinkMacSystemFont,"Segoe UI",sans-serif}
+th,td{padding:10px 14px;border-bottom:1px solid var(--border);vertical-align:top}
+th{background:var(--surface2);font-size:12px;text-transform:uppercase;
+letter-spacing:.06em;color:var(--dim);font-weight:700;white-space:nowrap}
+tbody tr:last-child td{border-bottom:none}
+hr{border:none;border-top:1px solid var(--border);margin:38px 0}
+details{background:var(--surface2);border:1px solid var(--border);border-radius:9px;
+padding:13px 17px;margin:0 0 20px}
+summary{cursor:pointer;font-weight:600;font-family:-apple-system,sans-serif;font-size:15px}
+details[open] summary{margin-bottom:12px}
+del{color:var(--faint)}
+dl.fields{margin:0 0 20px;padding:0}
+dl.fields dt{font-family:-apple-system,BlinkMacSystemFont,"Segoe UI",sans-serif;
+font-size:11px;letter-spacing:.11em;text-transform:uppercase;color:var(--faint);
+font-weight:700;margin:14px 0 4px}
+dl.fields dt:first-child{margin-top:0}
+dl.fields dd{margin:0;font-size:16px;color:var(--dim);line-height:1.62}
+dl.fields dd em{color:var(--text)}
+dl.fields dt.ru{color:var(--accent)}
+dl.fields dd strong{color:var(--text)}
+.toc{background:var(--surface2);border:1px solid var(--border);border-radius:10px;
+padding:16px 20px;margin:26px 0 34px;font-family:-apple-system,sans-serif;font-size:14px}
+.toc b{display:block;font-size:11px;letter-spacing:.12em;text-transform:uppercase;
+color:var(--faint);margin-bottom:9px}
+.toc a{display:block;padding:3px 0;color:var(--dim);text-decoration:none}
+.toc a:hover{color:var(--accent)}
+.themebtn{position:fixed;right:18px;bottom:18px;z-index:60;font-family:-apple-system,sans-serif;
+font-size:12.5px;font-weight:600;cursor:pointer;background:var(--surface);border:1px solid var(--border);
+border-radius:99px;padding:9px 16px;color:var(--text)}
+@media(max-width:600px){body{font-size:16px}.wrap{padding:0 17px}}
+</style></head><body>
+<nav class="crumb"><div class="wrap"><a href="../../../index.html">Learn English</a><span class="sep">/</span><a href="../../README.html">Parts of speech</a><span class="sep">/</span><a href="../README.html">01-nouns</a><span class="sep">/</span><span>catalog</span></div></nav>
+<main><div class="wrap"><h1 id="core-vocabulary-fabric-and-textiles">Core vocabulary: fabric and textiles<a class="hash" href="#core-vocabulary-fabric-and-textiles" aria-label="link">#</a></h1>
+<blockquote><p>The everyday nouns of fabric and textiles — pronunciation, Russian, plural, and three examples each.</p></blockquote>
+<p><a href="../README.html">← The grammar of nouns</a> &middot; <a href="README.html">All groups</a></p>
+<p>Part of the <strong>core-vocabulary tier</strong>. Groups 1–23 cover the nouns that misbehave; this tier covers the nouns you simply need to know. Entries are deliberately lean, because a regular countable noun has no grammatical story to tell. A <strong>Contrast</strong> line appears only where the word hides a genuine trap.</p>
+<p>Where a word in this field <em>does</em> misbehave, it lives in the grammar tier instead and is not repeated here.</p>
+<hr>
+<h3 id="textile">textile<a class="hash" href="#textile" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/ˈtekstaɪl/ &middot; <em>TEK-styl</em></dd><dt>Русский</dt><dd>текстиль, ткань</dd><dt>Plural</dt><dd><em>textiles</em></dd><dt>Countability</dt><dd>countable</dd></dl>
+<p>A woven or knitted cloth, especially one made in a factory.</p>
+<ol><li>The town's economy ran on <em>textiles</em> for a hundred years.</li><li>She studies <em>textile</em> design at art school.</li><li>Cheap imported <em>textiles</em> put the old mill out of business.</li></ol>
+<hr>
+<h3 id="weave">weave<a class="hash" href="#weave" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/wiːv/ &middot; <em>WEEV</em></dd><dt>Русский</dt><dd>переплетение (нитей), плетение</dd><dt>Plural</dt><dd><em>weaves</em></dd><dt>Countability</dt><dd>countable</dd></dl>
+<p>The way the threads of a fabric are crossed over each other.</p>
+<ol><li>This shirt has a tight <em>weave</em>, so the wind doesn't get through.</li><li>Hold it up to the light and you can see the <em>weave</em>.</li><li>Linen and cotton take very different <em>weaves</em>.</li></ol>
+<hr>
+<h3 id="knit">knit<a class="hash" href="#knit" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/nɪt/ &middot; <em>NIT</em></dd><dt>Русский</dt><dd>трикотаж, вязаное полотно</dd><dt>Plural</dt><dd><em>knits</em></dd><dt>Countability</dt><dd>countable</dd><dt>Contrast</dt><dd>The k is silent — <em>knit</em> sounds exactly like <em>nit</em>.</dd></dl>
+<p>A fabric or garment made by looping yarn rather than weaving it.</p>
+<ol><li>In the fall she lives in soft <em>knits</em> and jeans.</li><li>That sweater is a loose <em>knit</em>, so it stretches.</li><li>The store keeps the <em>knits</em> on the back wall.</li></ol>
+<hr>
+<h3 id="satin">satin<a class="hash" href="#satin" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/ˈsætən/ &middot; <em>SAT-uhn</em></dd><dt>Русский</dt><dd>атлас (гладкая блестящая ткань)</dd><dt>Countability</dt><dd>uncountable</dd><dt>Contrast</dt><dd>Not the Russian сатин — English <em>satin</em> is атлас; сатин is <em>sateen</em>.</dd></dl>
+<p>A smooth fabric that is shiny on one side and dull on the other.</p>
+<ol><li>Her wedding dress was ivory <em>satin</em>.</li><li>The box was lined with black <em>satin</em>.</li><li><em>Satin</em> slips off the hanger if you're not careful.</li></ol>
+<hr>
+<h3 id="sateen">sateen<a class="hash" href="#sateen" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/sæˈtiːn/ &middot; <em>sa-TEEN</em></dd><dt>Русский</dt><dd>сатин (хлопчатобумажная ткань)</dd><dt>Countability</dt><dd>uncountable</dd><dt>Contrast</dt><dd>Stress on the second syllable, sa-TEEN, unlike <em>satin</em> (SAT-uhn).</dd></dl>
+<p>A cotton fabric woven to give a soft sheen like satin.</p>
+<ol><li>These sheets are cotton <em>sateen</em>.</li><li><em>Sateen</em> feels cool against the skin.</li><li>She picked a <em>sateen</em> lining for the coat.</li></ol>
+<hr>
+<h3 id="corduroy">corduroy<a class="hash" href="#corduroy" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/ˈkɔːrdərɔɪ/ &middot; <em>KOR-duh-roy</em></dd><dt>Русский</dt><dd>вельвет (ткань в рубчик)</dd><dt>Countability</dt><dd>uncountable</dd><dt>Contrast</dt><dd>False friend: Russian вельвет is English <em>corduroy</em>, while English <em>velvet</em> is бархат.</dd></dl>
+<p>A thick cotton fabric with raised ridges running down it.</p>
+<ol><li>He wore brown <em>corduroy</em> pants to the interview.</li><li><em>Corduroy</em> wears out at the knees first.</li><li>The jacket is lined <em>corduroy</em>, good for November.</li></ol>
+<hr>
+<h3 id="tweed">tweed<a class="hash" href="#tweed" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/twiːd/ &middot; <em>TWEED</em></dd><dt>Русский</dt><dd>твид</dd><dt>Countability</dt><dd>uncountable</dd></dl>
+<p>A rough woolen cloth woven from flecked yarn.</p>
+<ol><li>My grandfather's <em>tweed</em> jacket still fits me.</li><li>The professor showed up in gray <em>tweed</em>.</li><li><em>Tweed</em> is scratchy but it lasts forever.</li></ol>
+<hr>
+<h3 id="chiffon">chiffon<a class="hash" href="#chiffon" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/ʃɪˈfɑːn/ &middot; <em>shih-FAHN</em></dd><dt>Русский</dt><dd>шифон</dd><dt>Countability</dt><dd>uncountable</dd><dt>Contrast</dt><dd>Stress falls on the second syllable in American English: shih-FAHN.</dd></dl>
+<p>A very light, sheer fabric of silk or synthetic thread.</p>
+<ol><li>The sleeves were pale pink <em>chiffon</em>.</li><li><em>Chiffon</em> snags on everything.</li><li>She threw a <em>chiffon</em> scarf over her shoulders.</li></ol>
+<hr>
+<h3 id="muslin">muslin<a class="hash" href="#muslin" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/ˈmʌzlən/ &middot; <em>MUZ-lin</em></dd><dt>Русский</dt><dd>муслин (тонкая хлопковая ткань)</dd><dt>Countability</dt><dd>uncountable</dd></dl>
+<p>A plain cotton cloth, often used for test garments or straining food.</p>
+<ol><li>Strain the broth through a piece of <em>muslin</em>.</li><li>She sews the first version in cheap <em>muslin</em>.</li><li>The curtains are unbleached <em>muslin</em>.</li></ol>
+<hr>
+<h3 id="burlap">burlap<a class="hash" href="#burlap" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/ˈbɜːrlæp/ &middot; <em>BUR-lap</em></dd><dt>Русский</dt><dd>мешковина</dd><dt>Countability</dt><dd>uncountable</dd><dt>Contrast</dt><dd>Americans say <em>burlap</em>; the British call the same cloth hessian.</dd></dl>
+<p>A coarse brown cloth woven from jute, used for sacks and wrapping.</p>
+<ol><li>The coffee came in <em>burlap</em> sacks.</li><li>We wrapped the tree roots in <em>burlap</em>.</li><li>She made table runners out of <em>burlap</em>.</li></ol>
+<hr>
+<h3 id="gingham">gingham<a class="hash" href="#gingham" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/ˈɡɪŋəm/ &middot; <em>GING-uhm</em></dd><dt>Русский</dt><dd>гингем, ткань в мелкую клетку</dd><dt>Countability</dt><dd>uncountable</dd><dt>Contrast</dt><dd>The gh is not an h sound: say GING-uhm, never ging-HAM.</dd></dl>
+<p>A cotton cloth woven in a small checked pattern, usually white and one color.</p>
+<ol><li>The diner had red <em>gingham</em> on every table.</li><li>She wore a blue <em>gingham</em> dress.</li><li><em>Gingham</em> always looks like summer to me.</li></ol>
+<hr>
+<h3 id="tartan">tartan<a class="hash" href="#tartan" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/ˈtɑːrtən/ &middot; <em>TAR-tuhn</em></dd><dt>Русский</dt><dd>тартан, шотландский клетчатый узор</dd><dt>Plural</dt><dd><em>tartans</em></dd><dt>Countability</dt><dd>countable, and uncountable as a substance</dd></dl>
+<p>A Scottish checked pattern in which each clan has its own design.</p>
+<ol><li>The band marched in full <em>tartan</em>.</li><li>Each family has its own <em>tartan</em>.</li><li>She collects scarves in old <em>tartans</em>.</li></ol>
+<hr>
+<h3 id="twill">twill<a class="hash" href="#twill" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/twɪl/ &middot; <em>TWIL</em></dd><dt>Русский</dt><dd>саржа (ткань в диагональный рубчик)</dd><dt>Countability</dt><dd>uncountable</dd></dl>
+<p>A strong fabric woven so that diagonal lines show on the surface.</p>
+<ol><li>The pants are cotton <em>twill</em>.</li><li><em>Twill</em> holds a crease better than plain weave.</li><li>He ordered a jacket in navy <em>twill</em>.</li></ol>
+<hr>
+<h3 id="herringbone">herringbone<a class="hash" href="#herringbone" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/ˈherɪŋboʊn/ &middot; <em>HAIR-ing-bohn</em></dd><dt>Русский</dt><dd>«ёлочка» (узор ткани)</dd><dt>Countability</dt><dd>uncountable</dd></dl>
+<p>A weave whose short diagonal rows change direction, like the bones of a fish.</p>
+<ol><li>He had on a gray <em>herringbone</em> coat.</li><li>The suit is <em>herringbone</em>, not solid.</li><li><em>Herringbone</em> reads as a texture from across the room.</li></ol>
+<hr>
+<h3 id="houndstooth">houndstooth<a class="hash" href="#houndstooth" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/ˈhaʊndztuːθ/ &middot; <em>HOWNDZ-tooth</em></dd><dt>Русский</dt><dd>«гусиная лапка» (узор)</dd><dt>Countability</dt><dd>uncountable</dd></dl>
+<p>A checked pattern of broken, pointed shapes, usually black and white.</p>
+<ol><li>She wore a <em>houndstooth</em> jacket.</li><li><em>Houndstooth</em> never really goes out of style.</li><li>The chair was upholstered in <em>houndstooth</em>.</li></ol>
+<hr>
+<h3 id="seersucker">seersucker<a class="hash" href="#seersucker" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/ˈsɪrsʌkər/ &middot; <em>SEER-suk-ur</em></dd><dt>Русский</dt><dd>сирсакер (жатая полосатая ткань)</dd><dt>Countability</dt><dd>uncountable</dd></dl>
+<p>A light cotton cloth with puckered stripes that keep it off the skin.</p>
+<ol><li>Every summer he pulls out the <em>seersucker</em> suit.</li><li><em>Seersucker</em> doesn't need ironing, which is the point.</li><li>The dress was blue and white <em>seersucker</em>.</li></ol>
+<hr>
+<h3 id="poplin">poplin<a class="hash" href="#poplin" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/ˈpɑːplən/ &middot; <em>PAHP-lin</em></dd><dt>Русский</dt><dd>поплин</dd><dt>Countability</dt><dd>uncountable</dd></dl>
+<p>A smooth cotton fabric with fine ribs across it, common in dress shirts.</p>
+<ol><li>The shirt is cotton <em>poplin</em>.</li><li><em>Poplin</em> presses beautifully.</li><li>We ordered forty yards of white <em>poplin</em>.</li></ol>
+<hr>
+<h3 id="velour">velour<a class="hash" href="#velour" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/vəˈlʊr/ &middot; <em>vuh-LOOR</em></dd><dt>Русский</dt><dd>велюр</dd><dt>Countability</dt><dd>uncountable</dd></dl>
+<p>A soft knitted fabric with a short thick pile, like a stretchy velvet.</p>
+<ol><li>The tracksuit was maroon <em>velour</em>.</li><li><em>Velour</em> seats were everywhere in seventies cars.</li><li>She bought a <em>velour</em> robe for the winter.</li></ol>
+<hr>
+<h3 id="tulle">tulle<a class="hash" href="#tulle" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/tuːl/ &middot; <em>TOOL</em></dd><dt>Русский</dt><dd>тюль (сетчатая ткань)</dd><dt>Countability</dt><dd>uncountable</dd><dt>Contrast</dt><dd>One syllable, and a homophone of <em>tool</em>.</dd></dl>
+<p>A fine net fabric used for veils, ballet skirts, and formal dresses.</p>
+<ol><li>The skirt was layers of white <em>tulle</em>.</li><li>Her veil was a single piece of <em>tulle</em>.</li><li><em>Tulle</em> catches on the slightest rough edge.</li></ol>
+<hr>
+<h3 id="taffeta">taffeta<a class="hash" href="#taffeta" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/ˈtæfətə/ &middot; <em>TAF-uh-tuh</em></dd><dt>Русский</dt><dd>тафта</dd><dt>Countability</dt><dd>uncountable</dd></dl>
+<p>A crisp shiny fabric that rustles when it moves.</p>
+<ol><li>Her prom dress was green <em>taffeta</em>.</li><li>You could hear the <em>taffeta</em> from the hallway.</li><li>The lining is <em>taffeta</em>, so it slides on easily.</li></ol>
+<hr>
+<h3 id="organza">organza<a class="hash" href="#organza" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/ɔːrˈɡænzə/ &middot; <em>or-GAN-zuh</em></dd><dt>Русский</dt><dd>органза</dd><dt>Countability</dt><dd>uncountable</dd></dl>
+<p>A thin, stiff, transparent fabric used for overlays and trim.</p>
+<ol><li>The sleeves were sheer <em>organza</em>.</li><li>She wrapped the gift in <em>organza</em>.</li><li><em>Organza</em> holds its shape better than chiffon.</li></ol>
+<hr>
+<h3 id="brocade">brocade<a class="hash" href="#brocade" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/broʊˈkeɪd/ &middot; <em>broh-KAYD</em></dd><dt>Русский</dt><dd>парча</dd><dt>Countability</dt><dd>uncountable</dd></dl>
+<p>A heavy fabric woven with a raised pattern, often in gold or silver thread.</p>
+<ol><li>The chairs were covered in gold <em>brocade</em>.</li><li>She wore a jacket of stiff red <em>brocade</em>.</li><li><em>Brocade</em> is too heavy for a summer dress.</li></ol>
+<hr>
+<h3 id="damask">damask<a class="hash" href="#damask" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/ˈdæməsk/ &middot; <em>DAM-usk</em></dd><dt>Русский</dt><dd>дамаст, камчатное полотно</dd><dt>Countability</dt><dd>uncountable</dd></dl>
+<p>A reversible fabric whose pattern is formed by the weave itself.</p>
+<ol><li>The table was set with white <em>damask</em>.</li><li><em>Damask</em> napkins come out for the holidays.</li><li>The curtains are heavy blue <em>damask</em>.</li></ol>
+<hr>
+<h3 id="calico">calico<a class="hash" href="#calico" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/ˈkælɪkoʊ/ &middot; <em>KAL-ih-koh</em></dd><dt>Русский</dt><dd>ситец (набивной хлопок)</dd><dt>Countability</dt><dd>uncountable</dd><dt>Contrast</dt><dd>In the US <em>calico</em> is printed cotton; in Britain it means plain unbleached cotton.</dd></dl>
+<p>A cotton cloth printed with a small pattern, often in flowers.</p>
+<ol><li>The quilt is pieced from old <em>calico</em>.</li><li>She sewed the girls matching <em>calico</em> dresses.</li><li><em>Calico</em> was what everyone wore on the frontier.</li></ol>
+<hr>
+<h3 id="gabardine">gabardine<a class="hash" href="#gabardine" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/ˈɡæbərdiːn/ &middot; <em>GAB-ur-deen</em></dd><dt>Русский</dt><dd>габардин</dd><dt>Countability</dt><dd>uncountable</dd></dl>
+<p>A tightly woven twill that sheds water, used for coats and suits.</p>
+<ol><li>His raincoat was tan <em>gabardine</em>.</li><li><em>Gabardine</em> holds a sharp crease.</li><li>The tailor recommended wool <em>gabardine</em> for the trousers.</li></ol>
+<hr>
+<h3 id="crepe">crepe<a class="hash" href="#crepe" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/kreɪp/ &middot; <em>KRAYP</em></dd><dt>Русский</dt><dd>креп (ткань с зернистой поверхностью)</dd><dt>Countability</dt><dd>uncountable</dd><dt>Contrast</dt><dd>Rhymes with <em>tape</em>, not with <em>creep</em>.</dd></dl>
+<p>A fabric with a lightly crinkled surface that drapes softly.</p>
+<ol><li>The dress is black wool <em>crepe</em>.</li><li><em>Crepe</em> hangs well and doesn't cling.</li><li>She lined the jacket with silk <em>crepe</em>.</li></ol>
+<hr>
+<h3 id="percale">percale<a class="hash" href="#percale" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/pərˈkeɪl/ &middot; <em>pur-KAYL</em></dd><dt>Русский</dt><dd>перкаль</dd><dt>Countability</dt><dd>uncountable</dd></dl>
+<p>A closely woven cotton cloth with a crisp, matte finish, used for sheets.</p>
+<ol><li>We switched to cotton <em>percale</em> sheets.</li><li><em>Percale</em> feels cool the first night after washing.</li><li>The hotel uses white <em>percale</em> on every bed.</li></ol>
+<hr>
+<h3 id="worsted">worsted<a class="hash" href="#worsted" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/ˈwʊstɪd/ &middot; <em>WUUS-tid</em></dd><dt>Русский</dt><dd>камвольная шерсть (ткань и пряжа)</dd><dt>Countability</dt><dd>uncountable</dd><dt>Contrast</dt><dd>Say WUUS-tid — the first syllable sounds like <em>wood</em>, not like <em>word</em>.</dd></dl>
+<p>Wool yarn or cloth made from long fibers combed straight before spinning.</p>
+<ol><li>The suit is fine <em>worsted</em> wool.</li><li>She knits mostly in <em>worsted</em>.</li><li><em>Worsted</em> is smoother than ordinary woolen cloth.</li></ol>
+<hr>
+<h3 id="mohair">mohair<a class="hash" href="#mohair" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/ˈmoʊher/ &middot; <em>MOH-hair</em></dd><dt>Русский</dt><dd>мохер</dd><dt>Countability</dt><dd>uncountable</dd></dl>
+<p>A silky wool from the angora goat, used in fluffy sweaters and coats.</p>
+<ol><li>She wore a pale blue <em>mohair</em> sweater.</li><li><em>Mohair</em> sheds on everything you own.</li><li>The blanket is <em>mohair</em> and wool.</li></ol>
+<hr>
+<h3 id="angora">angora<a class="hash" href="#angora" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/æŋˈɡɔːrə/ &middot; <em>ang-GOR-uh</em></dd><dt>Русский</dt><dd>ангора (шерсть ангорского кролика)</dd><dt>Countability</dt><dd>uncountable</dd></dl>
+<p>A very soft fluffy wool that comes from angora rabbits.</p>
+<ol><li>The cardigan is half <em>angora</em>.</li><li><em>Angora</em> is warm but it pills quickly.</li><li>She spins her own <em>angora</em>.</li></ol>
+<hr>
+<h3 id="merino">merino<a class="hash" href="#merino" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/məˈriːnoʊ/ &middot; <em>muh-REE-noh</em></dd><dt>Русский</dt><dd>меринос (тонкая овечья шерсть)</dd><dt>Countability</dt><dd>uncountable</dd></dl>
+<p>A fine soft wool from merino sheep, worn next to the skin.</p>
+<ol><li>These socks are <em>merino</em>, so they don't itch.</li><li>He hikes in a <em>merino</em> base layer.</li><li><em>Merino</em> costs more but it's worth it.</li></ol>
+<hr>
+<h3 id="shearling">shearling<a class="hash" href="#shearling" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/ˈʃɪrlɪŋ/ &middot; <em>SHEER-ling</em></dd><dt>Русский</dt><dd>овчина (мехом внутрь), шерлинг</dd><dt>Countability</dt><dd>uncountable</dd></dl>
+<p>Sheepskin tanned with the wool still on it, used for warm coats and boots.</p>
+<ol><li>Her boots are lined with <em>shearling</em>.</li><li>He bought a <em>shearling</em> jacket for the winter.</li><li><em>Shearling</em> is heavy but nothing is warmer.</li></ol>
+<hr>
+<h3 id="sheepskin">sheepskin<a class="hash" href="#sheepskin" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/ˈʃiːpskɪn/ &middot; <em>SHEEP-skin</em></dd><dt>Русский</dt><dd>овчина</dd><dt>Plural</dt><dd><em>sheepskins</em></dd><dt>Countability</dt><dd>countable, and uncountable as a substance</dd></dl>
+<p>The skin of a sheep with the wool left on, or leather made from it.</p>
+<ol><li>There was a <em>sheepskin</em> thrown over the chair.</li><li>The gloves are lined with <em>sheepskin</em>.</li><li>He sells <em>sheepskins</em> at the county fair.</li></ol>
+<hr>
+<h3 id="pelt">pelt<a class="hash" href="#pelt" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/pelt/ &middot; <em>PELT</em></dd><dt>Русский</dt><dd>шкура (с мехом)</dd><dt>Plural</dt><dd><em>pelts</em></dd><dt>Countability</dt><dd>countable</dd></dl>
+<p>The skin of an animal with the fur still attached.</p>
+<ol><li>Trappers sold beaver <em>pelts</em> to the company.</li><li>A wolf <em>pelt</em> hung above the fireplace.</li><li>The <em>pelts</em> were stretched on wooden frames.</li></ol>
+<hr>
+<h3 id="rayon">rayon<a class="hash" href="#rayon" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/ˈreɪɑːn/ &middot; <em>RAY-ahn</em></dd><dt>Русский</dt><dd>вискоза, искусственный шёлк</dd><dt>Countability</dt><dd>uncountable</dd><dt>Contrast</dt><dd>Americans usually say <em>rayon</em> where Europeans say viscose — the same fiber.</dd></dl>
+<p>A soft fabric made from processed wood pulp rather than a natural fiber.</p>
+<ol><li>The blouse is <em>rayon</em>, so wash it cold.</li><li><em>Rayon</em> wrinkles the moment you sit down.</li><li>The label says sixty percent <em>rayon</em>.</li></ol>
+<hr>
+<h3 id="viscose">viscose<a class="hash" href="#viscose" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/ˈvɪskoʊs/ &middot; <em>VIS-kohs</em></dd><dt>Русский</dt><dd>вискоза</dd><dt>Countability</dt><dd>uncountable</dd></dl>
+<p>A fiber made from dissolved cellulose, sold in the US mostly as rayon.</p>
+<ol><li>The dress is <em>viscose</em> and it hangs beautifully.</li><li><em>Viscose</em> loses its shape when it gets wet.</li><li>European labels list <em>viscose</em> instead of rayon.</li></ol>
+<hr>
+<h3 id="spandex">spandex<a class="hash" href="#spandex" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/ˈspændeks/ &middot; <em>SPAN-deks</em></dd><dt>Русский</dt><dd>спандекс, эластан</dd><dt>Countability</dt><dd>uncountable</dd><dt>Contrast</dt><dd><em>Spandex</em> is the American word; elsewhere the same fiber is called elastane or Lycra.</dd></dl>
+<p>A synthetic fiber that stretches far and springs back into shape.</p>
+<ol><li>There's five percent <em>spandex</em> in these jeans.</li><li>The whole team wears <em>spandex</em>.</li><li>A little <em>spandex</em> keeps the knees from bagging out.</li></ol>
+<hr>
+<h3 id="microfiber">microfiber<a class="hash" href="#microfiber" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/ˈmaɪkroʊfaɪbər/ &middot; <em>MY-kroh-fy-bur</em></dd><dt>Русский</dt><dd>микрофибра</dd><dt>Countability</dt><dd>uncountable</dd><dt>Contrast</dt><dd>Spelled <em>microfiber</em> in the US and microfibre in Britain.</dd></dl>
+<p>A synthetic cloth of extremely fine threads that picks up dust and water.</p>
+<ol><li>Wipe the screen with a <em>microfiber</em> cloth.</li><li>The couch is <em>microfiber</em>, so spills wipe right off.</li><li><em>Microfiber</em> towels dry much faster than cotton.</li></ol>
+<hr>
+<h3 id="jute">jute<a class="hash" href="#jute" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/dʒuːt/ &middot; <em>JOOT</em></dd><dt>Русский</dt><dd>джут</dd><dt>Countability</dt><dd>uncountable</dd></dl>
+<p>A rough plant fiber spun into rope, sacks, and coarse cloth.</p>
+<ol><li>The rug is woven from <em>jute</em>.</li><li><em>Jute</em> twine is cheap and strong.</li><li>They shipped the grain in <em>jute</em> bags.</li></ol>
+<hr>
+<h3 id="hemp">hemp<a class="hash" href="#hemp" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/hemp/ &middot; <em>HEMP</em></dd><dt>Русский</dt><dd>конопля, пенька (волокно)</dd><dt>Countability</dt><dd>uncountable</dd></dl>
+<p>A tough plant fiber used for rope, canvas, and heavy cloth.</p>
+<ol><li>Old ships were rigged with <em>hemp</em> rope.</li><li>The bag is woven <em>hemp</em>.</li><li><em>Hemp</em> softens a lot after a few washes.</li></ol>
+<hr>
+<h3 id="flax">flax<a class="hash" href="#flax" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/flæks/ &middot; <em>FLAKS</em></dd><dt>Русский</dt><dd>лён (растение и волокно)</dd><dt>Countability</dt><dd>uncountable</dd></dl>
+<p>The blue-flowered plant whose stems are spun into linen thread.</p>
+<ol><li><em>Flax</em> has been grown here for centuries.</li><li>Linen is made from <em>flax</em>.</li><li>The field of <em>flax</em> turned pale blue in June.</li></ol>
+<hr>
+<h3 id="cheesecloth">cheesecloth<a class="hash" href="#cheesecloth" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/ˈtʃiːzklɔːθ/ &middot; <em>CHEEZ-klawth</em></dd><dt>Русский</dt><dd>марля</dd><dt>Countability</dt><dd>uncountable</dd></dl>
+<p>A loose, thin cotton cloth used for straining and wrapping food.</p>
+<ol><li>Line the strainer with <em>cheesecloth</em>.</li><li>Tie the herbs up in a square of <em>cheesecloth</em>.</li><li><em>Cheesecloth</em> is in the aisle with the foil.</li></ol>
+<hr>
+<h3 id="oilcloth">oilcloth<a class="hash" href="#oilcloth" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/ˈɔɪlklɔːθ/ &middot; <em>OYL-klawth</em></dd><dt>Русский</dt><dd>клеёнка</dd><dt>Countability</dt><dd>uncountable</dd></dl>
+<p>Cloth coated to make it waterproof, often used on kitchen tables.</p>
+<ol><li>Grandma kept <em>oilcloth</em> on the kitchen table.</li><li>The picnic table was covered in checked <em>oilcloth</em>.</li><li><em>Oilcloth</em> wipes clean with a sponge.</li></ol>
+<hr>
+<h3 id="netting">netting<a class="hash" href="#netting" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/ˈnetɪŋ/ &middot; <em>NET-ing</em></dd><dt>Русский</dt><dd>сетка (сетчатый материал)</dd><dt>Countability</dt><dd>uncountable</dd></dl>
+<p>Open mesh material made of knotted or woven cord or thread.</p>
+<ol><li>We put <em>netting</em> over the strawberries.</li><li>The hat had a bit of black <em>netting</em> on the brim.</li><li><em>Netting</em> keeps the mosquitoes off at night.</li></ol>
+<hr>
+<h3 id="strand">strand<a class="hash" href="#strand" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/strænd/ &middot; <em>STRAND</em></dd><dt>Русский</dt><dd>прядь, нить</dd><dt>Plural</dt><dd><em>strands</em></dd><dt>Countability</dt><dd>countable</dd></dl>
+<p>A single thread or thin length of fiber twisted with others.</p>
+<ol><li>Pull out a <em>strand</em> of the yarn and look at it.</li><li>The rope is made of three twisted <em>strands</em>.</li><li>A loose <em>strand</em> was hanging off the sleeve.</li></ol>
+<hr>
+<h3 id="ply">ply<a class="hash" href="#ply" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/plaɪ/ &middot; <em>PLY</em></dd><dt>Русский</dt><dd>сложение нити, слой (пряжи)</dd><dt>Plural</dt><dd><em>plies</em></dd><dt>Countability</dt><dd>countable</dd></dl>
+<p>One of the strands twisted together to make a yarn or thread.</p>
+<ol><li>This is a four-<em>ply</em> wool.</li><li>The pattern calls for a heavier <em>ply</em>.</li><li>Separate the <em>plies</em> and use just one.</li></ol>
+<hr>
+<h3 id="skein">skein<a class="hash" href="#skein" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/skeɪn/ &middot; <em>SKAYN</em></dd><dt>Русский</dt><dd>моток (пряжи)</dd><dt>Plural</dt><dd><em>skeins</em></dd><dt>Countability</dt><dd>countable</dd><dt>Contrast</dt><dd>Rhymes with <em>cane</em>, not with <em>seen</em>.</dd></dl>
+<p>A loose coil of yarn as it is sold in a store.</p>
+<ol><li>I need three more <em>skeins</em> to finish the sweater.</li><li>She wound the <em>skein</em> into a ball.</li><li>The <em>skein</em> came undone in my bag.</li></ol>
+<hr>
+<h3 id="spool">spool<a class="hash" href="#spool" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/spuːl/ &middot; <em>SPOOL</em></dd><dt>Русский</dt><dd>катушка (ниток)</dd><dt>Plural</dt><dd><em>spools</em></dd><dt>Countability</dt><dd>countable</dd><dt>Contrast</dt><dd>Americans buy a <em>spool</em> of thread; the British buy a reel.</dd></dl>
+<p>A small cylinder that thread or wire is wound onto.</p>
+<ol><li>Pick up a <em>spool</em> of black thread while you're out.</li><li>The <em>spool</em> rolled under the couch.</li><li>She keeps her <em>spools</em> sorted by color.</li></ol>
+<hr>
+<h3 id="bobbin">bobbin<a class="hash" href="#bobbin" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/ˈbɑːbən/ &middot; <em>BAH-bin</em></dd><dt>Русский</dt><dd>шпулька</dd><dt>Plural</dt><dd><em>bobbins</em></dd><dt>Countability</dt><dd>countable</dd></dl>
+<p>The small spool that holds the lower thread inside a sewing machine.</p>
+<ol><li>The <em>bobbin</em> ran out halfway down the seam.</li><li>Wind a <em>bobbin</em> before you start.</li><li>She keeps spare <em>bobbins</em> in a tin.</li></ol>
+<hr>
+<h3 id="reel">reel<a class="hash" href="#reel" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/riːl/ &middot; <em>REEL</em></dd><dt>Русский</dt><dd>катушка, бобина</dd><dt>Plural</dt><dd><em>reels</em></dd><dt>Countability</dt><dd>countable</dd><dt>Contrast</dt><dd>Homophone of <em>real</em>. For sewing thread, Americans normally say <em>spool</em> instead.</dd></dl>
+<p>A cylinder that thread, wire, or film is wound around.</p>
+<ol><li>The mill ships the yarn on wooden <em>reels</em>.</li><li>He unwound a length off the <em>reel</em>.</li><li>Two empty <em>reels</em> were sitting by the loom.</li></ol>
+<hr>
+<h3 id="twine">twine<a class="hash" href="#twine" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/twaɪn/ &middot; <em>TWYN</em></dd><dt>Русский</dt><dd>бечёвка, шпагат</dd><dt>Countability</dt><dd>uncountable</dd></dl>
+<p>Strong string made of two or more strands twisted together.</p>
+<ol><li>Tie the box up with <em>twine</em>.</li><li>There's a ball of <em>twine</em> in the drawer.</li><li>The bundles were bound with <em>twine</em>.</li></ol>
+<hr>
+<h3 id="thimble">thimble<a class="hash" href="#thimble" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/ˈθɪmbəl/ &middot; <em>THIM-bul</em></dd><dt>Русский</dt><dd>напёрсток</dd><dt>Plural</dt><dd><em>thimbles</em></dd><dt>Countability</dt><dd>countable</dd></dl>
+<p>A small metal cap worn on the finger to push a needle through cloth.</p>
+<ol><li>Use a <em>thimble</em> or you'll stab yourself.</li><li>Her mother's silver <em>thimble</em> is in the sewing box.</li><li>He collects antique <em>thimbles</em>.</li></ol>
+<hr>
+<h3 id="pincushion">pincushion<a class="hash" href="#pincushion" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/ˈpɪnkʊʃən/ &middot; <em>PIN-kuush-un</em></dd><dt>Русский</dt><dd>игольница</dd><dt>Plural</dt><dd><em>pincushions</em></dd><dt>Countability</dt><dd>countable</dd></dl>
+<p>A small stuffed pad that pins and needles are stuck into.</p>
+<ol><li>The <em>pincushion</em> is shaped like a tomato.</li><li>Stick the needle back in the <em>pincushion</em>.</li><li>She sews little <em>pincushions</em> out of scraps.</li></ol>
+<hr>
+<h3 id="awl">awl<a class="hash" href="#awl" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/ɔːl/ &middot; <em>AWL</em></dd><dt>Русский</dt><dd>шило</dd><dt>Plural</dt><dd><em>awls</em></dd><dt>Countability</dt><dd>countable</dd><dt>Contrast</dt><dd>Sounds almost exactly like <em>all</em>; only the context tells them apart.</dd></dl>
+<p>A pointed hand tool for punching holes in leather or heavy cloth.</p>
+<ol><li>Punch the holes with an <em>awl</em> first.</li><li>The old <em>awl</em> had a worn wooden handle.</li><li>A saddler keeps several <em>awls</em> on the bench.</li></ol>
+<hr>
+<h3 id="serger">serger<a class="hash" href="#serger" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/ˈsɜːrɡər/ &middot; <em>SUR-gur</em></dd><dt>Русский</dt><dd>оверлок</dd><dt>Plural</dt><dd><em>sergers</em></dd><dt>Countability</dt><dd>countable</dd><dt>Contrast</dt><dd>American <em>serger</em>; the British call the same machine an overlocker.</dd></dl>
+<p>A machine that trims a seam and stitches over its raw edge at once.</p>
+<ol><li>Finish the edges on the <em>serger</em>.</li><li>She saved up for a <em>serger</em>.</li><li>Most home sewers own a machine and a <em>serger</em>.</li></ol>
+<hr>
+<h3 id="spindle">spindle<a class="hash" href="#spindle" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/ˈspɪndəl/ &middot; <em>SPIN-dul</em></dd><dt>Русский</dt><dd>веретено</dd><dt>Plural</dt><dd><em>spindles</em></dd><dt>Countability</dt><dd>countable</dd></dl>
+<p>A rod that twists fiber into thread and holds the thread as it is spun.</p>
+<ol><li>She twisted the wool onto the <em>spindle</em>.</li><li>A drop <em>spindle</em> is the simplest way to start spinning.</li><li>The mill had rows of humming <em>spindles</em>.</li></ol>
+<hr>
+<h3 id="warp">warp<a class="hash" href="#warp" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/wɔːrp/ &middot; <em>WORP</em></dd><dt>Русский</dt><dd>основа (продольные нити ткани)</dd><dt>Countability</dt><dd>uncountable</dd></dl>
+<p>The lengthwise threads held on a loom while cloth is woven.</p>
+<ol><li>The <em>warp</em> runs the length of the fabric.</li><li>It takes a whole day to set up the <em>warp</em>.</li><li>A broken <em>warp</em> thread stops the machine.</li></ol>
+<hr>
+<h3 id="weft">weft<a class="hash" href="#weft" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/weft/ &middot; <em>WEFT</em></dd><dt>Русский</dt><dd>уток (поперечные нити ткани)</dd><dt>Countability</dt><dd>uncountable</dd></dl>
+<p>The crosswise threads woven over and under the warp.</p>
+<ol><li>The <em>weft</em> is a darker blue than the warp.</li><li>She packs the <em>weft</em> down tight after each pass.</li><li>A loose <em>weft</em> makes a soft, open cloth.</li></ol>
+<hr>
+<h3 id="selvage">selvage<a class="hash" href="#selvage" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/ˈselvɪdʒ/ &middot; <em>SEL-vij</em></dd><dt>Русский</dt><dd>кромка ткани</dd><dt>Plural</dt><dd><em>selvages</em></dd><dt>Countability</dt><dd>countable</dd><dt>Contrast</dt><dd>Usually spelled <em>selvage</em> in the US and selvedge in Britain.</dd></dl>
+<p>The finished edge of woven cloth that does not fray.</p>
+<ol><li>Line the pattern up with the <em>selvage</em>.</li><li>The <em>selvage</em> has the maker's name printed on it.</li><li>Cut the <em>selvages</em> off before you sew.</li></ol>
+<hr>
+<h3 id="hemline">hemline<a class="hash" href="#hemline" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/ˈhemlaɪn/ &middot; <em>HEM-lyn</em></dd><dt>Русский</dt><dd>линия низа, подол</dd><dt>Plural</dt><dd><em>hemlines</em></dd><dt>Countability</dt><dd>countable</dd></dl>
+<p>The bottom edge of a skirt, dress, or coat, seen as a level.</p>
+<ol><li>The <em>hemline</em> hit just below the knee.</li><li><em>Hemlines</em> went up again that spring.</li><li>She let the <em>hemline</em> down two inches.</li></ol>
+<hr>
+<h3 id="dart">dart<a class="hash" href="#dart" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/dɑːrt/ &middot; <em>DART</em></dd><dt>Русский</dt><dd>вытачка</dd><dt>Plural</dt><dd><em>darts</em></dd><dt>Countability</dt><dd>countable</dd></dl>
+<p>A tapered fold sewn into cloth so a garment fits the body's curves.</p>
+<ol><li>Sew the <em>darts</em> before you join the side seams.</li><li>The <em>dart</em> pulls the waist in.</li><li>Two <em>darts</em> in the back will fix that gap.</li></ol>
+<hr>
+<h3 id="gusset">gusset<a class="hash" href="#gusset" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/ˈɡʌsət/ &middot; <em>GUS-it</em></dd><dt>Русский</dt><dd>ластовица, клин (вставка)</dd><dt>Plural</dt><dd><em>gussets</em></dd><dt>Countability</dt><dd>countable</dd></dl>
+<p>A small piece of cloth sewn in to add room or strength.</p>
+<ol><li>A <em>gusset</em> under the arm lets the sleeve move.</li><li>The bag has a wide <em>gusset</em> at the bottom.</li><li>Add <em>gussets</em> if the shirt feels tight across the back.</li></ol>
+<hr>
+<h3 id="yoke">yoke<a class="hash" href="#yoke" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/joʊk/ &middot; <em>YOHK</em></dd><dt>Русский</dt><dd>кокетка (деталь одежды)</dd><dt>Plural</dt><dd><em>yokes</em></dd><dt>Countability</dt><dd>countable</dd><dt>Contrast</dt><dd>A homophone of <em>yolk</em>, the yellow of an egg.</dd></dl>
+<p>A shaped piece across the shoulders or hips that the rest of a garment hangs from.</p>
+<ol><li>The shirt has a western <em>yoke</em> across the back.</li><li>Gather the skirt into the <em>yoke</em>.</li><li>Both <em>yokes</em> are cut on the bias.</li></ol>
+<hr>
+<h3 id="facing">facing<a class="hash" href="#facing" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/ˈfeɪsɪŋ/ &middot; <em>FAY-sing</em></dd><dt>Русский</dt><dd>обтачка, подборт</dd><dt>Plural</dt><dd><em>facings</em></dd><dt>Countability</dt><dd>countable</dd></dl>
+<p>A piece of cloth sewn to an edge and turned inside to finish it neatly.</p>
+<ol><li>Press the <em>facing</em> to the inside.</li><li>The neckline has a narrow <em>facing</em>.</li><li>Cut the <em>facings</em> from the same fabric.</li></ol>
+<hr>
+<h3 id="interfacing">interfacing<a class="hash" href="#interfacing" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/ˈɪntərfeɪsɪŋ/ &middot; <em>IN-tur-fay-sing</em></dd><dt>Русский</dt><dd>прокладочный материал, дублерин</dd><dt>Countability</dt><dd>uncountable</dd></dl>
+<p>Stiffening material placed between two layers of cloth to give shape.</p>
+<ol><li>Iron the <em>interfacing</em> onto the collar.</li><li>Use light <em>interfacing</em> so the cuff still bends.</li><li><em>Interfacing</em> is what keeps a waistband from folding over.</li></ol>
+<hr>
+<h3 id="batting">batting<a class="hash" href="#batting" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/ˈbætɪŋ/ &middot; <em>BAT-ing</em></dd><dt>Русский</dt><dd>ватин, синтепон (для стёжки)</dd><dt>Countability</dt><dd>uncountable</dd><dt>Contrast</dt><dd>Same word as <em>batting</em> in baseball, but the quilting sense is uncountable.</dd></dl>
+<p>A soft layer of cotton or synthetic fiber used to fill a quilt or jacket.</p>
+<ol><li>Lay the <em>batting</em> between the two layers.</li><li>Cotton <em>batting</em> shrinks a little the first wash.</li><li>She bought a whole roll of <em>batting</em>.</li></ol>
+<hr>
+<h3 id="padding">padding<a class="hash" href="#padding" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/ˈpædɪŋ/ &middot; <em>PAD-ing</em></dd><dt>Русский</dt><dd>набивка, мягкая прокладка</dd><dt>Countability</dt><dd>uncountable</dd></dl>
+<p>Soft material put inside cloth to give bulk, warmth, or protection.</p>
+<ol><li>The jacket has <em>padding</em> in the shoulders.</li><li>Pull the <em>padding</em> out and the coat is much lighter.</li><li>There's thin <em>padding</em> along the strap.</li></ol>
+<hr>
+<h3 id="piping">piping<a class="hash" href="#piping" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/ˈpaɪpɪŋ/ &middot; <em>PY-ping</em></dd><dt>Русский</dt><dd>кант, выпушка</dd><dt>Countability</dt><dd>uncountable</dd></dl>
+<p>A narrow cord covered in fabric and sewn into a seam as trim.</p>
+<ol><li>The cushions have white <em>piping</em>.</li><li>Red <em>piping</em> runs down the side of the trousers.</li><li><em>Piping</em> makes a plain seam look finished.</li></ol>
+<hr>
+<h3 id="trim">trim<a class="hash" href="#trim" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/trɪm/ &middot; <em>TRIM</em></dd><dt>Русский</dt><dd>отделка, фурнитура (для одежды)</dd><dt>Countability</dt><dd>uncountable</dd></dl>
+<p>Ribbon, lace, or braid added to a garment for decoration.</p>
+<ol><li>The dress has lace <em>trim</em> at the collar.</li><li>Buttons and <em>trim</em> are down the next aisle.</li><li>A little velvet <em>trim</em> would dress it up.</li></ol>
+<hr>
+<h3 id="ruffle">ruffle<a class="hash" href="#ruffle" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/ˈrʌfəl/ &middot; <em>RUF-ul</em></dd><dt>Русский</dt><dd>оборка, воланчик</dd><dt>Plural</dt><dd><em>ruffles</em></dd><dt>Countability</dt><dd>countable</dd></dl>
+<p>A strip of gathered cloth sewn on as a decorative edge.</p>
+<ol><li>The blouse has a <em>ruffle</em> down the front.</li><li>She hates <em>ruffles</em> on anything.</li><li>Add a narrow <em>ruffle</em> at the hem.</li></ol>
+<hr>
+<h3 id="tuck">tuck<a class="hash" href="#tuck" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/tʌk/ &middot; <em>TUK</em></dd><dt>Русский</dt><dd>защип, складка (застроченная)</dd><dt>Plural</dt><dd><em>tucks</em></dd><dt>Countability</dt><dd>countable</dd></dl>
+<p>A narrow fold of cloth stitched down to shorten or decorate a garment.</p>
+<ol><li>There are three little <em>tucks</em> on each side.</li><li>A <em>tuck</em> at the waist will take it in.</li><li>Press each <em>tuck</em> flat before you sew the next.</li></ol>
+<hr>
+<h3 id="elastic">elastic<a class="hash" href="#elastic" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/ɪˈlæstɪk/ &middot; <em>ih-LAS-tik</em></dd><dt>Русский</dt><dd>резинка (эластичная тесьма)</dd><dt>Countability</dt><dd>uncountable</dd></dl>
+<p>Stretchy cord or tape sewn into clothing so it pulls back into shape.</p>
+<ol><li>The waistband has <em>elastic</em> in it.</li><li>Buy half an inch of <em>elastic</em> for the cuffs.</li><li>The <em>elastic</em> in these socks is shot.</li></ol>
+<hr>
+<h3 id="eyelet">eyelet<a class="hash" href="#eyelet" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/ˈaɪlət/ &middot; <em>EYE-lit</em></dd><dt>Русский</dt><dd>люверс; ажурная вышивка</dd><dt>Plural</dt><dd><em>eyelets</em></dd><dt>Countability</dt><dd>countable</dd></dl>
+<p>A small reinforced hole in cloth for a lace or cord to pass through.</p>
+<ol><li>Thread the cord through the <em>eyelets</em>.</li><li>One <em>eyelet</em> on the boot tore out.</li><li>The blouse is white cotton <em>eyelet</em>.</li></ol>
+<hr>
+<h3 id="armhole">armhole<a class="hash" href="#armhole" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/ˈɑːrmhoʊl/ &middot; <em>ARM-hohl</em></dd><dt>Русский</dt><dd>пройма</dd><dt>Plural</dt><dd><em>armholes</em></dd><dt>Countability</dt><dd>countable</dd></dl>
+<p>The opening in a garment that a sleeve is set into.</p>
+<ol><li>The <em>armholes</em> are cut too high.</li><li>Measure around the <em>armhole</em> before you cut the sleeve.</li><li>Finish the <em>armhole</em> with bias tape.</li></ol>
+<hr>
+<h3 id="inseam">inseam<a class="hash" href="#inseam" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/ˈɪnsiːm/ &middot; <em>IN-seem</em></dd><dt>Русский</dt><dd>внутренний шов брючины (длина по внутренней стороне)</dd><dt>Plural</dt><dd><em>inseams</em></dd><dt>Countability</dt><dd>countable</dd><dt>Contrast</dt><dd>Americans ask for an <em>inseam</em>; the British ask for the inside leg.</dd></dl>
+<p>The seam running from the crotch to the bottom of a trouser leg, or its length.</p>
+<ol><li>What's your <em>inseam</em>, thirty-two?</li><li>The tailor took an inch off the <em>inseam</em>.</li><li>Both <em>inseams</em> had come unstitched.</li></ol>
+<hr>
+<h3 id="waistline">waistline<a class="hash" href="#waistline" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/ˈweɪstlaɪn/ &middot; <em>WAYST-lyn</em></dd><dt>Русский</dt><dd>линия талии</dd><dt>Plural</dt><dd><em>waistlines</em></dd><dt>Countability</dt><dd>countable</dd><dt>Contrast</dt><dd><em>Waist</em> sounds exactly like <em>waste</em>.</dd></dl>
+<p>The line around a garment or body at the narrowest part of the middle.</p>
+<ol><li>The dress has a high <em>waistline</em>.</li><li><em>Waistlines</em> dropped in the twenties.</li><li>Mark the <em>waistline</em> with chalk.</li></ol>
+<hr>
+<h3 id="sequin">sequin<a class="hash" href="#sequin" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/ˈsiːkwɪn/ &middot; <em>SEE-kwin</em></dd><dt>Русский</dt><dd>пайетка, блёстка</dd><dt>Plural</dt><dd><em>sequins</em></dd><dt>Countability</dt><dd>countable</dd></dl>
+<p>A tiny shiny disc sewn onto cloth for decoration.</p>
+<ol><li>The top was covered in silver <em>sequins</em>.</li><li>A <em>sequin</em> came off and rolled under the table.</li><li><em>Sequins</em> get everywhere once they start falling off.</li></ol>
+<hr>
+<h3 id="monogram">monogram<a class="hash" href="#monogram" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/ˈmɑːnəɡræm/ &middot; <em>MAH-nuh-gram</em></dd><dt>Русский</dt><dd>монограмма (вышитые инициалы)</dd><dt>Plural</dt><dd><em>monograms</em></dd><dt>Countability</dt><dd>countable</dd></dl>
+<p>A person's initials combined into one design and stitched onto cloth.</p>
+<ol><li>His shirts have a small <em>monogram</em> on the pocket.</li><li>The towels came with our <em>monogram</em>.</li><li>She embroiders <em>monograms</em> on baby blankets.</li></ol>
+<hr>
+<h3 id="needlework">needlework<a class="hash" href="#needlework" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/ˈniːdəlwɜːrk/ &middot; <em>NEE-dul-wurk</em></dd><dt>Русский</dt><dd>рукоделие (шитьё, вышивка)</dd><dt>Countability</dt><dd>uncountable</dd><dt>Contrast</dt><dd>Uncountable — say a piece of <em>needlework</em>, never a needlework.</dd></dl>
+<p>Sewing and embroidery done by hand, especially as a craft.</p>
+<ol><li>Her <em>needlework</em> hangs in the front hall.</li><li><em>Needlework</em> was taught in every girls' school then.</li><li>He has no patience for <em>needlework</em>.</li></ol>
+<hr>
+<h3 id="quilting">quilting<a class="hash" href="#quilting" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/ˈkwɪltɪŋ/ &middot; <em>KWIL-ting</em></dd><dt>Русский</dt><dd>стёжка, квилтинг</dd><dt>Countability</dt><dd>uncountable</dd></dl>
+<p>The craft of stitching layers of cloth and filling together.</p>
+<ol><li>She took up <em>quilting</em> after she retired.</li><li>The <em>quilting</em> on this blanket is all done by hand.</li><li>There's a <em>quilting</em> class at the library.</li></ol>
+<hr>
+<h3 id="patchwork">patchwork<a class="hash" href="#patchwork" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/ˈpætʃwɜːrk/ &middot; <em>PATCH-wurk</em></dd><dt>Русский</dt><dd>лоскутное шитьё</dd><dt>Countability</dt><dd>uncountable</dd></dl>
+<p>Sewing that joins small pieces of different fabrics into one cloth.</p>
+<ol><li>The quilt is <em>patchwork</em> in reds and blues.</li><li>She makes bags out of <em>patchwork</em>.</li><li><em>Patchwork</em> uses up every last scrap.</li></ol>
+<hr>
+<h3 id="knitting">knitting<a class="hash" href="#knitting" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/ˈnɪtɪŋ/ &middot; <em>NIT-ing</em></dd><dt>Русский</dt><dd>вязание (спицами)</dd><dt>Countability</dt><dd>uncountable</dd><dt>Contrast</dt><dd>The k is silent: NIT-ing.</dd></dl>
+<p>The craft of making cloth by looping yarn with two long needles.</p>
+<ol><li>She brought her <em>knitting</em> on the train.</li><li><em>Knitting</em> keeps my hands busy.</li><li>He put the <em>knitting</em> down and answered the door.</li></ol>
+<hr>
+<h3 id="crochet">crochet<a class="hash" href="#crochet" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/kroʊˈʃeɪ/ &middot; <em>kroh-SHAY</em></dd><dt>Русский</dt><dd>вязание крючком</dd><dt>Countability</dt><dd>uncountable</dd><dt>Contrast</dt><dd>The final t is silent and ch is a sh sound: kroh-SHAY.</dd></dl>
+<p>The craft of making cloth by pulling loops of yarn through with a hook.</p>
+<ol><li>The blanket is <em>crochet</em>, not knitting.</li><li>She learned <em>crochet</em> from her aunt.</li><li>There's a <em>crochet</em> border around the edge.</li></ol>
+<hr>
+<h3 id="weaving">weaving<a class="hash" href="#weaving" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/ˈwiːvɪŋ/ &middot; <em>WEE-ving</em></dd><dt>Русский</dt><dd>ткачество</dd><dt>Countability</dt><dd>uncountable</dd></dl>
+<p>The making of cloth by crossing threads over and under each other.</p>
+<ol><li>She teaches <em>weaving</em> at the craft school.</li><li><em>Weaving</em> is slow work on a hand loom.</li><li>The museum has a room about <em>weaving</em>.</li></ol>
+<hr>
+<h3 id="sewing">sewing<a class="hash" href="#sewing" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/ˈsoʊɪŋ/ &middot; <em>SOH-ing</em></dd><dt>Русский</dt><dd>шитьё</dd><dt>Countability</dt><dd>uncountable</dd><dt>Contrast</dt><dd><em>Sew</em> rhymes with <em>so</em>, not with <em>sue</em> — so it is SOH-ing, not SOO-ing.</dd></dl>
+<p>The work of joining or mending cloth with a needle and thread.</p>
+<ol><li>There's a pile of <em>sewing</em> on the table.</li><li>I do all my <em>sewing</em> on Sunday afternoons.</li><li>She keeps her <em>sewing</em> things in a wicker basket.</li></ol>
+<hr>
+<h3 id="stitching">stitching<a class="hash" href="#stitching" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/ˈstɪtʃɪŋ/ &middot; <em>STICH-ing</em></dd><dt>Русский</dt><dd>строчка, стежки</dd><dt>Countability</dt><dd>uncountable</dd></dl>
+<p>A row or set of stitches, seen as the sewing on a finished item.</p>
+<ol><li>The <em>stitching</em> on the pocket came loose.</li><li>You can see the <em>stitching</em> from the outside.</li><li>Contrast <em>stitching</em> is what makes jeans look like jeans.</li></ol>
+<hr>
+<h3 id="basting">basting<a class="hash" href="#basting" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/ˈbeɪstɪŋ/ &middot; <em>BAY-sting</em></dd><dt>Русский</dt><dd>намётка (временные стежки)</dd><dt>Countability</dt><dd>uncountable</dd></dl>
+<p>Long loose stitches that hold cloth in place until it is sewn properly.</p>
+<ol><li>Pull the <em>basting</em> out once the seam is done.</li><li>A little <em>basting</em> saves a lot of ripping later.</li><li>The <em>basting</em> is in white thread so it shows.</li></ol>
+<hr>
+<h3 id="purl">purl<a class="hash" href="#purl" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/pɜːrl/ &middot; <em>PURL</em></dd><dt>Русский</dt><dd>изнаночная петля</dd><dt>Plural</dt><dd><em>purls</em></dd><dt>Countability</dt><dd>countable</dd><dt>Contrast</dt><dd>A homophone of <em>pearl</em>, the jewel.</dd></dl>
+<p>A knitting stitch made by pulling the yarn toward you, the opposite of a knit stitch.</p>
+<ol><li>Knit one, <em>purl</em> two, all the way across.</li><li>The ribbing is knits and <em>purls</em>.</li><li>She can't tell a <em>purl</em> from a knit stitch yet.</li></ol>
+<hr>
+<h3 id="mending">mending<a class="hash" href="#mending" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/ˈmendɪŋ/ &middot; <em>MEN-ding</em></dd><dt>Русский</dt><dd>починка, штопка (одежды)</dd><dt>Countability</dt><dd>uncountable</dd></dl>
+<p>Clothes that need repair, or the work of repairing them.</p>
+<ol><li>There's a basket of <em>mending</em> by the chair.</li><li>She did the <em>mending</em> while the radio played.</li><li>Nobody in this house does any <em>mending</em> anymore.</li></ol>
+<hr>
+<h3 id="swatch">swatch<a class="hash" href="#swatch" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/swɑːtʃ/ &middot; <em>SWAHCH</em></dd><dt>Русский</dt><dd>образец ткани</dd><dt>Plural</dt><dd><em>swatches</em></dd><dt>Countability</dt><dd>countable</dd></dl>
+<p>A small sample piece of fabric shown to display color and texture.</p>
+<ol><li>The store sent us three <em>swatches</em>.</li><li>Hold the <em>swatch</em> up next to the sofa.</li><li>Wash a <em>swatch</em> first to see if it shrinks.</li></ol>
+<hr>
+<h3 id="remnant">remnant<a class="hash" href="#remnant" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/ˈremnənt/ &middot; <em>REM-nunt</em></dd><dt>Русский</dt><dd>отрез, остаток ткани</dd><dt>Plural</dt><dd><em>remnants</em></dd><dt>Countability</dt><dd>countable</dd></dl>
+<p>The last short piece left on a bolt of cloth, usually sold cheap.</p>
+<ol><li>She found a silk <em>remnant</em> for four dollars.</li><li>The <em>remnants</em> are in a bin by the register.</li><li>There's just enough in this <em>remnant</em> for a pillow.</li></ol>
+<hr>
+<h3 id="bale">bale<a class="hash" href="#bale" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/beɪl/ &middot; <em>BAYL</em></dd><dt>Русский</dt><dd>кипа, тюк (хлопка, шерсти)</dd><dt>Plural</dt><dd><em>bales</em></dd><dt>Countability</dt><dd>countable</dd></dl>
+<p>A large tightly packed bundle of cotton, wool, or hay bound for shipping.</p>
+<ol><li>The wagon carried six <em>bales</em> of cotton.</li><li>A <em>bale</em> of raw wool weighs a couple hundred pounds.</li><li><em>Bales</em> were stacked to the ceiling of the warehouse.</li></ol>
+<hr>
+<h3 id="tailor">tailor<a class="hash" href="#tailor" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/ˈteɪlər/ &middot; <em>TAY-lur</em></dd><dt>Русский</dt><dd>портной</dd><dt>Plural</dt><dd><em>tailors</em></dd><dt>Countability</dt><dd>countable</dd></dl>
+<p>Someone who makes or alters clothes, especially suits and coats.</p>
+<ol><li>Take the jacket to a <em>tailor</em>.</li><li>Her <em>tailor</em> has been on that corner for thirty years.</li><li>Good <em>tailors</em> are getting hard to find.</li></ol>
+<hr>
+<h3 id="seamstress">seamstress<a class="hash" href="#seamstress" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/ˈsiːmstrəs/ &middot; <em>SEEM-strus</em></dd><dt>Русский</dt><dd>швея</dd><dt>Plural</dt><dd><em>seamstresses</em></dd><dt>Countability</dt><dd>countable</dd></dl>
+<p>A woman whose job is sewing.</p>
+<ol><li>His mother worked as a <em>seamstress</em>.</li><li>The <em>seamstress</em> pinned the hem in about a minute.</li><li>The factory employed forty <em>seamstresses</em>.</li></ol>
+<hr>
+<h3 id="dressmaker">dressmaker<a class="hash" href="#dressmaker" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/ˈdresmeɪkər/ &middot; <em>DRES-may-kur</em></dd><dt>Русский</dt><dd>портниха (женской одежды)</dd><dt>Plural</dt><dd><em>dressmakers</em></dd><dt>Countability</dt><dd>countable</dd></dl>
+<p>Someone who makes women's clothes to order.</p>
+<ol><li>Her wedding dress was made by a local <em>dressmaker</em>.</li><li>The <em>dressmaker</em> wanted one more fitting.</li><li>There used to be <em>dressmakers</em> on every block.</li></ol>
+<hr>
+<h3 id="milliner">milliner<a class="hash" href="#milliner" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/ˈmɪlənər/ &middot; <em>MIL-uh-nur</em></dd><dt>Русский</dt><dd>шляпник, модистка</dd><dt>Plural</dt><dd><em>milliners</em></dd><dt>Countability</dt><dd>countable</dd></dl>
+<p>Someone who makes or sells women's hats.</p>
+<ol><li>The hats came from a <em>milliner</em> in Boston.</li><li>She trained as a <em>milliner</em> before the war.</li><li>Only a handful of <em>milliners</em> are left in the city.</li></ol>
+<hr>
+<h3 id="cobbler">cobbler<a class="hash" href="#cobbler" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/ˈkɑːblər/ &middot; <em>KAHB-lur</em></dd><dt>Русский</dt><dd>сапожник</dd><dt>Plural</dt><dd><em>cobblers</em></dd><dt>Countability</dt><dd>countable</dd><dt>Contrast</dt><dd>In American English a <em>cobbler</em> is also a baked fruit dessert — peach <em>cobbler</em>.</dd></dl>
+<p>Someone who repairs shoes.</p>
+<ol><li>The <em>cobbler</em> put new heels on my boots.</li><li>There's a <em>cobbler</em> next to the dry cleaner.</li><li><em>Cobblers</em> can fix almost anything but a broken sole.</li></ol>
+<hr>
+<h3 id="weaver">weaver<a class="hash" href="#weaver" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/ˈwiːvər/ &middot; <em>WEE-vur</em></dd><dt>Русский</dt><dd>ткач, ткачиха</dd><dt>Plural</dt><dd><em>weavers</em></dd><dt>Countability</dt><dd>countable</dd></dl>
+<p>Someone who makes cloth on a loom.</p>
+<ol><li>The rugs are made by <em>weavers</em> in the mountains.</li><li>He's a <em>weaver</em> by trade.</li><li>The <em>weaver</em> showed us how the loom works.</li></ol>
+<hr>
+<h3 id="furrier">furrier<a class="hash" href="#furrier" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/ˈfɜːriər/ &middot; <em>FUR-ee-ur</em></dd><dt>Русский</dt><dd>скорняк, меховщик</dd><dt>Plural</dt><dd><em>furriers</em></dd><dt>Countability</dt><dd>countable</dd></dl>
+<p>Someone who prepares furs or makes and sells fur clothing.</p>
+<ol><li>She left the coat with a <em>furrier</em> for the summer.</li><li>The <em>furrier</em> on Seventh Avenue closed last year.</li><li><em>Furriers</em> used to store coats in cold vaults.</li></ol>
+<hr>
+<h3 id="upholsterer">upholsterer<a class="hash" href="#upholsterer" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/ʌpˈhoʊlstərər/ &middot; <em>up-HOHL-stur-ur</em></dd><dt>Русский</dt><dd>обойщик мебели</dd><dt>Plural</dt><dd><em>upholsterers</em></dd><dt>Countability</dt><dd>countable</dd></dl>
+<p>Someone who covers furniture in fabric and padding.</p>
+<ol><li>The <em>upholsterer</em> redid the whole couch.</li><li>Ask an <em>upholsterer</em> how much fabric you'll need.</li><li>Good <em>upholsterers</em> charge by the yard.</li></ol>
+<hr>
+<h3 id="haberdashery">haberdashery<a class="hash" href="#haberdashery" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/ˈhæbərdæʃəri/ &middot; <em>HAB-ur-dash-ur-ee</em></dd><dt>Русский</dt><dd>магазин мужской одежды (амер.); галантерея (брит.)</dd><dt>Plural</dt><dd><em>haberdasheries</em></dd><dt>Countability</dt><dd>countable</dd><dt>Contrast</dt><dd>In the US a <em>haberdashery</em> sells menswear; in Britain it sells sewing supplies.</dd></dl>
+<p>A shop selling men's clothing and accessories.</p>
+<ol><li>He bought the hat at an old <em>haberdashery</em> downtown.</li><li>The <em>haberdashery</em> had ties in every color.</li><li>Most of the city's <em>haberdasheries</em> are long gone.</li></ol>
+<hr>
+<h3 id="tannery">tannery<a class="hash" href="#tannery" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/ˈtænəri/ &middot; <em>TAN-ur-ee</em></dd><dt>Русский</dt><dd>кожевенный завод</dd><dt>Plural</dt><dd><em>tanneries</em></dd><dt>Countability</dt><dd>countable</dd></dl>
+<p>A place where animal hides are turned into leather.</p>
+<ol><li>The <em>tannery</em> was downwind of the town, for good reason.</li><li>He hauled hides to the <em>tannery</em> twice a week.</li><li>Most of the <em>tanneries</em> moved overseas.</li></ol>
+<hr>
+<h3 id="tanning">tanning<a class="hash" href="#tanning" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/ˈtænɪŋ/ &middot; <em>TAN-ing</em></dd><dt>Русский</dt><dd>дубление (кожи)</dd><dt>Countability</dt><dd>uncountable</dd></dl>
+<p>The process of treating animal hides to turn them into leather.</p>
+<ol><li><em>Tanning</em> used to be done with tree bark.</li><li>The <em>tanning</em> gives the hide its color and smell.</li><li>Vegetable <em>tanning</em> takes months.</li></ol>
+<hr>
+<h3 id="shearing">shearing<a class="hash" href="#shearing" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/ˈʃɪrɪŋ/ &middot; <em>SHEER-ing</em></dd><dt>Русский</dt><dd>стрижка овец</dd><dt>Countability</dt><dd>uncountable</dd></dl>
+<p>The cutting of wool off sheep.</p>
+<ol><li><em>Shearing</em> starts in late spring.</li><li>He hired three men for the <em>shearing</em>.</li><li>After the <em>shearing</em> the sheep look half their size.</li></ol>
+<hr>
+<h3 id="spinning">spinning<a class="hash" href="#spinning" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/ˈspɪnɪŋ/ &middot; <em>SPIN-ing</em></dd><dt>Русский</dt><dd>прядение</dd><dt>Countability</dt><dd>uncountable</dd></dl>
+<p>The twisting of loose fiber into thread or yarn.</p>
+<ol><li><em>Spinning</em> was done at home before the mills came.</li><li>She does her own <em>spinning</em> and dyeing.</li><li>The <em>spinning</em> room was the loudest part of the factory.</li></ol>
+<hr>
+<h3 id="dyeing">dyeing<a class="hash" href="#dyeing" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/ˈdaɪɪŋ/ &middot; <em>DY-ing</em></dd><dt>Русский</dt><dd>крашение, окраска (ткани)</dd><dt>Countability</dt><dd>uncountable</dd><dt>Contrast</dt><dd>Keep the e: <em>dyeing</em> is coloring cloth, while <em>dying</em> means coming to an end of life.</dd></dl>
+<p>The coloring of cloth or yarn by soaking it in dye.</p>
+<ol><li>The <em>dyeing</em> is done before the cloth is cut.</li><li>Natural <em>dyeing</em> gives softer colors.</li><li>She teaches a workshop on indigo <em>dyeing</em>.</li></ol>
+<hr>
+<h3 id="mannequin">mannequin<a class="hash" href="#mannequin" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/ˈmænəkən/ &middot; <em>MAN-uh-kin</em></dd><dt>Русский</dt><dd>манекен</dd><dt>Plural</dt><dd><em>mannequins</em></dd><dt>Countability</dt><dd>countable</dd><dt>Contrast</dt><dd>Three syllables, MAN-uh-kin — the qu is just a k sound.</dd></dl>
+<p>A life-size model of a body used to display clothes or fit a garment.</p>
+<ol><li>The coat looked better on the <em>mannequin</em>.</li><li>They redress the <em>mannequins</em> every Monday.</li><li>She pinned the muslin to a dress <em>mannequin</em>.</li></ol>
+<hr>
+<h3 id="alteration">alteration<a class="hash" href="#alteration" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/ˌɔːltəˈreɪʃən/ &middot; <em>awl-tuh-RAY-shun</em></dd><dt>Русский</dt><dd>подгонка, переделка одежды</dd><dt>Plural</dt><dd><em>alterations</em></dd><dt>Countability</dt><dd>countable</dd></dl>
+<p>A change made to a garment so that it fits better.</p>
+<ol><li>The suit needs one small <em>alteration</em>.</li><li><em>Alterations</em> are free if you buy the dress here.</li><li>The shop does <em>alterations</em> in two days.</li></ol>
+<hr>
+<h3 id="fitting">fitting<a class="hash" href="#fitting" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/ˈfɪtɪŋ/ &middot; <em>FIT-ing</em></dd><dt>Русский</dt><dd>примерка</dd><dt>Plural</dt><dd><em>fittings</em></dd><dt>Countability</dt><dd>countable</dd></dl>
+<p>An appointment at which clothes are tried on and adjusted.</p>
+<ol><li>She has a <em>fitting</em> on Thursday.</li><li>It took three <em>fittings</em> to get the jacket right.</li><li>Bring the shoes you'll wear to the <em>fitting</em>.</li></ol>
+<hr>
+<h3 id="hosiery">hosiery<a class="hash" href="#hosiery" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/ˈhoʊʒəri/ &middot; <em>HOH-zhur-ee</em></dd><dt>Русский</dt><dd>чулочно-носочные изделия</dd><dt>Countability</dt><dd>uncountable</dd><dt>Contrast</dt><dd>Uncountable — say a package of <em>hosiery</em>, never a hosiery.</dd></dl>
+<p>Socks, stockings, and tights considered as goods for sale.</p>
+<ol><li><em>Hosiery</em> is on the second floor.</li><li>The store's <em>hosiery</em> department is tiny now.</li><li>She worked in <em>hosiery</em> for twenty years.</li></ol>
+<hr>
+<h3 id="knitwear">knitwear<a class="hash" href="#knitwear" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/ˈnɪtwer/ &middot; <em>NIT-wair</em></dd><dt>Русский</dt><dd>трикотаж (вязаная одежда)</dd><dt>Countability</dt><dd>uncountable</dd><dt>Contrast</dt><dd>Uncountable — a piece of <em>knitwear</em>, never a knitwear.</dd></dl>
+<p>Clothing made of knitted fabric, especially sweaters.</p>
+<ol><li>The label is known for its <em>knitwear</em>.</li><li><em>Knitwear</em> should be folded, not hung.</li><li>She designs <em>knitwear</em> for a company in Maine.</li></ol>
+<hr>
+<h3 id="sportswear">sportswear<a class="hash" href="#sportswear" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/ˈspɔːrtswer/ &middot; <em>SPORTS-wair</em></dd><dt>Русский</dt><dd>спортивная одежда; повседневная одежда</dd><dt>Countability</dt><dd>uncountable</dd><dt>Contrast</dt><dd>Uncountable — an item of <em>sportswear</em>, never a sportswear.</dd></dl>
+<p>Clothing made for sports or for casual everyday wear.</p>
+<ol><li><em>Sportswear</em> is at the back of the store.</li><li>The company started out in men's <em>sportswear</em>.</li><li>Half her closet is <em>sportswear</em>.</li></ol>
+<hr>
+<h3 id="swimwear">swimwear<a class="hash" href="#swimwear" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/ˈswɪmwer/ &middot; <em>SWIM-wair</em></dd><dt>Русский</dt><dd>купальная одежда</dd><dt>Countability</dt><dd>uncountable</dd><dt>Contrast</dt><dd>Uncountable — a piece of <em>swimwear</em>, never a swimwear.</dd></dl>
+<p>Clothing made to be worn for swimming.</p>
+<ol><li><em>Swimwear</em> goes on sale in August.</li><li>The store carries <em>swimwear</em> year-round.</li><li>Most <em>swimwear</em> has some spandex in it.</li></ol>
+<hr>
+<h3 id="menswear">menswear<a class="hash" href="#menswear" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/ˈmenzwer/ &middot; <em>MENZ-wair</em></dd><dt>Русский</dt><dd>мужская одежда</dd><dt>Countability</dt><dd>uncountable</dd><dt>Contrast</dt><dd>Uncountable — say an item of <em>menswear</em>, never a menswear.</dd></dl>
+<p>Clothing made for men, taken as a category of goods.</p>
+<ol><li><em>Menswear</em> is on the third floor.</li><li>He's been designing <em>menswear</em> since college.</li><li>The show was all <em>menswear</em> this season.</li></ol>
+<hr>
+<h3 id="lingerie">lingerie<a class="hash" href="#lingerie" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/ˌlɑːnʒəˈreɪ/ &middot; <em>lahn-zhuh-RAY</em></dd><dt>Русский</dt><dd>женское нижнее бельё</dd><dt>Countability</dt><dd>uncountable</dd><dt>Contrast</dt><dd>The American pronunciation is lahn-zhuh-RAY, with the stress at the end.</dd></dl>
+<p>Women's underwear and nightclothes, especially the delicate kind.</p>
+<ol><li><em>Lingerie</em> is on the same floor as hosiery.</li><li>The shop sells silk <em>lingerie</em>.</li><li>She got <em>lingerie</em> as a shower gift.</li></ol>
+<hr>
+<h3 id="fashion">fashion<a class="hash" href="#fashion" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/ˈfæʃən/ &middot; <em>FASH-un</em></dd><dt>Русский</dt><dd>мода; модное направление</dd><dt>Plural</dt><dd><em>fashions</em></dd><dt>Countability</dt><dd>both — countable and uncountable with different meanings</dd><dt>Contrast</dt><dd>The general sense is uncountable — in <em>fashion</em>; a specific trend is countable — the <em>fashions</em> of the fifties.</dd></dl>
+<p>The popular style of clothing at a given time, or a particular such style.</p>
+<ol><li>She's worked in <em>fashion</em> her whole life.</li><li>Short jackets are back in <em>fashion</em>.</li><li><em>Fashions</em> change faster than they used to.</li></ol>
+<hr>
+<h3 id="style">style<a class="hash" href="#style" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/staɪl/ &middot; <em>STYL</em></dd><dt>Русский</dt><dd>фасон, модель; стиль</dd><dt>Plural</dt><dd><em>styles</em></dd><dt>Countability</dt><dd>countable</dd></dl>
+<p>A particular design or cut of a garment.</p>
+<ol><li>That <em>style</em> of collar suits him.</li><li>The jeans come in four <em>styles</em>.</li><li>It's an old <em>style</em>, but it's coming back.</li></ol>
+<hr>
+<h3 id="trend">trend<a class="hash" href="#trend" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/trend/ &middot; <em>TREND</em></dd><dt>Русский</dt><dd>тенденция, тренд</dd><dt>Plural</dt><dd><em>trends</em></dd><dt>Countability</dt><dd>countable</dd></dl>
+<p>A direction that fashion is moving in.</p>
+<ol><li>Wide legs are the big <em>trend</em> this year.</li><li>She follows every <em>trend</em>.</li><li>Most <em>trends</em> last about two seasons.</li></ol>
+<hr>
+<h3 id="catwalk">catwalk<a class="hash" href="#catwalk" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/ˈkætwɔːk/ &middot; <em>KAT-wawk</em></dd><dt>Русский</dt><dd>подиум (для показа мод)</dd><dt>Plural</dt><dd><em>catwalks</em></dd><dt>Countability</dt><dd>countable</dd></dl>
+<p>A narrow raised walkway, especially the one used in fashion shows.</p>
+<ol><li>The models came down the <em>catwalk</em> one by one.</li><li>European magazines call it a <em>catwalk</em>.</li><li>There are <em>catwalks</em> above the stage for the lighting crew.</li></ol>
+<hr>
+<h3 id="collection">collection<a class="hash" href="#collection" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/kəˈlekʃən/ &middot; <em>kuh-LEK-shun</em></dd><dt>Русский</dt><dd>коллекция (одежды)</dd><dt>Plural</dt><dd><em>collections</em></dd><dt>Countability</dt><dd>countable</dd></dl>
+<p>The set of clothes a designer shows for one season.</p>
+<ol><li>Her fall <em>collection</em> was all gray and black.</li><li>The house shows two <em>collections</em> a year.</li><li>Nothing in the <em>collection</em> costs under a thousand dollars.</li></ol>
+<hr>
+<h3 id="drape">drape<a class="hash" href="#drape" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/dreɪp/ &middot; <em>DRAYP</em></dd><dt>Русский</dt><dd>драпировка, посадка ткани; мн. ч. портьеры</dd><dt>Plural</dt><dd><em>drapes</em></dd><dt>Countability</dt><dd>both — countable and uncountable with different meanings</dd><dt>Contrast</dt><dd>The hang of fabric is uncountable — good <em>drape</em>. In American homes <em>drapes</em> are what the British call curtains.</dd></dl>
+<p>The way cloth hangs and falls, or in the plural, heavy curtains.</p>
+<ol><li>Silk has a beautiful <em>drape</em>.</li><li>Close the <em>drapes</em> before you turn the light on.</li><li>The heavy <em>drapes</em> keep the room dark.</li></ol>
+<hr>
+<h3 id="cut">cut<a class="hash" href="#cut" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/kʌt/ &middot; <em>KUT</em></dd><dt>Русский</dt><dd>крой, покрой</dd><dt>Plural</dt><dd><em>cuts</em></dd><dt>Countability</dt><dd>countable</dd></dl>
+<p>The way a garment has been shaped and made.</p>
+<ol><li>You can tell the quality by the <em>cut</em>.</li><li>It's a slim <em>cut</em> through the waist.</li><li>The two jackets are different <em>cuts</em> of the same cloth.</li></ol>
+<hr>
+<h3 id="fit">fit<a class="hash" href="#fit" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/fɪt/ &middot; <em>FIT</em></dd><dt>Русский</dt><dd>посадка (по фигуре)</dd><dt>Plural</dt><dd><em>fits</em></dd><dt>Countability</dt><dd>countable</dd></dl>
+<p>How well a garment sits on the body.</p>
+<ol><li>The color is fine, but the <em>fit</em> is all wrong.</li><li>These come in a relaxed <em>fit</em> too.</li><li>The store carries three different <em>fits</em>.</li></ol>
+<hr>
+<h3 id="pinstripe">pinstripe<a class="hash" href="#pinstripe" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/ˈpɪnstraɪp/ &middot; <em>PIN-stryp</em></dd><dt>Русский</dt><dd>тонкая полоска (узор на ткани)</dd><dt>Plural</dt><dd><em>pinstripes</em></dd><dt>Countability</dt><dd>countable</dd></dl>
+<p>A very narrow stripe in a pattern of many, typical of business suits.</p>
+<ol><li>He wore a gray suit with faint <em>pinstripes</em>.</li><li>The <em>pinstripe</em> is chalk white.</li><li><em>Pinstripes</em> make a jacket look more formal.</li></ol>
+<hr>
+<h3 id="tailoring">tailoring<a class="hash" href="#tailoring" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/ˈteɪlərɪŋ/ &middot; <em>TAY-lur-ing</em></dd><dt>Русский</dt><dd>портновское дело, пошив</dd><dt>Countability</dt><dd>uncountable</dd></dl>
+<p>The craft of cutting and sewing fitted clothes, or the quality of that work.</p>
+<ol><li>The <em>tailoring</em> on that coat is superb.</li><li>He learned <em>tailoring</em> from his father.</li><li>You pay for the fabric, but really you pay for the <em>tailoring</em>.</li></ol>
+<hr>
+<h3 id="sweatshop">sweatshop<a class="hash" href="#sweatshop" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/ˈswetʃɑːp/ &middot; <em>SWET-shahp</em></dd><dt>Русский</dt><dd>потогонная мастерская</dd><dt>Plural</dt><dd><em>sweatshops</em></dd><dt>Countability</dt><dd>countable</dd></dl>
+<p>A factory where people sew clothes for low pay in bad conditions.</p>
+<ol><li>The shirts were made in a <em>sweatshop</em>.</li><li><em>Sweatshops</em> filled the lower floors of those buildings.</li><li>The article traced the jacket back to a <em>sweatshop</em> overseas.</li></ol>
+<hr>
+<h3 id="lint">lint<a class="hash" href="#lint" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/lɪnt/ &middot; <em>LINT</em></dd><dt>Русский</dt><dd>ворсинки, катышки, пух</dd><dt>Countability</dt><dd>uncountable</dd><dt>Contrast</dt><dd>Uncountable — some <em>lint</em>, never a lint or lints.</dd></dl>
+<p>Tiny loose fibers that collect on clothes or in a dryer.</p>
+<ol><li>Clean the <em>lint</em> out of the dryer filter.</li><li>There's <em>lint</em> all over your black pants.</li><li>A roller takes the <em>lint</em> right off.</li></ol>
+<hr>
+<h3 id="fuzz">fuzz<a class="hash" href="#fuzz" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/fʌz/ &middot; <em>FUZ</em></dd><dt>Русский</dt><dd>пушок, ворсинки</dd><dt>Countability</dt><dd>uncountable</dd><dt>Contrast</dt><dd>Uncountable — say some <em>fuzz</em>, never a fuzz.</dd></dl>
+<p>Short soft loose fibers on the surface of cloth.</p>
+<ol><li>The sweater is covered in <em>fuzz</em>.</li><li>Shave the <em>fuzz</em> off with a fabric razor.</li><li>New towels leave <em>fuzz</em> on everything.</li></ol>
+<hr>
+<h3 id="snag">snag<a class="hash" href="#snag" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/snæɡ/ &middot; <em>SNAG</em></dd><dt>Русский</dt><dd>затяжка (на ткани)</dd><dt>Plural</dt><dd><em>snags</em></dd><dt>Countability</dt><dd>countable</dd></dl>
+<p>A pulled thread that sticks out of a knitted or woven fabric.</p>
+<ol><li>There's a <em>snag</em> in my stocking.</li><li>Her ring left a <em>snag</em> in the sweater.</li><li>A few <em>snags</em> and the whole thing looks old.</li></ol>
+<hr>
+<h3 id="shrinkage">shrinkage<a class="hash" href="#shrinkage" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/ˈʃrɪŋkɪdʒ/ &middot; <em>SHRINK-ij</em></dd><dt>Русский</dt><dd>усадка (ткани)</dd><dt>Countability</dt><dd>uncountable</dd><dt>Contrast</dt><dd>Uncountable — some <em>shrinkage</em>, never a shrinkage.</dd></dl>
+<p>The amount a fabric gets smaller when it is washed.</p>
+<ol><li>Allow for <em>shrinkage</em> when you cut the fabric.</li><li>There's about five percent <em>shrinkage</em> in cotton.</li><li>Prewashing takes care of most of the <em>shrinkage</em>.</li></ol>
+<hr>
+<h3 id="starch">starch<a class="hash" href="#starch" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/stɑːrtʃ/ &middot; <em>STARCH</em></dd><dt>Русский</dt><dd>крахмал (для белья)</dd><dt>Countability</dt><dd>uncountable</dd></dl>
+<p>A substance sprayed or soaked into cloth to make it stiff.</p>
+<ol><li>He likes his collars with plenty of <em>starch</em>.</li><li>Spray a little <em>starch</em> before you press it.</li><li>The shirt was so full of <em>starch</em> it could stand up by itself.</li></ol>
+<hr>
+<h3 id="clothesline">clothesline<a class="hash" href="#clothesline" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/ˈkloʊzlaɪn/ &middot; <em>KLOHZ-lyn</em></dd><dt>Русский</dt><dd>бельевая верёвка</dd><dt>Plural</dt><dd><em>clotheslines</em></dd><dt>Countability</dt><dd>countable</dd><dt>Contrast</dt><dd><em>Clothes</em> is said KLOHZ, exactly like <em>close</em> the verb — the th disappears.</dd></dl>
+<p>A rope stretched outdoors for hanging washed clothes to dry.</p>
+<ol><li>The sheets were flapping on the <em>clothesline</em>.</li><li>He strung a <em>clothesline</em> between two trees.</li><li><em>Clotheslines</em> ran across every backyard on the street.</li></ol>
+<hr>
+<h3 id="clothespin">clothespin<a class="hash" href="#clothespin" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/ˈkloʊzpɪn/ &middot; <em>KLOHZ-pin</em></dd><dt>Русский</dt><dd>прищепка</dd><dt>Plural</dt><dd><em>clothespins</em></dd><dt>Countability</dt><dd>countable</dd><dt>Contrast</dt><dd>American <em>clothespin</em>; the British say clothes peg.</dd></dl>
+<p>A small clip for holding washing on a line.</p>
+<ol><li>She had a <em>clothespin</em> in her mouth and a shirt in each hand.</li><li>The <em>clothespins</em> are in the bag on the porch.</li><li>One <em>clothespin</em> snapped in the cold.</li></ol>
+<hr>
+<h3 id="ironing">ironing<a class="hash" href="#ironing" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/ˈaɪrrnɪŋ/ &middot; <em>EYE-ur-ning</em></dd><dt>Русский</dt><dd>глажка, глаженье</dd><dt>Countability</dt><dd>uncountable</dd><dt>Contrast</dt><dd><em>Iron</em> is said EYE-urn, not eye-RON, so this is EYE-ur-ning.</dd></dl>
+<p>The work of pressing wrinkles out of clothes with a hot iron.</p>
+<ol><li>I have a whole basket of <em>ironing</em> to do.</li><li>He does the <em>ironing</em> on Sunday nights.</li><li><em>Ironing</em> is the one chore she refuses.</li></ol></div></main>
+<button class="themebtn" id="themeBtn">Dark</button>
+<script>
+const tb=document.getElementById('themeBtn');
+function setTheme(x){document.documentElement.dataset.theme=x;tb.textContent=x==='dark'?'Light':'Dark';
+ try{localStorage.setItem('site-theme',x)}catch(e){}}
+tb.onclick=()=>setTheme(document.documentElement.dataset.theme==='dark'?'light':'dark');
+try{const s=localStorage.getItem('site-theme');
+ setTheme(s||(matchMedia('(prefers-color-scheme: dark)').matches?'dark':'light'))}catch(e){setTheme('light')}
+</script></body></html>

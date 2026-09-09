@@ -1,0 +1,871 @@
+<!DOCTYPE html>
+<html lang="en"><head>
+<meta charset="utf-8"><meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Core vocabulary: transport and vehicles</title>
+<style>
+:root{--bg:#faf9f7;--surface:#fff;--surface2:#f2f0ec;--border:#e2ded6;--text:#1a1815;
+--dim:#5f594f;--faint:#8a8377;--accent:#8a5a3b;--measure:72ch}
+@media(prefers-color-scheme:dark){:root{--bg:#14140f;--surface:#1d1d17;--surface2:#25251d;
+--border:#33332a;--text:#eeeae1;--dim:#a8a293;--faint:#7d776b;--accent:#d09b72}}
+:root[data-theme=dark]{--bg:#14140f;--surface:#1d1d17;--surface2:#25251d;--border:#33332a;
+--text:#eeeae1;--dim:#a8a293;--faint:#7d776b;--accent:#d09b72}
+:root[data-theme=light]{--bg:#faf9f7;--surface:#fff;--surface2:#f2f0ec;--border:#e2ded6;
+--text:#1a1815;--dim:#5f594f;--faint:#8a8377;--accent:#8a5a3b}
+*{box-sizing:border-box}
+body{margin:0;background:var(--bg);color:var(--text);
+font:17px/1.72 ui-serif,Georgia,"Iowan Old Style",Palatino,serif;-webkit-font-smoothing:antialiased}
+.wrap{max-width:min(var(--measure),100%);margin:0 auto;padding:0 22px}
+nav.crumb{border-bottom:1px solid var(--border);padding:13px 0;font-size:13.5px;
+font-family:-apple-system,BlinkMacSystemFont,"Segoe UI",sans-serif;position:sticky;top:0;background:var(--bg);z-index:20}
+nav.crumb .wrap{max-width:none;display:flex;gap:9px;align-items:center;flex-wrap:wrap}
+nav.crumb a{color:var(--dim);text-decoration:none}
+nav.crumb a:hover{color:var(--accent)}
+nav.crumb .sep{color:var(--faint)}
+main{padding:8px 0 80px}
+h1{font-size:clamp(28px,5vw,38px);line-height:1.15;letter-spacing:-.015em;margin:34px 0 18px}
+h2{font-size:25px;margin:46px 0 14px;letter-spacing:-.01em;padding-bottom:7px;border-bottom:1px solid var(--border)}
+h3{font-size:19px;margin:34px 0 10px;color:var(--accent)}
+h4{font-size:16px;margin:24px 0 8px;font-family:-apple-system,sans-serif}
+p{margin:0 0 16px}
+a{color:var(--accent)}
+.hash{opacity:0;margin-left:8px;font-weight:400;font-size:.65em;text-decoration:none;color:var(--faint)}
+h2:hover .hash,h3:hover .hash{opacity:1}
+blockquote{margin:0 0 20px;padding:14px 18px;background:var(--surface2);
+border-left:3px solid var(--accent);border-radius:0 8px 8px 0}
+blockquote p:last-child{margin-bottom:0}
+ol,ul{margin:0 0 18px;padding-left:26px}
+li{margin-bottom:8px}
+li>ul,li>ol{margin:8px 0 0}
+code{font-family:ui-monospace,SFMono-Regular,Menlo,Consolas,monospace;font-size:.87em;
+background:var(--surface2);padding:1px 5px;border-radius:4px}
+pre{background:var(--surface2);border:1px solid var(--border);border-radius:9px;
+padding:15px 17px;overflow-x:auto;margin:0 0 20px}
+pre code{background:none;padding:0;font-size:13px;line-height:1.6}
+.tw{overflow-x:auto;margin:0 0 22px;border:1px solid var(--border);border-radius:9px}
+table{border-collapse:collapse;width:100%;font-size:15px;
+font-family:-apple-system,BlinkMacSystemFont,"Segoe UI",sans-serif}
+th,td{padding:10px 14px;border-bottom:1px solid var(--border);vertical-align:top}
+th{background:var(--surface2);font-size:12px;text-transform:uppercase;
+letter-spacing:.06em;color:var(--dim);font-weight:700;white-space:nowrap}
+tbody tr:last-child td{border-bottom:none}
+hr{border:none;border-top:1px solid var(--border);margin:38px 0}
+details{background:var(--surface2);border:1px solid var(--border);border-radius:9px;
+padding:13px 17px;margin:0 0 20px}
+summary{cursor:pointer;font-weight:600;font-family:-apple-system,sans-serif;font-size:15px}
+details[open] summary{margin-bottom:12px}
+del{color:var(--faint)}
+dl.fields{margin:0 0 20px;padding:0}
+dl.fields dt{font-family:-apple-system,BlinkMacSystemFont,"Segoe UI",sans-serif;
+font-size:11px;letter-spacing:.11em;text-transform:uppercase;color:var(--faint);
+font-weight:700;margin:14px 0 4px}
+dl.fields dt:first-child{margin-top:0}
+dl.fields dd{margin:0;font-size:16px;color:var(--dim);line-height:1.62}
+dl.fields dd em{color:var(--text)}
+dl.fields dt.ru{color:var(--accent)}
+dl.fields dd strong{color:var(--text)}
+.toc{background:var(--surface2);border:1px solid var(--border);border-radius:10px;
+padding:16px 20px;margin:26px 0 34px;font-family:-apple-system,sans-serif;font-size:14px}
+.toc b{display:block;font-size:11px;letter-spacing:.12em;text-transform:uppercase;
+color:var(--faint);margin-bottom:9px}
+.toc a{display:block;padding:3px 0;color:var(--dim);text-decoration:none}
+.toc a:hover{color:var(--accent)}
+.themebtn{position:fixed;right:18px;bottom:18px;z-index:60;font-family:-apple-system,sans-serif;
+font-size:12.5px;font-weight:600;cursor:pointer;background:var(--surface);border:1px solid var(--border);
+border-radius:99px;padding:9px 16px;color:var(--text)}
+@media(max-width:600px){body{font-size:16px}.wrap{padding:0 17px}}
+</style></head><body>
+<nav class="crumb"><div class="wrap"><a href="../../../index.html">Learn English</a><span class="sep">/</span><a href="../../README.html">Parts of speech</a><span class="sep">/</span><a href="../README.html">01-nouns</a><span class="sep">/</span><span>catalog</span></div></nav>
+<main><div class="wrap"><h1 id="core-vocabulary-transport-and-vehicles">Core vocabulary: transport and vehicles<a class="hash" href="#core-vocabulary-transport-and-vehicles" aria-label="link">#</a></h1>
+<blockquote><p>The everyday nouns of transport and vehicles — pronunciation, Russian, plural, and three examples each.</p></blockquote>
+<p><a href="../README.html">← The grammar of nouns</a> &middot; <a href="README.html">All groups</a></p>
+<p>Part of the <strong>core-vocabulary tier</strong>. Groups 1–23 cover the nouns that misbehave; this tier covers the nouns you simply need to know. Entries are deliberately lean, because a regular countable noun has no grammatical story to tell. A <strong>Contrast</strong> line appears only where the word hides a genuine trap.</p>
+<p>Where a word in this field <em>does</em> misbehave, it lives in the grammar tier instead and is not repeated here.</p>
+<hr>
+<h3 id="vehicle">vehicle<a class="hash" href="#vehicle" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/ˈviːəkəl/ &middot; <em>VEE-uh-kuhl</em></dd><dt>Русский</dt><dd>транспортное средство</dd><dt>Plural</dt><dd><em>vehicles</em></dd><dt>Countability</dt><dd>countable</dd><dt>Contrast</dt><dd>The h is silent in American speech: VEE-uh-kuhl, not vee-HIK-ul.</dd></dl>
+<p>A machine that carries people or goods from place to place.</p>
+<ol><li>No <em>vehicles</em> are allowed on the beach after dark.</li><li>The police stopped a <em>vehicle</em> with no license plate.</li><li>Electric <em>vehicles</em> are getting cheaper every year.</li></ol>
+<hr>
+<h3 id="car">car<a class="hash" href="#car" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/kɑːr/ &middot; <em>KAHR</em></dd><dt>Русский</dt><dd>автомобиль, машина</dd><dt>Plural</dt><dd><em>cars</em></dd><dt>Countability</dt><dd>countable</dd></dl>
+<p>A road vehicle with four wheels that carries a small number of people.</p>
+<ol><li>We bought a used <em>car</em> last spring.</li><li>There were three <em>cars</em> in the driveway.</li><li>I left my phone in the <em>car</em>.</li></ol>
+<hr>
+<h3 id="truck">truck<a class="hash" href="#truck" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/trʌk/ &middot; <em>TRUK</em></dd><dt>Русский</dt><dd>грузовик</dd><dt>Plural</dt><dd><em>trucks</em></dd><dt>Countability</dt><dd>countable</dd><dt>Contrast</dt><dd>Americans say truck where the British say lorry.</dd></dl>
+<p>A large road vehicle built for carrying heavy loads.</p>
+<ol><li>A delivery <em>truck</em> blocked the whole street.</li><li>He drives a <em>truck</em> cross-country.</li><li>Two <em>trucks</em> pulled into the loading dock.</li></ol>
+<hr>
+<h3 id="van">van<a class="hash" href="#van" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/væn/ &middot; <em>VAN</em></dd><dt>Русский</dt><dd>фургон, микроавтобус</dd><dt>Plural</dt><dd><em>vans</em></dd><dt>Countability</dt><dd>countable</dd></dl>
+<p>A boxy road vehicle used for carrying goods or a group of people.</p>
+<ol><li>The band loaded their gear into a white <em>van</em>.</li><li>Delivery <em>vans</em> park along this block all day.</li><li>We rented a <em>van</em> for the move.</li></ol>
+<hr>
+<h3 id="motorcycle">motorcycle<a class="hash" href="#motorcycle" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/ˈmoʊtərsaɪkəl/ &middot; <em>MOH-tur-sy-kuhl</em></dd><dt>Русский</dt><dd>мотоцикл</dd><dt>Plural</dt><dd><em>motorcycles</em></dd><dt>Countability</dt><dd>countable</dd></dl>
+<p>A two-wheeled vehicle with an engine.</p>
+<ol><li>He rides a <em>motorcycle</em> to campus.</li><li>A row of <em>motorcycles</em> was parked outside the diner.</li><li>She sold her <em>motorcycle</em> after the accident.</li></ol>
+<hr>
+<h3 id="bicycle">bicycle<a class="hash" href="#bicycle" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/ˈbaɪsɪkəl/ &middot; <em>BY-sih-kuhl</em></dd><dt>Русский</dt><dd>велосипед</dd><dt>Plural</dt><dd><em>bicycles</em></dd><dt>Countability</dt><dd>countable</dd></dl>
+<p>A two-wheeled vehicle you move by pushing pedals.</p>
+<ol><li>My daughter got a <em>bicycle</em> for her birthday.</li><li><em>Bicycles</em> have to stay off the sidewalk here.</li><li>He fixed the chain on his <em>bicycle</em>.</li></ol>
+<hr>
+<h3 id="bike">bike<a class="hash" href="#bike" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/baɪk/ &middot; <em>BYK</em></dd><dt>Русский</dt><dd>велосипед (разг.)</dd><dt>Plural</dt><dd><em>bikes</em></dd><dt>Countability</dt><dd>countable</dd></dl>
+<p>A bicycle, in everyday speech.</p>
+<ol><li>I rode my <em>bike</em> to the store.</li><li>There's a rack for <em>bikes</em> behind the library.</li><li>Somebody stole his <em>bike</em> from the porch.</li></ol>
+<hr>
+<h3 id="scooter">scooter<a class="hash" href="#scooter" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/ˈskuːtər/ &middot; <em>SKOO-tur</em></dd><dt>Русский</dt><dd>самокат; мотороллер</dd><dt>Plural</dt><dd><em>scooters</em></dd><dt>Countability</dt><dd>countable</dd></dl>
+<p>A small vehicle you stand or sit on, moved by a foot or a small engine.</p>
+<ol><li>The kid pushed his <em>scooter</em> up the hill.</li><li>Rental <em>scooters</em> are parked all over downtown.</li><li>She rides a <em>scooter</em> to class.</li></ol>
+<hr>
+<h3 id="moped">moped<a class="hash" href="#moped" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/ˈmoʊped/ &middot; <em>MOH-ped</em></dd><dt>Русский</dt><dd>мопед</dd><dt>Plural</dt><dd><em>mopeds</em></dd><dt>Countability</dt><dd>countable</dd><dt>Contrast</dt><dd>Two syllables, MOH-ped; not the past tense of mope, which is /moʊpt/.</dd></dl>
+<p>A light motorbike with pedals and a very small engine.</p>
+<ol><li>He got around the island on a rented <em>moped</em>.</li><li><em>Mopeds</em> don't need a motorcycle license here.</li><li>Her <em>moped</em> barely goes thirty miles an hour.</li></ol>
+<hr>
+<h3 id="tricycle">tricycle<a class="hash" href="#tricycle" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/ˈtraɪsɪkəl/ &middot; <em>TRY-sih-kuhl</em></dd><dt>Русский</dt><dd>трёхколёсный велосипед</dd><dt>Plural</dt><dd><em>tricycles</em></dd><dt>Countability</dt><dd>countable</dd></dl>
+<p>A three-wheeled cycle, usually for a small child.</p>
+<ol><li>He pedaled his <em>tricycle</em> down the driveway.</li><li>Two <em>tricycles</em> were left out in the rain.</li><li>She's too big for a <em>tricycle</em> now.</li></ol>
+<hr>
+<h3 id="skateboard">skateboard<a class="hash" href="#skateboard" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/ˈskeɪtbɔːrd/ &middot; <em>SKAYT-bord</em></dd><dt>Русский</dt><dd>скейтборд</dd><dt>Plural</dt><dd><em>skateboards</em></dd><dt>Countability</dt><dd>countable</dd></dl>
+<p>A short board on four small wheels that you ride standing up.</p>
+<ol><li>He carried his <em>skateboard</em> under one arm.</li><li><em>Skateboards</em> aren't allowed inside the mall.</li><li>She landed the trick and hopped off the <em>skateboard</em>.</li></ol>
+<hr>
+<h3 id="tractor">tractor<a class="hash" href="#tractor" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/ˈtræktər/ &middot; <em>TRAK-tur</em></dd><dt>Русский</dt><dd>трактор</dd><dt>Plural</dt><dd><em>tractors</em></dd><dt>Countability</dt><dd>countable</dd></dl>
+<p>A heavy vehicle with big rear wheels used for farm work.</p>
+<ol><li>A <em>tractor</em> was plowing the field at sunrise.</li><li>Two old <em>tractors</em> rusted behind the barn.</li><li>He climbed down off the <em>tractor</em>.</li></ol>
+<hr>
+<h3 id="minivan">minivan<a class="hash" href="#minivan" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/ˈmɪnivæn/ &middot; <em>MIN-ee-van</em></dd><dt>Русский</dt><dd>минивэн</dd><dt>Plural</dt><dd><em>minivans</em></dd><dt>Countability</dt><dd>countable</dd></dl>
+<p>A tall family car with sliding doors and three rows of seats.</p>
+<ol><li>They traded the sedan for a <em>minivan</em> after the twins were born.</li><li>Three <em>minivans</em> pulled up for the field trip.</li><li>The <em>minivan</em> holds seven people.</li></ol>
+<hr>
+<h3 id="pickup">pickup<a class="hash" href="#pickup" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/ˈpɪkʌp/ &middot; <em>PIK-up</em></dd><dt>Русский</dt><dd>пикап</dd><dt>Plural</dt><dd><em>pickups</em></dd><dt>Countability</dt><dd>countable</dd></dl>
+<p>A light truck with an open cargo bed behind the cab.</p>
+<ol><li>He threw the ladder in the back of his <em>pickup</em>.</li><li><em>Pickups</em> outsell every other vehicle in this state.</li><li>Her <em>pickup</em> has over two hundred thousand miles on it.</li></ol>
+<hr>
+<h3 id="sedan">sedan<a class="hash" href="#sedan" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/sɪˈdæn/ &middot; <em>sih-DAN</em></dd><dt>Русский</dt><dd>седан</dd><dt>Plural</dt><dd><em>sedans</em></dd><dt>Countability</dt><dd>countable</dd><dt>Contrast</dt><dd>Americans say sedan where the British say saloon.</dd></dl>
+<p>A car with four doors and a separate trunk.</p>
+<ol><li>A gray <em>sedan</em> was idling at the curb.</li><li>Midsize <em>sedans</em> used to be the family standard.</li><li>He drives a four-door <em>sedan</em>.</li></ol>
+<hr>
+<h3 id="convertible">convertible<a class="hash" href="#convertible" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/kənˈvɜːrtəbəl/ &middot; <em>kuhn-VUR-tuh-buhl</em></dd><dt>Русский</dt><dd>кабриолет</dd><dt>Plural</dt><dd><em>convertibles</em></dd><dt>Countability</dt><dd>countable</dd></dl>
+<p>A car whose roof folds down.</p>
+<ol><li>We rented a <em>convertible</em> for the drive up the coast.</li><li><em>Convertibles</em> aren't very practical in Michigan.</li><li>He put the top up on the <em>convertible</em> when it started raining.</li></ol>
+<hr>
+<h3 id="limousine">limousine<a class="hash" href="#limousine" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/ˈlɪməziːn/ &middot; <em>LIM-uh-zeen</em></dd><dt>Русский</dt><dd>лимузин</dd><dt>Plural</dt><dd><em>limousines</em></dd><dt>Countability</dt><dd>countable</dd></dl>
+<p>A long luxury car driven by a hired driver.</p>
+<ol><li>A black <em>limousine</em> waited outside the church.</li><li>Two <em>limousines</em> took the wedding party to the reception.</li><li>They rode to the airport in a <em>limousine</em>.</li></ol>
+<hr>
+<h3 id="hatchback">hatchback<a class="hash" href="#hatchback" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/ˈhætʃbæk/ &middot; <em>HACH-bak</em></dd><dt>Русский</dt><dd>хэтчбек</dd><dt>Plural</dt><dd><em>hatchbacks</em></dd><dt>Countability</dt><dd>countable</dd></dl>
+<p>A small car whose rear door lifts up along with the window.</p>
+<ol><li>A little red <em>hatchback</em> squeezed into the space.</li><li><em>Hatchbacks</em> hold more than you'd think.</li><li>She loaded the groceries into the <em>hatchback</em>.</li></ol>
+<hr>
+<h3 id="wagon">wagon<a class="hash" href="#wagon" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/ˈwæɡən/ &middot; <em>WAG-uhn</em></dd><dt>Русский</dt><dd>повозка, телега</dd><dt>Plural</dt><dd><em>wagons</em></dd><dt>Countability</dt><dd>countable</dd></dl>
+<p>A four-wheeled cart pulled by animals or by hand.</p>
+<ol><li>The horses pulled a heavy <em>wagon</em> full of hay.</li><li>Covered <em>wagons</em> carried settlers west.</li><li>He hauled his toys around in a little red <em>wagon</em>.</li></ol>
+<hr>
+<h3 id="cart">cart<a class="hash" href="#cart" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/kɑːrt/ &middot; <em>KAHRT</em></dd><dt>Русский</dt><dd>тележка</dd><dt>Plural</dt><dd><em>carts</em></dd><dt>Countability</dt><dd>countable</dd><dt>Contrast</dt><dd>A store cart in the US is a trolley in Britain.</dd></dl>
+<p>A small wheeled container you push or pull.</p>
+<ol><li>My shopping <em>cart</em> had a bad wheel.</li><li><em>Carts</em> are stacked by the store entrance.</li><li>He wheeled the <em>cart</em> out to the parking lot.</li></ol>
+<hr>
+<h3 id="stroller">stroller<a class="hash" href="#stroller" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/ˈstroʊlər/ &middot; <em>STROH-lur</em></dd><dt>Русский</dt><dd>детская коляска</dd><dt>Plural</dt><dd><em>strollers</em></dd><dt>Countability</dt><dd>countable</dd><dt>Contrast</dt><dd>American stroller; the British say pushchair or pram.</dd></dl>
+<p>A wheeled seat for pushing a small child around.</p>
+<ol><li>She folded the <em>stroller</em> and put it in the trunk.</li><li><em>Strollers</em> have to be checked at the gate.</li><li>The baby fell asleep in the <em>stroller</em>.</li></ol>
+<hr>
+<h3 id="sled">sled<a class="hash" href="#sled" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/sled/ &middot; <em>SLED</em></dd><dt>Русский</dt><dd>санки</dd><dt>Plural</dt><dd><em>sleds</em></dd><dt>Countability</dt><dd>countable</dd><dt>Contrast</dt><dd>Americans say sled; the British usually say sledge.</dd></dl>
+<p>A flat board or frame on runners for sliding over snow.</p>
+<ol><li>The kids dragged a <em>sled</em> up the hill.</li><li>Plastic <em>sleds</em> were sold out everywhere.</li><li>He steered the <em>sled</em> around a tree.</li></ol>
+<hr>
+<h3 id="sleigh">sleigh<a class="hash" href="#sleigh" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/sleɪ/ &middot; <em>SLAY</em></dd><dt>Русский</dt><dd>сани (конные)</dd><dt>Plural</dt><dd><em>sleighs</em></dd><dt>Countability</dt><dd>countable</dd><dt>Contrast</dt><dd>Sounds exactly like slay.</dd></dl>
+<p>A large sled pulled by horses or reindeer.</p>
+<ol><li>They took a <em>sleigh</em> ride through the snowy woods.</li><li>Two horse-drawn <em>sleighs</em> waited by the lodge.</li><li>The <em>sleigh</em> had bells on the harness.</li></ol>
+<hr>
+<h3 id="carriage">carriage<a class="hash" href="#carriage" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/ˈkerɪdʒ/ &middot; <em>KEH-rij</em></dd><dt>Русский</dt><dd>карета, экипаж</dd><dt>Plural</dt><dd><em>carriages</em></dd><dt>Countability</dt><dd>countable</dd><dt>Contrast</dt><dd>In Britain a carriage is also a railroad car; Americans say car for that.</dd></dl>
+<p>A wheeled passenger vehicle pulled by horses.</p>
+<ol><li>A horse-drawn <em>carriage</em> circled the park.</li><li><em>Carriages</em> line up near the hotel on summer evenings.</li><li>They rode home in an open <em>carriage</em>.</li></ol>
+<hr>
+<h3 id="camper">camper<a class="hash" href="#camper" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/ˈkæmpər/ &middot; <em>KAM-pur</em></dd><dt>Русский</dt><dd>дом на колёсах, кемпер</dd><dt>Plural</dt><dd><em>campers</em></dd><dt>Countability</dt><dd>countable</dd></dl>
+<p>A vehicle or trailer fitted out to sleep and cook in.</p>
+<ol><li>They spent the summer living out of a <em>camper</em>.</li><li><em>Campers</em> have to park in the lower lot.</li><li>He backed the <em>camper</em> into the campsite.</li></ol>
+<hr>
+<h3 id="bulldozer">bulldozer<a class="hash" href="#bulldozer" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/ˈbʊldoʊzər/ &middot; <em>BUUL-doh-zur</em></dd><dt>Русский</dt><dd>бульдозер</dd><dt>Plural</dt><dd><em>bulldozers</em></dd><dt>Countability</dt><dd>countable</dd></dl>
+<p>A tracked machine with a wide blade for pushing earth.</p>
+<ol><li>A <em>bulldozer</em> leveled the lot in an afternoon.</li><li>Two <em>bulldozers</em> sat idle behind the fence.</li><li>The <em>bulldozer</em> pushed the rubble into a pile.</li></ol>
+<hr>
+<h3 id="forklift">forklift<a class="hash" href="#forklift" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/ˈfɔːrklɪft/ &middot; <em>FORK-lift</em></dd><dt>Русский</dt><dd>погрузчик, автопогрузчик</dd><dt>Plural</dt><dd><em>forklifts</em></dd><dt>Countability</dt><dd>countable</dd></dl>
+<p>A small warehouse vehicle with two prongs that lift heavy pallets.</p>
+<ol><li>A <em>forklift</em> moved the pallets into the truck.</li><li>You need training to drive one of these <em>forklifts</em>.</li><li>The <em>forklift</em> beeped as it backed up.</li></ol>
+<hr>
+<h3 id="snowplow">snowplow<a class="hash" href="#snowplow" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/ˈsnoʊplaʊ/ &middot; <em>SNOH-plow</em></dd><dt>Русский</dt><dd>снегоуборочная машина</dd><dt>Plural</dt><dd><em>snowplows</em></dd><dt>Countability</dt><dd>countable</dd><dt>Contrast</dt><dd>American spelling snowplow; the British write snowplough.</dd></dl>
+<p>A truck with a blade in front that clears snow off roads.</p>
+<ol><li>A <em>snowplow</em> came through around four in the morning.</li><li>The city sent out every <em>snowplow</em> it had.</li><li><em>Snowplows</em> piled the snow at the end of the driveway.</li></ol>
+<hr>
+<h3 id="snowmobile">snowmobile<a class="hash" href="#snowmobile" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/ˈsnoʊmoʊbiːl/ &middot; <em>SNOH-moh-beel</em></dd><dt>Русский</dt><dd>снегоход</dd><dt>Plural</dt><dd><em>snowmobiles</em></dd><dt>Countability</dt><dd>countable</dd></dl>
+<p>A motor vehicle on skis and a track, for driving over snow.</p>
+<ol><li>They crossed the frozen lake on a <em>snowmobile</em>.</li><li><em>Snowmobiles</em> are loud but they're fast.</li><li>He rents out <em>snowmobiles</em> every winter.</li></ol>
+<hr>
+<h3 id="tow-truck">tow truck<a class="hash" href="#tow-truck" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/ˈtoʊ trʌk/ &middot; <em>TOH-truk</em></dd><dt>Русский</dt><dd>эвакуатор</dd><dt>Plural</dt><dd><em>tow trucks</em></dd><dt>Countability</dt><dd>countable</dd><dt>Contrast</dt><dd>Tow rhymes with go and sounds like toe, never like cow.</dd></dl>
+<p>A truck that pulls away broken or illegally parked cars.</p>
+<ol><li>We waited an hour for the <em>tow truck</em>.</li><li>A <em>tow truck</em> hauled the wreck off the shoulder.</li><li>Two <em>tow trucks</em> showed up at the same time.</li></ol>
+<hr>
+<h3 id="fire-truck">fire truck<a class="hash" href="#fire-truck" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/ˈfaɪrr trʌk/ &middot; <em>FYR-truk</em></dd><dt>Русский</dt><dd>пожарная машина</dd><dt>Plural</dt><dd><em>fire trucks</em></dd><dt>Countability</dt><dd>countable</dd></dl>
+<p>A red truck that carries firefighters, ladders and hoses.</p>
+<ol><li>A <em>fire truck</em> went by with its siren on.</li><li>Three <em>fire trucks</em> blocked the intersection.</li><li>The kids waved at the <em>fire truck</em>.</li></ol>
+<hr>
+<h3 id="dump-truck">dump truck<a class="hash" href="#dump-truck" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/ˈdʌmp trʌk/ &middot; <em>DUMP-truk</em></dd><dt>Русский</dt><dd>самосвал</dd><dt>Plural</dt><dd><em>dump trucks</em></dd><dt>Countability</dt><dd>countable</dd></dl>
+<p>A truck whose bed tips up to pour out its load.</p>
+<ol><li>A <em>dump truck</em> dropped a load of gravel in the driveway.</li><li><em>Dump trucks</em> rumbled past the site all day.</li><li>The <em>dump truck</em> raised its bed and unloaded.</li></ol>
+<hr>
+<h3 id="hearse">hearse<a class="hash" href="#hearse" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/hɜːrs/ &middot; <em>HURS</em></dd><dt>Русский</dt><dd>катафалк</dd><dt>Plural</dt><dd><em>hearses</em></dd><dt>Countability</dt><dd>countable</dd></dl>
+<p>A long car that carries a coffin to a funeral.</p>
+<ol><li>The <em>hearse</em> pulled slowly out of the church lot.</li><li>Two black <em>hearses</em> led the procession.</li><li>He restored an old <em>hearse</em> and drives it to car shows.</li></ol>
+<hr>
+<h3 id="trolley">trolley<a class="hash" href="#trolley" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/ˈtrɑːli/ &middot; <em>TRAH-lee</em></dd><dt>Русский</dt><dd>трамвай (амер.)</dd><dt>Plural</dt><dd><em>trolleys</em></dd><dt>Countability</dt><dd>countable</dd><dt>Contrast</dt><dd>In Britain a trolley is a shopping cart, not a streetcar.</dd></dl>
+<p>A streetcar drawing power from an overhead wire.</p>
+<ol><li>A <em>trolley</em> runs from the harbor to the zoo.</li><li>The <em>trolleys</em> stop running at eleven.</li><li>We hopped on the <em>trolley</em> at Fifth Street.</li></ol>
+<hr>
+<h3 id="locomotive">locomotive<a class="hash" href="#locomotive" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/ˌloʊkəˈmoʊtɪv/ &middot; <em>loh-kuh-MOH-tiv</em></dd><dt>Русский</dt><dd>локомотив, тепловоз</dd><dt>Plural</dt><dd><em>locomotives</em></dd><dt>Countability</dt><dd>countable</dd></dl>
+<p>The powered railroad engine that pulls a train.</p>
+<ol><li>A diesel <em>locomotive</em> pulled forty cars.</li><li>Steam <em>locomotives</em> are kept running at the railroad museum.</li><li>The <em>locomotive</em> let out a long whistle.</li></ol>
+<hr>
+<h3 id="boxcar">boxcar<a class="hash" href="#boxcar" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/ˈbɑːkskɑːr/ &middot; <em>BAHKS-kahr</em></dd><dt>Русский</dt><dd>крытый товарный вагон</dd><dt>Plural</dt><dd><em>boxcars</em></dd><dt>Countability</dt><dd>countable</dd></dl>
+<p>An enclosed freight car with sliding side doors.</p>
+<ol><li>The kids counted <em>boxcars</em> as the train went by.</li><li>A <em>boxcar</em> sat abandoned on a siding.</li><li>They loaded grain into the <em>boxcar</em>.</li></ol>
+<hr>
+<h3 id="jet">jet<a class="hash" href="#jet" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/dʒet/ &middot; <em>JET</em></dd><dt>Русский</dt><dd>реактивный самолёт</dd><dt>Plural</dt><dd><em>jets</em></dd><dt>Countability</dt><dd>countable</dd></dl>
+<p>An airplane driven by jet engines.</p>
+<ol><li>A private <em>jet</em> was parked at the far end of the field.</li><li>Fighter <em>jets</em> flew over the stadium.</li><li>The <em>jet</em> climbed steeply after takeoff.</li></ol>
+<hr>
+<h3 id="glider">glider<a class="hash" href="#glider" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/ˈɡlaɪdər/ &middot; <em>GLY-dur</em></dd><dt>Русский</dt><dd>планёр</dd><dt>Plural</dt><dd><em>gliders</em></dd><dt>Countability</dt><dd>countable</dd></dl>
+<p>A light aircraft that flies without an engine.</p>
+<ol><li>A <em>glider</em> circled silently over the ridge.</li><li><em>Gliders</em> are towed into the air by a small plane.</li><li>He learned to fly in a <em>glider</em> first.</li></ol>
+<hr>
+<h3 id="blimp">blimp<a class="hash" href="#blimp" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/blɪmp/ &middot; <em>BLIMP</em></dd><dt>Русский</dt><dd>дирижабль (мягкий)</dd><dt>Plural</dt><dd><em>blimps</em></dd><dt>Countability</dt><dd>countable</dd></dl>
+<p>A small airship with no rigid frame inside.</p>
+<ol><li>A <em>blimp</em> floated over the stadium during the game.</li><li><em>Blimps</em> are used mostly for advertising now.</li><li>The <em>blimp</em> carried a camera crew.</li></ol>
+<hr>
+<h3 id="seaplane">seaplane<a class="hash" href="#seaplane" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/ˈsiːpleɪn/ &middot; <em>SEE-playn</em></dd><dt>Русский</dt><dd>гидросамолёт</dd><dt>Plural</dt><dd><em>seaplanes</em></dd><dt>Countability</dt><dd>countable</dd></dl>
+<p>An airplane built to take off from and land on water.</p>
+<ol><li>A <em>seaplane</em> dropped us at the fishing lodge.</li><li><em>Seaplanes</em> are the only way into some of these lakes.</li><li>The <em>seaplane</em> taxied up to the dock.</li></ol>
+<hr>
+<h3 id="hangar">hangar<a class="hash" href="#hangar" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/ˈhæŋər/ &middot; <em>HANG-ur</em></dd><dt>Русский</dt><dd>ангар</dd><dt>Plural</dt><dd><em>hangars</em></dd><dt>Countability</dt><dd>countable</dd><dt>Contrast</dt><dd>Sounds exactly like hanger, the thing you hang a coat on, but ends in -ar.</dd></dl>
+<p>A large building where aircraft are kept and repaired.</p>
+<ol><li>The plane was towed into the <em>hangar</em>.</li><li>Two mechanics were working in the <em>hangar</em>.</li><li>Old <em>hangars</em> line the far side of the field.</li></ol>
+<hr>
+<h3 id="fuselage">fuselage<a class="hash" href="#fuselage" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/ˈfjuːsəlɑːʒ/ &middot; <em>FYOO-suh-lahzh</em></dd><dt>Русский</dt><dd>фюзеляж</dd><dt>Plural</dt><dd><em>fuselages</em></dd><dt>Countability</dt><dd>countable</dd></dl>
+<p>The main body of an aircraft, where passengers and cargo ride.</p>
+<ol><li>The <em>fuselage</em> was built in sections.</li><li>Investigators found a crack in the <em>fuselage</em>.</li><li>Both <em>fuselages</em> were shipped by rail to the plant.</li></ol>
+<hr>
+<h3 id="propeller">propeller<a class="hash" href="#propeller" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/prəˈpelər/ &middot; <em>pruh-PEL-ur</em></dd><dt>Русский</dt><dd>винт, пропеллер</dd><dt>Plural</dt><dd><em>propellers</em></dd><dt>Countability</dt><dd>countable</dd></dl>
+<p>A set of spinning blades that pushes an aircraft or boat forward.</p>
+<ol><li>The <em>propeller</em> started turning slowly.</li><li>The plane has two <em>propellers</em>, one on each wing.</li><li>A rope got caught in the boat's <em>propeller</em>.</li></ol>
+<hr>
+<h3 id="landing-gear">landing gear<a class="hash" href="#landing-gear" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/ˈlændɪŋ ɡɪr/ &middot; <em>LAN-ding-geer</em></dd><dt>Русский</dt><dd>шасси (самолёта)</dd><dt>Countability</dt><dd>uncountable</dd></dl>
+<p>The wheels and struts an aircraft lands and rolls on.</p>
+<ol><li>The <em>landing gear</em> came down with a thump.</li><li>They found a hydraulic leak in the <em>landing gear</em>.</li><li>The pilot raised the <em>landing gear</em> right after takeoff.</li></ol>
+<hr>
+<h3 id="aviation">aviation<a class="hash" href="#aviation" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/ˌeɪviˈeɪʃən/ &middot; <em>ay-vee-AY-shuhn</em></dd><dt>Русский</dt><dd>авиация</dd><dt>Countability</dt><dd>uncountable</dd></dl>
+<p>The business and practice of flying aircraft.</p>
+<ol><li>He's had a career in <em>aviation</em> since the seventies.</li><li><em>Aviation</em> fuel costs more than it used to.</li><li>She studies <em>aviation</em> at a school in Florida.</li></ol>
+<hr>
+<h3 id="canoe">canoe<a class="hash" href="#canoe" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/kəˈnuː/ &middot; <em>kuh-NOO</em></dd><dt>Русский</dt><dd>каноэ</dd><dt>Plural</dt><dd><em>canoes</em></dd><dt>Countability</dt><dd>countable</dd><dt>Contrast</dt><dd>The stress is on the second syllable: kuh-NOO.</dd></dl>
+<p>A narrow open boat pointed at both ends, moved with a paddle.</p>
+<ol><li>We rented a <em>canoe</em> for the afternoon.</li><li>Two <em>canoes</em> were tied up at the dock.</li><li>He tipped the <em>canoe</em> over getting in.</li></ol>
+<hr>
+<h3 id="kayak">kayak<a class="hash" href="#kayak" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/ˈkaɪæk/ &middot; <em>KY-ak</em></dd><dt>Русский</dt><dd>каяк, байдарка</dd><dt>Plural</dt><dd><em>kayaks</em></dd><dt>Countability</dt><dd>countable</dd></dl>
+<p>A narrow covered boat you sit inside and paddle with a double blade.</p>
+<ol><li>She keeps a <em>kayak</em> on the roof of her car.</li><li><em>Kayaks</em> are lighter than canoes.</li><li>He rolled the <em>kayak</em> upright again.</li></ol>
+<hr>
+<h3 id="sailboat">sailboat<a class="hash" href="#sailboat" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/ˈseɪlboʊt/ &middot; <em>SAYL-boht</em></dd><dt>Русский</dt><dd>парусная лодка, парусник</dd><dt>Plural</dt><dd><em>sailboats</em></dd><dt>Countability</dt><dd>countable</dd></dl>
+<p>A boat driven by the wind in its sails.</p>
+<ol><li>A small <em>sailboat</em> crossed in front of us.</li><li><em>Sailboats</em> dotted the bay all afternoon.</li><li>He built the <em>sailboat</em> himself.</li></ol>
+<hr>
+<h3 id="rowboat">rowboat<a class="hash" href="#rowboat" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/ˈroʊboʊt/ &middot; <em>ROH-boht</em></dd><dt>Русский</dt><dd>вёсельная лодка</dd><dt>Plural</dt><dd><em>rowboats</em></dd><dt>Countability</dt><dd>countable</dd></dl>
+<p>A small boat moved with oars.</p>
+<ol><li>There's an old wooden <em>rowboat</em> behind the cabin.</li><li><em>Rowboats</em> rent for ten dollars an hour.</li><li>We took the <em>rowboat</em> out to the island.</li></ol>
+<hr>
+<h3 id="tugboat">tugboat<a class="hash" href="#tugboat" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/ˈtʌɡboʊt/ &middot; <em>TUG-boht</em></dd><dt>Русский</dt><dd>буксир</dd><dt>Plural</dt><dd><em>tugboats</em></dd><dt>Countability</dt><dd>countable</dd></dl>
+<p>A small powerful boat that pushes and pulls larger ships.</p>
+<ol><li>A <em>tugboat</em> nudged the freighter into the slip.</li><li>Two <em>tugboats</em> worked the harbor that morning.</li><li>The <em>tugboat</em> blew its horn twice.</li></ol>
+<hr>
+<h3 id="motorboat">motorboat<a class="hash" href="#motorboat" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/ˈmoʊtərboʊt/ &middot; <em>MOH-tur-boht</em></dd><dt>Русский</dt><dd>моторная лодка</dd><dt>Plural</dt><dd><em>motorboats</em></dd><dt>Countability</dt><dd>countable</dd></dl>
+<p>A boat driven by an engine.</p>
+<ol><li>A <em>motorboat</em> roared past and rocked our canoe.</li><li><em>Motorboats</em> aren't allowed on this lake.</li><li>He tied the <em>motorboat</em> to the dock.</li></ol>
+<hr>
+<h3 id="barge">barge<a class="hash" href="#barge" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/bɑːrdʒ/ &middot; <em>BAHRJ</em></dd><dt>Русский</dt><dd>баржа</dd><dt>Plural</dt><dd><em>barges</em></dd><dt>Countability</dt><dd>countable</dd></dl>
+<p>A long flat boat for hauling freight on rivers and canals.</p>
+<ol><li>A coal <em>barge</em> moved slowly down the river.</li><li><em>Barges</em> line up above the lock.</li><li>The <em>barge</em> was pushed by a single towboat.</li></ol>
+<hr>
+<h3 id="tanker">tanker<a class="hash" href="#tanker" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/ˈtæŋkər/ &middot; <em>TANG-kur</em></dd><dt>Русский</dt><dd>танкер</dd><dt>Plural</dt><dd><em>tankers</em></dd><dt>Countability</dt><dd>countable</dd></dl>
+<p>A ship or truck built to carry liquid in bulk.</p>
+<ol><li>An oil <em>tanker</em> ran aground off the coast.</li><li><em>Tankers</em> deliver fuel to the station twice a week.</li><li>The <em>tanker</em> was empty on the return trip.</li></ol>
+<hr>
+<h3 id="freighter">freighter<a class="hash" href="#freighter" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/ˈfreɪtər/ &middot; <em>FRAY-tur</em></dd><dt>Русский</dt><dd>грузовое судно, сухогруз</dd><dt>Plural</dt><dd><em>freighters</em></dd><dt>Countability</dt><dd>countable</dd><dt>Contrast</dt><dd>The eigh sounds like ay: FRAY-tur.</dd></dl>
+<p>A ship that carries cargo rather than passengers.</p>
+<ol><li>A rusty <em>freighter</em> was tied up at the pier.</li><li><em>Freighters</em> come through the canal day and night.</li><li>The <em>freighter</em> carried grain to Egypt.</li></ol>
+<hr>
+<h3 id="dinghy">dinghy<a class="hash" href="#dinghy" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/ˈdɪŋi/ &middot; <em>DING-ee</em></dd><dt>Русский</dt><dd>шлюпка, ялик</dd><dt>Plural</dt><dd><em>dinghies</em></dd><dt>Countability</dt><dd>countable</dd><dt>Contrast</dt><dd>The h is silent: DING-ee.</dd></dl>
+<p>A very small boat, often carried by a larger one.</p>
+<ol><li>We rowed the <em>dinghy</em> ashore.</li><li>Two <em>dinghies</em> were lashed to the deck.</li><li>The <em>dinghy</em> had a tiny outboard motor.</li></ol>
+<hr>
+<h3 id="paddle">paddle<a class="hash" href="#paddle" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/ˈpædəl/ &middot; <em>PAD-uhl</em></dd><dt>Русский</dt><dd>весло (байдарочное)</dd><dt>Plural</dt><dd><em>paddles</em></dd><dt>Countability</dt><dd>countable</dd></dl>
+<p>A short pole with a flat blade, held in the hands to move a canoe.</p>
+<ol><li>He dropped his <em>paddle</em> in the water.</li><li>There are two <em>paddles</em> under the seat.</li><li>She dug the <em>paddle</em> in and turned the canoe.</li></ol>
+<hr>
+<h3 id="oar">oar<a class="hash" href="#oar" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/ɔːr/ &middot; <em>OR</em></dd><dt>Русский</dt><dd>весло (уключинное)</dd><dt>Plural</dt><dd><em>oars</em></dd><dt>Countability</dt><dd>countable</dd><dt>Contrast</dt><dd>Sounds exactly like or and ore.</dd></dl>
+<p>A long pole with a blade that rests in a fitting on a rowboat.</p>
+<ol><li>One <em>oar</em> slipped out of the lock.</li><li>He pulled hard on both <em>oars</em>.</li><li>The <em>oars</em> were stored under the dock.</li></ol>
+<hr>
+<h3 id="sail">sail<a class="hash" href="#sail" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/seɪl/ &middot; <em>SAYL</em></dd><dt>Русский</dt><dd>парус</dd><dt>Plural</dt><dd><em>sails</em></dd><dt>Countability</dt><dd>countable</dd><dt>Contrast</dt><dd>Sounds exactly like sale.</dd></dl>
+<p>A large sheet of cloth that catches the wind to move a boat.</p>
+<ol><li>The wind filled the <em>sail</em>.</li><li>They lowered the <em>sails</em> before the storm hit.</li><li>One <em>sail</em> was torn along the bottom edge.</li></ol>
+<hr>
+<h3 id="mast">mast<a class="hash" href="#mast" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/mæst/ &middot; <em>MAST</em></dd><dt>Русский</dt><dd>мачта</dd><dt>Plural</dt><dd><em>masts</em></dd><dt>Countability</dt><dd>countable</dd></dl>
+<p>The tall upright pole that holds a boat's sails.</p>
+<ol><li>He climbed halfway up the <em>mast</em>.</li><li>The boat has two <em>masts</em>.</li><li>Lightning split the <em>mast</em> in half.</li></ol>
+<hr>
+<h3 id="rudder">rudder<a class="hash" href="#rudder" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/ˈrʌdər/ &middot; <em>RUD-ur</em></dd><dt>Русский</dt><dd>руль (судна или самолёта)</dd><dt>Plural</dt><dd><em>rudders</em></dd><dt>Countability</dt><dd>countable</dd></dl>
+<p>A flat blade at the back of a boat or plane used for steering.</p>
+<ol><li>The <em>rudder</em> was jammed and we couldn't turn.</li><li>Large ships have two <em>rudders</em>.</li><li>He nudged the <em>rudder</em> and the bow swung left.</li></ol>
+<hr>
+<h3 id="hull">hull<a class="hash" href="#hull" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/hʌl/ &middot; <em>HUL</em></dd><dt>Русский</dt><dd>корпус (судна)</dd><dt>Plural</dt><dd><em>hulls</em></dd><dt>Countability</dt><dd>countable</dd></dl>
+<p>The main body of a boat or ship that sits in the water.</p>
+<ol><li>The <em>hull</em> was scraped and repainted.</li><li>Fiberglass <em>hulls</em> are lighter than wooden ones.</li><li>Water was coming in through a crack in the <em>hull</em>.</li></ol>
+<hr>
+<h3 id="lifeboat">lifeboat<a class="hash" href="#lifeboat" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/ˈlaɪfboʊt/ &middot; <em>LYF-boht</em></dd><dt>Русский</dt><dd>спасательная шлюпка</dd><dt>Plural</dt><dd><em>lifeboats</em></dd><dt>Countability</dt><dd>countable</dd></dl>
+<p>A small boat kept on a ship for use in an emergency.</p>
+<ol><li>Passengers were sent to the <em>lifeboats</em>.</li><li>Each <em>lifeboat</em> holds thirty people.</li><li>They lowered the <em>lifeboat</em> into the water.</li></ol>
+<hr>
+<h3 id="life-jacket">life jacket<a class="hash" href="#life-jacket" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/ˈlaɪf ˌdʒækɪt/ &middot; <em>LYF-jak-it</em></dd><dt>Русский</dt><dd>спасательный жилет</dd><dt>Plural</dt><dd><em>life jackets</em></dd><dt>Countability</dt><dd>countable</dd></dl>
+<p>A padded vest that keeps a person afloat in water.</p>
+<ol><li>Everyone in the boat has to wear a <em>life jacket</em>.</li><li>There are four <em>life jackets</em> in the front compartment.</li><li>Her <em>life jacket</em> was too big.</li></ol>
+<hr>
+<h3 id="wheel">wheel<a class="hash" href="#wheel" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/wiːl/ &middot; <em>WEEL</em></dd><dt>Русский</dt><dd>колесо</dd><dt>Plural</dt><dd><em>wheels</em></dd><dt>Countability</dt><dd>countable</dd></dl>
+<p>A round part that turns on an axle and lets a vehicle roll.</p>
+<ol><li>The front <em>wheel</em> was bent in the crash.</li><li>All four <em>wheels</em> need to be balanced.</li><li>A shopping cart <em>wheel</em> kept sticking.</li></ol>
+<hr>
+<h3 id="steering-wheel">steering wheel<a class="hash" href="#steering-wheel" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/ˈstɪrɪŋ wiːl/ &middot; <em>STEER-ing-weel</em></dd><dt>Русский</dt><dd>руль, рулевое колесо</dd><dt>Plural</dt><dd><em>steering wheels</em></dd><dt>Countability</dt><dd>countable</dd></dl>
+<p>The wheel a driver turns to point the car left or right.</p>
+<ol><li>Keep both hands on the <em>steering wheel</em>.</li><li>The <em>steering wheel</em> was hot from sitting in the sun.</li><li>Older <em>steering wheels</em> were much bigger than today's.</li></ol>
+<hr>
+<h3 id="tire">tire<a class="hash" href="#tire" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/ˈtaɪrr/ &middot; <em>TY-ur</em></dd><dt>Русский</dt><dd>шина, покрышка</dd><dt>Plural</dt><dd><em>tires</em></dd><dt>Countability</dt><dd>countable</dd><dt>Contrast</dt><dd>American spelling tire; the British write tyre.</dd></dl>
+<p>The rubber ring fitted around a wheel.</p>
+<ol><li>I got a flat <em>tire</em> on the way home.</li><li>All four <em>tires</em> are worn down.</li><li>Check the pressure in the spare <em>tire</em>.</li></ol>
+<hr>
+<h3 id="brake">brake<a class="hash" href="#brake" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/breɪk/ &middot; <em>BRAYK</em></dd><dt>Русский</dt><dd>тормоз</dd><dt>Plural</dt><dd><em>brakes</em></dd><dt>Countability</dt><dd>countable</dd><dt>Contrast</dt><dd>Sounds exactly like break.</dd></dl>
+<p>The part of a vehicle that slows it down or stops it.</p>
+<ol><li>He slammed on the <em>brakes</em>.</li><li>The rear <em>brake</em> is squealing again.</li><li>New <em>brakes</em> cost me four hundred dollars.</li></ol>
+<hr>
+<h3 id="dashboard">dashboard<a class="hash" href="#dashboard" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/ˈdæʃbɔːrd/ &middot; <em>DASH-bord</em></dd><dt>Русский</dt><dd>приборная панель</dd><dt>Plural</dt><dd><em>dashboards</em></dd><dt>Countability</dt><dd>countable</dd></dl>
+<p>The panel of dials and controls in front of a driver.</p>
+<ol><li>A warning light came on in the <em>dashboard</em>.</li><li>He keeps his sunglasses on the <em>dashboard</em>.</li><li>Newer <em>dashboards</em> are basically one big screen.</li></ol>
+<hr>
+<h3 id="wiper">wiper<a class="hash" href="#wiper" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/ˈwaɪpər/ &middot; <em>WY-pur</em></dd><dt>Русский</dt><dd>дворник (стеклоочиститель)</dd><dt>Plural</dt><dd><em>wipers</em></dd><dt>Countability</dt><dd>countable</dd></dl>
+<p>The arm with a rubber blade that clears rain off a windshield.</p>
+<ol><li>Turn on the <em>wipers</em>, it's starting to rain.</li><li>One <em>wiper</em> is leaving streaks.</li><li>The <em>wipers</em> couldn't keep up with the downpour.</li></ol>
+<hr>
+<h3 id="bumper">bumper<a class="hash" href="#bumper" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/ˈbʌmpər/ &middot; <em>BUM-pur</em></dd><dt>Русский</dt><dd>бампер</dd><dt>Plural</dt><dd><em>bumpers</em></dd><dt>Countability</dt><dd>countable</dd></dl>
+<p>The bar across the front or back of a car that takes small impacts.</p>
+<ol><li>Someone dented my rear <em>bumper</em> in the lot.</li><li>Both <em>bumpers</em> are plastic on this model.</li><li>He put a sticker on the <em>bumper</em>.</li></ol>
+<hr>
+<h3 id="fender">fender<a class="hash" href="#fender" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/ˈfendər/ &middot; <em>FEN-dur</em></dd><dt>Русский</dt><dd>крыло (автомобиля)</dd><dt>Plural</dt><dd><em>fenders</em></dd><dt>Countability</dt><dd>countable</dd><dt>Contrast</dt><dd>Americans say fender; the British say wing on a car and mudguard on a bike.</dd></dl>
+<p>The body panel curving over a wheel.</p>
+<ol><li>The front <em>fender</em> is rusting out.</li><li>He hammered the dent out of the <em>fender</em>.</li><li>Both <em>fenders</em> were repainted.</li></ol>
+<hr>
+<h3 id="headlight">headlight<a class="hash" href="#headlight" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/ˈhedlaɪt/ &middot; <em>HED-lyt</em></dd><dt>Русский</dt><dd>фара</dd><dt>Plural</dt><dd><em>headlights</em></dd><dt>Countability</dt><dd>countable</dd></dl>
+<p>A lamp at the front of a vehicle that lights the road ahead.</p>
+<ol><li>Turn your <em>headlights</em> on, it's getting dark.</li><li>One <em>headlight</em> is burned out.</li><li>The <em>headlights</em> of an oncoming car blinded me.</li></ol>
+<hr>
+<h3 id="taillight">taillight<a class="hash" href="#taillight" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/ˈteɪlˌlaɪt/ &middot; <em>TAYL-lyt</em></dd><dt>Русский</dt><dd>задний фонарь</dd><dt>Plural</dt><dd><em>taillights</em></dd><dt>Countability</dt><dd>countable</dd></dl>
+<p>A red lamp at the back of a vehicle.</p>
+<ol><li>A cracked <em>taillight</em> got him pulled over.</li><li>I could just see her <em>taillights</em> in the fog.</li><li>The left <em>taillight</em> doesn't work.</li></ol>
+<hr>
+<h3 id="turn-signal">turn signal<a class="hash" href="#turn-signal" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/ˈtɜːrn ˌsɪɡnəl/ &middot; <em>TURN-sig-nuhl</em></dd><dt>Русский</dt><dd>указатель поворота, поворотник</dd><dt>Plural</dt><dd><em>turn signals</em></dd><dt>Countability</dt><dd>countable</dd><dt>Contrast</dt><dd>Americans say turn signal; the British say indicator.</dd></dl>
+<p>The flashing light that shows which way a vehicle is about to turn.</p>
+<ol><li>He changed lanes without using his <em>turn signal</em>.</li><li>Both <em>turn signals</em> were blinking too fast.</li><li>Put your <em>turn signal</em> on before you slow down.</li></ol>
+<hr>
+<h3 id="blinker">blinker<a class="hash" href="#blinker" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/ˈblɪŋkər/ &middot; <em>BLING-kur</em></dd><dt>Русский</dt><dd>поворотник</dd><dt>Plural</dt><dd><em>blinkers</em></dd><dt>Countability</dt><dd>countable</dd></dl>
+<p>A turn signal, in casual American speech.</p>
+<ol><li>You left your <em>blinker</em> on for a mile.</li><li>His <em>blinkers</em> stopped working after the accident.</li><li>Hit the <em>blinker</em> before you turn.</li></ol>
+<hr>
+<h3 id="muffler">muffler<a class="hash" href="#muffler" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/ˈmʌflər/ &middot; <em>MUF-lur</em></dd><dt>Русский</dt><dd>глушитель</dd><dt>Plural</dt><dd><em>mufflers</em></dd><dt>Countability</dt><dd>countable</dd><dt>Contrast</dt><dd>Americans say muffler; the British say silencer.</dd></dl>
+<p>The part of the exhaust system that quiets the engine noise.</p>
+<ol><li>His <em>muffler</em> is shot and you can hear him coming.</li><li>The shop replaced the <em>muffler</em> for ninety dollars.</li><li>Rusted <em>mufflers</em> are common on cars this old.</li></ol>
+<hr>
+<h3 id="exhaust">exhaust<a class="hash" href="#exhaust" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/ɪɡˈzɔːst/ &middot; <em>ig-ZAWST</em></dd><dt>Русский</dt><dd>выхлопные газы, выхлоп</dd><dt>Countability</dt><dd>uncountable</dd><dt>Contrast</dt><dd>The h is silent and exh- sounds like igz-: ig-ZAWST.</dd></dl>
+<p>The burned gas an engine pushes out.</p>
+<ol><li>Black <em>exhaust</em> poured out of the old bus.</li><li>Never run the engine in a closed garage; the <em>exhaust</em> can kill you.</li><li>You could smell the <em>exhaust</em> from the highway.</li></ol>
+<hr>
+<h3 id="tailpipe">tailpipe<a class="hash" href="#tailpipe" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/ˈteɪlpaɪp/ &middot; <em>TAYL-pyp</em></dd><dt>Русский</dt><dd>выхлопная труба</dd><dt>Plural</dt><dd><em>tailpipes</em></dd><dt>Countability</dt><dd>countable</dd></dl>
+<p>The pipe at the back of a vehicle where exhaust comes out.</p>
+<ol><li>Steam was coming from the <em>tailpipe</em>.</li><li>The truck has two chrome <em>tailpipes</em>.</li><li>Something is rattling near the <em>tailpipe</em>.</li></ol>
+<hr>
+<h3 id="transmission">transmission<a class="hash" href="#transmission" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/trænzˈmɪʃən/ &middot; <em>tranz-MISH-uhn</em></dd><dt>Русский</dt><dd>коробка передач, трансмиссия</dd><dt>Plural</dt><dd><em>transmissions</em></dd><dt>Countability</dt><dd>countable</dd></dl>
+<p>The set of gears that sends engine power to the wheels.</p>
+<ol><li>The <em>transmission</em> is slipping in second gear.</li><li>A new <em>transmission</em> costs more than the car is worth.</li><li>Automatic <em>transmissions</em> have gotten much smoother.</li></ol>
+<hr>
+<h3 id="axle">axle<a class="hash" href="#axle" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/ˈæksəl/ &middot; <em>AK-suhl</em></dd><dt>Русский</dt><dd>ось (колёсная)</dd><dt>Plural</dt><dd><em>axles</em></dd><dt>Countability</dt><dd>countable</dd></dl>
+<p>The rod that a pair of wheels turns on.</p>
+<ol><li>He broke an <em>axle</em> going through the pothole.</li><li>A truck like that has three <em>axles</em>.</li><li>The rear <em>axle</em> was leaking oil.</li></ol>
+<hr>
+<h3 id="shock-absorber">shock absorber<a class="hash" href="#shock-absorber" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/ˈʃɑːk əbˌzɔːrbər/ &middot; <em>SHAHK-uhb-zor-bur</em></dd><dt>Русский</dt><dd>амортизатор</dd><dt>Plural</dt><dd><em>shock absorbers</em></dd><dt>Countability</dt><dd>countable</dd></dl>
+<p>A cylinder that damps the bouncing of a vehicle's springs.</p>
+<ol><li>The front <em>shock absorbers</em> are leaking.</li><li>One <em>shock absorber</em> was completely worn out.</li><li>New <em>shock absorbers</em> made a huge difference.</li></ol>
+<hr>
+<h3 id="spark-plug">spark plug<a class="hash" href="#spark-plug" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/ˈspɑːrk plʌɡ/ &middot; <em>SPAHRK-plug</em></dd><dt>Русский</dt><dd>свеча зажигания</dd><dt>Plural</dt><dd><em>spark plugs</em></dd><dt>Countability</dt><dd>countable</dd></dl>
+<p>The part that makes an electric spark to fire the fuel in a cylinder.</p>
+<ol><li>A fouled <em>spark plug</em> was making it misfire.</li><li>He changed all six <em>spark plugs</em> himself.</li><li>The new <em>spark plugs</em> cost four dollars each.</li></ol>
+<hr>
+<h3 id="cylinder">cylinder<a class="hash" href="#cylinder" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/ˈsɪləndər/ &middot; <em>SIL-uhn-dur</em></dd><dt>Русский</dt><dd>цилиндр (двигателя)</dd><dt>Plural</dt><dd><em>cylinders</em></dd><dt>Countability</dt><dd>countable</dd></dl>
+<p>The tube in an engine where the piston moves and the fuel burns.</p>
+<ol><li>It's a six-<em>cylinder</em> engine.</li><li>One <em>cylinder</em> wasn't firing at all.</li><li>The <em>cylinders</em> were rebored during the rebuild.</li></ol>
+<hr>
+<h3 id="crankshaft">crankshaft<a class="hash" href="#crankshaft" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/ˈkræŋkʃæft/ &middot; <em>KRANGK-shaft</em></dd><dt>Русский</dt><dd>коленчатый вал, коленвал</dd><dt>Plural</dt><dd><em>crankshafts</em></dd><dt>Countability</dt><dd>countable</dd></dl>
+<p>The shaft that turns the pistons' up-and-down motion into spinning.</p>
+<ol><li>The <em>crankshaft</em> has to be perfectly balanced.</li><li>He found a worn bearing on the <em>crankshaft</em>.</li><li>Broken <em>crankshafts</em> usually mean a new engine.</li></ol>
+<hr>
+<h3 id="carburetor">carburetor<a class="hash" href="#carburetor" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/ˈkɑːrbəreɪtər/ &middot; <em>KAHR-buh-ray-tur</em></dd><dt>Русский</dt><dd>карбюратор</dd><dt>Plural</dt><dd><em>carburetors</em></dd><dt>Countability</dt><dd>countable</dd><dt>Contrast</dt><dd>American spelling carburetor; the British write carburettor.</dd></dl>
+<p>The older part that mixes fuel and air before it enters the engine.</p>
+<ol><li>The <em>carburetor</em> needs cleaning.</li><li>Old motorcycles have twin <em>carburetors</em>.</li><li>Fuel injection replaced the <em>carburetor</em> in the eighties.</li></ol>
+<hr>
+<h3 id="gasket">gasket<a class="hash" href="#gasket" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/ˈɡæskɪt/ &middot; <em>GAS-kit</em></dd><dt>Русский</dt><dd>прокладка (уплотнительная)</dd><dt>Plural</dt><dd><em>gaskets</em></dd><dt>Countability</dt><dd>countable</dd></dl>
+<p>A flat seal that stops fluid leaking between two engine parts.</p>
+<ol><li>He blew a head <em>gasket</em> on the highway.</li><li>Rubber <em>gaskets</em> dry out over time.</li><li>The mechanic replaced the <em>gasket</em> and the leak stopped.</li></ol>
+<hr>
+<h3 id="alternator">alternator<a class="hash" href="#alternator" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/ˈɔːltərneɪtər/ &middot; <em>AWL-tur-nay-tur</em></dd><dt>Русский</dt><dd>генератор (автомобильный)</dd><dt>Plural</dt><dd><em>alternators</em></dd><dt>Countability</dt><dd>countable</dd></dl>
+<p>The part driven by the engine that charges the battery.</p>
+<ol><li>A dead <em>alternator</em> left me stranded.</li><li><em>Alternators</em> usually last well over a hundred thousand miles.</li><li>The shop tested the <em>alternator</em> for free.</li></ol>
+<hr>
+<h3 id="starter">starter<a class="hash" href="#starter" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/ˈstɑːrtər/ &middot; <em>STAHR-tur</em></dd><dt>Русский</dt><dd>стартер</dd><dt>Plural</dt><dd><em>starters</em></dd><dt>Countability</dt><dd>countable</dd></dl>
+<p>The small motor that turns an engine over to get it running.</p>
+<ol><li>The <em>starter</em> just clicks and nothing happens.</li><li>He replaced the <em>starter</em> in the parking lot.</li><li><em>Starters</em> on these cars are hard to reach.</li></ol>
+<hr>
+<h3 id="ignition">ignition<a class="hash" href="#ignition" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/ɪɡˈnɪʃən/ &middot; <em>ig-NISH-uhn</em></dd><dt>Русский</dt><dd>зажигание</dd><dt>Plural</dt><dd><em>ignitions</em></dd><dt>Countability</dt><dd>countable</dd></dl>
+<p>The switch and system that start a vehicle's engine.</p>
+<ol><li>Put the key in the <em>ignition</em> and turn it.</li><li>The <em>ignition</em> is worn out and the key sticks.</li><li>Push-button <em>ignitions</em> have replaced keys on newer cars.</li></ol>
+<hr>
+<h3 id="accelerator">accelerator<a class="hash" href="#accelerator" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/ækˈseləreɪtər/ &middot; <em>ak-SEL-uh-ray-tur</em></dd><dt>Русский</dt><dd>педаль газа, акселератор</dd><dt>Plural</dt><dd><em>accelerators</em></dd><dt>Countability</dt><dd>countable</dd></dl>
+<p>The pedal that makes a vehicle go faster.</p>
+<ol><li>She pressed the <em>accelerator</em> and pulled onto the highway.</li><li>His foot slipped off the <em>accelerator</em>.</li><li>The <em>accelerator</em> felt stiff in the cold.</li></ol>
+<hr>
+<h3 id="throttle">throttle<a class="hash" href="#throttle" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/ˈθrɑːtəl/ &middot; <em>THRAH-tuhl</em></dd><dt>Русский</dt><dd>дроссель, ручка газа</dd><dt>Plural</dt><dd><em>throttles</em></dd><dt>Countability</dt><dd>countable</dd></dl>
+<p>The control that regulates how much fuel and air reach an engine.</p>
+<ol><li>He eased off the <em>throttle</em> going into the turn.</li><li>The pilot pushed the <em>throttles</em> forward.</li><li>A stuck <em>throttle</em> is dangerous.</li></ol>
+<hr>
+<h3 id="gearshift">gearshift<a class="hash" href="#gearshift" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/ˈɡɪrʃɪft/ &middot; <em>GEER-shift</em></dd><dt>Русский</dt><dd>рычаг переключения передач</dd><dt>Plural</dt><dd><em>gearshifts</em></dd><dt>Countability</dt><dd>countable</dd></dl>
+<p>The lever a driver moves to change gears.</p>
+<ol><li>The <em>gearshift</em> sits between the front seats.</li><li>He rested his hand on the <em>gearshift</em>.</li><li>Old trucks had <em>gearshifts</em> on the steering column.</li></ol>
+<hr>
+<h3 id="hubcap">hubcap<a class="hash" href="#hubcap" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/ˈhʌbkæp/ &middot; <em>HUB-kap</em></dd><dt>Русский</dt><dd>колпак колеса</dd><dt>Plural</dt><dd><em>hubcaps</em></dd><dt>Countability</dt><dd>countable</dd></dl>
+<p>The metal or plastic cover over the center of a wheel.</p>
+<ol><li>I lost a <em>hubcap</em> hitting the curb.</li><li>All four <em>hubcaps</em> were missing.</li><li>The <em>hubcap</em> rolled halfway down the street.</li></ol>
+<hr>
+<h3 id="rim">rim<a class="hash" href="#rim" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/rɪm/ &middot; <em>RIM</em></dd><dt>Русский</dt><dd>обод колеса, диск</dd><dt>Plural</dt><dd><em>rims</em></dd><dt>Countability</dt><dd>countable</dd></dl>
+<p>The metal ring of a wheel that the tire sits on.</p>
+<ol><li>He bent a <em>rim</em> on a pothole.</li><li>The car came with alloy <em>rims</em>.</li><li>You can't drive on a bare <em>rim</em>.</li></ol>
+<hr>
+<h3 id="tread">tread<a class="hash" href="#tread" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/tred/ &middot; <em>TRED</em></dd><dt>Русский</dt><dd>протектор (шины)</dd><dt>Countability</dt><dd>uncountable</dd><dt>Contrast</dt><dd>The ea sounds like the e in bed: TRED.</dd></dl>
+<p>The grooved rubber pattern on the outside of a tire.</p>
+<ol><li>There's almost no <em>tread</em> left on these tires.</li><li>Snow tires have deeper <em>tread</em>.</li><li>The mechanic measured the <em>tread</em> with a gauge.</li></ol>
+<hr>
+<h3 id="sunroof">sunroof<a class="hash" href="#sunroof" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/ˈsʌnruːf/ &middot; <em>SUN-roof</em></dd><dt>Русский</dt><dd>люк в крыше автомобиля</dd><dt>Plural</dt><dd><em>sunroofs</em></dd><dt>Countability</dt><dd>countable</dd></dl>
+<p>A panel in a car's roof that opens to let in air and light.</p>
+<ol><li>She opened the <em>sunroof</em> on the drive home.</li><li>The <em>sunroof</em> leaks when it rains hard.</li><li><em>Sunroofs</em> are standard on the higher trim.</li></ol>
+<hr>
+<h3 id="seat-belt">seat belt<a class="hash" href="#seat-belt" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/ˈsiːt belt/ &middot; <em>SEET-belt</em></dd><dt>Русский</dt><dd>ремень безопасности</dd><dt>Plural</dt><dd><em>seat belts</em></dd><dt>Countability</dt><dd>countable</dd></dl>
+<p>The strap that holds a person in a vehicle seat.</p>
+<ol><li>Buckle your <em>seat belt</em> before we go.</li><li>The rear <em>seat belts</em> were never used.</li><li>His <em>seat belt</em> saved his life.</li></ol>
+<hr>
+<h3 id="airbag">airbag<a class="hash" href="#airbag" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/ˈerbæɡ/ &middot; <em>AIR-bag</em></dd><dt>Русский</dt><dd>подушка безопасности</dd><dt>Plural</dt><dd><em>airbags</em></dd><dt>Countability</dt><dd>countable</dd></dl>
+<p>A bag that inflates instantly in a crash to protect a passenger.</p>
+<ol><li>The <em>airbag</em> went off and broke his glasses.</li><li>This model has eight <em>airbags</em>.</li><li>A faulty <em>airbag</em> led to a huge recall.</li></ol>
+<hr>
+<h3 id="headrest">headrest<a class="hash" href="#headrest" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/ˈhedrest/ &middot; <em>HED-rest</em></dd><dt>Русский</dt><dd>подголовник</dd><dt>Plural</dt><dd><em>headrests</em></dd><dt>Countability</dt><dd>countable</dd></dl>
+<p>The padded top of a car seat that supports the head.</p>
+<ol><li>Adjust the <em>headrest</em> so it's level with your ears.</li><li>The rear <em>headrests</em> fold down for visibility.</li><li>He leaned back against the <em>headrest</em> and closed his eyes.</li></ol>
+<hr>
+<h3 id="license-plate">license plate<a class="hash" href="#license-plate" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/ˈlaɪsəns pleɪt/ &middot; <em>LY-suhns-playt</em></dd><dt>Русский</dt><dd>номерной знак</dd><dt>Plural</dt><dd><em>license plates</em></dd><dt>Countability</dt><dd>countable</dd><dt>Contrast</dt><dd>Americans write license and say license plate; the British write licence and say number plate.</dd></dl>
+<p>The numbered metal plate that identifies a vehicle.</p>
+<ol><li>A witness got the <em>license plate</em> number.</li><li><em>License plates</em> have to be renewed every year here.</li><li>The rear <em>license plate</em> was covered in mud.</li></ol>
+<hr>
+<h3 id="glove-compartment">glove compartment<a class="hash" href="#glove-compartment" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/ˈɡlʌv kəmˌpɑːrtmənt/ &middot; <em>GLUV-kuhm-pahrt-muhnt</em></dd><dt>Русский</dt><dd>бардачок, перчаточный ящик</dd><dt>Plural</dt><dd><em>glove compartments</em></dd><dt>Countability</dt><dd>countable</dd></dl>
+<p>The small storage box in a car's dashboard on the passenger side.</p>
+<ol><li>The registration is in the <em>glove compartment</em>.</li><li>He rooted around in the <em>glove compartment</em> for a napkin.</li><li>Both <em>glove compartments</em> in that van lock.</li></ol>
+<hr>
+<h3 id="gas-tank">gas tank<a class="hash" href="#gas-tank" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/ˈɡæs tæŋk/ &middot; <em>GAS-tank</em></dd><dt>Русский</dt><dd>бензобак</dd><dt>Plural</dt><dd><em>gas tanks</em></dd><dt>Countability</dt><dd>countable</dd><dt>Contrast</dt><dd>Americans say gas tank; the British say petrol tank.</dd></dl>
+<p>The container in a vehicle that holds its fuel.</p>
+<ol><li>The <em>gas tank</em> holds about fourteen gallons.</li><li>We filled the <em>gas tank</em> before leaving town.</li><li>Rusted <em>gas tanks</em> are a known problem on that model.</li></ol>
+<hr>
+<h3 id="spare-tire">spare tire<a class="hash" href="#spare-tire" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/ˈsper ˌtaɪrr/ &middot; <em>SPAIR-ty-ur</em></dd><dt>Русский</dt><dd>запасное колесо, запаска</dd><dt>Plural</dt><dd><em>spare tires</em></dd><dt>Countability</dt><dd>countable</dd></dl>
+<p>The extra tire kept in a car in case one goes flat.</p>
+<ol><li>The <em>spare tire</em> is under the floor of the trunk.</li><li>Don't drive over fifty on that <em>spare tire</em>.</li><li>Some new cars don't come with <em>spare tires</em> at all.</li></ol>
+<hr>
+<h3 id="rearview-mirror">rearview mirror<a class="hash" href="#rearview-mirror" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/ˈrɪrvjuː ˌmɪrər/ &middot; <em>REER-vyoo-MIR-ur</em></dd><dt>Русский</dt><dd>зеркало заднего вида</dd><dt>Plural</dt><dd><em>rearview mirrors</em></dd><dt>Countability</dt><dd>countable</dd></dl>
+<p>The mirror above the windshield that shows the road behind.</p>
+<ol><li>He checked the <em>rearview mirror</em> before braking.</li><li>An air freshener hung from the <em>rearview mirror</em>.</li><li>Newer <em>rearview mirrors</em> dim automatically at night.</li></ol>
+<hr>
+<h3 id="antifreeze">antifreeze<a class="hash" href="#antifreeze" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/ˈæntifriːz/ &middot; <em>AN-tee-freez</em></dd><dt>Русский</dt><dd>антифриз</dd><dt>Countability</dt><dd>uncountable</dd></dl>
+<p>A liquid added to an engine's water so it will not freeze or boil.</p>
+<ol><li>Add some <em>antifreeze</em> before winter.</li><li>There was green <em>antifreeze</em> pooled under the car.</li><li><em>Antifreeze</em> is poisonous, so keep it away from pets.</li></ol>
+<hr>
+<h3 id="handlebar">handlebar<a class="hash" href="#handlebar" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/ˈhændəlbɑːr/ &middot; <em>HAN-duhl-bahr</em></dd><dt>Русский</dt><dd>руль (велосипеда)</dd><dt>Plural</dt><dd><em>handlebars</em></dd><dt>Countability</dt><dd>countable</dd><dt>Contrast</dt><dd>Usually used in the plural, handlebars, even for the one bar.</dd></dl>
+<p>The bar a rider holds and steers a bicycle or motorcycle with.</p>
+<ol><li>He hung a bag from the <em>handlebars</em>.</li><li>The <em>handlebars</em> need to be raised a little.</li><li>She gripped the <em>handlebars</em> and pushed off.</li></ol>
+<hr>
+<h3 id="spoke">spoke<a class="hash" href="#spoke" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/spoʊk/ &middot; <em>SPOHK</em></dd><dt>Русский</dt><dd>спица</dd><dt>Plural</dt><dd><em>spokes</em></dd><dt>Countability</dt><dd>countable</dd><dt>Contrast</dt><dd>Spelled and said exactly like spoke, the past tense of speak.</dd></dl>
+<p>One of the thin rods running from the center of a wheel to its rim.</p>
+<ol><li>A <em>spoke</em> snapped on the back wheel.</li><li>He wove a card through the <em>spokes</em>.</li><li>The <em>spokes</em> need to be tightened evenly.</li></ol>
+<hr>
+<h3 id="saddle">saddle<a class="hash" href="#saddle" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/ˈsædəl/ &middot; <em>SAD-uhl</em></dd><dt>Русский</dt><dd>седло</dd><dt>Plural</dt><dd><em>saddles</em></dd><dt>Countability</dt><dd>countable</dd></dl>
+<p>The seat on a bicycle, motorcycle or horse.</p>
+<ol><li>The <em>saddle</em> is too high for her.</li><li>Gel <em>saddles</em> are easier on long rides.</li><li>He raised the <em>saddle</em> an inch.</li></ol>
+<hr>
+<h3 id="kickstand">kickstand<a class="hash" href="#kickstand" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/ˈkɪkstænd/ &middot; <em>KIK-stand</em></dd><dt>Русский</dt><dd>подножка (велосипеда)</dd><dt>Plural</dt><dd><em>kickstands</em></dd><dt>Countability</dt><dd>countable</dd></dl>
+<p>The small folding leg that props a bike upright when parked.</p>
+<ol><li>Put the <em>kickstand</em> down before you let go.</li><li>The <em>kickstand</em> is bent and won't hold the bike.</li><li>Racing bikes don't come with <em>kickstands</em>.</li></ol>
+<hr>
+<h3 id="sprocket">sprocket<a class="hash" href="#sprocket" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/ˈsprɑːkɪt/ &middot; <em>SPRAH-kit</em></dd><dt>Русский</dt><dd>звёздочка (цепная)</dd><dt>Plural</dt><dd><em>sprockets</em></dd><dt>Countability</dt><dd>countable</dd></dl>
+<p>A toothed wheel that a chain runs over.</p>
+<ol><li>The chain jumped off the <em>sprocket</em>.</li><li>Worn <em>sprockets</em> make the chain skip.</li><li>He swapped in a bigger rear <em>sprocket</em>.</li></ol>
+<hr>
+<h3 id="inner-tube">inner tube<a class="hash" href="#inner-tube" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/ˈɪnər tuːb/ &middot; <em>IN-ur-toob</em></dd><dt>Русский</dt><dd>камера (шины)</dd><dt>Plural</dt><dd><em>inner tubes</em></dd><dt>Countability</dt><dd>countable</dd><dt>Contrast</dt><dd>Americans say TOOB; the British say TYOOB.</dd></dl>
+<p>The rubber balloon inside a tire that holds the air.</p>
+<ol><li>I patched the <em>inner tube</em> twice already.</li><li>Carry a spare <em>inner tube</em> on long rides.</li><li>Both <em>inner tubes</em> had slow leaks.</li></ol>
+<hr>
+<h3 id="reflector">reflector<a class="hash" href="#reflector" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/rɪˈflektər/ &middot; <em>rih-FLEK-tur</em></dd><dt>Русский</dt><dd>отражатель, катафот</dd><dt>Plural</dt><dd><em>reflectors</em></dd><dt>Countability</dt><dd>countable</dd></dl>
+<p>A small piece that shines back light from headlights so a bike is seen.</p>
+<ol><li>The red <em>reflector</em> fell off the back of his bike.</li><li>State law requires <em>reflectors</em> on the pedals.</li><li>A <em>reflector</em> is not a substitute for a real light.</li></ol>
+<hr>
+<h3 id="cyclist">cyclist<a class="hash" href="#cyclist" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/ˈsaɪklɪst/ &middot; <em>SY-klist</em></dd><dt>Русский</dt><dd>велосипедист</dd><dt>Plural</dt><dd><em>cyclists</em></dd><dt>Countability</dt><dd>countable</dd></dl>
+<p>A person riding a bicycle.</p>
+<ol><li>A <em>cyclist</em> passed us going uphill.</li><li><em>Cyclists</em> use the shoulder on this road.</li><li>The <em>cyclist</em> signaled and turned left.</li></ol>
+<hr>
+<h3 id="motorist">motorist<a class="hash" href="#motorist" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/ˈmoʊtərɪst/ &middot; <em>MOH-tur-ist</em></dd><dt>Русский</dt><dd>автомобилист, водитель</dd><dt>Plural</dt><dd><em>motorists</em></dd><dt>Countability</dt><dd>countable</dd></dl>
+<p>A person driving a car, in news and official language.</p>
+<ol><li><em>Motorists</em> were warned to avoid the bridge.</li><li>A <em>motorist</em> stopped to help.</li><li>The city is asking <em>motorists</em> to slow down in school zones.</li></ol>
+<hr>
+<h3 id="chauffeur">chauffeur<a class="hash" href="#chauffeur" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/ˈʃoʊfər/ &middot; <em>SHOH-fur</em></dd><dt>Русский</dt><dd>шофёр, личный водитель</dd><dt>Plural</dt><dd><em>chauffeurs</em></dd><dt>Countability</dt><dd>countable</dd><dt>Contrast</dt><dd>French spelling: ch sounds like sh, and the -eur ending is just -ur.</dd></dl>
+<p>Someone employed to drive another person's car.</p>
+<ol><li>Her <em>chauffeur</em> waited outside the restaurant.</li><li>The company keeps two <em>chauffeurs</em> on staff.</li><li>He worked as a <em>chauffeur</em> for twenty years.</li></ol>
+<hr>
+<h3 id="ride">ride<a class="hash" href="#ride" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/raɪd/ &middot; <em>RYD</em></dd><dt>Русский</dt><dd>поездка</dd><dt>Plural</dt><dd><em>rides</em></dd><dt>Countability</dt><dd>countable</dd></dl>
+<p>A trip in a vehicle, especially one someone gives you.</p>
+<ol><li>Can you give me a <em>ride</em> to the airport?</li><li>It's a two-hour <em>ride</em> on the bus.</li><li>She offered <em>rides</em> to anyone going downtown.</li></ol>
+<hr>
+<h3 id="wreck">wreck<a class="hash" href="#wreck" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/rek/ &middot; <em>REK</em></dd><dt>Русский</dt><dd>авария; разбитая машина</dd><dt>Plural</dt><dd><em>wrecks</em></dd><dt>Countability</dt><dd>countable</dd><dt>Contrast</dt><dd>The w is silent: REK, the same sound as the start of wrench.</dd></dl>
+<p>A bad vehicle crash, or what is left of the vehicle after one.</p>
+<ol><li>There was a <em>wreck</em> on the interstate this morning.</li><li>Two <em>wrecks</em> were towed off before rush hour.</li><li>He walked away from the <em>wreck</em> without a scratch.</li></ol>
+<hr>
+<h3 id="station-wagon">station wagon<a class="hash" href="#station-wagon" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/ˈsteɪʃən ˌwæɡən/ &middot; <em>STAY-shuhn-wag-uhn</em></dd><dt>Русский</dt><dd>универсал (тип кузова)</dd><dt>Plural</dt><dd><em>station wagons</em></dd><dt>Countability</dt><dd>countable</dd></dl>
+<p>A long car with a rear door and extra cargo space behind the back seat.</p>
+<ol><li>Their old <em>station wagon</em> had fake wood on the sides.</li><li><em>Station wagons</em> mostly gave way to SUVs.</li><li>We fit all six of us in the <em>station wagon</em>.</li></ol>
+<hr>
+<h3 id="race-car">race car<a class="hash" href="#race-car" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/ˈreɪs kɑːr/ &middot; <em>RAYS-kahr</em></dd><dt>Русский</dt><dd>гоночный автомобиль</dd><dt>Plural</dt><dd><em>race cars</em></dd><dt>Countability</dt><dd>countable</dd></dl>
+<p>A car built for competing on a track.</p>
+<ol><li>The <em>race car</em> spun out on the last lap.</li><li><em>Race cars</em> have no doors that open normally.</li><li>He built a <em>race car</em> in his garage.</li></ol>
+<hr>
+<h3 id="cable-car">cable car<a class="hash" href="#cable-car" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/ˈkeɪbəl kɑːr/ &middot; <em>KAY-buhl-kahr</em></dd><dt>Русский</dt><dd>вагон канатной дороги, фуникулёр</dd><dt>Plural</dt><dd><em>cable cars</em></dd><dt>Countability</dt><dd>countable</dd></dl>
+<p>A car pulled along by a moving cable, up a hill or across a valley.</p>
+<ol><li>We rode the <em>cable car</em> up the mountain.</li><li>San Francisco still runs its old <em>cable cars</em>.</li><li>The <em>cable car</em> stopped halfway up.</li></ol>
+<hr>
+<h3 id="monorail">monorail<a class="hash" href="#monorail" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/ˈmɑːnoʊreɪl/ &middot; <em>MAH-noh-rayl</em></dd><dt>Русский</dt><dd>монорельс</dd><dt>Plural</dt><dd><em>monorails</em></dd><dt>Countability</dt><dd>countable</dd></dl>
+<p>A train that runs on a single rail, usually raised above the ground.</p>
+<ol><li>The <em>monorail</em> connects the terminals.</li><li>Two <em>monorails</em> run through the park.</li><li>We took the <em>monorail</em> to the hotel.</li></ol>
+<hr>
+<h3 id="caboose">caboose<a class="hash" href="#caboose" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/kəˈbuːs/ &middot; <em>kuh-BOOS</em></dd><dt>Русский</dt><dd>хвостовой вагон (товарного поезда)</dd><dt>Plural</dt><dd><em>cabooses</em></dd><dt>Countability</dt><dd>countable</dd></dl>
+<p>The crew car at the end of an old freight train.</p>
+<ol><li>The kids waved at the red <em>caboose</em>.</li><li><em>Cabooses</em> disappeared from American railroads in the eighties.</li><li>An old <em>caboose</em> sits on display outside the depot.</li></ol>
+<hr>
+<h3 id="jet-ski">jet ski<a class="hash" href="#jet-ski" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/ˈdʒet skiː/ &middot; <em>JET-skee</em></dd><dt>Русский</dt><dd>гидроцикл</dd><dt>Plural</dt><dd><em>jet skis</em></dd><dt>Countability</dt><dd>countable</dd></dl>
+<p>A small motor craft you ride sitting or standing on the water.</p>
+<ol><li>He rented a <em>jet ski</em> for an hour.</li><li><em>Jet skis</em> are banned in the cove.</li><li>She fell off the <em>jet ski</em> twice.</li></ol>
+<hr>
+<h3 id="houseboat">houseboat<a class="hash" href="#houseboat" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/ˈhaʊsboʊt/ &middot; <em>HOWS-boht</em></dd><dt>Русский</dt><dd>плавучий дом</dd><dt>Plural</dt><dd><em>houseboats</em></dd><dt>Countability</dt><dd>countable</dd></dl>
+<p>A boat built to be lived in rather than traveled in.</p>
+<ol><li>They live on a <em>houseboat</em> year-round.</li><li><em>Houseboats</em> line the far side of the marina.</li><li>The <em>houseboat</em> barely moves.</li></ol>
+<hr>
+<h3 id="speedboat">speedboat<a class="hash" href="#speedboat" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/ˈspiːdboʊt/ &middot; <em>SPEED-boht</em></dd><dt>Русский</dt><dd>скоростной катер</dd><dt>Plural</dt><dd><em>speedboats</em></dd><dt>Countability</dt><dd>countable</dd></dl>
+<p>A small boat with a powerful engine, built to go fast.</p>
+<ol><li>A <em>speedboat</em> pulled the water-skier.</li><li><em>Speedboats</em> churn up the whole lake.</li><li>He opened up the <em>speedboat</em> once we cleared the buoys.</li></ol>
+<hr>
+<h3 id="hot-air-balloon">hot-air balloon<a class="hash" href="#hot-air-balloon" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/ˌhɑːt er bəˈluːn/ &middot; <em>haht-air-buh-LOON</em></dd><dt>Русский</dt><dd>воздушный шар</dd><dt>Plural</dt><dd><em>hot-air balloons</em></dd><dt>Countability</dt><dd>countable</dd></dl>
+<p>A large fabric bag lifted by heated air, carrying a basket underneath.</p>
+<ol><li>A <em>hot-air balloon</em> drifted over the valley at sunrise.</li><li>Dozens of <em>hot-air balloons</em> went up at the festival.</li><li>He proposed in a <em>hot-air balloon</em>.</li></ol>
+<hr>
+<h3 id="keel">keel<a class="hash" href="#keel" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/kiːl/ &middot; <em>KEEL</em></dd><dt>Русский</dt><dd>киль</dd><dt>Plural</dt><dd><em>keels</em></dd><dt>Countability</dt><dd>countable</dd></dl>
+<p>The long ridge along the bottom of a boat that keeps it steady.</p>
+<ol><li>The <em>keel</em> scraped a sandbar.</li><li>Racing sailboats have deep <em>keels</em>.</li><li>They repaired the <em>keel</em> over the winter.</li></ol>
+<hr>
+<h3 id="stern">stern<a class="hash" href="#stern" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/stɜːrn/ &middot; <em>STURN</em></dd><dt>Русский</dt><dd>корма</dd><dt>Plural</dt><dd><em>sterns</em></dd><dt>Countability</dt><dd>countable</dd></dl>
+<p>The back end of a boat or ship.</p>
+<ol><li>He stood at the <em>stern</em> and watched the wake.</li><li>The name is painted across the <em>stern</em>.</li><li>Both <em>sterns</em> were damaged in the collision.</li></ol>
+<hr>
+<h3 id="buoy">buoy<a class="hash" href="#buoy" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/ˈbuːi/ &middot; <em>BOO-ee</em></dd><dt>Русский</dt><dd>буй</dd><dt>Plural</dt><dd><em>buoys</em></dd><dt>Countability</dt><dd>countable</dd><dt>Contrast</dt><dd>Americans say BOO-ee; the British say it like boy.</dd></dl>
+<p>A floating marker anchored in water to guide boats.</p>
+<ol><li>A red <em>buoy</em> marks the channel.</li><li>Don't swim past the <em>buoys</em>.</li><li>The <em>buoy</em> rang softly in the swell.</li></ol>
+<hr>
+<h3 id="porthole">porthole<a class="hash" href="#porthole" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/ˈpɔːrthoʊl/ &middot; <em>PORT-hohl</em></dd><dt>Русский</dt><dd>иллюминатор</dd><dt>Plural</dt><dd><em>portholes</em></dd><dt>Countability</dt><dd>countable</dd></dl>
+<p>A small round window in the side of a ship.</p>
+<ol><li>She looked out the <em>porthole</em> at the harbor.</li><li>The cabin has two <em>portholes</em>.</li><li>Salt spray covered the <em>porthole</em>.</li></ol>
+<hr>
+<h3 id="camshaft">camshaft<a class="hash" href="#camshaft" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/ˈkæmʃæft/ &middot; <em>KAM-shaft</em></dd><dt>Русский</dt><dd>распределительный вал, распредвал</dd><dt>Plural</dt><dd><em>camshafts</em></dd><dt>Countability</dt><dd>countable</dd></dl>
+<p>The shaft with lobes that opens and closes an engine's valves.</p>
+<ol><li>A worn <em>camshaft</em> made the engine tick.</li><li>This engine has two <em>camshafts</em>.</li><li>The <em>camshaft</em> turns at half engine speed.</li></ol>
+<hr>
+<h3 id="flywheel">flywheel<a class="hash" href="#flywheel" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/ˈflaɪwiːl/ &middot; <em>FLY-weel</em></dd><dt>Русский</dt><dd>маховик</dd><dt>Plural</dt><dd><em>flywheels</em></dd><dt>Countability</dt><dd>countable</dd></dl>
+<p>A heavy disc on an engine that keeps it turning smoothly.</p>
+<ol><li>The <em>flywheel</em> was cracked and had to be replaced.</li><li><em>Flywheels</em> store energy as they spin.</li><li>He resurfaced the <em>flywheel</em> during the clutch job.</li></ol>
+<hr>
+<h3 id="driveshaft">driveshaft<a class="hash" href="#driveshaft" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/ˈdraɪvʃæft/ &middot; <em>DRYV-shaft</em></dd><dt>Русский</dt><dd>карданный вал</dd><dt>Plural</dt><dd><em>driveshafts</em></dd><dt>Countability</dt><dd>countable</dd></dl>
+<p>The spinning rod that carries power from the transmission to the wheels.</p>
+<ol><li>The <em>driveshaft</em> snapped and we coasted to a stop.</li><li>Four-wheel-drive trucks have two <em>driveshafts</em>.</li><li>He greased the <em>driveshaft</em> joints.</li></ol>
+<hr>
+<h3 id="catalytic-converter">catalytic converter<a class="hash" href="#catalytic-converter" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/ˌkætəˈlɪtɪk kənˈvɜːrtər/ &middot; <em>kat-uh-LIT-ik kuhn-VUR-tur</em></dd><dt>Русский</dt><dd>катализатор (выхлопной)</dd><dt>Plural</dt><dd><em>catalytic converters</em></dd><dt>Countability</dt><dd>countable</dd></dl>
+<p>The part of the exhaust system that cleans up harmful gases.</p>
+<ol><li>Someone stole the <em>catalytic converter</em> right off the car.</li><li><em>Catalytic converters</em> contain valuable metals.</li><li>A bad <em>catalytic converter</em> will fail you at inspection.</li></ol>
+<hr>
+<h3 id="jumper-cables">jumper cables<a class="hash" href="#jumper-cables" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/ˈdʒʌmpər ˌkeɪbəlz/ &middot; <em>JUM-pur-kay-buhlz</em></dd><dt>Русский</dt><dd>провода для прикуривания</dd><dt>Plural</dt><dd><em>jumper cables</em></dd><dt>Countability</dt><dd>countable</dd><dt>Contrast</dt><dd>Almost always used in the plural; the British call them jump leads.</dd></dl>
+<p>The thick clamped wires used to start a car from another car's battery.</p>
+<ol><li>Do you have <em>jumper cables</em> in the trunk?</li><li>He hooked up the <em>jumper cables</em> and the engine turned over.</li><li>A good set of <em>jumper cables</em> costs about twenty dollars.</li></ol>
+<hr>
+<h3 id="lug-nut">lug nut<a class="hash" href="#lug-nut" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/ˈlʌɡ nʌt/ &middot; <em>LUG-nut</em></dd><dt>Русский</dt><dd>колёсная гайка</dd><dt>Plural</dt><dd><em>lug nuts</em></dd><dt>Countability</dt><dd>countable</dd></dl>
+<p>One of the nuts that hold a wheel onto a vehicle.</p>
+<ol><li>Loosen the <em>lug nuts</em> before you jack up the car.</li><li>One <em>lug nut</em> was rusted solid.</li><li>Tighten the <em>lug nuts</em> in a star pattern.</li></ol>
+<hr>
+<h3 id="tailgate">tailgate<a class="hash" href="#tailgate" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/ˈteɪlɡeɪt/ &middot; <em>TAYL-gayt</em></dd><dt>Русский</dt><dd>задний борт (пикапа)</dd><dt>Plural</dt><dd><em>tailgates</em></dd><dt>Countability</dt><dd>countable</dd></dl>
+<p>The hinged panel at the back of a pickup or wagon that folds down.</p>
+<ol><li>They sat on the <em>tailgate</em> eating sandwiches.</li><li>The <em>tailgate</em> wouldn't latch anymore.</li><li>Both <em>tailgates</em> were dented.</li></ol>
+<hr>
+<h3 id="grille">grille<a class="hash" href="#grille" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/ɡrɪl/ &middot; <em>GRIL</em></dd><dt>Русский</dt><dd>радиаторная решётка</dd><dt>Plural</dt><dd><em>grilles</em></dd><dt>Countability</dt><dd>countable</dd><dt>Contrast</dt><dd>Sounds exactly like grill, the thing you cook on, but keeps the final e.</dd></dl>
+<p>The pattern of bars across the front of a vehicle that lets air in.</p>
+<ol><li>A rock cracked the plastic <em>grille</em>.</li><li>You can tell the model by the <em>grille</em>.</li><li>Bugs were stuck all over the <em>grille</em>.</li></ol>
+<hr>
+<h3 id="trucker">trucker<a class="hash" href="#trucker" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/ˈtrʌkər/ &middot; <em>TRUK-ur</em></dd><dt>Русский</dt><dd>дальнобойщик, водитель грузовика</dd><dt>Plural</dt><dd><em>truckers</em></dd><dt>Countability</dt><dd>countable</dd></dl>
+<p>Someone whose job is driving a large truck long distances.</p>
+<ol><li>A <em>trucker</em> stopped and gave us a jump.</li><li><em>Truckers</em> fill this rest stop every night.</li><li>He's been a <em>trucker</em> for fifteen years.</li></ol>
+<hr>
+<h3 id="carpool">carpool<a class="hash" href="#carpool" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/ˈkɑːrpuːl/ &middot; <em>KAHR-pool</em></dd><dt>Русский</dt><dd>совместная поездка на одной машине</dd><dt>Plural</dt><dd><em>carpools</em></dd><dt>Countability</dt><dd>countable</dd></dl>
+<p>An arrangement where people share one car for a regular trip.</p>
+<ol><li>She joined a <em>carpool</em> to save on gas.</li><li>The <em>carpool</em> picks him up at seven.</li><li>Two <em>carpools</em> leave from this lot every morning.</li></ol>
+<hr>
+<h3 id="hovercraft">hovercraft<a class="hash" href="#hovercraft" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/ˈhʌvərkræft/ &middot; <em>HUV-ur-kraft</em></dd><dt>Русский</dt><dd>судно на воздушной подушке</dd><dt>Plural</dt><dd><em>hovercraft</em></dd><dt>Countability</dt><dd>countable</dd><dt>Contrast</dt><dd>The plural is usually hovercraft, unchanged, like aircraft.</dd></dl>
+<p>A vehicle that rides on a cushion of air over water or flat ground.</p>
+<ol><li>A <em>hovercraft</em> crossed the channel in half an hour.</li><li>Two <em>hovercraft</em> were tied up at the ramp.</li><li>The <em>hovercraft</em> threw spray in every direction.</li></ol>
+<hr>
+<h3 id="gangplank">gangplank<a class="hash" href="#gangplank" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/ˈɡæŋplæŋk/ &middot; <em>GANG-plangk</em></dd><dt>Русский</dt><dd>сходни, трап</dd><dt>Plural</dt><dd><em>gangplanks</em></dd><dt>Countability</dt><dd>countable</dd></dl>
+<p>The narrow board people walk across to get on or off a boat.</p>
+<ol><li>She hurried down the <em>gangplank</em>.</li><li>The crew pulled up the <em>gangplank</em>.</li><li>Both <em>gangplanks</em> were slick with rain.</li></ol>
+<hr>
+<h3 id="steamboat">steamboat<a class="hash" href="#steamboat" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/ˈstiːmboʊt/ &middot; <em>STEEM-boht</em></dd><dt>Русский</dt><dd>пароход</dd><dt>Plural</dt><dd><em>steamboats</em></dd><dt>Countability</dt><dd>countable</dd></dl>
+<p>A boat driven by a steam engine, often with a paddle wheel.</p>
+<ol><li>A <em>steamboat</em> still runs tours on the river.</li><li><em>Steamboats</em> carried cotton down the Mississippi.</li><li>The <em>steamboat</em> blew its whistle at the landing.</li></ol>
+<hr>
+<h3 id="outboard-motor">outboard motor<a class="hash" href="#outboard-motor" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/ˈaʊtbɔːrd ˌmoʊtər/ &middot; <em>OWT-bord-moh-tur</em></dd><dt>Русский</dt><dd>подвесной лодочный мотор</dd><dt>Plural</dt><dd><em>outboard motors</em></dd><dt>Countability</dt><dd>countable</dd></dl>
+<p>A small engine clamped to the back of a boat.</p>
+<ol><li>He yanked the cord on the <em>outboard motor</em>.</li><li><em>Outboard motors</em> are easy to take off and store.</li><li>The <em>outboard motor</em> quit halfway across.</li></ol>
+<hr>
+<h3 id="biplane">biplane<a class="hash" href="#biplane" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/ˈbaɪpleɪn/ &middot; <em>BY-playn</em></dd><dt>Русский</dt><dd>биплан</dd><dt>Plural</dt><dd><em>biplanes</em></dd><dt>Countability</dt><dd>countable</dd></dl>
+<p>An old-style airplane with two sets of wings, one above the other.</p>
+<ol><li>A yellow <em>biplane</em> did loops over the field.</li><li><em>Biplanes</em> were standard in the First World War.</li><li>He restored a 1930s <em>biplane</em>.</li></ol>
+<hr>
+<h3 id="moving-van">moving van<a class="hash" href="#moving-van" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/ˈmuːvɪŋ væn/ &middot; <em>MOO-ving-van</em></dd><dt>Русский</dt><dd>мебельный фургон</dd><dt>Plural</dt><dd><em>moving vans</em></dd><dt>Countability</dt><dd>countable</dd></dl>
+<p>A large truck used for carrying furniture to a new home.</p>
+<ol><li>A <em>moving van</em> was double-parked outside.</li><li><em>Moving vans</em> are booked solid at the end of August.</li><li>They loaded the <em>moving van</em> in the rain.</li></ol>
+<hr>
+<h3 id="go-kart">go-kart<a class="hash" href="#go-kart" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/ˈɡoʊ kɑːrt/ &middot; <em>GOH-kahrt</em></dd><dt>Русский</dt><dd>карт (гоночный)</dd><dt>Plural</dt><dd><em>go-karts</em></dd><dt>Countability</dt><dd>countable</dd></dl>
+<p>A tiny open racing car with no roof or doors.</p>
+<ol><li>He drove a <em>go-kart</em> for the first time at eight.</li><li><em>Go-karts</em> top out around forty miles an hour.</li><li>The <em>go-kart</em> spun into the tires.</li></ol>
+<hr>
+<h3 id="unicycle">unicycle<a class="hash" href="#unicycle" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/ˈjuːnɪsaɪkəl/ &middot; <em>YOO-nih-sy-kuhl</em></dd><dt>Русский</dt><dd>моноцикл, одноколёсный велосипед</dd><dt>Plural</dt><dd><em>unicycles</em></dd><dt>Countability</dt><dd>countable</dd></dl>
+<p>A cycle with a single wheel, ridden for balance and show.</p>
+<ol><li>He rode a <em>unicycle</em> down the hall.</li><li><em>Unicycles</em> are harder than they look.</li><li>She learned to ride a <em>unicycle</em> in one summer.</li></ol>
+<hr>
+<h3 id="timing-belt">timing belt<a class="hash" href="#timing-belt" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/ˈtaɪmɪŋ belt/ &middot; <em>TY-ming-belt</em></dd><dt>Русский</dt><dd>ремень ГРМ</dd><dt>Plural</dt><dd><em>timing belts</em></dd><dt>Countability</dt><dd>countable</dd></dl>
+<p>The rubber belt that keeps an engine's moving parts turning together.</p>
+<ol><li>The <em>timing belt</em> snapped and wrecked the engine.</li><li><em>Timing belts</em> should be changed around a hundred thousand miles.</li><li>Replacing the <em>timing belt</em> costs about eight hundred dollars.</li></ol>
+<hr>
+<h3 id="oil-filter">oil filter<a class="hash" href="#oil-filter" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/ˈɔɪl ˌfɪltər/ &middot; <em>OYL-fil-tur</em></dd><dt>Русский</dt><dd>масляный фильтр</dd><dt>Plural</dt><dd><em>oil filters</em></dd><dt>Countability</dt><dd>countable</dd></dl>
+<p>The screw-on canister that cleans grit out of an engine's oil.</p>
+<ol><li>Change the <em>oil filter</em> every time you change the oil.</li><li><em>Oil filters</em> cost only a few dollars.</li><li>He couldn't get the old <em>oil filter</em> loose.</li></ol>
+<hr>
+<h3 id="wiper-blade">wiper blade<a class="hash" href="#wiper-blade" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/ˈwaɪpər bleɪd/ &middot; <em>WY-pur-blayd</em></dd><dt>Русский</dt><dd>щётка стеклоочистителя</dd><dt>Plural</dt><dd><em>wiper blades</em></dd><dt>Countability</dt><dd>countable</dd></dl>
+<p>The rubber strip on a wiper arm that sweeps the windshield.</p>
+<ol><li>The <em>wiper blade</em> left a streak right at eye level.</li><li><em>Wiper blades</em> should be replaced about once a year.</li><li>A cracked <em>wiper blade</em> scratched the glass.</li></ol>
+<hr>
+<h3 id="brake-pedal">brake pedal<a class="hash" href="#brake-pedal" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/ˈbreɪk ˌpedəl/ &middot; <em>BRAYK-ped-uhl</em></dd><dt>Русский</dt><dd>педаль тормоза</dd><dt>Plural</dt><dd><em>brake pedals</em></dd><dt>Countability</dt><dd>countable</dd></dl>
+<p>The pedal a driver presses to slow the car down.</p>
+<ol><li>He stomped on the <em>brake pedal</em>.</li><li>The <em>brake pedal</em> felt spongy.</li><li>Both <em>brake pedals</em> in the driving-school car work.</li></ol>
+<hr>
+<h3 id="gas-pedal">gas pedal<a class="hash" href="#gas-pedal" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/ˈɡæs ˌpedəl/ &middot; <em>GAS-ped-uhl</em></dd><dt>Русский</dt><dd>педаль газа</dd><dt>Plural</dt><dd><em>gas pedals</em></dd><dt>Countability</dt><dd>countable</dd><dt>Contrast</dt><dd>Americans say gas pedal; the British say accelerator.</dd></dl>
+<p>The pedal a driver presses to speed the car up.</p>
+<ol><li>She eased off the <em>gas pedal</em>.</li><li>The <em>gas pedal</em> stuck halfway down.</li><li>Rubber covers on <em>gas pedals</em> wear through fast.</li></ol>
+<hr>
+<h3 id="training-wheels">training wheels<a class="hash" href="#training-wheels" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/ˈtreɪnɪŋ wiːlz/ &middot; <em>TRAY-ning-weelz</em></dd><dt>Русский</dt><dd>дополнительные колёсики (на детском велосипеде)</dd><dt>Plural</dt><dd><em>training wheels</em></dd><dt>Countability</dt><dd>countable</dd><dt>Contrast</dt><dd>Used only in the plural; the British say stabilizers.</dd></dl>
+<p>The pair of small extra wheels that keep a child's bike upright.</p>
+<ol><li>We finally took the <em>training wheels</em> off.</li><li>A set of <em>training wheels</em> comes with the bike.</li><li>He rode with <em>training wheels</em> until he was six.</li></ol>
+<hr>
+<h3 id="fuel-pump">fuel pump<a class="hash" href="#fuel-pump" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/ˈfjuːəl pʌmp/ &middot; <em>FYOO-uhl-pump</em></dd><dt>Русский</dt><dd>топливный насос</dd><dt>Plural</dt><dd><em>fuel pumps</em></dd><dt>Countability</dt><dd>countable</dd></dl>
+<p>The part that pushes gasoline from the tank to the engine.</p>
+<ol><li>A dead <em>fuel pump</em> left the car stranded.</li><li><em>Fuel pumps</em> usually sit inside the gas tank.</li><li>Replacing the <em>fuel pump</em> took the shop two days.</li></ol>
+<hr>
+<h3 id="roof-rack">roof rack<a class="hash" href="#roof-rack" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/ˈruːf ræk/ &middot; <em>ROOF-rak</em></dd><dt>Русский</dt><dd>багажник на крыше</dd><dt>Plural</dt><dd><em>roof racks</em></dd><dt>Countability</dt><dd>countable</dd></dl>
+<p>The frame on top of a vehicle for carrying bulky loads.</p>
+<ol><li>They strapped the kayak to the <em>roof rack</em>.</li><li><em>Roof racks</em> hurt your gas mileage.</li><li>The <em>roof rack</em> whistled at highway speed.</li></ol></div></main>
+<button class="themebtn" id="themeBtn">Dark</button>
+<script>
+const tb=document.getElementById('themeBtn');
+function setTheme(x){document.documentElement.dataset.theme=x;tb.textContent=x==='dark'?'Light':'Dark';
+ try{localStorage.setItem('site-theme',x)}catch(e){}}
+tb.onclick=()=>setTheme(document.documentElement.dataset.theme==='dark'?'light':'dark');
+try{const s=localStorage.getItem('site-theme');
+ setTheme(s||(matchMedia('(prefers-color-scheme: dark)').matches?'dark':'light'))}catch(e){setTheme('light')}
+</script></body></html>

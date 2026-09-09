@@ -1,0 +1,656 @@
+<!DOCTYPE html>
+<html lang="en"><head>
+<meta charset="utf-8"><meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Core vocabulary: shapes and colors</title>
+<style>
+:root{--bg:#faf9f7;--surface:#fff;--surface2:#f2f0ec;--border:#e2ded6;--text:#1a1815;
+--dim:#5f594f;--faint:#8a8377;--accent:#8a5a3b;--measure:72ch}
+@media(prefers-color-scheme:dark){:root{--bg:#14140f;--surface:#1d1d17;--surface2:#25251d;
+--border:#33332a;--text:#eeeae1;--dim:#a8a293;--faint:#7d776b;--accent:#d09b72}}
+:root[data-theme=dark]{--bg:#14140f;--surface:#1d1d17;--surface2:#25251d;--border:#33332a;
+--text:#eeeae1;--dim:#a8a293;--faint:#7d776b;--accent:#d09b72}
+:root[data-theme=light]{--bg:#faf9f7;--surface:#fff;--surface2:#f2f0ec;--border:#e2ded6;
+--text:#1a1815;--dim:#5f594f;--faint:#8a8377;--accent:#8a5a3b}
+*{box-sizing:border-box}
+body{margin:0;background:var(--bg);color:var(--text);
+font:17px/1.72 ui-serif,Georgia,"Iowan Old Style",Palatino,serif;-webkit-font-smoothing:antialiased}
+.wrap{max-width:min(var(--measure),100%);margin:0 auto;padding:0 22px}
+nav.crumb{border-bottom:1px solid var(--border);padding:13px 0;font-size:13.5px;
+font-family:-apple-system,BlinkMacSystemFont,"Segoe UI",sans-serif;position:sticky;top:0;background:var(--bg);z-index:20}
+nav.crumb .wrap{max-width:none;display:flex;gap:9px;align-items:center;flex-wrap:wrap}
+nav.crumb a{color:var(--dim);text-decoration:none}
+nav.crumb a:hover{color:var(--accent)}
+nav.crumb .sep{color:var(--faint)}
+main{padding:8px 0 80px}
+h1{font-size:clamp(28px,5vw,38px);line-height:1.15;letter-spacing:-.015em;margin:34px 0 18px}
+h2{font-size:25px;margin:46px 0 14px;letter-spacing:-.01em;padding-bottom:7px;border-bottom:1px solid var(--border)}
+h3{font-size:19px;margin:34px 0 10px;color:var(--accent)}
+h4{font-size:16px;margin:24px 0 8px;font-family:-apple-system,sans-serif}
+p{margin:0 0 16px}
+a{color:var(--accent)}
+.hash{opacity:0;margin-left:8px;font-weight:400;font-size:.65em;text-decoration:none;color:var(--faint)}
+h2:hover .hash,h3:hover .hash{opacity:1}
+blockquote{margin:0 0 20px;padding:14px 18px;background:var(--surface2);
+border-left:3px solid var(--accent);border-radius:0 8px 8px 0}
+blockquote p:last-child{margin-bottom:0}
+ol,ul{margin:0 0 18px;padding-left:26px}
+li{margin-bottom:8px}
+li>ul,li>ol{margin:8px 0 0}
+code{font-family:ui-monospace,SFMono-Regular,Menlo,Consolas,monospace;font-size:.87em;
+background:var(--surface2);padding:1px 5px;border-radius:4px}
+pre{background:var(--surface2);border:1px solid var(--border);border-radius:9px;
+padding:15px 17px;overflow-x:auto;margin:0 0 20px}
+pre code{background:none;padding:0;font-size:13px;line-height:1.6}
+.tw{overflow-x:auto;margin:0 0 22px;border:1px solid var(--border);border-radius:9px}
+table{border-collapse:collapse;width:100%;font-size:15px;
+font-family:-apple-system,BlinkMacSystemFont,"Segoe UI",sans-serif}
+th,td{padding:10px 14px;border-bottom:1px solid var(--border);vertical-align:top}
+th{background:var(--surface2);font-size:12px;text-transform:uppercase;
+letter-spacing:.06em;color:var(--dim);font-weight:700;white-space:nowrap}
+tbody tr:last-child td{border-bottom:none}
+hr{border:none;border-top:1px solid var(--border);margin:38px 0}
+details{background:var(--surface2);border:1px solid var(--border);border-radius:9px;
+padding:13px 17px;margin:0 0 20px}
+summary{cursor:pointer;font-weight:600;font-family:-apple-system,sans-serif;font-size:15px}
+details[open] summary{margin-bottom:12px}
+del{color:var(--faint)}
+dl.fields{margin:0 0 20px;padding:0}
+dl.fields dt{font-family:-apple-system,BlinkMacSystemFont,"Segoe UI",sans-serif;
+font-size:11px;letter-spacing:.11em;text-transform:uppercase;color:var(--faint);
+font-weight:700;margin:14px 0 4px}
+dl.fields dt:first-child{margin-top:0}
+dl.fields dd{margin:0;font-size:16px;color:var(--dim);line-height:1.62}
+dl.fields dd em{color:var(--text)}
+dl.fields dt.ru{color:var(--accent)}
+dl.fields dd strong{color:var(--text)}
+.toc{background:var(--surface2);border:1px solid var(--border);border-radius:10px;
+padding:16px 20px;margin:26px 0 34px;font-family:-apple-system,sans-serif;font-size:14px}
+.toc b{display:block;font-size:11px;letter-spacing:.12em;text-transform:uppercase;
+color:var(--faint);margin-bottom:9px}
+.toc a{display:block;padding:3px 0;color:var(--dim);text-decoration:none}
+.toc a:hover{color:var(--accent)}
+.themebtn{position:fixed;right:18px;bottom:18px;z-index:60;font-family:-apple-system,sans-serif;
+font-size:12.5px;font-weight:600;cursor:pointer;background:var(--surface);border:1px solid var(--border);
+border-radius:99px;padding:9px 16px;color:var(--text)}
+@media(max-width:600px){body{font-size:16px}.wrap{padding:0 17px}}
+</style></head><body>
+<nav class="crumb"><div class="wrap"><a href="../../../index.html">Learn English</a><span class="sep">/</span><a href="../../README.html">Parts of speech</a><span class="sep">/</span><a href="../README.html">01-nouns</a><span class="sep">/</span><span>catalog</span></div></nav>
+<main><div class="wrap"><h1 id="core-vocabulary-shapes-and-colors">Core vocabulary: shapes and colors<a class="hash" href="#core-vocabulary-shapes-and-colors" aria-label="link">#</a></h1>
+<blockquote><p>The everyday nouns of shapes and colors — pronunciation, Russian, plural, and three examples each.</p></blockquote>
+<p><a href="../README.html">← The grammar of nouns</a> &middot; <a href="README.html">All groups</a></p>
+<p>Part of the <strong>core-vocabulary tier</strong>. Groups 1–23 cover the nouns that misbehave; this tier covers the nouns you simply need to know. Entries are deliberately lean, because a regular countable noun has no grammatical story to tell. A <strong>Contrast</strong> line appears only where the word hides a genuine trap.</p>
+<p>Where a word in this field <em>does</em> misbehave, it lives in the grammar tier instead and is not repeated here.</p>
+<hr>
+<h3 id="shape">shape<a class="hash" href="#shape" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/ʃeɪp/ &middot; <em>SHAYP</em></dd><dt>Русский</dt><dd>форма, очертание</dd><dt>Plural</dt><dd><em>shapes</em></dd><dt>Countability</dt><dd>countable</dd></dl>
+<p>The outer form of something, seen as an outline.</p>
+<ol><li>The cookies were cut in the <em>shape</em> of stars.</li><li>Draw three different <em>shapes</em> on the board.</li><li>That cloud has a funny <em>shape</em>.</li></ol>
+<hr>
+<h3 id="circle">circle<a class="hash" href="#circle" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/ˈsɜːrkəl/ &middot; <em>SUR-kul</em></dd><dt>Русский</dt><dd>круг, окружность</dd><dt>Plural</dt><dd><em>circles</em></dd><dt>Countability</dt><dd>countable</dd></dl>
+<p>A perfectly round flat shape.</p>
+<ol><li>The kids sat in a <em>circle</em> on the rug.</li><li>She drew a <em>circle</em> around the right answer.</li><li>Cut the dough into small <em>circles</em>.</li></ol>
+<hr>
+<h3 id="triangle">triangle<a class="hash" href="#triangle" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/ˈtraɪæŋɡəl/ &middot; <em>TRY-ang-gul</em></dd><dt>Русский</dt><dd>треугольник</dd><dt>Plural</dt><dd><em>triangles</em></dd><dt>Countability</dt><dd>countable</dd></dl>
+<p>A flat shape with three straight sides and three angles.</p>
+<ol><li>Cut each sandwich into two <em>triangles</em>.</li><li>The roof forms a perfect <em>triangle</em>.</li><li>A <em>triangle</em> has angles that add up to 180 degrees.</li></ol>
+<hr>
+<h3 id="rectangle">rectangle<a class="hash" href="#rectangle" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/ˈrɛktæŋɡəl/ &middot; <em>REK-tang-gul</em></dd><dt>Русский</dt><dd>прямоугольник</dd><dt>Plural</dt><dd><em>rectangles</em></dd><dt>Countability</dt><dd>countable</dd></dl>
+<p>A flat shape with four right angles and opposite sides of equal length.</p>
+<ol><li>The screen is a wide <em>rectangle</em>.</li><li>Draw a <em>rectangle</em> twice as long as it is tall.</li><li>Most doors are simple <em>rectangles</em>.</li></ol>
+<hr>
+<h3 id="oval">oval<a class="hash" href="#oval" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/ˈoʊvəl/ &middot; <em>OH-vul</em></dd><dt>Русский</dt><dd>овал</dd><dt>Plural</dt><dd><em>ovals</em></dd><dt>Countability</dt><dd>countable</dd></dl>
+<p>A shape like a slightly flattened circle, similar to an egg.</p>
+<ol><li>The mirror is a tall <em>oval</em>.</li><li>She has a narrow face, almost a perfect <em>oval</em>.</li><li>The track is made of two straight lines and two <em>ovals</em>.</li></ol>
+<hr>
+<h3 id="ellipse">ellipse<a class="hash" href="#ellipse" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/ɪˈlɪps/ &middot; <em>ih-LIPS</em></dd><dt>Русский</dt><dd>эллипс</dd><dt>Plural</dt><dd><em>ellipses</em></dd><dt>Countability</dt><dd>countable</dd></dl>
+<p>A regular oval curve, like a circle seen from an angle.</p>
+<ol><li>The planet moves in an <em>ellipse</em> around the sun.</li><li>He stretched the circle into an <em>ellipse</em>.</li><li>The graph showed two overlapping <em>ellipses</em>.</li></ol>
+<hr>
+<h3 id="semicircle">semicircle<a class="hash" href="#semicircle" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/ˈsɛmiˌsɜːrkəl/ &middot; <em>SEM-ee-sur-kul</em></dd><dt>Русский</dt><dd>полукруг</dd><dt>Plural</dt><dd><em>semicircles</em></dd><dt>Countability</dt><dd>countable</dd></dl>
+<p>Half of a circle.</p>
+<ol><li>The chairs were arranged in a <em>semicircle</em>.</li><li>Cut the pita in half to make two <em>semicircles</em>.</li><li>The window above the door is a small <em>semicircle</em>.</li></ol>
+<hr>
+<h3 id="hexagon">hexagon<a class="hash" href="#hexagon" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/ˈhɛksəɡɑːn/ &middot; <em>HEK-suh-gahn</em></dd><dt>Русский</dt><dd>шестиугольник</dd><dt>Plural</dt><dd><em>hexagons</em></dd><dt>Countability</dt><dd>countable</dd></dl>
+<p>A flat shape with six straight sides.</p>
+<ol><li>Each cell in a honeycomb is a tiny <em>hexagon</em>.</li><li>The floor tiles are white <em>hexagons</em>.</li><li>A stop sign is an octagon, not a <em>hexagon</em>.</li></ol>
+<hr>
+<h3 id="pentagon">pentagon<a class="hash" href="#pentagon" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/ˈpɛntəɡɑːn/ &middot; <em>PEN-tuh-gahn</em></dd><dt>Русский</dt><dd>пятиугольник</dd><dt>Plural</dt><dd><em>pentagons</em></dd><dt>Countability</dt><dd>countable</dd></dl>
+<p>A flat shape with five straight sides.</p>
+<ol><li>A soccer ball is covered with <em>pentagons</em> and hexagons.</li><li>Draw a <em>pentagon</em> with equal sides.</li><li>The garden plot is shaped like a <em>pentagon</em>.</li></ol>
+<hr>
+<h3 id="octagon">octagon<a class="hash" href="#octagon" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/ˈɑːktəɡɑːn/ &middot; <em>AHK-tuh-gahn</em></dd><dt>Русский</dt><dd>восьмиугольник</dd><dt>Plural</dt><dd><em>octagons</em></dd><dt>Countability</dt><dd>countable</dd></dl>
+<p>A flat shape with eight straight sides.</p>
+<ol><li>A stop sign is a red <em>octagon</em>.</li><li>The gazebo is built as an <em>octagon</em>.</li><li>The kids learned to draw <em>octagons</em> in art class.</li></ol>
+<hr>
+<h3 id="polygon">polygon<a class="hash" href="#polygon" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/ˈpɑːliɡɑːn/ &middot; <em>PAH-lee-gahn</em></dd><dt>Русский</dt><dd>многоугольник</dd><dt>Plural</dt><dd><em>polygons</em></dd><dt>Countability</dt><dd>countable</dd></dl>
+<p>Any flat shape made of three or more straight sides.</p>
+<ol><li>A triangle is the simplest <em>polygon</em>.</li><li>The video game renders thousands of <em>polygons</em> per second.</li><li>Name each <em>polygon</em> by its number of sides.</li></ol>
+<hr>
+<h3 id="rhombus">rhombus<a class="hash" href="#rhombus" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/ˈrɑːmbəs/ &middot; <em>RAHM-bus</em></dd><dt>Русский</dt><dd>ромб</dd><dt>Plural</dt><dd><em>rhombuses</em></dd><dt>Countability</dt><dd>countable</dd><dt>Contrast</dt><dd>The h is silent: RAHM-bus. The plural is usually rhombuses, but the Latin plural rhombi (RAHM-by) also appears in math books.</dd></dl>
+<p>A flat shape with four equal sides and angles that are not right angles.</p>
+<ol><li>A <em>rhombus</em> looks like a squashed square.</li><li>The kite is shaped like a <em>rhombus</em>.</li><li>Draw two <em>rhombuses</em> side by side.</li></ol>
+<hr>
+<h3 id="trapezoid">trapezoid<a class="hash" href="#trapezoid" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/ˈtræpəzɔɪd/ &middot; <em>TRAP-uh-zoyd</em></dd><dt>Русский</dt><dd>трапеция</dd><dt>Plural</dt><dd><em>trapezoids</em></dd><dt>Countability</dt><dd>countable</dd><dt>Contrast</dt><dd>In American English this shape is a trapezoid; in British English it is a trapezium.</dd></dl>
+<p>A flat four-sided shape with one pair of parallel sides.</p>
+<ol><li>The lampshade is shaped like a <em>trapezoid</em>.</li><li>Find the area of the <em>trapezoid</em>.</li><li>The flower bed was laid out in two <em>trapezoids</em>.</li></ol>
+<hr>
+<h3 id="sphere">sphere<a class="hash" href="#sphere" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/sfɪr/ &middot; <em>SFEER</em></dd><dt>Русский</dt><dd>сфера, шар</dd><dt>Plural</dt><dd><em>spheres</em></dd><dt>Countability</dt><dd>countable</dd></dl>
+<p>A perfectly round solid object, like a ball.</p>
+<ol><li>The earth is not a perfect <em>sphere</em>.</li><li>The lamp is a frosted glass <em>sphere</em>.</li><li>We made <em>spheres</em> out of clay.</li></ol>
+<hr>
+<h3 id="cube">cube<a class="hash" href="#cube" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/kjuːb/ &middot; <em>KYOOB</em></dd><dt>Русский</dt><dd>куб, кубик</dd><dt>Plural</dt><dd><em>cubes</em></dd><dt>Countability</dt><dd>countable</dd></dl>
+<p>A solid shape with six equal square faces.</p>
+<ol><li>Drop two <em>cubes</em> of ice in the glass.</li><li>The box is a perfect <em>cube</em>.</li><li>Cut the cheese into small <em>cubes</em>.</li></ol>
+<hr>
+<h3 id="cone">cone<a class="hash" href="#cone" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/koʊn/ &middot; <em>KOHN</em></dd><dt>Русский</dt><dd>конус</dd><dt>Plural</dt><dd><em>cones</em></dd><dt>Countability</dt><dd>countable</dd></dl>
+<p>A solid shape with a round base that narrows to a point at the top.</p>
+<ol><li>Orange <em>cones</em> blocked off the lane.</li><li>Roll the paper into a <em>cone</em>.</li><li>The mountain rises in a near-perfect <em>cone</em>.</li></ol>
+<hr>
+<h3 id="pyramid">pyramid<a class="hash" href="#pyramid" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/ˈpɪrəmɪd/ &middot; <em>PIR-uh-mid</em></dd><dt>Русский</dt><dd>пирамида</dd><dt>Plural</dt><dd><em>pyramids</em></dd><dt>Countability</dt><dd>countable</dd></dl>
+<p>A solid shape with a flat base and triangular sides meeting at a point.</p>
+<ol><li>The kids stacked the blocks into a <em>pyramid</em>.</li><li>The chart is shaped like a <em>pyramid</em>.</li><li>We built two paper <em>pyramids</em> for the science fair.</li></ol>
+<hr>
+<h3 id="line">line<a class="hash" href="#line" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/laɪn/ &middot; <em>LYNE</em></dd><dt>Русский</dt><dd>линия, черта</dd><dt>Plural</dt><dd><em>lines</em></dd><dt>Countability</dt><dd>countable</dd></dl>
+<p>A long thin mark on a surface.</p>
+<ol><li>Draw a straight <em>line</em> from corner to corner.</li><li>Write your name on the dotted <em>line</em>.</li><li>The parking <em>lines</em> had faded away.</li></ol>
+<hr>
+<h3 id="dot">dot<a class="hash" href="#dot" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/dɑːt/ &middot; <em>DAHT</em></dd><dt>Русский</dt><dd>точка, крапинка</dd><dt>Plural</dt><dd><em>dots</em></dd><dt>Countability</dt><dd>countable</dd></dl>
+<p>A very small round mark.</p>
+<ol><li>Her dress is navy with white <em>dots</em>.</li><li>From the plane the cars looked like tiny <em>dots</em>.</li><li>Put a <em>dot</em> over the i.</li></ol>
+<hr>
+<h3 id="point">point<a class="hash" href="#point" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/pɔɪnt/ &middot; <em>POYNT</em></dd><dt>Русский</dt><dd>точка; острый конец</dd><dt>Plural</dt><dd><em>points</em></dd><dt>Countability</dt><dd>countable</dd></dl>
+<p>An exact spot, or the sharp end of something.</p>
+<ol><li>Mark the <em>point</em> where the two lines cross.</li><li>The pencil has a very sharp <em>point</em>.</li><li>Connect the <em>points</em> with a ruler.</li></ol>
+<hr>
+<h3 id="spot">spot<a class="hash" href="#spot" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/spɑːt/ &middot; <em>SPAHT</em></dd><dt>Русский</dt><dd>пятно, пятнышко</dd><dt>Plural</dt><dd><em>spots</em></dd><dt>Countability</dt><dd>countable</dd></dl>
+<p>A small round mark of a different color from what is around it.</p>
+<ol><li>There is a grease <em>spot</em> on your tie.</li><li>The puppy is white with brown <em>spots</em>.</li><li>I got a coffee <em>spot</em> on the rug.</li></ol>
+<hr>
+<h3 id="stripe">stripe<a class="hash" href="#stripe" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/straɪp/ &middot; <em>STRYPE</em></dd><dt>Русский</dt><dd>полоса, полоска</dd><dt>Plural</dt><dd><em>stripes</em></dd><dt>Countability</dt><dd>countable</dd></dl>
+<p>A long narrow band of color.</p>
+<ol><li>His shirt has thin blue <em>stripes</em>.</li><li>A yellow <em>stripe</em> runs down the middle of the road.</li><li>Zebras have black and white <em>stripes</em>.</li></ol>
+<hr>
+<h3 id="curve">curve<a class="hash" href="#curve" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/kɜːrv/ &middot; <em>KURV</em></dd><dt>Русский</dt><dd>кривая, изгиб</dd><dt>Plural</dt><dd><em>curves</em></dd><dt>Countability</dt><dd>countable</dd></dl>
+<p>A line that bends smoothly without any sharp angles.</p>
+<ol><li>Slow down before the <em>curve</em> in the road.</li><li>The chair follows the <em>curve</em> of your back.</li><li>The graph shows two rising <em>curves</em>.</li></ol>
+<hr>
+<h3 id="arc">arc<a class="hash" href="#arc" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/ɑːrk/ &middot; <em>AHRK</em></dd><dt>Русский</dt><dd>дуга</dd><dt>Plural</dt><dd><em>arcs</em></dd><dt>Countability</dt><dd>countable</dd><dt>Contrast</dt><dd>Sounds exactly like ark, the boat in the flood story.</dd></dl>
+<p>A curved line that forms part of a circle.</p>
+<ol><li>The ball rose in a high <em>arc</em> over the fence.</li><li>Draw an <em>arc</em> with the compass.</li><li>The sprinkler sprayed water in wide <em>arcs</em>.</li></ol>
+<hr>
+<h3 id="bend">bend<a class="hash" href="#bend" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/bɛnd/ &middot; <em>BEND</em></dd><dt>Русский</dt><dd>изгиб, поворот</dd><dt>Plural</dt><dd><em>bends</em></dd><dt>Countability</dt><dd>countable</dd></dl>
+<p>A place where something turns or curves.</p>
+<ol><li>The cabin is just past the <em>bend</em> in the river.</li><li>There is a sharp <em>bend</em> in the pipe.</li><li>Take the next two <em>bends</em> slowly.</li></ol>
+<hr>
+<h3 id="loop">loop<a class="hash" href="#loop" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/luːp/ &middot; <em>LOOP</em></dd><dt>Русский</dt><dd>петля</dd><dt>Plural</dt><dd><em>loops</em></dd><dt>Countability</dt><dd>countable</dd></dl>
+<p>A shape made when a line curves around and crosses itself.</p>
+<ol><li>Make a <em>loop</em> with the shoelace.</li><li>Her handwriting is full of fancy <em>loops</em>.</li><li>The roller coaster does a full <em>loop</em>.</li></ol>
+<hr>
+<h3 id="spiral">spiral<a class="hash" href="#spiral" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/ˈspaɪrəl/ &middot; <em>SPY-rul</em></dd><dt>Русский</dt><dd>спираль</dd><dt>Plural</dt><dd><em>spirals</em></dd><dt>Countability</dt><dd>countable</dd></dl>
+<p>A curve that winds around a center point, getting wider or tighter.</p>
+<ol><li>The staircase climbs in a tight <em>spiral</em>.</li><li>A snail shell is a natural <em>spiral</em>.</li><li>She doodled little <em>spirals</em> in the margin.</li></ol>
+<hr>
+<h3 id="coil">coil<a class="hash" href="#coil" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/kɔɪl/ &middot; <em>KOYL</em></dd><dt>Русский</dt><dd>виток, моток (спираль)</dd><dt>Plural</dt><dd><em>coils</em></dd><dt>Countability</dt><dd>countable</dd></dl>
+<p>A length of something wound into a series of rings.</p>
+<ol><li>A <em>coil</em> of rope hung by the door.</li><li>The heating <em>coils</em> glowed red.</li><li>He unwound the <em>coil</em> of wire.</li></ol>
+<hr>
+<h3 id="twist">twist<a class="hash" href="#twist" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/twɪst/ &middot; <em>TWIST</em></dd><dt>Русский</dt><dd>изгиб, виток, поворот</dd><dt>Plural</dt><dd><em>twists</em></dd><dt>Countability</dt><dd>countable</dd></dl>
+<p>A bend or turn in something long and thin.</p>
+<ol><li>The path has more <em>twists</em> than I remembered.</li><li>Give the wire one more <em>twist</em>.</li><li>There is a <em>twist</em> in the cord behind the desk.</li></ol>
+<hr>
+<h3 id="zigzag">zigzag<a class="hash" href="#zigzag" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/ˈzɪɡzæɡ/ &middot; <em>ZIG-zag</em></dd><dt>Русский</dt><dd>зигзаг</dd><dt>Plural</dt><dd><em>zigzags</em></dd><dt>Countability</dt><dd>countable</dd></dl>
+<p>A line that turns sharply left and right again and again.</p>
+<ol><li>The trail climbs the hill in a <em>zigzag</em>.</li><li>Her sweater has red <em>zigzags</em> across the front.</li><li>Lightning cut a bright <em>zigzag</em> through the clouds.</li></ol>
+<hr>
+<h3 id="side">side<a class="hash" href="#side" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/saɪd/ &middot; <em>SYDE</em></dd><dt>Русский</dt><dd>сторона</dd><dt>Plural</dt><dd><em>sides</em></dd><dt>Countability</dt><dd>countable</dd></dl>
+<p>One of the flat surfaces or straight edges that form a shape.</p>
+<ol><li>A triangle has three <em>sides</em>.</li><li>Write on one <em>side</em> of the paper only.</li><li>The box is dented on the left <em>side</em>.</li></ol>
+<hr>
+<h3 id="edge">edge<a class="hash" href="#edge" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/ɛdʒ/ &middot; <em>EJ</em></dd><dt>Русский</dt><dd>край, кромка</dd><dt>Plural</dt><dd><em>edges</em></dd><dt>Countability</dt><dd>countable</dd></dl>
+<p>The outer line or border where something ends.</p>
+<ol><li>Careful, the <em>edge</em> of that paper is sharp.</li><li>He sat on the <em>edge</em> of the bed.</li><li>Sand the rough <em>edges</em> smooth.</li></ol>
+<hr>
+<h3 id="surface">surface<a class="hash" href="#surface" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/ˈsɜːrfɪs/ &middot; <em>SUR-fiss</em></dd><dt>Русский</dt><dd>поверхность</dd><dt>Plural</dt><dd><em>surfaces</em></dd><dt>Countability</dt><dd>countable</dd></dl>
+<p>The outside or top layer of something.</p>
+<ol><li>Wipe the <em>surface</em> before you paint it.</li><li>Leaves floated on the <em>surface</em> of the pond.</li><li>Clean all the kitchen <em>surfaces</em>.</li></ol>
+<hr>
+<h3 id="grid">grid<a class="hash" href="#grid" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/ɡrɪd/ &middot; <em>GRID</em></dd><dt>Русский</dt><dd>сетка, решётка</dd><dt>Plural</dt><dd><em>grids</em></dd><dt>Countability</dt><dd>countable</dd></dl>
+<p>A pattern of straight lines crossing to form squares.</p>
+<ol><li>The city is laid out on a <em>grid</em>.</li><li>Draw a <em>grid</em> of nine squares.</li><li>Photos are arranged in neat <em>grids</em> on the page.</li></ol>
+<hr>
+<h3 id="contour">contour<a class="hash" href="#contour" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/ˈkɑːntʊr/ &middot; <em>KAHN-toor</em></dd><dt>Русский</dt><dd>контур, очертание</dd><dt>Plural</dt><dd><em>contours</em></dd><dt>Countability</dt><dd>countable</dd></dl>
+<p>The outline or curved shape of a surface.</p>
+<ol><li>The seat follows the <em>contours</em> of your body.</li><li>The map shows the <em>contours</em> of the hillside.</li><li>Sunlight brought out every <em>contour</em> of the rock.</li></ol>
+<hr>
+<h3 id="groove">groove<a class="hash" href="#groove" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/ɡruːv/ &middot; <em>GROOV</em></dd><dt>Русский</dt><dd>канавка, желобок, паз</dd><dt>Plural</dt><dd><em>grooves</em></dd><dt>Countability</dt><dd>countable</dd></dl>
+<p>A long narrow cut in a surface.</p>
+<ol><li>Rainwater runs down the <em>groove</em> in the tile.</li><li>The record has fine <em>grooves</em>.</li><li>Slide the panel into the <em>groove</em>.</li></ol>
+<hr>
+<h3 id="crease">crease<a class="hash" href="#crease" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/kriːs/ &middot; <em>KREESS</em></dd><dt>Русский</dt><dd>складка, залом, сгиб</dd><dt>Plural</dt><dd><em>creases</em></dd><dt>Countability</dt><dd>countable</dd></dl>
+<p>A line made in cloth or paper by folding or crushing it.</p>
+<ol><li>Iron the <em>crease</em> out of the shirt.</li><li>The map has a <em>crease</em> right across the city.</li><li>His pants had sharp <em>creases</em> down the front.</li></ol>
+<hr>
+<h3 id="fold">fold<a class="hash" href="#fold" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/foʊld/ &middot; <em>FOHLD</em></dd><dt>Русский</dt><dd>складка, сгиб</dd><dt>Plural</dt><dd><em>folds</em></dd><dt>Countability</dt><dd>countable</dd></dl>
+<p>A part where something is bent over onto itself.</p>
+<ol><li>Press down along the <em>fold</em>.</li><li>The curtain hangs in soft <em>folds</em>.</li><li>Open the letter at the <em>fold</em>.</li></ol>
+<hr>
+<h3 id="notch">notch<a class="hash" href="#notch" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/nɑːtʃ/ &middot; <em>NAHCH</em></dd><dt>Русский</dt><dd>зарубка, выемка</dd><dt>Plural</dt><dd><em>notches</em></dd><dt>Countability</dt><dd>countable</dd></dl>
+<p>A small V-shaped cut in an edge or surface.</p>
+<ol><li>He cut a <em>notch</em> in the stick to mark the day.</li><li>Tighten the belt one <em>notch</em>.</li><li>There are small <em>notches</em> along the ruler.</li></ol>
+<hr>
+<h3 id="dent">dent<a class="hash" href="#dent" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/dɛnt/ &middot; <em>DENT</em></dd><dt>Русский</dt><dd>вмятина</dd><dt>Plural</dt><dd><em>dents</em></dd><dt>Countability</dt><dd>countable</dd></dl>
+<p>A hollow place in a surface where it has been hit.</p>
+<ol><li>There is a <em>dent</em> in the car door.</li><li>The can has a big <em>dent</em> in the side.</li><li>Small <em>dents</em> covered the old toolbox.</li></ol>
+<hr>
+<h3 id="bump">bump<a class="hash" href="#bump" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/bʌmp/ &middot; <em>BUMP</em></dd><dt>Русский</dt><dd>выпуклость, бугорок, шишка</dd><dt>Plural</dt><dd><em>bumps</em></dd><dt>Countability</dt><dd>countable</dd></dl>
+<p>A raised round part on an otherwise flat surface.</p>
+<ol><li>Slow down, there is a <em>bump</em> in the road.</li><li>He has a <em>bump</em> on his forehead.</li><li>The wall is covered with little <em>bumps</em> of dried paint.</li></ol>
+<hr>
+<h3 id="crack">crack<a class="hash" href="#crack" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/kræk/ &middot; <em>KRAK</em></dd><dt>Русский</dt><dd>трещина</dd><dt>Plural</dt><dd><em>cracks</em></dd><dt>Countability</dt><dd>countable</dd></dl>
+<p>A thin line where something is broken but not in pieces.</p>
+<ol><li>There is a <em>crack</em> in the windshield.</li><li>Weeds grow up through the <em>cracks</em> in the sidewalk.</li><li>A hairline <em>crack</em> runs across the plate.</li></ol>
+<hr>
+<h3 id="bulge">bulge<a class="hash" href="#bulge" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/bʌldʒ/ &middot; <em>BULJ</em></dd><dt>Русский</dt><dd>выпуклость, выступ</dd><dt>Plural</dt><dd><em>bulges</em></dd><dt>Countability</dt><dd>countable</dd></dl>
+<p>A rounded swelling that sticks out from a flat surface.</p>
+<ol><li>There was a strange <em>bulge</em> in his coat pocket.</li><li>The wall has a slight <em>bulge</em> near the floor.</li><li>Water damage left <em>bulges</em> in the ceiling.</li></ol>
+<hr>
+<h3 id="pattern">pattern<a class="hash" href="#pattern" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/ˈpætərn/ &middot; <em>PAT-urn</em></dd><dt>Русский</dt><dd>узор, рисунок (на ткани)</dd><dt>Plural</dt><dd><em>patterns</em></dd><dt>Countability</dt><dd>countable</dd></dl>
+<p>A design of shapes or colors that repeats.</p>
+<ol><li>The wallpaper has a floral <em>pattern</em>.</li><li>I like the tile, but not the <em>pattern</em>.</li><li>The store sells fabric in dozens of <em>patterns</em>.</li></ol>
+<hr>
+<h3 id="plaid">plaid<a class="hash" href="#plaid" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/plæd/ &middot; <em>PLAD</em></dd><dt>Русский</dt><dd>шотландка, клетчатый узор</dd><dt>Plural</dt><dd><em>plaids</em></dd><dt>Countability</dt><dd>countable</dd><dt>Contrast</dt><dd>Spelled with ai but pronounced PLAD, rhyming with sad.</dd></dl>
+<p>A pattern of crossing colored stripes forming squares.</p>
+<ol><li>He always wears a red flannel <em>plaid</em>.</li><li>The blanket is a soft green <em>plaid</em>.</li><li>The store had <em>plaids</em> in every color.</li></ol>
+<hr>
+<h3 id="polka-dot">polka dot<a class="hash" href="#polka-dot" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/ˈpoʊkə ˌdɑːt/ &middot; <em>POH-kuh-daht</em></dd><dt>Русский</dt><dd>горошек (узор в горошек)</dd><dt>Plural</dt><dd><em>polka dots</em></dd><dt>Countability</dt><dd>countable</dd><dt>Contrast</dt><dd>In American speech the l is usually silent here: POH-kuh dot, not POHL-kuh.</dd></dl>
+<p>One of a pattern of evenly spaced round dots on cloth.</p>
+<ol><li>Her blouse is covered in white <em>polka dots</em>.</li><li>I bought a red dress with black <em>polka dots</em>.</li><li>Each <em>polka dot</em> is about the size of a dime.</li></ol>
+<hr>
+<h3 id="checkerboard">checkerboard<a class="hash" href="#checkerboard" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/ˈtʃɛkərbɔːrd/ &middot; <em>CHEK-ur-bord</em></dd><dt>Русский</dt><dd>шахматная доска; узор в клетку</dd><dt>Plural</dt><dd><em>checkerboards</em></dd><dt>Countability</dt><dd>countable</dd><dt>Contrast</dt><dd>American spelling; the British write chequerboard.</dd></dl>
+<p>A board or pattern of alternating light and dark squares.</p>
+<ol><li>The kitchen floor is a black and white <em>checkerboard</em>.</li><li>He set up the <em>checkerboard</em> on the porch.</li><li>The quilt is made of two <em>checkerboards</em> sewn together.</li></ol>
+<hr>
+<h3 id="swirl">swirl<a class="hash" href="#swirl" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/swɜːrl/ &middot; <em>SWURL</em></dd><dt>Русский</dt><dd>завиток, спиральный узор</dd><dt>Plural</dt><dd><em>swirls</em></dd><dt>Countability</dt><dd>countable</dd></dl>
+<p>A twisting curved pattern or movement.</p>
+<ol><li>The ice cream has a <em>swirl</em> of caramel in it.</li><li>Paint the wall with light <em>swirls</em>.</li><li>A <em>swirl</em> of dust rose off the road.</li></ol>
+<hr>
+<h3 id="mesh">mesh<a class="hash" href="#mesh" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/mɛʃ/ &middot; <em>MESH</em></dd><dt>Русский</dt><dd>сетка</dd><dt>Plural</dt><dd><em>meshes</em></dd><dt>Countability</dt><dd>countable, and uncountable as a substance</dd></dl>
+<p>Material made of threads or wires with small open spaces between them.</p>
+<ol><li>The screen door is fine wire <em>mesh</em>.</li><li>Onions come in a plastic <em>mesh</em> bag.</li><li>The sports shirt has <em>mesh</em> panels under the arms.</li></ol>
+<hr>
+<h3 id="gradient">gradient<a class="hash" href="#gradient" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/ˈɡreɪdiənt/ &middot; <em>GRAY-dee-unt</em></dd><dt>Русский</dt><dd>градиент, плавный переход цвета</dd><dt>Plural</dt><dd><em>gradients</em></dd><dt>Countability</dt><dd>countable</dd></dl>
+<p>A smooth change from one color or shade to another.</p>
+<ol><li>The background is a blue <em>gradient</em>.</li><li>Add a soft <em>gradient</em> behind the title.</li><li>The poster uses two overlapping <em>gradients</em>.</li></ol>
+<hr>
+<h3 id="design">design<a class="hash" href="#design" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/dɪˈzaɪn/ &middot; <em>dih-ZYNE</em></dd><dt>Русский</dt><dd>узор, рисунок; дизайн</dd><dt>Plural</dt><dd><em>designs</em></dd><dt>Countability</dt><dd>countable</dd><dt>Contrast</dt><dd>The g is silent: dih-ZYNE, never dih-ZIG-n.</dd></dl>
+<p>A pattern or arrangement of lines and shapes made for decoration.</p>
+<ol><li>The rug has a simple geometric <em>design</em>.</li><li>She painted a <em>design</em> on the mailbox.</li><li>The mugs come in four <em>designs</em>.</li></ol>
+<hr>
+<h3 id="color">color<a class="hash" href="#color" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/ˈkʌlər/ &middot; <em>KUL-ur</em></dd><dt>Русский</dt><dd>цвет; окраска</dd><dt>Plural</dt><dd><em>colors</em></dd><dt>Countability</dt><dd>both — countable and uncountable with different meanings</dd><dt>Contrast</dt><dd>American spelling; the British write colour.</dd></dl>
+<p>Red, blue, green and so on, or the quality that makes things look that way.</p>
+<ol><li>What <em>color</em> is your new car?</li><li>The garden is full of <em>color</em> in June.</li><li>The shirt comes in six <em>colors</em>.</li></ol>
+<hr>
+<h3 id="red">red<a class="hash" href="#red" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/rɛd/ &middot; <em>RED</em></dd><dt>Русский</dt><dd>красный цвет</dd><dt>Plural</dt><dd><em>reds</em></dd><dt>Countability</dt><dd>countable</dd><dt>Contrast</dt><dd>Sounds exactly like read in the past tense, as in I read the book yesterday.</dd></dl>
+<p>The color of blood and ripe tomatoes.</p>
+<ol><li><em>Red</em> is her favorite color.</li><li>The painting uses several deep <em>reds</em>.</li><li>That bright <em>red</em> is hard to miss.</li></ol>
+<hr>
+<h3 id="blue">blue<a class="hash" href="#blue" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/bluː/ &middot; <em>BLOO</em></dd><dt>Русский</dt><dd>синий, голубой цвет</dd><dt>Plural</dt><dd><em>blues</em></dd><dt>Countability</dt><dd>countable</dd><dt>Contrast</dt><dd>Sounds exactly like blew, the past tense of blow.</dd></dl>
+<p>The color of a clear sky.</p>
+<ol><li>The walls are painted a soft <em>blue</em>.</li><li>He likes dark <em>blues</em> and grays.</li><li><em>Blue</em> looks good on you.</li></ol>
+<hr>
+<h3 id="green">green<a class="hash" href="#green" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/ɡriːn/ &middot; <em>GREEN</em></dd><dt>Русский</dt><dd>зелёный цвет</dd><dt>Plural</dt><dd><em>greens</em></dd><dt>Countability</dt><dd>countable</dd></dl>
+<p>The color of grass and leaves.</p>
+<ol><li>The kitchen is a pale <em>green</em>.</li><li>The hills show a dozen shades of <em>green</em>.</li><li>She mixed two <em>greens</em> to get the right tone.</li></ol>
+<hr>
+<h3 id="yellow">yellow<a class="hash" href="#yellow" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/ˈjɛloʊ/ &middot; <em>YEL-oh</em></dd><dt>Русский</dt><dd>жёлтый цвет</dd><dt>Plural</dt><dd><em>yellows</em></dd><dt>Countability</dt><dd>countable</dd></dl>
+<p>The color of lemons and school buses.</p>
+<ol><li>The front door is a bright <em>yellow</em>.</li><li><em>Yellow</em> shows dirt easily.</li><li>The room is decorated in soft <em>yellows</em>.</li></ol>
+<hr>
+<h3 id="purple">purple<a class="hash" href="#purple" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/ˈpɜːrpəl/ &middot; <em>PUR-pul</em></dd><dt>Русский</dt><dd>фиолетовый, пурпурный цвет</dd><dt>Plural</dt><dd><em>purples</em></dd><dt>Countability</dt><dd>countable</dd></dl>
+<p>The color made by mixing red and blue.</p>
+<ol><li>Her bedroom is a deep <em>purple</em>.</li><li><em>Purple</em> was the color of kings.</li><li>The sunset turned through several <em>purples</em>.</li></ol>
+<hr>
+<h3 id="pink">pink<a class="hash" href="#pink" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/pɪŋk/ &middot; <em>PINK</em></dd><dt>Русский</dt><dd>розовый цвет</dd><dt>Plural</dt><dd><em>pinks</em></dd><dt>Countability</dt><dd>countable</dd></dl>
+<p>A pale red color, like that of many roses.</p>
+<ol><li>She painted her nails a bright <em>pink</em>.</li><li>The sky faded from orange to <em>pink</em>.</li><li>The catalog shows four different <em>pinks</em>.</li></ol>
+<hr>
+<h3 id="brown">brown<a class="hash" href="#brown" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/braʊn/ &middot; <em>BROWN</em></dd><dt>Русский</dt><dd>коричневый цвет</dd><dt>Plural</dt><dd><em>browns</em></dd><dt>Countability</dt><dd>countable</dd></dl>
+<p>The color of chocolate, coffee, or soil.</p>
+<ol><li>The couch is a warm <em>brown</em>.</li><li>The forest is all <em>browns</em> and grays in November.</li><li><em>Brown</em> hides stains well.</li></ol>
+<hr>
+<h3 id="black">black<a class="hash" href="#black" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/blæk/ &middot; <em>BLAK</em></dd><dt>Русский</dt><dd>чёрный цвет</dd><dt>Plural</dt><dd><em>blacks</em></dd><dt>Countability</dt><dd>countable</dd></dl>
+<p>The darkest color, the opposite of white.</p>
+<ol><li>She always wears <em>black</em> to work.</li><li>The photo is in <em>black</em> and white.</li><li>The printer is out of <em>black</em>.</li></ol>
+<hr>
+<h3 id="white">white<a class="hash" href="#white" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/waɪt/ &middot; <em>WYTE</em></dd><dt>Русский</dt><dd>белый цвет</dd><dt>Plural</dt><dd><em>whites</em></dd><dt>Countability</dt><dd>countable</dd></dl>
+<p>The lightest color, like fresh snow.</p>
+<ol><li>The trim is painted a clean <em>white</em>.</li><li>Wash the <em>whites</em> separately.</li><li><em>White</em> makes the room look bigger.</li></ol>
+<hr>
+<h3 id="gray">gray<a class="hash" href="#gray" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/ɡreɪ/ &middot; <em>GRAY</em></dd><dt>Русский</dt><dd>серый цвет</dd><dt>Plural</dt><dd><em>grays</em></dd><dt>Countability</dt><dd>countable</dd><dt>Contrast</dt><dd>Americans spell it gray; the British spell it grey.</dd></dl>
+<p>The color between black and white, like storm clouds.</p>
+<ol><li>The sky was a flat <em>gray</em> all day.</li><li>He picked a soft <em>gray</em> for the hallway.</li><li>The paint chips show a dozen <em>grays</em>.</li></ol>
+<hr>
+<h3 id="beige">beige<a class="hash" href="#beige" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/beɪʒ/ &middot; <em>BAYZH</em></dd><dt>Русский</dt><dd>бежевый цвет</dd><dt>Countability</dt><dd>uncountable</dd><dt>Contrast</dt><dd>Ends in the zh sound of measure, not a hard j: BAYZH.</dd></dl>
+<p>A pale sandy brown color.</p>
+<ol><li>The whole office is painted <em>beige</em>.</li><li>She wore a coat in soft <em>beige</em>.</li><li><em>Beige</em> is safe but a little boring.</li></ol>
+<hr>
+<h3 id="tan">tan<a class="hash" href="#tan" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/tæn/ &middot; <em>TAN</em></dd><dt>Русский</dt><dd>светло-коричневый цвет; загар</dd><dt>Plural</dt><dd><em>tans</em></dd><dt>Countability</dt><dd>countable</dd></dl>
+<p>A light yellowish brown, or the browner skin color you get from the sun.</p>
+<ol><li>He wore <em>tan</em> pants and a blue shirt.</li><li>She came back from Florida with a deep <em>tan</em>.</li><li>The store carries the shoe in two <em>tans</em>.</li></ol>
+<hr>
+<h3 id="maroon">maroon<a class="hash" href="#maroon" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/məˈruːn/ &middot; <em>muh-ROON</em></dd><dt>Русский</dt><dd>тёмно-бордовый цвет</dd><dt>Countability</dt><dd>uncountable</dd></dl>
+<p>A dark brownish red.</p>
+<ol><li>The school colors are <em>maroon</em> and gold.</li><li>She bought a scarf in deep <em>maroon</em>.</li><li>The seats are covered in <em>maroon</em> velvet.</li></ol>
+<hr>
+<h3 id="crimson">crimson<a class="hash" href="#crimson" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/ˈkrɪmzən/ &middot; <em>KRIM-zun</em></dd><dt>Русский</dt><dd>малиновый, багровый цвет</dd><dt>Countability</dt><dd>uncountable</dd></dl>
+<p>A deep rich red.</p>
+<ol><li>The maple leaves turned a brilliant <em>crimson</em>.</li><li>She blushed <em>crimson</em>.</li><li>The banner is <em>crimson</em> with white letters.</li></ol>
+<hr>
+<h3 id="scarlet">scarlet<a class="hash" href="#scarlet" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/ˈskɑːrlət/ &middot; <em>SKAR-lut</em></dd><dt>Русский</dt><dd>алый цвет</dd><dt>Countability</dt><dd>uncountable</dd></dl>
+<p>A bright red with a slight orange tone.</p>
+<ol><li>The cardinal is a flash of <em>scarlet</em> in the snow.</li><li>She wore <em>scarlet</em> to the party.</li><li>The poppies were a solid field of <em>scarlet</em>.</li></ol>
+<hr>
+<h3 id="teal">teal<a class="hash" href="#teal" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/tiːl/ &middot; <em>TEEL</em></dd><dt>Русский</dt><dd>сине-зелёный цвет, бирюзовый</dd><dt>Countability</dt><dd>uncountable</dd></dl>
+<p>A dark blue-green color.</p>
+<ol><li>The bathroom tile is a soft <em>teal</em>.</li><li>I love that jacket in <em>teal</em>.</li><li><em>Teal</em> looks good next to gray.</li></ol>
+<hr>
+<h3 id="magenta">magenta<a class="hash" href="#magenta" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/məˈdʒɛntə/ &middot; <em>muh-JEN-tuh</em></dd><dt>Русский</dt><dd>пурпурный цвет, фуксия</dd><dt>Countability</dt><dd>uncountable</dd></dl>
+<p>A bright purplish pink.</p>
+<ol><li>The printer is low on <em>magenta</em>.</li><li>The flowers are a shocking <em>magenta</em>.</li><li>She highlighted the text in <em>magenta</em>.</li></ol>
+<hr>
+<h3 id="indigo">indigo<a class="hash" href="#indigo" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/ˈɪndɪɡoʊ/ &middot; <em>IN-dih-goh</em></dd><dt>Русский</dt><dd>индиго (тёмно-синий цвет)</dd><dt>Countability</dt><dd>uncountable</dd></dl>
+<p>A deep blue color with a hint of violet.</p>
+<ol><li>Real jeans are dyed with <em>indigo</em>.</li><li>The sky over the desert was pure <em>indigo</em>.</li><li>The scarf is <em>indigo</em> with silver thread.</li></ol>
+<hr>
+<h3 id="olive">olive<a class="hash" href="#olive" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/ˈɑːlɪv/ &middot; <em>AH-liv</em></dd><dt>Русский</dt><dd>оливковый цвет</dd><dt>Countability</dt><dd>uncountable</dd></dl>
+<p>A dull yellowish green.</p>
+<ol><li>The jacket comes in black or <em>olive</em>.</li><li>The walls were painted a muddy <em>olive</em>.</li><li><em>Olive</em> was everywhere in military clothing.</li></ol>
+<hr>
+<h3 id="khaki">khaki<a class="hash" href="#khaki" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/ˈkæki/ &middot; <em>KAK-ee</em></dd><dt>Русский</dt><dd>хаки (жёлто-коричневый цвет)</dd><dt>Plural</dt><dd><em>khakis</em></dd><dt>Countability</dt><dd>countable</dd><dt>Contrast</dt><dd>Americans say KAK-ee; the British say KAH-kee. In the plural, khakis usually means khaki pants.</dd></dl>
+<p>A dull yellowish brown, often used for uniforms and pants.</p>
+<ol><li>He showed up in <em>khaki</em> and a polo shirt.</li><li>The tent is <em>khaki</em> so it blends in.</li><li>I keep two pairs of <em>khakis</em> for work.</li></ol>
+<hr>
+<h3 id="burgundy">burgundy<a class="hash" href="#burgundy" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/ˈbɜːrɡəndi/ &middot; <em>BUR-gun-dee</em></dd><dt>Русский</dt><dd>бордовый цвет</dd><dt>Countability</dt><dd>uncountable</dd></dl>
+<p>A deep purplish red, like red wine.</p>
+<ol><li>The couch is a rich <em>burgundy</em>.</li><li>She chose <em>burgundy</em> for the bridesmaid dresses.</li><li>His tie is <em>burgundy</em> with thin stripes.</li></ol>
+<hr>
+<h3 id="cyan">cyan<a class="hash" href="#cyan" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/ˈsaɪæn/ &middot; <em>SY-an</em></dd><dt>Русский</dt><dd>голубой цвет, циан</dd><dt>Countability</dt><dd>uncountable</dd></dl>
+<p>A greenish blue, one of the basic printing colors.</p>
+<ol><li>The <em>cyan</em> cartridge is empty.</li><li>Printers mix <em>cyan</em>, magenta, yellow, and black.</li><li>The logo is a bright <em>cyan</em>.</li></ol>
+<hr>
+<h3 id="blonde">blonde<a class="hash" href="#blonde" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/blɑːnd/ &middot; <em>BLAHND</em></dd><dt>Русский</dt><dd>блондинка</dd><dt>Plural</dt><dd><em>blondes</em></dd><dt>Countability</dt><dd>countable</dd><dt>Contrast</dt><dd>Blonde with an e usually describes a woman; blond without it is used for men and for hair color in general.</dd></dl>
+<p>A woman or girl with light-colored hair.</p>
+<ol><li>She is a natural <em>blonde</em>.</li><li>Two <em>blondes</em> were sitting at the next table.</li><li>My sister was a <em>blonde</em> until she was ten.</li></ol>
+<hr>
+<h3 id="brunette">brunette<a class="hash" href="#brunette" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/bruːˈnɛt/ &middot; <em>broo-NET</em></dd><dt>Русский</dt><dd>брюнетка, шатенка</dd><dt>Plural</dt><dd><em>brunettes</em></dd><dt>Countability</dt><dd>countable</dd></dl>
+<p>A woman or girl with dark brown hair.</p>
+<ol><li>She was a tall <em>brunette</em> in a red coat.</li><li>Both <em>brunettes</em> were on the swim team.</li><li>He always said he preferred <em>brunettes</em>.</li></ol>
+<hr>
+<h3 id="tint">tint<a class="hash" href="#tint" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/tɪnt/ &middot; <em>TINT</em></dd><dt>Русский</dt><dd>оттенок, лёгкий тон</dd><dt>Plural</dt><dd><em>tints</em></dd><dt>Countability</dt><dd>countable</dd></dl>
+<p>A small amount of a color added to something, making it lighter.</p>
+<ol><li>The white paint has a pink <em>tint</em>.</li><li>The windows have a gray <em>tint</em>.</li><li>Choose from four <em>tints</em> of gray.</li></ol>
+<hr>
+<h3 id="tone">tone<a class="hash" href="#tone" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/toʊn/ &middot; <em>TOHN</em></dd><dt>Русский</dt><dd>тон (цвета)</dd><dt>Plural</dt><dd><em>tones</em></dd><dt>Countability</dt><dd>countable</dd></dl>
+<p>A shade of a color, especially how light or dark it is.</p>
+<ol><li>The room is done in warm earth <em>tones</em>.</li><li>Pick a <em>tone</em> that matches your skin.</li><li>The photo has a bluish <em>tone</em>.</li></ol>
+<hr>
+<h3 id="brightness">brightness<a class="hash" href="#brightness" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/ˈbraɪtnəs/ &middot; <em>BRYTE-nus</em></dd><dt>Русский</dt><dd>яркость</dd><dt>Countability</dt><dd>uncountable</dd></dl>
+<p>How much light something gives off or reflects.</p>
+<ol><li>Turn down the <em>brightness</em> on your screen.</li><li>The <em>brightness</em> of the snow hurt my eyes.</li><li>You can adjust the <em>brightness</em> in the settings.</li></ol>
+<hr>
+<h3 id="glow">glow<a class="hash" href="#glow" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/ɡloʊ/ &middot; <em>GLOH</em></dd><dt>Русский</dt><dd>свечение; румянец</dd><dt>Plural</dt><dd><em>glows</em></dd><dt>Countability</dt><dd>countable</dd></dl>
+<p>A soft steady light, or a warm color in someone's face.</p>
+<ol><li>A faint <em>glow</em> came from under the door.</li><li>Her cheeks had a healthy <em>glow</em>.</li><li>The city gave off an orange <em>glow</em> all night.</li></ol>
+<hr>
+<h3 id="shine">shine<a class="hash" href="#shine" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/ʃaɪn/ &middot; <em>SHYNE</em></dd><dt>Русский</dt><dd>блеск</dd><dt>Countability</dt><dd>uncountable</dd></dl>
+<p>The bright look of a smooth clean surface.</p>
+<ol><li>The floor has a beautiful <em>shine</em>.</li><li>Rain took the <em>shine</em> right off the car.</li><li>Buff the table to bring back its <em>shine</em>.</li></ol>
+<hr>
+<h3 id="gloss">gloss<a class="hash" href="#gloss" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/ɡlɔːs/ &middot; <em>GLAWSS</em></dd><dt>Русский</dt><dd>глянец, блеск</dd><dt>Countability</dt><dd>uncountable</dd></dl>
+<p>A smooth shiny finish on a surface.</p>
+<ol><li>The paint dries to a high <em>gloss</em>.</li><li>Her hair had a beautiful <em>gloss</em>.</li><li>We chose <em>gloss</em> rather than flat for the trim.</li></ol>
+<hr>
+<h3 id="sheen">sheen<a class="hash" href="#sheen" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/ʃiːn/ &middot; <em>SHEEN</em></dd><dt>Русский</dt><dd>блеск, лоск</dd><dt>Countability</dt><dd>uncountable</dd></dl>
+<p>A soft gentle shine on a surface.</p>
+<ol><li>The silk has a lovely <em>sheen</em>.</li><li>There was a <em>sheen</em> of sweat on his forehead.</li><li>Wax gives the wood a warm <em>sheen</em>.</li></ol>
+<hr>
+<h3 id="luster">luster<a class="hash" href="#luster" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/ˈlʌstər/ &middot; <em>LUS-tur</em></dd><dt>Русский</dt><dd>блеск, лоск</dd><dt>Countability</dt><dd>uncountable</dd><dt>Contrast</dt><dd>American spelling; the British write lustre.</dd></dl>
+<p>The soft glowing shine of something like a pearl or polished metal.</p>
+<ol><li>The old coins have lost their <em>luster</em>.</li><li>Real pearls have a deep <em>luster</em>.</li><li>The conditioner brings back the hair's <em>luster</em>.</li></ol>
+<hr>
+<h3 id="sparkle">sparkle<a class="hash" href="#sparkle" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/ˈspɑːrkəl/ &middot; <em>SPAR-kul</em></dd><dt>Русский</dt><dd>блеск, искры</dd><dt>Countability</dt><dd>uncountable</dd></dl>
+<p>Bright flashing points of light coming off a surface.</p>
+<ol><li>The diamond lost none of its <em>sparkle</em>.</li><li>There was a <em>sparkle</em> in her eyes.</li><li>Fresh snow has a <em>sparkle</em> in the morning sun.</li></ol>
+<hr>
+<h3 id="glitter">glitter<a class="hash" href="#glitter" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/ˈɡlɪtər/ &middot; <em>GLIT-ur</em></dd><dt>Русский</dt><dd>блёстки; блеск</dd><dt>Countability</dt><dd>uncountable</dd></dl>
+<p>Tiny shiny pieces used for decoration, or the light they throw off.</p>
+<ol><li>The card was covered in gold <em>glitter</em>.</li><li>There is <em>glitter</em> all over the kitchen table.</li><li>The dress caught the light with a soft <em>glitter</em>.</li></ol>
+<hr>
+<h3 id="glare">glare<a class="hash" href="#glare" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/ɡlɛr/ &middot; <em>GLAIR</em></dd><dt>Русский</dt><dd>ослепительный свет, блик; сердитый взгляд</dd><dt>Plural</dt><dd><em>glares</em></dd><dt>Countability</dt><dd>both — countable and uncountable with different meanings</dd></dl>
+<p>Light that is too bright to look at, or a long angry look.</p>
+<ol><li>The <em>glare</em> off the water was blinding.</li><li>She gave me a cold <em>glare</em> and walked away.</li><li>The new screen cuts down on <em>glare</em>.</li></ol>
+<hr>
+<h3 id="blur">blur<a class="hash" href="#blur" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/blɜːr/ &middot; <em>BLUR</em></dd><dt>Русский</dt><dd>размытое пятно, расплывчатое изображение</dd><dt>Plural</dt><dd><em>blurs</em></dd><dt>Countability</dt><dd>countable</dd></dl>
+<p>A shape that cannot be seen clearly because its edges are not sharp.</p>
+<ol><li>Without my glasses everything is a <em>blur</em>.</li><li>The car went by in a red <em>blur</em>.</li><li>The photo shows two gray <em>blurs</em> in the background.</li></ol>
+<hr>
+<h3 id="transparency">transparency<a class="hash" href="#transparency" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/trænsˈpɛrənsi/ &middot; <em>trans-PAIR-un-see</em></dd><dt>Русский</dt><dd>прозрачность</dd><dt>Countability</dt><dd>uncountable</dd></dl>
+<p>The quality of letting light through so you can see the other side.</p>
+<ol><li>The glaze keeps the <em>transparency</em> of the glass.</li><li>Reduce the <em>transparency</em> of that layer.</li><li>The plastic loses its <em>transparency</em> over time.</li></ol>
+<hr>
+<h3 id="opacity">opacity<a class="hash" href="#opacity" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/oʊˈpæsəti/ &middot; <em>oh-PAS-uh-tee</em></dd><dt>Русский</dt><dd>непрозрачность</dd><dt>Countability</dt><dd>uncountable</dd></dl>
+<p>The quality of not letting light through.</p>
+<ol><li>Set the <em>opacity</em> to fifty percent.</li><li>Two coats of paint give better <em>opacity</em>.</li><li>The fabric has enough <em>opacity</em> for a curtain.</li></ol>
+<hr>
+<h3 id="appearance">appearance<a class="hash" href="#appearance" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/əˈpɪrəns/ &middot; <em>uh-PEER-unss</em></dd><dt>Русский</dt><dd>внешность, внешний вид</dd><dt>Plural</dt><dd><em>appearances</em></dd><dt>Countability</dt><dd>countable</dd></dl>
+<p>The way someone or something looks.</p>
+<ol><li>He cares a lot about his <em>appearance</em>.</li><li>The house has a neglected <em>appearance</em>.</li><li>Do not judge people by <em>appearances</em>.</li></ol>
+<hr>
+<h3 id="look">look<a class="hash" href="#look" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/lʊk/ &middot; <em>LUUK</em></dd><dt>Русский</dt><dd>вид, внешность, образ</dd><dt>Plural</dt><dd><em>looks</em></dd><dt>Countability</dt><dd>countable</dd></dl>
+<p>The particular appearance or style of a person or thing.</p>
+<ol><li>She has a very natural <em>look</em>.</li><li>White paint gave the room a fresh <em>look</em>.</li><li>The band tried out several different <em>looks</em>.</li></ol>
+<hr>
+<h3 id="resemblance">resemblance<a class="hash" href="#resemblance" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/rɪˈzɛmbləns/ &middot; <em>rih-ZEM-blunss</em></dd><dt>Русский</dt><dd>сходство</dd><dt>Plural</dt><dd><em>resemblances</em></dd><dt>Countability</dt><dd>countable</dd></dl>
+<p>The fact of looking like someone or something else.</p>
+<ol><li>There is a strong <em>resemblance</em> between the two brothers.</li><li>She bears a striking <em>resemblance</em> to her grandmother.</li><li>The drawing has no <em>resemblance</em> to the real building.</li></ol>
+<hr>
+<h3 id="expression">expression<a class="hash" href="#expression" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/ɪkˈsprɛʃən/ &middot; <em>ik-SPRESH-un</em></dd><dt>Русский</dt><dd>выражение лица</dd><dt>Plural</dt><dd><em>expressions</em></dd><dt>Countability</dt><dd>countable</dd></dl>
+<p>The look on someone's face that shows what they feel.</p>
+<ol><li>She had a puzzled <em>expression</em>.</li><li>His <em>expression</em> never changed.</li><li>The photos catch a whole range of <em>expressions</em>.</li></ol>
+<hr>
+<h3 id="build">build<a class="hash" href="#build" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/bɪld/ &middot; <em>BILD</em></dd><dt>Русский</dt><dd>телосложение</dd><dt>Plural</dt><dd><em>builds</em></dd><dt>Countability</dt><dd>countable</dd></dl>
+<p>The general size and shape of a person's body.</p>
+<ol><li>He has a slim <em>build</em>.</li><li>The suspect was of medium <em>build</em>.</li><li>The brothers have completely different <em>builds</em>.</li></ol>
+<hr>
+<h3 id="physique">physique<a class="hash" href="#physique" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/fɪˈziːk/ &middot; <em>fih-ZEEK</em></dd><dt>Русский</dt><dd>телосложение, физическая форма</dd><dt>Plural</dt><dd><em>physiques</em></dd><dt>Countability</dt><dd>countable</dd><dt>Contrast</dt><dd>The ending -que is just a k sound: fih-ZEEK, not fih-ZEE-kwee.</dd></dl>
+<p>The shape and condition of a person's body, especially a muscular one.</p>
+<ol><li>Years of swimming gave him a powerful <em>physique</em>.</li><li>She has the <em>physique</em> of a dancer.</li><li>The magazine is full of impossible <em>physiques</em>.</li></ol>
+<hr>
+<h3 id="posture">posture<a class="hash" href="#posture" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/ˈpɑːstʃər/ &middot; <em>PAHSS-chur</em></dd><dt>Русский</dt><dd>осанка</dd><dt>Countability</dt><dd>uncountable</dd></dl>
+<p>The way you hold your body when you stand or sit.</p>
+<ol><li>Sitting all day is bad for your <em>posture</em>.</li><li>She has excellent <em>posture</em>.</li><li>The trainer worked on his <em>posture</em> first.</li></ol>
+<hr>
+<h3 id="stature">stature<a class="hash" href="#stature" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/ˈstætʃər/ &middot; <em>STACH-ur</em></dd><dt>Русский</dt><dd>рост (человека)</dd><dt>Countability</dt><dd>uncountable</dd></dl>
+<p>A person's natural height.</p>
+<ol><li>He is small in <em>stature</em> but very strong.</li><li>Her <em>stature</em> made her easy to spot in a crowd.</li><li>Jockeys tend to be short in <em>stature</em>.</li></ol>
+<hr>
+<h3 id="hairstyle">hairstyle<a class="hash" href="#hairstyle" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/ˈhɛrstaɪl/ &middot; <em>HAIR-styl</em></dd><dt>Русский</dt><dd>причёска</dd><dt>Plural</dt><dd><em>hairstyles</em></dd><dt>Countability</dt><dd>countable</dd></dl>
+<p>The way someone's hair is cut and arranged.</p>
+<ol><li>She changed her <em>hairstyle</em> over the summer.</li><li>That <em>hairstyle</em> really suits you.</li><li>The magazine shows <em>hairstyles</em> from the seventies.</li></ol>
+<hr>
+<h3 id="haircut">haircut<a class="hash" href="#haircut" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/ˈhɛrkʌt/ &middot; <em>HAIR-kut</em></dd><dt>Русский</dt><dd>стрижка</dd><dt>Plural</dt><dd><em>haircuts</em></dd><dt>Countability</dt><dd>countable</dd></dl>
+<p>The act of having your hair cut, or the style that results.</p>
+<ol><li>I need a <em>haircut</em> before the wedding.</li><li>Nice <em>haircut</em>, by the way.</li><li><em>Haircuts</em> are twenty dollars at that place.</li></ol>
+<hr>
+<h3 id="bangs">bangs<a class="hash" href="#bangs" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/bæŋz/ &middot; <em>BANGZ</em></dd><dt>Русский</dt><dd>чёлка</dd><dt>Plural</dt><dd><em>bangs</em></dd><dt>Countability</dt><dd>countable</dd><dt>Contrast</dt><dd>Americans say bangs and always in the plural; the British call the same thing a fringe.</dd></dl>
+<p>Hair cut straight across the forehead.</p>
+<ol><li>She cut her own <em>bangs</em> again.</li><li>His <em>bangs</em> keep falling into his eyes.</li><li>I am growing out my <em>bangs</em>.</li></ol>
+<hr>
+<h3 id="ponytail">ponytail<a class="hash" href="#ponytail" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/ˈpoʊniteɪl/ &middot; <em>POH-nee-tayl</em></dd><dt>Русский</dt><dd>хвост (причёска)</dd><dt>Plural</dt><dd><em>ponytails</em></dd><dt>Countability</dt><dd>countable</dd></dl>
+<p>Hair tied together at the back of the head so it hangs down.</p>
+<ol><li>She pulled her hair back into a <em>ponytail</em>.</li><li>He runs with his hair in a <em>ponytail</em>.</li><li>The girls wore matching <em>ponytails</em>.</li></ol>
+<hr>
+<h3 id="sideburns">sideburns<a class="hash" href="#sideburns" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/ˈsaɪdbɜːrnz/ &middot; <em>SYDE-burnz</em></dd><dt>Русский</dt><dd>бакенбарды</dd><dt>Plural</dt><dd><em>sideburns</em></dd><dt>Countability</dt><dd>countable</dd></dl>
+<p>Hair growing down the sides of a man's face in front of his ears.</p>
+<ol><li>He grew long <em>sideburns</em> in college.</li><li>The barber trimmed his <em>sideburns</em>.</li><li>Those <em>sideburns</em> look very seventies.</li></ol>
+<hr>
+<h3 id="stubble">stubble<a class="hash" href="#stubble" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/ˈstʌbəl/ &middot; <em>STUB-ul</em></dd><dt>Русский</dt><dd>щетина</dd><dt>Countability</dt><dd>uncountable</dd></dl>
+<p>Short hair on a man's face when he has not shaved for a day or two.</p>
+<ol><li>He had two days of <em>stubble</em> on his chin.</li><li>The <em>stubble</em> scratched her cheek.</li><li>A little <em>stubble</em> actually looks good on him.</li></ol>
+<hr>
+<h3 id="curl">curl<a class="hash" href="#curl" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/kɜːrl/ &middot; <em>KURL</em></dd><dt>Русский</dt><dd>локон, завиток</dd><dt>Plural</dt><dd><em>curls</em></dd><dt>Countability</dt><dd>countable</dd></dl>
+<p>A piece of hair that grows or is shaped in a curve.</p>
+<ol><li>A loose <em>curl</em> fell across her forehead.</li><li>The baby has soft blond <em>curls</em>.</li><li>The rain took the <em>curl</em> right out of my hair.</li></ol>
+<hr>
+<h3 id="braid">braid<a class="hash" href="#braid" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/breɪd/ &middot; <em>BRAYD</em></dd><dt>Русский</dt><dd>коса (причёска)</dd><dt>Plural</dt><dd><em>braids</em></dd><dt>Countability</dt><dd>countable</dd><dt>Contrast</dt><dd>Americans say braid; the British usually say plait, pronounced PLAT.</dd></dl>
+<p>Hair divided into three parts and woven together.</p>
+<ol><li>She wears her hair in a long <em>braid</em>.</li><li>Mom put my hair in two <em>braids</em> for school.</li><li>The <em>braid</em> came loose during practice.</li></ol>
+<hr>
+<h3 id="blemish">blemish<a class="hash" href="#blemish" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/ˈblɛmɪʃ/ &middot; <em>BLEM-ish</em></dd><dt>Русский</dt><dd>изъян; пятнышко (на коже)</dd><dt>Plural</dt><dd><em>blemishes</em></dd><dt>Countability</dt><dd>countable</dd></dl>
+<p>A small mark that spoils the look of skin or a surface.</p>
+<ol><li>The cream is supposed to hide <em>blemishes</em>.</li><li>The table is perfect except for one small <em>blemish</em>.</li><li>There was not a single <em>blemish</em> on the fruit.</li></ol>
+<hr>
+<h3 id="scratch">scratch<a class="hash" href="#scratch" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/skrætʃ/ &middot; <em>SKRACH</em></dd><dt>Русский</dt><dd>царапина</dd><dt>Plural</dt><dd><em>scratches</em></dd><dt>Countability</dt><dd>countable</dd></dl>
+<p>A thin shallow mark cut into a surface or the skin.</p>
+<ol><li>There is a <em>scratch</em> on the hood of my car.</li><li>The cat left three <em>scratches</em> on his arm.</li><li>The screen has a tiny <em>scratch</em> in the corner.</li></ol>
+<hr>
+<h3 id="flaw">flaw<a class="hash" href="#flaw" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/flɔː/ &middot; <em>FLAW</em></dd><dt>Русский</dt><dd>изъян, дефект</dd><dt>Plural</dt><dd><em>flaws</em></dd><dt>Countability</dt><dd>countable</dd></dl>
+<p>A small fault that keeps something from being perfect.</p>
+<ol><li>The diamond has one tiny <em>flaw</em>.</li><li>I could not find a single <em>flaw</em> in the finish.</li><li>The fabric has a few <em>flaws</em> in the weave.</li></ol>
+<hr>
+<h3 id="streak">streak<a class="hash" href="#streak" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/striːk/ &middot; <em>STREEK</em></dd><dt>Русский</dt><dd>полоска, прядь; след</dd><dt>Plural</dt><dd><em>streaks</em></dd><dt>Countability</dt><dd>countable</dd></dl>
+<p>A long thin line of a different color from what is around it.</p>
+<ol><li>She has gray <em>streaks</em> in her hair.</li><li>There are dirty <em>streaks</em> on the window.</li><li>A <em>streak</em> of light crossed the ceiling.</li></ol>
+<hr>
+<h3 id="smudge">smudge<a class="hash" href="#smudge" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/smʌdʒ/ &middot; <em>SMUJ</em></dd><dt>Русский</dt><dd>размазанное пятно</dd><dt>Plural</dt><dd><em>smudges</em></dd><dt>Countability</dt><dd>countable</dd></dl>
+<p>A dirty mark made by rubbing something.</p>
+<ol><li>There is an ink <em>smudge</em> on the last page.</li><li>Her glasses were covered in <em>smudges</em>.</li><li>He wiped the <em>smudge</em> off the screen.</li></ol>
+<hr>
+<h3 id="speck">speck<a class="hash" href="#speck" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/spɛk/ &middot; <em>SPEK</em></dd><dt>Русский</dt><dd>крапинка, крошечное пятнышко</dd><dt>Plural</dt><dd><em>specks</em></dd><dt>Countability</dt><dd>countable</dd></dl>
+<p>A very small spot or piece of something.</p>
+<ol><li>There is a <em>speck</em> of dirt on your collar.</li><li><em>Specks</em> of paint covered his hands.</li><li>The boat was just a <em>speck</em> on the horizon.</li></ol>
+<hr>
+<h3 id="mark">mark<a class="hash" href="#mark" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/mɑːrk/ &middot; <em>MARK</em></dd><dt>Русский</dt><dd>след, отметина, пятно</dd><dt>Plural</dt><dd><em>marks</em></dd><dt>Countability</dt><dd>countable</dd></dl>
+<p>A spot or line on a surface that spoils its appearance.</p>
+<ol><li>The glass left a ring <em>mark</em> on the wood.</li><li>There were muddy <em>marks</em> all over the floor.</li><li>The burn left a small <em>mark</em> on her arm.</li></ol></div></main>
+<button class="themebtn" id="themeBtn">Dark</button>
+<script>
+const tb=document.getElementById('themeBtn');
+function setTheme(x){document.documentElement.dataset.theme=x;tb.textContent=x==='dark'?'Light':'Dark';
+ try{localStorage.setItem('site-theme',x)}catch(e){}}
+tb.onclick=()=>setTheme(document.documentElement.dataset.theme==='dark'?'light':'dark');
+try{const s=localStorage.getItem('site-theme');
+ setTheme(s||(matchMedia('(prefers-color-scheme: dark)').matches?'dark':'light'))}catch(e){setTheme('light')}
+</script></body></html>

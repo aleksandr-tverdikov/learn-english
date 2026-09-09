@@ -1,0 +1,806 @@
+<!DOCTYPE html>
+<html lang="en"><head>
+<meta charset="utf-8"><meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Core vocabulary: energy and industry</title>
+<style>
+:root{--bg:#faf9f7;--surface:#fff;--surface2:#f2f0ec;--border:#e2ded6;--text:#1a1815;
+--dim:#5f594f;--faint:#8a8377;--accent:#8a5a3b;--measure:72ch}
+@media(prefers-color-scheme:dark){:root{--bg:#14140f;--surface:#1d1d17;--surface2:#25251d;
+--border:#33332a;--text:#eeeae1;--dim:#a8a293;--faint:#7d776b;--accent:#d09b72}}
+:root[data-theme=dark]{--bg:#14140f;--surface:#1d1d17;--surface2:#25251d;--border:#33332a;
+--text:#eeeae1;--dim:#a8a293;--faint:#7d776b;--accent:#d09b72}
+:root[data-theme=light]{--bg:#faf9f7;--surface:#fff;--surface2:#f2f0ec;--border:#e2ded6;
+--text:#1a1815;--dim:#5f594f;--faint:#8a8377;--accent:#8a5a3b}
+*{box-sizing:border-box}
+body{margin:0;background:var(--bg);color:var(--text);
+font:17px/1.72 ui-serif,Georgia,"Iowan Old Style",Palatino,serif;-webkit-font-smoothing:antialiased}
+.wrap{max-width:min(var(--measure),100%);margin:0 auto;padding:0 22px}
+nav.crumb{border-bottom:1px solid var(--border);padding:13px 0;font-size:13.5px;
+font-family:-apple-system,BlinkMacSystemFont,"Segoe UI",sans-serif;position:sticky;top:0;background:var(--bg);z-index:20}
+nav.crumb .wrap{max-width:none;display:flex;gap:9px;align-items:center;flex-wrap:wrap}
+nav.crumb a{color:var(--dim);text-decoration:none}
+nav.crumb a:hover{color:var(--accent)}
+nav.crumb .sep{color:var(--faint)}
+main{padding:8px 0 80px}
+h1{font-size:clamp(28px,5vw,38px);line-height:1.15;letter-spacing:-.015em;margin:34px 0 18px}
+h2{font-size:25px;margin:46px 0 14px;letter-spacing:-.01em;padding-bottom:7px;border-bottom:1px solid var(--border)}
+h3{font-size:19px;margin:34px 0 10px;color:var(--accent)}
+h4{font-size:16px;margin:24px 0 8px;font-family:-apple-system,sans-serif}
+p{margin:0 0 16px}
+a{color:var(--accent)}
+.hash{opacity:0;margin-left:8px;font-weight:400;font-size:.65em;text-decoration:none;color:var(--faint)}
+h2:hover .hash,h3:hover .hash{opacity:1}
+blockquote{margin:0 0 20px;padding:14px 18px;background:var(--surface2);
+border-left:3px solid var(--accent);border-radius:0 8px 8px 0}
+blockquote p:last-child{margin-bottom:0}
+ol,ul{margin:0 0 18px;padding-left:26px}
+li{margin-bottom:8px}
+li>ul,li>ol{margin:8px 0 0}
+code{font-family:ui-monospace,SFMono-Regular,Menlo,Consolas,monospace;font-size:.87em;
+background:var(--surface2);padding:1px 5px;border-radius:4px}
+pre{background:var(--surface2);border:1px solid var(--border);border-radius:9px;
+padding:15px 17px;overflow-x:auto;margin:0 0 20px}
+pre code{background:none;padding:0;font-size:13px;line-height:1.6}
+.tw{overflow-x:auto;margin:0 0 22px;border:1px solid var(--border);border-radius:9px}
+table{border-collapse:collapse;width:100%;font-size:15px;
+font-family:-apple-system,BlinkMacSystemFont,"Segoe UI",sans-serif}
+th,td{padding:10px 14px;border-bottom:1px solid var(--border);vertical-align:top}
+th{background:var(--surface2);font-size:12px;text-transform:uppercase;
+letter-spacing:.06em;color:var(--dim);font-weight:700;white-space:nowrap}
+tbody tr:last-child td{border-bottom:none}
+hr{border:none;border-top:1px solid var(--border);margin:38px 0}
+details{background:var(--surface2);border:1px solid var(--border);border-radius:9px;
+padding:13px 17px;margin:0 0 20px}
+summary{cursor:pointer;font-weight:600;font-family:-apple-system,sans-serif;font-size:15px}
+details[open] summary{margin-bottom:12px}
+del{color:var(--faint)}
+dl.fields{margin:0 0 20px;padding:0}
+dl.fields dt{font-family:-apple-system,BlinkMacSystemFont,"Segoe UI",sans-serif;
+font-size:11px;letter-spacing:.11em;text-transform:uppercase;color:var(--faint);
+font-weight:700;margin:14px 0 4px}
+dl.fields dt:first-child{margin-top:0}
+dl.fields dd{margin:0;font-size:16px;color:var(--dim);line-height:1.62}
+dl.fields dd em{color:var(--text)}
+dl.fields dt.ru{color:var(--accent)}
+dl.fields dd strong{color:var(--text)}
+.toc{background:var(--surface2);border:1px solid var(--border);border-radius:10px;
+padding:16px 20px;margin:26px 0 34px;font-family:-apple-system,sans-serif;font-size:14px}
+.toc b{display:block;font-size:11px;letter-spacing:.12em;text-transform:uppercase;
+color:var(--faint);margin-bottom:9px}
+.toc a{display:block;padding:3px 0;color:var(--dim);text-decoration:none}
+.toc a:hover{color:var(--accent)}
+.themebtn{position:fixed;right:18px;bottom:18px;z-index:60;font-family:-apple-system,sans-serif;
+font-size:12.5px;font-weight:600;cursor:pointer;background:var(--surface);border:1px solid var(--border);
+border-radius:99px;padding:9px 16px;color:var(--text)}
+@media(max-width:600px){body{font-size:16px}.wrap{padding:0 17px}}
+</style></head><body>
+<nav class="crumb"><div class="wrap"><a href="../../../index.html">Learn English</a><span class="sep">/</span><a href="../../README.html">Parts of speech</a><span class="sep">/</span><a href="../README.html">01-nouns</a><span class="sep">/</span><span>catalog</span></div></nav>
+<main><div class="wrap"><h1 id="core-vocabulary-energy-and-industry">Core vocabulary: energy and industry<a class="hash" href="#core-vocabulary-energy-and-industry" aria-label="link">#</a></h1>
+<blockquote><p>The everyday nouns of energy and industry — pronunciation, Russian, plural, and three examples each.</p></blockquote>
+<p><a href="../README.html">← The grammar of nouns</a> &middot; <a href="README.html">All groups</a></p>
+<p>Part of the <strong>core-vocabulary tier</strong>. Groups 1–23 cover the nouns that misbehave; this tier covers the nouns you simply need to know. Entries are deliberately lean, because a regular countable noun has no grammatical story to tell. A <strong>Contrast</strong> line appears only where the word hides a genuine trap.</p>
+<p>Where a word in this field <em>does</em> misbehave, it lives in the grammar tier instead and is not repeated here.</p>
+<hr>
+<h3 id="fossil-fuel">fossil fuel<a class="hash" href="#fossil-fuel" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/ˈfɑːsəl ˌfjuːəl/ &middot; <em>FAH-suhl fyoo-uhl</em></dd><dt>Русский</dt><dd>ископаемое топливо</dd><dt>Plural</dt><dd><em>fossil fuels</em></dd><dt>Countability</dt><dd>countable</dd></dl>
+<p>A fuel such as coal, oil, or natural gas that formed underground over millions of years.</p>
+<ol><li>Most of our electricity still comes from <em>fossil fuels</em>.</li><li>Coal is the dirtiest <em>fossil fuel</em> we burn.</li><li>The country wants to cut its use of <em>fossil fuels</em> in half.</li></ol>
+<hr>
+<h3 id="crude-oil">crude oil<a class="hash" href="#crude-oil" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/kruːd ˈɔɪl/ &middot; <em>krood OYL</em></dd><dt>Русский</dt><dd>сырая нефть</dd><dt>Countability</dt><dd>uncountable</dd></dl>
+<p>Oil as it comes out of the ground, before it is refined.</p>
+<ol><li>The price of <em>crude oil</em> jumped again this week.</li><li>The tanker was carrying two million barrels of <em>crude oil</em>.</li><li><em>Crude oil</em> has to be refined before you can burn it in a car.</li></ol>
+<hr>
+<h3 id="kerosene">kerosene<a class="hash" href="#kerosene" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/ˈkɛrəsiːn/ &middot; <em>KEH-ruh-seen</em></dd><dt>Русский</dt><dd>керосин</dd><dt>Countability</dt><dd>uncountable</dd><dt>Contrast</dt><dd>Americans call it <em>kerosene</em>; the British say <em>paraffin</em>.</dd></dl>
+<p>A thin oil burned in lamps, heaters, and jet engines.</p>
+<ol><li>We filled the lamp with <em>kerosene</em> before the storm.</li><li>The cabin smelled faintly of <em>kerosene</em>.</li><li><em>Kerosene</em> burns hotter than lamp oil.</li></ol>
+<hr>
+<h3 id="propane">propane<a class="hash" href="#propane" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/ˈproʊpeɪn/ &middot; <em>PROH-payn</em></dd><dt>Русский</dt><dd>пропан</dd><dt>Countability</dt><dd>uncountable</dd></dl>
+<p>A gas stored under pressure in tanks and burned for cooking and heating.</p>
+<ol><li>The grill ran out of <em>propane</em> halfway through dinner.</li><li>Their cabin is heated with <em>propane</em>.</li><li><em>Propane</em> costs less than electricity out here.</li></ol>
+<hr>
+<h3 id="butane">butane<a class="hash" href="#butane" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/ˈbjuːteɪn/ &middot; <em>BYOO-tayn</em></dd><dt>Русский</dt><dd>бутан</dd><dt>Countability</dt><dd>uncountable</dd></dl>
+<p>A gas used in lighters and small camping stoves.</p>
+<ol><li>The lighter takes a small can of <em>butane</em>.</li><li>Campers often cook on <em>butane</em> instead of wood.</li><li><em>Butane</em> turns to liquid under very little pressure.</li></ol>
+<hr>
+<h3 id="methane">methane<a class="hash" href="#methane" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/ˈmɛθeɪn/ &middot; <em>MEH-thayn</em></dd><dt>Русский</dt><dd>метан</dd><dt>Countability</dt><dd>uncountable</dd><dt>Contrast</dt><dd>Americans say MEH-thayn; the British say MEE-thayn.</dd></dl>
+<p>The main gas in natural gas, also released by landfills and cattle.</p>
+<ol><li>The landfill captures <em>methane</em> and burns it for power.</li><li><em>Methane</em> traps far more heat than carbon dioxide does.</li><li>Miners watched carefully for <em>methane</em> underground.</li></ol>
+<hr>
+<h3 id="natural-gas">natural gas<a class="hash" href="#natural-gas" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/ˌnætʃərəl ˈɡæs/ &middot; <em>nach-uh-ruhl GAS</em></dd><dt>Русский</dt><dd>природный газ</dd><dt>Countability</dt><dd>uncountable</dd></dl>
+<p>The gas piped into homes and power plants for heating and cooking.</p>
+<ol><li>Our furnace runs on <em>natural gas</em>.</li><li><em>Natural gas</em> is cheaper here than heating oil.</li><li>The plant switched from coal to <em>natural gas</em>.</li></ol>
+<hr>
+<h3 id="ethanol">ethanol<a class="hash" href="#ethanol" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/ˈɛθənɔːl/ &middot; <em>EH-thuh-nawl</em></dd><dt>Русский</dt><dd>этанол, этиловый спирт</dd><dt>Countability</dt><dd>uncountable</dd></dl>
+<p>Alcohol made from corn or sugar and blended into gasoline as fuel.</p>
+<ol><li>Most gasoline here contains ten percent <em>ethanol</em>.</li><li>Iowa farmers grow a lot of corn for <em>ethanol</em>.</li><li>Older engines can be damaged by too much <em>ethanol</em>.</li></ol>
+<hr>
+<h3 id="biofuel">biofuel<a class="hash" href="#biofuel" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/ˈbaɪoʊˌfjuːəl/ &middot; <em>BY-oh-fyoo-uhl</em></dd><dt>Русский</dt><dd>биотопливо</dd><dt>Plural</dt><dd><em>biofuels</em></dd><dt>Countability</dt><dd>countable, and uncountable as a substance</dd></dl>
+<p>Fuel made from plants, crops, or waste rather than from oil.</p>
+<ol><li>The airline is testing a <em>biofuel</em> made from used cooking oil.</li><li><em>Biofuels</em> still make up a small share of the market.</li><li>Their buses run on <em>biofuel</em> half the year.</li></ol>
+<hr>
+<h3 id="motor-oil">motor oil<a class="hash" href="#motor-oil" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/ˈmoʊtər ˌɔɪl/ &middot; <em>MOH-tur oyl</em></dd><dt>Русский</dt><dd>моторное масло</dd><dt>Countability</dt><dd>uncountable</dd></dl>
+<p>The oil that keeps the moving parts of an engine lubricated.</p>
+<ol><li>Check the <em>motor oil</em> before a long drive.</li><li>He bought five quarts of <em>motor oil</em> at the store.</li><li>Dirty <em>motor oil</em> will wear out an engine fast.</li></ol>
+<hr>
+<h3 id="fuel-oil">fuel oil<a class="hash" href="#fuel-oil" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/ˈfjuːəl ˌɔɪl/ &middot; <em>FYOO-uhl oyl</em></dd><dt>Русский</dt><dd>мазут, жидкое топливо</dd><dt>Countability</dt><dd>uncountable</dd></dl>
+<p>A heavy oil burned in ships, boilers, and industrial furnaces.</p>
+<ol><li>The freighter burns heavy <em>fuel oil</em> at sea.</li><li>The plant keeps a month of <em>fuel oil</em> in storage.</li><li>New rules limit the sulfur in <em>fuel oil</em>.</li></ol>
+<hr>
+<h3 id="heating-oil">heating oil<a class="hash" href="#heating-oil" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/ˈhiːtɪŋ ˌɔɪl/ &middot; <em>HEE-ting oyl</em></dd><dt>Русский</dt><dd>печное топливо</dd><dt>Countability</dt><dd>uncountable</dd></dl>
+<p>Oil delivered to a house and burned in a furnace for warmth.</p>
+<ol><li><em>Heating oil</em> is expensive in New England this winter.</li><li>The truck comes twice a season to deliver <em>heating oil</em>.</li><li>We ran out of <em>heating oil</em> during the cold snap.</li></ol>
+<hr>
+<h3 id="jet-fuel">jet fuel<a class="hash" href="#jet-fuel" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/ˈdʒɛt ˌfjuːəl/ &middot; <em>JET fyoo-uhl</em></dd><dt>Русский</dt><dd>авиационное топливо</dd><dt>Countability</dt><dd>uncountable</dd></dl>
+<p>The refined kerosene that airplanes burn.</p>
+<ol><li><em>Jet fuel</em> prices drive up the cost of a ticket.</li><li>The plane took on forty thousand pounds of <em>jet fuel</em>.</li><li>A pipeline carries <em>jet fuel</em> straight to the airport.</li></ol>
+<hr>
+<h3 id="lubricant">lubricant<a class="hash" href="#lubricant" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/ˈluːbrɪkənt/ &middot; <em>LOO-brih-kuhnt</em></dd><dt>Русский</dt><dd>смазка, смазочный материал</dd><dt>Plural</dt><dd><em>lubricants</em></dd><dt>Countability</dt><dd>countable, and uncountable as a substance</dd></dl>
+<p>An oil or grease that lets moving parts slide without wearing out.</p>
+<ol><li>The bearings need a heavier <em>lubricant</em> in summer.</li><li>The plant makes <em>lubricants</em> for heavy machinery.</li><li>A little <em>lubricant</em> on the chain will stop that noise.</li></ol>
+<hr>
+<h3 id="additive">additive<a class="hash" href="#additive" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/ˈædətɪv/ &middot; <em>AD-uh-tiv</em></dd><dt>Русский</dt><dd>присадка, добавка</dd><dt>Plural</dt><dd><em>additives</em></dd><dt>Countability</dt><dd>countable</dd></dl>
+<p>A substance mixed into fuel or oil in small amounts to improve it.</p>
+<ol><li>He poured a fuel <em>additive</em> into the tank.</li><li>These <em>additives</em> keep the engine cleaner.</li><li>The <em>additive</em> raises the octane a little.</li></ol>
+<hr>
+<h3 id="paraffin">paraffin<a class="hash" href="#paraffin" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/ˈpɛrəfɪn/ &middot; <em>PEH-ruh-fin</em></dd><dt>Русский</dt><dd>парафин</dd><dt>Countability</dt><dd>uncountable</dd><dt>Contrast</dt><dd>In the US <em>paraffin</em> is wax; in Britain it means kerosene.</dd></dl>
+<p>A soft white wax made from petroleum and used in candles and sealing.</p>
+<ol><li>Most cheap candles are made of <em>paraffin</em>.</li><li>She sealed the jars with melted <em>paraffin</em>.</li><li><em>Paraffin</em> melts at a fairly low temperature.</li></ol>
+<hr>
+<h3 id="firewood">firewood<a class="hash" href="#firewood" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/ˈfaɪrrwʊd/ &middot; <em>FYR-wood</em></dd><dt>Русский</dt><dd>дрова</dd><dt>Countability</dt><dd>uncountable</dd></dl>
+<p>Wood cut and dried for burning.</p>
+<ol><li>We stacked the <em>firewood</em> against the north wall.</li><li>He sells <em>firewood</em> by the cord every fall.</li><li>There is still plenty of <em>firewood</em> in the shed.</li></ol>
+<hr>
+<h3 id="kindling">kindling<a class="hash" href="#kindling" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/ˈkɪndlɪŋ/ &middot; <em>KIN-dling</em></dd><dt>Русский</dt><dd>растопка, щепа</dd><dt>Countability</dt><dd>uncountable</dd></dl>
+<p>Small dry sticks used to start a fire.</p>
+<ol><li>Grab some <em>kindling</em> from the porch.</li><li>The <em>kindling</em> was too damp to catch.</li><li>He split a few logs into <em>kindling</em>.</li></ol>
+<hr>
+<h3 id="wood-stove">wood stove<a class="hash" href="#wood-stove" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/ˈwʊd ˌstoʊv/ &middot; <em>WUUD-stohv</em></dd><dt>Русский</dt><dd>дровяная печь</dd><dt>Plural</dt><dd><em>wood stoves</em></dd><dt>Countability</dt><dd>countable</dd></dl>
+<p>An iron stove that burns wood to heat a room.</p>
+<ol><li>The cabin is heated by a single <em>wood stove</em>.</li><li>Old <em>wood stoves</em> put out a lot of smoke.</li><li>She fed another log into the <em>wood stove</em>.</li></ol>
+<hr>
+<h3 id="peat">peat<a class="hash" href="#peat" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/piːt/ &middot; <em>PEET</em></dd><dt>Русский</dt><dd>торф</dd><dt>Countability</dt><dd>uncountable</dd></dl>
+<p>Dark decayed plant matter dug from bogs and dried for fuel.</p>
+<ol><li>They still burn <em>peat</em> in parts of Ireland.</li><li>The bog has been cut for <em>peat</em> for generations.</li><li><em>Peat</em> smoke gives the whisky its flavor.</li></ol>
+<hr>
+<h3 id="pellet">pellet<a class="hash" href="#pellet" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/ˈpɛlɪt/ &middot; <em>PEL-uht</em></dd><dt>Русский</dt><dd>гранула</dd><dt>Plural</dt><dd><em>pellets</em></dd><dt>Countability</dt><dd>countable</dd></dl>
+<p>A small hard lump of compressed material such as sawdust burned as fuel.</p>
+<ol><li>The stove burns wood <em>pellets</em> instead of logs.</li><li>A forty-pound bag of <em>pellets</em> lasts about two days.</li><li>Each <em>pellet</em> is about the size of a grain of rice.</li></ol>
+<hr>
+<h3 id="gas-can">gas can<a class="hash" href="#gas-can" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/ˈɡæs ˌkæn/ &middot; <em>GAS-kan</em></dd><dt>Русский</dt><dd>канистра для бензина</dd><dt>Plural</dt><dd><em>gas cans</em></dd><dt>Countability</dt><dd>countable</dd></dl>
+<p>A plastic or metal container for carrying gasoline.</p>
+<ol><li>There is a red <em>gas can</em> in the garage.</li><li>He walked two miles with an empty <em>gas can</em>.</li><li>Keep the <em>gas cans</em> away from the water heater.</li></ol>
+<hr>
+<h3 id="fuel-tank">fuel tank<a class="hash" href="#fuel-tank" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/ˈfjuːəl ˌtæŋk/ &middot; <em>FYOO-uhl tank</em></dd><dt>Русский</dt><dd>топливный бак</dd><dt>Plural</dt><dd><em>fuel tanks</em></dd><dt>Countability</dt><dd>countable</dd></dl>
+<p>The container that holds the fuel a vehicle or machine runs on.</p>
+<ol><li>The <em>fuel tank</em> holds about twenty gallons.</li><li>Rust had eaten a hole in the <em>fuel tank</em>.</li><li>Both <em>fuel tanks</em> were nearly empty.</li></ol>
+<hr>
+<h3 id="propane-tank">propane tank<a class="hash" href="#propane-tank" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/ˈproʊpeɪn ˌtæŋk/ &middot; <em>PROH-payn tank</em></dd><dt>Русский</dt><dd>газовый баллон (с пропаном)</dd><dt>Plural</dt><dd><em>propane tanks</em></dd><dt>Countability</dt><dd>countable</dd></dl>
+<p>A steel cylinder that holds propane under pressure.</p>
+<ol><li>I need to swap out the <em>propane tank</em> for the grill.</li><li>The <em>propane tanks</em> are stored behind the store.</li><li>A full <em>propane tank</em> is heavy enough to need two hands.</li></ol>
+<hr>
+<h3 id="pilot-light">pilot light<a class="hash" href="#pilot-light" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/ˈpaɪlət ˌlaɪt/ &middot; <em>PY-luht lyt</em></dd><dt>Русский</dt><dd>запальник, дежурный огонёк</dd><dt>Plural</dt><dd><em>pilot lights</em></dd><dt>Countability</dt><dd>countable</dd></dl>
+<p>A small flame that burns all the time and lights a gas appliance when it turns on.</p>
+<ol><li>The <em>pilot light</em> on the furnace went out again.</li><li>You have to relight the <em>pilot light</em> by hand.</li><li>Newer heaters do not have <em>pilot lights</em> at all.</li></ol>
+<hr>
+<h3 id="oil-field">oil field<a class="hash" href="#oil-field" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/ˈɔɪl ˌfiːld/ &middot; <em>OYL-feeld</em></dd><dt>Русский</dt><dd>нефтяное месторождение</dd><dt>Plural</dt><dd><em>oil fields</em></dd><dt>Countability</dt><dd>countable</dd></dl>
+<p>An area of ground with oil underneath it that is being pumped out.</p>
+<ol><li>He spent ten years working in the <em>oil fields</em>.</li><li>The <em>oil field</em> is nearly played out.</li><li>A new <em>oil field</em> was found off the coast.</li></ol>
+<hr>
+<h3 id="well">well<a class="hash" href="#well" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/wɛl/ &middot; <em>WEL</em></dd><dt>Русский</dt><dd>скважина</dd><dt>Plural</dt><dd><em>wells</em></dd><dt>Countability</dt><dd>countable</dd></dl>
+<p>A deep hole drilled into the ground to bring up oil, gas, or water.</p>
+<ol><li>The company drilled a new <em>well</em> last spring.</li><li>Several <em>wells</em> in the county have run dry.</li><li>They capped the <em>well</em> after the leak.</li></ol>
+<hr>
+<h3 id="oil-rig">oil rig<a class="hash" href="#oil-rig" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/ˈɔɪl ˌrɪɡ/ &middot; <em>OYL-rig</em></dd><dt>Русский</dt><dd>буровая установка, нефтяная платформа</dd><dt>Plural</dt><dd><em>oil rigs</em></dd><dt>Countability</dt><dd>countable</dd></dl>
+<p>The tall structure and machinery used to drill for oil.</p>
+<ol><li>His brother works two weeks on, two weeks off on an <em>oil rig</em>.</li><li>You can see the <em>oil rigs</em> from the beach.</li><li>A storm forced them to evacuate the <em>oil rig</em>.</li></ol>
+<hr>
+<h3 id="drilling">drilling<a class="hash" href="#drilling" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/ˈdrɪlɪŋ/ &middot; <em>DRIH-ling</em></dd><dt>Русский</dt><dd>бурение</dd><dt>Countability</dt><dd>uncountable</dd></dl>
+<p>The work of boring deep holes into the ground to reach oil, gas, or water.</p>
+<ol><li><em>Drilling</em> began in March and finished in July.</li><li>The state banned <em>drilling</em> near the reservoir.</li><li>Offshore <em>drilling</em> costs far more than drilling on land.</li></ol>
+<hr>
+<h3 id="fracking">fracking<a class="hash" href="#fracking" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/ˈfrækɪŋ/ &middot; <em>FRA-king</em></dd><dt>Русский</dt><dd>гидроразрыв пласта, фрекинг</dd><dt>Countability</dt><dd>uncountable</dd></dl>
+<p>A method of forcing gas and oil out of rock by pumping liquid into it at high pressure.</p>
+<ol><li><em>Fracking</em> transformed the gas industry in Pennsylvania.</li><li>Neighbors worry that <em>fracking</em> is polluting their wells.</li><li>The town voted to ban <em>fracking</em> inside city limits.</li></ol>
+<hr>
+<h3 id="oil-spill">oil spill<a class="hash" href="#oil-spill" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/ˈɔɪl ˌspɪl/ &middot; <em>OYL-spil</em></dd><dt>Русский</dt><dd>разлив нефти</dd><dt>Plural</dt><dd><em>oil spills</em></dd><dt>Countability</dt><dd>countable</dd></dl>
+<p>An accidental release of oil into the sea or onto land.</p>
+<ol><li>The <em>oil spill</em> killed thousands of seabirds.</li><li>Cleaning up the <em>oil spill</em> took three years.</li><li>Big <em>oil spills</em> are rarer now than they used to be.</li></ol>
+<hr>
+<h3 id="oil-tanker">oil tanker<a class="hash" href="#oil-tanker" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/ˈɔɪl ˌtæŋkər/ &middot; <em>OYL tang-kur</em></dd><dt>Русский</dt><dd>нефтяной танкер</dd><dt>Plural</dt><dd><em>oil tankers</em></dd><dt>Countability</dt><dd>countable</dd></dl>
+<p>A very large ship built to carry oil.</p>
+<ol><li>An <em>oil tanker</em> was waiting outside the harbor.</li><li>The biggest <em>oil tankers</em> are longer than three football fields.</li><li>The <em>oil tanker</em> ran aground in heavy fog.</li></ol>
+<hr>
+<h3 id="coal-mine">coal mine<a class="hash" href="#coal-mine" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/ˈkoʊl ˌmaɪn/ &middot; <em>KOHL-myn</em></dd><dt>Русский</dt><dd>угольная шахта</dd><dt>Plural</dt><dd><em>coal mines</em></dd><dt>Countability</dt><dd>countable</dd></dl>
+<p>A place where coal is dug out of the ground.</p>
+<ol><li>His grandfather worked in a <em>coal mine</em> for thirty years.</li><li>Most of the <em>coal mines</em> around here closed in the eighties.</li><li>The <em>coal mine</em> employs four hundred people.</li></ol>
+<hr>
+<h3 id="miner">miner<a class="hash" href="#miner" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/ˈmaɪnər/ &middot; <em>MY-nur</em></dd><dt>Русский</dt><dd>шахтёр, горняк</dd><dt>Plural</dt><dd><em>miners</em></dd><dt>Countability</dt><dd>countable</dd><dt>Contrast</dt><dd>Sounds exactly like <em>minor</em>, meaning small or under eighteen.</dd></dl>
+<p>Someone whose job is digging coal, ore, or minerals out of the ground.</p>
+<ol><li>The <em>miners</em> came up covered in black dust.</li><li>A retired <em>miner</em> showed us around the old shaft.</li><li>Thirty <em>miners</em> were trapped for two days.</li></ol>
+<hr>
+<h3 id="mining">mining<a class="hash" href="#mining" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/ˈmaɪnɪŋ/ &middot; <em>MY-ning</em></dd><dt>Русский</dt><dd>горная добыча, горное дело</dd><dt>Countability</dt><dd>uncountable</dd></dl>
+<p>The industry of taking coal, metal, or minerals out of the earth.</p>
+<ol><li><em>Mining</em> was the only industry in that valley.</li><li>She studies the effects of <em>mining</em> on rivers.</li><li>Copper <em>mining</em> still pays well in Arizona.</li></ol>
+<hr>
+<h3 id="shaft">shaft<a class="hash" href="#shaft" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/ʃæft/ &middot; <em>SHAFT</em></dd><dt>Русский</dt><dd>шахтный ствол</dd><dt>Plural</dt><dd><em>shafts</em></dd><dt>Countability</dt><dd>countable</dd></dl>
+<p>A deep vertical passage cut down into a mine.</p>
+<ol><li>The <em>shaft</em> goes down almost a thousand feet.</li><li>Both <em>shafts</em> were sealed after the accident.</li><li>An elevator carries the crew down the <em>shaft</em>.</li></ol>
+<hr>
+<h3 id="quarry">quarry<a class="hash" href="#quarry" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/ˈkwɔːri/ &middot; <em>KWOR-ee</em></dd><dt>Русский</dt><dd>карьер, каменоломня</dd><dt>Plural</dt><dd><em>quarries</em></dd><dt>Countability</dt><dd>countable</dd></dl>
+<p>An open pit where stone, sand, or gravel is cut or dug out.</p>
+<ol><li>The limestone came from a <em>quarry</em> upstate.</li><li>Two old <em>quarries</em> have filled with water.</li><li>Trucks leave the <em>quarry</em> every few minutes.</li></ol>
+<hr>
+<h3 id="strip-mine">strip mine<a class="hash" href="#strip-mine" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/ˈstrɪp ˌmaɪn/ &middot; <em>STRIP-myn</em></dd><dt>Русский</dt><dd>открытый разрез, карьер</dd><dt>Plural</dt><dd><em>strip mines</em></dd><dt>Countability</dt><dd>countable</dd></dl>
+<p>A mine where the soil above the coal is stripped off instead of tunneling.</p>
+<ol><li>A <em>strip mine</em> took the whole side of the hill.</li><li><em>Strip mines</em> are cheaper to run than deep mines.</li><li>The company has to restore the land after the <em>strip mine</em> closes.</li></ol>
+<hr>
+<h3 id="ore">ore<a class="hash" href="#ore" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/ɔːr/ &middot; <em>OR</em></dd><dt>Русский</dt><dd>руда</dd><dt>Countability</dt><dd>uncountable</dd><dt>Contrast</dt><dd>Sounds like <em>oar</em> and, for most Americans, like <em>or</em>.</dd></dl>
+<p>Rock that contains enough metal to be worth mining.</p>
+<ol><li>The train hauls iron <em>ore</em> to the mill.</li><li>This <em>ore</em> is about two percent copper.</li><li>They crush the <em>ore</em> before smelting it.</li></ol>
+<hr>
+<h3 id="coal-dust">coal dust<a class="hash" href="#coal-dust" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/ˈkoʊl ˌdʌst/ &middot; <em>KOHL-dust</em></dd><dt>Русский</dt><dd>угольная пыль</dd><dt>Countability</dt><dd>uncountable</dd></dl>
+<p>The fine black powder produced when coal is cut or handled.</p>
+<ol><li><em>Coal dust</em> covered every window in town.</li><li>Years of breathing <em>coal dust</em> ruined his lungs.</li><li>A spark in the <em>coal dust</em> can set off an explosion.</li></ol>
+<hr>
+<h3 id="excavator">excavator<a class="hash" href="#excavator" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/ˈɛkskəveɪtər/ &middot; <em>EKS-kuh-vay-tur</em></dd><dt>Русский</dt><dd>экскаватор</dd><dt>Plural</dt><dd><em>excavators</em></dd><dt>Countability</dt><dd>countable</dd></dl>
+<p>A large machine with a bucket on an arm for digging earth.</p>
+<ol><li>An <em>excavator</em> dug the foundation in a single day.</li><li>Two <em>excavators</em> were loading trucks at the pit.</li><li>He has driven an <em>excavator</em> since he was twenty.</li></ol>
+<hr>
+<h3 id="extraction">extraction<a class="hash" href="#extraction" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/ɪkˈstrækʃən/ &middot; <em>ik-STRAK-shuhn</em></dd><dt>Русский</dt><dd>добыча, извлечение</dd><dt>Countability</dt><dd>uncountable</dd></dl>
+<p>The process of taking a resource such as oil or metal out of the ground.</p>
+<ol><li>Oil <em>extraction</em> uses a huge amount of water.</li><li>The law taxes the <em>extraction</em> of coal and gas.</li><li><em>Extraction</em> costs rise as the easy deposits run out.</li></ol>
+<hr>
+<h3 id="power-station">power station<a class="hash" href="#power-station" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/ˈpaʊrr ˌsteɪʃən/ &middot; <em>POW-ur stay-shuhn</em></dd><dt>Русский</dt><dd>электростанция</dd><dt>Plural</dt><dd><em>power stations</em></dd><dt>Countability</dt><dd>countable</dd><dt>Contrast</dt><dd>Americans usually say <em>power plant</em>; <em>power station</em> is more British.</dd></dl>
+<p>A building or site where electricity is generated.</p>
+<ol><li>The <em>power station</em> burns coal from a nearby mine.</li><li>Three <em>power stations</em> feed the city.</li><li>The old <em>power station</em> was torn down last year.</li></ol>
+<hr>
+<h3 id="boiler">boiler<a class="hash" href="#boiler" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/ˈbɔɪlər/ &middot; <em>BOY-lur</em></dd><dt>Русский</dt><dd>котёл, бойлер</dd><dt>Plural</dt><dd><em>boilers</em></dd><dt>Countability</dt><dd>countable</dd></dl>
+<p>A large tank that heats water into steam for heating or for driving a turbine.</p>
+<ol><li>The <em>boiler</em> in the basement is forty years old.</li><li>Both <em>boilers</em> were shut down for cleaning.</li><li>Steam from the <em>boiler</em> spins the turbine.</li></ol>
+<hr>
+<h3 id="smokestack">smokestack<a class="hash" href="#smokestack" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/ˈsmoʊkstæk/ &middot; <em>SMOHK-stak</em></dd><dt>Русский</dt><dd>заводская труба, дымовая труба</dd><dt>Plural</dt><dd><em>smokestacks</em></dd><dt>Countability</dt><dd>countable</dd></dl>
+<p>A tall chimney that carries smoke away from a factory or power plant.</p>
+<ol><li>You can see the <em>smokestacks</em> from the highway.</li><li>The <em>smokestack</em> is over three hundred feet tall.</li><li>They painted stripes on the <em>smokestack</em> to warn planes.</li></ol>
+<hr>
+<h3 id="cooling-tower">cooling tower<a class="hash" href="#cooling-tower" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/ˈkuːlɪŋ ˌtaʊrr/ &middot; <em>KOO-ling tow-ur</em></dd><dt>Русский</dt><dd>градирня</dd><dt>Plural</dt><dd><em>cooling towers</em></dd><dt>Countability</dt><dd>countable</dd></dl>
+<p>A wide curved tower that lets a power plant release waste heat as steam.</p>
+<ol><li>Steam rose from the <em>cooling towers</em> all morning.</li><li>The plant has two concrete <em>cooling towers</em>.</li><li>That white cloud over the <em>cooling tower</em> is just water vapor.</li></ol>
+<hr>
+<h3 id="condenser">condenser<a class="hash" href="#condenser" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/kənˈdɛnsər/ &middot; <em>kuhn-DEN-sur</em></dd><dt>Русский</dt><dd>конденсатор (теплообменник)</dd><dt>Plural</dt><dd><em>condensers</em></dd><dt>Countability</dt><dd>countable</dd></dl>
+<p>A device that cools steam or gas back into a liquid.</p>
+<ol><li>The <em>condenser</em> turns the used steam back into water.</li><li>A leak in the <em>condenser</em> cut the plant's output.</li><li>Both <em>condensers</em> are cooled with river water.</li></ol>
+<hr>
+<h3 id="fuel-rod">fuel rod<a class="hash" href="#fuel-rod" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/ˈfjuːəl ˌrɑːd/ &middot; <em>FYOO-uhl rahd</em></dd><dt>Русский</dt><dd>тепловыделяющий элемент, топливный стержень</dd><dt>Plural</dt><dd><em>fuel rods</em></dd><dt>Countability</dt><dd>countable</dd></dl>
+<p>A long metal tube of nuclear fuel loaded into a reactor.</p>
+<ol><li>The <em>fuel rods</em> are replaced every eighteen months.</li><li>A damaged <em>fuel rod</em> set off the alarm.</li><li>Spent <em>fuel rods</em> are stored under water for years.</li></ol>
+<hr>
+<h3 id="nuclear-waste">nuclear waste<a class="hash" href="#nuclear-waste" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/ˌnuːkliər ˈweɪst/ &middot; <em>noo-klee-ur WAYST</em></dd><dt>Русский</dt><dd>ядерные отходы</dd><dt>Countability</dt><dd>uncountable</dd><dt>Contrast</dt><dd><em>Nuclear</em> has three syllables, NOO-klee-ur; NOO-kyuh-lur is a common error.</dd></dl>
+<p>Radioactive material left over from running a nuclear reactor.</p>
+<ol><li>Nobody wants <em>nuclear waste</em> buried in their state.</li><li>The plant stores its <em>nuclear waste</em> on site.</li><li><em>Nuclear waste</em> stays dangerous for thousands of years.</li></ol>
+<hr>
+<h3 id="plutonium">plutonium<a class="hash" href="#plutonium" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/pluːˈtoʊniəm/ &middot; <em>ploo-TOH-nee-uhm</em></dd><dt>Русский</dt><dd>плутоний</dd><dt>Countability</dt><dd>uncountable</dd></dl>
+<p>A heavy radioactive metal made in reactors and used in fuel and weapons.</p>
+<ol><li>A few kilograms of <em>plutonium</em> are enough for a bomb.</li><li>The reactor produces <em>plutonium</em> as a byproduct.</li><li>Inspectors keep track of every gram of <em>plutonium</em>.</li></ol>
+<hr>
+<h3 id="windmill">windmill<a class="hash" href="#windmill" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/ˈwɪndmɪl/ &middot; <em>WIND-mil</em></dd><dt>Русский</dt><dd>ветряная мельница</dd><dt>Plural</dt><dd><em>windmills</em></dd><dt>Countability</dt><dd>countable</dd></dl>
+<p>A building or tower with sails or blades turned by the wind.</p>
+<ol><li>An old <em>windmill</em> pumps water for the cattle.</li><li>The hillside is dotted with <em>windmills</em>.</li><li>The <em>windmill</em> has not turned in years.</li></ol>
+<hr>
+<h3 id="wind-turbine">wind turbine<a class="hash" href="#wind-turbine" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/ˈwɪnd ˌtɜːrbaɪn/ &middot; <em>WIND tur-byn</em></dd><dt>Русский</dt><dd>ветрогенератор, ветряная турбина</dd><dt>Plural</dt><dd><em>wind turbines</em></dd><dt>Countability</dt><dd>countable</dd></dl>
+<p>A tall tower with long blades that turns wind into electricity.</p>
+<ol><li>A single <em>wind turbine</em> can power hundreds of homes.</li><li>The <em>wind turbines</em> were shut down during the storm.</li><li>They are building a <em>wind turbine</em> on the ridge.</li></ol>
+<hr>
+<h3 id="wind-farm">wind farm<a class="hash" href="#wind-farm" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/ˈwɪnd ˌfɑːrm/ &middot; <em>WIND-fahrm</em></dd><dt>Русский</dt><dd>ветропарк, ветряная электростанция</dd><dt>Plural</dt><dd><em>wind farms</em></dd><dt>Countability</dt><dd>countable</dd></dl>
+<p>A group of wind turbines built together to generate electricity.</p>
+<ol><li>The <em>wind farm</em> supplies power to three counties.</li><li>Offshore <em>wind farms</em> cost more to build.</li><li>You drive past the <em>wind farm</em> on the way to Amarillo.</li></ol>
+<hr>
+<h3 id="solar-panel">solar panel<a class="hash" href="#solar-panel" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/ˈsoʊlər ˌpænəl/ &middot; <em>SOH-lur pan-uhl</em></dd><dt>Русский</dt><dd>солнечная панель, солнечная батарея</dd><dt>Plural</dt><dd><em>solar panels</em></dd><dt>Countability</dt><dd>countable</dd></dl>
+<p>A flat sheet mounted on a roof or frame that turns sunlight into electricity.</p>
+<ol><li>We put <em>solar panels</em> on the garage roof.</li><li>One <em>solar panel</em> is not enough to run the house.</li><li>Snow on the <em>solar panels</em> cuts their output.</li></ol>
+<hr>
+<h3 id="solar-cell">solar cell<a class="hash" href="#solar-cell" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/ˈsoʊlər ˌsɛl/ &middot; <em>SOH-lur sel</em></dd><dt>Русский</dt><dd>солнечный элемент</dd><dt>Plural</dt><dd><em>solar cells</em></dd><dt>Countability</dt><dd>countable</dd></dl>
+<p>One small unit that produces electricity from light, many of which make a panel.</p>
+<ol><li>Each panel holds sixty <em>solar cells</em>.</li><li>A cracked <em>solar cell</em> can pull down the whole panel.</li><li>The calculator runs off a tiny <em>solar cell</em>.</li></ol>
+<hr>
+<h3 id="solar-power">solar power<a class="hash" href="#solar-power" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/ˈsoʊlər ˌpaʊrr/ &middot; <em>SOH-lur pow-ur</em></dd><dt>Русский</dt><dd>солнечная энергия</dd><dt>Countability</dt><dd>uncountable</dd></dl>
+<p>Electricity produced from sunlight.</p>
+<ol><li>The school runs almost entirely on <em>solar power</em>.</li><li><em>Solar power</em> has gotten much cheaper in ten years.</li><li>They rely on <em>solar power</em> and a backup generator.</li></ol>
+<hr>
+<h3 id="solar-farm">solar farm<a class="hash" href="#solar-farm" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/ˈsoʊlər ˌfɑːrm/ &middot; <em>SOH-lur fahrm</em></dd><dt>Русский</dt><dd>солнечная электростанция</dd><dt>Plural</dt><dd><em>solar farms</em></dd><dt>Countability</dt><dd>countable</dd></dl>
+<p>A large field of solar panels that feeds electricity into the grid.</p>
+<ol><li>A <em>solar farm</em> now covers the old airfield.</li><li>Two <em>solar farms</em> were approved this year.</li><li>The <em>solar farm</em> takes up four hundred acres.</li></ol>
+<hr>
+<h3 id="hydropower">hydropower<a class="hash" href="#hydropower" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/ˈhaɪdroʊˌpaʊrr/ &middot; <em>HY-droh-pow-ur</em></dd><dt>Русский</dt><dd>гидроэнергия</dd><dt>Countability</dt><dd>uncountable</dd></dl>
+<p>Electricity generated by moving water.</p>
+<ol><li>The Northwest gets most of its electricity from <em>hydropower</em>.</li><li><em>Hydropower</em> depends on how much snow falls in the mountains.</li><li>The dam has produced <em>hydropower</em> since 1938.</li></ol>
+<hr>
+<h3 id="biomass">biomass<a class="hash" href="#biomass" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/ˈbaɪoʊˌmæs/ &middot; <em>BY-oh-mas</em></dd><dt>Русский</dt><dd>биомасса</dd><dt>Countability</dt><dd>uncountable</dd></dl>
+<p>Plant material and waste burned or processed to make energy.</p>
+<ol><li>The plant burns <em>biomass</em> left over from logging.</li><li><em>Biomass</em> supplies a small share of the state's power.</li><li>They tested wood chips and other <em>biomass</em> as fuel.</li></ol>
+<hr>
+<h3 id="power-supply">power supply<a class="hash" href="#power-supply" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/ˈpaʊrr səˌplaɪ/ &middot; <em>POW-ur suh-ply</em></dd><dt>Русский</dt><dd>блок питания; электропитание</dd><dt>Plural</dt><dd><em>power supplies</em></dd><dt>Countability</dt><dd>countable</dd></dl>
+<p>The unit that feeds a machine the electricity it needs.</p>
+<ol><li>The <em>power supply</em> burned out and killed the computer.</li><li>Bring a spare <em>power supply</em> to the site.</li><li>Both <em>power supplies</em> are rated for the same voltage.</li></ol>
+<hr>
+<h3 id="utility">utility<a class="hash" href="#utility" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/juːˈtɪləti/ &middot; <em>yoo-TIH-luh-tee</em></dd><dt>Русский</dt><dd>коммунальная компания (энерго- или водоснабжающая)</dd><dt>Plural</dt><dd><em>utilities</em></dd><dt>Countability</dt><dd>countable</dd></dl>
+<p>A company that supplies electricity, gas, or water to the public.</p>
+<ol><li>The <em>utility</em> asked customers to cut back during the heat wave.</li><li>Several <em>utilities</em> raised their rates in January.</li><li>He worked for the local <em>utility</em> for thirty years.</li></ol>
+<hr>
+<h3 id="utility-pole">utility pole<a class="hash" href="#utility-pole" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/juːˈtɪləti ˌpoʊl/ &middot; <em>yoo-TIH-luh-tee pohl</em></dd><dt>Русский</dt><dd>опора ЛЭП, столб электропередачи</dd><dt>Plural</dt><dd><em>utility poles</em></dd><dt>Countability</dt><dd>countable</dd></dl>
+<p>A wooden post along a street that carries power and phone lines.</p>
+<ol><li>The car slid off the road and hit a <em>utility pole</em>.</li><li>Crews replaced twelve <em>utility poles</em> after the storm.</li><li>Someone stapled a lost dog notice to the <em>utility pole</em>.</li></ol>
+<hr>
+<h3 id="transmission-line">transmission line<a class="hash" href="#transmission-line" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/trænzˈmɪʃən ˌlaɪn/ &middot; <em>tranz-MIH-shuhn lyn</em></dd><dt>Русский</dt><dd>линия электропередачи</dd><dt>Plural</dt><dd><em>transmission lines</em></dd><dt>Countability</dt><dd>countable</dd></dl>
+<p>A high-voltage line that carries electricity long distances.</p>
+<ol><li>A new <em>transmission line</em> will connect the wind farm to the city.</li><li><em>Transmission lines</em> cross the valley on steel towers.</li><li>Ice brought down the <em>transmission line</em> in two places.</li></ol>
+<hr>
+<h3 id="substation">substation<a class="hash" href="#substation" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/ˈsʌbˌsteɪʃən/ &middot; <em>SUB-stay-shuhn</em></dd><dt>Русский</dt><dd>подстанция</dd><dt>Plural</dt><dd><em>substations</em></dd><dt>Countability</dt><dd>countable</dd></dl>
+<p>A fenced site where the voltage of electricity is changed before it goes on.</p>
+<ol><li>A fire at the <em>substation</em> left the town dark.</li><li>There are two <em>substations</em> on the edge of town.</li><li>The <em>substation</em> steps the voltage down for local streets.</li></ol>
+<hr>
+<h3 id="megawatt">megawatt<a class="hash" href="#megawatt" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/ˈmɛɡəˌwɑːt/ &middot; <em>MEH-guh-waht</em></dd><dt>Русский</dt><dd>мегаватт</dd><dt>Plural</dt><dd><em>megawatts</em></dd><dt>Countability</dt><dd>countable</dd></dl>
+<p>A unit of power equal to a million watts.</p>
+<ol><li>The plant produces six hundred <em>megawatts</em>.</li><li>One <em>megawatt</em> is roughly enough for several hundred homes.</li><li>They added fifty <em>megawatts</em> of solar last year.</li></ol>
+<hr>
+<h3 id="circuit-breaker">circuit breaker<a class="hash" href="#circuit-breaker" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/ˈsɜːrkət ˌbreɪkər/ &middot; <em>SUR-kuht bray-kur</em></dd><dt>Русский</dt><dd>автоматический выключатель, автомат</dd><dt>Plural</dt><dd><em>circuit breakers</em></dd><dt>Countability</dt><dd>countable</dd></dl>
+<p>A switch that cuts off the current automatically when a circuit is overloaded.</p>
+<ol><li>The <em>circuit breaker</em> tripped when I ran the heater.</li><li>Flip the <em>circuit breaker</em> back on in the basement.</li><li>Half the <em>circuit breakers</em> in that panel are mislabeled.</li></ol>
+<hr>
+<h3 id="fuse-box">fuse box<a class="hash" href="#fuse-box" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/ˈfjuːz ˌbɑːks/ &middot; <em>FYOOZ-bahks</em></dd><dt>Русский</dt><dd>щиток с предохранителями, электрощиток</dd><dt>Plural</dt><dd><em>fuse boxes</em></dd><dt>Countability</dt><dd>countable</dd></dl>
+<p>The metal box in a building that holds the fuses or breakers for its circuits.</p>
+<ol><li>The <em>fuse box</em> is behind the door in the hallway.</li><li>Old houses often still have a <em>fuse box</em>.</li><li>He checked both <em>fuse boxes</em> before calling an electrician.</li></ol>
+<hr>
+<h3 id="blackout">blackout<a class="hash" href="#blackout" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/ˈblækaʊt/ &middot; <em>BLAK-owt</em></dd><dt>Русский</dt><dd>отключение электроэнергии, блэкаут</dd><dt>Plural</dt><dd><em>blackouts</em></dd><dt>Countability</dt><dd>countable</dd></dl>
+<p>A period when the electricity fails across a whole area.</p>
+<ol><li>The <em>blackout</em> left half the state without power.</li><li>Rolling <em>blackouts</em> began in the afternoon.</li><li>We kept candles in the drawer after that <em>blackout</em>.</li></ol>
+<hr>
+<h3 id="outage">outage<a class="hash" href="#outage" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/ˈaʊtɪdʒ/ &middot; <em>OW-tij</em></dd><dt>Русский</dt><dd>отключение, перебой в подаче электричества</dd><dt>Plural</dt><dd><em>outages</em></dd><dt>Countability</dt><dd>countable</dd></dl>
+<p>A period when the power or another service stops working.</p>
+<ol><li>The <em>outage</em> lasted about six hours.</li><li>Storms caused <em>outages</em> in three counties.</li><li>Call the utility to report an <em>outage</em>.</li></ol>
+<hr>
+<h3 id="brownout">brownout<a class="hash" href="#brownout" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/ˈbraʊnaʊt/ &middot; <em>BROWN-owt</em></dd><dt>Русский</dt><dd>просадка напряжения</dd><dt>Plural</dt><dd><em>brownouts</em></dd><dt>Countability</dt><dd>countable</dd></dl>
+<p>A drop in voltage that dims the lights without cutting the power off.</p>
+<ol><li>A <em>brownout</em> made the lights flicker all evening.</li><li><em>Brownouts</em> are common when everyone runs the air conditioning.</li><li>The <em>brownout</em> damaged the motor on the freezer.</li></ol>
+<hr>
+<h3 id="surge">surge<a class="hash" href="#surge" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/sɜːrdʒ/ &middot; <em>SURJ</em></dd><dt>Русский</dt><dd>скачок напряжения</dd><dt>Plural</dt><dd><em>surges</em></dd><dt>Countability</dt><dd>countable</dd></dl>
+<p>A sudden jump in electric current or voltage that can damage equipment.</p>
+<ol><li>A <em>surge</em> from the lightning strike fried the router.</li><li><em>Surges</em> are common when the power comes back on.</li><li>The <em>surge</em> blew out three bulbs at once.</li></ol>
+<hr>
+<h3 id="surge-protector">surge protector<a class="hash" href="#surge-protector" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/ˈsɜːrdʒ prəˌtɛktər/ &middot; <em>SURJ pruh-tek-tur</em></dd><dt>Русский</dt><dd>сетевой фильтр (от скачков напряжения)</dd><dt>Plural</dt><dd><em>surge protectors</em></dd><dt>Countability</dt><dd>countable</dd></dl>
+<p>A device that shields plugged-in equipment from sudden jumps in voltage.</p>
+<ol><li>Plug the computer into a <em>surge protector</em>.</li><li>Cheap <em>surge protectors</em> wear out after a few years.</li><li>The <em>surge protector</em> took the hit instead of the TV.</li></ol>
+<hr>
+<h3 id="power-strip">power strip<a class="hash" href="#power-strip" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/ˈpaʊrr ˌstrɪp/ &middot; <em>POW-ur strip</em></dd><dt>Русский</dt><dd>удлинитель с розетками</dd><dt>Plural</dt><dd><em>power strips</em></dd><dt>Countability</dt><dd>countable</dd></dl>
+<p>A bar of electrical outlets on a cord.</p>
+<ol><li>Everything under the desk runs off one <em>power strip</em>.</li><li>Do not plug a heater into a <em>power strip</em>.</li><li>We need two more <em>power strips</em> for the office.</li></ol>
+<hr>
+<h3 id="short-circuit">short circuit<a class="hash" href="#short-circuit" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/ˌʃɔːrt ˈsɜːrkət/ &middot; <em>short SUR-kuht</em></dd><dt>Русский</dt><dd>короткое замыкание</dd><dt>Plural</dt><dd><em>short circuits</em></dd><dt>Countability</dt><dd>countable</dd></dl>
+<p>A fault in which current takes a wrong path and flows where it should not.</p>
+<ol><li>A <em>short circuit</em> in the wiring started the fire.</li><li>The mechanic traced the <em>short circuit</em> to a pinched wire.</li><li><em>Short circuits</em> usually trip the breaker right away.</li></ol>
+<hr>
+<h3 id="overload">overload<a class="hash" href="#overload" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/ˈoʊvərˌloʊd/ &middot; <em>OH-vur-lohd</em></dd><dt>Русский</dt><dd>перегрузка</dd><dt>Plural</dt><dd><em>overloads</em></dd><dt>Countability</dt><dd>countable</dd><dt>Contrast</dt><dd>The noun is stressed OH-vur-lohd; the verb is oh-vur-LOHD.</dd></dl>
+<p>More current or weight on a system than it is built to handle.</p>
+<ol><li>The fuse blew because of an <em>overload</em>.</li><li>Repeated <em>overloads</em> will ruin the motor.</li><li>An <em>overload</em> on the grid caused the outage.</li></ol>
+<hr>
+<h3 id="live-wire">live wire<a class="hash" href="#live-wire" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/ˌlaɪv ˈwaɪrr/ &middot; <em>lyv WYR</em></dd><dt>Русский</dt><dd>провод под напряжением</dd><dt>Plural</dt><dd><em>live wires</em></dd><dt>Countability</dt><dd>countable</dd><dt>Contrast</dt><dd>Here <em>live</em> rhymes with <em>five</em>, not with <em>give</em>.</dd></dl>
+<p>A wire that is carrying electric current.</p>
+<ol><li>A <em>live wire</em> was lying across the driveway.</li><li>Never touch a <em>live wire</em> with bare hands.</li><li>Crews cordoned off the <em>live wires</em> after the crash.</li></ol>
+<hr>
+<h3 id="electrode">electrode<a class="hash" href="#electrode" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/ɪˈlɛktroʊd/ &middot; <em>ih-LEK-trohd</em></dd><dt>Русский</dt><dd>электрод</dd><dt>Plural</dt><dd><em>electrodes</em></dd><dt>Countability</dt><dd>countable</dd></dl>
+<p>A metal piece through which current enters or leaves a battery, cell, or welder.</p>
+<ol><li>The welder replaced a burned <em>electrode</em>.</li><li>Both <em>electrodes</em> were coated with a white residue.</li><li>Current flows from one <em>electrode</em> to the other.</li></ol>
+<hr>
+<h3 id="capacitor">capacitor<a class="hash" href="#capacitor" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/kəˈpæsɪtər/ &middot; <em>kuh-PA-suh-tur</em></dd><dt>Русский</dt><dd>конденсатор (электрический)</dd><dt>Plural</dt><dd><em>capacitors</em></dd><dt>Countability</dt><dd>countable</dd></dl>
+<p>A small part that stores electric charge and releases it quickly.</p>
+<ol><li>A blown <em>capacitor</em> kept the motor from starting.</li><li>The board is covered in tiny <em>capacitors</em>.</li><li>Discharge the <em>capacitor</em> before you touch anything.</li></ol>
+<hr>
+<h3 id="inverter">inverter<a class="hash" href="#inverter" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/ɪnˈvɜːrtər/ &middot; <em>in-VUR-tur</em></dd><dt>Русский</dt><dd>инвертор</dd><dt>Plural</dt><dd><em>inverters</em></dd><dt>Countability</dt><dd>countable</dd></dl>
+<p>A device that changes direct current from a battery or panel into household current.</p>
+<ol><li>The solar panels feed an <em>inverter</em> in the garage.</li><li>A small <em>inverter</em> lets you run a laptop off the car.</li><li>Both <em>inverters</em> failed in the same month.</li></ol>
+<hr>
+<h3 id="conduit">conduit<a class="hash" href="#conduit" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/ˈkɑːnduːɪt/ &middot; <em>KAHN-doo-it</em></dd><dt>Русский</dt><dd>кабельный канал, кабелепровод</dd><dt>Plural</dt><dd><em>conduits</em></dd><dt>Countability</dt><dd>countable</dd></dl>
+<p>A pipe or tube that protects electrical wiring.</p>
+<ol><li>The wiring runs through metal <em>conduit</em> along the wall.</li><li>They buried two <em>conduits</em> under the driveway.</li><li>Code requires <em>conduit</em> in a garage.</li></ol>
+<hr>
+<h3 id="charging-station">charging station<a class="hash" href="#charging-station" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/ˈtʃɑːrdʒɪŋ ˌsteɪʃən/ &middot; <em>CHAR-jing stay-shuhn</em></dd><dt>Русский</dt><dd>зарядная станция</dd><dt>Plural</dt><dd><em>charging stations</em></dd><dt>Countability</dt><dd>countable</dd></dl>
+<p>A place where an electric vehicle can be plugged in and recharged.</p>
+<ol><li>There is a <em>charging station</em> behind the grocery store.</li><li>New <em>charging stations</em> are going in along the interstate.</li><li>We waited twenty minutes for a free <em>charging station</em>.</li></ol>
+<hr>
+<h3 id="battery-pack">battery pack<a class="hash" href="#battery-pack" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/ˈbætəri ˌpæk/ &middot; <em>BA-tuh-ree pak</em></dd><dt>Русский</dt><dd>аккумуляторная батарея, аккумуляторный блок</dd><dt>Plural</dt><dd><em>battery packs</em></dd><dt>Countability</dt><dd>countable</dd></dl>
+<p>A set of batteries joined together to power a vehicle or tool.</p>
+<ol><li>The <em>battery pack</em> sits under the floor of the car.</li><li>Replacement <em>battery packs</em> are expensive.</li><li>A cold morning cuts the range of the <em>battery pack</em>.</li></ol>
+<hr>
+<h3 id="utility-bill">utility bill<a class="hash" href="#utility-bill" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/juːˈtɪləti ˌbɪl/ &middot; <em>yoo-TIH-luh-tee bil</em></dd><dt>Русский</dt><dd>счёт за коммунальные услуги</dd><dt>Plural</dt><dd><em>utility bills</em></dd><dt>Countability</dt><dd>countable</dd></dl>
+<p>A statement of what you owe for electricity, gas, or water.</p>
+<ol><li>Our <em>utility bill</em> doubled in January.</li><li>He pays all the <em>utility bills</em> online.</li><li>Bring a <em>utility bill</em> as proof of address.</li></ol>
+<hr>
+<h3 id="consumption">consumption<a class="hash" href="#consumption" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/kənˈsʌmpʃən/ &middot; <em>kuhn-SUMP-shuhn</em></dd><dt>Русский</dt><dd>потребление, расход</dd><dt>Countability</dt><dd>uncountable</dd></dl>
+<p>The amount of energy, fuel, or goods that is used up.</p>
+<ol><li>Electricity <em>consumption</em> peaks on hot afternoons.</li><li>New insulation cut our <em>consumption</em> by a third.</li><li>The country's oil <em>consumption</em> has been flat for a decade.</li></ol>
+<hr>
+<h3 id="efficiency">efficiency<a class="hash" href="#efficiency" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/ɪˈfɪʃənsi/ &middot; <em>ih-FIH-shuhn-see</em></dd><dt>Русский</dt><dd>КПД, эффективность</dd><dt>Countability</dt><dd>uncountable</dd></dl>
+<p>How much useful work a machine or building gets out of the energy it uses.</p>
+<ol><li>The new boiler improved <em>efficiency</em> by fifteen percent.</li><li>Energy <em>efficiency</em> saves more than new power plants do.</li><li><em>Efficiency</em> drops sharply when the filters are dirty.</li></ol>
+<hr>
+<h3 id="emission">emission<a class="hash" href="#emission" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/ɪˈmɪʃən/ &middot; <em>ih-MIH-shuhn</em></dd><dt>Русский</dt><dd>выброс (в атмосферу)</dd><dt>Plural</dt><dd><em>emissions</em></dd><dt>Countability</dt><dd>countable</dd></dl>
+<p>A gas or particle released into the air by burning fuel.</p>
+<ol><li>The plant cut its <em>emissions</em> by half.</li><li>Carbon <em>emissions</em> rose again last year.</li><li>Every <em>emission</em> from the stack is measured.</li></ol>
+<hr>
+<h3 id="greenhouse-gas">greenhouse gas<a class="hash" href="#greenhouse-gas" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/ˈɡriːnhaʊs ˌɡæs/ &middot; <em>GREEN-hows gas</em></dd><dt>Русский</dt><dd>парниковый газ</dd><dt>Plural</dt><dd><em>greenhouse gases</em></dd><dt>Countability</dt><dd>countable</dd><dt>Contrast</dt><dd>The plural is <em>gases</em> with one s; <em>gasses</em> is the verb form.</dd></dl>
+<p>A gas that traps heat in the atmosphere, such as carbon dioxide or methane.</p>
+<ol><li>Burning coal releases a lot of <em>greenhouse gas</em>.</li><li>Methane is a far stronger <em>greenhouse gas</em> than carbon dioxide.</li><li>The law caps <em>greenhouse gases</em> from power plants.</li></ol>
+<hr>
+<h3 id="carbon-dioxide">carbon dioxide<a class="hash" href="#carbon-dioxide" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/ˌkɑːrbən daɪˈɑːksaɪd/ &middot; <em>kahr-buhn dy-AHK-syd</em></dd><dt>Русский</dt><dd>углекислый газ</dd><dt>Countability</dt><dd>uncountable</dd></dl>
+<p>The gas released whenever carbon fuels are burned.</p>
+<ol><li>The plant puts out millions of tons of <em>carbon dioxide</em> a year.</li><li>Trees take in <em>carbon dioxide</em> and give off oxygen.</li><li>They are testing a way to capture <em>carbon dioxide</em> at the stack.</li></ol>
+<hr>
+<h3 id="acid-rain">acid rain<a class="hash" href="#acid-rain" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/ˌæsɪd ˈreɪn/ &middot; <em>a-suhd RAYN</em></dd><dt>Русский</dt><dd>кислотный дождь</dd><dt>Countability</dt><dd>uncountable</dd></dl>
+<p>Rain made acidic by pollution from burning coal and oil.</p>
+<ol><li><em>Acid rain</em> killed the fish in hundreds of lakes.</li><li>Scrubbers on the smokestacks reduced <em>acid rain</em>.</li><li><em>Acid rain</em> ate away at the stone carvings.</li></ol>
+<hr>
+<h3 id="global-warming">global warming<a class="hash" href="#global-warming" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/ˌɡloʊbəl ˈwɔːrmɪŋ/ &middot; <em>gloh-buhl WOR-ming</em></dd><dt>Русский</dt><dd>глобальное потепление</dd><dt>Countability</dt><dd>uncountable</dd></dl>
+<p>The steady rise in the earth's temperature caused mainly by burning fuel.</p>
+<ol><li><em>Global warming</em> is already changing growing seasons.</li><li>Coal plants are a major cause of <em>global warming</em>.</li><li>Scientists warned about <em>global warming</em> decades ago.</li></ol>
+<hr>
+<h3 id="climate-change">climate change<a class="hash" href="#climate-change" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/ˈklaɪmət ˌtʃeɪndʒ/ &middot; <em>KLY-muht chaynj</em></dd><dt>Русский</dt><dd>изменение климата</dd><dt>Countability</dt><dd>uncountable</dd></dl>
+<p>Long-term shifts in weather patterns caused largely by greenhouse gases.</p>
+<ol><li><em>Climate change</em> was the main issue in the debate.</li><li>The utility says it is planning for <em>climate change</em>.</li><li>Insurers are raising rates because of <em>climate change</em>.</li></ol>
+<hr>
+<h3 id="conservation">conservation<a class="hash" href="#conservation" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/ˌkɑːnsərˈveɪʃən/ &middot; <em>kahn-sur-VAY-shuhn</em></dd><dt>Русский</dt><dd>сбережение (ресурсов), охрана природы</dd><dt>Countability</dt><dd>uncountable</dd></dl>
+<p>The practice of using less of a resource so that it lasts longer.</p>
+<ol><li>Energy <em>conservation</em> is cheaper than building new plants.</li><li>The city put out a <em>conservation</em> notice during the drought.</li><li>Simple <em>conservation</em> measures cut the bill right away.</li></ol>
+<hr>
+<h3 id="waste">waste<a class="hash" href="#waste" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/weɪst/ &middot; <em>WAYST</em></dd><dt>Русский</dt><dd>отходы</dd><dt>Countability</dt><dd>uncountable</dd><dt>Contrast</dt><dd>Sounds exactly like <em>waist</em>, the middle of the body.</dd></dl>
+<p>Material left over from a process that is thrown away.</p>
+<ol><li>The mill produces tons of <em>waste</em> every day.</li><li>Industrial <em>waste</em> used to go straight into the river.</li><li>Some of the <em>waste</em> is burned for heat.</li></ol>
+<hr>
+<h3 id="wastewater">wastewater<a class="hash" href="#wastewater" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/ˈweɪstˌwɔːtər/ &middot; <em>WAYST-waw-tur</em></dd><dt>Русский</dt><dd>сточные воды</dd><dt>Countability</dt><dd>uncountable</dd></dl>
+<p>Dirty water left over from an industrial process or from homes.</p>
+<ol><li>The plant treats its own <em>wastewater</em> before releasing it.</li><li><em>Wastewater</em> from the mine leaked into the creek.</li><li>Pipes carry the <em>wastewater</em> to a holding pond.</li></ol>
+<hr>
+<h3 id="byproduct">byproduct<a class="hash" href="#byproduct" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/ˈbaɪˌprɑːdʌkt/ &middot; <em>BY-prah-dukt</em></dd><dt>Русский</dt><dd>побочный продукт</dd><dt>Plural</dt><dd><em>byproducts</em></dd><dt>Countability</dt><dd>countable</dd></dl>
+<p>Something produced along the way while making something else.</p>
+<ol><li>Sulfur is a <em>byproduct</em> of refining oil.</li><li>The mill sells its <em>byproducts</em> to a cement plant.</li><li>Heat is an unavoidable <em>byproduct</em> of generating power.</li></ol>
+<hr>
+<h3 id="slag">slag<a class="hash" href="#slag" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/slæɡ/ &middot; <em>SLAG</em></dd><dt>Русский</dt><dd>шлак</dd><dt>Countability</dt><dd>uncountable</dd></dl>
+<p>The stony waste that floats off metal during smelting.</p>
+<ol><li>Piles of <em>slag</em> still sit beside the old mill.</li><li>They pour the <em>slag</em> off before tapping the iron.</li><li>Some <em>slag</em> is crushed and used in road building.</li></ol>
+<hr>
+<h3 id="mill">mill<a class="hash" href="#mill" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/mɪl/ &middot; <em>MIL</em></dd><dt>Русский</dt><dd>завод, комбинат (перерабатывающий)</dd><dt>Plural</dt><dd><em>mills</em></dd><dt>Countability</dt><dd>countable</dd></dl>
+<p>A factory where a raw material such as steel, paper, or grain is processed.</p>
+<ol><li>Half the town worked at the <em>mill</em>.</li><li>The paper <em>mill</em> closed in 2004.</li><li>Two <em>mills</em> along the river are still running.</li></ol>
+<hr>
+<h3 id="steel-mill">steel mill<a class="hash" href="#steel-mill" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/ˈstiːl ˌmɪl/ &middot; <em>STEEL-mil</em></dd><dt>Русский</dt><dd>металлургический завод</dd><dt>Plural</dt><dd><em>steel mills</em></dd><dt>Countability</dt><dd>countable</dd></dl>
+<p>A large plant where steel is made and rolled into shape.</p>
+<ol><li>The <em>steel mill</em> ran three shifts a day.</li><li>Most of the <em>steel mills</em> around Pittsburgh are gone.</li><li>He got a job at the <em>steel mill</em> right out of high school.</li></ol>
+<hr>
+<h3 id="foundry">foundry<a class="hash" href="#foundry" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/ˈfaʊndri/ &middot; <em>FOWN-dree</em></dd><dt>Русский</dt><dd>литейный цех, литейный завод</dd><dt>Plural</dt><dd><em>foundries</em></dd><dt>Countability</dt><dd>countable</dd></dl>
+<p>A workshop where metal is melted and poured into molds.</p>
+<ol><li>The <em>foundry</em> casts engine blocks.</li><li>It is a hundred degrees inside the <em>foundry</em> in July.</li><li>Small <em>foundries</em> have trouble competing on price.</li></ol>
+<hr>
+<h3 id="smelter">smelter<a class="hash" href="#smelter" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/ˈsmɛltər/ &middot; <em>SMEL-tur</em></dd><dt>Русский</dt><dd>плавильный завод</dd><dt>Plural</dt><dd><em>smelters</em></dd><dt>Countability</dt><dd>countable</dd></dl>
+<p>A plant where metal is separated from ore by heat.</p>
+<ol><li>The copper <em>smelter</em> is the biggest employer in the county.</li><li>Fumes from the <em>smelter</em> damaged nearby crops.</li><li>Two <em>smelters</em> shut down when the price of metal fell.</li></ol>
+<hr>
+<h3 id="blast-furnace">blast furnace<a class="hash" href="#blast-furnace" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/ˈblæst ˌfɜːrnəs/ &middot; <em>BLAST fur-nuhs</em></dd><dt>Русский</dt><dd>доменная печь</dd><dt>Plural</dt><dd><em>blast furnaces</em></dd><dt>Countability</dt><dd>countable</dd></dl>
+<p>A tall furnace that blows hot air through ore and coke to make iron.</p>
+<ol><li>The <em>blast furnace</em> runs day and night.</li><li>They shut down the second <em>blast furnace</em> in 2019.</li><li>Molten iron pours out of the <em>blast furnace</em> into a ladle.</li></ol>
+<hr>
+<h3 id="assembly-line">assembly line<a class="hash" href="#assembly-line" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/əˈsɛmbli ˌlaɪn/ &middot; <em>uh-SEM-blee lyn</em></dd><dt>Русский</dt><dd>сборочный конвейер</dd><dt>Plural</dt><dd><em>assembly lines</em></dd><dt>Countability</dt><dd>countable</dd></dl>
+<p>A line of workers and machines that put a product together piece by piece.</p>
+<ol><li>She spent twenty years on the <em>assembly line</em>.</li><li>A single broken robot stopped the whole <em>assembly line</em>.</li><li>Both <em>assembly lines</em> build the same model.</li></ol>
+<hr>
+<h3 id="conveyor-belt">conveyor belt<a class="hash" href="#conveyor-belt" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/kənˈveɪrr ˌbɛlt/ &middot; <em>kuhn-VAY-ur belt</em></dd><dt>Русский</dt><dd>конвейерная лента</dd><dt>Plural</dt><dd><em>conveyor belts</em></dd><dt>Countability</dt><dd>countable</dd></dl>
+<p>A moving band that carries parts or goods through a factory.</p>
+<ol><li>Boxes ride down the <em>conveyor belt</em> to the loading dock.</li><li>The <em>conveyor belt</em> jammed and shut the line down.</li><li>Long <em>conveyor belts</em> carry coal to the power plant.</li></ol>
+<hr>
+<h3 id="shop-floor">shop floor<a class="hash" href="#shop-floor" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/ˌʃɑːp ˈflɔːr/ &middot; <em>shahp FLOR</em></dd><dt>Русский</dt><dd>цех, производственный участок</dd><dt>Plural</dt><dd><em>shop floors</em></dd><dt>Countability</dt><dd>countable</dd></dl>
+<p>The area of a factory where the actual work is done.</p>
+<ol><li>The new manager spends every morning on the <em>shop floor</em>.</li><li>Nobody on the <em>shop floor</em> was told about the merger.</li><li>Safety glasses are required on the <em>shop floor</em>.</li></ol>
+<hr>
+<h3 id="production">production<a class="hash" href="#production" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/prəˈdʌkʃən/ &middot; <em>pruh-DUK-shuhn</em></dd><dt>Русский</dt><dd>производство, выпуск</dd><dt>Countability</dt><dd>uncountable</dd></dl>
+<p>The making of goods in large quantities.</p>
+<ol><li><em>Production</em> fell sharply after the strike.</li><li>The plant will start <em>production</em> in the fall.</li><li>They moved <em>production</em> to another state.</li></ol>
+<hr>
+<h3 id="manufacturing">manufacturing<a class="hash" href="#manufacturing" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/ˌmænjəˈfæktʃərɪŋ/ &middot; <em>man-yuh-FAK-chur-ing</em></dd><dt>Русский</dt><dd>производство, обрабатывающая промышленность</dd><dt>Countability</dt><dd>uncountable</dd></dl>
+<p>The industry of making goods in factories.</p>
+<ol><li><em>Manufacturing</em> still employs thousands here.</li><li>He works in <em>manufacturing</em>, not in sales.</li><li>The town lost most of its <em>manufacturing</em> in the nineties.</li></ol>
+<hr>
+<h3 id="productivity">productivity<a class="hash" href="#productivity" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/ˌproʊdʌkˈtɪvəti/ &middot; <em>proh-duk-TIH-vuh-tee</em></dd><dt>Русский</dt><dd>производительность (труда)</dd><dt>Countability</dt><dd>uncountable</dd></dl>
+<p>How much a worker or a plant produces in a given amount of time.</p>
+<ol><li>The new machines raised <em>productivity</em> by a fifth.</li><li><em>Productivity</em> dropped on the night shift.</li><li>Managers track <em>productivity</em> line by line.</li></ol>
+<hr>
+<h3 id="welding">welding<a class="hash" href="#welding" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/ˈwɛldɪŋ/ &middot; <em>WEL-ding</em></dd><dt>Русский</dt><dd>сварка</dd><dt>Countability</dt><dd>uncountable</dd></dl>
+<p>The joining of metal pieces by melting them together.</p>
+<ol><li>He learned <em>welding</em> at a trade school.</li><li>The <em>welding</em> on that frame is sloppy.</li><li><em>Welding</em> throws off sparks and hard ultraviolet light.</li></ol>
+<hr>
+<h3 id="welder">welder<a class="hash" href="#welder" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/ˈwɛldər/ &middot; <em>WEL-dur</em></dd><dt>Русский</dt><dd>сварщик; сварочный аппарат</dd><dt>Plural</dt><dd><em>welders</em></dd><dt>Countability</dt><dd>countable</dd></dl>
+<p>A worker who joins metal by melting it, or the machine used to do it.</p>
+<ol><li>A good <em>welder</em> can name his own price right now.</li><li>The shop hired three more <em>welders</em>.</li><li>He bought a small <em>welder</em> for the garage.</li></ol>
+<hr>
+<h3 id="weld">weld<a class="hash" href="#weld" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/wɛld/ &middot; <em>WELD</em></dd><dt>Русский</dt><dd>сварной шов</dd><dt>Plural</dt><dd><em>welds</em></dd><dt>Countability</dt><dd>countable</dd></dl>
+<p>The joint where two pieces of metal have been melted together.</p>
+<ol><li>The <em>weld</em> cracked under load.</li><li>An inspector x-rayed every <em>weld</em> on the pipeline.</li><li>Those <em>welds</em> look clean and even.</li></ol>
+<hr>
+<h3 id="machinist">machinist<a class="hash" href="#machinist" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/məˈʃiːnɪst/ &middot; <em>muh-SHEE-nist</em></dd><dt>Русский</dt><dd>станочник, токарь-фрезеровщик</dd><dt>Plural</dt><dd><em>machinists</em></dd><dt>Countability</dt><dd>countable</dd></dl>
+<p>A skilled worker who shapes metal parts on machine tools.</p>
+<ol><li>The <em>machinist</em> cut the part to within a thousandth of an inch.</li><li>Good <em>machinists</em> are hard to find.</li><li>She trained as a <em>machinist</em> after the mill closed.</li></ol>
+<hr>
+<h3 id="foreman">foreman<a class="hash" href="#foreman" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/ˈfɔːrmən/ &middot; <em>FOR-muhn</em></dd><dt>Русский</dt><dd>бригадир, мастер</dd><dt>Plural</dt><dd><em>foremen</em></dd><dt>Countability</dt><dd>countable</dd><dt>Contrast</dt><dd>The plural is <em>foremen</em>, not <em>foremans</em>.</dd></dl>
+<p>A worker who supervises a crew on a job or in a plant.</p>
+<ol><li>The <em>foreman</em> sent everyone home early.</li><li>All the <em>foremen</em> meet on Monday mornings.</li><li>He worked his way up to <em>foreman</em> in six years.</li></ol>
+<hr>
+<h3 id="laborer">laborer<a class="hash" href="#laborer" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/ˈleɪbərər/ &middot; <em>LAY-bur-ur</em></dd><dt>Русский</dt><dd>разнорабочий, чернорабочий</dd><dt>Plural</dt><dd><em>laborers</em></dd><dt>Countability</dt><dd>countable</dd><dt>Contrast</dt><dd>American spelling <em>laborer</em>; the British write <em>labourer</em>.</dd></dl>
+<p>A worker who does heavy physical work that needs no special training.</p>
+<ol><li>He started as a <em>laborer</em> and ended up running the plant.</li><li>The contractor hired twenty <em>laborers</em> for the shutdown.</li><li>A <em>laborer</em> here earns more than a clerk downtown.</li></ol>
+<hr>
+<h3 id="wage">wage<a class="hash" href="#wage" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/weɪdʒ/ &middot; <em>WAYJ</em></dd><dt>Русский</dt><dd>заработная плата (почасовая)</dd><dt>Plural</dt><dd><em>wages</em></dd><dt>Countability</dt><dd>countable</dd></dl>
+<p>Money paid to a worker, usually by the hour or the week.</p>
+<ol><li><em>Wages</em> at the plant have not risen in three years.</li><li>The union is asking for a higher <em>wage</em>.</li><li>He spent his whole <em>wage</em> on rent.</li></ol>
+<hr>
+<h3 id="hard-hat">hard hat<a class="hash" href="#hard-hat" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/ˈhɑːrd ˌhæt/ &middot; <em>HAHRD-hat</em></dd><dt>Русский</dt><dd>каска (защитная)</dd><dt>Plural</dt><dd><em>hard hats</em></dd><dt>Countability</dt><dd>countable</dd></dl>
+<p>A rigid helmet worn to protect the head on a job site.</p>
+<ol><li>You cannot go past that line without a <em>hard hat</em>.</li><li>There are spare <em>hard hats</em> by the door.</li><li>His <em>hard hat</em> was covered in stickers.</li></ol>
+<hr>
+<h3 id="earplug">earplug<a class="hash" href="#earplug" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/ˈɪrplʌɡ/ &middot; <em>EER-plug</em></dd><dt>Русский</dt><dd>беруши, ушная затычка</dd><dt>Plural</dt><dd><em>earplugs</em></dd><dt>Countability</dt><dd>countable</dd></dl>
+<p>A small soft plug worn in the ear to block loud noise.</p>
+<ol><li><em>Earplugs</em> are required anywhere near the press.</li><li>He forgot his <em>earplugs</em> and had a headache all day.</li><li>A box of foam <em>earplugs</em> sits by the entrance.</li></ol>
+<hr>
+<h3 id="safety">safety<a class="hash" href="#safety" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/ˈseɪfti/ &middot; <em>SAYF-tee</em></dd><dt>Русский</dt><dd>безопасность, техника безопасности</dd><dt>Countability</dt><dd>uncountable</dd></dl>
+<p>Protection from harm, especially the rules and habits that prevent accidents at work.</p>
+<ol><li><em>Safety</em> comes before production on this site.</li><li>The plant has a strong <em>safety</em> record.</li><li>Every shift starts with a short <em>safety</em> meeting.</li></ol>
+<hr>
+<h3 id="hazard">hazard<a class="hash" href="#hazard" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/ˈhæzərd/ &middot; <em>HA-zurd</em></dd><dt>Русский</dt><dd>опасность, источник опасности</dd><dt>Plural</dt><dd><em>hazards</em></dd><dt>Countability</dt><dd>countable</dd></dl>
+<p>Something that could cause injury or damage.</p>
+<ol><li>Loose cable on the floor is a tripping <em>hazard</em>.</li><li>Inspectors listed a dozen <em>hazards</em> in the report.</li><li>Coal dust is a serious fire <em>hazard</em>.</li></ol>
+<hr>
+<h3 id="inspection">inspection<a class="hash" href="#inspection" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/ɪnˈspɛkʃən/ &middot; <em>in-SPEK-shuhn</em></dd><dt>Русский</dt><dd>проверка, осмотр</dd><dt>Plural</dt><dd><em>inspections</em></dd><dt>Countability</dt><dd>countable</dd></dl>
+<p>A careful official check of equipment or a workplace.</p>
+<ol><li>The boiler failed its annual <em>inspection</em>.</li><li>Surprise <em>inspections</em> keep everyone honest.</li><li>The <em>inspection</em> turned up a cracked valve.</li></ol>
+<hr>
+<h3 id="defect">defect<a class="hash" href="#defect" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/ˈdiːfɛkt/ &middot; <em>DEE-fekt</em></dd><dt>Русский</dt><dd>дефект, брак</dd><dt>Plural</dt><dd><em>defects</em></dd><dt>Countability</dt><dd>countable</dd><dt>Contrast</dt><dd>The noun is stressed DEE-fekt; the verb <em>defect</em> is dih-FEKT.</dd></dl>
+<p>A fault in a product that makes it fail to meet the standard.</p>
+<ol><li>The whole batch had the same <em>defect</em>.</li><li>Inspectors found three <em>defects</em> in the casting.</li><li>A tiny <em>defect</em> in the weld caused the failure.</li></ol>
+<hr>
+<h3 id="scrap">scrap<a class="hash" href="#scrap" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/skræp/ &middot; <em>SKRAP</em></dd><dt>Русский</dt><dd>лом, металлолом</dd><dt>Countability</dt><dd>uncountable</dd></dl>
+<p>Waste metal or material that is collected to be melted down and reused.</p>
+<ol><li>They sold the old machines for <em>scrap</em>.</li><li>The mill buys <em>scrap</em> by the ton.</li><li>There is a pile of <em>scrap</em> behind the shop.</li></ol>
+<hr>
+<h3 id="quota">quota<a class="hash" href="#quota" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/ˈkwoʊtə/ &middot; <em>KWOH-tuh</em></dd><dt>Русский</dt><dd>квота, норма выработки</dd><dt>Plural</dt><dd><em>quotas</em></dd><dt>Countability</dt><dd>countable</dd></dl>
+<p>A fixed amount that must be produced or is allowed to be produced.</p>
+<ol><li>The crew hit its <em>quota</em> by Thursday.</li><li>Production <em>quotas</em> were raised again this quarter.</li><li>Missing the <em>quota</em> two months running cost him the job.</li></ol>
+<hr>
+<h3 id="inventory">inventory<a class="hash" href="#inventory" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/ˈɪnvəntɔːri/ &middot; <em>IN-vuhn-tor-ee</em></dd><dt>Русский</dt><dd>складские запасы, товарные запасы</dd><dt>Countability</dt><dd>uncountable</dd><dt>Contrast</dt><dd>Americans say IN-vuhn-tor-ee; the British say in-VEN-tuh-ree.</dd></dl>
+<p>The stock of goods and materials a business is holding.</p>
+<ol><li>The plant is carrying too much <em>inventory</em>.</li><li>They cut <em>inventory</em> to free up cash.</li><li>Parts sat in <em>inventory</em> for eight months.</li></ol>
+<hr>
+<h3 id="raw-material">raw material<a class="hash" href="#raw-material" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/ˌrɔː məˈtɪriəl/ &middot; <em>raw muh-TEER-ee-uhl</em></dd><dt>Русский</dt><dd>сырьё</dd><dt>Plural</dt><dd><em>raw materials</em></dd><dt>Countability</dt><dd>countable</dd></dl>
+<p>A basic substance that a factory turns into a finished product.</p>
+<ol><li>The price of <em>raw materials</em> went up sharply.</li><li>Iron ore is the main <em>raw material</em> for steel.</li><li>They store the <em>raw materials</em> in silos out back.</li></ol>
+<hr>
+<h3 id="bearing">bearing<a class="hash" href="#bearing" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/ˈbɛrɪŋ/ &middot; <em>BEH-ring</em></dd><dt>Русский</dt><dd>подшипник</dd><dt>Plural</dt><dd><em>bearings</em></dd><dt>Countability</dt><dd>countable</dd></dl>
+<p>A part with balls or rollers that lets a shaft turn smoothly.</p>
+<ol><li>A worn <em>bearing</em> was making that whine.</li><li>The <em>bearings</em> need grease every hundred hours.</li><li>He pressed a new <em>bearing</em> onto the shaft.</li></ol>
+<hr>
+<h3 id="compressor">compressor<a class="hash" href="#compressor" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/kəmˈprɛsər/ &middot; <em>kuhm-PRE-sur</em></dd><dt>Русский</dt><dd>компрессор</dd><dt>Plural</dt><dd><em>compressors</em></dd><dt>Countability</dt><dd>countable</dd></dl>
+<p>A machine that squeezes air or gas into a smaller space under pressure.</p>
+<ol><li>The <em>compressor</em> kicks on every few minutes.</li><li>Both <em>compressors</em> feed the same air line.</li><li>A leak upstream kept the <em>compressor</em> running all night.</li></ol>
+<hr>
+<h3 id="gearbox">gearbox<a class="hash" href="#gearbox" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/ˈɡɪrbɑːks/ &middot; <em>GEER-bahks</em></dd><dt>Русский</dt><dd>редуктор, коробка передач</dd><dt>Plural</dt><dd><em>gearboxes</em></dd><dt>Countability</dt><dd>countable</dd></dl>
+<p>A case of gears that changes the speed or force coming from a motor.</p>
+<ol><li>Oil was leaking out of the <em>gearbox</em>.</li><li>The <em>gearbox</em> on the wind turbine failed after eight years.</li><li>They rebuilt both <em>gearboxes</em> over the weekend.</li></ol>
+<hr>
+<h3 id="duct">duct<a class="hash" href="#duct" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/dʌkt/ &middot; <em>DUKT</em></dd><dt>Русский</dt><dd>воздуховод, канал</dd><dt>Plural</dt><dd><em>ducts</em></dd><dt>Countability</dt><dd>countable</dd></dl>
+<p>A pipe or channel that carries air, gas, or fumes through a building.</p>
+<ol><li>Warm air comes up through the <em>duct</em> in the floor.</li><li>The <em>ducts</em> had not been cleaned in years.</li><li>A steel <em>duct</em> carries the fumes to the roof.</li></ol>
+<hr>
+<h3 id="flue">flue<a class="hash" href="#flue" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/fluː/ &middot; <em>FLOO</em></dd><dt>Русский</dt><dd>дымоход</dd><dt>Plural</dt><dd><em>flues</em></dd><dt>Countability</dt><dd>countable</dd><dt>Contrast</dt><dd>Sounds exactly like <em>flu</em> and <em>flew</em>.</dd></dl>
+<p>The pipe or passage that carries smoke and hot gas out of a furnace.</p>
+<ol><li>Open the <em>flue</em> before you light the fire.</li><li>Soot had nearly blocked the <em>flue</em>.</li><li>Both <em>flues</em> run up the same chimney.</li></ol>
+<hr>
+<h3 id="ventilation">ventilation<a class="hash" href="#ventilation" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/ˌvɛntəˈleɪʃən/ &middot; <em>ven-tuh-LAY-shuhn</em></dd><dt>Русский</dt><dd>вентиляция</dd><dt>Countability</dt><dd>uncountable</dd></dl>
+<p>The movement of fresh air through a building or a mine.</p>
+<ol><li>The mine has <em>ventilation</em> shafts every half mile.</li><li>Poor <em>ventilation</em> let the fumes build up.</li><li>They installed better <em>ventilation</em> over the welding bays.</li></ol>
+<hr>
+<h3 id="regulator">regulator<a class="hash" href="#regulator" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/ˈrɛɡjəleɪtər/ &middot; <em>REG-yuh-lay-tur</em></dd><dt>Русский</dt><dd>регулятор</dd><dt>Plural</dt><dd><em>regulators</em></dd><dt>Countability</dt><dd>countable</dd></dl>
+<p>A device that keeps pressure, voltage, or flow at a steady level.</p>
+<ol><li>The <em>regulator</em> on the propane tank was frozen.</li><li>A bad <em>regulator</em> let the voltage swing wildly.</li><li>Both <em>regulators</em> were replaced during the overhaul.</li></ol>
+<hr>
+<h3 id="hoist">hoist<a class="hash" href="#hoist" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/hɔɪst/ &middot; <em>HOYST</em></dd><dt>Русский</dt><dd>подъёмник, таль</dd><dt>Plural</dt><dd><em>hoists</em></dd><dt>Countability</dt><dd>countable</dd></dl>
+<p>A machine with a chain or cable for lifting heavy loads.</p>
+<ol><li>They lifted the motor out with a chain <em>hoist</em>.</li><li>The <em>hoist</em> is rated for two tons.</li><li>Both <em>hoists</em> run on the same overhead rail.</li></ol>
+<hr>
+<h3 id="pallet">pallet<a class="hash" href="#pallet" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/ˈpælɪt/ &middot; <em>PA-luht</em></dd><dt>Русский</dt><dd>поддон, паллета</dd><dt>Plural</dt><dd><em>pallets</em></dd><dt>Countability</dt><dd>countable</dd><dt>Contrast</dt><dd>Sounds like <em>palette</em>, the painter's board, and like <em>palate</em>, the roof of the mouth.</dd></dl>
+<p>A low wooden platform that goods are stacked on so a forklift can move them.</p>
+<ol><li>Stack the boxes on a <em>pallet</em> and shrink-wrap them.</li><li>There are forty <em>pallets</em> waiting at the dock.</li><li>A broken <em>pallet</em> dumped the whole load.</li></ol>
+<hr>
+<h3 id="crate">crate<a class="hash" href="#crate" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/kreɪt/ &middot; <em>KRAYT</em></dd><dt>Русский</dt><dd>ящик, деревянный контейнер</dd><dt>Plural</dt><dd><em>crates</em></dd><dt>Countability</dt><dd>countable</dd></dl>
+<p>A large wooden or plastic box used for shipping goods.</p>
+<ol><li>The machine arrived in a wooden <em>crate</em>.</li><li>Empty <em>crates</em> were stacked along the wall.</li><li>It took four men to move that <em>crate</em>.</li></ol>
+<hr>
+<h3 id="loading-dock">loading dock<a class="hash" href="#loading-dock" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/ˈloʊdɪŋ ˌdɑːk/ &middot; <em>LOH-ding dahk</em></dd><dt>Русский</dt><dd>погрузочная платформа, рампа</dd><dt>Plural</dt><dd><em>loading docks</em></dd><dt>Countability</dt><dd>countable</dd></dl>
+<p>A raised platform where trucks back up to be loaded or unloaded.</p>
+<ol><li>Two trucks were waiting at the <em>loading dock</em>.</li><li>The <em>loading docks</em> run along the back of the building.</li><li>Drivers check in at the <em>loading dock</em> office.</li></ol>
+<hr>
+<h3 id="freight">freight<a class="hash" href="#freight" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/freɪt/ &middot; <em>FRAYT</em></dd><dt>Русский</dt><dd>груз; грузоперевозки</dd><dt>Countability</dt><dd>uncountable</dd><dt>Contrast</dt><dd>The <em>eigh</em> sounds like <em>ay</em>; the word rhymes with <em>eight</em>.</dd></dl>
+<p>Goods carried in bulk by truck, train, or ship.</p>
+<ol><li><em>Freight</em> moves through this yard day and night.</li><li>The cost of <em>freight</em> has doubled since spring.</li><li>Most of the coal travels as rail <em>freight</em>.</li></ol>
+<hr>
+<h3 id="shipment">shipment<a class="hash" href="#shipment" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/ˈʃɪpmənt/ &middot; <em>SHIP-muhnt</em></dd><dt>Русский</dt><dd>партия груза, отгрузка</dd><dt>Plural</dt><dd><em>shipments</em></dd><dt>Countability</dt><dd>countable</dd></dl>
+<p>A load of goods sent out together.</p>
+<ol><li>The <em>shipment</em> is due Thursday morning.</li><li>Three <em>shipments</em> were held up at the border.</li><li>We rejected the whole <em>shipment</em> after testing it.</li></ol>
+<hr>
+<h3 id="supply-chain">supply chain<a class="hash" href="#supply-chain" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/səˈplaɪ ˌtʃeɪn/ &middot; <em>suh-PLY chayn</em></dd><dt>Русский</dt><dd>цепочка поставок</dd><dt>Plural</dt><dd><em>supply chains</em></dd><dt>Countability</dt><dd>countable</dd></dl>
+<p>The whole chain of suppliers and shippers that gets parts to a factory.</p>
+<ol><li>One missing chip broke the entire <em>supply chain</em>.</li><li>Companies are shortening their <em>supply chains</em>.</li><li>The war disrupted the <em>supply chain</em> for months.</li></ol>
+<hr>
+<h3 id="sector">sector<a class="hash" href="#sector" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/ˈsɛktər/ &middot; <em>SEK-tur</em></dd><dt>Русский</dt><dd>сектор, отрасль</dd><dt>Plural</dt><dd><em>sectors</em></dd><dt>Countability</dt><dd>countable</dd></dl>
+<p>One part of an economy or industry considered separately.</p>
+<ol><li>The energy <em>sector</em> added jobs last quarter.</li><li>Both <em>sectors</em> depend on cheap electricity.</li><li>Manufacturing is the largest <em>sector</em> in this county.</li></ol>
+<hr>
+<h3 id="overhaul">overhaul<a class="hash" href="#overhaul" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/ˈoʊvərˌhɔːl/ &middot; <em>OH-vur-hawl</em></dd><dt>Русский</dt><dd>капитальный ремонт</dd><dt>Plural</dt><dd><em>overhauls</em></dd><dt>Countability</dt><dd>countable</dd><dt>Contrast</dt><dd>The noun is stressed OH-vur-hawl; the verb is oh-vur-HAWL.</dd></dl>
+<p>A complete repair in which a machine is taken apart and rebuilt.</p>
+<ol><li>The turbine is due for an <em>overhaul</em> this fall.</li><li>Two <em>overhauls</em> are scheduled for the shutdown.</li><li>A full <em>overhaul</em> takes about six weeks.</li></ol>
+<hr>
+<h3 id="repair">repair<a class="hash" href="#repair" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/rɪˈpɛr/ &middot; <em>rih-PAIR</em></dd><dt>Русский</dt><dd>ремонт, починка</dd><dt>Plural</dt><dd><em>repairs</em></dd><dt>Countability</dt><dd>countable</dd></dl>
+<p>Work done to fix something that is broken or worn.</p>
+<ol><li>The <em>repair</em> took longer than anyone expected.</li><li>Crews made emergency <em>repairs</em> to the line.</li><li>That <em>repair</em> will cost more than the pump is worth.</li></ol>
+<hr>
+<h3 id="leak">leak<a class="hash" href="#leak" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/liːk/ &middot; <em>LEEK</em></dd><dt>Русский</dt><dd>утечка, течь</dd><dt>Plural</dt><dd><em>leaks</em></dd><dt>Countability</dt><dd>countable</dd><dt>Contrast</dt><dd>Sounds exactly like <em>leek</em>, the vegetable.</dd></dl>
+<p>A hole or crack that lets liquid or gas escape.</p>
+<ol><li>A gas <em>leak</em> forced them to clear the building.</li><li>Crews found two <em>leaks</em> in the pipeline.</li><li>The <em>leak</em> was losing a gallon an hour.</li></ol>
+<hr>
+<h3 id="spill">spill<a class="hash" href="#spill" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/spɪl/ &middot; <em>SPIL</em></dd><dt>Русский</dt><dd>разлив, пролив</dd><dt>Plural</dt><dd><em>spills</em></dd><dt>Countability</dt><dd>countable</dd></dl>
+<p>An accidental release of liquid onto the ground or into water.</p>
+<ol><li>A chemical <em>spill</em> closed the highway.</li><li>Small <em>spills</em> have to be reported too.</li><li>They contained the <em>spill</em> within an hour.</li></ol></div></main>
+<button class="themebtn" id="themeBtn">Dark</button>
+<script>
+const tb=document.getElementById('themeBtn');
+function setTheme(x){document.documentElement.dataset.theme=x;tb.textContent=x==='dark'?'Light':'Dark';
+ try{localStorage.setItem('site-theme',x)}catch(e){}}
+tb.onclick=()=>setTheme(document.documentElement.dataset.theme==='dark'?'light':'dark');
+try{const s=localStorage.getItem('site-theme');
+ setTheme(s||(matchMedia('(prefers-color-scheme: dark)').matches?'dark':'light'))}catch(e){setTheme('light')}
+</script></body></html>

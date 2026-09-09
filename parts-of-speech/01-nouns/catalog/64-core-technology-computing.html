@@ -1,0 +1,671 @@
+<!DOCTYPE html>
+<html lang="en"><head>
+<meta charset="utf-8"><meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Core vocabulary: technology and computing</title>
+<style>
+:root{--bg:#faf9f7;--surface:#fff;--surface2:#f2f0ec;--border:#e2ded6;--text:#1a1815;
+--dim:#5f594f;--faint:#8a8377;--accent:#8a5a3b;--measure:72ch}
+@media(prefers-color-scheme:dark){:root{--bg:#14140f;--surface:#1d1d17;--surface2:#25251d;
+--border:#33332a;--text:#eeeae1;--dim:#a8a293;--faint:#7d776b;--accent:#d09b72}}
+:root[data-theme=dark]{--bg:#14140f;--surface:#1d1d17;--surface2:#25251d;--border:#33332a;
+--text:#eeeae1;--dim:#a8a293;--faint:#7d776b;--accent:#d09b72}
+:root[data-theme=light]{--bg:#faf9f7;--surface:#fff;--surface2:#f2f0ec;--border:#e2ded6;
+--text:#1a1815;--dim:#5f594f;--faint:#8a8377;--accent:#8a5a3b}
+*{box-sizing:border-box}
+body{margin:0;background:var(--bg);color:var(--text);
+font:17px/1.72 ui-serif,Georgia,"Iowan Old Style",Palatino,serif;-webkit-font-smoothing:antialiased}
+.wrap{max-width:min(var(--measure),100%);margin:0 auto;padding:0 22px}
+nav.crumb{border-bottom:1px solid var(--border);padding:13px 0;font-size:13.5px;
+font-family:-apple-system,BlinkMacSystemFont,"Segoe UI",sans-serif;position:sticky;top:0;background:var(--bg);z-index:20}
+nav.crumb .wrap{max-width:none;display:flex;gap:9px;align-items:center;flex-wrap:wrap}
+nav.crumb a{color:var(--dim);text-decoration:none}
+nav.crumb a:hover{color:var(--accent)}
+nav.crumb .sep{color:var(--faint)}
+main{padding:8px 0 80px}
+h1{font-size:clamp(28px,5vw,38px);line-height:1.15;letter-spacing:-.015em;margin:34px 0 18px}
+h2{font-size:25px;margin:46px 0 14px;letter-spacing:-.01em;padding-bottom:7px;border-bottom:1px solid var(--border)}
+h3{font-size:19px;margin:34px 0 10px;color:var(--accent)}
+h4{font-size:16px;margin:24px 0 8px;font-family:-apple-system,sans-serif}
+p{margin:0 0 16px}
+a{color:var(--accent)}
+.hash{opacity:0;margin-left:8px;font-weight:400;font-size:.65em;text-decoration:none;color:var(--faint)}
+h2:hover .hash,h3:hover .hash{opacity:1}
+blockquote{margin:0 0 20px;padding:14px 18px;background:var(--surface2);
+border-left:3px solid var(--accent);border-radius:0 8px 8px 0}
+blockquote p:last-child{margin-bottom:0}
+ol,ul{margin:0 0 18px;padding-left:26px}
+li{margin-bottom:8px}
+li>ul,li>ol{margin:8px 0 0}
+code{font-family:ui-monospace,SFMono-Regular,Menlo,Consolas,monospace;font-size:.87em;
+background:var(--surface2);padding:1px 5px;border-radius:4px}
+pre{background:var(--surface2);border:1px solid var(--border);border-radius:9px;
+padding:15px 17px;overflow-x:auto;margin:0 0 20px}
+pre code{background:none;padding:0;font-size:13px;line-height:1.6}
+.tw{overflow-x:auto;margin:0 0 22px;border:1px solid var(--border);border-radius:9px}
+table{border-collapse:collapse;width:100%;font-size:15px;
+font-family:-apple-system,BlinkMacSystemFont,"Segoe UI",sans-serif}
+th,td{padding:10px 14px;border-bottom:1px solid var(--border);vertical-align:top}
+th{background:var(--surface2);font-size:12px;text-transform:uppercase;
+letter-spacing:.06em;color:var(--dim);font-weight:700;white-space:nowrap}
+tbody tr:last-child td{border-bottom:none}
+hr{border:none;border-top:1px solid var(--border);margin:38px 0}
+details{background:var(--surface2);border:1px solid var(--border);border-radius:9px;
+padding:13px 17px;margin:0 0 20px}
+summary{cursor:pointer;font-weight:600;font-family:-apple-system,sans-serif;font-size:15px}
+details[open] summary{margin-bottom:12px}
+del{color:var(--faint)}
+dl.fields{margin:0 0 20px;padding:0}
+dl.fields dt{font-family:-apple-system,BlinkMacSystemFont,"Segoe UI",sans-serif;
+font-size:11px;letter-spacing:.11em;text-transform:uppercase;color:var(--faint);
+font-weight:700;margin:14px 0 4px}
+dl.fields dt:first-child{margin-top:0}
+dl.fields dd{margin:0;font-size:16px;color:var(--dim);line-height:1.62}
+dl.fields dd em{color:var(--text)}
+dl.fields dt.ru{color:var(--accent)}
+dl.fields dd strong{color:var(--text)}
+.toc{background:var(--surface2);border:1px solid var(--border);border-radius:10px;
+padding:16px 20px;margin:26px 0 34px;font-family:-apple-system,sans-serif;font-size:14px}
+.toc b{display:block;font-size:11px;letter-spacing:.12em;text-transform:uppercase;
+color:var(--faint);margin-bottom:9px}
+.toc a{display:block;padding:3px 0;color:var(--dim);text-decoration:none}
+.toc a:hover{color:var(--accent)}
+.themebtn{position:fixed;right:18px;bottom:18px;z-index:60;font-family:-apple-system,sans-serif;
+font-size:12.5px;font-weight:600;cursor:pointer;background:var(--surface);border:1px solid var(--border);
+border-radius:99px;padding:9px 16px;color:var(--text)}
+@media(max-width:600px){body{font-size:16px}.wrap{padding:0 17px}}
+</style></head><body>
+<nav class="crumb"><div class="wrap"><a href="../../../index.html">Learn English</a><span class="sep">/</span><a href="../../README.html">Parts of speech</a><span class="sep">/</span><a href="../README.html">01-nouns</a><span class="sep">/</span><span>catalog</span></div></nav>
+<main><div class="wrap"><h1 id="core-vocabulary-technology-and-computing">Core vocabulary: technology and computing<a class="hash" href="#core-vocabulary-technology-and-computing" aria-label="link">#</a></h1>
+<blockquote><p>The everyday nouns of technology and computing — pronunciation, Russian, plural, and three examples each.</p></blockquote>
+<p><a href="../README.html">← The grammar of nouns</a> &middot; <a href="README.html">All groups</a></p>
+<p>Part of the <strong>core-vocabulary tier</strong>. Groups 1–23 cover the nouns that misbehave; this tier covers the nouns you simply need to know. Entries are deliberately lean, because a regular countable noun has no grammatical story to tell. A <strong>Contrast</strong> line appears only where the word hides a genuine trap.</p>
+<p>Where a word in this field <em>does</em> misbehave, it lives in the grammar tier instead and is not repeated here.</p>
+<hr>
+<h3 id="app">app<a class="hash" href="#app" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/æp/ &middot; <em>AP</em></dd><dt>Русский</dt><dd>приложение</dd><dt>Plural</dt><dd><em>apps</em></dd><dt>Countability</dt><dd>countable</dd></dl>
+<p>A program you run on a phone, tablet, or computer.</p>
+<ol><li>I downloaded a banking <em>app</em> last night.</li><li>There are too many <em>apps</em> on my phone.</li><li>The weather <em>app</em> says it's going to rain.</li></ol>
+<hr>
+<h3 id="browser">browser<a class="hash" href="#browser" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/ˈbraʊzər/ &middot; <em>BROW-zur</em></dd><dt>Русский</dt><dd>браузер</dd><dt>Plural</dt><dd><em>browsers</em></dd><dt>Countability</dt><dd>countable</dd></dl>
+<p>The program you use to look at pages on the internet.</p>
+<ol><li>Open your <em>browser</em> and go to the site.</li><li>Most <em>browsers</em> will warn you about that page.</li><li>My <em>browser</em> keeps freezing when I have too many tabs open.</li></ol>
+<hr>
+<h3 id="website">website<a class="hash" href="#website" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/ˈwɛbsaɪt/ &middot; <em>WEB-syte</em></dd><dt>Русский</dt><dd>сайт, веб-сайт</dd><dt>Plural</dt><dd><em>websites</em></dd><dt>Countability</dt><dd>countable</dd></dl>
+<p>A set of connected pages on the internet kept in one place.</p>
+<ol><li>Their <em>website</em> is down again.</li><li>I compared prices on three different <em>websites</em>.</li><li>You can book the whole trip on the airline's <em>website</em>.</li></ol>
+<hr>
+<h3 id="internet">internet<a class="hash" href="#internet" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/ˈɪntərnɛt/ &middot; <em>IN-tur-net</em></dd><dt>Русский</dt><dd>интернет</dd><dt>Countability</dt><dd>uncountable</dd></dl>
+<p>The worldwide network that connects computers to each other.</p>
+<ol><li>The <em>internet</em> went out during the storm.</li><li>She found the recipe on the <em>internet</em>.</li><li>We have no <em>internet</em> at the cabin.</li></ol>
+<hr>
+<h3 id="server">server<a class="hash" href="#server" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/ˈsɜːrvər/ &middot; <em>SUR-vur</em></dd><dt>Русский</dt><dd>сервер</dd><dt>Plural</dt><dd><em>servers</em></dd><dt>Countability</dt><dd>countable</dd></dl>
+<p>A powerful computer that stores files or runs services for other computers.</p>
+<ol><li>The <em>server</em> went down for about an hour.</li><li>All the photos are backed up on our <em>servers</em>.</li><li>IT is moving the database to a new <em>server</em> this weekend.</li></ol>
+<hr>
+<h3 id="network">network<a class="hash" href="#network" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/ˈnɛtwɜːrk/ &middot; <em>NET-wurk</em></dd><dt>Русский</dt><dd>сеть</dd><dt>Plural</dt><dd><em>networks</em></dd><dt>Countability</dt><dd>countable</dd></dl>
+<p>A group of computers or devices connected so they can share information.</p>
+<ol><li>The office <em>network</em> is running slowly today.</li><li>Don't join public <em>networks</em> without a VPN.</li><li>Our printer is on the same <em>network</em> as the laptops.</li></ol>
+<hr>
+<h3 id="signal">signal<a class="hash" href="#signal" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/ˈsɪɡnəl/ &middot; <em>SIG-nul</em></dd><dt>Русский</dt><dd>сигнал</dd><dt>Plural</dt><dd><em>signals</em></dd><dt>Countability</dt><dd>countable</dd></dl>
+<p>A wave or pulse that carries information to a phone, radio, or other device.</p>
+<ol><li>There's no <em>signal</em> out here in the canyon.</li><li>The <em>signal</em> gets weak in the basement.</li><li>Cell <em>signals</em> are much better since they put up the new tower.</li></ol>
+<hr>
+<h3 id="bandwidth">bandwidth<a class="hash" href="#bandwidth" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/ˈbændwɪdθ/ &middot; <em>BAND-width</em></dd><dt>Русский</dt><dd>пропускная способность</dd><dt>Countability</dt><dd>uncountable</dd></dl>
+<p>The amount of data a connection can carry in a given time.</p>
+<ol><li>Streaming in 4K eats a lot of <em>bandwidth</em>.</li><li>We don't have enough <em>bandwidth</em> for four people working from home.</li><li>The video call is using most of our <em>bandwidth</em>.</li></ol>
+<hr>
+<h3 id="broadband">broadband<a class="hash" href="#broadband" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/ˈbrɔːdbænd/ &middot; <em>BRAWD-band</em></dd><dt>Русский</dt><dd>широкополосный интернет</dd><dt>Countability</dt><dd>uncountable</dd></dl>
+<p>A fast, always-on internet connection.</p>
+<ol><li><em>Broadband</em> still hasn't reached a lot of rural counties.</li><li>We pay sixty dollars a month for <em>broadband</em>.</li><li>You'll need <em>broadband</em> to work from home.</li></ol>
+<hr>
+<h3 id="hotspot">hotspot<a class="hash" href="#hotspot" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/ˈhɑːtspɑːt/ &middot; <em>HAHT-spaht</em></dd><dt>Русский</dt><dd>точка доступа (Wi-Fi)</dd><dt>Plural</dt><dd><em>hotspots</em></dd><dt>Countability</dt><dd>countable</dd></dl>
+<p>A place or a device that gives nearby phones and laptops internet access.</p>
+<ol><li>I turned my phone into a <em>hotspot</em> so we could work on the train.</li><li>The airport has free <em>hotspots</em> near every gate.</li><li>The coffee shop's <em>hotspot</em> needs a password.</li></ol>
+<hr>
+<h3 id="domain">domain<a class="hash" href="#domain" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/doʊˈmeɪn/ &middot; <em>doh-MAYN</em></dd><dt>Русский</dt><dd>домен</dd><dt>Plural</dt><dd><em>domains</em></dd><dt>Countability</dt><dd>countable</dd></dl>
+<p>The name that identifies a website, like the part after the www.</p>
+<ol><li>We bought the <em>domain</em> before we even had a logo.</li><li>Short <em>domains</em> are almost all taken.</li><li>The <em>domain</em> expires next March, so renew it.</li></ol>
+<hr>
+<h3 id="link">link<a class="hash" href="#link" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/lɪŋk/ &middot; <em>LINK</em></dd><dt>Русский</dt><dd>ссылка</dd><dt>Plural</dt><dd><em>links</em></dd><dt>Countability</dt><dd>countable</dd></dl>
+<p>A word or image you click to go to another page or file.</p>
+<ol><li>Just send me the <em>link</em>.</li><li>Half the <em>links</em> on that page are broken.</li><li>Don't click a <em>link</em> from an email you weren't expecting.</li></ol>
+<hr>
+<h3 id="bookmark">bookmark<a class="hash" href="#bookmark" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/ˈbʊkmɑːrk/ &middot; <em>BUUK-mark</em></dd><dt>Русский</dt><dd>закладка</dd><dt>Plural</dt><dd><em>bookmarks</em></dd><dt>Countability</dt><dd>countable</dd></dl>
+<p>A saved link that lets you return to a page quickly.</p>
+<ol><li>Save it as a <em>bookmark</em> so you don't lose it.</li><li>My <em>bookmarks</em> are a complete mess.</li><li>I have a <em>bookmark</em> for the company intranet.</li></ol>
+<hr>
+<h3 id="feed">feed<a class="hash" href="#feed" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/fiːd/ &middot; <em>FEED</em></dd><dt>Русский</dt><dd>лента (новостей)</dd><dt>Plural</dt><dd><em>feeds</em></dd><dt>Countability</dt><dd>countable</dd></dl>
+<p>The stream of new posts or updates a site shows you.</p>
+<ol><li>My <em>feed</em> is nothing but ads lately.</li><li>I muted a few accounts to clean up my <em>feeds</em>.</li><li>Her post showed up at the top of my <em>feed</em>.</li></ol>
+<hr>
+<h3 id="profile">profile<a class="hash" href="#profile" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/ˈproʊfaɪl/ &middot; <em>PROH-fyle</em></dd><dt>Русский</dt><dd>профиль</dd><dt>Plural</dt><dd><em>profiles</em></dd><dt>Countability</dt><dd>countable</dd></dl>
+<p>The page that holds your name, photo, and details on a site.</p>
+<ol><li>Update your <em>profile</em> with the new job title.</li><li>A lot of these <em>profiles</em> are fake.</li><li>I couldn't find her <em>profile</em> anywhere.</li></ol>
+<hr>
+<h3 id="avatar">avatar<a class="hash" href="#avatar" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/ˈævətɑːr/ &middot; <em>AV-uh-tar</em></dd><dt>Русский</dt><dd>аватар</dd><dt>Plural</dt><dd><em>avatars</em></dd><dt>Countability</dt><dd>countable</dd></dl>
+<p>A small picture or figure that stands for you online.</p>
+<ol><li>Pick an <em>avatar</em> for your account.</li><li>Their <em>avatars</em> all look like cartoon animals.</li><li>He still uses a photo of his dog as his <em>avatar</em>.</li></ol>
+<hr>
+<h3 id="username">username<a class="hash" href="#username" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/ˈjuːzərneɪm/ &middot; <em>YOO-zur-naym</em></dd><dt>Русский</dt><dd>имя пользователя, логин</dd><dt>Plural</dt><dd><em>usernames</em></dd><dt>Countability</dt><dd>countable</dd></dl>
+<p>The name you type to identify yourself to a computer system.</p>
+<ol><li>I forgot my <em>username</em> for that site.</li><li><em>Usernames</em> have to be at least six characters.</li><li>Your <em>username</em> is your work email address.</li></ol>
+<hr>
+<h3 id="password">password<a class="hash" href="#password" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/ˈpæswɜːrd/ &middot; <em>PAS-wurd</em></dd><dt>Русский</dt><dd>пароль</dd><dt>Plural</dt><dd><em>passwords</em></dd><dt>Countability</dt><dd>countable</dd></dl>
+<p>A secret word or string that lets you into an account.</p>
+<ol><li>Change your <em>password</em> every few months.</li><li>Don't write your <em>passwords</em> on a sticky note.</li><li>The <em>password</em> has to include a number.</li></ol>
+<hr>
+<h3 id="login">login<a class="hash" href="#login" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/ˈlɔːɡɪn/ &middot; <em>LAWG-in</em></dd><dt>Русский</dt><dd>логин, вход в систему</dd><dt>Plural</dt><dd><em>logins</em></dd><dt>Countability</dt><dd>countable</dd><dt>Contrast</dt><dd>One word as a noun (<em>a login</em>), two words as a verb (<em>log in to the system</em>). Same for <em>log out</em> and <em>a logout</em>.</dd></dl>
+<p>The act of signing in, or the name and password you use to do it.</p>
+<ol><li>The <em>login</em> failed three times in a row.</li><li>We issue <em>logins</em> to new hires on their first day.</li><li>Use your company <em>login</em> to get into the system.</li></ol>
+<hr>
+<h3 id="user">user<a class="hash" href="#user" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/ˈjuːzər/ &middot; <em>YOO-zur</em></dd><dt>Русский</dt><dd>пользователь</dd><dt>Plural</dt><dd><em>users</em></dd><dt>Countability</dt><dd>countable</dd></dl>
+<p>A person who uses a computer, program, or service.</p>
+<ol><li>The app has about two million <em>users</em>.</li><li>Every <em>user</em> gets ten gigabytes of free storage.</li><li><em>Users</em> complained about the new layout right away.</li></ol>
+<hr>
+<h3 id="follower">follower<a class="hash" href="#follower" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/ˈfɑːloʊrr/ &middot; <em>FAH-loh-ur</em></dd><dt>Русский</dt><dd>подписчик (в соцсети)</dd><dt>Plural</dt><dd><em>followers</em></dd><dt>Countability</dt><dd>countable</dd></dl>
+<p>Someone who has chosen to see another person's posts online.</p>
+<ol><li>He gained ten thousand <em>followers</em> in a month.</li><li>Most of her <em>followers</em> are from overseas.</li><li>One <em>follower</em> pointed out the typo right away.</li></ol>
+<hr>
+<h3 id="notification">notification<a class="hash" href="#notification" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/ˌnoʊtɪfɪˈkeɪʃən/ &middot; <em>noh-tuh-fuh-KAY-shun</em></dd><dt>Русский</dt><dd>уведомление</dd><dt>Plural</dt><dd><em>notifications</em></dd><dt>Countability</dt><dd>countable</dd></dl>
+<p>A short message a device shows to tell you something has happened.</p>
+<ol><li>I turned off <em>notifications</em> for that group chat.</li><li>A <em>notification</em> popped up in the middle of my presentation.</li><li>You'll get a <em>notification</em> when the package ships.</li></ol>
+<hr>
+<h3 id="alert">alert<a class="hash" href="#alert" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/əˈlɜːrt/ &middot; <em>uh-LURT</em></dd><dt>Русский</dt><dd>оповещение, предупреждение</dd><dt>Plural</dt><dd><em>alerts</em></dd><dt>Countability</dt><dd>countable</dd></dl>
+<p>A warning message sent to tell you about something important.</p>
+<ol><li>I set up an <em>alert</em> for that word on my phone.</li><li>The bank sends <em>alerts</em> for any charge over a hundred dollars.</li><li>A weather <em>alert</em> woke everybody up at two in the morning.</li></ol>
+<hr>
+<h3 id="spam">spam<a class="hash" href="#spam" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/spæm/ &middot; <em>SPAM</em></dd><dt>Русский</dt><dd>спам</dd><dt>Countability</dt><dd>uncountable</dd></dl>
+<p>Unwanted email or messages sent out in huge numbers.</p>
+<ol><li>My inbox is full of <em>spam</em>.</li><li>That message got filtered as <em>spam</em>.</li><li>We get less <em>spam</em> since they updated the filter.</li></ol>
+<hr>
+<h3 id="emoji">emoji<a class="hash" href="#emoji" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/ɪˈmoʊdʒi/ &middot; <em>ih-MOH-jee</em></dd><dt>Русский</dt><dd>эмодзи, смайлик</dd><dt>Plural</dt><dd><em>emojis</em></dd><dt>Countability</dt><dd>countable</dd><dt>Contrast</dt><dd>Two syllables in the middle: ih-MOH-jee, not "ee-mo-JYE." The usual American plural is <em>emojis</em>.</dd></dl>
+<p>A tiny picture used in messages to show a feeling or thing.</p>
+<ol><li>He answered with a thumbs-up <em>emoji</em>.</li><li>She uses way too many <em>emojis</em>.</li><li>There's an <em>emoji</em> for almost everything now.</li></ol>
+<hr>
+<h3 id="hashtag">hashtag<a class="hash" href="#hashtag" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/ˈhæʃtæɡ/ &middot; <em>HASH-tag</em></dd><dt>Русский</dt><dd>хештег</dd><dt>Plural</dt><dd><em>hashtags</em></dd><dt>Countability</dt><dd>countable</dd></dl>
+<p>A word after a # sign used to label a post.</p>
+<ol><li>The <em>hashtag</em> was trending all afternoon.</li><li>Don't put fifteen <em>hashtags</em> on one photo.</li><li>They made up a <em>hashtag</em> for the conference.</li></ol>
+<hr>
+<h3 id="meme">meme<a class="hash" href="#meme" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/miːm/ &middot; <em>MEEM</em></dd><dt>Русский</dt><dd>мем</dd><dt>Plural</dt><dd><em>memes</em></dd><dt>Countability</dt><dd>countable</dd><dt>Contrast</dt><dd>One syllable, rhyming with <em>seem</em>. Not "MAY-may" or "MEE-mee."</dd></dl>
+<p>A funny image or phrase that spreads quickly online.</p>
+<ol><li>That <em>meme</em> was everywhere last summer.</li><li>Half the <em>memes</em> he posts are ten years old.</li><li>Somebody turned the press conference into a <em>meme</em>.</li></ol>
+<hr>
+<h3 id="selfie">selfie<a class="hash" href="#selfie" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/ˈsɛlfi/ &middot; <em>SEL-fee</em></dd><dt>Русский</dt><dd>селфи</dd><dt>Plural</dt><dd><em>selfies</em></dd><dt>Countability</dt><dd>countable</dd></dl>
+<p>A photo you take of yourself, usually with a phone.</p>
+<ol><li>She took a <em>selfie</em> in front of the fountain.</li><li>My camera roll is nothing but <em>selfies</em>.</li><li>He posted a <em>selfie</em> from the summit.</li></ol>
+<hr>
+<h3 id="chat">chat<a class="hash" href="#chat" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/tʃæt/ &middot; <em>CHAT</em></dd><dt>Русский</dt><dd>чат</dd><dt>Plural</dt><dd><em>chats</em></dd><dt>Countability</dt><dd>countable</dd></dl>
+<p>A conversation typed back and forth in real time online.</p>
+<ol><li>Ask the question in the <em>chat</em>.</li><li>I have about nine group <em>chats</em> going.</li><li>The support <em>chat</em> connected me to a real person.</li></ol>
+<hr>
+<h3 id="voicemail">voicemail<a class="hash" href="#voicemail" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/ˈvɔɪsmeɪl/ &middot; <em>VOYS-mayl</em></dd><dt>Русский</dt><dd>голосовое сообщение (на автоответчике)</dd><dt>Plural</dt><dd><em>voicemails</em></dd><dt>Countability</dt><dd>countable</dd></dl>
+<p>A recorded spoken message left for someone who didn't answer.</p>
+<ol><li>I left you a <em>voicemail</em> this morning.</li><li>He never checks his <em>voicemails</em>.</li><li>Her <em>voicemail</em> was four minutes long.</li></ol>
+<hr>
+<h3 id="ringtone">ringtone<a class="hash" href="#ringtone" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/ˈrɪŋtoʊn/ &middot; <em>RING-tohn</em></dd><dt>Русский</dt><dd>рингтон, мелодия звонка</dd><dt>Plural</dt><dd><em>ringtones</em></dd><dt>Countability</dt><dd>countable</dd></dl>
+<p>The sound a phone makes when someone calls.</p>
+<ol><li>That <em>ringtone</em> drives me crazy.</li><li>You can download new <em>ringtones</em> for free.</li><li>I set a special <em>ringtone</em> for my mom.</li></ol>
+<hr>
+<h3 id="download">download<a class="hash" href="#download" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/ˈdaʊnloʊd/ &middot; <em>DOWN-lohd</em></dd><dt>Русский</dt><dd>загрузка, скачанный файл</dd><dt>Plural</dt><dd><em>downloads</em></dd><dt>Countability</dt><dd>countable</dd><dt>Contrast</dt><dd>As a noun the stress is on the first syllable, DOWN-lohd; as a verb it moves back: down-LOHD the file.</dd></dl>
+<p>A file copied from the internet onto your device.</p>
+<ol><li>The <em>download</em> is taking forever.</li><li>Clear out your <em>downloads</em> folder once in a while.</li><li>The app has over a billion <em>downloads</em>.</li></ol>
+<hr>
+<h3 id="upload">upload<a class="hash" href="#upload" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/ˈʌploʊd/ &middot; <em>UP-lohd</em></dd><dt>Русский</dt><dd>загрузка (на сервер)</dd><dt>Plural</dt><dd><em>uploads</em></dd><dt>Countability</dt><dd>countable</dd></dl>
+<p>A file sent from your device to the internet.</p>
+<ol><li>The <em>upload</em> failed halfway through.</li><li>Video <em>uploads</em> are limited to two gigabytes.</li><li>Wait for the <em>upload</em> to finish before you close the tab.</li></ol>
+<hr>
+<h3 id="upgrade">upgrade<a class="hash" href="#upgrade" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/ˈʌpɡreɪd/ &middot; <em>UP-grayd</em></dd><dt>Русский</dt><dd>обновление, апгрейд</dd><dt>Plural</dt><dd><em>upgrades</em></dd><dt>Countability</dt><dd>countable</dd><dt>Contrast</dt><dd>Noun stress falls on the first syllable (UP-grayd); the verb takes it on the second (up-GRAYD).</dd></dl>
+<p>A newer or better version of something you already have.</p>
+<ol><li>The memory <em>upgrade</em> made a huge difference.</li><li>Both <em>upgrades</em> are free for existing customers.</li><li>I'm due for a phone <em>upgrade</em> in June.</li></ol>
+<hr>
+<h3 id="version">version<a class="hash" href="#version" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/ˈvɜːrʒən/ &middot; <em>VUR-zhun</em></dd><dt>Русский</dt><dd>версия</dd><dt>Plural</dt><dd><em>versions</em></dd><dt>Countability</dt><dd>countable</dd></dl>
+<p>One particular form of a program or document among several.</p>
+<ol><li>Which <em>version</em> of the app are you running?</li><li>Older <em>versions</em> don't support this file type.</li><li>The new <em>version</em> fixed the crash.</li></ol>
+<hr>
+<h3 id="interface">interface<a class="hash" href="#interface" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/ˈɪntərfeɪs/ &middot; <em>IN-tur-fays</em></dd><dt>Русский</dt><dd>интерфейс</dd><dt>Plural</dt><dd><em>interfaces</em></dd><dt>Countability</dt><dd>countable</dd></dl>
+<p>The part of a program you see and interact with.</p>
+<ol><li>The <em>interface</em> is clean and easy to learn.</li><li>Their <em>interfaces</em> look the same on the phone and the web.</li><li>A confusing <em>interface</em> will cost you customers.</li></ol>
+<hr>
+<h3 id="menu">menu<a class="hash" href="#menu" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/ˈmɛnjuː/ &middot; <em>MEN-yoo</em></dd><dt>Русский</dt><dd>меню</dd><dt>Plural</dt><dd><em>menus</em></dd><dt>Countability</dt><dd>countable</dd></dl>
+<p>A list of choices a program shows you to pick from.</p>
+<ol><li>Open the <em>menu</em> in the top right corner.</li><li>The settings are buried three <em>menus</em> deep.</li><li>Pick Export from the File <em>menu</em>.</li></ol>
+<hr>
+<h3 id="cursor">cursor<a class="hash" href="#cursor" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/ˈkɜːrsər/ &middot; <em>KUR-sur</em></dd><dt>Русский</dt><dd>курсор</dd><dt>Plural</dt><dd><em>cursors</em></dd><dt>Countability</dt><dd>countable</dd></dl>
+<p>The moving mark on a screen that shows where you are typing or pointing.</p>
+<ol><li>The <em>cursor</em> froze in the middle of the screen.</li><li>You can make <em>cursors</em> bigger in the accessibility settings.</li><li>Put the <em>cursor</em> at the end of the line.</li></ol>
+<hr>
+<h3 id="shortcut">shortcut<a class="hash" href="#shortcut" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/ˈʃɔːrtkʌt/ &middot; <em>SHORT-kut</em></dd><dt>Русский</dt><dd>сочетание клавиш; ярлык</dd><dt>Plural</dt><dd><em>shortcuts</em></dd><dt>Countability</dt><dd>countable</dd></dl>
+<p>A quick key combination or link that saves you steps.</p>
+<ol><li>There's a keyboard <em>shortcut</em> for that.</li><li>He knows every <em>shortcut</em> in the program.</li><li>I made a <em>shortcut</em> to the folder on my desktop.</li></ol>
+<hr>
+<h3 id="plugin">plugin<a class="hash" href="#plugin" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/ˈplʌɡɪn/ &middot; <em>PLUG-in</em></dd><dt>Русский</dt><dd>плагин</dd><dt>Plural</dt><dd><em>plugins</em></dd><dt>Countability</dt><dd>countable</dd></dl>
+<p>A small piece of software that adds a feature to a bigger program.</p>
+<ol><li>Install the <em>plugin</em> and restart the browser.</li><li>Too many <em>plugins</em> will slow the site down.</li><li>There's a <em>plugin</em> that does the formatting for you.</li></ol>
+<hr>
+<h3 id="extension">extension<a class="hash" href="#extension" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/ɪkˈstɛnʃən/ &middot; <em>ik-STEN-shun</em></dd><dt>Русский</dt><dd>расширение (браузера)</dd><dt>Plural</dt><dd><em>extensions</em></dd><dt>Countability</dt><dd>countable</dd></dl>
+<p>An add-on that gives a browser or program extra abilities.</p>
+<ol><li>I use an ad-blocking <em>extension</em>.</li><li>Some <em>extensions</em> can read everything you type.</li><li>The <em>extension</em> stopped working after the update.</li></ol>
+<hr>
+<h3 id="layout">layout<a class="hash" href="#layout" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/ˈleɪaʊt/ &middot; <em>LAY-owt</em></dd><dt>Русский</dt><dd>макет, расположение элементов</dd><dt>Plural</dt><dd><em>layouts</em></dd><dt>Countability</dt><dd>countable</dd></dl>
+<p>The way things are arranged on a page or screen.</p>
+<ol><li>The new <em>layout</em> is much easier to read.</li><li>They tested four different <em>layouts</em>.</li><li>The <em>layout</em> falls apart on a narrow screen.</li></ol>
+<hr>
+<h3 id="clipboard">clipboard<a class="hash" href="#clipboard" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/ˈklɪpbɔːrd/ &middot; <em>KLIP-bord</em></dd><dt>Русский</dt><dd>буфер обмена</dd><dt>Plural</dt><dd><em>clipboards</em></dd><dt>Countability</dt><dd>countable</dd></dl>
+<p>The temporary place a computer keeps whatever you last copied.</p>
+<ol><li>The link is already on your <em>clipboard</em>.</li><li>Phones and computers keep separate <em>clipboards</em>.</li><li>Copying the password put it on the <em>clipboard</em>.</li></ol>
+<hr>
+<h3 id="screenshot">screenshot<a class="hash" href="#screenshot" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/ˈskriːnʃɑːt/ &middot; <em>SKREEN-shaht</em></dd><dt>Русский</dt><dd>скриншот, снимок экрана</dd><dt>Plural</dt><dd><em>screenshots</em></dd><dt>Countability</dt><dd>countable</dd></dl>
+<p>A picture of whatever is on your screen at that moment.</p>
+<ol><li>Send me a <em>screenshot</em> of the error.</li><li>I took a few <em>screenshots</em> for the bug report.</li><li>The <em>screenshot</em> was too blurry to read.</li></ol>
+<hr>
+<h3 id="thumbnail">thumbnail<a class="hash" href="#thumbnail" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/ˈθʌmneɪl/ &middot; <em>THUM-nayl</em></dd><dt>Русский</dt><dd>миниатюра, эскиз</dd><dt>Plural</dt><dd><em>thumbnails</em></dd><dt>Countability</dt><dd>countable</dd><dt>Contrast</dt><dd>The <em>b</em> is silent: THUM-nayl, the same <em>thumb</em> sound as in the finger.</dd></dl>
+<p>A small version of an image used as a preview.</p>
+<ol><li>Click the <em>thumbnail</em> to see the full photo.</li><li>The <em>thumbnails</em> load before the video does.</li><li>A good <em>thumbnail</em> gets more clicks.</li></ol>
+<hr>
+<h3 id="audio">audio<a class="hash" href="#audio" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/ˈɔːdioʊ/ &middot; <em>AW-dee-oh</em></dd><dt>Русский</dt><dd>звук, аудио</dd><dt>Countability</dt><dd>uncountable</dd></dl>
+<p>Sound that has been recorded or is being sent electronically.</p>
+<ol><li>The <em>audio</em> cut out about halfway through.</li><li>The video is fine but the <em>audio</em> is terrible.</li><li>Can everyone hear the <em>audio</em>?</li></ol>
+<hr>
+<h3 id="image">image<a class="hash" href="#image" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/ˈɪmɪdʒ/ &middot; <em>IM-ij</em></dd><dt>Русский</dt><dd>изображение, картинка</dd><dt>Plural</dt><dd><em>images</em></dd><dt>Countability</dt><dd>countable</dd></dl>
+<p>A picture stored or shown on a screen.</p>
+<ol><li>The <em>image</em> is too big to email.</li><li>Compress the <em>images</em> before you upload them.</li><li>Right-click the <em>image</em> and save it.</li></ol>
+<hr>
+<h3 id="pixel">pixel<a class="hash" href="#pixel" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/ˈpɪksəl/ &middot; <em>PIK-sul</em></dd><dt>Русский</dt><dd>пиксель</dd><dt>Plural</dt><dd><em>pixels</em></dd><dt>Countability</dt><dd>countable</dd></dl>
+<p>One of the tiny dots that make up a picture on a screen.</p>
+<ol><li>Zoom in far enough and you can see every <em>pixel</em>.</li><li>The screen is about two million <em>pixels</em>.</li><li>There's a dead <em>pixel</em> in the corner of my monitor.</li></ol>
+<hr>
+<h3 id="resolution">resolution<a class="hash" href="#resolution" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/ˌrɛzəˈluːʃən/ &middot; <em>rez-uh-LOO-shun</em></dd><dt>Русский</dt><dd>разрешение (экрана)</dd><dt>Plural</dt><dd><em>resolutions</em></dd><dt>Countability</dt><dd>countable</dd></dl>
+<p>How much detail a screen or image holds, counted in pixels.</p>
+<ol><li>Shoot it at the highest <em>resolution</em> you can.</li><li>The two monitors run at different <em>resolutions</em>.</li><li>Low <em>resolution</em> looks awful on a big TV.</li></ol>
+<hr>
+<h3 id="graphics">graphics<a class="hash" href="#graphics" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/ˈɡræfɪks/ &middot; <em>GRAF-iks</em></dd><dt>Русский</dt><dd>графика</dd><dt>Countability</dt><dd>uncountable</dd></dl>
+<p>The pictures and visual effects a computer produces.</p>
+<ol><li>The <em>graphics</em> in that game are stunning.</li><li>You'll need a better card if you want smooth <em>graphics</em>.</li><li>The <em>graphics</em> look dated now.</li></ol>
+<hr>
+<h3 id="privacy">privacy<a class="hash" href="#privacy" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/ˈpraɪvəsi/ &middot; <em>PRY-vuh-see</em></dd><dt>Русский</dt><dd>конфиденциальность, приватность</dd><dt>Countability</dt><dd>uncountable</dd><dt>Contrast</dt><dd>American PRY-vuh-see; British speakers usually say PRIV-uh-see with a short <em>i</em>.</dd></dl>
+<p>The right to keep your personal information from being seen or shared.</p>
+<ol><li>Read the <em>privacy</em> policy before you sign up.</li><li>People care a lot more about <em>privacy</em> than they used to.</li><li>The app collects data with no regard for <em>privacy</em>.</li></ol>
+<hr>
+<h3 id="firewall">firewall<a class="hash" href="#firewall" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/ˈfaɪrrwɔːl/ &middot; <em>FYRE-wawl</em></dd><dt>Русский</dt><dd>брандмауэр, файрвол</dd><dt>Plural</dt><dd><em>firewalls</em></dd><dt>Countability</dt><dd>countable</dd></dl>
+<p>Software or hardware that blocks unwanted traffic into a network.</p>
+<ol><li>The <em>firewall</em> is blocking that port.</li><li>Corporate <em>firewalls</em> won't let you reach the site.</li><li>Turn the <em>firewall</em> back on when you're done testing.</li></ol>
+<hr>
+<h3 id="encryption">encryption<a class="hash" href="#encryption" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/ɪnˈkrɪpʃən/ &middot; <em>in-KRIP-shun</em></dd><dt>Русский</dt><dd>шифрование</dd><dt>Countability</dt><dd>uncountable</dd></dl>
+<p>The scrambling of data so that only the right person can read it.</p>
+<ol><li>The messages use end-to-end <em>encryption</em>.</li><li>Without <em>encryption</em>, anyone on the network can read it.</li><li><em>Encryption</em> is on by default now.</li></ol>
+<hr>
+<h3 id="hacker">hacker<a class="hash" href="#hacker" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/ˈhækər/ &middot; <em>HAK-ur</em></dd><dt>Русский</dt><dd>хакер</dd><dt>Plural</dt><dd><em>hackers</em></dd><dt>Countability</dt><dd>countable</dd></dl>
+<p>Someone who breaks into computer systems.</p>
+<ol><li>A <em>hacker</em> got into the payroll system.</li><li><em>Hackers</em> stole millions of customer records.</li><li>The company hired a <em>hacker</em> to test its defenses.</li></ol>
+<hr>
+<h3 id="malware">malware<a class="hash" href="#malware" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/ˈmælwɛr/ &middot; <em>MAL-wair</em></dd><dt>Русский</dt><dd>вредоносное ПО</dd><dt>Countability</dt><dd>uncountable</dd></dl>
+<p>Software written to damage a computer or steal from it.</p>
+<ol><li>The laptop is full of <em>malware</em>.</li><li>That download turned out to be <em>malware</em>.</li><li>Most <em>malware</em> comes in through email attachments.</li></ol>
+<hr>
+<h3 id="antivirus">antivirus<a class="hash" href="#antivirus" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/ˌæntiˈvaɪrəs/ &middot; <em>an-tee-VY-rus</em></dd><dt>Русский</dt><dd>антивирус</dd><dt>Plural</dt><dd><em>antiviruses</em></dd><dt>Countability</dt><dd>countable</dd></dl>
+<p>A program that finds and removes harmful software.</p>
+<ol><li>Run the <em>antivirus</em> before you open that file.</li><li>Free <em>antiviruses</em> are good enough for most people.</li><li>My <em>antivirus</em> flagged the installer.</li></ol>
+<hr>
+<h3 id="phishing">phishing<a class="hash" href="#phishing" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/ˈfɪʃɪŋ/ &middot; <em>FISH-ing</em></dd><dt>Русский</dt><dd>фишинг</dd><dt>Countability</dt><dd>uncountable</dd><dt>Contrast</dt><dd>Pronounced exactly like <em>fishing</em>; only the spelling differs.</dd></dl>
+<p>Tricking people into giving up passwords or card numbers with fake messages.</p>
+<ol><li>That email is <em>phishing</em> — don't click anything.</li><li>The company runs <em>phishing</em> tests on its own staff.</li><li><em>Phishing</em> still causes most break-ins.</li></ol>
+<hr>
+<h3 id="bot">bot<a class="hash" href="#bot" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/bɑːt/ &middot; <em>BAHT</em></dd><dt>Русский</dt><dd>бот</dd><dt>Plural</dt><dd><em>bots</em></dd><dt>Countability</dt><dd>countable</dd></dl>
+<p>A program that runs automatically, often pretending to be a person.</p>
+<ol><li>A <em>bot</em> answers the first message on their support line.</li><li>Half the accounts liking that post are <em>bots</em>.</li><li>The <em>bot</em> books the tickets the second they go on sale.</li></ol>
+<hr>
+<h3 id="code">code<a class="hash" href="#code" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/koʊd/ &middot; <em>KOHD</em></dd><dt>Русский</dt><dd>код (программный)</dd><dt>Plural</dt><dd><em>codes</em></dd><dt>Countability</dt><dd>both — countable and uncountable with different meanings</dd></dl>
+<p>The written instructions that make up a computer program.</p>
+<ol><li>She writes <em>code</em> eight hours a day.</li><li>There's a lot of old <em>code</em> nobody understands anymore.</li><li>The bug was three lines of <em>code</em>.</li></ol>
+<hr>
+<h3 id="algorithm">algorithm<a class="hash" href="#algorithm" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/ˈælɡərɪðəm/ &middot; <em>AL-guh-rih-thum</em></dd><dt>Русский</dt><dd>алгоритм</dd><dt>Plural</dt><dd><em>algorithms</em></dd><dt>Countability</dt><dd>countable</dd><dt>Contrast</dt><dd>Four syllables, ending in -rih-thum. Note the <em>th</em> spelling, unlike <em>logarithm</em>'s cousin <em>rhythm</em>.</dd></dl>
+<p>A step-by-step method a computer follows to solve a problem.</p>
+<ol><li>The <em>algorithm</em> decides what shows up in your feed.</li><li>Their sorting <em>algorithms</em> are open source.</li><li>Nobody outside the company knows how the <em>algorithm</em> works.</li></ol>
+<hr>
+<h3 id="function">function<a class="hash" href="#function" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/ˈfʌŋkʃən/ &middot; <em>FUNK-shun</em></dd><dt>Русский</dt><dd>функция (в программировании)</dd><dt>Plural</dt><dd><em>functions</em></dd><dt>Countability</dt><dd>countable</dd></dl>
+<p>A named block of code that does one job and can be reused.</p>
+<ol><li>Pull that logic out into its own <em>function</em>.</li><li>The file has about forty <em>functions</em> in it.</li><li>The <em>function</em> returns an empty list if nothing matches.</li></ol>
+<hr>
+<h3 id="array">array<a class="hash" href="#array" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/əˈreɪ/ &middot; <em>uh-RAY</em></dd><dt>Русский</dt><dd>массив</dd><dt>Plural</dt><dd><em>arrays</em></dd><dt>Countability</dt><dd>countable</dd></dl>
+<p>An ordered list of values stored under one name.</p>
+<ol><li>Loop through the <em>array</em> and print each name.</li><li>You can nest <em>arrays</em> inside each other.</li><li>The <em>array</em> starts at index zero.</li></ol>
+<hr>
+<h3 id="syntax">syntax<a class="hash" href="#syntax" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/ˈsɪntæks/ &middot; <em>SIN-taks</em></dd><dt>Русский</dt><dd>синтаксис</dd><dt>Countability</dt><dd>uncountable</dd></dl>
+<p>The rules for how code or sentences must be written.</p>
+<ol><li>The <em>syntax</em> is a little different in this language.</li><li>One missing bracket and the <em>syntax</em> breaks.</li><li>It's a <em>syntax</em> error on line twelve.</li></ol>
+<hr>
+<h3 id="compiler">compiler<a class="hash" href="#compiler" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/kəmˈpaɪlər/ &middot; <em>kum-PY-lur</em></dd><dt>Русский</dt><dd>компилятор</dd><dt>Plural</dt><dd><em>compilers</em></dd><dt>Countability</dt><dd>countable</dd></dl>
+<p>A program that turns human-written code into something a machine can run.</p>
+<ol><li>The <em>compiler</em> caught the mistake right away.</li><li>Different <em>compilers</em> give different warnings.</li><li>The <em>compiler</em> takes about a minute on this machine.</li></ol>
+<hr>
+<h3 id="framework">framework<a class="hash" href="#framework" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/ˈfreɪmwɜːrk/ &middot; <em>FRAYM-wurk</em></dd><dt>Русский</dt><dd>фреймворк, каркас</dd><dt>Plural</dt><dd><em>frameworks</em></dd><dt>Countability</dt><dd>countable</dd></dl>
+<p>A ready-made structure that programs are built on top of.</p>
+<ol><li>They rebuilt the site on a modern <em>framework</em>.</li><li>New <em>frameworks</em> come out every six months.</li><li>The <em>framework</em> handles all the routing for you.</li></ol>
+<hr>
+<h3 id="prompt">prompt<a class="hash" href="#prompt" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/prɑːmpt/ &middot; <em>PRAHMPT</em></dd><dt>Русский</dt><dd>промпт, текстовый запрос</dd><dt>Plural</dt><dd><em>prompts</em></dd><dt>Countability</dt><dd>countable</dd></dl>
+<p>The text you type to tell a program or an AI model what you want.</p>
+<ol><li>A clearer <em>prompt</em> gets a much better answer.</li><li>He keeps a file of <em>prompts</em> he reuses.</li><li>The <em>prompt</em> was too vague, so the output was too.</li></ol>
+<hr>
+<h3 id="input">input<a class="hash" href="#input" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/ˈɪnpʊt/ &middot; <em>IN-puut</em></dd><dt>Русский</dt><dd>ввод, входные данные</dd><dt>Countability</dt><dd>uncountable</dd></dl>
+<p>Information put into a computer for it to work on.</p>
+<ol><li>The program waits for <em>input</em> from the keyboard.</li><li>Bad <em>input</em> gives you bad results.</li><li>It takes plain text as <em>input</em>.</li></ol>
+<hr>
+<h3 id="output">output<a class="hash" href="#output" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/ˈaʊtpʊt/ &middot; <em>OWT-puut</em></dd><dt>Русский</dt><dd>вывод, выходные данные</dd><dt>Countability</dt><dd>uncountable</dd></dl>
+<p>What a computer or program produces after it processes something.</p>
+<ol><li>Save the <em>output</em> to a file.</li><li>The <em>output</em> was full of warnings.</li><li>Compare the <em>output</em> against the sample.</li></ol>
+<hr>
+<h3 id="error">error<a class="hash" href="#error" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/ˈɛrər/ &middot; <em>EH-rur</em></dd><dt>Русский</dt><dd>ошибка</dd><dt>Plural</dt><dd><em>errors</em></dd><dt>Countability</dt><dd>countable</dd></dl>
+<p>A mistake that stops a program from working correctly.</p>
+<ol><li>I got an <em>error</em> when I tried to save.</li><li>The log is full of the same <em>errors</em>.</li><li>The <em>error</em> message wasn't very helpful.</li></ol>
+<hr>
+<h3 id="glitch">glitch<a class="hash" href="#glitch" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/ɡlɪtʃ/ &middot; <em>GLICH</em></dd><dt>Русский</dt><dd>сбой, глюк</dd><dt>Plural</dt><dd><em>glitches</em></dd><dt>Countability</dt><dd>countable</dd></dl>
+<p>A small, usually brief fault in a system.</p>
+<ol><li>It was just a <em>glitch</em> — it works now.</li><li>There were a few <em>glitches</em> on launch day.</li><li>A <em>glitch</em> in the app charged me twice.</li></ol>
+<hr>
+<h3 id="cache">cache<a class="hash" href="#cache" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/kæʃ/ &middot; <em>KASH</em></dd><dt>Русский</dt><dd>кэш</dd><dt>Plural</dt><dd><em>caches</em></dd><dt>Countability</dt><dd>countable</dd><dt>Contrast</dt><dd>Pronounced exactly like <em>cash</em>. It is not "ka-SHAY" — that is the separate word <em>cachet</em>.</dd></dl>
+<p>A store of data kept nearby so it can be fetched again quickly.</p>
+<ol><li>Clear your <em>cache</em> and try again.</li><li>The <em>caches</em> fill up over time.</li><li>The page is being served from the <em>cache</em>.</li></ol>
+<hr>
+<h3 id="lag">lag<a class="hash" href="#lag" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/læɡ/ &middot; <em>LAG</em></dd><dt>Русский</dt><dd>задержка, лаг</dd><dt>Countability</dt><dd>uncountable</dd></dl>
+<p>A delay between an action and the system's response.</p>
+<ol><li>There's a lot of <em>lag</em> on this connection.</li><li>The <em>lag</em> makes the game unplayable.</li><li>A little <em>lag</em> on video calls is normal.</li></ol>
+<hr>
+<h3 id="database">database<a class="hash" href="#database" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/ˈdeɪtəbeɪs/ &middot; <em>DAY-tuh-bays</em></dd><dt>Русский</dt><dd>база данных</dd><dt>Plural</dt><dd><em>databases</em></dd><dt>Countability</dt><dd>countable</dd></dl>
+<p>An organized store of information a computer can search.</p>
+<ol><li>Everything goes into one <em>database</em>.</li><li>The two <em>databases</em> don't talk to each other.</li><li>The <em>database</em> has about four million rows.</li></ol>
+<hr>
+<h3 id="byte">byte<a class="hash" href="#byte" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/baɪt/ &middot; <em>BYTE</em></dd><dt>Русский</dt><dd>байт</dd><dt>Plural</dt><dd><em>bytes</em></dd><dt>Countability</dt><dd>countable</dd><dt>Contrast</dt><dd>Sounds exactly like <em>bite</em>. The spelling with <em>y</em> keeps the two words apart in writing.</dd></dl>
+<p>A basic unit of computer storage, made of eight bits.</p>
+<ol><li>One character takes up about a <em>byte</em>.</li><li>The file is only nine hundred <em>bytes</em>.</li><li>Every <em>byte</em> counts on a device that small.</li></ol>
+<hr>
+<h3 id="gigabyte">gigabyte<a class="hash" href="#gigabyte" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/ˈɡɪɡəbaɪt/ &middot; <em>GIG-uh-byte</em></dd><dt>Русский</dt><dd>гигабайт</dd><dt>Plural</dt><dd><em>gigabytes</em></dd><dt>Countability</dt><dd>countable</dd><dt>Contrast</dt><dd>Both g's are hard, as in <em>give</em>: GIG-uh-byte, never "JIG-uh-byte."</dd></dl>
+<p>A unit of storage equal to about a billion bytes.</p>
+<ol><li>The movie is four <em>gigabytes</em>.</li><li>My plan gives me twenty <em>gigabytes</em> a month.</li><li>One <em>gigabyte</em> doesn't go very far anymore.</li></ol>
+<hr>
+<h3 id="storage">storage<a class="hash" href="#storage" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/ˈstɔːrɪdʒ/ &middot; <em>STOR-ij</em></dd><dt>Русский</dt><dd>хранилище (памяти), место для данных</dd><dt>Countability</dt><dd>uncountable</dd></dl>
+<p>Space on a device or online where files are kept.</p>
+<ol><li>I'm out of <em>storage</em> on my phone.</li><li>Cloud <em>storage</em> is cheap now.</li><li>The laptop comes with a terabyte of <em>storage</em>.</li></ol>
+<hr>
+<h3 id="drive">drive<a class="hash" href="#drive" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/draɪv/ &middot; <em>DRYVE</em></dd><dt>Русский</dt><dd>накопитель, диск</dd><dt>Plural</dt><dd><em>drives</em></dd><dt>Countability</dt><dd>countable</dd></dl>
+<p>A device that stores data, or a piece of storage the computer treats as one unit.</p>
+<ol><li>Back everything up to an external <em>drive</em>.</li><li>The server has eight <em>drives</em> in it.</li><li>The <em>drive</em> died without any warning.</li></ol>
+<hr>
+<h3 id="hard-drive">hard drive<a class="hash" href="#hard-drive" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/ˌhɑːrd ˈdraɪv/ &middot; <em>hard DRYVE</em></dd><dt>Русский</dt><dd>жёсткий диск</dd><dt>Plural</dt><dd><em>hard drives</em></dd><dt>Countability</dt><dd>countable</dd></dl>
+<p>The main storage device inside a computer.</p>
+<ol><li>The <em>hard drive</em> is almost full.</li><li>Old <em>hard drives</em> make a clicking noise before they fail.</li><li>I replaced the <em>hard drive</em> with a faster one.</li></ol>
+<hr>
+<h3 id="disk">disk<a class="hash" href="#disk" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/dɪsk/ &middot; <em>DISK</em></dd><dt>Русский</dt><dd>диск</dd><dt>Plural</dt><dd><em>disks</em></dd><dt>Countability</dt><dd>countable</dd><dt>Contrast</dt><dd>American computing uses <em>disk</em> with a k; <em>disc</em> with a c is for music and movies — a compact disc.</dd></dl>
+<p>A flat piece of storage that a computer reads and writes data on.</p>
+<ol><li>The <em>disk</em> is running out of space.</li><li>Both <em>disks</em> are mirrored, so nothing is lost.</li><li>Copy the file to the <em>disk</em> first.</li></ol>
+<hr>
+<h3 id="backup">backup<a class="hash" href="#backup" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/ˈbækʌp/ &middot; <em>BAK-up</em></dd><dt>Русский</dt><dd>резервная копия</dd><dt>Plural</dt><dd><em>backups</em></dd><dt>Countability</dt><dd>countable</dd><dt>Contrast</dt><dd>One word as a noun (<em>a backup</em>), two words as a verb (<em>back up your files</em>).</dd></dl>
+<p>A spare copy of files kept in case the original is lost.</p>
+<ol><li>Luckily we had a <em>backup</em> from Friday.</li><li>The <em>backups</em> run automatically overnight.</li><li>Make a <em>backup</em> before you upgrade.</li></ol>
+<hr>
+<h3 id="desktop">desktop<a class="hash" href="#desktop" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/ˈdɛsktɑːp/ &middot; <em>DESK-tahp</em></dd><dt>Русский</dt><dd>настольный компьютер, десктоп</dd><dt>Plural</dt><dd><em>desktops</em></dd><dt>Countability</dt><dd>countable</dd></dl>
+<p>A computer built to sit on a desk rather than be carried around.</p>
+<ol><li>He does all his editing on a <em>desktop</em>.</li><li>The office still runs on <em>desktops</em>.</li><li>A <em>desktop</em> gives you more power for the money than a laptop.</li></ol>
+<hr>
+<h3 id="phone">phone<a class="hash" href="#phone" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/foʊn/ &middot; <em>FOHN</em></dd><dt>Русский</dt><dd>телефон</dd><dt>Plural</dt><dd><em>phones</em></dd><dt>Countability</dt><dd>countable</dd></dl>
+<p>A device for talking to someone at a distance, now usually a handheld one.</p>
+<ol><li>My <em>phone</em> died in the middle of the call.</li><li>Please put your <em>phones</em> away during the exam.</li><li>She left her <em>phone</em> in the car.</li></ol>
+<hr>
+<h3 id="smartphone">smartphone<a class="hash" href="#smartphone" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/ˈsmɑːrtfoʊn/ &middot; <em>SMART-fohn</em></dd><dt>Русский</dt><dd>смартфон</dd><dt>Plural</dt><dd><em>smartphones</em></dd><dt>Countability</dt><dd>countable</dd></dl>
+<p>A phone that also runs apps and connects to the internet.</p>
+<ol><li>Almost everyone here has a <em>smartphone</em>.</li><li>New <em>smartphones</em> come out every fall.</li><li>The camera on that <em>smartphone</em> is better than my old one.</li></ol>
+<hr>
+<h3 id="cellphone">cellphone<a class="hash" href="#cellphone" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/ˈsɛlfoʊn/ &middot; <em>SEL-fohn</em></dd><dt>Русский</dt><dd>мобильный телефон, сотовый</dd><dt>Plural</dt><dd><em>cellphones</em></dd><dt>Countability</dt><dd>countable</dd><dt>Contrast</dt><dd>Americans say <em>cellphone</em> or just <em>cell</em>; British speakers say <em>mobile</em> or <em>mobile phone</em>.</dd></dl>
+<p>A phone that works over a wireless network instead of a wire.</p>
+<ol><li>Give me a call on my <em>cellphone</em>.</li><li><em>Cellphones</em> aren't allowed on the factory floor.</li><li>There's no <em>cellphone</em> service in the mountains.</li></ol>
+<hr>
+<h3 id="smartwatch">smartwatch<a class="hash" href="#smartwatch" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/ˈsmɑːrtwɑːtʃ/ &middot; <em>SMART-wahch</em></dd><dt>Русский</dt><dd>умные часы</dd><dt>Plural</dt><dd><em>smartwatches</em></dd><dt>Countability</dt><dd>countable</dd></dl>
+<p>A watch that runs apps and connects to your phone.</p>
+<ol><li>His <em>smartwatch</em> tracks his heart rate.</li><li><em>Smartwatches</em> have to be charged almost every night.</li><li>I got a <em>smartwatch</em> for my birthday.</li></ol>
+<hr>
+<h3 id="camera">camera<a class="hash" href="#camera" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/ˈkæmərə/ &middot; <em>KAM-uh-ruh</em></dd><dt>Русский</dt><dd>камера, фотоаппарат</dd><dt>Plural</dt><dd><em>cameras</em></dd><dt>Countability</dt><dd>countable</dd></dl>
+<p>A device that takes photographs or video.</p>
+<ol><li>The <em>camera</em> on this phone is incredible.</li><li>There are security <em>cameras</em> at every entrance.</li><li>Turn your <em>camera</em> on so we can see you.</li></ol>
+<hr>
+<h3 id="webcam">webcam<a class="hash" href="#webcam" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/ˈwɛbkæm/ &middot; <em>WEB-kam</em></dd><dt>Русский</dt><dd>веб-камера</dd><dt>Plural</dt><dd><em>webcams</em></dd><dt>Countability</dt><dd>countable</dd></dl>
+<p>A small camera used for video calls and streaming.</p>
+<ol><li>My <em>webcam</em> stopped working before the interview.</li><li>Cheap <em>webcams</em> look terrible in low light.</li><li>Cover the <em>webcam</em> when you're not using it.</li></ol>
+<hr>
+<h3 id="headset">headset<a class="hash" href="#headset" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/ˈhɛdsɛt/ &middot; <em>HED-set</em></dd><dt>Русский</dt><dd>гарнитура</dd><dt>Plural</dt><dd><em>headsets</em></dd><dt>Countability</dt><dd>countable</dd></dl>
+<p>Headphones with a microphone attached, worn over the head.</p>
+<ol><li>Support staff wear a <em>headset</em> all day.</li><li>The company bought new <em>headsets</em> for everyone.</li><li>My <em>headset</em> cuts out every few minutes.</li></ol>
+<hr>
+<h3 id="scanner">scanner<a class="hash" href="#scanner" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/ˈskænər/ &middot; <em>SKAN-ur</em></dd><dt>Русский</dt><dd>сканер</dd><dt>Plural</dt><dd><em>scanners</em></dd><dt>Countability</dt><dd>countable</dd></dl>
+<p>A machine that turns a paper document or photo into a computer file.</p>
+<ol><li>Put the form in the <em>scanner</em> face down.</li><li>The library has two <em>scanners</em> by the front desk.</li><li>The <em>scanner</em> jammed on the third page.</li></ol>
+<hr>
+<h3 id="robot">robot<a class="hash" href="#robot" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/ˈroʊbɑːt/ &middot; <em>ROH-baht</em></dd><dt>Русский</dt><dd>робот</dd><dt>Plural</dt><dd><em>robots</em></dd><dt>Countability</dt><dd>countable</dd></dl>
+<p>A machine that can carry out tasks on its own.</p>
+<ol><li>A <em>robot</em> welds the doors on the assembly line.</li><li>The warehouse uses <em>robots</em> to move the shelves around.</li><li>We have a little <em>robot</em> that vacuums the floor.</li></ol>
+<hr>
+<h3 id="touchscreen">touchscreen<a class="hash" href="#touchscreen" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/ˈtʌtʃskriːn/ &middot; <em>TUCH-skreen</em></dd><dt>Русский</dt><dd>сенсорный экран</dd><dt>Plural</dt><dd><em>touchscreens</em></dd><dt>Countability</dt><dd>countable</dd></dl>
+<p>A screen you control by touching it with your fingers.</p>
+<ol><li>The <em>touchscreen</em> in the car is hard to use while driving.</li><li><em>Touchscreens</em> don't work well with gloves on.</li><li>The <em>touchscreen</em> stopped responding in the cold.</li></ol>
+<hr>
+<h3 id="display">display<a class="hash" href="#display" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/dɪˈspleɪ/ &middot; <em>dih-SPLAY</em></dd><dt>Русский</dt><dd>дисплей, экран</dd><dt>Plural</dt><dd><em>displays</em></dd><dt>Countability</dt><dd>countable</dd></dl>
+<p>The screen that shows what a device is doing.</p>
+<ol><li>The <em>display</em> is bright enough to read in the sun.</li><li>He runs three <em>displays</em> on his desk.</li><li>The <em>display</em> cracked when I dropped it.</li></ol>
+<hr>
+<h3 id="processor">processor<a class="hash" href="#processor" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/ˈprɑːsɛsər/ &middot; <em>PRAH-ses-ur</em></dd><dt>Русский</dt><dd>процессор</dd><dt>Plural</dt><dd><em>processors</em></dd><dt>Countability</dt><dd>countable</dd></dl>
+<p>The chip that does the main work inside a computer.</p>
+<ol><li>The new <em>processor</em> is twice as fast.</li><li>These <em>processors</em> run hot under load.</li><li>A faster <em>processor</em> won't help if you're short on memory.</li></ol>
+<hr>
+<h3 id="microchip">microchip<a class="hash" href="#microchip" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/ˈmaɪkroʊtʃɪp/ &middot; <em>MY-kroh-chip</em></dd><dt>Русский</dt><dd>микрочип, микросхема</dd><dt>Plural</dt><dd><em>microchips</em></dd><dt>Countability</dt><dd>countable</dd></dl>
+<p>A tiny piece of silicon holding an electronic circuit.</p>
+<ol><li>There's a <em>microchip</em> in every credit card now.</li><li>The shortage of <em>microchips</em> shut down car factories.</li><li>The vet put a <em>microchip</em> in the dog.</li></ol>
+<hr>
+<h3 id="motherboard">motherboard<a class="hash" href="#motherboard" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/ˈmʌðərbɔːrd/ &middot; <em>MUTH-ur-bord</em></dd><dt>Русский</dt><dd>материнская плата</dd><dt>Plural</dt><dd><em>motherboards</em></dd><dt>Countability</dt><dd>countable</dd></dl>
+<p>The main circuit board that everything else in a computer plugs into.</p>
+<ol><li>The <em>motherboard</em> is fried.</li><li>These <em>motherboards</em> have four memory slots.</li><li>Replacing the <em>motherboard</em> costs almost as much as a new machine.</li></ol>
+<hr>
+<h3 id="transistor">transistor<a class="hash" href="#transistor" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/trænˈzɪstər/ &middot; <em>tran-ZIS-tur</em></dd><dt>Русский</dt><dd>транзистор</dd><dt>Plural</dt><dd><em>transistors</em></dd><dt>Countability</dt><dd>countable</dd></dl>
+<p>A tiny electronic part that switches or strengthens a signal.</p>
+<ol><li>A modern chip holds billions of <em>transistors</em>.</li><li>One burned-out <em>transistor</em> killed the whole board.</li><li>The <em>transistor</em> replaced the vacuum tube.</li></ol>
+<hr>
+<h3 id="semiconductor">semiconductor<a class="hash" href="#semiconductor" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/ˌsɛmikənˈdʌktər/ &middot; <em>sem-ee-kun-DUK-tur</em></dd><dt>Русский</dt><dd>полупроводник</dd><dt>Plural</dt><dd><em>semiconductors</em></dd><dt>Countability</dt><dd>countable</dd></dl>
+<p>A material that conducts electricity only under certain conditions, used to make chips.</p>
+<ol><li>Silicon is the most common <em>semiconductor</em>.</li><li><em>Semiconductors</em> are made in enormous clean rooms.</li><li>The <em>semiconductor</em> industry is worth hundreds of billions.</li></ol>
+<hr>
+<h3 id="silicon">silicon<a class="hash" href="#silicon" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/ˈsɪlɪkən/ &middot; <em>SIL-ih-kun</em></dd><dt>Русский</dt><dd>кремний</dd><dt>Countability</dt><dd>uncountable</dd><dt>Contrast</dt><dd>Do not confuse with <em>silicone</em>, the rubbery sealant, which ends in an extra <em>e</em> and a long <em>ohn</em> sound.</dd></dl>
+<p>The element that computer chips are made from.</p>
+<ol><li>Chips are cut from a wafer of <em>silicon</em>.</li><li><em>Silicon</em> is the second most common element in the earth's crust.</li><li>They melt sand to get pure <em>silicon</em>.</li></ol>
+<hr>
+<h3 id="adapter">adapter<a class="hash" href="#adapter" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/əˈdæptər/ &middot; <em>uh-DAP-tur</em></dd><dt>Русский</dt><dd>адаптер, переходник</dd><dt>Plural</dt><dd><em>adapters</em></dd><dt>Countability</dt><dd>countable</dd><dt>Contrast</dt><dd>Americans usually spell it <em>adapter</em>; the spelling <em>adaptor</em> is more common in Britain.</dd></dl>
+<p>A small part that lets one kind of plug or device work with another.</p>
+<ol><li>You'll need an <em>adapter</em> for European outlets.</li><li>I keep a drawer full of <em>adapters</em>.</li><li>The laptop came with a power <em>adapter</em>.</li></ol>
+<hr>
+<h3 id="hub">hub<a class="hash" href="#hub" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/hʌb/ &middot; <em>HUB</em></dd><dt>Русский</dt><dd>хаб, разветвитель</dd><dt>Plural</dt><dd><em>hubs</em></dd><dt>Countability</dt><dd>countable</dd></dl>
+<p>A device that gives you several extra ports from one connection.</p>
+<ol><li>I plug everything into one <em>hub</em>.</li><li>Cheap <em>hubs</em> can't supply enough power.</li><li>The <em>hub</em> gives me four extra USB ports.</li></ol>
+<hr>
+<h3 id="modem">modem<a class="hash" href="#modem" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/ˈmoʊdɛm/ &middot; <em>MOH-dem</em></dd><dt>Русский</dt><dd>модем</dd><dt>Plural</dt><dd><em>modems</em></dd><dt>Countability</dt><dd>countable</dd></dl>
+<p>The box that connects your home network to your internet provider.</p>
+<ol><li>Unplug the <em>modem</em> for ten seconds and plug it back in.</li><li>The company rents <em>modems</em> for ten dollars a month.</li><li>The <em>modem</em> has been blinking red all morning.</li></ol>
+<hr>
+<h3 id="cartridge">cartridge<a class="hash" href="#cartridge" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/ˈkɑːrtrɪdʒ/ &middot; <em>KAR-trij</em></dd><dt>Русский</dt><dd>картридж</dd><dt>Plural</dt><dd><em>cartridges</em></dd><dt>Countability</dt><dd>countable</dd></dl>
+<p>A small container that slides into a machine, such as one holding printer ink.</p>
+<ol><li>The black <em>cartridge</em> is empty again.</li><li>Replacement <em>cartridges</em> cost more than the printer did.</li><li>Shake the <em>cartridge</em> before you put it in.</li></ol>
+<hr>
+<h3 id="controller">controller<a class="hash" href="#controller" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/kənˈtroʊlər/ &middot; <em>kun-TROH-lur</em></dd><dt>Русский</dt><dd>контроллер, геймпад</dd><dt>Plural</dt><dd><em>controllers</em></dd><dt>Countability</dt><dd>countable</dd></dl>
+<p>A handheld device used to control a game or machine.</p>
+<ol><li>The <em>controller</em> needs new batteries.</li><li>We only have two <em>controllers</em>, so somebody has to sit out.</li><li>He threw the <em>controller</em> across the room.</li></ol>
+<hr>
+<h3 id="gadget">gadget<a class="hash" href="#gadget" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/ˈɡædʒɪt/ &middot; <em>GAJ-it</em></dd><dt>Русский</dt><dd>гаджет, устройство</dd><dt>Plural</dt><dd><em>gadgets</em></dd><dt>Countability</dt><dd>countable</dd></dl>
+<p>A small clever device that does one particular job.</p>
+<ol><li>He buys every new <em>gadget</em> that comes out.</li><li>The kitchen drawer is full of <em>gadgets</em> we never use.</li><li>It's a handy little <em>gadget</em> for opening jars.</li></ol>
+<hr>
+<h3 id="technology">technology<a class="hash" href="#technology" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/tɛkˈnɑːlədʒi/ &middot; <em>tek-NAH-luh-jee</em></dd><dt>Русский</dt><dd>технология, техника</dd><dt>Plural</dt><dd><em>technologies</em></dd><dt>Countability</dt><dd>both — countable and uncountable with different meanings</dd></dl>
+<p>Scientific knowledge used to make machines and tools, or one particular such method.</p>
+<ol><li><em>Technology</em> changes faster than the law does.</li><li>Two new <em>technologies</em> came out of that lab.</li><li>The hospital invested in imaging <em>technology</em>.</li></ol>
+<hr>
+<h3 id="innovation">innovation<a class="hash" href="#innovation" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/ˌɪnəˈveɪʃən/ &middot; <em>in-uh-VAY-shun</em></dd><dt>Русский</dt><dd>инновация, нововведение</dd><dt>Plural</dt><dd><em>innovations</em></dd><dt>Countability</dt><dd>both — countable and uncountable with different meanings</dd></dl>
+<p>The making of new things or methods, or a new thing itself.</p>
+<ol><li>The company is known for <em>innovation</em>.</li><li>The last decade brought a few real <em>innovations</em>.</li><li>Their biggest <em>innovation</em> was the touch interface.</li></ol>
+<hr>
+<h3 id="invention">invention<a class="hash" href="#invention" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/ɪnˈvɛnʃən/ &middot; <em>in-VEN-shun</em></dd><dt>Русский</dt><dd>изобретение</dd><dt>Plural</dt><dd><em>inventions</em></dd><dt>Countability</dt><dd>countable</dd></dl>
+<p>Something new that someone has made for the first time.</p>
+<ol><li>The wheel is the classic example of an <em>invention</em>.</li><li>Most of his <em>inventions</em> never made it to market.</li><li>Her <em>invention</em> cuts the process from an hour to five minutes.</li></ol>
+<hr>
+<h3 id="prototype">prototype<a class="hash" href="#prototype" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/ˈproʊtətaɪp/ &middot; <em>PROH-tuh-type</em></dd><dt>Русский</dt><dd>прототип, опытный образец</dd><dt>Plural</dt><dd><em>prototypes</em></dd><dt>Countability</dt><dd>countable</dd></dl>
+<p>The first working model of something, built to test the idea.</p>
+<ol><li>They built a <em>prototype</em> out of cardboard and tape.</li><li>The first two <em>prototypes</em> both failed.</li><li>The <em>prototype</em> is nowhere near ready to sell.</li></ol>
+<hr>
+<h3 id="automation">automation<a class="hash" href="#automation" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/ˌɔːtəˈmeɪʃən/ &middot; <em>aw-tuh-MAY-shun</em></dd><dt>Русский</dt><dd>автоматизация</dd><dt>Countability</dt><dd>uncountable</dd></dl>
+<p>The use of machines and software to do work people used to do.</p>
+<ol><li><em>Automation</em> cut the crew from twelve people to three.</li><li>The plant runs almost entirely on <em>automation</em>.</li><li><em>Automation</em> is coming for a lot of office work.</li></ol>
+<hr>
+<h3 id="robotics">robotics<a class="hash" href="#robotics" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/roʊˈbɑːtɪks/ &middot; <em>roh-BAH-tiks</em></dd><dt>Русский</dt><dd>робототехника</dd><dt>Countability</dt><dd>uncountable</dd><dt>Contrast</dt><dd>Like <em>physics</em> and <em>economics</em>, it takes a singular verb: <em>robotics is</em>, not <em>robotics are</em>.</dd></dl>
+<p>The branch of engineering that deals with building robots.</p>
+<ol><li><em>Robotics</em> is her field.</li><li>The high school has a <em>robotics</em> club.</li><li><em>Robotics</em> has changed manufacturing completely.</li></ol>
+<hr>
+<h3 id="system">system<a class="hash" href="#system" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/ˈsɪstəm/ &middot; <em>SIS-tum</em></dd><dt>Русский</dt><dd>система</dd><dt>Plural</dt><dd><em>systems</em></dd><dt>Countability</dt><dd>countable</dd></dl>
+<p>A set of parts working together as a whole.</p>
+<ol><li>The whole <em>system</em> went down for two hours.</li><li>The two <em>systems</em> don't share data.</li><li>Log in to the <em>system</em> with your work account.</li></ol>
+<hr>
+<h3 id="component">component<a class="hash" href="#component" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/kəmˈpoʊnənt/ &middot; <em>kum-POH-nunt</em></dd><dt>Русский</dt><dd>компонент, деталь</dd><dt>Plural</dt><dd><em>components</em></dd><dt>Countability</dt><dd>countable</dd></dl>
+<p>One of the parts that something larger is made of.</p>
+<ol><li>The failed <em>component</em> costs four dollars.</li><li>Most of the <em>components</em> are made overseas.</li><li>Every <em>component</em> is tested before it ships.</li></ol>
+<hr>
+<h3 id="module">module<a class="hash" href="#module" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/ˈmɑːdʒuːl/ &middot; <em>MAH-jool</em></dd><dt>Русский</dt><dd>модуль</dd><dt>Plural</dt><dd><em>modules</em></dd><dt>Countability</dt><dd>countable</dd></dl>
+<p>A self-contained part that fits together with others to make a whole.</p>
+<ol><li>Each <em>module</em> can be replaced on its own.</li><li>The course is split into six <em>modules</em>.</li><li>The memory <em>module</em> wasn't seated properly.</li></ol>
+<hr>
+<h3 id="installation">installation<a class="hash" href="#installation" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/ˌɪnstəˈleɪʃən/ &middot; <em>in-stuh-LAY-shun</em></dd><dt>Русский</dt><dd>установка</dd><dt>Plural</dt><dd><em>installations</em></dd><dt>Countability</dt><dd>both — countable and uncountable with different meanings</dd></dl>
+<p>The act of putting equipment or software in place, or a system that has been put in place.</p>
+<ol><li><em>Installation</em> takes about ten minutes.</li><li>They handle <em>installations</em> all over the state.</li><li>The <em>installation</em> failed halfway through.</li></ol>
+<hr>
+<h3 id="maintenance">maintenance<a class="hash" href="#maintenance" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/ˈmeɪntənəns/ &middot; <em>MAYN-tuh-nuns</em></dd><dt>Русский</dt><dd>обслуживание, техобслуживание</dd><dt>Countability</dt><dd>uncountable</dd><dt>Contrast</dt><dd>Spelled <em>maintenance</em>, not "maintainance" — the verb <em>maintain</em> loses its <em>ai</em> in the noun.</dd></dl>
+<p>The work of keeping equipment in good working order.</p>
+<ol><li>The site is down for scheduled <em>maintenance</em>.</li><li>Regular <em>maintenance</em> keeps the machines running.</li><li><em>Maintenance</em> costs more than we budgeted.</li></ol>
+<hr>
+<h3 id="setup">setup<a class="hash" href="#setup" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/ˈsɛtʌp/ &middot; <em>SET-up</em></dd><dt>Русский</dt><dd>настройка, конфигурация</dd><dt>Plural</dt><dd><em>setups</em></dd><dt>Countability</dt><dd>countable</dd><dt>Contrast</dt><dd>One word as a noun (<em>a setup</em>), two words as a verb (<em>set up the printer</em>).</dd></dl>
+<p>The way equipment is arranged and configured, or the process of arranging it.</p>
+<ol><li>His home office <em>setup</em> cost more than his car.</li><li>Both <em>setups</em> use the same software.</li><li><em>Setup</em> took about twenty minutes.</li></ol></div></main>
+<button class="themebtn" id="themeBtn">Dark</button>
+<script>
+const tb=document.getElementById('themeBtn');
+function setTheme(x){document.documentElement.dataset.theme=x;tb.textContent=x==='dark'?'Light':'Dark';
+ try{localStorage.setItem('site-theme',x)}catch(e){}}
+tb.onclick=()=>setTheme(document.documentElement.dataset.theme==='dark'?'light':'dark');
+try{const s=localStorage.getItem('site-theme');
+ setTheme(s||(matchMedia('(prefers-color-scheme: dark)').matches?'dark':'light'))}catch(e){setTheme('light')}
+</script></body></html>

@@ -1,0 +1,841 @@
+<!DOCTYPE html>
+<html lang="en"><head>
+<meta charset="utf-8"><meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Core vocabulary: education</title>
+<style>
+:root{--bg:#faf9f7;--surface:#fff;--surface2:#f2f0ec;--border:#e2ded6;--text:#1a1815;
+--dim:#5f594f;--faint:#8a8377;--accent:#8a5a3b;--measure:72ch}
+@media(prefers-color-scheme:dark){:root{--bg:#14140f;--surface:#1d1d17;--surface2:#25251d;
+--border:#33332a;--text:#eeeae1;--dim:#a8a293;--faint:#7d776b;--accent:#d09b72}}
+:root[data-theme=dark]{--bg:#14140f;--surface:#1d1d17;--surface2:#25251d;--border:#33332a;
+--text:#eeeae1;--dim:#a8a293;--faint:#7d776b;--accent:#d09b72}
+:root[data-theme=light]{--bg:#faf9f7;--surface:#fff;--surface2:#f2f0ec;--border:#e2ded6;
+--text:#1a1815;--dim:#5f594f;--faint:#8a8377;--accent:#8a5a3b}
+*{box-sizing:border-box}
+body{margin:0;background:var(--bg);color:var(--text);
+font:17px/1.72 ui-serif,Georgia,"Iowan Old Style",Palatino,serif;-webkit-font-smoothing:antialiased}
+.wrap{max-width:min(var(--measure),100%);margin:0 auto;padding:0 22px}
+nav.crumb{border-bottom:1px solid var(--border);padding:13px 0;font-size:13.5px;
+font-family:-apple-system,BlinkMacSystemFont,"Segoe UI",sans-serif;position:sticky;top:0;background:var(--bg);z-index:20}
+nav.crumb .wrap{max-width:none;display:flex;gap:9px;align-items:center;flex-wrap:wrap}
+nav.crumb a{color:var(--dim);text-decoration:none}
+nav.crumb a:hover{color:var(--accent)}
+nav.crumb .sep{color:var(--faint)}
+main{padding:8px 0 80px}
+h1{font-size:clamp(28px,5vw,38px);line-height:1.15;letter-spacing:-.015em;margin:34px 0 18px}
+h2{font-size:25px;margin:46px 0 14px;letter-spacing:-.01em;padding-bottom:7px;border-bottom:1px solid var(--border)}
+h3{font-size:19px;margin:34px 0 10px;color:var(--accent)}
+h4{font-size:16px;margin:24px 0 8px;font-family:-apple-system,sans-serif}
+p{margin:0 0 16px}
+a{color:var(--accent)}
+.hash{opacity:0;margin-left:8px;font-weight:400;font-size:.65em;text-decoration:none;color:var(--faint)}
+h2:hover .hash,h3:hover .hash{opacity:1}
+blockquote{margin:0 0 20px;padding:14px 18px;background:var(--surface2);
+border-left:3px solid var(--accent);border-radius:0 8px 8px 0}
+blockquote p:last-child{margin-bottom:0}
+ol,ul{margin:0 0 18px;padding-left:26px}
+li{margin-bottom:8px}
+li>ul,li>ol{margin:8px 0 0}
+code{font-family:ui-monospace,SFMono-Regular,Menlo,Consolas,monospace;font-size:.87em;
+background:var(--surface2);padding:1px 5px;border-radius:4px}
+pre{background:var(--surface2);border:1px solid var(--border);border-radius:9px;
+padding:15px 17px;overflow-x:auto;margin:0 0 20px}
+pre code{background:none;padding:0;font-size:13px;line-height:1.6}
+.tw{overflow-x:auto;margin:0 0 22px;border:1px solid var(--border);border-radius:9px}
+table{border-collapse:collapse;width:100%;font-size:15px;
+font-family:-apple-system,BlinkMacSystemFont,"Segoe UI",sans-serif}
+th,td{padding:10px 14px;border-bottom:1px solid var(--border);vertical-align:top}
+th{background:var(--surface2);font-size:12px;text-transform:uppercase;
+letter-spacing:.06em;color:var(--dim);font-weight:700;white-space:nowrap}
+tbody tr:last-child td{border-bottom:none}
+hr{border:none;border-top:1px solid var(--border);margin:38px 0}
+details{background:var(--surface2);border:1px solid var(--border);border-radius:9px;
+padding:13px 17px;margin:0 0 20px}
+summary{cursor:pointer;font-weight:600;font-family:-apple-system,sans-serif;font-size:15px}
+details[open] summary{margin-bottom:12px}
+del{color:var(--faint)}
+dl.fields{margin:0 0 20px;padding:0}
+dl.fields dt{font-family:-apple-system,BlinkMacSystemFont,"Segoe UI",sans-serif;
+font-size:11px;letter-spacing:.11em;text-transform:uppercase;color:var(--faint);
+font-weight:700;margin:14px 0 4px}
+dl.fields dt:first-child{margin-top:0}
+dl.fields dd{margin:0;font-size:16px;color:var(--dim);line-height:1.62}
+dl.fields dd em{color:var(--text)}
+dl.fields dt.ru{color:var(--accent)}
+dl.fields dd strong{color:var(--text)}
+.toc{background:var(--surface2);border:1px solid var(--border);border-radius:10px;
+padding:16px 20px;margin:26px 0 34px;font-family:-apple-system,sans-serif;font-size:14px}
+.toc b{display:block;font-size:11px;letter-spacing:.12em;text-transform:uppercase;
+color:var(--faint);margin-bottom:9px}
+.toc a{display:block;padding:3px 0;color:var(--dim);text-decoration:none}
+.toc a:hover{color:var(--accent)}
+.themebtn{position:fixed;right:18px;bottom:18px;z-index:60;font-family:-apple-system,sans-serif;
+font-size:12.5px;font-weight:600;cursor:pointer;background:var(--surface);border:1px solid var(--border);
+border-radius:99px;padding:9px 16px;color:var(--text)}
+@media(max-width:600px){body{font-size:16px}.wrap{padding:0 17px}}
+</style></head><body>
+<nav class="crumb"><div class="wrap"><a href="../../../index.html">Learn English</a><span class="sep">/</span><a href="../../README.html">Parts of speech</a><span class="sep">/</span><a href="../README.html">01-nouns</a><span class="sep">/</span><span>catalog</span></div></nav>
+<main><div class="wrap"><h1 id="core-vocabulary-education">Core vocabulary: education<a class="hash" href="#core-vocabulary-education" aria-label="link">#</a></h1>
+<blockquote><p>The everyday nouns of education — pronunciation, Russian, plural, and three examples each.</p></blockquote>
+<p><a href="../README.html">← The grammar of nouns</a> &middot; <a href="README.html">All groups</a></p>
+<p>Part of the <strong>core-vocabulary tier</strong>. Groups 1–23 cover the nouns that misbehave; this tier covers the nouns you simply need to know. Entries are deliberately lean, because a regular countable noun has no grammatical story to tell. A <strong>Contrast</strong> line appears only where the word hides a genuine trap.</p>
+<p>Where a word in this field <em>does</em> misbehave, it lives in the grammar tier instead and is not repeated here.</p>
+<hr>
+<h3 id="university">university<a class="hash" href="#university" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/ˌjuːnɪˈvɜːrsəti/ &middot; <em>yoo-nih-VUR-suh-tee</em></dd><dt>Русский</dt><dd>университет</dd><dt>Plural</dt><dd><em>universities</em></dd><dt>Countability</dt><dd>countable</dd></dl>
+<p>A place of higher education that grants degrees and does research.</p>
+<ol><li>She teaches physics at a state <em>university</em>.</li><li>He applied to four <em>universities</em> in the Midwest.</li><li>The <em>university</em> raised its fees again this year.</li></ol>
+<hr>
+<h3 id="college">college<a class="hash" href="#college" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/ˈkɑːlɪdʒ/ &middot; <em>KAH-lij</em></dd><dt>Русский</dt><dd>колледж, вуз</dd><dt>Plural</dt><dd><em>colleges</em></dd><dt>Countability</dt><dd>countable</dd><dt>Contrast</dt><dd>In the US, <em>college</em> normally means four-year higher education, and Americans say went to college where the British say went to university.</dd></dl>
+<p>A school that students attend after high school to earn a degree.</p>
+<ol><li>Their oldest son starts <em>college</em> in the fall.</li><li>She went to a small <em>college</em> in Ohio.</li><li>Both <em>colleges</em> offered him financial aid.</li></ol>
+<hr>
+<h3 id="kindergarten">kindergarten<a class="hash" href="#kindergarten" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/ˈkɪndərɡɑːrtən/ &middot; <em>KIN-dur-gar-tuhn</em></dd><dt>Русский</dt><dd>подготовительный класс, детский сад</dd><dt>Plural</dt><dd><em>kindergartens</em></dd><dt>Countability</dt><dd>countable</dd></dl>
+<p>The first year of American school, for children about five years old.</p>
+<ol><li>My daughter starts <em>kindergarten</em> in September.</li><li>He learned to write his name in <em>kindergarten</em>.</li><li>The two <em>kindergartens</em> share one playground.</li></ol>
+<hr>
+<h3 id="preschool">preschool<a class="hash" href="#preschool" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/ˈpriːskuːl/ &middot; <em>PREE-skool</em></dd><dt>Русский</dt><dd>детский сад, дошкольная группа</dd><dt>Plural</dt><dd><em>preschools</em></dd><dt>Countability</dt><dd>countable</dd></dl>
+<p>A school for children who are too young for kindergarten.</p>
+<ol><li>We put him in <em>preschool</em> three mornings a week.</li><li>The <em>preschool</em> down the block has a waiting list.</li><li>Most <em>preschools</em> in town close at noon.</li></ol>
+<hr>
+<h3 id="elementary-school">elementary school<a class="hash" href="#elementary-school" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/ˌɛləˈmɛntəri skuːl/ &middot; <em>el-uh-MEN-tuh-ree-skool</em></dd><dt>Русский</dt><dd>начальная школа</dd><dt>Plural</dt><dd><em>elementary schools</em></dd><dt>Countability</dt><dd>countable</dd></dl>
+<p>An American school for children from about age five to eleven.</p>
+<ol><li>She teaches fourth grade at an <em>elementary school</em>.</li><li>I walked to <em>elementary school</em> every morning.</li><li>The district closed two <em>elementary schools</em> last spring.</li></ol>
+<hr>
+<h3 id="middle-school">middle school<a class="hash" href="#middle-school" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/ˈmɪdəl skuːl/ &middot; <em>MID-uhl-skool</em></dd><dt>Русский</dt><dd>средняя школа (примерно 5–8 классы)</dd><dt>Plural</dt><dd><em>middle schools</em></dd><dt>Countability</dt><dd>countable</dd></dl>
+<p>An American school for students roughly between ages eleven and fourteen.</p>
+<ol><li>My son is in <em>middle school</em> now.</li><li><em>Middle school</em> was the hardest three years of my life.</li><li>The town has two <em>middle schools</em> and one high school.</li></ol>
+<hr>
+<h3 id="high-school">high school<a class="hash" href="#high-school" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/ˈhaɪ skuːl/ &middot; <em>HY-skool</em></dd><dt>Русский</dt><dd>старшие классы школы (9–12)</dd><dt>Plural</dt><dd><em>high schools</em></dd><dt>Countability</dt><dd>countable</dd></dl>
+<p>The last four years of American school, before college.</p>
+<ol><li>We met in <em>high school</em>.</li><li>She graduated from <em>high school</em> in 2019.</li><li>The city's three <em>high schools</em> play each other every fall.</li></ol>
+<hr>
+<h3 id="academy">academy<a class="hash" href="#academy" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/əˈkædəmi/ &middot; <em>uh-KAD-uh-mee</em></dd><dt>Русский</dt><dd>академия, частная школа</dd><dt>Plural</dt><dd><em>academies</em></dd><dt>Countability</dt><dd>countable</dd></dl>
+<p>A private school, or a school that trains people in one particular field.</p>
+<ol><li>He spent two years at a military <em>academy</em>.</li><li>The riding <em>academy</em> takes students as young as six.</li><li>Several private <em>academies</em> opened downtown.</li></ol>
+<hr>
+<h3 id="classroom">classroom<a class="hash" href="#classroom" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/ˈklæsruːm/ &middot; <em>KLASS-room</em></dd><dt>Русский</dt><dd>класс, учебная аудитория</dd><dt>Plural</dt><dd><em>classrooms</em></dd><dt>Countability</dt><dd>countable</dd></dl>
+<p>A room in a school where lessons are taught.</p>
+<ol><li>There are thirty desks in the <em>classroom</em>.</li><li>No food or drinks in the <em>classroom</em>, please.</li><li>The new building has twelve <em>classrooms</em>.</li></ol>
+<hr>
+<h3 id="lecture-hall">lecture hall<a class="hash" href="#lecture-hall" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/ˈlɛktʃər hɔːl/ &middot; <em>LEK-chur-hawl</em></dd><dt>Русский</dt><dd>лекционный зал, большая аудитория</dd><dt>Plural</dt><dd><em>lecture halls</em></dd><dt>Countability</dt><dd>countable</dd></dl>
+<p>A large room with rows of seats where a professor teaches many students at once.</p>
+<ol><li>The <em>lecture hall</em> seats four hundred.</li><li>I sat in the back of the <em>lecture hall</em> and took notes.</li><li>Both <em>lecture halls</em> are being remodeled this summer.</li></ol>
+<hr>
+<h3 id="auditorium">auditorium<a class="hash" href="#auditorium" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/ˌɔːdɪˈtɔːriəm/ &middot; <em>aw-dih-TOR-ee-uhm</em></dd><dt>Русский</dt><dd>актовый зал, зрительный зал</dd><dt>Plural</dt><dd><em>auditoriums</em></dd><dt>Countability</dt><dd>countable</dd></dl>
+<p>A large hall in a school where assemblies and performances are held.</p>
+<ol><li>The whole school squeezed into the <em>auditorium</em>.</li><li>Graduation is held in the <em>auditorium</em> if it rains.</li><li>Both <em>auditoriums</em> need new sound systems.</li></ol>
+<hr>
+<h3 id="gym">gym<a class="hash" href="#gym" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/dʒɪm/ &middot; <em>JIM</em></dd><dt>Русский</dt><dd>спортзал, физкультура</dd><dt>Plural</dt><dd><em>gyms</em></dd><dt>Countability</dt><dd>countable</dd></dl>
+<p>The large indoor room at a school used for sports and exercise classes.</p>
+<ol><li>We have <em>gym</em> right after lunch.</li><li>The basketball game is in the school <em>gym</em>.</li><li>Both <em>gyms</em> were built in the seventies.</li></ol>
+<hr>
+<h3 id="playground">playground<a class="hash" href="#playground" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/ˈpleɪɡraʊnd/ &middot; <em>PLAY-grownd</em></dd><dt>Русский</dt><dd>игровая площадка</dd><dt>Plural</dt><dd><em>playgrounds</em></dd><dt>Countability</dt><dd>countable</dd></dl>
+<p>An outdoor area at a school where children play during breaks.</p>
+<ol><li>The kids ran out to the <em>playground</em>.</li><li>A teacher watches the <em>playground</em> at recess.</li><li>The city rebuilt three school <em>playgrounds</em> last year.</li></ol>
+<hr>
+<h3 id="library">library<a class="hash" href="#library" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/ˈlaɪbrɛri/ &middot; <em>LY-brer-ee</em></dd><dt>Русский</dt><dd>библиотека</dd><dt>Plural</dt><dd><em>libraries</em></dd><dt>Countability</dt><dd>countable</dd></dl>
+<p>A building or room holding books that people can read or borrow.</p>
+<ol><li>I study in the <em>library</em> between classes.</li><li>The <em>library</em> closes at ten on weeknights.</li><li>Two campus <em>libraries</em> stay open all night during finals.</li></ol>
+<hr>
+<h3 id="laboratory">laboratory<a class="hash" href="#laboratory" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/ˈlæbrətɔːri/ &middot; <em>LAB-ruh-tor-ee</em></dd><dt>Русский</dt><dd>лаборатория</dd><dt>Plural</dt><dd><em>laboratories</em></dd><dt>Countability</dt><dd>countable</dd><dt>Contrast</dt><dd>American stress falls on the first syllable, LAB-ruh-tor-ee; the British say luh-BOR-uh-tree. Americans usually shorten it to lab.</dd></dl>
+<p>A room fitted out for scientific experiments and testing.</p>
+<ol><li>Safety goggles are required in the <em>laboratory</em>.</li><li>She works in a research <em>laboratory</em> on campus.</li><li>The chemistry <em>laboratories</em> are on the third floor.</li></ol>
+<hr>
+<h3 id="dorm">dorm<a class="hash" href="#dorm" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/dɔːrm/ &middot; <em>DORM</em></dd><dt>Русский</dt><dd>общежитие</dd><dt>Plural</dt><dd><em>dorms</em></dd><dt>Countability</dt><dd>countable</dd></dl>
+<p>A college building where students live.</p>
+<ol><li>He lives in a <em>dorm</em> on the north side of campus.</li><li>The <em>dorm</em> has a laundry room in the basement.</li><li>Freshmen have to stay in the <em>dorms</em> their first year.</li></ol>
+<hr>
+<h3 id="chalkboard">chalkboard<a class="hash" href="#chalkboard" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/ˈtʃɔːkbɔːrd/ &middot; <em>CHAWK-bord</em></dd><dt>Русский</dt><dd>классная доска</dd><dt>Plural</dt><dd><em>chalkboards</em></dd><dt>Countability</dt><dd>countable</dd><dt>Contrast</dt><dd>The l in chalk is silent: CHAWK-bord.</dd></dl>
+<p>A dark board on a classroom wall that you write on with chalk.</p>
+<ol><li>She wrote the homework on the <em>chalkboard</em>.</li><li>Someone erased the <em>chalkboard</em> before class.</li><li>The old <em>chalkboards</em> were replaced with whiteboards.</li></ol>
+<hr>
+<h3 id="bulletin-board">bulletin board<a class="hash" href="#bulletin-board" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/ˈbʊlətɪn bɔːrd/ &middot; <em>BUUL-uh-tin-bord</em></dd><dt>Русский</dt><dd>доска объявлений</dd><dt>Plural</dt><dd><em>bulletin boards</em></dd><dt>Countability</dt><dd>countable</dd><dt>Contrast</dt><dd>American <em>bulletin board</em>; the British call it a notice board.</dd></dl>
+<p>A board on a wall where notices and announcements are pinned up.</p>
+<ol><li>The class list is posted on the <em>bulletin board</em>.</li><li>Somebody stapled a flyer to the <em>bulletin board</em>.</li><li>The hallway <em>bulletin boards</em> are covered in club signs.</li></ol>
+<hr>
+<h3 id="hall-pass">hall pass<a class="hash" href="#hall-pass" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/ˈhɔːl pæs/ &middot; <em>HAWL-pass</em></dd><dt>Русский</dt><dd>пропуск (разрешение выйти из класса)</dd><dt>Plural</dt><dd><em>hall passes</em></dd><dt>Countability</dt><dd>countable</dd></dl>
+<p>A slip of paper that lets a student leave class and walk in the halls.</p>
+<ol><li>You need a <em>hall pass</em> to go to the bathroom.</li><li>He forged a <em>hall pass</em> and got caught.</li><li>The teacher keeps the <em>hall passes</em> by the door.</li></ol>
+<hr>
+<h3 id="locker-room">locker room<a class="hash" href="#locker-room" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/ˈlɑːkər ruːm/ &middot; <em>LAH-kur-room</em></dd><dt>Русский</dt><dd>раздевалка</dd><dt>Plural</dt><dd><em>locker rooms</em></dd><dt>Countability</dt><dd>countable</dd></dl>
+<p>A room where people change clothes and store things before sports.</p>
+<ol><li>Meet me in the <em>locker room</em> after practice.</li><li>The <em>locker room</em> smells like wet socks.</li><li>Both <em>locker rooms</em> were repainted over the summer.</li></ol>
+<hr>
+<h3 id="homeroom">homeroom<a class="hash" href="#homeroom" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/ˈhoʊmruːm/ &middot; <em>HOHM-room</em></dd><dt>Русский</dt><dd>класс для утренней переклички</dd><dt>Plural</dt><dd><em>homerooms</em></dd><dt>Countability</dt><dd>countable</dd></dl>
+<p>The class an American student reports to at the start of the day for attendance and announcements.</p>
+<ol><li>Announcements are read during <em>homeroom</em>.</li><li>We were in the same <em>homeroom</em> all four years.</li><li>The <em>homerooms</em> meet for ten minutes each morning.</li></ol>
+<hr>
+<h3 id="school-bus">school bus<a class="hash" href="#school-bus" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/ˈskuːl bʌs/ &middot; <em>SKOOL-buss</em></dd><dt>Русский</dt><dd>школьный автобус</dd><dt>Plural</dt><dd><em>school buses</em></dd><dt>Countability</dt><dd>countable</dd></dl>
+<p>A yellow bus that carries children to and from school.</p>
+<ol><li>The <em>school bus</em> comes at seven fifteen.</li><li>He missed the <em>school bus</em> again.</li><li>You have to stop when <em>school buses</em> put their lights on.</li></ol>
+<hr>
+<h3 id="instructor">instructor<a class="hash" href="#instructor" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/ɪnˈstrʌktər/ &middot; <em>in-STRUK-tur</em></dd><dt>Русский</dt><dd>преподаватель, инструктор</dd><dt>Plural</dt><dd><em>instructors</em></dd><dt>Countability</dt><dd>countable</dd></dl>
+<p>Someone who teaches a subject or skill, especially at a college.</p>
+<ol><li>The <em>instructor</em> handed back our essays.</li><li>My driving <em>instructor</em> was very patient.</li><li>Two <em>instructors</em> share the same office.</li></ol>
+<hr>
+<h3 id="tutor">tutor<a class="hash" href="#tutor" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/ˈtuːtər/ &middot; <em>TOO-tur</em></dd><dt>Русский</dt><dd>репетитор</dd><dt>Plural</dt><dd><em>tutors</em></dd><dt>Countability</dt><dd>countable</dd><dt>Contrast</dt><dd>Americans say TOO-tur; the British say TYOO-tuh.</dd></dl>
+<p>Someone who teaches one student or a few students privately.</p>
+<ol><li>We hired a <em>tutor</em> to help him with algebra.</li><li>Her math <em>tutor</em> comes on Thursdays.</li><li>The writing center has free <em>tutors</em>.</li></ol>
+<hr>
+<h3 id="lecturer">lecturer<a class="hash" href="#lecturer" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/ˈlɛktʃərər/ &middot; <em>LEK-chur-ur</em></dd><dt>Русский</dt><dd>лектор, преподаватель</dd><dt>Plural</dt><dd><em>lecturers</em></dd><dt>Countability</dt><dd>countable</dd></dl>
+<p>Someone who gives talks to students at a college or university.</p>
+<ol><li>The guest <em>lecturer</em> spoke for an hour.</li><li>He works as a part-time <em>lecturer</em> in history.</li><li>Several <em>lecturers</em> signed the letter.</li></ol>
+<hr>
+<h3 id="dean">dean<a class="hash" href="#dean" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/diːn/ &middot; <em>DEEN</em></dd><dt>Русский</dt><dd>декан</dd><dt>Plural</dt><dd><em>deans</em></dd><dt>Countability</dt><dd>countable</dd></dl>
+<p>A senior official who runs a college or a division of a university.</p>
+<ol><li>The <em>dean</em> approved my schedule change.</li><li>The <em>dean</em> wants to see you in her office.</li><li>All the <em>deans</em> met on Monday morning.</li></ol>
+<hr>
+<h3 id="counselor">counselor<a class="hash" href="#counselor" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/ˈkaʊnsələr/ &middot; <em>KOWN-suh-lur</em></dd><dt>Русский</dt><dd>школьный консультант, психолог</dd><dt>Plural</dt><dd><em>counselors</em></dd><dt>Countability</dt><dd>countable</dd><dt>Contrast</dt><dd>American spelling has one l; the British write counsellor. Do not confuse it with councilor, a member of a council.</dd></dl>
+<p>Someone at a school who advises students about classes, colleges, and personal problems.</p>
+<ol><li>My guidance <em>counselor</em> helped me pick a college.</li><li>Talk to a <em>counselor</em> if you're feeling overwhelmed.</li><li>The school hired two more <em>counselors</em>.</li></ol>
+<hr>
+<h3 id="classmate">classmate<a class="hash" href="#classmate" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/ˈklæsmeɪt/ &middot; <em>KLASS-mayt</em></dd><dt>Русский</dt><dd>одноклассник, однокурсник</dd><dt>Plural</dt><dd><em>classmates</em></dd><dt>Countability</dt><dd>countable</dd></dl>
+<p>Someone who is in the same class as you.</p>
+<ol><li>A <em>classmate</em> lent me her notes.</li><li>He still keeps in touch with his old <em>classmates</em>.</li><li>My <em>classmate</em> sits right behind me.</li></ol>
+<hr>
+<h3 id="roommate">roommate<a class="hash" href="#roommate" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/ˈruːmmeɪt/ &middot; <em>ROOM-mayt</em></dd><dt>Русский</dt><dd>сосед по комнате</dd><dt>Plural</dt><dd><em>roommates</em></dd><dt>Countability</dt><dd>countable</dd></dl>
+<p>Someone you share a room or apartment with.</p>
+<ol><li>My <em>roommate</em> studies until three in the morning.</li><li>He got a new <em>roommate</em> second semester.</li><li>The four <em>roommates</em> split the rent evenly.</li></ol>
+<hr>
+<h3 id="freshman">freshman<a class="hash" href="#freshman" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/ˈfrɛʃmən/ &middot; <em>FRESH-muhn</em></dd><dt>Русский</dt><dd>первокурсник; девятиклассник</dd><dt>Plural</dt><dd><em>freshmen</em></dd><dt>Countability</dt><dd>countable</dd><dt>Contrast</dt><dd>Irregular plural: one freshman, two freshmen.</dd></dl>
+<p>A student in the first year of high school or college.</p>
+<ol><li>She's a <em>freshman</em> at the state university.</li><li><em>Freshmen</em> move into the dorms a week early.</li><li>He was a <em>freshman</em> the year I was a senior.</li></ol>
+<hr>
+<h3 id="sophomore">sophomore<a class="hash" href="#sophomore" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/ˈsɑːfəmɔːr/ &middot; <em>SAH-fuh-mor</em></dd><dt>Русский</dt><dd>второкурсник; десятиклассник</dd><dt>Plural</dt><dd><em>sophomores</em></dd><dt>Countability</dt><dd>countable</dd></dl>
+<p>A student in the second year of high school or college.</p>
+<ol><li>He made the varsity team as a <em>sophomore</em>.</li><li>The <em>sophomores</em> take chemistry this year.</li><li>Two <em>sophomores</em> joined the debate team.</li></ol>
+<hr>
+<h3 id="junior">junior<a class="hash" href="#junior" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/ˈdʒuːnjər/ &middot; <em>JOON-yur</em></dd><dt>Русский</dt><dd>третьекурсник; одиннадцатиклассник</dd><dt>Plural</dt><dd><em>juniors</em></dd><dt>Countability</dt><dd>countable</dd></dl>
+<p>A student in the third year of high school or college.</p>
+<ol><li><em>Juniors</em> take the college entrance exam in the spring.</li><li>She's a <em>junior</em> majoring in biology.</li><li>Most of my friends are <em>juniors</em>.</li></ol>
+<hr>
+<h3 id="senior">senior<a class="hash" href="#senior" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/ˈsiːnjər/ &middot; <em>SEEN-yur</em></dd><dt>Русский</dt><dd>выпускник (последний год школы или вуза)</dd><dt>Plural</dt><dd><em>seniors</em></dd><dt>Countability</dt><dd>countable</dd></dl>
+<p>A student in the final year of high school or college.</p>
+<ol><li>The <em>seniors</em> get out of class early on Fridays.</li><li>As a <em>senior</em>, he only needs three more credits.</li><li><em>Seniors</em> have their own parking lot.</li></ol>
+<hr>
+<h3 id="graduate">graduate<a class="hash" href="#graduate" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/ˈɡrædʒuət/ &middot; <em>GRAJ-oo-uht</em></dd><dt>Русский</dt><dd>выпускник</dd><dt>Plural</dt><dd><em>graduates</em></dd><dt>Countability</dt><dd>countable</dd><dt>Contrast</dt><dd>The noun ends in an unstressed GRAJ-oo-uht; the verb to graduate ends in GRAJ-oo-ayt.</dd></dl>
+<p>Someone who has finished a course of study and received a degree or diploma.</p>
+<ol><li>She's a <em>graduate</em> of a small liberal arts college.</li><li>Recent <em>graduates</em> are having trouble finding work.</li><li>The company hires <em>graduates</em> every June.</li></ol>
+<hr>
+<h3 id="undergraduate">undergraduate<a class="hash" href="#undergraduate" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/ˌʌndərˈɡrædʒuət/ &middot; <em>un-dur-GRAJ-oo-uht</em></dd><dt>Русский</dt><dd>студент бакалавриата</dd><dt>Plural</dt><dd><em>undergraduates</em></dd><dt>Countability</dt><dd>countable</dd></dl>
+<p>A college student who has not yet earned a first degree.</p>
+<ol><li>The class is open to <em>undergraduates</em> only.</li><li>As an <em>undergraduate</em> she worked in the campus bookstore.</li><li>Most <em>undergraduates</em> live within a mile of campus.</li></ol>
+<hr>
+<h3 id="scholar">scholar<a class="hash" href="#scholar" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/ˈskɑːlər/ &middot; <em>SKAH-lur</em></dd><dt>Русский</dt><dd>учёный, знаток</dd><dt>Plural</dt><dd><em>scholars</em></dd><dt>Countability</dt><dd>countable</dd></dl>
+<p>Someone who studies a subject deeply and knows a great deal about it.</p>
+<ol><li>He's a respected <em>scholar</em> of American history.</li><li><em>Scholars</em> still argue about who wrote the letter.</li><li>The library invited a visiting <em>scholar</em> to speak.</li></ol>
+<hr>
+<h3 id="valedictorian">valedictorian<a class="hash" href="#valedictorian" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/ˌvælədɪkˈtɔːriən/ &middot; <em>val-uh-dik-TOR-ee-uhn</em></dd><dt>Русский</dt><dd>лучший выпускник (произносит речь на выпускном)</dd><dt>Plural</dt><dd><em>valedictorians</em></dd><dt>Countability</dt><dd>countable</dd></dl>
+<p>The student with the highest grades in a class, who gives a speech at graduation.</p>
+<ol><li>She was the <em>valedictorian</em> of her high school class.</li><li>The <em>valedictorian</em> thanked her parents first.</li><li>Two students tied, so there were co-<em>valedictorians</em>.</li></ol>
+<hr>
+<h3 id="substitute">substitute<a class="hash" href="#substitute" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/ˈsʌbstətuːt/ &middot; <em>SUB-stuh-toot</em></dd><dt>Русский</dt><dd>замещающий учитель</dd><dt>Plural</dt><dd><em>substitutes</em></dd><dt>Countability</dt><dd>countable</dd></dl>
+<p>A teacher who fills in when the regular teacher is absent.</p>
+<ol><li>We had a <em>substitute</em> in math all week.</li><li>The <em>substitute</em> let us watch a movie.</li><li>The district is short on <em>substitutes</em> this winter.</li></ol>
+<hr>
+<h3 id="superintendent">superintendent<a class="hash" href="#superintendent" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/ˌsuːpərɪnˈtɛndənt/ &middot; <em>soo-pur-in-TEN-duhnt</em></dd><dt>Русский</dt><dd>начальник школьного округа</dd><dt>Plural</dt><dd><em>superintendents</em></dd><dt>Countability</dt><dd>countable</dd></dl>
+<p>The official in charge of all the public schools in an American district.</p>
+<ol><li>The <em>superintendent</em> canceled school because of the snow.</li><li>Parents complained to the <em>superintendent</em>.</li><li>Three <em>superintendents</em> have come and gone in five years.</li></ol>
+<hr>
+<h3 id="advisor">advisor<a class="hash" href="#advisor" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/ədˈvaɪzər/ &middot; <em>ud-VY-zur</em></dd><dt>Русский</dt><dd>научный руководитель, куратор</dd><dt>Plural</dt><dd><em>advisors</em></dd><dt>Countability</dt><dd>countable</dd></dl>
+<p>A teacher who helps a student choose classes and plan a degree.</p>
+<ol><li>I have to meet with my <em>advisor</em> before I register.</li><li>Her thesis <em>advisor</em> read three drafts.</li><li>The department assigns <em>advisors</em> to new students.</li></ol>
+<hr>
+<h3 id="dropout">dropout<a class="hash" href="#dropout" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/ˈdrɑːpaʊt/ &middot; <em>DRAHP-owt</em></dd><dt>Русский</dt><dd>человек, бросивший учёбу</dd><dt>Plural</dt><dd><em>dropouts</em></dd><dt>Countability</dt><dd>countable</dd></dl>
+<p>Someone who leaves school before finishing.</p>
+<ol><li>He was a high school <em>dropout</em> who later got his diploma.</li><li>The school is trying to bring <em>dropouts</em> back.</li><li>Many <em>dropouts</em> come back and finish years later.</li></ol>
+<hr>
+<h3 id="math">math<a class="hash" href="#math" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/mæθ/ &middot; <em>MATH</em></dd><dt>Русский</dt><dd>математика</dd><dt>Countability</dt><dd>uncountable</dd><dt>Contrast</dt><dd>Americans say <em>math</em>; the British say maths.</dd></dl>
+<p>The study of numbers, shapes, and calculation.</p>
+<ol><li>I have <em>math</em> first period.</li><li>She's always been good at <em>math</em>.</li><li>There's a lot of <em>math</em> in that class.</li></ol>
+<hr>
+<h3 id="algebra">algebra<a class="hash" href="#algebra" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/ˈældʒəbrə/ &middot; <em>AL-juh-bruh</em></dd><dt>Русский</dt><dd>алгебра</dd><dt>Countability</dt><dd>uncountable</dd></dl>
+<p>The branch of math that uses letters to stand for unknown numbers.</p>
+<ol><li>We start <em>algebra</em> in eighth grade.</li><li>He failed <em>algebra</em> and had to take it again.</li><li><em>Algebra</em> finally made sense to me in college.</li></ol>
+<hr>
+<h3 id="geometry">geometry<a class="hash" href="#geometry" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/dʒiˈɑːmətri/ &middot; <em>jee-AH-muh-tree</em></dd><dt>Русский</dt><dd>геометрия</dd><dt>Countability</dt><dd>uncountable</dd></dl>
+<p>The branch of math that deals with lines, angles, and shapes.</p>
+<ol><li><em>Geometry</em> was my favorite class.</li><li>You need a protractor for <em>geometry</em>.</li><li>She's teaching <em>geometry</em> to sophomores this year.</li></ol>
+<hr>
+<h3 id="trigonometry">trigonometry<a class="hash" href="#trigonometry" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/ˌtrɪɡəˈnɑːmətri/ &middot; <em>trig-uh-NAH-muh-tree</em></dd><dt>Русский</dt><dd>тригонометрия</dd><dt>Countability</dt><dd>uncountable</dd></dl>
+<p>The branch of math dealing with triangles and the ratios of their sides.</p>
+<ol><li><em>Trigonometry</em> comes after geometry at our school.</li><li>You can't do physics without some <em>trigonometry</em>.</li><li>He's tutoring her in <em>trigonometry</em>.</li></ol>
+<hr>
+<h3 id="biology">biology<a class="hash" href="#biology" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/baɪˈɑːlədʒi/ &middot; <em>by-AH-luh-jee</em></dd><dt>Русский</dt><dd>биология</dd><dt>Countability</dt><dd>uncountable</dd></dl>
+<p>The science of living things.</p>
+<ol><li>We dissected a frog in <em>biology</em>.</li><li>She majored in <em>biology</em> and went to medical school.</li><li><em>Biology</em> meets in the lab on Tuesdays.</li></ol>
+<hr>
+<h3 id="chemistry">chemistry<a class="hash" href="#chemistry" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/ˈkɛməstri/ &middot; <em>KEM-uh-stree</em></dd><dt>Русский</dt><dd>химия</dd><dt>Countability</dt><dd>uncountable</dd></dl>
+<p>The science of substances and how they react with each other.</p>
+<ol><li><em>Chemistry</em> is my hardest class this semester.</li><li>He got an A in <em>chemistry</em>.</li><li>You need goggles for <em>chemistry</em> lab.</li></ol>
+<hr>
+<h3 id="geography">geography<a class="hash" href="#geography" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/dʒiˈɑːɡrəfi/ &middot; <em>jee-AH-gruh-fee</em></dd><dt>Русский</dt><dd>география</dd><dt>Countability</dt><dd>uncountable</dd></dl>
+<p>The study of the earth's surface, its countries, and its features.</p>
+<ol><li>American kids don't study much <em>geography</em>.</li><li>We had a <em>geography</em> quiz on the state capitals.</li><li><em>Geography</em> is taught as part of social studies here.</li></ol>
+<hr>
+<h3 id="philosophy">philosophy<a class="hash" href="#philosophy" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/fəˈlɑːsəfi/ &middot; <em>fuh-LAH-suh-fee</em></dd><dt>Русский</dt><dd>философия</dd><dt>Countability</dt><dd>uncountable</dd></dl>
+<p>The study of basic questions about knowledge, existence, and right and wrong.</p>
+<ol><li>He took <em>philosophy</em> to fill a requirement.</li><li><em>Philosophy</em> majors read a lot.</li><li>She teaches ancient Greek <em>philosophy</em>.</li></ol>
+<hr>
+<h3 id="psychology">psychology<a class="hash" href="#psychology" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/saɪˈkɑːlədʒi/ &middot; <em>sy-KAH-luh-jee</em></dd><dt>Русский</dt><dd>психология</dd><dt>Countability</dt><dd>uncountable</dd><dt>Contrast</dt><dd>The p is silent: sy-KAH-luh-jee.</dd></dl>
+<p>The study of the mind and how people behave.</p>
+<ol><li><em>Psychology</em> is one of the most popular majors.</li><li>She's taking intro to <em>psychology</em> this fall.</li><li>He wrote his paper on child <em>psychology</em>.</li></ol>
+<hr>
+<h3 id="sociology">sociology<a class="hash" href="#sociology" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/ˌsoʊsiˈɑːlədʒi/ &middot; <em>soh-see-AH-luh-jee</em></dd><dt>Русский</dt><dd>социология</dd><dt>Countability</dt><dd>uncountable</dd></dl>
+<p>The study of human society and how groups of people behave.</p>
+<ol><li>She switched from <em>sociology</em> to economics.</li><li><em>Sociology</em> meets twice a week.</li><li>His <em>sociology</em> professor assigned three books.</li></ol>
+<hr>
+<h3 id="anthropology">anthropology<a class="hash" href="#anthropology" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/ˌænθrəˈpɑːlədʒi/ &middot; <em>an-thruh-PAH-luh-jee</em></dd><dt>Русский</dt><dd>антропология</dd><dt>Countability</dt><dd>uncountable</dd></dl>
+<p>The study of human cultures and how people have lived.</p>
+<ol><li>He teaches <em>anthropology</em> at a community college.</li><li><em>Anthropology</em> took her to Peru for a summer.</li><li>I signed up for cultural <em>anthropology</em>.</li></ol>
+<hr>
+<h3 id="engineering">engineering<a class="hash" href="#engineering" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/ˌɛndʒəˈnɪrɪŋ/ &middot; <em>en-juh-NEER-ing</em></dd><dt>Русский</dt><dd>инженерное дело</dd><dt>Countability</dt><dd>uncountable</dd></dl>
+<p>The study of designing and building machines, structures, and systems.</p>
+<ol><li>She's studying electrical <em>engineering</em>.</li><li>The <em>engineering</em> building is across the quad.</li><li><em>Engineering</em> is a five-year program there.</li></ol>
+<hr>
+<h3 id="geology">geology<a class="hash" href="#geology" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/dʒiˈɑːlədʒi/ &middot; <em>jee-AH-luh-jee</em></dd><dt>Русский</dt><dd>геология</dd><dt>Countability</dt><dd>uncountable</dd></dl>
+<p>The science of rocks and the structure of the earth.</p>
+<ol><li><em>Geology</em> students go on field trips every spring.</li><li>He took <em>geology</em> because it sounded easy.</li><li>Her <em>geology</em> class collected samples from the creek.</li></ol>
+<hr>
+<h3 id="zoology">zoology<a class="hash" href="#zoology" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/zoʊˈɑːlədʒi/ &middot; <em>zoh-AH-luh-jee</em></dd><dt>Русский</dt><dd>зоология</dd><dt>Countability</dt><dd>uncountable</dd><dt>Contrast</dt><dd>The first syllable rhymes with go, not with zoo: zoh-AH-luh-jee.</dd></dl>
+<p>The science of animals.</p>
+<ol><li>She's finishing a degree in <em>zoology</em>.</li><li><em>Zoology</em> was the only lab class that interested him.</li><li>The <em>zoology</em> department shares a building with biology.</li></ol>
+<hr>
+<h3 id="civics">civics<a class="hash" href="#civics" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/ˈsɪvɪks/ &middot; <em>SIV-iks</em></dd><dt>Русский</dt><dd>обществознание, граждановедение</dd><dt>Countability</dt><dd>uncountable</dd></dl>
+<p>The school subject about government and the duties of citizens.</p>
+<ol><li>We learned how a bill becomes a law in <em>civics</em>.</li><li><em>Civics</em> is required for graduation in this state.</li><li>His <em>civics</em> teacher made the class watch the debate.</li></ol>
+<hr>
+<h3 id="social-studies">social studies<a class="hash" href="#social-studies" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/ˌsoʊʃəl ˈstʌdiz/ &middot; <em>SOH-shuhl-STUD-eez</em></dd><dt>Русский</dt><dd>обществознание</dd><dt>Countability</dt><dd>uncountable</dd><dt>Contrast</dt><dd>Plural in form but singular in use: <em>Social studies</em> is my favorite class.</dd></dl>
+<p>The American school subject combining history, geography, and government.</p>
+<ol><li><em>Social studies</em> is right after lunch.</li><li>We made posters about the fifty states in <em>social studies</em>.</li><li>Her favorite subject is <em>social studies</em>.</li></ol>
+<hr>
+<h3 id="computer-science">computer science<a class="hash" href="#computer-science" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/kəmˈpjuːtər ˌsaɪrns/ &middot; <em>kuhm-PYOO-tur-SY-uhnss</em></dd><dt>Русский</dt><dd>информатика</dd><dt>Countability</dt><dd>uncountable</dd></dl>
+<p>The study of computers and how to program them.</p>
+<ol><li>He's majoring in <em>computer science</em>.</li><li>The high school added a <em>computer science</em> class.</li><li><em>Computer science</em> enrollment has doubled.</li></ol>
+<hr>
+<h3 id="drama">drama<a class="hash" href="#drama" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/ˈdrɑːmə/ &middot; <em>DRAH-muh</em></dd><dt>Русский</dt><dd>театральное искусство (предмет)</dd><dt>Countability</dt><dd>uncountable</dd></dl>
+<p>The school subject of acting and putting on plays.</p>
+<ol><li>She takes <em>drama</em> as an elective.</li><li>The <em>drama</em> teacher is directing the spring musical.</li><li><em>Drama</em> club meets after school on Wednesdays.</li></ol>
+<hr>
+<h3 id="spelling">spelling<a class="hash" href="#spelling" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/ˈspɛlɪŋ/ &middot; <em>SPEL-ing</em></dd><dt>Русский</dt><dd>правописание, орфография</dd><dt>Countability</dt><dd>uncountable</dd></dl>
+<p>The writing of the correct letters of a word, or the ability to do it.</p>
+<ol><li>Her <em>spelling</em> has improved a lot.</li><li>We have a <em>spelling</em> test every Friday.</li><li>Check your <em>spelling</em> before you turn it in.</li></ol>
+<hr>
+<h3 id="arithmetic">arithmetic<a class="hash" href="#arithmetic" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/əˈrɪθmətɪk/ &middot; <em>uh-RITH-muh-tik</em></dd><dt>Русский</dt><dd>арифметика</dd><dt>Countability</dt><dd>uncountable</dd><dt>Contrast</dt><dd>The noun is uh-RITH-muh-tik; the adjective in arithmetic mean shifts to a-rith-MET-ik.</dd></dl>
+<p>Basic math with numbers: adding, subtracting, multiplying, and dividing.</p>
+<ol><li>Second graders practice simple <em>arithmetic</em>.</li><li>He made a mistake in the <em>arithmetic</em>.</li><li>You can do that <em>arithmetic</em> in your head.</li></ol>
+<hr>
+<h3 id="subject">subject<a class="hash" href="#subject" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/ˈsʌbdʒɪkt/ &middot; <em>SUB-jikt</em></dd><dt>Русский</dt><dd>предмет (учебный)</dd><dt>Plural</dt><dd><em>subjects</em></dd><dt>Countability</dt><dd>countable</dd><dt>Contrast</dt><dd>Stress moves: the noun is SUB-jikt, the verb to subject is sub-JEKT.</dd></dl>
+<p>An area of knowledge studied at school, such as history or math.</p>
+<ol><li>What's your favorite <em>subject</em>?</li><li>History is the one <em>subject</em> he really likes.</li><li>She's strong in all her <em>subjects</em>.</li></ol>
+<hr>
+<h3 id="exam">exam<a class="hash" href="#exam" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/ɪɡˈzæm/ &middot; <em>ig-ZAM</em></dd><dt>Русский</dt><dd>экзамен</dd><dt>Plural</dt><dd><em>exams</em></dd><dt>Countability</dt><dd>countable</dd></dl>
+<p>An important formal test of what a student has learned.</p>
+<ol><li>The <em>exam</em> is on Thursday at nine.</li><li>He passed the <em>exam</em> on his second try.</li><li><em>Exams</em> are worth half the grade.</li></ol>
+<hr>
+<h3 id="test">test<a class="hash" href="#test" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/tɛst/ &middot; <em>TEST</em></dd><dt>Русский</dt><dd>контрольная работа, тест</dd><dt>Plural</dt><dd><em>tests</em></dd><dt>Countability</dt><dd>countable</dd></dl>
+<p>A set of questions used to measure what someone knows or can do.</p>
+<ol><li>We have a <em>test</em> on chapter four tomorrow.</li><li>She studied all night for the <em>test</em>.</li><li>He aced both <em>tests</em> this week.</li></ol>
+<hr>
+<h3 id="quiz">quiz<a class="hash" href="#quiz" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/kwɪz/ &middot; <em>KWIZ</em></dd><dt>Русский</dt><dd>проверочная работа, короткий тест</dd><dt>Plural</dt><dd><em>quizzes</em></dd><dt>Countability</dt><dd>countable</dd><dt>Contrast</dt><dd>The plural doubles the z: quiz, quizzes.</dd></dl>
+<p>A short test, usually on a small amount of material.</p>
+<ol><li>There's a vocabulary <em>quiz</em> every Monday.</li><li>The <em>quiz</em> only took ten minutes.</li><li>He drops the two lowest <em>quizzes</em>.</li></ol>
+<hr>
+<h3 id="pop-quiz">pop quiz<a class="hash" href="#pop-quiz" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/ˈpɑːp kwɪz/ &middot; <em>PAHP-kwiz</em></dd><dt>Русский</dt><dd>внезапная проверочная работа</dd><dt>Plural</dt><dd><em>pop quizzes</em></dd><dt>Countability</dt><dd>countable</dd></dl>
+<p>A short test given with no warning.</p>
+<ol><li>She gave us a <em>pop quiz</em> on the reading.</li><li>Nobody was ready for the <em>pop quiz</em>.</li><li>He uses <em>pop quizzes</em> to make sure people do the homework.</li></ol>
+<hr>
+<h3 id="midterm">midterm<a class="hash" href="#midterm" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/ˈmɪdtɜːrm/ &middot; <em>MID-turm</em></dd><dt>Русский</dt><dd>экзамен в середине семестра</dd><dt>Plural</dt><dd><em>midterms</em></dd><dt>Countability</dt><dd>countable</dd></dl>
+<p>An exam given halfway through a course.</p>
+<ol><li>The <em>midterm</em> covers everything through chapter seven.</li><li>I bombed the <em>midterm</em> but did well on the final.</li><li><em>Midterms</em> start next week.</li></ol>
+<hr>
+<h3 id="final">final<a class="hash" href="#final" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/ˈfaɪnəl/ &middot; <em>FY-nuhl</em></dd><dt>Русский</dt><dd>итоговый экзамен</dd><dt>Plural</dt><dd><em>finals</em></dd><dt>Countability</dt><dd>countable</dd></dl>
+<p>The exam at the end of a course.</p>
+<ol><li>My chemistry <em>final</em> is at eight in the morning.</li><li><em>Finals</em> week is the worst week of the semester.</li><li>She skipped the party to study for <em>finals</em>.</li></ol>
+<hr>
+<h3 id="grade">grade<a class="hash" href="#grade" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/ɡreɪd/ &middot; <em>GRAYD</em></dd><dt>Русский</dt><dd>оценка; класс (год обучения)</dd><dt>Plural</dt><dd><em>grades</em></dd><dt>Countability</dt><dd>countable</dd><dt>Contrast</dt><dd>American <em>grade</em> where the British say mark; <em>grade</em> also means a school year, as in fifth grade, where the British say year or form.</dd></dl>
+<p>A letter or number showing how well a student did.</p>
+<ol><li>She got a good <em>grade</em> on her essay.</li><li>My <em>grades</em> went up this semester.</li><li>He needs a passing <em>grade</em> to graduate.</li></ol>
+<hr>
+<h3 id="score">score<a class="hash" href="#score" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/skɔːr/ &middot; <em>SKOR</em></dd><dt>Русский</dt><dd>результат, балл</dd><dt>Plural</dt><dd><em>scores</em></dd><dt>Countability</dt><dd>countable</dd></dl>
+<p>The number of points earned on a test.</p>
+<ol><li>Her test <em>score</em> was in the top ten percent.</li><li>He raised his <em>score</em> by two hundred points.</li><li>The <em>scores</em> come back in three weeks.</li></ol>
+<hr>
+<h3 id="report-card">report card<a class="hash" href="#report-card" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/rɪˈpɔːrt kɑːrd/ &middot; <em>rih-PORT-kard</em></dd><dt>Русский</dt><dd>табель успеваемости</dd><dt>Plural</dt><dd><em>report cards</em></dd><dt>Countability</dt><dd>countable</dd></dl>
+<p>A written record of a student's grades sent home to parents.</p>
+<ol><li><em>Report cards</em> go out on Friday.</li><li>He hid his <em>report card</em> under the mattress.</li><li>There was one B on an otherwise perfect <em>report card</em>.</li></ol>
+<hr>
+<h3 id="transcript">transcript<a class="hash" href="#transcript" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/ˈtrænskrɪpt/ &middot; <em>TRAN-skript</em></dd><dt>Русский</dt><dd>выписка оценок, академическая справка</dd><dt>Plural</dt><dd><em>transcripts</em></dd><dt>Countability</dt><dd>countable</dd></dl>
+<p>An official record of all the courses a student took and the grades received.</p>
+<ol><li>You have to send your <em>transcript</em> with the application.</li><li>The registrar mailed my <em>transcript</em> to three schools.</li><li>Official <em>transcripts</em> cost ten dollars each.</li></ol>
+<hr>
+<h3 id="essay">essay<a class="hash" href="#essay" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/ˈɛseɪ/ &middot; <em>ES-ay</em></dd><dt>Русский</dt><dd>сочинение, эссе</dd><dt>Plural</dt><dd><em>essays</em></dd><dt>Countability</dt><dd>countable</dd></dl>
+<p>A short piece of writing on one subject.</p>
+<ol><li>The <em>essay</em> has to be five pages long.</li><li>I wrote my college <em>essay</em> about my grandmother.</li><li>He graded forty <em>essays</em> over the weekend.</li></ol>
+<hr>
+<h3 id="term-paper">term paper<a class="hash" href="#term-paper" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/ˈtɜːrm ˌpeɪpər/ &middot; <em>TURM-pay-pur</em></dd><dt>Русский</dt><dd>курсовая работа</dd><dt>Plural</dt><dd><em>term papers</em></dd><dt>Countability</dt><dd>countable</dd></dl>
+<p>A long piece of writing assigned as the main work of a course.</p>
+<ol><li>My <em>term paper</em> is due the last day of class.</li><li>She picked the Civil War for her <em>term paper</em>.</li><li>He put off both <em>term papers</em> until December.</li></ol>
+<hr>
+<h3 id="book-report">book report<a class="hash" href="#book-report" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/ˈbʊk rɪˌpɔːrt/ &middot; <em>BUUK-rih-port</em></dd><dt>Русский</dt><dd>письменный отзыв о книге</dd><dt>Plural</dt><dd><em>book reports</em></dd><dt>Countability</dt><dd>countable</dd></dl>
+<p>A short school paper describing a book a student has read.</p>
+<ol><li>We had to write a <em>book report</em> over the break.</li><li>His <em>book report</em> was two pages long.</li><li>The class turned in <em>book reports</em> on Monday.</li></ol>
+<hr>
+<h3 id="dissertation">dissertation<a class="hash" href="#dissertation" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/ˌdɪsərˈteɪʃən/ &middot; <em>dis-ur-TAY-shuhn</em></dd><dt>Русский</dt><dd>диссертация</dd><dt>Plural</dt><dd><em>dissertations</em></dd><dt>Countability</dt><dd>countable</dd></dl>
+<p>A long piece of original research written for a doctoral degree.</p>
+<ol><li>She's writing her <em>dissertation</em> on migrant workers.</li><li>His <em>dissertation</em> took six years.</li><li>The library keeps copies of old <em>dissertations</em>.</li></ol>
+<hr>
+<h3 id="answer">answer<a class="hash" href="#answer" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/ˈænsər/ &middot; <em>AN-sur</em></dd><dt>Русский</dt><dd>ответ</dd><dt>Plural</dt><dd><em>answers</em></dd><dt>Countability</dt><dd>countable</dd><dt>Contrast</dt><dd>The w is silent: AN-sur.</dd></dl>
+<p>What you say or write in reply to a question.</p>
+<ol><li>Write your <em>answer</em> in the blank.</li><li>I knew the <em>answer</em> but forgot it during the test.</li><li>The <em>answers</em> are in the back of the book.</li></ol>
+<hr>
+<h3 id="question">question<a class="hash" href="#question" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/ˈkwɛstʃən/ &middot; <em>KWES-chuhn</em></dd><dt>Русский</dt><dd>вопрос</dd><dt>Plural</dt><dd><em>questions</em></dd><dt>Countability</dt><dd>countable</dd></dl>
+<p>A sentence that asks for information or an answer.</p>
+<ol><li>Does anyone have a <em>question</em>?</li><li>I got the last <em>question</em> wrong.</li><li>The test had fifty multiple-choice <em>questions</em>.</li></ol>
+<hr>
+<h3 id="rubric">rubric<a class="hash" href="#rubric" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/ˈruːbrɪk/ &middot; <em>ROO-brik</em></dd><dt>Русский</dt><dd>критерии оценивания</dd><dt>Plural</dt><dd><em>rubrics</em></dd><dt>Countability</dt><dd>countable</dd></dl>
+<p>A chart showing exactly how an assignment will be graded.</p>
+<ol><li>The <em>rubric</em> is posted on the class website.</li><li>Read the <em>rubric</em> before you start writing.</li><li>She grades every paper against the same <em>rubric</em>.</li></ol>
+<hr>
+<h3 id="outline">outline<a class="hash" href="#outline" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/ˈaʊtlaɪn/ &middot; <em>OWT-lyn</em></dd><dt>Русский</dt><dd>план (текста), развёрнутый план</dd><dt>Plural</dt><dd><em>outlines</em></dd><dt>Countability</dt><dd>countable</dd></dl>
+<p>A short plan listing the main points of a paper or talk in order.</p>
+<ol><li>Turn in an <em>outline</em> before you write the paper.</li><li>Her <em>outline</em> was longer than my rough draft.</li><li>We compared <em>outlines</em> in study group.</li></ol>
+<hr>
+<h3 id="attendance">attendance<a class="hash" href="#attendance" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/əˈtɛndəns/ &middot; <em>uh-TEN-duhnss</em></dd><dt>Русский</dt><dd>посещаемость</dd><dt>Countability</dt><dd>uncountable</dd></dl>
+<p>The fact of being present at school or class, or the number of people present.</p>
+<ol><li><em>Attendance</em> counts for ten percent of the grade.</li><li>The teacher takes <em>attendance</em> at the start of homeroom.</li><li>His <em>attendance</em> has been perfect all year.</li></ol>
+<hr>
+<h3 id="absence">absence<a class="hash" href="#absence" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/ˈæbsəns/ &middot; <em>AB-suhnss</em></dd><dt>Русский</dt><dd>отсутствие, пропуск занятия</dd><dt>Plural</dt><dd><em>absences</em></dd><dt>Countability</dt><dd>countable</dd></dl>
+<p>An occasion when someone is not at school or work.</p>
+<ol><li>You need a note to excuse an <em>absence</em>.</li><li>Three unexcused <em>absences</em> mean a phone call home.</li><li>Her long <em>absence</em> put her behind in every class.</li></ol>
+<hr>
+<h3 id="diploma">diploma<a class="hash" href="#diploma" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/dɪˈploʊmə/ &middot; <em>dih-PLOH-muh</em></dd><dt>Русский</dt><dd>аттестат, диплом</dd><dt>Plural</dt><dd><em>diplomas</em></dd><dt>Countability</dt><dd>countable</dd></dl>
+<p>An official document showing that someone has finished a course of study.</p>
+<ol><li>He framed his high school <em>diploma</em>.</li><li>You need a <em>diploma</em> to apply for most jobs.</li><li>The <em>diplomas</em> were handed out one by one.</li></ol>
+<hr>
+<h3 id="certificate">certificate<a class="hash" href="#certificate" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/sərˈtɪfɪkət/ &middot; <em>sur-TIF-ih-kuht</em></dd><dt>Русский</dt><dd>сертификат, свидетельство</dd><dt>Plural</dt><dd><em>certificates</em></dd><dt>Countability</dt><dd>countable</dd></dl>
+<p>An official paper stating that someone has completed training or met a standard.</p>
+<ol><li>She earned a <em>certificate</em> in medical billing.</li><li>The program gives you a <em>certificate</em>, not a degree.</li><li>He hung both <em>certificates</em> behind his desk.</li></ol>
+<hr>
+<h3 id="bachelors-degree">bachelor's degree<a class="hash" href="#bachelors-degree" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/ˈbætʃələrz dɪˌɡriː/ &middot; <em>BATCH-uh-lurz-dih-gree</em></dd><dt>Русский</dt><dd>степень бакалавра</dd><dt>Plural</dt><dd><em>bachelor's degrees</em></dd><dt>Countability</dt><dd>countable</dd></dl>
+<p>The first degree earned at a college, usually after four years.</p>
+<ol><li>The job requires a <em>bachelor's degree</em>.</li><li>She finished her <em>bachelor's degree</em> at night.</li><li>Both of their <em>bachelor's degrees</em> are in nursing.</li></ol>
+<hr>
+<h3 id="masters-degree">master's degree<a class="hash" href="#masters-degree" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/ˈmæstərz dɪˌɡriː/ &middot; <em>MASS-turz-dih-gree</em></dd><dt>Русский</dt><dd>степень магистра</dd><dt>Plural</dt><dd><em>master's degrees</em></dd><dt>Countability</dt><dd>countable</dd></dl>
+<p>A degree earned after a bachelor's degree, usually in one or two years.</p>
+<ol><li>He's working on a <em>master's degree</em> in education.</li><li>A <em>master's degree</em> means a pay raise in this district.</li><li>She has two <em>master's degrees</em>.</li></ol>
+<hr>
+<h3 id="doctorate">doctorate<a class="hash" href="#doctorate" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/ˈdɑːktərət/ &middot; <em>DAHK-tur-uht</em></dd><dt>Русский</dt><dd>докторская степень, степень PhD</dd><dt>Plural</dt><dd><em>doctorates</em></dd><dt>Countability</dt><dd>countable</dd></dl>
+<p>The highest university degree, earned by doing original research.</p>
+<ol><li>She earned her <em>doctorate</em> in linguistics.</li><li>A <em>doctorate</em> usually takes five or six years.</li><li>The department awarded four <em>doctorates</em> this spring.</li></ol>
+<hr>
+<h3 id="major">major<a class="hash" href="#major" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/ˈmeɪdʒər/ &middot; <em>MAY-jur</em></dd><dt>Русский</dt><dd>основная специальность (в вузе)</dd><dt>Plural</dt><dd><em>majors</em></dd><dt>Countability</dt><dd>countable</dd></dl>
+<p>The main subject a college student studies for a degree.</p>
+<ol><li>What's your <em>major</em>?</li><li>She changed her <em>major</em> twice.</li><li>Engineering and nursing are the most popular <em>majors</em> here.</li></ol>
+<hr>
+<h3 id="minor">minor<a class="hash" href="#minor" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/ˈmaɪnər/ &middot; <em>MY-nur</em></dd><dt>Русский</dt><dd>дополнительная специальность</dd><dt>Plural</dt><dd><em>minors</em></dd><dt>Countability</dt><dd>countable</dd><dt>Contrast</dt><dd>Sounds exactly like miner, someone who digs in a mine.</dd></dl>
+<p>A second, smaller field of study alongside a college major.</p>
+<ol><li>He's got a <em>minor</em> in Spanish.</li><li>A <em>minor</em> takes about six classes.</li><li>The college offers over forty <em>minors</em>.</li></ol>
+<hr>
+<h3 id="honors">honors<a class="hash" href="#honors" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/ˈɑːnərz/ &middot; <em>AH-nurz</em></dd><dt>Русский</dt><dd>отличие (учёба с отличием); углублённый курс</dd><dt>Countability</dt><dd>uncountable</dd><dt>Contrast</dt><dd>The h is silent: AH-nurz. The British spell it honours.</dd></dl>
+<p>Special recognition for excellent grades, or the advanced version of a class.</p>
+<ol><li>She graduated with <em>honors</em>.</li><li>He's in <em>honors</em> English this year.</li><li>The department awards <em>honors</em> to the top ten percent.</li></ol>
+<hr>
+<h3 id="scholarship">scholarship<a class="hash" href="#scholarship" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/ˈskɑːlərʃɪp/ &middot; <em>SKAH-lur-ship</em></dd><dt>Русский</dt><dd>стипендия (грант на обучение)</dd><dt>Plural</dt><dd><em>scholarships</em></dd><dt>Countability</dt><dd>countable</dd></dl>
+<p>Money given to a student to pay for school, usually for good grades or need.</p>
+<ol><li>He got a full <em>scholarship</em> to play baseball.</li><li>She's applying for every <em>scholarship</em> she can find.</li><li>The <em>scholarship</em> covers tuition but not housing.</li></ol>
+<hr>
+<h3 id="fellowship">fellowship<a class="hash" href="#fellowship" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/ˈfɛloʊʃɪp/ &middot; <em>FEL-oh-ship</em></dd><dt>Русский</dt><dd>аспирантская стипендия, грант</dd><dt>Plural</dt><dd><em>fellowships</em></dd><dt>Countability</dt><dd>countable</dd></dl>
+<p>Money awarded to a graduate student or researcher to support their work.</p>
+<ol><li>The <em>fellowship</em> pays for two years of research.</li><li>She won a teaching <em>fellowship</em>.</li><li>Only three <em>fellowships</em> are awarded each year.</li></ol>
+<hr>
+<h3 id="tuition">tuition<a class="hash" href="#tuition" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/tuˈɪʃən/ &middot; <em>too-ISH-uhn</em></dd><dt>Русский</dt><dd>плата за обучение</dd><dt>Countability</dt><dd>uncountable</dd><dt>Contrast</dt><dd>In the US <em>tuition</em> means the fees you pay; in Britain it means the teaching itself.</dd></dl>
+<p>The money paid to a school or college for teaching.</p>
+<ol><li><em>Tuition</em> went up again this year.</li><li>His parents pay half his <em>tuition</em>.</li><li>Out-of-state <em>tuition</em> is nearly double.</li></ol>
+<hr>
+<h3 id="admission">admission<a class="hash" href="#admission" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/ədˈmɪʃən/ &middot; <em>ud-MISH-uhn</em></dd><dt>Русский</dt><dd>приём, поступление</dd><dt>Countability</dt><dd>uncountable</dd></dl>
+<p>The right to enter a school or college as a student.</p>
+<ol><li>She was offered <em>admission</em> to her first-choice school.</li><li><em>Admission</em> to the program is competitive.</li><li>He's waiting to hear about <em>admission</em>.</li></ol>
+<hr>
+<h3 id="enrollment">enrollment<a class="hash" href="#enrollment" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/ɪnˈroʊlmənt/ &middot; <em>in-ROHL-muhnt</em></dd><dt>Русский</dt><dd>зачисление, набор учащихся</dd><dt>Countability</dt><dd>uncountable</dd><dt>Contrast</dt><dd>Americans double the l: <em>enrollment</em>; the British write enrolment.</dd></dl>
+<p>The act of signing up for school, or the number of students signed up.</p>
+<ol><li><em>Enrollment</em> is down at the community college.</li><li><em>Enrollment</em> for fall classes opens Monday.</li><li>The school has an <em>enrollment</em> of about nine hundred.</li></ol>
+<hr>
+<h3 id="graduation">graduation<a class="hash" href="#graduation" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/ˌɡrædʒuˈeɪʃən/ &middot; <em>graj-oo-AY-shuhn</em></dd><dt>Русский</dt><dd>выпуск, окончание учёбы</dd><dt>Plural</dt><dd><em>graduations</em></dd><dt>Countability</dt><dd>countable</dd></dl>
+<p>The ceremony where students receive their degrees or diplomas.</p>
+<ol><li>My whole family came to <em>graduation</em>.</li><li><em>Graduation</em> is the second Saturday in June.</li><li>She's been to three <em>graduations</em> this month.</li></ol>
+<hr>
+<h3 id="commencement">commencement<a class="hash" href="#commencement" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/kəˈmɛnsmənt/ &middot; <em>kuh-MENSS-muhnt</em></dd><dt>Русский</dt><dd>выпускная церемония</dd><dt>Plural</dt><dd><em>commencements</em></dd><dt>Countability</dt><dd>countable</dd><dt>Contrast</dt><dd>In American schools <em>commencement</em> means graduation, even though the word literally means a beginning.</dd></dl>
+<p>The formal graduation ceremony at an American school or college.</p>
+<ol><li>The governor gave the <em>commencement</em> speech.</li><li><em>Commencement</em> is held on the football field.</li><li>Rain moved both <em>commencements</em> indoors.</li></ol>
+<hr>
+<h3 id="prerequisite">prerequisite<a class="hash" href="#prerequisite" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/ˌpriːˈrɛkwəzɪt/ &middot; <em>pree-REK-wuh-zit</em></dd><dt>Русский</dt><dd>обязательный предварительный курс</dd><dt>Plural</dt><dd><em>prerequisites</em></dd><dt>Countability</dt><dd>countable</dd></dl>
+<p>A class you must finish before you are allowed to take another one.</p>
+<ol><li>Algebra is a <em>prerequisite</em> for chemistry.</li><li>She hasn't met the <em>prerequisite</em> yet.</li><li>I spent my first year knocking out <em>prerequisites</em>.</li></ol>
+<hr>
+<h3 id="elective">elective<a class="hash" href="#elective" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/ɪˈlɛktɪv/ &middot; <em>ih-LEK-tiv</em></dd><dt>Русский</dt><dd>предмет по выбору, факультатив</dd><dt>Plural</dt><dd><em>electives</em></dd><dt>Countability</dt><dd>countable</dd></dl>
+<p>A class a student chooses rather than one that is required.</p>
+<ol><li>I took photography as an <em>elective</em>.</li><li>You need three <em>electives</em> to graduate.</li><li>The <em>elective</em> filled up in an hour.</li></ol>
+<hr>
+<h3 id="student-loan">student loan<a class="hash" href="#student-loan" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/ˈstuːdənt loʊn/ &middot; <em>STOO-duhnt-lohn</em></dd><dt>Русский</dt><dd>студенческий кредит на обучение</dd><dt>Plural</dt><dd><em>student loans</em></dd><dt>Countability</dt><dd>countable</dd></dl>
+<p>Money borrowed to pay for college that must be paid back later.</p>
+<ol><li>She's still paying off her <em>student loans</em>.</li><li>He took out a <em>student loan</em> for his last two years.</li><li>Congress voted to lower the interest on <em>student loans</em>.</li></ol>
+<hr>
+<h3 id="assembly">assembly<a class="hash" href="#assembly" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/əˈsɛmbli/ &middot; <em>uh-SEM-blee</em></dd><dt>Русский</dt><dd>школьное собрание, линейка</dd><dt>Plural</dt><dd><em>assemblies</em></dd><dt>Countability</dt><dd>countable</dd></dl>
+<p>A meeting of the whole school in one room.</p>
+<ol><li>There's an <em>assembly</em> in the gym this afternoon.</li><li>The principal announced it at <em>assembly</em>.</li><li>We only have two or three <em>assemblies</em> a year.</li></ol>
+<hr>
+<h3 id="detention">detention<a class="hash" href="#detention" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/dɪˈtɛnʃən/ &middot; <em>dih-TEN-shuhn</em></dd><dt>Русский</dt><dd>оставление после уроков (наказание)</dd><dt>Plural</dt><dd><em>detentions</em></dd><dt>Countability</dt><dd>countable</dd></dl>
+<p>A punishment where a student must stay at school after class.</p>
+<ol><li>He got <em>detention</em> for talking back.</li><li><em>Detention</em> is in room 204 until four o'clock.</li><li>Three <em>detentions</em> mean a call to your parents.</li></ol>
+<hr>
+<h3 id="suspension">suspension<a class="hash" href="#suspension" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/səˈspɛnʃən/ &middot; <em>suh-SPEN-shuhn</em></dd><dt>Русский</dt><dd>временное отстранение от занятий</dd><dt>Plural</dt><dd><em>suspensions</em></dd><dt>Countability</dt><dd>countable</dd></dl>
+<p>A punishment in which a student is banned from school for a short time.</p>
+<ol><li>The fight earned him a three-day <em>suspension</em>.</li><li>She's appealing the <em>suspension</em>.</li><li><em>Suspensions</em> have dropped since the new policy.</li></ol>
+<hr>
+<h3 id="bell">bell<a class="hash" href="#bell" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/bɛl/ &middot; <em>BEL</em></dd><dt>Русский</dt><dd>звонок</dd><dt>Plural</dt><dd><em>bells</em></dd><dt>Countability</dt><dd>countable</dd></dl>
+<p>The sound that marks the beginning and end of a class period.</p>
+<ol><li>The <em>bell</em> rang before I finished the last question.</li><li>Stay seated until the <em>bell</em>.</li><li>The <em>bells</em> are two minutes fast.</li></ol>
+<hr>
+<h3 id="field-trip">field trip<a class="hash" href="#field-trip" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/ˈfiːld trɪp/ &middot; <em>FEELD-trip</em></dd><dt>Русский</dt><dd>учебная экскурсия</dd><dt>Plural</dt><dd><em>field trips</em></dd><dt>Countability</dt><dd>countable</dd></dl>
+<p>A school outing where students visit a place to learn about it.</p>
+<ol><li>We're going on a <em>field trip</em> to the aquarium.</li><li>Your parents have to sign a permission slip for the <em>field trip</em>.</li><li>The class takes two <em>field trips</em> a year.</li></ol>
+<hr>
+<h3 id="study-hall">study hall<a class="hash" href="#study-hall" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/ˈstʌdi hɔːl/ &middot; <em>STUD-ee-hawl</em></dd><dt>Русский</dt><dd>час самоподготовки (в школе)</dd><dt>Plural</dt><dd><em>study halls</em></dd><dt>Countability</dt><dd>countable</dd></dl>
+<p>A period during the school day set aside for quiet studying.</p>
+<ol><li>I do my homework in <em>study hall</em>.</li><li>He has <em>study hall</em> sixth period.</li><li>The library is used for <em>study halls</em> in the morning.</li></ol>
+<hr>
+<h3 id="spring-break">spring break<a class="hash" href="#spring-break" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/ˈsprɪŋ breɪk/ &middot; <em>SPRING-brayk</em></dd><dt>Русский</dt><dd>весенние каникулы</dd><dt>Plural</dt><dd><em>spring breaks</em></dd><dt>Countability</dt><dd>countable</dd></dl>
+<p>The week off from school in the spring.</p>
+<ol><li>We drove to Florida over <em>spring break</em>.</li><li><em>Spring break</em> is the third week of March.</li><li>They booked a beach house for <em>spring break</em>.</li></ol>
+<hr>
+<h3 id="summer-school">summer school<a class="hash" href="#summer-school" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/ˈsʌmər skuːl/ &middot; <em>SUM-ur-skool</em></dd><dt>Русский</dt><dd>летняя школа, летние занятия</dd><dt>Plural</dt><dd><em>summer schools</em></dd><dt>Countability</dt><dd>countable</dd></dl>
+<p>Classes held during the summer, often to make up a failed course.</p>
+<ol><li>He has to go to <em>summer school</em> for geometry.</li><li><em>Summer school</em> runs from June to early August.</li><li>The district cut two of its <em>summer schools</em>.</li></ol>
+<hr>
+<h3 id="prom">prom<a class="hash" href="#prom" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/prɑːm/ &middot; <em>PRAHM</em></dd><dt>Русский</dt><dd>выпускной бал</dd><dt>Plural</dt><dd><em>proms</em></dd><dt>Countability</dt><dd>countable</dd></dl>
+<p>A formal dance for high school students, usually in the spring.</p>
+<ol><li>He asked her to <em>prom</em> in the cafeteria.</li><li><em>Prom</em> is at a hotel downtown this year.</li><li>She went to three <em>proms</em> in high school.</li></ol>
+<hr>
+<h3 id="yearbook">yearbook<a class="hash" href="#yearbook" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/ˈjɪrbʊk/ &middot; <em>YEER-buuk</em></dd><dt>Русский</dt><dd>выпускной альбом, ежегодник</dd><dt>Plural</dt><dd><em>yearbooks</em></dd><dt>Countability</dt><dd>countable</dd></dl>
+<p>A book published each year with photos of the students and school events.</p>
+<ol><li>Everyone signed my <em>yearbook</em> on the last day.</li><li>My <em>yearbook</em> photo is awful.</li><li>She kept all four of her high school <em>yearbooks</em>.</li></ol>
+<hr>
+<h3 id="club">club<a class="hash" href="#club" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/klʌb/ &middot; <em>KLUB</em></dd><dt>Русский</dt><dd>кружок, клуб</dd><dt>Plural</dt><dd><em>clubs</em></dd><dt>Countability</dt><dd>countable</dd></dl>
+<p>A group of students who meet regularly to share an interest.</p>
+<ol><li>She joined the chess <em>club</em>.</li><li>The Spanish <em>club</em> meets on Tuesdays.</li><li>Colleges like to see that you joined <em>clubs</em>.</li></ol>
+<hr>
+<h3 id="discipline">discipline<a class="hash" href="#discipline" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/ˈdɪsəplɪn/ &middot; <em>DIS-uh-plin</em></dd><dt>Русский</dt><dd>дисциплина, порядок</dd><dt>Countability</dt><dd>uncountable</dd></dl>
+<p>Control over behavior, kept by rules and punishment.</p>
+<ol><li>The new principal is stricter about <em>discipline</em>.</li><li>There's no <em>discipline</em> in that classroom.</li><li><em>Discipline</em> problems dropped after the rule changed.</li></ol>
+<hr>
+<h3 id="lesson">lesson<a class="hash" href="#lesson" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/ˈlɛsən/ &middot; <em>LES-uhn</em></dd><dt>Русский</dt><dd>урок</dd><dt>Plural</dt><dd><em>lessons</em></dd><dt>Countability</dt><dd>countable</dd><dt>Contrast</dt><dd>Sounds exactly like lessen, the verb meaning to reduce.</dd></dl>
+<p>A period of teaching on one topic.</p>
+<ol><li>Today's <em>lesson</em> is about fractions.</li><li>She takes piano <em>lessons</em> on Saturdays.</li><li>The <em>lesson</em> ran ten minutes long.</li></ol>
+<hr>
+<h3 id="topic">topic<a class="hash" href="#topic" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/ˈtɑːpɪk/ &middot; <em>TAH-pik</em></dd><dt>Русский</dt><dd>тема</dd><dt>Plural</dt><dd><em>topics</em></dd><dt>Countability</dt><dd>countable</dd></dl>
+<p>The subject that something is written or spoken about.</p>
+<ol><li>Pick a <em>topic</em> for your research paper.</li><li>That <em>topic</em> comes up again in chapter nine.</li><li>We covered three <em>topics</em> in one class.</li></ol>
+<hr>
+<h3 id="chapter">chapter<a class="hash" href="#chapter" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/ˈtʃæptər/ &middot; <em>CHAP-tur</em></dd><dt>Русский</dt><dd>глава</dd><dt>Plural</dt><dd><em>chapters</em></dd><dt>Countability</dt><dd>countable</dd></dl>
+<p>One of the numbered parts a book is divided into.</p>
+<ol><li>Read <em>chapter</em> six for Thursday.</li><li>The test covers the first four <em>chapters</em>.</li><li>Each <em>chapter</em> ends with review questions.</li></ol>
+<hr>
+<h3 id="textbook">textbook<a class="hash" href="#textbook" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/ˈtɛkstbʊk/ &middot; <em>TEKST-buuk</em></dd><dt>Русский</dt><dd>учебник</dd><dt>Plural</dt><dd><em>textbooks</em></dd><dt>Countability</dt><dd>countable</dd></dl>
+<p>A book used for studying a subject in class.</p>
+<ol><li>The biology <em>textbook</em> weighs a ton.</li><li>I bought my <em>textbooks</em> used.</li><li>The <em>textbook</em> is online this year.</li></ol>
+<hr>
+<h3 id="workbook">workbook<a class="hash" href="#workbook" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/ˈwɜːrkbʊk/ &middot; <em>WURK-buuk</em></dd><dt>Русский</dt><dd>рабочая тетрадь</dd><dt>Plural</dt><dd><em>workbooks</em></dd><dt>Countability</dt><dd>countable</dd></dl>
+<p>A book of exercises that students write their answers in.</p>
+<ol><li>Do page twelve in your <em>workbook</em>.</li><li>She finished the whole <em>workbook</em> by March.</li><li>The <em>workbooks</em> come with the textbook.</li></ol>
+<hr>
+<h3 id="worksheet">worksheet<a class="hash" href="#worksheet" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/ˈwɜːrkʃiːt/ &middot; <em>WURK-sheet</em></dd><dt>Русский</dt><dd>рабочий лист с заданиями</dd><dt>Plural</dt><dd><em>worksheets</em></dd><dt>Countability</dt><dd>countable</dd></dl>
+<p>A printed page of problems or questions for students to fill in.</p>
+<ol><li>Pass the <em>worksheet</em> back when you're done.</li><li>He lost the <em>worksheet</em> on the bus.</li><li>She copied thirty <em>worksheets</em> before class.</li></ol>
+<hr>
+<h3 id="handout">handout<a class="hash" href="#handout" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/ˈhændaʊt/ &middot; <em>HAND-owt</em></dd><dt>Русский</dt><dd>раздаточный материал</dd><dt>Plural</dt><dd><em>handouts</em></dd><dt>Countability</dt><dd>countable</dd></dl>
+<p>A printed sheet given to everyone in a class or meeting.</p>
+<ol><li>The <em>handout</em> has the formulas on it.</li><li>Grab a <em>handout</em> on your way in.</li><li>All the <em>handouts</em> are posted online too.</li></ol>
+<hr>
+<h3 id="flashcard">flashcard<a class="hash" href="#flashcard" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/ˈflæʃkɑːrd/ &middot; <em>FLASH-kard</em></dd><dt>Русский</dt><dd>карточка для заучивания</dd><dt>Plural</dt><dd><em>flashcards</em></dd><dt>Countability</dt><dd>countable</dd></dl>
+<p>A small card with a question on one side and the answer on the other.</p>
+<ol><li>I made <em>flashcards</em> for the vocabulary test.</li><li>She quizzed him with <em>flashcards</em> in the car.</li><li>One <em>flashcard</em> fell behind the couch.</li></ol>
+<hr>
+<h3 id="pencil-case">pencil case<a class="hash" href="#pencil-case" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/ˈpɛnsəl keɪs/ &middot; <em>PEN-suhl-kayss</em></dd><dt>Русский</dt><dd>пенал</dd><dt>Plural</dt><dd><em>pencil cases</em></dd><dt>Countability</dt><dd>countable</dd></dl>
+<p>A small zippered bag or box for holding pens and pencils.</p>
+<ol><li>Her <em>pencil case</em> is stuffed with markers.</li><li>He dumped out his <em>pencil case</em> looking for an eraser.</li><li>The store had <em>pencil cases</em> on sale.</li></ol>
+<hr>
+<h3 id="pencil-sharpener">pencil sharpener<a class="hash" href="#pencil-sharpener" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/ˈpɛnsəl ˌʃɑːrpənər/ &middot; <em>PEN-suhl-shar-puh-nur</em></dd><dt>Русский</dt><dd>точилка</dd><dt>Plural</dt><dd><em>pencil sharpeners</em></dd><dt>Countability</dt><dd>countable</dd></dl>
+<p>A device that cuts a point on the end of a pencil.</p>
+<ol><li>The <em>pencil sharpener</em> is by the door.</li><li>He broke the <em>pencil sharpener</em> on the first day.</li><li>Every classroom has two <em>pencil sharpeners</em>.</li></ol>
+<hr>
+<h3 id="calculator">calculator<a class="hash" href="#calculator" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/ˈkælkjəleɪtər/ &middot; <em>KAL-kyuh-lay-tur</em></dd><dt>Русский</dt><dd>калькулятор</dd><dt>Plural</dt><dd><em>calculators</em></dd><dt>Countability</dt><dd>countable</dd></dl>
+<p>A small machine that does arithmetic.</p>
+<ol><li>No <em>calculators</em> on this part of the test.</li><li>My graphing <em>calculator</em> cost a hundred dollars.</li><li>He left his <em>calculator</em> in his locker.</li></ol>
+<hr>
+<h3 id="dictionary">dictionary<a class="hash" href="#dictionary" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/ˈdɪkʃənɛri/ &middot; <em>DIK-shuh-ner-ee</em></dd><dt>Русский</dt><dd>словарь</dd><dt>Plural</dt><dd><em>dictionaries</em></dd><dt>Countability</dt><dd>countable</dd></dl>
+<p>A book or app listing words with their meanings.</p>
+<ol><li>Look it up in the <em>dictionary</em>.</li><li>There's a beat-up <em>dictionary</em> on every desk.</li><li>The library keeps <em>dictionaries</em> in six languages.</li></ol>
+<hr>
+<h3 id="encyclopedia">encyclopedia<a class="hash" href="#encyclopedia" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/ɪnˌsaɪkləˈpiːdiə/ &middot; <em>in-sy-kluh-PEE-dee-uh</em></dd><dt>Русский</dt><dd>энциклопедия</dd><dt>Plural</dt><dd><em>encyclopedias</em></dd><dt>Countability</dt><dd>countable</dd></dl>
+<p>A book or website with articles on many subjects, arranged alphabetically.</p>
+<ol><li>We used an <em>encyclopedia</em> for our reports back then.</li><li>Teachers don't accept an online <em>encyclopedia</em> as a source.</li><li>Old <em>encyclopedias</em> still line the back shelf.</li></ol>
+<hr>
+<h3 id="atlas">atlas<a class="hash" href="#atlas" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/ˈætləs/ &middot; <em>AT-luhss</em></dd><dt>Русский</dt><dd>атлас (сборник карт)</dd><dt>Plural</dt><dd><em>atlases</em></dd><dt>Countability</dt><dd>countable</dd></dl>
+<p>A book of maps.</p>
+<ol><li>Find Peru in the <em>atlas</em>.</li><li>The <em>atlas</em> is older than I am.</li><li>Two <em>atlases</em> were missing from the shelf.</li></ol>
+<hr>
+<h3 id="map">map<a class="hash" href="#map" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/mæp/ &middot; <em>MAP</em></dd><dt>Русский</dt><dd>карта</dd><dt>Plural</dt><dd><em>maps</em></dd><dt>Countability</dt><dd>countable</dd></dl>
+<p>A drawing of an area showing where places are.</p>
+<ol><li>There's a <em>map</em> of the country on the wall.</li><li>We had to label the rivers on a blank <em>map</em>.</li><li>Old <em>maps</em> still hang in the geography room.</li></ol>
+<hr>
+<h3 id="lunchbox">lunchbox<a class="hash" href="#lunchbox" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/ˈlʌntʃbɑːks/ &middot; <em>LUNCH-bahks</em></dd><dt>Русский</dt><dd>коробка для еды, ланчбокс</dd><dt>Plural</dt><dd><em>lunchboxes</em></dd><dt>Countability</dt><dd>countable</dd></dl>
+<p>A small container a child carries food to school in.</p>
+<ol><li>He forgot his <em>lunchbox</em> on the counter.</li><li>There's an apple at the bottom of her <em>lunchbox</em>.</li><li>The <em>lunchboxes</em> go on the shelf by the door.</li></ol>
+<hr>
+<h3 id="whistle">whistle<a class="hash" href="#whistle" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/ˈwɪsəl/ &middot; <em>WISS-uhl</em></dd><dt>Русский</dt><dd>свисток</dd><dt>Plural</dt><dd><em>whistles</em></dd><dt>Countability</dt><dd>countable</dd><dt>Contrast</dt><dd>The t is silent: WISS-uhl.</dd></dl>
+<p>A small device blown to make a loud sound, used to get attention.</p>
+<ol><li>The gym teacher blew his <em>whistle</em>.</li><li>She wears a <em>whistle</em> around her neck at recess.</li><li>You could hear the <em>whistles</em> from the field.</li></ol>
+<hr>
+<h3 id="microscope">microscope<a class="hash" href="#microscope" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/ˈmaɪkrəskoʊp/ &middot; <em>MY-kruh-skohp</em></dd><dt>Русский</dt><dd>микроскоп</dd><dt>Plural</dt><dd><em>microscopes</em></dd><dt>Countability</dt><dd>countable</dd></dl>
+<p>An instrument that makes very small things look much larger.</p>
+<ol><li>Look at the cells under the <em>microscope</em>.</li><li>He adjusted the <em>microscope</em> until the slide came into focus.</li><li>The lab has twelve <em>microscopes</em>.</li></ol>
+<hr>
+<h3 id="test-tube">test tube<a class="hash" href="#test-tube" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/ˈtɛst tuːb/ &middot; <em>TEST-toob</em></dd><dt>Русский</dt><dd>пробирка</dd><dt>Plural</dt><dd><em>test tubes</em></dd><dt>Countability</dt><dd>countable</dd></dl>
+<p>A thin glass tube used to hold liquids in a science lab.</p>
+<ol><li>Pour the solution into the <em>test tube</em>.</li><li>He dropped a <em>test tube</em> and had to sweep up the glass.</li><li>Each pair got three <em>test tubes</em> and a rack.</li></ol>
+<hr>
+<h3 id="note">note<a class="hash" href="#note" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/noʊt/ &middot; <em>NOHT</em></dd><dt>Русский</dt><dd>запись, заметка (конспект)</dd><dt>Plural</dt><dd><em>notes</em></dd><dt>Countability</dt><dd>countable</dd></dl>
+<p>Something written down so it can be remembered later.</p>
+<ol><li>I took <em>notes</em> during the whole lecture.</li><li>Can I borrow your <em>notes</em> from Tuesday?</li><li>She scribbled a <em>note</em> in the margin.</li></ol>
+<hr>
+<h3 id="education">education<a class="hash" href="#education" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/ˌɛdʒəˈkeɪʃən/ &middot; <em>ej-uh-KAY-shuhn</em></dd><dt>Русский</dt><dd>образование</dd><dt>Countability</dt><dd>uncountable</dd></dl>
+<p>The process of teaching and learning, especially in schools.</p>
+<ol><li>She wants a better <em>education</em> for her kids.</li><li>He never finished his <em>education</em>.</li><li><em>Education</em> takes up a third of the state budget.</li></ol>
+<hr>
+<h3 id="learning">learning<a class="hash" href="#learning" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/ˈlɜːrnɪŋ/ &middot; <em>LUR-ning</em></dd><dt>Русский</dt><dd>обучение, усвоение знаний</dd><dt>Countability</dt><dd>uncountable</dd></dl>
+<p>The process of gaining knowledge or skill.</p>
+<ol><li><em>Learning</em> a language takes years.</li><li>The noise makes <em>learning</em> almost impossible.</li><li>Kids do a lot of their <em>learning</em> through play.</li></ol>
+<hr>
+<h3 id="lecture">lecture<a class="hash" href="#lecture" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/ˈlɛktʃər/ &middot; <em>LEK-chur</em></dd><dt>Русский</dt><dd>лекция</dd><dt>Plural</dt><dd><em>lectures</em></dd><dt>Countability</dt><dd>countable</dd></dl>
+<p>A long talk given to teach a group of students.</p>
+<ol><li>The <em>lecture</em> lasted fifty minutes.</li><li>I fell asleep during the <em>lecture</em>.</li><li>His <em>lectures</em> are posted as videos.</li></ol>
+<hr>
+<h3 id="seminar">seminar<a class="hash" href="#seminar" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/ˈsɛmənɑːr/ &middot; <em>SEM-uh-nar</em></dd><dt>Русский</dt><dd>семинар</dd><dt>Plural</dt><dd><em>seminars</em></dd><dt>Countability</dt><dd>countable</dd></dl>
+<p>A small class where students discuss a subject with a teacher.</p>
+<ol><li>The <em>seminar</em> has only twelve students.</li><li>Everyone has to present once in the <em>seminar</em>.</li><li>She teaches two graduate <em>seminars</em>.</li></ol>
+<hr>
+<h3 id="coursework">coursework<a class="hash" href="#coursework" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/ˈkɔːrswɜːrk/ &middot; <em>KORSS-wurk</em></dd><dt>Русский</dt><dd>учебные задания по курсу</dd><dt>Countability</dt><dd>uncountable</dd><dt>Contrast</dt><dd>Uncountable: say a lot of <em>coursework</em> or three assignments, never three courseworks.</dd></dl>
+<p>The work students do for a class during the term, apart from exams.</p>
+<ol><li>Half the grade comes from <em>coursework</em>.</li><li>He finished his <em>coursework</em> but not his thesis.</li><li>The <em>coursework</em> is heavier than I expected.</li></ol>
+<hr>
+<h3 id="discussion">discussion<a class="hash" href="#discussion" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/dɪˈskʌʃən/ &middot; <em>dih-SKUSH-uhn</em></dd><dt>Русский</dt><dd>обсуждение, дискуссия</dd><dt>Plural</dt><dd><em>discussions</em></dd><dt>Countability</dt><dd>countable</dd></dl>
+<p>A talk in which people share ideas about a subject.</p>
+<ol><li>The <em>discussion</em> got heated near the end.</li><li>Class <em>discussion</em> counts toward your grade.</li><li>We had long <em>discussions</em> about the ending of the book.</li></ol>
+<hr>
+<h3 id="debate">debate<a class="hash" href="#debate" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/dɪˈbeɪt/ &middot; <em>dih-BAYT</em></dd><dt>Русский</dt><dd>дебаты, спор</dd><dt>Plural</dt><dd><em>debates</em></dd><dt>Countability</dt><dd>countable</dd></dl>
+<p>A formal argument in which two sides give opposing views.</p>
+<ol><li>She joined the <em>debate</em> team her sophomore year.</li><li>The <em>debate</em> was about school uniforms.</li><li>They won three <em>debates</em> in a row.</li></ol>
+<hr>
+<h3 id="experiment">experiment<a class="hash" href="#experiment" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/ɪkˈspɛrəmənt/ &middot; <em>ik-SPER-uh-muhnt</em></dd><dt>Русский</dt><dd>эксперимент, опыт</dd><dt>Plural</dt><dd><em>experiments</em></dd><dt>Countability</dt><dd>countable</dd></dl>
+<p>A scientific test done to find out or prove something.</p>
+<ol><li>We did an <em>experiment</em> with vinegar and baking soda.</li><li>Write up the <em>experiment</em> for Friday.</li><li>The <em>experiments</em> are graded on the lab report.</li></ol>
+<hr>
+<h3 id="theory">theory<a class="hash" href="#theory" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/ˈθɪri/ &middot; <em>THEER-ee</em></dd><dt>Русский</dt><dd>теория</dd><dt>Plural</dt><dd><em>theories</em></dd><dt>Countability</dt><dd>countable</dd></dl>
+<p>An explanation of something that is supported by evidence and reasoning.</p>
+<ol><li>We spent a week on the <em>theory</em> of evolution.</li><li>That's just a <em>theory</em>, not a proven fact.</li><li>Competing <em>theories</em> are covered in chapter eight.</li></ol>
+<hr>
+<h3 id="concept">concept<a class="hash" href="#concept" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/ˈkɑːnsɛpt/ &middot; <em>KAHN-sept</em></dd><dt>Русский</dt><dd>понятие, концепция</dd><dt>Plural</dt><dd><em>concepts</em></dd><dt>Countability</dt><dd>countable</dd></dl>
+<p>A general idea about how something works.</p>
+<ol><li>The <em>concept</em> of gravity is introduced early.</li><li>She grasped the <em>concept</em> right away.</li><li>The chapter covers three basic <em>concepts</em>.</li></ol>
+<hr>
+<h3 id="definition">definition<a class="hash" href="#definition" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/ˌdɛfəˈnɪʃən/ &middot; <em>def-uh-NISH-uhn</em></dd><dt>Русский</dt><dd>определение</dd><dt>Plural</dt><dd><em>definitions</em></dd><dt>Countability</dt><dd>countable</dd></dl>
+<p>A statement of what a word or term means.</p>
+<ol><li>Copy the <em>definition</em> into your notebook.</li><li>The test asks for the <em>definition</em> of photosynthesis.</li><li>We had to memorize twenty <em>definitions</em>.</li></ol>
+<hr>
+<h3 id="bibliography">bibliography<a class="hash" href="#bibliography" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/ˌbɪbliˈɑːɡrəfi/ &middot; <em>bib-lee-AH-gruh-fee</em></dd><dt>Русский</dt><dd>библиография, список литературы</dd><dt>Plural</dt><dd><em>bibliographies</em></dd><dt>Countability</dt><dd>countable</dd></dl>
+<p>A list of the books and articles used in a piece of writing.</p>
+<ol><li>The paper needs a <em>bibliography</em> at the end.</li><li>Her <em>bibliography</em> runs four pages.</li><li>He forgot to alphabetize both <em>bibliographies</em>.</li></ol>
+<hr>
+<h3 id="citation">citation<a class="hash" href="#citation" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/saɪˈteɪʃən/ &middot; <em>sy-TAY-shuhn</em></dd><dt>Русский</dt><dd>ссылка на источник</dd><dt>Plural</dt><dd><em>citations</em></dd><dt>Countability</dt><dd>countable</dd></dl>
+<p>A note in a paper showing where a fact or quotation came from.</p>
+<ol><li>Every quote needs a <em>citation</em>.</li><li>He lost points for a sloppy <em>citation</em>.</li><li>The professor checks the <em>citations</em> carefully.</li></ol>
+<hr>
+<h3 id="footnote">footnote<a class="hash" href="#footnote" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/ˈfʊtnoʊt/ &middot; <em>FUUT-noht</em></dd><dt>Русский</dt><dd>сноска</dd><dt>Plural</dt><dd><em>footnotes</em></dd><dt>Countability</dt><dd>countable</dd></dl>
+<p>A note at the bottom of a page explaining something in the text.</p>
+<ol><li>The explanation is in a <em>footnote</em>.</li><li>Put the source in a <em>footnote</em>, not in the paragraph.</li><li>The chapter has ninety <em>footnotes</em>.</li></ol>
+<hr>
+<h3 id="plagiarism">plagiarism<a class="hash" href="#plagiarism" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/ˈpleɪdʒərɪzəm/ &middot; <em>PLAY-juh-riz-uhm</em></dd><dt>Русский</dt><dd>плагиат</dd><dt>Countability</dt><dd>uncountable</dd></dl>
+<p>The act of using someone else's words or ideas as if they were your own.</p>
+<ol><li><em>Plagiarism</em> can get you expelled.</li><li>The school runs every paper through <em>plagiarism</em> software.</li><li>He was accused of <em>plagiarism</em> and failed the course.</li></ol>
+<hr>
+<h3 id="practice">practice<a class="hash" href="#practice" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/ˈpræktɪs/ &middot; <em>PRAK-tiss</em></dd><dt>Русский</dt><dd>практика, тренировка</dd><dt>Countability</dt><dd>uncountable</dd><dt>Contrast</dt><dd>Americans spell the noun and the verb the same way; the British write the noun practice and the verb practise.</dd></dl>
+<p>Doing something over and over in order to get better at it.</p>
+<ol><li>It takes <em>practice</em> to get good at fractions.</li><li>With enough <em>practice</em>, the times tables come easily.</li><li>She needs more <em>practice</em> before the recital.</li></ol>
+<hr>
+<h3 id="motivation">motivation<a class="hash" href="#motivation" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/ˌmoʊtəˈveɪʃən/ &middot; <em>moh-tuh-VAY-shuhn</em></dd><dt>Русский</dt><dd>мотивация</dd><dt>Countability</dt><dd>uncountable</dd></dl>
+<p>The desire that makes someone want to work at something.</p>
+<ol><li>He has the ability but no <em>motivation</em>.</li><li><em>Motivation</em> drops off in the last week of the semester.</li><li>Good grades gave her the <em>motivation</em> to keep going.</li></ol>
+<hr>
+<h3 id="achievement">achievement<a class="hash" href="#achievement" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/əˈtʃiːvmənt/ &middot; <em>uh-CHEEV-muhnt</em></dd><dt>Русский</dt><dd>достижение</dd><dt>Plural</dt><dd><em>achievements</em></dd><dt>Countability</dt><dd>countable</dd></dl>
+<p>Something difficult that someone has succeeded in doing.</p>
+<ol><li>Finishing the degree while working was a real <em>achievement</em>.</li><li>The school honors academic <em>achievement</em> every spring.</li><li>Her <em>achievements</em> filled half the application.</li></ol></div></main>
+<button class="themebtn" id="themeBtn">Dark</button>
+<script>
+const tb=document.getElementById('themeBtn');
+function setTheme(x){document.documentElement.dataset.theme=x;tb.textContent=x==='dark'?'Light':'Dark';
+ try{localStorage.setItem('site-theme',x)}catch(e){}}
+tb.onclick=()=>setTheme(document.documentElement.dataset.theme==='dark'?'light':'dark');
+try{const s=localStorage.getItem('site-theme');
+ setTheme(s||(matchMedia('(prefers-color-scheme: dark)').matches?'dark':'light'))}catch(e){setTheme('light')}
+</script></body></html>

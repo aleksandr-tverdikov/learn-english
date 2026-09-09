@@ -1,0 +1,576 @@
+<!DOCTYPE html>
+<html lang="en"><head>
+<meta charset="utf-8"><meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Core vocabulary: science</title>
+<style>
+:root{--bg:#faf9f7;--surface:#fff;--surface2:#f2f0ec;--border:#e2ded6;--text:#1a1815;
+--dim:#5f594f;--faint:#8a8377;--accent:#8a5a3b;--measure:72ch}
+@media(prefers-color-scheme:dark){:root{--bg:#14140f;--surface:#1d1d17;--surface2:#25251d;
+--border:#33332a;--text:#eeeae1;--dim:#a8a293;--faint:#7d776b;--accent:#d09b72}}
+:root[data-theme=dark]{--bg:#14140f;--surface:#1d1d17;--surface2:#25251d;--border:#33332a;
+--text:#eeeae1;--dim:#a8a293;--faint:#7d776b;--accent:#d09b72}
+:root[data-theme=light]{--bg:#faf9f7;--surface:#fff;--surface2:#f2f0ec;--border:#e2ded6;
+--text:#1a1815;--dim:#5f594f;--faint:#8a8377;--accent:#8a5a3b}
+*{box-sizing:border-box}
+body{margin:0;background:var(--bg);color:var(--text);
+font:17px/1.72 ui-serif,Georgia,"Iowan Old Style",Palatino,serif;-webkit-font-smoothing:antialiased}
+.wrap{max-width:min(var(--measure),100%);margin:0 auto;padding:0 22px}
+nav.crumb{border-bottom:1px solid var(--border);padding:13px 0;font-size:13.5px;
+font-family:-apple-system,BlinkMacSystemFont,"Segoe UI",sans-serif;position:sticky;top:0;background:var(--bg);z-index:20}
+nav.crumb .wrap{max-width:none;display:flex;gap:9px;align-items:center;flex-wrap:wrap}
+nav.crumb a{color:var(--dim);text-decoration:none}
+nav.crumb a:hover{color:var(--accent)}
+nav.crumb .sep{color:var(--faint)}
+main{padding:8px 0 80px}
+h1{font-size:clamp(28px,5vw,38px);line-height:1.15;letter-spacing:-.015em;margin:34px 0 18px}
+h2{font-size:25px;margin:46px 0 14px;letter-spacing:-.01em;padding-bottom:7px;border-bottom:1px solid var(--border)}
+h3{font-size:19px;margin:34px 0 10px;color:var(--accent)}
+h4{font-size:16px;margin:24px 0 8px;font-family:-apple-system,sans-serif}
+p{margin:0 0 16px}
+a{color:var(--accent)}
+.hash{opacity:0;margin-left:8px;font-weight:400;font-size:.65em;text-decoration:none;color:var(--faint)}
+h2:hover .hash,h3:hover .hash{opacity:1}
+blockquote{margin:0 0 20px;padding:14px 18px;background:var(--surface2);
+border-left:3px solid var(--accent);border-radius:0 8px 8px 0}
+blockquote p:last-child{margin-bottom:0}
+ol,ul{margin:0 0 18px;padding-left:26px}
+li{margin-bottom:8px}
+li>ul,li>ol{margin:8px 0 0}
+code{font-family:ui-monospace,SFMono-Regular,Menlo,Consolas,monospace;font-size:.87em;
+background:var(--surface2);padding:1px 5px;border-radius:4px}
+pre{background:var(--surface2);border:1px solid var(--border);border-radius:9px;
+padding:15px 17px;overflow-x:auto;margin:0 0 20px}
+pre code{background:none;padding:0;font-size:13px;line-height:1.6}
+.tw{overflow-x:auto;margin:0 0 22px;border:1px solid var(--border);border-radius:9px}
+table{border-collapse:collapse;width:100%;font-size:15px;
+font-family:-apple-system,BlinkMacSystemFont,"Segoe UI",sans-serif}
+th,td{padding:10px 14px;border-bottom:1px solid var(--border);vertical-align:top}
+th{background:var(--surface2);font-size:12px;text-transform:uppercase;
+letter-spacing:.06em;color:var(--dim);font-weight:700;white-space:nowrap}
+tbody tr:last-child td{border-bottom:none}
+hr{border:none;border-top:1px solid var(--border);margin:38px 0}
+details{background:var(--surface2);border:1px solid var(--border);border-radius:9px;
+padding:13px 17px;margin:0 0 20px}
+summary{cursor:pointer;font-weight:600;font-family:-apple-system,sans-serif;font-size:15px}
+details[open] summary{margin-bottom:12px}
+del{color:var(--faint)}
+dl.fields{margin:0 0 20px;padding:0}
+dl.fields dt{font-family:-apple-system,BlinkMacSystemFont,"Segoe UI",sans-serif;
+font-size:11px;letter-spacing:.11em;text-transform:uppercase;color:var(--faint);
+font-weight:700;margin:14px 0 4px}
+dl.fields dt:first-child{margin-top:0}
+dl.fields dd{margin:0;font-size:16px;color:var(--dim);line-height:1.62}
+dl.fields dd em{color:var(--text)}
+dl.fields dt.ru{color:var(--accent)}
+dl.fields dd strong{color:var(--text)}
+.toc{background:var(--surface2);border:1px solid var(--border);border-radius:10px;
+padding:16px 20px;margin:26px 0 34px;font-family:-apple-system,sans-serif;font-size:14px}
+.toc b{display:block;font-size:11px;letter-spacing:.12em;text-transform:uppercase;
+color:var(--faint);margin-bottom:9px}
+.toc a{display:block;padding:3px 0;color:var(--dim);text-decoration:none}
+.toc a:hover{color:var(--accent)}
+.themebtn{position:fixed;right:18px;bottom:18px;z-index:60;font-family:-apple-system,sans-serif;
+font-size:12.5px;font-weight:600;cursor:pointer;background:var(--surface);border:1px solid var(--border);
+border-radius:99px;padding:9px 16px;color:var(--text)}
+@media(max-width:600px){body{font-size:16px}.wrap{padding:0 17px}}
+</style></head><body>
+<nav class="crumb"><div class="wrap"><a href="../../../index.html">Learn English</a><span class="sep">/</span><a href="../../README.html">Parts of speech</a><span class="sep">/</span><a href="../README.html">01-nouns</a><span class="sep">/</span><span>catalog</span></div></nav>
+<main><div class="wrap"><h1 id="core-vocabulary-science">Core vocabulary: science<a class="hash" href="#core-vocabulary-science" aria-label="link">#</a></h1>
+<blockquote><p>The everyday nouns of science — pronunciation, Russian, plural, and three examples each.</p></blockquote>
+<p><a href="../README.html">← The grammar of nouns</a> &middot; <a href="README.html">All groups</a></p>
+<p>Part of the <strong>core-vocabulary tier</strong>. Groups 1–23 cover the nouns that misbehave; this tier covers the nouns you simply need to know. Entries are deliberately lean, because a regular countable noun has no grammatical story to tell. A <strong>Contrast</strong> line appears only where the word hides a genuine trap.</p>
+<p>Where a word in this field <em>does</em> misbehave, it lives in the grammar tier instead and is not repeated here.</p>
+<hr>
+<h3 id="acceleration">acceleration<a class="hash" href="#acceleration" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/əkˌseləˈreɪʃən/ &middot; <em>uhk-sel-uh-RAY-shuhn</em></dd><dt>Русский</dt><dd>ускорение</dd><dt>Countability</dt><dd>uncountable</dd></dl>
+<p>The rate at which something speeds up.</p>
+<ol><li>This little car has surprising <em>acceleration</em>.</li><li><em>Acceleration</em> is measured in meters per second squared.</li><li>The graph shows the <em>acceleration</em> over the first ten seconds.</li></ol>
+<hr>
+<h3 id="motion">motion<a class="hash" href="#motion" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/ˈmoʊʃən/ &middot; <em>MOH-shuhn</em></dd><dt>Русский</dt><dd>движение</dd><dt>Countability</dt><dd>uncountable</dd></dl>
+<p>The act or state of moving.</p>
+<ol><li>Newton's laws describe the <em>motion</em> of objects.</li><li>The camera captures the <em>motion</em> of the bird's wings.</li><li>The bus was already in <em>motion</em> when he jumped off.</li></ol>
+<hr>
+<h3 id="momentum">momentum<a class="hash" href="#momentum" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/moʊˈmentəm/ &middot; <em>moh-MEN-tuhm</em></dd><dt>Русский</dt><dd>импульс (количество движения)</dd><dt>Countability</dt><dd>uncountable</dd></dl>
+<p>The force a moving object has because of its mass and its speed.</p>
+<ol><li>A truck has far more <em>momentum</em> than a bicycle.</li><li>The sled lost <em>momentum</em> on the flat ground.</li><li>In a collision, the total <em>momentum</em> stays the same.</li></ol>
+<hr>
+<h3 id="friction">friction<a class="hash" href="#friction" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/ˈfrɪkʃən/ &middot; <em>FRIK-shuhn</em></dd><dt>Русский</dt><dd>трение</dd><dt>Countability</dt><dd>uncountable</dd></dl>
+<p>The force that slows down two surfaces rubbing against each other.</p>
+<ol><li><em>Friction</em> between the tires and the road slows the car.</li><li>Oil reduces the <em>friction</em> inside the engine.</li><li>Without <em>friction</em>, you couldn't walk across the floor.</li></ol>
+<hr>
+<h3 id="inertia">inertia<a class="hash" href="#inertia" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/ɪˈnɜːrʃə/ &middot; <em>ih-NUR-shuh</em></dd><dt>Русский</dt><dd>инерция</dd><dt>Countability</dt><dd>uncountable</dd></dl>
+<p>The tendency of an object to keep doing whatever it is already doing.</p>
+<ol><li><em>Inertia</em> is why you lurch forward when the bus stops.</li><li>A heavy flywheel has a lot of <em>inertia</em>.</li><li>The seatbelt works against your body's <em>inertia</em>.</li></ol>
+<hr>
+<h3 id="tension">tension<a class="hash" href="#tension" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/ˈtenʃən/ &middot; <em>TEN-shuhn</em></dd><dt>Русский</dt><dd>натяжение</dd><dt>Countability</dt><dd>uncountable</dd></dl>
+<p>The pulling force in a stretched rope, wire, or spring.</p>
+<ol><li>The cable snapped under the <em>tension</em>.</li><li>Adjust the <em>tension</em> on the belt before you start the motor.</li><li><em>Tension</em> in the string keeps the weight from falling.</li></ol>
+<hr>
+<h3 id="thrust">thrust<a class="hash" href="#thrust" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/θrʌst/ &middot; <em>THRUST</em></dd><dt>Русский</dt><dd>тяга (двигателя)</dd><dt>Countability</dt><dd>uncountable</dd></dl>
+<p>The forward force produced by an engine or a rocket.</p>
+<ol><li>The engines produce enough <em>thrust</em> to lift the rocket.</li><li>The pilot cut the <em>thrust</em> just before landing.</li><li>Each booster adds <em>thrust</em> at liftoff.</li></ol>
+<hr>
+<h3 id="compression">compression<a class="hash" href="#compression" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/kəmˈpreʃən/ &middot; <em>kuhm-PRESH-uhn</em></dd><dt>Русский</dt><dd>сжатие</dd><dt>Countability</dt><dd>uncountable</dd></dl>
+<p>The pressing of something into a smaller space.</p>
+<ol><li>The <em>compression</em> of the gas raised its temperature.</li><li>Concrete is very strong under <em>compression</em>.</li><li>Low <em>compression</em> in one cylinder explains the misfire.</li></ol>
+<hr>
+<h3 id="combustion">combustion<a class="hash" href="#combustion" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/kəmˈbʌstʃən/ &middot; <em>kuhm-BUS-chuhn</em></dd><dt>Русский</dt><dd>горение, сгорание</dd><dt>Countability</dt><dd>uncountable</dd></dl>
+<p>The process of burning fuel together with oxygen.</p>
+<ol><li><em>Combustion</em> releases heat and carbon dioxide.</li><li>The engine runs on internal <em>combustion</em>.</li><li>Without oxygen, <em>combustion</em> stops immediately.</li></ol>
+<hr>
+<h3 id="flame">flame<a class="hash" href="#flame" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/fleɪm/ &middot; <em>FLAYM</em></dd><dt>Русский</dt><dd>пламя</dd><dt>Plural</dt><dd><em>flames</em></dd><dt>Countability</dt><dd>countable</dd></dl>
+<p>The hot glowing gas you see when something burns.</p>
+<ol><li>Hold the wire in the <em>flame</em> until it glows.</li><li>The <em>flames</em> spread to the next room.</li><li>A blue <em>flame</em> means the gas is burning cleanly.</li></ol>
+<hr>
+<h3 id="spark">spark<a class="hash" href="#spark" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/spɑːrk/ &middot; <em>SPAHRK</em></dd><dt>Русский</dt><dd>искра</dd><dt>Plural</dt><dd><em>sparks</em></dd><dt>Countability</dt><dd>countable</dd></dl>
+<p>A tiny piece of burning material or a small flash of electricity.</p>
+<ol><li>A single <em>spark</em> set off the whole fire.</li><li><em>Sparks</em> flew when the metal hit the grinder.</li><li>The plug fires a <em>spark</em> on every cycle.</li></ol>
+<hr>
+<h3 id="evaporation">evaporation<a class="hash" href="#evaporation" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/ɪˌvæpəˈreɪʃən/ &middot; <em>ih-vap-uh-RAY-shuhn</em></dd><dt>Русский</dt><dd>испарение</dd><dt>Countability</dt><dd>uncountable</dd></dl>
+<p>The change of a liquid into a gas.</p>
+<ol><li><em>Evaporation</em> cools your skin when you sweat.</li><li>The puddle disappeared through <em>evaporation</em>.</li><li>Cover the dish to prevent <em>evaporation</em>.</li></ol>
+<hr>
+<h3 id="condensation">condensation<a class="hash" href="#condensation" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/ˌkɑːndenˈseɪʃən/ &middot; <em>kahn-den-SAY-shuhn</em></dd><dt>Русский</dt><dd>конденсация; конденсат</dd><dt>Countability</dt><dd>uncountable</dd></dl>
+<p>The change of a gas into a liquid, or the drops this leaves behind.</p>
+<ol><li><em>Condensation</em> formed on the cold glass.</li><li>Wipe the <em>condensation</em> off the window.</li><li>Clouds form by the <em>condensation</em> of water vapor.</li></ol>
+<hr>
+<h3 id="expansion">expansion<a class="hash" href="#expansion" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/ɪkˈspænʃən/ &middot; <em>ik-SPAN-shuhn</em></dd><dt>Русский</dt><dd>расширение</dd><dt>Countability</dt><dd>uncountable</dd></dl>
+<p>The process of getting larger in size.</p>
+<ol><li>Heat causes the <em>expansion</em> of most metals.</li><li>The bridge has gaps to allow for <em>expansion</em>.</li><li>The <em>expansion</em> of the gas pushed the piston out.</li></ol>
+<hr>
+<h3 id="contraction">contraction<a class="hash" href="#contraction" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/kənˈtrækʃən/ &middot; <em>kuhn-TRAK-shuhn</em></dd><dt>Русский</dt><dd>сжатие, сокращение</dd><dt>Countability</dt><dd>uncountable</dd></dl>
+<p>The process of getting smaller in size.</p>
+<ol><li>Cooling leads to the <em>contraction</em> of the metal.</li><li>The rails leave room for <em>contraction</em> in winter.</li><li><em>Contraction</em> pulled the seams apart.</li></ol>
+<hr>
+<h3 id="convection">convection<a class="hash" href="#convection" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/kənˈvekʃən/ &middot; <em>kuhn-VEK-shuhn</em></dd><dt>Русский</dt><dd>конвекция</dd><dt>Countability</dt><dd>uncountable</dd></dl>
+<p>The movement of heat through a liquid or gas as it circulates.</p>
+<ol><li>This oven heats food by <em>convection</em>.</li><li>Warm air rises by <em>convection</em>.</li><li><em>Convection</em> currents keep the water mixing.</li></ol>
+<hr>
+<h3 id="radiation">radiation<a class="hash" href="#radiation" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/ˌreɪdiˈeɪʃən/ &middot; <em>ray-dee-AY-shuhn</em></dd><dt>Русский</dt><dd>излучение, радиация</dd><dt>Countability</dt><dd>uncountable</dd></dl>
+<p>Energy that travels out from a source as waves or particles.</p>
+<ol><li>The lab shields its workers from <em>radiation</em>.</li><li><em>Radiation</em> from the sun warms the earth.</li><li>They measured the <em>radiation</em> around the reactor.</li></ol>
+<hr>
+<h3 id="circuit">circuit<a class="hash" href="#circuit" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/ˈsɜːrkɪt/ &middot; <em>SUR-kit</em></dd><dt>Русский</dt><dd>электрическая цепь</dd><dt>Plural</dt><dd><em>circuits</em></dd><dt>Countability</dt><dd>countable</dd><dt>Contrast</dt><dd>Spelled with <em>-uit</em>, but pronounced simply <em>-kit</em>.</dd></dl>
+<p>A complete path that electricity can flow around.</p>
+<ol><li>The <em>circuit</em> is broken somewhere near the switch.</li><li>Never work on a live <em>circuit</em>.</li><li>Both <em>circuits</em> are protected by fuses.</li></ol>
+<hr>
+<h3 id="magnet">magnet<a class="hash" href="#magnet" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/ˈmæɡnət/ &middot; <em>MAG-nuht</em></dd><dt>Русский</dt><dd>магнит</dd><dt>Plural</dt><dd><em>magnets</em></dd><dt>Countability</dt><dd>countable</dd></dl>
+<p>A piece of metal that attracts iron and steel.</p>
+<ol><li>Hold the <em>magnet</em> near the paper clips.</li><li>We stuck the drawing to the fridge with a <em>magnet</em>.</li><li>Two <em>magnets</em> will push apart if you flip one around.</li></ol>
+<hr>
+<h3 id="magnetism">magnetism<a class="hash" href="#magnetism" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/ˈmæɡnətɪzəm/ &middot; <em>MAG-nuh-tiz-uhm</em></dd><dt>Русский</dt><dd>магнетизм</dd><dt>Countability</dt><dd>uncountable</dd></dl>
+<p>The force by which magnets attract or push away other objects.</p>
+<ol><li><em>Magnetism</em> and electricity are closely related.</li><li>Heating the metal destroyed its <em>magnetism</em>.</li><li>The class covered <em>magnetism</em> last week.</li></ol>
+<hr>
+<h3 id="insulator">insulator<a class="hash" href="#insulator" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/ˈɪnsəleɪtər/ &middot; <em>IN-suh-lay-tur</em></dd><dt>Русский</dt><dd>изолятор</dd><dt>Plural</dt><dd><em>insulators</em></dd><dt>Countability</dt><dd>countable</dd></dl>
+<p>A material that does not let electricity or heat pass through.</p>
+<ol><li>Rubber is a good <em>insulator</em>.</li><li>The handle is wrapped in an <em>insulator</em>.</li><li>Ceramic <em>insulators</em> hold the power lines away from the pole.</li></ol>
+<hr>
+<h3 id="filament">filament<a class="hash" href="#filament" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/ˈfɪləmənt/ &middot; <em>FIL-uh-muhnt</em></dd><dt>Русский</dt><dd>нить накала</dd><dt>Plural</dt><dd><em>filaments</em></dd><dt>Countability</dt><dd>countable</dd></dl>
+<p>The thin wire inside a light bulb that glows when it heats up.</p>
+<ol><li>The <em>filament</em> burned out after a year.</li><li>You can see the <em>filament</em> through the clear glass.</li><li>Old bulbs used tungsten <em>filaments</em>.</li></ol>
+<hr>
+<h3 id="transformer">transformer<a class="hash" href="#transformer" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/trænsˈfɔːrmər/ &middot; <em>trans-FOR-mur</em></dd><dt>Русский</dt><dd>трансформатор</dd><dt>Plural</dt><dd><em>transformers</em></dd><dt>Countability</dt><dd>countable</dd></dl>
+<p>A device that raises or lowers the voltage of an electric supply.</p>
+<ol><li>The <em>transformer</em> on the pole blew during the storm.</li><li>A small <em>transformer</em> steps the voltage down to twelve volts.</li><li>Both <em>transformers</em> were replaced last year.</li></ol>
+<hr>
+<h3 id="vibration">vibration<a class="hash" href="#vibration" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/vaɪˈbreɪʃən/ &middot; <em>vy-BRAY-shuhn</em></dd><dt>Русский</dt><dd>вибрация, колебание</dd><dt>Plural</dt><dd><em>vibrations</em></dd><dt>Countability</dt><dd>countable</dd></dl>
+<p>A fast shaking movement back and forth.</p>
+<ol><li>You can feel the <em>vibration</em> through the floor.</li><li><em>Vibrations</em> from the engine loosened the bolt.</li><li>Rubber pads absorb most of the <em>vibration</em>.</li></ol>
+<hr>
+<h3 id="reflection">reflection<a class="hash" href="#reflection" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/rɪˈflekʃən/ &middot; <em>rih-FLEK-shuhn</em></dd><dt>Русский</dt><dd>отражение</dd><dt>Plural</dt><dd><em>reflections</em></dd><dt>Countability</dt><dd>countable</dd></dl>
+<p>Light or sound bouncing back from a surface, or the image this makes.</p>
+<ol><li>She saw her <em>reflection</em> in the store window.</li><li>The <em>reflection</em> off the water was blinding.</li><li>We measured the <em>reflections</em> of sound in the empty hall.</li></ol>
+<hr>
+<h3 id="refraction">refraction<a class="hash" href="#refraction" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/rɪˈfrækʃən/ &middot; <em>rih-FRAK-shuhn</em></dd><dt>Русский</dt><dd>преломление</dd><dt>Countability</dt><dd>uncountable</dd></dl>
+<p>The bending of light as it passes from one material into another.</p>
+<ol><li><em>Refraction</em> makes the straw look broken in the glass.</li><li>A lens works by <em>refraction</em>.</li><li><em>Refraction</em> in the atmosphere shifts the star's position slightly.</li></ol>
+<hr>
+<h3 id="prism">prism<a class="hash" href="#prism" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/ˈprɪzəm/ &middot; <em>PRIZ-uhm</em></dd><dt>Русский</dt><dd>призма</dd><dt>Plural</dt><dd><em>prisms</em></dd><dt>Countability</dt><dd>countable</dd></dl>
+<p>A clear block of glass that splits light into colors.</p>
+<ol><li>Hold the <em>prism</em> up in the sunlight.</li><li>The <em>prism</em> spread the beam into a rainbow.</li><li>Two glass <em>prisms</em> sat on the lab bench.</li></ol>
+<hr>
+<h3 id="laser">laser<a class="hash" href="#laser" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/ˈleɪzər/ &middot; <em>LAY-zur</em></dd><dt>Русский</dt><dd>лазер</dd><dt>Plural</dt><dd><em>lasers</em></dd><dt>Countability</dt><dd>countable</dd></dl>
+<p>A device that produces a narrow, very bright beam of light.</p>
+<ol><li>The <em>laser</em> cuts right through sheet metal.</li><li>Don't point the <em>laser</em> at anyone's eyes.</li><li>Surgeons use <em>lasers</em> for some eye operations.</li></ol>
+<hr>
+<h3 id="matter">matter<a class="hash" href="#matter" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/ˈmætər/ &middot; <em>MAT-ur</em></dd><dt>Русский</dt><dd>вещество, материя</dd><dt>Countability</dt><dd>uncountable</dd></dl>
+<p>Anything that has mass and takes up space.</p>
+<ol><li>Solids, liquids, and gases are all forms of <em>matter</em>.</li><li><em>Matter</em> cannot be created or destroyed.</li><li>The telescope detects <em>matter</em> falling into the black hole.</li></ol>
+<hr>
+<h3 id="solid">solid<a class="hash" href="#solid" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/ˈsɑːlɪd/ &middot; <em>SAH-lid</em></dd><dt>Русский</dt><dd>твёрдое тело</dd><dt>Plural</dt><dd><em>solids</em></dd><dt>Countability</dt><dd>countable</dd></dl>
+<p>A substance that keeps its own shape, such as ice or wood.</p>
+<ol><li>Ice is water in the form of a <em>solid</em>.</li><li><em>Solids</em> usually expand a little when they are heated.</li><li>The mixture separates into a <em>solid</em> and a liquid.</li></ol>
+<hr>
+<h3 id="plasma">plasma<a class="hash" href="#plasma" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/ˈplæzmə/ &middot; <em>PLAZ-muh</em></dd><dt>Русский</dt><dd>плазма</dd><dt>Countability</dt><dd>uncountable</dd></dl>
+<p>A very hot gas whose particles carry an electric charge.</p>
+<ol><li>Stars are made of <em>plasma</em>.</li><li>The lamp glows because the gas turns into <em>plasma</em>.</li><li><em>Plasma</em> is often called the fourth state of matter.</li></ol>
+<hr>
+<h3 id="fluid">fluid<a class="hash" href="#fluid" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/ˈfluːɪd/ &middot; <em>FLOO-id</em></dd><dt>Русский</dt><dd>жидкость, текучая среда</dd><dt>Plural</dt><dd><em>fluids</em></dd><dt>Countability</dt><dd>countable, and uncountable as a substance</dd></dl>
+<p>A liquid or gas that flows and takes the shape of its container.</p>
+<ol><li>Brake <em>fluid</em> should be changed every few years.</li><li>Both gases and liquids are <em>fluids</em>.</li><li>The pump moves <em>fluid</em> through the pipes.</li></ol>
+<hr>
+<h3 id="atom">atom<a class="hash" href="#atom" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/ˈætəm/ &middot; <em>AT-uhm</em></dd><dt>Русский</dt><dd>атом</dd><dt>Plural</dt><dd><em>atoms</em></dd><dt>Countability</dt><dd>countable</dd></dl>
+<p>The smallest unit of a chemical element.</p>
+<ol><li>A water molecule contains three <em>atoms</em>.</li><li>Every <em>atom</em> has a nucleus at its center.</li><li>The scientists managed to split the <em>atom</em>.</li></ol>
+<hr>
+<h3 id="molecule">molecule<a class="hash" href="#molecule" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/ˈmɑːlɪkjuːl/ &middot; <em>MAH-lih-kyool</em></dd><dt>Русский</dt><dd>молекула</dd><dt>Plural</dt><dd><em>molecules</em></dd><dt>Countability</dt><dd>countable</dd></dl>
+<p>A group of atoms joined together, the smallest piece of a compound.</p>
+<ol><li>A water <em>molecule</em> is two hydrogens and one oxygen.</li><li><em>Molecules</em> move faster when you heat them.</li><li>The drug attaches to one <em>molecule</em> at a time.</li></ol>
+<hr>
+<h3 id="electron">electron<a class="hash" href="#electron" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/ɪˈlektrɑːn/ &middot; <em>ih-LEK-trahn</em></dd><dt>Русский</dt><dd>электрон</dd><dt>Plural</dt><dd><em>electrons</em></dd><dt>Countability</dt><dd>countable</dd></dl>
+<p>A tiny particle with a negative charge that moves around an atom.</p>
+<ol><li>Electric current is a flow of <em>electrons</em>.</li><li>An <em>electron</em> is far lighter than a proton.</li><li>This metal gives up one <em>electron</em> easily.</li></ol>
+<hr>
+<h3 id="proton">proton<a class="hash" href="#proton" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/ˈproʊtɑːn/ &middot; <em>PROH-tahn</em></dd><dt>Русский</dt><dd>протон</dd><dt>Plural</dt><dd><em>protons</em></dd><dt>Countability</dt><dd>countable</dd></dl>
+<p>A particle with a positive charge found in the center of an atom.</p>
+<ol><li>Each <em>proton</em> carries a positive charge.</li><li>Carbon has six <em>protons</em>.</li><li>The number of <em>protons</em> decides which element it is.</li></ol>
+<hr>
+<h3 id="neutron">neutron<a class="hash" href="#neutron" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/ˈnuːtrɑːn/ &middot; <em>NOO-trahn</em></dd><dt>Русский</dt><dd>нейтрон</dd><dt>Plural</dt><dd><em>neutrons</em></dd><dt>Countability</dt><dd>countable</dd></dl>
+<p>A particle with no electric charge found in the center of an atom.</p>
+<ol><li>A <em>neutron</em> weighs about the same as a proton.</li><li>The nucleus holds both protons and <em>neutrons</em>.</li><li>Free <em>neutrons</em> keep the reaction going.</li></ol>
+<hr>
+<h3 id="particle">particle<a class="hash" href="#particle" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/ˈpɑːrtɪkəl/ &middot; <em>PAHR-tih-kuhl</em></dd><dt>Русский</dt><dd>частица</dd><dt>Plural</dt><dd><em>particles</em></dd><dt>Countability</dt><dd>countable</dd></dl>
+<p>An extremely small piece of matter.</p>
+<ol><li>Dust <em>particles</em> floated in the sunlight.</li><li>The filter traps any <em>particle</em> larger than a micron.</li><li>Physicists study how one <em>particle</em> hits another.</li></ol>
+<hr>
+<h3 id="ion">ion<a class="hash" href="#ion" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/ˈaɪrn/ &middot; <em>EYE-uhn</em></dd><dt>Русский</dt><dd>ион</dd><dt>Plural</dt><dd><em>ions</em></dd><dt>Countability</dt><dd>countable</dd><dt>Contrast</dt><dd>Not the same word as <em>iron</em>, which is EYE-urn.</dd></dl>
+<p>An atom that carries an electric charge because it has gained or lost electrons.</p>
+<ol><li>Salt splits into two <em>ions</em> when it dissolves.</li><li>A sodium <em>ion</em> has a positive charge.</li><li>The <em>ions</em> carry the current through the liquid.</li></ol>
+<hr>
+<h3 id="isotope">isotope<a class="hash" href="#isotope" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/ˈaɪsətoʊp/ &middot; <em>EYE-suh-tohp</em></dd><dt>Русский</dt><dd>изотоп</dd><dt>Plural</dt><dd><em>isotopes</em></dd><dt>Countability</dt><dd>countable</dd></dl>
+<p>A form of an element that has a different number of neutrons.</p>
+<ol><li>Carbon has several <em>isotopes</em>.</li><li>One <em>isotope</em> of hydrogen is used in reactors.</li><li>Doctors use a radioactive <em>isotope</em> to trace blood flow.</li></ol>
+<hr>
+<h3 id="alloy">alloy<a class="hash" href="#alloy" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/ˈælɔɪ/ &middot; <em>AL-oy</em></dd><dt>Русский</dt><dd>сплав</dd><dt>Plural</dt><dd><em>alloys</em></dd><dt>Countability</dt><dd>countable</dd><dt>Contrast</dt><dd>The noun is AL-oy; the rare verb is uh-LOY.</dd></dl>
+<p>A metal made by mixing two or more metals together.</p>
+<ol><li>Brass is an <em>alloy</em> of copper and zinc.</li><li>The frame is made from a light aluminum <em>alloy</em>.</li><li>Different <em>alloys</em> melt at different temperatures.</li></ol>
+<hr>
+<h3 id="solution">solution<a class="hash" href="#solution" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/səˈluːʃən/ &middot; <em>suh-LOO-shuhn</em></dd><dt>Русский</dt><dd>раствор</dd><dt>Plural</dt><dd><em>solutions</em></dd><dt>Countability</dt><dd>countable, and uncountable as a substance</dd></dl>
+<p>A liquid with something dissolved in it.</p>
+<ol><li>Pour the salt <em>solution</em> into the beaker.</li><li>Prepare two <em>solutions</em> of different strength.</li><li>The <em>solution</em> turned blue when we added the powder.</li></ol>
+<hr>
+<h3 id="solvent">solvent<a class="hash" href="#solvent" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/ˈsɑːlvənt/ &middot; <em>SAHL-vuhnt</em></dd><dt>Русский</dt><dd>растворитель</dd><dt>Plural</dt><dd><em>solvents</em></dd><dt>Countability</dt><dd>countable, and uncountable as a substance</dd></dl>
+<p>A liquid that can dissolve other substances.</p>
+<ol><li>Water is the most common <em>solvent</em> of all.</li><li>Use a <em>solvent</em> to get the paint off.</li><li>Some <em>solvents</em> give off dangerous fumes.</li></ol>
+<hr>
+<h3 id="oxide">oxide<a class="hash" href="#oxide" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/ˈɑːksaɪd/ &middot; <em>AHK-syd</em></dd><dt>Русский</dt><dd>оксид</dd><dt>Plural</dt><dd><em>oxides</em></dd><dt>Countability</dt><dd>countable, and uncountable as a substance</dd></dl>
+<p>A compound formed when a substance combines with oxygen.</p>
+<ol><li>Rust is an <em>oxide</em> of iron.</li><li>The white powder is zinc <em>oxide</em>.</li><li>Several <em>oxides</em> formed on the surface.</li></ol>
+<hr>
+<h3 id="chloride">chloride<a class="hash" href="#chloride" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/ˈklɔːraɪd/ &middot; <em>KLOR-yd</em></dd><dt>Русский</dt><dd>хлорид</dd><dt>Countability</dt><dd>uncountable</dd></dl>
+<p>A compound of chlorine with another element, such as table salt.</p>
+<ol><li>Table salt is sodium <em>chloride</em>.</li><li>The well water contains too much <em>chloride</em>.</li><li><em>Chloride</em> levels in the sample were high.</li></ol>
+<hr>
+<h3 id="polymer">polymer<a class="hash" href="#polymer" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/ˈpɑːləmər/ &middot; <em>PAH-luh-mur</em></dd><dt>Русский</dt><dd>полимер</dd><dt>Plural</dt><dd><em>polymers</em></dd><dt>Countability</dt><dd>countable</dd></dl>
+<p>A material made of very long chains of repeating molecules.</p>
+<ol><li>Most plastics are <em>polymers</em>.</li><li>The coating is a flexible <em>polymer</em>.</li><li>New <em>polymers</em> are replacing metal parts.</li></ol>
+<hr>
+<h3 id="catalyst">catalyst<a class="hash" href="#catalyst" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/ˈkætəlɪst/ &middot; <em>KAT-uh-list</em></dd><dt>Русский</dt><dd>катализатор</dd><dt>Plural</dt><dd><em>catalysts</em></dd><dt>Countability</dt><dd>countable</dd></dl>
+<p>A substance that speeds up a chemical reaction without being used up.</p>
+<ol><li>The reaction needs a <em>catalyst</em> to go quickly.</li><li>Platinum acts as a <em>catalyst</em> in the exhaust system.</li><li>Enzymes are biological <em>catalysts</em>.</li></ol>
+<hr>
+<h3 id="enzyme">enzyme<a class="hash" href="#enzyme" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/ˈenzaɪm/ &middot; <em>EN-zym</em></dd><dt>Русский</dt><dd>фермент</dd><dt>Plural</dt><dd><em>enzymes</em></dd><dt>Countability</dt><dd>countable</dd></dl>
+<p>A substance made by living cells that speeds up a chemical reaction.</p>
+<ol><li>This <em>enzyme</em> breaks down starch.</li><li>Digestive <em>enzymes</em> work best at body temperature.</li><li>Heat destroys the <em>enzyme</em>.</li></ol>
+<hr>
+<h3 id="concentration">concentration<a class="hash" href="#concentration" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/ˌkɑːnsənˈtreɪʃən/ &middot; <em>kahn-suhn-TRAY-shuhn</em></dd><dt>Русский</dt><dd>концентрация</dd><dt>Plural</dt><dd><em>concentrations</em></dd><dt>Countability</dt><dd>countable</dd></dl>
+<p>How much of a substance is present in a mixture.</p>
+<ol><li>Increase the <em>concentration</em> of the acid slightly.</li><li>High <em>concentrations</em> of salt kill the plants.</li><li>The <em>concentration</em> dropped as we added water.</li></ol>
+<hr>
+<h3 id="acidity">acidity<a class="hash" href="#acidity" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/əˈsɪdəti/ &middot; <em>uh-SID-uh-tee</em></dd><dt>Русский</dt><dd>кислотность</dd><dt>Countability</dt><dd>uncountable</dd></dl>
+<p>How acid something is.</p>
+<ol><li>Test the <em>acidity</em> of the soil before planting.</li><li>Lemon juice adds <em>acidity</em> to the sauce.</li><li>The <em>acidity</em> of the rain has damaged the stone.</li></ol>
+<hr>
+<h3 id="viscosity">viscosity<a class="hash" href="#viscosity" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/vɪˈskɑːsəti/ &middot; <em>vih-SKAH-suh-tee</em></dd><dt>Русский</dt><dd>вязкость</dd><dt>Countability</dt><dd>uncountable</dd></dl>
+<p>How thick a liquid is and how slowly it flows.</p>
+<ol><li>Honey has a very high <em>viscosity</em>.</li><li>Cold weather increases the oil's <em>viscosity</em>.</li><li>We measured the <em>viscosity</em> at three temperatures.</li></ol>
+<hr>
+<h3 id="purity">purity<a class="hash" href="#purity" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/ˈpjʊrəti/ &middot; <em>PYUR-uh-tee</em></dd><dt>Русский</dt><dd>чистота (вещества)</dd><dt>Countability</dt><dd>uncountable</dd></dl>
+<p>How free a substance is from other materials mixed into it.</p>
+<ol><li>The lab checks the <em>purity</em> of every batch.</li><li>Gold is sold by weight and <em>purity</em>.</li><li>A <em>purity</em> above ninety-nine percent is required.</li></ol>
+<hr>
+<h3 id="conductivity">conductivity<a class="hash" href="#conductivity" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/ˌkɑːndʌkˈtɪvəti/ &middot; <em>kahn-duk-TIV-uh-tee</em></dd><dt>Русский</dt><dd>проводимость</dd><dt>Countability</dt><dd>uncountable</dd></dl>
+<p>How well a material carries electricity or heat.</p>
+<ol><li>Silver has the highest electrical <em>conductivity</em> of any metal.</li><li>Salt raises the water's <em>conductivity</em>.</li><li>We measured the <em>conductivity</em> of each sample.</li></ol>
+<hr>
+<h3 id="reaction">reaction<a class="hash" href="#reaction" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/riˈækʃən/ &middot; <em>ree-AK-shuhn</em></dd><dt>Русский</dt><dd>реакция</dd><dt>Plural</dt><dd><em>reactions</em></dd><dt>Countability</dt><dd>countable</dd></dl>
+<p>A process in which substances change into different substances.</p>
+<ol><li>The <em>reaction</em> gives off a lot of heat.</li><li>Some <em>reactions</em> will not start without a catalyst.</li><li>Mixing the two powders starts the <em>reaction</em>.</li></ol>
+<hr>
+<h3 id="oxidation">oxidation<a class="hash" href="#oxidation" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/ˌɑːksɪˈdeɪʃən/ &middot; <em>ahk-sih-DAY-shuhn</em></dd><dt>Русский</dt><dd>окисление</dd><dt>Countability</dt><dd>uncountable</dd></dl>
+<p>A reaction in which a substance combines with oxygen.</p>
+<ol><li>Rust is caused by <em>oxidation</em>.</li><li>The coating slows the <em>oxidation</em> of the metal.</li><li><em>Oxidation</em> is what turns a cut apple brown.</li></ol>
+<hr>
+<h3 id="corrosion">corrosion<a class="hash" href="#corrosion" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/kəˈroʊʒən/ &middot; <em>kuh-ROH-zhuhn</em></dd><dt>Русский</dt><dd>коррозия</dd><dt>Countability</dt><dd>uncountable</dd></dl>
+<p>The slow damage caused when a metal reacts with air or water.</p>
+<ol><li>Salt on the roads speeds up <em>corrosion</em>.</li><li>There was heavy <em>corrosion</em> around the battery terminals.</li><li>Paint protects the steel from <em>corrosion</em>.</li></ol>
+<hr>
+<h3 id="decay">decay<a class="hash" href="#decay" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/dɪˈkeɪ/ &middot; <em>dih-KAY</em></dd><dt>Русский</dt><dd>распад; гниение</dd><dt>Countability</dt><dd>uncountable</dd></dl>
+<p>The gradual breaking down of a substance or of a radioactive material.</p>
+<ol><li>Radioactive <em>decay</em> releases energy over time.</li><li>The rate of <em>decay</em> is measured in half-lives.</li><li>Bacteria cause <em>decay</em> in dead plants.</li></ol>
+<hr>
+<h3 id="fission">fission<a class="hash" href="#fission" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/ˈfɪʃən/ &middot; <em>FISH-uhn</em></dd><dt>Русский</dt><dd>деление ядра</dd><dt>Countability</dt><dd>uncountable</dd></dl>
+<p>The splitting of an atom's nucleus, which releases energy.</p>
+<ol><li>Nuclear <em>fission</em> powers the plant.</li><li>The <em>fission</em> of uranium releases enormous energy.</li><li>The reactor controls the rate of <em>fission</em>.</li></ol>
+<hr>
+<h3 id="fusion">fusion<a class="hash" href="#fusion" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/ˈfjuːʒən/ &middot; <em>FYOO-zhuhn</em></dd><dt>Русский</dt><dd>синтез (ядерный)</dd><dt>Countability</dt><dd>uncountable</dd></dl>
+<p>The joining of two atomic nuclei, which releases a huge amount of energy.</p>
+<ol><li>The sun is powered by <em>fusion</em>.</li><li><em>Fusion</em> would give us almost limitless energy.</li><li>Scientists have struggled for decades to control <em>fusion</em>.</li></ol>
+<hr>
+<h3 id="reactor">reactor<a class="hash" href="#reactor" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/riˈæktər/ &middot; <em>ree-AK-tur</em></dd><dt>Русский</dt><dd>реактор</dd><dt>Plural</dt><dd><em>reactors</em></dd><dt>Countability</dt><dd>countable</dd></dl>
+<p>A large machine in which nuclear reactions are controlled to make energy.</p>
+<ol><li>The <em>reactor</em> was shut down for maintenance.</li><li>Two <em>reactors</em> supply the whole city.</li><li>Water cools the core of the <em>reactor</em>.</li></ol>
+<hr>
+<h3 id="helium">helium<a class="hash" href="#helium" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/ˈhiːliəm/ &middot; <em>HEE-lee-uhm</em></dd><dt>Русский</dt><dd>гелий</dd><dt>Countability</dt><dd>uncountable</dd></dl>
+<p>A very light gas that is used to fill balloons.</p>
+<ol><li>The balloons are filled with <em>helium</em>.</li><li><em>Helium</em> makes your voice sound funny.</li><li>There is a worldwide shortage of <em>helium</em>.</li></ol>
+<hr>
+<h3 id="chlorine">chlorine<a class="hash" href="#chlorine" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/ˈklɔːriːn/ &middot; <em>KLOR-een</em></dd><dt>Русский</dt><dd>хлор</dd><dt>Countability</dt><dd>uncountable</dd></dl>
+<p>A greenish gas used to kill germs in water.</p>
+<ol><li>The pool smells strongly of <em>chlorine</em>.</li><li><em>Chlorine</em> is added to drinking water.</li><li>Too much <em>chlorine</em> irritates your eyes.</li></ol>
+<hr>
+<h3 id="sodium">sodium<a class="hash" href="#sodium" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/ˈsoʊdiəm/ &middot; <em>SOH-dee-uhm</em></dd><dt>Русский</dt><dd>натрий</dd><dt>Countability</dt><dd>uncountable</dd></dl>
+<p>A soft silver-white metal that is one half of ordinary salt.</p>
+<ol><li>The label lists the amount of <em>sodium</em> per serving.</li><li><em>Sodium</em> reacts violently with water.</li><li>Cut back on <em>sodium</em> if your blood pressure is high.</li></ol>
+<hr>
+<h3 id="calcium">calcium<a class="hash" href="#calcium" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/ˈkælsiəm/ &middot; <em>KAL-see-uhm</em></dd><dt>Русский</dt><dd>кальций</dd><dt>Countability</dt><dd>uncountable</dd></dl>
+<p>A silver-white metal found in bones, teeth, and milk.</p>
+<ol><li>Milk is a good source of <em>calcium</em>.</li><li>Her doctor told her to take more <em>calcium</em>.</li><li><em>Calcium</em> builds up inside the pipes.</li></ol>
+<hr>
+<h3 id="potassium">potassium<a class="hash" href="#potassium" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/pəˈtæsiəm/ &middot; <em>puh-TAS-ee-uhm</em></dd><dt>Русский</dt><dd>калий</dd><dt>Countability</dt><dd>uncountable</dd></dl>
+<p>A soft silver-white metal that the body needs in small amounts.</p>
+<ol><li>Bananas contain a lot of <em>potassium</em>.</li><li>Low <em>potassium</em> can cause muscle cramps.</li><li>The fertilizer supplies nitrogen and <em>potassium</em>.</li></ol>
+<hr>
+<h3 id="magnesium">magnesium<a class="hash" href="#magnesium" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/mæɡˈniːziəm/ &middot; <em>mag-NEE-zee-uhm</em></dd><dt>Русский</dt><dd>магний</dd><dt>Countability</dt><dd>uncountable</dd></dl>
+<p>A light silver-white metal that burns with a bright white flame.</p>
+<ol><li><em>Magnesium</em> burns with a blinding white light.</li><li>The frame is made of a <em>magnesium</em> alloy.</li><li>She takes <em>magnesium</em> for her leg cramps.</li></ol>
+<hr>
+<h3 id="uranium">uranium<a class="hash" href="#uranium" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/jʊˈreɪniəm/ &middot; <em>yoo-RAY-nee-uhm</em></dd><dt>Русский</dt><dd>уран</dd><dt>Countability</dt><dd>uncountable</dd></dl>
+<p>A heavy radioactive metal used as nuclear fuel.</p>
+<ol><li>The plant runs on enriched <em>uranium</em>.</li><li><em>Uranium</em> is mined in several western states.</li><li>They found traces of <em>uranium</em> in the soil.</li></ol>
+<hr>
+<h3 id="graphite">graphite<a class="hash" href="#graphite" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/ˈɡræfaɪt/ &middot; <em>GRAF-yt</em></dd><dt>Русский</dt><dd>графит</dd><dt>Countability</dt><dd>uncountable</dd></dl>
+<p>A soft black form of carbon used in pencils.</p>
+<ol><li>Pencil leads are made of <em>graphite</em> and clay.</li><li><em>Graphite</em> conducts electricity.</li><li>The rods are coated with <em>graphite</em>.</li></ol>
+<hr>
+<h3 id="petroleum">petroleum<a class="hash" href="#petroleum" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/pəˈtroʊliəm/ &middot; <em>puh-TROH-lee-uhm</em></dd><dt>Русский</dt><dd>нефть</dd><dt>Countability</dt><dd>uncountable</dd></dl>
+<p>The thick oil taken from underground and refined into fuel.</p>
+<ol><li>Gasoline is made from <em>petroleum</em>.</li><li><em>Petroleum</em> prices rose again this month.</li><li>Most plastics are a <em>petroleum</em> product.</li></ol>
+<hr>
+<h3 id="ash">ash<a class="hash" href="#ash" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/æʃ/ &middot; <em>ASH</em></dd><dt>Русский</dt><dd>зола, пепел</dd><dt>Countability</dt><dd>uncountable</dd><dt>Contrast</dt><dd><em>Ashes</em> is a separate word, used for the remains of a fire or a body.</dd></dl>
+<p>The gray powder that is left after something has burned.</p>
+<ol><li>There was <em>ash</em> all over the grill.</li><li>Volcanic <em>ash</em> closed the airport for two days.</li><li>Sweep the <em>ash</em> out of the fireplace.</li></ol>
+<hr>
+<h3 id="soot">soot<a class="hash" href="#soot" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/sʊt/ &middot; <em>SUUT</em></dd><dt>Русский</dt><dd>сажа, копоть</dd><dt>Countability</dt><dd>uncountable</dd><dt>Contrast</dt><dd>Rhymes with <em>foot</em>, not with <em>suit</em>.</dd></dl>
+<p>The fine black powder left behind by smoke.</p>
+<ol><li>The chimney was black with <em>soot</em>.</li><li><em>Soot</em> had settled on every surface in the room.</li><li>He wiped the <em>soot</em> off the glass.</li></ol>
+<hr>
+<h3 id="residue">residue<a class="hash" href="#residue" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/ˈrezɪduː/ &middot; <em>REZ-ih-doo</em></dd><dt>Русский</dt><dd>остаток, налёт</dd><dt>Plural</dt><dd><em>residues</em></dd><dt>Countability</dt><dd>countable</dd></dl>
+<p>A small amount of something left behind after a process.</p>
+<ol><li>A sticky <em>residue</em> stayed on the glass.</li><li>Wash off any <em>residue</em> before you weigh it.</li><li>Pesticide <em>residues</em> were found on the fruit.</li></ol>
+<hr>
+<h3 id="sediment">sediment<a class="hash" href="#sediment" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/ˈsedəmənt/ &middot; <em>SED-uh-muhnt</em></dd><dt>Русский</dt><dd>осадок, отложения</dd><dt>Countability</dt><dd>uncountable</dd></dl>
+<p>Solid material that settles at the bottom of a liquid.</p>
+<ol><li><em>Sediment</em> collected at the bottom of the tube.</li><li>The river carries <em>sediment</em> downstream.</li><li>Pour it off slowly and leave the <em>sediment</em> behind.</li></ol>
+<hr>
+<h3 id="lab">lab<a class="hash" href="#lab" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/læb/ &middot; <em>LAB</em></dd><dt>Русский</dt><dd>лаборатория (разг.)</dd><dt>Plural</dt><dd><em>labs</em></dd><dt>Countability</dt><dd>countable</dd></dl>
+<p>An informal word for a laboratory.</p>
+<ol><li>We ran the test in the <em>lab</em>.</li><li>Her <em>lab</em> is on the third floor.</li><li>Most of the <em>labs</em> close at six.</li></ol>
+<hr>
+<h3 id="pipette">pipette<a class="hash" href="#pipette" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/paɪˈpet/ &middot; <em>py-PET</em></dd><dt>Русский</dt><dd>пипетка (лабораторная)</dd><dt>Plural</dt><dd><em>pipettes</em></dd><dt>Countability</dt><dd>countable</dd></dl>
+<p>A thin tube used to move an exact amount of liquid.</p>
+<ol><li>Use a <em>pipette</em> to add exactly five milliliters.</li><li>Rinse the <em>pipette</em> between samples.</li><li>The <em>pipettes</em> are in the top drawer.</li></ol>
+<hr>
+<h3 id="funnel">funnel<a class="hash" href="#funnel" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/ˈfʌnəl/ &middot; <em>FUN-uhl</em></dd><dt>Русский</dt><dd>воронка</dd><dt>Plural</dt><dd><em>funnels</em></dd><dt>Countability</dt><dd>countable</dd></dl>
+<p>A cone-shaped tube used for pouring liquid into a narrow opening.</p>
+<ol><li>Use a <em>funnel</em> so you don't spill it.</li><li>The <em>funnel</em> was lined with filter paper.</li><li>Two plastic <em>funnels</em> hung by the sink.</li></ol>
+<hr>
+<h3 id="dropper">dropper<a class="hash" href="#dropper" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/ˈdrɑːpər/ &middot; <em>DRAH-pur</em></dd><dt>Русский</dt><dd>пипетка (капельная)</dd><dt>Plural</dt><dd><em>droppers</em></dd><dt>Countability</dt><dd>countable</dd></dl>
+<p>A small tube with a rubber bulb for releasing liquid one drop at a time.</p>
+<ol><li>Add the dye with a <em>dropper</em>.</li><li>The <em>dropper</em> holds about a milliliter.</li><li>Both <em>droppers</em> were labeled with tape.</li></ol>
+<hr>
+<h3 id="stopper">stopper<a class="hash" href="#stopper" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/ˈstɑːpər/ &middot; <em>STAH-pur</em></dd><dt>Русский</dt><dd>пробка (для сосуда)</dd><dt>Plural</dt><dd><em>stoppers</em></dd><dt>Countability</dt><dd>countable</dd></dl>
+<p>A plug of rubber, glass, or cork that closes a bottle or a tube.</p>
+<ol><li>Push the <em>stopper</em> firmly into the flask.</li><li>The <em>stopper</em> popped out from the pressure.</li><li>Rubber <em>stoppers</em> come in several sizes.</li></ol>
+<hr>
+<h3 id="filter">filter<a class="hash" href="#filter" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/ˈfɪltər/ &middot; <em>FIL-tur</em></dd><dt>Русский</dt><dd>фильтр</dd><dt>Plural</dt><dd><em>filters</em></dd><dt>Countability</dt><dd>countable</dd></dl>
+<p>A device that removes solid pieces or unwanted material from a liquid or gas.</p>
+<ol><li>Pour the mixture through a paper <em>filter</em>.</li><li>Change the air <em>filter</em> once a year.</li><li>The <em>filters</em> clogged after an hour.</li></ol>
+<hr>
+<h3 id="membrane">membrane<a class="hash" href="#membrane" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/ˈmembreɪn/ &middot; <em>MEM-brayn</em></dd><dt>Русский</dt><dd>мембрана</dd><dt>Plural</dt><dd><em>membranes</em></dd><dt>Countability</dt><dd>countable</dd></dl>
+<p>A very thin layer that lets some substances pass through it.</p>
+<ol><li>Water passes through the <em>membrane</em> but salt does not.</li><li>The <em>membrane</em> tore under the pressure.</li><li>Cell <em>membranes</em> control what goes in and out.</li></ol>
+<hr>
+<h3 id="probe">probe<a class="hash" href="#probe" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/proʊb/ &middot; <em>PROHB</em></dd><dt>Русский</dt><dd>зонд, щуп</dd><dt>Plural</dt><dd><em>probes</em></dd><dt>Countability</dt><dd>countable</dd></dl>
+<p>A thin instrument used to measure or examine something.</p>
+<ol><li>Insert the temperature <em>probe</em> into the sample.</li><li>The <em>probe</em> sends data back every second.</li><li>Two <em>probes</em> recorded the voltage.</li></ol>
+<hr>
+<h3 id="detector">detector<a class="hash" href="#detector" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/dɪˈtektər/ &middot; <em>dih-TEK-tur</em></dd><dt>Русский</dt><dd>детектор</dd><dt>Plural</dt><dd><em>detectors</em></dd><dt>Countability</dt><dd>countable</dd></dl>
+<p>A device that finds the presence of something such as smoke or radiation.</p>
+<ol><li>The smoke <em>detector</em> went off at midnight.</li><li>The metal <em>detector</em> beeped at his belt buckle.</li><li>Radiation <em>detectors</em> line the corridor.</li></ol>
+<hr>
+<h3 id="engine">engine<a class="hash" href="#engine" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/ˈendʒɪn/ &middot; <em>EN-jin</em></dd><dt>Русский</dt><dd>двигатель</dd><dt>Plural</dt><dd><em>engines</em></dd><dt>Countability</dt><dd>countable</dd></dl>
+<p>A machine that turns fuel or electricity into movement.</p>
+<ol><li>The <em>engine</em> burns a mixture of fuel and air.</li><li>Both <em>engines</em> shut down at the same moment.</li><li>A diesel <em>engine</em> is more efficient than a gasoline one.</li></ol>
+<hr>
+<h3 id="turbine">turbine<a class="hash" href="#turbine" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/ˈtɜːrbaɪn/ &middot; <em>TUR-byn</em></dd><dt>Русский</dt><dd>турбина</dd><dt>Plural</dt><dd><em>turbines</em></dd><dt>Countability</dt><dd>countable</dd></dl>
+<p>A machine with blades that spin to produce power.</p>
+<ol><li>Steam drives the <em>turbine</em>.</li><li>Wind <em>turbines</em> line the whole ridge.</li><li>The <em>turbine</em> generates enough power for a small town.</li></ol>
+<hr>
+<h3 id="piston">piston<a class="hash" href="#piston" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/ˈpɪstən/ &middot; <em>PIS-tuhn</em></dd><dt>Русский</dt><dd>поршень</dd><dt>Plural</dt><dd><em>pistons</em></dd><dt>Countability</dt><dd>countable</dd></dl>
+<p>A part that slides up and down inside a cylinder to create movement.</p>
+<ol><li>The <em>piston</em> moves down as the gas expands.</li><li>One <em>piston</em> was badly scratched.</li><li>This engine has six <em>pistons</em>.</li></ol>
+<hr>
+<h3 id="observation">observation<a class="hash" href="#observation" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/ˌɑːbzərˈveɪʃən/ &middot; <em>ahb-zur-VAY-shuhn</em></dd><dt>Русский</dt><dd>наблюдение</dd><dt>Plural</dt><dd><em>observations</em></dd><dt>Countability</dt><dd>countable</dd></dl>
+<p>Something you notice and write down while watching carefully.</p>
+<ol><li>Write your <em>observations</em> in the notebook.</li><li>One <em>observation</em> did not fit the pattern.</li><li>The theory rests on years of careful <em>observations</em>.</li></ol>
+<hr>
+<h3 id="result">result<a class="hash" href="#result" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/rɪˈzʌlt/ &middot; <em>rih-ZULT</em></dd><dt>Русский</dt><dd>результат</dd><dt>Plural</dt><dd><em>results</em></dd><dt>Countability</dt><dd>countable</dd></dl>
+<p>What you find out at the end of an experiment or test.</p>
+<ol><li>The <em>results</em> surprised everyone in the lab.</li><li>We got the same <em>result</em> three times in a row.</li><li>Her <em>results</em> were published last spring.</li></ol>
+<hr>
+<h3 id="data">data<a class="hash" href="#data" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/ˈdeɪtə/ &middot; <em>DAY-tuh</em></dd><dt>Русский</dt><dd>данные</dd><dt>Countability</dt><dd>uncountable</dd><dt>Contrast</dt><dd>In American English <em>data</em> normally takes a singular verb: <em>the data is</em>.</dd></dl>
+<p>Facts and numbers collected for study.</p>
+<ol><li>The <em>data</em> shows a clear trend.</li><li>We collected <em>data</em> for six months.</li><li>All of the <em>data</em> is stored on the server.</li></ol>
+<hr>
+<h3 id="principle">principle<a class="hash" href="#principle" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/ˈprɪnsəpəl/ &middot; <em>PRIN-suh-puhl</em></dd><dt>Русский</dt><dd>принцип, закон</dd><dt>Plural</dt><dd><em>principles</em></dd><dt>Countability</dt><dd>countable</dd><dt>Contrast</dt><dd>Sounds exactly like <em>principal</em>, the head of a school.</dd></dl>
+<p>A basic scientific rule that explains how something works.</p>
+<ol><li>The pump works on a very simple <em>principle</em>.</li><li>He explained the <em>principle</em> behind the experiment.</li><li>The same <em>principles</em> apply to gases and liquids.</li></ol>
+<hr>
+<h3 id="equation">equation<a class="hash" href="#equation" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/ɪˈkweɪʒən/ &middot; <em>ih-KWAY-zhuhn</em></dd><dt>Русский</dt><dd>уравнение</dd><dt>Plural</dt><dd><em>equations</em></dd><dt>Countability</dt><dd>countable</dd><dt>Contrast</dt><dd>The ending is -ZHUHN, not -SHUHN.</dd></dl>
+<p>A mathematical statement that two amounts are equal.</p>
+<ol><li>Solve the <em>equation</em> for the unknown value.</li><li>The <em>equation</em> balances on both sides.</li><li>These <em>equations</em> describe how the wave moves.</li></ol>
+<hr>
+<h3 id="method">method<a class="hash" href="#method" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/ˈmeθəd/ &middot; <em>METH-uhd</em></dd><dt>Русский</dt><dd>метод</dd><dt>Plural</dt><dd><em>methods</em></dd><dt>Countability</dt><dd>countable</dd></dl>
+<p>A planned way of doing something.</p>
+<ol><li>The scientific <em>method</em> starts with a question.</li><li>We tried a different <em>method</em> the second time.</li><li>Both <em>methods</em> gave the same answer.</li></ol>
+<hr>
+<h3 id="procedure">procedure<a class="hash" href="#procedure" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/prəˈsiːdʒər/ &middot; <em>pruh-SEE-jur</em></dd><dt>Русский</dt><dd>процедура, методика</dd><dt>Plural</dt><dd><em>procedures</em></dd><dt>Countability</dt><dd>countable</dd></dl>
+<p>The set of steps you follow to do something correctly.</p>
+<ol><li>Follow the safety <em>procedure</em> exactly.</li><li>The whole <em>procedure</em> takes about twenty minutes.</li><li>Lab <em>procedures</em> are posted on the wall.</li></ol>
+<hr>
+<h3 id="technique">technique<a class="hash" href="#technique" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/tekˈniːk/ &middot; <em>tek-NEEK</em></dd><dt>Русский</dt><dd>техника, методика</dd><dt>Plural</dt><dd><em>techniques</em></dd><dt>Countability</dt><dd>countable</dd><dt>Contrast</dt><dd>The <em>-que</em> ending is just a <em>k</em> sound: tek-NEEK.</dd></dl>
+<p>A particular skilled way of doing something.</p>
+<ol><li>The new <em>technique</em> saves hours of work.</li><li>She developed a <em>technique</em> for growing the crystals.</li><li>Both <em>techniques</em> have their drawbacks.</li></ol>
+<hr>
+<h3 id="variable">variable<a class="hash" href="#variable" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/ˈveriəbəl/ &middot; <em>VAIR-ee-uh-buhl</em></dd><dt>Русский</dt><dd>переменная</dd><dt>Plural</dt><dd><em>variables</em></dd><dt>Countability</dt><dd>countable</dd></dl>
+<p>Something in an experiment that can change.</p>
+<ol><li>Change only one <em>variable</em> at a time.</li><li>Temperature was the one <em>variable</em> we controlled.</li><li>Too many <em>variables</em> make the results hard to read.</li></ol>
+<hr>
+<h3 id="graph">graph<a class="hash" href="#graph" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/ɡræf/ &middot; <em>GRAF</em></dd><dt>Русский</dt><dd>график</dd><dt>Plural</dt><dd><em>graphs</em></dd><dt>Countability</dt><dd>countable</dd><dt>Contrast</dt><dd>The <em>ph</em> is pronounced like <em>f</em>.</dd></dl>
+<p>A drawing that shows how two sets of numbers are related.</p>
+<ol><li>Plot your results on a <em>graph</em>.</li><li>The <em>graph</em> shows a steady rise.</li><li>Both <em>graphs</em> use the same scale.</li></ol>
+<hr>
+<h3 id="chemist">chemist<a class="hash" href="#chemist" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/ˈkeməst/ &middot; <em>KEM-uhst</em></dd><dt>Русский</dt><dd>химик</dd><dt>Plural</dt><dd><em>chemists</em></dd><dt>Countability</dt><dd>countable</dd><dt>Contrast</dt><dd>In America a <em>chemist</em> is a scientist; in Britain the word can also mean a pharmacist.</dd></dl>
+<p>A scientist who studies chemical substances and reactions.</p>
+<ol><li>A <em>chemist</em> analyzed the sample for us.</li><li><em>Chemists</em> developed the new coating.</li><li>He worked as a <em>chemist</em> for a paint company.</li></ol>
+<hr>
+<h3 id="physicist">physicist<a class="hash" href="#physicist" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/ˈfɪzəsɪst/ &middot; <em>FIZ-uh-sist</em></dd><dt>Русский</dt><dd>физик</dd><dt>Plural</dt><dd><em>physicists</em></dd><dt>Countability</dt><dd>countable</dd><dt>Contrast</dt><dd>Stress the first syllable: FIZ-uh-sist.</dd></dl>
+<p>A scientist who studies matter, energy, and forces.</p>
+<ol><li>The <em>physicist</em> explained the results to the reporters.</li><li>Several <em>physicists</em> worked on the design.</li><li>She trained as a <em>physicist</em> before switching to medicine.</li></ol></div></main>
+<button class="themebtn" id="themeBtn">Dark</button>
+<script>
+const tb=document.getElementById('themeBtn');
+function setTheme(x){document.documentElement.dataset.theme=x;tb.textContent=x==='dark'?'Light':'Dark';
+ try{localStorage.setItem('site-theme',x)}catch(e){}}
+tb.onclick=()=>setTheme(document.documentElement.dataset.theme==='dark'?'light':'dark');
+try{const s=localStorage.getItem('site-theme');
+ setTheme(s||(matchMedia('(prefers-color-scheme: dark)').matches?'dark':'light'))}catch(e){setTheme('light')}
+</script></body></html>

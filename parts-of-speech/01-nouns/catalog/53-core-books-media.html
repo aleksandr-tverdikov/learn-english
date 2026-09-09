@@ -1,0 +1,806 @@
+<!DOCTYPE html>
+<html lang="en"><head>
+<meta charset="utf-8"><meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Core vocabulary: books and media</title>
+<style>
+:root{--bg:#faf9f7;--surface:#fff;--surface2:#f2f0ec;--border:#e2ded6;--text:#1a1815;
+--dim:#5f594f;--faint:#8a8377;--accent:#8a5a3b;--measure:72ch}
+@media(prefers-color-scheme:dark){:root{--bg:#14140f;--surface:#1d1d17;--surface2:#25251d;
+--border:#33332a;--text:#eeeae1;--dim:#a8a293;--faint:#7d776b;--accent:#d09b72}}
+:root[data-theme=dark]{--bg:#14140f;--surface:#1d1d17;--surface2:#25251d;--border:#33332a;
+--text:#eeeae1;--dim:#a8a293;--faint:#7d776b;--accent:#d09b72}
+:root[data-theme=light]{--bg:#faf9f7;--surface:#fff;--surface2:#f2f0ec;--border:#e2ded6;
+--text:#1a1815;--dim:#5f594f;--faint:#8a8377;--accent:#8a5a3b}
+*{box-sizing:border-box}
+body{margin:0;background:var(--bg);color:var(--text);
+font:17px/1.72 ui-serif,Georgia,"Iowan Old Style",Palatino,serif;-webkit-font-smoothing:antialiased}
+.wrap{max-width:min(var(--measure),100%);margin:0 auto;padding:0 22px}
+nav.crumb{border-bottom:1px solid var(--border);padding:13px 0;font-size:13.5px;
+font-family:-apple-system,BlinkMacSystemFont,"Segoe UI",sans-serif;position:sticky;top:0;background:var(--bg);z-index:20}
+nav.crumb .wrap{max-width:none;display:flex;gap:9px;align-items:center;flex-wrap:wrap}
+nav.crumb a{color:var(--dim);text-decoration:none}
+nav.crumb a:hover{color:var(--accent)}
+nav.crumb .sep{color:var(--faint)}
+main{padding:8px 0 80px}
+h1{font-size:clamp(28px,5vw,38px);line-height:1.15;letter-spacing:-.015em;margin:34px 0 18px}
+h2{font-size:25px;margin:46px 0 14px;letter-spacing:-.01em;padding-bottom:7px;border-bottom:1px solid var(--border)}
+h3{font-size:19px;margin:34px 0 10px;color:var(--accent)}
+h4{font-size:16px;margin:24px 0 8px;font-family:-apple-system,sans-serif}
+p{margin:0 0 16px}
+a{color:var(--accent)}
+.hash{opacity:0;margin-left:8px;font-weight:400;font-size:.65em;text-decoration:none;color:var(--faint)}
+h2:hover .hash,h3:hover .hash{opacity:1}
+blockquote{margin:0 0 20px;padding:14px 18px;background:var(--surface2);
+border-left:3px solid var(--accent);border-radius:0 8px 8px 0}
+blockquote p:last-child{margin-bottom:0}
+ol,ul{margin:0 0 18px;padding-left:26px}
+li{margin-bottom:8px}
+li>ul,li>ol{margin:8px 0 0}
+code{font-family:ui-monospace,SFMono-Regular,Menlo,Consolas,monospace;font-size:.87em;
+background:var(--surface2);padding:1px 5px;border-radius:4px}
+pre{background:var(--surface2);border:1px solid var(--border);border-radius:9px;
+padding:15px 17px;overflow-x:auto;margin:0 0 20px}
+pre code{background:none;padding:0;font-size:13px;line-height:1.6}
+.tw{overflow-x:auto;margin:0 0 22px;border:1px solid var(--border);border-radius:9px}
+table{border-collapse:collapse;width:100%;font-size:15px;
+font-family:-apple-system,BlinkMacSystemFont,"Segoe UI",sans-serif}
+th,td{padding:10px 14px;border-bottom:1px solid var(--border);vertical-align:top}
+th{background:var(--surface2);font-size:12px;text-transform:uppercase;
+letter-spacing:.06em;color:var(--dim);font-weight:700;white-space:nowrap}
+tbody tr:last-child td{border-bottom:none}
+hr{border:none;border-top:1px solid var(--border);margin:38px 0}
+details{background:var(--surface2);border:1px solid var(--border);border-radius:9px;
+padding:13px 17px;margin:0 0 20px}
+summary{cursor:pointer;font-weight:600;font-family:-apple-system,sans-serif;font-size:15px}
+details[open] summary{margin-bottom:12px}
+del{color:var(--faint)}
+dl.fields{margin:0 0 20px;padding:0}
+dl.fields dt{font-family:-apple-system,BlinkMacSystemFont,"Segoe UI",sans-serif;
+font-size:11px;letter-spacing:.11em;text-transform:uppercase;color:var(--faint);
+font-weight:700;margin:14px 0 4px}
+dl.fields dt:first-child{margin-top:0}
+dl.fields dd{margin:0;font-size:16px;color:var(--dim);line-height:1.62}
+dl.fields dd em{color:var(--text)}
+dl.fields dt.ru{color:var(--accent)}
+dl.fields dd strong{color:var(--text)}
+.toc{background:var(--surface2);border:1px solid var(--border);border-radius:10px;
+padding:16px 20px;margin:26px 0 34px;font-family:-apple-system,sans-serif;font-size:14px}
+.toc b{display:block;font-size:11px;letter-spacing:.12em;text-transform:uppercase;
+color:var(--faint);margin-bottom:9px}
+.toc a{display:block;padding:3px 0;color:var(--dim);text-decoration:none}
+.toc a:hover{color:var(--accent)}
+.themebtn{position:fixed;right:18px;bottom:18px;z-index:60;font-family:-apple-system,sans-serif;
+font-size:12.5px;font-weight:600;cursor:pointer;background:var(--surface);border:1px solid var(--border);
+border-radius:99px;padding:9px 16px;color:var(--text)}
+@media(max-width:600px){body{font-size:16px}.wrap{padding:0 17px}}
+</style></head><body>
+<nav class="crumb"><div class="wrap"><a href="../../../index.html">Learn English</a><span class="sep">/</span><a href="../../README.html">Parts of speech</a><span class="sep">/</span><a href="../README.html">01-nouns</a><span class="sep">/</span><span>catalog</span></div></nav>
+<main><div class="wrap"><h1 id="core-vocabulary-books-and-media">Core vocabulary: books and media<a class="hash" href="#core-vocabulary-books-and-media" aria-label="link">#</a></h1>
+<blockquote><p>The everyday nouns of books and media — pronunciation, Russian, plural, and three examples each.</p></blockquote>
+<p><a href="../README.html">← The grammar of nouns</a> &middot; <a href="README.html">All groups</a></p>
+<p>Part of the <strong>core-vocabulary tier</strong>. Groups 1–23 cover the nouns that misbehave; this tier covers the nouns you simply need to know. Entries are deliberately lean, because a regular countable noun has no grammatical story to tell. A <strong>Contrast</strong> line appears only where the word hides a genuine trap.</p>
+<p>Where a word in this field <em>does</em> misbehave, it lives in the grammar tier instead and is not repeated here.</p>
+<hr>
+<h3 id="book">book<a class="hash" href="#book" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/bʊk/ &middot; <em>BUUK</em></dd><dt>Русский</dt><dd>книга</dd><dt>Plural</dt><dd><em>books</em></dd><dt>Countability</dt><dd>countable</dd></dl>
+<p>A set of printed or written pages bound together inside a cover.</p>
+<ol><li>I'm reading a <em>book</em> about the Civil War.</li><li>She keeps her <em>books</em> in alphabetical order.</li><li>The <em>book</em> came out last spring.</li></ol>
+<hr>
+<h3 id="page">page<a class="hash" href="#page" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/peɪdʒ/ &middot; <em>PAYJ</em></dd><dt>Русский</dt><dd>страница</dd><dt>Plural</dt><dd><em>pages</em></dd><dt>Countability</dt><dd>countable</dd></dl>
+<p>One side of a sheet of paper in a book, magazine, or newspaper.</p>
+<ol><li>Turn to <em>page</em> forty-two.</li><li>The article runs about six <em>pages</em>.</li><li>He folded the corner of the <em>page</em> to mark his place.</li></ol>
+<hr>
+<h3 id="cover">cover<a class="hash" href="#cover" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/ˈkʌvər/ &middot; <em>KUV-ur</em></dd><dt>Русский</dt><dd>обложка</dd><dt>Plural</dt><dd><em>covers</em></dd><dt>Countability</dt><dd>countable</dd></dl>
+<p>The stiff outside of a book or magazine that protects the pages.</p>
+<ol><li>Don't judge a book by its <em>cover</em>.</li><li>Her photo was on the <em>cover</em> of the magazine.</li><li>The paperback <em>covers</em> are already curling.</li></ol>
+<hr>
+<h3 id="title">title<a class="hash" href="#title" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/ˈtaɪtəl/ &middot; <em>TY-tuhl</em></dd><dt>Русский</dt><dd>название, заглавие</dd><dt>Plural</dt><dd><em>titles</em></dd><dt>Countability</dt><dd>countable</dd></dl>
+<p>The name given to a book, article, film, or song.</p>
+<ol><li>I forget the <em>title</em>, but the cover was blue.</li><li>The publisher releases about forty <em>titles</em> a year.</li><li>He changed the <em>title</em> three times before it went to print.</li></ol>
+<hr>
+<h3 id="preface">preface<a class="hash" href="#preface" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/ˈprefəs/ &middot; <em>PREF-uhs</em></dd><dt>Русский</dt><dd>предисловие (автора)</dd><dt>Plural</dt><dd><em>prefaces</em></dd><dt>Countability</dt><dd>countable</dd></dl>
+<p>A short section at the front of a book in which the author explains how it came to be written.</p>
+<ol><li>She explains her research method in the <em>preface</em>.</li><li>Most people skip the <em>preface</em> and start at chapter one.</li><li>The second edition has a new <em>preface</em>.</li></ol>
+<hr>
+<h3 id="foreword">foreword<a class="hash" href="#foreword" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/ˈfɔːrwərd/ &middot; <em>FOR-wurd</em></dd><dt>Русский</dt><dd>предисловие (написанное другим человеком)</dd><dt>Plural</dt><dd><em>forewords</em></dd><dt>Countability</dt><dd>countable</dd><dt>Contrast</dt><dd>Sounds exactly like <em>forward</em>; the book word is spelled fore-word, 'the word before'.</dd></dl>
+<p>A short introduction at the front of a book written by someone other than the author.</p>
+<ol><li>A well-known historian wrote the <em>foreword</em>.</li><li>The <em>foreword</em> is only two pages long.</li><li>Both <em>forewords</em> praise the author's research.</li></ol>
+<hr>
+<h3 id="introduction">introduction<a class="hash" href="#introduction" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/ˌɪntrəˈdʌkʃən/ &middot; <em>in-truh-DUK-shuhn</em></dd><dt>Русский</dt><dd>введение</dd><dt>Plural</dt><dd><em>introductions</em></dd><dt>Countability</dt><dd>countable</dd></dl>
+<p>The opening section of a book or article that explains what it will cover.</p>
+<ol><li>Read the <em>introduction</em> first so you know the argument.</li><li>The <em>introduction</em> lays out three main questions.</li><li>Textbook <em>introductions</em> are usually the driest part.</li></ol>
+<hr>
+<h3 id="prologue">prologue<a class="hash" href="#prologue" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/ˈproʊlɔːɡ/ &middot; <em>PROH-lawg</em></dd><dt>Русский</dt><dd>пролог</dd><dt>Plural</dt><dd><em>prologues</em></dd><dt>Countability</dt><dd>countable</dd></dl>
+<p>A separate opening scene that comes before the first chapter of a story.</p>
+<ol><li>The <em>prologue</em> is set thirty years earlier.</li><li>I almost quit during the <em>prologue</em>.</li><li>Both novels open with short <em>prologues</em>.</li></ol>
+<hr>
+<h3 id="epilogue">epilogue<a class="hash" href="#epilogue" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/ˈepəlɔːɡ/ &middot; <em>EP-uh-lawg</em></dd><dt>Русский</dt><dd>эпилог</dd><dt>Plural</dt><dd><em>epilogues</em></dd><dt>Countability</dt><dd>countable</dd></dl>
+<p>A short final section that tells what happened after the main story ended.</p>
+<ol><li>The <em>epilogue</em> jumps ahead twenty years.</li><li>I cried at the <em>epilogue</em>.</li><li>Some readers think the <em>epilogue</em> ruins the ending.</li></ol>
+<hr>
+<h3 id="glossary">glossary<a class="hash" href="#glossary" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/ˈɡlɑːsəri/ &middot; <em>GLAH-suh-ree</em></dd><dt>Русский</dt><dd>глоссарий, словарь терминов</dd><dt>Plural</dt><dd><em>glossaries</em></dd><dt>Countability</dt><dd>countable</dd></dl>
+<p>A list of special terms with their meanings, usually at the back of a book.</p>
+<ol><li>There's a <em>glossary</em> in the back if the legal terms throw you.</li><li>The <em>glossary</em> defines about two hundred words.</li><li>Good textbooks have <em>glossaries</em>.</li></ol>
+<hr>
+<h3 id="endnote">endnote<a class="hash" href="#endnote" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/ˈendnoʊt/ &middot; <em>END-noht</em></dd><dt>Русский</dt><dd>концевая сноска, примечание в конце</dd><dt>Plural</dt><dd><em>endnotes</em></dd><dt>Countability</dt><dd>countable</dd></dl>
+<p>A note printed at the end of a chapter or book instead of at the foot of the page.</p>
+<ol><li>The sources are all in the <em>endnotes</em>.</li><li>She buried the correction in an <em>endnote</em>.</li><li>Flipping back to every <em>endnote</em> is annoying.</li></ol>
+<hr>
+<h3 id="paragraph">paragraph<a class="hash" href="#paragraph" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/ˈpærəɡræf/ &middot; <em>PA-ruh-graf</em></dd><dt>Русский</dt><dd>абзац</dd><dt>Plural</dt><dd><em>paragraphs</em></dd><dt>Countability</dt><dd>countable</dd></dl>
+<p>A block of sentences about one idea, starting on a new line.</p>
+<ol><li>Cut the second <em>paragraph</em> — it repeats the first.</li><li>The story is only three <em>paragraphs</em> long.</li><li>Start a new <em>paragraph</em> when the subject changes.</li></ol>
+<hr>
+<h3 id="illustration">illustration<a class="hash" href="#illustration" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/ˌɪləˈstreɪʃən/ &middot; <em>il-uh-STRAY-shuhn</em></dd><dt>Русский</dt><dd>иллюстрация</dd><dt>Plural</dt><dd><em>illustrations</em></dd><dt>Countability</dt><dd>countable</dd></dl>
+<p>A drawing or picture printed in a book or magazine.</p>
+<ol><li>The <em>illustrations</em> are what sell the book.</li><li>Each chapter opens with a small <em>illustration</em>.</li><li>She did the <em>illustration</em> in pen and ink.</li></ol>
+<hr>
+<h3 id="illustrator">illustrator<a class="hash" href="#illustrator" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/ˈɪləstreɪtər/ &middot; <em>IL-uh-stray-tur</em></dd><dt>Русский</dt><dd>иллюстратор</dd><dt>Plural</dt><dd><em>illustrators</em></dd><dt>Countability</dt><dd>countable</dd></dl>
+<p>An artist who draws the pictures for books or magazines.</p>
+<ol><li>The <em>illustrator</em> gets her name on the cover too.</li><li>They hired a different <em>illustrator</em> for the sequel.</li><li>Children's <em>illustrators</em> were all at the same table.</li></ol>
+<hr>
+<h3 id="caption">caption<a class="hash" href="#caption" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/ˈkæpʃən/ &middot; <em>KAP-shuhn</em></dd><dt>Русский</dt><dd>подпись (под фото или рисунком)</dd><dt>Plural</dt><dd><em>captions</em></dd><dt>Countability</dt><dd>countable</dd></dl>
+<p>A short line of text printed under a photo or drawing to say what it shows.</p>
+<ol><li>The <em>caption</em> got the mayor's name wrong.</li><li>Write a one-line <em>caption</em> for each photo.</li><li>Half the <em>captions</em> are missing from the proof.</li></ol>
+<hr>
+<h3 id="diagram">diagram<a class="hash" href="#diagram" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/ˈdaɪrɡræm/ &middot; <em>DY-uh-gram</em></dd><dt>Русский</dt><dd>схема, чертёж</dd><dt>Plural</dt><dd><em>diagrams</em></dd><dt>Countability</dt><dd>countable</dd></dl>
+<p>A simple drawing that shows how something is arranged or how it works.</p>
+<ol><li>There's a <em>diagram</em> on page ninety showing the wiring.</li><li>The <em>diagrams</em> are clearer than the text.</li><li>He drew a quick <em>diagram</em> on a napkin.</li></ol>
+<hr>
+<h3 id="chart">chart<a class="hash" href="#chart" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/tʃɑːrt/ &middot; <em>CHART</em></dd><dt>Русский</dt><dd>график, диаграмма</dd><dt>Plural</dt><dd><em>charts</em></dd><dt>Countability</dt><dd>countable</dd></dl>
+<p>A drawing that shows numbers or facts as bars, lines, or slices.</p>
+<ol><li>The <em>chart</em> shows sales month by month.</li><li>Put the numbers in a <em>chart</em> so people can see the trend.</li><li>All three <em>charts</em> use the same scale.</li></ol>
+<hr>
+<h3 id="edition">edition<a class="hash" href="#edition" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/ɪˈdɪʃən/ &middot; <em>ih-DISH-uhn</em></dd><dt>Русский</dt><dd>издание (версия книги или выпуск газеты)</dd><dt>Plural</dt><dd><em>editions</em></dd><dt>Countability</dt><dd>countable</dd><dt>Contrast</dt><dd>Close to <em>addition</em> (ə-DISH-uhn); the book word starts with a clear short i.</dd></dl>
+<p>One particular version of a book or newspaper as it was printed at a given time.</p>
+<ol><li>This is the third <em>edition</em>, with two new chapters.</li><li>The story ran in the evening <em>edition</em>.</li><li>Early <em>editions</em> of the novel are worth a lot.</li></ol>
+<hr>
+<h3 id="paperback">paperback<a class="hash" href="#paperback" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/ˈpeɪpərbæk/ &middot; <em>PAY-pur-bak</em></dd><dt>Русский</dt><dd>книга в мягкой обложке</dd><dt>Plural</dt><dd><em>paperbacks</em></dd><dt>Countability</dt><dd>countable</dd></dl>
+<p>A book with a soft, bendable paper cover.</p>
+<ol><li>Wait for the <em>paperback</em> — it's twenty dollars cheaper.</li><li>I keep a beat-up <em>paperback</em> in my bag.</li><li>The airport store sells mostly <em>paperbacks</em>.</li></ol>
+<hr>
+<h3 id="hardcover">hardcover<a class="hash" href="#hardcover" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/ˈhɑːrdkʌvər/ &middot; <em>HARD-kuv-ur</em></dd><dt>Русский</dt><dd>книга в твёрдом переплёте</dd><dt>Plural</dt><dd><em>hardcovers</em></dd><dt>Countability</dt><dd>countable</dd><dt>Contrast</dt><dd>American <em>hardcover</em>; the British say <em>hardback</em>.</dd></dl>
+<p>A book bound with stiff board covers.</p>
+<ol><li>The <em>hardcover</em> comes out in October.</li><li>She collects first-edition <em>hardcovers</em>.</li><li>I'd rather have the <em>hardcover</em> for a book I'll keep.</li></ol>
+<hr>
+<h3 id="binding">binding<a class="hash" href="#binding" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/ˈbaɪndɪŋ/ &middot; <em>BYN-ding</em></dd><dt>Русский</dt><dd>переплёт</dd><dt>Plural</dt><dd><em>bindings</em></dd><dt>Countability</dt><dd>countable</dd></dl>
+<p>The stitching and glue that hold a book's pages inside its cover.</p>
+<ol><li>The <em>binding</em> cracked the first time I opened it.</li><li>Old leather <em>bindings</em> line the top shelf.</li><li>Cheap <em>binding</em> is why the pages fall out.</li></ol>
+<hr>
+<h3 id="blurb">blurb<a class="hash" href="#blurb" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/blɜːrb/ &middot; <em>BLURB</em></dd><dt>Русский</dt><dd>аннотация, рекламный отзыв на обложке</dd><dt>Plural</dt><dd><em>blurbs</em></dd><dt>Countability</dt><dd>countable</dd></dl>
+<p>A short piece of praise or description printed on a book's cover to sell it.</p>
+<ol><li>The <em>blurb</em> on the back calls it 'unforgettable.'</li><li>Her editor asked three novelists for <em>blurbs</em>.</li><li>Don't trust the <em>blurb</em> — read the first page.</li></ol>
+<hr>
+<h3 id="manuscript">manuscript<a class="hash" href="#manuscript" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/ˈmænjəskrɪpt/ &middot; <em>MAN-yuh-skript</em></dd><dt>Русский</dt><dd>рукопись</dd><dt>Plural</dt><dd><em>manuscripts</em></dd><dt>Countability</dt><dd>countable</dd></dl>
+<p>The text of a book as the author wrote it, before it is printed.</p>
+<ol><li>She sent the <em>manuscript</em> to her agent in March.</li><li>The <em>manuscript</em> came back covered in red ink.</li><li>Publishers get thousands of unsolicited <em>manuscripts</em>.</li></ol>
+<hr>
+<h3 id="copy">copy<a class="hash" href="#copy" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/ˈkɑːpi/ &middot; <em>KAH-pee</em></dd><dt>Русский</dt><dd>экземпляр</dd><dt>Plural</dt><dd><em>copies</em></dd><dt>Countability</dt><dd>countable</dd></dl>
+<p>One single example of a book, magazine, or record out of many printed.</p>
+<ol><li>The book sold two million <em>copies</em>.</li><li>Can I borrow your <em>copy</em> of the report?</li><li>There's a signed <em>copy</em> in the window.</li></ol>
+<hr>
+<h3 id="copyright">copyright<a class="hash" href="#copyright" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/ˈkɑːpiraɪt/ &middot; <em>KAH-pee-ryt</em></dd><dt>Русский</dt><dd>авторское право</dd><dt>Plural</dt><dd><em>copyrights</em></dd><dt>Countability</dt><dd>countable</dd></dl>
+<p>The legal right to control who may print or use a piece of writing, music, or art.</p>
+<ol><li>The publisher holds the <em>copyright</em>.</li><li>The <em>copyright</em> on those songs expires next year.</li><li>You can't reprint the photo without clearing the <em>copyright</em>.</li></ol>
+<hr>
+<h3 id="dedication">dedication<a class="hash" href="#dedication" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/ˌdedɪˈkeɪʃən/ &middot; <em>ded-ih-KAY-shuhn</em></dd><dt>Русский</dt><dd>посвящение (в книге)</dd><dt>Plural</dt><dd><em>dedications</em></dd><dt>Countability</dt><dd>countable</dd></dl>
+<p>A line at the front of a book saying it is written in honor of someone.</p>
+<ol><li>The <em>dedication</em> reads 'For my mother.'</li><li>He put a joke in the <em>dedication</em>.</li><li>Her first two books had the same <em>dedication</em>.</li></ol>
+<hr>
+<h3 id="typo">typo<a class="hash" href="#typo" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/ˈtaɪpoʊ/ &middot; <em>TY-poh</em></dd><dt>Русский</dt><dd>опечатка</dd><dt>Plural</dt><dd><em>typos</em></dd><dt>Countability</dt><dd>countable</dd></dl>
+<p>A small mistake in typing or printing, like a wrong or missing letter.</p>
+<ol><li>There's a <em>typo</em> in the headline.</li><li>I found six <em>typos</em> on the first page alone.</li><li>It's just a <em>typo</em> — I meant 'their.'</li></ol>
+<hr>
+<h3 id="proofreader">proofreader<a class="hash" href="#proofreader" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/ˈpruːfriːdər/ &middot; <em>PROOF-ree-dur</em></dd><dt>Русский</dt><dd>корректор</dd><dt>Plural</dt><dd><em>proofreaders</em></dd><dt>Countability</dt><dd>countable</dd></dl>
+<p>Someone who reads a text before printing to catch mistakes.</p>
+<ol><li>A good <em>proofreader</em> would have caught that.</li><li>The magazine laid off its last two <em>proofreaders</em>.</li><li>She works nights as a <em>proofreader</em>.</li></ol>
+<hr>
+<h3 id="font">font<a class="hash" href="#font" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/fɑːnt/ &middot; <em>FAHNT</em></dd><dt>Русский</dt><dd>шрифт</dd><dt>Plural</dt><dd><em>fonts</em></dd><dt>Countability</dt><dd>countable</dd></dl>
+<p>A particular design of printed or on-screen letters.</p>
+<ol><li>Use a bigger <em>font</em> — I can't read that.</li><li>The book is set in a classic serif <em>font</em>.</li><li>She has hundreds of <em>fonts</em> on her laptop.</li></ol>
+<hr>
+<h3 id="typeface">typeface<a class="hash" href="#typeface" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/ˈtaɪpfeɪs/ &middot; <em>TYPE-fays</em></dd><dt>Русский</dt><dd>гарнитура шрифта</dd><dt>Plural</dt><dd><em>typefaces</em></dd><dt>Countability</dt><dd>countable</dd></dl>
+<p>A particular style of printed letters, such as the one a book is set in.</p>
+<ol><li>The whole book uses one <em>typeface</em>.</li><li>They picked a heavier <em>typeface</em> for the headlines.</li><li>He can name most <em>typefaces</em> on sight.</li></ol>
+<hr>
+<h3 id="publisher">publisher<a class="hash" href="#publisher" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/ˈpʌblɪʃər/ &middot; <em>PUB-lih-shur</em></dd><dt>Русский</dt><dd>издательство; издатель</dd><dt>Plural</dt><dd><em>publishers</em></dd><dt>Countability</dt><dd>countable</dd></dl>
+<p>A company or person that produces and sells books, magazines, or newspapers.</p>
+<ol><li>Her <em>publisher</em> moved the release date to fall.</li><li>Three <em>publishers</em> turned the book down.</li><li>The <em>publisher</em> paid a big advance for it.</li></ol>
+<hr>
+<h3 id="publication">publication<a class="hash" href="#publication" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/ˌpʌblɪˈkeɪʃən/ &middot; <em>pub-lih-KAY-shuhn</em></dd><dt>Русский</dt><dd>публикация; издание</dd><dt>Plural</dt><dd><em>publications</em></dd><dt>Countability</dt><dd>countable</dd></dl>
+<p>Something printed and offered to the public, or the act of putting it out.</p>
+<ol><li>The article appeared in a small medical <em>publication</em>.</li><li>The book's <em>publication</em> was delayed a year.</li><li>He writes for several <em>publications</em>.</li></ol>
+<hr>
+<h3 id="publishing">publishing<a class="hash" href="#publishing" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/ˈpʌblɪʃɪŋ/ &middot; <em>PUB-lih-shing</em></dd><dt>Русский</dt><dd>издательское дело</dd><dt>Countability</dt><dd>uncountable</dd></dl>
+<p>The business of producing books, magazines, and newspapers.</p>
+<ol><li>She's worked in <em>publishing</em> for twenty years.</li><li><em>Publishing</em> has changed completely since e-books.</li><li>He left law for <em>publishing</em>.</li></ol>
+<hr>
+<h3 id="press">press<a class="hash" href="#press" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/pres/ &middot; <em>PRES</em></dd><dt>Русский</dt><dd>пресса, СМИ</dd><dt>Countability</dt><dd>uncountable</dd></dl>
+<p>Newspapers and the reporters who work for them, taken as a whole.</p>
+<ol><li>The <em>press</em> was waiting outside the courthouse.</li><li>The mayor rarely talks to the <em>press</em>.</li><li>The movie got terrible <em>press</em>.</li></ol>
+<hr>
+<h3 id="printing">printing<a class="hash" href="#printing" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/ˈprɪntɪŋ/ &middot; <em>PRIN-ting</em></dd><dt>Русский</dt><dd>печать, книгопечатание</dd><dt>Countability</dt><dd>uncountable</dd></dl>
+<p>The process of making words and pictures on paper by machine.</p>
+<ol><li><em>Printing</em> costs went up again this year.</li><li>The book is at the <em>printing</em> stage now.</li><li>Color <em>printing</em> is what makes it expensive.</li></ol>
+<hr>
+<h3 id="novel">novel<a class="hash" href="#novel" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/ˈnɑːvəl/ &middot; <em>NAH-vuhl</em></dd><dt>Русский</dt><dd>роман</dd><dt>Plural</dt><dd><em>novels</em></dd><dt>Countability</dt><dd>countable</dd></dl>
+<p>A long made-up story published as a book.</p>
+<ol><li>He's writing his second <em>novel</em>.</li><li>The <em>novel</em> is set in Chicago in the 1920s.</li><li>She's read all of his <em>novels</em> twice.</li></ol>
+<hr>
+<h3 id="novella">novella<a class="hash" href="#novella" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/noʊˈvelə/ &middot; <em>noh-VEL-uh</em></dd><dt>Русский</dt><dd>повесть</dd><dt>Plural</dt><dd><em>novellas</em></dd><dt>Countability</dt><dd>countable</dd></dl>
+<p>A story longer than a short story but shorter than a novel.</p>
+<ol><li>It's really a <em>novella</em>, not a novel.</li><li>The book collects two <em>novellas</em>.</li><li>Her <em>novella</em> runs about a hundred pages.</li></ol>
+<hr>
+<h3 id="novelist">novelist<a class="hash" href="#novelist" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/ˈnɑːvəlɪst/ &middot; <em>NAH-vuh-list</em></dd><dt>Русский</dt><dd>романист, писатель</dd><dt>Plural</dt><dd><em>novelists</em></dd><dt>Countability</dt><dd>countable</dd></dl>
+<p>A writer of novels.</p>
+<ol><li>She's a <em>novelist</em> who also teaches writing.</li><li>Two well-known <em>novelists</em> spoke at the festival.</li><li>He quit his job to become a <em>novelist</em>.</li></ol>
+<hr>
+<h3 id="fiction">fiction<a class="hash" href="#fiction" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/ˈfɪkʃən/ &middot; <em>FIK-shuhn</em></dd><dt>Русский</dt><dd>художественная литература</dd><dt>Countability</dt><dd>uncountable</dd></dl>
+<p>Writing about people and events that are made up rather than real.</p>
+<ol><li>I read mostly <em>fiction</em> on vacation.</li><li>The <em>fiction</em> section is upstairs.</li><li>She writes both <em>fiction</em> and essays.</li></ol>
+<hr>
+<h3 id="nonfiction">nonfiction<a class="hash" href="#nonfiction" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/ˌnɑːnˈfɪkʃən/ &middot; <em>nahn-FIK-shuhn</em></dd><dt>Русский</dt><dd>нехудожественная литература, нон-фикшн</dd><dt>Countability</dt><dd>uncountable</dd></dl>
+<p>Writing about real people, events, and facts.</p>
+<ol><li>His last three books were <em>nonfiction</em>.</li><li><em>Nonfiction</em> outsells fiction in this store.</li><li>She won a prize for narrative <em>nonfiction</em>.</li></ol>
+<hr>
+<h3 id="biography">biography<a class="hash" href="#biography" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/baɪˈɑːɡrəfi/ &middot; <em>by-AH-gruh-fee</em></dd><dt>Русский</dt><dd>биография</dd><dt>Plural</dt><dd><em>biographies</em></dd><dt>Countability</dt><dd>countable</dd></dl>
+<p>A book that tells the story of a real person's life, written by someone else.</p>
+<ol><li>I'm halfway through a <em>biography</em> of Lincoln.</li><li>The <em>biography</em> runs almost nine hundred pages.</li><li>He's written <em>biographies</em> of three presidents.</li></ol>
+<hr>
+<h3 id="autobiography">autobiography<a class="hash" href="#autobiography" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/ˌɔːtəbaɪˈɑːɡrəfi/ &middot; <em>aw-tuh-by-AH-gruh-fee</em></dd><dt>Русский</dt><dd>автобиография</dd><dt>Plural</dt><dd><em>autobiographies</em></dd><dt>Countability</dt><dd>countable</dd></dl>
+<p>The story of a person's life written by that person.</p>
+<ol><li>Her <em>autobiography</em> came out just after she retired.</li><li>He's working on an <em>autobiography</em>.</li><li>Celebrity <em>autobiographies</em> sell well at Christmas.</li></ol>
+<hr>
+<h3 id="memoir">memoir<a class="hash" href="#memoir" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/ˈmemwɑːr/ &middot; <em>MEM-wahr</em></dd><dt>Русский</dt><dd>мемуары, воспоминания</dd><dt>Plural</dt><dd><em>memoirs</em></dd><dt>Countability</dt><dd>countable</dd><dt>Contrast</dt><dd>The -oir ending sounds like 'wahr', not 'oyr': MEM-wahr.</dd></dl>
+<p>A book in which someone writes about a period of their own life.</p>
+<ol><li>Her <em>memoir</em> covers just the two years she spent abroad.</li><li>He's shopping a <em>memoir</em> around to publishers.</li><li>The store has a whole shelf of war <em>memoirs</em>.</li></ol>
+<hr>
+<h3 id="poem">poem<a class="hash" href="#poem" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/ˈpoʊrm/ &middot; <em>POH-uhm</em></dd><dt>Русский</dt><dd>стихотворение</dd><dt>Plural</dt><dd><em>poems</em></dd><dt>Countability</dt><dd>countable</dd></dl>
+<p>A short piece of writing arranged in lines, often with rhythm or rhyme.</p>
+<ol><li>She read a <em>poem</em> at the wedding.</li><li>The magazine prints two <em>poems</em> an issue.</li><li>He wrote the <em>poem</em> in about ten minutes.</li></ol>
+<hr>
+<h3 id="poet">poet<a class="hash" href="#poet" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/ˈpoʊrt/ &middot; <em>POH-uht</em></dd><dt>Русский</dt><dd>поэт</dd><dt>Plural</dt><dd><em>poets</em></dd><dt>Countability</dt><dd>countable</dd></dl>
+<p>Someone who writes poems.</p>
+<ol><li>He's a <em>poet</em> and a translator.</li><li>Four <em>poets</em> are reading tonight.</li><li>She was the first <em>poet</em> he ever met.</li></ol>
+<hr>
+<h3 id="anthology">anthology<a class="hash" href="#anthology" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/ænˈθɑːlədʒi/ &middot; <em>an-THAH-luh-jee</em></dd><dt>Русский</dt><dd>антология, сборник</dd><dt>Plural</dt><dd><em>anthologies</em></dd><dt>Countability</dt><dd>countable</dd></dl>
+<p>A book collecting pieces by several different writers.</p>
+<ol><li>Her story is in an <em>anthology</em> of new American writing.</li><li>We used a poetry <em>anthology</em> in class.</li><li>He edits <em>anthologies</em> for a living.</li></ol>
+<hr>
+<h3 id="almanac">almanac<a class="hash" href="#almanac" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/ˈɔːlmənæk/ &middot; <em>AWL-muh-nak</em></dd><dt>Русский</dt><dd>альманах, справочник-ежегодник</dd><dt>Plural</dt><dd><em>almanacs</em></dd><dt>Countability</dt><dd>countable</dd></dl>
+<p>A book published once a year with facts, dates, and tables.</p>
+<ol><li>My grandfather planted by the <em>almanac</em>.</li><li>The sports <em>almanac</em> lists every record.</li><li>He keeps thirty years of <em>almanacs</em> in the basement.</li></ol>
+<hr>
+<h3 id="catalog">catalog<a class="hash" href="#catalog" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/ˈkætəlɔːɡ/ &middot; <em>KAT-uh-lawg</em></dd><dt>Русский</dt><dd>каталог</dd><dt>Plural</dt><dd><em>catalogs</em></dd><dt>Countability</dt><dd>countable</dd><dt>Contrast</dt><dd>American spelling <em>catalog</em>; the British write <em>catalogue</em>.</dd></dl>
+<p>A book or list showing all the items a company or library has.</p>
+<ol><li>The seed <em>catalog</em> came in the mail again.</li><li>Search the library <em>catalog</em> by author.</li><li>They mail out two <em>catalogs</em> a year.</li></ol>
+<hr>
+<h3 id="pamphlet">pamphlet<a class="hash" href="#pamphlet" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/ˈpæmflət/ &middot; <em>PAM-fluht</em></dd><dt>Русский</dt><dd>брошюра, буклет</dd><dt>Plural</dt><dd><em>pamphlets</em></dd><dt>Countability</dt><dd>countable</dd></dl>
+<p>A thin booklet of a few folded pages, usually giving information about one subject.</p>
+<ol><li>The nurse handed me a <em>pamphlet</em> about the medication.</li><li>Volunteers were passing out <em>pamphlets</em> on the corner.</li><li>The <em>pamphlet</em> explains how to register to vote.</li></ol>
+<hr>
+<h3 id="leaflet">leaflet<a class="hash" href="#leaflet" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/ˈliːflət/ &middot; <em>LEEF-luht</em></dd><dt>Русский</dt><dd>листовка</dd><dt>Plural</dt><dd><em>leaflets</em></dd><dt>Countability</dt><dd>countable</dd></dl>
+<p>A single printed sheet handed out to give information or advertise something.</p>
+<ol><li>Someone stuck a <em>leaflet</em> under my windshield wiper.</li><li>The clinic prints <em>leaflets</em> in four languages.</li><li>She read the <em>leaflet</em> twice and threw it out.</li></ol>
+<hr>
+<h3 id="flyer">flyer<a class="hash" href="#flyer" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/ˈflaɪrr/ &middot; <em>FLY-ur</em></dd><dt>Русский</dt><dd>листовка, флаер</dd><dt>Plural</dt><dd><em>flyers</em></dd><dt>Countability</dt><dd>countable</dd><dt>Contrast</dt><dd>Also spelled <em>flier</em> in American English; both are correct.</dd></dl>
+<p>A small printed sheet advertising an event or business.</p>
+<ol><li>We put up <em>flyers</em> all over campus.</li><li>A kid handed me a <em>flyer</em> for a pizza place.</li><li>The <em>flyer</em> had the wrong date on it.</li></ol>
+<hr>
+<h3 id="comic">comic<a class="hash" href="#comic" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/ˈkɑːmɪk/ &middot; <em>KAH-mik</em></dd><dt>Русский</dt><dd>комикс</dd><dt>Plural</dt><dd><em>comics</em></dd><dt>Countability</dt><dd>countable</dd></dl>
+<p>A magazine or book that tells a story in drawn panels.</p>
+<ol><li>He spent his allowance on <em>comics</em>.</li><li>The <em>comic</em> came out every Wednesday.</li><li>There's a <em>comic</em> shop two blocks over.</li></ol>
+<hr>
+<h3 id="cartoon">cartoon<a class="hash" href="#cartoon" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/kɑːrˈtuːn/ &middot; <em>kar-TOON</em></dd><dt>Русский</dt><dd>карикатура; мультфильм</dd><dt>Plural</dt><dd><em>cartoons</em></dd><dt>Countability</dt><dd>countable</dd></dl>
+<p>A funny drawing in a newspaper or magazine, or a short animated film.</p>
+<ol><li>The <em>cartoon</em> on the editorial page made me laugh out loud.</li><li>The kids watch <em>cartoons</em> on Saturday morning.</li><li>He draws a weekly <em>cartoon</em> for the paper.</li></ol>
+<hr>
+<h3 id="bestseller">bestseller<a class="hash" href="#bestseller" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/ˌbestˈselər/ &middot; <em>best-SEL-ur</em></dd><dt>Русский</dt><dd>бестселлер</dd><dt>Plural</dt><dd><em>bestsellers</em></dd><dt>Countability</dt><dd>countable</dd></dl>
+<p>A book that sells in very large numbers.</p>
+<ol><li>Her first novel was a surprise <em>bestseller</em>.</li><li>The store stacks the <em>bestsellers</em> by the door.</li><li>It's been a <em>bestseller</em> for thirty weeks.</li></ol>
+<hr>
+<h3 id="excerpt">excerpt<a class="hash" href="#excerpt" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/ˈeksɜːrpt/ &middot; <em>EK-surpt</em></dd><dt>Русский</dt><dd>отрывок, выдержка</dd><dt>Plural</dt><dd><em>excerpts</em></dd><dt>Countability</dt><dd>countable</dd><dt>Contrast</dt><dd>Noun EK-surpt with the stress on the first syllable; the verb is often ek-SURPT.</dd></dl>
+<p>A short piece taken out of a longer book, article, or speech.</p>
+<ol><li>The magazine ran an <em>excerpt</em> from her new book.</li><li>He read a short <em>excerpt</em> at the signing.</li><li>The website posts <em>excerpts</em> every Friday.</li></ol>
+<hr>
+<h3 id="plot">plot<a class="hash" href="#plot" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/plɑːt/ &middot; <em>PLAHT</em></dd><dt>Русский</dt><dd>сюжет</dd><dt>Plural</dt><dd><em>plots</em></dd><dt>Countability</dt><dd>countable</dd></dl>
+<p>The series of events that make up a story.</p>
+<ol><li>The <em>plot</em> falls apart in the last act.</li><li>Don't tell me the <em>plot</em> — I haven't seen it.</li><li>Both books have almost identical <em>plots</em>.</li></ol>
+<hr>
+<h3 id="character">character<a class="hash" href="#character" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/ˈkærəktər/ &middot; <em>KAR-uk-tur</em></dd><dt>Русский</dt><dd>персонаж, герой</dd><dt>Plural</dt><dd><em>characters</em></dd><dt>Countability</dt><dd>countable</dd></dl>
+<p>A person in a book, movie, or TV show.</p>
+<ol><li>The main <em>character</em> is a retired detective.</li><li>There are too many <em>characters</em> to keep straight.</li><li>She's my favorite <em>character</em> on the show.</li></ol>
+<hr>
+<h3 id="narrator">narrator<a class="hash" href="#narrator" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/ˈnæreɪtər/ &middot; <em>NA-ray-tur</em></dd><dt>Русский</dt><dd>рассказчик, повествователь</dd><dt>Plural</dt><dd><em>narrators</em></dd><dt>Countability</dt><dd>countable</dd></dl>
+<p>The voice that tells a story in a book, film, or audiobook.</p>
+<ol><li>The <em>narrator</em> turns out to be lying.</li><li>The audiobook has a great <em>narrator</em>.</li><li>The novel switches between three <em>narrators</em>.</li></ol>
+<hr>
+<h3 id="genre">genre<a class="hash" href="#genre" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/ˈʒɑːnrər/ &middot; <em>ZHAHN-ruh</em></dd><dt>Русский</dt><dd>жанр</dd><dt>Plural</dt><dd><em>genres</em></dd><dt>Countability</dt><dd>countable</dd><dt>Contrast</dt><dd>Starts with the 'zh' sound of the s in <em>measure</em>, not a hard g.</dd></dl>
+<p>A type of book, film, or music with its own typical style and subject.</p>
+<ol><li>Horror isn't really my <em>genre</em>.</li><li>The book jumps between two <em>genres</em>.</li><li>Mystery is the best-selling <em>genre</em> in the store.</li></ol>
+<hr>
+<h3 id="sequel">sequel<a class="hash" href="#sequel" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/ˈsiːkwəl/ &middot; <em>SEE-kwuhl</em></dd><dt>Русский</dt><dd>продолжение, сиквел</dd><dt>Plural</dt><dd><em>sequels</em></dd><dt>Countability</dt><dd>countable</dd></dl>
+<p>A book or film that continues the story of an earlier one.</p>
+<ol><li>The <em>sequel</em> wasn't as good as the first one.</li><li>They're already shooting two <em>sequels</em>.</li><li>She's writing a <em>sequel</em> to her debut novel.</li></ol>
+<hr>
+<h3 id="prequel">prequel<a class="hash" href="#prequel" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/ˈpriːkwəl/ &middot; <em>PREE-kwuhl</em></dd><dt>Русский</dt><dd>приквел</dd><dt>Plural</dt><dd><em>prequels</em></dd><dt>Countability</dt><dd>countable</dd></dl>
+<p>A book or film about what happened before the story of an earlier one.</p>
+<ol><li>The <em>prequel</em> explains how they met.</li><li>Nobody asked for a <em>prequel</em>.</li><li>The series has three sequels and one <em>prequel</em>.</li></ol>
+<hr>
+<h3 id="adaptation">adaptation<a class="hash" href="#adaptation" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/ˌædæpˈteɪʃən/ &middot; <em>ad-ap-TAY-shuhn</em></dd><dt>Русский</dt><dd>экранизация, адаптация</dd><dt>Plural</dt><dd><em>adaptations</em></dd><dt>Countability</dt><dd>countable</dd></dl>
+<p>A film, play, or show made from a book or other existing work.</p>
+<ol><li>The film <em>adaptation</em> cuts half the book.</li><li>There have been four <em>adaptations</em> of that novel.</li><li>She's writing a stage <em>adaptation</em>.</li></ol>
+<hr>
+<h3 id="translation">translation<a class="hash" href="#translation" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/trænsˈleɪʃən/ &middot; <em>trans-LAY-shuhn</em></dd><dt>Русский</dt><dd>перевод</dd><dt>Plural</dt><dd><em>translations</em></dd><dt>Countability</dt><dd>countable</dd></dl>
+<p>A version of a text put into another language.</p>
+<ol><li>I read it in <em>translation</em>, not in the original.</li><li>There are three English <em>translations</em> of the poem.</li><li>The new <em>translation</em> is much easier to read.</li></ol>
+<hr>
+<h3 id="royalty">royalty<a class="hash" href="#royalty" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/ˈrɔɪrlti/ &middot; <em>ROY-uhl-tee</em></dd><dt>Русский</dt><dd>авторские отчисления, роялти</dd><dt>Plural</dt><dd><em>royalties</em></dd><dt>Countability</dt><dd>countable</dd></dl>
+<p>Money paid to an author or musician for each copy of their work that sells.</p>
+<ol><li>She still gets <em>royalties</em> from her first book.</li><li>The contract sets the <em>royalty</em> at ten percent.</li><li>His <em>royalties</em> barely cover the rent.</li></ol>
+<hr>
+<h3 id="censorship">censorship<a class="hash" href="#censorship" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/ˈsensərʃɪp/ &middot; <em>SEN-sur-ship</em></dd><dt>Русский</dt><dd>цензура</dd><dt>Countability</dt><dd>uncountable</dd></dl>
+<p>The practice of blocking or cutting parts of books, films, or news.</p>
+<ol><li>The editors called it <em>censorship</em>.</li><li><em>Censorship</em> of the press is banned by the constitution.</li><li>She wrote a book about wartime <em>censorship</em>.</li></ol>
+<hr>
+<h3 id="readership">readership<a class="hash" href="#readership" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/ˈriːdərʃɪp/ &middot; <em>REE-dur-ship</em></dd><dt>Русский</dt><dd>читательская аудитория</dd><dt>Plural</dt><dd><em>readerships</em></dd><dt>Countability</dt><dd>countable</dd></dl>
+<p>The group of people who read a particular paper, magazine, or writer.</p>
+<ol><li>The magazine has a <em>readership</em> of two million.</li><li>Their <em>readership</em> is mostly under thirty.</li><li>The paper lost half its <em>readership</em> in a decade.</li></ol>
+<hr>
+<h3 id="reader">reader<a class="hash" href="#reader" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/ˈriːdər/ &middot; <em>REE-dur</em></dd><dt>Русский</dt><dd>читатель</dd><dt>Plural</dt><dd><em>readers</em></dd><dt>Countability</dt><dd>countable</dd></dl>
+<p>A person who reads a book, paper, or website.</p>
+<ol><li><em>Readers</em> wrote in by the hundreds.</li><li>She's a slow but careful <em>reader</em>.</li><li>The column has loyal <em>readers</em>.</li></ol>
+<hr>
+<h3 id="bookstore">bookstore<a class="hash" href="#bookstore" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/ˈbʊkstɔːr/ &middot; <em>BUUK-stor</em></dd><dt>Русский</dt><dd>книжный магазин</dd><dt>Plural</dt><dd><em>bookstores</em></dd><dt>Countability</dt><dd>countable</dd><dt>Contrast</dt><dd>American <em>bookstore</em>; the British say <em>bookshop</em>.</dd></dl>
+<p>A shop that sells books.</p>
+<ol><li>There's a used <em>bookstore</em> on Fifth Street.</li><li>She does a reading at the <em>bookstore</em> tonight.</li><li>Half the <em>bookstores</em> downtown have closed.</li></ol>
+<hr>
+<h3 id="bookshelf">bookshelf<a class="hash" href="#bookshelf" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/ˈbʊkʃelf/ &middot; <em>BUUK-shelf</em></dd><dt>Русский</dt><dd>книжная полка</dd><dt>Plural</dt><dd><em>bookshelves</em></dd><dt>Countability</dt><dd>countable</dd><dt>Contrast</dt><dd>Irregular plural: one <em>bookshelf</em>, two <em>bookshelves</em>.</dd></dl>
+<p>A shelf or piece of furniture for holding books.</p>
+<ol><li>The <em>bookshelf</em> is about to collapse.</li><li>He built the <em>bookshelves</em> himself.</li><li>There's a gap on the <em>bookshelf</em> where it used to be.</li></ol>
+<hr>
+<h3 id="audiobook">audiobook<a class="hash" href="#audiobook" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/ˈɔːdioʊbʊk/ &middot; <em>AW-dee-oh-buuk</em></dd><dt>Русский</dt><dd>аудиокнига</dd><dt>Plural</dt><dd><em>audiobooks</em></dd><dt>Countability</dt><dd>countable</dd></dl>
+<p>A recording of a book being read aloud.</p>
+<ol><li>I listen to <em>audiobooks</em> on my commute.</li><li>The <em>audiobook</em> is fourteen hours long.</li><li>The author reads her own <em>audiobook</em>.</li></ol>
+<hr>
+<h3 id="ebook">ebook<a class="hash" href="#ebook" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/ˈiːbʊk/ &middot; <em>EE-buuk</em></dd><dt>Русский</dt><dd>электронная книга</dd><dt>Plural</dt><dd><em>ebooks</em></dd><dt>Countability</dt><dd>countable</dd></dl>
+<p>A book you read on a screen instead of on paper.</p>
+<ol><li>The <em>ebook</em> is three dollars cheaper.</li><li>I have about four hundred <em>ebooks</em> on this thing.</li><li>The <em>ebook</em> came out the same day as the hardcover.</li></ol>
+<hr>
+<h3 id="newspaper">newspaper<a class="hash" href="#newspaper" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/ˈnuːzpeɪpər/ &middot; <em>NOOZ-pay-pur</em></dd><dt>Русский</dt><dd>газета</dd><dt>Plural</dt><dd><em>newspapers</em></dd><dt>Countability</dt><dd>countable</dd><dt>Contrast</dt><dd>Americans say NOOZ; the British say NYOOZ.</dd></dl>
+<p>A set of large printed sheets sold daily or weekly with news in it.</p>
+<ol><li>He still reads a <em>newspaper</em> with breakfast.</li><li>The story ran in every <em>newspaper</em> in the state.</li><li>Local <em>newspapers</em> are shutting down all over.</li></ol>
+<hr>
+<h3 id="magazine">magazine<a class="hash" href="#magazine" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/ˈmæɡəziːn/ &middot; <em>MAG-uh-zeen</em></dd><dt>Русский</dt><dd>журнал</dd><dt>Plural</dt><dd><em>magazines</em></dd><dt>Countability</dt><dd>countable</dd><dt>Contrast</dt><dd>Americans usually stress the first syllable, MAG-uh-zeen; the British stress the last.</dd></dl>
+<p>A thin publication with photos and articles, printed weekly or monthly.</p>
+<ol><li>There's a stack of old <em>magazines</em> in the waiting room.</li><li>She writes for a food <em>magazine</em>.</li><li>The <em>magazine</em> comes out on the first of the month.</li></ol>
+<hr>
+<h3 id="journal">journal<a class="hash" href="#journal" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/ˈdʒɜːrnəl/ &middot; <em>JUR-nuhl</em></dd><dt>Русский</dt><dd>научный журнал; дневник</dd><dt>Plural</dt><dd><em>journals</em></dd><dt>Countability</dt><dd>countable</dd></dl>
+<p>A serious magazine for a profession or field of study, or a private diary.</p>
+<ol><li>The findings appeared in a medical <em>journal</em>.</li><li>The library subscribes to over two hundred <em>journals</em>.</li><li>She keeps a <em>journal</em> by her bed.</li></ol>
+<hr>
+<h3 id="journalism">journalism<a class="hash" href="#journalism" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/ˈdʒɜːrnəlɪzəm/ &middot; <em>JUR-nuh-liz-uhm</em></dd><dt>Русский</dt><dd>журналистика</dd><dt>Countability</dt><dd>uncountable</dd></dl>
+<p>The work of gathering and reporting news.</p>
+<ol><li>She studied <em>journalism</em> in college.</li><li>That series was excellent <em>journalism</em>.</li><li><em>Journalism</em> pays badly and always has.</li></ol>
+<hr>
+<h3 id="newsroom">newsroom<a class="hash" href="#newsroom" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/ˈnuːzruːm/ &middot; <em>NOOZ-room</em></dd><dt>Русский</dt><dd>редакция новостей</dd><dt>Plural</dt><dd><em>newsrooms</em></dd><dt>Countability</dt><dd>countable</dd></dl>
+<p>The room or department where reporters and editors put the news together.</p>
+<ol><li>The <em>newsroom</em> went quiet when the call came in.</li><li>He spent thirty years in that <em>newsroom</em>.</li><li><em>Newsrooms</em> are a third the size they used to be.</li></ol>
+<hr>
+<h3 id="article">article<a class="hash" href="#article" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/ˈɑːrtɪkəl/ &middot; <em>AR-tih-kuhl</em></dd><dt>Русский</dt><dd>статья</dd><dt>Plural</dt><dd><em>articles</em></dd><dt>Countability</dt><dd>countable</dd></dl>
+<p>A piece of writing about one subject in a newspaper, magazine, or website.</p>
+<ol><li>Did you read the <em>article</em> about the bridge?</li><li>She's filed three <em>articles</em> this week.</li><li>The <em>article</em> is behind a paywall.</li></ol>
+<hr>
+<h3 id="headline">headline<a class="hash" href="#headline" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/ˈhedlaɪn/ &middot; <em>HED-lyn</em></dd><dt>Русский</dt><dd>заголовок (в газете)</dd><dt>Plural</dt><dd><em>headlines</em></dd><dt>Countability</dt><dd>countable</dd></dl>
+<p>The title printed in large type above a news story.</p>
+<ol><li>The <em>headline</em> was bigger than the story deserved.</li><li>He only reads the <em>headlines</em>.</li><li>That verdict made <em>headlines</em> across the country.</li></ol>
+<hr>
+<h3 id="byline">byline<a class="hash" href="#byline" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/ˈbaɪlaɪn/ &middot; <em>BY-lyn</em></dd><dt>Русский</dt><dd>подпись автора статьи</dd><dt>Plural</dt><dd><em>bylines</em></dd><dt>Countability</dt><dd>countable</dd></dl>
+<p>The line naming the reporter who wrote an article.</p>
+<ol><li>Her <em>byline</em> was on the front page.</li><li>He got his first <em>byline</em> at nineteen.</li><li>The piece ran with two <em>bylines</em>.</li></ol>
+<hr>
+<h3 id="editorial">editorial<a class="hash" href="#editorial" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/ˌedɪˈtɔːriəl/ &middot; <em>ed-ih-TOR-ee-uhl</em></dd><dt>Русский</dt><dd>редакционная статья, передовица</dd><dt>Plural</dt><dd><em>editorials</em></dd><dt>Countability</dt><dd>countable</dd></dl>
+<p>An article giving the opinion of the newspaper itself rather than a reporter.</p>
+<ol><li>The paper ran an <em>editorial</em> against the tax.</li><li>He writes most of the <em>editorials</em>.</li><li>The <em>editorial</em> called for the chief to resign.</li></ol>
+<hr>
+<h3 id="columnist">columnist<a class="hash" href="#columnist" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/ˈkɑːləmnɪst/ &middot; <em>KAH-luhm-nist</em></dd><dt>Русский</dt><dd>обозреватель, колумнист</dd><dt>Plural</dt><dd><em>columnists</em></dd><dt>Countability</dt><dd>countable</dd><dt>Contrast</dt><dd>The n is silent in <em>column</em> but pronounced in <em>columnist</em>: KAH-luhm-nist.</dd></dl>
+<p>A writer with a regular signed piece in a paper or magazine.</p>
+<ol><li>She's a sports <em>columnist</em> for the local paper.</li><li>Two <em>columnists</em> quit over the decision.</li><li>The <em>columnist</em> apologized the next week.</li></ol>
+<hr>
+<h3 id="contributor">contributor<a class="hash" href="#contributor" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/kənˈtrɪbjətər/ &middot; <em>kuhn-TRIB-yuh-tur</em></dd><dt>Русский</dt><dd>внештатный автор</dd><dt>Plural</dt><dd><em>contributors</em></dd><dt>Countability</dt><dd>countable</dd></dl>
+<p>A writer who supplies pieces to a magazine or site without being on staff.</p>
+<ol><li>She's a regular <em>contributor</em> to the food section.</li><li>The masthead lists forty <em>contributors</em>.</li><li>They pay <em>contributors</em> by the word.</li></ol>
+<hr>
+<h3 id="reporter">reporter<a class="hash" href="#reporter" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/rɪˈpɔːrtər/ &middot; <em>rih-POR-tur</em></dd><dt>Русский</dt><dd>репортёр, корреспондент</dd><dt>Plural</dt><dd><em>reporters</em></dd><dt>Countability</dt><dd>countable</dd></dl>
+<p>Someone whose job is to find out about news and write or talk about it.</p>
+<ol><li>A <em>reporter</em> called the house twice.</li><li><em>Reporters</em> were camped outside all week.</li><li>He's been a crime <em>reporter</em> for ten years.</li></ol>
+<hr>
+<h3 id="correspondent">correspondent<a class="hash" href="#correspondent" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/ˌkɔːrəˈspɑːndənt/ &middot; <em>kor-uh-SPAHN-duhnt</em></dd><dt>Русский</dt><dd>корреспондент (обычно зарубежный или специальный)</dd><dt>Plural</dt><dd><em>correspondents</em></dd><dt>Countability</dt><dd>countable</dd></dl>
+<p>A reporter who covers one place or subject for a paper or network.</p>
+<ol><li>Our White House <em>correspondent</em> has the story.</li><li>She spent four years as a foreign <em>correspondent</em>.</li><li>Two <em>correspondents</em> were pulled out of the country.</li></ol>
+<hr>
+<h3 id="critic">critic<a class="hash" href="#critic" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/ˈkrɪtɪk/ &middot; <em>KRIT-ik</em></dd><dt>Русский</dt><dd>критик</dd><dt>Plural</dt><dd><em>critics</em></dd><dt>Countability</dt><dd>countable</dd></dl>
+<p>Someone whose job is to judge books, films, food, or art in public.</p>
+<ol><li>The film <em>critic</em> gave it two stars.</li><li><em>Critics</em> loved it; nobody went to see it.</li><li>She's the restaurant <em>critic</em> for the paper.</li></ol>
+<hr>
+<h3 id="reviewer">reviewer<a class="hash" href="#reviewer" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/rɪˈvjuːər/ &middot; <em>rih-VYOO-ur</em></dd><dt>Русский</dt><dd>рецензент, обозреватель</dd><dt>Plural</dt><dd><em>reviewers</em></dd><dt>Countability</dt><dd>countable</dd></dl>
+<p>A person who writes an opinion piece about a new book, film, or product.</p>
+<ol><li>One <em>reviewer</em> called it the book of the year.</li><li><em>Reviewers</em> got advance copies in June.</li><li>The <em>reviewer</em> clearly hadn't finished it.</li></ol>
+<hr>
+<h3 id="feature">feature<a class="hash" href="#feature" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/ˈfiːtʃər/ &middot; <em>FEE-chur</em></dd><dt>Русский</dt><dd>очерк, большая тематическая статья</dd><dt>Plural</dt><dd><em>features</em></dd><dt>Countability</dt><dd>countable</dd></dl>
+<p>A long newspaper or magazine article about one subject, rather than straight news.</p>
+<ol><li>She's writing a <em>feature</em> on the housing shortage.</li><li>The Sunday <em>feature</em> runs about five thousand words.</li><li>He does mostly <em>features</em> now, not daily reporting.</li></ol>
+<hr>
+<h3 id="coverage">coverage<a class="hash" href="#coverage" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/ˈkʌvərɪdʒ/ &middot; <em>KUV-uh-rij</em></dd><dt>Русский</dt><dd>освещение (в СМИ)</dd><dt>Countability</dt><dd>uncountable</dd></dl>
+<p>The reporting a story gets in newspapers, on TV, or online.</p>
+<ol><li>The trial got wall-to-wall <em>coverage</em>.</li><li>Local <em>coverage</em> of the storm was excellent.</li><li>There was almost no <em>coverage</em> of the vote.</li></ol>
+<hr>
+<h3 id="scoop">scoop<a class="hash" href="#scoop" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/skuːp/ &middot; <em>SKOOP</em></dd><dt>Русский</dt><dd>сенсация, эксклюзивный материал</dd><dt>Plural</dt><dd><em>scoops</em></dd><dt>Countability</dt><dd>countable</dd></dl>
+<p>An important news story that one reporter gets before anyone else.</p>
+<ol><li>That story was a real <em>scoop</em>.</li><li>She got the <em>scoop</em> from a source at city hall.</li><li>The paper has had two big <em>scoops</em> this month.</li></ol>
+<hr>
+<h3 id="source">source<a class="hash" href="#source" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/sɔːrs/ &middot; <em>SORS</em></dd><dt>Русский</dt><dd>источник (информации)</dd><dt>Plural</dt><dd><em>sources</em></dd><dt>Countability</dt><dd>countable</dd></dl>
+<p>A person or document that gives a reporter information.</p>
+<ol><li>He won't name his <em>source</em>.</li><li>Two <em>sources</em> confirmed the story.</li><li>A <em>source</em> inside the company leaked the memo.</li></ol>
+<hr>
+<h3 id="quote">quote<a class="hash" href="#quote" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/kwoʊt/ &middot; <em>KWOHT</em></dd><dt>Русский</dt><dd>цитата</dd><dt>Plural</dt><dd><em>quotes</em></dd><dt>Countability</dt><dd>countable</dd></dl>
+<p>Someone's exact words repeated in a story or book.</p>
+<ol><li>That <em>quote</em> was taken out of context.</li><li>The article is just three <em>quotes</em> and no facts.</li><li>Can I use that as a <em>quote</em>?</li></ol>
+<hr>
+<h3 id="quotation">quotation<a class="hash" href="#quotation" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/kwoʊˈteɪʃən/ &middot; <em>kwoh-TAY-shuhn</em></dd><dt>Русский</dt><dd>цитата</dd><dt>Plural</dt><dd><em>quotations</em></dd><dt>Countability</dt><dd>countable</dd></dl>
+<p>A group of words taken from a book or speech and repeated exactly.</p>
+<ol><li>The chapter opens with a <em>quotation</em> from Twain.</li><li>He collects <em>quotations</em> in a little notebook.</li><li>That <em>quotation</em> is usually misattributed.</li></ol>
+<hr>
+<h3 id="obituary">obituary<a class="hash" href="#obituary" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/oʊˈbɪtʃueri/ &middot; <em>oh-BICH-oo-er-ee</em></dd><dt>Русский</dt><dd>некролог</dd><dt>Plural</dt><dd><em>obituaries</em></dd><dt>Countability</dt><dd>countable</dd></dl>
+<p>A short article about someone's life printed after they die.</p>
+<ol><li>I read his <em>obituary</em> in the paper.</li><li>She writes <em>obituaries</em> for the Sunday edition.</li><li>The <em>obituary</em> left out his first marriage.</li></ol>
+<hr>
+<h3 id="crossword">crossword<a class="hash" href="#crossword" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/ˈkrɔːswɜːrd/ &middot; <em>KRAWS-wurd</em></dd><dt>Русский</dt><dd>кроссворд</dd><dt>Plural</dt><dd><em>crosswords</em></dd><dt>Countability</dt><dd>countable</dd></dl>
+<p>A word puzzle in a grid, printed in most newspapers.</p>
+<ol><li>He does the <em>crossword</em> in pen.</li><li>Sunday's <em>crossword</em> took me two hours.</li><li>She saves the <em>crosswords</em> for the plane.</li></ol>
+<hr>
+<h3 id="horoscope">horoscope<a class="hash" href="#horoscope" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/ˈhɔːrəskoʊp/ &middot; <em>HOR-uh-skohp</em></dd><dt>Русский</dt><dd>гороскоп</dd><dt>Plural</dt><dd><em>horoscopes</em></dd><dt>Countability</dt><dd>countable</dd></dl>
+<p>A short forecast for people born under each star sign, printed in papers.</p>
+<ol><li>My <em>horoscope</em> said to avoid big decisions.</li><li>She reads the <em>horoscope</em> first, then the news.</li><li>The <em>horoscopes</em> are on the back page.</li></ol>
+<hr>
+<h3 id="tabloid">tabloid<a class="hash" href="#tabloid" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/ˈtæblɔɪd/ &middot; <em>TAB-loyd</em></dd><dt>Русский</dt><dd>таблоид, бульварная газета</dd><dt>Plural</dt><dd><em>tabloids</em></dd><dt>Countability</dt><dd>countable</dd></dl>
+<p>A small-format newspaper full of celebrity news and short, dramatic stories.</p>
+<ol><li>The <em>tabloids</em> ran the photo for a week.</li><li>You can't believe anything in that <em>tabloid</em>.</li><li>She sold her story to a <em>tabloid</em>.</li></ol>
+<hr>
+<h3 id="newsstand">newsstand<a class="hash" href="#newsstand" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/ˈnuːzstænd/ &middot; <em>NOOZ-stand</em></dd><dt>Русский</dt><dd>газетный киоск</dd><dt>Plural</dt><dd><em>newsstands</em></dd><dt>Countability</dt><dd>countable</dd></dl>
+<p>A small open stall on a street or in a station that sells papers and magazines.</p>
+<ol><li>I grabbed a paper at the <em>newsstand</em>.</li><li>The magazine sells better on <em>newsstands</em> than by mail.</li><li>There used to be a <em>newsstand</em> on every corner.</li></ol>
+<hr>
+<h3 id="newsletter">newsletter<a class="hash" href="#newsletter" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/ˈnuːzletər/ &middot; <em>NOOZ-let-ur</em></dd><dt>Русский</dt><dd>рассылка, информационный бюллетень</dd><dt>Plural</dt><dd><em>newsletters</em></dd><dt>Countability</dt><dd>countable</dd></dl>
+<p>A short regular report emailed or mailed to members or subscribers.</p>
+<ol><li>Sign up for our weekly <em>newsletter</em>.</li><li>The school sends a <em>newsletter</em> home every Friday.</li><li>I get too many <em>newsletters</em>.</li></ol>
+<hr>
+<h3 id="bulletin">bulletin<a class="hash" href="#bulletin" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/ˈbʊlətən/ &middot; <em>BUUL-uh-tin</em></dd><dt>Русский</dt><dd>сводка новостей, бюллетень</dd><dt>Plural</dt><dd><em>bulletins</em></dd><dt>Countability</dt><dd>countable</dd></dl>
+<p>A short news announcement or report, especially an urgent one.</p>
+<ol><li>They broke into the show with a news <em>bulletin</em>.</li><li>The station runs a weather <em>bulletin</em> every hour.</li><li>The first <em>bulletin</em> said only that a plane was down.</li></ol>
+<hr>
+<h3 id="briefing">briefing<a class="hash" href="#briefing" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/ˈbriːfɪŋ/ &middot; <em>BREE-fing</em></dd><dt>Русский</dt><dd>брифинг</dd><dt>Plural</dt><dd><em>briefings</em></dd><dt>Countability</dt><dd>countable</dd></dl>
+<p>A meeting where officials give reporters information about a situation.</p>
+<ol><li>The <em>briefing</em> starts at ten.</li><li>She asked two questions at the <em>briefing</em>.</li><li>Daily <em>briefings</em> were cut back to twice a week.</li></ol>
+<hr>
+<h3 id="circulation">circulation<a class="hash" href="#circulation" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/ˌsɜːrkjəˈleɪʃən/ &middot; <em>sur-kyuh-LAY-shuhn</em></dd><dt>Русский</dt><dd>тираж (газеты, журнала)</dd><dt>Countability</dt><dd>uncountable</dd></dl>
+<p>The number of copies of a paper or magazine that are sold.</p>
+<ol><li>The paper's <em>circulation</em> has fallen by half.</li><li><em>Circulation</em> peaked in the eighties.</li><li>The magazine claims a <em>circulation</em> of 90,000.</li></ol>
+<hr>
+<h3 id="subscriber">subscriber<a class="hash" href="#subscriber" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/səbˈskraɪbər/ &middot; <em>suhb-SKRY-bur</em></dd><dt>Русский</dt><dd>подписчик</dd><dt>Plural</dt><dd><em>subscribers</em></dd><dt>Countability</dt><dd>countable</dd></dl>
+<p>Someone who pays regularly to receive a paper, magazine, or service.</p>
+<ol><li>The site has 40,000 paying <em>subscribers</em>.</li><li><em>Subscribers</em> get the article a day early.</li><li>She's been a <em>subscriber</em> since 1998.</li></ol>
+<hr>
+<h3 id="periodical">periodical<a class="hash" href="#periodical" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/ˌpɪriˈɑːdɪkəl/ &middot; <em>pir-ee-AH-dih-kuhl</em></dd><dt>Русский</dt><dd>периодическое издание</dd><dt>Plural</dt><dd><em>periodicals</em></dd><dt>Countability</dt><dd>countable</dd></dl>
+<p>A magazine or journal that comes out at regular times.</p>
+<ol><li>The <em>periodicals</em> are on the second floor.</li><li>The library keeps back issues of every <em>periodical</em>.</li><li>It's a quarterly <em>periodical</em> for teachers.</li></ol>
+<hr>
+<h3 id="digest">digest<a class="hash" href="#digest" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/ˈdaɪdʒest/ &middot; <em>DY-jest</em></dd><dt>Русский</dt><dd>дайджест, сборник кратких материалов</dd><dt>Plural</dt><dd><em>digests</em></dd><dt>Countability</dt><dd>countable</dd><dt>Contrast</dt><dd>Noun DY-jest with the stress up front; the verb 'to digest' is dy-JEST.</dd></dl>
+<p>A publication that gives short versions of longer articles or news.</p>
+<ol><li>I get a weekly <em>digest</em> of the top stories.</li><li>The <em>digest</em> is only four pages.</li><li>Both <em>digests</em> covered the same three stories.</li></ol>
+<hr>
+<h3 id="media">media<a class="hash" href="#media" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/ˈmiːdiə/ &middot; <em>MEE-dee-uh</em></dd><dt>Русский</dt><dd>СМИ, медиа</dd><dt>Countability</dt><dd>uncountable</dd><dt>Contrast</dt><dd>Originally the plural of <em>medium</em>; Americans usually treat <em>the media</em> as one thing: 'the media is.'</dd></dl>
+<p>Newspapers, television, radio, and websites taken together as a source of news.</p>
+<ol><li>The <em>media</em> covered the story for weeks.</li><li>She blamed the <em>media</em> for the leak.</li><li>Social <em>media</em> changed how news travels.</li></ol>
+<hr>
+<h3 id="issue">issue<a class="hash" href="#issue" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/ˈɪʃuː/ &middot; <em>ISH-oo</em></dd><dt>Русский</dt><dd>номер, выпуск (издания)</dd><dt>Plural</dt><dd><em>issues</em></dd><dt>Countability</dt><dd>countable</dd></dl>
+<p>One numbered edition of a magazine or newspaper.</p>
+<ol><li>The April <em>issue</em> has her interview in it.</li><li>I've saved every <em>issue</em> since the first one.</li><li>The next <em>issue</em> comes out Thursday.</li></ol>
+<hr>
+<h3 id="front-page">front page<a class="hash" href="#front-page" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/ˌfrʌnt ˈpeɪdʒ/ &middot; <em>frunt-PAYJ</em></dd><dt>Русский</dt><dd>первая полоса</dd><dt>Plural</dt><dd><em>front pages</em></dd><dt>Countability</dt><dd>countable</dd></dl>
+<p>The first page of a newspaper, where the biggest stories go.</p>
+<ol><li>The scandal was on the <em>front page</em> for three days.</li><li>That story never made the <em>front page</em>.</li><li>All the <em>front pages</em> carried the same photo.</li></ol>
+<hr>
+<h3 id="press-release">press release<a class="hash" href="#press-release" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/ˈpres rɪˌliːs/ &middot; <em>PRES rih-lees</em></dd><dt>Русский</dt><dd>пресс-релиз</dd><dt>Plural</dt><dd><em>press releases</em></dd><dt>Countability</dt><dd>countable</dd></dl>
+<p>A short official statement a company or agency sends to reporters.</p>
+<ol><li>The company put out a <em>press release</em> denying it.</li><li>Half these stories are just rewritten <em>press releases</em>.</li><li>The <em>press release</em> went out at six in the morning.</li></ol>
+<hr>
+<h3 id="op-ed">op-ed<a class="hash" href="#op-ed" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/ˌɑːpˈed/ &middot; <em>ahp-ED</em></dd><dt>Русский</dt><dd>авторская колонка (мнение)</dd><dt>Plural</dt><dd><em>op-eds</em></dd><dt>Countability</dt><dd>countable</dd></dl>
+<p>An opinion piece in a newspaper written by someone outside the paper's staff.</p>
+<ol><li>The senator wrote an <em>op-ed</em> defending the bill.</li><li>Her <em>op-ed</em> got two thousand comments.</li><li>They publish three <em>op-eds</em> a day.</li></ol>
+<hr>
+<h3 id="broadcast">broadcast<a class="hash" href="#broadcast" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/ˈbrɔːdkæst/ &middot; <em>BRAWD-kast</em></dd><dt>Русский</dt><dd>передача, трансляция</dd><dt>Plural</dt><dd><em>broadcasts</em></dd><dt>Countability</dt><dd>countable</dd></dl>
+<p>A program sent out on radio, television, or the internet.</p>
+<ol><li>The <em>broadcast</em> starts at eight.</li><li>Millions watched the live <em>broadcast</em>.</li><li>The station lost two <em>broadcasts</em> to the storm.</li></ol>
+<hr>
+<h3 id="broadcaster">broadcaster<a class="hash" href="#broadcaster" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/ˈbrɔːdkæstər/ &middot; <em>BRAWD-kas-tur</em></dd><dt>Русский</dt><dd>телерадиокомпания, вещатель</dd><dt>Plural</dt><dd><em>broadcasters</em></dd><dt>Countability</dt><dd>countable</dd></dl>
+<p>A company or person that sends out radio or television programs.</p>
+<ol><li>The <em>broadcaster</em> holds the rights to the games.</li><li>Three <em>broadcasters</em> bid for the contract.</li><li>He's been a <em>broadcaster</em> for thirty years.</li></ol>
+<hr>
+<h3 id="television">television<a class="hash" href="#television" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/ˈteləvɪʒən/ &middot; <em>TEL-uh-vizh-uhn</em></dd><dt>Русский</dt><dd>телевидение; телевизор</dd><dt>Plural</dt><dd><em>televisions</em></dd><dt>Countability</dt><dd>both — countable and uncountable with different meanings</dd></dl>
+<p>The system of sending pictures and sound to homes, or the set that shows them.</p>
+<ol><li>He works in <em>television</em>.</li><li>There's a <em>television</em> in every room of the hotel.</li><li>I saw it on <em>television</em> last night.</li></ol>
+<hr>
+<h3 id="program">program<a class="hash" href="#program" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/ˈproʊɡræm/ &middot; <em>PROH-gram</em></dd><dt>Русский</dt><dd>передача, программа</dd><dt>Plural</dt><dd><em>programs</em></dd><dt>Countability</dt><dd>countable</dd><dt>Contrast</dt><dd>American spelling <em>program</em>; the British write <em>programme</em> for a broadcast.</dd></dl>
+<p>A single show on radio or television.</p>
+<ol><li>It's my favorite <em>program</em> on the radio.</li><li>The <em>program</em> airs Sunday nights.</li><li>They canceled two <em>programs</em> this season.</li></ol>
+<hr>
+<h3 id="show">show<a class="hash" href="#show" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/ʃoʊ/ &middot; <em>SHOH</em></dd><dt>Русский</dt><dd>шоу, передача</dd><dt>Plural</dt><dd><em>shows</em></dd><dt>Countability</dt><dd>countable</dd></dl>
+<p>A television or radio program, especially an entertaining one.</p>
+<ol><li>That <em>show</em> has been on for nine seasons.</li><li>She hosts a morning <em>show</em>.</li><li>We binged three <em>shows</em> over the weekend.</li></ol>
+<hr>
+<h3 id="episode">episode<a class="hash" href="#episode" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/ˈepəsoʊd/ &middot; <em>EP-uh-sohd</em></dd><dt>Русский</dt><dd>серия, эпизод</dd><dt>Plural</dt><dd><em>episodes</em></dd><dt>Countability</dt><dd>countable</dd></dl>
+<p>One separate part of a television series or podcast.</p>
+<ol><li>The last <em>episode</em> airs next week.</li><li>There are ten <em>episodes</em> in the season.</li><li>I fell asleep halfway through the <em>episode</em>.</li></ol>
+<hr>
+<h3 id="commercial">commercial<a class="hash" href="#commercial" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/kəˈmɜːrʃəl/ &middot; <em>kuh-MUR-shuhl</em></dd><dt>Русский</dt><dd>рекламный ролик</dd><dt>Plural</dt><dd><em>commercials</em></dd><dt>Countability</dt><dd>countable</dd></dl>
+<p>A short advertisement shown between parts of a TV or radio program.</p>
+<ol><li>I muted the <em>commercial</em>.</li><li>The <em>commercials</em> are longer than the show.</li><li>That <em>commercial</em> has been running for years.</li></ol>
+<hr>
+<h3 id="advertisement">advertisement<a class="hash" href="#advertisement" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/ˌædvərˈtaɪzmənt/ &middot; <em>ad-vur-TYZ-muhnt</em></dd><dt>Русский</dt><dd>рекламное объявление</dd><dt>Plural</dt><dd><em>advertisements</em></dd><dt>Countability</dt><dd>countable</dd><dt>Contrast</dt><dd>American ad-vur-TYZ-muhnt; the British say uhd-VUR-tis-muhnt.</dd></dl>
+<p>A notice or short film that tries to sell something or attract attention.</p>
+<ol><li>There's a full-page <em>advertisement</em> on the back.</li><li>The magazine is mostly <em>advertisements</em> now.</li><li>They pulled the <em>advertisement</em> after complaints.</li></ol>
+<hr>
+<h3 id="ad">ad<a class="hash" href="#ad" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/æd/ &middot; <em>AD</em></dd><dt>Русский</dt><dd>реклама, объявление</dd><dt>Plural</dt><dd><em>ads</em></dd><dt>Countability</dt><dd>countable</dd><dt>Contrast</dt><dd>Sounds exactly like <em>add</em>.</dd></dl>
+<p>A short everyday word for an advertisement.</p>
+<ol><li>I skipped the <em>ad</em> after five seconds.</li><li>They put an <em>ad</em> in the paper for a dishwasher.</li><li>The site is covered in <em>ads</em>.</li></ol>
+<hr>
+<h3 id="rating">rating<a class="hash" href="#rating" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/ˈreɪtɪŋ/ &middot; <em>RAY-ting</em></dd><dt>Русский</dt><dd>рейтинг</dd><dt>Plural</dt><dd><em>ratings</em></dd><dt>Countability</dt><dd>countable</dd></dl>
+<p>A measure of how many people watch or listen to a program.</p>
+<ol><li>The show's <em>ratings</em> dropped after the move.</li><li>The finale got the highest <em>rating</em> of the year.</li><li><em>Ratings</em> decide what gets canceled.</li></ol>
+<hr>
+<h3 id="documentary">documentary<a class="hash" href="#documentary" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/ˌdɑːkjəˈmentəri/ &middot; <em>dah-kyuh-MEN-tuh-ree</em></dd><dt>Русский</dt><dd>документальный фильм</dd><dt>Plural</dt><dd><em>documentaries</em></dd><dt>Countability</dt><dd>countable</dd></dl>
+<p>A film or program about real events and real people.</p>
+<ol><li>We watched a <em>documentary</em> about the flood.</li><li>She makes <em>documentaries</em> for public television.</li><li>The <em>documentary</em> runs two and a half hours.</li></ol>
+<hr>
+<h3 id="sitcom">sitcom<a class="hash" href="#sitcom" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/ˈsɪtkɑːm/ &middot; <em>SIT-kahm</em></dd><dt>Русский</dt><dd>ситком, комедийный сериал</dd><dt>Plural</dt><dd><em>sitcoms</em></dd><dt>Countability</dt><dd>countable</dd></dl>
+<p>A funny TV series with the same characters in the same setting each week.</p>
+<ol><li>It's a <em>sitcom</em> about four roommates.</li><li>He got famous on a <em>sitcom</em> in the nineties.</li><li>They watch old <em>sitcoms</em> every night.</li></ol>
+<hr>
+<h3 id="newscast">newscast<a class="hash" href="#newscast" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/ˈnuːzkæst/ &middot; <em>NOOZ-kast</em></dd><dt>Русский</dt><dd>выпуск новостей</dd><dt>Plural</dt><dd><em>newscasts</em></dd><dt>Countability</dt><dd>countable</dd></dl>
+<p>A television or radio program that reports the news.</p>
+<ol><li>The evening <em>newscast</em> leads with the fire.</li><li>She's been doing the morning <em>newscast</em> for years.</li><li>Local <em>newscasts</em> still draw big audiences.</li></ol>
+<hr>
+<h3 id="announcer">announcer<a class="hash" href="#announcer" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/əˈnaʊnsər/ &middot; <em>uh-NOWN-sur</em></dd><dt>Русский</dt><dd>диктор, ведущий</dd><dt>Plural</dt><dd><em>announcers</em></dd><dt>Countability</dt><dd>countable</dd></dl>
+<p>The person whose voice introduces programs or describes events on air.</p>
+<ol><li>The <em>announcer</em> gave the score twice.</li><li>You could hear the <em>announcer</em> choking up.</li><li>Both <em>announcers</em> worked the game.</li></ol>
+<hr>
+<h3 id="commentator">commentator<a class="hash" href="#commentator" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/ˈkɑːmənteɪtər/ &middot; <em>KAH-muhn-tay-tur</em></dd><dt>Русский</dt><dd>комментатор</dd><dt>Plural</dt><dd><em>commentators</em></dd><dt>Countability</dt><dd>countable</dd></dl>
+<p>Someone who describes or explains events on TV or radio as they happen.</p>
+<ol><li>The <em>commentator</em> called it the play of the season.</li><li>Political <em>commentators</em> argued about it all night.</li><li>He works as a <em>commentator</em> now that he's retired.</li></ol>
+<hr>
+<h3 id="interviewer">interviewer<a class="hash" href="#interviewer" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/ˈɪntərvjuːər/ &middot; <em>IN-tur-vyoo-ur</em></dd><dt>Русский</dt><dd>интервьюер, ведущий интервью</dd><dt>Plural</dt><dd><em>interviewers</em></dd><dt>Countability</dt><dd>countable</dd></dl>
+<p>The person who asks the questions in an interview.</p>
+<ol><li>The <em>interviewer</em> never let him finish a sentence.</li><li>She's a tough but fair <em>interviewer</em>.</li><li>Two <em>interviewers</em> took turns.</li></ol>
+<hr>
+<h3 id="segment">segment<a class="hash" href="#segment" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/ˈseɡmənt/ &middot; <em>SEG-muhnt</em></dd><dt>Русский</dt><dd>сюжет, рубрика (в передаче)</dd><dt>Plural</dt><dd><em>segments</em></dd><dt>Countability</dt><dd>countable</dd><dt>Contrast</dt><dd>Noun SEG-muhnt with the stress up front; the verb is seg-MENT.</dd></dl>
+<p>One separate part of a television or radio program.</p>
+<ol><li>They cut my <em>segment</em> for time.</li><li>The cooking <em>segment</em> airs after the weather.</li><li>The show is built out of six short <em>segments</em>.</li></ol>
+<hr>
+<h3 id="script">script<a class="hash" href="#script" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/skrɪpt/ &middot; <em>SKRIPT</em></dd><dt>Русский</dt><dd>сценарий, текст (передачи)</dd><dt>Plural</dt><dd><em>scripts</em></dd><dt>Countability</dt><dd>countable</dd></dl>
+<p>The written words of a film, play, or broadcast.</p>
+<ol><li>The anchor read straight from the <em>script</em>.</li><li>She's on the fourth draft of the <em>script</em>.</li><li>They send out <em>scripts</em> a week before taping.</li></ol>
+<hr>
+<h3 id="screenplay">screenplay<a class="hash" href="#screenplay" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/ˈskriːnpleɪ/ &middot; <em>SKREEN-play</em></dd><dt>Русский</dt><dd>киносценарий</dd><dt>Plural</dt><dd><em>screenplays</em></dd><dt>Countability</dt><dd>countable</dd></dl>
+<p>The script of a movie, with the dialogue and the action.</p>
+<ol><li>He wrote the <em>screenplay</em> in six weeks.</li><li>The <em>screenplay</em> is based on her novel.</li><li>She's sold two <em>screenplays</em> and neither got made.</li></ol>
+<hr>
+<h3 id="subtitle">subtitle<a class="hash" href="#subtitle" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/ˈsʌbtaɪtəl/ &middot; <em>SUB-ty-tuhl</em></dd><dt>Русский</dt><dd>субтитры</dd><dt>Plural</dt><dd><em>subtitles</em></dd><dt>Countability</dt><dd>countable</dd></dl>
+<p>Words shown at the bottom of the screen giving what is being said.</p>
+<ol><li>I watch everything with <em>subtitles</em> on.</li><li>The <em>subtitles</em> were a few seconds behind.</li><li>The film is in Korean with English <em>subtitles</em>.</li></ol>
+<hr>
+<h3 id="voiceover">voiceover<a class="hash" href="#voiceover" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/ˈvɔɪsoʊvər/ &middot; <em>VOYS-oh-vur</em></dd><dt>Русский</dt><dd>закадровый голос</dd><dt>Plural</dt><dd><em>voiceovers</em></dd><dt>Countability</dt><dd>countable</dd></dl>
+<p>A voice heard over a film or commercial without the speaker being seen.</p>
+<ol><li>The whole ad is one long <em>voiceover</em>.</li><li>He does <em>voiceovers</em> for car commercials.</li><li>They recorded the <em>voiceover</em> in a single take.</li></ol>
+<hr>
+<h3 id="soundtrack">soundtrack<a class="hash" href="#soundtrack" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/ˈsaʊndtræk/ &middot; <em>SOWND-trak</em></dd><dt>Русский</dt><dd>саундтрек, звуковая дорожка</dd><dt>Plural</dt><dd><em>soundtracks</em></dd><dt>Countability</dt><dd>countable</dd></dl>
+<p>The music used in a film or show, often sold as an album.</p>
+<ol><li>The <em>soundtrack</em> is better than the movie.</li><li>She bought the <em>soundtrack</em> on vinyl.</li><li>Both <em>soundtracks</em> were nominated.</li></ol>
+<hr>
+<h3 id="premiere">premiere<a class="hash" href="#premiere" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/prɪˈmɪr/ &middot; <em>prih-MEER</em></dd><dt>Русский</dt><dd>премьера</dd><dt>Plural</dt><dd><em>premieres</em></dd><dt>Countability</dt><dd>countable</dd></dl>
+<p>The first public showing of a film or the first episode of a season.</p>
+<ol><li>The season <em>premiere</em> airs Sunday.</li><li>She wore a red dress to the <em>premiere</em>.</li><li>Both <em>premieres</em> drew huge audiences.</li></ol>
+<hr>
+<h3 id="finale">finale<a class="hash" href="#finale" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/fɪˈnæli/ &middot; <em>fih-NAL-ee</em></dd><dt>Русский</dt><dd>финал, последняя серия</dd><dt>Plural</dt><dd><em>finales</em></dd><dt>Countability</dt><dd>countable</dd></dl>
+<p>The last episode of a series or the final part of a show.</p>
+<ol><li>Nobody liked the series <em>finale</em>.</li><li>The season <em>finale</em> ends on a cliffhanger.</li><li>Twelve million people watched the <em>finale</em>.</li></ol>
+<hr>
+<h3 id="rerun">rerun<a class="hash" href="#rerun" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/ˈriːrʌn/ &middot; <em>REE-run</em></dd><dt>Русский</dt><dd>повтор (передачи)</dd><dt>Plural</dt><dd><em>reruns</em></dd><dt>Countability</dt><dd>countable</dd></dl>
+<p>A television program shown again after its first broadcast.</p>
+<ol><li>It's just a <em>rerun</em> — I've seen this one.</li><li>They show <em>reruns</em> all summer.</li><li>The <em>rerun</em> airs at midnight.</li></ol>
+<hr>
+<h3 id="streaming">streaming<a class="hash" href="#streaming" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/ˈstriːmɪŋ/ &middot; <em>STREE-ming</em></dd><dt>Русский</dt><dd>стриминг, потоковое вещание</dd><dt>Countability</dt><dd>uncountable</dd></dl>
+<p>Watching or listening to something over the internet as it arrives, without downloading it.</p>
+<ol><li><em>Streaming</em> killed the video store.</li><li>The show does well in <em>streaming</em>.</li><li>Our <em>streaming</em> keeps buffering tonight.</li></ol>
+<hr>
+<h3 id="podcast">podcast<a class="hash" href="#podcast" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/ˈpɑːdkæst/ &middot; <em>PAHD-kast</em></dd><dt>Русский</dt><dd>подкаст</dd><dt>Plural</dt><dd><em>podcasts</em></dd><dt>Countability</dt><dd>countable</dd></dl>
+<p>An audio program you download or stream, usually released in episodes.</p>
+<ol><li>I listen to a history <em>podcast</em> while I run.</li><li>They started a <em>podcast</em> about local politics.</li><li>There are three hundred <em>podcasts</em> on my phone.</li></ol>
+<hr>
+<h3 id="blog">blog<a class="hash" href="#blog" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/blɑːɡ/ &middot; <em>BLAHG</em></dd><dt>Русский</dt><dd>блог</dd><dt>Plural</dt><dd><em>blogs</em></dd><dt>Countability</dt><dd>countable</dd></dl>
+<p>A website where someone posts short pieces of writing in date order.</p>
+<ol><li>She keeps a cooking <em>blog</em>.</li><li>He posted it on his <em>blog</em> first.</li><li>A few <em>blogs</em> picked up the story before the papers did.</li></ol>
+<hr>
+<h3 id="blogger">blogger<a class="hash" href="#blogger" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/ˈblɑːɡər/ &middot; <em>BLAH-gur</em></dd><dt>Русский</dt><dd>блогер</dd><dt>Plural</dt><dd><em>bloggers</em></dd><dt>Countability</dt><dd>countable</dd></dl>
+<p>Someone who writes a blog.</p>
+<ol><li>A <em>blogger</em> broke the story.</li><li>Food <em>bloggers</em> were invited to the opening.</li><li>She's a full-time <em>blogger</em> now.</li></ol>
+<hr>
+<h3 id="influencer">influencer<a class="hash" href="#influencer" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/ˈɪnfluənsər/ &middot; <em>IN-floo-uhn-sur</em></dd><dt>Русский</dt><dd>инфлюэнсер, лидер мнений (в соцсетях)</dd><dt>Plural</dt><dd><em>influencers</em></dd><dt>Countability</dt><dd>countable</dd></dl>
+<p>Someone with a large online following who is paid to promote things.</p>
+<ol><li>The brand hired three <em>influencers</em>.</li><li>She quit her job to be a full-time <em>influencer</em>.</li><li><em>Influencers</em> get free hotel rooms for a post.</li></ol>
+<hr>
+<h3 id="recording">recording<a class="hash" href="#recording" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/rɪˈkɔːrdɪŋ/ &middot; <em>rih-KOR-ding</em></dd><dt>Русский</dt><dd>запись</dd><dt>Plural</dt><dd><em>recordings</em></dd><dt>Countability</dt><dd>countable</dd></dl>
+<p>Sound or video that has been captured so it can be played back.</p>
+<ol><li>The <em>recording</em> cuts off after ten minutes.</li><li>He played a <em>recording</em> of the phone call.</li><li>There are early <em>recordings</em> of her in the archive.</li></ol>
+<hr>
+<h3 id="static">static<a class="hash" href="#static" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/ˈstætɪk/ &middot; <em>STAT-ik</em></dd><dt>Русский</dt><dd>помехи (в эфире)</dd><dt>Countability</dt><dd>uncountable</dd></dl>
+<p>The crackling noise that interferes with a radio or TV signal.</p>
+<ol><li>All I could hear was <em>static</em>.</li><li>The storm filled the radio with <em>static</em>.</li><li>The line went to <em>static</em> halfway through.</li></ol>
+<hr>
+<h3 id="viewer">viewer<a class="hash" href="#viewer" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/ˈvjuːər/ &middot; <em>VYOO-ur</em></dd><dt>Русский</dt><dd>зритель (телевидения)</dd><dt>Plural</dt><dd><em>viewers</em></dd><dt>Countability</dt><dd>countable</dd></dl>
+<p>A person watching a television program or video.</p>
+<ol><li>The show lost a million <em>viewers</em> this season.</li><li>One <em>viewer</em> called in to complain.</li><li><em>Viewers</em> voted by text message.</li></ol>
+<hr>
+<h3 id="listener">listener<a class="hash" href="#listener" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/ˈlɪsənər/ &middot; <em>LIS-uh-nur</em></dd><dt>Русский</dt><dd>слушатель</dd><dt>Plural</dt><dd><em>listeners</em></dd><dt>Countability</dt><dd>countable</dd><dt>Contrast</dt><dd>The t is silent, as in <em>listen</em>: LIS-uh-nur.</dd></dl>
+<p>A person listening to a radio station or podcast.</p>
+<ol><li>The station has 200,000 weekly <em>listeners</em>.</li><li>A <em>listener</em> wrote in with the answer.</li><li>He thanked his <em>listeners</em> on the last show.</li></ol></div></main>
+<button class="themebtn" id="themeBtn">Dark</button>
+<script>
+const tb=document.getElementById('themeBtn');
+function setTheme(x){document.documentElement.dataset.theme=x;tb.textContent=x==='dark'?'Light':'Dark';
+ try{localStorage.setItem('site-theme',x)}catch(e){}}
+tb.onclick=()=>setTheme(document.documentElement.dataset.theme==='dark'?'light':'dark');
+try{const s=localStorage.getItem('site-theme');
+ setTheme(s||(matchMedia('(prefers-color-scheme: dark)').matches?'dark':'light'))}catch(e){setTheme('light')}
+</script></body></html>

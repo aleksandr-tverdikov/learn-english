@@ -1,0 +1,801 @@
+<!DOCTYPE html>
+<html lang="en"><head>
+<meta charset="utf-8"><meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Core vocabulary: art and music</title>
+<style>
+:root{--bg:#faf9f7;--surface:#fff;--surface2:#f2f0ec;--border:#e2ded6;--text:#1a1815;
+--dim:#5f594f;--faint:#8a8377;--accent:#8a5a3b;--measure:72ch}
+@media(prefers-color-scheme:dark){:root{--bg:#14140f;--surface:#1d1d17;--surface2:#25251d;
+--border:#33332a;--text:#eeeae1;--dim:#a8a293;--faint:#7d776b;--accent:#d09b72}}
+:root[data-theme=dark]{--bg:#14140f;--surface:#1d1d17;--surface2:#25251d;--border:#33332a;
+--text:#eeeae1;--dim:#a8a293;--faint:#7d776b;--accent:#d09b72}
+:root[data-theme=light]{--bg:#faf9f7;--surface:#fff;--surface2:#f2f0ec;--border:#e2ded6;
+--text:#1a1815;--dim:#5f594f;--faint:#8a8377;--accent:#8a5a3b}
+*{box-sizing:border-box}
+body{margin:0;background:var(--bg);color:var(--text);
+font:17px/1.72 ui-serif,Georgia,"Iowan Old Style",Palatino,serif;-webkit-font-smoothing:antialiased}
+.wrap{max-width:min(var(--measure),100%);margin:0 auto;padding:0 22px}
+nav.crumb{border-bottom:1px solid var(--border);padding:13px 0;font-size:13.5px;
+font-family:-apple-system,BlinkMacSystemFont,"Segoe UI",sans-serif;position:sticky;top:0;background:var(--bg);z-index:20}
+nav.crumb .wrap{max-width:none;display:flex;gap:9px;align-items:center;flex-wrap:wrap}
+nav.crumb a{color:var(--dim);text-decoration:none}
+nav.crumb a:hover{color:var(--accent)}
+nav.crumb .sep{color:var(--faint)}
+main{padding:8px 0 80px}
+h1{font-size:clamp(28px,5vw,38px);line-height:1.15;letter-spacing:-.015em;margin:34px 0 18px}
+h2{font-size:25px;margin:46px 0 14px;letter-spacing:-.01em;padding-bottom:7px;border-bottom:1px solid var(--border)}
+h3{font-size:19px;margin:34px 0 10px;color:var(--accent)}
+h4{font-size:16px;margin:24px 0 8px;font-family:-apple-system,sans-serif}
+p{margin:0 0 16px}
+a{color:var(--accent)}
+.hash{opacity:0;margin-left:8px;font-weight:400;font-size:.65em;text-decoration:none;color:var(--faint)}
+h2:hover .hash,h3:hover .hash{opacity:1}
+blockquote{margin:0 0 20px;padding:14px 18px;background:var(--surface2);
+border-left:3px solid var(--accent);border-radius:0 8px 8px 0}
+blockquote p:last-child{margin-bottom:0}
+ol,ul{margin:0 0 18px;padding-left:26px}
+li{margin-bottom:8px}
+li>ul,li>ol{margin:8px 0 0}
+code{font-family:ui-monospace,SFMono-Regular,Menlo,Consolas,monospace;font-size:.87em;
+background:var(--surface2);padding:1px 5px;border-radius:4px}
+pre{background:var(--surface2);border:1px solid var(--border);border-radius:9px;
+padding:15px 17px;overflow-x:auto;margin:0 0 20px}
+pre code{background:none;padding:0;font-size:13px;line-height:1.6}
+.tw{overflow-x:auto;margin:0 0 22px;border:1px solid var(--border);border-radius:9px}
+table{border-collapse:collapse;width:100%;font-size:15px;
+font-family:-apple-system,BlinkMacSystemFont,"Segoe UI",sans-serif}
+th,td{padding:10px 14px;border-bottom:1px solid var(--border);vertical-align:top}
+th{background:var(--surface2);font-size:12px;text-transform:uppercase;
+letter-spacing:.06em;color:var(--dim);font-weight:700;white-space:nowrap}
+tbody tr:last-child td{border-bottom:none}
+hr{border:none;border-top:1px solid var(--border);margin:38px 0}
+details{background:var(--surface2);border:1px solid var(--border);border-radius:9px;
+padding:13px 17px;margin:0 0 20px}
+summary{cursor:pointer;font-weight:600;font-family:-apple-system,sans-serif;font-size:15px}
+details[open] summary{margin-bottom:12px}
+del{color:var(--faint)}
+dl.fields{margin:0 0 20px;padding:0}
+dl.fields dt{font-family:-apple-system,BlinkMacSystemFont,"Segoe UI",sans-serif;
+font-size:11px;letter-spacing:.11em;text-transform:uppercase;color:var(--faint);
+font-weight:700;margin:14px 0 4px}
+dl.fields dt:first-child{margin-top:0}
+dl.fields dd{margin:0;font-size:16px;color:var(--dim);line-height:1.62}
+dl.fields dd em{color:var(--text)}
+dl.fields dt.ru{color:var(--accent)}
+dl.fields dd strong{color:var(--text)}
+.toc{background:var(--surface2);border:1px solid var(--border);border-radius:10px;
+padding:16px 20px;margin:26px 0 34px;font-family:-apple-system,sans-serif;font-size:14px}
+.toc b{display:block;font-size:11px;letter-spacing:.12em;text-transform:uppercase;
+color:var(--faint);margin-bottom:9px}
+.toc a{display:block;padding:3px 0;color:var(--dim);text-decoration:none}
+.toc a:hover{color:var(--accent)}
+.themebtn{position:fixed;right:18px;bottom:18px;z-index:60;font-family:-apple-system,sans-serif;
+font-size:12.5px;font-weight:600;cursor:pointer;background:var(--surface);border:1px solid var(--border);
+border-radius:99px;padding:9px 16px;color:var(--text)}
+@media(max-width:600px){body{font-size:16px}.wrap{padding:0 17px}}
+</style></head><body>
+<nav class="crumb"><div class="wrap"><a href="../../../index.html">Learn English</a><span class="sep">/</span><a href="../../README.html">Parts of speech</a><span class="sep">/</span><a href="../README.html">01-nouns</a><span class="sep">/</span><span>catalog</span></div></nav>
+<main><div class="wrap"><h1 id="core-vocabulary-art-and-music">Core vocabulary: art and music<a class="hash" href="#core-vocabulary-art-and-music" aria-label="link">#</a></h1>
+<blockquote><p>The everyday nouns of art and music — pronunciation, Russian, plural, and three examples each.</p></blockquote>
+<p><a href="../README.html">← The grammar of nouns</a> &middot; <a href="README.html">All groups</a></p>
+<p>Part of the <strong>core-vocabulary tier</strong>. Groups 1–23 cover the nouns that misbehave; this tier covers the nouns you simply need to know. Entries are deliberately lean, because a regular countable noun has no grammatical story to tell. A <strong>Contrast</strong> line appears only where the word hides a genuine trap.</p>
+<p>Where a word in this field <em>does</em> misbehave, it lives in the grammar tier instead and is not repeated here.</p>
+<hr>
+<h3 id="gallery">gallery<a class="hash" href="#gallery" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/ˈɡæləri/ &middot; <em>GAL-uh-ree</em></dd><dt>Русский</dt><dd>галерея</dd><dt>Plural</dt><dd><em>galleries</em></dd><dt>Countability</dt><dd>countable</dd></dl>
+<p>A room or building where works of art are shown, often for sale.</p>
+<ol><li>The <em>gallery</em> on Fifth Street shows local painters.</li><li>We spent the whole afternoon walking through three <em>galleries</em>.</li><li>Her work hangs in a small <em>gallery</em> downtown.</li></ol>
+<hr>
+<h3 id="exhibition">exhibition<a class="hash" href="#exhibition" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/ˌeksəˈbɪʃən/ &middot; <em>ek-suh-BISH-uhn</em></dd><dt>Русский</dt><dd>выставка</dd><dt>Plural</dt><dd><em>exhibitions</em></dd><dt>Countability</dt><dd>countable</dd><dt>Contrast</dt><dd>The h is silent here: ek-suh-BISH-uhn. In the related noun <em>exhibit</em> the x sounds like gz and the h is heard: ig-ZIB-it.</dd></dl>
+<p>A public show of paintings, photographs, or other objects.</p>
+<ol><li>The museum is putting on a big Picasso <em>exhibition</em> this fall.</li><li>Tickets for the <em>exhibition</em> sold out in a week.</li><li>Both <em>exhibitions</em> close at the end of the month.</li></ol>
+<hr>
+<h3 id="exhibit">exhibit<a class="hash" href="#exhibit" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/ɪɡˈzɪbɪt/ &middot; <em>ig-ZIB-it</em></dd><dt>Русский</dt><dd>экспонат; выставка (амер.)</dd><dt>Plural</dt><dd><em>exhibits</em></dd><dt>Countability</dt><dd>countable</dd><dt>Contrast</dt><dd>Americans often call a whole show an <em>exhibit</em>, where the British would say <em>exhibition</em>.</dd></dl>
+<p>An object on display in a museum, or a whole display of such objects.</p>
+<ol><li>There's a new dinosaur <em>exhibit</em> at the science museum.</li><li>Each <em>exhibit</em> has a small card explaining it.</li><li>The <em>exhibits</em> are arranged by century.</li></ol>
+<hr>
+<h3 id="masterpiece">masterpiece<a class="hash" href="#masterpiece" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/ˈmæstərpiːs/ &middot; <em>MAS-tur-pees</em></dd><dt>Русский</dt><dd>шедевр</dd><dt>Plural</dt><dd><em>masterpieces</em></dd><dt>Countability</dt><dd>countable</dd></dl>
+<p>An artist's finest work, or any work of outstanding quality.</p>
+<ol><li>Everyone agrees the painting is his <em>masterpiece</em>.</li><li>The museum owns two <em>masterpieces</em> by Rembrandt.</li><li>The album was a <em>masterpiece</em> that nobody bought at the time.</li></ol>
+<hr>
+<h3 id="sculpture">sculpture<a class="hash" href="#sculpture" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/ˈskʌlptʃər/ &middot; <em>SKULP-chur</em></dd><dt>Русский</dt><dd>скульптура</dd><dt>Plural</dt><dd><em>sculptures</em></dd><dt>Countability</dt><dd>both — countable and uncountable with different meanings</dd></dl>
+<p>A figure or object shaped out of stone, wood, or metal, or the art of making such things.</p>
+<ol><li>A bronze <em>sculpture</em> stands in the middle of the plaza.</li><li>She studied <em>sculpture</em> for four years.</li><li>The garden is full of strange <em>sculptures</em>.</li></ol>
+<hr>
+<h3 id="sculptor">sculptor<a class="hash" href="#sculptor" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/ˈskʌlptər/ &middot; <em>SKULP-tur</em></dd><dt>Русский</dt><dd>скульптор</dd><dt>Plural</dt><dd><em>sculptors</em></dd><dt>Countability</dt><dd>countable</dd></dl>
+<p>An artist who makes figures out of stone, wood, clay, or metal.</p>
+<ol><li>The <em>sculptor</em> worked in marble for thirty years.</li><li>A local <em>sculptor</em> made the memorial by the courthouse.</li><li>Several <em>sculptors</em> submitted designs for the park.</li></ol>
+<hr>
+<h3 id="statue">statue<a class="hash" href="#statue" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/ˈstætʃuː/ &middot; <em>STACH-oo</em></dd><dt>Русский</dt><dd>статуя</dd><dt>Plural</dt><dd><em>statues</em></dd><dt>Countability</dt><dd>countable</dd><dt>Contrast</dt><dd>Three lookalikes: <em>statue</em> (STACH-oo, статуя), <em>status</em> (STAY-tuhs, статус), and <em>statute</em> (STACH-oot, закон).</dd></dl>
+<p>A large sculpture of a person or animal, usually standing outdoors or in a hall.</p>
+<ol><li>There's a <em>statue</em> of a soldier in the park.</li><li>The <em>statue</em> lost an arm in the storm.</li><li>Tourists line up to photograph the <em>statues</em>.</li></ol>
+<hr>
+<h3 id="bust">bust<a class="hash" href="#bust" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/bʌst/ &middot; <em>BUST</em></dd><dt>Русский</dt><dd>бюст (скульптура)</dd><dt>Plural</dt><dd><em>busts</em></dd><dt>Countability</dt><dd>countable</dd></dl>
+<p>A sculpture of a person's head, shoulders, and chest.</p>
+<ol><li>A marble <em>bust</em> of the composer sits by the door.</li><li>The library has <em>busts</em> of famous writers along the wall.</li><li>He sculpted a <em>bust</em> of his grandmother from memory.</li></ol>
+<hr>
+<h3 id="figurine">figurine<a class="hash" href="#figurine" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/ˌfɪɡjəˈriːn/ &middot; <em>fig-yuh-REEN</em></dd><dt>Русский</dt><dd>статуэтка, фигурка</dd><dt>Plural</dt><dd><em>figurines</em></dd><dt>Countability</dt><dd>countable</dd><dt>Contrast</dt><dd>The stress falls on the last syllable: fig-yuh-REEN.</dd></dl>
+<p>A small ornamental figure made of china, glass, or plastic.</p>
+<ol><li>She collects little porcelain <em>figurines</em>.</li><li>A glass <em>figurine</em> fell off the shelf and broke.</li><li>The gift shop sells <em>figurines</em> of the museum's statues.</li></ol>
+<hr>
+<h3 id="portrait">portrait<a class="hash" href="#portrait" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/ˈpɔːrtrət/ &middot; <em>POR-truht</em></dd><dt>Русский</dt><dd>портрет</dd><dt>Plural</dt><dd><em>portraits</em></dd><dt>Countability</dt><dd>countable</dd><dt>Contrast</dt><dd>The second syllable is reduced: POR-truht, not POR-trayt.</dd></dl>
+<p>A painting, drawing, or photograph of a particular person.</p>
+<ol><li>The <em>portrait</em> over the fireplace is of her grandfather.</li><li>He painted <em>portraits</em> to pay the rent.</li><li>It's the best-known <em>portrait</em> in the collection.</li></ol>
+<hr>
+<h3 id="self-portrait">self-portrait<a class="hash" href="#self-portrait" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/ˌselfˈpɔːrtrət/ &middot; <em>self-POR-truht</em></dd><dt>Русский</dt><dd>автопортрет</dd><dt>Plural</dt><dd><em>self-portraits</em></dd><dt>Countability</dt><dd>countable</dd></dl>
+<p>A portrait an artist makes of himself or herself.</p>
+<ol><li>Van Gogh painted dozens of <em>self-portraits</em>.</li><li>Her <em>self-portrait</em> won first prize at the show.</li><li>The <em>self-portrait</em> shows him at about twenty.</li></ol>
+<hr>
+<h3 id="still-life">still life<a class="hash" href="#still-life" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/ˌstɪl ˈlaɪf/ &middot; <em>stil-LYFE</em></dd><dt>Русский</dt><dd>натюрморт</dd><dt>Plural</dt><dd><em>still lifes</em></dd><dt>Countability</dt><dd>countable</dd><dt>Contrast</dt><dd>The plural is <em>still lifes</em>, with -fes — never <em>still lives</em>.</dd></dl>
+<p>A painting or photograph of objects such as fruit, flowers, or bottles.</p>
+<ol><li>She painted a <em>still life</em> of lemons and a wine bottle.</li><li>The class started with a simple <em>still life</em>.</li><li>His early <em>still lifes</em> sold for almost nothing.</li></ol>
+<hr>
+<h3 id="mural">mural<a class="hash" href="#mural" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/ˈmjʊrəl/ &middot; <em>MYUR-uhl</em></dd><dt>Русский</dt><dd>настенная роспись, мурал</dd><dt>Plural</dt><dd><em>murals</em></dd><dt>Countability</dt><dd>countable</dd></dl>
+<p>A large picture painted directly on a wall.</p>
+<ol><li>A <em>mural</em> covers the whole side of the building.</li><li>Students painted a <em>mural</em> in the cafeteria.</li><li>The city pays artists to make <em>murals</em> downtown.</li></ol>
+<hr>
+<h3 id="collage">collage<a class="hash" href="#collage" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/kəˈlɑːʒ/ &middot; <em>kuh-LAHZH</em></dd><dt>Русский</dt><dd>коллаж</dd><dt>Plural</dt><dd><em>collages</em></dd><dt>Countability</dt><dd>countable</dd><dt>Contrast</dt><dd>Ends in the zh sound of <em>measure</em>, and the stress is on the second syllable: kuh-LAHZH.</dd></dl>
+<p>A picture made by gluing paper, photographs, and other pieces onto a surface.</p>
+<ol><li>She made a <em>collage</em> out of old magazine pages.</li><li>The <em>collage</em> hangs above his desk.</li><li>The kids glued together <em>collages</em> all afternoon.</li></ol>
+<hr>
+<h3 id="sketch">sketch<a class="hash" href="#sketch" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/sketʃ/ &middot; <em>SKECH</em></dd><dt>Русский</dt><dd>набросок, эскиз</dd><dt>Plural</dt><dd><em>sketches</em></dd><dt>Countability</dt><dd>countable</dd></dl>
+<p>A quick rough drawing made before or instead of a finished picture.</p>
+<ol><li>He made a quick <em>sketch</em> of the bridge.</li><li>The <em>sketches</em> in her notebook are better than the paintings.</li><li>Do a rough <em>sketch</em> first, then add the color.</li></ol>
+<hr>
+<h3 id="drawing">drawing<a class="hash" href="#drawing" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/ˈdrɔːɪŋ/ &middot; <em>DRAW-ing</em></dd><dt>Русский</dt><dd>рисунок; рисование</dd><dt>Plural</dt><dd><em>drawings</em></dd><dt>Countability</dt><dd>both — countable and uncountable with different meanings</dd></dl>
+<p>A picture made with a pencil or pen, or the activity of making such pictures.</p>
+<ol><li>Her <em>drawing</em> of the horse is on the fridge.</li><li>He teaches <em>drawing</em> at the community college.</li><li>The museum owns hundreds of <em>drawings</em> by the artist.</li></ol>
+<hr>
+<h3 id="engraving">engraving<a class="hash" href="#engraving" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/ɪnˈɡreɪvɪŋ/ &middot; <em>in-GRAY-ving</em></dd><dt>Русский</dt><dd>гравюра</dd><dt>Plural</dt><dd><em>engravings</em></dd><dt>Countability</dt><dd>countable</dd></dl>
+<p>A picture printed from a metal plate that has been cut with lines.</p>
+<ol><li>An old <em>engraving</em> of the harbor hangs in the hallway.</li><li>The book is illustrated with <em>engravings</em>.</li><li>He bought an <em>engraving</em> at the flea market for five dollars.</li></ol>
+<hr>
+<h3 id="print">print<a class="hash" href="#print" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/prɪnt/ &middot; <em>PRINT</em></dd><dt>Русский</dt><dd>эстамп, печатная репродукция</dd><dt>Plural</dt><dd><em>prints</em></dd><dt>Countability</dt><dd>countable</dd></dl>
+<p>A copy of a picture made by a printing process rather than by hand.</p>
+<ol><li>She sells <em>prints</em> of her paintings online.</li><li>The original is in Paris, but I have a <em>print</em>.</li><li>Each <em>print</em> is numbered and signed in pencil.</li></ol>
+<hr>
+<h3 id="caricature">caricature<a class="hash" href="#caricature" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/ˈkerɪkətʃʊr/ &middot; <em>KER-ih-kuh-chur</em></dd><dt>Русский</dt><dd>шарж, карикатура</dd><dt>Plural</dt><dd><em>caricatures</em></dd><dt>Countability</dt><dd>countable</dd></dl>
+<p>A drawing of someone with certain features exaggerated for comic effect.</p>
+<ol><li>A street artist drew a <em>caricature</em> of us with huge heads.</li><li>The magazine ran a <em>caricature</em> of the mayor.</li><li>His early <em>caricatures</em> got him fired from the paper.</li></ol>
+<hr>
+<h3 id="doodle">doodle<a class="hash" href="#doodle" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/ˈduːdəl/ &middot; <em>DOO-duhl</em></dd><dt>Русский</dt><dd>каракули (рисунок на полях)</dd><dt>Plural</dt><dd><em>doodles</em></dd><dt>Countability</dt><dd>countable</dd></dl>
+<p>A small drawing made absent-mindedly while thinking about something else.</p>
+<ol><li>The margins of his notes are covered in <em>doodles</em>.</li><li>She drew a little <em>doodle</em> of a cat on the receipt.</li><li>My <em>doodles</em> never turn into anything.</li></ol>
+<hr>
+<h3 id="graffiti">graffiti<a class="hash" href="#graffiti" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/ɡrəˈfiːti/ &middot; <em>gruh-FEE-tee</em></dd><dt>Русский</dt><dd>граффити</dd><dt>Countability</dt><dd>uncountable</dd><dt>Contrast</dt><dd>Uncountable in English: <em>graffiti is</em> everywhere — never <em>graffitis</em>.</dd></dl>
+<p>Words or pictures painted or sprayed on walls in public places.</p>
+<ol><li><em>Graffiti</em> covered the wall under the overpass.</li><li>The city painted over the <em>graffiti</em> again.</li><li>Some of that <em>graffiti</em> is genuinely beautiful.</li></ol>
+<hr>
+<h3 id="calligraphy">calligraphy<a class="hash" href="#calligraphy" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/kəˈlɪɡrəfi/ &middot; <em>kuh-LIG-ruh-fee</em></dd><dt>Русский</dt><dd>каллиграфия</dd><dt>Countability</dt><dd>uncountable</dd></dl>
+<p>The art of beautiful handwriting done with a pen or brush.</p>
+<ol><li>She takes a <em>calligraphy</em> class on Tuesdays.</li><li>The invitations were addressed in <em>calligraphy</em>.</li><li>His <em>calligraphy</em> is better than most computer fonts.</li></ol>
+<hr>
+<h3 id="mosaic">mosaic<a class="hash" href="#mosaic" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/moʊˈzeɪɪk/ &middot; <em>moh-ZAY-ik</em></dd><dt>Русский</dt><dd>мозаика</dd><dt>Plural</dt><dd><em>mosaics</em></dd><dt>Countability</dt><dd>countable</dd></dl>
+<p>A picture made of many small pieces of colored stone, tile, or glass.</p>
+<ol><li>The floor of the church is a Roman <em>mosaic</em>.</li><li>She made a <em>mosaic</em> out of broken tiles.</li><li>The <em>mosaics</em> took two years to restore.</li></ol>
+<hr>
+<h3 id="tapestry">tapestry<a class="hash" href="#tapestry" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/ˈtæpəstri/ &middot; <em>TAP-uh-stree</em></dd><dt>Русский</dt><dd>гобелен</dd><dt>Plural</dt><dd><em>tapestries</em></dd><dt>Countability</dt><dd>countable</dd></dl>
+<p>A heavy cloth with a picture woven into it, hung on a wall.</p>
+<ol><li>A huge <em>tapestry</em> hangs in the great hall.</li><li>The <em>tapestries</em> were woven in Belgium.</li><li>Moths got into the <em>tapestry</em> years ago.</li></ol>
+<hr>
+<h3 id="stained-glass">stained glass<a class="hash" href="#stained-glass" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/ˌsteɪnd ˈɡlæs/ &middot; <em>staynd-GLAS</em></dd><dt>Русский</dt><dd>витраж (витражное стекло)</dd><dt>Countability</dt><dd>uncountable</dd></dl>
+<p>Colored glass held together with strips of lead to form a picture in a window.</p>
+<ol><li>The windows of the old church are all <em>stained glass</em>.</li><li>He restores <em>stained glass</em> for a living.</li><li>Light came through the <em>stained glass</em> in bands of red and blue.</li></ol>
+<hr>
+<h3 id="pottery">pottery<a class="hash" href="#pottery" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/ˈpɑːtəri/ &middot; <em>PAH-tuh-ree</em></dd><dt>Русский</dt><dd>керамика, гончарные изделия</dd><dt>Countability</dt><dd>uncountable</dd><dt>Contrast</dt><dd>Uncountable: <em>some pottery</em>, <em>a piece of pottery</em> — never <em>a pottery</em>.</dd></dl>
+<p>Pots, bowls, and dishes made of baked clay, or the craft of making them.</p>
+<ol><li>She makes <em>pottery</em> in a studio behind the house.</li><li>The museum has a whole room of ancient <em>pottery</em>.</li><li>He signed up for a <em>pottery</em> class at the rec center.</li></ol>
+<hr>
+<h3 id="kiln">kiln<a class="hash" href="#kiln" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/kɪln/ &middot; <em>KILN</em></dd><dt>Русский</dt><dd>печь для обжига</dd><dt>Plural</dt><dd><em>kilns</em></dd><dt>Countability</dt><dd>countable</dd></dl>
+<p>An oven used to bake clay pots and bricks until they harden.</p>
+<ol><li>The bowls go in the <em>kiln</em> overnight.</li><li>The studio has two electric <em>kilns</em>.</li><li>Something cracked in the <em>kiln</em> again.</li></ol>
+<hr>
+<h3 id="carving">carving<a class="hash" href="#carving" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/ˈkɑːrvɪŋ/ &middot; <em>KAR-ving</em></dd><dt>Русский</dt><dd>резьба (изделие)</dd><dt>Plural</dt><dd><em>carvings</em></dd><dt>Countability</dt><dd>countable</dd></dl>
+<p>A figure or pattern cut into wood or stone.</p>
+<ol><li>The door has a <em>carving</em> of a lion on it.</li><li>The <em>carvings</em> on the pillars are five hundred years old.</li><li>He sells wooden <em>carvings</em> at the farmers market.</li></ol>
+<hr>
+<h3 id="easel">easel<a class="hash" href="#easel" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/ˈiːzəl/ &middot; <em>EE-zuhl</em></dd><dt>Русский</dt><dd>мольберт</dd><dt>Plural</dt><dd><em>easels</em></dd><dt>Countability</dt><dd>countable</dd></dl>
+<p>A wooden stand that holds a canvas while an artist paints.</p>
+<ol><li>She set up her <em>easel</em> by the river.</li><li>The painting was still on the <em>easel</em>.</li><li>Two <em>easels</em> stood in the corner of the studio.</li></ol>
+<hr>
+<h3 id="palette">palette<a class="hash" href="#palette" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/ˈpælət/ &middot; <em>PAL-uht</em></dd><dt>Русский</dt><dd>палитра</dd><dt>Plural</dt><dd><em>palettes</em></dd><dt>Countability</dt><dd>countable</dd><dt>Contrast</dt><dd>Sounds exactly like <em>pallet</em> (поддон) and <em>palate</em> (нёбо).</dd></dl>
+<p>A board on which a painter mixes colors, or the range of colors used.</p>
+<ol><li>There was more paint on his <em>palette</em> than on the canvas.</li><li>She works with a very limited <em>palette</em>.</li><li>He cleaned his <em>palettes</em> at the end of the day.</li></ol>
+<hr>
+<h3 id="paintbrush">paintbrush<a class="hash" href="#paintbrush" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/ˈpeɪntbrʌʃ/ &middot; <em>PAYNT-brush</em></dd><dt>Русский</dt><dd>кисть (для рисования)</dd><dt>Plural</dt><dd><em>paintbrushes</em></dd><dt>Countability</dt><dd>countable</dd></dl>
+<p>A brush used to put paint on a surface.</p>
+<ol><li>Wash the <em>paintbrush</em> out before the paint dries.</li><li>She keeps her <em>paintbrushes</em> in an old coffee can.</li><li>He used the finest <em>paintbrush</em> he had for the eyes.</li></ol>
+<hr>
+<h3 id="brushstroke">brushstroke<a class="hash" href="#brushstroke" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/ˈbrʌʃstroʊk/ &middot; <em>BRUSH-strohk</em></dd><dt>Русский</dt><dd>мазок (кисти)</dd><dt>Plural</dt><dd><em>brushstrokes</em></dd><dt>Countability</dt><dd>countable</dd></dl>
+<p>A single mark left on a surface by one movement of a brush.</p>
+<ol><li>You can see every <em>brushstroke</em> up close.</li><li>His <em>brushstrokes</em> are short and thick.</li><li>A single <em>brushstroke</em> gave away the forgery.</li></ol>
+<hr>
+<h3 id="pigment">pigment<a class="hash" href="#pigment" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/ˈpɪɡmənt/ &middot; <em>PIG-muhnt</em></dd><dt>Русский</dt><dd>пигмент, красящее вещество</dd><dt>Plural</dt><dd><em>pigments</em></dd><dt>Countability</dt><dd>countable, and uncountable as a substance</dd></dl>
+<p>A colored powder that is mixed with oil or water to make paint.</p>
+<ol><li>The blue <em>pigment</em> was made from a crushed stone.</li><li>Some <em>pigments</em> fade badly in sunlight.</li><li>She grinds her own <em>pigment</em> the old way.</li></ol>
+<hr>
+<h3 id="watercolor">watercolor<a class="hash" href="#watercolor" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/ˈwɔːtərkʌlər/ &middot; <em>WAW-tur-kul-ur</em></dd><dt>Русский</dt><dd>акварель</dd><dt>Plural</dt><dd><em>watercolors</em></dd><dt>Countability</dt><dd>countable</dd><dt>Contrast</dt><dd>Americans write <em>watercolor</em>; the British write <em>watercolour</em>.</dd></dl>
+<p>A painting made with paints that are mixed with water, or the paints themselves.</p>
+<ol><li>She painted the harbor in <em>watercolor</em>.</li><li>A small <em>watercolor</em> hangs by the stairs.</li><li>He bought a set of <em>watercolors</em> for the trip.</li></ol>
+<hr>
+<h3 id="pastel">pastel<a class="hash" href="#pastel" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/pæˈstel/ &middot; <em>pas-TEL</em></dd><dt>Русский</dt><dd>пастель</dd><dt>Plural</dt><dd><em>pastels</em></dd><dt>Countability</dt><dd>countable</dd><dt>Contrast</dt><dd>In American English the stress is on the second syllable: pas-TEL.</dd></dl>
+<p>A soft chalky crayon used for drawing, or a picture made with them.</p>
+<ol><li>The portrait was done in <em>pastel</em>.</li><li>A box of <em>pastels</em> sat open on the table.</li><li>She prefers <em>pastels</em> to oil paint.</li></ol>
+<hr>
+<h3 id="curator">curator<a class="hash" href="#curator" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/kjʊˈreɪtər/ &middot; <em>kyuu-RAY-tur</em></dd><dt>Русский</dt><dd>куратор (музея, выставки)</dd><dt>Plural</dt><dd><em>curators</em></dd><dt>Countability</dt><dd>countable</dd></dl>
+<p>The person who chooses and looks after the works in a museum or show.</p>
+<ol><li>The <em>curator</em> gave us a tour before the opening.</li><li>She's the <em>curator</em> of the photography collection.</li><li>Two <em>curators</em> chose the works for the show.</li></ol>
+<hr>
+<h3 id="forgery">forgery<a class="hash" href="#forgery" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/ˈfɔːrdʒəri/ &middot; <em>FOR-juh-ree</em></dd><dt>Русский</dt><dd>подделка</dd><dt>Plural</dt><dd><em>forgeries</em></dd><dt>Countability</dt><dd>countable</dd></dl>
+<p>A copy of a work of art or document made to be sold as the original.</p>
+<ol><li>The painting turned out to be a <em>forgery</em>.</li><li>He was arrested for art <em>forgery</em>.</li><li>Experts spotted the <em>forgery</em> in about a minute.</li></ol>
+<hr>
+<h3 id="replica">replica<a class="hash" href="#replica" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/ˈreplɪkə/ &middot; <em>REP-lih-kuh</em></dd><dt>Русский</dt><dd>копия, реплика</dd><dt>Plural</dt><dd><em>replicas</em></dd><dt>Countability</dt><dd>countable</dd></dl>
+<p>An exact copy of an object, made openly rather than to deceive.</p>
+<ol><li>The one on display is a <em>replica</em>; the original is in Rome.</li><li>He builds <em>replicas</em> of old sailing ships.</li><li>It's a full-size <em>replica</em> of the statue.</li></ol>
+<hr>
+<h3 id="restoration">restoration<a class="hash" href="#restoration" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/ˌrestəˈreɪʃən/ &middot; <em>res-tuh-RAY-shuhn</em></dd><dt>Русский</dt><dd>реставрация</dd><dt>Countability</dt><dd>uncountable</dd></dl>
+<p>The work of repairing an old painting or building so it looks as it did.</p>
+<ol><li>The <em>restoration</em> of the fresco took six years.</li><li>The painting is off the wall for <em>restoration</em>.</li><li>Careful <em>restoration</em> brought the colors back.</li></ol>
+<hr>
+<h3 id="composition">composition<a class="hash" href="#composition" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/ˌkɑːmpəˈzɪʃən/ &middot; <em>kahm-puh-ZISH-uhn</em></dd><dt>Русский</dt><dd>композиция; произведение</dd><dt>Plural</dt><dd><em>compositions</em></dd><dt>Countability</dt><dd>both — countable and uncountable with different meanings</dd></dl>
+<p>The way the parts of a picture or piece of music are arranged, or a work itself.</p>
+<ol><li>The <em>composition</em> of the photograph is what makes it work.</li><li>He studied <em>composition</em> before he studied color.</li><li>She has written <em>compositions</em> for full orchestra.</li></ol>
+<hr>
+<h3 id="perspective">perspective<a class="hash" href="#perspective" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/pərˈspektɪv/ &middot; <em>pur-SPEK-tiv</em></dd><dt>Русский</dt><dd>перспектива (в рисунке)</dd><dt>Countability</dt><dd>uncountable</dd></dl>
+<p>The technique of drawing so that distant things look smaller and farther away.</p>
+<ol><li>The drawing is badly out of <em>perspective</em>.</li><li>Renaissance painters worked out the rules of <em>perspective</em>.</li><li>He teaches <em>perspective</em> to first-year students.</li></ol>
+<hr>
+<h3 id="symmetry">symmetry<a class="hash" href="#symmetry" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/ˈsɪmətri/ &middot; <em>SIM-uh-tree</em></dd><dt>Русский</dt><dd>симметрия</dd><dt>Countability</dt><dd>uncountable</dd><dt>Contrast</dt><dd>The noun is stressed on the first syllable (SIM-uh-tree), but the adjective <em>symmetrical</em> on the second (sih-MET-rih-kuhl).</dd></dl>
+<p>The quality of having two halves that match each other exactly.</p>
+<ol><li>The building's <em>symmetry</em> is what makes it feel calm.</li><li>There's a rough <em>symmetry</em> to the whole painting.</li><li>She broke the <em>symmetry</em> on purpose.</li></ol>
+<hr>
+<h3 id="foreground">foreground<a class="hash" href="#foreground" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/ˈfɔːrɡraʊnd/ &middot; <em>FOR-grownd</em></dd><dt>Русский</dt><dd>передний план</dd><dt>Plural</dt><dd><em>foregrounds</em></dd><dt>Countability</dt><dd>countable</dd></dl>
+<p>The part of a picture that seems closest to the viewer.</p>
+<ol><li>A wooden fence runs across the <em>foreground</em> of the painting.</li><li>Put the tree in the <em>foreground</em> and the barn behind it.</li><li>Two small figures stand in the <em>foreground</em>.</li></ol>
+<hr>
+<h3 id="background">background<a class="hash" href="#background" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/ˈbækɡraʊnd/ &middot; <em>BAK-grownd</em></dd><dt>Русский</dt><dd>фон, задний план</dd><dt>Plural</dt><dd><em>backgrounds</em></dd><dt>Countability</dt><dd>countable</dd></dl>
+<p>The part of a picture that seems farthest from the viewer.</p>
+<ol><li>The <em>background</em> of the portrait is just flat gold.</li><li>She paints the <em>background</em> first and the figures last.</li><li>The mountains in the <em>background</em> are barely visible.</li></ol>
+<hr>
+<h3 id="silhouette">silhouette<a class="hash" href="#silhouette" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/ˌsɪluˈet/ &middot; <em>sil-oo-ET</em></dd><dt>Русский</dt><dd>силуэт</dd><dt>Plural</dt><dd><em>silhouettes</em></dd><dt>Countability</dt><dd>countable</dd><dt>Contrast</dt><dd>The h is silent and the ending is French: sil-oo-ET.</dd></dl>
+<p>The dark outline of something seen against a lighter background.</p>
+<ol><li>The trees were black <em>silhouettes</em> against the sunset.</li><li>She cut his <em>silhouette</em> out of black paper.</li><li>You can recognize the building by its <em>silhouette</em> alone.</li></ol>
+<hr>
+<h3 id="hue">hue<a class="hash" href="#hue" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/hjuː/ &middot; <em>HYOO</em></dd><dt>Русский</dt><dd>оттенок (цвета)</dd><dt>Plural</dt><dd><em>hues</em></dd><dt>Countability</dt><dd>countable</dd></dl>
+<p>A shade of a color.</p>
+<ol><li>The walls are painted a warm <em>hue</em> of yellow.</li><li>The photograph has a strange greenish <em>hue</em>.</li><li>The same red turns up in a dozen different <em>hues</em>.</li></ol>
+<hr>
+<h3 id="contrast">contrast<a class="hash" href="#contrast" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/ˈkɑːntræst/ &middot; <em>KAHN-trast</em></dd><dt>Русский</dt><dd>контраст</dd><dt>Countability</dt><dd>uncountable</dd><dt>Contrast</dt><dd>The noun is stressed on the first syllable (KAHN-trast); the verb <em>to contrast</em> on the second (kuhn-TRAST).</dd></dl>
+<p>The difference between the light and dark parts of a picture.</p>
+<ol><li>The photo has way too much <em>contrast</em>.</li><li>The painting gets its power from the <em>contrast</em> between light and shadow.</li><li>Turn the <em>contrast</em> down a little.</li></ol>
+<hr>
+<h3 id="artisan">artisan<a class="hash" href="#artisan" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/ˈɑːrtəzən/ &middot; <em>AR-tuh-zuhn</em></dd><dt>Русский</dt><dd>ремесленник, мастер</dd><dt>Plural</dt><dd><em>artisans</em></dd><dt>Countability</dt><dd>countable</dd></dl>
+<p>A skilled worker who makes things by hand.</p>
+<ol><li>The bowls are made by local <em>artisans</em>.</li><li>He's an <em>artisan</em>, not a factory.</li><li>The market is full of <em>artisans</em> selling their own work.</li></ol>
+<hr>
+<h3 id="craftsmanship">craftsmanship<a class="hash" href="#craftsmanship" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/ˈkræftsmənʃɪp/ &middot; <em>KRAFTS-muhn-ship</em></dd><dt>Русский</dt><dd>мастерство (ремесленное)</dd><dt>Countability</dt><dd>uncountable</dd><dt>Contrast</dt><dd>Uncountable: <em>the craftsmanship is</em> excellent — never <em>craftsmanships</em>.</dd></dl>
+<p>The skill shown in the way something has been made by hand.</p>
+<ol><li>The <em>craftsmanship</em> on that cabinet is beautiful.</li><li>You don't see that kind of <em>craftsmanship</em> anymore.</li><li>The price reflects the <em>craftsmanship</em>, not the materials.</li></ol>
+<hr>
+<h3 id="embroidery">embroidery<a class="hash" href="#embroidery" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/ɪmˈbrɔɪdəri/ &middot; <em>im-BROY-duh-ree</em></dd><dt>Русский</dt><dd>вышивка</dd><dt>Countability</dt><dd>uncountable</dd></dl>
+<p>Decorative patterns sewn onto cloth with colored thread.</p>
+<ol><li>The pillow has gold <em>embroidery</em> around the edge.</li><li>She does <em>embroidery</em> while she watches TV.</li><li>The <em>embroidery</em> on that jacket took months.</li></ol>
+<hr>
+<h3 id="loom">loom<a class="hash" href="#loom" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/luːm/ &middot; <em>LOOM</em></dd><dt>Русский</dt><dd>ткацкий станок</dd><dt>Plural</dt><dd><em>looms</em></dd><dt>Countability</dt><dd>countable</dd></dl>
+<p>A frame or machine for weaving thread into cloth.</p>
+<ol><li>She weaves rugs on a wooden <em>loom</em>.</li><li>The <em>loom</em> takes up half the room.</li><li>The old mill had two hundred <em>looms</em> running at once.</li></ol>
+<hr>
+<h3 id="photography">photography<a class="hash" href="#photography" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/fəˈtɑːɡrəfi/ &middot; <em>fuh-TAH-gruh-fee</em></dd><dt>Русский</dt><dd>фотография (искусство, занятие)</dd><dt>Countability</dt><dd>uncountable</dd><dt>Contrast</dt><dd>The stress moves: <em>photography</em> is fuh-TAH-gruh-fee, but <em>photograph</em> is FOH-tuh-graf.</dd></dl>
+<p>The art or practice of taking pictures with a camera.</p>
+<ol><li>He got into <em>photography</em> in high school.</li><li>The show is all landscape <em>photography</em>.</li><li><em>Photography</em> is not allowed in this gallery.</li></ol>
+<hr>
+<h3 id="photograph">photograph<a class="hash" href="#photograph" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/ˈfoʊtəɡræf/ &middot; <em>FOH-tuh-graf</em></dd><dt>Русский</dt><dd>фотография (снимок)</dd><dt>Plural</dt><dd><em>photographs</em></dd><dt>Countability</dt><dd>countable</dd></dl>
+<p>A picture made with a camera.</p>
+<ol><li>There's an old <em>photograph</em> of the farm on the wall.</li><li>She took a <em>photograph</em> of the whole crew.</li><li>The <em>photographs</em> are all from the 1940s.</li></ol>
+<hr>
+<h3 id="impressionism">impressionism<a class="hash" href="#impressionism" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/ɪmˈpreʃənɪzəm/ &middot; <em>im-PRESH-uh-niz-uhm</em></dd><dt>Русский</dt><dd>импрессионизм</dd><dt>Countability</dt><dd>uncountable</dd></dl>
+<p>A style of painting that catches the effect of light rather than exact detail.</p>
+<ol><li><em>Impressionism</em> changed the way painters used color.</li><li>That whole room is devoted to French <em>impressionism</em>.</li><li>He wrote a short book about <em>impressionism</em>.</li></ol>
+<hr>
+<h3 id="painter">painter<a class="hash" href="#painter" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/ˈpeɪntər/ &middot; <em>PAYN-tur</em></dd><dt>Русский</dt><dd>художник; маляр</dd><dt>Plural</dt><dd><em>painters</em></dd><dt>Countability</dt><dd>countable</dd><dt>Contrast</dt><dd><em>Painter</em> covers both the artist and the house painter; only context tells you which.</dd></dl>
+<p>An artist who paints pictures, or a worker who paints walls.</p>
+<ol><li>The <em>painter</em> mixed her colors on a sheet of glass.</li><li>He's a <em>painter</em> — mostly landscapes.</li><li>We hired a <em>painter</em> to do the living room.</li></ol>
+<hr>
+<h3 id="instrument">instrument<a class="hash" href="#instrument" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/ˈɪnstrəmənt/ &middot; <em>IN-struh-muhnt</em></dd><dt>Русский</dt><dd>музыкальный инструмент</dd><dt>Plural</dt><dd><em>instruments</em></dd><dt>Countability</dt><dd>countable</dd></dl>
+<p>An object used to make music, such as a guitar or a flute.</p>
+<ol><li>The violin was the first <em>instrument</em> she learned.</li><li>He plays three <em>instruments</em> well and two badly.</li><li>Bring your <em>instrument</em> to rehearsal on Thursday.</li></ol>
+<hr>
+<h3 id="guitar">guitar<a class="hash" href="#guitar" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/ɡɪˈtɑːr/ &middot; <em>gih-TAR</em></dd><dt>Русский</dt><dd>гитара</dd><dt>Plural</dt><dd><em>guitars</em></dd><dt>Countability</dt><dd>countable</dd><dt>Contrast</dt><dd>The stress is on the second syllable: gih-TAR.</dd></dl>
+<p>A stringed instrument with a long neck, played with the fingers or a pick.</p>
+<ol><li>He's been playing <em>guitar</em> since he was twelve.</li><li>Her <em>guitar</em> needs new strings.</li><li>Two <em>guitars</em> and a drum kit filled the garage.</li></ol>
+<hr>
+<h3 id="violin">violin<a class="hash" href="#violin" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/ˌvaɪrˈlɪn/ &middot; <em>vy-uh-LIN</em></dd><dt>Русский</dt><dd>скрипка</dd><dt>Plural</dt><dd><em>violins</em></dd><dt>Countability</dt><dd>countable</dd><dt>Contrast</dt><dd>The stress is on the last syllable and the first vowel is long: vy-uh-LIN.</dd></dl>
+<p>A small wooden stringed instrument played with a bow under the chin.</p>
+<ol><li>She plays <em>violin</em> in the school orchestra.</li><li>The <em>violin</em> was made in 1890.</li><li>Six <em>violins</em> sat in the front row.</li></ol>
+<hr>
+<h3 id="viola">viola<a class="hash" href="#viola" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/viˈoʊlə/ &middot; <em>vee-OH-luh</em></dd><dt>Русский</dt><dd>альт (инструмент)</dd><dt>Plural</dt><dd><em>violas</em></dd><dt>Countability</dt><dd>countable</dd><dt>Contrast</dt><dd>Said vee-OH-luh — it does not begin like <em>violin</em>.</dd></dl>
+<p>A stringed instrument slightly larger than a violin, with a lower sound.</p>
+<ol><li>The <em>viola</em> is bigger than a violin and sounds warmer.</li><li>He switched from violin to <em>viola</em> in college.</li><li>There were only two <em>violas</em> in the whole section.</li></ol>
+<hr>
+<h3 id="harp">harp<a class="hash" href="#harp" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/hɑːrp/ &middot; <em>HARP</em></dd><dt>Русский</dt><dd>арфа</dd><dt>Plural</dt><dd><em>harps</em></dd><dt>Countability</dt><dd>countable</dd></dl>
+<p>A tall triangular instrument with strings that are plucked with both hands.</p>
+<ol><li>She plays the <em>harp</em> at weddings.</li><li>The <em>harp</em> has forty-seven strings.</li><li>Two <em>harps</em> were set up at the front of the stage.</li></ol>
+<hr>
+<h3 id="flute">flute<a class="hash" href="#flute" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/fluːt/ &middot; <em>FLOOT</em></dd><dt>Русский</dt><dd>флейта</dd><dt>Plural</dt><dd><em>flutes</em></dd><dt>Countability</dt><dd>countable</dd></dl>
+<p>A metal wind instrument held sideways and blown across a hole.</p>
+<ol><li>She played the <em>flute</em> all through high school.</li><li>The <em>flute</em> comes apart into three pieces.</li><li>The <em>flutes</em> carry the melody in this section.</li></ol>
+<hr>
+<h3 id="clarinet">clarinet<a class="hash" href="#clarinet" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/ˌklerəˈnet/ &middot; <em>kler-uh-NET</em></dd><dt>Русский</dt><dd>кларнет</dd><dt>Plural</dt><dd><em>clarinets</em></dd><dt>Countability</dt><dd>countable</dd><dt>Contrast</dt><dd>The stress is on the last syllable: kler-uh-NET.</dd></dl>
+<p>A black wind instrument with a single reed and a bell-shaped end.</p>
+<ol><li>He plays <em>clarinet</em> in a klezmer band.</li><li>The <em>clarinet</em> squeaked on the high note.</li><li>Three <em>clarinets</em> sit right behind the flutes.</li></ol>
+<hr>
+<h3 id="oboe">oboe<a class="hash" href="#oboe" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/ˈoʊboʊ/ &middot; <em>OH-boh</em></dd><dt>Русский</dt><dd>гобой</dd><dt>Plural</dt><dd><em>oboes</em></dd><dt>Countability</dt><dd>countable</dd></dl>
+<p>A narrow wooden wind instrument with a double reed and a thin, sharp tone.</p>
+<ol><li>The <em>oboe</em> gives the tuning note to the whole orchestra.</li><li>She has played the <em>oboe</em> since she was ten.</li><li>The two <em>oboes</em> open the second movement.</li></ol>
+<hr>
+<h3 id="saxophone">saxophone<a class="hash" href="#saxophone" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/ˈsæksəfoʊn/ &middot; <em>SAK-suh-fohn</em></dd><dt>Русский</dt><dd>саксофон</dd><dt>Plural</dt><dd><em>saxophones</em></dd><dt>Countability</dt><dd>countable</dd></dl>
+<p>A curved brass wind instrument with a reed, common in jazz.</p>
+<ol><li>He picked up the <em>saxophone</em> in middle school.</li><li>A <em>saxophone</em> solo runs through the whole song.</li><li>The band has three <em>saxophones</em> in the back row.</li></ol>
+<hr>
+<h3 id="trumpet">trumpet<a class="hash" href="#trumpet" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/ˈtrʌmpət/ &middot; <em>TRUM-puht</em></dd><dt>Русский</dt><dd>труба (инструмент)</dd><dt>Plural</dt><dd><em>trumpets</em></dd><dt>Countability</dt><dd>countable</dd></dl>
+<p>A brass instrument with three valves and a bright, loud tone.</p>
+<ol><li>The <em>trumpet</em> came in loud on the last chorus.</li><li>She plays <em>trumpet</em> in the marching band.</li><li>The <em>trumpets</em> stood up for the solo.</li></ol>
+<hr>
+<h3 id="trombone">trombone<a class="hash" href="#trombone" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/trɑːmˈboʊn/ &middot; <em>trahm-BOHN</em></dd><dt>Русский</dt><dd>тромбон</dd><dt>Plural</dt><dd><em>trombones</em></dd><dt>Countability</dt><dd>countable</dd></dl>
+<p>A large brass instrument played by sliding a long tube in and out.</p>
+<ol><li>The <em>trombone</em> slides from one note to the next.</li><li>He carries his <em>trombone</em> on the bus every day.</li><li>Two <em>trombones</em> and a tuba make up the low brass.</li></ol>
+<hr>
+<h3 id="tuba">tuba<a class="hash" href="#tuba" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/ˈtuːbə/ &middot; <em>TOO-buh</em></dd><dt>Русский</dt><dd>туба</dd><dt>Plural</dt><dd><em>tubas</em></dd><dt>Countability</dt><dd>countable</dd><dt>Contrast</dt><dd>In American English it's TOO-buh, not TYOO-buh.</dd></dl>
+<p>The largest brass instrument, which plays the lowest notes in a band.</p>
+<ol><li>The <em>tuba</em> is the biggest instrument in the band.</li><li>He hauls the <em>tuba</em> to every parade.</li><li>The <em>tubas</em> keep the bass line going.</li></ol>
+<hr>
+<h3 id="drum">drum<a class="hash" href="#drum" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/drʌm/ &middot; <em>DRUM</em></dd><dt>Русский</dt><dd>барабан</dd><dt>Plural</dt><dd><em>drums</em></dd><dt>Countability</dt><dd>countable</dd></dl>
+<p>An instrument with skin stretched over a round frame, hit with sticks or hands.</p>
+<ol><li>He plays <em>drums</em> in a cover band.</li><li>The <em>drum</em> was so loud we couldn't hear the singer.</li><li>A bass <em>drum</em> thumped all the way down the street.</li></ol>
+<hr>
+<h3 id="cymbal">cymbal<a class="hash" href="#cymbal" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/ˈsɪmbəl/ &middot; <em>SIM-buhl</em></dd><dt>Русский</dt><dd>тарелка (ударный инструмент)</dd><dt>Plural</dt><dd><em>cymbals</em></dd><dt>Countability</dt><dd>countable</dd><dt>Contrast</dt><dd>Sounds exactly like <em>symbol</em> (символ).</dd></dl>
+<p>A round metal plate that makes a crashing sound when struck.</p>
+<ol><li>She hit the <em>cymbal</em> at the end of the song.</li><li>The <em>cymbals</em> crashed on the downbeat.</li><li>One <em>cymbal</em> had a crack straight through it.</li></ol>
+<hr>
+<h3 id="tambourine">tambourine<a class="hash" href="#tambourine" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/ˌtæmbəˈriːn/ &middot; <em>tam-buh-REEN</em></dd><dt>Русский</dt><dd>бубен</dd><dt>Plural</dt><dd><em>tambourines</em></dd><dt>Countability</dt><dd>countable</dd></dl>
+<p>A small drum with metal disks around the rim that you shake or tap.</p>
+<ol><li>She shook a <em>tambourine</em> through the whole chorus.</li><li>The <em>tambourine</em> keeps the beat in that song.</li><li>There were two <em>tambourines</em> in the box of instruments.</li></ol>
+<hr>
+<h3 id="xylophone">xylophone<a class="hash" href="#xylophone" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/ˈzaɪləfoʊn/ &middot; <em>ZY-luh-fohn</em></dd><dt>Русский</dt><dd>ксилофон</dd><dt>Plural</dt><dd><em>xylophones</em></dd><dt>Countability</dt><dd>countable</dd><dt>Contrast</dt><dd>The x is pronounced z: ZY-luh-fohn.</dd></dl>
+<p>An instrument made of wooden bars that are hit with small hammers.</p>
+<ol><li>The kids banged away on a toy <em>xylophone</em>.</li><li>A <em>xylophone</em> plays the melody in that old cartoon.</li><li>The school owns two <em>xylophones</em>.</li></ol>
+<hr>
+<h3 id="accordion">accordion<a class="hash" href="#accordion" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/əˈkɔːrdiən/ &middot; <em>uh-KOR-dee-uhn</em></dd><dt>Русский</dt><dd>аккордеон</dd><dt>Plural</dt><dd><em>accordions</em></dd><dt>Countability</dt><dd>countable</dd></dl>
+<p>A boxy instrument played by pressing keys while squeezing a folding bellows.</p>
+<ol><li>An old man played the <em>accordion</em> on the corner.</li><li>The <em>accordion</em> weighs more than you'd think.</li><li>Two <em>accordions</em> led the polka band.</li></ol>
+<hr>
+<h3 id="harmonica">harmonica<a class="hash" href="#harmonica" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/hɑːrˈmɑːnɪkə/ &middot; <em>har-MAH-nih-kuh</em></dd><dt>Русский</dt><dd>губная гармоника</dd><dt>Plural</dt><dd><em>harmonicas</em></dd><dt>Countability</dt><dd>countable</dd></dl>
+<p>A small rectangular instrument played by blowing and drawing air through holes.</p>
+<ol><li>He always has a <em>harmonica</em> in his coat pocket.</li><li>The <em>harmonica</em> comes in on the second verse.</li><li>She collects old <em>harmonicas</em>.</li></ol>
+<hr>
+<h3 id="ukulele">ukulele<a class="hash" href="#ukulele" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/ˌjuːkəˈleɪli/ &middot; <em>yoo-kuh-LAY-lee</em></dd><dt>Русский</dt><dd>укулеле, гавайская гитара</dd><dt>Plural</dt><dd><em>ukuleles</em></dd><dt>Countability</dt><dd>countable</dd><dt>Contrast</dt><dd>Pronounced yoo-kuh-LAY-lee in American English.</dd></dl>
+<p>A small four-stringed instrument that looks like a tiny guitar.</p>
+<ol><li>She learned three chords on the <em>ukulele</em> in one night.</li><li>The <em>ukulele</em> is easier on your fingers than a guitar.</li><li>They sell cheap <em>ukuleles</em> at the music store.</li></ol>
+<hr>
+<h3 id="bagpipes">bagpipes<a class="hash" href="#bagpipes" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/ˈbæɡpaɪps/ &middot; <em>BAG-pypes</em></dd><dt>Русский</dt><dd>волынка</dd><dt>Plural</dt><dd><em>bagpipes</em></dd><dt>Countability</dt><dd>countable</dd><dt>Contrast</dt><dd>Normally plural — <em>the bagpipes</em>, even when it is one instrument.</dd></dl>
+<p>A wind instrument with pipes fed by air squeezed from a bag under the arm.</p>
+<ol><li>A piper played the <em>bagpipes</em> at the funeral.</li><li>You can hear the <em>bagpipes</em> from three blocks away.</li><li>He learned the <em>bagpipes</em> from his grandfather.</li></ol>
+<hr>
+<h3 id="synthesizer">synthesizer<a class="hash" href="#synthesizer" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/ˈsɪnθəsaɪzər/ &middot; <em>SIN-thuh-sy-zur</em></dd><dt>Русский</dt><dd>синтезатор</dd><dt>Plural</dt><dd><em>synthesizers</em></dd><dt>Countability</dt><dd>countable</dd></dl>
+<p>An electronic keyboard instrument that produces and shapes sounds.</p>
+<ol><li>The whole song is built on one <em>synthesizer</em>.</li><li>He bought a used <em>synthesizer</em> off a friend.</li><li>Old <em>synthesizers</em> are worth a fortune now.</li></ol>
+<hr>
+<h3 id="pedal">pedal<a class="hash" href="#pedal" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/ˈpedəl/ &middot; <em>PED-uhl</em></dd><dt>Русский</dt><dd>педаль</dd><dt>Plural</dt><dd><em>pedals</em></dd><dt>Countability</dt><dd>countable</dd><dt>Contrast</dt><dd>Sounds exactly like <em>peddle</em> (торговать вразнос).</dd></dl>
+<p>A part pressed with the foot to change the sound of an instrument.</p>
+<ol><li>Use the <em>pedal</em> to hold the notes a little longer.</li><li>The right <em>pedal</em> on the piano sticks.</li><li>He steps on the <em>pedals</em> to change the guitar's tone.</li></ol>
+<hr>
+<h3 id="string">string<a class="hash" href="#string" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/strɪŋ/ &middot; <em>STRING</em></dd><dt>Русский</dt><dd>струна</dd><dt>Plural</dt><dd><em>strings</em></dd><dt>Countability</dt><dd>countable</dd></dl>
+<p>A tight wire or cord on an instrument that makes a note when it vibrates.</p>
+<ol><li>One <em>string</em> broke in the middle of the song.</li><li>He changes his <em>strings</em> about once a month.</li><li>The <em>strings</em> come in quietly under the piano.</li></ol>
+<hr>
+<h3 id="microphone">microphone<a class="hash" href="#microphone" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/ˈmaɪkrəfoʊn/ &middot; <em>MY-kruh-fohn</em></dd><dt>Русский</dt><dd>микрофон</dd><dt>Plural</dt><dd><em>microphones</em></dd><dt>Countability</dt><dd>countable</dd></dl>
+<p>A device that picks up sound so it can be made louder or recorded.</p>
+<ol><li>Tap the <em>microphone</em> and see if it's on.</li><li>She stepped up to the <em>microphone</em> and waited.</li><li>Two <em>microphones</em> were set up over the drums.</li></ol>
+<hr>
+<h3 id="amplifier">amplifier<a class="hash" href="#amplifier" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/ˈæmplɪfaɪrr/ &middot; <em>AM-plih-fy-ur</em></dd><dt>Русский</dt><dd>усилитель</dd><dt>Plural</dt><dd><em>amplifiers</em></dd><dt>Countability</dt><dd>countable</dd></dl>
+<p>An electronic box that makes the sound of an instrument or a recording louder.</p>
+<ol><li>The guitar plugs straight into the <em>amplifier</em>.</li><li>His <em>amplifier</em> hums whenever the lights are on.</li><li>They loaded the <em>amplifiers</em> into the van after the show.</li></ol>
+<hr>
+<h3 id="speaker">speaker<a class="hash" href="#speaker" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/ˈspiːkər/ &middot; <em>SPEE-kur</em></dd><dt>Русский</dt><dd>динамик, колонка</dd><dt>Plural</dt><dd><em>speakers</em></dd><dt>Countability</dt><dd>countable</dd></dl>
+<p>The part of a sound system that the sound comes out of.</p>
+<ol><li>One <em>speaker</em> is blown, so everything sounds flat.</li><li>Turn the <em>speakers</em> toward the room.</li><li>The music came out of a tiny <em>speaker</em> in the ceiling.</li></ol>
+<hr>
+<h3 id="metronome">metronome<a class="hash" href="#metronome" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/ˈmetrənoʊm/ &middot; <em>MET-ruh-nohm</em></dd><dt>Русский</dt><dd>метроном</dd><dt>Plural</dt><dd><em>metronomes</em></dd><dt>Countability</dt><dd>countable</dd></dl>
+<p>A device that ticks at a steady speed to help a musician keep time.</p>
+<ol><li>Practice with a <em>metronome</em> until the tempo is steady.</li><li>The <em>metronome</em> ticked away on top of the piano.</li><li>Most phones have a <em>metronome</em> built in now.</li></ol>
+<hr>
+<h3 id="baton">baton<a class="hash" href="#baton" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/bəˈtɑːn/ &middot; <em>buh-TAHN</em></dd><dt>Русский</dt><dd>дирижёрская палочка</dd><dt>Plural</dt><dd><em>batons</em></dd><dt>Countability</dt><dd>countable</dd><dt>Contrast</dt><dd>In American English the stress is on the second syllable: buh-TAHN.</dd></dl>
+<p>The thin stick a conductor uses to lead an orchestra.</p>
+<ol><li>The conductor raised her <em>baton</em> and the room went quiet.</li><li>He tapped his <em>baton</em> on the music stand.</li><li>Two <em>batons</em> lay on the podium.</li></ol>
+<hr>
+<h3 id="earbuds">earbuds<a class="hash" href="#earbuds" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/ˈɪrbʌdz/ &middot; <em>EER-budz</em></dd><dt>Русский</dt><dd>наушники-вкладыши</dd><dt>Plural</dt><dd><em>earbuds</em></dd><dt>Countability</dt><dd>countable</dd><dt>Contrast</dt><dd>Normally plural, like <em>headphones</em>, since they come as a pair.</dd></dl>
+<p>Very small headphones that sit inside the opening of the ears.</p>
+<ol><li>He had his <em>earbuds</em> in for the whole flight.</li><li>One of my <em>earbuds</em> stopped working.</li><li>She pulled out her <em>earbuds</em> to hear the question.</li></ol>
+<hr>
+<h3 id="melody">melody<a class="hash" href="#melody" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/ˈmelədi/ &middot; <em>MEL-uh-dee</em></dd><dt>Русский</dt><dd>мелодия</dd><dt>Plural</dt><dd><em>melodies</em></dd><dt>Countability</dt><dd>countable</dd></dl>
+<p>The main line of notes in a piece of music, the part you hum.</p>
+<ol><li>The <em>melody</em> stays in your head all day.</li><li>She hummed the <em>melody</em> while she cooked.</li><li>The two <em>melodies</em> are played at the same time.</li></ol>
+<hr>
+<h3 id="harmony">harmony<a class="hash" href="#harmony" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/ˈhɑːrməni/ &middot; <em>HAR-muh-nee</em></dd><dt>Русский</dt><dd>гармония (многоголосие)</dd><dt>Countability</dt><dd>uncountable</dd></dl>
+<p>Notes sung or played together with the melody to make a fuller sound.</p>
+<ol><li>The sisters sang in perfect <em>harmony</em>.</li><li>The song is simple, but the <em>harmony</em> is not.</li><li>She sings <em>harmony</em> and he sings the melody.</li></ol>
+<hr>
+<h3 id="rhythm">rhythm<a class="hash" href="#rhythm" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/ˈrɪðəm/ &middot; <em>RITH-uhm</em></dd><dt>Русский</dt><dd>ритм</dd><dt>Plural</dt><dd><em>rhythms</em></dd><dt>Countability</dt><dd>countable</dd><dt>Contrast</dt><dd>There is no vowel letter between th and m: RITH-uhm.</dd></dl>
+<p>The regular pattern of long and short sounds in music.</p>
+<ol><li>The song has a strange <em>rhythm</em>.</li><li>The drums lay down a steady <em>rhythm</em>.</li><li>Caribbean <em>rhythms</em> run all through her records.</li></ol>
+<hr>
+<h3 id="beat">beat<a class="hash" href="#beat" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/biːt/ &middot; <em>BEET</em></dd><dt>Русский</dt><dd>доля, ритм (бит)</dd><dt>Plural</dt><dd><em>beats</em></dd><dt>Countability</dt><dd>countable</dd><dt>Contrast</dt><dd>Sounds exactly like <em>beet</em> (свёкла).</dd></dl>
+<p>One of the regular pulses you count or clap along to in music.</p>
+<ol><li>The <em>beat</em> is too fast to dance to.</li><li>Clap on the second and fourth <em>beats</em>.</li><li>He makes <em>beats</em> on a laptop in his bedroom.</li></ol>
+<hr>
+<h3 id="tune">tune<a class="hash" href="#tune" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/tuːn/ &middot; <em>TOON</em></dd><dt>Русский</dt><dd>мотив, мелодия</dd><dt>Plural</dt><dd><em>tunes</em></dd><dt>Countability</dt><dd>countable</dd><dt>Contrast</dt><dd>Americans say TOON; the British say TYOON.</dd></dl>
+<p>A series of notes that make a piece of music you can recognize.</p>
+<ol><li>I know the <em>tune</em> but not the words.</li><li>She was whistling an old <em>tune</em>.</li><li>The band played a few <em>tunes</em> and went home.</li></ol>
+<hr>
+<h3 id="chord">chord<a class="hash" href="#chord" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/kɔːrd/ &middot; <em>KORD</em></dd><dt>Русский</dt><dd>аккорд</dd><dt>Plural</dt><dd><em>chords</em></dd><dt>Countability</dt><dd>countable</dd><dt>Contrast</dt><dd>The h is silent, so <em>chord</em> sounds exactly like <em>cord</em> (шнур).</dd></dl>
+<p>Three or more notes played at the same time.</p>
+<ol><li>Learn four <em>chords</em> and you can play half of country music.</li><li>The first <em>chord</em> was badly out of tune.</li><li>He struck a minor <em>chord</em> and let it ring.</li></ol>
+<hr>
+<h3 id="octave">octave<a class="hash" href="#octave" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/ˈɑːktɪv/ &middot; <em>AHK-tiv</em></dd><dt>Русский</dt><dd>октава</dd><dt>Plural</dt><dd><em>octaves</em></dd><dt>Countability</dt><dd>countable</dd></dl>
+<p>The distance between one note and the next note of the same name above it.</p>
+<ol><li>Her voice covers three <em>octaves</em>.</li><li>Try singing it an <em>octave</em> lower.</li><li>The two flutes are an <em>octave</em> apart.</li></ol>
+<hr>
+<h3 id="clef">clef<a class="hash" href="#clef" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/klef/ &middot; <em>KLEF</em></dd><dt>Русский</dt><dd>ключ (нотный)</dd><dt>Plural</dt><dd><em>clefs</em></dd><dt>Countability</dt><dd>countable</dd></dl>
+<p>A sign at the start of written music showing how high the notes are.</p>
+<ol><li>The bass <em>clef</em> is for the lower notes.</li><li>She learned to read the treble <em>clef</em> first.</li><li>Cello music uses two different <em>clefs</em>.</li></ol>
+<hr>
+<h3 id="sharp">sharp<a class="hash" href="#sharp" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/ʃɑːrp/ &middot; <em>SHARP</em></dd><dt>Русский</dt><dd>диез</dd><dt>Plural</dt><dd><em>sharps</em></dd><dt>Countability</dt><dd>countable</dd></dl>
+<p>A sign in written music that raises a note by a half step.</p>
+<ol><li>There are two <em>sharps</em> in the key signature.</li><li>That note is a C <em>sharp</em>, not a C.</li><li>He can never remember where the <em>sharps</em> go.</li></ol>
+<hr>
+<h3 id="flat">flat<a class="hash" href="#flat" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/flæt/ &middot; <em>FLAT</em></dd><dt>Русский</dt><dd>бемоль</dd><dt>Plural</dt><dd><em>flats</em></dd><dt>Countability</dt><dd>countable</dd><dt>Contrast</dt><dd>In music a <em>flat</em> lowers a note; in British English <em>flat</em> also means an apartment.</dd></dl>
+<p>A sign in written music that lowers a note by a half step.</p>
+<ol><li>The piece has three <em>flats</em>.</li><li>Play B <em>flat</em> there, not B.</li><li>The <em>flats</em> are marked at the start of the line.</li></ol>
+<hr>
+<h3 id="pitch">pitch<a class="hash" href="#pitch" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/pɪtʃ/ &middot; <em>PICH</em></dd><dt>Русский</dt><dd>высота звука</dd><dt>Countability</dt><dd>uncountable</dd></dl>
+<p>How high or low a musical sound is.</p>
+<ol><li>She has perfect <em>pitch</em>.</li><li>His voice dropped in <em>pitch</em> at the end of the line.</li><li>The whole choir was singing under <em>pitch</em>.</li></ol>
+<hr>
+<h3 id="chorus">chorus<a class="hash" href="#chorus" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/ˈkɔːrəs/ &middot; <em>KOR-uhs</em></dd><dt>Русский</dt><dd>припев; хор</dd><dt>Plural</dt><dd><em>choruses</em></dd><dt>Countability</dt><dd>countable</dd></dl>
+<p>The part of a song that repeats after each verse, or a group of singers.</p>
+<ol><li>Everybody sings along on the <em>chorus</em>.</li><li>The <em>chorus</em> comes back three times.</li><li>The <em>choruses</em> are the only part I remember.</li></ol>
+<hr>
+<h3 id="verse">verse<a class="hash" href="#verse" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/vɜːrs/ &middot; <em>VURS</em></dd><dt>Русский</dt><dd>куплет</dd><dt>Plural</dt><dd><em>verses</em></dd><dt>Countability</dt><dd>countable</dd></dl>
+<p>One of the sections of a song that has the same tune but different words.</p>
+<ol><li>The second <em>verse</em> tells the rest of the story.</li><li>He wrote four <em>verses</em> and then cut two.</li><li>She forgot the words to the last <em>verse</em>.</li></ol>
+<hr>
+<h3 id="riff">riff<a class="hash" href="#riff" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/rɪf/ &middot; <em>RIF</em></dd><dt>Русский</dt><dd>рифф</dd><dt>Plural</dt><dd><em>riffs</em></dd><dt>Countability</dt><dd>countable</dd></dl>
+<p>A short pattern of notes repeated through a rock or jazz song.</p>
+<ol><li>That guitar <em>riff</em> is instantly recognizable.</li><li>He built the whole song around one <em>riff</em>.</li><li>The band jammed on a couple of <em>riffs</em> for ten minutes.</li></ol>
+<hr>
+<h3 id="soloist">soloist<a class="hash" href="#soloist" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/ˈsoʊloʊɪst/ &middot; <em>SOH-loh-ist</em></dd><dt>Русский</dt><dd>солист</dd><dt>Plural</dt><dd><em>soloists</em></dd><dt>Countability</dt><dd>countable</dd></dl>
+<p>A musician or singer who performs alone in front of a group.</p>
+<ol><li>The <em>soloist</em> got a standing ovation.</li><li>She was the <em>soloist</em> in the second piece.</li><li>Both <em>soloists</em> were students at the conservatory.</li></ol>
+<hr>
+<h3 id="duet">duet<a class="hash" href="#duet" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/duˈet/ &middot; <em>doo-ET</em></dd><dt>Русский</dt><dd>дуэт</dd><dt>Plural</dt><dd><em>duets</em></dd><dt>Countability</dt><dd>countable</dd></dl>
+<p>A piece of music for two performers.</p>
+<ol><li>They sang a <em>duet</em> at the end of the show.</li><li>The <em>duet</em> is written for flute and piano.</li><li>We practiced our <em>duet</em> all week.</li></ol>
+<hr>
+<h3 id="quartet">quartet<a class="hash" href="#quartet" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/kwɔːrˈtet/ &middot; <em>kwor-TET</em></dd><dt>Русский</dt><dd>квартет</dd><dt>Plural</dt><dd><em>quartets</em></dd><dt>Countability</dt><dd>countable</dd></dl>
+<p>A group of four musicians, or a piece written for four of them.</p>
+<ol><li>A string <em>quartet</em> played during dinner.</li><li>The <em>quartet</em> has been together for twenty years.</li><li>Two <em>quartets</em> are on the program tonight.</li></ol>
+<hr>
+<h3 id="ensemble">ensemble<a class="hash" href="#ensemble" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/ɑːnˈsɑːmbəl/ &middot; <em>ahn-SAHM-buhl</em></dd><dt>Русский</dt><dd>ансамбль</dd><dt>Plural</dt><dd><em>ensembles</em></dd><dt>Countability</dt><dd>countable</dd><dt>Contrast</dt><dd>From French: ahn-SAHM-buhl, with the final e silent.</dd></dl>
+<p>A small group of musicians who perform together.</p>
+<ol><li>She plays in a small jazz <em>ensemble</em>.</li><li>The <em>ensemble</em> rehearses on Thursday nights.</li><li>The school has three student <em>ensembles</em>.</li></ol>
+<hr>
+<h3 id="conductor">conductor<a class="hash" href="#conductor" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/kənˈdʌktər/ &middot; <em>kuhn-DUK-tur</em></dd><dt>Русский</dt><dd>дирижёр</dd><dt>Plural</dt><dd><em>conductors</em></dd><dt>Countability</dt><dd>countable</dd></dl>
+<p>The person who stands in front of an orchestra and directs the players.</p>
+<ol><li>The <em>conductor</em> stopped the orchestra and started over.</li><li>She's the youngest <em>conductor</em> they have ever hired.</li><li>Both <em>conductors</em> studied in Vienna.</li></ol>
+<hr>
+<h3 id="composer">composer<a class="hash" href="#composer" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/kəmˈpoʊzər/ &middot; <em>kuhm-POH-zur</em></dd><dt>Русский</dt><dd>композитор</dd><dt>Plural</dt><dd><em>composers</em></dd><dt>Countability</dt><dd>countable</dd></dl>
+<p>Someone who writes music.</p>
+<ol><li>The <em>composer</em> died before the opera was finished.</li><li>She's a <em>composer</em> of film music.</li><li>Living <em>composers</em> rarely get played at these concerts.</li></ol>
+<hr>
+<h3 id="sheet-music">sheet music<a class="hash" href="#sheet-music" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/ˈʃiːt ˌmjuːzɪk/ &middot; <em>SHEET-myoo-zik</em></dd><dt>Русский</dt><dd>ноты (печатные)</dd><dt>Countability</dt><dd>uncountable</dd><dt>Contrast</dt><dd>Uncountable: <em>some sheet music</em> or <em>a piece of sheet music</em> — never <em>a sheet music</em>.</dd></dl>
+<p>Printed pages of music that a performer reads from.</p>
+<ol><li>She keeps her <em>sheet music</em> in a black folder.</li><li>You can buy the <em>sheet music</em> online for a few dollars.</li><li>He plays by ear and never uses <em>sheet music</em>.</li></ol>
+<hr>
+<h3 id="lyrics">lyrics<a class="hash" href="#lyrics" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/ˈlɪrɪks/ &middot; <em>LIR-iks</em></dd><dt>Русский</dt><dd>текст песни, слова песни</dd><dt>Plural</dt><dd><em>lyrics</em></dd><dt>Countability</dt><dd>countable</dd><dt>Contrast</dt><dd>Used in the plural — <em>the lyrics are</em> — almost never <em>a lyric</em>.</dd></dl>
+<p>The words of a song.</p>
+<ol><li>The <em>lyrics</em> are printed inside the album cover.</li><li>He writes the <em>lyrics</em> and she writes the music.</li><li>Nobody can understand the <em>lyrics</em> on that track.</li></ol>
+<hr>
+<h3 id="song">song<a class="hash" href="#song" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/sɔːŋ/ &middot; <em>SAWNG</em></dd><dt>Русский</dt><dd>песня</dd><dt>Plural</dt><dd><em>songs</em></dd><dt>Countability</dt><dd>countable</dd></dl>
+<p>A short piece of music with words that are sung.</p>
+<ol><li>That <em>song</em> was on the radio all summer.</li><li>She wrote the <em>song</em> in an afternoon.</li><li>They played all their old <em>songs</em> at the end.</li></ol>
+<hr>
+<h3 id="songwriter">songwriter<a class="hash" href="#songwriter" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/ˈsɔːŋraɪtər/ &middot; <em>SAWNG-ry-tur</em></dd><dt>Русский</dt><dd>автор песен</dd><dt>Plural</dt><dd><em>songwriters</em></dd><dt>Countability</dt><dd>countable</dd></dl>
+<p>Someone who writes the words and music of songs.</p>
+<ol><li>He's a better <em>songwriter</em> than a singer.</li><li>The <em>songwriters</em> got most of the money.</li><li>She's a working <em>songwriter</em> in Nashville.</li></ol>
+<hr>
+<h3 id="performer">performer<a class="hash" href="#performer" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/pərˈfɔːrmər/ &middot; <em>pur-FOR-mur</em></dd><dt>Русский</dt><dd>исполнитель, артист</dd><dt>Plural</dt><dd><em>performers</em></dd><dt>Countability</dt><dd>countable</dd></dl>
+<p>Someone who sings, plays, or acts in front of an audience.</p>
+<ol><li>The <em>performer</em> came back out for one more number.</li><li>Street <em>performers</em> fill the square all summer.</li><li>She's a natural <em>performer</em>.</li></ol>
+<hr>
+<h3 id="concert">concert<a class="hash" href="#concert" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/ˈkɑːnsərt/ &middot; <em>KAHN-surt</em></dd><dt>Русский</dt><dd>концерт</dd><dt>Plural</dt><dd><em>concerts</em></dd><dt>Countability</dt><dd>countable</dd><dt>Contrast</dt><dd><em>Concert</em> (KAHN-surt) is an event; a <em>concerto</em> (kuhn-CHER-toh) is a piece of music.</dd></dl>
+<p>A public performance of music.</p>
+<ol><li>We're going to a <em>concert</em> on Friday.</li><li>The <em>concert</em> starts at eight sharp.</li><li>They played sixty <em>concerts</em> last year.</li></ol>
+<hr>
+<h3 id="recital">recital<a class="hash" href="#recital" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/rɪˈsaɪtəl/ &middot; <em>rih-SY-tuhl</em></dd><dt>Русский</dt><dd>сольный (или ученический) концерт</dd><dt>Plural</dt><dd><em>recitals</em></dd><dt>Countability</dt><dd>countable</dd></dl>
+<p>A small concert given by one performer or by students.</p>
+<ol><li>Her piano <em>recital</em> is on Sunday afternoon.</li><li>Every student plays one piece at the <em>recital</em>.</li><li>The <em>recitals</em> are held in the school gym.</li></ol>
+<hr>
+<h3 id="gig">gig<a class="hash" href="#gig" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/ɡɪɡ/ &middot; <em>GIG</em></dd><dt>Русский</dt><dd>выступление, концерт (разг.)</dd><dt>Plural</dt><dd><em>gigs</em></dd><dt>Countability</dt><dd>countable</dd></dl>
+<p>A single paid performance by a musician or band.</p>
+<ol><li>The band has a <em>gig</em> at a bar downtown.</li><li>He plays about forty <em>gigs</em> a year.</li><li>The <em>gig</em> paid two hundred dollars and a free meal.</li></ol>
+<hr>
+<h3 id="venue">venue<a class="hash" href="#venue" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/ˈvenjuː/ &middot; <em>VEN-yoo</em></dd><dt>Русский</dt><dd>площадка, место проведения</dd><dt>Plural</dt><dd><em>venues</em></dd><dt>Countability</dt><dd>countable</dd></dl>
+<p>The building or place where a concert or event is held.</p>
+<ol><li>The <em>venue</em> holds about a thousand people.</li><li>They moved the show to a bigger <em>venue</em>.</li><li>Small <em>venues</em> are closing all over the city.</li></ol>
+<hr>
+<h3 id="applause">applause<a class="hash" href="#applause" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/əˈplɔːz/ &middot; <em>uh-PLAWZ</em></dd><dt>Русский</dt><dd>аплодисменты</dd><dt>Countability</dt><dd>uncountable</dd><dt>Contrast</dt><dd>Uncountable in English even though Russian аплодисменты is plural: <em>the applause was</em> deafening.</dd></dl>
+<p>The sound of an audience clapping to show they liked something.</p>
+<ol><li>The <em>applause</em> went on for five minutes.</li><li>There was polite <em>applause</em> and then silence.</li><li>She waited for the <em>applause</em> to die down.</li></ol>
+<hr>
+<h3 id="encore">encore<a class="hash" href="#encore" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/ˈɑːnkɔːr/ &middot; <em>AHN-kor</em></dd><dt>Русский</dt><dd>бис (дополнительный номер)</dd><dt>Plural</dt><dd><em>encores</em></dd><dt>Countability</dt><dd>countable</dd><dt>Contrast</dt><dd>From French: AHN-kor, with the first syllable nasal-sounding and stressed.</dd></dl>
+<p>An extra piece performed at the end of a show because the audience asks for it.</p>
+<ol><li>The band came back out for one <em>encore</em>.</li><li>The crowd shouted until they played an <em>encore</em>.</li><li>She did two <em>encores</em> and still nobody left.</li></ol>
+<hr>
+<h3 id="rehearsal">rehearsal<a class="hash" href="#rehearsal" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/rɪˈhɜːrsəl/ &middot; <em>rih-HUR-suhl</em></dd><dt>Русский</dt><dd>репетиция</dd><dt>Plural</dt><dd><em>rehearsals</em></dd><dt>Countability</dt><dd>countable</dd></dl>
+<p>A practice session before a performance.</p>
+<ol><li><em>Rehearsal</em> is at six on Tuesday.</li><li>We had exactly one <em>rehearsal</em> before the show.</li><li>The <em>rehearsals</em> ran long all week.</li></ol>
+<hr>
+<h3 id="audition">audition<a class="hash" href="#audition" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/ɔːˈdɪʃən/ &middot; <em>aw-DISH-uhn</em></dd><dt>Русский</dt><dd>прослушивание (на роль, в коллектив)</dd><dt>Plural</dt><dd><em>auditions</em></dd><dt>Countability</dt><dd>countable</dd></dl>
+<p>A short performance given to see whether someone is good enough for a part.</p>
+<ol><li>She has an <em>audition</em> for the orchestra next week.</li><li>The <em>audition</em> lasted about four minutes.</li><li>Hundreds of people showed up for the <em>auditions</em>.</li></ol>
+<hr>
+<h3 id="repertoire">repertoire<a class="hash" href="#repertoire" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/ˈrepərtwɑːr/ &middot; <em>REP-ur-twar</em></dd><dt>Русский</dt><dd>репертуар</dd><dt>Plural</dt><dd><em>repertoires</em></dd><dt>Countability</dt><dd>countable</dd><dt>Contrast</dt><dd>French spelling, said REP-ur-twar — the -toire is not read as English.</dd></dl>
+<p>All the pieces a performer or group knows and can play.</p>
+<ol><li>The band's <em>repertoire</em> is mostly old soul.</li><li>She added two new pieces to her <em>repertoire</em>.</li><li>Their <em>repertoires</em> barely overlap.</li></ol>
+<hr>
+<h3 id="symphony">symphony<a class="hash" href="#symphony" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/ˈsɪmfəni/ &middot; <em>SIM-fuh-nee</em></dd><dt>Русский</dt><dd>симфония</dd><dt>Plural</dt><dd><em>symphonies</em></dd><dt>Countability</dt><dd>countable</dd></dl>
+<p>A long piece of music in several parts, written for a full orchestra.</p>
+<ol><li>The <em>symphony</em> has four movements.</li><li>He wrote nine <em>symphonies</em> in thirty years.</li><li>We heard his fifth <em>symphony</em> live last month.</li></ol>
+<hr>
+<h3 id="sonata">sonata<a class="hash" href="#sonata" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/səˈnɑːtə/ &middot; <em>suh-NAH-tuh</em></dd><dt>Русский</dt><dd>соната</dd><dt>Plural</dt><dd><em>sonatas</em></dd><dt>Countability</dt><dd>countable</dd></dl>
+<p>A piece of classical music for one or two instruments, usually in three parts.</p>
+<ol><li>She's learning a Beethoven <em>sonata</em>.</li><li>The <em>sonata</em> is written for violin and piano.</li><li>He recorded all thirty-two piano <em>sonatas</em>.</li></ol>
+<hr>
+<h3 id="overture">overture<a class="hash" href="#overture" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/ˈoʊvərtʃʊr/ &middot; <em>OH-vur-chur</em></dd><dt>Русский</dt><dd>увертюра</dd><dt>Plural</dt><dd><em>overtures</em></dd><dt>Countability</dt><dd>countable</dd></dl>
+<p>The orchestral piece played at the beginning of an opera or a show.</p>
+<ol><li>The <em>overture</em> is the best-known part of the opera.</li><li>The orchestra opened with a short <em>overture</em>.</li><li>Both <em>overtures</em> were written after the operas were finished.</li></ol>
+<hr>
+<h3 id="opera">opera<a class="hash" href="#opera" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/ˈɑːpərə/ &middot; <em>AH-puh-ruh</em></dd><dt>Русский</dt><dd>опера</dd><dt>Plural</dt><dd><em>operas</em></dd><dt>Countability</dt><dd>both — countable and uncountable with different meanings</dd></dl>
+<p>A play in which the words are sung, or this art form in general.</p>
+<ol><li>We saw an <em>opera</em> in Italian with subtitles.</li><li>She has loved <em>opera</em> since she was a kid.</li><li>The company puts on three <em>operas</em> a season.</li></ol>
+<hr>
+<h3 id="aria">aria<a class="hash" href="#aria" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/ˈɑːriə/ &middot; <em>AR-ee-uh</em></dd><dt>Русский</dt><dd>ария</dd><dt>Plural</dt><dd><em>arias</em></dd><dt>Countability</dt><dd>countable</dd></dl>
+<p>A song for one voice in an opera.</p>
+<ol><li>The soprano's <em>aria</em> stopped the show.</li><li>That <em>aria</em> is on every audition list.</li><li>He knows the <em>arias</em> by heart.</li></ol>
+<hr>
+<h3 id="ballad">ballad<a class="hash" href="#ballad" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/ˈbæləd/ &middot; <em>BAL-uhd</em></dd><dt>Русский</dt><dd>баллада</dd><dt>Plural</dt><dd><em>ballads</em></dd><dt>Countability</dt><dd>countable</dd></dl>
+<p>A slow song, or an old song that tells a story.</p>
+<ol><li>The album ends with a slow <em>ballad</em>.</li><li>The old <em>ballad</em> tells the story of a shipwreck.</li><li>They play <em>ballads</em> at the end of the night.</li></ol>
+<hr>
+<h3 id="anthem">anthem<a class="hash" href="#anthem" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/ˈænθəm/ &middot; <em>AN-thuhm</em></dd><dt>Русский</dt><dd>гимн</dd><dt>Plural</dt><dd><em>anthems</em></dd><dt>Countability</dt><dd>countable</dd></dl>
+<p>A song that stands for a country or a group, sung on important occasions.</p>
+<ol><li>The crowd stood for the national <em>anthem</em>.</li><li>That song became an <em>anthem</em> for a whole generation.</li><li>Both <em>anthems</em> were played before the game.</li></ol>
+<hr>
+<h3 id="hymn">hymn<a class="hash" href="#hymn" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/hɪm/ &middot; <em>HIM</em></dd><dt>Русский</dt><dd>церковный гимн, псалом</dd><dt>Plural</dt><dd><em>hymns</em></dd><dt>Countability</dt><dd>countable</dd><dt>Contrast</dt><dd>The n is silent: HIM, exactly like <em>him</em>.</dd></dl>
+<p>A religious song sung by a congregation in church.</p>
+<ol><li>The congregation sang an old <em>hymn</em>.</li><li>She played <em>hymns</em> on the organ every Sunday.</li><li>The <em>hymn</em> numbers are posted on the board.</li></ol>
+<hr>
+<h3 id="carol">carol<a class="hash" href="#carol" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/ˈkerəl/ &middot; <em>KER-uhl</em></dd><dt>Русский</dt><dd>рождественская песня</dd><dt>Plural</dt><dd><em>carols</em></dd><dt>Countability</dt><dd>countable</dd></dl>
+<p>A Christmas song.</p>
+<ol><li>The kids sang <em>carols</em> outside the church.</li><li>My favorite Christmas <em>carol</em> is that quiet one.</li><li>They go door to door singing <em>carols</em> every December.</li></ol>
+<hr>
+<h3 id="lullaby">lullaby<a class="hash" href="#lullaby" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/ˈlʌləbaɪ/ &middot; <em>LUL-uh-by</em></dd><dt>Русский</dt><dd>колыбельная</dd><dt>Plural</dt><dd><em>lullabies</em></dd><dt>Countability</dt><dd>countable</dd></dl>
+<p>A quiet song sung to help a baby fall asleep.</p>
+<ol><li>She sang the baby a <em>lullaby</em>.</li><li>He knows two <em>lullabies</em> in Russian.</li><li>The whole song is really just a <em>lullaby</em>.</li></ol>
+<hr>
+<h3 id="waltz">waltz<a class="hash" href="#waltz" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/wɔːlts/ &middot; <em>WAWLTS</em></dd><dt>Русский</dt><dd>вальс</dd><dt>Plural</dt><dd><em>waltzes</em></dd><dt>Countability</dt><dd>countable</dd></dl>
+<p>A piece of music in three beats to a measure, written for dancing.</p>
+<ol><li>They danced a slow <em>waltz</em>.</li><li>The band played a <em>waltz</em> to close the night.</li><li>He wrote dozens of <em>waltzes</em>.</li></ol>
+<hr>
+<h3 id="jazz">jazz<a class="hash" href="#jazz" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/dʒæz/ &middot; <em>JAZ</em></dd><dt>Русский</dt><dd>джаз</dd><dt>Countability</dt><dd>uncountable</dd></dl>
+<p>A style of American music built on improvising over a rhythm section.</p>
+<ol><li>He listens to <em>jazz</em> while he works.</li><li>The club has live <em>jazz</em> on weekends.</li><li><em>Jazz</em> came out of New Orleans.</li></ol>
+<hr>
+<h3 id="blues">blues<a class="hash" href="#blues" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/bluːz/ &middot; <em>BLOOZ</em></dd><dt>Русский</dt><dd>блюз</dd><dt>Countability</dt><dd>uncountable</dd><dt>Contrast</dt><dd>Looks plural but takes a singular verb: <em>the blues is</em> an American form.</dd></dl>
+<p>A slow, sad style of American music that grew out of the rural South.</p>
+<ol><li>He plays <em>blues</em> on a beat-up guitar.</li><li>The <em>blues</em> came up the river from the Delta.</li><li>That song is straight <em>blues</em>.</li></ol>
+<hr>
+<h3 id="record">record<a class="hash" href="#record" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/ˈrekərd/ &middot; <em>REK-urd</em></dd><dt>Русский</dt><dd>пластинка; запись</dd><dt>Plural</dt><dd><em>records</em></dd><dt>Countability</dt><dd>countable</dd><dt>Contrast</dt><dd>The noun is REK-urd; the verb <em>to record</em> is rih-KORD.</dd></dl>
+<p>A flat black disc that music is played from, or an album of recorded music.</p>
+<ol><li>He still buys <em>records</em> instead of streaming.</li><li>The <em>record</em> skipped on the second track.</li><li>She has a whole wall of <em>records</em>.</li></ol>
+<hr>
+<h3 id="playlist">playlist<a class="hash" href="#playlist" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/ˈpleɪlɪst/ &middot; <em>PLAY-list</em></dd><dt>Русский</dt><dd>плейлист</dd><dt>Plural</dt><dd><em>playlists</em></dd><dt>Countability</dt><dd>countable</dd></dl>
+<p>A list of songs put in order to be played one after another.</p>
+<ol><li>I made a <em>playlist</em> for the drive.</li><li>Her <em>playlist</em> is all nineties hip-hop.</li><li>The bar has a great <em>playlist</em>.</li></ol>
+<hr>
+<h3 id="hip-hop">hip-hop<a class="hash" href="#hip-hop" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/ˈhɪphɑːp/ &middot; <em>HIP-hahp</em></dd><dt>Русский</dt><dd>хип-хоп</dd><dt>Countability</dt><dd>uncountable</dd></dl>
+<p>A style of music built on rapped words over a strong beat.</p>
+<ol><li>He grew up on <em>hip-hop</em>.</li><li>The station plays <em>hip-hop</em> all afternoon.</li><li><em>Hip-hop</em> started in the Bronx in the seventies.</li></ol>
+<hr>
+<h3 id="drummer">drummer<a class="hash" href="#drummer" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/ˈdrʌmər/ &middot; <em>DRUM-ur</em></dd><dt>Русский</dt><dd>барабанщик</dd><dt>Plural</dt><dd><em>drummers</em></dd><dt>Countability</dt><dd>countable</dd></dl>
+<p>A musician who plays the drums.</p>
+<ol><li>The <em>drummer</em> counted them in.</li><li>They're looking for a new <em>drummer</em>.</li><li>Both <em>drummers</em> played at once on that track.</li></ol>
+<hr>
+<h3 id="guitarist">guitarist<a class="hash" href="#guitarist" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/ɡɪˈtɑːrɪst/ &middot; <em>gih-TAR-ist</em></dd><dt>Русский</dt><dd>гитарист</dd><dt>Plural</dt><dd><em>guitarists</em></dd><dt>Countability</dt><dd>countable</dd></dl>
+<p>A musician who plays the guitar.</p>
+<ol><li>The <em>guitarist</em> broke a string in the middle of the song.</li><li>She's the best <em>guitarist</em> in town.</li><li>Two <em>guitarists</em> traded solos for ten minutes.</li></ol>
+<hr>
+<h3 id="pianist">pianist<a class="hash" href="#pianist" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/piˈænɪst/ &middot; <em>pee-AN-ist</em></dd><dt>Русский</dt><dd>пианист</dd><dt>Plural</dt><dd><em>pianists</em></dd><dt>Countability</dt><dd>countable</dd><dt>Contrast</dt><dd>Most Americans say pee-AN-ist, with the stress on the second syllable.</dd></dl>
+<p>A musician who plays the piano.</p>
+<ol><li>The <em>pianist</em> played the whole set without sheet music.</li><li>She's a concert <em>pianist</em>.</li><li>The two <em>pianists</em> took turns at the same piano.</li></ol>
+<hr>
+<h3 id="violinist">violinist<a class="hash" href="#violinist" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/ˌvaɪrˈlɪnɪst/ &middot; <em>vy-uh-LIN-ist</em></dd><dt>Русский</dt><dd>скрипач</dd><dt>Plural</dt><dd><em>violinists</em></dd><dt>Countability</dt><dd>countable</dd></dl>
+<p>A musician who plays the violin.</p>
+<ol><li>The <em>violinist</em> tuned up before everyone else.</li><li>He's a <em>violinist</em> with the city orchestra.</li><li>Four <em>violinists</em> auditioned for one seat.</li></ol>
+<hr>
+<h3 id="crescendo">crescendo<a class="hash" href="#crescendo" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/krəˈʃendoʊ/ &middot; <em>kruh-SHEN-doh</em></dd><dt>Русский</dt><dd>крещендо (нарастание звука)</dd><dt>Plural</dt><dd><em>crescendos</em></dd><dt>Countability</dt><dd>countable</dd><dt>Contrast</dt><dd>The sc is pronounced sh, from Italian: kruh-SHEN-doh.</dd></dl>
+<p>A gradual rise in loudness in a piece of music.</p>
+<ol><li>The music builds to a huge <em>crescendo</em>.</li><li>The <em>crescendo</em> at the end shakes the whole room.</li><li>There are two <em>crescendos</em> on the final page.</li></ol>
+<hr>
+<h3 id="soprano">soprano<a class="hash" href="#soprano" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/səˈprænoʊ/ &middot; <em>suh-PRAN-oh</em></dd><dt>Русский</dt><dd>сопрано</dd><dt>Plural</dt><dd><em>sopranos</em></dd><dt>Countability</dt><dd>countable</dd></dl>
+<p>The highest singing voice, or a singer with that voice.</p>
+<ol><li>The <em>soprano</em> hit the high note easily.</li><li>She sings <em>soprano</em> in the church choir.</li><li>The <em>sopranos</em> stand on the left.</li></ol>
+<hr>
+<h3 id="alto">alto<a class="hash" href="#alto" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/ˈæltoʊ/ &middot; <em>AL-toh</em></dd><dt>Русский</dt><dd>альт (голос)</dd><dt>Plural</dt><dd><em>altos</em></dd><dt>Countability</dt><dd>countable</dd></dl>
+<p>The lower female singing voice, or a singer with that voice.</p>
+<ol><li>She sings <em>alto</em> in the choir.</li><li>The <em>altos</em> come in on the second line.</li><li>He wrote the part for <em>alto</em> and piano.</li></ol>
+<hr>
+<h3 id="tenor">tenor<a class="hash" href="#tenor" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/ˈtenər/ &middot; <em>TEN-ur</em></dd><dt>Русский</dt><dd>тенор</dd><dt>Plural</dt><dd><em>tenors</em></dd><dt>Countability</dt><dd>countable</dd></dl>
+<p>The higher male singing voice, or a singer with that voice.</p>
+<ol><li>The <em>tenor</em> got the loudest applause of the night.</li><li>He sings <em>tenor</em> in a barbershop group.</li><li>Three <em>tenors</em> shared the role that season.</li></ol></div></main>
+<button class="themebtn" id="themeBtn">Dark</button>
+<script>
+const tb=document.getElementById('themeBtn');
+function setTheme(x){document.documentElement.dataset.theme=x;tb.textContent=x==='dark'?'Light':'Dark';
+ try{localStorage.setItem('site-theme',x)}catch(e){}}
+tb.onclick=()=>setTheme(document.documentElement.dataset.theme==='dark'?'light':'dark');
+try{const s=localStorage.getItem('site-theme');
+ setTheme(s||(matchMedia('(prefers-color-scheme: dark)').matches?'dark':'light'))}catch(e){setTheme('light')}
+</script></body></html>

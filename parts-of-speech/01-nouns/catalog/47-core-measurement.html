@@ -1,0 +1,816 @@
+<!DOCTYPE html>
+<html lang="en"><head>
+<meta charset="utf-8"><meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Core vocabulary: measurement</title>
+<style>
+:root{--bg:#faf9f7;--surface:#fff;--surface2:#f2f0ec;--border:#e2ded6;--text:#1a1815;
+--dim:#5f594f;--faint:#8a8377;--accent:#8a5a3b;--measure:72ch}
+@media(prefers-color-scheme:dark){:root{--bg:#14140f;--surface:#1d1d17;--surface2:#25251d;
+--border:#33332a;--text:#eeeae1;--dim:#a8a293;--faint:#7d776b;--accent:#d09b72}}
+:root[data-theme=dark]{--bg:#14140f;--surface:#1d1d17;--surface2:#25251d;--border:#33332a;
+--text:#eeeae1;--dim:#a8a293;--faint:#7d776b;--accent:#d09b72}
+:root[data-theme=light]{--bg:#faf9f7;--surface:#fff;--surface2:#f2f0ec;--border:#e2ded6;
+--text:#1a1815;--dim:#5f594f;--faint:#8a8377;--accent:#8a5a3b}
+*{box-sizing:border-box}
+body{margin:0;background:var(--bg);color:var(--text);
+font:17px/1.72 ui-serif,Georgia,"Iowan Old Style",Palatino,serif;-webkit-font-smoothing:antialiased}
+.wrap{max-width:min(var(--measure),100%);margin:0 auto;padding:0 22px}
+nav.crumb{border-bottom:1px solid var(--border);padding:13px 0;font-size:13.5px;
+font-family:-apple-system,BlinkMacSystemFont,"Segoe UI",sans-serif;position:sticky;top:0;background:var(--bg);z-index:20}
+nav.crumb .wrap{max-width:none;display:flex;gap:9px;align-items:center;flex-wrap:wrap}
+nav.crumb a{color:var(--dim);text-decoration:none}
+nav.crumb a:hover{color:var(--accent)}
+nav.crumb .sep{color:var(--faint)}
+main{padding:8px 0 80px}
+h1{font-size:clamp(28px,5vw,38px);line-height:1.15;letter-spacing:-.015em;margin:34px 0 18px}
+h2{font-size:25px;margin:46px 0 14px;letter-spacing:-.01em;padding-bottom:7px;border-bottom:1px solid var(--border)}
+h3{font-size:19px;margin:34px 0 10px;color:var(--accent)}
+h4{font-size:16px;margin:24px 0 8px;font-family:-apple-system,sans-serif}
+p{margin:0 0 16px}
+a{color:var(--accent)}
+.hash{opacity:0;margin-left:8px;font-weight:400;font-size:.65em;text-decoration:none;color:var(--faint)}
+h2:hover .hash,h3:hover .hash{opacity:1}
+blockquote{margin:0 0 20px;padding:14px 18px;background:var(--surface2);
+border-left:3px solid var(--accent);border-radius:0 8px 8px 0}
+blockquote p:last-child{margin-bottom:0}
+ol,ul{margin:0 0 18px;padding-left:26px}
+li{margin-bottom:8px}
+li>ul,li>ol{margin:8px 0 0}
+code{font-family:ui-monospace,SFMono-Regular,Menlo,Consolas,monospace;font-size:.87em;
+background:var(--surface2);padding:1px 5px;border-radius:4px}
+pre{background:var(--surface2);border:1px solid var(--border);border-radius:9px;
+padding:15px 17px;overflow-x:auto;margin:0 0 20px}
+pre code{background:none;padding:0;font-size:13px;line-height:1.6}
+.tw{overflow-x:auto;margin:0 0 22px;border:1px solid var(--border);border-radius:9px}
+table{border-collapse:collapse;width:100%;font-size:15px;
+font-family:-apple-system,BlinkMacSystemFont,"Segoe UI",sans-serif}
+th,td{padding:10px 14px;border-bottom:1px solid var(--border);vertical-align:top}
+th{background:var(--surface2);font-size:12px;text-transform:uppercase;
+letter-spacing:.06em;color:var(--dim);font-weight:700;white-space:nowrap}
+tbody tr:last-child td{border-bottom:none}
+hr{border:none;border-top:1px solid var(--border);margin:38px 0}
+details{background:var(--surface2);border:1px solid var(--border);border-radius:9px;
+padding:13px 17px;margin:0 0 20px}
+summary{cursor:pointer;font-weight:600;font-family:-apple-system,sans-serif;font-size:15px}
+details[open] summary{margin-bottom:12px}
+del{color:var(--faint)}
+dl.fields{margin:0 0 20px;padding:0}
+dl.fields dt{font-family:-apple-system,BlinkMacSystemFont,"Segoe UI",sans-serif;
+font-size:11px;letter-spacing:.11em;text-transform:uppercase;color:var(--faint);
+font-weight:700;margin:14px 0 4px}
+dl.fields dt:first-child{margin-top:0}
+dl.fields dd{margin:0;font-size:16px;color:var(--dim);line-height:1.62}
+dl.fields dd em{color:var(--text)}
+dl.fields dt.ru{color:var(--accent)}
+dl.fields dd strong{color:var(--text)}
+.toc{background:var(--surface2);border:1px solid var(--border);border-radius:10px;
+padding:16px 20px;margin:26px 0 34px;font-family:-apple-system,sans-serif;font-size:14px}
+.toc b{display:block;font-size:11px;letter-spacing:.12em;text-transform:uppercase;
+color:var(--faint);margin-bottom:9px}
+.toc a{display:block;padding:3px 0;color:var(--dim);text-decoration:none}
+.toc a:hover{color:var(--accent)}
+.themebtn{position:fixed;right:18px;bottom:18px;z-index:60;font-family:-apple-system,sans-serif;
+font-size:12.5px;font-weight:600;cursor:pointer;background:var(--surface);border:1px solid var(--border);
+border-radius:99px;padding:9px 16px;color:var(--text)}
+@media(max-width:600px){body{font-size:16px}.wrap{padding:0 17px}}
+</style></head><body>
+<nav class="crumb"><div class="wrap"><a href="../../../index.html">Learn English</a><span class="sep">/</span><a href="../../README.html">Parts of speech</a><span class="sep">/</span><a href="../README.html">01-nouns</a><span class="sep">/</span><span>catalog</span></div></nav>
+<main><div class="wrap"><h1 id="core-vocabulary-measurement">Core vocabulary: measurement<a class="hash" href="#core-vocabulary-measurement" aria-label="link">#</a></h1>
+<blockquote><p>The everyday nouns of measurement — pronunciation, Russian, plural, and three examples each.</p></blockquote>
+<p><a href="../README.html">← The grammar of nouns</a> &middot; <a href="README.html">All groups</a></p>
+<p>Part of the <strong>core-vocabulary tier</strong>. Groups 1–23 cover the nouns that misbehave; this tier covers the nouns you simply need to know. Entries are deliberately lean, because a regular countable noun has no grammatical story to tell. A <strong>Contrast</strong> line appears only where the word hides a genuine trap.</p>
+<p>Where a word in this field <em>does</em> misbehave, it lives in the grammar tier instead and is not repeated here.</p>
+<hr>
+<h3 id="measurement">measurement<a class="hash" href="#measurement" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/ˈmeʒərmənt/ &middot; <em>MEZH-ur-muhnt</em></dd><dt>Русский</dt><dd>измерение, замер</dd><dt>Plural</dt><dd><em>measurements</em></dd><dt>Countability</dt><dd>countable</dd><dt>Contrast</dt><dd>The s is a zh sound, as in pleasure: MEZH-ur-muhnt.</dd></dl>
+<p>A figure showing the size, length, or amount of something.</p>
+<ol><li>Take a <em>measurement</em> before you cut the board.</li><li>The tailor wrote down all my <em>measurements</em>.</li><li>That <em>measurement</em> looks off by half an inch.</li></ol>
+<hr>
+<h3 id="measure">measure<a class="hash" href="#measure" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/ˈmeʒər/ &middot; <em>MEZH-ur</em></dd><dt>Русский</dt><dd>мера, единица измерения</dd><dt>Plural</dt><dd><em>measures</em></dd><dt>Countability</dt><dd>countable</dd></dl>
+<p>A unit or standard used to state size or amount.</p>
+<ol><li>A cup is a standard <em>measure</em> in American recipes.</li><li>The inch is an old <em>measure</em> of length.</li><li>The rest of the world uses metric <em>measures</em>.</li></ol>
+<hr>
+<h3 id="unit">unit<a class="hash" href="#unit" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/ˈjuːnɪt/ &middot; <em>YOO-nit</em></dd><dt>Русский</dt><dd>единица измерения</dd><dt>Plural</dt><dd><em>units</em></dd><dt>Countability</dt><dd>countable</dd><dt>Contrast</dt><dd>It starts with a y sound, so it takes a, not an: a unit.</dd></dl>
+<p>A fixed amount used as a standard for measuring.</p>
+<ol><li>The meter is the basic <em>unit</em> of length in the metric system.</li><li>Convert both numbers to the same <em>units</em> before you add them.</li><li>Electricity is billed by the <em>unit</em>.</li></ol>
+<hr>
+<h3 id="size">size<a class="hash" href="#size" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/saɪz/ &middot; <em>SYZ</em></dd><dt>Русский</dt><dd>размер</dd><dt>Plural</dt><dd><em>sizes</em></dd><dt>Countability</dt><dd>countable</dd></dl>
+<p>How large or small something is.</p>
+<ol><li>What <em>size</em> shoe do you wear?</li><li>The two rooms are almost the same <em>size</em>.</li><li>They carry that shirt in three <em>sizes</em>.</li></ol>
+<hr>
+<h3 id="length">length<a class="hash" href="#length" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/leŋθ/ &middot; <em>LENGTH</em></dd><dt>Русский</dt><dd>длина</dd><dt>Plural</dt><dd><em>lengths</em></dd><dt>Countability</dt><dd>countable</dd></dl>
+<p>The measurement of something from one end to the other.</p>
+<ol><li>Measure the <em>length</em> of the table first.</li><li>The pool is fifty meters in <em>length</em>.</li><li>Cut two <em>lengths</em> of rope the same size.</li></ol>
+<hr>
+<h3 id="width">width<a class="hash" href="#width" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/wɪdθ/ &middot; <em>WIDTH</em></dd><dt>Русский</dt><dd>ширина</dd><dt>Plural</dt><dd><em>widths</em></dd><dt>Countability</dt><dd>countable</dd><dt>Contrast</dt><dd>It comes from wide, but the vowel is short: WIDTH.</dd></dl>
+<p>The measurement of something from one side to the other.</p>
+<ol><li>Check the <em>width</em> of the doorway before you buy the couch.</li><li>The hallway is only three feet in <em>width</em>.</li><li>The fabric comes in two <em>widths</em>.</li></ol>
+<hr>
+<h3 id="height">height<a class="hash" href="#height" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/haɪt/ &middot; <em>HYT</em></dd><dt>Русский</dt><dd>высота, рост</dd><dt>Plural</dt><dd><em>heights</em></dd><dt>Countability</dt><dd>countable</dd><dt>Contrast</dt><dd>Spelled like eight but it rhymes with kite: HYT. There is no th on the end.</dd></dl>
+<p>How tall something or someone is.</p>
+<ol><li>The nurse recorded her <em>height</em> and weight.</li><li>Adjust the <em>height</em> of the chair.</li><li>The shelves come in three different <em>heights</em>.</li></ol>
+<hr>
+<h3 id="depth">depth<a class="hash" href="#depth" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/depθ/ &middot; <em>DEPTH</em></dd><dt>Русский</dt><dd>глубина</dd><dt>Plural</dt><dd><em>depths</em></dd><dt>Countability</dt><dd>countable</dd></dl>
+<p>How deep something is from the top down.</p>
+<ol><li>The lake reaches a <em>depth</em> of sixty feet.</li><li>Plant the bulbs at a <em>depth</em> of four inches.</li><li>Divers explored the <em>depths</em> of the canyon.</li></ol>
+<hr>
+<h3 id="thickness">thickness<a class="hash" href="#thickness" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/ˈθɪknəs/ &middot; <em>THIK-nis</em></dd><dt>Русский</dt><dd>толщина</dd><dt>Countability</dt><dd>uncountable</dd></dl>
+<p>How thick something is from one surface to the other.</p>
+<ol><li>Check the <em>thickness</em> of the ice before you walk on it.</li><li>The steel plate is half an inch in <em>thickness</em>.</li><li>Sand the board until the <em>thickness</em> is even.</li></ol>
+<hr>
+<h3 id="distance">distance<a class="hash" href="#distance" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/ˈdɪstəns/ &middot; <em>DIS-tuhns</em></dd><dt>Русский</dt><dd>расстояние, дистанция</dd><dt>Plural</dt><dd><em>distances</em></dd><dt>Countability</dt><dd>countable</dd></dl>
+<p>The amount of space between two places or things.</p>
+<ol><li>What's the <em>distance</em> from here to the airport?</li><li>He can throw a football a good <em>distance</em>.</li><li>They drove long <em>distances</em> every weekend.</li></ol>
+<hr>
+<h3 id="weight">weight<a class="hash" href="#weight" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/weɪt/ &middot; <em>WAYT</em></dd><dt>Русский</dt><dd>вес; гиря, гантель</dd><dt>Plural</dt><dd><em>weights</em></dd><dt>Countability</dt><dd>both — countable and uncountable with different meanings</dd><dt>Contrast</dt><dd>Sounds exactly like wait; the gh is silent.</dd></dl>
+<p>How heavy something is, or a heavy object used for lifting or holding something down.</p>
+<ol><li>The scale shows my <em>weight</em> in pounds.</li><li>He lifts <em>weights</em> three mornings a week.</li><li>Put a <em>weight</em> on the papers so they don't blow away.</li></ol>
+<hr>
+<h3 id="mass">mass<a class="hash" href="#mass" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/mæs/ &middot; <em>MAS</em></dd><dt>Русский</dt><dd>масса</dd><dt>Countability</dt><dd>uncountable</dd></dl>
+<p>The amount of matter in an object, measured in kilograms.</p>
+<ol><li>An object keeps the same <em>mass</em> on the moon.</li><li>Scientists measure <em>mass</em> in kilograms, not pounds.</li><li><em>Mass</em> and weight are not the same thing.</li></ol>
+<hr>
+<h3 id="volume">volume<a class="hash" href="#volume" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/ˈvɑːljuːm/ &middot; <em>VAHL-yoom</em></dd><dt>Русский</dt><dd>объём</dd><dt>Countability</dt><dd>uncountable</dd></dl>
+<p>The amount of space that something fills.</p>
+<ol><li>Find the <em>volume</em> of the box in cubic inches.</li><li>Water expands in <em>volume</em> when it freezes.</li><li>The tank holds a large <em>volume</em> of fuel.</li></ol>
+<hr>
+<h3 id="capacity">capacity<a class="hash" href="#capacity" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/kəˈpæsəti/ &middot; <em>kuh-PAS-uh-tee</em></dd><dt>Русский</dt><dd>вместимость, ёмкость</dd><dt>Plural</dt><dd><em>capacities</em></dd><dt>Countability</dt><dd>countable</dd></dl>
+<p>The amount that a container or a space can hold.</p>
+<ol><li>The tank has a <em>capacity</em> of twenty gallons.</li><li>The stadium was filled to <em>capacity</em>.</li><li>The two coolers have different <em>capacities</em>.</li></ol>
+<hr>
+<h3 id="area">area<a class="hash" href="#area" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/ˈeriə/ &middot; <em>AIR-ee-uh</em></dd><dt>Русский</dt><dd>площадь</dd><dt>Plural</dt><dd><em>areas</em></dd><dt>Countability</dt><dd>countable</dd></dl>
+<p>The size of a flat surface, found by multiplying length by width.</p>
+<ol><li>Calculate the <em>area</em> of the floor before you order tile.</li><li>The lot has an <em>area</em> of about half an acre.</li><li>Add the <em>areas</em> of the two rooms together.</li></ol>
+<hr>
+<h3 id="speed">speed<a class="hash" href="#speed" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/spiːd/ &middot; <em>SPEED</em></dd><dt>Русский</dt><dd>скорость</dd><dt>Plural</dt><dd><em>speeds</em></dd><dt>Countability</dt><dd>countable</dd></dl>
+<p>How fast something moves.</p>
+<ol><li>Cut your <em>speed</em> on the wet road.</li><li>The train reaches <em>speeds</em> of 150 miles an hour.</li><li>He read the whole book at record <em>speed</em>.</li></ol>
+<hr>
+<h3 id="velocity">velocity<a class="hash" href="#velocity" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/vəˈlɑːsəti/ &middot; <em>vuh-LAH-suh-tee</em></dd><dt>Русский</dt><dd>скорость (векторная)</dd><dt>Plural</dt><dd><em>velocities</em></dd><dt>Countability</dt><dd>countable</dd></dl>
+<p>Speed in a particular direction, used in science.</p>
+<ol><li>The rocket reached escape <em>velocity</em>.</li><li>They measured the bullet's <em>velocity</em>.</li><li>Wind <em>velocities</em> were highest near the coast.</li></ol>
+<hr>
+<h3 id="pace">pace<a class="hash" href="#pace" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/peɪs/ &middot; <em>PAYS</em></dd><dt>Русский</dt><dd>темп, скорость</dd><dt>Plural</dt><dd><em>paces</em></dd><dt>Countability</dt><dd>countable</dd></dl>
+<p>The speed at which someone walks, runs, or works.</p>
+<ol><li>She set a fast <em>pace</em> for the rest of us.</li><li>He walked at a steady <em>pace</em>.</li><li>The runners hit very different <em>paces</em> in the last mile.</li></ol>
+<hr>
+<h3 id="rate">rate<a class="hash" href="#rate" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/reɪt/ &middot; <em>RAYT</em></dd><dt>Русский</dt><dd>скорость, темп; ставка</dd><dt>Plural</dt><dd><em>rates</em></dd><dt>Countability</dt><dd>countable</dd></dl>
+<p>How fast something happens, measured against time or another amount.</p>
+<ol><li>Water was leaking at a <em>rate</em> of a gallon an hour.</li><li>His heart <em>rate</em> dropped once he sat down.</li><li>Interest <em>rates</em> went up again.</li></ol>
+<hr>
+<h3 id="amount">amount<a class="hash" href="#amount" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/əˈmaʊnt/ &middot; <em>uh-MOWNT</em></dd><dt>Русский</dt><dd>количество</dd><dt>Plural</dt><dd><em>amounts</em></dd><dt>Countability</dt><dd>countable</dd><dt>Contrast</dt><dd>Use amount with uncountable nouns and number with countable ones: the amount of water, the number of bottles.</dd></dl>
+<p>A quantity of something, especially of something you cannot count.</p>
+<ol><li>Add a small <em>amount</em> of salt.</li><li>The <em>amount</em> of rain this spring was unusual.</li><li>Large <em>amounts</em> of data were lost.</li></ol>
+<hr>
+<h3 id="quantity">quantity<a class="hash" href="#quantity" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/ˈkwɑːntəti/ &middot; <em>KWAHN-tuh-tee</em></dd><dt>Русский</dt><dd>количество</dd><dt>Plural</dt><dd><em>quantities</em></dd><dt>Countability</dt><dd>countable</dd></dl>
+<p>How much of something there is.</p>
+<ol><li>Enter the <em>quantity</em> you want to order.</li><li>They buy flour in large <em>quantities</em>.</li><li>The recipe lists the <em>quantity</em> of each ingredient.</li></ol>
+<hr>
+<h3 id="dimension">dimension<a class="hash" href="#dimension" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/dɪˈmenʃən/ &middot; <em>dih-MEN-shuhn</em></dd><dt>Русский</dt><dd>размер, измерение</dd><dt>Plural</dt><dd><em>dimensions</em></dd><dt>Countability</dt><dd>countable</dd></dl>
+<p>A measurement such as length, width, or height.</p>
+<ol><li>Give me the <em>dimensions</em> of the room.</li><li>The new box has the same <em>dimensions</em> as the old one.</li><li>Height is the third <em>dimension</em>.</li></ol>
+<hr>
+<h3 id="density">density<a class="hash" href="#density" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/ˈdensəti/ &middot; <em>DEN-suh-tee</em></dd><dt>Русский</dt><dd>плотность</dd><dt>Countability</dt><dd>uncountable</dd></dl>
+<p>How much mass a material has for its size.</p>
+<ol><li>Lead has a much higher <em>density</em> than aluminum.</li><li>Oil floats on water because of its lower <em>density</em>.</li><li>The lab measured the <em>density</em> of each sample.</li></ol>
+<hr>
+<h3 id="force">force<a class="hash" href="#force" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/fɔːrs/ &middot; <em>FORS</em></dd><dt>Русский</dt><dd>сила</dd><dt>Plural</dt><dd><em>forces</em></dd><dt>Countability</dt><dd>countable</dd></dl>
+<p>A push or a pull acting on an object, measured in newtons.</p>
+<ol><li>The <em>force</em> of the wind snapped the branch.</li><li>Two <em>forces</em> act on the box at the same time.</li><li>Apply a steady <em>force</em> to the lever.</li></ol>
+<hr>
+<h3 id="percentage">percentage<a class="hash" href="#percentage" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/pərˈsentɪdʒ/ &middot; <em>pur-SEN-tij</em></dd><dt>Русский</dt><dd>процент, доля в процентах</dd><dt>Plural</dt><dd><em>percentages</em></dd><dt>Countability</dt><dd>countable</dd></dl>
+<p>An amount stated as a part of a hundred.</p>
+<ol><li>A high <em>percentage</em> of the class passed.</li><li>What <em>percentage</em> of your income goes to rent?</li><li>The two <em>percentages</em> don't add up to a hundred.</li></ol>
+<hr>
+<h3 id="percent">percent<a class="hash" href="#percent" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/pərˈsent/ &middot; <em>pur-SENT</em></dd><dt>Русский</dt><dd>процент</dd><dt>Plural</dt><dd><em>percent</em></dd><dt>Countability</dt><dd>countable</dd><dt>Contrast</dt><dd>Americans write it as one word, percent; the British write per cent. The plural is percent, never percents.</dd></dl>
+<p>One part in a hundred.</p>
+<ol><li>About twenty <em>percent</em> of the crop was lost.</li><li>Only a few <em>percent</em> of applicants get in.</li><li>Sales rose ten <em>percent</em> last quarter.</li></ol>
+<hr>
+<h3 id="fraction">fraction<a class="hash" href="#fraction" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/ˈfrækʃən/ &middot; <em>FRAK-shuhn</em></dd><dt>Русский</dt><dd>дробь; малая часть</dd><dt>Plural</dt><dd><em>fractions</em></dd><dt>Countability</dt><dd>countable</dd></dl>
+<p>A part of a whole, such as one half or three quarters.</p>
+<ol><li>Add the two <em>fractions</em> and reduce the answer.</li><li>The repair cost a <em>fraction</em> of what I expected.</li><li>Only a small <em>fraction</em> of the seeds came up.</li></ol>
+<hr>
+<h3 id="decimal">decimal<a class="hash" href="#decimal" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/ˈdesəməl/ &middot; <em>DES-uh-muhl</em></dd><dt>Русский</dt><dd>десятичная дробь</dd><dt>Plural</dt><dd><em>decimals</em></dd><dt>Countability</dt><dd>countable</dd><dt>Contrast</dt><dd>Americans write a decimal point where Russian uses a comma: 3.5, not 3,5.</dd></dl>
+<p>A number written with a point, such as 0.75.</p>
+<ol><li>Round the <em>decimal</em> to two places.</li><li>Turn the fraction into a <em>decimal</em>.</li><li>The chart lists everything in <em>decimals</em>.</li></ol>
+<hr>
+<h3 id="average">average<a class="hash" href="#average" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/ˈævərɪdʒ/ &middot; <em>AV-uh-rij</em></dd><dt>Русский</dt><dd>среднее значение</dd><dt>Plural</dt><dd><em>averages</em></dd><dt>Countability</dt><dd>countable</dd></dl>
+<p>The result of adding numbers together and dividing by how many there are.</p>
+<ol><li>The <em>average</em> of the five scores is eighty-two.</li><li>Rainfall was above <em>average</em> this month.</li><li>Their batting <em>averages</em> were nearly identical.</li></ol>
+<hr>
+<h3 id="mean">mean<a class="hash" href="#mean" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/miːn/ &middot; <em>MEEN</em></dd><dt>Русский</dt><dd>среднее арифметическое</dd><dt>Plural</dt><dd><em>means</em></dd><dt>Countability</dt><dd>countable</dd><dt>Contrast</dt><dd>The same spelling is also the verb to mean and the adjective mean, unkind.</dd></dl>
+<p>The average of a set of numbers.</p>
+<ol><li>Report the <em>mean</em> along with the range.</li><li>The <em>mean</em> and the median are far apart here.</li><li>Both <em>means</em> came out close to fifty.</li></ol>
+<hr>
+<h3 id="median">median<a class="hash" href="#median" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/ˈmiːdiən/ &middot; <em>MEE-dee-uhn</em></dd><dt>Русский</dt><dd>медиана</dd><dt>Plural</dt><dd><em>medians</em></dd><dt>Countability</dt><dd>countable</dd><dt>Contrast</dt><dd>In American English the same word also names the strip in the middle of a highway.</dd></dl>
+<p>The middle value in a list of numbers arranged in order.</p>
+<ol><li>The <em>median</em> tells you more than the average here.</li><li>Half the houses sold above the <em>median</em>.</li><li>The two <em>medians</em> were identical.</li></ol>
+<hr>
+<h3 id="proportion">proportion<a class="hash" href="#proportion" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/prəˈpɔːrʃən/ &middot; <em>pruh-POR-shuhn</em></dd><dt>Русский</dt><dd>доля, соотношение</dd><dt>Plural</dt><dd><em>proportions</em></dd><dt>Countability</dt><dd>countable</dd></dl>
+<p>A part of a whole, compared with the rest.</p>
+<ol><li>A large <em>proportion</em> of the budget goes to salaries.</li><li>Mix the paint in the right <em>proportion</em>.</li><li>The <em>proportions</em> of sand and cement matter a lot.</li></ol>
+<hr>
+<h3 id="accuracy">accuracy<a class="hash" href="#accuracy" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/ˈækjərəsi/ &middot; <em>AK-yuh-ruh-see</em></dd><dt>Русский</dt><dd>точность</dd><dt>Countability</dt><dd>uncountable</dd></dl>
+<p>How close a measurement is to the true value.</p>
+<ol><li>The scale loses <em>accuracy</em> when it's cold.</li><li>We double-checked the numbers for <em>accuracy</em>.</li><li>GPS gives <em>accuracy</em> within a few feet.</li></ol>
+<hr>
+<h3 id="precision">precision<a class="hash" href="#precision" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/prɪˈsɪʒən/ &middot; <em>prih-SIZH-uhn</em></dd><dt>Русский</dt><dd>точность (тонкость измерения)</dd><dt>Countability</dt><dd>uncountable</dd></dl>
+<p>The level of fine detail that a measurement is made to.</p>
+<ol><li>The part was machined with great <em>precision</em>.</li><li>Lab work demands <em>precision</em>.</li><li>You don't need that much <em>precision</em> for a garden fence.</li></ol>
+<hr>
+<h3 id="tolerance">tolerance<a class="hash" href="#tolerance" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/ˈtɑːlərəns/ &middot; <em>TAH-lur-uhns</em></dd><dt>Русский</dt><dd>допуск (в технике)</dd><dt>Plural</dt><dd><em>tolerances</em></dd><dt>Countability</dt><dd>countable</dd></dl>
+<p>The amount a measurement is allowed to vary from the exact figure.</p>
+<ol><li>The part is machined to a <em>tolerance</em> of one thousandth of an inch.</li><li>That's outside the <em>tolerance</em> on the drawing.</li><li>Aerospace parts have very tight <em>tolerances</em>.</li></ol>
+<hr>
+<h3 id="margin">margin<a class="hash" href="#margin" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/ˈmɑːrdʒən/ &middot; <em>MAR-jin</em></dd><dt>Русский</dt><dd>запас, разница</dd><dt>Plural</dt><dd><em>margins</em></dd><dt>Countability</dt><dd>countable</dd></dl>
+<p>An extra amount allowed beyond what is strictly needed.</p>
+<ol><li>Leave a <em>margin</em> of error in your estimate.</li><li>He won by a <em>margin</em> of two seconds.</li><li>The <em>margins</em> on this drawing are too tight.</li></ol>
+<hr>
+<h3 id="increment">increment<a class="hash" href="#increment" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/ˈɪŋkrəmənt/ &middot; <em>ING-kruh-muhnt</em></dd><dt>Русский</dt><dd>шаг, приращение</dd><dt>Plural</dt><dd><em>increments</em></dd><dt>Countability</dt><dd>countable</dd></dl>
+<p>One of the equal steps by which something increases.</p>
+<ol><li>The dial moves in five-degree <em>increments</em>.</li><li>Raise the temperature by a small <em>increment</em>.</li><li>You can pay it off in monthly <em>increments</em>.</li></ol>
+<hr>
+<h3 id="calibration">calibration<a class="hash" href="#calibration" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/ˌkæləˈbreɪʃən/ &middot; <em>kal-uh-BRAY-shuhn</em></dd><dt>Русский</dt><dd>калибровка</dd><dt>Countability</dt><dd>uncountable</dd></dl>
+<p>The adjusting of an instrument so that its readings are correct.</p>
+<ol><li>The scale is due for <em>calibration</em>.</li><li><em>Calibration</em> takes about ten minutes.</li><li>Poor <em>calibration</em> explains the strange readings.</li></ol>
+<hr>
+<h3 id="reading">reading<a class="hash" href="#reading" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/ˈriːdɪŋ/ &middot; <em>REE-ding</em></dd><dt>Русский</dt><dd>показание (прибора)</dd><dt>Plural</dt><dd><em>readings</em></dd><dt>Countability</dt><dd>countable</dd></dl>
+<p>A figure shown by a measuring instrument.</p>
+<ol><li>The meter <em>reading</em> was higher than last month.</li><li>Take a <em>reading</em> every hour.</li><li>Both <em>readings</em> came out the same.</li></ol>
+<hr>
+<h3 id="dosage">dosage<a class="hash" href="#dosage" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/ˈdoʊsɪdʒ/ &middot; <em>DOH-sij</em></dd><dt>Русский</dt><dd>дозировка</dd><dt>Plural</dt><dd><em>dosages</em></dd><dt>Countability</dt><dd>countable</dd></dl>
+<p>The amount of a medicine to be taken and how often.</p>
+<ol><li>Follow the <em>dosage</em> on the label.</li><li>The doctor lowered his <em>dosage</em>.</li><li>Children's <em>dosages</em> are based on weight.</li></ol>
+<hr>
+<h3 id="sample">sample<a class="hash" href="#sample" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/ˈsæmpəl/ &middot; <em>SAM-puhl</em></dd><dt>Русский</dt><dd>образец, проба</dd><dt>Plural</dt><dd><em>samples</em></dd><dt>Countability</dt><dd>countable</dd><dt>Contrast</dt><dd>Americans say SAM-puhl with a short a; the British say SAHM-puhl.</dd></dl>
+<p>A small part taken from something so that it can be tested.</p>
+<ol><li>The lab tested a water <em>sample</em> from the well.</li><li>Take a <em>sample</em> from the middle of the batch.</li><li>All three <em>samples</em> came back clean.</li></ol>
+<hr>
+<h3 id="benchmark">benchmark<a class="hash" href="#benchmark" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/ˈbentʃmɑːrk/ &middot; <em>BENCH-mark</em></dd><dt>Русский</dt><dd>эталон, контрольный показатель</dd><dt>Plural</dt><dd><em>benchmarks</em></dd><dt>Countability</dt><dd>countable</dd></dl>
+<p>A standard figure that other results are compared against.</p>
+<ol><li>That test sets the <em>benchmark</em> for the industry.</li><li>Our numbers are below the national <em>benchmark</em>.</li><li>They ran the same <em>benchmarks</em> on both machines.</li></ol>
+<hr>
+<h3 id="standard">standard<a class="hash" href="#standard" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/ˈstændərd/ &middot; <em>STAN-durd</em></dd><dt>Русский</dt><dd>стандарт, норма</dd><dt>Plural</dt><dd><em>standards</em></dd><dt>Countability</dt><dd>countable</dd></dl>
+<p>An agreed level or measure that things are judged against.</p>
+<ol><li>The meter is the international <em>standard</em> of length.</li><li>This part doesn't meet the <em>standard</em>.</li><li>Safety <em>standards</em> have gotten stricter.</li></ol>
+<hr>
+<h3 id="metric">metric<a class="hash" href="#metric" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/ˈmetrɪk/ &middot; <em>MET-rik</em></dd><dt>Русский</dt><dd>показатель, метрика</dd><dt>Plural</dt><dd><em>metrics</em></dd><dt>Countability</dt><dd>countable</dd></dl>
+<p>A number used to measure how well something is doing.</p>
+<ol><li>Response time is the <em>metric</em> we watch.</li><li>Pick one <em>metric</em> and track it all year.</li><li>The dashboard shows a dozen <em>metrics</em>.</li></ol>
+<hr>
+<h3 id="magnitude">magnitude<a class="hash" href="#magnitude" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/ˈmæɡnətuːd/ &middot; <em>MAG-nuh-tood</em></dd><dt>Русский</dt><dd>величина; магнитуда</dd><dt>Plural</dt><dd><em>magnitudes</em></dd><dt>Countability</dt><dd>countable</dd><dt>Contrast</dt><dd>Americans say MAG-nuh-tood; the British add a y sound, MAG-nuh-tyood.</dd></dl>
+<p>The size or strength of something, especially on a scientific scale.</p>
+<ol><li>The quake had a <em>magnitude</em> of 6.2.</li><li>Nobody grasped the <em>magnitude</em> of the problem.</li><li>The two stars differ by three <em>magnitudes</em>.</li></ol>
+<hr>
+<h3 id="extent">extent<a class="hash" href="#extent" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/ɪkˈstent/ &middot; <em>ik-STENT</em></dd><dt>Русский</dt><dd>протяжённость, степень</dd><dt>Countability</dt><dd>uncountable</dd></dl>
+<p>How large something is or how far it reaches.</p>
+<ol><li>Crews are still assessing the <em>extent</em> of the damage.</li><li>To some <em>extent</em> the two counts agree.</li><li>The full <em>extent</em> of the flooding wasn't clear until morning.</li></ol>
+<hr>
+<h3 id="limit">limit<a class="hash" href="#limit" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/ˈlɪmɪt/ &middot; <em>LIM-it</em></dd><dt>Русский</dt><dd>предел, ограничение</dd><dt>Plural</dt><dd><em>limits</em></dd><dt>Countability</dt><dd>countable</dd></dl>
+<p>The greatest amount that is allowed or possible.</p>
+<ol><li>The speed <em>limit</em> here is thirty-five.</li><li>There's a <em>limit</em> to how much that shelf will hold.</li><li>Both weight <em>limits</em> were raised last year.</li></ol>
+<hr>
+<h3 id="load">load<a class="hash" href="#load" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/loʊd/ &middot; <em>LOHD</em></dd><dt>Русский</dt><dd>нагрузка, груз</dd><dt>Plural</dt><dd><em>loads</em></dd><dt>Countability</dt><dd>countable</dd></dl>
+<p>The weight carried or supported by something.</p>
+<ol><li>The truck was carrying a full <em>load</em>.</li><li>That beam takes the whole <em>load</em> of the roof.</li><li>Heavy <em>loads</em> wear out the springs.</li></ol>
+<hr>
+<h3 id="bulk">bulk<a class="hash" href="#bulk" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/bʌlk/ &middot; <em>BULK</em></dd><dt>Русский</dt><dd>объём, масса; основная часть</dd><dt>Countability</dt><dd>uncountable</dd></dl>
+<p>Large size or volume, especially when it makes something hard to handle.</p>
+<ol><li>The <em>bulk</em> of the shipment is still in the warehouse.</li><li>We buy rice in <em>bulk</em>.</li><li>The sheer <em>bulk</em> of the machine made it hard to move.</li></ol>
+<hr>
+<h3 id="count">count<a class="hash" href="#count" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/kaʊnt/ &middot; <em>KOWNT</em></dd><dt>Русский</dt><dd>подсчёт, количество</dd><dt>Plural</dt><dd><em>counts</em></dd><dt>Countability</dt><dd>countable</dd></dl>
+<p>The total number found by counting.</p>
+<ol><li>The final <em>count</em> was two hundred people.</li><li>Her white blood cell <em>count</em> is low.</li><li>The two <em>counts</em> didn't match.</li></ol>
+<hr>
+<h3 id="tally">tally<a class="hash" href="#tally" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/ˈtæli/ &middot; <em>TAL-ee</em></dd><dt>Русский</dt><dd>подсчёт, итог</dd><dt>Plural</dt><dd><em>tallies</em></dd><dt>Countability</dt><dd>countable</dd></dl>
+<p>A running count kept while things are added up.</p>
+<ol><li>Keep a <em>tally</em> of how many boxes go out.</li><li>The final <em>tally</em> came in after midnight.</li><li>Their <em>tallies</em> were off by three.</li></ol>
+<hr>
+<h3 id="total">total<a class="hash" href="#total" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/ˈtoʊtəl/ &middot; <em>TOH-tuhl</em></dd><dt>Русский</dt><dd>сумма, итог</dd><dt>Plural</dt><dd><em>totals</em></dd><dt>Countability</dt><dd>countable</dd></dl>
+<p>The amount you get when everything is added together.</p>
+<ol><li>The <em>total</em> comes to forty-two dollars.</li><li>Add up the column and check the <em>total</em>.</li><li>The monthly <em>totals</em> are on the last page.</li></ol>
+<hr>
+<h3 id="approximation">approximation<a class="hash" href="#approximation" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/əˌprɑːksəˈmeɪʃən/ &middot; <em>uh-prahk-suh-MAY-shuhn</em></dd><dt>Русский</dt><dd>приближение, приблизительная оценка</dd><dt>Plural</dt><dd><em>approximations</em></dd><dt>Countability</dt><dd>countable</dd></dl>
+<p>A figure that is close to the true one but not exact.</p>
+<ol><li>That number is only an <em>approximation</em>.</li><li>Give me a rough <em>approximation</em> of the cost.</li><li>Both <em>approximations</em> were within a few percent.</li></ol>
+<hr>
+<h3 id="percentile">percentile<a class="hash" href="#percentile" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/pərˈsentaɪl/ &middot; <em>pur-SEN-tyl</em></dd><dt>Русский</dt><dd>процентиль</dd><dt>Plural</dt><dd><em>percentiles</em></dd><dt>Countability</dt><dd>countable</dd></dl>
+<p>A value showing what share of a group falls below it.</p>
+<ol><li>Her score was in the ninetieth <em>percentile</em>.</li><li>The baby is in the fiftieth <em>percentile</em> for height.</li><li>The chart is divided into <em>percentiles</em>.</li></ol>
+<hr>
+<h3 id="figure">figure<a class="hash" href="#figure" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/ˈfɪɡjər/ &middot; <em>FIG-yur</em></dd><dt>Русский</dt><dd>цифра, показатель</dd><dt>Plural</dt><dd><em>figures</em></dd><dt>Countability</dt><dd>countable</dd><dt>Contrast</dt><dd>Americans say FIG-yur; the British say FIG-ur.</dd></dl>
+<p>A number, especially one in a report or a set of results.</p>
+<ol><li>Sales <em>figures</em> come out on Monday.</li><li>That <em>figure</em> includes shipping.</li><li>Check the <em>figures</em> one more time.</li></ol>
+<hr>
+<h3 id="digit">digit<a class="hash" href="#digit" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/ˈdɪdʒɪt/ &middot; <em>DIJ-it</em></dd><dt>Русский</dt><dd>цифра</dd><dt>Plural</dt><dd><em>digits</em></dd><dt>Countability</dt><dd>countable</dd></dl>
+<p>Any one of the symbols from 0 to 9.</p>
+<ol><li>The code is four <em>digits</em> long.</li><li>The last <em>digit</em> was smudged.</li><li>Drop the final <em>digit</em> and round up.</li></ol>
+<hr>
+<h3 id="inch">inch<a class="hash" href="#inch" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/ɪntʃ/ &middot; <em>INCH</em></dd><dt>Русский</dt><dd>дюйм (2,54 см)</dd><dt>Plural</dt><dd><em>inches</em></dd><dt>Countability</dt><dd>countable</dd></dl>
+<p>An American unit of length equal to 2.54 centimeters.</p>
+<ol><li>The board is one <em>inch</em> thick.</li><li>We got six <em>inches</em> of snow overnight.</li><li>Move it over an <em>inch</em> or two.</li></ol>
+<hr>
+<h3 id="mile">mile<a class="hash" href="#mile" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/maɪl/ &middot; <em>MYL</em></dd><dt>Русский</dt><dd>миля (1,61 км)</dd><dt>Plural</dt><dd><em>miles</em></dd><dt>Countability</dt><dd>countable</dd></dl>
+<p>An American unit of distance equal to about 1.6 kilometers.</p>
+<ol><li>The store is two <em>miles</em> down the road.</li><li>She runs a <em>mile</em> every morning.</li><li>We drove three hundred <em>miles</em> in one day.</li></ol>
+<hr>
+<h3 id="meter">meter<a class="hash" href="#meter" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/ˈmiːtər/ &middot; <em>MEE-tur</em></dd><dt>Русский</dt><dd>метр; счётчик</dd><dt>Plural</dt><dd><em>meters</em></dd><dt>Countability</dt><dd>countable</dd><dt>Contrast</dt><dd>Americans spell it meter, the British metre. The same American spelling also names a measuring device, as in a gas meter.</dd></dl>
+<p>The basic metric unit of length, equal to about 39 inches.</p>
+<ol><li>The pool is fifty <em>meters</em> long.</li><li>Add another <em>meter</em> of cable.</li><li>The two rooms differ by half a <em>meter</em>.</li></ol>
+<hr>
+<h3 id="centimeter">centimeter<a class="hash" href="#centimeter" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/ˈsentəˌmiːtər/ &middot; <em>SEN-tuh-mee-tur</em></dd><dt>Русский</dt><dd>сантиметр</dd><dt>Plural</dt><dd><em>centimeters</em></dd><dt>Countability</dt><dd>countable</dd><dt>Contrast</dt><dd>Americans spell it centimeter, the British centimetre.</dd></dl>
+<p>One hundredth of a meter.</p>
+<ol><li>The cut is about three <em>centimeters</em> long.</li><li>Trim one <em>centimeter</em> off each side.</li><li>The chart is marked in <em>centimeters</em>.</li></ol>
+<hr>
+<h3 id="millimeter">millimeter<a class="hash" href="#millimeter" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/ˈmɪləˌmiːtər/ &middot; <em>MIL-uh-mee-tur</em></dd><dt>Русский</dt><dd>миллиметр</dd><dt>Plural</dt><dd><em>millimeters</em></dd><dt>Countability</dt><dd>countable</dd></dl>
+<p>One thousandth of a meter.</p>
+<ol><li>The gap is only two <em>millimeters</em> wide.</li><li>Drill a hole eight <em>millimeters</em> across.</li><li>A dime is about one <em>millimeter</em> thick.</li></ol>
+<hr>
+<h3 id="kilometer">kilometer<a class="hash" href="#kilometer" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/kɪˈlɑːmətər/ &middot; <em>kih-LAH-muh-tur</em></dd><dt>Русский</dt><dd>километр</dd><dt>Plural</dt><dd><em>kilometers</em></dd><dt>Countability</dt><dd>countable</dd><dt>Contrast</dt><dd>Most Americans say kih-LAH-muh-tur, with the stress on the second syllable, though KIL-uh-mee-tur is also heard.</dd></dl>
+<p>One thousand meters, a little over six tenths of a mile.</p>
+<ol><li>The race is ten <em>kilometers</em> long.</li><li>The border is a <em>kilometer</em> from here.</li><li>Road signs in Canada are in <em>kilometers</em>.</li></ol>
+<hr>
+<h3 id="mileage">mileage<a class="hash" href="#mileage" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/ˈmaɪlɪdʒ/ &middot; <em>MY-lij</em></dd><dt>Русский</dt><dd>пробег в милях; расход топлива</dd><dt>Countability</dt><dd>uncountable</dd></dl>
+<p>The number of miles a vehicle has traveled, or how far it goes on a gallon of fuel.</p>
+<ol><li>The car has low <em>mileage</em> for its age.</li><li>This truck gets terrible <em>mileage</em> on the highway.</li><li>Check the <em>mileage</em> before you buy it.</li></ol>
+<hr>
+<h3 id="footage">footage<a class="hash" href="#footage" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/ˈfʊtɪdʒ/ &middot; <em>FUUT-ij</em></dd><dt>Русский</dt><dd>метраж, длина или площадь в футах</dd><dt>Countability</dt><dd>uncountable</dd><dt>Contrast</dt><dd>The same word also means filmed video material, as in security footage.</dd></dl>
+<p>A length or an area measured in feet.</p>
+<ol><li>What's the square <em>footage</em> of the house?</li><li>Add up the <em>footage</em> of pipe you'll need.</li><li>The listing doesn't give the <em>footage</em>.</li></ol>
+<hr>
+<h3 id="circumference">circumference<a class="hash" href="#circumference" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/sərˈkʌmfərəns/ &middot; <em>sur-KUM-fur-uhns</em></dd><dt>Русский</dt><dd>длина окружности, обхват</dd><dt>Plural</dt><dd><em>circumferences</em></dd><dt>Countability</dt><dd>countable</dd><dt>Contrast</dt><dd>The stress falls on the second syllable: sur-KUM-fur-uhns.</dd></dl>
+<p>The distance around the outside of a circle.</p>
+<ol><li>Measure the <em>circumference</em> of the tree trunk.</li><li>The Earth's <em>circumference</em> is about 25,000 miles.</li><li>The two pipes have different <em>circumferences</em>.</li></ol>
+<hr>
+<h3 id="diameter">diameter<a class="hash" href="#diameter" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/daɪˈæmətər/ &middot; <em>dy-AM-uh-tur</em></dd><dt>Русский</dt><dd>диаметр</dd><dt>Plural</dt><dd><em>diameters</em></dd><dt>Countability</dt><dd>countable</dd><dt>Contrast</dt><dd>The stress falls on AM: dy-AM-uh-tur.</dd></dl>
+<p>The distance straight across a circle through its center.</p>
+<ol><li>The pipe is four inches in <em>diameter</em>.</li><li>Measure the <em>diameter</em> of the wheel.</li><li>Drill bits come in a lot of <em>diameters</em>.</li></ol>
+<hr>
+<h3 id="perimeter">perimeter<a class="hash" href="#perimeter" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/pəˈrɪmətər/ &middot; <em>puh-RIM-uh-tur</em></dd><dt>Русский</dt><dd>периметр</dd><dt>Plural</dt><dd><em>perimeters</em></dd><dt>Countability</dt><dd>countable</dd></dl>
+<p>The total distance around the edge of a shape or an area.</p>
+<ol><li>Walk the <em>perimeter</em> of the lot and measure it.</li><li>The fence runs the whole <em>perimeter</em>.</li><li>Compare the <em>perimeters</em> of the two fields.</li></ol>
+<hr>
+<h3 id="fathom">fathom<a class="hash" href="#fathom" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/ˈfæðəm/ &middot; <em>FATH-uhm</em></dd><dt>Русский</dt><dd>морская сажень (1,83 м)</dd><dt>Plural</dt><dd><em>fathoms</em></dd><dt>Countability</dt><dd>countable</dd><dt>Contrast</dt><dd>The th is voiced, as in father: FATH-uhm.</dd></dl>
+<p>A unit of water depth equal to six feet.</p>
+<ol><li>The wreck lies in twenty <em>fathoms</em> of water.</li><li>The chart marks the depth in <em>fathoms</em>.</li><li>They anchored in six <em>fathoms</em>.</li></ol>
+<hr>
+<h3 id="girth">girth<a class="hash" href="#girth" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/ɡɜːrθ/ &middot; <em>GURTH</em></dd><dt>Русский</dt><dd>обхват</dd><dt>Plural</dt><dd><em>girths</em></dd><dt>Countability</dt><dd>countable</dd></dl>
+<p>The distance around something thick, such as a tree or a waist.</p>
+<ol><li>The oak has a <em>girth</em> of twelve feet.</li><li>Airlines limit the length and <em>girth</em> of a bag.</li><li>The two trunks had similar <em>girths</em>.</li></ol>
+<hr>
+<h3 id="breadth">breadth<a class="hash" href="#breadth" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/bredθ/ &middot; <em>BREDTH</em></dd><dt>Русский</dt><dd>ширина</dd><dt>Countability</dt><dd>uncountable</dd><dt>Contrast</dt><dd>It comes from broad, but the vowel is a short e: BREDTH.</dd></dl>
+<p>The distance across something from one side to the other.</p>
+<ol><li>The field measures a hundred feet in <em>breadth</em>.</li><li>The river's <em>breadth</em> surprised us.</li><li>They measured the length and <em>breadth</em> of the room.</li></ol>
+<hr>
+<h3 id="micron">micron<a class="hash" href="#micron" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/ˈmaɪkrɑːn/ &middot; <em>MY-krahn</em></dd><dt>Русский</dt><dd>микрон</dd><dt>Plural</dt><dd><em>microns</em></dd><dt>Countability</dt><dd>countable</dd></dl>
+<p>One millionth of a meter, used for very small sizes.</p>
+<ol><li>The filter traps particles down to five <em>microns</em>.</li><li>A human hair is about seventy <em>microns</em> across.</li><li>The coating is only a few <em>microns</em> thick.</li></ol>
+<hr>
+<h3 id="acre">acre<a class="hash" href="#acre" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/ˈeɪkər/ &middot; <em>AY-kur</em></dd><dt>Русский</dt><dd>акр (0,4 га)</dd><dt>Plural</dt><dd><em>acres</em></dd><dt>Countability</dt><dd>countable</dd><dt>Contrast</dt><dd>Pronounced AY-kur, with the same first sound as ache.</dd></dl>
+<p>An American unit of land area equal to about 4,047 square meters.</p>
+<ol><li>They farm two hundred <em>acres</em> of corn.</li><li>The house sits on half an <em>acre</em>.</li><li>He bought forty <em>acres</em> outside town.</li></ol>
+<hr>
+<h3 id="acreage">acreage<a class="hash" href="#acreage" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/ˈeɪkərɪdʒ/ &middot; <em>AY-kur-ij</em></dd><dt>Русский</dt><dd>площадь в акрах</dd><dt>Countability</dt><dd>uncountable</dd></dl>
+<p>An area of land measured in acres.</p>
+<ol><li>The listing doesn't say how much <em>acreage</em> comes with the house.</li><li>They added <em>acreage</em> on the north side.</li><li>Most of the <em>acreage</em> is wooded.</li></ol>
+<hr>
+<h3 id="hectare">hectare<a class="hash" href="#hectare" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/ˈhekter/ &middot; <em>HEK-tair</em></dd><dt>Русский</dt><dd>гектар</dd><dt>Plural</dt><dd><em>hectares</em></dd><dt>Countability</dt><dd>countable</dd></dl>
+<p>A metric unit of land area equal to 10,000 square meters.</p>
+<ol><li>The park covers two hundred <em>hectares</em>.</li><li>The fire burned thousands of <em>hectares</em>.</li><li>One <em>hectare</em> is about two and a half acres.</li></ol>
+<hr>
+<h3 id="square-foot">square foot<a class="hash" href="#square-foot" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/ˌskwer ˈfʊt/ &middot; <em>skwair FUUT</em></dd><dt>Русский</dt><dd>квадратный фут (0,093 м²)</dd><dt>Plural</dt><dd><em>square feet</em></dd><dt>Countability</dt><dd>countable</dd><dt>Contrast</dt><dd>The plural is square feet, never square foots.</dd></dl>
+<p>A unit of area equal to a square measuring one foot on each side.</p>
+<ol><li>The apartment is nine hundred <em>square feet</em>.</li><li>Tile is sold by the <em>square foot</em>.</li><li>Add a hundred <em>square feet</em> for the porch.</li></ol>
+<hr>
+<h3 id="cubic-yard">cubic yard<a class="hash" href="#cubic-yard" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/ˌkjuːbɪk ˈjɑːrd/ &middot; <em>kyoo-bik YARD</em></dd><dt>Русский</dt><dd>кубический ярд (0,76 м³)</dd><dt>Plural</dt><dd><em>cubic yards</em></dd><dt>Countability</dt><dd>countable</dd></dl>
+<p>A unit of volume equal to a cube one yard on each side, used for concrete and soil.</p>
+<ol><li>We need three <em>cubic yards</em> of concrete.</li><li>Mulch is sold by the <em>cubic yard</em>.</li><li>The dump truck holds ten <em>cubic yards</em>.</li></ol>
+<hr>
+<h3 id="ounce">ounce<a class="hash" href="#ounce" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/aʊns/ &middot; <em>OWNSS</em></dd><dt>Русский</dt><dd>унция (28,35 г)</dd><dt>Plural</dt><dd><em>ounces</em></dd><dt>Countability</dt><dd>countable</dd><dt>Contrast</dt><dd>Written oz on labels, even though there is no z in the word.</dd></dl>
+<p>A unit of weight equal to about 28 grams.</p>
+<ol><li>The letter weighs less than an <em>ounce</em>.</li><li>Add four <em>ounces</em> of cheese.</li><li>The package came to sixteen <em>ounces</em>.</li></ol>
+<hr>
+<h3 id="pound">pound<a class="hash" href="#pound" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/paʊnd/ &middot; <em>POWND</em></dd><dt>Русский</dt><dd>фунт (454 г)</dd><dt>Plural</dt><dd><em>pounds</em></dd><dt>Countability</dt><dd>countable</dd><dt>Contrast</dt><dd>Abbreviated lb, from Latin. The same word is also the British unit of money.</dd></dl>
+<p>A unit of weight equal to sixteen ounces, or about 454 grams.</p>
+<ol><li>I bought two <em>pounds</em> of ground beef.</li><li>He lost fifteen <em>pounds</em> over the winter.</li><li>The baby weighed seven <em>pounds</em>.</li></ol>
+<hr>
+<h3 id="ton">ton<a class="hash" href="#ton" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/tʌn/ &middot; <em>TUN</em></dd><dt>Русский</dt><dd>тонна (в США 907 кг)</dd><dt>Plural</dt><dd><em>tons</em></dd><dt>Countability</dt><dd>countable</dd><dt>Contrast</dt><dd>It rhymes with fun. An American ton is 2,000 pounds, not the metric 1,000 kilograms.</dd></dl>
+<p>An American unit of weight equal to 2,000 pounds.</p>
+<ol><li>The truck hauls twenty <em>tons</em> of gravel.</li><li>That rock must weigh a <em>ton</em>.</li><li>They shipped several <em>tons</em> of steel.</li></ol>
+<hr>
+<h3 id="gram">gram<a class="hash" href="#gram" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/ɡræm/ &middot; <em>GRAM</em></dd><dt>Русский</dt><dd>грамм</dd><dt>Plural</dt><dd><em>grams</em></dd><dt>Countability</dt><dd>countable</dd><dt>Contrast</dt><dd>Americans write gram; the British also spell it gramme.</dd></dl>
+<p>The basic metric unit of weight, about one twenty-eighth of an ounce.</p>
+<ol><li>Add fifty <em>grams</em> of butter.</li><li>The label lists nine <em>grams</em> of sugar.</li><li>A paper clip weighs about a <em>gram</em>.</li></ol>
+<hr>
+<h3 id="kilogram">kilogram<a class="hash" href="#kilogram" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/ˈkɪləɡræm/ &middot; <em>KIL-uh-gram</em></dd><dt>Русский</dt><dd>килограмм</dd><dt>Plural</dt><dd><em>kilograms</em></dd><dt>Countability</dt><dd>countable</dd></dl>
+<p>A metric unit of weight equal to 1,000 grams, or about 2.2 pounds.</p>
+<ol><li>The bag holds five <em>kilograms</em> of rice.</li><li>He can lift a hundred <em>kilograms</em>.</li><li>One <em>kilogram</em> is roughly two pounds.</li></ol>
+<hr>
+<h3 id="milligram">milligram<a class="hash" href="#milligram" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/ˈmɪləɡræm/ &middot; <em>MIL-uh-gram</em></dd><dt>Русский</dt><dd>миллиграмм</dd><dt>Plural</dt><dd><em>milligrams</em></dd><dt>Countability</dt><dd>countable</dd></dl>
+<p>One thousandth of a gram, used mostly for medicine.</p>
+<ol><li>Each tablet contains 200 <em>milligrams</em>.</li><li>The doctor cut the dose to fifty <em>milligrams</em>.</li><li>Vitamins are measured in <em>milligrams</em>.</li></ol>
+<hr>
+<h3 id="kilo">kilo<a class="hash" href="#kilo" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/ˈkiːloʊ/ &middot; <em>KEE-loh</em></dd><dt>Русский</dt><dd>кило, килограмм</dd><dt>Plural</dt><dd><em>kilos</em></dd><dt>Countability</dt><dd>countable</dd><dt>Contrast</dt><dd>Kilo is KEE-loh, but kilogram is KIL-uh-gram.</dd></dl>
+<p>A short, everyday word for a kilogram.</p>
+<ol><li>The melon weighs about two <em>kilos</em>.</li><li>He dropped ten <em>kilos</em> last year.</li><li>Buy a <em>kilo</em> of apples.</li></ol>
+<hr>
+<h3 id="karat">karat<a class="hash" href="#karat" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/ˈkerət/ &middot; <em>KAIR-uht</em></dd><dt>Русский</dt><dd>карат (проба золота)</dd><dt>Plural</dt><dd><em>karats</em></dd><dt>Countability</dt><dd>countable</dd><dt>Contrast</dt><dd>Karat with a k measures gold purity; carat with a c is the weight of a gemstone. They sound the same.</dd></dl>
+<p>A unit showing how much pure gold an alloy contains, out of twenty-four parts.</p>
+<ol><li>The ring is fourteen <em>karat</em> gold.</li><li>Pure gold is twenty-four <em>karats</em>.</li><li>Most American wedding bands are eighteen <em>karat</em> or less.</li></ol>
+<hr>
+<h3 id="milliliter">milliliter<a class="hash" href="#milliliter" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/ˈmɪləˌliːtər/ &middot; <em>MIL-uh-lee-tur</em></dd><dt>Русский</dt><dd>миллилитр</dd><dt>Plural</dt><dd><em>milliliters</em></dd><dt>Countability</dt><dd>countable</dd><dt>Contrast</dt><dd>Americans spell it milliliter, the British millilitre.</dd></dl>
+<p>One thousandth of a liter.</p>
+<ol><li>The bottle holds 500 <em>milliliters</em>.</li><li>Measure out ten <em>milliliters</em> of syrup.</li><li>The syringe is marked in <em>milliliters</em>.</li></ol>
+<hr>
+<h3 id="fluid-ounce">fluid ounce<a class="hash" href="#fluid-ounce" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/ˌfluːɪd ˈaʊns/ &middot; <em>floo-id OWNSS</em></dd><dt>Русский</dt><dd>жидкая унция (29,6 мл)</dd><dt>Plural</dt><dd><em>fluid ounces</em></dd><dt>Countability</dt><dd>countable</dd><dt>Contrast</dt><dd>An American fluid ounce is slightly larger than a British one.</dd></dl>
+<p>A unit of liquid volume equal to about 30 milliliters.</p>
+<ol><li>The can holds twelve <em>fluid ounces</em>.</li><li>Add two <em>fluid ounces</em> of vanilla.</li><li>One <em>fluid ounce</em> is the same as two tablespoons.</li></ol>
+<hr>
+<h3 id="bushel">bushel<a class="hash" href="#bushel" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/ˈbʊʃəl/ &middot; <em>BUUSH-uhl</em></dd><dt>Русский</dt><dd>бушель (мера сыпучих, ок. 35 л)</dd><dt>Plural</dt><dd><em>bushels</em></dd><dt>Countability</dt><dd>countable</dd></dl>
+<p>A large unit of dry volume used for grain and produce.</p>
+<ol><li>Corn was selling at four dollars a <em>bushel</em>.</li><li>They picked ten <em>bushels</em> of apples.</li><li>The barn held a hundred <em>bushels</em> of wheat.</li></ol>
+<hr>
+<h3 id="fahrenheit">Fahrenheit<a class="hash" href="#fahrenheit" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/ˈferənhaɪt/ &middot; <em>FAIR-uhn-hyt</em></dd><dt>Русский</dt><dd>шкала Фаренгейта</dd><dt>Countability</dt><dd>uncountable</dd></dl>
+<p>The temperature scale used in the United States, on which water freezes at 32 degrees and boils at 212.</p>
+<ol><li>It hit ninety degrees <em>Fahrenheit</em> yesterday.</li><li>American forecasts are all in <em>Fahrenheit</em>.</li><li>Set the oven to 350 degrees <em>Fahrenheit</em>.</li></ol>
+<hr>
+<h3 id="celsius">Celsius<a class="hash" href="#celsius" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/ˈselsiəs/ &middot; <em>SEL-see-uhs</em></dd><dt>Русский</dt><dd>шкала Цельсия</dd><dt>Countability</dt><dd>uncountable</dd><dt>Contrast</dt><dd>Americans say Celsius; the older word centigrade is now rare.</dd></dl>
+<p>The temperature scale on which water freezes at zero degrees and boils at 100.</p>
+<ol><li>Most of the world reports temperatures in <em>Celsius</em>.</li><li>Twenty degrees <em>Celsius</em> is a pleasant day.</li><li>The recipe gives both <em>Celsius</em> and Fahrenheit.</li></ol>
+<hr>
+<h3 id="kelvin">kelvin<a class="hash" href="#kelvin" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/ˈkelvɪn/ &middot; <em>KEL-vin</em></dd><dt>Русский</dt><dd>кельвин</dd><dt>Plural</dt><dd><em>kelvins</em></dd><dt>Countability</dt><dd>countable</dd></dl>
+<p>The scientific unit of temperature, counted up from absolute zero.</p>
+<ol><li>Water freezes at 273 <em>kelvins</em>.</li><li>The bulb's color temperature is 2700 <em>kelvin</em>.</li><li>Physicists work in <em>kelvins</em> rather than degrees.</li></ol>
+<hr>
+<h3 id="boiling-point">boiling point<a class="hash" href="#boiling-point" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/ˈbɔɪlɪŋ ˌpɔɪnt/ &middot; <em>BOY-ling poynt</em></dd><dt>Русский</dt><dd>точка кипения</dd><dt>Plural</dt><dd><em>boiling points</em></dd><dt>Countability</dt><dd>countable</dd></dl>
+<p>The temperature at which a liquid turns to vapor.</p>
+<ol><li>Water reaches its <em>boiling point</em> at 212 degrees Fahrenheit.</li><li>Alcohol has a lower <em>boiling point</em> than water.</li><li>The two liquids have very different <em>boiling points</em>.</li></ol>
+<hr>
+<h3 id="freezing-point">freezing point<a class="hash" href="#freezing-point" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/ˈfriːzɪŋ ˌpɔɪnt/ &middot; <em>FREE-zing poynt</em></dd><dt>Русский</dt><dd>точка замерзания</dd><dt>Plural</dt><dd><em>freezing points</em></dd><dt>Countability</dt><dd>countable</dd></dl>
+<p>The temperature at which a liquid turns solid.</p>
+<ol><li>The <em>freezing point</em> of water is 32 degrees Fahrenheit.</li><li>Salt lowers the <em>freezing point</em> of water.</li><li>The two solutions have different <em>freezing points</em>.</li></ol>
+<hr>
+<h3 id="speedometer">speedometer<a class="hash" href="#speedometer" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/spɪˈdɑːmətər/ &middot; <em>spih-DAH-muh-tur</em></dd><dt>Русский</dt><dd>спидометр</dd><dt>Plural</dt><dd><em>speedometers</em></dd><dt>Countability</dt><dd>countable</dd><dt>Contrast</dt><dd>The stress is on DAH, not on speed: spih-DAH-muh-tur.</dd></dl>
+<p>The gauge in a vehicle that shows how fast it is going.</p>
+<ol><li>Keep an eye on the <em>speedometer</em>.</li><li>The <em>speedometer</em> only reads up to 120.</li><li>Older <em>speedometers</em> were driven by a cable.</li></ol>
+<hr>
+<h3 id="odometer">odometer<a class="hash" href="#odometer" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/oʊˈdɑːmətər/ &middot; <em>oh-DAH-muh-tur</em></dd><dt>Русский</dt><dd>одометр, счётчик пробега</dd><dt>Plural</dt><dd><em>odometers</em></dd><dt>Countability</dt><dd>countable</dd></dl>
+<p>The instrument in a vehicle that records the total miles traveled.</p>
+<ol><li>The <em>odometer</em> just rolled past 100,000.</li><li>Check the <em>odometer</em> before you sign anything.</li><li>Digital <em>odometers</em> are harder to tamper with.</li></ol>
+<hr>
+<h3 id="tachometer">tachometer<a class="hash" href="#tachometer" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/tæˈkɑːmətər/ &middot; <em>ta-KAH-muh-tur</em></dd><dt>Русский</dt><dd>тахометр</dd><dt>Plural</dt><dd><em>tachometers</em></dd><dt>Countability</dt><dd>countable</dd><dt>Contrast</dt><dd>The ch is a hard k: ta-KAH-muh-tur.</dd></dl>
+<p>A gauge showing how fast an engine is turning.</p>
+<ol><li>The <em>tachometer</em> jumped when he hit the gas.</li><li>Watch the <em>tachometer</em> before you shift.</li><li>Some trucks have two <em>tachometers</em>.</li></ol>
+<hr>
+<h3 id="speed-limit">speed limit<a class="hash" href="#speed-limit" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/ˈspiːd ˌlɪmɪt/ &middot; <em>SPEED lim-it</em></dd><dt>Русский</dt><dd>ограничение скорости</dd><dt>Plural</dt><dd><em>speed limits</em></dd><dt>Countability</dt><dd>countable</dd></dl>
+<p>The fastest legal speed on a particular road.</p>
+<ol><li>The <em>speed limit</em> drops to 25 near the school.</li><li>He was ten over the <em>speed limit</em>.</li><li>American <em>speed limits</em> are posted in miles per hour.</li></ol>
+<hr>
+<h3 id="altimeter">altimeter<a class="hash" href="#altimeter" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/ælˈtɪmətər/ &middot; <em>al-TIM-uh-tur</em></dd><dt>Русский</dt><dd>высотомер</dd><dt>Plural</dt><dd><em>altimeters</em></dd><dt>Countability</dt><dd>countable</dd><dt>Contrast</dt><dd>The stress is on TIM: al-TIM-uh-tur.</dd></dl>
+<p>An instrument that shows height above sea level.</p>
+<ol><li>The pilot reset the <em>altimeter</em> before landing.</li><li>My watch has a built-in <em>altimeter</em>.</li><li>Both <em>altimeters</em> read the same.</li></ol>
+<hr>
+<h3 id="micrometer">micrometer<a class="hash" href="#micrometer" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/maɪˈkrɑːmətər/ &middot; <em>my-KRAH-muh-tur</em></dd><dt>Русский</dt><dd>микрометр (измерительный инструмент)</dd><dt>Plural</dt><dd><em>micrometers</em></dd><dt>Countability</dt><dd>countable</dd><dt>Contrast</dt><dd>The tool is my-KRAH-muh-tur; the millionth of a meter is MY-kroh-mee-tur.</dd></dl>
+<p>A precision tool that measures very small thicknesses and diameters.</p>
+<ol><li>He checked the shaft with a <em>micrometer</em>.</li><li>A <em>micrometer</em> reads down to a thousandth of an inch.</li><li>The shop keeps three <em>micrometers</em> in the drawer.</li></ol>
+<hr>
+<h3 id="caliper">caliper<a class="hash" href="#caliper" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/ˈkæləpər/ &middot; <em>KAL-uh-pur</em></dd><dt>Русский</dt><dd>штангенциркуль, кронциркуль</dd><dt>Plural</dt><dd><em>calipers</em></dd><dt>Countability</dt><dd>countable</dd><dt>Contrast</dt><dd>Usually used in the plural: a pair of calipers. The British spell it calliper.</dd></dl>
+<p>A tool with two adjustable arms for measuring thickness or diameter.</p>
+<ol><li>Measure the bolt with a <em>caliper</em>.</li><li>Digital <em>calipers</em> are cheap now.</li><li>He set the <em>calipers</em> to half an inch.</li></ol>
+<hr>
+<h3 id="protractor">protractor<a class="hash" href="#protractor" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/proʊˈtræktər/ &middot; <em>proh-TRAK-tur</em></dd><dt>Русский</dt><dd>транспортир</dd><dt>Plural</dt><dd><em>protractors</em></dd><dt>Countability</dt><dd>countable</dd></dl>
+<p>A flat half-circle marked in degrees, used for measuring angles.</p>
+<ol><li>Use a <em>protractor</em> to draw a 45-degree angle.</li><li>Every student needs a ruler and a <em>protractor</em>.</li><li>The <em>protractors</em> were still in the box.</li></ol>
+<hr>
+<h3 id="compass">compass<a class="hash" href="#compass" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/ˈkʌmpəs/ &middot; <em>KUM-puhs</em></dd><dt>Русский</dt><dd>компас; циркуль</dd><dt>Plural</dt><dd><em>compasses</em></dd><dt>Countability</dt><dd>countable</dd><dt>Contrast</dt><dd>The first syllable is KUM, not KOM. The same word also names the drawing tool for circles.</dd></dl>
+<p>An instrument with a magnetic needle that shows direction.</p>
+<ol><li>Take a <em>compass</em> if you're hiking off trail.</li><li>The <em>compass</em> needle swung north.</li><li>Both <em>compasses</em> pointed the same way.</li></ol>
+<hr>
+<h3 id="yardstick">yardstick<a class="hash" href="#yardstick" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/ˈjɑːrdstɪk/ &middot; <em>YARD-stik</em></dd><dt>Русский</dt><dd>линейка длиной в ярд (91 см); мерило</dd><dt>Plural</dt><dd><em>yardsticks</em></dd><dt>Countability</dt><dd>countable</dd></dl>
+<p>A flat stick one yard long, marked off in inches.</p>
+<ol><li>Measure the curtain with a <em>yardstick</em>.</li><li>There's a <em>yardstick</em> behind the door.</li><li>Hardware stores used to give away <em>yardsticks</em>.</li></ol>
+<hr>
+<h3 id="dipstick">dipstick<a class="hash" href="#dipstick" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/ˈdɪpstɪk/ &middot; <em>DIP-stik</em></dd><dt>Русский</dt><dd>щуп (для проверки уровня масла)</dd><dt>Plural</dt><dd><em>dipsticks</em></dd><dt>Countability</dt><dd>countable</dd></dl>
+<p>A thin metal rod used to check the level of oil in an engine.</p>
+<ol><li>Pull the <em>dipstick</em> and wipe it clean.</li><li>The oil was below the line on the <em>dipstick</em>.</li><li>Some new cars don't have <em>dipsticks</em> at all.</li></ol>
+<hr>
+<h3 id="multimeter">multimeter<a class="hash" href="#multimeter" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/ˈmʌltiˌmiːtər/ &middot; <em>MUL-tee-mee-tur</em></dd><dt>Русский</dt><dd>мультиметр</dd><dt>Plural</dt><dd><em>multimeters</em></dd><dt>Countability</dt><dd>countable</dd></dl>
+<p>A handheld instrument that measures voltage, current, and resistance.</p>
+<ol><li>Test the outlet with a <em>multimeter</em>.</li><li>A basic <em>multimeter</em> costs about twenty dollars.</li><li>Both <em>multimeters</em> gave the same reading.</li></ol>
+<hr>
+<h3 id="voltmeter">voltmeter<a class="hash" href="#voltmeter" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/ˈvoʊltˌmiːtər/ &middot; <em>VOHLT-mee-tur</em></dd><dt>Русский</dt><dd>вольтметр</dd><dt>Plural</dt><dd><em>voltmeters</em></dd><dt>Countability</dt><dd>countable</dd></dl>
+<p>An instrument that measures voltage.</p>
+<ol><li>Hook the <em>voltmeter</em> up to the battery terminals.</li><li>The <em>voltmeter</em> showed only nine volts.</li><li>Older <em>voltmeters</em> had a moving needle.</li></ol>
+<hr>
+<h3 id="anemometer">anemometer<a class="hash" href="#anemometer" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/ˌænəˈmɑːmətər/ &middot; <em>an-uh-MAH-muh-tur</em></dd><dt>Русский</dt><dd>анемометр (прибор для измерения скорости ветра)</dd><dt>Plural</dt><dd><em>anemometers</em></dd><dt>Countability</dt><dd>countable</dd></dl>
+<p>An instrument that measures wind speed.</p>
+<ol><li>The <em>anemometer</em> on the roof spun all night.</li><li>An <em>anemometer</em> recorded gusts of sixty miles an hour.</li><li>The weather station has two <em>anemometers</em>.</li></ol>
+<hr>
+<h3 id="hygrometer">hygrometer<a class="hash" href="#hygrometer" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/haɪˈɡrɑːmətər/ &middot; <em>hy-GRAH-muh-tur</em></dd><dt>Русский</dt><dd>гигрометр (прибор для измерения влажности)</dd><dt>Plural</dt><dd><em>hygrometers</em></dd><dt>Countability</dt><dd>countable</dd></dl>
+<p>An instrument that measures humidity.</p>
+<ol><li>The <em>hygrometer</em> in the basement reads 65 percent.</li><li>A cheap <em>hygrometer</em> is good enough for a greenhouse.</li><li>Both <em>hygrometers</em> agreed within a point or two.</li></ol>
+<hr>
+<h3 id="seismograph">seismograph<a class="hash" href="#seismograph" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/ˈsaɪzməɡræf/ &middot; <em>SYZ-muh-graf</em></dd><dt>Русский</dt><dd>сейсмограф</dd><dt>Plural</dt><dd><em>seismographs</em></dd><dt>Countability</dt><dd>countable</dd><dt>Contrast</dt><dd>The first syllable sounds like size: SYZ-muh-graf.</dd></dl>
+<p>An instrument that records the shaking of the ground during an earthquake.</p>
+<ol><li>The <em>seismograph</em> picked up the tremor at three in the morning.</li><li>Every <em>seismograph</em> in the state registered the quake.</li><li>The lab has a row of <em>seismographs</em> along one wall.</li></ol>
+<hr>
+<h3 id="rain-gauge">rain gauge<a class="hash" href="#rain-gauge" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/ˈreɪn ˌɡeɪdʒ/ &middot; <em>RAYN gayj</em></dd><dt>Русский</dt><dd>дождемер, осадкомер</dd><dt>Plural</dt><dd><em>rain gauges</em></dd><dt>Countability</dt><dd>countable</dd><dt>Contrast</dt><dd>Gauge is spelled g-a-u-g-e but pronounced GAYJ.</dd></dl>
+<p>An open container marked with a scale for measuring rainfall.</p>
+<ol><li>There was two inches of water in the <em>rain gauge</em>.</li><li>He empties the <em>rain gauge</em> every morning.</li><li>Volunteers read <em>rain gauges</em> all over the county.</li></ol>
+<hr>
+<h3 id="radar">radar<a class="hash" href="#radar" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/ˈreɪdɑːr/ &middot; <em>RAY-dar</em></dd><dt>Русский</dt><dd>радар, радиолокатор</dd><dt>Plural</dt><dd><em>radars</em></dd><dt>Countability</dt><dd>countable</dd></dl>
+<p>Equipment that finds the position and speed of objects using radio waves.</p>
+<ol><li>A trooper caught him on <em>radar</em> doing eighty.</li><li>The storm showed up clearly on <em>radar</em>.</li><li>Airport <em>radars</em> track every flight.</li></ol>
+<hr>
+<h3 id="sensor">sensor<a class="hash" href="#sensor" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/ˈsensər/ &middot; <em>SEN-sur</em></dd><dt>Русский</dt><dd>датчик</dd><dt>Plural</dt><dd><em>sensors</em></dd><dt>Countability</dt><dd>countable</dd><dt>Contrast</dt><dd>Sounds exactly like censor, someone who removes content.</dd></dl>
+<p>A device that detects and measures something such as heat, light, or motion.</p>
+<ol><li>A <em>sensor</em> turns the porch light on at dusk.</li><li>The oxygen <em>sensor</em> needs replacing.</li><li>A new car is full of <em>sensors</em>.</li></ol>
+<hr>
+<h3 id="readout">readout<a class="hash" href="#readout" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/ˈriːdaʊt/ &middot; <em>REED-owt</em></dd><dt>Русский</dt><dd>показания на дисплее</dd><dt>Plural</dt><dd><em>readouts</em></dd><dt>Countability</dt><dd>countable</dd></dl>
+<p>The figures shown on the display of an instrument.</p>
+<ol><li>The digital <em>readout</em> jumped to 98.6.</li><li>Take a photo of the <em>readout</em>.</li><li>Both <em>readouts</em> went blank at once.</li></ol>
+<hr>
+<h3 id="measuring-cup">measuring cup<a class="hash" href="#measuring-cup" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/ˈmeʒərɪŋ ˌkʌp/ &middot; <em>MEZH-ur-ing kup</em></dd><dt>Русский</dt><dd>мерный стакан</dd><dt>Plural</dt><dd><em>measuring cups</em></dd><dt>Countability</dt><dd>countable</dd></dl>
+<p>A cup marked with a scale for measuring ingredients.</p>
+<ol><li>Pour the milk into a <em>measuring cup</em>.</li><li>A glass <em>measuring cup</em> is easier to read.</li><li>Most kitchens have two or three <em>measuring cups</em>.</li></ol>
+<hr>
+<h3 id="beaker">beaker<a class="hash" href="#beaker" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/ˈbiːkər/ &middot; <em>BEE-kur</em></dd><dt>Русский</dt><dd>химический стакан, мензурка</dd><dt>Plural</dt><dd><em>beakers</em></dd><dt>Countability</dt><dd>countable</dd></dl>
+<p>A straight-sided glass container marked with a scale, used in laboratories.</p>
+<ol><li>Pour the solution into a clean <em>beaker</em>.</li><li>The <em>beaker</em> is marked in milliliters.</li><li>A row of <em>beakers</em> sat on the lab bench.</li></ol>
+<hr>
+<h3 id="graduated-cylinder">graduated cylinder<a class="hash" href="#graduated-cylinder" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/ˈɡrædʒueɪtɪd ˈsɪləndər/ &middot; <em>GRAJ-oo-ay-tid SIL-uhn-dur</em></dd><dt>Русский</dt><dd>мерный цилиндр</dd><dt>Plural</dt><dd><em>graduated cylinders</em></dd><dt>Countability</dt><dd>countable</dd></dl>
+<p>A tall narrow lab container marked for measuring the volume of a liquid.</p>
+<ol><li>Measure fifty milliliters in a <em>graduated cylinder</em>.</li><li>A <em>graduated cylinder</em> is more accurate than a beaker.</li><li>Wash the <em>graduated cylinders</em> after class.</li></ol>
+<hr>
+<h3 id="watt">watt<a class="hash" href="#watt" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/wɑːt/ &middot; <em>WAHT</em></dd><dt>Русский</dt><dd>ватт</dd><dt>Plural</dt><dd><em>watts</em></dd><dt>Countability</dt><dd>countable</dd><dt>Contrast</dt><dd>In most American speech it sounds just like what.</dd></dl>
+<p>The unit of power, used for the output of a bulb, speaker, or motor.</p>
+<ol><li>This bulb uses only nine <em>watts</em>.</li><li>The speaker is rated at fifty <em>watts</em>.</li><li>A <em>watt</em> is one joule per second.</li></ol>
+<hr>
+<h3 id="kilowatt">kilowatt<a class="hash" href="#kilowatt" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/ˈkɪləwɑːt/ &middot; <em>KIL-uh-waht</em></dd><dt>Русский</dt><dd>киловатт</dd><dt>Plural</dt><dd><em>kilowatts</em></dd><dt>Countability</dt><dd>countable</dd></dl>
+<p>One thousand watts.</p>
+<ol><li>The space heater draws two <em>kilowatts</em>.</li><li>The panels produce five <em>kilowatts</em> at noon.</li><li>Motors abroad are rated in <em>kilowatts</em>.</li></ol>
+<hr>
+<h3 id="kilowatt-hour">kilowatt-hour<a class="hash" href="#kilowatt-hour" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/ˈkɪləwɑːt ˌaʊrr/ &middot; <em>KIL-uh-waht ow-ur</em></dd><dt>Русский</dt><dd>киловатт-час</dd><dt>Plural</dt><dd><em>kilowatt-hours</em></dd><dt>Countability</dt><dd>countable</dd></dl>
+<p>The unit electricity is sold in, equal to one kilowatt used for one hour.</p>
+<ol><li>We used 800 <em>kilowatt-hours</em> last month.</li><li>The rate is twelve cents per <em>kilowatt-hour</em>.</li><li>The new panels cut our <em>kilowatt-hours</em> in half.</li></ol>
+<hr>
+<h3 id="wattage">wattage<a class="hash" href="#wattage" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/ˈwɑːtɪdʒ/ &middot; <em>WAH-tij</em></dd><dt>Русский</dt><dd>мощность в ваттах</dd><dt>Countability</dt><dd>uncountable</dd></dl>
+<p>The amount of electric power something uses or produces, stated in watts.</p>
+<ol><li>Check the <em>wattage</em> before you buy the bulb.</li><li>Higher <em>wattage</em> means a brighter light.</li><li>The microwave's <em>wattage</em> is printed on the back.</li></ol>
+<hr>
+<h3 id="volt">volt<a class="hash" href="#volt" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/voʊlt/ &middot; <em>VOHLT</em></dd><dt>Русский</dt><dd>вольт</dd><dt>Plural</dt><dd><em>volts</em></dd><dt>Countability</dt><dd>countable</dd></dl>
+<p>The unit of electrical pressure.</p>
+<ol><li>American outlets run at 120 <em>volts</em>.</li><li>The battery puts out twelve <em>volts</em>.</li><li>Nine <em>volts</em> isn't enough for that motor.</li></ol>
+<hr>
+<h3 id="voltage">voltage<a class="hash" href="#voltage" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/ˈvoʊltɪdʒ/ &middot; <em>VOHL-tij</em></dd><dt>Русский</dt><dd>напряжение</dd><dt>Countability</dt><dd>uncountable</dd></dl>
+<p>The electrical force in a circuit, measured in volts.</p>
+<ol><li>Check the <em>voltage</em> before you plug it in.</li><li>Low <em>voltage</em> made the lights flicker.</li><li>European <em>voltage</em> is twice ours.</li></ol>
+<hr>
+<h3 id="amp">amp<a class="hash" href="#amp" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/æmp/ &middot; <em>AMP</em></dd><dt>Русский</dt><dd>ампер</dd><dt>Plural</dt><dd><em>amps</em></dd><dt>Countability</dt><dd>countable</dd><dt>Contrast</dt><dd>Amp is also short for amplifier, as in a guitar amp.</dd></dl>
+<p>A unit of electric current, short for ampere.</p>
+<ol><li>That circuit is rated for fifteen <em>amps</em>.</li><li>The motor pulls about six <em>amps</em>.</li><li>The breaker trips at twenty <em>amps</em>.</li></ol>
+<hr>
+<h3 id="ampere">ampere<a class="hash" href="#ampere" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/ˈæmpɪr/ &middot; <em>AM-peer</em></dd><dt>Русский</dt><dd>ампер</dd><dt>Plural</dt><dd><em>amperes</em></dd><dt>Countability</dt><dd>countable</dd><dt>Contrast</dt><dd>In everyday American speech almost everyone says amp instead.</dd></dl>
+<p>The full name of the unit of electric current.</p>
+<ol><li>The label gives the current in <em>amperes</em>.</li><li>One <em>ampere</em> is a lot of current for a thin wire.</li><li>Fuses are rated in <em>amperes</em>.</li></ol>
+<hr>
+<h3 id="ohm">ohm<a class="hash" href="#ohm" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/oʊm/ &middot; <em>OHM</em></dd><dt>Русский</dt><dd>ом</dd><dt>Plural</dt><dd><em>ohms</em></dd><dt>Countability</dt><dd>countable</dd></dl>
+<p>The unit of electrical resistance.</p>
+<ol><li>The resistor is rated at 100 <em>ohms</em>.</li><li>Measure the resistance in <em>ohms</em>.</li><li>A few <em>ohms</em> won't matter here.</li></ol>
+<hr>
+<h3 id="horsepower">horsepower<a class="hash" href="#horsepower" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/ˈhɔːrsˌpaʊrr/ &middot; <em>HORS-pow-ur</em></dd><dt>Русский</dt><dd>лошадиная сила</dd><dt>Countability</dt><dd>uncountable</dd><dt>Contrast</dt><dd>It stays horsepower after a number, never horsepowers.</dd></dl>
+<p>A unit of engine power equal to 746 watts.</p>
+<ol><li>The engine puts out 300 <em>horsepower</em>.</li><li>That mower doesn't have much <em>horsepower</em>.</li><li>They compared the <em>horsepower</em> of both trucks.</li></ol>
+<hr>
+<h3 id="joule">joule<a class="hash" href="#joule" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/dʒuːl/ &middot; <em>JOOL</em></dd><dt>Русский</dt><dd>джоуль</dd><dt>Plural</dt><dd><em>joules</em></dd><dt>Countability</dt><dd>countable</dd><dt>Contrast</dt><dd>Pronounced JOOL, exactly like jewel.</dd></dl>
+<p>The metric unit of energy or work.</p>
+<ol><li>The reaction released 500 <em>joules</em>.</li><li>One <em>joule</em> is a very small amount of energy.</li><li>Convert the calories into <em>joules</em>.</li></ol>
+<hr>
+<h3 id="decibel">decibel<a class="hash" href="#decibel" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/ˈdesəbel/ &middot; <em>DES-uh-bel</em></dd><dt>Русский</dt><dd>децибел</dd><dt>Plural</dt><dd><em>decibels</em></dd><dt>Countability</dt><dd>countable</dd></dl>
+<p>The unit used to measure how loud a sound is.</p>
+<ol><li>A normal conversation is about sixty <em>decibels</em>.</li><li>Hearing damage starts around 85 <em>decibels</em>.</li><li>The meter reads in <em>decibels</em>.</li></ol>
+<hr>
+<h3 id="hertz">hertz<a class="hash" href="#hertz" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/hɜːrts/ &middot; <em>HURTS</em></dd><dt>Русский</dt><dd>герц</dd><dt>Plural</dt><dd><em>hertz</em></dd><dt>Countability</dt><dd>countable</dd><dt>Contrast</dt><dd>The plural is hertz, and the word sounds like hurts.</dd></dl>
+<p>The unit of frequency, equal to one cycle per second.</p>
+<ol><li>American power runs at sixty <em>hertz</em>.</li><li>The monitor refreshes at 120 <em>hertz</em>.</li><li>People hear sound from about 20 <em>hertz</em> upward.</li></ol>
+<hr>
+<h3 id="newton">newton<a class="hash" href="#newton" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/ˈnuːtən/ &middot; <em>NOO-tuhn</em></dd><dt>Русский</dt><dd>ньютон</dd><dt>Plural</dt><dd><em>newtons</em></dd><dt>Countability</dt><dd>countable</dd><dt>Contrast</dt><dd>Americans say NOO-tuhn; the British add a y sound, NYOO-tuhn.</dd></dl>
+<p>The metric unit of force.</p>
+<ol><li>The spring pulls with a force of ten <em>newtons</em>.</li><li>One <em>newton</em> is about the weight of an apple.</li><li>Convert the pounds into <em>newtons</em>.</li></ol>
+<hr>
+<h3 id="torque">torque<a class="hash" href="#torque" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/tɔːrk/ &middot; <em>TORK</em></dd><dt>Русский</dt><dd>крутящий момент</dd><dt>Countability</dt><dd>uncountable</dd><dt>Contrast</dt><dd>The que is a plain k sound: TORK.</dd></dl>
+<p>The turning force produced by an engine or applied to a bolt.</p>
+<ol><li>Diesel engines make a lot of <em>torque</em>.</li><li>Tighten the lug nuts to the right <em>torque</em>.</li><li>The wrench measures <em>torque</em> in foot-pounds.</li></ol>
+<hr>
+<h3 id="wavelength">wavelength<a class="hash" href="#wavelength" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/ˈweɪvleŋθ/ &middot; <em>WAYV-length</em></dd><dt>Русский</dt><dd>длина волны</dd><dt>Plural</dt><dd><em>wavelengths</em></dd><dt>Countability</dt><dd>countable</dd></dl>
+<p>The distance between one wave crest and the next.</p>
+<ol><li>Red light has a longer <em>wavelength</em> than blue.</li><li>The antenna is cut to a quarter <em>wavelength</em>.</li><li>Only certain <em>wavelengths</em> pass through the filter.</li></ol>
+<hr>
+<h3 id="lumen">lumen<a class="hash" href="#lumen" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/ˈluːmən/ &middot; <em>LOO-muhn</em></dd><dt>Русский</dt><dd>люмен</dd><dt>Plural</dt><dd><em>lumens</em></dd><dt>Countability</dt><dd>countable</dd></dl>
+<p>The unit that measures how much visible light a lamp gives off.</p>
+<ol><li>This bulb puts out 800 <em>lumens</em>.</li><li>Flashlights are rated in <em>lumens</em> now.</li><li>A few hundred <em>lumens</em> is plenty for a desk lamp.</li></ol>
+<hr>
+<h3 id="octane">octane<a class="hash" href="#octane" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/ˈɑːkteɪn/ &middot; <em>AHK-tayn</em></dd><dt>Русский</dt><dd>октановое число</dd><dt>Countability</dt><dd>uncountable</dd></dl>
+<p>A rating showing how well gasoline resists knocking in an engine.</p>
+<ol><li>The manual calls for 91 <em>octane</em>.</li><li>Higher <em>octane</em> costs more per gallon.</li><li>Regular gas is 87 <em>octane</em> in most states.</li></ol>
+<hr>
+<h3 id="latitude">latitude<a class="hash" href="#latitude" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/ˈlætətuːd/ &middot; <em>LAT-uh-tood</em></dd><dt>Русский</dt><dd>широта</dd><dt>Plural</dt><dd><em>latitudes</em></dd><dt>Countability</dt><dd>countable</dd><dt>Contrast</dt><dd>Americans say LAT-uh-tood; the British say LAT-i-tyood.</dd></dl>
+<p>The distance north or south of the equator, measured in degrees.</p>
+<ol><li>Chicago sits at about 42 degrees <em>latitude</em>.</li><li>Enter the <em>latitude</em> and longitude.</li><li>Northern <em>latitudes</em> get very little winter sun.</li></ol>
+<hr>
+<h3 id="longitude">longitude<a class="hash" href="#longitude" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/ˈlɑːndʒətuːd/ &middot; <em>LAHN-juh-tood</em></dd><dt>Русский</dt><dd>долгота</dd><dt>Plural</dt><dd><em>longitudes</em></dd><dt>Countability</dt><dd>countable</dd><dt>Contrast</dt><dd>The g is a j sound: LAHN-juh-tood.</dd></dl>
+<p>The distance east or west of the prime meridian, measured in degrees.</p>
+<ol><li>The ship radioed in its <em>longitude</em>.</li><li>Lines of <em>longitude</em> meet at the poles.</li><li>Two cities at the same <em>longitude</em> can have very different weather.</li></ol>
+<hr>
+<h3 id="elevation">elevation<a class="hash" href="#elevation" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/ˌeləˈveɪʃən/ &middot; <em>el-uh-VAY-shuhn</em></dd><dt>Русский</dt><dd>высота над уровнем моря</dd><dt>Plural</dt><dd><em>elevations</em></dd><dt>Countability</dt><dd>countable</dd></dl>
+<p>Height above sea level.</p>
+<ol><li>Denver sits at an <em>elevation</em> of about a mile.</li><li>The trail gains 2,000 feet of <em>elevation</em>.</li><li>Water boils sooner at high <em>elevations</em>.</li></ol>
+<hr>
+<h3 id="sea-level">sea level<a class="hash" href="#sea-level" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/ˈsiː ˌlevəl/ &middot; <em>SEE lev-uhl</em></dd><dt>Русский</dt><dd>уровень моря</dd><dt>Countability</dt><dd>uncountable</dd></dl>
+<p>The average level of the ocean's surface, used as the zero point for heights.</p>
+<ol><li>The town is 300 feet above <em>sea level</em>.</li><li><em>Sea level</em> has risen several inches in a century.</li><li>Baking times change well above <em>sea level</em>.</li></ol>
+<hr>
+<h3 id="angle">angle<a class="hash" href="#angle" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/ˈæŋɡəl/ &middot; <em>ANG-guhl</em></dd><dt>Русский</dt><dd>угол</dd><dt>Plural</dt><dd><em>angles</em></dd><dt>Countability</dt><dd>countable</dd></dl>
+<p>The space between two lines that meet, measured in degrees.</p>
+<ol><li>Cut the trim at a 45-degree <em>angle</em>.</li><li>Measure the <em>angle</em> with a protractor.</li><li>All three <em>angles</em> add up to 180 degrees.</li></ol>
+<hr>
+<h3 id="coordinate">coordinate<a class="hash" href="#coordinate" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/koʊˈɔːrdənət/ &middot; <em>koh-OR-duh-nut</em></dd><dt>Русский</dt><dd>координата</dd><dt>Plural</dt><dd><em>coordinates</em></dd><dt>Countability</dt><dd>countable</dd><dt>Contrast</dt><dd>The noun ends in -nut; the verb to coordinate ends in -nayt.</dd></dl>
+<p>One of a set of numbers giving an exact position.</p>
+<ol><li>Send me the <em>coordinates</em> and I'll find it.</li><li>Each <em>coordinate</em> is given in degrees.</li><li>The GPS <em>coordinates</em> were off by a block.</li></ol>
+<hr>
+<h3 id="stride">stride<a class="hash" href="#stride" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/straɪd/ &middot; <em>STRYD</em></dd><dt>Русский</dt><dd>шаг (широкий)</dd><dt>Plural</dt><dd><em>strides</em></dd><dt>Countability</dt><dd>countable</dd></dl>
+<p>One long step, or the distance covered by it.</p>
+<ol><li>He crossed the room in three <em>strides</em>.</li><li>The runner's <em>stride</em> got shorter near the end.</li><li>Long <em>strides</em> eat up the distance.</li></ol>
+<hr>
+<h3 id="caliber">caliber<a class="hash" href="#caliber" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/ˈkæləbər/ &middot; <em>KAL-uh-bur</em></dd><dt>Русский</dt><dd>калибр</dd><dt>Plural</dt><dd><em>calibers</em></dd><dt>Countability</dt><dd>countable</dd><dt>Contrast</dt><dd>Americans spell it caliber; the British write calibre.</dd></dl>
+<p>The inside diameter of a gun barrel.</p>
+<ol><li>The rifle is a .22 <em>caliber</em>.</li><li>Police recovered a bullet of the same <em>caliber</em>.</li><li>The shop stocks several <em>calibers</em>.</li></ol>
+<hr>
+<h3 id="bore">bore<a class="hash" href="#bore" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/bɔːr/ &middot; <em>BOR</em></dd><dt>Русский</dt><dd>внутренний диаметр, канал ствола</dd><dt>Plural</dt><dd><em>bores</em></dd><dt>Countability</dt><dd>countable</dd><dt>Contrast</dt><dd>Sounds the same as boar, a wild pig, and as bore, the past tense of bear.</dd></dl>
+<p>The hollow inside of a tube or a gun barrel, or the width of it.</p>
+<ol><li>The engine has a four-inch <em>bore</em>.</li><li>Clean the <em>bore</em> after every trip to the range.</li><li>The two cylinders have identical <em>bores</em>.</li></ol>
+<hr>
+<h3 id="specimen">specimen<a class="hash" href="#specimen" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/ˈspesəmən/ &middot; <em>SPES-uh-muhn</em></dd><dt>Русский</dt><dd>образец, проба</dd><dt>Plural</dt><dd><em>specimens</em></dd><dt>Countability</dt><dd>countable</dd><dt>Contrast</dt><dd>The stress is on the first syllable: SPES-uh-muhn.</dd></dl>
+<p>A single item or amount taken for testing or study.</p>
+<ol><li>The lab needs a urine <em>specimen</em>.</li><li>Each <em>specimen</em> is labeled and dated.</li><li>Museum <em>specimens</em> are kept behind glass.</li></ol>
+<hr>
+<h3 id="net-weight">net weight<a class="hash" href="#net-weight" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/ˌnet ˈweɪt/ &middot; <em>net WAYT</em></dd><dt>Русский</dt><dd>вес нетто</dd><dt>Plural</dt><dd><em>net weights</em></dd><dt>Countability</dt><dd>countable</dd></dl>
+<p>The weight of the contents alone, without the packaging.</p>
+<ol><li>The <em>net weight</em> is printed on the side of the box.</li><li>The <em>net weight</em> is twelve ounces.</li><li>Compare the <em>net weights</em>, not the package sizes.</li></ol>
+<hr>
+<h3 id="conversion">conversion<a class="hash" href="#conversion" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/kənˈvɜːrʒən/ &middot; <em>kuhn-VUR-zhuhn</em></dd><dt>Русский</dt><dd>перевод (единиц измерения)</dd><dt>Plural</dt><dd><em>conversions</em></dd><dt>Countability</dt><dd>countable</dd></dl>
+<p>The changing of a measurement from one unit into another.</p>
+<ol><li>The chart gives the <em>conversion</em> from inches to centimeters.</li><li>Do the <em>conversion</em> before you order the parts.</li><li>Unit <em>conversions</em> trip up a lot of students.</li></ol></div></main>
+<button class="themebtn" id="themeBtn">Dark</button>
+<script>
+const tb=document.getElementById('themeBtn');
+function setTheme(x){document.documentElement.dataset.theme=x;tb.textContent=x==='dark'?'Light':'Dark';
+ try{localStorage.setItem('site-theme',x)}catch(e){}}
+tb.onclick=()=>setTheme(document.documentElement.dataset.theme==='dark'?'light':'dark');
+try{const s=localStorage.getItem('site-theme');
+ setTheme(s||(matchMedia('(prefers-color-scheme: dark)').matches?'dark':'light'))}catch(e){setTheme('light')}
+</script></body></html>

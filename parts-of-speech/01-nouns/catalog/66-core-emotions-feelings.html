@@ -1,0 +1,836 @@
+<!DOCTYPE html>
+<html lang="en"><head>
+<meta charset="utf-8"><meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Core vocabulary: emotions</title>
+<style>
+:root{--bg:#faf9f7;--surface:#fff;--surface2:#f2f0ec;--border:#e2ded6;--text:#1a1815;
+--dim:#5f594f;--faint:#8a8377;--accent:#8a5a3b;--measure:72ch}
+@media(prefers-color-scheme:dark){:root{--bg:#14140f;--surface:#1d1d17;--surface2:#25251d;
+--border:#33332a;--text:#eeeae1;--dim:#a8a293;--faint:#7d776b;--accent:#d09b72}}
+:root[data-theme=dark]{--bg:#14140f;--surface:#1d1d17;--surface2:#25251d;--border:#33332a;
+--text:#eeeae1;--dim:#a8a293;--faint:#7d776b;--accent:#d09b72}
+:root[data-theme=light]{--bg:#faf9f7;--surface:#fff;--surface2:#f2f0ec;--border:#e2ded6;
+--text:#1a1815;--dim:#5f594f;--faint:#8a8377;--accent:#8a5a3b}
+*{box-sizing:border-box}
+body{margin:0;background:var(--bg);color:var(--text);
+font:17px/1.72 ui-serif,Georgia,"Iowan Old Style",Palatino,serif;-webkit-font-smoothing:antialiased}
+.wrap{max-width:min(var(--measure),100%);margin:0 auto;padding:0 22px}
+nav.crumb{border-bottom:1px solid var(--border);padding:13px 0;font-size:13.5px;
+font-family:-apple-system,BlinkMacSystemFont,"Segoe UI",sans-serif;position:sticky;top:0;background:var(--bg);z-index:20}
+nav.crumb .wrap{max-width:none;display:flex;gap:9px;align-items:center;flex-wrap:wrap}
+nav.crumb a{color:var(--dim);text-decoration:none}
+nav.crumb a:hover{color:var(--accent)}
+nav.crumb .sep{color:var(--faint)}
+main{padding:8px 0 80px}
+h1{font-size:clamp(28px,5vw,38px);line-height:1.15;letter-spacing:-.015em;margin:34px 0 18px}
+h2{font-size:25px;margin:46px 0 14px;letter-spacing:-.01em;padding-bottom:7px;border-bottom:1px solid var(--border)}
+h3{font-size:19px;margin:34px 0 10px;color:var(--accent)}
+h4{font-size:16px;margin:24px 0 8px;font-family:-apple-system,sans-serif}
+p{margin:0 0 16px}
+a{color:var(--accent)}
+.hash{opacity:0;margin-left:8px;font-weight:400;font-size:.65em;text-decoration:none;color:var(--faint)}
+h2:hover .hash,h3:hover .hash{opacity:1}
+blockquote{margin:0 0 20px;padding:14px 18px;background:var(--surface2);
+border-left:3px solid var(--accent);border-radius:0 8px 8px 0}
+blockquote p:last-child{margin-bottom:0}
+ol,ul{margin:0 0 18px;padding-left:26px}
+li{margin-bottom:8px}
+li>ul,li>ol{margin:8px 0 0}
+code{font-family:ui-monospace,SFMono-Regular,Menlo,Consolas,monospace;font-size:.87em;
+background:var(--surface2);padding:1px 5px;border-radius:4px}
+pre{background:var(--surface2);border:1px solid var(--border);border-radius:9px;
+padding:15px 17px;overflow-x:auto;margin:0 0 20px}
+pre code{background:none;padding:0;font-size:13px;line-height:1.6}
+.tw{overflow-x:auto;margin:0 0 22px;border:1px solid var(--border);border-radius:9px}
+table{border-collapse:collapse;width:100%;font-size:15px;
+font-family:-apple-system,BlinkMacSystemFont,"Segoe UI",sans-serif}
+th,td{padding:10px 14px;border-bottom:1px solid var(--border);vertical-align:top}
+th{background:var(--surface2);font-size:12px;text-transform:uppercase;
+letter-spacing:.06em;color:var(--dim);font-weight:700;white-space:nowrap}
+tbody tr:last-child td{border-bottom:none}
+hr{border:none;border-top:1px solid var(--border);margin:38px 0}
+details{background:var(--surface2);border:1px solid var(--border);border-radius:9px;
+padding:13px 17px;margin:0 0 20px}
+summary{cursor:pointer;font-weight:600;font-family:-apple-system,sans-serif;font-size:15px}
+details[open] summary{margin-bottom:12px}
+del{color:var(--faint)}
+dl.fields{margin:0 0 20px;padding:0}
+dl.fields dt{font-family:-apple-system,BlinkMacSystemFont,"Segoe UI",sans-serif;
+font-size:11px;letter-spacing:.11em;text-transform:uppercase;color:var(--faint);
+font-weight:700;margin:14px 0 4px}
+dl.fields dt:first-child{margin-top:0}
+dl.fields dd{margin:0;font-size:16px;color:var(--dim);line-height:1.62}
+dl.fields dd em{color:var(--text)}
+dl.fields dt.ru{color:var(--accent)}
+dl.fields dd strong{color:var(--text)}
+.toc{background:var(--surface2);border:1px solid var(--border);border-radius:10px;
+padding:16px 20px;margin:26px 0 34px;font-family:-apple-system,sans-serif;font-size:14px}
+.toc b{display:block;font-size:11px;letter-spacing:.12em;text-transform:uppercase;
+color:var(--faint);margin-bottom:9px}
+.toc a{display:block;padding:3px 0;color:var(--dim);text-decoration:none}
+.toc a:hover{color:var(--accent)}
+.themebtn{position:fixed;right:18px;bottom:18px;z-index:60;font-family:-apple-system,sans-serif;
+font-size:12.5px;font-weight:600;cursor:pointer;background:var(--surface);border:1px solid var(--border);
+border-radius:99px;padding:9px 16px;color:var(--text)}
+@media(max-width:600px){body{font-size:16px}.wrap{padding:0 17px}}
+</style></head><body>
+<nav class="crumb"><div class="wrap"><a href="../../../index.html">Learn English</a><span class="sep">/</span><a href="../../README.html">Parts of speech</a><span class="sep">/</span><a href="../README.html">01-nouns</a><span class="sep">/</span><span>catalog</span></div></nav>
+<main><div class="wrap"><h1 id="core-vocabulary-emotions">Core vocabulary: emotions<a class="hash" href="#core-vocabulary-emotions" aria-label="link">#</a></h1>
+<blockquote><p>The everyday nouns of emotions — pronunciation, Russian, plural, and three examples each.</p></blockquote>
+<p><a href="../README.html">← The grammar of nouns</a> &middot; <a href="README.html">All groups</a></p>
+<p>Part of the <strong>core-vocabulary tier</strong>. Groups 1–23 cover the nouns that misbehave; this tier covers the nouns you simply need to know. Entries are deliberately lean, because a regular countable noun has no grammatical story to tell. A <strong>Contrast</strong> line appears only where the word hides a genuine trap.</p>
+<p>Where a word in this field <em>does</em> misbehave, it lives in the grammar tier instead and is not repeated here.</p>
+<hr>
+<h3 id="joy">joy<a class="hash" href="#joy" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/dʒɔɪ/ &middot; <em>JOY</em></dd><dt>Русский</dt><dd>радость</dd><dt>Countability</dt><dd>uncountable</dd></dl>
+<p>A feeling of great happiness.</p>
+<ol><li>Her face lit up with <em>joy</em> when she saw us.</li><li>The whole team jumped for <em>joy</em> after the goal.</li><li>There is real <em>joy</em> in doing work you care about.</li></ol>
+<hr>
+<h3 id="delight">delight<a class="hash" href="#delight" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/dɪˈlaɪt/ &middot; <em>dih-LYT</em></dd><dt>Русский</dt><dd>восторг, удовольствие</dd><dt>Countability</dt><dd>uncountable</dd></dl>
+<p>A feeling of strong pleasure.</p>
+<ol><li>To my <em>delight</em>, the flight was on time.</li><li>She squealed with <em>delight</em> at the puppy.</li><li>He takes <em>delight</em> in proving people wrong.</li></ol>
+<hr>
+<h3 id="glee">glee<a class="hash" href="#glee" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/ɡliː/ &middot; <em>GLEE</em></dd><dt>Русский</dt><dd>ликование, злорадство</dd><dt>Countability</dt><dd>uncountable</dd></dl>
+<p>Open, often slightly gloating happiness.</p>
+<ol><li>He announced the score with obvious <em>glee</em>.</li><li>The kids tore into the presents with <em>glee</em>.</li><li>There was a certain <em>glee</em> in the way she said it.</li></ol>
+<hr>
+<h3 id="ecstasy">ecstasy<a class="hash" href="#ecstasy" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/ˈekstəsi/ &middot; <em>EK-stuh-see</em></dd><dt>Русский</dt><dd>экстаз, восторг</dd><dt>Countability</dt><dd>uncountable</dd></dl>
+<p>A state of overwhelming happiness.</p>
+<ol><li>The crowd was in <em>ecstasy</em> when the band came back out.</li><li>She described the first bite as pure <em>ecstasy</em>.</li><li>He fell into a kind of <em>ecstasy</em> whenever he talked about jazz.</li></ol>
+<hr>
+<h3 id="euphoria">euphoria<a class="hash" href="#euphoria" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/juːˈfɔːriə/ &middot; <em>yoo-FOR-ee-uh</em></dd><dt>Русский</dt><dd>эйфория</dd><dt>Countability</dt><dd>uncountable</dd></dl>
+<p>A short, intense feeling of happiness and excitement.</p>
+<ol><li>There was a wave of <em>euphoria</em> after the election results.</li><li>The <em>euphoria</em> of finishing wore off by Monday.</li><li>Runners talk about the <em>euphoria</em> that hits around mile twenty.</li></ol>
+<hr>
+<h3 id="contentment">contentment<a class="hash" href="#contentment" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/kənˈtentmənt/ &middot; <em>kuhn-TENT-muhnt</em></dd><dt>Русский</dt><dd>удовлетворённость, довольство</dd><dt>Countability</dt><dd>uncountable</dd><dt>Contrast</dt><dd>The related noun <em>content</em> (=содержимое) is stressed KAHN-tent, but <em>contentment</em> keeps the second-syllable stress: kuhn-TENT-muhnt.</dd></dl>
+<p>A quiet feeling of being satisfied with things as they are.</p>
+<ol><li>He sighed with <em>contentment</em> and put his feet up.</li><li>There is a deep <em>contentment</em> in a slow Sunday morning.</li><li>Money bought him comfort but not <em>contentment</em>.</li></ol>
+<hr>
+<h3 id="satisfaction">satisfaction<a class="hash" href="#satisfaction" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/ˌsætɪsˈfækʃən/ &middot; <em>sat-is-FAK-shuhn</em></dd><dt>Русский</dt><dd>удовлетворение</dd><dt>Countability</dt><dd>uncountable</dd></dl>
+<p>The good feeling you get when something you wanted happens.</p>
+<ol><li>She got a lot of <em>satisfaction</em> out of fixing it herself.</li><li>There is no <em>satisfaction</em> in winning that way.</li><li>He smiled with quiet <em>satisfaction</em> at the finished deck.</li></ol>
+<hr>
+<h3 id="fulfillment">fulfillment<a class="hash" href="#fulfillment" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/fʊlˈfɪlmənt/ &middot; <em>fool-FIL-muhnt</em></dd><dt>Русский</dt><dd>самореализация, чувство удовлетворения</dd><dt>Countability</dt><dd>uncountable</dd><dt>Contrast</dt><dd>American spelling doubles the l: <em>fulfillment</em>; British writing uses <em>fulfilment</em>.</dd></dl>
+<p>A sense that your life or work has real meaning.</p>
+<ol><li>She left banking looking for more <em>fulfillment</em>.</li><li>Teaching gave him a <em>fulfillment</em> the money never did.</li><li>Personal <em>fulfillment</em> is not the same as being busy.</li></ol>
+<hr>
+<h3 id="gratitude">gratitude<a class="hash" href="#gratitude" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/ˈɡrætətuːd/ &middot; <em>GRAT-uh-tood</em></dd><dt>Русский</dt><dd>благодарность</dd><dt>Countability</dt><dd>uncountable</dd></dl>
+<p>A feeling of thankfulness toward someone.</p>
+<ol><li>She sent flowers as a token of <em>gratitude</em>.</li><li>He spoke with real <em>gratitude</em> about his first boss.</li><li>I owe them a debt of <em>gratitude</em> I can never repay.</li></ol>
+<hr>
+<h3 id="appreciation">appreciation<a class="hash" href="#appreciation" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/əˌpriːʃiˈeɪʃən/ &middot; <em>uh-pree-shee-AY-shuhn</em></dd><dt>Русский</dt><dd>признательность; понимание ценности</dd><dt>Countability</dt><dd>uncountable</dd></dl>
+<p>Thankfulness, or an understanding of something's value.</p>
+<ol><li>The team got a bonus as a sign of <em>appreciation</em>.</li><li>He has a real <em>appreciation</em> for old buildings.</li><li>A little <em>appreciation</em> goes a long way with volunteers.</li></ol>
+<hr>
+<h3 id="admiration">admiration<a class="hash" href="#admiration" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/ˌædməˈreɪʃən/ &middot; <em>ad-muh-RAY-shuhn</em></dd><dt>Русский</dt><dd>восхищение</dd><dt>Countability</dt><dd>uncountable</dd><dt>Contrast</dt><dd>The verb <em>admire</em> is stressed ad-MYR, but the noun moves the stress to the fourth syllable: ad-muh-RAY-shuhn.</dd></dl>
+<p>Respect and approval for someone or something.</p>
+<ol><li>I have nothing but <em>admiration</em> for what she did.</li><li>He looked at the bridge with open <em>admiration</em>.</li><li>Her courage won the <em>admiration</em> of the whole town.</li></ol>
+<hr>
+<h3 id="affection">affection<a class="hash" href="#affection" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/əˈfekʃən/ &middot; <em>uh-FEK-shuhn</em></dd><dt>Русский</dt><dd>привязанность, нежность</dd><dt>Countability</dt><dd>uncountable</dd></dl>
+<p>A warm, gentle liking for someone.</p>
+<ol><li>He talks about his old neighborhood with real <em>affection</em>.</li><li>The dog showed <em>affection</em> by leaning against my leg.</li><li>There was genuine <em>affection</em> between the two of them.</li></ol>
+<hr>
+<h3 id="loyalty">loyalty<a class="hash" href="#loyalty" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/ˈlɔɪrlti/ &middot; <em>LOY-uhl-tee</em></dd><dt>Русский</dt><dd>верность, преданность</dd><dt>Countability</dt><dd>uncountable</dd></dl>
+<p>Firm support for a person, group, or cause.</p>
+<ol><li>He values <em>loyalty</em> over almost everything else.</li><li>Her <em>loyalty</em> to the company was never in doubt.</li><li>Old friendships are built on <em>loyalty</em>, not convenience.</li></ol>
+<hr>
+<h3 id="compassion">compassion<a class="hash" href="#compassion" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/kəmˈpæʃən/ &middot; <em>kuhm-PASH-uhn</em></dd><dt>Русский</dt><dd>сострадание</dd><dt>Countability</dt><dd>uncountable</dd></dl>
+<p>Sympathy for suffering, plus a wish to help.</p>
+<ol><li>She treats every patient with <em>compassion</em>.</li><li>The letter showed surprising <em>compassion</em>.</li><li>He spoke about the homeless with real <em>compassion</em>.</li></ol>
+<hr>
+<h3 id="sympathy">sympathy<a class="hash" href="#sympathy" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/ˈsɪmpəθi/ &middot; <em>SIM-puh-thee</em></dd><dt>Русский</dt><dd>сочувствие</dd><dt>Countability</dt><dd>uncountable</dd></dl>
+<p>A feeling of sorrow for someone else's trouble.</p>
+<ol><li>Please accept my <em>sympathy</em> for your loss.</li><li>I have no <em>sympathy</em> for people who cheat.</li><li>The whole office sent cards of <em>sympathy</em>.</li></ol>
+<hr>
+<h3 id="empathy">empathy<a class="hash" href="#empathy" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/ˈempəθi/ &middot; <em>EM-puh-thee</em></dd><dt>Русский</dt><dd>эмпатия, сопереживание</dd><dt>Countability</dt><dd>uncountable</dd></dl>
+<p>The ability to feel what another person is feeling.</p>
+<ol><li>Good nurses have an unusual amount of <em>empathy</em>.</li><li>The training is supposed to build <em>empathy</em>.</li><li>He listened with <em>empathy</em> instead of jumping in with advice.</li></ol>
+<hr>
+<h3 id="pity">pity<a class="hash" href="#pity" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/ˈpɪti/ &middot; <em>PIT-ee</em></dd><dt>Русский</dt><dd>жалость</dd><dt>Countability</dt><dd>uncountable</dd></dl>
+<p>Sadness at someone else's suffering, often with a hint of looking down.</p>
+<ol><li>I want respect, not <em>pity</em>.</li><li>She felt a rush of <em>pity</em> for the stray cat.</li><li>He took the job out of <em>pity</em> for his cousin.</li></ol>
+<hr>
+<h3 id="kindness">kindness<a class="hash" href="#kindness" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/ˈkaɪndnəs/ &middot; <em>KYND-nuhs</em></dd><dt>Русский</dt><dd>доброта</dd><dt>Plural</dt><dd><em>kindnesses</em></dd><dt>Countability</dt><dd>countable</dd></dl>
+<p>Friendly, generous behavior, or an act of it.</p>
+<ol><li>A little <em>kindness</em> costs nothing.</li><li>I will never forget her <em>kindness</em> that winter.</li><li>The small <em>kindnesses</em> are what people remember.</li></ol>
+<hr>
+<h3 id="generosity">generosity<a class="hash" href="#generosity" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/ˌdʒenəˈrɑːsəti/ &middot; <em>jen-uh-RAH-suh-tee</em></dd><dt>Русский</dt><dd>щедрость</dd><dt>Countability</dt><dd>uncountable</dd></dl>
+<p>A willingness to give more than you have to.</p>
+<ol><li>Her <em>generosity</em> kept the food bank running.</li><li>He thanked the donors for their <em>generosity</em>.</li><li>The tip showed real <em>generosity</em>.</li></ol>
+<hr>
+<h3 id="humility">humility<a class="hash" href="#humility" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/hjuːˈmɪləti/ &middot; <em>hyoo-MIL-uh-tee</em></dd><dt>Русский</dt><dd>смирение, скромность</dd><dt>Countability</dt><dd>uncountable</dd></dl>
+<p>A modest view of your own importance.</p>
+<ol><li>He accepted the award with real <em>humility</em>.</li><li>Failing early taught her some <em>humility</em>.</li><li>There is a kind of strength in <em>humility</em>.</li></ol>
+<hr>
+<h3 id="dignity">dignity<a class="hash" href="#dignity" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/ˈdɪɡnəti/ &middot; <em>DIG-nuh-tee</em></dd><dt>Русский</dt><dd>достоинство</dd><dt>Countability</dt><dd>uncountable</dd></dl>
+<p>Calm self-respect, or the right to be treated with respect.</p>
+<ol><li>She handled the whole thing with <em>dignity</em>.</li><li>Everyone deserves to be treated with <em>dignity</em>.</li><li>He refused to give up his <em>dignity</em> for a paycheck.</li></ol>
+<hr>
+<h3 id="confidence">confidence<a class="hash" href="#confidence" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/ˈkɑːnfədəns/ &middot; <em>KAHN-fuh-duhns</em></dd><dt>Русский</dt><dd>уверенность (в себе)</dd><dt>Countability</dt><dd>uncountable</dd></dl>
+<p>Belief in yourself or in someone else's ability.</p>
+<ol><li>She answered with total <em>confidence</em>.</li><li>A few small wins rebuilt his <em>confidence</em>.</li><li>The board still has <em>confidence</em> in the new director.</li></ol>
+<hr>
+<h3 id="bravery">bravery<a class="hash" href="#bravery" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/ˈbreɪvəri/ &middot; <em>BRAY-vuh-ree</em></dd><dt>Русский</dt><dd>храбрость, смелость</dd><dt>Countability</dt><dd>uncountable</dd></dl>
+<p>Willingness to face danger or pain.</p>
+<ol><li>The firefighter was honored for his <em>bravery</em>.</li><li>It took real <em>bravery</em> to speak up in that room.</li><li>Her <em>bravery</em> during the storm saved two lives.</li></ol>
+<hr>
+<h3 id="determination">determination<a class="hash" href="#determination" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/dɪˌtɜːrməˈneɪʃən/ &middot; <em>dih-tur-muh-NAY-shuhn</em></dd><dt>Русский</dt><dd>решимость, целеустремлённость</dd><dt>Countability</dt><dd>uncountable</dd></dl>
+<p>A firm refusal to give up.</p>
+<ol><li>She finished the race on pure <em>determination</em>.</li><li>You could see the <em>determination</em> on his face.</li><li>It took years of <em>determination</em> to pay off the loan.</li></ol>
+<hr>
+<h3 id="ambition">ambition<a class="hash" href="#ambition" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/æmˈbɪʃən/ &middot; <em>am-BISH-uhn</em></dd><dt>Русский</dt><dd>амбиция, стремление</dd><dt>Plural</dt><dd><em>ambitions</em></dd><dt>Countability</dt><dd>countable</dd></dl>
+<p>A strong wish to achieve something.</p>
+<ol><li>Her <em>ambition</em> was to run her own restaurant.</li><li>He has no <em>ambition</em> beyond making rent.</li><li>College changed his <em>ambitions</em> completely.</li></ol>
+<hr>
+<h3 id="willpower">willpower<a class="hash" href="#willpower" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/ˈwɪlpaʊrr/ &middot; <em>WIL-pow-ur</em></dd><dt>Русский</dt><dd>сила воли</dd><dt>Countability</dt><dd>uncountable</dd></dl>
+<p>The strength to control your own impulses.</p>
+<ol><li>Quitting took more <em>willpower</em> than he expected.</li><li>My <em>willpower</em> disappears around a plate of cookies.</li><li>Dieting is not really a question of <em>willpower</em> alone.</li></ol>
+<hr>
+<h3 id="resilience">resilience<a class="hash" href="#resilience" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/rɪˈzɪliəns/ &middot; <em>rih-ZIL-ee-uhns</em></dd><dt>Русский</dt><dd>стойкость, жизнестойкость</dd><dt>Countability</dt><dd>uncountable</dd></dl>
+<p>The ability to recover quickly from hardship.</p>
+<ol><li>Kids show a surprising amount of <em>resilience</em>.</li><li>The town's <em>resilience</em> after the flood was remarkable.</li><li>Therapy helped her build <em>resilience</em>.</li></ol>
+<hr>
+<h3 id="optimism">optimism<a class="hash" href="#optimism" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/ˈɑːptəmɪzəm/ &middot; <em>AHP-tuh-miz-uhm</em></dd><dt>Русский</dt><dd>оптимизм</dd><dt>Countability</dt><dd>uncountable</dd></dl>
+<p>A tendency to expect good outcomes.</p>
+<ol><li>There is cautious <em>optimism</em> about next quarter.</li><li>His <em>optimism</em> is exhausting before coffee.</li><li>She faced the surgery with real <em>optimism</em>.</li></ol>
+<hr>
+<h3 id="calm">calm<a class="hash" href="#calm" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/kɑːm/ &middot; <em>KAHM</em></dd><dt>Русский</dt><dd>спокойствие</dd><dt>Countability</dt><dd>uncountable</dd><dt>Contrast</dt><dd>The l is silent — KAHM, rhyming with <em>palm</em>, not KALM.</dd></dl>
+<p>A quiet, untroubled state.</p>
+<ol><li>There was an eerie <em>calm</em> before the storm hit.</li><li>She spoke with a <em>calm</em> that surprised everyone.</li><li>After the argument, an uneasy <em>calm</em> settled over the house.</li></ol>
+<hr>
+<h3 id="reassurance">reassurance<a class="hash" href="#reassurance" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/ˌriːəˈʃʊrəns/ &middot; <em>ree-uh-SHOOR-uhns</em></dd><dt>Русский</dt><dd>утешение, ободрение</dd><dt>Countability</dt><dd>uncountable</dd></dl>
+<p>Words or actions that take away someone's worry.</p>
+<ol><li>He needed a little <em>reassurance</em> before the exam.</li><li>The doctor offered <em>reassurance</em> that it was harmless.</li><li>A text from her was all the <em>reassurance</em> I needed.</li></ol>
+<hr>
+<h3 id="consolation">consolation<a class="hash" href="#consolation" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/ˌkɑːnsəˈleɪʃən/ &middot; <em>kahn-suh-LAY-shuhn</em></dd><dt>Русский</dt><dd>утешение</dd><dt>Plural</dt><dd><em>consolations</em></dd><dt>Countability</dt><dd>countable</dd></dl>
+<p>Comfort given to someone who is disappointed or grieving.</p>
+<ol><li>It was some <em>consolation</em> that nobody got hurt.</li><li>Her only <em>consolation</em> was that the semester was almost over.</li><li>The team got a <em>consolation</em> prize and a long bus ride home.</li></ol>
+<hr>
+<h3 id="enjoyment">enjoyment<a class="hash" href="#enjoyment" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/ɪnˈdʒɔɪmənt/ &middot; <em>in-JOY-muhnt</em></dd><dt>Русский</dt><dd>удовольствие, наслаждение</dd><dt>Countability</dt><dd>uncountable</dd></dl>
+<p>The pleasure you get from something.</p>
+<ol><li>He gets a lot of <em>enjoyment</em> out of his garden.</li><li>The rain did not spoil our <em>enjoyment</em> of the game.</li><li>Reading for <em>enjoyment</em> dropped off after high school.</li></ol>
+<hr>
+<h3 id="amusement">amusement<a class="hash" href="#amusement" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/əˈmjuːzmənt/ &middot; <em>uh-MYOOZ-muhnt</em></dd><dt>Русский</dt><dd>веселье, забава</dd><dt>Countability</dt><dd>uncountable</dd></dl>
+<p>The feeling of being entertained or quietly laughing at something.</p>
+<ol><li>He watched the whole thing with obvious <em>amusement</em>.</li><li>To my <em>amusement</em>, the cat won.</li><li>The kids' questions were a source of endless <em>amusement</em>.</li></ol>
+<hr>
+<h3 id="humor">humor<a class="hash" href="#humor" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/ˈhjuːmər/ &middot; <em>HYOO-mur</em></dd><dt>Русский</dt><dd>юмор</dd><dt>Countability</dt><dd>uncountable</dd><dt>Contrast</dt><dd>American spelling drops the u: <em>humor</em>; British writing has <em>humour</em>.</dd></dl>
+<p>The quality of being funny, or the ability to see what is funny.</p>
+<ol><li>Her dry <em>humor</em> saved a lot of tense meetings.</li><li>He lost his sense of <em>humor</em> somewhere around tax season.</li><li>There is dark <em>humor</em> in that movie.</li></ol>
+<hr>
+<h3 id="wit">wit<a class="hash" href="#wit" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/wɪt/ &middot; <em>WIT</em></dd><dt>Русский</dt><dd>остроумие</dd><dt>Countability</dt><dd>uncountable</dd></dl>
+<p>Quick, clever humor in speech or writing.</p>
+<ol><li>Her <em>wit</em> is what makes the column worth reading.</li><li>He answered with the kind of <em>wit</em> you cannot rehearse.</li><li>The play is full of sharp <em>wit</em>.</li></ol>
+<hr>
+<h3 id="sadness">sadness<a class="hash" href="#sadness" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/ˈsædnəs/ &middot; <em>SAD-nuhs</em></dd><dt>Русский</dt><dd>грусть, печаль</dd><dt>Countability</dt><dd>uncountable</dd></dl>
+<p>The feeling of being unhappy.</p>
+<ol><li>There was a quiet <em>sadness</em> in the way he said goodbye.</li><li>She felt a wave of <em>sadness</em> going through the old photos.</li><li>The song is all <em>sadness</em> and steel guitar.</li></ol>
+<hr>
+<h3 id="sorrow">sorrow<a class="hash" href="#sorrow" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/ˈsɑːroʊ/ &middot; <em>SAH-roh</em></dd><dt>Русский</dt><dd>горе, скорбь</dd><dt>Plural</dt><dd><em>sorrows</em></dd><dt>Countability</dt><dd>countable</dd></dl>
+<p>Deep sadness, especially after a loss.</p>
+<ol><li>The whole town shared in her <em>sorrow</em>.</li><li>He drowned his <em>sorrows</em> in cheap beer.</li><li>There was more <em>sorrow</em> than anger in his voice.</li></ol>
+<hr>
+<h3 id="misery">misery<a class="hash" href="#misery" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/ˈmɪzəri/ &middot; <em>MIZ-uh-ree</em></dd><dt>Русский</dt><dd>страдание, мучение</dd><dt>Countability</dt><dd>uncountable</dd></dl>
+<p>Great unhappiness or suffering.</p>
+<ol><li>Two hours in that waiting room was pure <em>misery</em>.</li><li>He made everyone else's life a <em>misery</em>.</li><li>The heat and the flies added to the <em>misery</em>.</li></ol>
+<hr>
+<h3 id="despair">despair<a class="hash" href="#despair" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/dɪˈsper/ &middot; <em>dih-SPAIR</em></dd><dt>Русский</dt><dd>отчаяние</dd><dt>Countability</dt><dd>uncountable</dd></dl>
+<p>The feeling that nothing can get better.</p>
+<ol><li>He was close to <em>despair</em> after the third rejection.</li><li>There is a note of <em>despair</em> in her letters.</li><li>In <em>despair</em>, she called her sister at 2 a.m.</li></ol>
+<hr>
+<h3 id="mourning">mourning<a class="hash" href="#mourning" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/ˈmɔːrnɪŋ/ &middot; <em>MOR-ning</em></dd><dt>Русский</dt><dd>траур, скорбь</dd><dt>Countability</dt><dd>uncountable</dd><dt>Contrast</dt><dd>A homophone of <em>morning</em> — same sound, completely different meaning.</dd></dl>
+<p>The period or state of grieving for someone who has died.</p>
+<ol><li>The family is still in <em>mourning</em>.</li><li>He wore black for a year of <em>mourning</em>.</li><li>The whole country went into <em>mourning</em> after the crash.</li></ol>
+<hr>
+<h3 id="heartbreak">heartbreak<a class="hash" href="#heartbreak" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/ˈhɑːrtbreɪk/ &middot; <em>HAHRT-brayk</em></dd><dt>Русский</dt><dd>разбитое сердце, душевная боль</dd><dt>Countability</dt><dd>uncountable</dd></dl>
+<p>Deep emotional pain, usually from lost love.</p>
+<ol><li>The album is three sides of <em>heartbreak</em>.</li><li>She survived her first real <em>heartbreak</em> at sixteen.</li><li>There was nothing but <em>heartbreak</em> at the end of that season.</li></ol>
+<hr>
+<h3 id="suffering">suffering<a class="hash" href="#suffering" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/ˈsʌfərɪŋ/ &middot; <em>SUF-ur-ing</em></dd><dt>Русский</dt><dd>страдание</dd><dt>Countability</dt><dd>uncountable</dd></dl>
+<p>The state of being in pain or distress.</p>
+<ol><li>The medicine eased his <em>suffering</em>.</li><li>The war caused enormous <em>suffering</em>.</li><li>No one should have to watch that kind of <em>suffering</em>.</li></ol>
+<hr>
+<h3 id="agony">agony<a class="hash" href="#agony" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/ˈæɡəni/ &middot; <em>AG-uh-nee</em></dd><dt>Русский</dt><dd>мучительная боль, мука</dd><dt>Plural</dt><dd><em>agonies</em></dd><dt>Countability</dt><dd>countable</dd></dl>
+<p>Extreme physical or mental pain.</p>
+<ol><li>He was in <em>agony</em> until the shot kicked in.</li><li>The <em>agony</em> of waiting for results is the worst part.</li><li>She described the last mile as pure <em>agony</em>.</li></ol>
+<hr>
+<h3 id="torment">torment<a class="hash" href="#torment" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/ˈtɔːrment/ &middot; <em>TOR-ment</em></dd><dt>Русский</dt><dd>мучение, терзание</dd><dt>Plural</dt><dd><em>torments</em></dd><dt>Countability</dt><dd>countable</dd><dt>Contrast</dt><dd>Noun and verb split the stress: the noun is TOR-ment, the verb <em>to torment</em> is tor-MENT.</dd></dl>
+<p>Severe, drawn-out suffering.</p>
+<ol><li>The rumors were a daily <em>torment</em> for her.</li><li>He lived with the <em>torment</em> of not knowing.</li><li>Middle school was one long <em>torment</em>.</li></ol>
+<hr>
+<h3 id="trauma">trauma<a class="hash" href="#trauma" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/ˈtrɔːmə/ &middot; <em>TRAW-muh</em></dd><dt>Русский</dt><dd>травма (психологическая)</dd><dt>Plural</dt><dd><em>traumas</em></dd><dt>Countability</dt><dd>countable</dd></dl>
+<p>Lasting emotional damage from a shocking experience.</p>
+<ol><li>She is still working through childhood <em>trauma</em>.</li><li>The accident left a <em>trauma</em> that took years to unpack.</li><li>Not every hard day is a <em>trauma</em>.</li></ol>
+<hr>
+<h3 id="loneliness">loneliness<a class="hash" href="#loneliness" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/ˈloʊnlinəs/ &middot; <em>LOHN-lee-nuhs</em></dd><dt>Русский</dt><dd>одиночество</dd><dt>Countability</dt><dd>uncountable</dd></dl>
+<p>The unhappy feeling of being alone.</p>
+<ol><li><em>Loneliness</em> hit hardest on Sunday afternoons.</li><li>He moved back home to escape the <em>loneliness</em>.</li><li>Studies link <em>loneliness</em> to poor health.</li></ol>
+<hr>
+<h3 id="solitude">solitude<a class="hash" href="#solitude" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/ˈsɑːlətuːd/ &middot; <em>SAH-luh-tood</em></dd><dt>Русский</dt><dd>уединение</dd><dt>Countability</dt><dd>uncountable</dd></dl>
+<p>The state of being alone, usually by choice and welcome.</p>
+<ol><li>She drove to the cabin for a week of <em>solitude</em>.</li><li>He does his best writing in <em>solitude</em>.</li><li>There is a difference between <em>solitude</em> and loneliness.</li></ol>
+<hr>
+<h3 id="homesickness">homesickness<a class="hash" href="#homesickness" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/ˈhoʊmsɪknəs/ &middot; <em>HOHM-sik-nuhs</em></dd><dt>Русский</dt><dd>тоска по дому</dd><dt>Countability</dt><dd>uncountable</dd></dl>
+<p>Sadness caused by being away from home.</p>
+<ol><li><em>Homesickness</em> hit her the second week of camp.</li><li>He got over his <em>homesickness</em> by the holidays.</li><li>A phone call usually cures the worst of the <em>homesickness</em>.</li></ol>
+<hr>
+<h3 id="nostalgia">nostalgia<a class="hash" href="#nostalgia" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/nɑːˈstældʒə/ &middot; <em>nah-STAL-juh</em></dd><dt>Русский</dt><dd>ностальгия</dd><dt>Countability</dt><dd>uncountable</dd></dl>
+<p>A fond, slightly sad longing for the past.</p>
+<ol><li>The old theme song hit me with pure <em>nostalgia</em>.</li><li>There is a lot of <em>nostalgia</em> for the nineties right now.</li><li>He talks about that summer with obvious <em>nostalgia</em>.</li></ol>
+<hr>
+<h3 id="longing">longing<a class="hash" href="#longing" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/ˈlɔːŋɪŋ/ &middot; <em>LAWNG-ing</em></dd><dt>Русский</dt><dd>тоска, страстное желание</dd><dt>Plural</dt><dd><em>longings</em></dd><dt>Countability</dt><dd>countable</dd></dl>
+<p>A strong, aching wish for something.</p>
+<ol><li>She looked at the ocean with real <em>longing</em>.</li><li>There was <em>longing</em> in every letter he sent home.</li><li>He never quite lost his <em>longing</em> for the mountains.</li></ol>
+<hr>
+<h3 id="apathy">apathy<a class="hash" href="#apathy" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/ˈæpəθi/ &middot; <em>AP-uh-thee</em></dd><dt>Русский</dt><dd>апатия, безразличие</dd><dt>Countability</dt><dd>uncountable</dd></dl>
+<p>A lack of interest, energy, or concern.</p>
+<ol><li>Voter <em>apathy</em> was the story of the election.</li><li>He met the news with total <em>apathy</em>.</li><li>The team's <em>apathy</em> showed in the second half.</li></ol>
+<hr>
+<h3 id="indifference">indifference<a class="hash" href="#indifference" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/ɪnˈdɪfərəns/ &middot; <em>in-DIF-ur-uhns</em></dd><dt>Русский</dt><dd>безразличие, равнодушие</dd><dt>Countability</dt><dd>uncountable</dd></dl>
+<p>A complete lack of interest or care.</p>
+<ol><li>She shrugged with studied <em>indifference</em>.</li><li>Their <em>indifference</em> to the deadline was maddening.</li><li>The opposite of love is <em>indifference</em>, not hate.</li></ol>
+<hr>
+<h3 id="boredom">boredom<a class="hash" href="#boredom" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/ˈbɔːrdəm/ &middot; <em>BOR-duhm</em></dd><dt>Русский</dt><dd>скука</dd><dt>Countability</dt><dd>uncountable</dd></dl>
+<p>The dull feeling of having nothing interesting to do.</p>
+<ol><li>He learned to juggle out of pure <em>boredom</em>.</li><li>The <em>boredom</em> of a long layover is real.</li><li>Kids need a little <em>boredom</em> to get creative.</li></ol>
+<hr>
+<h3 id="melancholy">melancholy<a class="hash" href="#melancholy" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/ˈmelənkɑːli/ &middot; <em>MEL-uhn-kah-lee</em></dd><dt>Русский</dt><dd>меланхолия, грусть</dd><dt>Countability</dt><dd>uncountable</dd><dt>Contrast</dt><dd>The ch is /k/ and the stress lands on the first syllable: MEL-uhn-kah-lee.</dd></dl>
+<p>A soft, thoughtful sadness with no single cause.</p>
+<ol><li>November brings on a certain <em>melancholy</em>.</li><li>There is a beautiful <em>melancholy</em> in her paintings.</li><li>He fell into a <em>melancholy</em> that lasted all winter.</li></ol>
+<hr>
+<h3 id="rage">rage<a class="hash" href="#rage" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/reɪdʒ/ &middot; <em>RAYJ</em></dd><dt>Русский</dt><dd>ярость, бешенство</dd><dt>Countability</dt><dd>uncountable</dd></dl>
+<p>Violent, uncontrolled anger.</p>
+<ol><li>He punched the wall in a fit of <em>rage</em>.</li><li>Road <em>rage</em> is worse on that stretch of highway.</li><li>Her <em>rage</em> faded into something colder.</li></ol>
+<hr>
+<h3 id="fury">fury<a class="hash" href="#fury" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/ˈfjʊri/ &middot; <em>FYOOR-ee</em></dd><dt>Русский</dt><dd>ярость, неистовство</dd><dt>Countability</dt><dd>uncountable</dd></dl>
+<p>Wild, intense anger.</p>
+<ol><li>She turned on him with real <em>fury</em>.</li><li>The <em>fury</em> of the storm took out three blocks of power.</li><li>You could hear the <em>fury</em> in his voice.</li></ol>
+<hr>
+<h3 id="outrage">outrage<a class="hash" href="#outrage" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/ˈaʊtreɪdʒ/ &middot; <em>OWT-rayj</em></dd><dt>Русский</dt><dd>возмущение, негодование</dd><dt>Countability</dt><dd>uncountable</dd></dl>
+<p>Shocked anger at something unfair or offensive.</p>
+<ol><li>The price hike caused public <em>outrage</em>.</li><li>There was <em>outrage</em> online within an hour.</li><li>He expressed his <em>outrage</em> in a very long email.</li></ol>
+<hr>
+<h3 id="resentment">resentment<a class="hash" href="#resentment" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/rɪˈzentmənt/ &middot; <em>rih-ZENT-muhnt</em></dd><dt>Русский</dt><dd>обида, негодование</dd><dt>Countability</dt><dd>uncountable</dd></dl>
+<p>Slow-burning anger at being treated unfairly.</p>
+<ol><li>Years of <em>resentment</em> came out in one sentence.</li><li>There is some <em>resentment</em> toward the new hires.</li><li>He carried a quiet <em>resentment</em> about being passed over.</li></ol>
+<hr>
+<h3 id="bitterness">bitterness<a class="hash" href="#bitterness" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/ˈbɪtərnəs/ &middot; <em>BIT-ur-nuhs</em></dd><dt>Русский</dt><dd>озлобленность, горечь</dd><dt>Countability</dt><dd>uncountable</dd></dl>
+<p>Lasting anger and hurt about something unfair.</p>
+<ol><li>You can hear the <em>bitterness</em> when he talks about the divorce.</li><li>She said it without any <em>bitterness</em>.</li><li>The strike left a lot of <em>bitterness</em> behind.</li></ol>
+<hr>
+<h3 id="grudge">grudge<a class="hash" href="#grudge" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/ɡrʌdʒ/ &middot; <em>GRUJ</em></dd><dt>Русский</dt><dd>затаённая обида, зуб (на кого-то)</dd><dt>Plural</dt><dd><em>grudges</em></dd><dt>Countability</dt><dd>countable</dd></dl>
+<p>A lasting bad feeling about an old wrong.</p>
+<ol><li>She has held a <em>grudge</em> since ninth grade.</li><li>He is not the type to hold <em>grudges</em>.</li><li>That <em>grudge</em> is older than their kids.</li></ol>
+<hr>
+<h3 id="revenge">revenge<a class="hash" href="#revenge" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/rɪˈvendʒ/ &middot; <em>rih-VENJ</em></dd><dt>Русский</dt><dd>месть</dd><dt>Countability</dt><dd>uncountable</dd></dl>
+<p>Harm done to someone in return for harm they did.</p>
+<ol><li>He spent ten years plotting <em>revenge</em>.</li><li>The whole movie is about <em>revenge</em>.</li><li>She got her <em>revenge</em> by outselling him twice over.</li></ol>
+<hr>
+<h3 id="spite">spite<a class="hash" href="#spite" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/spaɪt/ &middot; <em>SPYT</em></dd><dt>Русский</dt><dd>злоба, злой умысел</dd><dt>Countability</dt><dd>uncountable</dd></dl>
+<p>A mean wish to hurt or annoy someone.</p>
+<ol><li>He mowed at 7 a.m. out of pure <em>spite</em>.</li><li>There was no <em>spite</em> in what she said.</li><li>The whole lawsuit smells of <em>spite</em>.</li></ol>
+<hr>
+<h3 id="disdain">disdain<a class="hash" href="#disdain" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/dɪsˈdeɪn/ &middot; <em>dis-DAYN</em></dd><dt>Русский</dt><dd>пренебрежение, презрение</dd><dt>Countability</dt><dd>uncountable</dd></dl>
+<p>Cool, superior dislike for something you think is beneath you.</p>
+<ol><li>She looked at the buffet with visible <em>disdain</em>.</li><li>He has a certain <em>disdain</em> for small talk.</li><li>The review was written with obvious <em>disdain</em>.</li></ol>
+<hr>
+<h3 id="disgust">disgust<a class="hash" href="#disgust" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/dɪsˈɡʌst/ &middot; <em>dis-GUST</em></dd><dt>Русский</dt><dd>отвращение, омерзение</dd><dt>Countability</dt><dd>uncountable</dd></dl>
+<p>Strong dislike at something sickening or offensive.</p>
+<ol><li>She wrinkled her nose in <em>disgust</em>.</li><li>He walked out of the meeting in <em>disgust</em>.</li><li>The smell alone was enough to cause <em>disgust</em>.</li></ol>
+<hr>
+<h3 id="loathing">loathing<a class="hash" href="#loathing" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/ˈloʊðɪŋ/ &middot; <em>LOH-thing</em></dd><dt>Русский</dt><dd>отвращение, ненависть</dd><dt>Countability</dt><dd>uncountable</dd><dt>Contrast</dt><dd>The th here is voiced /ð/, as in <em>this</em>, not the hissing th of <em>thing</em>.</dd></dl>
+<p>Very strong hatred and disgust.</p>
+<ol><li>He speaks of that job with genuine <em>loathing</em>.</li><li>Her <em>loathing</em> for airports is legendary.</li><li>There was pure <em>loathing</em> in that stare.</li></ol>
+<hr>
+<h3 id="hatred">hatred<a class="hash" href="#hatred" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/ˈheɪtrɪd/ &middot; <em>HAY-trid</em></dd><dt>Русский</dt><dd>ненависть</dd><dt>Countability</dt><dd>uncountable</dd><dt>Contrast</dt><dd>The vowel stays long as in <em>hate</em> — HAY-trid, not HAT-rid.</dd></dl>
+<p>Intense, lasting dislike.</p>
+<ol><li>The letter was full of <em>hatred</em>.</li><li><em>Hatred</em> like that does not come from nowhere.</li><li>He was raised without any <em>hatred</em> for anybody.</li></ol>
+<hr>
+<h3 id="dislike">dislike<a class="hash" href="#dislike" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/dɪsˈlaɪk/ &middot; <em>dis-LYK</em></dd><dt>Русский</dt><dd>неприязнь, нелюбовь</dd><dt>Plural</dt><dd><em>dislikes</em></dd><dt>Countability</dt><dd>countable</dd></dl>
+<p>A feeling of not liking something or someone.</p>
+<ol><li>He has a strong <em>dislike</em> of crowds.</li><li>Her likes and <em>dislikes</em> are pretty predictable.</li><li>There is a mutual <em>dislike</em> between those two.</li></ol>
+<hr>
+<h3 id="envy">envy<a class="hash" href="#envy" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/ˈenvi/ &middot; <em>EN-vee</em></dd><dt>Русский</dt><dd>зависть</dd><dt>Countability</dt><dd>uncountable</dd></dl>
+<p>An unhappy wish to have what someone else has.</p>
+<ol><li>Her new kitchen is the <em>envy</em> of the block.</li><li>He felt a stab of <em>envy</em> at the news.</li><li>There is no <em>envy</em> in the way she says it.</li></ol>
+<hr>
+<h3 id="jealousy">jealousy<a class="hash" href="#jealousy" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/ˈdʒeləsi/ &middot; <em>JEL-uh-see</em></dd><dt>Русский</dt><dd>ревность; зависть</dd><dt>Countability</dt><dd>uncountable</dd><dt>Contrast</dt><dd>The ea is short — JEL-uh-see, not JEE-luh-see.</dd></dl>
+<p>Fear of losing someone to a rival, or resentment of another's success.</p>
+<ol><li><em>Jealousy</em> ruined that friendship.</li><li>There was a flash of <em>jealousy</em> when he mentioned her ex.</li><li>Office <em>jealousy</em> over the promotion lasted months.</li></ol>
+<hr>
+<h3 id="greed">greed<a class="hash" href="#greed" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/ɡriːd/ &middot; <em>GREED</em></dd><dt>Русский</dt><dd>жадность, алчность</dd><dt>Countability</dt><dd>uncountable</dd></dl>
+<p>An excessive desire for more money, food, or power.</p>
+<ol><li>Plain <em>greed</em> brought the whole bank down.</li><li>He ate a fourth slice out of sheer <em>greed</em>.</li><li><em>Greed</em> is not a business plan.</li></ol>
+<hr>
+<h3 id="lust">lust<a class="hash" href="#lust" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/lʌst/ &middot; <em>LUST</em></dd><dt>Русский</dt><dd>похоть, вожделение</dd><dt>Countability</dt><dd>uncountable</dd></dl>
+<p>Strong sexual desire, or a craving for something.</p>
+<ol><li>The novel confuses love with <em>lust</em>.</li><li>His <em>lust</em> for power cost him his friends.</li><li>It was <em>lust</em>, and it lasted about six weeks.</li></ol>
+<hr>
+<h3 id="frustration">frustration<a class="hash" href="#frustration" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/frʌˈstreɪʃən/ &middot; <em>fruh-STRAY-shuhn</em></dd><dt>Русский</dt><dd>досада, разочарование</dd><dt>Plural</dt><dd><em>frustrations</em></dd><dt>Countability</dt><dd>countable</dd></dl>
+<p>Annoyance at being blocked from what you want.</p>
+<ol><li>He slammed the drawer in <em>frustration</em>.</li><li>The website is a constant source of <em>frustration</em>.</li><li>The daily <em>frustrations</em> of the job wore her down.</li></ol>
+<hr>
+<h3 id="irritation">irritation<a class="hash" href="#irritation" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/ˌɪrəˈteɪʃən/ &middot; <em>ir-uh-TAY-shuhn</em></dd><dt>Русский</dt><dd>раздражение</dd><dt>Countability</dt><dd>uncountable</dd></dl>
+<p>Mild anger at something bothersome.</p>
+<ol><li>He answered with barely hidden <em>irritation</em>.</li><li>The beeping caused real <em>irritation</em> by hour three.</li><li>There was a note of <em>irritation</em> in her reply.</li></ol>
+<hr>
+<h3 id="annoyance">annoyance<a class="hash" href="#annoyance" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/əˈnɔɪrns/ &middot; <em>uh-NOY-uhns</em></dd><dt>Русский</dt><dd>досада, раздражение</dd><dt>Plural</dt><dd><em>annoyances</em></dd><dt>Countability</dt><dd>countable</dd></dl>
+<p>Slight anger, or a thing that causes it.</p>
+<ol><li>To his <em>annoyance</em>, the store was closed.</li><li>The leaf blower is a minor <em>annoyance</em> every fall.</li><li>She listed her <em>annoyances</em> in alphabetical order.</li></ol>
+<hr>
+<h3 id="tantrum">tantrum<a class="hash" href="#tantrum" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/ˈtæntrəm/ &middot; <em>TAN-truhm</em></dd><dt>Русский</dt><dd>истерика, каприз</dd><dt>Plural</dt><dd><em>tantrums</em></dd><dt>Countability</dt><dd>countable</dd></dl>
+<p>A loud, childish outburst of anger.</p>
+<ol><li>The toddler threw a <em>tantrum</em> in aisle six.</li><li>He had a full <em>tantrum</em> over a parking spot.</li><li>Her <em>tantrums</em> usually end as fast as they start.</li></ol>
+<hr>
+<h3 id="outburst">outburst<a class="hash" href="#outburst" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/ˈaʊtbɜːrst/ &middot; <em>OWT-burst</em></dd><dt>Русский</dt><dd>вспышка (гнева, эмоций)</dd><dt>Plural</dt><dd><em>outbursts</em></dd><dt>Countability</dt><dd>countable</dd></dl>
+<p>A sudden release of strong emotion.</p>
+<ol><li>He apologized for his <em>outburst</em> the next morning.</li><li>The <em>outburst</em> got him thrown out of the meeting.</li><li>Her emotional <em>outbursts</em> were rare but memorable.</li></ol>
+<hr>
+<h3 id="meltdown">meltdown<a class="hash" href="#meltdown" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/ˈmeltdaʊn/ &middot; <em>MELT-down</em></dd><dt>Русский</dt><dd>срыв, истерика</dd><dt>Plural</dt><dd><em>meltdowns</em></dd><dt>Countability</dt><dd>countable</dd></dl>
+<p>A total loss of emotional control.</p>
+<ol><li>He had a <em>meltdown</em> twenty minutes before the flight.</li><li>She was one email away from a full <em>meltdown</em>.</li><li>Toddler <em>meltdowns</em> peak right around nap time.</li></ol>
+<hr>
+<h3 id="breakdown">breakdown<a class="hash" href="#breakdown" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/ˈbreɪkdaʊn/ &middot; <em>BRAYK-down</em></dd><dt>Русский</dt><dd>нервный срыв</dd><dt>Plural</dt><dd><em>breakdowns</em></dd><dt>Countability</dt><dd>countable</dd></dl>
+<p>A collapse of a person's mental health under stress.</p>
+<ol><li>He had a <em>breakdown</em> his second year of residency.</li><li>She was headed for a <em>breakdown</em> and everyone saw it.</li><li>Two <em>breakdowns</em> in one department is a warning sign.</li></ol>
+<hr>
+<h3 id="terror">terror<a class="hash" href="#terror" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/ˈterər/ &middot; <em>TEH-rur</em></dd><dt>Русский</dt><dd>ужас, страх</dd><dt>Countability</dt><dd>uncountable</dd></dl>
+<p>Extreme, overwhelming fear.</p>
+<ol><li>She froze in <em>terror</em> when the lights went out.</li><li>The dog runs from thunder in sheer <em>terror</em>.</li><li>There was real <em>terror</em> in his voice on the call.</li></ol>
+<hr>
+<h3 id="horror">horror<a class="hash" href="#horror" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/ˈhɔːrər/ &middot; <em>HOR-ur</em></dd><dt>Русский</dt><dd>ужас (от увиденного)</dd><dt>Plural</dt><dd><em>horrors</em></dd><dt>Countability</dt><dd>countable</dd></dl>
+<p>Shocked fear and disgust at something awful.</p>
+<ol><li>To my <em>horror</em>, the file was gone.</li><li>She watched in <em>horror</em> as the shelf came down.</li><li>He described the <em>horrors</em> of that winter.</li></ol>
+<hr>
+<h3 id="dread">dread<a class="hash" href="#dread" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/dred/ &middot; <em>DRED</em></dd><dt>Русский</dt><dd>страх, ужас (перед чем-то предстоящим)</dd><dt>Countability</dt><dd>uncountable</dd><dt>Contrast</dt><dd>The ea is short — DRED rhymes with <em>bed</em>, not with <em>bead</em>.</dd></dl>
+<p>Heavy fear of something that is coming.</p>
+<ol><li>He felt a growing <em>dread</em> as Monday got closer.</li><li>There is a certain <em>dread</em> to opening a tax envelope.</li><li>She woke with a sense of <em>dread</em> she could not explain.</li></ol>
+<hr>
+<h3 id="fright">fright<a class="hash" href="#fright" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/fraɪt/ &middot; <em>FRYT</em></dd><dt>Русский</dt><dd>испуг</dd><dt>Plural</dt><dd><em>frights</em></dd><dt>Countability</dt><dd>countable</dd><dt>Contrast</dt><dd>The gh is silent — FRYT rhymes with <em>night</em>.</dd></dl>
+<p>A sudden sharp fear.</p>
+<ol><li>The backfire gave me a real <em>fright</em>.</li><li>She got the <em>fright</em> of her life on that trail.</li><li>He recovered from the <em>fright</em> pretty quickly.</li></ol>
+<hr>
+<h3 id="panic">panic<a class="hash" href="#panic" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/ˈpænɪk/ &middot; <em>PAN-ik</em></dd><dt>Русский</dt><dd>паника</dd><dt>Countability</dt><dd>uncountable</dd></dl>
+<p>Sudden fear that stops clear thinking.</p>
+<ol><li><em>Panic</em> spread through the crowd.</li><li>He felt a flash of <em>panic</em> when the engine died.</li><li>Do not let <em>panic</em> make the decision for you.</li></ol>
+<hr>
+<h3 id="worry">worry<a class="hash" href="#worry" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/ˈwɜːri/ &middot; <em>WUR-ee</em></dd><dt>Русский</dt><dd>беспокойство, тревога</dd><dt>Plural</dt><dd><em>worries</em></dd><dt>Countability</dt><dd>countable</dd><dt>Contrast</dt><dd>The o has the vowel of <em>hurry</em> — WUR-ee, not WOR-ee.</dd></dl>
+<p>Anxious thinking about a possible problem.</p>
+<ol><li>Money is his biggest <em>worry</em> right now.</li><li>She has enough <em>worries</em> without this.</li><li>Try not to let <em>worry</em> keep you up.</li></ol>
+<hr>
+<h3 id="concern">concern<a class="hash" href="#concern" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/kənˈsɜːrn/ &middot; <em>kuhn-SURN</em></dd><dt>Русский</dt><dd>беспокойство, озабоченность</dd><dt>Plural</dt><dd><em>concerns</em></dd><dt>Countability</dt><dd>countable</dd></dl>
+<p>Worry about something important.</p>
+<ol><li>Safety is our main <em>concern</em>.</li><li>Parents raised <em>concerns</em> about the schedule.</li><li>There is growing <em>concern</em> about the water supply.</li></ol>
+<hr>
+<h3 id="nervousness">nervousness<a class="hash" href="#nervousness" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/ˈnɜːrvəsnəs/ &middot; <em>NUR-vuhs-nuhs</em></dd><dt>Русский</dt><dd>нервозность, волнение</dd><dt>Countability</dt><dd>uncountable</dd></dl>
+<p>A jumpy, uneasy feeling before something.</p>
+<ol><li>His <em>nervousness</em> showed in the first minute.</li><li>A little <em>nervousness</em> before a show is normal.</li><li>She hid her <em>nervousness</em> behind a joke.</li></ol>
+<hr>
+<h3 id="suspense">suspense<a class="hash" href="#suspense" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/səˈspens/ &middot; <em>suh-SPENS</em></dd><dt>Русский</dt><dd>напряжённое ожидание, тревожное неведение</dd><dt>Countability</dt><dd>uncountable</dd></dl>
+<p>Anxious excitement about how something will turn out.</p>
+<ol><li>Do not keep me in <em>suspense</em>.</li><li>The last chapter is all <em>suspense</em>.</li><li>The <em>suspense</em> before the results was brutal.</li></ol>
+<hr>
+<h3 id="anticipation">anticipation<a class="hash" href="#anticipation" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/ænˌtɪsəˈpeɪʃən/ &middot; <em>an-tis-uh-PAY-shuhn</em></dd><dt>Русский</dt><dd>предвкушение, ожидание</dd><dt>Countability</dt><dd>uncountable</dd></dl>
+<p>The feeling of looking forward to something.</p>
+<ol><li>The crowd buzzed with <em>anticipation</em>.</li><li>She packed a week early out of pure <em>anticipation</em>.</li><li>There is a lot of <em>anticipation</em> around the new album.</li></ol>
+<hr>
+<h3 id="paranoia">paranoia<a class="hash" href="#paranoia" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/ˌpærəˈnɔɪr/ &middot; <em>par-uh-NOY-uh</em></dd><dt>Русский</dt><dd>паранойя</dd><dt>Countability</dt><dd>uncountable</dd></dl>
+<p>Unfounded belief that others mean you harm.</p>
+<ol><li>A little <em>paranoia</em> set in after the break-in.</li><li>That is not caution, that is <em>paranoia</em>.</li><li>The whole office runs on <em>paranoia</em> and cold coffee.</li></ol>
+<hr>
+<h3 id="suspicion">suspicion<a class="hash" href="#suspicion" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/səˈspɪʃən/ &middot; <em>suh-SPISH-uhn</em></dd><dt>Русский</dt><dd>подозрение</dd><dt>Plural</dt><dd><em>suspicions</em></dd><dt>Countability</dt><dd>countable</dd></dl>
+<p>A belief that something is wrong, without full proof.</p>
+<ol><li>I have a <em>suspicion</em> he already knew.</li><li>Her <em>suspicions</em> turned out to be right.</li><li>He was arrested on <em>suspicion</em> of fraud.</li></ol>
+<hr>
+<h3 id="distrust">distrust<a class="hash" href="#distrust" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/dɪsˈtrʌst/ &middot; <em>dis-TRUST</em></dd><dt>Русский</dt><dd>недоверие</dd><dt>Countability</dt><dd>uncountable</dd></dl>
+<p>A lack of confidence in someone's honesty.</p>
+<ol><li>There is deep <em>distrust</em> between the two sides.</li><li>He has an instinctive <em>distrust</em> of salespeople.</li><li>Years of broken promises bred <em>distrust</em>.</li></ol>
+<hr>
+<h3 id="insecurity">insecurity<a class="hash" href="#insecurity" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/ˌɪnsɪˈkjʊrəti/ &middot; <em>in-sih-KYOOR-uh-tee</em></dd><dt>Русский</dt><dd>неуверенность в себе, комплекс</dd><dt>Plural</dt><dd><em>insecurities</em></dd><dt>Countability</dt><dd>countable</dd></dl>
+<p>A lack of confidence about yourself.</p>
+<ol><li>His <em>insecurity</em> comes out as bragging.</li><li>Everyone has <em>insecurities</em>; his are just loud.</li><li>The comment hit an old <em>insecurity</em>.</li></ol>
+<hr>
+<h3 id="self-esteem">self-esteem<a class="hash" href="#self-esteem" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/ˌself ɪˈstiːm/ &middot; <em>self-ih-STEEM</em></dd><dt>Русский</dt><dd>самооценка</dd><dt>Countability</dt><dd>uncountable</dd></dl>
+<p>How much value a person places on himself or herself.</p>
+<ol><li>Her <em>self-esteem</em> took a hit after the layoff.</li><li>Sports helped his <em>self-esteem</em> more than anything.</li><li>Low <em>self-esteem</em> shows up in odd ways.</li></ol>
+<hr>
+<h3 id="shyness">shyness<a class="hash" href="#shyness" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/ˈʃaɪnəs/ &middot; <em>SHY-nuhs</em></dd><dt>Русский</dt><dd>застенчивость, робость</dd><dt>Countability</dt><dd>uncountable</dd></dl>
+<p>Discomfort around other people.</p>
+<ol><li>He grew out of his <em>shyness</em> in college.</li><li>Her <em>shyness</em> disappears once she is on stage.</li><li>Do not mistake <em>shyness</em> for rudeness.</li></ol>
+<hr>
+<h3 id="embarrassment">embarrassment<a class="hash" href="#embarrassment" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/ɪmˈberəsmənt/ &middot; <em>im-BEH-ruhs-muhnt</em></dd><dt>Русский</dt><dd>смущение, неловкость</dd><dt>Countability</dt><dd>uncountable</dd><dt>Contrast</dt><dd>Spelled with double r and double s — em-b-a-r-r-a-s-s-ment.</dd></dl>
+<p>The uncomfortable feeling of looking foolish.</p>
+<ol><li>He turned red with <em>embarrassment</em>.</li><li>To her <em>embarrassment</em>, the mic was still on.</li><li>The typo caused some <em>embarrassment</em> upstairs.</li></ol>
+<hr>
+<h3 id="humiliation">humiliation<a class="hash" href="#humiliation" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/hjuːˌmɪliˈeɪʃən/ &middot; <em>hyoo-mil-ee-AY-shuhn</em></dd><dt>Русский</dt><dd>унижение</dd><dt>Countability</dt><dd>uncountable</dd></dl>
+<p>The painful loss of dignity in front of others.</p>
+<ol><li>Losing 40 to nothing was pure <em>humiliation</em>.</li><li>He never forgot the <em>humiliation</em> of being called out in class.</li><li>The apology only added to the <em>humiliation</em>.</li></ol>
+<hr>
+<h3 id="disgrace">disgrace<a class="hash" href="#disgrace" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/dɪsˈɡreɪs/ &middot; <em>dis-GRAYS</em></dd><dt>Русский</dt><dd>позор, бесчестье</dd><dt>Countability</dt><dd>uncountable</dd></dl>
+<p>Loss of respect because of something shameful.</p>
+<ol><li>He resigned in <em>disgrace</em>.</li><li>The condition of that park is a <em>disgrace</em>.</li><li>She brought no <em>disgrace</em> on the family.</li></ol>
+<hr>
+<h3 id="regret">regret<a class="hash" href="#regret" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/rɪˈɡret/ &middot; <em>rih-GRET</em></dd><dt>Русский</dt><dd>сожаление</dd><dt>Plural</dt><dd><em>regrets</em></dd><dt>Countability</dt><dd>countable</dd></dl>
+<p>Sadness about something you did or failed to do.</p>
+<ol><li>My only <em>regret</em> is not starting sooner.</li><li>He lives with no <em>regrets</em>, or so he says.</li><li>She turned down the offer with genuine <em>regret</em>.</li></ol>
+<hr>
+<h3 id="remorse">remorse<a class="hash" href="#remorse" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/rɪˈmɔːrs/ &middot; <em>rih-MORS</em></dd><dt>Русский</dt><dd>раскаяние, угрызения совести</dd><dt>Countability</dt><dd>uncountable</dd></dl>
+<p>Deep guilt about a wrong you did.</p>
+<ol><li>He showed no <em>remorse</em> in the courtroom.</li><li>She was full of <em>remorse</em> by morning.</li><li>A flicker of <em>remorse</em> crossed his face.</li></ol>
+<hr>
+<h3 id="surprise">surprise<a class="hash" href="#surprise" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/sərˈpraɪz/ &middot; <em>sur-PRYZ</em></dd><dt>Русский</dt><dd>удивление; сюрприз</dd><dt>Plural</dt><dd><em>surprises</em></dd><dt>Countability</dt><dd>countable</dd></dl>
+<p>Something unexpected, or the feeling it causes.</p>
+<ol><li>The party was a complete <em>surprise</em>.</li><li>To my <em>surprise</em>, he said yes.</li><li>This job is full of small <em>surprises</em>.</li></ol>
+<hr>
+<h3 id="shock">shock<a class="hash" href="#shock" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/ʃɑːk/ &middot; <em>SHAHK</em></dd><dt>Русский</dt><dd>потрясение, шок</dd><dt>Plural</dt><dd><em>shocks</em></dd><dt>Countability</dt><dd>countable</dd></dl>
+<p>A sudden upsetting surprise.</p>
+<ol><li>The news came as a <em>shock</em> to everyone.</li><li>She was still in <em>shock</em> an hour later.</li><li>The bill was a nasty <em>shock</em>.</li></ol>
+<hr>
+<h3 id="amazement">amazement<a class="hash" href="#amazement" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/əˈmeɪzmənt/ &middot; <em>uh-MAYZ-muhnt</em></dd><dt>Русский</dt><dd>изумление</dd><dt>Countability</dt><dd>uncountable</dd></dl>
+<p>Great surprise and wonder.</p>
+<ol><li>He stared in <em>amazement</em> at the size of it.</li><li>To our <em>amazement</em>, the old truck started.</li><li>There was <em>amazement</em> on every face in the room.</li></ol>
+<hr>
+<h3 id="wonder">wonder<a class="hash" href="#wonder" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/ˈwʌndər/ &middot; <em>WUN-dur</em></dd><dt>Русский</dt><dd>изумление, восхищение</dd><dt>Countability</dt><dd>uncountable</dd></dl>
+<p>Awed surprise at something beautiful or strange.</p>
+<ol><li>The kids looked up at the ceiling in <em>wonder</em>.</li><li>There is a sense of <em>wonder</em> in her early poems.</li><li>He never lost his <em>wonder</em> at how planes stay up.</li></ol>
+<hr>
+<h3 id="awe">awe<a class="hash" href="#awe" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/ɔː/ &middot; <em>AW</em></dd><dt>Русский</dt><dd>благоговение, трепет</dd><dt>Countability</dt><dd>uncountable</dd></dl>
+<p>Deep respect mixed with a little fear.</p>
+<ol><li>They stood in <em>awe</em> at the edge of the canyon.</li><li>He speaks about his grandmother with real <em>awe</em>.</li><li>The scale of it inspires <em>awe</em>.</li></ol>
+<hr>
+<h3 id="curiosity">curiosity<a class="hash" href="#curiosity" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/ˌkjʊriˈɑːsəti/ &middot; <em>kyoor-ee-AH-suh-tee</em></dd><dt>Русский</dt><dd>любопытство</dd><dt>Countability</dt><dd>uncountable</dd></dl>
+<p>The wish to know or learn something.</p>
+<ol><li><em>Curiosity</em> got the better of me and I opened it.</li><li>She asked out of simple <em>curiosity</em>.</li><li>Good scientists run on <em>curiosity</em>.</li></ol>
+<hr>
+<h3 id="fascination">fascination<a class="hash" href="#fascination" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/ˌfæsəˈneɪʃən/ &middot; <em>fas-uh-NAY-shuhn</em></dd><dt>Русский</dt><dd>увлечённость, зачарованность</dd><dt>Countability</dt><dd>uncountable</dd></dl>
+<p>A strong, absorbed interest.</p>
+<ol><li>He has a lifelong <em>fascination</em> with trains.</li><li>The city holds a strange <em>fascination</em> for her.</li><li>There is a public <em>fascination</em> with true crime.</li></ol>
+<hr>
+<h3 id="obsession">obsession<a class="hash" href="#obsession" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/əbˈseʃən/ &middot; <em>uhb-SESH-uhn</em></dd><dt>Русский</dt><dd>навязчивая идея, одержимость</dd><dt>Plural</dt><dd><em>obsessions</em></dd><dt>Countability</dt><dd>countable</dd></dl>
+<p>A thought or interest you cannot let go of.</p>
+<ol><li>Sourdough became a full <em>obsession</em> that year.</li><li>His <em>obsession</em> with the case cost him his marriage.</li><li>Her <em>obsessions</em> change every few months.</li></ol>
+<hr>
+<h3 id="passion">passion<a class="hash" href="#passion" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/ˈpæʃən/ &middot; <em>PASH-uhn</em></dd><dt>Русский</dt><dd>страсть; сильное увлечение</dd><dt>Plural</dt><dd><em>passions</em></dd><dt>Countability</dt><dd>both — countable and uncountable with different meanings</dd></dl>
+<p>Intense emotion, or a strong interest you love.</p>
+<ol><li>He argued his case with real <em>passion</em>.</li><li>Cooking is her greatest <em>passion</em>.</li><li>The debate stirred up old <em>passions</em>.</li></ol>
+<hr>
+<h3 id="enthusiasm">enthusiasm<a class="hash" href="#enthusiasm" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/ɪnˈθuːziæzəm/ &middot; <em>in-THOO-zee-az-uhm</em></dd><dt>Русский</dt><dd>энтузиазм</dd><dt>Countability</dt><dd>uncountable</dd></dl>
+<p>Eager, energetic interest.</p>
+<ol><li>She took on the project with real <em>enthusiasm</em>.</li><li>His <em>enthusiasm</em> is contagious.</li><li>The plan was met with zero <em>enthusiasm</em>.</li></ol>
+<hr>
+<h3 id="excitement">excitement<a class="hash" href="#excitement" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/ɪkˈsaɪtmənt/ &middot; <em>ik-SYT-muhnt</em></dd><dt>Русский</dt><dd>волнение, воодушевление</dd><dt>Countability</dt><dd>uncountable</dd></dl>
+<p>A lively, happy stirred-up feeling.</p>
+<ol><li>There was a lot of <em>excitement</em> about the new store.</li><li>She could barely sleep from <em>excitement</em>.</li><li>The <em>excitement</em> died down after a week.</li></ol>
+<hr>
+<h3 id="thrill">thrill<a class="hash" href="#thrill" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/θrɪl/ &middot; <em>THRIL</em></dd><dt>Русский</dt><dd>острые ощущения, трепет</dd><dt>Plural</dt><dd><em>thrills</em></dd><dt>Countability</dt><dd>countable</dd></dl>
+<p>A sudden rush of excitement.</p>
+<ol><li>It was a <em>thrill</em> to meet her in person.</li><li>He rides for the <em>thrill</em>, not the exercise.</li><li>The movie is short on plot and long on cheap <em>thrills</em>.</li></ol>
+<hr>
+<h3 id="desire">desire<a class="hash" href="#desire" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/dɪˈzaɪrr/ &middot; <em>dih-ZY-ur</em></dd><dt>Русский</dt><dd>желание, стремление</dd><dt>Plural</dt><dd><em>desires</em></dd><dt>Countability</dt><dd>countable</dd></dl>
+<p>A strong wish for something.</p>
+<ol><li>He had no <em>desire</em> to go back.</li><li>Her <em>desire</em> to travel started with a library book.</li><li>The survey asked about needs and <em>desires</em>.</li></ol>
+<hr>
+<h3 id="craving">craving<a class="hash" href="#craving" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/ˈkreɪvɪŋ/ &middot; <em>KRAY-ving</em></dd><dt>Русский</dt><dd>сильное желание, тяга</dd><dt>Plural</dt><dd><em>cravings</em></dd><dt>Countability</dt><dd>countable</dd></dl>
+<p>A strong physical or emotional hunger for something.</p>
+<ol><li>She had a <em>craving</em> for salty snacks all week.</li><li>Quitting brought on <em>cravings</em> every afternoon.</li><li>There is nothing like a late-night <em>craving</em> for tacos.</li></ol>
+<hr>
+<h3 id="urge">urge<a class="hash" href="#urge" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/ɜːrdʒ/ &middot; <em>URJ</em></dd><dt>Русский</dt><dd>порыв, побуждение</dd><dt>Plural</dt><dd><em>urges</em></dd><dt>Countability</dt><dd>countable</dd></dl>
+<p>A sudden strong impulse to do something.</p>
+<ol><li>I had to fight the <em>urge</em> to laugh.</li><li>He gave in to the <em>urge</em> and bought the guitar.</li><li>The <em>urge</em> to check your phone is designed in.</li></ol>
+<hr>
+<h3 id="impulse">impulse<a class="hash" href="#impulse" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/ˈɪmpʌls/ &middot; <em>IM-puls</em></dd><dt>Русский</dt><dd>порыв, импульс</dd><dt>Plural</dt><dd><em>impulses</em></dd><dt>Countability</dt><dd>countable</dd></dl>
+<p>A sudden push to act without thinking.</p>
+<ol><li>She quit on an <em>impulse</em> and never looked back.</li><li>He fought the <em>impulse</em> to hit send.</li><li>Stores are built around <em>impulse</em> buys.</li></ol>
+<hr>
+<h3 id="temper">temper<a class="hash" href="#temper" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/ˈtempər/ &middot; <em>TEM-pur</em></dd><dt>Русский</dt><dd>нрав; вспыльчивость</dd><dt>Plural</dt><dd><em>tempers</em></dd><dt>Countability</dt><dd>countable</dd></dl>
+<p>Someone's tendency to get angry, or their current mood.</p>
+<ol><li>He has a terrible <em>temper</em>.</li><li><em>Tempers</em> got short in the last mile.</li><li>She lost her <em>temper</em> for the first time all year.</li></ol>
+<hr>
+<h3 id="mood">mood<a class="hash" href="#mood" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/muːd/ &middot; <em>MOOD</em></dd><dt>Русский</dt><dd>настроение</dd><dt>Plural</dt><dd><em>moods</em></dd><dt>Countability</dt><dd>countable</dd></dl>
+<p>The way someone feels at a particular time.</p>
+<ol><li>He is in a good <em>mood</em> this morning.</li><li>Her <em>moods</em> swing with the weather.</li><li>I am not in the <em>mood</em> for a long drive.</li></ol>
+<hr>
+<h3 id="feeling">feeling<a class="hash" href="#feeling" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/ˈfiːlɪŋ/ &middot; <em>FEE-ling</em></dd><dt>Русский</dt><dd>чувство, ощущение</dd><dt>Plural</dt><dd><em>feelings</em></dd><dt>Countability</dt><dd>countable</dd></dl>
+<p>An emotion, or an inner sense about something.</p>
+<ol><li>I have a <em>feeling</em> this is going to work.</li><li>You hurt his <em>feelings</em> with that joke.</li><li>There is a warm <em>feeling</em> in that house.</li></ol>
+<hr>
+<h3 id="emotion">emotion<a class="hash" href="#emotion" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/ɪˈmoʊʃən/ &middot; <em>ih-MOH-shuhn</em></dd><dt>Русский</dt><dd>эмоция, чувство</dd><dt>Plural</dt><dd><em>emotions</em></dd><dt>Countability</dt><dd>countable</dd></dl>
+<p>A strong feeling such as love, anger, or fear.</p>
+<ol><li>He spoke with visible <em>emotion</em>.</li><li><em>Emotions</em> were running high at the meeting.</li><li>She keeps her <em>emotions</em> to herself.</li></ol>
+<hr>
+<h3 id="sentiment">sentiment<a class="hash" href="#sentiment" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/ˈsentəmənt/ &middot; <em>SEN-tuh-muhnt</em></dd><dt>Русский</dt><dd>чувство, настроение (мнение)</dd><dt>Plural</dt><dd><em>sentiments</em></dd><dt>Countability</dt><dd>countable</dd></dl>
+<p>An opinion colored by feeling.</p>
+<ol><li>Public <em>sentiment</em> has shifted since spring.</li><li>It was a nice <em>sentiment</em>, badly worded.</li><li>I share your <em>sentiments</em> exactly.</li></ol>
+<hr>
+<h3 id="attitude">attitude<a class="hash" href="#attitude" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/ˈætətuːd/ &middot; <em>AT-uh-tood</em></dd><dt>Русский</dt><dd>отношение, настрой</dd><dt>Plural</dt><dd><em>attitudes</em></dd><dt>Countability</dt><dd>countable</dd></dl>
+<p>The way someone thinks and feels about something, shown in behavior.</p>
+<ol><li>He came in with a bad <em>attitude</em>.</li><li>Her <em>attitude</em> toward the whole thing has softened.</li><li><em>Attitudes</em> about remote work changed fast.</li></ol>
+<hr>
+<h3 id="sensitivity">sensitivity<a class="hash" href="#sensitivity" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/ˌsensəˈtɪvəti/ &middot; <em>sen-suh-TIV-uh-tee</em></dd><dt>Русский</dt><dd>чувствительность, ранимость</dd><dt>Countability</dt><dd>uncountable</dd></dl>
+<p>The tendency to feel things deeply or to be easily hurt.</p>
+<ol><li>He handled the topic with real <em>sensitivity</em>.</li><li>Her <em>sensitivity</em> to criticism has gotten better.</li><li>The job calls for a certain <em>sensitivity</em>.</li></ol>
+<hr>
+<h3 id="vulnerability">vulnerability<a class="hash" href="#vulnerability" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/ˌvʌlnərəˈbɪləti/ &middot; <em>vul-nuh-ruh-BIL-uh-tee</em></dd><dt>Русский</dt><dd>уязвимость, ранимость</dd><dt>Countability</dt><dd>uncountable</dd></dl>
+<p>Openness to being hurt emotionally.</p>
+<ol><li>The song's power comes from its <em>vulnerability</em>.</li><li>He showed a <em>vulnerability</em> nobody expected.</li><li>There is strength in <em>vulnerability</em>.</li></ol>
+<hr>
+<h3 id="reluctance">reluctance<a class="hash" href="#reluctance" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/rɪˈlʌktəns/ &middot; <em>rih-LUK-tuhns</em></dd><dt>Русский</dt><dd>нежелание, неохота</dd><dt>Countability</dt><dd>uncountable</dd></dl>
+<p>Unwillingness to do something.</p>
+<ol><li>He agreed with obvious <em>reluctance</em>.</li><li>There is some <em>reluctance</em> to change the schedule.</li><li>Her <em>reluctance</em> had nothing to do with money.</li></ol>
+<hr>
+<h3 id="hesitation">hesitation<a class="hash" href="#hesitation" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/ˌhezəˈteɪʃən/ &middot; <em>hez-uh-TAY-shuhn</em></dd><dt>Русский</dt><dd>колебание, нерешительность</dd><dt>Countability</dt><dd>uncountable</dd></dl>
+<p>A pause caused by doubt.</p>
+<ol><li>She said yes without <em>hesitation</em>.</li><li>There was a slight <em>hesitation</em> before he answered.</li><li>His <em>hesitation</em> told me everything.</li></ol>
+<hr>
+<h3 id="uncertainty">uncertainty<a class="hash" href="#uncertainty" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/ʌnˈsɜːrtənti/ &middot; <em>un-SUR-tuhn-tee</em></dd><dt>Русский</dt><dd>неопределённость, неуверенность</dd><dt>Plural</dt><dd><em>uncertainties</em></dd><dt>Countability</dt><dd>countable</dd></dl>
+<p>The state of not knowing what will happen.</p>
+<ol><li>The <em>uncertainty</em> is the hardest part.</li><li>There is a lot of <em>uncertainty</em> around funding.</li><li>Every startup lives with these <em>uncertainties</em>.</li></ol>
+<hr>
+<h3 id="confusion">confusion<a class="hash" href="#confusion" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/kənˈfjuːʒən/ &middot; <em>kuhn-FYOO-zhuhn</em></dd><dt>Русский</dt><dd>замешательство, путаница</dd><dt>Countability</dt><dd>uncountable</dd></dl>
+<p>A state of not understanding what is happening.</p>
+<ol><li>There was some <em>confusion</em> about the start time.</li><li>He blinked in <em>confusion</em> at the question.</li><li>The new forms caused nothing but <em>confusion</em>.</li></ol>
+<hr>
+<h3 id="intuition">intuition<a class="hash" href="#intuition" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/ˌɪntuˈɪʃən/ &middot; <em>in-too-ISH-uhn</em></dd><dt>Русский</dt><dd>интуиция</dd><dt>Countability</dt><dd>uncountable</dd></dl>
+<p>Knowing something without being able to explain how.</p>
+<ol><li>Trust your <em>intuition</em> on this one.</li><li>Her <em>intuition</em> about people is uncanny.</li><li>Good design is part training and part <em>intuition</em>.</li></ol>
+<hr>
+<h3 id="instinct">instinct<a class="hash" href="#instinct" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/ˈɪnstɪŋkt/ &middot; <em>IN-stingkt</em></dd><dt>Русский</dt><dd>инстинкт, чутьё</dd><dt>Plural</dt><dd><em>instincts</em></dd><dt>Countability</dt><dd>countable</dd></dl>
+<p>A natural, unlearned way of feeling or acting.</p>
+<ol><li>My first <em>instinct</em> was to run.</li><li>She has good <em>instincts</em> about hiring.</li><li>Birds build nests by <em>instinct</em>.</li></ol>
+<hr>
+<h3 id="hunch">hunch<a class="hash" href="#hunch" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/hʌntʃ/ &middot; <em>HUNCH</em></dd><dt>Русский</dt><dd>предчувствие, догадка</dd><dt>Plural</dt><dd><em>hunches</em></dd><dt>Countability</dt><dd>countable</dd></dl>
+<p>A feeling that something is true, based on no hard evidence.</p>
+<ol><li>I have a <em>hunch</em> the flight will be delayed.</li><li>His <em>hunch</em> paid off.</li><li>Detectives cannot arrest people on <em>hunches</em>.</li></ol>
+<hr>
+<h3 id="preference">preference<a class="hash" href="#preference" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/ˈprefərəns/ &middot; <em>PREF-ur-uhns</em></dd><dt>Русский</dt><dd>предпочтение</dd><dt>Plural</dt><dd><em>preferences</em></dd><dt>Countability</dt><dd>countable</dd></dl>
+<p>A liking for one thing over another.</p>
+<ol><li>I have no <em>preference</em> between the two.</li><li>Her <em>preference</em> is to fly out early.</li><li>Update your notification <em>preferences</em> in the app.</li></ol>
+<hr>
+<h3 id="pang">pang<a class="hash" href="#pang" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/pæŋ/ &middot; <em>PANG</em></dd><dt>Русский</dt><dd>приступ, укол (чувства)</dd><dt>Plural</dt><dd><em>pangs</em></dd><dt>Countability</dt><dd>countable</dd></dl>
+<p>A short, sharp burst of feeling or pain.</p>
+<ol><li>She felt a <em>pang</em> of guilt about lying.</li><li>A <em>pang</em> of hunger hit around three.</li><li>There were <em>pangs</em> of homesickness that first month.</li></ol>
+<hr>
+<h3 id="discomfort">discomfort<a class="hash" href="#discomfort" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/dɪsˈkʌmfərt/ &middot; <em>dis-KUM-furt</em></dd><dt>Русский</dt><dd>дискомфорт, неловкость</dd><dt>Countability</dt><dd>uncountable</dd></dl>
+<p>Mild physical or emotional unease.</p>
+<ol><li>He shifted in his seat in <em>discomfort</em>.</li><li>There is some <em>discomfort</em> about discussing salaries.</li><li>The pill takes the <em>discomfort</em> down a notch.</li></ol>
+<hr>
+<h3 id="hysteria">hysteria<a class="hash" href="#hysteria" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/hɪˈstɪriə/ &middot; <em>hih-STEER-ee-uh</em></dd><dt>Русский</dt><dd>истерия, паника</dd><dt>Countability</dt><dd>uncountable</dd></dl>
+<p>Wild, uncontrolled emotion, often in a group.</p>
+<ol><li>Media <em>hysteria</em> made the story bigger than it was.</li><li>There was mild <em>hysteria</em> in the checkout line.</li><li>Do not let <em>hysteria</em> drive policy.</li></ol>
+<hr>
+<h3 id="jitters">jitters<a class="hash" href="#jitters" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/ˈdʒɪtərz/ &middot; <em>JIT-urz</em></dd><dt>Русский</dt><dd>мандраж, нервная дрожь</dd><dt>Plural</dt><dd><em>jitters</em></dd><dt>Countability</dt><dd>countable</dd><dt>Contrast</dt><dd>Used only in the plural, and almost always with <em>the</em>: <strong>the jitters</strong>.</dd></dl>
+<p>A nervous, shaky feeling before something.</p>
+<ol><li>He always gets the <em>jitters</em> before a flight.</li><li>Opening-night <em>jitters</em> are normal.</li><li>Too much coffee gives me the <em>jitters</em>.</li></ol>
+<hr>
+<h3 id="goosebumps">goosebumps<a class="hash" href="#goosebumps" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/ˈɡuːsbʌmps/ &middot; <em>GOOS-bumps</em></dd><dt>Русский</dt><dd>мурашки, гусиная кожа</dd><dt>Plural</dt><dd><em>goosebumps</em></dd><dt>Countability</dt><dd>countable</dd><dt>Contrast</dt><dd>American English says <em>goosebumps</em>; British English usually says <em>goose pimples</em>. Always plural.</dd></dl>
+<p>The small bumps on your skin from cold or strong emotion.</p>
+<ol><li>That harmony gives me <em>goosebumps</em> every time.</li><li>She had <em>goosebumps</em> the whole last verse.</li><li>Cold water and good music both cause <em>goosebumps</em>.</li></ol>
+<hr>
+<h3 id="crush">crush<a class="hash" href="#crush" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/krʌʃ/ &middot; <em>KRUSH</em></dd><dt>Русский</dt><dd>влюблённость, увлечение</dd><dt>Plural</dt><dd><em>crushes</em></dd><dt>Countability</dt><dd>countable</dd></dl>
+<p>A short-lived romantic attraction, or the person you feel it for.</p>
+<ol><li>She had a <em>crush</em> on her lab partner all semester.</li><li>It was just a <em>crush</em>, not a relationship.</li><li>Middle school <em>crushes</em> rarely survive the summer.</li></ol>
+<hr>
+<h3 id="exhaustion">exhaustion<a class="hash" href="#exhaustion" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/ɪɡˈzɔːstʃən/ &middot; <em>ig-ZAWS-chuhn</em></dd><dt>Русский</dt><dd>изнеможение, истощение</dd><dt>Countability</dt><dd>uncountable</dd><dt>Contrast</dt><dd>The x is voiced /ɡz/ and the h is silent: ig-ZAWS-chuhn.</dd></dl>
+<p>Extreme tiredness of body or mind.</p>
+<ol><li>He fell asleep from sheer <em>exhaustion</em>.</li><li>Two players went out with heat <em>exhaustion</em>.</li><li>Emotional <em>exhaustion</em> is the first sign of burnout.</li></ol>
+<hr>
+<h3 id="sigh">sigh<a class="hash" href="#sigh" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/saɪ/ &middot; <em>SY</em></dd><dt>Русский</dt><dd>вздох</dd><dt>Plural</dt><dd><em>sighs</em></dd><dt>Countability</dt><dd>countable</dd><dt>Contrast</dt><dd>The gh is silent — SY rhymes with <em>my</em>.</dd></dl>
+<p>A long breath out that shows relief, tiredness, or sadness.</p>
+<ol><li>She let out a long <em>sigh</em> and sat down.</li><li>There was a collective <em>sigh</em> when the meeting ended.</li><li>His <em>sighs</em> were the loudest thing in the office.</li></ol>
+<hr>
+<h3 id="smile">smile<a class="hash" href="#smile" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/smaɪl/ &middot; <em>SMYL</em></dd><dt>Русский</dt><dd>улыбка</dd><dt>Plural</dt><dd><em>smiles</em></dd><dt>Countability</dt><dd>countable</dd></dl>
+<p>A facial expression showing pleasure or friendliness.</p>
+<ol><li>She greeted us with a big <em>smile</em>.</li><li>That <em>smile</em> is on every billboard in town.</li><li>The photo is all <em>smiles</em> and sunburn.</li></ol>
+<hr>
+<h3 id="grin">grin<a class="hash" href="#grin" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/ɡrɪn/ &middot; <em>GRIN</em></dd><dt>Русский</dt><dd>широкая улыбка, ухмылка</dd><dt>Plural</dt><dd><em>grins</em></dd><dt>Countability</dt><dd>countable</dd></dl>
+<p>A wide, often mischievous smile.</p>
+<ol><li>He walked in with a <em>grin</em> on his face.</li><li>Her <em>grin</em> gave the surprise away.</li><li>There were <em>grins</em> all around after the win.</li></ol>
+<hr>
+<h3 id="frown">frown<a class="hash" href="#frown" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/fraʊn/ &middot; <em>FROWN</em></dd><dt>Русский</dt><dd>хмурый взгляд, нахмуренные брови</dd><dt>Plural</dt><dd><em>frowns</em></dd><dt>Countability</dt><dd>countable</dd></dl>
+<p>A facial expression of displeasure or worry.</p>
+<ol><li>A <em>frown</em> crossed her face when she read it.</li><li>He answered with a <em>frown</em> and a shrug.</li><li>The news drew <em>frowns</em> from the whole table.</li></ol>
+<hr>
+<h3 id="sob">sob<a class="hash" href="#sob" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/sɑːb/ &middot; <em>SAHB</em></dd><dt>Русский</dt><dd>рыдание, всхлип</dd><dt>Plural</dt><dd><em>sobs</em></dd><dt>Countability</dt><dd>countable</dd></dl>
+<p>A loud, shaking cry.</p>
+<ol><li>A <em>sob</em> caught in her throat.</li><li>We could hear his <em>sobs</em> through the door.</li><li>She got the words out between <em>sobs</em>.</li></ol>
+<hr>
+<h3 id="arrogance">arrogance<a class="hash" href="#arrogance" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/ˈærəɡəns/ &middot; <em>AR-uh-guhns</em></dd><dt>Русский</dt><dd>высокомерие, надменность</dd><dt>Countability</dt><dd>uncountable</dd></dl>
+<p>An offensive belief that you are better than others.</p>
+<ol><li>His <em>arrogance</em> cost him the account.</li><li>There is a difference between confidence and <em>arrogance</em>.</li><li>She was put off by the <em>arrogance</em> in his email.</li></ol>
+<hr>
+<h3 id="cruelty">cruelty<a class="hash" href="#cruelty" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/ˈkruːəlti/ &middot; <em>KROO-uhl-tee</em></dd><dt>Русский</dt><dd>жестокость</dd><dt>Plural</dt><dd><em>cruelties</em></dd><dt>Countability</dt><dd>countable</dd></dl>
+<p>Behavior that causes pain on purpose.</p>
+<ol><li>The law covers <em>cruelty</em> to animals.</li><li>It was an act of pointless <em>cruelty</em>.</li><li>He wrote about the small <em>cruelties</em> of high school.</li></ol>
+<hr>
+<h3 id="pessimism">pessimism<a class="hash" href="#pessimism" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/ˈpesəmɪzəm/ &middot; <em>PES-uh-miz-uhm</em></dd><dt>Русский</dt><dd>пессимизм</dd><dt>Countability</dt><dd>uncountable</dd></dl>
+<p>A tendency to expect the worst.</p>
+<ol><li>There is a lot of <em>pessimism</em> about the housing market.</li><li>His <em>pessimism</em> turned out to be justified.</li><li>A little <em>pessimism</em> keeps the budget honest.</li></ol>
+<hr>
+<h3 id="impatience">impatience<a class="hash" href="#impatience" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/ɪmˈpeɪʃəns/ &middot; <em>im-PAY-shuhns</em></dd><dt>Русский</dt><dd>нетерпение</dd><dt>Countability</dt><dd>uncountable</dd></dl>
+<p>Annoyance at having to wait.</p>
+<ol><li>He drummed his fingers in <em>impatience</em>.</li><li>Her <em>impatience</em> with slow drivers is famous.</li><li>You could hear the <em>impatience</em> in his voice.</li></ol>
+<hr>
+<h3 id="cowardice">cowardice<a class="hash" href="#cowardice" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/ˈkaʊrrdɪs/ &middot; <em>KOW-ur-dis</em></dd><dt>Русский</dt><dd>трусость</dd><dt>Countability</dt><dd>uncountable</dd><dt>Contrast</dt><dd>The ending is /dɪs/, not /daɪs/ — KOW-ur-dis, and there is no such word as <em>cowardness</em>.</dd></dl>
+<p>A shameful lack of courage.</p>
+<ol><li>Walking away was <em>cowardice</em>, and he knew it.</li><li>She was accused of <em>cowardice</em> for staying quiet.</li><li>There is no <em>cowardice</em> in asking for help.</li></ol>
+<hr>
+<h3 id="dissatisfaction">dissatisfaction<a class="hash" href="#dissatisfaction" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/ˌdɪsætɪsˈfækʃən/ &middot; <em>dis-sat-is-FAK-shuhn</em></dd><dt>Русский</dt><dd>недовольство, неудовлетворённость</dd><dt>Countability</dt><dd>uncountable</dd></dl>
+<p>The feeling that something is not good enough.</p>
+<ol><li>There is growing <em>dissatisfaction</em> with the schedule.</li><li>He expressed his <em>dissatisfaction</em> in writing.</li><li><em>Dissatisfaction</em> with pay drove most of the turnover.</li></ol></div></main>
+<button class="themebtn" id="themeBtn">Dark</button>
+<script>
+const tb=document.getElementById('themeBtn');
+function setTheme(x){document.documentElement.dataset.theme=x;tb.textContent=x==='dark'?'Light':'Dark';
+ try{localStorage.setItem('site-theme',x)}catch(e){}}
+tb.onclick=()=>setTheme(document.documentElement.dataset.theme==='dark'?'light':'dark');
+try{const s=localStorage.getItem('site-theme');
+ setTheme(s||(matchMedia('(prefers-color-scheme: dark)').matches?'dark':'light'))}catch(e){setTheme('light')}
+</script></body></html>

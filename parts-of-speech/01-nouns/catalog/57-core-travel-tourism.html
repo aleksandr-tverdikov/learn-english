@@ -1,0 +1,836 @@
+<!DOCTYPE html>
+<html lang="en"><head>
+<meta charset="utf-8"><meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Core vocabulary: travel</title>
+<style>
+:root{--bg:#faf9f7;--surface:#fff;--surface2:#f2f0ec;--border:#e2ded6;--text:#1a1815;
+--dim:#5f594f;--faint:#8a8377;--accent:#8a5a3b;--measure:72ch}
+@media(prefers-color-scheme:dark){:root{--bg:#14140f;--surface:#1d1d17;--surface2:#25251d;
+--border:#33332a;--text:#eeeae1;--dim:#a8a293;--faint:#7d776b;--accent:#d09b72}}
+:root[data-theme=dark]{--bg:#14140f;--surface:#1d1d17;--surface2:#25251d;--border:#33332a;
+--text:#eeeae1;--dim:#a8a293;--faint:#7d776b;--accent:#d09b72}
+:root[data-theme=light]{--bg:#faf9f7;--surface:#fff;--surface2:#f2f0ec;--border:#e2ded6;
+--text:#1a1815;--dim:#5f594f;--faint:#8a8377;--accent:#8a5a3b}
+*{box-sizing:border-box}
+body{margin:0;background:var(--bg);color:var(--text);
+font:17px/1.72 ui-serif,Georgia,"Iowan Old Style",Palatino,serif;-webkit-font-smoothing:antialiased}
+.wrap{max-width:min(var(--measure),100%);margin:0 auto;padding:0 22px}
+nav.crumb{border-bottom:1px solid var(--border);padding:13px 0;font-size:13.5px;
+font-family:-apple-system,BlinkMacSystemFont,"Segoe UI",sans-serif;position:sticky;top:0;background:var(--bg);z-index:20}
+nav.crumb .wrap{max-width:none;display:flex;gap:9px;align-items:center;flex-wrap:wrap}
+nav.crumb a{color:var(--dim);text-decoration:none}
+nav.crumb a:hover{color:var(--accent)}
+nav.crumb .sep{color:var(--faint)}
+main{padding:8px 0 80px}
+h1{font-size:clamp(28px,5vw,38px);line-height:1.15;letter-spacing:-.015em;margin:34px 0 18px}
+h2{font-size:25px;margin:46px 0 14px;letter-spacing:-.01em;padding-bottom:7px;border-bottom:1px solid var(--border)}
+h3{font-size:19px;margin:34px 0 10px;color:var(--accent)}
+h4{font-size:16px;margin:24px 0 8px;font-family:-apple-system,sans-serif}
+p{margin:0 0 16px}
+a{color:var(--accent)}
+.hash{opacity:0;margin-left:8px;font-weight:400;font-size:.65em;text-decoration:none;color:var(--faint)}
+h2:hover .hash,h3:hover .hash{opacity:1}
+blockquote{margin:0 0 20px;padding:14px 18px;background:var(--surface2);
+border-left:3px solid var(--accent);border-radius:0 8px 8px 0}
+blockquote p:last-child{margin-bottom:0}
+ol,ul{margin:0 0 18px;padding-left:26px}
+li{margin-bottom:8px}
+li>ul,li>ol{margin:8px 0 0}
+code{font-family:ui-monospace,SFMono-Regular,Menlo,Consolas,monospace;font-size:.87em;
+background:var(--surface2);padding:1px 5px;border-radius:4px}
+pre{background:var(--surface2);border:1px solid var(--border);border-radius:9px;
+padding:15px 17px;overflow-x:auto;margin:0 0 20px}
+pre code{background:none;padding:0;font-size:13px;line-height:1.6}
+.tw{overflow-x:auto;margin:0 0 22px;border:1px solid var(--border);border-radius:9px}
+table{border-collapse:collapse;width:100%;font-size:15px;
+font-family:-apple-system,BlinkMacSystemFont,"Segoe UI",sans-serif}
+th,td{padding:10px 14px;border-bottom:1px solid var(--border);vertical-align:top}
+th{background:var(--surface2);font-size:12px;text-transform:uppercase;
+letter-spacing:.06em;color:var(--dim);font-weight:700;white-space:nowrap}
+tbody tr:last-child td{border-bottom:none}
+hr{border:none;border-top:1px solid var(--border);margin:38px 0}
+details{background:var(--surface2);border:1px solid var(--border);border-radius:9px;
+padding:13px 17px;margin:0 0 20px}
+summary{cursor:pointer;font-weight:600;font-family:-apple-system,sans-serif;font-size:15px}
+details[open] summary{margin-bottom:12px}
+del{color:var(--faint)}
+dl.fields{margin:0 0 20px;padding:0}
+dl.fields dt{font-family:-apple-system,BlinkMacSystemFont,"Segoe UI",sans-serif;
+font-size:11px;letter-spacing:.11em;text-transform:uppercase;color:var(--faint);
+font-weight:700;margin:14px 0 4px}
+dl.fields dt:first-child{margin-top:0}
+dl.fields dd{margin:0;font-size:16px;color:var(--dim);line-height:1.62}
+dl.fields dd em{color:var(--text)}
+dl.fields dt.ru{color:var(--accent)}
+dl.fields dd strong{color:var(--text)}
+.toc{background:var(--surface2);border:1px solid var(--border);border-radius:10px;
+padding:16px 20px;margin:26px 0 34px;font-family:-apple-system,sans-serif;font-size:14px}
+.toc b{display:block;font-size:11px;letter-spacing:.12em;text-transform:uppercase;
+color:var(--faint);margin-bottom:9px}
+.toc a{display:block;padding:3px 0;color:var(--dim);text-decoration:none}
+.toc a:hover{color:var(--accent)}
+.themebtn{position:fixed;right:18px;bottom:18px;z-index:60;font-family:-apple-system,sans-serif;
+font-size:12.5px;font-weight:600;cursor:pointer;background:var(--surface);border:1px solid var(--border);
+border-radius:99px;padding:9px 16px;color:var(--text)}
+@media(max-width:600px){body{font-size:16px}.wrap{padding:0 17px}}
+</style></head><body>
+<nav class="crumb"><div class="wrap"><a href="../../../index.html">Learn English</a><span class="sep">/</span><a href="../../README.html">Parts of speech</a><span class="sep">/</span><a href="../README.html">01-nouns</a><span class="sep">/</span><span>catalog</span></div></nav>
+<main><div class="wrap"><h1 id="core-vocabulary-travel">Core vocabulary: travel<a class="hash" href="#core-vocabulary-travel" aria-label="link">#</a></h1>
+<blockquote><p>The everyday nouns of travel — pronunciation, Russian, plural, and three examples each.</p></blockquote>
+<p><a href="../README.html">← The grammar of nouns</a> &middot; <a href="README.html">All groups</a></p>
+<p>Part of the <strong>core-vocabulary tier</strong>. Groups 1–23 cover the nouns that misbehave; this tier covers the nouns you simply need to know. Entries are deliberately lean, because a regular countable noun has no grammatical story to tell. A <strong>Contrast</strong> line appears only where the word hides a genuine trap.</p>
+<p>Where a word in this field <em>does</em> misbehave, it lives in the grammar tier instead and is not repeated here.</p>
+<hr>
+<h3 id="airport">airport<a class="hash" href="#airport" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/ˈɛrpɔːrt/ &middot; <em>AIR-port</em></dd><dt>Русский</dt><dd>аэропорт</dd><dt>Plural</dt><dd><em>airports</em></dd><dt>Countability</dt><dd>countable</dd></dl>
+<p>A place where planes take off and land, with buildings for passengers.</p>
+<ol><li>Our flight leaves from the smaller <em>airport</em> across town.</li><li>Both <em>airports</em> were shut down by the storm.</li><li>We got to the <em>airport</em> three hours early.</li></ol>
+<hr>
+<h3 id="airline">airline<a class="hash" href="#airline" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/ˈɛrlaɪn/ &middot; <em>AIR-lyn</em></dd><dt>Русский</dt><dd>авиакомпания</dd><dt>Plural</dt><dd><em>airlines</em></dd><dt>Countability</dt><dd>countable</dd></dl>
+<p>A company that carries passengers by plane.</p>
+<ol><li>The <em>airline</em> lost my bag somewhere in Denver.</li><li>Several <em>airlines</em> fly that route nonstop.</li><li>I called the <em>airline</em> to change my seat.</li></ol>
+<hr>
+<h3 id="airplane">airplane<a class="hash" href="#airplane" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/ˈɛrpleɪn/ &middot; <em>AIR-playn</em></dd><dt>Русский</dt><dd>самолёт</dd><dt>Plural</dt><dd><em>airplanes</em></dd><dt>Countability</dt><dd>countable</dd><dt>Contrast</dt><dd>Americans write airplane; the British write aeroplane.</dd></dl>
+<p>A vehicle with wings and engines that flies through the air.</p>
+<ol><li>She has never been on an <em>airplane</em> before.</li><li>Small <em>airplanes</em> land at the county field.</li><li>The <em>airplane</em> was still sitting at the gate.</li></ol>
+<hr>
+<h3 id="plane">plane<a class="hash" href="#plane" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/pleɪn/ &middot; <em>PLAYN</em></dd><dt>Русский</dt><dd>самолёт</dd><dt>Plural</dt><dd><em>planes</em></dd><dt>Countability</dt><dd>countable</dd><dt>Contrast</dt><dd>Sounds exactly like plain (simple, ordinary).</dd></dl>
+<p>An airplane, in everyday speech.</p>
+<ol><li>Our <em>plane</em> was delayed two hours in Chicago.</li><li>I hate taking small <em>planes</em> in bad weather.</li><li>We ran to catch the last <em>plane</em> out.</li></ol>
+<hr>
+<h3 id="terminal">terminal<a class="hash" href="#terminal" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/ˈtɜːrmɪnəl/ &middot; <em>TUR-mih-nuhl</em></dd><dt>Русский</dt><dd>терминал (здание аэропорта или вокзала)</dd><dt>Plural</dt><dd><em>terminals</em></dd><dt>Countability</dt><dd>countable</dd></dl>
+<p>A building at an airport or station where passengers arrive and leave.</p>
+<ol><li>International flights leave from <em>terminal</em> B.</li><li>The two <em>terminals</em> are connected by a train.</li><li>There's a coffee place at the far end of the <em>terminal</em>.</li></ol>
+<hr>
+<h3 id="runway">runway<a class="hash" href="#runway" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/ˈrʌnweɪ/ &middot; <em>RUHN-way</em></dd><dt>Русский</dt><dd>взлётно-посадочная полоса</dd><dt>Plural</dt><dd><em>runways</em></dd><dt>Countability</dt><dd>countable</dd></dl>
+<p>The long strip of pavement where planes take off and land.</p>
+<ol><li>We sat on the <em>runway</em> for forty minutes.</li><li>Ice closed both <em>runways</em> that morning.</li><li>The plane turned onto the <em>runway</em> and picked up speed.</li></ol>
+<hr>
+<h3 id="cockpit">cockpit<a class="hash" href="#cockpit" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/ˈkɑːkpɪt/ &middot; <em>KAHK-pit</em></dd><dt>Русский</dt><dd>кабина пилотов</dd><dt>Plural</dt><dd><em>cockpits</em></dd><dt>Countability</dt><dd>countable</dd></dl>
+<p>The front section of a plane where the pilots sit.</p>
+<ol><li>The <em>cockpit</em> door stays locked during the flight.</li><li>Modern <em>cockpits</em> have almost no paper charts left.</li><li>A voice from the <em>cockpit</em> announced our altitude.</li></ol>
+<hr>
+<h3 id="takeoff">takeoff<a class="hash" href="#takeoff" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/ˈteɪkɔːf/ &middot; <em>TAYK-awf</em></dd><dt>Русский</dt><dd>взлёт</dd><dt>Plural</dt><dd><em>takeoffs</em></dd><dt>Countability</dt><dd>countable</dd></dl>
+<p>The moment when a plane leaves the ground.</p>
+<ol><li>Please keep your seat upright for <em>takeoff</em>.</li><li>Bad weather delayed <em>takeoffs</em> all afternoon.</li><li>My ears always pop right after <em>takeoff</em>.</li></ol>
+<hr>
+<h3 id="turbulence">turbulence<a class="hash" href="#turbulence" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/ˈtɜːrbjələns/ &middot; <em>TUR-byuh-luhns</em></dd><dt>Русский</dt><dd>турбулентность</dd><dt>Countability</dt><dd>uncountable</dd></dl>
+<p>Rough air that shakes a plane during flight.</p>
+<ol><li>We hit some <em>turbulence</em> over the mountains.</li><li>The <em>turbulence</em> lasted about ten minutes.</li><li>She's a nervous flyer, so any <em>turbulence</em> upsets her.</li></ol>
+<hr>
+<h3 id="stopover">stopover<a class="hash" href="#stopover" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/ˈstɑːpoʊvər/ &middot; <em>STAHP-oh-vur</em></dd><dt>Русский</dt><dd>остановка в пути</dd><dt>Plural</dt><dd><em>stopovers</em></dd><dt>Countability</dt><dd>countable</dd></dl>
+<p>A short stay in a city on the way to your final destination.</p>
+<ol><li>We booked a two-day <em>stopover</em> in Reykjavik.</li><li>Free <em>stopovers</em> are part of the fare.</li><li>The <em>stopover</em> let us see the city for a day.</li></ol>
+<hr>
+<h3 id="departure">departure<a class="hash" href="#departure" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/dɪˈpɑːrtʃər/ &middot; <em>dih-PAR-chur</em></dd><dt>Русский</dt><dd>отправление, вылет</dd><dt>Plural</dt><dd><em>departures</em></dd><dt>Countability</dt><dd>countable</dd></dl>
+<p>The act of leaving on a plane, train, or bus.</p>
+<ol><li>Our <em>departure</em> was pushed back an hour.</li><li><em>Departures</em> are on the upper level.</li><li>Check the board for the <em>departure</em> time.</li></ol>
+<hr>
+<h3 id="arrival">arrival<a class="hash" href="#arrival" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/əˈraɪvəl/ &middot; <em>uh-RY-vuhl</em></dd><dt>Русский</dt><dd>прибытие</dd><dt>Plural</dt><dd><em>arrivals</em></dd><dt>Countability</dt><dd>countable</dd></dl>
+<p>The act of reaching a place at the end of a trip.</p>
+<ol><li>Our <em>arrival</em> time is listed as 6:40.</li><li>Meet me downstairs in <em>arrivals</em>.</li><li>Rain greeted us on <em>arrival</em>.</li></ol>
+<hr>
+<h3 id="connection">connection<a class="hash" href="#connection" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/kəˈnɛkʃən/ &middot; <em>kuh-NEK-shuhn</em></dd><dt>Русский</dt><dd>стыковочный рейс, пересадка</dd><dt>Plural</dt><dd><em>connections</em></dd><dt>Countability</dt><dd>countable</dd></dl>
+<p>A second flight or train you change to in order to finish a trip.</p>
+<ol><li>I almost missed my <em>connection</em> in Dallas.</li><li>There are only two <em>connections</em> a day to that island.</li><li>The gate agent rebooked my <em>connection</em>.</li></ol>
+<hr>
+<h3 id="carousel">carousel<a class="hash" href="#carousel" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/ˌkærəˈsɛl/ &middot; <em>kar-uh-SEL</em></dd><dt>Русский</dt><dd>багажная лента</dd><dt>Plural</dt><dd><em>carousels</em></dd><dt>Countability</dt><dd>countable</dd></dl>
+<p>The moving belt at an airport where checked bags come out.</p>
+<ol><li>Our bags are on <em>carousel</em> four.</li><li>All the <em>carousels</em> were jammed with luggage.</li><li>I waited at the <em>carousel</em> for twenty minutes.</li></ol>
+<hr>
+<h3 id="seatbelt">seatbelt<a class="hash" href="#seatbelt" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/ˈsiːtbɛlt/ &middot; <em>SEET-belt</em></dd><dt>Русский</dt><dd>ремень безопасности</dd><dt>Plural</dt><dd><em>seatbelts</em></dd><dt>Countability</dt><dd>countable</dd></dl>
+<p>A strap that holds you in your seat on a plane or in a car.</p>
+<ol><li>Please fasten your <em>seatbelt</em>.</li><li>The <em>seatbelts</em> in the back row were twisted.</li><li>He never drives without his <em>seatbelt</em> on.</li></ol>
+<hr>
+<h3 id="boarding-pass">boarding pass<a class="hash" href="#boarding-pass" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/ˈbɔːrdɪŋ pæs/ &middot; <em>BOR-ding-PAS</em></dd><dt>Русский</dt><dd>посадочный талон</dd><dt>Plural</dt><dd><em>boarding passes</em></dd><dt>Countability</dt><dd>countable</dd></dl>
+<p>The document that lets you get on a plane.</p>
+<ol><li>Have your <em>boarding pass</em> ready at the gate.</li><li>Our <em>boarding passes</em> are saved on my phone.</li><li>I printed the <em>boarding pass</em> at the kiosk.</li></ol>
+<hr>
+<h3 id="vacancy">vacancy<a class="hash" href="#vacancy" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/ˈveɪkənsi/ &middot; <em>VAY-kuhn-see</em></dd><dt>Русский</dt><dd>свободный номер (в отеле)</dd><dt>Plural</dt><dd><em>vacancies</em></dd><dt>Countability</dt><dd>countable</dd></dl>
+<p>A room that is free for someone to rent.</p>
+<ol><li>The motel sign said no <em>vacancy</em>.</li><li>Call around; some place will have <em>vacancies</em> tonight.</li><li>We took the last <em>vacancy</em> in town.</li></ol>
+<hr>
+<h3 id="lounge">lounge<a class="hash" href="#lounge" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/laʊndʒ/ &middot; <em>LOWNJ</em></dd><dt>Русский</dt><dd>зал ожидания, лаундж</dd><dt>Plural</dt><dd><em>lounges</em></dd><dt>Countability</dt><dd>countable</dd></dl>
+<p>A comfortable waiting room at an airport or hotel.</p>
+<ol><li>We waited in the airport <em>lounge</em> until boarding.</li><li>The hotel has two <em>lounges</em> off the lobby.</li><li>Her credit card gets her into the <em>lounge</em> for free.</li></ol>
+<hr>
+<h3 id="jet-lag">jet lag<a class="hash" href="#jet-lag" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/ˈdʒɛt læɡ/ &middot; <em>JET-lag</em></dd><dt>Русский</dt><dd>джетлаг, сбой биоритмов после перелёта</dd><dt>Countability</dt><dd>uncountable</dd></dl>
+<p>The tired, confused feeling you get after flying across time zones.</p>
+<ol><li>I had terrible <em>jet lag</em> for three days.</li><li><em>Jet lag</em> is worse flying east.</li><li>Coffee doesn't really fix <em>jet lag</em>.</li></ol>
+<hr>
+<h3 id="flight-attendant">flight attendant<a class="hash" href="#flight-attendant" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/ˈflaɪt əˌtɛndənt/ &middot; <em>FLYT-uh-ten-duhnt</em></dd><dt>Русский</dt><dd>бортпроводник, стюардесса</dd><dt>Plural</dt><dd><em>flight attendants</em></dd><dt>Countability</dt><dd>countable</dd><dt>Contrast</dt><dd>Modern American term; stewardess now sounds dated.</dd></dl>
+<p>A member of the crew who looks after passengers on a plane.</p>
+<ol><li>The <em>flight attendant</em> brought me a glass of water.</li><li>Two <em>flight attendants</em> worked the whole cabin.</li><li>Ask the <em>flight attendant</em> for a customs form.</li></ol>
+<hr>
+<h3 id="transit">transit<a class="hash" href="#transit" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/ˈtrænzɪt/ &middot; <em>TRAN-zit</em></dd><dt>Русский</dt><dd>транзит; общественный транспорт</dd><dt>Countability</dt><dd>uncountable</dd></dl>
+<p>The act of passing through a place on the way somewhere else, or public transportation as a system.</p>
+<ol><li>We were in <em>transit</em> for almost thirty hours.</li><li>The city's public <em>transit</em> runs until midnight.</li><li>Passengers in <em>transit</em> stay in the secure area.</li></ol>
+<hr>
+<h3 id="baggage">baggage<a class="hash" href="#baggage" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/ˈbæɡɪdʒ/ &middot; <em>BAG-ij</em></dd><dt>Русский</dt><dd>багаж</dd><dt>Countability</dt><dd>uncountable</dd><dt>Contrast</dt><dd>Uncountable: never baggages. Count with two pieces of baggage.</dd></dl>
+<p>The bags and suitcases a traveler takes on a trip.</p>
+<ol><li><em>Baggage</em> claim is downstairs to your left.</li><li>How much <em>baggage</em> are you checking?</li><li>All our <em>baggage</em> went to the wrong city.</li></ol>
+<hr>
+<h3 id="passport">passport<a class="hash" href="#passport" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/ˈpæspɔːrt/ &middot; <em>PAS-port</em></dd><dt>Русский</dt><dd>загранпаспорт</dd><dt>Plural</dt><dd><em>passports</em></dd><dt>Countability</dt><dd>countable</dd></dl>
+<p>An official document that proves your nationality and lets you travel abroad.</p>
+<ol><li>My <em>passport</em> expires next spring.</li><li>Have your <em>passports</em> out for the officer.</li><li>He renewed his <em>passport</em> just in time.</li></ol>
+<hr>
+<h3 id="visa">visa<a class="hash" href="#visa" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/ˈviːzə/ &middot; <em>VEE-zuh</em></dd><dt>Русский</dt><dd>виза</dd><dt>Plural</dt><dd><em>visas</em></dd><dt>Countability</dt><dd>countable</dd></dl>
+<p>Official permission stamped in a passport to enter a country.</p>
+<ol><li>You need a <em>visa</em> to work there.</li><li>Tourist <em>visas</em> are good for ninety days.</li><li>My <em>visa</em> application was approved.</li></ol>
+<hr>
+<h3 id="customs">customs<a class="hash" href="#customs" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/ˈkʌstəmz/ &middot; <em>KUHS-tuhmz</em></dd><dt>Русский</dt><dd>таможня</dd><dt>Countability</dt><dd>uncountable</dd><dt>Contrast</dt><dd>Always ends in -s in this sense; a custom (singular) means a tradition.</dd></dl>
+<p>The government service that checks what travelers bring into a country.</p>
+<ol><li>We got through <em>customs</em> in ten minutes.</li><li><em>Customs</em> took away his oranges.</li><li>Fill out this form before you reach <em>customs</em>.</li></ol>
+<hr>
+<h3 id="immigration">immigration<a class="hash" href="#immigration" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/ˌɪmɪˈɡreɪʃən/ &middot; <em>im-ih-GRAY-shuhn</em></dd><dt>Русский</dt><dd>паспортный контроль; иммиграция</dd><dt>Countability</dt><dd>uncountable</dd></dl>
+<p>The desk or process where officials check travelers entering a country.</p>
+<ol><li>The line at <em>immigration</em> was enormous.</li><li><em>Immigration</em> asked how long I was staying.</li><li>You clear <em>immigration</em> before you pick up your bags.</li></ol>
+<hr>
+<h3 id="checkpoint">checkpoint<a class="hash" href="#checkpoint" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/ˈtʃɛkpɔɪnt/ &middot; <em>CHEK-poynt</em></dd><dt>Русский</dt><dd>контрольно-пропускной пункт</dd><dt>Plural</dt><dd><em>checkpoints</em></dd><dt>Countability</dt><dd>countable</dd></dl>
+<p>A place where officials stop people to inspect them or their documents.</p>
+<ol><li>There's a security <em>checkpoint</em> before the gates.</li><li>We passed two <em>checkpoints</em> on the mountain road.</li><li>Take your laptop out at the <em>checkpoint</em>.</li></ol>
+<hr>
+<h3 id="declaration">declaration<a class="hash" href="#declaration" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/ˌdɛkləˈreɪʃən/ &middot; <em>dek-luh-RAY-shuhn</em></dd><dt>Русский</dt><dd>декларация</dd><dt>Plural</dt><dd><em>declarations</em></dd><dt>Countability</dt><dd>countable</dd><dt>Contrast</dt><dd>The verb declare stresses the second syllable: dih-KLAIR.</dd></dl>
+<p>An official statement listing what you are bringing into a country.</p>
+<ol><li>Sign the customs <em>declaration</em> before landing.</li><li>The crew handed out <em>declarations</em> on the plane.</li><li>A false <em>declaration</em> can cost you a big fine.</li></ol>
+<hr>
+<h3 id="security">security<a class="hash" href="#security" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/sɪˈkjʊrəti/ &middot; <em>sih-KYOOR-ih-tee</em></dd><dt>Русский</dt><dd>досмотр; служба безопасности</dd><dt>Countability</dt><dd>uncountable</dd></dl>
+<p>The screening area and staff that check passengers before a flight.</p>
+<ol><li>Get to the airport early; <em>security</em> is slow today.</li><li><em>Security</em> made me throw out my water bottle.</li><li>We went through <em>security</em> in five minutes.</li></ol>
+<hr>
+<h3 id="permit">permit<a class="hash" href="#permit" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/ˈpɜːrmɪt/ &middot; <em>PUR-mit</em></dd><dt>Русский</dt><dd>разрешение (документ)</dd><dt>Plural</dt><dd><em>permits</em></dd><dt>Countability</dt><dd>countable</dd><dt>Contrast</dt><dd>The noun is PUR-mit; the verb is pur-MIT.</dd></dl>
+<p>An official paper allowing you to do something.</p>
+<ol><li>You need a <em>permit</em> to camp in the canyon.</li><li><em>Permits</em> sell out months in advance.</li><li>The ranger checked our <em>permit</em> at the trailhead.</li></ol>
+<hr>
+<h3 id="identification">identification<a class="hash" href="#identification" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/aɪˌdɛntɪfɪˈkeɪʃən/ &middot; <em>eye-den-tih-fih-KAY-shuhn</em></dd><dt>Русский</dt><dd>удостоверение личности</dd><dt>Countability</dt><dd>uncountable</dd><dt>Contrast</dt><dd>Shortened to ID in speech: Can I see your ID?</dd></dl>
+<p>A document that shows who you are.</p>
+<ol><li>You'll need photo <em>identification</em> to board.</li><li>The clerk asked for some form of <em>identification</em>.</li><li>Keep your <em>identification</em> somewhere safe.</li></ol>
+<hr>
+<h3 id="citizenship">citizenship<a class="hash" href="#citizenship" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/ˈsɪtɪzənʃɪp/ &middot; <em>SIT-ih-zuhn-ship</em></dd><dt>Русский</dt><dd>гражданство</dd><dt>Countability</dt><dd>uncountable</dd></dl>
+<p>The legal status of belonging to a particular country.</p>
+<ol><li>She holds dual <em>citizenship</em>.</li><li>He applied for <em>citizenship</em> after five years.</li><li><em>Citizenship</em> gives you the right to vote.</li></ol>
+<hr>
+<h3 id="nationality">nationality<a class="hash" href="#nationality" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/ˌnæʃəˈnæləti/ &middot; <em>nash-uh-NAL-ih-tee</em></dd><dt>Русский</dt><dd>гражданство, национальность</dd><dt>Plural</dt><dd><em>nationalities</em></dd><dt>Countability</dt><dd>countable</dd></dl>
+<p>The country a person legally belongs to.</p>
+<ol><li>Write your <em>nationality</em> on line four.</li><li>Guests of twelve different <em>nationalities</em> stayed here.</li><li>The form asks for your <em>nationality</em> and date of birth.</li></ol>
+<hr>
+<h3 id="embassy">embassy<a class="hash" href="#embassy" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/ˈɛmbəsi/ &middot; <em>EM-buh-see</em></dd><dt>Русский</dt><dd>посольство</dd><dt>Plural</dt><dd><em>embassies</em></dd><dt>Countability</dt><dd>countable</dd></dl>
+<p>The office of a country's chief representative in a foreign capital.</p>
+<ol><li>Call the <em>embassy</em> if you lose your passport.</li><li>Several <em>embassies</em> are on that street.</li><li>The <em>embassy</em> issued him emergency papers.</li></ol>
+<hr>
+<h3 id="consulate">consulate<a class="hash" href="#consulate" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/ˈkɑːnsələt/ &middot; <em>KAHN-suh-lit</em></dd><dt>Русский</dt><dd>консульство</dd><dt>Plural</dt><dd><em>consulates</em></dd><dt>Countability</dt><dd>countable</dd></dl>
+<p>A government office in a foreign city that helps its citizens and issues visas.</p>
+<ol><li>I picked up my visa at the <em>consulate</em>.</li><li>There are <em>consulates</em> in three American cities.</li><li>The <em>consulate</em> is closed on national holidays.</li></ol>
+<hr>
+<h3 id="quarantine">quarantine<a class="hash" href="#quarantine" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/ˈkwɔːrəntiːn/ &middot; <em>KWOR-uhn-teen</em></dd><dt>Русский</dt><dd>карантин</dd><dt>Countability</dt><dd>uncountable</dd></dl>
+<p>A period of being kept apart from others to stop disease from spreading.</p>
+<ol><li>Arriving travelers were put in <em>quarantine</em>.</li><li>The dog spent two weeks in <em>quarantine</em>.</li><li><em>Quarantine</em> rules changed while we were abroad.</li></ol>
+<hr>
+<h3 id="ticket">ticket<a class="hash" href="#ticket" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/ˈtɪkɪt/ &middot; <em>TIK-it</em></dd><dt>Русский</dt><dd>билет</dd><dt>Plural</dt><dd><em>tickets</em></dd><dt>Countability</dt><dd>countable</dd></dl>
+<p>A paper or digital pass that lets you travel or enter a place.</p>
+<ol><li>I bought a one-way <em>ticket</em> to Seattle.</li><li>The <em>tickets</em> were cheaper on a Tuesday.</li><li>Show your <em>ticket</em> to the conductor.</li></ol>
+<hr>
+<h3 id="reservation">reservation<a class="hash" href="#reservation" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/ˌrɛzərˈveɪʃən/ &middot; <em>rez-ur-VAY-shuhn</em></dd><dt>Русский</dt><dd>бронь, бронирование</dd><dt>Plural</dt><dd><em>reservations</em></dd><dt>Countability</dt><dd>countable</dd></dl>
+<p>An arrangement to hold a room, seat, or table for you.</p>
+<ol><li>I made a <em>reservation</em> under Patterson.</li><li>All our <em>reservations</em> were canceled by the storm.</li><li>Do you have a <em>reservation</em> with us tonight?</li></ol>
+<hr>
+<h3 id="booking">booking<a class="hash" href="#booking" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/ˈbʊkɪŋ/ &middot; <em>BUUK-ing</em></dd><dt>Русский</dt><dd>бронирование</dd><dt>Plural</dt><dd><em>bookings</em></dd><dt>Countability</dt><dd>countable</dd></dl>
+<p>An arrangement made in advance to buy travel or a room.</p>
+<ol><li>My <em>booking</em> number is in the email.</li><li>Hotel <em>bookings</em> are up this summer.</li><li>I changed the <em>booking</em> to a later date.</li></ol>
+<hr>
+<h3 id="confirmation">confirmation<a class="hash" href="#confirmation" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/ˌkɑːnfərˈmeɪʃən/ &middot; <em>kahn-fur-MAY-shuhn</em></dd><dt>Русский</dt><dd>подтверждение (брони)</dd><dt>Plural</dt><dd><em>confirmations</em></dd><dt>Countability</dt><dd>countable</dd></dl>
+<p>A message or number proving that a booking was accepted.</p>
+<ol><li>Bring a printed <em>confirmation</em> to the desk.</li><li>I never got the <em>confirmations</em> for either room.</li><li>Your <em>confirmation</em> should arrive within the hour.</li></ol>
+<hr>
+<h3 id="voucher">voucher<a class="hash" href="#voucher" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/ˈvaʊtʃər/ &middot; <em>VOW-chur</em></dd><dt>Русский</dt><dd>ваучер, талон</dd><dt>Plural</dt><dd><em>vouchers</em></dd><dt>Countability</dt><dd>countable</dd></dl>
+<p>A printed slip that can be exchanged for goods or a service.</p>
+<ol><li>The airline gave us a meal <em>voucher</em>.</li><li>Our tour price includes hotel <em>vouchers</em>.</li><li>Hand this <em>voucher</em> to the driver.</li></ol>
+<hr>
+<h3 id="itinerary">itinerary<a class="hash" href="#itinerary" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/aɪˈtɪnərɛri/ &middot; <em>eye-TIN-uh-rer-ee</em></dd><dt>Русский</dt><dd>маршрут поездки, план поездки</dd><dt>Plural</dt><dd><em>itineraries</em></dd><dt>Countability</dt><dd>countable</dd></dl>
+<p>A written plan of where you will go and when during a trip.</p>
+<ol><li>Email me your <em>itinerary</em> before you fly.</li><li>The agency sent two possible <em>itineraries</em>.</li><li>Our <em>itinerary</em> has us in Rome by Thursday.</li></ol>
+<hr>
+<h3 id="destination">destination<a class="hash" href="#destination" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/ˌdɛstɪˈneɪʃən/ &middot; <em>des-tih-NAY-shuhn</em></dd><dt>Русский</dt><dd>пункт назначения</dd><dt>Plural</dt><dd><em>destinations</em></dd><dt>Countability</dt><dd>countable</dd></dl>
+<p>The place you are traveling to.</p>
+<ol><li>Our final <em>destination</em> is a village near the coast.</li><li>Beach <em>destinations</em> fill up fast in July.</li><li>We reached our <em>destination</em> well after dark.</li></ol>
+<hr>
+<h3 id="fare">fare<a class="hash" href="#fare" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/fɛr/ &middot; <em>FAIR</em></dd><dt>Русский</dt><dd>плата за проезд</dd><dt>Plural</dt><dd><em>fares</em></dd><dt>Countability</dt><dd>countable</dd><dt>Contrast</dt><dd>Sounds exactly like fair (just, or a county fair).</dd></dl>
+<p>The money you pay to ride a bus, train, taxi, or plane.</p>
+<ol><li>The bus <em>fare</em> went up to three dollars.</li><li>Airline <em>fares</em> drop after the holidays.</li><li>He paid my <em>fare</em> with his transit card.</li></ol>
+<hr>
+<h3 id="trip">trip<a class="hash" href="#trip" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/trɪp/ &middot; <em>TRIP</em></dd><dt>Русский</dt><dd>поездка</dd><dt>Plural</dt><dd><em>trips</em></dd><dt>Countability</dt><dd>countable</dd></dl>
+<p>A journey to a place and usually back again.</p>
+<ol><li>We took a <em>trip</em> to the coast last weekend.</li><li>I make two <em>trips</em> a year to see my parents.</li><li>How was your <em>trip</em>?</li></ol>
+<hr>
+<h3 id="journey">journey<a class="hash" href="#journey" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/ˈdʒɜːrni/ &middot; <em>JUR-nee</em></dd><dt>Русский</dt><dd>путешествие, поездка (долгая)</dd><dt>Plural</dt><dd><em>journeys</em></dd><dt>Countability</dt><dd>countable</dd></dl>
+<p>An act of traveling from one place to another, especially a long one.</p>
+<ol><li>It was a long <em>journey</em> by bus and boat.</li><li>Their <em>journeys</em> across the desert took weeks.</li><li>The <em>journey</em> home felt twice as long.</li></ol>
+<hr>
+<h3 id="tour">tour<a class="hash" href="#tour" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/tʊr/ &middot; <em>TOOR</em></dd><dt>Русский</dt><dd>тур, экскурсия</dd><dt>Plural</dt><dd><em>tours</em></dd><dt>Countability</dt><dd>countable</dd></dl>
+<p>An organized visit to a place, often with a guide.</p>
+<ol><li>We took a walking <em>tour</em> of the old city.</li><li>Boat <em>tours</em> leave every hour from the pier.</li><li>The <em>tour</em> lasts about ninety minutes.</li></ol>
+<hr>
+<h3 id="tourism">tourism<a class="hash" href="#tourism" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/ˈtʊrɪzəm/ &middot; <em>TOOR-iz-uhm</em></dd><dt>Русский</dt><dd>туризм</dd><dt>Countability</dt><dd>uncountable</dd></dl>
+<p>The business of providing travel and vacations for visitors.</p>
+<ol><li>The island lives on <em>tourism</em>.</li><li><em>Tourism</em> dropped sharply that winter.</li><li>She works in <em>tourism</em> down in Key West.</li></ol>
+<hr>
+<h3 id="traveler">traveler<a class="hash" href="#traveler" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/ˈtrævələr/ &middot; <em>TRAV-uh-lur</em></dd><dt>Русский</dt><dd>путешественник</dd><dt>Plural</dt><dd><em>travelers</em></dd><dt>Countability</dt><dd>countable</dd><dt>Contrast</dt><dd>Spelled with one l in American English, two in British (traveller).</dd></dl>
+<p>A person who is making a trip.</p>
+<ol><li>The <em>traveler</em> next to me slept the whole flight.</li><li>Business <em>travelers</em> board first.</li><li>Every <em>traveler</em> has to fill out this card.</li></ol>
+<hr>
+<h3 id="excursion">excursion<a class="hash" href="#excursion" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/ɪkˈskɜːrʒən/ &middot; <em>ik-SKUR-zhuhn</em></dd><dt>Русский</dt><dd>экскурсия, вылазка</dd><dt>Plural</dt><dd><em>excursions</em></dd><dt>Countability</dt><dd>countable</dd></dl>
+<p>A short trip made for pleasure, usually returning the same day.</p>
+<ol><li>The ship offers <em>excursions</em> at every port.</li><li>We signed up for a day <em>excursion</em> to the volcano.</li><li>The <em>excursion</em> costs sixty dollars per person.</li></ol>
+<hr>
+<h3 id="expedition">expedition<a class="hash" href="#expedition" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/ˌɛkspəˈdɪʃən/ &middot; <em>ek-spuh-DISH-uhn</em></dd><dt>Русский</dt><dd>экспедиция</dd><dt>Plural</dt><dd><em>expeditions</em></dd><dt>Countability</dt><dd>countable</dd></dl>
+<p>An organized journey made for a particular purpose, often to a remote place.</p>
+<ol><li>He joined an <em>expedition</em> to the Arctic.</li><li>Two <em>expeditions</em> reached the summit that season.</li><li>The <em>expedition</em> took four months to plan.</li></ol>
+<hr>
+<h3 id="adventure">adventure<a class="hash" href="#adventure" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/ədˈvɛntʃər/ &middot; <em>ad-VEN-chur</em></dd><dt>Русский</dt><dd>приключение</dd><dt>Plural</dt><dd><em>adventures</em></dd><dt>Countability</dt><dd>countable</dd></dl>
+<p>An exciting or risky experience.</p>
+<ol><li>Driving that road was quite an <em>adventure</em>.</li><li>She writes about her <em>adventures</em> in South America.</li><li>The whole trip turned into an <em>adventure</em>.</li></ol>
+<hr>
+<h3 id="getaway">getaway<a class="hash" href="#getaway" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/ˈɡɛtəweɪ/ &middot; <em>GET-uh-way</em></dd><dt>Русский</dt><dd>короткая поездка на отдых</dd><dt>Plural</dt><dd><em>getaways</em></dd><dt>Countability</dt><dd>countable</dd></dl>
+<p>A short vacation, usually somewhere relaxing.</p>
+<ol><li>We booked a weekend <em>getaway</em> in the mountains.</li><li>Romantic <em>getaways</em> are their whole business.</li><li>That cabin makes a perfect <em>getaway</em>.</li></ol>
+<hr>
+<h3 id="honeymoon">honeymoon<a class="hash" href="#honeymoon" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/ˈhʌnimuːn/ &middot; <em>HUH-nee-moon</em></dd><dt>Русский</dt><dd>медовый месяц</dd><dt>Plural</dt><dd><em>honeymoons</em></dd><dt>Countability</dt><dd>countable</dd></dl>
+<p>A vacation taken by a couple right after their wedding.</p>
+<ol><li>They spent their <em>honeymoon</em> in Hawaii.</li><li>Beach <em>honeymoons</em> are still the most popular.</li><li>We're saving up for a <em>honeymoon</em> in Italy.</li></ol>
+<hr>
+<h3 id="safari">safari<a class="hash" href="#safari" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/səˈfɑːri/ &middot; <em>suh-FAH-ree</em></dd><dt>Русский</dt><dd>сафари</dd><dt>Plural</dt><dd><em>safaris</em></dd><dt>Countability</dt><dd>countable</dd></dl>
+<p>A trip to see or photograph wild animals, especially in Africa.</p>
+<ol><li>They went on <em>safari</em> in Kenya.</li><li>Guided <em>safaris</em> start before sunrise.</li><li>The <em>safari</em> lasted five days.</li></ol>
+<hr>
+<h3 id="cruise">cruise<a class="hash" href="#cruise" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/kruːz/ &middot; <em>KROOZ</em></dd><dt>Русский</dt><dd>круиз</dd><dt>Plural</dt><dd><em>cruises</em></dd><dt>Countability</dt><dd>countable</dd><dt>Contrast</dt><dd>Sounds exactly like crews (groups of workers).</dd></dl>
+<p>A vacation spent traveling on a large ship that stops at several ports.</p>
+<ol><li>My grandparents took a <em>cruise</em> to Alaska.</li><li>Caribbean <em>cruises</em> are cheapest in the fall.</li><li>The <em>cruise</em> leaves from Miami on Sunday.</li></ol>
+<hr>
+<h3 id="voyage">voyage<a class="hash" href="#voyage" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/ˈvɔɪɪdʒ/ &middot; <em>VOY-ij</em></dd><dt>Русский</dt><dd>плавание, морское путешествие</dd><dt>Plural</dt><dd><em>voyages</em></dd><dt>Countability</dt><dd>countable</dd></dl>
+<p>A long trip by sea or through space.</p>
+<ol><li>The <em>voyage</em> across the Atlantic took nine days.</li><li>Their early <em>voyages</em> were mapped by hand.</li><li>It was the ship's final <em>voyage</em>.</li></ol>
+<hr>
+<h3 id="sightseeing">sightseeing<a class="hash" href="#sightseeing" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/ˈsaɪtsiːɪŋ/ &middot; <em>SYT-see-ing</em></dd><dt>Русский</dt><dd>осмотр достопримечательностей</dd><dt>Countability</dt><dd>uncountable</dd><dt>Contrast</dt><dd>The sight- part sounds like site and cite.</dd></dl>
+<p>The activity of visiting interesting places as a tourist.</p>
+<ol><li>We did some <em>sightseeing</em> before the meeting.</li><li>There's no time for <em>sightseeing</em> on this trip.</li><li><em>Sightseeing</em> buses stop right outside the hotel.</li></ol>
+<hr>
+<h3 id="pilgrimage">pilgrimage<a class="hash" href="#pilgrimage" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/ˈpɪlɡrəmɪdʒ/ &middot; <em>PIL-gruh-mij</em></dd><dt>Русский</dt><dd>паломничество</dd><dt>Plural</dt><dd><em>pilgrimages</em></dd><dt>Countability</dt><dd>countable</dd></dl>
+<p>A journey to a holy or deeply meaningful place.</p>
+<ol><li>She made a <em>pilgrimage</em> to the shrine every spring.</li><li>Thousands of <em>pilgrimages</em> end at that cathedral.</li><li>For him the trip was a kind of <em>pilgrimage</em>.</li></ol>
+<hr>
+<h3 id="trek">trek<a class="hash" href="#trek" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/trɛk/ &middot; <em>TREK</em></dd><dt>Русский</dt><dd>поход, долгий переход</dd><dt>Plural</dt><dd><em>treks</em></dd><dt>Countability</dt><dd>countable</dd></dl>
+<p>A long, difficult walk, usually over rough country.</p>
+<ol><li>The <em>trek</em> to base camp takes eight days.</li><li>They've done <em>treks</em> in Nepal and Peru.</li><li>It was a real <em>trek</em> up to the parking lot.</li></ol>
+<hr>
+<h3 id="hike">hike<a class="hash" href="#hike" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/haɪk/ &middot; <em>HYK</em></dd><dt>Русский</dt><dd>пеший поход, прогулка по маршруту</dd><dt>Plural</dt><dd><em>hikes</em></dd><dt>Countability</dt><dd>countable</dd></dl>
+<p>A long walk in the country or mountains.</p>
+<ol><li>We went on a short <em>hike</em> before breakfast.</li><li>The park has <em>hikes</em> for every level.</li><li>That <em>hike</em> nearly killed my knees.</li></ol>
+<hr>
+<h3 id="hiking">hiking<a class="hash" href="#hiking" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/ˈhaɪkɪŋ/ &middot; <em>HY-king</em></dd><dt>Русский</dt><dd>пешие походы, хайкинг</dd><dt>Countability</dt><dd>uncountable</dd></dl>
+<p>The activity of walking long distances in the countryside.</p>
+<ol><li><em>Hiking</em> is the main reason people come here.</li><li>Bring <em>hiking</em> boots and plenty of water.</li><li>We did a lot of <em>hiking</em> that summer.</li></ol>
+<hr>
+<h3 id="backpacker">backpacker<a class="hash" href="#backpacker" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/ˈbækpækər/ &middot; <em>BAK-pak-ur</em></dd><dt>Русский</dt><dd>путешественник с рюкзаком</dd><dt>Plural</dt><dd><em>backpackers</em></dd><dt>Countability</dt><dd>countable</dd></dl>
+<p>A traveler who goes cheaply from place to place carrying a large pack.</p>
+<ol><li>A young <em>backpacker</em> asked us for directions.</li><li>The hostel is full of <em>backpackers</em> in August.</li><li>As a <em>backpacker</em> she saw twelve countries in a year.</li></ol>
+<hr>
+<h3 id="hotel">hotel<a class="hash" href="#hotel" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/hoʊˈtɛl/ &middot; <em>hoh-TEL</em></dd><dt>Русский</dt><dd>отель, гостиница</dd><dt>Plural</dt><dd><em>hotels</em></dd><dt>Countability</dt><dd>countable</dd><dt>Contrast</dt><dd>Stress falls on the second syllable: hoh-TEL, not HOH-tel.</dd></dl>
+<p>A building where travelers pay to stay overnight.</p>
+<ol><li>Our <em>hotel</em> was two blocks from the beach.</li><li>All the <em>hotels</em> downtown were booked.</li><li>The <em>hotel</em> holds your bags after checkout.</li></ol>
+<hr>
+<h3 id="motel">motel<a class="hash" href="#motel" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/moʊˈtɛl/ &middot; <em>moh-TEL</em></dd><dt>Русский</dt><dd>мотель</dd><dt>Plural</dt><dd><em>motels</em></dd><dt>Countability</dt><dd>countable</dd></dl>
+<p>A roadside hotel where you park right outside your room.</p>
+<ol><li>We stopped at a cheap <em>motel</em> off the interstate.</li><li>Old <em>motels</em> line that stretch of highway.</li><li>The <em>motel</em> had a vacancy sign out front.</li></ol>
+<hr>
+<h3 id="hostel">hostel<a class="hash" href="#hostel" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/ˈhɑːstəl/ &middot; <em>HAHS-tuhl</em></dd><dt>Русский</dt><dd>хостел</dd><dt>Plural</dt><dd><em>hostels</em></dd><dt>Countability</dt><dd>countable</dd><dt>Contrast</dt><dd>Close to hostile (unfriendly); the two are easy to mix up.</dd></dl>
+<p>Cheap lodging where travelers sleep in shared rooms.</p>
+<ol><li>We stayed in a <em>hostel</em> for twenty dollars a night.</li><li>The <em>hostels</em> here are clean and friendly.</li><li>The <em>hostel</em> has a kitchen you can use.</li></ol>
+<hr>
+<h3 id="inn">inn<a class="hash" href="#inn" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/ɪn/ &middot; <em>IN</em></dd><dt>Русский</dt><dd>гостиница, постоялый двор</dd><dt>Plural</dt><dd><em>inns</em></dd><dt>Countability</dt><dd>countable</dd><dt>Contrast</dt><dd>Sounds exactly like the preposition in.</dd></dl>
+<p>A small country hotel, often an old one.</p>
+<ol><li>We spent the night at a little <em>inn</em> by the river.</li><li>The town has two <em>inns</em> and no hotels.</li><li>The <em>inn</em> serves breakfast until ten.</li></ol>
+<hr>
+<h3 id="resort">resort<a class="hash" href="#resort" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/rɪˈzɔːrt/ &middot; <em>rih-ZORT</em></dd><dt>Русский</dt><dd>курорт</dd><dt>Plural</dt><dd><em>resorts</em></dd><dt>Countability</dt><dd>countable</dd></dl>
+<p>A hotel or place built for vacations, with pools, restaurants, and activities.</p>
+<ol><li>They stayed at a beach <em>resort</em> in Mexico.</li><li>Ski <em>resorts</em> open in late November.</li><li>The <em>resort</em> has three pools and a golf course.</li></ol>
+<hr>
+<h3 id="lodge">lodge<a class="hash" href="#lodge" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/lɑːdʒ/ &middot; <em>LAHJ</em></dd><dt>Русский</dt><dd>турбаза, гостиница на природе</dd><dt>Plural</dt><dd><em>lodges</em></dd><dt>Countability</dt><dd>countable</dd></dl>
+<p>A hotel or large cabin in the mountains, woods, or a park.</p>
+<ol><li>We booked a room at the park <em>lodge</em>.</li><li>Fishing <em>lodges</em> fill up early in the season.</li><li>The <em>lodge</em> has a huge stone fireplace.</li></ol>
+<hr>
+<h3 id="villa">villa<a class="hash" href="#villa" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/ˈvɪlə/ &middot; <em>VIL-uh</em></dd><dt>Русский</dt><dd>вилла</dd><dt>Plural</dt><dd><em>villas</em></dd><dt>Countability</dt><dd>countable</dd></dl>
+<p>A large comfortable house, often rented for a vacation.</p>
+<ol><li>They rented a <em>villa</em> with a private pool.</li><li>The <em>villas</em> sit on a hillside above the bay.</li><li>Our <em>villa</em> came with a cook.</li></ol>
+<hr>
+<h3 id="guesthouse">guesthouse<a class="hash" href="#guesthouse" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/ˈɡɛsthaʊs/ &middot; <em>GEST-hows</em></dd><dt>Русский</dt><dd>гостевой дом</dd><dt>Plural</dt><dd><em>guesthouses</em></dd><dt>Countability</dt><dd>countable</dd><dt>Contrast</dt><dd>The u after g is silent: GEST, not GYOOST.</dd></dl>
+<p>A small private house that rents rooms to travelers.</p>
+<ol><li>We found a family <em>guesthouse</em> near the market.</li><li>Small <em>guesthouses</em> cost half what the hotels do.</li><li>The <em>guesthouse</em> only has six rooms.</li></ol>
+<hr>
+<h3 id="reception">reception<a class="hash" href="#reception" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/rɪˈsɛpʃən/ &middot; <em>rih-SEP-shuhn</em></dd><dt>Русский</dt><dd>стойка регистрации, ресепшен</dd><dt>Plural</dt><dd><em>receptions</em></dd><dt>Countability</dt><dd>countable</dd></dl>
+<p>The desk or area in a hotel where guests check in.</p>
+<ol><li>Leave your key at <em>reception</em> when you go out.</li><li>Call <em>reception</em> if you need more towels.</li><li>The <em>reception</em> is open around the clock.</li></ol>
+<hr>
+<h3 id="concierge">concierge<a class="hash" href="#concierge" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/ˌkɑːnsiˈɛrʒ/ &middot; <em>kahn-see-AIRZH</em></dd><dt>Русский</dt><dd>консьерж</dd><dt>Plural</dt><dd><em>concierges</em></dd><dt>Countability</dt><dd>countable</dd><dt>Contrast</dt><dd>French borrowing: the final -ge is the zh sound in measure.</dd></dl>
+<p>A hotel employee who arranges tickets, tables, and tours for guests.</p>
+<ol><li>The <em>concierge</em> got us a table for eight.</li><li>Two <em>concierges</em> work the evening shift.</li><li>Ask the <em>concierge</em> about the museum hours.</li></ol>
+<hr>
+<h3 id="bellhop">bellhop<a class="hash" href="#bellhop" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/ˈbɛlhɑːp/ &middot; <em>BEL-hahp</em></dd><dt>Русский</dt><dd>коридорный, носильщик в отеле</dd><dt>Plural</dt><dd><em>bellhops</em></dd><dt>Countability</dt><dd>countable</dd></dl>
+<p>A hotel worker who carries guests' bags to their rooms.</p>
+<ol><li>The <em>bellhop</em> took our suitcases upstairs.</li><li>Two <em>bellhops</em> were waiting by the door.</li><li>I tipped the <em>bellhop</em> five dollars.</li></ol>
+<hr>
+<h3 id="porter">porter<a class="hash" href="#porter" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/ˈpɔːrtər/ &middot; <em>POR-tur</em></dd><dt>Русский</dt><dd>носильщик</dd><dt>Plural</dt><dd><em>porters</em></dd><dt>Countability</dt><dd>countable</dd></dl>
+<p>A person paid to carry luggage at a station, airport, or hotel.</p>
+<ol><li>A <em>porter</em> helped us with the trunks.</li><li>The <em>porters</em> line up outside the station.</li><li>We hired a <em>porter</em> to carry the gear up the trail.</li></ol>
+<hr>
+<h3 id="housekeeping">housekeeping<a class="hash" href="#housekeeping" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/ˈhaʊskiːpɪŋ/ &middot; <em>HOWS-kee-ping</em></dd><dt>Русский</dt><dd>служба уборки номеров</dd><dt>Countability</dt><dd>uncountable</dd></dl>
+<p>The hotel staff and service that clean the rooms.</p>
+<ol><li><em>Housekeeping</em> comes around eleven.</li><li>I called <em>housekeeping</em> for extra pillows.</li><li>Hang the sign if you don't want <em>housekeeping</em>.</li></ol>
+<hr>
+<h3 id="minibar">minibar<a class="hash" href="#minibar" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/ˈmɪnibɑːr/ &middot; <em>MIN-ee-bar</em></dd><dt>Русский</dt><dd>мини-бар</dd><dt>Plural</dt><dd><em>minibars</em></dd><dt>Countability</dt><dd>countable</dd></dl>
+<p>A small refrigerator of drinks and snacks in a hotel room.</p>
+<ol><li>Don't touch the <em>minibar</em>; it costs a fortune.</li><li>Some rooms have <em>minibars</em> and some don't.</li><li>He charged two sodas from the <em>minibar</em>.</li></ol>
+<hr>
+<h3 id="checkout">checkout<a class="hash" href="#checkout" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/ˈtʃɛkaʊt/ &middot; <em>CHEK-owt</em></dd><dt>Русский</dt><dd>выезд из отеля, расчётный час</dd><dt>Plural</dt><dd><em>checkouts</em></dd><dt>Countability</dt><dd>countable</dd></dl>
+<p>The time or act of leaving a hotel and paying at the end of a stay.</p>
+<ol><li><em>Checkout</em> is at eleven in the morning.</li><li>Late <em>checkouts</em> cost an extra thirty dollars.</li><li>We left our bags at the desk after <em>checkout</em>.</li></ol>
+<hr>
+<h3 id="check-in">check-in<a class="hash" href="#check-in" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/ˈtʃɛkɪn/ &middot; <em>CHEK-in</em></dd><dt>Русский</dt><dd>регистрация, заселение</dd><dt>Plural</dt><dd><em>check-ins</em></dd><dt>Countability</dt><dd>countable</dd></dl>
+<p>The act of registering on arrival at a hotel or airport.</p>
+<ol><li><em>Check-in</em> starts at three o'clock.</li><li>Online <em>check-ins</em> open a day before the flight.</li><li>The <em>check-in</em> line stretched out the door.</li></ol>
+<hr>
+<h3 id="amenity">amenity<a class="hash" href="#amenity" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/əˈmɛnəti/ &middot; <em>uh-MEN-ih-tee</em></dd><dt>Русский</dt><dd>удобство, услуга (в отеле)</dd><dt>Plural</dt><dd><em>amenities</em></dd><dt>Countability</dt><dd>countable</dd></dl>
+<p>A feature or service that makes a place more comfortable.</p>
+<ol><li>A gym is a standard <em>amenity</em> in that chain.</li><li>The listing describes all the <em>amenities</em>.</li><li>Free parking is the one <em>amenity</em> I actually use.</li></ol>
+<hr>
+<h3 id="campsite">campsite<a class="hash" href="#campsite" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/ˈkæmpsaɪt/ &middot; <em>KAMP-syt</em></dd><dt>Русский</dt><dd>место для палатки, кемпинг</dd><dt>Plural</dt><dd><em>campsites</em></dd><dt>Countability</dt><dd>countable</dd></dl>
+<p>A spot where you set up a tent or park a camper.</p>
+<ol><li>We reserved a <em>campsite</em> by the lake.</li><li>All the <em>campsites</em> were taken by noon.</li><li>Our <em>campsite</em> had a fire ring and a picnic table.</li></ol>
+<hr>
+<h3 id="camping">camping<a class="hash" href="#camping" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/ˈkæmpɪŋ/ &middot; <em>KAM-ping</em></dd><dt>Русский</dt><dd>кемпинг, отдых в палатках</dd><dt>Countability</dt><dd>uncountable</dd></dl>
+<p>The activity of staying outdoors in a tent or camper.</p>
+<ol><li>We go <em>camping</em> every Labor Day weekend.</li><li><em>Camping</em> is not allowed outside the marked areas.</li><li>She bought all new <em>camping</em> gear.</li></ol>
+<hr>
+<h3 id="tent">tent<a class="hash" href="#tent" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/tɛnt/ &middot; <em>TENT</em></dd><dt>Русский</dt><dd>палатка</dd><dt>Plural</dt><dd><em>tents</em></dd><dt>Countability</dt><dd>countable</dd></dl>
+<p>A shelter of cloth stretched over poles, used for sleeping outdoors.</p>
+<ol><li>It took us an hour to put up the <em>tent</em>.</li><li>Three <em>tents</em> were pitched along the creek.</li><li>Rain came through the roof of the <em>tent</em>.</li></ol>
+<hr>
+<h3 id="campfire">campfire<a class="hash" href="#campfire" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/ˈkæmpfaɪrr/ &middot; <em>KAMP-fyr</em></dd><dt>Русский</dt><dd>костёр</dd><dt>Plural</dt><dd><em>campfires</em></dd><dt>Countability</dt><dd>countable</dd></dl>
+<p>An outdoor fire built at a camp for warmth or cooking.</p>
+<ol><li>We sat around the <em>campfire</em> until midnight.</li><li><em>Campfires</em> are banned during the dry season.</li><li>He cooked the whole dinner over a <em>campfire</em>.</li></ol>
+<hr>
+<h3 id="trailer">trailer<a class="hash" href="#trailer" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/ˈtreɪlər/ &middot; <em>TRAY-lur</em></dd><dt>Русский</dt><dd>прицеп; жилой прицеп</dd><dt>Plural</dt><dd><em>trailers</em></dd><dt>Countability</dt><dd>countable</dd></dl>
+<p>A vehicle without an engine that is pulled behind a car or truck.</p>
+<ol><li>They tow a small <em>trailer</em> behind the pickup.</li><li>Half the <em>trailers</em> in the park are permanent.</li><li>We slept in the <em>trailer</em> instead of a tent.</li></ol>
+<hr>
+<h3 id="motorhome">motorhome<a class="hash" href="#motorhome" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/ˈmoʊtərhoʊm/ &middot; <em>MOH-tur-hohm</em></dd><dt>Русский</dt><dd>автодом</dd><dt>Plural</dt><dd><em>motorhomes</em></dd><dt>Countability</dt><dd>countable</dd><dt>Contrast</dt><dd>Usually called an RV in everyday American speech.</dd></dl>
+<p>A large vehicle you can drive and live in on a trip.</p>
+<ol><li>They toured the whole country in a <em>motorhome</em>.</li><li><em>Motorhomes</em> need a special place to park overnight.</li><li>The <em>motorhome</em> sleeps six people.</li></ol>
+<hr>
+<h3 id="train">train<a class="hash" href="#train" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/treɪn/ &middot; <em>TRAYN</em></dd><dt>Русский</dt><dd>поезд</dd><dt>Plural</dt><dd><em>trains</em></dd><dt>Countability</dt><dd>countable</dd></dl>
+<p>A line of connected railroad cars pulled along tracks.</p>
+<ol><li>The <em>train</em> to Boston leaves at 7:15.</li><li><em>Trains</em> run every twenty minutes on weekdays.</li><li>We took the night <em>train</em> to save on a hotel.</li></ol>
+<hr>
+<h3 id="station">station<a class="hash" href="#station" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/ˈsteɪʃən/ &middot; <em>STAY-shuhn</em></dd><dt>Русский</dt><dd>вокзал, станция</dd><dt>Plural</dt><dd><em>stations</em></dd><dt>Countability</dt><dd>countable</dd></dl>
+<p>A building where trains or buses stop for passengers.</p>
+<ol><li>Meet me at the <em>station</em> at six.</li><li>The line has forty <em>stations</em>.</li><li>There's a coffee shop inside the <em>station</em>.</li></ol>
+<hr>
+<h3 id="platform">platform<a class="hash" href="#platform" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/ˈplætfɔːrm/ &middot; <em>PLAT-form</em></dd><dt>Русский</dt><dd>платформа, перрон</dd><dt>Plural</dt><dd><em>platforms</em></dd><dt>Countability</dt><dd>countable</dd></dl>
+<p>The raised walkway beside the track where passengers wait.</p>
+<ol><li>Our train leaves from <em>platform</em> nine.</li><li>Both <em>platforms</em> were packed with commuters.</li><li>Stand back from the edge of the <em>platform</em>.</li></ol>
+<hr>
+<h3 id="railroad">railroad<a class="hash" href="#railroad" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/ˈreɪlroʊd/ &middot; <em>RAYL-rohd</em></dd><dt>Русский</dt><dd>железная дорога</dd><dt>Plural</dt><dd><em>railroads</em></dd><dt>Countability</dt><dd>countable</dd><dt>Contrast</dt><dd>American railroad; the British say railway.</dd></dl>
+<p>A system of tracks and trains, or the company that runs it.</p>
+<ol><li>The <em>railroad</em> runs right through the middle of town.</li><li>Two <em>railroads</em> merged last year.</li><li>His grandfather worked for the <em>railroad</em>.</li></ol>
+<hr>
+<h3 id="subway">subway<a class="hash" href="#subway" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/ˈsʌbweɪ/ &middot; <em>SUHB-way</em></dd><dt>Русский</dt><dd>метро</dd><dt>Plural</dt><dd><em>subways</em></dd><dt>Countability</dt><dd>countable</dd><dt>Contrast</dt><dd>In the US a subway is the underground train; in Britain it is a pedestrian tunnel.</dd></dl>
+<p>An underground city train system.</p>
+<ol><li>Take the <em>subway</em>; it's faster than a cab.</li><li>Few American cities have real <em>subways</em>.</li><li>The <em>subway</em> runs all night here.</li></ol>
+<hr>
+<h3 id="bus">bus<a class="hash" href="#bus" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/bʌs/ &middot; <em>BUHS</em></dd><dt>Русский</dt><dd>автобус</dd><dt>Plural</dt><dd><em>buses</em></dd><dt>Countability</dt><dd>countable</dd><dt>Contrast</dt><dd>Standard American plural is buses with one s; busses is rare.</dd></dl>
+<p>A large road vehicle that carries many passengers.</p>
+<ol><li>The airport <em>bus</em> leaves every fifteen minutes.</li><li>Two <em>buses</em> went by before ours came.</li><li>We took a <em>bus</em> across the state.</li></ol>
+<hr>
+<h3 id="shuttle">shuttle<a class="hash" href="#shuttle" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/ˈʃʌtəl/ &middot; <em>SHUH-tuhl</em></dd><dt>Русский</dt><dd>шаттл, челночный автобус</dd><dt>Plural</dt><dd><em>shuttles</em></dd><dt>Countability</dt><dd>countable</dd></dl>
+<p>A bus or van that goes back and forth over a short route.</p>
+<ol><li>The hotel <em>shuttle</em> picks you up at door three.</li><li><em>Shuttles</em> run every ten minutes to the parking lot.</li><li>We missed the last <em>shuttle</em> and had to walk.</li></ol>
+<hr>
+<h3 id="taxi">taxi<a class="hash" href="#taxi" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/ˈtæksi/ &middot; <em>TAK-see</em></dd><dt>Русский</dt><dd>такси</dd><dt>Plural</dt><dd><em>taxis</em></dd><dt>Countability</dt><dd>countable</dd></dl>
+<p>A car with a driver that you pay to take you somewhere.</p>
+<ol><li>We caught a <em>taxi</em> outside the terminal.</li><li><em>Taxis</em> line up along the curb.</li><li>The <em>taxi</em> dropped us at the wrong hotel.</li></ol>
+<hr>
+<h3 id="cab">cab<a class="hash" href="#cab" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/kæb/ &middot; <em>KAB</em></dd><dt>Русский</dt><dd>такси</dd><dt>Plural</dt><dd><em>cabs</em></dd><dt>Countability</dt><dd>countable</dd></dl>
+<p>A taxi, in everyday American speech.</p>
+<ol><li>Let's just take a <em>cab</em>.</li><li>No <em>cabs</em> were out in that snowstorm.</li><li>The <em>cab</em> ride cost more than the train ticket.</li></ol>
+<hr>
+<h3 id="compartment">compartment<a class="hash" href="#compartment" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/kəmˈpɑːrtmənt/ &middot; <em>kuhm-PART-muhnt</em></dd><dt>Русский</dt><dd>отсек; купе</dd><dt>Plural</dt><dd><em>compartments</em></dd><dt>Countability</dt><dd>countable</dd></dl>
+<p>A separate closed section inside a vehicle or a piece of furniture.</p>
+<ol><li>Put your bag in the overhead <em>compartment</em>.</li><li>The sleeper car has six <em>compartments</em>.</li><li>The maps are in the glove <em>compartment</em>.</li></ol>
+<hr>
+<h3 id="highway">highway<a class="hash" href="#highway" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/ˈhaɪweɪ/ &middot; <em>HY-way</em></dd><dt>Русский</dt><dd>шоссе, магистраль</dd><dt>Plural</dt><dd><em>highways</em></dd><dt>Countability</dt><dd>countable</dd></dl>
+<p>A main public road between towns and cities.</p>
+<ol><li>Get on the <em>highway</em> and go north.</li><li>The state built two new <em>highways</em> out west.</li><li>There's a diner right off the <em>highway</em>.</li></ol>
+<hr>
+<h3 id="freeway">freeway<a class="hash" href="#freeway" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/ˈfriːweɪ/ &middot; <em>FREE-way</em></dd><dt>Русский</dt><dd>скоростная автомагистраль</dd><dt>Plural</dt><dd><em>freeways</em></dd><dt>Countability</dt><dd>countable</dd></dl>
+<p>A wide highway with no traffic lights and no toll.</p>
+<ol><li>The <em>freeway</em> was backed up for miles.</li><li>Los Angeles is built around its <em>freeways</em>.</li><li>Take the <em>freeway</em> if you're in a hurry.</li></ol>
+<hr>
+<h3 id="route">route<a class="hash" href="#route" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/ruːt/ &middot; <em>ROOT</em></dd><dt>Русский</dt><dd>маршрут, дорога</dd><dt>Plural</dt><dd><em>routes</em></dd><dt>Countability</dt><dd>countable</dd><dt>Contrast</dt><dd>Many Americans also say it like rout, rhyming with out.</dd></dl>
+<p>The way you go from one place to another.</p>
+<ol><li>The scenic <em>route</em> adds an hour.</li><li>Both <em>routes</em> end up at the same lake.</li><li>We planned our <em>route</em> the night before.</li></ol>
+<hr>
+<h3 id="toll">toll<a class="hash" href="#toll" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/toʊl/ &middot; <em>TOHL</em></dd><dt>Русский</dt><dd>плата за проезд (по дороге, мосту)</dd><dt>Plural</dt><dd><em>tolls</em></dd><dt>Countability</dt><dd>countable</dd></dl>
+<p>Money you pay to use a road, bridge, or tunnel.</p>
+<ol><li>The <em>toll</em> on that bridge is nine dollars.</li><li><em>Tolls</em> add up fast on the turnpike.</li><li>We paid the <em>toll</em> with a transponder.</li></ol>
+<hr>
+<h3 id="detour">detour<a class="hash" href="#detour" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/ˈdiːtʊr/ &middot; <em>DEE-toor</em></dd><dt>Русский</dt><dd>объезд</dd><dt>Plural</dt><dd><em>detours</em></dd><dt>Countability</dt><dd>countable</dd></dl>
+<p>A longer way around when the direct road is closed.</p>
+<ol><li>Construction forced a <em>detour</em> through the old town.</li><li>There were two <em>detours</em> on the way up.</li><li>The <em>detour</em> cost us forty minutes.</li></ol>
+<hr>
+<h3 id="rental">rental<a class="hash" href="#rental" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/ˈrɛntəl/ &middot; <em>REN-tuhl</em></dd><dt>Русский</dt><dd>аренда; арендованная машина</dd><dt>Plural</dt><dd><em>rentals</em></dd><dt>Countability</dt><dd>countable</dd></dl>
+<p>Something you pay to use for a while, especially a car.</p>
+<ol><li>We picked up the <em>rental</em> at the airport.</li><li>Vacation <em>rentals</em> get expensive in July.</li><li>Return the <em>rental</em> with a full tank.</li></ol>
+<hr>
+<h3 id="sidewalk">sidewalk<a class="hash" href="#sidewalk" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/ˈsaɪdwɔːk/ &middot; <em>SYD-wawk</em></dd><dt>Русский</dt><dd>тротуар</dd><dt>Plural</dt><dd><em>sidewalks</em></dd><dt>Countability</dt><dd>countable</dd><dt>Contrast</dt><dd>American sidewalk; the British say pavement.</dd></dl>
+<p>The paved path along the side of a street for people on foot.</p>
+<ol><li>Tables were set out on the <em>sidewalk</em>.</li><li>The <em>sidewalks</em> were icy that morning.</li><li>Walk on the <em>sidewalk</em>, not in the road.</li></ol>
+<hr>
+<h3 id="crosswalk">crosswalk<a class="hash" href="#crosswalk" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/ˈkrɔːswɔːk/ &middot; <em>KRAWS-wawk</em></dd><dt>Русский</dt><dd>пешеходный переход</dd><dt>Plural</dt><dd><em>crosswalks</em></dd><dt>Countability</dt><dd>countable</dd><dt>Contrast</dt><dd>American crosswalk; the British say zebra crossing.</dd></dl>
+<p>The marked strip where people are supposed to cross the street.</p>
+<ol><li>Wait for the light and use the <em>crosswalk</em>.</li><li>The city painted new <em>crosswalks</em> downtown.</li><li>A car stopped short of the <em>crosswalk</em>.</li></ol>
+<hr>
+<h3 id="pedestrian">pedestrian<a class="hash" href="#pedestrian" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/pəˈdɛstriən/ &middot; <em>puh-DES-tree-uhn</em></dd><dt>Русский</dt><dd>пешеход</dd><dt>Plural</dt><dd><em>pedestrians</em></dd><dt>Countability</dt><dd>countable</dd></dl>
+<p>A person walking rather than driving.</p>
+<ol><li>A <em>pedestrian</em> stepped out in front of the bus.</li><li><em>Pedestrians</em> have the right of way here.</li><li>That street is closed to cars and open to <em>pedestrian</em> traffic.</li></ol>
+<hr>
+<h3 id="intersection">intersection<a class="hash" href="#intersection" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/ˌɪntərˈsɛkʃən/ &middot; <em>in-tur-SEK-shuhn</em></dd><dt>Русский</dt><dd>перекрёсток</dd><dt>Plural</dt><dd><em>intersections</em></dd><dt>Countability</dt><dd>countable</dd></dl>
+<p>The place where two roads cross.</p>
+<ol><li>Turn left at the next <em>intersection</em>.</li><li>Three <em>intersections</em> down, you'll see the museum.</li><li>The <em>intersection</em> has a four-way stop.</li></ol>
+<hr>
+<h3 id="roundabout">roundabout<a class="hash" href="#roundabout" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/ˈraʊndəbaʊt/ &middot; <em>ROWND-uh-bowt</em></dd><dt>Русский</dt><dd>круговой перекрёсток</dd><dt>Plural</dt><dd><em>roundabouts</em></dd><dt>Countability</dt><dd>countable</dd><dt>Contrast</dt><dd>Also called a traffic circle in much of the US.</dd></dl>
+<p>A circular junction that traffic drives around.</p>
+<ol><li>Take the second exit off the <em>roundabout</em>.</li><li>The town put in two <em>roundabouts</em> last year.</li><li>I went around the <em>roundabout</em> twice by mistake.</li></ol>
+<hr>
+<h3 id="parking">parking<a class="hash" href="#parking" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/ˈpɑːrkɪŋ/ &middot; <em>PAR-king</em></dd><dt>Русский</dt><dd>парковка, стоянка</dd><dt>Countability</dt><dd>uncountable</dd></dl>
+<p>Space where vehicles may be left, or the act of leaving them there.</p>
+<ol><li>The hotel charges forty dollars for <em>parking</em>.</li><li>There's free <em>parking</em> behind the building.</li><li>Street <em>parking</em> is impossible on game days.</li></ol>
+<hr>
+<h3 id="windshield">windshield<a class="hash" href="#windshield" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/ˈwɪndʃiːld/ &middot; <em>WIND-sheeld</em></dd><dt>Русский</dt><dd>лобовое стекло</dd><dt>Plural</dt><dd><em>windshields</em></dd><dt>Countability</dt><dd>countable</dd><dt>Contrast</dt><dd>American windshield; the British say windscreen.</dd></dl>
+<p>The large window at the front of a car.</p>
+<ol><li>A rock cracked our <em>windshield</em> on the highway.</li><li>Both <em>windshields</em> were covered in frost.</li><li>Clean the <em>windshield</em> before we drive at night.</li></ol>
+<hr>
+<h3 id="commuter">commuter<a class="hash" href="#commuter" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/kəˈmjuːtər/ &middot; <em>kuh-MYOO-tur</em></dd><dt>Русский</dt><dd>человек, ежедневно ездящий на работу издалека</dd><dt>Plural</dt><dd><em>commuters</em></dd><dt>Countability</dt><dd>countable</dd></dl>
+<p>A person who travels a distance to work and back every day.</p>
+<ol><li>The 7:40 is packed with <em>commuters</em>.</li><li>As a <em>commuter</em> he spends two hours a day on the train.</li><li><em>Commuter</em> traffic clears up after nine.</li></ol>
+<hr>
+<h3 id="hitchhiker">hitchhiker<a class="hash" href="#hitchhiker" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/ˈhɪtʃhaɪkər/ &middot; <em>HICH-hy-kur</em></dd><dt>Русский</dt><dd>автостопщик</dd><dt>Plural</dt><dd><em>hitchhikers</em></dd><dt>Countability</dt><dd>countable</dd></dl>
+<p>Someone who travels by getting free rides from passing drivers.</p>
+<ol><li>We picked up a <em>hitchhiker</em> outside Reno.</li><li>You hardly see <em>hitchhikers</em> on this road anymore.</li><li>The <em>hitchhiker</em> was headed for the coast.</li></ol>
+<hr>
+<h3 id="ferry">ferry<a class="hash" href="#ferry" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/ˈfɛri/ &middot; <em>FAIR-ee</em></dd><dt>Русский</dt><dd>паром</dd><dt>Plural</dt><dd><em>ferries</em></dd><dt>Countability</dt><dd>countable</dd></dl>
+<p>A boat that carries people and cars regularly across water.</p>
+<ol><li>The <em>ferry</em> to the island runs twice a day.</li><li>Both <em>ferries</em> were canceled because of wind.</li><li>We ate breakfast on the <em>ferry</em>.</li></ol>
+<hr>
+<h3 id="ship">ship<a class="hash" href="#ship" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/ʃɪp/ &middot; <em>SHIP</em></dd><dt>Русский</dt><dd>корабль, судно</dd><dt>Plural</dt><dd><em>ships</em></dd><dt>Countability</dt><dd>countable</dd></dl>
+<p>A large vessel that travels on the ocean.</p>
+<ol><li>The cruise <em>ship</em> holds three thousand passengers.</li><li>Cargo <em>ships</em> waited outside the harbor.</li><li>Our <em>ship</em> docks at seven in the morning.</li></ol>
+<hr>
+<h3 id="boat">boat<a class="hash" href="#boat" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/boʊt/ &middot; <em>BOHT</em></dd><dt>Русский</dt><dd>лодка, катер</dd><dt>Plural</dt><dd><em>boats</em></dd><dt>Countability</dt><dd>countable</dd></dl>
+<p>A small vessel for traveling on water.</p>
+<ol><li>We rented a <em>boat</em> for the afternoon.</li><li>Fishing <em>boats</em> filled the little harbor.</li><li>The <em>boat</em> takes you right up to the falls.</li></ol>
+<hr>
+<h3 id="yacht">yacht<a class="hash" href="#yacht" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/jɑːt/ &middot; <em>YAHT</em></dd><dt>Русский</dt><dd>яхта</dd><dt>Plural</dt><dd><em>yachts</em></dd><dt>Countability</dt><dd>countable</dd><dt>Contrast</dt><dd>The ch is silent: YAHT, not YATCH.</dd></dl>
+<p>An expensive boat used for pleasure trips or racing.</p>
+<ol><li>A white <em>yacht</em> was anchored in the bay.</li><li>The marina is full of <em>yachts</em> in the summer.</li><li>They chartered a <em>yacht</em> for a week.</li></ol>
+<hr>
+<h3 id="port">port<a class="hash" href="#port" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/pɔːrt/ &middot; <em>PORT</em></dd><dt>Русский</dt><dd>порт</dd><dt>Plural</dt><dd><em>ports</em></dd><dt>Countability</dt><dd>countable</dd></dl>
+<p>A town or harbor where ships load and unload.</p>
+<ol><li>The ship reached <em>port</em> just before dawn.</li><li>The cruise stops at four <em>ports</em>.</li><li>It's the busiest <em>port</em> on the coast.</li></ol>
+<hr>
+<h3 id="dock">dock<a class="hash" href="#dock" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/dɑːk/ &middot; <em>DAHK</em></dd><dt>Русский</dt><dd>причал, док</dd><dt>Plural</dt><dd><em>docks</em></dd><dt>Countability</dt><dd>countable</dd></dl>
+<p>A structure at the edge of water where boats tie up.</p>
+<ol><li>We waited on the <em>dock</em> for the ferry.</li><li>The old <em>docks</em> have been turned into restaurants.</li><li>He tied the boat to the <em>dock</em>.</li></ol>
+<hr>
+<h3 id="pier">pier<a class="hash" href="#pier" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/pɪr/ &middot; <em>PEER</em></dd><dt>Русский</dt><dd>пирс, причал</dd><dt>Plural</dt><dd><em>piers</em></dd><dt>Countability</dt><dd>countable</dd><dt>Contrast</dt><dd>Sounds exactly like peer (to look closely, or an equal).</dd></dl>
+<p>A long platform built out over water for boats or for walking.</p>
+<ol><li>We walked out to the end of the <em>pier</em>.</li><li>Two wooden <em>piers</em> stretch into the lake.</li><li>There's a carousel on the <em>pier</em>.</li></ol>
+<hr>
+<h3 id="marina">marina<a class="hash" href="#marina" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/məˈriːnə/ &middot; <em>muh-REE-nuh</em></dd><dt>Русский</dt><dd>марина, пристань для яхт</dd><dt>Plural</dt><dd><em>marinas</em></dd><dt>Countability</dt><dd>countable</dd></dl>
+<p>A small harbor where private boats are kept.</p>
+<ol><li>His sailboat is docked at the <em>marina</em>.</li><li>Both <em>marinas</em> were damaged by the hurricane.</li><li>There's a seafood place next to the <em>marina</em>.</li></ol>
+<hr>
+<h3 id="lighthouse">lighthouse<a class="hash" href="#lighthouse" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/ˈlaɪthaʊs/ &middot; <em>LYT-hows</em></dd><dt>Русский</dt><dd>маяк</dd><dt>Plural</dt><dd><em>lighthouses</em></dd><dt>Countability</dt><dd>countable</dd></dl>
+<p>A tower with a bright light that warns ships of the shore.</p>
+<ol><li>You can climb the <em>lighthouse</em> for three dollars.</li><li>Old <em>lighthouses</em> dot the whole coastline.</li><li>The <em>lighthouse</em> still flashes every ten seconds.</li></ol>
+<hr>
+<h3 id="sailor">sailor<a class="hash" href="#sailor" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/ˈseɪlər/ &middot; <em>SAY-lur</em></dd><dt>Русский</dt><dd>моряк, матрос</dd><dt>Plural</dt><dd><em>sailors</em></dd><dt>Countability</dt><dd>countable</dd></dl>
+<p>A person who works on a ship or sails a boat.</p>
+<ol><li>The <em>sailor</em> showed us how to tie the knot.</li><li><em>Sailors</em> filled every bar in the port.</li><li>She's a better <em>sailor</em> than anyone in the club.</li></ol>
+<hr>
+<h3 id="crossing">crossing<a class="hash" href="#crossing" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/ˈkrɔːsɪŋ/ &middot; <em>KRAW-sing</em></dd><dt>Русский</dt><dd>переправа; переезд</dd><dt>Plural</dt><dd><em>crossings</em></dd><dt>Countability</dt><dd>countable</dd></dl>
+<p>A trip across water, or a place where you cross something.</p>
+<ol><li>The <em>crossing</em> took six hours in rough seas.</li><li>There are two border <em>crossings</em> nearby.</li><li>Slow down at the railroad <em>crossing</em>.</li></ol>
+<hr>
+<h3 id="landmark">landmark<a class="hash" href="#landmark" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/ˈlændmɑːrk/ &middot; <em>LAND-mark</em></dd><dt>Русский</dt><dd>достопримечательность; ориентир</dd><dt>Plural</dt><dd><em>landmarks</em></dd><dt>Countability</dt><dd>countable</dd></dl>
+<p>A well-known building or feature that helps you recognize a place.</p>
+<ol><li>The old clock tower is a city <em>landmark</em>.</li><li>We saw all the usual <em>landmarks</em> in one day.</li><li>The bridge is the most photographed <em>landmark</em> here.</li></ol>
+<hr>
+<h3 id="monument">monument<a class="hash" href="#monument" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/ˈmɑːnjəmənt/ &middot; <em>MAHN-yuh-muhnt</em></dd><dt>Русский</dt><dd>памятник, монумент</dd><dt>Plural</dt><dd><em>monuments</em></dd><dt>Countability</dt><dd>countable</dd></dl>
+<p>A structure built to remember a person or an event.</p>
+<ol><li>A stone <em>monument</em> stands in the square.</li><li>The park is full of war <em>monuments</em>.</li><li>They laid flowers at the <em>monument</em>.</li></ol>
+<hr>
+<h3 id="cathedral">cathedral<a class="hash" href="#cathedral" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/kəˈθiːdrəl/ &middot; <em>kuh-THEE-druhl</em></dd><dt>Русский</dt><dd>собор</dd><dt>Plural</dt><dd><em>cathedrals</em></dd><dt>Countability</dt><dd>countable</dd></dl>
+<p>A very large and important church.</p>
+<ol><li>The <em>cathedral</em> took two hundred years to build.</li><li>We visited three <em>cathedrals</em> in one week.</li><li>You can hear the <em>cathedral</em> bells from our room.</li></ol>
+<hr>
+<h3 id="castle">castle<a class="hash" href="#castle" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/ˈkæsəl/ &middot; <em>KAS-uhl</em></dd><dt>Русский</dt><dd>замок (крепость)</dd><dt>Plural</dt><dd><em>castles</em></dd><dt>Countability</dt><dd>countable</dd><dt>Contrast</dt><dd>The t is silent: KAS-uhl, not KAST-uhl.</dd></dl>
+<p>A large old building with thick walls, built for defense.</p>
+<ol><li>The <em>castle</em> sits on a hill above the river.</li><li>Ruined <em>castles</em> are everywhere in that valley.</li><li>Tickets to the <em>castle</em> are twelve euros.</li></ol>
+<hr>
+<h3 id="palace">palace<a class="hash" href="#palace" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/ˈpæləs/ &middot; <em>PAL-uhs</em></dd><dt>Русский</dt><dd>дворец</dd><dt>Plural</dt><dd><em>palaces</em></dd><dt>Countability</dt><dd>countable</dd></dl>
+<p>A grand house where a ruler lives or once lived.</p>
+<ol><li>The <em>palace</em> gardens are open to the public.</li><li>Both <em>palaces</em> were built in the same century.</li><li>We toured the <em>palace</em> with an audio guide.</li></ol>
+<hr>
+<h3 id="ruins">ruins<a class="hash" href="#ruins" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/ˈruːɪnz/ &middot; <em>ROO-inz</em></dd><dt>Русский</dt><dd>руины, развалины</dd><dt>Plural</dt><dd><em>ruins</em></dd><dt>Countability</dt><dd>countable</dd><dt>Contrast</dt><dd>In this sense the word is used only in the plural: the ruins, not a ruin.</dd></dl>
+<p>What is left standing of an old destroyed building.</p>
+<ol><li>We hiked up to the <em>ruins</em> at sunrise.</li><li>The <em>ruins</em> date from the second century.</li><li>Only a few <em>ruins</em> remain of the old fort.</li></ol>
+<hr>
+<h3 id="shrine">shrine<a class="hash" href="#shrine" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/ʃraɪn/ &middot; <em>SHRYN</em></dd><dt>Русский</dt><dd>святыня, храм</dd><dt>Plural</dt><dd><em>shrines</em></dd><dt>Countability</dt><dd>countable</dd></dl>
+<p>A holy place devoted to a saint, god, or memory.</p>
+<ol><li>Pilgrims come to the <em>shrine</em> every August.</li><li>Small <em>shrines</em> stand along the mountain path.</li><li>The <em>shrine</em> is at the top of the steps.</li></ol>
+<hr>
+<h3 id="mosque">mosque<a class="hash" href="#mosque" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/mɑːsk/ &middot; <em>MAHSK</em></dd><dt>Русский</dt><dd>мечеть</dd><dt>Plural</dt><dd><em>mosques</em></dd><dt>Countability</dt><dd>countable</dd><dt>Contrast</dt><dd>The -que is a plain sk sound: MAHSK.</dd></dl>
+<p>A building where Muslims gather to pray.</p>
+<ol><li>The blue <em>mosque</em> is the city's main sight.</li><li>There are dozens of <em>mosques</em> in the old quarter.</li><li>Cover your head before entering the <em>mosque</em>.</li></ol>
+<hr>
+<h3 id="fountain">fountain<a class="hash" href="#fountain" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/ˈfaʊntən/ &middot; <em>FOWN-tuhn</em></dd><dt>Русский</dt><dd>фонтан</dd><dt>Plural</dt><dd><em>fountains</em></dd><dt>Countability</dt><dd>countable</dd></dl>
+<p>A structure that shoots water into the air, usually for decoration.</p>
+<ol><li>Meet me by the <em>fountain</em> in the square.</li><li>The <em>fountains</em> are turned off in winter.</li><li>Tourists throw coins into the <em>fountain</em>.</li></ol>
+<hr>
+<h3 id="plaza">plaza<a class="hash" href="#plaza" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/ˈplɑːzə/ &middot; <em>PLAH-zuh</em></dd><dt>Русский</dt><dd>площадь</dd><dt>Plural</dt><dd><em>plazas</em></dd><dt>Countability</dt><dd>countable</dd></dl>
+<p>An open public square in a town or city.</p>
+<ol><li>The band played in the main <em>plaza</em>.</li><li>Cafes surround both <em>plazas</em>.</li><li>Kids were kicking a ball around the <em>plaza</em>.</li></ol>
+<hr>
+<h3 id="bridge">bridge<a class="hash" href="#bridge" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/brɪdʒ/ &middot; <em>BRIJ</em></dd><dt>Русский</dt><dd>мост</dd><dt>Plural</dt><dd><em>bridges</em></dd><dt>Countability</dt><dd>countable</dd></dl>
+<p>A structure built to carry a road or path over water or a gap.</p>
+<ol><li>The <em>bridge</em> is closed for repairs.</li><li>Seven <em>bridges</em> cross the river downtown.</li><li>You get the best view from the middle of the <em>bridge</em>.</li></ol>
+<hr>
+<h3 id="attraction">attraction<a class="hash" href="#attraction" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/əˈtrækʃən/ &middot; <em>uh-TRAK-shuhn</em></dd><dt>Русский</dt><dd>достопримечательность</dd><dt>Plural</dt><dd><em>attractions</em></dd><dt>Countability</dt><dd>countable</dd></dl>
+<p>A place that people come to see or enjoy.</p>
+<ol><li>The falls are the biggest <em>attraction</em> in the state.</li><li>Most of the <em>attractions</em> are within walking distance.</li><li>That museum is a major tourist <em>attraction</em>.</li></ol>
+<hr>
+<h3 id="overlook">overlook<a class="hash" href="#overlook" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/ˈoʊvərlʊk/ &middot; <em>OH-vur-luuk</em></dd><dt>Русский</dt><dd>смотровая площадка</dd><dt>Plural</dt><dd><em>overlooks</em></dd><dt>Countability</dt><dd>countable</dd><dt>Contrast</dt><dd>The noun stresses the first syllable, OH-vur-luuk; the verb stresses the last, oh-vur-LUUK.</dd></dl>
+<p>A high spot with a view, usually with a place to park.</p>
+<ol><li>Pull over at the next <em>overlook</em>.</li><li>There are three <em>overlooks</em> along the canyon road.</li><li>We watched the sunset from the <em>overlook</em>.</li></ol>
+<hr>
+<h3 id="guide">guide<a class="hash" href="#guide" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/ɡaɪd/ &middot; <em>GYD</em></dd><dt>Русский</dt><dd>гид, экскурсовод</dd><dt>Plural</dt><dd><em>guides</em></dd><dt>Countability</dt><dd>countable</dd></dl>
+<p>A person who shows visitors around a place and explains it.</p>
+<ol><li>Our <em>guide</em> spoke perfect English.</li><li>The park hires <em>guides</em> for the summer season.</li><li>Ask the <em>guide</em> how old the church is.</li></ol>
+<hr>
+<h3 id="guidebook">guidebook<a class="hash" href="#guidebook" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/ˈɡaɪdbʊk/ &middot; <em>GYD-buuk</em></dd><dt>Русский</dt><dd>путеводитель</dd><dt>Plural</dt><dd><em>guidebooks</em></dd><dt>Countability</dt><dd>countable</dd></dl>
+<p>A book of information for travelers visiting a place.</p>
+<ol><li>I read the <em>guidebook</em> on the plane.</li><li>Old <em>guidebooks</em> list restaurants that closed years ago.</li><li>The <em>guidebook</em> said the market opens at six.</li></ol>
+<hr>
+<h3 id="brochure">brochure<a class="hash" href="#brochure" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/broʊˈʃʊr/ &middot; <em>broh-SHUUR</em></dd><dt>Русский</dt><dd>брошюра, буклет</dd><dt>Plural</dt><dd><em>brochures</em></dd><dt>Countability</dt><dd>countable</dd></dl>
+<p>A thin printed booklet advertising a place or service.</p>
+<ol><li>The hotel <em>brochure</em> made the pool look bigger.</li><li>There's a rack of <em>brochures</em> by the front door.</li><li>She grabbed a <em>brochure</em> about the boat tours.</li></ol>
+<hr>
+<h3 id="postcard">postcard<a class="hash" href="#postcard" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/ˈpoʊstkɑːrd/ &middot; <em>POHST-kard</em></dd><dt>Русский</dt><dd>открытка</dd><dt>Plural</dt><dd><em>postcards</em></dd><dt>Countability</dt><dd>countable</dd></dl>
+<p>A stiff card with a picture on one side, mailed without an envelope.</p>
+<ol><li>She sent me a <em>postcard</em> from Lisbon.</li><li>I bought six <em>postcards</em> at the museum shop.</li><li>The <em>postcard</em> arrived two weeks after she got home.</li></ol>
+<hr>
+<h3 id="pool">pool<a class="hash" href="#pool" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/puːl/ &middot; <em>POOL</em></dd><dt>Русский</dt><dd>бассейн</dd><dt>Plural</dt><dd><em>pools</em></dd><dt>Countability</dt><dd>countable</dd></dl>
+<p>A large container of water built for swimming.</p>
+<ol><li>The kids were in the <em>pool</em> all afternoon.</li><li>The resort has three <em>pools</em> and a hot tub.</li><li>Our room looks right out over the <em>pool</em>.</li></ol>
+<hr>
+<h3 id="spa">spa<a class="hash" href="#spa" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/spɑː/ &middot; <em>SPAH</em></dd><dt>Русский</dt><dd>спа, спа-салон</dd><dt>Plural</dt><dd><em>spas</em></dd><dt>Countability</dt><dd>countable</dd></dl>
+<p>A place offering massages, baths, and beauty treatments.</p>
+<ol><li>She booked a massage at the hotel <em>spa</em>.</li><li>Mountain towns here are full of <em>spas</em>.</li><li>The <em>spa</em> opens at eight in the morning.</li></ol>
+<hr>
+<h3 id="sauna">sauna<a class="hash" href="#sauna" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/ˈsɔːnə/ &middot; <em>SAW-nuh</em></dd><dt>Русский</dt><dd>сауна</dd><dt>Plural</dt><dd><em>saunas</em></dd><dt>Countability</dt><dd>countable</dd></dl>
+<p>A very hot wooden room used for sweating and relaxing.</p>
+<ol><li>There's a <em>sauna</em> next to the locker room.</li><li>The gym has separate <em>saunas</em> for men and women.</li><li>Ten minutes in the <em>sauna</em> was plenty for me.</li></ol>
+<hr>
+<h3 id="lifeguard">lifeguard<a class="hash" href="#lifeguard" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/ˈlaɪfɡɑːrd/ &middot; <em>LYF-gard</em></dd><dt>Русский</dt><dd>спасатель (на воде)</dd><dt>Plural</dt><dd><em>lifeguards</em></dd><dt>Countability</dt><dd>countable</dd></dl>
+<p>A person paid to watch swimmers and rescue anyone in trouble.</p>
+<ol><li>The <em>lifeguard</em> blew her whistle at us.</li><li>There are no <em>lifeguards</em> on duty after six.</li><li>Swim near the <em>lifeguard</em> stand.</li></ol>
+<hr>
+<h3 id="snorkel">snorkel<a class="hash" href="#snorkel" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/ˈsnɔːrkəl/ &middot; <em>SNOR-kuhl</em></dd><dt>Русский</dt><dd>трубка для плавания</dd><dt>Plural</dt><dd><em>snorkels</em></dd><dt>Countability</dt><dd>countable</dd></dl>
+<p>A short tube that lets you breathe while your face is in the water.</p>
+<ol><li>Rent a mask and a <em>snorkel</em> at the beach hut.</li><li>The <em>snorkels</em> come with the boat tour.</li><li>Water kept getting into my <em>snorkel</em>.</li></ol>
+<hr>
+<h3 id="surfboard">surfboard<a class="hash" href="#surfboard" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/ˈsɜːrfbɔːrd/ &middot; <em>SURF-bord</em></dd><dt>Русский</dt><dd>доска для сёрфинга</dd><dt>Plural</dt><dd><em>surfboards</em></dd><dt>Countability</dt><dd>countable</dd></dl>
+<p>A long narrow board you stand on to ride ocean waves.</p>
+<ol><li>He strapped the <em>surfboard</em> to the roof of the car.</li><li><em>Surfboards</em> rent for twenty dollars a day.</li><li>Her <em>surfboard</em> is shorter than mine.</li></ol>
+<hr>
+<h3 id="suntan">suntan<a class="hash" href="#suntan" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/ˈsʌntæn/ &middot; <em>SUHN-tan</em></dd><dt>Русский</dt><dd>загар</dd><dt>Plural</dt><dd><em>suntans</em></dd><dt>Countability</dt><dd>countable</dd></dl>
+<p>Darker skin from spending time in the sun.</p>
+<ol><li>She came back from Florida with a deep <em>suntan</em>.</li><li>Their <em>suntans</em> faded by October.</li><li>He got a <em>suntan</em> just sitting on the boat.</li></ol>
+<hr>
+<h3 id="kiosk">kiosk<a class="hash" href="#kiosk" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/ˈkiːɑːsk/ &middot; <em>KEE-ahsk</em></dd><dt>Русский</dt><dd>киоск; терминал самообслуживания</dd><dt>Plural</dt><dd><em>kiosks</em></dd><dt>Countability</dt><dd>countable</dd></dl>
+<p>A small stand or self-service machine where things are sold or printed.</p>
+<ol><li>Print your ticket at the <em>kiosk</em> by the door.</li><li>All four <em>kiosks</em> were out of order.</li><li>We bought water from a <em>kiosk</em> on the corner.</li></ol>
+<hr>
+<h3 id="pickpocket">pickpocket<a class="hash" href="#pickpocket" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/ˈpɪkpɑːkɪt/ &middot; <em>PIK-pah-kit</em></dd><dt>Русский</dt><dd>карманник, карманный вор</dd><dt>Plural</dt><dd><em>pickpockets</em></dd><dt>Countability</dt><dd>countable</dd></dl>
+<p>A thief who steals from people's pockets and bags in crowds.</p>
+<ol><li>A <em>pickpocket</em> took his wallet on the subway.</li><li>Watch out for <em>pickpockets</em> around the station.</li><li>The <em>pickpocket</em> was gone before anyone noticed.</li></ol>
+<hr>
+<h3 id="boardwalk">boardwalk<a class="hash" href="#boardwalk" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/ˈbɔːrdwɔːk/ &middot; <em>BORD-wawk</em></dd><dt>Русский</dt><dd>деревянный настил вдоль пляжа, променад</dd><dt>Plural</dt><dd><em>boardwalks</em></dd><dt>Countability</dt><dd>countable</dd></dl>
+<p>A raised wooden path built along a beach for people to walk on.</p>
+<ol><li>We walked the whole <em>boardwalk</em> after dinner.</li><li>Old <em>boardwalks</em> run along both beaches.</li><li>There's an ice cream stand at the end of the <em>boardwalk</em>.</li></ol></div></main>
+<button class="themebtn" id="themeBtn">Dark</button>
+<script>
+const tb=document.getElementById('themeBtn');
+function setTheme(x){document.documentElement.dataset.theme=x;tb.textContent=x==='dark'?'Light':'Dark';
+ try{localStorage.setItem('site-theme',x)}catch(e){}}
+tb.onclick=()=>setTheme(document.documentElement.dataset.theme==='dark'?'light':'dark');
+try{const s=localStorage.getItem('site-theme');
+ setTheme(s||(matchMedia('(prefers-color-scheme: dark)').matches?'dark':'light'))}catch(e){setTheme('light')}
+</script></body></html>

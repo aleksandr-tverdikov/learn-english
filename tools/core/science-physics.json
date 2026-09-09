@@ -1,0 +1,2124 @@
+[
+ {
+  "term": "force",
+  "ipa": "fɔːrs",
+  "respell": "FORS",
+  "ru": "сила",
+  "plural": "forces",
+  "countability": "countable",
+  "gloss": "A push or a pull that makes an object move, stop, or change shape.",
+  "examples": [
+   "Gravity is the *force* that keeps us on the ground.",
+   "Two equal *forces* pulled the rope in opposite directions.",
+   "You have to apply more *force* to open that door."
+  ]
+ },
+ {
+  "term": "mass",
+  "ipa": "mæs",
+  "respell": "MAS",
+  "ru": "масса",
+  "plural": "masses",
+  "countability": "countable",
+  "gloss": "The amount of matter in an object, measured in kilograms.",
+  "examples": [
+   "The *mass* of the sample was exactly two grams.",
+   "*Mass* and weight are not the same thing.",
+   "The scientists compared the *masses* of the two particles."
+  ]
+ },
+ {
+  "term": "weight",
+  "ipa": "weɪt",
+  "respell": "WAYT",
+  "ru": "вес",
+  "plural": "",
+  "countability": "uncountable",
+  "gloss": "How heavy something is.",
+  "examples": [
+   "The nurse recorded my *weight* at every visit.",
+   "The shelf can't support that much *weight*.",
+   "*Weight* depends on gravity, but mass does not."
+  ],
+  "contrast": "Sounds exactly like *wait*; the *gh* is silent."
+ },
+ {
+  "term": "speed",
+  "ipa": "spiːd",
+  "respell": "SPEED",
+  "ru": "скорость",
+  "plural": "speeds",
+  "countability": "countable",
+  "gloss": "How fast something moves.",
+  "examples": [
+   "Light travels at a constant *speed* in a vacuum.",
+   "The car reached a *speed* of ninety miles an hour.",
+   "We measured the *speeds* of both marbles."
+  ]
+ },
+ {
+  "term": "velocity",
+  "ipa": "vəˈlɑːsəti",
+  "respell": "vuh-LAH-suh-tee",
+  "ru": "скорость (векторная)",
+  "plural": "velocities",
+  "countability": "countable",
+  "gloss": "Speed in a particular direction.",
+  "examples": [
+   "The rocket's *velocity* increased after the second burn.",
+   "In physics, *velocity* includes direction, but speed does not.",
+   "The two balls had equal but opposite *velocities*."
+  ]
+ },
+ {
+  "term": "acceleration",
+  "ipa": "əkˌseləˈreɪʃən",
+  "respell": "uhk-sel-uh-RAY-shuhn",
+  "ru": "ускорение",
+  "plural": "",
+  "countability": "uncountable",
+  "gloss": "The rate at which something speeds up.",
+  "examples": [
+   "This little car has surprising *acceleration*.",
+   "*Acceleration* is measured in meters per second squared.",
+   "The graph shows the *acceleration* over the first ten seconds."
+  ]
+ },
+ {
+  "term": "motion",
+  "ipa": "ˈmoʊʃən",
+  "respell": "MOH-shuhn",
+  "ru": "движение",
+  "plural": "",
+  "countability": "uncountable",
+  "gloss": "The act or state of moving.",
+  "examples": [
+   "Newton's laws describe the *motion* of objects.",
+   "The camera captures the *motion* of the bird's wings.",
+   "The bus was already in *motion* when he jumped off."
+  ]
+ },
+ {
+  "term": "momentum",
+  "ipa": "moʊˈmentəm",
+  "respell": "moh-MEN-tuhm",
+  "ru": "импульс (количество движения)",
+  "plural": "",
+  "countability": "uncountable",
+  "gloss": "The force a moving object has because of its mass and its speed.",
+  "examples": [
+   "A truck has far more *momentum* than a bicycle.",
+   "The sled lost *momentum* on the flat ground.",
+   "In a collision, the total *momentum* stays the same."
+  ]
+ },
+ {
+  "term": "friction",
+  "ipa": "ˈfrɪkʃən",
+  "respell": "FRIK-shuhn",
+  "ru": "трение",
+  "plural": "",
+  "countability": "uncountable",
+  "gloss": "The force that slows down two surfaces rubbing against each other.",
+  "examples": [
+   "*Friction* between the tires and the road slows the car.",
+   "Oil reduces the *friction* inside the engine.",
+   "Without *friction*, you couldn't walk across the floor."
+  ]
+ },
+ {
+  "term": "inertia",
+  "ipa": "ɪˈnɜːrʃə",
+  "respell": "ih-NUR-shuh",
+  "ru": "инерция",
+  "plural": "",
+  "countability": "uncountable",
+  "gloss": "The tendency of an object to keep doing whatever it is already doing.",
+  "examples": [
+   "*Inertia* is why you lurch forward when the bus stops.",
+   "A heavy flywheel has a lot of *inertia*.",
+   "The seatbelt works against your body's *inertia*."
+  ]
+ },
+ {
+  "term": "torque",
+  "ipa": "tɔːrk",
+  "respell": "TORK",
+  "ru": "крутящий момент",
+  "plural": "",
+  "countability": "uncountable",
+  "gloss": "The turning force produced by an engine or applied to a bolt.",
+  "examples": [
+   "This engine makes plenty of *torque* at low speeds.",
+   "Tighten each bolt to the *torque* listed in the manual.",
+   "A longer wrench gives you more *torque*."
+  ],
+  "contrast": "Rhymes with *fork*; the *ue* is silent."
+ },
+ {
+  "term": "tension",
+  "ipa": "ˈtenʃən",
+  "respell": "TEN-shuhn",
+  "ru": "натяжение",
+  "plural": "",
+  "countability": "uncountable",
+  "gloss": "The pulling force in a stretched rope, wire, or spring.",
+  "examples": [
+   "The cable snapped under the *tension*.",
+   "Adjust the *tension* on the belt before you start the motor.",
+   "*Tension* in the string keeps the weight from falling."
+  ]
+ },
+ {
+  "term": "thrust",
+  "ipa": "θrʌst",
+  "respell": "THRUST",
+  "ru": "тяга (двигателя)",
+  "plural": "",
+  "countability": "uncountable",
+  "gloss": "The forward force produced by an engine or a rocket.",
+  "examples": [
+   "The engines produce enough *thrust* to lift the rocket.",
+   "The pilot cut the *thrust* just before landing.",
+   "Each booster adds *thrust* at liftoff."
+  ]
+ },
+ {
+  "term": "compression",
+  "ipa": "kəmˈpreʃən",
+  "respell": "kuhm-PRESH-uhn",
+  "ru": "сжатие",
+  "plural": "",
+  "countability": "uncountable",
+  "gloss": "The pressing of something into a smaller space.",
+  "examples": [
+   "The *compression* of the gas raised its temperature.",
+   "Concrete is very strong under *compression*.",
+   "Low *compression* in one cylinder explains the misfire."
+  ]
+ },
+ {
+  "term": "distance",
+  "ipa": "ˈdɪstəns",
+  "respell": "DIS-tuhns",
+  "ru": "расстояние",
+  "plural": "distances",
+  "countability": "countable",
+  "gloss": "The amount of space between two points.",
+  "examples": [
+   "Measure the *distance* between the two marks.",
+   "Sound travels long *distances* underwater.",
+   "At this *distance*, the star looks like a single dot."
+  ]
+ },
+ {
+  "term": "length",
+  "ipa": "leŋθ",
+  "respell": "LENGTH",
+  "ru": "длина",
+  "plural": "lengths",
+  "countability": "countable",
+  "gloss": "How long something is from one end to the other.",
+  "examples": [
+   "Record the *length* of each pendulum.",
+   "The two rods are exactly the same *length*.",
+   "We cut the wire into equal *lengths*."
+  ]
+ },
+ {
+  "term": "width",
+  "ipa": "wɪdθ",
+  "respell": "WIDTH",
+  "ru": "ширина",
+  "plural": "widths",
+  "countability": "countable",
+  "gloss": "How wide something is from side to side.",
+  "examples": [
+   "Measure the *width* of the tray in centimeters.",
+   "The channel narrows to half its normal *width*.",
+   "The two strips have slightly different *widths*."
+  ]
+ },
+ {
+  "term": "height",
+  "ipa": "haɪt",
+  "respell": "HYT",
+  "ru": "высота",
+  "plural": "heights",
+  "countability": "countable",
+  "gloss": "How tall something is, or how far it is above the ground.",
+  "examples": [
+   "We dropped the ball from a *height* of two meters.",
+   "The balloon reached a *height* of ten thousand feet.",
+   "The two towers are almost the same *height*."
+  ],
+  "contrast": "The *gh* is silent, and the word ends in *t*, not *th*."
+ },
+ {
+  "term": "depth",
+  "ipa": "depθ",
+  "respell": "DEPTH",
+  "ru": "глубина",
+  "plural": "depths",
+  "countability": "countable",
+  "gloss": "How deep something is from the top down.",
+  "examples": [
+   "The probe measured the *depth* of the lake.",
+   "At this *depth*, the pressure is enormous.",
+   "Samples were taken at three different *depths*."
+  ]
+ },
+ {
+  "term": "area",
+  "ipa": "ˈeriə",
+  "respell": "AIR-ee-uh",
+  "ru": "площадь",
+  "plural": "areas",
+  "countability": "countable",
+  "gloss": "The amount of flat surface that something covers.",
+  "examples": [
+   "Calculate the *area* of the rectangle.",
+   "Pressure equals force divided by *area*.",
+   "The two shapes have equal *areas*."
+  ]
+ },
+ {
+  "term": "volume",
+  "ipa": "ˈvɑːljəm",
+  "respell": "VAHL-yuhm",
+  "ru": "объём",
+  "plural": "volumes",
+  "countability": "countable",
+  "gloss": "The amount of space that something takes up.",
+  "examples": [
+   "Pour the liquid in and read the *volume*.",
+   "The gas expands to fill the whole *volume*.",
+   "We compared the *volumes* of the two containers."
+  ]
+ },
+ {
+  "term": "density",
+  "ipa": "ˈdensəti",
+  "respell": "DEN-suh-tee",
+  "ru": "плотность",
+  "plural": "densities",
+  "countability": "countable",
+  "gloss": "How much mass a material has for its size.",
+  "examples": [
+   "Lead has a much higher *density* than aluminum.",
+   "Ice floats because its *density* is lower than water's.",
+   "The lab measured the *densities* of four metals."
+  ]
+ },
+ {
+  "term": "quantity",
+  "ipa": "ˈkwɑːntəti",
+  "respell": "KWAHN-tuh-tee",
+  "ru": "количество",
+  "plural": "quantities",
+  "countability": "countable",
+  "gloss": "An amount of something that can be counted or measured.",
+  "examples": [
+   "Add a small *quantity* of acid to the beaker.",
+   "The plant gives off oxygen in large *quantities*.",
+   "Record both the *quantity* and the temperature."
+  ]
+ },
+ {
+  "term": "unit",
+  "ipa": "ˈjuːnɪt",
+  "respell": "YOO-nit",
+  "ru": "единица (измерения)",
+  "plural": "units",
+  "countability": "countable",
+  "gloss": "A standard amount used for measuring, such as a meter or a gram.",
+  "examples": [
+   "The meter is the standard *unit* of length.",
+   "Always write the *units* next to your answer.",
+   "Convert everything to the same *unit* first."
+  ]
+ },
+ {
+  "term": "measurement",
+  "ipa": "ˈmeʒərmənt",
+  "respell": "MEZH-ur-muhnt",
+  "ru": "измерение, замер",
+  "plural": "measurements",
+  "countability": "countable",
+  "gloss": "A number that you get by measuring something.",
+  "examples": [
+   "Take three *measurements* and average them.",
+   "One *measurement* was clearly wrong.",
+   "Her *measurements* matched the published values."
+  ]
+ },
+ {
+  "term": "meter",
+  "ipa": "ˈmiːtər",
+  "respell": "MEE-tur",
+  "ru": "метр",
+  "plural": "meters",
+  "countability": "countable",
+  "gloss": "A metric unit of length equal to about thirty-nine inches.",
+  "examples": [
+   "The rope is exactly three *meters* long.",
+   "Light travels three hundred million *meters* per second.",
+   "Mark a line one *meter* from the wall."
+  ],
+  "contrast": "American spelling *meter*; the British write *metre*."
+ },
+ {
+  "term": "gram",
+  "ipa": "ɡræm",
+  "respell": "GRAM",
+  "ru": "грамм",
+  "plural": "grams",
+  "countability": "countable",
+  "gloss": "A metric unit of mass equal to one thousandth of a kilogram.",
+  "examples": [
+   "The sample weighed twelve *grams*.",
+   "Add one *gram* of salt to the water.",
+   "The scale reads to a tenth of a *gram*."
+  ]
+ },
+ {
+  "term": "kilogram",
+  "ipa": "ˈkɪləɡræm",
+  "respell": "KIL-uh-gram",
+  "ru": "килограмм",
+  "plural": "kilograms",
+  "countability": "countable",
+  "gloss": "A metric unit of mass equal to one thousand grams.",
+  "examples": [
+   "The package came in at just under two *kilograms*.",
+   "One liter of water has a mass of one *kilogram*.",
+   "The machine can lift fifty *kilograms*."
+  ]
+ },
+ {
+  "term": "amp",
+  "ipa": "æmp",
+  "respell": "AMP",
+  "ru": "ампер",
+  "plural": "amps",
+  "countability": "countable",
+  "gloss": "A unit for measuring electric current.",
+  "examples": [
+   "This circuit is rated for fifteen *amps*.",
+   "The motor draws about two *amps*.",
+   "One *amp* is a lot of current for such a thin wire."
+  ]
+ },
+ {
+  "term": "volt",
+  "ipa": "voʊlt",
+  "respell": "VOHLT",
+  "ru": "вольт",
+  "plural": "volts",
+  "countability": "countable",
+  "gloss": "A unit for measuring the force that pushes an electric current.",
+  "examples": [
+   "American outlets deliver a hundred and twenty *volts*.",
+   "The battery puts out nine *volts*.",
+   "A single *volt* won't hurt you."
+  ]
+ },
+ {
+  "term": "watt",
+  "ipa": "wɑːt",
+  "respell": "WAHT",
+  "ru": "ватт",
+  "plural": "watts",
+  "countability": "countable",
+  "gloss": "A unit for measuring power.",
+  "examples": [
+   "This bulb uses only nine *watts*.",
+   "The speaker is rated at fifty *watts*.",
+   "A microwave can draw a thousand *watts*."
+  ],
+  "contrast": "For most Americans it sounds just like *what*."
+ },
+ {
+  "term": "joule",
+  "ipa": "dʒuːl",
+  "respell": "JOOL",
+  "ru": "джоуль",
+  "plural": "joules",
+  "countability": "countable",
+  "gloss": "A unit for measuring energy or work.",
+  "examples": [
+   "Lifting the box took about ten *joules* of energy.",
+   "One calorie is roughly four *joules*.",
+   "The reading is given in *joules* per second."
+  ]
+ },
+ {
+  "term": "hertz",
+  "ipa": "hɜːrts",
+  "respell": "HURTS",
+  "ru": "герц",
+  "plural": "hertz",
+  "countability": "countable",
+  "gloss": "A unit for measuring how many times something repeats each second.",
+  "examples": [
+   "American house current runs at sixty *hertz*.",
+   "The tone was set to four hundred and forty *hertz*.",
+   "One *hertz* means one cycle per second."
+  ],
+  "contrast": "The plural is also *hertz*, never *hertzes*."
+ },
+ {
+  "term": "decibel",
+  "ipa": "ˈdesəbel",
+  "respell": "DES-uh-bel",
+  "ru": "децибел",
+  "plural": "decibels",
+  "countability": "countable",
+  "gloss": "A unit for measuring how loud a sound is.",
+  "examples": [
+   "The machine runs at about seventy *decibels*.",
+   "A few extra *decibels* can damage your hearing.",
+   "Anything over a hundred and twenty *decibels* is painful."
+  ]
+ },
+ {
+  "term": "combustion",
+  "ipa": "kəmˈbʌstʃən",
+  "respell": "kuhm-BUS-chuhn",
+  "ru": "горение, сгорание",
+  "plural": "",
+  "countability": "uncountable",
+  "gloss": "The process of burning fuel together with oxygen.",
+  "examples": [
+   "*Combustion* releases heat and carbon dioxide.",
+   "The engine runs on internal *combustion*.",
+   "Without oxygen, *combustion* stops immediately."
+  ]
+ },
+ {
+  "term": "explosion",
+  "ipa": "ɪkˈsploʊʒən",
+  "respell": "ik-SPLOH-zhuhn",
+  "ru": "взрыв",
+  "plural": "explosions",
+  "countability": "countable",
+  "gloss": "A sudden violent burst of energy that damages what is around it.",
+  "examples": [
+   "The gas leak caused an *explosion*.",
+   "Two small *explosions* shook the building.",
+   "The *explosion* blew out every window on the street."
+  ]
+ },
+ {
+  "term": "flame",
+  "ipa": "fleɪm",
+  "respell": "FLAYM",
+  "ru": "пламя",
+  "plural": "flames",
+  "countability": "countable",
+  "gloss": "The hot glowing gas you see when something burns.",
+  "examples": [
+   "Hold the wire in the *flame* until it glows.",
+   "The *flames* spread to the next room.",
+   "A blue *flame* means the gas is burning cleanly."
+  ]
+ },
+ {
+  "term": "spark",
+  "ipa": "spɑːrk",
+  "respell": "SPAHRK",
+  "ru": "искра",
+  "plural": "sparks",
+  "countability": "countable",
+  "gloss": "A tiny piece of burning material or a small flash of electricity.",
+  "examples": [
+   "A single *spark* set off the whole fire.",
+   "*Sparks* flew when the metal hit the grinder.",
+   "The plug fires a *spark* on every cycle."
+  ]
+ },
+ {
+  "term": "evaporation",
+  "ipa": "ɪˌvæpəˈreɪʃən",
+  "respell": "ih-vap-uh-RAY-shuhn",
+  "ru": "испарение",
+  "plural": "",
+  "countability": "uncountable",
+  "gloss": "The change of a liquid into a gas.",
+  "examples": [
+   "*Evaporation* cools your skin when you sweat.",
+   "The puddle disappeared through *evaporation*.",
+   "Cover the dish to prevent *evaporation*."
+  ]
+ },
+ {
+  "term": "condensation",
+  "ipa": "ˌkɑːndenˈseɪʃən",
+  "respell": "kahn-den-SAY-shuhn",
+  "ru": "конденсация; конденсат",
+  "plural": "",
+  "countability": "uncountable",
+  "gloss": "The change of a gas into a liquid, or the drops this leaves behind.",
+  "examples": [
+   "*Condensation* formed on the cold glass.",
+   "Wipe the *condensation* off the window.",
+   "Clouds form by the *condensation* of water vapor."
+  ]
+ },
+ {
+  "term": "expansion",
+  "ipa": "ɪkˈspænʃən",
+  "respell": "ik-SPAN-shuhn",
+  "ru": "расширение",
+  "plural": "",
+  "countability": "uncountable",
+  "gloss": "The process of getting larger in size.",
+  "examples": [
+   "Heat causes the *expansion* of most metals.",
+   "The bridge has gaps to allow for *expansion*.",
+   "The *expansion* of the gas pushed the piston out."
+  ]
+ },
+ {
+  "term": "contraction",
+  "ipa": "kənˈtrækʃən",
+  "respell": "kuhn-TRAK-shuhn",
+  "ru": "сжатие, сокращение",
+  "plural": "",
+  "countability": "uncountable",
+  "gloss": "The process of getting smaller in size.",
+  "examples": [
+   "Cooling leads to the *contraction* of the metal.",
+   "The rails leave room for *contraction* in winter.",
+   "*Contraction* pulled the seams apart."
+  ]
+ },
+ {
+  "term": "convection",
+  "ipa": "kənˈvekʃən",
+  "respell": "kuhn-VEK-shuhn",
+  "ru": "конвекция",
+  "plural": "",
+  "countability": "uncountable",
+  "gloss": "The movement of heat through a liquid or gas as it circulates.",
+  "examples": [
+   "This oven heats food by *convection*.",
+   "Warm air rises by *convection*.",
+   "*Convection* currents keep the water mixing."
+  ]
+ },
+ {
+  "term": "radiation",
+  "ipa": "ˌreɪdiˈeɪʃən",
+  "respell": "ray-dee-AY-shuhn",
+  "ru": "излучение, радиация",
+  "plural": "",
+  "countability": "uncountable",
+  "gloss": "Energy that travels out from a source as waves or particles.",
+  "examples": [
+   "The lab shields its workers from *radiation*.",
+   "*Radiation* from the sun warms the earth.",
+   "They measured the *radiation* around the reactor."
+  ]
+ },
+ {
+  "term": "boiling point",
+  "ipa": "ˈbɔɪlɪŋ pɔɪnt",
+  "respell": "BOY-ling-poynt",
+  "ru": "точка кипения",
+  "plural": "boiling points",
+  "countability": "countable",
+  "gloss": "The temperature at which a liquid turns into a gas.",
+  "examples": [
+   "Water's *boiling point* is two hundred and twelve degrees Fahrenheit.",
+   "Alcohol has a lower *boiling point* than water.",
+   "The two liquids have very different *boiling points*."
+  ]
+ },
+ {
+  "term": "freezing point",
+  "ipa": "ˈfriːzɪŋ pɔɪnt",
+  "respell": "FREE-zing-poynt",
+  "ru": "точка замерзания",
+  "plural": "freezing points",
+  "countability": "countable",
+  "gloss": "The temperature at which a liquid turns into a solid.",
+  "examples": [
+   "The *freezing point* of water is thirty-two degrees Fahrenheit.",
+   "Salt lowers the *freezing point* of water.",
+   "Different liquids have different *freezing points*."
+  ]
+ },
+ {
+  "term": "voltage",
+  "ipa": "ˈvoʊltɪdʒ",
+  "respell": "VOHL-tij",
+  "ru": "напряжение",
+  "plural": "voltages",
+  "countability": "countable",
+  "gloss": "The electrical force that pushes current through a circuit.",
+  "examples": [
+   "Check the *voltage* before you plug it in.",
+   "High *voltage* can jump across a gap.",
+   "The two supplies run at different *voltages*."
+  ]
+ },
+ {
+  "term": "resistance",
+  "ipa": "rɪˈzɪstəns",
+  "respell": "rih-ZIS-tuhns",
+  "ru": "сопротивление",
+  "plural": "",
+  "countability": "uncountable",
+  "gloss": "How much a material slows down an electric current.",
+  "examples": [
+   "Copper has very low *resistance*.",
+   "Measure the *resistance* across the two ends.",
+   "Higher *resistance* means less current."
+  ]
+ },
+ {
+  "term": "circuit",
+  "ipa": "ˈsɜːrkɪt",
+  "respell": "SUR-kit",
+  "ru": "электрическая цепь",
+  "plural": "circuits",
+  "countability": "countable",
+  "gloss": "A complete path that electricity can flow around.",
+  "examples": [
+   "The *circuit* is broken somewhere near the switch.",
+   "Never work on a live *circuit*.",
+   "Both *circuits* are protected by fuses."
+  ],
+  "contrast": "Spelled with *-uit*, but pronounced simply *-kit*."
+ },
+ {
+  "term": "magnet",
+  "ipa": "ˈmæɡnət",
+  "respell": "MAG-nuht",
+  "ru": "магнит",
+  "plural": "magnets",
+  "countability": "countable",
+  "gloss": "A piece of metal that attracts iron and steel.",
+  "examples": [
+   "Hold the *magnet* near the paper clips.",
+   "We stuck the drawing to the fridge with a *magnet*.",
+   "Two *magnets* will push apart if you flip one around."
+  ]
+ },
+ {
+  "term": "magnetism",
+  "ipa": "ˈmæɡnətɪzəm",
+  "respell": "MAG-nuh-tiz-uhm",
+  "ru": "магнетизм",
+  "plural": "",
+  "countability": "uncountable",
+  "gloss": "The force by which magnets attract or push away other objects.",
+  "examples": [
+   "*Magnetism* and electricity are closely related.",
+   "Heating the metal destroyed its *magnetism*.",
+   "The class covered *magnetism* last week."
+  ]
+ },
+ {
+  "term": "conductor",
+  "ipa": "kənˈdʌktər",
+  "respell": "kuhn-DUK-tur",
+  "ru": "проводник",
+  "plural": "conductors",
+  "countability": "countable",
+  "gloss": "A material that lets electricity or heat pass through it easily.",
+  "examples": [
+   "Copper is an excellent *conductor*.",
+   "Water can act as a *conductor*, so be careful.",
+   "Metals are better *conductors* than plastics."
+  ]
+ },
+ {
+  "term": "insulator",
+  "ipa": "ˈɪnsəleɪtər",
+  "respell": "IN-suh-lay-tur",
+  "ru": "изолятор",
+  "plural": "insulators",
+  "countability": "countable",
+  "gloss": "A material that does not let electricity or heat pass through.",
+  "examples": [
+   "Rubber is a good *insulator*.",
+   "The handle is wrapped in an *insulator*.",
+   "Ceramic *insulators* hold the power lines away from the pole."
+  ]
+ },
+ {
+  "term": "filament",
+  "ipa": "ˈfɪləmənt",
+  "respell": "FIL-uh-muhnt",
+  "ru": "нить накала",
+  "plural": "filaments",
+  "countability": "countable",
+  "gloss": "The thin wire inside a light bulb that glows when it heats up.",
+  "examples": [
+   "The *filament* burned out after a year.",
+   "You can see the *filament* through the clear glass.",
+   "Old bulbs used tungsten *filaments*."
+  ]
+ },
+ {
+  "term": "transformer",
+  "ipa": "trænsˈfɔːrmər",
+  "respell": "trans-FOR-mur",
+  "ru": "трансформатор",
+  "plural": "transformers",
+  "countability": "countable",
+  "gloss": "A device that raises or lowers the voltage of an electric supply.",
+  "examples": [
+   "The *transformer* on the pole blew during the storm.",
+   "A small *transformer* steps the voltage down to twelve volts.",
+   "Both *transformers* were replaced last year."
+  ]
+ },
+ {
+  "term": "wavelength",
+  "ipa": "ˈweɪvleŋθ",
+  "respell": "WAYV-length",
+  "ru": "длина волны",
+  "plural": "wavelengths",
+  "countability": "countable",
+  "gloss": "The distance from one wave to the next one.",
+  "examples": [
+   "Red light has a longer *wavelength* than blue light.",
+   "The antenna is tuned to that *wavelength*.",
+   "Different *wavelengths* bend by different amounts."
+  ]
+ },
+ {
+  "term": "frequency",
+  "ipa": "ˈfriːkwənsi",
+  "respell": "FREE-kwuhn-see",
+  "ru": "частота",
+  "plural": "frequencies",
+  "countability": "countable",
+  "gloss": "The number of times a wave or an event repeats each second.",
+  "examples": [
+   "Raise the *frequency* and the pitch goes up.",
+   "The radio picks up several *frequencies*.",
+   "A high *frequency* means a short wavelength."
+  ]
+ },
+ {
+  "term": "vibration",
+  "ipa": "vaɪˈbreɪʃən",
+  "respell": "vy-BRAY-shuhn",
+  "ru": "вибрация, колебание",
+  "plural": "vibrations",
+  "countability": "countable",
+  "gloss": "A fast shaking movement back and forth.",
+  "examples": [
+   "You can feel the *vibration* through the floor.",
+   "*Vibrations* from the engine loosened the bolt.",
+   "Rubber pads absorb most of the *vibration*."
+  ]
+ },
+ {
+  "term": "reflection",
+  "ipa": "rɪˈflekʃən",
+  "respell": "rih-FLEK-shuhn",
+  "ru": "отражение",
+  "plural": "reflections",
+  "countability": "countable",
+  "gloss": "Light or sound bouncing back from a surface, or the image this makes.",
+  "examples": [
+   "She saw her *reflection* in the store window.",
+   "The *reflection* off the water was blinding.",
+   "We measured the *reflections* of sound in the empty hall."
+  ]
+ },
+ {
+  "term": "refraction",
+  "ipa": "rɪˈfrækʃən",
+  "respell": "rih-FRAK-shuhn",
+  "ru": "преломление",
+  "plural": "",
+  "countability": "uncountable",
+  "gloss": "The bending of light as it passes from one material into another.",
+  "examples": [
+   "*Refraction* makes the straw look broken in the glass.",
+   "A lens works by *refraction*.",
+   "*Refraction* in the atmosphere shifts the star's position slightly."
+  ]
+ },
+ {
+  "term": "prism",
+  "ipa": "ˈprɪzəm",
+  "respell": "PRIZ-uhm",
+  "ru": "призма",
+  "plural": "prisms",
+  "countability": "countable",
+  "gloss": "A clear block of glass that splits light into colors.",
+  "examples": [
+   "Hold the *prism* up in the sunlight.",
+   "The *prism* spread the beam into a rainbow.",
+   "Two glass *prisms* sat on the lab bench."
+  ]
+ },
+ {
+  "term": "laser",
+  "ipa": "ˈleɪzər",
+  "respell": "LAY-zur",
+  "ru": "лазер",
+  "plural": "lasers",
+  "countability": "countable",
+  "gloss": "A device that produces a narrow, very bright beam of light.",
+  "examples": [
+   "The *laser* cuts right through sheet metal.",
+   "Don't point the *laser* at anyone's eyes.",
+   "Surgeons use *lasers* for some eye operations."
+  ]
+ },
+ {
+  "term": "microscope",
+  "ipa": "ˈmaɪkrəskoʊp",
+  "respell": "MY-kruh-skohp",
+  "ru": "микроскоп",
+  "plural": "microscopes",
+  "countability": "countable",
+  "gloss": "An instrument that makes very small things look much bigger.",
+  "examples": [
+   "Put the slide under the *microscope*.",
+   "You can see bacteria through a good *microscope*.",
+   "The lab has six *microscopes*."
+  ]
+ },
+ {
+  "term": "matter",
+  "ipa": "ˈmætər",
+  "respell": "MAT-ur",
+  "ru": "вещество, материя",
+  "plural": "",
+  "countability": "uncountable",
+  "gloss": "Anything that has mass and takes up space.",
+  "examples": [
+   "Solids, liquids, and gases are all forms of *matter*.",
+   "*Matter* cannot be created or destroyed.",
+   "The telescope detects *matter* falling into the black hole."
+  ]
+ },
+ {
+  "term": "solid",
+  "ipa": "ˈsɑːlɪd",
+  "respell": "SAH-lid",
+  "ru": "твёрдое тело",
+  "plural": "solids",
+  "countability": "countable",
+  "gloss": "A substance that keeps its own shape, such as ice or wood.",
+  "examples": [
+   "Ice is water in the form of a *solid*.",
+   "*Solids* usually expand a little when they are heated.",
+   "The mixture separates into a *solid* and a liquid."
+  ]
+ },
+ {
+  "term": "phase",
+  "ipa": "feɪz",
+  "respell": "FAYZ",
+  "ru": "фаза, агрегатное состояние",
+  "plural": "phases",
+  "countability": "countable",
+  "gloss": "One of the forms that matter can take, or one stage of a process.",
+  "examples": [
+   "Water has three *phases*: solid, liquid, and gas.",
+   "The metal changes *phase* at that temperature.",
+   "We are still in the first *phase* of the experiment."
+  ]
+ },
+ {
+  "term": "plasma",
+  "ipa": "ˈplæzmə",
+  "respell": "PLAZ-muh",
+  "ru": "плазма",
+  "plural": "",
+  "countability": "uncountable",
+  "gloss": "A very hot gas whose particles carry an electric charge.",
+  "examples": [
+   "Stars are made of *plasma*.",
+   "The lamp glows because the gas turns into *plasma*.",
+   "*Plasma* is often called the fourth state of matter."
+  ]
+ },
+ {
+  "term": "fluid",
+  "ipa": "ˈfluːɪd",
+  "respell": "FLOO-id",
+  "ru": "жидкость, текучая среда",
+  "plural": "fluids",
+  "countability": "countable, and uncountable as a substance",
+  "gloss": "A liquid or gas that flows and takes the shape of its container.",
+  "examples": [
+   "Brake *fluid* should be changed every few years.",
+   "Both gases and liquids are *fluids*.",
+   "The pump moves *fluid* through the pipes."
+  ]
+ },
+ {
+  "term": "atom",
+  "ipa": "ˈætəm",
+  "respell": "AT-uhm",
+  "ru": "атом",
+  "plural": "atoms",
+  "countability": "countable",
+  "gloss": "The smallest unit of a chemical element.",
+  "examples": [
+   "A water molecule contains three *atoms*.",
+   "Every *atom* has a nucleus at its center.",
+   "The scientists managed to split the *atom*."
+  ]
+ },
+ {
+  "term": "molecule",
+  "ipa": "ˈmɑːlɪkjuːl",
+  "respell": "MAH-lih-kyool",
+  "ru": "молекула",
+  "plural": "molecules",
+  "countability": "countable",
+  "gloss": "A group of atoms joined together, the smallest piece of a compound.",
+  "examples": [
+   "A water *molecule* is two hydrogens and one oxygen.",
+   "*Molecules* move faster when you heat them.",
+   "The drug attaches to one *molecule* at a time."
+  ]
+ },
+ {
+  "term": "electron",
+  "ipa": "ɪˈlektrɑːn",
+  "respell": "ih-LEK-trahn",
+  "ru": "электрон",
+  "plural": "electrons",
+  "countability": "countable",
+  "gloss": "A tiny particle with a negative charge that moves around an atom.",
+  "examples": [
+   "Electric current is a flow of *electrons*.",
+   "An *electron* is far lighter than a proton.",
+   "This metal gives up one *electron* easily."
+  ]
+ },
+ {
+  "term": "proton",
+  "ipa": "ˈproʊtɑːn",
+  "respell": "PROH-tahn",
+  "ru": "протон",
+  "plural": "protons",
+  "countability": "countable",
+  "gloss": "A particle with a positive charge found in the center of an atom.",
+  "examples": [
+   "Each *proton* carries a positive charge.",
+   "Carbon has six *protons*.",
+   "The number of *protons* decides which element it is."
+  ]
+ },
+ {
+  "term": "neutron",
+  "ipa": "ˈnuːtrɑːn",
+  "respell": "NOO-trahn",
+  "ru": "нейтрон",
+  "plural": "neutrons",
+  "countability": "countable",
+  "gloss": "A particle with no electric charge found in the center of an atom.",
+  "examples": [
+   "A *neutron* weighs about the same as a proton.",
+   "The nucleus holds both protons and *neutrons*.",
+   "Free *neutrons* keep the reaction going."
+  ]
+ },
+ {
+  "term": "particle",
+  "ipa": "ˈpɑːrtɪkəl",
+  "respell": "PAHR-tih-kuhl",
+  "ru": "частица",
+  "plural": "particles",
+  "countability": "countable",
+  "gloss": "An extremely small piece of matter.",
+  "examples": [
+   "Dust *particles* floated in the sunlight.",
+   "The filter traps any *particle* larger than a micron.",
+   "Physicists study how one *particle* hits another."
+  ]
+ },
+ {
+  "term": "ion",
+  "ipa": "ˈaɪrn",
+  "respell": "EYE-uhn",
+  "ru": "ион",
+  "plural": "ions",
+  "countability": "countable",
+  "gloss": "An atom that carries an electric charge because it has gained or lost electrons.",
+  "examples": [
+   "Salt splits into two *ions* when it dissolves.",
+   "A sodium *ion* has a positive charge.",
+   "The *ions* carry the current through the liquid."
+  ],
+  "contrast": "Not the same word as *iron*, which is EYE-urn."
+ },
+ {
+  "term": "isotope",
+  "ipa": "ˈaɪsətoʊp",
+  "respell": "EYE-suh-tohp",
+  "ru": "изотоп",
+  "plural": "isotopes",
+  "countability": "countable",
+  "gloss": "A form of an element that has a different number of neutrons.",
+  "examples": [
+   "Carbon has several *isotopes*.",
+   "One *isotope* of hydrogen is used in reactors.",
+   "Doctors use a radioactive *isotope* to trace blood flow."
+  ]
+ },
+ {
+  "term": "alloy",
+  "ipa": "ˈælɔɪ",
+  "respell": "AL-oy",
+  "ru": "сплав",
+  "plural": "alloys",
+  "countability": "countable",
+  "gloss": "A metal made by mixing two or more metals together.",
+  "examples": [
+   "Brass is an *alloy* of copper and zinc.",
+   "The frame is made from a light aluminum *alloy*.",
+   "Different *alloys* melt at different temperatures."
+  ],
+  "contrast": "The noun is AL-oy; the rare verb is uh-LOY."
+ },
+ {
+  "term": "solution",
+  "ipa": "səˈluːʃən",
+  "respell": "suh-LOO-shuhn",
+  "ru": "раствор",
+  "plural": "solutions",
+  "countability": "countable, and uncountable as a substance",
+  "gloss": "A liquid with something dissolved in it.",
+  "examples": [
+   "Pour the salt *solution* into the beaker.",
+   "Prepare two *solutions* of different strength.",
+   "The *solution* turned blue when we added the powder."
+  ]
+ },
+ {
+  "term": "solvent",
+  "ipa": "ˈsɑːlvənt",
+  "respell": "SAHL-vuhnt",
+  "ru": "растворитель",
+  "plural": "solvents",
+  "countability": "countable, and uncountable as a substance",
+  "gloss": "A liquid that can dissolve other substances.",
+  "examples": [
+   "Water is the most common *solvent* of all.",
+   "Use a *solvent* to get the paint off.",
+   "Some *solvents* give off dangerous fumes."
+  ]
+ },
+ {
+  "term": "base",
+  "ipa": "beɪs",
+  "respell": "BAYS",
+  "ru": "основание, щёлочь",
+  "plural": "bases",
+  "countability": "countable",
+  "gloss": "A chemical substance that neutralizes an acid.",
+  "examples": [
+   "Baking soda is a mild *base*.",
+   "An acid and a *base* react to make salt and water.",
+   "Strong *bases* can burn your skin."
+  ],
+  "contrast": "Sounds exactly like *bass*, the low musical sound."
+ },
+ {
+  "term": "oxide",
+  "ipa": "ˈɑːksaɪd",
+  "respell": "AHK-syd",
+  "ru": "оксид",
+  "plural": "oxides",
+  "countability": "countable, and uncountable as a substance",
+  "gloss": "A compound formed when a substance combines with oxygen.",
+  "examples": [
+   "Rust is an *oxide* of iron.",
+   "The white powder is zinc *oxide*.",
+   "Several *oxides* formed on the surface."
+  ]
+ },
+ {
+  "term": "chloride",
+  "ipa": "ˈklɔːraɪd",
+  "respell": "KLOR-yd",
+  "ru": "хлорид",
+  "plural": "",
+  "countability": "uncountable",
+  "gloss": "A compound of chlorine with another element, such as table salt.",
+  "examples": [
+   "Table salt is sodium *chloride*.",
+   "The well water contains too much *chloride*.",
+   "*Chloride* levels in the sample were high."
+  ]
+ },
+ {
+  "term": "polymer",
+  "ipa": "ˈpɑːləmər",
+  "respell": "PAH-luh-mur",
+  "ru": "полимер",
+  "plural": "polymers",
+  "countability": "countable",
+  "gloss": "A material made of very long chains of repeating molecules.",
+  "examples": [
+   "Most plastics are *polymers*.",
+   "The coating is a flexible *polymer*.",
+   "New *polymers* are replacing metal parts."
+  ]
+ },
+ {
+  "term": "catalyst",
+  "ipa": "ˈkætəlɪst",
+  "respell": "KAT-uh-list",
+  "ru": "катализатор",
+  "plural": "catalysts",
+  "countability": "countable",
+  "gloss": "A substance that speeds up a chemical reaction without being used up.",
+  "examples": [
+   "The reaction needs a *catalyst* to go quickly.",
+   "Platinum acts as a *catalyst* in the exhaust system.",
+   "Enzymes are biological *catalysts*."
+  ]
+ },
+ {
+  "term": "enzyme",
+  "ipa": "ˈenzaɪm",
+  "respell": "EN-zym",
+  "ru": "фермент",
+  "plural": "enzymes",
+  "countability": "countable",
+  "gloss": "A substance made by living cells that speeds up a chemical reaction.",
+  "examples": [
+   "This *enzyme* breaks down starch.",
+   "Digestive *enzymes* work best at body temperature.",
+   "Heat destroys the *enzyme*."
+  ]
+ },
+ {
+  "term": "concentration",
+  "ipa": "ˌkɑːnsənˈtreɪʃən",
+  "respell": "kahn-suhn-TRAY-shuhn",
+  "ru": "концентрация",
+  "plural": "concentrations",
+  "countability": "countable",
+  "gloss": "How much of a substance is present in a mixture.",
+  "examples": [
+   "Increase the *concentration* of the acid slightly.",
+   "High *concentrations* of salt kill the plants.",
+   "The *concentration* dropped as we added water."
+  ]
+ },
+ {
+  "term": "acidity",
+  "ipa": "əˈsɪdəti",
+  "respell": "uh-SID-uh-tee",
+  "ru": "кислотность",
+  "plural": "",
+  "countability": "uncountable",
+  "gloss": "How acid something is.",
+  "examples": [
+   "Test the *acidity* of the soil before planting.",
+   "Lemon juice adds *acidity* to the sauce.",
+   "The *acidity* of the rain has damaged the stone."
+  ]
+ },
+ {
+  "term": "viscosity",
+  "ipa": "vɪˈskɑːsəti",
+  "respell": "vih-SKAH-suh-tee",
+  "ru": "вязкость",
+  "plural": "",
+  "countability": "uncountable",
+  "gloss": "How thick a liquid is and how slowly it flows.",
+  "examples": [
+   "Honey has a very high *viscosity*.",
+   "Cold weather increases the oil's *viscosity*.",
+   "We measured the *viscosity* at three temperatures."
+  ]
+ },
+ {
+  "term": "purity",
+  "ipa": "ˈpjʊrəti",
+  "respell": "PYUR-uh-tee",
+  "ru": "чистота (вещества)",
+  "plural": "",
+  "countability": "uncountable",
+  "gloss": "How free a substance is from other materials mixed into it.",
+  "examples": [
+   "The lab checks the *purity* of every batch.",
+   "Gold is sold by weight and *purity*.",
+   "A *purity* above ninety-nine percent is required."
+  ]
+ },
+ {
+  "term": "conductivity",
+  "ipa": "ˌkɑːndʌkˈtɪvəti",
+  "respell": "kahn-duk-TIV-uh-tee",
+  "ru": "проводимость",
+  "plural": "",
+  "countability": "uncountable",
+  "gloss": "How well a material carries electricity or heat.",
+  "examples": [
+   "Silver has the highest electrical *conductivity* of any metal.",
+   "Salt raises the water's *conductivity*.",
+   "We measured the *conductivity* of each sample."
+  ]
+ },
+ {
+  "term": "reaction",
+  "ipa": "riˈækʃən",
+  "respell": "ree-AK-shuhn",
+  "ru": "реакция",
+  "plural": "reactions",
+  "countability": "countable",
+  "gloss": "A process in which substances change into different substances.",
+  "examples": [
+   "The *reaction* gives off a lot of heat.",
+   "Some *reactions* will not start without a catalyst.",
+   "Mixing the two powders starts the *reaction*."
+  ]
+ },
+ {
+  "term": "oxidation",
+  "ipa": "ˌɑːksɪˈdeɪʃən",
+  "respell": "ahk-sih-DAY-shuhn",
+  "ru": "окисление",
+  "plural": "",
+  "countability": "uncountable",
+  "gloss": "A reaction in which a substance combines with oxygen.",
+  "examples": [
+   "Rust is caused by *oxidation*.",
+   "The coating slows the *oxidation* of the metal.",
+   "*Oxidation* is what turns a cut apple brown."
+  ]
+ },
+ {
+  "term": "corrosion",
+  "ipa": "kəˈroʊʒən",
+  "respell": "kuh-ROH-zhuhn",
+  "ru": "коррозия",
+  "plural": "",
+  "countability": "uncountable",
+  "gloss": "The slow damage caused when a metal reacts with air or water.",
+  "examples": [
+   "Salt on the roads speeds up *corrosion*.",
+   "There was heavy *corrosion* around the battery terminals.",
+   "Paint protects the steel from *corrosion*."
+  ]
+ },
+ {
+  "term": "decay",
+  "ipa": "dɪˈkeɪ",
+  "respell": "dih-KAY",
+  "ru": "распад; гниение",
+  "plural": "",
+  "countability": "uncountable",
+  "gloss": "The gradual breaking down of a substance or of a radioactive material.",
+  "examples": [
+   "Radioactive *decay* releases energy over time.",
+   "The rate of *decay* is measured in half-lives.",
+   "Bacteria cause *decay* in dead plants."
+  ]
+ },
+ {
+  "term": "fission",
+  "ipa": "ˈfɪʃən",
+  "respell": "FISH-uhn",
+  "ru": "деление ядра",
+  "plural": "",
+  "countability": "uncountable",
+  "gloss": "The splitting of an atom's nucleus, which releases energy.",
+  "examples": [
+   "Nuclear *fission* powers the plant.",
+   "The *fission* of uranium releases enormous energy.",
+   "The reactor controls the rate of *fission*."
+  ]
+ },
+ {
+  "term": "fusion",
+  "ipa": "ˈfjuːʒən",
+  "respell": "FYOO-zhuhn",
+  "ru": "синтез (ядерный)",
+  "plural": "",
+  "countability": "uncountable",
+  "gloss": "The joining of two atomic nuclei, which releases a huge amount of energy.",
+  "examples": [
+   "The sun is powered by *fusion*.",
+   "*Fusion* would give us almost limitless energy.",
+   "Scientists have struggled for decades to control *fusion*."
+  ]
+ },
+ {
+  "term": "reactor",
+  "ipa": "riˈæktər",
+  "respell": "ree-AK-tur",
+  "ru": "реактор",
+  "plural": "reactors",
+  "countability": "countable",
+  "gloss": "A large machine in which nuclear reactions are controlled to make energy.",
+  "examples": [
+   "The *reactor* was shut down for maintenance.",
+   "Two *reactors* supply the whole city.",
+   "Water cools the core of the *reactor*."
+  ]
+ },
+ {
+  "term": "helium",
+  "ipa": "ˈhiːliəm",
+  "respell": "HEE-lee-uhm",
+  "ru": "гелий",
+  "plural": "",
+  "countability": "uncountable",
+  "gloss": "A very light gas that is used to fill balloons.",
+  "examples": [
+   "The balloons are filled with *helium*.",
+   "*Helium* makes your voice sound funny.",
+   "There is a worldwide shortage of *helium*."
+  ]
+ },
+ {
+  "term": "chlorine",
+  "ipa": "ˈklɔːriːn",
+  "respell": "KLOR-een",
+  "ru": "хлор",
+  "plural": "",
+  "countability": "uncountable",
+  "gloss": "A greenish gas used to kill germs in water.",
+  "examples": [
+   "The pool smells strongly of *chlorine*.",
+   "*Chlorine* is added to drinking water.",
+   "Too much *chlorine* irritates your eyes."
+  ]
+ },
+ {
+  "term": "sodium",
+  "ipa": "ˈsoʊdiəm",
+  "respell": "SOH-dee-uhm",
+  "ru": "натрий",
+  "plural": "",
+  "countability": "uncountable",
+  "gloss": "A soft silver-white metal that is one half of ordinary salt.",
+  "examples": [
+   "The label lists the amount of *sodium* per serving.",
+   "*Sodium* reacts violently with water.",
+   "Cut back on *sodium* if your blood pressure is high."
+  ]
+ },
+ {
+  "term": "calcium",
+  "ipa": "ˈkælsiəm",
+  "respell": "KAL-see-uhm",
+  "ru": "кальций",
+  "plural": "",
+  "countability": "uncountable",
+  "gloss": "A silver-white metal found in bones, teeth, and milk.",
+  "examples": [
+   "Milk is a good source of *calcium*.",
+   "Her doctor told her to take more *calcium*.",
+   "*Calcium* builds up inside the pipes."
+  ]
+ },
+ {
+  "term": "potassium",
+  "ipa": "pəˈtæsiəm",
+  "respell": "puh-TAS-ee-uhm",
+  "ru": "калий",
+  "plural": "",
+  "countability": "uncountable",
+  "gloss": "A soft silver-white metal that the body needs in small amounts.",
+  "examples": [
+   "Bananas contain a lot of *potassium*.",
+   "Low *potassium* can cause muscle cramps.",
+   "The fertilizer supplies nitrogen and *potassium*."
+  ]
+ },
+ {
+  "term": "magnesium",
+  "ipa": "mæɡˈniːziəm",
+  "respell": "mag-NEE-zee-uhm",
+  "ru": "магний",
+  "plural": "",
+  "countability": "uncountable",
+  "gloss": "A light silver-white metal that burns with a bright white flame.",
+  "examples": [
+   "*Magnesium* burns with a blinding white light.",
+   "The frame is made of a *magnesium* alloy.",
+   "She takes *magnesium* for her leg cramps."
+  ]
+ },
+ {
+  "term": "uranium",
+  "ipa": "jʊˈreɪniəm",
+  "respell": "yoo-RAY-nee-uhm",
+  "ru": "уран",
+  "plural": "",
+  "countability": "uncountable",
+  "gloss": "A heavy radioactive metal used as nuclear fuel.",
+  "examples": [
+   "The plant runs on enriched *uranium*.",
+   "*Uranium* is mined in several western states.",
+   "They found traces of *uranium* in the soil."
+  ]
+ },
+ {
+  "term": "graphite",
+  "ipa": "ˈɡræfaɪt",
+  "respell": "GRAF-yt",
+  "ru": "графит",
+  "plural": "",
+  "countability": "uncountable",
+  "gloss": "A soft black form of carbon used in pencils.",
+  "examples": [
+   "Pencil leads are made of *graphite* and clay.",
+   "*Graphite* conducts electricity.",
+   "The rods are coated with *graphite*."
+  ]
+ },
+ {
+  "term": "petroleum",
+  "ipa": "pəˈtroʊliəm",
+  "respell": "puh-TROH-lee-uhm",
+  "ru": "нефть",
+  "plural": "",
+  "countability": "uncountable",
+  "gloss": "The thick oil taken from underground and refined into fuel.",
+  "examples": [
+   "Gasoline is made from *petroleum*.",
+   "*Petroleum* prices rose again this month.",
+   "Most plastics are a *petroleum* product."
+  ]
+ },
+ {
+  "term": "ash",
+  "ipa": "æʃ",
+  "respell": "ASH",
+  "ru": "зола, пепел",
+  "plural": "",
+  "countability": "uncountable",
+  "gloss": "The gray powder that is left after something has burned.",
+  "examples": [
+   "There was *ash* all over the grill.",
+   "Volcanic *ash* closed the airport for two days.",
+   "Sweep the *ash* out of the fireplace."
+  ],
+  "contrast": "*Ashes* is a separate word, used for the remains of a fire or a body."
+ },
+ {
+  "term": "soot",
+  "ipa": "sʊt",
+  "respell": "SUUT",
+  "ru": "сажа, копоть",
+  "plural": "",
+  "countability": "uncountable",
+  "gloss": "The fine black powder left behind by smoke.",
+  "examples": [
+   "The chimney was black with *soot*.",
+   "*Soot* had settled on every surface in the room.",
+   "He wiped the *soot* off the glass."
+  ],
+  "contrast": "Rhymes with *foot*, not with *suit*."
+ },
+ {
+  "term": "residue",
+  "ipa": "ˈrezɪduː",
+  "respell": "REZ-ih-doo",
+  "ru": "остаток, налёт",
+  "plural": "residues",
+  "countability": "countable",
+  "gloss": "A small amount of something left behind after a process.",
+  "examples": [
+   "A sticky *residue* stayed on the glass.",
+   "Wash off any *residue* before you weigh it.",
+   "Pesticide *residues* were found on the fruit."
+  ]
+ },
+ {
+  "term": "sediment",
+  "ipa": "ˈsedəmənt",
+  "respell": "SED-uh-muhnt",
+  "ru": "осадок, отложения",
+  "plural": "",
+  "countability": "uncountable",
+  "gloss": "Solid material that settles at the bottom of a liquid.",
+  "examples": [
+   "*Sediment* collected at the bottom of the tube.",
+   "The river carries *sediment* downstream.",
+   "Pour it off slowly and leave the *sediment* behind."
+  ]
+ },
+ {
+  "term": "laboratory",
+  "ipa": "ˈlæbrətɔːri",
+  "respell": "LAB-ruh-tor-ee",
+  "ru": "лаборатория",
+  "plural": "laboratories",
+  "countability": "countable",
+  "gloss": "A room or building where scientific work is done.",
+  "examples": [
+   "The samples went straight to the *laboratory*.",
+   "She runs a research *laboratory* at the university.",
+   "Both *laboratories* got the same result."
+  ],
+  "contrast": "Americans stress the first syllable, LAB-ruh-tor-ee; the British say luh-BOR-uh-tree."
+ },
+ {
+  "term": "lab",
+  "ipa": "læb",
+  "respell": "LAB",
+  "ru": "лаборатория (разг.)",
+  "plural": "labs",
+  "countability": "countable",
+  "gloss": "An informal word for a laboratory.",
+  "examples": [
+   "We ran the test in the *lab*.",
+   "Her *lab* is on the third floor.",
+   "Most of the *labs* close at six."
+  ]
+ },
+ {
+  "term": "test tube",
+  "ipa": "ˈtest tuːb",
+  "respell": "TEST-toob",
+  "ru": "пробирка",
+  "plural": "test tubes",
+  "countability": "countable",
+  "gloss": "A thin glass tube closed at one end, used for experiments.",
+  "examples": [
+   "Pour the acid into a clean *test tube*.",
+   "Hold the *test tube* with tongs, not with your fingers.",
+   "A rack of *test tubes* sat on the bench."
+  ]
+ },
+ {
+  "term": "beaker",
+  "ipa": "ˈbiːkər",
+  "respell": "BEE-kur",
+  "ru": "химический стакан",
+  "plural": "beakers",
+  "countability": "countable",
+  "gloss": "A wide glass cup with a lip, used for mixing liquids in a lab.",
+  "examples": [
+   "Fill the *beaker* to the hundred-milliliter mark.",
+   "The liquid in the *beaker* turned pink.",
+   "Wash the *beakers* before you leave."
+  ]
+ },
+ {
+  "term": "pipette",
+  "ipa": "paɪˈpet",
+  "respell": "py-PET",
+  "ru": "пипетка (лабораторная)",
+  "plural": "pipettes",
+  "countability": "countable",
+  "gloss": "A thin tube used to move an exact amount of liquid.",
+  "examples": [
+   "Use a *pipette* to add exactly five milliliters.",
+   "Rinse the *pipette* between samples.",
+   "The *pipettes* are in the top drawer."
+  ]
+ },
+ {
+  "term": "funnel",
+  "ipa": "ˈfʌnəl",
+  "respell": "FUN-uhl",
+  "ru": "воронка",
+  "plural": "funnels",
+  "countability": "countable",
+  "gloss": "A cone-shaped tube used for pouring liquid into a narrow opening.",
+  "examples": [
+   "Use a *funnel* so you don't spill it.",
+   "The *funnel* was lined with filter paper.",
+   "Two plastic *funnels* hung by the sink."
+  ]
+ },
+ {
+  "term": "dropper",
+  "ipa": "ˈdrɑːpər",
+  "respell": "DRAH-pur",
+  "ru": "пипетка (капельная)",
+  "plural": "droppers",
+  "countability": "countable",
+  "gloss": "A small tube with a rubber bulb for releasing liquid one drop at a time.",
+  "examples": [
+   "Add the dye with a *dropper*.",
+   "The *dropper* holds about a milliliter.",
+   "Both *droppers* were labeled with tape."
+  ]
+ },
+ {
+  "term": "stopper",
+  "ipa": "ˈstɑːpər",
+  "respell": "STAH-pur",
+  "ru": "пробка (для сосуда)",
+  "plural": "stoppers",
+  "countability": "countable",
+  "gloss": "A plug of rubber, glass, or cork that closes a bottle or a tube.",
+  "examples": [
+   "Push the *stopper* firmly into the flask.",
+   "The *stopper* popped out from the pressure.",
+   "Rubber *stoppers* come in several sizes."
+  ]
+ },
+ {
+  "term": "cylinder",
+  "ipa": "ˈsɪləndər",
+  "respell": "SIL-uhn-dur",
+  "ru": "цилиндр",
+  "plural": "cylinders",
+  "countability": "countable",
+  "gloss": "A tube-shaped object or container with flat circular ends.",
+  "examples": [
+   "Measure the volume in a graduated *cylinder*.",
+   "The gas comes in a heavy steel *cylinder*.",
+   "This engine has four *cylinders*."
+  ]
+ },
+ {
+  "term": "filter",
+  "ipa": "ˈfɪltər",
+  "respell": "FIL-tur",
+  "ru": "фильтр",
+  "plural": "filters",
+  "countability": "countable",
+  "gloss": "A device that removes solid pieces or unwanted material from a liquid or gas.",
+  "examples": [
+   "Pour the mixture through a paper *filter*.",
+   "Change the air *filter* once a year.",
+   "The *filters* clogged after an hour."
+  ]
+ },
+ {
+  "term": "membrane",
+  "ipa": "ˈmembreɪn",
+  "respell": "MEM-brayn",
+  "ru": "мембрана",
+  "plural": "membranes",
+  "countability": "countable",
+  "gloss": "A very thin layer that lets some substances pass through it.",
+  "examples": [
+   "Water passes through the *membrane* but salt does not.",
+   "The *membrane* tore under the pressure.",
+   "Cell *membranes* control what goes in and out."
+  ]
+ },
+ {
+  "term": "probe",
+  "ipa": "proʊb",
+  "respell": "PROHB",
+  "ru": "зонд, щуп",
+  "plural": "probes",
+  "countability": "countable",
+  "gloss": "A thin instrument used to measure or examine something.",
+  "examples": [
+   "Insert the temperature *probe* into the sample.",
+   "The *probe* sends data back every second.",
+   "Two *probes* recorded the voltage."
+  ]
+ },
+ {
+  "term": "sensor",
+  "ipa": "ˈsensər",
+  "respell": "SEN-sur",
+  "ru": "датчик",
+  "plural": "sensors",
+  "countability": "countable",
+  "gloss": "A device that detects heat, light, motion, or another physical change.",
+  "examples": [
+   "The *sensor* switches the light on automatically.",
+   "A faulty *sensor* gave us the wrong reading.",
+   "*Sensors* on the bridge measure the strain."
+  ]
+ },
+ {
+  "term": "detector",
+  "ipa": "dɪˈtektər",
+  "respell": "dih-TEK-tur",
+  "ru": "детектор",
+  "plural": "detectors",
+  "countability": "countable",
+  "gloss": "A device that finds the presence of something such as smoke or radiation.",
+  "examples": [
+   "The smoke *detector* went off at midnight.",
+   "The metal *detector* beeped at his belt buckle.",
+   "Radiation *detectors* line the corridor."
+  ]
+ },
+ {
+  "term": "stopwatch",
+  "ipa": "ˈstɑːpwɑːtʃ",
+  "respell": "STAHP-wahch",
+  "ru": "секундомер",
+  "plural": "stopwatches",
+  "countability": "countable",
+  "gloss": "A watch used to time something exactly.",
+  "examples": [
+   "Start the *stopwatch* when the ball is released.",
+   "The coach clicked the *stopwatch* at the finish line.",
+   "Both *stopwatches* showed the same time."
+  ]
+ },
+ {
+  "term": "compass",
+  "ipa": "ˈkʌmpəs",
+  "respell": "KUM-puhs",
+  "ru": "компас",
+  "plural": "compasses",
+  "countability": "countable",
+  "gloss": "An instrument with a magnetic needle that shows which way is north.",
+  "examples": [
+   "The needle of the *compass* swung toward the magnet.",
+   "Take a *compass* if you're hiking off the trail.",
+   "The old brass *compasses* still work perfectly."
+  ]
+ },
+ {
+  "term": "instrument",
+  "ipa": "ˈɪnstrəmənt",
+  "respell": "IN-struh-muhnt",
+  "ru": "прибор",
+  "plural": "instruments",
+  "countability": "countable",
+  "gloss": "A tool used for careful scientific work or measurement.",
+  "examples": [
+   "Every *instrument* in the lab is calibrated once a year.",
+   "The *instrument* measures pressure to four decimal places.",
+   "Delicate *instruments* must be handled carefully."
+  ]
+ },
+ {
+  "term": "engine",
+  "ipa": "ˈendʒɪn",
+  "respell": "EN-jin",
+  "ru": "двигатель",
+  "plural": "engines",
+  "countability": "countable",
+  "gloss": "A machine that turns fuel or electricity into movement.",
+  "examples": [
+   "The *engine* burns a mixture of fuel and air.",
+   "Both *engines* shut down at the same moment.",
+   "A diesel *engine* is more efficient than a gasoline one."
+  ]
+ },
+ {
+  "term": "turbine",
+  "ipa": "ˈtɜːrbaɪn",
+  "respell": "TUR-byn",
+  "ru": "турбина",
+  "plural": "turbines",
+  "countability": "countable",
+  "gloss": "A machine with blades that spin to produce power.",
+  "examples": [
+   "Steam drives the *turbine*.",
+   "Wind *turbines* line the whole ridge.",
+   "The *turbine* generates enough power for a small town."
+  ]
+ },
+ {
+  "term": "piston",
+  "ipa": "ˈpɪstən",
+  "respell": "PIS-tuhn",
+  "ru": "поршень",
+  "plural": "pistons",
+  "countability": "countable",
+  "gloss": "A part that slides up and down inside a cylinder to create movement.",
+  "examples": [
+   "The *piston* moves down as the gas expands.",
+   "One *piston* was badly scratched.",
+   "This engine has six *pistons*."
+  ]
+ },
+ {
+  "term": "experiment",
+  "ipa": "ɪkˈsperəmənt",
+  "respell": "ik-SPER-uh-muhnt",
+  "ru": "эксперимент, опыт",
+  "plural": "experiments",
+  "countability": "countable",
+  "gloss": "A scientific test done to find out whether an idea is true.",
+  "examples": [
+   "The *experiment* took three weeks.",
+   "We repeated the *experiment* twice to be sure.",
+   "Her *experiments* changed how we think about heat."
+  ]
+ },
+ {
+  "term": "test",
+  "ipa": "test",
+  "respell": "TEST",
+  "ru": "испытание, анализ",
+  "plural": "tests",
+  "countability": "countable",
+  "gloss": "A procedure done to find out what something is or how well it works.",
+  "examples": [
+   "The lab ran a *test* on the water sample.",
+   "Both *tests* came back negative.",
+   "We put the new material through a strength *test*."
+  ]
+ },
+ {
+  "term": "trial",
+  "ipa": "ˈtraɪrl",
+  "respell": "TRY-uhl",
+  "ru": "испытание, проба",
+  "plural": "trials",
+  "countability": "countable",
+  "gloss": "One run of an experiment or test.",
+  "examples": [
+   "The drug is still in clinical *trials*.",
+   "Each *trial* gave a slightly different number.",
+   "We averaged the results of ten *trials*."
+  ]
+ },
+ {
+  "term": "sample",
+  "ipa": "ˈsæmpəl",
+  "respell": "SAM-puhl",
+  "ru": "образец, проба",
+  "plural": "samples",
+  "countability": "countable",
+  "gloss": "A small amount of something taken to be examined or tested.",
+  "examples": [
+   "Take a *sample* of the water from the tap.",
+   "The *samples* are stored in a freezer.",
+   "Each *sample* was labeled with a date."
+  ]
+ },
+ {
+  "term": "specimen",
+  "ipa": "ˈspesəmən",
+  "respell": "SPES-uh-muhn",
+  "ru": "образец, экземпляр",
+  "plural": "specimens",
+  "countability": "countable",
+  "gloss": "A single item or piece taken as an example for study.",
+  "examples": [
+   "The museum has a rare *specimen* of that mineral.",
+   "Label each *specimen* clearly.",
+   "The *specimen* was mounted on a glass slide."
+  ],
+  "contrast": "Stress the first syllable: SPES-uh-muhn."
+ },
+ {
+  "term": "observation",
+  "ipa": "ˌɑːbzərˈveɪʃən",
+  "respell": "ahb-zur-VAY-shuhn",
+  "ru": "наблюдение",
+  "plural": "observations",
+  "countability": "countable",
+  "gloss": "Something you notice and write down while watching carefully.",
+  "examples": [
+   "Write your *observations* in the notebook.",
+   "One *observation* did not fit the pattern.",
+   "The theory rests on years of careful *observations*."
+  ]
+ },
+ {
+  "term": "result",
+  "ipa": "rɪˈzʌlt",
+  "respell": "rih-ZULT",
+  "ru": "результат",
+  "plural": "results",
+  "countability": "countable",
+  "gloss": "What you find out at the end of an experiment or test.",
+  "examples": [
+   "The *results* surprised everyone in the lab.",
+   "We got the same *result* three times in a row.",
+   "Her *results* were published last spring."
+  ]
+ },
+ {
+  "term": "data",
+  "ipa": "ˈdeɪtə",
+  "respell": "DAY-tuh",
+  "ru": "данные",
+  "plural": "",
+  "countability": "uncountable",
+  "gloss": "Facts and numbers collected for study.",
+  "examples": [
+   "The *data* shows a clear trend.",
+   "We collected *data* for six months.",
+   "All of the *data* is stored on the server."
+  ],
+  "contrast": "In American English *data* normally takes a singular verb: *the data is*."
+ },
+ {
+  "term": "theory",
+  "ipa": "ˈθiːəri",
+  "respell": "THEE-uh-ree",
+  "ru": "теория",
+  "plural": "theories",
+  "countability": "countable",
+  "gloss": "A set of ideas that explains why something happens.",
+  "examples": [
+   "Einstein's *theory* changed physics forever.",
+   "There are several competing *theories*.",
+   "The *theory* predicts exactly what we measured."
+  ]
+ },
+ {
+  "term": "principle",
+  "ipa": "ˈprɪnsəpəl",
+  "respell": "PRIN-suh-puhl",
+  "ru": "принцип, закон",
+  "plural": "principles",
+  "countability": "countable",
+  "gloss": "A basic scientific rule that explains how something works.",
+  "examples": [
+   "The pump works on a very simple *principle*.",
+   "He explained the *principle* behind the experiment.",
+   "The same *principles* apply to gases and liquids."
+  ],
+  "contrast": "Sounds exactly like *principal*, the head of a school."
+ },
+ {
+  "term": "equation",
+  "ipa": "ɪˈkweɪʒən",
+  "respell": "ih-KWAY-zhuhn",
+  "ru": "уравнение",
+  "plural": "equations",
+  "countability": "countable",
+  "gloss": "A mathematical statement that two amounts are equal.",
+  "examples": [
+   "Solve the *equation* for the unknown value.",
+   "The *equation* balances on both sides.",
+   "These *equations* describe how the wave moves."
+  ],
+  "contrast": "The ending is -ZHUHN, not -SHUHN."
+ },
+ {
+  "term": "method",
+  "ipa": "ˈmeθəd",
+  "respell": "METH-uhd",
+  "ru": "метод",
+  "plural": "methods",
+  "countability": "countable",
+  "gloss": "A planned way of doing something.",
+  "examples": [
+   "The scientific *method* starts with a question.",
+   "We tried a different *method* the second time.",
+   "Both *methods* gave the same answer."
+  ]
+ },
+ {
+  "term": "procedure",
+  "ipa": "prəˈsiːdʒər",
+  "respell": "pruh-SEE-jur",
+  "ru": "процедура, методика",
+  "plural": "procedures",
+  "countability": "countable",
+  "gloss": "The set of steps you follow to do something correctly.",
+  "examples": [
+   "Follow the safety *procedure* exactly.",
+   "The whole *procedure* takes about twenty minutes.",
+   "Lab *procedures* are posted on the wall."
+  ]
+ },
+ {
+  "term": "technique",
+  "ipa": "tekˈniːk",
+  "respell": "tek-NEEK",
+  "ru": "техника, методика",
+  "plural": "techniques",
+  "countability": "countable",
+  "gloss": "A particular skilled way of doing something.",
+  "examples": [
+   "The new *technique* saves hours of work.",
+   "She developed a *technique* for growing the crystals.",
+   "Both *techniques* have their drawbacks."
+  ],
+  "contrast": "The *-que* ending is just a *k* sound: tek-NEEK."
+ },
+ {
+  "term": "variable",
+  "ipa": "ˈveriəbəl",
+  "respell": "VAIR-ee-uh-buhl",
+  "ru": "переменная",
+  "plural": "variables",
+  "countability": "countable",
+  "gloss": "Something in an experiment that can change.",
+  "examples": [
+   "Change only one *variable* at a time.",
+   "Temperature was the one *variable* we controlled.",
+   "Too many *variables* make the results hard to read."
+  ]
+ },
+ {
+  "term": "graph",
+  "ipa": "ɡræf",
+  "respell": "GRAF",
+  "ru": "график",
+  "plural": "graphs",
+  "countability": "countable",
+  "gloss": "A drawing that shows how two sets of numbers are related.",
+  "examples": [
+   "Plot your results on a *graph*.",
+   "The *graph* shows a steady rise.",
+   "Both *graphs* use the same scale."
+  ],
+  "contrast": "The *ph* is pronounced like *f*."
+ },
+ {
+  "term": "diagram",
+  "ipa": "ˈdaɪrɡræm",
+  "respell": "DY-uh-gram",
+  "ru": "схема, диаграмма",
+  "plural": "diagrams",
+  "countability": "countable",
+  "gloss": "A simple drawing that explains how something works or is arranged.",
+  "examples": [
+   "Label every part of the *diagram*.",
+   "The *diagram* shows the flow of current.",
+   "The manual has *diagrams* for each step."
+  ]
+ },
+ {
+  "term": "chemistry",
+  "ipa": "ˈkeməstri",
+  "respell": "KEM-uh-stree",
+  "ru": "химия",
+  "plural": "",
+  "countability": "uncountable",
+  "gloss": "The science of what substances are made of and how they react.",
+  "examples": [
+   "She teaches *chemistry* at the high school.",
+   "*Chemistry* was my favorite subject.",
+   "The *chemistry* behind the reaction is simple."
+  ],
+  "contrast": "The *ch* is pronounced like *k*."
+ },
+ {
+  "term": "chemist",
+  "ipa": "ˈkeməst",
+  "respell": "KEM-uhst",
+  "ru": "химик",
+  "plural": "chemists",
+  "countability": "countable",
+  "gloss": "A scientist who studies chemical substances and reactions.",
+  "examples": [
+   "A *chemist* analyzed the sample for us.",
+   "*Chemists* developed the new coating.",
+   "He worked as a *chemist* for a paint company."
+  ],
+  "contrast": "In America a *chemist* is a scientist; in Britain the word can also mean a pharmacist."
+ },
+ {
+  "term": "physicist",
+  "ipa": "ˈfɪzəsɪst",
+  "respell": "FIZ-uh-sist",
+  "ru": "физик",
+  "plural": "physicists",
+  "countability": "countable",
+  "gloss": "A scientist who studies matter, energy, and forces.",
+  "examples": [
+   "The *physicist* explained the results to the reporters.",
+   "Several *physicists* worked on the design.",
+   "She trained as a *physicist* before switching to medicine."
+  ],
+  "contrast": "Stress the first syllable: FIZ-uh-sist."
+ }
+]

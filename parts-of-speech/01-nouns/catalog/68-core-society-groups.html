@@ -1,0 +1,691 @@
+<!DOCTYPE html>
+<html lang="en"><head>
+<meta charset="utf-8"><meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Core vocabulary: society</title>
+<style>
+:root{--bg:#faf9f7;--surface:#fff;--surface2:#f2f0ec;--border:#e2ded6;--text:#1a1815;
+--dim:#5f594f;--faint:#8a8377;--accent:#8a5a3b;--measure:72ch}
+@media(prefers-color-scheme:dark){:root{--bg:#14140f;--surface:#1d1d17;--surface2:#25251d;
+--border:#33332a;--text:#eeeae1;--dim:#a8a293;--faint:#7d776b;--accent:#d09b72}}
+:root[data-theme=dark]{--bg:#14140f;--surface:#1d1d17;--surface2:#25251d;--border:#33332a;
+--text:#eeeae1;--dim:#a8a293;--faint:#7d776b;--accent:#d09b72}
+:root[data-theme=light]{--bg:#faf9f7;--surface:#fff;--surface2:#f2f0ec;--border:#e2ded6;
+--text:#1a1815;--dim:#5f594f;--faint:#8a8377;--accent:#8a5a3b}
+*{box-sizing:border-box}
+body{margin:0;background:var(--bg);color:var(--text);
+font:17px/1.72 ui-serif,Georgia,"Iowan Old Style",Palatino,serif;-webkit-font-smoothing:antialiased}
+.wrap{max-width:min(var(--measure),100%);margin:0 auto;padding:0 22px}
+nav.crumb{border-bottom:1px solid var(--border);padding:13px 0;font-size:13.5px;
+font-family:-apple-system,BlinkMacSystemFont,"Segoe UI",sans-serif;position:sticky;top:0;background:var(--bg);z-index:20}
+nav.crumb .wrap{max-width:none;display:flex;gap:9px;align-items:center;flex-wrap:wrap}
+nav.crumb a{color:var(--dim);text-decoration:none}
+nav.crumb a:hover{color:var(--accent)}
+nav.crumb .sep{color:var(--faint)}
+main{padding:8px 0 80px}
+h1{font-size:clamp(28px,5vw,38px);line-height:1.15;letter-spacing:-.015em;margin:34px 0 18px}
+h2{font-size:25px;margin:46px 0 14px;letter-spacing:-.01em;padding-bottom:7px;border-bottom:1px solid var(--border)}
+h3{font-size:19px;margin:34px 0 10px;color:var(--accent)}
+h4{font-size:16px;margin:24px 0 8px;font-family:-apple-system,sans-serif}
+p{margin:0 0 16px}
+a{color:var(--accent)}
+.hash{opacity:0;margin-left:8px;font-weight:400;font-size:.65em;text-decoration:none;color:var(--faint)}
+h2:hover .hash,h3:hover .hash{opacity:1}
+blockquote{margin:0 0 20px;padding:14px 18px;background:var(--surface2);
+border-left:3px solid var(--accent);border-radius:0 8px 8px 0}
+blockquote p:last-child{margin-bottom:0}
+ol,ul{margin:0 0 18px;padding-left:26px}
+li{margin-bottom:8px}
+li>ul,li>ol{margin:8px 0 0}
+code{font-family:ui-monospace,SFMono-Regular,Menlo,Consolas,monospace;font-size:.87em;
+background:var(--surface2);padding:1px 5px;border-radius:4px}
+pre{background:var(--surface2);border:1px solid var(--border);border-radius:9px;
+padding:15px 17px;overflow-x:auto;margin:0 0 20px}
+pre code{background:none;padding:0;font-size:13px;line-height:1.6}
+.tw{overflow-x:auto;margin:0 0 22px;border:1px solid var(--border);border-radius:9px}
+table{border-collapse:collapse;width:100%;font-size:15px;
+font-family:-apple-system,BlinkMacSystemFont,"Segoe UI",sans-serif}
+th,td{padding:10px 14px;border-bottom:1px solid var(--border);vertical-align:top}
+th{background:var(--surface2);font-size:12px;text-transform:uppercase;
+letter-spacing:.06em;color:var(--dim);font-weight:700;white-space:nowrap}
+tbody tr:last-child td{border-bottom:none}
+hr{border:none;border-top:1px solid var(--border);margin:38px 0}
+details{background:var(--surface2);border:1px solid var(--border);border-radius:9px;
+padding:13px 17px;margin:0 0 20px}
+summary{cursor:pointer;font-weight:600;font-family:-apple-system,sans-serif;font-size:15px}
+details[open] summary{margin-bottom:12px}
+del{color:var(--faint)}
+dl.fields{margin:0 0 20px;padding:0}
+dl.fields dt{font-family:-apple-system,BlinkMacSystemFont,"Segoe UI",sans-serif;
+font-size:11px;letter-spacing:.11em;text-transform:uppercase;color:var(--faint);
+font-weight:700;margin:14px 0 4px}
+dl.fields dt:first-child{margin-top:0}
+dl.fields dd{margin:0;font-size:16px;color:var(--dim);line-height:1.62}
+dl.fields dd em{color:var(--text)}
+dl.fields dt.ru{color:var(--accent)}
+dl.fields dd strong{color:var(--text)}
+.toc{background:var(--surface2);border:1px solid var(--border);border-radius:10px;
+padding:16px 20px;margin:26px 0 34px;font-family:-apple-system,sans-serif;font-size:14px}
+.toc b{display:block;font-size:11px;letter-spacing:.12em;text-transform:uppercase;
+color:var(--faint);margin-bottom:9px}
+.toc a{display:block;padding:3px 0;color:var(--dim);text-decoration:none}
+.toc a:hover{color:var(--accent)}
+.themebtn{position:fixed;right:18px;bottom:18px;z-index:60;font-family:-apple-system,sans-serif;
+font-size:12.5px;font-weight:600;cursor:pointer;background:var(--surface);border:1px solid var(--border);
+border-radius:99px;padding:9px 16px;color:var(--text)}
+@media(max-width:600px){body{font-size:16px}.wrap{padding:0 17px}}
+</style></head><body>
+<nav class="crumb"><div class="wrap"><a href="../../../index.html">Learn English</a><span class="sep">/</span><a href="../../README.html">Parts of speech</a><span class="sep">/</span><a href="../README.html">01-nouns</a><span class="sep">/</span><span>catalog</span></div></nav>
+<main><div class="wrap"><h1 id="core-vocabulary-society">Core vocabulary: society<a class="hash" href="#core-vocabulary-society" aria-label="link">#</a></h1>
+<blockquote><p>The everyday nouns of society — pronunciation, Russian, plural, and three examples each.</p></blockquote>
+<p><a href="../README.html">← The grammar of nouns</a> &middot; <a href="README.html">All groups</a></p>
+<p>Part of the <strong>core-vocabulary tier</strong>. Groups 1–23 cover the nouns that misbehave; this tier covers the nouns you simply need to know. Entries are deliberately lean, because a regular countable noun has no grammatical story to tell. A <strong>Contrast</strong> line appears only where the word hides a genuine trap.</p>
+<p>Where a word in this field <em>does</em> misbehave, it lives in the grammar tier instead and is not repeated here.</p>
+<hr>
+<h3 id="society">society<a class="hash" href="#society" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/səˈsaɪrti/ &middot; <em>suh-SY-uh-tee</em></dd><dt>Русский</dt><dd>общество</dd><dt>Plural</dt><dd><em>societies</em></dd><dt>Countability</dt><dd>both — countable and uncountable with different meanings</dd></dl>
+<p>People living together in an organized community, or an organized group formed for a shared purpose.</p>
+<ol><li>American <em>society</em> has changed a lot in fifty years.</li><li>She belongs to a historical <em>society</em> downtown.</li><li>Several honor <em>societies</em> recruit students in the spring.</li></ol>
+<hr>
+<h3 id="community">community<a class="hash" href="#community" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/kəˈmjuːnəti/ &middot; <em>kuh-MYOO-nuh-tee</em></dd><dt>Русский</dt><dd>сообщество, община</dd><dt>Plural</dt><dd><em>communities</em></dd><dt>Countability</dt><dd>countable</dd></dl>
+<p>A group of people who live in the same place or share the same interests.</p>
+<ol><li>The whole <em>community</em> turned out for the fundraiser.</li><li>Online <em>communities</em> can be surprisingly close-knit.</li><li>He grew up in a small farming <em>community</em>.</li></ol>
+<hr>
+<h3 id="population">population<a class="hash" href="#population" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/ˌpɑːpjəˈleɪʃən/ &middot; <em>pah-pyuh-LAY-shun</em></dd><dt>Русский</dt><dd>население</dd><dt>Plural</dt><dd><em>populations</em></dd><dt>Countability</dt><dd>countable</dd></dl>
+<p>All the people living in a particular place.</p>
+<ol><li>The town's <em>population</em> has doubled since 1990.</li><li>Rural <em>populations</em> are shrinking across the Midwest.</li><li>About a third of the <em>population</em> voted.</li></ol>
+<hr>
+<h3 id="civilization">civilization<a class="hash" href="#civilization" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/ˌsɪvələˈzeɪʃən/ &middot; <em>siv-uh-luh-ZAY-shun</em></dd><dt>Русский</dt><dd>цивилизация</dd><dt>Plural</dt><dd><em>civilizations</em></dd><dt>Countability</dt><dd>both — countable and uncountable with different meanings</dd><dt>Contrast</dt><dd>Americans spell it <em>civilization</em>; the British write <em>civilisation</em>.</dd></dl>
+<p>An advanced, organized human society, or the condition of living in one.</p>
+<ol><li>The Maya built one of the great <em>civilizations</em> of the Americas.</li><li>After a week in the woods, we were glad to get back to <em>civilization</em>.</li><li>Ancient <em>civilizations</em> left behind roads and temples.</li></ol>
+<hr>
+<h3 id="humanity">humanity<a class="hash" href="#humanity" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/hjuːˈmænəti/ &middot; <em>hyoo-MAN-uh-tee</em></dd><dt>Русский</dt><dd>человечество; человечность</dd><dt>Countability</dt><dd>uncountable</dd></dl>
+<p>The human race as a whole, or the quality of being kind to others.</p>
+<ol><li>A disease that threatens all of <em>humanity</em>.</li><li>She showed real <em>humanity</em> toward the refugees.</li><li>Crimes against <em>humanity</em> carry no statute of limitations.</li></ol>
+<hr>
+<h3 id="institution">institution<a class="hash" href="#institution" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/ˌɪnstɪˈtuːʃən/ &middot; <em>in-stih-TOO-shun</em></dd><dt>Русский</dt><dd>учреждение, институт (организация)</dd><dt>Plural</dt><dd><em>institutions</em></dd><dt>Countability</dt><dd>countable</dd><dt>Contrast</dt><dd>Americans say in-stih-TOO-shun; the British add a <em>y</em> sound: in-stih-TYOO-shun.</dd></dl>
+<p>A large, established organization such as a bank, a school, or a hospital.</p>
+<ol><li>The university is the oldest <em>institution</em> in the state.</li><li>Financial <em>institutions</em> tightened their lending rules.</li><li>Marriage is an <em>institution</em> that keeps changing.</li></ol>
+<hr>
+<h3 id="hierarchy">hierarchy<a class="hash" href="#hierarchy" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/ˈhaɪrˌrɑːrki/ &middot; <em>HY-uh-rar-kee</em></dd><dt>Русский</dt><dd>иерархия</dd><dt>Plural</dt><dd><em>hierarchies</em></dd><dt>Countability</dt><dd>countable</dd><dt>Contrast</dt><dd>The <em>ch</em> is said like <em>k</em>, and the stress is on the first syllable: HY-uh-rar-kee.</dd></dl>
+<p>A system in which people or things are ranked one above another.</p>
+<ol><li>The company has a strict <em>hierarchy</em>.</li><li>Wolves live in a clear social <em>hierarchy</em>.</li><li>She rose quickly through the <em>hierarchy</em>.</li></ol>
+<hr>
+<h3 id="caste">caste<a class="hash" href="#caste" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/kæst/ &middot; <em>KAST</em></dd><dt>Русский</dt><dd>каста</dd><dt>Plural</dt><dd><em>castes</em></dd><dt>Countability</dt><dd>countable</dd><dt>Contrast</dt><dd>Sounds exactly like <em>cast</em> (the actors in a play); only the spelling differs.</dd></dl>
+<p>A fixed social class that a person is born into and cannot leave.</p>
+<ol><li>The <em>caste</em> system still shapes village life in parts of India.</li><li>Marriage between <em>castes</em> was once forbidden.</li><li>He was born into the lowest <em>caste</em>.</li></ol>
+<hr>
+<h3 id="elite">elite<a class="hash" href="#elite" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/ɪˈliːt/ &middot; <em>ih-LEET</em></dd><dt>Русский</dt><dd>элита</dd><dt>Plural</dt><dd><em>elites</em></dd><dt>Countability</dt><dd>countable</dd><dt>Contrast</dt><dd>Stress falls on the second syllable, and <em>-ite</em> is said EET, not <em>eye-t</em>.</dd></dl>
+<p>The small group of people with the most power, money, or skill.</p>
+<ol><li>A tiny <em>elite</em> controls most of the wealth.</li><li>The country's political <em>elites</em> rarely agree.</li><li>He was never accepted by the local <em>elite</em>.</li></ol>
+<hr>
+<h3 id="aristocracy">aristocracy<a class="hash" href="#aristocracy" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/ˌɛrəˈstɑːkrəsi/ &middot; <em>eh-ruh-STAH-kruh-see</em></dd><dt>Русский</dt><dd>аристократия</dd><dt>Plural</dt><dd><em>aristocracies</em></dd><dt>Countability</dt><dd>countable</dd></dl>
+<p>The highest social class, usually one with inherited titles and land.</p>
+<ol><li>The French <em>aristocracy</em> lost everything in the revolution.</li><li>She married into the <em>aristocracy</em>.</li><li>European <em>aristocracies</em> have mostly faded away.</li></ol>
+<hr>
+<h3 id="nobility">nobility<a class="hash" href="#nobility" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/noʊˈbɪləti/ &middot; <em>noh-BIL-uh-tee</em></dd><dt>Русский</dt><dd>знать, дворянство</dd><dt>Countability</dt><dd>uncountable</dd></dl>
+<p>The people of the highest social rank, who hold inherited titles.</p>
+<ol><li>The <em>nobility</em> paid almost no taxes.</li><li>He can trace his family back to the medieval <em>nobility</em>.</li><li>Members of the <em>nobility</em> were exempt from military service.</li></ol>
+<hr>
+<h3 id="peasant">peasant<a class="hash" href="#peasant" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/ˈpɛzənt/ &middot; <em>PEZ-uhnt</em></dd><dt>Русский</dt><dd>крестьянин</dd><dt>Plural</dt><dd><em>peasants</em></dd><dt>Countability</dt><dd>countable</dd><dt>Contrast</dt><dd>The <em>ea</em> is said EH, not EE: PEZ-uhnt.</dd></dl>
+<p>A poor farmer who works a small piece of land, especially in the past.</p>
+<ol><li>Most <em>peasants</em> could not read or write.</li><li>The <em>peasant</em> families owned nothing but their tools.</li><li>He came from a <em>peasant</em> village in the mountains.</li></ol>
+<hr>
+<h3 id="slave">slave<a class="hash" href="#slave" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/sleɪv/ &middot; <em>SLAYV</em></dd><dt>Русский</dt><dd>раб</dd><dt>Plural</dt><dd><em>slaves</em></dd><dt>Countability</dt><dd>countable</dd></dl>
+<p>A person who is legally owned by someone else and forced to work.</p>
+<ol><li>Her ancestors were freed <em>slaves</em>.</li><li>The plantation was worked by <em>slaves</em>.</li><li>No one should be treated like a <em>slave</em>.</li></ol>
+<hr>
+<h3 id="slavery">slavery<a class="hash" href="#slavery" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/ˈsleɪvəri/ &middot; <em>SLAY-vuh-ree</em></dd><dt>Русский</dt><dd>рабство</dd><dt>Countability</dt><dd>uncountable</dd></dl>
+<p>The practice of owning people and forcing them to work.</p>
+<ol><li><em>Slavery</em> was abolished in 1865.</li><li>The museum documents the history of <em>slavery</em>.</li><li>Modern <em>slavery</em> still exists in some industries.</li></ol>
+<hr>
+<h3 id="clan">clan<a class="hash" href="#clan" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/klæn/ &middot; <em>KLAN</em></dd><dt>Русский</dt><dd>клан, род</dd><dt>Plural</dt><dd><em>clans</em></dd><dt>Countability</dt><dd>countable</dd></dl>
+<p>A large group of families that claim a common ancestor.</p>
+<ol><li>The Highland <em>clans</em> fought each other for centuries.</li><li>The whole <em>clan</em> shows up at Thanksgiving.</li><li>Rival <em>clans</em> controlled different valleys.</li></ol>
+<hr>
+<h3 id="faction">faction<a class="hash" href="#faction" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/ˈfækʃən/ &middot; <em>FAK-shun</em></dd><dt>Русский</dt><dd>фракция, группировка</dd><dt>Plural</dt><dd><em>factions</em></dd><dt>Countability</dt><dd>countable</dd></dl>
+<p>A small group inside a larger organization that disagrees with the rest.</p>
+<ol><li>A <em>faction</em> of the party broke away.</li><li>Rival <em>factions</em> fought for control of the city.</li><li>The board split into two <em>factions</em>.</li></ol>
+<hr>
+<h3 id="clique">clique<a class="hash" href="#clique" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/kliːk/ &middot; <em>KLEEK</em></dd><dt>Русский</dt><dd>клика, замкнутая компания</dd><dt>Plural</dt><dd><em>cliques</em></dd><dt>Countability</dt><dd>countable</dd><dt>Contrast</dt><dd>Spelled with <em>-que</em> but usually said KLEEK; some Americans say KLIK.</dd></dl>
+<p>A small, closed group of friends who keep other people out.</p>
+<ol><li>High school is full of <em>cliques</em>.</li><li>The department is run by a little <em>clique</em>.</li><li>She was never let into their <em>clique</em>.</li></ol>
+<hr>
+<h3 id="association">association<a class="hash" href="#association" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/əˌsoʊsiˈeɪʃən/ &middot; <em>uh-soh-see-AY-shun</em></dd><dt>Русский</dt><dd>ассоциация, объединение</dd><dt>Plural</dt><dd><em>associations</em></dd><dt>Countability</dt><dd>countable</dd></dl>
+<p>An organized group of people who share an interest or a profession.</p>
+<ol><li>The neighborhood <em>association</em> voted on the fence rules.</li><li>He joined the state bar <em>association</em>.</li><li>Several trade <em>associations</em> opposed the bill.</li></ol>
+<hr>
+<h3 id="league">league<a class="hash" href="#league" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/liːɡ/ &middot; <em>LEEG</em></dd><dt>Русский</dt><dd>лига, союз</dd><dt>Plural</dt><dd><em>leagues</em></dd><dt>Countability</dt><dd>countable</dd><dt>Contrast</dt><dd>The <em>u</em> is silent: LEEG.</dd></dl>
+<p>A group of teams, countries, or people joined together for a common purpose.</p>
+<ol><li>Their town has its own bowling <em>league</em>.</li><li>The two nations formed a defensive <em>league</em>.</li><li>He plays in a recreational <em>league</em> on weekends.</li></ol>
+<hr>
+<h3 id="party">party<a class="hash" href="#party" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/ˈpɑːrti/ &middot; <em>PAR-tee</em></dd><dt>Русский</dt><dd>партия (политическая); группа людей</dd><dt>Plural</dt><dd><em>parties</em></dd><dt>Countability</dt><dd>countable</dd></dl>
+<p>An organized political group, or a group of people acting together.</p>
+<ol><li>Neither <em>party</em> wanted an early election.</li><li>A search <em>party</em> went out at dawn.</li><li>Both <em>parties</em> signed the agreement.</li></ol>
+<hr>
+<h3 id="gathering">gathering<a class="hash" href="#gathering" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/ˈɡæðərɪŋ/ &middot; <em>GA-thuh-ring</em></dd><dt>Русский</dt><dd>собрание, сборище</dd><dt>Plural</dt><dd><em>gatherings</em></dd><dt>Countability</dt><dd>countable</dd></dl>
+<p>A group of people who have come together in one place.</p>
+<ol><li>It was a small family <em>gathering</em>.</li><li>Large <em>gatherings</em> were banned that spring.</li><li>A <em>gathering</em> of neighbors filled the church basement.</li></ol>
+<hr>
+<h3 id="membership">membership<a class="hash" href="#membership" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/ˈmɛmbərʃɪp/ &middot; <em>MEM-bur-ship</em></dd><dt>Русский</dt><dd>членство</dd><dt>Plural</dt><dd><em>memberships</em></dd><dt>Countability</dt><dd>both — countable and uncountable with different meanings</dd><dt>Contrast</dt><dd>Uncountable for belonging (<em>membership is voluntary</em>); countable for a subscription (<em>two memberships</em>).</dd></dl>
+<p>The state of belonging to a group, or a paid right to use something.</p>
+<ol><li><em>Membership</em> in the union is voluntary.</li><li>He let his gym <em>membership</em> lapse.</li><li>They sell family <em>memberships</em> at a discount.</li></ol>
+<hr>
+<h3 id="leadership">leadership<a class="hash" href="#leadership" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/ˈliːdərʃɪp/ &middot; <em>LEE-dur-ship</em></dd><dt>Русский</dt><dd>руководство, лидерство</dd><dt>Countability</dt><dd>uncountable</dd></dl>
+<p>The position of leading a group, or the ability to lead one well.</p>
+<ol><li>The company needs stronger <em>leadership</em>.</li><li>Under her <em>leadership</em>, membership doubled.</li><li>He showed real <em>leadership</em> during the crisis.</li></ol>
+<hr>
+<h3 id="demographic">demographic<a class="hash" href="#demographic" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/ˌdɛməˈɡræfɪk/ &middot; <em>dem-uh-GRA-fik</em></dd><dt>Русский</dt><dd>демографическая группа</dd><dt>Plural</dt><dd><em>demographics</em></dd><dt>Countability</dt><dd>countable</dd><dt>Contrast</dt><dd>The plural <em>demographics</em> also means the statistics about a population.</dd></dl>
+<p>A particular group of people defined by age, income, or similar traits.</p>
+<ol><li>The show is aimed at a young <em>demographic</em>.</li><li>Advertisers track several <em>demographics</em> at once.</li><li>That <em>demographic</em> votes at very high rates.</li></ol>
+<hr>
+<h3 id="ethnicity">ethnicity<a class="hash" href="#ethnicity" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/ɛθˈnɪsəti/ &middot; <em>eth-NIH-suh-tee</em></dd><dt>Русский</dt><dd>этническая принадлежность</dd><dt>Plural</dt><dd><em>ethnicities</em></dd><dt>Countability</dt><dd>countable</dd></dl>
+<p>The ethnic group a person belongs to, based on shared origin and culture.</p>
+<ol><li>The form asks about age, sex, and <em>ethnicity</em>.</li><li>Students of many <em>ethnicities</em> attend the school.</li><li>He never talks about his <em>ethnicity</em>.</li></ol>
+<hr>
+<h3 id="race">race<a class="hash" href="#race" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/reɪs/ &middot; <em>RAYS</em></dd><dt>Русский</dt><dd>раса</dd><dt>Plural</dt><dd><em>races</em></dd><dt>Countability</dt><dd>countable</dd><dt>Contrast</dt><dd>The same word also means a speed contest: <em>a horse race</em>.</dd></dl>
+<p>A group of people seen as sharing physical features and ancestry.</p>
+<ol><li>The law bans discrimination based on <em>race</em>.</li><li>People of all <em>races</em> live on this block.</li><li><em>Race</em> is still a difficult subject in America.</li></ol>
+<hr>
+<h3 id="diversity">diversity<a class="hash" href="#diversity" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/dɪˈvɜːrsəti/ &middot; <em>dih-VUR-suh-tee</em></dd><dt>Русский</dt><dd>разнообразие, многообразие</dd><dt>Countability</dt><dd>uncountable</dd></dl>
+<p>The presence of people of many different backgrounds in a group.</p>
+<ol><li>The company talks a lot about <em>diversity</em>.</li><li>There is real <em>diversity</em> in this neighborhood.</li><li><em>Diversity</em> on the board improved after the merger.</li></ol>
+<hr>
+<h3 id="millennial">millennial<a class="hash" href="#millennial" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/mɪˈlɛniəl/ &middot; <em>mih-LEN-ee-ul</em></dd><dt>Русский</dt><dd>миллениал (человек поколения Y)</dd><dt>Plural</dt><dd><em>millennials</em></dd><dt>Countability</dt><dd>countable</dd><dt>Contrast</dt><dd>Two <em>l</em>'s and two <em>n</em>'s — a word Americans misspell constantly.</dd></dl>
+<p>A person born roughly between 1981 and 1996.</p>
+<ol><li><em>Millennials</em> are buying homes later than their parents did.</li><li>As a <em>millennial</em>, she barely remembers dial-up.</li><li>The ad campaign targets <em>millennials</em>.</li></ol>
+<hr>
+<h3 id="adolescent">adolescent<a class="hash" href="#adolescent" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/ˌædəˈlɛsənt/ &middot; <em>a-duh-LES-uhnt</em></dd><dt>Русский</dt><dd>подросток</dd><dt>Plural</dt><dd><em>adolescents</em></dd><dt>Countability</dt><dd>countable</dd></dl>
+<p>A young person between childhood and adulthood.</p>
+<ol><li><em>Adolescents</em> need more sleep than adults do.</li><li>The clinic treats <em>adolescents</em> and young adults.</li><li>He was a moody <em>adolescent</em>.</li></ol>
+<hr>
+<h3 id="elder">elder<a class="hash" href="#elder" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/ˈɛldər/ &middot; <em>EL-dur</em></dd><dt>Русский</dt><dd>старейшина; пожилой человек</dd><dt>Plural</dt><dd><em>elders</em></dd><dt>Countability</dt><dd>countable</dd></dl>
+<p>An older person in a family or community who is respected for it.</p>
+<ol><li>The tribal <em>elders</em> met to decide.</li><li>Children here are taught to respect their <em>elders</em>.</li><li>A church <em>elder</em> opened the meeting.</li></ol>
+<hr>
+<h3 id="retiree">retiree<a class="hash" href="#retiree" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/rɪˌtaɪˈriː/ &middot; <em>rih-ty-REE</em></dd><dt>Русский</dt><dd>пенсионер</dd><dt>Plural</dt><dd><em>retirees</em></dd><dt>Countability</dt><dd>countable</dd><dt>Contrast</dt><dd>Stress lands on the last syllable: rih-ty-REE.</dd></dl>
+<p>A person who has stopped working because of age.</p>
+<ol><li>Florida is full of <em>retirees</em>.</li><li>The plan covers current workers and <em>retirees</em>.</li><li>As a <em>retiree</em>, he volunteers three days a week.</li></ol>
+<hr>
+<h3 id="toddler">toddler<a class="hash" href="#toddler" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/ˈtɑːdlər/ &middot; <em>TAHD-lur</em></dd><dt>Русский</dt><dd>малыш (1–3 года)</dd><dt>Plural</dt><dd><em>toddlers</em></dd><dt>Countability</dt><dd>countable</dd></dl>
+<p>A child who has just learned to walk, usually one to three years old.</p>
+<ol><li><em>Toddlers</em> get into everything.</li><li>She has a <em>toddler</em> and a newborn.</li><li>The class is for <em>toddlers</em> and their parents.</li></ol>
+<hr>
+<h3 id="infant">infant<a class="hash" href="#infant" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/ˈɪnfənt/ &middot; <em>IN-funt</em></dd><dt>Русский</dt><dd>младенец</dd><dt>Plural</dt><dd><em>infants</em></dd><dt>Countability</dt><dd>countable</dd></dl>
+<p>A very young child, especially one under a year old.</p>
+<ol><li>The vaccine is safe for <em>infants</em>.</li><li>She was still an <em>infant</em> when they moved.</li><li><em>Infants</em> sleep most of the day.</li></ol>
+<hr>
+<h3 id="newborn">newborn<a class="hash" href="#newborn" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/ˈnuːbɔːrn/ &middot; <em>NOO-born</em></dd><dt>Русский</dt><dd>новорождённый</dd><dt>Plural</dt><dd><em>newborns</em></dd><dt>Countability</dt><dd>countable</dd><dt>Contrast</dt><dd>Americans say NOO-born; the British say NYOO-born.</dd></dl>
+<p>A baby that has just been born.</p>
+<ol><li>The <em>newborn</em> weighed seven pounds.</li><li><em>Newborns</em> need to eat every few hours.</li><li>They brought the <em>newborn</em> home on Sunday.</li></ol>
+<hr>
+<h3 id="migrant">migrant<a class="hash" href="#migrant" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/ˈmaɪɡrənt/ &middot; <em>MY-gruhnt</em></dd><dt>Русский</dt><dd>мигрант</dd><dt>Plural</dt><dd><em>migrants</em></dd><dt>Countability</dt><dd>countable</dd></dl>
+<p>A person who moves from one place to another to find work or a better life.</p>
+<ol><li><em>Migrants</em> pick most of the fruit in this valley.</li><li>The camp houses several hundred <em>migrants</em>.</li><li>He came here as a <em>migrant</em> worker in the eighties.</li></ol>
+<hr>
+<h3 id="emigrant">emigrant<a class="hash" href="#emigrant" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/ˈɛmɪɡrənt/ &middot; <em>EM-ih-gruhnt</em></dd><dt>Русский</dt><dd>эмигрант</dd><dt>Plural</dt><dd><em>emigrants</em></dd><dt>Countability</dt><dd>countable</dd><dt>Contrast</dt><dd>An <em>emigrant</em> leaves a country; an <em>immigrant</em> arrives in one — the same person, seen from opposite sides.</dd></dl>
+<p>A person who leaves their own country to settle in another one.</p>
+<ol><li>Thousands of <em>emigrants</em> sailed from that port.</li><li>Her grandfather was an Irish <em>emigrant</em>.</li><li>Letters from <em>emigrants</em> took months to arrive.</li></ol>
+<hr>
+<h3 id="exile">exile<a class="hash" href="#exile" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/ˈɛɡzaɪl/ &middot; <em>EG-zyle</em></dd><dt>Русский</dt><dd>изгнание; изгнанник</dd><dt>Plural</dt><dd><em>exiles</em></dd><dt>Countability</dt><dd>both — countable and uncountable with different meanings</dd><dt>Contrast</dt><dd>Uncountable for the condition (<em>in exile</em>); countable for the person (<em>a group of exiles</em>).</dd></dl>
+<p>Being forced to live away from your own country, or a person living that way.</p>
+<ol><li>The writer spent twenty years in <em>exile</em>.</li><li>Political <em>exiles</em> gathered in Paris.</li><li>He returned from <em>exile</em> to a hero's welcome.</li></ol>
+<hr>
+<h3 id="foreigner">foreigner<a class="hash" href="#foreigner" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/ˈfɔːrənər/ &middot; <em>FOR-uh-nur</em></dd><dt>Русский</dt><dd>иностранец</dd><dt>Plural</dt><dd><em>foreigners</em></dd><dt>Countability</dt><dd>countable</dd><dt>Contrast</dt><dd>The <em>g</em> is silent: FOR-uh-nur.</dd></dl>
+<p>A person from another country.</p>
+<ol><li><em>Foreigners</em> need a visa to work here.</li><li>He was the only <em>foreigner</em> in the room.</li><li>The law treats <em>foreigners</em> and citizens differently.</li></ol>
+<hr>
+<h3 id="native">native<a class="hash" href="#native" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/ˈneɪtɪv/ &middot; <em>NAY-tiv</em></dd><dt>Русский</dt><dd>уроженец, коренной житель</dd><dt>Plural</dt><dd><em>natives</em></dd><dt>Countability</dt><dd>countable</dd></dl>
+<p>A person born in a particular place, or one of its original inhabitants.</p>
+<ol><li>She's a <em>native</em> of Cleveland.</li><li>The <em>natives</em> of the island fished for a living.</li><li>Ask a <em>native</em> — they'll know the shortcut.</li></ol>
+<hr>
+<h3 id="settler">settler<a class="hash" href="#settler" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/ˈsɛtlər/ &middot; <em>SET-lur</em></dd><dt>Русский</dt><dd>поселенец</dd><dt>Plural</dt><dd><em>settlers</em></dd><dt>Countability</dt><dd>countable</dd></dl>
+<p>A person who moves to a new region to live there permanently.</p>
+<ol><li>The first <em>settlers</em> arrived by wagon.</li><li><em>Settlers</em> cleared the land for farming.</li><li>A group of <em>settlers</em> built the town in 1851.</li></ol>
+<hr>
+<h3 id="pioneer">pioneer<a class="hash" href="#pioneer" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/ˌpaɪrˈnɪr/ &middot; <em>py-uh-NEER</em></dd><dt>Русский</dt><dd>первопроходец, пионер</dd><dt>Plural</dt><dd><em>pioneers</em></dd><dt>Countability</dt><dd>countable</dd></dl>
+<p>One of the first people to settle a place or to develop something new.</p>
+<ol><li><em>Pioneers</em> crossed the plains in covered wagons.</li><li>She was a <em>pioneer</em> in computer science.</li><li>The museum honors the town's <em>pioneers</em>.</li></ol>
+<hr>
+<h3 id="newcomer">newcomer<a class="hash" href="#newcomer" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/ˈnuːˌkʌmər/ &middot; <em>NOO-kum-ur</em></dd><dt>Русский</dt><dd>новичок, новоприбывший</dd><dt>Plural</dt><dd><em>newcomers</em></dd><dt>Countability</dt><dd>countable</dd></dl>
+<p>A person who has recently arrived somewhere.</p>
+<ol><li>The church runs a dinner for <em>newcomers</em>.</li><li>As a <em>newcomer</em>, he didn't know anyone.</li><li><em>Newcomers</em> have pushed up the rents.</li></ol>
+<hr>
+<h3 id="outsider">outsider<a class="hash" href="#outsider" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/ˌaʊtˈsaɪdər/ &middot; <em>owt-SY-dur</em></dd><dt>Русский</dt><dd>чужак, посторонний</dd><dt>Plural</dt><dd><em>outsiders</em></dd><dt>Countability</dt><dd>countable</dd></dl>
+<p>A person who does not belong to a particular group or place.</p>
+<ol><li>In a small town you stay an <em>outsider</em> for years.</li><li><em>Outsiders</em> aren't allowed at the meeting.</li><li>He ran for mayor as a political <em>outsider</em>.</li></ol>
+<hr>
+<h3 id="local">local<a class="hash" href="#local" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/ˈloʊkəl/ &middot; <em>LOH-kul</em></dd><dt>Русский</dt><dd>местный житель</dd><dt>Plural</dt><dd><em>locals</em></dd><dt>Countability</dt><dd>countable</dd></dl>
+<p>A person who lives in the area, as opposed to a visitor.</p>
+<ol><li>Ask the <em>locals</em> where to eat.</li><li>The bar is full of <em>locals</em> on Fridays.</li><li>A <em>local</em> pulled us out of the ditch.</li></ol>
+<hr>
+<h3 id="homeland">homeland<a class="hash" href="#homeland" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/ˈhoʊmlænd/ &middot; <em>HOHM-land</em></dd><dt>Русский</dt><dd>родина</dd><dt>Plural</dt><dd><em>homelands</em></dd><dt>Countability</dt><dd>countable</dd></dl>
+<p>The country where a person was born or where their people come from.</p>
+<ol><li>He hasn't seen his <em>homeland</em> in thirty years.</li><li>Refugees dream of returning to their <em>homeland</em>.</li><li>The war drove them from their <em>homeland</em>.</li></ol>
+<hr>
+<h3 id="household">household<a class="hash" href="#household" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/ˈhaʊshoʊld/ &middot; <em>HOWS-hohld</em></dd><dt>Русский</dt><dd>домохозяйство, семья (живущие вместе)</dd><dt>Plural</dt><dd><em>households</em></dd><dt>Countability</dt><dd>countable</dd></dl>
+<p>All the people who live together in one house.</p>
+<ol><li>The average <em>household</em> here has two cars.</li><li>Millions of <em>households</em> lost power.</li><li>She runs the whole <em>household</em> by herself.</li></ol>
+<hr>
+<h3 id="kin">kin<a class="hash" href="#kin" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/kɪn/ &middot; <em>KIN</em></dd><dt>Русский</dt><dd>родня, родственники</dd><dt>Countability</dt><dd>uncountable</dd><dt>Contrast</dt><dd><em>Kin</em> never takes a plural <em>-s</em>, and it usually takes a plural verb: <em>his kin are farmers</em>.</dd></dl>
+<p>A person's relatives, taken together.</p>
+<ol><li>The hospital called his next of <em>kin</em>.</li><li>She has no <em>kin</em> left in the state.</li><li>They took the boy in as <em>kin</em>.</li></ol>
+<hr>
+<h3 id="ancestor">ancestor<a class="hash" href="#ancestor" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/ˈænsɛstər/ &middot; <em>AN-ses-tur</em></dd><dt>Русский</dt><dd>предок</dd><dt>Plural</dt><dd><em>ancestors</em></dd><dt>Countability</dt><dd>countable</dd></dl>
+<p>A person from whom someone is descended, usually long ago.</p>
+<ol><li>Her <em>ancestors</em> came over in 1848.</li><li>He traced his <em>ancestors</em> back six generations.</li><li>A distant <em>ancestor</em> fought in the Civil War.</li></ol>
+<hr>
+<h3 id="descendant">descendant<a class="hash" href="#descendant" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/dɪˈsɛndənt/ &middot; <em>dih-SEN-duhnt</em></dd><dt>Русский</dt><dd>потомок</dd><dt>Plural</dt><dd><em>descendants</em></dd><dt>Countability</dt><dd>countable</dd><dt>Contrast</dt><dd>Ends in <em>-ant</em>, not <em>-ent</em> — unlike <em>independent</em>.</dd></dl>
+<p>A person who is related to someone who lived long ago.</p>
+<ol><li>She's a direct <em>descendant</em> of the first mayor.</li><li><em>Descendants</em> of the original settlers still farm here.</li><li>No <em>descendants</em> were left to claim the land.</li></ol>
+<hr>
+<h3 id="in-law">in-law<a class="hash" href="#in-law" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/ˈɪnlɔː/ &middot; <em>IN-law</em></dd><dt>Русский</dt><dd>родственник со стороны супруга</dd><dt>Plural</dt><dd><em>in-laws</em></dd><dt>Countability</dt><dd>countable</dd><dt>Contrast</dt><dd>In the longer forms the plural goes on the first word: <em>brothers-in-law</em>, not <em>brother-in-laws</em>.</dd></dl>
+<p>A relative by marriage, such as a husband's mother or a wife's brother.</p>
+<ol><li>We spend Christmas with my <em>in-laws</em>.</li><li>His <em>in-laws</em> live two blocks away.</li><li>She gets along with every <em>in-law</em> except one.</li></ol>
+<hr>
+<h3 id="nephew">nephew<a class="hash" href="#nephew" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/ˈnɛfjuː/ &middot; <em>NEF-yoo</em></dd><dt>Русский</dt><dd>племянник</dd><dt>Plural</dt><dd><em>nephews</em></dd><dt>Countability</dt><dd>countable</dd><dt>Contrast</dt><dd>Americans say NEF-yoo; many British speakers say NEV-yoo.</dd></dl>
+<p>The son of your brother or sister.</p>
+<ol><li>My <em>nephew</em> just started kindergarten.</li><li>She has four <em>nephews</em> and one niece.</li><li>He left the house to his <em>nephew</em>.</li></ol>
+<hr>
+<h3 id="grandparent">grandparent<a class="hash" href="#grandparent" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/ˈɡrænˌpɛrənt/ &middot; <em>GRAN-pair-uhnt</em></dd><dt>Русский</dt><dd>дедушка или бабушка</dd><dt>Plural</dt><dd><em>grandparents</em></dd><dt>Countability</dt><dd>countable</dd></dl>
+<p>The mother or father of one of your parents.</p>
+<ol><li>Both of my <em>grandparents</em> were teachers.</li><li>The kids stay with their <em>grandparents</em> in July.</li><li>Every <em>grandparent</em> in the room was crying.</li></ol>
+<hr>
+<h3 id="grandchild">grandchild<a class="hash" href="#grandchild" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/ˈɡrænˌtʃaɪld/ &middot; <em>GRAN-chyld</em></dd><dt>Русский</dt><dd>внук или внучка</dd><dt>Plural</dt><dd><em>grandchildren</em></dd><dt>Countability</dt><dd>countable</dd><dt>Contrast</dt><dd>Irregular plural: <em>grandchildren</em>, never <em>grandchilds</em>.</dd></dl>
+<p>The child of your son or daughter.</p>
+<ol><li>They have seven <em>grandchildren</em>.</li><li>Her first <em>grandchild</em> was born in May.</li><li>He reads to his <em>grandchildren</em> every Sunday.</li></ol>
+<hr>
+<h3 id="stepmother">stepmother<a class="hash" href="#stepmother" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/ˈstɛpˌmʌðər/ &middot; <em>STEP-muh-thur</em></dd><dt>Русский</dt><dd>мачеха</dd><dt>Plural</dt><dd><em>stepmothers</em></dd><dt>Countability</dt><dd>countable</dd></dl>
+<p>The woman married to your father who is not your own mother.</p>
+<ol><li>His <em>stepmother</em> raised him from the age of six.</li><li>She's a great <em>stepmother</em> to those boys.</li><li>Fairy tales are full of wicked <em>stepmothers</em>.</li></ol>
+<hr>
+<h3 id="godparent">godparent<a class="hash" href="#godparent" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/ˈɡɑːdˌpɛrənt/ &middot; <em>GAHD-pair-uhnt</em></dd><dt>Русский</dt><dd>крёстный отец или крёстная мать</dd><dt>Plural</dt><dd><em>godparents</em></dd><dt>Countability</dt><dd>countable</dd></dl>
+<p>A person who promises at a baptism to help raise a child.</p>
+<ol><li>They asked my sister to be a <em>godparent</em>.</li><li>Both <em>godparents</em> came to the baptism.</li><li>His <em>godparents</em> still send him birthday cards.</li></ol>
+<hr>
+<h3 id="guardian">guardian<a class="hash" href="#guardian" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/ˈɡɑːrdiən/ &middot; <em>GAR-dee-un</em></dd><dt>Русский</dt><dd>опекун</dd><dt>Plural</dt><dd><em>guardians</em></dd><dt>Countability</dt><dd>countable</dd></dl>
+<p>An adult who is legally responsible for a child who is not their own.</p>
+<ol><li>A court appointed his aunt as his <em>guardian</em>.</li><li><em>Guardians</em> must sign the permission slip.</li><li>She became the <em>guardian</em> of her two nephews.</li></ol>
+<hr>
+<h3 id="dependent">dependent<a class="hash" href="#dependent" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/dɪˈpɛndənt/ &middot; <em>dih-PEN-duhnt</em></dd><dt>Русский</dt><dd>иждивенец</dd><dt>Plural</dt><dd><em>dependents</em></dd><dt>Countability</dt><dd>countable</dd><dt>Contrast</dt><dd>Americans spell the noun <em>dependent</em>; the British write <em>dependant</em> for the person.</dd></dl>
+<p>A person, usually a child, who relies on someone else for money and support.</p>
+<ol><li>He claims two <em>dependents</em> on his taxes.</li><li>The insurance covers employees and their <em>dependents</em>.</li><li>She's listed as a <em>dependent</em> on her mother's return.</li></ol>
+<hr>
+<h3 id="orphan">orphan<a class="hash" href="#orphan" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/ˈɔːrfən/ &middot; <em>OR-fun</em></dd><dt>Русский</dt><dd>сирота</dd><dt>Plural</dt><dd><em>orphans</em></dd><dt>Countability</dt><dd>countable</dd></dl>
+<p>A child whose parents have died.</p>
+<ol><li>The war left thousands of <em>orphans</em>.</li><li>He was raised as an <em>orphan</em> by his uncle.</li><li>The charity places <em>orphans</em> with foster families.</li></ol>
+<hr>
+<h3 id="widower">widower<a class="hash" href="#widower" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/ˈwɪdoʊrr/ &middot; <em>WID-oh-ur</em></dd><dt>Русский</dt><dd>вдовец</dd><dt>Plural</dt><dd><em>widowers</em></dd><dt>Countability</dt><dd>countable</dd></dl>
+<p>A man whose wife has died.</p>
+<ol><li>He's been a <em>widower</em> for ten years.</li><li>The club is mostly widows and <em>widowers</em>.</li><li>A quiet <em>widower</em> lives next door.</li></ol>
+<hr>
+<h3 id="bachelor">bachelor<a class="hash" href="#bachelor" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/ˈbætʃələr/ &middot; <em>BATCH-uh-lur</em></dd><dt>Русский</dt><dd>холостяк</dd><dt>Plural</dt><dd><em>bachelors</em></dd><dt>Countability</dt><dd>countable</dd></dl>
+<p>A man who has never been married.</p>
+<ol><li>He stayed a <em>bachelor</em> until he was fifty.</li><li>The apartment looked like a <em>bachelor</em> lived there.</li><li>Two confirmed <em>bachelors</em> shared the house.</li></ol>
+<hr>
+<h3 id="marriage">marriage<a class="hash" href="#marriage" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/ˈmɛrɪdʒ/ &middot; <em>MEH-rij</em></dd><dt>Русский</dt><dd>брак; женитьба, замужество</dd><dt>Plural</dt><dd><em>marriages</em></dd><dt>Countability</dt><dd>both — countable and uncountable with different meanings</dd></dl>
+<p>The legal union of two people, or the institution of being married.</p>
+<ol><li>Their <em>marriage</em> lasted forty years.</li><li><em>Marriage</em> rates have fallen since the nineties.</li><li>It was her second <em>marriage</em>.</li></ol>
+<hr>
+<h3 id="wedding">wedding<a class="hash" href="#wedding" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/ˈwɛdɪŋ/ &middot; <em>WED-ing</em></dd><dt>Русский</dt><dd>свадьба</dd><dt>Plural</dt><dd><em>weddings</em></dd><dt>Countability</dt><dd>countable</dd></dl>
+<p>The ceremony at which two people are married.</p>
+<ol><li>The <em>wedding</em> is in a barn outside Austin.</li><li>We have three <em>weddings</em> this summer.</li><li>She cried through the whole <em>wedding</em>.</li></ol>
+<hr>
+<h3 id="divorce">divorce<a class="hash" href="#divorce" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/dəˈvɔːrs/ &middot; <em>duh-VORS</em></dd><dt>Русский</dt><dd>развод</dd><dt>Plural</dt><dd><em>divorces</em></dd><dt>Countability</dt><dd>countable</dd></dl>
+<p>The legal ending of a marriage.</p>
+<ol><li>Their <em>divorce</em> took two years.</li><li><em>Divorces</em> are cheaper when nobody fights.</li><li>She filed for <em>divorce</em> in March.</li></ol>
+<hr>
+<h3 id="engagement">engagement<a class="hash" href="#engagement" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/ɪnˈɡeɪdʒmənt/ &middot; <em>in-GAYJ-muhnt</em></dd><dt>Русский</dt><dd>помолвка</dd><dt>Plural</dt><dd><em>engagements</em></dd><dt>Countability</dt><dd>countable</dd></dl>
+<p>An agreement between two people to marry.</p>
+<ol><li>They announced their <em>engagement</em> at dinner.</li><li>The <em>engagement</em> lasted less than a year.</li><li>Both <em>engagements</em> were called off.</li></ol>
+<hr>
+<h3 id="partner">partner<a class="hash" href="#partner" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/ˈpɑːrtnər/ &middot; <em>PART-nur</em></dd><dt>Русский</dt><dd>партнёр; спутник жизни</dd><dt>Plural</dt><dd><em>partners</em></dd><dt>Countability</dt><dd>countable</dd></dl>
+<p>The person someone shares their life with, or someone who shares a business.</p>
+<ol><li>She brought her <em>partner</em> to the office party.</li><li>The two <em>partners</em> split the profits evenly.</li><li>He introduced me to his <em>partner</em> of twelve years.</li></ol>
+<hr>
+<h3 id="upbringing">upbringing<a class="hash" href="#upbringing" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/ˈʌpˌbrɪŋɪŋ/ &middot; <em>UP-bring-ing</em></dd><dt>Русский</dt><dd>воспитание</dd><dt>Plural</dt><dd><em>upbringings</em></dd><dt>Countability</dt><dd>countable</dd></dl>
+<p>The way a child is raised and taught at home.</p>
+<ol><li>He had a strict religious <em>upbringing</em>.</li><li>Their <em>upbringings</em> could not have been more different.</li><li>She credits her <em>upbringing</em> for her work ethic.</li></ol>
+<hr>
+<h3 id="motherhood">motherhood<a class="hash" href="#motherhood" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/ˈmʌðərhʊd/ &middot; <em>MUH-thur-hood</em></dd><dt>Русский</dt><dd>материнство</dd><dt>Countability</dt><dd>uncountable</dd></dl>
+<p>The state of being a mother.</p>
+<ol><li><em>Motherhood</em> changed her priorities.</li><li>She writes honestly about <em>motherhood</em>.</li><li>He never understood the demands of <em>motherhood</em>.</li></ol>
+<hr>
+<h3 id="adoption">adoption<a class="hash" href="#adoption" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/əˈdɑːpʃən/ &middot; <em>uh-DAHP-shun</em></dd><dt>Русский</dt><dd>усыновление, удочерение</dd><dt>Plural</dt><dd><em>adoptions</em></dd><dt>Countability</dt><dd>countable</dd></dl>
+<p>The legal act of taking another person's child into your family as your own.</p>
+<ol><li>The <em>adoption</em> took eighteen months.</li><li>International <em>adoptions</em> have dropped sharply.</li><li>They're going through the <em>adoption</em> process now.</li></ol>
+<hr>
+<h3 id="caregiver">caregiver<a class="hash" href="#caregiver" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/ˈkɛrˌɡɪvər/ &middot; <em>KAIR-giv-ur</em></dd><dt>Русский</dt><dd>сиделка, ухаживающий за больным</dd><dt>Plural</dt><dd><em>caregivers</em></dd><dt>Countability</dt><dd>countable</dd><dt>Contrast</dt><dd>Americans say <em>caregiver</em>; the British say <em>carer</em>.</dd></dl>
+<p>A person who looks after someone who is old, sick, or disabled.</p>
+<ol><li><em>Caregivers</em> rarely get a day off.</li><li>She became her father's full-time <em>caregiver</em>.</li><li>The program offers support for family <em>caregivers</em>.</li></ol>
+<hr>
+<h3 id="babysitter">babysitter<a class="hash" href="#babysitter" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/ˈbeɪbiˌsɪtər/ &middot; <em>BAY-bee-sit-ur</em></dd><dt>Русский</dt><dd>няня (приходящая)</dd><dt>Plural</dt><dd><em>babysitters</em></dd><dt>Countability</dt><dd>countable</dd></dl>
+<p>A person paid to watch children while their parents are out.</p>
+<ol><li>We couldn't find a <em>babysitter</em> on New Year's Eve.</li><li>Good <em>babysitters</em> get booked weeks ahead.</li><li>The <em>babysitter</em> arrived at seven.</li></ol>
+<hr>
+<h3 id="housewife">housewife<a class="hash" href="#housewife" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/ˈhaʊswaɪf/ &middot; <em>HOWS-wyf</em></dd><dt>Русский</dt><dd>домохозяйка</dd><dt>Plural</dt><dd><em>housewives</em></dd><dt>Countability</dt><dd>countable</dd><dt>Contrast</dt><dd>Irregular plural: <em>housewives</em>, with a <em>v</em>.</dd></dl>
+<p>A married woman whose main work is running her home.</p>
+<ol><li>Her mother was a <em>housewife</em> all her life.</li><li>The show is about four suburban <em>housewives</em>.</li><li>She hated being called a <em>housewife</em>.</li></ol>
+<hr>
+<h3 id="friendship">friendship<a class="hash" href="#friendship" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/ˈfrɛndʃɪp/ &middot; <em>FREND-ship</em></dd><dt>Русский</dt><dd>дружба</dd><dt>Plural</dt><dd><em>friendships</em></dd><dt>Countability</dt><dd>countable</dd></dl>
+<p>The relationship between people who are friends.</p>
+<ol><li>Their <em>friendship</em> survived the move.</li><li>He formed lasting <em>friendships</em> in the army.</li><li>It started as a <em>friendship</em> and became more.</li></ol>
+<hr>
+<h3 id="relationship">relationship<a class="hash" href="#relationship" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/rɪˈleɪʃənʃɪp/ &middot; <em>rih-LAY-shun-ship</em></dd><dt>Русский</dt><dd>отношения, взаимоотношения</dd><dt>Plural</dt><dd><em>relationships</em></dd><dt>Countability</dt><dd>countable</dd></dl>
+<p>The way two people or groups behave toward each other, especially romantically.</p>
+<ol><li>They've been in a <em>relationship</em> since college.</li><li>The <em>relationship</em> between the two towns is tense.</li><li>Long-distance <em>relationships</em> are hard.</li></ol>
+<hr>
+<h3 id="acquaintance">acquaintance<a class="hash" href="#acquaintance" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/əˈkweɪntəns/ &middot; <em>uh-KWAYN-tuhns</em></dd><dt>Русский</dt><dd>знакомый (человек)</dd><dt>Plural</dt><dd><em>acquaintances</em></dd><dt>Countability</dt><dd>countable</dd></dl>
+<p>Someone you know slightly but who is not a close friend.</p>
+<ol><li>He's an <em>acquaintance</em> from the gym.</li><li>She invited a few <em>acquaintances</em> to the opening.</li><li>We're <em>acquaintances</em>, not friends.</li></ol>
+<hr>
+<h3 id="companion">companion<a class="hash" href="#companion" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/kəmˈpænjən/ &middot; <em>kum-PAN-yun</em></dd><dt>Русский</dt><dd>спутник, компаньон</dd><dt>Plural</dt><dd><em>companions</em></dd><dt>Countability</dt><dd>countable</dd></dl>
+<p>A person who spends time with someone, especially on a trip or in daily life.</p>
+<ol><li>The dog has been her <em>companion</em> for ten years.</li><li>He hired a <em>companion</em> for his elderly mother.</li><li>My travel <em>companions</em> were both from Texas.</li></ol>
+<hr>
+<h3 id="comrade">comrade<a class="hash" href="#comrade" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/ˈkɑːmræd/ &middot; <em>KAHM-rad</em></dd><dt>Русский</dt><dd>товарищ</dd><dt>Plural</dt><dd><em>comrades</em></dd><dt>Countability</dt><dd>countable</dd><dt>Contrast</dt><dd>Americans say KAHM-rad; the British say KOM-rayd.</dd></dl>
+<p>A fellow member of a group, especially soldiers or political allies.</p>
+<ol><li>He was buried beside his <em>comrades</em>.</li><li>Old <em>comrades</em> from the union came to the funeral.</li><li>She addressed the crowd as <em>comrades</em>.</li></ol>
+<hr>
+<h3 id="peer">peer<a class="hash" href="#peer" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/pɪr/ &middot; <em>PEER</em></dd><dt>Русский</dt><dd>ровесник; равный по положению</dd><dt>Plural</dt><dd><em>peers</em></dd><dt>Countability</dt><dd>countable</dd><dt>Contrast</dt><dd>Sounds exactly like <em>pier</em>, a walkway out over water.</dd></dl>
+<p>A person of the same age or rank as someone else.</p>
+<ol><li>Teenagers care most about their <em>peers</em>.</li><li><em>Peer</em> pressure got him into trouble.</li><li>Her work is reviewed by <em>peers</em> before publication.</li></ol>
+<hr>
+<h3 id="buddy">buddy<a class="hash" href="#buddy" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/ˈbʌdi/ &middot; <em>BUH-dee</em></dd><dt>Русский</dt><dd>приятель, дружище</dd><dt>Plural</dt><dd><em>buddies</em></dd><dt>Countability</dt><dd>countable</dd></dl>
+<p>A friend, in casual American speech.</p>
+<ol><li>He went fishing with his <em>buddies</em>.</li><li>My old army <em>buddy</em> called last night.</li><li>Hey, <em>buddy</em>, you dropped your wallet.</li></ol>
+<hr>
+<h3 id="outcast">outcast<a class="hash" href="#outcast" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/ˈaʊtkæst/ &middot; <em>OWT-kast</em></dd><dt>Русский</dt><dd>изгой</dd><dt>Plural</dt><dd><em>outcasts</em></dd><dt>Countability</dt><dd>countable</dd></dl>
+<p>A person who is rejected by their community.</p>
+<ol><li>After the trial he was a social <em>outcast</em>.</li><li>The village treated them as <em>outcasts</em>.</li><li>She writes about <em>outcasts</em> and loners.</li></ol>
+<hr>
+<h3 id="mentor">mentor<a class="hash" href="#mentor" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/ˈmɛntɔːr/ &middot; <em>MEN-tor</em></dd><dt>Русский</dt><dd>наставник</dd><dt>Plural</dt><dd><em>mentors</em></dd><dt>Countability</dt><dd>countable</dd></dl>
+<p>An experienced person who advises and helps someone younger.</p>
+<ol><li>Every new teacher is assigned a <em>mentor</em>.</li><li>He credits two <em>mentors</em> with his career.</li><li>She became a <em>mentor</em> to a dozen young lawyers.</li></ol>
+<hr>
+<h3 id="sponsor">sponsor<a class="hash" href="#sponsor" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/ˈspɑːnsər/ &middot; <em>SPAHN-sur</em></dd><dt>Русский</dt><dd>спонсор; поручитель</dd><dt>Plural</dt><dd><em>sponsors</em></dd><dt>Countability</dt><dd>countable</dd></dl>
+<p>A person or company that pays for or vouches for someone or something.</p>
+<ol><li>The team lost its main <em>sponsor</em>.</li><li>New immigrants often need a <em>sponsor</em>.</li><li>Several <em>sponsors</em> pulled out of the festival.</li></ol>
+<hr>
+<h3 id="solidarity">solidarity<a class="hash" href="#solidarity" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/ˌsɑːləˈdɛrəti/ &middot; <em>sah-luh-DEH-ruh-tee</em></dd><dt>Русский</dt><dd>солидарность</dd><dt>Countability</dt><dd>uncountable</dd></dl>
+<p>Unity and mutual support among people who share a cause.</p>
+<ol><li>The teachers marched in <em>solidarity</em> with the nurses.</li><li>There was little <em>solidarity</em> between the two unions.</li><li>They wore black as a show of <em>solidarity</em>.</li></ol>
+<hr>
+<h3 id="cooperation">cooperation<a class="hash" href="#cooperation" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/koʊˌɑːpəˈreɪʃən/ &middot; <em>koh-ah-puh-RAY-shun</em></dd><dt>Русский</dt><dd>сотрудничество</dd><dt>Countability</dt><dd>uncountable</dd></dl>
+<p>The act of working together toward the same goal.</p>
+<ol><li>The project needs <em>cooperation</em> from three agencies.</li><li>Thank you for your <em>cooperation</em>.</li><li>There was no <em>cooperation</em> between the departments.</li></ol>
+<hr>
+<h3 id="dispute">dispute<a class="hash" href="#dispute" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/dɪˈspjuːt/ &middot; <em>dih-SPYOOT</em></dd><dt>Русский</dt><dd>спор, разногласие</dd><dt>Plural</dt><dd><em>disputes</em></dd><dt>Countability</dt><dd>countable</dd></dl>
+<p>An argument or disagreement, especially a formal one.</p>
+<ol><li>The <em>dispute</em> went to arbitration.</li><li>Border <em>disputes</em> have troubled the region for decades.</li><li>They settled the <em>dispute</em> out of court.</li></ol>
+<hr>
+<h3 id="compromise">compromise<a class="hash" href="#compromise" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/ˈkɑːmprəmaɪz/ &middot; <em>KAHM-pruh-myz</em></dd><dt>Русский</dt><dd>компромисс</dd><dt>Plural</dt><dd><em>compromises</em></dd><dt>Countability</dt><dd>countable</dd></dl>
+<p>An agreement in which each side gives up part of what it wanted.</p>
+<ol><li>They reached a <em>compromise</em> after six hours.</li><li>Marriage is full of small <em>compromises</em>.</li><li>Neither side would accept the <em>compromise</em>.</li></ol>
+<hr>
+<h3 id="influence">influence<a class="hash" href="#influence" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/ˈɪnfluəns/ &middot; <em>IN-floo-uhns</em></dd><dt>Русский</dt><dd>влияние</dd><dt>Plural</dt><dd><em>influences</em></dd><dt>Countability</dt><dd>countable</dd></dl>
+<p>The power to affect how people think or act.</p>
+<ol><li>She has a lot of <em>influence</em> on the board.</li><li>His teacher was a good <em>influence</em>.</li><li>Her early <em>influences</em> were all jazz musicians.</li></ol>
+<hr>
+<h3 id="reputation">reputation<a class="hash" href="#reputation" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/ˌrɛpjəˈteɪʃən/ &middot; <em>rep-yuh-TAY-shun</em></dd><dt>Русский</dt><dd>репутация</dd><dt>Plural</dt><dd><em>reputations</em></dd><dt>Countability</dt><dd>countable</dd></dl>
+<p>The general opinion people hold about someone or something.</p>
+<ol><li>The school has an excellent <em>reputation</em>.</li><li>One bad review can ruin a <em>reputation</em>.</li><li>He built his <em>reputation</em> over thirty years.</li></ol>
+<hr>
+<h3 id="prestige">prestige<a class="hash" href="#prestige" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/prɛˈstiːʒ/ &middot; <em>pres-TEEZH</em></dd><dt>Русский</dt><dd>престиж</dd><dt>Countability</dt><dd>uncountable</dd><dt>Contrast</dt><dd>Ends in the <em>zh</em> sound of <em>measure</em>: pres-TEEZH.</dd></dl>
+<p>The respect and admiration that a person or institution enjoys.</p>
+<ol><li>The job carries a lot of <em>prestige</em> but little pay.</li><li>The award added to her <em>prestige</em>.</li><li>The university has lost some of its <em>prestige</em>.</li></ol>
+<hr>
+<h3 id="gossip">gossip<a class="hash" href="#gossip" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/ˈɡɑːsəp/ &middot; <em>GAH-sup</em></dd><dt>Русский</dt><dd>сплетни</dd><dt>Countability</dt><dd>uncountable</dd><dt>Contrast</dt><dd>Uncountable — say <em>a piece of gossip</em>, not <em>a gossip</em>.</dd></dl>
+<p>Talk about other people's private lives, often unkind or untrue.</p>
+<ol><li>The office runs on <em>gossip</em>.</li><li>I heard some <em>gossip</em> about the new manager.</li><li>Don't believe every piece of <em>gossip</em> you hear.</li></ol>
+<hr>
+<h3 id="hospitality">hospitality<a class="hash" href="#hospitality" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/ˌhɑːspəˈtæləti/ &middot; <em>hah-spuh-TA-luh-tee</em></dd><dt>Русский</dt><dd>гостеприимство</dd><dt>Countability</dt><dd>uncountable</dd></dl>
+<p>Friendly, generous treatment of guests.</p>
+<ol><li>Southern <em>hospitality</em> is not a myth.</li><li>Thank you for your <em>hospitality</em> this weekend.</li><li>She works in the <em>hospitality</em> industry.</li></ol>
+<hr>
+<h3 id="etiquette">etiquette<a class="hash" href="#etiquette" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/ˈɛtɪkət/ &middot; <em>ET-ih-kut</em></dd><dt>Русский</dt><dd>этикет</dd><dt>Countability</dt><dd>uncountable</dd><dt>Contrast</dt><dd>From French: most Americans say ET-ih-kut, though ET-ih-ket is also heard.</dd></dl>
+<p>The set of rules for polite behavior in a society or a profession.</p>
+<ol><li>Business <em>etiquette</em> differs from country to country.</li><li>It's a breach of <em>etiquette</em> to arrive early.</li><li>Nobody taught him basic table <em>etiquette</em>.</li></ol>
+<hr>
+<h3 id="tradition">tradition<a class="hash" href="#tradition" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/trəˈdɪʃən/ &middot; <em>truh-DISH-un</em></dd><dt>Русский</dt><dd>традиция</dd><dt>Plural</dt><dd><em>traditions</em></dd><dt>Countability</dt><dd>countable</dd></dl>
+<p>A custom or belief passed down within a family or a society.</p>
+<ol><li>Fireworks on the Fourth are an American <em>tradition</em>.</li><li>The family has its own holiday <em>traditions</em>.</li><li>Every school here has a homecoming <em>tradition</em>.</li></ol>
+<hr>
+<h3 id="custom">custom<a class="hash" href="#custom" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/ˈkʌstəm/ &middot; <em>KUS-tum</em></dd><dt>Русский</dt><dd>обычай</dd><dt>Plural</dt><dd><em>customs</em></dd><dt>Countability</dt><dd>countable</dd><dt>Contrast</dt><dd>The plural <em>customs</em> also names the border office that inspects luggage.</dd></dl>
+<p>A way of behaving that is usual among a particular group of people.</p>
+<ol><li>Shaking hands is an old <em>custom</em>.</li><li>Local <em>customs</em> vary from valley to valley.</li><li>It is the <em>custom</em> here to bring a dish.</li></ol>
+<hr>
+<h3 id="heritage">heritage<a class="hash" href="#heritage" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/ˈhɛrətɪdʒ/ &middot; <em>HEH-ruh-tij</em></dd><dt>Русский</dt><dd>наследие</dd><dt>Countability</dt><dd>uncountable</dd></dl>
+<p>The traditions, buildings, and culture handed down from earlier generations.</p>
+<ol><li>She's proud of her Mexican <em>heritage</em>.</li><li>The town protects its architectural <em>heritage</em>.</li><li>Music is part of our national <em>heritage</em>.</li></ol>
+<hr>
+<h3 id="norm">norm<a class="hash" href="#norm" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/nɔːrm/ &middot; <em>NORM</em></dd><dt>Русский</dt><dd>норма</dd><dt>Plural</dt><dd><em>norms</em></dd><dt>Countability</dt><dd>countable</dd></dl>
+<p>A standard of behavior that is usual or expected in a group.</p>
+<ol><li>Social <em>norms</em> change slowly.</li><li>Working from home has become the <em>norm</em>.</li><li>He ignored every <em>norm</em> of polite behavior.</li></ol>
+<hr>
+<h3 id="inequality">inequality<a class="hash" href="#inequality" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/ˌɪnɪˈkwɑːləti/ &middot; <em>in-ih-KWAH-luh-tee</em></dd><dt>Русский</dt><dd>неравенство</dd><dt>Plural</dt><dd><em>inequalities</em></dd><dt>Countability</dt><dd>countable</dd></dl>
+<p>An unfair difference between groups in wealth, rights, or opportunity.</p>
+<ol><li>Income <em>inequality</em> has grown for decades.</li><li>The report lists <em>inequalities</em> in health care.</li><li><em>Inequality</em> between the two districts is obvious.</li></ol>
+<hr>
+<h3 id="injustice">injustice<a class="hash" href="#injustice" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/ɪnˈdʒʌstɪs/ &middot; <em>in-JUS-tis</em></dd><dt>Русский</dt><dd>несправедливость</dd><dt>Plural</dt><dd><em>injustices</em></dd><dt>Countability</dt><dd>countable</dd></dl>
+<p>An unfair act, or the condition of being treated unfairly.</p>
+<ol><li>She spent her life fighting <em>injustice</em>.</li><li>The book lists the <em>injustices</em> of that era.</li><li>It would be an <em>injustice</em> to blame him.</li></ol>
+<hr>
+<h3 id="racism">racism<a class="hash" href="#racism" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/ˈreɪsɪzəm/ &middot; <em>RAY-siz-um</em></dd><dt>Русский</dt><dd>расизм</dd><dt>Countability</dt><dd>uncountable</dd></dl>
+<p>The belief that one race is better than another, and unfair treatment based on it.</p>
+<ol><li>The team was accused of <em>racism</em>.</li><li><em>Racism</em> shaped where people were allowed to buy homes.</li><li>He spoke openly about the <em>racism</em> he faced.</li></ol>
+<hr>
+<h3 id="sexism">sexism<a class="hash" href="#sexism" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/ˈsɛksɪzəm/ &middot; <em>SEK-siz-um</em></dd><dt>Русский</dt><dd>сексизм</dd><dt>Countability</dt><dd>uncountable</dd></dl>
+<p>Unfair treatment of people, usually women, because of their sex.</p>
+<ol><li><em>Sexism</em> in the industry is still common.</li><li>She called out the casual <em>sexism</em> in the meeting.</li><li>The policy was struck down as plain <em>sexism</em>.</li></ol>
+<hr>
+<h3 id="segregation">segregation<a class="hash" href="#segregation" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/ˌsɛɡrɪˈɡeɪʃən/ &middot; <em>seg-rih-GAY-shun</em></dd><dt>Русский</dt><dd>сегрегация, разделение</dd><dt>Countability</dt><dd>uncountable</dd></dl>
+<p>The forced separation of groups of people, especially by race.</p>
+<ol><li><em>Segregation</em> in schools was ruled unconstitutional.</li><li>He grew up under legal <em>segregation</em>.</li><li>Housing <em>segregation</em> persists in many cities.</li></ol>
+<hr>
+<h3 id="integration">integration<a class="hash" href="#integration" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/ˌɪntəˈɡreɪʃən/ &middot; <em>in-tuh-GRAY-shun</em></dd><dt>Русский</dt><dd>интеграция, объединение</dd><dt>Countability</dt><dd>uncountable</dd></dl>
+<p>The process of bringing separated groups together as equals.</p>
+<ol><li><em>Integration</em> of the schools took years.</li><li>The city has a long history of racial <em>integration</em>.</li><li><em>Integration</em> into a new country is never easy.</li></ol>
+<hr>
+<h3 id="activism">activism<a class="hash" href="#activism" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/ˈæktɪvɪzəm/ &middot; <em>AK-tih-viz-um</em></dd><dt>Русский</dt><dd>активизм, общественная деятельность</dd><dt>Countability</dt><dd>uncountable</dd></dl>
+<p>Work aimed at bringing about political or social change.</p>
+<ol><li>Her <em>activism</em> started in college.</li><li>Online <em>activism</em> rarely changes laws by itself.</li><li>He gave up law for full-time <em>activism</em>.</li></ol>
+<hr>
+<h3 id="philanthropy">philanthropy<a class="hash" href="#philanthropy" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/fəˈlænθrəpi/ &middot; <em>fuh-LAN-thruh-pee</em></dd><dt>Русский</dt><dd>благотворительность, филантропия</dd><dt>Countability</dt><dd>uncountable</dd><dt>Contrast</dt><dd><em>Ph</em> is said like <em>f</em>, and the stress falls on the second syllable: fuh-LAN-thruh-pee.</dd></dl>
+<p>The giving of money and effort to help other people.</p>
+<ol><li>He turned to <em>philanthropy</em> after selling the company.</li><li>American <em>philanthropy</em> funds many museums.</li><li>Her <em>philanthropy</em> focused on rural schools.</li></ol>
+<hr>
+<h3 id="unemployment">unemployment<a class="hash" href="#unemployment" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/ˌʌnɪmˈplɔɪmənt/ &middot; <em>un-im-PLOY-muhnt</em></dd><dt>Русский</dt><dd>безработица</dd><dt>Countability</dt><dd>uncountable</dd></dl>
+<p>The condition of having no job, or the number of people without one.</p>
+<ol><li><em>Unemployment</em> fell to four percent.</li><li>He's been collecting <em>unemployment</em> since March.</li><li>Youth <em>unemployment</em> is the real problem.</li></ol>
+<hr>
+<h3 id="homelessness">homelessness<a class="hash" href="#homelessness" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/ˈhoʊmləsnəs/ &middot; <em>HOHM-luhs-nuhs</em></dd><dt>Русский</dt><dd>бездомность</dd><dt>Countability</dt><dd>uncountable</dd></dl>
+<p>The condition of having nowhere to live.</p>
+<ol><li>The city declared an emergency over <em>homelessness</em>.</li><li><em>Homelessness</em> rose sharply after the rents went up.</li><li>Nobody has solved <em>homelessness</em> here.</li></ol>
+<hr>
+<h3 id="gentrification">gentrification<a class="hash" href="#gentrification" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/ˌdʒɛntrəfəˈkeɪʃən/ &middot; <em>jen-truh-fih-KAY-shun</em></dd><dt>Русский</dt><dd>джентрификация (подорожание района)</dd><dt>Countability</dt><dd>uncountable</dd></dl>
+<p>The change in a poor neighborhood as wealthier people move in and prices rise.</p>
+<ol><li><em>Gentrification</em> pushed most of the old families out.</li><li>The new coffee shops are a sign of <em>gentrification</em>.</li><li>Residents organized against <em>gentrification</em>.</li></ol>
+<hr>
+<h3 id="homeowner">homeowner<a class="hash" href="#homeowner" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/ˈhoʊmˌoʊnər/ &middot; <em>HOHM-oh-nur</em></dd><dt>Русский</dt><dd>домовладелец</dd><dt>Plural</dt><dd><em>homeowners</em></dd><dt>Countability</dt><dd>countable</dd></dl>
+<p>A person who owns the house they live in.</p>
+<ol><li><em>Homeowners</em> pay the property tax.</li><li>As a new <em>homeowner</em>, she's always fixing something.</li><li>The storm left thousands of <em>homeowners</em> without insurance.</li></ol>
+<hr>
+<h3 id="workforce">workforce<a class="hash" href="#workforce" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/ˈwɜːrkfɔːrs/ &middot; <em>WURK-fors</em></dd><dt>Русский</dt><dd>рабочая сила, персонал</dd><dt>Plural</dt><dd><em>workforces</em></dd><dt>Countability</dt><dd>countable</dd></dl>
+<p>All the people who work for a company or in a country.</p>
+<ol><li>The company cut its <em>workforce</em> by a third.</li><li>Women entered the <em>workforce</em> in huge numbers.</li><li>Both <em>workforces</em> were unionized.</li></ol>
+<hr>
+<h3 id="labor">labor<a class="hash" href="#labor" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/ˈleɪbər/ &middot; <em>LAY-bur</em></dd><dt>Русский</dt><dd>труд; рабочая сила</dd><dt>Countability</dt><dd>uncountable</dd><dt>Contrast</dt><dd>Americans write <em>labor</em>; the British write <em>labour</em>.</dd></dl>
+<p>Work, especially hard physical work, or the workers who do it.</p>
+<ol><li>The price includes parts and <em>labor</em>.</li><li>Organized <em>labor</em> backed the candidate.</li><li>Farms here depend on seasonal <em>labor</em>.</li></ol>
+<hr>
+<h3 id="apprentice">apprentice<a class="hash" href="#apprentice" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/əˈprɛntɪs/ &middot; <em>uh-PREN-tis</em></dd><dt>Русский</dt><dd>ученик, подмастерье</dd><dt>Plural</dt><dd><em>apprentices</em></dd><dt>Countability</dt><dd>countable</dd></dl>
+<p>A young person learning a trade by working under a skilled worker.</p>
+<ol><li>He started as an <em>apprentice</em> electrician.</li><li>The shop takes two <em>apprentices</em> a year.</li><li><em>Apprentices</em> earn less while they train.</li></ol>
+<hr>
+<h3 id="mainstream">mainstream<a class="hash" href="#mainstream" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/ˈmeɪnstriːm/ &middot; <em>MAYN-streem</em></dd><dt>Русский</dt><dd>мейнстрим, основное течение</dd><dt>Countability</dt><dd>uncountable</dd></dl>
+<p>The ideas and tastes shared by most people in a society.</p>
+<ol><li>The band never broke into the <em>mainstream</em>.</li><li>Those views are now part of the <em>mainstream</em>.</li><li><em>Mainstream</em> opinion has shifted a lot.</li></ol>
+<hr>
+<h3 id="celebrity">celebrity<a class="hash" href="#celebrity" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/səˈlɛbrəti/ &middot; <em>suh-LEB-ruh-tee</em></dd><dt>Русский</dt><dd>знаменитость</dd><dt>Plural</dt><dd><em>celebrities</em></dd><dt>Countability</dt><dd>countable</dd></dl>
+<p>A famous person, especially in entertainment or sports.</p>
+<ol><li>Three <em>celebrities</em> showed up for the benefit.</li><li>He became a minor <em>celebrity</em> overnight.</li><li><em>Celebrities</em> get treated differently everywhere.</li></ol>
+<hr>
+<h3 id="fame">fame<a class="hash" href="#fame" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/feɪm/ &middot; <em>FAYM</em></dd><dt>Русский</dt><dd>слава, известность</dd><dt>Countability</dt><dd>uncountable</dd></dl>
+<p>The state of being known by many people.</p>
+<ol><li><em>Fame</em> came late in his career.</li><li>She never wanted <em>fame</em>, only the work.</li><li>The book brought him worldwide <em>fame</em>.</li></ol>
+<hr>
+<h3 id="individual">individual<a class="hash" href="#individual" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/ˌɪndəˈvɪdʒuəl/ &middot; <em>in-duh-VIJ-oo-ul</em></dd><dt>Русский</dt><dd>человек, отдельная личность</dd><dt>Plural</dt><dd><em>individuals</em></dd><dt>Countability</dt><dd>countable</dd></dl>
+<p>One person, considered separately from a group.</p>
+<ol><li>The law protects the rights of the <em>individual</em>.</li><li>Several <em>individuals</em> were named in the report.</li><li>He's a strange <em>individual</em>, but harmless.</li></ol>
+<hr>
+<h3 id="people">people<a class="hash" href="#people" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/ˈpiːpəl/ &middot; <em>PEE-pul</em></dd><dt>Русский</dt><dd>люди; народ</dd><dt>Plural</dt><dd><em>peoples</em></dd><dt>Countability</dt><dd>countable</dd><dt>Contrast</dt><dd><em>People</em> is the everyday plural of <em>person</em>; the form <em>peoples</em> means nations or ethnic groups.</dd></dl>
+<p>Human beings in general, or a nation sharing a language and culture.</p>
+<ol><li>A lot of <em>people</em> showed up.</li><li>The indigenous <em>peoples</em> of the Northwest fished for salmon.</li><li>They are a proud <em>people</em> with a long history.</li></ol>
+<hr>
+<h3 id="orphanage">orphanage<a class="hash" href="#orphanage" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/ˈɔːrfənɪdʒ/ &middot; <em>OR-fuh-nij</em></dd><dt>Русский</dt><dd>детский дом, приют</dd><dt>Plural</dt><dd><em>orphanages</em></dd><dt>Countability</dt><dd>countable</dd></dl>
+<p>A home where children without parents are raised.</p>
+<ol><li>She was adopted from an <em>orphanage</em> at four.</li><li>The state closed its last <em>orphanages</em> in the seventies.</li><li>He grew up in a church <em>orphanage</em>.</li></ol>
+<hr>
+<h3 id="shelter">shelter<a class="hash" href="#shelter" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/ˈʃɛltər/ &middot; <em>SHEL-tur</em></dd><dt>Русский</dt><dd>приют, ночлежка; укрытие</dd><dt>Plural</dt><dd><em>shelters</em></dd><dt>Countability</dt><dd>both — countable and uncountable with different meanings</dd><dt>Contrast</dt><dd>Uncountable as protection (<em>to take shelter</em>); countable as a building (<em>two shelters</em>).</dd></dl>
+<p>Protection from weather or danger, or a building that provides it.</p>
+<ol><li>The family took <em>shelter</em> in the basement.</li><li>The city runs three homeless <em>shelters</em>.</li><li>We adopted a dog from the <em>shelter</em>.</li></ol>
+<hr>
+<h3 id="daycare">daycare<a class="hash" href="#daycare" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/ˈdeɪˌkɛr/ &middot; <em>DAY-kair</em></dd><dt>Русский</dt><dd>ясли, детский сад; присмотр за детьми</dd><dt>Countability</dt><dd>uncountable</dd><dt>Contrast</dt><dd>Americans say <em>daycare</em>; the British say <em>nursery</em>.</dd></dl>
+<p>Care provided during the day for young children while their parents work.</p>
+<ol><li>Both kids are in <em>daycare</em> now.</li><li><em>Daycare</em> costs more than her rent.</li><li>The company opened a <em>daycare</em> center on site.</li></ol>
+<hr>
+<h3 id="reunion">reunion<a class="hash" href="#reunion" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/riːˈjuːnjən/ &middot; <em>ree-YOON-yun</em></dd><dt>Русский</dt><dd>встреча (выпускников, родственников)</dd><dt>Plural</dt><dd><em>reunions</em></dd><dt>Countability</dt><dd>countable</dd></dl>
+<p>A social event where people who have not met in a long time come together.</p>
+<ol><li>Our twentieth high school <em>reunion</em> is next fall.</li><li>Family <em>reunions</em> fill the campground every July.</li><li>He skipped the <em>reunion</em> on purpose.</li></ol>
+<hr>
+<h3 id="fundraiser">fundraiser<a class="hash" href="#fundraiser" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/ˈfʌndˌreɪzər/ &middot; <em>FUND-ray-zur</em></dd><dt>Русский</dt><dd>мероприятие по сбору средств; сборщик пожертвований</dd><dt>Plural</dt><dd><em>fundraisers</em></dd><dt>Countability</dt><dd>countable</dd></dl>
+<p>An event held to collect money for a cause, or a person who organizes one.</p>
+<ol><li>The school held a bake sale as a <em>fundraiser</em>.</li><li>She's the campaign's top <em>fundraiser</em>.</li><li>Two <em>fundraisers</em> are scheduled for October.</li></ol></div></main>
+<button class="themebtn" id="themeBtn">Dark</button>
+<script>
+const tb=document.getElementById('themeBtn');
+function setTheme(x){document.documentElement.dataset.theme=x;tb.textContent=x==='dark'?'Light':'Dark';
+ try{localStorage.setItem('site-theme',x)}catch(e){}}
+tb.onclick=()=>setTheme(document.documentElement.dataset.theme==='dark'?'light':'dark');
+try{const s=localStorage.getItem('site-theme');
+ setTheme(s||(matchMedia('(prefers-color-scheme: dark)').matches?'dark':'light'))}catch(e){setTheme('light')}
+</script></body></html>
