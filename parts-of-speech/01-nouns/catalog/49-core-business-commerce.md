@@ -86,7 +86,7 @@ A building where goods are made by machine in large numbers.
 
 ### warehouse
 
-**Pronunciation:** /ˈwerhaʊs/ &middot; *WAIR-howss*
+**Pronunciation:** /ˈwɛrhaʊs/ &middot; *WAIR-howss*
 **Русский:** склад
 **Plural:** *warehouses*
 **Countability:** countable
@@ -146,7 +146,7 @@ Rivalry between sellers, or an organized contest.
 
 ### executive
 
-**Pronunciation:** /ɪɡˈzekjətɪv/ &middot; *ig-ZEK-yuh-tiv*
+**Pronunciation:** /ɪɡˈzɛkjətɪv/ &middot; *ig-ZEK-yuh-tiv*
 **Русский:** руководитель, топ-менеджер
 **Plural:** *executives*
 **Countability:** countable
@@ -176,7 +176,7 @@ A company that provides goods or materials to another company.
 
 ### vendor
 
-**Pronunciation:** /ˈvendər/ &middot; *VEN-dur*
+**Pronunciation:** /ˈvɛndər/ &middot; *VEN-dur*
 **Русский:** поставщик; торговец, продавец
 **Plural:** *vendors*
 **Countability:** countable

@@ -11,7 +11,7 @@ Where a word in this field *does* misbehave, it lives in the grammar tier instea
 ---
 ### textile
 
-**Pronunciation:** /ˈtekstaɪl/ &middot; *TEK-styl*
+**Pronunciation:** /ˈtɛkstaɪl/ &middot; *TEK-styl*
 **Русский:** текстиль, ткань
 **Plural:** *textiles*
 **Countability:** countable
@@ -204,7 +204,7 @@ A strong fabric woven so that diagonal lines show on the surface.
 
 ### herringbone
 
-**Pronunciation:** /ˈherɪŋboʊn/ &middot; *HAIR-ing-bohn*
+**Pronunciation:** /ˈhɛrɪŋboʊn/ &middot; *HAIR-ing-bohn*
 **Русский:** «ёлочка» (узор ткани)
 **Countability:** uncountable
 
@@ -418,7 +418,7 @@ Wool yarn or cloth made from long fibers combed straight before spinning.
 
 ### mohair
 
-**Pronunciation:** /ˈmoʊher/ &middot; *MOH-hair*
+**Pronunciation:** /ˈmoʊhɛr/ &middot; *MOH-hair*
 **Русский:** мохер
 **Countability:** uncountable
 
@@ -489,7 +489,7 @@ The skin of a sheep with the wool left on, or leather made from it.
 
 ### pelt
 
-**Pronunciation:** /pelt/ &middot; *PELT*
+**Pronunciation:** /pɛlt/ &middot; *PELT*
 **Русский:** шкура (с мехом)
 **Plural:** *pelts*
 **Countability:** countable
@@ -533,7 +533,7 @@ A fiber made from dissolved cellulose, sold in the US mostly as rayon.
 
 ### spandex
 
-**Pronunciation:** /ˈspændeks/ &middot; *SPAN-deks*
+**Pronunciation:** /ˈspændɛks/ &middot; *SPAN-deks*
 **Русский:** спандекс, эластан
 **Countability:** uncountable
 **Contrast:** *Spandex* is the American word; elsewhere the same fiber is called elastane or Lycra.
@@ -577,7 +577,7 @@ A rough plant fiber spun into rope, sacks, and coarse cloth.
 
 ### hemp
 
-**Pronunciation:** /hemp/ &middot; *HEMP*
+**Pronunciation:** /hɛmp/ &middot; *HEMP*
 **Русский:** конопля, пенька (волокно)
 **Countability:** uncountable
 
@@ -633,7 +633,7 @@ Cloth coated to make it waterproof, often used on kitchen tables.
 
 ### netting
 
-**Pronunciation:** /ˈnetɪŋ/ &middot; *NET-ing*
+**Pronunciation:** /ˈnɛtɪŋ/ &middot; *NET-ing*
 **Русский:** сетка (сетчатый материал)
 **Countability:** uncountable
 
@@ -845,7 +845,7 @@ The lengthwise threads held on a loom while cloth is woven.
 
 ### weft
 
-**Pronunciation:** /weft/ &middot; *WEFT*
+**Pronunciation:** /wɛft/ &middot; *WEFT*
 **Русский:** уток (поперечные нити ткани)
 **Countability:** uncountable
 
@@ -859,7 +859,7 @@ The crosswise threads woven over and under the warp.
 
 ### selvage
 
-**Pronunciation:** /ˈselvɪdʒ/ &middot; *SEL-vij*
+**Pronunciation:** /ˈsɛlvɪdʒ/ &middot; *SEL-vij*
 **Русский:** кромка ткани
 **Plural:** *selvages*
 **Countability:** countable
@@ -875,7 +875,7 @@ The finished edge of woven cloth that does not fray.
 
 ### hemline
 
-**Pronunciation:** /ˈhemlaɪn/ &middot; *HEM-lyn*
+**Pronunciation:** /ˈhɛmlaɪn/ &middot; *HEM-lyn*
 **Русский:** линия низа, подол
 **Plural:** *hemlines*
 **Countability:** countable
@@ -1304,7 +1304,7 @@ A knitting stitch made by pulling the yarn toward you, the opposite of a knit st
 
 ### mending
 
-**Pronunciation:** /ˈmendɪŋ/ &middot; *MEN-ding*
+**Pronunciation:** /ˈmɛndɪŋ/ &middot; *MEN-ding*
 **Русский:** починка, штопка (одежды)
 **Countability:** uncountable
 
@@ -1333,7 +1333,7 @@ A small sample piece of fabric shown to display color and texture.
 
 ### remnant
 
-**Pronunciation:** /ˈremnənt/ &middot; *REM-nunt*
+**Pronunciation:** /ˈrɛmnənt/ &middot; *REM-nunt*
 **Русский:** отрез, остаток ткани
 **Plural:** *remnants*
 **Countability:** countable
@@ -1393,7 +1393,7 @@ A woman whose job is sewing.
 
 ### dressmaker
 
-**Pronunciation:** /ˈdresmeɪkər/ &middot; *DRES-may-kur*
+**Pronunciation:** /ˈdrɛsmeɪkər/ &middot; *DRES-may-kur*
 **Русский:** портниха (женской одежды)
 **Plural:** *dressmakers*
 **Countability:** countable
@@ -1633,7 +1633,7 @@ Socks, stockings, and tights considered as goods for sale.
 
 ### knitwear
 
-**Pronunciation:** /ˈnɪtwer/ &middot; *NIT-wair*
+**Pronunciation:** /ˈnɪtwɛr/ &middot; *NIT-wair*
 **Русский:** трикотаж (вязаная одежда)
 **Countability:** uncountable
 **Contrast:** Uncountable — a piece of *knitwear*, never a knitwear.
@@ -1648,7 +1648,7 @@ Clothing made of knitted fabric, especially sweaters.
 
 ### sportswear
 
-**Pronunciation:** /ˈspɔːrtswer/ &middot; *SPORTS-wair*
+**Pronunciation:** /ˈspɔːrtswɛr/ &middot; *SPORTS-wair*
 **Русский:** спортивная одежда; повседневная одежда
 **Countability:** uncountable
 **Contrast:** Uncountable — an item of *sportswear*, never a sportswear.
@@ -1663,7 +1663,7 @@ Clothing made for sports or for casual everyday wear.
 
 ### swimwear
 
-**Pronunciation:** /ˈswɪmwer/ &middot; *SWIM-wair*
+**Pronunciation:** /ˈswɪmwɛr/ &middot; *SWIM-wair*
 **Русский:** купальная одежда
 **Countability:** uncountable
 **Contrast:** Uncountable — a piece of *swimwear*, never a swimwear.
@@ -1678,7 +1678,7 @@ Clothing made to be worn for swimming.
 
 ### menswear
 
-**Pronunciation:** /ˈmenzwer/ &middot; *MENZ-wair*
+**Pronunciation:** /ˈmɛnzwɛr/ &middot; *MENZ-wair*
 **Русский:** мужская одежда
 **Countability:** uncountable
 **Contrast:** Uncountable — say an item of *menswear*, never a menswear.
@@ -1739,7 +1739,7 @@ A particular design or cut of a garment.
 
 ### trend
 
-**Pronunciation:** /trend/ &middot; *TREND*
+**Pronunciation:** /trɛnd/ &middot; *TREND*
 **Русский:** тенденция, тренд
 **Plural:** *trends*
 **Countability:** countable
@@ -1769,7 +1769,7 @@ A narrow raised walkway, especially the one used in fashion shows.
 
 ### collection
 
-**Pronunciation:** /kəˈlekʃən/ &middot; *kuh-LEK-shun*
+**Pronunciation:** /kəˈlɛkʃən/ &middot; *kuh-LEK-shun*
 **Русский:** коллекция (одежды)
 **Plural:** *collections*
 **Countability:** countable
@@ -1859,7 +1859,7 @@ The craft of cutting and sewing fitted clothes, or the quality of that work.
 
 ### sweatshop
 
-**Pronunciation:** /ˈswetʃɑːp/ &middot; *SWET-shahp*
+**Pronunciation:** /ˈswɛtʃɑːp/ &middot; *SWET-shahp*
 **Русский:** потогонная мастерская
 **Plural:** *sweatshops*
 **Countability:** countable

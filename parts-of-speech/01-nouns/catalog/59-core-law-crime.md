@@ -87,7 +87,7 @@ The lawyer who argues in court that an accused person is guilty.
 
 ### defendant
 
-**Pronunciation:** /dɪˈfendənt/ &middot; *dih-FEN-duhnt*
+**Pronunciation:** /dɪˈfɛndənt/ &middot; *dih-FEN-duhnt*
 **Русский:** подсудимый, ответчик
 **Plural:** *defendants*
 **Countability:** countable
@@ -132,7 +132,7 @@ The lawyer or lawyers representing someone in a legal matter.
 
 ### defense
 
-**Pronunciation:** /dɪˈfens/ &middot; *dih-FENSS*
+**Pronunciation:** /dɪˈfɛns/ &middot; *dih-FENSS*
 **Русский:** защита (в суде)
 **Plural:** *defenses*
 **Countability:** countable
@@ -223,7 +223,7 @@ The decision a jury or judge reaches about guilt or liability.
 
 ### sentence
 
-**Pronunciation:** /ˈsentəns/ &middot; *SEN-tuhns*
+**Pronunciation:** /ˈsɛntəns/ &middot; *SEN-tuhns*
 **Русский:** приговор (наказание)
 **Plural:** *sentences*
 **Countability:** countable
@@ -254,7 +254,7 @@ A request that a higher court review and change a decision.
 
 ### testimony
 
-**Pronunciation:** /ˈtestɪmoʊni/ &middot; *TESS-tih-moh-nee*
+**Pronunciation:** /ˈtɛstɪmoʊni/ &middot; *TESS-tih-moh-nee*
 **Русский:** показания (свидетельские)
 **Countability:** uncountable
 
@@ -409,7 +409,7 @@ A court's formal decision, especially about who owes money to whom.
 
 ### settlement
 
-**Pronunciation:** /ˈsetəlmənt/ &middot; *SET-uhl-muhnt*
+**Pronunciation:** /ˈsɛtəlmənt/ &middot; *SET-uhl-muhnt*
 **Русский:** мировое соглашение
 **Plural:** *settlements*
 **Countability:** countable
@@ -527,7 +527,7 @@ The authority a court or official body has, or the area it covers.
 
 ### precedent
 
-**Pronunciation:** /ˈpresɪdənt/ &middot; *PRESS-ih-duhnt*
+**Pronunciation:** /ˈprɛsɪdənt/ &middot; *PRESS-ih-duhnt*
 **Русский:** прецедент
 **Plural:** *precedents*
 **Countability:** countable
@@ -559,7 +559,7 @@ A written law passed by a legislature.
 
 ### legislation
 
-**Pronunciation:** /ˌledʒɪsˈleɪʃən/ &middot; *lej-iss-LAY-shun*
+**Pronunciation:** /ˌlɛdʒɪsˈleɪʃən/ &middot; *lej-iss-LAY-shun*
 **Русский:** законодательство, законы
 **Countability:** uncountable
 **Contrast:** Uncountable in English even though Russian *законы* is plural — say *a piece of legislation*, never *a legislation*.
@@ -574,7 +574,7 @@ Laws considered together, or the process of making them.
 
 ### regulation
 
-**Pronunciation:** /ˌreɡjəˈleɪʃən/ &middot; *reg-yuh-LAY-shun*
+**Pronunciation:** /ˌrɛɡjəˈleɪʃən/ &middot; *reg-yuh-LAY-shun*
 **Русский:** норма, предписание, правило
 **Plural:** *regulations*
 **Countability:** countable
@@ -604,7 +604,7 @@ The basic set of laws by which a country or state is governed.
 
 ### amendment
 
-**Pronunciation:** /əˈmendmənt/ &middot; *uh-MEND-muhnt*
+**Pronunciation:** /əˈmɛndmənt/ &middot; *uh-MEND-muhnt*
 **Русский:** поправка (к закону, конституции)
 **Plural:** *amendments*
 **Countability:** countable
@@ -665,7 +665,7 @@ A court decision that someone is guilty, or the record of it.
 
 ### confession
 
-**Pronunciation:** /kənˈfeʃən/ &middot; *kuhn-FESH-un*
+**Pronunciation:** /kənˈfɛʃən/ &middot; *kuhn-FESH-un*
 **Русский:** признание (вины)
 **Plural:** *confessions*
 **Countability:** countable
@@ -708,7 +708,7 @@ The crime of lying after swearing to tell the truth in court.
 
 ### contempt
 
-**Pronunciation:** /kənˈtempt/ &middot; *kuhn-TEMPT*
+**Pronunciation:** /kənˈtɛmpt/ &middot; *kuhn-TEMPT*
 **Русский:** неуважение к суду
 **Countability:** uncountable
 
@@ -830,7 +830,7 @@ A legal right giving an inventor sole use of an invention for a set time.
 
 ### offense
 
-**Pronunciation:** /əˈfens/ &middot; *uh-FENSS*
+**Pronunciation:** /əˈfɛns/ &middot; *uh-FENSS*
 **Русский:** правонарушение, проступок
 **Plural:** *offenses*
 **Countability:** countable
@@ -846,7 +846,7 @@ An act that breaks a law or rule.
 
 ### felony
 
-**Pronunciation:** /ˈfeləni/ &middot; *FEL-uh-nee*
+**Pronunciation:** /ˈfɛləni/ &middot; *FEL-uh-nee*
 **Русский:** тяжкое преступление
 **Plural:** *felonies*
 **Countability:** countable
@@ -877,7 +877,7 @@ A minor crime punished by a fine or less than a year in jail.
 
 ### theft
 
-**Pronunciation:** /θeft/ &middot; *THEFT*
+**Pronunciation:** /θɛft/ &middot; *THEFT*
 **Русский:** кража, хищение
 **Plural:** *thefts*
 **Countability:** countable
@@ -936,7 +936,7 @@ The crime of stealing goods from a store while pretending to shop.
 
 ### embezzlement
 
-**Pronunciation:** /ɪmˈbezəlmənt/ &middot; *im-BEZ-uhl-muhnt*
+**Pronunciation:** /ɪmˈbɛzəlmənt/ &middot; *im-BEZ-uhl-muhnt*
 **Русский:** растрата, хищение (доверенных средств)
 **Countability:** uncountable
 
@@ -1196,7 +1196,7 @@ The crime of betraying your own country.
 
 ### espionage
 
-**Pronunciation:** /ˈespiənɑːʒ/ &middot; *ESS-pee-uh-nahzh*
+**Pronunciation:** /ˈɛspiənɑːʒ/ &middot; *ESS-pee-uh-nahzh*
 **Русский:** шпионаж
 **Countability:** uncountable
 **Contrast:** Ends in the ZH sound of *measure*: ESS-pee-uh-nahzh, not -naj.
@@ -1211,7 +1211,7 @@ The crime of spying to obtain secret information.
 
 ### terrorism
 
-**Pronunciation:** /ˈterərɪzəm/ &middot; *TERR-ur-iz-uhm*
+**Pronunciation:** /ˈtɛrərɪzəm/ &middot; *TERR-ur-iz-uhm*
 **Русский:** терроризм
 **Countability:** uncountable
 
@@ -1300,7 +1300,7 @@ A failure to keep to a contract, law, or duty.
 
 ### negligence
 
-**Pronunciation:** /ˈneɡlɪdʒəns/ &middot; *NEG-lih-juhns*
+**Pronunciation:** /ˈnɛɡlɪdʒəns/ &middot; *NEG-lih-juhns*
 **Русский:** халатность, небрежность
 **Countability:** uncountable
 
@@ -1461,7 +1461,7 @@ The person responsible for a crime or a problem.
 
 ### offender
 
-**Pronunciation:** /əˈfendər/ &middot; *uh-FEN-dur*
+**Pronunciation:** /əˈfɛndər/ &middot; *uh-FEN-dur*
 **Русский:** правонарушитель
 **Plural:** *offenders*
 **Countability:** countable
@@ -1522,7 +1522,7 @@ Someone running away from the police or from prison.
 
 ### felon
 
-**Pronunciation:** /ˈfelən/ &middot; *FEL-uhn*
+**Pronunciation:** /ˈfɛlən/ &middot; *FEL-uhn*
 **Русский:** лицо, осуждённое за тяжкое преступление
 **Plural:** *felons*
 **Countability:** countable
@@ -1612,7 +1612,7 @@ Someone who happens to be present when something happens but is not involved.
 
 ### heir
 
-**Pronunciation:** /er/ &middot; *AIR*
+**Pronunciation:** /ɛr/ &middot; *AIR*
 **Русский:** наследник
 **Plural:** *heirs*
 **Countability:** countable
@@ -1643,7 +1643,7 @@ Something unpleasant done to someone because they broke a rule or law.
 
 ### penalty
 
-**Pronunciation:** /ˈpenəlti/ &middot; *PEN-uhl-tee*
+**Pronunciation:** /ˈpɛnəlti/ &middot; *PEN-uhl-tee*
 **Русский:** наказание, штрафная санкция
 **Plural:** *penalties*
 **Countability:** countable
@@ -1672,7 +1672,7 @@ The punishment of being kept in prison.
 
 ### execution
 
-**Pronunciation:** /ˌeksɪˈkjuːʃən/ &middot; *ek-sih-KYOO-shun*
+**Pronunciation:** /ˌɛksɪˈkjuːʃən/ &middot; *ek-sih-KYOO-shun*
 **Русский:** казнь
 **Plural:** *executions*
 **Countability:** countable
@@ -1717,7 +1717,7 @@ A group of officers moving around an area to keep watch, or the act of doing so.
 
 ### detective
 
-**Pronunciation:** /dɪˈtektɪv/ &middot; *dih-TEK-tiv*
+**Pronunciation:** /dɪˈtɛktɪv/ &middot; *dih-TEK-tiv*
 **Русский:** детектив, следователь
 **Plural:** *detectives*
 **Countability:** countable
@@ -1732,7 +1732,7 @@ A police officer whose job is to investigate crimes.
 
 ### deputy
 
-**Pronunciation:** /ˈdepjəti/ &middot; *DEP-yuh-tee*
+**Pronunciation:** /ˈdɛpjəti/ &middot; *DEP-yuh-tee*
 **Русский:** помощник шерифа
 **Plural:** *deputies*
 **Countability:** countable
@@ -1778,7 +1778,7 @@ A device that makes a loud warning sound on a police car or ambulance.
 
 ### arrest
 
-**Pronunciation:** /əˈrest/ &middot; *uh-REST*
+**Pronunciation:** /əˈrɛst/ &middot; *uh-REST*
 **Русский:** арест, задержание
 **Plural:** *arrests*
 **Countability:** countable
@@ -1808,7 +1808,7 @@ A sudden entry by police into a place to search it or make arrests.
 
 ### investigation
 
-**Pronunciation:** /ɪnˌvestɪˈɡeɪʃən/ &middot; *in-vess-tih-GAY-shun*
+**Pronunciation:** /ɪnˌvɛstɪˈɡeɪʃən/ &middot; *in-vess-tih-GAY-shun*
 **Русский:** расследование
 **Plural:** *investigations*
 **Countability:** countable
@@ -1823,7 +1823,7 @@ An official effort to find out the facts about a crime or problem.
 
 ### interrogation
 
-**Pronunciation:** /ɪnˌterəˈɡeɪʃən/ &middot; *in-terr-uh-GAY-shun*
+**Pronunciation:** /ɪnˌtɛrəˈɡeɪʃən/ &middot; *in-terr-uh-GAY-shun*
 **Русский:** допрос
 **Plural:** *interrogations*
 **Countability:** countable
@@ -1899,7 +1899,7 @@ An official who investigates deaths that are sudden or suspicious.
 
 ### forensics
 
-**Pronunciation:** /fəˈrenzɪks/ &middot; *fuh-REN-ziks*
+**Pronunciation:** /fəˈrɛnzɪks/ &middot; *fuh-REN-ziks*
 **Русский:** криминалистика
 **Countability:** uncountable
 **Contrast:** Ends in -s but takes a singular verb: *forensics is*, not *forensics are*.
@@ -1959,7 +1959,7 @@ The reason someone had for committing a crime.
 
 ### weapon
 
-**Pronunciation:** /ˈwepən/ &middot; *WEP-uhn*
+**Pronunciation:** /ˈwɛpən/ &middot; *WEP-uhn*
 **Русский:** оружие
 **Plural:** *weapons*
 **Countability:** countable
@@ -2095,7 +2095,7 @@ The place where a crime happened, sealed off so evidence can be collected.
 
 ### death penalty
 
-**Pronunciation:** /ˈdeθ ˌpenəlti/ &middot; *DETH pen-uhl-tee*
+**Pronunciation:** /ˈdɛθ ˌpɛnəlti/ &middot; *DETH pen-uhl-tee*
 **Русский:** смертная казнь
 **Countability:** uncountable
 **Contrast:** Almost always with *the*: *the death penalty*, never *a death penalty*.
@@ -2169,7 +2169,7 @@ A court order telling someone to stay away from another person.
 
 ### self-defense
 
-**Pronunciation:** /ˌself dɪˈfens/ &middot; *self-dih-FENSS*
+**Pronunciation:** /ˌsɛlf dɪˈfɛns/ &middot; *self-dih-FENSS*
 **Русский:** самооборона, необходимая оборона
 **Countability:** uncountable
 **Contrast:** American spelling is *self-defense*; the British write *self-defence*.

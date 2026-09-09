@@ -57,7 +57,7 @@ A light cotton shirt with short sleeves and no collar.
 
 ### sweater
 
-**Pronunciation:** /ˈswetər/ &middot; *SWET-ur*
+**Pronunciation:** /ˈswɛtər/ &middot; *SWET-ur*
 **Русский:** свитер
 **Plural:** *sweaters*
 **Countability:** countable
@@ -73,7 +73,7 @@ A knitted garment worn on the upper body for warmth.
 
 ### sweatshirt
 
-**Pronunciation:** /ˈswetʃɜːrt/ &middot; *SWET-shurt*
+**Pronunciation:** /ˈswɛtʃɜːrt/ &middot; *SWET-shurt*
 **Русский:** толстовка
 **Plural:** *sweatshirts*
 **Countability:** countable
@@ -193,7 +193,7 @@ A waterproof coat that keeps you dry in wet weather.
 
 ### trench coat
 
-**Pronunciation:** /ˈtrentʃ koʊt/ &middot; *TRENCH-koht*
+**Pronunciation:** /ˈtrɛntʃ koʊt/ &middot; *TRENCH-koht*
 **Русский:** тренч, плащ с поясом
 **Plural:** *trench coats*
 **Countability:** countable
@@ -238,7 +238,7 @@ A heavy hooded winter coat.
 
 ### vest
 
-**Pronunciation:** /vest/ &middot; *VEST*
+**Pronunciation:** /vɛst/ &middot; *VEST*
 **Русский:** жилет
 **Plural:** *vests*
 **Countability:** countable
@@ -316,7 +316,7 @@ A set of clothes worn by all the members of a school, team, or organization.
 
 ### dress
 
-**Pronunciation:** /dres/ &middot; *DRESS*
+**Pronunciation:** /drɛs/ &middot; *DRESS*
 **Русский:** платье
 **Plural:** *dresses*
 **Countability:** countable
@@ -376,7 +376,7 @@ A sleeveless shirt with wide shoulder straps.
 
 ### turtleneck
 
-**Pronunciation:** /ˈtɜːrtlnek/ &middot; *TUR-tul-nek*
+**Pronunciation:** /ˈtɜːrtlnɛk/ &middot; *TUR-tul-nek*
 **Русский:** водолазка
 **Plural:** *turtlenecks*
 **Countability:** countable
@@ -633,7 +633,7 @@ Clothing, especially as sold in stores.
 
 ### outerwear
 
-**Pronunciation:** /ˈaʊtərwer/ &middot; *OW-tur-wair*
+**Pronunciation:** /ˈaʊtərwɛr/ &middot; *OW-tur-wair*
 **Русский:** верхняя одежда
 **Countability:** uncountable
 **Contrast:** Uncountable — never outerwears.
@@ -648,7 +648,7 @@ Clothing worn outdoors over your other clothes.
 
 ### underwear
 
-**Pronunciation:** /ˈʌndərwer/ &middot; *UN-dur-wair*
+**Pronunciation:** /ˈʌndərwɛr/ &middot; *UN-dur-wair*
 **Русский:** нижнее бельё
 **Countability:** uncountable
 **Contrast:** Uncountable, even though бельё feels countable — say some underwear or a pair of underwear, never an underwear or underwears.
@@ -877,7 +877,7 @@ A cord used to tie a shoe.
 
 ### footwear
 
-**Pronunciation:** /ˈfʊtwer/ &middot; *FUUT-wair*
+**Pronunciation:** /ˈfʊtwɛr/ &middot; *FUUT-wair*
 **Русский:** обувь
 **Countability:** uncountable
 **Contrast:** Uncountable — never a footwear or footwears; say a pair of shoes instead.
@@ -937,7 +937,7 @@ A close-fitting knitted hat worn in cold weather.
 
 ### helmet
 
-**Pronunciation:** /ˈhelmɪt/ &middot; *HEL-mit*
+**Pronunciation:** /ˈhɛlmɪt/ &middot; *HEL-mit*
 **Русский:** шлем, каска
 **Plural:** *helmets*
 **Countability:** countable
@@ -1045,7 +1045,7 @@ A head covering made by winding a long piece of cloth around the head.
 
 ### headband
 
-**Pronunciation:** /ˈhedbænd/ &middot; *HED-band*
+**Pronunciation:** /ˈhɛdbænd/ &middot; *HED-band*
 **Русский:** повязка на голову, ободок
 **Plural:** *headbands*
 **Countability:** countable
@@ -1121,7 +1121,7 @@ A small bag sewn into a garment for carrying things.
 
 ### hem
 
-**Pronunciation:** /hem/ &middot; *HEM*
+**Pronunciation:** /hɛm/ &middot; *HEM*
 **Русский:** подол, подшитый край
 **Plural:** *hems*
 **Countability:** countable
@@ -1167,7 +1167,7 @@ A layer of material sewn inside a garment.
 
 ### lapel
 
-**Pronunciation:** /ləˈpel/ &middot; *luh-PEL*
+**Pronunciation:** /ləˈpɛl/ &middot; *luh-PEL*
 **Русский:** лацкан
 **Plural:** *lapels*
 **Countability:** countable
@@ -1214,7 +1214,7 @@ The band of material at the top of pants or a skirt that fits around the waist.
 
 ### neckline
 
-**Pronunciation:** /ˈneklaɪn/ &middot; *NEK-lyn*
+**Pronunciation:** /ˈnɛklaɪn/ &middot; *NEK-lyn*
 **Русский:** вырез, горловина
 **Plural:** *necklines*
 **Countability:** countable
@@ -1411,7 +1411,7 @@ Anything used to hold a garment closed, such as a button, hook, or snap.
 
 ### belt
 
-**Pronunciation:** /belt/ &middot; *BELT*
+**Pronunciation:** /bɛlt/ &middot; *BELT*
 **Русский:** ремень, пояс
 **Plural:** *belts*
 **Countability:** countable
@@ -1562,7 +1562,7 @@ A fine soft cloth made from the threads produced by silkworms.
 
 ### leather
 
-**Pronunciation:** /ˈleðər/ &middot; *LETH-ur*
+**Pronunciation:** /ˈlɛðər/ &middot; *LETH-ur*
 **Русский:** кожа (материал)
 **Countability:** uncountable
 **Contrast:** The ea sounds like the e in bed, and the th is voiced, as in father.
@@ -1577,7 +1577,7 @@ Material made from animal skin, used for shoes, coats, and belts.
 
 ### denim
 
-**Pronunciation:** /ˈdenəm/ &middot; *DEN-im*
+**Pronunciation:** /ˈdɛnəm/ &middot; *DEN-im*
 **Русский:** джинсовая ткань, деним
 **Countability:** uncountable
 
@@ -1621,7 +1621,7 @@ Soft leather with a slightly rough, velvety surface.
 
 ### velvet
 
-**Pronunciation:** /ˈvelvɪt/ &middot; *VEL-vit*
+**Pronunciation:** /ˈvɛlvɪt/ &middot; *VEL-vit*
 **Русский:** бархат
 **Countability:** uncountable
 
@@ -1635,7 +1635,7 @@ A thick soft cloth with a short raised pile on one side.
 
 ### polyester
 
-**Pronunciation:** /ˌpɑːliˈestər/ &middot; *pah-lee-ES-tur*
+**Pronunciation:** /ˌpɑːliˈɛstər/ &middot; *pah-lee-ES-tur*
 **Русский:** полиэстер
 **Countability:** uncountable
 

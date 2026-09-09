@@ -132,7 +132,7 @@ A fast game played on ice in which players hit a rubber disk into the other team
 
 ### tennis
 
-**Pronunciation:** /ˈtenɪs/ &middot; *TEN-is*
+**Pronunciation:** /ˈtɛnɪs/ &middot; *TEN-is*
 **Русский:** теннис
 **Countability:** uncountable
 
@@ -189,7 +189,7 @@ The sport of fighting with padded gloves inside a roped ring.
 
 ### wrestling
 
-**Pronunciation:** /ˈreslɪŋ/ &middot; *RES-ling*
+**Pronunciation:** /ˈrɛslɪŋ/ &middot; *RES-ling*
 **Русский:** борьба; рестлинг
 **Countability:** uncountable
 **Contrast:** The *w* is silent: RES-ling.
@@ -361,7 +361,7 @@ A Japanese martial art of fighting with sharp blows of the hands and feet.
 
 ### chess
 
-**Pronunciation:** /tʃes/ &middot; *CHES*
+**Pronunciation:** /tʃɛs/ &middot; *CHES*
 **Русский:** шахматы
 **Countability:** uncountable
 
@@ -419,7 +419,7 @@ Someone who takes part in a game or sport.
 
 ### referee
 
-**Pronunciation:** /ˌrefəˈriː/ &middot; *ref-uh-REE*
+**Pronunciation:** /ˌrɛfəˈriː/ &middot; *ref-uh-REE*
 **Русский:** судья, рефери
 **Plural:** *referees*
 **Countability:** countable
@@ -495,7 +495,7 @@ A team or person you compete against again and again.
 
 ### spectator
 
-**Pronunciation:** /ˈspekteɪtər/ &middot; *SPEK-tay-tur*
+**Pronunciation:** /ˈspɛkteɪtər/ &middot; *SPEK-tay-tur*
 **Русский:** зритель
 **Plural:** *spectators*
 **Countability:** countable

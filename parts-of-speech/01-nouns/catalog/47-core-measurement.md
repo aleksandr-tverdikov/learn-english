@@ -11,7 +11,7 @@ Where a word in this field *does* misbehave, it lives in the grammar tier instea
 ---
 ### measurement
 
-**Pronunciation:** /ˈmeʒərmənt/ &middot; *MEZH-ur-muhnt*
+**Pronunciation:** /ˈmɛʒərmənt/ &middot; *MEZH-ur-muhnt*
 **Русский:** измерение, замер
 **Plural:** *measurements*
 **Countability:** countable
@@ -27,7 +27,7 @@ A figure showing the size, length, or amount of something.
 
 ### measure
 
-**Pronunciation:** /ˈmeʒər/ &middot; *MEZH-ur*
+**Pronunciation:** /ˈmɛʒər/ &middot; *MEZH-ur*
 **Русский:** мера, единица измерения
 **Plural:** *measures*
 **Countability:** countable
@@ -73,7 +73,7 @@ How large or small something is.
 
 ### length
 
-**Pronunciation:** /leŋθ/ &middot; *LENGTH*
+**Pronunciation:** /lɛŋθ/ &middot; *LENGTH*
 **Русский:** длина
 **Plural:** *lengths*
 **Countability:** countable
@@ -120,7 +120,7 @@ How tall something or someone is.
 
 ### depth
 
-**Pronunciation:** /depθ/ &middot; *DEPTH*
+**Pronunciation:** /dɛpθ/ &middot; *DEPTH*
 **Русский:** глубина
 **Plural:** *depths*
 **Countability:** countable
@@ -223,7 +223,7 @@ The amount that a container or a space can hold.
 
 ### area
 
-**Pronunciation:** /ˈeriə/ &middot; *AIR-ee-uh*
+**Pronunciation:** /ˈɛriə/ &middot; *AIR-ee-uh*
 **Русский:** площадь
 **Plural:** *areas*
 **Countability:** countable
@@ -329,7 +329,7 @@ How much of something there is.
 
 ### dimension
 
-**Pronunciation:** /dɪˈmenʃən/ &middot; *dih-MEN-shuhn*
+**Pronunciation:** /dɪˈmɛnʃən/ &middot; *dih-MEN-shuhn*
 **Русский:** размер, измерение
 **Plural:** *dimensions*
 **Countability:** countable
@@ -344,7 +344,7 @@ A measurement such as length, width, or height.
 
 ### density
 
-**Pronunciation:** /ˈdensəti/ &middot; *DEN-suh-tee*
+**Pronunciation:** /ˈdɛnsəti/ &middot; *DEN-suh-tee*
 **Русский:** плотность
 **Countability:** uncountable
 
@@ -373,7 +373,7 @@ A push or a pull acting on an object, measured in newtons.
 
 ### percentage
 
-**Pronunciation:** /pərˈsentɪdʒ/ &middot; *pur-SEN-tij*
+**Pronunciation:** /pərˈsɛntɪdʒ/ &middot; *pur-SEN-tij*
 **Русский:** процент, доля в процентах
 **Plural:** *percentages*
 **Countability:** countable
@@ -388,7 +388,7 @@ An amount stated as a part of a hundred.
 
 ### percent
 
-**Pronunciation:** /pərˈsent/ &middot; *pur-SENT*
+**Pronunciation:** /pərˈsɛnt/ &middot; *pur-SENT*
 **Русский:** процент
 **Plural:** *percent*
 **Countability:** countable
@@ -419,7 +419,7 @@ A part of a whole, such as one half or three quarters.
 
 ### decimal
 
-**Pronunciation:** /ˈdesəməl/ &middot; *DES-uh-muhl*
+**Pronunciation:** /ˈdɛsəməl/ &middot; *DES-uh-muhl*
 **Русский:** десятичная дробь
 **Plural:** *decimals*
 **Countability:** countable
@@ -630,7 +630,7 @@ A small part taken from something so that it can be tested.
 
 ### benchmark
 
-**Pronunciation:** /ˈbentʃmɑːrk/ &middot; *BENCH-mark*
+**Pronunciation:** /ˈbɛntʃmɑːrk/ &middot; *BENCH-mark*
 **Русский:** эталон, контрольный показатель
 **Plural:** *benchmarks*
 **Countability:** countable
@@ -660,7 +660,7 @@ An agreed level or measure that things are judged against.
 
 ### metric
 
-**Pronunciation:** /ˈmetrɪk/ &middot; *MET-rik*
+**Pronunciation:** /ˈmɛtrɪk/ &middot; *MET-rik*
 **Русский:** показатель, метрика
 **Plural:** *metrics*
 **Countability:** countable
@@ -691,7 +691,7 @@ The size or strength of something, especially on a scientific scale.
 
 ### extent
 
-**Pronunciation:** /ɪkˈstent/ &middot; *ik-STENT*
+**Pronunciation:** /ɪkˈstɛnt/ &middot; *ik-STENT*
 **Русский:** протяжённость, степень
 **Countability:** uncountable
 
@@ -809,7 +809,7 @@ A figure that is close to the true one but not exact.
 
 ### percentile
 
-**Pronunciation:** /pərˈsentaɪl/ &middot; *pur-SEN-tyl*
+**Pronunciation:** /pərˈsɛntaɪl/ &middot; *pur-SEN-tyl*
 **Русский:** процентиль
 **Plural:** *percentiles*
 **Countability:** countable
@@ -901,7 +901,7 @@ The basic metric unit of length, equal to about 39 inches.
 
 ### centimeter
 
-**Pronunciation:** /ˈsentəˌmiːtər/ &middot; *SEN-tuh-mee-tur*
+**Pronunciation:** /ˈsɛntəˌmiːtər/ &middot; *SEN-tuh-mee-tur*
 **Русский:** сантиметр
 **Plural:** *centimeters*
 **Countability:** countable
@@ -1055,7 +1055,7 @@ The distance around something thick, such as a tree or a waist.
 
 ### breadth
 
-**Pronunciation:** /bredθ/ &middot; *BREDTH*
+**Pronunciation:** /brɛdθ/ &middot; *BREDTH*
 **Русский:** ширина
 **Countability:** uncountable
 **Contrast:** It comes from broad, but the vowel is a short e: BREDTH.
@@ -1115,7 +1115,7 @@ An area of land measured in acres.
 
 ### hectare
 
-**Pronunciation:** /ˈhekter/ &middot; *HEK-tair*
+**Pronunciation:** /ˈhɛktɛr/ &middot; *HEK-tair*
 **Русский:** гектар
 **Plural:** *hectares*
 **Countability:** countable
@@ -1130,7 +1130,7 @@ A metric unit of land area equal to 10,000 square meters.
 
 ### square foot
 
-**Pronunciation:** /ˌskwer ˈfʊt/ &middot; *skwair FUUT*
+**Pronunciation:** /ˌskwɛr ˈfʊt/ &middot; *skwair FUUT*
 **Русский:** квадратный фут (0,093 м²)
 **Plural:** *square feet*
 **Countability:** countable
@@ -1271,7 +1271,7 @@ A short, everyday word for a kilogram.
 
 ### karat
 
-**Pronunciation:** /ˈkerət/ &middot; *KAIR-uht*
+**Pronunciation:** /ˈkɛrət/ &middot; *KAIR-uht*
 **Русский:** карат (проба золота)
 **Plural:** *karats*
 **Countability:** countable
@@ -1334,7 +1334,7 @@ A large unit of dry volume used for grain and produce.
 
 ### Fahrenheit
 
-**Pronunciation:** /ˈferənhaɪt/ &middot; *FAIR-uhn-hyt*
+**Pronunciation:** /ˈfɛrənhaɪt/ &middot; *FAIR-uhn-hyt*
 **Русский:** шкала Фаренгейта
 **Countability:** uncountable
 
@@ -1348,7 +1348,7 @@ The temperature scale used in the United States, on which water freezes at 32 de
 
 ### Celsius
 
-**Pronunciation:** /ˈselsiəs/ &middot; *SEL-see-uhs*
+**Pronunciation:** /ˈsɛlsiəs/ &middot; *SEL-see-uhs*
 **Русский:** шкала Цельсия
 **Countability:** uncountable
 **Contrast:** Americans say Celsius; the older word centigrade is now rare.
@@ -1363,7 +1363,7 @@ The temperature scale on which water freezes at zero degrees and boils at 100.
 
 ### kelvin
 
-**Pronunciation:** /ˈkelvɪn/ &middot; *KEL-vin*
+**Pronunciation:** /ˈkɛlvɪn/ &middot; *KEL-vin*
 **Русский:** кельвин
 **Plural:** *kelvins*
 **Countability:** countable
@@ -1686,7 +1686,7 @@ Equipment that finds the position and speed of objects using radio waves.
 
 ### sensor
 
-**Pronunciation:** /ˈsensər/ &middot; *SEN-sur*
+**Pronunciation:** /ˈsɛnsər/ &middot; *SEN-sur*
 **Русский:** датчик
 **Plural:** *sensors*
 **Countability:** countable
@@ -1717,7 +1717,7 @@ The figures shown on the display of an instrument.
 
 ### measuring cup
 
-**Pronunciation:** /ˈmeʒərɪŋ ˌkʌp/ &middot; *MEZH-ur-ing kup*
+**Pronunciation:** /ˈmɛʒərɪŋ ˌkʌp/ &middot; *MEZH-ur-ing kup*
 **Русский:** мерный стакан
 **Plural:** *measuring cups*
 **Countability:** countable
@@ -1929,7 +1929,7 @@ The metric unit of energy or work.
 
 ### decibel
 
-**Pronunciation:** /ˈdesəbel/ &middot; *DES-uh-bel*
+**Pronunciation:** /ˈdɛsəbɛl/ &middot; *DES-uh-bel*
 **Русский:** децибел
 **Plural:** *decibels*
 **Countability:** countable
@@ -1991,7 +1991,7 @@ The turning force produced by an engine or applied to a bolt.
 
 ### wavelength
 
-**Pronunciation:** /ˈweɪvleŋθ/ &middot; *WAYV-length*
+**Pronunciation:** /ˈweɪvlɛŋθ/ &middot; *WAYV-length*
 **Русский:** длина волны
 **Plural:** *wavelengths*
 **Countability:** countable
@@ -2067,7 +2067,7 @@ The distance east or west of the prime meridian, measured in degrees.
 
 ### elevation
 
-**Pronunciation:** /ˌeləˈveɪʃən/ &middot; *el-uh-VAY-shuhn*
+**Pronunciation:** /ˌɛləˈveɪʃən/ &middot; *el-uh-VAY-shuhn*
 **Русский:** высота над уровнем моря
 **Plural:** *elevations*
 **Countability:** countable
@@ -2082,7 +2082,7 @@ Height above sea level.
 
 ### sea level
 
-**Pronunciation:** /ˈsiː ˌlevəl/ &middot; *SEE lev-uhl*
+**Pronunciation:** /ˈsiː ˌlɛvəl/ &middot; *SEE lev-uhl*
 **Русский:** уровень моря
 **Countability:** uncountable
 
@@ -2174,7 +2174,7 @@ The hollow inside of a tube or a gun barrel, or the width of it.
 
 ### specimen
 
-**Pronunciation:** /ˈspesəmən/ &middot; *SPES-uh-muhn*
+**Pronunciation:** /ˈspɛsəmən/ &middot; *SPES-uh-muhn*
 **Русский:** образец, проба
 **Plural:** *specimens*
 **Countability:** countable
@@ -2190,7 +2190,7 @@ A single item or amount taken for testing or study.
 
 ### net weight
 
-**Pronunciation:** /ˌnet ˈweɪt/ &middot; *net WAYT*
+**Pronunciation:** /ˌnɛt ˈweɪt/ &middot; *net WAYT*
 **Русский:** вес нетто
 **Plural:** *net weights*
 **Countability:** countable

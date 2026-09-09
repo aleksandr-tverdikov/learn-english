@@ -11,7 +11,7 @@ Where a word in this field *does* misbehave, it lives in the grammar tier instea
 ---
 ### senate
 
-**Pronunciation:** /ˈsenət/ &middot; *SEN-uht*
+**Pronunciation:** /ˈsɛnət/ &middot; *SEN-uht*
 **Русский:** сенат
 **Plural:** *senates*
 **Countability:** countable
@@ -26,7 +26,7 @@ The smaller of the two houses of a national or state legislature.
 
 ### senator
 
-**Pronunciation:** /ˈsenətər/ &middot; *SEN-uh-tur*
+**Pronunciation:** /ˈsɛnətər/ &middot; *SEN-uh-tur*
 **Русский:** сенатор
 **Plural:** *senators*
 **Countability:** countable
@@ -56,7 +56,7 @@ The national lawmaking body of a country, especially the House and Senate in the
 
 ### representative
 
-**Pronunciation:** /ˌreprəˈzentətɪv/ &middot; *rep-ruh-ZEN-tuh-tiv*
+**Pronunciation:** /ˌrɛprəˈzɛntətɪv/ &middot; *rep-ruh-ZEN-tuh-tiv*
 **Русский:** представитель; депутат (член Палаты представителей)
 **Plural:** *representatives*
 **Countability:** countable
@@ -71,7 +71,7 @@ A person elected to speak and vote for a group of citizens.
 
 ### legislature
 
-**Pronunciation:** /ˈledʒəsleɪtʃər/ &middot; *LEJ-uh-slay-chur*
+**Pronunciation:** /ˈlɛdʒəsleɪtʃər/ &middot; *LEJ-uh-slay-chur*
 **Русский:** законодательный орган, парламент
 **Plural:** *legislatures*
 **Countability:** countable
@@ -410,7 +410,7 @@ A government in power, especially one seen as harsh or undemocratic.
 
 ### empire
 
-**Pronunciation:** /ˈempaɪrr/ &middot; *EM-pyre*
+**Pronunciation:** /ˈɛmpaɪrr/ &middot; *EM-pyre*
 **Русский:** империя
 **Plural:** *empires*
 **Countability:** countable
@@ -425,7 +425,7 @@ A group of countries or peoples ruled by one government or emperor.
 
 ### president
 
-**Pronunciation:** /ˈprezədənt/ &middot; *PREZ-uh-duhnt*
+**Pronunciation:** /ˈprɛzədənt/ &middot; *PREZ-uh-duhnt*
 **Русский:** президент
 **Plural:** *presidents*
 **Countability:** countable
@@ -441,7 +441,7 @@ The elected head of state in a republic.
 
 ### vice president
 
-**Pronunciation:** /ˌvaɪs ˈprezədənt/ &middot; *vyss-PREZ-uh-duhnt*
+**Pronunciation:** /ˌvaɪs ˈprɛzədənt/ &middot; *vyss-PREZ-uh-duhnt*
 **Русский:** вице-президент
 **Plural:** *vice presidents*
 **Countability:** countable
@@ -642,7 +642,7 @@ Someone who works actively for political or social change.
 
 ### protester
 
-**Pronunciation:** /prəˈtestər/ &middot; *pruh-TESS-tur*
+**Pronunciation:** /prəˈtɛstər/ &middot; *pruh-TESS-tur*
 **Русский:** протестующий, участник акции протеста
 **Plural:** *protesters*
 **Countability:** countable
@@ -673,7 +673,7 @@ An official in a large government department, especially one who follows rules r
 
 ### delegate
 
-**Pronunciation:** /ˈdeləɡət/ &middot; *DEL-uh-guht*
+**Pronunciation:** /ˈdɛləɡət/ &middot; *DEL-uh-guht*
 **Русский:** делегат
 **Plural:** *delegates*
 **Countability:** countable
@@ -749,7 +749,7 @@ A person who pays taxes to the government.
 
 ### veteran
 
-**Pronunciation:** /ˈvetərən/ &middot; *VET-ur-uhn*
+**Pronunciation:** /ˈvɛtərən/ &middot; *VET-ur-uhn*
 **Русский:** ветеран (военной службы)
 **Plural:** *veterans*
 **Countability:** countable
@@ -796,7 +796,7 @@ An insider who reports illegal or dishonest conduct inside an organization.
 
 ### successor
 
-**Pronunciation:** /səkˈsesər/ &middot; *suhk-SESS-ur*
+**Pronunciation:** /səkˈsɛsər/ &middot; *suhk-SESS-ur*
 **Русский:** преемник
 **Plural:** *successors*
 **Countability:** countable
@@ -811,7 +811,7 @@ The person who takes over a job or position from someone else.
 
 ### election
 
-**Pronunciation:** /ɪˈlekʃən/ &middot; *ih-LEK-shuhn*
+**Pronunciation:** /ɪˈlɛkʃən/ &middot; *ih-LEK-shuhn*
 **Русский:** выборы
 **Plural:** *elections*
 **Countability:** countable
@@ -919,7 +919,7 @@ The act of officially proposing someone for an office or honor.
 
 ### primary
 
-**Pronunciation:** /ˈpraɪmeri/ &middot; *PRY-mair-ee*
+**Pronunciation:** /ˈpraɪmɛri/ &middot; *PRY-mair-ee*
 **Русский:** первичные выборы, праймериз
 **Plural:** *primaries*
 **Countability:** countable
@@ -1024,7 +1024,7 @@ A large public meeting held to support a cause or candidate.
 
 ### convention
 
-**Pronunciation:** /kənˈvenʃən/ &middot; *kuhn-VEN-shuhn*
+**Pronunciation:** /kənˈvɛnʃən/ &middot; *kuhn-VEN-shuhn*
 **Русский:** съезд (партии)
 **Plural:** *conventions*
 **Countability:** countable
@@ -1039,7 +1039,7 @@ A large official meeting of a party or organization.
 
 ### electorate
 
-**Pronunciation:** /ɪˈlektərət/ &middot; *ih-LEK-tur-uht*
+**Pronunciation:** /ɪˈlɛktərət/ &middot; *ih-LEK-tur-uht*
 **Русский:** электорат, избиратели
 **Plural:** *electorates*
 **Countability:** countable
@@ -1100,7 +1100,7 @@ A change made to improve a system, law, or institution.
 
 ### welfare
 
-**Pronunciation:** /ˈwelfer/ &middot; *WEL-fair*
+**Pronunciation:** /ˈwɛlfɛr/ &middot; *WEL-fair*
 **Русский:** социальное пособие; благосостояние
 **Countability:** uncountable
 **Contrast:** Uncountable: never a welfare or welfares.
@@ -1130,7 +1130,7 @@ Money paid by a government to help an industry or keep prices low.
 
 ### healthcare
 
-**Pronunciation:** /ˈhelθker/ &middot; *HELTH-kair*
+**Pronunciation:** /ˈhɛlθkɛr/ &middot; *HELTH-kair*
 **Русский:** здравоохранение, медицинское обслуживание
 **Countability:** uncountable
 **Contrast:** Also written as two words, health care; both are common in the US.
@@ -1188,7 +1188,7 @@ The system by which a government collects taxes.
 
 ### treasury
 
-**Pronunciation:** /ˈtreʒəri/ &middot; *TREZH-uh-ree*
+**Pronunciation:** /ˈtrɛʒəri/ &middot; *TREZH-uh-ree*
 **Русский:** казначейство; казна
 **Plural:** *treasuries*
 **Countability:** countable
@@ -1218,7 +1218,7 @@ Money provided for a program or organization.
 
 ### registration
 
-**Pronunciation:** /ˌredʒəˈstreɪʃən/ &middot; *rej-uh-STRAY-shuhn*
+**Pronunciation:** /ˌrɛdʒəˈstreɪʃən/ &middot; *rej-uh-STRAY-shuhn*
 **Русский:** регистрация (например, избирателей)
 **Countability:** uncountable
 
@@ -1337,7 +1337,7 @@ Formal discussion aimed at reaching an agreement.
 
 ### delegation
 
-**Pronunciation:** /ˌdeləˈɡeɪʃən/ &middot; *del-uh-GAY-shuhn*
+**Pronunciation:** /ˌdɛləˈɡeɪʃən/ &middot; *del-uh-GAY-shuhn*
 **Русский:** делегация
 **Plural:** *delegations*
 **Countability:** countable
@@ -1367,7 +1367,7 @@ A country's right to govern itself without outside control.
 
 ### territory
 
-**Pronunciation:** /ˈterətɔːri/ &middot; *TAIR-uh-tor-ee*
+**Pronunciation:** /ˈtɛrətɔːri/ &middot; *TAIR-uh-tor-ee*
 **Русский:** территория
 **Plural:** *territories*
 **Countability:** countable
@@ -1515,7 +1515,7 @@ Information spread to push a political view, often misleading.
 
 ### protest
 
-**Pronunciation:** /ˈproʊtest/ &middot; *PROH-test*
+**Pronunciation:** /ˈproʊtɛst/ &middot; *PROH-test*
 **Русский:** протест, акция протеста
 **Plural:** *protests*
 **Countability:** countable
@@ -1531,7 +1531,7 @@ A public demonstration against something people think is wrong.
 
 ### demonstration
 
-**Pronunciation:** /ˌdemənˈstreɪʃən/ &middot; *dem-uhn-STRAY-shuhn*
+**Pronunciation:** /ˌdɛmənˈstreɪʃən/ &middot; *dem-uhn-STRAY-shuhn*
 **Русский:** демонстрация, манифестация
 **Plural:** *demonstrations*
 **Countability:** countable
@@ -1546,7 +1546,7 @@ A public gathering held to show support for or opposition to something.
 
 ### revolution
 
-**Pronunciation:** /ˌrevəˈluːʃən/ &middot; *rev-uh-LOO-shuhn*
+**Pronunciation:** /ˌrɛvəˈluːʃən/ &middot; *rev-uh-LOO-shuhn*
 **Русский:** революция
 **Plural:** *revolutions*
 **Countability:** countable
@@ -1577,7 +1577,7 @@ A sudden illegal takeover of a government, usually by the military.
 
 ### rebellion
 
-**Pronunciation:** /rɪˈbeljən/ &middot; *rih-BEL-yuhn*
+**Pronunciation:** /rɪˈbɛljən/ &middot; *rih-BEL-yuhn*
 **Русский:** восстание, мятеж
 **Plural:** *rebellions*
 **Countability:** countable
@@ -1769,7 +1769,7 @@ Love of and pride in one's own country.
 
 ### independence
 
-**Pronunciation:** /ˌɪndəˈpendəns/ &middot; *in-duh-PEN-duhns*
+**Pronunciation:** /ˌɪndəˈpɛndəns/ &middot; *in-duh-PEN-duhns*
 **Русский:** независимость
 **Countability:** uncountable
 
@@ -1783,7 +1783,7 @@ Freedom from control by another country or authority.
 
 ### unrest
 
-**Pronunciation:** /ʌnˈrest/ &middot; *un-REST*
+**Pronunciation:** /ʌnˈrɛst/ &middot; *un-REST*
 **Русский:** волнения, беспорядки
 **Countability:** uncountable
 **Contrast:** Uncountable: never an unrest or unrests.
@@ -1798,7 +1798,7 @@ Public anger and disorder that threatens stability.
 
 ### military
 
-**Pronunciation:** /ˈmɪləteri/ &middot; *MIL-uh-tair-ee*
+**Pronunciation:** /ˈmɪlətɛri/ &middot; *MIL-uh-tair-ee*
 **Русский:** армия, вооружённые силы
 **Countability:** uncountable
 **Contrast:** Used with the: the military, never a military or militaries.
@@ -1874,7 +1874,7 @@ A formal talk given to an audience, or the act of speaking freely.
 
 ### press conference
 
-**Pronunciation:** /ˈpres kɑːnfərəns/ &middot; *PRESS-kahn-fur-uhns*
+**Pronunciation:** /ˈprɛs kɑːnfərəns/ &middot; *PRESS-kahn-fur-uhns*
 **Русский:** пресс-конференция
 **Plural:** *press conferences*
 **Countability:** countable

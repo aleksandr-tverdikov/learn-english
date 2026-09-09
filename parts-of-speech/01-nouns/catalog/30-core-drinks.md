@@ -71,7 +71,7 @@ The feeling of needing something to drink.
 
 ### espresso
 
-**Pronunciation:** /eˈspresoʊ/ &middot; *es-PRES-oh*
+**Pronunciation:** /ɛˈsprɛsoʊ/ &middot; *es-PRES-oh*
 **Русский:** эспрессо
 **Plural:** *espressos*
 **Countability:** countable, and uncountable as food
@@ -254,7 +254,7 @@ A cold nonalcoholic drink, usually sweet and fizzy.
 
 ### lemonade
 
-**Pronunciation:** /ˌleməˈneɪd/ &middot; *lem-uh-NAYD*
+**Pronunciation:** /ˌlɛməˈneɪd/ &middot; *lem-uh-NAYD*
 **Русский:** лимонад (напиток из лимонного сока)
 **Plural:** *lemonades*
 **Countability:** countable, and uncountable as food
@@ -301,7 +301,7 @@ A sweet American soft drink flavored with roots and spices.
 
 ### seltzer
 
-**Pronunciation:** /ˈseltsər/ &middot; *SELT-sur*
+**Pronunciation:** /ˈsɛltsər/ &middot; *SELT-sur*
 **Русский:** газированная вода без сахара
 **Plural:** *seltzers*
 **Countability:** countable, and uncountable as food
@@ -436,7 +436,7 @@ Beer served from a keg rather than from a bottle or can.
 
 ### keg
 
-**Pronunciation:** /keɡ/ &middot; *KEG*
+**Pronunciation:** /kɛɡ/ &middot; *KEG*
 **Русский:** кега, бочонок (для пива)
 **Plural:** *kegs*
 **Countability:** countable
@@ -496,7 +496,7 @@ A sparkling white wine, usually served at celebrations.
 
 ### sherry
 
-**Pronunciation:** /ˈʃeri/ &middot; *SHEHR-ee*
+**Pronunciation:** /ˈʃɛri/ &middot; *SHEHR-ee*
 **Русский:** херес
 **Plural:** *sherries*
 **Countability:** countable, and uncountable as food
@@ -572,7 +572,7 @@ The year in which a wine's grapes were harvested.
 
 ### cellar
 
-**Pronunciation:** /ˈselər/ &middot; *SEL-ur*
+**Pronunciation:** /ˈsɛlər/ &middot; *SEL-ur*
 **Русский:** погреб, винный подвал
 **Plural:** *cellars*
 **Countability:** countable
@@ -921,7 +921,7 @@ A sweet drink of juice mixed in a large bowl, sometimes with alcohol.
 
 ### eggnog
 
-**Pronunciation:** /ˈeɡnɑːɡ/ &middot; *EG-nahg*
+**Pronunciation:** /ˈɛɡnɑːɡ/ &middot; *EG-nahg*
 **Русский:** эгног (яично-молочный напиток)
 **Countability:** uncountable
 
@@ -1162,7 +1162,7 @@ A pot with a spout and a lid for brewing and pouring tea.
 
 ### kettle
 
-**Pronunciation:** /ˈketl/ &middot; *KET-ul*
+**Pronunciation:** /ˈkɛtl/ &middot; *KET-ul*
 **Русский:** чайник (для кипячения воды)
 **Plural:** *kettles*
 **Countability:** countable
@@ -1207,7 +1207,7 @@ A machine that brews coffee automatically.
 
 ### blender
 
-**Pronunciation:** /ˈblendər/ &middot; *BLEN-dur*
+**Pronunciation:** /ˈblɛndər/ &middot; *BLEN-dur*
 **Русский:** блендер
 **Plural:** *blenders*
 **Countability:** countable
@@ -1537,7 +1537,7 @@ Six cans or bottles of a drink sold together.
 
 ### bartender
 
-**Pronunciation:** /ˈbɑːrtendər/ &middot; *BAR-ten-dur*
+**Pronunciation:** /ˈbɑːrtɛndər/ &middot; *BAR-ten-dur*
 **Русский:** бармен
 **Plural:** *bartenders*
 **Countability:** countable

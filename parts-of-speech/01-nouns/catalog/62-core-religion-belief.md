@@ -56,7 +56,7 @@ A small place of worship, often inside a larger building.
 
 ### monastery
 
-**Pronunciation:** /ˈmɑːnəsteri/ &middot; *MAH-nuh-steh-ree*
+**Pronunciation:** /ˈmɑːnəstɛri/ &middot; *MAH-nuh-steh-ree*
 **Русский:** монастырь (мужской)
 **Plural:** *monasteries*
 **Countability:** countable
@@ -71,7 +71,7 @@ A building where monks live and work together.
 
 ### convent
 
-**Pronunciation:** /ˈkɑːnvent/ &middot; *KAHN-vent*
+**Pronunciation:** /ˈkɑːnvɛnt/ &middot; *KAHN-vent*
 **Русский:** женский монастырь
 **Plural:** *convents*
 **Countability:** countable
@@ -86,7 +86,7 @@ A building where nuns live together.
 
 ### sanctuary
 
-**Pronunciation:** /ˈsæŋktʃueri/ &middot; *SANGK-choo-eh-ree*
+**Pronunciation:** /ˈsæŋktʃuɛri/ &middot; *SANGK-choo-eh-ree*
 **Русский:** святилище; убежище
 **Plural:** *sanctuaries*
 **Countability:** countable
@@ -148,7 +148,7 @@ A long wooden bench for people to sit on in a church.
 
 ### cemetery
 
-**Pronunciation:** /ˈseməteri/ &middot; *SEM-uh-teh-ree*
+**Pronunciation:** /ˈsɛmətɛri/ &middot; *SEM-uh-teh-ree*
 **Русский:** кладбище
 **Plural:** *cemeteries*
 **Countability:** countable
@@ -317,7 +317,7 @@ A clergy member who serves an army unit, hospital, prison, or school.
 
 ### missionary
 
-**Pronunciation:** /ˈmɪʃəneri/ &middot; *MISH-uh-neh-ree*
+**Pronunciation:** /ˈmɪʃənɛri/ &middot; *MISH-uh-neh-ree*
 **Русский:** миссионер
 **Plural:** *missionaries*
 **Countability:** countable
@@ -771,7 +771,7 @@ A branch of a religion with its own organization and beliefs.
 
 ### sect
 
-**Pronunciation:** /sekt/ &middot; *SEKT*
+**Pronunciation:** /sɛkt/ &middot; *SEKT*
 **Русский:** секта, религиозное течение
 **Plural:** *sects*
 **Countability:** countable
@@ -918,7 +918,7 @@ One of the four books telling the life of Jesus, or the message itself.
 
 ### testament
 
-**Pronunciation:** /ˈtestəmənt/ &middot; *TESS-tuh-muhnt*
+**Pronunciation:** /ˈtɛstəmənt/ &middot; *TESS-tuh-muhnt*
 **Русский:** завет (Ветхий, Новый)
 **Plural:** *testaments*
 **Countability:** countable
@@ -948,7 +948,7 @@ A rule given by God that people must obey.
 
 ### parable
 
-**Pronunciation:** /ˈperəbəl/ &middot; *PAIR-uh-buhl*
+**Pronunciation:** /ˈpɛrəbəl/ &middot; *PAIR-uh-buhl*
 **Русский:** притча
 **Plural:** *parables*
 **Countability:** countable
@@ -1024,7 +1024,7 @@ A talk on a religious or moral subject given in a service.
 
 ### prayer
 
-**Pronunciation:** /prer/ &middot; *PRAIR*
+**Pronunciation:** /prɛr/ &middot; *PRAIR*
 **Русский:** молитва
 **Plural:** *prayers*
 **Countability:** both — countable and uncountable with different meanings
@@ -1054,7 +1054,7 @@ The showing of love and respect for a god through prayer and ceremony.
 
 ### blessing
 
-**Pronunciation:** /ˈblesɪŋ/ &middot; *BLESS-ing*
+**Pronunciation:** /ˈblɛsɪŋ/ &middot; *BLESS-ing*
 **Русский:** благословение
 **Plural:** *blessings*
 **Countability:** countable
@@ -1129,7 +1129,7 @@ A formal religious ceremony with fixed words and actions.
 
 ### ceremony
 
-**Pronunciation:** /ˈserəmoʊni/ &middot; *SEH-ruh-moh-nee*
+**Pronunciation:** /ˈsɛrəmoʊni/ &middot; *SEH-ruh-moh-nee*
 **Русский:** церемония, обряд
 **Plural:** *ceremonies*
 **Countability:** countable
@@ -1191,7 +1191,7 @@ Money or food given to poor people as a religious duty.
 
 ### meditation
 
-**Pronunciation:** /ˌmedɪˈteɪʃən/ &middot; *meh-dih-TAY-shuhn*
+**Pronunciation:** /ˌmɛdɪˈteɪʃən/ &middot; *meh-dih-TAY-shuhn*
 **Русский:** медитация
 **Countability:** uncountable
 
@@ -1280,7 +1280,7 @@ A cross with a figure of Jesus on it.
 
 ### incense
 
-**Pronunciation:** /ˈɪnsens/ &middot; *IN-senss*
+**Pronunciation:** /ˈɪnsɛns/ &middot; *IN-senss*
 **Русский:** благовония, ладан
 **Countability:** uncountable
 **Contrast:** The noun stresses the first syllable (IN-senss); the verb 'to incense' (привести в ярость) stresses the second (in-SENSS).
@@ -1326,7 +1326,7 @@ A statue worshipped as a god, or a person admired too much.
 
 ### relic
 
-**Pronunciation:** /ˈrelɪk/ &middot; *REL-ik*
+**Pronunciation:** /ˈrɛlɪk/ &middot; *REL-ik*
 **Русский:** реликвия, мощи
 **Plural:** *relics*
 **Countability:** countable
@@ -1512,7 +1512,7 @@ A spiritual being that serves as a messenger of God.
 
 ### devil
 
-**Pronunciation:** /ˈdevəl/ &middot; *DEV-uhl*
+**Pronunciation:** /ˈdɛvəl/ &middot; *DEV-uhl*
 **Русский:** дьявол, чёрт
 **Plural:** *devils*
 **Countability:** countable
@@ -1558,7 +1558,7 @@ The spirit of a dead person, believed to appear to the living.
 
 ### heaven
 
-**Pronunciation:** /ˈhevən/ &middot; *HEV-uhn*
+**Pronunciation:** /ˈhɛvən/ &middot; *HEV-uhn*
 **Русский:** рай, небеса
 **Countability:** uncountable
 
@@ -1572,7 +1572,7 @@ The place where God lives and good people are believed to go after death.
 
 ### hell
 
-**Pronunciation:** /hel/ &middot; *HEL*
+**Pronunciation:** /hɛl/ &middot; *HEL*
 **Русский:** ад
 **Countability:** uncountable
 
@@ -1586,7 +1586,7 @@ The place of punishment after death in some religions.
 
 ### paradise
 
-**Pronunciation:** /ˈperədaɪs/ &middot; *PAIR-uh-dyce*
+**Pronunciation:** /ˈpɛrədaɪs/ &middot; *PAIR-uh-dyce*
 **Русский:** рай
 **Countability:** uncountable
 
@@ -1614,7 +1614,7 @@ Life believed to continue after death.
 
 ### resurrection
 
-**Pronunciation:** /ˌrezəˈrekʃən/ &middot; *rez-uh-REK-shuhn*
+**Pronunciation:** /ˌrɛzəˈrɛkʃən/ &middot; *rez-uh-REK-shuhn*
 **Русский:** воскресение, воскрешение
 **Countability:** uncountable
 
@@ -1730,7 +1730,7 @@ A statement about what will happen, said to come from God.
 
 ### revelation
 
-**Pronunciation:** /ˌrevəˈleɪʃən/ &middot; *rev-uh-LAY-shuhn*
+**Pronunciation:** /ˌrɛvəˈleɪʃən/ &middot; *rev-uh-LAY-shuhn*
 **Русский:** откровение
 **Plural:** *revelations*
 **Countability:** countable
@@ -1919,7 +1919,7 @@ The complete destruction of the world, especially as described in the Bible.
 
 ### temptation
 
-**Pronunciation:** /tempˈteɪʃən/ &middot; *temp-TAY-shuhn*
+**Pronunciation:** /tɛmpˈteɪʃən/ &middot; *temp-TAY-shuhn*
 **Русский:** искушение, соблазн
 **Plural:** *temptations*
 **Countability:** countable

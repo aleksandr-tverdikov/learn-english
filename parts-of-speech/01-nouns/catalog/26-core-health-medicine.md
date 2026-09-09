@@ -41,7 +41,7 @@ The state of being sick, or a particular sickness.
 
 ### infection
 
-**Pronunciation:** /ɪnˈfekʃən/ &middot; *in-FEK-shuhn*
+**Pronunciation:** /ɪnˈfɛkʃən/ &middot; *in-FEK-shuhn*
 **Русский:** инфекция, воспаление
 **Plural:** *infections*
 **Countability:** countable
@@ -116,7 +116,7 @@ A sudden noisy push of air from the lungs.
 
 ### headache
 
-**Pronunciation:** /ˈhedeɪk/ &middot; *HED-ayk*
+**Pronunciation:** /ˈhɛdeɪk/ &middot; *HED-ayk*
 **Русский:** головная боль
 **Plural:** *headaches*
 **Countability:** countable
@@ -404,7 +404,7 @@ A small bubble of fluid under the skin caused by rubbing or burning.
 
 ### swelling
 
-**Pronunciation:** /ˈswelɪŋ/ &middot; *SWEL-ing*
+**Pronunciation:** /ˈswɛlɪŋ/ &middot; *SWEL-ing*
 **Русский:** отёк, припухлость
 **Countability:** uncountable
 
@@ -448,7 +448,7 @@ A sudden burst of abnormal electrical activity in the brain.
 
 ### depression
 
-**Pronunciation:** /dɪˈpreʃən/ &middot; *dih-PRESH-uhn*
+**Pronunciation:** /dɪˈprɛʃən/ &middot; *dih-PRESH-uhn*
 **Русский:** депрессия
 **Countability:** uncountable
 
@@ -598,7 +598,7 @@ A set of symptoms that regularly occur together.
 
 ### epidemic
 
-**Pronunciation:** /ˌepɪˈdemɪk/ &middot; *ep-ih-DEM-ik*
+**Pronunciation:** /ˌɛpɪˈdɛmɪk/ &middot; *ep-ih-DEM-ik*
 **Русский:** эпидемия
 **Plural:** *epidemics*
 **Countability:** countable
@@ -733,7 +733,7 @@ A tiny organism that can cause disease.
 
 ### medicine
 
-**Pronunciation:** /ˈmedəsən/ &middot; *MED-uh-sin*
+**Pronunciation:** /ˈmɛdəsən/ &middot; *MED-uh-sin*
 **Русский:** лекарство; медицина
 **Plural:** *medicines*
 **Countability:** both — countable and uncountable with different meanings
@@ -748,7 +748,7 @@ A substance taken to treat illness, or the science of treating illness.
 
 ### medication
 
-**Pronunciation:** /ˌmedɪˈkeɪʃən/ &middot; *med-ih-KAY-shuhn*
+**Pronunciation:** /ˌmɛdɪˈkeɪʃən/ &middot; *med-ih-KAY-shuhn*
 **Русский:** лекарство, медикамент
 **Plural:** *medications*
 **Countability:** countable
@@ -870,7 +870,7 @@ Medical care given to cure or manage an illness.
 
 ### therapy
 
-**Pronunciation:** /ˈθerəpi/ &middot; *THER-uh-pee*
+**Pronunciation:** /ˈθɛrəpi/ &middot; *THER-uh-pee*
 **Русский:** терапия; психотерапия
 **Plural:** *therapies*
 **Countability:** both — countable and uncountable with different meanings
@@ -915,7 +915,7 @@ A single act of surgery on a patient.
 
 ### injection
 
-**Pronunciation:** /ɪnˈdʒekʃən/ &middot; *in-JEK-shuhn*
+**Pronunciation:** /ɪnˈdʒɛkʃən/ &middot; *in-JEK-shuhn*
 **Русский:** укол, инъекция
 **Plural:** *injections*
 **Countability:** countable
@@ -1128,7 +1128,7 @@ Something that makes a disease go away completely.
 
 ### remedy
 
-**Pronunciation:** /ˈremədi/ &middot; *REM-uh-dee*
+**Pronunciation:** /ˈrɛmədi/ &middot; *REM-uh-dee*
 **Русский:** лечебное средство
 **Plural:** *remedies*
 **Countability:** countable
@@ -1143,7 +1143,7 @@ A treatment, often a simple or homemade one, for a minor problem.
 
 ### checkup
 
-**Pronunciation:** /ˈtʃekʌp/ &middot; *CHEK-up*
+**Pronunciation:** /ˈtʃɛkʌp/ &middot; *CHEK-up*
 **Русский:** медосмотр, профилактический осмотр
 **Plural:** *checkups*
 **Countability:** countable
@@ -1188,7 +1188,7 @@ A detailed medical image of the inside of the body.
 
 ### X-ray
 
-**Pronunciation:** /ˈeksreɪ/ &middot; *EKS-ray*
+**Pronunciation:** /ˈɛksreɪ/ &middot; *EKS-ray*
 **Русский:** рентген, рентгеновский снимок
 **Plural:** *X-rays*
 **Countability:** countable
@@ -1203,7 +1203,7 @@ A photograph of the bones taken with special radiation.
 
 ### temperature
 
-**Pronunciation:** /ˈtemprətʃər/ &middot; *TEM-pruh-chur*
+**Pronunciation:** /ˈtɛmprətʃər/ &middot; *TEM-pruh-chur*
 **Русский:** температура (тела)
 **Plural:** *temperatures*
 **Countability:** countable
@@ -1400,7 +1400,7 @@ A vehicle that carries sick or injured people to the hospital.
 
 ### paramedic
 
-**Pronunciation:** /ˌpærəˈmedɪk/ &middot; *pa-ruh-MED-ik*
+**Pronunciation:** /ˌpærəˈmɛdɪk/ &middot; *pa-ruh-MED-ik*
 **Русский:** фельдшер скорой помощи, парамедик
 **Plural:** *paramedics*
 **Countability:** countable
@@ -1447,7 +1447,7 @@ A formal word for a medical doctor.
 
 ### therapist
 
-**Pronunciation:** /ˈθerəpɪst/ &middot; *THER-uh-pist*
+**Pronunciation:** /ˈθɛrəpɪst/ &middot; *THER-uh-pist*
 **Русский:** психотерапевт; физиотерапевт
 **Plural:** *therapists*
 **Countability:** countable
@@ -1542,7 +1542,7 @@ A trained person who helps women give birth.
 
 ### specialist
 
-**Pronunciation:** /ˈspeʃəlɪst/ &middot; *SPESH-uh-list*
+**Pronunciation:** /ˈspɛʃəlɪst/ &middot; *SPESH-uh-list*
 **Русский:** врач-специалист, узкий специалист
 **Plural:** *specialists*
 **Countability:** countable
@@ -1571,7 +1571,7 @@ An arrangement in which a company pays part of your medical costs.
 
 ### wheelchair
 
-**Pronunciation:** /ˈwiːltʃer/ &middot; *WEEL-chair*
+**Pronunciation:** /ˈwiːltʃɛr/ &middot; *WEEL-chair*
 **Русский:** инвалидная коляска
 **Plural:** *wheelchairs*
 **Countability:** countable
@@ -1601,7 +1601,7 @@ A support that fits under the arm and helps you walk with an injured leg.
 
 ### stretcher
 
-**Pronunciation:** /ˈstretʃər/ &middot; *STRECH-ur*
+**Pronunciation:** /ˈstrɛtʃər/ &middot; *STRECH-ur*
 **Русский:** носилки
 **Plural:** *stretchers*
 **Countability:** countable
@@ -1664,7 +1664,7 @@ A device that measures body temperature.
 
 ### stethoscope
 
-**Pronunciation:** /ˈsteθəskoʊp/ &middot; *STETH-uh-skohp*
+**Pronunciation:** /ˈstɛθəskoʊp/ &middot; *STETH-uh-skohp*
 **Русский:** стетоскоп, фонендоскоп
 **Plural:** *stethoscopes*
 **Countability:** countable
@@ -1783,7 +1783,7 @@ The process of getting the food the body needs to stay healthy.
 
 ### pregnancy
 
-**Pronunciation:** /ˈpreɡnənsi/ &middot; *PREG-nuhn-see*
+**Pronunciation:** /ˈprɛɡnənsi/ &middot; *PREG-nuhn-see*
 **Русский:** беременность
 **Plural:** *pregnancies*
 **Countability:** countable

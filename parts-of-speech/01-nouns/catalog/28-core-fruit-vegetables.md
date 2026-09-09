@@ -56,7 +56,7 @@ A round citrus fruit with thick skin and sweet juicy segments.
 
 ### pear
 
-**Pronunciation:** /per/ &middot; *PAIR*
+**Pronunciation:** /pɛr/ &middot; *PAIR*
 **Русский:** груша
 **Plural:** *pears*
 **Countability:** countable
@@ -117,7 +117,7 @@ A small round fruit that grows in bunches on a vine.
 
 ### cherry
 
-**Pronunciation:** /ˈtʃeri/ &middot; *CHEH-ree*
+**Pronunciation:** /ˈtʃɛri/ &middot; *CHEH-ree*
 **Русский:** вишня, черешня
 **Plural:** *cherries*
 **Countability:** countable
@@ -132,7 +132,7 @@ A small round red fruit with a pit and a long stem.
 
 ### strawberry
 
-**Pronunciation:** /ˈstrɔːberi/ &middot; *STRAW-beh-ree*
+**Pronunciation:** /ˈstrɔːbɛri/ &middot; *STRAW-beh-ree*
 **Русский:** клубника, земляника
 **Plural:** *strawberries*
 **Countability:** countable
@@ -147,7 +147,7 @@ A soft red fruit with tiny seeds on the outside.
 
 ### blueberry
 
-**Pronunciation:** /ˈbluːberi/ &middot; *BLOO-beh-ree*
+**Pronunciation:** /ˈbluːbɛri/ &middot; *BLOO-beh-ree*
 **Русский:** черника, голубика
 **Plural:** *blueberries*
 **Countability:** countable
@@ -162,7 +162,7 @@ A small dark blue berry that grows on a bush.
 
 ### raspberry
 
-**Pronunciation:** /ˈræzberi/ &middot; *RAZ-beh-ree*
+**Pronunciation:** /ˈræzbɛri/ &middot; *RAZ-beh-ree*
 **Русский:** малина
 **Plural:** *raspberries*
 **Countability:** countable
@@ -178,7 +178,7 @@ A soft red berry made up of many tiny sections.
 
 ### blackberry
 
-**Pronunciation:** /ˈblækberi/ &middot; *BLAK-beh-ree*
+**Pronunciation:** /ˈblækbɛri/ &middot; *BLAK-beh-ree*
 **Русский:** ежевика
 **Plural:** *blackberries*
 **Countability:** countable
@@ -193,7 +193,7 @@ A dark purple-black berry that grows on a thorny bush.
 
 ### lemon
 
-**Pronunciation:** /ˈlemən/ &middot; *LEH-mun*
+**Pronunciation:** /ˈlɛmən/ &middot; *LEH-mun*
 **Русский:** лимон
 **Plural:** *lemons*
 **Countability:** countable
@@ -253,7 +253,7 @@ A large tropical fruit with rough skin and sweet yellow flesh.
 
 ### watermelon
 
-**Pronunciation:** /ˈwɔːtərmelən/ &middot; *WAW-tur-meh-lun*
+**Pronunciation:** /ˈwɔːtərmɛlən/ &middot; *WAW-tur-meh-lun*
 **Русский:** арбуз
 **Plural:** *watermelons*
 **Countability:** countable, and uncountable as food
@@ -268,7 +268,7 @@ A very large green fruit with sweet red flesh and black seeds.
 
 ### melon
 
-**Pronunciation:** /ˈmelən/ &middot; *MEH-lun*
+**Pronunciation:** /ˈmɛlən/ &middot; *MEH-lun*
 **Русский:** дыня
 **Plural:** *melons*
 **Countability:** countable, and uncountable as food
@@ -314,7 +314,7 @@ A small orange fruit with soft flesh and a single pit.
 
 ### nectarine
 
-**Pronunciation:** /ˌnektəˈriːn/ &middot; *nek-tuh-REEN*
+**Pronunciation:** /ˌnɛktəˈriːn/ &middot; *nek-tuh-REEN*
 **Русский:** нектарин
 **Plural:** *nectarines*
 **Countability:** countable
@@ -435,7 +435,7 @@ A dried plum.
 
 ### cranberry
 
-**Pronunciation:** /ˈkrænberi/ &middot; *KRAN-beh-ree*
+**Pronunciation:** /ˈkrænbɛri/ &middot; *KRAN-beh-ree*
 **Русский:** клюква
 **Plural:** *cranberries*
 **Countability:** countable
@@ -465,7 +465,7 @@ A large tropical nut with a hard shell, white flesh, and liquid inside.
 
 ### berry
 
-**Pronunciation:** /ˈberi/ &middot; *BEH-ree*
+**Pronunciation:** /ˈbɛri/ &middot; *BEH-ree*
 **Русский:** ягода
 **Plural:** *berries*
 **Countability:** countable
@@ -557,7 +557,7 @@ A large starchy relative of the banana that is cooked before eating.
 
 ### carrot
 
-**Pronunciation:** /ˈkerət/ &middot; *KEHR-ut*
+**Pronunciation:** /ˈkɛrət/ &middot; *KEHR-ut*
 **Русский:** морковь, морковка
 **Plural:** *carrots*
 **Countability:** countable
@@ -587,7 +587,7 @@ A round vegetable made of tightly packed green or purple leaves.
 
 ### lettuce
 
-**Pronunciation:** /ˈletəs/ &middot; *LEH-tus*
+**Pronunciation:** /ˈlɛtəs/ &middot; *LEH-tus*
 **Русский:** салат-латук
 **Plural:** *lettuces*
 **Countability:** countable, and uncountable as food
@@ -661,7 +661,7 @@ A long green vegetable with watery flesh, usually eaten raw.
 
 ### celery
 
-**Pronunciation:** /ˈseləri/ &middot; *SEH-luh-ree*
+**Pronunciation:** /ˈsɛləri/ &middot; *SEH-luh-ree*
 **Русский:** сельдерей
 **Countability:** uncountable
 
@@ -690,7 +690,7 @@ A fungus with a stem and a rounded cap, many kinds of which are eaten.
 
 ### eggplant
 
-**Pronunciation:** /ˈeɡplænt/ &middot; *EG-plant*
+**Pronunciation:** /ˈɛɡplænt/ &middot; *EG-plant*
 **Русский:** баклажан
 **Plural:** *eggplants*
 **Countability:** countable, and uncountable as food
@@ -782,7 +782,7 @@ A large round orange squash used for pies and Halloween carving.
 
 ### asparagus
 
-**Pronunciation:** /əˈsperəɡəs/ &middot; *uh-SPEH-ruh-gus*
+**Pronunciation:** /əˈspɛrəɡəs/ &middot; *uh-SPEH-ruh-gus*
 **Русский:** спаржа
 **Countability:** uncountable
 
@@ -1065,7 +1065,7 @@ A herb with tiny leaves and a strong earthy smell.
 
 ### rosemary
 
-**Pronunciation:** /ˈroʊzmeri/ &middot; *ROHZ-meh-ree*
+**Pronunciation:** /ˈroʊzmɛri/ &middot; *ROHZ-meh-ree*
 **Русский:** розмарин
 **Countability:** uncountable
 
@@ -1093,7 +1093,7 @@ A herb with soft gray-green leaves and a strong savory taste.
 
 ### oregano
 
-**Pronunciation:** /əˈreɡənoʊ/ &middot; *uh-REH-guh-noh*
+**Pronunciation:** /əˈrɛɡənoʊ/ &middot; *uh-REH-guh-noh*
 **Русский:** орегано, душица
 **Countability:** uncountable
 **Contrast:** Americans stress the second syllable, uh-REH-guh-noh; the British say or-ih-GAH-noh.
@@ -1179,7 +1179,7 @@ A sweet flavoring made from the dried pods of a tropical orchid.
 
 ### nutmeg
 
-**Pronunciation:** /ˈnʌtmeɡ/ &middot; *NUT-meg*
+**Pronunciation:** /ˈnʌtmɛɡ/ &middot; *NUT-meg*
 **Русский:** мускатный орех
 **Plural:** *nutmegs*
 **Countability:** countable, and uncountable as food
@@ -1316,7 +1316,7 @@ A small green nut sold in a shell that splits open on one side.
 
 ### chestnut
 
-**Pronunciation:** /ˈtʃesnʌt/ &middot; *CHES-nut*
+**Pronunciation:** /ˈtʃɛsnʌt/ &middot; *CHES-nut*
 **Русский:** каштан
 **Plural:** *chestnuts*
 **Countability:** countable
@@ -1377,7 +1377,7 @@ A tall plant with a large yellow flower and edible seeds.
 
 ### sesame
 
-**Pronunciation:** /ˈsesəmi/ &middot; *SEH-suh-mee*
+**Pronunciation:** /ˈsɛsəmi/ &middot; *SEH-suh-mee*
 **Русский:** кунжут, сезам
 **Countability:** uncountable
 
@@ -1451,7 +1451,7 @@ The part of a plant that grows underground and takes in water.
 
 ### stem
 
-**Pronunciation:** /stem/ &middot; *STEM*
+**Pronunciation:** /stɛm/ &middot; *STEM*
 **Русский:** стебель
 **Plural:** *stems*
 **Countability:** countable

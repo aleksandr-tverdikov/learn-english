@@ -1391,7 +1391,7 @@ A group of stars that people picture as forming a shape.
 
 ### crescent
 
-**Pronunciation:** /ˈkresənt/ &middot; *KRES-uhnt*
+**Pronunciation:** /ˈkrɛsənt/ &middot; *KRES-uhnt*
 **Русский:** полумесяц, серп луны
 **Plural:** *crescents*
 **Countability:** countable
@@ -1407,7 +1407,7 @@ The curved shape of the moon when only a thin part of it is lit.
 
 ### telescope
 
-**Pronunciation:** /ˈteləskoʊp/ &middot; *TEL-uh-skohp*
+**Pronunciation:** /ˈtɛləskoʊp/ &middot; *TEL-uh-skohp*
 **Русский:** телескоп
 **Plural:** *telescopes*
 **Countability:** countable
@@ -1527,7 +1527,7 @@ A building with telescopes, used for studying the sky.
 
 ### hemisphere
 
-**Pronunciation:** /ˈheməsfɪr/ &middot; *HEM-uh-sfeer*
+**Pronunciation:** /ˈhɛməsfɪr/ &middot; *HEM-uh-sfeer*
 **Русский:** полушарие
 **Plural:** *hemispheres*
 **Countability:** countable

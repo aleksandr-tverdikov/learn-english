@@ -17,13 +17,23 @@ are applied automatically:
 
 A fifth is applied only with spelling evidence: a word spelled with a final
 -er/-or/-ar/-our but transcribed with a bare final /ə/ is missing its rhotic r,
-so the r is restored. Anything else is reported, not silently rewritten.
+so the r is restored.
+
+A sixth normalizes the DRESS vowel. Both /e/ and /ɛ/ are used for it by real
+dictionaries - Cambridge writes /e/, Wells and Merriam-Webster write /ɛ/ - but a
+single dictionary has to pick one. The hand-written grammar tier uses /ɛ/ without
+exception, so the core tier is normalized to match. The lookahead protects the
+/eɪ/ diphthong, which is a different vowel: `agent` stays /ˈeɪdʒənt/ while
+`leather` becomes /ˈlɛðər/.
+
+Anything else is reported, not silently rewritten.
 """
 import glob, json, os, re, sys
 
 CORE = os.path.join(os.path.dirname(os.path.abspath(__file__)), 'core')
 
 SUBS = [('ɒ', 'ɑː'), ('ɪə', 'ɪr'), ('eə', 'ɛr'), ('ʊə', 'ʊr')]
+DRESS = re.compile(r'e(?!ɪ)')   # bare e is the DRESS vowel; eɪ is left alone
 RHOTIC_SPELLING = re.compile(r'(er|or|ar|our|re)$', re.I)
 
 
@@ -50,6 +60,7 @@ def lint(path):
         before = ipa
         for a, b in SUBS:
             ipa = ipa.replace(a, b)
+        ipa = DRESS.sub('ɛ', ipa)
         if ipa != before:
             fixed_ipa += 1
 

@@ -42,7 +42,7 @@ The limb that runs from the shoulder down to the hand.
 
 ### leg
 
-**Pronunciation:** /leɡ/ &middot; *LEG*
+**Pronunciation:** /lɛɡ/ &middot; *LEG*
 **Русский:** нога
 **Plural:** *legs*
 **Countability:** countable
@@ -137,7 +137,7 @@ The joint in the middle of the leg where it bends.
 
 ### elbow
 
-**Pronunciation:** /ˈelboʊ/ &middot; *EL-boh*
+**Pronunciation:** /ˈɛlboʊ/ &middot; *EL-boh*
 **Русский:** локоть
 **Plural:** *elbows*
 **Countability:** countable
@@ -229,7 +229,7 @@ The narrow part of the body between the ribs and the hips.
 
 ### chest
 
-**Pronunciation:** /tʃest/ &middot; *CHEST*
+**Pronunciation:** /tʃɛst/ &middot; *CHEST*
 **Русский:** грудь, грудная клетка
 **Plural:** *chests*
 **Countability:** countable
@@ -275,7 +275,7 @@ The organ that digests food, or the front of the body below the chest.
 
 ### belly
 
-**Pronunciation:** /ˈbeli/ &middot; *BEL-ee*
+**Pronunciation:** /ˈbɛli/ &middot; *BEL-ee*
 **Русский:** живот, брюхо (разг.)
 **Plural:** *bellies*
 **Countability:** countable
@@ -290,7 +290,7 @@ The soft front part of the body below the chest, in casual speech.
 
 ### neck
 
-**Pronunciation:** /nek/ &middot; *NEK*
+**Pronunciation:** /nɛk/ &middot; *NEK*
 **Русский:** шея
 **Plural:** *necks*
 **Countability:** countable
@@ -459,7 +459,7 @@ Either side of the face below the eye.
 
 ### forehead
 
-**Pronunciation:** /ˈfɔːrhed/ &middot; *FOR-hed*
+**Pronunciation:** /ˈfɔːrhɛd/ &middot; *FOR-hed*
 **Русский:** лоб
 **Plural:** *foreheads*
 **Countability:** countable
@@ -918,7 +918,7 @@ Either of the two fleshy parts of the body you sit on.
 
 ### breast
 
-**Pronunciation:** /brest/ &middot; *BREST*
+**Pronunciation:** /brɛst/ &middot; *BREST*
 **Русский:** грудь (женская), молочная железа
 **Plural:** *breasts*
 **Countability:** countable
@@ -1012,7 +1012,7 @@ An arm or a leg.
 
 ### flesh
 
-**Pronunciation:** /fleʃ/ &middot; *FLESH*
+**Pronunciation:** /flɛʃ/ &middot; *FLESH*
 **Русский:** плоть, мягкие ткани
 **Countability:** uncountable
 
@@ -1040,7 +1040,7 @@ The firm flexible tissue found in joints, the nose, and the ears.
 
 ### tendon
 
-**Pronunciation:** /ˈtendən/ &middot; *TEN-dun*
+**Pronunciation:** /ˈtɛndən/ &middot; *TEN-dun*
 **Русский:** сухожилие
 **Plural:** *tendons*
 **Countability:** countable
@@ -1116,7 +1116,7 @@ An organ that produces a substance the body uses or releases.
 
 ### cell
 
-**Pronunciation:** /sel/ &middot; *SEL*
+**Pronunciation:** /sɛl/ &middot; *SEL*
 **Русский:** клетка
 **Plural:** *cells*
 **Countability:** countable
@@ -1132,7 +1132,7 @@ The smallest living unit that bodies are built from.
 
 ### skeleton
 
-**Pronunciation:** /ˈskelətən/ &middot; *SKEL-uh-tun*
+**Pronunciation:** /ˈskɛlətən/ &middot; *SKEL-uh-tun*
 **Русский:** скелет
 **Plural:** *skeletons*
 **Countability:** countable
@@ -1147,7 +1147,7 @@ All the bones of a body taken together.
 
 ### temple
 
-**Pronunciation:** /ˈtempəl/ &middot; *TEM-pul*
+**Pronunciation:** /ˈtɛmpəl/ &middot; *TEM-pul*
 **Русский:** висок
 **Plural:** *temples*
 **Countability:** countable
@@ -1347,7 +1347,7 @@ The tube that carries air from the throat down to the lungs.
 
 ### intestine
 
-**Pronunciation:** /ɪnˈtestɪn/ &middot; *in-TES-tin*
+**Pronunciation:** /ɪnˈtɛstɪn/ &middot; *in-TES-tin*
 **Русский:** кишка, кишечник
 **Plural:** *intestines*
 **Countability:** countable
@@ -1497,7 +1497,7 @@ The clear liquid produced in the mouth.
 
 ### sweat
 
-**Pronunciation:** /swet/ &middot; *SWET*
+**Pronunciation:** /swɛt/ &middot; *SWET*
 **Русский:** пот
 **Countability:** uncountable
 
@@ -1527,7 +1527,7 @@ A drop of the liquid that comes from the eye when you cry.
 
 ### breath
 
-**Pronunciation:** /breθ/ &middot; *BRETH*
+**Pronunciation:** /brɛθ/ &middot; *BRETH*
 **Русский:** дыхание, вдох
 **Plural:** *breaths*
 **Countability:** countable
@@ -1635,7 +1635,7 @@ The thick bundle of nerves running down inside the spine.
 
 ### marrow
 
-**Pronunciation:** /ˈmeroʊ/ &middot; *MER-oh*
+**Pronunciation:** /ˈmɛroʊ/ &middot; *MER-oh*
 **Русский:** костный мозг
 **Countability:** uncountable
 
@@ -1681,7 +1681,7 @@ A small line in the skin that comes with age.
 
 ### freckle
 
-**Pronunciation:** /ˈfrekəl/ &middot; *FREK-ul*
+**Pronunciation:** /ˈfrɛkəl/ &middot; *FREK-ul*
 **Русский:** веснушка
 **Plural:** *freckles*
 **Countability:** countable
@@ -1727,7 +1727,7 @@ A small dark permanent spot on the skin.
 
 ### complexion
 
-**Pronunciation:** /kəmˈplekʃən/ &middot; *kum-PLEK-shun*
+**Pronunciation:** /kəmˈplɛkʃən/ &middot; *kum-PLEK-shun*
 **Русский:** цвет лица
 **Plural:** *complexions*
 **Countability:** countable
@@ -1803,7 +1803,7 @@ The area where the legs meet the front of the body.
 
 ### pelvis
 
-**Pronunciation:** /ˈpelvɪs/ &middot; *PEL-vis*
+**Pronunciation:** /ˈpɛlvɪs/ &middot; *PEL-vis*
 **Русский:** таз
 **Plural:** *pelvises*
 **Countability:** countable

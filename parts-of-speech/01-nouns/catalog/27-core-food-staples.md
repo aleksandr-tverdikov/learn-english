@@ -40,7 +40,7 @@ An occasion when food is eaten, such as breakfast or dinner.
 
 ### breakfast
 
-**Pronunciation:** /ˈbrekfəst/ &middot; *BREK-fuhst*
+**Pronunciation:** /ˈbrɛkfəst/ &middot; *BREK-fuhst*
 **Русский:** завтрак
 **Plural:** *breakfasts*
 **Countability:** countable
@@ -194,7 +194,7 @@ A particular kind of prepared food.
 
 ### recipe
 
-**Pronunciation:** /ˈresəpi/ &middot; *RES-uh-pee*
+**Pronunciation:** /ˈrɛsəpi/ &middot; *RES-uh-pee*
 **Русский:** рецепт (кулинарный)
 **Plural:** *recipes*
 **Countability:** countable
@@ -271,7 +271,7 @@ A meal eaten outdoors, away from home.
 
 ### leftovers
 
-**Pronunciation:** /ˈleftoʊvərz/ &middot; *LEFT-oh-vurz*
+**Pronunciation:** /ˈlɛftoʊvərz/ &middot; *LEFT-oh-vurz*
 **Русский:** остатки еды
 **Plural:** *leftovers*
 **Countability:** countable
@@ -453,7 +453,7 @@ A long thin strip of pasta or dough, usually boiled.
 
 ### spaghetti
 
-**Pronunciation:** /spəˈɡeti/ &middot; *spuh-GET-ee*
+**Pronunciation:** /spəˈɡɛti/ &middot; *spuh-GET-ee*
 **Русский:** спагетти
 **Countability:** uncountable
 **Contrast:** Uncountable in English — the spaghetti is ready, never are ready.
@@ -802,7 +802,7 @@ A solid food made from milk.
 
 ### egg
 
-**Pronunciation:** /eɡ/ &middot; *EG*
+**Pronunciation:** /ɛɡ/ &middot; *EG*
 **Русский:** яйцо
 **Plural:** *eggs*
 **Countability:** countable
@@ -847,7 +847,7 @@ The thick fatty part of milk.
 
 ### dairy
 
-**Pronunciation:** /ˈderi/ &middot; *DAIR-ee*
+**Pronunciation:** /ˈdɛri/ &middot; *DAIR-ee*
 **Русский:** молочные продукты
 **Countability:** uncountable
 **Contrast:** DAIR-ee. Do not mix it up with diary (DY-uh-ree, дневник) — the letters are nearly the same.
@@ -876,7 +876,7 @@ A sweet spread made by boiling fruit with sugar.
 
 ### jelly
 
-**Pronunciation:** /ˈdʒeli/ &middot; *JEL-ee*
+**Pronunciation:** /ˈdʒɛli/ &middot; *JEL-ee*
 **Русский:** джем без кусочков фруктов
 **Countability:** uncountable
 **Contrast:** In the US jelly is a seedless fruit spread; the wobbly British dessert called jelly is Jell-O here.
@@ -950,7 +950,7 @@ A sauce made from the juices of cooked meat.
 
 ### ketchup
 
-**Pronunciation:** /ˈketʃəp/ &middot; *KECH-uhp*
+**Pronunciation:** /ˈkɛtʃəp/ &middot; *KECH-uhp*
 **Русский:** кетчуп
 **Countability:** uncountable
 
@@ -1051,7 +1051,7 @@ A sweet brown spice made from tree bark.
 
 ### pepper
 
-**Pronunciation:** /ˈpepər/ &middot; *PEP-ur*
+**Pronunciation:** /ˈpɛpər/ &middot; *PEP-ur*
 **Русский:** перец
 **Plural:** *peppers*
 **Countability:** both — countable and uncountable with different meanings
@@ -1486,7 +1486,7 @@ A spicy sauce of chopped tomatoes, onions, and peppers.
 
 ### vegetable
 
-**Pronunciation:** /ˈvedʒtəbl/ &middot; *VEJ-tuh-buhl*
+**Pronunciation:** /ˈvɛdʒtəbl/ &middot; *VEJ-tuh-buhl*
 **Русский:** овощ
 **Plural:** *vegetables*
 **Countability:** countable
@@ -1577,7 +1577,7 @@ A small round green seed eaten as a vegetable.
 
 ### lentil
 
-**Pronunciation:** /ˈlentl/ &middot; *LEN-tuhl*
+**Pronunciation:** /ˈlɛntl/ &middot; *LEN-tuhl*
 **Русский:** чечевица
 **Plural:** *lentils*
 **Countability:** countable
@@ -1805,7 +1805,7 @@ A thick cold drink made from blended fruit.
 
 ### beverage
 
-**Pronunciation:** /ˈbevərɪdʒ/ &middot; *BEV-ur-ij*
+**Pronunciation:** /ˈbɛvərɪdʒ/ &middot; *BEV-ur-ij*
 **Русский:** напиток
 **Plural:** *beverages*
 **Countability:** countable

@@ -26,7 +26,7 @@ The basic unit of money in the United States and several other countries.
 
 ### cent
 
-**Pronunciation:** /sent/ &middot; *SENT*
+**Pronunciation:** /sɛnt/ &middot; *SENT*
 **Русский:** цент
 **Plural:** *cents*
 **Countability:** countable
@@ -194,7 +194,7 @@ A movement of money from one account to another.
 
 ### teller
 
-**Pronunciation:** /ˈtelər/ &middot; *TEL-ur*
+**Pronunciation:** /ˈtɛlər/ &middot; *TEL-ur*
 **Русский:** банковский кассир, операционист
 **Plural:** *tellers*
 **Countability:** countable
@@ -209,7 +209,7 @@ A bank employee who handles customers' cash at a counter.
 
 ### ATM
 
-**Pronunciation:** /ˌeɪ tiː ˈem/ &middot; *ay-tee-EM*
+**Pronunciation:** /ˌeɪ tiː ˈɛm/ &middot; *ay-tee-EM*
 **Русский:** банкомат
 **Plural:** *ATMs*
 **Countability:** countable
@@ -224,7 +224,7 @@ A machine that lets you take cash out of your bank account.
 
 ### check
 
-**Pronunciation:** /tʃek/ &middot; *CHEK*
+**Pronunciation:** /tʃɛk/ &middot; *CHEK*
 **Русский:** чек (банковский)
 **Plural:** *checks*
 **Countability:** countable
@@ -331,7 +331,7 @@ A document sent to a customer listing goods or work and the amount owed.
 
 ### credit
 
-**Pronunciation:** /ˈkredət/ &middot; *KRED-ut*
+**Pronunciation:** /ˈkrɛdət/ &middot; *KRED-ut*
 **Русский:** кредит (возможность занимать)
 **Countability:** uncountable
 
@@ -345,7 +345,7 @@ The ability to buy now and pay later, based on trust that you will repay.
 
 ### debit
 
-**Pronunciation:** /ˈdebət/ &middot; *DEB-ut*
+**Pronunciation:** /ˈdɛbət/ &middot; *DEB-ut*
 **Русский:** дебет; списание со счёта
 **Plural:** *debits*
 **Countability:** countable
@@ -360,7 +360,7 @@ An amount taken directly out of a bank account.
 
 ### credit card
 
-**Pronunciation:** /ˈkredət kɑːrd/ &middot; *KRED-ut KARD*
+**Pronunciation:** /ˈkrɛdət kɑːrd/ &middot; *KRED-ut KARD*
 **Русский:** кредитная карта
 **Plural:** *credit cards*
 **Countability:** countable
@@ -375,7 +375,7 @@ A plastic card that lets you buy things with borrowed money.
 
 ### credit score
 
-**Pronunciation:** /ˈkredət skɔːr/ &middot; *KRED-ut SKOR*
+**Pronunciation:** /ˈkrɛdət skɔːr/ &middot; *KRED-ut SKOR*
 **Русский:** кредитный рейтинг
 **Plural:** *credit scores*
 **Countability:** countable
@@ -405,7 +405,7 @@ A sum of money borrowed that must be paid back, usually with interest.
 
 ### debt
 
-**Pronunciation:** /det/ &middot; *DET*
+**Pronunciation:** /dɛt/ &middot; *DET*
 **Русский:** долг, задолженность
 **Plural:** *debts*
 **Countability:** countable
@@ -437,7 +437,7 @@ A long-term loan used to buy a house, with the house as security.
 
 ### lender
 
-**Pronunciation:** /ˈlendər/ &middot; *LEN-dur*
+**Pronunciation:** /ˈlɛndər/ &middot; *LEN-dur*
 **Русский:** кредитор, заимодавец
 **Plural:** *lenders*
 **Countability:** countable
@@ -482,7 +482,7 @@ Property promised to a lender in case the borrower cannot repay.
 
 ### creditor
 
-**Pronunciation:** /ˈkredətər/ &middot; *KRED-uh-tur*
+**Pronunciation:** /ˈkrɛdətər/ &middot; *KRED-uh-tur*
 **Русский:** кредитор
 **Plural:** *creditors*
 **Countability:** countable
@@ -572,7 +572,7 @@ The percentage charged for borrowing money or paid on savings.
 
 ### investment
 
-**Pronunciation:** /ɪnˈvestmənt/ &middot; *in-VEST-muhnt*
+**Pronunciation:** /ɪnˈvɛstmənt/ &middot; *in-VEST-muhnt*
 **Русский:** инвестиция, вложение
 **Plural:** *investments*
 **Countability:** countable
@@ -587,7 +587,7 @@ Money put into something in the hope of earning more.
 
 ### investor
 
-**Pronunciation:** /ɪnˈvestər/ &middot; *in-VES-tur*
+**Pronunciation:** /ɪnˈvɛstər/ &middot; *in-VES-tur*
 **Русский:** инвестор
 **Plural:** *investors*
 **Countability:** countable
@@ -632,7 +632,7 @@ The system in which company shares are bought and sold.
 
 ### share
 
-**Pronunciation:** /ʃer/ &middot; *SHAIR*
+**Pronunciation:** /ʃɛr/ &middot; *SHAIR*
 **Русский:** акция; доля
 **Plural:** *shares*
 **Countability:** countable
@@ -662,7 +662,7 @@ A certificate showing that a government or company has borrowed from you.
 
 ### dividend
 
-**Pronunciation:** /ˈdɪvədend/ &middot; *DIV-uh-dend*
+**Pronunciation:** /ˈdɪvədɛnd/ &middot; *DIV-uh-dend*
 **Русский:** дивиденд
 **Plural:** *dividends*
 **Countability:** countable
@@ -677,7 +677,7 @@ A share of a company's profits paid out to its shareholders.
 
 ### shareholder
 
-**Pronunciation:** /ˈʃerhoʊldər/ &middot; *SHAIR-hohl-dur*
+**Pronunciation:** /ˈʃɛrhoʊldər/ &middot; *SHAIR-hohl-dur*
 **Русский:** акционер
 **Plural:** *shareholders*
 **Countability:** countable
@@ -737,7 +737,7 @@ The value of one country's money expressed in another's.
 
 ### asset
 
-**Pronunciation:** /ˈæset/ &middot; *ASS-et*
+**Pronunciation:** /ˈæsɛt/ &middot; *ASS-et*
 **Русский:** актив, имущество
 **Plural:** *assets*
 **Countability:** countable
@@ -782,7 +782,7 @@ Money available to invest in or run a business.
 
 ### equity
 
-**Pronunciation:** /ˈekwəti/ &middot; *EK-wuh-tee*
+**Pronunciation:** /ˈɛkwəti/ &middot; *EK-wuh-tee*
 **Русский:** доля собственности; чистая стоимость жилья
 **Countability:** uncountable
 
@@ -873,7 +873,7 @@ Money that a business or investor fails to get back.
 
 ### revenue
 
-**Pronunciation:** /ˈrevənuː/ &middot; *REV-uh-noo*
+**Pronunciation:** /ˈrɛvənuː/ &middot; *REV-uh-noo*
 **Русский:** выручка, доход компании
 **Countability:** uncountable
 
@@ -902,7 +902,7 @@ Money that a person regularly receives from work or investments.
 
 ### expense
 
-**Pronunciation:** /ɪkˈspens/ &middot; *ik-SPENS*
+**Pronunciation:** /ɪkˈspɛns/ &middot; *ik-SPENS*
 **Русский:** расход, затрата
 **Plural:** *expenses*
 **Countability:** countable
@@ -917,7 +917,7 @@ Money that has to be spent on something.
 
 ### spending
 
-**Pronunciation:** /ˈspendɪŋ/ &middot; *SPEN-ding*
+**Pronunciation:** /ˈspɛndɪŋ/ &middot; *SPEN-ding*
 **Русский:** расходы, траты
 **Countability:** uncountable
 
@@ -1066,7 +1066,7 @@ A general rise in prices that makes money worth less.
 
 ### recession
 
-**Pronunciation:** /rɪˈseʃən/ &middot; *rih-SESH-uhn*
+**Pronunciation:** /rɪˈsɛʃən/ &middot; *rih-SESH-uhn*
 **Русский:** рецессия, экономический спад
 **Plural:** *recessions*
 **Countability:** countable
@@ -1081,7 +1081,7 @@ A period when an economy shrinks and jobs disappear.
 
 ### deficit
 
-**Pronunciation:** /ˈdefəsət/ &middot; *DEF-uh-sut*
+**Pronunciation:** /ˈdɛfəsət/ &middot; *DEF-uh-sut*
 **Русский:** дефицит (превышение расходов над доходами)
 **Plural:** *deficits*
 **Countability:** countable
@@ -1141,7 +1141,7 @@ A fixed amount of money paid to an employee, usually monthly or yearly.
 
 ### paycheck
 
-**Pronunciation:** /ˈpeɪtʃek/ &middot; *PAY-chek*
+**Pronunciation:** /ˈpeɪtʃɛk/ &middot; *PAY-chek*
 **Русский:** зарплата, получка
 **Plural:** *paychecks*
 **Countability:** countable
@@ -1187,7 +1187,7 @@ A payment based on a percentage of what someone sells.
 
 ### pension
 
-**Pronunciation:** /ˈpenʃən/ &middot; *PEN-shuhn*
+**Pronunciation:** /ˈpɛnʃən/ &middot; *PEN-shuhn*
 **Русский:** пенсия (от работодателя)
 **Plural:** *pensions*
 **Countability:** countable
@@ -1277,7 +1277,7 @@ The amount you pay yourself before insurance starts paying.
 
 ### rent
 
-**Pronunciation:** /rent/ &middot; *RENT*
+**Pronunciation:** /rɛnt/ &middot; *RENT*
 **Русский:** арендная плата
 **Countability:** uncountable
 
@@ -1306,7 +1306,7 @@ A person who owns property and rents it out to others.
 
 ### tenant
 
-**Pronunciation:** /ˈtenənt/ &middot; *TEN-uhnt*
+**Pronunciation:** /ˈtɛnənt/ &middot; *TEN-uhnt*
 **Русский:** арендатор, квартиросъёмщик
 **Plural:** *tenants*
 **Countability:** countable
@@ -1412,7 +1412,7 @@ A regular payment for ongoing access to a service.
 
 ### estimate
 
-**Pronunciation:** /ˈestəmət/ &middot; *ES-tuh-mut*
+**Pronunciation:** /ˈɛstəmət/ &middot; *ES-tuh-mut*
 **Русский:** смета, предварительный расчёт
 **Plural:** *estimates*
 **Countability:** countable
@@ -1443,7 +1443,7 @@ A very large amount of money.
 
 ### inheritance
 
-**Pronunciation:** /ɪnˈherətəns/ &middot; *in-HAIR-uh-tuhns*
+**Pronunciation:** /ɪnˈhɛrətəns/ &middot; *in-HAIR-uh-tuhns*
 **Русский:** наследство
 **Plural:** *inheritances*
 **Countability:** countable
@@ -1516,7 +1516,7 @@ The work of keeping and checking financial records.
 
 ### millionaire
 
-**Pronunciation:** /ˌmɪljəˈner/ &middot; *mil-yuh-NAIR*
+**Pronunciation:** /ˌmɪljəˈnɛr/ &middot; *mil-yuh-NAIR*
 **Русский:** миллионер
 **Plural:** *millionaires*
 **Countability:** countable
@@ -1593,7 +1593,7 @@ A maker's written promise to repair or replace a faulty product.
 
 ### guarantee
 
-**Pronunciation:** /ˌɡerənˈtiː/ &middot; *gair-uhn-TEE*
+**Pronunciation:** /ˌɡɛrənˈtiː/ &middot; *gair-uhn-TEE*
 **Русский:** гарантия, поручительство
 **Plural:** *guarantees*
 **Countability:** countable
@@ -1683,7 +1683,7 @@ The state of having very little money.
 
 ### benefit
 
-**Pronunciation:** /ˈbenəfɪt/ &middot; *BEN-uh-fit*
+**Pronunciation:** /ˈbɛnəfɪt/ &middot; *BEN-uh-fit*
 **Русский:** льгота, пособие
 **Plural:** *benefits*
 **Countability:** countable
@@ -1728,7 +1728,7 @@ Money or goods given to help a person or organization.
 
 ### charity
 
-**Pronunciation:** /ˈtʃerəti/ &middot; *CHAIR-uh-tee*
+**Pronunciation:** /ˈtʃɛrəti/ &middot; *CHAIR-uh-tee*
 **Русский:** благотворительная организация; благотворительность
 **Plural:** *charities*
 **Countability:** countable

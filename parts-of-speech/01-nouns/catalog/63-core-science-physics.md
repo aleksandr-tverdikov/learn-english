@@ -11,7 +11,7 @@ Where a word in this field *does* misbehave, it lives in the grammar tier instea
 ---
 ### acceleration
 
-**Pronunciation:** /əkˌseləˈreɪʃən/ &middot; *uhk-sel-uh-RAY-shuhn*
+**Pronunciation:** /əkˌsɛləˈreɪʃən/ &middot; *uhk-sel-uh-RAY-shuhn*
 **Русский:** ускорение
 **Countability:** uncountable
 
@@ -39,7 +39,7 @@ The act or state of moving.
 
 ### momentum
 
-**Pronunciation:** /moʊˈmentəm/ &middot; *moh-MEN-tuhm*
+**Pronunciation:** /moʊˈmɛntəm/ &middot; *moh-MEN-tuhm*
 **Русский:** импульс (количество движения)
 **Countability:** uncountable
 
@@ -81,7 +81,7 @@ The tendency of an object to keep doing whatever it is already doing.
 
 ### tension
 
-**Pronunciation:** /ˈtenʃən/ &middot; *TEN-shuhn*
+**Pronunciation:** /ˈtɛnʃən/ &middot; *TEN-shuhn*
 **Русский:** натяжение
 **Countability:** uncountable
 
@@ -109,7 +109,7 @@ The forward force produced by an engine or a rocket.
 
 ### compression
 
-**Pronunciation:** /kəmˈpreʃən/ &middot; *kuhm-PRESH-uhn*
+**Pronunciation:** /kəmˈprɛʃən/ &middot; *kuhm-PRESH-uhn*
 **Русский:** сжатие
 **Countability:** uncountable
 
@@ -181,7 +181,7 @@ The change of a liquid into a gas.
 
 ### condensation
 
-**Pronunciation:** /ˌkɑːndenˈseɪʃən/ &middot; *kahn-den-SAY-shuhn*
+**Pronunciation:** /ˌkɑːndɛnˈseɪʃən/ &middot; *kahn-den-SAY-shuhn*
 **Русский:** конденсация; конденсат
 **Countability:** uncountable
 
@@ -223,7 +223,7 @@ The process of getting smaller in size.
 
 ### convection
 
-**Pronunciation:** /kənˈvekʃən/ &middot; *kuhn-VEK-shuhn*
+**Pronunciation:** /kənˈvɛkʃən/ &middot; *kuhn-VEK-shuhn*
 **Русский:** конвекция
 **Countability:** uncountable
 
@@ -356,7 +356,7 @@ A fast shaking movement back and forth.
 
 ### reflection
 
-**Pronunciation:** /rɪˈflekʃən/ &middot; *rih-FLEK-shuhn*
+**Pronunciation:** /rɪˈflɛkʃən/ &middot; *rih-FLEK-shuhn*
 **Русский:** отражение
 **Plural:** *reflections*
 **Countability:** countable
@@ -503,7 +503,7 @@ A group of atoms joined together, the smallest piece of a compound.
 
 ### electron
 
-**Pronunciation:** /ɪˈlektrɑːn/ &middot; *ih-LEK-trahn*
+**Pronunciation:** /ɪˈlɛktrɑːn/ &middot; *ih-LEK-trahn*
 **Русский:** электрон
 **Plural:** *electrons*
 **Countability:** countable
@@ -699,7 +699,7 @@ A substance that speeds up a chemical reaction without being used up.
 
 ### enzyme
 
-**Pronunciation:** /ˈenzaɪm/ &middot; *EN-zym*
+**Pronunciation:** /ˈɛnzaɪm/ &middot; *EN-zym*
 **Русский:** фермент
 **Plural:** *enzymes*
 **Countability:** countable
@@ -1041,7 +1041,7 @@ The fine black powder left behind by smoke.
 
 ### residue
 
-**Pronunciation:** /ˈrezɪduː/ &middot; *REZ-ih-doo*
+**Pronunciation:** /ˈrɛzɪduː/ &middot; *REZ-ih-doo*
 **Русский:** остаток, налёт
 **Plural:** *residues*
 **Countability:** countable
@@ -1056,7 +1056,7 @@ A small amount of something left behind after a process.
 
 ### sediment
 
-**Pronunciation:** /ˈsedəmənt/ &middot; *SED-uh-muhnt*
+**Pronunciation:** /ˈsɛdəmənt/ &middot; *SED-uh-muhnt*
 **Русский:** осадок, отложения
 **Countability:** uncountable
 
@@ -1085,7 +1085,7 @@ An informal word for a laboratory.
 
 ### pipette
 
-**Pronunciation:** /paɪˈpet/ &middot; *py-PET*
+**Pronunciation:** /paɪˈpɛt/ &middot; *py-PET*
 **Русский:** пипетка (лабораторная)
 **Plural:** *pipettes*
 **Countability:** countable
@@ -1160,7 +1160,7 @@ A device that removes solid pieces or unwanted material from a liquid or gas.
 
 ### membrane
 
-**Pronunciation:** /ˈmembreɪn/ &middot; *MEM-brayn*
+**Pronunciation:** /ˈmɛmbreɪn/ &middot; *MEM-brayn*
 **Русский:** мембрана
 **Plural:** *membranes*
 **Countability:** countable
@@ -1190,7 +1190,7 @@ A thin instrument used to measure or examine something.
 
 ### detector
 
-**Pronunciation:** /dɪˈtektər/ &middot; *dih-TEK-tur*
+**Pronunciation:** /dɪˈtɛktər/ &middot; *dih-TEK-tur*
 **Русский:** детектор
 **Plural:** *detectors*
 **Countability:** countable
@@ -1205,7 +1205,7 @@ A device that finds the presence of something such as smoke or radiation.
 
 ### engine
 
-**Pronunciation:** /ˈendʒɪn/ &middot; *EN-jin*
+**Pronunciation:** /ˈɛndʒɪn/ &middot; *EN-jin*
 **Русский:** двигатель
 **Plural:** *engines*
 **Countability:** countable
@@ -1327,7 +1327,7 @@ A mathematical statement that two amounts are equal.
 
 ### method
 
-**Pronunciation:** /ˈmeθəd/ &middot; *METH-uhd*
+**Pronunciation:** /ˈmɛθəd/ &middot; *METH-uhd*
 **Русский:** метод
 **Plural:** *methods*
 **Countability:** countable
@@ -1357,7 +1357,7 @@ The set of steps you follow to do something correctly.
 
 ### technique
 
-**Pronunciation:** /tekˈniːk/ &middot; *tek-NEEK*
+**Pronunciation:** /tɛkˈniːk/ &middot; *tek-NEEK*
 **Русский:** техника, методика
 **Plural:** *techniques*
 **Countability:** countable
@@ -1373,7 +1373,7 @@ A particular skilled way of doing something.
 
 ### variable
 
-**Pronunciation:** /ˈveriəbəl/ &middot; *VAIR-ee-uh-buhl*
+**Pronunciation:** /ˈvɛriəbəl/ &middot; *VAIR-ee-uh-buhl*
 **Русский:** переменная
 **Plural:** *variables*
 **Countability:** countable
@@ -1404,7 +1404,7 @@ A drawing that shows how two sets of numbers are related.
 
 ### chemist
 
-**Pronunciation:** /ˈkeməst/ &middot; *KEM-uhst*
+**Pronunciation:** /ˈkɛməst/ &middot; *KEM-uhst*
 **Русский:** химик
 **Plural:** *chemists*
 **Countability:** countable

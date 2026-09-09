@@ -41,7 +41,7 @@ A small work area separated from the rest of an office by low walls.
 
 ### front desk
 
-**Pronunciation:** /ˈfrʌnt desk/ &middot; *FRUNT-desk*
+**Pronunciation:** /ˈfrʌnt dɛsk/ &middot; *FRUNT-desk*
 **Русский:** стойка регистрации, ресепшен
 **Plural:** *front desks*
 **Countability:** countable
@@ -56,7 +56,7 @@ The counter near the entrance where visitors check in.
 
 ### receptionist
 
-**Pronunciation:** /rɪˈsepʃənɪst/ &middot; *rih-SEP-shuh-nist*
+**Pronunciation:** /rɪˈsɛpʃənɪst/ &middot; *rih-SEP-shuh-nist*
 **Русский:** администратор, секретарь на ресепшене
 **Plural:** *receptionists*
 **Countability:** countable
@@ -224,7 +224,7 @@ A smooth white panel you write on with markers that wipe off.
 
 ### projector
 
-**Pronunciation:** /prəˈdʒektər/ &middot; *pruh-JEK-tur*
+**Pronunciation:** /prəˈdʒɛktər/ &middot; *pruh-JEK-tur*
 **Русский:** проектор
 **Plural:** *projectors*
 **Countability:** countable
@@ -314,7 +314,7 @@ A book of blank pages for writing notes in.
 
 ### pen
 
-**Pronunciation:** /pen/ &middot; *PEN*
+**Pronunciation:** /pɛn/ &middot; *PEN*
 **Русский:** ручка
 **Plural:** *pens*
 **Countability:** countable
@@ -329,7 +329,7 @@ A writing instrument that uses ink.
 
 ### pencil
 
-**Pronunciation:** /ˈpensəl/ &middot; *PEN-suhl*
+**Pronunciation:** /ˈpɛnsəl/ &middot; *PEN-suhl*
 **Русский:** карандаш
 **Plural:** *pencils*
 **Countability:** countable
@@ -360,7 +360,7 @@ A small piece of rubber or felt used to rub out writing.
 
 ### envelope
 
-**Pronunciation:** /ˈenvəloʊp/ &middot; *EN-vuh-lohp*
+**Pronunciation:** /ˈɛnvəloʊp/ &middot; *EN-vuh-lohp*
 **Русский:** конверт
 **Plural:** *envelopes*
 **Countability:** countable
@@ -391,7 +391,7 @@ A chart or program showing the days of the year and what is planned on them.
 
 ### stationery
 
-**Pronunciation:** /ˈsteɪʃəneri/ &middot; *STAY-shuh-ner-ee*
+**Pronunciation:** /ˈsteɪʃənɛri/ &middot; *STAY-shuh-ner-ee*
 **Русский:** канцелярские товары
 **Countability:** uncountable
 **Contrast:** Sounds exactly like *stationary* ('not moving'); the paper one ends in -ery.
@@ -452,7 +452,7 @@ A written account of work done or facts found out.
 
 ### presentation
 
-**Pronunciation:** /ˌprezənˈteɪʃən/ &middot; *prez-uhn-TAY-shuhn*
+**Pronunciation:** /ˌprɛzənˈteɪʃən/ &middot; *prez-uhn-TAY-shuhn*
 **Русский:** презентация
 **Plural:** *presentations*
 **Countability:** countable
@@ -467,7 +467,7 @@ A talk in which someone shows and explains information to a group.
 
 ### spreadsheet
 
-**Pronunciation:** /ˈspredʃiːt/ &middot; *SPRED-sheet*
+**Pronunciation:** /ˈsprɛdʃiːt/ &middot; *SPRED-sheet*
 **Русский:** электронная таблица
 **Plural:** *spreadsheets*
 **Countability:** countable
@@ -573,7 +573,7 @@ A set of questions asked of many people to collect opinions.
 
 ### template
 
-**Pronunciation:** /ˈtempleɪt/ &middot; *TEM-playt*
+**Pronunciation:** /ˈtɛmpleɪt/ &middot; *TEM-playt*
 **Русский:** шаблон
 **Plural:** *templates*
 **Countability:** countable
@@ -604,7 +604,7 @@ Your name written by hand to show you agree to something.
 
 ### resume
 
-**Pronunciation:** /ˈrezəmeɪ/ &middot; *REZ-uh-may*
+**Pronunciation:** /ˈrɛzəmeɪ/ &middot; *REZ-uh-may*
 **Русский:** резюме
 **Plural:** *resumes*
 **Countability:** countable
@@ -620,7 +620,7 @@ A short written summary of your work history, sent when applying for a job.
 
 ### cover letter
 
-**Pronunciation:** /ˈkʌvər ˌletər/ &middot; *KUH-vur-let-ur*
+**Pronunciation:** /ˈkʌvər ˌlɛtər/ &middot; *KUH-vur-let-ur*
 **Русский:** сопроводительное письмо
 **Plural:** *cover letters*
 **Countability:** countable
@@ -711,7 +711,7 @@ A conversation by phone or video, especially a work one.
 
 ### deadline
 
-**Pronunciation:** /ˈdedlaɪn/ &middot; *DED-lyn*
+**Pronunciation:** /ˈdɛdlaɪn/ &middot; *DED-lyn*
 **Русский:** крайний срок, дедлайн
 **Plural:** *deadlines*
 **Countability:** countable
@@ -726,7 +726,7 @@ The time by which something has to be finished.
 
 ### schedule
 
-**Pronunciation:** /ˈskedʒuːl/ &middot; *SKEJ-ool*
+**Pronunciation:** /ˈskɛdʒuːl/ &middot; *SKEJ-ool*
 **Русский:** расписание, график
 **Plural:** *schedules*
 **Countability:** countable
@@ -834,7 +834,7 @@ The job or function a person has on a team.
 
 ### profession
 
-**Pronunciation:** /prəˈfeʃən/ &middot; *pruh-FESH-uhn*
+**Pronunciation:** /prəˈfɛʃən/ &middot; *pruh-FESH-uhn*
 **Русский:** профессия
 **Plural:** *professions*
 **Countability:** countable
@@ -864,7 +864,7 @@ A move to a more senior job in the same organization.
 
 ### resignation
 
-**Pronunciation:** /ˌrezɪɡˈneɪʃən/ &middot; *rez-ig-NAY-shuhn*
+**Pronunciation:** /ˌrɛzɪɡˈneɪʃən/ &middot; *rez-ig-NAY-shuhn*
 **Русский:** заявление об уходе, отставка
 **Plural:** *resignations*
 **Countability:** countable
@@ -880,7 +880,7 @@ The act of formally quitting a job, or the letter announcing it.
 
 ### benefits
 
-**Pronunciation:** /ˈbenəfɪts/ &middot; *BEN-uh-fits*
+**Pronunciation:** /ˈbɛnəfɪts/ &middot; *BEN-uh-fits*
 **Русский:** соцпакет, льготы (от работодателя)
 **Plural:** *benefits*
 **Countability:** countable
@@ -1182,7 +1182,7 @@ The general mood and confidence of a group of people.
 
 ### personnel
 
-**Pronunciation:** /ˌpɜːrsəˈnel/ &middot; *pur-suh-NEL*
+**Pronunciation:** /ˌpɜːrsəˈnɛl/ &middot; *pur-suh-NEL*
 **Русский:** персонал, кадры
 **Countability:** uncountable
 **Contrast:** Stress falls on the last syllable, pur-suh-NEL — don't confuse it with *personal*.
@@ -1243,7 +1243,7 @@ A person or company hired to do a job without being an employee.
 
 ### project
 
-**Pronunciation:** /ˈprɑːdʒekt/ &middot; *PRAH-jekt*
+**Pronunciation:** /ˈprɑːdʒɛkt/ &middot; *PRAH-jekt*
 **Русский:** проект
 **Plural:** *projects*
 **Countability:** countable
@@ -1304,7 +1304,7 @@ Something you are required to do as part of a job.
 
 ### process
 
-**Pronunciation:** /ˈprɑːses/ &middot; *PRAH-sess*
+**Pronunciation:** /ˈprɑːsɛs/ &middot; *PRAH-sess*
 **Русский:** процесс, порядок действий
 **Plural:** *processes*
 **Countability:** countable
@@ -1453,7 +1453,7 @@ People working together effectively toward a shared goal.
 
 ### expertise
 
-**Pronunciation:** /ˌekspərˈtiːz/ &middot; *ek-spur-TEEZ*
+**Pronunciation:** /ˌɛkspərˈtiːz/ &middot; *ek-spur-TEEZ*
 **Русский:** компетентность, экспертные знания
 **Countability:** uncountable
 **Contrast:** Uncountable — never *expertises*.

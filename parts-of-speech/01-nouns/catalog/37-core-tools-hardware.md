@@ -177,7 +177,7 @@ A metal hand tool with a rough surface for smoothing metal or wood.
 
 ### sledgehammer
 
-**Pronunciation:** /ˈsledʒhæmər/ &middot; *SLEJ-ham-ur*
+**Pronunciation:** /ˈslɛdʒhæmər/ &middot; *SLEJ-ham-ur*
 **Русский:** кувалда
 **Plural:** *sledgehammers*
 **Countability:** countable
@@ -406,7 +406,7 @@ A toothed wheel that turns another one; also equipment for an activity.
 
 ### wedge
 
-**Pronunciation:** /wedʒ/ &middot; *WEJ*
+**Pronunciation:** /wɛdʒ/ &middot; *WEJ*
 **Русский:** клин
 **Plural:** *wedges*
 **Countability:** countable
@@ -481,7 +481,7 @@ A thick wire or bundle of wires inside a protective covering.
 
 ### extension cord
 
-**Pronunciation:** /ɪkˈstenʃən kɔːrd/ &middot; *ik-STEN-shun KORD*
+**Pronunciation:** /ɪkˈstɛnʃən kɔːrd/ &middot; *ik-STEN-shun KORD*
 **Русский:** удлинитель
 **Plural:** *extension cords*
 **Countability:** countable
@@ -719,7 +719,7 @@ A power tool with a spinning bit that cuts grooves and shaped edges in wood.
 
 ### generator
 
-**Pronunciation:** /ˈdʒenəreɪtər/ &middot; *JEN-uh-ray-tur*
+**Pronunciation:** /ˈdʒɛnəreɪtər/ &middot; *JEN-uh-ray-tur*
 **Русский:** генератор
 **Plural:** *generators*
 **Countability:** countable
@@ -780,7 +780,7 @@ A piece of equipment made for a specific purpose.
 
 ### workbench
 
-**Pronunciation:** /ˈwɜːrkbentʃ/ &middot; *WURK-bench*
+**Pronunciation:** /ˈwɜːrkbɛntʃ/ &middot; *WURK-bench*
 **Русский:** верстак
 **Plural:** *workbenches*
 **Countability:** countable
@@ -810,7 +810,7 @@ A room or building where things are made and repaired with tools.
 
 ### stepladder
 
-**Pronunciation:** /ˈsteplædər/ &middot; *STEP-lad-ur*
+**Pronunciation:** /ˈstɛplædər/ &middot; *STEP-lad-ur*
 **Русский:** стремянка
 **Plural:** *stepladders*
 **Countability:** countable
@@ -900,7 +900,7 @@ A small open cart with one wheel and two handles for moving loads.
 
 ### tape measure
 
-**Pronunciation:** /ˈteɪp meʒər/ &middot; *TAYP-mezh-ur*
+**Pronunciation:** /ˈteɪp mɛʒər/ &middot; *TAYP-mezh-ur*
 **Русский:** рулетка
 **Plural:** *tape measures*
 **Countability:** countable
@@ -930,7 +930,7 @@ A straight strip marked with units, used to measure and draw lines.
 
 ### level
 
-**Pronunciation:** /ˈlevəl/ &middot; *LEV-ul*
+**Pronunciation:** /ˈlɛvəl/ &middot; *LEV-ul*
 **Русский:** уровень (строительный)
 **Plural:** *levels*
 **Countability:** countable
@@ -1024,7 +1024,7 @@ A grooved wheel that a rope or belt runs over to lift or drive something.
 
 ### lever
 
-**Pronunciation:** /ˈlevər/ &middot; *LEV-ur*
+**Pronunciation:** /ˈlɛvər/ &middot; *LEV-ur*
 **Русский:** рычаг
 **Plural:** *levers*
 **Countability:** countable
@@ -1100,7 +1100,7 @@ A long thick flat piece of sawn wood.
 
 ### cement
 
-**Pronunciation:** /səˈment/ &middot; *suh-MENT*
+**Pronunciation:** /səˈmɛnt/ &middot; *suh-MENT*
 **Русский:** цемент
 **Countability:** uncountable
 **Contrast:** Stressed on the second syllable: suh-MENT.

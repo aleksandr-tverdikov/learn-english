@@ -163,7 +163,7 @@ A small breed of horse, short even when fully grown.
 
 ### mare
 
-**Pronunciation:** /mer/ &middot; *MAIR*
+**Pronunciation:** /mɛr/ &middot; *MAIR*
 **Русский:** кобыла
 **Plural:** *mares*
 **Countability:** countable
@@ -332,7 +332,7 @@ A small tailless pet rodent with a round body and short legs.
 
 ### ferret
 
-**Pronunciation:** /ˈferɪt/ &middot; *FAIR-it*
+**Pronunciation:** /ˈfɛrɪt/ &middot; *FAIR-it*
 **Русский:** хорёк
 **Plural:** *ferrets*
 **Countability:** countable
@@ -377,7 +377,7 @@ A rabbit, especially a young one — the affectionate everyday word.
 
 ### pet
 
-**Pronunciation:** /pet/ &middot; *PET*
+**Pronunciation:** /pɛt/ &middot; *PET*
 **Русский:** домашнее животное, питомец
 **Plural:** *pets*
 **Countability:** countable
@@ -422,7 +422,7 @@ Farm animals raised for food, work, or sale.
 
 ### bear
 
-**Pronunciation:** /ber/ &middot; *BAIR*
+**Pronunciation:** /bɛr/ &middot; *BAIR*
 **Русский:** медведь
 **Plural:** *bears*
 **Countability:** countable
@@ -483,7 +483,7 @@ A big striped wild cat from Asia.
 
 ### leopard
 
-**Pronunciation:** /ˈlepərd/ &middot; *LEP-urd*
+**Pronunciation:** /ˈlɛpərd/ &middot; *LEP-urd*
 **Русский:** леопард
 **Plural:** *leopards*
 **Countability:** countable
@@ -623,7 +623,7 @@ A small wild dog with a pointed face and a bushy tail.
 
 ### hare
 
-**Pronunciation:** /her/ &middot; *HAIR*
+**Pronunciation:** /hɛr/ &middot; *HAIR*
 **Русский:** заяц
 **Plural:** *hares*
 **Countability:** countable
@@ -639,7 +639,7 @@ A long-eared animal like a large rabbit, with longer legs and no burrow.
 
 ### elephant
 
-**Pronunciation:** /ˈeləfənt/ &middot; *EL-uh-fuhnt*
+**Pronunciation:** /ˈɛləfənt/ &middot; *EL-uh-fuhnt*
 **Русский:** слон
 **Plural:** *elephants*
 **Countability:** countable
@@ -686,7 +686,7 @@ An African animal like a horse, covered in black and white stripes.
 
 ### gazelle
 
-**Pronunciation:** /ɡəˈzel/ &middot; *guh-ZEL*
+**Pronunciation:** /ɡəˈzɛl/ &middot; *guh-ZEL*
 **Русский:** газель
 **Plural:** *gazelles*
 **Countability:** countable
@@ -1023,7 +1023,7 @@ A rodent covered in sharp quills.
 
 ### hedgehog
 
-**Pronunciation:** /ˈhedʒhɔːɡ/ &middot; *HEJ-hawg*
+**Pronunciation:** /ˈhɛdʒhɔːɡ/ &middot; *HEJ-hawg*
 **Русский:** ёж
 **Plural:** *hedgehogs*
 **Countability:** countable
@@ -1207,7 +1207,7 @@ A mammal that carries its young in a pouch.
 
 ### predator
 
-**Pronunciation:** /ˈpredətər/ &middot; *PRED-uh-tur*
+**Pronunciation:** /ˈprɛdətər/ &middot; *PRED-uh-tur*
 **Русский:** хищник
 **Plural:** *predators*
 **Countability:** countable
@@ -1466,7 +1466,7 @@ A hole or tunnel that an animal digs to live in.
 
 ### lair
 
-**Pronunciation:** /ler/ &middot; *LAIR*
+**Pronunciation:** /lɛr/ &middot; *LAIR*
 **Русский:** логово
 **Plural:** *lairs*
 **Countability:** countable
@@ -1482,7 +1482,7 @@ The resting place of a wild animal, especially a large predator.
 
 ### kennel
 
-**Pronunciation:** /ˈkenəl/ &middot; *KEN-uhl*
+**Pronunciation:** /ˈkɛnəl/ &middot; *KEN-uhl*
 **Русский:** конура; питомник
 **Plural:** *kennels*
 **Countability:** countable

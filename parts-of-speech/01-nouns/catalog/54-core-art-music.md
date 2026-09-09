@@ -26,7 +26,7 @@ A room or building where works of art are shown, often for sale.
 
 ### exhibition
 
-**Pronunciation:** /ˌeksəˈbɪʃən/ &middot; *ek-suh-BISH-uhn*
+**Pronunciation:** /ˌɛksəˈbɪʃən/ &middot; *ek-suh-BISH-uhn*
 **Русский:** выставка
 **Plural:** *exhibitions*
 **Countability:** countable
@@ -166,7 +166,7 @@ A painting, drawing, or photograph of a particular person.
 
 ### self-portrait
 
-**Pronunciation:** /ˌselfˈpɔːrtrət/ &middot; *self-POR-truht*
+**Pronunciation:** /ˌsɛlfˈpɔːrtrət/ &middot; *self-POR-truht*
 **Русский:** автопортрет
 **Plural:** *self-portraits*
 **Countability:** countable
@@ -228,7 +228,7 @@ A picture made by gluing paper, photographs, and other pieces onto a surface.
 
 ### sketch
 
-**Pronunciation:** /sketʃ/ &middot; *SKECH*
+**Pronunciation:** /skɛtʃ/ &middot; *SKECH*
 **Русский:** набросок, эскиз
 **Plural:** *sketches*
 **Countability:** countable
@@ -288,7 +288,7 @@ A copy of a picture made by a printing process rather than by hand.
 
 ### caricature
 
-**Pronunciation:** /ˈkerɪkətʃʊr/ &middot; *KER-ih-kuh-chur*
+**Pronunciation:** /ˈkɛrɪkətʃʊr/ &middot; *KER-ih-kuh-chur*
 **Русский:** шарж, карикатура
 **Plural:** *caricatures*
 **Countability:** countable
@@ -528,7 +528,7 @@ A painting made with paints that are mixed with water, or the paints themselves.
 
 ### pastel
 
-**Pronunciation:** /pæˈstel/ &middot; *pas-TEL*
+**Pronunciation:** /pæˈstɛl/ &middot; *pas-TEL*
 **Русский:** пастель
 **Plural:** *pastels*
 **Countability:** countable
@@ -574,7 +574,7 @@ A copy of a work of art or document made to be sold as the original.
 
 ### replica
 
-**Pronunciation:** /ˈreplɪkə/ &middot; *REP-lih-kuh*
+**Pronunciation:** /ˈrɛplɪkə/ &middot; *REP-lih-kuh*
 **Русский:** копия, реплика
 **Plural:** *replicas*
 **Countability:** countable
@@ -589,7 +589,7 @@ An exact copy of an object, made openly rather than to deceive.
 
 ### restoration
 
-**Pronunciation:** /ˌrestəˈreɪʃən/ &middot; *res-tuh-RAY-shuhn*
+**Pronunciation:** /ˌrɛstəˈreɪʃən/ &middot; *res-tuh-RAY-shuhn*
 **Русский:** реставрация
 **Countability:** uncountable
 
@@ -618,7 +618,7 @@ The way the parts of a picture or piece of music are arranged, or a work itself.
 
 ### perspective
 
-**Pronunciation:** /pərˈspektɪv/ &middot; *pur-SPEK-tiv*
+**Pronunciation:** /pərˈspɛktɪv/ &middot; *pur-SPEK-tiv*
 **Русский:** перспектива (в рисунке)
 **Countability:** uncountable
 
@@ -677,7 +677,7 @@ The part of a picture that seems farthest from the viewer.
 
 ### silhouette
 
-**Pronunciation:** /ˌsɪluˈet/ &middot; *sil-oo-ET*
+**Pronunciation:** /ˌsɪluˈɛt/ &middot; *sil-oo-ET*
 **Русский:** силуэт
 **Plural:** *silhouettes*
 **Countability:** countable
@@ -812,7 +812,7 @@ A picture made with a camera.
 
 ### impressionism
 
-**Pronunciation:** /ɪmˈpreʃənɪzəm/ &middot; *im-PRESH-uh-niz-uhm*
+**Pronunciation:** /ɪmˈprɛʃənɪzəm/ &middot; *im-PRESH-uh-niz-uhm*
 **Русский:** импрессионизм
 **Countability:** uncountable
 
@@ -935,7 +935,7 @@ A metal wind instrument held sideways and blown across a hole.
 
 ### clarinet
 
-**Pronunciation:** /ˌklerəˈnet/ &middot; *kler-uh-NET*
+**Pronunciation:** /ˌklɛrəˈnɛt/ &middot; *kler-uh-NET*
 **Русский:** кларнет
 **Plural:** *clarinets*
 **Countability:** countable
@@ -1166,7 +1166,7 @@ An electronic keyboard instrument that produces and shapes sounds.
 
 ### pedal
 
-**Pronunciation:** /ˈpedəl/ &middot; *PED-uhl*
+**Pronunciation:** /ˈpɛdəl/ &middot; *PED-uhl*
 **Русский:** педаль
 **Plural:** *pedals*
 **Countability:** countable
@@ -1242,7 +1242,7 @@ The part of a sound system that the sound comes out of.
 
 ### metronome
 
-**Pronunciation:** /ˈmetrənoʊm/ &middot; *MET-ruh-nohm*
+**Pronunciation:** /ˈmɛtrənoʊm/ &middot; *MET-ruh-nohm*
 **Русский:** метроном
 **Plural:** *metronomes*
 **Countability:** countable
@@ -1289,7 +1289,7 @@ Very small headphones that sit inside the opening of the ears.
 
 ### melody
 
-**Pronunciation:** /ˈmelədi/ &middot; *MEL-uh-dee*
+**Pronunciation:** /ˈmɛlədi/ &middot; *MEL-uh-dee*
 **Русский:** мелодия
 **Plural:** *melodies*
 **Countability:** countable
@@ -1397,7 +1397,7 @@ The distance between one note and the next note of the same name above it.
 
 ### clef
 
-**Pronunciation:** /klef/ &middot; *KLEF*
+**Pronunciation:** /klɛf/ &middot; *KLEF*
 **Русский:** ключ (нотный)
 **Plural:** *clefs*
 **Countability:** countable
@@ -1517,7 +1517,7 @@ A musician or singer who performs alone in front of a group.
 
 ### duet
 
-**Pronunciation:** /duˈet/ &middot; *doo-ET*
+**Pronunciation:** /duˈɛt/ &middot; *doo-ET*
 **Русский:** дуэт
 **Plural:** *duets*
 **Countability:** countable
@@ -1532,7 +1532,7 @@ A piece of music for two performers.
 
 ### quartet
 
-**Pronunciation:** /kwɔːrˈtet/ &middot; *kwor-TET*
+**Pronunciation:** /kwɔːrˈtɛt/ &middot; *kwor-TET*
 **Русский:** квартет
 **Plural:** *quartets*
 **Countability:** countable
@@ -1715,7 +1715,7 @@ A single paid performance by a musician or band.
 
 ### venue
 
-**Pronunciation:** /ˈvenjuː/ &middot; *VEN-yoo*
+**Pronunciation:** /ˈvɛnjuː/ &middot; *VEN-yoo*
 **Русский:** площадка, место проведения
 **Plural:** *venues*
 **Countability:** countable
@@ -1791,7 +1791,7 @@ A short performance given to see whether someone is good enough for a part.
 
 ### repertoire
 
-**Pronunciation:** /ˈrepərtwɑːr/ &middot; *REP-ur-twar*
+**Pronunciation:** /ˈrɛpərtwɑːr/ &middot; *REP-ur-twar*
 **Русский:** репертуар
 **Plural:** *repertoires*
 **Countability:** countable
@@ -1928,7 +1928,7 @@ A religious song sung by a congregation in church.
 
 ### carol
 
-**Pronunciation:** /ˈkerəl/ &middot; *KER-uhl*
+**Pronunciation:** /ˈkɛrəl/ &middot; *KER-uhl*
 **Русский:** рождественская песня
 **Plural:** *carols*
 **Countability:** countable
@@ -2002,7 +2002,7 @@ A slow, sad style of American music that grew out of the rural South.
 
 ### record
 
-**Pronunciation:** /ˈrekərd/ &middot; *REK-urd*
+**Pronunciation:** /ˈrɛkərd/ &middot; *REK-urd*
 **Русский:** пластинка; запись
 **Plural:** *records*
 **Countability:** countable
@@ -2108,7 +2108,7 @@ A musician who plays the violin.
 
 ### crescendo
 
-**Pronunciation:** /krəˈʃendoʊ/ &middot; *kruh-SHEN-doh*
+**Pronunciation:** /krəˈʃɛndoʊ/ &middot; *kruh-SHEN-doh*
 **Русский:** крещендо (нарастание звука)
 **Plural:** *crescendos*
 **Countability:** countable
@@ -2154,7 +2154,7 @@ The lower female singing voice, or a singer with that voice.
 
 ### tenor
 
-**Pronunciation:** /ˈtenər/ &middot; *TEN-ur*
+**Pronunciation:** /ˈtɛnər/ &middot; *TEN-ur*
 **Русский:** тенор
 **Plural:** *tenors*
 **Countability:** countable

@@ -11,7 +11,7 @@ Where a word in this field *does* misbehave, it lives in the grammar tier instea
 ---
 ### chair
 
-**Pronunciation:** /tʃer/ &middot; *CHAIR*
+**Pronunciation:** /tʃɛr/ &middot; *CHAIR*
 **Русский:** стул; кресло
 **Plural:** *chairs*
 **Countability:** countable
@@ -56,7 +56,7 @@ A low table placed in front of a sofa.
 
 ### desk
 
-**Pronunciation:** /desk/ &middot; *DESK*
+**Pronunciation:** /dɛsk/ &middot; *DESK*
 **Русский:** письменный стол; парта
 **Plural:** *desks*
 **Countability:** countable
@@ -101,7 +101,7 @@ A sofa; the usual everyday word for one in American homes.
 
 ### armchair
 
-**Pronunciation:** /ˈɑːrmtʃer/ &middot; *ARM-chair*
+**Pronunciation:** /ˈɑːrmtʃɛr/ &middot; *ARM-chair*
 **Русский:** кресло
 **Plural:** *armchairs*
 **Countability:** countable
@@ -116,7 +116,7 @@ A comfortable chair with supports for the arms.
 
 ### rocking chair
 
-**Pronunciation:** /ˈrɑːkɪŋ tʃer/ &middot; *RAH-king CHAIR*
+**Pronunciation:** /ˈrɑːkɪŋ tʃɛr/ &middot; *RAH-king CHAIR*
 **Русский:** кресло-качалка
 **Plural:** *rocking chairs*
 **Countability:** countable
@@ -146,7 +146,7 @@ A backless seat, often tall enough for a counter or bar.
 
 ### bench
 
-**Pronunciation:** /bentʃ/ &middot; *BENCH*
+**Pronunciation:** /bɛntʃ/ &middot; *BENCH*
 **Русский:** скамейка, лавка
 **Plural:** *benches*
 **Countability:** countable
@@ -236,7 +236,7 @@ A soft padded bag used to sit on or lean against.
 
 ### highchair
 
-**Pronunciation:** /ˈhaɪtʃer/ &middot; *HY-chair*
+**Pronunciation:** /ˈhaɪtʃɛr/ &middot; *HY-chair*
 **Русский:** детский стульчик для кормления
 **Plural:** *highchairs*
 **Countability:** countable
@@ -267,7 +267,7 @@ A narrow table that stands against a wall.
 
 ### bed
 
-**Pronunciation:** /bed/ &middot; *BED*
+**Pronunciation:** /bɛd/ &middot; *BED*
 **Русский:** кровать, постель
 **Plural:** *beds*
 **Countability:** countable
@@ -297,7 +297,7 @@ The thick padded pad you lie on, resting on a bed frame.
 
 ### headboard
 
-**Pronunciation:** /ˈhedbɔːrd/ &middot; *HED-bord*
+**Pronunciation:** /ˈhɛdbɔːrd/ &middot; *HED-bord*
 **Русский:** изголовье кровати, спинка кровати
 **Plural:** *headboards*
 **Countability:** countable
@@ -312,7 +312,7 @@ The upright panel at the head end of a bed.
 
 ### bunk bed
 
-**Pronunciation:** /ˈbʌŋk bed/ &middot; *BUNGK BED*
+**Pronunciation:** /ˈbʌŋk bɛd/ &middot; *BUNGK BED*
 **Русский:** двухъярусная кровать
 **Plural:** *bunk beds*
 **Countability:** countable
@@ -420,7 +420,7 @@ A small table next to a bed.
 
 ### dresser
 
-**Pronunciation:** /ˈdresər/ &middot; *DRES-ur*
+**Pronunciation:** /ˈdrɛsər/ &middot; *DRES-ur*
 **Русский:** комод
 **Plural:** *dressers*
 **Countability:** countable
@@ -576,7 +576,7 @@ A soft quilt filled with down, used with a removable cover.
 
 ### bedspread
 
-**Pronunciation:** /ˈbedspred/ &middot; *BED-spred*
+**Pronunciation:** /ˈbɛdsprɛd/ &middot; *BED-spred*
 **Русский:** покрывало
 **Plural:** *bedspreads*
 **Countability:** countable
@@ -591,7 +591,7 @@ A decorative cover laid over a made bed.
 
 ### bedding
 
-**Pronunciation:** /ˈbedɪŋ/ &middot; *BED-ing*
+**Pronunciation:** /ˈbɛdɪŋ/ &middot; *BED-ing*
 **Русский:** постельные принадлежности
 **Countability:** uncountable
 **Contrast:** Uncountable: *some bedding*, *a lot of bedding* — never *a bedding* or *beddings*.
@@ -680,7 +680,7 @@ A long low cabinet in a dining room for dishes and linens.
 
 ### shelving
 
-**Pronunciation:** /ˈʃelvɪŋ/ &middot; *SHEL-ving*
+**Pronunciation:** /ˈʃɛlvɪŋ/ &middot; *SHEL-ving*
 **Русский:** стеллажи, полки
 **Countability:** uncountable
 **Contrast:** Uncountable, unlike the countable *shelf*: *a lot of shelving*, never *a shelving*.
@@ -1141,7 +1141,7 @@ A small decorative object, especially one hung on a Christmas tree.
 
 ### decoration
 
-**Pronunciation:** /ˌdekəˈreɪʃən/ &middot; *dek-uh-RAY-shuhn*
+**Pronunciation:** /ˌdɛkəˈreɪʃən/ &middot; *dek-uh-RAY-shuhn*
 **Русский:** украшение; оформление
 **Plural:** *decorations*
 **Countability:** both — countable and uncountable with different meanings
@@ -1249,7 +1249,7 @@ A pointed metal fastener with a spiral thread, turned with a screwdriver.
 
 ### hardware
 
-**Pronunciation:** /ˈhɑːrdwer/ &middot; *HARD-wair*
+**Pronunciation:** /ˈhɑːrdwɛr/ &middot; *HARD-wair*
 **Русский:** фурнитура, скобяные изделия
 **Countability:** uncountable
 **Contrast:** Uncountable: *some hardware*, *a piece of hardware* — never *a hardware* or *hardwares*.

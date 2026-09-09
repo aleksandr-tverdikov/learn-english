@@ -11,7 +11,7 @@ Where a word in this field *does* misbehave, it lives in the grammar tier instea
 ---
 ### insect
 
-**Pronunciation:** /ˈɪnsekt/ &middot; *IN-sekt*
+**Pronunciation:** /ˈɪnsɛkt/ &middot; *IN-sekt*
 **Русский:** насекомое
 **Plural:** *insects*
 **Countability:** countable
@@ -42,7 +42,7 @@ Any small crawling or flying insect, in everyday speech.
 
 ### pest
 
-**Pronunciation:** /pest/ &middot; *PEST*
+**Pronunciation:** /pɛst/ &middot; *PEST*
 **Русский:** вредитель
 **Plural:** *pests*
 **Countability:** countable
@@ -72,7 +72,7 @@ Small harmful animals such as rats, mice, and lice, taken as a group.
 
 ### parasite
 
-**Pronunciation:** /ˈperəsaɪt/ &middot; *PEHR-uh-syt*
+**Pronunciation:** /ˈpɛrəsaɪt/ &middot; *PEHR-uh-syt*
 **Русский:** паразит
 **Plural:** *parasites*
 **Countability:** countable
@@ -300,7 +300,7 @@ A large aggressive wasp with a powerful sting.
 
 ### yellow jacket
 
-**Pronunciation:** /ˈjeloʊ ˌdʒækɪt/ &middot; *YEL-oh-jak-it*
+**Pronunciation:** /ˈjɛloʊ ˌdʒækɪt/ &middot; *YEL-oh-jak-it*
 **Русский:** оса (жёлто-чёрная)
 **Plural:** *yellow jackets*
 **Countability:** countable
@@ -793,7 +793,7 @@ A small wingless gray insect that lives in damp places like bathrooms.
 
 ### bedbug
 
-**Pronunciation:** /ˈbedbʌɡ/ &middot; *BED-bug*
+**Pronunciation:** /ˈbɛdbʌɡ/ &middot; *BED-bug*
 **Русский:** постельный клоп
 **Plural:** *bedbugs*
 **Countability:** countable
@@ -871,7 +871,7 @@ A microscopic relative of the tick that lives in dust, bedding, or on plants.
 
 ### exoskeleton
 
-**Pronunciation:** /ˌeksoʊˈskelətən/ &middot; *ek-soh-SKEL-uh-tuhn*
+**Pronunciation:** /ˌɛksoʊˈskɛlətən/ &middot; *ek-soh-SKEL-uh-tuhn*
 **Русский:** наружный скелет, экзоскелет
 **Plural:** *exoskeletons*
 **Countability:** countable
@@ -918,7 +918,7 @@ A creature with eight legs that spins webs and catches insects.
 
 ### web
 
-**Pronunciation:** /web/ &middot; *WEB*
+**Pronunciation:** /wɛb/ &middot; *WEB*
 **Русский:** паутина
 **Plural:** *webs*
 **Countability:** countable
@@ -933,7 +933,7 @@ The net of silk threads a spider spins to catch prey.
 
 ### spiderweb
 
-**Pronunciation:** /ˈspaɪdərweb/ &middot; *SPY-dur-web*
+**Pronunciation:** /ˈspaɪdərwɛb/ &middot; *SPY-dur-web*
 **Русский:** паутина
 **Plural:** *spiderwebs*
 **Countability:** countable
@@ -949,7 +949,7 @@ A spider's web, especially a large or noticeable one.
 
 ### cobweb
 
-**Pronunciation:** /ˈkɑːbweb/ &middot; *KAHB-web*
+**Pronunciation:** /ˈkɑːbwɛb/ &middot; *KAHB-web*
 **Русский:** паутина (старая, пыльная)
 **Plural:** *cobwebs*
 **Countability:** countable
@@ -1073,7 +1073,7 @@ A slow-moving creature that carries a coiled shell on its back.
 
 ### centipede
 
-**Pronunciation:** /ˈsentɪpiːd/ &middot; *SEN-tuh-peed*
+**Pronunciation:** /ˈsɛntɪpiːd/ &middot; *SEN-tuh-peed*
 **Русский:** сколопендра, многоножка
 **Plural:** *centipedes*
 **Countability:** countable
@@ -1119,7 +1119,7 @@ A flat worm that attaches to skin and sucks blood.
 
 ### infestation
 
-**Pronunciation:** /ˌɪnfeˈsteɪʃən/ &middot; *in-fes-TAY-shuhn*
+**Pronunciation:** /ˌɪnfɛˈsteɪʃən/ &middot; *in-fes-TAY-shuhn*
 **Русский:** заражение вредителями, нашествие
 **Plural:** *infestations*
 **Countability:** countable
@@ -1149,7 +1149,7 @@ Someone whose job is to kill insects and other pests in buildings.
 
 ### insecticide
 
-**Pronunciation:** /ɪnˈsektɪsaɪd/ &middot; *in-SEK-tuh-syd*
+**Pronunciation:** /ɪnˈsɛktɪsaɪd/ &middot; *in-SEK-tuh-syd*
 **Русский:** инсектицид
 **Plural:** *insecticides*
 **Countability:** countable, and uncountable as a substance
@@ -1164,7 +1164,7 @@ A chemical made specifically to kill insects.
 
 ### reptile
 
-**Pronunciation:** /ˈreptaɪl/ &middot; *REP-tyl*
+**Pronunciation:** /ˈrɛptaɪl/ &middot; *REP-tyl*
 **Русский:** рептилия, пресмыкающееся
 **Plural:** *reptiles*
 **Countability:** countable
@@ -1224,7 +1224,7 @@ A small scaly reptile with four legs and a long tail.
 
 ### gecko
 
-**Pronunciation:** /ˈɡekoʊ/ &middot; *GEK-oh*
+**Pronunciation:** /ˈɡɛkoʊ/ &middot; *GEK-oh*
 **Русский:** геккон
 **Plural:** *geckos*
 **Countability:** countable
@@ -1440,7 +1440,7 @@ A very large South American snake that lives in and near water.
 
 ### copperhead
 
-**Pronunciation:** /ˈkɑːpərhed/ &middot; *KAH-pur-hed*
+**Pronunciation:** /ˈkɑːpərhɛd/ &middot; *KAH-pur-hed*
 **Русский:** щитомордник (американский)
 **Plural:** *copperheads*
 **Countability:** countable
@@ -1471,7 +1471,7 @@ A small striped harmless snake common in North American yards.
 
 ### venom
 
-**Pronunciation:** /ˈvenəm/ &middot; *VEN-uhm*
+**Pronunciation:** /ˈvɛnəm/ &middot; *VEN-uhm*
 **Русский:** яд (змеиный, паучий)
 **Countability:** uncountable
 **Contrast:** Venom is injected by a bite or sting, so the animal is venomous; poison is swallowed or absorbed, so a poisonous mushroom is a different idea entirely.
@@ -1486,7 +1486,7 @@ The poison that a snake, spider, or scorpion injects with a bite or sting.
 
 ### antivenom
 
-**Pronunciation:** /ˌæntiˈvenəm/ &middot; *an-tee-VEN-uhm*
+**Pronunciation:** /ˌæntiˈvɛnəm/ &middot; *an-tee-VEN-uhm*
 **Русский:** противоядие от змеиного яда, антидот
 **Plural:** *antivenoms*
 **Countability:** countable, and uncountable as a substance
@@ -1624,7 +1624,7 @@ A slender amphibian with smooth moist skin and a long tail.
 
 ### repellent
 
-**Pronunciation:** /rɪˈpelənt/ &middot; *rih-PEL-uhnt*
+**Pronunciation:** /rɪˈpɛlənt/ &middot; *rih-PEL-uhnt*
 **Русский:** репеллент, средство от насекомых
 **Plural:** *repellents*
 **Countability:** countable, and uncountable as a substance
@@ -1654,7 +1654,7 @@ The everyday American name for insect repellent or insect killer in a can.
 
 ### terrarium
 
-**Pronunciation:** /təˈreriəm/ &middot; *tuh-REH-ree-uhm*
+**Pronunciation:** /təˈrɛriəm/ &middot; *tuh-REH-ree-uhm*
 **Русский:** террариум
 **Plural:** *terrariums*
 **Countability:** countable
@@ -1698,7 +1698,7 @@ The deep winter sleep some animals fall into to survive the cold.
 
 ### entomologist
 
-**Pronunciation:** /ˌentəˈmɑːlədʒɪst/ &middot; *en-tuh-MAH-luh-jist*
+**Pronunciation:** /ˌɛntəˈmɑːlədʒɪst/ &middot; *en-tuh-MAH-luh-jist*
 **Русский:** энтомолог
 **Plural:** *entomologists*
 **Countability:** countable

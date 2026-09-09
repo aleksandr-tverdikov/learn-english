@@ -131,7 +131,7 @@ A flower, especially on a plant grown for its flowers.
 
 ### petal
 
-**Pronunciation:** /ˈpetəl/ &middot; *PET-uhl*
+**Pronunciation:** /ˈpɛtəl/ &middot; *PET-uhl*
 **Русский:** лепесток
 **Plural:** *petals*
 **Countability:** countable
@@ -146,7 +146,7 @@ One of the colored parts that make up a flower.
 
 ### nectar
 
-**Pronunciation:** /ˈnektər/ &middot; *NEK-tur*
+**Pronunciation:** /ˈnɛktər/ &middot; *NEK-tur*
 **Русский:** нектар
 **Countability:** uncountable
 
@@ -352,7 +352,7 @@ A woody plant smaller than a tree, with several stems coming from the ground.
 
 ### evergreen
 
-**Pronunciation:** /ˈevərɡriːn/ &middot; *EV-ur-green*
+**Pronunciation:** /ˈɛvərɡriːn/ &middot; *EV-ur-green*
 **Русский:** вечнозелёное растение, хвойное дерево
 **Plural:** *evergreens*
 **Countability:** countable
@@ -455,7 +455,7 @@ A container, usually round, for growing a plant in.
 
 ### flower bed
 
-**Pronunciation:** /ˈflaʊrr bed/ &middot; *FLOW-ur bed*
+**Pronunciation:** /ˈflaʊrr bɛd/ &middot; *FLOW-ur bed*
 **Русский:** клумба
 **Plural:** *flower beds*
 **Countability:** countable
@@ -528,7 +528,7 @@ Animal waste spread on land to make the soil richer.
 
 ### pesticide
 
-**Pronunciation:** /ˈpestɪsaɪd/ &middot; *PES-tuh-syde*
+**Pronunciation:** /ˈpɛstɪsaɪd/ &middot; *PES-tuh-syde*
 **Русский:** пестицид, ядохимикат
 **Plural:** *pesticides*
 **Countability:** countable
@@ -677,7 +677,7 @@ A tree with long thin hanging branches, usually growing near water.
 
 ### elm
 
-**Pronunciation:** /elm/ &middot; *ELM*
+**Pronunciation:** /ɛlm/ &middot; *ELM*
 **Русский:** вяз
 **Plural:** *elms*
 **Countability:** countable

@@ -240,7 +240,7 @@ A very large rock, especially one that has been moved by water or ice.
 
 ### pebble
 
-**Pronunciation:** /ˈpebəl/ &middot; *PEB-uhl*
+**Pronunciation:** /ˈpɛbəl/ &middot; *PEB-uhl*
 **Русский:** галька, камешек
 **Plural:** *pebbles*
 **Countability:** countable
@@ -434,7 +434,7 @@ A large area of flat land with few trees.
 
 ### prairie
 
-**Pronunciation:** /ˈpreri/ &middot; *PRAIR-ee*
+**Pronunciation:** /ˈprɛri/ &middot; *PRAIR-ee*
 **Русский:** прерия, степь
 **Plural:** *prairies*
 **Countability:** countable
@@ -449,7 +449,7 @@ A wide area of flat grassland in North America.
 
 ### desert
 
-**Pronunciation:** /ˈdezərt/ &middot; *DEZ-urt*
+**Pronunciation:** /ˈdɛzərt/ &middot; *DEZ-urt*
 **Русский:** пустыня
 **Plural:** *deserts*
 **Countability:** countable
@@ -509,7 +509,7 @@ An open piece of land, usually used for growing crops or keeping animals.
 
 ### meadow
 
-**Pronunciation:** /ˈmedoʊ/ &middot; *MED-oh*
+**Pronunciation:** /ˈmɛdoʊ/ &middot; *MED-oh*
 **Русский:** луг
 **Plural:** *meadows*
 **Countability:** countable
@@ -873,7 +873,7 @@ A long, narrow channel dug to carry water or boats.
 
 ### reservoir
 
-**Pronunciation:** /ˈrezərvwɑːr/ &middot; *REZ-ur-vwahr*
+**Pronunciation:** /ˈrɛzərvwɑːr/ &middot; *REZ-ur-vwahr*
 **Русский:** водохранилище
 **Plural:** *reservoirs*
 **Countability:** countable
@@ -904,7 +904,7 @@ The whole area of land that drains into a particular river, or a wide hollow in 
 
 ### tributary
 
-**Pronunciation:** /ˈtrɪbjəteri/ &middot; *TRIB-yuh-teh-ree*
+**Pronunciation:** /ˈtrɪbjətɛri/ &middot; *TRIB-yuh-teh-ree*
 **Русский:** приток (реки)
 **Plural:** *tributaries*
 **Countability:** countable
@@ -980,7 +980,7 @@ A small sheltered bay.
 
 ### inlet
 
-**Pronunciation:** /ˈɪnlet/ &middot; *IN-let*
+**Pronunciation:** /ˈɪnlɛt/ &middot; *IN-let*
 **Русский:** узкий залив, бухта
 **Plural:** *inlets*
 **Countability:** countable
@@ -1103,7 +1103,7 @@ The land along the side of a river or lake.
 
 ### delta
 
-**Pronunciation:** /ˈdeltə/ &middot; *DEL-tuh*
+**Pronunciation:** /ˈdɛltə/ &middot; *DEL-tuh*
 **Русский:** дельта (реки)
 **Plural:** *deltas*
 **Countability:** countable
@@ -1118,7 +1118,7 @@ The flat, fan-shaped area of land where a river splits before entering the sea.
 
 ### estuary
 
-**Pronunciation:** /ˈestʃueri/ &middot; *ES-choo-eh-ree*
+**Pronunciation:** /ˈɛstʃuɛri/ &middot; *ES-choo-eh-ree*
 **Русский:** эстуарий, устье реки
 **Plural:** *estuaries*
 **Countability:** countable
@@ -1241,7 +1241,7 @@ A hard substance formed in warm seas by tiny animals, often brightly colored.
 
 ### shell
 
-**Pronunciation:** /ʃel/ &middot; *SHEL*
+**Pronunciation:** /ʃɛl/ &middot; *SHEL*
 **Русский:** раковина, ракушка
 **Plural:** *shells*
 **Countability:** countable
@@ -1256,7 +1256,7 @@ The hard outer covering of a sea creature such as a clam or a snail.
 
 ### wetland
 
-**Pronunciation:** /ˈwetlænd/ &middot; *WET-land*
+**Pronunciation:** /ˈwɛtlænd/ &middot; *WET-land*
 **Русский:** заболоченные земли, водно-болотные угодья
 **Plural:** *wetlands*
 **Countability:** countable
@@ -1663,7 +1663,7 @@ The time in the morning when the sun appears above the horizon.
 
 ### sunset
 
-**Pronunciation:** /ˈsʌnset/ &middot; *SUN-set*
+**Pronunciation:** /ˈsʌnsɛt/ &middot; *SUN-set*
 **Русский:** закат, заход солнца
 **Plural:** *sunsets*
 **Countability:** countable

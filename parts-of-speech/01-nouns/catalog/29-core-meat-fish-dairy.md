@@ -55,7 +55,7 @@ The meat of a fully grown sheep.
 
 ### venison
 
-**Pronunciation:** /ˈvenəsən/ &middot; *VEH-nuh-suhn*
+**Pronunciation:** /ˈvɛnəsən/ &middot; *VEH-nuh-suhn*
 **Русский:** оленина
 **Countability:** uncountable
 
@@ -248,7 +248,7 @@ A cut of beef from the back, between the ribs and the rump.
 
 ### tenderloin
 
-**Pronunciation:** /ˈtendərlɔɪn/ &middot; *TEN-dur-loyn*
+**Pronunciation:** /ˈtɛndərlɔɪn/ &middot; *TEN-dur-loyn*
 **Русский:** вырезка
 **Plural:** *tenderloins*
 **Countability:** countable, and uncountable as food
@@ -489,7 +489,7 @@ A hard, spiced, dry-cured sausage eaten in thin slices.
 
 ### pepperoni
 
-**Pronunciation:** /ˌpepəˈroʊni/ &middot; *peh-puh-ROH-nee*
+**Pronunciation:** /ˌpɛpəˈroʊni/ &middot; *peh-puh-ROH-nee*
 **Русский:** пепперони
 **Countability:** uncountable
 
@@ -621,7 +621,7 @@ A small long-eared animal, or its lean pale meat.
 
 ### shellfish
 
-**Pronunciation:** /ˈʃelfɪʃ/ &middot; *SHEL-fish*
+**Pronunciation:** /ˈʃɛlfɪʃ/ &middot; *SHEL-fish*
 **Русский:** моллюски и ракообразные
 **Plural:** *shellfish*
 **Countability:** countable
@@ -1019,7 +1019,7 @@ The watery liquid left when milk separates into curds.
 
 ### mozzarella
 
-**Pronunciation:** /ˌmɑːtsəˈrelə/ &middot; *mah-tsuh-REH-luh*
+**Pronunciation:** /ˌmɑːtsəˈrɛlə/ &middot; *mah-tsuh-REH-luh*
 **Русский:** моцарелла
 **Countability:** uncountable
 **Contrast:** The zz is a ts sound — mah-tsuh-REH-luh, not "moz-uh-REL-uh".
@@ -1048,7 +1048,7 @@ A soft, mild, grainy white cheese made from whey.
 
 ### feta
 
-**Pronunciation:** /ˈfetə/ &middot; *FEH-tuh*
+**Pronunciation:** /ˈfɛtə/ &middot; *FEH-tuh*
 **Русский:** фета (сыр)
 **Countability:** uncountable
 
@@ -1279,7 +1279,7 @@ The round yellow center of an egg.
 
 ### egg white
 
-**Pronunciation:** /ˈeɡ waɪt/ &middot; *EG-wite*
+**Pronunciation:** /ˈɛɡ waɪt/ &middot; *EG-wite*
 **Русский:** яичный белок
 **Plural:** *egg whites*
 **Countability:** countable
@@ -1294,7 +1294,7 @@ The clear part of an egg that turns white when cooked.
 
 ### eggshell
 
-**Pronunciation:** /ˈeɡʃel/ &middot; *EG-shel*
+**Pronunciation:** /ˈɛɡʃɛl/ &middot; *EG-shel*
 **Русский:** яичная скорлупа
 **Plural:** *eggshells*
 **Countability:** countable

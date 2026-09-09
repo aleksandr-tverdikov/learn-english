@@ -210,7 +210,7 @@ A circular band of metal worn on a finger.
 
 ### necklace
 
-**Pronunciation:** /ˈnekləs/ &middot; *NEK-lus*
+**Pronunciation:** /ˈnɛkləs/ &middot; *NEK-lus*
 **Русский:** ожерелье, цепочка
 **Plural:** *necklaces*
 **Countability:** countable
@@ -256,7 +256,7 @@ A piece of jewelry worn in or on the ear.
 
 ### pendant
 
-**Pronunciation:** /ˈpendənt/ &middot; *PEN-dunt*
+**Pronunciation:** /ˈpɛndənt/ &middot; *PEN-dunt*
 **Русский:** кулон, подвеска
 **Plural:** *pendants*
 **Countability:** countable
@@ -332,7 +332,7 @@ A small ball with a hole through it, strung to make jewelry.
 
 ### gem
 
-**Pronunciation:** /dʒem/ &middot; *JEM*
+**Pronunciation:** /dʒɛm/ &middot; *JEM*
 **Русский:** драгоценный камень, самоцвет
 **Plural:** *gems*
 **Countability:** countable
@@ -409,7 +409,7 @@ A deep red precious stone.
 
 ### emerald
 
-**Pronunciation:** /ˈemərəld/ &middot; *EM-uh-ruhld*
+**Pronunciation:** /ˈɛmərəld/ &middot; *EM-uh-ruhld*
 **Русский:** изумруд
 **Plural:** *emeralds*
 **Countability:** countable
@@ -709,7 +709,7 @@ A knot with two loops, tied for decoration.
 
 ### umbrella
 
-**Pronunciation:** /ʌmˈbrelə/ &middot; *um-BREL-uh*
+**Pronunciation:** /ʌmˈbrɛlə/ &middot; *um-BREL-uh*
 **Русский:** зонт
 **Plural:** *umbrellas*
 **Countability:** countable
@@ -754,7 +754,7 @@ A narrow strip of cloth used for tying or decorating.
 
 ### barrette
 
-**Pronunciation:** /bəˈret/ &middot; *buh-RET*
+**Pronunciation:** /bəˈrɛt/ &middot; *buh-RET*
 **Русский:** заколка для волос
 **Plural:** *barrettes*
 **Countability:** countable
@@ -845,7 +845,7 @@ A small card or piece of metal worn to show who you are.
 
 ### accessory
 
-**Pronunciation:** /əkˈsesəri/ &middot; *uhk-SES-uh-ree*
+**Pronunciation:** /əkˈsɛsəri/ &middot; *uhk-SES-uh-ree*
 **Русский:** аксессуар
 **Plural:** *accessories*
 **Countability:** countable
@@ -892,7 +892,7 @@ Something you keep or buy to remember a place or an event.
 
 ### lens
 
-**Pronunciation:** /lenz/ &middot; *LENZ*
+**Pronunciation:** /lɛnz/ &middot; *LENZ*
 **Русский:** линза, стекло очков
 **Plural:** *lenses*
 **Countability:** countable
@@ -1155,7 +1155,7 @@ A treatment that cleans, shapes, and paints the fingernails.
 
 ### pedicure
 
-**Pronunciation:** /ˈpedəkjʊr/ &middot; *PED-ih-kyoor*
+**Pronunciation:** /ˈpɛdəkjʊr/ &middot; *PED-ih-kyoor*
 **Русский:** педикюр
 **Plural:** *pedicures*
 **Countability:** countable
@@ -1198,7 +1198,7 @@ A liquid you rinse your mouth with to clean it.
 
 ### hairbrush
 
-**Pronunciation:** /ˈherbrʌʃ/ &middot; *HAIR-brush*
+**Pronunciation:** /ˈhɛrbrʌʃ/ &middot; *HAIR-brush*
 **Русский:** щётка для волос
 **Plural:** *hairbrushes*
 **Countability:** countable
@@ -1213,7 +1213,7 @@ A brush with stiff bristles used on the hair.
 
 ### hairspray
 
-**Pronunciation:** /ˈherspreɪ/ &middot; *HAIR-spray*
+**Pronunciation:** /ˈhɛrspreɪ/ &middot; *HAIR-spray*
 **Русский:** лак для волос
 **Countability:** uncountable
 
@@ -1243,7 +1243,7 @@ A thick soothing cream, especially for the lips or skin.
 
 ### cosmetics
 
-**Pronunciation:** /kɑːzˈmetɪks/ &middot; *kahz-MET-iks*
+**Pronunciation:** /kɑːzˈmɛtɪks/ &middot; *kahz-MET-iks*
 **Русский:** косметика
 **Countability:** uncountable
 **Contrast:** Used only in the plural — cosmetics, never a cosmetic.

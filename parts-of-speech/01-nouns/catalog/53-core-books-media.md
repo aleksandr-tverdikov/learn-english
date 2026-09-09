@@ -71,7 +71,7 @@ The name given to a book, article, film, or song.
 
 ### preface
 
-**Pronunciation:** /ˈprefəs/ &middot; *PREF-uhs*
+**Pronunciation:** /ˈprɛfəs/ &middot; *PREF-uhs*
 **Русский:** предисловие (автора)
 **Plural:** *prefaces*
 **Countability:** countable
@@ -132,7 +132,7 @@ A separate opening scene that comes before the first chapter of a story.
 
 ### epilogue
 
-**Pronunciation:** /ˈepəlɔːɡ/ &middot; *EP-uh-lawg*
+**Pronunciation:** /ˈɛpəlɔːɡ/ &middot; *EP-uh-lawg*
 **Русский:** эпилог
 **Plural:** *epilogues*
 **Countability:** countable
@@ -162,7 +162,7 @@ A list of special terms with their meanings, usually at the back of a book.
 
 ### endnote
 
-**Pronunciation:** /ˈendnoʊt/ &middot; *END-noht*
+**Pronunciation:** /ˈɛndnoʊt/ &middot; *END-noht*
 **Русский:** концевая сноска, примечание в конце
 **Plural:** *endnotes*
 **Countability:** countable
@@ -389,7 +389,7 @@ The legal right to control who may print or use a piece of writing, music, or ar
 
 ### dedication
 
-**Pronunciation:** /ˌdedɪˈkeɪʃən/ &middot; *ded-ih-KAY-shuhn*
+**Pronunciation:** /ˌdɛdɪˈkeɪʃən/ &middot; *ded-ih-KAY-shuhn*
 **Русский:** посвящение (в книге)
 **Plural:** *dedications*
 **Countability:** countable
@@ -508,7 +508,7 @@ The business of producing books, magazines, and newspapers.
 
 ### press
 
-**Pronunciation:** /pres/ &middot; *PRES*
+**Pronunciation:** /prɛs/ &middot; *PRES*
 **Русский:** пресса, СМИ
 **Countability:** uncountable
 
@@ -551,7 +551,7 @@ A long made-up story published as a book.
 
 ### novella
 
-**Pronunciation:** /noʊˈvelə/ &middot; *noh-VEL-uh*
+**Pronunciation:** /noʊˈvɛlə/ &middot; *noh-VEL-uh*
 **Русский:** повесть
 **Plural:** *novellas*
 **Countability:** countable
@@ -639,7 +639,7 @@ The story of a person's life written by that person.
 
 ### memoir
 
-**Pronunciation:** /ˈmemwɑːr/ &middot; *MEM-wahr*
+**Pronunciation:** /ˈmɛmwɑːr/ &middot; *MEM-wahr*
 **Русский:** мемуары, воспоминания
 **Plural:** *memoirs*
 **Countability:** countable
@@ -807,7 +807,7 @@ A funny drawing in a newspaper or magazine, or a short animated film.
 
 ### bestseller
 
-**Pronunciation:** /ˌbestˈselər/ &middot; *best-SEL-ur*
+**Pronunciation:** /ˌbɛstˈsɛlər/ &middot; *best-SEL-ur*
 **Русский:** бестселлер
 **Plural:** *bestsellers*
 **Countability:** countable
@@ -822,7 +822,7 @@ A book that sells in very large numbers.
 
 ### excerpt
 
-**Pronunciation:** /ˈeksɜːrpt/ &middot; *EK-surpt*
+**Pronunciation:** /ˈɛksɜːrpt/ &middot; *EK-surpt*
 **Русский:** отрывок, выдержка
 **Plural:** *excerpts*
 **Countability:** countable
@@ -974,7 +974,7 @@ Money paid to an author or musician for each copy of their work that sells.
 
 ### censorship
 
-**Pronunciation:** /ˈsensərʃɪp/ &middot; *SEN-sur-ship*
+**Pronunciation:** /ˈsɛnsərʃɪp/ &middot; *SEN-sur-ship*
 **Русский:** цензура
 **Countability:** uncountable
 
@@ -1034,7 +1034,7 @@ A shop that sells books.
 
 ### bookshelf
 
-**Pronunciation:** /ˈbʊkʃelf/ &middot; *BUUK-shelf*
+**Pronunciation:** /ˈbʊkʃɛlf/ &middot; *BUUK-shelf*
 **Русский:** книжная полка
 **Plural:** *bookshelves*
 **Countability:** countable
@@ -1171,7 +1171,7 @@ A piece of writing about one subject in a newspaper, magazine, or website.
 
 ### headline
 
-**Pronunciation:** /ˈhedlaɪn/ &middot; *HED-lyn*
+**Pronunciation:** /ˈhɛdlaɪn/ &middot; *HED-lyn*
 **Русский:** заголовок (в газете)
 **Plural:** *headlines*
 **Countability:** countable
@@ -1201,7 +1201,7 @@ The line naming the reporter who wrote an article.
 
 ### editorial
 
-**Pronunciation:** /ˌedɪˈtɔːriəl/ &middot; *ed-ih-TOR-ee-uhl*
+**Pronunciation:** /ˌɛdɪˈtɔːriəl/ &middot; *ed-ih-TOR-ee-uhl*
 **Русский:** редакционная статья, передовица
 **Plural:** *editorials*
 **Countability:** countable
@@ -1396,7 +1396,7 @@ A group of words taken from a book or speech and repeated exactly.
 
 ### obituary
 
-**Pronunciation:** /oʊˈbɪtʃueri/ &middot; *oh-BICH-oo-er-ee*
+**Pronunciation:** /oʊˈbɪtʃuɛri/ &middot; *oh-BICH-oo-er-ee*
 **Русский:** некролог
 **Plural:** *obituaries*
 **Countability:** countable
@@ -1471,7 +1471,7 @@ A small open stall on a street or in a station that sells papers and magazines.
 
 ### newsletter
 
-**Pronunciation:** /ˈnuːzletər/ &middot; *NOOZ-let-ur*
+**Pronunciation:** /ˈnuːzlɛtər/ &middot; *NOOZ-let-ur*
 **Русский:** рассылка, информационный бюллетень
 **Plural:** *newsletters*
 **Countability:** countable
@@ -1560,7 +1560,7 @@ A magazine or journal that comes out at regular times.
 
 ### digest
 
-**Pronunciation:** /ˈdaɪdʒest/ &middot; *DY-jest*
+**Pronunciation:** /ˈdaɪdʒɛst/ &middot; *DY-jest*
 **Русский:** дайджест, сборник кратких материалов
 **Plural:** *digests*
 **Countability:** countable
@@ -1621,7 +1621,7 @@ The first page of a newspaper, where the biggest stories go.
 
 ### press release
 
-**Pronunciation:** /ˈpres rɪˌliːs/ &middot; *PRES rih-lees*
+**Pronunciation:** /ˈprɛs rɪˌliːs/ &middot; *PRES rih-lees*
 **Русский:** пресс-релиз
 **Plural:** *press releases*
 **Countability:** countable
@@ -1636,7 +1636,7 @@ A short official statement a company or agency sends to reporters.
 
 ### op-ed
 
-**Pronunciation:** /ˌɑːpˈed/ &middot; *ahp-ED*
+**Pronunciation:** /ˌɑːpˈɛd/ &middot; *ahp-ED*
 **Русский:** авторская колонка (мнение)
 **Plural:** *op-eds*
 **Countability:** countable
@@ -1681,7 +1681,7 @@ A company or person that sends out radio or television programs.
 
 ### television
 
-**Pronunciation:** /ˈteləvɪʒən/ &middot; *TEL-uh-vizh-uhn*
+**Pronunciation:** /ˈtɛləvɪʒən/ &middot; *TEL-uh-vizh-uhn*
 **Русский:** телевидение; телевизор
 **Plural:** *televisions*
 **Countability:** both — countable and uncountable with different meanings
@@ -1727,7 +1727,7 @@ A television or radio program, especially an entertaining one.
 
 ### episode
 
-**Pronunciation:** /ˈepəsoʊd/ &middot; *EP-uh-sohd*
+**Pronunciation:** /ˈɛpəsoʊd/ &middot; *EP-uh-sohd*
 **Русский:** серия, эпизод
 **Plural:** *episodes*
 **Countability:** countable
@@ -1804,7 +1804,7 @@ A measure of how many people watch or listen to a program.
 
 ### documentary
 
-**Pronunciation:** /ˌdɑːkjəˈmentəri/ &middot; *dah-kyuh-MEN-tuh-ree*
+**Pronunciation:** /ˌdɑːkjəˈmɛntəri/ &middot; *dah-kyuh-MEN-tuh-ree*
 **Русский:** документальный фильм
 **Plural:** *documentaries*
 **Countability:** countable
@@ -1894,7 +1894,7 @@ The person who asks the questions in an interview.
 
 ### segment
 
-**Pronunciation:** /ˈseɡmənt/ &middot; *SEG-muhnt*
+**Pronunciation:** /ˈsɛɡmənt/ &middot; *SEG-muhnt*
 **Русский:** сюжет, рубрика (в передаче)
 **Plural:** *segments*
 **Countability:** countable

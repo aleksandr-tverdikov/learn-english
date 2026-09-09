@@ -131,7 +131,7 @@ A large black bird like a crow but bigger, with a deeper call.
 
 ### sparrow
 
-**Pronunciation:** /ˈsperoʊ/ &middot; *SPAIR-oh*
+**Pronunciation:** /ˈspɛroʊ/ &middot; *SPAIR-oh*
 **Русский:** воробей
 **Plural:** *sparrows*
 **Countability:** countable
@@ -209,7 +209,7 @@ A large white water bird with a long curved neck.
 
 ### penguin
 
-**Pronunciation:** /ˈpeŋɡwɪn/ &middot; *PENG-gwin*
+**Pronunciation:** /ˈpɛŋɡwɪn/ &middot; *PENG-gwin*
 **Русский:** пингвин
 **Plural:** *penguins*
 **Countability:** countable
@@ -239,7 +239,7 @@ A very large flightless African bird that runs fast.
 
 ### parrot
 
-**Pronunciation:** /ˈperət/ &middot; *PAIR-ut*
+**Pronunciation:** /ˈpɛrət/ &middot; *PAIR-ut*
 **Русский:** попугай
 **Plural:** *parrots*
 **Countability:** countable
@@ -254,7 +254,7 @@ A brightly colored tropical bird with a curved beak that can copy speech.
 
 ### parakeet
 
-**Pronunciation:** /ˈperəkiːt/ &middot; *PAIR-uh-keet*
+**Pronunciation:** /ˈpɛrəkiːt/ &middot; *PAIR-uh-keet*
 **Русский:** волнистый попугайчик
 **Plural:** *parakeets*
 **Countability:** countable
@@ -376,7 +376,7 @@ A tall long-necked bird that lives in wetlands.
 
 ### heron
 
-**Pronunciation:** /ˈherən/ &middot; *HAIR-un*
+**Pronunciation:** /ˈhɛrən/ &middot; *HAIR-un*
 **Русский:** цапля
 **Plural:** *herons*
 **Countability:** countable
@@ -391,7 +391,7 @@ A wading bird with long legs and a sharp bill that spears fish.
 
 ### pelican
 
-**Pronunciation:** /ˈpelɪkən/ &middot; *PEL-ih-kun*
+**Pronunciation:** /ˈpɛlɪkən/ &middot; *PEL-ih-kun*
 **Русский:** пеликан
 **Plural:** *pelicans*
 **Countability:** countable
@@ -422,7 +422,7 @@ A small fast bird with pointed wings and a forked tail.
 
 ### woodpecker
 
-**Pronunciation:** /ˈwʊdpekər/ &middot; *WUUD-pek-ur*
+**Pronunciation:** /ˈwʊdpɛkər/ &middot; *WUUD-pek-ur*
 **Русский:** дятел
 **Plural:** *woodpeckers*
 **Countability:** countable
@@ -452,7 +452,7 @@ A tiny bird that hovers in front of flowers and beats its wings very fast.
 
 ### canary
 
-**Pronunciation:** /kəˈneri/ &middot; *kuh-NAIR-ee*
+**Pronunciation:** /kəˈnɛri/ &middot; *kuh-NAIR-ee*
 **Русский:** канарейка
 **Plural:** *canaries*
 **Countability:** countable
@@ -618,7 +618,7 @@ A North American songbird; the male is bright red with a crest.
 
 ### wren
 
-**Pronunciation:** /ren/ &middot; *REN*
+**Pronunciation:** /rɛn/ &middot; *REN*
 **Русский:** крапивник
 **Plural:** *wrens*
 **Countability:** countable
@@ -787,7 +787,7 @@ An adult male chicken.
 
 ### hen
 
-**Pronunciation:** /hen/ &middot; *HEN*
+**Pronunciation:** /hɛn/ &middot; *HEN*
 **Русский:** курица (несушка)
 **Plural:** *hens*
 **Countability:** countable
@@ -1047,7 +1047,7 @@ A bird that kills and eats other animals.
 
 ### feather
 
-**Pronunciation:** /ˈfeðər/ &middot; *FE-thur*
+**Pronunciation:** /ˈfɛðər/ &middot; *FE-thur*
 **Русский:** перо
 **Plural:** *feathers*
 **Countability:** countable
@@ -1124,7 +1124,7 @@ A claw on a bird of prey.
 
 ### crest
 
-**Pronunciation:** /krest/ &middot; *KREST*
+**Pronunciation:** /krɛst/ &middot; *KREST*
 **Русский:** хохолок, гребень
 **Plural:** *crests*
 **Countability:** countable
@@ -1426,7 +1426,7 @@ A bird that has just come out of its egg.
 
 ### fledgling
 
-**Pronunciation:** /ˈfledʒlɪŋ/ &middot; *FLEJ-ling*
+**Pronunciation:** /ˈflɛdʒlɪŋ/ &middot; *FLEJ-ling*
 **Русский:** слёток, оперившийся птенец
 **Plural:** *fledglings*
 **Countability:** countable
@@ -1501,7 +1501,7 @@ A scientist who studies birds.
 
 ### aviary
 
-**Pronunciation:** /ˈeɪvieri/ &middot; *AY-vee-air-ee*
+**Pronunciation:** /ˈeɪviɛri/ &middot; *AY-vee-air-ee*
 **Русский:** вольер для птиц, птичник
 **Plural:** *aviaries*
 **Countability:** countable
@@ -1637,7 +1637,7 @@ The V-shaped bone in a bird's chest, pulled apart for luck.
 
 ### scarecrow
 
-**Pronunciation:** /ˈskerkroʊ/ &middot; *SKAIR-kroh*
+**Pronunciation:** /ˈskɛrkroʊ/ &middot; *SKAIR-kroh*
 **Русский:** пугало
 **Plural:** *scarecrows*
 **Countability:** countable
@@ -1652,7 +1652,7 @@ A figure dressed in old clothes, put in a field to frighten birds away.
 
 ### pecking order
 
-**Pronunciation:** /ˈpekɪŋ ˌɔːrdər/ &middot; *PEK-ing OR-dur*
+**Pronunciation:** /ˈpɛkɪŋ ˌɔːrdər/ &middot; *PEK-ing OR-dur*
 **Русский:** иерархия, «порядок клевания»
 **Plural:** *pecking orders*
 **Countability:** countable

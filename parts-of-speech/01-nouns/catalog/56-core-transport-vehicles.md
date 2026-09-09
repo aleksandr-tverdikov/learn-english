@@ -133,7 +133,7 @@ A small vehicle you stand or sit on, moved by a foot or a small engine.
 
 ### moped
 
-**Pronunciation:** /ˈmoʊped/ &middot; *MOH-ped*
+**Pronunciation:** /ˈmoʊpɛd/ &middot; *MOH-ped*
 **Русский:** мопед
 **Plural:** *mopeds*
 **Countability:** countable
@@ -332,7 +332,7 @@ A wheeled seat for pushing a small child around.
 
 ### sled
 
-**Pronunciation:** /sled/ &middot; *SLED*
+**Pronunciation:** /slɛd/ &middot; *SLED*
 **Русский:** санки
 **Plural:** *sleds*
 **Countability:** countable
@@ -364,7 +364,7 @@ A large sled pulled by horses or reindeer.
 
 ### carriage
 
-**Pronunciation:** /ˈkerɪdʒ/ &middot; *KEH-rij*
+**Pronunciation:** /ˈkɛrɪdʒ/ &middot; *KEH-rij*
 **Русский:** карета, экипаж
 **Plural:** *carriages*
 **Countability:** countable
@@ -563,7 +563,7 @@ An enclosed freight car with sliding side doors.
 
 ### jet
 
-**Pronunciation:** /dʒet/ &middot; *JET*
+**Pronunciation:** /dʒɛt/ &middot; *JET*
 **Русский:** реактивный самолёт
 **Plural:** *jets*
 **Countability:** countable
@@ -654,7 +654,7 @@ The main body of an aircraft, where passengers and cargo ride.
 
 ### propeller
 
-**Pronunciation:** /prəˈpelər/ &middot; *pruh-PEL-ur*
+**Pronunciation:** /prəˈpɛlər/ &middot; *pruh-PEL-ur*
 **Русский:** винт, пропеллер
 **Plural:** *propellers*
 **Countability:** countable
@@ -1079,7 +1079,7 @@ The bar across the front or back of a car that takes small impacts.
 
 ### fender
 
-**Pronunciation:** /ˈfendər/ &middot; *FEN-dur*
+**Pronunciation:** /ˈfɛndər/ &middot; *FEN-dur*
 **Русский:** крыло (автомобиля)
 **Plural:** *fenders*
 **Countability:** countable
@@ -1095,7 +1095,7 @@ The body panel curving over a wheel.
 
 ### headlight
 
-**Pronunciation:** /ˈhedlaɪt/ &middot; *HED-lyt*
+**Pronunciation:** /ˈhɛdlaɪt/ &middot; *HED-lyt*
 **Русский:** фара
 **Plural:** *headlights*
 **Countability:** countable
@@ -1368,7 +1368,7 @@ The switch and system that start a vehicle's engine.
 
 ### accelerator
 
-**Pronunciation:** /ækˈseləreɪtər/ &middot; *ak-SEL-uh-ray-tur*
+**Pronunciation:** /ækˈsɛləreɪtər/ &middot; *ak-SEL-uh-ray-tur*
 **Русский:** педаль газа, акселератор
 **Plural:** *accelerators*
 **Countability:** countable
@@ -1443,7 +1443,7 @@ The metal ring of a wheel that the tire sits on.
 
 ### tread
 
-**Pronunciation:** /tred/ &middot; *TRED*
+**Pronunciation:** /trɛd/ &middot; *TRED*
 **Русский:** протектор (шины)
 **Countability:** uncountable
 **Contrast:** The ea sounds like the e in bed: TRED.
@@ -1473,7 +1473,7 @@ A panel in a car's roof that opens to let in air and light.
 
 ### seat belt
 
-**Pronunciation:** /ˈsiːt belt/ &middot; *SEET-belt*
+**Pronunciation:** /ˈsiːt bɛlt/ &middot; *SEET-belt*
 **Русский:** ремень безопасности
 **Plural:** *seat belts*
 **Countability:** countable
@@ -1488,7 +1488,7 @@ The strap that holds a person in a vehicle seat.
 
 ### airbag
 
-**Pronunciation:** /ˈerbæɡ/ &middot; *AIR-bag*
+**Pronunciation:** /ˈɛrbæɡ/ &middot; *AIR-bag*
 **Русский:** подушка безопасности
 **Plural:** *airbags*
 **Countability:** countable
@@ -1503,7 +1503,7 @@ A bag that inflates instantly in a crash to protect a passenger.
 
 ### headrest
 
-**Pronunciation:** /ˈhedrest/ &middot; *HED-rest*
+**Pronunciation:** /ˈhɛdrɛst/ &middot; *HED-rest*
 **Русский:** подголовник
 **Plural:** *headrests*
 **Countability:** countable
@@ -1565,7 +1565,7 @@ The container in a vehicle that holds its fuel.
 
 ### spare tire
 
-**Pronunciation:** /ˈsper ˌtaɪrr/ &middot; *SPAIR-ty-ur*
+**Pronunciation:** /ˈspɛr ˌtaɪrr/ &middot; *SPAIR-ty-ur*
 **Русский:** запасное колесо, запаска
 **Plural:** *spare tires*
 **Countability:** countable
@@ -1702,7 +1702,7 @@ The rubber balloon inside a tire that holds the air.
 
 ### reflector
 
-**Pronunciation:** /rɪˈflektər/ &middot; *rih-FLEK-tur*
+**Pronunciation:** /rɪˈflɛktər/ &middot; *rih-FLEK-tur*
 **Русский:** отражатель, катафот
 **Plural:** *reflectors*
 **Countability:** countable
@@ -1778,7 +1778,7 @@ A trip in a vehicle, especially one someone gives you.
 
 ### wreck
 
-**Pronunciation:** /rek/ &middot; *REK*
+**Pronunciation:** /rɛk/ &middot; *REK*
 **Русский:** авария; разбитая машина
 **Plural:** *wrecks*
 **Countability:** countable
@@ -1869,7 +1869,7 @@ The crew car at the end of an old freight train.
 
 ### jet ski
 
-**Pronunciation:** /ˈdʒet skiː/ &middot; *JET-skee*
+**Pronunciation:** /ˈdʒɛt skiː/ &middot; *JET-skee*
 **Русский:** гидроцикл
 **Plural:** *jet skis*
 **Countability:** countable
@@ -1914,7 +1914,7 @@ A small boat with a powerful engine, built to go fast.
 
 ### hot-air balloon
 
-**Pronunciation:** /ˌhɑːt er bəˈluːn/ &middot; *haht-air-buh-LOON*
+**Pronunciation:** /ˌhɑːt ɛr bəˈluːn/ &middot; *haht-air-buh-LOON*
 **Русский:** воздушный шар
 **Plural:** *hot-air balloons*
 **Countability:** countable
@@ -2263,7 +2263,7 @@ A cycle with a single wheel, ridden for balance and show.
 
 ### timing belt
 
-**Pronunciation:** /ˈtaɪmɪŋ belt/ &middot; *TY-ming-belt*
+**Pronunciation:** /ˈtaɪmɪŋ bɛlt/ &middot; *TY-ming-belt*
 **Русский:** ремень ГРМ
 **Plural:** *timing belts*
 **Countability:** countable
@@ -2308,7 +2308,7 @@ The rubber strip on a wiper arm that sweeps the windshield.
 
 ### brake pedal
 
-**Pronunciation:** /ˈbreɪk ˌpedəl/ &middot; *BRAYK-ped-uhl*
+**Pronunciation:** /ˈbreɪk ˌpɛdəl/ &middot; *BRAYK-ped-uhl*
 **Русский:** педаль тормоза
 **Plural:** *brake pedals*
 **Countability:** countable
@@ -2323,7 +2323,7 @@ The pedal a driver presses to slow the car down.
 
 ### gas pedal
 
-**Pronunciation:** /ˈɡæs ˌpedəl/ &middot; *GAS-ped-uhl*
+**Pronunciation:** /ˈɡæs ˌpɛdəl/ &middot; *GAS-ped-uhl*
 **Русский:** педаль газа
 **Plural:** *gas pedals*
 **Countability:** countable

@@ -433,7 +433,7 @@ A tool for turning screws.
 
 ### wrench
 
-**Pronunciation:** /rentʃ/ &middot; *RENCH*
+**Pronunciation:** /rɛntʃ/ &middot; *RENCH*
 **Русский:** гаечный ключ
 **Plural:** *wrenches*
 **Countability:** countable
@@ -494,7 +494,7 @@ A sticky substance used to join things together.
 
 ### thread
 
-**Pronunciation:** /θred/ &middot; *THRED*
+**Pronunciation:** /θrɛd/ &middot; *THRED*
 **Русский:** нитка, нить
 **Plural:** *threads*
 **Countability:** countable, and uncountable as a substance

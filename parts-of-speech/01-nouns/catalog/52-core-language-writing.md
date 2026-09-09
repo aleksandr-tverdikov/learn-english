@@ -131,7 +131,7 @@ The mark that separates parts of a sentence.
 
 ### semicolon
 
-**Pronunciation:** /ˈsemiˌkoʊlən/ &middot; *SEM-ee-koh-luhn*
+**Pronunciation:** /ˈsɛmiˌkoʊlən/ &middot; *SEM-ee-koh-luhn*
 **Русский:** точка с запятой
 **Plural:** *semicolons*
 **Countability:** countable
@@ -240,7 +240,7 @@ The symbol that stands for the word and.
 
 ### exclamation point
 
-**Pronunciation:** /ˌekskləˈmeɪʃən pɔɪnt/ &middot; *eks-kluh-MAY-shuhn point*
+**Pronunciation:** /ˌɛkskləˈmeɪʃən pɔɪnt/ &middot; *eks-kluh-MAY-shuhn point*
 **Русский:** восклицательный знак
 **Plural:** *exclamation points*
 **Countability:** countable
@@ -256,7 +256,7 @@ The mark that shows a shout, surprise, or strong feeling.
 
 ### question mark
 
-**Pronunciation:** /ˈkwestʃən mɑːrk/ &middot; *KWES-chuhn mark*
+**Pronunciation:** /ˈkwɛstʃən mɑːrk/ &middot; *KWES-chuhn mark*
 **Русский:** вопросительный знак
 **Plural:** *question marks*
 **Countability:** countable
@@ -362,7 +362,7 @@ A short word such as he, it, or they that stands in for a noun.
 
 ### preposition
 
-**Pronunciation:** /ˌprepəˈzɪʃən/ &middot; *prep-uh-ZISH-uhn*
+**Pronunciation:** /ˌprɛpəˈzɪʃən/ &middot; *prep-uh-ZISH-uhn*
 **Русский:** предлог
 **Plural:** *prepositions*
 **Countability:** countable
@@ -392,7 +392,7 @@ A word such as and, but, or because that joins parts of a sentence.
 
 ### interjection
 
-**Pronunciation:** /ˌɪntərˈdʒekʃən/ &middot; *in-tur-JEK-shuhn*
+**Pronunciation:** /ˌɪntərˈdʒɛkʃən/ &middot; *in-tur-JEK-shuhn*
 **Русский:** междометие
 **Plural:** *interjections*
 **Countability:** countable
@@ -407,7 +407,7 @@ A word such as wow or ouch that expresses sudden feeling.
 
 ### tense
 
-**Pronunciation:** /tens/ &middot; *TENS*
+**Pronunciation:** /tɛns/ &middot; *TENS*
 **Русский:** время (глагола)
 **Plural:** *tenses*
 **Countability:** countable
@@ -439,7 +439,7 @@ The word in a sentence that receives the action of the verb.
 
 ### predicate
 
-**Pronunciation:** /ˈpredɪkət/ &middot; *PRED-ih-kuht*
+**Pronunciation:** /ˈprɛdɪkət/ &middot; *PRED-ih-kuht*
 **Русский:** сказуемое
 **Plural:** *predicates*
 **Countability:** countable
@@ -515,7 +515,7 @@ The basic form of a verb, usually written with to in front of it.
 
 ### gerund
 
-**Pronunciation:** /ˈdʒerənd/ &middot; *JER-uhnd*
+**Pronunciation:** /ˈdʒɛrənd/ &middot; *JER-uhnd*
 **Русский:** герундий
 **Plural:** *gerunds*
 **Countability:** countable
@@ -545,7 +545,7 @@ The set of forms a verb takes for different persons and tenses.
 
 ### gender
 
-**Pronunciation:** /ˈdʒendər/ &middot; *JEN-dur*
+**Pronunciation:** /ˈdʒɛndər/ &middot; *JEN-dur*
 **Русский:** род (грамматический)
 **Plural:** *genders*
 **Countability:** countable
@@ -635,7 +635,7 @@ A piece added to the end of a word that changes its meaning or its part of speec
 
 ### ending
 
-**Pronunciation:** /ˈendɪŋ/ &middot; *EN-ding*
+**Pronunciation:** /ˈɛndɪŋ/ &middot; *EN-ding*
 **Русский:** окончание (грамматическое)
 **Plural:** *endings*
 **Countability:** countable
@@ -650,7 +650,7 @@ The letters at the end of a word that show its grammatical form.
 
 ### comparative
 
-**Pronunciation:** /kəmˈperətɪv/ &middot; *kuhm-PER-uh-tiv*
+**Pronunciation:** /kəmˈpɛrətɪv/ &middot; *kuhm-PER-uh-tiv*
 **Русский:** сравнительная степень
 **Plural:** *comparatives*
 **Countability:** countable
@@ -771,7 +771,7 @@ A speech sound made by blocking the air, or the letter that spells it.
 
 ### alphabet
 
-**Pronunciation:** /ˈælfəbet/ &middot; *AL-fuh-bet*
+**Pronunciation:** /ˈælfəbɛt/ &middot; *AL-fuh-bet*
 **Русский:** алфавит
 **Plural:** *alphabets*
 **Countability:** countable
@@ -801,7 +801,7 @@ The smallest unit of sound that can change the meaning of a word.
 
 ### accent
 
-**Pronunciation:** /ˈæksent/ &middot; *AK-sent*
+**Pronunciation:** /ˈæksɛnt/ &middot; *AK-sent*
 **Русский:** акцент (в речи)
 **Plural:** *accents*
 **Countability:** countable
@@ -858,7 +858,7 @@ The small form of letters, such as a and b.
 
 ### misspelling
 
-**Pronunciation:** /mɪsˈspelɪŋ/ &middot; *mis-SPEL-ing*
+**Pronunciation:** /mɪsˈspɛlɪŋ/ &middot; *mis-SPEL-ing*
 **Русский:** орфографическая ошибка
 **Plural:** *misspellings*
 **Countability:** countable
@@ -1040,7 +1040,7 @@ The special vocabulary of a trade or profession, hard for outsiders to follow.
 
 ### dialect
 
-**Pronunciation:** /ˈdaɪrlekt/ &middot; *DY-uh-lekt*
+**Pronunciation:** /ˈdaɪrlɛkt/ &middot; *DY-uh-lekt*
 **Русский:** диалект, говор
 **Plural:** *dialects*
 **Countability:** countable
@@ -1069,7 +1069,7 @@ The set of special words used in a particular field.
 
 ### etymology
 
-**Pronunciation:** /ˌetəˈmɑːlədʒi/ &middot; *et-uh-MAH-luh-jee*
+**Pronunciation:** /ˌɛtəˈmɑːlədʒi/ &middot; *et-uh-MAH-luh-jee*
 **Русский:** этимология, происхождение слова
 **Plural:** *etymologies*
 **Countability:** countable
@@ -1174,7 +1174,7 @@ The ability to read and write.
 
 ### section
 
-**Pronunciation:** /ˈsekʃən/ &middot; *SEK-shuhn*
+**Pronunciation:** /ˈsɛkʃən/ &middot; *SEK-shuhn*
 **Русский:** раздел
 **Plural:** *sections*
 **Countability:** countable
@@ -1189,7 +1189,7 @@ One of the parts a piece of writing is divided into.
 
 ### heading
 
-**Pronunciation:** /ˈhedɪŋ/ &middot; *HED-ing*
+**Pronunciation:** /ˈhɛdɪŋ/ &middot; *HED-ing*
 **Русский:** заголовок (раздела)
 **Plural:** *headings*
 **Countability:** countable
@@ -1341,7 +1341,7 @@ A word that ends in the same sound as another, or a poem built on such words.
 
 ### metaphor
 
-**Pronunciation:** /ˈmetəfɔːr/ &middot; *MET-uh-for*
+**Pronunciation:** /ˈmɛtəfɔːr/ &middot; *MET-uh-for*
 **Русский:** метафора
 **Plural:** *metaphors*
 **Countability:** countable
@@ -1492,7 +1492,7 @@ Thick, dark type used to make words stand out.
 
 ### indent
 
-**Pronunciation:** /ˈɪndent/ &middot; *IN-dent*
+**Pronunciation:** /ˈɪndɛnt/ &middot; *IN-dent*
 **Русский:** абзацный отступ
 **Plural:** *indents*
 **Countability:** countable
@@ -1598,7 +1598,7 @@ Careless or unreadable marks made with a pen or pencil.
 
 ### correction
 
-**Pronunciation:** /kəˈrekʃən/ &middot; *kuh-REK-shuhn*
+**Pronunciation:** /kəˈrɛkʃən/ &middot; *kuh-REK-shuhn*
 **Русский:** исправление, поправка
 **Plural:** *corrections*
 **Countability:** countable
@@ -1793,7 +1793,7 @@ The @ symbol, used in email addresses and usernames.
 
 ### accent mark
 
-**Pronunciation:** /ˈæksent mɑːrk/ &middot; *AK-sent mark*
+**Pronunciation:** /ˈæksɛnt mɑːrk/ &middot; *AK-sent mark*
 **Русский:** знак ударения, диакритический знак
 **Plural:** *accent marks*
 **Countability:** countable
@@ -1808,7 +1808,7 @@ A small mark written over a letter to show stress or a change of sound.
 
 ### index card
 
-**Pronunciation:** /ˈɪndeks kɑːrd/ &middot; *IN-deks kard*
+**Pronunciation:** /ˈɪndɛks kɑːrd/ &middot; *IN-deks kard*
 **Русский:** каталожная карточка
 **Plural:** *index cards*
 **Countability:** countable
@@ -1839,7 +1839,7 @@ A yellow lined writing pad with a glued top edge.
 
 ### fountain pen
 
-**Pronunciation:** /ˈfaʊntən pen/ &middot; *FOWN-tuhn pen*
+**Pronunciation:** /ˈfaʊntən pɛn/ &middot; *FOWN-tuhn pen*
 **Русский:** перьевая ручка
 **Plural:** *fountain pens*
 **Countability:** countable
@@ -1854,7 +1854,7 @@ A pen that draws liquid ink from a reservoir inside it.
 
 ### spell-check
 
-**Pronunciation:** /ˈspeltʃek/ &middot; *SPEL-chek*
+**Pronunciation:** /ˈspɛltʃɛk/ &middot; *SPEL-chek*
 **Русский:** проверка орфографии
 **Plural:** *spell-checks*
 **Countability:** countable

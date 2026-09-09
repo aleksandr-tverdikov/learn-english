@@ -11,7 +11,7 @@ Where a word in this field *does* misbehave, it lives in the grammar tier instea
 ---
 ### metal
 
-**Pronunciation:** /ˈmetəl/ &middot; *MET-uhl*
+**Pronunciation:** /ˈmɛtəl/ &middot; *MET-uhl*
 **Русский:** металл
 **Plural:** *metals*
 **Countability:** countable, and uncountable as a substance
@@ -99,7 +99,7 @@ A soft, silvery metal, often used as a coating on other metals.
 
 ### lead
 
-**Pronunciation:** /led/ &middot; *LED*
+**Pronunciation:** /lɛd/ &middot; *LED*
 **Русский:** свинец
 **Countability:** uncountable
 **Contrast:** The metal *lead* is said LED, like the past tense *led* — not LEED, which is the verb *to lead*.
@@ -362,7 +362,7 @@ Strong, coarse cloth used for tents and bags, or a piece of it stretched for pai
 
 ### felt
 
-**Pronunciation:** /felt/ &middot; *FELT*
+**Pronunciation:** /fɛlt/ &middot; *FELT*
 **Русский:** войлок, фетр
 **Countability:** uncountable
 **Contrast:** Written and said exactly like *felt*, the past tense of *feel* — only the sentence tells you which one it is.
@@ -494,7 +494,7 @@ A rubbery synthetic material used for seals, molds, and bakeware.
 
 ### latex
 
-**Pronunciation:** /ˈleɪteks/ &middot; *LAY-teks*
+**Pronunciation:** /ˈleɪtɛks/ &middot; *LAY-teks*
 **Русский:** латекс
 **Countability:** uncountable
 **Contrast:** The first syllable is like *late*: LAY-teks.
@@ -715,7 +715,7 @@ A yellow chemical element that smells of rotten eggs when it burns.
 
 ### asbestos
 
-**Pronunciation:** /æsˈbestəs/ &middot; *as-BES-tuhs*
+**Pronunciation:** /æsˈbɛstəs/ &middot; *as-BES-tuhs*
 **Русский:** асбест
 **Countability:** uncountable
 **Contrast:** Stress on the second syllable: as-BES-tuhs.
@@ -787,7 +787,7 @@ A chemical that tastes sour and can burn or dissolve other substances.
 
 ### chemical
 
-**Pronunciation:** /ˈkemɪkəl/ &middot; *KEM-ih-kuhl*
+**Pronunciation:** /ˈkɛmɪkəl/ &middot; *KEM-ih-kuhl*
 **Русский:** химикат, химическое вещество
 **Plural:** *chemicals*
 **Countability:** countable
@@ -1067,7 +1067,7 @@ A substance made of two or more elements chemically combined.
 
 ### element
 
-**Pronunciation:** /ˈeləmənt/ &middot; *EL-uh-muhnt*
+**Pronunciation:** /ˈɛləmənt/ &middot; *EL-uh-muhnt*
 **Русский:** химический элемент
 **Plural:** *elements*
 **Countability:** countable

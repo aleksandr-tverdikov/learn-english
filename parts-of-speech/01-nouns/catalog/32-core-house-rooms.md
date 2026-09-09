@@ -74,7 +74,7 @@ A set of rooms for living in, on one floor of a larger building.
 
 ### bedroom
 
-**Pronunciation:** /ˈbedruːm/ &middot; *BED-room*
+**Pronunciation:** /ˈbɛdruːm/ &middot; *BED-room*
 **Русский:** спальня
 **Plural:** *bedrooms*
 **Countability:** countable
@@ -242,7 +242,7 @@ A platform with a railing that sticks out from an upper wall of a building.
 
 ### deck
 
-**Pronunciation:** /dek/ &middot; *DEK*
+**Pronunciation:** /dɛk/ &middot; *DEK*
 **Русский:** деревянная терраса, настил
 **Plural:** *decks*
 **Countability:** countable
@@ -363,7 +363,7 @@ An open upper space under a roof, or an apartment made from an old factory floor
 
 ### den
 
-**Pronunciation:** /den/ &middot; *DEN*
+**Pronunciation:** /dɛn/ &middot; *DEN*
 **Русский:** кабинет, комната отдыха
 **Plural:** *dens*
 **Countability:** countable
@@ -378,7 +378,7 @@ A small comfortable room in a house used for reading, watching TV or working.
 
 ### restroom
 
-**Pronunciation:** /ˈrestruːm/ &middot; *REST-room*
+**Pronunciation:** /ˈrɛstruːm/ &middot; *REST-room*
 **Русский:** туалет (в общественном месте)
 **Plural:** *restrooms*
 **Countability:** countable
@@ -591,7 +591,7 @@ A device on a door that keeps it shut until it is opened with a key or code.
 
 ### threshold
 
-**Pronunciation:** /ˈθreʃhoʊld/ &middot; *THRESH-hohld*
+**Pronunciation:** /ˈθrɛʃhoʊld/ &middot; *THRESH-hohld*
 **Русский:** порог
 **Plural:** *thresholds*
 **Countability:** countable
@@ -606,7 +606,7 @@ The strip of floor at the bottom of a doorway.
 
 ### doorstep
 
-**Pronunciation:** /ˈdɔːrstep/ &middot; *DOR-step*
+**Pronunciation:** /ˈdɔːrstɛp/ &middot; *DOR-step*
 **Русский:** порог, ступенька перед дверью
 **Plural:** *doorsteps*
 **Countability:** countable
@@ -621,7 +621,7 @@ The step just outside an outer door.
 
 ### step
 
-**Pronunciation:** /step/ &middot; *STEP*
+**Pronunciation:** /stɛp/ &middot; *STEP*
 **Русский:** ступенька
 **Plural:** *steps*
 **Countability:** countable
@@ -636,7 +636,7 @@ One of the flat surfaces you put your foot on when going up or down.
 
 ### staircase
 
-**Pronunciation:** /ˈsterkeɪs/ &middot; *STAIR-kays*
+**Pronunciation:** /ˈstɛrkeɪs/ &middot; *STAIR-kays*
 **Русский:** лестница (в здании)
 **Plural:** *staircases*
 **Countability:** countable
@@ -681,7 +681,7 @@ A bar or fence along the edge of stairs, a balcony or a porch.
 
 ### elevator
 
-**Pronunciation:** /ˈeləveɪtər/ &middot; *EL-uh-vay-tur*
+**Pronunciation:** /ˈɛləveɪtər/ &middot; *EL-uh-vay-tur*
 **Русский:** лифт
 **Plural:** *elevators*
 **Countability:** countable
@@ -881,7 +881,7 @@ The front outside face of a building.
 
 ### entrance
 
-**Pronunciation:** /ˈentrəns/ &middot; *EN-truhns*
+**Pronunciation:** /ˈɛntrəns/ &middot; *EN-truhns*
 **Русский:** вход
 **Plural:** *entrances*
 **Countability:** countable
@@ -897,7 +897,7 @@ The door or gate by which you go into a place.
 
 ### exit
 
-**Pronunciation:** /ˈeɡzɪt/ &middot; *EG-zit*
+**Pronunciation:** /ˈɛɡzɪt/ &middot; *EG-zit*
 **Русский:** выход
 **Plural:** *exits*
 **Countability:** countable
@@ -1080,7 +1080,7 @@ The hole in a lock that a key goes into.
 
 ### doorbell
 
-**Pronunciation:** /ˈdɔːrbel/ &middot; *DOR-bel*
+**Pronunciation:** /ˈdɔːrbɛl/ &middot; *DOR-bel*
 **Русский:** дверной звонок
 **Plural:** *doorbells*
 **Countability:** countable
@@ -1320,7 +1320,7 @@ The hole and pipe that carries used water away.
 
 ### vent
 
-**Pronunciation:** /vent/ &middot; *VENT*
+**Pronunciation:** /vɛnt/ &middot; *VENT*
 **Русский:** вентиляционное отверстие, отдушина
 **Plural:** *vents*
 **Countability:** countable
@@ -1379,7 +1379,7 @@ The system of electrical wires inside a building.
 
 ### outlet
 
-**Pronunciation:** /ˈaʊtlet/ &middot; *OWT-let*
+**Pronunciation:** /ˈaʊtlɛt/ &middot; *OWT-let*
 **Русский:** электрическая розетка
 **Plural:** *outlets*
 **Countability:** countable
@@ -1471,7 +1471,7 @@ A door in a fence or wall around a yard or property.
 
 ### fence
 
-**Pronunciation:** /fens/ &middot; *FENS*
+**Pronunciation:** /fɛns/ &middot; *FENS*
 **Русский:** забор, ограда
 **Plural:** *fences*
 **Countability:** countable
@@ -1502,7 +1502,7 @@ A narrow way for walking, made by use or laid with stone.
 
 ### terrace
 
-**Pronunciation:** /ˈterəs/ &middot; *TER-uhs*
+**Pronunciation:** /ˈtɛrəs/ &middot; *TER-uhs*
 **Русский:** терраса
 **Plural:** *terraces*
 **Countability:** countable
@@ -1517,7 +1517,7 @@ A flat paved outdoor area next to a building.
 
 ### shed
 
-**Pronunciation:** /ʃed/ &middot; *SHED*
+**Pronunciation:** /ʃɛd/ &middot; *SHED*
 **Русский:** сарай, хозблок
 **Plural:** *sheds*
 **Countability:** countable
@@ -1577,7 +1577,7 @@ An area of short cut grass around a house or building.
 
 ### hedge
 
-**Pronunciation:** /hedʒ/ &middot; *HEJ*
+**Pronunciation:** /hɛdʒ/ &middot; *HEJ*
 **Русский:** живая изгородь
 **Plural:** *hedges*
 **Countability:** countable
@@ -1730,7 +1730,7 @@ A flat work surface in a kitchen, or a long table you are served at.
 
 ### architecture
 
-**Pronunciation:** /ˈɑːrkɪtektʃər/ &middot; *AR-kih-tek-chur*
+**Pronunciation:** /ˈɑːrkɪtɛktʃər/ &middot; *AR-kih-tek-chur*
 **Русский:** архитектура
 **Countability:** uncountable
 
@@ -1758,7 +1758,7 @@ The work of building things such as houses and roads.
 
 ### renovation
 
-**Pronunciation:** /ˌrenəˈveɪʃən/ &middot; *ren-uh-VAY-shuhn*
+**Pronunciation:** /ˌrɛnəˈveɪʃən/ &middot; *ren-uh-VAY-shuhn*
 **Русский:** ремонт, реконструкция
 **Plural:** *renovations*
 **Countability:** countable

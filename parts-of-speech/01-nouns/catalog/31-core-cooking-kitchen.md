@@ -803,7 +803,7 @@ A cloth spread over a table before a meal.
 
 ### silverware
 
-**Pronunciation:** /ˈsɪlvərwer/ &middot; *SIL-vur-wair*
+**Pronunciation:** /ˈsɪlvərwɛr/ &middot; *SIL-vur-wair*
 **Русский:** столовые приборы
 **Countability:** uncountable
 **Contrast:** Uncountable — never 'a silverware' or 'silverwares'. British English says cutlery.
@@ -818,7 +818,7 @@ The knives, forks, and spoons used at a meal.
 
 ### cookware
 
-**Pronunciation:** /ˈkʊkwer/ &middot; *KOOK-wair*
+**Pronunciation:** /ˈkʊkwɛr/ &middot; *KOOK-wair*
 **Русский:** кухонная посуда (кастрюли и сковороды)
 **Countability:** uncountable
 **Contrast:** Uncountable, like equipment: a piece of cookware, never 'cookwares'.
@@ -833,7 +833,7 @@ Pots and pans considered together.
 
 ### utensil
 
-**Pronunciation:** /juːˈtensəl/ &middot; *yoo-TEN-sul*
+**Pronunciation:** /juːˈtɛnsəl/ &middot; *yoo-TEN-sul*
 **Русский:** кухонная принадлежность, столовый прибор
 **Plural:** *utensils*
 **Countability:** countable
@@ -938,7 +938,7 @@ Gentle cooking in liquid just below boiling.
 
 ### dressing
 
-**Pronunciation:** /ˈdresɪŋ/ &middot; *DREH-sing*
+**Pronunciation:** /ˈdrɛsɪŋ/ &middot; *DREH-sing*
 **Русский:** заправка для салата
 **Plural:** *dressings*
 **Countability:** countable, and uncountable as food
@@ -953,7 +953,7 @@ A sauce of oil and vinegar or cream poured over salad.
 
 ### marinade
 
-**Pronunciation:** /ˈmerəneɪd/ &middot; *MEH-ruh-nayd*
+**Pronunciation:** /ˈmɛrəneɪd/ &middot; *MEH-ruh-nayd*
 **Русский:** маринад
 **Plural:** *marinades*
 **Countability:** countable, and uncountable as food
@@ -1044,7 +1044,7 @@ The sensation food produces in your mouth, or a small sample of it.
 
 ### texture
 
-**Pronunciation:** /ˈtekstʃər/ &middot; *TEKS-chur*
+**Pronunciation:** /ˈtɛkstʃər/ &middot; *TEKS-chur*
 **Русский:** текстура, консистенция
 **Plural:** *textures*
 **Countability:** countable
@@ -1117,7 +1117,7 @@ Ingredients that have been combined together.
 
 ### zest
 
-**Pronunciation:** /zest/ &middot; *ZEST*
+**Pronunciation:** /zɛst/ &middot; *ZEST*
 **Русский:** цедра
 **Countability:** uncountable
 

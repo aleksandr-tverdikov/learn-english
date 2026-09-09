@@ -823,7 +823,7 @@ Someone who fights against the government of his own country.
 
 ### mercenary
 
-**Pronunciation:** /ˈmɜːrsəneri/ &middot; *MUR-suh-ner-ee*
+**Pronunciation:** /ˈmɜːrsənɛri/ &middot; *MUR-suh-ner-ee*
 **Русский:** наёмник
 **Plural:** *mercenaries*
 **Countability:** countable

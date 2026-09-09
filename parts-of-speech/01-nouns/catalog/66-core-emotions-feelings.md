@@ -53,7 +53,7 @@ Open, often slightly gloating happiness.
 
 ### ecstasy
 
-**Pronunciation:** /ˈekstəsi/ &middot; *EK-stuh-see*
+**Pronunciation:** /ˈɛkstəsi/ &middot; *EK-stuh-see*
 **Русский:** экстаз, восторг
 **Countability:** uncountable
 
@@ -81,7 +81,7 @@ A short, intense feeling of happiness and excitement.
 
 ### contentment
 
-**Pronunciation:** /kənˈtentmənt/ &middot; *kuhn-TENT-muhnt*
+**Pronunciation:** /kənˈtɛntmənt/ &middot; *kuhn-TENT-muhnt*
 **Русский:** удовлетворённость, довольство
 **Countability:** uncountable
 **Contrast:** The related noun *content* (=содержимое) is stressed KAHN-tent, but *contentment* keeps the second-syllable stress: kuhn-TENT-muhnt.
@@ -168,7 +168,7 @@ Respect and approval for someone or something.
 
 ### affection
 
-**Pronunciation:** /əˈfekʃən/ &middot; *uh-FEK-shuhn*
+**Pronunciation:** /əˈfɛkʃən/ &middot; *uh-FEK-shuhn*
 **Русский:** привязанность, нежность
 **Countability:** uncountable
 
@@ -224,7 +224,7 @@ A feeling of sorrow for someone else's trouble.
 
 ### empathy
 
-**Pronunciation:** /ˈempəθi/ &middot; *EM-puh-thee*
+**Pronunciation:** /ˈɛmpəθi/ &middot; *EM-puh-thee*
 **Русский:** эмпатия, сопереживание
 **Countability:** uncountable
 
@@ -267,7 +267,7 @@ Friendly, generous behavior, or an act of it.
 
 ### generosity
 
-**Pronunciation:** /ˌdʒenəˈrɑːsəti/ &middot; *jen-uh-RAH-suh-tee*
+**Pronunciation:** /ˌdʒɛnəˈrɑːsəti/ &middot; *jen-uh-RAH-suh-tee*
 **Русский:** щедрость
 **Countability:** uncountable
 
@@ -552,7 +552,7 @@ Great unhappiness or suffering.
 
 ### despair
 
-**Pronunciation:** /dɪˈsper/ &middot; *dih-SPAIR*
+**Pronunciation:** /dɪˈspɛr/ &middot; *dih-SPAIR*
 **Русский:** отчаяние
 **Countability:** uncountable
 
@@ -624,7 +624,7 @@ Extreme physical or mental pain.
 
 ### torment
 
-**Pronunciation:** /ˈtɔːrment/ &middot; *TOR-ment*
+**Pronunciation:** /ˈtɔːrmɛnt/ &middot; *TOR-ment*
 **Русский:** мучение, терзание
 **Plural:** *torments*
 **Countability:** countable
@@ -768,7 +768,7 @@ The dull feeling of having nothing interesting to do.
 
 ### melancholy
 
-**Pronunciation:** /ˈmelənkɑːli/ &middot; *MEL-uhn-kah-lee*
+**Pronunciation:** /ˈmɛlənkɑːli/ &middot; *MEL-uhn-kah-lee*
 **Русский:** меланхолия, грусть
 **Countability:** uncountable
 **Contrast:** The ch is /k/ and the stress lands on the first syllable: MEL-uhn-kah-lee.
@@ -825,7 +825,7 @@ Shocked anger at something unfair or offensive.
 
 ### resentment
 
-**Pronunciation:** /rɪˈzentmənt/ &middot; *rih-ZENT-muhnt*
+**Pronunciation:** /rɪˈzɛntmənt/ &middot; *rih-ZENT-muhnt*
 **Русский:** обида, негодование
 **Countability:** uncountable
 
@@ -868,7 +868,7 @@ A lasting bad feeling about an old wrong.
 
 ### revenge
 
-**Pronunciation:** /rɪˈvendʒ/ &middot; *rih-VENJ*
+**Pronunciation:** /rɪˈvɛndʒ/ &middot; *rih-VENJ*
 **Русский:** месть
 **Countability:** uncountable
 
@@ -969,7 +969,7 @@ A feeling of not liking something or someone.
 
 ### envy
 
-**Pronunciation:** /ˈenvi/ &middot; *EN-vee*
+**Pronunciation:** /ˈɛnvi/ &middot; *EN-vee*
 **Русский:** зависть
 **Countability:** uncountable
 
@@ -983,7 +983,7 @@ An unhappy wish to have what someone else has.
 
 ### jealousy
 
-**Pronunciation:** /ˈdʒeləsi/ &middot; *JEL-uh-see*
+**Pronunciation:** /ˈdʒɛləsi/ &middot; *JEL-uh-see*
 **Русский:** ревность; зависть
 **Countability:** uncountable
 **Contrast:** The ea is short — JEL-uh-see, not JEE-luh-see.
@@ -1100,7 +1100,7 @@ A sudden release of strong emotion.
 
 ### meltdown
 
-**Pronunciation:** /ˈmeltdaʊn/ &middot; *MELT-down*
+**Pronunciation:** /ˈmɛltdaʊn/ &middot; *MELT-down*
 **Русский:** срыв, истерика
 **Plural:** *meltdowns*
 **Countability:** countable
@@ -1130,7 +1130,7 @@ A collapse of a person's mental health under stress.
 
 ### terror
 
-**Pronunciation:** /ˈterər/ &middot; *TEH-rur*
+**Pronunciation:** /ˈtɛrər/ &middot; *TEH-rur*
 **Русский:** ужас, страх
 **Countability:** uncountable
 
@@ -1159,7 +1159,7 @@ Shocked fear and disgust at something awful.
 
 ### dread
 
-**Pronunciation:** /dred/ &middot; *DRED*
+**Pronunciation:** /drɛd/ &middot; *DRED*
 **Русский:** страх, ужас (перед чем-то предстоящим)
 **Countability:** uncountable
 **Contrast:** The ea is short — DRED rhymes with *bed*, not with *bead*.
@@ -1249,7 +1249,7 @@ A jumpy, uneasy feeling before something.
 
 ### suspense
 
-**Pronunciation:** /səˈspens/ &middot; *suh-SPENS*
+**Pronunciation:** /səˈspɛns/ &middot; *suh-SPENS*
 **Русский:** напряжённое ожидание, тревожное неведение
 **Countability:** uncountable
 
@@ -1335,7 +1335,7 @@ A lack of confidence about yourself.
 
 ### self-esteem
 
-**Pronunciation:** /ˌself ɪˈstiːm/ &middot; *self-ih-STEEM*
+**Pronunciation:** /ˌsɛlf ɪˈstiːm/ &middot; *self-ih-STEEM*
 **Русский:** самооценка
 **Countability:** uncountable
 
@@ -1363,7 +1363,7 @@ Discomfort around other people.
 
 ### embarrassment
 
-**Pronunciation:** /ɪmˈberəsmənt/ &middot; *im-BEH-ruhs-muhnt*
+**Pronunciation:** /ɪmˈbɛrəsmənt/ &middot; *im-BEH-ruhs-muhnt*
 **Русский:** смущение, неловкость
 **Countability:** uncountable
 **Contrast:** Spelled with double r and double s — em-b-a-r-r-a-s-s-ment.
@@ -1406,7 +1406,7 @@ Loss of respect because of something shameful.
 
 ### regret
 
-**Pronunciation:** /rɪˈɡret/ &middot; *rih-GRET*
+**Pronunciation:** /rɪˈɡrɛt/ &middot; *rih-GRET*
 **Русский:** сожаление
 **Plural:** *regrets*
 **Countability:** countable
@@ -1535,7 +1535,7 @@ A strong, absorbed interest.
 
 ### obsession
 
-**Pronunciation:** /əbˈseʃən/ &middot; *uhb-SESH-uhn*
+**Pronunciation:** /əbˈsɛʃən/ &middot; *uhb-SESH-uhn*
 **Русский:** навязчивая идея, одержимость
 **Plural:** *obsessions*
 **Countability:** countable
@@ -1668,7 +1668,7 @@ A sudden push to act without thinking.
 
 ### temper
 
-**Pronunciation:** /ˈtempər/ &middot; *TEM-pur*
+**Pronunciation:** /ˈtɛmpər/ &middot; *TEM-pur*
 **Русский:** нрав; вспыльчивость
 **Plural:** *tempers*
 **Countability:** countable
@@ -1728,7 +1728,7 @@ A strong feeling such as love, anger, or fear.
 
 ### sentiment
 
-**Pronunciation:** /ˈsentəmənt/ &middot; *SEN-tuh-muhnt*
+**Pronunciation:** /ˈsɛntəmənt/ &middot; *SEN-tuh-muhnt*
 **Русский:** чувство, настроение (мнение)
 **Plural:** *sentiments*
 **Countability:** countable
@@ -1758,7 +1758,7 @@ The way someone thinks and feels about something, shown in behavior.
 
 ### sensitivity
 
-**Pronunciation:** /ˌsensəˈtɪvəti/ &middot; *sen-suh-TIV-uh-tee*
+**Pronunciation:** /ˌsɛnsəˈtɪvəti/ &middot; *sen-suh-TIV-uh-tee*
 **Русский:** чувствительность, ранимость
 **Countability:** uncountable
 
@@ -1800,7 +1800,7 @@ Unwillingness to do something.
 
 ### hesitation
 
-**Pronunciation:** /ˌhezəˈteɪʃən/ &middot; *hez-uh-TAY-shuhn*
+**Pronunciation:** /ˌhɛzəˈteɪʃən/ &middot; *hez-uh-TAY-shuhn*
 **Русский:** колебание, нерешительность
 **Countability:** uncountable
 
@@ -1887,7 +1887,7 @@ A feeling that something is true, based on no hard evidence.
 
 ### preference
 
-**Pronunciation:** /ˈprefərəns/ &middot; *PREF-ur-uhns*
+**Pronunciation:** /ˈprɛfərəns/ &middot; *PREF-ur-uhns*
 **Русский:** предпочтение
 **Plural:** *preferences*
 **Countability:** countable
@@ -2112,7 +2112,7 @@ Behavior that causes pain on purpose.
 
 ### pessimism
 
-**Pronunciation:** /ˈpesəmɪzəm/ &middot; *PES-uh-miz-uhm*
+**Pronunciation:** /ˈpɛsəmɪzəm/ &middot; *PES-uh-miz-uhm*
 **Русский:** пессимизм
 **Countability:** uncountable
 
